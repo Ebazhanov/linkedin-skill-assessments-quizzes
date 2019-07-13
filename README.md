@@ -1,5 +1,5 @@
 # in-quiz-questions
 
-##### GIT
+- ##### [Git](https://github.com/Ebazhanov/in-quiz-questions/blob/master/git/git-quiz.md)
 
-##### Javascript
+- ##### Javascript
