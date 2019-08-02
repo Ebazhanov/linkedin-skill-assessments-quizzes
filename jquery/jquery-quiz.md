@@ -172,7 +172,106 @@ $.get('//example.com/api/v1/message')
      $('.message-area--list').append('<li>'+item+'</li>');
 });`
 
-var tonsOfListItems = tonsOfItems.map(function(itme))  {
+`var tonsOfListItems = tonsOfItems.map(function(itme))  {
      return '<li>'+item+'</li>';
 });
-$('.message-area--list').append(tonsOfListItems.join(''))  
+$('.message-area--list').append(tonsOfListItems.join(''));` 
+
+`Removing the event handlers with JavaScript will be slower than removing them 
+$.each(tonsOfItems, function(idx, item) {
+    $('<li>'+item+'</li>').appendTo($messageList);
+});`
+ 
+`$.each(tonsOfItems, function(idx, item) {
+    $('.message-area--list').append('<li>'+item+'</li>');
+});`
+
+#### Q9. What is jQuery?
+- jQuery is a bridge between Java and Javascript that makes native apps easier to write.
+- jQuery is a plugin for JavaScript that makes database queries easier to write.
+- jQuery is a collection of JavaScript functions that makes finding and manipulating elements on a page, 
+AJAX, and other things easier.
+- jQuery is a Chrome extension that allows users to create their own extensions with just a few lines of JavaScript.
+
+#### Q10. We want to create a new jQuery plugin called linkUpdater that can be chained onto other jQuery
+#### selector like a normal plugin. It should updates all the links in the referenced collection so they open 
+#### in new windows or tabs. Below is the first cut. What is one problem with this plugin?
+( function ( $ ) {
+    "user strict";
+    $.linkUpdater = function() {
+        this.find('a').attr('target', '_blank');
+    }
+) )( jQuery );
+
+- this needs to be wrapped, like $(this), in order to be chained in a plugin. 
+- jQuery plugins can't be safety authored in strict mode.
+- In order to be used by other code, plugins need to be added to the global namespace, not wrapped in
+function expression.
+- Our plugin should extend jQuery.fn, not jQuery itself.
+
+#### Q11. Generally speaking, when used on a web page, how should jQuery be installed, and why?
+- Just before the closing body tag, because we want to avoid blocking other resources from loading, and 
+we use the ready method to make sure our code fires after the DOM is ready
+- Using the highest version number possible because only jQuery 3 and up are compatible with Internet
+Explorer 7
+- In the head tag because we want jQuery available as soon as possible
+- From a CDN because we want to be able to use jQuery online or offline
+
+#### Q12. Given the following HTML, How could we make this button disappear from the page using jQuery?
+<button> class="btn btn-primary" type="submit">Continue to checkout</button>
+
+- $('.btn-primary').hide();
+- $('.btn-primary:visible').not();
+- $('.btn-primary').visibility(false);
+- $('.btn-primary').show(false);
+
+#### Q13. What is the difference between $('header').html()and $('header').text()?
+- $('header').html() returns the inner HTML of the header. $('header').text() returns only the text
+- $('header').html() returns only the HTML tags used, without the text. $('header').text() returns only the text
+- $('header').html() strips all HTML from the header. $('header').text() always returns an empty string.
+- $('header').html() returns all headers in an HTML document. $('header').text() the first line of a text file.
+
+#### Q14. When writing jQuery plugins, we often provide default options that may be overridden by the end user.
+#### What jQuery function is most useful for this purpose?
+
+- $.extend
+- $.clone
+- $.fn.extend
+- $.merge
+
+#### Q15. There are times when you might want to programmatically trigger an event, instead of simply reacting to user 
+#### input directly. Given this markup, Which choice will NOT cause a click event to the select box when 
+#### the button is clicked?
+
+<article>
+    <div>
+      Here's a button you can click: <button class="btn">Click Me</button>
+    </div>   
+    <form>
+        <p>
+            Further down the page, there's a select box.
+        </p>
+        <select>
+            <option value="1">One</option>
+            <option value="2">One</option>
+            <option value="3">One</option>
+            <option value="4">One</option>
+        </select>
+    </form>    
+</article>
+
+`$('button').on('click.myApp', (function() {
+        $('input[type=select]').trigger('click');
+});`
+
+`$('button').on('click', (function() {
+        $('input[type=select]').click();
+});`
+
+`$('button').trigger(function() {
+        $('input[type=select]').click();
+});`
+
+`$('button').click(function() {
+        $('input[type=select]').click();
+});`
