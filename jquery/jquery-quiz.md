@@ -35,6 +35,7 @@ jQuery Assessment
 #### a list of classes). And only after retrieving those data will we perform some manipulations on a page. What is the 
 #### preferred way for dealing with this scenario?
 #### https://example.com/json-api/students https://example.com/json-api/classes
+
 - `$.get([
       'https://example.com/json-api/students',
       'https://example.com/json-api/classes'
@@ -142,6 +143,7 @@ $('#ball').click(function() {
 });`
 
 #### Q7. Given the following CSS and HTML codes below, how could you apply the success class to the feedback div?
+
 .success {
         color: green;
         background: #ddffdd;
