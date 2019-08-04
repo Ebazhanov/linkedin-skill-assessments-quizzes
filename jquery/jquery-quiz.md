@@ -116,7 +116,7 @@ $('#ball').click(function() {
             left: '+=100',
         }, 600)
     }
-});`       
+});` <<<<----CORRECT !      
 
 - `$(this).animate({
     top: '=100',
@@ -214,7 +214,7 @@ AJAX, and other things easier. <<<<---CORRECT !
 - this needs to be wrapped, like $(this), in order to be chained in a plugin. 
 - jQuery plugins can't be safety authored in strict mode.
 - In order to be used by other code, plugins need to be added to the global namespace, not wrapped in
-function expression.
+function expression. <<<---CORRECT !
 - Our plugin should extend jQuery.fn, not jQuery itself.
 
 #### Q11. Generally speaking, when used on a web page, how should jQuery be installed, and why?
@@ -273,7 +273,7 @@ Explorer 7
 
 - `$('button').on('click.myApp', (function() {
         $('input[type=select]').trigger('click');
-});`
+});` <<<<<----CORRECT !
 
 - `$('button').on('click', (function() {
         $('input[type=select]').click());
