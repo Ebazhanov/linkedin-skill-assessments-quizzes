@@ -8,13 +8,15 @@ jQuery Assessment
  $('button').click(function(){
      alert('you clicked the button!');
  });`
-i- Only the second one will work; jQuery does not have a function called .on. <<<<---Correct
+
+- Only the second one will work; jQuery does not have a function called .on. <<<<---Correct
 - The second snippet will not function.
 - Nothing - .click(function) is shorter way to write .on('click', function)
 - The first snippet will execute for every button on the page, the second will only apply to the first button
 
 #### Q2. What does the following line of code do?
 `jQuery('p')`
+
 - Loads a paragraph tag from a remote server using AJAX
 - Aliases jQuery to a variable p
 - Selects all paragraphs on the page <<<<---Correct
@@ -22,6 +24,7 @@ i- Only the second one will work; jQuery does not have a function called .on. <<
  
 #### Q3. Give the following HTML, how could we use one line to hide or show the button?
 `<button class="btn btn-primary" type="submit">Continue to checkout</button>`
+
 - $('.btn-primary').toggle(); ???? // toggle(true); & toggle(false);
 - $('.btn-primary').showHide();
 - $('.btn-primary').not(':visible').show();
@@ -32,28 +35,28 @@ i- Only the second one will work; jQuery does not have a function called .on. <<
 #### a list of classes). And only after retrieving those data will we perform some manipulations on a page. What is the 
 #### preferred way for dealing with this scenario?
 #### https://example.com/json-api/students https://example.com/json-api/classes
-`$.get([
+- `$.get([
       'https://example.com/json-api/students',
       'https://example.com/json-api/classes'
    ], function(studentRequest, classRequest) {
       // the rest of the code goes here
 });`
 
-`$.when(
+- `$.when(
       $.get('https://example.com/json-api/students'),
       $.get('https://example.com/json-api/classes')
    ).done(function(studentRequest, classRequest) {
       // the rest of the code goes here
 });`
 
-`$.bind(
+- `$.bind(
       $.get('https://example.com/json-api/students'),
       $.get('https://example.com/json-api/classes')
    ).done(function(studentRequest, classRequest) {
       // the rest of the code goes here
 });`
 
-`$.ajax('https://example.com/json-api/students', {
+- `$.ajax('https://example.com/json-api/students', {
    success: function(studentRequest) {
         $.ajax('https://example.com/json-api/classes', {
             success: function(classRequest) {
@@ -64,6 +67,7 @@ i- Only the second one will work; jQuery does not have a function called .on. <<
 });`   
 
 #### Q5. Given the snippet of HTML below, what is the difference between the two lines that follow it?
+
 <ul>
     <li>Item 1</li>
     <li>Item 2</li>
@@ -84,11 +88,12 @@ $('ul').find('li').eq(2);
 #### Q6. Suppose we want to have an ball created from an HTML element (id=ball) move down and to the right
 #### from its original location when clicked, and move back into its original place when finished. Given a starting
 #### point of this, which of these snippets would accomplish that goal?
+
 $('#ball').click(function() {
     // Our code goes here
 });
 
-`$(this).animate({
+- `$(this).animate({
     top: '+=100',
     left: '+=100',
 }, {
@@ -101,7 +106,7 @@ $('#ball').click(function() {
     }
 });`
 
-`$(this).animate({
+- `$(this).animate({
     top: '-=100',
     left: '-=100',
 }, 600, function() {
@@ -112,7 +117,7 @@ $('#ball').click(function() {
     }
 });`       
 
-`$(this).animate({
+- `$(this).animate({
     top: '=100',
     left: '=100',
 }, {
@@ -125,7 +130,7 @@ $('#ball').click(function() {
     }
 });`
 
-`$(this).animate({
+- `$(this).animate({
     top: '100',
     left: '100',
 }, 600, function() {
@@ -168,25 +173,26 @@ $.get('//example.com/api/v1/message')
         // add all these messages to a large page
 });
 
-`tonsOfItems.map(function(item) {
+- `tonsOfItems.map(function(item) {
      $('.message-area--list').append('<li>'+item+'</li>');
 });`
 
-`var tonsOfListItems = tonsOfItems.map(function(itme))  {
+- `var tonsOfListItems = tonsOfItems.map(function(itme))  {
      return '<li>'+item+'</li>';
 });
 $('.message-area--list').append(tonsOfListItems.join(''));` 
 
-`Removing the event handlers with JavaScript will be slower than removing them 
+- `Removing the event handlers with JavaScript will be slower than removing them 
 $.each(tonsOfItems, function(idx, item) {
     $('<li>'+item+'</li>').appendTo($messageList);
 });`
  
-`$.each(tonsOfItems, function(idx, item) {
+- `$.each(tonsOfItems, function(idx, item) {
     $('.message-area--list').append('<li>'+item+'</li>');
 });`
 
 #### Q9. What is jQuery?
+
 - jQuery is a bridge between Java and Javascript that makes native apps easier to write.
 - jQuery is a plugin for JavaScript that makes database queries easier to write.
 - jQuery is a collection of JavaScript functions that makes finding and manipulating elements on a page, 
@@ -196,8 +202,8 @@ AJAX, and other things easier.
 #### Q10. We want to create a new jQuery plugin called linkUpdater that can be chained onto other jQuery
 #### selector like a normal plugin. It should updates all the links in the referenced collection so they open 
 #### in new windows or tabs. Below is the first cut. What is one problem with this plugin?
-( function ( $ ) {
-    "user strict";
+
+"user strict";
     $.linkUpdater = function() {
         this.find('a').attr('target', '_blank');
     }
@@ -210,6 +216,7 @@ function expression.
 - Our plugin should extend jQuery.fn, not jQuery itself.
 
 #### Q11. Generally speaking, when used on a web page, how should jQuery be installed, and why?
+
 - Just before the closing body tag, because we want to avoid blocking other resources from loading, and 
 we use the ready method to make sure our code fires after the DOM is ready <<<<---CORRECT!
 - Using the highest version number possible because only jQuery 3 and up are compatible with Internet
@@ -218,6 +225,7 @@ Explorer 7
 - From a CDN because we want to be able to use jQuery online or offline
 
 #### Q12. Given the following HTML, How could we make this button disappear from the page using jQuery?
+
 <button> class="btn btn-primary" type="submit">Continue to checkout</button>
 
 - $('.btn-primary').hide(); <<<---CORRECT
@@ -226,6 +234,7 @@ Explorer 7
 - $('.btn-primary').show(false);
 
 #### Q13. What is the difference between $('header').html() and $('header').text()?
+
 - $('header').html() returns the inner HTML of the header. $('header').text() returns only the text <<<<--CORRECT
 - $('header').html() returns only the HTML tags used, without the text. $('header').text() returns only the text
 - $('header').html() strips all HTML from the header. $('header').text() always returns an empty string.
@@ -233,6 +242,7 @@ Explorer 7
 
 #### Q14. When writing jQuery plugins, we often provide default options that may be overridden by the end user.
 #### What jQuery function is most useful for this purpose?
+
 - $.extend <<<<---CORRECT
 - $.clone
 - $.fn.extend
@@ -259,18 +269,18 @@ Explorer 7
     </form>    
 </article>
 
-`$('button').on('click.myApp', (function() {
+- `$('button').on('click.myApp', (function() {
         $('input[type=select]').trigger('click');
 });`
 
-`$('button').on('click', (function() {
+- `$('button').on('click', (function() {
         $('input[type=select]').click());
 });`
 
-`$('button').trigger(function() {
+- `$('button').trigger(function() {
         $('input[type=select]').click();
 });`
 
-`$('button').click(function() {
+- `$('button').click(function() {
         $('input[type=select]').click();
 });`
