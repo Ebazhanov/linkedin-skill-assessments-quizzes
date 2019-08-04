@@ -41,7 +41,7 @@ jQuery Assessment
       'https://example.com/json-api/classes'
    ], function(studentRequest, classRequest) {
       // the rest of the code goes here
-});`
+});` <<<<<-CORRECT !
 
 - `$.when(
       $.get('https://example.com/json-api/students'),
@@ -198,7 +198,7 @@ $.each(tonsOfItems, function(idx, item) {
 - jQuery is a bridge between Java and Javascript that makes native apps easier to write.
 - jQuery is a plugin for JavaScript that makes database queries easier to write.
 - jQuery is a collection of JavaScript functions that makes finding and manipulating elements on a page, 
-AJAX, and other things easier.
+AJAX, and other things easier. <<<<---CORRECT !
 - jQuery is a Chrome extension that allows users to create their own extensions with just a few lines of JavaScript.
 
 #### Q10. We want to create a new jQuery plugin called linkUpdater that can be chained onto other jQuery
