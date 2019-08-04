@@ -8,7 +8,7 @@ jQuery Assessment
  $('button').click(function(){
      alert('you clicked the button!');
  });`
-- Only the second one will work; jQuery does not have a function called .on.
+i- Only the second one will work; jQuery does not have a function called .on. <<<<---Correct
 - The second snippet will not function.
 - Nothing - .click(function) is shorter way to write .on('click', function)
 - The first snippet will execute for every button on the page, the second will only apply to the first button
@@ -17,15 +17,15 @@ jQuery Assessment
 `jQuery('p')`
 - Loads a paragraph tag from a remote server using AJAX
 - Aliases jQuery to a variable p
-- Selects all paragraphs on the page 
+- Selects all paragraphs on the page <<<<---Correct
 - Creates a new paragraph tag and inserts it into the body tag
  
 #### Q3. Give the following HTML, how could we use one line to hide or show the button?
 `<button class="btn btn-primary" type="submit">Continue to checkout</button>`
-- $('.btn-primary').toggle();
+- $('.btn-primary').toggle(); ???? // toggle(true); & toggle(false);
 - $('.btn-primary').showHide();
 - $('.btn-primary').not(':visible').show();
-- $('.btn-primary').css({ display: 'block'});
+- $('.btn-primary').css({ display: 'block'}); <<<<---Correct // ({ display: 'none'});
 
 #### Q4. Working with AJAX, we may run into situations where a piece of code should not be run until after multiple AJAX,
 #### calls have completed successfully. Say we need to call two external services for JSON data (a list of students, and 
@@ -79,7 +79,7 @@ $('ul').find('li').eq(2);
 - .get() retrieves a DOM element, and can't be chained, eq() retrieves a jQuery object, and can be chained.
 - .get() retrieves a jQuery object, and can't be chained, eq() retrieves a DOM element, and can be chained.
 - .get() retrieves a jQuery object, and is zero-indexed, eq() retrieves a DOM element, and is 1-indexed.
-- .get() retrieves a DOM element, and is zero-indexed, eq() retrieves a jQuery object, and is 1-indexed.
+- .get() retrieves a DOM element, and is zero-indexed, eq() retrieves a jQuery object, and is 1-indexed.  <<<<--Correct !
 
 #### Q6. Suppose we want to have an ball created from an HTML element (id=ball) move down and to the right
 #### from its original location when clicked, and move back into its original place when finished. Given a starting
@@ -148,7 +148,7 @@ $('#ball').click(function() {
 
 - `$('.feedback').hasClass('.success');`
 - `$.css('.feedback', '.success')`;
-- `$('.feedback').addClass('.success');`
+- `$('.feedback').addClass('.success');` <<<<---Correct ?
 - `$('.feedback').css('.success');`
 
 #### Q8. Below an example page snippet that includes a couple of messages in a list, and a code snippet that
@@ -211,7 +211,7 @@ function expression.
 
 #### Q11. Generally speaking, when used on a web page, how should jQuery be installed, and why?
 - Just before the closing body tag, because we want to avoid blocking other resources from loading, and 
-we use the ready method to make sure our code fires after the DOM is ready
+we use the ready method to make sure our code fires after the DOM is ready <<<<---CORRECT!
 - Using the highest version number possible because only jQuery 3 and up are compatible with Internet
 Explorer 7
 - In the head tag because we want jQuery available as soon as possible
@@ -220,21 +220,20 @@ Explorer 7
 #### Q12. Given the following HTML, How could we make this button disappear from the page using jQuery?
 <button> class="btn btn-primary" type="submit">Continue to checkout</button>
 
-- $('.btn-primary').hide();
+- $('.btn-primary').hide(); <<<---CORRECT
 - $('.btn-primary:visible').not();
 - $('.btn-primary').visibility(false);
 - $('.btn-primary').show(false);
 
-#### Q13. What is the difference between $('header').html()and $('header').text()?
-- $('header').html() returns the inner HTML of the header. $('header').text() returns only the text
+#### Q13. What is the difference between $('header').html() and $('header').text()?
+- $('header').html() returns the inner HTML of the header. $('header').text() returns only the text <<<<--CORRECT
 - $('header').html() returns only the HTML tags used, without the text. $('header').text() returns only the text
 - $('header').html() strips all HTML from the header. $('header').text() always returns an empty string.
 - $('header').html() returns all headers in an HTML document. $('header').text() the first line of a text file.
 
 #### Q14. When writing jQuery plugins, we often provide default options that may be overridden by the end user.
 #### What jQuery function is most useful for this purpose?
-
-- $.extend
+- $.extend <<<<---CORRECT
 - $.clone
 - $.fn.extend
 - $.merge
@@ -265,7 +264,7 @@ Explorer 7
 });`
 
 `$('button').on('click', (function() {
-        $('input[type=select]').click();
+        $('input[type=select]').click());
 });`
 
 `$('button').trigger(function() {
