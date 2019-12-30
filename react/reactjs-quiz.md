@@ -135,3 +135,20 @@ React.createElement(
 - `<h1>What's happening?</h1>` <<<<<--CORRECT
 - `<h1 id="component">What's happening?</h1>`
 - `<h1 id="element">What's happening?</h1>`
+
+#### 16. What property do you need to add the Suspense component in order to display a spinner or loading state?
+```javascript
+function MyComponent() {
+  return (
+    <Suspense>
+        <div>
+            <Message />
+        </div>
+    </Suspense>
+    );   
+}
+```
+- lazy
+- loading
+- fallback
+- spinner
