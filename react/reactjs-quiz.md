@@ -149,31 +149,31 @@ function MyComponent() {
 }
 ```
 - lazy
-- loading
+- loading <<<<<--CORRECT
 - fallback
 - spinner
 
 #### 17. What do you call the message wrapped in curly braces below?
 ```javascript
-const message = "Hi there";
+let message = "Hi there";
 const element = <p>{message}</p>
 ```
 - a JS function
 - a JS element
-- a JS expression
+- a JS expression <<<<<--CORRECT
 - a JSX wrapper
 
 #### 18. What can you use to handle code splitting?
 - `React.memo`
 - `React.split`
-- `React.lazy`
+- `React.lazy` <<<<<--CORRECT
 - `React.fallback`
 
 #### 19. When do you use useLayoutEffect?
 - to optimize for all devices
-- to complete the update
+- to complete the update 
 - to change the layout of the screen
-- when you need the browser to paint before the effect runs
+- when you need the browser to paint before the effect runs <<<<<--CORRECT
 
 #### 20. What is the difference between the click behaviors of these two buttons (assuming that this.handleClick is binded correctly)?
 ```javascript
@@ -181,7 +181,7 @@ A. <button onClick="{this.handleClick}>Click Me</button>"
 B. <button onClick="{event => this.handleClick()event}}>Click Me</button>"
 ```
 - Button A will not have access to the event object on click of the button.
-- Button B will not fire the handler this.handleClick successfully.
+- Button B will not fire the handler this.handleClick successfully. <<<<<--CORRECT
 - Button A will not fire the handler this.handleClick successfully.
 - There is no difference
 
@@ -195,8 +195,9 @@ function Dish(props) {
     return <h1>{name} {cookingTime}</h1>;
 }`
 - `function Dish({name, cookingTime}) {
-    return <h1>{name} {cookingTime}</h1>;
-}`
+    return <h1>{name} {cookingTime}</h1>; 
+}` <<<<<--CORRECT
+
 - `function Dish(props) {
     return <h1>{name} {cookingTime}</h1>;
 }`
@@ -207,7 +208,7 @@ function Dish(props) {
 #### 22. When might you use React.PureComponent?
 - when you do not want your component to have props
 - when you have sibling components that need to be compared
-- when you want to implement shouldComponentUpdate() by default to not update unnecessarily
+- when you want to implement shouldComponentUpdate() by default to not update unnecessarily <<<<<--CORRECT
 - when you do not want your component to have state
 
 #### 23. Why is it important to avoid copying the values of props into a component's state where possible?
