@@ -9,47 +9,38 @@ HTML Assessment
 
 #### Q2. What are the best examples of void elements?
 
-- ```css
+- 
 <link>
 <meta>
 <title>
-```
 
-- ```css
+
+- 
 <wbr>
 <base>
 <source>
-``` <<<<<CORRECT
+ <<<<<CORRECT
 
-- ```css
+- 
 <input>
 <br>
 <p>
-```
 
-- ```css
+-
 <area>
 <embed>
 <strong>
-```
 
 #### Q3. In HTML5, which tag or tags embed a webpage inside of a webpage?
-- ```css
+- 
 <iframe>, <frame>, and 
 <frameset>
-```
 
-- ```css
-<frame>
-```
+- <frame>
 
-- ```css
-<iframe>
-``` <<<<CORRECT
+- <iframe> <<<<CORRECT
 
-- ```css
-<frame> and < frameset
-```
+- <frame> and <frameset>
 
 #### Q4. Where do <header> and <footer> tags typically occur?
 - as children of <body>, <article>, <aside>, and <section> tags
@@ -70,28 +61,26 @@ HTML Assessment
 - when linking style sheets, external URLs, and favicons
 
 #### Q7. The value attribute is associated with which set of tags?
-- ```css
+-
 <button>
 <input>
 <form>
-```
--```css
+
+-
 <inout>
 <label>
 <meter>
-``` <<<<CORRECT
+<<<<CORRECT
 
--```css
+-
  <inout>
  <option>
  <textarea>
- ```
  
- -```css
+ -
   <li>
   <input>
   <option>
-  ```
   
 #### Q8. What should fill the two blanks in the HTML code below?
 
@@ -106,21 +95,21 @@ HTML Assessment
 </address>
 ```
 
-- ```
+- 
   itemscope
-  itemtype="http://schema.org/PostalAddress"```
+  itemtype="http://schema.org/PostalAddress"
  
-- ```
+- 
   itemsref="http://schema.org/PostalAddress"
-  itemid="address"``` <<<< CORRECT
+  itemid="address" <<<< CORRECT
  
-- ```
+- 
   itemscope="address"
-  itemref="http://schema.org/PostalAddress"```
+  itemref="http://schema.org/PostalAddress"
   
-- ```
+- 
   itemid="address"
-  itemtype="http://schema.org/PostalAddress"```
+  itemtype="http://schema.org/PostalAddress"
 
 #### Q9. When should you use the <aside> element?
 - when the content can be removed without detracting from the page's message
@@ -130,19 +119,16 @@ HTML Assessment
 
 #### 10. With which tags is the <source> element associated?
 
-- ```css
+- 
 <svg>, <picture>, <audio>, and 
-<video>```
+<video>
 
-- ```css
-<picture>, <audio>, and <video> ``` <<<<CORRECT
+- 
+<picture>, <audio>, and <video> <<<<CORRECT
 
-- ```css
-It is iterchangeable with the src attribute, so any element which uses src may use <source..... ```
+- It is iterchangeable with the src attribute, so any element which uses src may use <source..... 
 
-- ```css
-<audio> and <video>
-```
+- <audio> and <video>
 
 #### 11. What is NOT a valid attribute for the <textarea> element?
 - readonly <<<<CORRECT
@@ -152,28 +138,27 @@ It is iterchangeable with the src attribute, so any element which uses src may u
 
 #### 12. What is the best way to code the sample shown?
 
-- ```css
+-
 <details open>
     <summary>Parmesan Deviled Eggs</summary>
     <p>These delectable little bites are made with organic eggs, ...</p>
-</details>```
+</details>
 
-- ```css
+- 
 <details>
     <h4>Parmesan Deviled Eggs</h4>
     <p>These delectable little bites are made with organic eggs, ...</p>
-</details>```
+</details>
 
-- ```css
+- 
     <h4>Parmesan Deviled Eggs</h4>
-    <p>These delectable little bites are made with organic eggs, ...</p>``` <<<<CORRECT
+    <p>These delectable little bites are made with organic eggs, ...</p> <<<<CORRECT
 
-- ```css
+- 
 <details>
     <summary>Parmesan Deviled Eggs</summary>
     <p>These delectable little bites are made with organic eggs, ...</p>
 </details>
-```
 
 #### 13. What is the purpose of the <samp> element?
 - It connects the web browser to a SA-MP server
