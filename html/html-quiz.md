@@ -115,13 +115,13 @@ CORRECT
 </details>
 ```
 
-#### 13. What is the purpose of the <samp> element?
+#### 13. What is the purpose of the `<samp>` element?
 - It connects the web browser to a SA-MP server
 - It identifies enclosed text as a sampler or an example.
 - It identifies sample output from a computer program. <<<< CORRECT
 - It uses a simple application messaging protocol to connect the browser to a texting device.
 
-#### 14. When should you use <ol> and <ul> elements?
+#### 14. When should you use `<ol>` and `<ul>` elements?
 - Use `<ul>` when you want a bulleted list and `<ol>` when you want a numbered list.
 - Use `<ul>` when you have a list of items in which the order of the items matters. Use <ol> when you have a list of items that
 could go in any order.
