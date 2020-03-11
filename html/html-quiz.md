@@ -1,7 +1,7 @@
 HTML Assessment
 ---------------------
 
-#### Q1. What is the purpose of the <track> tag, and when should it be used?
+#### Q1. What is the purpose of the `<track>` tag, and when should it be used?
 - The <track> tag is used for specifying subtitles. It is typically applied as a child of the <audio> and <video> tags.
 - The <track> tag is used for specifying subtitles. It is typically applied as a child of the <video> tag.
 - The <track> tag is used for specifying subtitles, captions, and other types of time-based text. It is typically applied as a child of the <video> tag.
@@ -19,7 +19,7 @@ HTML Assessment
 - `<iframe>` <<<<CORRECT
 - `<frame> and <frameset>`
 
-#### Q4. Where do <header> and <footer> tags typically occur?
+#### Q4. Where do `<header>` and `<footer>` tags typically occur?
 - as children of `<body>, <article>, <aside>, and <section>` tags
 - as children of `<body>, <article>, and <section>` tags
 - as children of `<body>, <article>, <aside>, <nav>, and <section>` tags <<<< CORRECT
@@ -67,19 +67,19 @@ HTML Assessment
   `itemid="address"`
   `itemtype="http://schema.org/PostalAddress"`
 
-#### Q9. When should you use the <aside> element?
+#### Q9. When should you use the `<aside>` element?
 - when the content can be removed without detracting from the page's message
 - for anything you want to move to the side, like a pull quote box, a sidebar, or an image with text wrapping around it
 - for anything in parentheses <<<<<CORRECT
 - for anything in a sidebar
 
-#### 10. With which tags is the <source> element associated?
+#### 10. With which tags is the `<source>` element associated?
 - `<svg>, <picture>, <audio>, and <video>`
 - `<picture>, <audio>, and <video>` <<<<CORRECT
 - It is iterchangeable with the src attribute, so any element which uses src may use <source..... 
 - `<audio> and <video>`
 
-#### 11. What is NOT a valid attribute for the <textarea> element?
+#### 11. What is NOT a valid attribute for the `<textarea>` element?
 
 - readonly => CORRECT
 - max
