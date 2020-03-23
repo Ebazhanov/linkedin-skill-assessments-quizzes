@@ -4,8 +4,8 @@ React.js Assessment
 #### Q1. If you want to import just the Component from the React library, what syntax do you use?
 - `import React.Component from 'react'` 
 - `import [ Component ] from 'react'`
-- `import Component from 'react'` <<<<<--CORRECT
-- `import { Component } from 'react'` 
+- `import Component from 'react'`
+- `import { Component } from 'react'` <<<<<--CORRECT
 
 #### Q2. If a function component should always render the same way given the same props, what is a simple performance optimization available for it?
 - Wrap it in the React.memo higher-order component. <<<<<--CORRECT
@@ -78,10 +78,10 @@ console.log(animal)
 - undefined
 
 #### 10. What is the name of the tool used to take JSX and turn it into createElement calls?
-- JSX Editor <<<<<--CORRECT
+- JSX Editor
 - ReactDOM
 - Browser Buddy
-- Babel
+- Babel <<<<<--CORRECT
 
 #### 11. Why might you use useReducer over useState in a React component?
 - when you want to replace Redux
@@ -149,8 +149,8 @@ function MyComponent() {
 }
 ```
 - lazy
-- loading <<<<<--CORRECT
-- fallback
+- loading
+- fallback <<<<<--CORRECT
 - spinner
 
 #### 17. What do you call the message wrapped in curly braces below?
@@ -214,12 +214,12 @@ function Dish(props) {
 #### 23. Why is it important to avoid copying the values of props into a component's state where possible?
 - because you should never mutate state
 - because getDerivedStateFromProps() is an unsafe method to use
-- because you want to allow a component to update in response to changes in the props 
+- because you want to allow a component to update in response to changes in the props <<<<<--CORRECT
 - because you want to allow data to flow back up to the parent
 
 #### 24. What is the children prop?
 - a property that adds child components to state
-- a property that lets you pass components as data to other components
+- a property that lets you pass components as data to other components <<<<<--CORRECT
 - a property that lets you set an array as a property
 - a property that lets you pass data to child elements
 
