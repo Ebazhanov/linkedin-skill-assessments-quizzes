@@ -7,3 +7,4 @@
 * [React.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/react/reactjs-quiz.md) :rose: (in progress)
 * [HTML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/html/html-quiz.md) in progress
 * [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md) started
+* [MAVEN](https://github.com/Ebazhanov/in-quiz-questions/blob/master/maven/maven-quiz.md) started
