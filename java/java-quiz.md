@@ -130,7 +130,17 @@ class Three implements One, Two {
 ```
 
 #### Q10. What is the output of this code?
+String m = "Hello world!";
+String n = m.substring(6,12) + m.substring(12,6);
+System.out.println(n);
 
 
+#### Q11. What is the output of this code?
+How do you write a foreeach loop that will iterate over ArrayList<Pencil>pencilCase?
+for(Pencil pencil = pencilCase){}
 
+Iterator iterator = pencilCase.iterator();
+for(){iterator.hasNext()}{}
 
+#### Q12. Fill in the blanks?
+Object-oriented programming (OOP) is a programming language model that organizes software design around (objects), rather than (functions).
