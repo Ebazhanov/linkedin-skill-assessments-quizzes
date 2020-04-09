@@ -148,8 +148,97 @@ class Three implements One, Two {
 
 #### Q11. Given the following two classes, what will be the output of the Main class?
 ```
-package
+package mypackage;
+public class Math {
+    public static int abs(int num){
+        return num<0?-num:num;
+    }
+}
+package mypackage.elementary;
+public class Math {
+    public static int abs (int num) {
+        return -num;
+    }
+}
+1: import mypackage.Math;
+2: import mypackage.elementary.*;
+
+3: class Main {
+4:  public static void main (String args[]){
+5:      System.out.println(Math.abs(123));
+6:  }
+7: }
 ```
+- Lines 1 and 2 generate compiler erros due to class name conflicts.
+- "-123"
+- It will throw an exception on line 5.
+- "123"
+
+#### Q12. What is the result of this code?
+```
+1: class MainClass {
+2:  final String message(){
+3:      return "Hello!";
+4:  }
+5: }
+
+6: class Main extends MainClass {
+7:  public static void main(String[] args) {
+8:      System.out.println(message());
+9:  }
+
+10: String message(){
+11:     return "World!";
+12:  }
+13: }
+```
+- It will not compile because of line 10.
+- "Hello!"
+- It will not compile because of line 2.
+- "World!"
+
+#### Q13. Given this code, which command will output "2"?
+```
+class Main {
+    public static void main(String[] args) {
+        System.out.println(args[2]);
+    }
+}
+```
+- java Main 1 2 "3 4" 5
+- java Main 1 "2" "2" 5
+- java Main.class 1 "2" 2 5
+- java Main 1 "2" "3 4" 5
+
+#### Q14. What is the output of this code?
+```
+class Main {
+    public static void main(String[] args){
+        int a = 123451234512345;
+        System.out.println(a);
+    }
+}
+```
+- "123451234512345"
+- Nothing - this will not compile.
+- a negative integer value
+- "12345100000"
+
+#### Q15. What is the output of this code?
+```
+class Main {
+    public static void main (String[] args) {
+        String message = "Hello world!";
+        String newMessage = message.substring(6, 12)
+            + message.substring(12, 6);
+        System.out.println(newMessage);
+    }
+}
+```
+- The code does not compile.
+- A runtime exception is thrown
+- "world!!world"
+- "world!world!"
 
 
 String m = "Hello world!";
@@ -157,12 +246,12 @@ String n = m.substring(6,12) + m.substring(12,6);
 System.out.println(n);
 
 
-#### Q11. What is the output of this code?
+#### Q17. What is the output of this code?
 How do you write a foreeach loop that will iterate over ArrayList<Pencil>pencilCase?
 for(Pencil pencil = pencilCase){}
 
 Iterator iterator = pencilCase.iterator();
 for(){iterator.hasNext()}{}
 
-#### Q12. Fill in the blanks?
+#### Q18. Fill in the blanks?
 Object-oriented programming (OOP) is a programming language model that organizes software design around (objects), rather than (functions).

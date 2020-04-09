@@ -10,4 +10,5 @@
 * [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md) started
 * [MAVEN](https://github.com/Ebazhanov/in-quiz-questions/blob/master/maven/maven-quiz.md) started
 * [JAVA](https://github.com/Ebazhanov/in-quiz-questions/blob/master/java/java-quiz.md) started
+* [CSS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/css/css-quiz.md) started
 * To be continue :smile:
