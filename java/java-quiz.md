@@ -130,6 +130,28 @@ class Three implements One, Two {
 ```
 
 #### Q10. What is the output of this code?
+```
+1: class Main {
+2:  public static void main (String[] args) {
+3:      List list = new ArrayList();
+4:      list.add("hello");
+5:      list.add(2);
+6:      System.out.print(list.get(0) instanceof Object);
+7:      System.out.print(list.get(1) instanceof Integer);
+8:  }
+9: }
+```
+- The code does not compile.
+- truefalse
+- truetrue
+- falsetrue
+
+#### Q11. Given the following two classes, what will be the output of the Main class?
+```
+package
+```
+
+
 
 
 
