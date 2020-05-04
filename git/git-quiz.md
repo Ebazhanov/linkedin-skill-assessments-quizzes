@@ -26,9 +26,7 @@ Git Assessment
 - Delete the last 5 commits
 - Merges the last 5 commits into a new branch
 
-#### Q4. Your current project has several branches; master, beta, and push-notifications.
-#### You've just finished the notification feature in the push-notification branch, and you want to commit it to
-#### beta branch. How can you accomplish this?
+#### Q4. Your current project has several branches; master, beta, and push-notifications. You've just finished the notification feature in the push-notification branch, and you want to commit it to beta branch. How can you accomplish this?
 - Checkout the push-notifications branch and run git merge beta
 - Checkout the master branch and run git merge beta -> push-notification
 - Delete the push-notification branch and it will be committed to the master branch automatically
@@ -36,7 +34,6 @@ Git Assessment
 
 #### Q5. Which of the following is true you when you use the following command?
 `git add -A`
-
 - All new and updated files are staged
 - Files are staged in alphabetical order.
 - All new files are staged << -- Correct
@@ -51,9 +48,7 @@ Git Assessment
 
 #### Q7. Looking at the following commands, describe what is happening.
 `git checkout feature-user-location`
-
 `git cherry-pick {kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231}`
-
 - The commit is being tagged for release on the feature-user-location-branch.
 - A commit is being copied from its original branch over to the feature-user-location-branch
 - The commit is being cherry picked as the new HEAD of the commit history <<<--- Correct
@@ -66,8 +61,7 @@ Git Assessment
 - Keeps the HEAD at the current commit, but clears all previous commits.
 - Undoes the last commit in the working branch and sets the HEAD back one commit. <<<--- Correct
 
-#### Q9. You find a bug in your project, but can't locate where it was introduced in the commit history.
-#### How would you diagnose this problem?
+#### Q9. You find a bug in your project, but can't locate where it was introduced in the commit history. How would you diagnose this problem?
 - Manually backtrack through your commit history.
 - Use git search -diff to compare all commits in your repository history.
 - Run a git rebase to find the buggy commit.
@@ -104,8 +98,7 @@ Git Assessment
 - Nothing, cloning is not a supported git function
 - A copy of the repository would be created on the hosting platform
 
-#### Q15. Suppose you needed to see a list of all files that had been modified or added to a specific commit
-#### over the course of a project. How would you accomplish this?
+#### Q15. Suppose you needed to see a list of all files that had been modified or added to a specific commit over the course of a project. How would you accomplish this?
 - Find the commit in the remote repository, as that's the only place that kind of information is stored.
 - Use the diff-tree command with the commit hash. <<<<---Correct
 - Run git commit --info with the commit hash.
@@ -124,8 +117,7 @@ Git Assessment
 - Commits all new files with a message
 - Add all modified files to the staging area, then commits them with a message <<<---Correct
 
-#### Q18. After checking your git status you get the following output, which shows the file beta-notes.js in the 
-#### commit but also unstaged. How can this situation occur?
+#### Q18. After checking your git status you get the following output, which shows the file beta-notes.js in the commit but also unstaged. How can this situation occur?
 `Change to be committed:
 (use "git reset HEAD <file>..." to unstage)
 modified: beta-notes.js 
@@ -143,8 +135,6 @@ modified: beta-notes.js`
 - git documents
 - Staging area <<< ---Correct
 - git cache
-
-
 
 
 

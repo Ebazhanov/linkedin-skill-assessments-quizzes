@@ -24,3 +24,33 @@ div a
 - Use the overflow property on the floated element or the "clearfix hack" on either the floated or parent element.
 - Use the "clearfix hack" on the floated element or the overflow property on the parent element.
 - Use the "clearfix hack" on the parent element or use the overflow property with a value other than "visible."
+
+#### Q4. What element(s) do the following selectors match to?
+`1) .nav {...}`
+`2) nav {...}`
+`3) #nav {...}`
+
+- 
+```
+1) An element with an ID of "nav"
+2) A nav element
+3) An element with a class of "nav"
+```
+- 
+```
+They all target the same nav element.
+```
+- 
+```
+1) An element with an class of "nav"
+2) A nav element
+3) An element with a id of "nav"
+```
+- 
+```
+1) An element with an class of "nav"
+2) A nav element
+3) An div with a id of "nav"
+```
+
+#### Q5. When adding transparency styles, what is the difference between using the opacity property versus the background property with an rgba() value

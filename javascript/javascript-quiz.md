@@ -45,9 +45,7 @@ console.log('Results shown');`
 - after 10000 seconds
 - immediately <<<<<----Correct
 
-#### Q7. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5,
-#### 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3,
-#### and 4 being logged?
+#### Q7. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?
 - `for (var i=1; i<=4; i++){
     setTimeout(function(){
         console.log(i);
@@ -118,8 +116,7 @@ console.log('Results shown');`
 - 'rain'
 - 'snow' <<<---Correct
 
- #### Q11. You need to match a time value such as 12:00:32. Which of the following regular expressions would work
- #### for your code?
+ #### Q11. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?
  - /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/
  - /\d\d:\d\d:\d\d/
  - /[0-9]+:[0-9]+:[0-9]+/ <<<---Correct
@@ -157,8 +154,7 @@ new logThis();`
 - target <<<---Correct
 - source
 
-#### Q16. You're adding error handling to the code shown. Which code would you include within the if statement to 
-#### specify an error message?
+#### Q16. You're adding error handling to the code shown. Which code would you include within the if statement to specify an error message?
 `function addNumbers(x, y){
     if (isNaN(x) || isNaN(y)) {
     }

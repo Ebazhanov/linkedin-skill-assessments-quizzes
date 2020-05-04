@@ -240,18 +240,20 @@ class Main {
 - "world!!world"
 - "world!world!"
 
-
+```
 String m = "Hello world!";
 String n = m.substring(6,12) + m.substring(12,6);
 System.out.println(n);
-
+```
 
 #### Q17. What is the output of this code?
-How do you write a foreeach loop that will iterate over ArrayList<Pencil>pencilCase?
+- How do you write a foreeach loop that will iterate over 
+```ArrayList<Pencil>pencilCase?
 for(Pencil pencil = pencilCase){}
 
 Iterator iterator = pencilCase.iterator();
 for(){iterator.hasNext()}{}
+```
 
 #### Q18. Fill in the blanks?
-Object-oriented programming (OOP) is a programming language model that organizes software design around (objects), rather than (functions).
+- Object-oriented programming (OOP) is a programming language model that organizes software design around (objects), rather than (functions).

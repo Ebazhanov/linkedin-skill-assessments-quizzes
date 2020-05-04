@@ -61,8 +61,7 @@ MongoDB Assessment
 - db.customers.find({lastName: 'smith'}).plan()
 - db.customers.find({lastName: 'smith'}).usedIndex()
 
-#### Q11. Suppose your aggregation pipeline terminated with an exception referring to exceeded memory
-#### limit. What is the best way to resolve the issue?
+#### Q11. Suppose your aggregation pipeline terminated with an exception referring to exceeded memory limit. What is the best way to resolve the issue?
 - Set useMemory to twice amount indicated in exception.
 - Switch a 64 bit instance of MongoDB.
 - Increase the memory of the MongoDB server.

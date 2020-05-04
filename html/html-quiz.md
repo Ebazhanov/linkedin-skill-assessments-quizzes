@@ -80,14 +80,12 @@ HTML Assessment
 - `<audio> and <video>`
 
 #### 11. What is NOT a valid attribute for the `<textarea>` element?
-
 - readonly => CORRECT
 - max
 - from 
 - spellcheck
 
 #### 12. What is the best way to code the sample shown?
-
 -
 ```<details open>
     <summary>Parmesan Deviled Eggs</summary>
