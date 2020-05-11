@@ -53,4 +53,137 @@ They all target the same nav element.
 3) An div with a id of "nav"
 ```
 
-#### Q5. When adding transparency styles, what is the difference between using the opacity property versus the background property with an rgba() value
+#### Q5. When adding transparency styles, what is the difference between using the opacity property versus the background property with an `rgba()` value?
+- Opacity specifies the level of transparency of the child elements. Background with an `rgba()` value applies transparency to the background color only.
+- Opacity applies transparency to the background color only. Background with an `rgba()` value specifies the level of transparency of an element, as a whole, including its content.
+- Opacity specifies the level of transparency of an element, including its content. Background with an `rgba()` value applies transparency to the background color only.
+- Opacity applies transparency to the parent and child elements. Background with an `rgba()` value specifies the level of transparency of the parent element only.
+
+#### Q6. What is true of block and inline elements?
+- By default, block elements are the same height and width as the content container between their tags; inline elements span the entire width of its container.
+- By default, block elements span the entire width of its container; inline elements are the same height and width as the content contained between their tags.
+- A "<nav>" element is an example of an inline element. "<header>" is an example of a block element.
+- A "<span>" is an example of a block element. "<div>" is an example of an inline element.
+
+#### Q7. CSS grid introduced a new lenght unit, fr, to create flexible grid tracks. Referring to the code sample below, what will the widths of the three columns be?
+```css
+.grid {
+    display: grid;
+    width: 500px;
+    grid-template-columns: 50px 1fr 2fr;
+}
+```
+- The first column will have a width of 50px. The second column will be 50px wide and the third column will be 100px wide.
+- The first column will have a width of 50px. The second column will be 150px wide and the third column will be 300px wide.
+- The first column will have a width of 50px. The second column will be 300px wide and the third column will be 150px wide.
+- The first column will have a width of 50px. The second column will be 500px wide and the third column will be 1000px wide.
+
+#### Q8. What is the line-height property primarily used for?
+- to control the height of the space between two lines of content
+- to control the height of the space between heading elements
+- to control the height of the character size
+- to control the width of the space between characters
+
+#### Q9. Three of these choices are true about class selectors. Which is NOT true?
+- Multiple classes can be used within the same element.
+- The same class can be used multiple times per page.
+- Class selectors with a leading period
+- Classes can be used multiple times per page but not within the same element.
+
+#### Q10. There are many properties that can be used to align elements and create page layouts such as float, position, flexbox and grid. Of these four properties, which one should be used to align a global navigation bar which stays fixed at the top of the page?
+- position
+- flexbox
+- grid
+- float
+
+#### Q11. In the shorthand example below, which individual background properties are represented?
+`background: blue url(image.jpg) no-repeat scroll 0px 0px;`
+
+-
+```
+background-color: blue;
+background-image: url(image.jpg);
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 0px 0px;
+```
+-
+```
+background-color: blue;
+background-img: url(image.jpg);
+background-position: no-repeat;
+background-scroll: scroll;
+background-size: 0px 0px;
+```
+-
+```
+background-color: blue;
+background-src: url(image.jpg);
+background-repeat: no-repeat;
+background-wrap: scroll;
+background-position: 0px 0px;
+```
+-
+```
+background-color: blue;
+background-src: url(image.jpg);
+background-repeat: no-repeat;
+background-scroll: scroll;
+background-position: 0px 0px;
+```
+
+#### Q12. In the following example, according to cascading and specificity rules, what color will the link be?
+```
+.example {color: yellow;}
+ul li a {color:  blue;}
+ul a {color: green;}
+a {color: red;}
+<ul>
+    <li><a href="#" class="example">link</a></li>
+    <li>list item</li>
+    <li>list item</li>
+</ul>
+```
+
+- green
+- yellow
+- blue
+- red
+
+#### Q13. When elements overlap, they are ordered on the z-axis (i.e., which element covers another). The z-index property can be used to specify the z-order of overlapping elements. Which set of statements about the z-index property are ture?
+- Larger z-index values appear on top of elements with a lower z-index value. Negative and positive numbers can be used. z-index can only be used on positioned elements.
+- Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index must also be used with positioned elements.
+- Larger z-index values appear on top of elements with a lower z-index value. Only positive numbers can be used. z-index must also be used with positioned elements.
+- Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index can be used with or without positioned elements.
+
+#### Q14. What is the difference between the following line-height settings?
+```css
+line-height: 20px
+line-height: 2
+```
+- The value of 20px will set the line-height to 20px. The value of 2 will set the line-height to twice the size of the corresponding font-size value.
+- The value of 20px will set the line-height to 20px. The value of 2 is not valid.
+- The value of 20px will set the line-height to 20px. The value of 2 will default to a value of 2px.
+- The value of 20px will set the line-height to 20px. The value of 2 will set the line-height to 20% of the corresponding font-size value.
+
+#### Q15. In the following example, what color will paragraph one and paragraph two be?
+```javascript
+<section>
+    <p>paragraph one</p>
+</section>
+
+<p>paragraph two</p>
+
+section p{
+    color: red;
+}
+section + p {
+    color: blue;
+}
+```
+- Paragraph one will be blue, paragraph two will be red.
+- Both paragraphs will be blue.
+- Paragraphs one will be red, paragraph two will be blue.
+- Both paragraphs will be red.
+
+
