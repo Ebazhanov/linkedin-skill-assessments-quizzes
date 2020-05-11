@@ -15,7 +15,7 @@ Maven Assessment
 
 #### Q3. When building a Maven EAR project and specifying the configuration of which projects to include, what is the element in the plugin configuration that contains Enterprise Java Bean projects?
 - modules/webModule
-- modules/ejbModule
+- modules/ejbModule <-- CORRECT
 - modules/enterpriseModules
 - modules/services
 
@@ -29,13 +29,13 @@ Maven Assessment
 - It builds your Maven project.
 - It installs Maven on your computer.
 - It updates Maven to the latest version.
-- It print out your installed version of Maven.
+- It print out your installed version of Maven. <-- CORRECT
 
 #### Q6. There are several properties available for use in a pom.xml file that refer to details of the project, such as groupId and version. What do all of these properties start with?
 - pom
 - maven
 - jar
-- project
+- project <-- CORRECT
 
 #### Q7. What directory structure contains the source code of your artifact?
 - src/code
@@ -59,7 +59,7 @@ mvn install
 - `dependency:tree`
 - `dependency:properties`
 - `dependency:evaluate`
-- `dependency:analyze`
+- `dependency:analyze` <-- CORRECT
 
 #### Q10. In a multimodule project, if you have a plugin bound to a phase in the parent, it will be bound to the same phase in the module. What strategy could you employ to prevent the plugin from executing in the module?
 - In the excluded element of the build section of the POM, list the plugin you do not want to run.
@@ -71,7 +71,7 @@ mvn install
 - src/main/static
 - src/main/web
 - src/main/resources
-- src/main/webapp
+- src/main/webapp <-- CORRECT
 
 #### Q12. When performing a build, which Maven plugin will allow you to set the specific version of the artifact to be built without manual modifying the pom.xml file?
 - Compiler
@@ -87,7 +87,7 @@ mvn install
 
 #### Q14. What is a valid packaging type for a Maven project?
 - WAR
-- all of these answers
+- all of these answers <-- CORRECT
 - POM
 - EAR
 
@@ -129,7 +129,7 @@ mvn install
 
 #### Q21. What will the mvn dependency:tree command do?
 - Verify the dependencies defined in the POM file.
-- Print out a report of your project's dependencies in a tree format.
+- Print out a report of your project's dependencies in a tree format. <-- CORRECT
 - Download all the transitive dependencies.
 - Prune unused dependencies from your dependency tree.
 
@@ -142,7 +142,7 @@ mvn install
 #### Q23. How can Maven profiles be triggered?
 - by explicitly calling the profiles using the -P flag
 - based on environment variables
-- all of these answers
+- all of these answers <-- CORRECT
 - through Maven settings
 
 #### Q24. Why will an mvn install command not deploy any artifacts to a remote repository?
@@ -164,7 +164,7 @@ mvn install
 - Profiles
 
 #### Q27. What does it mean if the scope of a dependency is runtime?
-- The dependency is not required to compile the project, but is needed at runtime.
+- The dependency is not required to compile the project, but is needed at runtime. <-- CORRECT
 - The dependency is needed at compile time and at runtime, and must be packaged for distribution.
 - The dependency is needed at compile time and at runtime, but does NOT need to be packaged for distribution.
 - The dependency is required for compilation.
