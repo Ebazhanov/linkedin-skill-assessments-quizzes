@@ -11,6 +11,6 @@
 * [MAVEN](https://github.com/Ebazhanov/in-quiz-questions/blob/master/maven/maven-quiz.md) started
 * [JAVA](https://github.com/Ebazhanov/in-quiz-questions/blob/master/java/java-quiz.md) started
 * [CSS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/css/css-quiz.md) started
-* [REST API](https://github.com/Ebazhanov/in-quiz-questions/blob/master/rest-api/rest-api-quiz.md) started
-* [AWS-LAMBDA](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws-lambda/aws-lambda-quiz.md) started
+* [REST API](https://github.com/Ebazhanov/in-quiz-questions/blob/master/rest-api/rest-api-quiz.md) :+1:
+* [AWS-LAMBDA](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws-lambda/aws-lambda-quiz.md) :fire:
 * To be continue :smile:
