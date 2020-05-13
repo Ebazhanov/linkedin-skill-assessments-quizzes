@@ -6,11 +6,10 @@
 * [jQuery](https://github.com/Ebazhanov/in-quiz-questions/blob/master/jquery/jquery-quiz.md) :open_mouth: (in progress)
 * [MongoDB](https://github.com/Ebazhanov/in-quiz-questions/blob/master/mongodb/mongodb-quiz.md) :green_heart: (passed)
 * [React.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/react/reactjs-quiz.md) :rose: (in progress)
-* [HTML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/html/html-quiz.md) in progress
-* [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md) started
-* [MAVEN](https://github.com/Ebazhanov/in-quiz-questions/blob/master/maven/maven-quiz.md) started
-* [JAVA](https://github.com/Ebazhanov/in-quiz-questions/blob/master/java/java-quiz.md) started
-* [CSS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/css/css-quiz.md) started
+* [HTML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/html/html-quiz.md) 
+* [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md) 
+* [MAVEN](https://github.com/Ebazhanov/in-quiz-questions/blob/master/maven/maven-quiz.md) 
+* [JAVA](https://github.com/Ebazhanov/in-quiz-questions/blob/master/java/java-quiz.md) 
+* [CSS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/css/css-quiz.md) 
 * [REST API](https://github.com/Ebazhanov/in-quiz-questions/blob/master/rest-api/rest-api-quiz.md) :+1:
 * [AWS-LAMBDA](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws-lambda/aws-lambda-quiz.md) :fire:
-* To be continue :smile:
