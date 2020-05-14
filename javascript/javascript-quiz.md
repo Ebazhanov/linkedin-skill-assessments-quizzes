@@ -72,13 +72,13 @@ console.log('Results shown');`
            console.log(j);
          }, j*1000);
       })(i)
-    }`
+    }` // Correct
     
 - `for (var j=1; j<=4; j++) {
      setTimeout(function() {
        console.log(j);
      }, j*1000);
-   }` // Correct
+   }` 
    
 #### Q8. How does a function create a closure?
 - It reloads the document whenever the value changes.
@@ -89,7 +89,7 @@ console.log('Results shown');`
 #### Q9. Which statement creates a new function called discountPrice?
 - `let discountPrice = function(price) {
      return price * 0.85;
-    };`
+    };` <<<<----Correct
 
 - `let discountPrice(price) {
      return price * 0.85;
@@ -101,7 +101,7 @@ console.log('Results shown');`
     
 - `discountPrice = function(price) {
         return price * 0.85;
-       };` <<<<----Correct
+       };`
        
  #### 10. What is the result in the console of running the code shown?
  `var Storm = function() {};
