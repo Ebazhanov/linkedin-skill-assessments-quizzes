@@ -3,12 +3,12 @@ Java Assessment
 
 #### Q1. Given the string "strawberries" saved in a variable called fruit, what would "fruit.substring(2, 5)" return?
 - rawb
-- raw
+- raw <<<<---Correct
 - awb
 - traw
 
 #### Q2. How can you achieve runtime polymorphism in Java?
-- method overloading 
+- method overloading <<<<---Correct
 - method overrunning 
 - method overriding 
 - method calling 
@@ -18,12 +18,12 @@ Java Assessment
 int i1 = 1, i2 = 2;`
 
 - (i1 | i2) == 3
-- i2 & b1
-- b1 | !b2
+- i2 && b1 <<<<---Correct
+- b1 || !b2
 - (i1 ^ i2) < 4
 
 #### Q4. What can you use to create new instances in Java?
-- constructor
+- constructor <<<<---Correct
 - another instance
 - field
 - private method
@@ -31,15 +31,15 @@ int i1 = 1, i2 = 2;`
 #### Q5. What is the output of this code?
 ```shell script
 1: class Main {
-2:   public static void main (String[] args)
+2:   public static void main (String[] args) {
 3:     int array[] = {1, 2, 3, 4};
-4:     for (int i=0; i<array.size(); i++){
-5:      System.out.print(array[i]);
-    }
-  }
-}
+4:     for (int i = 0; i < array.size(); i++) {
+5:        System.out.print(array[i]);
+       }
+     }
+   }
 ```
-- It will not compile because of line 4.
+- It will not compile because of line 4. <<<<---Correct
 - It will not compile because of line 3.
 - 123
 - 1234
@@ -69,17 +69,17 @@ System.out.println(str);
 - CD
 - CDE
 - D
-- "abcde"
+- "abcde" <<<<---Correct
 
 #### Q8. What is the result of this code?
 ```
 1: class Main {
 2:   public static void main (String[] args){
-3:     System.out.printlin(print(1));
+3:     System.out.println(print(1));
 4:   }
 5:   static Exception print(int i){
 6:       if (i>0) {
-7:          return new Excepton();      
+7:          return new Exception();      
 8:       } else {
 9:          throw new RuntimeException();
 10:      }
@@ -87,7 +87,7 @@ System.out.println(str);
 12: }
 ```
 - It will show a stack trace with a runtime exception.
-- "java.lang.Exception"
+- "java.lang.Exception" <<<<---Correct
 - It will run and throw an exception.
 - It will not compile.
 
@@ -143,7 +143,7 @@ class Three implements One, Two {
 ```
 - The code does not compile.
 - truefalse
-- truetrue
+- truetrue <<<<---Correct
 - falsetrue
 
 #### Q11. Given the following two classes, what will be the output of the Main class?
@@ -220,7 +220,7 @@ class Main {
 }
 ```
 - "123451234512345"
-- Nothing - this will not compile.
+- Nothing - this will not compile. <<<<---Correct
 - a negative integer value
 - "12345100000"
 
@@ -236,7 +236,7 @@ class Main {
 }
 ```
 - The code does not compile.
-- A runtime exception is thrown
+- A runtime exception is thrown <<<<---Correct
 - "world!!world"
 - "world!world!"
 
@@ -246,9 +246,8 @@ String n = m.substring(6,12) + m.substring(12,6);
 System.out.println(n);
 ```
 
-#### Q17. What is the output of this code?
-- How do you write a foreeach loop that will iterate over 
-```ArrayList<Pencil>pencilCase?
+#### Q17. How do you write a foreach loop that will iterate over ArrayList\<Pencil\>pencilCase?
+```
 for(Pencil pencil = pencilCase){}
 
 Iterator iterator = pencilCase.iterator();
