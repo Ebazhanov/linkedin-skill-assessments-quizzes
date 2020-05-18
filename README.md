@@ -13,3 +13,4 @@
 * [CSS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/css/css-quiz.md) 
 * [REST API](https://github.com/Ebazhanov/in-quiz-questions/blob/master/rest-api/rest-api-quiz.md) :+1:
 * [AWS-LAMBDA](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws-lambda/aws-lambda-quiz.md) :fire:
+* [PYTHON](https://github.com/Ebazhanov/in-quiz-questions/blob/master/python/python-quiz.md) 
