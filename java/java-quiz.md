@@ -18,7 +18,6 @@ Java Assessment
 int i1 = 1, i2 = 2;`
 
 - (i1 | i2) == 3
-=======
 - i2 && b1 <<<<---Correct
 - b1 || !b2
 - (i1 ^ i2) < 4
@@ -34,7 +33,6 @@ int i1 = 1, i2 = 2;`
 1: class Main {
 2:   public static void main (String[] args) {
 3:     int array[] = {1, 2, 3, 4};
-=======
 4:     for (int i = 0; i < array.size(); i++) {
 5:        System.out.print(array[i]);
        }
