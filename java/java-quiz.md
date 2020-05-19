@@ -10,7 +10,7 @@ Java Assessment
 #### Q2. How can you achieve runtime polymorphism in Java?
 - method overloading <<<<---Correct
 - method overrunning 
-- method overriding 
+- method overriding <--- Correct
 - method calling 
 
 #### Q3. Given the following definitions, which of these expression will NOT evaluate to true?
@@ -89,7 +89,7 @@ System.out.println(str);
 - It will show a stack trace with a runtime exception.
 - "java.lang.Exception" <<<<---Correct
 - It will run and throw an exception.
-- It will not compile.
+- It will not compile. <--- Correct
 
 #### Q9. Which class can compile given these declarations?
 ```
@@ -123,9 +123,9 @@ class Three implements One, Two {
 ```
 - 
 ```
-  class Three implements One, Two {
+  class Three implements One, Two { <------ correct
     publc void method() {
-        One.super.method();
+        One.super.method(); 
   } }
 ```
 
@@ -170,7 +170,7 @@ public class Math {
 7: }
 ```
 - Lines 1 and 2 generate compiler erros due to class name conflicts.
-- "-123"
+- "-123" <--- Correct
 - It will throw an exception on line 5.
 - "123"
 
@@ -192,7 +192,7 @@ public class Math {
 12:  }
 13: }
 ```
-- It will not compile because of line 10.
+- It will not compile because of line 10. <--- Correct
 - "Hello!"
 - It will not compile because of line 2.
 - "World!"
@@ -206,7 +206,7 @@ class Main {
 }
 ```
 - java Main 1 2 "3 4" 5
-- java Main 1 "2" "2" 5
+- java Main 1 "2" "2" 5 <--- Correct
 - java Main.class 1 "2" 2 5
 - java Main 1 "2" "3 4" 5
 
