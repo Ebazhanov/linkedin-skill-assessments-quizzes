@@ -1,5 +1,7 @@
 {
-  "files": ["README.md"],
+  "files": [
+    "README.md"
+  ],
   "imageSize": 100,
   "contributorsPerLine": 7,
   "contributorsSortAlphabetically": false,
@@ -12,6 +14,21 @@
       "link": "[<%= symbol %>](<%= url %> \"<%= description %>\"),"
     }
   },
-  "skipCi": "true",
-  "contributors": []
+  "skipCi": true,
+  "contributors": [
+    {
+      "login": "ajmeese7",
+      "name": "Aaron Meese",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/17814535?v=4",
+      "profile": "http://aaronmeese.com",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    }
+  ],
+  "projectName": "in-quiz-questions",
+  "projectOwner": "Ebazhanov",
+  "repoType": "github",
+  "repoHost": "https://github.com"
 }
