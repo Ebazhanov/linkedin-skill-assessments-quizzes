@@ -255,4 +255,4 @@ for(){iterator.hasNext()}{}
 ```
 
 #### Q18. Fill in the blanks?
-- Object-oriented programming (OOP) is a programming language model that organizes software design around (objects), rather than (functions).
+- Object-oriented programming (OOP) is a programming language model that organizes software design around (objects), rather than (actions).
