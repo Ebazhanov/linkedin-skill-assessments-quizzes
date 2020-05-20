@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Ebazhanov",
+      "name": "Evgenii",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/13170022?v=4",
+      "profile": "https://github.com/Ebazhanov",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "in-quiz-questions",
+  "projectOwner": "Ebazhanov",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
