@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, please feel free to create PR, any changes are welcome!!!
 
@@ -28,6 +28,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://github.com/Ebazhanov"><img src="https://avatars2.githubusercontent.com/u/13170022?v=4" width="100px;" alt=""/><br /><sub><b>Evgenii</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Ebazhanov" title="Code">💻</a> <a href="#content-Ebazhanov" title="Content">🖋</a></td>
+    <td align="center"><a href="https://ethereum.stackexchange.com/users/38531/monkrus"><img src="https://avatars3.githubusercontent.com/u/12500447?v=4" width="100px;" alt=""/><br /><sub><b>Sergei Stadnik</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=monkrus" title="Code">💻</a> <a href="#fundingFinding-monkrus" title="Funding Finding">🔍</a> <a href="#ideas-monkrus" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
