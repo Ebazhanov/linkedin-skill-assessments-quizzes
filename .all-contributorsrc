@@ -34,6 +34,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "iamjake-dev",
+      "name": "Jacob Dsa",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/65621534?v=4",
+      "profile": "https://github.com/iamjake-dev",
+      "contributions": [
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
