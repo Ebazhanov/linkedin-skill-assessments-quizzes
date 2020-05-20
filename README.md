@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -33,8 +33,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/iamjake-dev"><img src="https://avatars0.githubusercontent.com/u/65621534?v=4" width="100px;" alt=""/><br /><sub><b>Jacob Dsa</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=iamjake-dev" title="Code">💻</a> <a href="#content-iamjake-dev" title="Content">🖋</a></td>
     <td align="center"><a href="http://aaronmeese.com"><img src="https://avatars0.githubusercontent.com/u/17814535?v=4" width="100px;" alt=""/><br /><sub><b>Aaron Meese</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=ajmeese7" title="Code">💻</a> <a href="#content-ajmeese7" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/arqarq"><img src="https://avatars3.githubusercontent.com/u/43341071?v=4" width="100px;" alt=""/><br /><sub><b>arqarq</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=arqarq" title="Code">💻</a> <a href="#content-arqarq" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/azdemir"><img src="https://avatars3.githubusercontent.com/u/54518050?v=4" width="100px;" alt=""/><br /><sub><b>Demir</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=azdemir" title="Code">💻</a> <a href="#content-azdemir" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/amitykaran"><img src="https://avatars2.githubusercontent.com/u/23481557?v=4" width="100px;" alt=""/><br /><sub><b>Amit Yadav</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=amitykaran" title="Code">💻</a> <a href="#content-amitykaran" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://creator.geekart.club/"><img src="https://avatars0.githubusercontent.com/u/18037133?v=4" width="100px;" alt=""/><br /><sub><b>Javokhir Nazarov</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Nazarov7mu" title="Code">💻</a> <a href="#content-Nazarov7mu" title="Content">🖋</a></td>
   </tr>
 </table>
 
