@@ -89,6 +89,31 @@ def sum(a, b):   //CORRECT
     """
     return a + b
 ```
+- 
+```
+def sum(a, b):
+    """
+    # >>> sum(4, 3)
+    # 7   
+    
+    # >>> sum(-4, 5)
+    # 1
+    """
+    return a + b
+```
+- 
+```
+def sum(a, b):
+    ###
+    >>> sum(4, 3)
+    7   
+    
+    >>> sum(-4, 5)
+    1
+    ###
+    return a + b
+```
+
 
 #### Q12. What buit-in Python data type is commonly used to represent a stack?
 - set
