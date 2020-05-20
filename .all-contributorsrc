@@ -25,6 +25,16 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "monkrus",
+      "name": "Sergei Stadnik",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12500447?v=4",
+      "profile": "https://ethereum.stackexchange.com/users/38531/monkrus",
+      "contributions": [
+        "code",
+        "content"
+      ]
     }
   ],
   "projectName": "in-quiz-questions",
