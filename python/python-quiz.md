@@ -149,7 +149,6 @@ return list(enumerate(college_years, 2019)
 - `self  refers to the instance whose method was called` // CORRECT
 - `self refers to the class that was inherited from to create the object using self`
 
-
 #### Q17. Which of these is NOT a characteristic of namedtuples?
 - `You can assign a name to each of the namedtuple members and refer to them that way, similarly to how you would access keys in dictionary` //CORRECT
 - `Each member of a namedtuple object can be indexed to directly, just like in a regular tuple`
@@ -174,8 +173,6 @@ elif num_people > 0;
     print("There are a few people in the pool.")
 else:
     print("There is no one in the pool.")
-
-
     -------------
 
 num_people = 5
@@ -210,19 +207,134 @@ if num_people > 0;
     print("There are a few people in the pool.")
 else:
     print("There is no one in the pool.")
-
-
 ```
+
 #### Q20. Which statement does NOT describe the object-oriented programming concenpt of encapsulation?
 - `It protects the data from outside interference `
 - `A parent class is encapuslated and no data from the parent class passes on to the child class`
 - `It keeps data and the methods that can manipulate that data in one place`
 - `It only allows the data to be changed by methods` //CORRECT
 
-
-#### Q21.What is the purpose of an if/else statement?
-
+#### Q21. What is the purpose of an if/else statement?
 - `An if/else statement tells the computer which chunk of code to run if the instructions you coded are incorrect `
 - `An if/else statement runs one chunk of code if all the imports were succesful, and another chunk of code if the imports were not succesful `
 - `An if/else statement  executes one chunk of code if a condition it true, but a different chunk of code if the condition is false` //CORRECT
 - `An if/else statement tells the computer which chunk of code to run if the is enough memory to handle it. and which chunk of code to run if there is not enough memory to handle it`
+
+#### Q22. What buit-in Python data type is commonly used to represent a queue?
+- dictionary
+- set
+- None. You can only build a stack from scratch.
+- list 
+
+#### Q23. What is the correct syntax for instantiating a new object of the type Game?
+- `my_game = class.Game()`
+- `my_game = class(Game)`
+- `my_game = (Game)`
+- `my_game = Game.create()`
+
+#### Q24. What does the built-in map() function do?
+- It creates a path from multiple values in an iterable to a single value.
+- It applies a function to each item in an iterable and returns the value of that function.
+- It converts a complex value type into simpler value types.
+- It creates a mapping between two different elements of different iterables.
+
+#### Q25. If you don't explicitly return a value from a function, what happens?
+- The function will return a RuntimeError if you don't return a value.
+- If the return keyword is absent, the function will return None.
+- If the return keyword is absent, the function will return True.
+- The function will enter an infinite loop because it won't know when to stop executing its code.
+
+#### Q26. What is the purpose of the pass statement in Python?
+- It is used to skip the yield statement of a generator and return a value of None.
+- It is a null operation used mainly as a placeholder in functions, classes, etc.
+- It is used to pass control from one statement block to another.
+- It is used to skip the rest of a while or for loop and return to the start of the loop.
+
+#### Q27. What is the term used to describe items that may be passed into a function?
+- arguments
+- paradigms
+- attributes
+- decorators
+
+#### Q28. Which collection type is used to associate values with unique keys?
+- slot
+- dictionary
+- queue
+- sorted list
+
+#### Q29. When does a for loop stop iterating?
+- when it encounters an infinite loop
+- when it encounters an if/else statement that contains a break keyword
+- when it has assessed each item in the iterable it is working on or a break keyword is encountered
+- when the runtime for the loop exceeds O(n^2)
+
+#### Q30. Assuming the node is in a singly linked list, what is the runtime complexity of searching for a specific node within a singly linked list?
+- The runtime is O(n) because in the worst case, the node you are searching for is the last node, and every node in the linked list must be visited.
+- The runtime is O(nk), with n representing the number of nodes and k representing the amount of time it takes to access each node in memory.
+- The runtime cannot be determined unless you know how many nodes are in the singly linked list.
+- The runtime is O(1) because you can index directly to a node in a singly linked list.
+
+#### Q31. Given the following three list, how would you create a new list that matches the desired output printed below?
+```
+fruits = ['apples', 'oranges', 'bananas']
+quantities = [5, 3, 4]
+prices = [1.50, 2.25, 0.89]
+
+# Desired output
+[('Apples', 5, 1.50),
+('Oranges', 3, 2.25),
+('Bananas', 4, 0.89)]
+```
+
+- 
+```
+output = []
+
+fruit_tuple_0 = (first[0], quantities[0], price[0])
+output.append(fruit_tuple)
+
+fruit_tuple_1 = (first[1], quantities[1], price[1])
+output.append(fruit_tuple)
+
+fruit_tuple_2 = (first[2], quantities[2], price[2])
+output.append(fruit_tuple)
+
+return output
+```
+- 
+```
+i = 0
+output = []
+for fruit in fruits:
+    temp_qty = quantities[i]
+    temp_price = prices[i]
+    output.append((fruit, temp_qty, temp_price))
+    i += 1
+return output
+```
+- 
+```
+groceries = zip(fruits, quantities, prices)
+return groceries
+
+>>> [
+('Apples', 5, 1.50),
+('Oranges', 3, 2.25),
+('Bananas', 4, 0.89)
+]
+```
+-
+```
+i = 0
+output = []
+for fruit in fruits:
+    for qty in quantities:
+        for price in prices:
+            output.append((fruit, qty, price))
+    i += 1
+return output
+
+```
+
+
