@@ -336,5 +336,9 @@ for fruit in fruits:
 return output
 
 ```
-
+#### Q32. What happens when you use the built-in function all() on a list?
+- The all() function returns a Boolean value that answers the question "Are all the items in this list the same?"
+- The all() function returns True if all the items in the list can be converted to strings. Otherwise, it returns False.
+- The all() function will return all the values in the list.
+- The all() function returns True if all items in the list evaluate to True. Otherwise, it returns False.
 
