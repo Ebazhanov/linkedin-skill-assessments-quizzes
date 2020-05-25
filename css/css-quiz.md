@@ -8,13 +8,13 @@ a
 .examole a 
 div a
 ```
-- .example a
+- .example a  <<<<---Correct
 - div a 
 - a
 - ul li a
 
 #### Q2. Using an attribute selector, how would you select an `<a>` element with a "title" attribute?
-- a[title]{...}
+- a[title]{...}    <<<<---Correct
 - a > title {...}
 - a.title {...}
 - a=title {...}
@@ -91,7 +91,7 @@ They all target the same nav element.
 - Classes can be used multiple times per page but not within the same element.
 
 #### Q10. There are many properties that can be used to align elements and create page layouts such as float, position, flexbox and grid. Of these four properties, which one should be used to align a global navigation bar which stays fixed at the top of the page?
-- position
+- position   <<<<---Correct
 - flexbox
 - grid
 - float
@@ -101,7 +101,7 @@ They all target the same nav element.
 
 -
 ```
-background-color: blue;
+background-color: blue;                          <<<<---Correct
 background-image: url(image.jpg);
 background-repeat: no-repeat;
 background-attachment: scroll;
@@ -146,7 +146,7 @@ a {color: red;}
 ```
 
 - green
-- yellow
+- yellow  <<<<---Correct
 - blue
 - red
 
@@ -161,7 +161,7 @@ a {color: red;}
 line-height: 20px
 line-height: 2
 ```
-- The value of 20px will set the line-height to 20px. The value of 2 will set the line-height to twice the size of the corresponding font-size value.
+- The value of 20px will set the line-height to 20px. The value of 2 will set the line-height to twice the size of the corresponding font-size value.   <<<<---Correct
 - The value of 20px will set the line-height to 20px. The value of 2 is not valid.
 - The value of 20px will set the line-height to 20px. The value of 2 will default to a value of 2px.
 - The value of 20px will set the line-height to 20px. The value of 2 will set the line-height to 20% of the corresponding font-size value.
@@ -183,7 +183,7 @@ section + p {
 ```
 - Paragraph one will be blue, paragraph two will be red.
 - Both paragraphs will be blue.
-- Paragraphs one will be red, paragraph two will be blue.
+- Paragraphs one will be red, paragraph two will be blue.  <<<<---Correct
 - Both paragraphs will be red.
 
 
