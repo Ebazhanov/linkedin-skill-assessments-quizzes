@@ -5,7 +5,7 @@ Python Assessment
 - An abstract class is the name for any class from which you can instantiate an object.
 - Abstract classes must be redefined any time an object is instantiated from them 
 - Abstract classes must inherit from concrete classes.
-- An abstract class exists only so that other "concrete" classes can inherit from the abstract class.
+- An abstract class exists only so that other "concrete" classes can inherit from the abstract class. //CORRECT
 
 #### Q2. What happens when you use the build-in function "any()" on a list?
 - The "any()" function will randomly return any item from the list.
@@ -14,7 +14,7 @@ Python Assessment
 - The "any()" function returns a Boolean value that answers the question "Are there any items in this list?"
 
 #### Q3. What data structure does a binary tree degenerate to if it isn't balanced properly?
-- linked list
+- linked list //CORRECT
 - queue
 - set 
 - OrderedDict
@@ -59,7 +59,7 @@ count, fruit, price = (2, 'apple', 3.5)
 - "O(1)", also called constant time  //CORRECT
 
 #### Q10. What is the correct syntax for defining a class called Game?
-- `class Game: pass`
+- `class Game: pass` //CORRECT
 - `def Game(): pass`
 - `def Game: pass`
 - `class Game(): pass`
@@ -117,7 +117,7 @@ def sum(a, b):
 
 #### Q12. What buit-in Python data type is commonly used to represent a stack?
 - set
-- list 
+- list //CORRECT
 - None. You can only build a stack from scratch.
 - dictionary
 
@@ -129,7 +129,7 @@ return list(enumerate(college_years, 2019)
 - `[('Freshman', 2019), ('Sophomore', 2020), ('Junior', 2021), ('Senior', 2022)]`
 - `[(2019, 2020, 2021, 2022), ('Freshman', 'Sophomore', 'Junior', 'Senior')]`
 - `[('Freshman', 'Sophomore', 'Junior', 'Senior'), (2019, 2020, 2021, 2022)]`
-- `[(2019, 'Freshman'), (2020, 'Sophomore'), (2021, 'Junior'), (2022, 'Senior')]`
+- `[(2019, 'Freshman'), (2020, 'Sophomore'), (2021, 'Junior'), (2022, 'Senior')]` //CORRECT
 
 #### Q14. How does "defaultdict" work?
 - "defaultdict" will automatically create a dictionary for you that has keys which are the integers 0-10
@@ -140,7 +140,7 @@ return list(enumerate(college_years, 2019)
 #### Q15. What is the correct syntax for defining a class called "Game", if it inherits from a parent class called "LogicGame"?
 - `class Game.LogicGame(): pass`
 - `def Game(LogicGame): pass`
-- `class Game(LogicGame): pass`
+- `class Game(LogicGame): pass` //CORRECT
 - `def Game.LogicGame(): pass`
 
 #### Q16. What is the purpose of the "self" keyword when defining or calling instance methods?
@@ -150,10 +150,10 @@ return list(enumerate(college_years, 2019)
 - `self refers to the class that was inherited from to create the object using self`
 
 #### Q17. Which of these is NOT a characteristic of namedtuples?
-- `You can assign a name to each of the namedtuple members and refer to them that way, similarly to how you would access keys in dictionary` //CORRECT
+- `You can assign a name to each of the namedtuple members and refer to them that way, similarly to how you would access keys in dictionary` 
 - `Each member of a namedtuple object can be indexed to directly, just like in a regular tuple`
 - `namedtuples are just as memory efficient as regular tuples`
-- `No import is needed to use namedtuples because they are available in the standard library`
+- `No import is needed to use namedtuples because they are available in the standard library` //CORRECT
 
 #### Q18. What is an instance method?
 - `Instance methods can modify the state of an instance or the state of its parent class` //CORRECT
@@ -225,52 +225,52 @@ else:
 - dictionary
 - set
 - None. You can only build a stack from scratch.
-- list 
+- list //CORRECT
 
 #### Q23. What is the correct syntax for instantiating a new object of the type Game?
 - `my_game = class.Game()`
 - `my_game = class(Game)`
-- `my_game = (Game)`
+- `my_game = (Game)` //CORRECT
 - `my_game = Game.create()`
 
 #### Q24. What does the built-in map() function do?
 - It creates a path from multiple values in an iterable to a single value.
-- It applies a function to each item in an iterable and returns the value of that function.
+- It applies a function to each item in an iterable and returns the value of that function. //CORRECT
 - It converts a complex value type into simpler value types.
 - It creates a mapping between two different elements of different iterables.
 
 #### Q25. If you don't explicitly return a value from a function, what happens?
 - The function will return a RuntimeError if you don't return a value.
-- If the return keyword is absent, the function will return None.
+- If the return keyword is absent, the function will return None. //CORRECT
 - If the return keyword is absent, the function will return True.
 - The function will enter an infinite loop because it won't know when to stop executing its code.
 
 #### Q26. What is the purpose of the pass statement in Python?
 - It is used to skip the yield statement of a generator and return a value of None.
-- It is a null operation used mainly as a placeholder in functions, classes, etc.
+- It is a null operation used mainly as a placeholder in functions, classes, etc. //CORRECT
 - It is used to pass control from one statement block to another.
 - It is used to skip the rest of a while or for loop and return to the start of the loop.
 
 #### Q27. What is the term used to describe items that may be passed into a function?
-- arguments
+- arguments // CORRECT
 - paradigms
 - attributes
 - decorators
 
 #### Q28. Which collection type is used to associate values with unique keys?
 - slot
-- dictionary
+- dictionary //CORRECT
 - queue
 - sorted list
 
 #### Q29. When does a for loop stop iterating?
 - when it encounters an infinite loop
-- when it encounters an if/else statement that contains a break keyword
+- when it encounters an if/else statement that contains a break keyword //CORRECT
 - when it has assessed each item in the iterable it is working on or a break keyword is encountered
 - when the runtime for the loop exceeds O(n^2)
 
 #### Q30. Assuming the node is in a singly linked list, what is the runtime complexity of searching for a specific node within a singly linked list?
-- The runtime is O(n) because in the worst case, the node you are searching for is the last node, and every node in the linked list must be visited.
+- The runtime is O(n) because in the worst case, the node you are searching for is the last node, and every node in the linked list must be visited. //CORRECT
 - The runtime is O(nk), with n representing the number of nodes and k representing the amount of time it takes to access each node in memory.
 - The runtime cannot be determined unless you know how many nodes are in the singly linked list.
 - The runtime is O(1) because you can index directly to a node in a singly linked list.
@@ -315,7 +315,7 @@ return output
 ```
 - 
 ```
-groceries = zip(fruits, quantities, prices)
+groceries = zip(fruits, quantities, prices) //CORRECT
 return groceries
 
 >>> [
@@ -340,5 +340,5 @@ return output
 - The all() function returns a Boolean value that answers the question "Are all the items in this list the same?"
 - The all() function returns True if all the items in the list can be converted to strings. Otherwise, it returns False.
 - The all() function will return all the values in the list.
-- The all() function returns True if all items in the list evaluate to True. Otherwise, it returns False.
+- The all() function returns True if all items in the list evaluate to True. Otherwise, it returns False. //CORRECT
 
