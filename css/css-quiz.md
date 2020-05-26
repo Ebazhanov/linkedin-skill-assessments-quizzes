@@ -55,14 +55,14 @@ They all target the same nav element.
 
 #### Q5. When adding transparency styles, what is the difference between using the opacity property versus the background property with an `rgba()` value?
 - Opacity specifies the level of transparency of the child elements. Background with an `rgba()` value applies transparency to the background color only.
-- Opacity applies transparency to the background color only. Background with an `rgba()` value specifies the level of transparency of an element, as a whole, including its content.
-- Opacity specifies the level of transparency of an element, including its content. Background with an `rgba()` value applies transparency to the background color only.
+- Opacity applies transparency to the background color only. Background with an `rgba()` value specifies the level of transparency of an element, as a whole, including its content. 
+- Opacity specifies the level of transparency of an element, including its content. Background with an `rgba()` value applies transparency to the background color only.  <<<<---Correct
 - Opacity applies transparency to the parent and child elements. Background with an `rgba()` value specifies the level of transparency of the parent element only.
 
 #### Q6. What is true of block and inline elements?
 - By default, block elements are the same height and width as the content container between their tags; inline elements span the entire width of its container.
 - By default, block elements span the entire width of its container; inline elements are the same height and width as the content contained between their tags.
-- A "<nav>" element is an example of an inline element. "<header>" is an example of a block element.
+- A "<nav>" element is an example of an inline element. "<header>" is an example of a block element.  <<<<---Correct
 - A "<span>" is an example of a block element. "<div>" is an example of an inline element.
 
 #### Q7. CSS grid introduced a new lenght unit, fr, to create flexible grid tracks. Referring to the code sample below, what will the widths of the three columns be?
@@ -74,7 +74,7 @@ They all target the same nav element.
 }
 ```
 - The first column will have a width of 50px. The second column will be 50px wide and the third column will be 100px wide.
-- The first column will have a width of 50px. The second column will be 150px wide and the third column will be 300px wide.
+- The first column will have a width of 50px. The second column will be 150px wide and the third column will be 300px wide.  <<<<---Correct
 - The first column will have a width of 50px. The second column will be 300px wide and the third column will be 150px wide.
 - The first column will have a width of 50px. The second column will be 500px wide and the third column will be 1000px wide.
 
@@ -88,7 +88,7 @@ They all target the same nav element.
 - Multiple classes can be used within the same element.
 - The same class can be used multiple times per page.
 - Class selectors with a leading period
-- Classes can be used multiple times per page but not within the same element.
+- Classes can be used multiple times per page but not within the same element.  <<<<---Correct
 
 #### Q10. There are many properties that can be used to align elements and create page layouts such as float, position, flexbox and grid. Of these four properties, which one should be used to align a global navigation bar which stays fixed at the top of the page?
 - position   <<<<---Correct
