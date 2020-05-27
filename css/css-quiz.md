@@ -23,7 +23,7 @@ div a
 - Use the "clearfix hack" on the floated element and add a float to the parent element.
 - Use the overflow property on the floated element or the "clearfix hack" on either the floated or parent element.
 - Use the "clearfix hack" on the floated element or the overflow property on the parent element.
-- Use the "clearfix hack" on the parent element or use the overflow property with a value other than "visible."
+- Use the "clearfix hack" on the parent element or use the overflow property with a value other than "visible."     <<<<---Correct
 
 #### Q4. What element(s) do the following selectors match to?
 `1) .nav {...}`
@@ -42,7 +42,7 @@ They all target the same nav element.
 ```
 - 
 ```
-1) An element with an class of "nav"
+1) An element with an class of "nav"     <<<<---Correct
 2) A nav element
 3) An element with a id of "nav"
 ```
@@ -79,7 +79,7 @@ They all target the same nav element.
 - The first column will have a width of 50px. The second column will be 500px wide and the third column will be 1000px wide.
 
 #### Q8. What is the line-height property primarily used for?
-- to control the height of the space between two lines of content
+- to control the height of the space between two lines of content      <<<<---Correct
 - to control the height of the space between heading elements
 - to control the height of the character size
 - to control the width of the space between characters
@@ -89,6 +89,7 @@ They all target the same nav element.
 - The same class can be used multiple times per page.
 - Class selectors with a leading period
 - Classes can be used multiple times per page but not within the same element.  <<<<---Correct
+
 
 #### Q10. There are many properties that can be used to align elements and create page layouts such as float, position, flexbox and grid. Of these four properties, which one should be used to align a global navigation bar which stays fixed at the top of the page?
 - position   <<<<---Correct
@@ -151,7 +152,7 @@ a {color: red;}
 - red
 
 #### Q13. When elements overlap, they are ordered on the z-axis (i.e., which element covers another). The z-index property can be used to specify the z-order of overlapping elements. Which set of statements about the z-index property are ture?
-- Larger z-index values appear on top of elements with a lower z-index value. Negative and positive numbers can be used. z-index can only be used on positioned elements.
+- Larger z-index values appear on top of elements with a lower z-index value. Negative and positive numbers can be used. z-index can only be used on positioned elements.     <<<<---Correct
 - Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index must also be used with positioned elements.
 - Larger z-index values appear on top of elements with a lower z-index value. Only positive numbers can be used. z-index must also be used with positioned elements.
 - Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index can be used with or without positioned elements.
