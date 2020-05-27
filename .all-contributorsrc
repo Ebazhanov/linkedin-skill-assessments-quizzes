@@ -102,6 +102,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "SeniorHunter",
+      "name": "Amir Hossein Shekari",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/61600246?v=4",
+      "profile": "https://github.com/SeniorHunter",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
