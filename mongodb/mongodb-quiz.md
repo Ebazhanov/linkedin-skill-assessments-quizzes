@@ -92,7 +92,7 @@ MongoDB Assessment
 - It reboots the failed server.
 
 Q16. You would like to know how many types of items you have in each category. Which query does this?
-	
+
 	1. db.product.group({_id: "$category", count: {$sum:1}})
 	2. db.product.aggregate($sum: {_id: "$category", count: {$group:1}}})
 	3. db.product.aggregate($group: {_id: "$category", count: {$sum:1}}})    <<<<<--CORRECT
