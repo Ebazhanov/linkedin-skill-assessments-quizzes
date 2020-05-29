@@ -98,4 +98,31 @@ PHP Assessment
 - 44
 - 138
 - 126
-- 
+- 100
+
+#### Q13. What is the purpose of adding a lowercase "u" as a modifier after the final delimiter in a Perl-compatible regular expression?
+- It makes the dot metacharacter match anything, including newline characters.
+- It makes the pattern match uppercase letters.
+- Both the pattern and subject string are treated as UTF-8.
+- It inverts the greediness of the quantifiers in the pattern so they are not greedy by default.
+
+#### Q14. Which code snippet uses the correct syntax for creating an instance of the Pet class?
+```markdown
+- $dog = new Pet;
+- all of these answers
+- $horse = (new Pet);
+- $cat = new Pet();
+```
+
+#### Q15. What is the best way to explain what this script does?
+```markdown
+1 if (!$_SESSION['myusername'])
+2 {
+3    header('locaton: /login.php');
+4    exit;
+5 }
+```
+- This script times out the session for myusername.
+- Cookies are starting to be stored as a result of this script.
+- This script validates the username and password.
+- This script is on a page that requires the user to be logged in. It checks to see if the user has a valid session.
