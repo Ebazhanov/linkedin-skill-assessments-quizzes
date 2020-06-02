@@ -342,3 +342,24 @@ return output
 - The all() function will return all the values in the list.
 - The all() function returns True if all items in the list evaluate to True. Otherwise, it returns False. //CORRECT
 
+#### Q33. What is the correct syntax for calling an instance method on a class named Game?
+- 
+```
+>>> dice = Game()
+>>> dice.roll()    //CORRECT
+```
+- 
+```
+>>> dice = Game(self)
+>>> dice.roll(self)
+```
+- 
+```
+>>> dice = Game()
+>>> dice.roll(self)
+```
+- 
+```
+>>> dice = Game(self)
+>>> dice.roll()
+```
