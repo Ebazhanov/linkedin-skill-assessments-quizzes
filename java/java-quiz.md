@@ -256,3 +256,9 @@ for(){iterator.hasNext()}{}
 
 #### Q18. Fill in the blanks?
 - Object-oriented programming (OOP) is a programming language model that organizes software design around (objects), rather than (actions).
+
+#### Q19. What code would you use to tell if "schwifty" is of type String?
+- "schwifty".getType() == String
+- "schwifty".getClass().getsimpleName() == "String"
+- "schwifty".getType().equals("String")
+- "schwifty" instanceof String <<<<---Correct
