@@ -8,9 +8,9 @@ Java Assessment
 - traw
 
 #### Q2. How can you achieve runtime polymorphism in Java?
-- method overloading <<<<---Correct
+- method overloading 
 - method overrunning 
-- method overriding <--- Correct
+- method overriding <<<<--- Correct
 - method calling 
 
 #### Q3. Given the following definitions, which of these expression will NOT evaluate to true?
