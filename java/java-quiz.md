@@ -8,9 +8,9 @@ Java Assessment
 - traw
 
 #### Q2. How can you achieve runtime polymorphism in Java?
-- method overloading <<<<---Correct
+- method overloading 
 - method overrunning 
-- method overriding <--- Correct
+- method overriding <<<<--- Correct
 - method calling 
 
 #### Q3. Given the following definitions, which of these expression will NOT evaluate to true?
@@ -256,3 +256,15 @@ for(){iterator.hasNext()}{}
 
 #### Q18. Fill in the blanks?
 - Object-oriented programming (OOP) is a programming language model that organizes software design around (objects), rather than (actions).
+
+#### Q19. What code would you use to tell if "schwifty" is of type String?
+- "schwifty".getType() == String
+- "schwifty".getClass().getsimpleName() == "String"
+- "schwifty".getType().equals("String")
+- "schwifty" instanceof String <<<<---Correct
+
+#### Q20. Correct output of `"apple".compareTo("banana")`
+- 0
+- positive number
+- negitive number <<<<---Correct
+- compilation error
