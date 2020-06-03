@@ -363,3 +363,47 @@ return output
 >>> dice = Game(self)
 >>> dice.roll()
 ```
+#### Q34. Correct representation of doctest for function in Python
+-
+```
+def sum(a, b):
+    # a = 1
+    # b = 2
+    # sum(a, b) = 3
+    
+    return a + b
+```	
+-
+```
+def sum(a, b):
+    """
+    a = 1
+    b = 2
+    sum(a, b) = 3
+    """
+    
+    return a + b
+```	
+-
+```
+def sum(a, b):    //CORRECT
+    """
+    >>> a = 1
+    >>> b = 2
+    >>> sum(a, b)
+    3
+    """
+    
+    return a + b
+```
+-
+```
+def sum(a, b):
+    '''
+    a = 1
+    b = 2
+    sum(a, b) = 3
+    '''
+    
+    return a + b
+```
