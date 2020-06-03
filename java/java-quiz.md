@@ -262,3 +262,9 @@ for(){iterator.hasNext()}{}
 - "schwifty".getClass().getsimpleName() == "String"
 - "schwifty".getType().equals("String")
 - "schwifty" instanceof String <<<<---Correct
+
+#### Q20. Correct output of `"apple".compareTo("banana")`
+- 0
+- positive number
+- negitive number <<<<---Correct
+- compilation error
