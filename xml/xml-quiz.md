@@ -75,7 +75,11 @@ XML Assessment
         <p><strong>Content goes here ...</strong></p>
     </body>
 </html>
+
+
 ```
+Answer: 4 option
+
 #### Q4. When working with Ajax applications, which is faster, XML or JSON?
 - XML, because it is extensible
 - JSON, because it transfers data without waiting for a sever response
@@ -87,6 +91,8 @@ XML Assessment
 - HTML, CSS, and DOM
 - Python, Perl, and C++
 - Java, ASP, and C#
+
+Answer: HTML, CSS and DOM
 
 #### Q6. What is this code an example of?
 `<x/>`
