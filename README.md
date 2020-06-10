@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -54,6 +54,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://www.facebook.com/monu.gupta.14855377"><img src="https://avatars3.githubusercontent.com/u/42869855?v=4" width="100px;" alt=""/><br /><sub><b>Monu Gupta</b></sub></a><br /><a href="#design-gmonu" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/kartikeyaGUPTA45"><img src="https://avatars2.githubusercontent.com/u/55397207?v=4" width="100px;" alt=""/><br /><sub><b>KARTIKEYA GUPTA</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=kartikeyaGUPTA45" title="Code">💻</a> <a href="#content-kartikeyaGUPTA45" title="Content">🖋</a></td>
   </tr>
 </table>
 
