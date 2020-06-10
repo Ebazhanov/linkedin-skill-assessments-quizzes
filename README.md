@@ -24,7 +24,7 @@
 | [OOP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/oop/object-oriented-programming-quiz.md) |  answers required |
 | [PHP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/php/php-quiz.md) |  answers required |
 | [NoSQL](https://github.com/Ebazhanov/in-quiz-questions/blob/master/nosql/nosql-quiz.md) |  with answers |
-| [C#](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c#/c-sharp-quiz.md) |  answers required |
+| [C#](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%23/c-sharp-quiz.md) |  answers required |
 
 ## Contributors ✨
 

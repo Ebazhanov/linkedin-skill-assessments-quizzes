@@ -222,4 +222,3 @@ function Dish(props) {
 - a property that lets you pass components as data to other components <<<<<--CORRECT
 - a property that lets you set an array as a property
 - a property that lets you pass data to child elements
-
