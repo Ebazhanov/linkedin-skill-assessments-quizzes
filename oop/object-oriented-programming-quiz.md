@@ -90,3 +90,9 @@ Object-Oriented Programming (OOP) Assessment
 - Inheritance means that a group of related properties, methods, and other members are treated as a single unit or object.
 - Inheritance forces a class to have a single repsonsibilitly from only one parent.
 - Inheritance means that you will never have multiple classes that can be used interchangeably, even though each class implements the same properties or methods in different ways.
+
+#### Q16 Which type of inheritance ,when done continuously, is similar to a tree structure?
+-multilevel
+-hierarchical and multiple
+-hierarchical **<<--correct 
+-multiple
