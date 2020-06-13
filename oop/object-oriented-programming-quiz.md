@@ -420,3 +420,10 @@
 - [ ] modification; duplication
 - [x] extension; modification
 - [ ] reuse; encapsulation
+
+#### Q56. Why would you override a method of a base class?
+
+- [ ] to define a method that must be implemented in a derived class
+- [x] to define a custom implementation of an inherited member
+- [ ] to define a method that must be implemented in a superclass only
+- [ ] to define a class that can be inherited from
