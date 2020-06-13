@@ -96,3 +96,9 @@ Object-Oriented Programming (OOP) Assessment
 -hierarchical and multiple
 -hierarchical **<<--correct 
 -multiple
+
+#### Q17. Which statement is true?
+- A default parameter's constructor is not equivalent to the default constructor
+- A default constructor is inherited from a parent class
+- A default constructor can be called explicitly
+-**A default constructor cannot be defined by the coder** <<-- correct
