@@ -413,3 +413,10 @@
 - [x] Attributes describ a state; behaviours describe a change.
 - [ ] Attributes apply only to a specified object; behaviour apply to other linked objects.
 - [ ] Behaviours are vector quantities; attributes are scalars.
+
+#### Q55. The open/closed principle states that classes should be open for ___ but closed for ____.
+
+- [ ] refactoring; duplication
+- [ ] modification; duplication
+- [x] extension; modification
+- [ ] reuse; encapsulation
