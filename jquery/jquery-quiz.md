@@ -30,11 +30,8 @@ jQuery Assessment
 - $('.btn-primary').not(':visible').show();
 - $('.btn-primary').css({ display: 'block'}); <<<<---Correct // ({ display: 'none'});
 
-#### Q4. Working with AJAX, we may run into situations where a piece of code should not be run until after multiple AJAX,
-#### calls have completed successfully. Say we need to call two external services for JSON data (a list of students, and 
-#### a list of classes). And only after retrieving those data will we perform some manipulations on a page. What is the 
-#### preferred way for dealing with this scenario?
-#### https://example.com/json-api/students https://example.com/json-api/classes
+#### Q4. Working with AJAX, we may run into situations where a piece of code should not be run until after multiple AJAX, calls have completed successfully. Say we need to call two external services for JSON data (a list of students, and a list of classes). And only after retrieving those data will we perform some manipulations on a page. What is the preferred way for dealing with this scenario? 
+https://example.com/json-api/students https://example.com/json-api/classes
 
 - `$.get([
       'https://example.com/json-api/students',
@@ -68,7 +65,6 @@ jQuery Assessment
 });`   
 
 #### Q5. Given the snippet of HTML below, what is the difference between the two lines that follow it?
-
 <ul>
     <li>Item 1</li>
     <li>Item 2</li>
@@ -86,9 +82,7 @@ $('ul').find('li').eq(2);
 - .get() retrieves a jQuery object, and is zero-indexed, eq() retrieves a DOM element, and is 1-indexed.
 - .get() retrieves a DOM element, and is zero-indexed, eq() retrieves a jQuery object, and is 1-indexed.  <<<<--Correct !
 
-#### Q6. Suppose we want to have an ball created from an HTML element (id=ball) move down and to the right
-#### from its original location when clicked, and move back into its original place when finished. Given a starting
-#### point of this, which of these snippets would accomplish that goal?
+#### Q6. Suppose we want to have an ball created from an HTML element (id=ball) move down and to the right from its original location when clicked, and move back into its original place when finished. Given a starting point of this, which of these snippets would accomplish that goal?
 
 $('#ball').click(function() {
     // Our code goes here
@@ -158,9 +152,7 @@ $('#ball').click(function() {
 - `$('.feedback').addClass('.success');` <<<<---Correct ?
 - `$('.feedback').css('.success');`
 
-#### Q8. Below an example page snippet that includes a couple of messages in a list, and a code snippet that
-#### retrieves a few hundred messages from a API endpoints using AJAX. How might we add these items to the 
-#### page snippet in a way that avoids performance problems with DOM insertions?
+#### Q8. Below an example page snippet that includes a couple of messages in a list, and a code snippet that retrieves a few hundred messages from a API endpoints using AJAX. How might we add these items to the page snippet in a way that avoids performance problems with DOM insertions?
 
 <div class="message-area">
     <ul class="message-area--list">
@@ -201,9 +193,7 @@ $.each(tonsOfItems, function(idx, item) {
 AJAX, and other things easier. <<<<---CORRECT !
 - jQuery is a Chrome extension that allows users to create their own extensions with just a few lines of JavaScript.
 
-#### Q10. We want to create a new jQuery plugin called linkUpdater that can be chained onto other jQuery
-#### selector like a normal plugin. It should updates all the links in the referenced collection so they open 
-#### in new windows or tabs. Below is the first cut. What is one problem with this plugin?
+#### Q10. We want to create a new jQuery plugin called linkUpdater that can be chained onto other jQuery selector like a normal plugin. It should updates all the links in the referenced collection so they open in new windows or tabs. Below is the first cut. What is one problem with this plugin?
 
 "user strict";
     $.linkUpdater = function() {
@@ -242,17 +232,14 @@ Explorer 7
 - $('header').html() strips all HTML from the header. $('header').text() always returns an empty string.
 - $('header').html() returns all headers in an HTML document. $('header').text() the first line of a text file.
 
-#### Q14. When writing jQuery plugins, we often provide default options that may be overridden by the end user.
-#### What jQuery function is most useful for this purpose?
+#### Q14. When writing jQuery plugins, we often provide default options that may be overridden by the end user. What jQuery function is most useful for this purpose?
 
 - $.extend <<<<---CORRECT
 - $.clone
 - $.fn.extend
 - $.merge
 
-#### Q15. There are times when you might want to programmatically trigger an event, instead of simply reacting to user 
-#### input directly. Given this markup, Which choice will NOT cause a click event to the select box when 
-#### the button is clicked?
+#### Q15. There are times when you might want to programmatically trigger an event, instead of simply reacting to user input directly. Given this markup, Which choice will NOT cause a click event to the select box when the button is clicked?
 
 <article>
     <div>

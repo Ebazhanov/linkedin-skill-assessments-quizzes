@@ -1,0 +1,168 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Ebazhanov",
+      "name": "Evgenii",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/13170022?v=4",
+      "profile": "https://github.com/Ebazhanov",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "monkrus",
+      "name": "Sergei Stadnik",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/12500447?v=4",
+      "profile": "https://ethereum.stackexchange.com/users/38531/monkrus",
+      "contributions": [
+        "code",
+        "fundingFinding",
+        "ideas"
+      ]
+    },
+    {
+      "login": "santhosh-techie",
+      "name": "Santhosh",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29485255?v=4",
+      "profile": "https://github.com/santhosh-techie",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "iamjake-dev",
+      "name": "Jacob Dsa",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/65621534?v=4",
+      "profile": "https://github.com/iamjake-dev",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "ajmeese7",
+      "name": "Aaron Meese",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/17814535?v=4",
+      "profile": "http://aaronmeese.com",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "arqarq",
+      "name": "arqarq",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/43341071?v=4",
+      "profile": "https://github.com/arqarq",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "amitykaran",
+      "name": "Amit Yadav",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/23481557?v=4",
+      "profile": "https://github.com/amitykaran",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "Nazarov7mu",
+      "name": "Javokhir Nazarov",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/18037133?v=4",
+      "profile": "http://creator.geekart.club/",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "saurav1423",
+      "name": "saurav kumar",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/55906348?v=4",
+      "profile": "https://github.com/saurav1423",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "Chetan11-dev",
+      "name": "Chetan",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/53407137?v=4",
+      "profile": "https://github.com/Chetan11-dev",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "SeniorHunter",
+      "name": "Amir Hossein Shekari",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/61600246?v=4",
+      "profile": "https://github.com/SeniorHunter",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "SergDaut",
+      "name": "SergDaut",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/65856306?v=4",
+      "profile": "https://github.com/SergDaut",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "goodday451999",
+      "name": "Nilotpal Pramanik",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/33095476?v=4",
+      "profile": "https://www.linkedin.com/in/pramaniknilotpal/",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "AbhiSaphire",
+      "name": "Abhishek Kumar",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/43245214?v=4",
+      "profile": "https://abhisaphire.github.io",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "gmonu",
+      "name": "Monu Gupta",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/42869855?v=4",
+      "profile": "https://www.facebook.com/monu.gupta.14855377",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "kartikeyaGUPTA45",
+      "name": "KARTIKEYA GUPTA",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/55397207?v=4",
+      "profile": "https://github.com/kartikeyaGUPTA45",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "in-quiz-questions",
+  "projectOwner": "Ebazhanov",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
