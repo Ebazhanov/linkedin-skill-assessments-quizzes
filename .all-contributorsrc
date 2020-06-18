@@ -157,6 +157,16 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "kenkyusha",
+      "name": "kenkyusha",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/22096048?v=4",
+      "profile": "https://github.com/kenkyusha",
+      "contributions": [
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
