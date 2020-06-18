@@ -102,3 +102,33 @@ Object-Oriented Programming (OOP) Assessment
 - A default constructor is inherited from a parent class
 - A default constructor can be called explicitly
 -**A default constructor cannot be defined by the coder** <<-- correct
+
+#### Q18. Which of the following is NOT an advantage of using getters and setters?
+- Getters and setters can speed up compilation.
+- Getters and setters provide encapsulation of behavior.
+- Getters and setters provide a debugging point for when a property changes at runtime. <<--- picked this one not sure if its correct!
+- Getters and setters permit different access levels.
+
+#### Q19. In context of OOP, what is association?
+- Association is a relationship where all objects have their own life cycle and there is no owner.
+- Association is the procecss where model elements cooperate to proide higher-level behavior.
+Association is whole/part relationship where one object is composed of one or more other objects, each of which is considered a part of the whole. <<--- picked this one, again not sure
+- Association is where all objects have their own life cycle, but there is ownerhip, and child objects can not belong to another parent object.
+
+#### Q20. How are user stories different from use cases?
+- User Stories are shorter and less detailed.
+- User stories are more accurate.
+- User stories are more detailed and structured. <<--- picked this one, again not sure
+- User storised are more anecdotal and personal.
+
+#### Q21. Which type of inheritance must be used so that the resultant is hybrid?
+- multiple
+- any type of inheritance
+- multilevel  <<--- picked this one, 
+- hierarchical
+
+#### Q22. A language that does not support polymorphism but supports classes is considered what?
+- an object-based language <<--- picked this one
+- a class-based language
+- a procedure-oriented language
+- if classes are supported, polymorphism will be supported
