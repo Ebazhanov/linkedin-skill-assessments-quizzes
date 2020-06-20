@@ -136,5 +136,31 @@ modified: beta-notes.js`
 - Staging area <<< ---Correct
 - git cache
 
+#### Q20. Which statement is true with **git push** command
+- All tags are pushed to the remote
 
+#### Q21. Which command would you use to force an overwrite of your local files with the master branch:
+- git fetch --all; git reset --hard origin/master  <<< ---Correct
+- git pull origin master; git reset --hard origin/myCurrentBranch
+- git pull --all; git reset --hard origin/master
+- git pull -u origin master; git reset --hard master
 
+#### Q22. Which statement is true when you use the **git add -A** command?
+- Only new files in the working directory are staged to the index.
+- All new and updated files from the working directory are staged to the index. <<< ---Correct
+- All files in the working directory are staged to the index in alphabetical order.
+- Only updated files in the working directory are staged to the index.
+
+#### Q23. Describe what is happening given these commands:
+git checkout feature-user-location
+git cherry-pick {123safd23e}
+- The commit is being tagged for release on the feature-user-location branch.
+- A commit is being copied from the feature-user-location branch to the master branch.
+- The commit is being cherry-picked as new HEAD of the commit history.
+- The branch is switched to the feature-user-location branch, and the specified commit is applied to the branch. <<< ---Correct
+
+#### Q24. You find that your project has a tag and branch both named push-notifications, which causes confusion when trying to print out given reference. How can you specify which branch you want to look at?
+- use git  show ref/push-notifications
+- use git show push-notifications
+- use git show head/refs/push-notifications << ---- chose thise one not sure though!
+- use git show refs/head/push-notifications
