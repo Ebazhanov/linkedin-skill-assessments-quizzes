@@ -132,3 +132,9 @@ Association is whole/part relationship where one object is composed of one or mo
 - a class-based language
 - a procedure-oriented language
 - if classes are supported, polymorphism will be supported
+
+#### Q23. If two classes combine some private data members and provides public member functions to access and manipulate those data members. Where is abstraction used?
+- Abstraction is using a private access specifier for data members
+- Abstraction is using public member functions to access and manipulate the data members **<<-- correct
+- Absttraction is using the class concept with both data members and member functions
+- There is insufficient information to decide where abstraction is being used.
