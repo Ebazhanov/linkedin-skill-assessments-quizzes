@@ -184,3 +184,97 @@ new logThis();`
 - 1234
 - 01234 <<<<---Correct
 - 012345
+
+#### Q20. Which Object method returns an iterable that can be used to iterate over the properties of an object?
+- Object.get()
+- Object.loop()
+- Object.each()
+- Object.keys()
+
+
+#### Q21. After the following code, what is the value of a.length?
+```js
+var a = ['dog','cat','hen'];
+a[100] = 'fox';
+```
+- 101 <<<<------ Correct
+- 3
+- 4
+- 100
+
+
+#### Q22. You need to match a time value such as 12:00:32. Which Regular expression would work for your code? 
+- /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/
+- / : : /
+- /\d\d:\d\d:\d\d/
+- /[0-9]+:[0-9]+:[0-9]+/ <<<---Correct
+
+
+#### Q23. What is one differance between collections created with Map and collections created with Object?
+- You can iterate over values in a Map in their insertion order.
+- You can count the records in a Map with a single method call.
+- Keys in Maps can be strings.
+- You can access values in a Map without iterating over the whole collection.
+
+#### Q24. Which property references the DOM object that dispatched an event?
+- source
+- object
+- target
+- self
+
+
+#### Q25. What is the value of dessert.type after executing this code?
+```js
+const dessert = { type: 'pie' };
+dessert.type = 'pudding';
+```
+- pie
+- The code will throw an error.
+- pudding <<<<------- Correct 
+- undefined
+
+
+#### Q26. 0 && hi
+- ReferenceError
+- True
+- 0 <<<<------- Correct 
+- false
+
+#### Q27. Which of the following operators can be used to do a short-circuit evaluation?
+- \++
+- \--
+- \==
+- || <<<<-------Correct 
+
+#### Q28. Which statement sets the Person constructor as the parent of the Student constructor in the prototype chain?
+- Student.parent = Person;
+- Student.prototype = new Person();
+- Student.prototype = Person;
+- Student.prototype = Person();
+
+#### Q29. Why would you include a "use strict" statement in a JavaScript file?
+- to tell parsers to interpret your JavaScript syntax loosely
+- to tell parsers to enforce all JavaScript syntax rules when processing your code
+- to instruct the browser to authmatically fix any errors it finds in the code
+- to enable ES6 features in your code
+
+
+#### Q30. Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?
+- all of them
+- const
+- var
+- let
+
+
+#### Q31. Which of the following values is not a Boolean false?
+- Boolean(0)
+- Boolean("")
+- Boolean(NaN)
+- Boolean("false") <<<<------Correct 
+
+
+#### Q32. Which of the following is not a keyword in JavaScript?
+- this
+- catch <<<<------Correct
+- function
+- array
