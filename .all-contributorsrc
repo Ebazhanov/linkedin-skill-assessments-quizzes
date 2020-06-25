@@ -177,6 +177,16 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "cyber-netics",
+      "name": "cyber-netics",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/67401984?v=4",
+      "profile": "https://github.com/cyber-netics",
+      "contributions": [
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
