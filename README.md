@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-19-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -57,6 +57,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/kartikeyaGUPTA45"><img src="https://avatars2.githubusercontent.com/u/55397207?v=4" width="100px;" alt=""/><br /><sub><b>KARTIKEYA GUPTA</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=kartikeyaGUPTA45" title="Code">💻</a> <a href="#content-kartikeyaGUPTA45" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/kenkyusha"><img src="https://avatars1.githubusercontent.com/u/22096048?v=4" width="100px;" alt=""/><br /><sub><b>kenkyusha</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=kenkyusha" title="Code">💻</a> <a href="#content-kenkyusha" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/juandavidtowers"><img src="https://avatars0.githubusercontent.com/u/58567225?v=4" width="100px;" alt=""/><br /><sub><b>juandavidtowers</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=juandavidtowers" title="Code">💻</a> <a href="#content-juandavidtowers" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/cyber-netics"><img src="https://avatars1.githubusercontent.com/u/67401984?v=4" width="100px;" alt=""/><br /><sub><b>cyber-netics</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=cyber-netics" title="Code">💻</a> <a href="#content-cyber-netics" title="Content">🖋</a></td>
   </tr>
 </table>
 
