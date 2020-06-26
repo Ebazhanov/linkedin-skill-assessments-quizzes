@@ -25,6 +25,7 @@
 | [PHP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/php/php-quiz.md) |  answers required |
 | [NoSQL](https://github.com/Ebazhanov/in-quiz-questions/blob/master/nosql/nosql-quiz.md) |  with answers |
 | [C#](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%23/c-sharp-quiz.md) |  answers required |
+| [SWIFT](https://github.com/Ebazhanov/in-quiz-questions/blob/master/swift/swift-quiz.md) |  answers required |
 
 ## Contributors ✨
 
