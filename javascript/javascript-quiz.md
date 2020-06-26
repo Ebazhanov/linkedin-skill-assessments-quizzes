@@ -189,26 +189,23 @@ new logThis();`
 - Object.get()
 - Object.loop()
 - Object.each()
-- Object.keys()
-
+- Object.keys() <<<<----Correct 
 
 #### Q21. After the following code, what is the value of a.length?
 ```js
 var a = ['dog','cat','hen'];
 a[100] = 'fox';
 ```
-- 101 <<<<------ Correct
+- 101 <<<<----Correct
 - 3
 - 4
 - 100
-
 
 #### Q22. You need to match a time value such as 12:00:32. Which Regular expression would work for your code? 
 - /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/
 - / : : /
 - /\d\d:\d\d:\d\d/
-- /[0-9]+:[0-9]+:[0-9]+/ <<<---Correct
-
+- /[0-9]+:[0-9]+:[0-9]+/ <<<<----Correct
 
 #### Q23. What is one differance between collections created with Map and collections created with Object?
 - You can iterate over values in a Map in their insertion order.
@@ -219,9 +216,8 @@ a[100] = 'fox';
 #### Q24. Which property references the DOM object that dispatched an event?
 - source
 - object
-- target
+- target <<<<----Correct 
 - self
-
 
 #### Q25. What is the value of dessert.type after executing this code?
 ```js
@@ -232,7 +228,6 @@ dessert.type = 'pudding';
 - The code will throw an error.
 - pudding <<<<------- Correct 
 - undefined
-
 
 #### Q26. 0 && hi
 - ReferenceError
@@ -248,23 +243,21 @@ dessert.type = 'pudding';
 
 #### Q28. Which statement sets the Person constructor as the parent of the Student constructor in the prototype chain?
 - Student.parent = Person;
-- Student.prototype = new Person();
+- Student.prototype = new Person(); <<<<----Correct
 - Student.prototype = Person;
 - Student.prototype = Person();
 
 #### Q29. Why would you include a "use strict" statement in a JavaScript file?
 - to tell parsers to interpret your JavaScript syntax loosely
-- to tell parsers to enforce all JavaScript syntax rules when processing your code
+- to tell parsers to enforce all JavaScript syntax rules when processing your code <<<<----Correct
 - to instruct the browser to authmatically fix any errors it finds in the code
 - to enable ES6 features in your code
-
 
 #### Q30. Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?
 - all of them
 - const
-- var
+- var <<<<----Correct
 - let
-
 
 #### Q31. Which of the following values is not a Boolean false?
 - Boolean(0)
@@ -277,4 +270,114 @@ dessert.type = 'pudding';
 - this
 - catch <<<<------Correct
 - function
+- array
+
+
+#### Q33. When would you use conditional statement?
+- When you want to loop through a group of statements.
+- When you want your code to choose between multiple options. <<<<----Correct
+- When you want to reuse a set of statements multiple times.
+- When you want to group data together.
+
+
+#### Q34. Which variable is an implicit parameter for every function in JavaScript?
+- Arguments <<<<----Correct
+- args
+- argsArray
+- argumentsList
+
+
+#### Q35. For the following class, how do you get the value of 42 fro ma instance of X?
+```js
+class X {
+    get Y() { return 42; }
+}
+```
+- x.get('Y')
+- x.Y <<<<-----May be (could be bad question)
+- x.Y()
+- x.get().Y
+
+
+#### Q36. What is the result of running this code?
+```js
+sum(10,20);
+diff(10,20);
+function sum(x,y){
+    return x+y;
+}
+
+let diff = function(x,y){
+    return x-y
+}
+```
+- 30, RefferanceError, 30, -10
+- 30, ReferanceError  <<<<----Correct
+- 30, -10
+- ReferanceError, -10
+
+
+#### Q37. Why is it usually better to work with Objects instead of Arrays to store a collection of records?
+- Objects are more efficent in terms of storeage.
+- Adding a record to an object is significantly faster than pushing a record into an array. <<<<----Correct
+
+- Most operations involve looking up a record, and objects can do that better than arrays.
+- Working with objects makes the code more readable.
+
+
+#### Q38. Which statement is true about the "async" attribute for the HTML script tag?
+- It can be used for both internal and external JavaScript code.
+- It can be used only for internal JavaScript code. <<<<----Correct
+- It can be used only for internal or external JavaScript code that exports a promise.
+- It can be used only for external JavaScript code.
+
+
+#### Q39. How do you import the lodash library making it top-level Api available as the "_" variable?
+- import _ from 'lodash'; <<<<----Correct
+- import 'lodash' as _;
+- import '_' from 'lodash;
+- import lodash as _ from 'lodash';
+
+#### Q40. What does the following expression evaluate to?
+```js
+[] == []
+```
+- True
+- undefined
+- []
+- False <<<<----Correct
+
+
+#### Q41. What is the name of a function whose expecution can be suspended and resumed at a later point? 
+- Generator function
+- Arrow function 
+- Async/ Await function <<<<----Correct
+- Promise function
+
+
+#### Q42. What will this code print?
+```js
+var v = 1
+var f1 = function(){
+    console.log(v)
+}
+
+var f2 = function(){
+    var v = 2;
+    f1()
+}
+
+f2()
+```
+- 2
+- 1 <<<<----Correct
+- Nothing--this code will throw an error.
+- undefined
+
+
+#### Q43. Which statement is true about Functional Programming?
+- Every object in the program has to be a function.
+- Code is grouped with the state it modifies.
+- Date fields and methods are kept in units. <<<<----May be
+- Side effecs are not allowed.
 - array
