@@ -191,7 +191,6 @@ new logThis();`
 - Object.each()
 - Object.keys() <<<<----Correct 
 
-
 #### Q21. After the following code, what is the value of a.length?
 ```js
 var a = ['dog','cat','hen'];
@@ -202,13 +201,11 @@ a[100] = 'fox';
 - 4
 - 100
 
-
 #### Q22. You need to match a time value such as 12:00:32. Which Regular expression would work for your code? 
 - /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/
 - / : : /
 - /\d\d:\d\d:\d\d/
 - /[0-9]+:[0-9]+:[0-9]+/ <<<<----Correct
-
 
 #### Q23. What is one differance between collections created with Map and collections created with Object?
 - You can iterate over values in a Map in their insertion order.
@@ -222,7 +219,6 @@ a[100] = 'fox';
 - target <<<<----Correct 
 - self
 
-
 #### Q25. What is the value of dessert.type after executing this code?
 ```js
 const dessert = { type: 'pie' };
@@ -230,9 +226,8 @@ dessert.type = 'pudding';
 ```
 - pie
 - The code will throw an error.
-- pudding <<<<----Correct
+- pudding <<<<------- Correct 
 - undefined
-
 
 #### Q26. 0 && hi
 - ReferenceError
@@ -255,17 +250,14 @@ dessert.type = 'pudding';
 #### Q29. Why would you include a "use strict" statement in a JavaScript file?
 - to tell parsers to interpret your JavaScript syntax loosely
 - to tell parsers to enforce all JavaScript syntax rules when processing your code <<<<----Correct
-
 - to instruct the browser to authmatically fix any errors it finds in the code
 - to enable ES6 features in your code
-
 
 #### Q30. Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?
 - all of them
 - const
 - var <<<<----Correct
 - let
-
 
 #### Q31. Which of the following values is not a Boolean false?
 - Boolean(0)
@@ -388,3 +380,4 @@ f2()
 - Code is grouped with the state it modifies.
 - Date fields and methods are kept in units. <<<<----May be
 - Side effecs are not allowed.
+- array
