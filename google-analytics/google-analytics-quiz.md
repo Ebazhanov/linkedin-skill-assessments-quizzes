@@ -7,7 +7,6 @@
 - Paid Search <<<<<< Correct
 
 #### Q2. If you want to evaluate if direct traffic delivered more traffic than organic search in August 2019, which report do you look at?
-
 - Audience > Behavior > Engagement
 - Realtime > Traffic Sources
 - Acquisition > All Traffic > Channels <<<<<< Correct
@@ -21,7 +20,6 @@
 - An event is a user interaction; an event goal is triggered by a selected event. <<<<<< Correct, Not sure
 
 #### Q4. A user downloads a white paper with event tracking once in a single session. Another user downloads the same white paper three times in a single session. How many unique events are counted?
-
 - one <<<<<< Correct
 - three
 - two
@@ -58,7 +56,6 @@
 - Behavior > Behavior Flow
 
 #### Q9. Which Chrome extension, developed by Google, would be valuable for identifying deployment issues with Google Analytics?
-
 - Click & Test
 - Google Keep
 - Express UTM
@@ -70,9 +67,7 @@
 - Include and Exclude filters
 - custom dimensions
 
-
 #### Q11. If you posted a link offering 50% off a hat, but the link sent people to a page of sweaters, what impact would you most likely see?
-
 - a high page score
 - a low bounce rate
 - a high bounce rate <<<<<< Correct
@@ -97,7 +92,6 @@
 - value
 
 #### Q15. If you wanted to evaluate how your site performs relative to other sites in your industry vertical, what reports do you use?
-
 - Benchmarking <<<<<< Correct
 - Cohort Analysis
 - Network Referrals

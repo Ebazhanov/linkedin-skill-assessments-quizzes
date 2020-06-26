@@ -167,6 +167,36 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "juandavidtowers",
+      "name": "juandavidtowers",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/58567225?v=4",
+      "profile": "https://github.com/juandavidtowers",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "cyber-netics",
+      "name": "cyber-netics",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/67401984?v=4",
+      "profile": "https://github.com/cyber-netics",
+      "contributions": [
+        "code",
+        "content"
+      ]
+    },
+    {
+      "login": "jtrisw",
+      "name": "jtrisw",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/67442001?v=4",
+      "profile": "https://github.com/jtrisw",
+      "contributions": [
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
