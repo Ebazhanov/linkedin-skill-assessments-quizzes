@@ -26,6 +26,7 @@
 | [NoSQL](https://github.com/Ebazhanov/in-quiz-questions/blob/master/nosql/nosql-quiz.md) |  with answers |
 | [C#](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%23/c-sharp-quiz.md) |  answers required |
 | [SWIFT](https://github.com/Ebazhanov/in-quiz-questions/blob/master/swift/swift_quiz.md) |  with answers |
+| [GOOGLE-ANALYTICS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-analytics/google-analytics-quiz.md) |  with answers |
 
 ## Contributors ✨
 
