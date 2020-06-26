@@ -265,13 +265,11 @@ dessert.type = 'pudding';
 - Boolean(NaN)
 - Boolean("false") <<<<------Correct 
 
-
 #### Q32. Which of the following is not a keyword in JavaScript?
 - this
 - catch <<<<------Correct
 - function
 - array
-
 
 #### Q33. When would you use conditional statement?
 - When you want to loop through a group of statements.
@@ -279,13 +277,11 @@ dessert.type = 'pudding';
 - When you want to reuse a set of statements multiple times.
 - When you want to group data together.
 
-
 #### Q34. Which variable is an implicit parameter for every function in JavaScript?
 - Arguments <<<<----Correct
 - args
 - argsArray
 - argumentsList
-
 
 #### Q35. For the following class, how do you get the value of 42 fro ma instance of X?
 ```js
@@ -297,7 +293,6 @@ class X {
 - x.Y <<<<-----May be (could be bad question)
 - x.Y()
 - x.get().Y
-
 
 #### Q36. What is the result of running this code?
 ```js
@@ -316,21 +311,17 @@ let diff = function(x,y){
 - 30, -10
 - ReferanceError, -10
 
-
 #### Q37. Why is it usually better to work with Objects instead of Arrays to store a collection of records?
 - Objects are more efficent in terms of storeage.
 - Adding a record to an object is significantly faster than pushing a record into an array. <<<<----Correct
-
 - Most operations involve looking up a record, and objects can do that better than arrays.
 - Working with objects makes the code more readable.
-
 
 #### Q38. Which statement is true about the "async" attribute for the HTML script tag?
 - It can be used for both internal and external JavaScript code.
 - It can be used only for internal JavaScript code. <<<<----Correct
 - It can be used only for internal or external JavaScript code that exports a promise.
 - It can be used only for external JavaScript code.
-
 
 #### Q39. How do you import the lodash library making it top-level Api available as the "_" variable?
 - import _ from 'lodash'; <<<<----Correct
@@ -347,13 +338,11 @@ let diff = function(x,y){
 - []
 - False <<<<----Correct
 
-
 #### Q41. What is the name of a function whose expecution can be suspended and resumed at a later point? 
 - Generator function
 - Arrow function 
 - Async/ Await function <<<<----Correct
 - Promise function
-
 
 #### Q42. What will this code print?
 ```js
@@ -373,7 +362,6 @@ f2()
 - 1 <<<<----Correct
 - Nothing--this code will throw an error.
 - undefined
-
 
 #### Q43. Which statement is true about Functional Programming?
 - Every object in the program has to be a function.

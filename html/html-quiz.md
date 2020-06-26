@@ -11,7 +11,7 @@ HTML Assessment
 - `<link><meta><title>`
 - `<wbr><base><source>` <<<<<CORRECT
 - `<input><br><p>`
--`<area><embed><strong>`
+- `<area><embed><strong>`
 
 #### Q3. In HTML5, which tag or tags embed a webpage inside of a webpage?
 - `<iframe>, <frame>, and <frameset>`
@@ -147,40 +147,43 @@ could go in any order.
 - rel
 
  #### Q18. What is the correct markup for tha alt attribute of an image?
-
-- ```<img src="cubism.jpg"
-	```   alt="Version of ""Whistler's Mother"" in cubist style">
-  
-- ```<img src="cubism.jpg"
-	```   alt="Version of "Whistler's Mother" in cubist style">
-  
-- ```<img src="cubism.jpg"
-	```   alt='Version of "Whistler\'s Mother" in cubist style'> ```  <<<<<< CORRECT, NOT QUITE SURE
-  
-- ```<img src="cubism.jpg"
-	```   alt="Version of  \"Whistler's Mother\" in cubist style">
+- 
+```js
+  <img src="cubism.jpg"
+   alt="Version of ""Whistler's Mother"" in cubist style">
+```  
+- 
+```js
+  <img src="cubism.jpg"
+    alt="Version of "Whistler's Mother" in cubist style">
+``` 
+- 
+```js
+   <img src="cubism.jpg"
+     alt='Version of "Whistler\'s Mother" in cubist style'>  <<<<<< CORRECT, NOT QUITE SURE
+``` 
+- 
+```js
+   <img src="cubism.jpg"
+     alt="Version of  \"Whistler's Mother\" in cubist style">
+```
   
  #### Q18. In the code below, what is the purpose of the id attribute?
-
-```<p id="warnig" >Be careful when installing this product.</p>
+```js
+<p id="warnig" >Be careful when installing this product.</p>
 ```
-
 - It establishes that id is a unique identifier in the document, used for styling CSS, scripting, and linking within a webpage. <<<<<< CORRECT
 - It establishes that id is a unique identifier in the document, used for styling CSS and with Javascript code.
 - It establishes that id may be used for styling CSS several times per page.
 - It establishes that id is a unique identifier in the website, used for styling CSS, scripting, and linking within a webpage.
 
  #### Q19. What is the best semantic markup for the sentence shown?
-
-```On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap for mankind."
+```markdown
+On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap for mankind."
 ```
-
 - <p> On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html">One small step for man, one giant leap for mankind.</q> <<<<<< CORRECT
-
 - <p> On July 21, 1969, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html">One small step for man, one giant leap for mankind.</q>
-
 - <p> On July 21, 1969, Neil Armstrong said, <q>One small step for man, one giant leap for mankind.</q>
-
 - <p> On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html">One small step for man, one giant leap for mankind.</q>
   
  #### Q19. What should fill the blank in the HTML code below?
@@ -194,16 +197,13 @@ could go in any order.
 - spanish
 
  #### Q20. Review the text in the red box in the image shown. What is the best way to code this in HTML
-
 ![Image of  footer](https://i.imgur.com/WaKvL9d.png)
-
 - ordered list
 - unordered list inside a nav element <<<<<< CORRECT
 - ordered list inside a nav eleme
 - unordered list
 
  #### Q20. What is the best way to code three choices within a form so that the user can select only one item?
-
 ```
 <label for="example">Make a choice:</label>
 <datalist id="example">

@@ -16,7 +16,6 @@ jQuery Assessment
 
 #### Q2. What does the following line of code do?
 `jQuery('p')`
-
 - Loads a paragraph tag from a remote server using AJAX
 - Aliases jQuery to a variable p
 - Selects all paragraphs on the page <<<<---Correct
@@ -24,36 +23,31 @@ jQuery Assessment
  
 #### Q3. Give the following HTML, how could we use one line to hide or show the button?
 `<button class="btn btn-primary" type="submit">Continue to checkout</button>`
-
 - $('.btn-primary').toggle(); ???? // toggle(true); & toggle(false);
 - $('.btn-primary').showHide();
 - $('.btn-primary').not(':visible').show();
 - $('.btn-primary').css({ display: 'block'}); <<<<---Correct // ({ display: 'none'});
 
 #### Q4. Working with AJAX, we may run into situations where a piece of code should not be run until after multiple AJAX, calls have completed successfully. Say we need to call two external services for JSON data (a list of students, and a list of classes). And only after retrieving those data will we perform some manipulations on a page. What is the preferred way for dealing with this scenario? 
-https://example.com/json-api/students https://example.com/json-api/classes
-
+[https://example.com/json-api/students https://example.com/json-api/classes](https://example.com/json-api/students https://example.com/json-api/classes)
 - `$.get([
       'https://example.com/json-api/students',
       'https://example.com/json-api/classes'
    ], function(studentRequest, classRequest) {
       // the rest of the code goes here
 });` <<<<<-CORRECT !
-
 - `$.when(
       $.get('https://example.com/json-api/students'),
       $.get('https://example.com/json-api/classes')
    ).done(function(studentRequest, classRequest) {
       // the rest of the code goes here
 });`
-
 - `$.bind(
       $.get('https://example.com/json-api/students'),
       $.get('https://example.com/json-api/classes')
    ).done(function(studentRequest, classRequest) {
       // the rest of the code goes here
 });`
-
 - `$.ajax('https://example.com/json-api/students', {
    success: function(studentRequest) {
         $.ajax('https://example.com/json-api/classes', {
@@ -153,7 +147,6 @@ $('#ball').click(function() {
 - `$('.feedback').css('.success');`
 
 #### Q8. Below an example page snippet that includes a couple of messages in a list, and a code snippet that retrieves a few hundred messages from a API endpoints using AJAX. How might we add these items to the page snippet in a way that avoids performance problems with DOM insertions?
-
 <div class="message-area">
     <ul class="message-area--list">
         <li>Existing message 1</li>
@@ -186,15 +179,12 @@ $.each(tonsOfItems, function(idx, item) {
 });`
 
 #### Q9. What is jQuery?
-
 - jQuery is a bridge between Java and Javascript that makes native apps easier to write.
 - jQuery is a plugin for JavaScript that makes database queries easier to write.
-- jQuery is a collection of JavaScript functions that makes finding and manipulating elements on a page, 
-AJAX, and other things easier. <<<<---CORRECT !
+- jQuery is a collection of JavaScript functions that makes finding and manipulating elements on a page, AJAX, and other things easier. <<<<---CORRECT !
 - jQuery is a Chrome extension that allows users to create their own extensions with just a few lines of JavaScript.
 
 #### Q10. We want to create a new jQuery plugin called linkUpdater that can be chained onto other jQuery selector like a normal plugin. It should updates all the links in the referenced collection so they open in new windows or tabs. Below is the first cut. What is one problem with this plugin?
-
 "user strict";
     $.linkUpdater = function() {
         this.find('a').attr('target', '_blank');
@@ -209,38 +199,33 @@ function expression. <<<---CORRECT !
 
 #### Q11. Generally speaking, when used on a web page, how should jQuery be installed, and why?
 
-- Just before the closing body tag, because we want to avoid blocking other resources from loading, and 
-we use the ready method to make sure our code fires after the DOM is ready <<<<---CORRECT!
-- Using the highest version number possible because only jQuery 3 and up are compatible with Internet
-Explorer 7
+- Just before the closing body tag, because we want to avoid blocking other resources from loading, and we use the ready method to make sure our code fires after the DOM is ready <<<<---CORRECT!
+- Using the highest version number possible because only jQuery 3 and up are compatible with Internet Explorer 7
 - In the head tag because we want jQuery available as soon as possible
 - From a CDN because we want to be able to use jQuery online or offline
 
 #### Q12. Given the following HTML, How could we make this button disappear from the page using jQuery?
-
+```html
 <button> class="btn btn-primary" type="submit">Continue to checkout</button>
-
+```
 - $('.btn-primary').hide(); <<<---CORRECT
 - $('.btn-primary:visible').not();
 - $('.btn-primary').visibility(false);
 - $('.btn-primary').show(false);
 
 #### Q13. What is the difference between $('header').html() and $('header').text()?
-
 - $('header').html() returns the inner HTML of the header. $('header').text() returns only the text <<<<--CORRECT
 - $('header').html() returns only the HTML tags used, without the text. $('header').text() returns only the text
 - $('header').html() strips all HTML from the header. $('header').text() always returns an empty string.
 - $('header').html() returns all headers in an HTML document. $('header').text() the first line of a text file.
 
 #### Q14. When writing jQuery plugins, we often provide default options that may be overridden by the end user. What jQuery function is most useful for this purpose?
-
 - $.extend <<<<---CORRECT
 - $.clone
 - $.fn.extend
 - $.merge
 
 #### Q15. There are times when you might want to programmatically trigger an event, instead of simply reacting to user input directly. Given this markup, Which choice will NOT cause a click event to the select box when the button is clicked?
-
 <article>
     <div>
       Here's a button you can click: <button class="btn">Click Me</button>

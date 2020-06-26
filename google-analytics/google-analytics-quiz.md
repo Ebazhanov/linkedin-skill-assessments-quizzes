@@ -1,6 +1,5 @@
 #### Q1. In the following URL, what channel grouping is traffic assigned to?
 `example.com/?utm_source=google&utm_medium=cpc&utm_campaign=315`
-
 - Display
 - Google
 - Organic Search
@@ -13,7 +12,6 @@
 - Acquisition > All Traffic > Referrals
 
 #### Q3. What is the relationship between an event and an event goal?
-
 - Nothing, an event is another name for event goal.
 - An event is captured per user; an event goal is captured per session.
 - An event goal must be created in order to track events.
@@ -26,23 +24,19 @@
 - four
 
 #### Q5. What are the icons highlighted below used for?
-
  ![Google Analytics Icons](https://i.imgur.com/LZzFesL.png)
-
 - to change the way the data table is displayed <<<<<< Correct
 - to adjust the date range
 - to assign secondary dimensions
 - to compare data to previous periods
 
 #### Q6. Which report would help you measure the value of your social media efforts?
-
 - Campaigns > Cost Analysis
 - Social > Conversions <<<<<< Correct
 - Goals > Reverse Goal Path
 - Goals > Smart Goals
 
 #### Q7. What is an example of a metric?
-
 - City
 - Source/Medium
 - Browser

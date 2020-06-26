@@ -249,7 +249,6 @@ System.out.println(n);
 #### Q17. How do you write a foreach loop that will iterate over ArrayList\<Pencil\>pencilCase?
 ```
 for(Pencil pencil = pencilCase){}
-
 Iterator iterator = pencilCase.iterator();
 for(){iterator.hasNext()}{}
 ```
