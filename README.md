@@ -15,18 +15,19 @@
 | [React.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/react/reactjs-quiz.md) :rose: |  with answers |
 | [HTML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/html/html-quiz.md) |  with answers |
 | [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md) |  answers required |
-| [MAVEN](https://github.com/Ebazhanov/in-quiz-questions/blob/master/maven/maven-quiz.md) |  partially answered |
-| [JAVA](https://github.com/Ebazhanov/in-quiz-questions/blob/master/java/java-quiz.md) |  with answers |
+| [Maven](https://github.com/Ebazhanov/in-quiz-questions/blob/master/maven/maven-quiz.md) |  partially answered |
+| [Java](https://github.com/Ebazhanov/in-quiz-questions/blob/master/java/java-quiz.md) |  with answers |
 | [CSS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/css/css-quiz.md) |  with answers |
 | [REST API](https://github.com/Ebazhanov/in-quiz-questions/blob/master/rest-api/rest-api-quiz.md) :+1: |  with answers |
-| [AWS-LAMBDA](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws-lambda/aws-lambda-quiz.md) :fire: | with answers |
-| [PYTHON](https://github.com/Ebazhanov/in-quiz-questions/blob/master/python/python-quiz.md) |  partially answered |
+| [AWS-Lambda](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws-lambda/aws-lambda-quiz.md) :fire: | with answers |
+| [Python](https://github.com/Ebazhanov/in-quiz-questions/blob/master/python/python-quiz.md) |  partially answered |
 | [OOP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/oop/object-oriented-programming-quiz.md) |  partially answered |
 | [PHP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/php/php-quiz.md) |  answers required |
 | [NoSQL](https://github.com/Ebazhanov/in-quiz-questions/blob/master/nosql/nosql-quiz.md) |  with answers |
 | [C#](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%23/c-sharp-quiz.md) |  answers required |
-| [SWIFT](https://github.com/Ebazhanov/in-quiz-questions/blob/master/swift/swift_quiz.md) |  with answers |
-| [GOOGLE-ANALYTICS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-analytics/google-analytics-quiz.md) |  with answers |
+| [Swift](https://github.com/Ebazhanov/in-quiz-questions/blob/master/swift/swift_quiz.md) |  with answers |
+| [Google-analytics](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-analytics/google-analytics-quiz.md) |  with answers |
+| [node.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/node.js/node.js-quiz.md) |  with answers |
 
 ## Contributors ✨
 
