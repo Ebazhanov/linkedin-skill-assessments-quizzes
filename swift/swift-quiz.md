@@ -221,13 +221,7 @@ vals.insert("5")
  - [ ] Initialize the closure as read-only.
  - [ ] Declare the closure variable as lazy.
 
-#### Q24. How can you avoid a strong reference cycle in a closure?
- - [x] an instance of any class
- - [ ] all of these answers
- - [ ] an instance of an optional type
- - [ ] an instance of function type
-
-#### Q25. What is wrong with this code?
+#### Q24. What is wrong with this code?
 ```
 if let s = String.init("some string") {
   print(s)
@@ -238,25 +232,25 @@ if let s = String.init("some string") {
  - [ ] = is not a comparison.
  - [ ] Nothing is wrong with this code.
 
-#### Q26. Which code snippet correctly creates a typealias closure?
+#### Q25. Which code snippet correctly creates a typealias closure?
  - [x] typealias CustomClosure: () -> ()
  - [ ] typealias CustomClosure { () -> () }
  - [ ] typealias CustomClosure -> () -> ()
  - [ ] typealias CustomClosure -> () {}
 
-#### Q27. How do you reference class members from within a class?
+#### Q26. How do you reference class members from within a class?
  - [x] self
  - [ ] instance
  - [ ] class
  - [ ] this
 
-#### Q28. All value types in Swift are \***\*\_\*\*** under the hood?
+#### Q27. All value types in Swift are \***\*\_\*\*** under the hood?
  - [x] structs
  - [ ] classes
  - [ ] optionals
  - [ ] generics
 
-#### Q29. What is the correct was to ass a value to this array?
+#### Q28. What is the correct was to ass a value to this array?
 ```
 var strings = [1, 2, 3]
 ```
@@ -265,10 +259,10 @@ var strings = [1, 2, 3]
  - [ ] strings.insert(5, at: 1)
  - [ ] strings += [5]
 
-#### Q30. How many times will this loop be executed?
+#### Q29. How many times will this loop be executed?
 ```
 for i in 0...100 {
-	print(i)
+  print(i)
 }
 ```
  - [ ] 0
@@ -276,20 +270,20 @@ for i in 0...100 {
  - [ ] 99
  - [ ] 100
 
-#### Q31. What can AnyObject represent?
+#### Q30. What can AnyObject represent?
  - [x] an instance of any class
  - [ ] an instance of an optional type
  - [ ] an instance of a function type
  - [ ] all of these answers
 
-#### Q31. What can AnyObject represent?
+#### Q30. What can AnyObject represent?
 
 - [ ] an instance of any class
 - [ ] an instance of function type
 - [x] all of these answers
 - [ ] an instance of an optional type
 
-#### Q32. What does this code print?
+#### Q31. What does this code print?
 ```
 typealias Thing = [String:Any]
 var stuff : Thing
@@ -300,7 +294,7 @@ print(type(of:stuff))
  - [ ] Thing
  - [x] Dictionary<String, Any>
 
-#### Q33. What is the value of test in this code?
+#### Q32. What is the value of test in this code?
 ```
 var test = 1 == 1
 ```
@@ -309,7 +303,7 @@ var test = 1 == 1
  - [ ] This code contains an error.
  - [ ] YES
 
-#### Q34. What is the value of y?
+#### Q33. What is the value of y?
 ```
 var x : Int?
 let y = x ?? 5
@@ -319,7 +313,7 @@ let y = x ?? 5
  - [ ] This code contains an error.
  - [x] 5
 
-#### Q35. What is the value of y?
+#### Q34. What is the value of y?
 ```
 let x = ["1","2"].dropFirst()
 let y = x[0]
@@ -329,7 +323,7 @@ let y = x[0]
  - [x] This code contains an error.
  - [ ] 2
 
-#### Q36. What is the value of t after this code is executed?
+#### Q35. What is the value of t after this code is executed?
 ```
 let names = ["Larry","Sven","Bear"]
 let t = names.enumerated().first().offset
@@ -339,7 +333,7 @@ let t = names.enumerated().first().offset
  - [ ] 1
  - [ ] Larry
 
-#### Q37. What is the value of test after this code executes?
+#### Q36. What is the value of test after this code executes?
 ```
 let vt = (name: "ABC", val: 5)
 let test = vt.0
@@ -349,7 +343,7 @@ let test = vt.0
  - [ ] 5
  - [ ] name
 
-#### Q38. What is the base class in this code?
+#### Q37. What is the base class in this code?
 ```
 class LSN : MMM {
 }
@@ -359,7 +353,7 @@ class LSN : MMM {
  - [ ] There is no base class.
  - [ ] This code is invalid.
 
-#### Q39. What does this code print to the console?
+#### Q38. What does this code print to the console?
 ```
 var userLocation: String = "Home" {
   willSet(newValue) {
@@ -382,19 +376,19 @@ var userLocation: String = "Home" {
  - [ ] About to set userLocation to Home… userLocation updated to new value!
  - [ ] ERROR
 
-#### Q40. What must a convenience initializer call?
+#### Q39. What must a convenience initializer call?
  - [ ] a base class convenience initializer
  - [ ] either a designated or another convenience initializer
  - [x] a designated initializer
  - [ ] none of these answers
 
-#### Q41. Which object allows you access to specify that a block of code runs in a background thread?
+#### Q40. Which object allows you access to specify that a block of code runs in a background thread?
  - [ ] `DispatchQueue.visible`
  - [x] `DispatchQueue.global`
  - [ ] `errorExample` need to be labeled as `throws`.
  - [ ] `DispatchQueue.background`
 
-#### Q42. What is the inferred type of x?
+#### Q41. What is the inferred type of x?
 ```
 let x = ["a", "b", "c"]
 ```
@@ -403,7 +397,7 @@ let x = ["a", "b", "c"]
  - [ ] `Set<String>`
  - [ ] `Array<Character>`
 
-#### Q43. What is the value of `oThings` after this code is executed?
+#### Q42. What is the value of `oThings` after this code is executed?
 ```
 let nThings: [Any] = [1, "2", "three"]
 let oThings = nThings.reduce("") { "\($0)\($1)" }
@@ -413,13 +407,13 @@ let oThings = nThings.reduce("") { "\($0)\($1)" }
  - [x] `12three`
  - [ ] Nothing, this code is invalid.
 
-#### Q44. How would you call a function that throws errors and also returns a value?
+#### Q43. How would you call a function that throws errors and also returns a value?
  - [ ] `!try`
  - [x] `try?`
  - [ ] `try!`
  - [ ] `?try`
 
-#### Q45. What is wrong with this code?
+#### Q44. What is wrong with this code?
 ```
 protocol TUI {
   func add(x1 : Int, x2 : Int) -> Int {
@@ -432,7 +426,7 @@ protocol TUI {
  - [ ] Nothing is wrong with it.
  - [ ] `add` is a reserved keyword.
 
-#### Q46. In this code, what are `wheels` and `doors` examples of?
+#### Q45. In this code, what are `wheels` and `doors` examples of?
 ```
 class Car {
   var wheels: Int = 4
@@ -444,7 +438,7 @@ class Car {
  - [ ] class fields
  - [x] class properties
 
-#### Q47. What is the value of `t` after this code is executed?
+#### Q46. What is the value of `t` after this code is executed?
 ```
 let names = ["Larry", "Sven", "Bear"]
 let t = names.enumerated().first().offset
@@ -454,13 +448,13 @@ let t = names.enumerated().first().offset
  - [ ] `1`
  - [ ] `Larry`
 
-#### Q48. How do you designate a failable initializer?
+#### Q47. How do you designate a failable initializer?
  - [ ] `init?`
  - [ ] `deinit`
  - [x] `init`
  - [ ] You can't.
 
-#### Q49. What is printed when this code is executed?
+#### Q48. What is printed when this code is executed?
 ```
 let dbl = Double.init("5a")
 print(dbl ?? ".asString()")
@@ -470,7 +464,7 @@ print(dbl ?? ".asString()")
  - [x] `.asString()`
  - [ ] `5`
 
-#### Q50. In the function below, what are **this** and **toThat** examples of?
+#### Q49. In the function below, what are **this** and **toThat** examples of?
 
 ```swift
 func add(this x: Int, toThat y: Int)->{}
@@ -481,7 +475,7 @@ func add(this x: Int, toThat y: Int)->{}
 - [x] argument labels
 - [ ] parameters names
 
-#### Q51. What is wrong with this code?
+#### Q50. What is wrong with this code?
 
 ```swift
 if let s = String.init("some string"){
@@ -494,7 +488,7 @@ if let s = String.init("some string"){
 - [ ] String does not have an initializer that can take a String
 - [x] This String initializer does not return an optional
 
-#### Q52. What is wrong with this code?
+#### Q51. What is wrong with this code?
 
 ```swift
 for (key, value) in [1: "one", 2: "two"]{
@@ -507,14 +501,14 @@ for (key, value) in [1: "one", 2: "two"]{
 - [x] There is nothing wrong with this code
 - [ ] The comma in the print is misplaced
 
-#### Q53. Which of these choices is associated with unit testing?
+#### Q52. Which of these choices is associated with unit testing?
 
 - [ ] XCTest
 - [x] all of these answers
 - [ ] @testable
 - [ ] XCAssert
 
-#### Q54. In the code below, what is width an example of?
+#### Q53. In the code below, what is width an example of?
 
 ```swift
 class Square{
@@ -530,7 +524,7 @@ class Square{
 - [x] a computed property
 - [ ] lazy loading
 
-#### Q55. What data type is this an example of?
+#### Q54. What data type is this an example of?
 
 ```swift
 let vals = ("val", 1)
@@ -541,7 +535,7 @@ let vals = ("val", 1)
 - [ ] an optional
 - [ ] This code contains error
 
-#### Q56. What is wrong with this code?
+#### Q55. What is wrong with this code?
 
 ```swift
 var x = 5
@@ -553,7 +547,7 @@ x = 10.0
 - [ ] x is a constant
 - [ ] x has no type
 
-#### Q57. What is the type of x: let x = try?
+#### Q56. What is the type of x: let x = try?
 
 ```swift
 String.init(from: decoder)
@@ -564,7 +558,7 @@ String.init(from: decoder)
 - [ ] String!
 - [ ] try?
 
-#### Q58. What will this code print to the console?
+#### Q57. What will this code print to the console?
 
 ```swift
 var items = ["a":1, "b":2, "c":"test"] as [String: Any]
@@ -577,7 +571,7 @@ print(items["c"] as Any)
 - [ ] `1,2,3`
 - [x] `nil`
 
-#### Q59. What is wrong with this code?
+#### Q58. What is wrong with this code?
 
 ```swift
 let val = 5.0 + 10
@@ -588,7 +582,7 @@ let val = 5.0 + 10
 - [ ] 5.0 and 10 are different types
 - [ ] There is no semicolon
 
-#### Q60. How many parameters does the initializer for Test have?
+#### Q59. How many parameters does the initializer for Test have?
 
 ```swift
 struct Test{
@@ -602,7 +596,7 @@ struct Test{
 - [x] two
 - [ ] Structs do not have initializers
 
-#### Q61. What prints to the console when executing this code?
+#### Q60. What prints to the console when executing this code?
 
 ```swift
 let x = try? String.init("test")
@@ -614,7 +608,7 @@ print(x)
 - [x] `Optional("test")`
 - [ ] `test`
 
-#### Q62. How can you sort this array?
+#### Q61. How can you sort this array?
 
 ```swift
 var vals = [1,2,3]
@@ -625,7 +619,7 @@ var vals = [1,2,3]
 - [ ] `vals.sort(by: <)`
 - [x] all of these answers
 
-#### Q63. What is printed when this code is executed?
+#### Q62. What is printed when this code is executed?
 
 ```swift
 let dbl = Double.init("5a")
@@ -637,14 +631,14 @@ print(dbl ?? ".asString()")
 - [ ] `five`
 - [x] `asString()`
 
-#### Q64. DispatchQueue.main.async takes a block that will be
+#### Q63. DispatchQueue.main.async takes a block that will be
 
 - [ ] not executed
 - [x] executed in the main queue
 - [ ] none of these answers
 - [ ] executed on the background thread
 
-#### Q65. What is the value of test after this code executes?
+#### Q64. What is the value of test after this code executes?
 
 ```swift
 let vt = (name: "ABC", val: 5)
@@ -656,35 +650,35 @@ let test = vt.0
 - [ ] `5`
 - [ ] `0`
 
-#### Q66. When is deinit called?
+#### Q65. When is deinit called?
 
 - [ ] When a class instance needs memory
 - [x] All of these answers
 - [ ] When the executable code is finished
 - [ ] When a class instance is being removed from memory
 
-#### Q67. How do you designated a failable initializer?
+#### Q66. How do you designated a failable initializer?
 
 - [ ] You cannot
 - [ ] `deinit`
 - [x] `init?`
 - [ ] `init`
 
-#### Q68. How do you declare an optional String?
+#### Q67. How do you declare an optional String?
 
 - [x] `String?`
 - [ ] `Optional[String]`
 - [ ] `[String]?`
 - [ ] `?String`
 
-#### Q69. Why is dispatchGroup used in certain situation?
+#### Q68. Why is dispatchGroup used in certain situation?
 
 - [x] All of these answers
 - [ ] It allows multiple synchronous or asynchronous operations to run on different values
 - [ ] It allows operations to wait for each other as defined
 - [ ] It allows track and control execution of multiple operations together
 
-#### Q70. What is the value of t after this code is executed?
+#### Q69. What is the value of t after this code is executed?
 
 ```swift
 let names = ["Larry", "Sven", "Bear"]
@@ -696,7 +690,7 @@ let t = names.enumerated().first().offset
 - [ ] `1`
 - [x] This code does not compile
 
-#### Q71. How many times this code will be executed?
+#### Q70. How many times this code will be executed?
 
 ```swift
 for i in ["0", "1"]{
@@ -709,7 +703,7 @@ for i in ["0", "1"]{
 - [ ] three
 - [ ] This code does not compile
 
-#### Q72. What does this code print?
+#### Q71. What does this code print?
 
 ```swift
 let names = ["Bear", "Tony", "Svante"]
