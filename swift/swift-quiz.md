@@ -690,7 +690,7 @@ let t = names.enumerated().first().offset
 - [ ] `1`
 - [x] This code does not compile
 
-#### Q70. How many times this code will be executed?
+#### Q70. How many times this code will be executed? —OR— How many times will this loop be performed?
 
 ```swift
 for i in ["0", "1"]{
