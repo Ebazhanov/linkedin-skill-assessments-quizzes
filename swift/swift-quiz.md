@@ -454,6 +454,13 @@ let t = names.enumerated().first().offset
  - [x] `init`
  - [ ] You can't.
 
+#### Q47. How do you designated a failable initializer?
+
+- [ ] You cannot
+- [ ] `deinit`
+- [x] `init?`
+- [ ] `init`
+
 #### Q48. What is printed when this code is executed?
 ```
 let dbl = Double.init("5a")
@@ -657,28 +664,21 @@ let test = vt.0
 - [ ] When the executable code is finished
 - [ ] When a class instance is being removed from memory
 
-#### Q66. How do you designated a failable initializer?
-
-- [ ] You cannot
-- [ ] `deinit`
-- [x] `init?`
-- [ ] `init`
-
-#### Q67. How do you declare an optional String?
+#### Q66. How do you declare an optional String?
 
 - [x] `String?`
 - [ ] `Optional[String]`
 - [ ] `[String]?`
 - [ ] `?String`
 
-#### Q68. Why is dispatchGroup used in certain situation?
+#### Q67. Why is dispatchGroup used in certain situation?
 
 - [x] All of these answers
 - [ ] It allows multiple synchronous or asynchronous operations to run on different values
 - [ ] It allows operations to wait for each other as defined
 - [ ] It allows track and control execution of multiple operations together
 
-#### Q69. What is the value of t after this code is executed?
+#### Q68. What is the value of t after this code is executed?
 
 ```swift
 let names = ["Larry", "Sven", "Bear"]
@@ -690,7 +690,7 @@ let t = names.enumerated().first().offset
 - [ ] `1`
 - [x] This code does not compile
 
-#### Q70. How many times this code will be executed? —OR— How many times will this loop be performed?
+#### Q69. How many times this code will be executed? —OR— How many times will this loop be performed?
 
 ```swift
 for i in ["0", "1"]{
@@ -703,7 +703,7 @@ for i in ["0", "1"]{
 - [ ] three
 - [ ] This code does not compile
 
-#### Q71. What does this code print?
+#### Q70. What does this code print?
 
 ```swift
 let names = ["Bear", "Tony", "Svante"]
