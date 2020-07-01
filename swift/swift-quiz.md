@@ -694,3 +694,13 @@ print(names[1]+"Bear")
 - [x] `TonyBear`
 - [ ] Nothing, this code is invalid
 
+#### Q69. What is true of this code?
+
+```swift
+let name: String?
+```
+
+- [ ] name can hold only a string value.
+- [x] name can hold either a string or nil value.
+- [ ] Optional values cannot be `let` constants.
+- [ ] Only non-empty string variables can be stored in name.
