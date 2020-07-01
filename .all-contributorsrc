@@ -197,6 +197,16 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "ingenium21",
+      "name": "Renato Regalado",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/15017921?v=4",
+      "profile": "http://www.linkedin.com/in/renregalado",
+      "contributions": [
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
