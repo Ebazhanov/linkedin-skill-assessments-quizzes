@@ -704,3 +704,15 @@ let name: String?
 - [x] name can hold either a string or nil value.
 - [ ] Optional values cannot be `let` constants.
 - [ ] Only non-empty string variables can be stored in name.
+
+#### Q70. What is the value of `val` after this code is executed?
+
+```swift
+let i = 5
+let val = i * 6.0
+```
+
+- [x] This code is invalid.
+- [ ] 6
+- [ ] 30
+- [ ] 0
