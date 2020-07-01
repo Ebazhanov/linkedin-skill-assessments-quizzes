@@ -189,11 +189,11 @@ else:
     -------------
 num_people = 5                            //CORRECT
 
-if num_people > 10;
+if num_people > 10:
     print("There is a lot of people in the pool.")
-elif num_people > 4;
+elif num_people > 4:
     print("There are some people in the pool.")
-elif num_people > 0;
+elif num_people > 0:
     print("There are a few people in the pool.")
 else:
     print("There is no one in the pool.")
