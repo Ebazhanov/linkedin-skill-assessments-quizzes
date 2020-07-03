@@ -262,3 +262,9 @@ mvn install
 - [x] `${user.home}/.m2/settings.xml`
 - [ ] `${maven.home}/conf/settings.xml`
 - [ ] `${user.home}/maven/settings.xml`
+
+#### Q41. Suppose you are using Maven in a corporate environment and, to save bandwidth, you want to prevent the need for large numbers of developers to download the same dependency from the internet. What do you do to limit this?
+- [x] Create an internal corporate repository to store copies of the necessary artifacts.
+- [ ] It is not possible to do this.
+- [ ] When defining the dependency, set the scope to provided.
+- [ ] Each developer should define the dependency in the POM file in the local copy of the project.
