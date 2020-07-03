@@ -367,5 +367,5 @@ f2()
 - Every object in the program has to be a function.
 - Code is grouped with the state it modifies.
 - Date fields and methods are kept in units. <<<<----May be
-- Side effecs are not allowed.
+- Side effecs are not allowed. <<<<<----- I believe it's this, FP shouldn't have side effects; i.e same output evry time, doesn't mutate 
 - array
