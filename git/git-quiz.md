@@ -164,6 +164,8 @@ git cherry-pick {123safd23e}
 - use git show push-notifications
 - use git show head/refs/push-notifications << ---- chose thise one not sure though!
 - use git show refs/head/push-notifications
+<<<<<<< HEAD
+=======
 
 #### Q25. Your team lead needs a list of all commits that will be moved before you perform a rebase. Which command can you use to access that information?
 - git rebase -log
@@ -179,3 +181,4 @@ $ git bisect good 69faab6268350295550de7d587bc323d`
 - It marks a commit for deletion using a known bad commit and known good commit to determine which commit introduced a bug
 - It defines a bad commit and resets the HEAD using a known bad commit and known good commit
 - It performs a binary search using a known bad commit and known good commit to determine which commit introduced a bug << ---- Correct!
+>>>>>>> 583d6e76ee872688fa5e9bb256600fcb65c0b308

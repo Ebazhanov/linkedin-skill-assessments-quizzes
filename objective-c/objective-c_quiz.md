@@ -266,3 +266,28 @@ foo(5);
 - function calls only
 - property getter/setter
 - parameter delimiters
+
+#### Q31. What is the value of newVals after this code is executed?
+NSArray *vals = @[@"1", @"2", @"3"];
+NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF.intValue > 1"];
+NSArray *newVals = [vals filteredArrayUsingPredicate:pred];
+- 2,3  <<<<--- Picked this one
+- nil
+- This code contains an error
+- 2,"3"
+
+#### Q32. How would this funciton be called?
+-(int)foo:(int)a b:(int)c;
+- self.foo(5, b:10);
+- This code contains an error.
+- [self foo:5:10:20];
+- [self foo:5 b:10];
+
+#### Q33. What is the type of the error return value stored in json?
+NSERROR *error;
+NSData *data;
+id json = [NSJSONSerialization JSONObjectWithData:data opetions:NSJSONReadingAllowFragments error:&error];
+- NSString
+- NSArray
+- id
+- NSDictionary
