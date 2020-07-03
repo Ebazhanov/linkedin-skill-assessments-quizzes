@@ -207,6 +207,16 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "fantypants",
+      "name": "Matthew",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19564531?v=4",
+      "profile": "https://elixiumnetwork.org/",
+      "contributions": [
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
