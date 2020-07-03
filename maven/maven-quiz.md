@@ -256,3 +256,9 @@ mvn install
 - [ ] dependencies
 - [ ] version
 - [ ] groupId
+
+#### Q40. The settings.xml file that provides the user-specific settings for Maven is contained in which directory by default?
+- [ ] `${maven.home}/${user.name}/settings.xml`
+- [x] `${user.home}/.m2/settings.xml`
+- [ ] `${maven.home}/conf/settings.xml`
+- [ ] `${user.home}/maven/settings.xml`
