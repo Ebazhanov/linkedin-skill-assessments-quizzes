@@ -363,3 +363,9 @@ f2()
 - Date fields and methods are kept in units. <<<<----May be
 - Side effecs are not allowed. <<<<<----- I believe it's this, FP shouldn't have side effects; i.e same output evry time, doesn't mutate 
 - array
+
+#### Q43. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
+- You are calling a method named reduce on an object that's declared but has no value.
+- You are calling a method named reduce on an object that does not exist. <<<<----Correct
+- You are calling a method named reduce on an empty array.
+- You are calling a method named reduce on an object that's has a null value.
