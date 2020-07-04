@@ -268,3 +268,9 @@ mvn install
 - [ ] It is not possible to do this.
 - [ ] When defining the dependency, set the scope to provided.
 - [ ] Each developer should define the dependency in the POM file in the local copy of the project.
+
+#### Q42. In multimodule projects, what do child POMs inherit from the parent POM?
+- [x] all of these answers
+- [ ] dependencies
+- [ ] groupId
+- [ ] version
