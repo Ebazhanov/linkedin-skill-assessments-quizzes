@@ -65,9 +65,9 @@ typealias Thing = [String, Any]
 var stuff: Thing
 print(type(of: stuff))
 ```
-- Dictionary<String, Any> <<<<---Correct
+- Dictionary<String, Any> (To print this than code in question has to be ```typealias Thing = [String: Any]```)
 - Dictionary
-- ERROR
+- ERROR <<<<---Correct (If code in question is really like that.)
 - Thing
 
 #### Q8. What is the value of y?
