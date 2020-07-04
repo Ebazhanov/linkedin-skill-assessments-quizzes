@@ -103,8 +103,8 @@ let y = x ?? 5
 ```swift
 func add(a: Int, b: Int) -> Int { return a+b }
 ```
-- Int <<<<---Correct
-- (Int, Int) -> Int
+- Int
+- (Int, Int) -> Int <<<<---Correct
 - Int<Optional>
 - Functions don't have types.
 
