@@ -283,3 +283,9 @@ mvn install
 - [ ] Each Checkstyle report is in the target/site folder of the respective module.
 - [ ] All links in Checkstyle reports must be specified in the plugin definition.
 - [ ] Checkstyle reports for child modules have to be behind a firewall.
+
+#### Q44. Which build plugin allows you to create a "fat" JAR file that contains all of the dependencies in the final JAR file?
+- [ ] Fatjar
+- [x] Shade
+- [ ] Dependency
+- [ ] Package
