@@ -117,9 +117,9 @@ console.log('Results shown');`
 - 'snow' <<<---Correct
 
  #### Q11. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?
- - /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/ <<<---Correct
- - /\d\d:\d\d:\d\d/
- - /[0-9]+:[0-9]+:[0-9]+/ <<<---Correct
+ - /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/
+ - /\d\d:\d\d:\d\d/ <<<---Correct, https://regex101.com/r/6e81up/2
+ - /[0-9]+:[0-9]+:[0-9]+/ 
  - /  : : /
    
 #### Q12. What is the result in the console of running this code?
@@ -284,7 +284,7 @@ class X {
 }
 ```
 - x.get('Y')
-- x.Y <<<<-----May be (could be bad question)
+- x.Y <<<<-----Correct
 - x.Y()
 - x.get().Y
 
