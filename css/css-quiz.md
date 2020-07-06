@@ -303,7 +303,7 @@ color: #000000;
 - border-radius: 10px
 - corner-radius: 10px
  
-#### Q27.In the following media query example, what conditions are being targeted?
+#### Q27. In the following media query example, what conditions are being targeted?
 `@media (min-width: 1024px), screen and (orientation: landscape) { … }`
 - The rule will apply to a device that has either a width of 1024px or wider, or is a screen device in landscape mode.
 - The rule will apply to a device that has a width of 1024px or narrower and is a screen device in landscape mode.
