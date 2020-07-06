@@ -118,8 +118,8 @@ console.log('Results shown');`
 
  #### Q11. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?
  - /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/
- - /\d\d:\d\d:\d\d/
- - /[0-9]+:[0-9]+:[0-9]+/ <<<---Correct
+ - /\d\d:\d\d:\d\d/ <<<---Correct, https://regex101.com/r/6e81up/2
+ - /[0-9]+:[0-9]+:[0-9]+/ 
  - /  : : /
    
 #### Q12. What is the result in the console of running this code?
@@ -201,25 +201,19 @@ a[100] = 'fox';
 - 4
 - 100
 
-#### Q22. You need to match a time value such as 12:00:32. Which Regular expression would work for your code? 
-- /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/
-- / : : /
-- /\d\d:\d\d:\d\d/
-- /[0-9]+:[0-9]+:[0-9]+/ <<<<----Correct
-
-#### Q23. What is one differance between collections created with Map and collections created with Object?
+#### Q22. What is one differance between collections created with Map and collections created with Object?
 - You can iterate over values in a Map in their insertion order.
 - You can count the records in a Map with a single method call.
 - Keys in Maps can be strings.
 - You can access values in a Map without iterating over the whole collection.
 
-#### Q24. Which property references the DOM object that dispatched an event?
+#### Q23. Which property references the DOM object that dispatched an event?
 - source
 - object
 - target <<<<----Correct 
 - self
 
-#### Q25. What is the value of dessert.type after executing this code?
+#### Q24. What is the value of dessert.type after executing this code?
 ```js
 const dessert = { type: 'pie' };
 dessert.type = 'pudding';
@@ -229,72 +223,72 @@ dessert.type = 'pudding';
 - pudding <<<<------- Correct 
 - undefined
 
-#### Q26. 0 && hi
+#### Q25. 0 && hi
 - ReferenceError
 - True
 - 0 <<<<------- Correct 
 - false
 
-#### Q27. Which of the following operators can be used to do a short-circuit evaluation?
+#### Q26. Which of the following operators can be used to do a short-circuit evaluation?
 - \++
 - \--
 - \==
 - || <<<<-------Correct 
 
-#### Q28. Which statement sets the Person constructor as the parent of the Student constructor in the prototype chain?
+#### Q27. Which statement sets the Person constructor as the parent of the Student constructor in the prototype chain?
 - Student.parent = Person;
 - Student.prototype = new Person(); <<<<----Correct
 - Student.prototype = Person;
 - Student.prototype = Person();
 
-#### Q29. Why would you include a "use strict" statement in a JavaScript file?
+#### Q28. Why would you include a "use strict" statement in a JavaScript file?
 - to tell parsers to interpret your JavaScript syntax loosely
 - to tell parsers to enforce all JavaScript syntax rules when processing your code <<<<----Correct
 - to instruct the browser to authmatically fix any errors it finds in the code
 - to enable ES6 features in your code
 
-#### Q30. Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?
+#### Q29. Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?
 - all of them
 - const
 - var <<<<----Correct
 - let
 
-#### Q31. Which of the following values is not a Boolean false?
+#### Q30. Which of the following values is not a Boolean false?
 - Boolean(0)
 - Boolean("")
 - Boolean(NaN)
 - Boolean("false") <<<<------Correct 
 
-#### Q32. Which of the following is not a keyword in JavaScript?
+#### Q31. Which of the following is not a keyword in JavaScript?
 - this
 - catch <<<<------Correct
 - function
 - array
 
-#### Q33. When would you use conditional statement?
+#### Q32. When would you use conditional statement?
 - When you want to loop through a group of statements.
 - When you want your code to choose between multiple options. <<<<----Correct
 - When you want to reuse a set of statements multiple times.
 - When you want to group data together.
 
-#### Q34. Which variable is an implicit parameter for every function in JavaScript?
+#### Q33. Which variable is an implicit parameter for every function in JavaScript?
 - Arguments <<<<----Correct
 - args
 - argsArray
 - argumentsList
 
-#### Q35. For the following class, how do you get the value of 42 fro ma instance of X?
+#### Q34. For the following class, how do you get the value of 42 fro ma instance of X?
 ```js
 class X {
     get Y() { return 42; }
 }
 ```
 - x.get('Y')
-- x.Y <<<<-----May be (could be bad question)
+- x.Y <<<<-----Correct
 - x.Y()
 - x.get().Y
 
-#### Q36. What is the result of running this code?
+#### Q35. What is the result of running this code?
 ```js
 sum(10,20);
 diff(10,20);
@@ -311,25 +305,25 @@ let diff = function(x,y){
 - 30, -10
 - ReferanceError, -10
 
-#### Q37. Why is it usually better to work with Objects instead of Arrays to store a collection of records?
+#### Q36. Why is it usually better to work with Objects instead of Arrays to store a collection of records?
 - Objects are more efficent in terms of storeage.
 - Adding a record to an object is significantly faster than pushing a record into an array. <<<<----Correct
 - Most operations involve looking up a record, and objects can do that better than arrays.
 - Working with objects makes the code more readable.
 
-#### Q38. Which statement is true about the "async" attribute for the HTML script tag?
+#### Q37. Which statement is true about the "async" attribute for the HTML script tag?
 - It can be used for both internal and external JavaScript code.
 - It can be used only for internal JavaScript code. <<<<----Correct
 - It can be used only for internal or external JavaScript code that exports a promise.
 - It can be used only for external JavaScript code.
 
-#### Q39. How do you import the lodash library making it top-level Api available as the "_" variable?
+#### Q38. How do you import the lodash library making it top-level Api available as the "_" variable?
 - import _ from 'lodash'; <<<<----Correct
 - import 'lodash' as _;
 - import '_' from 'lodash;
 - import lodash as _ from 'lodash';
 
-#### Q40. What does the following expression evaluate to?
+#### Q39. What does the following expression evaluate to?
 ```js
 [] == []
 ```
@@ -338,13 +332,13 @@ let diff = function(x,y){
 - []
 - False <<<<----Correct
 
-#### Q41. What is the name of a function whose expecution can be suspended and resumed at a later point? 
+#### Q40. What is the name of a function whose expecution can be suspended and resumed at a later point? 
 - Generator function
 - Arrow function 
 - Async/ Await function <<<<----Correct
 - Promise function
 
-#### Q42. What will this code print?
+#### Q41. What will this code print?
 ```js
 var v = 1
 var f1 = function(){
@@ -359,13 +353,19 @@ var f2 = function(){
 f2()
 ```
 - 2
-- 1 <<<<----Correct
+- 1
 - Nothing--this code will throw an error.
-- undefined
+- undefined <<<<----Correct
 
-#### Q43. Which statement is true about Functional Programming?
+#### Q42. Which statement is true about Functional Programming?
 - Every object in the program has to be a function.
 - Code is grouped with the state it modifies.
 - Date fields and methods are kept in units. <<<<----May be
 - Side effecs are not allowed. <<<<<----- I believe it's this, FP shouldn't have side effects; i.e same output evry time, doesn't mutate 
 - array
+
+#### Q43. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
+- You are calling a method named reduce on an object that's declared but has no value.
+- You are calling a method named reduce on an object that does not exist. <<<<----Correct
+- You are calling a method named reduce on an empty array.
+- You are calling a method named reduce on an object that's has a null value.
