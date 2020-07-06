@@ -5,7 +5,7 @@ PHP Assessment
 `echo 76 &lt;=&gt; '76 trombones';`
 - 1
 - -1
-- a parser error
+- a parser error //Correct
 - 0
 
 #### Q2. Which is the most secure way to avoid storing a password in clear text in database?
@@ -13,7 +13,7 @@ PHP Assessment
 - $encrypted = shal($password)
 - $encrypted = crypt($password, $salt);
 - $encrypted = md5($password);
-- $encrypted = password_hash($password, PASSWORD_DEFAULT);
+- $encrypted = password_hash($password, PASSWORD_DEFAULT); //Correct
 ```
 
 #### Q3. What does this script do?
@@ -26,7 +26,7 @@ PHP Assessment
 - It makes sure the email address is a good and functioning address
 - It makes an email safe to input into a database
 - It assigns an email to a variable and then removes all illegal characters from the $email variable
-- It verifies that an email address is well formed.
+- It verifies that an email address is well formed. //Correct
 
 #### Q4. In the following script, which line(s) will cause an error(s)?
 ```
@@ -41,7 +41,7 @@ PHP Assessment
 9 ?>
 ```
 - Line 6 will cause an error because you can't reassign a new value to a variable that has already been set.
-- Line 7 and 8 will cause an error. Line 7 has whitespace in $will i work and should be $will_i_work. Line 8 cannot start with a number befcause it is a variable.
+- Line 7 and 8 will cause an error. Line 7 has whitespace in $will i work and should be $will_i_work. Line 8 cannot start with a number befcause it is a variable. // Correct  
 - Line 5 will cause an error because some_string should be someString.
 - Line 3 and 4 will cause an error because a variable cannot start with an underscore(_).
 
@@ -49,17 +49,17 @@ PHP Assessment
 - ||
 - &
 - <=>
-- &&
+- && //Correct
 
 #### Q6. All variables in PHP start with which symbol?
 - &
 - %
 - _
-- $
+- $ //Correct
 
 #### Q7. What is a key difference between GET and POST?
 - GET is used with the HTTP protocol. POST is used with HTTPS.
-- GET displays the submitted data as part of the URL. During POST, this information is not shown, as it's encoded in the request body.
+- GET displays the submitted data as part of the URL. During POST, this information is not shown, as it's encoded in the request body. //Correct
 - GET is intended for changing the server state and it carries more data than POST.
 - GET is more secure than POST and should be used for sensitive information.
 
@@ -73,13 +73,13 @@ PHP Assessment
 - try, throw, catch, callable
 - try, yield, catch, finally
 - yield, throw, catch, finally
-- try, throw, catch, finally
+- try, throw, catch, finally //Correct
 
 #### Q10. Which value equates to true?
 - 0
 - NULL
 - ''
-- -1
+- -1 //Correct
 
 #### Q11. What is missing from this code, which is supposed to reate a test cookies?
 ```
@@ -98,7 +98,7 @@ PHP Assessment
 - 44
 - 138
 - 126
-- 100
+- 100 //Correct
 
 #### Q13. What is the purpose of adding a lowercase "u" as a modifier after the final delimiter in a Perl-compatible regular expression?
 - It makes the dot metacharacter match anything, including newline characters.
@@ -109,7 +109,7 @@ PHP Assessment
 #### Q14. Which code snippet uses the correct syntax for creating an instance of the Pet class?
 ```markdown
 - $dog = new Pet;
-- all of these answers
+- all of these answers //Correct
 - $horse = (new Pet);
 - $cat = new Pet();
 ```
