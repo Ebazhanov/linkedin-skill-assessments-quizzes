@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-23-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -69,6 +69,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://elixiumnetwork.org/"><img src="https://avatars3.githubusercontent.com/u/19564531?v=4" width="100px;" alt=""/><br /><sub><b>Matthew</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=fantypants" title="Code">💻</a> <a href="#content-fantypants" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/roplayer"><img src="https://avatars0.githubusercontent.com/u/129923?v=4" width="100px;" alt=""/><br /><sub><b>Jan S.</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=roplayer" title="Code">💻</a> <a href="#content-roplayer" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/igielskv"><img src="https://avatars1.githubusercontent.com/u/7470561?v=4" width="100px;" alt=""/><br /><sub><b>Manoli</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=igielskv" title="Code">💻</a> <a href="#content-igielskv" title="Content">🖋</a></td>
   </tr>
 </table>
 
