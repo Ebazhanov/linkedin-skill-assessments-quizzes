@@ -187,4 +187,11 @@ section + p {
 - Paragraphs one will be red, paragraph two will be blue.  <<<<---Correct
 - Both paragraphs will be red.
 
+#### Q16 .CSS transform properties are used to change the shape and position of the selected objects. The transform-origin property specifies the location of the element's transformation origin. By default, what is the location of the origin?
+ 
+- the top left corner of the element
+- the center of the element
+- the top right corner of the element
+- the bottom left of the element
+
 
