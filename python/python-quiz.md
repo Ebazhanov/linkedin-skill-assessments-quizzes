@@ -407,3 +407,69 @@ def sum(a, b):
     
     return a + b
 ```
+#### Q35. What is the algorithmic paradigm of quick sort?
+- backtracking
+- dynamic programming
+- decrease and conquer
+- divide and conquer //CORRECT
+
+#### Q36. What is runtime complexity of the list's built-in .append() method?
+- O(1), also called constant time //CORRECT
+- O(log n), also called logarithmic time
+- O(n^2), also called quardratic time
+- O(n), also called linear time
+
+#### Q37. What is key difference between a set and a list?
+- A set is an ordered collection unique items. A list is an unordered collection of non-unique items.
+- Elements can be retrieved from a list but they cannot be retrieved from a set
+- A set is an ordered collection of non-unique items. A list is an unordered collection of unique items.
+- A set is an unordered collection unique items. A list is an ordered collection of non-unique items. //CORRECT
+
+#### Q38. What is the definition of abstraction as applied to object-oriented Python?
+- Abstraction means that a different style of code can be used, since many details are already known to the program behind the scenes.
+- Abstraction means the implementation is hidden from the user, and only the relevant data or information is shown. //CORRECT
+- Abstraction means that the data and the functionality of a class are combined into one entity.
+- Abstraction means that a class can inherit from more than one parent class.
+
+#### Q39. What does this function print?
+```
+def print_alpha_nums(abs_list, num_list):
+    for char in abc_list:
+        for num in num_list:
+            print(char, num)
+    return
+
+print_alpha_nums(['a', 'b', 'c'], [1, 2, 3])
+
+```
+- 
+```
+a 1
+a 2
+a 3
+b 1
+b 2
+b 3
+c 1
+c 2
+c 3
+```
+- 
+```
+['a', 'b', 'c'], [1, 2, 3]
+```
+- 
+```
+aaa
+bbb
+ccc
+111
+222
+333
+```
+- 
+```
+a 1 2 3
+b 1 2 3
+c 1 2 3
+```
