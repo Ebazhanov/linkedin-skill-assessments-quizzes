@@ -65,7 +65,7 @@ PHP Assessment
 
 #### Q8. The ___ operator is useful for sorting operations. It compares two values and returns an integer less than, equal to, or greater than 0 depending on whether on whether the value on the ___is less than, equal to, or greater than the other.
 - greater-than; right
-- spaceship; left
+- spaceship; left //Correct
 - equality; right
 - comparison; left
 
@@ -91,7 +91,7 @@ PHP Assessment
 - The $_REQUEST is missing.
 - The $_COOKIES array is missing.
 - The cookie session is missing.
-- The call to setcookie() is missing.
+- The call to setcookie() is missing. //Correct
 
 #### Q12. What is the value of $total in this calculation?
 `$total = 2 + 5 * 20 - 6 / 3`
@@ -103,7 +103,7 @@ PHP Assessment
 #### Q13. What is the purpose of adding a lowercase "u" as a modifier after the final delimiter in a Perl-compatible regular expression?
 - It makes the dot metacharacter match anything, including newline characters.
 - It makes the pattern match uppercase letters.
-- Both the pattern and subject string are treated as UTF-8.
+- Both the pattern and subject string are treated as UTF-8. //Correct
 - It inverts the greediness of the quantifiers in the pattern so they are not greedy by default.
 
 #### Q14. Which code snippet uses the correct syntax for creating an instance of the Pet class?
@@ -125,4 +125,5 @@ PHP Assessment
 - This script times out the session for myusername.
 - Cookies are starting to be stored as a result of this script.
 - This script validates the username and password.
-- This script is on a page that requires the user to be logged in. It checks to see if the user has a valid session.
+- This script is on a page that requires the user to be logged in. It checks to see if the user has a valid session. //Correct
+
