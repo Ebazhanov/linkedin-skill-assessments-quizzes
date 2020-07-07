@@ -277,6 +277,16 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "7fold",
+      "name": "Yurii Yakymenko",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/33958646?v=4",
+      "profile": "https://github.com/7fold",
+      "contributions": [
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
