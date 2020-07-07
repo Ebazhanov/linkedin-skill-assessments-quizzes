@@ -222,3 +222,39 @@ function Dish(props) {
 - a property that lets you pass components as data to other components <<<<<--CORRECT
 - a property that lets you set an array as a property
 - a property that lets you pass data to child elements
+
+#### 25. Which attribute do you use to replace innerHTML in the browser DOM?
+- injectHTML
+- dangerouslySetinnerHTML <<<<<--CORRECT
+- weirdSetinnerHTML
+- strangeHTML
+
+#### 26. Which of these terms commonly describe React applications?
+- declarative
+- integrated
+- closed
+- imperative
+
+#### 27. When using webpack, why would you need to use a loader?
+- to put together physical file folders
+- to process files
+- to load external data
+- to load the website into everyone's phone
+
+#### 28. A representation of a user interface that is kept in memory and is synced with the "real" DOM is called what?
+- virtual DOM <<<<<--CORRECT maybe
+- DOM
+- virtual elements
+- shadow DOM
+
+#### 29. You have written the following code but nothing is rendering. How do you fix this problem?
+```javascript
+const Heading = () => {
+    <h1>Hello!</h1>
+};
+```
+- Add a render function
+- Change the curly braces to parentheses or add a return statement before the h1 tag.
+- Move the h1 to another component.
+- Surround the h1 in a div.
+
