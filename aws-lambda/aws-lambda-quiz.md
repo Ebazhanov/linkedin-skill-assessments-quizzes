@@ -4,7 +4,7 @@ AWS LAMBDA Assessment
 #### Q1. How can you increase the CPU resources for your Lambda?
 - Increase the configured CPU value
 - Increase the configured timeoutout  value
-- Increase the configured memory value
+- Increase the configured memory value <<<<<<--------------- CORRECT
 - Increase the configured concurrency value
 
 #### Q2. How can additional code or content be provided for Lambda?
@@ -35,19 +35,19 @@ AWS LAMBDA Assessment
 - Create configuration files and deploy them using AWS CodePipeline.
 - Create CloudFormation templates and deploy them using AWS CodeBuild
 - Create configuration file and deploy using AWS CodeBuild
-- Create CloudFormation templates and deploy them using AWS CodePipeline.
+- Create CloudFormation templates and deploy them using AWS CodePipeline. <<<<<<<<------ CORRECT
 
 #### Q7. What can you use to monitor function invocations?
 - API Gateway
 - S3
 - SAS
-- CLoudTrail
+- CLoudTrail <<<<<<--------------- CORRECT
 
 #### Q8. It is AWS best practice to enable Lambda logging by which of these methods.
 - Use S3 metrics and CloudWatch alarms
 - Create custom metrics within your Lambda code.
 - Create custom metrics within your CloudWatch code.
-- Use Lambda metrics and CloudWatch alarms.
+- Use Lambda metrics and CloudWatch alarms. <<<<<<--------------- CORRECT
 
 #### Q9. What may be provided for environment variables?
 - an SSL certificate
@@ -77,16 +77,17 @@ AWS LAMBDA Assessment
 - CLoudWatch logs
 - DynamoDB logs
 - S3 logs
-- Lambda logs.
+- Lambda logs. <<<<<<<<------ CORRECT
 
 #### Q14. What facilitates continuous delivery of Lambdas?
 - CodeStack
 - ElasticStack
 - Mobile Hub
-- CodeDeploy
+- CodeDeploy <<<<<<<<------ CORRECT
 
 #### Q15. How are computing resources allocated to Lambdas?
 - proportionally  <<<<<------- CORRECT
 - equally
 - periodically
 - daily
+
