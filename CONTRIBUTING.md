@@ -11,3 +11,6 @@
 
 ## How can I get on the list of contributors?
 - after your PR is merged, you will be automatically become a contributor and will be appeared in the Readme.md as the contributor.
+
+## Sponsor this project
+I put a lot of efforts and time into making this repo. If my answers helped you in anyway, please consider treating me with a cup of hot coffee (fine the link under 'Sponsor' section)
