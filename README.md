@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-28-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-29-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -74,6 +74,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/mohnishkarri"><img src="https://avatars2.githubusercontent.com/u/60459557?v=4" width="100px;" alt=""/><br /><sub><b>mohnishkarri</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=mohnishkarri" title="Code">💻</a> <a href="#content-mohnishkarri" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/andyzhu"><img src="https://avatars3.githubusercontent.com/u/171831?v=4" width="100px;" alt=""/><br /><sub><b>andyzhu</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=andyzhu" title="Code">💻</a> <a href="#content-andyzhu" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/kushvishal"><img src="https://avatars3.githubusercontent.com/u/67946755?v=4" width="100px;" alt=""/><br /><sub><b>Vishal Kushwah</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=kushvishal" title="Code">💻</a> <a href="#content-kushvishal" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/7fold"><img src="https://avatars1.githubusercontent.com/u/33958646?v=4" width="100px;" alt=""/><br /><sub><b>Yurii Yakymenko</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=7fold" title="Code">💻</a> <a href="#content-7fold" title="Content">🖋</a></td>
   </tr>
 </table>
 
