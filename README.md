@@ -30,6 +30,7 @@
 | [node.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/node.js/node.js-quiz.md) |  with answers |
 | [objective-c](https://github.com/Ebazhanov/in-quiz-questions/blob/master/objective-c/objective-c_quiz.md) |  with answers |
 | [json](https://github.com/Ebazhanov/in-quiz-questions/blob/master/json/json-quiz.md) |  with answers |
+| [SEO](#) |  with answers |
 
 ## Contributors ✨
 
