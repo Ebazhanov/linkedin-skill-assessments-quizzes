@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-29-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-31-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -20,8 +20,8 @@
 | [CSS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/css/css-quiz.md) |  with answers |
 | [REST API](https://github.com/Ebazhanov/in-quiz-questions/blob/master/rest-api/rest-api-quiz.md) :+1: |  with answers |
 | [AWS-Lambda](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws-lambda/aws-lambda-quiz.md) :fire: | with answers |
-| [Python](https://github.com/Ebazhanov/in-quiz-questions/blob/master/python/python-quiz.md) |  partially answered |
-| [OOP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/oop/object-oriented-programming-quiz.md) |  partially answered |
+| [Python](https://github.com/Ebazhanov/in-quiz-questions/blob/master/python/python-quiz.md) | with answered |
+| [OOP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/oop/object-oriented-programming-quiz.md) |  with answered |
 | [PHP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/php/php-quiz.md) |  answers required |
 | [NoSQL](https://github.com/Ebazhanov/in-quiz-questions/blob/master/nosql/nosql-quiz.md) |  with answers |
 | [C#](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%23/c-sharp-quiz.md) |  answers required |
@@ -30,6 +30,8 @@
 | [node.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/node.js/node.js-quiz.md) |  with answers |
 | [objective-c](https://github.com/Ebazhanov/in-quiz-questions/blob/master/objective-c/objective-c_quiz.md) |  with answers |
 | [json](https://github.com/Ebazhanov/in-quiz-questions/blob/master/json/json-quiz.md) |  with answers |
+| [ceo](https://github.com/Ebazhanov/in-quiz-questions/blob/master/json/json-quiz.md) |  with answers |
+| [Search Engine Optimization (CEO)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/seo/search-engine-optimization-quiz.md) |  with answers |
 
 ## Contributors ✨
 
@@ -77,6 +79,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/7fold"><img src="https://avatars1.githubusercontent.com/u/33958646?v=4" width="100px;" alt=""/><br /><sub><b>Yurii Yakymenko</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=7fold" title="Code">💻</a> <a href="#content-7fold" title="Content">🖋</a></td>
+    <td align="center"><a href="https://www.thetechrix.com"><img src="https://avatars0.githubusercontent.com/u/19845881?v=4" width="100px;" alt=""/><br /><sub><b>Swetabh Suman</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Swetabhsuman8" title="Code">💻</a> <a href="#content-Swetabhsuman8" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/theInvincible"><img src="https://avatars2.githubusercontent.com/u/60701544?v=4" width="100px;" alt=""/><br /><sub><b>AJAY DANDGE</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=theInvincible" title="Code">💻</a> <a href="#content-theInvincible" title="Content">🖋</a></td>
   </tr>
 </table>
 
