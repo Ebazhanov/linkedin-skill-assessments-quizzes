@@ -307,6 +307,15 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "mehmeteyesin",
+      "name": "Mehmet Yesin",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5034086?v=4",
+      "profile": "https://github.com/mehmeteyesin",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
