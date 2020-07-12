@@ -391,6 +391,7 @@ def sum(a, b):
     return a + b
 ```
 - [ ] `-`
+
 ```
 def sum(a, b):
     '''
@@ -398,9 +399,8 @@ def sum(a, b):
     b = 2
     sum(a, b) = 3
     '''
-    
     return a + b
-```
+
 #### Q35. What is the algorithmic paradigm of quick sort?
 - [ ] `backtracking`
 - [ ] `dynamic programming`
@@ -466,4 +466,25 @@ ccc
 a 1 2 3
 b 1 2 3
 c 1 2 3
+```
+#### Q40. What is the correct syntax for calling an instance method on a class named Game?
+- [x]
+```
+my_game = Game()
+my_game.roll_dice()
+```
+- [ ]
+```
+my_game = Game()
+self.my_game.roll_dice()
+```
+- [ ]
+```
+my_game = Game(self)
+self.my_game.roll_dice()
+```
+- [ ]
+```
+my_game = Game(self)
+my_game.roll_dice(self)
 ```
