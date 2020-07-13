@@ -32,7 +32,7 @@ REST API Assessment
 - CORS  >>>>>>>>>>>>>>>>>CORRECT
 
 #### Q6. APIs commonly use webhooks to ____________________.
-- notify other systems of an event
+- notify other systems of an event  >>>>>>>>>>>>>>>>>CORRECT
 - catch error faster 
 - improve error logging 
 - log additional data
@@ -80,7 +80,7 @@ REST API Assessment
 - an SSO competitor for OAuth 2.0
 
 #### Q14. What is one benefit of GraphQl over REST approaches?
-- flexible querying/responses
+- flexible querying/responses  >>>>>>>>>>>>>>>>>CORRECT
 - more stable APIs
 - compatible with more gateways
 - more secure by default
