@@ -31,6 +31,7 @@
 | [objective-c](https://github.com/Ebazhanov/in-quiz-questions/blob/master/objective-c/objective-c_quiz.md) |  with answers |
 | [json](https://github.com/Ebazhanov/in-quiz-questions/blob/master/json/json-quiz.md) |  with answers |
 | [Search Engine Optimization (SEO)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/seo/search-engine-optimization-quiz.md) |  with answers |
+| [Microsoft Word](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-word/microsoft-word-quiz.md) |  with answers |
 
 ## Contributors ✨
 
