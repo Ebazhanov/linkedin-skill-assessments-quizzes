@@ -9,9 +9,9 @@ jQuery Assessment
      alert('you clicked the button!');
  });`
 
-- Only the second one will work; jQuery does not have a function called .on. <<<<---Correct
+- Only the second one will work; jQuery does not have a function called .on.
 - The second snippet will not function.
-- Nothing - .click(function) is shorter way to write .on('click', function)
+- Nothing - .click(function) is shorter way to write .on('click', function) <<<<---Correct
 - The first snippet will execute for every button on the page, the second will only apply to the first button
 
 #### Q2. What does the following line of code do?
@@ -23,10 +23,10 @@ jQuery Assessment
  
 #### Q3. Give the following HTML, how could we use one line to hide or show the button?
 `<button class="btn btn-primary" type="submit">Continue to checkout</button>`
-- $('.btn-primary').toggle(); ???? // toggle(true); & toggle(false);
+- $('.btn-primary').toggle(); <<<<---Correct
 - $('.btn-primary').showHide();
 - $('.btn-primary').not(':visible').show();
-- $('.btn-primary').css({ display: 'block'}); <<<<---Correct // ({ display: 'none'});
+- $('.btn-primary').css({ display: 'block'}); 
 
 #### Q4. Working with AJAX, we may run into situations where a piece of code should not be run until after multiple AJAX, calls have completed successfully. Say we need to call two external services for JSON data (a list of students, and a list of classes). And only after retrieving those data will we perform some manipulations on a page. What is the preferred way for dealing with this scenario? 
 [https://example.com/json-api/students https://example.com/json-api/classes](https://example.com/json-api/students https://example.com/json-api/classes)
@@ -35,7 +35,7 @@ jQuery Assessment
       'https://example.com/json-api/classes'
    ], function(studentRequest, classRequest) {
       // the rest of the code goes here
-});` <<<<<-CORRECT !
+});`
 - `$.when(
       $.get('https://example.com/json-api/students'),
       $.get('https://example.com/json-api/classes')
@@ -56,7 +56,7 @@ jQuery Assessment
               }
         });
    }
-});`   
+});` <<<<<-CORRECT !
 
 #### Q5. Given the snippet of HTML below, what is the difference between the two lines that follow it?
 <ul>
@@ -71,10 +71,10 @@ jQuery Assessment
 $('ul').find('li').get(2);
 $('ul').find('li').eq(2);
 
-- .get() retrieves a DOM element, and can't be chained, eq() retrieves a jQuery object, and can be chained.
+- .get() retrieves a DOM element, and can't be chained, eq() retrieves a jQuery object, and can be chained. <<<<--Correct !
 - .get() retrieves a jQuery object, and can't be chained, eq() retrieves a DOM element, and can be chained.
 - .get() retrieves a jQuery object, and is zero-indexed, eq() retrieves a DOM element, and is 1-indexed.
-- .get() retrieves a DOM element, and is zero-indexed, eq() retrieves a jQuery object, and is 1-indexed.  <<<<--Correct !
+- .get() retrieves a DOM element, and is zero-indexed, eq() retrieves a jQuery object, and is 1-indexed.
 
 #### Q6. Suppose we want to have an ball created from an HTML element (id=ball) move down and to the right from its original location when clicked, and move back into its original place when finished. Given a starting point of this, which of these snippets would accomplish that goal?
 
@@ -143,7 +143,7 @@ $('#ball').click(function() {
 
 - `$('.feedback').hasClass('.success');`
 - `$.css('.feedback', '.success')`;
-- `$('.feedback').addClass('.success');` <<<<---Correct ?
+- `$('.feedback').addClass('.success');` <<<<---Correct (you can only have class name without dot in-front of it)
 - `$('.feedback').css('.success');`
 
 #### Q8. Below an example page snippet that includes a couple of messages in a list, and a code snippet that retrieves a few hundred messages from a API endpoints using AJAX. How might we add these items to the page snippet in a way that avoids performance problems with DOM insertions?
@@ -162,7 +162,7 @@ $.get('//example.com/api/v1/message')
 
 - `tonsOfItems.map(function(item) {
      $('.message-area--list').append('<li>'+item+'</li>');
-});`
+});` <<<<---Correct
 
 - `var tonsOfListItems = tonsOfItems.map(function(itme))  {
      return '<li>'+item+'</li>';
@@ -194,8 +194,8 @@ $.each(tonsOfItems, function(idx, item) {
 - this needs to be wrapped, like $(this), in order to be chained in a plugin. 
 - jQuery plugins can't be safety authored in strict mode.
 - In order to be used by other code, plugins need to be added to the global namespace, not wrapped in
-function expression. <<<---CORRECT !
-- Our plugin should extend jQuery.fn, not jQuery itself.
+function expression.
+- Our plugin should extend jQuery.fn, not jQuery itself. <<<---CORRECT !
 
 #### Q11. Generally speaking, when used on a web page, how should jQuery be installed, and why?
 
@@ -220,9 +220,9 @@ function expression. <<<---CORRECT !
 - $('header').html() returns all headers in an HTML document. $('header').text() the first line of a text file.
 
 #### Q14. When writing jQuery plugins, we often provide default options that may be overridden by the end user. What jQuery function is most useful for this purpose?
-- $.extend <<<<---CORRECT
+- $.extend
 - $.clone
-- $.fn.extend
+- $.fn.extend <<<<---CORRECT
 - $.merge
 
 #### Q15. There are times when you might want to programmatically trigger an event, instead of simply reacting to user input directly. Given this markup, Which choice will NOT cause a click event to the select box when the button is clicked?
