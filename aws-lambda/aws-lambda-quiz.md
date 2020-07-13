@@ -136,29 +136,29 @@ AWS LAMBDA Assessment
 #### Q23. How are CloudWatch actions configured?
 - automatically
 - none of these answers
-- manually
+- manually  <<<<<------- CORRECT
 - ad hoc
 
 #### Q24. You are testing your stream-based application and the associated Lambda. AWS best practice advises you to test by varying what?
 - stream and record sizes
 - stream and shard sizes
-- batch and record sizes
+- batch and record sizes  <<<<<------- CORRECT
 - batch and shard sizes
 
 #### Q25. You need to make your Lambda available to services in multiple VPCs. What do you do?
 - Place each subnet in a VPC. Associate all subnets to your Lambda.
 - Place all subnets in a VPC. Associate all subnets to your Lambda.
 - Configure your Lambda to be available to multiple VPCs.
-- Configure all application VPCs to be peered.
+- Configure all application VPCs to be peered.  <<<<<------- CORRECT
 
 #### Q26. How is the cost associated with Lambda function calculated?
 - number of function calls
 - amount of code run
-- compute time
+- compute time  <<<<<------- CORRECT
 - amount of infrastructure used
 
 #### Q27. What is the fastest way to get started with Lambda?
 - Author a Lambda from scratch.
-- Use a blueprint.
+- Use a blueprint.  <<<<<------- CORRECT
 - Use a .zip deployment package.
 - Use the serverless app repository.
