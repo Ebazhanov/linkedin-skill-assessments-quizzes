@@ -254,7 +254,8 @@ const Heading = () => {
 };
 ```
 - Add a render function
-- Change the curly braces to parentheses or add a return statement before the h1 tag.
+- Change the curly braces to parentheses or add a return statement before the h1 tag. <<<-- Correct
 - Move the h1 to another component.
 - Surround the h1 in a div.
 
+#### 30. why is it a good idea 
