@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-35-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-36-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -86,6 +86,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/lok0613"><img src="https://avatars0.githubusercontent.com/u/6286158?v=4" width="100px;" alt=""/><br /><sub><b>Lok Chun Wai</b></sub></a><br /><a href="#design-lok0613" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/adriadejuan"><img src="https://avatars2.githubusercontent.com/u/59417678?v=4" width="100px;" alt=""/><br /><sub><b>Adria de Juan</b></sub></a><br /><a href="#design-adriadejuan" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/gl-man"><img src="https://avatars3.githubusercontent.com/u/29589220?v=4" width="100px;" alt=""/><br /><sub><b>GL-Man</b></sub></a><br /><a href="#design-gl-man" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Jheel-patel"><img src="https://avatars2.githubusercontent.com/u/50559602?v=4" width="100px;" alt=""/><br /><sub><b>Jheel Patel</b></sub></a><br /><a href="#design-Jheel-patel" title="Design">🎨</a></td>
   </tr>
 </table>
 
