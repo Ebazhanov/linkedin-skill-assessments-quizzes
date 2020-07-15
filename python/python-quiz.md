@@ -374,7 +374,7 @@ return output
 - [ ] `A set is an ordered collection unique items. A list is an unordered collection of non-unique items.`
 - [ ] `Elements can be retrieved from a list but they cannot be retrieved from a set`
 - [ ] `A set is an ordered collection of non-unique items. A list is an unordered collection of unique items.`
-- [ ] `A set is an unordered collection unique items. A list is an ordered collection of non-unique items.`
+- [x] `A set is an unordered collection unique items. A list is an ordered collection of non-unique items.`
 
 #### Q37. What is the definition of abstraction as applied to object-oriented Python?
 - [ ] `Abstraction means that a different style of code can be used, since many details are already known to the program behind the scenes.`
@@ -425,22 +425,22 @@ c 1 2 3
 ```
 
 #### Q39. What is the correct syntax for calling an instance method on a class named Game?
-- [x]
+- [x] `-` 
 ```
 my_game = Game()
 my_game.roll_dice()
 ```
-- [ ]
+- [ ] `-`
 ```
 my_game = Game()
 self.my_game.roll_dice()
 ```
-- [ ]
+- [ ] `-`
 ```
 my_game = Game(self)
 self.my_game.roll_dice()
 ```
-- [ ]
+- [ ] `-`
 ```
 my_game = Game(self)
 my_game.roll_dice(self)
