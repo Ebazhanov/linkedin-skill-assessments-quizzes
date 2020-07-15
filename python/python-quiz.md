@@ -302,7 +302,7 @@ output.append(fruit_tuple)
 
 return output
 ```
-- [ ] `-`
+- [x] `-`
 ```
 i = 0
 output = []
@@ -313,7 +313,7 @@ for fruit in fruits:
     i += 1
 return output
 ```
-- [x] `-`
+- [ ] `-`
 ```
 groceries = zip(fruits, quantities, prices)
 return groceries
