@@ -25,9 +25,9 @@
 | [node.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/node.js/node.js-quiz.md) |  with answers |
 | [NoSQL](https://github.com/Ebazhanov/in-quiz-questions/blob/master/nosql/nosql-quiz.md) |  with answers |
 | [objective-c](https://github.com/Ebazhanov/in-quiz-questions/blob/master/objective-c/objective-c_quiz.md) |  with answers |
-| [OOP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/oop/object-oriented-programming-quiz.md) |  with answered |
+| [OOP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/oop/object-oriented-programming-quiz.md) |  with answers |
 | [PHP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/php/php-quiz.md) |  answers required |
-| [Python](https://github.com/Ebazhanov/in-quiz-questions/blob/master/python/python-quiz.md) | with answered |
+| [Python](https://github.com/Ebazhanov/in-quiz-questions/blob/master/python/python-quiz.md) | with answers |
 | [R](https://github.com/Ebazhanov/in-quiz-questions/blob/master/r/r-quiz.md) |  partially answered |
 | [React.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/react/reactjs-quiz.md) :rose: |  with answers |
 | [REST API](https://github.com/Ebazhanov/in-quiz-questions/blob/master/rest-api/rest-api-quiz.md) :+1: |  with answers |
