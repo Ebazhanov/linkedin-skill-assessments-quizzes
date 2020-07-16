@@ -119,3 +119,81 @@
 - [ ] The object is deleted and a hole is left behind.
 - [ ] The text merges with the second box.
 - [ ] The gaps between the boxes close and the boxes remain the same size.
+
+#### Q18. Which command builds an overview of document contents based on applied headings styles?
+
+- [ ] Manage Sources
+- [ ] Cross-Reference
+- [ ] Insert Index
+- [x] Table of Contents
+
+#### Q19. Which statistic does the Word Count feature NOT collect?
+
+- [ ] paragraphs
+- [ ] lines
+- [x] page breaks
+- [ ] characters (no spaces)
+
+#### Q20. What is the default view when you open a document or create a new document?
+
+- [x] Print Layout view
+- [ ] Draft view
+- [ ] Edit view
+- [ ] Web Layout view
+
+#### Q21. You are working on a local copy of a document when Word unexpectedly closes. After you relaunch Word, how can you find the most recently saved version of the document?
+
+- [ ] Click Open > Recent and select Recover Unsaved Documents.
+- [x] Click File > Options > Recover Unsaved Documents.
+- [ ] Click File > Open > Recent > Documents.
+- [ ] Click File > Recent > Recover Unsaved Documents.
+
+#### Q22. What can you NOT insert into a Word document from the Insert tab?
+
+- [ ] a sketch
+- [ ] a symbol
+- [x] a 3D model
+- [ ] an equation
+
+#### Q23. What Microsoft Word feature lets you capture a portion of your screen to be used as an image in your document?
+
+- [x] Screen Clipping
+- [ ] Screen Grab
+- [ ] Screen Capture
+- [ ] none of these answers
+
+#### Q24. You want to create a shortcut that replaces an acronym that you type with the acronym's full text-for example, replacing `"/mt"` with `"Microsoft Teams"`. What Word feature do you use to create this shortcut?
+
+- [ ] Replace All
+- [ ] AutoFormat As You Type
+- [x] Find and Replace
+- [ ] AutoCorrect Options
+
+#### Q25. Your document contains two columns of content with a vertical line between the columns, as shown. From where can you delete the line?
+
+- [ ] Insert > Text
+- [x] Columns dialog box
+- [ ] Insert > Line > Vertical
+- [ ] Insert > Line > Remove
+
+#### Q26. You crop an image in a document, what happens to the image and the overall document file size?
+
+- [ ] The cropped parts of the image are hidden and the overall file size increases.
+- [ ] The cropped parts of the image are removed and the overall file size does not change.
+- [x] The cropped parts of the image are hidden and the overall file size does not change.
+- [ ] The cropped parts of the image are removed and the overall file size decreases.
+
+#### Q27. When you are typing in a paragraph and reach the end of the line, Word automatically starts a new line for you. What is this feature called?
+
+- [ ] line wrap
+- [x] word wrap
+- [ ] a new line return
+- [ ] a soft return
+
+#### Q28. You want to create an organizational chart. Which SmartArt category should you choose?
+
+- [ ] Pyramid
+- [ ] Relationship
+- [x] Hierarchy
+- [ ] Matrix
+
