@@ -238,7 +238,7 @@ click is released.
 
 #### Q20. When using position: fixed, what will the element always be positioned relative to?
 - the closest element with position: relative
-- the viewport
+- the viewport <<<<---Correct
 - the parent element
 - the wrapper element
 
@@ -249,7 +249,7 @@ click is released.
 - once, on the x and y axis
 
 #### Q22. When using media queries, media types are used to target a device category. Which choice lists current valid media types?
-- print, screen, aural
+- print, screen, aural <<<<---Correct
 - print, screen, television
 - print, screen, speech 
 - print, speech, device 
@@ -295,25 +295,25 @@ color: #000000;
 - The rem unit is relative to the font-size of the p element.
 - You have to set the value for the rem unit by writing a declaration such as rem { font-size: 1 Spx; }
 - The rem unit is relative to the font-size of the containing (parent) element.
-- The rem unit is relative to the font-size of the root element of the page.
+- The rem unit is relative to the font-size of the root element of the page. <<<<---Correct
 
 #### Q26.Which of these would give a block element rounded corners?
 - corner-curve: 10px
 - border-corner: 10px
-- border-radius: 10px
+- border-radius: 10px  <<<<---Correct
 - corner-radius: 10px
  
 #### Q27. In the following media query example, what conditions are being targeted?
 `@media (min-width: 1024px), screen and (orientation: landscape) { … }`
 - The rule will apply to a device that has either a width of 1024px or wider, or is a screen device in landscape mode.
 - The rule will apply to a device that has a width of 1024px or narrower and is a screen device in landscape mode.
-- The rule will apply to a device that has a width of 1024px or wider and is a screen device in landscape mode.
+- The rule will apply to a device that has a width of 1024px or wider and is a screen device in landscape mode. <<<<---Correct
 - The rule will apply to a device that has a width of 1024px or narrower, or is a screen device in landscape mode.
  
 #### Q28. CSS transform properties are used to change the shape and position of the selected objects. The transform-origin property specifies the location of the element's transformation origin. By default, what is the location of the origin?
  
 - the top left corner of the element
-- the center of the element
+- the center of the element  <<<<---Correct
 - the top right corner of the element
 - the bottom left of the element
 
