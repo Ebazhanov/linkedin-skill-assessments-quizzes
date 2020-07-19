@@ -265,5 +265,77 @@ for(){iterator.hasNext()}{}
 #### Q20. Correct output of `"apple".compareTo("banana")`
 - 0
 - positive number
-- negitive number <<<<---Correct
+- negative number <<<<---Correct
 - compilation error
+
+#### Q21. You have an ArrayList of names that you want to sort alphabetically. Which approach would NOT work?
+- names.sort(Comparator.comparing(String::toString))
+- Collections.sort(names)
+- names.sort(List.DESCENDING)
+- names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())
+
+#### Q22. By implementing encapsulation, you cannot directly access the class's _____ properties unless you are writing code inside the class itself.
+- private <<<<---Correct
+- protected
+- no-modifier
+- public
+
+#### Q23. Which is the most up-to-date way to instantiate the current date?
+- new SimpleDateFormat("yyyy-MM-dd").format(new Date())
+- new Date(System.currentTimeMillis())
+- LocalDate.now()
+- Calender.getInstance().getTime()
+
+#### Q24. Fill in the blank to create a piece of code that will tell wether int0 is divisible by 5:
+'''
+boolean isDivisibleBy5 = _____
+'''
+- int0 / 5 ? true: false
+- int0 % 5 == 0 <<<<---Correct
+- int0 % 5 != 5
+- Math.isDivisible(int0, 5)
+
+#### Q25. How many time will this code print "Hello World!"?
+'''
+Class Main {
+    public static void main(String[] args){
+        for (int i=0; i<10; i=i++){
+            i+=1;
+            System.out.println("Hello World!");
+        }
+    }
+}
+'''
+- 10 times
+- 9 times
+- 5 times <<<<---Correct
+- infinite number of times
+
+#### Q26. The runtime system starts your program by calling which function first?
+- print
+- iterative
+- hello
+- main <<<<---Correct
+
+#### Q27. What is the result of this code?
+'''
+try{
+    System.out.print("Hello World");
+}catch(Exception e){
+    System.out.println("e");
+}catch(ArithmeticException e){
+    System.out.println("e");
+}finally{
+    System.out.println("!")
+}
+'''
+- It will throw a runtime exception
+- It will not compile
+- Hello World! <<<<---Correct
+- Hello World
+
+#### Q28. Which statement is NOT true?
+- An anonymous class may specify an abstract base class as its base type.
+- An anonymous class does not require a zero-argument constructor. <<<<---Correct
+- An anonymous class may specify an interface as its base type.
+- An anonymous class may specify both an abstract class and interface as base types
