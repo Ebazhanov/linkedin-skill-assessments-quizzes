@@ -352,6 +352,33 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "wsameer",
+      "name": "Sameer Waskar",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8468992?v=4",
+      "profile": "https://wsameer.github.io/v1/",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "alexander-e-andrews",
+      "name": "Alexander Andrews",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/45926661?v=4",
+      "profile": "https://github.com/alexander-e-andrews",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "abmaxwell",
+      "name": "Alexander Maxwell",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/25352305?v=4",
+      "profile": "http://linkedin.com/in/abmaxwell/",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
