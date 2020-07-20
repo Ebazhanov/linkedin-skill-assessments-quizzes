@@ -1,0 +1,8 @@
+{
+  "name": "in-quiz-questions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Ebazhanov/in-quiz-questions.git",
+  "author": "Evgeny Bazhanov <evg.bazhanov@yahoo.com>",
+  "license": "MIT"
+}
