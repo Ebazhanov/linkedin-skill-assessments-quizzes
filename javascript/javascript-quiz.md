@@ -261,9 +261,9 @@ dessert.type = 'pudding';
 
 #### Q31. Which of the following is not a keyword in JavaScript?
 - this
-- catch <<<<------Correct
+- catch 
 - function
-- array
+- array <<<<------Correct
 
 #### Q32. When would you use conditional statement?
 - When you want to loop through a group of statements.
