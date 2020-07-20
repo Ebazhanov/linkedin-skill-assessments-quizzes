@@ -265,3 +265,107 @@ var strings = [1, 2, 3]
 - strings.append(4)
 - strings.insert(5, at: 1)
 - strings += [5]
+
+#### Q29. How many times will this loop be executed?
+
+```swift
+for i in 0..100 {
+	print(i)
+}
+```
+
+- 0
+- 101 <<<<---Correct
+- 99
+- 100
+
+#### Q30. What can AnyObject represent?
+
+- an instance of any class <<<<---Correct
+- an instance of an optional type
+- an instance of a function type
+- all of these answers
+
+#### Q31. What does this code print?
+
+```swift
+typealias Thing = [String:Any]
+var stuff : Thing
+print(type(of:stuff))
+```
+
+- Dictionary
+- ERROR
+- Thing
+- Dictionary<String, Any> <<<<---Correct
+
+#### Q32. What is the value of test in this code?
+
+```swift
+var test = 1 == 1
+```
+
+- TRUE <<<<---Correct
+- 1
+- This code contains an error.
+- YES
+
+#### Q33. What is the value of y?
+
+```swift
+var x : Int?
+let y = x ?? 5
+```
+
+- 0
+- nil
+- This code contains an error.
+- 5 <<<<---Correct
+
+#### Q34. What is the value of y?
+
+```swift
+let x = ["1","2"].dropFirst()
+let y = x[0]
+```
+
+- 1
+- nil
+- This code contains an error. <<<<---Correct
+- 2
+
+#### Q35. What is the value of t after this code is executed?
+
+```swift
+let names = ["Larry","Sven","Bear"]
+let t = names.enumerated().first().offset
+```
+
+- This code is invalid. <<<<---Correct
+- 0
+- 1
+- Larry
+
+#### Q36. What is the value of test after this code executes?
+
+```swift
+let vt = (name: "ABC", val: 5)
+let test = vt.0
+```
+
+- ABC <<<<---Correct
+- 0
+- 5
+- name
+
+#### Q37. What is the base class in this code?
+
+```swift
+class LSN : MMM {
+}
+```
+
+- MMM <<<<---Correct
+- LSN
+- There is no base class.
+- This code is invalid.
