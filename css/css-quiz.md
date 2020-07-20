@@ -317,4 +317,10 @@ color: #000000;
 - the top right corner of the element
 - the bottom left of the element
 
+#### Q29. Which of the following is not a valid color value?
+- color: #000
+- color: rgb(0,0,0)
+- color: #000000
+- color: 000000 <<<<---Correct
+
 
