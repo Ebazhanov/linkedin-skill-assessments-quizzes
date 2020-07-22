@@ -268,8 +268,8 @@ else:
 
 #### Q29. When does a for loop stop iterating?
 - [ ] `when it encounters an infinite loop`
-- [x] `when it encounters an if/else statement that contains a break keyword`
-- [ ] `when it has assessed each item in the iterable it is working on or a break keyword is encountered`
+- [ ] `when it encounters an if/else statement that contains a break keyword`
+- [x] `when it has assessed each item in the iterable it is working on or a break keyword is encountered`
 - [ ] `when the runtime for the loop exceeds O(n^2)`
 
 #### Q30. Assuming the node is in a singly linked list, what is the runtime complexity of searching for a specific node within a singly linked list?
