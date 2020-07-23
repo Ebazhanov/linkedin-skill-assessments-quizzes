@@ -160,7 +160,7 @@
 - [x] Screen Clipping
 - [ ] Screen Grab
 - [ ] Screen Capture
-- [ ] none of these answers
+- [ ] none of these answers
 
 #### Q24. You want to create a shortcut that replaces an acronym that you type with the acronym's full text-for example, replacing `"/mt"` with `"Microsoft Teams"`. What Word feature do you use to create this shortcut?
 
@@ -179,7 +179,7 @@
 #### Q26. You crop an image in a document, what happens to the image and the overall document file size?
 
 - [ ] The cropped parts of the image are hidden and the overall file size increases.
-- [ ] The cropped parts of the image are removed and the overall file size does not change.
+- [ ] The cropped parts of the image are removed and the overall file size does not change.
 - [x] The cropped parts of the image are hidden and the overall file size does not change.
 - [ ] The cropped parts of the image are removed and the overall file size decreases.
 
@@ -197,3 +197,16 @@
 - [x] Hierarchy
 - [ ] Matrix
 
+#### Q29. When you insert page numbers, which position is NOT an option?
+
+- [ ] page margins
+- [x] inset
+- [ ] current position
+- [ ] bottom of page
+
+#### Q30. How can you quickly move an insertion point to the start of the previous paragraph?
+
+- [x] Ctrl + Up arrow
+- [ ] Ctrl + Page Up
+- [ ] Alt + Ctrl + Page Up
+- [ ] Alt + Ctrl + Page Up
