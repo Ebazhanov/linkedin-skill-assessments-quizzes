@@ -98,7 +98,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/kivancenesbeser/"><img src="https://avatars0.githubusercontent.com/u/16528400?v=4" width="100px;" alt=""/><br /><sub><b>Kivanc Enes</b></sub></a><br /><a href="#design-kivancbeser" title="Design">🎨</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="http://www.linkedin.com/in/ritika-das-ece/"><img src="https://avatars2.githubusercontent.com/u/61988162?v=4" width="100px;" alt=""/><br /><sub><b>Ritika Das</b></sub></a><br /><a href="#design-Ritika-Das" title="Design">🎨</a></td>
+    <td align="center"><a href="http://www.linkedin.com/in/ritika-das-ece/"><img src="https://avatars2.githubusercontent.com/u/61988162?v=4" width="100px;" alt=""/><br /><sub><b>Ritika Das</b></sub></a><br /><a href="#design-Ritika-Das" title="Design">🎨</a> <a href="#ideas-Ritika-Das" title="Ideas, Planning, & Feedback">🤔</a> <a href="#talk-Ritika-Das" title="Talks">📢</a></td>
   </tr>
 </table>
 
