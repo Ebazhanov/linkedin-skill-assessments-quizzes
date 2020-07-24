@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-42-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-43-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -96,6 +96,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/SlavaSD"><img src="https://avatars2.githubusercontent.com/u/38739299?v=4" width="100px;" alt=""/><br /><sub><b>Slava</b></sub></a><br /><a href="#design-SlavaSD" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/mayurbiw"><img src="https://avatars2.githubusercontent.com/u/20475960?v=4" width="100px;" alt=""/><br /><sub><b>Mayur Khatri</b></sub></a><br /><a href="#design-mayurbiw" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/Mascantosh"><img src="https://avatars0.githubusercontent.com/u/38609392?v=4" width="100px;" alt=""/><br /><sub><b>Mascantosh</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Mascantosh" title="Code">💻</a> <a href="#content-Mascantosh" title="Content">🖋</a> <a href="#talk-Mascantosh" title="Talks">📢</a> <a href="#ideas-Mascantosh" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/kivancenesbeser/"><img src="https://avatars0.githubusercontent.com/u/16528400?v=4" width="100px;" alt=""/><br /><sub><b>Kivanc Enes</b></sub></a><br /><a href="#design-kivancbeser" title="Design">🎨</a></td>
+    <td align="center"><a href="http://www.linkedin.com/in/ritika-das-ece/"><img src="https://avatars2.githubusercontent.com/u/61988162?v=4" width="100px;" alt=""/><br /><sub><b>Ritika Das</b></sub></a><br /><a href="#design-Ritika-Das" title="Design">🎨</a></td>
   </tr>
 </table>
 

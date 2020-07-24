@@ -294,7 +294,7 @@ git rm --cached testfile.js
 - [ ] You cannot save locally without commiting, so that is not possible.
 - [ ] Run git hold to save a local copy of what you're doing to return to later.
 - [ ] Save your work with git local-cache.
-- [x] Use git stash to save your work and come back later and reapply the stashed commit. <
+- [x] Use git stash to save your work and come back later and reapply the stashed commit.
 
 #### Q37. What command would you use to create a new git repository?
 
@@ -302,4 +302,11 @@ git rm --cached testfile.js
 - [ ] git start
 - [ ] git new
 - [x] git init
+
+#### Q38. While working on a feature branch you try to use "git rerere" to solve a recurring merge conflict but nothing is happening. What could be causing this issue?
+
+- [ ] The "-all" option isn't added to the command.
+- [x] "rerere.enabled" isn't enable in the config file.
+- [ ] The commit hash is missing. 
+- [ ] The filepath isn't specified.
 

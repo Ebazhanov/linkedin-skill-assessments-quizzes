@@ -409,6 +409,23 @@
         "talk",
         "ideas"
       ]
+    },
+      "login": "kivancbeser",
+      "name": "Kivanc Enes",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/16528400?v=4",
+      "profile": "https://www.linkedin.com/in/kivancenesbeser/",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "Ritika-Das",
+      "name": "Ritika Das",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/61988162?v=4",
+      "profile": "http://www.linkedin.com/in/ritika-das-ece/",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
