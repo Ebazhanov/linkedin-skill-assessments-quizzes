@@ -208,7 +208,7 @@ section + p {
 ```
 -
 ```
-1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file .
+1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file .       <<<<---Correct
 2. Inline; CSS is added to the HTML tag.
 3. Internal; CSS is included within the <head> element of the HTML file.
 ```
