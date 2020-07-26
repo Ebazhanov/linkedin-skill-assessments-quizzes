@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-45-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-46-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -101,6 +101,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/kivancenesbeser/"><img src="https://avatars0.githubusercontent.com/u/16528400?v=4" width="100px;" alt=""/><br /><sub><b>Kivanc Enes</b></sub></a><br /><a href="#design-kivancbeser" title="Design">🎨</a></td>
     <td align="center"><a href="http://www.linkedin.com/in/ritika-das-ece/"><img src="https://avatars2.githubusercontent.com/u/61988162?v=4" width="100px;" alt=""/><br /><sub><b>Ritika Das</b></sub></a><br /><a href="#design-Ritika-Das" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/Zer07793"><img src="https://avatars3.githubusercontent.com/u/68774399?v=4" width="100px;" alt=""/><br /><sub><b>Zer07793</b></sub></a><br /><a href="#design-Zer07793" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/cheungdzinyung"><img src="https://avatars1.githubusercontent.com/u/24264186?v=4" width="100px;" alt=""/><br /><sub><b>Andrew Cheung</b></sub></a><br /><a href="#design-cheungdzinyung" title="Design">🎨</a></td>
   </tr>
 </table>
 
