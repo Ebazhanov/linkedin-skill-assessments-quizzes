@@ -208,14 +208,14 @@ section + p {
 ```
 -
 ```
-1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file .       <<<<---Correct
+1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file .
 2. Inline; CSS is added to the HTML tag.
 3. Internal; CSS is included within the <head> element of the HTML file.
 ```
 #### Q17. Which of the following is true of the SVG image format?
 - CSS can be applied to SVGs but JavaScript cannot be.
 - SVGs work best for creating 3D graphics.
-- SVGs can be created as a vector graphic or coded using SVG specific elements such as <svg>, <line>, and <ellipse>.
+- SVGs can be created as a vector graphic or coded using SVG specific elements such as <svg>, <line>, and <ellipse>.  <<<<---Correct
 - SVGs are a HAML-based markup language for creating vector graphics.
 
 
@@ -226,15 +226,15 @@ section + p {
     
 - The color of the link will display as pink after its been clicked or if the mouse is hovering over the link.
 - The color of the link will display as pink on mouse hover.
-- The color of the link will display as pink while the link is being clicked but before the mouse
-click is released.
+- The color of the link will display as pink while the link is being clicked but before the mouse 
+click is released.  <<<<---Correct
 - The color of the link will display as pink before it has been clicked.
 
 #### Q19. To change the color of an SVG using CSS, which property is used?
 - Use background-fill to set the color inside the object and stroke or border to set the color of the border. 
 - The color cannot be changed with CSS.
 - Use fill or background to set the color inside the object and stroke to set the color of the border.
-- Use fill to se t the color inside the object and stroke to set the color of the border.
+- Use fill to se t the color inside the object and stroke to set the color of the border.  <<<<---Correct
 
 #### Q20. When using position: fixed, what will the element always be positioned relative to?
 - the closest element with position: relative
@@ -244,7 +244,7 @@ click is released.
 
 #### Q21. By default, a background image will repeat ________
 - only if the background-repeat property is set to repeat
-- indefinitely, vertically, and horizontally 
+- indefinitely, vertically, and horizontally  <<<<---Correct
 - indefinitely on the horizontal axis only 
 - once, on the x and y axis
 
@@ -255,7 +255,7 @@ click is released.
 - print, speech, device 
 
 #### Q23. How would you make the first letter of every paragraph on the page red?
-- p::first-letter { color: red; } 
+- p::first-letter { color: red; }  <<<<---Correct
 - p:first-letter { color: red; }
 - first-letter::p { color: red; }
 - first-letter:p { color: red; }
@@ -274,7 +274,7 @@ color: #000000;
 ```
 -
 ```
-"p" is the selector
+"p" is the selector      <<<<---Correct
 "color" is the property 
 "#000000" is the value
 ```
