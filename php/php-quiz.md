@@ -127,3 +127,142 @@ PHP Assessment
 - This script validates the username and password.
 - This script is on a page that requires the user to be logged in. It checks to see if the user has a valid session. //Correct
 
+Which is the correct format for adding a comment to a PHP script? 
+
+-all of these answers ////CORRECT
+-#This is a comment 
+- /* This is a comment / 
+- // This is a comment 
+
+
+PHP supports multiple types of loops. If you wanted to loop through a block of code if and as long a specified condition is true, which type of loop would you use? 
+
+ -for 
+ -do-while 
+ -while 
+ -foreach 
+ 
+ 
+ The ignore_user_abort( ) function sets whether a client disconnect should abort a script execution. In what scenario would you, as a web developer, use this function? 
+ -You would use it to stop a user from clicking the back button if they decide not to view as a result of a click.  //Maybe
+-You would use this function if you have some important processing to do and you do not want to stop it, even if your  users click Cancel. 
+ -You would use this function if you wanted to abort the script for all logged-in users, not just the one who disconnected. 
+ -You would use this function if you want a PHP script to run forever. 
+ 
+ The PHP function array_reduce() takes a callback function that accepts a value carried over each iteration and the current item in the array, and reduces an array to a single value. Which code sample will sum and output the values in the provided array? 
+MAYBE-```
+1 <?php 
+2 array_reduce([11 2, 5, 10, 11], function ($item, $carry) { 
+3 echo $carry + $item; 
+4 });
+5?>
+```
+-```
+1 <?php 
+2 echo array_reduce([11 2, 5, 10, 11], function ($item, $carry) { 
+3 $carry = $carry + $item; 
+4 });
+5?>
+```
+-```
+1 <?php 
+2 echo array_reduce([11 2, 5, 10, 11], function ($carry, $item) { 
+3 return $carry +: $item; 
+4 });
+5?>
+```
+-```
+1 <?php 
+2 echo array_reduce([11 2, 5, 10, 11], function ($carry, $item) { 
+3 return $carry o $item + $item; 
+4 });
+5?>
+```
+
+
+Which PHP script uses a constructor to display the string "Winter is almost over!"? 
+-```
+1 class MyClass { 
+2 public function _construct() 
+3 {  
+4 echo 'Winter is almost over!'."\n"; 
+5 } 
+6 }
+7 $userclass = new MyClass; 
+```
+-```
+1 class MyClass { 
+2 public function _construct() 
+3 ( 
+4 echo 'Winter is almost over!.."\n"; 
+5 } 
+6 }
+7 $userclass = new MyClass; 
+```
+-```
+1 class MyClass { 
+2 public function _construct() 0 3 { 4 echo 'Winter is almost over!.."\n"; 
+5 } 
+6 }
+7 $userclass = new MyClass;
+```
+-```
+1 class MyClass { 
+2 public function _construct() 
+3 { 
+4 echo 'Winter is almost over!'."n"; 
+5 } 
+6 }
+7 $userclass = MyClass; 
+```
+
+How might you troubleshoot a "call to undefined function" error? 
+
+- Make sure you have imported the file containing the function. 
+ -Make sure you have spelled the function name correctly. 
+ -all of these answers 
+ -Make sure the function declaration is at an earlier point in the code than the function call. 
+ 
+ Which line could you NOT use to comment out "Space: the final frontier"? 
+
+- /* Space: the final frontier */ 
+-*/ Space: the final frontier /* //Correct
+- # Space: the final frontier 
+-// Space: the final frontier 
+
+
+What displays in a browser when the following code is written? <?php echo "How much are the bananas?"?> 
+ -The browser would display nothing due to a syntax error.  //Maybe
+ -The browser would display an error, since there are no parentheses around the string. 
+ -The browser would display How much are the bananas? 
+ -The browser would display an error, since there is no semicolon at the end of the echo command. 
+
+
+Which operator would you use to find the remainder after division? 
+- /      ----Maybe
+-%
+-//
+- DIV 
+
+
+What is the significance of the three dots in this function signature? 
+```
+function process(...$vals) {
+        // do some processing
+ }
+```
+
+-It makes the function variadic, allowing it to accept as an argument an array containing an arbitrary number of values.  -----Maybe
+- It makes the function variadic, allowing it to accept an arbitrary number of arguments that are converted into an array inside the function. 
+-It temporarily disables the function while debugging other parts of the script. 
+-It's a placeholder like a TO DO reminder that automatically triggers a notice when you run a script before completing the  function definition. 
+
+
+Assuming the Horse class exists, which is a valid example of inheritance in PHP? 
+- class Pegasus extends Horse {} 
+- class Alicorn imports Pegasus, Unicorn {} //MAYBE
+- class Unicorn implements Horse {} 
+- class Horse inherits Unicorn {} 
+
+
+
