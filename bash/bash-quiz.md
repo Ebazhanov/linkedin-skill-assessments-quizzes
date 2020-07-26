@@ -284,3 +284,148 @@ esac
 - [ ] `$!`
 - [ ] `$@`
 
+#WARNING!
+Start from this question and to Q40 I have a lot of doubts about answers 
+because in real assessment I get these 12 question + 3 from Q1 to Q28,
+and I select other answers in Q29, Q31, Q32, Q35, Q36, Q37, Q39, Q40 and pass it
+#### Q29. What is the output of this script?
+
+```bash
+#!/bin/bash
+fname=john
+john=thomas
+echo ${!fname}
+```
+
+- [ ] `john`
+- [x] `thomas`
+- [ ] `Syntax error`
+- [ ] `blank`
+
+#### Q30. What will be the output of this script?
+
+![question](questionimages/Q30/question.jpg)
+
+- [ ] `A` ![A](questionimages/Q30/A.jpg)
+- [ ] `B` ![B](questionimages/Q30/B.jpg)
+- [x] `C` ![C](questionimages/Q30/C.jpg)
+- [ ] `D` ![D](questionimages/Q30/D.jpg)
+
+#### Q31. What is wrong with this script?
+
+```bash
+#!/bin/bash
+read -p "Enter your pet type." PET
+if [ $PET = dog ] ;then
+    echo "You have a dog"
+fi
+```
+
+- [ ] `If the value of PET doesn't match dog, the script will return a nonzero status code.`
+- [ ] `There is nothing wrong with it. The condition checks the value of PET perfectly.`
+- [x] `It will fail if the user hits the Enter (Return) key without entering a pet name when prompted.`
+- [ ] `The then statement needs to be on a separate line.`
+
+#### Q32. How can you gather history together for multiple terminals?
+
+- [ ] `It just works by default.`
+- [ ] `history --shared`
+- [ ] `history --combined`
+- [x] `shopt -s histappend`
+
+#### Q33. What is the difference between the $@ and $* variables?
+
+- [x] `$@ treats each quoted argument as a separate entity. $* treats the entire argument string as one entity.`
+- [ ] `$* treats each quoted argument as a separate entity. $@ treats the entire argument string as one entity.`
+- [ ] `$* is used to count the arguments passed to a script, $@ provides all arguments in one string.`
+- [ ] `$* is the wildcard that includes all arguments with word splitting, $@ holds the same data but in an array.`
+
+#### Q34. Which command is being run in this script to check if file.txt exists?
+
+```bash
+if [ -f file.txt ]; then
+    echo "file.txt exists"
+fi
+```
+
+- [ ] `/usr/bin/test`
+- [ ] `/usr/bin/[`
+- [x] `the built-in [ command`
+- [ ] `/usr/bin/[[`
+
+#### Q35. What will be the output of this script?
+
+```bash
+#!/bin/bash
+Linux=('Debian' 'Redhat' 'Ubuntu' 'Android' 'Fedora' 'Suse')
+x=3
+
+Linux=(${Linux[@]:0:$x} ${Linux[@]:$(($x + 1))})
+echo "${Linux[@]}"
+```
+
+- [ ] `Debian Redhat Ubuntu Android Fedora Suse`
+- [ ] `Android`
+- [ ] `Fedora Suse`
+- [x] `Debian Redhat Ubuntu Fedora Suse`
+
+#### Q36. Which file allows you to save modifications to the shell environment across sessions?
+
+- [ ] `/etc/bash.conf`
+- [x] `~/.profile`
+- [ ] `/etc/bashprofile`
+- [ ] `~/profile`
+
+#### Q37. Given the listed permissions on data.txt is it possible that user2 could have read, write, and execute permissions on data.txt?
+
+```bash
+$ ls -l
+total 0
+-rwx------+ 1 user1 user1 0 Oct 27 10:54 data.txt
+```
+
+- [ ] `No, it's clear that user2 does not have read, write, and execute permissions.`
+- [x] `Yes, the + at the end of the 10-digit permission string signifies there's an access control list. This could possibly give user2 permissions not visible by ls -l.`
+- [ ] `It's possible that SELinux provides read, write, and execute permissions for user2 which are not visible with ls -l.`
+- [ ] `Yes, the + at the end of the 10-digit permission string signifies there's an extended attribute set. This could give user2 permissions to read, write, and execute data.txt.`
+
+#### Q38. What does this script accomplish?
+
+```bash
+#!/bin/bash
+declare -A ARRAY=([user1]=bob [user2]=ted [user3]=sally)
+KEYS=(${!ARRAY[@]})
+
+for (( i=0; $i < ${#ARRAY[@]}; i+=1 ));do
+        echo ${KEYS[$i]} - ${ARRAY[${KEYS[$i]}]}
+done
+```
+
+- [ ] `It sorts the associative array named ARRAY and stores the results in an indexed array named KEYS. It then uses this sorted array to loop through the associative array ARRAY.`
+- [x] `Using a C-style for loop, it loops through the associative array named ARRAY using the associative array's keys and outputs both the key and values for each item.`
+- [ ] `It creates an indexed array of the associative array named ARRAY. It then uses a C-style for loop and the indexed array to loop through all items in the associative array, outputting the key and value of each array item using the index number.`
+- [ ] `It creates an associative array named ARRAY, which it loops through using a C-style for loop and the index numbers of each item in the associative array's keys, outputting the value of each item.`
+
+#### Q39. What file would match the code below?
+
+```bash
+ls Hello[[.vertical-line.]]World
+```
+It's matches also `Hello[[.vertical-line.]]World` file but if we have this and `Hello|World` file will always be matched last one
+
+- [ ] `Nothing, this is an invalid file glob.`
+- [ ] `Hello.vertical-line.World`
+- [ ] `Hello[[.vertical-line.]]World`
+- [x] `Hello|World`
+
+#### Q40. What will be in out.txt?
+
+```bash
+ls nonexistentfile | grep "No such file" > out.txt
+```
+
+- [ ] `No such file`
+- [ ] `ls: cannot access nonexistentfile: No such file or directory`
+- [x] `Nothing, out.txt will be empty.`
+- [ ] `It will be the contents of nonexistentfile.`
+
