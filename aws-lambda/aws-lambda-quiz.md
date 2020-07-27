@@ -162,3 +162,15 @@ AWS LAMBDA Assessment
 - Use a blueprint.  <<<<<------- CORRECT
 - Use a .zip deployment package.
 - Use the serverless app repository.
+
+#### Q28. Where is the disk space allocated for Lambda functions?
+- /tmp <<<<<------- CORRECT
+- /default
+- /temp
+- /ds
+
+#### Q29. How do you stop a running Lambda that is stuck in a recursive loop?
+- Delete the function.
+- Set the function concurrent execution limit to 0 while you update the code. <<<<<------- CORRECT
+- Reset the function.
+- Set the function concurrent execution limit to 100 while you update the code.
