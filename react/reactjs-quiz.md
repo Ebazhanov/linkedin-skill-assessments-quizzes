@@ -369,7 +369,8 @@ handleChange(e) {
 
 #### Q38. What is the name of this component?
 
-```class Clock extends React.Component {
+```
+class Clock extends React.Component {
    render() {
     return <h1>Look at the time: {time}</h1>;
    }
