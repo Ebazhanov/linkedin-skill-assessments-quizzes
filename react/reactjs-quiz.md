@@ -366,3 +366,33 @@ handleChange(e) {
 - a set value
 - a dynamic key <<<<<--CORRECT
 - a JSX code string
+
+#### Q38. What is the name of this component?
+
+```class Clock extends React.Component {
+   render() {
+    return <h1>Look at the time: {time}</h1>;
+   }
+  }
+```
+
+- Clock
+- It does not have a name prop.
+- React.Component
+- Component
+
+#### Q39. What is sent to an Array.map() function?
+
+- a callback function that is called once for each element in the array
+- the name of another array to iterate over
+- the number of times you want to call the function
+- a string describing what the function should do
+
+
+#### Q40. Why is it a good idea to pass a function to setState instead of an object?
+
+- It is more functional than an object
+- It makes sure that the object is not mutated
+- It automatically updates a component
+- setState is asynchronous and might result in out of sync values.
+
