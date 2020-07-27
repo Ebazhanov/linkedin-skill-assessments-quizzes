@@ -144,10 +144,10 @@ PHP supports multiple types of loops. If you wanted to loop through a block of c
  
  
  The ignore_user_abort( ) function sets whether a client disconnect should abort a script execution. In what scenario would you, as a web developer, use this function? 
- -You would use it to stop a user from clicking the back button if they decide not to view as a result of a click.  //Maybe
+-You would use it to stop a user from clicking the back button if they decide not to view as a result of a click.  //Maybe
 -You would use this function if you have some important processing to do and you do not want to stop it, even if your  users click Cancel. 
- -You would use this function if you wanted to abort the script for all logged-in users, not just the one who disconnected. 
- -You would use this function if you want a PHP script to run forever. 
+-You would use this function if you wanted to abort the script for all logged-in users, not just the one who disconnected. 
+-You would use this function if you want a PHP script to run forever. 
  
  The PHP function array_reduce() takes a callback function that accepts a value carried over each iteration and the current item in the array, and reduces an array to a single value. Which code sample will sum and output the values in the provided array? 
 MAYBE-```
@@ -219,9 +219,9 @@ Which PHP script uses a constructor to display the string "Winter is almost over
 How might you troubleshoot a "call to undefined function" error? 
 
 - Make sure you have imported the file containing the function. 
- -Make sure you have spelled the function name correctly. 
- -all of these answers 
- -Make sure the function declaration is at an earlier point in the code than the function call. 
+-Make sure you have spelled the function name correctly. 
+-all of these answers 
+-Make sure the function declaration is at an earlier point in the code than the function call. 
  
  Which line could you NOT use to comment out "Space: the final frontier"? 
 
