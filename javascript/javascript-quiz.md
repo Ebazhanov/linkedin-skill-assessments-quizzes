@@ -201,11 +201,11 @@ a[100] = 'fox';
 - 4
 - 100
 
-#### Q22. What is one differance between collections created with Map and collections created with Object?
-- You can iterate over values in a Map in their insertion order.
-- You can count the records in a Map with a single method call.
-- Keys in Maps can be strings.
-- You can access values in a Map without iterating over the whole collection.
+#### Q22. What is one difference between collections created with Map and collections created with Object?
+- You can iterate over values in a Map in their insertion order. (Correct. Map.prototype.forEach(callbackFn[, thisArg]))
+- You can count the records in a Map with a single method call. (Correct. Map.prototype.size)
+- Keys in Maps can be strings. (Correct)
+- You can access values in a Map without iterating over the whole collection. (Correct. Map.prototype.get(key))
 
 #### Q23. Which property references the DOM object that dispatched an event?
 - source
@@ -369,3 +369,10 @@ f2()
 - You are calling a method named reduce on an object that does not exist. <<<<----Correct
 - You are calling a method named reduce on an empty array.
 - You are calling a method named reduce on an object that's has a null value.
+
+#### Q44. How many prototype objects are in the chain for the following array?
+let arr = [];
+- 3
+- 2
+- 0 <<<<----Correct
+- 1
