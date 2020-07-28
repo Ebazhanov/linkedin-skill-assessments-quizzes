@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-49-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-50-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -106,6 +106,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/sadhac"><img src="https://avatars2.githubusercontent.com/u/35103750?v=4" width="100px;" alt=""/><br /><sub><b>Sadha</b></sub></a><br /><a href="#design-sadhac" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/tainenko"><img src="https://avatars0.githubusercontent.com/u/31752048?v=4" width="100px;" alt=""/><br /><sub><b>tainenko</b></sub></a><br /><a href="#design-tainenko" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/github-star-coder"><img src="https://avatars2.githubusercontent.com/u/68719147?v=4" width="100px;" alt=""/><br /><sub><b>github-star-coder</b></sub></a><br /><a href="#design-github-star-coder" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/danilotecoliveira"><img src="https://avatars3.githubusercontent.com/u/8810413?v=4" width="100px;" alt=""/><br /><sub><b>Danilo Oliveira</b></sub></a><br /><a href="#design-danilotecoliveira" title="Design">🎨</a></td>
   </tr>
 </table>
 
