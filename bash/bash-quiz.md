@@ -429,3 +429,69 @@ ls nonexistentfile | grep "No such file" > out.txt
 - [x] `Nothing, out.txt will be empty.`
 - [ ] `It will be the contents of nonexistentfile.`
 
+#### Q41. For the script to print "Is numeric" on screen, what would the user have to enter when prompted?
+
+```bash
+#!/bin/bash
+read -p "Enter text " var
+if [[ "$var" =~ "^[0-9]+$" ]];then
+    echo "Is numeric"
+else
+    echo "Is not numeric"
+fi
+```
+- [x] Any sequence of characters that includes an integer
+- [ ] The user would have to enter the character sequence of ^[0-9]]+$ Only this will prove to be true and "Is numeric" would be printed on the screen due to incorrect syntax. By encapsulating the regular expression in double quotes every match will fail except the text string ^[0-9]+$
+- [ ] One or more characters that only includes integers
+- [ ] Due to a syntax error it is impossible to get the script to print "Is numeric"
+
+#### Q42. What will be the difference between the output on hte screen and the contents of out.txt
+
+```bash
+mysql < file.sql > out.txt
+```
+
+- [ ] The output on the screen will be identical to out.txt
+- [x] There will be no output on the screen as it's being redirected to out.txt.
+- [ ] The output on the screen will be identical to out.txt plus line numbers. 
+- [ ] The out.txt file will hold STDERR and STDOUT will go to the screen.
+
+#### Q43. How would you find the last copy command run in your history?
+
+- [ ] history | find cp
+- [x] history | grep cp
+- [ ] grep cp history
+- [ ] cp history
+
+#### Q44. In order to write a script that iterates through the files in a directory, which of the following could you use?
+
+- [ ] ```bash for i in $(ls); do ... done```
+- [ ] ```bash for $(ls); do ... done```
+- [x] ```bash for i in $ls; do ... done```
+- [ ] ```bash for $ls; do ... done```
+
+#### Q45 When executing a command and passing the output of that command to another command, which character allows you to chain these commands together?
+
+- [x] |
+- [ ] ->
+- [ ] \#
+- [ ] @
+
+#### Q46. In the script shown below, what is **greeting**?
+
+```bash
+<em>#!/usr/bin/env bash</em>
+greeting="Hello"
+echo $greeting, everybody!
+```
+
+- [ ] a command
+- [ ] a loop
+- [ ] a parameter
+- [x] a vairable
+
+
+
+
+
+

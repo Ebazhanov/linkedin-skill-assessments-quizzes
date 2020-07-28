@@ -323,4 +323,71 @@ color: #000000;
 - color: #000000
 - color: 000000 <<<<---Correct
 
+#### Q30. What is the vertical gap between the two elements below?
+```css
+<div style="margin-bottom: 2rem;">Div 1</div>
+<div style="margin-top: 2rem;">Div 2</div>
+```
+- 2rem
+- 32px
+- 64px
+- 4rem <<<<---Correct
+
+#### Q31. When using the Flexbox method, what property and value is used to display flex items in a column?
+- flex-flow: column; or flex-direction: column <<<<---Correct
+- flex-flow: column;
+- flex-column: auto;
+- flex-direction: column;
+
+#### Q32. Which type of declaration will take precedence?
+- any declarations in user-agent stylesheets <<<<---Correct
+- important declarations in user stylesheets
+- normal declarations in author stylesheets
+- important declarations in author stylesheets
+
+#### Q33. The flex-direction property is used to specify the direction that flex items are displayed. What are the values used to specify the direction of the items in the folowing examples?
+- Example 1: flex-direction: row;
+Example 2; flex-direction: row-reverse;
+Example 3: flex-direction: column;
+Example 4: flex-direction: column-reverse;   <<<<---Correct
+- Example 1: flex-direction: row-reverse;
+Example 2; flex-direction: row;
+Example 3: flex-direction: column-reverse;
+Example 4: flex-direction: column;
+- Example 1: flex-direction: row;
+Example 2; flex-direction: row-reverse;
+Example 3: flex-direction: column;
+Example 4: flex-direction: reverse-column;
+- Example 1: flex-direction: column;
+Example 2; flex-direction: column-reverse;
+Example 3: flex-direction: row;
+Example 4: flex-direction: row-reverse;
+
+#### Q34. There are two sibling combinators that can be used to select elements contained within the same parent element; the general sibling combinator (~) and the adjacent sibling combinator (+). Referring to esample below, which elements will the styles be applied to?
+```css
+h2 ~ p {
+    color: blue;
+}
+h2 + p {
+    background: beige;
+}
+```
+```html
+<section>
+    <p>paragraph 1</p>
+    <h2>Heading</h2>
+    <p>paragraph 2</p>
+    <p>paragraph 3</p>
+</section>
+```
+- Paragraphs 2 and 3 will be blue. The h2 and paragraph 2 will have a beige background.
+- Paragraphs 1, 2, and 3 will be blue, and paragraph 2 will have a beige background.   <<<<---Correct
+- Paragraphs 2 and 3 will be blue. Paragraph 2 will have a beige background.
+- Paragraph 2 will be blue. Paragraphs 2 and 3 will have a beige background.
+
+#### Q35. When using flexbox, the "justify-content" property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
+- justify-content: space-around;
+- justify-content: center;
+- justify-content: auto;
+- justify-content: space-between;   <<<<---Correct
 
