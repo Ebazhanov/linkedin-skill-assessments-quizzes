@@ -391,3 +391,8 @@ h2 + p {
 - justify-content: auto;
 - justify-content: space-between;   <<<<---Correct
 
+#### Q36. There are many advantages to using icon fonts. What is one of those advantages?
+- Icon fonts increase accessibility.
+- Icon fonts can be used to replace custom fonts.
+- Icon fonts can be styled with typography related properties such as font-size and color. <<<<---Correct
+- Icon fonts are also web safe fonts.
