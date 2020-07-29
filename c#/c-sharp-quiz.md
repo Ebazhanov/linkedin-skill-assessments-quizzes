@@ -124,3 +124,71 @@ private static object objA;
 - a Boolean
 - a string variable
 - an integer
+
+#### What is the correct syntaxe for a new generic list of strings named contacts?
+- public List<string names> contacts = new List<string names>();
+- public List(string names) contacts = new List(string names)();
+- **var contacts = new List<string>();** <= Correct
+- var contacts = new List(string);
+
+#### What is the difference between throw exceptions and throw clauses?
+- Throw clauses fire only at rentime, while throw exceptions can fire at any time.
+- **Throw exceptions overwrite the stack trace, while throw clauses retain the stack information.** <= Correct
+- Throw clauses overwrite the stack trace, while throw exceptions retain the stack information.
+- Throw exceptions fire only at runtime, while throw clauses can fire during compile time.
+
+#### When an asynchronous method is executed, the code runs but nothing happens other than a compiler warning. What is most likely causing the method to not return anything?
+- The return yield statement is missing at the end of the method.
+- **The method is missing an await keyword in its body.** <= Not sure
+- The wait keyword is missing from the end of the method.
+- The yield keyword is missing from the method.
+
+#### What are C# events?
+- system actions that communicate directly with the compiler at runtime
+- actions that execute when the code compiles, generating logs and test output
+- **actions that generate notifications, which are sent to their registered listeners** <= Correct
+- user-only methods that send data to the application's back end
+
+#### What kind of values can arrays store?
+- unordered collections of numerc values
+- key-value pairs of any C# supported type
+- class and struct instances
+- **multiple variables, or collections, of the same type** <= Correct
+
+#### Given this enumeration, how would you access the integer-type value of 'AppState.Loading'?
+`enum AppState { OffLine, Loading, Ready }`
+- string currentState = (string)AppState.Loading;
+- string currentState = AppState.Loading.integralVal;
+- int currentState = AppState.Loading.rawValue;
+- **int currentState = (int)AppState.Loading;** <= Correct
+
+#### What character would you use to start a regular expression pattern at a word boundary?
+- d
+- \a
+- \b
+- **\w** <= Correct
+
+#### To conform to the following interface, which of its members need to be implemented?
+```
+public interface INameble
+{
+    string firstName { get; set; }
+    string lastName { get; }
+}
+```
+- **Both the firstName and lastName properties need to be implemented.** <= Correct
+- Neither, they are both optional.
+- Only the LastName property needs to be implemented.
+- Only the FirstName property needs to be implemented.
+
+#### You're dealing with multiple assemblies in your program, but are worried about memory allocation. At what point in the program life cycle are assemblies loaded into memory?
+- **at runtime** <= Not sure
+- at compile time
+- only when required
+- only when programmatically loaded
+
+#### What is most accurate description of a regular expression?
+- A regular expression is a C# tool used to parse HTML
+- **A regular expression is a special text string for describint a search patters.** <= Not sure
+- A regular expressions allows a variable to be passed by reference.
+- A regular expression allows a class to conform to the Equatable protocol.
