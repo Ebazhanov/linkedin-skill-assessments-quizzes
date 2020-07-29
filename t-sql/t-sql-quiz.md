@@ -186,3 +186,30 @@ def' AS Result;
 - [x] 20
 - [ ] 0
 - [ ] 9
+
+#### Q22. You need to write a query that returns all products that have a SerialNumber ending with "10_3". Which WHERE clause should you use to fill in the blank in this query?
+
+```
+SELECT ProductID, ProductName, SerialNumber
+FROM Products
+______ ;
+```
+
+- [x] `WHERE SerialNumer LIKE '%10_3'`
+- [ ] `WHERE SerialNumer LIKE ('%10'+'_'+'3')`
+- [ ] `WHERE SerialNumer LIKE '%10"_"3'`
+- [ ] `WHERE SerialNumer LIKE '%10[_]3'`
+
+#### Q23. When no join type between multiple tables in a query's FROM clause is specified, what type of join is assumed?
+
+- [x] INNER
+- [ ] RIGHT
+- [ ] LEFT
+- [ ] FULL
+
+#### Q24. How many bytes of storage does the int data type consume?
+
+- [ ] 1 byte
+- [ ] 2 bytes
+- [x] 4 bytes
+- [ ] 8 bytes
