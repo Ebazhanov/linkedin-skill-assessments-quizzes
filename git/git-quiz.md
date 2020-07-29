@@ -310,3 +310,32 @@ git rm --cached testfile.js
 - [ ] The commit hash is missing. 
 - [ ] The filepath isn't specified.
 
+#### Q39. What commands would you use to force an overwrite of your local files with the master branch?
+
+- [ ] Option 1
+
+```git
+git pull --all
+git reset --hard origin/master
+```
+
+- [ ] Option 2
+
+```git
+git pull -u origin master
+git reset --hard master
+```
+
+- [ ] Option 3
+
+```git
+git pull origin master
+git reset --hard origin/myCurrentBranch
+```
+
+- [ ] Option 4
+
+```git
+git fetch --all
+git reset --hard origin/master
+```
