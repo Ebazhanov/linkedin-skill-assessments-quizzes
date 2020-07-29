@@ -91,28 +91,28 @@ MongoDB Assessment
 - It holds a backup copy of the database.
 - It reboots the failed server.
 
-Q16. You would like to know how many types of items you have in each category. Which query does this?
+#### Q16. You would like to know how many types of items you have in each category. Which query does this?
 
 	1. db.product.group({_id: "$category", count: {$sum:1}})
 	2. db.product.aggregate($sum: {_id: "$category", count: {$group:1}}})
 	3. db.product.aggregate($group: {_id: "$category", count: {$sum:1}}})    <<<<<--CORRECT
 	4. db.product.aggregate($count: {_id: "$category", count: {$group:1}}})
 
-Q17. To restrict the number of records coming back from a query, which command should you use? 
+#### Q17. To restrict the number of records coming back from a query, which command should you use? 
 	
 	1. take
 	2. limit    <<<<<--CORRECT
 	3. max
 	4. skip
 	
-Q18. We have a collection named restaurants with the geographical information stored in the location property, how do you create a geospatial index on it?
+#### Q18. We have a collection named restaurants with the geographical information stored in the location property, how do you create a geospatial index on it?
 	
 	1. db.restaurants.CreateIndex({location: "2dsphere"}) <<<<<--CORRECT
 	2. db.restaurants.geospatial({location: "2dsphere"})
 	3. db.restaurants.CreateIndex("2dsphere":"location")
 	4. db.restaurants.CreateIndex({geospatial: "location"})
 	
-Q19. How do you find documents with a matching item in an embedded array?
+#### Q19. How do you find documents with a matching item in an embedded array?
 	
 	1. db.customers.findmatch ({"jobs":"secretary"}) 
 	2. db.customers.find ({"jobs:secretary"})
@@ -120,14 +120,14 @@ Q19. How do you find documents with a matching item in an embedded array?
 	4. db.customers.find ({"jobs":"secretary"}) <<<<<--CORRECT
 	
 	
-Q20. Which query bypasses the first 5 customers and returns the next 10?
+#### Q20. Which query bypasses the first 5 customers and returns the next 10?
 	
 	1. db.customers.find({}, {skip: 5, limit: 10})
 	2. db.customers.find({}.page(5).take(10)
 	3. db.customers.find({}).skip(5).take(10)
 	4. db.customers.find({}).skip(5).limit(10) <<<<<--CORRECT
 	
-Q21. How do you create a text index?
+#### Q21. How do you create a text index?
 	
 	1. db.customers.createIndex({firstName, lastName})
 	2. db.customers.createTextIndex({firstName, lastName})
@@ -135,31 +135,30 @@ Q21. How do you create a text index?
 	4. db.customers.createText({firstName: 1, lastName: 1}) 
 	
 	
-Q22. Assuming you have customers collection with a firstName and lastName field, which is the correct MongoDB shell command to create an index on lastName, then firstName both ascending?
+#### Q22. Assuming you have customers collection with a firstName and lastName field, which is the correct MongoDB shell command to create an index on lastName, then firstName both ascending?
 	
 	1. db.customers.createIndex("lastName, firstName, ASC")
 	2. db.customers.addIndex({lastName:"ASC", firstName: "ASC"})
 	3. db.customers.newIndex({lastName:1, firstName:1})
 	4. db.customers.createText({lastName: 1, firstName: 1})     <<<<<--CORRECT 
 	
-Q23. One of the documents in your collection has an _ id based upon an older database design and you want to change it. You write an update command to find the document and replace the _ id but the _ id isnt changed. How should you fix the issue?
+#### Q23. One of the documents in your collection has an _ id based upon an older database design and you want to change it. You write an update command to find the document and replace the _ id but the _ id isnt changed. How should you fix the issue?
 	
 	1. Set the replace option to true.
 	2. Use the replaceOne() command instead.
 	3. You cant. Once set the _ id field cannot be changed.  <<<<<--CORRECT
 	4. Use the updateOne() command instead.
 	
-Q24. A compound index allows you to ___ ?
+#### Q24. A compound index allows you to ___ ?
 	
 	1. Calculate interest quickly.
 	2. Accomplish nothing, since compound indexes arent allowed in Mongo.
 	3. Use more than one field per index.
 	4. Combine fields in different collations.    <<<<<--CORRECT
 	
-Q25. Why are ad-hoc queries useful?
+#### Q25. Why are ad-hoc queries useful?
 	
 	1. They do not have to use the same operators.
 	2. You do not need to structure the database to support them.
 	3. They autogenerate reports.
 	4. They run faster than indexed queries.    <<<<<--CORRECT
-
