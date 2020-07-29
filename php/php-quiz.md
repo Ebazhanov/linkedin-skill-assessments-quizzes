@@ -239,8 +239,8 @@ What displays in a browser when the following code is written? <?php echo "How m
 
 
 Which operator would you use to find the remainder after division? 
-- /      ----Maybe
--%
+- /      
+-%    //Correct
 -//
 - DIV 
 
