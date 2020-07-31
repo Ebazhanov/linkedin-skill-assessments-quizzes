@@ -187,7 +187,7 @@ git cherry-pick {123safd23e}
 
 #### Q24. You find that your project has a tag and branch both named push-notifications, which causes confusion when trying to print out given reference. How can you specify which branch you want to look at?
 
-- [ ] use git  show ref/push-notifications
+- [ ] use git show ref/push-notifications
 - [ ] use git show push-notifications
 - [x] use git show head/refs/push-notifications <<--chose thise one not sure though!
 - [ ] use git show refs/head/push-notifications
