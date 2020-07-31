@@ -206,7 +206,7 @@
 
 #### Q30. How can you quickly move an insertion point to the start of the previous paragraph?
 
-- [x] Ctrl + Up arrow
+- [x] Ctrl + Up Arrow
 - [ ] Ctrl + Page Up
-- [ ] Alt + Ctrl + Page Up
+- [ ] Alt + Ctrl + Up Arrow
 - [ ] Alt + Ctrl + Page Up

@@ -112,7 +112,7 @@ Disallow: /
 - Microsoft + .pdf
 - "Microsoft" + "pdf"
 - Microsoft AND "pdf"
-- Microsoft filetype:pdf
+- Microsoft filetype:pdf ------------------------------------ Correct
 
 #### Q17. Which link is not crawlable?
 -`<a href="http://domain.com">`
@@ -147,7 +147,8 @@ H3: Dry Ingredients
 H3: Wet Ingredients
 H2: Instructions
 H2: Reviews
-```
+``` 
+------------------------------------ Correct
 -
 ```markdown
 H1: How to Bak Bagels
@@ -192,7 +193,7 @@ Disallow: *
 - autocomplete
 
 #### Q22. When creating accessible video content, what should you consider including?
-- transcript
+- transcript------------------------------------ Correct
 - thumbnail
 - Flash Player
 - event tracking
@@ -234,7 +235,7 @@ Disallow: *
 - focusing on only high-volume, high-popularity words
 
 #### Q29. You want to get a rough idea of how many searches per month a particular search term gets. Which tool do you use?
-- Google Keyword Planner
+- Google Keyword Planner------------------------------------ Correct
 - Google Tag Manager
 - Google Search Console
 - Google Suggest

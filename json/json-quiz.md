@@ -133,3 +133,46 @@ Q16. Which JavaScript method converts a Json to JavaScript value?
 - JSON.stringify()
 - JSON.toString()
 - JSON.objectify()
+
+Q17. Transferring JSON information from client to server and back again often includes HTTP requests. Match each method with the best choice describing its use.
+
+    1.Sends data to spesific server to create or update information.
+
+    2.Sends data to spesific server to create or update information without the risk of creating the resource more than once.
+
+    3.Previews what the GET request response might be without the body of the text.
+
+    4.Learns the communication channels used by the target source.
+
+    5.Requests information from a spesific source.
+
+    6.Removes information.
+
+
+- 1.POST
+  2.DELETE
+  3.OPTIONS
+  4.HEADER
+  5.GET
+  6.PUT
+ 
+- 1.POST
+  2.PUT
+  3.HEADER
+  4.OPTIONS
+  5.GET
+  6.DELETE
+ 
+- 1.POST
+  2.DELETE
+  3.OPTIONS
+  4.HEADER
+  5.GET
+  6.PUT
+ 
+- 1.POST
+  2.PUT
+  3.HEADER
+  4.OPTIONS
+  5.GET
+  6.DELETE <<<<----Correct

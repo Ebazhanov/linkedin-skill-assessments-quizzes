@@ -6,6 +6,9 @@
 ## When I want to create PR request
 - Any changes or new questions even without an answer can be a great help! Please do not hesitate to create any new PR, as we do not have a strict requirements for that matter. 
 
+## If you have troubles with creating Pull Request 
+- read discussion here [/pull/151](https://github.com/Ebazhanov/in-quiz-questions/pull/151)
+
 ## If I found something weird or incorrect, what should I do?
 - You can create a PR to your liking and add any improvements, so we can quickly  merge it
 
