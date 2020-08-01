@@ -480,7 +480,6 @@ def sum(a, b):
     return a + b
 ```
 - [ ] `-`
-
 ```
 def sum(a, b):
     '''
@@ -490,3 +489,84 @@ def sum(a, b):
     '''
     return a + b
 ```
+
+#### Q41. Suppose a Game class inherits from two parent classes: BoardGame and LogicGame. Which statement is true about the methods of an object instantiated from the Game class?
+- [ ] `When instantiating an object, the object doesn't inherit any of the parent class's methods.`
+- [ ] `When instantiating an object, the object will inherit the methods of whichever parent class has more methods.`
+- [ ] `When instantiating an object, the programmer must specify which parent class to inherit methods from.`
+- [x] `An instance of the Game class will inherit whatever methods the BoardGame and LogicGame classes have.`
+
+#### Q42. What does calling namedtuple on a collection type return?
+- [ ] `a generic object class with iterable parameter fields`
+- [ ] `a generic object class with non-iterable named fields`
+- [ ] `a tuple subclass with non-iterable parameter fields`
+- [x] `a tuple subclass with iterable named fields`
+
+#### Q43. What symbol(s) do you use to assess equality between two elements?
+- [ ] `&&`
+- [ ] `=`
+- [x] `==`
+- [ ] `||`
+
+#### Q44. Review the code below. What is the correct syntax for changing the price to 1.5?
+fruit_info = {
+'fruit': 'apple',
+ 'count': 2,
+ 'price': 3.5
+}
+- [x] `fruit_info ['price'] = 1.5`
+- [ ] `my_list [3.5] = 1.5`
+- [ ] `1.5 = fruit_info ['price]`
+- [ ] `my_list['price'] == 1.5`
+
+#### Q45. What value would be returned by this check for equality?
+5!=6
+- [ ] `yes`
+- [ ] `False`
+- [x] `True`
+- [ ] `None`
+
+#### Q46. What does a class's __init__() method do?
+- [ ] `The __init_method makes classes aware of each other if more than one class is defined in a single code file.`
+- [ ] `The _init_method is included to preserve backwards compatibility from Python 3 to Python 2, but no longer needs to be used in Python 3.`
+- [x] `The __init__() method is a constructor method that is called automatically whenever a new object is created from a class. It sets the initial state of a new object.`
+- [ ] `The __init__ method initializes any imports you may have included at the top of your file.`
+
+#### Q47. What is meant by the phrase "space complexity"?
+- [ ] `How many microprocessors it would take to run your code in less than one second`
+- [ ] `How many lines of code are in your code file`
+- [x] `The amount of space taken up in memory as a function of the input size`
+- [ ] `How many copies of the code file could fit in 1 GB of memory`
+
+#### Q48. What is the correct syntax for creating a variable that is bound to a dictionary?
+- [x] `fruit_info = {'fruit': 'apple', 'count': 2, 'price': 3.5}`
+- [ ] `fruit_info =('fruit': 'apple', 'count': 2,'price': 3.5 ).dict()`
+- [ ] `fruit_info = ['fruit': 'apple', 'count': 2,'price': 3.5 ].dict()`
+- [ ] `fruit_info = to_dict('fruit': 'apple', 'count': 2, 'price': 3.5)`
+
+#### Q49. What is the proper way to write a list comprehension that represents all the keys in this dictionary?
+fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
+
+- [ ] `fruit_names = [x in fruits.keys() for x]`
+- [ ] `fruit_names = for x in fruits.keys() *`
+- [x] `fruit_names = [x for x in fruits.keys(]`
+- [ ] `fruit_names = x for x in fruits.keys()`
+
+#### Q50. What is the algorithmic paradigm of quick sort?
+- [ ] `backtracking`
+- [x] `divide and conquer`
+- [ ] `dynamic programming`
+- [ ] `decrease and conquer`
+
+#### Q51. What is the purpose of the self keyword when defining or calling methods on an instance of an object?
+- [x] `self refers to the class that was inherited from to create the object using self.`
+- [ ] `There is no real purpose for the self method. It's just legacy computer science jargon that Python keeps to stay consistent with other programming languages.`
+- [ ] `self means that no other arguments are required to be passed into the method.`
+- [ ] `self refers to the instance whose method was called.`
+
+#### Q52. What is a class method?
+- [ ] `A class method is a regular function that belongs to a class, but it must return None.`
+- [ ] `Class methods can modify the state of the class, but they can't directly modify the state of an instance that inherits from that class.`
+- [ ] `A class method is similar to a regular function, but a class method doesn't take any arguments.`
+- [ ] `Class methods hold all of the data for a particular class.`
+
