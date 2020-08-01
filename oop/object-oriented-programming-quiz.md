@@ -138,3 +138,9 @@ Association is whole/part relationship where one object is composed of one or mo
 - Abstraction is using public member functions to access and manipulate the data members **<<-- correct
 - Abstraction is using the class concept with both data members and member functions
 - There is insufficient information to decide where abstraction is being used.
+
+#### Q24. What are the five Creational Design patterns by the Gang of Four ?
+- Observer, State, Strategy, Template Method, and Visitor.
+- Composite, Visitor, State, Prototype, and Singleton.
+- Composite, Builder, Factory Method, Prototype, and Singleton.
+- Abstract Factory, Builder, Factory Method, Prototype, and Singleton. <<-- correct
