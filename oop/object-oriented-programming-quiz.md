@@ -92,16 +92,16 @@ Object-Oriented Programming (OOP) Assessment
 - Inheritance means that you will never have multiple classes that can be used interchangeably, even though each class implements the same properties or methods in different ways.
 
 #### Q16 Which type of inheritance ,when done continuously, is similar to a tree structure?
--multilevel
--hierarchical and multiple
--hierarchical **<<--correct 
--multiple
+- multilevel
+- hierarchical and multiple
+- hierarchical **<<--correct 
+- multiple
 
 #### Q17. Which statement is true?
 - A default parameter's constructor is not equivalent to the default constructor
 - A default constructor is inherited from a parent class
 - A default constructor can be called explicitly
--**A default constructor cannot be defined by the coder** <<-- correct
+- **A default constructor cannot be defined by the coder** <<-- correct
 
 #### Q18. Which of the following is NOT an advantage of using getters and setters?
 - Getters and setters can speed up compilation.
@@ -116,26 +116,26 @@ Association is whole/part relationship where one object is composed of one or mo
 - Association is where all objects have their own life cycle, but there is ownerhip, and child objects can not belong to another parent object.
 
 #### Q20. How are user stories different from use cases?
-- User Stories are shorter and less detailed.
+- **User Stories are shorter and less detailed.** <<-- correct
 - User stories are more accurate.
-- User stories are more detailed and structured. <<--- picked this one, again not sure
+- User stories are more detailed and structured.
 - User storised are more anecdotal and personal.
 
 #### Q21. Which type of inheritance must be used so that the resultant is hybrid?
 - multiple
 - any type of inheritance
-- multilevel  <<--- picked this one, 
+- **multilevel**  <<--- picked this one, 
 - hierarchical
 
 #### Q22. A language that does not support polymorphism but supports classes is considered what?
-- an object-based language <<--- picked this one
+- **an object-based language** <<--- picked this one
 - a class-based language
 - a procedure-oriented language
 - if classes are supported, polymorphism will be supported
 
 #### Q23. If two classes combine some private data members and provides public member functions to access and manipulate those data members. Where is abstraction used?
 - Abstraction is using a private access specifier for data members
-- Abstraction is using public member functions to access and manipulate the data members **<<-- correct
+- **Abstraction is using public member functions to access and manipulate the data members** <<-- correct
 - Abstraction is using the class concept with both data members and member functions
 - There is insufficient information to decide where abstraction is being used.
 
@@ -143,4 +143,4 @@ Association is whole/part relationship where one object is composed of one or mo
 - Observer, State, Strategy, Template Method, and Visitor.
 - Composite, Visitor, State, Prototype, and Singleton.
 - Composite, Builder, Factory Method, Prototype, and Singleton.
-- Abstract Factory, Builder, Factory Method, Prototype, and Singleton. <<-- correct
+- **Abstract Factory, Builder, Factory Method, Prototype, and Singleton.** <<-- correct
