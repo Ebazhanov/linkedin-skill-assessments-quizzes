@@ -1,5 +1,4 @@
-Agile Methodologies Assessment
----------------------
+## Agile Methodologies Assessment
 
 #### Q1. Teams may encounter the need for "technical" user stories. Who decides the priority of these?
 - [ ] the Product Owner with help from Operations
@@ -200,3 +199,8 @@ Agile Methodologies Assessment
 - [x] Burndown charts are more useful than burnup charts.
 - [ ] Agile project management tools can produce these automatically.
 
+#### Q34. What is the name for the practice of going to see a process in use at the point of value delivery?
+- [ ] Six Sigma
+- [ ] Gemba walk
+- [ ] Total Quality Management
+- [ ] Kaizen
