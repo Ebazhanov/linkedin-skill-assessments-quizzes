@@ -445,6 +445,7 @@ self.my_game.roll_dice()
 my_game = Game(self)
 my_game.roll_dice(self)
 ```
+
 #### Q40. Correct representation of doctest for function in Python
 - [ ] `-`
 ```
@@ -568,3 +569,4 @@ fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
 - [ ] `Class methods can modify the state of the class, but they can't directly modify the state of an instance that inherits from that class.`
 - [ ] `A class method is similar to a regular function, but a class method doesn't take any arguments.`
 - [ ] `Class methods hold all of the data for a particular class.`
+
