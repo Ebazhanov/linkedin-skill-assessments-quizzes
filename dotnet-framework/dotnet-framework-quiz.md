@@ -211,7 +211,7 @@
 
  - y = (int)thisObject;
  - int y = 3; 
- - y = (int)thisObject.;3; 
+ - y = (int)thisObject=;3; 
 
  - object thisObject = y; 
 
@@ -233,7 +233,7 @@
 
  - All.System.Caching; 
 
- - System.Runtime.Caching; 
+ - System.Runtime.Caching; <-----CORRECT
 
  - System.Compiler.Caching; 
  
