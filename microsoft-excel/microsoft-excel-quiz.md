@@ -306,4 +306,3 @@ Chiquita Walsh  $684,760.00
 - [ ] =MAX(H2:H30)
 - [ ] =LARGE (H2:H30, 29)
 - [ ] =UPPER(H2:H30,1)
-
