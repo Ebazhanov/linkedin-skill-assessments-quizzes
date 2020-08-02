@@ -174,3 +174,94 @@ AWS LAMBDA Assessment
 - [x] `Set the function concurrent execution limit to 0 while you update the code.`
 - [ ] `Reset the function.`
 - [ ] `Set the function concurrent execution limit to 100 while you update the code.`
+
+#### Q30. What is AWS best practice for Lambda configuration?
+- [ ] Overprovision memory to run your functions faster and reduce your costs. Do not overprovision your function timeout settings.
+- [ ] Overprovision memory and your function timeout settings to run your functions faster and reduce your costs.
+- [ ] Do not overprovision memory. Overprovision your function timeout settings to run your functions faster and reduce costs.
+- [ ] Do not overprovision memory. Do not overprovision your function timeout settings to run your functions faster and reduce costs.
+
+
+#### Q31. Basic Lambda permissions include permissions for what?
+- [ ] removing log groups
+- [ ] none of these answers
+- [ ] creating log groups
+- [ ] updating log groups
+
+
+#### Q32. How are environment variables stored?
+- [ ] DynamoDB tables
+- [ ] key-value pairs
+- [ ] S3 buckets
+- [ ] none of these answers
+
+
+#### Q33. You need to use a Lambda to provide backend logic to your website. Which service do you use to make your Lambda available to your website?
+- [ ]  S3
+- [ ]  API Gateway
+- [ ] X-Ray
+- [ ] DynamoDB
+
+
+#### Q34. How can additional code or content be provided for your Lambda?
+- [ ] aliases
+- [ ]  blocks
+- [ ] handlers
+- [ ] layers
+
+
+#### Q35. Lambdas allow for running of what other things?
+- [ ] binaries
+- [ ] executables
+- [ ] all of these answers
+- [ ] shell scripts
+
+
+#### Q36. You need to use a Lambda to provide backend logic to your website. Which service do you use to make your Lambda available to your website?
+- [ ] OX-Ray
+- [ ] DynamoDB
+- [ ] API Gateway
+- [ ] S3
+
+
+#### Q37. You are creating a Lambda to trigger on change to files in an 53 bucket. Where should you put the bucket name?
+- [ ] in the Lambda function code
+- [ ] in a Lambda environment variable
+- [ ] in the Lambda tags
+- [ ] in another S3 bucket
+
+
+#### Q38. What action is needed before you can test a Lambda?
+- [ ] Deploy the Lambda.
+- [ ] Export the function
+- [ ] none of these answers
+- [ ] Configure a test event.
+
+
+#### Q39. What kind of packages can you use with Node.js for Lambdas?
+- [ ] Fleece
+- [ ] NPM
+- [ ] none of these answers
+- [ ] Pod
+
+
+#### Q40. How are environment variables stored?
+- [ ] none of these answers
+- [ ] Dynamo DB tables
+- [ ] key-value pairs
+- [ ] S3 buckets
+
+
+#### Q41. Lambdas are monitored by default using which service?
+- [ ] CloudTrail
+- [ ] CloudWatch
+- [ ] CloudFormation
+- [ ] LogWatch
+
+
+#### Q42. What can trigger a Lambda function execution?
+- [ ] a table definition
+- [ ] queue isolation
+- [ ] STS Write
+- [ ] an SNS topic
+
