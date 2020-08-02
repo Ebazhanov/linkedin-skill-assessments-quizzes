@@ -259,34 +259,36 @@
 
 #### Q38. You need to determine the commission earned by each Sales Rep, based on the Sales amounts in B3:B50 and the Commission rate specified in cell A1. You want to enter a formula in C3 and copy it down to C50. Which formula should you use?
 
-8.5%           2018 Commission
-Sales Rep        2018 Sales     Comenion Earned
-Jordan Hinton   $123,938.00
-Lilah Douglas   5594,810.00
-Karyn Reese     $235,954.00
-Chiquita Walsh  $684,760.00
+|| A      | B | C |
+|---------| --------- |  ------ |------|
+|1|8.5% |2018 Commission||
+|2|Sales Rep|2018 Sales|Comenion Earned|
+|3|Jordan Hinton|$123,938.00||
+|4|Lilah Douglas|5594,810.00||
+|5|Karyn Reese|$235,954.00||
+|6|Chiquita Walsh|$684,760.00||
 
-- [ ] =$A1*83
-- [ ] -$A$1*83
-- [ ] =A1*$83
+- [ ] =$A1*B3
+- [ ] =$A$1*B3
+- [ ] =A1*$B3
 - [ ] =A1*B3
 
 #### Q39. If you start a date series by dragging down the fill handle of a single cell that contains the date 12/1/19, what will you get?
-- [ ]  a series of consecutive days following the initial date
+- [ ] a series of consecutive days following the initial date
 - [ ] a series of days exactly one month apart
-- [ ]  a series of days identical to the initial date
+- [ ] a series of days identical to the initial date
 - [ ] a series of days exactly one year apart
 
 #### Q40. To discover how many cells in a range contain values that meet a single criterion, use the ___function.
-- [ ]  COUNT
+- [ ] COUNT
 - [ ] SUMIFS
 - [ ] COUNTA
 - [ ] COUNTIE
 
 #### Q41. Of these four chart types, which works best for summarizing time-based data?
-- [ ]  pie chart
+- [ ] pie chart
 - [ ] XY scatter chart
-- [ ]  bar chart
+- [ ] bar chart
 - [ ] line chart
 
 #### Q42. Your worksheet has the value 27 in cell B3. What value is returned by the function =MOD (B3,6)?
@@ -297,7 +299,7 @@ Chiquita Walsh  $684,760.00
 
 #### Q43. For an IF function to check whether cell B3 contains a value between 15 and 20 inclusively, what condition should you use?
 - [ ] OR(B3=>15,B3<=20)
-- [ ]  AND (B3>=15,B3<=20)
+- [ ] AND (B3>=15,B3<=20)
 - [ ] OR(B3>15,B3<20)
 - [ ] AND(B3>15, B3<20)
 
