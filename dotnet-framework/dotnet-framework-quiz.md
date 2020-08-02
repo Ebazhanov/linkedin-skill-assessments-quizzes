@@ -184,3 +184,70 @@
 - when you want to decrease speed but have more features
 
 - when you want to increase compilation speed and have fewer features
+
+
+#### What is the difference between a SDK (software development kit) and runtime in .NET Core? 
+
+- The SDK is the "virtual machine" that hosts and runs the application and abstracts all the interaction with the operating system; the runtime usually includes documentation and other help files. 
+
+- The runtime is the virtual machine that hosts and runs the application and abstracts all the interaction with the operating system; the SDK usually includes documentation and other help files. 
+
+- The runtime compiles code along with the CLR; the SDK usually includes documentation and other help files. 
+
+- The SDK compiles code along with the CLR; the runtime usually includes documentation and other help files. 
+
+### What is the Common Type System (CTS)? 
+
+- the component of CLR in which .NET Framework provides support for several languages since it contains a type system  that is common with all the languages 
+
+- the component of CLI in which .NET Framework provides support for several languages since it contains a type system that  is common with all the languages 
+
+ - the component of CLR that allows you to map the content of a file to the logical address of an application 
+
+ - the component of CLR that enables you to run multiple versions of an application or component and CLR on the same computer at the same time 
+ 
+ 
+ ### Assuming y is a value type, which is an example of boxing?
+
+ - y = (int)thisObject;
+ - int y = 3; 
+ - y = (int)thisObject=;3; 
+
+ - object thisObject = y; 
+
+### What is an abstract class in .NET? 
+
+- An abstract class provides a partial implementation for functionality and some abstract or virtual members that must be 0implemented by the inheriting entities. It can declare fields too. 
+
+- An abstract class allows developers to create new classes that reuse, extend, and modify the behavior defined in other  classes. 
+
+- An abstract class is responsible for keeping track of what is actually executing and where each executing thread is. 
+
+- An abstract class declares a contract or behavior that implementing classes require. It may declare only properties,  methods, and events with no access modifiers. All the declared members must be implemented. 
+
+
+
+### What is the namespace for caching information in .NET? 
+
+- System.Data.Caching; 
+
+ - All.System.Caching; 
+
+ - System.Runtime.Caching; <-----CORRECT
+
+ - System.Compiler.Caching; 
+ 
+ 
+ 
+ ### What is an interface in .NET? 
+- An interface provides a partial implementation for functionality and some abstract or virtual members that must be  implemented by the inheriting entities. It can declare fields too. 
+
+- An interface is responsible for keeping track of what is actually executing and where each executing thread is. 
+
+ - An interface allows developers to create new classes that reuse, extend, and modify the behavior defined in other classes. 
+
+ - An interface declares a contract or behavior that implementing classes require. It may declare only properties, methods, and events with no access modifiers. All the declared members must be implemented. 
+
+
+
+
