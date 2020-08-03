@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-57-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-58-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -122,6 +122,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/dakshitha-dissanayaka-099a09143/?originalSubdomain=lk"><img src="https://avatars1.githubusercontent.com/u/45692186?v=4" width="100px;" alt=""/><br /><sub><b>Dakshitha Dissanayaka</b></sub></a><br /><a href="#design-Dakshitha96" title="Design">🎨</a></td>
+    <td align="center"><a href="https://badrkac.github.io"><img src="https://avatars0.githubusercontent.com/u/31140256?v=4" width="100px;" alt=""/><br /><sub><b>BADR KACIMI</b></sub></a><br /><a href="#design-BADRKAC" title="Design">🎨</a></td>
   </tr>
 </table>
 
