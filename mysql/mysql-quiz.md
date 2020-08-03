@@ -4,10 +4,10 @@ mysql Assessment
 - [ ] The subquery is never executed. Only the main query is executed.
 - [ ] They are executed at the same time
 - [ ] the main query
-- [ ] the subquery
+- [x] the subquery
 
 #### Q2. You need to export the entire database, including the database objects, in addition to the data. Which command-line tool do you use?
-- [ ] mysqlexport
+- [x] mysqlexport
 - [ ] mysqladmin
 - [ ] mysqldump
 - [ ] mysqld
