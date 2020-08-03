@@ -128,8 +128,8 @@ Q21. If the child_process module methods are in scope, what is a current way to 
 - fork("ps -ef")
 
 Q22.Which console method can be used to print the stack trace to the point of its execution? 
-- stack 
-- trace
+- stack  
+- trace ---> correct
 - debug 
 - print 
 
@@ -146,7 +146,7 @@ Q23.Which of the following objects is a stream?
  Q24.When you run JavaScript in a Node.js application, which of the following elements in a Node.js stack actually executes that JavaScript? 
  - the libuv library 
  - the c-ares library 
- - the VM (like VS or Chakra) 
+ - the VM (like VS or Chakra)-----> correct
  - the repl module 
  
 Q25. Looking at the code below, what does the console show? 
@@ -161,7 +161,7 @@ Q25. Looking at the code below, what does the console show?
 -  server running at http://localhost:3000/ 
 -  server running at port 3000 
  - server running at http://localhost:4000/ 
--  server running at http://127.0.0.1:3000/ 
+-  server running at http://127.0.0.1:3000/ -----> correct
 
 
 Q26.What is the purpose of the path module? 
