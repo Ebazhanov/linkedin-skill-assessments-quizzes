@@ -59,7 +59,7 @@ count, fruit, price = (2, 'apple', 3.5)
 - [x] `"O(1)", also called constant time`
 
 #### Q10. What is the correct syntax for defining a class called Game?
-- [x] `class Game: pass` 
+- [x] `class Game: pass`
 - [ ] `def Game(): pass`
 - [ ] `def Game: pass`
 - [ ] `class Game(): pass`
@@ -70,8 +70,8 @@ count, fruit, price = (2, 'apple', 3.5)
 def sum(a, b):
     """
     sum(4, 3)
-    7   
-    
+    7
+
     sum(-4, 5)
     1
     """
@@ -79,11 +79,11 @@ def sum(a, b):
 ```
 - [x] `-`
 ```
-def sum(a, b): 
+def sum(a, b):
     """
     >>> sum(4, 3)
-    7   
-    
+    7
+
     >>> sum(-4, 5)
     1
     """
@@ -94,8 +94,8 @@ def sum(a, b):
 def sum(a, b):
     """
     # >>> sum(4, 3)
-    # 7   
-    
+    # 7
+
     # >>> sum(-4, 5)
     # 1
     """
@@ -106,8 +106,8 @@ def sum(a, b):
 def sum(a, b):
     ###
     >>> sum(4, 3)
-    7   
-    
+    7
+
     >>> sum(-4, 5)
     1
     ###
@@ -139,17 +139,17 @@ return list(enumerate(college_years, 2019)
 #### Q15. What is the correct syntax for defining a class called "Game", if it inherits from a parent class called "LogicGame"?
 - [ ] `class Game.LogicGame(): pass`
 - [ ] `def Game(LogicGame): pass`
-- [x] `class Game(LogicGame): pass` 
+- [x] `class Game(LogicGame): pass`
 - [ ] `def Game.LogicGame(): pass`
 
 #### Q16. What is the purpose of the "self" keyword when defining or calling instance methods?
 - [ ] `self means that no other arguments are required to be passed into the method`
 - [ ] `There is no real purpose for the self method; it"s just historic computer science jargona that Python keeps to stay consistent with other programming languages`
-- [x] `self  refers to the instance whose method was called` 
+- [x] `self  refers to the instance whose method was called`
 - [ ] `self refers to the class that was inherited from to create the object using self`
 
 #### Q17. Which of these is NOT a characteristic of namedtuples?
-- [ ] `You can assign a name to each of the namedtuple members and refer to them that way, similarly to how you would access keys in dictionary` 
+- [ ] `You can assign a name to each of the namedtuple members and refer to them that way, similarly to how you would access keys in dictionary`
 - [ ] `Each member of a namedtuple object can be indexed to directly, just like in a regular tuple`
 - [ ] `namedtuples are just as memory efficient as regular tuples`
 - [x] `No import is needed to use namedtuples because they are available in the standard library`
@@ -189,7 +189,7 @@ else:
 ```
 - [x] `-`
 ```
-num_people = 5                           
+num_people = 5
 
 if num_people > 10:
     print("There is a lot of people in the pool.")
@@ -201,7 +201,7 @@ else:
     print("There is no one in the pool.")
 ```
 - [ ] `-`
-```    
+```
 if num_people > 10;
     print("There is a lot of people in the pool.")
 if num_people > 4;
@@ -216,12 +216,12 @@ else:
 - [ ] `It protects the data from outside interference `
 - [ ] `A parent class is encapuslated and no data from the parent class passes on to the child class`
 - [ ] `It keeps data and the methods that can manipulate that data in one place`
-- [x] `It only allows the data to be changed by methods` 
+- [x] `It only allows the data to be changed by methods`
 
 #### Q21. What is the purpose of an if/else statement?
 - [ ] `An if/else statement tells the computer which chunk of code to run if the instructions you coded are incorrect `
 - [ ] `An if/else statement runs one chunk of code if all the imports were succesful, and another chunk of code if the imports were not succesful `
-- [x] `An if/else statement  executes one chunk of code if a condition it true, but a different chunk of code if the condition is false` 
+- [x] `An if/else statement  executes one chunk of code if a condition it true, but a different chunk of code if the condition is false`
 - [ ] `An if/else statement tells the computer which chunk of code to run if the is enough memory to handle it. and which chunk of code to run if there is not enough memory to handle it`
 
 #### Q22. What buit-in Python data type is commonly used to represent a queue?
@@ -255,14 +255,14 @@ else:
 - [ ] `It is used to skip the rest of a while or for loop and return to the start of the loop.`
 
 #### Q27. What is the term used to describe items that may be passed into a function?
-- [x] `arguments` 
+- [x] `arguments`
 - [ ] `paradigms`
 - [ ] `attributes`
 - [ ] `decorators`
 
 #### Q28. Which collection type is used to associate values with unique keys?
 - [ ] `slot`
-- [x] `dictionary` 
+- [x] `dictionary`
 - [ ] `queue`
 - [ ] `sorted list`
 
@@ -334,13 +334,13 @@ return output
 - [ ] `The all() function returns a Boolean value that answers the question "Are all the items in this list the same?"`
 - [ ] `The all() function returns True if all the items in the list can be converted to strings. Otherwise, it returns False.`
 - [ ] `The all() function will return all the values in the list.`
-- [x] `The all() function returns True if all items in the list evaluate to True. Otherwise, it returns False.` 
+- [x] `The all() function returns True if all items in the list evaluate to True. Otherwise, it returns False.`
 
 #### Q33. What is the correct syntax for calling an instance method on a class named Game?
 - [x] `-`
 ```
 >>> dice = Game()
->>> dice.roll()  
+>>> dice.roll()
 ```
 - [ ] `-`
 ```
@@ -365,7 +365,7 @@ return output
 - [x] `divide and conquer`
 
 #### Q35. What is runtime complexity of the list's built-in .append() method?
-- [x] `O(1), also called constant time` 
+- [x] `O(1), also called constant time`
 - [ ] `O(log n), also called logarithmic time`
 - [ ] `O(n^2), also called quardratic time`
 - [ ] `O(n), also called linear time`
@@ -392,7 +392,7 @@ def print_alpha_nums(abc_list, num_list):
 
 print_alpha_nums(['a', 'b', 'c'], [1, 2, 3])
 ```
-- [x] `-` 
+- [x] `-`
 ```
 a 1
 a 2
@@ -425,7 +425,7 @@ c 1 2 3
 ```
 
 #### Q39. What is the correct syntax for calling an instance method on a class named Game?
-- [x] `-` 
+- [x] `-`
 ```
 my_game = Game()
 my_game.roll_dice()
@@ -453,9 +453,9 @@ def sum(a, b):
     # a = 1
     # b = 2
     # sum(a, b) = 3
-    
+
     return a + b
-```	
+```
 - [ ] `-`
 ```
 def sum(a, b):
@@ -464,19 +464,19 @@ def sum(a, b):
     b = 2
     sum(a, b) = 3
     """
-    
+
     return a + b
-```	
+```
 - [x] `-`
 ```
-def sum(a, b):  
+def sum(a, b):
     """
     >>> a = 1
     >>> b = 2
     >>> sum(a, b)
     3
     """
-    
+
     return a + b
 ```
 - [ ] `-`
@@ -566,7 +566,6 @@ fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
 
 #### Q52. What is a class method?
 - [ ] `A class method is a regular function that belongs to a class, but it must return None.`
-- [ ] `Class methods can modify the state of the class, but they can't directly modify the state of an instance that inherits from that class.`
+- [x] `Class methods can modify the state of the class, but they can't directly modify the state of an instance that inherits from that class.`
 - [ ] `A class method is similar to a regular function, but a class method doesn't take any arguments.`
 - [ ] `Class methods hold all of the data for a particular class.`
-
