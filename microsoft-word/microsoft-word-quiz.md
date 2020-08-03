@@ -46,8 +46,8 @@
 #### Q7. Where do you select the paper size for a document?
 
 - [ ] Design > Size.
-- [x] File > Page Setup.
-- [ ] Layout > Size.
+- [ ] File > Page Setup.
+- [x] Layout > Size.
 - [ ] Layout > Margins.
 
 #### Q8. Which option lets you mark your favourite templates for quick reuse in the future?
