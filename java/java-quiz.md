@@ -8,10 +8,10 @@ Java Assessment
 - traw
 
 #### Q2. How can you achieve runtime polymorphism in Java?
-- method overloading 
-- method overrunning 
+- method overloading
+- method overrunning
 - method overriding <<<<--- Correct
-- method calling 
+- method calling
 
 #### Q3. Given the following definitions, which of these expression will NOT evaluate to true?
 `boolean b1 = true, b2 = false;
@@ -79,7 +79,7 @@ System.out.println(str);
 4:   }
 5:   static Exception print(int i){
 6:       if (i>0) {
-7:          return new Exception();      
+7:          return new Exception();
 8:       } else {
 9:          throw new RuntimeException();
 10:      }
@@ -89,7 +89,7 @@ System.out.println(str);
 - It will show a stack trace with a runtime exception.
 - "java.lang.Exception" <<<<---Correct
 - It will run and throw an exception.
-- It will not compile. <--- Correct
+- It will not compile.
 
 #### Q9. Which class can compile given these declarations?
 ```
@@ -102,30 +102,30 @@ System.out.println(str);
 7:          System.out.println(""One"");
 8:      }   }
 ```
-- 
+-
 ```
   class Three implements One, Two {
     publc void method() {
         super.One.method();
   } }
 ```
-- 
+-
 ```
   class Three implements One, Two {
     publc void method() {
         One.method();
   } }
 ```
-- 
+-
 ```
 class Three implements One, Two {
 }
 ```
-- 
+-
 ```
   class Three implements One, Two { <------ correct
     publc void method() {
-        One.super.method(); 
+        One.super.method();
   } }
 ```
 
@@ -271,7 +271,7 @@ for(){iterator.hasNext()}{}
 #### Q21. You have an ArrayList of names that you want to sort alphabetically. Which approach would NOT work?
 - names.sort(Comparator.comparing(String::toString))
 - Collections.sort(names)
-- names.sort(List.DESCENDING)
+- names.sort(List.DESCENDING) <<<--- Correct (not too sure)
 - names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())
 
 #### Q22. By implementing encapsulation, you cannot directly access the class's _____ properties unless you are writing code inside the class itself.
@@ -284,19 +284,19 @@ for(){iterator.hasNext()}{}
 - new SimpleDateFormat("yyyy-MM-dd").format(new Date())
 - new Date(System.currentTimeMillis())
 - LocalDate.now()
-- Calender.getInstance().getTime()
+- Calender.getInstance().getTime() <<<<--- Correct
 
 #### Q24. Fill in the blank to create a piece of code that will tell wether int0 is divisible by 5:
-'''
+```
 boolean isDivisibleBy5 = _____
-'''
+```
 - int0 / 5 ? true: false
 - int0 % 5 == 0 <<<<---Correct
 - int0 % 5 != 5
 - Math.isDivisible(int0, 5)
 
 #### Q25. How many time will this code print "Hello World!"?
-'''
+```
 Class Main {
     public static void main(String[] args){
         for (int i=0; i<10; i=i++){
@@ -305,7 +305,7 @@ Class Main {
         }
     }
 }
-'''
+```
 - 10 times
 - 9 times
 - 5 times <<<<---Correct
@@ -318,7 +318,7 @@ Class Main {
 - main <<<<---Correct
 
 #### Q27. What is the result of this code?
-'''
+```
 try{
     System.out.print("Hello World");
 }catch(Exception e){
@@ -328,7 +328,7 @@ try{
 }finally{
     System.out.println("!")
 }
-'''
+```
 - It will throw a runtime exception
 - It will not compile
 - Hello World! <<<<---Correct

@@ -16,10 +16,10 @@
 
 #### Q3. Describe what the following git commands do to the commit history.
 
-`git reset --hard HEAD~5`  
+`git reset --hard HEAD~5`
 (Reset the current branch to the commit just before the last 5)
 
-`git merge --squash HEAD@{1}`  
+`git merge --squash HEAD@{1}`
 (HEAD@{1} is where the branch was just before the previous command. This command sets the state of the index to be as it would just after a merge from that commit)
 
 - [ ] Reset the HEAD to the 5th commit in the repo, then merges to the master branch
@@ -89,7 +89,8 @@
 
 #### Q11. Why would you use a pre-receive hook in your remote repository?
 - [ ] You wouldn't, you would use it in the local repository
-- [x] To invoke a hook script when commits are pushed but before any references are updated
+- [x] To execute a script when a remote receives a push that is triggered
+  before any refs are updated
 - [ ] To fire a script after updates are made to the remote repository
 - [ ] To debug all commit tags and release versions
 
@@ -138,7 +139,7 @@
 Change to be committed:
 
 (use "git reset HEAD <file>..." to unstage)
-modified: beta-notes.js 
+modified: beta-notes.js
 Changes not staged for commit:
 (use "git add <file>..." to update what will be committed)
 (use "git checkout --<file>..." to discard changes in working directory)
@@ -197,7 +198,7 @@ git cherry-pick {123safd23e}
 - [x] git rebase -i
 - [ ] git rebase -verbose
 - [ ] git rebase -all
- 
+
 #### Q26. What is the operation doing given the Git commands below?
 
 ```
@@ -252,7 +253,7 @@ Changes not staged for commit:
 modified:	beta-notes.js
 ```
 
-- [ ] beta-notes.js is untracked and has been modified. 
+- [ ] beta-notes.js is untracked and has been modified.
 - [x] beta-notes.js is a tracked file and has been modified, but has not been added to the current commit.
 - [ ] beta-notes.js is untracked but has been added to the current commit.
 - [ ] beta-notes.js is tracked, and the modified file has been added to the current commit.
@@ -307,7 +308,7 @@ git rm --cached testfile.js
 
 - [ ] The "-all" option isn't added to the command.
 - [x] "rerere.enabled" isn't enable in the config file.
-- [ ] The commit hash is missing. 
+- [ ] The commit hash is missing.
 - [ ] The filepath isn't specified.
 
 #### Q39. What commands would you use to force an overwrite of your local files with the master branch?
@@ -326,14 +327,14 @@ git pull -u origin master
 git reset --hard master
 ```
 
-- [ ] Option 3
+- [] Option 3
 
 ```git
 git pull origin master
 git reset --hard origin/myCurrentBranch
 ```
 
-- [ ] Option 4
+- [x] Option 4
 
 ```git
 git fetch --all
@@ -342,6 +343,6 @@ git reset --hard origin/master
 #### Q40. While modifying a file, you're unexpectedly assigned an urgent bug fix on another branch. How can you temporarily save your local work without committing?
 
 - [ ] Save your work with git local-cache.
-- [x] Use git stash to save your work, then come back later and reapply the stashed commit. 
+- [x] Use git stash to save your work, then come back later and reapply the stashed commit.
 - [ ] Run git hold to save a local copy of waht you're doing to return to later.
 - [ ] This is not possible, as you cannot save locally without committing.
