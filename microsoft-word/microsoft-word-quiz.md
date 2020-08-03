@@ -144,15 +144,15 @@
 #### Q21. You are working on a local copy of a document when Word unexpectedly closes. After you relaunch Word, how can you find the most recently saved version of the document?
 
 - [ ] Click Open > Recent and select Recover Unsaved Documents.
-- [x] Click File > Options > Recover Unsaved Documents.
+- [ ] Click File > Options > Recover Unsaved Documents.
 - [ ] Click File > Open > Recent > Documents.
-- [ ] Click File > Recent > Recover Unsaved Documents.
+- [x] Click File > Recent > Recover Unsaved Documents.
 
 #### Q22. What can you NOT insert into a Word document from the Insert tab?
 
-- [ ] a sketch
+- [x] a sketch
 - [ ] a symbol
-- [x] a 3D model
+- [ ] a 3D model
 - [ ] an equation
 
 #### Q23. What Microsoft Word feature lets you capture a portion of your screen to be used as an image in your document?
