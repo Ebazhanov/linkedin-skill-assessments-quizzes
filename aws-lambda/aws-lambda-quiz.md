@@ -92,38 +92,38 @@ AWS LAMBDA Assessment
 - [ ] `daily`
 
 #### Q16. You can restrict the scope of a user's permissions by specifying which two items in an IAM policy?
-- [ ] `resources and users` ???
-- [ ] `resources and conditions`
+- [ ] `resources and users` 
+- [x] `resources and conditions`
 - [ ] `events and users`
 - [ ] `events and conditions`
 
 #### Q17. What does Lambda logging include?
-- [ ] `logging streams`
+- [x] `logging streams`
 - [ ] `rotating streams`
 - [ ] `logging events`
 - [ ] `advancing log groups`
 
 #### Q18. What can AWS Amplify NOT do for a Lambda?
 - [ ] `create a Lambda`
-- [ ] `be an event source`
+- [x] `be an event source`
 - [ ] `assign an IAM role`
 - [ ] `delete a Lambda`
 
 #### Q19. How do you author a Lambda in a programming language that AWS does not support?
 - [ ] `Create a Lambda function with a custom runtime and reference the function in your Lambda`
-- [ ] `Create a Lambda layer with a custom runtime and reference the layer in your lambda`
+- [x] `Create a Lambda layer with a custom runtime and reference the layer in your lambda`
 - [ ] `You cannot use Lambda in this situation`
 - [ ] `Create a Lambda function with a custom runtime`
 
 #### Q20. What are listed downstream resources based on?
 - [ ] `the execution policy`
-- [ ] `the Lambda configuration`
+- [x] `the Lambda configuration`
 - [ ] `the Lambda nodes`
 - [ ] `the IAM user`
 
 #### Q21. Which is an equivalent and valid tag for a pair of Lambdas?
 - [ ] `department:Sales,department:Sales`
-- [ ] `department:Sales,department:sales`
+- [x] `department:Sales,department:sales`
 - [ ] `aws:demo;aws:demo`
 - [ ] `aws:demo;aws:DEMO`
 
@@ -176,92 +176,78 @@ AWS LAMBDA Assessment
 - [ ] `Set the function concurrent execution limit to 100 while you update the code.`
 
 #### Q30. What is AWS best practice for Lambda configuration?
-- [ ] Overprovision memory to run your functions faster and reduce your costs. Do not overprovision your function timeout settings.
-- [ ] Overprovision memory and your function timeout settings to run your functions faster and reduce your costs.
-- [ ] Do not overprovision memory. Overprovision your function timeout settings to run your functions faster and reduce costs.
-- [ ] Do not overprovision memory. Do not overprovision your function timeout settings to run your functions faster and reduce costs.
+- [x] `Overprovision memory to run your functions faster and reduce your costs. Do not overprovision your function timeout settings.`
+- [ ] `Overprovision memory and your function timeout settings to run your functions faster and reduce your costs.`
+- [ ] `Do not overprovision memory. Overprovision your function timeout settings to run your functions faster and reduce costs.`
+- [ ] `Do not overprovision memory. Do not overprovision your function timeout settings to run your functions faster and reduce costs.`
 
 
 #### Q31. Basic Lambda permissions include permissions for what?
-- [ ] removing log groups
-- [ ] none of these answers
-- [ ] creating log groups
-- [ ] updating log groups
+- [ ] `removing log groups`
+- [ ] `none of these answers`
+- [ ] `creating log groups`
+- [x] `updating log groups`
 
 
 #### Q32. How are environment variables stored?
-- [ ] DynamoDB tables
-- [ ] key-value pairs
-- [ ] S3 buckets
-- [ ] none of these answers
+- [ ] `DynamoDB tables`
+- [x] `key-value pairs`
+- [ ] `S3 buckets`
+- [ ] `none of these answers`
 
 
 #### Q33. You need to use a Lambda to provide backend logic to your website. Which service do you use to make your Lambda available to your website?
-- [ ]  S3
-- [ ]  API Gateway
-- [ ] X-Ray
-- [ ] DynamoDB
+- [ ] `S3`
+- [x] `API Gateway`
+- [ ] `X-Ray`
+- [ ] `DynamoDB`
 
 
 #### Q34. How can additional code or content be provided for your Lambda?
-- [ ] aliases
-- [ ]  blocks
-- [ ] handlers
-- [x] layers
+- [ ] `aliases`
+- [ ] `blocks`
+- [ ] `handlers`
+- [x] `layers`
 
 
 #### Q35. Lambdas allow for running of what other things?
-- [ ] binaries
-- [ ] executables
-- [ ] all of these answers
-- [ ] shell scripts
+- [ ] `binaries`
+- [ ] `executables`
+- [x] `all of these answers`
+- [ ] `shell scripts`
 
 
-#### Q36. You need to use a Lambda to provide backend logic to your website. Which service do you use to make your Lambda available to your website?
-- [ ] OX-Ray
-- [ ] DynamoDB
-- [ ] API Gateway
-- [ ] S3
-
-
-#### Q37. You are creating a Lambda to trigger on change to files in an 53 bucket. Where should you put the bucket name?
-- [ ] in the Lambda function code
-- [ ] in a Lambda environment variable
-- [ ] in the Lambda tags
-- [ ] in another S3 bucket
+#### Q37. You are creating a Lambda to trigger on change to files in an S3 bucket. Where should you put the bucket name?
+- [ ] `in the Lambda function code`
+- [x] `in a Lambda environment variable`
+- [ ] `in the Lambda tags`
+- [ ] `in another S3 bucket`
 
 
 #### Q38. What action is needed before you can test a Lambda?
-- [ ] Deploy the Lambda.
-- [ ] Export the function
-- [ ] none of these answers
-- [ ] Configure a test event.
+- [ ] `Deploy the Lambda.`
+- [ ] `Export the function`
+- [ ] `none of these answers`
+- [x] `Configure a test event.`
 
 
 #### Q39. What kind of packages can you use with Node.js for Lambdas?
-- [ ] Fleece
-- [ ] NPM
-- [ ] none of these answers
-- [ ] Pod
-
-
-#### Q40. How are environment variables stored?
-- [ ] none of these answers
-- [ ] Dynamo DB tables
-- [ ] key-value pairs
-- [ ] S3 buckets
+- [ ] `Fleece`
+- [x] `NPM`
+- [ ] `none of these answers`
+- [ ] `Pod`
 
 
 #### Q41. Lambdas are monitored by default using which service?
-- [ ] CloudTrail
-- [ ] CloudWatch
-- [ ] CloudFormation
-- [ ] LogWatch
+- [ ] `CloudTrail`
+- [x] `CloudWatch`
+- [ ] `CloudFormation`
+- [ ] `LogWatch`
 
 
 #### Q42. What can trigger a Lambda function execution?
-- [ ] a table definition
-- [ ] queue isolation
-- [ ] STS Write
-- [ ] an SNS topic
+- [ ] `a table definition`
+- [ ] `queue isolation`
+- [ ] `STS Write`
+- [x] `an SNS topic`
 
