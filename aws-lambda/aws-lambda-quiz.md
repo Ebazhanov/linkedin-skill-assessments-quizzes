@@ -207,7 +207,7 @@ AWS LAMBDA Assessment
 - [ ] aliases
 - [ ]  blocks
 - [ ] handlers
-- [ ] layers
+- [x] layers
 
 
 #### Q35. Lambdas allow for running of what other things?
