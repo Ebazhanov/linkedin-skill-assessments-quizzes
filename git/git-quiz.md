@@ -339,3 +339,9 @@ git reset --hard origin/myCurrentBranch
 git fetch --all
 git reset --hard origin/master
 ```
+#### Q40. While modifying a file, you're unexpectedly assigned an urgent bug fix on another branch. How can you temporarily save your local work without committing?
+
+- [ ] Save your work with git local-cache.
+- [x] Use git stash to save your work, then come back later and reapply the stashed commit. 
+- [ ] Run git hold to save a local copy of waht you're doing to return to later.
+- [ ] This is not possible, as you cannot save locally without committing.
