@@ -9,7 +9,7 @@ AWS LAMBDA Assessment
 
 #### Q2. How can additional code or content can be provided for Lambda?
 - [ ] `blocks`
-- [x] `ayers`
+- [x] `layers`
 - [ ] `aliases`
 - [ ] `handlers`
 
