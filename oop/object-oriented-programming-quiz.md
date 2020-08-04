@@ -110,9 +110,9 @@ Object-Oriented Programming (OOP) Assessment
 - Getters and setters permit different access levels.
 
 #### Q19. In context of OOP, what is association?
-- Association is a relationship where all objects have their own life cycle and there is no owner.
+- Association is a relationship where all objects have their own life cycle and there is no owner. <<-- correct
 - Association is the procecss where model elements cooperate to proide higher-level behavior.
-Association is whole/part relationship where one object is composed of one or more other objects, each of which is considered a part of the whole. <<--- picked this one, again not sure
+Association is whole/part relationship where one object is composed of one or more other objects, each of which is considered a part of the whole. 
 - Association is where all objects have their own life cycle, but there is ownerhip, and child objects can not belong to another parent object.
 
 #### Q20. How are user stories different from use cases?
@@ -144,3 +144,27 @@ Association is whole/part relationship where one object is composed of one or mo
 - Composite, Visitor, State, Prototype, and Singleton.
 - Composite, Builder, Factory Method, Prototype, and Singleton.
 - **Abstract Factory, Builder, Factory Method, Prototype, and Singleton.** <<-- correct
+
+#### Q25. In multilevel inheritence, one class inherits how many classes?
+- one class only <<-- correct
+- two classes
+- as many classes as required
+- at least two classes 
+
+#### Q26. if an object is passed by reference, the changes made in the function are reflected _______.
+- to the main object of the caller function, too <<-- correct
+- on the caller function object and also the called function object
+- on the copy of the object that is made during the pass
+- only in the local scope of the called function
+
+#### Q27. What is a method? 
+- a set of instructions designed to perform a frequently used operation within a program and return no values
+- the exact same thing as a function and subroutine <<-- correct
+- a set of variables that can change over time
+- a procedure associated with data and behaviour 
+
+### Q28. A mobile phone is made up of components such as a motherboard, camera, and sensors. The motherboard represents all the functions of a phone, the display shows the display only, and the phone is represented as a whole. Which of the following has the highest level of abstraction?
+- camera
+- display
+- motherboard
+- mobile phone <<-- correct
