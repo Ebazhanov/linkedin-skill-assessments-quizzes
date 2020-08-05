@@ -303,3 +303,10 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [x] A regular expression is a special text string for describing a search patters.
 - [ ] A regular expression allows a variable to be passed by reference.
 - [ ] A regular expression allows a class to conform to the Equatable protocol.
+
+#### Q36. Why would you use a class field in C#
+
+- [ ] To define behaviours of the class
+- [x] To hold information and data contained in the class object
+- [ ] To communicate between classes and object
+- [ ] To store the class definition value
