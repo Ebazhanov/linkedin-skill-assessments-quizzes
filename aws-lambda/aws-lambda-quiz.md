@@ -130,8 +130,8 @@ AWS LAMBDA Assessment
 #### Q22. Outbound connections from Lambdas must be ______.
 - [ ] `neither of these answers`
 - [ ] `UDP/IP`
-- [x] `TCP/IP`
-- [ ] `both of these answers`
+- [ ] `TCP/IP`
+- [x] `both of these answers`
 
 #### Q23. How are CloudWatch actions configured?
 - [ ] `automatically`
@@ -250,4 +250,11 @@ AWS LAMBDA Assessment
 - [ ] `queue isolation`
 - [ ] `STS Write`
 - [x] `an SNS topic`
+
+
+#### Q43. You need to set an S3 event trigger on your Lambda to respond when data is added to your bucket from another S3 bucket. Which event type do you configure?
+- [ ] `POST`
+- [ ] `"All object create events"`
+- [x] `PUT`
+- [ ] `COPY`
 
