@@ -16,7 +16,7 @@ Q3. Which of the following Buffer class methods returns an uninitialized buffer?
 - from
 - alloc
 
-Q4. Which of the following modues is NOT a built-in module in Node?
+Q4. Which of the following modules is NOT a built-in module in Node?
 - ftp <<<<-----Correct
 - events
 - dgram
@@ -153,9 +153,10 @@ Q25. Looking at the code below, what does the console show?
 
 ``` const http = require('http'); 
  const hostname = '127.0.0.1'; const port = 3000; 
- const server = http.createServer((req„ res) :&gt; { res.statusCode = 200; res.setHeader('Content-Type'l 'text/plain'); res.end('Hello World\n'); 
-) ; 
- server.listen(port, hostname, :&gt; { console.lognerver running at http://${hostname}:${port}/'); }); 
+ const server = http.createServer((req, res) => {
+  res.statusCode = 200;  res.setHeader("Content-Type", "text/plain");  res.end("Hello World\n");
+});
+server.listen(port, hostname, () => { console.log(`server running at http://${hostname}:${port}/`); });
 ```
 
 -  server running at http://localhost:3000/ 
@@ -165,7 +166,7 @@ Q25. Looking at the code below, what does the console show?
 
 
 Q26.What is the purpose of the path module? 
--  to provide utilities to play with file and directory paths 
+-  to provide utilities to play with file and directory paths -----> correct
 -  to provide utilities to add and remove files 
 -  It is a retiring module. 
 -  to provide utilities to test files 
@@ -174,7 +175,7 @@ Q26.What is the purpose of the path module?
 Q27.How do you make an HTTP server object active and listen to requests on certain ports? 
  - server. start 
 - server.activate 
-- server.listen 
+- server.listen -----> correct
 -  server. run 
 
 Q28.What does the code shown below do? 
@@ -184,7 +185,7 @@ const system = os.platform(); const user = os.userInfo().username;
 fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) throw err; console.log('The data was appended to file!'); 
 ) ; 
 ```
--  creates a text file hello.txt and appends customized text 
+-  creates a text file hello.txt and appends customized text -----> correct
 -  creates an image file 
 -  console logs system information 
 -  creates a file named data and append numbers 
@@ -193,12 +194,12 @@ fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) thro
 Q29.How do you start a Node application, if the entry file is indexjs? 
 -  nodemon start 
 -  start index.js 
--  node index.js 
+-  node index.js -----> correct
  - node start 
  
- Q30.What is the purpose of the file system (ft) module? 
+ Q30.What is the purpose of the file system (fs) module? 
 -  to provide methods to work with requests and responses 
--  to provide methods to work with files 
+-  to provide methods to work with files -----> correct
 - to provide methods to work with databases 
 -  to find new file systems 
 
@@ -207,12 +208,12 @@ Q31.What is the Node LTS version?
 -  It is the current unstable version and is to be avoided. 
 -  It is the version that will be retired soon. 
 -  It is the version with the latest features. 
--  It is the safest version for long-term support. 
+-  It is the safest version for long-term support. -----> correct
 
 
 Q32.Which of the following is NOT a valid stream in Node? 
 
-- process. stdinfo
+- process. stdinfo -----> correct
 -  process. stdin 
 -  process. stdout 
 -  process. stderr 
