@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-61-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-62-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -126,6 +126,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://naivekid.me/"><img src="https://avatars2.githubusercontent.com/u/9972355?v=4" width="100px;" alt=""/><br /><sub><b>Alex Wang</b></sub></a><br /><a href="#design-DarkAlexWang" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/maximlangman"><img src="https://avatars2.githubusercontent.com/u/69239194?v=4" width="100px;" alt=""/><br /><sub><b>Maxim</b></sub></a><br /><a href="#design-maximlangman" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/GordonGrant"><img src="https://avatars2.githubusercontent.com/u/69278254?v=4" width="100px;" alt=""/><br /><sub><b>GordonGrant</b></sub></a><br /><a href="#design-GordonGrant" title="Design">🎨</a></td>
+    <td align="center"><a href="http://tirufat.com"><img src="https://avatars1.githubusercontent.com/u/38384199?v=4" width="100px;" alt=""/><br /><sub><b>Ephrem Demelash</b></sub></a><br /><a href="#design-ephremdeme" title="Design">🎨</a></td>
   </tr>
 </table>
 
