@@ -20,7 +20,7 @@ mysql Assessment
 
 #### Q4. Which option of most MySQL command-line programs can be used to get a description of the program's different options?
 - [ ] --options
-- [ ] ?
+- [x] ?
 - [ ] --help
 - [ ] -h
 
@@ -96,7 +96,7 @@ mysql Assessment
     7 PRIMARY KEY (employeeID) 
     8 );
 ```
-- [ ] `-`
+- [x] `-`
 ```
     1 CREATE TABLE IF NOT EXISTS employee (
     2 employee ID char(10), 
@@ -142,16 +142,16 @@ mysql Assessment
 - [ ] INFO table;
 - [ ] SHOW table;
 - [ ]  STRUCTURE table;
-- [ ]  DESCRIBE table;
+- [x]  DESCRIBE table;
 
 #### Q15. MySQL uses security based on_____for all connections, queries, and other operations that users can attempt to perform.
-- [ ]  administrator schema
+- [x]  administrator schema
 - [ ] encrypted algorithms
 - [ ] user settings
 - [ ] access control lists
 
 #### Q16. Which MySQL command modifies data records in a table?
-- [ ] UPDATE
+- [x] UPDATE
 - [ ] MODIFY
 - [ ] CHANGE
 - [ ] ALTER
@@ -165,17 +165,17 @@ mysql Assessment
 #### Q18. In MySQL, queries are always followed by what character?
 - [ ] line break
 - [ ] colon
-- [ ] semicolon
+- [x] semicolon
 - [ ] period
 
 #### Q19. How can you remove a record using MySQL?
 - [ ] DELETE
-- [ ] DELETE FROM
+- [x] DELETE FROM
 - [ ] REMOVE
 - [ ] REMOVE FROM
 
 #### Q20. Which choice is NOT a statement you would use to filter data?
-- [ ] GROUP_BY
+- [x] GROUP_BY
 - [ ] WHERE
 - [ ] LIMIT
 - [ ] LIKE
@@ -183,7 +183,7 @@ mysql Assessment
 #### Q21. What does the following SQL statement return?
   `SELECT * FROM Employees WHERE EmployeeName LIKE 'a%'`
 - [ ] It records in the Employees table where the value in the EmployeeName column doesn't have an "a".
-- [ ] It records in the Employees table where the value in the EmployeeName column starts with "a".
+- [x] It records in the Employees table where the value in the EmployeeName column starts with "a".
 - [ ] It records in the Employees table where the value in the EmployeeName column has an "a".
 - [ ] It records in the Employees table where the value in the EmployeeName column ends with "a".
 
@@ -191,7 +191,7 @@ mysql Assessment
 - [ ] a SQL query
 - [ ] a SQL statement
 - [ ] a database
-- [ ] a table
+- [x] a table
 
 #### Q23. How does MySQL differ from SQL?
 - [ ] SQL is a standard language for retrieving and manipulating data from structured databases. MySQL is a nonrelational database management system that is used to manage SQL databases.
@@ -206,7 +206,7 @@ mysql Assessment
 - [ ] SELECT * FROM movies FILTER BY name
 
 #### Q25. A trigger is a database object that is associated with a table, and that activates when a particular event occurs for the table. Which three events are these?
-- [ ] INSERT, UPDATE, DELETE
+- [x] INSERT, UPDATE, DELETE
 - [ ] CREATE, ALTER, DROP
 - [ ] OPEN, FETCH, CLOSE
 - [ ] DECLARE, SET, SELECT
@@ -221,10 +221,10 @@ mysql Assessment
 - [ ] 25
 - [ ] 990
 - [ ] 0
-- [ ] 3306
+- [x] 3306
 
 #### Q28. How can you filter duplicate data while retrieving records from a table?
-- [ ] DISTINCT
+- [x] DISTINCT
 - [ ] WHERE
 - [ ] LIMIT
 - [ ] AS
@@ -233,19 +233,19 @@ mysql Assessment
 - [ ] They both refer to the same operation of deleting the table completely.
 - [ ] They both refer to the same operation of clearing the table, but keeping its definition intact.
 - [ ] TRUNCATE deletes table completely, removing its definition as well. DROP clears the table but does not delete the definition.
-- [ ] DROP deletes table completely, removing its definition as well. TRUNCATE clears the table but does not delete the definition.
+- [x] DROP deletes table completely, removing its definition as well. TRUNCATE clears the table but does not delete the definition.
 
 #### Q30. How do you select every row in a given table named "inventory"?
 - [ ] SELECT all FROM inventory;
 - [ ] FROM inventory SELECT all;
 - [ ] FROM inventory SELECT *;
-- [ ] SELECT * FROM inventory;
+- [x] SELECT * FROM inventory;
 
 #### Q31. In an efficiently designed relational database, what does every table have?
 - [ ] set of triggers
 - [ ] sequential id field
 - [ ] minimum of three columns
-- [ ] primary key
+- [x] primary key
 
 #### Q32. MySQL option files provide a way to specify commonly used options so that they need not be entered on the command line each time you run a program. What is another name for the option files?
 - [ ] variable settings
