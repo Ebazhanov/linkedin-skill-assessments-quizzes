@@ -310,3 +310,38 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [x] To hold information and data contained in the class object
 - [ ] To communicate between classes and object
 - [ ] To store the class definition value
+
+#### Q37. When would you use generics in your code? 
+- [ ] to increase code performance 
+- [ ] all of these answers 
+- [ ] when code reuse is a priority 
+- [ ] when type safety is important 
+
+#### Q38. What prints to the console when this code is executed? 
+`
+public delegate void AuthCallback(bool validUser); public static AuthCallback loginCallback : Login; 
+public static void Login() { 
+Console.WriteLine("Valid user!"); 
+} 
+public static void Main(string[] args) { 
+loginCallback(true); 
+} 
+`
+
+- [ ] Login successful... 
+- [ ] Valid user! 
+- [ ] an error, because the method signature of Login doesn't match the delegate 
+- [ ] Login successful... Valid user! 
+
+#### Q39. How would you declare a sealed class named User? 
+- [ ] public class User 
+- [ ] abstract User {} 
+- [ ] sealed class User 
+- [ ] private sealed class User 
+
+
+
+
+
+
+
