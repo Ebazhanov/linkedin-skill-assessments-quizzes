@@ -248,6 +248,46 @@
 
  - An interface declares a contract or behavior that implementing classes require. It may declare only properties, methods, and events with no access modifiers. All the declared members must be implemented. 
 
+### 21. What does CAS stand for and what does it do? 
+- CAS stands for Code Application Secrets and it enables users to restrict, on a very granular level, what hidden code can do  according to a level of trust for an application. 
+- CAS stands for Code Access Secrets and it enables users to restrict, on a very granular level, what hidden code can do  according to a level of trust. 
+- CAS stands for Cognitive Access Security and it enables users to restrict security logic manipulation. 
+- CAS stands for Code Access Security and it enables users to restrict, on a very granular level, what managed code can do  according to a level of trust. 
 
+### 22. Which is NOT true about lambda statements?
+ - A statement lambda cannot return a value. 
+ - If a statement lambda has a return value, it has to use a return statement. 
+- A statement lambda requires using curly braces. 
+- A statement lambda can have more than one statement. 
 
+### 23. Which is NOT true about a read-only variable? 
+ - At runtime, its value is evaluated. 
+ - It can be either static or an instance member. 
+ - It can be initialized at declaration only. 
+ - It can be initialized in either the constructor or the declaration. 
+ 
+ 
+ ### 24. What is the difference between System.String and string? 
+ - string is used for fixed-size strings in C#, while System.String is used for all the strings. 
+ - There is no such class as System.String. 
+-  There is none—string is an alias for System. String. 
+ - System.String is a VB.NET data type, while string is a C# type. 
+ 
+ ### 25. When break is used inside two nested for loops, does control come out of the inner for loop or the outer for loop? 
+ - It breaks from only the outer loop. 
+ - It breaks from all loops. 
+ - It breaks from only the inner loop. 
+ - It breaks from the outer loop after the second iteration. 
+
+### 26. You want to separate object construction from its representation. Which design pattern best fits this objective? 
+ - Adapter 
+ - Bridge 
+ - Singleton 
+ - Builder 
+ 
+ ### 27. You want to encapsulate a command request as an object. Which design pattern best fits this objective? 
+- Command 
+- Iterator 
+- Facade 
+- Observer 
 
