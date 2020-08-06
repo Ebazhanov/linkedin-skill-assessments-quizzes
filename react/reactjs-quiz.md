@@ -296,7 +296,7 @@ const Heading = () => {
 ```
 
 - Add a render function
-- Change the curly braces to parentheses or add a return statement before the h1 tag. <<<<<-- Correct Maybe
+- Change the curly braces to parentheses or add a return statement before the h1 tag. <<<<<-- Correct
 - Move the h1 to another component.
 - Surround the h1 in a div.
 
@@ -352,7 +352,7 @@ const element = <p>{message}</p>
 - a JS element
 - a JS expression
 - a JS function
-- a JSX wrapper
+- a JSX wrapper <<<<<--CORRECT
 
 #### Q37. What is `[e.target.id]` called in the following code snippet?
 
@@ -377,14 +377,14 @@ class Clock extends React.Component {
   }
 ```
 
-- Clock
+- Clock <<<<<--CORRECT
 - It does not have a name prop.
 - React.Component
 - Component
 
 #### Q39. What is sent to an Array.map() function?
 
-- a callback function that is called once for each element in the array
+- a callback function that is called once for each element in the array <<<<<--CORRECT
 - the name of another array to iterate over
 - the number of times you want to call the function
 - a string describing what the function should do
@@ -395,5 +395,5 @@ class Clock extends React.Component {
 - It is more functional than an object
 - It makes sure that the object is not mutated
 - It automatically updates a component
-- setState is asynchronous and might result in out of sync values.
+- setState is asynchronous and might result in out of sync values. <<<<<--CORRECT
 
