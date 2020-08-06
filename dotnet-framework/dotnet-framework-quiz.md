@@ -1,7 +1,7 @@
 .NET Framework Assessment
 -----------------
 
-#### What is the difference between a stack and queue?
+#### 1. What is the difference between a stack and queue?
 - Queues process value types by a top-down hierarchy - first in, first out (FIFO). Stacks follow this principle and insert items from the lower end while deleting ones from the top - last in, first-out (LIFO).
 
 - Queues process value types by a top-down hierarchy-last in, first-out (LIFO). Stacks follow this principle and insert items from the lower end while deleting ones from the top-first in, first-out (FIFO).
@@ -14,7 +14,7 @@
 
 
 
-#### Which group contains all official types of JIT compilations?
+#### 2. Which group contains all official types of JIT compilations?
 - Pre-JIT, Quick-JIT, Coll-JIT
 
 - Before-JIT, Quick-JIT, Cool-JIT
@@ -27,7 +27,7 @@
 
 
 
-#### What is Kestrel?
+#### 3. What is Kestrel?
 - an iOS web server initially that was later designed to work with .NET Core
 
 - **a cross-platform web server ASP.NET Core that is included by default in ASP.NET Core project templates** <= Correct
@@ -40,7 +40,7 @@
 
 
 
-#### When would you use asynchronous actions?
+#### 4. When would you use asynchronous actions?
 - to release the quest thread of a I/O operation
 
 - to capture the request thread of a I/O operation
@@ -53,7 +53,7 @@
 
 
 
-#### What is CoreCLR?
+#### 5. What is CoreCLR?
 - CoreCLR is a component that allows the highest degree of control when coding; you can Abort(), Suspend() or Resume().
 
 - CoreCLR is the .NET execution engine that runs the source code. Special programs called compilers must rewrite it into MSIL.
@@ -66,7 +66,7 @@
 
 
 
-#### When you define an abstract method, how do you use it in a derived class?
+#### 6. When you define an abstract method, how do you use it in a derived class?
 - Abstract methods cannot be used in derived classes.
 
 - In your derived class, overload the method.
@@ -79,7 +79,7 @@
 
 
 
-#### Which code do you use if you want to trigger a garbage collection in .NET?
+#### 7. Which code do you use if you want to trigger a garbage collection in .NET?
 - Garbage.CleanUp();
 
 - System.GC.Clear();
@@ -92,7 +92,7 @@
 
 
 
-#### You want to include language elements in a program. Which design pattern best fits this objective?
+#### 8.You want to include language elements in a program. Which design pattern best fits this objective?
 - Interpreter
 
 - Command
@@ -105,7 +105,7 @@
 
 
 
-#### What makes a strong-named assembly?
+#### 9.What makes a strong-named assembly?
 
 - an assembly with the version specified
 
@@ -119,7 +119,7 @@
 
 
 
-#### What happens when you concatenate two strings?
+#### 10.What happens when you concatenate two strings?
 
 - You cannot concatenate strings in .NET.
 
@@ -133,7 +133,7 @@
 
 
 
-#### What is a delegate?
+#### 11.What is a delegate?
 
 - A delegate is an object or collection initializer that adds flexibility, readability and maintainability in C#.
 
@@ -147,7 +147,7 @@
 
 
 
-#### Which is a set of features that extends the query capabilities of the .NET language syntax by adding sets of new standard query operators that allow data manipulation, regardless of the data source?
+#### 12.Which is a set of features that extends the query capabilities of the .NET language syntax by adding sets of new standard query operators that allow data manipulation, regardless of the data source?
 
 - XML
 
@@ -161,7 +161,7 @@
 
 
 
-#### What is the single responsibility principle?
+#### 13.What is the single responsibility principle?
 
 - Software entities should be open for extension, but closed for modification.
 
@@ -175,7 +175,7 @@
 
 
 
-#### When should a developer use the .NET Standard class library project type?
+#### 14.When should a developer use the .NET Standard class library project type?
 
 - when you want to increase the .NET API surface area your library can access, and allow only .NET Core apps to be compatible with your library
 
@@ -186,7 +186,7 @@
 - when you want to increase compilation speed and have fewer features
 
 
-#### What is the difference between a SDK (software development kit) and runtime in .NET Core? 
+#### 15.What is the difference between a SDK (software development kit) and runtime in .NET Core? 
 
 - The SDK is the "virtual machine" that hosts and runs the application and abstracts all the interaction with the operating system; the runtime usually includes documentation and other help files. 
 
@@ -196,7 +196,7 @@
 
 - The SDK compiles code along with the CLR; the runtime usually includes documentation and other help files. 
 
-### What is the Common Type System (CTS)? 
+### 16. What is the Common Type System (CTS)? 
 
 - the component of CLR in which .NET Framework provides support for several languages since it contains a type system  that is common with all the languages 
 
@@ -207,7 +207,7 @@
  - the component of CLR that enables you to run multiple versions of an application or component and CLR on the same computer at the same time 
  
  
- ### Assuming y is a value type, which is an example of boxing?
+ ### 17.Assuming y is a value type, which is an example of boxing?
 
  - y = (int)thisObject;
  - int y = 3; 
@@ -215,7 +215,7 @@
 
  - object thisObject = y; 
 
-### What is an abstract class in .NET? 
+### 18.What is an abstract class in .NET? 
 
 - An abstract class provides a partial implementation for functionality and some abstract or virtual members that must be 0implemented by the inheriting entities. It can declare fields too. 
 
@@ -227,7 +227,7 @@
 
 
 
-### What is the namespace for caching information in .NET? 
+### 19.What is the namespace for caching information in .NET? 
 
 - System.Data.Caching; 
 
@@ -239,7 +239,7 @@
  
  
  
- ### What is an interface in .NET? 
+ ### 20.What is an interface in .NET? 
 - An interface provides a partial implementation for functionality and some abstract or virtual members that must be  implemented by the inheriting entities. It can declare fields too. 
 
 - An interface is responsible for keeping track of what is actually executing and where each executing thread is. 
