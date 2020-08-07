@@ -397,3 +397,10 @@ class Clock extends React.Component {
 - It automatically updates a component
 - setState is asynchronous and might result in out of sync values. <<<<<--CORRECT
 
+#### Q41. What package contains the render() function that renders a React element tree to the DOM?
+
+- `React` 
+- `ReactDOM`  <<<<<--CORRECT
+- `Render`
+- `DOM`
+
