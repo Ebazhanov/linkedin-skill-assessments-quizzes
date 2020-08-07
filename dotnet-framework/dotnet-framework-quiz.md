@@ -125,9 +125,9 @@
 
 - The second string object is modified so it contains the concatenated strings.
 
-- A third string object is created containing the concatenated strings.
+- **A third string object is created containing the concatenated strings.** <= Correct
 
-- **The first string object is modified so it contains the concatenated strings.** <= Correct
+- The first string object is modified so it contains the concatenated strings. 
 
 
 
@@ -137,11 +137,11 @@
 
 - A delegate is an object or collection initializer that adds flexibility, readability and maintainability in C#.
 
-- A delegate in .NET is similar to a function pointer in C or C++. Using a delegate allows the programmer to encapsulate a reference to a method inside a delegate object. <= Correct
+- **A delegate in .NET is similar to a function pointer in C or C++. Using a delegate allows the programmer to encapsulate a reference to a method inside a delegate object.** <= Correct
 
 - A delegate is a collection initializer that adds flexibility, readability and maintainability in .NET.
 
-- **A delegate is an extension method. Using a delegate allows the programmer to add flexibility, readability and maintainability in .NET.** <= Correct
+- A delegate is an extension method. Using a delegate allows the programmer to add flexibility, readability and maintainability in .NET.
 
 
 
