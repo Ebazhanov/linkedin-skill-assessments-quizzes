@@ -27,7 +27,7 @@ mysql Assessment
 #### Q5. MySQL uses environment variables in some of the programs and command-line operations. Which variable is used by the shell to find MySQL programs?
 - [ ] DIR
 - [ ] HOМЕ
-- [ ] PATH
+- [x] PATH
 - [ ] MYSQL_HOME
 
 #### Q6. How can you create a stored procedure in MySQL?
@@ -37,7 +37,7 @@ mysql Assessment
 2 BEGIN 
 3 END;
 ```
-- [ ] `-`
+- [x] `-`
 ```
 1 CREATE PROCEDURE P ()
 2 BEGIN 
@@ -57,7 +57,7 @@ mysql Assessment
 ```
 
 #### Q7. If you were building a table schema to store student grades as a letter (A, B, C, D, or F) which column type would be the best choice?
-- [ ] ENUM
+- [x] ENUM
 - [ ] OTEXT
 - [ ] VARCHAR
 - [ ] LONGTEXT
@@ -128,7 +128,7 @@ mysql Assessment
 
 #### Q12. MySQL server can operate in different SQL modes, depending on the value of the sql_mode system variable. Which mode changes syntax and behavior to conform more closely to standard SQL?
 - [ ] TRADITIONAL
-- [ ] ANSI
+- [x] ANSI
 - [ ] MSSQL
 - [ ] STRICT
 
@@ -159,7 +159,7 @@ mysql Assessment
 #### Q17. What is the best type of query for validating the format of an email address in a MySQL table?
 - [ ] a SQL query using partitions
 - [ ] a SQL query using IS NULL
-- [ ] a SQL query using a regular expression
+- [x] a SQL query using a regular expression
 - [ ] a SQL query using LTRIM Or RTRIM
 
 #### Q18. In MySQL, queries are always followed by what character?
@@ -195,13 +195,13 @@ mysql Assessment
 
 #### Q23. How does MySQL differ from SQL?
 - [ ] SQL is a standard language for retrieving and manipulating data from structured databases. MySQL is a nonrelational database management system that is used to manage SQL databases.
-- [ ] SQL is a standard language for retrieving and manipulating data from structured databases. MySQL is a relational database management system that is used to manage SQL databases.
+- [x] SQL is a standard language for retrieving and manipulating data from structured databases. MySQL is a relational database management system that is used to manage SQL databases.
 - [ ] They are not different. MySQL and SQL refer to the same thing.
 - [ ] My SQL is a language, and SQL is a software application.
 
 #### Q24. If you need to order a table of movies by name, which query will work?
 - [ ] SELECT * FROM movies GROUP BY name
-- [ ] SELECT * FROM movies ORDER BY name
+- [x] SELECT * FROM movies ORDER BY name
 - [ ] SELECT * FROM movies ORDER TABLE by name
 - [ ] SELECT * FROM movies FILTER BY name
 
@@ -213,7 +213,7 @@ mysql Assessment
 
 #### Q26. You are working with very large tables in your database. Which SQL clause do you use to prevent exceedingly large query results?
 - [ ] UNIQUE
-- [ ] LIMIT
+- [x] LIMIT
 - [ ] DISTINCT
 - [ ] CONSTRAINT
 
@@ -249,7 +249,7 @@ mysql Assessment
 
 #### Q32. MySQL option files provide a way to specify commonly used options so that they need not be entered on the command line each time you run a program. What is another name for the option files?
 - [ ] variable settings
-- [ ] configuration files
+- [x] configuration files
 - [ ] help files
 - [ ] default settings
 
@@ -257,4 +257,4 @@ mysql Assessment
 - [ ] storage engine
 - [ ] user accounts
 - [ ] grant tables
-- [ ] data directory
+- [x] data directory
