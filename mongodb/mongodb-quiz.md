@@ -140,7 +140,7 @@ MongoDB Assessment
 	1. db.customers.createIndex("lastName, firstName, ASC")
 	2. db.customers.addIndex({lastName:"ASC", firstName: "ASC"})
 	3. db.customers.newIndex({lastName:1, firstName:1})
-	4. db.customers.createText({lastName: 1, firstName: 1})     <<<<<--CORRECT 
+	4. db.customers.createIndex({lastName:1, firstName: 1})     <<<<<--CORRECT 
 	
 #### Q23. One of the documents in your collection has an _ id based upon an older database design and you want to change it. You write an update command to find the document and replace the _ id but the _ id isnt changed. How should you fix the issue?
 	
