@@ -14,7 +14,7 @@
 | [Bash](https://github.com/Ebazhanov/in-quiz-questions/blob/master/bash/bash-quiz.md) |  partially answered |
 | [C#](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%23/c-sharp-quiz.md) |  answers required |
 | [CSS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/css/css-quiz.md) |  with answers |
-| [.NET](https://github.com/Ebazhanov/in-quiz-questions/blob/master/dotnet-framework/dotnet-framework-quiz.md) |  with answers |
+| [.NET](https://github.com/Ebazhanov/in-quiz-questions/blob/master/dotnet-framework/dotnet-framework-quiz.md) |  partially answered  |
 | [Git](https://github.com/Ebazhanov/in-quiz-questions/blob/master/git/git-quiz.md) :star: | with answers |
 | [Google-analytics](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-analytics/google-analytics-quiz.md) |  with answers |
 | [HTML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/html/html-quiz.md) |  with answers |
@@ -29,15 +29,15 @@
 | [MySQL](https://github.com/Ebazhanov/in-quiz-questions/blob/master/mysql/mysql-quiz.md) |  answers required |
 | [node.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/node.js/node.js-quiz.md) |  with answers |
 | [NoSQL](https://github.com/Ebazhanov/in-quiz-questions/blob/master/nosql/nosql-quiz.md) |  with answers |
-| [objective-c](https://github.com/Ebazhanov/in-quiz-questions/blob/master/objective-c/objective-c_quiz.md) |  with answers |
+| [objective-c](https://github.com/Ebazhanov/in-quiz-questions/blob/master/objective-c/objective-c_quiz.md) |   partially answered |
 | [OOP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/oop/object-oriented-programming-quiz.md) |  with answers |
-| [PHP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/php/php-quiz.md) |  answers required |
+| [PHP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/php/php-quiz.md) |  answers required /  require questions |
 | [Python](https://github.com/Ebazhanov/in-quiz-questions/blob/master/python/python-quiz.md) | with answers |
 | [R](https://github.com/Ebazhanov/in-quiz-questions/blob/master/r/r-quiz.md) |  partially answered |
 | [React.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/react/reactjs-quiz.md) :rose: |  with answers |
-| [REST API](https://github.com/Ebazhanov/in-quiz-questions/blob/master/rest-api/rest-api-quiz.md) :+1: |  with answers |
-| [Search Engine Optimization (SEO)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/seo/search-engine-optimization-quiz.md) |  partially answered |
-| [Swift](https://github.com/Ebazhanov/in-quiz-questions/blob/master/swift/swift_quiz.md) |  with answers |
+| [REST API](https://github.com/Ebazhanov/in-quiz-questions/blob/master/rest-api/rest-api-quiz.md) :+1: |  with answers / Require Questions |
+| [Search Engine Optimization (SEO)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/seo/search-engine-optimization-quiz.md) |  partially answered  |
+| [Swift](https://github.com/Ebazhanov/in-quiz-questions/blob/master/swift/swift-quiz.md) |  with answers |
 | [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md) |  answers required |
 
 ## Contributors ✨
