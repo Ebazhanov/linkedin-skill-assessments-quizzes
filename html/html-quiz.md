@@ -91,36 +91,39 @@
 - [ ] spellcheck
 
 #### Q12. What is the best way to code the sample shown?
+![Sample](https://i.ibb.co/HVwStTZ/sample.png)
 
--   
-```
-<details open>
-    <summary>Parmesan Deviled Eggs</summary>
-    <p>These delectable little bites are made with organic eggs, ...</p>
-</details>
-```
--  
+- 
 ```
 <details>
-    <h4>Parmesan Deviled Eggs</h4>
-    <p>These delectable little bites are made with organic eggs, ...</p>
+   <summary>Parmesan Deviled Eggs</summary>
+   <p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
 </details>
 ```
 
 - 
 ```
-  <h4>Parmesan Deviled Eggs</h4>
-    <p>These delectable little bites are made with organic eggs, ...</p>
+<h4>▸ Parmesan Deviled Eggs</h4>
+<p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
+```
+
+- 
+```
+<details open>
+   <summary>Parmesan Deviled Eggs</summary>
+   <p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
+</details>
 ```
 ^^ CORRECT ^^
 
--   
+- 
 ```
 <details>
-    <summary>Parmesan Deviled Eggs</summary>
-    <p>These delectable little bites are made with organic eggs, ...</p>
-</details>
+	<h4>▸ Parmesan Deviled Eggs</h4>
+	<p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
+</details>	
 ```
+
 
 #### Q13. What is the purpose of the `<samp>` element?
 
@@ -141,8 +144,8 @@ could go in any order.
 
 - [ ] post is used for sending information to the server. get is used for retrieving form information from the server.
 - [ ] get is used for sending information to the server. post is used for retrieving form information from the server.
-- [x] With get, data is included in the form body when send to the server. With post, the data goes through the URL
-- [ ] With post, data is included in the form body when send to the server. With get, the data goes through the URL
+- [ ] With get, data is included in the form body when send to the server. With post, the data goes through the URL
+- [x] With post, data is included in the form body when send to the server. With get, the data goes through the URL
 
 #### Q16. What is the difference between the `<div>` and `<span>` tags?
 
@@ -473,13 +476,13 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 "<kdb>";
 <mark>
 ```
-^^ CORRECT ^^
 
 - 
 ```
 "<code>";
 <pre>
 ```
+^^ CORRECT ^^
 
 #### Q32. What does the `<label>` tag do?
 
@@ -494,37 +497,3 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] _self
 - [ ] _new
 - [ ] _parent
-
-#### Q34. What is the best way to code the sample shown?
-![Sample](https://i.ibb.co/HVwStTZ/sample.png)
-
-- 
-```
-<details>
-   <summary>Parmesan Deviled Eggs</summary>
-   <p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
-</details>
-```
-
-- 
-```
-<h4>▸ Parmesan Deviled Eggs</h4>
-<p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
-```
-
-- 
-```
-<details open>
-   <summary>Parmesan Deviled Eggs</summary>
-   <p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
-</details>
-```
-^^ CORRECT ^^
-
-- 
-```
-<details>
-	<h4>▸ Parmesan Deviled Eggs</h4>
-	<p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
-</details>	
-```
