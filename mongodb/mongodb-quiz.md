@@ -162,3 +162,60 @@ MongoDB Assessment
 	2. You do not need to structure the database to support them.
 	3. They autogenerate reports.
 	4. They run faster than indexed queries.    <<<<<--CORRECT
+
+#### Q26. How often do the members of a replica set send heartbeats to each other?
+	
+	1. every 2 minutes
+	2. every 5 seconds
+	3. every 2 seconds
+	4. every 10 seconds
+
+#### Q27. Which command returns all of the documents in the customers collection?
+
+	1. db.customers.all()
+	2. db.find().customers();
+	3. db.customers.find();
+	4. db.customers.show()
+
+#### Q28. Given a cursor named myCursor, pointing to the customers collection, how to you get basic info about it?
+
+	1. myCursor.stats()
+	2. myCursor.dump()
+	3. myCursor.info()
+	4. myCursor.explain()
+	
+#### Q29. What is true about indexes?
+
+	1. They speed up read access while slowing down writes.   <<<<<--CORRECT
+	2. They secure the database from intruders.
+	3. They speed up reads and writes.
+	4. They speed up write access while slowing down reads.
+	
+#### Q30. What is the preferred format to store geospatial data in MongoDB?
+
+	1. Latitude, longitude
+	2. XML
+	3. GeoJSON
+	4. BSON
+	
+#### Q31. Which programming language is used to write MongoDB queries?
+
+	1. Python
+	2. JavaScript
+	3. SQL
+	4. TypeScript
+
+#### Q32. You have two text fields in your document and you'd like both to be quickly searchable. What should you do?
+
+	1. Create a text index on each field.
+	2. MongoDB is not able to do this.
+	3. Create a compound text index using both fields.
+	4. Create a text index on one field and a single field index on the other.
+	
+#### Q33. To import a CSV file into MongoDB, which command should you issue?
+
+	1. mongorestore
+	2. mongoi
+	3. upload
+	4. mongoimport
+
