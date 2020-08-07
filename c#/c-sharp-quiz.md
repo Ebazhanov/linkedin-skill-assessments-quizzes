@@ -313,7 +313,7 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 #### Q37. When would you use generics in your code? 
 - [ ] to increase code performance 
-- [ ] all of these answers 
+- [x] all of these answers 
 - [ ] when code reuse is a priority 
 - [ ] when type safety is important 
 
