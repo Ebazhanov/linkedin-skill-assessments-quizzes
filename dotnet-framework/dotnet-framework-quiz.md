@@ -213,7 +213,7 @@
  - int y = 3; 
  - y = (int)thisObject=;3; 
 
- - object thisObject = y; ** <= Correct
+ - **object thisObject = y; ** <= Correct
 
 ### 18.What is an abstract class in .NET? 
 
@@ -223,7 +223,7 @@
 
 - An abstract class is responsible for keeping track of what is actually executing and where each executing thread is. 
 
-- An abstract class declares a contract or behavior that implementing classes require. It may declare only properties,  methods, and events with no access modifiers. All the declared members must be implemented. ** <= Correct
+- **An abstract class declares a contract or behavior that implementing classes require. It may declare only properties,  methods, and events with no access modifiers. All the declared members must be implemented. ** <= Correct
 
 
 
@@ -233,7 +233,7 @@
 
  - All.System.Caching; 
 
- - System.Runtime.Caching; <-----CORRECT
+ - **System.Runtime.Caching;** <-----CORRECT
 
  - System.Compiler.Caching; 
  
@@ -246,7 +246,7 @@
 
  - An interface allows developers to create new classes that reuse, extend, and modify the behavior defined in other classes. 
 
- - An interface declares a contract or behavior that implementing classes require. It may declare only properties, methods, and events with no access modifiers. All the declared members must be implemented. ** <= Correct
+ - **An interface declares a contract or behavior that implementing classes require. It may declare only properties, methods, and events with no access modifiers. All the declared members must be implemented. ** <= Correct
 
 ### 21. What does CAS stand for and what does it do? 
 - CAS stands for Code Application Secrets and it enables users to restrict, on a very granular level, what hidden code can do  according to a level of trust for an application. 
@@ -270,20 +270,20 @@
  ### 24. What is the difference between System.String and string? 
  - string is used for fied-size strings in C#, while System.String is used for all the strings. 
  - There is no such class as System.String. 
- -  There is none—string is an alias for System. String. 
+ -  **There is none—string is an alias for System. String. ** <---CORRECT
  - System.String is a VB.NET data type, while string is a C# type. 
  
  ### 25. When break is used inside two nested for loops, does control come out of the inner for loop or the outer for loop? 
  - It breaks from only the outer loop. 
  - It breaks from all loops. 
- - It breaks from only the inner loop.** <= Correct 
+ - **It breaks from only the inner loop.** <= Correct 
  - It breaks from the outer loop after the second iteration. 
 
 ### 26. You want to separate object construction from its representation. Which design pattern best fits this objective? 
  - Adapter 
  - Bridge 
  - Singleton 
- - Builder ** <= Correct
+ - **Builder ** <= Correct
  
  ### 27. You want to encapsulate a command request as an object. Which design pattern best fits this objective? 
 - Command 
