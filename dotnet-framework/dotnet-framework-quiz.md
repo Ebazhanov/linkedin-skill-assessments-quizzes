@@ -291,3 +291,48 @@
 - Facade 
 - Observer 
 
+### 28. Why would Pre-JIT be used by the .NET Framework? 
+- to compile only the methods that are called at runtime and store those methods in cache after execution 
+- to compile complete source code into native code in a single compilation cycle during deployment of the application 
+- to compile only the methods that are called at runtime and then store them in cache for one minute 
+- to compile only the methods that are called at runtime and remove them from memory after execution 
+
+### 29. What do code contracts do? 
+- Code contracts are data structures that can operate on demand per requirements. 
+- Code contracts provide a way to specify preconditions, postconditions, and object invariants in your code. 
+- Code contracts contain definitions for a group of related functionalities that a class or a struct can implement. 
+- Code contracts contain data structures for a group of related functionalities that a class or a struct can implement. 
+
+### 30. You must connect an app to an online identity provider using OAuth. For authentication, the app uses WebAuthenticationBroker object. You need to make sure the app registers with the provider. Which actions do you take? 
+
+- Construct an HTTP request URI and an HTTPS request URI. 
+- Invoke the GetCurrentApplicationCallbackUri method and construct an HTTPS request URI. 
+- Invoke the AuthenticateAsync and GetCurrentApplicationCallbackUri methods. 
+- Invoke the AuthenticateAsync method and construct an HTTPS request URI. 
+
+### 31.You want to create a class of which only a single instance can exist. Which design pattern best fits this objective? 
+- Adapter 
+- Singleton 
+- Bridge 
+- Decorator 
+
+### 32.What is the dependency inversion principle? 
+- Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program. 
+- A class should have only a single responsibility—that is, only changes to one part of the software's specification should be able to affect the specification of the class. 
+- Software entities should be open for extension, but closed for modification. 
+- Entities must depend on abstractions, not on concrete implementations.
+
+### 33.What is a namespace? 
+- a group of generic collections—in a logical hierarchy by function—that enable you to access the core functionality you need in your applications 
+- a group of methods—in a logical hierarchy by class—that enable you to access the core functionality you need in .NET 
+- a group of assemblies—in a logical hierarchy by function—that enable you to access the core functionality you need in  your applications 
+- a group of classes, structures, interfaces, enumerations, and delegates—organized in a logical hierarchy by function  that enable you to access the core functionality you need in your applications 
+
+
+
+
+
+
+
+
+
