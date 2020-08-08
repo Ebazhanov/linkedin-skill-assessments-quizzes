@@ -188,19 +188,19 @@
 
 #### 15.What is the difference between a SDK (software development kit) and runtime in .NET Core? 
 
-- The SDK is the "virtual machine" that hosts and runs the application and abstracts all the interaction with the operating system; the runtime usually includes documentation and other help files. 
+ - The SDK is the "virtual machine" that hosts and runs the application and abstracts all the interaction with the operating system; the runtime usually includes documentation and other help files. 
 
-- The runtime is the virtual machine that hosts and runs the application and abstracts all the interaction with the operating system; the SDK usually includes documentation and other help files. 
+ - The runtime is the virtual machine that hosts and runs the application and abstracts all the interaction with the operating system; the SDK usually includes documentation and other help files. 
 
-- The runtime compiles code along with the CLR; the SDK usually includes documentation and other help files. 
+ - The runtime compiles code along with the CLR; the SDK usually includes documentation and other help files. 
 
-- The SDK compiles code along with the CLR; the runtime usually includes documentation and other help files. 
+ - The SDK compiles code along with the CLR; the runtime usually includes documentation and other help files. 
 
 ### 16. What is the Common Type System (CTS)? 
 
-- the component of CLR in which .NET Framework provides support for several languages since it contains a type system  that is common with all the languages 
+ - the component of CLR in which .NET Framework provides support for several languages since it contains a type system  that is common with all the languages 
 
-- the component of CLI in which .NET Framework provides support for several languages since it contains a type system that  is common with all the languages 
+ - the component of CLI in which .NET Framework provides support for several languages since it contains a type system that  is common with all the languages 
 
  - the component of CLR that allows you to map the content of a file to the logical address of an application 
 
@@ -213,23 +213,23 @@
  - int y = 3; 
  - y = (int)thisObject=;3; 
 
- - object thisObject = y; 
+ - object thisObject = y; ** <= Correct
 
 ### 18.What is an abstract class in .NET? 
 
-- An abstract class provides a partial implementation for functionality and some abstract or virtual members that must be 0implemented by the inheriting entities. It can declare fields too. 
+- An abstract class provides a partial implementation for functionality and some abstract or virtual members that must be implemented by the inheriting entities. It can declare fields too. 
 
 - An abstract class allows developers to create new classes that reuse, extend, and modify the behavior defined in other  classes. 
 
 - An abstract class is responsible for keeping track of what is actually executing and where each executing thread is. 
 
-- An abstract class declares a contract or behavior that implementing classes require. It may declare only properties,  methods, and events with no access modifiers. All the declared members must be implemented. 
+- An abstract class declares a contract or behavior that implementing classes require. It may declare only properties,  methods, and events with no access modifiers. All the declared members must be implemented. ** <= Correct
 
 
 
 ### 19.What is the namespace for caching information in .NET? 
 
-- System.Data.Caching; 
+ - System.Data.Caching; 
 
  - All.System.Caching; 
 
@@ -240,13 +240,13 @@
  
  
  ### 20.What is an interface in .NET? 
-- An interface provides a partial implementation for functionality and some abstract or virtual members that must be  implemented by the inheriting entities. It can declare fields too. 
+ - An interface provides a partial implementation for functionality and some abstract or virtual members that must be  implemented by the inheriting entities. It can declare fields too. 
 
-- An interface is responsible for keeping track of what is actually executing and where each executing thread is. 
+ - An interface is responsible for keeping track of what is actually executing and where each executing thread is. 
 
  - An interface allows developers to create new classes that reuse, extend, and modify the behavior defined in other classes. 
 
- - An interface declares a contract or behavior that implementing classes require. It may declare only properties, methods, and events with no access modifiers. All the declared members must be implemented. 
+ - An interface declares a contract or behavior that implementing classes require. It may declare only properties, methods, and events with no access modifiers. All the declared members must be implemented. ** <= Correct
 
 ### 21. What does CAS stand for and what does it do? 
 - CAS stands for Code Application Secrets and it enables users to restrict, on a very granular level, what hidden code can do  according to a level of trust for an application. 
@@ -257,8 +257,8 @@
 ### 22. Which is NOT true about lambda statements?
  - A statement lambda cannot return a value. 
  - If a statement lambda has a return value, it has to use a return statement. 
-- A statement lambda requires using curly braces. 
-- A statement lambda can have more than one statement. 
+ - A statement lambda requires using curly braces. 
+ - A statement lambda can have more than one statement. 
 
 ### 23. Which is NOT true about a read-only variable? 
  - At runtime, its value is evaluated. 
@@ -268,22 +268,22 @@
  
  
  ### 24. What is the difference between System.String and string? 
- - string is used for fixed-size strings in C#, while System.String is used for all the strings. 
+ - string is used for fied-size strings in C#, while System.String is used for all the strings. 
  - There is no such class as System.String. 
--  There is none—string is an alias for System. String. 
+ -  There is none—string is an alias for System. String. 
  - System.String is a VB.NET data type, while string is a C# type. 
  
  ### 25. When break is used inside two nested for loops, does control come out of the inner for loop or the outer for loop? 
  - It breaks from only the outer loop. 
  - It breaks from all loops. 
- - It breaks from only the inner loop. 
+ - It breaks from only the inner loop.** <= Correct 
  - It breaks from the outer loop after the second iteration. 
 
 ### 26. You want to separate object construction from its representation. Which design pattern best fits this objective? 
  - Adapter 
  - Bridge 
  - Singleton 
- - Builder 
+ - Builder ** <= Correct
  
  ### 27. You want to encapsulate a command request as an object. Which design pattern best fits this objective? 
 - Command 
