@@ -213,7 +213,7 @@
  - int y = 3; 
  - y = (int)thisObject=;3; 
 
- - object thisObject = y; ** <= Correct
+ - **object thisObject = y; ** <= Correct
 
 ### 18.What is an abstract class in .NET? 
 
@@ -223,7 +223,7 @@
 
 - An abstract class is responsible for keeping track of what is actually executing and where each executing thread is. 
 
-- An abstract class declares a contract or behavior that implementing classes require. It may declare only properties,  methods, and events with no access modifiers. All the declared members must be implemented. ** <= Correct
+- **An abstract class declares a contract or behavior that implementing classes require. It may declare only properties,  methods, and events with no access modifiers. All the declared members must be implemented. ** <= Correct
 
 
 
@@ -233,7 +233,7 @@
 
  - All.System.Caching; 
 
- - System.Runtime.Caching; <-----CORRECT
+ - **System.Runtime.Caching;** <-----CORRECT
 
  - System.Compiler.Caching; 
  
@@ -246,7 +246,7 @@
 
  - An interface allows developers to create new classes that reuse, extend, and modify the behavior defined in other classes. 
 
- - An interface declares a contract or behavior that implementing classes require. It may declare only properties, methods, and events with no access modifiers. All the declared members must be implemented. ** <= Correct
+ - **An interface declares a contract or behavior that implementing classes require. It may declare only properties, methods, and events with no access modifiers. All the declared members must be implemented. ** <= Correct
 
 ### 21. What does CAS stand for and what does it do? 
 - CAS stands for Code Application Secrets and it enables users to restrict, on a very granular level, what hidden code can do  according to a level of trust for an application. 
@@ -270,24 +270,69 @@
  ### 24. What is the difference between System.String and string? 
  - string is used for fied-size strings in C#, while System.String is used for all the strings. 
  - There is no such class as System.String. 
- -  There is none—string is an alias for System. String. 
+ -  **There is none—string is an alias for System. String. ** <---CORRECT
  - System.String is a VB.NET data type, while string is a C# type. 
  
  ### 25. When break is used inside two nested for loops, does control come out of the inner for loop or the outer for loop? 
  - It breaks from only the outer loop. 
  - It breaks from all loops. 
- - It breaks from only the inner loop.** <= Correct 
+ - **It breaks from only the inner loop.** <= Correct 
  - It breaks from the outer loop after the second iteration. 
 
 ### 26. You want to separate object construction from its representation. Which design pattern best fits this objective? 
  - Adapter 
  - Bridge 
  - Singleton 
- - Builder ** <= Correct
+ - **Builder ** <= Correct
  
  ### 27. You want to encapsulate a command request as an object. Which design pattern best fits this objective? 
 - Command 
 - Iterator 
 - Facade 
 - Observer 
+
+### 28. Why would Pre-JIT be used by the .NET Framework? 
+- to compile only the methods that are called at runtime and store those methods in cache after execution 
+- to compile complete source code into native code in a single compilation cycle during deployment of the application 
+- to compile only the methods that are called at runtime and then store them in cache for one minute 
+- to compile only the methods that are called at runtime and remove them from memory after execution 
+
+### 29. What do code contracts do? 
+- Code contracts are data structures that can operate on demand per requirements. 
+- Code contracts provide a way to specify preconditions, postconditions, and object invariants in your code. 
+- Code contracts contain definitions for a group of related functionalities that a class or a struct can implement. 
+- Code contracts contain data structures for a group of related functionalities that a class or a struct can implement. 
+
+### 30. You must connect an app to an online identity provider using OAuth. For authentication, the app uses WebAuthenticationBroker object. You need to make sure the app registers with the provider. Which actions do you take? 
+
+- Construct an HTTP request URI and an HTTPS request URI. 
+- Invoke the GetCurrentApplicationCallbackUri method and construct an HTTPS request URI. 
+- Invoke the AuthenticateAsync and GetCurrentApplicationCallbackUri methods. 
+- Invoke the AuthenticateAsync method and construct an HTTPS request URI. 
+
+### 31.You want to create a class of which only a single instance can exist. Which design pattern best fits this objective? 
+- Adapter 
+- Singleton 
+- Bridge 
+- Decorator 
+
+### 32.What is the dependency inversion principle? 
+- Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program. 
+- A class should have only a single responsibility—that is, only changes to one part of the software's specification should be able to affect the specification of the class. 
+- Software entities should be open for extension, but closed for modification. 
+- Entities must depend on abstractions, not on concrete implementations.
+
+### 33.What is a namespace? 
+- a group of generic collections—in a logical hierarchy by function—that enable you to access the core functionality you need in your applications 
+- a group of methods—in a logical hierarchy by class—that enable you to access the core functionality you need in .NET 
+- a group of assemblies—in a logical hierarchy by function—that enable you to access the core functionality you need in  your applications 
+- a group of classes, structures, interfaces, enumerations, and delegates—organized in a logical hierarchy by function  that enable you to access the core functionality you need in your applications 
+
+
+
+
+
+
+
+
 
