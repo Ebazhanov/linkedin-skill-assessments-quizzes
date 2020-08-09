@@ -258,3 +258,27 @@ mysql Assessment
 - [ ] user accounts
 - [ ] grant tables
 - [x] data directory
+
+#### Q34. You need to export the data in the customers table into a CSV file, with columns headers in the first row. Which clause do you add to your MySQL command? 
+- [ ] JOIN
+- [ ] WITH HEADERS
+- [x] UNION
+- [ ] WITH COLUMNS
+
+#### Q35. One form of backup, replication, enables you to maintain identical data on multiple servers, as a ___ configuration. 
+- [ ] remote-local
+- [ ] parent-child
+- [x] master-slave
+- [ ] logical-physical
+
+#### Q36. What is the requirement for using a subquery in the SELECT clause? 
+- [ ] the subquery must use an aggregate function.
+- [ ] the subquery must refer to the same table as the main query.
+- [ ] the subquery must return a single value.
+- [ ] the subquery must return at least one value.
+
+#### Q37. Each time MySQL is upgraded, it is best to execute mysql_upgrade, which looks for incompatibilities with the upgraded MySQL server. What does this command do, upon finding a table with a possible incompatibility? 
+- [?] it performs a table check and, if problems are found, attempts a table repair.
+- [ ] it stops and notifies the server administrator that the upgrade cannot complete until the incompatibility issue are resolved.
+- [ ] it provides a full report of the table specifications and the incompatibilities to the server administrator.
+- [ ] it performs a table check and, if problems are found, displays the information for the server administrator to take action.
