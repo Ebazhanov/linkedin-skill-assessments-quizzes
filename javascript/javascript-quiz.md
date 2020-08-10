@@ -353,9 +353,9 @@ var f2 = function(){
 f2()
 ```
 - 2
-- 1
+- 1 <<<<----Correct
 - Nothing--this code will throw an error.
-- undefined <<<<----Correct
+- undefined 
 
 #### Q42. Which statement is true about Functional Programming?
 - Every object in the program has to be a function.
