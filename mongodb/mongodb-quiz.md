@@ -195,7 +195,7 @@ MongoDB Assessment
 
 	1. Latitude, longitude
 	2. XML
-	3. GeoJSON
+	3. GeoJSON <<<<<--CORRECT
 	4. BSON
 	
 #### Q31. Which programming language is used to write MongoDB queries?
@@ -218,4 +218,11 @@ MongoDB Assessment
 	2. mongoi
 	3. upload
 	4. mongoimport
+	
+#### Q34. In an MongoDB mapReduce command, the reduce function should ____. 
+
+	1. access the database
+	2. be called only when the key has a single value
+	3. acces the database only to perform read operations
+	4. not access the data
 
