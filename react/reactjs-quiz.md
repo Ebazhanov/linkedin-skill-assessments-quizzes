@@ -342,19 +342,8 @@ const Heading = () => {
 - to call a function
 - to bind the function
 
-#### Q36. What do you call the message wrapped in curly braces below?
 
-```javascript
-const message = "Hi there";
-const element = <p>{message}</p>
-```
-
-- a JS element
-- a JS expression
-- a JS function
-- a JSX wrapper <<<<<--CORRECT
-
-#### Q37. What is `[e.target.id]` called in the following code snippet?
+#### Q36. What is `[e.target.id]` called in the following code snippet?
 
 ```javascript
 handleChange(e) {
@@ -367,7 +356,7 @@ handleChange(e) {
 - a dynamic key <<<<<--CORRECT
 - a JSX code string
 
-#### Q38. What is the name of this component?
+#### Q37. What is the name of this component?
 
 ```
 class Clock extends React.Component {
@@ -382,7 +371,7 @@ class Clock extends React.Component {
 - React.Component
 - Component
 
-#### Q39. What is sent to an Array.map() function?
+#### Q38. What is sent to an Array.map() function?
 
 - a callback function that is called once for each element in the array <<<<<--CORRECT
 - the name of another array to iterate over
@@ -390,14 +379,14 @@ class Clock extends React.Component {
 - a string describing what the function should do
 
 
-#### Q40. Why is it a good idea to pass a function to setState instead of an object?
+#### Q39. Why is it a good idea to pass a function to setState instead of an object?
 
 - It is more functional than an object
 - It makes sure that the object is not mutated
 - It automatically updates a component
 - setState is asynchronous and might result in out of sync values. <<<<<--CORRECT
 
-#### Q41. What package contains the render() function that renders a React element tree to the DOM?
+#### Q40. What package contains the render() function that renders a React element tree to the DOM?
 
 - `React` 
 - `ReactDOM`  <<<<<--CORRECT
