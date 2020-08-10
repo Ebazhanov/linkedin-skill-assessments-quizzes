@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-66-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-67-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -134,6 +134,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/topdev10"><img src="https://avatars0.githubusercontent.com/u/44815224?v=4" width="100px;" alt=""/><br /><sub><b>topdev10</b></sub></a><br /><a href="#design-topdev10" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/cookwellwebsite"><img src="https://avatars0.githubusercontent.com/u/67667331?v=4" width="100px;" alt=""/><br /><sub><b>cookwellwebsite</b></sub></a><br /><a href="#design-cookwellwebsite" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/xren935"><img src="https://avatars2.githubusercontent.com/u/59517115?v=4" width="100px;" alt=""/><br /><sub><b>xren935</b></sub></a><br /><a href="#design-xren935" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/nemo369"><img src="https://avatars2.githubusercontent.com/u/5106483?v=4" width="100px;" alt=""/><br /><sub><b>Nemo Frenkel</b></sub></a><br /><a href="#design-nemo369" title="Design">🎨</a></td>
   </tr>
 </table>
 
