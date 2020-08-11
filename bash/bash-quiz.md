@@ -37,7 +37,7 @@ done
 
 - [x] ( command )
 - [ ] sh command
-- [ ] { command }
+- [ ] { command; }
 - [ ] (( command ))
 
 #### Q4. Using "awk", what would the output of this command string be?
@@ -490,6 +490,50 @@ echo $greeting, everybody!
 - [ ] a parameter
 - [x] a vairable
 
+#### Q47. Which statement checks whether the variable num is greater than five?
+
+- [ ] (( $num -gt 5 ))
+- [ ] [[ $num -lt 5 ]]
+- [x] (( $num > 5 ))
+- [ ] $num > 5
+
+#### Q48. Using Bash extended globbing, what will be the output of this command? 
+
+##### *code missing*
+
+- [ ] a
+```bash
+apple
+banana
+```
+
+- [ ] b
+```bash
+apple
+banana
+bananapple
+banapple
+pineapple
+strawberry
+```
+
+- [ ] c
+```bash
+apple
+banana
+bananappple
+banapple
+pineapple
+```
+
+- [ ] d
+```bash
+apple
+banana
+bananapple
+banapple
+pineapple
+```
 
 
 
