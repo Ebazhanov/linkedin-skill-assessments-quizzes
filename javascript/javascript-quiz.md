@@ -103,24 +103,26 @@ console.log('Results shown');`
         return price * 0.85;
        };`
        
- #### 10. What is the result in the console of running the code shown?
- `var Storm = function() {};
- Storm.prototype.precip = 'rain';
- var WinterStorm = function() {};
- WinterStorm.prototype = new Storm();
- WinterStorm.prototype.precip = 'snow';
- var bob = new WinterStorm();
- console.log=(bob.precip);`
+#### 10. What is the result in the console of running the code shown?
+```
+var Storm = function() {};
+Storm.prototype.precip = 'rain';
+var WinterStorm = function() {};
+WinterStorm.prototype = new Storm();
+WinterStorm.prototype.precip = 'snow'; 
+var bob = new WinterStorm();
+console.log(bob.precip);
+```
 - Storm()
 - undefined
 - 'rain'
 - 'snow' <<<---Correct
 
- #### Q11. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?
- - /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/
- - /\d\d:\d\d:\d\d/ <<<---Correct, https://regex101.com/r/6e81up/2
- - /[0-9]+:[0-9]+:[0-9]+/ 
- - /  : : /
+#### Q11. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?
+- /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/
+- /\d\d:\d\d:\d\d/ <<<---Correct, https://regex101.com/r/6e81up/2
+- /[0-9]+:[0-9]+:[0-9]+/ 
+- /  : : /
    
 #### Q12. What is the result in the console of running this code?
 `"use strict";
@@ -360,9 +362,8 @@ f2()
 #### Q42. Which statement is true about Functional Programming?
 - Every object in the program has to be a function.
 - Code is grouped with the state it modifies.
-- Date fields and methods are kept in units. <<<<----May be
+- Date fields and methods are kept in units.
 - Side effecs are not allowed. <<<<<----- I believe it's this, FP shouldn't have side effects; i.e same output evry time, doesn't mutate 
-- array
 
 #### Q43. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
 - You are calling a method named reduce on an object that's declared but has no value.
@@ -376,3 +377,35 @@ let arr = [];
 - 2
 - 0 <<<<----Correct
 - 1
+
+#### Q45. Which of the following is not a unary operator?
+- typeof
+- delete
+- instanceof  <<<<----Correct
+- void
+
+#### Q46. What type of scope does the end variable have in the code shown? 
+```
+var start = 1;
+if (start === 1) {
+ let end = 2;
+}
+```
+- conditional
+- block
+- global   <<<<----Correct
+- function
+
+
+#### Q47. What will the value of y be in this code: 
+
+```
+const x = 6 % 2;
+const y = x ? 'One': 'Two';
+```
+
+One
+undefined
+TRUE
+Two  <<<<----Correct
+
