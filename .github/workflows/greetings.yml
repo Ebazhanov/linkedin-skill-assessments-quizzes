@@ -1,13 +1,17 @@
-name: Greetings
-
+# https://github.com/marketplace/actions/auto-message-for-pr-s-and-issues
+name: Auto message for PR's and Issues
+description: Automatically send hello message to the first PR and Issue for new contributor.
+branding:
+  icon: message-square
+  color: yellow
 on: [pull_request, issues]
-
 jobs:
-  greeting:
+  build:
+    name: Hello new contributor
     runs-on: ubuntu-latest
     steps:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        pr-message: 'Hello, thank you for submitting a pull request!'
-        issue-message: 'Hello @${{ github.actor }} , thank you for submitting an issue!'
+        issue-message: "Hello @${{ github.actor }} , thank you for submitting your first Issue ! 🙂"
+        pr-message: "Hello, thank you for opening your Pull Request ! 👍"
