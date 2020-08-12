@@ -3,7 +3,7 @@ AWS Assessment
 #### Q1. You have an application using a 100 GB MySQL database that you are migrating into AWS. What should you consider when deciding between whether to host the database on RDS for MySQL or Aurora?
 - [ ] cost
 - [ ] ease of maintenance vs. granularity of control
-- [ ] all of these answers
+- [ ] all of these answers<<< Correct
 - [ ] the current storage engine used by the application, such as InnoDB or MyISAM
 
 
@@ -11,7 +11,7 @@ AWS Assessment
 - [ ] Aurora
 - [ ] Neptune
 - [ ] ORDS for MySQL
-- [ ] DynamoDB
+- [ ] DynamoDB<<< Correct
 
 
 #### Q3. Your database is an RDS instance running SQL Server with Multi-AZ replication and you have several older .NET console utilities that perform database operations every 15 seconds. When the cluster has to switch the primary database server to the secondary AZ, the .NET utilities start to report connection failures to the database although other applications are able to access the database. How do you correct this problem?
@@ -24,13 +24,13 @@ AWS Assessment
 #### Q4. What AWS services can help you automate your development pipeline for continuous integration and continuous deployment?
 - [ ] CodePipeline
 - [ ] CodeDeploy
-- [ ] all of these answers
+- [ ] all of these answers<<< Correct
 - [ ] CodeBuild
 
 
 #### Q5. Which AWS service complies with the standards outlined in Payment Card Industry Data Security Standard (PCI DSS) Level 1 for the handling and transmission of credit card data?
 - [ ] API Gateway
-- [ ] all of these answers
+- [ ] all of these answers<<< Correct
 - [ ] Simple Queue Service (SOS)
 - [ ] Kinesis Data Streams
 
@@ -39,21 +39,21 @@ AWS Assessment
 - [ ] EFS
 - [ ] Snowball
 - [ ] OEBS
-- [ ] S3 Glacier
+- [ ] S3 Glacier<<< Correct
 
 
 #### Q7. For your AWS root account, you have generated a random password of the maximum allowed length and included special characters. Which additional steps should you take to secure your AWS root account?
 - [ ] Create an AM role for the account administrator with the highest privileges. Do not store the root password, but when the root account is needed reset the password on the root account via email confirmation and repeat this procedure.
 - [ ] Store your randomly generated password in your organizational secrets database using a service such as 1Password or LastPass, and only grant access to this secret to the DevOps team.
 - [ ] Create IAM accounts for your administrators and attach the AdministratorAccess policy to their accounts. Disable the root account in the user settings.
-- [ ] Create an IAM role for the account administrator with the highest privileges and do not use the root account in day-today operations. Enable two-factor authentication on the root account
+- [ ] Create an IAM role for the account administrator with the highest privileges and do not use the root account in day-today operations. Enable two-factor authentication on the root account<<< Correct
 
 
 #### Q8. Which Elastic Load Balancing option supports Lambda as a target?
 - [ ] Network Load Balancer
 - [ ] Lambda can not be called directly by incoming web requests. You must use API Gateway.
 - [ ] Classic Load Balancer
-- [ ] Application Load Balancer
+- [ ] Application Load Balancer<<< Correct
 
 
 #### Q9. How do you architect a solution for an SQL Server database to be replicated across AWS regions in an active-active architecture?
@@ -66,7 +66,7 @@ AWS Assessment
 #### Q10. What does it cost to launch an EC2 instance from the AWS Marketplace?
 - [ ] All images in the AWS Marketplace incur additional hourly fees in addition to the charges from the instance size you select.
 - [ ] You can only launch images that were created by other users on your AWS account, so you pay only for the instance size you select and the S3 storage costs for the base image.
-- [ ] Each image has its own pricing that could either be free, or include charges for software licensing costs. You will also pay for the instance the image runs on
+- [ ] Each image has its own pricing that could either be free, or include charges for software licensing costs. You will also pay for the instance the image runs on<<< Correct
 - [ ] All images in the AWS Marketplace contain only open-source software with no additional fees and are created by other AWS users. You will pay only for the instance size you select.
 
 
@@ -80,12 +80,12 @@ AWS Assessment
 #### Q12. What in-memory caching server is not supported by ElastiCache?
 - [ ] Redis 5
 - [ ] Memcached
-- [ ] Elasticsearch
+- [ ] Elasticsearch<<< Correct
 - [ ] Redis 3
 
 
 #### Q13. Which AWS service can be used to help generate the documentation required by various compliance standards, such as Payment Card Industry Data Security Standard (PCI DSS) Level 1 for the handling of credit card data?
-- [ ] Artifact
+- [ ] Artifact<<< Correct
 - [ ] DocumentDB
 - [ ] Print out the AWS Compliance summary and keep it with your required documentation for an audit.
 - [ ] Secrets Manager
@@ -95,7 +95,7 @@ AWS Assessment
 - [ ] Use the billing dashboard to create a cost budget. Input the max amount you want to be charged each month. Any charges that occur over this amount will cause AWS to automatically suspend those resources
 - [ ] Using the root AWS account, activate IAM access to the billing information for the account. Make sure your IAM users have the Billing FullAccessGroup policy. Then from the billing dashboard, check the accrued charges once a day.
 - [ ] If you are using the AWS free tier, you will have to confirm the usage of any service that goes over the AWS free tier limits.
-- [ ] Using the root AWS account enable Billing Alerts in the user preferences. Then use CloudWatch to create a billing alarm and set a threshold to a specific dollar amount for your estimated monthly charges.
+- [ ] Using the root AWS account enable Billing Alerts in the user preferences. Then use CloudWatch to create a billing alarm and set a threshold to a specific dollar amount for your estimated monthly charges.<<< Correct
 
 
 #### Q15. You are creating a DynamoDB table to store all movies that have been released since 1938. Your application will allow users to search by movie title and see the details of that film. Given the sample below showing the movie data that you will be importing, what is the best set of keys to apply to this table?
@@ -131,7 +131,7 @@ AWS Assessment
 - [ ] OSMS text message
 - [ ] push notification
 - [ ] email
-- [ ] automated phone call
+- [ ] automated phone call<<< Correct
 
 
 #### Q19. When designing a serverless web application using Lambda, what key concept must you factor into your design?
@@ -144,13 +144,13 @@ AWS Assessment
 #### Q20. A principle of DevOps is to view infrastructure as code. Which AWS service allows you to script your AWS infrastructure?
 - [ ] CloudTrail
 - [ ] CloudFormation
-- [ ] AWS Config
+- [ ] AWS Config<<< Correct
 - [ ] AWS Service Catalog
 
 
 #### Q21. You created a Windows EC2 instance with a public IP address and installed SQL Server. When attempting to connect to SQL Server from SQL Server Enterprise Manager on your local computer, the Windows EC2 instance is unable to establish a connection to the server. What is the first thing you should check?
 - [ ] Check the routing tables for the VPC.
-- [ ] Verify that the assigned security groups allow TCP port 1433 traffic from your current IP address.
+- [ ] Verify that the assigned security groups allow TCP port 1433 traffic from your current IP address.<<< Correct
 - [ ] Check the policies within Windows Firewall
 - [ ] Verify that you are connecting to the instance using a user that is not sa.
 
