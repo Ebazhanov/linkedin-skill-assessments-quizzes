@@ -135,10 +135,10 @@ OAuth authorization server
 
 #### Q22. What OAuth term is used to represent permissions?
 
-token
-scope <- 
-claim
-back channel
+- token
+- scope <- 
+- claim
+- back channel
 
 #### Q23. What additional type of token would you see when using OpenID Connect?
 
