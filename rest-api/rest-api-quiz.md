@@ -90,3 +90,101 @@ REST API Assessment
 - Client-Server
 - Uniform Interface
 - Cacheable
+
+#### Q16. What purpose does a User-Agent serve?
+
+- It identifies the user ID.
+- It identifies the client application or SDK. >>>>>>>>> CORRECT
+- It identifies if the API should expect a user authentication.
+- It identifies if the API should accept microservice traffic.
+
+#### Q17. If you were to add versioning by using the Accept and Content-Type header, what would be the correct format of the header value?
+
+- application/json
+- application/json_version2
+- text/html  <-
+- application/vnd.myapp.v2+json
+
+#### Q18. What is one benefit that OAuth provides over an API key approach?
+
+- A token is encrypted.
+- A token is encoded.
+- A token is scoped to the use case.
+- A token can be shared between systems.
+
+#### Q19. The ability to execute the same API request over and over again without changing the resource's state is an example of _____.
+
+- stateless architecture
+- idempotency <-
+- a uniform interface
+- cacheability
+
+#### Q20. What component can you use to wrap legacy architectures or protocols into a REST interface for easier consumption and integration?
+
+API proxy <-
+API gateway
+OpenAPI
+OAuth authorization server
+
+#### Q21. What protection does a JSON Web Token (JWT) offer to mitigate tampering with its contents?
+
+- transport over SSL
+- encrypted payload
+- a signature <-
+- encoded payload
+
+#### Q22. What OAuth term is used to represent permissions?
+
+- token
+- scope <- 
+- claim
+- back channel
+
+#### Q23. What additional type of token would you see when using OpenID Connect?
+
+- ID token <-
+- refresh token
+- access token
+- auth code token
+
+#### Q24. What should you add to a Cache-Control response header to specify that a response should not be stored in an intermediary cache?
+
+- no-proxy
+- client-only
+- restricted
+- private
+
+#### Q25. Which OAuth grant type can support a refresh token?
+
+- Authorization Code Grant
+- Client Credentials Grant
+- Implicit Grant
+- Authentication Grant
+
+#### Q26. Using OAuth, what scope would you request for write access to the API?
+
+- It varies from API to API.
+- admin
+- write
+- read-write
+
+#### Q27. Which property would you use to include subresources directly into a JSON document?
+
+- _embedded
+- resources
+- subresources
+- _links
+
+#### Q28. What is the best way to track SDK and version usage?
+
+- tracking downloads
+- Accept headers
+- user agents
+- polling users
+
+#### Q29. Which REST constraint allows for the presence of caching, routing, and other systems between the client and server?
+
+- Layered System
+- Stateless
+- Client-Server
+- Cacheable
