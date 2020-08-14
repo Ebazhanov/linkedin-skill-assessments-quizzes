@@ -17,6 +17,7 @@
 | [.NET Framework](https://github.com/Ebazhanov/in-quiz-questions/blob/master/dotnet-framework/dotnet-framework-quiz.md) |  partially answered  |
 | [Git](https://github.com/Ebazhanov/in-quiz-questions/blob/master/git/git-quiz.md) :star: | with answers |
 | [Google-analytics](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-analytics/google-analytics-quiz.md) |  with answers |
+| [Hadoop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/hadoop/hadoop-quiz.md) | answers required |
 | [HTML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/html/html-quiz.md) |  with answers |
 | [Java](https://github.com/Ebazhanov/in-quiz-questions/blob/master/java/java-quiz.md) |  with answers |
 | [Javascript](https://github.com/Ebazhanov/in-quiz-questions/blob/master/javascript/javascript-quiz.md) | with answers |

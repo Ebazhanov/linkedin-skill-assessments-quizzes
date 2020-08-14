@@ -6,12 +6,12 @@ branding:
   color: yellow
 on: [pull_request, issues]
 jobs:
-  build:
+  greeting:
     name: Hello new contributor
     runs-on: ubuntu-latest
     steps:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: "Hello @${{ github.actor }} , thank you for submitting your first Issue ! 🙂"
         pr-message: "Hello, thank you for opening your Pull Request ! 👍"
+        issue-message: "Hello @${{ github.actor }} , thank you for submitting your first Issue ! 🙂"
