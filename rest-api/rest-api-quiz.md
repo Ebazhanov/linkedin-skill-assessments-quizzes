@@ -109,7 +109,7 @@ REST API Assessment
 
 - A token is encrypted.
 - A token is encoded.
-- A token is scoped to the use case.
+- A token is scoped to the use case. <--
 - A token can be shared between systems.
 
 #### Q19. The ability to execute the same API request over and over again without changing the resource's state is an example of _____.
