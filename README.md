@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-69-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-70-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -139,6 +139,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/nemo369"><img src="https://avatars2.githubusercontent.com/u/5106483?v=4" width="100px;" alt=""/><br /><sub><b>Nemo Frenkel</b></sub></a><br /><a href="#design-nemo369" title="Design">🎨</a></td>
     <td align="center"><a href="https://www.hackerrank.com/mdsaifalam96"><img src="https://avatars1.githubusercontent.com/u/38750964?v=4" width="100px;" alt=""/><br /><sub><b>MD SAIF ALAM</b></sub></a><br /><a href="#design-mdsaifalam96" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/borosilva"><img src="https://avatars1.githubusercontent.com/u/16139435?v=4" width="100px;" alt=""/><br /><sub><b>Boris López Araya</b></sub></a><br /><a href="#design-borosilva" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/LarryChiem"><img src="https://avatars0.githubusercontent.com/u/15273129?v=4" width="100px;" alt=""/><br /><sub><b>Larry Chiem</b></sub></a><br /><a href="#design-LarryChiem" title="Design">🎨</a></td>
   </tr>
 </table>
 
