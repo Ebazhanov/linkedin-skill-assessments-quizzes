@@ -251,12 +251,6 @@
 - [ ] (
 - [ ] *
 
-#### Q37. You are working with columns whose width and font size should not be changed. Yet the columns are too narrow to display all the text in each cell. What tool should you use to solve this problem?
-- [ ] Fill Handle
-- [ ] Wrap Text
-- [ ] Sparklines
-- [ ] Centered Alignment
-
 #### Q38. You need to determine the commission earned by each Sales Rep, based on the Sales amounts in B3:B50 and the Commission rate specified in cell A1. You want to enter a formula in C3 and copy it down to C50. Which formula should you use?
 
 || A      | B | C |
