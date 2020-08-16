@@ -295,7 +295,7 @@
 - [ ] 4
 - [ ] 1
 - [ ] 5
-- [ ] 3
+- [x] 3
 
 #### Q43. For an IF function to check whether cell B3 contains a value between 15 and 20 inclusively, what condition should you use?
 - [ ] OR(B3=>15,B3<=20)
