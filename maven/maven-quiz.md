@@ -11,7 +11,7 @@
 
 - [ ] `maven.test.ignore=TRUE`
 - [ ] `maven.test.run=FALSE`
-- [ ] `maven.test.skip=TRUE`
+- [x] `maven.test.skip=TRUE`
 - [ ] `maven.verify.execute=FALSE`
 
 #### Q3. When building a Maven EAR project and specifying the configuration of which projects to include, what is the element in the plugin configuration that contains Enterprise Java Bean projects?
