@@ -46,7 +46,7 @@
 
 - [ ] src/code
 - [ ] src/test/java
-- [ ] src/main/java
+- [x] src/main/java
 - [ ] src/main/resources
 
 #### Q8. Which command is used to run the clean lifecyle followed by verify, install, and package with Maven?
