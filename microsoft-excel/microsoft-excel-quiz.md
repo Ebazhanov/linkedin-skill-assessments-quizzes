@@ -289,7 +289,7 @@
 - [ ] pie chart
 - [ ] XY scatter chart
 - [ ] bar chart
-- [ ] line chart
+- [x] line chart
 
 #### Q42. Your worksheet has the value 27 in cell B3. What value is returned by the function =MOD (B3,6)?
 - [ ] 4
