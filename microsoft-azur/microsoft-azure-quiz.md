@@ -1,3 +1,5 @@
+## Microsoft Azure Assessment
+
 Q1. You need to create an application in Azure AD representing the Kinetico Web App so you can assign directory permissions to the app. To create the application identity, which command will you run?
 
 az ad app permission grant -display-name $appName \ ...
@@ -98,22 +100,7 @@ Enable SolarWinds Performance Monitor from the Azure Marketplace
 
 Q15. When setting your CI/CD pipeline an approval from your product owner is required before a final release to production. What solution do you use to achieve this?
 
-Manual intervention task	
+Manual intervention task
 pre-deployment condition	<<< SHOULD BE THIS
 branch filer
 pre-deployment gate		<<< MAYBE THIS?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
