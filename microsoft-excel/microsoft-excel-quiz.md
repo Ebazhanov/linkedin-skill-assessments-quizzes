@@ -299,12 +299,12 @@
 
 #### Q43. For an IF function to check whether cell B3 contains a value between 15 and 20 inclusively, what condition should you use?
 - [ ] OR(B3=>15,B3<=20)
-- [ ] AND (B3>=15,B3<=20)
+- [x] AND (B3>=15,B3<=20)
 - [ ] OR(B3>15,B3<20)
 - [ ] AND(B3>15, B3<20)
 
 #### Q44. Which of these functions returns the largest value within the range H2:H30?
 - [ ] =MAXIMUM (H2:H30)
-- [ ] =MAX(H2:H30)
+- [x] =MAX(H2:H30)
 - [ ] =LARGE (H2:H30, 29)
 - [ ] =UPPER(H2:H30,1)
