@@ -247,7 +247,7 @@
 
 #### Q36. In Excel, what do most formulas begin with?
 - [ ] :
-- [ ] =
+- [x] =
 - [ ] (
 - [ ] *
 
