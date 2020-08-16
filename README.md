@@ -42,6 +42,7 @@
 | [Search Engine Optimization (SEO)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/seo/search-engine-optimization-quiz.md) |  partially answered  |
 | [Swift](https://github.com/Ebazhanov/in-quiz-questions/blob/master/swift/swift-quiz.md) |  with answers |
 | [Transact-SQL (T-SQL)](https://github.com/JonOrcutt/in-quiz-questions/blob/master/t-sql/t-sql-quiz.md) |  with answers  |
+| [WordPress](https://github.com/JonOrcutt/in-quiz-questions/blob/master/wordpress/wordpress-quiz.md) |  answers required  |
 | [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md) |  answers required |
 
 ## Contributors ✨
