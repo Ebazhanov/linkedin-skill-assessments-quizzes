@@ -5,14 +5,14 @@ Hadoop Assessment
 
 - [ ] final keys
 - [ ] final values
-- [ ] intermediate keys
+- [x] intermediate keys
 - [ ] intermediate values
 
 
 #### Q2. SQL Windowing functions are implemented in Hive using which keywords?
 
 - [ ] UNION DISTINCT, RANK
-- [ ] OVER, RANK
+- [x] OVER, RANK
 - [ ] OVER, EXCEPT
 - [ ] UNION DISTINCT, RANK
 
@@ -20,7 +20,7 @@ Hadoop Assessment
 #### Q3. Rather than adding a Secondary Sort to a slow Reduce job, it is Hadoop best practice to perform which optimization?
 
 - [ ] Add a partitioned shuffle to the Map job.
-- [ ] Add a partitioned shuffle to the Reduce job.
+- [x] Add a partitioned shuffle to the Reduce job.
 - [ ] Break the Reduce job into multiple, chained Reduce jobs.
 - [ ] Break the Reduce job into multiple, chained Map jobs.
 
@@ -30,12 +30,12 @@ Hadoop Assessment
 - [ ] encrypted HTTP
 - [ ] unsigned HTTP
 - [ ] compressed HTTP
-- [ ] signed HTTP
+- [x] signed HTTP
 
 
 #### Q5. MapReduce jobs can be written in which language?
 
-- [ ] Java or Python
+- [x] Java or Python
 - [ ] SQL only
 - [ ] SQL or Java
 - [ ] Python or SQL
@@ -44,7 +44,7 @@ Hadoop Assessment
 #### Q6. To perform local aggregation of the intermediate outputs, MapReduce users can optionally specify which object?
 
 - [ ] Reducer
-- [ ] Combiner
+- [x] Combiner
 - [ ] Mapper
 - [ ] Counter
 
@@ -52,14 +52,14 @@ Hadoop Assessment
 #### Q7. To verify job status, look for the value _____ in the _____.
 
 - [ ] SUCCEEDED; syslog
-- [ ] SUCCEEDED; stdout
+- [x] SUCCEEDED; stdout
 - [ ] DONE; syslog
 - [ ] DONE; stdout
 
 
 #### Q8. Which line of code implements a Reducer method in MapReduce 2.0?
 
-- [ ] public void reduce(Text key, Iterator<IntWritable> values, Context context){…}
+- [x] public void reduce(Text key, Iterator<IntWritable> values, Context context){…}
 - [ ] public static void reduce(Text key, IntWritable[] values, Context context){…}
 - [ ] public static void reduce(Text key, Iterator<IntWritable> values, Context context){…}
 - [ ] public void reduce(Text key, IntWritable[] values, Context context){…}
@@ -70,12 +70,12 @@ Hadoop Assessment
 - [ ] FileInputFormatCounter
 - [ ] FileSystemCounter
 - [ ] JobCounter
-- [ ] TaskCounter
+- [x] TaskCounter (NOT SURE)
 
 
 #### Q10. Hadoop Core supports which CAP capabilities?
 
-- [ ] A, P
+- [x] A, P
 - [ ] C, A
 - [ ] C, P
 - [ ] C, A, P
@@ -84,7 +84,7 @@ Hadoop Assessment
 #### Q11. What are the primary phases of a Reducer?
 
 - [ ] combine, map, and reduce
-- [ ] shuffle, sort, and reduce
+- [x] shuffle, sort, and reduce
 - [ ] reduce, sort, and combine
 - [ ] map, sort, and combine
 
@@ -94,20 +94,20 @@ Hadoop Assessment
 - [ ] Oozie; open source
 - [ ] Oozie; commercial software
 - [ ] Zookeeper; commercial software
-- [ ] Zookeeper; open source
+- [x] Zookeeper; open source
 
 
 #### Q13. For high availability, use multiple nodes of which type?
 
 - [ ] data
-- [ ] name
+- [x] name
 - [ ] memory
 - [ ] worker
 
 
 #### Q14. DataNode supports which type of drives?
 
-- [ ] hot swappable
+- [x] hot swappable
 - [ ] cold swappable
 - [ ] warm swappable
 - [ ] non-swappable
@@ -118,5 +118,28 @@ Hadoop Assessment
 - [ ] on disk of all workers
 - [ ] on disk of the master node
 - [ ] in memory of the master node
-- [ ] in memory of all workers
+- [x] in memory of all workers
 
+
+#### Q16. In a MapReduce job, where does the map() function run?
+
+- [ ] on the reducer nodes of the cluster
+- [x] on the data nodes of the cluster  (NOT SURE)
+- [ ] on the master node of the cluster
+- [ ] on every node of the cluster
+
+
+#### Q17. To reference a master file for lookups during Mapping, what type of cache should be used?
+
+ - [x] distributed cache
+ - [ ] local cache
+ - [ ] partitioned cache
+ - [ ] cluster cache
+ 
+ 
+ #### Q18. Skip bad records provides an option where a certain set of bad input records can be skipped when processing what type of data?
+ 
+ - [ ] cache inputs
+ - [ ] reducer inputs
+ - [ ] intermediate values
+ - [x] map inputs
