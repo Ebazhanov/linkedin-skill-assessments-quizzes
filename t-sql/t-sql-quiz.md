@@ -4,16 +4,16 @@
 #### Q1. Which answer is NOT a type of table index?
 
 - [ ] nonclustered
-- [x] unique
-- [ ] heap
+- [ ] unique
+- [x] heap
 - [ ] hash
 
 #### Q2. The keywords AND, IN, LIKE, and between all belong to a category called what? 
 
 - [ ] joining operations
-- [x] linking operations
+- [ ] linking operations
 - [ ] criteria operations
-- [ ] logical operations
+- [x] logical operations
 
 #### Q3. What is the result of this series of statements?
 
@@ -74,7 +74,7 @@ SELECT @UniqueID AS Result;
 
 #### Q8. You need to find all students that are not on the "Chemistry Cats" team. Which query does NOT work for this task?
 
-- [ ] SELECT * FROM Students
+- [x] SELECT * FROM Students
       WHERE team NOT 'Chemistry Cats';
 
 - [ ] SELECT * FROM Students
@@ -83,14 +83,14 @@ SELECT @UniqueID AS Result;
 - [ ] SELECT * FROM Students
       WHERE team != 'Chemistry Cats';
 
-- [x] SELECT * FROM Students
+- [ ] SELECT * FROM Students
       WHERE NOT team = 'Chemistry Cats';
 
 #### Q9. You need to write a query that returns all Employees that have a LastName starting with the letter A. Which WHERE clause should you use to fill in the blank in this query? 
 
 - [ ] WHERE LastName = A*
 - [ ] WHERE LastName = LIKE '%A%'
-- [x] WHERE LastName LIKE 'A%
+- [x] WHERE LastName LIKE 'A%'
 - [ ] WHERE LastName IN ('A*')
 
 #### Q10. Which query shows the first name, department, and team of all students with the two lowest points?
@@ -111,10 +111,10 @@ SELECT FLOOR(-1234.321)
 
 #### Q12. Which is the best approach to update the last name of the student Donette Figgins to Smith
 
-- [x] UPDATE Students SET last_name = 'Smith' WHERE email = 'dfiggins@rouxacademy.com';
+- [ ] UPDATE Students SET last_name = 'Smith' WHERE email = 'dfiggins@rouxacademy.com';
 - [ ] UPDATE Students SET last_name = 'Figgins' WHERE email = 'dfiggins@rouxacademy.com';
 - [ ] UPDATE Students SET last_name = 'Figgins' WHERE last_name = 'Smith' AND first-name = 'Donette';
-- [ ] UPDATE Students SET last_name = 'Smith' WHERE last_name = 'Figgins' AND first-name = 'Donette';
+- [x] UPDATE Students SET last_name = 'Smith' WHERE last_name = 'Figgins' AND first-name = 'Donette';
 
 #### Q13. Which of these data types is an approximate numeric?
 
@@ -156,9 +156,9 @@ def' AS Result;
 
 #### Q18. To select a random student from the table, which statement could you use?
 
-- [x] SELECT TOP(1) first_name, last_name FROM Students ORDER BY NEWID();
+- [ ] SELECT TOP(1) first_name, last_name FROM Students ORDER BY NEWID();
 - [ ] SELECT TOP(1) RAND(first_name, last_name) FROM Student;
-- [ ] SELECT TOP(1) first_name, last_name FROM Student;
+- [x] SELECT TOP(1) first_name, last_name FROM Student;
 - [ ] SELECT TOP(1) first_name, last_name FROM RAND(Student);
 
 #### Q19. What result is returned after executing the following commands?
@@ -213,3 +213,9 @@ ______ ;
 - [ ] 2 bytes
 - [x] 4 bytes
 - [ ] 8 bytes
+
+#### Q25. What does a RIGHT JOIN ensure?
+- [ ] that only records from the rightmost table will be displayed
+- [ ] that no records from the rightmost table are displayed if the records dont have corresponding records in the left table
+- [ ] that records from the rightmost table will be displayed only if the records have a corresponding value in the leftmost table
+- [x] that all records from the rightmost table are represented in the result, even if there are no corresponding records in the left table
