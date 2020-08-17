@@ -346,3 +346,10 @@ git reset --hard origin/master
 - [x] Use git stash to save your work, then come back later and reapply the stashed commit.
 - [ ] Run git hold to save a local copy of waht you're doing to return to later.
 - [ ] This is not possible, as you cannot save locally without committing.
+
+#### Q41. After staging a series of changes to the index, which command could you used to review prior to a commit.
+
+- [ ] Save your work with git local-cache.
+- [x] Use git stash to save your work, then come back later and reapply the stashed commit.<<--same answer as above but asked in different way.!
+- [ ] Run git hold to save a local copy of waht you're doing to return to later.
+- [ ] This is not possible, as you cannot save locally without committing.
