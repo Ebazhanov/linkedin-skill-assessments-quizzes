@@ -7,21 +7,21 @@ mysql Assessment
 - [x] the subquery
 
 #### Q2. You need to export the entire database, including the database objects, in addition to the data. Which command-line tool do you use?
-- [x] mysqlexport
+- [ ] mysqlexport
 - [ ] mysqladmin
-- [ ] mysqldump
+- [x] mysqldump
 - [ ] mysqld
 
 #### Q3. You must ensure the accuracy and reliability of the data in your database. You assign some constraints to limit the type of data that can go into a table. What type of constraints are you assigning?
 - [ ] row level
 - [ ] database level
-- [ ] column level
+- [x] column level
 - [ ] function leve
 
 #### Q4. Which option of most MySQL command-line programs can be used to get a description of the program's different options?
 - [ ] --options
-- [x] ?
-- [ ] --help
+- [ ] ?
+- [x] --help
 - [ ] -h
 
 #### Q5. MySQL uses environment variables in some of the programs and command-line operations. Which variable is used by the shell to find MySQL programs?
@@ -115,16 +115,17 @@ mysql Assessment
 - [ ] HAVING
 
 #### Q10. Which query would NOT be used to administer a MySQL server?
-- [ ]  USE db
-- [ ] SELECT column FROM tbl
+- [ ] USE db
+- [x] SELECT column FROM tbl
 - [ ] SHOW COLUMNS FROM tb1
 - [ ] SHOW TABLES
 
 #### Q11. What is the product of the database designing phase?
 - [ ] system definition
-- [ ] logical model
+- [x] logical model
 - [ ] physical model
 - [ ] normalized database
+NOT SURE THE QUESTION IS CORRECT. Logical, physical and normalised are all products of the designing phase in this order.
 
 #### Q12. MySQL server can operate in different SQL modes, depending on the value of the sql_mode system variable. Which mode changes syntax and behavior to conform more closely to standard SQL?
 - [ ] TRADITIONAL
@@ -135,7 +136,7 @@ mysql Assessment
 #### Q13. MySQL programs are a set of command-line utilities that are provided with typical MySQL distributions. MySQL is designed to be a database.
 - [ ] database and programming
 - [ ] user and administrator
-- [ ] client and server
+- [x] client and server
 - [ ] syntax and objects
 
 #### Q14. Which MySQL command shows the structure of a table?
@@ -148,7 +149,7 @@ mysql Assessment
 - [x]  administrator schema
 - [ ] encrypted algorithms
 - [ ] user settings
-- [ ] access control lists
+- [x] access control lists
 
 #### Q16. Which MySQL command modifies data records in a table?
 - [x] UPDATE
@@ -274,11 +275,11 @@ mysql Assessment
 #### Q36. What is the requirement for using a subquery in the SELECT clause? 
 - [ ] the subquery must use an aggregate function.
 - [ ] the subquery must refer to the same table as the main query.
-- [ ] the subquery must return a single value.
+- [x] the subquery must return a single value.
 - [ ] the subquery must return at least one value.
 
 #### Q37. Each time MySQL is upgraded, it is best to execute mysql_upgrade, which looks for incompatibilities with the upgraded MySQL server. What does this command do, upon finding a table with a possible incompatibility? 
-- [?] it performs a table check and, if problems are found, attempts a table repair.
+- [x] it performs a table check and, if problems are found, attempts a table repair.
 - [ ] it stops and notifies the server administrator that the upgrade cannot complete until the incompatibility issue are resolved.
 - [ ] it provides a full report of the table specifications and the incompatibilities to the server administrator.
 - [ ] it performs a table check and, if problems are found, displays the information for the server administrator to take action.
