@@ -190,7 +190,7 @@ git cherry-pick {123safd23e}
 
 - [ ] use git show ref/push-notifications
 - [ ] use git show push-notifications
-- [x] use git show head/refs/push-notifications <<--chose thise one not sure though!
+- [x] use git show head/refs/push-notifications <<--chose this one not sure though!
 - [ ] use git show refs/head/push-notifications
 
 #### Q25. Your team lead needs a list of all commits that will be moved before you perform a rebase. Which command can you use to access that information?
@@ -350,6 +350,34 @@ git reset --hard origin/master
 #### Q41. After staging a series of changes to the index, which command could you used to review prior to a commit.
 
 - [ ] Save your work with git local-cache.
-- [x] Use git stash to save your work, then come back later and reapply the stashed commit.<<--same answer as above but asked in different way.!
+- [x] Use git stash to save your work, then come back later and reapply the stashed commit.
 - [ ] Run git hold to save a local copy of waht you're doing to return to later.
 - [ ] This is not possible, as you cannot save locally without committing.
+
+#### Q42. Your current respository has three branches: master,beta and ousg-notifications. You've just finished the notification feature and commit the changes to the push-notification branch, and you want to include them in the beta branch. How can you acccomplish this?
+
+- [x] Check out the master branch and run git merge beta -> push-notifications..
+- [ ] Delete the push-notification branch;it will be committed to the mastre branch automatically.
+- [ ] Check out the push-notifications branch and run git merge beta.
+- [ ] Check out the beta branch and run git merge push-notifications.
+
+#### Q43. You find that your project has a tag and branch both named push-notification,which causes confusion when trying to print out a given referance.How can you specify which branch you want to look at?
+
+- [x] Use git show head/refs/push-notifications.
+- [ ] Use git show push-notifications.
+- [ ] Use git show refs/push-notifications.
+- [ ] Use git show refs/head/push-notifications.
+
+#### Q44. Which statement is true of the git push command?.
+
+- [ ] Commits can be tagged only when they are created.
+- [x] By default a push dosen't sent tags to the remote repository.
+- [ ] Only annotated tags are automatically pushed to the remote repository with a commit.
+- [ ] Tags are pushed to the remote repository with their respective commits.
+
+#### Q45. How can you check your current Git version?
+
+- [x] git --version
+- [ ] git --options
+- [ ] git --current
+- [ ] git --v
