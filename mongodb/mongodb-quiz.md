@@ -32,10 +32,10 @@ MongoDB Assessment
 - _id.getDateTime()
 
 #### Q6. Given a cursor named myCursor, which command returns a boolean value?
-- myCursor.hasNext()
-- myCursor.sort()
-- myCursor.next()
-- myCursor.find() <<<<---CORRECT
+[x] myCursor.hasNext()
+[ ] myCursor.sort()
+[ ] myCursor.next()
+[ ] myCursor.find()
 
 #### Q7. Which command returns a specific document in the user's collection?
 - db.users.find({_id: 1}) <<<<---CORRECT
@@ -68,10 +68,10 @@ MongoDB Assessment
 - Set allowDiskUse to true. <<<<---CORRECT
 
 #### Q12. What is the recommended way to delete a user?
-- db.deleteUser("user")
-- db.removeUser("user") <<<---CORRECT
-- db.remove("user")
-- db.dropUser("user")
+[ ] db.deleteUser("user")
+[ ] db.removeUser("user") DEPRECATED
+[ ] db.remove("user")
+[x] db.dropUser("user")
 
 #### Q13. What the primary database in a replica set fails, when does failover begin?
 - once the primary has been down for 10 minutes
@@ -165,24 +165,24 @@ MongoDB Assessment
 
 #### Q26. How often do the members of a replica set send heartbeats to each other?
 	
-	1. every 2 minutes
-	2. every 5 seconds
-	3. every 2 seconds
-	4. every 10 seconds
+[ ] every 2 minutes
+[ ] every 5 seconds
+[x] every 2 seconds
+[ ] every 10 seconds
 
 #### Q27. Which command returns all of the documents in the customers collection?
 
-	1. db.customers.all()
-	2. db.find().customers();
-	3. db.customers.find();
-	4. db.customers.show()
+[ ] db.customers.all()
+[ ] db.find().customers();
+[x] db.customers.find();
+[ ] db.customers.show()
 
 #### Q28. Given a cursor named myCursor, pointing to the customers collection, how to you get basic info about it?
 
-	1. myCursor.stats()
-	2. myCursor.dump()
-	3. myCursor.info()
-	4. myCursor.explain()
+[ ] myCursor.stats()
+[ ] myCursor.dump()
+[ ] myCursor.info()
+[x] myCursor.explain()
 	
 #### Q29. What is true about indexes?
 
@@ -200,29 +200,29 @@ MongoDB Assessment
 	
 #### Q31. Which programming language is used to write MongoDB queries?
 
-	1. Python
-	2. JavaScript
-	3. SQL
-	4. TypeScript
+[ ] Python
+[x] JavaScript
+[ ] SQL
+[ ] TypeScript
 
 #### Q32. You have two text fields in your document and you'd like both to be quickly searchable. What should you do?
 
-	1. Create a text index on each field.
-	2. MongoDB is not able to do this.
-	3. Create a compound text index using both fields.
-	4. Create a text index on one field and a single field index on the other.
+[x] Create a text index on each field.
+[ ] MongoDB is not able to do this.
+[ ] Create a compound text index using both fields.
+[ ] Create a text index on one field and a single field index on the other.
 	
 #### Q33. To import a CSV file into MongoDB, which command should you issue?
 
-	1. mongorestore
-	2. mongoi
-	3. upload
-	4. mongoimport
+[ ] mongorestore
+[ ] mongoi
+[ ] upload
+[x] mongoimport
 	
 #### Q34. In an MongoDB mapReduce command, the reduce function should ____. 
 
-	1. access the database
-	2. be called only when the key has a single value
-	3. acces the database only to perform read operations
-	4. not access the data
+[ ] access the database
+[ ] be called only when the key has a single value
+[ ] acces the database only to perform read operations
+[x] not access the data
 
