@@ -1,6 +1,6 @@
 #### Q1. To add features, components, and permissions to your Android app, which file needs to be edited?
 
-- [x] AndroidManifest.xml
+- [ ] AndroidManifest.xml
 - [ ] Components.xml
 - [ ] AppManifest.xml
 - [ ] ComponentManifest.xml
@@ -31,12 +31,12 @@
       RecycleView
 - [ ] RecyclerView.Adapter
       RecyclerView.ViewHolder<T extends BaseViewHolder>
-      LinearLAyoutManager
+      LinearLayoutManager
       
       RecycleView
 - [ ] RecyclerView.Adapter
       RecyclerView.ViewHolder
-      LinearLAyoutManager
+      LinearLayoutManager
       
 #### Q6. The Android system kills process when it needs to free up memory. The likelihood of the system killing a given process depends on the state of the process and the activity at the time. With combination of process and activity state is most likely to be killed?
 
@@ -71,10 +71,10 @@
       
 #### Q8. You want to include about and setting modules in your project. Which files accurately reflects their inclusion?
 
-- [ ] in build.gradle:include ':app',':about' ':seetings'
-- [ ] in settings.gradle:include ':app',':about' ':seetings'
-- [ ] in settings.gradle:include ':about',':seeting'
-- [ ] in gradle.properties:include ':app',':about' ':seetings'
+- [ ] in build.gradle:include ':app',':about' ':settings'
+- [ ] in settings.gradle:include ':app',':about' ':settings'
+- [ ] in settings.gradle:include ':about',':settings'
+- [ ] in gradle.properties:include ':app',':about' ':settings'
 
 #### Q9. What is the benifit of using @VisibleForTesting annotation?
 
@@ -99,13 +99,13 @@
         
       defaultConfig {
         ...
-- [ ]   minApiVersion 21
+- [ ]   minSdkVersion 21
         testApiVersion 28
         }
         
       defaultConfig {
         ...
-- [ ]   minApiVersion 21
+- [ ]   minSdkVersion 21
         targetSdkVersion 28
         }
         
@@ -116,9 +116,9 @@
 - [ ] When onStop() is called in the target activity
 - [ ] when calling finish() in the target activity
 
-#### Q12. You need to remove an Event based on it;s id from your API, Which code snippet defines that request in Retrofit?
+#### Q12. You need to remove an Event based on it's id from your API, Which code snippet defines that request in Retrofit?
 
-- [ ] @DELETE("events)
+- [ ] @DELETE("events")
       fun deleteEvent(@Path("id") id: Long): Call<Unit>
 - [ ] @DELETE("events/{id}")
       fun deleteEvent(@Path("id") id: Long): Call<Unit>
@@ -150,14 +150,15 @@
 - [ ] root.findViewById(R.id.text_home)
 - [ ] root.find(R.id.text_home)
 
-#### Q15. Why do you use the Android JUnitRunner when runnig UI tests?
+#### Q15. Why do you use the Android JUnitRunner when running UI tests?
 
 - [ ] The test facilitates loading your test package and the app under test onto a device or emulator, runs the test, and report the results.
 - [ ] The test runner creating screenshots of each screen that displayed while tests are executed.
 - [ ] The test runner facilitates parallelization of test classes by providing for each test class.
 - [ ] The test runner facilitates interacting with visible elements on a device, regardless of the activity or fragment that has focus.
 
-#### Q16. WWhat allows you to properly restore a user's state when an activity is restarted?
+#### Q16
+. What allows you to properly restore a user's state when an activity is restarted?
 
 - [ ] the onSaveInstance()method
 - [ ] all of these answers
