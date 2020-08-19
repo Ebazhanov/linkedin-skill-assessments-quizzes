@@ -416,3 +416,10 @@ Two  <<<<----Correct
 - catch
 - error
 
+
+### Q49. What's one difference between the async and defer attributes of the HTML script tag?
+- The defer attribute can work synchronously.
+- The defer attribute works only with generators.
+- The defer attribute works only with promises.
+- The defer attribute will asynchronously load the scripts in order.   <<<<----Correct
+
