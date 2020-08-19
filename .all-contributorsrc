@@ -688,6 +688,15 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "flyingSquirrel-dev",
+      "name": "FlyingSquirrel",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43737436?v=4",
+      "profile": "https://medium.com/@flyingSquirrel",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,

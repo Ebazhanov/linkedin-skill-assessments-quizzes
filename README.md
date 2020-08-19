@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-73-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-74-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -149,6 +149,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/bilal966"><img src="https://avatars3.githubusercontent.com/u/8384741?v=4" width="100px;" alt=""/><br /><sub><b>Muhammad Bilal Ilyas</b></sub></a><br /><a href="#design-bilal966" title="Design">🎨</a></td>
     <td align="center"><a href="http://alimilani.ir"><img src="https://avatars1.githubusercontent.com/u/59066012?v=4" width="100px;" alt=""/><br /><sub><b>AliMilani</b></sub></a><br /><a href="#design-AliMilani" title="Design">🎨</a></td>
     <td align="center"><a href="https://surajsahani.github.io/"><img src="https://avatars3.githubusercontent.com/u/22853459?v=4" width="100px;" alt=""/><br /><sub><b>Suraj Sahani</b></sub></a><br /><a href="#design-surajsahani" title="Design">🎨</a></td>
+    <td align="center"><a href="https://medium.com/@flyingSquirrel"><img src="https://avatars2.githubusercontent.com/u/43737436?v=4" width="100px;" alt=""/><br /><sub><b>FlyingSquirrel</b></sub></a><br /><a href="#design-flyingSquirrel-dev" title="Design">🎨</a></td>
   </tr>
 </table>
 
