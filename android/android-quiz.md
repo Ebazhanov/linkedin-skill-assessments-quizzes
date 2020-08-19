@@ -1,5 +1,6 @@
 #### Q1. To add features, components, and permissions to your Android app, which file needs to be edited?
 
+
 - [x] AndroidManifest.xml
 - [ ] Components.xml
 - [ ] AppManifest.xml
@@ -31,12 +32,20 @@
       RecycleView
 - [ ] RecyclerView.Adapter
       RecyclerView.ViewHolder<T extends BaseViewHolder>
+      LinearLayoutManager
       LinearLAyoutManager
+
       
       RecycleView
 - [ ] RecyclerView.Adapter
       RecyclerView.ViewHolder
-      LinearLAyoutManager
+      LinearLayoutManager
+      
+      RecycleView
+- [ ] RecyclerView.Adapter<VH extends ViewHolder>
+      RecyclerView.ViewHolder
+      LinearLayoutManager
+  
       
 #### Q6. The Android system kills process when it needs to free up memory. The likelihood of the system killing a given process depends on the state of the process and the activity at the time. With combination of process and activity state is most likely to be killed?
 
@@ -71,10 +80,17 @@
       
 #### Q8. You want to include about and setting modules in your project. Which files accurately reflects their inclusion?
 
+
+- [ ] in build.gradle:include ':app',':about' ':settings'
+- [ ] in settings.gradle:include ':app',':about' ':settings'
+- [ ] in settings.gradle:include ':about',':settings'
+- [ ] in gradle.properties:include ':app',':about' ':settings'
+
 - [ ] in build.gradle:include ':app',':about' ':seetings'
 - [ ] in settings.gradle:include ':app',':about' ':seetings'
 - [ ] in settings.gradle:include ':about',':seeting'
 - [ ] in gradle.properties:include ':app',':about' ':seetings'
+
 
 #### Q9. What is the benifit of using @VisibleForTesting annotation?
 
@@ -99,12 +115,16 @@
         
       defaultConfig {
         ...
+
+- [ ]   minSdkVersion 21
 - [ ]   minApiVersion 21
+
         testApiVersion 28
         }
         
       defaultConfig {
         ...
+- [ ]   minSdkVersion 21
 - [ ]   minApiVersion 21
         targetSdkVersion 28
         }
@@ -152,6 +172,7 @@
 
 #### Q15. Why do you use the Android JUnitRunner when runnig UI tests?
 
+
 - [ ] The test facilitates loading your test package and the app under test onto a device or emulator, runs the test, and report the results.
 - [ ] The test runner creating screenshots of each screen that displayed while tests are executed.
 - [ ] The test runner facilitates parallelization of test classes by providing for each test class.
@@ -164,5 +185,113 @@
 - [ ] persistent storage
 - [ ] ViewModel objects
 
+#### Q17. Given the defination below. how would you get access a TextView with an ID of text_home contained in thr layout file of a Fragment class?
 
+- [ ] root.find(R.id.text_home)
+- [ ] findViewById(R.id.text_home)
+- [ ] root.getById(R.id.text_home)
+- [ ] root.findViewById(R.id.text_home)
 
+#### Q18. IF the main thread is blocked for too long, the system displays the___dialog?
+
+- [ ] Thread Not Responding
+- [ ] Application Paused
+- [ ] Application Not Responding
+- [ ] Application Blocked
+
+#### Q19. How would you retrive the value of a user's email from SharedPreferances while ensuring that the returned value is not null?
+
+- [ ] getPreferances(this).getString(Email,"")
+- [ ] getDefaultSharedPrefarances(this).getString(EMAIL,null)
+- [ ] getDefaultSharedPreferances(this).getString(EMAIL,"")
+- [ ] getPreferances(this).getString(EMAIL,null)
+
+#### Q20. Why is it problematic to define sizes using pixels on Android?
+
+- [ ] Although screen pixel density vary,this does not impact the use of pixels to define sizes.
+- [ ] Large devices always have more pixels so your UI elements will be effected if you define them with pixels.
+- [ ] The same number of pixels may corresponds to different physical sizes, affecting the appearance of your UI elements.
+- [ ] Different devices have different understanding of what a pixel is , affecting the appearance of your UI elements
+
+#### Q20. You need to get a listing devices that are attached to your computer with USB debugging enable. Which command would execute using the Android Debug Bridge?
+
+- [ ] list devices
+- [ ] adb devices
+- [ ] list avd
+- [ ] dir devices
+
+#### Q21. Which drawable defination allows you to achieve the shape below?
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android
+        android:shape="oval">
+- [ ]   <stroke android:width="4dp" android:color="@android:color/white"/>
+        <solid android:color="@android:color/black"/>
+    </shape>
+    
+    <oval xmlns:android="http://schemas.android.com/apk/res/android">
+- [ ]   <stroke android:width="4dp" android:color="@android:color/black"/>
+        <solid android:color="@android:color/white"/>
+    </oval>
+    
+    <shape xmlns:android="http://schemas.android.com/apk/res/android
+        android:shape="oval">
+- [ ]   <stroke android:width="4dp" android:color="@android:color/black"/>
+        <solid android:color="@android:color/white"/>
+    </shape>
+    
+    <shape xmlns:android="http://schemas.android.com/apk/res/android
+        android:shape="oval">
+- [ ]   <stroke android:width="4dp" android:color="@android:color/white"/>
+        <solid android:color="@android:color/white"/>
+    </shape>
+    
+#### Q22. To persist a small collection of key-value data, what should you use?
+
+- [ ] external file storage
+- [ ] SharedPereferances
+- [ ] SQLite
+- [ ] internal file storage
+
+#### Q22. You need to retrive a list of photos from an API. Which code snippet defines an HTML GET request in Retrofit?
+
+- [ ] @GET("photo/{id}"}
+      fun listPhotos(@Path("id") id:Long?) : Call<Photo>
+      
+- [ ] @LIST("photo")
+      fun listPhotos() : Call<List<Photo>>
+      
+- [ ] @GET("photo")
+      fun listPhotos() : Call<Photo>
+      
+- [ ] @GET("photo")
+      fun listPhotos() : Call<List<Photo>>
+      
+#### Q23. Given the test class below, which code snippet would be a correct assertion?
+
+- [ ] assertThat(resultAdd).is(2.0)
+- [ ] assertNotNull(resultAdd)
+- [ ] assertThat(resultAdd).isWqualTo(2.0)
+- [ ] assertThat(resultAdd)
+
+#### Q24. What tag should you use to add a reusable view component to a layour file?
+
+- [ ] <merge/>
+- [ ] <include/>
+- [ ] <layout/>
+- [ ] <add/>
+
+#### Q25. You want to provide a different drawable for devices that are in landscape mode and whose language is set to French. which directory is named correctly?
+
+- [ ] fr-land-drawable
+- [ ] drawable-fr-land
+- [ ] drawable-french-land
+- [ ] french-land-drawable
+
+#### Q26. Why might you need to include the following permission to your app?
+
+android.permission.ACCESS_NETWORK_STATE
+
+- [ ] to monitor the location of the devices so that you don't attempt to make network calls when the user is stationary
+- [ ] to request the ability to make network calls from your app
+- [ ] to monitor the network state of the device so that you can display an in-app banner to the user
+- [ ] to monitor the network state of the devices so that you don't attempt to make network calls when the network is unavailable
