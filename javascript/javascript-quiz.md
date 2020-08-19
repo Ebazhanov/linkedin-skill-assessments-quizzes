@@ -409,3 +409,28 @@ undefined
 TRUE
 Two  <<<<----Correct
 
+
+### Q48. Which keyword is used to create an error?
+- throw   <<<<----Correct
+- exception
+- catch
+- error
+
+
+### Q49. What's one difference between the async and defer attributes of the HTML script tag?
+- The defer attribute can work synchronously.
+- The defer attribute works only with generators.
+- The defer attribute works only with promises.
+- The defer attribute will asynchronously load the scripts in order.   <<<<----Correct
+
+
+### Q50. The following program has a problem. What is it?
+```
+var a;
+var b = (a = 3) ? true: false
+```
+- The condition in the ternary is using the assignment operator.   <<<<----Correct
+- You can't define a variable without initializing it.
+- You can't use a ternary in the right-hand side of an assignment operator.
+- The code is using the deprecated var keyword
+
