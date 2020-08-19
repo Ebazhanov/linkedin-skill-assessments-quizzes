@@ -409,3 +409,10 @@ undefined
 TRUE
 Two  <<<<----Correct
 
+
+### Q48. Which keyword is used to create an error?
+- throw   <<<<----Correct
+- exception
+- catch
+- error
+
