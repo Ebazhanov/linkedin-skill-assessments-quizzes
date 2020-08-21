@@ -200,29 +200,29 @@ MongoDB Assessment
 	
 #### Q31. Which programming language is used to write MongoDB queries?
 
-[ ] Python
-[x] JavaScript
-[ ] SQL
-[ ] TypeScript
+- [ ] Python
+- [x] JavaScript
+- [ ] SQL
+- [ ] TypeScript
 
 #### Q32. You have two text fields in your document and you'd like both to be quickly searchable. What should you do?
 
-[x] Create a text index on each field.
-[ ] MongoDB is not able to do this.
-[ ] Create a compound text index using both fields.
-[ ] Create a text index on one field and a single field index on the other.
+- [x] Create a text index on each field.
+- [ ] MongoDB is not able to do this.
+- [ ] Create a compound text index using both fields.
+- [ ] Create a text index on one field and a single field index on the other.
 	
 #### Q33. To import a CSV file into MongoDB, which command should you issue?
 
-[ ] mongorestore
-[ ] mongoi
-[ ] upload
-[x] mongoimport
+- [ ] mongorestore
+- [ ] mongoi
+- [ ] upload
+- [x] mongoimport
 	
 #### Q34. In an MongoDB mapReduce command, the reduce function should ____. 
 
-[ ] access the database
-[ ] be called only when the key has a single value
-[ ] acces the database only to perform read operations
-[x] not access the data
+- [ ] access the database
+- [ ] be called only when the key has a single value
+- [ ] acces the database only to perform read operations
+- [x] not access the data
 
