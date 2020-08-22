@@ -224,5 +224,5 @@ console.log(arguments);
 - ReferenceError: arguments is not defined 
  - an empty string 
  - undefined 
- - an object representing an array that has five elements 
+ - an object representing an array that has five elements <<<<----Correct
 
