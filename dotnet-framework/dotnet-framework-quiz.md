@@ -255,7 +255,7 @@
 - CAS stands for Code Access Security and it enables users to restrict, on a very granular level, what managed code can do  according to a level of trust. 
 
 ### 22. Which is NOT true about lambda statements?
- - A statement lambda cannot return a value. 
+ - A statement lambda cannot return a value. <= Correct
  - If a statement lambda has a return value, it has to use a return statement. 
  - A statement lambda requires using curly braces. 
  - A statement lambda can have more than one statement. 
@@ -263,7 +263,7 @@
 ### 23. Which is NOT true about a read-only variable? 
  - At runtime, its value is evaluated. 
  - It can be either static or an instance member. 
- - It can be initialized at declaration only. 
+ - It can be initialized at declaration only. <= Correct
  - It can be initialized in either the constructor or the declaration. 
  
  
@@ -286,20 +286,20 @@
  - **Builder ** <= Correct
  
  ### 27. You want to encapsulate a command request as an object. Which design pattern best fits this objective? 
-- Command 
+- Command <= Correct
 - Iterator 
 - Facade 
 - Observer 
 
 ### 28. Why would Pre-JIT be used by the .NET Framework? 
 - to compile only the methods that are called at runtime and store those methods in cache after execution 
-- to compile complete source code into native code in a single compilation cycle during deployment of the application 
+- to compile complete source code into native code in a single compilation cycle during deployment of the application <= Correct
 - to compile only the methods that are called at runtime and then store them in cache for one minute 
 - to compile only the methods that are called at runtime and remove them from memory after execution 
 
 ### 29. What do code contracts do? 
 - Code contracts are data structures that can operate on demand per requirements. 
-- Code contracts provide a way to specify preconditions, postconditions, and object invariants in your code. 
+- Code contracts provide a way to specify preconditions, postconditions, and object invariants in your code. <= Correct 
 - Code contracts contain definitions for a group of related functionalities that a class or a struct can implement. 
 - Code contracts contain data structures for a group of related functionalities that a class or a struct can implement. 
 
@@ -308,11 +308,11 @@
 - Construct an HTTP request URI and an HTTPS request URI. 
 - Invoke the GetCurrentApplicationCallbackUri method and construct an HTTPS request URI. 
 - Invoke the AuthenticateAsync and GetCurrentApplicationCallbackUri methods. 
-- Invoke the AuthenticateAsync method and construct an HTTPS request URI. 
+- Invoke the AuthenticateAsync method and construct an HTTPS request URI.
 
 ### 31.You want to create a class of which only a single instance can exist. Which design pattern best fits this objective? 
 - Adapter 
-- Singleton 
+- Singleton <= Correct
 - Bridge 
 - Decorator 
 
@@ -320,13 +320,13 @@
 - Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program. 
 - A class should have only a single responsibility—that is, only changes to one part of the software's specification should be able to affect the specification of the class. 
 - Software entities should be open for extension, but closed for modification. 
-- Entities must depend on abstractions, not on concrete implementations.
+- Entities must depend on abstractions, not on concrete implementations. <= Correct
 
 ### 33.What is a namespace? 
 - a group of generic collections—in a logical hierarchy by function—that enable you to access the core functionality you need in your applications 
 - a group of methods—in a logical hierarchy by class—that enable you to access the core functionality you need in .NET 
 - a group of assemblies—in a logical hierarchy by function—that enable you to access the core functionality you need in  your applications 
-- a group of classes, structures, interfaces, enumerations, and delegates—organized in a logical hierarchy by function  that enable you to access the core functionality you need in your applications 
+- a group of classes, structures, interfaces, enumerations, and delegates—organized in a logical hierarchy by function  that enable you to access the core functionality you need in your applications <= Correct 
 
 
 
