@@ -122,8 +122,8 @@ Q20. Whichmodule variable holds the resolved aboslue path of the current module 
 - __filename <<<<----Correct
 
 Q21. If the child_process module methods are in scope, what is a current way to execute the command ps -ef using a child process?
-- spawn("ps -ef") <<<<----Correct
-- exec("ps -ef")
+- spawn("ps -ef")
+- exec("ps -ef") <<<<-----Correct
 - exec("ps", "-ef")
 - fork("ps -ef")
 
