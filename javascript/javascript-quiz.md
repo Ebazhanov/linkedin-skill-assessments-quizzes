@@ -14,9 +14,11 @@ JavaScript Assessment
 - A forEach statement is generic, but a for statement ca be used only with an array
 
 #### Q3. Review the code below. Which statement calls the addTax function and passes 50 as an argument?
-`function addTax(total){
+```js
+function addTax(total){
     return total * 1.05;
-}`
+}
+```
 - addTax = 50;
 - return addTax 50;
 - addTax(50); <<<---Correct
@@ -35,18 +37,20 @@ JavaScript Assessment
 - var student = construct Person();
 
 #### Q6. When would the final statement in the code shown be logged to the console?
-`let modal = document.querySelector('#result');
+```js
+let modal = document.querySelector('#result');
 setTimeout(function(){
     modal.classList.remove('hidden);
 }, 10000);
-console.log('Results shown');`
+console.log('Results shown');
+```
 - after 10 second 
 - after results are received from the HTTP request
 - after 10000 seconds
 - immediately <<<<<----Correct
 
 #### Q7. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?
-- `for (var i=1; i<=4; i++){
+- ```for (var i=1; i<=4; i++){
     setTimeout(function(){
         console.log(i);
     }, i*10000);
@@ -104,7 +108,7 @@ console.log('Results shown');`
        };`
        
 #### 10. What is the result in the console of running the code shown?
-```
+```js
 var Storm = function() {};
 Storm.prototype.precip = 'rain';
 var WinterStorm = function() {};
@@ -125,19 +129,23 @@ console.log(bob.precip);
 - /  : : /
    
 #### Q12. What is the result in the console of running this code?
-`"use strict";
+```js
+"use strict";
 function logThis() {
     this.desc = "logger";
     console.log(this);
 }
-new logThis();`
+new logThis();
+```
 - undefined
 - window
 - {desc: "logger"} <<<<---Correct
 - function
 
 #### Q13. How would you reference the text 'avenue' in the code shown?
-`let roadTypes = ['street', 'road', 'avenue', 'circle'];`
+```js
+let roadTypes = ['street', 'road', 'avenue', 'circle'];
+```
 - roadTypes.2
 - roadTypes[3]
 - roadTypes.3
@@ -157,10 +165,12 @@ new logThis();`
 - source
 
 #### Q16. You're adding error handling to the code shown. Which code would you include within the if statement to specify an error message?
-`function addNumbers(x, y){
+```js
+function addNumbers(x, y){
     if (isNaN(x) || isNaN(y)) {
     }
- }`
+}
+```
 - exception('One or both parameters are not numbers')
 - catch('One or both parameters are not numbers')
 - error('One or both parameters are not numbers')
@@ -179,9 +189,11 @@ new logThis();`
 - When you want to loop through a group of statement.
 
 #### Q19. What would be the result in the console of running this code?
-`for (var i=0; i<5; i++){
+```js
+for (var i=0; i<5; i++){
     console.log(i);
- }`
+}
+```
 - 12345
 - 1234
 - 01234 <<<<---Correct
@@ -372,7 +384,7 @@ f2()
 - You are calling a method named reduce on an object that's has a null value.
 
 #### Q44. How many prototype objects are in the chain for the following array?
-let arr = [];
+`let arr = [];`
 - 3
 - 2
 - 0 <<<<----Correct
@@ -398,16 +410,14 @@ if (start === 1) {
 
 
 #### Q47. What will the value of y be in this code: 
-
 ```
 const x = 6 % 2;
 const y = x ? 'One': 'Two';
 ```
-
-One
-undefined
-TRUE
-Two  <<<<----Correct
+- One
+- undefined
+- TRUE
+- Two  <<<<----Correct
 
 
 ### Q48. Which keyword is used to create an error?
@@ -425,7 +435,7 @@ Two  <<<<----Correct
 
 
 ### Q50. The following program has a problem. What is it?
-```
+```js
 var a;
 var b = (a = 3) ? true: false
 ```
@@ -434,3 +444,12 @@ var b = (a = 3) ? true: false
 - You can't use a ternary in the right-hand side of an assignment operator.
 - The code is using the deprecated var keyword
 
+
+### Q51. Which statement references the DOM node created by the code shown?
+```html
+<p class="pull">lorem ipsum</p>
+```
+- `Document.querySelector('class.pull')`
+- `document.querySelector('.pull');`   <<<<----Correct
+- `Document.querySelector('pull')`
+- `Document.querySelector('#pull')`
