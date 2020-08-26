@@ -39,7 +39,7 @@ console.log(person("Jill", "Wolson"))
 - math 
 - class components
 
-#### Q5. Using object literal enhancement, you can put values back into and object. When you log person to the console, what is the output?
+#### Q5. Using object literal enhancement, you can put values back into an object. When you log person to the console, what is the output?
 
 ```javascript
 const name = "Rachel";
