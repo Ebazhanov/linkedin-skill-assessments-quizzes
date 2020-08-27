@@ -329,7 +329,30 @@
 - a group of classes, structures, interfaces, enumerations, and delegates—organized in a logical hierarchy by function  that enable you to access the core functionality you need in your applications <= Correct 
 
 
+### 34.Which of the following selects an anonymous type? 
+- **select new { a.Country, a.Region }** <-----CORRECT
+- select a 
+- select a.Country, a.Region
+- select { a.Country, a.Region } 
 
+### 35.Which is NOT true about a constant variable? 
+- At compile time, the value is evaluated. 
+- Only at declaration can it be initialized. 
+- At runtime, its value is evaluated. 
+- It cannot be static. 
+
+
+### 36.What is the purpose of CLR? 
+- CLR performs various operations such as security checks, spell checks, assembly loading, and thread management. It  provides a secure execution environment for the internet. 
+- CLR sets the rules developers must use for the components that are interlanguage compatible. CLR is reusable across all the .NET-compliant languages. 
+- CLR is a compiler that converts Intermediate Language to a native code. 
+- CLR performs various operations such as memory management, security checks, assembly loading, and thread  management. It also provides a secure execution environment for applications. 
+
+### 37.What is CIL? 
+- Formerly known as MSIL, CIL is a programming language that NET developers use. It represents the lowest possible  level for a language that humans can still read. 
+- CIL is an object-oriented programming language that is a partially compiled code that .NET developers will then  compile to native machine code. 
+- CIL is used to convert a value type to an object type. 
+- CIL is a compiled code library that Microsoft developed as an open specification. Developers use it for security,  versioning, and deployment purposes. 
 
 
 
