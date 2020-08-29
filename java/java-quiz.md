@@ -330,8 +330,8 @@ try{
 }
 ```
 - It will throw a runtime exception
-- It will not compile
-- Hello World! <<<<---Correct
+- It will not compile <<<<---Correct
+- Hello World!
 - Hello World
 
 #### Q28. Which statement is NOT true?
