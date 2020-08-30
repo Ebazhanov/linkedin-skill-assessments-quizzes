@@ -106,8 +106,8 @@ require('child_process').fork('script.js');
 Q18. If EventEmitter is in scope, which of the following lines of code will have an event emitter emitting a change event?
 - EventEmitter.emit(change);
 - EventEmitter.new().emit(change);
-- (new EventEmitter()).emit(change);
-- new EventEmitter(change);  <<<<----Correct
+- (new EventEmitter()).emit(change); <<<<----Correct
+- new EventEmitter(change);  
 
 Q19. Which of th following objects is a stream
 - process.uptime
