@@ -110,6 +110,7 @@ E. Perspective Warp
 
 
 #### Q16. What Photoshop feature was used to convert this image to black and white?
+<img src="https://github.com/Sneheshdutta/in-quiz-questions/blob/master/Photoshop/image/Screenshot%20(444).png?raw=true">
 - [ ] Black and White adjustment layer
 - [ ] Posterize
 - [ ] Threshold
@@ -117,6 +118,7 @@ E. Perspective Warp
 
 
 #### Q17. In the image shown, why is Sharpen Edges grayed out?
+<img src="https://github.com/Sneheshdutta/in-quiz-questions/blob/master/Photoshop/image/Screenshot%20(440).png?raw=true">
 - [ ] The filter doesn't work on a 16-bit image.
 - [ ] The filer is not correctly installed.
 - [ ] The filter doesn't work on a 32-bit image.
@@ -124,6 +126,7 @@ E. Perspective Warp
 
 
 #### Q18. In the image shown, which Camera Raw feature was used to restrict the graduated filter to avoid the statue?
+<img src="https://github.com/Sneheshdutta/in-quiz-questions/blob/master/Photoshop/image/Screenshot%20(443).png?raw=true">
 - [ ] Adjustment Brush
 - [ ] Depth Range Mask
 - [ ] Luminance Range Mask
@@ -137,4 +140,4 @@ E. Perspective Warp
 - [ ] tool presets
 
 
-#### Prove video link of my assignment done(passed >70%): 
+#### Prove video link of my assignment done(passed >70%): https://www.youtube.com/watch?v=3TLGPOWE5SA&t=13s
