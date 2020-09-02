@@ -111,7 +111,7 @@ E. Perspective Warp
 
 
 #### Q16. What Photoshop feature was used to convert this image to black and white? (Ans 3)
-<img src="https://github.com/ebazhanov/in-quiz-questions/blob/master/Photoshop/image/Screenshot%20(444).png?raw=true">
+<img src="https://github.com/ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/image/Screenshot%20(444).png?raw=true">
 - [ ] Black and White adjustment layer
 - [ ] Posterize
 - [ ] Threshold
@@ -119,7 +119,7 @@ E. Perspective Warp
 
 
 #### Q17. In the image shown, why is Sharpen Edges grayed out? (Ans 4)
-<img src="https://github.com/ebazhanov/in-quiz-questions/blob/master/Photoshop/image/Screenshot%20(440).png?raw=true">
+<img src="https://github.com/ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/image/Screenshot%20(440).png?raw=true">
 - [ ] The filter doesn't work on a 16-bit image.
 - [ ] The filer is not correctly installed.
 - [ ] The filter doesn't work on a 32-bit image.
