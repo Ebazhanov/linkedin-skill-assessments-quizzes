@@ -352,10 +352,10 @@ public class Main {
     }
 }
 
-- [5, 1, 10] 
+- [5, 1, 10] <<<<---Correct
 - [10, 5, 1]
 - [1, 5, 10]
-- [10, 1, 5] <<<<---Correct
+- [10, 1, 5]
 
 #### Q30. What is the output of this code?
 
