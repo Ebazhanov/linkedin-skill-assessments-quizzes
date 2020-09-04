@@ -341,7 +341,7 @@ try{
 - An anonymous class may specify both an abstract class and interface as base types
 
 #### Q29. What will this program print out to the console when executed?
-
+```
 public class Main {
     public static void main(String[] args){
        LinkedList<Integer> list = new LinkedList<>();
@@ -351,6 +351,7 @@ public class Main {
        System.out.println(list);
     }
 }
+```
 
 - [5, 1, 10] <<<<---Correct
 - [10, 5, 1]
@@ -358,17 +359,18 @@ public class Main {
 - [10, 1, 5]
 
 #### Q30. What is the output of this code?
-
+```
 class Main {
     public static void main(String[] args){
        String message = "Hello";
-       for (int = 0; i<message.length(); i++){
+       for (int i = 0; i<message.length(); i++){
           System.out.print(message.charAt(i+1));
        }
     }
 }    
+```
 
 - "Hello" 
-- A runtime exception is thrown.
+- A runtime exception is thrown. <<<<---Correct
 - The code does not compile.
-- "ello" <<<<---Correct
+- "ello" 
