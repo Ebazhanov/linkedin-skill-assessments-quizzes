@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-79-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-85-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -8,6 +8,7 @@
 
 | Quiz      |  Status |
 | --------- |  ------ |
+| [Adobe-Photoshop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/adobe-photoshop-quiz.md) | answers required |
 | [Agile Methodologies](https://github.com/Ebazhanov/in-quiz-questions/blob/master/agile-methodologies/agile-methodologies-quiz.md) | with answers |
 | [Android](https://github.com/Ebazhanov/in-quiz-questions/blob/master/android/android-quiz.md) | answers required |
 | [AWS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws/aws-quiz.md) | answers required |
@@ -42,9 +43,10 @@
 | [REST API](https://github.com/Ebazhanov/in-quiz-questions/blob/master/rest-api/rest-api-quiz.md) :+1: |  with answers / Require Questions |
 | [Scala](https://github.com/Ebazhanov/in-quiz-questions/blob/master/scala/scala-quiz.md) |  answers required  |
 | [Search Engine Optimization (SEO)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/seo/search-engine-optimization-quiz.md) |  partially answered  |
+| [SharePoint](https://github.com/Ebazhanov/in-quiz-questions/blob/master/sharepoint/sharepoint-quiz.md) |  with answers  |
 | [Swift](https://github.com/Ebazhanov/in-quiz-questions/blob/master/swift/swift-quiz.md) |  with answers |
 | [Transact-SQL (T-SQL)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/t-sql/t-sql-quiz.md) |  with answers  |
-| [WordPress](https://github.com/Ebazhanov/in-quiz-questions/blob/master/wordpress/wordpress-quiz.md) |  answers required  |
+| [WordPress](https://github.com/Ebazhanov/in-quiz-questions/blob/master/wordpress/wordpress-quiz.md) |  with answers  |
 | [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md) |  answers required |
 
 ## Contributors ✨
@@ -157,6 +159,14 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/MagicLegend"><img src="https://avatars1.githubusercontent.com/u/3169104?v=4" width="100px;" alt=""/><br /><sub><b>MagicLegend</b></sub></a><br /><a href="#design-MagicLegend" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/dkbearsong"><img src="https://avatars0.githubusercontent.com/u/58266063?v=4" width="100px;" alt=""/><br /><sub><b>Dereck Bearsong</b></sub></a><br /><a href="#design-dkbearsong" title="Design">🎨</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/pappu-kumar-pashi-75977a172/"><img src="https://avatars2.githubusercontent.com/u/46879554?v=4" width="100px;" alt=""/><br /><sub><b>Pappu Kumar Pashi</b></sub></a><br /><a href="#design-PappuKP" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/kishore93"><img src="https://avatars0.githubusercontent.com/u/12965564?v=4" width="100px;" alt=""/><br /><sub><b>Venkata Kishore Tavva</b></sub></a><br /><a href="#design-kishore93" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/rafattouqir"><img src="https://avatars2.githubusercontent.com/u/2104659?v=4" width="100px;" alt=""/><br /><sub><b>Rafat Touqir Rafsun</b></sub></a><br /><a href="#design-rafattouqir" title="Design">🎨</a></td>
+    <td align="center"><a href="https://www.scikn.in"><img src="https://avatars2.githubusercontent.com/u/53991169?v=4" width="100px;" alt=""/><br /><sub><b>Snehesh Dutta</b></sub></a><br /><a href="#design-Sneheshdutta" title="Design">🎨</a></td>
+    <td align="center"><a href="http://tik9.github.io/cv"><img src="https://avatars0.githubusercontent.com/u/3178925?v=4" width="100px;" alt=""/><br /><sub><b>Timo Körner</b></sub></a><br /><a href="#design-tik9" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/alexxxan"><img src="https://avatars3.githubusercontent.com/u/70323867?v=4" width="100px;" alt=""/><br /><sub><b>alexxxan</b></sub></a><br /><a href="#design-alexxxan" title="Design">🎨</a></td>
   </tr>
 </table>
 
