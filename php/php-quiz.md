@@ -18,7 +18,7 @@ PHP Assessment
 
 #### Q3. What does this script do?
 ```
-1 $mail = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+1 $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
 2 if ($email === false) {
 3  $emailErr = "Please re-enter valid email";
 4 }
@@ -252,8 +252,8 @@ function process(...$vals) {
  }
 ```
 
--It makes the function variadic, allowing it to accept as an argument an array containing an arbitrary number of values.  -----Maybe
-- It makes the function variadic, allowing it to accept an arbitrary number of arguments that are converted into an array inside the function. 
+-It makes the function variadic, allowing it to accept as an argument an array containing an arbitrary number of values.  -----
+- It makes the function variadic, allowing it to accept an arbitrary number of arguments that are converted into an array inside the function. -----correct
 -It temporarily disables the function while debugging other parts of the script. 
 -It's a placeholder like a TO DO reminder that automatically triggers a notice when you run a script before completing the  function definition. 
 
