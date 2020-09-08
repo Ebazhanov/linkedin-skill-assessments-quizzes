@@ -362,7 +362,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - 
 ```
 <table>
-	<columns colspqn="2" style="background-color: yellow">
+	<columns colspan="2" style="background-color: yellow">
 	<tr>
 		<th>Col 1</th>
 		<th>Col 2</th>
@@ -379,8 +379,8 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 #### Q27. What is the `<hr>`tag typically used for?
 
 - [ ] This tag is depreciated and should not be used.
-- [x] It designates a topic shift within a section at the paragraph level.
-- [ ] It draws a horizontal line.
+- [ ] It designates a topic shift within a section at the paragraph level.
+- [x] It draws a horizontal line.
 - [ ] It designates a shift of topic at the section level.
 
 #### Q28. What should fill the two blanks in the HTML code below?
@@ -497,3 +497,113 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] _self
 - [ ] _new
 - [ ] _parent
+
+#### Q34. What is the most semantically accurate way to mark up this sentence?
+We are fond of our TLAs in web design.
+- [ ]<p> We are fond of our <span title='three-letter acronyms'>TLAs</span> in web design</p>
+- [ ]<p>We are fond of our TLAs in web design</p>
+- [ ]<p>we are fond of our <abbr title='three-letter acronyms'>TLAs</abbr> in web design</p>
+- [ ]<p> we are fond of our <acronym title='three-letter acronym'TLAs</acronym> in web design</p>
+
+#### Q35. What is the correctly nested markup for this list?
+-Office
+  --Staple
+  --Paper
+-Groceries
+  --Milk
+
+<ul>
+<li>office
+	<ol style=circle>
+		<li>staple</li>
+		<li>paper</li>
+	</ol>
+</li>
+<li>groceries
+<ol style=circle>
+<li>milk</li>
+</ol>
+</li>
+</ul>
+
+------------------- correct:
+<ul>
+	<li>office
+	<ul>
+		<li>staple</li>
+		<li>paper</li>
+	</ul>
+	</li>
+	<li>groceries
+	<ul>
+		<li>milk</li>
+	</ul>
+	</li>
+	</ul>
+
+-----------------
+
+<ul>
+<li> office</li>
+<li>staple</li>
+<li>paper</li>
+<li>groceries</li>
+<li>milk</li>
+</ul>
+----------------
+
+
+#### Q36. What code will produce this table?
+
+| col1 (yellow)   | col2 (yellow) |  col3 |
+|----------|-------------|------|
+| first (yellow)|  second (yellow)| third |
+
+<table>
+<group cols=2 style='background-color:yellow'>
+<tr scope=row>
+<th>col1</th>
+<th>col2</th>
+<th>col3</th>
+</tr>
+<tr scope=row>
+<td>first</td>
+<td>second</td>
+<td>third</td>
+</tr>
+</table>
+
+<table>
+<columns colspan=2 style=background-color:yellow>
+<tr>
+<th>col1</th>
+<th>col2</th>
+<th>col3</th>
+</tr>
+<tr>
+<td>first</td>
+<td>second</td>
+<td>third</td>
+</tr>
+</table>
+
+<table>
+<colgroup span=2 style=background-color:yellow>
+<tr>
+<th>col1</th>
+<th>col2</th>
+<th>col3</th>
+</tr>
+<tr>
+<td>first</td>
+<td>second</td>
+<td>third</td>
+</tr>
+</table>
+
+#### Q37. What should fill the blank?
+<link href=phone.css rel=stylesheet ___=print>
+- [x] title
+- [] device
+- [] type
+- [] media
