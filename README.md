@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-86-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-87-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -168,6 +168,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/alexxxan"><img src="https://avatars3.githubusercontent.com/u/70323867?v=4" width="100px;" alt=""/><br /><sub><b>alexxxan</b></sub></a><br /><a href="#design-alexxxan" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/GGJason"><img src="https://avatars0.githubusercontent.com/u/8362482?v=4" width="100px;" alt=""/><br /><sub><b>GGJason</b></sub></a><br /><a href="#design-GGJason" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/lewing00"><img src="https://avatars1.githubusercontent.com/u/46617523?v=4" width="100px;" alt=""/><br /><sub><b>LeeAnna Ewing</b></sub></a><br /><a href="#design-lewing00" title="Design">🎨</a> <a href="#ideas-lewing00" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
