@@ -311,6 +311,43 @@ echo ${!fname}
 - [x] `C` ![C](questionimages/Q30/C.jpg)
 - [ ] `D` ![D](questionimages/Q30/D.jpg)
 
+Here a text based version of Q.30:
+ 
+ll
+-rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30    .
+-rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30   ..
+-rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file1.txt
+-rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file2.txt
+..
+
+ll | sed -e 's,file,text,g'
+
+a) []
+-rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30    .
+-rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30   ..
+-rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file1.file
+-rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file2.file
+..
+
+b) []
+-rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30    .
+-rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30   ..
+-rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file1.txt
+-rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file2.txt
+..
+
+c) []
+-rw-r--r-- 1 frankmolev staff 68 Jun 3 19:30    .
+-rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30  ..
+
+d) [x]
+-rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30    .
+-rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30   ..
+-rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 text1.txt
+-rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 text.txt
+..
+
+
 #### Q31. What is wrong with this script?
 
 ```bash
@@ -445,7 +482,7 @@ fi
 - [ ] One or more characters that only includes integers
 - [ ] Due to a syntax error it is impossible to get the script to print "Is numeric"
 
-#### Q42. What will be the difference between the output on hte screen and the contents of out.txt
+#### Q42. What will be the difference between the output on the screen and the contents of out.txt
 
 ```bash
 mysql < file.sql > out.txt
@@ -499,7 +536,16 @@ echo $greeting, everybody!
 
 #### Q48. Using Bash extended globbing, what will be the output of this command? 
 
-##### *code missing*
+ls -l
+apple
+banana
+bananapple
+banapple
+pineapple
+strawberry
+
+$ shopt -s extglob
+ls -l @(ba*(na)|a+(p)le)
 
 - [ ] a
 ```bash
@@ -535,7 +581,39 @@ banapple
 pineapple
 ```
 
+#### Q49. When used from within a script, which variable contains the name of  the script?
+- [x] $0
+- [] $# // number of positional parameters
+- [] $$ // pid of the current shell
+- [] $@ // array-like construct of all positional parameters
 
 
+#### Q50. What does the + signify at the end of the 10-digit file permissions on data.txt?
+
+ls -l
+-rwx------+ 1 user1 u1 0 Oct 1 10:00 data.txt
+
+- [] There is an SELinux security context
+- [] The sticky bit is set and the file will stay in RAM for speed
+- [x] There is an access control list
+- [] There is an extended attribute such as immutable set
+
+
+Training questions
+#### Q1. What does this command do?
+cat > notes -
+- [x] Accepts text from standard input and places it in "notes"
+- [] Creates "notes" and exits
+- [] Outputs the content of notes and deletes it
+- [] Appends text to the existing "notes"
+
+#### Q2. What is the output of:
+VAR="This old man came rolling"
+echo "${VAR//man/rolling}"
+
+- [x]This old rolling came rolling
+- []This old man came man
+- []This old man came rolling
+- []This old came
 
 
