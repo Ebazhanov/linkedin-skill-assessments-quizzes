@@ -226,6 +226,8 @@ class Main {
 - a negative integer value
 - "12345100000"
 
+Reasoning: The int type in Java can be used to represent any whole number from -2147483648 to 2147483647. Therefore this code will not compile as the number assigned to 'a' is larger than the int type can hold. 
+
 #### Q15. What is the output of this code?
 ```
 class Main {
