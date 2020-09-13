@@ -824,6 +824,15 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "Bob-Johns",
+      "name": "Bob-Johns",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/71194583?v=4",
+      "profile": "https://github.com/Bob-Johns",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
