@@ -47,6 +47,7 @@
 | [SharePoint](https://github.com/Ebazhanov/in-quiz-questions/blob/master/sharepoint/sharepoint-quiz.md) |  with answers  |
 | [Swift](https://github.com/Ebazhanov/in-quiz-questions/blob/master/swift/swift-quiz.md) |  with answers |
 | [Transact-SQL (T-SQL)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/t-sql/t-sql-quiz.md) |  with answers  |
+| [Windows Server](https://github.com/Ebazhanov/in-quiz-questions/blob/master/windows-server/windows-server-quiz.md) |  answers required  |
 | [WordPress](https://github.com/Ebazhanov/in-quiz-questions/blob/master/wordpress/wordpress-quiz.md) |  with answers  |
 | [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md) |  answers required |
 
