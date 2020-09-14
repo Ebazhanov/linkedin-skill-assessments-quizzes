@@ -40,7 +40,7 @@
 - [ ] regression
 - [ ] boosting
 - [ ] bagging
-- [ ] stacking
+- [*] stacking
 
 #### Q08. ____looks at the relationship between predictors and your outcome.
 - [ ] Regression analysis
@@ -115,34 +115,34 @@
 - [ ] You will almost certainly underfit the model.
 - [ ] You will pick the wrong algorithm.
 - [ ] You might not have enough data for both.
-- [ ] You will almost certainly overfit the model.
+- [*] You will almost certainly overfit the model.
 
 #### Q20. Your university wants to use machine learning algorithms to help sort through incoming student applications. An administrator asks if the admissions decisions might be biased against any particular group, such as women. What would be the best answer?
-- [ ] Machine learning algorithms are based on math and statistics, and so by definition will be unbiased.
+- [*] Machine learning algorithms are based on math and statistics, and so by definition will be unbiased.
 - [ ] There is no way to identify bias in the data.
 - [ ] Machine learning algorithms are powerful enough to eliminate bias from the data.
 - [ ] All human-created data is biased, and data scientists need to account for that.
 
 #### Q21. What is stacking?
-- [ ] The predictions of one model become the inputs another.
-- [ ] You use different versions of machine learning algorithms.
+- [] The predictions of one model become the inputs another.
+- [*] You use different versions of machine learning algorithms.
 - [ ] You use several machine learning algorithms to boost your results.
 - [ ] You stack your training set and testing set together.
 
 #### Q22. You want to create a supervised machine learning system that identifies pictures of kittens on social media. To do this, you have collected more than 100,000 images of kittens. What is this collection of images called?
-- [ ] training data
+- [*] training data
 - [ ] linear regression
 - [ ] big data
 - [ ] test data
 
 #### Q23. You are working on a project that involves clustering together images of different dogs. You take image and identify it as your centroid image. What type machine learning algorithm are you using?
 - [ ] centroid reinforcement
-- [ ] K-nearest neighbor
+- [*] K-nearest neighbor
 - [ ] binary classification
 - [ ] K-means clustering
 
 #### Q24. Your company wants you to build an internal email text prediction model to speed up the time that employees spend writing emails. What should you do?
-- [ ] Include training email data from all employees.
+- [*] Include training email data from all employees.
 - [ ] Include training email data from new employees.
 - [ ] Include training email data from seasoned employees.
 - [ ] Include training email data from employees who write the majority of internal emails.
@@ -164,17 +164,17 @@
 #### Q27. Random forest is modified and improved version of which earlier technique?
 - [ ] aggregated trees
 - [ ] boosted trees
-- [ ] bagged trees
+- [*] bagged trees
 - [ ] stacked trees
 
 #### Q28. Self-organizing maps are specialized neural network for which type of machine learning?
-- [ ] semi-supervised learning
+- [*] semi-supervised learning
 - [ ] supervised learning
 - [ ] reinforcement learning
 - [ ] unsupervised learning
 
 #### Q29. Which statement about K-means clustering is true?
-- [ ] In K-means clustering, the initial centroids are sometimes randomly selected.
+- [*] In K-means clustering, the initial centroids are sometimes randomly selected.
 - [ ] K-means clustering is often used in supervised machine learning.
 - [ ] The number of clusters are always randomly selected.
 - [ ] To be accurate, you want your centroids outside of the cluster.
@@ -182,7 +182,7 @@
 #### Q30. You created machine learning system that interacts with its environment and responds to errors and rewards. What type of machine learning system is it?
 - [ ] supervised learning
 - [ ] semi-supervised learning
-- [ ] reinforcement learning
+- [*] reinforcement learning
 - [ ] unsupervised learning
 
 #### Q31. Your data science team must build a binary classifier, and the number one criterion is the fastest possible scoring at deployment. It may even be deployed in real time. Which technique will produce a model that will likely be fastest for the deployment team use to new cases?
