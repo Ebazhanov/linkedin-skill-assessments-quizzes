@@ -203,4 +203,82 @@
 - [ ] reinforcement learning
 - [ ] semi-unsupervised learning
 
+#### Q34. You work for a large credit card processing company that wants to create targeted promotions for its customers. The data science team created a machine learning system that groups together customers who made similar purchases, and divides those customers based on customer loyalty. How would you describe this machine learning approach? 
+
+- [ ]  It uses unsupervised learning to cluster together transactions and unsupervised learning to classify the customers. 
+- [ ]  It uses only unsupervised machine learning. 
+- [ ]  It uses supervised learning to create clusters and unsupervised learning for classification. 
+- [ ]  It uses reinforcement learning to classify the customers.
+
+#### Q35. You are using K-nearest neighbor and you have a K of 1. What are you likely to see when you train the model? 
+
+- [ ]  high variance and low bias 
+- [ ]  low bias and low variance 
+- [ ]  low variance and high bias 
+- [ ]  high bias and high variance
+
+
+#### Q36. Are data model bias and variance a challenge with unsupervised learning? 
+
+- [ ]  No, data model bias and variance are only a challenge with reinforcement learning. 
+- [ ]  Yes, data model bias is a challenge when the machine creates clusters. 
+- [ ]  Yes, data model variance trains the unsupervised machine learning algorithm. 
+- [ ]  No, data model bias and variance involve supervised learning.
+
+#### Q37. Which choice is best for binary classification? 
+
+- [ ]  K-means 
+- [ ]  Logistic regression 
+- [ ]  Linear regression 
+- [ ]  Principal Component Analysis (PCA)
+
+#### Q38. With traditional programming, the programmer typically inputs commands. With machine learning, the programmer inputs 
+
+- [ ]  supervised learning 
+- [ ]  data 
+- [ ]  unsupervised learning 
+- [ ]  algorithms
+
+#### Q39. Why is it important for machine learning algorithms to have access to high-quality data? 
+
+- [ ]  It will take too long for programmers to scrub poor data. 
+- [ ]  If the data is high quality, the algorithms will be easier to develop. 
+- [ ]  Low-quality data requires much more processing power than high-quality data. 
+- [ ]  If the data is low quality, you will get inaccurate results.
+
+#### Q40. In K-nearest neighbor, the closer you are to neighbor, the more likely you are to 
+
+- [ ]  share common characteristics 
+- [ ]  be part of the root node 
+- [ ]  have a Euclidean connection 
+- [ ]  be part of the same cluster
+
+#### Q41. In the HBO show Silicon Valley, one of the characters creates a mobile application called Not Hot Dog. It works by having the user take a photograph of food with their mobile device. Then the app says whether the food is a hot dog. To create the app, the software developer uploaded hundreds of thousands of pictures of hot dogs. How would you describe this type of machine learning?
+
+- [ ]  Reinforcement machine learning 
+- [ ]  unsupervised machine learning 
+- [ ]  supervised machine learnin9 
+- [ ]  semi-supervised machine learning
+    
+#### Q42. You work for a large pharmaceutical company whose data science team wants to use unsupervised learning machine algorithms to help discover new drugs. What is an advantage to this approach? 
+
+- [ ]  You will be able to prioritize different classes of drugs, such as antibiotics. 
+- [ ]  You can create a training set of drugs you would like to discover. 
+- [ ]  The algorithms will cluster together drugs that have similar traits. 
+- [ ]  Human experts can create classes of drugs to help guide discovery.
+
+#### Q43. In 2015, Google created a machine learning system that could beat a human in the game of Go. This extremely complex game is thought to have more gameplay possibilities than there are atoms of the universe. The first version of the system won by observing hundreds of thousands of hours of human gameplay; the second version learned how to play by getting rewards while playing against itself. How would you describe this transition to different machine learning approaches? 
+
+- [ ]  The system went from from supervised learning to reinforcement learning. 
+- [ ]  The system evolved from supervised learning to unsupervised learning. 
+- [ ]  The system evolved from unsupervised learnin9 to supervised learning. 
+- [ ]  The system evolved from reinforcement learning to unsupervised learning.
+
+#### Q44. The security company you work for is thinking about adding machine learning algorithms to their computer network threat detection appliance. What is one advantage of using machine learning? 
+
+- [ ]  It could better protect against undiscovered threats. 
+- [ ]  It would very likely lower the hardware requirements. 
+- [ ]  It would substantially shorten your development time. 
+- [ ]  It would increase the speed of the appliance.
+
 [✔]
