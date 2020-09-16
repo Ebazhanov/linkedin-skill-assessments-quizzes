@@ -851,6 +851,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "jackyli-work",
+      "name": "Jacky Li",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/54344547?v=4",
+      "profile": "https://github.com/jackyli-work",
+      "contributions": [
+        "code",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
