@@ -106,3 +106,9 @@
 - [ ] 15
 - [ ] 0
 - [ ] 5
+
+#### Q16. What user role would you assign to someone so they can write and publish only their posts and no one else´s?
+- [ ] Subscriber
+- [ ] Editor
+- [ ] Contributor
+- [ ] Author
