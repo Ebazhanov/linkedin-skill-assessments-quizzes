@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-93-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-94-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -179,6 +179,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/jackyli-work"><img src="https://avatars2.githubusercontent.com/u/54344547?v=4" width="100px;" alt=""/><br /><sub><b>Jacky Li</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=jackyli-work" title="Code">💻</a> <a href="#content-jackyli-work" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/sarthaktrivedi99"><img src="https://avatars3.githubusercontent.com/u/4245783?v=4" width="100px;" alt=""/><br /><sub><b>Sarthak Trivedi</b></sub></a><br /><a href="#design-sarthaktrivedi99" title="Design">🎨</a></td>
+    <td align="center"><a href="http://ayushaggarwal.com"><img src="https://avatars3.githubusercontent.com/u/17214678?v=4" width="100px;" alt=""/><br /><sub><b>Ayush Aggarwal</b></sub></a><br /><a href="#design-ayushagg31" title="Design">🎨</a></td>
   </tr>
 </table>
 
