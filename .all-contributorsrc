@@ -861,6 +861,15 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "sarthaktrivedi99",
+      "name": "Sarthak Trivedi",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4245783?v=4",
+      "profile": "https://github.com/sarthaktrivedi99",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
