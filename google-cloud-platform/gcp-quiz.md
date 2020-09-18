@@ -1,4 +1,4 @@
-AWS Assessment
+Google Cloud Platform (GCP) Assessment
 ---------------------
 #### Q1. You want to schedule a cron job to send a message to a Cloud Pub/Sub topic hourly. What do you do?
 - [ ] Create a Cloud Function with a targer of HTTP
