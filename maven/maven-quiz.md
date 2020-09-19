@@ -52,7 +52,7 @@
 #### Q8. Which command is used to run the clean lifecyle followed by verify, install, and package with Maven?
 
 - [ ] `mvn clean istall package`
-- [ ] `mvn package`
+- [x] `mvn package`
 - [ ] `mvn clean install`
 - [ ] Option 4
 ```shell script
