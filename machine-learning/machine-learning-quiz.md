@@ -1,7 +1,7 @@
 ﻿## Machine Learning Assessment
 
 #### Q01. You are part of data science team that is working for a national fast-food chain. You create a simple report that shows trend: Customers who visit the store more often and buy smaller meals spend more than customers who visit less frequently and buy larger meals. What is the most likely diagram that your team created?
-- [ ] multiclass classification diagram
+- [x] multiclass classification diagram
 - [ ] linear regression and scatter plots
 - [ ] pivot table
 - [ ] K-means cluster diagram 
@@ -10,24 +10,24 @@
 - [ ] The product would look for new patterns in spam messages.
 - [ ] The product could go through the keyword list much more quickly.
 - [ ] The product could have a much longer keyword list.
-- [ ] The product could find spam messages using far fewer keywords.
+- [x] The product could find spam messages using far fewer keywords.
 
 #### Q03. You work for a music streaming service and want to use supervised machine learning to classify music into different genres. Your service has collected thousands of songs in each genre, and you used this as your training data. Now you pull out a small random subset of all the songs in your service. What is this subset called?
 - [ ] data cluster
 - [ ] Supervised set
 - [ ] big data
-- [ ] test data
+- [x] test data
 
 #### Q04. In traditional computer programming, you input commands. What do you input with machine learning?
 - [ ] patterns
 - [ ] programs
 - [ ] rules
-- [ ] data
+- [x] data
 
 #### Q05. Your company wants to predict whether existing automotive insurance customers are more likely to buy homeowners insurance. It created a model to better predict the best customers contact about homeowners insurance, and the model had a low variance but high bias. What does that say about the data model?
 - [ ] It was consistently wrong.
 - [ ] It was inconsistently wrong.
-- [ ] It was consistently right.
+- [x] It was consistently right.
 - [ ] It was equally right end wrong.
 
 #### Q06. You want to identify global weather patterns that may have been affected by climate change. To do so, you want to use machine learning algorithms to find patterns that would otherwise be imperceptible to a human meteorologist. What is the place to start?
@@ -43,7 +43,7 @@
 - [x] stacking
 
 #### Q08. ____looks at the relationship between predictors and your outcome.
-- [ ] Regression analysis
+- [x] Regression analysis
 - [ ] K-means clustering
 - [ ] Big data
 - [ ] Unsupervised learning
@@ -76,12 +76,12 @@
 #### Q13. Why is naive Bayes called naive?
 - [ ] It naively assumes that you will have no data.
 - [ ] It does not even try to create accurate predictions.
-- [ ] It naively assumes that the predictors are independent from one another.
+- [x] It naively assumes that the predictors are independent from one another.
 - [ ] It naively assumes that all the predictors depend on one another.
 
 #### Q14. You work for an ice cream shop and created the chart below, which shows the relationship between the outside temperature and ice cream sales. What is the best description of this chart?
 ![Machine Learning Q14](images/machine-learning_Q14.jpg)
-- [ ] It is a linear regression chart.
+- [x] It is a linear regression chart.
 - [ ] It is a supervised trendline chart.
 - [ ] It is a decision tree.
 - [ ] It is a clustering trend chart.
@@ -195,7 +195,7 @@
 - [ ] Higher K values will produce noisy data.
 - [ ] Higher K values lower the bias but increase the variance.
 - [ ] Higher K values need a larger training set.
-- [ ] Higher K values lower the variance but increase the bias.
+- [x] Higher K values lower the variance but increase the bias.
 
 #### Q33. Your machine learning system is attempting to describe a hidden structure from unlabeled data. How would you describe this machine learning method?
 - [ ] supervised learning
