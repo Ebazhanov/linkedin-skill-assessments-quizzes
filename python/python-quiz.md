@@ -132,8 +132,8 @@ return list(enumerate(college_years, 2019)
 
 #### Q14. How does "defaultdict" work?
 - [ ] `"defaultdict" will automatically create a dictionary for you that has keys which are the integers 0-10`
-- [x] `"defaultdict" forces a dictionary to only accept keys that are of the types specified when you created the "defaultdict" (such as string or integers).`
-- [ ] `If you try to access a key in a dictionary that doesn't exist, "defaultdict" will create a new key for you instead of throwing a "KeyError".`
+- [ ] `"defaultdict" forces a dictionary to only accept keys that are of the types specified when you created the "defaultdict" (such as string or integers).`
+- [x] `If you try to access a key in a dictionary that doesn't exist, "defaultdict" will create a new key for you instead of throwing a "KeyError".`
 - [ ] `"defaultdict" stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.`
 
 #### Q15. What is the correct syntax for defining a class called "Game", if it inherits from a parent class called "LogicGame"?
