@@ -5,7 +5,7 @@
 - [ ] Plugins
 - [ ] Build
 - [ ] Properties
-- [ ] Parent
+- [x] Parent
 
 #### Q2. If you wish to build and package your artifact using the Maven package goal but don't want to execute the unit tests, which environment variable and value would you use?
 
@@ -24,7 +24,7 @@
 #### Q4. The goal that is executed to generate and deploy a documentation website is ___.
 
 - [ ] deliver
-- [ ] site
+- [x] site
 - [ ] doc
 - [ ] deploy
 
