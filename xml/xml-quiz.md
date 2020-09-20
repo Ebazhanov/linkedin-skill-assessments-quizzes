@@ -35,7 +35,7 @@
 
 - [ ] The `<car>` element can be extended with only one attribute
 - [ ] The `<car>` element can be extended with multiple attributes
-- [ ] The `<car>` element have any attributes
+- [x] The `<car>` element have any attributes
 - [ ] The `<car>` element has child elements which can appear in order
 
 #### Q3. You are converting your HTML file into XHTML Strict. Which code snippet will validate without errors?
