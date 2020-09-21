@@ -228,14 +228,14 @@
 #### Q37. Which choice is best for binary classification? 
 
 - [ ]  K-means 
-- [ ]  Logistic regression 
+- [x]  Logistic regression 
 - [ ]  Linear regression 
 - [ ]  Principal Component Analysis (PCA)
 
 #### Q38. With traditional programming, the programmer typically inputs commands. With machine learning, the programmer inputs 
 
 - [ ]  supervised learning 
-- [ ]  data 
+- [x]  data 
 - [ ]  unsupervised learning 
 - [ ]  algorithms
 
@@ -264,7 +264,7 @@
 
 - [ ]  You will be able to prioritize different classes of drugs, such as antibiotics. 
 - [ ]  You can create a training set of drugs you would like to discover. 
-- [ ]  The algorithms will cluster together drugs that have similar traits. 
+- [x]  The algorithms will cluster together drugs that have similar traits. 
 - [ ]  Human experts can create classes of drugs to help guide discovery.
 
 #### Q43. In 2015, Google created a machine learning system that could beat a human in the game of Go. This extremely complex game is thought to have more gameplay possibilities than there are atoms of the universe. The first version of the system won by observing hundreds of thousands of hours of human gameplay; the second version learned how to play by getting rewards while playing against itself. How would you describe this transition to different machine learning approaches? 
