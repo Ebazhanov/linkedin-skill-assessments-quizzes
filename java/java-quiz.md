@@ -7,6 +7,8 @@ Java Assessment
 - awb
 - traw
 
+Reasoning: The substring method is accepting two arugments. The first argument being the index to start(includes that char at 2) and the second the index of the string to end the substring(excludes the char at 5). Strings in Java are like arrays of chars. Therefore the method will return "raw" as those are the chars in indexs 2,3, and 4. You can also take the ending index and subtract the beginning index from it, to determine how many chars will be included in the substring (5-2=3).
+
 #### Q2. How can you achieve runtime polymorphism in Java?
 - method overloading
 - method overrunning
@@ -223,6 +225,8 @@ class Main {
 - Nothing - this will not compile. <<<<---Correct
 - a negative integer value
 - "12345100000"
+
+Reasoning: The int type in Java can be used to represent any whole number from -2147483648 to 2147483647. Therefore this code will not compile as the number assigned to 'a' is larger than the int type can hold. 
 
 #### Q15. What is the output of this code?
 ```
