@@ -559,6 +559,8 @@ We are fond of our TLAs in web design.
 |----------|-------------|------|
 | first (yellow)|  second (yellow)| third |
 
+- [ ] .
+```
 <table>
 <group cols=2 style='background-color:yellow'>
 <tr scope=row>
@@ -572,7 +574,10 @@ We are fond of our TLAs in web design.
 <td>third</td>
 </tr>
 </table>
+```
 
+- [ ] .
+```
 <table>
 <columns colspan=2 style=background-color:yellow>
 <tr>
@@ -586,7 +591,10 @@ We are fond of our TLAs in web design.
 <td>third</td>
 </tr>
 </table>
+```
 
+- [x] .
+```
 <table>
 <colgroup span=2 style=background-color:yellow>
 <tr>
@@ -600,6 +608,7 @@ We are fond of our TLAs in web design.
 <td>third</td>
 </tr>
 </table>
+```
 
 #### Q37. What should fill the blank?
 <link href=phone.css rel=stylesheet ___=print>
