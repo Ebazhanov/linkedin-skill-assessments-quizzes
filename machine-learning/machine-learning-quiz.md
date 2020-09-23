@@ -282,3 +282,34 @@
 - [ ]  It would increase the speed of the appliance.
 
 [✔]
+#### QTraining1. You work for a hospital that is tracking the community spread of a virus. The hospital created a smartwatch app that uploads body temperature data from hundreds of thousands of participants. What is best technique to analyze the data?
+- [] Use reinforcement learning to reward the system when a new person participates
+- [] Unsupervised machine learning to cluster together people based on patterns the machine discovers
+- [] Supervised machine learning to sort people by demographic data
+- [x] supervised ml to classify people by body temperature
+
+#### QTraining2. Man of the advances in ml have come from improved
+- [] statistics
+- [x] structured data
+- [] availability
+- [] algorithms
+
+#### Q45. What is the diagram a good example of ?
+![Machine Learning Q45](images/machine-learning_Q45.jpg)
+- [] unsupervised learning
+- [] complex cluster
+- [] multiclass classification
+- [] k-nearest neighbour
+
+#### Q46. The supervisor asks to create a ml system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?
+- [] deep learning artificial neural network that relies on petabytes of data
+- [x] unsupervised ml system that clusters together the best candidates
+- Not recommend ml for this project
+- [] supervised ml system that classifies applicants into existing groups
+
+#### Q47. Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?
+- [] regression analysis
+- [] unsupervised learning
+- [] high -variance modeling
+- [] ensemble modeling
+
