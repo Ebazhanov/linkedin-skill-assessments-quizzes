@@ -17,6 +17,7 @@
 | [C#](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%23/c-sharp-quiz.md) |  answers required |
 | [C++](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%2B%2B/c%2B%2Bquiz.md) |  with answers |
 | [CSS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/css/css-quiz.md) |  with answers |
+| [Django](https://github.com/Ebazhanov/in-quiz-questions/blob/master/django/django-quiz.md) |  with answers |
 | [.NET Framework](https://github.com/Ebazhanov/in-quiz-questions/blob/master/dotnet-framework/dotnet-framework-quiz.md) |  partially answered  |
 | [Git](https://github.com/Ebazhanov/in-quiz-questions/blob/master/git/git-quiz.md) :star: | with answers |
 | [Google Analytics](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-analytics/google-analytics-quiz.md) |  with answers |
@@ -28,7 +29,7 @@
 | [jQuery](https://github.com/Ebazhanov/in-quiz-questions/blob/master/jquery/jquery-quiz.md) :open_mouth: |  with answers |
 | [JSON](https://github.com/Ebazhanov/in-quiz-questions/blob/master/json/json-quiz.md) |  with answers |
 | [Machine Learning](https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/machine-learning-quiz.md) |  answers required |
-| [Maven](https://github.com/Ebazhanov/in-quiz-questions/blob/master/maven/maven-quiz.md) |  partially answered |
+| [Maven](https://github.com/Ebazhanov/in-quiz-questions/blob/master/maven/maven-quiz.md) :fire: | with answers |
 | [Microsoft Azure](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-azure/microsoft-azure-quiz.md) |  with answers |
 | [Microsoft Excel](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-excel/microsoft-excel-quiz.md) |  with answers |
 | [Microsoft Word](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-word/microsoft-word-quiz.md) |  with answers |
@@ -166,7 +167,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/kishore93"><img src="https://avatars0.githubusercontent.com/u/12965564?v=4" width="100px;" alt=""/><br /><sub><b>Venkata Kishore Tavva</b></sub></a><br /><a href="#design-kishore93" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/rafattouqir"><img src="https://avatars2.githubusercontent.com/u/2104659?v=4" width="100px;" alt=""/><br /><sub><b>Rafat Touqir Rafsun</b></sub></a><br /><a href="#design-rafattouqir" title="Design">🎨</a></td>
     <td align="center"><a href="https://www.scikn.in"><img src="https://avatars2.githubusercontent.com/u/53991169?v=4" width="100px;" alt=""/><br /><sub><b>Snehesh Dutta</b></sub></a><br /><a href="#design-Sneheshdutta" title="Design">🎨</a></td>
-    <td align="center"><a href="http://tik9.github.io/cv"><img src="https://avatars0.githubusercontent.com/u/3178925?v=4" width="100px;" alt=""/><br /><sub><b>Timo Körner</b></sub></a><br /><a href="#design-tik9" title="Design">🎨</a></td>
+    <td align="center"><a href="http://tik9.github.io/cv"><img src="https://avatars0.githubusercontent.com/u/3178925?v=4" width="100px;" alt=""/><br /><sub><b>Timo Körner</b></sub></a><br /><a href="#design-tik9" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=tik9" title="Code">💻</a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/alexxxan"><img src="https://avatars3.githubusercontent.com/u/70323867?v=4" width="100px;" alt=""/><br /><sub><b>alexxxan</b></sub></a><br /><a href="#design-alexxxan" title="Design">🎨</a></td>
@@ -185,7 +186,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://blogs.dotnethell.it/ciupaz/"><img src="https://avatars3.githubusercontent.com/u/3354890?v=4" width="100px;" alt=""/><br /><sub><b>Luigi Zambetti</b></sub></a><br /><a href="#design-LuigiZambetti" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/govindhaswin"><img src="https://avatars2.githubusercontent.com/u/47293468?v=4" width="100px;" alt=""/><br /><sub><b>govindhaswin</b></sub></a><br /><a href="#design-govindhaswin" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/royadityak94"><img src="https://avatars0.githubusercontent.com/u/57421832?v=4" width="100px;" alt=""/><br /><sub><b>Addy Roy</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=royadityak94" title="Code">💻</a></td>
+
   </tr>
+   <tr>
+    <td align="center"><a href="https://github.com/dev-akshat/dev-akshat"><img src="https://avatars3.githubusercontent.com/u/43572179?v=4" width="100px;" alt=""/><br /><sub><b>Akshat Tamrakar</b></sub></a><br /><a href="#design-dev-akshat" title="Design">🎨</a></td>
+   </tr>
 </table>
 
 <!-- markdownlint-enable -->

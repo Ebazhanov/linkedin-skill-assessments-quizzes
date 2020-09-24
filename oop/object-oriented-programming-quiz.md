@@ -216,3 +216,34 @@ static void Multiply(float num1, float num2) {};
 - to delete the static members when not required
 - to initialize the static members of class
 - to clear all the static members' initialized values
+
+#### Q36. What are CRC Cards?
+- [] Code Responsibility Collection cards are a brainstorming tool used in the design of procedural software
+- [] Class responsible collaboration cards are a brainstorming tool used in the design of oop software
+- [] Code Responsibility Correction cards are tools used for debugging
+- [] Code Responsibility Correction cards are tools for modeling 
+
+#### Q37. How are contents of a composition different from those of aggregation?
+- [] if one element of an aggregation is dereferenced, all its elements are eligible for garbage collection
+- [] if a composition dies, the contents die
+- [] the contents of a composition are all siblings
+- [] an aggregation contains only abstract classes
+
+#### Q38. What is the result of using more abstraction?
+- [] it can increase code vulnerability
+- [] it can make code unsafe
+- [] it can limit code readability
+- [] it can be safer for coding
+
+#### Q39. Which is false for a member function of a class?
+- [] they can be defined only inside or outside the class body
+- [x] the can be made to be friends of another class
+- [] they do not need to be declared inside the class definiton
+- [] they need to be defined
+
+#### Q40. Why is inheritance used when creating a new class?
+- [] to protect attributes from unwanted changes
+- [] to delegate coding responsibility more efficiently
+- [] to conserve memory
+- [x] to avoid writing duplicate code
+

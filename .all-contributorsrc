@@ -785,7 +785,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/3178925?v=4",
       "profile": "http://tik9.github.io/cv",
       "contributions": [
-        "design"
+        "design",
+        "code"
       ]
     },
     {
@@ -914,6 +915,15 @@
       "profile": "https://github.com/royadityak94",
       "contributions": [
         "code"
+      ]
+    },
+    {
+      "login": "dev-akshat",
+      "name": "Akshat Tamrakar",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/43572179?v=4",
+      "profile": "https://github.com/dev-akshat/dev-akshat",
+      "contributions": [
+        "design"
       ]
     }
   ],

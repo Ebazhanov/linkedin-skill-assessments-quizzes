@@ -316,7 +316,7 @@ let diff = function(x,y){
 }
 ```
 - 30, ReferenceError, 30, -10
-- 30, ReferenceError  <<<<----Correct
+- ReferenceError  <<<<----Correct
 - 30, -10
 - ReferenceError, -10
 
@@ -454,3 +454,14 @@ var b = (a = 3) ? true: false
 - `document.querySelector('.pull');`   <<<<----Correct
 - `Document.querySelector('pull')`
 - `Document.querySelector('#pull')`
+
+### Q52. What value does the code return?
+```js
+let answer=true
+if (answer === false){
+	return 0}
+	else {return 10}
+```
+- 10 <<<<----Correct
+- false
+- 0
