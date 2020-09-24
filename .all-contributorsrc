@@ -785,7 +785,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/3178925?v=4",
       "profile": "http://tik9.github.io/cv",
       "contributions": [
-        "design"
+        "design",
+        "code"
       ]
     },
     {
@@ -903,6 +904,15 @@
       "name": "govindhaswin",
       "avatar_url": "https://avatars2.githubusercontent.com/u/47293468?v=4",
       "profile": "https://github.com/govindhaswin",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "dev-akshat",
+      "name": "Akshat Tamrakar",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/43572179?v=4",
+      "profile": "https://github.com/dev-akshat/dev-akshat",
       "contributions": [
         "design"
       ]

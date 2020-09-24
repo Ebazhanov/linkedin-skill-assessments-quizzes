@@ -313,3 +313,15 @@
 - [] high -variance modeling
 - [] ensemble modeling
 
+#### Q48. Your data science team wants to use ml to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised ml, what would you call this data set?
+
+-[] ml algorithm
+-[x] training set
+-[] big data test set
+-[] data cluster
+
+#### Q49. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of fotos without them. What is the problem?
+-[] Overfitting the model to the data
+-[] Smaller training set needed
+-[] Underfitting the model to the data
+-[x] larger training set needed
