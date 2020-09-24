@@ -17,6 +17,7 @@
 | [C#](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%23/c-sharp-quiz.md) |  answers required |
 | [C++](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%2B%2B/c%2B%2Bquiz.md) |  with answers |
 | [CSS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/css/css-quiz.md) |  with answers |
+| [Django](https://github.com/Ebazhanov/in-quiz-questions/blob/master/django/django-quiz.md) |  with answers |
 | [.NET Framework](https://github.com/Ebazhanov/in-quiz-questions/blob/master/dotnet-framework/dotnet-framework-quiz.md) |  partially answered  |
 | [Git](https://github.com/Ebazhanov/in-quiz-questions/blob/master/git/git-quiz.md) :star: | with answers |
 | [Google Analytics](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-analytics/google-analytics-quiz.md) |  with answers |
