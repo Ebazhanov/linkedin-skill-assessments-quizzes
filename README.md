@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-98-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-99-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -178,7 +178,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://www.linkedin.com/in/jyotwal"><img src="https://avatars2.githubusercontent.com/u/19168650?v=4" width="100px;" alt=""/><br /><sub><b>kamal Jyotwal</b></sub></a><br /><a href="#design-kamaljyotwal" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/Bob-Johns"><img src="https://avatars2.githubusercontent.com/u/71194583?v=4" width="100px;" alt=""/><br /><sub><b>Bob-Johns</b></sub></a><br /><a href="#design-Bob-Johns" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/yunussalmanlyit"><img src="https://avatars0.githubusercontent.com/u/61629690?v=4" width="100px;" alt=""/><br /><sub><b>yunussalmanlyit</b></sub></a><br /><a href="#design-yunussalmanlyit" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/chilcot"><img src="https://avatars0.githubusercontent.com/u/62221068?v=4" width="100px;" alt=""/><br /><sub><b>chilcot</b></sub></a><br /><a href="#design-chilcot" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/chilcot"><img src="https://avatars0.githubusercontent.com/u/62221068?v=4" width="100px;" alt=""/><br /><sub><b>chilcot</b></sub></a><br /><a href="#design-chilcot" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=chilcot" title="Code">💻</a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/jackyli-work"><img src="https://avatars2.githubusercontent.com/u/54344547?v=4" width="100px;" alt=""/><br /><sub><b>Jacky Li</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=jackyli-work" title="Code">💻</a> <a href="#content-jackyli-work" title="Content">🖋</a></td>
@@ -188,11 +188,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://blogs.dotnethell.it/ciupaz/"><img src="https://avatars3.githubusercontent.com/u/3354890?v=4" width="100px;" alt=""/><br /><sub><b>Luigi Zambetti</b></sub></a><br /><a href="#design-LuigiZambetti" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/govindhaswin"><img src="https://avatars2.githubusercontent.com/u/47293468?v=4" width="100px;" alt=""/><br /><sub><b>govindhaswin</b></sub></a><br /><a href="#design-govindhaswin" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/royadityak94"><img src="https://avatars0.githubusercontent.com/u/57421832?v=4" width="100px;" alt=""/><br /><sub><b>Addy Roy</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=royadityak94" title="Code">💻</a></td>
-
   </tr>
-   <tr>
+  <tr>
     <td align="center"><a href="https://github.com/dev-akshat/dev-akshat"><img src="https://avatars3.githubusercontent.com/u/43572179?v=4" width="100px;" alt=""/><br /><sub><b>Akshat Tamrakar</b></sub></a><br /><a href="#design-dev-akshat" title="Design">🎨</a></td>
-   </tr>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
