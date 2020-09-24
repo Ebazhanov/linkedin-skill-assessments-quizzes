@@ -850,7 +850,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/62221068?v=4",
       "profile": "https://github.com/chilcot",
       "contributions": [
-        "design"
+        "design",
+        "code"
       ]
     },
     {
@@ -922,6 +923,15 @@
       "name": "Akshat Tamrakar",
       "avatar_url": "https://avatars3.githubusercontent.com/u/43572179?v=4",
       "profile": "https://github.com/dev-akshat/dev-akshat",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "sai-github",
+      "name": "Sai Bhargava Ramu",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9116255?v=4",
+      "profile": "https://github.com/sai-github",
       "contributions": [
         "design"
       ]
