@@ -190,7 +190,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/royadityak94"><img src="https://avatars0.githubusercontent.com/u/57421832?v=4" width="100px;" alt=""/><br /><sub><b>Addy Roy</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=royadityak94" title="Code">💻</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/dev-akshat/dev-akshat"><img src="https://avatars3.githubusercontent.com/u/43572179?v=4" width="100px;" alt=""/><br /><sub><b>Akshat Tamrakar</b></sub></a><br /><a href="#design-dev-akshat" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/dev-akshat/dev-akshat"><img src="https://avatars3.githubusercontent.com/u/43572179?v=4" width="100px;" alt=""/><br /><sub><b>Akshat Tamrakar</b></sub></a><br /><a href="#design-dev-akshat" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=dev-akshat" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/sai-github"><img src="https://avatars2.githubusercontent.com/u/9116255?v=4" width="100px;" alt=""/><br /><sub><b>Sai Bhargava Ramu</b></sub></a><br /><a href="#design-sai-github" title="Design">🎨</a></td>
   </tr>
 </table>
