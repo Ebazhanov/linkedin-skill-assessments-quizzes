@@ -937,6 +937,15 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "GHasanKaraman",
+      "name": "Gurkan",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/40955470?v=4",
+      "profile": "http://youtube.com/c/gurkankaraman",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
