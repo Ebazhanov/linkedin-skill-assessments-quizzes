@@ -46,7 +46,7 @@ Q5. How do you determine at startup time if a piece of middleware should be used
 Q6. How do you turn off Django’s automatic HTML escaping for part of a web page?
 ```markdown
 	- Place that section between paragraph tags containing the autoescape=off switch.
-	- Wrap that section between {% autoescape off %} and {% endautoescape %} tags.
+	- Wrap that section between {% `autoescape` off %} and {% endautoescape %} tags.
 	- Wrap that section between {% autoescapeoff %} and {% endautoescapeoff %} tags.
 	👍 - You don't need to do anything—autoescaping is off by default.
 ```
