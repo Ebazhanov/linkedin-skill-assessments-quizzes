@@ -1,8 +1,8 @@
 # These are supported funding model platforms
 
 github: # ---
-patreon: ebazhanov
-open_collective: ebazhanov
+patreon: #
+open_collective: #
 ko_fi: ebazhanov
 tidelift: # Replace with a single Tidelift platform-name/package-name e.g., npm/babel
 community_bridge: # Replace with a single Community Bridge project-name e.g., cloud-foundry
