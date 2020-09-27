@@ -228,14 +228,14 @@
 #### Q37. Which choice is best for binary classification? 
 
 - [ ]  K-means 
-- [ ]  Logistic regression 
+- [x]  Logistic regression 
 - [ ]  Linear regression 
 - [ ]  Principal Component Analysis (PCA)
 
 #### Q38. With traditional programming, the programmer typically inputs commands. With machine learning, the programmer inputs 
 
 - [ ]  supervised learning 
-- [ ]  data 
+- [x]  data 
 - [ ]  unsupervised learning 
 - [ ]  algorithms
 
@@ -248,7 +248,7 @@
 
 #### Q40. In K-nearest neighbor, the closer you are to neighbor, the more likely you are to 
 
-- [ ]  share common characteristics 
+- [x]  share common characteristics 
 - [ ]  be part of the root node 
 - [ ]  have a Euclidean connection 
 - [ ]  be part of the same cluster
