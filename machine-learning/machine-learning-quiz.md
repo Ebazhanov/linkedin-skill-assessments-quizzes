@@ -232,12 +232,16 @@
 - [ ]  Linear regression 
 - [ ]  Principal Component Analysis (PCA)
 
+Note: Logistic regression is far better than linear regression at binary classification since it biases the result toward one extreme or the other. K-means clustering can be used for classification but is not as accurate in most scenarios. Source: https://www.kaggle.com/minc33/k-means-clustering-vs-logistic-regression
+
 #### Q38. With traditional programming, the programmer typically inputs commands. With machine learning, the programmer inputs 
 
 - [ ]  supervised learning 
 - [x]  data 
 - [ ]  unsupervised learning 
 - [ ]  algorithms
+
+Note: This one is pretty straight forward and a fundamental concept. Source: https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab
 
 #### Q39. Why is it important for machine learning algorithms to have access to high-quality data? 
 
@@ -264,8 +268,10 @@
 
 - [ ]  You will be able to prioritize different classes of drugs, such as antibiotics. 
 - [ ]  You can create a training set of drugs you would like to discover. 
-- [ ]  The algorithms will cluster together drugs that have similar traits. 
+- [x]  The algorithms will cluster together drugs that have similar traits. 
 - [ ]  Human experts can create classes of drugs to help guide discovery.
+
+Note: This one is similar to an example talked about in the Stanford Machine Learning course. Source: https://www.coursera.org/learn/machine-learning/home/welcome
 
 #### Q43. In 2015, Google created a machine learning system that could beat a human in the game of Go. This extremely complex game is thought to have more gameplay possibilities than there are atoms of the universe. The first version of the system won by observing hundreds of thousands of hours of human gameplay; the second version learned how to play by getting rewards while playing against itself. How would you describe this transition to different machine learning approaches? 
 
