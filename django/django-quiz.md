@@ -45,7 +45,7 @@ Q6. How do you turn off Django’s automatic HTML escaping for part of a web pag
 
 	- Place that section between paragraph tags containing the autoescape=off switch.
 	- Wrap that section between { percentage mark autoescape off percentage mark} and {percentage mark endautoescape percentage mark} tags.
-	- Wrap that section between {percentage mark autoescapeoff percentage mark} and {% endautoescapeoff %} tags.
+	- Wrap that section between {percentage mark autoescapeoff percentage mark} and {percentage mark endautoescapeoff percentage mark} tags.
 	👍 - You don't need to do anything—autoescaping is off by default.
 
 Q7. Which step would NOT help you troubleshoot the error "django-admin: command not found"?
