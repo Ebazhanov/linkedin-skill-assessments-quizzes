@@ -41,15 +41,12 @@ Q5. How do you determine at startup time if a piece of middleware should be used
 	- List the middleware beneath an entry of django.middleware.IgnoredMiddleware.
 	- Write code to remove the middleware from the settings in [app]/__init__.py.
 
-
-
 Q6. How do you turn off Django’s automatic HTML escaping for part of a web page?
-```markdown
+
 	- Place that section between paragraph tags containing the autoescape=off switch.
-	- Wrap that section between {% `autoescape` off %} and {% endautoescape %} tags.
+	- Wrap that section between {% autoescape_off %} and {% endautoescape %} tags.
 	- Wrap that section between {% autoescapeoff %} and {% endautoescapeoff %} tags.
 	👍 - You don't need to do anything—autoescaping is off by default.
-```
 
 Q7. Which step would NOT help you troubleshoot the error "django-admin: command not found"?
 
