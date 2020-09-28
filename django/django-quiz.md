@@ -156,7 +156,7 @@ Q18. Which is NOT a valid step in configuring your Django 2.x instance to serve 
 	👍 - In your urls file, add a pattern that includes the name of your static directory.
 	- Create a directory named static inside your app directory.
 	- Create a directory named after the app under the static directory, and place static files inside.
-	- Use the template tag {% load static %}.
+	- Use the template tag {percentage mark load static percentage mark}.
 
 
 
