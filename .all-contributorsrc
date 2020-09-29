@@ -1,4 +1,4 @@
-    {
+{
   "files": [
     "README.md"
   ],
@@ -952,6 +952,15 @@
       "name": "Spencer Hayes-Laverdiere",
       "avatar_url": "https://avatars3.githubusercontent.com/u/24394743?v=4",
       "profile": "https://spencer-hayes.me/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "aniketsoni1",
+      "name": "Aniket Soni",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/47126963?v=4",
+      "profile": "https://linkedin.com/in/aniketsoni/",
       "contributions": [
         "code"
       ]
