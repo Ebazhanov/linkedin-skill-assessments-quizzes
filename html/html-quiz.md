@@ -622,6 +622,8 @@ We are fond of our TLAs in web design.
 
 #### Q38. What is the semantically correct way to mark up this layout?
 
+![q38](images/q38.png?raw=true "q38")
+
 - [ ] .
 ```html
 <p>"Making money is what you have to do to sustain a business—being driven to make something of value and purpose is much more powerful."</p>
