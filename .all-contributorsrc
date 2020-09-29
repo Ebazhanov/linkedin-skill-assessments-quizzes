@@ -1,4 +1,4 @@
-{
+    {
   "files": [
     "README.md"
   ],
@@ -945,15 +945,6 @@
       "profile": "http://youtube.com/c/gurkankaraman",
       "contributions": [
         "code"
-      ]
-    },
-    {
-      "login": "christ2",
-      "name": "christ2",
-      "avatar_url": "https://avatars0.githubusercontent.com/u/30259062?v=4",
-      "profile": "https://github.com/christ2",
-      "contributions": [
-        "design"
       ]
     },
     {
