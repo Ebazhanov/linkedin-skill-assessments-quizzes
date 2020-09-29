@@ -610,9 +610,59 @@ We are fond of our TLAs in web design.
 </table>
 ```
 
-#### Q37. What should fill the blank?
-<link href=phone.css rel=stylesheet ___=print>
-- [x] title
-- [] device
-- [] type
-- [] media
+#### Q37. What should fill the blank below?
+```html
+<link href="phone.css" rel="stylesheet" _____ ="print">
+```
+- [ ] title
+- [ ] type
+- [ ] device
+- [x] media
+
+
+#### Q38. What is the semantically correct way to mark up this layout?
+
+- [ ] .
+```html
+<p>"Making money is what you have to do to sustain a business—being driven to make something of value and purpose is much more powerful."</p>
+<p><em>Lynda Weinman</em></p>
+```
+
+- [ ] .
+```html
+<blockquote>
+   <q>"Making money is what you have to do to sustain a business—being driven to make something of value and purpose is much more powerful."</q>
+   <cite><em>Lynda Weinman</em></cite>
+</blockquote>
+```
+
+- [ ] .
+```html
+<blockquote>
+   <p>"Making money is what you have to do to sustain a business—being driven to make something of value and purpose is much more powerful."</p>
+   <cite>Lynda Weinman</cite>
+</blockquote>
+```
+
+- [ ] .
+```html
+<section>
+   <q>"Making money is what you have to do to sustain a business—being driven to make something of value and purpose is much more powerful."</q>
+   <cite>Lynda Weinman</cite>
+</section>
+```
+
+
+#### Q39. `Which choice uses the correct terminology in describing this markup: <p>info</p> ?`
+- [ ] `The element opener is <p>, the element closer is </p>, and the element information is info.`
+- [ ] `The start tag is <p>, the end tag is </p>, and the enclosed HTML is info. `
+- [x] `The start tag is <p>, the end tag is </p>, and the element content is info.`
+- [ ] `The start element is <p>, the end element is </p>, and the tag content is info.`
+
+
+#### Q40. `What is the difference between <input type="submit" value="click me"> and <button type="submit">Click me</button> ?`
+- [ ] `There is no difference. Both will render a button that submits a form.`
+- [x] `Both will submit a form. However, the <button> can have content other than text, like an image or nested HTML elements, while the <input> cannot.`
+- [ ] `<input type="button"> has been deprecated in HTML5. You should use the <button> tag instead.`
+- [ ] `Both will submit a form. However, the <input> can have content other than text, like an image or nested HTML elements, while the <button> cannot.`
+
