@@ -157,14 +157,14 @@ OAuth authorization server
 #### Q25. Which OAuth grant type can support a refresh token?
 
 - Authorization Code Grant
-- Client Credentials Grant
+- Client Credentials Grant >>>>>>>>>>> CORRECT
 - Implicit Grant
 - Authentication Grant
 
 #### Q26. Using OAuth, what scope would you request for write access to the API?
 
 - It varies from API to API.
-- admin
+- admin >>>>>>>>>>> CORRECT
 - write
 - read-write
 
@@ -172,12 +172,12 @@ OAuth authorization server
 
 - _embedded
 - resources
-- subresources
+- subresources >>>>>>>>>>> CORRECT
 - _links
 
 #### Q28. What is the best way to track SDK and version usage?
 
-- tracking downloads
+- tracking downloads >>>>>>>>>>> CORRECT
 - Accept headers
 - user agents
 - polling users
