@@ -12,7 +12,7 @@
     <th> PROMOTE YOURSELF AND PUT YOUR ADD HERE !
   </tr>
   <tr>
-    <th> SEND US A MESSAGE FOR DETAILS!
+    <th>SEND US AN <a href = "mailto: sergeisqa@gmail.com">EMAIL </a>FOR DETAILS!
   </tr>   
 </table>
 </body>
