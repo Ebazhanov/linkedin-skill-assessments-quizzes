@@ -386,10 +386,10 @@ h2 + p {
 - Paragraph 2 will be blue. Paragraphs 2 and 3 will have a beige background.
 
 #### Q35. When using flexbox, the "justify-content" property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
-- justify-content: space-around;
+- justify-content: space-around; <<<<---Correct
 - justify-content: center;
 - justify-content: auto;
-- justify-content: space-between;   <<<<---Correct
+- justify-content: space-between;   
 
 #### Q36. There are many advantages to using icon fonts. What is one of those advantages?
 - Icon fonts increase accessibility.
