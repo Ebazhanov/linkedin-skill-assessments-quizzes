@@ -228,16 +228,20 @@
 #### Q37. Which choice is best for binary classification? 
 
 - [ ]  K-means 
-- [ ]  Logistic regression 
+- [x]  Logistic regression 
 - [ ]  Linear regression 
 - [ ]  Principal Component Analysis (PCA)
+
+Note: Logistic regression is far better than linear regression at binary classification since it biases the result toward one extreme or the other. K-means clustering can be used for classification but is not as accurate in most scenarios. Source: https://www.kaggle.com/minc33/k-means-clustering-vs-logistic-regression
 
 #### Q38. With traditional programming, the programmer typically inputs commands. With machine learning, the programmer inputs 
 
 - [ ]  supervised learning 
-- [ ]  data 
+- [x]  data 
 - [ ]  unsupervised learning 
 - [ ]  algorithms
+
+Note: This one is pretty straight forward and a fundamental concept. Source: https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab
 
 #### Q39. Why is it important for machine learning algorithms to have access to high-quality data? 
 
@@ -248,7 +252,7 @@
 
 #### Q40. In K-nearest neighbor, the closer you are to neighbor, the more likely you are to 
 
-- [ ]  share common characteristics 
+- [x]  share common characteristics 
 - [ ]  be part of the root node 
 - [ ]  have a Euclidean connection 
 - [ ]  be part of the same cluster
@@ -264,8 +268,10 @@
 
 - [ ]  You will be able to prioritize different classes of drugs, such as antibiotics. 
 - [ ]  You can create a training set of drugs you would like to discover. 
-- [ ]  The algorithms will cluster together drugs that have similar traits. 
+- [x]  The algorithms will cluster together drugs that have similar traits. 
 - [ ]  Human experts can create classes of drugs to help guide discovery.
+
+Note: This one is similar to an example talked about in the Stanford Machine Learning course. Source: https://www.coursera.org/learn/machine-learning/home/welcome
 
 #### Q43. In 2015, Google created a machine learning system that could beat a human in the game of Go. This extremely complex game is thought to have more gameplay possibilities than there are atoms of the universe. The first version of the system won by observing hundreds of thousands of hours of human gameplay; the second version learned how to play by getting rewards while playing against itself. How would you describe this transition to different machine learning approaches? 
 
@@ -282,3 +288,46 @@
 - [ ]  It would increase the speed of the appliance.
 
 [✔]
+#### QTraining1. You work for a hospital that is tracking the community spread of a virus. The hospital created a smartwatch app that uploads body temperature data from hundreds of thousands of participants. What is best technique to analyze the data?
+- [] Use reinforcement learning to reward the system when a new person participates
+- [] Unsupervised machine learning to cluster together people based on patterns the machine discovers
+- [] Supervised machine learning to sort people by demographic data
+- [x] supervised ml to classify people by body temperature
+
+#### QTraining2. Man of the advances in ml have come from improved
+- [] statistics
+- [x] structured data
+- [] availability
+- [] algorithms
+
+#### Q45. What is the diagram a good example of ?
+![Machine Learning Q45](images/machine-learning_Q45.jpg)
+- [] unsupervised learning
+- [] complex cluster
+- [] multiclass classification
+- [] k-nearest neighbour
+
+#### Q46. The supervisor asks to create a ml system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?
+- [] deep learning artificial neural network that relies on petabytes of data
+- [x] unsupervised ml system that clusters together the best candidates
+- Not recommend ml for this project
+- [] supervised ml system that classifies applicants into existing groups
+
+#### Q47. Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?
+- [] regression analysis
+- [] unsupervised learning
+- [] high -variance modeling
+- [] ensemble modeling
+
+#### Q48. Your data science team wants to use ml to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised ml, what would you call this data set?
+
+-[] ml algorithm
+-[x] training set
+-[] big data test set
+-[] data cluster
+
+#### Q49. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of fotos without them. What is the problem?
+-[] Overfitting the model to the data
+-[] Smaller training set needed
+-[] Underfitting the model to the data
+-[x] larger training set needed
