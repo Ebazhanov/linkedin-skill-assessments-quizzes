@@ -93,7 +93,7 @@
 #### Q12. What is the best way to code the sample shown?
 ![Sample](https://i.ibb.co/HVwStTZ/sample.png)
 
-- 
+- [ ] `-`
 ```
 <details>
    <summary>Parmesan Deviled Eggs</summary>
@@ -101,22 +101,20 @@
 </details>
 ```
 
-- 
+- [ ] `-`
 ```
 <h4>▸ Parmesan Deviled Eggs</h4>
 <p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
 ```
 
-- 
+- [X] `-`
 ```
 <details open>
    <summary>Parmesan Deviled Eggs</summary>
    <p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
 </details>
 ```
-^^ CORRECT ^^
-
-- 
+- [ ] `-`
 ```
 <details>
 	<h4>▸ Parmesan Deviled Eggs</h4>
@@ -166,27 +164,25 @@ could go in any order.
 
 #### Q18. What is the correct markup for tha alt attribute of an image?
 
--  
+- [ ] `-`  
 ```
 js
   <img src="cubism.jpg"
    alt="Version of ""Whistler's Mother"" in cubist style">
 ```  
--  
+- [ ] `-`  
 ```
 js
   <img src="cubism.jpg"
     alt="Version of "Whistler's Mother" in cubist style">
 ``` 
--  
+- [X] `-`
 ```
 js
    <img src="cubism.jpg"
      alt='Version of "Whistler\'s Mother" in cubist style'> 
 ``` 
-^^ CORRECT (NOT SURE) ^^
-
-- 
+- [ ] `-`
 ```
 js
    <img src="cubism.jpg"
@@ -236,7 +232,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q23. What is the best way to code three choices within a form so that the user can select only one item?
 
-- 
+- [ ] `-`
 ```
 <label for="example">Make a choice:</label>
 <datalist id="example">
@@ -246,7 +242,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </datalist>
 ```
 
-- 
+- [ ] `-`
 ```
 <p>Make a choice:</p>
 <input id="choices" name="example" />
@@ -258,7 +254,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </datalist>
 ```
 
-- 
+- [ ] `-`
 ```
 <label for="example">Make a choice:</label>
 <input list="example" id="choices" name="choices" />
@@ -270,7 +266,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </datalist>
 ```
 
-- 
+- [X] `-`
 ```
 <label for="example">Make a choice:</label>
 <input list="choices" id="example" name="example" />
@@ -281,7 +277,6 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 	<option value="Choice 3">
 </datalist>
 ```
-^^ CORRECT ^^
 
 #### Q24. How do you confirm that a document is written in HTML5?
 
@@ -307,7 +302,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
   
 #### Q26. What code will produce the table shown below?
 
-- 
+- [ ] `-`
 ```
 <table>
 	<scope cols="2" style="background-color: yellow">
@@ -324,7 +319,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </table>
 ```
 
-- 
+- [X] `-`
 ```
 <table>
 	<colgroup span="2" style="background-color: yellow">
@@ -340,9 +335,8 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 	</tr>
 </table>
 ```
-^^ CORRECT ^^
 
-- 
+- [ ] `-`
 ```
 <table>
 	<group cols="2" style="background-color: yellow">
@@ -359,7 +353,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </table>
 ```
 
-- 
+- [ ] `-`
 ```
 <table>
 	<columns colspan="2" style="background-color: yellow">
@@ -401,26 +395,26 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q29. Which HTML snippet links back to the very top of a webpage?
 
-- 
+- [X] `-`
 ```
 <a id="top"></a> <!-- placed at the top of the page -->  
 <a href="#top">back to top</a>
 ```
 ^^ CORRECT ^^
 
-- 
+- [ ] `-`
 ```
 <a name="top"></a> <!-- placed at the top of the page -->  
 <a href="#top">back to top</a>
 ```
 
-- 
+- [ ] `-`
 ```
 <a href="#">back to top</a>  
 <a href="#top">back to top</a>
 ```
 
-- 
+- [ ] `-`
 ```
 <button href="#">back to top</button>  
 <button href="#top">back to top</button>
@@ -428,29 +422,28 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q30. Which three tags where deprecated in HTML4 but returned to HTML5?
 
-- 
+- [X] `-`
 ```
 <rb>
 <rp>
 <rt>
 ```
-^^ CORRECT ^^
 
-- 
+- [ ] `-`
 ```
 <acronym>
 <code>
 <wbr>
 ```
 
-- 
+- [ ] `-`
 ```
 <hgroup>
 <q>
 <wbr>
 ```
 
-- 
+- [ ] `-`
 ```
 <b>
 <i>
@@ -459,30 +452,29 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q31. The "______"tag is used for marking up a short code snippet, while the ______ tag is used for marking up a longer block of code.
 
-- 
+- [ ] `-`
 ```
 "<kdb>";
 <pre>
 ```
 
-- 
+- [ ] `-`
 ```
 "<pre>";
 <code>
 ```
 
-- 
+- [ ] `-`
 ```
 "<kdb>";
 <mark>
 ```
 
-- 
+- [X] `-`
 ```
 "<code>";
 <pre>
 ```
-^^ CORRECT ^^
 
 #### Q32. What does the `<label>` tag do?
 
@@ -559,7 +551,7 @@ We are fond of our TLAs in web design.
 |----------|-------------|------|
 | first (yellow)|  second (yellow)| third |
 
-- [ ] .
+- [ ] `-`
 ```
 <table>
 <group cols=2 style='background-color:yellow'>
@@ -576,7 +568,7 @@ We are fond of our TLAs in web design.
 </table>
 ```
 
-- [ ] .
+- [ ] `-`
 ```
 <table>
 <columns colspan=2 style=background-color:yellow>
@@ -593,7 +585,7 @@ We are fond of our TLAs in web design.
 </table>
 ```
 
-- [x] .
+- [X] `-`
 ```
 <table>
 <colgroup span=2 style=background-color:yellow>
