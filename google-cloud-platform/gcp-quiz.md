@@ -16,7 +16,7 @@ Google Cloud Platform (GCP) Assessment
 
 #### Q3. GCP Organizations are not available in your GCP project. What type of account are you using?
 - [ ] Temporary
-- [ ] Free Tier
+- [*] Free Tier- free trail doesnt have the organization
 - [ ] Local
 - [ ] Organizational
 

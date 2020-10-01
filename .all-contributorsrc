@@ -785,7 +785,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/3178925?v=4",
       "profile": "http://tik9.github.io/cv",
       "contributions": [
-        "design"
+        "design",
+        "code"
       ]
     },
     {
@@ -840,7 +841,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/61629690?v=4",
       "profile": "https://github.com/yunussalmanlyit",
       "contributions": [
-        "design"
+        "design",
+        "code"
       ]
     },
     {
@@ -849,7 +851,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/62221068?v=4",
       "profile": "https://github.com/chilcot",
       "contributions": [
-        "design"
+        "design",
+        "code"
       ]
     },
     {
@@ -905,6 +908,61 @@
       "profile": "https://github.com/govindhaswin",
       "contributions": [
         "design"
+      ]
+    },
+    {
+      "login": "royadityak94",
+      "name": "Addy Roy",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/57421832?v=4",
+      "profile": "https://github.com/royadityak94",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "dev-akshat",
+      "name": "Akshat Tamrakar",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/43572179?v=4",
+      "profile": "https://github.com/dev-akshat/dev-akshat",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "sai-github",
+      "name": "Sai Bhargava Ramu",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9116255?v=4",
+      "profile": "https://github.com/sai-github",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "GHasanKaraman",
+      "name": "Gurkan",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/40955470?v=4",
+      "profile": "http://youtube.com/c/gurkankaraman",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "shaye059",
+      "name": "Spencer Hayes-Laverdiere",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/24394743?v=4",
+      "profile": "https://spencer-hayes.me/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "aniketsoni1",
+      "name": "Aniket Soni",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/47126963?v=4",
+      "profile": "https://linkedin.com/in/aniketsoni/",
+      "contributions": [
+        "code"
       ]
     }
   ],
