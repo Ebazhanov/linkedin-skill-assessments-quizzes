@@ -109,6 +109,14 @@
     by urgency
 
 
+#### Q16. Which Arrow Options choice will hide the mouse cursor when presenting, except when the cursor is moved?
+
+    Hidden 
+
+#### Q17. Which chart type is best suited for displaying annual financial data for a 10-year period? 
+
+    line or area chart
+
 
 -----------------------------
 Answers needed
@@ -116,33 +124,21 @@ Answers needed
 
 
 -----------------------------
-#### Q16. If you want to create an organizational chart, which SmartArt category works best?
+#### Q18. If you want to create an organizational chart, which SmartArt category works best?
 
     Pyramid
     Relationship
     Hierarchy
     Matrix
 
-#### Q17. Which Arrow Options choice will hide the mouse cursor when presenting, except when the cursor is moved?
 
-    Automatic
-    Hidden
-    none of these answers
-    Visible
-
-#### Q18. When printing multiple handouts, which option will group multipage documents together and make them easier to distribute?
+#### Q19. When printing multiple handouts, which option will group multipage documents together and make them easier to distribute?
 
     Print on Both Sides
     Uncollated
     Print One-sided
     Collated
 
-#### Q19. Which chart type is best suited for displaying annual financial data for a 10-year period? 
-
-    donut chart
-    line or area chart
-    area chart
-    pie chart
 
 #### Q20. How can you adjust which data in a table is used when working on a chart?
 
