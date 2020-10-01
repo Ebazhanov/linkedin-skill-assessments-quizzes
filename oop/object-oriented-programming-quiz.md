@@ -247,3 +247,8 @@ static void Multiply(float num1, float num2) {};
 - [] to conserve memory
 - [x] to avoid writing duplicate code
 
+#### Q41. In addition to attributes and behaviours, what quality must a class possess?
+- **a name  <<-- correct**
+- a state
+- a color
+- an object
