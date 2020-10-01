@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-103-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-104-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
 
@@ -210,6 +210,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://youtube.com/c/gurkankaraman"><img src="https://avatars1.githubusercontent.com/u/40955470?v=4" width="100px;" alt=""/><br /><sub><b>Gurkan</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=GHasanKaraman" title="Code">💻</a></td>
     <td align="center"><a href="https://spencer-hayes.me/"><img src="https://avatars3.githubusercontent.com/u/24394743?v=4" width="100px;" alt=""/><br /><sub><b>Spencer Hayes-Laverdiere</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=shaye059" title="Code">💻</a></td>
     <td align="center"><a href="https://linkedin.com/in/aniketsoni/"><img src="https://avatars1.githubusercontent.com/u/47126963?v=4" width="100px;" alt=""/><br /><sub><b>Aniket Soni</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=aniketsoni1" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/dina-taklit/"><img src="https://avatars3.githubusercontent.com/u/20540072?v=4" width="100px;" alt=""/><br /><sub><b>Dina Taklit</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=DinaTaklit" title="Code">💻</a></td>
   </tr>
 </table>
 

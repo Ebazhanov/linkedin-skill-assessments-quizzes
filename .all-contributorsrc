@@ -966,6 +966,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "DinaTaklit",
+      "name": "Dina Taklit",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20540072?v=4",
+      "profile": "https://www.linkedin.com/in/dina-taklit/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
