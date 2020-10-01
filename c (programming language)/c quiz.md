@@ -1,7 +1,7 @@
 C (Programming Language) Assessment
 -------------
 
-#####Q1. Which Code saple will eventually cause the computer to run out of memory ?
+##### Q1. Which Code saple will eventually cause the computer to run out of memory ?
 - [x] 
 ```c
 while(1)
@@ -34,7 +34,7 @@ while(1)
 }
 ``` 
 
-####Q2. What will this code print on the screen?
+#### Q2. What will this code print on the screen?
 
 ```c
 int f1 (int a, int b)
@@ -71,14 +71,14 @@ C is fun!
  
 
 
-####Q3. What is the name for calling a function inside the same function?
+#### Q3. What is the name for calling a function inside the same function?
 
 - [x] recursion
 - [ ] subfunction
 - [ ] inner call
 - [ ] infinite loop
 
-####Q4. What does the declaration of variable c2 demonstrate?
+#### Q4. What does the declaration of variable c2 demonstrate?
 
 ```c  
 main(){
@@ -92,7 +92,7 @@ main(){
 - [ ] invalid declaration
 
 
-####Q5. A pointer to void named vptr, has been set to point to a floating point variable named g. What is the valid way to dereference vptr to assign its pointed value to a float variable named f later in this program?
+#### Q5. A pointer to void named vptr, has been set to point to a floating point variable named g. What is the valid way to dereference vptr to assign its pointed value to a float variable named f later in this program?
 
 ```c 
 float g;
@@ -104,7 +104,7 @@ void *vptr=&g;
 - [ ] f = *(float)vptr;
 
 
-####Q6. What is this declaration an example of?
+#### Q6. What is this declaration an example of?
 
 ```c
 struct s {
@@ -119,7 +119,7 @@ struct s {
 - [ ] a binary tree
 
 
-####Q7. A C header file is a file with extension .h that contains  function declarations and macro definitons to be shared between several source files. Header files are listed using the preprocessing directive #include, and can have one of the following formats: #include &lt;fileA&gt; or #include "fileB". What is the difference between these two formats?
+#### Q7. A C header file is a file with extension .h that contains  function declarations and macro definitons to be shared between several source files. Header files are listed using the preprocessing directive #include, and can have one of the following formats: #include &lt;fileA&gt; or #include "fileB". What is the difference between these two formats?
 
 - [ ] The preprocessor will try to locate the fileA in same directory as the source file, and the fileB in a predetermined directory path.
 - [ ] The preprocessor will try to locate the fileA in the fixed system directory. It will try to locate fileB in the directory path designated by the -l option added to the command line while compiling the source code.
@@ -127,7 +127,7 @@ struct s {
 - [x] The preprocessor will try to locate the fileA in a predetermined directory path. It will try to locate fileB in the same directory as the source file along with a custom directory path.  
 
 
-####Q8. Using a for loop, how could you write a C code to count down from 10 to 1 and display each number on its own line?
+#### Q8. Using a for loop, how could you write a C code to count down from 10 to 1 and display each number on its own line?
 
 - [ ] 
 ```c
@@ -158,7 +158,7 @@ for (i= 10; i>0; i--){
 }// end of loop
 ```
 
-####Q9. What is not one of the reserved words in standard C?
+#### Q9. What is not one of the reserved words in standard C?
 
 - [ ] volatile
 - [x] typeof
@@ -166,7 +166,7 @@ for (i= 10; i>0; i--){
 - [ ] typedef
 
 
-####Q10. What does the program shown below return?
+#### Q10. What does the program shown below return?
 
 ```c
 int main(){
@@ -185,7 +185,7 @@ int main(){
 - [ ] 0
 
 
-####Q11. Using the Union declaration below, how many bytes of memory space will the data of this type occupy?
+#### Q11. Using the Union declaration below, how many bytes of memory space will the data of this type occupy?
 
 ```c
 union Cars{
@@ -201,7 +201,7 @@ union Cars{
 - [ ] 52
 
 
-####Q12. In this code sample, what is not a problem for C compiler?
+#### Q12. In this code sample, what is not a problem for C compiler?
 
 ```c
 main(){
@@ -216,20 +216,20 @@ main(){
 - [ ] The printf statement needs to use PI, not pi.
 
 
-####Q13. Which is the smallest program to compile and run without errors?
+#### Q13. Which is the smallest program to compile and run without errors?
 
 - [ ] main()
 - [ ] int main() {return 0;}
 - [x] main() { }
 - [ ] main() { ; }
 
-####Q14. What is optional in a function declaration?
+#### Q14. What is optional in a function declaration?
 - [ ] data type of parameters
 - [ ] return type of function
 - [x] parameter names
 - [ ] number of parameters
 
-####Q15. C treats all devices, such as the display and the keyboard, as files. Which files opens automatically when a program executes?
+#### Q15. C treats all devices, such as the display and the keyboard, as files. Which files opens automatically when a program executes?
 
 - [x] stdout
 - [ ] stdio.h
