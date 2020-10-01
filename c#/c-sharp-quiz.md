@@ -330,13 +330,13 @@ loginCallback(true);
 
 - [ ] Login successful... 
 - [ ] Valid user! 
-- [ ] an error, because the method signature of Login doesn't match the delegate 
+- [x] an error, because the method signature of Login doesn't match the delegate 
 - [ ] Login successful... Valid user! 
 
 #### Q39. How would you declare a sealed class named User? 
 - [ ] public class User 
 - [ ] abstract User {} 
-- [ ] sealed class User 
+- [x] sealed class User 
 - [ ] private sealed class User 
 
 
