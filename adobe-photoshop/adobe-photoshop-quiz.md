@@ -18,7 +18,7 @@ Adobe Photoshop Assessment
 - [ ] Click the eye icon in the layers panel
 - [x] Use the Move tool with auto-select enabled
 - [ ] Right-click the image and select layer
-- [ ] Press Cmd/Ctrl and click the layer
+- [x] Press Cmd/Ctrl and click the layer
 
 
 #### Q4. How can you avoid having transparent edges along the edge of a panoramic photo while retaining the largest image size? (Ans 2)
