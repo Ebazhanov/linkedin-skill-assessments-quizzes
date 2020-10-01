@@ -47,6 +47,7 @@
 | [Microsoft Azure](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-azure/microsoft-azure-quiz.md) |  with answers |
 | [Microsoft Excel](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-excel/microsoft-excel-quiz.md) |  with answers |
 | [Microsoft Power BI](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-power-bi/microsoft-power-bi-quiz.md) |  answers required |
+| [Microsoft Power Point](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-power-point/microsoft-power-point-quiz.md) |  partially answered |
 | [Microsoft Project](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-project/microsoft-project-quiz.md) |  answers required |
 | [Microsoft Word](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-word/microsoft-word-quiz.md) |  with answers |
 | [MongoDB](https://github.com/Ebazhanov/in-quiz-questions/blob/master/mongodb/mongodb-quiz.md) :green_heart: |  with answers |
