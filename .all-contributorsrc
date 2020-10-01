@@ -984,6 +984,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "guyklages",
+      "name": "Guy Klages",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7157817?v=4",
+      "profile": "http://www.linkedin.com/in/klages",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
