@@ -214,6 +214,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/dushyantsingh-ds"><img src="https://avatars3.githubusercontent.com/u/55306442?v=4" width="100px;" alt=""/><br /><sub><b>Dushyant Singh</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Dushyantsingh-ds" title="Code">💻</a></td>
   </tr>
   <tr>
+    <td align="center"><a href="https://github.com/LeoMajorR"><img src="https://avatars2.githubusercontent.com/u/35331954?v=4" width="100px;" alt=""/><br /><sub><b>Ravi Prakash Singh</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=LeoMajorR" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/joshinihal"><img src="https://avatars0.githubusercontent.com/u/60462831?v=4" width="100px;" alt=""/><br /><sub><b>Nihal Joshi</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=joshinihal" title="Code">💻</a></td>
     <td align="center"><a href="http://www.linkedin.com/in/klages"><img src="https://avatars2.githubusercontent.com/u/7157817?v=4" width="100px;" alt=""/><br /><sub><b>Guy Klages</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=guyklages" title="Code">💻</a></td>
   </tr>
