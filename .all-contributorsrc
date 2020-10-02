@@ -127,7 +127,8 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/33095476?v=4",
       "profile": "https://www.linkedin.com/in/pramaniknilotpal/",
       "contributions": [
-        "design"
+        "design",
+        "code"
       ]
     },
     {
@@ -918,7 +919,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/57421832?v=4",
       "profile": "https://github.com/royadityak94",
       "contributions": [
-        "code"
+        "code",
+        "design"
       ]
     },
     {
@@ -990,6 +992,15 @@
       "name": "Nihal Joshi",
       "avatar_url": "https://avatars0.githubusercontent.com/u/60462831?v=4",
       "profile": "https://github.com/joshinihal",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "guyklages",
+      "name": "Guy Klages",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7157817?v=4",
+      "profile": "http://www.linkedin.com/in/klages",
       "contributions": [
         "code"
       ]
