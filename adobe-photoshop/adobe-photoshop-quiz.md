@@ -4,7 +4,7 @@ Adobe Photoshop Assessment
 - [ ] Double-click the file
 - [x] Choose File > Edit in Photoshop
 - [ ] Choose File > Save to Photoshop
-- [ ] Press Cmd/Ctrl+E
+- [x] Press Cmd/Ctrl+E
 
 
 #### Q2. How can you undo one or more changes just made to an image? (find all that apply) (Ans 1)
@@ -24,9 +24,9 @@ Adobe Photoshop Assessment
 #### Q4. How can you avoid having transparent edges along the edge of a panoramic photo while retaining the largest image size? (Ans 2)
 <img src="https://github.com/ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/image/Screenshot%20(441).png?raw=true">
 - [ ] Choose the Cylindrical method
-- [x] Choose the Perspective method.
+- [ ] Choose the Perspective method.
 - [ ] Adjust the Boundary Warp slider.
-- [ ] Select Auto Crop.
+- [x] Select Auto Crop.
 
 #### Q5. How do you crop a document without permanently discarding pixels along the edge? (Ans 3)
 - [ ] Clear the Delete Cropped Pixels box.

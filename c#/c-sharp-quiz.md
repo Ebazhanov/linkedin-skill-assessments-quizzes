@@ -24,20 +24,20 @@ C# Assessment
 
 #### Q4. How would you determine if a class has a particular attribute?
 
-- [ ] 
+- [ ] .
 ```
 var type = typeof(SomeType); 
 var attribute = type.GetCustomAttribute<SomeAttribute>();
 ```
-- [ ] 
+- [ ] .
 ```
 var typeof(MyPresentationModel).Should().BeDecoratedWith<SomeAttribute>();
 ```
-- [ ] 
+- [ ] .
 ```
 Attribute.GetCustomAttribute, typeof(SubControllerActionToViewDataAttribute)
 ```
-- [x] 
+- [x] .
 ```
 Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActionToViewDataAttribute))
 ```
@@ -330,13 +330,13 @@ loginCallback(true);
 
 - [ ] Login successful... 
 - [ ] Valid user! 
-- [ ] an error, because the method signature of Login doesn't match the delegate 
+- [x] an error, because the method signature of Login doesn't match the delegate 
 - [ ] Login successful... Valid user! 
 
 #### Q39. How would you declare a sealed class named User? 
 - [ ] public class User 
 - [ ] abstract User {} 
-- [ ] sealed class User 
+- [x] sealed class User 
 - [ ] private sealed class User 
 
 

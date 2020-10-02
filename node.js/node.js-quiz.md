@@ -138,7 +138,7 @@ Q23.Which of the following objects is a stream?
 
 -  process 
 -  Buffer 
- - process. stdout 
+ - process. stdout <<<<-----Correct
 -  process. uptime 
  
  
