@@ -1022,6 +1022,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "ac121102",
+      "name": "Arvind",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/66919962?v=4",
+      "profile": "https://github.com/ac121102",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
