@@ -235,3 +235,17 @@ main(){
 - [ ] stdio.h
 - [ ] default.h
 - [ ] string.h
+
+#### Q16. In which segment does dynamic memory allocation takes place?
+
+- [x] BSS Segment
+- [ ] stack
+- [ ] heap
+- [ ] data segment
+
+#### Q17. Which of the following do you use to deallocate memory?
+
+- [ ] dalloc()
+- [ ] dealloc()
+- [ ] release()
+- [x] free()
