@@ -252,3 +252,9 @@ static void Multiply(float num1, float num2) {};
 - a state
 - a color
 - an object
+
+#### Q42. Which type of function among the following shows polymorphism?
+- inline function
+- undefined function
+- **virtual function  <<-- correct**
+- class member function
