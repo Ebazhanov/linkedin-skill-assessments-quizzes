@@ -184,3 +184,39 @@ Q21. You want to create a page that allows editing of two classes connected by a
 	- admin
 	- mezcal
 	- inlines
+
+
+
+Q22. Why are QuerySets considered "lazy"?
+
+	- The results of a QuerySet are not ordered.
+	👍 - QuerySets do not create any database activity until they are evaluated.
+	- QuerySets do not load objects into memory until they are needed.
+	- Using QuerySets, you cannot execute more complex queries.
+
+
+
+Q23. You receive a `MultiValueDictKeyError` when trying to access a request parameter with the following code: request.GET['search_term']. Which solution will NOT help you in this scenario?
+
+	👍 - Switch to using POST instead of GET as the request method.
+	- Make sure the input field in your form is also named "search_term".
+	- Use MultiValueDict's GET method instead of hitting the dictionary directly like this: request.GET.get('search_term', '').
+	- Check if the search_term parameter is present in the request before attempting to access it.
+
+
+
+Q24. Which function of Django's Form class will render a form's fields as a series of <p> tags?
+
+	- show_fields()
+	👍 - as_p()
+	- as_table()
+	- fields()
+
+
+
+Q25. You have found a bug in Django and you want to submit a patch. Which is the correct procedure?
+
+	- Fork the Django repository GitHub.
+	- Submit a pull request.
+	👍 - all of these answers.
+	- Run Django's test suite.
