@@ -4,7 +4,7 @@ Adobe Photoshop Assessment
 - [ ] Double-click the file
 - [x] Choose File > Edit in Photoshop
 - [ ] Choose File > Save to Photoshop
-- [ ] Press Cmd/Ctrl+E
+- [x] Press Cmd/Ctrl+E
 
 
 #### Q2. How can you undo one or more changes just made to an image? (find all that apply) (Ans 1)
