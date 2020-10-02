@@ -1,30 +1,74 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-106-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-> This repository does not pretend to give you all answers for LinkedIn questions, it just reflects my real life experience.. If you guys have found some incorrect answers, or want to contribute your answers, please feel free to create PR, any changes are welcome!!!
+> This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
 
+
+  
+<body>
+<table>
+  <tr>
+    <th> PROMOTE YOURSELF AND PUT YOUR ADD HERE !
+  </tr>
+  <tr>
+    <th>SEND US AN <a href = "mailto: sergeisqa@gmail.com">EMAIL </a>FOR DETAILS!
+  </tr>   
+</table>
+</body>
+
+  
 ### Table of Contents
 
 | Quiz      |  Status |
 | --------- |  ------ |
+| [Adobe-Photoshop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/adobe-photoshop-quiz.md) | answers required |
+| [Agile Methodologies](https://github.com/Ebazhanov/in-quiz-questions/blob/master/agile-methodologies/agile-methodologies-quiz.md) | with answers |
+| [Android](https://github.com/Ebazhanov/in-quiz-questions/blob/master/android/android-quiz.md) | answers required |
+| [AWS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws/aws-quiz.md) | answers required |
+| [AWS-Lambda](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws-lambda/aws-lambda-quiz.md) :fire: | with answers |
+| [Bash](https://github.com/Ebazhanov/in-quiz-questions/blob/master/bash/bash-quiz.md) |  partially answered |
+| [C#](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%23/c-sharp-quiz.md) |  answers required |
+| [C++](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%2B%2B/c%2B%2Bquiz.md) |  with answers |
+| [CSS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/css/css-quiz.md) |  with answers |
+| [Django](https://github.com/Ebazhanov/in-quiz-questions/blob/master/django/django-quiz.md) |  with answers |
+| [.NET Framework](https://github.com/Ebazhanov/in-quiz-questions/blob/master/dotnet-framework/dotnet-framework-quiz.md) |  partially answered  |
 | [Git](https://github.com/Ebazhanov/in-quiz-questions/blob/master/git/git-quiz.md) :star: | with answers |
+| [Google Analytics](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-analytics/google-analytics-quiz.md) |  with answers |
+| [Google Cloud Platform (GCP)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-cloud-platform/gcp-quiz.md) |  with answers |
+| [Hadoop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/hadoop/hadoop-quiz.md) | answers required |
+| [HTML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/html/html-quiz.md) |  with answers |
+| [Java](https://github.com/Ebazhanov/in-quiz-questions/blob/master/java/java-quiz.md) |  with answers |
 | [Javascript](https://github.com/Ebazhanov/in-quiz-questions/blob/master/javascript/javascript-quiz.md) | with answers |
 | [jQuery](https://github.com/Ebazhanov/in-quiz-questions/blob/master/jquery/jquery-quiz.md) :open_mouth: |  with answers |
+| [JSON](https://github.com/Ebazhanov/in-quiz-questions/blob/master/json/json-quiz.md) |  with answers |
+| [Machine Learning](https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/machine-learning-quiz.md) |  answers required |
+| [Maven](https://github.com/Ebazhanov/in-quiz-questions/blob/master/maven/maven-quiz.md) :fire: | with answers |
+| [Microsoft Azure](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-azure/microsoft-azure-quiz.md) |  with answers |
+| [Microsoft Excel](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-excel/microsoft-excel-quiz.md) |  with answers |
+| [Microsoft Power BI](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-power-bi/microsoft-power-bi-quiz.md) |  answers required |
+| [Microsoft Power Point](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-power-point/microsoft-power-point-quiz.md) |  partially answered |
+| [Microsoft Project](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-project/microsoft-project-quiz.md) |  answers required |
+| [Microsoft Word](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-word/microsoft-word-quiz.md) |  with answers |
 | [MongoDB](https://github.com/Ebazhanov/in-quiz-questions/blob/master/mongodb/mongodb-quiz.md) :green_heart: |  with answers |
-| [React.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/react/reactjs-quiz.md) :rose: |  with answers |
-| [HTML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/html/html-quiz.md) |  with answers |
-| [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md) |  answers required |
-| [MAVEN](https://github.com/Ebazhanov/in-quiz-questions/blob/master/maven/maven-quiz.md) |  partially answered |
-| [JAVA](https://github.com/Ebazhanov/in-quiz-questions/blob/master/java/java-quiz.md) |  with answers |
-| [CSS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/css/css-quiz.md) |  with answers |
-| [REST API](https://github.com/Ebazhanov/in-quiz-questions/blob/master/rest-api/rest-api-quiz.md) :+1: |  with answers |
-| [AWS-LAMBDA](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws-lambda/aws-lambda-quiz.md) :fire: | with answers |
-| [PYTHON](https://github.com/Ebazhanov/in-quiz-questions/blob/master/python/python-quiz.md) |  partially answered |
-| [OOP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/oop/object-oriented-programming-quiz.md) |  answers required |
-| [PHP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/php/php-quiz.md) |  answers required |
+| [MySQL](https://github.com/Ebazhanov/in-quiz-questions/blob/master/mysql/mysql-quiz.md) |  answers required |
+| [node.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/node.js/node.js-quiz.md) |  with answers |
 | [NoSQL](https://github.com/Ebazhanov/in-quiz-questions/blob/master/nosql/nosql-quiz.md) |  with answers |
-
+| [objective-c](https://github.com/Ebazhanov/in-quiz-questions/blob/master/objective-c/objective-c_quiz.md) |   partially answered |
+| [OOP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/oop/object-oriented-programming-quiz.md) |  with answers |
+| [PHP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/php/php-quiz.md) |  partially answered |
+| [Python](https://github.com/Ebazhanov/in-quiz-questions/blob/master/python/python-quiz.md) | with answers |
+| [R](https://github.com/Ebazhanov/in-quiz-questions/blob/master/r/r-quiz.md) |  partially answered |
+| [React.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/react/reactjs-quiz.md) :rose: |  with answers |
+| [REST API](https://github.com/Ebazhanov/in-quiz-questions/blob/master/rest-api/rest-api-quiz.md) :+1: |  partially answered |
+| [Scala](https://github.com/Ebazhanov/in-quiz-questions/blob/master/scala/scala-quiz.md) |  answers required  |
+| [Search Engine Optimization (SEO)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/seo/search-engine-optimization-quiz.md) |  partially answered  |
+| [SharePoint](https://github.com/Ebazhanov/in-quiz-questions/blob/master/sharepoint/sharepoint-quiz.md) |  with answers  |
+| [Swift](https://github.com/Ebazhanov/in-quiz-questions/blob/master/swift/swift-quiz.md) |  with answers |
+| [Transact-SQL (T-SQL)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/t-sql/t-sql-quiz.md) |  with answers  |
+| [Windows Server](https://github.com/Ebazhanov/in-quiz-questions/blob/master/windows-server/windows-server-quiz.md) |  partially answered  |
+| [WordPress](https://github.com/Ebazhanov/in-quiz-questions/blob/master/wordpress/wordpress-quiz.md) |  with answers  |
+| [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md) |  answers required |
 
 ## Contributors ✨
 
@@ -47,9 +91,130 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://creator.geekart.club/"><img src="https://avatars0.githubusercontent.com/u/18037133?v=4" width="100px;" alt=""/><br /><sub><b>Javokhir Nazarov</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Nazarov7mu" title="Code">💻</a> <a href="#content-Nazarov7mu" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/saurav1423"><img src="https://avatars1.githubusercontent.com/u/55906348?v=4" width="100px;" alt=""/><br /><sub><b>saurav kumar</b></sub></a><br /><a href="#content-saurav1423" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/Chetan11-dev"><img src="https://avatars0.githubusercontent.com/u/53407137?v=4" width="100px;" alt=""/><br /><sub><b>Chetan</b></sub></a><br /><a href="#content-Chetan11-dev" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/SeniorHunter"><img src="https://avatars0.githubusercontent.com/u/61600246?v=4" width="100px;" alt=""/><br /><sub><b>Amir Hossein Shekari</b></sub></a><br /><a href="#design-SeniorHunter" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/shekari-ah"><img src="https://avatars0.githubusercontent.com/u/61600246?v=4" width="100px;" alt=""/><br /><sub><b>Amir Hossein Shekari</b></sub></a><br /><a href="#design-shekari-ah" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/SergDaut"><img src="https://avatars3.githubusercontent.com/u/65856306?v=4" width="100px;" alt=""/><br /><sub><b>SergDaut</b></sub></a><br /><a href="#design-SergDaut" title="Design">🎨</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/pramaniknilotpal/"><img src="https://avatars1.githubusercontent.com/u/33095476?v=4" width="100px;" alt=""/><br /><sub><b>Nilotpal Pramanik</b></sub></a><br /><a href="#design-goodday451999" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=goodday451999" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/pramaniknilotpal/"><img src="https://avatars1.githubusercontent.com/u/33095476?v=4" width="100px;" alt=""/><br /><sub><b>Nilotpal Pramanik</b></sub></a><br /><a href="#design-goodday451999" title="Design">🎨</a></td>
+    <td align="center"><a href="https://abhisaphire.github.io"><img src="https://avatars3.githubusercontent.com/u/43245214?v=4" width="100px;" alt=""/><br /><sub><b>Abhishek Kumar</b></sub></a><br /><a href="#design-AbhiSaphire" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.facebook.com/monu.gupta.14855377"><img src="https://avatars3.githubusercontent.com/u/42869855?v=4" width="100px;" alt=""/><br /><sub><b>Monu Gupta</b></sub></a><br /><a href="#design-gmonu" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/kartikeyaGUPTA45"><img src="https://avatars2.githubusercontent.com/u/55397207?v=4" width="100px;" alt=""/><br /><sub><b>KARTIKEYA GUPTA</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=kartikeyaGUPTA45" title="Code">💻</a> <a href="#content-kartikeyaGUPTA45" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/kenkyusha"><img src="https://avatars1.githubusercontent.com/u/22096048?v=4" width="100px;" alt=""/><br /><sub><b>kenkyusha</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=kenkyusha" title="Code">💻</a> <a href="#content-kenkyusha" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/juandavidtowers"><img src="https://avatars0.githubusercontent.com/u/58567225?v=4" width="100px;" alt=""/><br /><sub><b>juandavidtowers</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=juandavidtowers" title="Code">💻</a> <a href="#content-juandavidtowers" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/cyber-netics"><img src="https://avatars1.githubusercontent.com/u/67401984?v=4" width="100px;" alt=""/><br /><sub><b>cyber-netics</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=cyber-netics" title="Code">💻</a> <a href="#content-cyber-netics" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/jtrisw"><img src="https://avatars0.githubusercontent.com/u/67442001?v=4" width="100px;" alt=""/><br /><sub><b>jtrisw</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=jtrisw" title="Code">💻</a> <a href="#content-jtrisw" title="Content">🖋</a></td>
+    <td align="center"><a href="http://www.linkedin.com/in/renregalado"><img src="https://avatars3.githubusercontent.com/u/15017921?v=4" width="100px;" alt=""/><br /><sub><b>Renato Regalado</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=ingenium21" title="Code">💻</a> <a href="#content-ingenium21" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://elixiumnetwork.org/"><img src="https://avatars3.githubusercontent.com/u/19564531?v=4" width="100px;" alt=""/><br /><sub><b>Matthew</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=fantypants" title="Code">💻</a> <a href="#content-fantypants" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/roplayer"><img src="https://avatars0.githubusercontent.com/u/129923?v=4" width="100px;" alt=""/><br /><sub><b>Jan S.</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=roplayer" title="Code">💻</a> <a href="#content-roplayer" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/igielskv"><img src="https://avatars1.githubusercontent.com/u/7470561?v=4" width="100px;" alt=""/><br /><sub><b>Manoli</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=igielskv" title="Code">💻</a> <a href="#content-igielskv" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/faraztanveer"><img src="https://avatars0.githubusercontent.com/u/23014681?v=4" width="100px;" alt=""/><br /><sub><b>Faraz tanveer</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=faraztanveer" title="Code">💻</a> <a href="#content-faraztanveer" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/mohnishkarri"><img src="https://avatars2.githubusercontent.com/u/60459557?v=4" width="100px;" alt=""/><br /><sub><b>mohnishkarri</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=mohnishkarri" title="Code">💻</a> <a href="#content-mohnishkarri" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/andyzhu"><img src="https://avatars3.githubusercontent.com/u/171831?v=4" width="100px;" alt=""/><br /><sub><b>andyzhu</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=andyzhu" title="Code">💻</a> <a href="#content-andyzhu" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/kushvishal"><img src="https://avatars3.githubusercontent.com/u/67946755?v=4" width="100px;" alt=""/><br /><sub><b>Vishal Kushwah</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=kushvishal" title="Code">💻</a> <a href="#content-kushvishal" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/7fold"><img src="https://avatars1.githubusercontent.com/u/33958646?v=4" width="100px;" alt=""/><br /><sub><b>Yurii Yakymenko</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=7fold" title="Code">💻</a> <a href="#content-7fold" title="Content">🖋</a></td>
+    <td align="center"><a href="https://www.thetechrix.com"><img src="https://avatars0.githubusercontent.com/u/19845881?v=4" width="100px;" alt=""/><br /><sub><b>Swetabh Suman</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Swetabhsuman8" title="Code">💻</a> <a href="#content-Swetabhsuman8" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/theInvincible"><img src="https://avatars2.githubusercontent.com/u/60701544?v=4" width="100px;" alt=""/><br /><sub><b>AJAY DANDGE</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=theInvincible" title="Code">💻</a> <a href="#content-theInvincible" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/mehmeteyesin"><img src="https://avatars3.githubusercontent.com/u/5034086?v=4" width="100px;" alt=""/><br /><sub><b>Mehmet Yesin</b></sub></a><br /><a href="#design-mehmeteyesin" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/lok0613"><img src="https://avatars0.githubusercontent.com/u/6286158?v=4" width="100px;" alt=""/><br /><sub><b>Lok Chun Wai</b></sub></a><br /><a href="#design-lok0613" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/adriadejuan"><img src="https://avatars2.githubusercontent.com/u/59417678?v=4" width="100px;" alt=""/><br /><sub><b>Adria de Juan</b></sub></a><br /><a href="#design-adriadejuan" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/gl-man"><img src="https://avatars3.githubusercontent.com/u/29589220?v=4" width="100px;" alt=""/><br /><sub><b>GL-Man</b></sub></a><br /><a href="#design-gl-man" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Jheel-patel"><img src="https://avatars2.githubusercontent.com/u/50559602?v=4" width="100px;" alt=""/><br /><sub><b>Jheel Patel</b></sub></a><br /><a href="#design-Jheel-patel" title="Design">🎨</a></td>
+    <td align="center"><a href="https://wsameer.github.io/v1/"><img src="https://avatars0.githubusercontent.com/u/8468992?v=4" width="100px;" alt=""/><br /><sub><b>Sameer Waskar</b></sub></a><br /><a href="#design-wsameer" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/alexander-e-andrews"><img src="https://avatars1.githubusercontent.com/u/45926661?v=4" width="100px;" alt=""/><br /><sub><b>Alexander Andrews</b></sub></a><br /><a href="#design-alexander-e-andrews" title="Design">🎨</a></td>
+    <td align="center"><a href="http://linkedin.com/in/abmaxwell/"><img src="https://avatars1.githubusercontent.com/u/25352305?v=4" width="100px;" alt=""/><br /><sub><b>Alexander Maxwell</b></sub></a><br /><a href="#design-abmaxwell" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/SlavaSD"><img src="https://avatars2.githubusercontent.com/u/38739299?v=4" width="100px;" alt=""/><br /><sub><b>Slava</b></sub></a><br /><a href="#design-SlavaSD" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/mayurbiw"><img src="https://avatars2.githubusercontent.com/u/20475960?v=4" width="100px;" alt=""/><br /><sub><b>Mayur Khatri</b></sub></a><br /><a href="#design-mayurbiw" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/Mascantosh"><img src="https://avatars0.githubusercontent.com/u/38609392?v=4" width="100px;" alt=""/><br /><sub><b>Mascantosh</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Mascantosh" title="Code">💻</a> <a href="#content-Mascantosh" title="Content">🖋</a> <a href="#talk-Mascantosh" title="Talks">📢</a> <a href="#ideas-Mascantosh" title="Ideas, Planning, & Feedback">🤔</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/kivancenesbeser/"><img src="https://avatars0.githubusercontent.com/u/16528400?v=4" width="100px;" alt=""/><br /><sub><b>Kivanc Enes</b></sub></a><br /><a href="#design-kivancbeser" title="Design">🎨</a></td>
+    <td align="center"><a href="http://www.linkedin.com/in/ritika-das-ece/"><img src="https://avatars2.githubusercontent.com/u/61988162?v=4" width="100px;" alt=""/><br /><sub><b>Ritika Das</b></sub></a><br /><a href="#design-Ritika-Das" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/Zer07793"><img src="https://avatars3.githubusercontent.com/u/68774399?v=4" width="100px;" alt=""/><br /><sub><b>Zer07793</b></sub></a><br /><a href="#design-Zer07793" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/cheungdzinyung"><img src="https://avatars1.githubusercontent.com/u/24264186?v=4" width="100px;" alt=""/><br /><sub><b>Andrew Cheung</b></sub></a><br /><a href="#design-cheungdzinyung" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/sadhac"><img src="https://avatars2.githubusercontent.com/u/35103750?v=4" width="100px;" alt=""/><br /><sub><b>Sadha</b></sub></a><br /><a href="#design-sadhac" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/tainenko"><img src="https://avatars0.githubusercontent.com/u/31752048?v=4" width="100px;" alt=""/><br /><sub><b>tainenko</b></sub></a><br /><a href="#design-tainenko" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/github-star-coder"><img src="https://avatars2.githubusercontent.com/u/68719147?v=4" width="100px;" alt=""/><br /><sub><b>github-star-coder</b></sub></a><br /><a href="#design-github-star-coder" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/danilotecoliveira"><img src="https://avatars3.githubusercontent.com/u/8810413?v=4" width="100px;" alt=""/><br /><sub><b>Danilo Oliveira</b></sub></a><br /><a href="#design-danilotecoliveira" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/lordeko"><img src="https://avatars3.githubusercontent.com/u/5224614?v=4" width="100px;" alt=""/><br /><sub><b>lordeko</b></sub></a><br /><a href="#design-lordeko" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/TheShubham-K"><img src="https://avatars0.githubusercontent.com/u/52125841?v=4" width="100px;" alt=""/><br /><sub><b>Shubham Kumar</b></sub></a><br /><a href="#design-TheShubham-K" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/testtree"><img src="https://avatars2.githubusercontent.com/u/69110357?v=4" width="100px;" alt=""/><br /><sub><b>testtree</b></sub></a><br /><a href="#design-testtree" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/cherylli"><img src="https://avatars2.githubusercontent.com/u/6191116?v=4" width="100px;" alt=""/><br /><sub><b>Cheryl Murphy</b></sub></a><br /><a href="#design-cherylli" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/TechieTom"><img src="https://avatars2.githubusercontent.com/u/342573?v=4" width="100px;" alt=""/><br /><sub><b>Bipin Thomas</b></sub></a><br /><a href="#design-TechieTom" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/aHishamm"><img src="https://avatars1.githubusercontent.com/u/40188935?v=4" width="100px;" alt=""/><br /><sub><b>Abdulrahman Hisham</b></sub></a><br /><a href="#design-aHishamm" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/dakshitha-dissanayaka-099a09143/?originalSubdomain=lk"><img src="https://avatars1.githubusercontent.com/u/45692186?v=4" width="100px;" alt=""/><br /><sub><b>Dakshitha Dissanayaka</b></sub></a><br /><a href="#design-Dakshitha96" title="Design">🎨</a></td>
+    <td align="center"><a href="https://badrkac.github.io"><img src="https://avatars0.githubusercontent.com/u/31140256?v=4" width="100px;" alt=""/><br /><sub><b>BADR KACIMI</b></sub></a><br /><a href="#design-BADRKAC" title="Design">🎨</a></td>
+    <td align="center"><a href="http://naivekid.me/"><img src="https://avatars2.githubusercontent.com/u/9972355?v=4" width="100px;" alt=""/><br /><sub><b>Alex Wang</b></sub></a><br /><a href="#design-DarkAlexWang" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/maximlangman"><img src="https://avatars2.githubusercontent.com/u/69239194?v=4" width="100px;" alt=""/><br /><sub><b>Maxim</b></sub></a><br /><a href="#design-maximlangman" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/GordonGrant"><img src="https://avatars2.githubusercontent.com/u/69278254?v=4" width="100px;" alt=""/><br /><sub><b>GordonGrant</b></sub></a><br /><a href="#design-GordonGrant" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=GordonGrant" title="Code">💻</a></td>
+    <td align="center"><a href="http://tirufat.com"><img src="https://avatars1.githubusercontent.com/u/38384199?v=4" width="100px;" alt=""/><br /><sub><b>Ephrem Demelash</b></sub></a><br /><a href="#design-ephremdeme" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/JonOrcutt"><img src="https://avatars1.githubusercontent.com/u/14285933?v=4" width="100px;" alt=""/><br /><sub><b>JonOrcutt</b></sub></a><br /><a href="#design-JonOrcutt" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/topdev10"><img src="https://avatars0.githubusercontent.com/u/44815224?v=4" width="100px;" alt=""/><br /><sub><b>topdev10</b></sub></a><br /><a href="#design-topdev10" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/cookwellwebsite"><img src="https://avatars0.githubusercontent.com/u/67667331?v=4" width="100px;" alt=""/><br /><sub><b>cookwellwebsite</b></sub></a><br /><a href="#design-cookwellwebsite" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/xren935"><img src="https://avatars2.githubusercontent.com/u/59517115?v=4" width="100px;" alt=""/><br /><sub><b>xren935</b></sub></a><br /><a href="#design-xren935" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/nemo369"><img src="https://avatars2.githubusercontent.com/u/5106483?v=4" width="100px;" alt=""/><br /><sub><b>Nemo Frenkel</b></sub></a><br /><a href="#design-nemo369" title="Design">🎨</a></td>
+    <td align="center"><a href="https://www.hackerrank.com/mdsaifalam96"><img src="https://avatars1.githubusercontent.com/u/38750964?v=4" width="100px;" alt=""/><br /><sub><b>MD SAIF ALAM</b></sub></a><br /><a href="#design-mdsaifalam96" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/borosilva"><img src="https://avatars1.githubusercontent.com/u/16139435?v=4" width="100px;" alt=""/><br /><sub><b>Boris López Araya</b></sub></a><br /><a href="#design-borosilva" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/LarryChiem"><img src="https://avatars0.githubusercontent.com/u/15273129?v=4" width="100px;" alt=""/><br /><sub><b>Larry Chiem</b></sub></a><br /><a href="#design-LarryChiem" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/bilal966"><img src="https://avatars3.githubusercontent.com/u/8384741?v=4" width="100px;" alt=""/><br /><sub><b>Muhammad Bilal Ilyas</b></sub></a><br /><a href="#design-bilal966" title="Design">🎨</a></td>
+    <td align="center"><a href="http://alimilani.ir"><img src="https://avatars1.githubusercontent.com/u/59066012?v=4" width="100px;" alt=""/><br /><sub><b>AliMilani</b></sub></a><br /><a href="#design-AliMilani" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=AliMilani" title="Code">💻</a></td>
+    <td align="center"><a href="https://surajsahani.github.io/"><img src="https://avatars3.githubusercontent.com/u/22853459?v=4" width="100px;" alt=""/><br /><sub><b>Suraj Sahani</b></sub></a><br /><a href="#design-surajsahani" title="Design">🎨</a></td>
+    <td align="center"><a href="https://medium.com/@flyingSquirrel"><img src="https://avatars2.githubusercontent.com/u/43737436?v=4" width="100px;" alt=""/><br /><sub><b>FlyingSquirrel</b></sub></a><br /><a href="#design-flyingSquirrel-dev" title="Design">🎨</a></td>
+    <td align="center"><a href="https://ericktijerou.com/"><img src="https://avatars1.githubusercontent.com/u/17746153?v=4" width="100px;" alt=""/><br /><sub><b>Erick Tijero</b></sub></a><br /><a href="#design-ericktijerou" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/Jaskaran121"><img src="https://avatars1.githubusercontent.com/u/35613378?v=4" width="100px;" alt=""/><br /><sub><b>Jaskaran Kukreja</b></sub></a><br /><a href="#design-Jaskaran121" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/mlito"><img src="https://avatars3.githubusercontent.com/u/5511762?v=4" width="100px;" alt=""/><br /><sub><b>MichaelL</b></sub></a><br /><a href="#design-mlito" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/MagicLegend"><img src="https://avatars1.githubusercontent.com/u/3169104?v=4" width="100px;" alt=""/><br /><sub><b>MagicLegend</b></sub></a><br /><a href="#design-MagicLegend" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/dkbearsong"><img src="https://avatars0.githubusercontent.com/u/58266063?v=4" width="100px;" alt=""/><br /><sub><b>Dereck Bearsong</b></sub></a><br /><a href="#design-dkbearsong" title="Design">🎨</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/pappu-kumar-pashi-75977a172/"><img src="https://avatars2.githubusercontent.com/u/46879554?v=4" width="100px;" alt=""/><br /><sub><b>Pappu Kumar Pashi</b></sub></a><br /><a href="#design-PappuKP" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/kishore93"><img src="https://avatars0.githubusercontent.com/u/12965564?v=4" width="100px;" alt=""/><br /><sub><b>Venkata Kishore Tavva</b></sub></a><br /><a href="#design-kishore93" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/rafattouqir"><img src="https://avatars2.githubusercontent.com/u/2104659?v=4" width="100px;" alt=""/><br /><sub><b>Rafat Touqir Rafsun</b></sub></a><br /><a href="#design-rafattouqir" title="Design">🎨</a></td>
+    <td align="center"><a href="https://www.scikn.in"><img src="https://avatars2.githubusercontent.com/u/53991169?v=4" width="100px;" alt=""/><br /><sub><b>Snehesh Dutta</b></sub></a><br /><a href="#design-Sneheshdutta" title="Design">🎨</a></td>
+    <td align="center"><a href="http://tik9.github.io/cv"><img src="https://avatars0.githubusercontent.com/u/3178925?v=4" width="100px;" alt=""/><br /><sub><b>Timo Körner</b></sub></a><br /><a href="#design-tik9" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=tik9" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/alexxxan"><img src="https://avatars3.githubusercontent.com/u/70323867?v=4" width="100px;" alt=""/><br /><sub><b>alexxxan</b></sub></a><br /><a href="#design-alexxxan" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/GGJason"><img src="https://avatars0.githubusercontent.com/u/8362482?v=4" width="100px;" alt=""/><br /><sub><b>GGJason</b></sub></a><br /><a href="#design-GGJason" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/lewing00"><img src="https://avatars1.githubusercontent.com/u/46617523?v=4" width="100px;" alt=""/><br /><sub><b>LeeAnna Ewing</b></sub></a><br /><a href="#design-lewing00" title="Design">🎨</a> <a href="#ideas-lewing00" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="http://www.linkedin.com/in/jyotwal"><img src="https://avatars2.githubusercontent.com/u/19168650?v=4" width="100px;" alt=""/><br /><sub><b>kamal Jyotwal</b></sub></a><br /><a href="#design-kamaljyotwal" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/Bob-Johns"><img src="https://avatars2.githubusercontent.com/u/71194583?v=4" width="100px;" alt=""/><br /><sub><b>Bob-Johns</b></sub></a><br /><a href="#design-Bob-Johns" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/yunussalmanlyit"><img src="https://avatars0.githubusercontent.com/u/61629690?v=4" width="100px;" alt=""/><br /><sub><b>yunussalmanlyit</b></sub></a><br /><a href="#design-yunussalmanlyit" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=yunussalmanlyit" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/chilcot"><img src="https://avatars0.githubusercontent.com/u/62221068?v=4" width="100px;" alt=""/><br /><sub><b>chilcot</b></sub></a><br /><a href="#design-chilcot" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=chilcot" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/jackyli-work"><img src="https://avatars2.githubusercontent.com/u/54344547?v=4" width="100px;" alt=""/><br /><sub><b>Jacky Li</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=jackyli-work" title="Code">💻</a> <a href="#content-jackyli-work" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/sarthaktrivedi99"><img src="https://avatars3.githubusercontent.com/u/4245783?v=4" width="100px;" alt=""/><br /><sub><b>Sarthak Trivedi</b></sub></a><br /><a href="#design-sarthaktrivedi99" title="Design">🎨</a></td>
+    <td align="center"><a href="http://ayushaggarwal.com"><img src="https://avatars3.githubusercontent.com/u/17214678?v=4" width="100px;" alt=""/><br /><sub><b>Ayush Aggarwal</b></sub></a><br /><a href="#design-ayushagg31" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/nicballarini"><img src="https://avatars3.githubusercontent.com/u/13786995?v=4" width="100px;" alt=""/><br /><sub><b>Nic Ballarini</b></sub></a><br /><a href="#design-nicballarini" title="Design">🎨</a></td>
+    <td align="center"><a href="http://blogs.dotnethell.it/ciupaz/"><img src="https://avatars3.githubusercontent.com/u/3354890?v=4" width="100px;" alt=""/><br /><sub><b>Luigi Zambetti</b></sub></a><br /><a href="#design-LuigiZambetti" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/govindhaswin"><img src="https://avatars2.githubusercontent.com/u/47293468?v=4" width="100px;" alt=""/><br /><sub><b>govindhaswin</b></sub></a><br /><a href="#design-govindhaswin" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/royadityak94"><img src="https://avatars0.githubusercontent.com/u/57421832?v=4" width="100px;" alt=""/><br /><sub><b>Addy Roy</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=royadityak94" title="Code">💻</a> <a href="#design-royadityak94" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/dev-akshat/dev-akshat"><img src="https://avatars3.githubusercontent.com/u/43572179?v=4" width="100px;" alt=""/><br /><sub><b>Akshat Tamrakar</b></sub></a><br /><a href="#design-dev-akshat" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=dev-akshat" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/sai-github"><img src="https://avatars2.githubusercontent.com/u/9116255?v=4" width="100px;" alt=""/><br /><sub><b>Sai Bhargava Ramu</b></sub></a><br /><a href="#design-sai-github" title="Design">🎨</a></td>
+    <td align="center"><a href="http://youtube.com/c/gurkankaraman"><img src="https://avatars1.githubusercontent.com/u/40955470?v=4" width="100px;" alt=""/><br /><sub><b>Gurkan</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=GHasanKaraman" title="Code">💻</a></td>
+    <td align="center"><a href="https://spencer-hayes.me/"><img src="https://avatars3.githubusercontent.com/u/24394743?v=4" width="100px;" alt=""/><br /><sub><b>Spencer Hayes-Laverdiere</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=shaye059" title="Code">💻</a></td>
+    <td align="center"><a href="https://linkedin.com/in/aniketsoni/"><img src="https://avatars1.githubusercontent.com/u/47126963?v=4" width="100px;" alt=""/><br /><sub><b>Aniket Soni</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=aniketsoni1" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/dina-taklit/"><img src="https://avatars3.githubusercontent.com/u/20540072?v=4" width="100px;" alt=""/><br /><sub><b>Dina Taklit</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=DinaTaklit" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/dushyantsingh-ds"><img src="https://avatars3.githubusercontent.com/u/55306442?v=4" width="100px;" alt=""/><br /><sub><b>Dushyant Singh</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Dushyantsingh-ds" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://www.linkedin.com/in/klages"><img src="https://avatars2.githubusercontent.com/u/7157817?v=4" width="100px;" alt=""/><br /><sub><b>Guy Klages</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=guyklages" title="Code">💻</a></td>
   </tr>
 </table>
 
