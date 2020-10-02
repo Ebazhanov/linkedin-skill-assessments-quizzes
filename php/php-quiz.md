@@ -18,7 +18,7 @@ PHP Assessment
 
 #### Q3. What does this script do?
 ```
-1 $mail = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+1 $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
 2 if ($email === false) {
 3  $emailErr = "Please re-enter valid email";
 4 }
@@ -81,7 +81,7 @@ PHP Assessment
 - ''
 - -1 //Correct
 
-#### Q11. What is missing from this code, which is supposed to reate a test cookies?
+#### Q11. What is missing from this code, which is supposed to create a test cookies?
 ```
 1 $string_name = " testcookie";
 2 $string_value = "This is a test cookie";
@@ -129,7 +129,7 @@ PHP Assessment
 
 Which is the correct format for adding a comment to a PHP script? 
 
--all of these answers ////CORRECT
+-all of these answers --CORRECT
 -#This is a comment 
 - /* This is a comment / 
 - // This is a comment 
@@ -150,34 +150,30 @@ PHP supports multiple types of loops. If you wanted to loop through a block of c
 -You would use this function if you want a PHP script to run forever. 
  
  The PHP function array_reduce() takes a callback function that accepts a value carried over each iteration and the current item in the array, and reduces an array to a single value. Which code sample will sum and output the values in the provided array? 
-MAYBE-```
+
+1 <?php 
+2 echo array_reduce([1, 2, 5, 10, 11], function ($item, $carry) { 
+3 $carry = $carry + $item; 
+4 });
+5?>
+
+1 <?php 
+2 echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) { 
+3 return $carry = $item + $item; 
+4 });
+5?>
+
 1 <?php 
 2 array_reduce([11 2, 5, 10, 11], function ($item, $carry) { 
 3 echo $carry + $item; 
 4 });
 5?>
-```
--```
-1 <?php 
-2 echo array_reduce([11 2, 5, 10, 11], function ($item, $carry) { 
-3 $carry = $carry + $item; 
+
+1 <?php --CORRECT
+2 echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) { 
+3 return $carry += $item; 
 4 });
 5?>
-```
--```
-1 <?php 
-2 echo array_reduce([11 2, 5, 10, 11], function ($carry, $item) { 
-3 return $carry +: $item; 
-4 });
-5?>
-```
--```
-1 <?php 
-2 echo array_reduce([11 2, 5, 10, 11], function ($carry, $item) { 
-3 return $carry o $item + $item; 
-4 });
-5?>
-```
 
 
 Which PHP script uses a constructor to display the string "Winter is almost over!"? 
@@ -252,8 +248,8 @@ function process(...$vals) {
  }
 ```
 
--It makes the function variadic, allowing it to accept as an argument an array containing an arbitrary number of values.  -----Maybe
-- It makes the function variadic, allowing it to accept an arbitrary number of arguments that are converted into an array inside the function. 
+-It makes the function variadic, allowing it to accept as an argument an array containing an arbitrary number of values.  -----
+- It makes the function variadic, allowing it to accept an arbitrary number of arguments that are converted into an array inside the function. -----correct
 -It temporarily disables the function while debugging other parts of the script. 
 -It's a placeholder like a TO DO reminder that automatically triggers a notice when you run a script before completing the  function definition. 
 
@@ -265,4 +261,77 @@ Assuming the Horse class exists, which is a valid example of inheritance in PHP?
 - class Horse inherits Unicorn {} 
 
 
+Both triple === and double == can be used to ___ variables in php. If you want to hear that string "33" and the number 33 are equal, you would use __ . If you want to check if an array contains a particular string value at a particular index, you would use ___
+- compare; doubles;triples --- correct
+- compare; triples;doubles
+- assign; triples;doubles
+- assign;doubles;triples
 
+Your php page is unexpectedly rendering as totally blank. Which step will shed light on the problem?
+- Add this code to the top of your script:ini_set('display_errors',1);
+- check the server error logged
+- all of these answers --- correct
+- make sure you are not missing any semicolons
+
+
+Which is the way to create an array of "seasons"?
+- seasons=array(
+1=>'spring',
+2=>'summer',
+3=>'autumn',
+4=>'winter',
+);
+-$seasons=array(spring,summer,autumn,winter);
+-$seasons=('spring','summer','autumn','winter');
+-$seasons=['spring','summer','autumn','winter']; --- correct
+
+Both self and this are keywords that can be used to refer to member variables of an enclosing class. The difference is that $this->member should be used for __ members and self::$member should be used for __ members.
+- private, public
+- object,primitive
+-non-static,static--- correct
+-concrete,abstract
+
+What will this code print?
+$mathe=array('archi','euler','pythagoras');
+array_push($mathe,'hypatia');
+array_push($mathe,'fibonacci');
+array_pop($mathe);
+echo array_pop($mathe);
+echo sizeof($mathe);
+-euler3
+-hypatia5
+-hypatia3--- correct
+-fibonacci4
+
+You are using the following code to find a users band, but it is returning false. Which step(s) would solve the problem?
+isset ($_GET['fav_band'])
+
+-check if fav_band is included in the query string at the top of your browser
+-all of the answers --- correct
+-view the source of form and make sure there is an input field with the name 'fav_band'
+-print everything that has been transmitted in the request:print_r($_REQUEST);
+
+
+Which code would you use to print all the elements in an array called $cupcakes?
+-all of the answers--- correct
+-print_r($cupcakes);
+-var_dump($cupcakes);
+-foreach($cupcakes as &$cupcake) echo $cupcake;
+
+What is the cause of 'Cannot modify header information - headers already sent'?
+-You are trying to modify a private value
+-Semicolon missing
+- Using a key on an array that does not exists
+-some html is being sent before a header() command that you are using for a redirect--- correct
+
+Which php control structure is used inside a loop to skip the rest of the current loops code and go back to the start of the loop for the next iteration
+-else
+-break
+-return
+-continue --- correct
+
+The php not operator is !. Given the snippet, is there an out put and what is it?
+-there is an output '2 is an even number
+-output '21 is an odd number' --- correct
+-no output. Syntax error do to missing semicolon at the end
+-no output due to % in $num%2!=0

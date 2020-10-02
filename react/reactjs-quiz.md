@@ -9,10 +9,10 @@
 
 #### Q2. If a function component should always render the same way given the same props, what is a simple performance optimization available for it?
 
-- Wrap it in the React.memo higher-order component. <<<<<--CORRECT
-- Implement the useReducer Hook.
-- Implement the useMemo Hook.
-- Implement the shouldComponentUpdate lifecycle method.
+- Wrap it in the `React.memo` higher-order component. <<<<<--CORRECT
+- Implement the `useReducer` Hook.
+- Implement the `useMemo` Hook.
+- Implement the `shouldComponentUpdate` lifecycle method.
 
 #### Q3. How do you fix the syntax error that results from running this code?
 
@@ -139,10 +139,10 @@ ReactDOM.render(
 )
 ```
 
-- div
+- `div`
 - section
 - component
-- h1 <<<<<--CORRECT
+- `h1` <<<<<--CORRECT
 
 #### 15. What does this React element look like given the following function?
 
@@ -208,7 +208,7 @@ const element = <p>{message}</p>
 
 ```javascript
 A. <button onClick="{this.handleClick}>Click Me</button>"
-B. <button onClick="{event => this.handleClick()event}}>Click Me</button>"
+B. <button onClick="{event => this.handleClick(event)}}>Click Me</button>"
 ```
 
 - Button A will not have access to the event object on click of the button.
@@ -262,8 +262,8 @@ function Dish(props) {
 #### 25. Which attribute do you use to replace innerHTML in the browser DOM?
 
 - injectHTML
-- dangerouslySetinnerHTML <<<<<--CORRECT
-- weirdSetinnerHTML
+- dangerouslySetInnerHTML <<<<<--CORRECT
+- weirdSetInnerHTML
 - strangeHTML
 
 #### 26. Which of these terms commonly describe React applications?
@@ -282,7 +282,7 @@ function Dish(props) {
 
 #### 28. A representation of a user interface that is kept in memory and is synced with the "real" DOM is called what?
 
-- virtual DOM <<<<<--CORRECT maybe
+- virtual DOM <<<<<--CORRECT 
 - DOM
 - virtual elements
 - shadow DOM
@@ -317,7 +317,7 @@ const Heading = () => {
 #### Q32. In which lifecycle method do you make requests for data in a class component?
 
 - constructor
-- componentDidMount <<<<<--CORRECT (not sure)
+- componentDidMount <<<<<--CORRECT 
 - componentWillReceiveProps
 - componentWillMount
 
@@ -392,4 +392,32 @@ class Clock extends React.Component {
 - `ReactDOM`  <<<<<--CORRECT
 - `Render`
 - `DOM`
+
+#### Q41. How do you set a default value for an uncontrolled form field?
+
+- Use the `value` property
+- Use the `defaultValue` property  <<<<<--CORRECT
+- Use the `default` property
+- It assigns one automatically
+
+#### Q42. What do you need to change about this code to get it to run?
+```js
+class clock extends React.Component {
+	render() {
+		return <h1>Look at the time: {this.props.time}</h1>;
+	}
+}
+```
+
+- Add quotes around the return value
+- Remove `this`
+- Remove the render method
+- Capitalize `clock`  <<<<<--CORRECT (In JSX, lower-case tag names are considered to be HTML tags. Read [this article](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components))
+
+#### Q43. Which Hook could be used to update the document's title?
+
+- `useEffect(function updateTitle() { document.title = name + ' ' + lastname; });`  <<<<<--CORRECT
+- `useEffect(() => { title = name + ' ' + lastname; });`
+- `useEffect(function updateTitle() { name + ' ' + lastname; });`
+- `useEffect(function updateTitle() { title = name + ' ' + lastname; });`
 

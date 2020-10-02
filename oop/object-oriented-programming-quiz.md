@@ -110,7 +110,7 @@ Object-Oriented Programming (OOP) Assessment
 - Getters and setters permit different access levels.
 
 #### Q19. In context of OOP, what is association?
-- Association is a relationship where all objects have their own life cycle and there is no owner. <<-- correct
+- **Association is a relationship where all objects have their own life cycle and there is no owner.** <<-- correct
 - Association is the procecss where model elements cooperate to proide higher-level behavior.
 Association is whole/part relationship where one object is composed of one or more other objects, each of which is considered a part of the whole. 
 - Association is where all objects have their own life cycle, but there is ownerhip, and child objects can not belong to another parent object.
@@ -146,20 +146,20 @@ Association is whole/part relationship where one object is composed of one or mo
 - **Abstract Factory, Builder, Factory Method, Prototype, and Singleton.** <<-- correct
 
 #### Q25. In multilevel inheritence, one class inherits how many classes?
-- one class only <<-- correct
+- **one class only** <<-- correct
 - two classes
 - as many classes as required
 - at least two classes 
 
 #### Q26. if an object is passed by reference, the changes made in the function are reflected _______.
-- to the main object of the caller function, too <<-- correct
+- **to the main object of the caller function, too** <<-- correct
 - on the caller function object and also the called function object
 - on the copy of the object that is made during the pass
 - only in the local scope of the called function
 
 #### Q27. What is a method? 
 - a set of instructions designed to perform a frequently used operation within a program and return no values
-- the exact same thing as a function and subroutine <<-- correct
+- **the exact same thing as a function and subroutine** <<-- correct
 - a set of variables that can change over time
 - a procedure associated with data and behaviour 
 
@@ -167,7 +167,7 @@ Association is whole/part relationship where one object is composed of one or mo
 - camera
 - display
 - motherboard
-- mobile phone <<-- correct
+- **mobile phone** <<-- correct
 
 #### Q29. Which class has the highest degree of abstraction in a multilevel inheritance relationship of five levels?
 - the class at the third level
@@ -216,3 +216,39 @@ static void Multiply(float num1, float num2) {};
 - to delete the static members when not required
 - to initialize the static members of class
 - to clear all the static members' initialized values
+
+#### Q36. What are CRC Cards?
+- [] Code Responsibility Collection cards are a brainstorming tool used in the design of procedural software
+- [] Class responsible collaboration cards are a brainstorming tool used in the design of oop software
+- [] Code Responsibility Correction cards are tools used for debugging
+- [] Code Responsibility Correction cards are tools for modeling 
+
+#### Q37. How are contents of a composition different from those of aggregation?
+- [] if one element of an aggregation is dereferenced, all its elements are eligible for garbage collection
+- [] if a composition dies, the contents die
+- [] the contents of a composition are all siblings
+- [] an aggregation contains only abstract classes
+
+#### Q38. What is the result of using more abstraction?
+- [] it can increase code vulnerability
+- [] it can make code unsafe
+- [] it can limit code readability
+- [] it can be safer for coding
+
+#### Q39. Which is false for a member function of a class?
+- [] they can be defined only inside or outside the class body
+- [x] the can be made to be friends of another class
+- [] they do not need to be declared inside the class definiton
+- [] they need to be defined
+
+#### Q40. Why is inheritance used when creating a new class?
+- [] to protect attributes from unwanted changes
+- [] to delegate coding responsibility more efficiently
+- [] to conserve memory
+- [x] to avoid writing duplicate code
+
+#### Q41. In addition to attributes and behaviours, what quality must a class possess?
+- **a name  <<-- correct**
+- a state
+- a color
+- an object

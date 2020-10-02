@@ -159,9 +159,9 @@ names.map { (s) -> String in
   return s.uppercased()  
 }
 ```
-- ["BEAR", "JOE", "CLARK"] <<<<---Correct
+- ["BEAR", "JOE", "CLARK"]
 - ["B", "J", "C"]
-- ["Bear", "Joe", "Clark"]
+- ["Bear", "Joe", "Clark"] <<<<---Correct
 - This code contains an error.
 
 #### Q17. What describes this line of code?

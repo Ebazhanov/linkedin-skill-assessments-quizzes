@@ -302,3 +302,27 @@
 - [x] =MAX(H2:H30)
 - [ ] =LARGE (H2:H30, 29)
 - [ ] =UPPER(H2:H30,1)
+
+#### Q45. Which format setting does not change the background appearance of a cell?
+- [ ] Fill color
+- [x] Font Color
+- [ ] Pattern Style
+- [ ] Cell Style
+
+#### Q46. The charts below are based on the data in cells a3:g5. The chart on the right was created by copying the one on the left. Which ribbon button was clicked to change the layout of the chart on the right (missing answers)?
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+
+#### Q47. Cell A20 displays an orange background when its value is 5. Changing the value to 6 changes the background color to green. What type of formatting is applied to cell A20?
+- [ ] Value Formatting
+- [ ] Cell Style Formatting
+- [x] Conditional Formatting
+- [ ] Tabular format
+
+#### Q48. What does this formula do? =Sum(Sheet1:Sheet4!D18)
+- [ ] It adds data from cell D18 of Sheet1 and cell D18 of Sheet4
+- [ ] It adds data from cell A1 of Sheet1 and cell D18 of sheet4
+- [ ] It adds all data in the range A1:D18 in Sheet1, Sheet2, Sheet3 and Sheet4
+- [x] It adds data from all D18 cells in Sheet1, Sheet2, Sheet3 and 4

@@ -50,12 +50,13 @@ console.log('Results shown');
 - immediately <<<<<----Correct
 
 #### Q7. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?
-- ```for (var i=1; i<=4; i++){
+```js
+ for (var i=1; i<=4; i++){
     setTimeout(function(){
         console.log(i);
     }, i*10000);
-   }`
-   
+   }
+```
 - `for (var i=1; i<=4; i++){
        (function(i){
           setTimeout(function(){
@@ -76,7 +77,7 @@ console.log('Results shown');
            console.log(j);
          }, j*1000);
       })(i)
-    }` // Correct
+    }` <<<<----Correct
     
 - `for (var j=1; j<=4; j++) {
      setTimeout(function() {
@@ -314,10 +315,10 @@ let diff = function(x,y){
     return x-y
 }
 ```
-- 30, RefferanceError, 30, -10
-- 30, ReferanceError  <<<<----Correct
+- 30, ReferenceError, 30, -10
+- ReferenceError  <<<<----Correct
 - 30, -10
-- ReferanceError, -10
+- ReferenceError, -10
 
 #### Q36. Why is it usually better to work with Objects instead of Arrays to store a collection of records?
 - Objects are more efficent in terms of storeage.
@@ -344,12 +345,12 @@ let diff = function(x,y){
 - True
 - undefined
 - []
-- False <<<<----Correct
+- False <<<<----Correct (Referential Equality)
 
-#### Q40. What is the name of a function whose expecution can be suspended and resumed at a later point? 
-- Generator function
+#### Q40. What is the name of a function whose execution can be suspended and resumed at a later point? 
+- Generator function <<<<----Correct
 - Arrow function 
-- Async/ Await function <<<<----Correct
+- Async/ Await function 
 - Promise function
 
 #### Q41. What will this code print?
@@ -404,8 +405,8 @@ if (start === 1) {
 }
 ```
 - conditional
-- block
-- global   <<<<----Correct
+- block <<<<----Correct
+- global   
 - function
 
 
@@ -453,3 +454,14 @@ var b = (a = 3) ? true: false
 - `document.querySelector('.pull');`   <<<<----Correct
 - `Document.querySelector('pull')`
 - `Document.querySelector('#pull')`
+
+### Q52. What value does the code return?
+```js
+let answer=true
+if (answer === false){
+	return 0}
+	else {return 10}
+```
+- 10 <<<<----Correct
+- false
+- 0
