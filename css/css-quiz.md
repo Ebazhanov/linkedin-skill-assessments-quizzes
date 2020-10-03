@@ -328,10 +328,10 @@ color: #000000;
 <div style="margin-bottom: 2rem;">Div 1</div>
 <div style="margin-top: 2rem;">Div 2</div>
 ```
-- 2rem
+- 2rem <<<<---Correct
 - 32px
 - 64px
-- 4rem <<<<---Correct
+- 4rem 
 
 #### Q31. When using the Flexbox method, what property and value is used to display flex items in a column?
 - flex-flow: column; or flex-direction: column <<<<---Correct
@@ -386,10 +386,10 @@ h2 + p {
 - Paragraph 2 will be blue. Paragraphs 2 and 3 will have a beige background.
 
 #### Q35. When using flexbox, the "justify-content" property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
-- justify-content: space-around;
+- justify-content: space-around; <<<<---Correct
 - justify-content: center;
 - justify-content: auto;
-- justify-content: space-between;   <<<<---Correct
+- justify-content: space-between;   
 
 #### Q36. There are many advantages to using icon fonts. What is one of those advantages?
 - Icon fonts increase accessibility.

@@ -41,16 +41,12 @@ Q5. How do you determine at startup time if a piece of middleware should be used
 	- List the middleware beneath an entry of django.middleware.IgnoredMiddleware.
 	- Write code to remove the middleware from the settings in [app]/__init__.py.
 
-
-
 Q6. How do you turn off Django’s automatic HTML escaping for part of a web page?
 
 	- Place that section between paragraph tags containing the autoescape=off switch.
-	- Wrap that section between {% autoescape off %} and {% endautoescape %} tags.
-	- Wrap that section between {% autoescapeoff %} and {% endautoescapeoff %} tags.
+	- Wrap that section between { percentage mark autoescape off percentage mark} and {percentage mark endautoescape percentage mark} tags.
+	- Wrap that section between {percentage mark autoescapeoff percentage mark} and {percentage mark endautoescapeoff percentage mark} tags.
 	👍 - You don't need to do anything—autoescaping is off by default.
-
-
 
 Q7. Which step would NOT help you troubleshoot the error "django-admin: command not found"?
 
@@ -160,7 +156,7 @@ Q18. Which is NOT a valid step in configuring your Django 2.x instance to serve 
 	👍 - In your urls file, add a pattern that includes the name of your static directory.
 	- Create a directory named static inside your app directory.
 	- Create a directory named after the app under the static directory, and place static files inside.
-	- Use the template tag {% load static %}.
+	- Use the template tag {percentage mark load static percentage mark}.
 
 
 
@@ -188,3 +184,39 @@ Q21. You want to create a page that allows editing of two classes connected by a
 	- admin
 	- mezcal
 	- inlines
+
+
+
+Q22. Why are QuerySets considered "lazy"?
+
+	- The results of a QuerySet are not ordered.
+	👍 - QuerySets do not create any database activity until they are evaluated.
+	- QuerySets do not load objects into memory until they are needed.
+	- Using QuerySets, you cannot execute more complex queries.
+
+
+
+Q23. You receive a `MultiValueDictKeyError` when trying to access a request parameter with the following code: request.GET['search_term']. Which solution will NOT help you in this scenario?
+
+	👍 - Switch to using POST instead of GET as the request method.
+	- Make sure the input field in your form is also named "search_term".
+	- Use MultiValueDict's GET method instead of hitting the dictionary directly like this: request.GET.get('search_term', '').
+	- Check if the search_term parameter is present in the request before attempting to access it.
+
+
+
+Q24. Which function of Django's Form class will render a form's fields as a series of <p> tags?
+
+	- show_fields()
+	👍 - as_p()
+	- as_table()
+	- fields()
+
+
+
+Q25. You have found a bug in Django and you want to submit a patch. Which is the correct procedure?
+
+	- Fork the Django repository GitHub.
+	- Submit a pull request.
+	👍 - all of these answers.
+	- Run Django's test suite.

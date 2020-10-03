@@ -7,7 +7,7 @@ Q1. A dataset that includes _ can be used to create a map visualization. (Select
     C. city names, country names
     D. longitude, latitude
 
-    [ ] A, B, C, D
+    [x] A, B, C, D
     [ ] A, C, D
     [ ] B, C, D
     [ ] D
@@ -22,18 +22,18 @@ Q2. How do you create a chart visual in Power Bl Desktop Report view? (Select al
     [ ] A, B, or D
     [ ] B or D
     [ ] B orC
-    [ ] A or B
+    [x] A or B
     
 Q3. What daily sales number does this DAX measure formula calculate? CALCULATE(SUM([Sales]) ,DATESHTD([Date] ))
  
     [ ] running total sales in each month that starts over each month
     [ ] total sales for the entire month
-    [ ] running total in entire year for the entire month
+    [x] running total in entire year for the entire month
     [ ] rolling average over 12 months of sales
     
 Q4. You are creating a report in Power Bl Desktop and want to restrict the data to records where Country="Canada". To accomplish this, what do you need to create?
 
-    [ ] a directive
+    [x] a directive
     [ ] a custom column
     [ ] an indexed column
     [ ] a parameter
@@ -41,7 +41,7 @@ Q4. You are creating a report in Power Bl Desktop and want to restrict the data 
 Q5. What is the primary benefit of using visualizations such as line charts, bar charts, and column charts?
 
     [ ] They are easier to create than other visualizations.
-    [ ] They require fewer resources than more complex visualizations.
+    [x] They require fewer resources than more complex visualizations.
     [ ] They are also used in Excel, so they feel familiar to users.
     [ ] They are free to use.
     
@@ -50,11 +50,11 @@ Q6. In Power Bl service, deleted pages are available after deletion until
     [ ] midnight of the day on which they are deleted
     [ ] the next billing cycle
     [ ] you empty the Recycle Bin
-    [ ] the report has been saved
+    [x] the report has been saved
     
 Q7. You need to add a required color to a bar chart. How can you add an exact color value to an existing bar chart?
 
-    [ ] Click the color in the visual (e.g., the bars) and right-click to select the color.
+    [x] Click the color in the visual (e.g., the bars) and right-click to select the color.
     [ ] You cannot select custom colors in a bar chart or related visual.
     [ ] Select the value closest to this color from the color formatting options.
     [ ] Enter the hex value into the color formatting options.
@@ -63,12 +63,12 @@ Q8. The Excel function IF is nearly the same as which DAX function?
 
     [ ] SWITCH
     [ ] IF
-    [ ] IFX
+    [x] IFX
     [ ] IFS
 
 Q9. Consider the Power Bl extract, transform, and load process (ETL). During this process, data is read and then
 
-    [ ] stored in SQL Server
+    [x] stored in SQL Server
     [ ] written to an OLAP cube
     [ ] assigned a data type
     [ ] sorted by primary key
@@ -83,7 +83,7 @@ Q10. Power Bl's Publish to Web option allows you to embed visualizations within 
     [ ] A,C
     [ ] C
     [ ] A, B, C
-    [ ] A, B, C, D
+    [x] A, B, C, D
     
 Q11. What can you do within the Power Bl Desktop Query Settings pane? (Select all that apply.)
 

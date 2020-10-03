@@ -205,14 +205,14 @@
 
 #### Q34. You work for a large credit card processing company that wants to create targeted promotions for its customers. The data science team created a machine learning system that groups together customers who made similar purchases, and divides those customers based on customer loyalty. How would you describe this machine learning approach? 
 
-- [ ]  It uses unsupervised learning to cluster together transactions and unsupervised learning to classify the customers. 
+- [x]  It uses unsupervised learning to cluster together transactions and unsupervised learning to classify the customers. 
 - [ ]  It uses only unsupervised machine learning. 
 - [ ]  It uses supervised learning to create clusters and unsupervised learning for classification. 
 - [ ]  It uses reinforcement learning to classify the customers.
 
 #### Q35. You are using K-nearest neighbor and you have a K of 1. What are you likely to see when you train the model? 
 
-- [ ]  high variance and low bias 
+- [x]  high variance and low bias 
 - [ ]  low bias and low variance 
 - [ ]  low variance and high bias 
 - [ ]  high bias and high variance
@@ -228,16 +228,20 @@
 #### Q37. Which choice is best for binary classification? 
 
 - [ ]  K-means 
-- [ ]  Logistic regression 
+- [x]  Logistic regression 
 - [ ]  Linear regression 
 - [ ]  Principal Component Analysis (PCA)
+
+Note: Logistic regression is far better than linear regression at binary classification since it biases the result toward one extreme or the other. K-means clustering can be used for classification but is not as accurate in most scenarios. Source: https://www.kaggle.com/minc33/k-means-clustering-vs-logistic-regression
 
 #### Q38. With traditional programming, the programmer typically inputs commands. With machine learning, the programmer inputs 
 
 - [ ]  supervised learning 
-- [ ]  data 
+- [x]  data 
 - [ ]  unsupervised learning 
 - [ ]  algorithms
+
+Note: This one is pretty straight forward and a fundamental concept. Source: https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab
 
 #### Q39. Why is it important for machine learning algorithms to have access to high-quality data? 
 
@@ -248,7 +252,7 @@
 
 #### Q40. In K-nearest neighbor, the closer you are to neighbor, the more likely you are to 
 
-- [ ]  share common characteristics 
+- [x]  share common characteristics 
 - [ ]  be part of the root node 
 - [ ]  have a Euclidean connection 
 - [ ]  be part of the same cluster
@@ -264,8 +268,10 @@
 
 - [ ]  You will be able to prioritize different classes of drugs, such as antibiotics. 
 - [ ]  You can create a training set of drugs you would like to discover. 
-- [ ]  The algorithms will cluster together drugs that have similar traits. 
+- [x]  The algorithms will cluster together drugs that have similar traits. 
 - [ ]  Human experts can create classes of drugs to help guide discovery.
+
+Note: This one is similar to an example talked about in the Stanford Machine Learning course. Source: https://www.coursera.org/learn/machine-learning/home/welcome
 
 #### Q43. In 2015, Google created a machine learning system that could beat a human in the game of Go. This extremely complex game is thought to have more gameplay possibilities than there are atoms of the universe. The first version of the system won by observing hundreds of thousands of hours of human gameplay; the second version learned how to play by getting rewards while playing against itself. How would you describe this transition to different machine learning approaches? 
 
@@ -299,7 +305,7 @@
 - [] unsupervised learning
 - [] complex cluster
 - [] multiclass classification
-- [] k-nearest neighbour
+- [x] k-nearest neighbour
 
 #### Q46. The supervisor asks to create a ml system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?
 - [] deep learning artificial neural network that relies on petabytes of data
@@ -311,7 +317,7 @@
 - [] regression analysis
 - [] unsupervised learning
 - [] high -variance modeling
-- [] ensemble modeling
+- [x] ensemble modeling
 
 #### Q48. Your data science team wants to use ml to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised ml, what would you call this data set?
 

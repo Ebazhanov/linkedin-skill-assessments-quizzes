@@ -109,6 +109,8 @@ mysql Assessment
 ```
 
 #### Q9. You are working with the tables as shown in this diagram. You need to generate the list of customers who purchased certain car models. Which SQL clause do you use?
+![mysql Q09](images/mysql_q09.jpg)
+
 - [ ] LIKE
 - [x] IN
 - [ ] BETWEEN
@@ -283,3 +285,90 @@ NOT SURE THE QUESTION IS CORRECT. Logical, physical and normalised are all produ
 - [ ] it stops and notifies the server administrator that the upgrade cannot complete until the incompatibility issue are resolved.
 - [ ] it provides a full report of the table specifications and the incompatibilities to the server administrator.
 - [ ] it performs a table check and, if problems are found, displays the information for the server administrator to take action.
+
+#### Q38. What mysql statement is used to check which accounts have specific privileges?
+- [] show grants
+- [x] show privileges
+- [] show access
+- [] show user permissions
+
+#### Q39. What table cannot have a trigger associated with it?
+- [] temporary 
+- [x] system
+- [] large
+- [] new
+
+#### Q40. later versions of mysql support the native json data type for storing json documents. What is a drawback of json columns?
+- [] inefficient for storing json documents
+- [] cannot be indexed directly
+- [] documents cannot be validated when stored in json columns
+- [] cannot be normalized --- no
+
+#### Q41.Which statement is true for the diagram below
+![mysql Q41](images/mysql_q41.jpg)
+
+- [] carid is the primary key for purchases
+- [] carid is the foreign key for cars.carid
+- [x] customerid is the foreign key for customers.id
+- [] customerid is the primary key for purchases
+
+#### Q42.Which statement can you use to load data from a file into the table?
+- [] cat file|mysql
+- [x] load data infile
+- [] load data local infile
+- [] extended insert statement
+
+#### Q43.See tables in the diagram. Make sure that any record added to the purchase table consists of a customerId, which exists in the customer table and a carId, which exists in the car table. You decide to use a trigger to do the validation. Which one?
+![mysql Q43](images/mysql_q43.jpg)
+- [] after insert
+- [x] if exists
+- [] before insert
+- [] cross join
+
+#### Q44. Which is the correct syntax of an extended insert statement?
+
+- []
+insert into cars (make, model, year) values ('Ford', 'Mustang', 2002)
+('Mercedes', 'C', 2003)
+
+- []
+insert into cars (make, model, year) values ('Ford', 'Mustang', 2002)
+values ('Mercedes', 'C', 2003)
+
+- []
+insert into cars (make, model, year) extended ('Ford', 'Mustang', 2002),
+('Mercedes', 'C', 2003)
+
+- [x]
+insert into cars (make, model, year) values ('Ford', 'Mustang', 2002), 
+('Mercedes', 'C', 2003)
+
+### Q 45. You need an exact copy of a table with all columns and indexes. How?
+- [x] create table
+- [] clone table
+- [] insert into
+- [] show create table
+
+#### Q46. you need to make your mysql system secure against hackers. What are you not supposed to do?
+- [] Run the server as normal user
+- [x] grant process or super privilege to other user
+- [] run the server as the unix root user
+- [] use the compressed protocol
+
+#### Q47. You manage a database with a table "customers". You created a temporary table also called "customers" with which you are working for the duration of your session. You need to recreate the temporary table with different specs. Which command do you need to run first?
+- [] create temporary table customers;
+- [] drop temp table customers;
+- [] drop table customers;
+- [] drop temporary table customers;
+
+#### Q48. you need to run a complex query with recursive subqueriesbut without creating a stored procedure or a function. Which command or clause do you use?
+- [] collate
+- [x] union
+- [] full join
+- [] with
+
+#### Q49. Which choice is not a processing algorithm for database views?
+- [] merge
+- [] updatable
+- [] temptable
+- [] undefined

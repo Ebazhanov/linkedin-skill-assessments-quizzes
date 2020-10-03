@@ -233,7 +233,7 @@ else:
 #### Q23. What is the correct syntax for instantiating a new object of the type Game?
 - [ ] `my_game = class.Game()`
 - [ ] `my_game = class(Game)`
-- [x] `my_game = (Game)`
+- [x] `my_game = Game()`
 - [ ] `my_game = Game.create()`
 
 #### Q24. What does the built-in map() function do?

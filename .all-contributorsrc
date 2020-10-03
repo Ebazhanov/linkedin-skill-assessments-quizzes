@@ -127,7 +127,8 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/33095476?v=4",
       "profile": "https://www.linkedin.com/in/pramaniknilotpal/",
       "contributions": [
-        "design"
+        "design",
+        "code"
       ]
     },
     {
@@ -578,7 +579,8 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/69278254?v=4",
       "profile": "https://github.com/GordonGrant",
       "contributions": [
-        "design"
+        "design",
+        "code"
       ]
     },
     {
@@ -677,7 +679,8 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/59066012?v=4",
       "profile": "http://alimilani.ir",
       "contributions": [
-        "design"
+        "design",
+        "code"
       ]
     },
     {
@@ -916,7 +919,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/57421832?v=4",
       "profile": "https://github.com/royadityak94",
       "contributions": [
-        "code"
+        "code",
+        "design"
       ]
     },
     {
@@ -925,7 +929,8 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/43572179?v=4",
       "profile": "https://github.com/dev-akshat/dev-akshat",
       "contributions": [
-        "design"
+        "design",
+        "code"
       ]
     },
     {
@@ -935,6 +940,105 @@
       "profile": "https://github.com/sai-github",
       "contributions": [
         "design"
+      ]
+    },
+    {
+      "login": "GHasanKaraman",
+      "name": "Gurkan",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/40955470?v=4",
+      "profile": "http://youtube.com/c/gurkankaraman",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "shaye059",
+      "name": "Spencer Hayes-Laverdiere",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/24394743?v=4",
+      "profile": "https://spencer-hayes.me/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "aniketsoni1",
+      "name": "Aniket Soni",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/47126963?v=4",
+      "profile": "https://linkedin.com/in/aniketsoni/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "tanmay5792",
+      "name": "tanmay5792",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/71548736?v=4",
+      "profile": "https://github.com/tanmay5792",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "DinaTaklit",
+      "name": "Dina Taklit",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20540072?v=4",
+      "profile": "https://www.linkedin.com/in/dina-taklit/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Dushyantsingh-ds",
+      "name": "Dushyant Singh",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/55306442?v=4",
+      "profile": "https://github.com/dushyantsingh-ds",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "LeoMajorR",
+      "name": "Ravi Prakash Singh",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/35331954?v=4",
+      "profile": "https://github.com/LeoMajorR",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "joshinihal",
+      "name": "Nihal Joshi",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/60462831?v=4",
+      "profile": "https://github.com/joshinihal",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "guyklages",
+      "name": "Guy Klages",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7157817?v=4",
+      "profile": "http://www.linkedin.com/in/klages",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ac121102",
+      "name": "Arvind",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/66919962?v=4",
+      "profile": "https://github.com/ac121102",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "mujeeb91",
+      "name": "mujeeb91",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4310777?v=4",
+      "profile": "https://github.com/mujeeb91",
+      "contributions": [
+        "code"
       ]
     }
   ],
