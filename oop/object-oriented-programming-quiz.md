@@ -258,3 +258,9 @@ static void Multiply(float num1, float num2) {};
 - undefined function
 - **virtual function  <<-- correct**
 - class member function
+
+#### Q43. Which words in the following list are candidates for objects: trumpet, clean, enrage, leaf, tree, collapse, active, and lively?
+- leaf and tree
+- clean, enrage, and collapse
+- clean, active, and lively
+- **leaf, tree, and trumpet  <<-- correct**
