@@ -340,7 +340,7 @@ color: #000000;
 - flex-direction: column;
 
 #### Q32. Which type of declaration will take precedence?
-- any declarations in user-agent stylesheets <<<<---Correct
+- any declarations in user-agent stylesheets <<<<---Correct https://www.w3.org/TR/CSS2/cascade.html
 - important declarations in user stylesheets
 - normal declarations in author stylesheets
 - important declarations in author stylesheets
