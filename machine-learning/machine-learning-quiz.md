@@ -205,14 +205,14 @@
 
 #### Q34. You work for a large credit card processing company that wants to create targeted promotions for its customers. The data science team created a machine learning system that groups together customers who made similar purchases, and divides those customers based on customer loyalty. How would you describe this machine learning approach? 
 
-- [ ]  It uses unsupervised learning to cluster together transactions and unsupervised learning to classify the customers. 
+- [x]  It uses unsupervised learning to cluster together transactions and unsupervised learning to classify the customers. 
 - [ ]  It uses only unsupervised machine learning. 
 - [ ]  It uses supervised learning to create clusters and unsupervised learning for classification. 
 - [ ]  It uses reinforcement learning to classify the customers.
 
 #### Q35. You are using K-nearest neighbor and you have a K of 1. What are you likely to see when you train the model? 
 
-- [ ]  high variance and low bias 
+- [x]  high variance and low bias 
 - [ ]  low bias and low variance 
 - [ ]  low variance and high bias 
 - [ ]  high bias and high variance
@@ -305,7 +305,7 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [] unsupervised learning
 - [] complex cluster
 - [] multiclass classification
-- [] k-nearest neighbour
+- [x] k-nearest neighbour
 
 #### Q46. The supervisor asks to create a ml system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?
 - [] deep learning artificial neural network that relies on petabytes of data
@@ -317,7 +317,7 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [] regression analysis
 - [] unsupervised learning
 - [] high -variance modeling
-- [] ensemble modeling
+- [x] ensemble modeling
 
 #### Q48. Your data science team wants to use ml to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised ml, what would you call this data set?
 
