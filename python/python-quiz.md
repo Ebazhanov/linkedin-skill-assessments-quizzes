@@ -575,3 +575,13 @@ fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
 - [ ] The difficulty level your code is written at is not that high.
 - [ ] It will take your program less than half a second to run.
 - [x] The amount of time it takes the function to complete grows linearly as the input size increases.
+
+#### Q54. What is the proper way to define a function?
+- [x] `def getMaxNum(list_of_nums):
+        # body of function goes here`
+- [ ] `func get_max_num(list_of_nums):
+        # body of function goes here`
+- [ ] `func getMaxNum(list_of_nums):
+        # body of function goes here`
+- [ ] `def get_max_num(list_of_nums):
+        # body of function goes here`                        
