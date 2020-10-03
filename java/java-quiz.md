@@ -378,3 +378,9 @@ class Main {
 - A runtime exception is thrown. <<<<---Correct
 - The code does not compile.
 - "ello" 
+
+#### Q31. Object-oriented programming is a style of programming where you organize your program around ____ rather than ____ and data rather than logic.
+- [ ] functions; actions
+- [ ] objects; actions
+- [ ] actions; functions
+- [ ] actions; objects

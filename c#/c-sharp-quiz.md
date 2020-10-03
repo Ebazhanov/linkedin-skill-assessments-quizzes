@@ -330,7 +330,7 @@ loginCallback(true);
 
 - [ ] Login successful... 
 - [ ] Valid user! 
-- [x] an error, because the method signature of Login doesn't match the delegate 
+- [x] an error, because the method signature of Login doesn't match the delegate //It will throw an error because you cant apply Inheritance to methos that way.
 - [ ] Login successful... Valid user! 
 
 #### Q39. How would you declare a sealed class named User? 
