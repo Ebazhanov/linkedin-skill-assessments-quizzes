@@ -328,10 +328,10 @@ color: #000000;
 <div style="margin-bottom: 2rem;">Div 1</div>
 <div style="margin-top: 2rem;">Div 2</div>
 ```
-- 2rem
+- 2rem <<<<---Correct
 - 32px
 - 64px
-- 4rem <<<<---Correct
+- 4rem 
 
 #### Q31. When using the Flexbox method, what property and value is used to display flex items in a column?
 - flex-flow: column; or flex-direction: column <<<<---Correct
@@ -340,7 +340,7 @@ color: #000000;
 - flex-direction: column;
 
 #### Q32. Which type of declaration will take precedence?
-- any declarations in user-agent stylesheets <<<<---Correct
+- any declarations in user-agent stylesheets <<<<---Correct https://www.w3.org/TR/CSS2/cascade.html
 - important declarations in user stylesheets
 - normal declarations in author stylesheets
 - important declarations in author stylesheets

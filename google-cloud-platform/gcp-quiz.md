@@ -50,10 +50,10 @@ Google Cloud Platform (GCP) Assessment
 
 
 #### Q8. You want to try out a machine-learning TensorFlow example notebook with the fewest configuration steps on GCP. What do you do?
-- [ ] missing
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] Upload the notebook to Google Colaboratory. Set the hardware accelerator to use GPU.
+- [?] Create a notebook instance with TPU. Upload the notebook to the instance.
+- [ ] Create a notebook instance with GPU. Upload the notebook to the instance.
+- [ ] Upload the notebook to Google Colaboratory. Set the hardware accelerator yo use TPU.
 
 
 #### Q9. You need to configure a data retention policy for a Cloud Storage bucket to govern how long objects in the bucket must be retained. What feature do you enable?
