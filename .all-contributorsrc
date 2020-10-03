@@ -1040,6 +1040,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "joserca",
+      "name": "joserca",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/56326917?v=4",
+      "profile": "https://github.com/joserca",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
