@@ -421,21 +421,21 @@ const y = x ? 'One': 'Two';
 - Two  <<<<----Correct
 
 
-### Q48. Which keyword is used to create an error?
+#### Q48. Which keyword is used to create an error?
 - throw   <<<<----Correct
 - exception
 - catch
 - error
 
 
-### Q49. What's one difference between the async and defer attributes of the HTML script tag?
+#### Q49. What's one difference between the async and defer attributes of the HTML script tag?
 - The defer attribute can work synchronously.
 - The defer attribute works only with generators.
 - The defer attribute works only with promises.
 - The defer attribute will asynchronously load the scripts in order.   <<<<----Correct
 
 
-### Q50. The following program has a problem. What is it?
+#### Q50. The following program has a problem. What is it?
 ```js
 var a;
 var b = (a = 3) ? true: false
@@ -446,7 +446,7 @@ var b = (a = 3) ? true: false
 - The code is using the deprecated var keyword
 
 
-### Q51. Which statement references the DOM node created by the code shown?
+#### Q51. Which statement references the DOM node created by the code shown?
 ```html
 <p class="pull">lorem ipsum</p>
 ```
@@ -455,7 +455,7 @@ var b = (a = 3) ? true: false
 - `Document.querySelector('pull')`
 - `Document.querySelector('#pull')`
 
-### Q52. What value does the code return?
+#### Q52. What value does the code return?
 ```js
 let answer=true
 if (answer === false){
