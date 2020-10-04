@@ -221,7 +221,7 @@
 #### Q36. Are data model bias and variance a challenge with unsupervised learning? 
 
 - [ ]  No, data model bias and variance are only a challenge with reinforcement learning. 
-- [ ]  Yes, data model bias is a challenge when the machine creates clusters. 
+- [x]  Yes, data model bias is a challenge when the machine creates clusters. 
 - [ ]  Yes, data model variance trains the unsupervised machine learning algorithm. 
 - [ ]  No, data model bias and variance involve supervised learning.
 
