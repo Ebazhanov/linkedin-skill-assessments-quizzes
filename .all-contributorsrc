@@ -1059,6 +1059,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "SarahTeoh",
+      "name": "Teoh Tze Chuin(サラ)",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/28722169?v=4",
+      "profile": "https://github.com/SarahTeoh",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
