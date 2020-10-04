@@ -527,3 +527,24 @@ git reset --hard origin/master
 - [x] pub
 - [ ] key
 - [ ] pk
+
+#### Q67. What is the difference between initializing a normal repo and a bare repo?
+
+- [ ] Bare repos store their git history in a .git subfolder.
+- [ ] Bare repos do not have the .git extension.
+- [x] Bare repos do not come with working or checked-out source files.
+- [ ] Bare repos should be used for local rather than remote repos.
+
+#### Q68. How many individual commits can a single repository have?
+
+- [x] any number of commits
+- [ ] only one commit local per repository
+- [ ] only three commits per branch
+- [ ] only one commit per HEAD
+
+#### Q69. What types of tags does Git support?
+
+- [ ] heavy and concise
+- [ ] lightweight and immutable
+- [ ] heavy and annotated
+- [x] lightweight and annotated 
