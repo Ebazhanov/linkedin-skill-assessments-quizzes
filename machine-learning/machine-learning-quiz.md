@@ -337,3 +337,15 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 -[] you would not recommend a machine learning system for this type of project.
 -[] a deep learning artificial neural network that relies on petabytes of employment data.
 -[x] a supervised machine learning system that classifies applicants into existing groups.
+
+#### Q51. You and your data science team have 1 TB of example data. What do you typically do with that data?
+- [ ] you use it as your training set.
+- [ ] You label it big data.
+- [ ] You split it into a training set and test set.
+- [ ] You use it as your test set.
+
+#### Q52. Your data science team is working on a machine learning product that can act as an artificial opponent in video games. The team is using a machine learning algorithm that focuses on rewards: If the machine does some things well, then it improves the quality of the outcome. How would you describe this type of machine learning algorithm?
+- [ ] semi-supervised machine learning
+- [ ] supervised machine learning
+- [ ] unsupervised machine learning
+- [ ] reinforcement learning
