@@ -3,21 +3,6 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-114-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
-
-<!DOCTYPE html>
-<html lang="en">  
-<body>
-<table>
-  <tr>
-    <th> PROMOTE YOURSELF AND PUT YOUR ADD HERE !
-  </tr>
-  <tr>
-    <th>SEND US AN <a href = "mailto: sergeisqa@gmail.com">EMAIL </a>FOR DETAILS!
-  </tr>   
-</table>
-</body>
-</html>
-
   
 ### Table of Contents
 
