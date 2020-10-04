@@ -331,3 +331,9 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 -[] Smaller training set needed
 -[] Underfitting the model to the data
 -[x] larger training set needed
+
+#### Q50. Your supervisor asks you to create a machine learning system that will help your human resources department classify jobs applicants into well defined groups. What type of system are you more likely to recommend?
+-[] an unsupervised machine learning system that clusters together the best candidates.
+-[] you would not recommend a machine learning system for this type of project.
+-[] a deep learning artificial neural network that relies on petabytes of employment data.
+-[x] a supervised machine learning system that classifies applicants into existing groups.

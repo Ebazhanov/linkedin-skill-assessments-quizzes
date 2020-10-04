@@ -38,9 +38,9 @@
 
 `git add -A`
 
-- [ ] All new and updated files are staged
+- [x] All new and updated files are staged
 - [ ] Files are staged in alphabetical order.
-- [x] All new files are staged
+- [ ] All new files are staged
 - [ ] Only updated files are staged
 
 #### Q6. What will the following command print to the Terminal?
@@ -190,8 +190,10 @@ git cherry-pick {123safd23e}
 
 - [ ] use git show ref/push-notifications
 - [ ] use git show push-notifications
-- [x] use git show head/refs/push-notifications <<--chose this one not sure though!
-- [ ] use git show refs/head/push-notifications
+- [ ] use git show head/refs/push-notifications <<--chose this one not sure though!
+- [x] use git show refs/head/push-notifications
+
+[Reference link for Q24](https://geedew.com/fixing-git-branch-and-tag-name-collision/)
 
 #### Q25. Your team lead needs a list of all commits that will be moved before you perform a rebase. Which command can you use to access that information?
 - [ ] git rebase -log
@@ -221,10 +223,12 @@ $ git bisect good 69faab6268350295550de7d587bc323d
 
 #### Q28. Which of the following is true of the git push command?
 
-- [ ] By default a push doesn't send tags to the remote repository.
+- [x] By default a push doesn't send tags to the remote repository.
 - [ ] Commits can only be tagged when they are created.
-- [x] Tags are pushed to the remote repository with their respective commits.
+- [ ] Tags are pushed to the remote repository with their respective commits.
 - [ ] Only annotated tags are automatically pushed to the remote repository with a commit.
+
+[Reference for Q28](https://git-scm.com/book/en/v2/Git-Basics-Tagging#_sharing_tags)
 
 #### Q29. After pushing commits to the remote repository for the first time using the command below, what shorthand command can you use in future?
 `
@@ -356,17 +360,19 @@ git reset --hard origin/master
 
 #### Q42. Your current respository has three branches: master,beta and ousg-notifications. You've just finished the notification feature and commit the changes to the push-notification branch, and you want to include them in the beta branch. How can you acccomplish this?
 
-- [x] Check out the master branch and run git merge beta -> push-notifications..
+- [ ] Check out the master branch and run git merge beta -> push-notifications..
 - [ ] Delete the push-notification branch;it will be committed to the mastre branch automatically.
 - [ ] Check out the push-notifications branch and run git merge beta.
-- [ ] Check out the beta branch and run git merge push-notifications.
+- [x] Check out the beta branch and run git merge push-notifications.
 
 #### Q43. You find that your project has a tag and branch both named push-notification,which causes confusion when trying to print out a given referance.How can you specify which branch you want to look at?
 
-- [x] Use git show head/refs/push-notifications.
+- [ ] Use git show head/refs/push-notifications.
 - [ ] Use git show push-notifications.
 - [ ] Use git show refs/push-notifications.
-- [ ] Use git show refs/head/push-notifications.
+- [x] Use git show refs/head/push-notifications.
+
+[Reference link for Q43](https://geedew.com/fixing-git-branch-and-tag-name-collision/)
 
 #### Q44. Which statement is true of the git push command?.
 
