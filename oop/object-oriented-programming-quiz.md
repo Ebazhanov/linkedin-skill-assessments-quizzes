@@ -266,31 +266,31 @@ static void Multiply(float num1, float num2) {};
 - **leaf, tree, and trumpet  <<-- correct**
 
 #### Q44. What best describes what object-oriented programming does?
-- [ ] It focuses on objects that interact cleanly with one another.
-- [ ] It programs exclusively to interfaces.
-- [ ] It programs exclusively to classes.
-- [ ] It creates one class for all business logic.
+- **It focuses on objects that interact cleanly with one another.  <<-- correct**
+- It programs exclusively to interfaces.
+- It programs exclusively to classes.
+- It creates one class for all business logic.
 
 #### Q45. Can abstract classes be used in multilevel inheritance?
-- [ ] No, abstract classes can be used only in single-level inheritance since they must be immediately implemented.
-- [ ] yes, always
-- [ ] yes, but with only one abstract class
-- [ ] No, abstract classes do not have constructors.
+- No, abstract classes can be used only in single-level inheritance since they must be immediately implemented.
+- **yes, always <<-- correct**
+- yes, but with only one abstract class
+- No, abstract classes do not have constructors.
 
 #### Q46. Why is inheritance used when creating a new class?
-- [ ] to delegate coding responsibilities more efficiently
-- [ ] to conserve memory
-- [ ] to protect attributes from unwanted changes
-- [ ] to avoid writing duplicate code
+- to delegate coding responsibilities more efficiently
+- to conserve memory
+- to protect attributes from unwanted changes
+- **to avoid writing duplicate code   <<-- correct**
 
 #### Q47. How are the contents of a composition different from those of an aggregation?
-- [ ] The contents fo a composition are all siblings.
-- [ ] An aggregation contains only abstract classes.
-- [ ] If a composition dies, the contents die.
-- [ ] If one element of an aggregation is dereferenced, all its elements are eligible for garbage collection.
+- **The contents of a composition are all siblings.   <<-- correct**
+- An aggregation contains only abstract classes.
+- If a composition dies, the contents die.
+- If one element of an aggregation is dereferenced, all its elements are eligible for garbage collection.
 
 #### Q48. What is the relationship between abstraction and encapsulation?
-- [ ] Abstraction is about making relevant information visible, while encapsulation enables a programmer to implement the desired level of abstraction.
-- [ ] Abstraction and encapsulation are essentially the same.
-- [ ] Abstraction and encapsulation are unrelated.
-- [ ] Encapsulation is about making relevant information visible, while abstraction enables a programmer to implement the desired level of encapsulation.
+- **Abstraction is about making relevant information visible, while encapsulation enables a programmer to implement the desired level of abstraction.   <<-- correct**
+- Abstraction and encapsulation are essentially the same.
+- Abstraction and encapsulation are unrelated.
+- Encapsulation is about making relevant information visible, while abstraction enables a programmer to implement the desired level of encapsulation.
