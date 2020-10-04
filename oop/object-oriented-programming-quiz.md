@@ -294,3 +294,9 @@ static void Multiply(float num1, float num2) {};
 - Abstraction and encapsulation are essentially the same.
 - Abstraction and encapsulation are unrelated.
 - Encapsulation is about making relevant information visible, while abstraction enables a programmer to implement the desired level of encapsulation.
+
+#### Q49. Which of these keywords are access specifiers?
+- abstract and public
+- **public and private  <<-- correct**
+- this and final
+- final and abstract
