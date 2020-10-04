@@ -328,9 +328,9 @@ let diff = function(x,y){
 
 #### Q37. Which statement is true about the "async" attribute for the HTML script tag?
 - It can be used for both internal and external JavaScript code.
-- It can be used only for internal JavaScript code. <<<<----Correct
+- It can be used only for internal JavaScript code. 
 - It can be used only for internal or external JavaScript code that exports a promise.
-- It can be used only for external JavaScript code.
+- It can be used only for external JavaScript code. <<<<----Correct
 
 #### Q38. How do you import the lodash library making it top-level Api available as the "_" variable?
 - import _ from 'lodash'; <<<<----Correct
