@@ -227,6 +227,7 @@ $ git bisect good 69faab6268350295550de7d587bc323d
 - [ ] Commits can only be tagged when they are created.
 - [ ] Tags are pushed to the remote repository with their respective commits.
 - [ ] Only annotated tags are automatically pushed to the remote repository with a commit.
+
 [Reference for Q28](https://git-scm.com/book/en/v2/Git-Basics-Tagging#_sharing_tags)
 
 #### Q29. After pushing commits to the remote repository for the first time using the command below, what shorthand command can you use in future?
@@ -370,7 +371,8 @@ git reset --hard origin/master
 - [ ] Use git show push-notifications.
 - [ ] Use git show refs/push-notifications.
 - [x] Use git show refs/head/push-notifications.
-[Reference link for Q24](https://geedew.com/fixing-git-branch-and-tag-name-collision/)
+
+[Reference link for Q43](https://geedew.com/fixing-git-branch-and-tag-name-collision/)
 
 #### Q44. Which statement is true of the git push command?.
 
