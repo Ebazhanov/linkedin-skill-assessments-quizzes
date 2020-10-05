@@ -481,6 +481,12 @@ console.log(end);
 * ReferenceError <<<---CORRECT 
 * undefined
 
+### Q55: Which collection object allows unique value to be inserted only once? 
+
+* Object
+* Set <<<---CORRECT
+* Array
+* Map
 
 
 
