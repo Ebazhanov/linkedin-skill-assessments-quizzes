@@ -577,11 +577,11 @@ fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
 - [x] The amount of time it takes the function to complete grows linearly as the input size increases.
 
 #### Q54. What is the proper way to define a function?
-- [x] `def getMaxNum(list_of_nums):
+- [ ] `def getMaxNum(list_of_nums):
         # body of function goes here`
 - [ ] `func get_max_num(list_of_nums):
         # body of function goes here`
 - [ ] `func getMaxNum(list_of_nums):
         # body of function goes here`
-- [ ] `def get_max_num(list_of_nums):
-        # body of function goes here`                        
+- [x] `def get_max_num(list_of_nums):
+        # body of function goes here`  [explanation](https://www.python.org/dev/peps/pep-0008/)                      
