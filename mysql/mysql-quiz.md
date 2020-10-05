@@ -300,7 +300,7 @@ NOT SURE THE QUESTION IS CORRECT. Logical, physical and normalised are all produ
 
 #### Q40. later versions of mysql support the native json data type for storing json documents. What is a drawback of json columns?
 - [] inefficient for storing json documents
-- [] cannot be indexed directly
+- [x] cannot be indexed directly
 - [] documents cannot be validated when stored in json columns
 - [] cannot be normalized --- no
 
@@ -356,7 +356,7 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 - [] use the compressed protocol
 
 #### Q47. You manage a database with a table "customers". You created a temporary table also called "customers" with which you are working for the duration of your session. You need to recreate the temporary table with different specs. Which command do you need to run first?
-- [] create temporary table customers;
+- [x] create temporary table customers;
 - [] drop temp table customers;
 - [] drop table customers;
 - [] drop temporary table customers;
@@ -369,6 +369,6 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 
 #### Q49. Which choice is not a processing algorithm for database views?
 - [] merge
-- [] updatable
+- [x] updatable
 - [] temptable
 - [] undefined
