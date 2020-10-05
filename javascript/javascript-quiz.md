@@ -465,3 +465,22 @@ if (answer === false){
 - 10 <<<<----Correct
 - false
 - 0
+
+
+### Q53. What is the result in the console of running the code shown?
+
+var start = 1; 
+function setEnd() {
+	var end = 10;
+}
+setEnd();
+console.log(end); 
+
+* 10
+* 0
+* ReferenceError <<<---CORRECT 
+* undefined
+
+
+
+
