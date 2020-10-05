@@ -124,8 +124,8 @@
 - [ ] All human-created data is biased, and data scientists need to account for that.
 
 #### Q21. What is stacking?
-- [ ] The predictions of one model become the inputs another.
-- [x] You use different versions of machine learning algorithms.
+- [x] The predictions of one model become the inputs another.
+- [ ] You use different versions of machine learning algorithms.
 - [ ] You use several machine learning algorithms to boost your results.
 - [ ] You stack your training set and testing set together.
 
