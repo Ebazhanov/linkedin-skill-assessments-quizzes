@@ -261,7 +261,7 @@ Q37. You have web app hosted in Azure App Service that reads from and writes dat
 Q38. Your new release pipeline in Azure DevOps includes a Bash task that runs an Azure CLI script. The Bash task running script fails. The agent setting of the agent job in the release pipeline is pictured below. The solution must minimize cost. What should you change in agent pool settings?
 - [ ] Change to a self-hosted agent pool running Ubuntu 16.04 LTS or later.
 - [ ] Changed to a hosted pool running Windows 2019.
-- [ ] Change to a hosted agent pool running Ubuntu 16.04 LTS or later.
+- [ ] Change to a hosted agent pool running Ubuntu 16.04 LTS or later.              <<<<----Correct
 - [ ] Change to a self-hosted agent pool running Windows 2019.
 
 Q39. You are selecting a cloud messaging solution for your retail mobile app. Requirements for the solution are: Process messages in the order they are received: preserve messages in case of a processing delay; end guarantee message delivery. Which solution should you use?
@@ -281,4 +281,22 @@ Q41. What is the difference between a user-assigned managed identity and a syste
 - [ ] with a user-assigned managed identity, Azure manages the password for you.
 - [ ] The lifecycle of a system-managed identity is managed separately from the resource.
 - [ ] with a system-assigned managed identity, Azure manages the password for you.
+
+Q42. You need to configure user access to Azure DevOps agent pools to meet the following requirements: Use an agent pool when authoring build or release pipelines for the project; view the agent pool and agents of the organization; and use the principle of least privilege. Which role memberships are required for the Azure DevOps organization and the project?
+- [ ] Organization: Administrator; Project: Service Account
+- [ ] Organization: Reader; Project: Service Account   <<<<---Correct
+- [ ] Organization: Reader; Project: Administrator
+- [ ] Organization: Service Account; Project: Reader
+
+Q43. You have created an Azure CLI script for a release pipeline in Azure DevOps. You need to reference the working directory for the running job. Which variable should you reference?
+- [ ] Agent.WorkFolder   <<<<---Correct
+- [ ] Agent.HomeDirectory
+- [ ] Agent.BuildDirectory
+- [ ] Agent.ToolsDirectory
+
+Q44. You are selecting Azure technologies for a new a pp that will process print jobs in a facility with thousands of printers. A pool of worker processes willsend jobs to printer and report results when jobs are complete. Requirements for the solution are: Worker processes will retrieve and process messages as capacity permits; if a worker process or printer fails, a worker process should be able to retrieve message and resurne processing; and the solution should maintain a central (server-side) log of messages processed. Which solution should you use?
+- [ ] Event Hub
+- [ ] Event Grid
+- [ ] Service Bus
+- [ ] Queue Storage
 
