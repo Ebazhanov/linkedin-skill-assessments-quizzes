@@ -1099,6 +1099,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "rahbal",
+      "name": "Rahul Bali",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5176514?v=4",
+      "profile": "http://rahbal.github.io",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
