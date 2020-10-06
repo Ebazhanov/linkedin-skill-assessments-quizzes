@@ -349,3 +349,9 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ] supervised machine learning
 - [ ] unsupervised machine learning
 - [ ] reinforcement learning
+
+#### Q53. The model will be trained with data in one single batch is known as ?
+- [ ] Batch learning
+- [ ] Offline learning
+- [X] Both A and B
+- [ ] None of the above
