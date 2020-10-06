@@ -500,5 +500,18 @@ console.log(sayHello.prototype);
 * Array
 * Map
 
+### Q56. What two values will this code print?
+```js
+function printA() {
+console.log(answer);
+var answer = 1; 
+};
+printA();
+printA();
+```
+* 1 then 1
+* 1 then undefined
+* undefined the undefined <<<---CORRECT
+* undefined the 1
 
 
