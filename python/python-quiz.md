@@ -232,9 +232,10 @@ else:
 
 #### Q23. What is the correct syntax for instantiating a new object of the type Game?
 - [ ] `my_game = class.Game()`
-- [x] `my_game = class(Game)`
+- [ ] `my_game = class(Game)`
 - [ ] `my_game = Game()`
 - [ ] `my_game = Game.create()`
+- [x] `my_game = Game()`
 
 #### Q24. What does the built-in map() function do?
 - [ ] `It creates a path from multiple values in an iterable to a single value.`
@@ -577,11 +578,11 @@ fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
 - [x] The amount of time it takes the function to complete grows linearly as the input size increases.
 
 #### Q54. What is the proper way to define a function?
-- [x] `def getMaxNum(list_of_nums):
+- [ ] `def getMaxNum(list_of_nums):
         # body of function goes here`
 - [ ] `func get_max_num(list_of_nums):
         # body of function goes here`
 - [ ] `func getMaxNum(list_of_nums):
         # body of function goes here`
-- [ ] `def get_max_num(list_of_nums):
-        # body of function goes here`                        
+- [x] `def get_max_num(list_of_nums):
+        # body of function goes here`  [explanation](https://www.python.org/dev/peps/pep-0008/)                      

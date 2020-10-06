@@ -468,18 +468,37 @@ if (answer === false){
 
 
 ### Q53. What is the result in the console of running the code shown?
-
+```js
 var start = 1; 
 function setEnd() {
 	var end = 10;
 }
 setEnd();
 console.log(end); 
-
+```
 * 10
 * 0
 * ReferenceError <<<---CORRECT 
 * undefined
+
+### Q54. What will this code log in the console? 
+```js
+function sayHello() {
+console.log("hello"); 
+}; 
+
+console.log(sayHello.prototype); 
+```
+* undefined <<<--- CORRECT
+* "hello"
+* an object with a constructor property
+* an error message
+
+### Q55: Which collection object allows unique value to be inserted only once? 
+* Object
+* Set <<<---CORRECT
+* Array
+* Map
 
 ### Q56. What two values will this code print?
 ```js
@@ -494,6 +513,5 @@ printA();
 * 1 then undefined
 * undefined the undefined <<<---CORRECT
 * undefined the 1
-
 
 
