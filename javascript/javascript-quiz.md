@@ -494,12 +494,11 @@ console.log(sayHello.prototype);
 * an object with a constructor property
 * an error message
 
-
-
-
-
-
-
+### Q55: Which collection object allows unique value to be inserted only once? 
+* Object
+* Set <<<---CORRECT
+* Array
+* Map
 
 
 
