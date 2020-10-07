@@ -172,9 +172,9 @@ public class Math {
 7: }
 ```
 - Lines 1 and 2 generate compiler erros due to class name conflicts.
-- "-123" <--- Correct
+- "-123" 
 - It will throw an exception on line 5.
-- "123"
+- "123" <--- Correct // The answer is "123". The abs() method evaluates to the one inside mypackage.Math class.
 
 #### Q12. What is the result of this code?
 ```
