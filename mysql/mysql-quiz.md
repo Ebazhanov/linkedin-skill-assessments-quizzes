@@ -300,7 +300,7 @@ NOT SURE THE QUESTION IS CORRECT. Logical, physical and normalised are all produ
 
 #### Q40. later versions of mysql support the native json data type for storing json documents. What is a drawback of json columns?
 - [] inefficient for storing json documents
-- [] cannot be indexed directly
+- [x] cannot be indexed directly
 - [] documents cannot be validated when stored in json columns
 - [] cannot be normalized --- no
 
@@ -348,3 +348,27 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 - [] clone table
 - [] insert into
 - [] show create table
+
+#### Q46. you need to make your mysql system secure against hackers. What are you not supposed to do?
+- [] Run the server as normal user
+- [x] grant process or super privilege to other user
+- [] run the server as the unix root user
+- [] use the compressed protocol
+
+#### Q47. You manage a database with a table "customers". You created a temporary table also called "customers" with which you are working for the duration of your session. You need to recreate the temporary table with different specs. Which command do you need to run first?
+- [x] create temporary table customers;
+- [] drop temp table customers;
+- [] drop table customers;
+- [] drop temporary table customers;
+
+#### Q48. you need to run a complex query with recursive subqueriesbut without creating a stored procedure or a function. Which command or clause do you use?
+- [] collate
+- [x] union
+- [] full join
+- [] with
+
+#### Q49. Which choice is not a processing algorithm for database views?
+- [] merge
+- [x] updatable
+- [] temptable
+- [] undefined

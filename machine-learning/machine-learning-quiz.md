@@ -124,8 +124,8 @@
 - [ ] All human-created data is biased, and data scientists need to account for that.
 
 #### Q21. What is stacking?
-- [ ] The predictions of one model become the inputs another.
-- [x] You use different versions of machine learning algorithms.
+- [x] The predictions of one model become the inputs another.
+- [ ] You use different versions of machine learning algorithms.
 - [ ] You use several machine learning algorithms to boost your results.
 - [ ] You stack your training set and testing set together.
 
@@ -205,14 +205,14 @@
 
 #### Q34. You work for a large credit card processing company that wants to create targeted promotions for its customers. The data science team created a machine learning system that groups together customers who made similar purchases, and divides those customers based on customer loyalty. How would you describe this machine learning approach? 
 
-- [ ]  It uses unsupervised learning to cluster together transactions and unsupervised learning to classify the customers. 
+- [x]  It uses unsupervised learning to cluster together transactions and unsupervised learning to classify the customers. 
 - [ ]  It uses only unsupervised machine learning. 
 - [ ]  It uses supervised learning to create clusters and unsupervised learning for classification. 
 - [ ]  It uses reinforcement learning to classify the customers.
 
 #### Q35. You are using K-nearest neighbor and you have a K of 1. What are you likely to see when you train the model? 
 
-- [ ]  high variance and low bias 
+- [x]  high variance and low bias 
 - [ ]  low bias and low variance 
 - [ ]  low variance and high bias 
 - [ ]  high bias and high variance
@@ -221,7 +221,7 @@
 #### Q36. Are data model bias and variance a challenge with unsupervised learning? 
 
 - [ ]  No, data model bias and variance are only a challenge with reinforcement learning. 
-- [ ]  Yes, data model bias is a challenge when the machine creates clusters. 
+- [x]  Yes, data model bias is a challenge when the machine creates clusters. 
 - [ ]  Yes, data model variance trains the unsupervised machine learning algorithm. 
 - [ ]  No, data model bias and variance involve supervised learning.
 
@@ -305,7 +305,7 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [] unsupervised learning
 - [] complex cluster
 - [] multiclass classification
-- [] k-nearest neighbour
+- [x] k-nearest neighbour
 
 #### Q46. The supervisor asks to create a ml system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?
 - [] deep learning artificial neural network that relies on petabytes of data
@@ -317,7 +317,7 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [] regression analysis
 - [] unsupervised learning
 - [] high -variance modeling
-- [] ensemble modeling
+- [x] ensemble modeling
 
 #### Q48. Your data science team wants to use ml to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised ml, what would you call this data set?
 
@@ -331,3 +331,27 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 -[] Smaller training set needed
 -[] Underfitting the model to the data
 -[x] larger training set needed
+
+#### Q50. Your supervisor asks you to create a machine learning system that will help your human resources department classify jobs applicants into well defined groups. What type of system are you more likely to recommend?
+-[] an unsupervised machine learning system that clusters together the best candidates.
+-[] you would not recommend a machine learning system for this type of project.
+-[] a deep learning artificial neural network that relies on petabytes of employment data.
+-[x] a supervised machine learning system that classifies applicants into existing groups.
+
+#### Q51. You and your data science team have 1 TB of example data. What do you typically do with that data?
+- [ ] you use it as your training set.
+- [ ] You label it big data.
+- [ ] You split it into a training set and test set.
+- [ ] You use it as your test set.
+
+#### Q52. Your data science team is working on a machine learning product that can act as an artificial opponent in video games. The team is using a machine learning algorithm that focuses on rewards: If the machine does some things well, then it improves the quality of the outcome. How would you describe this type of machine learning algorithm?
+- [ ] semi-supervised machine learning
+- [ ] supervised machine learning
+- [ ] unsupervised machine learning
+- [ ] reinforcement learning
+
+#### Q53. The model will be trained with data in one single batch is known as ?
+- [ ] Batch learning
+- [ ] Offline learning
+- [X] Both A and B
+- [ ] None of the above

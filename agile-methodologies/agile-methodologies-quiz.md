@@ -204,3 +204,27 @@
 - [ ] Gemba walk
 - [ ] Total Quality Management
 - [ ] Kaizen
+
+#### Q35. When the team needs to make a decision, what is the best course of action?
+- [ ] Try to achieve concensus. //Answer?
+- [ ] Take a vote and the majority rules.
+- [ ] Identify the person who is most knowledgeable and ask them to decide.
+- [ ] Let the most senior member of the team decide.
+
+#### Q36. Which action is something the Team Facillitator should NOT do?
+- [ ] Embrace servant leadership.
+- [ ] Estimate story points. //Answer?
+- [ ] Celebrate successes.
+- [ ] Remove impediments
+
+#### Q37. A team needs to do research, design, prototyping. What is this type of story called?
+- [ ] Exploratory spike
+- [ ] Backlog refinement
+- [ ] Functional decomposition
+- [ ] R&D
+
+#### Q38. Which story about technical debt is true?
+- [ ] Technical debt is another name for bugs
+- [ ] It is at the Product Owner's descretion to allocate effort to reduce technical debt.
+- [ ] Adding technical debt should be avoided at all costs. //Answer?
+- [ ] Technical debt is what the Product Owner owes to the developers if they work a lot of overtime to complete the sprint.

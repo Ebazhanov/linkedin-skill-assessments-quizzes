@@ -107,6 +107,20 @@
     by author
     = by date
     by urgency
+    
+#### Q16. Which Arrow Options choice will hide the mouse cursor when presenting, except when the cursor is moved?
+
+    Automatic
+    = Hidden
+    none of these answers
+    Visible
+    
+#### Q17. Which chart type is best suited for displaying annual financial data for a 10-year period? 
+
+    donut chart
+    = line or area chart
+    area chart
+    pie chart
 
 
 #### Q16. Which Arrow Options choice will hide the mouse cursor when presenting, except when the cursor is moved?
@@ -130,7 +144,6 @@ Answers needed
     Relationship
     Hierarchy
     Matrix
-
 
 #### Q19. When printing multiple handouts, which option will group multipage documents together and make them easier to distribute?
 

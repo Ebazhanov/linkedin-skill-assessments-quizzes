@@ -233,8 +233,9 @@ else:
 #### Q23. What is the correct syntax for instantiating a new object of the type Game?
 - [ ] `my_game = class.Game()`
 - [ ] `my_game = class(Game)`
-- [x] `my_game = Game()`
+- [ ] `my_game = Game()`
 - [ ] `my_game = Game.create()`
+- [x] `my_game = Game()`
 
 #### Q24. What does the built-in map() function do?
 - [ ] `It creates a path from multiple values in an iterable to a single value.`
@@ -569,3 +570,19 @@ fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
 - [x] `Class methods can modify the state of the class, but they can't directly modify the state of an instance that inherits from that class.`
 - [ ] `A class method is similar to a regular function, but a class method doesn't take any arguments.`
 - [ ] `Class methods hold all of the data for a particular class.`
+
+#### Q53. What does it mean for a function to have linear runtime?
+- [ ] You did not use very many advanced computer programming concepts in your code.
+- [ ] The difficulty level your code is written at is not that high.
+- [ ] It will take your program less than half a second to run.
+- [x] The amount of time it takes the function to complete grows linearly as the input size increases.
+
+#### Q54. What is the proper way to define a function?
+- [ ] `def getMaxNum(list_of_nums):
+        # body of function goes here`
+- [ ] `func get_max_num(list_of_nums):
+        # body of function goes here`
+- [ ] `func getMaxNum(list_of_nums):
+        # body of function goes here`
+- [x] `def get_max_num(list_of_nums):
+        # body of function goes here`  [explanation](https://www.python.org/dev/peps/pep-0008/)                      
