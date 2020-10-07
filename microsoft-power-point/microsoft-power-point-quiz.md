@@ -123,6 +123,14 @@
     pie chart
 
 
+#### Q16. Which Arrow Options choice will hide the mouse cursor when presenting, except when the cursor is moved?
+
+    Hidden 
+
+#### Q17. Which chart type is best suited for displaying annual financial data for a 10-year period? 
+
+    line or area chart
+
 
 -----------------------------
 Answers needed
@@ -152,7 +160,7 @@ Answers needed
     Click the Select Data button.
     Click the Edit Data button.
 
-#### Q20. Which view lets you see additional information on a second monitor when delivering a presentation?
+#### Q21. Which view lets you see additional information on a second monitor when delivering a presentation?
 
     Normal view
     Reading view
