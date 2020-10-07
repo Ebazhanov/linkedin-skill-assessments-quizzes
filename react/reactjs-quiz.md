@@ -421,3 +421,9 @@ class clock extends React.Component {
 - `useEffect(function updateTitle() { name + ' ' + lastname; });`
 - `useEffect(function updateTitle() { title = name + ' ' + lastname; });`
 
+#### Q44. What can you use to wrap Component imports in order to load them lazily?
+
+- `React.fallback`
+- `React.split`
+- `React.lazy` <<<<<--CORRECT
+- `React.memo`
