@@ -1118,6 +1118,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "shriyaMadan",
+      "name": "Shriya Madan",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/38863530?v=4",
+      "profile": "https://github.com/shriyaMadan",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
