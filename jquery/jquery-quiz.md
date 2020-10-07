@@ -294,12 +294,12 @@ function expression.
 
 - `jQuery.sub`
 - `jQuery.ajaxTransport`
-- `jQuery.Deferred`
+- `jQuery.Deferred` <<<<<----CORRECT!
 - `jQuery.proxy`
 
 #### Q18. What is tricky about jQuery's nth- filters (:nth-child, :nth-of-type, etc.) relative to other filters?
 
-- Referring to lists of items, they are 1-indexed (like CSS), not 0-indexed (like JavaScript).
+- Referring to lists of items, they are 1-indexed (like CSS), not 0-indexed (like JavaScript). <<<<<----CORRECT!
 - They don't return the jQuery object, and cannot be chained.
 - They can return the wrong items if the DOM was recently manipulated.
 - They are not part of CSS, so they don't get the performance benefits of passing through the document.querySelectorAll.
@@ -377,7 +377,7 @@ $(this).animate({
 	left: '+=100',
 	}, 600)
 });
-```
+``` <<<<<----CORRECT!
 
 - Option 2
 
@@ -475,7 +475,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 		<div class="item">Here's an item</div>
 	</div>
 </div>
-```
+``` <<<<<----CORRECT!
 
 #### Q22. How can you select the following blockquote AND the list in a single call to jQuery() without chaining?
 
@@ -497,7 +497,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 
 - `$('.quotes + .menu-first')`
 - `$('.quotes .menu-first')`
-- `$('.quotes, .menu-first')`
+- `$('.quotes, .menu-first')` <<<<<----CORRECT!
 - `$('.quotes' + '.menu-first')`
 
 #### Q23. Given the CSS and HTML code below, how could you apply the success class to the feedback div?
@@ -514,7 +514,63 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 ```
 
 - `$('.feedback').hasClass('.success');`
-- `$('.feedback').addClass('.success');`
+- `$('.feedback').addClass('.success');` <<<<<----CORRECT!
 - `$.css('.feedback', '.success');`
 - `$('.feedback').css('.success');`
 
+#### Q24. Effects like show, hide, fadeIn, and FadeOut can be called with no arguments, but can also take arguments for how long they should last. Which is NOT a duration argument supported by these functions?
+- "fast"
+- "extreme" <<<<<----CORRECT!
+- 2000
+- "slow"
+
+#### Q25. Though jQuery offers visual effects, it is considered a best practice to use CSS to set up different states triggered by classes, where it makes sense. What's the easiest way to enable and disable a class `bounce` on an element with the ID `dialog`?
+- `$('#dialog').classToggle('bounce')`
+- `$('#dialog.bounce').removeClass().addClass()`
+- `$('#dialog').addOrRemoveClass('bounce')`
+- `$('#dialog').toggleClass('bounce') <<<<<----CORRECT!
+
+#### Q26. What is the main difference between selectors and filters?
+- Selectors are used to refine the content that filters have been applied to.
+- Selectors are used to find and select content in a page. Filters are used to refine the results of selectors. <<<<<----CORRECT!
+- Filters are used to remove content from the page. Selectors are used to add content to the page
+- There is no real difference. They are both used to build up lists of page content.
+
+#### Q27. You want to create a custom right-click menu. How might you start the code?
+- `$('#canvas').on('click-right', function(){ console.log('Handled a right-click') });`
+- `$('#canvas').on('contextual', function(){ console.log('Handled a right-click') });`
+- `$('#canvas').on('contextmenu', function(){ console.log('Handled a right-click') });` <<<<<----CORRECT!
+- `$('#canvas').on('rightclick', function(){ console.log('Handled a right-click') });`
+
+#### Q28. How can you add a new item to the end of this list?
+```
+   <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+   </ul>
+```
+- `$('ul').add('<li>A new item</li>');`
+- `$('ul').append('<li>A new item</li>');`
+- `$('<li>A new item</li>').append('ul');` <<<<<----CORRECT!
+- `$('<li>A new item</li>').prepend('ul');`
+
+#### Q29. Consider the following markup used to lay out three balls on the page, all hidden. How can you select the green ball, make it fade in over the course of three seconds, and log a console message when the animation has finished?
+```
+   <div class="balls">
+      <div class="ball ball--red" style="display: none"></div>
+      <div class="ball ball--green" style="display: none"></div>
+      <div class="ball ball--blue" style="display: none"></div>
+   </div>
+```
+- `$('.ball-green').fadeIn("3s", function() { console.log('Animation is done!'); });`
+- `$('.ball-green').fadeIn(3000, function() { console.log('Animation is done!'); });` <<<<<----CORRECT!
+- `$('.ball-green').fade("in", 3000).done(function() { console.log('Animation is done!'); });`
+- `$('.ball-green').fadeIn(3).console().log('Animation is done!);`
+
+#### Q30. What is the correct way to check how many paragraphs exist on a page using jQuery?
+- `$('p').count()`
+- `$('p').length` <<<<<----CORRECT!
+- `$('*').find('p')`
+- `$('p').length()`
