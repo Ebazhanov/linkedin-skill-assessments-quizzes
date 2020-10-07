@@ -213,7 +213,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 - [ ] Actions are used to add user-inputted data to the database. Filters are used to validate user-inputted data prior to adding it to the database.
 
 #### Q29. If you activate or update a plugin and it breaks your site so that you cannot manage it via wp-admin, how can you disable the plugin?
-- [ ] all of these answers
+- [X] all of these answers
 - [ ] Access the WordPress install via WP-CLI. Run the following command: wp plugin deactivate offending-plugin.
 - [ ] Access site files via FTP and navigate to /wp-content/plugins/. Delete the folder of the plugin that you would like to disable or simply rename it.
 - [ ] Use phpMyAdmin to change the wp_options table's active_plugins option value to a:0:{}.
