@@ -1147,6 +1147,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "jadeutsch",
+      "name": "Jeff Deutsch",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/24517053?v=4",
+      "profile": "https://github.com/jadeutsch",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
