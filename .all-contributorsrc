@@ -1109,6 +1109,15 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "DevHabit",
+      "name": "S.ZHeng",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3051782?v=4",
+      "profile": "https://github.com/DevHabit",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
