@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-125-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-126-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
   
@@ -225,6 +225,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/jadeutsch"><img src="https://avatars0.githubusercontent.com/u/24517053?v=4" width="100px;" alt=""/><br /><sub><b>Jeff Deutsch</b></sub></a><br /><a href="#design-jadeutsch" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=jadeutsch" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Betoxx1"><img src="https://avatars2.githubusercontent.com/u/20777308?v=4" width="100px;" alt=""/><br /><sub><b>Betoxx1</b></sub></a><br /><a href="#design-Betoxx1" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/Wingman4l7"><img src="https://avatars1.githubusercontent.com/u/1383561?v=4" width="100px;" alt=""/><br /><sub><b>Wingman4l7</b></sub></a><br /><a href="#design-Wingman4l7" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/MarespTech"><img src="https://avatars1.githubusercontent.com/u/62226552?v=4" width="100px;" alt=""/><br /><sub><b>Martin Espericueta</b></sub></a><br /><a href="#design-MarespTech" title="Design">🎨</a></td>
   </tr>
 </table>
 
