@@ -137,7 +137,7 @@ return list(enumerate(college_years, 2019)
 - [ ] `"defaultdict" stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.`
 
 #### Q15. What is the correct syntax for defining a class called "Game", if it inherits from a parent class called "LogicGame"?
-- [ ] `class Game.LogicGame(): pass`
+- [ ] `class Game.LogicGame(): pass`                 
 - [ ] `def Game(LogicGame): pass`
 - [x] `class Game(LogicGame): pass`
 - [ ] `def Game.LogicGame(): pass`
@@ -560,10 +560,10 @@ fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
 - [ ] `decrease and conquer`
 
 #### Q51. What is the purpose of the self keyword when defining or calling methods on an instance of an object?
-- [x] `self refers to the class that was inherited from to create the object using self.`
+- [ ] `self refers to the class that was inherited from to create the object using self.`
 - [ ] `There is no real purpose for the self method. It's just legacy computer science jargon that Python keeps to stay consistent with other programming languages.`
 - [ ] `self means that no other arguments are required to be passed into the method.`
-- [ ] `self refers to the instance whose method was called.`
+- [x] `self refers to the instance whose method was called.`
 
 #### Q52. What is a class method?
 - [ ] `A class method is a regular function that belongs to a class, but it must return None.`
