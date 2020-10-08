@@ -19,7 +19,7 @@ Q2. What method is used to wire up a FormControl to a native DOM input element i
 
     a) Add the string name given to the FormControl to an attribute named controls on the <form> element to indicate what fields it should include.Add the string name given to the null to an attribute named controls on the null element to indicate what fields it should include.
     b) Use the square bracket binding syntax around the value attribute on the DOM element and set that equal to an instance of the FormControl.Use the square bracket binding syntax around the value attribute on the DOM element and set that equal to an instance of the null.
-    c) Use the formControlName directive and set the value equal to the string name given to the FormControl.Use the null directive and set the value equal to the string name given to the null.
+   ----> c) Use the formControlName directive and set the value equal to the string name given to the FormControl.Use the null directive and set the value equal to the string name given to the null.
     d) Use the string name given to the FormControl as the value for the DOM element id attribute.
 
 Q3. What is the difference between the paramMap and the queryParamMap on the ActivatedRoute class?What is the difference between the null and the null on the null class?
