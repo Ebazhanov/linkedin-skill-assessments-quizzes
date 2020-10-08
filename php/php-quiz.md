@@ -139,7 +139,7 @@ PHP supports multiple types of loops. If you wanted to loop through a block of c
 
  -for 
  -do-while 
- -while 
+ -while //Correct
  -foreach 
  
  
@@ -177,7 +177,7 @@ PHP supports multiple types of loops. If you wanted to loop through a block of c
 
 
 Which PHP script uses a constructor to display the string "Winter is almost over!"? 
--```
+-``` //Maybe
 1 class MyClass { 
 2 public function _construct() 
 3 {  
@@ -228,9 +228,9 @@ How might you troubleshoot a "call to undefined function" error?
 
 
 What displays in a browser when the following code is written? <?php echo "How much are the bananas?"?> 
- -The browser would display nothing due to a syntax error.  //Maybe
+ -The browser would display nothing due to a syntax error. 
  -The browser would display an error, since there are no parentheses around the string. 
- -The browser would display How much are the bananas? 
+ -The browser would display How much are the bananas? //Correct
  -The browser would display an error, since there is no semicolon at the end of the echo command. 
 
 
@@ -255,8 +255,8 @@ function process(...$vals) {
 
 
 Assuming the Horse class exists, which is a valid example of inheritance in PHP? 
-- class Pegasus extends Horse {} 
-- class Alicorn imports Pegasus, Unicorn {} //MAYBE
+- class Pegasus extends Horse {} //Correct
+- class Alicorn imports Pegasus, Unicorn {} 
 - class Unicorn implements Horse {} 
 - class Horse inherits Unicorn {} 
 
