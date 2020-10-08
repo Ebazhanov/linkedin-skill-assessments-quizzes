@@ -255,3 +255,21 @@
 - [ ] Certificate Authority
 - [ ] Network Device Enrollment Service
 - [ ] Online Responder
+
+#### Q43. You have shared folder on your FILESVR01 server. You want to be notified vie email when files are saved in the folder. How do you automate this task?
+- [ ] Use Storage Reports.
+- [ ] Use File Management Tasks.
+- [ ] Use Quota Management.
+- [ ] Use File Screen Management.
+
+#### Q44. What you use to implement a secure hardware store for your CA keys?
+- [ ] storage area network
+- [ ] network attached storage
+- [ ] hardware security module
+- [ ] encrypted hard drive
+
+#### Q45. You are deploying a highly available file server using a Hyper-V cluster configuration. After creating the cluster, why must you add d disk as a cluster shared volume (CSV)?
+- [ ] to provide nodes in cluster independent VMs slot age location
+- [ ] to implement fault tolerance zero downtime for the VM
+- [ ] to protect data from loss
+- [ ] to prevent nodes in a cluster from accessing a storage location
