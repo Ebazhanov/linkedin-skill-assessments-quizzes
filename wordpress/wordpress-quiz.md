@@ -225,3 +225,45 @@ if ( ! defined( 'ABSPATH' ) ) {
 - [ ] route
 - [ ] response
 - [ ] request
+
+#### Q31. Which WP-CLI command would you use to manage the capabilities of a user role?
+- [ ] wp admin
+- [ ] wp manage
+- [ ] wp cap
+- [X] wp role
+
+#### Q32. What technique would you use to secure data before rendering it to a user?
+- [ ] escape and sanitize
+- [ ] validate and escape
+- [ ] validate and sanitize
+- [ ] escape and secure
+
+#### Q33. If your WordPress site is seriously compromised, what is the best course of action to return your site to good health?
+- [ ] Determine the date of the attack and restore your site to a backup point prior to that date.
+- [ ] Hire a third-party service to clean up your site because it is difficult for someone who is not a WordPress security expert to find and remove all traces of an attack.
+- [ ] Manually delete suspicious files on the server and delete any database tables that are not core WordPress.
+- [ ] Change your hosting password, your WordPress admin password, and your database password.
+
+#### Q34. If you wanted to register a custom post type, which hook would you use?
+- [ ] register_post_type
+- [ ] add_meta_box
+- [ ] wp_head
+- [ ] init
+
+#### Q35. What is the role of a WordPress theme?
+- [ ] controls colors, fonts, and page layouts
+- [ ] adds accessibility enhancements such as keyboard navigation and skip links
+- [ ] ensures a site is mobile responsive
+- [X] all of these answers
+
+#### Q36. What is the name of the open-sourse project that serves as a bug tracker and project management tool for WordPress?
+- [ ] Redmine
+- [ ] GitHub Issues
+- [ ] HakerOne
+- [X] Trac
+
+#### Q37. What is a user role that is unique to WordPress Multisite?
+- [ ] Owner
+- [X] Super Admin
+- [ ] MU Admin
+- [ ] Multisite Master
