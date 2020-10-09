@@ -156,13 +156,13 @@ Q19. What tool can you use in Power Bl Desktop to reduce data?
     [ ] report editor
     [ ] Power Query Editor
     [ ] dashboard
-    [ ] data modeler
+    [*] data modeler
 
 Q20. What is NOT a valid data connection type for Power Bl Desktop?
 
     [ ] Azure data
     [ ] file data
-    [ ] relationships data
+    [*] relationships data
     [ ] database data
 
 Q21. Which data type can be uploaded directly to powerbi.com?
@@ -170,18 +170,18 @@ Q21. Which data type can be uploaded directly to powerbi.com?
     [ ] Excel files
     [ ] comma-separated value (CSV) files
     [ ] Power Bl Desktop files
-    [ ] all of these answers
+    [*] all of these answers
 
 Q22. What does Power Bl Premium provide?
 
     [ ] Power Bl Report Server
     [ ] report sharing without a per-user licens
-    [ ] all of these answers
+    [*] all of these answers
     [ ] dedicated capacity for your company
 
 Q23. You have a report in Power Bl service and want to save the state of a report page for easy access. What feature helps you do this?
 
-    [ ] views
+    [*] views
     [ ] filters
     [ ] bookmarks
     [ ] slicers
