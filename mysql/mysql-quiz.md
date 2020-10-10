@@ -372,3 +372,9 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 - [x] updatable
 - [] temptable
 - [] undefined
+
+#### Q50. What is the MySQL perror command-line utility used for?
+- [] to display your version of MySQL
+- [] to display operating system error codes  
+- [] to display default settings that are in error  
+- [x] to display storage error codes
