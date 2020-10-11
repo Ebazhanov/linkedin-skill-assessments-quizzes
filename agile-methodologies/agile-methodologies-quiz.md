@@ -106,7 +106,7 @@
 - [ ] This is not a good idea unless there has been recent employee feedback that people feel underappreciated.
 - [ ] It is a good idea as long as a different person is recognized in each sprint.
 - [ ] It is a good idea because awards can motivate people to do their best.
-- [x] This is not a good idea because it can destroy the team unity that is essential to achieving high performance.
+- [x] This is not a good idea because it can destroy the team unity that is essential to achieving high performance. <<<---CORRECT
 
 #### Q19. What is a difference between a team's task board and a Kanban?
 - [ ] A Kanban has an explicit rule to limit WIP.
@@ -248,9 +248,9 @@
 - [ ] demonstrating the work to stakeholders
 
 #### Q42. Which choice is *not* considered during Sprint Planning?
-- [ ] stories that meet the Definition of Done
+- [ ] stories that meet the Definition of Done <<<---CORRECT
 - [ ] team velocity
-- [x] stories that meet the Definition of Ready //Answer?
+- [ ] stories that meet the Definition of Ready 
 - [ ] team capacity
 
 #### Q43. You have noticed a pattern that the most interesting stories on the Sprint Backlog get started right away, and the least interesting stories languish or don't get done. What should you do?
@@ -341,7 +341,7 @@
 - [ ] actors
 - [ ] roles
 - [ ] agents
-- [x] personas //Answer?
+- [x] personas <<<---CORRECT
 
 #### Q58. The Product Owner is focused on testing a new system concept in the marketplace as quickly and inexpensively as possible. What is this first-generation product called?
 - [ ] preproduction version
@@ -363,15 +363,15 @@
 
 #### Q61. What does the Definition of Done mean?
 - [ ] The story meets the INVEST criteria.
-- [x] The team has completed all of the work in its Sprint. //Answer?
+- [x] The team has completed all of the work in its Sprint. 
 - [ ] The story has been handed off to the DevOps team.
-- [ ] The team has agreed on the criteria for story completion.
+- [ ] The team has agreed on the criteria for story completion. <<<---CORRECT
 
 #### Q62. Which element is most important when describing your product?
 - [ ] its cost
 - [ ] its licensing terms and conditions
-- [x] its benefits //Answer?
-- [ ] its features
+- [ ] its benefits 
+- [ ] its features <<<---CORRECT
 
 #### Q63. Which choice best describes the Team Facilitator?
 - [ ] a meeting scheduler
@@ -392,7 +392,7 @@
 - [x] Invite both people a meeting and try mediate the conflict. //Answer?
 
 #### Q66. What is the forming-storming-norming, performing model of team development known as?
-- [x] the Tuckman model //Answer?
+- [x] the Tuckman model <<<---CORRECT
 - [ ] the Standard Team model
 - [ ] Moore's Team Framework
 - [ ] the Siebert model
@@ -432,3 +432,16 @@
 - [x] The story is ready to be brought into a sprint. //Answer?
 - [ ] The stakeholders are ready to discuss their requirements for story.
 - [ ] The team has completed sprint 0 and is ready to work.
+
+#### Q73. Which is NOT a principle of the Scaled Agile Framework?
+- [ ] Centralize decision-making
+- [ ] Apply systems thinking
+- [ ] Take an economic view
+- [x] Unlock the intrinsic motivation of knowledge workers
+
+#### Q74. Which statement concerning small, frequent releases of software is true?
+- [ ] The chance for rollback is high
+- [x] It typically requires a high degree of automation
+- [ ] Backward compatibility may be jeopardized
+- [ ] The administrative costs are high
+
