@@ -355,3 +355,10 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ] Offline learning
 - [X] Both A and B
 - [ ] None of the above
+
+
+#### Q54. Which of the following is NOT supervised learning? ?
+- [ ] Decision Tree
+- [ ] Linear Regression
+- [X] PCA
+- [ ] Naive Bayesian
