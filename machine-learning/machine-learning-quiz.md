@@ -367,3 +367,11 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ] K-means clustering
 - [X] Density-based clustering
 - [ ] Model-based clustering
+
+
+#### Q57. ___________ refers to a model that can neither model the training data nor generalize to new data.
+
+- [ ] good fitting
+- [ ] overfitting
+- [X] underfitting
+- [ ] all of the above
