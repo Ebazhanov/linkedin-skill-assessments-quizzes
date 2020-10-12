@@ -367,3 +367,9 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ] K-means clustering
 - [X] Density-based clustering
 - [ ] Model-based clustering
+
+#### Q56. Which of the following guidelines is applicable to initialization of the weight vector in a fully connected neural network.
+- [ ] Should not set it to zero since otherwise it will cause overfitting
+- [X] Should not set it to zero since otherwise (stochastic) gradient descent will explore a very small space
+- [ ] Should set it to zero since otherwise it causes a bias
+- [ ] Should set it to zero in order to preserve symmetry across all neurons
