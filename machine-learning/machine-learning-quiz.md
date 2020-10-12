@@ -356,9 +356,14 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [X] Both A and B
 - [ ] None of the above
 
-
 #### Q54. Which of the following is NOT supervised learning? ?
 - [ ] Decision Tree
 - [ ] Linear Regression
 - [X] PCA
 - [ ] Naive Bayesian
+
+#### Q55. Suppose we would like to perform clustering on spatial data such as the geometrical locations of houses. We wish to produce clusters of many different sizes and shapes. Which of the following methods is the most appropriate? ?
+- [ ] Decision Trees
+- [ ] K-means clustering
+- [X] Density-based clustering
+- [ ] Model-based clustering
