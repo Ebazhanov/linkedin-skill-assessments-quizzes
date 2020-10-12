@@ -14,9 +14,11 @@ JavaScript Assessment
 - A forEach statement is generic, but a for statement ca be used only with an array
 
 #### Q3. Review the code below. Which statement calls the addTax function and passes 50 as an argument?
-`function addTax(total){
+```js
+function addTax(total){
     return total * 1.05;
-}`
+}
+```
 - addTax = 50;
 - return addTax 50;
 - addTax(50); <<<---Correct
@@ -35,23 +37,26 @@ JavaScript Assessment
 - var student = construct Person();
 
 #### Q6. When would the final statement in the code shown be logged to the console?
-`let modal = document.querySelector('#result');
+```js
+let modal = document.querySelector('#result');
 setTimeout(function(){
     modal.classList.remove('hidden);
 }, 10000);
-console.log('Results shown');`
+console.log('Results shown');
+```
 - after 10 second 
 - after results are received from the HTTP request
 - after 10000 seconds
 - immediately <<<<<----Correct
 
 #### Q7. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?
-- `for (var i=1; i<=4; i++){
+```js
+ for (var i=1; i<=4; i++){
     setTimeout(function(){
         console.log(i);
     }, i*10000);
-   }`
-   
+   }
+```
 - `for (var i=1; i<=4; i++){
        (function(i){
           setTimeout(function(){
@@ -72,7 +77,7 @@ console.log('Results shown');`
            console.log(j);
          }, j*1000);
       })(i)
-    }` // Correct
+    }` <<<<----Correct
     
 - `for (var j=1; j<=4; j++) {
      setTimeout(function() {
@@ -103,39 +108,45 @@ console.log('Results shown');`
         return price * 0.85;
        };`
        
- #### 10. What is the result in the console of running the code shown?
- `var Storm = function() {};
- Storm.prototype.precip = 'rain';
- var WinterStorm = function() {};
- WinterStorm.prototype = new Storm();
- WinterStorm.prototype.precip = 'snow';
- var bob = new WinterStorm();
- console.log=(bob.precip);`
+#### 10. What is the result in the console of running the code shown?
+```js
+var Storm = function() {};
+Storm.prototype.precip = 'rain';
+var WinterStorm = function() {};
+WinterStorm.prototype = new Storm();
+WinterStorm.prototype.precip = 'snow'; 
+var bob = new WinterStorm();
+console.log(bob.precip);
+```
 - Storm()
 - undefined
 - 'rain'
 - 'snow' <<<---Correct
 
- #### Q11. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?
- - /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/
- - /\d\d:\d\d:\d\d/ <<<---Correct, https://regex101.com/r/6e81up/2
- - /[0-9]+:[0-9]+:[0-9]+/ 
- - /  : : /
+#### Q11. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?
+- /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/
+- /\d\d:\d\d:\d\d/ <<<---Correct, https://regex101.com/r/6e81up/2
+- /[0-9]+:[0-9]+:[0-9]+/ 
+- /  : : /
    
 #### Q12. What is the result in the console of running this code?
-`"use strict";
+```js
+"use strict";
 function logThis() {
     this.desc = "logger";
     console.log(this);
 }
-new logThis();`
+new logThis();
+```
 - undefined
 - window
 - {desc: "logger"} <<<<---Correct
 - function
 
 #### Q13. How would you reference the text 'avenue' in the code shown?
-`let roadTypes = ['street', 'road', 'avenue', 'circle'];`
+```js
+let roadTypes = ['street', 'road', 'avenue', 'circle'];
+```
 - roadTypes.2
 - roadTypes[3]
 - roadTypes.3
@@ -155,10 +166,12 @@ new logThis();`
 - source
 
 #### Q16. You're adding error handling to the code shown. Which code would you include within the if statement to specify an error message?
-`function addNumbers(x, y){
+```js
+function addNumbers(x, y){
     if (isNaN(x) || isNaN(y)) {
     }
- }`
+}
+```
 - exception('One or both parameters are not numbers')
 - catch('One or both parameters are not numbers')
 - error('One or both parameters are not numbers')
@@ -177,9 +190,11 @@ new logThis();`
 - When you want to loop through a group of statement.
 
 #### Q19. What would be the result in the console of running this code?
-`for (var i=0; i<5; i++){
+```js
+for (var i=0; i<5; i++){
     console.log(i);
- }`
+}
+```
 - 12345
 - 1234
 - 01234 <<<<---Correct
@@ -300,10 +315,10 @@ let diff = function(x,y){
     return x-y
 }
 ```
-- 30, RefferanceError, 30, -10
-- 30, ReferanceError  <<<<----Correct
+- 30, ReferenceError, 30, -10
+- ReferenceError  <<<<----Correct
 - 30, -10
-- ReferanceError, -10
+- ReferenceError, -10
 
 #### Q36. Why is it usually better to work with Objects instead of Arrays to store a collection of records?
 - Objects are more efficent in terms of storeage.
@@ -313,9 +328,9 @@ let diff = function(x,y){
 
 #### Q37. Which statement is true about the "async" attribute for the HTML script tag?
 - It can be used for both internal and external JavaScript code.
-- It can be used only for internal JavaScript code. <<<<----Correct
+- It can be used only for internal JavaScript code. 
 - It can be used only for internal or external JavaScript code that exports a promise.
-- It can be used only for external JavaScript code.
+- It can be used only for external JavaScript code. <<<<----Correct
 
 #### Q38. How do you import the lodash library making it top-level Api available as the "_" variable?
 - import _ from 'lodash'; <<<<----Correct
@@ -330,12 +345,12 @@ let diff = function(x,y){
 - True
 - undefined
 - []
-- False <<<<----Correct
+- False <<<<----Correct (Referential Equality)
 
-#### Q40. What is the name of a function whose expecution can be suspended and resumed at a later point? 
-- Generator function
+#### Q40. What is the name of a function whose execution can be suspended and resumed at a later point? 
+- Generator function <<<<----Correct
 - Arrow function 
-- Async/ Await function <<<<----Correct
+- Async/ Await function 
 - Promise function
 
 #### Q41. What will this code print?
@@ -353,16 +368,15 @@ var f2 = function(){
 f2()
 ```
 - 2
-- 1
+- 1 <<<<----Correct
 - Nothing--this code will throw an error.
-- undefined <<<<----Correct
+- undefined 
 
 #### Q42. Which statement is true about Functional Programming?
 - Every object in the program has to be a function.
 - Code is grouped with the state it modifies.
-- Date fields and methods are kept in units. <<<<----May be
+- Date fields and methods are kept in units.
 - Side effecs are not allowed. <<<<<----- I believe it's this, FP shouldn't have side effects; i.e same output evry time, doesn't mutate 
-- array
 
 #### Q43. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
 - You are calling a method named reduce on an object that's declared but has no value.
@@ -371,8 +385,133 @@ f2()
 - You are calling a method named reduce on an object that's has a null value.
 
 #### Q44. How many prototype objects are in the chain for the following array?
-let arr = [];
+`let arr = [];`
 - 3
 - 2
 - 0 <<<<----Correct
 - 1
+
+#### Q45. Which of the following is not a unary operator?
+- typeof
+- delete
+- instanceof  <<<<----Correct
+- void
+
+#### Q46. What type of scope does the end variable have in the code shown? 
+```
+var start = 1;
+if (start === 1) {
+ let end = 2;
+}
+```
+- conditional
+- block <<<<----Correct
+- global   
+- function
+
+
+#### Q47. What will the value of y be in this code: 
+```
+const x = 6 % 2;
+const y = x ? 'One': 'Two';
+```
+- One
+- undefined
+- TRUE
+- Two  <<<<----Correct
+
+
+#### Q48. Which keyword is used to create an error?
+- throw   <<<<----Correct
+- exception
+- catch
+- error
+
+
+#### Q49. What's one difference between the async and defer attributes of the HTML script tag?
+- The defer attribute can work synchronously.
+- The defer attribute works only with generators.
+- The defer attribute works only with promises.
+- The defer attribute will asynchronously load the scripts in order.   <<<<----Correct
+
+
+#### Q50. The following program has a problem. What is it?
+```js
+var a;
+var b = (a = 3) ? true: false
+```
+- The condition in the ternary is using the assignment operator.   <<<<----Correct
+- You can't define a variable without initializing it.
+- You can't use a ternary in the right-hand side of an assignment operator.
+- The code is using the deprecated var keyword
+
+
+#### Q51. Which statement references the DOM node created by the code shown?
+```html
+<p class="pull">lorem ipsum</p>
+```
+- `Document.querySelector('class.pull')`
+- `document.querySelector('.pull');`   <<<<----Correct
+- `Document.querySelector('pull')`
+- `Document.querySelector('#pull')`
+
+#### Q52. What value does the code return?
+```js
+let answer=true
+if (answer === false){
+	return 0}
+	else {return 10}
+```
+- 10 <<<<----Correct
+- false
+- 0
+
+
+### Q53. What is the result in the console of running the code shown?
+```js
+var start = 1; 
+function setEnd() {
+	var end = 10;
+}
+setEnd();
+console.log(end); 
+```
+* 10
+* 0
+* ReferenceError <<<---CORRECT 
+* undefined
+
+### Q54. What will this code log in the console? 
+```js
+function sayHello() {
+console.log("hello"); 
+}; 
+
+console.log(sayHello.prototype); 
+```
+* undefined <<<--- CORRECT
+* "hello"
+* an object with a constructor property
+* an error message
+
+### Q55: Which collection object allows unique value to be inserted only once? 
+* Object
+* Set <<<---CORRECT
+* Array
+* Map
+
+### Q56. What two values will this code print?
+```js
+function printA() {
+console.log(answer);
+var answer = 1; 
+};
+printA();
+printA();
+```
+* 1 then 1
+* 1 then undefined
+* undefined the undefined <<<---CORRECT
+* undefined the 1
+
+

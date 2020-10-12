@@ -16,10 +16,10 @@
 
 #### Q3. Describe what the following git commands do to the commit history.
 
-`git reset --hard HEAD~5`  
+`git reset --hard HEAD~5`
 (Reset the current branch to the commit just before the last 5)
 
-`git merge --squash HEAD@{1}`  
+`git merge --squash HEAD@{1}`
 (HEAD@{1} is where the branch was just before the previous command. This command sets the state of the index to be as it would just after a merge from that commit)
 
 - [ ] Reset the HEAD to the 5th commit in the repo, then merges to the master branch
@@ -38,9 +38,9 @@
 
 `git add -A`
 
-- [ ] All new and updated files are staged
+- [x] All new and updated files are staged
 - [ ] Files are staged in alphabetical order.
-- [x] All new files are staged
+- [ ] All new files are staged
 - [ ] Only updated files are staged
 
 #### Q6. What will the following command print to the Terminal?
@@ -89,7 +89,8 @@
 
 #### Q11. Why would you use a pre-receive hook in your remote repository?
 - [ ] You wouldn't, you would use it in the local repository
-- [x] To invoke a hook script when commits are pushed but before any references are updated
+- [x] To execute a script when a remote receives a push that is triggered
+  before any refs are updated
 - [ ] To fire a script after updates are made to the remote repository
 - [ ] To debug all commit tags and release versions
 
@@ -138,7 +139,7 @@
 Change to be committed:
 
 (use "git reset HEAD <file>..." to unstage)
-modified: beta-notes.js 
+modified: beta-notes.js
 Changes not staged for commit:
 (use "git add <file>..." to update what will be committed)
 (use "git checkout --<file>..." to discard changes in working directory)
@@ -187,17 +188,19 @@ git cherry-pick {123safd23e}
 
 #### Q24. You find that your project has a tag and branch both named push-notifications, which causes confusion when trying to print out given reference. How can you specify which branch you want to look at?
 
-- [ ] use git  show ref/push-notifications
+- [ ] use git show ref/push-notifications
 - [ ] use git show push-notifications
-- [x] use git show head/refs/push-notifications <<--chose thise one not sure though!
-- [ ] use git show refs/head/push-notifications
+- [ ] use git show head/refs/push-notifications <<--chose this one not sure though!
+- [x] use git show refs/head/push-notifications
+
+[Reference link for Q24](https://geedew.com/fixing-git-branch-and-tag-name-collision/)
 
 #### Q25. Your team lead needs a list of all commits that will be moved before you perform a rebase. Which command can you use to access that information?
 - [ ] git rebase -log
 - [x] git rebase -i
 - [ ] git rebase -verbose
 - [ ] git rebase -all
- 
+
 #### Q26. What is the operation doing given the Git commands below?
 
 ```
@@ -220,10 +223,12 @@ $ git bisect good 69faab6268350295550de7d587bc323d
 
 #### Q28. Which of the following is true of the git push command?
 
-- [ ] By default a push doesn't send tags to the remote repository.
+- [x] By default a push doesn't send tags to the remote repository.
 - [ ] Commits can only be tagged when they are created.
-- [x] Tags are pushed to the remote repository with their respective commits.
+- [ ] Tags are pushed to the remote repository with their respective commits.
 - [ ] Only annotated tags are automatically pushed to the remote repository with a commit.
+
+[Reference for Q28](https://git-scm.com/book/en/v2/Git-Basics-Tagging#_sharing_tags)
 
 #### Q29. After pushing commits to the remote repository for the first time using the command below, what shorthand command can you use in future?
 `
@@ -252,7 +257,7 @@ Changes not staged for commit:
 modified:	beta-notes.js
 ```
 
-- [ ] beta-notes.js is untracked and has been modified. 
+- [ ] beta-notes.js is untracked and has been modified.
 - [x] beta-notes.js is a tracked file and has been modified, but has not been added to the current commit.
 - [ ] beta-notes.js is untracked but has been added to the current commit.
 - [ ] beta-notes.js is tracked, and the modified file has been added to the current commit.
@@ -307,6 +312,245 @@ git rm --cached testfile.js
 
 - [ ] The "-all" option isn't added to the command.
 - [x] "rerere.enabled" isn't enable in the config file.
-- [ ] The commit hash is missing. 
+- [ ] The commit hash is missing.
 - [ ] The filepath isn't specified.
 
+#### Q39. What commands would you use to force an overwrite of your local files with the master branch?
+
+- [ ] Option 1
+
+```git
+git pull --all
+git reset --hard origin/master
+```
+
+- [ ] Option 2
+
+```git
+git pull -u origin master
+git reset --hard master
+```
+
+- [] Option 3
+
+```git
+git pull origin master
+git reset --hard origin/myCurrentBranch
+```
+
+- [x] Option 4
+
+```git
+git fetch --all
+git reset --hard origin/master
+```
+#### Q40. While modifying a file, you're unexpectedly assigned an urgent bug fix on another branch. How can you temporarily save your local work without committing?
+
+- [ ] Save your work with git local-cache.
+- [x] Use git stash to save your work, then come back later and reapply the stashed commit.
+- [ ] Run git hold to save a local copy of waht you're doing to return to later.
+- [ ] This is not possible, as you cannot save locally without committing.
+
+#### Q41. After staging a series of changes to the index, which command could you used to review prior to a commit.
+
+- [ ] Save your work with git local-cache.
+- [x] Use git stash to save your work, then come back later and reapply the stashed commit.
+- [ ] Run git hold to save a local copy of waht you're doing to return to later.
+- [ ] This is not possible, as you cannot save locally without committing.
+
+#### Q42. Your current respository has three branches: master,beta and ousg-notifications. You've just finished the notification feature and commit the changes to the push-notification branch, and you want to include them in the beta branch. How can you acccomplish this?
+
+- [ ] Check out the master branch and run git merge beta -> push-notifications..
+- [ ] Delete the push-notification branch;it will be committed to the mastre branch automatically.
+- [ ] Check out the push-notifications branch and run git merge beta.
+- [x] Check out the beta branch and run git merge push-notifications.
+
+#### Q43. You find that your project has a tag and branch both named push-notification,which causes confusion when trying to print out a given referance.How can you specify which branch you want to look at?
+
+- [ ] Use git show head/refs/push-notifications.
+- [ ] Use git show push-notifications.
+- [ ] Use git show refs/push-notifications.
+- [x] Use git show refs/head/push-notifications.
+
+[Reference link for Q43](https://geedew.com/fixing-git-branch-and-tag-name-collision/)
+
+#### Q44. Which statement is true of the git push command?.
+
+- [ ] Commits can be tagged only when they are created.
+- [x] By default a push dosen't sent tags to the remote repository.
+- [ ] Only annotated tags are automatically pushed to the remote repository with a commit.
+- [ ] Tags are pushed to the remote repository with their respective commits.
+
+#### Q45. How can you check your current Git version?
+
+- [x] git --version
+- [ ] git --options
+- [ ] git --current
+- [ ] git --v
+
+#### Q46. Which setting determines what pager is used when Git pages output?
+
+- [ ] core.page
+- [ ] page
+- [ ] pager
+- [x] core.pager
+
+#### Q47. What does commit object contain?
+
+- [ ] 
+- [ ] A set of files, representing the state of a project at a given point of time.
+- [ ] Referance to parent commit objects
+- [x] An SHAI name, a 40 character string that uniquely identify the commit object.
+
+#### Q48. Which option to git commit, will modify last commit message?
+
+- [ ] -replace
+- [ ] -change
+- [x] -amend
+- [ ] -update
+
+#### Q49. Which option is enables inclusion of commiter name in custom log format?
+
+- [ ] %ce
+- [ ] %cr
+- [ ] %cd
+- [x] %cn
+
+#### Q50. How many ways are present in Git to integrate changes from one branch into another?
+
+- [ ] 3.0
+- [ ] 5.0
+- [x] 2.0
+- [ ] 4.0
+
+#### Q51. Which user should be creating first during setting up of SSH?
+
+- [x] git
+- [ ] admin
+- [ ] root
+- [ ] None of these
+
+#### Q52. Which command will list tags with the 1.4.2 series?
+
+- [ ] git tag 'v1.4.2'
+- [x] git tag -I 'v1.4.2.*'
+- [ ] git tag-list 'v1.4.2*'
+- [ ] git tag'v1.4.2*'
+
+#### Q53. Which of the following is an integration manager?
+
+- [ ] lieutenants
+- [x] benevolent dictator
+- [ ] Depends upon project type
+- [ ] Depends upon data
+
+#### Q54. Which Git command begins tracking of a new file?
+
+- [x] add
+- [ ] addfile
+- [ ] begin
+- [ ] track
+
+#### Q55. Which of the following is called dumb protocol?
+
+- [ ] All of these
+- [ ] SSH
+- [ ] Git
+- [x] HTTP
+
+#### Q56. Which key press return a set of suggestions to pick from,  when writing a Git command?
+
+- [ ] Control
+- [ ] Shift
+- [x] Tab
+- [ ] Alt
+
+#### Q57. Which of these terms best describe Git?
+
+- [x] Distributed Version Control System
+- [ ] Issue Tracking System
+- [ ] Integrated Development Environment
+- [ ] Web-Based Repository Hosting Service
+
+#### Q58. Which command get a copy of an existing Git repository?
+
+- [ ] duplicate
+- [ ] replicate
+- [ ] copy
+- [x] clone
+
+#### Q59. How does Git thinks of its data?
+
+- [ ] File
+- [ ] None of these
+- [x] Snapshot
+- [ ] Folder
+
+#### Q60. Which option enables inclusion of author name in custom log format?
+
+- [ ] %am
+- [ ] %ad
+- [ ] %ae
+- [x] %an
+
+#### Q61. Which option enables inclusion of author name in custom log format?
+
+- [ ] %am
+- [ ] %ad
+- [ ] %ae
+- [x] %an
+#### Q62. Which version onwads did Git offered, revesting a file back to what it looked like when last committed?
+
+- [ ] 1.7
+- [x] 1.6
+- [ ] 2.0
+- [ ] 1.8
+
+#### Q63. Which strategy is ued by Git for merging two branches?
+
+- [ ] LIFO
+- [x] recursive
+- [ ] FIFO
+- [ ] octopus
+
+#### Q64. What does refs stores?
+
+- [x] SHA-1 value
+- [ ] None of these
+- [ ] Branch name
+- [ ] Project name
+
+#### Q65. What Language is used in GIT?
+
+- [x] C
+- [ ] C++
+- [ ] C#
+- [ ] Java
+
+#### Q66. What is usually the extension of file which has the public key?
+
+- [ ] ssh
+- [x] pub
+- [ ] key
+- [ ] pk
+
+#### Q67. What is the difference between initializing a normal repo and a bare repo?
+
+- [ ] Bare repos store their git history in a .git subfolder.
+- [ ] Bare repos do not have the .git extension.
+- [x] Bare repos do not come with working or checked-out source files.
+- [ ] Bare repos should be used for local rather than remote repos.
+
+#### Q68. How many individual commits can a single repository have?
+
+- [x] any number of commits
+- [ ] only one commit local per repository
+- [ ] only three commits per branch
+- [ ] only one commit per HEAD
+
+#### Q69. What types of tags does Git support?
+
+- [ ] heavy and concise
+- [ ] lightweight and immutable
+- [ ] heavy and annotated
+- [x] lightweight and annotated 

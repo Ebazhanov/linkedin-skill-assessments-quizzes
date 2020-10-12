@@ -61,8 +61,8 @@ They all target the same nav element.
 
 #### Q6. What is true of block and inline elements?
 - By default, block elements are the same height and width as the content container between their tags; inline elements span the entire width of its container.
-- By default, block elements span the entire width of its container; inline elements are the same height and width as the content contained between their tags.
-- A "<nav>" element is an example of an inline element. "<header>" is an example of a block element.  <<<<---Correct
+- By default, block elements span the entire width of its container; inline elements are the same height and width as the content contained between their tags. <<<<---Correct
+- A "<nav>" element is an example of an inline element. "<header>" is an example of a block element.  
 - A "<span>" is an example of a block element. "<div>" is an example of an inline element.
 
 #### Q7. CSS grid introduced a new lenght unit, fr, to create flexible grid tracks. Referring to the code sample below, what will the widths of the three columns be?
@@ -200,7 +200,7 @@ section + p {
 2. Inline; CSS is added to the HTML tag.
 3. Internal; CSS is included within the <header> element of the HTML  file.
 ```
--
+- <---Correct
 ```
 1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file . 
 2. Internal; CSS is included within the <header> element of the HTML file.
@@ -215,7 +215,7 @@ section + p {
 #### Q17. Which of the following is true of the SVG image format?
 - CSS can be applied to SVGs but JavaScript cannot be.
 - SVGs work best for creating 3D graphics.
-- SVGs can be created as a vector graphic or coded using SVG specific elements such as <svg>, <line>, and <ellipse>.  <<<<---Correct
+- SVGs can be created as a vector graphic or coded using SVG specific elements such as &#x3C;svg&#x3E;, &#x3C;line&#x3E;, and &#x3C;ellipse&#x3E;.  <<<<---Correct
 - SVGs are a HAML-based markup language for creating vector graphics.
 
 
@@ -234,7 +234,7 @@ click is released.  <<<<---Correct
 - Use background-fill to set the color inside the object and stroke or border to set the color of the border. 
 - The color cannot be changed with CSS.
 - Use fill or background to set the color inside the object and stroke to set the color of the border.
-- Use fill to se t the color inside the object and stroke to set the color of the border.  <<<<---Correct
+- Use fill to set the color inside the object and stroke to set the color of the border.  <<<<---Correct
 
 #### Q20. When using position: fixed, what will the element always be positioned relative to?
 - the closest element with position: relative
@@ -249,9 +249,9 @@ click is released.  <<<<---Correct
 - once, on the x and y axis
 
 #### Q22. When using media queries, media types are used to target a device category. Which choice lists current valid media types?
-- print, screen, aural <<<<---Correct
+- print, screen, aural
 - print, screen, television
-- print, screen, speech 
+- print, screen, speech  <<<<---Correct
 - print, speech, device 
 
 #### Q23. How would you make the first letter of every paragraph on the page red?
@@ -328,10 +328,10 @@ color: #000000;
 <div style="margin-bottom: 2rem;">Div 1</div>
 <div style="margin-top: 2rem;">Div 2</div>
 ```
-- 2rem
+- 2rem <<<<---Correct
 - 32px
 - 64px
-- 4rem <<<<---Correct
+- 4rem 
 
 #### Q31. When using the Flexbox method, what property and value is used to display flex items in a column?
 - flex-flow: column; or flex-direction: column <<<<---Correct
@@ -340,7 +340,7 @@ color: #000000;
 - flex-direction: column;
 
 #### Q32. Which type of declaration will take precedence?
-- any declarations in user-agent stylesheets <<<<---Correct
+- any declarations in user-agent stylesheets <<<<---Correct https://www.w3.org/TR/CSS2/cascade.html
 - important declarations in user stylesheets
 - normal declarations in author stylesheets
 - important declarations in author stylesheets
@@ -363,7 +363,7 @@ Example 2; flex-direction: column-reverse;
 Example 3: flex-direction: row;
 Example 4: flex-direction: row-reverse;
 
-#### Q34. There are two sibling combinators that can be used to select elements contained within the same parent element; the general sibling combinator (~) and the adjacent sibling combinator (+). Referring to esample below, which elements will the styles be applied to?
+#### Q34. There are two sibling combinators that can be used to select elements contained within the same parent element; the general sibling combinator (~) and the adjacent sibling combinator (+). Referring to example below, which elements will the styles be applied to?
 ```css
 h2 ~ p {
     color: blue;
@@ -381,13 +381,18 @@ h2 + p {
 </section>
 ```
 - Paragraphs 2 and 3 will be blue. The h2 and paragraph 2 will have a beige background.
-- Paragraphs 1, 2, and 3 will be blue, and paragraph 2 will have a beige background.   <<<<---Correct
+- Paragraphs 2, and 3 will be blue, and paragraph 2 will have a beige background.   <<<<---Correct
 - Paragraphs 2 and 3 will be blue. Paragraph 2 will have a beige background.
 - Paragraph 2 will be blue. Paragraphs 2 and 3 will have a beige background.
 
 #### Q35. When using flexbox, the "justify-content" property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
-- justify-content: space-around;
+- justify-content: space-around; <<<<---Correct
 - justify-content: center;
 - justify-content: auto;
-- justify-content: space-between;   <<<<---Correct
+- justify-content: space-between;   
 
+#### Q36. There are many advantages to using icon fonts. What is one of those advantages?
+- Icon fonts increase accessibility.
+- Icon fonts can be used to replace custom fonts.
+- Icon fonts can be styled with typography related properties such as font-size and color. <<<<---Correct
+- Icon fonts are also web safe fonts.

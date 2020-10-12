@@ -9,10 +9,10 @@
 
 #### Q2. If a function component should always render the same way given the same props, what is a simple performance optimization available for it?
 
-- Wrap it in the React.memo higher-order component. <<<<<--CORRECT
-- Implement the useReducer Hook.
-- Implement the useMemo Hook.
-- Implement the shouldComponentUpdate lifecycle method.
+- Wrap it in the `React.memo` higher-order component. <<<<<--CORRECT
+- Implement the `useReducer` Hook.
+- Implement the `useMemo` Hook.
+- Implement the `shouldComponentUpdate` lifecycle method.
 
 #### Q3. How do you fix the syntax error that results from running this code?
 
@@ -39,7 +39,7 @@ console.log(person("Jill", "Wolson"))
 - math 
 - class components
 
-#### Q5. Using object literal enhancement, you can put values back into and object. When you log person to the console, what is the output?
+#### Q5. Using object literal enhancement, you can put values back into an object. When you log person to the console, what is the output?
 
 ```javascript
 const name = "Rachel";
@@ -139,10 +139,10 @@ ReactDOM.render(
 )
 ```
 
-- div
+- `div`
 - section
 - component
-- h1 <<<<<--CORRECT
+- `h1` <<<<<--CORRECT
 
 #### 15. What does this React element look like given the following function?
 
@@ -208,7 +208,7 @@ const element = <p>{message}</p>
 
 ```javascript
 A. <button onClick="{this.handleClick}>Click Me</button>"
-B. <button onClick="{event => this.handleClick()event}}>Click Me</button>"
+B. <button onClick="{event => this.handleClick(event)}}>Click Me</button>"
 ```
 
 - Button A will not have access to the event object on click of the button.
@@ -262,8 +262,8 @@ function Dish(props) {
 #### 25. Which attribute do you use to replace innerHTML in the browser DOM?
 
 - injectHTML
-- dangerouslySetinnerHTML <<<<<--CORRECT
-- weirdSetinnerHTML
+- dangerouslySetInnerHTML <<<<<--CORRECT
+- weirdSetInnerHTML
 - strangeHTML
 
 #### 26. Which of these terms commonly describe React applications?
@@ -282,7 +282,7 @@ function Dish(props) {
 
 #### 28. A representation of a user interface that is kept in memory and is synced with the "real" DOM is called what?
 
-- virtual DOM <<<<<--CORRECT maybe
+- virtual DOM <<<<<--CORRECT 
 - DOM
 - virtual elements
 - shadow DOM
@@ -296,7 +296,7 @@ const Heading = () => {
 ```
 
 - Add a render function
-- Change the curly braces to parentheses or add a return statement before the h1 tag. <<<<<-- Correct Maybe
+- Change the curly braces to parentheses or add a return statement before the h1 tag. <<<<<-- Correct
 - Move the h1 to another component.
 - Surround the h1 in a div.
 
@@ -317,7 +317,7 @@ const Heading = () => {
 #### Q32. In which lifecycle method do you make requests for data in a class component?
 
 - constructor
-- componentDidMount <<<<<--CORRECT (not sure)
+- componentDidMount <<<<<--CORRECT 
 - componentWillReceiveProps
 - componentWillMount
 
@@ -342,19 +342,8 @@ const Heading = () => {
 - to call a function
 - to bind the function
 
-#### Q36. What do you call the message wrapped in curly braces below?
 
-```javascript
-const message = "Hi there";
-const element = <p>{message}</p>
-```
-
-- a JS element
-- a JS expression
-- a JS function
-- a JSX wrapper
-
-#### Q37. What is `[e.target.id]` called in the following code snippet?
+#### Q36. What is `[e.target.id]` called in the following code snippet?
 
 ```javascript
 handleChange(e) {
@@ -367,7 +356,7 @@ handleChange(e) {
 - a dynamic key <<<<<--CORRECT
 - a JSX code string
 
-#### Q38. What is the name of this component?
+#### Q37. What is the name of this component?
 
 ```
 class Clock extends React.Component {
@@ -377,23 +366,64 @@ class Clock extends React.Component {
   }
 ```
 
-- Clock
+- Clock <<<<<--CORRECT
 - It does not have a name prop.
 - React.Component
 - Component
 
-#### Q39. What is sent to an Array.map() function?
+#### Q38. What is sent to an Array.map() function?
 
-- a callback function that is called once for each element in the array
+- a callback function that is called once for each element in the array <<<<<--CORRECT
 - the name of another array to iterate over
 - the number of times you want to call the function
 - a string describing what the function should do
 
 
-#### Q40. Why is it a good idea to pass a function to setState instead of an object?
+#### Q39. Why is it a good idea to pass a function to setState instead of an object?
 
 - It is more functional than an object
 - It makes sure that the object is not mutated
 - It automatically updates a component
-- setState is asynchronous and might result in out of sync values.
+- setState is asynchronous and might result in out of sync values. <<<<<--CORRECT
 
+#### Q40. What package contains the render() function that renders a React element tree to the DOM?
+
+- `React` 
+- `ReactDOM`  <<<<<--CORRECT
+- `Render`
+- `DOM`
+
+#### Q41. How do you set a default value for an uncontrolled form field?
+
+- Use the `value` property
+- Use the `defaultValue` property  <<<<<--CORRECT
+- Use the `default` property
+- It assigns one automatically
+
+#### Q42. What do you need to change about this code to get it to run?
+```js
+class clock extends React.Component {
+	render() {
+		return <h1>Look at the time: {this.props.time}</h1>;
+	}
+}
+```
+
+- Add quotes around the return value
+- Remove `this`
+- Remove the render method
+- Capitalize `clock`  <<<<<--CORRECT (In JSX, lower-case tag names are considered to be HTML tags. Read [this article](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components))
+
+#### Q43. Which Hook could be used to update the document's title?
+
+- `useEffect(function updateTitle() { document.title = name + ' ' + lastname; });`  <<<<<--CORRECT
+- `useEffect(() => { title = name + ' ' + lastname; });`
+- `useEffect(function updateTitle() { name + ' ' + lastname; });`
+- `useEffect(function updateTitle() { title = name + ' ' + lastname; });`
+
+#### Q44. What can you use to wrap Component imports in order to load them lazily?
+
+- `React.fallback`
+- `React.split`
+- `React.lazy` <<<<<--CORRECT
+- `React.memo`

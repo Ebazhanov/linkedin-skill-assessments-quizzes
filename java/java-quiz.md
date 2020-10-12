@@ -7,11 +7,13 @@ Java Assessment
 - awb
 - traw
 
+Reasoning: The substring method is accepting two arugments. The first argument being the index to start(includes that char at 2) and the second the index of the string to end the substring(excludes the char at 5). Strings in Java are like arrays of chars. Therefore the method will return "raw" as those are the chars in indexs 2,3, and 4. You can also take the ending index and subtract the beginning index from it, to determine how many chars will be included in the substring (5-2=3).
+
 #### Q2. How can you achieve runtime polymorphism in Java?
-- method overloading 
-- method overrunning 
+- method overloading
+- method overrunning
 - method overriding <<<<--- Correct
-- method calling 
+- method calling
 
 #### Q3. Given the following definitions, which of these expression will NOT evaluate to true?
 `boolean b1 = true, b2 = false;
@@ -79,7 +81,7 @@ System.out.println(str);
 4:   }
 5:   static Exception print(int i){
 6:       if (i>0) {
-7:          return new Exception();      
+7:          return new Exception();
 8:       } else {
 9:          throw new RuntimeException();
 10:      }
@@ -89,7 +91,7 @@ System.out.println(str);
 - It will show a stack trace with a runtime exception.
 - "java.lang.Exception" <<<<---Correct
 - It will run and throw an exception.
-- It will not compile. <--- Correct
+- It will not compile.
 
 #### Q9. Which class can compile given these declarations?
 ```
@@ -102,30 +104,30 @@ System.out.println(str);
 7:          System.out.println(""One"");
 8:      }   }
 ```
-- 
+-
 ```
   class Three implements One, Two {
     publc void method() {
         super.One.method();
   } }
 ```
-- 
+-
 ```
   class Three implements One, Two {
     publc void method() {
         One.method();
   } }
 ```
-- 
+-
 ```
 class Three implements One, Two {
 }
 ```
-- 
+-
 ```
   class Three implements One, Two { <------ correct
     publc void method() {
-        One.super.method(); 
+        One.super.method();
   } }
 ```
 
@@ -170,9 +172,9 @@ public class Math {
 7: }
 ```
 - Lines 1 and 2 generate compiler erros due to class name conflicts.
-- "-123" <--- Correct
+- "-123" 
 - It will throw an exception on line 5.
-- "123"
+- "123" <--- Correct // The answer is "123". The abs() method evaluates to the one inside mypackage.Math class.
 
 #### Q12. What is the result of this code?
 ```
@@ -224,6 +226,8 @@ class Main {
 - a negative integer value
 - "12345100000"
 
+Reasoning: The int type in Java can be used to represent any whole number from -2147483648 to 2147483647. Therefore this code will not compile as the number assigned to 'a' is larger than the int type can hold. 
+
 #### Q15. What is the output of this code?
 ```
 class Main {
@@ -246,57 +250,57 @@ String n = m.substring(6,12) + m.substring(12,6);
 System.out.println(n);
 ```
 
-#### Q17. How do you write a foreach loop that will iterate over ArrayList\<Pencil\>pencilCase?
+#### Q16. How do you write a foreach loop that will iterate over ArrayList\<Pencil\>pencilCase?
 ```
 for(Pencil pencil = pencilCase){}
 Iterator iterator = pencilCase.iterator();
 for(){iterator.hasNext()}{}
 ```
 
-#### Q18. Fill in the blanks?
+#### Q17. Fill in the blanks?
 - Object-oriented programming (OOP) is a programming language model that organizes software design around (objects), rather than (actions).
 
-#### Q19. What code would you use to tell if "schwifty" is of type String?
+#### Q18. What code would you use to tell if "schwifty" is of type String?
 - "schwifty".getType() == String
 - "schwifty".getClass().getsimpleName() == "String"
 - "schwifty".getType().equals("String")
 - "schwifty" instanceof String <<<<---Correct
 
-#### Q20. Correct output of `"apple".compareTo("banana")`
+#### Q19. Correct output of `"apple".compareTo("banana")`
 - 0
 - positive number
 - negative number <<<<---Correct
 - compilation error
 
-#### Q21. You have an ArrayList of names that you want to sort alphabetically. Which approach would NOT work?
+#### Q20. You have an ArrayList of names that you want to sort alphabetically. Which approach would NOT work?
 - names.sort(Comparator.comparing(String::toString))
 - Collections.sort(names)
-- names.sort(List.DESCENDING)
+- names.sort(List.DESCENDING) <<<--- Correct (not too sure)
 - names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())
 
-#### Q22. By implementing encapsulation, you cannot directly access the class's _____ properties unless you are writing code inside the class itself.
+#### Q21. By implementing encapsulation, you cannot directly access the class's _____ properties unless you are writing code inside the class itself.
 - private <<<<---Correct
 - protected
 - no-modifier
 - public
 
-#### Q23. Which is the most up-to-date way to instantiate the current date?
+#### Q22. Which is the most up-to-date way to instantiate the current date?
 - new SimpleDateFormat("yyyy-MM-dd").format(new Date())
 - new Date(System.currentTimeMillis())
 - LocalDate.now()
-- Calender.getInstance().getTime()
+- Calender.getInstance().getTime() <<<<--- Correct
 
-#### Q24. Fill in the blank to create a piece of code that will tell wether int0 is divisible by 5:
-'''
+#### Q23. Fill in the blank to create a piece of code that will tell wether int0 is divisible by 5:
+```
 boolean isDivisibleBy5 = _____
-'''
+```
 - int0 / 5 ? true: false
 - int0 % 5 == 0 <<<<---Correct
 - int0 % 5 != 5
 - Math.isDivisible(int0, 5)
 
-#### Q25. How many time will this code print "Hello World!"?
-'''
+#### Q24. How many time will this code print "Hello World!"?
+```
 Class Main {
     public static void main(String[] args){
         for (int i=0; i<10; i=i++){
@@ -305,20 +309,20 @@ Class Main {
         }
     }
 }
-'''
+```
 - 10 times
 - 9 times
 - 5 times <<<<---Correct
 - infinite number of times
 
-#### Q26. The runtime system starts your program by calling which function first?
+#### Q25. The runtime system starts your program by calling which function first?
 - print
 - iterative
 - hello
 - main <<<<---Correct
 
-#### Q27. What is the result of this code?
-'''
+#### Q26. What is the result of this code?
+```
 try{
     System.out.print("Hello World");
 }catch(Exception e){
@@ -328,14 +332,55 @@ try{
 }finally{
     System.out.println("!")
 }
-'''
+```
 - It will throw a runtime exception
-- It will not compile
-- Hello World! <<<<---Correct
+- It will not compile <<<<---Correct
+- Hello World!
 - Hello World
 
-#### Q28. Which statement is NOT true?
+#### Q27. Which statement is NOT true?
 - An anonymous class may specify an abstract base class as its base type.
 - An anonymous class does not require a zero-argument constructor. <<<<---Correct
 - An anonymous class may specify an interface as its base type.
 - An anonymous class may specify both an abstract class and interface as base types
+
+#### Q28. What will this program print out to the console when executed?
+```
+public class Main {
+    public static void main(String[] args){
+       LinkedList<Integer> list = new LinkedList<>();
+       list.add(5);
+       list.add(1);
+       list.add(10);
+       System.out.println(list);
+    }
+}
+```
+
+- [5, 1, 10] <<<<---Correct
+- [10, 5, 1]
+- [1, 5, 10]
+- [10, 1, 5]
+
+#### Q29. What is the output of this code?
+```
+class Main {
+    public static void main(String[] args){
+       String message = "Hello";
+       for (int i = 0; i<message.length(); i++){
+          System.out.print(message.charAt(i+1));
+       }
+    }
+}    
+```
+
+- "Hello" 
+- A runtime exception is thrown. <<<<---Correct
+- The code does not compile.
+- "ello" 
+
+#### Q30. Object-oriented programming is a style of programming where you organize your program around ____ rather than ____ and data rather than logic.
+- [ ] functions; actions
+- [ ] objects; actions
+- [ ] actions; functions
+- [ ] actions; objects

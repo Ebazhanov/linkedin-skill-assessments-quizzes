@@ -1,13 +1,13 @@
-name: Greetings
-
-on: [pull_request, issues]
-
+# https://github.com/marketplace/actions/auto-message-for-pr-s-and-issues
+name: Auto message for PR's and Issues
+on: [pull_request_target, issues]
 jobs:
   greeting:
+    name: Hello new contributor
     runs-on: ubuntu-latest
     steps:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        pr-message: 'Hello @${{ github.actor }} , thank you for submitting a pull request!'
-        issue-message: 'Hello @${{ github.actor }} , thank you for submitting an issue!'
+        pr-message: 'Hello @${{ github.actor }} , thank you for submitting a pull request, we appreciate it a lot! If you feel this repository helped you to achieve your goals, warm us with a cup of :coffee:.  🙂'
+        issue-message: 'Hello @${{ github.actor }} , thank you for submitting an issue! 👍 We highly appreciate if you work on it as well.'

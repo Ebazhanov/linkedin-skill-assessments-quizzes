@@ -238,3 +238,91 @@
 - [ ] modulus
 - [ ] average
 - [x] median
+
+#### Q35. Which format setting does not change the background appearance of a cell?
+- [ ] Cell style
+- [ ] Fill color
+- [ ] Pattern style
+- [ ] Font color
+
+#### Q36. In Excel, what do most formulas begin with?
+- [ ] :
+- [x] =
+- [ ] (
+- [ ] *
+
+#### Q38. You need to determine the commission earned by each Sales Rep, based on the Sales amounts in B3:B50 and the Commission rate specified in cell A1. You want to enter a formula in C3 and copy it down to C50. Which formula should you use?
+
+|| A      | B | C |
+|---------| --------- |  ------ |------|
+|1|8.5% |2018 Commission||
+|2|Sales Rep|2018 Sales|Comenion Earned|
+|3|Jordan Hinton|$123,938.00||
+|4|Lilah Douglas|5594,810.00||
+|5|Karyn Reese|$235,954.00||
+|6|Chiquita Walsh|$684,760.00||
+
+- [ ] =$A1*B3
+- [x] =$A$1*B3
+- [ ] =A1*$B3
+- [ ] =A1*B3
+
+#### Q39. If you start a date series by dragging down the fill handle of a single cell that contains the date 12/1/19, what will you get?
+- [ ] a series of consecutive days following the initial date
+- [ ] a series of days exactly one month apart
+- [ ] a series of days identical to the initial date
+- [ ] a series of days exactly one year apart
+
+#### Q40. To discover how many cells in a range contain values that meet a single criterion, use the ___function.
+- [ ] COUNT
+- [ ] SUMIFS
+- [ ] COUNTA
+- [ ] COUNTIE
+
+#### Q41. Of these four chart types, which works best for summarizing time-based data?
+- [ ] pie chart
+- [ ] XY scatter chart
+- [ ] bar chart
+- [x] line chart
+
+#### Q42. Your worksheet has the value 27 in cell B3. What value is returned by the function =MOD (B3,6)?
+- [ ] 4
+- [ ] 1
+- [ ] 5
+- [x] 3
+
+#### Q43. For an IF function to check whether cell B3 contains a value between 15 and 20 inclusively, what condition should you use?
+- [ ] OR(B3=>15,B3<=20)
+- [x] AND (B3>=15,B3<=20)
+- [ ] OR(B3>15,B3<20)
+- [ ] AND(B3>15, B3<20)
+
+#### Q44. Which of these functions returns the largest value within the range H2:H30?
+- [ ] =MAXIMUM (H2:H30)
+- [x] =MAX(H2:H30)
+- [ ] =LARGE (H2:H30, 29)
+- [ ] =UPPER(H2:H30,1)
+
+#### Q45. Which format setting does not change the background appearance of a cell?
+- [ ] Fill color
+- [x] Font Color
+- [ ] Pattern Style
+- [ ] Cell Style
+
+#### Q46. The charts below are based on the data in cells a3:g5. The chart on the right was created by copying the one on the left. Which ribbon button was clicked to change the layout of the chart on the right (missing answers)?
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+
+#### Q47. Cell A20 displays an orange background when its value is 5. Changing the value to 6 changes the background color to green. What type of formatting is applied to cell A20?
+- [ ] Value Formatting
+- [ ] Cell Style Formatting
+- [x] Conditional Formatting
+- [ ] Tabular format
+
+#### Q48. What does this formula do? =Sum(Sheet1:Sheet4!D18)
+- [ ] It adds data from cell D18 of Sheet1 and cell D18 of Sheet4
+- [ ] It adds data from cell A1 of Sheet1 and cell D18 of sheet4
+- [ ] It adds all data in the range A1:D18 in Sheet1, Sheet2, Sheet3 and Sheet4
+- [x] It adds data from all D18 cells in Sheet1, Sheet2, Sheet3 and 4

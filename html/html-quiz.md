@@ -46,8 +46,8 @@
 
 - [ ] `<button><input><form>`
 - [ ] `<input><label><meter>`
-- [x] `<input><option><textarea>`
-- [ ] `<li><input><option>`
+- [ ] `<input><option><textarea>`
+- [x] `<li><input><option>`
   
 #### Q8. What should fill the two blanks in the HTML code below?
 
@@ -62,11 +62,11 @@
 </address>
 ```
 
-- [ ]  `itemscope` `itemtype="http://schema.org/PostalAddress"`
+- [x]  `itemscope` `itemtype="http://schema.org/PostalAddress"`
   
 - [ ]  `itemsref="http://schema.org/PostalAddress"` `itemid="address"`
   
-- [x]  `itemscope` `itemref="http://schema.org/PostalAddress"`
+- [ ]  `itemscope` `itemref="http://schema.org/PostalAddress"`
   
 - [ ]  `itemid="address"` `itemtype="http://schema.org/PostalAddress"`
 
@@ -91,36 +91,37 @@
 - [ ] spellcheck
 
 #### Q12. What is the best way to code the sample shown?
+![Sample](https://i.ibb.co/HVwStTZ/sample.png)
 
--   
+- [ ] `-`
+```
+<details>
+   <summary>Parmesan Deviled Eggs</summary>
+   <p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
+</details>
+```
+
+- [ ] `-`
+```
+<h4>▸ Parmesan Deviled Eggs</h4>
+<p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
+```
+
+- [X] `-`
 ```
 <details open>
-    <summary>Parmesan Deviled Eggs</summary>
-    <p>These delectable little bites are made with organic eggs, ...</p>
+   <summary>Parmesan Deviled Eggs</summary>
+   <p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
 </details>
 ```
--  
+- [ ] `-`
 ```
 <details>
-    <h4>Parmesan Deviled Eggs</h4>
-    <p>These delectable little bites are made with organic eggs, ...</p>
-</details>
+	<h4>▸ Parmesan Deviled Eggs</h4>
+	<p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
+</details>	
 ```
 
-- 
-```
-  <h4>Parmesan Deviled Eggs</h4>
-    <p>These delectable little bites are made with organic eggs, ...</p>
-```
-^^ CORRECT ^^
-
--   
-```
-<details>
-    <summary>Parmesan Deviled Eggs</summary>
-    <p>These delectable little bites are made with organic eggs, ...</p>
-</details>
-```
 
 #### Q13. What is the purpose of the `<samp>` element?
 
@@ -131,18 +132,18 @@
 
 #### Q14. When should you use `<ol>` and `<ul>` elements?
 
-- [ ] Use `<ul>` when you want a bulleted list and `<ol>` when you want a numbered list.
+- [x] Use `<ul>` when you want a bulleted list and `<ol>` when you want a numbered list.
 - [ ] Use `<ul>` when you have a list of items in which the order of the items matters. Use `<ol>` when you have a list of items that
 could go in any order.
 - [ ] Use `<ol>` when you want a bulleted list and `<ul>` when you want a numbered list.
-- [x] Use `<ol>` when you have a list of items in which the order of the items matters.
+- [ ] Use `<ol>` when you have a list of items in which the order of the items matters.
 
 #### Q15. What is the difference between the post and get methods in a form?
 
 - [ ] post is used for sending information to the server. get is used for retrieving form information from the server.
 - [ ] get is used for sending information to the server. post is used for retrieving form information from the server.
-- [x] With get, data is included in the form body when send to the server. With post, the data goes through the URL
-- [ ] With post, data is included in the form body when send to the server. With get, the data goes through the URL
+- [ ] With get, data is included in the form body when send to the server. With post, the data goes through the URL
+- [x] With post, data is included in the form body when send to the server. With get, the data goes through the URL
 
 #### Q16. What is the difference between the `<div>` and `<span>` tags?
 
@@ -163,27 +164,25 @@ could go in any order.
 
 #### Q18. What is the correct markup for tha alt attribute of an image?
 
--  
+- [ ] `-`  
 ```
 js
   <img src="cubism.jpg"
    alt="Version of ""Whistler's Mother"" in cubist style">
 ```  
--  
+- [ ] `-`  
 ```
 js
   <img src="cubism.jpg"
     alt="Version of "Whistler's Mother" in cubist style">
 ``` 
--  
+- [X] `-`
 ```
 js
    <img src="cubism.jpg"
      alt='Version of "Whistler\'s Mother" in cubist style'> 
 ``` 
-^^ CORRECT (NOT SURE) ^^
-
-- 
+- [ ] `-`
 ```
 js
    <img src="cubism.jpg"
@@ -233,7 +232,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q23. What is the best way to code three choices within a form so that the user can select only one item?
 
-- 
+- [ ] `-`
 ```
 <label for="example">Make a choice:</label>
 <datalist id="example">
@@ -243,7 +242,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </datalist>
 ```
 
-- 
+- [ ] `-`
 ```
 <p>Make a choice:</p>
 <input id="choices" name="example" />
@@ -255,7 +254,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </datalist>
 ```
 
-- 
+- [ ] `-`
 ```
 <label for="example">Make a choice:</label>
 <input list="example" id="choices" name="choices" />
@@ -267,7 +266,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </datalist>
 ```
 
-- 
+- [X] `-`
 ```
 <label for="example">Make a choice:</label>
 <input list="choices" id="example" name="example" />
@@ -278,7 +277,6 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 	<option value="Choice 3">
 </datalist>
 ```
-^^ CORRECT ^^
 
 #### Q24. How do you confirm that a document is written in HTML5?
 
@@ -304,7 +302,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
   
 #### Q26. What code will produce the table shown below?
 
-- 
+- [ ] `-`
 ```
 <table>
 	<scope cols="2" style="background-color: yellow">
@@ -321,7 +319,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </table>
 ```
 
-- 
+- [X] `-`
 ```
 <table>
 	<colgroup span="2" style="background-color: yellow">
@@ -337,9 +335,8 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 	</tr>
 </table>
 ```
-^^ CORRECT ^^
 
-- 
+- [ ] `-`
 ```
 <table>
 	<group cols="2" style="background-color: yellow">
@@ -356,10 +353,10 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </table>
 ```
 
-- 
+- [ ] `-`
 ```
 <table>
-	<columns colspqn="2" style="background-color: yellow">
+	<columns colspan="2" style="background-color: yellow">
 	<tr>
 		<th>Col 1</th>
 		<th>Col 2</th>
@@ -376,8 +373,8 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 #### Q27. What is the `<hr>`tag typically used for?
 
 - [ ] This tag is depreciated and should not be used.
-- [x] It designates a topic shift within a section at the paragraph level.
-- [ ] It draws a horizontal line.
+- [ ] It designates a topic shift within a section at the paragraph level.
+- [x] It draws a horizontal line.
 - [ ] It designates a shift of topic at the section level.
 
 #### Q28. What should fill the two blanks in the HTML code below?
@@ -398,26 +395,26 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q29. Which HTML snippet links back to the very top of a webpage?
 
-- 
+- [X] `-`
 ```
 <a id="top"></a> <!-- placed at the top of the page -->  
 <a href="#top">back to top</a>
 ```
 ^^ CORRECT ^^
 
-- 
+- [ ] `-`
 ```
 <a name="top"></a> <!-- placed at the top of the page -->  
 <a href="#top">back to top</a>
 ```
 
-- 
+- [ ] `-`
 ```
 <a href="#">back to top</a>  
 <a href="#top">back to top</a>
 ```
 
-- 
+- [ ] `-`
 ```
 <button href="#">back to top</button>  
 <button href="#top">back to top</button>
@@ -425,29 +422,28 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q30. Which three tags where deprecated in HTML4 but returned to HTML5?
 
-- 
+- [X] `-`
 ```
 <rb>
 <rp>
 <rt>
 ```
-^^ CORRECT ^^
 
-- 
+- [ ] `-`
 ```
 <acronym>
 <code>
 <wbr>
 ```
 
-- 
+- [ ] `-`
 ```
 <hgroup>
 <q>
 <wbr>
 ```
 
-- 
+- [ ] `-`
 ```
 <b>
 <i>
@@ -456,26 +452,25 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 #### Q31. The "______"tag is used for marking up a short code snippet, while the ______ tag is used for marking up a longer block of code.
 
-- 
+- [ ] `-`
 ```
 "<kdb>";
 <pre>
 ```
 
-- 
+- [ ] `-`
 ```
 "<pre>";
 <code>
 ```
 
-- 
+- [ ] `-`
 ```
 "<kdb>";
 <mark>
 ```
-^^ CORRECT ^^
 
-- 
+- [X] `-`
 ```
 "<code>";
 <pre>
@@ -495,36 +490,173 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] _new
 - [ ] _parent
 
-#### Q34. What is the best way to code the sample shown?
-![Sample](https://i.ibb.co/HVwStTZ/sample.png)
+#### Q34. What is the most semantically accurate way to mark up this sentence?
+We are fond of our TLAs in web design.
+- [ ]<p> We are fond of our <span title='three-letter acronyms'>TLAs</span> in web design</p>
+- [ ]<p>We are fond of our TLAs in web design</p>
+- [ ]<p>we are fond of our <abbr title='three-letter acronyms'>TLAs</abbr> in web design</p>
+- [ ]<p> we are fond of our <acronym title='three-letter acronym'TLAs</acronym> in web design</p>
 
-- 
+#### Q35. What is the correctly nested markup for this list?
+-Office
+  --Staple
+  --Paper
+-Groceries
+  --Milk
+
+<ul>
+<li>office
+	<ol style=circle>
+		<li>staple</li>
+		<li>paper</li>
+	</ol>
+</li>
+<li>groceries
+<ol style=circle>
+<li>milk</li>
+</ol>
+</li>
+</ul>
+
+------------------- correct:
+<ul>
+	<li>office
+	<ul>
+		<li>staple</li>
+		<li>paper</li>
+	</ul>
+	</li>
+	<li>groceries
+	<ul>
+		<li>milk</li>
+	</ul>
+	</li>
+	</ul>
+
+-----------------
+
+<ul>
+<li> office</li>
+<li>staple</li>
+<li>paper</li>
+<li>groceries</li>
+<li>milk</li>
+</ul>
+----------------
+
+
+#### Q36. What code will produce this table?
+
+| col1 (yellow)   | col2 (yellow) |  col3 |
+|----------|-------------|------|
+| first (yellow)|  second (yellow)| third |
+
+- [ ] `-`
 ```
-<details>
-   <summary>Parmesan Deviled Eggs</summary>
-   <p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
-</details>
+<table>
+<group cols=2 style='background-color:yellow'>
+<tr scope=row>
+<th>col1</th>
+<th>col2</th>
+<th>col3</th>
+</tr>
+<tr scope=row>
+<td>first</td>
+<td>second</td>
+<td>third</td>
+</tr>
+</table>
 ```
 
-- 
+- [ ] `-`
 ```
-<h4>▸ Parmesan Deviled Eggs</h4>
-<p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
+<table>
+<columns colspan=2 style=background-color:yellow>
+<tr>
+<th>col1</th>
+<th>col2</th>
+<th>col3</th>
+</tr>
+<tr>
+<td>first</td>
+<td>second</td>
+<td>third</td>
+</tr>
+</table>
 ```
 
-- 
+- [X] `-`
 ```
-<details open>
-   <summary>Parmesan Deviled Eggs</summary>
-   <p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
-</details>
+<table>
+<colgroup span=2 style=background-color:yellow>
+<tr>
+<th>col1</th>
+<th>col2</th>
+<th>col3</th>
+</tr>
+<tr>
+<td>first</td>
+<td>second</td>
+<td>third</td>
+</tr>
+</table>
 ```
-^^ CORRECT ^^
 
-- 
+#### Q37. What should fill the blank below?
+```html
+<link href="phone.css" rel="stylesheet" _____ ="print">
 ```
-<details>
-	<h4>▸ Parmesan Deviled Eggs</h4>
-	<p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
-</details>	
+- [ ] title
+- [ ] type
+- [ ] device
+- [x] media
+
+
+#### Q38. What is the semantically correct way to mark up this layout?
+
+![q38](images/q38.png?raw=true "q38")
+
+- [ ] .
+```html
+<p>"Making money is what you have to do to sustain a business—being driven to make something of value and purpose is much more powerful."</p>
+<p><em>Lynda Weinman</em></p>
 ```
+
+- [ ] .
+```html
+<blockquote>
+   <q>"Making money is what you have to do to sustain a business—being driven to make something of value and purpose is much more powerful."</q>
+   <cite><em>Lynda Weinman</em></cite>
+</blockquote>
+```
+
+- [ ] .
+```html
+<blockquote>
+   <p>"Making money is what you have to do to sustain a business—being driven to make something of value and purpose is much more powerful."</p>
+   <cite>Lynda Weinman</cite>
+</blockquote>
+```
+
+- [ ] .
+```html
+<section>
+   <q>"Making money is what you have to do to sustain a business—being driven to make something of value and purpose is much more powerful."</q>
+   <cite>Lynda Weinman</cite>
+</section>
+```
+
+
+#### Q39. `Which choice uses the correct terminology in describing this markup: <p>info</p> ?`
+- [ ] `The element opener is <p>, the element closer is </p>, and the element information is info.`
+- [ ] `The start tag is <p>, the end tag is </p>, and the enclosed HTML is info. `
+- [x] `The start tag is <p>, the end tag is </p>, and the element content is info.`
+- [ ] `The start element is <p>, the end element is </p>, and the tag content is info.`
+
+
+#### Q40. `What is the difference between <input type="submit" value="click me"> and <button type="submit">Click me</button> ?`
+- [ ] `There is no difference. Both will render a button that submits a form.`
+- [x] `Both will submit a form. However, the <button> can have content other than text, like an image or nested HTML elements, while the <input> cannot.`
+- [ ] `<input type="button"> has been deprecated in HTML5. You should use the <button> tag instead.`
+- [ ] `Both will submit a form. However, the <input> can have content other than text, like an image or nested HTML elements, while the <button> cannot.`
+

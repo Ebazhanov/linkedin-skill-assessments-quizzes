@@ -4,16 +4,16 @@
 #### Q1. Which answer is NOT a type of table index?
 
 - [ ] nonclustered
-- [x] unique
-- [ ] heap
+- [ ] unique
+- [x] heap
 - [ ] hash
 
 #### Q2. The keywords AND, IN, LIKE, and between all belong to a category called what? 
 
 - [ ] joining operations
-- [x] linking operations
+- [ ] linking operations
 - [ ] criteria operations
-- [ ] logical operations
+- [x] logical operations
 
 #### Q3. What is the result of this series of statements?
 
@@ -74,7 +74,7 @@ SELECT @UniqueID AS Result;
 
 #### Q8. You need to find all students that are not on the "Chemistry Cats" team. Which query does NOT work for this task?
 
-- [ ] SELECT * FROM Students
+- [x] SELECT * FROM Students
       WHERE team NOT 'Chemistry Cats';
 
 - [ ] SELECT * FROM Students
@@ -83,14 +83,14 @@ SELECT @UniqueID AS Result;
 - [ ] SELECT * FROM Students
       WHERE team != 'Chemistry Cats';
 
-- [x] SELECT * FROM Students
+- [ ] SELECT * FROM Students
       WHERE NOT team = 'Chemistry Cats';
 
 #### Q9. You need to write a query that returns all Employees that have a LastName starting with the letter A. Which WHERE clause should you use to fill in the blank in this query? 
 
 - [ ] WHERE LastName = A*
 - [ ] WHERE LastName = LIKE '%A%'
-- [x] WHERE LastName LIKE 'A%
+- [x] WHERE LastName LIKE 'A%'
 - [ ] WHERE LastName IN ('A*')
 
 #### Q10. Which query shows the first name, department, and team of all students with the two lowest points?
@@ -111,10 +111,10 @@ SELECT FLOOR(-1234.321)
 
 #### Q12. Which is the best approach to update the last name of the student Donette Figgins to Smith
 
-- [x] UPDATE Students SET last_name = 'Smith' WHERE email = 'dfiggins@rouxacademy.com';
+- [ ] UPDATE Students SET last_name = 'Smith' WHERE email = 'dfiggins@rouxacademy.com';
 - [ ] UPDATE Students SET last_name = 'Figgins' WHERE email = 'dfiggins@rouxacademy.com';
 - [ ] UPDATE Students SET last_name = 'Figgins' WHERE last_name = 'Smith' AND first-name = 'Donette';
-- [ ] UPDATE Students SET last_name = 'Smith' WHERE last_name = 'Figgins' AND first-name = 'Donette';
+- [x] UPDATE Students SET last_name = 'Smith' WHERE last_name = 'Figgins' AND first-name = 'Donette';
 
 #### Q13. Which of these data types is an approximate numeric?
 
@@ -156,9 +156,9 @@ def' AS Result;
 
 #### Q18. To select a random student from the table, which statement could you use?
 
-- [x] SELECT TOP(1) first_name, last_name FROM Students ORDER BY NEWID();
+- [ ] SELECT TOP(1) first_name, last_name FROM Students ORDER BY NEWID();
 - [ ] SELECT TOP(1) RAND(first_name, last_name) FROM Student;
-- [ ] SELECT TOP(1) first_name, last_name FROM Student;
+- [x] SELECT TOP(1) first_name, last_name FROM Student;
 - [ ] SELECT TOP(1) first_name, last_name FROM RAND(Student);
 
 #### Q19. What result is returned after executing the following commands?
@@ -186,3 +186,74 @@ def' AS Result;
 - [x] 20
 - [ ] 0
 - [ ] 9
+
+#### Q22. You need to write a query that returns all products that have a SerialNumber ending with "10_3". Which WHERE clause should you use to fill in the blank in this query?
+
+```
+SELECT ProductID, ProductName, SerialNumber
+FROM Products
+______ ;
+```
+
+- [x] `WHERE SerialNumer LIKE '%10_3'`
+- [ ] `WHERE SerialNumer LIKE ('%10'+'_'+'3')`
+- [ ] `WHERE SerialNumer LIKE '%10"_"3'`
+- [ ] `WHERE SerialNumer LIKE '%10[_]3'`
+
+#### Q23. When no join type between multiple tables in a query's FROM clause is specified, what type of join is assumed?
+
+- [x] INNER
+- [ ] RIGHT
+- [ ] LEFT
+- [ ] FULL
+
+#### Q24. How many bytes of storage does the int data type consume?
+
+- [ ] 1 byte
+- [ ] 2 bytes
+- [x] 4 bytes
+- [ ] 8 bytes
+
+#### Q25. What does a RIGHT JOIN ensure?
+- [ ] that only records from the rightmost table will be displayed
+- [ ] that no records from the rightmost table are displayed if the records dont have corresponding records in the left table
+- [ ] that records from the rightmost table will be displayed only if the records have a corresponding value in the leftmost table
+- [x] that all records from the rightmost table are represented in the result, even if there are no corresponding records in the left table
+
+#### Q26. You execute the following three queries. What is the result?
+Create table students(id int identity(1000,1), firstname varchar(20),
+lastname varchar(30));
+insert into students(firstname,lastname)values('mark','twain');
+select *from students;
+
+- [] 
+  studentid firstname lastname
+1 1001 mark twain
+
+- [] 
+  studentid firstname lastname
+1 1 mark twain
+
+- [x] 
+  studentid firstname lastname
+1 1000 mark twain
+
+- [] 
+  studentid firstname lastname
+1 null mark twain
+
+
+#### Q27. Which Query returns all student names with the highest grade?
+create table students( studentname varchar(50), grade int);
+-[] select studentname from students where grade=max(grade);
+-[] select top(1) studentname from students order by grade;
+-[] select top(1) with ties studentname from students order by grade desc;
+-[x] select studentname,max(grade) from students order by grade desc;
+
+#### Q28. What role does "inventory" play?
+select bookid, boooktitle, bookauthor,quantityonhand from inventory.books;
+
+-[] you only want to see results from books currently in inventory
+-[] it instructs the query engine to find the books table in the inventory schema
+-[x] it instructs the query engine to find the books table in the inventory database
+-[] it instructs the query engine to join the books table to the inventory schema

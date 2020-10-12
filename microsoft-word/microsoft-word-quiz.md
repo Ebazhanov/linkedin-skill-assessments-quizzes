@@ -32,7 +32,7 @@
 #### Q5. You want to set a wider inside margin to accommodate binding a document where pages are printed in both sides. Which option should you choose in the Page Setup dialog box.
 
 - [x] Book Fold.
-- [ ] Different Odd & Even Pages.
+- [ ] Different Odd & Even Pages. <-- Should not this one instead? 
 - [ ] Mirror Margins.
 - [ ] Landscape.
 
@@ -46,8 +46,8 @@
 #### Q7. Where do you select the paper size for a document?
 
 - [ ] Design > Size.
-- [x] File > Page Setup.
-- [ ] Layout > Size.
+- [ ] File > Page Setup.
+- [x] Layout > Size.
 - [ ] Layout > Margins.
 
 #### Q8. Which option lets you mark your favourite templates for quick reuse in the future?
@@ -144,15 +144,15 @@
 #### Q21. You are working on a local copy of a document when Word unexpectedly closes. After you relaunch Word, how can you find the most recently saved version of the document?
 
 - [ ] Click Open > Recent and select Recover Unsaved Documents.
-- [x] Click File > Options > Recover Unsaved Documents.
+- [ ] Click File > Options > Recover Unsaved Documents.
 - [ ] Click File > Open > Recent > Documents.
-- [ ] Click File > Recent > Recover Unsaved Documents.
+- [x] Click File > Recent > Recover Unsaved Documents.
 
 #### Q22. What can you NOT insert into a Word document from the Insert tab?
 
-- [ ] a sketch
+- [x] a sketch
 - [ ] a symbol
-- [x] a 3D model
+- [ ] a 3D model
 - [ ] an equation
 
 #### Q23. What Microsoft Word feature lets you capture a portion of your screen to be used as an image in your document?

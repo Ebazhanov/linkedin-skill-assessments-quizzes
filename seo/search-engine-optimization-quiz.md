@@ -188,12 +188,12 @@ Disallow: *
 
 #### Q21. What is an example of a Google search result that can be found in position zero?
 - Google Ads result
-- featured snippet
+- featured snippet ----------------------------- Correct
 - related searches
 - autocomplete
 
 #### Q22. When creating accessible video content, what should you consider including?
-- transcript------------------------------------ Correct
+- transcript ------------------------------------ Correct
 - thumbnail
 - Flash Player
 - event tracking
@@ -214,7 +214,7 @@ Disallow: *
 - It has no relation to JSON.
 - It is the only structured data format available.
 - It is considered the most complicated approach to adding structured data.
-- It is Google's preferred structured data format.
+- It is Google's preferred structured data format. ---------------------------- Correct
 
 #### Q26. What is a key reason why duplicate content might cause an issue with ranking?
 - It creates an inability to use canonical URLs, which dramatically reduces crawl effectiveness,
@@ -226,13 +226,13 @@ Disallow: *
 - tabindex
 - longdesc
 - src
-- alt
+- alt ----------------------------- Correct
 
 #### Q28. You are researching keywords for a client and creating list for an optimization plan. Which is not a recommended method of creating keyword lists?
 - synonyms and related words
 - queries about benefits, features, problems
 - how-to and question-based queries
-- focusing on only high-volume, high-popularity words
+- focusing on only high-volume, high-popularity words------------------------- Correct
 
 #### Q29. You want to get a rough idea of how many searches per month a particular search term gets. Which tool do you use?
 - Google Keyword Planner------------------------------------ Correct

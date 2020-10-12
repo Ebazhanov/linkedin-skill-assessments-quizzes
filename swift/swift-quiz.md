@@ -159,9 +159,9 @@ names.map { (s) -> String in
   return s.uppercased()  
 }
 ```
-- ["BEAR", "JOE", "CLARK"] <<<<---Correct
+- ["BEAR", "JOE", "CLARK"]
 - ["B", "J", "C"]
-- ["Bear", "Joe", "Clark"]
+- ["Bear", "Joe", "Clark"] <<<<---Correct
 - This code contains an error.
 
 #### Q17. What describes this line of code?
@@ -369,3 +369,34 @@ class LSN : MMM {
 - LSN
 - There is no base class.
 - This code is invalid.
+
+#### Q38. What does this code print to the console? 
+
+```swift
+var userLocation: String = "Home" {
+  willSet(newValue) {
+  print("About to set userLocation to \(newValue)...")
+  }
+
+  didSet {
+  if userLocation != oldValue {
+  print("userLocation updated with new value!")
+  } else {
+  print("userLocation already set to that value...")
+  }
+  }
+ }
+
+ userLocation = "Work"
+```
+
+- About to set userLocation to Work… userLocation updated to new value!
+- About to set userLocation to Work… userLocation already set to that value…
+- About to set userLocation to Home… userLocation updated to new value!
+- ERROR
+
+#### Q39. What must a convenience initializer call?
+- a base class convenience initializer 
+- either a designated or another convenience initializer
+- a designated initializer
+- none of these answers

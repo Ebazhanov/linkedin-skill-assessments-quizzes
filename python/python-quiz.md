@@ -59,7 +59,7 @@ count, fruit, price = (2, 'apple', 3.5)
 - [x] `"O(1)", also called constant time`
 
 #### Q10. What is the correct syntax for defining a class called Game?
-- [x] `class Game: pass` 
+- [x] `class Game: pass`
 - [ ] `def Game(): pass`
 - [ ] `def Game: pass`
 - [ ] `class Game(): pass`
@@ -70,8 +70,8 @@ count, fruit, price = (2, 'apple', 3.5)
 def sum(a, b):
     """
     sum(4, 3)
-    7   
-    
+    7
+
     sum(-4, 5)
     1
     """
@@ -79,11 +79,11 @@ def sum(a, b):
 ```
 - [x] `-`
 ```
-def sum(a, b): 
+def sum(a, b):
     """
     >>> sum(4, 3)
-    7   
-    
+    7
+
     >>> sum(-4, 5)
     1
     """
@@ -94,8 +94,8 @@ def sum(a, b):
 def sum(a, b):
     """
     # >>> sum(4, 3)
-    # 7   
-    
+    # 7
+
     # >>> sum(-4, 5)
     # 1
     """
@@ -106,8 +106,8 @@ def sum(a, b):
 def sum(a, b):
     ###
     >>> sum(4, 3)
-    7   
-    
+    7
+
     >>> sum(-4, 5)
     1
     ###
@@ -132,24 +132,24 @@ return list(enumerate(college_years, 2019)
 
 #### Q14. How does "defaultdict" work?
 - [ ] `"defaultdict" will automatically create a dictionary for you that has keys which are the integers 0-10`
-- [x] `"defaultdict" forces a dictionary to only accept keys that are of the types specified when you created the "defaultdict" (such as string or integers).`
-- [ ] `If you try to access a key in a dictionary that doesn't exist, "defaultdict" will create a new key for you instead of throwing a "KeyError".`
+- [ ] `"defaultdict" forces a dictionary to only accept keys that are of the types specified when you created the "defaultdict" (such as string or integers).`
+- [x] `If you try to access a key in a dictionary that doesn't exist, "defaultdict" will create a new key for you instead of throwing a "KeyError".`
 - [ ] `"defaultdict" stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.`
 
 #### Q15. What is the correct syntax for defining a class called "Game", if it inherits from a parent class called "LogicGame"?
-- [ ] `class Game.LogicGame(): pass`
+- [ ] `class Game.LogicGame(): pass`                 
 - [ ] `def Game(LogicGame): pass`
-- [x] `class Game(LogicGame): pass` 
+- [x] `class Game(LogicGame): pass`
 - [ ] `def Game.LogicGame(): pass`
 
 #### Q16. What is the purpose of the "self" keyword when defining or calling instance methods?
 - [ ] `self means that no other arguments are required to be passed into the method`
 - [ ] `There is no real purpose for the self method; it"s just historic computer science jargona that Python keeps to stay consistent with other programming languages`
-- [x] `self  refers to the instance whose method was called` 
+- [x] `self  refers to the instance whose method was called`
 - [ ] `self refers to the class that was inherited from to create the object using self`
 
 #### Q17. Which of these is NOT a characteristic of namedtuples?
-- [ ] `You can assign a name to each of the namedtuple members and refer to them that way, similarly to how you would access keys in dictionary` 
+- [ ] `You can assign a name to each of the namedtuple members and refer to them that way, similarly to how you would access keys in dictionary`
 - [ ] `Each member of a namedtuple object can be indexed to directly, just like in a regular tuple`
 - [ ] `namedtuples are just as memory efficient as regular tuples`
 - [x] `No import is needed to use namedtuples because they are available in the standard library`
@@ -189,7 +189,7 @@ else:
 ```
 - [x] `-`
 ```
-num_people = 5                           
+num_people = 5
 
 if num_people > 10:
     print("There is a lot of people in the pool.")
@@ -201,7 +201,7 @@ else:
     print("There is no one in the pool.")
 ```
 - [ ] `-`
-```    
+```
 if num_people > 10;
     print("There is a lot of people in the pool.")
 if num_people > 4;
@@ -216,12 +216,12 @@ else:
 - [ ] `It protects the data from outside interference `
 - [ ] `A parent class is encapuslated and no data from the parent class passes on to the child class`
 - [ ] `It keeps data and the methods that can manipulate that data in one place`
-- [x] `It only allows the data to be changed by methods` 
+- [x] `It only allows the data to be changed by methods`
 
 #### Q21. What is the purpose of an if/else statement?
 - [ ] `An if/else statement tells the computer which chunk of code to run if the instructions you coded are incorrect `
 - [ ] `An if/else statement runs one chunk of code if all the imports were succesful, and another chunk of code if the imports were not succesful `
-- [x] `An if/else statement  executes one chunk of code if a condition it true, but a different chunk of code if the condition is false` 
+- [x] `An if/else statement  executes one chunk of code if a condition it true, but a different chunk of code if the condition is false`
 - [ ] `An if/else statement tells the computer which chunk of code to run if the is enough memory to handle it. and which chunk of code to run if there is not enough memory to handle it`
 
 #### Q22. What buit-in Python data type is commonly used to represent a queue?
@@ -233,8 +233,9 @@ else:
 #### Q23. What is the correct syntax for instantiating a new object of the type Game?
 - [ ] `my_game = class.Game()`
 - [ ] `my_game = class(Game)`
-- [x] `my_game = (Game)`
+- [ ] `my_game = Game()`
 - [ ] `my_game = Game.create()`
+- [x] `my_game = Game()`
 
 #### Q24. What does the built-in map() function do?
 - [ ] `It creates a path from multiple values in an iterable to a single value.`
@@ -255,14 +256,14 @@ else:
 - [ ] `It is used to skip the rest of a while or for loop and return to the start of the loop.`
 
 #### Q27. What is the term used to describe items that may be passed into a function?
-- [x] `arguments` 
+- [x] `arguments`
 - [ ] `paradigms`
 - [ ] `attributes`
 - [ ] `decorators`
 
 #### Q28. Which collection type is used to associate values with unique keys?
 - [ ] `slot`
-- [x] `dictionary` 
+- [x] `dictionary`
 - [ ] `queue`
 - [ ] `sorted list`
 
@@ -334,13 +335,13 @@ return output
 - [ ] `The all() function returns a Boolean value that answers the question "Are all the items in this list the same?"`
 - [ ] `The all() function returns True if all the items in the list can be converted to strings. Otherwise, it returns False.`
 - [ ] `The all() function will return all the values in the list.`
-- [x] `The all() function returns True if all items in the list evaluate to True. Otherwise, it returns False.` 
+- [x] `The all() function returns True if all items in the list evaluate to True. Otherwise, it returns False.`
 
 #### Q33. What is the correct syntax for calling an instance method on a class named Game?
 - [x] `-`
 ```
 >>> dice = Game()
->>> dice.roll()  
+>>> dice.roll()
 ```
 - [ ] `-`
 ```
@@ -365,7 +366,7 @@ return output
 - [x] `divide and conquer`
 
 #### Q35. What is runtime complexity of the list's built-in .append() method?
-- [x] `O(1), also called constant time` 
+- [x] `O(1), also called constant time`
 - [ ] `O(log n), also called logarithmic time`
 - [ ] `O(n^2), also called quardratic time`
 - [ ] `O(n), also called linear time`
@@ -392,7 +393,7 @@ def print_alpha_nums(abc_list, num_list):
 
 print_alpha_nums(['a', 'b', 'c'], [1, 2, 3])
 ```
-- [x] `-` 
+- [x] `-`
 ```
 a 1
 a 2
@@ -425,7 +426,7 @@ c 1 2 3
 ```
 
 #### Q39. What is the correct syntax for calling an instance method on a class named Game?
-- [x] `-` 
+- [x] `-`
 ```
 my_game = Game()
 my_game.roll_dice()
@@ -453,9 +454,9 @@ def sum(a, b):
     # a = 1
     # b = 2
     # sum(a, b) = 3
-    
+
     return a + b
-```	
+```
 - [ ] `-`
 ```
 def sum(a, b):
@@ -464,23 +465,22 @@ def sum(a, b):
     b = 2
     sum(a, b) = 3
     """
-    
+
     return a + b
-```	
+```
 - [x] `-`
 ```
-def sum(a, b):  
+def sum(a, b):
     """
     >>> a = 1
     >>> b = 2
     >>> sum(a, b)
     3
     """
-    
+
     return a + b
 ```
 - [ ] `-`
-
 ```
 def sum(a, b):
     '''
@@ -490,3 +490,99 @@ def sum(a, b):
     '''
     return a + b
 ```
+
+#### Q41. Suppose a Game class inherits from two parent classes: BoardGame and LogicGame. Which statement is true about the methods of an object instantiated from the Game class?
+- [ ] `When instantiating an object, the object doesn't inherit any of the parent class's methods.`
+- [ ] `When instantiating an object, the object will inherit the methods of whichever parent class has more methods.`
+- [ ] `When instantiating an object, the programmer must specify which parent class to inherit methods from.`
+- [x] `An instance of the Game class will inherit whatever methods the BoardGame and LogicGame classes have.`
+
+#### Q42. What does calling namedtuple on a collection type return?
+- [ ] `a generic object class with iterable parameter fields`
+- [ ] `a generic object class with non-iterable named fields`
+- [ ] `a tuple subclass with non-iterable parameter fields`
+- [x] `a tuple subclass with iterable named fields`
+
+#### Q43. What symbol(s) do you use to assess equality between two elements?
+- [ ] `&&`
+- [ ] `=`
+- [x] `==`
+- [ ] `||`
+
+#### Q44. Review the code below. What is the correct syntax for changing the price to 1.5?
+fruit_info = {
+'fruit': 'apple',
+ 'count': 2,
+ 'price': 3.5
+}
+- [x] `fruit_info ['price'] = 1.5`
+- [ ] `my_list [3.5] = 1.5`
+- [ ] `1.5 = fruit_info ['price]`
+- [ ] `my_list['price'] == 1.5`
+
+#### Q45. What value would be returned by this check for equality?
+5!=6
+- [ ] `yes`
+- [ ] `False`
+- [x] `True`
+- [ ] `None`
+
+#### Q46. What does a class's __init__() method do?
+- [ ] `The __init_method makes classes aware of each other if more than one class is defined in a single code file.`
+- [ ] `The _init_method is included to preserve backwards compatibility from Python 3 to Python 2, but no longer needs to be used in Python 3.`
+- [x] `The __init__() method is a constructor method that is called automatically whenever a new object is created from a class. It sets the initial state of a new object.`
+- [ ] `The __init__ method initializes any imports you may have included at the top of your file.`
+
+#### Q47. What is meant by the phrase "space complexity"?
+- [ ] `How many microprocessors it would take to run your code in less than one second`
+- [ ] `How many lines of code are in your code file`
+- [x] `The amount of space taken up in memory as a function of the input size`
+- [ ] `How many copies of the code file could fit in 1 GB of memory`
+
+#### Q48. What is the correct syntax for creating a variable that is bound to a dictionary?
+- [x] `fruit_info = {'fruit': 'apple', 'count': 2, 'price': 3.5}`
+- [ ] `fruit_info =('fruit': 'apple', 'count': 2,'price': 3.5 ).dict()`
+- [ ] `fruit_info = ['fruit': 'apple', 'count': 2,'price': 3.5 ].dict()`
+- [ ] `fruit_info = to_dict('fruit': 'apple', 'count': 2, 'price': 3.5)`
+
+#### Q49. What is the proper way to write a list comprehension that represents all the keys in this dictionary?
+fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
+
+- [ ] `fruit_names = [x in fruits.keys() for x]`
+- [ ] `fruit_names = for x in fruits.keys() *`
+- [x] `fruit_names = [x for x in fruits.keys(]`
+- [ ] `fruit_names = x for x in fruits.keys()`
+
+#### Q50. What is the algorithmic paradigm of quick sort?
+- [ ] `backtracking`
+- [x] `divide and conquer`
+- [ ] `dynamic programming`
+- [ ] `decrease and conquer`
+
+#### Q51. What is the purpose of the self keyword when defining or calling methods on an instance of an object?
+- [ ] `self refers to the class that was inherited from to create the object using self.`
+- [ ] `There is no real purpose for the self method. It's just legacy computer science jargon that Python keeps to stay consistent with other programming languages.`
+- [ ] `self means that no other arguments are required to be passed into the method.`
+- [x] `self refers to the instance whose method was called.`
+
+#### Q52. What is a class method?
+- [ ] `A class method is a regular function that belongs to a class, but it must return None.`
+- [x] `Class methods can modify the state of the class, but they can't directly modify the state of an instance that inherits from that class.`
+- [ ] `A class method is similar to a regular function, but a class method doesn't take any arguments.`
+- [ ] `Class methods hold all of the data for a particular class.`
+
+#### Q53. What does it mean for a function to have linear runtime?
+- [ ] You did not use very many advanced computer programming concepts in your code.
+- [ ] The difficulty level your code is written at is not that high.
+- [ ] It will take your program less than half a second to run.
+- [x] The amount of time it takes the function to complete grows linearly as the input size increases.
+
+#### Q54. What is the proper way to define a function?
+- [ ] `def getMaxNum(list_of_nums):
+        # body of function goes here`
+- [ ] `func get_max_num(list_of_nums):
+        # body of function goes here`
+- [ ] `func getMaxNum(list_of_nums):
+        # body of function goes here`
+- [x] `def get_max_num(list_of_nums):
+        # body of function goes here`  [explanation](https://www.python.org/dev/peps/pep-0008/)                      

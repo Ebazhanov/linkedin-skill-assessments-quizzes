@@ -1,5 +1,4 @@
-jQuery Assessment
------------------
+## jQuery Assessment
 
 #### Q1. What's the difference between these two snippets?
 `$('button').on('click', function(){
@@ -258,3 +257,293 @@ function expression.
 - `$('button').click(function() {
         $('input[type=select]').click();
 });`
+
+#### Q16. You have an absolutely positioned element inside a relatively positioned parent element, and you want to animate that element within its parent element. What jQuery function is most useful for finding the initial coordinates of the .animate-me?
+
+```jQuery
+<style>
+	.parent {
+		position: relative;
+		top: 3em;
+		width: 50%;
+		min-height: 50vh;
+		margin: 0 auto;
+	}
+	
+	.animate-me {
+		position: absolute;
+		top: 40px;
+		right: 30px;
+	}
+</style>
+
+<div class="parent">
+	<div class="animate-me">
+		This box will move!
+	</div>
+</div>
+
+```
+
+- `$('.animate-me').offset();`
+- `$('.animate-me').each();`
+- `$('.animate-me').position();`
+- `$('.animate-me').offsetParent();`
+
+#### Q17. You want to work with AJAX using a Promise-like interface instead of nested callback functions. What jQuery API should you use?
+
+- `jQuery.sub`
+- `jQuery.ajaxTransport`
+- `jQuery.Deferred`
+- `jQuery.proxy`
+
+#### Q18. What is tricky about jQuery's nth- filters (:nth-child, :nth-of-type, etc.) relative to other filters?
+
+- Referring to lists of items, they are 1-indexed (like CSS), not 0-indexed (like JavaScript).
+- They don't return the jQuery object, and cannot be chained.
+- They can return the wrong items if the DOM was recently manipulated.
+- They are not part of CSS, so they don't get the performance benefits of passing through the document.querySelectorAll.
+
+#### Q19. jQuery's AJAX functions return objects that implement the Promise API. As a result, you can chain promises and avoid nested callbacks. What does that look like?
+
+- Option 1
+
+```jQuery
+$.get('hhttp://httpbin.org/delay/2')
+	.then(function(response) {
+		// Data from first GET is here as 'response'
+		return $.get('http://httpbin.org/delay/2');
+	})
+	.then(function(response) {
+		// Data from second GET is here as 'response'
+	});
+```
+
+- Option 2
+
+```jQuery
+$.get('hhttp://httpbin.org/delay/2')
+	.catch(function(response) {
+		// Data from first GET is here as 'response'
+		return $.get('http://httpbin.org/delay/2');
+	})
+	.done(function(response) {
+		// Data from second GET is here as 'response'
+	});
+```
+
+- Option 3
+
+```jQuery
+$.get('hhttp://httpbin.org/delay/2', function(response1) {
+	// Data from first GET is here as 'response1'
+	
+	$.get('http://httpbin.org/delay/2', function(response2) {
+		// Data from second GET is here as 'response2'
+	});
+});
+```
+
+- Option 4
+
+```jQuery
+$.get('hhttp://httpbin.org/delay/2')
+	.then(function(response) {
+		// Data from first GET is here as 'response'
+		return response;
+	})
+	.get('http://httpbin.org/delay/2', function(response) {
+		// Data from second GET is here as 'response'
+	});
+```
+
+#### Q20. You want to have a ball that is created from an HTML element (id=ball) move down and to the right of its original location when clicked, and move back to its original place when finished. What snippet, added to the code below, would do this?
+
+```jQuery
+$('#ball').click(function() {
+	// Our code goes here
+});
+```
+
+- Option 1
+
+```jQuery
+$(this).animate({
+	top: '-=100',
+	left: '-=100',
+}, 600, function() {
+	$(this).animate({
+	top:  '+=100',
+	left: '+=100',
+	}, 600)
+});
+```
+
+- Option 2
+
+```jQuery
+$(this).animate({
+	top: '+=100',
+	left: '+=100',
+}, {
+	duration: 600,
+	complete: function() {
+	$(this).animate({
+	top:  '-=100',
+	left: '-=100',
+	}, 600)
+	}
+});
+```
+
+- Option 3
+
+```jQuery
+$(this).animate({
+	top: 100,
+	left: 100,
+}, 600, function() {
+	$(this).animate({
+	top:  0,
+	left: 0,
+	}, 600)
+});
+```
+
+- Option 4
+
+```jQuery
+$(this).animate({
+	top: 100,
+	left: 100,
+}, {
+	duration: 600,
+	complete: function() {
+	$(this).animate({
+	top:  0,
+	left: 0,
+	}, 600)
+	}
+});
+```
+
+#### Q21. The way `.wrap()` works is sometimes missunderstood. Given the DOM and jQuery snippets below, what does the modified DOM snippet look like?
+
+```jQuery
+<div id="container">
+	<div class="item">Here's an item</div>
+</div>
+
+$('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red');
+```
+
+- Option 1
+
+```jQuery
+<div class="wrapper" style="border: 2px solid red;">
+	<div id="container">
+		<div class="item">Here's an item</div>
+	</div>
+</div>
+```
+
+- Option 2
+
+```jQuery
+<div class="wrapper">
+	<div id="container" style="border: 2px solid red;">
+		<div class="item">Here's an item</div>
+	</div>
+</div>
+```
+
+- Option 3
+
+```jQuery
+<div id="container" style="border: 2px solid red;">
+	<div class="wrapper">
+		<div class="item">Here's an item</div>
+	</div>
+</div>
+```
+
+- Option 4
+
+```jQuery
+<div id="container">
+	<div class="wrapper" style="border: 2px solid red;">
+		<div class="item">Here's an item</div>
+	</div>
+</div>
+```
+
+#### Q22. How can you select the following blockquote AND the list in a single call to jQuery() without chaining?
+
+```jQuery
+<div class="quotes">
+	<blockquote data-favorite="false">A quote</blockquote>
+	<blockquote data-favorite="false">A favorite</blockquote>
+	<blockquote data-favorite="false">A quote</blockquote>
+	<blockquote data-favorite="false">A quote</blockquote>
+</div>
+
+<ul class="menu-first">
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
+	<li>Item 4</li>
+</ul>
+```
+
+- `$('.quotes + .menu-first')`
+- `$('.quotes .menu-first')`
+- `$('.quotes, .menu-first')`
+- `$('.quotes' + '.menu-first')`
+
+#### Q23. Given the CSS and HTML code below, how could you apply the success class to the feedback div?
+
+```jQuery
+.succes {
+	colour: green;
+	background: #ddffdd
+}
+
+<div class="feedback">
+	Thank you for answering this survey.
+</div>
+```
+
+- `$('.feedback').hasClass('.success');`
+- `$('.feedback').addClass('.success');`
+- `$.css('.feedback', '.success');`
+- `$('.feedback').css('.success');`
+
+#### Q24. Effects like show, hide, fadIn, and fadeOut can be called with no arguments, but can also take arguments for how long they should last. Which is NOT a duration argument supported by these functions?
+- [ ] "fast"
+- [x] "extreme" <-- Correct
+- [ ] 2000
+- [ ] "slow"
+
+#### Q25. Though jQuery offers visual effects, it is considered a best practice to use CSS to se up different states triggered by classes, where it makes sense. What's the easiest way to enable and disable a class bounce on an element with the ID dialog?
+- [ ] `$('#dialog').classToggle('bounce')`
+- [ ] `$('#dialog.bounce').removeClass().addClass()`
+- [ ] `$(#dialog').addOrRemoveClass('bounce')`
+- [x] `$(#dialog').toggleClass('bounce') <-- Correct`
+
+#### Q26. What is the main difference between selectors and filters?
+- [ ] Selectors are used to refine the content that filters have been applied to.
+- [x] Selectors are used to find and select content in a page. Filters are used to refine the results of selectors. <-- Correct
+- [ ] Filters are used to remove content from the page. Selectors are used to add content to the page
+- [ ] There is no real difference. They are both used to build up lists of page content.
+
+#### Q27. You want to create a custom right-click menu. How might you start the code?
+- [ ] `$('#canvas').on('click.right', function(){ console.log('Handled a right-click') });`
+- [ ] `$('#canvas').on('contextual', function(){ console.log('Handled a right-click') });`
+- [ ] `$('#canvas').on('contextmenu', function(){ console.log('Handled a right-click') });`
+- [ ] `$('#canvas').on('rightclick', function(){ console.log('Handled a right-click') });`
+
+#### Q28. What is the correct way to check how many paragraphs exist on a page using jQuery?
+- [ ] `$('p').count()`
+- [x] `$('p').length` <-- Correct
+- [ ] `$('*').find('p')`
+- [ ] `$('p').length()`
