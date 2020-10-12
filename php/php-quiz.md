@@ -335,3 +335,23 @@ The php not operator is !. Given the snippet, is there an out put and what is it
 -output '21 is an odd number' --- correct
 -no output. Syntax error do to missing semicolon at the end
 -no output due to % in $num%2!=0
+
+You want to list the modules available in your PHP installation. What command should you run?
+-php -h
+-phpinfo
+-php -v
+-php -m (correct)
+
+For the HTML form below, what is the correct functioning script that checks the input "mail" to be sure it is filled before proceeding?
+ if (!empty($_POST["mail"])) {
+  echo "Yes, mail is set";
+ } else {
+  echo "No, mail is not set";
+ } (correct)
+ 
+ What is the value of '$result' in this calculation?
+ $result = 25 % 6;
+ -4.167
+ -1.5
+ -4
+ -1 (correct)
