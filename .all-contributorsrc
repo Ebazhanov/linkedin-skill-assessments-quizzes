@@ -1193,6 +1193,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "ZdravekSprite",
+      "name": "Zdravko Šplajt",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/52032768?v=4",
+      "profile": "https://github.com/ZdravekSprite",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
