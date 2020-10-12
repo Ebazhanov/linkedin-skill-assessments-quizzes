@@ -13,8 +13,14 @@ Object-Oriented Programming (OOP) Assessment
 - the color of each house in a small neighborhood
 - **the weather conditions for each house in a small neighborhood** <<-- correct
 
-#### Q3. Why would you create an abstract class, if it can have no real instances?
+#### Q3.1 Why would you create an abstract class, if it can have no real instances?
 - **to avoid redundant coding in children** << -- correct
+- to explore a hypothetical class
+- to prevent unwanted method implementation
+- to reserve memory for an unspecified class type
+
+#### Q3.2 Why would you create an abstract class, if it can have no real instances?
+- **to have common behavior in derived classes** << -- correct
 - to explore a hypothetical class
 - to prevent unwanted method implementation
 - to reserve memory for an unspecified class type
@@ -61,8 +67,14 @@ Object-Oriented Programming (OOP) Assessment
 - parameterized
 - **Constructors do not have a return type** <<-- correct
 
-#### Q11. When is a constructor executed?
+#### Q11.1 When is a constructor executed?
 - **when an object is created from a class using the new keyword** <<-- correct
+- when an class is defined using the class keyword
+- every time an object is referenced
+- when an object is created from a class using the create keyword
+
+#### Q11.2 When is a constructor executed?
+- **when an object is created from a class** <<-- correct
 - when an class is defined using the class keyword
 - every time an object is referenced
 - when an object is created from a class using the create keyword
@@ -223,9 +235,15 @@ static void Multiply(float num1, float num2) {};
 - [] Code Responsibility Correction cards are tools used for debugging
 - [] Code Responsibility Correction cards are tools for modeling 
 
-#### Q37. How are contents of a composition different from those of aggregation?
+#### Q37.1 How are contents of a composition different from those of aggregation?
 - [] if one element of an aggregation is dereferenced, all its elements are eligible for garbage collection
-- [] if a composition dies, the contents die
+- [x] if a composition dies, the contents die
+- [] the contents of a composition are all siblings
+- [] an aggregation contains only abstract classes
+
+#### Q37.2 Which statement about compositions and aggregations is true?
+- [] if one element of an aggregation is dereferenced, all its elements are eligible for garbage collection
+- [x] if a composition dies, the contents die
 - [] the contents of a composition are all siblings
 - [] an aggregation contains only abstract classes
 
@@ -277,11 +295,11 @@ static void Multiply(float num1, float num2) {};
 - yes, but with only one abstract class
 - No, abstract classes do not have constructors.
 
-#### Q46. Why is inheritance used when creating a new class?
-- to delegate coding responsibilities more efficiently
-- to conserve memory
-- to protect attributes from unwanted changes
-- **to avoid writing duplicate code   <<-- correct**
+#### Q46. What type of inheritance may lead to the diamond problem?
+- single level
+- multilevel
+- hierarchical
+- **multiple  <<-- correct**
 
 #### Q47. How are the contents of a composition different from those of an aggregation?
 - **The contents of a composition are all siblings.   <<-- correct**
