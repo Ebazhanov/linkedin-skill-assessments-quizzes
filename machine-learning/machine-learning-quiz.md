@@ -367,3 +367,9 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ] K-means clustering
 - [X] Density-based clustering
 - [ ] Model-based clustering
+
+#### Q59. The error function most suited for gradient descent using logistic regression is
+- [ ] The entropy function.
+- [ ] The squared error.
+- [X] The cross-entropy function.
+- [ ] The number of mistakes.
