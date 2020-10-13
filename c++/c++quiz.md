@@ -161,6 +161,25 @@ Q15. What is the ternary operator equivalent to this code snippet?
 	b) y=if(x?a:b);
 	c) y=(x&a)?a:(x&b)?b:0;
 	d) y=x?a:b; << Correct
+	
+Q16. What is the output of this code? What is the output of this code?
+
+	#include <iostream>
+	int main()
+	{
+		int x=10, y=20;
+		std::cout << "x = " << x++ << " and y = " << --y << std::endl;
+		std::cout << "x = " << x-- << " and y = " << ++y << std::endl;
+		return(0); 
+	}
+	
+	a) x = 10 and y = 20 x = 11 and y = 19
+	b) x = 11 and y = 19 x = 10 and y = 20
+	c) x = 10 and y = 19 x = 11 and y = 20 << Correct
+	d) x = 11 and y = 20 x = 10 and y = 19
+	
+
+
 
 
 
