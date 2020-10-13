@@ -18,7 +18,7 @@ Q2. Which of the following is a reason why using this line is considerd a bad pr
 	a) The compiled code is always bigger because of all of the imported symbols.
 	b) If the code uses the function defined in two different libraries with the same prototype but possibly with different implementation , there will be a compilation error due to ambuiguity.
 	c) It automatically includes all header files in the standard library (cstdint,cstdlib,cstdio,iostream etc). << Correct
-	d) It causes the compiler to enforce the exclusion , inclusion of header file belonging to the standard library , genrating compilation error when a different header file is included.
+	d) It causes the compiler to enforce the exclusion , inclusion of header file belonging to the standard library , generating compilation error when a different header file is included.
 
 Q3. What is the smallest size a variable of the type child_t may occupy in memory?
 	typedef struct {
@@ -48,9 +48,9 @@ Q4. Which of the following shows the contents of vector v1 and v2 after running 
 
 Q5. Which of the following is a true statement about the difference between pointers and iterators?
 	
-	a) While pointers are variable that hold memory address , iterators are genric functions used to traverse containers. These function allows the programmer to implement read and write code as 			the container is traversed. << Correct
+	a) While pointers are variable that hold memory address , iterators are generic functions used to traverse containers. These function allows the programmer to implement read and write code as 			the container is traversed. << Correct
 	b) Incrementing an iterator always means acces the next element in the container(if any) , no matter the container. Incrementing the pointer means pointing to the next element in memory, not 			always the next element.
-	c) Pointers are variables that hold memory address where as iterotor are unsigned integers that refers to offsets in arrays.
+	c) Pointers are variables that hold memory address where as iterator are unsigned integers that refers to offsets in arrays.
 	d) All iterator are implemented with pointers so all iterators are pointers but not all pointers are iterators.
 
 Q6. What's a benefit of declaring the parameter as a const reference instead of declaring it as a regular 	object.
