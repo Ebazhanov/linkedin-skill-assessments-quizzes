@@ -181,6 +181,52 @@ Q16. What is the output of this code? What is the output of this code?
 
 
 
+Q.16 What is the output of this code? What is the output of this code?
+	#include <iostream>
+	int main()
+	{
+	int x=10, y=20; 
+	std::cout << "x = " << x++ << " and y = " << --y << std::endl; 
+	std::cout << "x = " << x-- << " and y = " << ++y << std::endl;
+	return(0);
+	}
+	
+	
+	a) x = 10 and y = 20 x = 11 and y = 19
+	b) x = 11 and y = 19 x = 10 and y = 20
+	c) x = 10 and y = 19 x = 11 and y = 20 << Correct
+	d) x = 11 and y = 20 x = 10 and y = 19
+	
+Q.17 What is the meaning of the two parts specified between parentheses in a range-based for loop, separated by a colon?What is the meaning of the two parts specified between parentheses in a range-based for loop, separated by a colon?
+
+	a) The first is a variable declaration that will hold an element in a sequence. The second is the sequence to traverse.
+	
+	b) The first is an iterator, and the second is the increment value to be added to the iterator. The first is an iterator, and the second is the increment value to be added to the iterator.
+
+
+	c) The first is the iterating variable. The second is an std::pair that specifies the range (start and end) in which the variable will iterate.The first is the iterating variable. The second is an std::pair that specifies the range (start and end) in which the variable will iterate.
+
+
+	d)The first is a container object. The second is an std::pair that specifies the range (start and end) in which the elements will be accessed within the loop.The first is a container object. The second is an std::pair that specifies the range (start and end) in which the elements will be accessed within the loop.
+	
+Q.18 What is the output of this piece of code? What is the output of this piece of code?
+
+int8_t a=200;
+uint8_t b=100; 
+if(a>b) {
+std::cout<<"greater"; 
+else std::cout<<"less";
+}
+
+
+	a) There is no output because there is an exception when comparing an int8_t with a uint8t.There is no output because there is an exception when comparing an null with a 	 null. << Correct
+	b)greaternull
+	c)lessnull
+	d)There is no output because there is a compiler error.There is no output because there is a compiler error.
+	
+
+
+
 
 
 
