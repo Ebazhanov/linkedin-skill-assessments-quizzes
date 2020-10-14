@@ -369,6 +369,13 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ] Model-based clustering
 
 
+
+#### Q58. Compared to the variance of the Maximum Likelihood Estimate (MLE), the variance of the Maximum A Posteriori (MAP) estimate is ________
+- [ ] Higher
+- [ ] same
+- [X] Lower
+- [ ] it could be any of the above
+
 #### Q57. ___________ refers to a model that can neither model the training data nor generalize to new data.
 
 - [ ] good fitting
