@@ -368,8 +368,25 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [X] Density-based clustering
 - [ ] Model-based clustering
 
+
 #### Q59. The error function most suited for gradient descent using logistic regression is
 - [ ] The entropy function.
 - [ ] The squared error.
 - [X] The cross-entropy function.
 - [ ] The number of mistakes.
+
+
+
+#### Q58. Compared to the variance of the Maximum Likelihood Estimate (MLE), the variance of the Maximum A Posteriori (MAP) estimate is ________
+- [ ] Higher
+- [ ] same
+- [X] Lower
+- [ ] it could be any of the above
+
+#### Q57. ___________ refers to a model that can neither model the training data nor generalize to new data.
+
+- [ ] good fitting
+- [ ] overfitting
+- [X] underfitting
+- [ ] all of the above
+
