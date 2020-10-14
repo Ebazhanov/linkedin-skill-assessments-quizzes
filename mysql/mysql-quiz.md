@@ -378,3 +378,9 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 - [] to display operating system error codes  
 - [] to display default settings that are in error  
 - [x] to display storage error codes
+
+#### Q51. How can you list all columns for a given table?
+- [] SHOW table COLUMNS;
+- [x] SHOW COLUMNS FROM table;  
+- [] LIST table COLUMNS;
+- [] SELECT COLUMNS FROM table;  
