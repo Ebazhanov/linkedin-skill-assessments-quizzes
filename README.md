@@ -39,7 +39,7 @@ Submitted in a public repo AND (
 | [Django](https://github.com/Ebazhanov/in-quiz-questions/blob/master/django/django-quiz.md) |  with answers |
 | [.NET Framework](https://github.com/Ebazhanov/in-quiz-questions/blob/master/dotnet-framework/dotnet-framework-quiz.md) |  partially answered  |
 | [Git](https://github.com/Ebazhanov/in-quiz-questions/blob/master/git/git-quiz.md) :star: | with answers |
-| [Google Analytics](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-analytics/google-analytics-quiz.md) |  with answers |
+| [Google Analytics](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-analytics/google-analytics-quiz.md) |  answers required |
 | [Google Cloud Platform (GCP)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-cloud-platform/gcp-quiz.md) |  with answers |
 | [Hadoop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/hadoop/hadoop-quiz.md) | answers required |
 | [HTML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/html/html-quiz.md) |  with answers |
@@ -251,6 +251,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Ms3105"><img src="https://avatars2.githubusercontent.com/u/68704852?v=4" width="100px;" alt=""/><br /><sub><b>Ms3105</b></sub></a><br /><a href="#design-Ms3105" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Ms3105" title="Code">💻</a> <a href="#content-Ms3105" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/sidhesware3298"><img src="https://avatars0.githubusercontent.com/u/56552115?v=4" width="100px;" alt=""/><br /><sub><b>Ambika Sidhesware</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=sidhesware3298" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/mundoguero"><img src="https://avatars1.githubusercontent.com/u/1318156?v=4" width="100px;" alt=""/><br /><sub><b>mundoguero</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=mundoguero" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Darkus24"><img src="https://avatars1.githubusercontent.com/u/72884834?v=4" width="100px;" alt=""/><br /><sub><b>Darkus24</b></sub></a><br /><a href="#content-Darkus24" title="Content">🖋</a></td>
   </tr>
 </table>
 
