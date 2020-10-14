@@ -318,3 +318,10 @@ static void Multiply(float num1, float num2) {};
 - **public and private  <<-- correct**
 - this and final
 - final and abstract
+
+#### Q50. Why is inheritance used when creating a new class?
+- [] to conserve memory
+- [] to protect attributes from unwanted changes
+- [x] to separate class behaviour from the more general to the more specific 
+- [] to delegate coding responsibility more efficiently
+
