@@ -248,7 +248,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://mh-tahir.github.io"><img src="https://avatars2.githubusercontent.com/u/58627780?v=4" width="100px;" alt=""/><br /><sub><b>Mh-Tahir</b></sub></a><br /><a href="#design-Mh-Tahir" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/ZdravekSprite"><img src="https://avatars3.githubusercontent.com/u/52032768?v=4" width="100px;" alt=""/><br /><sub><b>Zdravko Šplajt</b></sub></a><br /><a href="#design-ZdravekSprite" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=ZdravekSprite" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Ms3105"><img src="https://avatars2.githubusercontent.com/u/68704852?v=4" width="100px;" alt=""/><br /><sub><b>Ms3105</b></sub></a><br /><a href="#design-Ms3105" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/Ms3105"><img src="https://avatars2.githubusercontent.com/u/68704852?v=4" width="100px;" alt=""/><br /><sub><b>Ms3105</b></sub></a><br /><a href="#design-Ms3105" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Ms3105" title="Code">💻</a></td>
   </tr>
 </table>
 
