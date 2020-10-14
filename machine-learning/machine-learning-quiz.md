@@ -287,7 +287,6 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ]  It would substantially shorten your development time. 
 - [ ]  It would increase the speed of the appliance.
 
-[✔]
 #### QTraining1. You work for a hospital that is tracking the community spread of a virus. The hospital created a smartwatch app that uploads body temperature data from hundreds of thousands of participants. What is best technique to analyze the data?
 - [] Use reinforcement learning to reward the system when a new person participates
 - [] Unsupervised machine learning to cluster together people based on patterns the machine discovers
