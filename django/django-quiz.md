@@ -69,9 +69,9 @@ Q8. Every time a user is saved, their quiz_score needs to be recalculated. Where
 Q9. What is the correct way to begin a class called "Rainbow" in Python?
 
 	- Rainbow {}
-	- export Rainbow
-	👍 - class Rainbow
-	- def Rainbow
+	- export Rainbow:
+	👍 - class Rainbow:
+	- def Rainbow:
 
 
 
@@ -220,3 +220,41 @@ Q25. You have found a bug in Django and you want to submit a patch. Which is the
 	- Submit a pull request.
 	👍 - all of these answers.
 	- Run Django's test suite.
+
+Q26. Django supplies sensible default values for settings. In which Python module can you find these settings?
+- django.utils.default_settings.py
+- django.utils.global_settings.py
+- django.conf.default_settings.py
+👍 - django.conf.global_settings.py
+
+Q27. Which variable name is best according to PEP 8 guidelines?
+- numFingers
+- number-of-Fingers
+👍 - number_of_fingers
+- finger_num
+
+Q28. A project has accumulated 500 migrations. Which course of action would you pursue?
+- Manually merge your migration files to reduce the number
+- Don't worry about the number
+- Try to minimize the number of migrations
+👍 - Use squashmigrations to reduce the number
+
+Q29. What does an F() object allow you when dealing with models?
+👍 - perform db operations without fetching a model object
+- define db transaction isolation levels
+- use aggregate functions more easily
+- build reusable QuerySets
+
+Q30. Which is not a django filed type for integers?
+- SmallIntegerField
+👍 - NegativeIntegerField
+- BigAutoField
+- PositiveIntegerField
+
+Q31. Which will show the currently installed version?
+- print (django.version)
+- import django
+django.getVersion()
+👍 - import django
+django.get_version()
+- python -c django --version
