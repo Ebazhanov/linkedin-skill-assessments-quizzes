@@ -339,7 +339,7 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 
 #### Q51. You and your data science team have 1 TB of example data. What do you typically do with that data?
 - [ ] you use it as your training set.
-- [ ] You label it big data.
+- [X] You label it big data.
 - [ ] You split it into a training set and test set.
 - [ ] You use it as your test set.
 
@@ -347,7 +347,7 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ] semi-supervised machine learning
 - [ ] supervised machine learning
 - [ ] unsupervised machine learning
-- [ ] reinforcement learning
+- [X] reinforcement learning
 
 #### Q53. The model will be trained with data in one single batch is known as ?
 - [ ] Batch learning
