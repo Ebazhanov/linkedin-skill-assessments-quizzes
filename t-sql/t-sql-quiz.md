@@ -219,3 +219,41 @@ ______ ;
 - [ ] that no records from the rightmost table are displayed if the records dont have corresponding records in the left table
 - [ ] that records from the rightmost table will be displayed only if the records have a corresponding value in the leftmost table
 - [x] that all records from the rightmost table are represented in the result, even if there are no corresponding records in the left table
+
+#### Q26. You execute the following three queries. What is the result?
+Create table students(id int identity(1000,1), firstname varchar(20),
+lastname varchar(30));
+insert into students(firstname,lastname)values('mark','twain');
+select *from students;
+
+- [] 
+  studentid firstname lastname
+1 1001 mark twain
+
+- [] 
+  studentid firstname lastname
+1 1 mark twain
+
+- [x] 
+  studentid firstname lastname
+1 1000 mark twain
+
+- [] 
+  studentid firstname lastname
+1 null mark twain
+
+
+#### Q27. Which Query returns all student names with the highest grade?
+create table students( studentname varchar(50), grade int);
+-[] select studentname from students where grade=max(grade);
+-[] select top(1) studentname from students order by grade;
+-[] select top(1) with ties studentname from students order by grade desc;
+-[x] select studentname,max(grade) from students order by grade desc;
+
+#### Q28. What role does "inventory" play?
+select bookid, boooktitle, bookauthor,quantityonhand from inventory.books;
+
+-[] you only want to see results from books currently in inventory
+-[] it instructs the query engine to find the books table in the inventory schema
+-[x] it instructs the query engine to find the books table in the inventory database
+-[] it instructs the query engine to join the books table to the inventory schema

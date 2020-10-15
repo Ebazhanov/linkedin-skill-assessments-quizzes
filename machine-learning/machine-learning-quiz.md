@@ -124,8 +124,8 @@
 - [ ] All human-created data is biased, and data scientists need to account for that.
 
 #### Q21. What is stacking?
-- [ ] The predictions of one model become the inputs another.
-- [x] You use different versions of machine learning algorithms.
+- [x] The predictions of one model become the inputs another.
+- [ ] You use different versions of machine learning algorithms.
 - [ ] You use several machine learning algorithms to boost your results.
 - [ ] You stack your training set and testing set together.
 
@@ -205,14 +205,14 @@
 
 #### Q34. You work for a large credit card processing company that wants to create targeted promotions for its customers. The data science team created a machine learning system that groups together customers who made similar purchases, and divides those customers based on customer loyalty. How would you describe this machine learning approach? 
 
-- [ ]  It uses unsupervised learning to cluster together transactions and unsupervised learning to classify the customers. 
+- [x]  It uses unsupervised learning to cluster together transactions and unsupervised learning to classify the customers. 
 - [ ]  It uses only unsupervised machine learning. 
 - [ ]  It uses supervised learning to create clusters and unsupervised learning for classification. 
 - [ ]  It uses reinforcement learning to classify the customers.
 
 #### Q35. You are using K-nearest neighbor and you have a K of 1. What are you likely to see when you train the model? 
 
-- [ ]  high variance and low bias 
+- [x]  high variance and low bias 
 - [ ]  low bias and low variance 
 - [ ]  low variance and high bias 
 - [ ]  high bias and high variance
@@ -221,23 +221,27 @@
 #### Q36. Are data model bias and variance a challenge with unsupervised learning? 
 
 - [ ]  No, data model bias and variance are only a challenge with reinforcement learning. 
-- [ ]  Yes, data model bias is a challenge when the machine creates clusters. 
+- [x]  Yes, data model bias is a challenge when the machine creates clusters. 
 - [ ]  Yes, data model variance trains the unsupervised machine learning algorithm. 
 - [ ]  No, data model bias and variance involve supervised learning.
 
 #### Q37. Which choice is best for binary classification? 
 
 - [ ]  K-means 
-- [ ]  Logistic regression 
+- [x]  Logistic regression 
 - [ ]  Linear regression 
 - [ ]  Principal Component Analysis (PCA)
+
+Note: Logistic regression is far better than linear regression at binary classification since it biases the result toward one extreme or the other. K-means clustering can be used for classification but is not as accurate in most scenarios. Source: https://www.kaggle.com/minc33/k-means-clustering-vs-logistic-regression
 
 #### Q38. With traditional programming, the programmer typically inputs commands. With machine learning, the programmer inputs 
 
 - [ ]  supervised learning 
-- [ ]  data 
+- [x]  data 
 - [ ]  unsupervised learning 
 - [ ]  algorithms
+
+Note: This one is pretty straight forward and a fundamental concept. Source: https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab
 
 #### Q39. Why is it important for machine learning algorithms to have access to high-quality data? 
 
@@ -248,7 +252,7 @@
 
 #### Q40. In K-nearest neighbor, the closer you are to neighbor, the more likely you are to 
 
-- [ ]  share common characteristics 
+- [x]  share common characteristics 
 - [ ]  be part of the root node 
 - [ ]  have a Euclidean connection 
 - [ ]  be part of the same cluster
@@ -264,8 +268,10 @@
 
 - [ ]  You will be able to prioritize different classes of drugs, such as antibiotics. 
 - [ ]  You can create a training set of drugs you would like to discover. 
-- [ ]  The algorithms will cluster together drugs that have similar traits. 
+- [x]  The algorithms will cluster together drugs that have similar traits. 
 - [ ]  Human experts can create classes of drugs to help guide discovery.
+
+Note: This one is similar to an example talked about in the Stanford Machine Learning course. Source: https://www.coursera.org/learn/machine-learning/home/welcome
 
 #### Q43. In 2015, Google created a machine learning system that could beat a human in the game of Go. This extremely complex game is thought to have more gameplay possibilities than there are atoms of the universe. The first version of the system won by observing hundreds of thousands of hours of human gameplay; the second version learned how to play by getting rewards while playing against itself. How would you describe this transition to different machine learning approaches? 
 
@@ -281,4 +287,105 @@
 - [ ]  It would substantially shorten your development time. 
 - [ ]  It would increase the speed of the appliance.
 
-[✔]
+#### QTraining1. You work for a hospital that is tracking the community spread of a virus. The hospital created a smartwatch app that uploads body temperature data from hundreds of thousands of participants. What is best technique to analyze the data?
+- [] Use reinforcement learning to reward the system when a new person participates
+- [] Unsupervised machine learning to cluster together people based on patterns the machine discovers
+- [] Supervised machine learning to sort people by demographic data
+- [x] supervised ml to classify people by body temperature
+
+#### QTraining2. Man of the advances in ml have come from improved
+- [] statistics
+- [x] structured data
+- [] availability
+- [] algorithms
+
+#### Q45. What is the diagram a good example of ?
+![Machine Learning Q45](images/machine-learning_Q45.jpg)
+- [] unsupervised learning
+- [] complex cluster
+- [] multiclass classification
+- [x] k-nearest neighbour
+
+#### Q46. The supervisor asks to create a ml system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?
+- [] deep learning artificial neural network that relies on petabytes of data
+- [x] unsupervised ml system that clusters together the best candidates
+- Not recommend ml for this project
+- [] supervised ml system that classifies applicants into existing groups
+
+#### Q47. Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?
+- [] regression analysis
+- [] unsupervised learning
+- [] high -variance modeling
+- [x] ensemble modeling
+
+#### Q48. Your data science team wants to use ml to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised ml, what would you call this data set?
+
+-[] ml algorithm
+-[x] training set
+-[] big data test set
+-[] data cluster
+
+#### Q49. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of fotos without them. What is the problem?
+-[] Overfitting the model to the data
+-[] Smaller training set needed
+-[] Underfitting the model to the data
+-[x] larger training set needed
+
+#### Q50. Your supervisor asks you to create a machine learning system that will help your human resources department classify jobs applicants into well defined groups. What type of system are you more likely to recommend?
+-[] an unsupervised machine learning system that clusters together the best candidates.
+-[] you would not recommend a machine learning system for this type of project.
+-[] a deep learning artificial neural network that relies on petabytes of employment data.
+-[x] a supervised machine learning system that classifies applicants into existing groups.
+
+#### Q51. You and your data science team have 1 TB of example data. What do you typically do with that data?
+- [ ] you use it as your training set.
+- [ ] You label it big data.
+- [ ] You split it into a training set and test set.
+- [ ] You use it as your test set.
+
+#### Q52. Your data science team is working on a machine learning product that can act as an artificial opponent in video games. The team is using a machine learning algorithm that focuses on rewards: If the machine does some things well, then it improves the quality of the outcome. How would you describe this type of machine learning algorithm?
+- [ ] semi-supervised machine learning
+- [ ] supervised machine learning
+- [ ] unsupervised machine learning
+- [ ] reinforcement learning
+
+#### Q53. The model will be trained with data in one single batch is known as ?
+- [ ] Batch learning
+- [ ] Offline learning
+- [X] Both A and B
+- [ ] None of the above
+
+#### Q54. Which of the following is NOT supervised learning? ?
+- [ ] Decision Tree
+- [ ] Linear Regression
+- [X] PCA
+- [ ] Naive Bayesian
+
+#### Q55. Suppose we would like to perform clustering on spatial data such as the geometrical locations of houses. We wish to produce clusters of many different sizes and shapes. Which of the following methods is the most appropriate? ?
+- [ ] Decision Trees
+- [ ] K-means clustering
+- [X] Density-based clustering
+- [ ] Model-based clustering
+
+
+#### Q59. The error function most suited for gradient descent using logistic regression is
+- [ ] The entropy function.
+- [ ] The squared error.
+- [X] The cross-entropy function.
+- [ ] The number of mistakes.
+
+
+
+#### Q58. Compared to the variance of the Maximum Likelihood Estimate (MLE), the variance of the Maximum A Posteriori (MAP) estimate is ________
+- [ ] Higher
+- [ ] same
+- [X] Lower
+- [ ] it could be any of the above
+
+#### Q57. ___________ refers to a model that can neither model the training data nor generalize to new data.
+
+- [ ] good fitting
+- [ ] overfitting
+- [X] underfitting
+- [ ] all of the above
+

@@ -13,8 +13,14 @@ Object-Oriented Programming (OOP) Assessment
 - the color of each house in a small neighborhood
 - **the weather conditions for each house in a small neighborhood** <<-- correct
 
-#### Q3. Why would you create an abstract class, if it can have no real instances?
+#### Q3.1 Why would you create an abstract class, if it can have no real instances?
 - **to avoid redundant coding in children** << -- correct
+- to explore a hypothetical class
+- to prevent unwanted method implementation
+- to reserve memory for an unspecified class type
+
+#### Q3.2 Why would you create an abstract class, if it can have no real instances?
+- **to have common behavior in derived classes** << -- correct
 - to explore a hypothetical class
 - to prevent unwanted method implementation
 - to reserve memory for an unspecified class type
@@ -61,8 +67,14 @@ Object-Oriented Programming (OOP) Assessment
 - parameterized
 - **Constructors do not have a return type** <<-- correct
 
-#### Q11. When is a constructor executed?
+#### Q11.1 When is a constructor executed?
 - **when an object is created from a class using the new keyword** <<-- correct
+- when an class is defined using the class keyword
+- every time an object is referenced
+- when an object is created from a class using the create keyword
+
+#### Q11.2 When is a constructor executed?
+- **when an object is created from a class** <<-- correct
 - when an class is defined using the class keyword
 - every time an object is referenced
 - when an object is created from a class using the create keyword
@@ -216,3 +228,100 @@ static void Multiply(float num1, float num2) {};
 - to delete the static members when not required
 - to initialize the static members of class
 - to clear all the static members' initialized values
+
+#### Q36. What are CRC Cards?
+- [] Code Responsibility Collection cards are a brainstorming tool used in the design of procedural software
+- [] Class responsible collaboration cards are a brainstorming tool used in the design of oop software
+- [] Code Responsibility Correction cards are tools used for debugging
+- [] Code Responsibility Correction cards are tools for modeling 
+
+#### Q37.1 How are contents of a composition different from those of aggregation?
+- [] if one element of an aggregation is dereferenced, all its elements are eligible for garbage collection
+- [x] if a composition dies, the contents die
+- [] the contents of a composition are all siblings
+- [] an aggregation contains only abstract classes
+
+#### Q37.2 Which statement about compositions and aggregations is true?
+- [] if one element of an aggregation is dereferenced, all its elements are eligible for garbage collection
+- [x] if a composition dies, the contents die
+- [] the contents of a composition are all siblings
+- [] an aggregation contains only abstract classes
+
+#### Q38. What is the result of using more abstraction?
+- [] it can increase code vulnerability
+- [] it can make code unsafe
+- [] it can limit code readability
+- [] it can be safer for coding
+
+#### Q39. Which is false for a member function of a class?
+- [] they can be defined only inside or outside the class body
+- [x] the can be made to be friends of another class
+- [] they do not need to be declared inside the class definiton
+- [] they need to be defined
+
+#### Q40. Why is inheritance used when creating a new class?
+- [] to protect attributes from unwanted changes
+- [] to delegate coding responsibility more efficiently
+- [] to conserve memory
+- [x] to avoid writing duplicate code
+
+#### Q41. In addition to attributes and behaviours, what quality must a class possess?
+- **a name  <<-- correct**
+- a state
+- a color
+- an object
+
+#### Q42. Which type of function among the following shows polymorphism?
+- inline function
+- undefined function
+- **virtual function  <<-- correct**
+- class member function
+
+#### Q43. Which words in the following list are candidates for objects: trumpet, clean, enrage, leaf, tree, collapse, active, and lively?
+- leaf and tree
+- clean, enrage, and collapse
+- clean, active, and lively
+- **leaf, tree, and trumpet  <<-- correct**
+
+#### Q44. What best describes what object-oriented programming does?
+- **It focuses on objects that interact cleanly with one another.  <<-- correct**
+- It programs exclusively to interfaces.
+- It programs exclusively to classes.
+- It creates one class for all business logic.
+
+#### Q45. Can abstract classes be used in multilevel inheritance?
+- No, abstract classes can be used only in single-level inheritance since they must be immediately implemented.
+- **yes, always <<-- correct**
+- yes, but with only one abstract class
+- No, abstract classes do not have constructors.
+
+#### Q46. What type of inheritance may lead to the diamond problem?
+- single level
+- multilevel
+- hierarchical
+- **multiple  <<-- correct**
+
+#### Q47. How are the contents of a composition different from those of an aggregation?
+- **The contents of a composition are all siblings.   <<-- correct**
+- An aggregation contains only abstract classes.
+- If a composition dies, the contents die.
+- If one element of an aggregation is dereferenced, all its elements are eligible for garbage collection.
+
+#### Q48. What is the relationship between abstraction and encapsulation?
+- **Abstraction is about making relevant information visible, while encapsulation enables a programmer to implement the desired level of abstraction.   <<-- correct**
+- Abstraction and encapsulation are essentially the same.
+- Abstraction and encapsulation are unrelated.
+- Encapsulation is about making relevant information visible, while abstraction enables a programmer to implement the desired level of encapsulation.
+
+#### Q49. Which of these keywords are access specifiers?
+- abstract and public
+- **public and private  <<-- correct**
+- this and final
+- final and abstract
+
+#### Q50. Why is inheritance used when creating a new class?
+- [] to conserve memory
+- [] to protect attributes from unwanted changes
+- [x] to separate class behaviour from the more general to the more specific 
+- [] to delegate coding responsibility more efficiently
+

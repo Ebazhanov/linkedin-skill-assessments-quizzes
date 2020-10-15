@@ -38,9 +38,9 @@
 
 `git add -A`
 
-- [ ] All new and updated files are staged
+- [x] All new and updated files are staged
 - [ ] Files are staged in alphabetical order.
-- [x] All new files are staged
+- [ ] All new files are staged
 - [ ] Only updated files are staged
 
 #### Q6. What will the following command print to the Terminal?
@@ -190,8 +190,10 @@ git cherry-pick {123safd23e}
 
 - [ ] use git show ref/push-notifications
 - [ ] use git show push-notifications
-- [x] use git show head/refs/push-notifications <<--chose this one not sure though!
-- [ ] use git show refs/head/push-notifications
+- [ ] use git show head/refs/push-notifications <<--chose this one not sure though!
+- [x] use git show refs/head/push-notifications
+
+[Reference link for Q24](https://geedew.com/fixing-git-branch-and-tag-name-collision/)
 
 #### Q25. Your team lead needs a list of all commits that will be moved before you perform a rebase. Which command can you use to access that information?
 - [ ] git rebase -log
@@ -221,10 +223,12 @@ $ git bisect good 69faab6268350295550de7d587bc323d
 
 #### Q28. Which of the following is true of the git push command?
 
-- [ ] By default a push doesn't send tags to the remote repository.
+- [x] By default a push doesn't send tags to the remote repository.
 - [ ] Commits can only be tagged when they are created.
-- [x] Tags are pushed to the remote repository with their respective commits.
+- [ ] Tags are pushed to the remote repository with their respective commits.
 - [ ] Only annotated tags are automatically pushed to the remote repository with a commit.
+
+[Reference for Q28](https://git-scm.com/book/en/v2/Git-Basics-Tagging#_sharing_tags)
 
 #### Q29. After pushing commits to the remote repository for the first time using the command below, what shorthand command can you use in future?
 `
@@ -356,17 +360,19 @@ git reset --hard origin/master
 
 #### Q42. Your current respository has three branches: master,beta and ousg-notifications. You've just finished the notification feature and commit the changes to the push-notification branch, and you want to include them in the beta branch. How can you acccomplish this?
 
-- [x] Check out the master branch and run git merge beta -> push-notifications..
+- [ ] Check out the master branch and run git merge beta -> push-notifications..
 - [ ] Delete the push-notification branch;it will be committed to the mastre branch automatically.
 - [ ] Check out the push-notifications branch and run git merge beta.
-- [ ] Check out the beta branch and run git merge push-notifications.
+- [x] Check out the beta branch and run git merge push-notifications.
 
 #### Q43. You find that your project has a tag and branch both named push-notification,which causes confusion when trying to print out a given referance.How can you specify which branch you want to look at?
 
-- [x] Use git show head/refs/push-notifications.
+- [ ] Use git show head/refs/push-notifications.
 - [ ] Use git show push-notifications.
 - [ ] Use git show refs/push-notifications.
-- [ ] Use git show refs/head/push-notifications.
+- [x] Use git show refs/head/push-notifications.
+
+[Reference link for Q43](https://geedew.com/fixing-git-branch-and-tag-name-collision/)
 
 #### Q44. Which statement is true of the git push command?.
 
@@ -382,7 +388,7 @@ git reset --hard origin/master
 - [ ] git --current
 - [ ] git --v
 
-#### Q46. Which setting determines what pager is used when Git pages output
+#### Q46. Which setting determines what pager is used when Git pages output?
 
 - [ ] core.page
 - [ ] page
@@ -391,123 +397,123 @@ git reset --hard origin/master
 
 #### Q47. What does commit object contain?
 
-- [ ] -
+- [ ] 
 - [ ] A set of files, representing the state of a project at a given point of time.
 - [ ] Referance to parent commit objects
 - [x] An SHAI name, a 40 character string that uniquely identify the commit object.
 
-#### Q48. Which option to git commit, will modify last commit message
+#### Q48. Which option to git commit, will modify last commit message?
 
 - [ ] -replace
 - [ ] -change
 - [x] -amend
 - [ ] -update
 
-#### Q49. Which option is enables inclusion of commiter name in custom log format
+#### Q49. Which option is enables inclusion of commiter name in custom log format?
 
 - [ ] %ce
 - [ ] %cr
 - [ ] %cd
 - [x] %cn
 
-#### Q50. How many ways are present in Git to integrate changes from one branch into another
+#### Q50. How many ways are present in Git to integrate changes from one branch into another?
 
 - [ ] 3.0
 - [ ] 5.0
 - [x] 2.0
 - [ ] 4.0
 
-#### Q51. Which user should be creating first during setting up of SSH
+#### Q51. Which user should be creating first during setting up of SSH?
 
 - [x] git
 - [ ] admin
 - [ ] root
 - [ ] None of these
 
-#### Q52. Which command will list tags with the 1.4.2 series
+#### Q52. Which command will list tags with the 1.4.2 series?
 
 - [ ] git tag 'v1.4.2'
 - [x] git tag -I 'v1.4.2.*'
 - [ ] git tag-list 'v1.4.2*'
 - [ ] git tag'v1.4.2*'
 
-#### Q53. Which of the following is an integration manager
+#### Q53. Which of the following is an integration manager?
 
 - [ ] lieutenants
 - [x] benevolent dictator
 - [ ] Depends upon project type
 - [ ] Depends upon data
 
-#### Q54. Which Git command begins tracking of a new file
+#### Q54. Which Git command begins tracking of a new file?
 
 - [x] add
 - [ ] addfile
 - [ ] begin
 - [ ] track
 
-#### Q55. Which of the following is called dumb protocol
+#### Q55. Which of the following is called dumb protocol?
 
 - [ ] All of these
 - [ ] SSH
 - [ ] Git
 - [x] HTTP
 
-#### Q56. Which key press return a set of suggestions to pick from,  when writing a Git command
+#### Q56. Which key press return a set of suggestions to pick from,  when writing a Git command?
 
 - [ ] Control
-- [x] Shift
-- [ ] Tab
+- [ ] Shift
+- [x] Tab
 - [ ] Alt
 
-#### Q57. Which of these terms best describe Git
+#### Q57. Which of these terms best describe Git?
 
 - [x] Distributed Version Control System
 - [ ] Issue Tracking System
 - [ ] Integrated Development Environment
 - [ ] Web-Based Repository Hosting Service
 
-#### Q58. Which command get a copy of an existing Git repository
+#### Q58. Which command get a copy of an existing Git repository?
 
 - [ ] duplicate
 - [ ] replicate
 - [ ] copy
 - [x] clone
 
-#### Q59. How does Git thinks of its data
+#### Q59. How does Git thinks of its data?
 
 - [ ] File
 - [ ] None of these
 - [x] Snapshot
 - [ ] Folder
 
-#### Q60. Which option enables inclusion of author name in custom log format
+#### Q60. Which option enables inclusion of author name in custom log format?
 
 - [ ] %am
 - [ ] %ad
 - [ ] %ae
 - [x] %an
 
-#### Q61. Which option enables inclusion of author name in custom log format
+#### Q61. Which option enables inclusion of author name in custom log format?
 
 - [ ] %am
 - [ ] %ad
 - [ ] %ae
 - [x] %an
-#### Q62. Which version onwads did Git offered, revesting a file back to what it looked like when last committed
+#### Q62. Which version onwads did Git offered, revesting a file back to what it looked like when last committed?
 
 - [ ] 1.7
 - [x] 1.6
 - [ ] 2.0
 - [ ] 1.8
 
-#### Q63. which strategy is ued by Git for merging two branches 
+#### Q63. Which strategy is ued by Git for merging two branches?
 
 - [ ] LIFO
 - [x] recursive
 - [ ] FIFO
 - [ ] octopus
 
-#### Q64. What does refs stores
+#### Q64. What does refs stores?
 
 - [x] SHA-1 value
 - [ ] None of these
@@ -521,9 +527,30 @@ git reset --hard origin/master
 - [ ] C#
 - [ ] Java
 
-#### Q66. What is usually the extension of file which has the public key
+#### Q66. What is usually the extension of file which has the public key?
 
 - [ ] ssh
 - [x] pub
 - [ ] key
 - [ ] pk
+
+#### Q67. What is the difference between initializing a normal repo and a bare repo?
+
+- [ ] Bare repos store their git history in a .git subfolder.
+- [ ] Bare repos do not have the .git extension.
+- [x] Bare repos do not come with working or checked-out source files.
+- [ ] Bare repos should be used for local rather than remote repos.
+
+#### Q68. How many individual commits can a single repository have?
+
+- [x] any number of commits
+- [ ] only one commit local per repository
+- [ ] only three commits per branch
+- [ ] only one commit per HEAD
+
+#### Q69. What types of tags does Git support?
+
+- [ ] heavy and concise
+- [ ] lightweight and immutable
+- [ ] heavy and annotated
+- [x] lightweight and annotated 

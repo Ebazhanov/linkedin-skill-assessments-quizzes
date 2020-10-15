@@ -316,7 +316,7 @@ let diff = function(x,y){
 }
 ```
 - 30, ReferenceError, 30, -10
-- 30, ReferenceError  <<<<----Correct
+- ReferenceError  <<<<----Correct
 - 30, -10
 - ReferenceError, -10
 
@@ -328,9 +328,9 @@ let diff = function(x,y){
 
 #### Q37. Which statement is true about the "async" attribute for the HTML script tag?
 - It can be used for both internal and external JavaScript code.
-- It can be used only for internal JavaScript code. <<<<----Correct
+- It can be used only for internal JavaScript code. 
 - It can be used only for internal or external JavaScript code that exports a promise.
-- It can be used only for external JavaScript code.
+- It can be used only for external JavaScript code. <<<<----Correct
 
 #### Q38. How do you import the lodash library making it top-level Api available as the "_" variable?
 - import _ from 'lodash'; <<<<----Correct
@@ -421,21 +421,21 @@ const y = x ? 'One': 'Two';
 - Two  <<<<----Correct
 
 
-### Q48. Which keyword is used to create an error?
+#### Q48. Which keyword is used to create an error?
 - throw   <<<<----Correct
 - exception
 - catch
 - error
 
 
-### Q49. What's one difference between the async and defer attributes of the HTML script tag?
+#### Q49. What's one difference between the async and defer attributes of the HTML script tag?
 - The defer attribute can work synchronously.
 - The defer attribute works only with generators.
 - The defer attribute works only with promises.
 - The defer attribute will asynchronously load the scripts in order.   <<<<----Correct
 
 
-### Q50. The following program has a problem. What is it?
+#### Q50. The following program has a problem. What is it?
 ```js
 var a;
 var b = (a = 3) ? true: false
@@ -446,7 +446,7 @@ var b = (a = 3) ? true: false
 - The code is using the deprecated var keyword
 
 
-### Q51. Which statement references the DOM node created by the code shown?
+#### Q51. Which statement references the DOM node created by the code shown?
 ```html
 <p class="pull">lorem ipsum</p>
 ```
@@ -454,3 +454,64 @@ var b = (a = 3) ? true: false
 - `document.querySelector('.pull');`   <<<<----Correct
 - `Document.querySelector('pull')`
 - `Document.querySelector('#pull')`
+
+#### Q52. What value does the code return?
+```js
+let answer=true
+if (answer === false){
+	return 0}
+	else {return 10}
+```
+- 10 <<<<----Correct
+- false
+- 0
+
+
+### Q53. What is the result in the console of running the code shown?
+```js
+var start = 1; 
+function setEnd() {
+	var end = 10;
+}
+setEnd();
+console.log(end); 
+```
+* 10
+* 0
+* ReferenceError <<<---CORRECT 
+* undefined
+
+### Q54. What will this code log in the console? 
+```js
+function sayHello() {
+console.log("hello"); 
+}; 
+
+console.log(sayHello.prototype); 
+```
+* undefined <<<--- CORRECT
+* "hello"
+* an object with a constructor property
+* an error message
+
+### Q55: Which collection object allows unique value to be inserted only once? 
+* Object
+* Set <<<---CORRECT
+* Array
+* Map
+
+### Q56. What two values will this code print?
+```js
+function printA() {
+console.log(answer);
+var answer = 1; 
+};
+printA();
+printA();
+```
+* 1 then 1
+* 1 then undefined
+* undefined the undefined <<<---CORRECT
+* undefined the 1
+
+

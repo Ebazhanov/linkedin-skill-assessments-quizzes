@@ -518,3 +518,32 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 - `$.css('.feedback', '.success');`
 - `$('.feedback').css('.success');`
 
+#### Q24. Effects like show, hide, fadIn, and fadeOut can be called with no arguments, but can also take arguments for how long they should last. Which is NOT a duration argument supported by these functions?
+- [ ] "fast"
+- [x] "extreme" <-- Correct
+- [ ] 2000
+- [ ] "slow"
+
+#### Q25. Though jQuery offers visual effects, it is considered a best practice to use CSS to se up different states triggered by classes, where it makes sense. What's the easiest way to enable and disable a class bounce on an element with the ID dialog?
+- [ ] `$('#dialog').classToggle('bounce')`
+- [ ] `$('#dialog.bounce').removeClass().addClass()`
+- [ ] `$(#dialog').addOrRemoveClass('bounce')`
+- [x] `$(#dialog').toggleClass('bounce') <-- Correct`
+
+#### Q26. What is the main difference between selectors and filters?
+- [ ] Selectors are used to refine the content that filters have been applied to.
+- [x] Selectors are used to find and select content in a page. Filters are used to refine the results of selectors. <-- Correct
+- [ ] Filters are used to remove content from the page. Selectors are used to add content to the page
+- [ ] There is no real difference. They are both used to build up lists of page content.
+
+#### Q27. You want to create a custom right-click menu. How might you start the code?
+- [ ] `$('#canvas').on('click.right', function(){ console.log('Handled a right-click') });`
+- [ ] `$('#canvas').on('contextual', function(){ console.log('Handled a right-click') });`
+- [ ] `$('#canvas').on('contextmenu', function(){ console.log('Handled a right-click') });`
+- [ ] `$('#canvas').on('rightclick', function(){ console.log('Handled a right-click') });`
+
+#### Q28. What is the correct way to check how many paragraphs exist on a page using jQuery?
+- [ ] `$('p').count()`
+- [x] `$('p').length` <-- Correct
+- [ ] `$('*').find('p')`
+- [ ] `$('p').length()`

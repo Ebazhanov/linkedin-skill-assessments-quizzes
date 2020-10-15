@@ -210,3 +210,17 @@
 - [ ] `Get-Command Microsoft.SharePoint.PowerShell`
 - [ ] `Add-PSSnapin -Module: "Microsoft.SharePoint.PowerShell"`
 - [ ] `Get-Command -Module "Microsoft.SharePoint.PowerShell"`
+
+
+#### Q28. Which command do you use to view all SharePoint site collection with PowerShell? 
+- [ ] `Get-SPSite -Limit All | Format-Table -property URL,ContentDatabase`
+- [x] `Get-SPSite -Limit All | Format-Table -property URL`
+- [ ] `Get-SPWebApplication | Format-Table -property URL,ConnectDatabase`
+- [ ] `Get-SPWebApplication | Get-SPSite -Limit All | Format-Table -property URL,ContentDatabase`
+
+
+#### Q29. Which cloud-based tool can you use to add form response to a SharePoint List? 
+- [ ] `Forms`
+- [ ] `Delve`
+- [ ] `InfoPath`
+- [x] `Power Automate`
