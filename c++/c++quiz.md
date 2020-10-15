@@ -92,9 +92,9 @@ Q9. Which of the following shows the contents of vector pointed by v1 and v2 aft
 	   *v2:{5};
 	b) *v1:{1,2,3,4'5};
 	   *v2:{1,2,3,4,5};
-	c) Error
+	c) Error << Correct
 	d) *v1:{1,2,3,4};
-	   *v2:{1,2,3,5}; << Correct
+	   *v2:{1,2,3,5}; 
 
 Q10. Which of the following is not a difference between a class and a struct?
 	
