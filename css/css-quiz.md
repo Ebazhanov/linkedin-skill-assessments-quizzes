@@ -396,3 +396,15 @@ h2 + p {
 - Icon fonts can be used to replace custom fonts.
 - Icon fonts can be styled with typography related properties such as font-size and color. <<<<---Correct
 - Icon fonts are also web safe fonts.
+
+#### Q37. What is the difference between display:none and visibility:hidden?
+- Both will hide the element on the page, but display:none has greater browser support. visibility:hidden is a new property and does not have the best browser support
+- display:none hides the elements but maintains the space it previously occupied. visibility:hidden will hide the element from view and remove it from the normal flow of the document
+- display:none hides the element from view and removes it from the normal flow of the document. visibility:hidden will hide the element but maintains the space it previously occupied. <<<<---Correct
+- There is no difference; both will hide the element on the page
+
+### Q38. What selector and property would you use to scale an element to be 50% smaller on hover?
+- element:hover {scale: 0.5;}
+- element:hover {transform: scale(0.5);} <<<<---Correct
+- element:hover {scale: 50%;}
+- element:hover {transform: scale(50%);}
