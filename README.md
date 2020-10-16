@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-134-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-135-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
   
@@ -256,6 +256,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/banurekhaMohan279"><img src="https://avatars2.githubusercontent.com/u/21097764?v=4" width="100px;" alt=""/><br /><sub><b>Banurekha</b></sub></a><br /><a href="#content-banurekhaMohan279" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/ShiraStarL"><img src="https://avatars1.githubusercontent.com/u/37556795?v=4" width="100px;" alt=""/><br /><sub><b>ShiraStarL</b></sub></a><br /><a href="#design-ShiraStarL" title="Design">🎨</a></td>
   </tr>
 </table>
 
