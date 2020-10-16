@@ -204,3 +204,24 @@
 - [ ] `Stateless`
 - [ ] `Client-Server`
 - [ ] `Cacheable`
+
+#### Q30. Which content is best to include in your documentation?
+
+- [ ] `your tech stack`
+- [ ] `reasoning for your naming schema`
+- [ ] `your mission statement`
+- [x] `sample code`
+
+#### Q31. What metric tracks overall availability for your API?
+
+- [ ] `Response Time`
+- [ ] `Time to First Hello World`
+- [ ] `TTL`
+- [x] `Uptime`
+
+#### Q32. What is the recommended method and URL pattern for retrieving a specific user?
+
+- [ ] `GET /user/{id}`
+- [x] `GET /users/{id}`
+- [ ] `GET /user?id={id}`
+- [ ] `GET /users?id={id}`
