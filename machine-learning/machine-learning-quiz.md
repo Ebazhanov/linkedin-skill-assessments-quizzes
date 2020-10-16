@@ -325,7 +325,7 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 -[] big data test set
 -[] data cluster
 
-#### Q49. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of fotos without them. What is the problem?
+#### Q49. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their photo: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of photos without them. What is the problem?
 -[] Overfitting the model to the data
 -[] Smaller training set needed
 -[] Underfitting the model to the data
