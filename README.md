@@ -255,6 +255,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Sou-786"><img src="https://avatars1.githubusercontent.com/u/63981549?v=4" width="100px;" alt=""/><br /><sub><b>Sou-786</b></sub></a><br /><a href="#content-Sou-786" title="Content">🖋</a> <a href="#design-Sou-786" title="Design">🎨</a></td>
   </tr>
   <tr>
+    <td align="center"><a href="https://github.com/rapunzel127"><img src="https://avatars1.githubusercontent.com/u/44580953?v=4" width="100px;" alt=""/><br /><sub><b>Mekha Hridya</b></sub></a><br /><a href="#content-rapunzel127" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/banurekhaMohan279"><img src="https://avatars2.githubusercontent.com/u/21097764?v=4" width="100px;" alt=""/><br /><sub><b>Banurekha</b></sub></a><br /><a href="#content-banurekhaMohan279" title="Content">🖋</a></td>
   </tr>
 </table>
