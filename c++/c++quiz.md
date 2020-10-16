@@ -27,8 +27,8 @@ Q3. What is the smallest size a variable of the type child_t may occupy in memor
 		unsigned int size : 2;
 		} child_t;
 
-	a) 7 bits.
-	b) 25 bytes.<< Correct
+	a) 7 bits. << Correct
+	b) 25 bytes.
 	c) 1 bit.
 	d) 1 bytes. 
 
@@ -38,7 +38,7 @@ Q4. Which of the following shows the contents of vector v1 and v2 after running 
 	v1.push_back(4);
 	v2.push_back(5);
 
-	a) Error
+	a) Error <<< Correct because std::vector v1{1,2,3}; doesn't compile, It should be std::vector v1{1,2,3};
 	b) v1:{1,2,3,4};
 	   v2:{5};
 	c) v1:{1,2,3,4,5};
@@ -69,9 +69,9 @@ Q7. What's the storage occupied by u1?
 		int8_t c;
 	} u1;
 	
-	a) 4 bytes
+	a) 4 bytes << Correct You can see example [here](https://en.cppreference.com/w/cpp/language/union)
 	b) 7 bytes 
-	c) 8 bytes << Correct
+	c) 8 bytes 
 	d) 2 bytes
 
 Q8. Which of the following operators is overloadable?
@@ -98,9 +98,9 @@ Q9. Which of the following shows the contents of vector pointed by v1 and v2 aft
 
 Q10. Which of the following is not a difference between a class and a struct?
 	
-	a) Because structor are part of the c programming language there some complexity between c and c++ struct This is not the case with classes. << Correct
+	a) Because structor are part of the c programming language there some complexity between c and c++ struct This is not the case with classes. 
 	b) Classes may have member function;struct private.
-	c) The default acces specifier for members of struct is public, where as for member of class , it is private.
+	c) The default acces specifier for members of struct is public, where as for member of class , it is private. << Correct -> You can see the answer [here](https://www.fluentcpp.com/2017/06/13/the-real-difference-between-struct-class/)
 	d) Template type parameters can be declared with , but not with the struct keyword.
 
 Q11. Suppose you need to keep a data struct with permission to access some resource base on the days of week , but you can't be use a bool variable for each day.you need to use one bit per day of the week. 	
@@ -112,7 +112,7 @@ Q11. Suppose you need to keep a data struct with permission to access some resou
 			// more days 
 			int friday:1;
 			int satarday:1;
-			} weekdays;
+			} weekdays; << Correct  That syntax says that each variable size is 1 bit. 'bit' is not a type in C++.
 	b) typedef char[7]: weekdays;
 	c) typedef struct {
 			bit sunday:1;
@@ -120,7 +120,7 @@ Q11. Suppose you need to keep a data struct with permission to access some resou
 			// more days
 			bit fridyas:1;
 			bit satarday:1;
-			} weekdays; << Correct
+			} weekdays; 
 	d) typedef struct { 
 			bit sunday;
 			bit monday;
