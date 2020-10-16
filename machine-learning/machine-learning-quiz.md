@@ -287,88 +287,88 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ]  It would substantially shorten your development time. 
 - [ ]  It would increase the speed of the appliance.
 
-#### QTraining1. You work for a hospital that is tracking the community spread of a virus. The hospital created a smartwatch app that uploads body temperature data from hundreds of thousands of participants. What is best technique to analyze the data?
+#### Q45. You work for a hospital that is tracking the community spread of a virus. The hospital created a smartwatch app that uploads body temperature data from hundreds of thousands of participants. What is best technique to analyze the data?
 - [] Use reinforcement learning to reward the system when a new person participates
 - [] Unsupervised machine learning to cluster together people based on patterns the machine discovers
 - [] Supervised machine learning to sort people by demographic data
 - [x] supervised ml to classify people by body temperature
 
-#### QTraining2. Man of the advances in ml have come from improved
+#### Q46. Man of the advances in ml have come from improved
 - [] statistics
 - [x] structured data
 - [] availability
 - [] algorithms
 
-#### Q45. What is the diagram a good example of ?
+#### Q47. What is the diagram a good example of ?
 ![Machine Learning Q45](images/machine-learning_Q45.jpg)
 - [] unsupervised learning
 - [] complex cluster
 - [] multiclass classification
 - [x] k-nearest neighbour
 
-#### Q46. The supervisor asks to create a ml system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?
+#### Q48. The supervisor asks to create a ml system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?
 - [] deep learning artificial neural network that relies on petabytes of data
 - [x] unsupervised ml system that clusters together the best candidates
 - Not recommend ml for this project
 - [] supervised ml system that classifies applicants into existing groups
 
-#### Q47. Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?
+#### Q49. Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?
 - [] regression analysis
 - [] unsupervised learning
 - [] high -variance modeling
 - [x] ensemble modeling
 
-#### Q48. Your data science team wants to use ml to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised ml, what would you call this data set?
+#### Q50. Your data science team wants to use ml to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised ml, what would you call this data set?
 
--[] ml algorithm
--[x] training set
--[] big data test set
--[] data cluster
+- [] ml algorithm
+- [x] training set
+- [] big data test set
+- [] data cluster
 
-#### Q49. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of fotos without them. What is the problem?
--[] Overfitting the model to the data
--[] Smaller training set needed
--[] Underfitting the model to the data
--[x] larger training set needed
+#### Q51. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of fotos without them. What is the problem?
+- [] Overfitting the model to the data
+- [] Smaller training set needed
+- [] Underfitting the model to the data
+- [x] larger training set needed
 
-#### Q50. Your supervisor asks you to create a machine learning system that will help your human resources department classify jobs applicants into well defined groups. What type of system are you more likely to recommend?
--[] an unsupervised machine learning system that clusters together the best candidates.
--[] you would not recommend a machine learning system for this type of project.
--[] a deep learning artificial neural network that relies on petabytes of employment data.
--[x] a supervised machine learning system that classifies applicants into existing groups.
+#### Q52. Your supervisor asks you to create a machine learning system that will help your human resources department classify jobs applicants into well defined groups. What type of system are you more likely to recommend?
+- [] an unsupervised machine learning system that clusters together the best candidates.
+- [] you would not recommend a machine learning system for this type of project.
+- [] a deep learning artificial neural network that relies on petabytes of employment data.
+- [x] a supervised machine learning system that classifies applicants into existing groups.
 
-#### Q51. You and your data science team have 1 TB of example data. What do you typically do with that data?
+#### Q53. You and your data science team have 1 TB of example data. What do you typically do with that data?
 - [ ] you use it as your training set.
 - [X] You label it big data.
 - [ ] You split it into a training set and test set.
 - [ ] You use it as your test set.
 
-#### Q52. Your data science team is working on a machine learning product that can act as an artificial opponent in video games. The team is using a machine learning algorithm that focuses on rewards: If the machine does some things well, then it improves the quality of the outcome. How would you describe this type of machine learning algorithm?
+#### Q54. Your data science team is working on a machine learning product that can act as an artificial opponent in video games. The team is using a machine learning algorithm that focuses on rewards: If the machine does some things well, then it improves the quality of the outcome. How would you describe this type of machine learning algorithm?
 - [ ] semi-supervised machine learning
 - [ ] supervised machine learning
 - [ ] unsupervised machine learning
 - [X] reinforcement learning
 
-#### Q53. The model will be trained with data in one single batch is known as ?
+#### Q55. The model will be trained with data in one single batch is known as ?
 - [ ] Batch learning
 - [ ] Offline learning
 - [X] Both A and B
 - [ ] None of the above
 
-#### Q54. Which of the following is NOT supervised learning? ?
+#### Q56. Which of the following is NOT supervised learning? ?
 - [ ] Decision Tree
 - [ ] Linear Regression
 - [X] PCA
 - [ ] Naive Bayesian
 
-#### Q55. Suppose we would like to perform clustering on spatial data such as the geometrical locations of houses. We wish to produce clusters of many different sizes and shapes. Which of the following methods is the most appropriate? ?
+#### Q57. Suppose we would like to perform clustering on spatial data such as the geometrical locations of houses. We wish to produce clusters of many different sizes and shapes. Which of the following methods is the most appropriate? ?
 - [ ] Decision Trees
 - [ ] K-means clustering
 - [X] Density-based clustering
 - [ ] Model-based clustering
 
 
-#### Q59. The error function most suited for gradient descent using logistic regression is
+#### Q58. The error function most suited for gradient descent using logistic regression is
 - [ ] The entropy function.
 - [ ] The squared error.
 - [X] The cross-entropy function.
@@ -376,13 +376,13 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 
 
 
-#### Q58. Compared to the variance of the Maximum Likelihood Estimate (MLE), the variance of the Maximum A Posteriori (MAP) estimate is ________
+#### Q59. Compared to the variance of the Maximum Likelihood Estimate (MLE), the variance of the Maximum A Posteriori (MAP) estimate is ________
 - [ ] Higher
 - [ ] same
 - [X] Lower
 - [ ] it could be any of the above
 
-#### Q57. ___________ refers to a model that can neither model the training data nor generalize to new data.
+#### Q60. ___________ refers to a model that can neither model the training data nor generalize to new data.
 
 - [ ] good fitting
 - [ ] overfitting
