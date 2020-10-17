@@ -489,9 +489,9 @@ console.log("hello");
 
 console.log(sayHello.prototype); 
 ```
-* undefined <<<--- CORRECT
+* undefined 
 * "hello"
-* an object with a constructor property
+* an object with a constructor property <<<--- CORRECT
 * an error message
 
 ### Q55: Which collection object allows unique value to be inserted only once? 
