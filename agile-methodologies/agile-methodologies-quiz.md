@@ -201,24 +201,24 @@
 
 #### Q34. What is the name for the practice of going to see a process in use at the point of value delivery?
 - [ ] Six Sigma
-- [ ] Gemba walk
+- [x] Gemba walk
 - [ ] Total Quality Management
 - [ ] Kaizen
 
 #### Q35. When the team needs to make a decision, what is the best course of action?
-- [ ] Try to achieve concensus. //Answer?
+- [x] Try to achieve concensus. 
 - [ ] Take a vote and the majority rules.
 - [ ] Identify the person who is most knowledgeable and ask them to decide.
 - [ ] Let the most senior member of the team decide.
 
 #### Q36. Which action is something the Team Facillitator should NOT do?
 - [ ] Embrace servant leadership.
-- [ ] Estimate story points. //Answer?
+- [x] Estimate story points. 
 - [ ] Celebrate successes.
 - [ ] Remove impediments
 
 #### Q37. A team needs to do research, design, prototyping. What is this type of story called?
-- [ ] Exploratory spike
+- [x] Exploratory spike
 - [ ] Backlog refinement
 - [ ] Functional decomposition
 - [ ] R&D
@@ -226,29 +226,29 @@
 #### Q38. Which story about technical debt is true?
 - [ ] Technical debt is another name for bugs
 - [ ] It is at the Product Owner's descretion to allocate effort to reduce technical debt.
-- [ ] Adding technical debt should be avoided at all costs. //Answer?
+- [x] Adding technical debt should be avoided at all costs. 
 - [ ] Technical debt is what the Product Owner owes to the developers if they work a lot of overtime to complete the sprint.
 
 #### Q39. Which statement about estimating is not true?
 - [ ] Absolute estimating is more reliable than relative estimating.
 - [ ] Relative estimating is more reliable than absolute estimating.
-- [x] In estimating, accuracy is more important than precision. //Answer?
+- [x] In estimating, accuracy is more important than precision. 
 - [ ] In estimating, the effort is more important than the time required.
 
 #### Q40. Which ceremony should the Product Owner not attend?
 - [ ] daily stand-ups
 - [ ] Sprint Retrospectives
 - [ ] story point estimating
-- [x] code reviews //Answer?
+- [x] code reviews 
 
 #### Q41. Which task is not the Product Owners responsibility?
 - [ ] estimating story points
 - [ ] refining acceptance criteria
-- [x] giving feedback to developers about the user stories //Answer?
+- [x] giving feedback to developers about the user stories 
 - [ ] demonstrating the work to stakeholders
 
 #### Q42. Which choice is *not* considered during Sprint Planning?
-- [ ] stories that meet the Definition of Done <<<---CORRECT
+- [x] stories that meet the Definition of Done 
 - [ ] team velocity
 - [ ] stories that meet the Definition of Ready 
 - [ ] team capacity
@@ -275,10 +275,10 @@
 - [ ] It is a library of coding patterns.
 - [ ] It is a software testing strategy.
 - [ ] It is a standard for interface design.
-- [x] It is a model for skill development and mastery. //Answer?
+- [x] It is a model for skill development and mastery. 
 
 #### Q47. What does the Agile Manifesto indicate?
-- [ ] Responding to change is more valuable than following a plan. //Answer?
+- [x] Responding to change is more valuable than following a plan. 
 - [ ] Documenting requirements up front is more valuable than at the end.
 - [ ] Following the plan is essential for not going over budget.
 - [ ] Contract negotiation should be used to settle disputes.
@@ -286,7 +286,7 @@
 #### Q48. What is the main benefit of a working agreement?
 - [ ] It specifies core working hours.
 - [ ] It clarifies the reporting relationships on the team.
-- [x] It defines the culture that the team aspires to achieve. //Answer?
+- [x] It defines the culture that the team aspires to achieve. 
 - [ ] It compiles everyone's information.
 
 #### Q49. What is the name of the information radiator that has multiple columns used to visualize the flow of work?
@@ -296,13 +296,13 @@
 - [x] Kanban Beard //Answer?
 
 #### Q50. Which is the best definition of story points?
-- [x] They are a relative measure of the effort needed to complete a story. //Answer?
+- [x] They are a relative measure of the effort needed to complete a story. 
 - [ ] They a measure of development time only, test time is considered separately.
 - [ ] They are a relative measure of the value of a story.
 - [ ] They are a measure of time to complete a story.
 
 #### Q51. What is a Scrum of Scrums?
-- [x] It is technique for two or more teams working together coordinate their efforts. //Answer?
+- [x] It is technique for two or more teams working together coordinate their efforts. 
 - [ ] It is another name for the Scrum Master Community of Practice.
 - [ ] It is an information radiator used to compare the velocity of several teams.
 - [ ] It is the system demo for teams on the same release train.
@@ -310,30 +310,30 @@
 #### Q52. What is the Product Owner's role regarding the product backlog?
 - [ ] The PO must identify the intended users of the features on the backlog.
 - [ ] The PO is responsible for estimating the size of the total.
-- [x] The PO must identify the dependencies that impact the backlog. //Answer?
+- [x] The PO must identify the dependencies that impact the backlog. 
 - [ ] The PO decides what to include in the backlog and what to exclude.
 
 #### Q53. Why should a team do refactoring?
 - [ ] It assigns developers to other teams in order to eliminate personality conflicts.
 - [ ] It improves the functionality of the product,
 - [ ] It recalibrates the success criteria for the product in the marketplace.
-- [x] It improves the design, which can lead improved development efficiency and maintainability. //Answer?
+- [x] It improves the design, which can lead improved development efficiency and maintainability. 
 
 #### Q54. Which choice is not a benefit generally associated with product demonstrations?
 - [ ] Learn about new requirements.
 - [ ] Learn feature suitability.
 - [ ] Learn about feature usability.
-- [x] Learn about feature estimates. //Answer?
+- [x] Learn about feature estimates. 
 
 #### Q55. What is an information radiator?
 - [ ] a list of KPIs for the team
 - [ ] a list of overdue action items
-- [x] the task board //Answer?
+- [x] the task board 
 - [ ] a highly visible display of key performance data
 
 #### Q56. According to the Agile Manifesto, your highest priority is to ______.
 - [ ] minimize change requests
-- [x] satisfy the customer //Answer?
+- [x] satisfy the customer 
 - [ ] get the job done on time
 - [ ] achieve the desired ROI
 
@@ -341,58 +341,58 @@
 - [ ] actors
 - [ ] roles
 - [ ] agents
-- [x] personas <<<---CORRECT
+- [x] personas 
 
 #### Q58. The Product Owner is focused on testing a new system concept in the marketplace as quickly and inexpensively as possible. What is this first-generation product called?
 - [ ] preproduction version
 - [ ] focus group demonstrator
 - [ ] Generation 1 product
-- [x] minimum viable product //Answer?
+- [x] minimum viable product 
 
 #### Q59. To whom should the Product Owner report?
 - [ ] the Quality Manager
-- [x] the Product Manager //Answer?
+- [x] the Product Manager 
 - [ ] the Scrum Master
 - [ ] the Engineering Manager
 
 #### Q60. What happens in Splint 0?
 - [ ] The team delivers no story points in that sprint.
 - [ ] The team does regression testing prior to release to production.
-- [x] The team prepares to work on the product backlog. //Answer?
+- [x] The team prepares to work on the product backlog. 
 - [ ] This is the time to inspect and adapt.
 
 #### Q61. What does the Definition of Done mean?
 - [ ] The story meets the INVEST criteria.
-- [x] The team has completed all of the work in its Sprint. 
+- [ ] The team has completed all of the work in its Sprint. 
 - [ ] The story has been handed off to the DevOps team.
-- [ ] The team has agreed on the criteria for story completion. <<<---CORRECT
+- [x] The team has agreed on the criteria for story completion. 
 
 #### Q62. Which element is most important when describing your product?
 - [ ] its cost
 - [ ] its licensing terms and conditions
-- [ ] its benefits 
-- [ ] its features <<<---CORRECT
+- [x] its benefits 
+- [ ] its features 
 
 #### Q63. Which choice best describes the Team Facilitator?
 - [ ] a meeting scheduler
 - [ ] a record keeper
 - [ ] a project manager
-- [x] an Agile coach //Answer?
+- [x] an Agile coach 
 
 #### Q64. What is the name of the technique that divides a story into smaller pieces?
 - [ ] mitosis
 - [ ] story slicing
-- [x] disaggregation //Answer?
+- [x] disaggregation 
 - [ ] Divide and Conquer
 
 #### Q65. A team member comes to you with a complaint about another team member. What should you do?
 - [ ] Bring the complaint to the other person and try to resolve the issue.
 - [ ] Ask them to talk to the other person and try to work it.
 - [ ] Notify HR of the problem and ask them to handle it.
-- [x] Invite both people a meeting and try mediate the conflict. //Answer?
+- [x] Invite both people a meeting and try mediate the conflict.
 
 #### Q66. What is the forming-storming-norming, performing model of team development known as?
-- [x] the Tuckman model <<<---CORRECT
+- [x] the Tuckman model 
 - [ ] the Standard Team model
 - [ ] Moore's Team Framework
 - [ ] the Siebert model
@@ -404,7 +404,7 @@
 - [ ] Velocity Confirmation
 
 #### Q68. Which choice best describes an Agile Release Train (ART)?
-- [x] continuous delivery //Answer?
+- [x] continuous delivery 
 - [ ] comprised of the teams within a program
 - [ ] DevOps Center of Excellence
 - [ ] Scrum of Scrums
@@ -413,19 +413,19 @@
 - [ ] Understand them—try align personal motivations with the team's progress toward the project goals.
 - [ ] Nurture them-goals are the reason why people want to be at work.
 - [ ] Disregard them—personal views have no bearing on reaching the project goals.
-- [x] Leverage them—use personal goals encourage team members raise their performance levels. //Answer?
+- [x] Leverage them—use personal goals encourage team members raise their performance levels. 
 
 #### Q70. Which phrase best describes an Agile team?
 - [ ] self-directed
 - [ ] self-managed
 - [ ] self-sustaining
-- [x] self-organizing //Answer?
+- [x] self-organizing 
 
 #### Q71. Which technique does not help prioritize the backlog?
 - [ ] MoSCow
 - [ ] Kano
 - [ ] WSJF
-- [x] Kaizen //Answer?
+- [x] Kaizen 
 
 #### Q72. What does the Definition of Ready mean?
 - [ ] The story has been tested end is ready for release to production.

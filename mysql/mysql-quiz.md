@@ -384,3 +384,9 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 - [x] SHOW COLUMNS FROM table;  
 - [] LIST table COLUMNS;
 - [] SELECT COLUMNS FROM table;  
+
+#### Q52. How would you list the full set of tables in the currently selected database?
+- [] SELECT * FROM DATABASE;
+- [x] SHOW TABLES;  
+- [] LIST TABLES;
+- [] SELECT ALL TABLES;
