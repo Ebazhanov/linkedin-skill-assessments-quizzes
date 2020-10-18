@@ -342,7 +342,6 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 -[x] Underfitting the model to the data
 -[ ] larger training set needed
 
-
 #### Q50. Your supervisor asks you to create a machine learning system that will help your human resources department classify jobs applicants into well defined groups. What type of system are you more likely to recommend?
 
 -[ ] an unsupervised machine learning system that clusters together the best candidates.
@@ -385,15 +384,12 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [X] Density-based clustering
 - [ ] Model-based clustering
 
-
 #### Q59. The error function most suited for gradient descent using logistic regression is
 
 - [ ] The entropy function.
 - [ ] The squared error.
 - [X] The cross-entropy function.
 - [ ] The number of mistakes.
-
-
 
 #### Q58. Compared to the variance of the Maximum Likelihood Estimate (MLE), the variance of the Maximum A Posteriori (MAP) estimate is ________
 
@@ -408,4 +404,3 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ] overfitting
 - [X] underfitting
 - [ ] all of the above
-
