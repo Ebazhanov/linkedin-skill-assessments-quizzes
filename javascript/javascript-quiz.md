@@ -494,6 +494,11 @@ console.log(sayHello.prototype);
 * an object with a constructor property <<<--- CORRECT
 * an error message
 
+The correct answer is `an object with a constructor property` not undefined. 
+You can tried the code here: [https://codepen.io/DinaTAKLIT/pen/bGepZzR](https://codepen.io/DinaTAKLIT/pen/bGepZzR) 
+And instead of returning `undefined` the result => Object {}. 
+You can try it out open the console and check.
+
 ### Q55: Which collection object allows unique value to be inserted only once? 
 * Object
 * Set <<<---CORRECT
