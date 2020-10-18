@@ -209,7 +209,20 @@ else std::cout<<"less";
 	d)There is no output because there is a compiler error.There is no output because there is a compiler error.
 	
 
+Q.19 What is a valid definition for the get_length function, which returns the length of a null-terminated string? What is a valid definition for the null function, which returns the length of a null-terminated string?
 
+int get_length(char *str);
+
+	a )int get_length(char *str){ int count=0; while(str[count++]); return count-1; }
+
+
+	b) int get_length(char *str){ int count=0; while(str!=NULL){ count++; str++; } return count; } <<Correct
+
+
+	c) int get_length(char *str){ int count=0; while((*str)++) count++; return count; }
+
+
+	d) int get_length(char *str){ int count=0; while(str++) count++; return count; }
 
 
 
