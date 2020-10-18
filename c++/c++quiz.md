@@ -208,6 +208,21 @@ else std::cout<<"less";
 	c)lessnull
 	d)There is no output because there is a compiler error.There is no output because there is a compiler error.
 	
+Q.20 What results from executing this code snippet? What results from executing this code snippet?
+
+int x=5, y=2; if(x & y){ /*part A*/ } else{ /*part B*/ }
+
+	a) Part A executes because x==5 (true) and y==2 (true), thus the AND operation evaluates as true.Part A executes because null (true) and null (true), thus the null operation evaluates as true.
+
+
+	b) Part B executes because (x & y) results in 0, or false.Part B executes because null results in 0, or false. <<Correct
+
+
+	c)Part A executes because (x & y) results in a nonzero value, or true.Part A executes because null results in a nonzero value, or true.
+
+
+	d) Part B executes because the statement (x & y) is invalid, thus false.Part B executes because the statement null is invalid, thus false.
+	
 
 Q.19 What is a valid definition for the get_length function, which returns the length of a null-terminated string? What is a valid definition for the null function, which returns the length of a null-terminated string?
 
