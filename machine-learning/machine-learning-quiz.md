@@ -25,9 +25,9 @@
 - [x] data
 
 #### Q05. Your company wants to predict whether existing automotive insurance customers are more likely to buy homeowners insurance. It created a model to better predict the best customers contact about homeowners insurance, and the model had a low variance but high bias. What does that say about the data model?
-- [ ] It was consistently wrong.
+- [x] It was consistently wrong.
 - [ ] It was inconsistently wrong.
-- [x] It was consistently right.
+- [] It was consistently right.
 - [ ] It was equally right end wrong.
 
 #### Q06. You want to identify global weather patterns that may have been affected by climate change. To do so, you want to use machine learning algorithms to find patterns that would otherwise be imperceptible to a human meteorologist. What is the place to start?
