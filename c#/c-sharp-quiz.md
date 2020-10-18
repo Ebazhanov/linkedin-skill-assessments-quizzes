@@ -339,9 +339,8 @@ loginCallback(true);
 - [x] sealed class User 
 - [ ] private sealed class User 
 
-
-
-
-
-
-
+#### Q40. How would you write a delegeate named ResultCallback with an int parameter named responseCode? 
+- [ ] `public delegate void ResultCallback<(int) responseCode>`;
+- [ ] `public delegate ResultCallback(int responseCode)`;
+- [x] `public delegate void ResultCallback(int responseCode)`;
+- [ ] `public void delegate ResultCallback<int responseCode>`;

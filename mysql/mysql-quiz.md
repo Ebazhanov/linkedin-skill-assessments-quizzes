@@ -390,3 +390,9 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 - [x] SHOW TABLES;  
 - [] LIST TABLES;
 - [] SELECT ALL TABLES;
+
+#### Q53. Which choice is not one of the table maintenance statements?
+- [] CHECK TABLE;
+- [x] CREATE TABLE;  
+- [] ANALYZE TABLE;
+- [] OPTIMIZE TABLE;
