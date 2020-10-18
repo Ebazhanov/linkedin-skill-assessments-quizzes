@@ -26,9 +26,9 @@
 
 #### Q05. Your company wants to predict whether existing automotive insurance customers are more likely to buy homeowners insurance. It created a model to better predict the best customers contact about homeowners insurance, and the model had a low variance but high bias. What does that say about the data model?
 - [ ] It was consistently wrong.
-- [ ] It was inconsistently wrong.
+- [x] It was inconsistently wrong. ->> references: [https://medium.com/datadriveninvestor/bias-and-variance-in-machine-learning-51fdd38d1f86](https://medium.com/datadriveninvestor/bias-and-variance-in-machine-learning-51fdd38d1f86)
 - [ ] It was consistently right.
-- [x] It was equally right end wrong.
+- [ ] It was equally right end wrong.
 
 #### Q06. You want to identify global weather patterns that may have been affected by climate change. To do so, you want to use machine learning algorithms to find patterns that would otherwise be imperceptible to a human meteorologist. What is the place to start?
 - [ ] Find labeled data of sunny days so that the machine will learn to identify bad weather.
