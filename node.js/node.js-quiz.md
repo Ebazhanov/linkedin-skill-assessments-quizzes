@@ -23,9 +23,9 @@ Q4. Which of the following modules is NOT a built-in module in Node?
 - http2
 
 Q5. Which fs module method can be used to read the content of a file without buffering it in memory?
-- read <<<<----Might be
+- read
 - readFile
-- createReadStream
+- createReadStream <<<<----Correct
 - readFileSync
 
 Q6. Which of the following DNS module methods uses the underlying OS facilities and does not necessarily perfrom any network communication?
