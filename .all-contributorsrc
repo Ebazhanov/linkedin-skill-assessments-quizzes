@@ -1269,6 +1269,15 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "mozgit",
+      "name": "Ilya Komarov",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2301052?v=4",
+      "profile": "https://github.com/mozgit",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
