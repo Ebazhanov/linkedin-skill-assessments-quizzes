@@ -1299,6 +1299,16 @@
         "design",
         "fundingFinding"
       ]
+    },
+    {
+      "login": "andreysaf",
+      "name": "Andrey Safonov",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6531389?v=4",
+      "profile": "https://www.andreysafonov.com",
+      "contributions": [
+        "design",
+        "fundingFinding"
+      ]
     }
   ],
   "contributorsPerLine": 7,
