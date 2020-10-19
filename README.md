@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-138-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-139-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
   
@@ -260,6 +260,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/mozgit"><img src="https://avatars0.githubusercontent.com/u/2301052?v=4" width="100px;" alt=""/><br /><sub><b>Ilya Komarov</b></sub></a><br /><a href="#design-mozgit" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/DemigodMs"><img src="https://avatars3.githubusercontent.com/u/72858244?v=4" width="100px;" alt=""/><br /><sub><b>DemigodMs</b></sub></a><br /><a href="#content-DemigodMs" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/rapunzel127"><img src="https://avatars1.githubusercontent.com/u/44580953?v=4" width="100px;" alt=""/><br /><sub><b>Mekha Hridya</b></sub></a><br /><a href="#design-rapunzel127" title="Design">🎨</a> <a href="#fundingFinding-rapunzel127" title="Funding Finding">🔍</a></td>
+    <td align="center"><a href="https://www.andreysafonov.com"><img src="https://avatars2.githubusercontent.com/u/6531389?v=4" width="100px;" alt=""/><br /><sub><b>Andrey Safonov</b></sub></a><br /><a href="#design-andreysaf" title="Design">🎨</a> <a href="#fundingFinding-andreysaf" title="Funding Finding">🔍</a></td>
   </tr>
 </table>
 
