@@ -396,3 +396,9 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 - [x] CREATE TABLE;  
 - [] ANALYZE TABLE;
 - [] OPTIMIZE TABLE;
+
+#### Q54. In which table does MySQL store passwords for user accounts?
+- [] mysql.accounts;
+- [] mysql.passwords;  
+- [] mysql.admin;
+- [x] mysql.user;
