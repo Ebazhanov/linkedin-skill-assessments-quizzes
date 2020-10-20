@@ -1311,6 +1311,16 @@
         "design",
         "fundingFinding"
       ]
+    },
+    {
+      "login": "neslinesli93",
+      "name": "Tommaso",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1112539?v=4",
+      "profile": "https://tommasopifferi.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
