@@ -519,4 +519,43 @@ printA();
 * undefined the undefined <<<---CORRECT
 * undefined the 1
 
+#### Q57. For the following class, how do you get the value of 42 from "X" ?
+```javascript
+class X {
+    get Y() { return 42; }
+}
+var x = new X();
+```
+- x.Y <<<<----Correct
+- x.Y()
+- x.get('Y')
+- x.get().Y
+
+#### Q58. Which choice is not a unary operator?
+
+- void
+- delete
+- instanceof
+- typeof
+
+#### Q59. How does the forEach() method differ from a for statement?
+
+- forEach allows you to specify your own iterator, wheras for does not.
+- forEach can be used only with strings, whereas for can be used with additional data types.
+- forEach can be used only with an array, whereas for can be used with additional data types.
+- for loops can be nested; whereas forEach loops cannot.
+
+#### Q60. What will be logged to the console?
+```javascript
+"use strict";
+function logThis() {
+    this.desc = "logger";
+    console.log(this);
+}
+new logThis();
+```
+- undefined
+- function
+- windows
+- {desc: "logger"}
 
