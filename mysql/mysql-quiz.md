@@ -402,3 +402,9 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 - [] mysql.passwords;  
 - [] mysql.admin;
 - [x] mysql.user;
+
+#### Q55. Management has requested that you build an employee database. You need to include each employee's current position and salary, as well as all prior positions and salaries with the company. You decide to use a one-to-many structure: an employee table with the main information such as name and address, and an employment table with position and salary history. You can use the employeelD field to connect them. What is employment.employeelD an example of?
+- [] primary key; 
+- [] secondary key;
+- [x] foreign key; 
+- [] alternet key;
