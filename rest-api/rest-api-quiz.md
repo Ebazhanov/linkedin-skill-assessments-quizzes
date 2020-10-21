@@ -225,3 +225,10 @@
 - [x] `GET /users/{id}`
 - [ ] `GET /user?id={id}`
 - [ ] `GET /users?id={id}`
+
+#### Q33. What is the purpose of a link relation?
+
+- [ ] `to describe relationships between resources or actions`
+- [ ] `to describe subresources related to the current one`
+- [ ] `to link two resources together`
+- [ ] `to describe a resource and its purpose`
