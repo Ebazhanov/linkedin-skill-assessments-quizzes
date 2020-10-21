@@ -408,3 +408,45 @@ h2 + p {
 - element:hover {transform: scale(0.5);} <<<<---Correct
 - element:hover {scale: 50%;}
 - element:hover {transform: scale(50%);}
+
+### Q39. Which statement regarding icon fonts is true?
+- Icon fonts can be inserted only using JavaScript.
+- Icon fonts are inserted as inline images.
+- Icon fonts require browser extensions.
+- Icon fonts can be styled with typography-related properties such as font-size and color.
+
+### Q40. The values for the font-weight property can be keywords or numbers. For each numbered value below, what is the associated keyword?
+			font-weight: 400;
+			font-weight: 700;			
+- bold; normal
+- normal; bold
+- light; normal
+- normal; bold
+
+### Q41. If the width of the container is 500 pixels, what would the width of the three columns be in this layout?
+         .grid {
+			display: grid;
+		 grid-template-columns: 50px 1fr 2fr;
+		}
+- 50px, 150px, 300px
+- 50px, 200px, 300px
+- 50px, 100px, 200px
+- 50px, 50px, 100px
+
+### Q42. Using the :nth-child pseudo class, what would be the most efficient way to style every third item in a list, no matter how many items are present, starting with item 2?
+
+- li:nth-child(3+2n){
+	margin: 0 5 px;
+	}
+- li:nth-child(3n+2){
+	margin: 0 5 px;
+	}
+- li:nth-child(2),
+  li:nth-child(5),
+  li:nth-child(8){
+	margin: 0 5 px;
+	}
+- li:nth-child(2n+3){
+	margin: 0 5 px;
+	}
+
