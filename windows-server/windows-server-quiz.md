@@ -273,3 +273,9 @@
 - [ ] to implement fault tolerance zero downtime for the VM
 - [ ] to protect data from loss
 - [ ] to prevent nodes in a cluster from accessing a storage location
+
+#### Q46. When setting up a new RADIUS client, what piece of information verifies a secure and trusted connection with the RADIUS server?
+- [ ] shared secret
+- [ ] hash key
+- [ ] vendor name availability
+- [ ] authentication methods

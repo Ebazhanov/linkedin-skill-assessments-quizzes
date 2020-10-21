@@ -249,3 +249,25 @@ main(){
 - [ ] dealloc()
 - [ ] release()
 - [x] free()
+
+#### Q18. In C language what are the basic building blocks that are constructed together to write a program?
+
+- [ ] keywords
+- [ ] identifiers
+- [x] tokens
+- [ ] functions
+
+#### Q19. When is memory for a variable allocated?
+
+- [ ] during the assigment of the variable
+- [ ] during the initialization of the variable
+- [x] during the declaration of the variable
+- [ ] during the definition of the variable
+
+#### Q20. By default c uses the call by value method to pass arguments to functions. How can you invoke the call by reference method?
+
+- [x] by using pointers
+- [ ] by declaring functions separately from defining them
+- [ ] by using recursive functions
+- [ ] by using global variables
+

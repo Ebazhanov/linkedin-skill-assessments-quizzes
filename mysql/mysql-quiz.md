@@ -372,3 +372,33 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 - [x] updatable
 - [] temptable
 - [] undefined
+
+#### Q50. What is the MySQL perror command-line utility used for?
+- [] to display your version of MySQL
+- [] to display operating system error codes  
+- [] to display default settings that are in error  
+- [x] to display storage error codes
+
+#### Q51. How can you list all columns for a given table?
+- [] SHOW table COLUMNS;
+- [x] SHOW COLUMNS FROM table;  
+- [] LIST table COLUMNS;
+- [] SELECT COLUMNS FROM table;  
+
+#### Q52. How would you list the full set of tables in the currently selected database?
+- [] SELECT * FROM DATABASE;
+- [x] SHOW TABLES;  
+- [] LIST TABLES;
+- [] SELECT ALL TABLES;
+
+#### Q53. Which choice is not one of the table maintenance statements?
+- [] CHECK TABLE;
+- [x] CREATE TABLE;  
+- [] ANALYZE TABLE;
+- [] OPTIMIZE TABLE;
+
+#### Q54. In which table does MySQL store passwords for user accounts?
+- [] mysql.accounts;
+- [] mysql.passwords;  
+- [] mysql.admin;
+- [x] mysql.user;
