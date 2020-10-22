@@ -449,4 +449,3 @@ h2 + p {
 - li:nth-child(2n+3){
 	margin: 0 5 px;
 	}
-
