@@ -168,7 +168,7 @@
 - [ ] `no-proxy`
 - [ ] `client-only`
 - [ ] `restricted`
-- [ ] `private`
+- [x] `private`
 
 #### Q25. Which OAuth grant type can support a refresh token?
 
