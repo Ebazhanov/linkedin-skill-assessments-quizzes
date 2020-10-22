@@ -26,6 +26,7 @@ Submitted in a public repo AND (
 
 | Quiz      |  Status |
 | --------- |  ------ |
+| [Adobe-Illustrator](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/adobe-illustrator-quiz.md) | answers required |
 | [Adobe-Photoshop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/adobe-photoshop-quiz.md) | answers required |
 | [Agile Methodologies](https://github.com/Ebazhanov/in-quiz-questions/blob/master/agile-methodologies/agile-methodologies-quiz.md) | with answers |
 | [Android](https://github.com/Ebazhanov/in-quiz-questions/blob/master/android/android-quiz.md) | answers required |
