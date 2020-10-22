@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-140-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-142-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
   
@@ -72,7 +72,7 @@ Submitted in a public repo AND (
 | [Swift](https://github.com/Ebazhanov/in-quiz-questions/blob/master/swift/swift-quiz.md) |  with answers |
 | [Transact-SQL (T-SQL)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/t-sql/t-sql-quiz.md) |  with answers  |
 | [Windows Server](https://github.com/Ebazhanov/in-quiz-questions/blob/master/windows-server/windows-server-quiz.md) |  partially answered  |
-| [WordPress](https://github.com/Ebazhanov/in-quiz-questions/blob/master/wordpress/wordpress-quiz.md) |  with answers  |
+| [WordPress](https://github.com/Ebazhanov/in-quiz-questions/blob/master/wordpress/wordpress-quiz.md) |  partially answered  |
 | [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md) |  answers required |
 
 ## Contributors ✨
@@ -262,6 +262,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/rapunzel127"><img src="https://avatars1.githubusercontent.com/u/44580953?v=4" width="100px;" alt=""/><br /><sub><b>Mekha Hridya</b></sub></a><br /><a href="#design-rapunzel127" title="Design">🎨</a> <a href="#fundingFinding-rapunzel127" title="Funding Finding">🔍</a></td>
     <td align="center"><a href="https://www.andreysafonov.com"><img src="https://avatars2.githubusercontent.com/u/6531389?v=4" width="100px;" alt=""/><br /><sub><b>Andrey Safonov</b></sub></a><br /><a href="#design-andreysaf" title="Design">🎨</a> <a href="#fundingFinding-andreysaf" title="Funding Finding">🔍</a></td>
     <td align="center"><a href="https://tommasopifferi.com"><img src="https://avatars3.githubusercontent.com/u/1112539?v=4" width="100px;" alt=""/><br /><sub><b>Tommaso</b></sub></a><br /><a href="#design-neslinesli93" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=neslinesli93" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/jessicasalbert"><img src="https://avatars0.githubusercontent.com/u/66483878?v=4" width="100px;" alt=""/><br /><sub><b>Jessica Salbert</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=jessicasalbert" title="Code">💻</a> <a href="#design-jessicasalbert" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/JAYISAWSM"><img src="https://avatars0.githubusercontent.com/u/32494701?v=4" width="100px;" alt=""/><br /><sub><b>JAYANTH DOLAI</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=JAYISAWSM" title="Code">💻</a> <a href="#design-JAYISAWSM" title="Design">🎨</a></td>
   </tr>
 </table>
 
