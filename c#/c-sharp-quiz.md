@@ -158,7 +158,7 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [ ] descending
 - [ ] first in, first out
 
-#### Q17. Lambda expressions are open used in tandem with which of the following?
+#### Q17. Lambda expressions are often used in tandem with which of the following?
 
 - [ ] Namespaces
 - [x] LINQ
@@ -330,7 +330,7 @@ loginCallback(true);
 
 - [ ] Login successful... 
 - [ ] Valid user! 
-- [x] an error, because the method signature of Login doesn't match the delegate //It will throw an error because you cant apply Inheritance to methos that way.
+- [x] an error, because the method signature of Login doesn't match the delegate //It will throw an error because you cant apply Inheritance to methods that way.
 - [ ] Login successful... Valid user! 
 
 #### Q39. How would you declare a sealed class named User? 
@@ -344,3 +344,35 @@ loginCallback(true);
 - [ ] `public delegate ResultCallback(int responseCode)`;
 - [x] `public delegate void ResultCallback(int responseCode)`;
 - [ ] `public void delegate ResultCallback<int responseCode>`;
+
+#### Q41. What is the difference between non-static and static classes?
+- [] non-static classes need to be initialized before use, while static classes do not
+- [] non-static classes are accessible only from an interface while static classes are accessible from anywhere
+- [] non-static classes need to initialize all class members at runtime, while static classes do not
+- [] non-static classes do not need to be initialized while static classes do
+
+#### Q42. Which characteristic prevents this code from compiling?
+public int age="28"
+- [x] type safety
+- [] single inheritance
+- [] dependency injection
+- [] multiple inheritance
+
+#### Q43. How would you serialize this class?
+public class User {}
+- [] mark the User class with the DeserializableAttribute
+- [] Declare it as public serializable class User {}
+- [] Mark it with the SerializableAttribute
+- [] Declare it as private serializable class User{}
+
+#### Q44. How would you write a delegate named ResultCallback with an int parameter named responseCode
+- [] public delegate ResultCallback(int responseCode)
+- [] public delegate void ResultCallback<(int) responseCode>;
+- [] public void delegate ResultCallback<int responseCode>;
+- [x] public delegate void ResultCallback(int responseCode);
+
+#### Q45. What is the difference between a static and non-static method?
+- [] non-static methods always need to have a void return type
+- [] non-static methods do not have access to static member variables
+- [x] static methods do not have to instantiate an instance of the class to call the method
+- [] static methods always have to be public
