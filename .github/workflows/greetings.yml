@@ -1,6 +1,7 @@
 # https://github.com/marketplace/actions/auto-message-for-pr-s-and-issues
 name: Auto message for PR's and Issues
-on: issues
+# on: [pull_request, issues]
+on: [issues]
 jobs:
   greeting:
     name: Hello new contributor
