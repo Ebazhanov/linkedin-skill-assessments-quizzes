@@ -549,3 +549,24 @@ li:nth-child(2n+3) {
     margin: 0 5 px;
 }
 ```
+
+### Q43. Which selector would select only internal links within the current page?
+
+- [ ] a[href="#"] {...}
+- [ ] a[href~="#"]
+- [x] a[href^="#"]
+- [ ] a[href="#"]
+
+### Q44. What is not true about class?
+
+- [x] Only one class value can be assigned to an element.
+- [ ] An element can have multiple class value.
+- [ ] Class selectors are marked with a leading period.
+- [ ] More than one element can have the same class value.
+
+### Q45. What is the difference between the margin and padding properties?
+
+- [ ] Margin adds space around and inside of an element; padding adds space only inside of an element.
+- [x] Margin adds space around an element; padding adds apace inside of an element.
+- [ ] Margin adds a line around an element, padding adds space inside of an element.
+- [ ] Margin adds space inside of an element, padding adds space around an element.
