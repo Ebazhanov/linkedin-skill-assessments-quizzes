@@ -341,15 +341,15 @@ Q41. Which type of class allows QuerySets and model instances to be converted to
 - viewsets
 
 Q42. How should the code end?
-{% if spark >= 50 %}
+{ percentage if spark >= 50 percentage }
   Lots of spark
-{% elif spark == 42 %}
+{percentage elif spark == 42 percentage}
   The answer
 
-- {% else %}
-👍- {% endif %} 
+- { percentage else percentage}
+👍- {percentage endif percentage} 
 - Nothing needed
-- {% end %}
+- {percentage end percentage}
 
 
 Q43 Which code block will create a serializer?
