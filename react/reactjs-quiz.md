@@ -427,3 +427,26 @@ class clock extends React.Component {
 - `React.split`
 - `React.lazy` <<<<<--CORRECT
 - `React.memo`
+
+#### Q45. How do you invoke setDone only when component mounts, using hooks?
+
+```javascript
+function MyComponent(props) {
+   const [done, setDone] = useState(false);
+
+   return <h1>Done: {done}</h1>
+}
+```
+
+- `useEffect(() => {
+    setDone(true);
+});`
+- `useEffect(() => {
+    setDone(true);
+}, []);`
+- `useEffect(() => {
+    setDone(true);
+}, [setDone]);` <<<<<--CORRECT
+- `useEffect(() => {
+    setDone(true);
+}, [done, setDone]);`
