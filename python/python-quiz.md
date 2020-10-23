@@ -572,10 +572,10 @@ fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
 - [ ] `Class methods hold all of the data for a particular class.`
 
 #### Q53. What does it mean for a function to have linear runtime?
-- [ ] You did not use very many advanced computer programming concepts in your code.
-- [ ] The difficulty level your code is written at is not that high.
-- [ ] It will take your program less than half a second to run.
-- [x] The amount of time it takes the function to complete grows linearly as the input size increases.
+- [ ] `You did not use very many advanced computer programming concepts in your code.`
+- [ ] `The difficulty level your code is written at is not that high.`
+- [ ] `It will take your program less than half a second to run.`
+- [x] `The amount of time it takes the function to complete grows linearly as the input size increases.`
 
 #### Q54. What is the proper way to define a function?
 - [ ] `def getMaxNum(list_of_nums):
@@ -588,13 +588,13 @@ fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
         # body of function goes here`
 
 #### Q55. According to the PEP 8 coding style guidelines, how should constant values be named in Python?
-- [ ] in camel case without using underscores to separate words -- e.g. maxValue = 255
-- [ ] in lowercase with underscores to separate words -- e.g. max_value = 255
-- [x] in all caps with underscores separating words -- e.g. MAX_VALUE = 255
-- [ ] in mixed case without using underscores to separate words -- e.g. MaxValue = 255
+- [ ] `in camel case without using underscores to separate words -- e.g. maxValue = 255`
+- [ ] `in lowercase with underscores to separate words -- e.g. max_value = 255`
+- [x] `in all caps with underscores separating words -- e.g. MAX_VALUE = 255`
+- [ ] `in mixed case without using underscores to separate words -- e.g. MaxValue = 255`
 
 #### Q56. Describe the functionality of a deque
-- [ ] A deque adds items to one side and remove items from the other side.
-- [ ] A deque adds items to either or both sides, but only removes items from the top.
-- [x] A deque adds items at either or both ends, and remove items at either or both ends.
-- [ ] A deque adds items only to the top, but remove from either or both sides.
+- [ ] `A deque adds items to one side and remove items from the other side.`
+- [ ] `A deque adds items to either or both sides, but only removes items from the top.`
+- [x] `A deque adds items at either or both ends, and remove items at either or both ends.`
+- [ ] `A deque adds items only to the top, but remove from either or both sides.`
