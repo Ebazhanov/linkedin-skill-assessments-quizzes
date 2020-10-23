@@ -1390,6 +1390,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "imitavor",
+      "name": "imitavor",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/73336620?v=4",
+      "profile": "https://github.com/imitavor",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
