@@ -10,7 +10,7 @@
 - [ ] Matt Mullenweg
 - [ ] Automattic
 
-#### Q3. 
+#### Q3. What is the name of the open-source project that serves as a bug tracker and project management tool for WordPress? 
 - [ ] HackerOne
 - [ ] Redmine
 - [ ] Trac
@@ -267,3 +267,53 @@ if ( ! defined( 'ABSPATH' ) ) {
 - [X] Super Admin
 - [ ] MU Admin
 - [ ] Multisite Master
+
+### Q38. How would you write a text string containing "Hello World!" in a way that makes it possible for someone else to translate the string into a different language?
+- [ ] apply_filters( 'Hello World!', 'mytextdomain' );
+- [ ] __( 'Hello World!', 'mytextdomain' );
+- [ ] $string = "Hello World!";
+- [ ] esc_html( 'Hello World!', 'mytextdomain' );
+
+### Q39. What is the core mission of WordPress?
+- [ ] to make free software
+- [ ] to democratize publishing and the freedoms that come with open source
+- [ ] to make money
+- [ ] to encourage blogging
+
+### Q40. Which of the following is NOT a suggested security improvement for your WordPress website?
+- [ ] The site should communicate with WordPress.org.
+- [ ] Remove inactive themes.
+- [ ] Do not output debug information.
+- [ ] WordPress updates are accomplished manually only.
+
+### Q41. What's the primary difference between template tags prefaced with the_ versus get_the_?
+- [ ] Template tags prefaced with the_ can be used directly within a template. Template tags prefaced with get_the are generally reserved for partial templates.
+- [ ] Template tags prefaced with the_ return a value. Template tags prefaced with get_the display a value.
+- [ ] Template tags prefaced with the_ display a value. Template tags prefaced with get_the return a value.
+- [ ] Template tags prefaced with the_ don't accept arguments. Template tags prefaced with get_the do accept arguments.
+
+### Q42. How can you add a custom script that needs to run only on the contact page of a site? The slug of the page is contact.
+Link to the script directly from a template named page-contact.php using the get_header() template tag, like this: 
+get_header( '<script src="/my-script.js"></script>' );
+Use functions.php to conditionally load the script by hooking it to wp_enqueue_scripts(), like this: 
+add_action( 'wp_enqueue_scripts', 'load_scripts' );
+
+function load_scripts() { 
+if ( is_page( 'contact' ) ) {
+echo '<script src="/my-script.js"></script>';
+}
+}
+
+Use functions.php to conditionally load the script by hooking it to wp_enqueue_scripts(), like this: 
+add_action( 'wp_enqueue_scripts', 'load_scripts' );
+function load_scripts() { 
+if ( is_page( 'contact' ) ) {
+wp_enqueue_script( 'script', get_template_directory_uri() . '/script.js' );
+}
+}
+
+- [ ] Link to the script directly from a template named page-contact.php, like this: 
+- [ ] <head>
+- [ ] <script src="/my-script.js"></script>
+- [ ] </head>
+
