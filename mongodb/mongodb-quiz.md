@@ -226,3 +226,51 @@ MongoDB Assessment
 - [ ] acces the database only to perform read operations
 - [x] not access the data
 
+#### Q35. On a newly created collection, which field will have an index?
+
+- [ ] the name field
+- [ ] the Objectid field
+- [x] the _id field
+- [ ] no field will have an index
+
+#### Q36. You have a collection of thousands of students. You'd like to return the second set of 20 documents from the sorted collection. What is the proper order in which to apply the operations?
+
+- [ ] limit, skip, sort
+- [ ] sort, limit, skip
+- [ ] limit, sort, skip
+- [x] sort, skip, limit
+
+#### Q37. You would like the stats() command to return kilobytes instead of bytes. Which command should you run? 
+
+- [x] db.vehicle.stats(1024)
+- [ ] db.vehicle.stats("kilobytes")
+- [ ] db.vehicle.stats(true)
+- [ ] db.vehicle.stats("kb")
+
+#### Q38. You'd like to modify an existing index. What is the best way to do this? 
+
+- [ ] Use the reIndex() command to modify the index.
+- [ ] Delete the original index and create a new index.
+- [ ] Call the createIndex() command with the update option.
+- [ ] Use the updateIndex() command.
+
+#### Q39. You need to delete the index you created on the description field. Which command will accomplish this? 
+
+- [x] db.vehicle.dropIndex("description_text")
+- [ ] db.vehicle.dropIndex({"description":"text"})
+- [ ] db.vehicle.removeIndex({"description":"text"})
+- [ ] db.vehicle.removeIndex("description_text")
+
+#### Q40. You would like to know how many different categories you have. Which query will best get the job done? 
+
+- [ ] db.vehicle.distinct("category")
+- [ ] db.vehicle.unique("category")
+- [x] db.vehicle.distinct("category").count()
+- [ ] db.vehicle.distinct("category").length
+
+#### Q41. From the MongoDB shell, how do you create a new document in the customers collection? 
+
+- [ ] db.customers.add({name: "Bob"})
+- [ ] db.customers.save({name: "Bob"})
+- [ ] db.customers.create({name: "Bob"})
+- [ ] db.customers.new({name: "Bob"})
