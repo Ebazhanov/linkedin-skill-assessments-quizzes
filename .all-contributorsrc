@@ -1362,6 +1362,15 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "sukumarc",
+      "name": "Sukumar Chandrasekaran",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9497448?v=4",
+      "profile": "http://www.sukumarc.com",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
