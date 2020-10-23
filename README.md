@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-148-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-149-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
   
@@ -275,6 +275,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/imitavor"><img src="https://avatars2.githubusercontent.com/u/73336620?v=4" width="100px;" alt=""/><br /><sub><b>imitavor</b></sub></a><br /><a href="#design-imitavor" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=imitavor" title="Code">💻</a></td>
+    <td align="center"><a href="https://salihkilicli.github.io/"><img src="https://avatars1.githubusercontent.com/u/42879163?v=4" width="100px;" alt=""/><br /><sub><b>Salih Kilicli</b></sub></a><br /><a href="#design-salihkilicli" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=salihkilicli" title="Code">💻</a></td>
   </tr>
 </table>
 

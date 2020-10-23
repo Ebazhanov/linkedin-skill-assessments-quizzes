@@ -1400,6 +1400,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "salihkilicli",
+      "name": "Salih Kilicli",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/42879163?v=4",
+      "profile": "https://salihkilicli.github.io/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
