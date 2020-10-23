@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-146-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-147-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
   
@@ -271,6 +271,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://furkansayim.com"><img src="https://avatars1.githubusercontent.com/u/3766764?v=4" width="100px;" alt=""/><br /><sub><b>Furkan Sayım</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=xShuden" title="Code">💻</a> <a href="#design-xShuden" title="Design">🎨</a></td>
     <td align="center"><a href="http://www.sukumarc.com"><img src="https://avatars2.githubusercontent.com/u/9497448?v=4" width="100px;" alt=""/><br /><sub><b>Sukumar Chandrasekaran</b></sub></a><br /><a href="#design-sukumarc" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/98yejin"><img src="https://avatars1.githubusercontent.com/u/30521748?v=4" width="100px;" alt=""/><br /><sub><b>Yejin Park</b></sub></a><br /><a href="#design-98yejin" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=98yejin" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/alinooshabadi"><img src="https://avatars1.githubusercontent.com/u/646788?v=4" width="100px;" alt=""/><br /><sub><b>Ali Nooshabadi</b></sub></a><br /><a href="#design-alinooshabadi" title="Design">🎨</a></td>
   </tr>
 </table>
 
