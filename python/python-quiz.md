@@ -584,9 +584,9 @@ fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
         # body of function goes here`
 - [ ] `func getMaxNum(list_of_nums):
         # body of function goes here`
-- [x] `def get_max_num(list_of_nums):
-        # body of function goes here`  [explanation](https://www.python.org/dev/peps/pep-0008/)  
-        
+- [x] `def get_max_num(list_of_nums): 
+        # body of function goes here`
+
 #### Q55. According to the PEP 8 coding style guidelines, how should constant values be named in Python?
 - [ ] in camel case without using underscores to separate words -- e.g. maxValue = 255
 - [ ] in lowercase with underscores to separate words -- e.g. max_value = 255
