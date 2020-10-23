@@ -1352,6 +1352,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "xShuden",
+      "name": "Furkan Sayım",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3766764?v=4",
+      "profile": "https://furkansayim.com",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
