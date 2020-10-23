@@ -258,3 +258,159 @@ django.getVersion()
 👍 - import django
 django.get_version()
 - python -c django --version
+
+Q32. You should use the http method __ to read data and __ to update or create data
+- read;write
+- get; post
+- post; get
+👍 - get; patch
+
+Q33. When should you employ the POST method over GET for submitting data?
+- when efficiency is important
+- for caching data
+- help your browser with debugging
+👍 - data may be sensitive
+
+Q34. When to use the Django sites framework?
+👍 - if your single installation powers more than one site
+- if you need to serve static as well as dynamic content
+- if you want your app have a fully qualified domain name
+- if you are expecting more than 10.000 users
+
+Q35. Which infrastructure do you need:
+title=models.charfield(max_length=100, validators=[validate_spelling])
+- inizialized array called validators
+👍 - a validators file containing a function called validate_spelling imported at the top of model
+- a validators file containing a function called validate imported at the top of model
+- spelling package imported at the top of model
+
+Q36. What decorator is used to require that a view accepts only the get and head methods?
+👍 - require_safe()
+- require_put()
+- require_post()
+- require_get()
+
+Q37. How would you define the relation between a book and an author - book has only one author.
+- class Author (models.model):
+book=models.foreignkey(Book,on_delete=models.cascade)
+class Book(models.model):
+name=models.charfield(max_length=100)
+
+👍 - class Author (models.model):
+name=models.charfield(max_length=100)
+class Book(models.model):
+author=models.foreignkey(Author,on_delete=models.cascade)
+
+- class Author (models.model):
+name=models.charfield(max_length=100)
+class Book(models.model):
+author=models.foreignkey(Author)
+
+- class Author (models.model):
+name=models.charfield(max_length=100)
+class Book(models.model):
+author=models.foreignkey(Author,on_delete=models.cascade)
+
+- class Author (models.model):
+name=models.charfield(max_length=100)
+class Book(models.model):
+author=Author.name
+
+Q38. What is a callable that takes a value and raises an error if the value fails?
+👍 - validator
+- deodorizer
+- mediator
+- regular expression
+
+Q39. To secure an API endpoint, making it accessible to registered users only, you can replace the rest_framework.permissions.allowAny value in the default_permissions section of your settings.py to
+- rest_framework.permissions.IsAdminUser
+👍 - rest_framework.permissions.IsAuthenticated
+- rest_framework.permissions.IsAuthorized
+- rest_framework.permissions.IsRegistered
+
+Q40. Which command would you use to apply a migration?
+- makemigration
+-update_db
+- applymigration
+👍-migrate
+
+Q41. Which type of class allows QuerySets and model instances to be converted to native Python data types for use in APIs?
+- objectwriters
+👍- serializers
+- picklers
+- viewsets
+
+Q42. How should the code end?
+{% if spark >= 50 %}
+  Lots of spark
+{% elif spark == 42 %}
+  The answer
+
+- {% else %}
+👍- {% endif %} 
+- Nothing needed
+- {% end %}
+
+
+Q43 Which code block will create a serializer?
+from rest_framework import serializers
+from .models import Planet
+- [x]
+class PlanetSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=Planet
+        fields=('name','position', 'mass', 'rings')
+
+
+- []
+from rest_framework import serializers
+from .models import Planet
+class PlanetSerializer():
+    class Meta:
+        fields=('name','position', 'mass', 'rings')
+        model=Planet
+
+- []
+from django.db import serializers
+from .models import Planet
+class PlanetSerializer(serializers.ModelSerializer):
+        fields=('name','position', 'mass', 'rings')
+        model=Sandwich
+
+- []
+from django.db import serializers
+from .models import Planet
+class PlanetSerializer(serializers.ModelSerializer):
+    class Meta:
+        fields=('name')
+        model=Planet
+
+Q44 Which class allows you to automatically create a Serializer class with fields and validators that correspond to your model's fields?
+- [x] ModelSerializer
+- [] Model
+- [] DataSerializer
+- [] ModelToSerializer
+
+Q45 Which command to access the built-in admin tool for the first time?
+- [] django-admin setup
+- [] django-admin runserver
+- [] python manage.py createuser
+- [x] python manage.py createsuperuser
+
+Q46. Virtual environments are for managing dependencies. Which granularity works best?
+- [x] you should set up a new virtualenv for each Django project
+- [] They should not be used
+- [] Use the same venv for all your Django work
+- [] Use a new venv for each Django app
+
+Q47. What executes various Django commands such as running a webserver or creating an app?
+- [] migrate.py
+- [] wsgi.py
+- [x] manage.py
+- [] runserver
+
+Q48. What do Django best practice suggest should be "fat"?
+- [x] models
+- [] controllers
+- [] programmers
+- [] clients
