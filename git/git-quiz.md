@@ -554,3 +554,31 @@ git reset --hard origin/master
 - [ ] lightweight and immutable
 - [ ] heavy and annotated
 - [x] lightweight and annotated 
+
+#### Q70. After staging a series of changes to the index, which command could you use to review them prior to a commit?
+
+- [x] git diff --cached
+- [ ] git diff
+- [ ] git diff --HEAD
+- [ ] git status -v -v
+
+#### Q71. What does the git stash drop command do?
+
+- [x] removes the most recent stash entry
+- [ ] deletes the stash
+- [ ] lists everything in the stash
+- [ ] throws away the oldest entry
+
+#### Q72. What command creates a new branch from the currently checked-out branch?
+
+- [ ] git -b checkout <nameOfBranch>
+- [ ] git branch
+- [ ] git checkout <nameOfBranch>
+- [x] git checkout -b <nameOfBranch>
+
+#### Q73. After mistakenly staging a file named myFile to the index, how would you remove it from the index to exclude it from your next commit?
+
+- [ ] Use git reset HEAD^.
+- [x] Use git reset myFile.txt.
+- [ ] Use git -rm myFile.txt.
+- [ ] Use git reset.
