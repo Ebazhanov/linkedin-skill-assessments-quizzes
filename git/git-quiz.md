@@ -582,3 +582,96 @@ git reset --hard origin/master
 - [x] Use git reset myFile.txt.
 - [ ] Use git -rm myFile.txt.
 - [ ] Use git reset.
+
+#### Q74. What happens if you run this command from your master branch?
+
+git checkout -b beta-test
+
+- [ ] The beta-test branch will be checked out of the current commit.
+- [ ] The beta-test branch will be checked out and deleted.
+- [ ] A new branch called beta-test will be created and switched to.
+- [ ] The beta-test branch will be merged with the master branch.
+
+#### Q75. How does Git internally manage branches?
+
+- [ ] by creating a pionter to the most recent snapshot/commit for the branch.
+- [ ] by creating a data array of branches in the same repository.
+- [ ] by creating a data dictionary of code changes.
+- [ ] be creating a debug log that stores repository changes.
+
+#### Q76. You want to perform a git reset but cannot recall all of the available options. What command would you use to see a description of them?
+
+- [ ] git help reset
+- [ ] git -h reset
+- [ ] git options reset
+- [ ] git reset help
+
+#### Q77. What is a remote repository?
+
+- [ ] a version of the repository that mirrors changes made in the local repository's master branch for open-source collaboration efforts
+- [ ] the lead repository elected by the Git arbitrator found within local repositories of collaborating team members
+- [ ] a read-only version of the repository stored on a backup server in case local repositories become lost or corrupted
+- [ ] a version of the repository hosted on the internet or network that is pushed to or pulled from by collaborators
+
+#### Q78. After modifying some existing files in a repository, you decide to discard the changes. What command can you use?
+
+- [ ] git restore
+- [ ] git undo
+- [ ] git clean
+- [x] git checkout .
+
+#### Q79. After starting to merge a feature branch into your master branch, you encounter a merge conflict and decide you do not want to perform the merge. How can you stop the merge and restore to the pre-merge state?
+
+- [ ] Use git restore -p.
+- [ ] Use git merge -u.
+- [x] Use git merge --abort.
+- [ ] Use git merge --undo.
+
+#### Q80. If you have several commits for a single feature, what is the most efficient way to restructure your commit history?
+
+- [ ] Use git stash to consolidate the commits under a new hash.
+- [ ] Use git squash to consolidate the commits together into a single coherent commit.
+- [ ] Delete the task commits and recommit with a new message.
+- [ ] Use git cherry-pick to place the commits in another branch.
+
+#### Q81. Which command correctly creates a lightweight tag?
+
+- [x] git tag v3.8.1
+- [ ] git tag --light "v3.8.1"
+- [ ] git tag v3.8.1 —-annotate -m "<tagMessage>"
+- [ ] git tag -l v3.8.1
+
+#### Q82. What is the main issue with using git rebase when working with multiple developers?
+
+- [ ] Rebase affects only your repository and creates a diff in the master branch.
+- [ ] Rebase creates a temporary copy of the master branch in the remote repo.
+- [ ] Rebase moves the HEAD of the remote master branch one commit forward.
+- [ ] Rebase deletes all commit history for the new feature branch.
+
+#### Q83. What Git workflow is used by teams that collaborate on a single branch and avoid creating long-lived development branches?
+
+- [ ] Git flow
+- [ ] Mainline flow
+- [x] Trunk-Based Development
+- [ ] GitHub flow
+
+#### Q84. Which option on the git log command allows you to limit output to commits made after certain data?
+
+- [x] --since
+- [ ] --sinceWhen
+- [ ] -<n>
+- [ ] --afterDate
+  
+ #### Q85. How would you delete unreachable objects older than a specified time from your project database?
+ 
+- [ ] git cache --obsolete <time>
+- [ ] git branch --rebase <time>
+- [ ] git delete --inert <time>
+- [ ] git prune --expire <time>
+  
+ #### Q86. What conflicts can occur when forcing a push after rebasing?
+ 
+- [ ] The remote master branch could have existing changes overwritten.
+- [ ] The origin URL will be reset to its default value.
+- [ ] The current HEAD will be deleted and can't be reinstated.
+- [ ] Nothing, it's common practice to force a push after rebasing.
