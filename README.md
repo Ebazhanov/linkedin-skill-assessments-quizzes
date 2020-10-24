@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-131-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-149-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
   
@@ -26,6 +26,7 @@ Submitted in a public repo AND (
 
 | Quiz      |  Status |
 | --------- |  ------ |
+| [Adobe-Illustrator](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/adobe-illustrator-quiz.md) | answers required |
 | [Adobe-Photoshop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/adobe-photoshop-quiz.md) | answers required |
 | [Agile Methodologies](https://github.com/Ebazhanov/in-quiz-questions/blob/master/agile-methodologies/agile-methodologies-quiz.md) | with answers |
 | [Android](https://github.com/Ebazhanov/in-quiz-questions/blob/master/android/android-quiz.md) | answers required |
@@ -72,7 +73,7 @@ Submitted in a public repo AND (
 | [Swift](https://github.com/Ebazhanov/in-quiz-questions/blob/master/swift/swift-quiz.md) |  with answers |
 | [Transact-SQL (T-SQL)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/t-sql/t-sql-quiz.md) |  with answers  |
 | [Windows Server](https://github.com/Ebazhanov/in-quiz-questions/blob/master/windows-server/windows-server-quiz.md) |  partially answered  |
-| [WordPress](https://github.com/Ebazhanov/in-quiz-questions/blob/master/wordpress/wordpress-quiz.md) |  with answers  |
+| [WordPress](https://github.com/Ebazhanov/in-quiz-questions/blob/master/wordpress/wordpress-quiz.md) |  partially answered  |
 | [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md) |  answers required |
 
 ## Contributors ✨
@@ -98,7 +99,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Chetan11-dev"><img src="https://avatars0.githubusercontent.com/u/53407137?v=4" width="100px;" alt=""/><br /><sub><b>Chetan</b></sub></a><br /><a href="#content-Chetan11-dev" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/shekari-ah"><img src="https://avatars0.githubusercontent.com/u/61600246?v=4" width="100px;" alt=""/><br /><sub><b>Amir Hossein Shekari</b></sub></a><br /><a href="#design-shekari-ah" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/SergDaut"><img src="https://avatars3.githubusercontent.com/u/65856306?v=4" width="100px;" alt=""/><br /><sub><b>SergDaut</b></sub></a><br /><a href="#design-SergDaut" title="Design">🎨</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/pramaniknilotpal/"><img src="https://avatars1.githubusercontent.com/u/33095476?v=4" width="100px;" alt=""/><br /><sub><b>Nilotpal Pramanik</b></sub></a><br /><a href="#design-goodday451999" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=goodday451999" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/pramaniknilotpal/"><img src="https://avatars1.githubusercontent.com/u/33095476?v=4" width="100px;" alt=""/><br /><sub><b>Nilotpal Pramanik</b></sub></a><br /><a href="#design-goodday451999" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=goodday451999" title="Code">💻</a> <a href="#content-goodday451999" title="Content">🖋</a> <a href="#business-goodday451999" title="Business development">💼</a></td>
     <td align="center"><a href="https://abhisaphire.github.io"><img src="https://avatars3.githubusercontent.com/u/43245214?v=4" width="100px;" alt=""/><br /><sub><b>Abhishek Kumar</b></sub></a><br /><a href="#design-AbhiSaphire" title="Design">🎨</a></td>
   </tr>
   <tr>
@@ -196,7 +197,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/GGJason"><img src="https://avatars0.githubusercontent.com/u/8362482?v=4" width="100px;" alt=""/><br /><sub><b>GGJason</b></sub></a><br /><a href="#design-GGJason" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/lewing00"><img src="https://avatars1.githubusercontent.com/u/46617523?v=4" width="100px;" alt=""/><br /><sub><b>LeeAnna Ewing</b></sub></a><br /><a href="#design-lewing00" title="Design">🎨</a> <a href="#ideas-lewing00" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="http://www.linkedin.com/in/jyotwal"><img src="https://avatars2.githubusercontent.com/u/19168650?v=4" width="100px;" alt=""/><br /><sub><b>kamal Jyotwal</b></sub></a><br /><a href="#design-kamaljyotwal" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/Bob-Johns"><img src="https://avatars2.githubusercontent.com/u/71194583?v=4" width="100px;" alt=""/><br /><sub><b>Bob-Johns</b></sub></a><br /><a href="#design-Bob-Johns" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Bob-Johns" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Bob-Johns"><img src="https://avatars2.githubusercontent.com/u/71194583?v=4" width="100px;" alt=""/><br /><sub><b>Bob-Johns</b></sub></a><br /><a href="#design-Bob-Johns" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Bob-Johns" title="Code">💻</a> <a href="#content-Bob-Johns" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/yunussalmanlyit"><img src="https://avatars0.githubusercontent.com/u/61629690?v=4" width="100px;" alt=""/><br /><sub><b>yunussalmanlyit</b></sub></a><br /><a href="#design-yunussalmanlyit" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=yunussalmanlyit" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/chilcot"><img src="https://avatars0.githubusercontent.com/u/62221068?v=4" width="100px;" alt=""/><br /><sub><b>chilcot</b></sub></a><br /><a href="#design-chilcot" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=chilcot" title="Code">💻</a></td>
   </tr>
@@ -216,7 +217,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://spencer-hayes.me/"><img src="https://avatars3.githubusercontent.com/u/24394743?v=4" width="100px;" alt=""/><br /><sub><b>Spencer Hayes-Laverdiere</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=shaye059" title="Code">💻</a></td>
     <td align="center"><a href="https://linkedin.com/in/aniketsoni/"><img src="https://avatars1.githubusercontent.com/u/47126963?v=4" width="100px;" alt=""/><br /><sub><b>Aniket Soni</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=aniketsoni1" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/tanmay5792"><img src="https://avatars2.githubusercontent.com/u/71548736?v=4" width="100px;" alt=""/><br /><sub><b>tanmay5792</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=tanmay5792" title="Code">💻</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/dina-taklit/"><img src="https://avatars3.githubusercontent.com/u/20540072?v=4" width="100px;" alt=""/><br /><sub><b>Dina Taklit</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=DinaTaklit" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/dina-taklit/"><img src="https://avatars3.githubusercontent.com/u/20540072?v=4" width="100px;" alt=""/><br /><sub><b>Dina Taklit</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=DinaTaklit" title="Code">💻</a> <a href="#design-DinaTaklit" title="Design">🎨</a> <a href="#content-DinaTaklit" title="Content">🖋</a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/dushyantsingh-ds"><img src="https://avatars3.githubusercontent.com/u/55306442?v=4" width="100px;" alt=""/><br /><sub><b>Dushyant Singh</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Dushyantsingh-ds" title="Code">💻</a></td>
@@ -252,6 +253,29 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/sidhesware3298"><img src="https://avatars0.githubusercontent.com/u/56552115?v=4" width="100px;" alt=""/><br /><sub><b>Ambika Sidhesware</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=sidhesware3298" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/mundoguero"><img src="https://avatars1.githubusercontent.com/u/1318156?v=4" width="100px;" alt=""/><br /><sub><b>mundoguero</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=mundoguero" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Darkus24"><img src="https://avatars1.githubusercontent.com/u/72884834?v=4" width="100px;" alt=""/><br /><sub><b>Darkus24</b></sub></a><br /><a href="#content-Darkus24" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Sou-786"><img src="https://avatars1.githubusercontent.com/u/63981549?v=4" width="100px;" alt=""/><br /><sub><b>Sou-786</b></sub></a><br /><a href="#content-Sou-786" title="Content">🖋</a> <a href="#design-Sou-786" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/banurekhaMohan279"><img src="https://avatars2.githubusercontent.com/u/21097764?v=4" width="100px;" alt=""/><br /><sub><b>Banurekha</b></sub></a><br /><a href="#content-banurekhaMohan279" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/ShiraStarL"><img src="https://avatars1.githubusercontent.com/u/37556795?v=4" width="100px;" alt=""/><br /><sub><b>ShiraStarL</b></sub></a><br /><a href="#design-ShiraStarL" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/mozgit"><img src="https://avatars0.githubusercontent.com/u/2301052?v=4" width="100px;" alt=""/><br /><sub><b>Ilya Komarov</b></sub></a><br /><a href="#design-mozgit" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/DemigodMs"><img src="https://avatars3.githubusercontent.com/u/72858244?v=4" width="100px;" alt=""/><br /><sub><b>DemigodMs</b></sub></a><br /><a href="#content-DemigodMs" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/rapunzel127"><img src="https://avatars1.githubusercontent.com/u/44580953?v=4" width="100px;" alt=""/><br /><sub><b>Mekha Hridya</b></sub></a><br /><a href="#design-rapunzel127" title="Design">🎨</a> <a href="#fundingFinding-rapunzel127" title="Funding Finding">🔍</a></td>
+    <td align="center"><a href="https://www.andreysafonov.com"><img src="https://avatars2.githubusercontent.com/u/6531389?v=4" width="100px;" alt=""/><br /><sub><b>Andrey Safonov</b></sub></a><br /><a href="#design-andreysaf" title="Design">🎨</a> <a href="#fundingFinding-andreysaf" title="Funding Finding">🔍</a></td>
+    <td align="center"><a href="https://tommasopifferi.com"><img src="https://avatars3.githubusercontent.com/u/1112539?v=4" width="100px;" alt=""/><br /><sub><b>Tommaso</b></sub></a><br /><a href="#design-neslinesli93" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=neslinesli93" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/jessicasalbert"><img src="https://avatars0.githubusercontent.com/u/66483878?v=4" width="100px;" alt=""/><br /><sub><b>Jessica Salbert</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=jessicasalbert" title="Code">💻</a> <a href="#design-jessicasalbert" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/JAYISAWSM"><img src="https://avatars0.githubusercontent.com/u/32494701?v=4" width="100px;" alt=""/><br /><sub><b>JAYANTH DOLAI</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=JAYISAWSM" title="Code">💻</a> <a href="#design-JAYISAWSM" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/silverstroom"><img src="https://avatars3.githubusercontent.com/u/43572178?v=4" width="100px;" alt=""/><br /><sub><b>silverstroom</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=silverstroom" title="Code">💻</a> <a href="#design-silverstroom" title="Design">🎨</a></td>
+    <td align="center"><a href="https://furkansayim.com"><img src="https://avatars1.githubusercontent.com/u/3766764?v=4" width="100px;" alt=""/><br /><sub><b>Furkan Sayım</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=xShuden" title="Code">💻</a> <a href="#design-xShuden" title="Design">🎨</a></td>
+    <td align="center"><a href="http://www.sukumarc.com"><img src="https://avatars2.githubusercontent.com/u/9497448?v=4" width="100px;" alt=""/><br /><sub><b>Sukumar Chandrasekaran</b></sub></a><br /><a href="#design-sukumarc" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/98yejin"><img src="https://avatars1.githubusercontent.com/u/30521748?v=4" width="100px;" alt=""/><br /><sub><b>Yejin Park</b></sub></a><br /><a href="#design-98yejin" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=98yejin" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/alinooshabadi"><img src="https://avatars1.githubusercontent.com/u/646788?v=4" width="100px;" alt=""/><br /><sub><b>Ali Nooshabadi</b></sub></a><br /><a href="#design-alinooshabadi" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/imitavor"><img src="https://avatars2.githubusercontent.com/u/73336620?v=4" width="100px;" alt=""/><br /><sub><b>imitavor</b></sub></a><br /><a href="#design-imitavor" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=imitavor" title="Code">💻</a></td>
+    <td align="center"><a href="https://salihkilicli.github.io/"><img src="https://avatars1.githubusercontent.com/u/42879163?v=4" width="100px;" alt=""/><br /><sub><b>Salih Kilicli</b></sub></a><br /><a href="#design-salihkilicli" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=salihkilicli" title="Code">💻</a></td>
   </tr>
 </table>
 
