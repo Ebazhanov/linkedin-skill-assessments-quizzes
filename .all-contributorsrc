@@ -1352,6 +1352,64 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "xShuden",
+      "name": "Furkan Sayım",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3766764?v=4",
+      "profile": "https://furkansayim.com",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "sukumarc",
+      "name": "Sukumar Chandrasekaran",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/9497448?v=4",
+      "profile": "http://www.sukumarc.com",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "98yejin",
+      "name": "Yejin Park",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/30521748?v=4",
+      "profile": "https://github.com/98yejin",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "alinooshabadi",
+      "name": "Ali Nooshabadi",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/646788?v=4",
+      "profile": "https://github.com/alinooshabadi",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "imitavor",
+      "name": "imitavor",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/73336620?v=4",
+      "profile": "https://github.com/imitavor",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "salihkilicli",
+      "name": "Salih Kilicli",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/42879163?v=4",
+      "profile": "https://salihkilicli.github.io/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

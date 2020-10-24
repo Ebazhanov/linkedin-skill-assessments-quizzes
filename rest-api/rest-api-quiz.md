@@ -168,7 +168,8 @@
 - [ ] `no-proxy`
 - [ ] `client-only`
 - [ ] `restricted`
-- [ ] `private`
+- [x] `private`
+[reference](https://www.digitalocean.com/community/tutorials/web-caching-basics-terminology-http-headers-and-caching-strategies)
 
 #### Q25. Which OAuth grant type can support a refresh token?
 
@@ -225,3 +226,10 @@
 - [x] `GET /users/{id}`
 - [ ] `GET /user?id={id}`
 - [ ] `GET /users?id={id}`
+
+#### Q33. What is the purpose of a link relation?
+
+- [ ] `to describe relationships between resources or actions`
+- [ ] `to describe subresources related to the current one`
+- [ ] `to link two resources together`
+- [ ] `to describe a resource and its purpose`

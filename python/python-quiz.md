@@ -585,4 +585,16 @@ fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
 - [ ] `func getMaxNum(list_of_nums):
         # body of function goes here`
 - [x] `def get_max_num(list_of_nums):
-        # body of function goes here`  [explanation](https://www.python.org/dev/peps/pep-0008/)                      
+        # body of function goes here`  [explanation](https://www.python.org/dev/peps/pep-0008/)         
+
+#### Q55. According to the PEP 8 coding style guidelines, how should constant values be named in Python?
+- [ ] `in camel case without using underscores to separate words -- e.g. maxValue = 255`
+- [ ] `in lowercase with underscores to separate words -- e.g. max_value = 255`
+- [x] `in all caps with underscores separating words -- e.g. MAX_VALUE = 255`
+- [ ] `in mixed case without using underscores to separate words -- e.g. MaxValue = 255`
+
+#### Q56. Describe the functionality of a deque
+- [ ] `A deque adds items to one side and remove items from the other side.`
+- [ ] `A deque adds items to either or both sides, but only removes items from the top.`
+- [x] `A deque adds items at either or both ends, and remove items at either or both ends.`
+- [ ] `A deque adds items only to the top, but remove from either or both sides.`             
