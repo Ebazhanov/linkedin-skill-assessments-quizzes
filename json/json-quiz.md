@@ -30,7 +30,7 @@ Q3. Which JavaScript method converts a JavaScript value to Json?
 - JSON.objectify()
 
 
-Q4. Wich data type is NOT part of JSON standard?
+Q4. Which data type is NOT part of JSON standard?
 - string
 - number
 - date <<<<----Correct
@@ -44,7 +44,7 @@ Q5. Which term is commonly used to refer to converting data to JSON?
 - parsing <<<<----Correct
 
 
-Q6. Which code uses the correct JSON syntax to encode the key/value pari shown?
+Q6. Which code uses the correct JSON syntax to encode the key/value pair shown?
 ```
 accountNum: '000605802'
 ```
@@ -79,10 +79,10 @@ Q10. Which is the valid JSON equivalent of the data shown?
 - { <<<<----Correct
     "photo": {
         "width": 1600,
-        "hight": 900,
+        "height": 900,
         "binaries": {
             "url": "https://....."
-            "thumbernail": "https://....."
+            "thumbnail": "https://....."
         },
         "animated": false,
         "tags": [116, 943, 234, 38793]
@@ -91,10 +91,10 @@ Q10. Which is the valid JSON equivalent of the data shown?
 
 
 Q11. How do you store several paragraphs of text as a string in JSON?
-- Escape all whitespaces expet space characters.
+- Escape all whitespaces expect space characters.
 - Escape line breaks.
-- Escape paragraps. <<<<----Correct
-- Remove all whitesapces
+- Escape paragraphs. <<<<----Correct
+- Remove all whitespaces
 
 
 Q12. What data type is represented by the value of the key/value pair shown?
@@ -136,15 +136,15 @@ Q16. Which JavaScript method converts a Json to JavaScript value?
 
 Q17. Transferring JSON information from client to server and back again often includes HTTP requests. Match each method with the best choice describing its use.
 
-    1.Sends data to spesific server to create or update information.
+    1.Sends data to specific server to create or update information.
 
-    2.Sends data to spesific server to create or update information without the risk of creating the resource more than once.
+    2.Sends data to specific server to create or update information without the risk of creating the resource more than once.
 
     3.Previews what the GET request response might be without the body of the text.
 
     4.Learns the communication channels used by the target source.
 
-    5.Requests information from a spesific source.
+    5.Requests information from a specific source.
 
     6.Removes information.
 
