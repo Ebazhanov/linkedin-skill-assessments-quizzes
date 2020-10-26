@@ -1429,7 +1429,8 @@
         "design",
         "maintenance",
         "content",
-        "code"
+        "code",
+        "doc"
       ]
     }
   ],
