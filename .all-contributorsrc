@@ -1410,6 +1410,29 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "srmeneses",
+      "name": "Marcelo Meneses",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11792508?v=4",
+      "profile": "https://github.com/srmeneses",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "tonchique",
+      "name": "Anton Krekotun",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/36279559?v=4",
+      "profile": "https://github.com/tonchique",
+      "contributions": [
+        "design",
+        "maintenance",
+        "content",
+        "code",
+        "doc",
+        "business"
+      ]
     }
   ],
   "contributorsPerLine": 7,
