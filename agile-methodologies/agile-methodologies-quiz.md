@@ -445,3 +445,8 @@
 - [ ] Backward compatibility may be jeopardized
 - [ ] The administrative costs are high
 
+#### Q75. What is the definition of capacity?
+- [ ] It is an inventory of the team's knowledge and skills that is used to plan the work that they do.
+- [ ] It is the number of teams that a Team Facilitator can support concurrently.
+- [ ] It is an adjustment to velocity, used in Spring Planning, to account for reduced availability of team members during the upcoming sprint.
+- [x] It is the maximum number of stories that will be allowed in a sprint.
