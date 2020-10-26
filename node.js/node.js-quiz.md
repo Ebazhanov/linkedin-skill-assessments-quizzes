@@ -30,7 +30,7 @@ From official docs: [https://nodejs.org/api/fs.html#fs_dir_read](https://nodejs.
 To minimize memory costs, when possible prefer streaming via fs.createReadStream().
 - readFileSync
 
-Q6. Which of the following DNS module methods uses the underlying OS facilities and does not necessarily perfrom any network communication?
+Q6. Which of the following DNS module methods uses the underlying OS facilities and does not necessarily perform any network communication?
 - lookup <<<<----Correct
 - resolve
 - resolve4
@@ -48,7 +48,7 @@ Q8. Can you create an https web server with Node.js?
 - yes, through the path module
 - yes, with the http module
 
-Q9. What is the Api that is designed to insulate Addons from changes in the underlying JavaDcript engine?
+Q9. What is the Api that is designed to insulate Addons from changes in the underlying JavaScript engine?
 - A-API
 - Z-API
 - N-API <<<<----Correct
@@ -80,7 +80,7 @@ Q13. Which object is used to manage the cache of required modules?
 
 Q14. What is the command to silence all process warnings?
 - node index.js --trace-warnings
-- node --no-warings <<<<----Correct
+- node --no-warnings <<<<----Correct
 - node -trace-warnings
 - node index.js --no-warnings
 
@@ -101,7 +101,7 @@ Q17. Which statement is true when you run the code shown below?
 require('child_process').fork('script.js');
 ```
 - The forked process shares the event loop with the parent process
-- A new VM instance is created and the two VM instances will be shared between the forked process and the prent process.
+- A new VM instance is created and the two VM instances will be shared between the forked process and the parent process.
 - The forked process will have its own VM instance. <<<<----May be
 - The forked process shares the same VM thread with the parent process.
 
@@ -111,13 +111,13 @@ Q18. If EventEmitter is in scope, which of the following lines of code will have
 - (new EventEmitter()).emit(change); <<<<----Correct
 - new EventEmitter(change);  
 
-Q19. Which of th following objects is a stream
+Q19. Which of the following objects is a stream
 - process.uptime
 - process.stdout
 - process
 - Buffer <<<<-----Correct
 
-Q20. Whichmodule variable holds the resolved aboslue path of the current module file?
+Q20. Which module variable holds the resolved aboslute path of the current module file?
 - __pathname
 - __location
 - __flder
