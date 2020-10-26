@@ -1430,7 +1430,8 @@
         "maintenance",
         "content",
         "code",
-        "doc"
+        "doc",
+        "business"
       ]
     }
   ],
