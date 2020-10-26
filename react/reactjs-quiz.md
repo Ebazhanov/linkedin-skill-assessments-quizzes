@@ -154,7 +154,7 @@ React.createElement(
 );
 ```
 
-- `<h1 props={null}>What's happenning?</h1>`
+- `<h1 props={null}>What's happening?</h1>`
 - `<h1>What's happening?</h1>` <<<<<--CORRECT
 - `<h1 id="component">What's happening?</h1>`
 - `<h1 id="element">What's happening?</h1>`
@@ -204,7 +204,7 @@ const element = <p>{message}</p>
 - to change the layout of the screen
 - when you need the browser to paint before the effect runs <<<<<--CORRECT
 
-#### 20. What is the difference between the click behaviors of these two buttons (assuming that this.handleClick is binded correctly)?
+#### 20. What is the difference between the click behaviors of these two buttons (assuming that this.handleClick is bound correctly)?
 
 ```javascript
 A. <button onClick="{this.handleClick}>Click Me</button>"
@@ -337,7 +337,7 @@ const Heading = () => {
 
 #### Q35. Why might you use a ref?
 
-- to directly acces the DOM node <<<<<--CORRECT
+- to directly access the DOM node <<<<<--CORRECT
 - to refer to another JS file
 - to call a function
 - to bind the function
