@@ -259,7 +259,7 @@ dessert.type = 'pudding';
 #### Q28. Why would you include a "use strict" statement in a JavaScript file?
 - to tell parsers to interpret your JavaScript syntax loosely
 - to tell parsers to enforce all JavaScript syntax rules when processing your code <<<<----Correct
-- to instruct the browser to authmatically fix any errors it finds in the code
+- to instruct the browser to automatically fix any errors it finds in the code
 - to enable ES6 features in your code
 
 #### Q29. Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?
@@ -321,7 +321,7 @@ let diff = function(x,y){
 - ReferenceError, -10
 
 #### Q36. Why is it usually better to work with Objects instead of Arrays to store a collection of records?
-- Objects are more efficent in terms of storeage.
+- Objects are more efficient in terms of storage.
 - Adding a record to an object is significantly faster than pushing a record into an array. <<<<----Correct
 - Most operations involve looking up a record, and objects can do that better than arrays.
 - Working with objects makes the code more readable.
@@ -376,7 +376,7 @@ f2()
 - Every object in the program has to be a function.
 - Code is grouped with the state it modifies.
 - Date fields and methods are kept in units.
-- Side effecs are not allowed. <<<<<----- I believe it's this, FP shouldn't have side effects; i.e same output evry time, doesn't mutate 
+- Side effects are not allowed. <<<<<----- I believe it's this, FP shouldn't have side effects; i.e same output every time, doesn't mutate 
 
 #### Q43. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
 - You are calling a method named reduce on an object that's declared but has no value.
@@ -540,7 +540,7 @@ var x = new X();
 
 #### Q59. How does the forEach() method differ from a for statement?
 
-- forEach allows you to specify your own iterator, wheras for does not.
+- forEach allows you to specify your own iterator, whereas for does not.
 - forEach can be used only with strings, whereas for can be used with additional data types.
 - forEach can be used only with an array, whereas for can be used with additional data types.
 - for loops can be nested; whereas forEach loops cannot.
