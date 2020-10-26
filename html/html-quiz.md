@@ -80,7 +80,7 @@
 #### Q10. With which tags is the `<source>` element associated?
 - [ ] `<svg>, <picture>, <audio>, and <video>`
 - [x] `<picture>, <audio>, and <video>`
-- [ ] It is iterchangeable with the src attribute, so any element which uses src may use <source..... 
+- [ ] It is interchangeable with the src attribute, so any element which uses src may use <source> 
 - [ ] `<audio> and <video>`
 
 #### Q11. What is NOT a valid attribute for the `<textarea>` element?
@@ -150,7 +150,7 @@ could go in any order.
 - [x] <div> is used where a generic block-level tag is needed, while <span> is used where a generic inline tag is needed.
 - [ ] <div> is used for major divisions on a page, while <span> is used to span across columns.
 - [ ] <div> is the industry-standard default tag, but you could use <span> if you prefer.
-- [ ] <div> is used where a generic inline tag is needed, , while <span> is usedwhere a generic block-level tag is needed
+- [ ] <div> is used where a generic inline tag is needed, , while <span> is used where a generic block-level tag is needed
   
 #### Q17. What should fill the blank in the HTML code bellow?
 
@@ -162,7 +162,7 @@ could go in any order.
 - [ ] type
 - [ ] rel
 
-#### Q18. What is the correct markup for tha alt attribute of an image?
+#### Q18. What is the correct markup for `alt` attribute of an image?
 
 - [ ] `-`  
 ```
@@ -192,7 +192,7 @@ js
 #### Q19. In the code below, what is the purpose of the id attribute?
 
 ```js
-<p id="warnig" >Be careful when installing this product.</p>
+<p id="warning" >Be careful when installing this product.</p>
 ```
 
 - [x] It establishes that id is a unique identifier in the document, used for styling CSS, scripting, and linking within a webpage.
@@ -227,7 +227,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] ordered list
 - [x] unordered list inside a nav element
-- [ ] ordered list inside a nav eleme
+- [ ] ordered list inside a nav element
 - [ ] unordered list
 
 #### Q23. What is the best way to code three choices within a form so that the user can select only one item?
