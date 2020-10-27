@@ -271,3 +271,24 @@ main(){
 - [ ] by using recursive functions
 - [ ] by using global variables
 
+#### Q21. A union allows you to store differente _____ in the same _____.
+
+- [ ] Objects; Structure
+- [ ] Variables; Declaration
+- [x] Data types; Memory location
+- [ ] Arrays; Header file
+
+#### Q22. What is the output of this program?
+
+```c
+main(){
+    char c1='a' , c2='A';
+    int i=c2-c1;
+    printf("%d", i);
+}
+```
+
+- [ ] 32
+- [ ] Runtime error
+- [x] -32
+- [ ] 0
