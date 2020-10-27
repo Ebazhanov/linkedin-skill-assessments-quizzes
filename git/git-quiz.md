@@ -676,14 +676,7 @@ git checkout -b beta-test
 - [ ] The current HEAD will be deleted and can't be reinstated.
 - [ ] Nothing, it's common practice to force a push after rebasing.
 
- #### Q87. What conflicts can occur when forcing a push after rebasing?
- 
-- [ ] The remote master branch could have existing changes overwritten.
-- [ ] The origin URL will be reset to its default value.
-- [ ] The current HEAD will be deleted and can't be reinstated.
-- [ ] Nothing, it's common practice to force a push after rebasing.
-
- #### Q88. How does this command alter the currently checked-out branch?
+ #### Q87. How does this command alter the currently checked-out branch?
  
  git reset --soft HEAD^
  
