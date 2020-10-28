@@ -414,3 +414,53 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 - [] WITH (SELECT id FROM users) as cte SELECT ...
 - [] WITH cte as (SELECT id FROM users), SELECT ...
 - [x] WITH cte as (SELECT id FROM users) SELECT ...
+
+#### Q57. What is one reason to introduce data redundancy into a normalised database design?
+- [] to reduce corruption in data
+- [] to reduce storage space
+- [] to make the system faster
+- [] to prevent data anomalies
+
+#### Q58. The code snippet below is used to read data from an XML file into a table. Which XML structure is **not** supported by the statement?
+```
+1 LOAD XML LOCAL INFILE 'cars.xml'
+2 INTO TABLE cars
+3 ROWS IDENTIFIED BY `<car>`;
+
+```
+- []
+ ```
+<car>
+    <field name="make"> Lexus </field>
+    <field name="model"> IS300 </field>
+    <field name="make"> 2016 </field>
+</car>
+```
+- [] 
+```
+<car name="make"> Dodge </car>
+<car name="model"> Ram </car>
+<car name="year"> 2000 </car>
+```
+- [] 
+```
+<car make="Ford" model="Mustang" year="2002/>
+```
+- [] 
+```
+<car year="2010>
+    <make>Mercedes</make> <model> C-Class</model>
+</car>
+```
+
+#### Q59. You are loading data into a table. Which command can you use to make sure that all data is inserted and duplicated rows are discarded?
+- [] `INSERT IGNORE`
+- [] `INSERT UNIQUE`
+- [] `INSERT INTO`
+- [] `INSERT DISTINCT`
+
+#### Q60. Which statement about the `TRUNCATE TABLE` statement is true?
+- [] It will stop and issue an error when it encounters a row that is referenced by a row in a child table.
+- [] It always first drops, then re-creates a new table.
+- [] It deletes rows one by one on tables with foreign key contraints.
+- [] It does not invoke the `DELETE` triggers associated with the table.
