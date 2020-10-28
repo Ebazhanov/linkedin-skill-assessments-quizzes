@@ -1433,6 +1433,16 @@
         "doc",
         "business"
       ]
+    },
+    {
+      "login": "asarma2012",
+      "name": "Arnav Sarma",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12614627?v=4",
+      "profile": "https://www.linkedin.com/in/arnavsarmagatechgrad/",
+      "contributions": [
+        "code",
+        "example"
+      ]
     }
   ],
   "contributorsPerLine": 7,
