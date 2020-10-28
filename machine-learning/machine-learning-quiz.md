@@ -408,7 +408,8 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 #### Q58. How would you describe this type of classification challenge?
 ![Machine Learning Q58](images/machine-learning_Q58.jpg)
 
-- [ ] This is a multiclass classification challenge.
+- [X] This is a multiclass classification challenge. 
+// Shows data being classified into more than two categories or classes. Thus, this is a multi-class classification challenge.
 - [ ] This is a multi-binary classification challenge.
 - [ ] This is a binary classification challenge.
 - [ ] This is a reinforcement classification challenge.
@@ -417,7 +418,8 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 
 - [ ] There is too little data in your training set.
 - [ ] There is too much data in your training set.
-- [ ] There is not a lot of variance but there is a high bias.
+- [X] There is not a lot of variance but there is a high bias.
+// Underfitted data models usually have high bias and low variance. Overfitted data models have low bias and high variance.
 - [ ] Your model has low bias but high variance.
 
 #### Q60. Asian user complain that your company's facial recognition model does not properly identify their facial expressions. What should you do?
@@ -425,11 +427,13 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ] Include Asian faces in your test data and retrain your model.
 - [ ] Retrain your model with updated hyperparameter values.
 - [ ] Retrain your model with smaller batch sizes.
-- [ ] Include Asian faces in your training data and retrain your model.
+- [X] Include Asian faces in your training data and retrain your model.
+// The answer is self-explanatory: if Asian users are the only group of people making the complaint, then the training data should have more Asian faces.
 
 #### Q61. You work for a website that helps match people up for lunch dates. The website boasts that it uses more than 500 predictors to find customers the perfect date, but many costumers complain that they get very few matches. What is a likely problem with your model?
 
 - [ ] Your training set is too large.
 - [ ] You are underfitting the model to the data.
-- [ ] You are overfitting the model to the data.
+- [X] You are overfitting the model to the data.
+// This question is very similar to Q49 but involves a polar opposite scenario.
 - [ ] Your machine is creating inaccurate clusters.
