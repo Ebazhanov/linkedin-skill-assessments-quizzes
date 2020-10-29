@@ -128,3 +128,81 @@ id first_name last_name
 - [ ] `errors(model, :address) << "This address is invalid"`
 - [ ] `display_error_for(model, :address, "This address is invalid")`
 - [ ] `model.errors[:address] << "This address is invald"`
+
+#### Q15. Given the URL helper product_path(@product), which statement would be expected to be false?
+
+- [ ] `If sent using the PATCH HTTP method, the URL could be used to update a product in the database.If sent using the PATCH HTTP method, the URL could be used to update a product in the database.`
+- [ ] `If sent using the POST HTTP method, the URL would create a new product in the database.If sent using the POST HTTP method, the URL would create a new product in the database.`
+- [ ] `If sent using the GET HTTP method, the URL would execute the show action in ProductsController.If sent using the GET HTTP method, the URL would execute the null action in ProductsController.`
+- [ ] `If sent using the DELETE HTTP method, the URL would call the destroy action by default.`
+
+#### Q16. Given this code, which choice would be expected to be a true statement if the user requests the index action?
+```rb
+class DocumentsController < ApplicationController
+  before_action :require_login
+  def index
+    @documents = Document.visible.sorted
+  end
+end
+```
+
+- [ ] `The user's documents will be loaded.The user's documents will be loaded.`
+- [ ] `The index action will run normally because :index is not listed as an argument to before_action.The null action will run normally because null is not listed as an argument to null.`
+- [ ] `The require_login method will automatically log in the user before running the index action.The null method will automatically log in the user before running the null action.`
+- [ ] `The index action will not be run if the require_login method calls render or redirect_to.`
+
+#### Q17. Which statement correctly describes a difference between the form helper methods form_tag and form_for?
+
+- [ ] `The form_tag method typically expects a URL as its first argument, while the form_for method typically expects a model object.The null method typically expects a URL as its first argument, while the null method typically expects a model object.`
+- [ ] `The form_tag method is evaluated at runtime, while the form_for method is precompiled and cached.The null method is evaluated at runtime, while the null method is precompiled and cached.`
+- [ ] `The form_tag method is for HTTP requests, while the form_for method is for AJAX requests.The null method is for HTTP requests, while the null method is for AJAX requests.`
+- [ ] `The form_tag method is for basic forms, while the form_for method is for multipart forms that include file uploads.`
+
+#### Q18. In Rails, how would you cache a partial template that is rendered?
+
+- [ ] `render partial: ‘shared/menu’, cached: truenull`
+- [ ] `render_with_cache partial: ‘shared/menu’null`
+- [ ] `render partial: ‘shared/menu’null`
+- [ ] `render partial: ‘shared/menu’, cached_with_variables: {}`
+
+#### Q19. What is the reason for using Concerns in Rails?
+
+- [ ] `to allow modularity and code reuse in models, controllers, and other classesto allow modularity and code reuse in models, controllers, and other classes`
+- [ ] `to separate class methods from modelsto separate class methods from models`
+- [ ] `to increase security of Rails applicationsto increase security of Rails applications`
+- [ ] `to refactor Rails views`
+
+#### Q20. When using an ActiveRecord model, which method will create the model instance in memory and save it to the database?
+
+- [ ] `buildnull`
+- [ ] `newnull`
+- [ ] `createnull`
+- [ ] `save`
+
+#### Q21. You are using an existing database that has a table named coffee_orders. What would the ActiveRecord model be named in order to use that table?
+
+- [ ] `CoffeeOrdersnull`
+- [ ] `Coffee_Ordersnull`
+- [ ] `Coffee_Ordernull`
+- [ ] `CoffeeOrder`
+
+#### Q22. In ActiveRecord, what is the difference between the has_many and has_many :through associations?
+
+- [ ] `The has_many: through association is the one-to-many equivalent to the belongs_to one-to-one association.The null association is the one-to-many equivalent to the null one-to-one association.`
+- [ ] `Both associations are identical, and has_many: through is maintained only for legacy purposes.Both associations are identical, and null is maintained only for legacy purposes.`
+- [ ] `The has_many association is a one-to-many association, while has_many: through is a one-to-one association that matches through a third model.The null association is a one-to-many association, while null is a one-to-one association that matches through a third model.`
+- [ ] `Both are one-to-many associations but with has_many :through, the declaring model can associate through a third model.`
+
+### Q23. How do you add Ruby code inside Rails views and have its result outputted in the HTML file?
+
+- [ ] `Create an embedded Ruby file (.html.erb) and surround the Ruby code with <% %>.Create an embedded Ruby file (.html.erb) and surround the Ruby code with null.`
+- [ ] `Insert Ruby code inside standard HTML files and surround it with <% %>. The web server will handle the rest.Insert Ruby code inside standard HTML files and surround it with null. The web server will handle the rest.`
+- [ ] `Create an embedded Ruby file (.html.erb) and surround the Ruby code with <%= %>.Create an embedded Ruby file (.html.erb) and surround the Ruby code with null.`
+- [ ] `Put the code in an .rb file and include it in a <link> tag of an HTML file.`
+
+#### Q24. How would you render a view using a different layout in an ERB HTML view?
+
+- [ ] `<% render 'view_mobile' %>null`
+- [ ] `<% render 'view', use_layout: 'mobile' %>null`
+- [ ] `<% render 'view', layout: 'mobile' %>null`
+- [ ] `<% render_with_layout 'view', 'mobile' %>`
