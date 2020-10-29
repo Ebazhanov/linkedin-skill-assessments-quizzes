@@ -1453,6 +1453,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "AnshuTrivedi",
+      "name": "Anshu Trivedi",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/47869948?v=4",
+      "profile": "https://www.linkedin.com/in/anshu-trivedi-501a7b146/",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
