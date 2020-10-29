@@ -493,97 +493,91 @@ git reset --hard origin/master
 - [ ] %ae
 - [x] %an
 
-#### Q61. Which option enables inclusion of author name in custom log format?
-
-- [ ] %am
-- [ ] %ad
-- [ ] %ae
-- [x] %an
-#### Q62. Which version onwads did Git offered, revesting a file back to what it looked like when last committed?
+#### Q61. Which version onwads did Git offered, revesting a file back to what it looked like when last committed?
 
 - [ ] 1.7
 - [x] 1.6
 - [ ] 2.0
 - [ ] 1.8
 
-#### Q63. Which strategy is ued by Git for merging two branches?
+#### Q62. Which strategy is ued by Git for merging two branches?
 
 - [ ] LIFO
 - [x] recursive
 - [ ] FIFO
 - [ ] octopus
 
-#### Q64. What does refs stores?
+#### Q63. What does refs stores?
 
 - [x] SHA-1 value
 - [ ] None of these
 - [ ] Branch name
 - [ ] Project name
 
-#### Q65. What Language is used in GIT?
+#### Q64. What Language is used in GIT?
 
 - [x] C
 - [ ] C++
 - [ ] C#
 - [ ] Java
 
-#### Q66. What is usually the extension of file which has the public key?
+#### Q65. What is usually the extension of file which has the public key?
 
 - [ ] ssh
 - [x] pub
 - [ ] key
 - [ ] pk
 
-#### Q67. What is the difference between initializing a normal repo and a bare repo?
+#### Q66. What is the difference between initializing a normal repo and a bare repo?
 
 - [ ] Bare repos store their git history in a .git subfolder.
 - [ ] Bare repos do not have the .git extension.
 - [x] Bare repos do not come with working or checked-out source files.
 - [ ] Bare repos should be used for local rather than remote repos.
 
-#### Q68. How many individual commits can a single repository have?
+#### Q67. How many individual commits can a single repository have?
 
 - [x] any number of commits
 - [ ] only one commit local per repository
 - [ ] only three commits per branch
 - [ ] only one commit per HEAD
 
-#### Q69. What types of tags does Git support?
+#### Q68. What types of tags does Git support?
 
 - [ ] heavy and concise
 - [ ] lightweight and immutable
 - [ ] heavy and annotated
 - [x] lightweight and annotated 
 
-#### Q70. After staging a series of changes to the index, which command could you use to review them prior to a commit?
+#### Q69. After staging a series of changes to the index, which command could you use to review them prior to a commit?
 
 - [x] git diff --cached
 - [ ] git diff
 - [ ] git diff --HEAD
 - [ ] git status -v -v
 
-#### Q71. What does the git stash drop command do?
+#### Q70. What does the git stash drop command do?
 
 - [x] removes the most recent stash entry
 - [ ] deletes the stash
 - [ ] lists everything in the stash
 - [ ] throws away the oldest entry
 
-#### Q72. What command creates a new branch from the currently checked-out branch?
+#### Q71. What command creates a new branch from the currently checked-out branch?
 
 - [ ] git -b checkout <nameOfBranch>
 - [ ] git branch
 - [ ] git checkout <nameOfBranch>
 - [x] git checkout -b <nameOfBranch>
 
-#### Q73. After mistakenly staging a file named myFile to the index, how would you remove it from the index to exclude it from your next commit?
+#### Q72. After mistakenly staging a file named myFile to the index, how would you remove it from the index to exclude it from your next commit?
 
 - [ ] Use git reset HEAD^.
 - [x] Use git reset myFile.txt.
 - [ ] Use git -rm myFile.txt.
 - [ ] Use git reset.
 
-#### Q74. What happens if you run this command from your master branch?
+#### Q73. What happens if you run this command from your master branch?
 
 git checkout -b beta-test
 
@@ -592,91 +586,91 @@ git checkout -b beta-test
 - [ ] A new branch called beta-test will be created and switched to.
 - [ ] The beta-test branch will be merged with the master branch.
 
-#### Q75. How does Git internally manage branches?
+#### Q74. How does Git internally manage branches?
 
 - [ ] by creating a pionter to the most recent snapshot/commit for the branch.
 - [ ] by creating a data array of branches in the same repository.
 - [ ] by creating a data dictionary of code changes.
 - [ ] be creating a debug log that stores repository changes.
 
-#### Q76. You want to perform a git reset but cannot recall all of the available options. What command would you use to see a description of them?
+#### Q75. You want to perform a git reset but cannot recall all of the available options. What command would you use to see a description of them?
 
 - [ ] git help reset
 - [ ] git -h reset
 - [ ] git options reset
 - [ ] git reset help
 
-#### Q77. What is a remote repository?
+#### Q76. What is a remote repository?
 
 - [ ] a version of the repository that mirrors changes made in the local repository's master branch for open-source collaboration efforts
 - [ ] the lead repository elected by the Git arbitrator found within local repositories of collaborating team members
 - [ ] a read-only version of the repository stored on a backup server in case local repositories become lost or corrupted
 - [ ] a version of the repository hosted on the internet or network that is pushed to or pulled from by collaborators
 
-#### Q78. After modifying some existing files in a repository, you decide to discard the changes. What command can you use?
+#### Q77. After modifying some existing files in a repository, you decide to discard the changes. What command can you use?
 
 - [ ] git restore
 - [ ] git undo
 - [ ] git clean
 - [x] git checkout .
 
-#### Q79. After starting to merge a feature branch into your master branch, you encounter a merge conflict and decide you do not want to perform the merge. How can you stop the merge and restore to the pre-merge state?
+#### Q78. After starting to merge a feature branch into your master branch, you encounter a merge conflict and decide you do not want to perform the merge. How can you stop the merge and restore to the pre-merge state?
 
 - [ ] Use git restore -p.
 - [ ] Use git merge -u.
 - [x] Use git merge --abort.
 - [ ] Use git merge --undo.
 
-#### Q80. If you have several commits for a single feature, what is the most efficient way to restructure your commit history?
+#### Q79. If you have several commits for a single feature, what is the most efficient way to restructure your commit history?
 
 - [ ] Use git stash to consolidate the commits under a new hash.
 - [ ] Use git squash to consolidate the commits together into a single coherent commit.
 - [ ] Delete the task commits and recommit with a new message.
 - [ ] Use git cherry-pick to place the commits in another branch.
 
-#### Q81. Which command correctly creates a lightweight tag?
+#### Q80. Which command correctly creates a lightweight tag?
 
 - [x] git tag v3.8.1
 - [ ] git tag --light "v3.8.1"
 - [ ] git tag v3.8.1 —-annotate -m "<tagMessage>"
 - [ ] git tag -l v3.8.1
 
-#### Q82. What is the main issue with using git rebase when working with multiple developers?
+#### Q81. What is the main issue with using git rebase when working with multiple developers?
 
 - [ ] Rebase affects only your repository and creates a diff in the master branch.
 - [ ] Rebase creates a temporary copy of the master branch in the remote repo.
 - [ ] Rebase moves the HEAD of the remote master branch one commit forward.
 - [ ] Rebase deletes all commit history for the new feature branch.
 
-#### Q83. What Git workflow is used by teams that collaborate on a single branch and avoid creating long-lived development branches?
+#### Q82. What Git workflow is used by teams that collaborate on a single branch and avoid creating long-lived development branches?
 
 - [ ] Git flow
 - [ ] Mainline flow
 - [x] Trunk-Based Development
 - [ ] GitHub flow
 
-#### Q84. Which option on the git log command allows you to limit output to commits made after certain data?
+#### Q83. Which option on the git log command allows you to limit output to commits made after certain data?
 
 - [x] --since
 - [ ] --sinceWhen
 - [ ] -<n>
 - [ ] --afterDate
   
- #### Q85. How would you delete unreachable objects older than a specified time from your project database?
+ #### Q84. How would you delete unreachable objects older than a specified time from your project database?
  
 - [ ] git cache --obsolete <time>
 - [ ] git branch --rebase <time>
 - [ ] git delete --inert <time>
 - [ ] git prune --expire <time>
   
- #### Q86. What conflicts can occur when forcing a push after rebasing?
+ #### Q85. What conflicts can occur when forcing a push after rebasing?
  
 - [ ] The remote master branch could have existing changes overwritten.
 - [ ] The origin URL will be reset to its default value.
 - [ ] The current HEAD will be deleted and can't be reinstated.
 - [ ] Nothing, it's common practice to force a push after rebasing.
 
- #### Q87. How does this command alter the currently checked-out branch?
+ #### Q86. How does this command alter the currently checked-out branch?
  
  git reset --soft HEAD^
  
