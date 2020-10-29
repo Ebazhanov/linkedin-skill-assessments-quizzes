@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-152-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-153-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
   
@@ -279,6 +279,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/srmeneses"><img src="https://avatars2.githubusercontent.com/u/11792508?v=4" width="100px;" alt=""/><br /><sub><b>Marcelo Meneses</b></sub></a><br /><a href="#design-srmeneses" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=srmeneses" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/tonchique"><img src="https://avatars1.githubusercontent.com/u/36279559?v=4" width="100px;" alt=""/><br /><sub><b>Anton Krekotun</b></sub></a><br /><a href="#design-tonchique" title="Design">🎨</a> <a href="#maintenance-tonchique" title="Maintenance">🚧</a> <a href="#content-tonchique" title="Content">🖋</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=tonchique" title="Code">💻</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=tonchique" title="Documentation">📖</a> <a href="#business-tonchique" title="Business development">💼</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/arnavsarmagatechgrad/"><img src="https://avatars1.githubusercontent.com/u/12614627?v=4" width="100px;" alt=""/><br /><sub><b>Arnav Sarma</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=asarma2012" title="Code">💻</a> <a href="#example-asarma2012" title="Examples">💡</a></td>
+    <td align="center"><a href="https://github.com/meghatiku"><img src="https://avatars0.githubusercontent.com/u/43341228?v=4" width="100px;" alt=""/><br /><sub><b>meghatiku</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=meghatiku" title="Code">💻</a></td>
   </tr>
 </table>
 
