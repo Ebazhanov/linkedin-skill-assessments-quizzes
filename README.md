@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-154-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-155-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
   
@@ -281,6 +281,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/arnavsarmagatechgrad/"><img src="https://avatars1.githubusercontent.com/u/12614627?v=4" width="100px;" alt=""/><br /><sub><b>Arnav Sarma</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=asarma2012" title="Code">💻</a> <a href="#example-asarma2012" title="Examples">💡</a></td>
     <td align="center"><a href="https://github.com/meghatiku"><img src="https://avatars0.githubusercontent.com/u/43341228?v=4" width="100px;" alt=""/><br /><sub><b>meghatiku</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=meghatiku" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/anshu-trivedi-501a7b146/"><img src="https://avatars1.githubusercontent.com/u/47869948?v=4" width="100px;" alt=""/><br /><sub><b>Anshu Trivedi</b></sub></a><br /><a href="#design-AnshuTrivedi" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://taylordorsett.com"><img src="https://avatars3.githubusercontent.com/u/16449771?v=4" width="100px;" alt=""/><br /><sub><b>Taylor Dorsett</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=TaylorOD" title="Code">💻</a></td>
   </tr>
 </table>
 
