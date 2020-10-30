@@ -231,7 +231,7 @@ static void Multiply(float num1, float num2) {};
 
 #### Q36. What are CRC Cards?
 - [] Code Responsibility Collection cards are a brainstorming tool used in the design of procedural software
-- [] Class responsible collaboration cards are a brainstorming tool used in the design of oop software
+- [x] Class responsible collaboration cards are a brainstorming tool used in the design of oop software
 - [] Code Responsibility Correction cards are tools used for debugging
 - [] Code Responsibility Correction cards are tools for modeling 
 
