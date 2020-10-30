@@ -2,10 +2,10 @@ JavaScript Assessment
 ---------------------
 
 #### Q1. Which operator returns true if the two compared values are not equal?
-- <>
-- ~
-- ==! 
-- !== <<<---Correct
+- [ ] <>
+- [ ] ~
+- [ ] ==! 
+- [ ] !== <<<---Correct
 
 #### Q2. How is a forEach statement different from a for statement?
 - Only a for statement uses a callback function
