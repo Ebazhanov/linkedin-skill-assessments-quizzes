@@ -111,15 +111,7 @@ id first_name last_name
 
 - [ ] `<%= select_tag(@products) %>`
 - [ ] `<%= collection_select(@products) %>`
-- [ ] 
-```
-<select name="product_id">
-    <%= @products.each do |product| %>
-        <option value="<%= product.id %>"/>
-    <% end %>
-</select>
-```
-
+- [ ] `<select name="product_id"> <%= @products.each do |product| %> <option value="<%= product.id %>"/> <% end %></select>`
 - [x] `<%= collection_select(:product, :product_id, Product.all, :id, :name) %>`
 
 #### Q14. For a Rails validator, how would you define an error message for the model attribute `address` with the message "This address is invalid"?
