@@ -285,7 +285,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://taylordorsett.com"><img src="https://avatars3.githubusercontent.com/u/16449771?v=4" width="100px;" alt=""/><br /><sub><b>Taylor Dorsett</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=TaylorOD" title="Code">💻</a></td>
     <td align="center"><a href="http://blog.havit.web.id/"><img src="https://avatars3.githubusercontent.com/u/17120764?v=4" width="100px;" alt=""/><br /><sub><b>Havit Rovik</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=haruelrovix" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/pushpapune"><img src="https://avatars1.githubusercontent.com/u/73734199?v=4" width="100px;" alt=""/><br /><sub><b>pushpapune</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=pushpapune" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/pushpapune"><img src="https://avatars1.githubusercontent.com/u/73734199?v=4" width="100px;" alt=""/><br /><sub><b>pushpapune</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=pushpapune" title="Code">💻</a> <a href="#design-pushpapune" title="Design">🎨</a></td>
   </tr>
 </table>
 
