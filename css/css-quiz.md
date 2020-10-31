@@ -502,7 +502,7 @@ h2 + p {
 font-weight: 700;`
 
 - [ ] bold; normal
-- [ ] normal; bold
+- [x] normal; bold
 - [ ] light; normal
 - [ ] normal; bold
 
@@ -513,7 +513,7 @@ font-weight: 700;`
    grid-template-columns: 50px 1fr 2fr;
   }`
 
-- [ ] 50px, 150px, 300px
+- [x] 50px, 150px, 300px
 - [ ] 50px, 200px, 300px
 - [ ] 50px, 100px, 200px
 - [ ] 50px, 50px, 100px
@@ -558,7 +558,7 @@ li:nth-child(2n+3) {
 - [x] a[href^="#"]
 - [ ] a[href="#"]
 
-### Q44. What is not true about class?
+### Q44. What is not true about class selectors?
 
 - [x] Only one class value can be assigned to an element.
 - [ ] An element can have multiple class value.
@@ -571,3 +571,39 @@ li:nth-child(2n+3) {
 - [x] Margin adds space around an element; padding adds apace inside of an element.
 - [ ] Margin adds a line around an element, padding adds space inside of an element.
 - [ ] Margin adds space inside of an element, padding adds space around an element.
+
+### Q46. What is not a valid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
+
+- [x] padding: 10px 10px 0px 0px;
+- [ ] padding: 10px 0px;
+- [ ] padding: 10px 0;
+- [ ] padding: 10px 0px 10px 0px;
+
+### Q47. Is there an error in this code? If so, find the best description of the problem
+```css
+@font0face{
+    font-family: "Avenir", sans-serif;
+    src: url("avenir.woff2) format("woff2"),
+    src: url("avenir.woff) format("woff");
+}
+```
+- [ ] The font file formats are not supported in mordern browsers
+- [ ] The src attribute requires a comma between the URL and format values.
+- [ ] There are no erros in the example.
+- [x] The san-serif inclusion is problematic. A @font-face rule should definte only one font.
+
+### Q48. Which style places an element at a fixed location within its container?
+- [x] position: absolute;
+- [ ] display: flex;
+- [ ] display: block;
+- [ ] float: left;
+
+### Q49. The calc() CSS function is often used for calculating relative values. In the example below, whatis the specified margin-left value?
+```css
+.example{
+    margin-left: calc(5%+5px);
+```
+- [x] The left margin value is equal to 5% of its parents element's width plus 5px
+- [ ] The left margin value is equal to 5% of the viewport width plus 5px
+- [ ] The left margin value is equal to 5% of the closest positioned element's width plus 5px
+- [ ] The left margin value is equal to 5% of the selected element's width (.example) plus 5px
