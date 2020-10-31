@@ -274,3 +274,24 @@ MongoDB Assessment
 - [ ] db.customers.save({name: "Bob"})
 - [ ] db.customers.create({name: "Bob"})
 - [ ] db.customers.new({name: "Bob"})
+
+#### Q42. Which field is required of all MongoDB documents?
+
+- [x] _id
+- [ ] _name
+- [ ] objectId
+- [ ] mongoDB is schema-less so no field is required
+
+#### Q43. Which MongoDB shell command should you use to back up a database?
+
+- [ ] backup
+- [ ] restore
+- [ ] mongobackup
+- [x] mongodump
+
+#### Q44. Which shell query displays all citizens with an age greater than or equal to 21?
+
+- [ ] db.citizens.find('WHERE age >= 21')
+- [x] db.citizens.find({age: {$gte: 21}})
+- [ ] db.citizens.where('age >= 21')
+- [ ] dbcitizens.select('WHERE age >=21')
