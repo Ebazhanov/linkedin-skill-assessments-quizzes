@@ -438,6 +438,11 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 // This question is very similar to Q49 but involves a polar opposite scenario.
 - [ ] Your machine is creating inaccurate clusters.
 
+#### Q62. (Mostly) whenever we see kernel visualizations online (or some other reference) we are actually seeing:
+- [X] What kernels extract
+- [ ] Feature Maps
+- [ ] How kernels Look
+
 #### Q62. The activations for class A, B and C before softmax were 10,8 and 3. The different in softmax values for class A and class B would be
 - [ ] 76%
 - [ ] 88%
