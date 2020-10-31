@@ -88,37 +88,42 @@
 - [ ] In order to locally cache the last 10 commits
 
 #### Q11. Why would you use a pre-receive hook in your remote repository?
+
 - [ ] You wouldn't, you would use it in the local repository
-- [x] To execute a script when a remote receives a push that is triggered
-  before any refs are updated
+- [x] To execute a script when a remote receives a push that is triggered before any refs are updated
 - [ ] To fire a script after updates are made to the remote repository
 - [ ] To debug all commit tags and release versions
 
 #### Q12. What option can you use to apply git configurations across your entire git environment?
+
 - [ ] `--all`
 - [ ] `--master`
 - [x] `--global`
 - [ ] `--update`
 
 #### Q13. How could you squash multiple commits together without using git merge --squash?
+
 - [ ] Caching
 - [ ] You can't. git merge --squash is the only git command for that operation.
 - [x] Rebasing
 - [ ] Reflogging
 
 #### Q14. If you cloned an existing git repository, what would happen?
+
 - [ ] A new copy would overwrite the central repository
 - [x] A copy of the repository would be created on your local machine
 - [ ] Nothing, cloning is not a supported git function
 - [ ] A copy of the repository would be created on the hosting platform
 
 #### Q15. Suppose you needed to see a list of all files that had been modified or added to a specific commit over the course of a project. How would you accomplish this?
+
 - [ ] Find the commit in the remote repository, as that's the only place that kind of information is stored.
 - [x] Use the diff-tree command with the commit hash.
 - [ ] Run git commit --info with the commit hash.
 - [ ] Access the commit stash data with git stash.
 
 #### Q16. What files is the following .gitignore programmed to leave out?
+
 - [x] All files with a .swift, .txt, or metadata file extension, as well as the entire build directory
 - [ ] Only the build directory
 - [ ] All files in the build directory, as well as files ending with .txt or .metadata
@@ -135,7 +140,7 @@
 
 #### Q18. After checking your git status you get the following output, which shows the file beta-notes.js in the commit but also unstaged. How can this situation occur?
 
-```
+```shell
 Change to be committed:
 
 (use "git reset HEAD <file>..." to unstage)
@@ -153,15 +158,18 @@ modified: beta-notes.js
 - [ ] There are two tracked copies of beta-notes.js, but one was removed from the commit.
 
 #### Q19. Where are files stored before they are committed to the local repository?
+
 - [ ] Saved files
 - [ ] git documents
 - [x] Staging area
 - [ ] git cache
 
 #### Q20. Which statement is true with git push command
+
 - [ ] All tags are pushed to the remote
 
 #### Q21. Which command would you use to force an overwrite of your local files with the master branch:
+
 - [x] git fetch --all; git reset --hard origin/master
 - [ ] git pull origin master; git reset --hard origin/myCurrentBranch
 - [ ] git pull --all; git reset --hard origin/master
@@ -176,7 +184,7 @@ modified: beta-notes.js
 
 #### Q23. Describe what is happening given these commands:
 
-```
+```git
 git checkout feature-user-location
 git cherry-pick {123safd23e}
 ```
@@ -196,6 +204,7 @@ git cherry-pick {123safd23e}
 [Reference link for Q24](https://geedew.com/fixing-git-branch-and-tag-name-collision/)
 
 #### Q25. Your team lead needs a list of all commits that will be moved before you perform a rebase. Which command can you use to access that information?
+
 - [ ] git rebase -log
 - [x] git rebase -i
 - [ ] git rebase -verbose
@@ -203,7 +212,7 @@ git cherry-pick {123safd23e}
 
 #### Q26. What is the operation doing given the Git commands below?
 
-```
+```git
 $ git bisect start
 $ git bisect bad 5d41402abc4b2a76b9719d911017c592
 $ git bisect good 69faab6268350295550de7d587bc323d
@@ -231,6 +240,7 @@ $ git bisect good 69faab6268350295550de7d587bc323d
 [Reference for Q28](https://git-scm.com/book/en/v2/Git-Basics-Tagging#_sharing_tags)
 
 #### Q29. After pushing commits to the remote repository for the first time using the command below, what shorthand command can you use in future?
+
 `
 git push -u origin master
 `
@@ -249,12 +259,12 @@ git push -u origin master
 
 #### Q31. What is the status of the beta-notes.js file in the following output?
 
-```
+```shell
 Changes not staged for commit:
 (use "git add <file>..." to update what will be commited)
 (use "git checkout -- <file>..." to discard changes in working directory)
 
-modified:	beta-notes.js
+modified: beta-notes.js
 ```
 
 - [ ] beta-notes.js is untracked and has been modified.
@@ -287,16 +297,16 @@ git rm --cached testfile.js
 - [ ] A copy of testfile.js will be cached on your desktop.
 - [ ] The current copy of testfile.js will be saved in the staging area.
 
-#### Q35. After you've succesfully merged two branches and commited the changes, what is the next step in keeping your git structure organized?
+#### Q35. After you've successfully merged two branches and committed the changes, what is the next step in keeping your git structure organized?
 
 - [ ] Use the git reset --soft HEAD to roll back one commit.
 - [ ] Run git branch -d <branch name> to delete the merged branch.
 - [ ] Use git clear-all to clean up any hanging files.
 - [x] Run git rebase to move the current commit to its original location.
 
-#### Q36. You're in the middle of modifying a file when you're unexpectedly assigned an urgent bug fix on another branch. What would you do to temporarily save the work your doing locally without commiting?
+#### Q36. You're in the middle of modifying a file when you're unexpectedly assigned an urgent bug fix on another branch. What would you do to temporarily save the work your doing locally without committing?
 
-- [ ] You cannot save locally without commiting, so that is not possible.
+- [ ] You cannot save locally without committing, so that is not possible.
 - [ ] Run git hold to save a local copy of what you're doing to return to later.
 - [ ] Save your work with git local-cache.
 - [x] Use git stash to save your work and come back later and reapply the stashed commit.
@@ -344,28 +354,29 @@ git reset --hard origin/myCurrentBranch
 git fetch --all
 git reset --hard origin/master
 ```
+
 #### Q40. While modifying a file, you're unexpectedly assigned an urgent bug fix on another branch. How can you temporarily save your local work without committing?
 
 - [ ] Save your work with git local-cache.
 - [x] Use git stash to save your work, then come back later and reapply the stashed commit.
-- [ ] Run git hold to save a local copy of waht you're doing to return to later.
+- [ ] Run git hold to save a local copy of what you're doing to return to later.
 - [ ] This is not possible, as you cannot save locally without committing.
 
 #### Q41. After staging a series of changes to the index, which command could you used to review prior to a commit.
 
 - [ ] Save your work with git local-cache.
 - [x] Use git stash to save your work, then come back later and reapply the stashed commit.
-- [ ] Run git hold to save a local copy of waht you're doing to return to later.
+- [ ] Run git hold to save a local copy of what you're doing to return to later.
 - [ ] This is not possible, as you cannot save locally without committing.
 
-#### Q42. Your current respository has three branches: master,beta and ousg-notifications. You've just finished the notification feature and commit the changes to the push-notification branch, and you want to include them in the beta branch. How can you acccomplish this?
+#### Q42. Your current repository has three branches: master,beta and push-notifications. You've just finished the notification feature and commit the changes to the push-notification branch, and you want to include them in the beta branch. How can you accomplish this?
 
 - [ ] Check out the master branch and run git merge beta -> push-notifications..
-- [ ] Delete the push-notification branch;it will be committed to the mastre branch automatically.
+- [ ] Delete the push-notification branch;it will be committed to the master branch automatically.
 - [ ] Check out the push-notifications branch and run git merge beta.
 - [x] Check out the beta branch and run git merge push-notifications.
 
-#### Q43. You find that your project has a tag and branch both named push-notification,which causes confusion when trying to print out a given referance.How can you specify which branch you want to look at?
+#### Q43. You find that your project has a tag and branch both named push-notification,which causes confusion when trying to print out a given reference.How can you specify which branch you want to look at?
 
 - [ ] Use git show head/refs/push-notifications.
 - [ ] Use git show push-notifications.
@@ -377,7 +388,7 @@ git reset --hard origin/master
 #### Q44. Which statement is true of the git push command?.
 
 - [ ] Commits can be tagged only when they are created.
-- [x] By default a push dosen't sent tags to the remote repository.
+- [x] By default a push doesn't sent tags to the remote repository.
 - [ ] Only annotated tags are automatically pushed to the remote repository with a commit.
 - [ ] Tags are pushed to the remote repository with their respective commits.
 
@@ -397,10 +408,9 @@ git reset --hard origin/master
 
 #### Q47. What does commit object contain?
 
-- [ ] 
 - [ ] A set of files, representing the state of a project at a given point of time.
-- [ ] Referance to parent commit objects
-- [x] An SHAI name, a 40 character string that uniquely identify the commit object.
+- [ ] Reference to parent commit objects
+- [x] An SHA1 name, a 40 character string that uniquely identify the commit object.
 
 #### Q48. Which option to git commit, will modify last commit message?
 
@@ -409,7 +419,7 @@ git reset --hard origin/master
 - [x] -amend
 - [ ] -update
 
-#### Q49. Which option is enables inclusion of commiter name in custom log format?
+#### Q49. Which option is enables inclusion of committer name in custom log format?
 
 - [ ] %ce
 - [ ] %cr
@@ -493,7 +503,7 @@ git reset --hard origin/master
 - [ ] %ae
 - [x] %an
 
-#### Q61. Which version onwads did Git offered, revesting a file back to what it looked like when last committed?
+#### Q61. Which version onwards did Git offered, reversing a file back to what it looked like when last committed?
 
 - [ ] 1.7
 - [x] 1.6
@@ -547,7 +557,7 @@ git reset --hard origin/master
 - [ ] heavy and concise
 - [ ] lightweight and immutable
 - [ ] heavy and annotated
-- [x] lightweight and annotated 
+- [x] lightweight and annotated
 
 #### Q69. After staging a series of changes to the index, which command could you use to review them prior to a commit?
 
@@ -579,23 +589,23 @@ git reset --hard origin/master
 
 #### Q73. What happens if you run this command from your master branch?
 
-git checkout -b beta-test
+`git checkout -b beta-test`
 
 - [ ] The beta-test branch will be checked out of the current commit.
 - [ ] The beta-test branch will be checked out and deleted.
-- [ ] A new branch called beta-test will be created and switched to.
+- [x] A new branch called beta-test will be created and switched to.
 - [ ] The beta-test branch will be merged with the master branch.
 
 #### Q74. How does Git internally manage branches?
 
-- [ ] by creating a pionter to the most recent snapshot/commit for the branch.
+- [ ] by creating a pointer to the most recent snapshot/commit for the branch.
 - [ ] by creating a data array of branches in the same repository.
 - [ ] by creating a data dictionary of code changes.
 - [ ] be creating a debug log that stores repository changes.
 
 #### Q75. You want to perform a git reset but cannot recall all of the available options. What command would you use to see a description of them?
 
-- [ ] git help reset
+- [x] git help reset
 - [ ] git -h reset
 - [ ] git options reset
 - [ ] git reset help
@@ -605,7 +615,7 @@ git checkout -b beta-test
 - [ ] a version of the repository that mirrors changes made in the local repository's master branch for open-source collaboration efforts
 - [ ] the lead repository elected by the Git arbitrator found within local repositories of collaborating team members
 - [ ] a read-only version of the repository stored on a backup server in case local repositories become lost or corrupted
-- [ ] a version of the repository hosted on the internet or network that is pushed to or pulled from by collaborators
+- [x] a version of the repository hosted on the internet or network that is pushed to or pulled from by collaborators
 
 #### Q77. After modifying some existing files in a repository, you decide to discard the changes. What command can you use?
 
@@ -624,7 +634,7 @@ git checkout -b beta-test
 #### Q79. If you have several commits for a single feature, what is the most efficient way to restructure your commit history?
 
 - [ ] Use git stash to consolidate the commits under a new hash.
-- [ ] Use git squash to consolidate the commits together into a single coherent commit.
+- [x] Use git squash to consolidate the commits together into a single coherent commit.
 - [ ] Delete the task commits and recommit with a new message.
 - [ ] Use git cherry-pick to place the commits in another branch.
 
@@ -656,25 +666,25 @@ git checkout -b beta-test
 - [ ] -<n>
 - [ ] --afterDate
   
- #### Q84. How would you delete unreachable objects older than a specified time from your project database?
- 
+#### Q84. How would you delete unreachable objects older than a specified time from your project database?
+
 - [ ] git cache --obsolete <time>
 - [ ] git branch --rebase <time>
 - [ ] git delete --inert <time>
-- [ ] git prune --expire <time>
+- [x] git prune --expire <time>
   
- #### Q85. What conflicts can occur when forcing a push after rebasing?
- 
+#### Q85. What conflicts can occur when forcing a push after rebasing?
+
 - [ ] The remote master branch could have existing changes overwritten.
 - [ ] The origin URL will be reset to its default value.
 - [ ] The current HEAD will be deleted and can't be reinstated.
 - [ ] Nothing, it's common practice to force a push after rebasing.
 
- #### Q86. How does this command alter the currently checked-out branch?
- 
- git reset --soft HEAD^
- 
+#### Q86. How does this command alter the currently checked-out branch?
+
+`git reset --soft HEAD^`
+
 - [ ] It resets the working branch to the first commit.
-- [ ] It sets HEAD to previous commit and leaves changes from the undone commit in the stage/index.
+- [x] It sets HEAD to previous commit and leaves changes from the undone commit in the stage/index.
 - [ ] It deletes all previous commits and resets the repository history back to its initial state.
 - [ ] It keeps the HEAD at the current commit, but clears all previous commits.

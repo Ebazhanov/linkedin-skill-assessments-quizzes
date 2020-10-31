@@ -448,7 +448,7 @@ Q45. Which code is valid JSON equivalent of the key/value pair shown that also p
 - variance: -0.0823
 
 Q46. With what character should key/value pairs be separated?
-- colon <<<<----Correct
+- colon 
 - space
 - semicolon
-- comma
+- comma <<<<----Correct
