@@ -45,7 +45,7 @@ Submitted in a public repo AND (
 | [Hadoop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/hadoop/hadoop-quiz.md) | answers required |
 | [HTML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/html/html-quiz.md) |  with answers |
 | [Java](https://github.com/Ebazhanov/in-quiz-questions/blob/master/java/java-quiz.md) |  with answers |
-| [Javascript](https://github.com/Ebazhanov/in-quiz-questions/blob/master/javascript/javascript-quiz.md) | with answers |
+| [Javascript](https://github.com/Ebazhanov/in-quiz-questions/blob/master/javascript/javascript-quiz.md) | partially answered |
 | [jQuery](https://github.com/Ebazhanov/in-quiz-questions/blob/master/jquery/jquery-quiz.md) :open_mouth: |  with answers |
 | [JSON](https://github.com/Ebazhanov/in-quiz-questions/blob/master/json/json-quiz.md) |  with answers |
 | [Machine Learning](https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/machine-learning-quiz.md) |  answers required |
