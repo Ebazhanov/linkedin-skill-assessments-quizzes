@@ -43,15 +43,15 @@
 - [ ] return on investment
 
 #### Q8. Why should you apply Weighted Shortest Job First?
-- [x] to maximize the return on investment
-- [ ] to determine the economic sequencing of the backlog
+- [ ] to maximize the return on investment
+- [x] to determine the economic sequencing of the backlog
 - [ ] to visualize queue length
 - [ ] to fulfill a commitment to quality
 
 #### Q9. You have classified the features in your backlog according to risk and value. Which features should the development team work on first?
 - [ ] low-value and high-risk
-- [ ] high-value and high-risk
-- [x] high-value and low-risk
+- [x] high-value and high-risk
+- [ ] high-value and low-risk
 - [ ] low-value and low-risk
 
 #### Q10. In the Scaled Agile Framework, what is the role of Enablers?
