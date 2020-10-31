@@ -292,3 +292,10 @@ main(){
 - [ ] Runtime error
 - [x] -32
 - [ ] 0
+
+#### Q23. What is the difference between scanf() and sscanf() functions?
+
+- [ ] The scanf() function reads data formatted as a string; The sscanf() function reads string input from the screen.  
+- [x] The scanf() function reads formatted data from the keyword; The sscanf() function reads formatted input from a string.
+- [ ] The scanf() function reads string data from the keyword; The sscanf() function reads string data from a string.
+- [ ] The scanf() function reads formatted data from a file; The sscanf() function reads input from a selected string
