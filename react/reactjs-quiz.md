@@ -242,7 +242,7 @@ function Dish(props) {
 
 - when you do not want your component to have props
 - when you have sibling components that need to be compared
-- when you want to implement shouldComponentUpdate() by default to not update unnecessarily <<<<<--CORRECT
+- when you want a default implementation of shouldComponentUpdate() <<<<<--CORRECT
 - when you do not want your component to have state
 
 #### 23. Why is it important to avoid copying the values of props into a component's state where possible?
@@ -450,3 +450,23 @@ function MyComponent(props) {
 - `useEffect(() => {
     setDone(true);
 }, [done, setDone]);`
+
+#### Q46. 
+What value of button will allow you to pass the name of the person to be hugged?
+```javascript
+class Huggable extends React.Component{
+	hug(id){
+		console.log("hugging " + id);
+	}
+	
+	render() {
+		let name = "kitteh";
+		let button = // Missing Code
+		return button;
+	}
+}
+```
+<button onClick={{name} => this.hug(name)}>Hug Button</button>
+<button onClick={this.hug(e, name)}>Hug Button</button>
+<button onClick={(e) => hug(e,name)}>Hug Button</button>
+<button onClick={(e) => this.hug(name, e)}>Hug Button</button>
