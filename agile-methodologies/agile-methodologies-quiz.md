@@ -43,16 +43,28 @@
 - [ ] return on investment
 
 #### Q8. Why should you apply Weighted Shortest Job First?
-- [x] to maximize the return on investment
-- [ ] to determine the economic sequencing of the backlog
+- [ ] to maximize the return on investment
+- [x] to determine the economic sequencing of the backlog
 - [ ] to visualize queue length
 - [ ] to fulfill a commitment to quality
 
+<details><summary>Explanation</summary><p>
+
+Weighted Shortest Job First (WSJF) is a prioritization model used to sequence jobs (eg., Features, Capabilities, and Epics) to produce the maximum economic benefit. In a flow-based system, priorities are updated continuously to provide the best economic outcomes. Job sequencing, rather than individual job return on investment, produces the best result. To that end, WSJF is used to prioritize backlogs by calculating the relative CoD and job size (a proxy for the duration). [(Source)](https://www.scaledagileframework.com/wsjf/)
+
+</p></details>
+
 #### Q9. You have classified the features in your backlog according to risk and value. Which features should the development team work on first?
 - [ ] low-value and high-risk
-- [ ] high-value and high-risk
-- [x] high-value and low-risk
+- [x] high-value and high-risk
+- [ ] high-value and low-risk
 - [ ] low-value and low-risk
+
+<details><summary>Explanation</summary><p>
+
+It is suggested that high business value, high-risk items are worked on first. While that may seem counterintuitive, the earlier this work is done, the sooner the team will move to mitigate the issues and unknowns—leading to a higher quality product. If there's a failure, it will occur early and relatively inexpensively. [(Source)](https://agilescrumguide.com/blog/files/tag-product-backlog---business-value-and-risk.html)
+
+</p></details>
 
 #### Q10. In the Scaled Agile Framework, what is the role of Enablers?
 - [x] They help extend the Architectural Runway.
@@ -225,7 +237,7 @@
 
 #### Q38. Which story about technical debt is true?
 - [ ] Technical debt is another name for bugs
-- [ ] It is at the Product Owner's descretion to allocate effort to reduce technical debt.
+- [ ] It is at the Product Owner's description to allocate effort to reduce technical debt.
 - [x] Adding technical debt should be avoided at all costs. 
 - [ ] Technical debt is what the Product Owner owes to the developers if they work a lot of overtime to complete the sprint.
 
