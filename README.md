@@ -3,24 +3,6 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-158-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
-  
-IMPORTANT hacktoberfest2020
----------------------------
-Guys -> FYI if you are going to participate in hacktoberfest2020
-YOU SHOULD submit your PR with the hacktoberfest topic! 👈
-===>>>> [reference link ](https://hacktoberfest.digitalocean.com/hacktoberfest-update)
-
-```markdown
-PRs count if:
-Submitted during the month of October AND
-Submitted in a public repo AND (
-  The PR is labelled as hacktoberfest-accepted by a maintainer OR
-  Submitted in a repo with the hacktoberfest topic AND (
-    The PR is merged OR
-    The PR has been approved
-  )
-)
-```
 
 ### Table of Contents
 
