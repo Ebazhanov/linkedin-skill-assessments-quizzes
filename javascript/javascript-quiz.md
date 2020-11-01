@@ -24,13 +24,26 @@ function addTax(total){
 - addTax(50); <<<---Correct
 - addTax 50;
 
+#### Q3 How would you use this function to find out how much tax should be paid on $50?
+(Version 2, possibly an updated version)
+```js
+function addTax(total){
+    return total * 1.05;
+}
+```
+- addTax($50);
+- return addTax 50;
+- addTax(50); <<<---Correct
+- addTax 50;
+
+
 #### Q4. Which statement is the correct way to create a variable called rate and assign it the value 100?
 - let rate = 100; <<<---Correct
 - let 100 = rate;
 - 100 = let rate;
 - rate = 100;
 
-#### Q5. Which statement creates a new object using the Person constructor?
+#### Q5. Which statement creates a new Person object called "student"?
 - var student = new Person(); <<<---Correct
 - var student = construct Person;
 - var student = Person();
@@ -542,7 +555,7 @@ var x = new X();
 
 - forEach allows you to specify your own iterator, whereas for does not.
 - forEach can be used only with strings, whereas for can be used with additional data types.
-- forEach can be used only with an array, whereas for can be used with additional data types.
+- forEach can be used only with an array, whereas for can be used with additional data types. <<<<----Correct
 - for loops can be nested; whereas forEach loops cannot.
 
 #### Q60. What will be logged to the console?
@@ -558,4 +571,16 @@ new logThis();
 - function
 - windows
 - {desc: "logger"}
+
+#### Q61. Which choice is an incorrect way to define an arrow function that returns an empty object? 
+- () => ({})
+- () => {} <<<<----Correct
+- () => { return {};}
+- () => (({}))
+
+#### Q62. Why might you choose to make your code asynchronous?
+- to start tasks that might take some time without blocking subsequent tasks from executing immediately
+- to ensure that tasks further down in your code are not initiated until earlier tasks have completed <<<<----Correct
+- to make your code faster
+- to ensure that the call stack maintains a LIFO (Last in, First Out) structure
 
