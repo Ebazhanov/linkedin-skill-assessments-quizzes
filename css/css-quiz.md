@@ -607,3 +607,13 @@ li:nth-child(2n+3) {
 - [ ] The left margin value is equal to 5% of the viewport width plus 5px
 - [ ] The left margin value is equal to 5% of the closest positioned element's width plus 5px
 - [ ] The left margin value is equal to 5% of the selected element's width (.example) plus 5px
+
+### Q50. What is the CSS selector for an <a> tag containing the title attribute?
+
+- [ ] a[title]
+
+- [ ] a > title
+
+- [ ] a=title
+
+- [ ] a.title
