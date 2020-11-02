@@ -7,7 +7,7 @@
 ```css
 ul li a 
 a 
-.examole a 
+.example a 
 div a
 ```
 
@@ -77,10 +77,10 @@ They all target the same nav element.
 
 - [ ] By default, block elements are the same height and width as the content container between their tags; inline elements span the entire width of its container.
 - [x] By default, block elements span the entire width of its container; inline elements are the same height and width as the content contained between their tags.
-- [ ] A "<nav>" element is an example of an inline element. "<header>" is an example of a block element.  
-- [ ] A "<span>" is an example of a block element. "<div>" is an example of an inline element.
+- [ ] A `<nav>` element is an example of an inline element. `<header>` is an example of a block element.  
+- [ ] A `<span>` is an example of a block element. `<div>` is an example of an inline element.
 
-#### Q7. CSS grid introduced a new lenght unit, fr, to create flexible grid tracks. Referring to the code sample below, what will the widths of the three columns be?
+#### Q7. CSS grid introduced a new length unit, fr, to create flexible grid tracks. Referring to the code sample below, what will the widths of the three columns be?
 
 ```css
 .grid {
@@ -182,7 +182,7 @@ a {color: red;}
 - [ ] blue
 - [ ] red
 
-#### Q13. When elements overlap, they are ordered on the z-axis (i.e., which element covers another). The z-index property can be used to specify the z-order of overlapping elements. Which set of statements about the z-index property are ture?
+#### Q13. When elements overlap, they are ordered on the z-axis (i.e., which element covers another). The z-index property can be used to specify the z-order of overlapping elements. Which set of statements about the z-index property are true?
 
 - [x] Larger z-index values appear on top of elements with a lower z-index value. Negative and positive numbers can be used. z-index can only be used on positioned elements.
 - [ ] Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index must also be used with positioned elements.
@@ -238,7 +238,7 @@ section + p {
 - [ ]
 
 ```
-1. External; CSS is written in a separate file and is linked within the <header> element of the HTIML  file . 
+1. External; CSS is written in a separate file and is linked within the <header> element of the HTML file. 
 2. Inline; CSS is added to the HTML tag.
 3. Internal; CSS is included within the <header> element of the HTML  file.
 ```
@@ -246,7 +246,7 @@ section + p {
 - [x]
 
 ```
-1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file . 
+1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file. 
 2. Internal; CSS is included within the <header> element of the HTML file.
 3. Inline; CSS is added to the HTML tag.
 ```
@@ -337,7 +337,8 @@ p {
 ```
 
 - [ ]
-```"color" is the selector
+```
+"color" is the selector
 "#000000" is the property
 "#p" is the value
 ```
@@ -414,7 +415,7 @@ p {
 - [ ] normal declarations in author stylesheets
 - [ ] important declarations in author stylesheets
 
-#### Q33. The flex-direction property is used to specify the direction that flex items are displayed. What are the values used to specify the direction of the items in the folowing examples?
+#### Q33. The flex-direction property is used to specify the direction that flex items are displayed. What are the values used to specify the direction of the items in the following examples?
 
 - [x] Example 1: flex-direction: row;
 Example 2; flex-direction: row-reverse;
@@ -501,7 +502,7 @@ h2 + p {
 font-weight: 700;`
 
 - [ ] bold; normal
-- [ ] normal; bold
+- [x] normal; bold
 - [ ] light; normal
 - [ ] normal; bold
 
@@ -512,7 +513,7 @@ font-weight: 700;`
    grid-template-columns: 50px 1fr 2fr;
   }`
 
-- [ ] 50px, 150px, 300px
+- [x] 50px, 150px, 300px
 - [ ] 50px, 200px, 300px
 - [ ] 50px, 100px, 200px
 - [ ] 50px, 50px, 100px
@@ -557,7 +558,7 @@ li:nth-child(2n+3) {
 - [x] a[href^="#"]
 - [ ] a[href="#"]
 
-### Q44. What is not true about class?
+### Q44. What is not true about class selectors?
 
 - [x] Only one class value can be assigned to an element.
 - [ ] An element can have multiple class value.
@@ -570,3 +571,39 @@ li:nth-child(2n+3) {
 - [x] Margin adds space around an element; padding adds apace inside of an element.
 - [ ] Margin adds a line around an element, padding adds space inside of an element.
 - [ ] Margin adds space inside of an element, padding adds space around an element.
+
+### Q46. What is not a valid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
+
+- [x] padding: 10px 10px 0px 0px;
+- [ ] padding: 10px 0px;
+- [ ] padding: 10px 0;
+- [ ] padding: 10px 0px 10px 0px;
+
+### Q47. Is there an error in this code? If so, find the best description of the problem
+```css
+@font0face{
+    font-family: "Avenir", sans-serif;
+    src: url("avenir.woff2) format("woff2"),
+    src: url("avenir.woff) format("woff");
+}
+```
+- [ ] The font file formats are not supported in mordern browsers
+- [ ] The src attribute requires a comma between the URL and format values.
+- [ ] There are no erros in the example.
+- [x] The san-serif inclusion is problematic. A @font-face rule should definte only one font.
+
+### Q48. Which style places an element at a fixed location within its container?
+- [x] position: absolute;
+- [ ] display: flex;
+- [ ] display: block;
+- [ ] float: left;
+
+### Q49. The calc() CSS function is often used for calculating relative values. In the example below, whatis the specified margin-left value?
+```css
+.example{
+    margin-left: calc(5%+5px);
+```
+- [x] The left margin value is equal to 5% of its parents element's width plus 5px
+- [ ] The left margin value is equal to 5% of the viewport width plus 5px
+- [ ] The left margin value is equal to 5% of the closest positioned element's width plus 5px
+- [ ] The left margin value is equal to 5% of the selected element's width (.example) plus 5px

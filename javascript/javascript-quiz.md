@@ -5,13 +5,13 @@ JavaScript Assessment
 - [ ] <>
 - [ ] ~
 - [ ] ==! 
-- [ ] !== <<<---Correct
+- [x] !==
 
 #### Q2. How is a forEach statement different from a for statement?
-- [ ] Only a for statement uses a callback function
-- [ ] A for statement is generic, but a forEach statement can be used only with an array <<<--Correct
+- [ ] Only a for statement uses a callback function.
+- [x] A for statement is generic, but a forEach statement can be used only with an array.
 - [ ] Only a forEach statement lets you specify your own iterator.
-- [ ] A forEach statement is generic, but a for statement ca be used only with an array
+- [ ] A forEach statement is generic, but a for statement ca be used only with an array.
 
 #### Q3. Review the code below. Which statement calls the addTax function and passes 50 as an argument?
 ```js
@@ -21,20 +21,34 @@ function addTax(total){
 ```
 - [ ] addTax = 50;
 - [ ] return addTax 50;
-- [ ] addTax(50); <<<---Correct
+- [x] addTax(50);
 - [ ] addTax 50;
 
+#### Q3 How would you use this function to find out how much tax should be paid on $50?
+(Version 2, possibly an updated version)
+```js
+function addTax(total){
+    return total * 1.05;
+}
+```
+- [ ] addTax($50);
+- [ ] return addTax 50;
+- [x] addTax(50);
+- [ ] addTax 50;
+
+
 #### Q4. Which statement is the correct way to create a variable called rate and assign it the value 100?
-- [ ] let rate = 100; <<<---Correct
+- [x] let rate = 100;
 - [ ] let 100 = rate;
 - [ ] 100 = let rate;
 - [ ] rate = 100;
 
 #### Q5. Which statement creates a new object using the Person constructor?
-- [ ] var student = new Person(); <<<---Correct
+- [x] var student = new Person();
 - [ ] var student = construct Person;
 - [ ] var student = Person();
 - [ ] var student = construct Person();
+
 
 #### Q6. When would the final statement in the code shown be logged to the console?
 ```js
@@ -47,7 +61,7 @@ console.log('Results shown');
 - [ ] after 10 second 
 - [ ] after results are received from the HTTP request
 - [ ] after 10000 seconds
-- [ ] immediately <<<<<----Correct
+- [x] immediately
 
 #### Q7. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?
 ```js
@@ -71,13 +85,13 @@ console.log('Results shown');
     }, i*1000);
    }`
    
-- [ ] `for (var i=1; i<=4; i++) {
+- [x] `for (var i=1; i<=4; i++) {
       {function(j) {
          setTimeout(function(){
            console.log(j);
          }, j*1000);
       })(i)
-    }` <<<<----Correct
+    }`
     
 - [ ] `for (var j=1; j<=4; j++) {
      setTimeout(function() {
@@ -87,14 +101,14 @@ console.log('Results shown');
    
 #### Q8. How does a function create a closure?
 - [ ] It reloads the document whenever the value changes.
-- [ ] It returns a reference to a variable in its parent scope <<<<---Correct
-- [ ] It completes execution without returning
-- [ ] It copies a local variable to the global scope
+- [x] It returns a reference to a variable in its parent scope.
+- [ ] It completes execution without returning.
+- [ ] It copies a local variable to the global scope.
 
 #### Q9. Which statement creates a new function called discountPrice?
-- [ ] `let discountPrice = function(price) {
+- [x] `let discountPrice = function(price) {
      return price * 0.85;
-    };` <<<<----Correct
+    };`
 
 - [ ] `let discountPrice(price) {
      return price * 0.85;
@@ -121,11 +135,11 @@ console.log(bob.precip);
 - [ ] Storm()
 - [ ] undefined
 - [ ] 'rain'
-- [ ] 'snow' <<<---Correct
+- [x] 'snow'
 
 #### Q11. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?
 - [ ] /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/
-- [ ] /\d\d:\d\d:\d\d/ <<<---Correct, https://regex101.com/r/6e81up/2
+- [x] /\d\d:\d\d:\d\d/
 - [ ] /[0-9]+:[0-9]+:[0-9]+/ 
 - [ ] /  : : /
    
@@ -140,7 +154,7 @@ new logThis();
 ```
 - [ ] undefined
 - [ ] window
-- [ ] {desc: "logger"} <<<<---Correct
+- [x] {desc: "logger"}
 - [ ] function
 
 #### Q13. How would you reference the text 'avenue' in the code shown?
@@ -150,19 +164,19 @@ let roadTypes = ['street', 'road', 'avenue', 'circle'];
 - [ ] roadTypes.2
 - [ ] roadTypes[3]
 - [ ] roadTypes.3
-- [ ] roadTypes[2] <<<---Correct
+- [x] roadTypes[2]
 
 #### Q14. What is the result of running this statement?
 `console.log(typeof(42));`
 - [ ] 'float'
 - [ ] 'value'
-- [ ] 'number' <<<---Correct
+- [x] 'number'
 - [ ] 'integer'
 
 #### Q15. Which property references the DOM object that dispatched an event?
 - [ ] self
 - [ ] object
-- [ ] target <<<---Correct
+- [x] target
 - [ ] source
 
 #### Q16. You're adding error handling to the code shown. Which code would you include within the if statement to specify an error message?
@@ -175,18 +189,18 @@ function addNumbers(x, y){
 - [ ] exception('One or both parameters are not numbers')
 - [ ] catch('One or both parameters are not numbers')
 - [ ] error('One or both parameters are not numbers')
-- [ ] throw('One or both parameters are not numbers') <<<<---Correct
+- [x] throw('One or both parameters are not numbers')
 
 #### Q17. Which method converts JSON data to a JavaScript object?
 - [ ] JSON.fromString();
-- [ ] JSON.parse() <<<<---Correct
+- [x] JSON.parse()
 - [ ] JSON.toObject()
 - [ ] JSON.stringify()
 
 #### Q18. When would you use a conditional statement?
 - [ ] When you want to reuse a set of statements multiple times.
-- [ ] When you want your code to choose between multiple options <<<---Correct
-- [ ] When you want to group data together
+- [x] When you want your code to choose between multiple options.
+- [ ] When you want to group data together.
 - [ ] When you want to loop through a group of statement.
 
 #### Q19. What would be the result in the console of running this code?
@@ -197,21 +211,21 @@ for (var i=0; i<5; i++){
 ```
 - [ ] 12345
 - [ ] 1234
-- [ ] 01234 <<<<---Correct
+- [x] 01234
 - [ ] 012345
 
 #### Q20. Which Object method returns an iterable that can be used to iterate over the properties of an object?
 - [ ] Object.get()
 - [ ] Object.loop()
 - [ ] Object.each()
-- [ ] Object.keys() <<<<----Correct 
+- [x] Object.keys()
 
 #### Q21. After the following code, what is the value of a.length?
 ```js
 var a = ['dog','cat','hen'];
 a[100] = 'fox';
 ```
-- [ ] 101 <<<<----Correct
+- [x] 101
 - [ ] 3
 - [ ] 4
 - [ ] 100
@@ -219,13 +233,13 @@ a[100] = 'fox';
 #### Q22. What is one difference between collections created with Map and collections created with Object?
 - [ ] You can iterate over values in a Map in their insertion order. (Correct. Map.prototype.forEach(callbackFn[, thisArg]))
 - [ ] You can count the records in a Map with a single method call. (Correct. Map.prototype.size)
-- [ ] Keys in Maps can be strings. (Correct)
+- [x] Keys in Maps can be strings.
 - [ ] You can access values in a Map without iterating over the whole collection. (Correct. Map.prototype.get(key))
 
 #### Q23. Which property references the DOM object that dispatched an event?
 - [ ] source
 - [ ] object
-- [ ] target <<<<----Correct 
+- [x] target
 - [ ] self
 
 #### Q24. What is the value of dessert.type after executing this code?
@@ -235,59 +249,59 @@ dessert.type = 'pudding';
 ```
 - [ ] pie
 - [ ] The code will throw an error.
-- [ ] pudding <<<<------- Correct 
+- [x] pudding
 - [ ] undefined
 
 #### Q25. 0 && hi
 - [ ] ReferenceError
 - [ ] True
-- [ ] 0 <<<<------- Correct 
+- [x] 0
 - [ ] false
 
 #### Q26. Which of the following operators can be used to do a short-circuit evaluation?
 - [ ] \++
 - [ ] \--
 - [ ] \==
-- [ ] || <<<<-------Correct 
+- [x] ||
 
 #### Q27. Which statement sets the Person constructor as the parent of the Student constructor in the prototype chain?
 - [ ] Student.parent = Person;
-- [ ] Student.prototype = new Person(); <<<<----Correct
+- [x] Student.prototype = new Person();
 - [ ] Student.prototype = Person;
 - [ ] Student.prototype = Person();
 
 #### Q28. Why would you include a "use strict" statement in a JavaScript file?
 - [ ] to tell parsers to interpret your JavaScript syntax loosely
-- [ ] to tell parsers to enforce all JavaScript syntax rules when processing your code <<<<----Correct
+- [x] to tell parsers to enforce all JavaScript syntax rules when processing your code
 - [ ] to instruct the browser to automatically fix any errors it finds in the code
 - [ ] to enable ES6 features in your code
 
 #### Q29. Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?
 - [ ] all of them
 - [ ] const
-- [ ] var <<<<----Correct
+- [x] var
 - [ ] let
 
 #### Q30. Which of the following values is not a Boolean false?
 - [ ] Boolean(0)
 - [ ] Boolean("")
 - [ ] Boolean(NaN)
-- [ ] Boolean("false") <<<<------Correct 
+- [x] Boolean("false")
 
 #### Q31. Which of the following is not a keyword in JavaScript?
 - [ ] this
 - [ ] catch 
 - [ ] function
-- [ ] array <<<<------Correct
+- [x] array
 
 #### Q32. When would you use conditional statement?
 - [ ] When you want to loop through a group of statements.
-- [ ] When you want your code to choose between multiple options. <<<<----Correct
+- [x] When you want your code to choose between multiple options.
 - [ ] When you want to reuse a set of statements multiple times.
 - [ ] When you want to group data together.
 
 #### Q33. Which variable is an implicit parameter for every function in JavaScript?
-- [ ] Arguments <<<<----Correct
+- [x] Arguments
 - [ ] args
 - [ ] argsArray
 - [ ] argumentsList
@@ -299,7 +313,7 @@ class X {
 }
 ```
 - [ ] x.get('Y')
-- [ ] x.Y <<<<-----Correct
+- [x] x.Y
 - [ ] x.Y()
 - [ ] x.get().Y
 
@@ -316,13 +330,13 @@ let diff = function(x,y){
 }
 ```
 - [ ] 30, ReferenceError, 30, -10
-- [ ] ReferenceError  <<<<----Correct
+- [x] ReferenceError
 - [ ] 30, -10
 - [ ] ReferenceError, -10
 
 #### Q36. Why is it usually better to work with Objects instead of Arrays to store a collection of records?
 - [ ] Objects are more efficient in terms of storage.
-- [ ] Adding a record to an object is significantly faster than pushing a record into an array. <<<<----Correct
+- [x] Adding a record to an object is significantly faster than pushing a record into an array.
 - [ ] Most operations involve looking up a record, and objects can do that better than arrays.
 - [ ] Working with objects makes the code more readable.
 
@@ -330,10 +344,10 @@ let diff = function(x,y){
 - [ ] It can be used for both internal and external JavaScript code.
 - [ ] It can be used only for internal JavaScript code. 
 - [ ] It can be used only for internal or external JavaScript code that exports a promise.
-- [ ] It can be used only for external JavaScript code. <<<<----Correct
+- [x] It can be used only for external JavaScript code.
 
 #### Q38. How do you import the lodash library making it top-level Api available as the "_" variable?
-- [ ] import _ from 'lodash'; <<<<----Correct
+- [x] import _ from 'lodash';
 - [ ] import 'lodash' as _;
 - [ ] import '_' from 'lodash;
 - [ ] import lodash as _ from 'lodash';
@@ -345,10 +359,10 @@ let diff = function(x,y){
 - [ ] True
 - [ ] undefined
 - [ ] []
-- [ ] False <<<<----Correct (Referential Equality)
+- [x] False
 
 #### Q40. What is the name of a function whose execution can be suspended and resumed at a later point? 
-- [ ] Generator function <<<<----Correct
+- [x] Generator function
 - [ ] Arrow function 
 - [ ] Async/ Await function 
 - [ ] Promise function
@@ -368,7 +382,7 @@ var f2 = function(){
 f2()
 ```
 - [ ] 2
-- [ ] 1 <<<<----Correct
+- [x] 1
 - [ ] Nothing--this code will throw an error.
 - [ ] undefined 
 
@@ -376,11 +390,11 @@ f2()
 - [ ] Every object in the program has to be a function.
 - [ ] Code is grouped with the state it modifies.
 - [ ] Date fields and methods are kept in units.
-- [ ] Side effects are not allowed. <<<<<----- I believe it's this, FP shouldn't have side effects; i.e same output every time, doesn't mutate 
+- [x] Side effects are not allowed.
 
 #### Q43. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
 - [ ] You are calling a method named reduce on an object that's declared but has no value.
-- [ ] You are calling a method named reduce on an object that does not exist. <<<<----Correct
+- [x] You are calling a method named reduce on an object that does not exist.
 - [ ] You are calling a method named reduce on an empty array.
 - [ ] You are calling a method named reduce on an object that's has a null value.
 
@@ -388,13 +402,13 @@ f2()
 `let arr = [];`
 - [ ] 3
 - [ ] 2
-- [ ] 0 <<<<----Correct
+- [x] 0
 - [ ] 1
 
 #### Q45. Which of the following is not a unary operator?
 - [ ] typeof
 - [ ] delete
-- [ ] instanceof  <<<<----Correct
+- [x] instanceof
 - [ ] void
 
 #### Q46. What type of scope does the end variable have in the code shown? 
@@ -405,7 +419,7 @@ if (start === 1) {
 }
 ```
 - [ ] conditional
-- [ ] block <<<<----Correct
+- [x] block
 - [ ] global   
 - [ ] function
 
@@ -417,10 +431,10 @@ const y = x ? 'One': 'Two';
 - [ ] One
 - [ ] undefined
 - [ ] TRUE
-- [ ] Two  <<<<----Correct
+- [x] Two
 
 #### Q48. Which keyword is used to create an error?
-- [ ] throw   <<<<----Correct
+- [x] throw
 - [ ] exception
 - [ ] catch
 - [ ] error
@@ -429,14 +443,14 @@ const y = x ? 'One': 'Two';
 - [ ] The defer attribute can work synchronously.
 - [ ] The defer attribute works only with generators.
 - [ ] The defer attribute works only with promises.
-- [ ] The defer attribute will asynchronously load the scripts in order.   <<<<----Correct
+- [x] The defer attribute will asynchronously load the scripts in order.
 
 #### Q50. The following program has a problem. What is it?
 ```js
 var a;
 var b = (a = 3) ? true: false
 ```
-- [ ] The condition in the ternary is using the assignment operator.   <<<<----Correct
+- [x] The condition in the ternary is using the assignment operator.
 - [ ] You can't define a variable without initializing it.
 - [ ] You can't use a ternary in the right-hand side of an assignment operator.
 - [ ] The code is using the deprecated var keyword
@@ -446,7 +460,7 @@ var b = (a = 3) ? true: false
 <p class="pull">lorem ipsum</p>
 ```
 - [ ] `Document.querySelector('class.pull')`
-- [ ] `document.querySelector('.pull');`   <<<<----Correct
+- [x] `document.querySelector('.pull');`
 - [ ] `Document.querySelector('pull')`
 - [ ] `Document.querySelector('#pull')`
 
@@ -457,7 +471,7 @@ if (answer === false){
 	return 0}
 	else {return 10}
 ```
-- [ ] 10 <<<<----Correct
+- [x] 10
 - [ ] false
 - [ ] 0
 
@@ -472,7 +486,7 @@ console.log(end);
 ```
 - [ ] 10
 - [ ] 0
-- [ ] ReferenceError <<<---CORRECT 
+- [x] ReferenceError
 - [ ] undefined
 
 ### Q54. What will this code log in the console? 
@@ -485,7 +499,7 @@ console.log(sayHello.prototype);
 ```
 - [ ] undefined 
 - [ ] "hello"
-- [x] an object with a constructor property <<<--- CORRECT
+- [x] an object with a constructor property
 - [ ] an error message
 
 The correct answer is `an object with a constructor property` not undefined. 
@@ -495,7 +509,7 @@ You can try it out open the console and check.
 
 ### Q55: Which collection object allows unique value to be inserted only once? 
 - [ ] Object
-- [ ] Set <<<---CORRECT
+- [x] Set
 - [ ] Array
 - [ ] Map
 
@@ -510,7 +524,7 @@ printA();
 ```
 - [ ] 1 then 1
 - [ ] 1 then undefined
-- [ ] undefined the undefined <<<---CORRECT
+- [x] undefined the undefined
 - [ ] undefined the 1
 
 #### Q57. For the following class, how do you get the value of 42 from "X" ?
@@ -520,7 +534,7 @@ class X {
 }
 var x = new X();
 ```
-- [ ] x.Y <<<<----Correct
+- [x] x.Y
 - [ ] x.Y()
 - [ ] x.get('Y')
 - [ ] x.get().Y
@@ -534,7 +548,7 @@ var x = new X();
 #### Q59. How does the forEach() method differ from a for statement?
 - [ ] forEach allows you to specify your own iterator, whereas for does not.
 - [ ] forEach can be used only with strings, whereas for can be used with additional data types.
-- [ ] forEach can be used only with an array, whereas for can be used with additional data types.
+- [x] forEach can be used only with an array, whereas for can be used with additional data types.
 - [ ] for loops can be nested; whereas forEach loops cannot.
 
 #### Q60. What will be logged to the console?
@@ -550,3 +564,15 @@ new logThis();
 - [ ] function
 - [ ] windows
 - [ ] {desc: "logger"}
+
+#### Q61. Which choice is an incorrect way to define an arrow function that returns an empty object? 
+- [ ] => ({})
+- [x] => {}
+- [ ] => { return {};}
+- [ ] => (({}))
+
+#### Q62. Why might you choose to make your code asynchronous?
+- [ ] to start tasks that might take some time without blocking subsequent tasks from executing immediately
+- [x] to ensure that tasks further down in your code are not initiated until earlier tasks have completed
+- [ ] to make your code faster
+- [ ] to ensure that the call stack maintains a LIFO (Last in, First Out) structure
