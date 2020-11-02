@@ -617,3 +617,33 @@ li:nth-child(2n+3) {
 - [ ] a=title
 
 - [ ] a.title
+
+### Q51. Which code would you use to absolutely position an element of the logo class?Which code would you use to absolutely position an element of the null class?
+
+- [ ] 
+`.logo {
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}`
+
+- [ ]
+`.logo {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 150px;
+}`
+
+- [ ]
+`.logo {
+  position: absolute;
+  padding-left: 100px;
+  padding-top: 150px;
+}`
+
+- [ ]
+`.logo {
+  position: absolute;
+  left-padding: 100px;
+  top-padding: 150px;
+}`
