@@ -607,3 +607,43 @@ li:nth-child(2n+3) {
 - [ ] The left margin value is equal to 5% of the viewport width plus 5px
 - [ ] The left margin value is equal to 5% of the closest positioned element's width plus 5px
 - [ ] The left margin value is equal to 5% of the selected element's width (.example) plus 5px
+
+### Q50. What is the CSS selector for an <a> tag containing the title attribute?
+
+- [ ] a[title]
+
+- [ ] a > title
+
+- [ ] a=title
+
+- [ ] a.title
+
+### Q51. Which code would you use to absolutely position an element of the logo class?Which code would you use to absolutely position an element of the null class?
+
+- [ ] 
+`.logo {
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}`
+
+- [ ]
+`.logo {
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 150px;
+}`
+
+- [ ]
+`.logo {
+  position: absolute;
+  padding-left: 100px;
+  padding-top: 150px;
+}`
+
+- [ ]
+`.logo {
+  position: absolute;
+  left-padding: 100px;
+  top-padding: 150px;
+}`
