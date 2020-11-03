@@ -220,8 +220,26 @@ console.log(arguments);
 - undefined 
 - an object representing an array that has five elements -----> correct
 
-### Which choice is null a valid method on event emitters?
+### Q34. Which choice is null a valid method on event emitters?
 - [ ] startnull
 - [ ] onnull
 - [ ] oncenull
 - [ ] off
+
+### Q35. Which special object is an instance of EventEmitter?Which special object is an instance of null?
+- [ ] processnull
+- [ ] Buffernull
+- [ ] rootnull
+- [ ] require
+
+### Q36. What is the command to get a list of available commands for Node.js?What is the command to get a list of available commands for Node.js?
+- [ ] node index.js -xnull
+- [ ] node -vnull
+- [ ] node -hnull
+- [ ] node index.js -h
+
+### Q37. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named null?
+- [ ] http.IncomingMessagenull
+- [ ] http.ServerRequestnull
+- [ ] http.ClientRequestnull
+- [ ] http.ServerResponse
