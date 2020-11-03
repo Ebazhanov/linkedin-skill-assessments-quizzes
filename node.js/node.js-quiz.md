@@ -141,9 +141,7 @@ Q23.Which of the following objects is a stream?
 -  process 
 -  Buffer 
  - process. stdout <<<<-----Correct
--  process. uptime 
- 
- 
+-  process. uptime
  
  Q24.When you run JavaScript in a Node.js application, which of the following elements in a Node.js stack actually executes that JavaScript? 
  - the libuv library 
@@ -166,13 +164,11 @@ server.listen(port, hostname, () => { console.log(`server running at http://${ho
  - server running at http://localhost:4000/ 
 -  server running at http://127.0.0.1:3000/ -----> correct
 
-
 Q26.What is the purpose of the path module? 
 -  to provide utilities to play with file and directory paths -----> correct
 -  to provide utilities to add and remove files 
 -  It is a retiring module. 
 -  to provide utilities to test files 
-
 
 Q27.How do you make an HTTP server object active and listen to requests on certain ports? 
  - server. start 
@@ -192,7 +188,6 @@ fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) thro
 -  console logs system information 
 -  creates a file named data and append numbers 
 
-
 Q29.How do you start a Node application, if the entry file is indexjs? 
 -  nodemon start 
 -  start index.js 
@@ -205,26 +200,46 @@ Q29.How do you start a Node application, if the entry file is indexjs?
 - to provide methods to work with databases 
 -  to find new file systems 
 
-
 Q31.What is the Node LTS version? 
 -  It is the current unstable version and is to be avoided. 
 -  It is the version that will be retired soon. 
 -  It is the version with the latest features. 
 -  It is the safest version for long-term support. -----> correct
 
-
-Q32.Which of the following is NOT a valid stream in Node? 
+Q32. Which of the following is NOT a valid stream in Node? 
 
 - process. stdinfo -----> correct
 -  process. stdin 
 -  process. stdout 
 -  process. stderr 
 
-
-Q33.You have a script.js file with the single line of code shown here. What will be the output of executing script.js with the node command? 
+Q33. You have a script.js file with the single line of code shown here. What will be the output of executing script.js with the node command? 
 console.log(arguments); 
 - ReferenceError: arguments is not defined 
 - an empty string 
 - undefined 
 - an object representing an array that has five elements -----> correct
 
+### Q34. Which choice is null a valid method on event emitters?
+- [ ] startnull
+- [ ] onnull
+- [ ] oncenull
+- [ ] off
+
+### Q35. Which special object is an instance of EventEmitter?Which special object is an instance of null?
+- [ ] processnull
+- [ ] Buffernull
+- [ ] rootnull
+- [ ] require
+
+### Q36. What is the command to get a list of available commands for Node.js?What is the command to get a list of available commands for Node.js?
+- [ ] node index.js -xnull
+- [ ] node -vnull
+- [ ] node -hnull
+- [ ] node index.js -h
+
+### Q37. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named null?
+- [ ] http.IncomingMessagenull
+- [ ] http.ServerRequestnull
+- [ ] http.ClientRequestnull
+- [ ] http.ServerResponse
