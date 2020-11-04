@@ -356,7 +356,7 @@
 - utm_content
 
 ### Q60. The tracking ID contains a string that follows this format: UA- XXXXXX- Y. What does the - Y refer to?
-- the property number
+- the property number <<<<<< Correct
 - the account number
 - the view number
 - It is random.
