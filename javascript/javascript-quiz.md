@@ -231,18 +231,18 @@ a[100] = 'fox';
 - [ ] 100
 
 #### Q22. What is one difference between collections created with Map and collections created with Object?
-- [ ] You can iterate over values in a Map in their insertion order. (Correct. Map.prototype.forEach(callbackFn[, thisArg]))
-- [ ] You can count the records in a Map with a single method call. (Correct. Map.prototype.size)
-- [x] Keys in Maps can be strings.
-- [ ] You can access values in a Map without iterating over the whole collection. (Correct. Map.prototype.get(key))
+- [ ] You can iterate over values in a Map in their insertion order.
+- [x] You can count the records in a Map with a single method call.
+- [ ] Keys in Maps can be strings.
+- [ ] You can access values in a Map without iterating over the whole collection.
 
-#### Q23. Which property references the DOM object that dispatched an event?
-- [ ] source
-- [ ] object
-- [x] target
-- [ ] self
+<details><summary>Explanation</summary><p>
 
-#### Q24. What is the value of dessert.type after executing this code?
+`Map.prototype.size` returns the number of elements in a Map, whereas Object does not have a built-in method to return its size.
+
+</p></details>
+
+#### Q23. What is the value of dessert.type after executing this code?
 ```js
 const dessert = { type: 'pie' };
 dessert.type = 'pudding';
@@ -252,61 +252,55 @@ dessert.type = 'pudding';
 - [x] pudding
 - [ ] undefined
 
-#### Q25. 0 && hi
+#### Q24. 0 && hi
 - [ ] ReferenceError
 - [ ] True
 - [x] 0
 - [ ] false
 
-#### Q26. Which of the following operators can be used to do a short-circuit evaluation?
+#### Q25. Which of the following operators can be used to do a short-circuit evaluation?
 - [ ] \++
 - [ ] \--
 - [ ] \==
 - [x] ||
 
-#### Q27. Which statement sets the Person constructor as the parent of the Student constructor in the prototype chain?
+#### Q26. Which statement sets the Person constructor as the parent of the Student constructor in the prototype chain?
 - [ ] Student.parent = Person;
 - [x] Student.prototype = new Person();
 - [ ] Student.prototype = Person;
 - [ ] Student.prototype = Person();
 
-#### Q28. Why would you include a "use strict" statement in a JavaScript file?
+#### Q27. Why would you include a "use strict" statement in a JavaScript file?
 - [ ] to tell parsers to interpret your JavaScript syntax loosely
 - [x] to tell parsers to enforce all JavaScript syntax rules when processing your code
 - [ ] to instruct the browser to automatically fix any errors it finds in the code
 - [ ] to enable ES6 features in your code
 
-#### Q29. Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?
+#### Q28. Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?
 - [ ] all of them
 - [ ] const
 - [x] var
 - [ ] let
 
-#### Q30. Which of the following values is not a Boolean false?
+#### Q29. Which of the following values is not a Boolean false?
 - [ ] Boolean(0)
 - [ ] Boolean("")
 - [ ] Boolean(NaN)
 - [x] Boolean("false")
 
-#### Q31. Which of the following is not a keyword in JavaScript?
+#### Q30. Which of the following is not a keyword in JavaScript?
 - [ ] this
 - [ ] catch 
 - [ ] function
 - [x] array
 
-#### Q32. When would you use conditional statement?
-- [ ] When you want to loop through a group of statements.
-- [x] When you want your code to choose between multiple options.
-- [ ] When you want to reuse a set of statements multiple times.
-- [ ] When you want to group data together.
-
-#### Q33. Which variable is an implicit parameter for every function in JavaScript?
+#### Q31. Which variable is an implicit parameter for every function in JavaScript?
 - [x] Arguments
 - [ ] args
 - [ ] argsArray
 - [ ] argumentsList
 
-#### Q34. For the following class, how do you get the value of 42 fro ma instance of X?
+#### Q32. For the following class, how do you get the value of 42 from an instance of X?
 ```js
 class X {
     get Y() { return 42; }
@@ -317,7 +311,7 @@ class X {
 - [ ] x.Y()
 - [ ] x.get().Y
 
-#### Q35. What is the result of running this code?
+#### Q33. What is the result of running this code?
 ```js
 sum(10,20);
 diff(10,20);
@@ -330,29 +324,35 @@ let diff = function(x,y){
 }
 ```
 - [ ] 30, ReferenceError, 30, -10
-- [x] ReferenceError
+- [x] 30, ReferenceError
 - [ ] 30, -10
 - [ ] ReferenceError, -10
 
-#### Q36. Why is it usually better to work with Objects instead of Arrays to store a collection of records?
+#### Q34. Why is it usually better to work with Objects instead of Arrays to store a collection of records?
 - [ ] Objects are more efficient in terms of storage.
-- [x] Adding a record to an object is significantly faster than pushing a record into an array.
-- [ ] Most operations involve looking up a record, and objects can do that better than arrays.
+- [ ] Adding a record to an object is significantly faster than pushing a record into an array.
+- [x] Most operations involve looking up a record, and objects can do that better than arrays.
 - [ ] Working with objects makes the code more readable.
 
-#### Q37. Which statement is true about the "async" attribute for the HTML script tag?
+<details><summary>Explanation</summary><p>
+
+Records in an object can be retrieved using their key which can be any given value (e.g. an employee ID, a city name, etc), whereas to retrieve a record from an array we need to know its index.
+
+</p></details>
+
+#### Q35. Which statement is true about the "async" attribute for the HTML script tag?
 - [ ] It can be used for both internal and external JavaScript code.
-- [ ] It can be used only for internal JavaScript code. 
+- [ ] It can be used only for internal JavaScript code.
 - [ ] It can be used only for internal or external JavaScript code that exports a promise.
 - [x] It can be used only for external JavaScript code.
 
-#### Q38. How do you import the lodash library making it top-level Api available as the "_" variable?
+#### Q36. How do you import the lodash library making it top-level Api available as the "_" variable?
 - [x] import _ from 'lodash';
 - [ ] import 'lodash' as _;
 - [ ] import '_' from 'lodash;
 - [ ] import lodash as _ from 'lodash';
 
-#### Q39. What does the following expression evaluate to?
+#### Q37. What does the following expression evaluate to?
 ```js
 [] == []
 ```
@@ -361,13 +361,13 @@ let diff = function(x,y){
 - [ ] []
 - [x] False
 
-#### Q40. What is the name of a function whose execution can be suspended and resumed at a later point? 
+#### Q38. What is the name of a function whose execution can be suspended and resumed at a later point? 
 - [x] Generator function
 - [ ] Arrow function 
 - [ ] Async/ Await function 
 - [ ] Promise function
 
-#### Q41. What will this code print?
+#### Q39. What will this code print?
 ```js
 var v = 1
 var f1 = function(){
@@ -386,32 +386,32 @@ f2()
 - [ ] Nothing--this code will throw an error.
 - [ ] undefined 
 
-#### Q42. Which statement is true about Functional Programming?
+#### Q40. Which statement is true about Functional Programming?
 - [ ] Every object in the program has to be a function.
 - [ ] Code is grouped with the state it modifies.
 - [ ] Date fields and methods are kept in units.
 - [x] Side effects are not allowed.
 
-#### Q43. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
+#### Q41. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
 - [ ] You are calling a method named reduce on an object that's declared but has no value.
 - [x] You are calling a method named reduce on an object that does not exist.
 - [ ] You are calling a method named reduce on an empty array.
 - [ ] You are calling a method named reduce on an object that's has a null value.
 
-#### Q44. How many prototype objects are in the chain for the following array?
+#### Q42. How many prototype objects are in the chain for the following array?
 `let arr = [];`
 - [ ] 3
 - [ ] 2
 - [x] 0
 - [ ] 1
 
-#### Q45. Which of the following is not a unary operator?
+#### Q43. Which of the following is not a unary operator?
 - [ ] typeof
 - [ ] delete
 - [x] instanceof
 - [ ] void
 
-#### Q46. What type of scope does the end variable have in the code shown? 
+#### Q44. What type of scope does the end variable have in the code shown? 
 ```
 var start = 1;
 if (start === 1) {
@@ -423,7 +423,7 @@ if (start === 1) {
 - [ ] global   
 - [ ] function
 
-#### Q47. What will the value of y be in this code: 
+#### Q45. What will the value of y be in this code: 
 ```
 const x = 6 % 2;
 const y = x ? 'One': 'Two';
@@ -433,19 +433,19 @@ const y = x ? 'One': 'Two';
 - [ ] TRUE
 - [x] Two
 
-#### Q48. Which keyword is used to create an error?
+#### Q46. Which keyword is used to create an error?
 - [x] throw
 - [ ] exception
 - [ ] catch
 - [ ] error
 
-#### Q49. What's one difference between the async and defer attributes of the HTML script tag?
+#### Q47. What's one difference between the async and defer attributes of the HTML script tag?
 - [ ] The defer attribute can work synchronously.
 - [ ] The defer attribute works only with generators.
 - [ ] The defer attribute works only with promises.
 - [x] The defer attribute will asynchronously load the scripts in order.
 
-#### Q50. The following program has a problem. What is it?
+#### Q48. The following program has a problem. What is it?
 ```js
 var a;
 var b = (a = 3) ? true: false
@@ -455,7 +455,7 @@ var b = (a = 3) ? true: false
 - [ ] You can't use a ternary in the right-hand side of an assignment operator.
 - [ ] The code is using the deprecated var keyword
 
-#### Q51. Which statement references the DOM node created by the code shown?
+#### Q49. Which statement references the DOM node created by the code shown?
 ```html
 <p class="pull">lorem ipsum</p>
 ```
@@ -464,60 +464,57 @@ var b = (a = 3) ? true: false
 - [ ] `Document.querySelector('pull')`
 - [ ] `Document.querySelector('#pull')`
 
-#### Q52. What value does the code return?
+#### Q50. What value does the code return?
 ```js
-let answer=true
-if (answer === false){
-	return 0}
-	else {return 10}
+let answer = true;
+if (answer === false) {
+  return 0;
+} else {
+  return 10;
+}
 ```
 - [x] 10
 - [ ] false
 - [ ] 0
 
-### Q53. What is the result in the console of running the code shown?
+### Q51. What is the result in the console of running the code shown?
 ```js
-var start = 1; 
+var start = 1;
 function setEnd() {
 	var end = 10;
 }
 setEnd();
-console.log(end); 
+console.log(end);
 ```
 - [ ] 10
 - [ ] 0
 - [x] ReferenceError
 - [ ] undefined
 
-### Q54. What will this code log in the console? 
+### Q52. What will this code log in the console? 
 ```js
 function sayHello() {
-console.log("hello"); 
+    console.log("hello");
 }; 
 
-console.log(sayHello.prototype); 
+console.log(sayHello.prototype);
 ```
-- [ ] undefined 
+- [ ] undefined
 - [ ] "hello"
 - [x] an object with a constructor property
 - [ ] an error message
 
-The correct answer is `an object with a constructor property` not undefined. 
-You can tried the code here: [https://codepen.io/DinaTAKLIT/pen/bGepZzR](https://codepen.io/DinaTAKLIT/pen/bGepZzR) 
-And instead of returning `undefined` the result => Object {}. 
-You can try it out open the console and check.
-
-### Q55: Which collection object allows unique value to be inserted only once? 
+### Q53: Which collection object allows unique value to be inserted only once? 
 - [ ] Object
 - [x] Set
 - [ ] Array
 - [ ] Map
 
-### Q56. What two values will this code print?
+### Q54. What two values will this code print?
 ```js
 function printA() {
-console.log(answer);
-var answer = 1; 
+    console.log(answer);
+    var answer = 1;
 };
 printA();
 printA();
@@ -527,7 +524,7 @@ printA();
 - [x] undefined the undefined
 - [ ] undefined the 1
 
-#### Q57. For the following class, how do you get the value of 42 from "X" ?
+#### Q55. For the following class, how do you get the value of 42 from "X" ?
 ```javascript
 class X {
     get Y() { return 42; }
@@ -539,19 +536,13 @@ var x = new X();
 - [ ] x.get('Y')
 - [ ] x.get().Y
 
-#### Q58. Which choice is not a unary operator?
-- [ ] void
-- [ ] delete
-- [ ] instanceof
-- [ ] typeof
-
-#### Q59. How does the forEach() method differ from a for statement?
+#### Q56. How does the forEach() method differ from a for statement?
 - [ ] forEach allows you to specify your own iterator, whereas for does not.
 - [ ] forEach can be used only with strings, whereas for can be used with additional data types.
 - [x] forEach can be used only with an array, whereas for can be used with additional data types.
 - [ ] for loops can be nested; whereas forEach loops cannot.
 
-#### Q60. What will be logged to the console?
+#### Q57. What will be logged to the console?
 ```javascript
 "use strict";
 function logThis() {
@@ -563,15 +554,15 @@ new logThis();
 - [ ] undefined
 - [ ] function
 - [ ] windows
-- [ ] {desc: "logger"}
+- [x] {desc: "logger"}
 
-#### Q61. Which choice is an incorrect way to define an arrow function that returns an empty object? 
+#### Q58. Which choice is an incorrect way to define an arrow function that returns an empty object? 
 - [ ] => ({})
 - [x] => {}
 - [ ] => { return {};}
 - [ ] => (({}))
 
-#### Q62. Why might you choose to make your code asynchronous?
+#### Q59. Why might you choose to make your code asynchronous?
 - [ ] to start tasks that might take some time without blocking subsequent tasks from executing immediately
 - [x] to ensure that tasks further down in your code are not initiated until earlier tasks have completed
 - [ ] to make your code faster
