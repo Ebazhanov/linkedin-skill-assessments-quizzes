@@ -191,7 +191,7 @@
 - cohort analysis
 - funnel visualization
 - user flow
-- treemap
+- treemap <<<<<<<<<<< correct response
 
 ### Q33. You already have Google Analytics set up on your website, but decide to add Google Tag Manager. What do you do with the existing Analytics tag?
 - Remove the tag.
