@@ -148,10 +148,10 @@ NOT SURE THE QUESTION IS CORRECT. Logical, physical and normalised are all produ
 - [x]  DESCRIBE table;
 
 #### Q15. MySQL uses security based on_____for all connections, queries, and other operations that users can attempt to perform.
-- [x]  administrator schema
+- []  administrator schema
 - [ ] encrypted algorithms
 - [ ] user settings
-- [x] access control lists
+- [x] access control lists (https://dev.mysql.com/doc/refman/8.0/en/security-guidelines.html)
 
 #### Q16. Which MySQL command modifies data records in a table?
 - [x] UPDATE
