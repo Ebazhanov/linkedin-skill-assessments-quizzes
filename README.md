@@ -1,6 +1,6 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-159-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-160-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
 
@@ -270,6 +270,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/pushpapune"><img src="https://avatars1.githubusercontent.com/u/73734199?v=4" width="100px;" alt=""/><br /><sub><b>pushpapune</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=pushpapune" title="Code">💻</a> <a href="#design-pushpapune" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/rradfar"><img src="https://avatars3.githubusercontent.com/u/31255934?v=4" width="100px;" alt=""/><br /><sub><b>Ramtin Radfar</b></sub></a><br /><a href="#design-rradfar" title="Design">🎨</a> <a href="#ideas-rradfar" title="Ideas, Planning, & Feedback">🤔</a> <a href="#business-rradfar" title="Business development">💼</a></td>
     <td align="center"><a href="http://www.abdulmajeedisa.com"><img src="https://avatars0.githubusercontent.com/u/44467524?v=4" width="100px;" alt=""/><br /><sub><b>Abdulmajeed Isa</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=amajai" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/vikassaxena02"><img src="https://avatars2.githubusercontent.com/u/25317029?v=4" width="100px;" alt=""/><br /><sub><b>vikassaxena02</b></sub></a><br /><a href="#design-vikassaxena02" title="Design">🎨</a></td>
   </tr>
 </table>
 
