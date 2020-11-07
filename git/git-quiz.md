@@ -732,10 +732,12 @@ In Git, there are two main ways to integrate changes from one branch into anothe
 - [ ] A hard reset changes only where the HEAD is pointing, while a soft reset changes the HEAD and index.
 - [ ] A hard reset caches the old HEAD pointer, while a soft reset deletes it entierly.
 
-#### Q87. Which of the following options is correct ?
+#### Q87. Consider the following Git workflow :
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Daniboy370/in-quiz-questions/blob/master/git/images/Git-WorkFlow.png?raw=true' width=750>
 
+* Which of the following options is correct ?
+ 
 - [ ] 1. Develop	2. Release	3. Hotfix	4. Feature	5. Master
 - [ ] 1. Master		2. Release	3. Hotfix	4. Feature	5. Develop
 - [ ] 1. Develop	2. Master	3. Hotfix	4. Feature	5. Develop
