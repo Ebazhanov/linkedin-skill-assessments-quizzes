@@ -627,4 +627,8 @@ def __init__(self):
     pass
 ```
 
-
+#### Q59. Which statement about the class methods is true?
+- [ ] `A class method holds all of the data for a particular class.`
+- [x] `A class method can modify the state of the class, but it cannot directly modify the state of an instance that inherits from that class.`
+- [ ] `A class method is a regular function that belongs to a class, but it must return None`
+- [ ] `A class method is similar to a regular function, but a class method does not take any arguments.`
