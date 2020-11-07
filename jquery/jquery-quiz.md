@@ -103,8 +103,7 @@ $('#ball').click(function() {
             left: '+=100',
         }, 600)
     }
-});` <<<<----CORRECT !      
-
+});`
 - `$(this).animate({
     top: '=100',
     left: '=100',
