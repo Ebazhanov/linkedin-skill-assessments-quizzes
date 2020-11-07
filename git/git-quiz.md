@@ -733,7 +733,9 @@ In Git, there are two main ways to integrate changes from one branch into anothe
 - [ ] A hard reset caches the old HEAD pointer, while a soft reset deletes it entierly.
 
 #### Q87. Which of the following options is correct ?
-<img src=https://ibb.co/YBWx5Y8 width=500>
+
+<img src='https://ibb.co/YBWx5Y8' width=500>
+
 - [ ] 1. Develop	2. Release	3. Hotfix	4. Feature	5. Master
 - [ ] 1. Master		2. Release	3. Hotfix	4. Feature	5. Develop
 - [ ] 1. Develop	2. Master	3. Hotfix	4. Feature	5. Develop
