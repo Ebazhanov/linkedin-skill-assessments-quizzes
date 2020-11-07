@@ -734,17 +734,9 @@ In Git, there are two main ways to integrate changes from one branch into anothe
 
 #### Q87. Which of the following options is correct ?
 
-<img src='https://ibb.co/YBWx5Y8' width=500>
+![](https://github.com/Daniboy370/in-quiz-questions/blob/master/git/images/Git-WorkFlow.png?raw=true)
 
 - [ ] 1. Develop	2. Release	3. Hotfix	4. Feature	5. Master
 - [ ] 1. Master		2. Release	3. Hotfix	4. Feature	5. Develop
 - [ ] 1. Develop	2. Master	3. Hotfix	4. Feature	5. Develop
 - [x] 1. Master		2. Hotfix	3. Develop	4. Feature	5. Release
-
-
-
-
-
-
-
-
