@@ -32,25 +32,25 @@ mysql Assessment
 
 #### Q6. How can you create a stored procedure in MySQL?
 - [ ] `-`
-```
+```sql
 1 CREATE PROCEDURE P () AS
 2 BEGIN
 3 END;
 ```
 - [x] `-`
-```
+```sql
 1 CREATE PROCEDURE P ()
 2 BEGIN
 3 END
 ```
 - [ ] `-`
-```
+```sql
 1 CREATE PROCP
 2 BEGIN
 3 END;
 ```
 - [ ] `-`
-```
+```sql
 1 CREATE PROC P AS O
 2 BEGIN
 3 END;
@@ -64,7 +64,7 @@ mysql Assessment
 
 #### Q8. Management has requested that you build an employee database. You start with the employee table. What is the correct syntax?
 - [ ] `-`
-```
+```sql
     1 CREATE TABLE employee (
     2 employee ID char(10),
     3 firstName varchar(50),
@@ -75,7 +75,7 @@ mysql Assessment
     8 );
 ```
 - [ ] `-`
-```
+```sql
     1 CREATE TABLE employee (
     2 employee ID char(10),
     3 firstName varchar(50),
@@ -86,7 +86,7 @@ mysql Assessment
     8 );
 ```
 - [ ] `-`
-```
+```sql
     1 CREATE TABLE IF EXISTS employee (
     2 employee ID char(10),
     3 firstName varchar(50),
@@ -97,7 +97,7 @@ mysql Assessment
     8 );
 ```
 - [x] `-`
-```
+```sql
     1 CREATE TABLE IF NOT EXISTS employee (
     2 employee ID char(10),
     3 firstName varchar(50),
@@ -424,14 +424,13 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 - [] to prevent data anomalies
 
 #### Q58. The code snippet below is used to read data from an XML file into a table. Which XML structure is **not** supported by the statement?
-```
+```sql
 1 LOAD XML LOCAL INFILE 'cars.xml'
 2 INTO TABLE cars
 3 ROWS IDENTIFIED BY `<car>`;
-
 ```
 - [ ]
- ```
+ ```xml
 <car>
     <field name="make"> Lexus </field>
     <field name="model"> IS300 </field>
@@ -439,17 +438,17 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 </car>
 ```
 - [x]
-```
+```xml
 <car name="make"> Dodge </car>
 <car name="model"> Ram </car>
 <car name="year"> 2000 </car>
 ```
 - [ ]
-```
+```xml
 <car make="Ford" model="Mustang" year="2002/>
 ```
 - [ ]
-```
+```xml
 <car year="2010>
     <make>Mercedes</make> <model> C-Class</model>
 </car>
