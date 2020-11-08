@@ -567,3 +567,9 @@ new logThis();
 - [x] to ensure that tasks further down in your code are not initiated until earlier tasks have completed
 - [ ] to make your code faster
 - [ ] to ensure that the call stack maintains a LIFO (Last in, First Out) structure
+
+#### Q63. Which expression evaluates to true?
+- [ ] [3] == [3]
+- [x] 3 == '3'
+- [ ] 3 != '3'
+- [ ] 3 === '3'

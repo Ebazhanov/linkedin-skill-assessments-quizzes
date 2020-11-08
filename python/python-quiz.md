@@ -550,7 +550,7 @@ fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
 
 - [ ] `fruit_names = [x in fruits.keys() for x]`
 - [ ] `fruit_names = for x in fruits.keys() *`
-- [x] `fruit_names = [x for x in fruits.keys(]`
+- [x] `fruit_names = [x for x in fruits.keys()]`
 - [ ] `fruit_names = x for x in fruits.keys()`
 
 #### Q50. What is the algorithmic paradigm of quick sort?
@@ -627,4 +627,8 @@ def __init__(self):
     pass
 ```
 
-
+#### Q59. Which statement about the class methods is true?
+- [ ] `A class method holds all of the data for a particular class.`
+- [x] `A class method can modify the state of the class, but it cannot directly modify the state of an instance that inherits from that class.`
+- [ ] `A class method is a regular function that belongs to a class, but it must return None`
+- [ ] `A class method is similar to a regular function, but a class method does not take any arguments.`
