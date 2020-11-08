@@ -271,7 +271,7 @@ main(){
 - [ ] by using recursive functions
 - [ ] by using global variables
 
-#### Q21. A union allows you to store differente _____ in the same _____.
+#### Q21. A union allows you to store different _____ in the same _____.
 
 - [ ] Objects; Structure
 - [ ] Variables; Declaration
@@ -296,6 +296,13 @@ main(){
 #### Q23. What is the difference between scanf() and sscanf() functions?
 
 - [ ] The scanf() function reads data formatted as a string; The sscanf() function reads string input from the screen.  
-- [x] The scanf() function reads formatted data from the keyword; The sscanf() function reads formatted input from a string.
-- [ ] The scanf() function reads string data from the keyword; The sscanf() function reads string data from a string.
+- [x] The scanf() function reads formatted data from the keyboard; The sscanf() function reads formatted input from a string.
+- [ ] The scanf() function reads string data from the keyboard; The sscanf() function reads string data from a string.
 - [ ] The scanf() function reads formatted data from a file; The sscanf() function reads input from a selected string
+
+#### Q24. What is not a valid command with this declaration?
+char *string[20] = { "one", "two", "three"};
+- [ ] printf("%c", string[1][2]);
+- [x] printf("%s", string[1][2]);
+- [ ] printf("%s", string[1]);
+- [ ] printf(string[1]);
