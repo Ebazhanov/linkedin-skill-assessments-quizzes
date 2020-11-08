@@ -1545,6 +1545,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "zaahidali",
+      "name": "Zahid Ali",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/37751705?v=4",
+      "profile": "https://www.linkedin.com/in/zaahidali/",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
