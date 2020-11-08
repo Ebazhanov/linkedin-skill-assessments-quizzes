@@ -148,10 +148,10 @@ NOT SURE THE QUESTION IS CORRECT. Logical, physical and normalised are all produ
 - [x]  DESCRIBE table;
 
 #### Q15. MySQL uses security based on_____for all connections, queries, and other operations that users can attempt to perform.
-- [x]  administrator schema
+- [ ]  administrator schema
 - [ ] encrypted algorithms
 - [ ] user settings
-- [x] access control lists
+- [x] access control lists (https://dev.mysql.com/doc/refman/8.0/en/security-guidelines.html)
 
 #### Q16. Which MySQL command modifies data records in a table?
 - [x] UPDATE
@@ -287,8 +287,8 @@ NOT SURE THE QUESTION IS CORRECT. Logical, physical and normalised are all produ
 - [ ] it performs a table check and, if problems are found, displays the information for the server administrator to take action.
 
 #### Q38. What mysql statement is used to check which accounts have specific privileges?
-- [] show grants
-- [x] show privileges
+- [x] show grants (displays the privileges and roles that are assigned to a MySQL user account or role)
+- [] show privileges (shows the list of system privileges that the MySQL server supports)
 - [] show access
 - [] show user permissions
 
@@ -314,16 +314,16 @@ NOT SURE THE QUESTION IS CORRECT. Logical, physical and normalised are all produ
 
 #### Q42.Which statement can you use to load data from a file into the table?
 - [] cat file|mysql
-- [x] load data infile
-- [] load data local infile
+- [x] load data infile (correct if the file is already on the server)
+- [] load data local infile (also correct but only if the file is from the client)
 - [] extended insert statement
 
 #### Q43.See tables in the diagram. Make sure that any record added to the purchase table consists of a customerId, which exists in the customer table and a carId, which exists in the car table. You decide to use a trigger to do the validation. Which one?
 ![mysql Q43](images/mysql_q43.jpg)
 - [] after insert
-- [x] if exists
-- [] before insert
-- [] cross join
+- [] if exists (invalid not a trigger; IF function + EXISTS clause)
+- [x] before insert
+- [] cross join (valid for a check but not a trigger)
 
 #### Q44. Which is the correct syntax of an extended insert statement?
 
@@ -344,10 +344,10 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 ('Mercedes', 'C', 2003)
 
 ### Q 45. You need an exact copy of a table with all columns and indexes. How?
-- [x] create table
+- [] create table
 - [] clone table
 - [] insert into
-- [] show create table
+- [x] show create table
 
 #### Q46. you need to make your mysql system secure against hackers. What are you not supposed to do?
 - [] Run the server as normal user
@@ -356,12 +356,12 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 - [] use the compressed protocol
 
 #### Q47. You manage a database with a table "customers". You created a temporary table also called "customers" with which you are working for the duration of your session. You need to recreate the temporary table with different specs. Which command do you need to run first?
-- [x] create temporary table customers;
+- [] create temporary table customers;
 - [] drop temp table customers;
 - [] drop table customers;
-- [] drop temporary table customers;
+- [x] drop temporary table customers;
 
-#### Q48. you need to run a complex query with recursive subqueriesbut without creating a stored procedure or a function. Which command or clause do you use?
+#### Q48. you need to run a complex query with recursive subqueries but without creating a stored procedure or a function. Which command or clause do you use?
 - [] collate
 - [x] union
 - [] full join
@@ -375,19 +375,21 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 
 #### Q50. What is the MySQL perror command-line utility used for?
 - [] to display your version of MySQL
-- [] to display operating system error codes  
+- [x] to display operating system error codes  
 - [] to display default settings that are in error  
 - [x] to display storage error codes
 
+(*note: perror prints a description for a system error code or for a storage engine (table handler) error code. link: https://dev.mysql.com/doc/refman/5.7/en/perror.html#:~:text=2%20perror%20%E2%80%94%20Display%20MySQL%20Error%20Message%20Information,-For%20most%20system&text=You%20can%20find%20out%20what,(table%20handler)%20error%20code.)
+
 #### Q51. How can you list all columns for a given table?
 - [] SHOW table COLUMNS;
-- [x] SHOW COLUMNS FROM table;  
+- [x] SHOW COLUMNS FROM table; (*not on test but `DESCRIBE tablename` is a shortcut for this command) 
 - [] LIST table COLUMNS;
 - [] SELECT COLUMNS FROM table;  
 
 #### Q52. How would you list the full set of tables in the currently selected database?
 - [] SELECT * FROM DATABASE;
-- [x] SHOW TABLES;  
+- [x] SHOW TABLES;
 - [] LIST TABLES;
 - [] SELECT ALL TABLES;
 
@@ -416,7 +418,7 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 - [x] WITH cte as (SELECT id FROM users) SELECT ...
 
 #### Q57. What is one reason to introduce data redundancy into a normalised database design?
-- [] to reduce corruption in data
+- [x] to reduce corruption in data
 - [] to reduce storage space
 - [] to make the system faster
 - [] to prevent data anomalies
@@ -436,7 +438,7 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
     <field name="make"> 2016 </field>
 </car>
 ```
-- [] 
+- [x] 
 ```
 <car name="make"> Dodge </car>
 <car name="model"> Ram </car>
@@ -454,13 +456,13 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 ```
 
 #### Q59. You are loading data into a table. Which command can you use to make sure that all data is inserted and duplicated rows are discarded?
-- [] `INSERT IGNORE`
+- [x] `INSERT IGNORE`
 - [] `INSERT UNIQUE`
 - [] `INSERT INTO`
 - [] `INSERT DISTINCT`
 
 #### Q60. Which statement about the `TRUNCATE TABLE` statement is true?
 - [] It will stop and issue an error when it encounters a row that is referenced by a row in a child table.
-- [] It always first drops, then re-creates a new table.
+- [x] It always first drops, then re-creates a new table.
 - [] It deletes rows one by one on tables with foreign key contraints.
 - [] It does not invoke the `DELETE` triggers associated with the table.

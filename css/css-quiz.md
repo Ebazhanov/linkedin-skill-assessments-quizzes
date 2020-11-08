@@ -370,15 +370,15 @@ p {
 @media (min-width: 1024px), screen and (orientation: landscape) { … }
 ```
 
-- [ ] The rule will apply to a device that has either a width of 1024px or wider, or is a screen device in landscape mode.
+- [x] The rule will apply to a device that has either a width of 1024px or wider, or is a screen device in landscape mode.
 - [ ] The rule will apply to a device that has a width of 1024px or narrower and is a screen device in landscape mode.
-- [x] The rule will apply to a device that has a width of 1024px or wider and is a screen device in landscape mode.
+- [ ] The rule will apply to a device that has a width of 1024px or wider and is a screen device in landscape mode.
 - [ ] The rule will apply to a device that has a width of 1024px or narrower, or is a screen device in landscape mode.
  
 #### Q28. CSS transform properties are used to change the shape and position of the selected objects. The transform-origin property specifies the location of the element's transformation origin. By default, what is the location of the origin?
 
-- [ ] the top left corner of the element
-- [x] the center of the element
+- [x] the top left corner of the element
+- [ ] the center of the element
 - [ ] the top right corner of the element
 - [ ] the bottom left of the element
 
@@ -410,8 +410,8 @@ p {
 
 #### Q32. Which type of declaration will take precedence?
 
-- [x] any declarations in user-agent stylesheets
-- [ ] important declarations in user stylesheets
+- [ ] any declarations in user-agent stylesheets
+- [x] important declarations in user stylesheets
 - [ ] normal declarations in author stylesheets
 - [ ] important declarations in author stylesheets
 
@@ -455,7 +455,7 @@ h2 + p {
 
 - [ ] Paragraphs 2 and 3 will be blue. The h2 and paragraph 2 will have a beige background.
 - [x] Paragraphs 2, and 3 will be blue, and paragraph 2 will have a beige background.
-- [ ] Paragraphs 2 and 3 will be blue. Paragraph 2 will have a beige background.
+- [x] Paragraphs 2 and 3 will be blue. Paragraph 2 will have a beige background.
 - [ ] Paragraph 2 will be blue. Paragraphs 2 and 3 will have a beige background.
 
 #### Q35. When using flexbox, the "justify-content" property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
@@ -494,7 +494,7 @@ h2 + p {
 - [ ] Icon fonts can be inserted only using JavaScript.
 - [ ] Icon fonts are inserted as inline images.
 - [ ] Icon fonts require browser extensions.
-- [ ] Icon fonts can be styled with typography-related properties such as font-size and color.
+- [x] Icon fonts can be styled with typography-related properties such as font-size and color.
 
 ### Q40. The values for the font-weight property can be keywords or numbers. For each numbered value below, what is the associated keyword?
 
@@ -528,7 +528,7 @@ li:nth-child(3+2n) {
 }
  ```
 
-- [ ]
+- [x]
 
 ```css
 li:nth-child(3n+2) {
@@ -555,8 +555,8 @@ li:nth-child(2n+3) {
 
 - [ ] a[href="#"] {...}
 - [ ] a[href~="#"]
-- [x] a[href^="#"]
-- [ ] a[href="#"]
+- [ ] a[href^="#"]
+- [x] a[href="#"]
 
 ### Q44. What is not true about class selectors?
 
@@ -587,10 +587,10 @@ li:nth-child(2n+3) {
     src: url("avenir.woff) format("woff");
 }
 ```
-- [ ] The font file formats are not supported in mordern browsers
+- [x] The font file formats are not supported in mordern browsers https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/src
 - [ ] The src attribute requires a comma between the URL and format values.
 - [ ] There are no erros in the example.
-- [x] The san-serif inclusion is problematic. A @font-face rule should definte only one font.
+- [ ] The san-serif inclusion is problematic.
 
 ### Q48. Which style places an element at a fixed location within its container?
 - [x] position: absolute;
@@ -610,7 +610,7 @@ li:nth-child(2n+3) {
 
 ### Q50. What is the CSS selector for an <a> tag containing the title attribute?
 
-- [ ] a[title]
+- [x] a[title]
 
 - [ ] a > title
 

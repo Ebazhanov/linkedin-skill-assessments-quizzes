@@ -703,3 +703,43 @@ In Git, there are two main ways to integrate changes from one branch into anothe
 - [ ] SVN works only on Linux, while Git works on all operating systems.
 - [x] SVN is a centralized system, while Git is a distributed system.
 - [ ] Git a centralized system, while SVN is a distributed system.
+
+#### Q83. Where are files stored before they are committed to the local repository ?
+
+- [ ] git
+- [ ] saved files
+- [x] staging area/index
+- [ ] git documents
+
+#### Q84. This command is an example of what kind of tag ?
+
+`git tag -a v1.4 -m "ABCD v1.5"`
+
+- [ ] verbose
+- [x] annotated
+- [ ] lightweight
+- [ ] deferred
+
+#### Q85. What is the difference between a soft reset (`git reset --soft`) and a hard reset (`git reset –hard`) ?
+[x] A soft reset only changes the commit that HEAD points to, while a hard reset resets the index and working tree to match the specified commit, discarding any changes.
+[ ] A soft reset caches the old HEAD pointer, while a hard reset deletes it entirely.
+[ ] A hard reset changes only where the HEAD is pointing, while a soft reset changes the HEAD and index.
+[ ] A hard reset caches the old HEAD pointer, while a soft reset deletes it entierly.
+
+#### Q86. What is the difference between a soft reset (`git reset --soft`) and a hard reset (`git reset –hard`) ?
+- [x] A soft reset only changes the commit that HEAD points to, while a hard reset resets the index and working tree to match the specified commit, discarding any changes.
+- [ ] A soft reset caches the old HEAD pointer, while a hard reset deletes it entirely.
+- [ ] A hard reset changes only where the HEAD is pointing, while a soft reset changes the HEAD and index.
+- [ ] A hard reset caches the old HEAD pointer, while a soft reset deletes it entierly.
+
+#### Q87. Consider the following Git workflow :
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Daniboy370/in-quiz-questions/blob/master/git/images/Git-WorkFlow.png?raw=true' width=750>
+
+* Which of the following options is correct ?
+ 
+- [ ] 1. Develop	2. Release	3. Hotfix	4. Feature	5. Master
+- [ ] 1. Master		2. Release	3. Hotfix	4. Feature	5. Develop
+- [ ] 1. Develop	2. Master	3. Hotfix	4. Feature	5. Develop
+- [x] 1. Master		2. Hotfix	3. Develop	4. Feature	5. Release
+

@@ -70,8 +70,8 @@
 $('ul').find('li').get(2);
 $('ul').find('li').eq(2);
 
-- .get() retrieves a DOM element, and can't be chained, eq() retrieves a jQuery object, and can be chained. <<<<--Correct !
-- .get() retrieves a jQuery object, and can't be chained, eq() retrieves a DOM element, and can be chained.
+- .get() retrieves a DOM element, and can't be chained, eq() retrieves a jQuery object, and can be chained.
+- .get() retrieves a jQuery object, and can't be chained, eq() retrieves a DOM element, and can be chained. <-- Correct
 - .get() retrieves a jQuery object, and is zero-indexed, eq() retrieves a DOM element, and is 1-indexed.
 - .get() retrieves a DOM element, and is zero-indexed, eq() retrieves a jQuery object, and is 1-indexed.
 
@@ -92,7 +92,7 @@ $('#ball').click(function() {
             left: '-=100',
         }, 600)
     }
-});`
+});` <-- Correct
 
 - `$(this).animate({
     top: '-=100',
@@ -103,8 +103,7 @@ $('#ball').click(function() {
             left: '+=100',
         }, 600)
     }
-});` <<<<----CORRECT !      
-
+});`
 - `$(this).animate({
     top: '=100',
     left: '=100',
@@ -219,9 +218,9 @@ function expression.
 - $('header').html() returns all headers in an HTML document. $('header').text() the first line of a text file.
 
 #### Q14. When writing jQuery plugins, we often provide default options that may be overridden by the end user. What jQuery function is most useful for this purpose?
-- $.extend
+- $.extend <-- Correct
 - $.clone
-- $.fn.extend <<<<---CORRECT
+- $.fn.extend
 - $.merge
 
 #### Q15. There are times when you might want to programmatically trigger an event, instead of simply reacting to user input directly. Given this markup, Which choice will NOT cause a click event to the select box when the button is clicked?
@@ -244,7 +243,7 @@ function expression.
 
 - `$('button').on('click.myApp', (function() {
         $('input[type=select]').trigger('click');
-});` <<<<<----CORRECT !
+});` <<<<<----CORRECT ! ***see option 3
 
 - `$('button').on('click', (function() {
         $('input[type=select]').click());
@@ -252,7 +251,7 @@ function expression.
 
 - `$('button').trigger(function() {
         $('input[type=select]').click();
-});`
+});` <-- I think this may be more correct https://api.jquery.com/trigger/
 
 - `$('button').click(function() {
         $('input[type=select]').click();
@@ -285,28 +284,28 @@ function expression.
 
 ```
 
-- `$('.animate-me').offset();`
+- `$('.animate-me').offset();`<-- Correct relative to Document
 - `$('.animate-me').each();`
-- `$('.animate-me').position();`
+- `$('.animate-me').position();` <-- WRONG relative to parent
 - `$('.animate-me').offsetParent();`
 
 #### Q17. You want to work with AJAX using a Promise-like interface instead of nested callback functions. What jQuery API should you use?
 
 - `jQuery.sub`
 - `jQuery.ajaxTransport`
-- `jQuery.Deferred`
+- `jQuery.Deferred` <-- Correct
 - `jQuery.proxy`
 
 #### Q18. What is tricky about jQuery's nth- filters (:nth-child, :nth-of-type, etc.) relative to other filters?
 
-- Referring to lists of items, they are 1-indexed (like CSS), not 0-indexed (like JavaScript).
+- Referring to lists of items, they are 1-indexed (like CSS), not 0-indexed (like JavaScript). <-- Correct
 - They don't return the jQuery object, and cannot be chained.
 - They can return the wrong items if the DOM was recently manipulated.
 - They are not part of CSS, so they don't get the performance benefits of passing through the document.querySelectorAll.
 
 #### Q19. jQuery's AJAX functions return objects that implement the Promise API. As a result, you can chain promises and avoid nested callbacks. What does that look like?
 
-- Option 1
+- Option 1 <-- Correct
 
 ```jQuery
 $.get('hhttp://httpbin.org/delay/2')
@@ -379,7 +378,7 @@ $(this).animate({
 });
 ```
 
-- Option 2
+- Option 2 <-- Correct
 
 ```jQuery
 $(this).animate({
@@ -447,7 +446,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 </div>
 ```
 
-- Option 2
+- Option 2 <-- Correct
 
 ```jQuery
 <div class="wrapper">
@@ -497,7 +496,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 
 - `$('.quotes + .menu-first')`
 - `$('.quotes .menu-first')`
-- `$('.quotes, .menu-first')`
+- `$('.quotes, .menu-first')` <-- correct
 - `$('.quotes' + '.menu-first')`
 
 #### Q23. Given the CSS and HTML code below, how could you apply the success class to the feedback div?
@@ -514,7 +513,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 ```
 
 - `$('.feedback').hasClass('.success');`
-- `$('.feedback').addClass('.success');`
+- `$('.feedback').addClass('.success');` <-- most correct however it should be ('success')
 - `$.css('.feedback', '.success');`
 - `$('.feedback').css('.success');`
 
@@ -539,7 +538,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 #### Q27. You want to create a custom right-click menu. How might you start the code?
 - [ ] `$('#canvas').on('click.right', function(){ console.log('Handled a right-click') });`
 - [ ] `$('#canvas').on('contextual', function(){ console.log('Handled a right-click') });`
-- [ ] `$('#canvas').on('contextmenu', function(){ console.log('Handled a right-click') });`
+- [x] `$('#canvas').on('contextmenu', function(){ console.log('Handled a right-click') });`
 - [ ] `$('#canvas').on('rightclick', function(){ console.log('Handled a right-click') });`
 
 #### Q28. What is the correct way to check how many paragraphs exist on a page using jQuery?
