@@ -4,6 +4,14 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
 
+If you want to improve your skills on another test platform, 
+to get your [**IQ Skill**](https://www.pluralsight.com/product/skill-iq)
+<img src="https://monosnap.com/image/rMLAvlPLLOJlIz7lFOXmYxFOfuCV57"/>
+
+find **questions and answers** here [Pluralsight IQ tests](https://github.com/tik9/pluralsight-skill-test).
+![!](pluralsight.gif)
+
+
 ### Table of Contents
 
 | Quiz      |  Status |
