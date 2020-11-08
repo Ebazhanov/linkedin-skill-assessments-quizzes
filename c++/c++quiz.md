@@ -48,8 +48,8 @@ Q4. Which of the following shows the contents of vector v1 and v2 after running 
 
 Q5. Which of the following is a true statement about the difference between pointers and iterators?
 	
-	a) While pointers are variable that hold memory address , iterators are generic functions used to traverse containers. These function allows the programmer to implement read and write code as 			the container is traversed. << Correct
-	b) Incrementing an iterator always means acces the next element in the container(if any) , no matter the container. Incrementing the pointer means pointing to the next element in memory, not 			always the next element.
+	a) While pointers are variable that hold memory address, iterators are generic functions used to traverse containers. These function allows the programmer to implement read and write code as 			the container is traversed. << Correct
+	b) Incrementing an iterator always means access the next element in the container(if any) , no matter the container. Incrementing the pointer means pointing to the next element in memory, not 			always the next element.
 	c) Pointers are variables that hold memory address where as iterator are unsigned integers that refers to offsets in arrays.
 	d) All iterator are implemented with pointers so all iterators are pointers but not all pointers are iterators.
 
@@ -218,7 +218,7 @@ int x=5, y=2; if(x & y){ /*part A*/ } else{ /*part B*/ }
 	b) Part B executes because (x & y) results in 0, or false.Part B executes because null results in 0, or false. <<Correct
 
 
-	c)Part A executes because (x & y) results in a nonzero value, or true.Part A executes because null results in a nonzero value, or true.
+	c) Part A executes because (x & y) results in a nonzero value, or true.Part A executes because null results in a nonzero value, or true.
 
 
 	d) Part B executes because the statement (x & y) is invalid, thus false.Part B executes because the statement null is invalid, thus false.

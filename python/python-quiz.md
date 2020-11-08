@@ -550,7 +550,7 @@ fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
 
 - [ ] `fruit_names = [x in fruits.keys() for x]`
 - [ ] `fruit_names = for x in fruits.keys() *`
-- [x] `fruit_names = [x for x in fruits.keys(]`
+- [x] `fruit_names = [x for x in fruits.keys()]`
 - [ ] `fruit_names = x for x in fruits.keys()`
 
 #### Q50. What is the algorithmic paradigm of quick sort?
@@ -597,4 +597,38 @@ fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
 - [ ] `A deque adds items to one side and remove items from the other side.`
 - [ ] `A deque adds items to either or both sides, but only removes items from the top.`
 - [x] `A deque adds items at either or both ends, and remove items at either or both ends.`
-- [ ] `A deque adds items only to the top, but remove from either or both sides.`             
+- [ ] `A deque adds items only to the top, but remove from either or both sides.`   
+
+#### Q57. What is the correct syntax for creating a variable that is bound to a set?
+- [x] `myset = {0, 'apple', 3.5}`
+- [ ] `myset = to_set(0, 'apple', 3.5)`
+- [ ] `myset = (0, 'apple', 3.5).to_set()`
+- [ ] `myset = (0, 'apple', 3.5).set()`
+
+#### Q58. What is the correct syntax for defining an `__init__()` method that takes no parameters?
+- [ ] `-`
+```
+class __init__(self):
+    pass
+```
+- [ ] `-`
+```
+def __init__():
+    pass
+```
+- [ ] `-`
+```
+class __init__():
+    pass
+```
+- [x] `-`
+```
+def __init__(self):
+    pass
+```
+
+#### Q59. Which statement about the class methods is true?
+- [ ] `A class method holds all of the data for a particular class.`
+- [x] `A class method can modify the state of the class, but it cannot directly modify the state of an instance that inherits from that class.`
+- [ ] `A class method is a regular function that belongs to a class, but it must return None`
+- [ ] `A class method is similar to a regular function, but a class method does not take any arguments.`
