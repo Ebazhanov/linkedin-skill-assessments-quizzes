@@ -33,25 +33,25 @@ mysql Assessment
 #### Q6. How can you create a stored procedure in MySQL?
 - [ ] `-`
 ```
-1 CREATE PROCEDURE P () AS 
-2 BEGIN 
+1 CREATE PROCEDURE P () AS
+2 BEGIN
 3 END;
 ```
 - [x] `-`
 ```
 1 CREATE PROCEDURE P ()
-2 BEGIN 
+2 BEGIN
 3 END
 ```
 - [ ] `-`
 ```
-1 CREATE PROCP 
-2 BEGIN 
+1 CREATE PROCP
+2 BEGIN
 3 END;
 ```
 - [ ] `-`
 ```
-1 CREATE PROC P AS O 
+1 CREATE PROC P AS O
 2 BEGIN
 3 END;
 ```
@@ -66,45 +66,45 @@ mysql Assessment
 - [ ] `-`
 ```
     1 CREATE TABLE employee (
-    2 employee ID char(10), 
-    3 firstName varchar(50), 
-    4 lastName varchar(50), 
-    5 phone varchar(20), 
-    6 address varchar(50), 
-    7 PRIMARY KEY ON employeeID 
+    2 employee ID char(10),
+    3 firstName varchar(50),
+    4 lastName varchar(50),
+    5 phone varchar(20),
+    6 address varchar(50),
+    7 PRIMARY KEY ON employeeID
     8 );
 ```
 - [ ] `-`
 ```
     1 CREATE TABLE employee (
-    2 employee ID char(10), 
-    3 firstName varchar(50), 
-    4 lastName varchar(50), 
+    2 employee ID char(10),
+    3 firstName varchar(50),
+    4 lastName varchar(50),
     5 phone varchar(20),
-    6 address varchar(50), 
-    7 PRIMARY KEY employeeID 
+    6 address varchar(50),
+    7 PRIMARY KEY employeeID
     8 );
 ```
 - [ ] `-`
 ```
-    1 CREATE TABLE IF EXISTS employee ( 
-    2 employee ID char(10), 
-    3 firstName varchar(50), 
-    4 lastName varchar(50), 
-    5 phone varchar(20), 
-    6 address varchar(50), 
-    7 PRIMARY KEY (employeeID) 
+    1 CREATE TABLE IF EXISTS employee (
+    2 employee ID char(10),
+    3 firstName varchar(50),
+    4 lastName varchar(50),
+    5 phone varchar(20),
+    6 address varchar(50),
+    7 PRIMARY KEY (employeeID)
     8 );
 ```
 - [x] `-`
 ```
     1 CREATE TABLE IF NOT EXISTS employee (
-    2 employee ID char(10), 
-    3 firstName varchar(50), 
-    4 lastName varchar(50), 
-    5 phone varchar(20), 
-    6 address varchar(50), 
-    7 PRIMARY KEY (employeeID) 
+    2 employee ID char(10),
+    3 firstName varchar(50),
+    4 lastName varchar(50),
+    5 phone varchar(20),
+    6 address varchar(50),
+    7 PRIMARY KEY (employeeID)
     8 );
 ```
 
@@ -262,25 +262,25 @@ NOT SURE THE QUESTION IS CORRECT. Logical, physical and normalised are all produ
 - [ ] grant tables
 - [x] data directory
 
-#### Q34. You need to export the data in the customers table into a CSV file, with columns headers in the first row. Which clause do you add to your MySQL command? 
+#### Q34. You need to export the data in the customers table into a CSV file, with columns headers in the first row. Which clause do you add to your MySQL command?
 - [ ] JOIN
 - [ ] WITH HEADERS
 - [x] UNION
 - [ ] WITH COLUMNS
 
-#### Q35. One form of backup, replication, enables you to maintain identical data on multiple servers, as a ___ configuration. 
+#### Q35. One form of backup, replication, enables you to maintain identical data on multiple servers, as a ___ configuration.
 - [ ] remote-local
 - [ ] parent-child
 - [x] master-slave
 - [ ] logical-physical
 
-#### Q36. What is the requirement for using a subquery in the SELECT clause? 
+#### Q36. What is the requirement for using a subquery in the SELECT clause?
 - [ ] the subquery must use an aggregate function.
 - [ ] the subquery must refer to the same table as the main query.
 - [x] the subquery must return a single value.
 - [ ] the subquery must return at least one value.
 
-#### Q37. Each time MySQL is upgraded, it is best to execute mysql_upgrade, which looks for incompatibilities with the upgraded MySQL server. What does this command do, upon finding a table with a possible incompatibility? 
+#### Q37. Each time MySQL is upgraded, it is best to execute mysql_upgrade, which looks for incompatibilities with the upgraded MySQL server. What does this command do, upon finding a table with a possible incompatibility?
 - [x] it performs a table check and, if problems are found, attempts a table repair.
 - [ ] it stops and notifies the server administrator that the upgrade cannot complete until the incompatibility issue are resolved.
 - [ ] it provides a full report of the table specifications and the incompatibilities to the server administrator.
@@ -293,24 +293,24 @@ NOT SURE THE QUESTION IS CORRECT. Logical, physical and normalised are all produ
 - [] show user permissions
 
 #### Q39. What table cannot have a trigger associated with it?
-- [] temporary 
+- [ ] temporary
 - [x] system
-- [] large
-- [] new
+- [ ] large
+- [ ] new
 
 #### Q40. later versions of mysql support the native json data type for storing json documents. What is a drawback of json columns?
-- [] inefficient for storing json documents
+- [ ] inefficient for storing json documents
 - [x] cannot be indexed directly
-- [] documents cannot be validated when stored in json columns
-- [] cannot be normalized --- no
+- [ ] documents cannot be validated when stored in json columns
+- [ ] cannot be normalized --- no
 
 #### Q41.Which statement is true for the diagram below
 ![mysql Q41](images/mysql_q41.jpg)
 
-- [] carid is the primary key for purchases
-- [] carid is the foreign key for cars.carid
+- [ ] carid is the primary key for purchases
+- [ ] carid is the foreign key for cars.carid
 - [x] customerid is the foreign key for customers.id
-- [] customerid is the primary key for purchases
+- [ ] customerid is the primary key for purchases
 
 #### Q42.Which statement can you use to load data from a file into the table?
 - [] cat file|mysql
@@ -327,20 +327,20 @@ NOT SURE THE QUESTION IS CORRECT. Logical, physical and normalised are all produ
 
 #### Q44. Which is the correct syntax of an extended insert statement?
 
-- []
+- [ ]
 insert into cars (make, model, year) values ('Ford', 'Mustang', 2002)
 ('Mercedes', 'C', 2003)
 
-- []
+- [ ]
 insert into cars (make, model, year) values ('Ford', 'Mustang', 2002)
 values ('Mercedes', 'C', 2003)
 
-- []
+- [ ]
 insert into cars (make, model, year) extended ('Ford', 'Mustang', 2002),
 ('Mercedes', 'C', 2003)
 
 - [x]
-insert into cars (make, model, year) values ('Ford', 'Mustang', 2002), 
+insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 ('Mercedes', 'C', 2003)
 
 ### Q 45. You need an exact copy of a table with all columns and indexes. How?
@@ -350,10 +350,10 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 - [x] show create table
 
 #### Q46. you need to make your mysql system secure against hackers. What are you not supposed to do?
-- [] Run the server as normal user
+- [ ] Run the server as normal user
 - [x] grant process or super privilege to other user
-- [] run the server as the unix root user
-- [] use the compressed protocol
+- [ ] run the server as the unix root user
+- [ ] use the compressed protocol
 
 #### Q47. You manage a database with a table "customers". You created a temporary table also called "customers" with which you are working for the duration of your session. You need to recreate the temporary table with different specs. Which command do you need to run first?
 - [] create temporary table customers;
@@ -364,28 +364,28 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 #### Q48. you need to run a complex query with recursive subqueries but without creating a stored procedure or a function. Which command or clause do you use?
 - [] collate
 - [x] union
-- [] full join
-- [] with
+- [ ] full join
+- [ ] with
 
 #### Q49. Which choice is not a processing algorithm for database views?
-- [] merge
+- [ ] merge
 - [x] updatable
-- [] temptable
-- [] undefined
+- [ ] temptable
+- [ ] undefined
 
 #### Q50. What is the MySQL perror command-line utility used for?
 - [] to display your version of MySQL
-- [x] to display operating system error codes  
-- [] to display default settings that are in error  
+- [x] to display operating system error codes
+- [] to display default settings that are in error
 - [x] to display storage error codes
 
 (*note: perror prints a description for a system error code or for a storage engine (table handler) error code. link: https://dev.mysql.com/doc/refman/5.7/en/perror.html#:~:text=2%20perror%20%E2%80%94%20Display%20MySQL%20Error%20Message%20Information,-For%20most%20system&text=You%20can%20find%20out%20what,(table%20handler)%20error%20code.)
 
 #### Q51. How can you list all columns for a given table?
 - [] SHOW table COLUMNS;
-- [x] SHOW COLUMNS FROM table; (*not on test but `DESCRIBE tablename` is a shortcut for this command) 
+- [x] SHOW COLUMNS FROM table; (*not on test but `DESCRIBE tablename` is a shortcut for this command)
 - [] LIST table COLUMNS;
-- [] SELECT COLUMNS FROM table;  
+- [] SELECT COLUMNS FROM table;
 
 #### Q52. How would you list the full set of tables in the currently selected database?
 - [] SELECT * FROM DATABASE;
@@ -394,27 +394,27 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 - [] SELECT ALL TABLES;
 
 #### Q53. Which choice is not one of the table maintenance statements?
-- [] CHECK TABLE;
-- [x] CREATE TABLE;  
-- [] ANALYZE TABLE;
-- [] OPTIMIZE TABLE;
+- [ ] CHECK TABLE;
+- [x] CREATE TABLE;
+- [ ] ANALYZE TABLE;
+- [ ] OPTIMIZE TABLE;
 
 #### Q54. In which table does MySQL store passwords for user accounts?
-- [] mysql.accounts;
-- [] mysql.passwords;  
-- [] mysql.admin;
+- [ ] mysql.accounts;
+- [ ] mysql.passwords;
+- [ ] mysql.admin;
 - [x] mysql.user;
 
 #### Q55. Management has requested that you build an employee database. You need to include each employee's current position and salary, as well as all prior positions and salaries with the company. You decide to use a one-to-many structure: an employee table with the main information such as name and address, and an employment table with position and salary history. You can use the employeelD field to connect them. What is employment.employeelD an example of?
-- [] primary key; 
-- [] secondary key;
-- [x] foreign key; 
-- [] alternet key;
+- [ ] primary key;
+- [ ] secondary key;
+- [x] foreign key;
+- [ ] alternet key;
 
 #### Q56. In recent versions of MySQL (8.0+), what's the correct syntax to declare a CTE (Common Table Expression)?
-- [] WITH (SELECT id FROM users) as cte, SELECT ...
-- [] WITH (SELECT id FROM users) as cte SELECT ...
-- [] WITH cte as (SELECT id FROM users), SELECT ...
+- [ ] WITH (SELECT id FROM users) as cte, SELECT ...
+- [ ] WITH (SELECT id FROM users) as cte SELECT ...
+- [ ] WITH cte as (SELECT id FROM users), SELECT ...
 - [x] WITH cte as (SELECT id FROM users) SELECT ...
 
 #### Q57. What is one reason to introduce data redundancy into a normalised database design?
@@ -430,7 +430,7 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
 3 ROWS IDENTIFIED BY `<car>`;
 
 ```
-- []
+- [ ]
  ```
 <car>
     <field name="make"> Lexus </field>
@@ -438,17 +438,17 @@ insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
     <field name="make"> 2016 </field>
 </car>
 ```
-- [x] 
+- [x]
 ```
 <car name="make"> Dodge </car>
 <car name="model"> Ram </car>
 <car name="year"> 2000 </car>
 ```
-- [] 
+- [ ]
 ```
 <car make="Ford" model="Mustang" year="2002/>
 ```
-- [] 
+- [ ]
 ```
 <car year="2010>
     <make>Mercedes</make> <model> C-Class</model>
