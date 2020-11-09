@@ -48,24 +48,21 @@
 - [ ] `<input><label><meter>`
 - [ ] `<input><option><textarea>`
 - [x] `<li><input><option>`
-  
+
 #### Q8. What should fill the two blanks in the HTML code below?
 
 ```html
-<address ______  _____>
-    <span itemprop="streetAddress">6410 Via Real</span><br>
-    <span itemprop="addressLocality">Carpinteria</span>,
-    <span itemprop="addressRegion">CA</span>
-    <span itemprop="addressCode">93013</span>
+<address ______ _____>
+  <span itemprop="streetAddress">6410 Via Real</span><br />
+  <span itemprop="addressLocality">Carpinteria</span>,
+  <span itemprop="addressRegion">CA</span>
+  <span itemprop="addressCode">93013</span>
 </address>
 ```
 
 - [x] `itemscope` `itemtype="http://schema.org/PostalAddress"`
-  
 - [ ] `itemsref="http://schema.org/PostalAddress"` `itemid="address"`
-  
 - [ ] `itemscope` `itemref="http://schema.org/PostalAddress"`
-  
 - [ ] `itemid="address"` `itemtype="http://schema.org/PostalAddress"`
 
 #### Q9. When should you use the `<aside>` element?
@@ -93,12 +90,14 @@
 
 ![Sample text](images/ss-2.png?raw=true)
 
-- [ ]  
+- [ ]
 
 ```html
 <details>
   <summary>Parmesan Deviled Eggs</summary>
-  <p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
+  <p>
+    These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts.
+  </p>
 </details>
 ```
 
@@ -106,7 +105,9 @@
 
 ```html
 <h4>▸ Parmesan Deviled Eggs</h4>
-<p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
+<p>
+  These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts.
+</p>
 ```
 
 - [x]
@@ -114,7 +115,9 @@
 ```html
 <details open>
   <summary>Parmesan Deviled Eggs</summary>
-  <p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
+  <p>
+    These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts.
+  </p>
 </details>
 ```
 
@@ -123,10 +126,11 @@
 ```html
 <details>
   <h4>▸ Parmesan Deviled Eggs</h4>
-  <p>These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts. </p>
+  <p>
+    These delectable little bites are made with organic eggs, fresh Parmesan, and chopped pine nuts.
+  </p>
 </details>
 ```
-
 
 #### Q13. What is the purpose of the `<samp>` element?
 
@@ -159,7 +163,7 @@
 #### Q17. What should fill the blank in the HTML code bellow?
 
 ```html
-<form method="post" action="mailto:info@linkedin.com" ____="text/plain" >
+<form method="post" action="mailto:info@linkedin.com" ____="text/plain"></form>
 ```
 
 - [x] enctype
@@ -190,13 +194,13 @@
 - [ ]
 
 ```html
-<img src="cubism.jpg" alt="Version of  \"Whistler's Mother\" in cubist style">
+<img src="cubism.jpg" alt="Version of \"Whistler's Mother\" in cubist style">
 ```
 
 #### Q19. In the code below, what is the purpose of the **id** attribute?
 
 ```html
-<p id="warning" >Be careful when installing this product.</p>
+<p id="warning">Be careful when installing this product.</p>
 ```
 
 - [x] It establishes that id is a unique identifier in the document, used for styling CSS, scripting, and linking within a webpage.
@@ -213,25 +217,42 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [x]
 
 ```html
-<p>On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html">One small step for man, one giant leap for mankind.</q>
+<p>
+  On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said,
+  <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
+    >One small step for man, one giant leap for mankind.</q
+  >
+</p>
 ```
 
 - [ ]
 
 ```html
-<p>On July 21, 1969, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html">One small step for man, one giant leap for mankind.</q>
+<p>
+  On July 21, 1969, Neil Armstrong said,
+  <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
+    >One small step for man, one giant leap for mankind.</q
+  >
+</p>
 ```
 
 - [ ]
 
 ```html
-<p>On July 21, 1969, Neil Armstrong said, <q>One small step for man, one giant leap for mankind.</q>
+<p>
+  On July 21, 1969, Neil Armstrong said, <q>One small step for man, one giant leap for mankind.</q>
+</p>
 ```
 
 - [ ]
 
 ```html
-<p>On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html">One small step for man, one giant leap for mankind.</q>
+<p>
+  On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said,
+  <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
+    >One small step for man, one giant leap for mankind.</q
+  >
+</p>
 ```
 
 #### Q21. What should fill the blank in the HTML code below?
@@ -261,9 +282,9 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 ```html
 <label for="example">Make a choice:</label>
 <datalist id="example">
-  <option value="Choice 1">
-  <option value="Choice 2">
-  <option value="Choice 3">
+  <option value="Choice 1"></option>
+  <option value="Choice 2"></option>
+  <option value="Choice 3"></option>
 </datalist>
 ```
 
@@ -274,9 +295,9 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 <input id="choices" name="example" />
 
 <datalist value="choices">
-  <option value="Choice 1">
-  <option value="Choice 2">
-  <option value="Choice 3">
+  <option value="Choice 1"></option>
+  <option value="Choice 2"></option>
+  <option value="Choice 3"></option>
 </datalist>
 ```
 
@@ -287,9 +308,9 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 <input list="example" id="choices" name="choices" />
 
 <datalist id="choices">
-  <option value="Choice 1"> Choice 1</option>
-  <option value="Choice 2"> Choice 2</option>
-  <option value="Choice 3"> Choice 3</option>
+  <option value="Choice 1">Choice 1</option>
+  <option value="Choice 2">Choice 2</option>
+  <option value="Choice 3">Choice 3</option>
 </datalist>
 ```
 
@@ -300,9 +321,9 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 <input list="choices" id="example" name="example" />
 
 <datalist id="choices">
-  <option value="Choice 1">
-  <option value="Choice 2">
-  <option value="Choice 3">
+  <option value="Choice 1"></option>
+  <option value="Choice 2"></option>
+  <option value="Choice 3"></option>
 </datalist>
 ```
 
@@ -317,8 +338,8 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 ```html
 <picture>
-  <source srcset="image1.jpg" media="(min-width: 1000px)">
-  <source srcset="image2.jpg" media="(min-width: 750px)">
+  <source srcset="image1.jpg" media="(min-width: 1000px)" />
+  <source srcset="image2.jpg" media="(min-width: 750px)" />
   <img src="image3.jpg" />
 </picture>
 ```
@@ -327,7 +348,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] It displays image1.jps at 1000px and higher and image2.jpg at 750-999px, image3.jpg is a default in case `<picture>` is not supported.
 - [x] It displays image1.jpg at 1000px and higher and image2.jpg at 750px and higher, image3.jpg is a default in case `<picture>` is not supported.
 - [ ] It displays image1.jpg, image2.jpg and image3.jpg at 1000px and higher.
-  
+
 #### Q26. What code will produce the table shown below?
 
 ![Table with yellow background](images/ss-4.png?raw=true)
@@ -424,7 +445,8 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 <section itemscope itemtype="http://schema.org/Restaurant">
   <h1 itemprop="name">Nadia's Garden</h1>
   <p itemscope ______ ______>
-    <span itemprop="ratingValue">4.5</span> stars - based on <span itemprop="reviewCount">120</span> reviews
+    <span itemprop="ratingValue">4.5</span> stars - based on
+    <span itemprop="reviewCount">120</span> reviews
   </p>
 </section>
 ```
@@ -439,29 +461,29 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [x]
 
 ```html
-<a id="top"></a> <!-- placed at the top of the page -->  
+<a id="top"></a>
+<!-- placed at the top of the page -->
 <a href="#top">back to top</a>
 ```
 
 - [ ]
 
 ```html
-<a name="top"></a> <!-- placed at the top of the page -->  
+<a name="top"></a>
+<!-- placed at the top of the page -->
 <a href="#top">back to top</a>
 ```
 
 - [ ]
 
 ```html
-<a href="#">back to top</a>  
-<a href="#top">back to top</a>
+<a href="#">back to top</a> <a href="#top">back to top</a>
 ```
 
 - [ ]
 
 ```html
-<button href="#">back to top</button>  
-<button href="#top">back to top</button>
+<button href="#">back to top</button> <button href="#top">back to top</button>
 ```
 
 #### Q30. Which three tags where deprecated in HTML4 but returned to HTML5?
@@ -471,7 +493,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] `<hgroup> <q> <wbr>`
 - [ ] `<b> <i> <u>`
 
-#### Q31. The "______"tag is used for marking up a short code snippet, while the ______ tag is used for marking up a longer block of code.
+#### Q31. The "**\_\_**"tag is used for marking up a short code snippet, while the **\_\_** tag is used for marking up a longer block of code.
 
 - [ ] `<kdb>`, `<pre>`
 - [ ] `<pre>`, `<code>`
@@ -485,7 +507,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] It visually labels from fields.
 - [x] It programmatically associates a text label with an interface element.
 
-#### Q33. To get a link to open in a new window or tab, use the ______ attribute.
+#### Q33. To get a link to open in a new window or tab, use the **\_\_** attribute.
 
 - [x] `_blank`
 - [ ] `_self`
@@ -499,7 +521,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ]
 
 ```html
-<p> We are fond of our <span title='three-letter acronyms'>TLAs</span> in web design.</p>
+<p>We are fond of our <span title="three-letter acronyms">TLAs</span> in web design.</p>
 ```
 
 - [ ]
@@ -511,13 +533,13 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [x]
 
 ```html
-<p>we are fond of our <abbr title='three-letter acronyms'>TLAs</abbr> in web design.</p>
+<p>we are fond of our <abbr title="three-letter acronyms">TLAs</abbr> in web design.</p>
 ```
 
 - [ ]
 
 ```html
-<p> we are fond of our <acronym title='three-letter acronym'>TLAs</acronym> in web design.</p>
+<p>we are fond of our <acronym title="three-letter acronym">TLAs</acronym> in web design.</p>
 ```
 
 <details><summary>Note</summary><p>
@@ -530,24 +552,26 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 ```markdown
 -Office
-  --Staple
-  --Paper
+--Staple
+--Paper
 -Groceries
-  --Milk
+--Milk
 ```
 
 - [ ]
 
 ```html
 <ul>
-  <li>office
-    <ol style=circle>
+  <li>
+    office
+    <ol style="circle">
       <li>staple</li>
       <li>paper</li>
     </ol>
   </li>
-  <li>groceries
-    <ol style=circle>
+  <li>
+    groceries
+    <ol style="circle">
       <li>milk</li>
     </ol>
   </li>
@@ -558,13 +582,15 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 ```html
 <ul>
-  <li>office
+  <li>
+    office
     <ul>
       <li>staple</li>
       <li>paper</li>
     </ul>
   </li>
-  <li>groceries
+  <li>
+    groceries
     <ul>
       <li>milk</li>
     </ul>
@@ -647,14 +673,13 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 #### Q37. What should fill the blank below?
 
 ```html
-<link href="phone.css" rel="stylesheet" _____ ="print">
+<link href="phone.css" rel="stylesheet" _____="print" />
 ```
 
 - [ ] title
 - [ ] type
 - [ ] device
 - [x] media
-
 
 #### Q38. What is the best semantic way to mark up the layout shown?
 
@@ -663,7 +688,10 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ]
 
 ```html
-<p>"Making money is what you have to do to sustain a business—being driven to make something of value and purpose is much more powerful."</p>
+<p>
+  "Making money is what you have to do to sustain a business—being driven to make something of value
+  and purpose is much more powerful."
+</p>
 <p><em>Lynda Weinman</em></p>
 ```
 
@@ -671,8 +699,11 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 ```html
 <blockquote>
-   <q>"Making money is what you have to do to sustain a business—being driven to make something of value and purpose is much more powerful."</q>
-   <cite><em>Lynda Weinman</em></cite>
+  <q
+    >"Making money is what you have to do to sustain a business—being driven to make something of
+    value and purpose is much more powerful."</q
+  >
+  <cite><em>Lynda Weinman</em></cite>
 </blockquote>
 ```
 
@@ -680,8 +711,11 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 ```html
 <blockquote>
-   <p>"Making money is what you have to do to sustain a business—being driven to make something of value and purpose is much more powerful."</p>
-   <cite>Lynda Weinman</cite>
+  <p>
+    "Making money is what you have to do to sustain a business—being driven to make something of
+    value and purpose is much more powerful."
+  </p>
+  <cite>Lynda Weinman</cite>
 </blockquote>
 ```
 
@@ -689,8 +723,11 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 ```html
 <section>
-   <q>"Making money is what you have to do to sustain a business—being driven to make something of value and purpose is much more powerful."</q>
-   <cite>Lynda Weinman</cite>
+  <q
+    >"Making money is what you have to do to sustain a business—being driven to make something of
+    value and purpose is much more powerful."</q
+  >
+  <cite>Lynda Weinman</cite>
 </section>
 ```
 
@@ -719,9 +756,9 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 ```html
 <audio controls>
-  <source src="sound.mp3" type="audio/mpeg">
-  <source src="sound.ogg" type="audio/ogg">
-  <source src="sound.wav" type="audio/wav">
+  <source src="sound.mp3" type="audio/mpeg" />
+  <source src="sound.ogg" type="audio/ogg" />
+  <source src="sound.wav" type="audio/wav" />
 </audio>
 ```
 
@@ -751,9 +788,9 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] `<body>`
 - [ ] `<root>`
 
-#### Q46. Which code snippet creates the layout shown, starting at `<table>` and ending at `</table>`?  
+#### Q46. Which code snippet creates the layout shown, starting at `<table>` and ending at `</table>`?
 
-![Table](images/ss-1.png?raw=true "table")
+![Table](images/ss-1.png?raw=true 'table')
 
 - [ ]
 
@@ -817,7 +854,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
   <legend>Title</legend>
   <fieldset>
     <label for="name">Your name:</label>
-    <input type="text" name="name" id="name">
+    <input type="text" name="name" id="name" />
     <button type="submit">Submit</button>
   </fieldset>
 </form>
@@ -830,8 +867,8 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
   <fieldset>
     <legend>Title</legend>
     <p>Your name:</p>
-    <input type="text" name="name" id="name">
-    <input type="submit" value="Submit">
+    <input type="text" name="name" id="name" />
+    <input type="submit" value="Submit" />
   </fieldset>
 </form>
 ```
@@ -843,7 +880,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
   <fieldset>
     <legend>Title</legend>
     <label for="name">Your name:</label>
-    <input type="text" name="name" id="name">
+    <input type="text" name="name" id="name" />
     <button type="submit">Submit</button>
   </fieldset>
 </form>
@@ -855,8 +892,8 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 <form>
   <legend>Title</legend>
   <label for="name">Your name:</label>
-  <input type="text" name="name" id="name">
-  <input type="submit" value="Submit">
+  <input type="text" name="name" id="name" />
+  <input type="submit" value="Submit" />
 </form>
 ```
 
