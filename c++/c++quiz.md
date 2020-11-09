@@ -240,9 +240,61 @@ int get_length(char *str);
 	d) int get_length(char *str){ int count=0; while(str++) count++; return count; }
 
 
+Q.20 Which STL class is the best fit for implementing a collection of data that is always ordered so that the pop operation always gets the greatest of the elements? Suppose you are interested only in push and pop operations.
+
+	a) std::list
+	b) std::vector
+	c) std::priority_queue
+	d) std::map
+
+Q.21 What is the meaning of the three sections specified between parentheses in a for loop separated by semicolons?
+
+	a) The first is the iterating variable name, the second is the number of times to iterate, and the third is the desired increment or decrement (specified with a signed integer).
+	b) The first is the initialization block, the second is the condition to iterate, and the third is the increment block. 
+	c) The first is the iterating variable, the second is the container in which it should operate, and the third is an exit condition to abort at any time.
+	d) The first is the iterating variable name, the second is the starting value for the iterating variable, and the third is the stop value (the last value plus one). 
 
 
+Q22. What is printed from this code?
 
-
-
+	int i = 0;
+	printf("%d",i++);
+	printf("%d",i--);
+	printf("%d",++i);
+	printf("%d",--i);
 	
+	a) 0,1,1,0 << correct
+	b) 0,1,0,1
+	c) 0,0,1,0
+	d) 1,0,1,0
+
+Q.23 What is true about the variable named ptr?
+
+	a) It is a pointer initialized at NULL
+	b) It is a pointer to a void function 
+	c) That declaration causes a compiler error, as pointers must specify a type. 
+	d) It is a pointer to a value with no specific type, so it may be cast to point to any type. 
+
+Q.24 What is the output of this code? 
+
+	int c=3; char d='A';
+	std::printf("c is %d and d is %c",c,d);
+	
+	a) c is d and d is c 
+	b) c is A and d is 3 
+	c) c is 3 and d is A << correct
+	d) c is c and d is d 
+Q.25 What is the output of this code? 
+
+	printf("1/2 = %f",(float)(1/2)); 
+	
+	a) 1/2 = 0.499999 
+	b) 1/2 = 0 
+	c) 1/2 = 0.000000 << correct
+	d) 1/2 = 0.5 
+	
+
+
+
+
+
