@@ -573,3 +573,15 @@ new logThis();
 - [x] 3 == '3'
 - [ ] 3 != '3'
 - [ ] 3 === '3'
+
+#### Q64. Which choice is a valid variable name?
+- [ ] 5thItem
+- [x] firstName
+- [ ] grand total
+- [ ] function
+
+#### Q65. Which method cancel's event default behavior?
+- [ ] cancel()
+- [ ] stop()
+- [x] preventDefault()
+- [ ] prevent()

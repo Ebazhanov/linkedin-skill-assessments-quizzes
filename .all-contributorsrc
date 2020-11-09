@@ -1555,6 +1555,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "SuperGuy10",
+      "name": "Chad Chai",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/13461705?v=4",
+      "profile": "https://github.com/SuperGuy10",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
