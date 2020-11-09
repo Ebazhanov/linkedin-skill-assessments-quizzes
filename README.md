@@ -69,6 +69,14 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 | [WordPress](https://github.com/Ebazhanov/in-quiz-questions/blob/master/wordpress/wordpress-quiz.md) |  partially answered  |
 | [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md) |  answers required |
 
+## Format
+
+Format files using [Prettier](https://prettier.io/) code formatter.
+
+```sh
+npm run format
+```
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
@@ -301,4 +309,4 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 ## Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/Ebazhanov/in-quiz-questions.svg)](https://starchart.cc/Ebazhanov/in-quiz-questions)
-     
+
