@@ -446,14 +446,17 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ] Feature Maps
 - [ ] How kernels Look
 
+
 #### Q62. The activations for class A, B and C before softmax were 10,8 and 3. The different in softmax values for class A and class B would be :
 - [x] 76%
 - [ ] 88%
 - [ ] 12%
 - [ ] 0.0008%
 
-// ( e^10 - e^8 ) / ( e^3 + e^8 + e^10 ) = 0.761 ; I doubt it appeared in any of LinkedIn quizzes ...
-
+// Refer to this article on [sigmoid and softmax activation function](https://medium.com/arteos-ai/the-differences-between-sigmoid-and-softmax-activation-function-12adee8cf322)
+// A's softmax, softmax(10) = exp(10)/(exp(10) + exp(8) + exp(3))
+// B's softmax, softmax(8) = exp(8)/(exp(10) + exp(8) + exp(3))
+// Difference of softmax values for class A and class B = softmax(10) - softmax(8) = 0.76098 => 76%
 
 #### Q63. The new dataset you have just scraped seems to exhibit lots of missing values. What action will help you minimizing that problem?
 
