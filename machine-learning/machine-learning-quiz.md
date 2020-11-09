@@ -422,7 +422,7 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 // Underfitted data models usually have high bias and low variance. Overfitted data models have low bias and high variance.
 - [ ] Your model has low bias but high variance.
 
-#### Q60. Asian user complain that your company's facial recognition model does not properly identify their facial expressions. What should you do?
+#### Q60. Asian user complains that your company's facial recognition model does not properly identify their facial expressions. What should you do?
 
 - [ ] Include Asian faces in your test data and retrain your model.
 - [ ] Retrain your model with updated hyperparameter values.
@@ -438,13 +438,58 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 // This question is very similar to Q49 but involves a polar opposite scenario.
 - [ ] Your machine is creating inaccurate clusters.
 
+// I find that answer somewhat vague and unsettled. Small number of matchings does not necessarily implies that the model overfits, especially given 500 (!) independent variables. To me, it sounds more reasonable that the threshold (matching) criterion might be too tight, thus allowing only a small number of matching to occur. So a solution can be either softening the threshold criterion or increasing the number of candidates.
+
+
 #### Q62. (Mostly) whenever we see kernel visualizations online (or some other reference) we are actually seeing:
 - [X] What kernels extract
 - [ ] Feature Maps
 - [ ] How kernels Look
 
-#### Q62. The activations for class A, B and C before softmax were 10,8 and 3. The different in softmax values for class A and class B would be
-- [ ] 76%
+#### Q62. The activations for class A, B and C before softmax were 10,8 and 3. The different in softmax values for class A and class B would be :
+- [x] 76%
 - [ ] 88%
 - [ ] 12%
 - [ ] 0.0008%
+
+// ( e^10 - e^8 ) / ( e^3 + e^8 + e^10 ) = 0.761 ; I doubt it appeared in any of LinkedIn quizzes ...
+
+
+#### Q63. The new dataset you have just scraped seems to exhibit lots of missing values. What action will help you minimizing that problem?
+
+- [ ] Wise fill-in of controlled random values
+- [ ] Replace missing values with averaging across all samples
+- [ ] Remove defective samples
+- [x] Imputation
+
+
+#### Q64. Which of the following methods can use either as an unsupervised learning or as a dimensionality reduction technique?
+
+- [ ] SVM
+- [x] PCA
+- [ ] LDA
+- [ ] TSNE
+
+
+#### Q65. What is the main motivation for using activation functions in ANN?
+
+- [x] Capturing complex non-linear patterns
+- [ ] Transforming continuous values into "ON" (1) or "OFF" (0) values
+- [ ] Help avoiding the vanishing/exploding gradient problem
+- [ ] Their ability to activate each neurons individually.
+
+
+#### Q66. Which loss function would fit best in a categorical (discrete) supervised learning ?
+
+- [ ] kullback-leibler (KL) loss
+- [x] Binary Crossentropy
+- [ ] Mean Squared Error (MSE)
+- [ ] Any L2 loss
+
+
+#### Q67. What is the correct option?
+
+- [ ] Red : Validation error 	Blue : Training error 		Green : Test error
+- [ ] Red : Training error 	Blue : Test error 		Green : Validation error
+- [ ] Red : Optimal error	Blue : Validation error 	Green : Test error
+- [x] Red : Validation error 	Blue : Training error 		Green : Optimal error
