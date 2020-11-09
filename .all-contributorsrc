@@ -1445,7 +1445,8 @@
       "profile": "https://www.linkedin.com/in/arnavsarmagatechgrad/",
       "contributions": [
         "code",
-        "example"
+        "example",
+        "design"
       ]
     },
     {
@@ -1551,6 +1552,16 @@
       "name": "Zahid Ali",
       "avatar_url": "https://avatars1.githubusercontent.com/u/37751705?v=4",
       "profile": "https://www.linkedin.com/in/zaahidali/",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "SuperGuy10",
+      "name": "Chad Chai",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/13461705?v=4",
+      "profile": "https://github.com/SuperGuy10",
       "contributions": [
         "code",
         "design"

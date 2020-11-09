@@ -1,10 +1,12 @@
 # Linkedin-quiz-questions
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-163-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-164-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
 
-If you want to improve your skills on another test platform, I recommend the [Pluralsight tests](https://github.com/tik9/pluralsight-skill-test). On this repository, you can view questions and participate. Should you have found some incorrect answers or want to contribute your answers, please feel free to create any PR changes - all are welcome!
+:point_right:  If you want to improve your skills on another test platform [**Pluralsight IQ Skill**](https://www.pluralsight.com/product/skill-iq)
+find **questions and answers** in **@Timo Körner** [repository](https://github.com/tik9/pluralsight-skill-test).
+<img src="https://monosnap.com/image/mf3OkeABEfjiAFjYC8d0l7cE6yf52E"/>
 
 ### Table of Contents
 
@@ -262,7 +264,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://salihkilicli.github.io/"><img src="https://avatars1.githubusercontent.com/u/42879163?v=4" width="100px;" alt=""/><br /><sub><b>Salih Kilicli</b></sub></a><br /><a href="#design-salihkilicli" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=salihkilicli" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/srmeneses"><img src="https://avatars2.githubusercontent.com/u/11792508?v=4" width="100px;" alt=""/><br /><sub><b>Marcelo Meneses</b></sub></a><br /><a href="#design-srmeneses" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=srmeneses" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/tonchique"><img src="https://avatars1.githubusercontent.com/u/36279559?v=4" width="100px;" alt=""/><br /><sub><b>Anton Krekotun</b></sub></a><br /><a href="#design-tonchique" title="Design">🎨</a> <a href="#maintenance-tonchique" title="Maintenance">🚧</a> <a href="#content-tonchique" title="Content">🖋</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=tonchique" title="Code">💻</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=tonchique" title="Documentation">📖</a> <a href="#business-tonchique" title="Business development">💼</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/arnavsarmagatechgrad/"><img src="https://avatars1.githubusercontent.com/u/12614627?v=4" width="100px;" alt=""/><br /><sub><b>Arnav Sarma</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=asarma2012" title="Code">💻</a> <a href="#example-asarma2012" title="Examples">💡</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/arnavsarmagatechgrad/"><img src="https://avatars1.githubusercontent.com/u/12614627?v=4" width="100px;" alt=""/><br /><sub><b>Arnav Sarma</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=asarma2012" title="Code">💻</a> <a href="#example-asarma2012" title="Examples">💡</a> <a href="#design-asarma2012" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/meghatiku"><img src="https://avatars0.githubusercontent.com/u/43341228?v=4" width="100px;" alt=""/><br /><sub><b>meghatiku</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=meghatiku" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/anshu-trivedi-501a7b146/"><img src="https://avatars1.githubusercontent.com/u/47869948?v=4" width="100px;" alt=""/><br /><sub><b>Anshu Trivedi</b></sub></a><br /><a href="#design-AnshuTrivedi" title="Design">🎨</a></td>
   </tr>
@@ -278,6 +280,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/Daniboy370"><img src="https://avatars0.githubusercontent.com/u/46421909?v=4" width="100px;" alt=""/><br /><sub><b>Daniel</b></sub></a><br /><a href="#design-Daniboy370" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Daniboy370" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/zaahidali/"><img src="https://avatars1.githubusercontent.com/u/37751705?v=4" width="100px;" alt=""/><br /><sub><b>Zahid Ali</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=zaahidali" title="Code">💻</a> <a href="#design-zaahidali" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/SuperGuy10"><img src="https://avatars2.githubusercontent.com/u/13461705?v=4" width="100px;" alt=""/><br /><sub><b>Chad Chai</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=SuperGuy10" title="Code">💻</a> <a href="#design-SuperGuy10" title="Design">🎨</a></td>
   </tr>
 </table>
 
