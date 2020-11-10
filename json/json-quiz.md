@@ -72,7 +72,7 @@ Q9. Which key name is used to specify properties that must be included for JSON 
 - important
 - base
 - core
-- required <<<<----May be
+- required <<<<----Correct
 
 
 Q10. Which is the valid JSON equivalent of the data shown? *** MISSING OPTIONS & "DATA SHOWN"
