@@ -1,6 +1,5 @@
 ## Microsoft Word Assessment
 
-
 #### Q1. Which feature allows you to copy attributes of selected text and apply them to another selection?
 
 - [ ] Merge Formatting command
@@ -18,7 +17,7 @@
 #### Q3. You are finalizing a two-page memo. Rather than having Word decide where page 1 ends, you want the next paragraph to begin on the top of page 2. How do you achieve this?
 
 - [ ] Change the bottom margin to your current location.
-- [x] Insert a page break. 
+- [x] Insert a page break.
 - [ ] Press Shift + Enter (Shift + Return).
 - [ ] Insert a column break.
 
@@ -32,7 +31,7 @@
 #### Q5. You want to set a wider inside margin to accommodate binding a document where pages are printed in both sides. Which option should you choose in the Page Setup dialog box.
 
 - [x] Book Fold.
-- [ ] Different Odd & Even Pages. <-- Should not this one instead? 
+- [ ] Different Odd & Even Pages. <-- Should not this one instead?
 - [ ] Mirror Margins.
 - [ ] Landscape.
 

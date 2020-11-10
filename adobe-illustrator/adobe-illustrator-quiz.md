@@ -1,5 +1,4 @@
-Adobe Illustrator Assessment
----------------------
+## Adobe Illustrator Assessment
 
 #### Q1. What would happen to the fill color of the object shown below if you copied and pasted it into another Illustrator file where the Document Color Mode was set to CMYK?
 
@@ -30,6 +29,7 @@ Adobe Illustrator Assessment
     - [ ] switching to a different tool
 
 #### Q5. Which effect was used to give depth to the outline of California below?
+
 A map of California has a light beige main color and a small dark shadow.
 
     - [ ] 3D Extrude & Bevel
@@ -45,6 +45,7 @@ A map of California has a light beige main color and a small dark shadow.
     - [ ] Press Command+Shift+A (Mac) or Ctrl+Shift+A (Windows) and click the object you want to deselect.
 
 #### Q7. You need to change the fill color of all the info circles in the map below. The circles were not created from a symbol. Other than Global Edit, which command would help you accomplish this task efficiently?
+
 A map of Southern California includes many info circles shaded in light blue.
 
     - [ ] Recolor Artwork
@@ -53,6 +54,7 @@ A map of Southern California includes many info circles shaded in light blue.
     - [ ] Live Paint
 
 #### Q8. How can you reverse the direction of all the arrows on the spiral in the image below?
+
 A red lines spirals clockwise in, towards the center. Arrows along the line point in that direction.
 
     - [ ] Select Object > Path > Reverse Path Direction.
@@ -187,6 +189,7 @@ A red lines spirals clockwise in, towards the center. Arrows along the line poin
     - [ ] Not all the fonts in the Alana family are activated.
 
 #### Q27. What command would you apply to make objects beneath the selected artwork visible inside the circle?
+
 A yellow rectangle has a circular selection in the center.
 
     - [ ] Make Pattern
