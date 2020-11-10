@@ -716,10 +716,10 @@ In Git, there are two main ways to integrate changes from one branch into anothe
 
 #### Q85. What is the difference between a soft reset (`git reset --soft`) and a hard reset (`git reset –hard`) ?
 
-[x] A soft reset only changes the commit that HEAD points to, while a hard reset resets the index and working tree to match the specified commit, discarding any changes.
-[ ] A soft reset caches the old HEAD pointer, while a hard reset deletes it entirely.
-[ ] A hard reset changes only where the HEAD is pointing, while a soft reset changes the HEAD and index.
-[ ] A hard reset caches the old HEAD pointer, while a soft reset deletes it entierly.
+- [x] A soft reset only changes the commit that HEAD points to, while a hard reset resets the index and working tree to match the specified commit, discarding any changes.
+- [ ] A soft reset caches the old HEAD pointer, while a hard reset deletes it entirely.
+- [ ] A hard reset changes only where the HEAD is pointing, while a soft reset changes the HEAD and index.
+- [ ] A hard reset caches the old HEAD pointer, while a soft reset deletes it entierly.
 
 #### Q86. What is the difference between a soft reset (`git reset --soft`) and a hard reset (`git reset –hard`) ?
 
