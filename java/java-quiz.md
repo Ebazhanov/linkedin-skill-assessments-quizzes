@@ -310,10 +310,12 @@ Class Main {
     }
 }
 ```
-- 10 times
+- 10 times <<<<--- Correct
 - 9 times
-- 5 times <<<<---Correct
+- 5 times ~~<<<<---Correct~~
 - infinite number of times
+
+Reason : Observe the loop increment. It's not an increment, it's an assignment(post).
 
 #### Q25. The runtime system starts your program by calling which function first?
 - print
