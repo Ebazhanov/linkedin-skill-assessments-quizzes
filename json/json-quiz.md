@@ -5,13 +5,18 @@ Q1. By convention, what name is used for the first key in a JSON schema?
 - JSONschema
 
 
-Q2. Which code is the closest JSON equivalent of the data shown? ***MISSING OPTIONS & "DATA SHOWN"
+Q2. Which code is the closest JSON equivalent of the data shown? ***MISSING "DATA SHOWN"***
+- [
+    "red",
+    "blue",
+    "green"
+  ] <<<<----Correct
 - {
     "red",
     "blue",
     "green"
   }
-- { <<<<----Correct
+- {
     "color": "red",
     "color": "blue",
     "color": "green"
