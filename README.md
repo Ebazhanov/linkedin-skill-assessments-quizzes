@@ -6,6 +6,13 @@
 
 :point_right:  If you want to improve your skills on another test platform [**Pluralsight IQ Skill**](https://www.pluralsight.com/product/skill-iq)
 find **questions and answers** in **@Timo Körner** [repository](https://github.com/tik9/pluralsight-skill-test).
+| Pluralsight IQ Skill quiz      |  Status |
+| --------- |  ------ |
+| [Java](https://github.com/tik9/pluralsight/blob/master/java.md) | done |
+| [Mysql](https://github.com/tik9/pluralsight/blob/master/mysql.md) | done |
+| [Powershell](https://github.com/tik9/pluralsight/blob/master/powershell.md) | non-offical |
+| [Python](https://github.com/tik9/pluralsight/blob/master/python.md) | done |
+| [Building Websites with HTML, CSS, and JavaScript](https://github.com/tik9/pluralsight/blob/master/building-websites.md) | done |
 <img src="https://monosnap.com/image/mf3OkeABEfjiAFjYC8d0l7cE6yf52E"/>
 
 ### Table of Contents
