@@ -1566,6 +1566,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "marcobiedermann",
+      "name": "Marco Biedermann",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5244986?v=4",
+      "profile": "https://marcobiedermann.com",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
