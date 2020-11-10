@@ -56,7 +56,8 @@
 - [x] `Product.where("name = ?", @keyword`
 - [ ] `Product.where("name = " + h(@keyword)`
 
-#### Q9. Given this code, which statement about the database table "documents" could be expected to be *true*?
+#### Q9. Given this code, which statement about the database table "documents" could be expected to be _true_?
+
 ```rb
 class Document < ActiveRecord::Base
     belongs_to :documentable, polymorphic: true
@@ -79,9 +80,9 @@ end
 #### Q10. Are instance variables set within a controller method accessible within a view?
 
 - [ ] Yes, any instance variables that are set in an action method on a controller can be accessed and displayed in a view.
-- [ ] Yes, instance variables set within an action method are accessible within a view, but only when render is explicitly called inside the action method. 
+- [ ] Yes, instance variables set within an action method are accessible within a view, but only when render is explicitly called inside the action method.
 - [ ] No, instance variables in a controller are private and are not accessible.
-- [ ] No, instance variables can never be set in a controller action method. 
+- [ ] No, instance variables can never be set in a controller action method.
 
 #### Q11. When a validation of a field in a Rails model fails, where are the messages for validation errors stored?
 
@@ -91,6 +92,7 @@ end
 - [ ] `my_model.all_errors.select(:field)`
 
 #### Q12. If a database table of users contains the following rows, and `id` is the primary key, which statement would return only an object whose `last_name` is "Cordero"?
+
 ```
 ------------------------------
 id first_name last_name
@@ -129,6 +131,7 @@ id first_name last_name
 - [ ] `If sent using the DELETE HTTP method, the URL would call the destroy action by default.`
 
 #### Q16. Given this code, which choice would be expected to be a true statement if the user requests the index action?
+
 ```rb
 class DocumentsController < ApplicationController
   before_action :require_login

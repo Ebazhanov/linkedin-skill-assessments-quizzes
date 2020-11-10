@@ -1,22 +1,27 @@
-C (Programming Language) Assessment
--------------
+## C (Programming Language) Assessment
 
 ##### Q1. Which Code saple will eventually cause the computer to run out of memory ?
-- [x] 
+
+- [x]
+
 ```c
 while(1)
 {
     char *smallString = (char *) malloc(10);
 }
 ```
-- [ ] 
+
+- [ ]
+
 ```c
 long long number = 1;
 
 while(1)
     number *= 2;
 ```
-- [ ] 
+
+- [ ]
+
 ```c
 while(1)
 {
@@ -24,7 +29,9 @@ while(1)
     memset(hugeString, 0, 1000000L);
 }
 ```
-- [ ] 
+
+- [ ]
+
 ```c
 while(1)
 {
@@ -32,7 +39,7 @@ while(1)
     memset(bigArray, 1000000, 1000);
     free(bigArray);
 }
-``` 
+```
 
 #### Q2. What will this code print on the screen?
 
@@ -54,22 +61,20 @@ int f1 (int a, int b)
 main()
 {
     if (f1(20,10) || f1(10,20))
-        printf("C is fun!\n");    
+        printf("C is fun!\n");
 }
 ```
-- [x]  A is greater then B
-C is fun!
-   
-- [ ]  A is greater then B
- B is greater then A
-C is fun!
 
-- [ ]  A is greater then B
- B is greater then A
+- [x] A is greater then B
+      C is fun!
+- [ ] A is greater then B
+      B is greater then A
+      C is fun!
+
+- [ ] A is greater then B
+      B is greater then A
 
 - [ ] Northing is printed on Screen
- 
-
 
 #### Q3. What is the name for calling a function inside the same function?
 
@@ -80,29 +85,29 @@ C is fun!
 
 #### Q4. What does the declaration of variable c2 demonstrate?
 
-```c  
+```c
 main(){
     char c1 ='a';
     char c2 = c1+10;
 }
 ```
+
 - [x] character arithmetic
 - [ ] undefined assignment
 - [ ] type conversion
 - [ ] invalid declaration
 
-
 #### Q5. A pointer to void named vptr, has been set to point to a floating point variable named g. What is the valid way to dereference vptr to assign its pointed value to a float variable named f later in this program?
 
-```c 
+```c
 float g;
 void *vptr=&g;
 ```
-- [ ] f = *(float *)vptr;
-- [ ] f = (float *)vptr;
-- [x] f = (float)*vptr;
-- [ ] f = *(float)vptr;
 
+- [ ] f = _(float _)vptr;
+- [ ] f = (float \*)vptr;
+- [x] f = (float)\*vptr;
+- [ ] f = \*(float)vptr;
 
 #### Q6. What is this declaration an example of?
 
@@ -113,36 +118,40 @@ struct s {
     struct s *s2;
 };
 ```
+
 - [x] a node
 - [ ] a linked list
 - [ ] a stack
 - [ ] a binary tree
 
-
-#### Q7. A C header file is a file with extension .h that contains  function declarations and macro definitons to be shared between several source files. Header files are listed using the preprocessing directive #include, and can have one of the following formats: #include &lt;fileA&gt; or #include "fileB". What is the difference between these two formats?
+#### Q7. A C header file is a file with extension .h that contains function declarations and macro definitons to be shared between several source files. Header files are listed using the preprocessing directive #include, and can have one of the following formats: #include &lt;fileA&gt; or #include "fileB". What is the difference between these two formats?
 
 - [ ] The preprocessor will try to locate the fileA in same directory as the source file, and the fileB in a predetermined directory path.
 - [ ] The preprocessor will try to locate the fileA in the fixed system directory. It will try to locate fileB in the directory path designated by the -l option added to the command line while compiling the source code.
 - [ ] The file using fileA syntax must be system files, of unlimited number. fileB must be a user file at a maximun of one per source file.
-- [x] The preprocessor will try to locate the fileA in a predetermined directory path. It will try to locate fileB in the same directory as the source file along with a custom directory path.  
-
+- [x] The preprocessor will try to locate the fileA in a predetermined directory path. It will try to locate fileB in the same directory as the source file along with a custom directory path.
 
 #### Q8. Using a for loop, how could you write a C code to count down from 10 to 1 and display each number on its own line?
 
-- [ ] 
+- [ ]
+
 ```c
 for (int i = 0; i>=0, i--){
     printf("%d\n", i);
 }//end of loop
 ```
-- [ ] 
+
+- [ ]
+
 ```c
 int i;
 for (i=1; i<=10; i++){
     printf("%d", i);
 }
 ```
+
 - [ ]
+
 ```c
 int i = 10;
 while (i>0){
@@ -150,7 +159,9 @@ while (i>0){
     i--;
 }
 ```
+
 - [x]
+
 ```c
 int i;
 for (i= 10; i>0; i--){
@@ -164,7 +175,6 @@ for (i= 10; i>0; i--){
 - [x] typeof
 - [ ] register
 - [ ] typedef
-
 
 #### Q10. What does the program shown below return?
 
@@ -184,7 +194,6 @@ int main(){
 - [ ] 2
 - [ ] 0
 
-
 #### Q11. Using the Union declaration below, how many bytes of memory space will the data of this type occupy?
 
 ```c
@@ -200,7 +209,6 @@ union Cars{
 - [x] 30
 - [ ] 52
 
-
 #### Q12. In this code sample, what is not a problem for C compiler?
 
 ```c
@@ -215,7 +223,6 @@ main(){
 - [ ] The data type of PI needs to be float not int.
 - [ ] The printf statement needs to use PI, not pi.
 
-
 #### Q13. Which is the smallest program to compile and run without errors?
 
 - [ ] main()
@@ -224,6 +231,7 @@ main(){
 - [ ] main() { ; }
 
 #### Q14. What is optional in a function declaration?
+
 - [ ] data type of parameters
 - [ ] return type of function
 - [x] parameter names
@@ -271,7 +279,7 @@ main(){
 - [ ] by using recursive functions
 - [ ] by using global variables
 
-#### Q21. A union allows you to store differente _____ in the same _____.
+#### Q21. A union allows you to store differente **\_** in the same **\_**.
 
 - [ ] Objects; Structure
 - [ ] Variables; Declaration
@@ -295,7 +303,7 @@ main(){
 
 #### Q23. What is the difference between scanf() and sscanf() functions?
 
-- [ ] The scanf() function reads data formatted as a string; The sscanf() function reads string input from the screen.  
+- [ ] The scanf() function reads data formatted as a string; The sscanf() function reads string input from the screen.
 - [x] The scanf() function reads formatted data from the keyword; The sscanf() function reads formatted input from a string.
 - [ ] The scanf() function reads string data from the keyword; The sscanf() function reads string data from a string.
 - [ ] The scanf() function reads formatted data from a file; The sscanf() function reads input from a selected string

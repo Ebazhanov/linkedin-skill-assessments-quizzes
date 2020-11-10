@@ -44,6 +44,7 @@ xvect
 - [ ] `height(5)`
 
 #### Q6. In the image below, the data frame is named rates. The statement `sd(rates[, 2])` returns 39. As what does R regard Ellen's product ratings?
+
 ![Image](https://i.ibb.co/jvPPSRk/Captura-de-pantalla-2020-07-14-a-las-20-58-09.png)
 
 - [ ] sample with replacement
@@ -54,7 +55,7 @@ xvect
 #### Q7. Which choice does R regard as an acceptable name for a variable?
 
 - [ ] Var_A!
-- [ ] _VarA
+- [ ] \_VarA
 - [ ] .2Var_A
 - [x] Var2_A
 
@@ -73,6 +74,7 @@ xvect
 - [x] scalar
 
 #### Q10. In the image below, the data frame on lines 1 through 4 is names StDf. State and Capital are both factors. Which statement returns the results shown on lines 6 and 7?
+
 ![Image](https://i.ibb.co/8DL1HCV/Captura-de-pantalla-2020-07-14-a-las-18-33-34.png)
 
 - [ ] StDf[1:2,-3]

@@ -177,9 +177,7 @@
 
 #### Q15. MySQL uses security based on**\_**for all connections, queries, and other operations that users can attempt to perform.
 
-#### Q15. MySQL uses security based on_____for all connections, queries, and other operations that users can attempt to perform.
-
-- [ ]  administrator schema
+- [ ] administrator schema
 - [ ] encrypted algorithms
 - [ ] user settings
 - [x] access control lists (https://dev.mysql.com/doc/refman/8.0/en/security-guidelines.html)
@@ -426,6 +424,7 @@
 - [x] drop temporary table customers;
 
 #### Q48. you need to run a complex query with recursive subqueries but without creating a stored procedure or a function. Which command or clause do you use?
+
 - [ ] collate
 - [x] union
 - [ ] full join
@@ -445,17 +444,18 @@
 - [ ] to display default settings that are in error
 - [x] to display storage error codes
 
-(*note: perror prints a description for a system error code or for a storage engine (table handler) error code. link: https://dev.mysql.com/doc/refman/5.7/en/perror.html#:~:text=2%20perror%20%E2%80%94%20Display%20MySQL%20Error%20Message%20Information,-For%20most%20system&text=You%20can%20find%20out%20what,(table%20handler)%20error%20code.)
+(\*note: perror prints a description for a system error code or for a storage engine (table handler) error code. link: https://dev.mysql.com/doc/refman/5.7/en/perror.html#:~:text=2%20perror%20%E2%80%94%20Display%20MySQL%20Error%20Message%20Information,-For%20most%20system&text=You%20can%20find%20out%20what,(table%20handler)%20error%20code.)
 
 #### Q51. How can you list all columns for a given table?
 
 - [ ] SHOW table COLUMNS;
-- [x] SHOW COLUMNS FROM table; (*not on test but `DESCRIBE tablename` is a shortcut for this command)
+- [x] SHOW COLUMNS FROM table; (\*not on test but `DESCRIBE tablename` is a shortcut for this command)
 - [ ] LIST table COLUMNS;
 - [ ] SELECT COLUMNS FROM table;
 
 #### Q52. How would you list the full set of tables in the currently selected database?
-- [ ] SELECT * FROM DATABASE;
+
+- [ ] SELECT \* FROM DATABASE;
 - [x] SHOW TABLES;
 - [ ] LIST TABLES;
 - [ ] SELECT ALL TABLES;
@@ -512,6 +512,7 @@
    <field name="make"> 2016 </field>
 </car>
 ```
+
 - [x]
 
 ```xml
