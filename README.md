@@ -17,7 +17,7 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 
 ### Table of Contents
 
-| Quiz      |  Status |
+| Linkedin-quiz-questions      |  Status |
 | --------- |  ------ |
 | [Adobe-Illustrator](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/adobe-illustrator-quiz.md) | answers required |
 | [Adobe-Photoshop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/adobe-photoshop-quiz.md) | answers required |
