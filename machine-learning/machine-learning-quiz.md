@@ -488,7 +488,7 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 
 <details><summary>Explanation 👇</summary><p>
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Daniboy370/in-quiz-questions/blob/master/machine-learning/images/machine-learning_Q62.png?raw=true' width=500>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/images/machine-learning_Q62.png?raw=true' width=500>
 
 </p></details>
 
@@ -522,7 +522,7 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 
 #### Q67. What is the correct option?
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Daniboy370/in-quiz-questions/blob/master/machine-learning/images/machine-learning_Q67.png?raw=true' width=500>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/images/machine-learning_Q67.png?raw=true' width=500>
 
 | no. | Red | Blue | Green |
 | --- | --- | ---  | ---   |
