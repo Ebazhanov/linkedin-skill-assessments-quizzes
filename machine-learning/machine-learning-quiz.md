@@ -30,11 +30,15 @@
 
 #### Q05. Your company wants to predict whether existing automotive insurance customers are more likely to buy homeowners insurance. It created a model to better predict the best customers contact about homeowners insurance, and the model had a low variance but high bias. What does that say about the data model?
 
-- [ ] It was consistently wrong.
-- [x] It was inconsistently wrong. ->> references: [https://medium.com/datadriveninvestor/bias-and-variance-in-machine-learning-51fdd38d1f86](https://medium.com/datadriveninvestor/bias-and-variance-in-machine-learning-51fdd38d1f86)
+- [x] It was consistently wrong.
+- [ ] It was inconsistently wrong.
 - [ ] It was consistently right.
 - [ ] It was equally right end wrong.
 
+<details><summary>Explanation</summary><p>
+
+See link : [https://medium.com/datadriveninvestor/bias-and-variance-in-machine-learning-51fdd38d1f86](https://medium.com/datadriveninvestor/bias-and-variance-in-machine-learning-51fdd38d1f86)
+</p></details>
 #### Q06. You want to identify global weather patterns that may have been affected by climate change. To do so, you want to use machine learning algorithms to find patterns that would otherwise be imperceptible to a human meteorologist. What is the place to start?
 
 - [ ] Find labeled data of sunny days so that the machine will learn to identify bad weather.
@@ -484,7 +488,7 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 
 <details><summary>Explanation</summary><p>
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/images/machine-learning_Q62.jpg?raw=true' width=750>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/images/machine-learning_Q62.png?raw=true' width=500>
 
 </p></details>
 
@@ -518,7 +522,7 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 
 #### Q67. What is the correct option?
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/images/machine-learning_Q67.jpg?raw=true' width=750>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/images/machine-learning_Q67.png?raw=true' width=500>
 
 - [ ] Red : Validation error Blue : Training error Green : Test error
 - [ ] Red : Training error Blue : Test error Green : Validation error
