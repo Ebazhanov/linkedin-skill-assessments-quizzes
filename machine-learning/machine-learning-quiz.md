@@ -482,10 +482,11 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ] 12%
 - [ ] 0.0008%
 
-// Refer to this article on [sigmoid and softmax activation function](https://medium.com/arteos-ai/the-differences-between-sigmoid-and-softmax-activation-function-12adee8cf322)
-// A's softmax, softmax(10) = exp(10)/(exp(10) + exp(8) + exp(3))
-// B's softmax, softmax(8) = exp(8)/(exp(10) + exp(8) + exp(3))
-// Difference of softmax values for class A and class B = softmax(10) - softmax(8) = 0.76098 => 76%
+<details><summary>Explanation</summary><p>
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/images/machine-learning_Q62.jpg?raw=true' width=750>
+
+</p></details>
 
 #### Q63. The new dataset you have just scraped seems to exhibit lots of missing values. What action will help you minimizing that problem?
 
@@ -516,6 +517,8 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ] Any L2 loss
 
 #### Q67. What is the correct option?
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/images/machine-learning_Q67.jpg?raw=true' width=750>
 
 - [ ] Red : Validation error Blue : Training error Green : Test error
 - [ ] Red : Training error Blue : Test error Green : Validation error
