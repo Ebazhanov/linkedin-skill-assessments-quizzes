@@ -307,3 +307,10 @@ main(){
 - [x] The scanf() function reads formatted data from the keyword; The sscanf() function reads formatted input from a string.
 - [ ] The scanf() function reads string data from the keyword; The sscanf() function reads string data from a string.
 - [ ] The scanf() function reads formatted data from a file; The sscanf() function reads input from a selected string
+
+#### Q24. What is not a valid command with this declaration?
+char *string[20] = { "one", "two", "three"};
+- [ ] printf("%c", string[1][2]);
+- [x] printf("%s", string[1][2]);
+- [ ] printf("%s", string[1]);
+- [ ] printf(string[1]);
