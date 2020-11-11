@@ -486,9 +486,9 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ] 12%
 - [ ] 0.0008%
 
-<details><summary>Explanation</summary><p>
+<details><summary>Explanation 👇</summary><p>
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/images/machine-learning_Q62.png?raw=true' width=500>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Daniboy370/in-quiz-questions/blob/master/machine-learning/images/machine-learning_Q62.png?raw=true' width=500>
 
 </p></details>
 
@@ -522,9 +522,16 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 
 #### Q67. What is the correct option?
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/images/machine-learning_Q67.png?raw=true' width=500>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Daniboy370/in-quiz-questions/blob/master/machine-learning/images/machine-learning_Q67.png?raw=true' width=500>
 
-- [ ] Red : Validation error Blue : Training error Green : Test error
-- [ ] Red : Training error Blue : Test error Green : Validation error
-- [ ] Red : Optimal error Blue : Validation error Green : Test error
-- [x] Red : Validation error Blue : Training error Green : Optimal error
+| no. | Red | Blue | Green |
+| --- | --- | ---  | ---   |
+| **1.** | Validation error | Training error | Test error |
+| **2.** | Training error | Test error | Validation error |
+| **3.** | Optimal error | Validation error | Test error |
+| **4.** | Validation error | Training error | Optimal error |
+
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [x] 4
