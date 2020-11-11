@@ -25,7 +25,7 @@ Script.sh
 $ cat script.sh
 for i in $(ls *.jpg); do
 	mv $i ${i}.bak
-done  
+done
 ```
 
 - [ ] ls: cannot access nonexistentfile: No such file or directory
@@ -87,7 +87,7 @@ awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 - [ ] It will cause Bash to exit if local, declare, or typeset assignments return a nonzero status code.
 - [x] It will cause Bash to exit if a command, list of commands, compound command, or potentially a pipeline returns a nonzero status code.
 
-#### Q9. The ______ keyword pauses the script to get input from standard input.
+#### Q9. The **\_\_** keyword pauses the script to get input from standard input.
 
 - [ ] get
 - [ ] argument
@@ -96,8 +96,9 @@ awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 
 #### Q10. If file.sql holds SQL statements to be executed, what will be in file.txt?
 
-##### I cannot reproduce this question, but at first sight I don't see correct answer, because no-one write to file.txt and content doesn't change 
-##### I suppose the correct script is *mysql < file.sql > file.txt* then the correct answer is fourth option.
+##### I cannot reproduce this question, but at first sight I don't see correct answer, because no-one write to file.txt and content doesn't change
+
+##### I suppose the correct script is _mysql < file.sql > file.txt_ then the correct answer is fourth option.
 
 ```bash
 mysql < file.sql < file.txt
@@ -112,7 +113,7 @@ mysql < file.sql < file.txt
 
 - [ ] When the command creates files, they will be owned by the group owner of the command.
 - [ ] The SUID bit allows anyone to execute the command no matter what other permissions are set.
-- [x] When the command is executed, its running privileges elevate to the user owner  of the command.
+- [x] When the command is executed, its running privileges elevate to the user owner of the command.
 - [ ] When the command is executed, its running privileges elevate to the group owner of the command.
 
 #### Q12. In order to extract text from the first column of file called textfile, which command would you use?
@@ -192,7 +193,7 @@ The date is: Sun Mar 24 12:30:06 CST 2019!
 
 - [ ] `echo "The date is: !"`
 - [ ] `echo "The date is: date!"`
-- [ ] `echo "The date is:  (date)!"`
+- [ ] `echo "The date is: (date)!"`
 - [x] `echo "The date is: $(date)!"`
 
 #### Q21. Suppose your current working directory is your home directory. How could you run the script demo.sh that is located in your home directory? Find three correct answers.
@@ -213,6 +214,7 @@ E. bash demo.sh
 #### Q22. How could you get a list of all .html files in your tree?
 
 #### Idk both of them work
+
 - [ ] `find . -type html`
 - [x] `find . -name *.html`
 - [ ] `find *.html`
@@ -262,7 +264,7 @@ case $num in
 	*)
 	echo "a mystery"
 	; ;
-esac	
+esac
 ```
 
 - [x] a case that matches any value, providing a default option if nothing else catches that value
@@ -285,9 +287,10 @@ esac
 - [ ] `$@`
 
 #WARNING!
-Start from this question and to Q40 I have a lot of doubts about answers 
+Start from this question and to Q40 I have a lot of doubts about answers
 because in real assessment I get these 12 question + 3 from Q1 to Q28,
 and I select other answers in Q29, Q31, Q32, Q35, Q36, Q37, Q39, Q40 and pass it
+
 #### Q29. What is the output of this script?
 
 ```bash
@@ -312,10 +315,10 @@ echo ${!fname}
 - [ ] `D` ![D](questionimages/Q30/D.jpg)
 
 Here a text based version of Q.30:
- 
+
 ll
--rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30    .
--rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30   ..
+-rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30 .
+-rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30 ..
 -rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file1.txt
 -rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file2.txt
 ..
@@ -323,30 +326,29 @@ ll
 ll | sed -e 's,file,text,g'
 
 a) []
--rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30    .
--rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30   ..
+-rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30 .
+-rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30 ..
 -rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file1.file
 -rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file2.file
 ..
 
 b) []
--rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30    .
--rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30   ..
+-rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30 .
+-rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30 ..
 -rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file1.txt
 -rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file2.txt
 ..
 
 c) []
--rw-r--r-- 1 frankmolev staff 68 Jun 3 19:30    .
--rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30  ..
+-rw-r--r-- 1 frankmolev staff 68 Jun 3 19:30 .
+-rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30 ..
 
 d) [x]
--rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30    .
--rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30   ..
+-rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30 .
+-rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30 ..
 -rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 text1.txt
 -rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 text.txt
 ..
-
 
 #### Q31. What is wrong with this script?
 
@@ -370,7 +372,7 @@ fi
 - [ ] `history --combined`
 - [x] `shopt -s histappend`
 
-#### Q33. What is the difference between the $@ and $* variables?
+#### Q33. What is the difference between the $@ and $\* variables?
 
 - [x] `$@ treats each quoted argument as a separate entity. $* treats the entire argument string as one entity.`
 - [ ] `$* treats each quoted argument as a separate entity. $@ treats the entire argument string as one entity.`
@@ -448,6 +450,7 @@ done
 ```bash
 ls Hello[[.vertical-line.]]World
 ```
+
 It's matches also `Hello[[.vertical-line.]]World` file but if we have this and `Hello|World` file will always be matched last one
 
 - [ ] `Nothing, this is an invalid file glob.`
@@ -477,6 +480,7 @@ else
     echo "Is not numeric"
 fi
 ```
+
 - [x] Any sequence of characters that includes an integer
 - [ ] The user would have to enter the character sequence of ^[0-9]]+$ Only this will prove to be true and "Is numeric" would be printed on the screen due to incorrect syntax. By encapsulating the regular expression in double quotes every match will fail except the text string ^[0-9]+$
 - [ ] One or more characters that only includes integers
@@ -490,7 +494,7 @@ mysql < file.sql > out.txt
 
 - [ ] The output on the screen will be identical to out.txt
 - [x] There will be no output on the screen as it's being redirected to out.txt.
-- [ ] The output on the screen will be identical to out.txt plus line numbers. 
+- [ ] The output on the screen will be identical to out.txt plus line numbers.
 - [ ] The out.txt file will hold STDERR and STDOUT will go to the screen.
 
 #### Q43. How would you find the last copy command run in your history?
@@ -502,10 +506,10 @@ mysql < file.sql > out.txt
 
 #### Q44. In order to write a script that iterates through the files in a directory, which of the following could you use?
 
-- [ ] ```bash for i in $(ls); do ... done```
-- [ ] ```bash for $(ls); do ... done```
-- [x] ```bash for i in $ls; do ... done```
-- [ ] ```bash for $ls; do ... done```
+- [ ] `bash for i in $(ls); do ... done`
+- [ ] `bash for $(ls); do ... done`
+- [x] `bash for i in $ls; do ... done`
+- [ ] `bash for $ls; do ... done`
 
 #### Q45 When executing a command and passing the output of that command to another command, which character allows you to chain these commands together?
 
@@ -529,12 +533,12 @@ echo $greeting, everybody!
 
 #### Q47. Which statement checks whether the variable num is greater than five?
 
-- [ ] (( $num -gt 5 ))
+- [ ] (( \$num -gt 5 ))
 - [ ] [[ $num -lt 5 ]]
-- [x] (( $num > 5 ))
-- [ ] $num > 5
+- [x] (( \$num > 5 ))
+- [ ] \$num > 5
 
-#### Q48. Using Bash extended globbing, what will be the output of this command? 
+#### Q48. Using Bash extended globbing, what will be the output of this command?
 
 ls -l
 apple
@@ -544,16 +548,18 @@ banapple
 pineapple
 strawberry
 
-$ shopt -s extglob
-ls -l @(ba*(na)|a+(p)le)
+\$ shopt -s extglob
+ls -l @(ba\*(na)|a+(p)le)
 
 - [ ] a
+
 ```bash
 apple
 banana
 ```
 
 - [ ] b
+
 ```bash
 apple
 banana
@@ -564,6 +570,7 @@ strawberry
 ```
 
 - [ ] c
+
 ```bash
 apple
 banana
@@ -573,6 +580,7 @@ pineapple
 ```
 
 - [ ] d
+
 ```bash
 apple
 banana
@@ -581,12 +589,12 @@ banapple
 pineapple
 ```
 
-#### Q49. When used from within a script, which variable contains the name of  the script?
-- [x] $0
-- [] $# // number of positional parameters
-- [] $$ // pid of the current shell
-- [] $@ // array-like construct of all positional parameters
+#### Q49. When used from within a script, which variable contains the name of the script?
 
+- [x] \$0
+- [] \$# // number of positional parameters
+- [] \$\$ // pid of the current shell
+- [] \$@ // array-like construct of all positional parameters
 
 #### Q50. What does the + signify at the end of the 10-digit file permissions on data.txt?
 
@@ -598,22 +606,23 @@ ls -l
 - [x] There is an access control list
 - [] There is an extended attribute such as immutable set
 
-
 Training questions
+
 #### Q1. What does this command do?
+
 cat > notes -
+
 - [x] Accepts text from standard input and places it in "notes"
 - [] Creates "notes" and exits
 - [] Outputs the content of notes and deletes it
 - [] Appends text to the existing "notes"
 
 #### Q2. What is the output of:
+
 VAR="This old man came rolling"
-echo "${VAR//man/rolling}"
+echo "\${VAR//man/rolling}"
 
 - [x]This old rolling came rolling
 - []This old man came man
 - []This old man came rolling
 - []This old came
-
-
