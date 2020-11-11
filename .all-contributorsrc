@@ -1566,6 +1566,27 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "marcobiedermann",
+      "name": "Marco Biedermann",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5244986?v=4",
+      "profile": "https://marcobiedermann.com",
+      "contributions": [
+        "code",
+        "design",
+        "business",
+        "ideas"
+      ]
+    },
+    {
+      "login": "srinidhimurthy",
+      "name": "Srinidhi Murthy",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10862228?v=4",
+      "profile": "https://github.com/srinidhimurthy",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
