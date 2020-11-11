@@ -5,19 +5,17 @@ Q1. By convention, what name is used for the first key in a JSON schema?
 - JsonSchema
 - JSONschema
 
-Q2. Which code is the closest JSON equivalent of the data shown?
-
+Q2. Which code is the closest JSON equivalent of the data shown? ***MISSING "DATA SHOWN"***
+- [
+    "red",
+    "blue",
+    "green"
+  ] <<<<----Correct
 - {
-  "red",
-  "blue",
-  "green"
+    "color": "red",
+    "color": "blue",
+    "color": "green"
   }
-- { <<<<----Correct
-  "color": "red",
-  "color": "blue",
-  "color": "green"
-  }
-
 - {
   'red': 'red',
   'blue': 'blue',
@@ -40,9 +38,9 @@ Q4. Which data type is NOT part of JSON standard?
 Q5. Which term is commonly used to refer to converting data to JSON?
 
 - unpacking
-- serialization
+- serialization <<<<----Correct
 - deserialization
-- parsing <<<<----Correct
+- parsing 
 
 Q6. Which code uses the correct JSON syntax to encode the key/value pair shown?
 
@@ -74,28 +72,26 @@ Q9. Which key name is used to specify properties that must be included for JSON 
 - important
 - base
 - core
-- required <<<<----May be
+- required <<<<----Correct
 
-Q10. Which is the valid JSON equivalent of the data shown?
-
+Q10. Which is the valid JSON equivalent of the data shown? *** MISSING OPTIONS & "DATA SHOWN"
 - { <<<<----Correct
-  "photo": {
-  "width": 1600,
-  "height": 900,
-  "binaries": {
-  "url": "https://....."
-  "thumbnail": "https://....."
-  },
-  "animated": false,
-  "tags": [116, 943, 234, 38793]
-  }
-  }
+    "photo": {
+        "width": 1600,
+        "height": 900,
+        "binaries": {
+            "url": "https://....."
+            "thumbnail": "https://....."
+        },
+        "animated": false,
+        "tags": [116, 943, 234, 38793]
+    }
+}
 
 Q11. How do you store several paragraphs of text as a string in JSON?
-
-- Escape all whitespaces expect space characters.
+- Escape all whitespaces expect space characters. <<<<----Correct
 - Escape line breaks.
-- Escape paragraphs. <<<<----Correct
+- Escape paragraphs.
 - Remove all whitespaces
 
 Q12. What data type is represented by the value of the key/value pair shown?
@@ -271,10 +267,9 @@ printNullness(JSON.parse('{ "lemmings": "null" }'));
   null
 
 Q26. What tool might you use to validate your JSON?
-
-- JSONLint
+- JSONLint <<<<----Correct
 - ValidateJSON
-- JSONFiddle <<<<----Correct
+- JSONFiddle 
 - TextEdit
 
 Q27. What characters denote strings in JSON?
@@ -285,30 +280,31 @@ Q27. What characters denote strings in JSON?
 - single quotes
 
 Q28. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the data type?
-**constant: 6.022E23**
-
-- "constant": "6.022E23" <<<<----Correct ???
-- "constant": "6\.022\E23" <<<<----Correct ???
+ **constant: 6.022E23**
+- "constant": "6.022E23"   <<<<----Correct
+- "constant": "6\.022\E23"
 - constant: 6.022E23
 - constant: "6.022E23"
+
+(***note it should be mentioned that Scientific Notation is a valid JSON number. You can use `e` or `E`. https://json-schema.org/understanding-json-schema/reference/numeric.html)
 
 Q29. Which element is added to the DOM to create a JSON-P request?
 
 - <object>
 - <script>  <<<<----Correct
-- <script>
+- <script>  <<<<----Correct
 - <meta>
 
 Q30. Why do so many APIs use JSON?
 
 - Because it's object-based.
-- Because it's a simple and adaptable format for sharing data. <<<<----Correct
-- Because it's based on JavaScript.
+- Because it's a simple and adaptable format for sharing data. 
+- Because it's based on JavaScript.  <<<<----Correct
 - Because it is derived from SGML.
 
 Q31. You need to assemble a list of members, but your JSON is not parsing correctly. How do you change it?
 **{
-"avengers": [ <<<<----Correct
+"avengers": [
 "iron man",
 "hulk",
 "thor",
@@ -319,15 +315,15 @@ Q31. You need to assemble a list of members, but your JSON is not parsing correc
 }**
 
 - **{
-  "avengers": [
-  "iron man",
-  "hulk",
-  "thor",
-  "black widow",
-  "ant man",
-  "spider man"
-  ]
-  }**
+"avengers": [
+"iron man",
+"hulk",
+"thor",
+"black widow",
+"ant man",
+"spider man"
+]
+}**  <<<<----Correct
 
 - **{
   'avengers': [
@@ -402,15 +398,15 @@ Q36. Which is ignored by JSON but treated as significant by YAML?
 
 - trailing commas
 - trailing decimals
-- whitespace <<<<----Correct
-- leading zeroes
+- whitespace 
+- leading zeroes <<<<----Correct
 
 Q37. When you need to set the value of a key in JSON to be blank, what is the correct syntax for the empty value?
 
 - FALSE
 - 0
-- "" <<<<----Correct
-- null
+- "" 
+- null  <<<<----Correct
 
 Q38. How do you assign a number value in JSON?
 
@@ -423,8 +419,9 @@ Q39. Which code uses the correct JSON syntax for encoding a key/value pair with 
 
 - "lastVisit": "nul1"
 - lastVisit: null
-- "lastVisit": 0 <<<<----Correct
+- "lastVisit": 0
 - "lastVisit": undefined
+**NONE OF THESE ARE CORRECT A CORRECT ANSWER WOULD LOOK LIKE `"lastVisit": null`**
 
 Q40. Which reference to the Unicode character U+1F602 complies with the JSON standard?
 
@@ -453,8 +450,9 @@ Q43. Which code is a valid JSON equivalent of the key/value pair shown that also
 
 - "UPC": \043875
 - UPC: "043875"
-- "UPC": 043875 <<<<----Correct
+- "UPC": 043875
 - UPC: '043875'
+**NONE OF THESE ARE CORRECT A CORRECT ANSWER WOULD LOOK LIKE `"UPC": "043875"`**
 
 Q44. Which data format is a JSON schema written in?
 
@@ -468,12 +466,11 @@ Q45. Which code is valid JSON equivalent of the key/value pair shown that also p
 
 - "variance": "-0.0823" <<<<----Correct
 - variance: "-0.0823"
-- "variance": "\-0.0823" <<<<----Correct
+- "variance": "\-0.0823"
 - variance: -0.0823
 
 Q46. With what character should key/value pairs be separated?
-
-- colon
+- colon  <<<<----Correct
 - space
 - semicolon
-- comma <<<<----Correct
+- comma
