@@ -30,11 +30,15 @@
 
 #### Q05. Your company wants to predict whether existing automotive insurance customers are more likely to buy homeowners insurance. It created a model to better predict the best customers contact about homeowners insurance, and the model had a low variance but high bias. What does that say about the data model?
 
-- [ ] It was consistently wrong.
-- [x] It was inconsistently wrong. ->> references: [https://medium.com/datadriveninvestor/bias-and-variance-in-machine-learning-51fdd38d1f86](https://medium.com/datadriveninvestor/bias-and-variance-in-machine-learning-51fdd38d1f86)
+- [x] It was consistently wrong.
+- [ ] It was inconsistently wrong.
 - [ ] It was consistently right.
 - [ ] It was equally right end wrong.
 
+<details><summary>Explanation</summary><p>
+
+See link : [https://medium.com/datadriveninvestor/bias-and-variance-in-machine-learning-51fdd38d1f86](https://medium.com/datadriveninvestor/bias-and-variance-in-machine-learning-51fdd38d1f86)
+</p></details>
 #### Q06. You want to identify global weather patterns that may have been affected by climate change. To do so, you want to use machine learning algorithms to find patterns that would otherwise be imperceptible to a human meteorologist. What is the place to start?
 
 - [ ] Find labeled data of sunny days so that the machine will learn to identify bad weather.
@@ -482,10 +486,11 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ] 12%
 - [ ] 0.0008%
 
-// Refer to this article on [sigmoid and softmax activation function](https://medium.com/arteos-ai/the-differences-between-sigmoid-and-softmax-activation-function-12adee8cf322)
-// A's softmax, softmax(10) = exp(10)/(exp(10) + exp(8) + exp(3))
-// B's softmax, softmax(8) = exp(8)/(exp(10) + exp(8) + exp(3))
-// Difference of softmax values for class A and class B = softmax(10) - softmax(8) = 0.76098 => 76%
+<details><summary>Explanation 👇</summary><p>
+
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/images/machine-learning_Q62.png?raw=true' width=500>
+
+</p></details>
 
 #### Q63. The new dataset you have just scraped seems to exhibit lots of missing values. What action will help you minimizing that problem?
 
@@ -517,7 +522,16 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 
 #### Q67. What is the correct option?
 
-- [ ] Red : Validation error Blue : Training error Green : Test error
-- [ ] Red : Training error Blue : Test error Green : Validation error
-- [ ] Red : Optimal error Blue : Validation error Green : Test error
-- [x] Red : Validation error Blue : Training error Green : Optimal error
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/images/machine-learning_Q67.png?raw=true' width=500>
+
+| no. | Red | Blue | Green |
+| --- | --- | ---  | ---   |
+| **1.** | Validation error | Training error | Test error |
+| **2.** | Training error | Test error | Validation error |
+| **3.** | Optimal error | Validation error | Test error |
+| **4.** | Validation error | Training error | Optimal error |
+
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [x] 4

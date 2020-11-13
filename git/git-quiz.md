@@ -723,7 +723,7 @@ In Git, there are two main ways to integrate changes from one branch into anothe
 
 #### Q86. Consider the following Git workflow :
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Daniboy370/in-quiz-questions/blob/master/git/images/Git-WorkFlow.png?raw=true' width=750>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Ebazhanov/in-quiz-questions/blob/master/git/images/Git-WorkFlow.png?raw=true' width=750>
 
 - Which of the following options is correct ?
 

@@ -233,3 +233,11 @@
 - [ ] `to describe subresources related to the current one`
 - [ ] `to link two resources together`
 - [ ] `to describe a resource and its purpose`
+
+#### Q34. When building SDKs, which languages should you support?
+
+- [ ] Java, Javascript, and .NET
+- [ ] and you can support
+- [ ] PHP, Python, and Go
+- [ ] the languages that your target users use
+

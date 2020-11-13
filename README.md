@@ -11,11 +11,12 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 
 | Pluralsight IQ Skill quiz | Status |
 | ------------------------- | ------ |
-| [Java](https://github.com/tik9/pluralsight/blob/master/java.md) | done |
-| [Mysql](https://github.com/tik9/pluralsight/blob/master/mysql.md) | done |
+| [Aws Big Data](https://github.com/tik9/pluralsight/blob/master/aws_big_data.md) | Answers missing |
+| [Building Websites with HTML, CSS, and JavaScript](https://github.com/tik9/pluralsight/blob/master/building-websites.md) | ok |
+| [Java](https://github.com/tik9/pluralsight/blob/master/java.md) | ok |
+| [Mysql](https://github.com/tik9/pluralsight/blob/master/mysql.md) | ok |
 | [Powershell](https://github.com/tik9/pluralsight/blob/master/powershell.md) | non-offical |
-| [Python](https://github.com/tik9/pluralsight/blob/master/python.md) | done |
-| [Building Websites with HTML, CSS, and JavaScript](https://github.com/tik9/pluralsight/blob/master/building-websites.md) | done |
+| [Python](https://github.com/tik9/pluralsight/blob/master/python.md) | ok |
 
 <img src="https://monosnap.com/image/mf3OkeABEfjiAFjYC8d0l7cE6yf52E"/>
 
@@ -297,7 +298,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/RobTables"><img src="https://avatars3.githubusercontent.com/u/52382103?v=4" width="100px;" alt=""/><br /><sub><b>RobTables</b></sub></a><br /><a href="#design-RobTables" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=RobTables" title="Code">💻</a> <a href="#business-RobTables" title="Business development">💼</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/Daniboy370"><img src="https://avatars0.githubusercontent.com/u/46421909?v=4" width="100px;" alt=""/><br /><sub><b>Daniel</b></sub></a><br /><a href="#design-Daniboy370" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Daniboy370" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Daniboy370"><img src="https://avatars0.githubusercontent.com/u/46421909?v=4" width="100px;" alt=""/><br /><sub><b>Daniel</b></sub></a><br /><a href="#design-Daniboy370" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Daniboy370" title="Code">💻</a> <a href="#business-Daniboy370" title="Business development">💼</a> <a href="#fundingFinding-Daniboy370" title="Funding Finding">🔍</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/zaahidali/"><img src="https://avatars1.githubusercontent.com/u/37751705?v=4" width="100px;" alt=""/><br /><sub><b>Zahid Ali</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=zaahidali" title="Code">💻</a> <a href="#design-zaahidali" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/SuperGuy10"><img src="https://avatars2.githubusercontent.com/u/13461705?v=4" width="100px;" alt=""/><br /><sub><b>Chad Chai</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=SuperGuy10" title="Code">💻</a> <a href="#design-SuperGuy10" title="Design">🎨</a></td>
     <td align="center"><a href="https://marcobiedermann.com"><img src="https://avatars0.githubusercontent.com/u/5244986?v=4" width="100px;" alt=""/><br /><sub><b>Marco Biedermann</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=marcobiedermann" title="Code">💻</a> <a href="#design-marcobiedermann" title="Design">🎨</a> <a href="#business-marcobiedermann" title="Business development">💼</a> <a href="#ideas-marcobiedermann" title="Ideas, Planning, & Feedback">🤔</a></td>
