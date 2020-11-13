@@ -1544,7 +1544,9 @@
       "profile": "https://github.com/Daniboy370",
       "contributions": [
         "design",
-        "code"
+        "code",
+        "business",
+        "fundingFinding"
       ]
     },
     {
@@ -1585,6 +1587,16 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/10862228?v=4",
       "profile": "https://github.com/srinidhimurthy",
       "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "Hephaest",
+      "name": "Miao Cai",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/37981444?v=4",
+      "profile": "https://github.com/Hephaest",
+      "contributions": [
+        "code",
         "design"
       ]
     }
