@@ -1589,6 +1589,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "Hephaest",
+      "name": "Miao Cai",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/37981444?v=4",
+      "profile": "https://github.com/Hephaest",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
