@@ -47,6 +47,7 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 | [jQuery](https://github.com/Ebazhanov/in-quiz-questions/blob/master/jquery/jquery-quiz.md) :open_mouth:                                 | with answers       |
 | [JSON](https://github.com/Ebazhanov/in-quiz-questions/blob/master/json/json-quiz.md)                                                    | with answers       |
 | [Machine Learning](https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/machine-learning-quiz.md)                | answers required   |
+| [MATLAB](https://github.com/Ebazhanov/in-quiz-questions/blob/master/matlab/matlab-quiz.md)                                              | with answers       |
 | [Maven](https://github.com/Ebazhanov/in-quiz-questions/blob/master/maven/maven-quiz.md) :fire:                                          | with answers       |
 | [Microsoft Azure](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-azure/microsoft-azure-quiz.md)                   | with answers       |
 | [Microsoft Excel](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-excel/microsoft-excel-quiz.md)                   | with answers       |
