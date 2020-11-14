@@ -11,12 +11,13 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 
 | Pluralsight IQ Skill quiz | Status |
 | ------------------------- | ------ |
-| [Aws Big Data](https://github.com/tik9/pluralsight/blob/master/aws_big_data.md) | Answers missing |
+| [Aws Big Data](https://github.com/tik9/pluralsight/blob/master/aws_big_data.md) | ok |
+| [Aws Machine Learning](https://github.com/tik9/pluralsight/blob/master/aws_machine_learning.md) | ok |
 | [Building Websites with HTML, CSS, and JavaScript](https://github.com/tik9/pluralsight/blob/master/building-websites.md) | ok |
 | [Java](https://github.com/tik9/pluralsight/blob/master/java.md) | ok |
 | [Mysql](https://github.com/tik9/pluralsight/blob/master/mysql.md) | ok |
 | [Powershell](https://github.com/tik9/pluralsight/blob/master/powershell.md) | non-offical |
-| [Python](https://github.com/tik9/pluralsight/blob/master/python.md) | ok |
+| [Python](https://github.com/tik9/pluralsight/blob/master/python_core.md) | ok |
 
 <img src="https://monosnap.com/image/mf3OkeABEfjiAFjYC8d0l7cE6yf52E"/>
 
