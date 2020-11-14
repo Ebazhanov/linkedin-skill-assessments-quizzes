@@ -44,7 +44,7 @@
 
 ```
       RecycleView
-✔️    RecyclerView.Adapter<VH extends ViewHolder>
+x    RecyclerView.Adapter<VH extends ViewHolder>
       RecyclerView.ViewHolder
       LinearLayoutManager
 ```
@@ -75,7 +75,7 @@
 ```kotlin
         Intent(this, NextActivity::class.java).apply {
             putExtra(EXTRA_NEXT, "some data")
-✔️      }.also { intent ->
+x      }.also { intent ->
             startActivity(intent)
         }
 ```
@@ -132,7 +132,7 @@
 ```gradle
       defaultConfig {
         ...
-✔️      minSdkVersion 21
+x      minSdkVersion 21
         targetSdkVersion 28
       }
 ```
@@ -254,7 +254,7 @@
       <shape xmlns:android="http://schemas.android.com/apk/res/android"
           android:shape="oval">
           <stroke
-✔️            android:width="4dp"
+x            android:width="4dp"
               android:color="@android:color/black" />
           <solid android:color="@android:color/white" />
       </shape>
