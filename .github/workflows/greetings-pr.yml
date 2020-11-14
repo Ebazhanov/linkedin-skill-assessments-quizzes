@@ -1,0 +1,11 @@
+name: Auto message for PR's
+on: pull_request
+jobs:
+  greeting:
+    name: Hello new contributor
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          pr-message: 'Hello @${{ github.actor }} , thank you for submitting a pull request, we appreciate it a lot! If you feel this repository helped you to achieve your goals, warm us with a cup of :coffee:.  🙂'
