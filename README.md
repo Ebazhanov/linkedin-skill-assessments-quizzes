@@ -1,7 +1,9 @@
 # Linkedin-quiz-questions
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-167-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
@@ -9,15 +11,15 @@
 :point_right: If you want to improve your skills on another test platform [**Pluralsight IQ Skill**](https://www.pluralsight.com/product/skill-iq)
 find **questions and answers** in **@Timo Körner** [repository](https://github.com/tik9/pluralsight-skill-test).
 
-| Pluralsight IQ Skill quiz | Status |
-| ------------------------- | ------ |
-| [Aws Big Data](https://github.com/tik9/pluralsight/blob/master/aws_big_data.md) | ok |
-| [Aws Machine Learning](https://github.com/tik9/pluralsight/blob/master/aws_machine_learning.md) | ok |
-| [Building Websites with HTML, CSS, and JavaScript](https://github.com/tik9/pluralsight/blob/master/building-websites.md) | ok |
-| [Java](https://github.com/tik9/pluralsight/blob/master/java.md) | ok |
-| [Mysql](https://github.com/tik9/pluralsight/blob/master/mysql.md) | ok |
-| [Powershell](https://github.com/tik9/pluralsight/blob/master/powershell.md) | non-offical |
-| [Python](https://github.com/tik9/pluralsight/blob/master/python_core.md) | ok |
+| Pluralsight IQ Skill quiz                                                                                                | Status      |
+| ------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| [Aws Big Data](https://github.com/tik9/pluralsight/blob/master/aws_big_data.md)                                          | ok          |
+| [Aws Machine Learning](https://github.com/tik9/pluralsight/blob/master/aws_machine_learning.md)                          | ok          |
+| [Building Websites with HTML, CSS, and JavaScript](https://github.com/tik9/pluralsight/blob/master/building-websites.md) | ok          |
+| [Java](https://github.com/tik9/pluralsight/blob/master/java.md)                                                          | ok          |
+| [Mysql](https://github.com/tik9/pluralsight/blob/master/mysql.md)                                                        | ok          |
+| [Powershell](https://github.com/tik9/pluralsight/blob/master/powershell.md)                                              | non-offical |
+| [Python](https://github.com/tik9/pluralsight/blob/master/python_core.md)                                                 | ok          |
 
 <img src="https://monosnap.com/image/mf3OkeABEfjiAFjYC8d0l7cE6yf52E"/>
 
@@ -25,7 +27,7 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 
 | Linkedin-quiz-questions                                                                                                                 | Status             |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| [Adobe-Illustrator](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/adobe-illustrator-quiz.md)               | answers required   |
+| [Adobe-Illustrator](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-illustrator/adobe-illustrator-quiz.md)             | answers required   |
 | [Adobe-Photoshop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/adobe-photoshop-quiz.md)                   | answers required   |
 | [Agile Methodologies](https://github.com/Ebazhanov/in-quiz-questions/blob/master/agile-methodologies/agile-methodologies-quiz.md)       | with answers       |
 | [Android](https://github.com/Ebazhanov/in-quiz-questions/blob/master/android/android-quiz.md)                                           | answers required   |
@@ -311,6 +313,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
