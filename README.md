@@ -76,13 +76,18 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 | [WordPress](https://github.com/Ebazhanov/in-quiz-questions/blob/master/wordpress/wordpress-quiz.md)                                     | partially answered |
 | [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md)                                                       | answers required   |
 
+&nbsp;
+
 ## Format
 
-Format files using [Prettier](https://prettier.io/) code formatter.
+We recommend to format files using [Prettier](https://prettier.io/) code formatter. Prettier comes installed with the IDE [Vscode](code.visualstudio.com) which we recommend for preparing the md files. It works on all OS.
+If you want to run it independently, get **npm** and:
 
 ```sh
 npm run format
 ```
+
+&nbsp;
 
 ## Contributors ✨
 

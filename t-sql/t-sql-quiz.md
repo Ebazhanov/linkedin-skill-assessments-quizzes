@@ -190,8 +190,7 @@ def' AS Result;
 
 ```
 SELECT ProductID, ProductName, SerialNumber
-FROM Products
-______ ;
+FROM Products______ ;
 ```
 
 - [x] `WHERE SerialNumer LIKE '%10_3'`
@@ -242,17 +241,28 @@ select \*from students;
   studentid firstname lastname
   1 null mark twain
 
+
+
 #### Q27. Which Query returns all student names with the highest grade?
 
 create table students( studentname varchar(50), grade int);
--[] select studentname from students where grade=max(grade);
--[] select top(1) studentname from students order by grade;
--[] select top(1) with ties studentname from students order by grade desc; -[x] select studentname,max(grade) from students order by grade desc;
+
+- [] select studentname from students where grade=max(grade);
+
+- [] select top(1) studentname from students order by grade;
+
+- [] select top(1) with ties studentname from students order by grade desc; 
+
+- [x] select studentname,max(grade) from students order by grade desc;
 
 #### Q28. What role does "inventory" play?
 
 select bookid, boooktitle, bookauthor,quantityonhand from inventory.books;
 
--[] you only want to see results from books currently in inventory
--[] it instructs the query engine to find the books table in the inventory schema -[x] it instructs the query engine to find the books table in the inventory database
--[] it instructs the query engine to join the books table to the inventory schema
+- [] you only want to see results from books currently in inventory
+
+- [] it instructs the query engine to find the books table in the inventory schema 
+
+- [x] it instructs the query engine to find the books table in the inventory database
+
+- [] it instructs the query engine to join the books table to the inventory schema
