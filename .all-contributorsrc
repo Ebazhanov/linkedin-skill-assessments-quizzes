@@ -1600,6 +1600,15 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "dionicio-gp",
+      "name": "Dionicio Diaz",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26011982?v=4",
+      "profile": "https://github.com/dionicio-gp",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,

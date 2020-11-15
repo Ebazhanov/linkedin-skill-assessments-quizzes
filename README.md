@@ -1,9 +1,7 @@
 # Linkedin-quiz-questions
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-167-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-168-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
@@ -308,12 +306,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://marcobiedermann.com"><img src="https://avatars0.githubusercontent.com/u/5244986?v=4" width="100px;" alt=""/><br /><sub><b>Marco Biedermann</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=marcobiedermann" title="Code">💻</a> <a href="#design-marcobiedermann" title="Design">🎨</a> <a href="#business-marcobiedermann" title="Business development">💼</a> <a href="#ideas-marcobiedermann" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/srinidhimurthy"><img src="https://avatars3.githubusercontent.com/u/10862228?v=4" width="100px;" alt=""/><br /><sub><b>Srinidhi Murthy</b></sub></a><br /><a href="#design-srinidhimurthy" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/Hephaest"><img src="https://avatars2.githubusercontent.com/u/37981444?v=4" width="100px;" alt=""/><br /><sub><b>Miao Cai</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Hephaest" title="Code">💻</a> <a href="#design-Hephaest" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/dionicio-gp"><img src="https://avatars3.githubusercontent.com/u/26011982?v=4" width="100px;" alt=""/><br /><sub><b>Dionicio Diaz</b></sub></a><br /><a href="#design-dionicio-gp" title="Design">🎨</a></td>
   </tr>
 </table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
