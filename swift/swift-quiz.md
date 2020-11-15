@@ -317,7 +317,7 @@ var strings = [1, 2, 3]
 #### Q29. How many times will this loop be executed?
 
 ```swift
-for i in 0..100 {
+for i in 0...100 {
 	print(i)
 }
 ```
@@ -447,5 +447,5 @@ var userLocation: String = "Home" {
 
 - a base class convenience initializer
 - either a designated or another convenience initializer
-- a designated initializer
+- a designated initializer <<<<---Correct
 - none of these answers
