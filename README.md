@@ -1,7 +1,7 @@
 # Linkedin-quiz-questions
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-169-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-170-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
@@ -315,6 +315,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/mirmpro"><img src="https://avatars0.githubusercontent.com/u/14123130?v=4" width="100px;" alt=""/><br /><sub><b>Mir Monoarul Alam</b></sub></a><br /><a href="#design-mirmpro" title="Design">🎨</a></td>
+    <td align="center"><a href="https://www.shawnohn.com"><img src="https://avatars0.githubusercontent.com/u/16888656?v=4" width="100px;" alt=""/><br /><sub><b>Shawn Ohn</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=shawnohn" title="Code">💻</a> <a href="#design-shawnohn" title="Design">🎨</a></td>
   </tr>
 </table>
 
