@@ -175,3 +175,10 @@
 - [ ] Set the maxOccurs attribute to 0
 - [ ] Set the maxOccurs attribute to undefined.
 - [x] Set the maxOccurs attribute to unbounded.
+
+#### Q16. The <xsl:with-param> element defines the value of a parameter to be passed into a template. It can be used within which elements?
+
+- [ ] <xsl:apply-templates>and<xsl:call-template>
+- [ ] <xsl:param>and<xsl:processing-instruction>
+- [ ] <xsl:template>and<xsl:transform>
+- [ ] <xsl:include>and<xsl:variable>
