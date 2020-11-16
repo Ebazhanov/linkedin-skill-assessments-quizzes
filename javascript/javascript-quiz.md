@@ -624,21 +624,21 @@ new logThis();
 - [ ] to make your code faster
 - [ ] to ensure that the call stack maintains a LIFO (Last in, First Out) structure
 
-#### Q63. Which expression evaluates to true?
+#### Q60. Which expression evaluates to true?
 
 - [ ] [3] == [3]
 - [x] 3 == '3'
 - [ ] 3 != '3'
 - [ ] 3 === '3'
 
-#### Q64. Which choice is a valid variable name?
+#### Q61. Which choice is a valid variable name?
 
 - [ ] 5thItem
 - [x] firstName
 - [ ] grand total
 - [ ] function
 
-#### Q65. Which method cancel's event default behavior?
+#### Q62. Which method cancels event default behavior?
 
 - [ ] cancel()
 - [ ] stop()
