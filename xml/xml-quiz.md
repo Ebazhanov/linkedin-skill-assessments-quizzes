@@ -182,3 +182,10 @@
 - [ ] <xsl:param>and<xsl:processing-instruction>
 - [ ] <xsl:template>and<xsl:transform>
 - [ ] <xsl:include>and<xsl:variable>
+
+### Q17. You are checking someone else's XML document for errors. You notice that the prolog does not have a closing tag. What do you do?
+
+- [ ] Remove the prolog to make sure that the XML document will be properly processed across all platforms.
+- [x] Leave it alone, because the prolog does not require a closing tag.
+- [ ] Move the prolog to an external file so thtat the XML document only has elements with closing tags.
+- [ ] Add a closing tag, as al XML elements must have a closing tag.
