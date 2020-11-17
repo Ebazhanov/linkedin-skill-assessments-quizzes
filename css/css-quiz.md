@@ -5,9 +5,9 @@
 #### Q1. In the following example, which selector has the highest specificity ranking for selecting the anchor link element?
 
 ```css
-ul li a 
-a 
-.examole a 
+ul li a
+a
+.example a
 div a
 ```
 
@@ -44,7 +44,7 @@ div a
 3) An element with a class of "nav"
 ```
 
-- [ ] 
+- [ ]
 
 ```
 They all target the same nav element.
@@ -77,16 +77,16 @@ They all target the same nav element.
 
 - [ ] By default, block elements are the same height and width as the content container between their tags; inline elements span the entire width of its container.
 - [x] By default, block elements span the entire width of its container; inline elements are the same height and width as the content contained between their tags.
-- [ ] A "<nav>" element is an example of an inline element. "<header>" is an example of a block element.  
-- [ ] A "<span>" is an example of a block element. "<div>" is an example of an inline element.
+- [ ] A `<nav>` element is an example of an inline element. `<header>` is an example of a block element.
+- [ ] A `<span>` is an example of a block element. `<div>` is an example of an inline element.
 
-#### Q7. CSS grid introduced a new lenght unit, fr, to create flexible grid tracks. Referring to the code sample below, what will the widths of the three columns be?
+#### Q7. CSS grid introduced a new length unit, fr, to create flexible grid tracks. Referring to the code sample below, what will the widths of the three columns be?
 
 ```css
 .grid {
-    display: grid;
-    width: 500px;
-    grid-template-columns: 50px 1fr 2fr;
+  display: grid;
+  width: 500px;
+  grid-template-columns: 50px 1fr 2fr;
 }
 ```
 
@@ -163,17 +163,25 @@ background-position: 0px 0px;
 #### Q12. In the following example, according to cascading and specificity rules, what color will the link be?
 
 ```css
-.example {color: yellow;}
-ul li a {color:  blue;}
-ul a {color: green;}
-a {color: red;}
+.example {
+  color: yellow;
+}
+ul li a {
+  color: blue;
+}
+ul a {
+  color: green;
+}
+a {
+  color: red;
+}
 ```
 
 ```html
 <ul>
-    <li><a href="#" class="example">link</a></li>
-    <li>list item</li>
-    <li>list item</li>
+  <li><a href="#" class="example">link</a></li>
+  <li>list item</li>
+  <li>list item</li>
 </ul>
 ```
 
@@ -182,7 +190,7 @@ a {color: red;}
 - [ ] blue
 - [ ] red
 
-#### Q13. When elements overlap, they are ordered on the z-axis (i.e., which element covers another). The z-index property can be used to specify the z-order of overlapping elements. Which set of statements about the z-index property are ture?
+#### Q13. When elements overlap, they are ordered on the z-axis (i.e., which element covers another). The z-index property can be used to specify the z-order of overlapping elements. Which set of statements about the z-index property are true?
 
 - [x] Larger z-index values appear on top of elements with a lower z-index value. Negative and positive numbers can be used. z-index can only be used on positioned elements.
 - [ ] Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index must also be used with positioned elements.
@@ -205,18 +213,18 @@ line-height: 2
 
 ```html
 <section>
-    <p>paragraph one</p>
+  <p>paragraph one</p>
 </section>
 
 <p>paragraph two</p>
 ```
 
 ```css
-section p{
-    color: red;
+section p {
+  color: red;
 }
 section + p {
-    color: blue;
+  color: blue;
 }
 ```
 
@@ -238,7 +246,7 @@ section + p {
 - [ ]
 
 ```
-1. External; CSS is written in a separate file and is linked within the <header> element of the HTIML  file . 
+1. External; CSS is written in a separate file and is linked within the <header> element of the HTML file.
 2. Inline; CSS is added to the HTML tag.
 3. Internal; CSS is included within the <header> element of the HTML  file.
 ```
@@ -246,7 +254,7 @@ section + p {
 - [x]
 
 ```
-1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file . 
+1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file.
 2. Internal; CSS is included within the <header> element of the HTML file.
 3. Inline; CSS is added to the HTML tag.
 ```
@@ -263,17 +271,17 @@ section + p {
 
 - [ ] CSS can be applied to SVGs but JavaScript cannot be.
 - [ ] SVGs work best for creating 3D graphics.
-- [x] SVGs can be created as a vector graphic or coded using SVG specific elements such as &#x3C;svg&#x3E;, &#x3C;line&#x3E;, and &#x3C;ellipse&#x3E;.  
+- [x] SVGs can be created as a vector graphic or coded using SVG specific elements such as &#x3C;svg&#x3E;, &#x3C;line&#x3E;, and &#x3C;ellipse&#x3E;.
 - [ ] SVGs are a HAML-based markup language for creating vector graphics.
 
 #### Q18. In the example below, when will the color pink be applied to the anchor element?
 
 ```css
 a:active {
-    color: pink;
+  color: pink;
 }
 ```
-    
+
 - [ ] The color of the link will display as pink after its been clicked or if the mouse is hovering over the link.
 - [ ] The color of the link will display as pink on mouse hover.
 - [x] The color of the link will display as pink while the link is being clicked but before the mouse click is released.
@@ -293,7 +301,7 @@ a:active {
 - [ ] the parent element
 - [ ] the wrapper element
 
-#### Q21. By default, a background image will repeat ___
+#### Q21. By default, a background image will repeat \_\_\_
 
 - [ ] only if the background-repeat property is set to repeat
 - [x] indefinitely, vertically, and horizontally
@@ -318,11 +326,12 @@ a:active {
 
 ```css
 p {
-    color: #000000;
+  color: #000000;
 }
 ```
 
 - [ ]
+
 ```
 "p" is the selector
 "#000000" is the property
@@ -330,6 +339,7 @@ p {
 ```
 
 - [x]
+
 ```
 "p" is the selector
 "color" is the property
@@ -337,12 +347,15 @@ p {
 ```
 
 - [ ]
-```"color" is the selector
+
+```
+"color" is the selector
 "#000000" is the property
 "#p" is the value
 ```
 
 - [ ]
+
 ```
 "color" is the selector
 "p" is the property
@@ -369,15 +382,15 @@ p {
 @media (min-width: 1024px), screen and (orientation: landscape) { … }
 ```
 
-- [ ] The rule will apply to a device that has either a width of 1024px or wider, or is a screen device in landscape mode.
+- [x] The rule will apply to a device that has either a width of 1024px or wider, or is a screen device in landscape mode.
 - [ ] The rule will apply to a device that has a width of 1024px or narrower and is a screen device in landscape mode.
-- [x] The rule will apply to a device that has a width of 1024px or wider and is a screen device in landscape mode.
+- [ ] The rule will apply to a device that has a width of 1024px or wider and is a screen device in landscape mode.
 - [ ] The rule will apply to a device that has a width of 1024px or narrower, or is a screen device in landscape mode.
- 
+
 #### Q28. CSS transform properties are used to change the shape and position of the selected objects. The transform-origin property specifies the location of the element's transformation origin. By default, what is the location of the origin?
 
-- [ ] the top left corner of the element
-- [x] the center of the element
+- [x] the top left corner of the element
+- [ ] the center of the element
 - [ ] the top right corner of the element
 - [ ] the bottom left of the element
 
@@ -409,52 +422,53 @@ p {
 
 #### Q32. Which type of declaration will take precedence?
 
-- [x] any declarations in user-agent stylesheets
-- [ ] important declarations in user stylesheets
+- [ ] any declarations in user-agent stylesheets
+- [x] important declarations in user stylesheets
 - [ ] normal declarations in author stylesheets
 - [ ] important declarations in author stylesheets
 
-#### Q33. The flex-direction property is used to specify the direction that flex items are displayed. What are the values used to specify the direction of the items in the folowing examples?
+#### Q33. The flex-direction property is used to specify the direction that flex items are displayed. What are the values used to specify the direction of the items in the following examples?
 
 - [x] Example 1: flex-direction: row;
-Example 2; flex-direction: row-reverse;
-Example 3: flex-direction: column;
-Example 4: flex-direction: column-reverse;
+      Example 2; flex-direction: row-reverse;
+      Example 3: flex-direction: column;
+      Example 4: flex-direction: column-reverse;
 - [ ] Example 1: flex-direction: row-reverse;
-Example 2; flex-direction: row;
-Example 3: flex-direction: column-reverse;
-Example 4: flex-direction: column;
+      Example 2; flex-direction: row;
+      Example 3: flex-direction: column-reverse;
+      Example 4: flex-direction: column;
 - [ ] Example 1: flex-direction: row;
-Example 2; flex-direction: row-reverse;
-Example 3: flex-direction: column;
-Example 4: flex-direction: reverse-column;
+      Example 2; flex-direction: row-reverse;
+      Example 3: flex-direction: column;
+      Example 4: flex-direction: reverse-column;
 - [ ] Example 1: flex-direction: column;
-Example 2; flex-direction: column-reverse;
-Example 3: flex-direction: row;
-Example 4: flex-direction: row-reverse;
+      Example 2; flex-direction: column-reverse;
+      Example 3: flex-direction: row;
+      Example 4: flex-direction: row-reverse;
 
 #### Q34. There are two sibling combinators that can be used to select elements contained within the same parent element; the general sibling combinator (~) and the adjacent sibling combinator (+). Referring to example below, which elements will the styles be applied to?
 
 ```css
 h2 ~ p {
-    color: blue;
+  color: blue;
 }
 h2 + p {
-    background: beige;
+  background: beige;
 }
 ```
+
 ```html
 <section>
-    <p>paragraph 1</p>
-    <h2>Heading</h2>
-    <p>paragraph 2</p>
-    <p>paragraph 3</p>
+  <p>paragraph 1</p>
+  <h2>Heading</h2>
+  <p>paragraph 2</p>
+  <p>paragraph 3</p>
 </section>
 ```
 
 - [ ] Paragraphs 2 and 3 will be blue. The h2 and paragraph 2 will have a beige background.
 - [x] Paragraphs 2, and 3 will be blue, and paragraph 2 will have a beige background.
-- [ ] Paragraphs 2 and 3 will be blue. Paragraph 2 will have a beige background.
+- [x] Paragraphs 2 and 3 will be blue. Paragraph 2 will have a beige background.
 - [ ] Paragraph 2 will be blue. Paragraphs 2 and 3 will have a beige background.
 
 #### Q35. When using flexbox, the "justify-content" property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
@@ -493,60 +507,59 @@ h2 + p {
 - [ ] Icon fonts can be inserted only using JavaScript.
 - [ ] Icon fonts are inserted as inline images.
 - [ ] Icon fonts require browser extensions.
-- [ ] Icon fonts can be styled with typography-related properties such as font-size and color.
+- [x] Icon fonts can be styled with typography-related properties such as font-size and color.
 
 ### Q40. The values for the font-weight property can be keywords or numbers. For each numbered value below, what is the associated keyword?
 
-`font-weight: 400;
-font-weight: 700;`
+`font-weight: 400; font-weight: 700;`
 
 - [ ] bold; normal
-- [ ] normal; bold
+- [x] normal; bold
 - [ ] light; normal
 - [ ] normal; bold
 
 ### Q41. If the width of the container is 500 pixels, what would the width of the three columns be in this layout?
 
-`.grid {
-   display: grid;
-   grid-template-columns: 50px 1fr 2fr;
-  }`
+`.grid { display: grid; grid-template-columns: 50px 1fr 2fr; }`
 
-- [ ] 50px, 150px, 300px
+- [x] 50px, 150px, 300px
 - [ ] 50px, 200px, 300px
 - [ ] 50px, 100px, 200px
 - [ ] 50px, 50px, 100px
 
 ### Q42. Using the :nth-child pseudo class, what would be the most efficient way to style every third item in a list, no matter how many items are present, starting with item 2?
 
-- [ ] 
+- [ ]
 
 ```css
-li:nth-child(3+2n) {
-    margin: 0 5 px;
+li:nth-child(3 + 2n) {
+  margin: 0 5 px;
 }
- ```
+```
+
+- [x]
+
+```css
+li:nth-child(3n + 2) {
+  margin: 0 5 px;
+}
+```
 
 - [ ]
 
 ```css
-li:nth-child(3n+2) {
-    margin: 0 5 px;
+li:nth-child(2),
+li:nth-child(5),
+li:nth-child(8) {
+  margin: 0 5 px;
 }
 ```
 
-- [ ] 
+- [ ]
 
 ```css
-li:nth-child(2), li:nth-child(5), li:nth-child(8){
-    margin: 0 5 px;
-}
- ```
-
-- [ ] 
-```css
-li:nth-child(2n+3) {
-    margin: 0 5 px;
+li:nth-child(2n + 3) {
+  margin: 0 5 px;
 }
 ```
 
@@ -554,10 +567,10 @@ li:nth-child(2n+3) {
 
 - [ ] a[href="#"] {...}
 - [ ] a[href~="#"]
-- [x] a[href^="#"]
-- [ ] a[href="#"]
+- [ ] a[href^="#"]
+- [x] a[href="#"]
 
-### Q44. What is not true about class?
+### Q44. What is not true about class selectors?
 
 - [x] Only one class value can be assigned to an element.
 - [ ] An element can have multiple class value.
@@ -570,3 +583,67 @@ li:nth-child(2n+3) {
 - [x] Margin adds space around an element; padding adds apace inside of an element.
 - [ ] Margin adds a line around an element, padding adds space inside of an element.
 - [ ] Margin adds space inside of an element, padding adds space around an element.
+
+### Q46. What is not a valid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
+
+- [x] padding: 10px 10px 0px 0px;
+- [ ] padding: 10px 0px;
+- [ ] padding: 10px 0;
+- [ ] padding: 10px 0px 10px 0px;
+
+### Q47. Is there an error in this code? If so, find the best description of the problem
+
+```css
+@font0face {
+  font-family: 'Avenir', sans-serif;
+  src: url('avenir.woff2) format('woff2'),
+    src: url('avenir.woff) format('woff');
+}
+```
+
+- [x] The font file formats are not supported in mordern browsers https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/src
+- [ ] The src attribute requires a comma between the URL and format values.
+- [ ] There are no erros in the example.
+- [ ] The san-serif inclusion is problematic.
+
+### Q48. Which style places an element at a fixed location within its container?
+
+- [x] position: absolute;
+- [ ] display: flex;
+- [ ] display: block;
+- [ ] float: left;
+
+### Q49. The calc() CSS function is often used for calculating relative values. In the example below, whatis the specified margin-left value?
+
+```css
+.example{
+    margin-left: calc(5%+5px);
+```
+
+- [x] The left margin value is equal to 5% of its parents element's width plus 5px
+- [ ] The left margin value is equal to 5% of the viewport width plus 5px
+- [ ] The left margin value is equal to 5% of the closest positioned element's width plus 5px
+- [ ] The left margin value is equal to 5% of the selected element's width (.example) plus 5px
+
+### Q50. What is the CSS selector for an <a> tag containing the title attribute?
+
+- [x] a[title]
+
+- [ ] a > title
+
+- [ ] a=title
+
+- [ ] a.title
+
+### Q51. Which code would you use to absolutely position an element of the logo class?Which code would you use to absolutely position an element of the null class?
+
+- [ ] `.logo { position: absolute; left: 100px; top: 150px; }`
+
+- [ ]
+  `.logo { position: absolute; margin-left: 100px; margin-top: 150px; }`
+
+- [ ]
+  `.logo { position: absolute; padding-left: 100px; padding-top: 150px; }`
+
+- [ ]
+  `.logo { position: absolute; left-padding: 100px; top-padding: 150px; }`

@@ -169,7 +169,7 @@
 - [ ] `client-only`
 - [ ] `restricted`
 - [x] `private`
-[reference](https://www.digitalocean.com/community/tutorials/web-caching-basics-terminology-http-headers-and-caching-strategies)
+      [reference](https://www.digitalocean.com/community/tutorials/web-caching-basics-terminology-http-headers-and-caching-strategies)
 
 #### Q25. Which OAuth grant type can support a refresh token?
 
@@ -233,3 +233,11 @@
 - [ ] `to describe subresources related to the current one`
 - [ ] `to link two resources together`
 - [ ] `to describe a resource and its purpose`
+
+#### Q34. When building SDKs, which languages should you support?
+
+- [ ] Java, Javascript, and .NET
+- [ ] and you can support
+- [ ] PHP, Python, and Go
+- [ ] the languages that your target users use
+

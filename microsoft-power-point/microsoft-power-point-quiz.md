@@ -77,7 +77,7 @@
     C. Blur
     D. Angle
     E. Distance
-    
+
     = C,D,E
 
 #### Q12. You want your presentation to play continuously on screen, What option must you set?
@@ -94,7 +94,7 @@
     There are no options for print output.
     You can compress only one image at a time.
 
-#### Q14.  You have a Word document you would like to import as an outline into a PowerPoint presentation. How should you format the text in your Word document that you want to be the slide content?
+#### Q14. You have a Word document you would like to import as an outline into a PowerPoint presentation. How should you format the text in your Word document that you want to be the slide content?
 
     Heading Style 2
     Subtitle
@@ -107,43 +107,43 @@
     by author
     = by date
     by urgency
-    
+
 #### Q16. Which Arrow Options choice will hide the mouse cursor when presenting, except when the cursor is moved?
 
     Automatic
     = Hidden
     none of these answers
     Visible
-    
-#### Q17. Which chart type is best suited for displaying annual financial data for a 10-year period? 
+
+#### Q17. Which chart type is best suited for displaying annual financial data for a 10-year period?
 
     donut chart
     = line or area chart
     area chart
     pie chart
 
-
 #### Q16. Which Arrow Options choice will hide the mouse cursor when presenting, except when the cursor is moved?
 
-    Hidden 
+    Hidden
 
-#### Q17. Which chart type is best suited for displaying annual financial data for a 10-year period? 
+#### Q17. Which chart type is best suited for displaying annual financial data for a 10-year period?
 
     line or area chart
 
+---
 
------------------------------
-Answers needed
------------------------------
+## Answers needed
 
+---
 
------------------------------
 #### Q18. If you want to create an organizational chart, which SmartArt category works best?
 
     Pyramid
     Relationship
-    Hierarchy
+    = Hierarchy
     Matrix
+
+![image](https://github.com/SuperGuy10/in-quiz-questions/blob/master/microsoft-power-point/Hierarchy.png)
 
 #### Q19. When printing multiple handouts, which option will group multipage documents together and make them easier to distribute?
 
@@ -151,7 +151,6 @@ Answers needed
     Uncollated
     Print One-sided
     Collated
-
 
 #### Q20. How can you adjust which data in a table is used when working on a chart?
 
