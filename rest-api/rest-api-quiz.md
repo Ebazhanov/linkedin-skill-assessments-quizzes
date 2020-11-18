@@ -241,3 +241,31 @@
 - [ ] PHP, Python, and Go
 - [ ] the languages that your target users use
 
+#### Q35. Which property would you use to include references to other resources in a JSON document?
+
+- [ ] resources
+- [ ] _embedded
+- [ ] subresources
+- [ ] _links
+
+#### Q36. What is OAuth?
+
+- [ ] an authorization framework for granted delegated access
+- [ ] an approach to single sign-on for APIs
+- [ ] a method for API authentication
+- [ ] HTTP Basic Authentication 2.0
+
+#### Q37. What should your API documentation describe?
+
+- [ ] JSON
+- [ ] HTTP
+- [ ] common use cases
+- [ ] your tech stack
+
+#### Q34. What is the purpose of an OAuth refresh token?
+
+- [ ] to share user profile information
+- [ ] to update an API configuration
+- [ ] to keep a web session active
+- [ ] to retrive an access token
+
