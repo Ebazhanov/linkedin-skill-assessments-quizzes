@@ -254,7 +254,7 @@ Q35. You are configuring a release pipeline in Azure DevOps. You need to read se
 - [ ] all of these answers <<<<----Correct
 - [ ] with an Azure CLI script in a Bash task
 
-Q36. You need to update the data within an existing database in Azure AQL with your changes. You want to test this process from your development workstation before incorporating the update into your CI/CD process. Which command will you run to update the schema on the target database?
+Q36. You need to update the data within an existing database in Azure SQL with your changes. You want to test this process from your development workstation before incorporating the update into your CI/CD process. Which command will you run to update the schema on the target database?
 
 - [ ] SqlPackage.exe /TargetFile:" myapp.bacpac " /Action:**Export** <<<<----Correct
       /SourceServerName:"kinetecosql.database.windows.net"
