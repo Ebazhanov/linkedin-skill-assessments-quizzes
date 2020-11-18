@@ -440,19 +440,19 @@
 
 - Switch to Enhanced Ecommerce.
 - Use a search- and- replace filter.
-- Create a referral exclusion.
+- Create a referral exclusion.--> correct
 - Add gtag.js to Paypal tags.
 
 ### Q64. What do you use to compare three dimensions?
 
 - performance table
-- custom reports
+- custom reports--> correct
 - Explorer panel
 - relational table
 
 ### Q65. Is it possible to measure how far someone scrolls on a page using Google Analytics? If so, how?
 
 - yes, with a calculated metric
-- yes, by viewing in- page analytics
+- yes, by viewing in- page analytics --> correct
 - yes, with event tracking
 - no, not possible
