@@ -1,7 +1,7 @@
 # Linkedin-quiz-questions
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-172-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-173-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
@@ -318,6 +318,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.shawnohn.com"><img src="https://avatars0.githubusercontent.com/u/16888656?v=4" width="100px;" alt=""/><br /><sub><b>Shawn Ohn</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=shawnohn" title="Code">💻</a> <a href="#design-shawnohn" title="Design">🎨</a></td>
     <td align="center"><a href="https://amanbolat.com/"><img src="https://avatars3.githubusercontent.com/u/15110242?v=4" width="100px;" alt=""/><br /><sub><b>Amanbolat Balabekov</b></sub></a><br /><a href="#design-amanbolat" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=amanbolat" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/black-mamba-code"><img src="https://avatars0.githubusercontent.com/u/74553558?v=4" width="100px;" alt=""/><br /><sub><b>black-mamba-code</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=black-mamba-code" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Jian-forks"><img src="https://avatars1.githubusercontent.com/u/59821548?v=4" width="100px;" alt=""/><br /><sub><b>Jian-forks</b></sub></a><br /><a href="#design-Jian-forks" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Jian-forks" title="Code">💻</a></td>
   </tr>
 </table>
 
