@@ -273,9 +273,8 @@ else:
 
 - [ ] `my_game = class.Game()`
 - [ ] `my_game = class(Game)`
-- [ ] `my_game = Game()`
-- [ ] `my_game = Game.create()`
 - [x] `my_game = Game()`
+- [ ] `my_game = Game.create()`
 
 #### Q24. What does the built-in map() function do?
 
