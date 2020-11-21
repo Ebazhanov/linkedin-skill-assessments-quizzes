@@ -1505,7 +1505,8 @@
       "contributions": [
         "design",
         "ideas",
-        "business"
+        "business",
+        "financial"
       ]
     },
     {
@@ -1587,6 +1588,44 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/10862228?v=4",
       "profile": "https://github.com/srinidhimurthy",
       "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "Hephaest",
+      "name": "Miao Cai",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/37981444?v=4",
+      "profile": "https://github.com/Hephaest",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "dionicio-gp",
+      "name": "Dionicio Diaz",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26011982?v=4",
+      "profile": "https://github.com/dionicio-gp",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "mirmpro",
+      "name": "Mir Monoarul Alam",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/14123130?v=4",
+      "profile": "https://github.com/mirmpro",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "shawnohn",
+      "name": "Shawn Ohn",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/16888656?v=4",
+      "profile": "https://www.shawnohn.com",
+      "contributions": [
+        "code",
         "design"
       ]
     }
