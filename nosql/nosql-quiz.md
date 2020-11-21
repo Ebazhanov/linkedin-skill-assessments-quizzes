@@ -121,7 +121,7 @@ Q19. You want to test HBase on your laptop using the fewest number of steps. Wha
 Q20. You need to design security for DynamoDB to allow users read-obly access to certain items and attriutes in a table. What do you do?
 
     - Use IAM roles.
-    - Use IAM plicy confditions. <<<<----Correct
+    - Use IAM plicy conditions. <<<<----Correct
     - Use a VPC endpoint.
     - Use IAM plicies.
 
