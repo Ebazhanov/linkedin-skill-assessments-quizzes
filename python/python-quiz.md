@@ -749,3 +749,53 @@ def __init__(self):
 - [x] `A class method can modify the state of the class, but it cannot directly modify the state of an instance that inherits from that class.`
 - [ ] `A class method is a regular function that belongs to a class, but it must return None`
 - [ ] `A class method is similar to a regular function, but a class method does not take any arguments.`
+
+### 65 Which of the following is TRUE About how numeric data would be organised in a banary Search tree ? 
+
+- [X] `For any given Node in a binary Search Tree, the child node to  the left is less than the value of the given node and the child node to its right is greater than the given node.` (Not Sure)
+- [ ] `Binary Search Tree cannot be used to organize and search through numeric data, given the complication that arise with very deep trees`
+- [ ] `The top node of the binary search tree would be an arbitray number. All the nodes to the left of the top node need to be less than the top node's number, but they don't need to ordered in any particular way`
+- [ ] `The smallest numeric value would go in the top most node. The next highest number would go in its left child node, the the next highest number after that would go in its right child node. This pattern would continue until all numeric values were in their own node`
+
+
+###66 Why would you use a decorator?
+- [ ] `A decorator is similar to a class and should be used if you are doing functional programming instead of object oriented programming.`
+- [ ] `A decoratore is a visual indicator to someone reading your code that a portion of your code is critical and should not be changed`
+- [X] `You use the decorator to alter the functionality of a function without the without having to modify the functions code`
+- [ ] `An import statement is preceded by a decorator, pyhton knows to import the most recent version of whatever package or library is being imported`
+
+
+
+### 67 When would you use a for loop ? 
+
+- [ ] `Only in some situations, as loops are used ony for certaing type of programming `
+- [x] `When you need to check every element in an iterable of known length`
+- [ ] `When you want to minimize the use of strings in your code `
+- [ ] `When you want to run code in one file for a function in another file `
+
+
+###Q5. What are attributes? The answer Provided is wrong in ###5 the correct is as following
+- [ ]  Attributes are long-form version of an "if/else" statement, used when testing for equality between objects.
+- [X]  Attributes are a way to hold data or describe a state for a class or an instance of a class.
+- [ ]  Attributes are strings that describe characteristics of a class.
+- [ ] Function arguments are called "attributes" in the context of class methods and instance methods.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
