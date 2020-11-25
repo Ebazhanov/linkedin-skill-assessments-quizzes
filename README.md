@@ -1,7 +1,7 @@
 # Linkedin-quiz-questions
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-177-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-178-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
@@ -326,6 +326,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/yairg98"><img src="https://avatars1.githubusercontent.com/u/57117865?v=4" width="100px;" alt=""/><br /><sub><b>yairg98</b></sub></a><br /><a href="#design-yairg98" title="Design">🎨</a></td>
     <td align="center"><a href="http://jaygajjar.tk/"><img src="https://avatars2.githubusercontent.com/u/57590688?v=4" width="100px;" alt=""/><br /><sub><b>Jay Gajjar</b></sub></a><br /><a href="#design-j-j-gajjar" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/coolerbooler"><img src="https://avatars1.githubusercontent.com/u/74932465?v=4" width="100px;" alt=""/><br /><sub><b>coolerbooler</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=coolerbooler" title="Code">💻</a></td>
   </tr>
 </table>
 
