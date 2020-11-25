@@ -262,7 +262,7 @@
 #### Q38. You'd like to modify an existing index. What is the best way to do this?
 
 - [ ] Use the reIndex() command to modify the index.
-- [ ] Delete the original index and create a new index.
+- [x] Delete the original index and create a new index.
 - [ ] Call the createIndex() command with the update option.
 - [ ] Use the updateIndex() command.
 
@@ -284,7 +284,7 @@
 
 - [ ] db.customers.add({name: "Bob"})
 - [ ] db.customers.save({name: "Bob"})
-- [ ] db.customers.create({name: "Bob"})
+- [x] db.customers.create({name: "Bob"})
 - [ ] db.customers.new({name: "Bob"})
 
 #### Q42. Which field is required of all MongoDB documents?
