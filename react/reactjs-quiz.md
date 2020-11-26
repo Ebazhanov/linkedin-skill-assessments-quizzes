@@ -2,7 +2,7 @@
 
 #### Q1. If you want to import just the Component from the React library, what syntax do you use?
 
-- `import React.Component from 'react'` 
+- `import React.Component from 'react'`
 - `import [ Component ] from 'react'`
 - `import Component from 'react'`
 - `import { Component } from 'react'` <<<<<--CORRECT
@@ -17,11 +17,11 @@
 #### Q3. How do you fix the syntax error that results from running this code?
 
 ```javascript
-const person =(firstName, lastName) => 
+const person =(firstName, lastName) =>
        {
             first: firstName,
-            last: lastName        
-        }    
+            last: lastName
+        }
 console.log(person("Jill", "Wolson"))
 ```
 
@@ -35,17 +35,17 @@ console.log(person("Jill", "Wolson"))
 `import React, {useState} from 'react';`
 
 - React Hooks <<<<<--CORRECT
-- stateful components 
-- math 
+- stateful components
+- math
 - class components
 
 #### Q5. Using object literal enhancement, you can put values back into an object. When you log person to the console, what is the output?
 
 ```javascript
-const name = "Rachel";
+const name = 'Rachel';
 const age = 31;
-const person = {name, age }
-console.log(person)
+const person = { name, age };
+console.log(person);
 ```
 
 - `{{name: "Rachel", age: 31}}`
@@ -63,8 +63,8 @@ console.log(person)
 #### Q7. To get the first item from the array ("cooking") using array destructuring, how do you adjust this line?
 
 ```javascript
-const topics = ["cooking", "art", "history"]
-``` 
+const topics = ['cooking', 'art', 'history'];
+```
 
 - `const first = ["cooking", "art", "history"]`
 - `const [] = ["cooking", "art", "history"]`
@@ -74,15 +74,15 @@ const topics = ["cooking", "art", "history"]
 #### Q8. How do you handle passing through the component tree without having to pass props down manually at every level?
 
 - React Send
-- React Pinpoint 
+- React Pinpoint
 - React Router
 - React Context <<<<<--CORRECT
 
 #### Q9. What should the console read when the following code is run?
 
 ```javascript
-const [, , animal] = ["Horse", "Mouse", "Cat"]
-console.log(animal)
+const [, , animal] = ['Horse', 'Mouse', 'Cat'];
+console.log(animal);
 ```
 
 - Horse
@@ -101,16 +101,16 @@ console.log(animal)
 
 - when you want to replace Redux
 - when you need to manage more complex state in an app <<<<<--CORRECT
-- when you want to improve performance 
+- when you want to improve performance
 - when you want to break your production app
 
 #### 12. Which props from the props object is available to the component with the following syntax?
 
 ```javascript
-<Message {...props}/>
+<Message {...props} />
 ```
 
-- any that have not changed 
+- any that have not changed
 - all of them <<<<<--CORRECT
 - child props
 - any that have changed
@@ -133,10 +133,7 @@ function Dish() {
   return <h1> Mac and Cheese</h1>;
 }
 
-ReactDOM.render(
-    <Dish />,
-    document.getElementById('root')
-)
+ReactDOM.render(<Dish />, document.getElementById('root'));
 ```
 
 - `div`
@@ -147,14 +144,10 @@ ReactDOM.render(
 #### 15. What does this React element look like given the following function?
 
 ```javascript
-React.createElement(
-    "h1",
-    null,
-    "What's happening?"
-);
+React.createElement('h1', null, "What's happening?");
 ```
 
-- `<h1 props={null}>What's happenning?</h1>`
+- `<h1 props={null}>What's happening?</h1>`
 - `<h1>What's happening?</h1>` <<<<<--CORRECT
 - `<h1 id="component">What's happening?</h1>`
 - `<h1 id="element">What's happening?</h1>`
@@ -165,11 +158,11 @@ React.createElement(
 function MyComponent() {
   return (
     <Suspense>
-        <div>
-            <Message />
-        </div>
+      <div>
+        <Message />
+      </div>
     </Suspense>
-    );   
+  );
 }
 ```
 
@@ -181,8 +174,8 @@ function MyComponent() {
 #### 17. What do you call the message wrapped in curly braces below?
 
 ```javascript
-let message = "Hi there";
-const element = <p>{message}</p>
+let message = 'Hi there';
+const element = <p>{message}</p>;
 ```
 
 - a JS function
@@ -200,11 +193,11 @@ const element = <p>{message}</p>
 #### 19. When do you use useLayoutEffect?
 
 - to optimize for all devices
-- to complete the update 
+- to complete the update
 - to change the layout of the screen
 - when you need the browser to paint before the effect runs <<<<<--CORRECT
 
-#### 20. What is the difference between the click behaviors of these two buttons (assuming that this.handleClick is binded correctly)?
+#### 20. What is the difference between the click behaviors of these two buttons (assuming that this.handleClick is bound correctly)?
 
 ```javascript
 A. <button onClick="{this.handleClick}>Click Me</button>"
@@ -220,29 +213,25 @@ B. <button onClick="{event => this.handleClick(event)}}>Click Me</button>"
 
 ```javascript
 function Dish(props) {
-   return <h1>{props.name} {props.cookingTime}</h1>
+  return (
+    <h1>
+      {props.name} {props.cookingTime}
+    </h1>
+  );
 }
 ```
 
-- `function Dish([name, cookingTime]) {
-    return <h1>{name} {cookingTime}</h1>;
-}`
-- `function Dish({name, cookingTime}) {
-    return <h1>{name} {cookingTime}</h1>; 
-}` <<<<<--CORRECT
+- `function Dish([name, cookingTime]) { return <h1>{name} {cookingTime}</h1>; }`
+- `function Dish({name, cookingTime}) { return <h1>{name} {cookingTime}</h1>; }` <<<<<--CORRECT
 
-- `function Dish(props) {
-    return <h1>{name} {cookingTime}</h1>;
-}`
-- `function Dish(...props) {
-    return <h1>{name} {cookingTime}</h1>;
-}`
+- `function Dish(props) { return <h1>{name} {cookingTime}</h1>; }`
+- `function Dish(...props) { return <h1>{name} {cookingTime}</h1>; }`
 
 #### 22. When might you use React.PureComponent?
 
 - when you do not want your component to have props
 - when you have sibling components that need to be compared
-- when you want to implement shouldComponentUpdate() by default to not update unnecessarily <<<<<--CORRECT
+- when you want a default implementation of shouldComponentUpdate() <<<<<--CORRECT
 - when you do not want your component to have state
 
 #### 23. Why is it important to avoid copying the values of props into a component's state where possible?
@@ -282,7 +271,7 @@ function Dish(props) {
 
 #### 28. A representation of a user interface that is kept in memory and is synced with the "real" DOM is called what?
 
-- virtual DOM <<<<<--CORRECT 
+- virtual DOM <<<<<--CORRECT
 - DOM
 - virtual elements
 - shadow DOM
@@ -291,7 +280,7 @@ function Dish(props) {
 
 ```javascript
 const Heading = () => {
-    <h1>Hello!</h1>
+  <h1>Hello!</h1>;
 };
 ```
 
@@ -317,7 +306,7 @@ const Heading = () => {
 #### Q32. In which lifecycle method do you make requests for data in a class component?
 
 - constructor
-- componentDidMount <<<<<--CORRECT 
+- componentDidMount <<<<<--CORRECT
 - componentWillReceiveProps
 - componentWillMount
 
@@ -328,7 +317,7 @@ const Heading = () => {
 - with webpack
 - with code splitting
 
-#### Q34. All React components must act like ______ with respect to their props.
+#### Q34. All React components must act like **\_\_** with respect to their props.
 
 - monads
 - pure functions <<<<<--CORRECT
@@ -337,11 +326,10 @@ const Heading = () => {
 
 #### Q35. Why might you use a ref?
 
-- to directly acces the DOM node <<<<<--CORRECT
+- to directly access the DOM node <<<<<--CORRECT
 - to refer to another JS file
 - to call a function
 - to bind the function
-
 
 #### Q36. What is `[e.target.id]` called in the following code snippet?
 
@@ -378,7 +366,6 @@ class Clock extends React.Component {
 - the number of times you want to call the function
 - a string describing what the function should do
 
-
 #### Q39. Why is it a good idea to pass a function to setState instead of an object?
 
 - It is more functional than an object
@@ -388,36 +375,81 @@ class Clock extends React.Component {
 
 #### Q40. What package contains the render() function that renders a React element tree to the DOM?
 
-- `React` 
-- `ReactDOM`  <<<<<--CORRECT
+- `React`
+- `ReactDOM` <<<<<--CORRECT
 - `Render`
 - `DOM`
 
 #### Q41. How do you set a default value for an uncontrolled form field?
 
 - Use the `value` property
-- Use the `defaultValue` property  <<<<<--CORRECT
+- Use the `defaultValue` property <<<<<--CORRECT
 - Use the `default` property
 - It assigns one automatically
 
 #### Q42. What do you need to change about this code to get it to run?
+
 ```js
 class clock extends React.Component {
-	render() {
-		return <h1>Look at the time: {this.props.time}</h1>;
-	}
+  render() {
+    return <h1>Look at the time: {this.props.time}</h1>;
+  }
 }
 ```
 
 - Add quotes around the return value
 - Remove `this`
 - Remove the render method
-- Capitalize `clock`  <<<<<--CORRECT (In JSX, lower-case tag names are considered to be HTML tags. Read [this article](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components))
+- Capitalize `clock` <<<<<--CORRECT (In JSX, lower-case tag names are considered to be HTML tags. Read [this article](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components))
 
 #### Q43. Which Hook could be used to update the document's title?
 
-- `useEffect(function updateTitle() { document.title = name + ' ' + lastname; });`  <<<<<--CORRECT
+- `useEffect(function updateTitle() { document.title = name + ' ' + lastname; });` <<<<<--CORRECT
 - `useEffect(() => { title = name + ' ' + lastname; });`
 - `useEffect(function updateTitle() { name + ' ' + lastname; });`
 - `useEffect(function updateTitle() { title = name + ' ' + lastname; });`
 
+#### Q44. What can you use to wrap Component imports in order to load them lazily?
+
+- `React.fallback`
+- `React.split`
+- `React.lazy` <<<<<--CORRECT
+- `React.memo`
+
+#### Q45. How do you invoke setDone only when component mounts, using hooks?
+
+```javascript
+function MyComponent(props) {
+  const [done, setDone] = useState(false);
+
+  return <h1>Done: {done}</h1>;
+}
+```
+
+- `useEffect(() => { setDone(true); });`
+- `useEffect(() => { setDone(true); }, []);`
+- `useEffect(() => { setDone(true); }, [setDone]);` <<<<<--CORRECT
+- `useEffect(() => { setDone(true); }, [done, setDone]);`
+
+#### Q46.
+
+What value of button will allow you to pass the name of the person to be hugged?
+
+```javascript
+class Huggable extends React.Component{
+	hug(id){
+		console.log("hugging " + id);
+	}
+
+	render() {
+		let name = "kitteh";
+		let button = // Missing Code
+		return button;
+	}
+}
+```
+
+- `<button onClick={(name) => this.hug(name)>Hug Button</button>`<<<<<--CORRECT
+- `<button onClick={this.hug(e, name)}>Hug Button</button>`
+- `<button onClick={(e) => hug(e,name)}>Hug Button</button>` 
+- `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>`

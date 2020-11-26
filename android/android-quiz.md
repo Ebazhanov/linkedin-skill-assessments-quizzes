@@ -1,6 +1,5 @@
 #### Q1. To add features, components, and permissions to your Android app, which file needs to be edited?
 
-
 - [x] AndroidManifest.xml
 - [ ] Components.xml
 - [ ] AppManifest.xml
@@ -42,15 +41,14 @@
       RecyclerView.ViewHolder
       LinearLayoutManager
 ```
- 
 
 ```
       RecycleView
-✔️    RecyclerView.Adapter<VH extends ViewHolder>
+x    RecyclerView.Adapter<VH extends ViewHolder>
       RecyclerView.ViewHolder
       LinearLayoutManager
 ```
-      
+
 #### Q6. The Android system kills process when it needs to free up memory. The likelihood of the system killing a given process depends on the state of the process and the activity at the time. With combination of process and activity state is most likely to be killed?
 
 - [x] Process:In the background;Activity:Is stopped
@@ -65,7 +63,7 @@
             startActivity(intent)
         }
 ```
-      
+
 ```kotlin
         Intent(this, NextActivity::class.java).apply {
             put(EXTRA_NEXT, "some data")
@@ -77,7 +75,7 @@
 ```kotlin
         Intent(this, NextActivity::class.java).apply {
             putExtra(EXTRA_NEXT, "some data")
-✔️      }.also { intent ->
+x      }.also { intent ->
             startActivity(intent)
         }
 ```
@@ -90,15 +88,13 @@
         }
 
 ```
-     
-#### Q8. You want to include about and setting modules in your project. Which files accurately reflects their inclusion?
 
+#### Q8. You want to include about and setting modules in your project. Which files accurately reflects their inclusion?
 
 - [ ] in build.gradle:include ':app',':about' ':settings'
 - [x] in settings.gradle:include ':app',':about' ':settings'
 - [ ] in settings.gradle:include ':about',':settings'
 - [ ] in gradle.properties:include ':app',':about' ':settings'
-
 
 #### Q9. What is the benifit of using @VisibleForTesting annotation?
 
@@ -122,7 +118,7 @@
         ...
         targetSdkVersion 21
         testSdkVersion 28
-      }  
+      }
 ```
 
 ```gradle
@@ -136,11 +132,11 @@
 ```gradle
       defaultConfig {
         ...
-✔️      minSdkVersion 21
+x      minSdkVersion 21
         targetSdkVersion 28
       }
 ```
-        
+
 #### Q11. When will an activity's onActivityResult()be called?
 
 - [ ] when calling finish()in the parent activity
@@ -158,7 +154,7 @@
       fun deleteEvent(@Path("id") id: Long): Call<Unit>
 - [ ] @DELETE("events/{id}")
       fun deleteEvent(@Path("id") id: Long): Call<Unit> (correct)
-      
+
 #### Q13. When would you use a product flavour in your build setup?
 
 - [ ] when you need to have the app's strings present in multiple lanuages
@@ -178,14 +174,13 @@
         return root
     }
 ```
-    
+
 - [ ] root.getById(R.id.text_home)
 - [ ] findViewByID(R.id.text_home)
 - [x] root.findViewById(R.id.text_home)
 - [ ] root.find(R.id.text_home)
 
 #### Q15. Why do you use the Android JUnitRunner when runnig UI tests?
-
 
 - [x] The test facilitates loading your test package and the app under test onto a device or emulator, runs the test, and report the results.
 - [ ] The test runner creating screenshots of each screen that displayed while tests are executed.
@@ -206,7 +201,7 @@
 - [ ] root.getById(R.id.text_home)
 - [x] root.findViewById(R.id.text_home)
 
-#### Q18. IF the main thread is blocked for too long, the system displays the___dialog?
+#### Q18. IF the main thread is blocked for too long, the system displays the\_\_\_dialog?
 
 - [ ] Thread Not Responding
 - [ ] Application Paused
@@ -238,7 +233,6 @@
 
 ![img](image/shape.png)
 
-
 ```xml
       <shape xmlns:android="http://schemas.android.com/apk/res/android"
           android:shape="oval">
@@ -260,7 +254,7 @@
       <shape xmlns:android="http://schemas.android.com/apk/res/android"
           android:shape="oval">
           <stroke
-✔️            android:width="4dp"
+x            android:width="4dp"
               android:color="@android:color/black" />
           <solid android:color="@android:color/white" />
       </shape>
@@ -275,7 +269,7 @@
           <solid android:color="@android:color/white" />
       </shape>
 ```
-    
+
 #### Q22. To persist a small collection of key-value data, what should you use?
 
 - [ ] external file storage
@@ -287,16 +281,13 @@
 
 - [ ] @GET("photo/{id}"}
       fun listPhotos(@Path("id") id:Long?) : Call<Photo>
-      
 - [ ] @LIST("photo")
       fun listPhotos() : Call<List<Photo>>
-      
 - [ ] @GET("photo")
       fun listPhotos() : Call<Photo>
-      
 - [x] @GET("photo")
       fun listPhotos() : Call<List<Photo>>
-      
+
 #### Q23. Given the test class below, which code snippet would be a correct assertion?
 
 - [ ] assertThat(resultAdd).is(2.0)

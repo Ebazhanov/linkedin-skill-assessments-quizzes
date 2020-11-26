@@ -21,7 +21,7 @@
 - [ ] modules/enterpriseModules
 - [ ] modules/services
 
-#### Q4. The goal that is executed to generate and deploy a documentation website is ___.
+#### Q4. The goal that is executed to generate and deploy a documentation website is \_\_\_.
 
 - [ ] deliver
 - [x] site
@@ -55,6 +55,7 @@
 - [x] `mvn package`
 - [ ] `mvn clean install`
 - [ ] Option 4
+
 ```shell script
 mvn clean
 mvn package

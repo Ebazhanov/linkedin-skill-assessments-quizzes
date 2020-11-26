@@ -50,6 +50,7 @@
     </body>
 </html>
 ```
+
 - [ ] Option 2
 
 ```xml
@@ -71,6 +72,7 @@
     </body>
 </html>
 ```
+
 - [x] Option 4
 
 ```xml
@@ -102,7 +104,7 @@
 <x/>
 ```
 
-- [ ] null element 
+- [ ] null element
 - [x] self-closing tag
 - [ ] improperly named element
 - [ ] incorrect XML syntax
@@ -121,7 +123,7 @@
 - [ ] ActiveXObject
 - [ ] responseXML
 
-#### Q9. A markup language is a _____-readable language that ___ text so that the computer can ___ that text.
+#### Q9. A markup language is a **\_**-readable language that **_ text so that the computer can _** that text.
 
 - [ ] processor; complies; process
 - [ ] system; stores; retrieve
@@ -161,13 +163,29 @@
 - [ ] `#FIXED`
 
 #### Q14. How does the XML DOM present an XML document?
+
 - [ ] as a set of objects
 - [x] as a tree structure
-- [ ] as an array of nodes 
+- [ ] as an array of nodes
 - [ ] as a dynamic program
 
 #### Q15. You are working with an XML document that uses an XML schema. How do you specify that an element can appear multiple times inside its parent elemen t?
+
 - [ ] Set the maxOccurs attribute to a large number, such as 1.000
 - [ ] Set the maxOccurs attribute to 0
 - [ ] Set the maxOccurs attribute to undefined.
 - [x] Set the maxOccurs attribute to unbounded.
+
+#### Q16. The <xsl:with-param> element defines the value of a parameter to be passed into a template. It can be used within which elements?
+
+- [ ] <xsl:apply-templates>and<xsl:call-template>
+- [ ] <xsl:param>and<xsl:processing-instruction>
+- [ ] <xsl:template>and<xsl:transform>
+- [ ] <xsl:include>and<xsl:variable>
+
+#### Q17. You are checking someone else's XML document for errors. You notice that the prolog does not have a closing tag. What do you do?
+
+- [ ] Remove the prolog to make sure that the XML document will be properly processed across all platforms.
+- [x] Leave it alone, because the prolog does not require a closing tag.
+- [ ] Move the prolog to an external file so thtat the XML document only has elements with closing tags.
+- [ ] Add a closing tag, as al XML elements must have a closing tag.

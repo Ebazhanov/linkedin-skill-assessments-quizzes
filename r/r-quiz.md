@@ -2,7 +2,7 @@
 
 #### Q1. How does a matrix differ from a data frame?
 
-- [ ] A matrix may contain numeric values only.
+- [x] A matrix may contain numeric values only.
 - [ ] A matrix must not be singular.
 - [ ] A data frame may contain variables that have different modes.
 - [ ] A data frame may contain variables of different lengths.
@@ -44,6 +44,7 @@ xvect
 - [ ] `height(5)`
 
 #### Q6. In the image below, the data frame is named rates. The statement `sd(rates[, 2])` returns 39. As what does R regard Ellen's product ratings?
+
 ![Image](https://i.ibb.co/jvPPSRk/Captura-de-pantalla-2020-07-14-a-las-20-58-09.png)
 
 - [ ] sample with replacement
@@ -54,7 +55,7 @@ xvect
 #### Q7. Which choice does R regard as an acceptable name for a variable?
 
 - [ ] Var_A!
-- [ ] _VarA
+- [ ] \_VarA
 - [ ] .2Var_A
 - [x] Var2_A
 
@@ -73,6 +74,7 @@ xvect
 - [x] scalar
 
 #### Q10. In the image below, the data frame on lines 1 through 4 is names StDf. State and Capital are both factors. Which statement returns the results shown on lines 6 and 7?
+
 ![Image](https://i.ibb.co/8DL1HCV/Captura-de-pantalla-2020-07-14-a-las-18-33-34.png)
 
 - [ ] StDf[1:2,-3]
@@ -104,7 +106,7 @@ xvect
 - [ ] `class( d.pizza( , "temperature" ) )`
 - [ ] `class( d.pizza[ , "temperature" ] )`
 - [ ] `class( d.pizza$temperature )`
-- [ ] `class( d.pizza[ , "temperature", drop=F ] )`
+- [x] `class( d.pizza[ , "temperature", drop=F ] )`
 
 #### Q14. What does c contain?
 
@@ -189,7 +191,7 @@ y <- x/1
 
 - [ ] `cor.test(Var1 ~ Var2)`
 - [ ] `cor.test(mydata$(Var1,Var2))`
-- [ ] `cor.test(mydata$Var1,mydata$Var2)`
+- [x] `cor.test(mydata$Var1,mydata$Var2)`
 - [ ] `cor.test(Var1,Var2, mydata)`
 
 #### Q23. A data frame named d.pizza is part of the DescTools package. A statement is missing from the following R code and an error is therefore likely to occur. Which statement is missing?
@@ -200,15 +202,15 @@ deliver <- aggregate(count,by=list(area,driver), FUN=mean)
 print(deliver)
 ```
 
-- [ ] `attach(d.pizza)`
+- [x] `attach(d.pizza)`
 - [ ] `summarize(deliver)`
 - [ ] `mean <- rbind(d.pizza,count)`
 - [ ] `deliver[!complete.cases(deliver),]`
 
-#### Q24. Which combinations of functions set the row and column names in the data.frame() and in the matrix() functions?
+#### Q24. How to name rows and columns in DataFrames and Matrices F in R?
 
 - [ ] data frame: names() and rownames() matrix: colnames() and row.names()
-- [ ] data frame: names() and row.names() matrix: dimnames()
+- [x] data frame: names() and row.names() matrix: dimnames() (not sure)
 - [ ] data frame: colnames() and row.names() matrix: names() and rownames()
 - [ ] data frame: colnames() and rownames() matrix: names() and row.names()
 
@@ -262,3 +264,17 @@ v[4] <- 4
 - [ ] NULL
 - [ ] NA
 
+#### Q28. Which of the following statements doesn't yield the code output below:
+
+Review the following code. What is the result of line 3?
+
+```r
+x <- c(1, 2, 3, 4)
+
+Output: [1] 2 3 4
+```
+
+- [ ] x[c(2, 3, 4)]
+- [ ] x[-1]
+- [ ] x[c(-1, 0, 0, 0)]
+- [x] x[c(-1, 2, 3, 4)]

@@ -1,11 +1,10 @@
-C# Assessment
--------------
+## C# Assessment
 
 #### Q1. In which of these situations are interfaces better than abstract classes?
 
-- [ ] When you need  to define an object type's characteristics, use an interface. When you need to define an object type's capabilities, use an abstract class.
+- [ ] When you need to define an object type's characteristics, use an interface. When you need to define an object type's capabilities, use an abstract class.
 - [ ] Interfaces are a legacy of older versions of C#, and are interchangeable with the newer abstract class feature.
-- [X] When you need a list of capabilities and data that are classes-agnostic, use an interface. When you need a certain object type to share characteristics, use an abstract class.
+- [x] When you need a list of capabilities and data that are classes-agnostic, use an interface. When you need a certain object type to share characteristics, use an abstract class.
 - [ ] You should use both an interface and an abstract class when defining any complex object.
 
 #### Q2. Which statement is true of delegates?
@@ -25,22 +24,30 @@ C# Assessment
 #### Q4. How would you determine if a class has a particular attribute?
 
 - [ ] .
+
 ```
-var type = typeof(SomeType); 
+var type = typeof(SomeType);
 var attribute = type.GetCustomAttribute<SomeAttribute>();
 ```
+
 - [ ] .
+
 ```
 var typeof(MyPresentationModel).Should().BeDecoratedWith<SomeAttribute>();
 ```
+
 - [ ] .
+
 ```
 Attribute.GetCustomAttribute, typeof(SubControllerActionToViewDataAttribute)
 ```
+
 - [x] .
+
 ```
 Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActionToViewDataAttribute))
 ```
+
 #### Q5. What is the difference between the ref and out keywords?
 
 - [ ] Variables passed to out specify that the parameter is an output parameter, while ref specifies that a variable may be passed to a function without being initialized.
@@ -56,6 +63,7 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [ ] dependency injection
 
 #### Q7. What is this code an example of?
+
     ```
     private static object objA;
         private static object objB;
@@ -73,10 +81,11 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
         {
             lock (objA)
             {
-                lock (objB) { } 
+                lock (objB) { }
             }
         }
     ```
+
 - [ ] a private class that uses multithreading
 - [ ] multithread coding
 - [ ] thread mismanagement
@@ -100,7 +109,7 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 - [ ] The .Equals method compares reference identities while the == compares contents.
 - [ ] The .Equals method compares primitive values while == compares all values.
-- [X] The .Equals method compares contents while == compares references reference identity.
+- [x] The .Equals method compares contents while == compares references reference identity.
 - [ ] The .Equals method compares reference type while == compares primitive value types.
 
 #### Q11. Which choice best describes a deadlock situation?
@@ -120,7 +129,7 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 #### Q13. What is an object in C#?
 
 - [ ] a class or struct, including its variables and functions
-- [ ] a primitive data type that can be created only at compile time 
+- [ ] a primitive data type that can be created only at compile time
 - [ ] a value type that can be used only with an abstract class
 - [x] an instance of a class or struct that includes fields, properties, and/or methods
 
@@ -132,15 +141,18 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [ ] Anonymous<T> userData = new Anonymous<T> { name = "John", age = 32 };
 
 #### Q15. What will be returned when this method is executed?
+
     `
         public void userInput(string charParamters) { }
     `
-- [X] nothing 
+
+- [x] nothing
 - [ ] a Boolean
 - [ ] a string variable
 - [ ] an integer
 
 #### Q16. In what order would the employee names in this example be printed to the console?
+
     `
         string[] employees = { "Joe", "Bob", "Carol", "Alice", "Will" };
 
@@ -153,12 +165,13 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
             Console.WriteLine(employee);
         }
     `
+
 - [x] ascending
 - [ ] unordered
 - [ ] descending
 - [ ] first in, first out
 
-#### Q17. Lambda expressions are open used in tandem with which of the following?
+#### Q17. Lambda expressions are often used in tandem with which of the following?
 
 - [ ] Namespaces
 - [x] LINQ
@@ -167,18 +180,18 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 #### Q18. What is the correct formatting for single line and multiline comments?
 
-- [ ] /*/ - Single Line
-      /* - Multiline
+- [ ] /_/ - Single Line
+      /_ - Multiline
 - [ ] // Multiline
-      /* Single Line */
-- [ ] //* Multiline
+      /_ Single Line _/
+- [ ] //\* Multiline
       / Single Line
 - [x] // Single Line
-      /* Multiline */
+      /_ Multiline _/
 
 #### Q19. How do you make a method in an abstract class overridable?
 
-- [ ] Make it public 
+- [ ] Make it public
 - [ ] Make it static
 - [ ] Make it private
 - [x] Make it virtual
@@ -250,7 +263,7 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 - [ ] system actions that communicate directly with the compiler at runtime
 - [ ] actions that execute when the code compiles, generating logs and test output
-- [x] actions that generate notifications, which are sent to their registered listeners** <= Correct
+- [x] actions that generate notifications, which are sent to their registered listeners\*\* <= Correct
 - [ ] user-only methods that send data to the application's back end
 
 #### Q30. What kind of values can arrays store?
@@ -261,6 +274,7 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [x] multiple variables, or collections, of the same type
 
 #### Q31. Given this enumeration, how would you access the integer-type value of 'AppState.Loading'?
+
     `
     enum AppState { OffLine, Loading, Ready }
     `
@@ -278,6 +292,7 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [x] \w
 
 #### Q33. To conform to the following interface, which of its members need to be implemented?
+
     ```
     public interface INameble
     {
@@ -285,6 +300,7 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
         string LastName { get; }
     }
     ```
+
 - [x] Both the FirstName and LastName properties need to be implemented.
 - [ ] Neither, they are both optional.
 - [ ] Only the LastName property needs to be implemented.
@@ -311,37 +327,71 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [ ] To communicate between classes and object
 - [ ] To store the class definition value
 
-#### Q37. When would you use generics in your code? 
-- [ ] to increase code performance 
-- [x] all of these answers 
-- [ ] when code reuse is a priority 
-- [ ] when type safety is important 
+#### Q37. When would you use generics in your code?
 
-#### Q38. What prints to the console when this code is executed? 
-`
-public delegate void AuthCallback(bool validUser); public static AuthCallback loginCallback : Login; 
-public static void Login() { 
-Console.WriteLine("Valid user!"); 
-} 
-public static void Main(string[] args) { 
-loginCallback(true); 
-} 
-`
+- [ ] to increase code performance
+- [x] all of these answers
+- [ ] when code reuse is a priority
+- [ ] when type safety is important
 
-- [ ] Login successful... 
-- [ ] Valid user! 
-- [x] an error, because the method signature of Login doesn't match the delegate //It will throw an error because you cant apply Inheritance to methos that way.
-- [ ] Login successful... Valid user! 
+#### Q38. What prints to the console when this code is executed?
 
-#### Q39. How would you declare a sealed class named User? 
-- [ ] public class User 
-- [ ] abstract User {} 
-- [x] sealed class User 
-- [ ] private sealed class User 
+`public delegate void AuthCallback(bool validUser); public static AuthCallback loginCallback : Login; public static void Login() { Console.WriteLine("Valid user!"); } public static void Main(string[] args) { loginCallback(true); } `
 
+- [ ] Login successful...
+- [ ] Valid user!
+- [x] an error, because the method signature of Login doesn't match the delegate //It will throw an error because you cant apply Inheritance to methods that way.
+- [ ] Login successful... Valid user!
 
+#### Q39. How would you declare a sealed class named User?
 
+- [ ] public class User
+- [ ] abstract User {}
+- [x] sealed class User
+- [ ] private sealed class User
 
+#### Q40. How would you write a delegeate named ResultCallback with an int parameter named responseCode?
 
+- [ ] `public delegate void ResultCallback<(int) responseCode>`;
+- [ ] `public delegate ResultCallback(int responseCode)`;
+- [x] `public delegate void ResultCallback(int responseCode)`;
+- [ ] `public void delegate ResultCallback<int responseCode>`;
 
+#### Q41. What is the difference between non-static and static classes?
 
+- [] non-static classes need to be initialized before use, while static classes do not
+- [] non-static classes are accessible only from an interface while static classes are accessible from anywhere
+- [] non-static classes need to initialize all class members at runtime, while static classes do not
+- [] non-static classes do not need to be initialized while static classes do
+
+#### Q42. Which characteristic prevents this code from compiling?
+
+public int age="28"
+
+- [x] type safety
+- [] single inheritance
+- [] dependency injection
+- [] multiple inheritance
+
+#### Q43. How would you serialize this class?
+
+public class User {}
+
+- [] mark the User class with the DeserializableAttribute
+- [] Declare it as public serializable class User {}
+- [] Mark it with the SerializableAttribute
+- [] Declare it as private serializable class User{}
+
+#### Q44. How would you write a delegate named ResultCallback with an int parameter named responseCode
+
+- [] public delegate ResultCallback(int responseCode)
+- [] public delegate void ResultCallback<(int) responseCode>;
+- [] public void delegate ResultCallback<int responseCode>;
+- [x] public delegate void ResultCallback(int responseCode);
+
+#### Q45. What is the difference between a static and non-static method?
+
+- [] non-static methods always need to have a void return type
+- [] non-static methods do not have access to static member variables
+- [x] static methods do not have to instantiate an instance of the class to call the method
+- [] static methods always have to be public
