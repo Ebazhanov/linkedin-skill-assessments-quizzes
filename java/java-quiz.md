@@ -18,7 +18,9 @@ Reasoning: The substring method is accepting two arugments. The first argument b
 
 #### Q3. Given the following definitions, which of these expression will NOT evaluate to true?
 
-`boolean b1 = true, b2 = false; int i1 = 1, i2 = 2;`
+```
+boolean b1 = true, b2 = false; int i1 = 1, i2 = 2;
+```
 
 - (i1 | i2) == 3
 - i2 && b1 <<<<---Correct
@@ -141,10 +143,10 @@ class Three implements One, Two {
 }
 ```
 
--
+- <------ correct
 
 ```
-  class Three implements One, Two { <------ correct
+  class Three implements One, Two { 
     publc void method() {
         One.super.method();
   } }
@@ -283,11 +285,10 @@ System.out.println(n);
 
 #### Q16. How do you write a foreach loop that will iterate over ArrayList\<Pencil\>pencilCase?
 
-```
-for(Pencil pencil = pencilCase){}
-Iterator iterator = pencilCase.iterator();
-for(){iterator.hasNext()}{}
-```
+- for (Pencil pencil : pencilCase) {}  <<<<---Correct
+- for (pencilCase.next()) {}
+- for (Pencil pencil : pencilCase.iterator()) {}
+- for (pencil in pencilCase) {}
 
 #### Q17. Fill in the blanks?
 
@@ -311,7 +312,7 @@ for(){iterator.hasNext()}{}
 
 - names.sort(Comparator.comparing(String::toString))
 - Collections.sort(names)
-- names.sort(List.DESCENDING) <<<--- Correct (not too sure)
+- names.sort(List.DESCENDING) <<<--- Correct
 - names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())
 
 #### Q21. By implementing encapsulation, you cannot directly access the class's **\_** properties unless you are writing code inside the class itself.
@@ -353,7 +354,7 @@ Class Main {
 ```
 - 10 times <<<<--- Correct
 - 9 times
-- 5 times ~~<<<<---Correct~~
+- 5 times
 - infinite number of times
 
 Reason : Observe the loop increment. It's not an increment, it's an assignment(post).
@@ -430,7 +431,284 @@ class Main {
 
 #### Q30. Object-oriented programming is a style of programming where you organize your program around \_**\_ rather than \_\_** and data rather than logic.
 
-- [ ] functions; actions
-- [ ] objects; actions <<<<---Correct
-- [ ] actions; functions
-- [ ] actions; objects
+- functions; actions
+- objects; actions <<<<---Correct
+- actions; functions
+- actions; objects
+
+#### Q31. What statement returns true if "nifty" is of type String?
+
+- "nifty".getType().equals("String")
+- "nifty".getType() == String
+- "nifty".getClass().getSimpleName() == "String"
+- "nifty" instanceof String <<<<---Correct
+
+#### Q32. What is the output of this code?
+
+```
+import java.util.*;
+class Main {
+	public static void main(String[] args) {
+		List<Boolean> list = new ArrayList<>();
+		list.add(true);
+		list.add(Boolean.parseBoolean("FalSe"));
+		list.add(Boolean.TRUE);
+		System.out.print(list.size());
+		System.out.print(list.get(1) instanceof Boolean);
+	}
+}
+```
+
+- A runtime exception is thrown.
+- 3false
+- 2true
+- 3true <<<<---Correct
+
+#### Q33. What is the result of this code?
+
+```
+1: class Main {
+2: 		Object message(){
+3: 			return "Hello!";
+4: 		}
+5: 		public static void main(String[] args) {
+6: 			System.out.print(new Main().message());
+7: 			System.out.print(new Main2().message());
+8: 		}
+9: }
+10: class Main2 extends Main {
+11: 	String message(){
+12: 		return "World!";
+13: 	}
+14: }   
+```
+
+- It will not compile because of line 7.
+- Hello!Hello!
+- Hello!World! <<<<---Correct
+- It will not compile because of line 11.
+
+#### Q34. What method can be used to create a new instance of an object?
+
+- another instance
+- field
+- constructor <<<<---Correct
+- private method
+
+#### Q35. Which is the most reliable expression for testing whether the values of two string variables are the same?
+
+- string1 == string2
+- string1 = string2
+- string1.matches(string2)
+- string1.equals(string2) <<<<---Correct
+
+#### Q36. Which letters will print when this code is run?
+
+```
+public static void main(String[] args) {
+	try {
+		System.out.println("A");
+		badMethod();
+		System.out.println("B");
+	} catch (Exception ex) {
+		System.out.println("C");
+	} finally {
+		System.out.println("D");
+	}
+}
+public static void badMethod() {
+	throw new Error();
+}   
+```
+
+- A, B, and D
+- A, C, and D
+- C and D
+- A and D <<<<---Correct
+
+#### Q37. What is the output of this code?
+
+```
+class Main {
+	static int count = 0;
+	public static void main(String[] args) {
+		if (count < 3) {
+			count++;
+			main(null);
+		} else {
+			return;
+		}
+		System.out.println("Hello World!");
+	}
+}   
+```
+
+- It will throw a runtime exception.
+- It will not compile.
+- It will print "Hello World!" three times. <<<<---Correct
+- It will run forever.
+
+#### Q38. What is the output of this code?
+
+```
+import java.util.*;
+class Main {
+	public static void main(String[] args) {
+		String[] array = {"abc", "2", "10", "0"};
+		List<String> list = Arrays.asList(array);
+		Collections.sort(list);
+		System.out.println(Arrays.toString(array));
+	}
+}   
+```
+
+- [abc, 0, 2, 10]
+- The code does not compile.
+- [abc, 2, 10, 0]
+- [0, 10, 2, abc] <<<<---Correct
+
+#### Q39. What is the output of this code?
+
+```
+class Main {
+	public static void main(String[] args) {
+		String message = "Hello";
+		print(message);
+		message += "World!";
+		print(message);
+	}
+	static void print(String message){
+		System.out.print(message);
+		message += " ";
+	}
+}   
+```
+
+- Hello World!
+- HelloHelloWorld! <<<<---Correct
+- Hello Hello World!
+- Hello HelloWorld!
+
+#### Q40. What is displayed when this code is compiled and executed?
+
+```
+public class Main {
+	public static void main(String[] args) {
+		int x = 5;
+		x = 10;
+		System.out.println(x);
+	}
+}   
+```
+
+- x
+- null
+- 10 <<<<---Correct
+- 5
+
+#### Q41. Which approach cannot be used to iterate over a List named *theList*?
+
+- ```
+  for (int i = 0; i < theList.size(); i++) {
+      System.out.println(theList.get(i));
+  }
+  ```
+- ```
+  for (Object object : theList) {
+      System.out.println(object);
+  }
+  ```
+- ```
+  Iterator it = theList.iterator();
+  for (it.hasNext()) {
+      System.out.println(it.next());
+  }
+  ```
+  <<<<---Correct
+- ```
+  theList.forEach(System.out::println);
+  ```
+
+#### Q42. What method signature will work with this code?
+
+```
+boolean healthyOrNot = isHealthy("avocado");
+```
+
+- public void isHealthy(String avocado)
+- boolean isHealthy(String string) <<<<---Correct
+- public isHealthy("avocado")
+- private String isHealthy(String food)
+
+#### Q43. Which are valid keywords in a Java module descriptor (module-infoJava)?
+
+- provides, employs
+- imports, exports
+- consumes, supplies
+- requires, exports <<<<---Correct
+
+#### Q44. Which type of variable keeps a constant value once it is assigned?
+
+- non-static
+- static
+- final <<<<---Correct
+- private 
+
+#### Q45. How does the keyword *volatile* affect how a variable is handled?
+
+- It will be read by only one thread at a time.
+- It will be stored on the hard drive.
+- It will never be cached by the CPU. <<<<---Correct
+- It will be preferentially garbage collected.   
+
+#### Q46. What is the result of this code?
+
+```
+char smooch = 'x';
+System.out.println((int) smooch);
+```
+
+- an alphanumeric character
+- a negative number
+- a positive number <<<<---Correct
+- a ClassCastException   
+
+#### Q47. You get a NullPointerException. What is the most likely cause?
+
+- A file that needs to be opened cannot be found.
+- A network connection has been lost in the middle of communications.
+- Your code has used up all available memory.
+- The object you are using has not been instantiated. <<<<---Correct
+
+#### Q48. How would you fix this code so that it compiles?
+
+```
+public class Nosey {
+	int age;
+	public static void main(String[] args) {
+		System.out.println("Your age is: " + age);
+	}
+}
+```
+
+- Make age static. <<<<---Correct
+- Make age global.
+- Make age public.
+- Initialize age to a number.
+
+#### Q49. Add a Duck called "Waddles" to the ArrayList *ducks*.
+
+```
+public class Duck {
+	private String name;
+	Duck(String name) {}
+}
+```
+
+- Duck waddles = new Duck();
+  ducks.add(waddles);
+- Duck duck = new Duck("waddles");
+  ducks.add(wadd1es);
+- ducks.add(new Duck("waddles")); <<<<---Correct
+- ducks.add(new Waddles());
+
