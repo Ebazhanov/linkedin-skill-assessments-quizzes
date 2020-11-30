@@ -1,7 +1,7 @@
 # Linkedin-quiz-questions
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-181-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-182-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
@@ -330,6 +330,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://jinnatul.github.io/"><img src="https://avatars2.githubusercontent.com/u/31995155?v=4" width="100px;" alt=""/><br /><sub><b>Md Zinnatul Islam Morol</b></sub></a><br /><a href="#design-jinnatul" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/shresthashok550"><img src="https://avatars2.githubusercontent.com/u/67057717?v=4" width="100px;" alt=""/><br /><sub><b>shresthashok550</b></sub></a><br /><a href="#design-shresthashok550" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=shresthashok550" title="Documentation">📖</a></td>
     <td align="center"><a href="http://alanpallath.codes/"><img src="https://avatars0.githubusercontent.com/u/17932700?v=4" width="100px;" alt=""/><br /><sub><b>Alan Pallath</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=a1764879" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/adrianjw/"><img src="https://avatars3.githubusercontent.com/u/55360387?v=4" width="100px;" alt=""/><br /><sub><b>Adrian Wong</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=adrianjw" title="Code">💻</a></td>
   </tr>
 </table>
 
