@@ -16,7 +16,7 @@
 
 - [ ] HackerOne
 - [ ] Redmine
-- [ ] Trac
+- [x] Trac
 - [ ] GitHub Issues
 
 #### Q4. The REST API is a simple way to get data in and out of WordPress over HTTP. Applications using the REST API should be written in which programming language?
@@ -93,7 +93,7 @@
 - [ ] widgets, containers, sections, settings
 - [ ] containers, hooks, settings, styles
 - [ ] panels, blocks, controls, settings
-- [ ] panels, sections, controls, settings
+- [x] panels, sections, controls, settings
 
 #### Q12. Which WordPress setting would you use to make page URLs look like `http://example.com/my-page/` instead of the default `http://example.com/?p=21/?`
 
@@ -141,13 +141,13 @@
 
 - [ ] MU Admin
 - [ ] Owner
-- [ ] Super Admin
+- [x] Super Admin
 - [ ] Multisite Master
 
-#### Q19. Within the editor, blocks are rendered as JavaScript. How are blocks rendered on the front end of a site?Within the editor, blocks are rendered as JavaScript. How are blocks rendered on the front end of a site?
+#### Q19. Within the editor, blocks are rendered as JavaScript. How are blocks rendered on the front end of a site?
 
 - [ ] as plain HTML
-- [ ] as a React component
+- [x] as a React component
 - [ ] as JavaScript comments
 - [ ] as HTML comments
 
@@ -156,14 +156,14 @@
 - [ ] using a gettext function to wrap translatable strings when writing code
 - [ ] installing/using the WordPress Multilingual Plugin
 - [ ] using a tool like Poedit to parse source code and extract translatable strings into a POT file
-- [ ] translators translating the POT file into a PO file, one for each language
+- [x] translators translating the POT file into a PO file, one for each language
 
 #### Q21. The REST API provides public data, which is accessible to any client anonymously, as well as private data available only after authentication. How could you ensure that no one can anonymously access site data via the REST API?
 
 - [ ] Disable the REST API via the site's wp-config.php file.
 - [ ] Use the `rest_authentication_errors()` filter along with the `is_user_logged_in()` conditional to limit access to logged in users.
 - [ ] Use the `rest_authentication_errors()` filter along with cookie authentication to limit access to logged in users.
-- [ ] Use the Disable REST API plugin.
+- [x] Use the Disable REST API plugin.
 
 #### Q22. Which of these snippets represents a wrapper that calls jQuery safely and doesn't require repetitive use of the word "jQuery"?
 
@@ -182,7 +182,7 @@
 })( jQuery );
 ```
 
-- [ ] .
+- [x] .
 
 ```
 $(function() {
@@ -202,13 +202,13 @@ jQuery(function($) {
 
 - [ ] `add_action( 'example_hook', 'example_function', $accepted_args, $priority )`
 - [ ] `add_action( 'example_function', 'example_hook', $priority, $accepted_args )`
-- [ ] `add_action( 'example_hook', 'example_function', $priority, $accepted_args )`
+- [x] `add_action( 'example_hook', 'example_function', $priority, $accepted_args )`
 - [ ] `add_action( 'example_function', 'example_hook', $priority )`
 
 #### Q24. You have a search bar on your site. You would like to use a `<label>` to make the word "Search" visible to screen readers, but you don't want to display the word "Search" on the screen. How can you accomplish this?
 
 - [ ] Assign an ARIA state of "hidden" to the label, like this: `<label state="hidden">Search</label> <input type="text" name="search" id="search" />`
-- [ ] Use the built-in WordPress CSS class .screen-reader-text to hide the text from screen, like this: `<label class="screen-reader-text">Search</label> <input type="text" name="search" id="search" />`
+- [x] Use the built-in WordPress CSS class .screen-reader-text to hide the text from screen, like this: `<label class="screen-reader-text">Search</label> <input type="text" name="search" id="search" />`
 - [ ] Create a custom CSS class to set a large negative value to the text-indent property to hide the text off screen, like this: `<label class="hide-this">Search</label> <input type="text" name="search" id="search" />`
 - [ ] The majority of users do not require a screen reader. Remove the label entirely.
 
@@ -221,7 +221,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 ```
 
 - [ ] This is how WordPress detects a plugin's presence. This ensures that the plugin is running from the /wp-content/plugins/ directory. If it is not, the plugin should not run.
-- [ ] This is a way to prevent naming collisions. ABSPATH is the absolute path to the plugin's directory. If ABSPATH is defined by another WordPress plugin with the same directory slug, the plugin should not run.
+- [x] This is a way to prevent naming collisions. ABSPATH is the absolute path to the plugin's directory. If ABSPATH is defined by another WordPress plugin with the same directory slug, the plugin should not run.
 - [ ] This is a security measure. ABSPATH is the absolute path to the WordPress directory. If the file is called directly, ABSPATH will not be defined and therefore the plugin should not run.
 - [ ] This is a compatibility checker. ABSPATH is defined in WordPress core. The plugin checks that the minimum version of WordPress needed to support the plugin is installed. If it is not, the plugin should not run.
 
@@ -229,20 +229,20 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 - [ ] Use !important next to styles if they don't give you the result you want.
 - [ ] Use hyphens in class names.
-- [ ] Use spaces to indent each property.
+- [x] Use spaces to indent each property.
 - [ ] Avoid CSS shorthand for proper documentation.
 
 #### Q27. WordPress is translated, at least partially, in more than 200 locales. If you wanted to help translate WordPress into other languages, which contributor group would you join?
 
 - [ ] core
-- [ ] polyglots
+- [x] polyglots
 - [ ] accessibility
 - [ ] documentation
 
 #### Q28. What is the difference between an action and a filter?
 
 - [ ] Actions are used to add custom functions and remove WordPress functions. Filters are used to make strings translatable for localization.
-- [ ] Actions are used to add or remove code at runtime. Filters are used to modify data before it is either displayed in the browser or saved to the database.
+- [x] Actions are used to add or remove code at runtime. Filters are used to modify data before it is either displayed in the browser or saved to the database.
 - [ ] Actions are used to assign values to variables at runtime. Filters are used to extract data from actions and display it in the browser.
 - [ ] Actions are used to add user-inputted data to the database. Filters are used to validate user-inputted data prior to adding it to the database.
 
@@ -258,7 +258,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 - [ ] schema
 - [ ] route
 - [ ] response
-- [ ] request
+- [x] request
 
 #### Q31. Which WP-CLI command would you use to manage the capabilities of a user role?
 
@@ -271,7 +271,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 - [ ] escape and sanitize
 - [ ] validate and escape
-- [ ] validate and sanitize
+- [x] validate and sanitize
 - [ ] escape and secure
 
 #### Q33. If your WordPress site is seriously compromised, what is the best course of action to return your site to good health?
@@ -286,7 +286,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 - [ ] register_post_type
 - [ ] add_meta_box
 - [ ] wp_head
-- [ ] init
+- [x] init
 
 #### Q35. What is the role of a WordPress theme?
 
@@ -318,7 +318,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 ### Q39. What is the core mission of WordPress?
 
-- [ ] to make free software
+- [x] to make free software
 - [ ] to democratize publishing and the freedoms that come with open source
 - [ ] to make money
 - [ ] to encourage blogging
