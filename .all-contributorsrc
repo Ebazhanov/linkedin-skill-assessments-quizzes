@@ -1732,6 +1732,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "adrianjw",
+      "name": "Adrian Wong",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/55360387?v=4",
+      "profile": "https://www.linkedin.com/in/adrianjw/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
