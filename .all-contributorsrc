@@ -1723,6 +1723,15 @@
         "design",
         "doc"
       ]
+    },
+    {
+      "login": "a1764879",
+      "name": "Alan Pallath",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/17932700?v=4",
+      "profile": "http://alanpallath.codes/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
