@@ -449,3 +449,100 @@ var userLocation: String = "Home" {
 - either a designated or another convenience initializer
 - a designated initializer <<<<---Correct
 - none of these answers
+
+#### Q40. Which object allows you access to specify that a block of code runs in a background thread?
+
+- `DispatchQueue.visible`
+- `DispatchQueue.global` <<<<--- Correct
+- `errorExample` need to be labeled as `throws`.
+- `DispatchQueue.background`
+
+#### Q41. What is the inferred type of x?
+
+```swift
+let x = ["a", "b", "c"]
+```
+
+- `String[]`
+- `Array<String>` <<<<--- Correct
+- `Set<String>`
+- `Array<Character>`
+
+#### Q42. What is the value of `oThings` after this code is executed?
+
+```swift
+let nThings: [Any] = [1, "2", "three"]
+let oThings = nThings.reduce("") { "\($0)\($1)" }
+```
+
+- `11212three`
+- `115`
+- `12three` <<<<--- Correct
+- Nothing, this code is invalid.
+
+#### Q43. How would you call a function that throws errors and also returns a value?
+
+- `!try`
+- `try?` <<<<--- Correct
+- `try!`
+- `?try`
+
+#### Q44. What is wrong with this code?
+
+```swift
+protocol TUI {
+	func add(x1 : Int, x2 : Int) -> Int {
+		return x1 + x2
+	}
+}
+```
+
+- Protocol functions cannot have return types.
+- Protocol functions cannot have implementations. <<<<--- Correct.
+- Nothing is wrong with it.
+- `add` is a reserved keyword.
+
+#### Q45. In this code, what are `wheels` and `doors` examples of?
+
+```swift
+class Car {
+	var wheels: Int = 4
+	let doors = 4
+}
+```
+
+- class members
+- This code is invalid.
+- class fields
+- class properties <<<<--- Correct
+
+#### Q46. What is the value of `t` after this code is executed?
+
+```swift
+let names = ["Larry", "Sven", "Bear"]
+let t = names.enumerated().first().offset
+```
+
+- This code does not compile. <<<<--- Correct
+- `0`
+- `1`
+- `Larry`
+
+#### Q47. How do you designate a failable initializer?
+
+- `init?`
+- `deinit`
+- `init` <<<<--- Correct
+- You can't.
+
+#### Q48. What is printed when this code is executed?
+
+```swift
+let dbl = Double.init("5a")
+print(dbl ?? ".asString()")
+```
+
+- `five`
+- `5a`
+- `.asString()` <<<<--- Correct
+- `5`
