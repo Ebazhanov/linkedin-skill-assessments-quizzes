@@ -647,3 +647,33 @@ li:nth-child(2n + 3) {
 
 - [ ]
   `.logo { position: absolute; left-padding: 100px; top-padding: 150px; }`
+
+#### 052. In this example, what color will Paragraph 1 be?
+
+```css
+p:first-of-type {
+  color: red;
+}
+p {
+  color: blue;
+}
+.container {
+  color: yellow;
+}
+p:first-child {
+  color: green;
+}
+```
+
+```html
+<div class="container">
+  <h1>Heading</h1>
+  <p>Paragraph1</p>
+  <p>Paragraph2</p>
+</div>
+```
+
+- blue
+- green
+- red <<<<---Correct
+- yellow
