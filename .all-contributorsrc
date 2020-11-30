@@ -1741,6 +1741,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "vsDizzy",
+      "name": "vsDizzy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5798340?v=4",
+      "profile": "https://github.com/vsDizzy",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
