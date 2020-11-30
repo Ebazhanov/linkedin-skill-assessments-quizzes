@@ -56,7 +56,7 @@ x    RecyclerView.Adapter<VH extends ViewHolder>
 - [ ] Process:In the foreground;Activity:Is started
 - [ ] Process:In the foreground;Activity:Is paused
 
-#### Q7. You have created a NextActivity class that relies on a string containing some data that pass inside the intent Which code snippt allows you to launch your activity?
+#### Q7. You have created a NextActivity class that relies on a string containing some data that pass inside the intent Which code snippet allows you to launch your activity?
 
 ```kotlin
         Intent(this, NextActivity::class.java).also { intent ->
@@ -180,9 +180,9 @@ x      minSdkVersion 21
 - [x] root.findViewById(R.id.text_home)
 - [ ] root.find(R.id.text_home)
 
-#### Q15. Why do you use the Android JUnitRunner when runnig UI tests?
+#### Q15. Why do you use the AndroidJUnitRunner when running UI tests?
 
-- [x] The test facilitates loading your test package and the app under test onto a device or emulator, runs the test, and report the results.
+- [x] The test runner facilitates loading your test package and the app under test onto a device or emulator, runs the test, and reports the results.
 - [ ] The test runner creating screenshots of each screen that displayed while tests are executed.
 - [ ] The test runner facilitates parallelization of test classes by providing for each test class.
 - [ ] The test runner facilitates interacting with visible elements on a device, regardless of the activity or fragment that has focus.
@@ -317,3 +317,286 @@ android.permission.ACCESS_NETWORK_STATE
 - [x] to request the ability to make network calls from your app
 - [ ] to monitor the network state of the device so that you can display an in-app banner to the user
 - [ ] to monitor the network state of the devices so that you don't attempt to make network calls when the network is unavailable
+
+#### Q27. Which image best corresponds to the following `LinearLayout`?
+
+```xml
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="horizontal"
+	android:gravity="center">
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Button" />
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Button" />
+</LinearLayout>
+```
+
+- [ ] A
+      ![img](image/00.jpeg)
+- [ ] B
+      ![img](image/01.jpeg)
+- [x] C
+      ![img](image/02.jpeg)
+- [ ] D
+      ![img](image/03.jpeg)
+
+#### Q28. You want to open the default Dialer app on a device. What is wrong with this code?
+
+```java
+val dialerIntent = Intent()
+val et = findViewById(R.id.some_edit_text)
+dialerIntent.action = Intent.ACTION_DIAL
+dialerIntent.data = Uri.parse("tel:" + et.getText()?.toString())
+startActivity(dialerIntent)
+```
+
+- [x] `startActivityWithResult()` should be used instead of `startActivity()` when using `Intent.ACTION_DIAL`.
+- [ ] For `Intent.ACTION_DIAL`, the `Intent` option `Intent.FLAG_ACTIVITY_NEW_TASK` must be added when using this `dialerIntent`.
+- [ ] The `dialerIntent` will cause an ActivityNotFoundException to be thrown on devices that do not support `Intent.ACTION_DIAL`.
+- [ ] The permission `android.permission.CALL_PHONE` must be requested first before `Intent.ACTION_DIAL` can be used.
+
+#### Q29. When should you store files in the `/assets` directory?
+
+- [x] when you need access to the original file names and file hierarchy
+- [ ] when you need access to the file with its `resource ID`, like `R.assets.filename`
+- [ ] when you have XML files that define tween animations
+- [ ] when you need to access the file in its raw form using `Resources.openRawResource()`
+
+#### Q30. You want to allow users to take pictures in your app. Which is _not_ an advantage of creating an appropriate `intent`, instead of requesting the camera permission directly?
+
+- [ ] Users can select their favorite photo apps to take pictures.
+- [ ] You do not have to make a permission request in your app to take a picture.
+- [x] You have full control over the user experience. The app that handles the camera `intent` will respect your design choices.
+- [ ] You do not have to design the UI. The app that handles the camera `intent` will provide the UI.
+
+#### Q31. When would you use the `ActivityCompat.shouldShowRequestPermissionRationale()` function?
+
+- [ ] when a user first opens your app and you want to provide an explanation for the use of a given permission
+- [ ] when a user has previously denied the request for a given permission and selects "Tell me more"
+- [ ] when a user has previously denied the request for a given permission and you want to provide an explanation for its use
+- [x] when a user has previously denied the request for a given permission and selected "Don't ask again," but you need the permission for your app to function
+
+#### Q32. You would like to enable analytics tracking only in `release` builds. How can you create a new field in the generated `BuildConfig` class to store that value?
+
+- [ ]
+
+```xml
+buildTypes {
+	debug {
+		buildConfig 'boolean', 'ENABLE_ANALYTICS', 'false'
+	}
+	release {
+		buildConfig 'boolean', 'ENABLE_ANALYTICS', 'true'
+	}
+}
+```
+
+- [ ]
+
+```xml
+buildTypes {
+	debug {
+		buildConfig 'String', 'ENABLE_ANALYTICS', 'false'
+	}
+	release {
+		buildConfig 'String', 'ENABLE_ANALYTICS', 'true'
+	}
+}
+```
+
+- [x]
+
+```xml
+buildTypes {
+	debug {
+		buildConfigField 'boolean', 'ENABLE_ANALYTICS', 'false'
+	}
+	release {
+		buildConfigField 'boolean', 'ENABLE_ANALYTICS', 'true'
+	}
+}
+```
+
+- [ ]
+
+```xml
+buildTypes {
+	debug {
+		buildConfigField 'boolean', 'ENABLE_ANALYTICS', 'true'
+	}
+	release {
+		buildConfigField 'boolean', 'ENABLE_ANALYTICS', 'false'
+	}
+}
+```
+
+#### Q33. To optimize your APK size, what image codec should you use?
+
+- [ ] JPG
+- [ ] PNG
+- [ ] MPEG
+- [x] WebP
+
+#### Q34. You have built code to make a network call and tested that it works in your development environment. However, when you publish it to the Play console, the networking call fails to work. What will _not_ help you troubleshoot this issue?
+
+- [ ] checking whether `ProGuard` -keepclassmembers have been added to the network data transfer objects (DTOs) in question
+- [x] using the profiler tools in Android Studio to detect anomalies in CPU, memory, and network usage
+- [ ] checking for exceptions in the sever logs or server console
+- [ ] checking that the network data transfer object has `@SerizlizedName` applied to its member properties
+
+#### Q35. Which code snippet would achieve the layout displayed below?
+
+![img](image/04.jpeg)
+
+- [ ]
+
+```xml
+<androidx.constraintlayout.widget.ConstraintLayout
+	...>
+
+	<TextView
+		android:id="@+id/text_dashboard"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		android:padding="8dp"
+		android:textAlignment="center"
+		android:text="Dashboard"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
+
+- [x]
+
+```xml
+<androidx.constraintlayout.widget.ConstraintLayout
+	...>
+
+	<TextView
+		android:id="@+id/text_dashboard"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="8dp"
+		android:layout_marginEnd="8dp"
+		android:textAlignment="center"
+		android:text="Dashboard"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
+
+- [ ]
+
+```xml
+<androidx.constraintlayout.widget.ConstraintLayout
+	...>
+
+	<TextView
+		android:id="@+id/text_dashboard"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="16dp"
+		android:layout_marginEnd="8dp"
+		android:padding="8dp"
+		android:textAlignment="center"
+		android:text="Dashboard"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
+
+- [ ]
+
+```xml
+<androidx.constraintlayout.widget.ConstraintLayout
+	...>
+
+	<TextView
+		android:id="@+id/text_dashboard"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="8dp"
+		android:layout_marginTop="16dp"
+		android:layout_marginEnd="8dp"
+		android:padding="8dp"
+		android:text="Dashboard"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+	/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
+
+#### Q36. Which source set is _not_ available to you by default when Android Studio creates a new project?
+
+- [ ] test
+- [ ] androidTest
+- [ ] app
+- [x] main
+
+#### Q37. Which definition will prevent other apps from accessing your `Activity` class via an `intent`?
+
+- [ ]
+
+```xml
+	<activity android:name=".ExampleActivity" />
+```
+
+- [x]
+
+```xml
+	<activity android:name=".ExampleActivity">
+		<intent-filter>
+			<action android:name="android.intent.action.SEND" />
+		</intent-filter>
+	</activity>
+```
+
+- [ ]
+
+```xml
+	<activity android:name=".ExampleActivity">
+		<intent-filter>
+			<action android:name="android.intent.action.MAIN" />
+			<category android:name="android.intent.category.LAUNCHER" />
+		</intent-filter>
+	</activity>
+```
+
+- [ ]
+
+```xml
+	<activity android:name=".ExampleActivity">
+		<intent-filter>
+			<action android:name="android.intent.action.VIEW" />
+		</intent-filter>
+	</activity>
+```
+
+#### Q38. To preserve on-device memory, how might you determine that the user's device has limited storage capabilities?
+
+- [x] Use the `ActivityManager.isLowRamDevice()` method to find out whether a device defines itself as "low RAM."
+- [ ] Use the `Activity.islowRam()` method to find out whether a device defines itself as "low RAM."
+- [ ] Use the `ConnectivityManager.hasLowMemory()` method to find out whether a device defines itself as "low RAM."
+- [ ] Make an image download request and check the remaining device storage usage.
+
+#### Q39. What is _not_ a good way to reuse Android code?
+
+- [ ] Use a common Gradle module shared by different Android projects.
+- [ ] Prefer to build custom views or fragments over activities.
+- [ ] Prefer to build activities instead of fragments.
+- [x] Break down UI layouts into common elements and use `<include/>` to include them in other layout XML files.
