@@ -322,7 +322,7 @@ a:active {
 - [ ] first-letter::p { color: red; }
 - [ ] first-letter:p { color: red; }
 
-#### Q24.In this example, what is the selector, property, and value?
+#### Q24. In this example, what is the selector, property, and value?
 
 ```css
 p {
@@ -429,22 +429,22 @@ p {
 
 #### Q33. The flex-direction property is used to specify the direction that flex items are displayed. What are the values used to specify the direction of the items in the following examples?
 
-- [x] Example 1: flex-direction: row;
-      Example 2; flex-direction: row-reverse;
-      Example 3: flex-direction: column;
-      Example 4: flex-direction: column-reverse;
-- [ ] Example 1: flex-direction: row-reverse;
-      Example 2; flex-direction: row;
-      Example 3: flex-direction: column-reverse;
-      Example 4: flex-direction: column;
-- [ ] Example 1: flex-direction: row;
-      Example 2; flex-direction: row-reverse;
-      Example 3: flex-direction: column;
-      Example 4: flex-direction: reverse-column;
-- [ ] Example 1: flex-direction: column;
-      Example 2; flex-direction: column-reverse;
-      Example 3: flex-direction: row;
-      Example 4: flex-direction: row-reverse;
+- [x] Example 1: `flex-direction: row;`
+      Example 2: `flex-direction: row-reverse;`
+      Example 3: `flex-direction: column;`
+      Example 4: `flex-direction: column-reverse;`
+- [ ] Example 1: `flex-direction: row-reverse;`
+      Example 2: `flex-direction: row;`
+      Example 3: `flex-direction: column-reverse;`
+      Example 4: `flex-direction: column;`
+- [ ] Example 1: `flex-direction: row;`
+      Example 2: `flex-direction: row-reverse;`
+      Example 3: `flex-direction: column;`
+      Example 4: `flex-direction: reverse-column;`
+- [ ] Example 1: `flex-direction: column;`
+      Example 2: `flex-direction: column-reverse;`
+      Example 3: `flex-direction: row;`
+      Example 4: `flex-direction: row-reverse;`
 
 #### Q34. There are two sibling combinators that can be used to select elements contained within the same parent element; the general sibling combinator (~) and the adjacent sibling combinator (+). Referring to example below, which elements will the styles be applied to?
 
@@ -485,7 +485,7 @@ h2 + p {
 - [x] Icon fonts can be styled with typography related properties such as font-size and color.
 - [ ] Icon fonts are also web safe fonts.
 
-#### Q37. What is the difference between display:none and visibility:hidden?
+#### Q37. What is the difference between `display:none` and `visibility:hidden`?
 
 - [ ] Both will hide the element on the page, but display:none has greater browser support. visibility:hidden is a new property and does not have the best browser support
 
@@ -594,17 +594,17 @@ li:nth-child(2n + 3) {
 ### Q47. Is there an error in this code? If so, find the best description of the problem
 
 ```css
-@font0face {
+@font-face {
   font-family: 'Avenir', sans-serif;
-  src: url('avenir.woff2) format('woff2'),
-    src: url('avenir.woff) format('woff');
+  src:  url('avenir.woff2') format('woff2'),
+        url('avenir.woff') format('woff');
 }
 ```
 
-- [x] The font file formats are not supported in mordern browsers https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/src
+- [ ] The font file formats are not supported in modern browsers.
 - [ ] The src attribute requires a comma between the URL and format values.
-- [ ] There are no erros in the example.
-- [ ] The san-serif inclusion is problematic.
+- [ ] There are no errors in the example.
+- [x] The sans-serif inclusion is problematic.
 
 ### Q48. Which style places an element at a fixed location within its container?
 
@@ -613,11 +613,12 @@ li:nth-child(2n + 3) {
 - [ ] display: block;
 - [ ] float: left;
 
-### Q49. The calc() CSS function is often used for calculating relative values. In the example below, whatis the specified margin-left value?
+### Q49. The calc() CSS function is often used for calculating relative values. In the example below, what is the specified margin-left value?
 
 ```css
 .example{
-    margin-left: calc(5%+5px);
+  margin-left: calc(5% + 5px);
+}
 ```
 
 - [x] The left margin value is equal to 5% of its parents element's width plus 5px
@@ -625,30 +626,21 @@ li:nth-child(2n + 3) {
 - [ ] The left margin value is equal to 5% of the closest positioned element's width plus 5px
 - [ ] The left margin value is equal to 5% of the selected element's width (.example) plus 5px
 
-### Q50. What is the CSS selector for an <a> tag containing the title attribute?
+### Q50. What is the CSS selector for an `<a>` tag containing the title attribute?
 
 - [x] a[title]
-
 - [ ] a > title
-
 - [ ] a=title
-
 - [ ] a.title
 
-### Q51. Which code would you use to absolutely position an element of the logo class?Which code would you use to absolutely position an element of the null class?
+### Q51. Which code would you use to absolutely position an element of the logo class?
 
-- [ ] `.logo { position: absolute; left: 100px; top: 150px; }`
+- [x] `.logo { position: absolute; left: 100px; top: 150px; }`
+- [ ] `.logo { position: absolute; margin-left: 100px; margin-top: 150px; }`
+- [ ] `.logo { position: absolute; padding-left: 100px; padding-top: 150px; }`
+- [ ] `.logo { position: absolute; left-padding: 100px; top-padding: 150px; }`
 
-- [ ]
-  `.logo { position: absolute; margin-left: 100px; margin-top: 150px; }`
-
-- [ ]
-  `.logo { position: absolute; padding-left: 100px; padding-top: 150px; }`
-
-- [ ]
-  `.logo { position: absolute; left-padding: 100px; top-padding: 150px; }`
-
-#### 052. In this example, what color will Paragraph 1 be?
+#### Q52. In this example, what color will Paragraph 1 be?
 
 ```css
 p:first-of-type {
@@ -673,7 +665,7 @@ p:first-child {
 </div>
 ```
 
-- blue
-- green
-- red <<<<---Correct
-- yellow
+- [ ] blue
+- [ ] green
+- [x] red
+- [ ] yellow
