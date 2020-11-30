@@ -328,7 +328,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://jaygajjar.tk/"><img src="https://avatars2.githubusercontent.com/u/57590688?v=4" width="100px;" alt=""/><br /><sub><b>Jay Gajjar</b></sub></a><br /><a href="#design-j-j-gajjar" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/coolerbooler"><img src="https://avatars1.githubusercontent.com/u/74932465?v=4" width="100px;" alt=""/><br /><sub><b>coolerbooler</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=coolerbooler" title="Code">💻</a></td>
     <td align="center"><a href="https://jinnatul.github.io/"><img src="https://avatars2.githubusercontent.com/u/31995155?v=4" width="100px;" alt=""/><br /><sub><b>Md Zinnatul Islam Morol</b></sub></a><br /><a href="#design-jinnatul" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/shresthashok550"><img src="https://avatars2.githubusercontent.com/u/67057717?v=4" width="100px;" alt=""/><br /><sub><b>shresthashok550</b></sub></a><br /><a href="#design-shresthashok550" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/shresthashok550"><img src="https://avatars2.githubusercontent.com/u/67057717?v=4" width="100px;" alt=""/><br /><sub><b>shresthashok550</b></sub></a><br /><a href="#design-shresthashok550" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=shresthashok550" title="Documentation">📖</a></td>
   </tr>
 </table>
 
