@@ -1,9 +1,7 @@
 # Linkedin-quiz-questions
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-182-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-183-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
@@ -335,11 +333,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://alanpallath.codes/"><img src="https://avatars0.githubusercontent.com/u/17932700?v=4" width="100px;" alt=""/><br /><sub><b>Alan Pallath</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=a1764879" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/adrianjw/"><img src="https://avatars3.githubusercontent.com/u/55360387?v=4" width="100px;" alt=""/><br /><sub><b>Adrian Wong</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=adrianjw" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/vsDizzy"><img src="https://avatars1.githubusercontent.com/u/5798340?v=4" width="100px;" alt=""/><br /><sub><b>vsDizzy</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=vsDizzy" title="Code">💻</a> <a href="#design-vsDizzy" title="Design">🎨</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
