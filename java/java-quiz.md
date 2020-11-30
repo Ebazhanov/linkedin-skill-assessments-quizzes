@@ -146,7 +146,7 @@ class Three implements One, Two {
 - <------ correct
 
 ```
-  class Three implements One, Two { 
+  class Three implements One, Two {
     publc void method() {
         One.super.method();
   } }
@@ -285,7 +285,7 @@ System.out.println(n);
 
 #### Q16. How do you write a foreach loop that will iterate over ArrayList\<Pencil\>pencilCase?
 
-- for (Pencil pencil : pencilCase) {}  <<<<---Correct
+- for (Pencil pencil : pencilCase) {} <<<<---Correct
 - for (pencilCase.next()) {}
 - for (Pencil pencil : pencilCase.iterator()) {}
 - for (pencil in pencilCase) {}
@@ -352,6 +352,7 @@ Class Main {
     }
 }
 ```
+
 - 10 times <<<<--- Correct
 - 9 times
 - 5 times
@@ -480,7 +481,7 @@ class Main {
 11: 	String message(){
 12: 		return "World!";
 13: 	}
-14: }   
+14: }
 ```
 
 - It will not compile because of line 7.
@@ -518,7 +519,7 @@ public static void main(String[] args) {
 }
 public static void badMethod() {
 	throw new Error();
-}   
+}
 ```
 
 - A, B, and D
@@ -540,7 +541,7 @@ class Main {
 		}
 		System.out.println("Hello World!");
 	}
-}   
+}
 ```
 
 - It will throw a runtime exception.
@@ -559,7 +560,7 @@ class Main {
 		Collections.sort(list);
 		System.out.println(Arrays.toString(array));
 	}
-}   
+}
 ```
 
 - [abc, 0, 2, 10]
@@ -581,7 +582,7 @@ class Main {
 		System.out.print(message);
 		message += " ";
 	}
-}   
+}
 ```
 
 - Hello World!
@@ -598,7 +599,7 @@ public class Main {
 		x = 10;
 		System.out.println(x);
 	}
-}   
+}
 ```
 
 - x
@@ -606,7 +607,7 @@ public class Main {
 - 10 <<<<---Correct
 - 5
 
-#### Q41. Which approach cannot be used to iterate over a List named *theList*?
+#### Q41. Which approach cannot be used to iterate over a List named _theList_?
 
 - ```
   for (int i = 0; i < theList.size(); i++) {
@@ -652,14 +653,14 @@ boolean healthyOrNot = isHealthy("avocado");
 - non-static
 - static
 - final <<<<---Correct
-- private 
+- private
 
-#### Q45. How does the keyword *volatile* affect how a variable is handled?
+#### Q45. How does the keyword _volatile_ affect how a variable is handled?
 
 - It will be read by only one thread at a time.
 - It will be stored on the hard drive.
 - It will never be cached by the CPU. <<<<---Correct
-- It will be preferentially garbage collected.   
+- It will be preferentially garbage collected.
 
 #### Q46. What is the result of this code?
 
@@ -671,7 +672,7 @@ System.out.println((int) smooch);
 - an alphanumeric character
 - a negative number
 - a positive number <<<<---Correct
-- a ClassCastException   
+- a ClassCastException
 
 #### Q47. You get a NullPointerException. What is the most likely cause?
 
@@ -696,7 +697,7 @@ public class Nosey {
 - Make age public.
 - Initialize age to a number.
 
-#### Q49. Add a Duck called "Waddles" to the ArrayList *ducks*.
+#### Q49. Add a Duck called "Waddles" to the ArrayList _ducks_.
 
 ```
 public class Duck {
@@ -712,3 +713,46 @@ public class Duck {
 - ducks.add(new Duck("waddles")); <<<<---Correct
 - ducks.add(new Waddles());
 
+#### Q50. If you encounter `UnsupportedClassVersionError` it means the code was **\_** on a newer version of Java than the JRE **\_** it.
+
+- executed; interpreting
+- executed; compiling
+- compiled; executing <<<<--- Correct
+- compiled, translating
+
+#### Q51. Given this class, how would you make the code compile?
+
+```java
+public class TheClass {
+	private final int x;
+}
+```
+
+- ```java
+  public TheClass() {
+  	x += 77;
+  }
+  ```
+
+- ```java
+  public TheClass() {
+  	x = null;
+  }
+  ```
+
+- ```java
+  public TheClass() {
+  	x = 77;
+  }
+  ```
+
+  <<<<--- Correct
+
+- ```java
+  private void setX(int x) {
+  	this.x = x;
+  }
+  public TheClass() {
+  	setX(77);
+  }
+  ```
