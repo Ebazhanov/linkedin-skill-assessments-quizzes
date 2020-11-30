@@ -341,7 +341,7 @@ android.permission.ACCESS_NETWORK_STATE
       ![img](image/00.jpeg)
 - [ ] B
       ![img](image/01.jpeg)
-- [ ] C
+- [x] C
       ![img](image/02.jpeg)
 - [ ] D
       ![img](image/03.jpeg)
@@ -356,15 +356,15 @@ dialerIntent.data = Uri.parse("tel:" + et.getText()?.toString())
 startActivity(dialerIntent)
 ```
 
-- [ ] `startActivityWithResult()` should be used instead of `startActivity()` when uing `Intent.ACTION_DIAL`.
+- [x] `startActivityWithResult()` should be used instead of `startActivity()` when using `Intent.ACTION_DIAL`.
 - [ ] For `Intent.ACTION_DIAL`, the `Intent` option `Intent.FLAG_ACTIVITY_NEW_TASK` must be added when using this `dialerIntent`.
 - [ ] The `dialerIntent` will cause an ActivityNotFoundException to be thrown on devices that do not support `Intent.ACTION_DIAL`.
-- [x] The permission `android.permission.CALL_PHONE` must be requested first before `Intent.ACTION_DIAL` can be used.
+- [ ] The permission `android.permission.CALL_PHONE` must be requested first before `Intent.ACTION_DIAL` can be used.
 
 #### Q29. When should you store files in the `/assets` directory?
 
-- [ ] when you need access to the original file names and file hierarchy
-- [x] when you need access to the file with its `resource ID`, like `R.assets.filename`
+- [x] when you need access to the original file names and file hierarchy
+- [ ] when you need access to the file with its `resource ID`, like `R.assets.filename`
 - [ ] when you have XML files that define tween animations
 - [ ] when you need to access the file in its raw form using `Resources.openRawResource()`
 
@@ -377,10 +377,10 @@ startActivity(dialerIntent)
 
 #### Q31. When would you use the `ActivityCompat.shouldShowRequestPermissionRationale()` function?
 
-- [x] when a user first opens your app and you want to provide an explanation for the use of a given permission
+- [ ] when a user first opens your app and you want to provide an explanation for the use of a given permission
 - [ ] when a user has previously denied the request for a given permission and selects "Tell me more"
 - [ ] when a user has previously denied the request for a given permission and you want to provide an explanation for its use
-- [ ] when a user has previously denied the request for a given permission and selected "Don't ask again," but you need the permission for your app to function
+- [x] when a user has previously denied the request for a given permission and selected "Don't ask again," but you need the permission for your app to function
 
 #### Q32. You would like to enable analytics tracking only in `release` builds. How can you create a new field in the generated `BuildConfig` class to store that value?
 
@@ -397,7 +397,7 @@ buildTypes {
 }
 ```
 
-- [x]
+- [ ]
 
 ```xml
 buildTypes {
@@ -410,7 +410,7 @@ buildTypes {
 }
 ```
 
-- [ ]
+- [x]
 
 ```xml
 buildTypes {
@@ -541,7 +541,7 @@ buildTypes {
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-#### Q36. Which source set is _not_ available o you by default when Android Studio creates a new project?
+#### Q36. Which source set is _not_ available to you by default when Android Studio creates a new project?
 
 - [ ] test
 - [ ] androidTest
@@ -556,7 +556,7 @@ buildTypes {
 	<activity android:name=".ExampleActivity" />
 ```
 
-- [ ]
+- [x]
 
 ```xml
 	<activity android:name=".ExampleActivity">
@@ -566,7 +566,7 @@ buildTypes {
 	</activity>
 ```
 
-- [x]
+- [ ]
 
 ```xml
 	<activity android:name=".ExampleActivity">
@@ -589,9 +589,9 @@ buildTypes {
 
 #### Q38. To preserve on-device memory, how might you determine that the user's device has limited storage capabilities?
 
-- [ ] Use the `ActivityManager.isLowRamDevice()` method to find out whether a device defines itself as "low RAM."
+- [x] Use the `ActivityManager.isLowRamDevice()` method to find out whether a device defines itself as "low RAM."
 - [ ] Use the `Activity.islowRam()` method to find out whether a device defines itself as "low RAM."
-- [x] Use the `ConnectivityManager.hasLowMemory()` method to find out whether a device defines itself as "low RAM."
+- [ ] Use the `ConnectivityManager.hasLowMemory()` method to find out whether a device defines itself as "low RAM."
 - [ ] Make an image download request and check the remaining device storage usage.
 
 #### Q39. What is _not_ a good way to reuse Android code?
