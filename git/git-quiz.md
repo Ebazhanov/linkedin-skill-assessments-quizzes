@@ -731,3 +731,10 @@ Which of the following options is correct ?
 - [ ] 1. Master 2. Release 3. Hotfix 4. Feature 5. Develop
 - [ ] 1. Develop 2. Master 3. Hotfix 4. Feature 5. Develop
 - [x] 1. Master 2. Hotfix 3. Develop 4. Feature 5. Release
+
+#### Q87. What information does the git config file store?
+
+- [ ] shell scripts and flags
+- [ ] keychain and account information
+- [x] local and global repository options
+- [ ] pre-compile scripts and settings
