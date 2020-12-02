@@ -35,10 +35,10 @@ done
 
 #### Q3. To run a copy command in a subshell, which syntax would you use?
 
-- [x] `**( command )**`
-- [ ] `**sh command**`
-- [ ] `**{ command; }**`
-- [ ] `**(( command ))**`
+- [x] `( command )`
+- [ ] `sh command`
+- [ ] `{ command; }`
+- [ ] `(( command ))`
 
 #### Q4. Using "awk", what would the output of this command string be?
 
