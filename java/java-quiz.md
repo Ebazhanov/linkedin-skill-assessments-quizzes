@@ -774,11 +774,11 @@ public class Solution {
 - 5
 - A Runtime exception will be thrown
 
-#### Q53. Which statements about abstract classes are true?
+#### Q53. Which statements about `abstract` classes are true?
 
-- 1. They can be instantiated.
-- 2. They allow member variables and methods to be inherited by subclasses.
-- 3. They can contain constructors.
+1. They can be instantiated.
+2. They allow member variables and methods to be inherited by subclasses.
+3. They can contain constructors.
 
 - 1, 2, and 3
 - only 3
@@ -795,10 +795,10 @@ public class Solution {
 #### Q55. What is the result of this code?
 
 ```java
-  int a = 1;
-  int b = 0;
-  int c = a/b;
-  System.out.println(c);
+  1: int a = 1;
+  2: int b = 0;
+  3: int c = a/b;
+  4: System.out.println(c);
 ```
 
 - It will throw an ArithmeticException. <<<<--- Correct
