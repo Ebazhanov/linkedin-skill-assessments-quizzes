@@ -166,3 +166,31 @@
 - [ ] Configure an external name. Configure the clients to connect via the external name.
 - [x] Configure a node port. COnfigure the clients to connect via the node port.
 - [ ] Configure a load balancer. Configure the clients to connect via the load balancer.
+
+#### Q24. You want to capture the message acknowledgment state of a subscription at a given time. What do you do?
+
+- [ ] Create a Cloud Pub/Sub subscription backup.
+- [ ] Create a Cloud Pub/Sub subscription topic.
+- [x] Create a Cloud Pub/Sub subscription snapshot.
+- [ ] Create a Cloud Pub/Sub subscription.
+
+#### Q25. You need to set a bucket storage class for data that will be accessed once a month or less. Which type do you select?
+
+- [ ] coldline
+- [ ] multi-regional
+- [ ] regional
+- [x] nearline
+
+#### Q26. Which command copies a file named test.txt to a Cloud Storage bucket named myBucket?
+
+- [ ] `gcloud cp gs://myBucket test.txt`
+- [ ] `gsutil cp gs://myBucket test.txt`
+- [ ] `gcloud cp test.txt gs://myBucket`
+- [x] `gsutil cp test.txt gs://myBucket`
+
+#### Q27. Which command adds a column family named `cf1` to your Bigtable table named `my-table`?
+
+- [ ] `cbt createfamily cf1 my-table`
+- [x] `cbt createfamily my-table cf1`
+- [ ] `gcloud createfamily cf1 my-table cf1`
+- [ ] `gcloud createfamily my-table cf1`
