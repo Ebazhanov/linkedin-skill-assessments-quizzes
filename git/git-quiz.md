@@ -738,3 +738,9 @@ Which of the following options is correct ?
 - [ ] keychain and account information
 - [x] local and global repository options
 - [ ] pre-compile scripts and settings
+
+<details><summary>Explanation</summary><p>
+
+[Reference](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config#:~:text=The%20git%20config%20command%20is,modify%20a%20configuration%20text%20file.)
+
+</p></details>
