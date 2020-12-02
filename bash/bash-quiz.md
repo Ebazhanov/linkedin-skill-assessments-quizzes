@@ -35,10 +35,10 @@ done
 
 #### Q3. To run a copy command in a subshell, which syntax would you use?
 
-- [x] ( command )
-- [ ] sh command
-- [ ] { command; }
-- [ ] (( command ))
+- [x] `( command )`
+- [ ] `sh command`
+- [ ] `{ command; }`
+- [ ] `(( command ))`
 
 #### Q4. Using "awk", what would the output of this command string be?
 
@@ -307,15 +307,16 @@ echo ${!fname}
 
 #### Q30. What will be the output of this script?
 
-![question](questionimages/Q30/question.jpg)
+![question](questionimages/Q30/question.png)
 
-- [ ] `A` ![A](questionimages/Q30/A.jpg)
-- [ ] `B` ![B](questionimages/Q30/B.jpg)
-- [x] `C` ![C](questionimages/Q30/C.jpg)
-- [ ] `D` ![D](questionimages/Q30/D.jpg)
+- [ ] `A` ![A](questionimages/Q30/A.png)
+- [ ] `B` ![B](questionimages/Q30/B.png)
+- [x] `C` ![C](questionimages/Q30/C.png)
+- [ ] `D` ![D](questionimages/Q30/D.png)
 
 Here a text based version of Q.30:
 
+```bash
 ll
 -rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30 .
 -rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30 ..
@@ -325,30 +326,44 @@ ll
 
 ll | sed -e 's,file,text,g'
 
-a) []
--rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30 .
--rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30 ..
--rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file1.file
--rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file2.file
-..
+```
 
-b) []
--rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30 .
--rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30 ..
--rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file1.txt
--rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file2.txt
-..
+- [ ] A
 
-c) []
--rw-r--r-- 1 frankmolev staff 68 Jun 3 19:30 .
--rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30 ..
+```
+  -rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30 .
+  -rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30 ..
+  -rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file1.file
+  -rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file2.file
+  ..
+```
 
-d) [x]
+- [ ] B
+
+```
+  -rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30 .
+  -rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30 ..
+  -rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file1.txt
+  -rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file2.txt
+  ..
+```
+
+- [ ] C
+
+```
+  -rw-r--r-- 1 frankmolev staff 68 Jun 3 19:30 .
+  -rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30 ..
+```
+
+- [x] D
+
+```
 -rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30 .
 -rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30 ..
 -rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 text1.txt
 -rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 text.txt
 ..
+```
 
 #### Q31. What is wrong with this script?
 
@@ -482,7 +497,7 @@ fi
 ```
 
 - [x] Any sequence of characters that includes an integer
-- [ ] The user would have to enter the character sequence of ^[0-9]]+$ Only this will prove to be true and "Is numeric" would be printed on the screen due to incorrect syntax. By encapsulating the regular expression in double quotes every match will fail except the text string ^[0-9]+$
+- [ ] The user would have to enter the character sequence of `^[0-9]]+$` Only this will prove to be true and "Is numeric" would be printed on the screen due to incorrect syntax. By encapsulating the regular expression in double quotes every match will fail except the text string `^[0-9]+$`
 - [ ] One or more characters that only includes integers
 - [ ] Due to a syntax error it is impossible to get the script to print "Is numeric"
 
@@ -534,22 +549,23 @@ echo $greeting, everybody!
 #### Q47. Which statement checks whether the variable num is greater than five?
 
 - [ ] (( \$num -gt 5 ))
-- [ ] [[ $num -lt 5 ]]
+- [ ] [[$num -lt 5]]
 - [x] (( \$num > 5 ))
 - [ ] \$num > 5
 
 #### Q48. Using Bash extended globbing, what will be the output of this command?
 
-ls -l
+```bash
+$ ls -l
 apple
 banana
 bananapple
 banapple
 pineapple
 strawberry
-
-\$ shopt -s extglob
-ls -l @(ba\*(na)|a+(p)le)
+$ shopt -s extglob
+$ ls -l @(ba*(na)|a+(p)le)
+```
 
 - [ ] a
 
@@ -592,37 +608,43 @@ pineapple
 #### Q49. When used from within a script, which variable contains the name of the script?
 
 - [x] \$0
-- [] \$# // number of positional parameters
-- [] \$\$ // pid of the current shell
-- [] \$@ // array-like construct of all positional parameters
+- [ ] \$# // number of positional parameters
+- [ ] \$\$ // pid of the current shell
+- [ ] \$@ // array-like construct of all positional parameters
 
 #### Q50. What does the + signify at the end of the 10-digit file permissions on data.txt?
 
+```bash
 ls -l
 -rwx------+ 1 user1 u1 0 Oct 1 10:00 data.txt
+```
 
-- [] There is an SELinux security context
-- [] The sticky bit is set and the file will stay in RAM for speed
+- [ ] There is an SELinux security context
+- [ ] The sticky bit is set and the file will stay in RAM for speed
 - [x] There is an access control list
-- [] There is an extended attribute such as immutable set
+- [ ] There is an extended attribute such as immutable set
 
 Training questions
 
 #### Q1. What does this command do?
 
+```bash
 cat > notes -
+```
 
 - [x] Accepts text from standard input and places it in "notes"
-- [] Creates "notes" and exits
-- [] Outputs the content of notes and deletes it
-- [] Appends text to the existing "notes"
+- [ ] Creates "notes" and exits
+- [ ] Outputs the content of notes and deletes it
+- [ ] Appends text to the existing "notes"
 
 #### Q2. What is the output of:
 
+```bash
 VAR="This old man came rolling"
 echo "\${VAR//man/rolling}"
+```
 
-- [x]This old rolling came rolling
-- []This old man came man
-- []This old man came rolling
-- []This old came
+- [x] This old rolling came rolling
+- [ ] This old man came man
+- [ ] This old man came rolling
+- [ ] This old came
