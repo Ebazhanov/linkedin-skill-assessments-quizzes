@@ -756,3 +756,21 @@ public class TheClass {
   	setX(77);
   }
   ```
+  
+#### Q52. How many times f will be printed?
+
+```
+public class Solution {
+	public static void main(String[] args) {
+		for (int i = 44; i > 40; i--) {
+			System.out.println("f");
+		}
+	}
+}
+```
+
+- 4 <<<<---Correct
+- 3
+- 5
+- A Runtime exception will be thrown
+
