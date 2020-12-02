@@ -1,7 +1,7 @@
 # Linkedin-quiz-questions
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-185-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-186-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
@@ -337,6 +337,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/vsDizzy"><img src="https://avatars1.githubusercontent.com/u/5798340?v=4" width="100px;" alt=""/><br /><sub><b>vsDizzy</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=vsDizzy" title="Code">💻</a> <a href="#design-vsDizzy" title="Design">🎨</a></td>
     <td align="center"><a href="http://facebook.com/fcuadillera"><img src="https://avatars0.githubusercontent.com/u/17181425?v=4" width="100px;" alt=""/><br /><sub><b>Frex Cuadillera</b></sub></a><br /><a href="#design-frexcuadillera" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=frexcuadillera" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ashish570"><img src="https://avatars3.githubusercontent.com/u/61080406?v=4" width="100px;" alt=""/><br /><sub><b>ashish570</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=ashish570" title="Code">💻</a> <a href="#design-ashish570" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/ruchpeanuts"><img src="https://avatars0.githubusercontent.com/u/29301900?v=4" width="100px;" alt=""/><br /><sub><b>ruchpeanuts</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=ruchpeanuts" title="Code">💻</a></td>
   </tr>
 </table>
 
