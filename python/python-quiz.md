@@ -4,17 +4,17 @@
 
 #### Q1. What is an abstract class?
 
-- [ ] `An abstract class is the name for any class from which you can instantiate an object.`
-- [ ] `Abstract classes must be redefined any time an object is instantiated from them`
-- [ ] `Abstract classes must inherit from concrete classes.`
-- [x] `An abstract class exists only so that other "concrete" classes can inherit from the abstract class.`
+- [ ] An abstract class is the name for any class from which you can instantiate an object.
+- [ ] Abstract classes must be redefined any time an object is instantiated from them.
+- [ ] Abstract classes must inherit from concrete classes.
+- [x] An abstract class exists only so that other "concrete" classes can inherit from the abstract class.
 
-#### Q2. What happens when you use the build-in function "any()" on a list?
+#### Q2. What happens when you use the build-in function `any()` on a list?
 
-- [ ] `The "any()" function will randomly return any item from the list.`
-- [x] `The "any()" function returns True if any item in the list evaluates to True. Otherwise, it returns False.`
-- [ ] `The "any()" function takes as arguments the list to check inside, and the item to check for. If "any" of the items in the list match the item to check for, the function returns True.`
-- [ ] `The "any()" function returns a Boolean value that answers the question "Are there any items in this list?"`
+- [ ] The `any()` function will randomly return any item from the list.
+- [x] The `any()` function returns True if any item in the list evaluates to True. Otherwise, it returns False.
+- [ ] The `any()` function takes as arguments the list to check inside, and the item to check for. If "any" of the items in the list match the item to check for, the function returns True.
+- [ ] The `any()` function returns a Boolean value that answers the question "Are there any items in this list?"
 
 #### Q3. What data structure does a binary tree degenerate to if it isn't balanced properly?
 
@@ -32,10 +32,10 @@
 
 #### Q5. What are attributes?
 
-- [ ] `Attributes are long-form version of an "if/else" statement, used when testing for equality between objects.`
-- [ ] `Attributes are a way to hold data or describe a state for a class or an instance of a class.`
-- [ ] `Attributes are strings that describe characteristics of a class.`
-- [x] `Function arguments are called "attributes" in the context of class methods and instance methods.`
+- [ ] Attributes are long-form version of an `if/else` statement, used when testing for equality between objects.
+- [ ] Attributes are a way to hold data or describe a state for a class or an instance of a class.
+- [ ] Attributes are strings that describe characteristics of a class.
+- [x] Function arguments are called "attributes" in the context of class methods and instance methods.
 
 #### Q6. What is the term to describe this code?
 
@@ -153,12 +153,12 @@ return list(enumerate(college_years, 2019)
 - [ ] `[('Freshman', 'Sophomore', 'Junior', 'Senior'), (2019, 2020, 2021, 2022)]`
 - [x] `[(2019, 'Freshman'), (2020, 'Sophomore'), (2021, 'Junior'), (2022, 'Senior')]`
 
-#### Q14. How does "defaultdict" work?
+#### Q14. How does `defaultdict` work?
 
-- [ ] `"defaultdict" will automatically create a dictionary for you that has keys which are the integers 0-10`
-- [ ] `"defaultdict" forces a dictionary to only accept keys that are of the types specified when you created the "defaultdict" (such as string or integers).`
-- [x] `If you try to access a key in a dictionary that doesn't exist, "defaultdict" will create a new key for you instead of throwing a "KeyError".`
-- [ ] `"defaultdict" stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.`
+- [ ] `defaultdict` will automatically create a dictionary for you that has keys which are the integers 0-10.
+- [ ] `defaultdict` forces a dictionary to only accept keys that are of the types specified when you created the `defaultdict` (such as string or integers).
+- [x] If you try to access a key in a dictionary that doesn't exist, `defaultdict` will create a new key for you instead of throwing a `KeyError`.
+- [ ] `defaultdict` stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.
 
 #### Q15. What is the correct syntax for defining a class called "Game", if it inherits from a parent class called "LogicGame"?
 
@@ -278,10 +278,10 @@ else:
 
 #### Q24. What does the built-in map() function do?
 
-- [ ] `It creates a path from multiple values in an iterable to a single value.`
-- [x] `It applies a function to each item in an iterable and returns the value of that function.`
-- [ ] `It converts a complex value type into simpler value types.`
-- [ ] `It creates a mapping between two different elements of different iterables.`
+- [ ] It creates a path from multiple values in an iterable to a single value.
+- [x] It applies a function to each item in an iterable and returns the value of that function.
+- [ ] It converts a complex value type into simpler value types.
+- [ ] It creates a mapping between two different elements of different iterables.
 
 #### Q25. If you don't explicitly return a value from a function, what happens?
 
@@ -290,12 +290,12 @@ else:
 - [ ] `If the return keyword is absent, the function will return True.`
 - [ ] `The function will enter an infinite loop because it won't know when to stop executing its code.`
 
-#### Q26. What is the purpose of the pass statement in Python?
+#### Q26. What is the purpose of the `pass` statement in Python?
 
-- [ ] `It is used to skip the yield statement of a generator and return a value of None.`
-- [x] `It is a null operation used mainly as a placeholder in functions, classes, etc.`
-- [ ] `It is used to pass control from one statement block to another.`
-- [ ] `It is used to skip the rest of a while or for loop and return to the start of the loop.`
+- [ ] It is used to skip the `yield` statement of a generator and return a value of None.
+- [x] It is a null operation used mainly as a placeholder in functions, classes, etc.
+- [ ] It is used to pass control from one statement block to another.
+- [ ] It is used to skip the rest of a `while` or `for loop` and return to the start of the loop.
 
 #### Q27. What is the term used to describe items that may be passed into a function?
 
@@ -320,20 +320,22 @@ else:
 
 #### Q30. Assuming the node is in a singly linked list, what is the runtime complexity of searching for a specific node within a singly linked list?
 
-- [x] `The runtime is O(n) because in the worst case, the node you are searching for is the last node, and every node in the linked list must be visited.`
-- [ ] `The runtime is O(nk), with n representing the number of nodes and k representing the amount of time it takes to access each node in memory.`
-- [ ] `The runtime cannot be determined unless you know how many nodes are in the singly linked list.`
-- [ ] `The runtime is O(1) because you can index directly to a node in a singly linked list.`
+- [x] The runtime is O(n) because in the worst case, the node you are searching for is the last node, and every node in the linked list must be visited.
+- [ ] The runtime is O(nk), with n representing the number of nodes and k representing the amount of time it takes to access each node in memory.
+- [ ] The runtime cannot be determined unless you know how many nodes are in the singly linked list.
+- [ ] The runtime is O(1) because you can index directly to a node in a singly linked list.
 
 #### Q31. Given the following three list, how would you create a new list that matches the desired output printed below?
 
 ```
-fruits = ['apples', 'oranges', 'bananas']
+fruits = ['Apples', 'Oranges', 'Bananas']
 quantities = [5, 3, 4]
 prices = [1.50, 2.25, 0.89]
 
 # Desired output
-[('Apples', 5, 1.50), ('Oranges', 3, 2.25), ('Bananas', 4, 0.89)]
+[('Apples', 5, 1.50),
+('Oranges', 3, 2.25),
+('Bananas', 4, 0.89)]
 ```
 
 - [ ] `-`
@@ -371,6 +373,12 @@ return output
 ```
 groceries = zip(fruits, quantities, prices)
 return groceries
+
+>>> [
+('Apples', 5, 1.50),
+('Oranges', 3, 2.25),
+('Bananas', 4, 0.89)
+]
 ```
 
 - [ ] `-`
@@ -439,10 +447,10 @@ return output
 
 #### Q36. What is key difference between a set and a list?
 
-- [ ] `A set is an ordered collection unique items. A list is an unordered collection of non-unique items.`
-- [ ] `Elements can be retrieved from a list but they cannot be retrieved from a set`
-- [ ] `A set is an ordered collection of non-unique items. A list is an unordered collection of unique items.`
-- [x] `A set is an unordered collection unique items. A list is an ordered collection of non-unique items.`
+- [ ] A set is an ordered collection unique items. A list is an unordered collection of non-unique items.
+- [ ] Elements can be retrieved from a list but they cannot be retrieved from a set.
+- [ ] A set is an ordered collection of non-unique items. A list is an unordered collection of unique items.
+- [x] A set is an unordered collection unique items. A list is an ordered collection of non-unique items.
 
 #### Q37. What is the definition of abstraction as applied to object-oriented Python?
 
@@ -502,7 +510,7 @@ b 1 2 3
 c 1 2 3
 ```
 
-#### Q39. What is the correct syntax for calling an instance method on a class named Game?
+#### Q39. What is the correct syntax for calling an instance method on a class named `Game`?
 
 - [x] `-`
 
@@ -664,12 +672,12 @@ fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
 - [ ] `dynamic programming`
 - [ ] `decrease and conquer`
 
-#### Q51. What is the purpose of the self keyword when defining or calling methods on an instance of an object?
+#### Q51. What is the purpose of the `self` keyword when defining or calling methods on an instance of an object?
 
-- [ ] `self refers to the class that was inherited from to create the object using self.`
-- [ ] `There is no real purpose for the self method. It's just legacy computer science jargon that Python keeps to stay consistent with other programming languages.`
-- [ ] `self means that no other arguments are required to be passed into the method.`
-- [x] `self refers to the instance whose method was called.`
+- [ ] `self` refers to the class that was inherited from to create the object using `self`.
+- [ ] There is no real purpose for the `self` method. It's just legacy computer science jargon that Python keeps to stay consistent with other programming languages.
+- [ ] `self` means that no other arguments are required to be passed into the method.
+- [x] `self` refers to the instance whose method was called.
 
 #### Q52. What is a class method?
 
@@ -694,17 +702,17 @@ fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
 
 #### Q55. According to the PEP 8 coding style guidelines, how should constant values be named in Python?
 
-- [ ] `in camel case without using underscores to separate words -- e.g. maxValue = 255`
-- [ ] `in lowercase with underscores to separate words -- e.g. max_value = 255`
-- [x] `in all caps with underscores separating words -- e.g. MAX_VALUE = 255`
-- [ ] `in mixed case without using underscores to separate words -- e.g. MaxValue = 255`
+- [ ] in camel case without using underscores to separate words -- e.g. `maxValue = 255`
+- [ ] in lowercase with underscores to separate words -- e.g. `max_value = 255`
+- [x] in all caps with underscores separating words -- e.g. `MAX_VALUE = 255`
+- [ ] in mixed case without using underscores to separate words -- e.g. `MaxValue = 255`
 
-#### Q56. Describe the functionality of a deque
+#### Q56. Describe the functionality of a deque.
 
-- [ ] `A deque adds items to one side and remove items from the other side.`
-- [ ] `A deque adds items to either or both sides, but only removes items from the top.`
-- [x] `A deque adds items at either or both ends, and remove items at either or both ends.`
-- [ ] `A deque adds items only to the top, but remove from either or both sides.`
+- [ ] A deque adds items to one side and remove items from the other side.
+- [ ] A deque adds items to either or both sides, but only removes items from the top.
+- [x] A deque adds items at either or both ends, and remove items at either or both ends.
+- [ ] A deque adds items only to the top, but remove from either or both sides.
 
 #### Q57. What is the correct syntax for creating a variable that is bound to a set?
 
@@ -745,57 +753,35 @@ def __init__(self):
 
 #### Q59. Which statement about the class methods is true?
 
-- [ ] `A class method holds all of the data for a particular class.`
-- [x] `A class method can modify the state of the class, but it cannot directly modify the state of an instance that inherits from that class.`
-- [ ] `A class method is a regular function that belongs to a class, but it must return None`
-- [ ] `A class method is similar to a regular function, but a class method does not take any arguments.`
+- [ ] A class method holds all of the data for a particular class.
+- [x] A class method can modify the state of the class, but it cannot directly modify the state of an instance that inherits from that class.
+- [ ] A class method is a regular function that belongs to a class, but it must return `None`
+- [ ] A class method is similar to a regular function, but a class method does not take any arguments.
 
-### 65 Which of the following is TRUE About how numeric data would be organised in a banary Search tree ? 
+#### Q60. Which of the following is TRUE About how numeric data would be organised in a banary Search tree?
 
-- [X] `For any given Node in a binary Search Tree, the child node to  the left is less than the value of the given node and the child node to its right is greater than the given node.` (Not Sure)
+- [x] `For any given Node in a binary Search Tree, the child node to the left is less than the value of the given node and the child node to its right is greater than the given node.` (Not Sure)
 - [ ] `Binary Search Tree cannot be used to organize and search through numeric data, given the complication that arise with very deep trees`
 - [ ] `The top node of the binary search tree would be an arbitray number. All the nodes to the left of the top node need to be less than the top node's number, but they don't need to ordered in any particular way`
 - [ ] `The smallest numeric value would go in the top most node. The next highest number would go in its left child node, the the next highest number after that would go in its right child node. This pattern would continue until all numeric values were in their own node`
 
+#### Q61. Why would you use a decorator?
 
-###66 Why would you use a decorator?
 - [ ] `A decorator is similar to a class and should be used if you are doing functional programming instead of object oriented programming.`
 - [ ] `A decoratore is a visual indicator to someone reading your code that a portion of your code is critical and should not be changed`
-- [X] `You use the decorator to alter the functionality of a function without the without having to modify the functions code`
+- [x] `You use the decorator to alter the functionality of a function without the without having to modify the functions code`
 - [ ] `An import statement is preceded by a decorator, pyhton knows to import the most recent version of whatever package or library is being imported`
 
-
-
-### 67 When would you use a for loop ? 
+#### Q62. When would you use a for loop ?
 
 - [ ] `Only in some situations, as loops are used ony for certaing type of programming `
 - [x] `When you need to check every element in an iterable of known length`
 - [ ] `When you want to minimize the use of strings in your code `
 - [ ] `When you want to run code in one file for a function in another file `
 
+#### Q63. What are attributes? The answer Provided is wrong in ###5 the correct is as following
 
-###Q5. What are attributes? The answer Provided is wrong in ###5 the correct is as following
-- [ ]  Attributes are long-form version of an "if/else" statement, used when testing for equality between objects.
-- [X]  Attributes are a way to hold data or describe a state for a class or an instance of a class.
-- [ ]  Attributes are strings that describe characteristics of a class.
+- [ ] Attributes are long-form version of an "if/else" statement, used when testing for equality between objects.
+- [x] Attributes are a way to hold data or describe a state for a class or an instance of a class.
+- [ ] Attributes are strings that describe characteristics of a class.
 - [ ] Function arguments are called "attributes" in the context of class methods and instance methods.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
