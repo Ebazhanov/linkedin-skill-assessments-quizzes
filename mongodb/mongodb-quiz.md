@@ -128,17 +128,17 @@
 
 #### Q19. How do you find documents with a matching item in an embedded array?
 
-- [ ] db.customers.findmatch ({"jobs":"secretary"})
-- [ ] db.customers.find ({"jobs:secretary"})
-- [ ] db.customers.find ({"jobs":["secretary"]})
-- [x] db.customers.find ({"jobs":"secretary"})
+- [ ] `**db.customers.findmatch ({"jobs":"secretary"})**`
+- [ ] `**db.customers.find ({"jobs:secretary"})**`
+- [ ] `**db.customers.find ({"jobs":["secretary"]})**`
+- [x] `**db.customers.find ({"jobs":"secretary"})**`
 
 #### Q20. Which query bypasses the first 5 customers and returns the next 10?
 
-- [ ] db.customers.find({}, {skip: 5, limit: 10})
-- [ ] db.customers.find({}.page(5).take(10))
-- [ ] db.customers.find({}).skip(5).take(10)
-- [x] db.customers.find({}).skip(5).limit(10)
+- [ ] `**db.customers.find({}, {skip: 5, limit: 10})**`
+- [ ] `**db.customers.find({}.page(5).take(10))**`
+- [ ] `**db.customers.find({}).skip(5).take(10)**`
+- [x] `**db.customers.find({}).skip(5).limit(10)**`
 
 #### Q21. How do you create a text index?
 
@@ -184,10 +184,10 @@
 
 #### Q27. Which command returns all of the documents in the customers collection?
 
-- [ ] db.customers.all()
-- [ ] db.find().customers();
-- [x] db.customers.find();
-- [ ] db.customers.show()
+- [ ] `**db.customers.all()**`
+- [ ] `**db.find().customers();**`
+- [x] `**db.customers.find();**`
+- [ ] `**db.customers.show()**`
 
 #### Q28. Given a cursor named myCursor, pointing to the customers collection, how to you get basic info about it?
 
@@ -254,38 +254,38 @@
 
 #### Q37. You would like the stats() command to return kilobytes instead of bytes. Which command should you run?
 
-- [x] db.vehicle.stats(1024)
-- [ ] db.vehicle.stats("kilobytes")
-- [ ] db.vehicle.stats(true)
-- [ ] db.vehicle.stats("kb")
+- [x] `db.vehicle.stats(1024)`
+- [ ] `db.vehicle.stats("kilobytes")`
+- [ ] `db.vehicle.stats(true)`
+- [ ] `db.vehicle.stats("kb")`
 
 #### Q38. You'd like to modify an existing index. What is the best way to do this?
 
-- [ ] Use the reIndex() command to modify the index.
+- [ ] Use the `reIndex()` command to modify the index.
 - [x] Delete the original index and create a new index.
-- [ ] Call the createIndex() command with the update option.
-- [ ] Use the updateIndex() command.
+- [ ] Call the `createIndex()` command with the update option.
+- [ ] Use the `updateIndex()` command.
 
 #### Q39. You need to delete the index you created on the description field. Which command will accomplish this?
 
-- [x] db.vehicle.dropIndex("description_text")
-- [ ] db.vehicle.dropIndex({"description":"text"})
-- [ ] db.vehicle.removeIndex({"description":"text"})
-- [ ] db.vehicle.removeIndex("description_text")
+- [x] `db.vehicle.dropIndex("description_text")`
+- [ ] `db.vehicle.dropIndex({"description":"text"})`
+- [ ] `db.vehicle.removeIndex({"description":"text"})`
+- [ ] `db.vehicle.removeIndex("description_text")`
 
 #### Q40. You would like to know how many different categories you have. Which query will best get the job done?
 
-- [ ] db.vehicle.distinct("category")
-- [ ] db.vehicle.unique("category")
-- [x] db.vehicle.distinct("category").count()
-- [ ] db.vehicle.distinct("category").length
+- [ ] `db.vehicle.distinct("category")`
+- [ ] `db.vehicle.unique("category")`
+- [x] `db.vehicle.distinct("category").count()`
+- [ ] `db.vehicle.distinct("category").length`
 
 #### Q41. From the MongoDB shell, how do you create a new document in the customers collection?
 
-- [ ] db.customers.add({name: "Bob"})
-- [ ] db.customers.save({name: "Bob"})
-- [x] db.customers.create({name: "Bob"})
-- [ ] db.customers.new({name: "Bob"})
+- [ ] `**db.customers.add({name: "Bob"})**`
+- [ ] `**db.customers.save({name: "Bob"})**`
+- [x] `**db.customers.create({name: "Bob"})**`
+- [ ] `**db.customers.new({name: "Bob"})**`
 
 #### Q42. Which field is required of all MongoDB documents?
 
@@ -303,7 +303,21 @@
 
 #### Q44. Which shell query displays all citizens with an age greater than or equal to 21?
 
-- [ ] db.citizens.find('WHERE age >= 21')
-- [x] db.citizens.find({age: {\$gte: 21}})
-- [ ] db.citizens.where('age >= 21')
-- [ ] dbcitizens.select('WHERE age >=21')
+- [ ] `**db.citizens.find('WHERE age >= 21')**`
+- [x] `**db.citizens.find({age: {\$gte: 21}})**`
+- [ ] `**db.citizens.where('age >= 21')**`
+- [ ] `**dbcitizens.select('WHERE age >=21')**`
+
+#### Q45. A MongoDB instance has at least what three files?
+
+- [x] data, namespcae, and journal
+- [ ] namespace, journal, and log
+- [ ] journal, data, and database
+- [ ] data, log, and journal
+
+#### Q46. You'd like a set of documents to be returned in last name, ascending order. Which query will accomplish this?
+
+- [ ] `db.persons.find().sort({lastName: -1}}`
+- [x] `db.persons.find().sort({lastName: 1}}`
+- [ ] `db.persons.find().sort({lastName: ascending}}`
+- [ ] `db.persons.find().sort({lastName: $asc}}`
