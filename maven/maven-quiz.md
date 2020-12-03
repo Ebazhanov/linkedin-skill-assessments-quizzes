@@ -209,3 +209,44 @@ mvn install
 - [x] JAR
 - [ ] EAR
 - [ ] POM
+
+#### Q30. What does the following command do?
+> mvn archetype:generate \
+    -DgroupID=sample-maven-project \
+    -DartifactID=com.palmer.bethan.sample \
+    -Dversion=1.0.0 \
+    -DinteractiveMode=false
+
+- [ ] It does nothing since no archetype has been specified
+- [ ] It generates a new Maven archetype
+- [x] It generates a new Maven projet using the default Maven archetype
+- [ ] It cleans and installs the sample-maven-project project
+
+#### Q31. When defining a dependency that is included with the runtime container, what scope do you use in the pom.xml?
+
+- [x] provided
+- [ ] compile
+- [ ] execution
+- [ ] runtime
+
+#### Q32. What argument do you pass to Maven in order to update SNAPSHOT from the remote repository?
+
+- [x] -U
+- [ ] -J
+- [ ] -X
+- [ ] -S
+
+#### Q33. When performing a release using the Maven release plugin, which environment variable for batch mode is used to define the stamp placed in SCM to indicate the state of the artifact for the actual release?
+-not sure for the answer-
+- [ ] tag
+- [ ] scmMark
+- [ ] developmentVersion
+- [x] releaseVersion 
+
+#### Q34. These are two general uses of plugins. The first is build and the second is _____
+
+- [x] reporting
+- [ ] servers
+- [ ] dependencies
+- [ ] distribution management
+
