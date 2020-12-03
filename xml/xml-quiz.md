@@ -178,7 +178,7 @@
 
 #### Q16. The <xsl:with-param> element defines the value of a parameter to be passed into a template. It can be used within which elements?
 
-- [ ] <xsl:apply-templates>and<xsl:call-template>
+- [x] <xsl:apply-templates>and<xsl:call-template>
 - [ ] <xsl:param>and<xsl:processing-instruction>
 - [ ] <xsl:template>and<xsl:transform>
 - [ ] <xsl:include>and<xsl:variable>
@@ -189,3 +189,31 @@
 - [x] Leave it alone, because the prolog does not require a closing tag.
 - [ ] Move the prolog to an external file so thtat the XML document only has elements with closing tags.
 - [ ] Add a closing tag, as al XML elements must have a closing tag.
+
+#### Q18. Which statement is not true about XML?
+
+- [ ] XML is flexible and customizable.
+- [ ] XML can be used to store data.
+- [ ] XML is independent of Operating System.
+- [x] XML is a replacement for HTML.
+
+#### Q19. In an XML DTD ATTLIST declaration, which tokenized attribute type is used to specify multiple ID values?
+
+- [ ] ENTITIES
+- [x] IDREFS
+- [ ] IDS
+- [ ] IDSETS
+
+#### Q20. You want to convert a large XML file into CSV format. You did not create the XML file, so you are not familiar with all of the syntax. What will help you get the best insight into the file contents? 
+
+- [ ] XSLT
+- [ ] DOM
+- [ ] AJAX
+- [ ] XSD
+
+#### Q21. In an XML DTD, attributes are declared with an ATTLIST declaration. You need to validate the color attribute for element <car> against a fixed list of values. Which is the correct declaration? 
+
+- [ ] <!ATTLIST car color (red|white|blue|black) black>
+- [ ] <!ATTLIST car color (red|white|blue|black) #REQUIRED>	
+- [ ] <!ATTLIST car color (red|white|blue|black) #FIXED>
+- [ ] <!ATTLIST car color (red|white|blue|black)>
