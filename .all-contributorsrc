@@ -1782,6 +1782,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "Artmasque",
+      "name": "Artmasque",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/23199407?v=4",
+      "profile": "https://github.com/Artmasque",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
