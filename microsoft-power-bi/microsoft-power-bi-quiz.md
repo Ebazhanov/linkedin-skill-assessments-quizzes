@@ -93,7 +93,7 @@ Q11. What can you do within the Power Bl Desktop Query Settings pane? (Select al
     D. Reorder the steps.
 
     [ ] B, C, D
-    [ ] A, B, C, D
+    [X] A, B, C, D
     [ ] A, B, D
     [ ] A, B, C
 
@@ -106,7 +106,7 @@ Q12. After you enter text in the Q&A box or O&A visual, Power Bl will \_ your da
 
 Q13. You just deleted a dashboard in the Power Bl service and want to get it back. What should you do?
 
-    [ ] Press Ctrl+Z.
+    [X] Press Ctrl+Z.
     [ ] Select Undo from the toolbar.
     [ ] You cannot undo the deletion of a dashboard.
     [ ] Recover it from the Recycle Bin.
@@ -146,7 +146,7 @@ Q17. One of your data columns includes the city, state, and postal code line of 
 
 Q18. Formatting options within a visualization depend on what?
 
-    [ ] the visualization you are formatting
+    [X] the visualization you are formatting
     [ ] the editor you use
     [ ] the visualization group
     [ ] your permissions
