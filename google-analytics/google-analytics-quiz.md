@@ -110,7 +110,8 @@
 ### Q16. What is the hierarchy of a Google Analytics account?
 
 - Account > Property > Organization > Views
-- Organization > Account > Property > Views
+- Organization > Account > Property > Views <<<<<< Correct
+[proof link](https://support.google.com/analytics/answer/1009618?hl=en)
 - Organization > Property > Account > Views
 - Account > Organization > Property > Views
 
