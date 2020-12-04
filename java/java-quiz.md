@@ -756,7 +756,7 @@ public class TheClass {
   	setX(77);
   }
   ```
-  
+
 #### Q52. How many times f will be printed?
 
 ```
@@ -774,3 +774,41 @@ public class Solution {
 - 5
 - A Runtime exception will be thrown
 
+#### Q53. Which statements about `abstract` classes are true?
+
+1. They can be instantiated.
+2. They allow member variables and methods to be inherited by subclasses.
+3. They can contain constructors.
+
+- 1, 2, and 3
+- only 3
+- 2 and 3 <<<<--- Correct
+- only 2
+
+#### Q54. Which keyword lets you call the constructor of a parent class?
+
+- parent
+- super <<<<--- Correct
+- this
+- new
+
+#### Q55. What is the result of this code?
+
+```java
+  1: int a = 1;
+  2: int b = 0;
+  3: int c = a/b;
+  4: System.out.println(c);
+```
+
+- It will throw an ArithmeticException. <<<<--- Correct
+- It will run and output 0.
+- It will not compile because of line 3.
+- It will run and output infinity.
+
+#### Q56. Normally, to access a static member of a class such as Math.PI, you would need to specify the class "Math". What would be the best way to allow you to use simply "PI" in your code?
+
+- Add a static import. <<<<--- Correct
+- Declare local copies of the constant in your code.
+- This cannot be done. You must always qualify references to static members with the class form which they came from.
+- Put the static members in an interface and inherit from that interface.
