@@ -102,8 +102,8 @@
 
     - new Promise(child_process.exec())
     - util.promisify(child_process.exec())
-    - util.promisify(child_process.exec)
-    - new Promise(child_process.exec) <<<<----Correct
+    - util.promisify(child_process.exec) <<<<----Correct
+    - new Promise(child_process.exec)
 
 #### Q16. Which of the following is NOT a Node repl command?
 
@@ -124,17 +124,17 @@
 
 #### Q18. If EventEmitter is in scope, which of the following lines of code will have an event emitter emitting a change event?
 
-    - EventEmitter.emit(change);
+    - EventEmitter.emit(change);  <<<<----Correct //Because the EventEmitter is already in scope. No need to create new one.
     - EventEmitter.new().emit(change);
-    - (new EventEmitter()).emit(change); <<<<----Correct
+    - (new EventEmitter()).emit(change);
     - new EventEmitter(change);
 
 #### Q19. Which of the following objects is a stream
 
     - process.uptime
-    - process.stdout
+    - process.stdout <<<<-----Correct // Buffer is Buffer type.
     - process
-    - Buffer <<<<-----Correct
+    - Buffer
 
 #### Q20. Which module variable holds the resolved aboslute path of the current module file?
 

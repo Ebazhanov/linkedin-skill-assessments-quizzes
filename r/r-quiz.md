@@ -278,3 +278,18 @@ Output: [1] 2 3 4
 - [ ] x[-1]
 - [ ] x[c(-1, 0, 0, 0)]
 - [x] x[c(-1, 2, 3, 4)]
+
+#### Q29. Given DFMerged <- merge(DF1, DF2) and the image below, how manu rows are in DFMerged?
+
+```
+DF1(data frame 1): DF2(data frame 2):
+VarA VarB VarA VarD
+1 1 2 1 18 21
+2 4 5 2 19 22
+3 7 8 3 20 23
+```
+
+- [ ] 6
+- [ ] 9
+- [ ] 3
+- [x] 0

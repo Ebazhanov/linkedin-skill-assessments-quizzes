@@ -152,7 +152,7 @@
 - [ ] Protect Worksheet
 - [ ] Conditional Formatting
 - [ ] Allow Users to Edit Ranges
-- [ ] Data Validation
+- [x] Data Validation
 
 #### Q23. To round up a value to the nearest increment of your choice, such as the next five cents, what function should you use?
 

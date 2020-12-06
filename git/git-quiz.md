@@ -731,3 +731,16 @@ Which of the following options is correct ?
 - [ ] 1. Master 2. Release 3. Hotfix 4. Feature 5. Develop
 - [ ] 1. Develop 2. Master 3. Hotfix 4. Feature 5. Develop
 - [x] 1. Master 2. Hotfix 3. Develop 4. Feature 5. Release
+
+#### Q87. What information does the git config file store?
+
+- [ ] shell scripts and flags
+- [ ] keychain and account information
+- [x] local and global repository options
+- [ ] pre-compile scripts and settings
+
+<details><summary>Explanation</summary><p>
+
+[Reference](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config#:~:text=The%20git%20config%20command%20is,modify%20a%20configuration%20text%20file.)
+
+</p></details>
