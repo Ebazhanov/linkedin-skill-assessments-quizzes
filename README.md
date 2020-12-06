@@ -1,7 +1,7 @@
 # Linkedin-quiz-questions
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-167-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-170-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
@@ -9,14 +9,15 @@
 :point_right: If you want to improve your skills on another test platform [**Pluralsight IQ Skill**](https://www.pluralsight.com/product/skill-iq)
 find **questions and answers** in **@Timo Körner** [repository](https://github.com/tik9/pluralsight-skill-test).
 
-| Pluralsight IQ Skill quiz | Status |
-| ------------------------- | ------ |
-| [Aws Big Data](https://github.com/tik9/pluralsight/blob/master/aws_big_data.md) | Answers missing |
-| [Building Websites with HTML, CSS, and JavaScript](https://github.com/tik9/pluralsight/blob/master/building-websites.md) | ok |
-| [Java](https://github.com/tik9/pluralsight/blob/master/java.md) | ok |
-| [Mysql](https://github.com/tik9/pluralsight/blob/master/mysql.md) | ok |
-| [Powershell](https://github.com/tik9/pluralsight/blob/master/powershell.md) | non-offical |
-| [Python](https://github.com/tik9/pluralsight/blob/master/python.md) | ok |
+| Pluralsight IQ Skill quiz                                                                                                | Status      |
+| ------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| [Aws Big Data](https://github.com/tik9/pluralsight/blob/master/aws_big_data.md)                                          | ok          |
+| [Aws Machine Learning](https://github.com/tik9/pluralsight/blob/master/aws_machine_learning.md)                          | ok          |
+| [Building Websites with HTML, CSS, and JavaScript](https://github.com/tik9/pluralsight/blob/master/building-websites.md) | ok          |
+| [Java](https://github.com/tik9/pluralsight/blob/master/java.md)                                                          | ok          |
+| [Mysql](https://github.com/tik9/pluralsight/blob/master/mysql.md)                                                        | ok          |
+| [Powershell](https://github.com/tik9/pluralsight/blob/master/powershell.md)                                              | non-offical |
+| [Python](https://github.com/tik9/pluralsight/blob/master/python_core.md)                                                 | ok          |
 
 <img src="https://monosnap.com/image/mf3OkeABEfjiAFjYC8d0l7cE6yf52E"/>
 
@@ -24,7 +25,7 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 
 | Linkedin-quiz-questions                                                                                                                 | Status             |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| [Adobe-Illustrator](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/adobe-illustrator-quiz.md)               | answers required   |
+| [Adobe-Illustrator](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-illustrator/adobe-illustrator-quiz.md)             | answers required   |
 | [Adobe-Photoshop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/adobe-photoshop-quiz.md)                   | answers required   |
 | [Agile Methodologies](https://github.com/Ebazhanov/in-quiz-questions/blob/master/agile-methodologies/agile-methodologies-quiz.md)       | with answers       |
 | [Android](https://github.com/Ebazhanov/in-quiz-questions/blob/master/android/android-quiz.md)                                           | answers required   |
@@ -47,6 +48,7 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 | [jQuery](https://github.com/Ebazhanov/in-quiz-questions/blob/master/jquery/jquery-quiz.md) :open_mouth:                                 | with answers       |
 | [JSON](https://github.com/Ebazhanov/in-quiz-questions/blob/master/json/json-quiz.md)                                                    | with answers       |
 | [Machine Learning](https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/machine-learning-quiz.md)                | answers required   |
+| [MATLAB](https://github.com/Ebazhanov/in-quiz-questions/blob/master/matlab/matlab-quiz.md)                                              | with answers       |
 | [Maven](https://github.com/Ebazhanov/in-quiz-questions/blob/master/maven/maven-quiz.md) :fire:                                          | with answers       |
 | [Microsoft Azure](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-azure/microsoft-azure-quiz.md)                   | with answers       |
 | [Microsoft Excel](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-excel/microsoft-excel-quiz.md)                   | with answers       |
@@ -74,13 +76,18 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 | [WordPress](https://github.com/Ebazhanov/in-quiz-questions/blob/master/wordpress/wordpress-quiz.md)                                     | partially answered |
 | [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md)                                                       | answers required   |
 
+&nbsp;
+
 ## Format
 
-Format files using [Prettier](https://prettier.io/) code formatter.
+We recommend to format files using [Prettier](https://prettier.io/) code formatter. Prettier comes installed with the IDE [Vscode](code.visualstudio.com) which we recommend for preparing the md files. It works on all OS.
+If you want to run it independently, get **npm** and:
 
 ```sh
 npm run format
 ```
+
+&nbsp;
 
 ## Contributors ✨
 
@@ -292,7 +299,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://taylordorsett.com"><img src="https://avatars3.githubusercontent.com/u/16449771?v=4" width="100px;" alt=""/><br /><sub><b>Taylor Dorsett</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=TaylorOD" title="Code">💻</a> <a href="#content-TaylorOD" title="Content">🖋</a> <a href="#design-TaylorOD" title="Design">🎨</a></td>
     <td align="center"><a href="http://blog.havit.web.id/"><img src="https://avatars3.githubusercontent.com/u/17120764?v=4" width="100px;" alt=""/><br /><sub><b>Havit Rovik</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=haruelrovix" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/pushpapune"><img src="https://avatars1.githubusercontent.com/u/73734199?v=4" width="100px;" alt=""/><br /><sub><b>pushpapune</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=pushpapune" title="Code">💻</a> <a href="#design-pushpapune" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/rradfar"><img src="https://avatars3.githubusercontent.com/u/31255934?v=4" width="100px;" alt=""/><br /><sub><b>Ramtin Radfar</b></sub></a><br /><a href="#design-rradfar" title="Design">🎨</a> <a href="#ideas-rradfar" title="Ideas, Planning, & Feedback">🤔</a> <a href="#business-rradfar" title="Business development">💼</a></td>
+    <td align="center"><a href="https://github.com/rradfar"><img src="https://avatars3.githubusercontent.com/u/31255934?v=4" width="100px;" alt=""/><br /><sub><b>Ramtin Radfar</b></sub></a><br /><a href="#design-rradfar" title="Design">🎨</a> <a href="#ideas-rradfar" title="Ideas, Planning, & Feedback">🤔</a> <a href="#business-rradfar" title="Business development">💼</a> <a href="#financial-rradfar" title="Financial">💵</a></td>
     <td align="center"><a href="http://www.abdulmajeedisa.com"><img src="https://avatars0.githubusercontent.com/u/44467524?v=4" width="100px;" alt=""/><br /><sub><b>Abdulmajeed Isa</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=amajai" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/vikassaxena02"><img src="https://avatars2.githubusercontent.com/u/25317029?v=4" width="100px;" alt=""/><br /><sub><b>vikassaxena02</b></sub></a><br /><a href="#design-vikassaxena02" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/RobTables"><img src="https://avatars3.githubusercontent.com/u/52382103?v=4" width="100px;" alt=""/><br /><sub><b>RobTables</b></sub></a><br /><a href="#design-RobTables" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=RobTables" title="Code">💻</a> <a href="#business-RobTables" title="Business development">💼</a></td>
@@ -304,6 +311,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://marcobiedermann.com"><img src="https://avatars0.githubusercontent.com/u/5244986?v=4" width="100px;" alt=""/><br /><sub><b>Marco Biedermann</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=marcobiedermann" title="Code">💻</a> <a href="#design-marcobiedermann" title="Design">🎨</a> <a href="#business-marcobiedermann" title="Business development">💼</a> <a href="#ideas-marcobiedermann" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/srinidhimurthy"><img src="https://avatars3.githubusercontent.com/u/10862228?v=4" width="100px;" alt=""/><br /><sub><b>Srinidhi Murthy</b></sub></a><br /><a href="#design-srinidhimurthy" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/Hephaest"><img src="https://avatars2.githubusercontent.com/u/37981444?v=4" width="100px;" alt=""/><br /><sub><b>Miao Cai</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Hephaest" title="Code">💻</a> <a href="#design-Hephaest" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/dionicio-gp"><img src="https://avatars3.githubusercontent.com/u/26011982?v=4" width="100px;" alt=""/><br /><sub><b>Dionicio Diaz</b></sub></a><br /><a href="#design-dionicio-gp" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/mirmpro"><img src="https://avatars0.githubusercontent.com/u/14123130?v=4" width="100px;" alt=""/><br /><sub><b>Mir Monoarul Alam</b></sub></a><br /><a href="#design-mirmpro" title="Design">🎨</a></td>
+    <td align="center"><a href="https://www.shawnohn.com"><img src="https://avatars0.githubusercontent.com/u/16888656?v=4" width="100px;" alt=""/><br /><sub><b>Shawn Ohn</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=shawnohn" title="Code">💻</a> <a href="#design-shawnohn" title="Design">🎨</a></td>
   </tr>
 </table>
 

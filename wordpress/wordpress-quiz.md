@@ -133,7 +133,7 @@
 #### Q17. WP_Query is the WordPress query class that is used to fetch posts from the database. How would you create a new instance of this class?
 
 - [ ] `$query = new query_posts();`
-- [ ] `$query = new WP_Query();`
+- [x] `$query = new WP_Query();`
 - [ ] `$query = query_posts();`
 - [ ] `$query = get_posts();`
 
