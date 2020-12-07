@@ -279,7 +279,7 @@ main(){
 - [ ] by using recursive functions
 - [ ] by using global variables
 
-#### Q21. A union allows you to store differente **\_** in the same **\_**.
+#### Q21. A union allows you to store different **\_** in the same **\_**.
 
 - [ ] Objects; Structure
 - [ ] Variables; Declaration
@@ -314,3 +314,10 @@ char *string[20] = { "one", "two", "three"};
 - [x] printf("%s", string[1][2]);
 - [ ] printf("%s", string[1]);
 - [ ] printf(string[1]);
+
+#### Q25. What is the expression player->name equivalent to?
+
+- [ ] player.name
+- [x] (\*player).name
+- [ ] \*player.name
+- [ ] player.\*name
