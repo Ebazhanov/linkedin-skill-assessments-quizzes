@@ -19,7 +19,7 @@
 - [ ] db.citizens.select('WHERE age >= 21')
 - [ ] db.citizens.select('age >= 21')
 - [ ] db.citizens.select('WHERE age >= 21')
-- [x] db.citizens.select({age: {\$qte: 21}})
+- [x] db.citizens.select({age: {\$gte: 21}})
 
 #### Q4. What does a MongoDB collection consist of?
 
