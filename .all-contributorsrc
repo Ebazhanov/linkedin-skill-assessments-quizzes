@@ -1829,6 +1829,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "AdrianBuenfil",
+      "name": "Adrián Buenfil",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/71770394?v=4",
+      "profile": "https://www.linkedin.com/in/adrianbuenfil/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
