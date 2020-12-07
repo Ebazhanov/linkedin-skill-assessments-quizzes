@@ -658,7 +658,7 @@ fruit_info = {
 
 #### Q49. What is the proper way to write a list comprehension that represents all the keys in this dictionary?
 
-fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
+fruits = {'Apples': 5, 'Oranges': 3, 'Bananas': 4}
 
 - [ ] `fruit_names = [x in fruits.keys() for x]`
 - [ ] `fruit_names = for x in fruits.keys() *`
