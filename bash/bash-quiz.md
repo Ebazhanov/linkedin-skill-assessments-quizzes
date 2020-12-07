@@ -137,12 +137,17 @@ mysql < file.sql > file.txt
 - [ ] `var=$(( 10 / 8 ))`
 - [x] `var=$(echo 'scale=2; 10 / 8' | bc)`
 
-#### Q15. What is the result of this script? - TODO add script
+#### Q15. What is the result of this script?
+
+```bash
+txt=Penguins
+[[ $txt =~ [a-z]{8} ]]; echo $?
+```
 
 - [ ] 0, representing 'true', because the variable "txt" contains eight letters
 - [ ] 0, representing 'true', because everybody loves penguins!
 - [ ] 1, representing 'false', because the variable "txt" is longer than eight characters
-- [ ] 1, representing 'false', because the variable "txt" does not contain eight lowercase letters between a and z
+- [x] 1, representing 'false', because the variable "txt" does not contain eight lowercase letters between a and z
 
 #### Q16. How would you change your Bash shell prompt to the following?
 
