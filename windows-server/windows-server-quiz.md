@@ -313,7 +313,7 @@
 
 - [ ] storage area network
 - [ ] network attached storage
-- [ ] hardware security module
+- [x] hardware security module
 - [ ] encrypted hard drive
 
 #### Q45. You are deploying a highly available file server using a Hyper-V cluster configuration. After creating the cluster, why must you add d disk as a cluster shared volume (CSV)?

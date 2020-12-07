@@ -110,3 +110,87 @@
 - [ ] Compute Engine base images
 - [x] GCP Marketplace
 - [ ] Google Kubernetes Engine base images
+
+#### Q16. You want to set a notification for service spend in GCP. What do you do, and who will be notified?
+
+- [x] Use the GCP Billing console Budgets section to set a billing alert. The billing admin will be notified if the alert threshold is exceeded.
+- [ ] Use the GCP Billing console Budgets section to set a billing alert. The organizational admin will be notified if the alert threshold is exceeded.
+- [ ] Use the GCP Organizational console Budgets section to set a billing alert. The project admin will be notified if the alert threshold is exceeded.
+- [ ] Use the GCP Organizational console Budgets section to set a billing alert. The organizational admin will be notified if the alert threshold is exceeded.
+
+#### Q17. Cloud SQL supports which two relational databases?
+
+- [ ] Radis and Oracle
+- [ ] MySQL and Oracle
+- [ ] Radis and PostgreSQL
+- [x] MySQL and PostgreSQL
+
+#### Q18. You want to try out a machine-learning TensorFlow example notebook with the fewest configuration steps on GCP. What do you do?
+
+- [ ] Create a notebook instance with TPU. Upload the notebook to the instance.
+- [x] Create a notebook instance with GPU. Upload the notebook to the instance.
+- [ ] Upload the notebook to Google Colaboratory. Set the hardware accelerator to use GPU.
+- [ ] Upload the notebook to Google Colaboratory. Set the hardware accelerator to use TPU.
+
+#### Q19. You want to quickly test a single Docker container image that will start a stateless HTTP service on GCP. Which service do you select to host your container image?
+
+- [ ] Cloud Run
+- [ ] Cloud Run on Google Kubernetes Engine
+- [ ] Cloud Functions
+- [x] Google Kubernetes Engine
+
+#### Q20. You want to develop Firebase security rules following Google best practices. Which tool(s) do you use?
+
+- [x] Firebase Emulator
+- [ ] Firebase Emulator and GCP Rules Simulator
+- [ ] GCP policy emulator and Firebase Rules Simulator
+- [ ] Firebase Emulator and Firebase Rules Simulator
+
+#### Q21. You want to build an application with conversation interpretation based on machine learning speech understanding. Which service is a best fit for this scenario?
+
+- [x] Dialogflow
+- [ ] Natural Language Translation
+- [ ] Speech API
+- [ ] AutoML Natural Language
+
+#### Q22. Which service must you enable on your GKE cluster in order to use Cloud Run on Google Kubernetes Engine (GKE)?
+
+- [x] Stackdriver
+- [ ] Istio
+- [ ] Knative
+- [ ] Spinnaker
+
+#### Q23. How can you enable clients inside a GKE cluster to be able to contact Pods?
+
+- [ ] Configure the clients to connect via the default cluster IP.
+- [ ] Configure an external name. Configure the clients to connect via the external name.
+- [x] Configure a node port. COnfigure the clients to connect via the node port.
+- [ ] Configure a load balancer. Configure the clients to connect via the load balancer.
+
+#### Q24. You want to capture the message acknowledgment state of a subscription at a given time. What do you do?
+
+- [ ] Create a Cloud Pub/Sub subscription backup.
+- [ ] Create a Cloud Pub/Sub subscription topic.
+- [x] Create a Cloud Pub/Sub subscription snapshot.
+- [ ] Create a Cloud Pub/Sub subscription.
+
+#### Q25. You need to set a bucket storage class for data that will be accessed once a month or less. Which type do you select?
+
+- [ ] coldline
+- [ ] multi-regional
+- [ ] regional
+- [x] nearline
+
+#### Q26. Which command copies a file named test.txt to a Cloud Storage bucket named myBucket?
+
+- [ ] `gcloud cp gs://myBucket test.txt`
+- [ ] `gsutil cp gs://myBucket test.txt`
+- [ ] `gcloud cp test.txt gs://myBucket`
+- [x] `gsutil cp test.txt gs://myBucket`
+
+#### Q27. Which command adds a column family named `cf1` to your Bigtable table named `my-table`?
+
+- [ ] `cbt createfamily cf1 my-table`
+- [x] `cbt createfamily my-table cf1`
+- [ ] `gcloud createfamily cf1 my-table cf1`
+- [ ] `gcloud createfamily my-table cf1`
