@@ -568,7 +568,7 @@ $ shopt -s extglob
 $ ls -l @(ba*(na)|a+(p)le)
 ```
 
-- [ ] a
+- [x] a
 
 ```bash
 apple
