@@ -222,13 +222,13 @@ Q.21 Which STL class is the best fit for implementing a collection of data that 
 
 	a) std::list
 	b) std::vector
-	c) std::priority_queue
+	c) std::priority_queue << correct
 	d) std::map
 
 Q.22 What is the meaning of the three sections specified between parentheses in a for loop separated by semicolons?
 
 	a) The first is the iterating variable name, the second is the number of times to iterate, and the third is the desired increment or decrement (specified with a signed integer).
-	b) The first is the initialization block, the second is the condition to iterate, and the third is the increment block. 
+	b) The first is the initialization block, the second is the condition to iterate, and the third is the increment block. << correct
 	c) The first is the iterating variable, the second is the container in which it should operate, and the third is an exit condition to abort at any time.
 	d) The first is the iterating variable name, the second is the starting value for the iterating variable, and the third is the stop value (the last value plus one). 
 
