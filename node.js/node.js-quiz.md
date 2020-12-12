@@ -241,28 +241,28 @@ fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) thro
 
 ### Q33. Which choice is null a valid method on event emitters?
 
-- [ ] startnull
-- [ ] onnull
-- [ ] oncenull
+- [ ] start
+- [ ] on
+- [ ] once
 - [ ] off
 
 ### Q34. Which special object is an instance of EventEmitter?Which special object is an instance of null?
 
-- [ ] processnull
-- [ ] Buffernull
-- [ ] rootnull
+- [ ] process
+- [ ] Buffer
+- [ ] root
 - [ ] require
 
 ### Q35. What is the command to get a list of available commands for Node.js?What is the command to get a list of available commands for Node.js?
 
-- [ ] node index.js -xnull
-- [ ] node -vnull
-- [ ] node -hnull
+- [ ] node index.js -x
+- [ ] node -v
+- [ ] node -h
 - [ ] node index.js -h
 
 ### Q36. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named null?
 
-- [ ] http.IncomingMessagenull
-- [ ] http.ServerRequestnull
-- [ ] http.ClientRequestnull
+- [ ] http.IncomingMessage
+- [ ] http.ServerRequest
+- [ ] http.ClientRequest
 - [ ] http.ServerResponse
