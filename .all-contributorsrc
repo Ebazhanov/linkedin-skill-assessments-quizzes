@@ -1810,6 +1810,63 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "lukee1234",
+      "name": "Luke",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/61923182?v=4",
+      "profile": "https://github.com/lukee1234",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "espinozahg",
+      "name": "Hector Espinoza",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9592831?v=4",
+      "profile": "https://sites.google.com/site/espinozahg/",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "AdrianBuenfil",
+      "name": "Adrián Buenfil",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/71770394?v=4",
+      "profile": "https://www.linkedin.com/in/adrianbuenfil/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "amitravikumar",
+      "name": "Amit Kumar",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/43449014?v=4",
+      "profile": "https://amitravikumar.github.io/",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "schoppfe",
+      "name": "schoppfe",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/37182137?v=4",
+      "profile": "http://None",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "aamllc",
+      "name": "Sofiyal C",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/75911712?v=4",
+      "profile": "https://github.com/aamllc",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,

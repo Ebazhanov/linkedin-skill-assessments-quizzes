@@ -96,18 +96,14 @@ awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 
 #### Q10. If file.sql holds SQL statements to be executed, what will be in file.txt?
 
-##### I cannot reproduce this question, but at first sight I don't see correct answer, because no-one write to file.txt and content doesn't change
-
-##### I suppose the correct script is _mysql < file.sql > file.txt_ then the correct answer is fourth option.
-
 ```bash
-mysql < file.sql < file.txt
+mysql < file.sql > file.txt
 ```
 
 - [ ] a copy of the contents of file.sql
 - [ ] an error indicating that this is invalid syntax
 - [ ] the error output of the MySQL command
-- [ ] the non-error output of the MySQL command
+- [x] the non-error output of the MySQL command
 
 #### Q11. How does the SUID or setuid affect executable commands?
 
@@ -141,12 +137,17 @@ mysql < file.sql < file.txt
 - [ ] `var=$(( 10 / 8 ))`
 - [x] `var=$(echo 'scale=2; 10 / 8' | bc)`
 
-#### Q15. What is the result of this script? - TODO add script
+#### Q15. What is the result of this script?
+
+```bash
+txt=Penguins
+[[ $txt =~ [a-z]{8} ]]; echo $?
+```
 
 - [ ] 0, representing 'true', because the variable "txt" contains eight letters
 - [ ] 0, representing 'true', because everybody loves penguins!
 - [ ] 1, representing 'false', because the variable "txt" is longer than eight characters
-- [ ] 1, representing 'false', because the variable "txt" does not contain eight lowercase letters between a and z
+- [x] 1, representing 'false', because the variable "txt" does not contain eight lowercase letters between a and z
 
 #### Q16. How would you change your Bash shell prompt to the following?
 
@@ -567,7 +568,7 @@ $ shopt -s extglob
 $ ls -l @(ba*(na)|a+(p)le)
 ```
 
-- [ ] a
+- [x] a
 
 ```bash
 apple
