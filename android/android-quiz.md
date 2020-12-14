@@ -621,3 +621,54 @@ buildTypes {
 - [ ] /icon
 - [ ] /mipmap
 - [ ] /launcher
+
+#### Q43. Which drawable definition allows you to achieve the shape below?
+
+![img](image/43.jpeg)
+
+- [ ]
+
+```xml
+	<shape xmlns:android-"http://schemas.android.com/apk/res/android"
+	    android:shape-"oval">
+	    <gradient
+               android:startColor-"@android:color/white"
+               android:endColor-"@android:color/black"
+               android:angle-"45"/>
+	</shape>
+```
+
+- [ ]
+
+```xml
+	<rectangle xmlns:android-"http://schemas.android.com/apk/res/android">
+	   <gradient
+	      android:startColor-"@android:color/white"
+	      android:endColor-"android:color/black"
+	      android:angle-"135"/>
+	</rectangle>
+```
+
+- [ ]
+
+```xml
+	<shape xmlns:android-"http://schemas.android.com/apk/res/android"
+	   android:shape-"rectangle">
+	   <gradient
+	      android:startColor-"@android:color/white"
+	      android:endColor-"@android:color/black"
+	      android:angle-"135"/>
+	</shape>
+```
+
+- [ ]
+
+```xml
+	<shape xmlns:android-"http://schemas.android.com/apk/res/android"
+	   android:shape-"rectangle">
+	   <gradient
+	      android:startColor-"@android:color/white"
+	      android:endColor-"@android:color/black"
+	      android:angle-"98"/>
+	</shape>
+```
