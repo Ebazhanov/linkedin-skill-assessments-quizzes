@@ -614,3 +614,10 @@ buildTypes {
 - [ ] The Application class is instantiated after any permissions requests when the process for the application is created.
 - [ ] The Application class is created each time a new Activity is launched, making it ideal for initialization code.
 - [ ] The Application class is created each time a background service is called, making it ideal for initialization code.
+
+#### Q42. What folder should you use for your app's launcher icons?
+
+- [ ] /drawable
+- [ ] /icon
+- [ ] /mipmap
+- [ ] /launcher
