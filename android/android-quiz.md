@@ -675,7 +675,7 @@ buildTypes {
 
 #### Q44. Given the ConstraintLayout below, which statement is true?
 
-![img](image/44.jpg)
+![img](image/44.jpeg)
 
 - [ ] View B is not horizontally constrained.
 - [ ] View C has too many constraints.
