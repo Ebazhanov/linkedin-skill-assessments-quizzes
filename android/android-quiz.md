@@ -600,3 +600,10 @@ buildTypes {
 - [ ] Prefer to build custom views or fragments over activities.
 - [ ] Prefer to build activities instead of fragments.
 - [x] Break down UI layouts into common elements and use `<include/>` to include them in other layout XML files.
+
+#### Q40. Which layout is best for large, complex hierarchies?
+
+- [ ] LinearLayout
+- [ ] ConstraintLayout
+- [ ] FrameLayout
+- [ ] RelativeLayout
