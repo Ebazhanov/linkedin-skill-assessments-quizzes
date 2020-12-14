@@ -600,3 +600,84 @@ buildTypes {
 - [ ] Prefer to build custom views or fragments over activities.
 - [ ] Prefer to build activities instead of fragments.
 - [x] Break down UI layouts into common elements and use `<include/>` to include them in other layout XML files.
+
+#### Q40. Which layout is best for large, complex hierarchies?
+
+- [ ] LinearLayout
+- [ ] ConstraintLayout
+- [ ] FrameLayout
+- [ ] RelativeLayout
+
+#### Q41. Why do developers often put app initialization code in the Application class?
+
+- [ ] The Application class is instantiated before any other class when the process for the application is created.
+- [ ] The Application class is instantiated after any permissions requests when the process for the application is created.
+- [ ] The Application class is created each time a new Activity is launched, making it ideal for initialization code.
+- [ ] The Application class is created each time a background service is called, making it ideal for initialization code.
+
+#### Q42. What folder should you use for your app's launcher icons?
+
+- [ ] /drawable
+- [ ] /icon
+- [ ] /mipmap
+- [ ] /launcher
+
+#### Q43. Which drawable definition allows you to achieve the shape below?
+
+![img](image/43.jpeg)
+
+- [ ]
+
+```xml
+	<shape xmlns:android-"http://schemas.android.com/apk/res/android"
+	    android:shape-"oval">
+	    <gradient
+               android:startColor-"@android:color/white"
+               android:endColor-"@android:color/black"
+               android:angle-"45"/>
+	</shape>
+```
+
+- [ ]
+
+```xml
+	<rectangle xmlns:android-"http://schemas.android.com/apk/res/android">
+	   <gradient
+	      android:startColor-"@android:color/white"
+	      android:endColor-"android:color/black"
+	      android:angle-"135"/>
+	</rectangle>
+```
+
+- [ ]
+
+```xml
+	<shape xmlns:android-"http://schemas.android.com/apk/res/android"
+	   android:shape-"rectangle">
+	   <gradient
+	      android:startColor-"@android:color/white"
+	      android:endColor-"@android:color/black"
+	      android:angle-"135"/>
+	</shape>
+```
+
+- [ ]
+
+```xml
+	<shape xmlns:android-"http://schemas.android.com/apk/res/android"
+	   android:shape-"rectangle">
+	   <gradient
+	      android:startColor-"@android:color/white"
+	      android:endColor-"@android:color/black"
+	      android:angle-"98"/>
+	</shape>
+```
+
+#### Q44. Given the ConstraintLayout below, which statement is true?
+
+![img](image/44.jpeg)
+
+- [ ] View B is not horizontally constrained.
+- [ ] View C has too many constraints.
+- [ ] View B is not vertically constrained.
+- [ ] View C is constrained to the parent.
