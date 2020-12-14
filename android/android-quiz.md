@@ -672,3 +672,12 @@ buildTypes {
 	      android:angle-"98"/>
 	</shape>
 ```
+
+#### Q44. Given the ConstraintLayout below, which statement is true?
+
+![img](image/44.jpg)
+
+- [ ] View B is not horizontally constrained.
+- [ ] View C has too many constraints.
+- [ ] View B is not vertically constrained.
+- [ ] View C is constrained to the parent.
