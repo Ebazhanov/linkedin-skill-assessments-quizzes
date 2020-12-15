@@ -1,7 +1,6 @@
 ﻿### Microsoft Power BI
 
 Q1. A dataset that includes \_ can be used to create a map visualization. (Select all that apply.)
-
     A. house numbers, street names
     B. geospatial data
     C. city names, country names
@@ -111,7 +110,7 @@ Q13. You just deleted a dashboard in the Power Bl service and want to get it bac
     [ ] You cannot undo the deletion of a dashboard.
     [ ] Recover it from the Recycle Bin.
 
-Q14. You have a sales data source and want to relate the tables. The table that contains sales transactions is a table that contains product information is a \_ table .
+Q14. You have a sales data source and want to relate the tables. The table that contains sales transactions is a _____ table that contains product information is a \_ table .
 
     [ ] dimension; fact
     [ ] lookup; data
