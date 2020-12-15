@@ -193,3 +193,10 @@ CALCULATE(SUM([Sales]) ,DATESHTD([Date] ))
     [ ] total sales for the entire month
     [ ] running total in entire year for the entire month
     [ ] rolling average over 12 months of sales
+    
+Q.  What should you do to increase the readability of a report?
+
+    [ ] all of these answers
+    [ ] Remove unnecessary field labels.
+    [ ] Select the most appropriate visualization.
+    [ ] Use borders.
