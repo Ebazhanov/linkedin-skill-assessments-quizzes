@@ -1865,7 +1865,17 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/75911712?v=4",
       "profile": "https://github.com/aamllc",
       "contributions": [
-        "design"
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "spitlisk",
+      "name": "spitlisk",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43657878?v=4",
+      "profile": "https://github.com/spitlisk",
+      "contributions": [
+        "code"
       ]
     }
   ],

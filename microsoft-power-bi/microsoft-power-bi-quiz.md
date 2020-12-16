@@ -193,6 +193,7 @@ CALCULATE(SUM([Sales]) ,DATESHTD([Date] ))
     [ ] total sales for the entire month
     [ ] running total in entire year for the entire month
     [ ] rolling average over 12 months of sales
+
     
 Q.  What should you do to increase the readability of a report?
 
@@ -200,3 +201,12 @@ Q.  What should you do to increase the readability of a report?
     [ ] Remove unnecessary field labels.
     [ ] Select the most appropriate visualization.
     [ ] Use borders.
+
+
+Q25. Which feature in the Power BI service is most useful when you need to create pages that present the same visualizations for different territories, salespeople, or teams?
+
+    [ ] landscape mode
+    [ ] none of these answers
+    [ ] Shrink to Fit
+    [ ] templates 
+
