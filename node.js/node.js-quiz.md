@@ -257,7 +257,7 @@ fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) thro
 
 - [ ] node index.js -x
 - [ ] node -v
-- [ ] node -h
+- [x] node -h
 - [ ] node index.js -h
 
 ### Q36. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named null?
