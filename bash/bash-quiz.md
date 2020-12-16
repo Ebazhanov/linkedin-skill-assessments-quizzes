@@ -625,6 +625,17 @@ ls -l
 - [x] There is an access control list
 - [ ] There is an extended attribute such as immutable set
 
+#### Q51. In Bash, what does the comment below do?
+
+```bash
+cd -
+```
+
+- [x] It moves you to the directory you were previously in.
+- [ ] It moves you to your home folder (whatever your current working directory happens to be).
+- [ ] It deletes the current directory
+- [ ] It moves you one directory above your current working directory.
+
 Training questions
 
 #### Q1. What does this command do?
