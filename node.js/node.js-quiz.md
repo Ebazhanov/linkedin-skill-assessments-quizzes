@@ -239,9 +239,9 @@ fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) thro
 
 `console.log(arguments);` - ReferenceError: arguments is not defined - an empty string - undefined - an object representing an array that has five elements -----> correct
 
-### Q33. Which choice is null a valid method on event emitters?
+### Q33. Which choice is not a valid method on event emitters?
 
-- [ ] start
+- [ ] start -----> correct
 - [ ] on
 - [ ] once
 - [ ] off
