@@ -348,7 +348,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/adrianbuenfil/"><img src="https://avatars2.githubusercontent.com/u/71770394?v=4" width="100px;" alt=""/><br /><sub><b>Adrián Buenfil</b></sub></a><br /><a href="#design-AdrianBuenfil" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=AdrianBuenfil" title="Code">💻</a></td>
     <td align="center"><a href="https://amitravikumar.github.io/"><img src="https://avatars2.githubusercontent.com/u/43449014?v=4" width="100px;" alt=""/><br /><sub><b>Amit Kumar</b></sub></a><br /><a href="#design-amitravikumar" title="Design">🎨</a></td>
     <td align="center"><a href="http://None"><img src="https://avatars2.githubusercontent.com/u/37182137?v=4" width="100px;" alt=""/><br /><sub><b>schoppfe</b></sub></a><br /><a href="#design-schoppfe" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=schoppfe" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/aamllc"><img src="https://avatars1.githubusercontent.com/u/75911712?v=4" width="100px;" alt=""/><br /><sub><b>Sofiyal C</b></sub></a><br /><a href="#design-aamllc" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/aamllc"><img src="https://avatars1.githubusercontent.com/u/75911712?v=4" width="100px;" alt=""/><br /><sub><b>Sofiyal C</b></sub></a><br /><a href="#design-aamllc" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=aamllc" title="Code">💻</a></td>
   </tr>
 </table>
 
