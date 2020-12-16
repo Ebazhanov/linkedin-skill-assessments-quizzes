@@ -612,9 +612,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 #### Q36. What code will produce this table?
 
-| col1 (yellow)  | col2 (yellow)   | col3  |
-| -------------- | --------------- | ----- |
-| first (yellow) | second (yellow) | third |
+https://cdn.lynda.com/question/5d07ce7b498ef292ca309a17/5d07ce7b498ef292ca309a17-1590613305154
 
 - [ ]
 
