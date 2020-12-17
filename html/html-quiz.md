@@ -255,7 +255,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </p>
 ```
 
-#### Q21. What should fill the blank in the HTML code below?
+#### Q21. What should fill the blank in this HTML code? 
 
 ```html
 <a href="https://es.yahoo.com/" hreflang="____" target="_blank">Visita Yahoo</a>
