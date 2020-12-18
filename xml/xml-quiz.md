@@ -35,7 +35,7 @@
 
 - [ ] The `<car>` element can be extended with only one attribute
 - [ ] The `<car>` element can be extended with multiple attributes
-- [ ] The `<car>` element have any attributes
+- [x] The `<car>` element have any attributes
 - [ ] The `<car>` element has child elements which can appear in order
 
 #### Q3. You are converting your HTML file into XHTML Strict. Which code snippet will validate without errors?
@@ -50,6 +50,7 @@
     </body>
 </html>
 ```
+
 - [ ] Option 2
 
 ```xml
@@ -71,6 +72,7 @@
     </body>
 </html>
 ```
+
 - [x] Option 4
 
 ```xml
@@ -102,7 +104,7 @@
 <x/>
 ```
 
-- [ ] null element 
+- [ ] null element
 - [x] self-closing tag
 - [ ] improperly named element
 - [ ] incorrect XML syntax
@@ -121,7 +123,7 @@
 - [ ] ActiveXObject
 - [ ] responseXML
 
-#### Q9. A markup language is a _____-readable language that ___ text so that the computer can ___ that text.
+#### Q9. A markup language is a **\_**-readable language that **_ text so that the computer can _** that text.
 
 - [ ] processor; complies; process
 - [ ] system; stores; retrieve
@@ -161,13 +163,57 @@
 - [ ] `#FIXED`
 
 #### Q14. How does the XML DOM present an XML document?
+
 - [ ] as a set of objects
 - [x] as a tree structure
-- [ ] as an array of nodes 
+- [ ] as an array of nodes
 - [ ] as a dynamic program
 
 #### Q15. You are working with an XML document that uses an XML schema. How do you specify that an element can appear multiple times inside its parent elemen t?
+
 - [ ] Set the maxOccurs attribute to a large number, such as 1.000
 - [ ] Set the maxOccurs attribute to 0
 - [ ] Set the maxOccurs attribute to undefined.
 - [x] Set the maxOccurs attribute to unbounded.
+
+#### Q16. The <xsl:with-param> element defines the value of a parameter to be passed into a template. It can be used within which elements?
+
+- [x] <xsl:apply-templates>and<xsl:call-template>
+- [ ] <xsl:param>and<xsl:processing-instruction>
+- [ ] <xsl:template>and<xsl:transform>
+- [ ] <xsl:include>and<xsl:variable>
+
+#### Q17. You are checking someone else's XML document for errors. You notice that the prolog does not have a closing tag. What do you do?
+
+- [ ] Remove the prolog to make sure that the XML document will be properly processed across all platforms.
+- [x] Leave it alone, because the prolog does not require a closing tag.
+- [ ] Move the prolog to an external file so thtat the XML document only has elements with closing tags.
+- [ ] Add a closing tag, as al XML elements must have a closing tag.
+
+#### Q18. Which statement is not true about XML?
+
+- [ ] XML is flexible and customizable.
+- [ ] XML can be used to store data.
+- [ ] XML is independent of Operating System.
+- [x] XML is a replacement for HTML.
+
+#### Q19. In an XML DTD ATTLIST declaration, which tokenized attribute type is used to specify multiple ID values?
+
+- [ ] ENTITIES
+- [x] IDREFS
+- [ ] IDS
+- [ ] IDSETS
+
+#### Q20. You want to convert a large XML file into CSV format. You did not create the XML file, so you are not familiar with all of the syntax. What will help you get the best insight into the file contents? 
+
+- [ ] XSLT
+- [ ] DOM
+- [ ] AJAX
+- [ ] XSD
+
+#### Q21. In an XML DTD, attributes are declared with an ATTLIST declaration. You need to validate the color attribute for element <car> against a fixed list of values. Which is the correct declaration? 
+
+- [ ] <!ATTLIST car color (red|white|blue|black) black>
+- [ ] <!ATTLIST car color (red|white|blue|black) #REQUIRED>	
+- [ ] <!ATTLIST car color (red|white|blue|black) #FIXED>
+- [ ] <!ATTLIST car color (red|white|blue|black)>

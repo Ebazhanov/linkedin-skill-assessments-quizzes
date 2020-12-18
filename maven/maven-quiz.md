@@ -5,13 +5,13 @@
 - [ ] Plugins
 - [ ] Build
 - [ ] Properties
-- [ ] Parent
+- [x] Parent
 
 #### Q2. If you wish to build and package your artifact using the Maven package goal but don't want to execute the unit tests, which environment variable and value would you use?
 
 - [ ] `maven.test.ignore=TRUE`
 - [ ] `maven.test.run=FALSE`
-- [ ] `maven.test.skip=TRUE`
+- [x] `maven.test.skip=TRUE`
 - [ ] `maven.verify.execute=FALSE`
 
 #### Q3. When building a Maven EAR project and specifying the configuration of which projects to include, what is the element in the plugin configuration that contains Enterprise Java Bean projects?
@@ -21,10 +21,10 @@
 - [ ] modules/enterpriseModules
 - [ ] modules/services
 
-#### Q4. The goal that is executed to generate and deploy a documentation website is ___.
+#### Q4. The goal that is executed to generate and deploy a documentation website is \_\_\_.
 
 - [ ] deliver
-- [ ] site
+- [x] site
 - [ ] doc
 - [ ] deploy
 
@@ -46,15 +46,16 @@
 
 - [ ] src/code
 - [ ] src/test/java
-- [ ] src/main/java
+- [x] src/main/java
 - [ ] src/main/resources
 
 #### Q8. Which command is used to run the clean lifecyle followed by verify, install, and package with Maven?
 
 - [ ] `mvn clean istall package`
-- [ ] `mvn package`
+- [x] `mvn package`
 - [ ] `mvn clean install`
 - [ ] Option 4
+
 ```shell script
 mvn clean
 mvn package
@@ -73,7 +74,7 @@ mvn install
 
 - [ ] In the excluded element of the build section of the POM, list the plugin you do not want to run.
 - [ ] Set the phase in the module to none.
-- [ ] Set a value in the configuration of the plugin in the module to be excluded like this: TRUE.
+- [x] Set a value in the configuration of the plugin in the module to be excluded like this: TRUE.
 - [ ] Do not specify the plugin in the module.
 
 #### Q11. When building a web application with a WAR type project, which project directory should contain the style sheet, JavaScript, and other static file?
@@ -87,13 +88,13 @@ mvn install
 
 - [ ] Compiler
 - [ ] Surefire
-- [ ] Versions
+- [x] Versions
 - [ ] Javadoc
 
 #### Q13. When building a Maven Archetype, what is the filepath and file of the archetype descriptor that specifies how to lay out the prototype files?
 
 - [ ] `src/main/template/descriptor.xml`
-- [ ] `src/main/resources/META-INF/maven/archetype-descriptor.xml`
+- [x] `src/main/resources/META-INF/maven/archetype-descriptor.xml`
 - [ ] `src/main/archetype/descriptor.xml`
 - [ ] `src/main/resources/META-INF/maven/maven-archetype.xml`
 
@@ -109,32 +110,32 @@ mvn install
 - [ ] the dependency with the higher version
 - [ ] the transitive dependency that comes from the dependency listed first in the pom.xml file
 - [ ] the transitive dependency that comes from the dependency listed last in the pom.xml file
-- [ ] the transitive dependency version of the artifact that is closest to your project
+- [x] the transitive dependency version of the artifact that is closest to your project
 
 #### Q16. Many organizations set up local mirrors to the Maven central repository. In order to leverage your company's Maven repository as a proxy for the Maven central repository, which element should you put into the settings.xml file?
 
 - [ ] Replacements
 - [ ] Proxies
 - [ ] Mirrors
-- [ ] LocalRepositories
+- [x] LocalRepositories
 
 #### Q17. Which Maven plugin would you leverage to specify the version of the compiler to target as well as the source level of the language?
 
 - [ ] Versions
 - [ ] Surefire
 - [ ] Target
-- [ ] Compiler
+- [x] Compiler
 
 #### Q18. If your machine is behind a proxy, where should you specify the proxy server settings in order for Maven to access remote resources?
 
 - [ ] `.m2/proxy.txt`
 - [ ] `pom.xml`
 - [ ] `proxy.xml`
-- [ ] `settings.xml`
+- [x] `settings.xml`
 
 #### Q19. What environment variable can you alter to increase the memory Maven uses?
 
-- [ ] MAVEN_OPTS
+- [x] MAVEN_OPTS
 - [ ] M2_HOME
 - [ ] MAVEN_MEMORY
 - [ ] PATH
@@ -143,7 +144,7 @@ mvn install
 
 - [ ] It is not possible to do this.
 - [ ] Implement the JUnit dependency and add a configuration that sets the parallel element to true.
-- [ ] Specify the Maven Surefire Plugin and add a configuration that sets the parallel element to true.
+- [x] Specify the Maven Surefire Plugin and add a configuration that sets the parallel element to true.
 - [ ] Move each test suite into a separate submodule.
 
 #### Q21. What will the mvn dependency:tree command do?
@@ -156,7 +157,7 @@ mvn install
 #### Q22. How do you run a single unit test in Maven?
 
 - [ ] Maven runs only a single unit test by default.
-- [ ] Use the -Dtest= flag and pass in the name of the test.
+- [x] Use the -Dtest= flag and pass in the name of the test.
 - [ ] Use a plugin that can specify the test you want to run.
 - [ ] It is not possible to do this.
 
@@ -172,11 +173,11 @@ mvn install
 - [ ] The name of the artifact must also be specified in the command.
 - [ ] The name of the remote repository must also be specified in the command.
 - [ ] Deploying artifacts to a remote repository must be done manually.
-- [ ] The deploy phase of the default Maven lifecycle comes after the install phase.
+- [x] The deploy phase of the default Maven lifecycle comes after the install phase.
 
 #### Q25. Suppose you want to include a properties file in the JAR generated by your Maven build. What directory should you put it in?
 
-- [ ] `${basedir}/src/main/resources`
+- [x] `${basedir}/src/main/resources`
 - [ ] `${basedir}/src/main/java/resources`
 - [ ] `${basedir}/resources`
 - [ ] `${basedir}/src/main/properties`
@@ -186,7 +187,7 @@ mvn install
 - [ ] Environment
 - [ ] Properties
 - [ ] Switch
-- [ ] Profiles
+- [x] Profiles
 
 #### Q27. What does it mean if the scope of a dependency is runtime?
 
@@ -198,7 +199,7 @@ mvn install
 #### Q28. If you want to utilitze a locally developed JAR file in another project and that JAR file has not been deployed to either the Maven central repository or your own locally sourced mirror repository, what Maven goal do you need to execute on the locally developed JAR project?
 
 - [ ] package
-- [ ] install
+- [x] install
 - [ ] compile
 - [ ] test
 
@@ -208,3 +209,44 @@ mvn install
 - [x] JAR
 - [ ] EAR
 - [ ] POM
+
+#### Q30. What does the following command do?
+> mvn archetype:generate \
+    -DgroupID=sample-maven-project \
+    -DartifactID=com.palmer.bethan.sample \
+    -Dversion=1.0.0 \
+    -DinteractiveMode=false
+
+- [ ] It does nothing since no archetype has been specified
+- [ ] It generates a new Maven archetype
+- [x] It generates a new Maven projet using the default Maven archetype
+- [ ] It cleans and installs the sample-maven-project project
+
+#### Q31. When defining a dependency that is included with the runtime container, what scope do you use in the pom.xml?
+
+- [x] provided
+- [ ] compile
+- [ ] execution
+- [ ] runtime
+
+#### Q32. What argument do you pass to Maven in order to update SNAPSHOT from the remote repository?
+
+- [x] -U
+- [ ] -J
+- [ ] -X
+- [ ] -S
+
+#### Q33. When performing a release using the Maven release plugin, which environment variable for batch mode is used to define the stamp placed in SCM to indicate the state of the artifact for the actual release?
+-not sure for the answer-
+- [ ] tag
+- [ ] scmMark
+- [ ] developmentVersion
+- [x] releaseVersion 
+
+#### Q34. These are two general uses of plugins. The first is build and the second is _____
+
+- [x] reporting
+- [ ] servers
+- [ ] dependencies
+- [ ] distribution management
+
