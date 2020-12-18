@@ -56,11 +56,11 @@ interface Interface2 {
 - super1.print(); super2.print();
 - this.print();
 - super.print();
-- Interface1.print(); Interface2.print();
+- Interface1.print(); Interface2.print(); <<<<<--- Correct
 
 #### Q7. What does the following code print?
 ```
-String str = ""abcde"";
+String str = "abcde";
 str.trim();
 str.toUpperCase();
 str.substring(3, 4);
