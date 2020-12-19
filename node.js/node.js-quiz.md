@@ -239,9 +239,9 @@ fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) thro
 
 `console.log(arguments);` - ReferenceError: arguments is not defined - an empty string - undefined - an object representing an array that has five elements -----> correct
 
-### Q33. Which choice is null a valid method on event emitters?
+### Q33. Which choice is not a valid method on event emitters?
 
-- [ ] start
+- [ ] start -----> correct
 - [ ] on
 - [ ] once
 - [ ] off
@@ -257,7 +257,7 @@ fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) thro
 
 - [ ] node index.js -x
 - [ ] node -v
-- [ ] node -h
+- [x] node -h
 - [ ] node index.js -h
 
 ### Q36. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named null?
