@@ -1865,7 +1865,37 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/75911712?v=4",
       "profile": "https://github.com/aamllc",
       "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "spitlisk",
+      "name": "spitlisk",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/43657878?v=4",
+      "profile": "https://github.com/spitlisk",
+      "contributions": [
+        "code",
         "design"
+      ]
+    },
+    {
+      "login": "pravin-sharma",
+      "name": "PRAVIN SHARMA",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/32671972?v=4",
+      "profile": "http://www.linkedin.com/in/pravin--sharma",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "NIDZAAA1",
+      "name": "NIDZAAA1",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/58033073?v=4",
+      "profile": "https://github.com/NIDZAAA1",
+      "contributions": [
+        "design",
+        "code"
       ]
     }
   ],
