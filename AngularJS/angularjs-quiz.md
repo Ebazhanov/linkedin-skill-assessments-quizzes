@@ -2,7 +2,7 @@
 
 #### Q1. What is the purpose of the ViewChild decorator in this component class?
 
-```
+```angularjs
     @Component({
     . . .
     template: '<p #bio></p>'
@@ -32,7 +32,7 @@
 
 #### Q4. Based on the following usage of the async pipe, and assuming the users class field is an Observable, how many subscriptions to the users Observable are being made?
 
-```
+```angularjs
     <h2>Names</h2>
     <div *ngFor="let user of users | async">{{ user.name }}</div>
     <h2>Ages</h2>
@@ -48,7 +48,7 @@
 
 #### Q5. How can you use the HttpClient to send a POST request to an endpoint from within an addOrder function in this OrderService?
 
-```
+```angularjs
     export class OrderService {
     constructor(private httpClient: HttpClient) { }
 
@@ -71,7 +71,7 @@
 
 #### Q7. Which DOM elements will this component metadata selector match on?
 
-```
+```angularjs
     @Component({
     selector: 'app-user-card',
     . . .
@@ -117,7 +117,7 @@
 
 #### Q10. With the following component class, what template syntax would you use in the template to display the value of the title class field?
 
-```
+```angularjs
     @Component({
     selector: 'app-title-card',
     template: ''
@@ -147,7 +147,7 @@
 
 #### Q13. What is the Output decorator used for in this component class?
 
-```
+```angularjs
     @Component({
     selector: 'app-shopping-cart',
     . . .
@@ -164,7 +164,7 @@
 
 #### Q14. What is the difference between these two markup examples for conditionally handling display?
 
-```
+```angularjs
     <div \*ngIf="isVisible">Active</div>
     <div [hidden]="!isVisible">Active</div>
 ```
@@ -175,7 +175,7 @@
 
 #### Q15. How can you disable the submit button when the form has errors in this template-driven forms example?
 
-```
+```angularjs
     <form #userForm="ngForm">
     <input type="text" ngModel name="firstName" required>
     <input type="text" ngModel name="lastName" required>
