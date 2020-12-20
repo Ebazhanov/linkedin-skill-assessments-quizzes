@@ -88,10 +88,10 @@
 
 #### Q13. When deploying a Windows Server as a print server, which role needs to be installed?
 
-- [ ] Print Services **<= ??? :confused:**
+- [ ] Print Services
 - [ ] File Services
-- [ ] Print and Document Services
-- [ ] Print Server **<= ??? :confused:**
+- [✔] Print and Document Services
+- [ ] Print Server
 
 #### Q14. Which type of DNS record is NOT specifically associated with an AD domain controller?
 
