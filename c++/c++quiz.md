@@ -314,11 +314,11 @@ Q.31 What is the .* operator and what does it do?
 
 Q.32 For these declarations, which choice shows four equivalent ways to assign the character "y" in the string to a char variable c?
 
-	a) c = buff[16];
-	   C = str[5];
-	   C = * (buff+16);
-	   c = * (str+5);
-	b)  C = *(buff[15]);
+	a)	c = buff[16];
+	  	C = str[5];
+	   	C = * (buff+16);
+	   	c = * (str+5);
+	b)	C = *(buff[15]);
 		C = * (str[4]);
 		c = buff+15;
 		C-str+4;
