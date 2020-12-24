@@ -304,3 +304,25 @@ Q.30 Consider a pointer to void, named ptr, which has been set to point to a flo
 	b) float f=(float *)ptr;
 	c) float f=(float)*ptr;
 	d) float f=*(float *)ptr;		
+
+Q.31 What is the .* operator and what does it do?
+
+	a) It is the same as the class member access operator, or arrow operator (->), which allows you to access a member of an object through a pointer to the object.
+	b) It is the pointer to member operator, and it allows you to access a member of an object through a pointer to that specific class member.
+	c) It is the member access with address of operator, which returns the address of a class or struct member.
+	d) It is a combination of the member access operator (.) and the dereference operator (*), so it allows you to access the object that a member pointer points to 
+
+Q.32 For these declarations, which choice shows four equivalent ways to assign the character "y" in the string to a char variable c?
+
+	a) c = buff[16];
+	   C = str[5];
+	   C = * (buff+16);
+	   c = * (str+5);
+	b)  C = *(buff[15]);
+		C = * (str[4]);
+		c = buff+15;
+		C-str+4;
+	c)	c = buff[15];
+		C = str[4];
+		c = (buff+15);
+		C = *(str+4);
