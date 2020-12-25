@@ -645,7 +645,7 @@ new logThis();
 - [x] preventDefault()
 - [ ] prevent()
 
-#### Q63. What will be logged to the console??
+#### Q63. What will be logged to the console?
 
 ```javascript
 var a = ['dog', 'cat', 'hen'];
@@ -657,3 +657,10 @@ console.log(a.length);
 - [ ] 4
 - [ ] 100
 - [ ] 3
+
+#### Q64. Which methid do you use to attach one DOM node to another?
+
+- [ ] attachNode()
+- [ ] getNode()
+- [ ] querySelector()
+- [x] appendChild()
