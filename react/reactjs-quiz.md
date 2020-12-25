@@ -5,11 +5,11 @@
 - [ ] `import React.Component from 'react'`
 - [ ] `import [ Component ] from 'react'`
 - [ ] `import Component from 'react'`
-- [ ] `import { Component } from 'react'`  <<<<<--CORRECT
+- [x] `import { Component } from 'react'`  
 
 #### Q2. If a function component should always render the same way given the same props, what is a simple performance optimization available for it?
 
-- [ ] Wrap it in the `React.memo` higher-order component. <<<<<--CORRECT
+- [x] Wrap it in the `React.memo` higher-order component. 
 - [ ] Implement the `useReducer` Hook.
 - [ ] Implement the `useMemo` Hook.
 - [ ] Implement the `shouldComponentUpdate` lifecycle method.
@@ -25,7 +25,7 @@ const person =(firstName, lastName) =>
 console.log(person("Jill", "Wolson"))
 ```
 
-- [ ] Wrap the object in parentheses. <<<<<--CORRECT
+- [x] Wrap the object in parentheses. 
 - [ ] Call the function from another file.
 - [ ] Add a return statement before the first curly brace.
 - [ ] Replace the with an array
@@ -34,7 +34,7 @@ console.log(person("Jill", "Wolson"))
 
 `import React, {useState} from 'react';`
 
-- [ ] React Hooks <<<<<--CORRECT
+- [x] React Hooks 
 - [ ] stateful components
 - [ ] math
 - [ ] class components
@@ -49,7 +49,7 @@ console.log(person);
 ```
 
 - [ ] `{{name: "Rachel", age: 31}}`
-- [ ] `{name: "Rachel", age: 31}` <<<<<--CORRECT
+- [x] `{name: "Rachel", age: 31}` 
 - [ ] `{person: "Rachel", person: 31}}`
 - [ ] `{person: {name: "Rachel", age: 31}}`
 
@@ -58,7 +58,7 @@ console.log(person);
 - [ ] Mocha
 - [ ] Chai
 - [ ] Sinon
-- [ ] Jest <<<<<--CORRECT
+- [x] Jest 
 
 #### Q7. To get the first item from the array ("cooking") using array destructuring, how do you adjust this line?
 
@@ -69,14 +69,14 @@ const topics = ['cooking', 'art', 'history'];
 - [ ] `const first = ["cooking", "art", "history"]`
 - [ ] `const [] = ["cooking", "art", "history"]`
 - [ ] `const [, first]["cooking", "art", "history"]`
-- [ ] `const [first] = ["cooking", "art", "history"]` <<<<<--CORRECT
+- [x] `const [first] = ["cooking", "art", "history"]` 
 
 #### Q8. How do you handle passing through the component tree without having to pass props down manually at every level?
 
 - [ ] React Send
 - [ ] React Pinpoint
 - [ ] React Router
-- [ ] React Context <<<<<--CORRECT
+- [x] React Context 
 
 #### Q9. What should the console read when the following code is run?
 
@@ -86,7 +86,7 @@ console.log(animal);
 ```
 
 - [ ] Horse
-- [ ] Cat <<<<<--CORRECT
+- [x] Cat 
 - [ ] Mouse
 - [ ] undefined
 
@@ -95,12 +95,12 @@ console.log(animal);
 - [ ] JSX Editor
 - [ ] ReactDOM
 - [ ] Browser Buddy
-- [ ] Babel <<<<<--CORRECT
+- [x] Babel 
 
 #### 11. Why might you use useReducer over useState in a React component?
 
 - [ ] when you want to replace Redux
-- [ ] when you need to manage more complex state in an app <<<<<--CORRECT
+- [x] when you need to manage more complex state in an app 
 - [ ] when you want to improve performance
 - [ ] when you want to break your production app
 
@@ -111,7 +111,7 @@ console.log(animal);
 ```
 
 - [ ] any that have not changed
-- [ ] all of them <<<<<--CORRECT
+- [x] all of them 
 - [ ] child props
 - [ ] any that have changed
 
@@ -122,7 +122,7 @@ console.log(animal);
 ```
 
 - [ ] This is a route modal
-- [ ] This is a route parameter <<<<<--CORRECT
+- [x] This is a route parameter 
 - [ ] This is a route splitter
 - [ ] This is a route link
 
@@ -139,7 +139,7 @@ ReactDOM.render(<Dish />, document.getElementById('root'));
 - [ ] `div`
 - [ ] section
 - [ ] component
-- [ ] `h1` <<<<<--CORRECT
+- [x] `h1` 
 
 #### 15. What does this React element look like given the following function?
 
@@ -148,7 +148,7 @@ React.createElement('h1', null, "What's happening?");
 ```
 
 - [ ] `<h1 props={null}>What's happening?</h1>`
-- [ ] `<h1>What's happening?</h1>` <<<<<--CORRECT
+- [x] `<h1>What's happening?</h1>` 
 - [ ] `<h1 id="component">What's happening?</h1>`
 - [ ] `<h1 id="element">What's happening?</h1>`
 
@@ -168,7 +168,7 @@ function MyComponent() {
 
 - [ ] lazy
 - [ ] loading
-- [ ] fallback <<<<<--CORRECT
+- [x] fallback 
 - [ ] spinner
 
 #### 17. What do you call the message wrapped in curly braces below?
@@ -180,14 +180,14 @@ const element = <p>{message}</p>;
 
 - [ ] a JS function
 - [ ] a JS element
-- [ ] a JS expression <<<<<--CORRECT
+- [x] a JS expression 
 - [ ] a JSX wrapper
 
 #### 18. What can you use to handle code splitting?
 
 - [ ] `React.memo`
 - [ ] `React.split`
-- [ ] `React.lazy` <<<<<--CORRECT
+- [x] `React.lazy` 
 - [ ] `React.fallback`
 
 #### 19. When do you use useLayoutEffect?
@@ -195,7 +195,7 @@ const element = <p>{message}</p>;
 - [ ] to optimize for all devices
 - [ ] to complete the update
 - [ ] to change the layout of the screen
-- [ ] when you need the browser to paint before the effect runs <<<<<--CORRECT
+- [x] when you need the browser to paint before the effect runs 
 
 #### 20. What is the difference between the click behaviors of these two buttons (assuming that this.handleClick is bound correctly)?
 
@@ -205,7 +205,7 @@ B. <button onClick="{event => this.handleClick(event)}}>Click Me</button>"
 ```
 
 - [ ] Button A will not have access to the event object on click of the button.
-- [ ] Button B will not fire the handler this.handleClick successfully. <<<<<--CORRECT
+- [x] Button B will not fire the handler this.handleClick successfully. 
 - [ ] Button A will not fire the handler this.handleClick successfully.
 - [ ] There is no difference
 
@@ -222,8 +222,7 @@ function Dish(props) {
 ```
 
 - [ ] `function Dish([name, cookingTime]) { return <h1>{name} {cookingTime}</h1>; }`
-- [ ] `function Dish({name, cookingTime}) { return <h1>{name} {cookingTime}</h1>; }` <<<<<--CORRECT
-
+- [x] `function Dish({name, cookingTime}) { return <h1>{name} {cookingTime}</h1>; }` 
 - [ ] `function Dish(props) { return <h1>{name} {cookingTime}</h1>; }`
 - [ ] `function Dish(...props) { return <h1>{name} {cookingTime}</h1>; }`
 
@@ -231,33 +230,33 @@ function Dish(props) {
 
 - [ ] when you do not want your component to have props
 - [ ] when you have sibling components that need to be compared
-- [ ] when you want a default implementation of shouldComponentUpdate() <<<<<--CORRECT
+- [x] when you want a default implementation of shouldComponentUpdate() 
 - [ ] when you do not want your component to have state
 
 #### 23. Why is it important to avoid copying the values of props into a component's state where possible?
 
 - [ ] because you should never mutate state
 - [ ] because getDerivedStateFromProps() is an unsafe method to use
-- [ ] because you want to allow a component to update in response to changes in the props <<<<<--CORRECT
+- [x] because you want to allow a component to update in response to changes in the props 
 - [ ] because you want to allow data to flow back up to the parent
 
 #### 24. What is the children prop?
 
 - [ ] a property that adds child components to state
-- [ ] a property that lets you pass components as data to other components <<<<<--CORRECT
+- [x] a property that lets you pass components as data to other components 
 - [ ] a property that lets you set an array as a property
 - [ ] a property that lets you pass data to child elements
 
 #### 25. Which attribute do you use to replace innerHTML in the browser DOM?
 
 - [ ] injectHTML
-- [ ] dangerouslySetInnerHTML <<<<<--CORRECT
+- [x] dangerouslySetInnerHTML 
 - [ ] weirdSetInnerHTML
 - [ ] strangeHTML
 
 #### 26. Which of these terms commonly describe React applications?
 
-- [ ] declarative <<<<<--CORRECT
+- [x] declarative 
 - [ ] integrated
 - [ ] closed
 - [ ] imperative
@@ -266,12 +265,12 @@ function Dish(props) {
 
 - [ ] to put together physical file folders
 - [ ] to process files
-- [ ] to load external data <<<<<--CORRECT
+- [x] to load external data 
 - [ ] to load the website into everyone's phone
 
 #### 28. A representation of a user interface that is kept in memory and is synced with the "real" DOM is called what?
 
-- [ ] virtual DOM <<<<<--CORRECT
+- [x] virtual DOM 
 - [ ] DOM
 - [ ] virtual elements
 - [ ] shadow DOM
@@ -285,13 +284,13 @@ const Heading = () => {
 ```
 
 - [ ] Add a render function
-- [ ] Change the curly braces to parentheses or add a return statement before the h1 tag. <<<<<-- [ ] Correct
+- [x] Change the curly braces to parentheses or add a return statement before the h1 tag. 
 - [ ] Move the h1 to another component.
 - [ ] Surround the h1 in a div.
 
 #### Q30. To create a constant in JavaScript, which keyword do you use?
 
-- [ ] const <<<<<--CORRECT
+- [x] const 
 - [ ] let
 - [ ] constant
 - [ ] var
@@ -301,32 +300,32 @@ const Heading = () => {
 - [ ] error bosses
 - [ ] error catchers
 - [ ] error helpers
-- [ ] error boundaries <<<<<--CORRECT
+- [x] error boundaries 
 
 #### Q32. In which lifecycle method do you make requests for data in a class component?
 
 - [ ] constructor
-- [ ] componentDidMount <<<<<--CORRECT
+- [x] componentDidMount 
 - [ ] componentWillReceiveProps
 - [ ] componentWillMount
 
 #### Q33. React components are composed to create a user interface. How are components composed?
 
 - [ ] by putting them in the same file
-- [ ] by nesting components <<<<<--CORRECT
+- [x] by nesting components 
 - [ ] with webpack
 - [ ] with code splitting
 
 #### Q34. All React components must act like **\_\_** with respect to their props.
 
 - [ ] monads
-- [ ] pure functions <<<<<--CORRECT
+- [x] pure functions 
 - [ ] recursive functions
 - [ ] higher-order functions
 
 #### Q35. Why might you use a ref?
 
-- [ ] to directly access the DOM node <<<<<--CORRECT
+- [x] to directly access the DOM node 
 - [ ] to refer to another JS file
 - [ ] to call a function
 - [ ] to bind the function
@@ -341,7 +340,7 @@ handleChange(e) {
 
 - [ ] a computer property name
 - [ ] a set value
-- [ ] a dynamic key <<<<<--CORRECT
+- [x] a dynamic key 
 - [ ] a JSX code string
 
 #### Q37. What is the name of this component?
@@ -354,14 +353,14 @@ class Clock extends React.Component {
   }
 ```
 
-- [ ] Clock <<<<<--CORRECT
+- [x] Clock 
 - [ ] It does not have a name prop.
 - [ ] React.Component
 - [ ] Component
 
 #### Q38. What is sent to an Array.map() function?
 
-- [ ] a callback function that is called once for each element in the array <<<<<--CORRECT
+- [x] a callback function that is called once for each element in the array 
 - [ ] the name of another array to iterate over
 - [ ] the number of times you want to call the function
 - [ ] a string describing what the function should do
@@ -371,19 +370,19 @@ class Clock extends React.Component {
 - [ ] It is more functional than an object
 - [ ] It makes sure that the object is not mutated
 - [ ] It automatically updates a component
-- [ ] setState is asynchronous and might result in out of sync values. <<<<<--CORRECT
+- [x] setState is asynchronous and might result in out of sync values. 
 
 #### Q40. What package contains the render() function that renders a React element tree to the DOM?
 
 - [ ] `React`
-- [ ] `ReactDOM` <<<<<--CORRECT
+- [x] `ReactDOM` 
 - [ ] `Render`
 - [ ] `DOM`
 
 #### Q41. How do you set a default value for an uncontrolled form field?
 
 - [ ] Use the `value` property
-- [ ] Use the `defaultValue` property <<<<<--CORRECT
+- [x] Use the `defaultValue` property 
 - [ ] Use the `default` property
 - [ ] It assigns one automatically
 
@@ -400,11 +399,11 @@ class clock extends React.Component {
 - [ ] Add quotes around the return value
 - [ ] Remove `this`
 - [ ] Remove the render method
-- [ ] Capitalize `clock` <<<<<--CORRECT (In JSX, lower-case tag names are considered to be HTML tags. Read [this article](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components))
+- [x] Capitalize `clock`  (In JSX, lower-case tag names are considered to be HTML tags. Read [this article](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components))
 
 #### Q43. Which Hook could be used to update the document's title?
 
-- [ ] `useEffect(function updateTitle() { document.title = name + ' ' + lastname; });` <<<<<--CORRECT
+- [x] `useEffect(function updateTitle() { document.title = name + ' ' + lastname; });` 
 - [ ] `useEffect(() => { title = name + ' ' + lastname; });`
 - [ ] `useEffect(function updateTitle() { name + ' ' + lastname; });`
 - [ ] `useEffect(function updateTitle() { title = name + ' ' + lastname; });`
@@ -413,7 +412,7 @@ class clock extends React.Component {
 
 - [ ] `React.fallback`
 - [ ] `React.split`
-- [ ] `React.lazy` <<<<<--CORRECT
+- [x] `React.lazy` 
 - [ ] `React.memo`
 
 #### Q45. How do you invoke setDone only when component mounts, using hooks?
@@ -428,7 +427,7 @@ function MyComponent(props) {
 
 - [ ] `useEffect(() => { setDone(true); });`
 - [ ] `useEffect(() => { setDone(true); }, []);`
-- [ ] `useEffect(() => { setDone(true); }, [setDone]);` <<<<<--CORRECT
+- [x] `useEffect(() => { setDone(true); }, [setDone]);` 
 - [ ] `useEffect(() => { setDone(true); }, [done, setDone]);`
 
 #### Q46.
@@ -449,7 +448,7 @@ class Huggable extends React.Component{
 }
 ```
 
-- [ ] `<button onClick={(name) => this.hug(name)>Hug Button</button>`<<<<<--CORRECT
+- [x] `<button onClick={(name) => this.hug(name)>Hug Button</button>`
 - [ ] `<button onClick={this.hug(e, name)}>Hug Button</button>`
 - [ ] `<button onClick={(e) => hug(e,name)}>Hug Button</button>` 
 - [ ] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>`
@@ -462,8 +461,7 @@ Currently, `handleClick` is being called instead of passed as a reference. How d
 <button onClick={this.handleClick()}>Click this</button>
 ```
 
-- [ ] `<button onClick={this.handleClick.bind(handleClick}>Click this</button>`<<<<<--CORRECT
+- [x] `<button onClick={this.handleClick.bind(handleClick}>Click this</button>`
 - [ ] `<button onClick={handleClick()}>Click this</button>`
 - [ ] `<button onClick={this.handleClick}>Click this</button>` 
 - [ ] `<button onclick={this.handleClick}>Click this</button>`
-
