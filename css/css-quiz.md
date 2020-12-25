@@ -669,3 +669,17 @@ p:first-child {
 - [ ] green
 - [x] red
 - [ ] yellow
+
+### Q53. What is the ::placeholder pseudo-element used for?
+
+- [x] It is used to format the appearance of placeholder text within a form control.
+- [ ] It specifies the default input text for a form control.
+- [ ] It writes text content into a hyperlink tooltip.
+- [ ] It writes text content into any page element.
+
+### Q54. Which statement is true of the single colon (:) or double colon (: :) notations for pseudo-elements-for example,::before and : before?
+
+- [ ] All browsers support single and double colons for new and older pseudo-elements. So you can use either but it is convention to use single colons for consistency.
+- [ ] In CSS3, the double colon notation (: :) was introduced to create a consistency between pseudo-elements from pseudo-classes. For newer browsers, use the double colon notation. For IE8 and below, using single colon notation (:).
+- [ ] Only the new CSS3 pseudo-elements require the double colon notation while the CSS2 pseudo-elements do not.
+- [ ] In CSS3, the double colon notation (::) was introduced to differentiate pseudo-elements from pseudo-classes. However, modern browsers support formats. Older browsers such IE8 and below do not
