@@ -270,3 +270,59 @@ Q.26 What is the output of this code?
 	b) 1/2 = 0 
 	c) 1/2 = 0.000000 << correct
 	d) 1/2 = 0.5 
+	
+Q.27 What is the difference between a public and a private class member?
+
+	a) Public members are the same as global variables, so every part of the code has access to them. Private members are the same as  	automatic variables, so only their class has access to them.
+ 	b) Public members are made accessible to any running application. Private members are made accessible only to the application where   the object is instantiated.
+	c) Public members will be compiled as shared variables in a multithreaded environment. Private members will be compiled as Thread-local variables.
+	d)Public members can be accessed by any function. Private members can be accessed only by the same class's member functions and the friends of the class.
+
+Q.28 What is the value of x after running this code?
+	
+	int x=10, a=-3;
+	x=+a;
+	
+	a) 3
+	b) 7
+	c) -3
+	d) 13
+
+Q.29 Which statement is true?
+	
+	a) Only classes can have member variables and methods.
+	b) C++ supports multiple inheritance.
+	c) C++ supports only single inheritance.
+	d) Only structs can inherit.
+
+Q.30 Consider a pointer to void, named ptr, which has been set to point to a floating point variable g. Which choice is a valid way to dereference ptr to assign its pointed value to a float variable f later in the program?
+
+	float g;
+	void *ptr=&g;
+
+	a) float f=*(float)ptr;
+	b) float f=(float *)ptr;
+	c) float f=(float)*ptr;
+	d) float f=*(float *)ptr;		
+
+Q.31 What is the .* operator and what does it do?
+
+	a) It is the same as the class member access operator, or arrow operator (->), which allows you to access a member of an object through a pointer to the object.
+	b) It is the pointer to member operator, and it allows you to access a member of an object through a pointer to that specific class member.
+	c) It is the member access with address of operator, which returns the address of a class or struct member.
+	d) It is a combination of the member access operator (.) and the dereference operator (*), so it allows you to access the object that a member pointer points to 
+
+Q.32 For these declarations, which choice shows four equivalent ways to assign the character "y" in the string to a char variable c?
+
+	a)	c = buff[16];
+	  	C = str[5];
+	   	C = * (buff+16);
+	   	c = * (str+5);
+	b)	C = *(buff[15]);
+		C = * (str[4]);
+		c = buff+15;
+		C-str+4;
+	c)	c = buff[15];
+		C = str[4];
+		c = (buff+15);
+		C = *(str+4);
