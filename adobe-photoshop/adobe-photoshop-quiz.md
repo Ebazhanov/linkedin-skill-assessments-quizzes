@@ -5,11 +5,11 @@
 - [ ] Double-click the file
 - [x] [Choose File > Edit in Photoshop](https://helpx.adobe.com/lightroom-cc/how-to/lightroom-photoshop-edit-photos.html#choose_a_photo_from_lightroom)
 - [ ] Choose File > Save to Photoshop
-- [x] Press Cmd/Ctrl+E
+- [ ] Press Cmd/Ctrl+E
 
 #### Q2. How can you undo one or more changes just made to an image?
 
-- [x] Use the keyboard shortcut Cmd/Ctrl+Z
+- [ ] Use the keyboard shortcut Cmd/Ctrl+Z
 - [x] [Click a state in the history panel](https://helpx.adobe.com/uk/photoshop/using/undo-history.html#using_the_history_panel)
 - [ ] Choose File > Undo
 - [ ] Press Cmd/Ctrl+U
@@ -19,7 +19,7 @@
 - [ ] Click the eye icon in the layers panel
 - [x] [Use the Move tool with auto-select enabled](https://helpx.adobe.com/uk/photoshop/using/selecting-grouping-linking-layers.html#select_layers_in_the_document_window)
 - [ ] Right-click the image and select layer
-- [x] Press Cmd/Ctrl and click the layer
+- [ ] Press Cmd/Ctrl and click the layer
 
 #### Q4. How can you avoid having transparent edges along the edge of a panoramic photo while retaining the largest image size?
 
@@ -66,9 +66,9 @@
     D. Distort
     E. Perspective Warp
 
-- [x] C,D
+- [ ] C,D
 - [ ] D,E
-- [x] B,C
+- [x] [B,C ] (https://helpx.adobe.com/photoshop/using/free-transformations-images-shapes-paths.html#:~:text=The%20Free%20Transform%20command%20lets,to%20switch%20between%20transformation%20types.)
 - [ ] C,E
 
 #### Q10. What is considered the minimum DPI for photographic-quality inkjet printing?

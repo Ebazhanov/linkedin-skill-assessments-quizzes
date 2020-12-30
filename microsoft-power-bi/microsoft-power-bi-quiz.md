@@ -1,7 +1,6 @@
 ﻿### Microsoft Power BI
 
 Q1. A dataset that includes \_ can be used to create a map visualization. (Select all that apply.)
-
     A. house numbers, street names
     B. geospatial data
     C. city names, country names
@@ -93,7 +92,7 @@ Q11. What can you do within the Power Bl Desktop Query Settings pane? (Select al
     D. Reorder the steps.
 
     [ ] B, C, D
-    [ ] A, B, C, D
+    [X] A, B, C, D <<< proof link: https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview
     [ ] A, B, D
     [ ] A, B, C
 
@@ -106,12 +105,12 @@ Q12. After you enter text in the Q&A box or O&A visual, Power Bl will \_ your da
 
 Q13. You just deleted a dashboard in the Power Bl service and want to get it back. What should you do?
 
-    [ ] Press Ctrl+Z.
+    [X] Press Ctrl+Z. <<< proof link: https://docs.microsoft.com/en-us/power-bi/visuals/service-tips-and-tricks-for-color-formatting, https://www.edureka.co/community/26060/how-do-i-undo-something-in-power-bi
     [ ] Select Undo from the toolbar.
     [ ] You cannot undo the deletion of a dashboard.
     [ ] Recover it from the Recycle Bin.
 
-Q14. You have a sales data source and want to relate the tables. The table that contains sales transactions is a table that contains product information is a \_ table .
+Q14. You have a sales data source and want to relate the tables. The table that contains sales transactions is a _____ table that contains product information is a \_ table .
 
     [ ] dimension; fact
     [ ] lookup; data
@@ -146,7 +145,7 @@ Q17. One of your data columns includes the city, state, and postal code line of 
 
 Q18. Formatting options within a visualization depend on what?
 
-    [ ] the visualization you are formatting
+    [X] the visualization you are formatting <<< proof link: https://docs.microsoft.com/en-us/power-bi/visuals/service-getting-started-with-color-formatting-and-axis-properties
     [ ] the editor you use
     [ ] the visualization group
     [ ] your permissions
@@ -193,3 +192,20 @@ CALCULATE(SUM([Sales]) ,DATESHTD([Date] ))
     [ ] total sales for the entire month
     [ ] running total in entire year for the entire month
     [ ] rolling average over 12 months of sales
+
+    
+Q25.  What should you do to increase the readability of a report?
+
+    [ ] all of these answers
+    [ ] Remove unnecessary field labels.
+    [ ] Select the most appropriate visualization.
+    [ ] Use borders.
+
+
+Q26. Which feature in the Power BI service is most useful when you need to create pages that present the same visualizations for different territories, salespeople, or teams?
+
+    [ ] landscape mode
+    [ ] none of these answers
+    [ ] Shrink to Fit
+    [ ] templates 
+

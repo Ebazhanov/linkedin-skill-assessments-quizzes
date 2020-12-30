@@ -33,9 +33,9 @@
 #### Q5. What are attributes?
 
 - [ ] Attributes are long-form version of an `if/else` statement, used when testing for equality between objects.
-- [ ] Attributes are a way to hold data or describe a state for a class or an instance of a class.
+- [x] Attributes are a way to hold data or describe a state for a class or an instance of a class.
 - [ ] Attributes are strings that describe characteristics of a class.
-- [x] Function arguments are called "attributes" in the context of class methods and instance methods.
+- [ ] Function arguments are called "attributes" in the context of class methods and instance methods.
 
 #### Q6. What is the term to describe this code?
 
@@ -355,7 +355,7 @@ output.append(fruit_tuple)
 return output
 ```
 
-- [ ] `-`
+- [x] `-`
 
 ```
 i = 0
@@ -368,7 +368,7 @@ for fruit in fruits:
 return output
 ```
 
-- [x] `-`
+- [ ] `-`
 
 ```
 groceries = zip(fruits, quantities, prices)
@@ -658,7 +658,7 @@ fruit_info = {
 
 #### Q49. What is the proper way to write a list comprehension that represents all the keys in this dictionary?
 
-fruits = {'Apples': 5, 'Oranges': 3, Bananas': 4}
+fruits = {'Apples': 5, 'Oranges': 3, 'Bananas': 4}
 
 - [ ] `fruit_names = [x in fruits.keys() for x]`
 - [ ] `fruit_names = for x in fruits.keys() *`
@@ -779,9 +779,17 @@ def __init__(self):
 - [ ] `When you want to minimize the use of strings in your code `
 - [ ] `When you want to run code in one file for a function in another file `
 
-#### Q63. What are attributes? The answer Provided is wrong in ###5 the correct is as following
+#### Q63. What is the most self-descriptive way to define a function that calculates sales tax on a purches?
 
-- [ ] Attributes are long-form version of an "if/else" statement, used when testing for equality between objects.
-- [x] Attributes are a way to hold data or describe a state for a class or an instance of a class.
-- [ ] Attributes are strings that describe characteristics of a class.
-- [ ] Function arguments are called "attributes" in the context of class methods and instance methods.
+- [ ] 
+`def tax(my_float):
+    '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal ...???`
+- [ ]
+`def tx(amt):
+    '''Gets the tax on an amount.'''`
+- [ ]
+`def sales_tax(amount):
+    '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal ...???`
+-[x]
+`def calculate_sales_tax(subtotal):
+    pass`
