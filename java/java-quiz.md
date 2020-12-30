@@ -844,8 +844,8 @@ public class Solution {
   }
 ```
 
-- [ ] new MagicPower().castSpell("expecto patronum")
-- [X] MagicPower magicPower = new MagicPower();
+- [X] new MagicPower().castSpell("expecto patronum")
+- [ ] MagicPower magicPower = new MagicPower();
       magicPower.castSpell();
 - [ ] MagicPower.castSpell("expelliarmus");
 - [ ] new MagicPower.castSpell();
