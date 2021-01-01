@@ -132,7 +132,7 @@ Q15. When you are creating a formula in the Power Query Editor, what does Intell
 Q16. You want to delete a dataset but the Power Bl service will not let you. What is the most likely cause?
 
     [ ] A tile on your dashboard contains data from that dataset.
-    [ ] The dataset is already being used in a published app.
+    [X] The dataset is already being used in a published app.
     [ ] A report contains data from that dataset.
     [ ] The dataset is in your workspace.
 
