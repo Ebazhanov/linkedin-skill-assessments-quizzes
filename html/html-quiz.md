@@ -255,7 +255,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </p>
 ```
 
-#### Q21. What should fill the blank in this HTML code?
+#### Q21. What should fill the blank in this HTML code? 
 
 ```html
 <a href="https://es.yahoo.com/" hreflang="____" target="_blank">Visita Yahoo</a>
@@ -557,8 +557,8 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 -Groceries
 --Milk
 ```
-
 [picture](https://cdn.lynda.com/question/5d07ce7b498ef292ca309a14/5d07ce7b498ef292ca309a14-1560793406126)
+
 
 - [ ]
 
@@ -952,7 +952,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 #### Q55. Review the code below. What is the absolute URL for a page called **page.html**?
 
 ```html
-<base href="http://www.linkedin.com/dir/" />
+<base href="http://www.linkedin.com/dir/">
 ```
 
 - [ ] http://www.linkedin.com/dir/page.html
@@ -966,78 +966,74 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] <link rel="stylesheet" href="style.css">
 - [ ] <style src="style.css"></style>
 - [ ] <link style="style.css">
-
+  
 #### Q57. You want to have single spacing in between some lines, like in a poem or an address. Which approach should you use?
 
 - [ ] Wrap the text in a box that is the right width so everything wraps correctly. Set the box width with CSS.
 - [ ] Separate lines with a '<p>', then use CSS to make single spacing.
 - [ ] Use the '<pre>' tag to make the line spacing look exactly like you want.
 - [ ] Separate the lines with the '<br>' tag.
-
+  
 #### Q58.What does the <wbr> tag do?
-
+   
 - [ ] It requires the browser to wrap the current line at that point.
 - [ ] It breaks a word into two pieces, using a hyphen to connect the words.
 - [ ] It formats a sentence to be easily breakable.
 - [ ] It presents an opportunity for a break in a very long word, if needed for proper page display.
 
-#### Q59. Review the code below. How do you include subnavigation for Link 2 that includes a link?
-
-```html
-<nav>
-  <ul>
-    <li><a href="#">Link 1</a></li>
-    <li><a href="#">Link 2</a></li>
-    <li><a href="#">Link 3</a></li>
-  </ul>
-</nav>
+#### Q59. Review the code below. How do you include subnavigation for Link 2 that includes a link? 
+   ```html
+        <nav><ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+             <li><a href="#">Link 3</a></li>
+        </ul></nav>
 ```
+- [ ]
+      <nav><ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+         <ul>
+           <li><a href="#">Link 2a</a></li>
+         </ul>
+       <li><a href="#">Link 3</a></li> 
+      </ul></nav>
 
 - [ ]
-  <nav><ul>
-  <li><a href="#">Link 1</a></li>
-  <li><a href="#">Link 2</a></li>
-  <ul>
-  <li><a href="#">Link 2a</a></li>
-  </ul>
-  <li><a href="#">Link 3</a></li>
-  </ul></nav>
+      <nav><ul>
+       <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a>
+          <ul>
+            <li><a href="#">Link 2a</a></li>
+          </ul></li>
+       <li><a href="#">Link 3</a></li>
+      </ul></nav>
 
 - [ ]
-  <nav><ul>
-  <li><a href="#">Link 1</a></li>
-  <li><a href="#">Link 2</a>
-  <ul>
-  <li><a href="#">Link 2a</a></li>
-  </ul></li>
-  <li><a href="#">Link 3</a></li>
-  </ul></nav>
+      <ul><nav>
+       <li><a href="#">Link 1</a></li>
+       <li><a href="#">Link 2</a>
+         <ul><nav>
+            <li><a href="#">Link 2a</a></li>
+         </nav></ul></li>
+       <li><a href="#">Link 3</a></li>
+      </nav></ul>
 
 - [ ]
-  <ul><nav>
-  <li><a href="#">Link 1</a></li>
-  <li><a href="#">Link 2</a>
-  <ul><nav>
-  <li><a href="#">Link 2a</a></li>
-  </nav></ul></li>
-  <li><a href="#">Link 3</a></li>
-  </nav></ul>
-
-- [ ]
-  <nav><ul>
-  <li><a href="#">Link 1</a></li>
-  <li><a href="#">Link 2</a></li>
-  <nav><ul>
-  <li><a href="#">Link 2a</a></li>
-  </ul></nav>
-  <li><a href="#">Link 3</a></li>
-  </ul></nav>
-
+      <nav><ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+         <nav><ul>
+           <li><a href="#">Link 2a</a></li>
+          </ul></nav>
+        <li><a href="#">Link 3</a></li>
+      </ul></nav>
+      
 #### Q60. What is the correct way to code a comment in HTML?
 
 - [ ] //this is a comment
-- [ ] /_ this is a comment _/
-- [ ] <! this is a comment ->
+- [ ] /* this is a comment */ 
+- [ ] <! this is a comment ->  
 - [ ] <!-- this is a comment -->
 
 #### Q61. Which statement is false?
@@ -1046,3 +1042,4 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] Block elements can be nested inside block elements.
 - [ ] Inline elements can be nested inside block elements.
 - [ ] Block elements can be nested inside inline elements.
+
