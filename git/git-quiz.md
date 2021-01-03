@@ -744,3 +744,10 @@ Which of the following options is correct ?
 [Reference](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config#:~:text=The%20git%20config%20command%20is,modify%20a%20configuration%20text%20file.)
 
 </p></details>
+
+#### Q88. Which command can be used to list the branches that have been merged into the currently checked-out branch?
+
+- [ ] git master --status
+- [ ] git branch --status
+- [ ] git branch --merged
+- [ ] git status --merged
