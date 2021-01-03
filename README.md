@@ -1,7 +1,7 @@
 # Linkedin-quiz-questions
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-199-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-200-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
@@ -355,6 +355,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://www.linkedin.com/in/pravin--sharma"><img src="https://avatars2.githubusercontent.com/u/32671972?v=4?s=100" width="100px;" alt=""/><br /><sub><b>PRAVIN SHARMA</b></sub></a><br /><a href="#design-pravin-sharma" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/NIDZAAA1"><img src="https://avatars3.githubusercontent.com/u/58033073?v=4?s=100" width="100px;" alt=""/><br /><sub><b>NIDZAAA1</b></sub></a><br /><a href="#design-NIDZAAA1" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=NIDZAAA1" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/JohnMai1994"><img src="https://avatars2.githubusercontent.com/u/44597440?v=4?s=100" width="100px;" alt=""/><br /><sub><b>John Mai</b></sub></a><br /><a href="#design-JohnMai1994" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=JohnMai1994" title="Code">💻</a></td>
+    <td align="center"><a href="https://soso-cod3v.tistory.com/"><img src="https://avatars3.githubusercontent.com/u/43427380?v=4?s=100" width="100px;" alt=""/><br /><sub><b>kimsoyeong</b></sub></a><br /><a href="#design-kimsoyeong" title="Design">🎨</a></td>
   </tr>
 </table>
 
