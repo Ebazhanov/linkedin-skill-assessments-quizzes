@@ -814,3 +814,46 @@ public class Solution {
 - [ ] Declare local copies of the constant in your code.
 - [ ] This cannot be done. You must always qualify references to static members with the class form which they came from.
 - [ ] Put the static members in an interface and inherit from that interface.
+
+#### Q57. Which keyword lets you use an interface?
+
+- [ ] extends
+- [X] implements
+- [ ] inherits
+- [ ] import
+
+#### Q58. Why are ArrayLists better than arrays?
+
+- [X] You don't have to decide the size of an ArrayList when you first make it.
+- [ ] You can put more items into an ArrayList than into an array.
+- [ ] ArrayLists can hold more kinds of objects than arrays.
+- [ ] You don't have to decide the type of an ArrayList when you first make it.
+
+#### Q59. Declare a variable that holds the first four digits of Π
+
+- [ ] int pi = 3.141;
+- [ ] decimal pi = 3.141;
+- [ ] double pi = 3.141;
+- [X] float pi = 3.141;
+
+#### Q60. Use the magic power to cast a spell
+
+```java
+  public class MagicPower {
+    void castSpell(String spell) {}
+  }
+```
+
+- [X] new MagicPower().castSpell("expecto patronum")
+- [ ] MagicPower magicPower = new MagicPower();
+      magicPower.castSpell();
+- [ ] MagicPower.castSpell("expelliarmus");
+- [ ] new MagicPower.castSpell();
+
+
+#### Q61. What language construct serves as a blueprint containing an object's properties and functionality?
+
+- [ ] constructor
+- [ ] instance
+- [X] class
+- [ ] method
