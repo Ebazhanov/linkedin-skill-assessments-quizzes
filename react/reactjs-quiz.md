@@ -465,3 +465,17 @@ Currently, `handleClick` is being called instead of passed as a reference. How d
 - [ ] `<button onClick={handleClick()}>Click this</button>`
 - [ ] `<button onClick={this.handleClick}>Click this</button>` 
 - [ ] `<button onclick={this.handleClick}>Click this</button>`
+
+#### Q48. (Not sure answer)
+Which answer best describes a function component?
+- [] `A function component is the same as a class component.`
+- [ ] `A function component accepts a single props object and returns a React element.`
+- [ ] `A function component is the only way to create a component.`
+- [ ] `A function component is required to create a React component.`
+
+#### Q49.
+Which library does the fetch() function come from?
+- [ ] `FetchJS`
+- [ ] `ReactDOM`
+- [X] `No library. fetch() is supported by most browsers.`
+- [ ] `React`
