@@ -1918,6 +1918,15 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "donaghosh",
+      "name": "Dona Ghosh",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/30055109?v=4",
+      "profile": "https://github.com/donaghosh",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
