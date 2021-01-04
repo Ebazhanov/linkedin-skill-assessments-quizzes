@@ -286,3 +286,10 @@
 - [ ] `"All object create events"`
 - [x] `PUT`
 - [ ] `COPY`
+
+#### Q44. To make Lambdas more testable, it is AWS best practice to separate which of these?
+
+- [ ] `Lambda configuration from logging code`
+- [ ] `Lambda handler from logging code`
+- [x] `Lambda handler from core logic`
+- [ ] `Lambda configuration from core logic`

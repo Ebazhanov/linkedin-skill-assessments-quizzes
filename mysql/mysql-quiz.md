@@ -152,7 +152,7 @@
 - [x] logical model
 - [ ] physical model
 - [ ] normalized database
-      NOT SURE THE QUESTION IS CORRECT. Logical, physical and normalised are all products of the designing phase in this order.
+      NOT SURE THE QUESTION IS CORRECT. Logical, physical and normalized are all products of the designing phase in this order.
 
 #### Q12. MySQL server can operate in different SQL modes, depending on the value of the sql_mode system variable. Which mode changes syntax and behavior to conform more closely to standard SQL?
 
@@ -437,10 +437,10 @@
 - [ ] temptable
 - [ ] undefined
 
-#### Q50. What is the MySQL perror command-line utility used for?
+#### Q50. What is the MySQL `perror` command-line utility used for?
 
 - [ ] to display your version of MySQL
-- [x] to display operating system error codes
+- [ ] to display operating system error codes
 - [ ] to display default settings that are in error
 - [x] to display storage error codes
 
@@ -488,7 +488,7 @@
 - [ ] WITH cte as (SELECT id FROM users), SELECT ...
 - [x] WITH cte as (SELECT id FROM users) SELECT ...
 
-#### Q57. What is one reason to introduce data redundancy into a normalised database design?
+#### Q57. What is one reason to introduce data redundancy into a normalized database design?
 
 - [x] to reduce corruption in data
 - [ ] to reduce storage space
@@ -548,3 +548,33 @@
 - [x] It always first drops, then re-creates a new table.
 - [ ] It deletes rows one by one on tables with foreign key contraints.
 - [ ] It does not invoke the `DELETE` triggers associated with the table.
+
+#### Q61. You are working with the tables as shown in this diagram. You need to get the number of cars sold per the home state of each customer's residence. How can you accomplish this?
+
+![mysql Q61](images/mysql_q61.png)
+
+- [ ] `SELECT state, COUNT(*) FROM customers WHERE ID IN (SELECT customerID FROM purchases) GROUP BY state;`
+- [ ] `SELECT state, COUNT(*) FROM customers c LEFT JOIN purchases p ON c.ID = p.ustomerID GROUP BY state;`
+- [x] `SELECT state, COUNT(*) FROM customers c, purchases p WHERE c.ID = p.customerID GROUP BY state;`
+- [ ] `SELECT state, COUNT(*) FROM customers GROUP BY state;`
+
+#### Q62. In data migration, there is often a need to delete duplicate rows as part of data cleanup. Which statement works best?
+
+- [ ] `DELETE DUPS`
+- [ ] `DELETE DISTINCT`
+- [x] `DELETE JOIN`
+- [ ] `DELETE WITH`
+
+#### Q63. When working with MySQL cursor, what must you also declare?
+
+- [ ] `DEFAULT` value
+- [ ] `RETURN` variable
+- [ ] `SQLEXCEPTION` routine
+- [x] `NOT FOUND` handler
+
+#### Q64. Which type of backup includes all the changes made to the data since the last full backup was performed?
+
+- [x] snapshot
+- [ ] logical
+- [ ] differential
+- [ ] incremental

@@ -1,7 +1,7 @@
 # Linkedin-quiz-questions
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-170-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-198-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
@@ -11,6 +11,7 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 
 | Pluralsight IQ Skill quiz                                                                                                | Status      |
 | ------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| [Angular](https://github.com/tik9/pluralsight/blob/master/angular.md)                                                    | ok          |
 | [Aws Big Data](https://github.com/tik9/pluralsight/blob/master/aws_big_data.md)                                          | ok          |
 | [Aws Machine Learning](https://github.com/tik9/pluralsight/blob/master/aws_machine_learning.md)                          | ok          |
 | [Building Websites with HTML, CSS, and JavaScript](https://github.com/tik9/pluralsight/blob/master/building-websites.md) | ok          |
@@ -23,58 +24,59 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 
 ### Table of Contents
 
-| Linkedin-quiz-questions                                                                                                                 | Status             |
-| --------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
-| [Adobe-Illustrator](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-illustrator/adobe-illustrator-quiz.md)             | answers required   |
-| [Adobe-Photoshop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/adobe-photoshop-quiz.md)                   | answers required   |
-| [Agile Methodologies](https://github.com/Ebazhanov/in-quiz-questions/blob/master/agile-methodologies/agile-methodologies-quiz.md)       | with answers       |
-| [Android](https://github.com/Ebazhanov/in-quiz-questions/blob/master/android/android-quiz.md)                                           | answers required   |
-| [AngularJs 🔥](https://github.com/Ebazhanov/in-quiz-questions/blob/master/AngularJS/angularjs-quiz.md)                                  | answers required   |
-| [AWS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws/aws-quiz.md)                                                       | answers required   |
-| [AWS-Lambda](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws-lambda/aws-lambda-quiz.md) :fire:                           | with answers       |
-| [Bash](https://github.com/Ebazhanov/in-quiz-questions/blob/master/bash/bash-quiz.md)                                                    | partially answered |
-| [C#](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%23/c-sharp-quiz.md)                                                   | answers required   |
-| [C++](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%2B%2B/c%2B%2Bquiz.md)                                                | with answers       |
-| [CSS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/css/css-quiz.md)                                                       | with answers       |
-| [Django](https://github.com/Ebazhanov/in-quiz-questions/blob/master/django/django-quiz.md)                                              | with answers       |
-| [.NET Framework](https://github.com/Ebazhanov/in-quiz-questions/blob/master/dotnet-framework/dotnet-framework-quiz.md)                  | partially answered |
-| [Git](https://github.com/Ebazhanov/in-quiz-questions/blob/master/git/git-quiz.md) :star:                                                | with answers       |
-| [Google Analytics](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-analytics/google-analytics-quiz.md)                | answers required   |
-| [Google Cloud Platform (GCP)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-cloud-platform/gcp-quiz.md)             | with answers       |
-| [Hadoop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/hadoop/hadoop-quiz.md)                                              | answers required   |
-| [HTML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/html/html-quiz.md)                                                    | with answers       |
-| [Java](https://github.com/Ebazhanov/in-quiz-questions/blob/master/java/java-quiz.md)                                                    | with answers       |
-| [Javascript](https://github.com/Ebazhanov/in-quiz-questions/blob/master/javascript/javascript-quiz.md)                                  | partially answered |
-| [jQuery](https://github.com/Ebazhanov/in-quiz-questions/blob/master/jquery/jquery-quiz.md) :open_mouth:                                 | with answers       |
-| [JSON](https://github.com/Ebazhanov/in-quiz-questions/blob/master/json/json-quiz.md)                                                    | with answers       |
-| [Machine Learning](https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/machine-learning-quiz.md)                | answers required   |
-| [MATLAB](https://github.com/Ebazhanov/in-quiz-questions/blob/master/matlab/matlab-quiz.md)                                              | with answers       |
-| [Maven](https://github.com/Ebazhanov/in-quiz-questions/blob/master/maven/maven-quiz.md) :fire:                                          | with answers       |
-| [Microsoft Azure](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-azure/microsoft-azure-quiz.md)                   | with answers       |
-| [Microsoft Excel](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-excel/microsoft-excel-quiz.md)                   | with answers       |
-| [Microsoft Power BI](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-power-bi/microsoft-power-bi-quiz.md)          | answers required   |
-| [Microsoft Power Point](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-power-point/microsoft-power-point-quiz.md) | partially answered |
-| [Microsoft Project](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-project/microsoft-project-quiz.md)             | answers required   |
-| [Microsoft Word](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-word/microsoft-word-quiz.md)                      | with answers       |
-| [MongoDB](https://github.com/Ebazhanov/in-quiz-questions/blob/master/mongodb/mongodb-quiz.md) :green_heart:                             | with answers       |
-| [MySQL](https://github.com/Ebazhanov/in-quiz-questions/blob/master/mysql/mysql-quiz.md)                                                 | answers required   |
-| [node.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/node.js/node.js-quiz.md)                                           | with answers       |
-| [NoSQL](https://github.com/Ebazhanov/in-quiz-questions/blob/master/nosql/nosql-quiz.md)                                                 | with answers       |
-| [objective-c](https://github.com/Ebazhanov/in-quiz-questions/blob/master/objective-c/objective-c_quiz.md)                               | partially answered |
-| [OOP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/oop/object-oriented-programming-quiz.md)                               | with answers       |
-| [PHP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/php/php-quiz.md)                                                       | partially answered |
-| [Python](https://github.com/Ebazhanov/in-quiz-questions/blob/master/python/python-quiz.md)                                              | with answers       |
-| [R](https://github.com/Ebazhanov/in-quiz-questions/blob/master/r/r-quiz.md)                                                             | partially answered |
-| [React.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/react/reactjs-quiz.md) :rose:                                     | with answers       |
-| [REST API](https://github.com/Ebazhanov/in-quiz-questions/blob/master/rest-api/rest-api-quiz.md) :+1:                                   | partially answered |
-| [Scala](https://github.com/Ebazhanov/in-quiz-questions/blob/master/scala/scala-quiz.md)                                                 | answers required   |
-| [Search Engine Optimization (SEO)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/seo/search-engine-optimization-quiz.md)   | partially answered |
-| [SharePoint](https://github.com/Ebazhanov/in-quiz-questions/blob/master/sharepoint/sharepoint-quiz.md)                                  | with answers       |
-| [Swift](https://github.com/Ebazhanov/in-quiz-questions/blob/master/swift/swift-quiz.md)                                                 | with answers       |
-| [Transact-SQL (T-SQL)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/t-sql/t-sql-quiz.md)                                  | with answers       |
-| [Windows Server](https://github.com/Ebazhanov/in-quiz-questions/blob/master/windows-server/windows-server-quiz.md)                      | partially answered |
-| [WordPress](https://github.com/Ebazhanov/in-quiz-questions/blob/master/wordpress/wordpress-quiz.md)                                     | partially answered |
-| [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md)                                                       | answers required   |
+| Linkedin-quiz-questions                                                                                                                 | Status                         |
+| --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
+| [Adobe-Illustrator](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-illustrator/adobe-illustrator-quiz.md)             | answers required               |
+| [Adobe-Photoshop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/adobe-photoshop-quiz.md)                   | answers required               |
+| [Agile Methodologies](https://github.com/Ebazhanov/in-quiz-questions/blob/master/agile-methodologies/agile-methodologies-quiz.md)       | with answers                   |
+| [Android](https://github.com/Ebazhanov/in-quiz-questions/blob/master/android/android-quiz.md)                                           | answers required               |
+| [AngularJs 🔥](https://github.com/Ebazhanov/in-quiz-questions/blob/master/AngularJS/angularjs-quiz.md)                                  | answers required               |
+| [AWS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws/aws-quiz.md)                                                       | answers required               |
+| [AWS-Lambda](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws-lambda/aws-lambda-quiz.md) :fire:                           | with answers                   |
+| [Bash](https://github.com/Ebazhanov/in-quiz-questions/blob/master/bash/bash-quiz.md)                                                    | partially answered             |
+| [C#](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%23/c-sharp-quiz.md)                                                   | answers required               |
+| [C++](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%2B%2B/c%2B%2Bquiz.md)                                                | with answers                   |
+| [CSS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/css/css-quiz.md)                                                       | with answers                   |
+| [Django](https://github.com/Ebazhanov/in-quiz-questions/blob/master/django/django-quiz.md)                                              | with answers                   |
+| [.NET Framework](https://github.com/Ebazhanov/in-quiz-questions/blob/master/dotnet-framework/dotnet-framework-quiz.md)                  | partially answered             |
+| [Git](https://github.com/Ebazhanov/in-quiz-questions/blob/master/git/git-quiz.md) :star:                                                | with answers                   |
+| [Google Analytics](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-analytics/google-analytics-quiz.md)                | answers required               |
+| [Google Cloud Platform (GCP)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-cloud-platform/gcp-quiz.md)             | with answers                   |
+| [Hadoop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/hadoop/hadoop-quiz.md)                                              | answers required               |
+| [HTML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/html/html-quiz.md)                                                    | with answers                   |
+| [Java](https://github.com/Ebazhanov/in-quiz-questions/blob/master/java/java-quiz.md)                                                    | with answers                   |
+| [Javascript](https://github.com/Ebazhanov/in-quiz-questions/blob/master/javascript/javascript-quiz.md)                                  | partially answered             |
+| [jQuery](https://github.com/Ebazhanov/in-quiz-questions/blob/master/jquery/jquery-quiz.md) :open_mouth:                                 | with answers                   |
+| [JSON](https://github.com/Ebazhanov/in-quiz-questions/blob/master/json/json-quiz.md)                                                    | with answers                   |
+| [Machine Learning](https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/machine-learning-quiz.md)                | answers required               |
+| Kotlin                                                                                                                                  | NO question and NO answers yet |
+| [MATLAB](https://github.com/Ebazhanov/in-quiz-questions/blob/master/matlab/matlab-quiz.md)                                              | with answers                   |
+| [Maven](https://github.com/Ebazhanov/in-quiz-questions/blob/master/maven/maven-quiz.md) :fire:                                          | with answers                   |
+| [Microsoft Azure](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-azure/microsoft-azure-quiz.md)                   | with answers                   |
+| [Microsoft Excel](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-excel/microsoft-excel-quiz.md)                   | with answers                   |
+| [Microsoft Power BI](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-power-bi/microsoft-power-bi-quiz.md)          | answers required               |
+| [Microsoft Power Point](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-power-point/microsoft-power-point-quiz.md) | partially answered             |
+| [Microsoft Project](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-project/microsoft-project-quiz.md)             | answers required               |
+| [Microsoft Word](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-word/microsoft-word-quiz.md)                      | with answers                   |
+| [MongoDB](https://github.com/Ebazhanov/in-quiz-questions/blob/master/mongodb/mongodb-quiz.md) :green_heart:                             | with answers                   |
+| [MySQL](https://github.com/Ebazhanov/in-quiz-questions/blob/master/mysql/mysql-quiz.md)                                                 | answers required               |
+| [node.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/node.js/node.js-quiz.md)                                           | with answers                   |
+| [NoSQL](https://github.com/Ebazhanov/in-quiz-questions/blob/master/nosql/nosql-quiz.md)                                                 | with answers                   |
+| [objective-c](https://github.com/Ebazhanov/in-quiz-questions/blob/master/objective-c/objective-c_quiz.md)                               | partially answered             |
+| [OOP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/oop/object-oriented-programming-quiz.md)                               | with answers                   |
+| [PHP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/php/php-quiz.md)                                                       | partially answered             |
+| [Python](https://github.com/Ebazhanov/in-quiz-questions/blob/master/python/python-quiz.md)                                              | with answers                   |
+| [R](https://github.com/Ebazhanov/in-quiz-questions/blob/master/r/r-quiz.md)                                                             | partially answered             |
+| [React.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/react/reactjs-quiz.md) :rose:                                     | with answers                   |
+| [REST API](https://github.com/Ebazhanov/in-quiz-questions/blob/master/rest-api/rest-api-quiz.md) :+1:                                   | partially answered             |
+| [Scala](https://github.com/Ebazhanov/in-quiz-questions/blob/master/scala/scala-quiz.md)                                                 | answers required               |
+| [Search Engine Optimization (SEO)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/seo/search-engine-optimization-quiz.md)   | partially answered             |
+| [SharePoint](https://github.com/Ebazhanov/in-quiz-questions/blob/master/sharepoint/sharepoint-quiz.md)                                  | with answers                   |
+| [Swift](https://github.com/Ebazhanov/in-quiz-questions/blob/master/swift/swift-quiz.md)                                                 | with answers                   |
+| [Transact-SQL (T-SQL)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/t-sql/t-sql-quiz.md)                                  | with answers                   |
+| [Windows Server](https://github.com/Ebazhanov/in-quiz-questions/blob/master/windows-server/windows-server-quiz.md)                      | partially answered             |
+| [WordPress](https://github.com/Ebazhanov/in-quiz-questions/blob/master/wordpress/wordpress-quiz.md)                                     | partially answered             |
+| [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md)                                                       | answers required               |
 
 &nbsp;
 
@@ -248,7 +250,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/ayushsahu1999"><img src="https://avatars0.githubusercontent.com/u/46241471?v=4" width="100px;" alt=""/><br /><sub><b>Ayush Sahu</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=ayushsahu1999" title="Code">💻</a></td>
     <td align="center"><a href="https://greenglow123.wordpress.com/"><img src="https://avatars1.githubusercontent.com/u/43813666?v=4" width="100px;" alt=""/><br /><sub><b>Hridya Krishna R</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=hridyakrishna" title="Code">💻</a></td>
     <td align="center"><a href="http://rahbal.github.io"><img src="https://avatars3.githubusercontent.com/u/5176514?v=4" width="100px;" alt=""/><br /><sub><b>Rahul Bali</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=rahbal" title="Code">💻</a> <a href="#design-rahbal" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/DevHabit"><img src="https://avatars0.githubusercontent.com/u/3051782?v=4" width="100px;" alt=""/><br /><sub><b>S.ZHeng</b></sub></a><br /><a href="#design-DevHabit" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/DevHabit"><img src="https://avatars0.githubusercontent.com/u/3051782?v=4" width="100px;" alt=""/><br /><sub><b>S.ZHeng</b></sub></a><br /><a href="#design-DevHabit" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=DevHabit" title="Code">💻</a> <a href="#business-DevHabit" title="Business development">💼</a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/shriyaMadan"><img src="https://avatars1.githubusercontent.com/u/38863530?v=4" width="100px;" alt=""/><br /><sub><b>Shriya Madan</b></sub></a><br /><a href="#design-shriyaMadan" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=shriyaMadan" title="Code">💻</a></td>
@@ -292,7 +294,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/srmeneses"><img src="https://avatars2.githubusercontent.com/u/11792508?v=4" width="100px;" alt=""/><br /><sub><b>Marcelo Meneses</b></sub></a><br /><a href="#design-srmeneses" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=srmeneses" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/tonchique"><img src="https://avatars1.githubusercontent.com/u/36279559?v=4" width="100px;" alt=""/><br /><sub><b>Anton Krekotun</b></sub></a><br /><a href="#design-tonchique" title="Design">🎨</a> <a href="#maintenance-tonchique" title="Maintenance">🚧</a> <a href="#content-tonchique" title="Content">🖋</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=tonchique" title="Code">💻</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=tonchique" title="Documentation">📖</a> <a href="#business-tonchique" title="Business development">💼</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/arnavsarmagatechgrad/"><img src="https://avatars1.githubusercontent.com/u/12614627?v=4" width="100px;" alt=""/><br /><sub><b>Arnav Sarma</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=asarma2012" title="Code">💻</a> <a href="#example-asarma2012" title="Examples">💡</a> <a href="#design-asarma2012" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/meghatiku"><img src="https://avatars0.githubusercontent.com/u/43341228?v=4" width="100px;" alt=""/><br /><sub><b>meghatiku</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=meghatiku" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/meghatiku"><img src="https://avatars0.githubusercontent.com/u/43341228?v=4" width="100px;" alt=""/><br /><sub><b>meghatiku</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=meghatiku" title="Code">💻</a> <a href="#design-meghatiku" title="Design">🎨</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/anshu-trivedi-501a7b146/"><img src="https://avatars1.githubusercontent.com/u/47869948?v=4" width="100px;" alt=""/><br /><sub><b>Anshu Trivedi</b></sub></a><br /><a href="#design-AnshuTrivedi" title="Design">🎨</a></td>
   </tr>
   <tr>
@@ -316,6 +318,42 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/mirmpro"><img src="https://avatars0.githubusercontent.com/u/14123130?v=4" width="100px;" alt=""/><br /><sub><b>Mir Monoarul Alam</b></sub></a><br /><a href="#design-mirmpro" title="Design">🎨</a></td>
     <td align="center"><a href="https://www.shawnohn.com"><img src="https://avatars0.githubusercontent.com/u/16888656?v=4" width="100px;" alt=""/><br /><sub><b>Shawn Ohn</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=shawnohn" title="Code">💻</a> <a href="#design-shawnohn" title="Design">🎨</a></td>
+    <td align="center"><a href="https://amanbolat.com/"><img src="https://avatars3.githubusercontent.com/u/15110242?v=4" width="100px;" alt=""/><br /><sub><b>Amanbolat Balabekov</b></sub></a><br /><a href="#design-amanbolat" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=amanbolat" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/black-mamba-code"><img src="https://avatars0.githubusercontent.com/u/74553558?v=4" width="100px;" alt=""/><br /><sub><b>black-mamba-code</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=black-mamba-code" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Jian-forks"><img src="https://avatars1.githubusercontent.com/u/59821548?v=4" width="100px;" alt=""/><br /><sub><b>Jian-forks</b></sub></a><br /><a href="#design-Jian-forks" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Jian-forks" title="Code">💻</a></td>
+    <td align="center"><a href="https://shivani30594.wixsite.com/shivani30594"><img src="https://avatars0.githubusercontent.com/u/10483979?v=4" width="100px;" alt=""/><br /><sub><b>shivani patel</b></sub></a><br /><a href="#design-shivani30594" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/Akash-chowrasia"><img src="https://avatars2.githubusercontent.com/u/47868444?v=4" width="100px;" alt=""/><br /><sub><b>Akash Chowrasia</b></sub></a><br /><a href="#design-Akash-chowrasia" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/yairg98"><img src="https://avatars1.githubusercontent.com/u/57117865?v=4" width="100px;" alt=""/><br /><sub><b>yairg98</b></sub></a><br /><a href="#design-yairg98" title="Design">🎨</a></td>
+    <td align="center"><a href="http://jaygajjar.tk/"><img src="https://avatars2.githubusercontent.com/u/57590688?v=4" width="100px;" alt=""/><br /><sub><b>Jay Gajjar</b></sub></a><br /><a href="#design-j-j-gajjar" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/coolerbooler"><img src="https://avatars1.githubusercontent.com/u/74932465?v=4" width="100px;" alt=""/><br /><sub><b>coolerbooler</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=coolerbooler" title="Code">💻</a></td>
+    <td align="center"><a href="https://jinnatul.github.io/"><img src="https://avatars2.githubusercontent.com/u/31995155?v=4" width="100px;" alt=""/><br /><sub><b>Md Zinnatul Islam Morol</b></sub></a><br /><a href="#design-jinnatul" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/shresthashok550"><img src="https://avatars2.githubusercontent.com/u/67057717?v=4" width="100px;" alt=""/><br /><sub><b>shresthashok550</b></sub></a><br /><a href="#design-shresthashok550" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=shresthashok550" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://alanpallath.codes/"><img src="https://avatars0.githubusercontent.com/u/17932700?v=4" width="100px;" alt=""/><br /><sub><b>Alan Pallath</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=a1764879" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/adrianjw/"><img src="https://avatars3.githubusercontent.com/u/55360387?v=4" width="100px;" alt=""/><br /><sub><b>Adrian Wong</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=adrianjw" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/vsDizzy"><img src="https://avatars1.githubusercontent.com/u/5798340?v=4" width="100px;" alt=""/><br /><sub><b>vsDizzy</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=vsDizzy" title="Code">💻</a> <a href="#design-vsDizzy" title="Design">🎨</a></td>
+    <td align="center"><a href="http://facebook.com/fcuadillera"><img src="https://avatars0.githubusercontent.com/u/17181425?v=4" width="100px;" alt=""/><br /><sub><b>Frex Cuadillera</b></sub></a><br /><a href="#design-frexcuadillera" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=frexcuadillera" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ashish570"><img src="https://avatars3.githubusercontent.com/u/61080406?v=4" width="100px;" alt=""/><br /><sub><b>ashish570</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=ashish570" title="Code">💻</a> <a href="#design-ashish570" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/ruchpeanuts"><img src="https://avatars0.githubusercontent.com/u/29301900?v=4" width="100px;" alt=""/><br /><sub><b>ruchpeanuts</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=ruchpeanuts" title="Code">💻</a> <a href="#design-ruchpeanuts" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/Artmasque"><img src="https://avatars3.githubusercontent.com/u/23199407?v=4" width="100px;" alt=""/><br /><sub><b>Artmasque</b></sub></a><br /><a href="#design-Artmasque" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=Artmasque" title="Code">💻</a></td>
+    <td align="center"><a href="http://amaje.ir"><img src="https://avatars0.githubusercontent.com/u/15340704?v=4" width="100px;" alt=""/><br /><sub><b>Amirhossein Mojiri Foroushani</b></sub></a><br /><a href="#design-amirmojiry" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/for"><img src="https://avatars1.githubusercontent.com/u/7262123?v=4" width="100px;" alt=""/><br /><sub><b>for</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=for" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/lukee1234"><img src="https://avatars2.githubusercontent.com/u/61923182?v=4" width="100px;" alt=""/><br /><sub><b>Luke</b></sub></a><br /><a href="#design-lukee1234" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=lukee1234" title="Code">💻</a></td>
+    <td align="center"><a href="https://sites.google.com/site/espinozahg/"><img src="https://avatars1.githubusercontent.com/u/9592831?v=4" width="100px;" alt=""/><br /><sub><b>Hector Espinoza</b></sub></a><br /><a href="#design-espinozahg" title="Design">🎨</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/adrianbuenfil/"><img src="https://avatars2.githubusercontent.com/u/71770394?v=4" width="100px;" alt=""/><br /><sub><b>Adrián Buenfil</b></sub></a><br /><a href="#design-AdrianBuenfil" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=AdrianBuenfil" title="Code">💻</a></td>
+    <td align="center"><a href="https://amitravikumar.github.io/"><img src="https://avatars2.githubusercontent.com/u/43449014?v=4" width="100px;" alt=""/><br /><sub><b>Amit Kumar</b></sub></a><br /><a href="#design-amitravikumar" title="Design">🎨</a></td>
+    <td align="center"><a href="http://None"><img src="https://avatars2.githubusercontent.com/u/37182137?v=4" width="100px;" alt=""/><br /><sub><b>schoppfe</b></sub></a><br /><a href="#design-schoppfe" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=schoppfe" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/aamllc"><img src="https://avatars1.githubusercontent.com/u/75911712?v=4" width="100px;" alt=""/><br /><sub><b>Sofiyal C</b></sub></a><br /><a href="#design-aamllc" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=aamllc" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/spitlisk"><img src="https://avatars1.githubusercontent.com/u/43657878?v=4" width="100px;" alt=""/><br /><sub><b>spitlisk</b></sub></a><br /><a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=spitlisk" title="Code">💻</a> <a href="#design-spitlisk" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://www.linkedin.com/in/pravin--sharma"><img src="https://avatars2.githubusercontent.com/u/32671972?v=4" width="100px;" alt=""/><br /><sub><b>PRAVIN SHARMA</b></sub></a><br /><a href="#design-pravin-sharma" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/NIDZAAA1"><img src="https://avatars3.githubusercontent.com/u/58033073?v=4" width="100px;" alt=""/><br /><sub><b>NIDZAAA1</b></sub></a><br /><a href="#design-NIDZAAA1" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=NIDZAAA1" title="Code">💻</a></td>
   </tr>
 </table>
 

@@ -758,3 +758,16 @@ b = "stand"
 - [ ] ischar(b)
 - [ ] length(a) == length(b)
 - [ ] class(a) == class(b)
+
+#### Q45. Which does E contain?
+```MATLAB
+C = {'dog' 'cat' 'mouse'}
+D = {'cow' 'piranha' 'mouse'}
+E = setdiff(C,D)
+```
+
+- [x] E = {'cat'} {'dog'}
+- [ ] E = {'mouse'}
+- [ ] E = {'cat'} {'cow'} {'dog'} {'piranha'}
+- [ ] E = 
+

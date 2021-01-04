@@ -453,3 +453,17 @@ class Huggable extends React.Component{
 - `<button onClick={this.hug(e, name)}>Hug Button</button>`
 - `<button onClick={(e) => hug(e,name)}>Hug Button</button>` 
 - `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>`
+
+#### Q47.
+
+Currently, `handleClick` is being called instead of passed as a reference. How do you fix this?
+
+```javascript
+<button onClick={this.handleClick()}>Click this</button>
+```
+
+- `<button onClick={this.handleClick.bind(handleClick}>Click this</button>`<<<<<--CORRECT
+- `<button onClick={handleClick()}>Click this</button>`
+- `<button onClick={this.handleClick}>Click this</button>` 
+- `<button onclick={this.handleClick}>Click this</button>`
+
