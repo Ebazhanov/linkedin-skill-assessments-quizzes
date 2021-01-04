@@ -376,3 +376,4 @@ static void Multiply(float num1, float num2) {};
 - [] to protect attributes from unwanted changes
 - [x] to separate class behaviour from the more general to the more specific
 - [] to delegate coding responsibility more efficiently
+

@@ -246,9 +246,9 @@ main(){
 
 #### Q16. In which segment does dynamic memory allocation takes place?
 
-- [x] BSS Segment
+- [ ] BSS Segment
 - [ ] stack
-- [ ] heap
+- [x] heap
 - [ ] data segment
 
 #### Q17. Which of the following do you use to deallocate memory?

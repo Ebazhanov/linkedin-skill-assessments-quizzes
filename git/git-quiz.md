@@ -760,3 +760,10 @@ Which of the following options is correct ?
 - [ ] git stash saves changes to multiple branches, while git stash pop removes a commit from the repo history.
 - [ ] git stash removes the most recent commit, while git stash pop saves current changes.
 - [x] git stash creates a stash entry, while git stash pop places the saved state onto the working directory.
+
+#### Q90. Which command can be used to list the branches that have been merged into the currently checked-out branch?
+
+- [ ] git master --status
+- [ ] git branch --status
+- [ ] git branch --merged
+- [ ] git status --merged
