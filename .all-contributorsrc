@@ -1927,6 +1927,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "ryanhill1",
+      "name": "Ryan Hill",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/46977852?v=4",
+      "profile": "https://github.com/ryanhill1",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
