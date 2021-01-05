@@ -580,3 +580,17 @@ printNullness(JSON.parse('{ "lemmings": "null" }'));
 - `->`
 - `::`
 - `.` <<<<---- Correct
+
+#### Q48. If a string contains line breaks, what shhould you do?
+
+- Wrap line breaks in single quotation marks
+- Make no changes, because whitespace is allowewd
+- Replace any line breaks with `\r`
+- Replace any line breaks with `\n` <<<<---- Correct
+
+#### Q49. Which number type are available in javascript but not supported in json?
+
+- Fractional and Transcendental
+- Infinity or Rational 
+- Rational and Irrational
+- Infinity or NaN <<<<---- Correct
