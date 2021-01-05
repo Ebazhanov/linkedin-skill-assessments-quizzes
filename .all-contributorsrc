@@ -1959,6 +1959,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "baymax88",
+      "name": "Derek Yang",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/55335639?v=4",
+      "profile": "https://derekyang.netlify.app",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
