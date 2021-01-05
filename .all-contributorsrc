@@ -260,7 +260,8 @@
       "profile": "https://github.com/mohnishkarri",
       "contributions": [
         "code",
-        "content"
+        "content",
+        "design"
       ]
     },
     {
@@ -1947,6 +1948,63 @@
       "contributions": [
         "design",
         "code"
+      ]
+    },
+    {
+      "login": "ashishsangale",
+      "name": "Ashish Sangale",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/39612240?v=4",
+      "profile": "https://github.com/ashishsangale",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "baymax88",
+      "name": "Derek Yang",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/55335639?v=4",
+      "profile": "https://derekyang.netlify.app",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "mohsinmsm",
+      "name": "mohsinmsm",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/63414742?v=4",
+      "profile": "https://github.com/mohsinmsm",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "gokulkrish2302",
+      "name": "Gokulkrish2302",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/65799732?v=4",
+      "profile": "https://www.linkedin.com/in/gokulakrishnan-velu-43289174/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Bhaavishek",
+      "name": "Bhaavishek",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/49985195?v=4",
+      "profile": "https://github.com/Bhaavishek",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "a401120174",
+      "name": "Louis Liao",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/39911137?v=4",
+      "profile": "https://github.com/a401120174",
+      "contributions": [
+        "design"
       ]
     }
   ],

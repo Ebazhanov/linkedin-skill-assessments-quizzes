@@ -664,3 +664,9 @@ console.log(a.length);
 - [ ] getNode()
 - [ ] querySelector()
 - [x] appendChild()
+
+### Q65. Which statement is used to skip iteration of the loop?
+- [ ] break
+- [ ] pass
+- [ ] skip
+- [x] continue

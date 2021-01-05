@@ -266,3 +266,17 @@ fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) thro
 - [ ] http.ServerRequest
 - [ ] http.ClientRequest
 - [ ] http.ServerResponse
+
+### Q37. What are the arguments passed to the module wrapper function?
+
+- [ ] exports, __filename, __dirname
+- [ ] exports, process, require, module, __filename, __dirname
+- [ ] exports, module, __filename, __dirname
+- [x] exports, require, module, __filename, __dirname
+
+### Q38. Which library provides Node.js with the event loop?
+
+- [ ] V8
+- [ ] c-ares
+- [x] libuv
+- [ ] events
