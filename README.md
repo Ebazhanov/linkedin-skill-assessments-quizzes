@@ -1,7 +1,7 @@
 # Linkedin-quiz-questions
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-205-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-206-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
@@ -363,6 +363,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/ashishsangale"><img src="https://avatars3.githubusercontent.com/u/39612240?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ashish Sangale</b></sub></a><br /><a href="#design-ashishsangale" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=ashishsangale" title="Code">💻</a></td>
     <td align="center"><a href="https://derekyang.netlify.app"><img src="https://avatars1.githubusercontent.com/u/55335639?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Derek Yang</b></sub></a><br /><a href="#design-baymax88" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=baymax88" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/mohsinmsm"><img src="https://avatars2.githubusercontent.com/u/63414742?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mohsinmsm</b></sub></a><br /><a href="#design-mohsinmsm" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=mohsinmsm" title="Code">💻</a></td>
   </tr>
 </table>
 
