@@ -860,7 +860,7 @@ public class Solution {
 
 #### Q62. What does this code print?
 
-```
+```java
 public static void main(String[] args) {
         int x=5,y=10;
         swapsies(x,y);
@@ -881,7 +881,7 @@ public static void main(String[] args) {
 
 #### Q63. What is the result of this code?
 
-```
+```java
  try {
             System.out.println("Hello World");
         } catch (Exception e) {
