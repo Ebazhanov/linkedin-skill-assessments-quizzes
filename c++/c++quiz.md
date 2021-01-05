@@ -1,31 +1,34 @@
 ## C++ LinkedIn Assesment Questions Answers
 
 Q1. What is printed from this code?
-
+```
     vector<int> v(22);
     bool b= (v[6]);
     printf("%d",!b);
-
+```
     a) False
     b) 0
     c) 1 << Correct
     d) This code has an error
 
 Q2. Which of the following is a reason why using this line is considerd a bad practice?
-	<pre>
+	
 	Using namespce std;
 	a) The compiled code is always bigger because of all of the imported symbols.
 	b) If the code uses the function defined in two different libraries with the same prototype but possibly with different implementation , there will be a compilation error due to ambuiguity.
 	c) It automatically includes all header files in the standard library (cstdint,cstdlib,cstdio,iostream etc). << Correct
 	d) It causes the compiler to enforce the exclusion , inclusion of header file belonging to the standard library , generating compilation error when a different header file is included.
-	</pre>
+	
 
 Q3. What is the smallest size a variable of the type child_t may occupy in memory?
-<pre>typedef struct {
+<pre>
+```
+typedef struct {
 unsigned int age : 4;
 unsigned char gender :1;
 unsigned int size : 2;
 } child_t;
+```
 
 a) 7 bits. << Correct
 b) 25 bytes.
@@ -34,10 +37,13 @@ d) 1 bytes.
 </pre>
 
 Q4. Which of the following shows the contents of vector v1 and v2 after running this code?
-<pre>std:: vector <int> v1{1,2,3},v2;
+<pre>
+```
+std:: vector <int> v1{1,2,3},v2;
 v2=v1;
 v1.push_back(4);
 v2.push_back(5);
+```
 
 a) Error <<< Correct because std::vector v1{1,2,3}; doesn't compile, It should be std::vector v1{1,2,3};
 b) v1:{1,2,3,4};
@@ -47,30 +53,42 @@ c) v1:{1,2,3,4,5};
 d) v1:{1,2,3,4};
    v2:{1,2,3,5}; <<  Correct
 </pre>
+
 Q5. Which of the following is a true statement about the difference between pointers and iterators?
-<pre>a) While pointers are variable that hold memory address, iterators are generic functions used to traverse containers. These function allows the programmer to implement read and write code as the container is traversed. << Correct
+<pre>
+a) While pointers are variable that hold memory address, iterators are generic functions used to traverse containers. These function allows the programmer to implement read and write code as the container is traversed. << Correct
 b) Incrementing an iterator always means access the next element in the container(if any) , no matter the container. Incrementing the pointer means pointing to the next element in memory, not always the next element.
 c) Pointers are variables that hold memory address where as iterator are unsigned integers that refers to offsets in arrays.
 d) All iterator are implemented with pointers so all iterators are pointers but not all pointers are iterators.
 </pre>
-Q6. What's a benefit of declaring the parameter as a const reference instead of declaring it as a regular object.
+
+Q6. What's a benefit of declaring the parameter as a const reference instead of declaring it as a regular object?
+
 int median(const my_arrary &a);
-<pre>a) The argument is passed as a reference so the function receives a copy that can be modified without affecting the original value.
+
+<pre>
+a) The argument is passed as a reference so the function receives a copy that can be modified without affecting the original value.
 b) The argument is passed as a reference,so all if the passed my_array object is large, the program will require less time and memory. << Correct
 c) Actually object can't be passed as regular variable because they require a constructor call. Therefore a const reference is the only way to pass class instances to functions.
 d) There are no benefits because a reference and an object are treated as the same thing.
 </pre>
+
 Q7. What's the storage occupied by u1?
-<pre>union {
+<pre>
+```
+union {
 unit16_t a;
 unit32_t b;
 int8_t c;
 } u1;
+```
+
 a) 4 bytes << Correct You can see example [here](https://en.cppreference.com/w/cpp/language/union)
 b) 7 bytes
 c) 8 bytes
 d) 2 bytes
 </pre>
+
 Q8. Which of the following operators is overloadable?
 
     a) ?:
@@ -79,11 +97,14 @@ Q8. Which of the following operators is overloadable?
     d) .
 
 Q9. Which of the following shows the contents of vector pointed by v1 and v2 after running this code?
-<pre>std:: vector<int> *v1 = new std:: vector<int> ({1,2,3});
+<pre>
+```
+std:: vector<int> *v1 = new std:: vector<int> ({1,2,3});
 std:: vector<int> *v2;
 v2=v1;
 v1->push_back(4);
 v2->push_back(5);
+```
 
 a) *v1:{1,2,3,4};
    *v2:{5};
