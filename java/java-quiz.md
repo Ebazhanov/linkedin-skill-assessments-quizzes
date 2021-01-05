@@ -859,3 +859,51 @@ public class Solution {
 - [ ] instance
 - [X] class
 - [ ] method
+
+#### Q62. What does this code print?
+
+```java
+public static void main(String[] args) {
+        int x=5,y=10;
+        swapsies(x,y);
+        System.out.println(x+"="+y);
+    }
+
+     static void swapsies(int a, int b) {
+        int temp=a;
+        a=b;
+        b=temp;
+    }
+```
+
+- [ ] 10 10
+- [X] 5 10
+- [ ] 10 5
+- [ ] 5 5
+
+#### Q63. What is the result of this code?
+
+```java
+ try {
+            System.out.println("Hello World");
+        } catch (Exception e) {
+            System.out.println("e");
+        }
+        catch (ArithmeticException e) {
+            System.out.println("e");
+        }finally {
+            System.out.println("!");
+        }
+```
+
+- [ ] Hello World
+- [X] It will not compile beacuse the second catch statement is unreachable
+- [ ] Hello World!
+- [ ] It will throw runtime exception
+
+#### Q64. What is not a java keyword
+
+- [ ] finally
+- [ ] native
+- [ ] interface
+- [X] unsigned
