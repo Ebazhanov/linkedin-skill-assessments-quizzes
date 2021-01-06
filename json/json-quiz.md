@@ -595,7 +595,6 @@ printNullness(JSON.parse('{ "lemmings": "null" }'));
 - Rational and Irrational
 - Infinity or NaN <<<<---- Correct
 
-
 #### Q50. How should a date value be stored in JSON?
 
 - As a string with quotes
