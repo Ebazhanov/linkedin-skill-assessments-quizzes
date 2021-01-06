@@ -516,7 +516,7 @@ h2 + p {
 - [ ] bold; normal
 - [x] normal; bold
 - [ ] light; normal
-- [ ] normal; bold
+- [ ] normal; bolder
 
 ### Q41. If the width of the container is 500 pixels, what would the width of the three columns be in this layout?
 
