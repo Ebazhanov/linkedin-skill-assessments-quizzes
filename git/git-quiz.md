@@ -765,5 +765,5 @@ Which of the following options is correct ?
 
 - [ ] git master --status
 - [ ] git branch --status
-- [ ] git branch --merged
+- [x] git branch --merged
 - [ ] git status --merged

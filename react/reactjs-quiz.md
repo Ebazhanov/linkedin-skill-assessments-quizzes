@@ -479,3 +479,33 @@ Which library does the fetch() function come from?
 - [ ] `ReactDOM`
 - [X] `No library. fetch() is supported by most browsers.`
 - [ ] `React`
+
+#### Q50.
+What is the difference between the click behaviors of these two buttons(assuming that this.handleClick is bound correctly)
+
+```javascript
+
+A. <button onClick=fthis.handleClickl>Click Me</button>
+B. <button onClick={event => this.handleClick(event)}>Click Me</button>
+
+```
+
+- [ ] `Button A will not have access to the event object on click of the button`
+- [ ] `Button A will not fire the handler this.handleClick successfully`
+- [ ] `There is no difference`
+- [ ] `Button B will not fire the handler this.handleClick successfully`
+
+#### Q51.
+What will happen when this useEffect Hook is executed, assuming name is not already equal to John? 
+
+```javascript
+useEffect(() => {
+  setName("John");
+}, [name]);
+```
+
+
+- [ ] `It will cause an error immediately.`
+- [ ] `It will execute the code inside the function, but only after waiting to ensure that no other component is accessing the name variable.`
+- [ ] `It will update the value of name once and not run again until name is changed from the outside.`
+- [ ] `It will cause an infinite loop.`
