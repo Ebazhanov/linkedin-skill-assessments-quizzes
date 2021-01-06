@@ -601,3 +601,11 @@ printNullness(JSON.parse('{ "lemmings": "null" }'));
 - As a string without quotes
 - As a string in ISO 8583 format 
 - As a string in ISO 8601 format <<<<---- Correct
+
+#### Q51. Is the JSON code shown here valid?
+![JSON object with key "Vehicles" containing an array of emojis](questionimages/Q51/question.png)
+
+- No, emojis must be escaped with a backslash.
+- No, JSON strings are not allowed to use emojis.
+- No, emojis should never be enclosed with double quotes.
+- Yes, emojis are valid characters because JSON strings are unicode. <<<<---- Correct / Not sure
