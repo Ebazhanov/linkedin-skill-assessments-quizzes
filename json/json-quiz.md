@@ -581,7 +581,7 @@ printNullness(JSON.parse('{ "lemmings": "null" }'));
 - `::`
 - `.` <<<<---- Correct
 
-#### Q48. If a string contains line breaks, what shhould you do?
+#### Q48. If a string contains line breaks, what should you do?
 
 - Wrap line breaks in single quotation marks
 - Make no changes, because whitespace is allowewd
