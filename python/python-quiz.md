@@ -145,7 +145,7 @@ def sum(a, b):
 
 ```
 college_years = ['Freshman', 'Sophomore', 'Junior', 'Senior']
-return list(enumerate(college_years, 2019)
+return list(enumerate(college_years, 2019))
 ```
 
 - [ ] `[('Freshman', 2019), ('Sophomore', 2020), ('Junior', 2021), ('Senior', 2022)]`
