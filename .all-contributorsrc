@@ -2006,6 +2006,25 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "sengc92",
+      "name": "sengc92",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/63807395?v=4",
+      "profile": "https://github.com/sengc92",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "amarvin",
+      "name": "Alex Marvin",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10762127?v=4",
+      "profile": "https://github.com/amarvin",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
