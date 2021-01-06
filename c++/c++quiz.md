@@ -176,7 +176,7 @@ else
 y=b;
 ```
 - [] y=a?b:x;
-- [] y=if(x?a:- [];
+- [] y=if(x?a:b);
 - [] y=(x&a)?a:(x&b)?b:0;
 - [] y=x?a:b; << Correct
 
