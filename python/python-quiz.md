@@ -80,7 +80,7 @@ count, fruit, price = (2, 'apple', 3.5)
 
 - [ ] `-`
 
-```
+```python
 def sum(a, b):
     """
     sum(4, 3)
@@ -94,7 +94,7 @@ def sum(a, b):
 
 - [x] `-`
 
-```
+```python
 def sum(a, b):
     """
     >>> sum(4, 3)
@@ -108,7 +108,7 @@ def sum(a, b):
 
 - [ ] `-`
 
-```
+```python
 def sum(a, b):
     """
     # >>> sum(4, 3)
@@ -122,7 +122,7 @@ def sum(a, b):
 
 - [ ] `-`
 
-```
+```python
 def sum(a, b):
     ###
     >>> sum(4, 3)
@@ -143,7 +143,7 @@ def sum(a, b):
 
 #### Q13. What would this expression return?
 
-```
+```python
 college_years = ['Freshman', 'Sophomore', 'Junior', 'Senior']
 return list(enumerate(college_years, 2019))
 ```
@@ -192,7 +192,7 @@ return list(enumerate(college_years, 2019))
 
 - [ ] `-`
 
-```
+```python
 num_people = 5
 
 if num_people > 10;
@@ -207,7 +207,7 @@ else:
 
 - [ ] `-`
 
-```
+```python
 num_people = 5
 
 if num_people > 10;
@@ -222,7 +222,7 @@ else:
 
 - [x] `-`
 
-```
+```python
 num_people = 5
 
 if num_people > 10:
@@ -237,7 +237,7 @@ else:
 
 - [ ] `-`
 
-```
+```python
 if num_people > 10;
     print("There is a lot of people in the pool.")
 if num_people > 4;
@@ -327,7 +327,7 @@ else:
 
 #### Q31. Given the following three list, how would you create a new list that matches the desired output printed below?
 
-```
+```python
 fruits = ['Apples', 'Oranges', 'Bananas']
 quantities = [5, 3, 4]
 prices = [1.50, 2.25, 0.89]
@@ -340,7 +340,7 @@ prices = [1.50, 2.25, 0.89]
 
 - [ ] `-`
 
-```
+```python
 output = []
 
 fruit_tuple_0 = (first[0], quantities[0], price[0])
@@ -357,7 +357,7 @@ return output
 
 - [x] `-`
 
-```
+```python
 i = 0
 output = []
 for fruit in fruits:
@@ -370,7 +370,7 @@ return output
 
 - [ ] `-`
 
-```
+```python
 groceries = zip(fruits, quantities, prices)
 return groceries
 
@@ -383,7 +383,7 @@ return groceries
 
 - [ ] `-`
 
-```
+```python
 i = 0
 output = []
 for fruit in fruits:
@@ -405,28 +405,28 @@ return output
 
 - [x] `-`
 
-```
+```python
 >>> dice = Game()
 >>> dice.roll()
 ```
 
 - [ ] `-`
 
-```
+```python
 >>> dice = Game(self)
 >>> dice.roll(self)
 ```
 
 - [ ] `-`
 
-```
+```python
 >>> dice = Game()
 >>> dice.roll(self)
 ```
 
 - [ ] `-`
 
-```
+```python
 >>> dice = Game(self)
 >>> dice.roll()
 ```
@@ -461,7 +461,7 @@ return output
 
 #### Q38. What does this function print?
 
-```
+```python
 def print_alpha_nums(abc_list, num_list):
     for char in abc_list:
         for num in num_list:
@@ -514,28 +514,28 @@ c 1 2 3
 
 - [x] `-`
 
-```
+```python
 my_game = Game()
 my_game.roll_dice()
 ```
 
 - [ ] `-`
 
-```
+```python
 my_game = Game()
 self.my_game.roll_dice()
 ```
 
 - [ ] `-`
 
-```
+```python
 my_game = Game(self)
 self.my_game.roll_dice()
 ```
 
 - [ ] `-`
 
-```
+```python
 my_game = Game(self)
 my_game.roll_dice(self)
 ```
@@ -544,7 +544,7 @@ my_game.roll_dice(self)
 
 - [ ] `-`
 
-```
+```python
 def sum(a, b):
     # a = 1
     # b = 2
@@ -555,7 +555,7 @@ def sum(a, b):
 
 - [ ] `-`
 
-```
+```python
 def sum(a, b):
     """
     a = 1
@@ -568,7 +568,7 @@ def sum(a, b):
 
 - [x] `-`
 
-```
+```python
 def sum(a, b):
     """
     >>> a = 1
@@ -582,7 +582,7 @@ def sum(a, b):
 
 - [ ] `-`
 
-```
+```python
 def sum(a, b):
     '''
     a = 1
@@ -725,28 +725,28 @@ fruits = {'Apples': 5, 'Oranges': 3, 'Bananas': 4}
 
 - [ ] `-`
 
-```
+```python
 class __init__(self):
     pass
 ```
 
 - [ ] `-`
 
-```
+```python
 def __init__():
     pass
 ```
 
 - [ ] `-`
 
-```
+```python
 class __init__():
     pass
 ```
 
 - [x] `-`
 
-```
+```python
 def __init__(self):
     pass
 ```
