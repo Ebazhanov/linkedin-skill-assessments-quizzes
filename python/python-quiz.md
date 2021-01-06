@@ -170,8 +170,8 @@ return list(enumerate(college_years, 2019))
 #### Q16. What is the purpose of the "self" keyword when defining or calling instance methods?
 
 - [ ] `self` means that no other arguments are required to be passed into the method.
-- [ ] There is no real purpose for the `self` method; it"s just historic computer science jargona that Python keeps to stay consistent with other programming languages.
-- [x] `self` refers to the instance whose method was called`
+- [ ] There is no real purpose for the `self` method; it's just historic computer science jargon that Python keeps to stay consistent with other programming languages.
+- [x] `self` refers to the instance whose method was called.
 - [ ] `self` refers to the class that was inherited from to create the object using `self`.
 
 #### Q17. Which of these is NOT a characteristic of namedtuples?
