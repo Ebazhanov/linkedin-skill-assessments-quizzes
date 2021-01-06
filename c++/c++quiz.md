@@ -124,28 +124,37 @@ d) Template type parameters can be declared with , but not with the struct keywo
 Q11. Suppose you need to keep a data struct with permission to access some resource base on the days of week , but you can't be use a bool variable for each day.you need to use one bit per day of the week.
 which of the following is a correct implementation of a structure with bit fields for this application?
 
-    a) typedef struct {
-    		int sunday:1;
-    		int monday:1;
-    		// more days
-    		int friday:1;
-    		int satarday:1;
-    		} weekdays; << Correct  That syntax says that each variable size is 1 bit. 'bit' is not a type in C++.
-    b) typedef char[7]: weekdays;
-    c) typedef struct {
-    		bit sunday:1;
-    		bit monday:1;
-    		// more days
-    		bit fridyas:1;
-    		bit satarday:1;
-    		} weekdays;
-    d) typedef struct {
-    		bit sunday;
-    		bit monday;
-    		// more days
-    		bit friday;
-    		bit satarday;
-    		} weekdays;
+a) typedef struct {
+```
+int sunday:1;
+int monday:1;
+// more days
+int friday:1;
+int satarday:1;
+} weekdays; << Correct  That syntax says that each variable size is 1 bit. 'bit' is not a type in C++.
+```
+
+b) typedef char[7]: weekdays;
+
+c) typedef struct {
+```
+bit sunday:1;
+bit monday:1;
+// more days
+bit fridyas:1;
+bit satarday:1;
+} weekdays;
+```
+
+d) typedef struct {
+```
+bit sunday;
+bit monday;
+// more days
+bit friday;
+bit satarday;
+} weekdays;
+```
 
 Q12. What is an lvalue?
 <pre>a) It's a constant expression , meaning an expression composed of constants and operations.
@@ -153,6 +162,7 @@ b) It's an expression that represents an object with an address. << Correct
 c) It's an expression suitable for the left hand side operand in binary operation.
 d) It's a location value , meaning a memory address suitable for assigning to pointer or reference.
 </pre>
+
 Q13. What does auto type specifier do in this line of code (since c++ 11)?
 
     a) It specifies that the type of x will be deducted from the initializer in this case,double.
@@ -168,28 +178,28 @@ Q14. What is a class template?
     d) It's skelton source code for a class where the programming has to fill in specific parts to define the data types and algorithms used.
 
 Q15. What is the ternary operator equivalent to this code snippet?
-
-    if(x)
-    y=a;
-    else
-    y=b;
-
+```
+if(x)
+y=a;
+else
+y=b;
+```
     a) y=a?b:x;
     b) y=if(x?a:b);
     c) y=(x&a)?a:(x&b)?b:0;
     d) y=x?a:b; << Correct
 
-Q16. What is the output of this code? What is the output of this code?
-
-    #include <iostream>
-    int main()
-    {
-    	int x=10, y=20;
-    	std::cout << "x = " << x++ << " and y = " << --y << std::endl;
-    	std::cout << "x = " << x-- << " and y = " << ++y << std::endl;
-    	return(0);
-    }
-
+Q16.What is the output of this code?
+```
+#include <iostream>
+int main()
+{
+	int x=10, y=20;
+	std::cout << "x = " << x++ << " and y = " << --y << std::endl;
+	std::cout << "x = " << x-- << " and y = " << ++y << std::endl;
+	return(0);
+}
+```
     a) x = 10 and y = 20 x = 11 and y = 19
     b) x = 11 and y = 19 x = 10 and y = 20
     c) x = 10 and y = 19 x = 11 and y = 20 << Correct
@@ -201,35 +211,40 @@ Q.17 What is the meaning of the two parts specified between parentheses in a ran
 	
     b) The first is an iterator, and the second is the increment value to be added to the iterator. The first is an iterator, and the second is the increment value to be added to the iterator.
 
-
     c) The first is the iterating variable. The second is an std::pair that specifies the range (start and end) in which the variable will iterate.The first is the iterating variable. The second is an std::pair that specifies the range (start and end) in which the variable will iterate.
 
 
     d)The first is a container object. The second is an std::pair that specifies the range (start and end) in which the elements will be accessed within the loop.The first is a container object. The second is an std::pair that specifies the range (start and end) in which the elements will be accessed within the loop.
 
-Q.18 What is the output of this piece of code? What is the output of this piece of code?
-<pre>
+Q.18 What is the output of this piece of code?
+```
 int8_t a=200;
 uint8_t b=100;
 if(a>b) {
 std::cout<<"greater";
 else std::cout<<"less";
 }
+```
+<pre>
 
-a)There is no output because there is an exception when comparing an int8_t with a uint8t.There is no output because there is an exception when comparing an null with a 	 null. << Correct
+a)There is no output because there is an exception when comparing an int8_t with a uint8t.There is no output because there is an exception when comparing an null with a null. << Correct
 b)greaternull
 c)lessnull
 d)There is no output because there is a compiler error.There is no output because there is a compiler error.
 </pre>
+
 Q.19 What results from executing this code snippet? What results from executing this code snippet?<br/>
-int x=5, y=2; <br/>
-if(x & y)<br/>
-{ /_part A_/ }<br/> 
-else{ /_part B_/ }<br/><br/>
+```
+int x=5, y=2;
+if(x & y)
+{ /_part A_/ } 
+else{ /_part B_/ }
+```
 a) Part A executes because x==5 (true) and y==2 (true), thus the AND operation evaluates as true.Part A executes because null (true) and null (true), thus the null operation evaluates as true.<br/>
 b) Part B executes because (x & y) results in 0, or false.Part B executes because null results in 0, or false. <<Correct<br/>
 c) Part A executes because (x & y) results in a nonzero value, or true.Part A executes because null results in a nonzero value, or true.<br/>
 d) Part B executes because the statement (x & y) is invalid, thus false.Part B executes because the statement null is invalid, thus false.<br/>
+
 Q.20 What is a valid definition for the get_length function, which returns the length of a null-terminated string? What is a valid definition for the null function, which returns the length of a null-terminated string?<br>
 
 int get_length(char \*str);<br/><br/>
@@ -255,13 +270,13 @@ Q.22 What is the meaning of the three sections specified between parentheses in 
 
 
 Q.23 What is printed from this code?
-
-	int i = 0;
-	printf("%d",i++);
-	printf("%d",i--);
-	printf("%d",++i);
-	printf("%d",--i);
-	
+```
+int i = 0;
+printf("%d",i++);
+printf("%d",i--);
+printf("%d",++i);
+printf("%d",--i);
+```
 	a) 0,1,1,0 << correct
 	b) 0,1,0,1
 	c) 0,0,1,0
@@ -275,14 +290,15 @@ Q.24 What is true about the variable named ptr?
 	d) It is a pointer to a value with no specific type, so it may be cast to point to any type. 
 
 Q.25 What is the output of this code? 
-
-	int c=3; char d='A';
-	std::printf("c is %d and d is %c",c,d);
-	
+```
+int c=3; char d='A';
+std::printf("c is %d and d is %c",c,d);
+```
 	a) c is d and d is c 
 	b) c is A and d is 3 
 	c) c is 3 and d is A << correct
 	d) c is c and d is d 
+
 Q.26 What is the output of this code? 
 
 	printf("1/2 = %f",(float)(1/2)); 
