@@ -2016,6 +2016,15 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "amarvin",
+      "name": "Alex Marvin",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10762127?v=4",
+      "profile": "https://github.com/amarvin",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
