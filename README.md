@@ -7,18 +7,25 @@
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
 
 :point_right: If you want to improve your skills on another test platform [**Pluralsight IQ Skill**](https://www.pluralsight.com/product/skill-iq)
-find **questions and answers** in **@Timo Körner** [repository](https://github.com/tik9/pluralsight-skill-test).
+find **questions and answers** in **@Timo Körner** [repository](https://github.com/tik9/pluralsight-skill-test):
 
-| Pluralsight IQ Skill quiz                                                                                                | Status      |
-| ------------------------------------------------------------------------------------------------------------------------ | ----------- |
-| [Angular](https://github.com/tik9/pluralsight/blob/master/angular.md)                                                    | ok          |
-| [Aws Big Data](https://github.com/tik9/pluralsight/blob/master/aws_big_data.md)                                          | ok          |
-| [Aws Machine Learning](https://github.com/tik9/pluralsight/blob/master/aws_machine_learning.md)                          | ok          |
-| [Building Websites with HTML, CSS, and JavaScript](https://github.com/tik9/pluralsight/blob/master/building-websites.md) | ok          |
-| [Java](https://github.com/tik9/pluralsight/blob/master/java.md)                                                          | ok          |
-| [Mysql](https://github.com/tik9/pluralsight/blob/master/mysql.md)                                                        | ok          |
-| [Powershell](https://github.com/tik9/pluralsight/blob/master/powershell.md)                                              | non-offical |
-| [Python](https://github.com/tik9/pluralsight/blob/master/python_core.md)                                                 | ok          |
+- [Angular](angular.md)
+- [AngularJs](angularjs.md)
+- [Aws Big Data](aws_big_data.md)
+- [Aws Machine Learning](aws_machine_learning.md)
+- [Building Websites](building_websites.md)
+- [Building Web Apps with React](building_web_apps_with_react.md)
+- [Java](java.md)
+- [Javascript](javascript.md)
+- [Mysql](mysql.md)
+- [Powershell](powershell.md)
+- [Python Core](python_core.md)
+- [Python Data Analysis](python_data_analysis.md)
+- [Python applied Data Mining](python_applied_data_mining.md)
+- [Python Web Scraping](python_web_scraping.md)
+- [Python Exploratory Data Analysis](python_exploratory_data_analysis.md)
+- [Python Clean Data](python_clean_data.md)
+- [Python Data Visualization](python_data_visualization.md)
 
 <img src="https://monosnap.com/image/mf3OkeABEfjiAFjYC8d0l7cE6yf52E"/>
 
@@ -26,57 +33,59 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 
 | Linkedin-quiz-questions                                                                                                                 | Status                         |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
-| [Adobe-Illustrator](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-illustrator/adobe-illustrator-quiz.md)             | answers required               |
-| [Adobe-Photoshop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/adobe-photoshop-quiz.md)                   | answers required               |
-| [Agile Methodologies](https://github.com/Ebazhanov/in-quiz-questions/blob/master/agile-methodologies/agile-methodologies-quiz.md)       | with answers                   |
-| [Android](https://github.com/Ebazhanov/in-quiz-questions/blob/master/android/android-quiz.md)                                           | answers required               |
-| [AngularJs 🔥](https://github.com/Ebazhanov/in-quiz-questions/blob/master/AngularJS/angularjs-quiz.md)                                  | answers required               |
-| [AWS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws/aws-quiz.md)                                                       | answers required               |
-| [AWS-Lambda](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws-lambda/aws-lambda-quiz.md) :fire:                           | with answers                   |
-| [Bash](https://github.com/Ebazhanov/in-quiz-questions/blob/master/bash/bash-quiz.md)                                                    | partially answered             |
-| [C#](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%23/c-sharp-quiz.md)                                                   | answers required               |
-| [C++](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%2B%2B/c%2B%2Bquiz.md)                                                | with answers                   |
-| [CSS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/css/css-quiz.md)                                                       | with answers                   |
-| [Django](https://github.com/Ebazhanov/in-quiz-questions/blob/master/django/django-quiz.md)                                              | with answers                   |
-| [.NET Framework](https://github.com/Ebazhanov/in-quiz-questions/blob/master/dotnet-framework/dotnet-framework-quiz.md)                  | partially answered             |
-| [Git](https://github.com/Ebazhanov/in-quiz-questions/blob/master/git/git-quiz.md) :star:                                                | with answers                   |
-| [Google Analytics](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-analytics/google-analytics-quiz.md)                | answers required               |
-| [Google Cloud Platform (GCP)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-cloud-platform/gcp-quiz.md)             | with answers                   |
-| [Hadoop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/hadoop/hadoop-quiz.md)                                              | answers required               |
-| [HTML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/html/html-quiz.md)                                                    | with answers                   |
-| [Java](https://github.com/Ebazhanov/in-quiz-questions/blob/master/java/java-quiz.md)                                                    | with answers                   |
-| [Javascript](https://github.com/Ebazhanov/in-quiz-questions/blob/master/javascript/javascript-quiz.md)                                  | partially answered             |
-| [jQuery](https://github.com/Ebazhanov/in-quiz-questions/blob/master/jquery/jquery-quiz.md) :open_mouth:                                 | with answers                   |
-| [JSON](https://github.com/Ebazhanov/in-quiz-questions/blob/master/json/json-quiz.md)                                                    | with answers                   |
-| [Machine Learning](https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/machine-learning-quiz.md)                | answers required               |
-| Kotlin                                                                                                                                  | NO question and NO answers yet |
-| [MATLAB](https://github.com/Ebazhanov/in-quiz-questions/blob/master/matlab/matlab-quiz.md)                                              | with answers                   |
-| [Maven](https://github.com/Ebazhanov/in-quiz-questions/blob/master/maven/maven-quiz.md) :fire:                                          | with answers                   |
-| [Microsoft Azure](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-azure/microsoft-azure-quiz.md)                   | with answers                   |
-| [Microsoft Excel](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-excel/microsoft-excel-quiz.md)                   | with answers                   |
-| [Microsoft Power BI](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-power-bi/microsoft-power-bi-quiz.md)          | answers required               |
-| [Microsoft Power Point](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-power-point/microsoft-power-point-quiz.md) | partially answered             |
-| [Microsoft Project](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-project/microsoft-project-quiz.md)             | answers required               |
-| [Microsoft Word](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-word/microsoft-word-quiz.md)                      | with answers                   |
-| [MongoDB](https://github.com/Ebazhanov/in-quiz-questions/blob/master/mongodb/mongodb-quiz.md) :green_heart:                             | with answers                   |
-| [MySQL](https://github.com/Ebazhanov/in-quiz-questions/blob/master/mysql/mysql-quiz.md)                                                 | answers required               |
-| [node.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/node.js/node.js-quiz.md)                                           | with answers                   |
-| [NoSQL](https://github.com/Ebazhanov/in-quiz-questions/blob/master/nosql/nosql-quiz.md)                                                 | with answers                   |
-| [objective-c](https://github.com/Ebazhanov/in-quiz-questions/blob/master/objective-c/objective-c_quiz.md)                               | partially answered             |
-| [OOP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/oop/object-oriented-programming-quiz.md)                               | with answers                   |
-| [PHP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/php/php-quiz.md)                                                       | partially answered             |
-| [Python](https://github.com/Ebazhanov/in-quiz-questions/blob/master/python/python-quiz.md)                                              | with answers                   |
-| [R](https://github.com/Ebazhanov/in-quiz-questions/blob/master/r/r-quiz.md)                                                             | partially answered             |
-| [React.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/react/reactjs-quiz.md) :rose:                                     | with answers                   |
-| [REST API](https://github.com/Ebazhanov/in-quiz-questions/blob/master/rest-api/rest-api-quiz.md) :+1:                                   | partially answered             |
-| [Scala](https://github.com/Ebazhanov/in-quiz-questions/blob/master/scala/scala-quiz.md)                                                 | answers required               |
-| [Search Engine Optimization (SEO)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/seo/search-engine-optimization-quiz.md)   | partially answered             |
-| [SharePoint](https://github.com/Ebazhanov/in-quiz-questions/blob/master/sharepoint/sharepoint-quiz.md)                                  | with answers                   |
-| [Swift](https://github.com/Ebazhanov/in-quiz-questions/blob/master/swift/swift-quiz.md)                                                 | with answers                   |
-| [Transact-SQL (T-SQL)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/t-sql/t-sql-quiz.md)                                  | with answers                   |
-| [Windows Server](https://github.com/Ebazhanov/in-quiz-questions/blob/master/windows-server/windows-server-quiz.md)                      | partially answered             |
-| [WordPress](https://github.com/Ebazhanov/in-quiz-questions/blob/master/wordpress/wordpress-quiz.md)                                     | partially answered             |
-| [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md)                                                       | answers required               |
+| [Adobe-Illustrator](adobe-illustrator/adobe-illustrator-quiz.md)             | answers required               |
+| [Adobe-Photoshop](adobe-photoshop/adobe-photoshop-quiz.md)                   | answers required               |
+| [Agile Methodologies](agile-methodologies/agile-methodologies-quiz.md)       | with answers                   |
+| [Android](android/android-quiz.md)                                           | answers required               |
+| [AngularJs 🔥](AngularJS/angularjs-quiz.md)                                  | answers required               |
+| [AWS](aws/aws-quiz.md)                                                       | answers required               |
+| [AWS-Lambda](aws-lambda/aws-lambda-quiz.md) :fire:                           | with answers                   |
+| [Bash](bash/bash-quiz.md)                                                    | partially answered             |
+| [C#](c%23/c-sharp-quiz.md)                                                   | answers required               |
+| [C++](c%2B%2B/c%2B%2Bquiz.md)                                                | with answers                   |
+| [CSS](css/css-quiz.md)                                                       | with answers                   |
+| [Django](django/django-quiz.md)                                              | with answers                   |
+| [.NET Framework](dotnet-framework/dotnet-framework-quiz.md)                  | partially answered             |
+| [Git](git/git-quiz.md) :star:                                                | with answers                   |
+| [Google Analytics](google-analytics/google-analytics-quiz.md)                | answers required               |
+| [Google Cloud Platform (GCP)](google-cloud-platform/gcp-quiz.md)             | with answers                   |
+| [Hadoop](hadoop/hadoop-quiz.md)                                              | answers required               |
+| [HTML](html/html-quiz.md)                                                    | with answers                   |
+| [Java](java/java-quiz.md)                                                    | with answers                   |
+| [Javascript](javascript/javascript-quiz.md)                                  | partially answered             |
+| [jQuery](jquery/jquery-quiz.md) :open_mouth:                                 | with answers                   |
+| [JSON](json/json-quiz.md)                                                    | with answers                   |
+| [Machine Learning](machine-learning/machine-learning-quiz.md)                | answers required               |
+| Kotlin                                                                        | NO question and NO answers yet |
+| [MATLAB](matlab/matlab-quiz.md)                                              | with answers                   |
+| [Maven](maven/maven-quiz.md) :fire:                                          | with answers                   |
+| [Microsoft Azure](microsoft-azure/microsoft-azure-quiz.md)                   | with answers                   |
+| [Microsoft Excel](microsoft-excel/microsoft-excel-quiz.md)                   | with answers                   |
+| [Microsoft Power BI](microsoft-power-bi/microsoft-power-bi-quiz.md)          | answers required               |
+| [Microsoft Power Point](microsoft-power-point/microsoft-power-point-quiz.md) | partially answered             |
+| [Microsoft Project](microsoft-project/microsoft-project-quiz.md)             | answers required               |
+| [Microsoft Word](microsoft-word/microsoft-word-quiz.md)                      | with answers                   |
+| [MongoDB](mongodb/mongodb-quiz.md) :green_heart:                             | with answers                   |
+| [MySQL](mysql/mysql-quiz.md)                                                 | answers required               |
+| [node.js](node.js/node.js-quiz.md)                                           | with answers                   |
+| [NoSQL](nosql/nosql-quiz.md)                                                 | with answers                   |
+| [objective-c](objective-c/objective-c_quiz.md)                               | partially answered             |
+| [OOP](oop/object-oriented-programming-quiz.md)                               | with answers                   |
+| [PHP](php/php-quiz.md)                                                       | partially answered             |
+| [Python](python/python-quiz.md)                                              | with answers                   |
+| [R](r/r-quiz.md)                                                             | partially answered             |
+| [React.js](react/reactjs-quiz.md) :rose:                                     | with answers                   |
+| [REST API](rest-api/rest-api-quiz.md) :+1:                                   | partially answered             |
+| [Scala](scala/scala-quiz.md)                                                 | answers required               |
+| [Search Engine Optimization (SEO)](seo/search-engine-optimization-quiz.md)   | partially answered             |
+| [SharePoint](sharepoint/sharepoint-quiz.md)                                  | with answers                   |
+| [Swift](swift/swift-quiz.md)                                                 | with answers                   |
+| [Transact-SQL (T-SQL)](t-sql/t-sql-quiz.md)                                  | with answers                   |
+| [VBA](vba/vba-quiz.md)                                                        | answers required             |
+
+| [Windows Server](windows-server/windows-server-quiz.md)                      | partially answered             |
+| [WordPress](wordpress/wordpress-quiz.md)                                     | partially answered             |
+| [XML](xml/xml-quiz.md)                                                       | answers required               |
 
 &nbsp;
 
