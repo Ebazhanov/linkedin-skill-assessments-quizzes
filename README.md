@@ -1,7 +1,7 @@
 # Linkedin-quiz-questions
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-212-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-213-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
@@ -372,6 +372,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/amarvin"><img src="https://avatars2.githubusercontent.com/u/10762127?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alex Marvin</b></sub></a><br /><a href="#design-amarvin" title="Design">🎨</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/balkrishna-bhatt-1b2830131/"><img src="https://avatars1.githubusercontent.com/u/28816472?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Balkrishna Bhatt</b></sub></a><br /><a href="#design-BalkrishnaBhatt" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=BalkrishnaBhatt" title="Code">💻</a></td>
+    <td align="center"><a href="http://lavrinovicius.lt"><img src="https://avatars1.githubusercontent.com/u/24303281?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Evaldas Lavrinovičius</b></sub></a><br /><a href="#design-xTheEc0" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=xTheEc0" title="Code">💻</a></td>
   </tr>
 </table>
 
