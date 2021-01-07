@@ -210,10 +210,6 @@ return(0);
 - [] The first is the iterating variable. The second is an std::pair that specifies the range (start and end) in which the variable will iterate.The first is the iterating variable. The second is an std::pair that specifies the range (start and end) in which the variable will iterate.
 - []The first is a container object. The second is an std::pair that specifies the range (start and en- [] in which the elements will be accessed within the loop.The first is a container object. The second is an std::pair that specifies the range (start and en- [] in which the elements will be accessed within the loop.
 
-<<<<<<< HEAD
-
-=======
->>>>>>> be123e124abfe329c2e9b767d9a2e65dc93528c0
 #### Q.18 What is the output of this piece of code?
 ```c++
 int8_t a=200;
