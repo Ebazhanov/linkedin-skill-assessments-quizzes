@@ -9,23 +9,27 @@
 :point_right: If you want to improve your skills on another test platform [**Pluralsight IQ Skill**](https://www.pluralsight.com/product/skill-iq)
 find **questions and answers** in **@Timo Körner** [repository](https://github.com/tik9/pluralsight-skill-test):
 
-- [Angular](angular.md)
-- [AngularJs](angularjs.md)
-- [Aws Big Data](aws_big_data.md)
-- [Aws Machine Learning](aws_machine_learning.md)
-- [Building Websites](building_websites.md)
-- [Building Web Apps with React](building_web_apps_with_react.md)
-- [Java](java.md)
-- [Javascript](javascript.md)
-- [Mysql](mysql.md)
-- [Powershell](powershell.md)
-- [Python Core](python_core.md)
-- [Python Data Analysis](python_data_analysis.md)
-- [Python applied Data Mining](python_applied_data_mining.md)
-- [Python Web Scraping](python_web_scraping.md)
-- [Python Exploratory Data Analysis](python_exploratory_data_analysis.md)
-- [Python Clean Data](python_clean_data.md)
-- [Python Data Visualization](python_data_visualization.md)
+Pluralsight IQ Skill quiz|Status
+-|-
+[Angular](angular.md)|ok
+[AngularJs](angularjs.md)|ok
+[Aws Big Data](aws_big_data.md)|ok
+[Aws Machine Learning](aws_machine_learning.md)|ok
+[Building Websites](building_websites.md)|ok
+[Building Web Apps with React](building_web_apps_with_react.md)|ok
+[Java](java.md)|ok
+[Javascript](javascript.md)|ok
+[Mysql](mysql.md)|ok
+[Powershell](powershell.md)|ok
+[Python Core](python_core.md)|ok
+[Python Data Analysis](python_data_analysis.md)|ok
+[Python applied Data Mining](python_applied_data_mining.md)|ok
+[Python Web Scraping](python_web_scraping.md)|ok
+[Python Exploratory Data Analysis](python_exploratory_data_analysis.md)|ok
+[Python Clean Data](python_clean_data.md)|ok
+[Python Data Visualization](python_data_visualization.md)|ok
+
+<br><br>
 
 <img src="https://monosnap.com/image/mf3OkeABEfjiAFjYC8d0l7cE6yf52E"/>
 
