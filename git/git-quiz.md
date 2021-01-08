@@ -768,4 +768,4 @@ Which of the following options is correct ?
 - [ ] git master --status
 - [ ] git branch --status
 - [x] git branch --merged
-- [ ] git status --merge
+- [ ] git status --merged
