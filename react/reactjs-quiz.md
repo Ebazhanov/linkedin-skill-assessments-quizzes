@@ -492,7 +492,7 @@ B. <button onClick={event => this.handleClick(event)}>Click Me</button>
 
 - [ ] `Button A will not have access to the event object on click of the button`
 - [ ] `Button A will not fire the handler this.handleClick successfully`
-- [ ] `There is no difference`
+- [X] `There is no difference`
 - [ ] `Button B will not fire the handler this.handleClick successfully`
 
 #### Q51.
@@ -507,5 +507,5 @@ useEffect(() => {
 
 - [ ] `It will cause an error immediately.`
 - [ ] `It will execute the code inside the function, but only after waiting to ensure that no other component is accessing the name variable.`
-- [ ] `It will update the value of name once and not run again until name is changed from the outside.`
+- [x] `It will update the value of name once and not run again until name is changed from the outside.`
 - [ ] `It will cause an infinite loop.`
