@@ -96,7 +96,6 @@ for (var i = 1; i <= 4; i++) {
 #### Q9. Which statement creates a new function called discountPrice?
 
 - [x] `let discountPrice = function(price) { return price * 0.85; };`
-
 - [ ] `let discountPrice(price) { return price * 0.85; };`
 - [ ] `let function = discountPrice(price) { return price * 0.85; };`
 - [ ] `discountPrice = function(price) { return price * 0.85; };`
@@ -441,10 +440,10 @@ f2();
 
 #### Q44. What type of scope does the end variable have in the code shown?
 
-```
+```javascript
 var start = 1;
 if (start === 1) {
- let end = 2;
+  let end = 2;
 }
 ```
 
@@ -455,7 +454,7 @@ if (start === 1) {
 
 #### Q45. What will the value of y be in this code:
 
-```
+```javascript
 const x = 6 % 2;
 const y = x ? 'One': 'Two';
 ```
@@ -658,14 +657,15 @@ console.log(a.length);
 - [ ] 100
 - [ ] 3
 
-#### Q64. Which methid do you use to attach one DOM node to another?
+#### Q64. Which method do you use to attach one DOM node to another?
 
 - [ ] attachNode()
 - [ ] getNode()
 - [ ] querySelector()
 - [x] appendChild()
 
-### Q65. Which statement is used to skip iteration of the loop?
+#### Q65. Which statement is used to skip iteration of the loop?
+
 - [ ] break
 - [ ] pass
 - [ ] skip
