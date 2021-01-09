@@ -271,7 +271,7 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [ ] Functional decomposition
 - [ ] R&D
 
-#### Q38. Which story about technical debt is true?
+#### Q38. Which statement about technical debt is true?
 
 - [ ] Technical debt is another name for bugs
 - [ ] It is at the Product Owner's description to allocate effort to reduce technical debt.
