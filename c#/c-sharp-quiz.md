@@ -395,3 +395,24 @@ public class User {}
 - [] non-static methods do not have access to static member variables
 - [x] static methods do not have to instantiate an instance of the class to call the method
 - [] static methods always have to be public
+
+#### Q46. What is the correct way to write an event named apiResult based on a delegate named ResultCallback?
+
+- [] public void event ResultCallback apiResult;
+- [] public event ResultCallback(() -> apiResult);
+- [] public event void ResultCallback
+- [x] public event ResultCallback apiResult;
+
+#### Q47. When will the code inside finally block be executed in a try-catch statement?
+
+- [] if there is an error, it won't execute at all
+- [] between the try and catch blocks
+- [x] after the try and catch blocks
+- [] when the finally block overrides the catch block and executes in its place
+
+#### Q48. What method correctly extends the string class?
+
+- [x] public static string IsvalidName(this string i, string value) {}
+- [] public static void IsvalidName(this string i, string value) {}
+- [] public string IsvalidName(this string i, string value) {}
+- [] public void IsvalidName(this string i, string value) {}
