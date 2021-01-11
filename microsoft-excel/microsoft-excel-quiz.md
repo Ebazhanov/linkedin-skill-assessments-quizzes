@@ -317,12 +317,12 @@
 - [ ] Pattern Style
 - [ ] Cell Style
 
-#### Q46. The charts below are based on the data in cells a3:g5. The chart on the right was created by copying the one on the left. Which ribbon button was clicked to change the layout of the chart on the right (missing answers)?
+#### Q46. The charts below are based on the data in cells a3:g5. The chart on the right was created by copying the one on the left. Which ribbon button was clicked to change the layout of the chart on the right?
 
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [ ] Move Chart
+- [ ] Switch Row/Column
+- [ ] Quick Layout
+- [ ] Change Chart Type
 
 #### Q47. Cell A20 displays an orange background when its value is 5. Changing the value to 6 changes the background color to green. What type of formatting is applied to cell A20?
 
