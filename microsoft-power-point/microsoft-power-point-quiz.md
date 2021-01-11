@@ -164,4 +164,4 @@
     Normal view
     Reading view
     Slide Sorter view
-    Presenter view
+    = Presenter view
