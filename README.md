@@ -1,7 +1,7 @@
 # Linkedin-quiz-questions
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-216-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-217-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
@@ -376,6 +376,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.facebook.com/erchegyia"><img src="https://avatars3.githubusercontent.com/u/17572418?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Adam Erchegyi</b></sub></a><br /><a href="#design-erchegyia" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=erchegyia" title="Code">💻</a></td>
     <td align="center"><a href="http://trumanhung.tech"><img src="https://avatars1.githubusercontent.com/u/7915216?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Truman Hung</b></sub></a><br /><a href="#design-trumanhung" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/in-quiz-questions/commits?author=trumanhung" title="Code">💻</a></td>
     <td align="center"><a href="http://romanzamoracarrerascv.s3-website-eu-west-1.amazonaws.com"><img src="https://avatars0.githubusercontent.com/u/71715749?v=4?s=100" width="100px;" alt=""/><br /><sub><b>rzamora11</b></sub></a><br /><a href="#design-rzamora11" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/gaurav0224"><img src="https://avatars3.githubusercontent.com/u/37846341?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gaurav0224</b></sub></a><br /><a href="#design-gaurav0224" title="Design">🎨</a></td>
   </tr>
 </table>
 
