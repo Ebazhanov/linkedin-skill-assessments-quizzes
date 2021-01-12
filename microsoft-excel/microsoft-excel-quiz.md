@@ -344,3 +344,10 @@
 - [ ] argument
 - [x] formula
 - [ ] contents
+
+#### Q50. How does the appearance of an array formula differ from that of a standard formula?
+
+- [ ] In a worksheet cell, array formulas have a small blue triangle in the cell's upper-right corner.
+- [ ] A heavy border appears around the range that is occupied by the array formula.
+- [x] In the formula bar, an array formula appears surrounded by curly brackets.
+- [ ] When a cell that contains an array formula is selected, range finders appear on the worksheet around the formula's precedent cells.
