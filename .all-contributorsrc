@@ -1614,7 +1614,8 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/26011982?v=4",
       "profile": "https://github.com/dionicio-gp",
       "contributions": [
-        "design"
+        "design",
+        "code"
       ]
     },
     {
@@ -2086,7 +2087,7 @@
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "in-quiz-questions",
+  "projectName": "linkedIn-quiz-assessments",
   "projectOwner": "Ebazhanov",
   "repoType": "github",
   "repoHost": "https://github.com",
