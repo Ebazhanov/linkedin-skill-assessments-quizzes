@@ -907,3 +907,24 @@ public static void main(String[] args) {
 - [ ] native
 - [ ] interface
 - [X] unsigned
+
+#### Q65. Which of the following can replace the CODE SNIPPET to make the code below print "Hello World!"?
+
+```java
+ interface Interface1 {
+    static void print() {
+        System.out.print("Hello");
+    }
+}
+
+interface Interface2 {
+    static void print() {
+        System.out.print("World!");
+    }
+}
+```
+
+- [ ] super1.print(); super2.print()
+- [X] Interface1.print(); Interface2.print();
+- [ ] super.print();
+- [ ] this.print();
