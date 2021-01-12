@@ -337,3 +337,10 @@
 - [ ] It adds data from cell A1 of Sheet1 and cell D18 of sheet4
 - [ ] It adds all data in the range A1:D18 in Sheet1, Sheet2, Sheet3 and Sheet4
 - [x] It adds data from all D18 cells in Sheet1, Sheet2, Sheet3 and 4
+
+#### Q49. What is the term for an expression that is entered into a worksheet cell and begins with an equal sign?
+
+- [ ] function
+- [ ] argument
+- [x] formula
+- [ ] contents
