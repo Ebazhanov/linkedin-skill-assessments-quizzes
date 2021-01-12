@@ -280,7 +280,7 @@
 - [ ] COUNT
 - [ ] SUMIFS
 - [ ] COUNTA
-- [ ] COUNTIE
+- [x] COUNTIF
 
 #### Q41. Of these four chart types, which works best for summarizing time-based data?
 
