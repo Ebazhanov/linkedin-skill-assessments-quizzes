@@ -280,7 +280,7 @@
 - [ ] COUNT
 - [ ] SUMIFS
 - [ ] COUNTA
-- [ ] COUNTIE
+- [x] COUNTIF
 
 #### Q41. Of these four chart types, which works best for summarizing time-based data?
 
@@ -337,3 +337,17 @@
 - [ ] It adds data from cell A1 of Sheet1 and cell D18 of sheet4
 - [ ] It adds all data in the range A1:D18 in Sheet1, Sheet2, Sheet3 and Sheet4
 - [x] It adds data from all D18 cells in Sheet1, Sheet2, Sheet3 and 4
+
+#### Q49. What is the term for an expression that is entered into a worksheet cell and begins with an equal sign?
+
+- [ ] function
+- [ ] argument
+- [x] formula
+- [ ] contents
+
+#### Q50. How does the appearance of an array formula differ from that of a standard formula?
+
+- [ ] In a worksheet cell, array formulas have a small blue triangle in the cell's upper-right corner.
+- [ ] A heavy border appears around the range that is occupied by the array formula.
+- [x] In the formula bar, an array formula appears surrounded by curly brackets.
+- [ ] When a cell that contains an array formula is selected, range finders appear on the worksheet around the formula's precedent cells.
