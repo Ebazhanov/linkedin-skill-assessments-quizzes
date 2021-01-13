@@ -2084,10 +2084,19 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "cockyb",
+      "name": "Lee GyeongJun",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/56942459?v=4",
+      "profile": "https://github.com/cockyb",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "linkedIn-quiz-assessments",
+  "projectName": "linkedin-quiz-assessments",
   "projectOwner": "Ebazhanov",
   "repoType": "github",
   "repoHost": "https://github.com",
