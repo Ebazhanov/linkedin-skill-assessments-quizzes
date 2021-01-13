@@ -670,3 +670,17 @@ console.log(a.length);
 - [ ] pass
 - [ ] skip
 - [x] continue
+
+#### Q66. Which choice is valid example for an arrow function?
+
+- [x] (a,b) => c
+- [ ] a, b => {return c;}
+- [ ] a, b => c
+- [ ] { a, b } => c
+
+#### Q67. Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior? 
+
+- [x] class
+- [ ] generator function
+- [ ] map
+- [ ] proxy
