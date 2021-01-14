@@ -150,6 +150,11 @@ Layout -> Page Setup -> Pages -> Multiple Pages = "Book Fold"
 - [ ] Click File > Options > Recover Unsaved Documents.
 - [ ] Click File > Open > Recent > Documents.
 - [x] Click File > Recent > Recover Unsaved Documents.
+```
+solutions found in Office2019:
+File -> Open -> Recent -> Recover Unsaved Documents
+File -> Info -> Manage Document -> Recover Unsaved Documents
+```
 
 #### Q22. What can you NOT insert into a Word document from the Insert tab?
 
