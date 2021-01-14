@@ -179,7 +179,7 @@ File -> Info -> Manage Document -> Recover Unsaved Documents
 
 #### Q25. Your document contains two columns of content with a vertical line between the columns, as shown. From where can you delete the line?
 
-[picture](https://cdn.lynda.com/question/5d379809498e21bc9b0800bc/5d379809498e21bc9b0800bc-1563924805745)
+![picture](https://cdn.lynda.com/question/5d379809498e21bc9b0800bc/5d379809498e21bc9b0800bc-1563924805745)
 
 - [ ] Insert > Text
 - [x] Columns dialog box
@@ -241,8 +241,7 @@ Layout -> Columns -> More columns -> Line between
 
 #### Q33. Which formatting option was used to create the effect shown below? 
 
-                    [picture](https://cdn.lynda.com/question/5d379809498e21bc9b0800c4/5d379809498e21bc9b0800c4-1563924833648)
-
+![picture](https://cdn.lynda.com/question/5d379809498e21bc9b0800c4/5d379809498e21bc9b0800c4-1563924833648)
 - [x] Drop Cap
 - [ ] Subscript
 - [ ] Small Caps
