@@ -10,7 +10,8 @@
 #### Q2. What do you use to align objects on a slide to one another?
 
 - [ ] Layout tools
-- [x] Arrange tools
+- [x] Arrange tools // It's NOT the "Layout tools". In MS PP 2019 it's called "Drawing Tools". There is no such answer but there is a function called "Arrange"
+
 - [ ] Design Ideas feature
 - [ ] Picture tools
 
@@ -32,7 +33,7 @@
 
 - [ ] the Options tab
 - [ ] the Home tab
-- [x] the Print dialog box
+- [x] the Print dialog box // Should be in the printer window not in the options menu
 - [ ] the Share tab
 
 #### Q6. Which tab is best for adding various types of objects to slides?
