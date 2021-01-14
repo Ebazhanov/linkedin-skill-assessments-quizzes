@@ -69,9 +69,9 @@ Layout -> Page Setup -> Pages -> Multiple Pages = "Book Fold"
 
 #### Q10. How can you change the appearance of an entire table in a single step?
 
-- [ ] Apply a table style.
+- [x] Apply a table style.
 - [ ] Apply a graphic style.
-- [x] Right-click a table and choose a new style.
+- [ ] Right-click a table and choose a new style.
 - [ ] Apply a cell style.
 
 #### Q11. Which option does the Find and Replace feature NOT support?
