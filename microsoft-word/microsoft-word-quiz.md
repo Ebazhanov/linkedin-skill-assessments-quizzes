@@ -255,10 +255,12 @@ Layout -> Columns -> More columns -> Line between
 - [ ] index
 
 #### Q35. You have been reviewing a Word document using Track Changes. There are still changes that need to be reviewed, but you cannot see them. Why is this? (Select all that apply.) 
+```
 A. Display for Review is set to No Markup.
 B. Track changes has been turned off.
 C. Display for Review is set to Original.
 D. Inserts and Deletions and Formatting are turned off in Show Markup.
+```
 
 - [ ] A, C, D
 - [x] A, B
@@ -280,10 +282,12 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] You can easily generate a table of contents.
 
 #### Q38. You need to add a trademark symbol to a new product name. How can you accomplish this? (Select two items.) 
-           A. Type "(TM)". 
-           B. On the **Insert**  tab, in the **Symbols**  group, select **Symbol** . From the symbols gallery, select the trademark symbol, then click **Insert**.
-           C. On the **Insert**  Tab, in the **Illustrations**  group, select  **Icons**. From the icons gallery, select the **Signs and Symbols**  category. Then select the     trademark symbol and click **Insert**.
-           D. Type "(R)".
+```
+ A. Type "(TM)".
+ B. On the **Insert**  tab, in the **Symbols**  group, select **Symbol** . From the symbols gallery, select the trademark symbol, then click **Insert**.
+ C. On the **Insert** Tab, in the **Illustrations**  group, select  **Icons**. From the icons gallery, select the **Signs and Symbols**  category. Then select the trademark symbol and click **Insert**.
+ D. Type "(R)".
+```
 
 - [ ] B and D
 - [x] A and B
