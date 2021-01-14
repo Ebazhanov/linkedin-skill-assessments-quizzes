@@ -185,6 +185,10 @@ File -> Info -> Manage Document -> Recover Unsaved Documents
 - [x] Columns dialog box
 - [ ] Insert > Line > Vertical
 - [ ] Insert > Line > Remove
+```
+personal hint:
+Layout -> Columns -> More columns -> Line between
+```
 
 #### Q26. You crop an image in a document, what happens to the image and the overall document file size?
 
