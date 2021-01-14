@@ -31,9 +31,13 @@
 #### Q5. You want to set a wider inside margin to accommodate binding a document where pages are printed in both sides. Which option should you choose in the Page Setup dialog box.
 
 - [x] Book Fold.
-- [ ] Different Odd & Even Pages. <-- Should not this one instead?
+- [ ] Different Odd & Even Pages.
 - [ ] Mirror Margins.
 - [ ] Landscape.
+```
+Different Odd & Even Pages. <-- Should not this one instead?
+Layout -> Page Setup -> Pages -> Multiple Pages = "Book Fold"
+```
 
 #### Q6. Which feature lets you place a ghosted logo or text behind the regular text on your document?
 
