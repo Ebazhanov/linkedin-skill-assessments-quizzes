@@ -402,4 +402,4 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/Ebazhanov/in-quiz-questions.svg)](https://starchart.cc/Ebazhanov/in-quiz-questions)
+[![Stargazers over time](https://starchart.cc/Ebazhanov/linkedin-quiz-assessments.svg)](https://starchart.cc/Ebazhanov/linkedin-quiz-assessments)
