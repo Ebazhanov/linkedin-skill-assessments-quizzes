@@ -4,7 +4,7 @@
 
 #### Q1. What type of relationship is defined as one resource existing only if another parent resource exist-for example, pages in a book?
 
-- [ ] `Partial`
+- [x] `Partial`
 - [ ] `dependent`
 - [ ] `associative`
 - [ ] `linked`
@@ -203,7 +203,7 @@
 
 - [ ] `Layered System`
 - [ ] `Stateless`
-- [ ] `Client-Server`
+- [x] `Client-Server`
 - [ ] `Cacheable`
 
 #### Q30. Which content is best to include in your documentation?
@@ -231,7 +231,7 @@
 
 - [ ] `to describe relationships between resources or actions`
 - [ ] `to describe subresources related to the current one`
-- [ ] `to link two resources together`
+- [x] `to link two resources together`
 - [ ] `to describe a resource and its purpose`
 
 #### Q34. When building SDKs, which languages should you support?
@@ -243,14 +243,14 @@
 
 #### Q35. Which property would you use to include references to other resources in a JSON document?
 
-- [ ] resources
+- [x] resources
 - [ ] _embedded
 - [ ] subresources
 - [ ] _links
 
 #### Q36. What is OAuth?
 
-- [ ] an authorization framework for granted delegated access
+- [x] an authorization framework for granted delegated access
 - [ ] an approach to single sign-on for APIs
 - [ ] a method for API authentication
 - [ ] HTTP Basic Authentication 2.0
@@ -259,7 +259,7 @@
 
 - [ ] JSON
 - [ ] HTTP
-- [ ] common use cases
+- [x] common use cases
 - [ ] your tech stack
 
 #### Q34. What is the purpose of an OAuth refresh token?
@@ -267,5 +267,5 @@
 - [ ] to share user profile information
 - [ ] to update an API configuration
 - [ ] to keep a web session active
-- [ ] to retrive an access token
+- [x] to retrive an access token
 
