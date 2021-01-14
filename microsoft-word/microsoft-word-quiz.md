@@ -311,11 +311,11 @@ R:    Registered trademark symbol
 - [ ] next page section break
 - [ ] continiuos section break
 - [ ] column break
-- [ ] page break
+- [x] page break
 
 ### Q41. You want to capture all the content and design elements in your current document, so you can use them as a starting point when creating new documents. To do so, save the current document as _______.
 
-- [ ] a template file
+- [x] a template file
 - [ ] a PDF
 - [ ] an openDocument Text file
 - [ ] a Rich Text Format file
