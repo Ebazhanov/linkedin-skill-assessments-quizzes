@@ -10,10 +10,12 @@
 #### Q2. What do you use to align objects on a slide to one another?
 
 - [ ] Layout tools
-- [x] Arrange tools // It's NOT the "Layout tools". In MS PP 2019 it's called "Drawing Tools". There is no such answer but there is a function called "Arrange"
-
+- [x] Arrange tools
 - [ ] Design Ideas feature
 - [ ] Picture tools
+```
+In MS PP 2019 it's called "Drawing Tools". There is no such answer but there is a function called "Arrange"
+```
 
 #### Q3. Which option must be enabled if you want to manipulate the playback of a video file during a presentation?
 
@@ -33,8 +35,11 @@
 
 - [ ] the Options tab
 - [ ] the Home tab
-- [x] the Print dialog box // Should be in the printer window not in the options menu
+- [x] the Print dialog box
 - [ ] the Share tab
+```
+Should be in the printer window not in the options menu
+```
 
 #### Q6. Which tab is best for adding various types of objects to slides?
 
@@ -56,6 +61,9 @@
 - [ ] slide titles
 - [ ] missing alt text
 - [x] grammar
+```
+[Source](https://support.microsoft.com/en-us/office/rules-for-the-accessibility-checker-651e08f2-0fc3-4e10-aaca-74b4a67101c1?ns=powerpnt&version=16&ui=en-us&rs=en-us&ad=us)
+```
 
 #### Q9. How can you change the appearance of a table in one click?
 
@@ -63,6 +71,9 @@
 - [ ] Apply a graphic style.
 - [x] Apply a table style.
 - [ ] Right-click a table and choose a new style.
+```
+Table Tools -> Design Tab -> Table Styles
+```
 
 #### Q10. Which option changes a text box so that it automatically changes shape to fit longer text?
 
@@ -91,6 +102,9 @@ E. Distance
 - [ ] Advance slides manually
 - [ ] Advance slides automatically
 - [x] Loop continuously until 'Esc'
+```
+Slide Show Tab -> Set Up Slide Show -> Show options -> Loop continuously until 'Esc'
+```
 
 #### Q13. Which statement about the Compress Pictures command is true?
 
@@ -110,6 +124,7 @@ Highlight the content you want to use as a slide title, and select Heading 1 in 
 Highlight the content you want to use as the slide text, and select Heading 2 in Styles.
 If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will create a slide for each paragraph in your content.
 ```
+
 #### Q15. In what manner can you filter comments?
 
 - [ ] by length
@@ -123,6 +138,9 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] Hidden
 - [ ] none of these answers
 - [ ] Visible
+```
+If hidden is selected the courser stays hidden no matter what.
+```
 
 #### Q17. Which chart type is best suited for displaying annual financial data for a 10-year period?
 
@@ -147,10 +165,10 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 #### Q20. How can you adjust which data in a table is used when working on a chart?
 
-    Click the Switch Row/Column button.
-    Click the Refresh Data button.
-    Click the Select Data button.
-    Click the Edit Data button.
+- [ ] Click the Switch Row/Column button.
+- [ ] Click the Refresh Data button.
+- [ ] Click the Select Data button.
+- [ ] Click the Edit Data button.
 
 #### Q21. Which view lets you see additional information on a second monitor when delivering a presentation?
 
@@ -239,8 +257,10 @@ File Tab -> Options -> Advanced -> Print -> High quality
 - [ ] Save the file as a PDF.
 - [ ] Save the file as a POTX.
 - [ ] Save the file as a PPTX.
+```
+Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .pot).
+```
 
-```Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .pot).```
 #### Q33. You are creating an industrial presentation of a new software program and would like to include an image of your program. How can you use PowerPoint to do this?
 
 - [ ] Use the Copy command.
