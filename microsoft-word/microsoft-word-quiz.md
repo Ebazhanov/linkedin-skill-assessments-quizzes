@@ -291,8 +291,13 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 - [ ] B and D
 - [x] A and B
-- [x] B and C
-- [ ] A and D
+- [ ] B and C
+- [x] A and D
+```
+hint:
+TM : (Unregistered) trademark symbol
+R:    Registered trademark symbol
+```
 
 #### Q39. You are reformatting a professional document that you created previously using manual formatting. In your document, first-level headings are formatted with Arial 11 Bold. What is the fastest way to create and apply a Heading 1 style using these properties?
 
