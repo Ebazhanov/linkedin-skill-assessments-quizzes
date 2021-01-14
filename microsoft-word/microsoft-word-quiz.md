@@ -30,13 +30,14 @@
 
 #### Q5. You want to set a wider inside margin to accommodate binding a document where pages are printed in both sides. Which option should you choose in the Page Setup dialog box.
 
-- [x] Book Fold.
+- [ ] Book Fold.
 - [ ] Different Odd & Even Pages.
-- [ ] Mirror Margins.
+- [x] Mirror Margins.
 - [ ] Landscape.
 ```
 Different Odd & Even Pages. <-- Should not this one instead?
-Layout -> Page Setup -> Pages -> Multiple Pages = "Book Fold"
+Layout -> Page Setup -> Pages -> Multiple Pages = "Mirror Margins" or "Book Fold"
+Both switch the margin options from left/right to inside/outside. But only one "Mirror Margins" is correct for double-sided pages. "Book Fold" includes folding.
 ```
 
 #### Q6. Which feature lets you place a ghosted logo or text behind the regular text on your document?
@@ -148,12 +149,13 @@ Layout -> Page Setup -> Pages -> Multiple Pages = "Book Fold"
 
 - [ ] Click Open > Recent and select Recover Unsaved Documents.
 - [ ] Click File > Options > Recover Unsaved Documents.
-- [ ] Click File > Open > Recent > Documents.
-- [x] Click File > Recent > Recover Unsaved Documents.
+- [x] Click File > Open > Recent > Documents.
+- [ ] Click File > Recent > Recover Unsaved Documents.
 ```
 solutions found in Office2019:
 File -> Open -> Recent -> Recover Unsaved Documents
 File -> Info -> Manage Document -> Recover Unsaved Documents
+Read carefully. It's not about recovering, but only the last recent file!
 ```
 
 #### Q22. What can you NOT insert into a Word document from the Insert tab?
@@ -176,6 +178,10 @@ File -> Info -> Manage Document -> Recover Unsaved Documents
 - [ ] AutoFormat As You Type
 - [x] Find and Replace
 - [ ] AutoCorrect Options
+```
+Home -> Edeting -> Replace -> "Finde and Replace"
+File -> Options -> Proofing -> AutoCorrect Options -> Replace text as you type
+```
 
 #### Q25. Your document contains two columns of content with a vertical line between the columns, as shown. From where can you delete the line?
 
@@ -242,8 +248,8 @@ Layout -> Columns -> More columns -> Line between
 #### Q33. Which formatting option was used to create the effect shown below? 
 
 ![picture](https://cdn.lynda.com/question/5d379809498e21bc9b0800c4/5d379809498e21bc9b0800c4-1563924833648)
-- [x] Drop Cap
-- [ ] Subscript
+- [ ] Drop Cap
+- [x] Subscript
 - [ ] Small Caps
 - [ ] Superscript
 
@@ -324,7 +330,71 @@ R:    Registered trademark symbol
 
 - [ ] XML Paper Specification (XPS)
 - [ ] OpenDocument Text(ODT)
-- [ ] Rich Text Format (RTF)
+- [x] Rich Text Format (RTF)
 - [ ] plain text(TXT)
 
 
+#### Q43. How can you break a table into two parts?
+
+- [x] Use the Split Table command.
+- [ ] Press Shift + Enter (Windows) or Sift + Return (Mac).
+- [ ] Use the Section Break command.
+- [ ] Use the Split Cells command.
+```
+Tables Layout tab -> Merge group -> Split Table
+```
+
+#### Q44. What can you NOT create from a Word document?
+
+- [ ] a Word macro-enabled document
+- [ ] a plan text file
+- [x] a multipage website
+- [ ] a Word 2003 XML document
+```
+html files are one sided
+```
+
+#### Q45. How can you add a manual line break to a paragraph?
+
+- [ ] Press Enter twice (Windows) or Return twice (Mac).
+- [ ] Press Alt + Enter (Windows) or Option + Return (Mac).
+- [ ] Press Enter (Windows) or Return (Mac).
+- [x] Press Shift + Enter (Windows) or Shift + Return (Mac)
+
+#### Q46. You want to repeat an element (such as the date<9 on all pages of the document. Which options should you choose?
+
+- [x] Insert > Header & Footer
+- [ ] Insert > Text
+- [ ] Design > Header & Footer
+- [ ] View > Header & Footer
+
+#### Q47. A document has been shared with you from your colleague's OneDrive library. They habe given only you editing acces. What can you do with this document?
+
+- [x] Share the document with others.
+- [ ] Assume ownership of the document.
+- [ ] Remove access from another user.
+- [ ] Coauther the document with your colleague.
+
+#### Q48. In the image below, what do the red bar next to the text mean?
+ - [ ] none of these answers
+ - [ ] Draw tools were used in these areas.
+ - [x] Change were made to these areas.
+ - [ ] Comments were added to these areas.
+
+#### Q49. What formatting must you use to use both portrait and landscape pages in the same Word document?
+ - [ ] templates
+ - [ ] pages
+ - [ ] columns
+ - [x] sections
+ 
+#### Q50. Which option does the Find and Replace feature NOT support?
+ - [x] Match Punctuation
+ - [ ] Replace All
+ - [ ] Match Case
+ - [ ] Whole Word Only
+
+#### Q51. What is the name of the text effect that displays a large capital letter at the beginning of the paragraph?
+ - [ ] superscript
+ - [x] drop cap
+ - [ ] subscript
+ - [ ] small caps
