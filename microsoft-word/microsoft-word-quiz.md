@@ -285,3 +285,25 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [x] Select one of the first level headings. Right-click **Heading 1**  and update it to match the selection.
 - [ ] Select the text, right-click to display the formatting bar, and select **Styles > Copy**.
 
+#### Q40. You are typing text in two columns . When you reach the end of a paragraph in column 1, you want to start the next paragraph in column 1 on the next page. What type of break should you insert at this point?
+
+- [ ] next page section break
+- [ ] continiuos section break
+- [ ] column break
+- [ ] page break
+
+### Q41. You want to capture all the content and design elements in your current document, so you can use them as a starting point when creating new documents. To do so, save the current document as _______.
+
+- [ ] a template file
+- [ ] a PDF
+- [ ] an openDocument Text file
+- [ ] a Rich Text Format file
+
+### Q42. Which file format best preserves formatting and allows editing when a Word document is transferred to another application?
+
+- [ ] XML Paper Specification (XPS)
+- [ ] OpenDocument Text(ODT)
+- [ ] Rich Text Format (RTF)
+- [ ] plain text(TXT)
+
+

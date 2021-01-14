@@ -1614,7 +1614,8 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/26011982?v=4",
       "profile": "https://github.com/dionicio-gp",
       "contributions": [
-        "design"
+        "design",
+        "code"
       ]
     },
     {
@@ -2045,10 +2046,57 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "erchegyia",
+      "name": "Adam Erchegyi",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/17572418?v=4",
+      "profile": "https://www.facebook.com/erchegyia",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "trumanhung",
+      "name": "Truman Hung",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7915216?v=4",
+      "profile": "http://trumanhung.tech",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "rzamora11",
+      "name": "rzamora11",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/71715749?v=4",
+      "profile": "http://romanzamoracarrerascv.s3-website-eu-west-1.amazonaws.com",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "gaurav0224",
+      "name": "gaurav0224",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/37846341?v=4",
+      "profile": "https://github.com/gaurav0224",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "cockyb",
+      "name": "Lee GyeongJun",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/56942459?v=4",
+      "profile": "https://github.com/cockyb",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "in-quiz-questions",
+  "projectName": "linkedin-quiz-assessments",
   "projectOwner": "Ebazhanov",
   "repoType": "github",
   "repoHost": "https://github.com",
