@@ -2,7 +2,7 @@ Linkedin Quiz Answers, Skill Assessments Test
 -------
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-220-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-221-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
@@ -392,6 +392,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/cockyb"><img src="https://avatars1.githubusercontent.com/u/56942459?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lee GyeongJun</b></sub></a><br /><a href="#design-cockyb" title="Design">🎨</a></td>
     <td align="center"><a href="https://miroslawlis.github.io/"><img src="https://avatars1.githubusercontent.com/u/8983142?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mirek</b></sub></a><br /><a href="#design-miroslawlis" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-quiz-assessments/commits?author=miroslawlis" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/surajm245"><img src="https://avatars2.githubusercontent.com/u/11998757?v=4?s=100" width="100px;" alt=""/><br /><sub><b>surajm245</b></sub></a><br /><a href="#design-surajm245" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/ArisLaode"><img src="https://avatars2.githubusercontent.com/u/21226377?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ArisLaode</b></sub></a><br /><a href="#design-ArisLaode" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-quiz-assessments/commits?author=ArisLaode" title="Code">💻</a></td>
   </tr>
 </table>
 
