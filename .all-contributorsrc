@@ -2093,6 +2093,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "miroslawlis",
+      "name": "Mirek",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8983142?v=4",
+      "profile": "https://miroslawlis.github.io/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
