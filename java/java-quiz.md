@@ -55,7 +55,12 @@ boolean b1 = true, b2 = false; int i1 = 1, i2 = 2;
 #### Q6. Which of the following can replace the CODE SNIPPET to make the code below print "Hello World"?
 
 ```
+interface Interface1 {
+    static void print() {
+        System.out.print("Hello");
+    }
 }
+
 interface Interface2 {
     static void print() {
         System.out.print("World!");
@@ -63,12 +68,10 @@ interface Interface2 {
 }
 ```
 
-
-- super1.print(); super2.print();
-- this.print();
-- super.print();
-- Interface1.print(); Interface2.print(); <<<<<--- Correct
-
+- [ ] super1.print(); super2.print();
+- [ ] this.print();
+- [ ] super.print();
+- [X] Interface1.print(); Interface2.print();
 
 #### Q7. What does the following code print?
 
@@ -859,3 +862,51 @@ public class Solution {
 - [ ] instance
 - [X] class
 - [ ] method
+
+#### Q62. What does this code print?
+
+```java
+public static void main(String[] args) {
+        int x=5,y=10;
+        swapsies(x,y);
+        System.out.println(x+"="+y);
+    }
+
+     static void swapsies(int a, int b) {
+        int temp=a;
+        a=b;
+        b=temp;
+    }
+```
+
+- [ ] 10 10
+- [X] 5 10
+- [ ] 10 5
+- [ ] 5 5
+
+#### Q63. What is the result of this code?
+
+```java
+ try {
+            System.out.println("Hello World");
+        } catch (Exception e) {
+            System.out.println("e");
+        }
+        catch (ArithmeticException e) {
+            System.out.println("e");
+        }finally {
+            System.out.println("!");
+        }
+```
+
+- [ ] Hello World
+- [X] It will not compile beacuse the second catch statement is unreachable
+- [ ] Hello World!
+- [ ] It will throw runtime exception
+
+#### Q64. What is not a java keyword
+
+- [ ] finally
+- [ ] native
+- [ ] interface
+- [X] unsigned

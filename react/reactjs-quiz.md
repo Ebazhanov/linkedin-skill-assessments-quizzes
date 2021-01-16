@@ -465,3 +465,47 @@ Currently, `handleClick` is being called instead of passed as a reference. How d
 - [ ] `<button onClick={handleClick()}>Click this</button>`
 - [ ] `<button onClick={this.handleClick}>Click this</button>` 
 - [ ] `<button onclick={this.handleClick}>Click this</button>`
+
+#### Q48. (Not sure answer)
+Which answer best describes a function component?
+- [ ] `A function component is the same as a class component.`
+- [ ] `A function component accepts a single props object and returns a React element.`
+- [ ] `A function component is the only way to create a component.`
+- [ ] `A function component is required to create a React component.`
+
+#### Q49.
+Which library does the fetch() function come from?
+- [ ] `FetchJS`
+- [ ] `ReactDOM`
+- [X] `No library. fetch() is supported by most browsers.`
+- [ ] `React`
+
+#### Q50.
+What is the difference between the click behaviors of these two buttons(assuming that this.handleClick is bound correctly)
+
+```javascript
+
+A. <button onClick=fthis.handleClickl>Click Me</button>
+B. <button onClick={event => this.handleClick(event)}>Click Me</button>
+
+```
+
+- [ ] `Button A will not have access to the event object on click of the button`
+- [ ] `Button A will not fire the handler this.handleClick successfully`
+- [X] `There is no difference`
+- [ ] `Button B will not fire the handler this.handleClick successfully`
+
+#### Q51.
+What will happen when this useEffect Hook is executed, assuming name is not already equal to John? 
+
+```javascript
+useEffect(() => {
+  setName("John");
+}, [name]);
+```
+
+
+- [ ] `It will cause an error immediately.`
+- [ ] `It will execute the code inside the function, but only after waiting to ensure that no other component is accessing the name variable.`
+- [x] `It will update the value of name once and not run again until name is changed from the outside.`
+- [ ] `It will cause an infinite loop.`
