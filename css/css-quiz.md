@@ -683,3 +683,18 @@ p:first-child {
 - [ ] In CSS3, the double colon notation (: :) was introduced to create a consistency between pseudo-elements from pseudo-classes. For newer browsers, use the double colon notation. For IE8 and below, using single colon notation (:).
 - [ ] Only the new CSS3 pseudo-elements require the double colon notation while the CSS2 pseudo-elements do not.
 - [ ] In CSS3, the double colon notation (::) was introduced to differentiate pseudo-elements from pseudo-classes. However, modern browsers support formats. Older browsers such IE8 and below do not
+
+
+#### Q55. Which choice is not valid value for the font-style property?
+
+- [ ] normal
+- [ ] italic
+- [x] none
+- [ ] oblique
+
+#### Q56. When would you use the @font-face method?
+
+- [ ] to set the font size of the text
+- [x] to load custom fonts into stylesheet
+- [ ] to change the name of the font declared in the font-family
+- [ ] to set the color of the text
