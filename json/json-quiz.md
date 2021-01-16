@@ -580,3 +580,32 @@ printNullness(JSON.parse('{ "lemmings": "null" }'));
 - `->`
 - `::`
 - `.` <<<<---- Correct
+
+#### Q48. If a string contains line breaks, what should you do?
+
+- Wrap line breaks in single quotation marks
+- Make no changes, because whitespace is allowed
+- Replace any line breaks with `\r`
+- Replace any line breaks with `\n` <<<<---- Correct
+
+#### Q49. Which number types are available in javascript but not supported in json?
+
+- Fractional and Transcendental
+- Infinity or Rational 
+- Rational and Irrational
+- Infinity or NaN <<<<---- Correct
+
+#### Q50. How should a date value be stored in JSON?
+
+- As a string with quotes
+- As a string without quotes
+- As a string in ISO 8583 format 
+- As a string in ISO 8601 format <<<<---- Correct
+
+#### Q51. Is the JSON code shown here valid?
+![JSON object with key "Vehicles" containing an array of emojis](https://github.com/Ebazhanov/in-quiz-questions/blob/ad95968c724eefc5ee0559065dec17af644e1156/json/questionimages/Q51/Q51.jpeg)
+
+- No, emojis must be escaped with a backslash.
+- No, JSON strings are not allowed to use emojis.
+- No, emojis should never be enclosed with double quotes.
+- Yes, emojis are valid characters because JSON strings are unicode. <<<<---- Correct / Not sure

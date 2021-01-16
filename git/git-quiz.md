@@ -91,6 +91,8 @@ git cherry-pick {kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231}
 
 #### Q10. Why would the following command be used?
 
+#### Q10a. Why would you use this command?
+
 `git rebase -i HEAD~10`
 
 - [ ] To run a comparative search of the last 10 commits for differences
@@ -134,6 +136,8 @@ git cherry-pick {kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231}
 - [ ] Access the commit stash data with git stash.
 
 #### Q16. What files is the following .gitignore programmed to leave out?
+
+#### Q16a. What files is this .gitignore programmed to leave out?
 
 ```shell
 # .swift
@@ -744,3 +748,24 @@ Which of the following options is correct ?
 [Reference](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config#:~:text=The%20git%20config%20command%20is,modify%20a%20configuration%20text%20file.)
 
 </p></details>
+
+#### Q88. What is version control?
+
+- [ ] a type of architecture used to manage large databases
+- [x] a system that shows, tracks, and controls changes to a set of files over time
+- [ ] a programmatic design pattern used to manage code between multiple engineering teams
+- [ ] a type of software that links a project with a GitHub repository
+
+#### Q89. What is the difference between using the git stash and git stash pop commands?
+
+- [ ] git stash removes a commit from the repo history, while git stash pop saves changes to multiple branches.
+- [ ] git stash saves changes to multiple branches, while git stash pop removes a commit from the repo history.
+- [ ] git stash removes the most recent commit, while git stash pop saves current changes.
+- [x] git stash creates a stash entry, while git stash pop places the saved state onto the working directory.
+
+#### Q90. Which command can be used to list the branches that have been merged into the currently checked-out branch?
+
+- [ ] git master --status
+- [ ] git branch --status
+- [x] git branch --merged
+- [ ] git status --merged

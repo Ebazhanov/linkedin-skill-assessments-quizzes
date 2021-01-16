@@ -266,3 +266,31 @@ fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) thro
 - [ ] http.ServerRequest
 - [ ] http.ClientRequest
 - [ ] http.ServerResponse
+
+### Q37. What are the arguments passed to the module wrapper function?
+
+- [ ] exports, __filename, __dirname
+- [ ] exports, process, require, module, __filename, __dirname
+- [ ] exports, module, __filename, __dirname
+- [x] exports, require, module, __filename, __dirname
+
+### Q38. Which library provides Node.js with the event loop?
+
+- [ ] V8
+- [ ] c-ares
+- [x] libuv
+- [ ] events
+
+### Q39. What does the .node file extension represent?
+
+- [ ] a C++ file that can have a .node extension and that Node will be able to execute directly.
+- [x] a C++ Addon file that is built with node-gyp
+- [ ] a JSON file that can have a .node extension as well as the .json extension
+- [ ] a JavaScript file that can have a .node extension as well as the .js extension
+
+### Q40. What can you export with module.exports?
+
+- [ ] only objects.
+- [ ] only functions
+- [ ] only variables and arrays
+- [x] functions, objects, arrays, or anything you assign to the module  -----> correct

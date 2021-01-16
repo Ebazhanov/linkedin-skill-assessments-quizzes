@@ -76,7 +76,7 @@ interface Interface2 {
 #### Q7. What does the following code print?
 
 ```
-String str = ""abcde"";
+String str = "abcde";
 str.trim();
 str.toUpperCase();
 str.substring(3, 4);
@@ -819,3 +819,94 @@ public class Solution {
 - [ ] Declare local copies of the constant in your code.
 - [ ] This cannot be done. You must always qualify references to static members with the class form which they came from.
 - [ ] Put the static members in an interface and inherit from that interface.
+
+#### Q57. Which keyword lets you use an interface?
+
+- [ ] extends
+- [X] implements
+- [ ] inherits
+- [ ] import
+
+#### Q58. Why are ArrayLists better than arrays?
+
+- [X] You don't have to decide the size of an ArrayList when you first make it.
+- [ ] You can put more items into an ArrayList than into an array.
+- [ ] ArrayLists can hold more kinds of objects than arrays.
+- [ ] You don't have to decide the type of an ArrayList when you first make it.
+
+#### Q59. Declare a variable that holds the first four digits of Π
+
+- [ ] int pi = 3.141;
+- [ ] decimal pi = 3.141;
+- [ ] double pi = 3.141;
+- [X] float pi = 3.141;
+
+#### Q60. Use the magic power to cast a spell
+
+```java
+  public class MagicPower {
+    void castSpell(String spell) {}
+  }
+```
+
+- [X] new MagicPower().castSpell("expecto patronum")
+- [ ] MagicPower magicPower = new MagicPower();
+      magicPower.castSpell();
+- [ ] MagicPower.castSpell("expelliarmus");
+- [ ] new MagicPower.castSpell();
+
+
+#### Q61. What language construct serves as a blueprint containing an object's properties and functionality?
+
+- [ ] constructor
+- [ ] instance
+- [X] class
+- [ ] method
+
+#### Q62. What does this code print?
+
+```java
+public static void main(String[] args) {
+        int x=5,y=10;
+        swapsies(x,y);
+        System.out.println(x+"="+y);
+    }
+
+     static void swapsies(int a, int b) {
+        int temp=a;
+        a=b;
+        b=temp;
+    }
+```
+
+- [ ] 10 10
+- [X] 5 10
+- [ ] 10 5
+- [ ] 5 5
+
+#### Q63. What is the result of this code?
+
+```java
+ try {
+            System.out.println("Hello World");
+        } catch (Exception e) {
+            System.out.println("e");
+        }
+        catch (ArithmeticException e) {
+            System.out.println("e");
+        }finally {
+            System.out.println("!");
+        }
+```
+
+- [ ] Hello World
+- [X] It will not compile beacuse the second catch statement is unreachable
+- [ ] Hello World!
+- [ ] It will throw runtime exception
+
+#### Q64. What is not a java keyword
+
+- [ ] finally
+- [ ] native
+- [ ] interface
+- [X] unsigned
