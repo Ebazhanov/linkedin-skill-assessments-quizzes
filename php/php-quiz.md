@@ -410,5 +410,11 @@ echo "No, mail is not set";
 - [ ] The controller presents content through the user interface, after communicating directly with the database.
 - [x] The controller handles specific tasks related to a specific area of functionality, handles business logic related to the results, and communicates directly with the database.
 
+### Q31. Why does this code trigger an error?
 
+`$string = 'Shylock in a Shakespeare's "Merchangt of Venice" demands his pound of flesh.';`
 
+- [ ] Strings should always be wrapped in double quotes; and double quotes inside a string should be escaped by backslashes.
+- [ ] All single and double quotes inside a string need to be escaped by backslashes to prevent a parse error.
+- [ ] The opening and closing single quotes should be replaced by double quotes; and the apostrophe should be escaped by a backslash.
+- [x] The apostrophe needs to be escaped by a backslash to prevent it from being treated as the closing quote.
