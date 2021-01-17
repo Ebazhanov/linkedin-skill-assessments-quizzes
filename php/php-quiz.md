@@ -455,3 +455,10 @@ echo $books->book[0]->categories->category[1];
 - [ ] TRUE
 - [ ] FALSE
 - [ ] 0
+
+### Q33. Assuming that $first_name and $family_name are valid strings, which statement is invalid?
+
+- [ ] echo $first_name. ' '. $familiy_name;
+- [x] print $first_name, ' ', $familiy_name;
+- [ ] print $first_name. ' '. $familiy_name;
+- [ ] echo $first_name, ' ', $familiy_name;
