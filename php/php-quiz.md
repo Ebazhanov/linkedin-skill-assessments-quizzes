@@ -448,3 +448,10 @@ echo $books->book[0]->categories->category[1];
 echo $books->book[0]->categories->category[1];
 - [ ] $books = SimpleXML('books.xml');
 echo $books->book[0]->categories->category[1];
+
+### Q32. A PDO object called $db has been set up to use for database operations, including user authentication. All user-related properties are set. The script line `public function __construct(&$db)` shows a constructor that initializes all user-related properties to \_\_\_\_ if no user has logged in. These parameters will be properly set by the login functions when a user logs in.
+
+- [ ] NULL
+- [ ] TRUE
+- [ ] FALSE
+- [ ] 0
