@@ -418,3 +418,33 @@ echo "No, mail is not set";
 - [ ] All single and double quotes inside a string need to be escaped by backslashes to prevent a parse error.
 - [ ] The opening and closing single quotes should be replaced by double quotes; and the apostrophe should be escaped by a backslash.
 - [x] The apostrophe needs to be escaped by a backslash to prevent it from being treated as the closing quote.
+
+### The following XML document is in books.xml. Which code will output "Historical"?
+
+```
+<books>
+<book>
+<title>A Tale of Two Cities</title>
+<author>Charles Dickens</author>
+<categories>
+<category>Classics</category>
+<category>Historical</category>
+</categories>
+</book>
+<title>Then There Were None</title>
+<author>Agatha Christies</author>
+<categories>
+<category>Mystery</category>
+</categories>
+</book>
+</books>
+```
+
+- [ ] $books = simplexml_load_string('books.xml');
+echo $books->book[0]->categories->category[1];
+- [ ] $books = simplexml_load_file('books.xml');
+echo $books->book[0]->categories->category[1];
+- [x] $books = SimpleXMLElement('books.xml');
+echo $books->book[0]->categories->category[1];
+- [ ] $books = SimpleXML('books.xml');
+echo $books->book[0]->categories->category[1];
