@@ -401,3 +401,14 @@ echo "No, mail is not set";
 - [ ] 1.5
 - [ ] 4
 - [x] 1
+
+
+### Q30. What is the job of the controller as a component in MVC?
+
+- [ ] The controller handles data passed to it by the view, and also passes data to the view. It interprets data sent by the view and disperses that data to the approrpiate models awaiting results to pass back to the view.
+- [ ] The controller is a mechanism that allows you to create reusable code in languages such as PHP, where multiple inheritance is not supported.
+- [ ] The controller presents content through the user interface, after communicating directly with the database.
+- [x] The controller handles specific tasks related to a specific area of functionality, handles business logic related to the results, and communicates directly with the database.
+
+
+
