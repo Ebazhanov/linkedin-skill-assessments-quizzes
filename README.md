@@ -2,7 +2,7 @@ Linkedin Quiz Answers, Skill Assessments Test
 -------
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-223-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-224-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
@@ -395,6 +395,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/ArisLaode"><img src="https://avatars2.githubusercontent.com/u/21226377?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ArisLaode</b></sub></a><br /><a href="#design-ArisLaode" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ArisLaode" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/RaviDhoriya"><img src="https://avatars1.githubusercontent.com/u/6481302?v=4?s=100" width="100px;" alt=""/><br /><sub><b>RaviDhoriya</b></sub></a><br /><a href="#design-RaviDhoriya" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=RaviDhoriya" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/sarai-84"><img src="https://avatars2.githubusercontent.com/u/77579381?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sarai-84</b></sub></a><br /><a href="#design-sarai-84" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sarai-84" title="Code">💻</a></td>
+    <td align="center"><a href="https://vishnudamwala.netlify.com/"><img src="https://avatars2.githubusercontent.com/u/4034728?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vishnu</b></sub></a><br /><a href="#design-cooldashing24" title="Design">🎨</a></td>
   </tr>
 </table>
 
