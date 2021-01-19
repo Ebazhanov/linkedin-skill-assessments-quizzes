@@ -2,7 +2,7 @@ Linkedin Quiz Answers, Skill Assessments Test
 -------
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-225-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-226-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
@@ -399,6 +399,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://dev-mdminhaj.github.io"><img src="https://avatars2.githubusercontent.com/u/64159776?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Muhammad Minhaj</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=dev-mdminhaj" title="Code">💻</a></td>
+    <td align="center"><a href="https://chandrikadeb7.github.io"><img src="https://avatars2.githubusercontent.com/u/29686102?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chandrika Deb</b></sub></a><br /><a href="#design-chandrikadeb7" title="Design">🎨</a></td>
   </tr>
 </table>
 
