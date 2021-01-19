@@ -55,7 +55,12 @@ boolean b1 = true, b2 = false; int i1 = 1, i2 = 2;
 #### Q6. Which of the following can replace the CODE SNIPPET to make the code below print "Hello World"?
 
 ```
+interface Interface1 {
+    static void print() {
+        System.out.print("Hello");
+    }
 }
+
 interface Interface2 {
     static void print() {
         System.out.print("World!");
@@ -63,12 +68,10 @@ interface Interface2 {
 }
 ```
 
-
-- super1.print(); super2.print();
-- this.print();
-- super.print();
-- Interface1.print(); Interface2.print(); <<<<<--- Correct
-
+- [ ] super1.print(); super2.print();
+- [ ] this.print();
+- [ ] super.print();
+- [X] Interface1.print(); Interface2.print();
 
 #### Q7. What does the following code print?
 
