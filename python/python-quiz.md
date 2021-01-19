@@ -58,7 +58,7 @@ count, fruit, price = (2, 'apple', 3.5)
 #### Q8. What is one of the most common use of Python's sys library?
 
 - [x] to capture command-line arguments given at a file's runtime
-- [ ] to connect varios systems, such as connecting a web front end, an API service, a database, and a mobile app
+- [ ] to connect various systems, such as connecting a web front end, an API service, a database, and a mobile app
 - [ ] to take a snapshot of all the packages and libraries in your virtual environment
 - [ ] to scan the health of your Python ecosystem while inside a virtual environment
 
@@ -134,7 +134,7 @@ def sum(a, b):
     return a + b
 ```
 
-#### Q12. What buit-in Python data type is commonly used to represent a stack?
+#### Q12. What built-in Python data type is commonly used to represent a stack?
 
 - [ ] `set`
 - [x] `list`
@@ -185,7 +185,7 @@ return list(enumerate(college_years, 2019))
 
 - [x] Instance methods can modify the state of an instance or the state of its parent class.
 - [ ] Instance methods hold data related to the instance.
-- [ ] An instance method is any class method that doesn"t take any arguments.
+- [ ] An instance method is any class method that doesn't take any arguments.
 - [ ] An instance method is a regular function that belongs to a class, but it must return `None`.
 
 #### Q19. Which choice is the most syntactically correct example of the conditional branching?
@@ -248,21 +248,21 @@ else:
     print("There is no one in the pool.")
 ```
 
-#### Q20. Which statement does NOT describe the object-oriented programming concenpt of encapsulation?
+#### Q20. Which statement does NOT describe the object-oriented programming concept of encapsulation?
 
 - [ ] It protects the data from outside interference.
-- [ ] A parent class is encapuslated and no data from the parent class passes on to the child class.
+- [ ] A parent class is encapsulated and no data from the parent class passes on to the child class.
 - [ ] It keeps data and the methods that can manipulate that data in one place.
 - [x] It only allows the data to be changed by methods.
 
 #### Q21. What is the purpose of an if/else statement?
 
 - [ ] An if/else statement tells the computer which chunk of code to run if the instructions you coded are incorrect
-- [ ] An if/else statement runs one chunk of code if all the imports were succesful, and another chunk of code if the imports were not succesful
+- [ ] An if/else statement runs one chunk of code if all the imports were successful, and another chunk of code if the imports were not successful
 - [x] An if/else statement executes one chunk of code if a condition it true, but a different chunk of code if the condition is false
 - [ ] An if/else statement tells the computer which chunk of code to run if the is enough memory to handle it. and which chunk of code to run if there is not enough memory to handle it
 
-#### Q22. What buit-in Python data type is commonly used to represent a queue?
+#### Q22. What built-in Python data type is commonly used to represent a queue?
 
 - [ ] `dictionary`
 - [ ] `set`
@@ -442,7 +442,7 @@ return output
 
 - [x] O(1), also called constant time
 - [ ] O(log n), also called logarithmic time
-- [ ] O(n^2), also called quardratic time
+- [ ] O(n^2), also called quadratic time
 - [ ] O(n), also called linear time
 
 #### Q36. What is key difference between a set and a list?
@@ -758,30 +758,30 @@ def __init__(self):
 - [ ] A class method is a regular function that belongs to a class, but it must return `None`
 - [ ] A class method is similar to a regular function, but a class method does not take any arguments.
 
-#### Q60. Which of the following is TRUE About how numeric data would be organised in a banary Search tree?
+#### Q60. Which of the following is TRUE About how numeric data would be organised in a binary Search tree?
 
 - [x] For any given Node in a binary Search Tree, the child node to the left is less than the value of the given node and the child node to its right is greater than the given node. (Not Sure)
 - [ ] Binary Search Tree cannot be used to organize and search through numeric data, given the complication that arise with very deep trees.
-- [ ] The top node of the binary search tree would be an arbitray number. All the nodes to the left of the top node need to be less than the top node's number, but they don't need to ordered in any particular way.
+- [ ] The top node of the binary search tree would be an arbitrary number. All the nodes to the left of the top node need to be less than the top node's number, but they don't need to ordered in any particular way.
 - [ ] The smallest numeric value would go in the top most node. The next highest number would go in its left child node, the the next highest number after that would go in its right child node. This pattern would continue until all numeric values were in their own node.
 
 #### Q61. Why would you use a decorator?
 
 - [ ] A decorator is similar to a class and should be used if you are doing functional programming instead of object oriented programming.
-- [ ] A decoratore is a visual indicator to someone reading your code that a portion of your code is critical and should not be changed.
+- [ ] A decorator is a visual indicator to someone reading your code that a portion of your code is critical and should not be changed.
 - [x] You use the decorator to alter the functionality of a function without the without having to modify the functions code.
-- [ ] An import statement is preceded by a decorator, pyhton knows to import the most recent version of whatever package or library is being imported.
+- [ ] An import statement is preceded by a decorator, python knows to import the most recent version of whatever package or library is being imported.
 
 #### Q62. When would you use a for loop ?
 
-- [ ] Only in some situations, as loops are used ony for certaing type of programming.
+- [ ] Only in some situations, as loops are used ony for certain type of programming.
 - [x] When you need to check every element in an iterable of known length.
 - [ ] When you want to minimize the use of strings in your code.
-- [ ] When you want to run code in one file for a function in another file. 
+- [ ] When you want to run code in one file for a function in another file.
 
-#### Q63. What is the most self-descriptive way to define a function that calculates sales tax on a purches?
+#### Q63. What is the most self-descriptive way to define a function that calculates sales tax on a purchase?
 
-- [ ] 
+- [ ]
 `def tax(my_float):
     '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal ...???`
 - [ ]
@@ -793,7 +793,7 @@ def __init__(self):
 - [x]
 `def calculate_sales_tax(subtotal):
     pass`
-    
+
 #### Q64. What would happen if you did not alter the state of the element that an algorithm is operating on recursively?
 
 - [ ] You do not have to alter the state of the element the algorithm is recursing on.
@@ -815,10 +815,9 @@ def __init__(self):
 - [ ] You use a `mixin` to make sure that a class's attributes and methods don't interfere with global variables and functions.
 - [x] If you have many classes that all need to have the same functionality, you'd use a `mixin` to define that functionality.
 
-#### Q67. What is the runtime complexity of adding an tiem to a stack and removing an item from a stack?
+#### Q67. What is the runtime complexity of adding an item to a stack and removing an item from a stack?
 
 - [ ] Add items to a stack in O(1) time and remove items from a stack on O(n) time.
 - [x] Add items to a stack in O(1) time and remove items from a stack in O(1) time.
 - [ ] Add items to a stack in O(n) time and remove items from a stack on O(1) time.
 - [ ] Add items to a stack in O(n) time and remove items from a stack on O(n) time.
-
