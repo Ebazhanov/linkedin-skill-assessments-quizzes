@@ -698,3 +698,31 @@ p:first-child {
 - [x] to load custom fonts into stylesheet
 - [ ] to change the name of the font declared in the font-family
 - [ ] to set the color of the text
+
+#### Q57. When elements within a container overlap, the z-index  property can be used to indicate how those items are stacked on top of each other. Which set of statements is true?
+
+- [ ] 
+```
+● Larger z-index values appear on top elements with a lower z-index value.
+● Negative and positive number can be used.
+● z-index can be used only on positioned elements.
+
+```
+- [ ] 
+```
+● Smaller z-index values appear on top of elements with a larger z-index value.
+● Negative and positive numbers can be used.
+● z-index can be used with or without positioned elements.
+```
+- [x]
+```
+● Smaller z-index values appear on top of elements with a larger z-index value.
+● Negative and positive number can be used.
+● z-index must also be used with positioned elements.
+```
+- [ ] 
+```
+● Larger z-index values appear on top of elements with a lower z-index value.
+● Only positive number can be used.
+● z-index must also be used with positioned elements.
+```
