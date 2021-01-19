@@ -2122,10 +2122,20 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "RaviDhoriya",
+      "name": "RaviDhoriya",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6481302?v=4",
+      "profile": "https://github.com/RaviDhoriya",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "linkedin-quiz-assessments",
+  "projectName": "linkedin-skill-assessments-quizzes",
   "projectOwner": "Ebazhanov",
   "repoType": "github",
   "repoHost": "https://github.com",
