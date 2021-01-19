@@ -703,26 +703,26 @@ p:first-child {
 
 - [ ] 
 ```
-● Larger z-index values appear on top elements with a lower z-index value.
-● Negative and positive number can be used.
-● z-index can be used only on positioned elements.
+1) Larger z-index values appear on top elements with a lower z-index value.
+2) Negative and positive number can be used.
+3) z-index can be used only on positioned elements.
 
 ```
 - [ ] 
 ```
-● Smaller z-index values appear on top of elements with a larger z-index value.
-● Negative and positive numbers can be used.
-● z-index can be used with or without positioned elements.
+1) Smaller z-index values appear on top of elements with a larger z-index value.
+2) Negative and positive numbers can be used.
+3) z-index can be used with or without positioned elements.
 ```
 - [x]
 ```
-● Smaller z-index values appear on top of elements with a larger z-index value.
-● Negative and positive number can be used.
-● z-index must also be used with positioned elements.
+1) Smaller z-index values appear on top of elements with a larger z-index value.
+2) Negative and positive number can be used.
+3) z-index must also be used with positioned elements.
 ```
 - [ ] 
 ```
-● Larger z-index values appear on top of elements with a lower z-index value.
-● Only positive number can be used.
-● z-index must also be used with positioned elements.
+1) Larger z-index values appear on top of elements with a lower z-index value.
+2) Only positive number can be used.
+3) z-index must also be used with positioned elements.
 ```
