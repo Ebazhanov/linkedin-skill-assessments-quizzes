@@ -604,7 +604,7 @@ In Git, there are two main ways to integrate changes from one branch into anothe
 
 #### Q69. How does Git internally manage branches?
 
-- [ ] by creating a pointer to the most recent snapshot/commit for the branch.
+- [x] by creating a pointer to the most recent snapshot/commit for the branch.
 - [ ] by creating a data array of branches in the same repository.
 - [ ] by creating a data dictionary of code changes.
 - [ ] be creating a debug log that stores repository changes.
@@ -656,7 +656,7 @@ In Git, there are two main ways to integrate changes from one branch into anothe
 - [ ] Rebase affects only your repository and creates a diff in the master branch.
 - [ ] Rebase creates a temporary copy of the master branch in the remote repo.
 - [ ] Rebase moves the HEAD of the remote master branch one commit forward.
-- [ ] Rebase deletes all commit history for the new feature branch.
+- [x] Rebase deletes all commit history for the new feature branch.
 
 #### Q77. What Git workflow is used by teams that collaborate on a single branch and avoid creating long-lived development branches?
 
