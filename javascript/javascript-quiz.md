@@ -684,3 +684,18 @@ console.log(a.length);
 - [ ] generator function
 - [ ] map
 - [ ] proxy
+
+#### Q68. How do you add a comment to JavaScript code? 
+
+- [ ] ! This is a comment
+- [ ] # This is a comment
+- [ ] \\ This is a comment
+- [x] // This is a comment
+
+### Q69. If you attempt to call a value as a function but the value is not a function, what kind of error would you get? 
+
+- [x] TypeError
+- [ ] SystemError
+- [ ] SyntaxError
+- [ ] LogicError
+
