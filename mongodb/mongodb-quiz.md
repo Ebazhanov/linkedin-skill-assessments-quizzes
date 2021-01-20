@@ -321,3 +321,77 @@
 - [x] `db.persons.find().sort({lastName: 1}}`
 - [ ] `db.persons.find().sort({lastName: ascending}}`
 - [ ] `db.persons.find().sort({lastName: $asc}}`
+
+
+#### Q47. What is NOT a standard role in MongoDB?
+
+- [ ] restore 
+- [ ] read/write
+- [x] dbadmin 
+- [ ] delete collections
+
+#### Q48. Which command returns all of the documents in the customers collection?
+
+- [ ] db.customers.show();
+- [x] db.customers.all();
+- [ ] db.customers.find();
+- [ ] db.find().customers();
+
+#### Q49. Whih MongoDB shell command deletes a single document?
+
+- [ ] db.customers.delete({_id: 1});
+- [x] db.customers.drop({_id: 1});
+- [ ] db.drop.customers({_id: 1});
+- [ ] db.customers.remove({_id: 1});
+
+#### Q50. Using the MongoDB shell, how do you remove the customer collection and its indexes?
+
+- [ ] db.customers.remove({}).indexes();
+- [ ] db.customers.remove({});
+- [x] db.customers.drop();
+- [ ] db.customers.delete();
+
+#### Q51. By default, applications direct their read operations to which member of the replica set? 
+
+- [ ] primary
+- [x] arbiter
+- [ ] secondary
+- [ ] backup
+
+#### Q52. You need to get the names of all the indexes on your current collection. What is the best way to accomplish this? 
+
+- [ ] db.people.getName();
+- [ ] db.people.reIndex({names: 1});
+- [x] db.people.getIndexKeys();
+- [ ] db.people.getIndex();
+
+#### Q52. You are going to do a series of updates to multiple records. You find setting the multi option of the update() command too tiresome. What should you do instead? 
+
+- [ ] Use the replaceMany() command instead
+- [x] Use the updateMulti() command instead
+- [ ] Use the updateMany command instead
+- [ ] Set the global multi option to True
+
+#### Q53. To cleanly shut down MongoDB, what command should you use from the MongoDB shell? 
+
+- [ ] quit()
+- [ ] exit()
+- [x] db.shutdownServer()
+- [ ] db.shutdown()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

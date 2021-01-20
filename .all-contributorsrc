@@ -2093,10 +2093,86 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "miroslawlis",
+      "name": "Mirek",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8983142?v=4",
+      "profile": "https://miroslawlis.github.io/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "surajm245",
+      "name": "surajm245",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11998757?v=4",
+      "profile": "https://github.com/surajm245",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "ArisLaode",
+      "name": "ArisLaode",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/21226377?v=4",
+      "profile": "https://github.com/ArisLaode",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "RaviDhoriya",
+      "name": "RaviDhoriya",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6481302?v=4",
+      "profile": "https://github.com/RaviDhoriya",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "sarai-84",
+      "name": "sarai-84",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/77579381?v=4",
+      "profile": "https://github.com/sarai-84",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "cooldashing24",
+      "name": "Vishnu",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4034728?v=4",
+      "profile": "https://vishnudamwala.netlify.com/",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "dev-mdminhaj",
+      "name": "Muhammad Minhaj",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/64159776?v=4",
+      "profile": "https://dev-mdminhaj.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "chandrikadeb7",
+      "name": "Chandrika Deb",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29686102?v=4",
+      "profile": "https://chandrikadeb7.github.io",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "linkedin-quiz-assessments",
+  "projectName": "linkedin-skill-assessments-quizzes",
   "projectOwner": "Ebazhanov",
   "repoType": "github",
   "repoHost": "https://github.com",
