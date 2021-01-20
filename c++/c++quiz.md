@@ -204,6 +204,11 @@ return(0);
 - [] The first is the iterating variable. The second is an std::pair that specifies the range (start and end) in which the variable will iterate.The first is the iterating variable. The second is an std::pair that specifies the range (start and end) in which the variable will iterate.
 - []The first is a container object. The second is an std::pair that specifies the range (start and en- [] in which the elements will be accessed within the loop.The first is a container object. The second is an std::pair that specifies the range (start and en- [] in which the elements will be accessed within the loop.
 
+#### Q.17 What is the meaning of the two parts specified between parentheses in a range-based for loop, separated by a colon?What is the meaning of the two parts specified between parentheses in a range-based for loop, separated by a colon?
+- [] The first is a variable declaration that will hold an element in a sequence. The second is the sequence to traverse.
+- [] The first is an iterator, and the second is the increment value to be added to the iterator. The first is an iterator, and the second is the increment value to be added to the iterator.
+- [] The first is the iterating variable. The second is an std::pair that specifies the range (start and end) in which the variable will iterate.The first is the iterating variable. The second is an std::pair that specifies the range (start and end) in which the variable will iterate.
+- []The first is a container object. The second is an std::pair that specifies the range (start and en- [] in which the elements will be accessed within the loop.The first is a container object. The second is an std::pair that specifies the range (start and en- [] in which the elements will be accessed within the loop.
 
 #### Q.18 What is the output of this piece of code?
 ```c++
