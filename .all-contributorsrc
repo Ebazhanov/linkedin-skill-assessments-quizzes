@@ -1614,7 +1614,8 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/26011982?v=4",
       "profile": "https://github.com/dionicio-gp",
       "contributions": [
-        "design"
+        "design",
+        "code"
       ]
     },
     {
@@ -2045,10 +2046,133 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "erchegyia",
+      "name": "Adam Erchegyi",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/17572418?v=4",
+      "profile": "https://www.facebook.com/erchegyia",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "trumanhung",
+      "name": "Truman Hung",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7915216?v=4",
+      "profile": "http://trumanhung.tech",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "rzamora11",
+      "name": "rzamora11",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/71715749?v=4",
+      "profile": "http://romanzamoracarrerascv.s3-website-eu-west-1.amazonaws.com",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "gaurav0224",
+      "name": "gaurav0224",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/37846341?v=4",
+      "profile": "https://github.com/gaurav0224",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "cockyb",
+      "name": "Lee GyeongJun",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/56942459?v=4",
+      "profile": "https://github.com/cockyb",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "miroslawlis",
+      "name": "Mirek",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/8983142?v=4",
+      "profile": "https://miroslawlis.github.io/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "surajm245",
+      "name": "surajm245",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11998757?v=4",
+      "profile": "https://github.com/surajm245",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "ArisLaode",
+      "name": "ArisLaode",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/21226377?v=4",
+      "profile": "https://github.com/ArisLaode",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "RaviDhoriya",
+      "name": "RaviDhoriya",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6481302?v=4",
+      "profile": "https://github.com/RaviDhoriya",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "sarai-84",
+      "name": "sarai-84",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/77579381?v=4",
+      "profile": "https://github.com/sarai-84",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "cooldashing24",
+      "name": "Vishnu",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4034728?v=4",
+      "profile": "https://vishnudamwala.netlify.com/",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "dev-mdminhaj",
+      "name": "Muhammad Minhaj",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/64159776?v=4",
+      "profile": "https://dev-mdminhaj.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "chandrikadeb7",
+      "name": "Chandrika Deb",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/29686102?v=4",
+      "profile": "https://chandrikadeb7.github.io",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "in-quiz-questions",
+  "projectName": "linkedin-skill-assessments-quizzes",
   "projectOwner": "Ebazhanov",
   "repoType": "github",
   "repoHost": "https://github.com",

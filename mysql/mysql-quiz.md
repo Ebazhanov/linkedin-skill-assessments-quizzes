@@ -578,3 +578,18 @@
 - [ ] logical
 - [ ] differential
 - [ ] incremental
+
+#### Q65. You need to restore a MySQL database from a backup file. Which command-line tool do you use for the actual data import, after re-creating the database?
+
+- [ ] mysqld
+- [x] mysql
+- [ ] mysqladmin
+- [ ] mysqldump
+
+#### Q66. You are importing data as JSON into a new table. You run CREATE TABLE json_data ( city JSON ); and insert rows into this table. What is the correct syntax to see the list of cities?
+
+
+- [ ] SELECT city FROM json_data;
+- [x] SELECT city->>'$.name' city FROM json_data; <= best answer
+- [ ] SELECT city.name city FROM json_data; 
+- [ ] SELECT city->'$.name' city FROM json_data; <= this is valid too but the results will be enclosed with quotation marks

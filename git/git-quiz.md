@@ -90,6 +90,7 @@ git cherry-pick {kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231}
 - [x] Use git bisect to compare the buggy commit to an early commit that works as expected.
 
 #### Q10. Why would the following command be used?
+
 #### Q10a. Why would you use this command?
 
 `git rebase -i HEAD~10`
@@ -135,6 +136,7 @@ git cherry-pick {kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231}
 - [ ] Access the commit stash data with git stash.
 
 #### Q16. What files is the following .gitignore programmed to leave out?
+
 #### Q16a. What files is this .gitignore programmed to leave out?
 
 ```shell
@@ -602,7 +604,7 @@ In Git, there are two main ways to integrate changes from one branch into anothe
 
 #### Q69. How does Git internally manage branches?
 
-- [ ] by creating a pointer to the most recent snapshot/commit for the branch.
+- [x] by creating a pointer to the most recent snapshot/commit for the branch.
 - [ ] by creating a data array of branches in the same repository.
 - [ ] by creating a data dictionary of code changes.
 - [ ] be creating a debug log that stores repository changes.
@@ -654,7 +656,7 @@ In Git, there are two main ways to integrate changes from one branch into anothe
 - [ ] Rebase affects only your repository and creates a diff in the master branch.
 - [ ] Rebase creates a temporary copy of the master branch in the remote repo.
 - [ ] Rebase moves the HEAD of the remote master branch one commit forward.
-- [ ] Rebase deletes all commit history for the new feature branch.
+- [x] Rebase deletes all commit history for the new feature branch.
 
 #### Q77. What Git workflow is used by teams that collaborate on a single branch and avoid creating long-lived development branches?
 
@@ -730,9 +732,9 @@ In Git, there are two main ways to integrate changes from one branch into anothe
 Which of the following options is correct ?
 
 - [ ] 1. Develop 2. Release 3. Hotfix 4. Feature 5. Master
-- [ ] 2. Master 2. Release 3. Hotfix 4. Feature 5. Develop
-- [ ] 3. Develop 2. Master 3. Hotfix 4. Feature 5. Develop
-- [x] 4. Master 2. Hotfix 3. Develop 4. Feature 5. Release
+- [ ] 1. Master 2. Release 3. Hotfix 4. Feature 5. Develop
+- [ ] 1. Develop 2. Master 3. Hotfix 4. Feature 5. Develop
+- [x] 1. Master 2. Hotfix 3. Develop 4. Feature 5. Release
 
 #### Q87. What information does the git config file store?
 
@@ -752,11 +754,11 @@ Which of the following options is correct ?
 - [ ] a type of architecture used to manage large databases
 - [x] a system that shows, tracks, and controls changes to a set of files over time
 - [ ] a programmatic design pattern used to manage code between multiple engineering teams
-- [ ] a type of software that links a project with a GitHub repository 
+- [ ] a type of software that links a project with a GitHub repository
 
 #### Q89. What is the difference between using the git stash and git stash pop commands?
 
-- [ ] git stash removes a commit from the repo history, while git stash pop saves changes to multiple branches. 
+- [ ] git stash removes a commit from the repo history, while git stash pop saves changes to multiple branches.
 - [ ] git stash saves changes to multiple branches, while git stash pop removes a commit from the repo history.
 - [ ] git stash removes the most recent commit, while git stash pop saves current changes.
 - [x] git stash creates a stash entry, while git stash pop places the saved state onto the working directory.
