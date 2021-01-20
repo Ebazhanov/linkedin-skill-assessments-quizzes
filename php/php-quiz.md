@@ -401,3 +401,64 @@ echo "No, mail is not set";
 - [ ] 1.5
 - [ ] 4
 - [x] 1
+
+
+### Q30. What is the job of the controller as a component in MVC?
+
+- [ ] The controller handles data passed to it by the view, and also passes data to the view. It interprets data sent by the view and disperses that data to the approrpiate models awaiting results to pass back to the view.
+- [ ] The controller is a mechanism that allows you to create reusable code in languages such as PHP, where multiple inheritance is not supported.
+- [ ] The controller presents content through the user interface, after communicating directly with the database.
+- [x] The controller handles specific tasks related to a specific area of functionality, handles business logic related to the results, and communicates directly with the database.
+
+### Q31. Why does this code trigger an error?
+
+`$string = 'Shylock in a Shakespeare's "Merchangt of Venice" demands his pound of flesh.';`
+
+- [ ] Strings should always be wrapped in double quotes; and double quotes inside a string should be escaped by backslashes.
+- [ ] All single and double quotes inside a string need to be escaped by backslashes to prevent a parse error.
+- [ ] The opening and closing single quotes should be replaced by double quotes; and the apostrophe should be escaped by a backslash.
+- [x] The apostrophe needs to be escaped by a backslash to prevent it from being treated as the closing quote.
+
+### The following XML document is in books.xml. Which code will output "Historical"?
+
+```
+<books>
+<book>
+<title>A Tale of Two Cities</title>
+<author>Charles Dickens</author>
+<categories>
+<category>Classics</category>
+<category>Historical</category>
+</categories>
+</book>
+<title>Then There Were None</title>
+<author>Agatha Christies</author>
+<categories>
+<category>Mystery</category>
+</categories>
+</book>
+</books>
+```
+
+- [ ] $books = simplexml_load_string('books.xml');
+echo $books->book[0]->categories->category[1];
+- [ ] $books = simplexml_load_file('books.xml');
+echo $books->book[0]->categories->category[1];
+- [x] $books = SimpleXMLElement('books.xml');
+echo $books->book[0]->categories->category[1];
+- [ ] $books = SimpleXML('books.xml');
+echo $books->book[0]->categories->category[1];
+
+### Q32. A PDO object called $db has been set up to use for database operations, including user authentication. All user-related properties are set. The script line `public function __construct(&$db)` shows a constructor that initializes all user-related properties to \_\_\_\_ if no user has logged in. These parameters will be properly set by the login functions when a user logs in.
+
+- [x] NULL
+- [ ] TRUE
+- [ ] FALSE
+- [ ] 0
+
+### Q33. Assuming that $first_name and $family_name are valid strings, which statement is invalid?
+
+- [ ] echo $first_name. ' '. $familiy_name;
+- [x] print $first_name, ' ', $familiy_name;
+- [ ] print $first_name. ' '. $familiy_name;
+- [ ] echo $first_name, ' ', $familiy_name;

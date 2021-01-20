@@ -287,3 +287,10 @@ fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) thro
 - [x] a C++ Addon file that is built with node-gyp
 - [ ] a JSON file that can have a .node extension as well as the .json extension
 - [ ] a JavaScript file that can have a .node extension as well as the .js extension
+
+### Q40. What can you export with module.exports?
+
+- [ ] only objects.
+- [ ] only functions
+- [ ] only variables and arrays
+- [x] functions, objects, arrays, or anything you assign to the module  -----> correct

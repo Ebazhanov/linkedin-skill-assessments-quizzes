@@ -670,3 +670,32 @@ console.log(a.length);
 - [ ] pass
 - [ ] skip
 - [x] continue
+
+#### Q66. Which choice is valid example for an arrow function?
+
+- [x] (a,b) => c
+- [ ] a, b => {return c;}
+- [ ] a, b => c
+- [ ] { a, b } => c
+
+#### Q67. Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior? 
+
+- [x] class
+- [ ] generator function
+- [ ] map
+- [ ] proxy
+
+#### Q68. How do you add a comment to JavaScript code? 
+
+- [ ] ! This is a comment
+- [ ] # This is a comment
+- [ ] \\ This is a comment
+- [x] // This is a comment
+
+### Q69. If you attempt to call a value as a function but the value is not a function, what kind of error would you get? 
+
+- [x] TypeError
+- [ ] SystemError
+- [ ] SyntaxError
+- [ ] LogicError
+
