@@ -38,32 +38,32 @@ div a
 
 - [ ]
 
-```
-1) An element with an ID of "nav"
-2) A nav element
-3) An element with a class of "nav"
+```markdown
+1. An element with an ID of "nav"
+2. A nav element
+3. An element with a class of "nav"
 ```
 
 - [ ]
 
-```
+```markdown
 They all target the same nav element.
 ```
 
 - [x]
 
-```
-1) An element with an class of "nav"
-2) A nav element
-3) An element with a id of "nav"
+```markdown
+1. An element with an class of "nav"
+2. A nav element
+3. An element with a id of "nav"
 ```
 
 - [ ]
 
-```
-1) An element with an class of "nav"
-2) A nav element
-3) An div with a id of "nav"
+```markdown
+1. An element with an class of "nav"
+2. A nav element
+3. An div with a id of "nav"
 ```
 
 #### Q5. When adding transparency styles, what is the difference between using the opacity property versus the background property with an `rgba()` value?
@@ -237,7 +237,7 @@ section + p {
 
 - [ ]
 
-```
+```markdown
 1. External; CSS is written in a separate file.
 2. Inline; CSS is added to the <head> of the HTML page.
 3. Internal; CSS is included within the HTML tags.
@@ -245,7 +245,7 @@ section + p {
 
 - [ ]
 
-```
+```markdown
 1. External; CSS is written in a separate file and is linked within the <header> element of the HTML file.
 2. Inline; CSS is added to the HTML tag.
 3. Internal; CSS is included within the <header> element of the HTML  file.
@@ -253,7 +253,7 @@ section + p {
 
 - [x]
 
-```
+```markdown
 1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file.
 2. Internal; CSS is included within the <header> element of the HTML file.
 3. Inline; CSS is added to the HTML tag.
@@ -261,7 +261,7 @@ section + p {
 
 - [ ]
 
-```
+```markdown
 1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file .
 2. Inline; CSS is added to the HTML tag.
 3. Internal; CSS is included within the <head> element of the HTML file.
@@ -332,7 +332,7 @@ p {
 
 - [ ]
 
-```
+```markdown
 "p" is the selector
 "#000000" is the property
 "color" is the value
@@ -340,7 +340,7 @@ p {
 
 - [x]
 
-```
+```markdown
 "p" is the selector
 "color" is the property
 "#000000" is the value
@@ -348,7 +348,7 @@ p {
 
 - [ ]
 
-```
+```markdown
 "color" is the selector
 "#000000" is the property
 "#p" is the value
@@ -356,7 +356,7 @@ p {
 
 - [ ]
 
-```
+```markdown
 "color" is the selector
 "p" is the property
 "#000000" is the value
@@ -677,13 +677,12 @@ p:first-child {
 - [ ] It writes text content into a hyperlink tooltip.
 - [ ] It writes text content into any page element.
 
-### Q54. Which statement is true of the single colon (:) or double colon (: :) notations for pseudo-elements-for example,::before and : before?
+### Q54. Which statement is true of the single colon (`:`) or double colon (`::`) notations for pseudo-elements-for example, `::before` and `:before`?
 
 - [ ] All browsers support single and double colons for new and older pseudo-elements. So you can use either but it is convention to use single colons for consistency.
-- [ ] In CSS3, the double colon notation (: :) was introduced to create a consistency between pseudo-elements from pseudo-classes. For newer browsers, use the double colon notation. For IE8 and below, using single colon notation (:).
+- [ ] In CSS3, the double colon notation (`::`) was introduced to create a consistency between pseudo-elements from pseudo-classes. For newer browsers, use the double colon notation. For IE8 and below, using single colon notation (`:`).
 - [ ] Only the new CSS3 pseudo-elements require the double colon notation while the CSS2 pseudo-elements do not.
-- [ ] In CSS3, the double colon notation (::) was introduced to differentiate pseudo-elements from pseudo-classes. However, modern browsers support formats. Older browsers such IE8 and below do not
-
+- [x] In CSS3, the double colon notation (`::`) was introduced to differentiate pseudo-elements from pseudo-classes. However, modern browsers support both formats. Older browsers such as IE8 and below do not.
 
 #### Q55. Which choice is not valid value for the font-style property?
 
@@ -699,30 +698,36 @@ p:first-child {
 - [ ] to change the name of the font declared in the font-family
 - [ ] to set the color of the text
 
-#### Q57. When elements within a container overlap, the z-index  property can be used to indicate how those items are stacked on top of each other. Which set of statements is true?
+#### Q57. When elements within a container overlap, the z-index property can be used to indicate how those items are stacked on top of each other. Which set of statements is true?
 
-- [ ] 
-```
-1) Larger z-index values appear on top elements with a lower z-index value.
-2) Negative and positive number can be used.
-3) z-index can be used only on positioned elements.
-
-```
-- [ ] 
-```
-1) Smaller z-index values appear on top of elements with a larger z-index value.
-2) Negative and positive numbers can be used.
-3) z-index can be used with or without positioned elements.
-```
 - [x]
+
+```markdown
+1. Larger z-index values appear on top elements with a lower z-index value.
+2. Negative and positive number can be used.
+3. z-index can be used only on positioned elements.
 ```
-1) Smaller z-index values appear on top of elements with a larger z-index value.
-2) Negative and positive number can be used.
-3) z-index must also be used with positioned elements.
+
+- [ ]
+
+```markdown
+1. Smaller z-index values appear on top of elements with a larger z-index value.
+2. Negative and positive numbers can be used.
+3. z-index can be used with or without positioned elements.
 ```
-- [ ] 
+
+- [ ]
+
+```markdown
+1. Smaller z-index values appear on top of elements with a larger z-index value.
+2. Negative and positive number can be used.
+3. z-index must also be used with positioned elements.
 ```
-1) Larger z-index values appear on top of elements with a lower z-index value.
-2) Only positive number can be used.
-3) z-index must also be used with positioned elements.
+
+- [ ]
+
+```markdown
+1. Larger z-index values appear on top of elements with a lower z-index value.
+2. Only positive number can be used.
+3. z-index must also be used with positioned elements.
 ```
