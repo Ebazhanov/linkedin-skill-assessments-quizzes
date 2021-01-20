@@ -495,21 +495,21 @@ h2 + p {
 
 - [ ] There is no difference; both will hide the element on the page
 
-### Q38. What selector and property would you use to scale an element to be 50% smaller on hover?
+#### Q38. What selector and property would you use to scale an element to be 50% smaller on hover?
 
 - [ ] element:hover {scale: 0.5;}
 - [x] element:hover {transform: scale(0.5);}
 - [ ] element:hover {scale: 50%;}
 - [ ] element:hover {transform: scale(50%);}
 
-### Q39. Which statement regarding icon fonts is true?
+#### Q39. Which statement regarding icon fonts is true?
 
 - [ ] Icon fonts can be inserted only using JavaScript.
 - [ ] Icon fonts are inserted as inline images.
 - [ ] Icon fonts require browser extensions.
 - [x] Icon fonts can be styled with typography-related properties such as font-size and color.
 
-### Q40. The values for the font-weight property can be keywords or numbers. For each numbered value below, what is the associated keyword?
+#### Q40. The values for the font-weight property can be keywords or numbers. For each numbered value below, what is the associated keyword?
 
 `font-weight: 400; font-weight: 700;`
 
@@ -518,7 +518,7 @@ h2 + p {
 - [ ] light; normal
 - [ ] normal; bolder
 
-### Q41. If the width of the container is 500 pixels, what would the width of the three columns be in this layout?
+#### Q41. If the width of the container is 500 pixels, what would the width of the three columns be in this layout?
 
 `.grid { display: grid; grid-template-columns: 50px 1fr 2fr; }`
 
@@ -527,7 +527,7 @@ h2 + p {
 - [ ] 50px, 100px, 200px
 - [ ] 50px, 50px, 100px
 
-### Q42. Using the :nth-child pseudo class, what would be the most efficient way to style every third item in a list, no matter how many items are present, starting with item 2?
+#### Q42. Using the :nth-child pseudo class, what would be the most efficient way to style every third item in a list, no matter how many items are present, starting with item 2?
 
 - [ ]
 
@@ -563,35 +563,35 @@ li:nth-child(2n + 3) {
 }
 ```
 
-### Q43. Which selector would select only internal links within the current page?
+#### Q43. Which selector would select only internal links within the current page?
 
 - [ ] a[href="#"] {...}
 - [ ] a[href~="#"]
 - [ ] a[href^="#"]
 - [x] a[href="#"]
 
-### Q44. What is not true about class selectors?
+#### Q44. What is not true about class selectors?
 
 - [x] Only one class value can be assigned to an element.
 - [ ] An element can have multiple class value.
 - [ ] Class selectors are marked with a leading period.
 - [ ] More than one element can have the same class value.
 
-### Q45. What is the difference between the margin and padding properties?
+#### Q45. What is the difference between the margin and padding properties?
 
 - [ ] Margin adds space around and inside of an element; padding adds space only inside of an element.
 - [x] Margin adds space around an element; padding adds apace inside of an element.
 - [ ] Margin adds a line around an element, padding adds space inside of an element.
 - [ ] Margin adds space inside of an element, padding adds space around an element.
 
-### Q46. What is not a valid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
+#### Q46. What is not a valid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
 
 - [x] padding: 10px 10px 0px 0px;
 - [ ] padding: 10px 0px;
 - [ ] padding: 10px 0;
 - [ ] padding: 10px 0px 10px 0px;
 
-### Q47. Is there an error in this code? If so, find the best description of the problem
+#### Q47. Is there an error in this code? If so, find the best description of the problem
 
 ```css
 @font-face {
@@ -606,14 +606,14 @@ li:nth-child(2n + 3) {
 - [ ] There are no errors in the example.
 - [x] The sans-serif inclusion is problematic.
 
-### Q48. Which style places an element at a fixed location within its container?
+#### Q48. Which style places an element at a fixed location within its container?
 
 - [x] position: absolute;
 - [ ] display: flex;
 - [ ] display: block;
 - [ ] float: left;
 
-### Q49. The calc() CSS function is often used for calculating relative values. In the example below, what is the specified margin-left value?
+#### Q49. The calc() CSS function is often used for calculating relative values. In the example below, what is the specified margin-left value?
 
 ```css
 .example{
@@ -626,14 +626,14 @@ li:nth-child(2n + 3) {
 - [ ] The left margin value is equal to 5% of the closest positioned element's width plus 5px
 - [ ] The left margin value is equal to 5% of the selected element's width (.example) plus 5px
 
-### Q50. What is the CSS selector for an `<a>` tag containing the title attribute?
+#### Q50. What is the CSS selector for an `<a>` tag containing the title attribute?
 
 - [x] a[title]
 - [ ] a > title
 - [ ] a=title
 - [ ] a.title
 
-### Q51. Which code would you use to absolutely position an element of the logo class?
+#### Q51. Which code would you use to absolutely position an element of the logo class?
 
 - [x] `.logo { position: absolute; left: 100px; top: 150px; }`
 - [ ] `.logo { position: absolute; margin-left: 100px; margin-top: 150px; }`
@@ -670,14 +670,14 @@ p:first-child {
 - [x] red
 - [ ] yellow
 
-### Q53. What is the ::placeholder pseudo-element used for?
+#### Q53. What is the ::placeholder pseudo-element used for?
 
 - [x] It is used to format the appearance of placeholder text within a form control.
 - [ ] It specifies the default input text for a form control.
 - [ ] It writes text content into a hyperlink tooltip.
 - [ ] It writes text content into any page element.
 
-### Q54. Which statement is true of the single colon (`:`) or double colon (`::`) notations for pseudo-elements-for example, `::before` and `:before`?
+#### Q54. Which statement is true of the single colon (`:`) or double colon (`::`) notations for pseudo-elements-for example, `::before` and `:before`?
 
 - [ ] All browsers support single and double colons for new and older pseudo-elements. So you can use either but it is convention to use single colons for consistency.
 - [ ] In CSS3, the double colon notation (`::`) was introduced to create a consistency between pseudo-elements from pseudo-classes. For newer browsers, use the double colon notation. For IE8 and below, using single colon notation (`:`).
