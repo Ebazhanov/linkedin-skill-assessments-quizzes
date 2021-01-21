@@ -2,13 +2,13 @@
 
 #### Q1. What is the purpose of the ViewChild decorator in this component class?
 ```javascript
-@Component({
-. . .
-template: '<p #bio></p>'
-})
-export class UserDetailsComponent {
-@ViewChild('bio') bio;
-}
+    @Component({
+    . . .
+    template: '<p #bio></p>'
+    })
+    export class UserDetailsComponent {
+    @ViewChild('bio') bio;
+    }
 ```
 - [ ] It provides access from within the component class to the ElementRef object for the <p> tag that has the bio template reference variable in the component's   template view. It provides access from within the component class to the null object for the null tag that has the null template reference variable in the component's template view.
 - [ ] It indicates that the <p> tag be rendered as a child of the parent view that uses this component. It indicates that the null tag be rendered as a child of the parent view that uses this component.
@@ -28,13 +28,13 @@ export class UserDetailsComponent {
 - [ ] Both are Observables containing values from the requested route's URL string. The paramMap contains the parameter values that are in the URL path and the queryParamMap contains the URL query parameters.
 
 #### Q4. Based on the following usage of the async pipe, and assuming the users class field is an Observable, how many subscriptions to the users Observable are being made?
-```javascript
-<h2>Names</h2>
-<div *ngFor="let user of users | async">{{ user.name }}</div>
-<h2>Ages</h2>
-<div *ngFor="let user of users | async">{{ user.age }}</div>
-<h2>Genders</h2>
-<div \*ngFor="let user of users | async">{{ user.gender }}</div>
+```html
+    <h2>Names</h2>
+    <div *ngFor="let user of users | async">{{ user.name }}</div>
+    <h2>Ages</h2>
+    <div *ngFor="let user of users | async">{{ user.age }}</div>
+    <h2>Genders</h2>
+    <div \*ngFor="let user of users | async">{{ user.gender }}</div>
 ```
 - [ ] None. The async pipe does not subscribe automatically. None. The null pipe does not subscribe automatically.
 - [ ] None. The template syntax is not correct. None. The template syntax is not correct.
@@ -42,12 +42,12 @@ export class UserDetailsComponent {
 - [ ] One. The async pipe caches Observables by type internally.
 
 #### Q5. How can you use the HttpClient to send a POST request to an endpoint from within an addOrder function in this OrderService?
-```javascript
+```
 export class OrderService {
-constructor(private httpClient: HttpClient) { }
-addOrder(order: Order) {
-// Missing line
-}
+    constructor(private httpClient: HttpClient) { }
+    addOrder(order: Order) {
+    // Missing line
+    }
 }
 ```
 - [ ] this.httpClient.url(this.orderUrl).post(order);null
@@ -64,8 +64,8 @@ addOrder(order: Order) {
 #### Q7. Which DOM elements will this component metadata selector match on?
 ```javascript
 @Component({
-selector: 'app-user-card',
-. . .
+    selector: 'app-user-card',
+    . . .
 })
 ```
 - [ ] any element with the attribute app-user-card, such as <div app-user-card></div>any element with the attribute null, such as null
@@ -75,36 +75,36 @@ selector: 'app-user-card',
 
 #### Q8. What is the correct template syntax for using the built-in ngFor structural directive to render out a list of productNames?What is the correct template syntax for using the built-in null structural directive to render out a list of null?
 - [ ]
-```javascript
-<ul>
-<li [ngFor]="let productName of productNames">
-{{ productName }}
-</li>
-</ul>
+```html
+    <ul>
+        <li [ngFor]="let productName of productNames">
+        {{ productName }}
+        </li>
+    </ul>
 ```
 - [ ]
-```javascript
-<ul>
-<li ngFor="let productName of productNames">
-{{ productName }}
-</li>
-</ul>
+```html
+    <ul>
+        <li ngFor="let productName of productNames">
+        {{ productName }}
+        </li>
+    </ul>
 ```
 - [ ] 
-```javascript 
-<ul>
-<li *ngFor="let productName of productNames">
-{{ productName }}
-</li>
-</ul>
+```html
+    <ul>
+        <li *ngFor="let productName of productNames">
+        {{ productName }}
+        </li>
+    </ul>
 ```
 - [ ]
-```javascript
-<ul>
-<? for productName in productNames { ?>
-<li>{{ productName }}</li>
-<? } ?>
-</ul>
+```html
+    <ul>
+        <? for productName in productNames { ?>
+        <li>{{ productName }}</li>
+        <? } ?>
+    </ul>
 ```
 
 #### Q9. What are the two component decorator metadata properties used to set up CSS styles for a component? What are the two component decorator metadata properties used to set up CSS styles for a component?
@@ -115,12 +115,12 @@ selector: 'app-user-card',
 
 #### Q10. With the following component class, what template syntax would you use in the template to display the value of the title class field?
 ```javascript
-@Component({
-selector: 'app-title-card',
-template: ''
-})
-class TitleCardComponent {
-title = 'User Data';
+    @Component({
+    selector: 'app-title-card',
+    template: ''
+    })
+    class TitleCardComponent {
+    title = 'User Data';
 }
 ```
 - [ ] {{ 'title' }}null
@@ -142,12 +142,12 @@ title = 'User Data';
 
 #### Q13. What is the Output decorator used for in this component class?
 ```javascript
-@Component({
-selector: 'app-shopping-cart',
-. . .
-})
-export class ShoppingCartComponent {
-@Output() itemTotalChanged = new EventEmitter();
+    @Component({
+    selector: 'app-shopping-cart',
+    . . .
+    })
+    export class ShoppingCartComponent {
+    @Output() itemTotalChanged = new EventEmitter();
 }
 ```
 - [ ] It makes the itemTotalChanged class field public. It makes the null class field public.
@@ -156,9 +156,9 @@ export class ShoppingCartComponent {
 - [ ] It is simply a way to put a comment in front of a class field for documentation.
 
 #### Q14. What is the difference between these two markup examples for conditionally handling display?
-```javascript
-<div \*ngIf="isVisible">Active</div>
-<div [hidden]="!isVisible">Active</div>
+```html
+    <div \*ngIf="isVisible">Active</div>
+    <div [hidden]="!isVisible">Active</div>
 ```
 - [ ] The ngIf is shorthand for the other example. When Angular processes that directive, it writes a div element to the DOM with the hidden property. The null is shorthand for the other example. When Angular processes that directive, it writes a null element to the DOM with the null property.
 - [ ] They are fundamentally the same. They are fundamentally the same.
@@ -166,34 +166,34 @@ export class ShoppingCartComponent {
 - [ ] The ngIf is valid, but the use of the hidden property is wrong and will throw an error.
 
 #### Q15. How can you disable the submit button when the form has errors in this template-driven forms example?
-```javascript
-<form #userForm="ngForm">
-<input type="text" ngModel name="firstName" required>
-<input type="text" ngModel name="lastName" required>
-<button (click)="submit(userForm.value)">Save</button>
-</form>
+```html
+    <form #userForm="ngForm">
+    <input type="text" ngModel name="firstName" required>
+    <input type="text" ngModel name="lastName" required>
+    <button (click)="submit(userForm.value)">Save</button>
+    </form>
 ```
 - [ ] 
-```javascript
-<button (click)="submit(userForm.value)"
-disable="userForm.invalid">
-Save</button>
+```html
+    <button (click)="submit(userForm.value)"
+    disable="userForm.invalid">
+    Save</button>
 ```
 - [ ] 
-```javascript
-<button (click)="submit(userForm.value)"
-[disabled]="userForm.invalid">
-Save</button>
+```html
+    <button (click)="submit(userForm.value)"
+    [disabled]="userForm.invalid">
+    Save</button>
 ```
 - [ ]
-```javascript
-<button (click)="submit(userForm.value)"
-[ngForm.disabled]="userForm.valid">
-Save</button>
+```html
+    <button (click)="submit(userForm.value)"
+    [ngForm.disabled]="userForm.valid">
+    Save</button>
 ```
 - [ ]
-```javascript
-<button (click)="submit(userForm.value)"
-*ngIf="userForm.valid">
-Save</button>
+```html
+    <button (click)="submit(userForm.value)"
+    *ngIf="userForm.valid">
+    Save</button>
 ```
