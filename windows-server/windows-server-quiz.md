@@ -49,7 +49,7 @@
 - [ ] Backup
 - [ ] Data Protection Manager
 
-#### Q09. You deployed a Windows Server 2012 R2 virtual machine and configured the File and Storage Services server role. Where do you begin configuring the use of Previous Versions for restoring files?
+#### Q9. You deployed a Windows Server 2012 R2 virtual machine and configured the File and Storage Services server role. Where do you begin configuring the use of Previous Versions for restoring files?
 - [ ] A ![Windows Server Q10A](images/windows-server_Q10A.jpg)
 - [ ] B ![Windows Server Q10B](images/windows-server_Q10B.jpg)
 - [ ] C ![Windows Server Q10C](images/windows-server_Q10C.jpg)
