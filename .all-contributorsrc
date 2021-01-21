@@ -2219,6 +2219,15 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "Pelirrojo",
+      "name": "Manuel Eusebio de Paz Carmona",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2047107?v=4",
+      "profile": "https://medium.com/@manueldepaz",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
