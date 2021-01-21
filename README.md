@@ -34,7 +34,6 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 
 ### Table of Contents
 
-<<<<<<< HEAD
 | Linkedin-quiz-questions                                                                                                                 | Status                         |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
 | [Adobe-Illustrator](adobe-illustrator/adobe-illustrator-quiz.md)             | answers required               |
@@ -89,7 +88,6 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 [Windows Server](windows-server/windows-server-quiz.md)                      | partially answered             
 | [WordPress](wordpress/wordpress-quiz.md)                                     | partially answered             |
  [XML](xml/xml-quiz.md)                                                       | answers required               |
-=======
 | Linkedin-quiz-questions                                                                                                                 |          |  Status     |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ---------------|-------------- |
 | [Adobe-Illustrator](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-illustrator/adobe-illustrator-quiz.md)             | => 51 questions | answers required               |
@@ -143,9 +141,6 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 | [Windows Server](https://github.com/Ebazhanov/in-quiz-questions/blob/master/windows-server/windows-server-quiz.md)                      | => 46 questions |partially answered             |
 | [WordPress](https://github.com/Ebazhanov/in-quiz-questions/blob/master/wordpress/wordpress-quiz.md)                                     | => 42 questions |partially answered             |
 | [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md)                                                       | => 21 questions |answers required               |
->>>>>>> e520e8eccfd19ee733c05fdaaf353d558dff8d24
-
-&nbsp;
 
 ## Format
 
@@ -155,8 +150,6 @@ If you want to run it independently, get **npm** and:
 ```sh
 npm run format
 ```
-
-&nbsp;
 
 ## Contributors ✨
 
