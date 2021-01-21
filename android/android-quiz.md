@@ -83,7 +83,6 @@
         }.also { intent ->
             activityStart(intent)
         }
-
 ```
 
 #### Q8. You want to include about and setting modules in your project. Which files accurately reflects their inclusion?
