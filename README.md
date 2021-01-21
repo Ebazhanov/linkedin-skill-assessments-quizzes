@@ -2,7 +2,7 @@ Linkedin Quiz Answers, Skill Assessments Test
 -------
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-228-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-229-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
@@ -402,6 +402,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://chandrikadeb7.github.io"><img src="https://avatars2.githubusercontent.com/u/29686102?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chandrika Deb</b></sub></a><br /><a href="#design-chandrikadeb7" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/Gitgit101-bit"><img src="https://avatars3.githubusercontent.com/u/52999282?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gitgit101-bit</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Gitgit101-bit" title="Code">💻</a> <a href="#design-Gitgit101-bit" title="Design">🎨</a></td>
     <td align="center"><a href="https://gamejolt.com/@hedi-sellami"><img src="https://avatars2.githubusercontent.com/u/24782334?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hedi Sellami</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=hedi-sel" title="Code">💻</a> <a href="#design-hedi-sel" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/saurabhvaish93"><img src="https://avatars.githubusercontent.com/u/57400294?v=4?s=100" width="100px;" alt=""/><br /><sub><b>saurabhvaish93</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=saurabhvaish93" title="Code">💻</a> <a href="#design-saurabhvaish93" title="Design">🎨</a></td>
   </tr>
 </table>
 
