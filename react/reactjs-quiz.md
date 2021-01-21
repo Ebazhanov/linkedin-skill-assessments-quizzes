@@ -470,6 +470,8 @@ Currently, `handleClick` is being called instead of passed as a reference. How d
 Which answer best describes a function component?
 - [ ] `A function component is the same as a class component.`
 - [x] `A function component accepts a single props object and returns a React element.`
+Every property you add to component in view will be added to props object (since the functional component doesn't hold state props are only source of truth);
+Functional component is basically a JavaScript/ES6 function that returns a React element (JSX);
 - [ ] `A function component is the only way to create a component.`
 - [ ] `A function component is required to create a React component.`
 
