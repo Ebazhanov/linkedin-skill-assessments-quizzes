@@ -588,8 +588,15 @@
 
 #### Q66. You are importing data as JSON into a new table. You run CREATE TABLE json_data ( city JSON ); and insert rows into this table. What is the correct syntax to see the list of cities?
 
-
 - [ ] SELECT city FROM json_data;
 - [x] SELECT city->>'$.name' city FROM json_data; <= best answer
 - [ ] SELECT city.name city FROM json_data; 
 - [ ] SELECT city->'$.name' city FROM json_data; <= this is valid too but the results will be enclosed with quotation marks
+
+#### Q67. If you want to use MyISAM instead of InnoDB, which option do you need to specify in the CREATE TABLE statement?
+
+- [x] ENGINE
+- [ ] PARTITION
+- [ ] STORAGE
+- [ ] TABLESPACE
+

@@ -196,7 +196,6 @@ section + p {
 - [ ] Both paragraphs will be red.
 
 #### Q16.What are three valid ways of adding CSS to an HTML page?
-
 - [ ]
 ```markdown
 1. External; CSS is written in a separate file.
@@ -441,7 +440,6 @@ h2 + p {
 - [ ] 50px, 50px, 100px
 
 ### Q42. Using the :nth-child pseudo class, what would be the most efficient way to style every third item in a list, no matter how many items are present, starting with item 2?
-
 - [ ]
 ```css
 li:nth-child(3 + 2n) {

@@ -60,11 +60,11 @@
 - [ ] Notification Hub
 - [x] Event Grid
 
-#### Q11. You need to populate a newly created S#### QL database from your release pipeline in Azure DevOps. The solution should minimise deployment time and efforts. Which approach should you use?
+#### Q11. You need to populate a newly created SQL database from your release pipeline in Azure DevOps. The solution should minimise deployment time and efforts. Which approach should you use?
 - [x] Populate from BACPAC file
 - [ ] Restore from backup file
 - [ ] populate from csv file
-- [ ] Populate from S#### QL file
+- [ ] Populate from SQL file
 
 #### Q12. You need to host a community website for you neighbourhood association. The site contains static content, HTML CSS, and a few pages with client-side JS. Which option should you use?
 - [x] Azure storage static website
@@ -102,7 +102,7 @@
 - [ ] REST API
 - [ ] Server Message Block(SMB)
 
-#### Q18. You are writing an app for a sales team. You need to implement security in S#### QL Server to ensure that sales representatives see customer financial information only for customers whom they manage. Your app must make this transparent to the user. Which S#### QL data security option should you choose?
+#### Q18. You are writing an app for a sales team. You need to implement security in SQL Server to ensure that sales representatives see customer financial information only for customers whom they manage. Your app must make this transparent to the user. Which S#### QL data security option should you choose?
 - [x] Dynamic Data Masking
 - [ ] Transparent Data Encryption
 - [ ] Row-Level Security
@@ -144,11 +144,12 @@
 - [ ] Basic
 - [ ] CMMI
 
-#### Q25. You have set of S#### QL databases used with various PaaS applications with predictable usage patterns. You are planning to move these databases to Azure S#### QL and need to choose the right deployment option. Your priorities are minimizing costs, and having the ability to assign CPU and resources to individual databases. Which option should you choose?
-- [x] Azure S#### QL elastic pool
-- [ ] S#### QL on Azure VMs
-- [ ] Azure S#### QL Database
-- [ ] S#### QL Managed Instance
+Q25. You have set of SQL databases used with various PaaS applications with predictable usage patterns. You are planning to move these databases to Azure SQL and need to choose the right deployment option. Your priorities are minimizing costs, and having the ability to assign CPU and resources to individual databases. Which option should you choose?
+
+- [x] Azure SQL elastic pool
+- [ ] SQL on Azure VMs
+- [ ] Azure SQL Database
+- [ ] SQL Managed Instance
 
 #### Q26. Your photo app hosted in Azure records user operations in a log for historical reference. Records must not be overwritten. Which storage type should you select to host log data?
 - [x] append blob
@@ -191,7 +192,8 @@
 - [ ] createArray()
 - [ ] indexOf()
 
-#### Q31. The Kineteco web app runs in an Azure Kubernetes Service. You need to monitor feature use and user navigation paths to identify where improvements are needed. What should you do?
+Q31. The Kineteco web app runs in an Azure Kubernetes Service. You need to monitor feature use and user navigation paths to identify where improvements are needed. What should you do?
+
 - [ ] Install the Analytics agent and configure Azure Monitor for Containers.
 - [ ] Install the App Insights Agent on AKS nodes.
 - [x] Configure Application Insights cohorts.
@@ -221,7 +223,8 @@
 - [x] all of these answers
 - [ ] with an Azure CLI script in a Bash task
 
-#### Q36. You need to update the data within an existing database in Azure S#### QL with your changes. You want to test this process from your development workstation before incorporating the update into your CI/CD process. Which command will you run to update the schema on the target database?
+Q36. You need to update the data within an existing database in Azure SQL with your changes. You want to test this process from your development workstation before incorporating the update into your CI/CD process. Which command will you run to update the schema on the target database?
+
 - [x] SqlPackage.exe /TargetFile:" myapp.bacpac " /Action:**Export**
       /SourceServerName:"kinetecosql.database.windows.net"
       /SourceDatabaseName:"kinetecoweb" /SourceUser:"admin" /SourcePassword:"MyPassword"
@@ -236,7 +239,8 @@
       /SourceServerName:"kinetecosql.database.windows.net"
       /SourceDatabaseName:"kinetecoweb" /SourceUser:"admin" /SourcePassword:"MyPassword"
 
-#### Q37. You have web app hosted in Azure App Service that reads from and writes data to an Azure S#### QL Database back-end. You need to send email alert when your web app returns any failure HTTP status cede (anything except HTTP 200) for a user request. Which solution should you use?
+Q37. You have web app hosted in Azure App Service that reads from and writes data to an Azure SQL Database back-end. You need to send email alert when your web app returns any failure HTTP status cede (anything except HTTP 200) for a user request. Which solution should you use?
+
 - [x] service map in Azure Monitor
 - [ ] application maps in Azure Application Insights
 - [ ] availability tests in Azure Application Insights

@@ -24,7 +24,7 @@
  - [x] Set up HBASE in pseudo-distributed mode.
  - [ ] Set up Hadoop in local mode.
 
-#### Q5. You need to create a document database that supports database triggers. Which NoS#### QL database should you use? 
+#### Q5. You need to create a document database that supports database triggers. Which NoSQL database should you use? 
  - [x] DynamoDB
  - [ ] BigTable 
  - [ ] Redis 
@@ -72,7 +72,7 @@
  - [ ] Split entities across multiple rows if the entity data is over thousands of MBs, or if it does not need atomic updates and reads. 
  - [x] Split entities across multiple rows if the entity data is over hundreds of MBs, or if it does not need atomic updates and reads.
 
-#### Q13. Which two characteristics define Amazon #### Quantum Ledger Database? 
+#### Q13. Which two characteristics define Amazon Quantum Ledger Database? 
  - [ ] Key-value data model; transactionally consistent with ACID semantics.  
  - [x] Document data model; transactionally consistent with ACID semantics.
  - [ ] Key-value data model; transactions with tunable consistency. 
@@ -80,13 +80,13 @@
 
 #### Q14. You need to design the primary key for DynamoDB based on three attributes. What do you do? 
  - [ ] Designate all three fields as the primary key.  
- - [x] Concatenate all three fields into one new field, then designate that new field as the primary key. <<<<<--CORRECT 
+ - [x] Concatenate all three fields into one new field, then designate that new field as the primary key. 
  - [ ] Designate two fields of the three fields as the primary key. 
  - [ ] Concatenate two fields into one new field, then designate that new field and the remaining field as the primary key.
 
 #### Q15. You need to design the primary key for DynamoDB based on three attributes. What do you do? 
  - [ ] Designate all three fields as the primary key.  
- - [x] Concatenate all three fields into one new field, then designate that new field as the primary key. <<<<<--CORRECT 
+ - [x] Concatenate all three fields into one new field, then designate that new field as the primary key. 
  - [ ] Designate two fields of the three fields as the primary key. 
  - [ ] Concatenate two fields into one new field, then designate that new field and the remaining field as the primary key.
 
@@ -216,7 +216,7 @@
  - [ ] range and spatial
  - [ ] range and primary key
 
-#### Q38. S#### QL databses and NoS#### QL are which types of scalable?
+#### Q38. SQL databses and NoSQL are which types of scalable?
  - [ ] horizontally, infinitely
  - [x] vertically, horizontally
  - [ ] vertically, infinitely
