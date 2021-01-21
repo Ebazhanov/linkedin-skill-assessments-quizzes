@@ -144,8 +144,7 @@
 - [ ] Basic
 - [ ] CMMI
 
-Q25. You have set of SQL databases used with various PaaS applications with predictable usage patterns. You are planning to move these databases to Azure SQL and need to choose the right deployment option. Your priorities are minimizing costs, and having the ability to assign CPU and resources to individual databases. Which option should you choose?
-
+#### Q25. You have set of SQL databases used with various PaaS applications with predictable usage patterns. You are planning to move these databases to Azure SQL and need to choose the right deployment option. Your priorities are minimizing costs, and having the ability to assign CPU and resources to individual databases. Which option should you choose?
 - [x] Azure SQL elastic pool
 - [ ] SQL on Azure VMs
 - [ ] Azure SQL Database
@@ -223,8 +222,7 @@ Q31. The Kineteco web app runs in an Azure Kubernetes Service. You need to monit
 - [x] all of these answers
 - [ ] with an Azure CLI script in a Bash task
 
-Q36. You need to update the data within an existing database in Azure SQL with your changes. You want to test this process from your development workstation before incorporating the update into your CI/CD process. Which command will you run to update the schema on the target database?
-
+#### Q36. You need to update the data within an existing database in Azure SQL with your changes. You want to test this process from your development workstation before incorporating the update into your CI/CD process. Which command will you run to update the schema on the target database?
 - [x] SqlPackage.exe /TargetFile:" myapp.bacpac " /Action:**Export**
       /SourceServerName:"kinetecosql.database.windows.net"
       /SourceDatabaseName:"kinetecoweb" /SourceUser:"admin" /SourcePassword:"MyPassword"
@@ -239,8 +237,7 @@ Q36. You need to update the data within an existing database in Azure SQL with y
       /SourceServerName:"kinetecosql.database.windows.net"
       /SourceDatabaseName:"kinetecoweb" /SourceUser:"admin" /SourcePassword:"MyPassword"
 
-Q37. You have web app hosted in Azure App Service that reads from and writes data to an Azure SQL Database back-end. You need to send email alert when your web app returns any failure HTTP status cede (anything except HTTP 200) for a user request. Which solution should you use?
-
+#### Q37. You have web app hosted in Azure App Service that reads from and writes data to an Azure SQL Database back-end. You need to send email alert when your web app returns any failure HTTP status cede (anything except HTTP 200) for a user request. Which solution should you use?
 - [x] service map in Azure Monitor
 - [ ] application maps in Azure Application Insights
 - [ ] availability tests in Azure Application Insights
