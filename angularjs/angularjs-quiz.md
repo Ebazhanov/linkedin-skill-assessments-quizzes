@@ -1,4 +1,5 @@
-## AngularJs
+## AngularJs LinkedIn Assessment Questions Answers (Left)
+
 
 #### Q1. What is the purpose of the ViewChild decorator in this component class?
 
