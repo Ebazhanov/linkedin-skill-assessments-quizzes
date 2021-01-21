@@ -332,8 +332,8 @@ System.out.println(n);
 
 - [ ] new SimpleDateFormat("yyyy-MM-dd").format(new Date())
 - [ ] new Date(System.currentTimeMillis())
-- [ ] LocalDate.now()
-- [X] Calender.getInstance().getTime() 
+- [X] LocalDate.now()          <--------- LocalDate is newest class added in java 8
+- [] Calender.getInstance().getTime() 
 
 #### Q23. Fill in the blank to create a piece of code that will tell wether int0 is divisible by 5:
 
@@ -627,16 +627,16 @@ public class Main {
       System.out.println(object);
   }
   ```
-  - [ ]
+  - [X]
  ```
   Iterator it = theList.iterator();
-  for (it.hasNext()) {
+  for (it.hasNext()) {       <---------- compiler error
       System.out.println(it.next());
   }
   ```
-  - [X]
+  - [ }
 ```
-  theList.forEach(System.out::println);
+  theList.forEach(System.out::println);  
   ```
 
 #### Q42. What method signature will work with this code?
