@@ -88,8 +88,6 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 [Windows Server](windows-server/windows-server-quiz.md)                      | partially answered             
 | [WordPress](wordpress/wordpress-quiz.md)                                     | partially answered             |
  [XML](xml/xml-quiz.md)                                                       | answers required               |
-| Linkedin-quiz-questions                                                                                                                 |          |  Status     |
-| --------------------------------------------------------------------------------------------------------------------------------------- | ---------------|-------------- |
 | [Adobe-Illustrator](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-illustrator/adobe-illustrator-quiz.md)             | => 51 questions | answers required               |
 | [Adobe-Photoshop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/adobe-photoshop-quiz.md)                   | => 36 questions | answers required               |
 | [Agile Methodologies](https://github.com/Ebazhanov/in-quiz-questions/blob/master/agile-methodologies/agile-methodologies-quiz.md)       | => 76 questions | with answers                   |
