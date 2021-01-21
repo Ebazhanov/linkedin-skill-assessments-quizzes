@@ -2179,6 +2179,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "hedi-sel",
+      "name": "Hedi Sellami",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/24782334?v=4",
+      "profile": "https://gamejolt.com/@hedi-sellami",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
