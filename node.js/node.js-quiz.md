@@ -28,9 +28,12 @@
  - [ ] read
  - [ ] readFile
  - [x] createReadStream
-    From official docs: [https://nodejs.org/api/fs.html#fs_dir_read](https://nodejs.org/api/fs.html#fs_dir_read)
-    To minimize memory costs, when possible prefer streaming via fs.createReadStream().
  - [ ] readFileSync
+
+**Explanation:**
+
+*From official docs: [https://nodejs.org/api/fs.html#fs_dir_read](https://nodejs.org/api/fs.html#fs_dir_read)
+To minimize memory costs, when possible prefer streaming via fs.createReadStream().*
 
 #### Q6. Which of the following DNS module methods uses the underlying OS facilities and does not necessarily perform any network communication?
  - [x] lookup
@@ -106,16 +109,24 @@
  - [ ] The forked process shares the same VM thread with the parent process.
 
 #### Q18. If EventEmitter is in scope, which of the following lines of code will have an event emitter emitting a change event?
- - [x] EventEmitter.emit(change); //Because the EventEmitter is already in scope. No need to create new one.
+ - [x] EventEmitter.emit(change);
  - [ ] EventEmitter.new().emit(change);
  - [ ] (new EventEmitter()).emit(change);
  - [ ] new EventEmitter(change);
+ 
+ **Explanation:**
+ 
+ *Because the EventEmitter is already in scope. No need to create new one.*
 
 #### Q19. Which of the following objects is a stream
  - [ ] process.uptime
- - [x] process.stdout // Buffer is Buffer type.
+ - [x] process.stdout
  - [ ] process
  - [ ] Buffer
+ 
+ **Explanation:**
+ 
+ *process.stdout is Buffer type.*
 
 #### Q20. Which module variable holds the resolved aboslute path of the current module file?
  - [ ] __pathname
