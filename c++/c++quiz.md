@@ -204,12 +204,6 @@ return(0);
 - [] The first is the iterating variable. The second is an std::pair that specifies the range (start and end) in which the variable will iterate.The first is the iterating variable. The second is an std::pair that specifies the range (start and end) in which the variable will iterate.
 - []The first is a container object. The second is an std::pair that specifies the range (start and en- [] in which the elements will be accessed within the loop.The first is a container object. The second is an std::pair that specifies the range (start and en- [] in which the elements will be accessed within the loop.
 
-#### Q.17 What is the meaning of the two parts specified between parentheses in a range-based for loop, separated by a colon?What is the meaning of the two parts specified between parentheses in a range-based for loop, separated by a colon?
-- [] The first is a variable declaration that will hold an element in a sequence. The second is the sequence to traverse.
-- [] The first is an iterator, and the second is the increment value to be added to the iterator. The first is an iterator, and the second is the increment value to be added to the iterator.
-- [] The first is the iterating variable. The second is an std::pair that specifies the range (start and end) in which the variable will iterate.The first is the iterating variable. The second is an std::pair that specifies the range (start and end) in which the variable will iterate.
-- []The first is a container object. The second is an std::pair that specifies the range (start and en- [] in which the elements will be accessed within the loop.The first is a container object. The second is an std::pair that specifies the range (start and en- [] in which the elements will be accessed within the loop.
-
 #### Q.18 What is the output of this piece of code?
 ```c++
 int8_t a=200;
@@ -219,6 +213,8 @@ std::cout<<"greater";
 else std::cout<<"less";
 }
 ```
+
+#### Q.19 What results from executing this code snippet? What results from executing this code snippet?
 - []There is no output because there is an exception when comparing an int8_t with a uint8t.There is no output because there is an exception when comparing an null with a null. << Correct
 - []greaternull
 - []lessnull
@@ -229,16 +225,22 @@ if(x & y)
 { /_part A_/ } 
 else{ /_part B_/ }
 ```
-- [] Part A executes because x==5 (true) and y==2 (true), thus the AND operation evaluates as true.Part A executes because null (true) and null (true), thus the null operation evaluates as true.
-
+- [] Part A executes because x==5 (true) and y==2 (true), thus the AND operation evaluates as true. << wrong
+- [] Part B executes because (x & y) results in 0, or false.Part B executes because null results in 0, or false. << correct
+- [] ?
+- [] ?
 
 #### Q.20 What is a valid definition for the get_length function, which returns the length of a null-terminated string? What is a valid definition for the null function, which returns the length of a null-terminated string?
 
+- [] int get_length(char *str){ int count=0; while(str[count++]); return count-1; }
+- [] int get_length(char *str){ int count=0; while(str!=NULL){ count++; str++; } return count; } <<Correct
+- [] int get_length(char *str){ int count=0; while((*str)++) count++; return count; }
+- [] int get_length(char *str){ int count=0; while(str++) count++; return count; }
 
 #### Q.21 Which STL class is the best fit for implementing a collection of data that is always ordered so that the pop operation always gets the greatest of the elements? Suppose you are interested only in push and pop operations.
 - [] std::list
 - [] std::vector
-- [] std::priority_queue
+- [] std::priority_queue << correct
 - [] std::map
 
 
@@ -296,10 +298,9 @@ std::printf("c is %d and d is %c",c,d);
 	- [] Public members are the same as global variables, so every part of the code has access to them. Private members are the same as  	automatic variables, so only their class has access to them.
  	- [] Public members are made accessible to any running application. Private members are made accessible only to the application where   the object is instantiated.
 	- [] Public members will be compiled as shared variables in a multithreaded environment. Private members will be compiled as Thread-local variables.
-	- [] Public members can be accessed by any function. Private members can be accessed only by the same class's member functions and the friends of the class.
+	- [] Public members can be accessed by any function. Private members can be accessed only by the same class's member functions and the friends of the class. << correct
 
 ### Q.28 What is the value of x after running this code?
-	
 	```c++
 	int x=10, a=-3;
 	x=+a;
@@ -311,9 +312,9 @@ std::printf("c is %d and d is %c",c,d);
 	- [] 13
 
 ### Q.29 Which statement is true?
-	
+
 	- []Only classes can have member variables and methods.
-	- []C++ supports multiple inheritance.
+	- []C++ supports multiple inheritance. << correct
 	- []C++ supports only single inheritance.
 	- [] Only structs can inherit.
 
@@ -327,7 +328,7 @@ std::printf("c is %d and d is %c",c,d);
 	- []float f=*(float)ptr;
 	- []float f=(float *)ptr;
 	- []float f=(float)*ptr;
-	- [] float f=*(float *)ptr;		
+	- [] float f=*(float *)ptr; << correct		
 
 ### Q.31 What is the .* operator and what does it do?
 
