@@ -1,70 +1,60 @@
-## Microsoft Excel Assessment
+## Microsoft Excel
 
 #### Q1. Some of your data in Column C is displaying as hashtags (#) because the column is too narrow. How can you widen Column C just enough to show all the data?
-
 - [ ] Right-click column C, select Format Cells, and then select Best-Fit.
 - [ ] Right-click column C and select Best-Fit.
 - [ ] Double-click column C.
 - [x] Double-click the vertical boundary between columns C and D.
 
 #### Q2. Which two functions check for the presence of numerical or nonnumerical characters in cells?
-
 - [x] ISNUMBER and ISTEXT
 - [ ] ISNUMBER and ISALPHA
 - [ ] ISVALUE AND ISNUMBER
 - [ ] ISVALUE and ISTEXT
 
 #### Q3. If you drag the fill handle (lower-right corner) of cell A2 downward into cells A3, A4, and A5, what contents will appear in those cells?
-
 - [ ] Jan, Jan, Jan
 - [ ] Feb, Mar, blank cell
 - [x] Feb, Mar, Apr
 - [ ] FEB, MAB, APR
 
 #### Q4. If cell A3 contains the text THE DEATH OF CHIVALRY, what will the function =PROPER(A3) return?
-
 - [ ] the death of chivalry
 - [ ] The death of Chivalry
 - [ ] THE DEATH OF CHIVALRY
 - [x] The Death Of Chivalry
 
 #### Q5. If the worksheet below, you want to use Data > Subtotal to show a subtotal value per sport. What must you do BEFORE applying the Subtotal function?
-
 - [ ] Sort by the data in Column E.
 - [ ] Format the data in Column D.
 - [x] Sort by the data in Column D.
 - [ ] Format the data in Column E.
 
 #### Q6. When editing a cell, what do you press to cycle between relative, mixed, and absolute cell references?
-
 - [ ] Alt+F4 (Windows) or Option+F4 (Mac)
 - [ ] Alt+Shift+4 (Windows) or Option+Shift+4 (Mac)
 - [ ] Ctrl+Shift+4 (Windows) or Command+Shift+4 (Mac)
 - [x] the F4 (Windows) or Command+T (Mac)
 
 #### Q7. You need to add a line chart showing a sales trends over the last 12 months and you have only a little space to work with. How can you convey the required information within a single cell?
-
 - [ ] Add an image of the chart to a comment.
 - [ ] Add a hyperlink to another worksheet that displays a chart when clicked.
 - [ ] Add an image of the chart to the worksheet.
 - [x] Add a sparkline, a graphic that summarizes data visually within a single worksheet cell.
 
 #### Q8. What is the best way to activate the Excel Help system?
-
 - [ ] Right-click anywhere and select Help.
 - [x] Press F1 or click the Help tab in the ribbon.
 - [ ] Press F10.
 - [ ] all of these answers.
 
 #### Q9. Which format will display the value 27,500,000 as 27.5?
-
 - [ ] ##,###,,
 - [x] ###.0,,
 - [ ] 999.9,,
 - [ ] ###,###.0,
 
 #### Q10. When using Goal Seek, you can find a target result by varying **\_** at most.
-
 - [x] three inputs
 - [ ] four inputs
 - [ ] two inputs

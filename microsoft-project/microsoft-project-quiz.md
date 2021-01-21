@@ -4,7 +4,7 @@
 
 - [ ] Team Planner
 - [ ] Project Information dialog box
-- [✔] task form **<= ??? :thinking:**
+- [x] task form **<= ??? :thinking:**
 - [ ] Resource Sheet
 
 #### Q02. You would like the ability to edit your typed entries in the Entry Bar, which appears below the ribbon and above the default Entry table in the Gantt Chart view. You recently received a new computer and noticed that the Entry Bar is missing. How do you fix this?
@@ -306,7 +306,7 @@
 
 #### Q41. When breaking down the work that needs to be done on a project, what is the smallest unit of work known as?
 
-- [✔] work package **<= ??? :thinking:**
+- [x] work package **<= ??? :thinking:**
 - [ ] duration
 - [ ] work breakdown structure
 - [ ] task assignment

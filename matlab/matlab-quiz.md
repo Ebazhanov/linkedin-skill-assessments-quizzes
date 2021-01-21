@@ -1,63 +1,51 @@
-## MATLAB Assessment
+## MATLAB
 
 #### Q1. From what distribution does the `rand()` function return value?
-
 - [ ] normal
 - [ ] poisson
 - [ ] binomial
 - [x] uniform
 
-#### Q2. Based on the code below, c is the **\_** of a.
-
-```MATLAB
+#### Q2. Based on the code below, c is the `\_` of a.
+```
 a = rand(1, 11);
 b = sort(a);
 c = b(1, ceil(end/2));
 ```
-
 - [x] median
 - [ ] mode
 - [ ] mean
 - [ ] margin
 
 #### Q3. What does the Profiler track?
-
 - [x] execution time
 - [ ] command history
 - [ ] errors
 - [ ] the value of variables
 
 #### Q4. Which code block contains the correct syntax for a `while` loop?
-
 - [ ]
-
-```MATLAB
+```
 a = 0;
 do
     a = a + 1;
 while a < 5
 end
 ```
-
 - [ ]
-
-```MATLAB
+```
 a = 0;
 while(a < 5)
     a = a + 1;
 ```
-
 - [ ]
-
-```MATLAB
+```
 a = 0;
 while a < 5:
     a = a + 1;
 ```
-
 - [x]
-
-```MATLAB
+```
 a = 0;
 while a < 5
     a = a + 1;
@@ -65,8 +53,7 @@ end
 ```
 
 #### Q5. What does `b` contain?
-
-```MATLAB
+```
 a =
     19    20    12     0     6
      6     9    56     0     3
@@ -74,19 +61,15 @@ a =
      9     8     8    19    46
      1     9    46     6    19
 ```
-
 - [x]
-
-```MATLAB
+```
 b =
 
     56     0
      9     8
 ```
-
 - [ ]
-
-```MATLAB
+```
 b =
 
      8    19
@@ -94,93 +77,76 @@ b =
 ```
 
 #### Q6. You have written a function `myfun` and want to measure how long it takes to run. Which code segment will return in `t` the time in seconds it takes `myfun` to run?
-
 - [ ]
-
-```MATLAB
+```
 t = cputime(myfun());
 ```
-
 - [x]
-
-```MATLAB
+```
 tic;
 myfun();
 toc;
 ```
-
 - [ ]
-
-```MATLAB
+```
 timer.start;
 myfun()
 t = timer.stop;
 ```
-
 - [ ]
-
-```MATLAB
+```
 t = timer(myfun());
 ```
 
 #### Q7. What is `%%` used for?
-
 - [ ] argument placeholder
 - [ ] block quotes
 - [x] code sections
 - [ ] conversion specifier
 
 #### Q8. what is the `.` character NOT used for?
-
 - [ ] structure field access
 - [ ] a decimal point
 - [x] cell array access
 - [ ] element-wise operations
 
 #### Q9. Which function could you use for multiple linear regression?
-
 - [ ] polyval
 - [x] regress
 - [ ] solve
 - [ ] polyfit
 
 #### Q10. For which of these arrays do `mean`, `median`, and `mode` return the same value?
-
 - [x] [0 1 1 1 2]
 - [ ] [1 3 5 5 6]
 - [ ] [0 1 1 1 1]
 - [ ] [0 0 5 5 5]
 
 #### Q11. You are in the middle of a long MATLAB session where you have performed many analyses and made many plots. You run the following commands, yet a figure window doesn't pop up on the top of your screen with your plot. What might be the issue?
-
-```MATLAB
+```
 x = [-1:0.1:1];
 y = X.^2;
 plot(x, y)
 ```
-
 - [ ] Your plot doesn't plot in a figure window because `figure` was not called immediately in advance.
 - [ ] Your `plot` syntax is incorrect.
 - [x] Your plot is in a figure window that was already open, hidden behind other windows on your screen.
 - [ ] Your plot was saved to an image file but not displayed.
 
 #### Q12. How do you access the value for the field `name` in structure S?
-
 - [ ] S['name']
 - [x] S.name
 - [ ] S('name')
 - [ ] S{'name'}
 
 #### Q13. What built-in definition does i have?
-
 - [x] basic imaginary unit
 - [ ] index function
 - [ ] infinity
 - [ ] index variable
 
 #### Q14. Which statement is equivalent to this for loop?
-
-```MATLAB
+```
 a = [1 2 3; 4 5 6];
 b = zeros(size(a));
 for i_row = 1:size(a, 1)
@@ -189,44 +155,37 @@ for i_row = 1:size(a, 1)
     end
 end
 ```
-
 - [ ] b = a\*a;
 - [x] b = a.^2;
 - [ ] b = a^2;
 - [ ] b = pow2(a);
 
 #### Q15. You have plotted values of cosine from -10 to 10 and want to change the x-axis tick marks to every pi, from -3*pi to 3*pi. Which statement will do that?
-
 - [ ] xticks(-3*pi:3.14:3*pi)
 - [x] xticks(-3*pi:pi:3*pi)
 - [ ] xticks(linespace(-3*pi(), 3*pi(), pi()))
 - [ ] xticks(linespace(-3*pi, 3*pi, pi)
 
 #### Q16. What is the value of `c`?
-
-```MATLAB
+```
 a = ones(1,3);
 b = 1:3;
 c = conv(a,b)
 ```
-
 - [ ] [-1 2 -1]
 - [x] [1 3 6 5 3]
 - [ ] 6
 - [ ] [1 -2 1]
 
 #### Q17. Which function CANNOT be used to randomly sample data?
-
 - [ ] datasample
 - [ ] randi
 - [x] resample
 - [ ] randperm
 
 #### Q18. Which choice is correct syntax for a `switch` statement?
-
 - [x]
-
-```MATLAB
+```
 x = 7;
 switch x
     case 2
@@ -235,10 +194,8 @@ switch x
         disp("not two");
 end
 ```
-
 - [ ]
-
-```MATLAB
+```
 x = 7;
 switch x :
     case 2
@@ -247,10 +204,8 @@ switch x :
         disp("not two");
 end
 ```
-
 - [ ]
-
-```MATLAB
+```
 x = 7;
 switch x
     case 2
@@ -259,10 +214,8 @@ switch x
         disp("not two");
 end
 ```
-
 - [ ]
-
-```MATLAB
+```
 x = 7;
 switch x
     case 2
@@ -273,51 +226,38 @@ end
 ```
 
 #### Q19. What is the result of this code?
-
-```MATLAB
+```
 a = 1;
 b = 2;
 c = 3;
 d = 4;
 e = c / (~a - b == c - d);
 ```
-
 - [ ] Error
 - [ ]
-
-```MATLAB
+```
 c =
-
     NaN
 ```
-
 - [x]
-
-```MATLAB
+```
 c =
-
     Inf
 ```
-
 - [ ]
-
-```MATLAB
+```
 c =
-
     -0.2500
 ```
 
 #### Q20. What is true of a handle class object?
-
 - [ ] When you pass a handle object to a function, a new object is made that is independent of the original.
 - [x] All copies of handle objects refer to the same underlying object.
 - [ ] Handle object cannot reference one another.
 - [ ] Handle object do not have a default `eq` function.
 
 #### Q21. Which choice has a different final result in `f10` than the other three?
-
 - [ ]
-
 ```MATLAB
 f10 = 1;
 for i = 1:10
