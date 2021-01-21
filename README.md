@@ -34,6 +34,62 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 
 ### Table of Contents
 
+<<<<<<< HEAD
+| Linkedin-quiz-questions                                                                                                                 | Status                         |
+| --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
+| [Adobe-Illustrator](adobe-illustrator/adobe-illustrator-quiz.md)             | answers required               |
+| [Adobe-Photoshop](adobe-photoshop/adobe-photoshop-quiz.md)                   | answers required               |
+| [Agile Methodologies](agile-methodologies/agile-methodologies-quiz.md)       | with answers                   |
+| [Android](android/android-quiz.md)                                           | answers required               |
+| [AngularJs 🔥](AngularJS/angularjs-quiz.md)                                  | answers required               |
+| [AWS](aws/aws-quiz.md)                                                       | answers required               |
+| [AWS-Lambda](aws-lambda/aws-lambda-quiz.md) :fire:                           | with answers                   |
+| [Bash](bash/bash-quiz.md)                                                    | partially answered             |
+| [C#](c%23/c-sharp-quiz.md)                                                   | answers required               |
+| [C++](c%2B%2B/c%2B%2Bquiz.md)                                                | with answers                   |
+| [CSS](css/css-quiz.md)                                                       | with answers                   |
+| [Django](django/django-quiz.md)                                              | with answers                   |
+| [.NET Framework](dotnet-framework/dotnet-framework-quiz.md)                  | partially answered             |
+| [Git](git/git-quiz.md) :star:                                                | with answers                   |
+| [Google Analytics](google-analytics/google-analytics-quiz.md)                | answers required               |
+| [Google Cloud Platform (GCP)](google-cloud-platform/gcp-quiz.md)             | with answers                   |
+| [Hadoop](hadoop/hadoop-quiz.md)                                              | answers required               |
+| [HTML](html/html-quiz.md)                                                    | with answers                   |
+| [Java](java/java-quiz.md)                                                    | with answers                   |
+| [Javascript](javascript/javascript-quiz.md)                                  | partially answered             |
+| [jQuery](jquery/jquery-quiz.md) :open_mouth:                                 | with answers                   |
+| [JSON](json/json-quiz.md)                                                    | with answers                   |
+| [Machine Learning](machine-learning/machine-learning-quiz.md)                | answers required               |
+| Kotlin                                                                        | NO question and NO answers yet |
+| [MATLAB](matlab/matlab-quiz.md)                                              | with answers                   |
+| [Maven](maven/maven-quiz.md) :fire:                                          | with answers                   |
+| [Microsoft Azure](microsoft-azure/microsoft-azure-quiz.md)                   | with answers                   |
+| [Microsoft Excel](microsoft-excel/microsoft-excel-quiz.md)                   | with answers                   |
+| [Microsoft Power BI](microsoft-power-bi/microsoft-power-bi-quiz.md)          | answers required               |
+| [Microsoft Power Point](microsoft-power-point/microsoft-power-point-quiz.md) | partially answered             |
+| [Microsoft Project](microsoft-project/microsoft-project-quiz.md)             | answers required               |
+| [Microsoft Word](microsoft-word/microsoft-word-quiz.md)                      | with answers                   |
+| [MongoDB](mongodb/mongodb-quiz.md) :green_heart:                             | with answers                   |
+| [MySQL](mysql/mysql-quiz.md)                                                 | answers required               |
+| [node.js](node.js/node.js-quiz.md)                                           | with answers                   |
+| [NoSQL](nosql/nosql-quiz.md)                                                 | with answers                   |
+| [objective-c](objective-c/objective-c_quiz.md)                               | partially answered             |
+| [OOP](oop/object-oriented-programming-quiz.md)                               | with answers                   |
+| [PHP](php/php-quiz.md)                                                       | partially answered             |
+| [Python](python/python-quiz.md)                                              | with answers                   |
+| [R](r/r-quiz.md)                                                             | partially answered             |
+| [React.js](react/reactjs-quiz.md) :rose:                                     | with answers                   |
+| [REST API](rest-api/rest-api-quiz.md) :+1:                                   | partially answered             |
+| [Scala](scala/scala-quiz.md)                                                 | answers required               |
+| [Search Engine Optimization (SEO)](seo/search-engine-optimization-quiz.md)   | partially answered             |
+| [SharePoint](sharepoint/sharepoint-quiz.md)                                  | with answers                   |
+| [Swift](swift/swift-quiz.md)                                                 | with answers                   |
+| [Transact-SQL (T-SQL)](t-sql/t-sql-quiz.md)                                  | with answers                   |
+| [VBA](vba/vba-quiz.md)                                                        | answers required             |
+[Windows Server](windows-server/windows-server-quiz.md)                      | partially answered             
+| [WordPress](wordpress/wordpress-quiz.md)                                     | partially answered             |
+ [XML](xml/xml-quiz.md)                                                       | answers required               |
+=======
 | Linkedin-quiz-questions                                                                                                                 |          |  Status     |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ---------------|-------------- |
 | [Adobe-Illustrator](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-illustrator/adobe-illustrator-quiz.md)             | => 51 questions | answers required               |
@@ -87,6 +143,7 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 | [Windows Server](https://github.com/Ebazhanov/in-quiz-questions/blob/master/windows-server/windows-server-quiz.md)                      | => 46 questions |partially answered             |
 | [WordPress](https://github.com/Ebazhanov/in-quiz-questions/blob/master/wordpress/wordpress-quiz.md)                                     | => 42 questions |partially answered             |
 | [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md)                                                       | => 21 questions |answers required               |
+>>>>>>> e520e8eccfd19ee733c05fdaaf353d558dff8d24
 
 &nbsp;
 
