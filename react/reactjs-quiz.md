@@ -430,3 +430,26 @@ useEffect(() => {
 - [ ] `It will execute the code inside the function, but only after waiting to ensure that no other component is accessing the name variable.`
 - [x] `It will update the value of name once and not run again until name is changed from the outside.`
 - [ ] `It will cause an infinite loop.`
+
+#### Q52. Which choice will not cause a React component to rerender?
+- [ ] `if the component call this.setState(...)`
+- [ ] `the value of one of the component's props changes`
+- [ ] `if the component calls this.forceUpdate()`
+- [X] `one of the component's siblings rerenders`
+
+#### Q53. You have created a new method in a class component called handleClick, but it is not working. Which code is missing?
+```javascript
+class Button extends React.Component{
+
+	constructor(props) {
+		super(props);
+    // Missing line
+	}
+
+  handleClick() {...}
+}
+```
+- [ ] `this.handleClick.bind(this);`
+- [ ] `props.bind(handleClick);`
+- [ ] `this.handleClick.bind();` 
+- [x] `this.handleClick = this.handleClick.bind(this);`
