@@ -93,6 +93,10 @@ SELECT @UniqueID AS Result;
 - [x] SELECT TOP(2) WITH TIES first_name, department, team FROM Students ORDER BY points;
 - [ ] SELECT BOTTOM(2) first_name, department, team FROM Students ORDER BY points ASC;
 
+`the picture of table is important here and there it can be seen that there are only two value with min points. 
+  Secondly, the previous answer was wrong because order by DESC will put highest points into the beginning of result list and TOP(2) 
+  will take first two highest points, and we need the lowest points.`
+
 #### Q11. What is the result of this statement?
 `SELECT FLOOR(-1234.321)`
 - [ ] -1234.3
@@ -227,9 +231,15 @@ SELECT @UniqueID AS Result;
 - [x] select top(1) with ties studentname from students order by grade desc;
 - [ ] select studentname,max(grade) from students order by grade desc;
 
+`top(1) with ties will take the highest grade and all other students with the same grade 
+(because they are order by grade) and matches the highest grade.`
+
 #### Q28. What role does "inventory" play?
 `select bookid, boooktitle, bookauthor,quantityonhand from inventory.books;`
 - [ ] you only want to see results from books currently in inventory
 - [x] it instructs the query engine to find the books table in the inventory schema
 - [ ] it instructs the query engine to find the books table in the inventory database
 - [ ] it instructs the query engine to join the books table to the inventory schema
+
+`select * from dbo.books here dbo is a schema and the inventory is also schema; 
+if we'd like to specify a database we should use db_name.schema_name.table_name`

@@ -102,7 +102,7 @@
  - [x] DynamoDB
  - [ ] Amazon Aurora
 
-#### Q18. You need to create a scalable databse that allows you to share documents across authorized mobile clients in real time. What Google NoS#### QL database should you use?
+#### Q18. You need to create a scalable databse that allows you to share documents across authorized mobile clients in real time. What Google NoSQL database should you use?
  - [ ] Memorystore
  - [ ] Datastore
  - [x] Firebase
@@ -132,7 +132,7 @@
  - [x] scroes
  - [ ] ids
 
-#### Q23. You need to create a document database that supports database triggers. Which NoS#### QL database should you use?
+#### Q23. You need to create a document database that supports database triggers. Which NoSQL database should you use?
  - [x] DynamoDb
  - [ ] Redis
  - [ ] MongoDB
@@ -150,7 +150,7 @@
  - [x] MATCH (:Person)-->(vehicle:Car)-->(:Company) RETURN count(vehicle)
  - [ ] MATCH (:Person)-->(:Card), (vehicle:Car)-->(:Company) RETURN count(vehicle)
 
-#### Q26. You need multi-item ACID transactions with snapshot isolation within a partition for your cloud-based application. Which NoS#### QL databse do you choose?
+#### Q26. You need multi-item ACID transactions with snapshot isolation within a partition for your cloud-based application. Which NoSQL databse do you choose?
  - [ ] Bigtable
  - [ ] GraphDB
  - [ ] DynamoDB
@@ -187,7 +187,7 @@
  - [ ] $project
 
 #### Q33. For your mobile application, you need to select a Google cloud databse that can support compound, filtered document queries. Which do you choose?
- - [ ] Cloud S#### QL
+ - [ ] Cloud SQL
  - [ ] Cloud Spanner
  - [x] Cloud Firestore
  - [ ] Cloud Firebase

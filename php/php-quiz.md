@@ -109,7 +109,6 @@
 - [ ] \$horse = (new Pet);
 - [ ] \$cat = new Pet();
 
-
 ##### Q15. What is the best way to explain what this script does?
 ```markdown
 1 if (!\$\_SESSION['myusername'])
@@ -370,20 +369,20 @@ echo "No, mail is not set";
 ### The following XML document is in books.xml. Which code will output "Historical"?
 ```
 <books>
-<book>
-<title>A Tale of Two Cities</title>
-<author>Charles Dickens</author>
-<categories>
-<category>Classics</category>
-<category>Historical</category>
-</categories>
-</book>
-<title>Then There Were None</title>
-<author>Agatha Christies</author>
-<categories>
-<category>Mystery</category>
-</categories>
-</book>
+    <book>
+        <title>A Tale of Two Cities</title>
+            <author>Charles Dickens</author>
+            <categories>
+            <category>Classics</category>
+            <category>Historical</category>
+            </categories>
+            </book>
+        <title>Then There Were None</title>
+            <author>Agatha Christies</author>
+            <categories>
+            <category>Mystery</category>
+        </categories>
+    </book>
 </books>
 ```
 - [ ] $books = simplexml_load_string('books.xml');

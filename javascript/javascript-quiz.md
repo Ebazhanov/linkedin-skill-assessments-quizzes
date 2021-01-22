@@ -295,8 +295,7 @@ let diff = function (x, y) {
 - [x] Most operations involve looking up a record, and objects can do that better than arrays.
 - [ ] Working with objects makes the code more readable.
 
-Records in an object can be retrieved using their key which can be any given value (e.g. an employee ID, a city name, etc), whereas to retrieve a record from an array we need to know its index.
-
+**Explanation:** Records in an object can be retrieved using their key which can be any given value (e.g. an employee ID, a city name, etc), whereas to retrieve a record from an array we need to know its index.
 
 #### Q35. Which statement is true about the "async" attribute for the HTML script tag?
 - [ ] It can be used for both internal and external JavaScript code.

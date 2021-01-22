@@ -6,7 +6,7 @@
 - [ ] awb
 - [ ] traw
 
-Reasoning: The substring method is accepting two arugments. The first argument being the index to start(includes that char at 2) and the second the index of the string to end the substring(excludes the char at 5). Strings in Java are like arrays of chars. Therefore the method will return "raw" as those are the chars in indexs 2,3, and 4. You can also take the ending index and subtract the beginning index from it, to determine how many chars will be included in the substring (5-2=3).
+**Reasoning:** The substring method is accepting two arugments. The first argument being the index to start(includes that char at 2) and the second the index of the string to end the substring(excludes the char at 5). Strings in Java are like arrays of chars. Therefore the method will return "raw" as those are the chars in indexs 2,3, and 4. You can also take the ending index and subtract the beginning index from it, to determine how many chars will be included in the substring (5-2=3).
 
 #### Q2. How can you achieve runtime polymorphism in Java?
 - [ ] method overloading
@@ -15,9 +15,7 @@ Reasoning: The substring method is accepting two arugments. The first argument b
 - [ ] method calling
 
 #### Q3. Given the following definitions, which of these expression will NOT evaluate to true?
-```
-boolean b1 = true, b2 = false; int i1 = 1, i2 = 2;
-```
+`boolean b1 = true, b2 = false; int i1 = 1, i2 = 2;`
 - [ ] (i1 | i2) == 3
 - [X] i2 && b1 
 - [ ] b1 || !b2
@@ -178,8 +176,8 @@ public class Math {
 - [ ] Lines 1 and 2 generate compiler erros due to class name conflicts.
 - [ ] "-123"
 - [ ] It will throw an exception on line 5.
-- [X] "123"  
-// The answer is "123". The abs() method evaluates to the one inside mypackage.Math class.
+- [X] "123"
+  **Explanation:**  The answer is "123". The abs() method evaluates to the one inside mypackage.Math class.
 
 #### Q12. What is the result of this code?
 ```
@@ -231,7 +229,7 @@ class Main {
 - [ ] a negative integer value
 - [ ] "12345100000"
 
-Reasoning: The int type in Java can be used to represent any whole number from -2147483648 to 2147483647. Therefore this code will not compile as the number assigned to 'a' is larger than the int type can hold.
+**Reasoning:** The int type in Java can be used to represent any whole number from -2147483648 to 2147483647. Therefore this code will not compile as the number assigned to 'a' is larger than the int type can hold.
 
 #### Q15. What is the output of this code?
 ```
@@ -291,13 +289,12 @@ System.out.println(n);
 #### Q22. Which is the most up-to-date way to instantiate the current date?
 - [ ] new SimpleDateFormat("yyyy-MM-dd").format(new Date())
 - [ ] new Date(System.currentTimeMillis())
-- [X] LocalDate.now()          <--------- LocalDate is newest class added in java 8
-- [] Calender.getInstance().getTime() 
+- [X] LocalDate.now()          
+  **Explanation**: // LocalDate is newest class added in java 8
+- [ ] Calender.getInstance().getTime() 
 
 #### Q23. Fill in the blank to create a piece of code that will tell wether int0 is divisible by 5:
-```
-boolean isDivisibleBy5 = _____
-```
+`boolean isDivisibleBy5 = _____`
 - [ ] int0 / 5 ? true: false
 - [X] int0 % 5 == 0 
 - [ ] int0 % 5 != 5
@@ -568,9 +565,7 @@ public class Main {
   ```
 
 #### Q42. What method signature will work with this code?
-```
-boolean healthyOrNot = isHealthy("avocado");
-```
+`boolean healthyOrNot = isHealthy("avocado");`
 - [ ] public void isHealthy(String avocado)
 - [X] boolean isHealthy(String string)
 - [ ] public isHealthy("avocado")
@@ -595,7 +590,6 @@ boolean healthyOrNot = isHealthy("avocado");
 - [ ] It will be preferentially garbage collected.
 
 #### Q46. What is the result of this code?
-
 ```
 char smooch = 'x';
 System.out.println((int) smooch);
@@ -799,7 +793,7 @@ public static void main(String[] args) {
         }
 ```
 - [ ] Hello World
-- [X] It will not compile beacuse the second catch statement is unreachable
+- [X] It will not compile because the second catch statement is unreachable
 - [ ] Hello World!
 - [ ] It will throw runtime exception
 

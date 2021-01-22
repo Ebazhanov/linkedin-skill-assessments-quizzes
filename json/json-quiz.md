@@ -369,26 +369,26 @@
 
 `
 {
-"avengers": [
-"iron man",
-"hulk",
-"thor",
-"black widow",
-"ant man",
-"spider man'
-]
+  "avengers": [
+    "iron man",
+    "hulk",
+    "thor",
+    "black widow",
+    "ant man",
+    "spider man'
+  ]
 }
 `
 
 - [x]
 `{
   "avengers": [
-  "iron man",
-  "hulk",
-  "thor",
-  "black widow",
-  "ant man",
-  "spider man"
+    "iron man",
+    "hulk",
+    "thor",
+    "black widow",
+    "ant man",
+    "spider man"
   ]
 }`
 
@@ -407,12 +407,12 @@
 - [ ] 
 `{
   'avengers': [
-  'iron man',
-  'hulk',
-  'thor',
-  'black widow',
-  'ant man',
-  'spider man'
+    'iron man',
+    'hulk',
+    'thor',
+    'black widow',
+    'ant man',
+    'spider man'
   ]
 }
 `
@@ -420,12 +420,12 @@
 - [ ] 
 `{
   "avengers": {[
-  "iron man",
-  "hulk",
-  "thor",
-  "black widow",
-  "ant man",
-  "spider man"
+    "iron man",
+    "hulk",
+    "thor",
+    "black widow",
+    "ant man",
+    "spider man"
   ]}
 }
 `
@@ -556,7 +556,7 @@
 - [x] As a string in ISO 8601 format
 
 #### Q51. Is the JSON code shown here valid?
-![JSON object with key "Vehicles" containing an array of emojis](questionimages/Q51/Q51.jpeg)
+![JSON object with key "Vehicles" containing an array of emojis](images/Q51/Q51.jpeg)
 - [ ] No, emojis must be escaped with a backslash.
 - [ ] No, JSON strings are not allowed to use emojis.
 - [ ] No, emojis should never be enclosed with double quotes.

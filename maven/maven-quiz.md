@@ -47,7 +47,6 @@
 - [x] `mvn package`
 - [ ] `mvn clean install`
 - [ ] Option 4
-
 ```shell script
 mvn clean
 mvn package
@@ -182,6 +181,7 @@ mvn install
 - [ ] POM
 
 #### Q30. What does the following command do?
+
     > mvn archetype:generate \
     -DgroupID=sample-maven-project \
     -DartifactID=com.palmer.bethan.sample \

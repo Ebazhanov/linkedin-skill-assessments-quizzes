@@ -48,7 +48,7 @@
  - [ ] It implies a virtual method.
  - [x] A subclass object has an IS-A relationship with its superclass or interface
 
-#### Q8. You want a method with behavior similar to a virtual method--it is meant to be overridden --expect that it does not have a mthod body. It just has a method signature. What kind of method should you use?
+#### Q8. You want a method with behavior similar to a virtual method--it is meant to be overridden --expect that it does not have a method body. It just has a method signature. What kind of method should you use?
  - [ ] an abstract method
  - [x] a public internal method
  - [ ] an internal method
@@ -213,9 +213,9 @@
 #### Q34. What does the code shown below demonstrate, and why?
 
     <pre><code>
-    static void Multiply(int num1, int num2) {};
-    static void Multiply(double num1, double num2, double num3) {};
-    static void Multiply(float num1, float num2) {};
+        static void Multiply(int num1, int num2) {};
+        static void Multiply(double num1, double num2, double num3) {};
+        static void Multiply(float num1, float num2) {};
     </code></pre>
 
  - [ ] polymorphism, because each method can perform different task

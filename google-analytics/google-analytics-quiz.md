@@ -56,7 +56,7 @@
 - [ ] Express UTM
 - [x] Google Analytics Debugger
 
-#### Q10. You want to track example.com and otherexample.com using a single property. What must be set up?
+#### Q10. You want to track example.com and other example.com using a single property. What must be set up?
 - [x] cross domain tracking 
 - [ ] Google Tag Manager
 - [ ] Include and Exclude filters
