@@ -33,7 +33,7 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 <img src="https://monosnap.com/image/mf3OkeABEfjiAFjYC8d0l7cE6yf52E"/>
 
 ### Table of Contents
-
+/Users/evgeny/WebstormProjects/linkedin-skill-assessments-quizzes-jan-22/c-(programming language)/c-quiz.md
 | Linkedin-quiz-questions                                                                                                                 | Status                         |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
 | [Adobe-Illustrator](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-illustrator/adobe-illustrator-quiz.md)             | => 51 questions | answers required               |
@@ -46,6 +46,7 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 | [Bash](https://github.com/Ebazhanov/in-quiz-questions/blob/master/bash/bash-quiz.md)                                   | => 53 questions | partially answered             |
 | [C#](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%23/c-sharp-quiz.md)                                  | => 48 questions | answers required               |
 | [C++](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%2B%2B/c%2B%2Bquiz.md)                               | => 33 questions | with answers                   |
+| [C (Programming Language)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c-(programming-language)/c-quiz.md)            | => 33 questions | with answers                   |
 | [CSS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/css/css-quiz.md)                                                       | => 54 questions |with answers                   |
 | [Django](https://github.com/Ebazhanov/in-quiz-questions/blob/master/django/django-quiz.md)                                              | => 48 questions |with answers                   |
 | [.NET Framework](https://github.com/Ebazhanov/in-quiz-questions/blob/master/dotnet-framework/dotnet-framework-quiz.md)                  | => 37 questions |partially answered             |
@@ -91,7 +92,7 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 
 ## Format
 
-We recommend to format files using [Prettier](https://prettier.io/) code formatter. Prettier comes installed with the IDE [Vscode](code.visualstudio.com) which we recommend for preparing the md files. It works on all OS.
+We recommend formatting files using [Prettier](https://prettier.io/) code formatter. Prettier comes installed with the IDE [Vscode](code.visualstudio.com) which we recommend for preparing the md files. It works on all OS.
 If you want to run it independently, get **npm** and:
 
 ```sh
