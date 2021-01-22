@@ -33,7 +33,7 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 <img src="https://monosnap.com/image/mf3OkeABEfjiAFjYC8d0l7cE6yf52E"/>
 
 ### Table of Contents
-/Users/evgeny/WebstormProjects/linkedin-skill-assessments-quizzes-jan-22/c-(programming language)/c-quiz.md
+
 | Linkedin-quiz-questions                                                                                                                 | Status                         |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------ |
 | [Adobe-Illustrator](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-illustrator/adobe-illustrator-quiz.md)             | => 51 questions | answers required               |
