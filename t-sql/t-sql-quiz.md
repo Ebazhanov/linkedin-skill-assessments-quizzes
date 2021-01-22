@@ -89,8 +89,8 @@ SELECT @UniqueID AS Result;
 
 #### Q10. Which query shows the first name, department, and team of all students with the two lowest points?
 - [ ] SELECT LIMIT(2) first_name, department, team FROM Students ORDER BY points ASC;
-- [x] SELECT TOP(2) first_name, deprtment, team FROM Students ORDER BY points DESC;
-- [ ] SELECT TOP(2) WITH TIES first_name, department, team FROM Students ORDER BY points;
+- [ ] SELECT TOP(2) first_name, deprtment, team FROM Students ORDER BY points DESC;
+- [x] SELECT TOP(2) WITH TIES first_name, department, team FROM Students ORDER BY points;
 - [ ] SELECT BOTTOM(2) first_name, department, team FROM Students ORDER BY points ASC;
 
 #### Q11. What is the result of this statement?
@@ -224,12 +224,12 @@ SELECT @UniqueID AS Result;
 `create table students( studentname varchar(50), grade int);`
 - [ ] select studentname from students where grade=max(grade);
 - [ ] select top(1) studentname from students order by grade;
-- [ ] select top(1) with ties studentname from students order by grade desc;
-- [x] select studentname,max(grade) from students order by grade desc;
+- [x] select top(1) with ties studentname from students order by grade desc;
+- [ ] select studentname,max(grade) from students order by grade desc;
 
 #### Q28. What role does "inventory" play?
 `select bookid, boooktitle, bookauthor,quantityonhand from inventory.books;`
 - [ ] you only want to see results from books currently in inventory
-- [ ] it instructs the query engine to find the books table in the inventory schema
-- [x] it instructs the query engine to find the books table in the inventory database
+- [x] it instructs the query engine to find the books table in the inventory schema
+- [ ] it instructs the query engine to find the books table in the inventory database
 - [ ] it instructs the query engine to join the books table to the inventory schema
