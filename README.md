@@ -8,31 +8,6 @@
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
 
-:point_right: If you want to improve your skills on another test platform [**Pluralsight IQ Skill**](https://www.pluralsight.com/product/skill-iq)
-find **questions and answers** in **@Timo Körner** [repository](https://github.com/tik9/pluralsight-skill-test):
-
-| Pluralsight IQ Skill quiz                                                                                                           | Status     |
-| ----------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| [Angular](https://github.com/tik9/pluralsight-skill-tests/blob/master/angular.md)                                                   | 18 answers |
-| [AngularJs](https://github.com/tik9/pluralsight-skill-tests/blob/master/angularjs.md)                                               | 18 answers |
-| [Aws Big Data](https://github.com/tik9/pluralsight-skill-tests/blob/master/aws_big_data.md)                                         | 18 answers |
-| [Aws Machine Learning](https://github.com/tik9/pluralsight-skill-tests/blob/master/aws_machine_learning.md)                         | 18 answers |
-| [Building Websites](https://github.com/tik9/pluralsight-skill-tests/blob/master/building_websites.md)                               | 18 answers |
-| [Building Web Apps with React](https://github.com/tik9/pluralsight-skill-tests/blob/master/building_web_apps_with_react.md)         | 18 answers |
-| [Java](https://github.com/tik9/pluralsight-skill-tests/blob/master/java.md)                                                         | 18 answers |
-| [Javascript](https://github.com/tik9/pluralsight-skill-tests/blob/master/javascript.md)                                             | 18 answers |
-| [Mysql](https://github.com/tik9/pluralsight-skill-tests/blob/master/mysql.md)                                                       | 18 answers |
-| [Powershell](https://github.com/tik9/pluralsight-skill-tests/blob/master/powershell.md)                                             | 18 answers |
-| [Python Core](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_core.md)                                           | 18 answers |
-| [Python Data Analysis](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_data_analysis.md)                         | 18 answers |
-| [Python applied Data Mining](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_applied_data_mining.md)             | 18 answers |
-| [Python Web Scraping](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_web_scraping.md)                           | 18 answers |
-| [Python Exploratory Data Analysis](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_exploratory_data_analysis.md) | 18 answers |
-| [Python Clean Data](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_clean_data.md)                               | 18 answers |
-| [Python Data Visualization](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_data_visualization.md)               | 18 answers |
-
-<img src="https://monosnap.com/image/mf3OkeABEfjiAFjYC8d0l7cE6yf52E"/>
-
 ### Table of Contents
 
 | Linkedin-quiz-questions                                                      |                 | Status                         |
@@ -90,6 +65,32 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 | [Windows Server](windows-server/windows-server-quiz.md)                      | => 46 questions | partially answered             |
 | [WordPress](wordpress/wordpress-quiz.md)                                     | => 42 questions | partially answered             |
 | [XML](xml/xml-quiz.md)                                                       | => 21 questions | answers required               |
+
+:point_right: If you want to improve your skills on another test platform [**Pluralsight IQ Skill**](https://www.pluralsight.com/product/skill-iq)
+find **questions and answers** in **@Timo Körner** [repository](https://github.com/tik9/pluralsight-skill-test):
+
+| Pluralsight IQ Skill quiz                                                                                                           | Status     |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| [Angular](https://github.com/tik9/pluralsight-skill-tests/blob/master/angular.md)                                                   | 18 answers |
+| [AngularJs](https://github.com/tik9/pluralsight-skill-tests/blob/master/angularjs.md)                                               | 18 answers |
+| [Aws Big Data](https://github.com/tik9/pluralsight-skill-tests/blob/master/aws_big_data.md)                                         | 18 answers |
+| [Aws Machine Learning](https://github.com/tik9/pluralsight-skill-tests/blob/master/aws_machine_learning.md)                         | 18 answers |
+| [Building Websites](https://github.com/tik9/pluralsight-skill-tests/blob/master/building_websites.md)                               | 18 answers |
+| [Building Web Apps with React](https://github.com/tik9/pluralsight-skill-tests/blob/master/building_web_apps_with_react.md)         | 18 answers |
+| [Java](https://github.com/tik9/pluralsight-skill-tests/blob/master/java.md)                                                         | 18 answers |
+| [Javascript](https://github.com/tik9/pluralsight-skill-tests/blob/master/javascript.md)                                             | 18 answers |
+| [Mysql](https://github.com/tik9/pluralsight-skill-tests/blob/master/mysql.md)                                                       | 18 answers |
+| [Powershell](https://github.com/tik9/pluralsight-skill-tests/blob/master/powershell.md)                                             | 18 answers |
+| [Python Core](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_core.md)                                           | 18 answers |
+| [Python Data Analysis](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_data_analysis.md)                         | 18 answers |
+| [Python applied Data Mining](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_applied_data_mining.md)             | 18 answers |
+| [Python Web Scraping](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_web_scraping.md)                           | 18 answers |
+| [Python Exploratory Data Analysis](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_exploratory_data_analysis.md) | 18 answers |
+| [Python Clean Data](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_clean_data.md)                               | 18 answers |
+| [Python Data Visualization](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_data_visualization.md)               | 18 answers |
+
+<img src="https://monosnap.com/image/mf3OkeABEfjiAFjYC8d0l7cE6yf52E"/>
+
 
 ## Format
 
