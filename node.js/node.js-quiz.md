@@ -268,3 +268,9 @@ fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) thro
 - [ ] only functions
 - [ ] only variables and arrays
 - [x] functions, objects, arrays, or anything you assign to the module
+
+### Q41. Which core module in Node can you use to take advantage of multicore systems?
+- [ ] os
+- [ ] util
+- [x] cluster
+- [ ] net
