@@ -350,3 +350,25 @@ html files are one sided
  - [x] drop cap
  - [ ] subscript
  - [ ] small caps
+ 
+ #### Q52. You need to document a procedure. Which paragraph format is best to help readers follow the sequence of instructions?
+ - [ ] line numbers
+ - [x] numbered list
+ - [ ] columns
+ - [ ] bulleted list
+ 
+ #### Q53. How can you adjust which data in a table is used when creating a chart?
+ - [ ] Click the Select Data button.
+ - [ ] Click the Refresh Data button.
+ - [ ] Click the Switch Row/Column button.
+ - [ ] Click the Edit Data button.
+ 
+ #### Q54. You want to be able to edit your Word document simultaneously with other Word usere in your organization. Which save location should you select in the Save As dialog box?
+ A. OneDrive
+ B. SharePoint document library
+ C. Google Drive
+ D. DropBox
+ - [ ] A
+ - [ ] A, B, C, D
+ - [ ] A, B, C
+ - [ ] A or B
