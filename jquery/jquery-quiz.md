@@ -3,7 +3,6 @@
 #### Q1. What's the difference between these two snippets?
 ```js
 $('button').on('click', function(){ alert('you clicked the button!'); });
-
 $('button').click(function(){ alert('you clicked the button!'); });
 ```
 - [ ] Only the second one will work; jQuery does not have a function called `.on`.
@@ -520,10 +519,8 @@ $('.menu-first > li')
   </ul></li>
 </ul>
 ```
-
 ```js
 $('.leaf').click( function(event) { console.log('Sub Item 1 got a click'); } );
-
 $('#main-menu').click( function(event) { console.log('Main menu got a click'); } );
 ```
 - [ ] `event.capture();`

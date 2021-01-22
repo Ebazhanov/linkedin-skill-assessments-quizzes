@@ -111,7 +111,7 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [ ] This is not a good idea unless there has been recent employee feedback that people feel underappreciated.
 - [ ] It is a good idea as long as a different person is recognized in each sprint.
 - [ ] It is a good idea because awards can motivate people to do their best.
-- [x] This is not a good idea because it can destroy the team unity that is essential to achieving high performance. <<<---CORRECT
+- [x] This is not a good idea because it can destroy the team unity that is essential to achieving high performance.
 
 #### Q19. What is a difference between a team's task board and a Kanban?
 - [ ] A Kanban has an explicit rule to limit WIP.
@@ -261,7 +261,7 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [ ] Use a lottery system assign each story.
 - [ ] Share your observation with the team and invite them to own and solve the problem.
 - [ ] During story point estimation increase the points assigned to the least interesting stories so the team can boost their velocity.
-- [x] Ask the Tech Lead to assign every story to a developer so they all get done efficiently and with accountability. //Answer?
+- [x] Ask the Tech Lead to assign every story to a developer so they all get done efficiently and with accountability.
 
 #### Q44. What Agile practice best supports this principle: "At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly"?
 - [ ] Sprint Review
@@ -272,7 +272,7 @@ It is suggested that high business value, high-risk items are worked on first. W
 #### Q45. On what are personas typically based?
 - [ ] a sponsors or team members' personalities and traits
 - [ ] what the developers think is user friendly
-- [x] real people, archetypal users, or composites of multiple users //Answer?
+- [x] real people, archetypal users, or composites of multiple users
 - [ ] descriptions of the product's functionality and use
 
 #### Q46. Which statement describes Shu Ha Ri?

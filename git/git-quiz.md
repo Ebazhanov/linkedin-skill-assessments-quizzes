@@ -13,7 +13,7 @@
 - [ ] git remote origin
 
 #### Q3. Describe what the following git commands do to the commit history.
-```git
+```
 git reset --hard HEAD~5
 git merge --squash HEAD@{1}
 ```
@@ -597,7 +597,7 @@ In Git, there are two main ways to integrate changes from one branch into anothe
 - [ ] A hard reset caches the old HEAD pointer, while a soft reset deletes it entirely.
 
 #### Q86. Consider the following Git workflow :
-![imgages](images/Git-WorkFlow.png)
+![image](images/Git-WorkFlow.png)
 Which of the following options is correct ?
 - [ ] `1. Develop 2. Release 3. Hotfix 4. Feature 5. Master`
 - [ ] `1. Master 2. Release 3. Hotfix 4. Feature 5. Develop`

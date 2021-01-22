@@ -31,9 +31,7 @@
 - [ ] Function arguments are called "attributes" in the context of class methods and instance methods.
 
 #### Q6. What is the term to describe this code?
-```python
-count, fruit, price = (2, 'apple', 3.5)
-```
+`count, fruit, price = (2, 'apple', 3.5)`
 - [ ] `tuple assignment`
 - [x] `tuple unpacking`
 - [ ] `tuple matching`
@@ -148,14 +146,12 @@ return list(enumerate(college_years, 2019))
 - [ ] `self` refers to the class that was inherited from to create the object using `self`.
 
 #### Q17. Which of these is NOT a characteristic of namedtuples?
-
 - [ ] You can assign a name to each of the `namedtuple` members and refer to them that way, similarly to how you would access keys in `dictionary`.
 - [ ] Each member of a namedtuple object can be indexed to directly, just like in a regular `tuple`.
 - [ ] `namedtuples` are just as memory efficient as regular `tuples`.
 - [x] No import is needed to use `namedtuples` because they are available in the standard library.
 
 #### Q18. What is an instance method?
-
 - [x] Instance methods can modify the state of an instance or the state of its parent class.
 - [ ] Instance methods hold data related to the instance.
 - [ ] An instance method is any class method that doesn't take any arguments.
@@ -531,9 +527,7 @@ def sum(a, b):
 - [ ] `my_list['price'] == 1.5`
 
 #### Q45. What value would be returned by this check for equality?
-
 `5!=6`
-
 - [ ] `yes`
 - [ ] `False`
 - [x] `True`
@@ -592,7 +586,8 @@ def sum(a, b):
 - [ ] `def getMaxNum(list_of_nums): # body of function goes here`
 - [ ] `func get_max_num(list_of_nums): # body of function goes here`
 - [ ] `func getMaxNum(list_of_nums): # body of function goes here`
-- [x] `def get_max_num(list_of_nums): # body of function goes here` [explanation](https://www.python.org/dev/peps/pep-0008/)
+- [x] `def get_max_num(list_of_nums): # body of function goes here` 
+  [explanation](https://www.python.org/dev/peps/pep-0008/)
 
 #### Q55. According to the PEP 8 coding style guidelines, how should constant values be named in Python?
 - [ ] in camel case without using underscores to separate words -- e.g. `maxValue = 255`

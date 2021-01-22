@@ -21,9 +21,7 @@ NSInteger i = str.integerValue;
  - [ ] This code crashes.
 
 #### Q3. What value is in str after this line in executed?
-```
-NSString str = "test" + " " + "more";
-```
+`NSString str = "test" + " " + "more";`
  - [x] This code contains an error
  - [ ] test
  - [ ] nil
@@ -56,27 +54,21 @@ NSString str = "test" + " " + "more";
  - [ ] NSDictionary's values can change.
 
 #### Q7. What is foo?
-```
--(float)foo;
-```
+`-(float)foo;`
  - [x] A function with a return type of float.
  - [ ] This code contains an error.
  - [ ] A variable declaration of type float.
  - [ ] A property of type float.
 
 #### Q8. What can you glean from this line?
-```
-#import "NSString+NameHelper.h"
-```
+`#import "NSString+NameHelper.h"`
  - [x] NameHelper is a category of NSString.
  - [ ] NameHelper is a subclass of NSString.
  - [ ] NSString implements the NameHelper protocol.
  - [ ] NSString has a helper class.
 
 #### Q9. What's wrong with this code?
-```
-float x = 5.;
-```
+`float x = 5.;`
  - [x] Nothing is wrong with this code.
  - [ ] Declarations do not need semicolons.
  - [ ] x=5 is an invalid float.
@@ -94,9 +86,7 @@ for (int x=0; x<100; x++) {
  - [ ] This code contains an error.
 
 #### Q11. What is this code an example of?
-```
-[self addObserver: self forKeyPath: @"val" options:0 context: nil];
-```
+`[self addObserver: self forKeyPath: @"val" options:0 context: nil];`
  - [ ] Key-Value Observing
  - [ ] Class Value Observing
  - [ ] Key-Data Observing
@@ -126,9 +116,7 @@ printf("%d", val);
  - [ ] unlimited class inheritance and protocol adherence
 
 #### Q15. How many keys does this NSDictionary have after this code is executed?
-```
-NSDictionary *dict = [[NSDictionary alloc] initWithObjectsAndKeys: @"b", @"e", @"a", @"r", nil];
-```
+`NSDictionary *dict = [[NSDictionary alloc] initWithObjectsAndKeys: @"b", @"e", @"a", @"r", nil];`
  - [x] 2
  - [ ] 4
  - [ ] 5
@@ -155,9 +143,7 @@ NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding]
  - [ ] nil
 
 #### Q18. What is different about this function?
-```
-+(void)doSomething;
-```
+`+(void)doSomething;`
  - [x] It is static
  - [ ] It is abstract.
  - [ ] It is inline.
@@ -192,9 +178,7 @@ NSArray *newValues = [vals filteredArrayUsingPredicate:pred];
  - [ ] This code contains an error.
 
 #### Q22. What is an enums base type for the code below?
-```
-typedef enum { Foo1, Foo2} Foo;
-```
+`typedef enum { Foo1, Foo2} Foo;`
  - [x] There is no base type.
  - [ ] NSObject
  - [ ] int
@@ -223,9 +207,7 @@ if ([keyPath isInstanceOf:[NSString class]]) {
  - [ ] if keyPath implements the same methods as NSString
 
 #### Q26. What is this a declaration of?
-```
-int(^foo)(int);
-```
+`int(^foo)(int);`
  - [ ] an Extension
  - [ ] a Generic
  - [ ] a block of code
@@ -277,7 +259,7 @@ foo(5);
  - [ ] This code contains an error
  - [ ] 2,"3"
 
-#### Q32. How would this funciton be called?
+#### Q32. How would this function be called?
 `-(int)foo:(int)a b:(int)c;`
  - [ ] self.foo(5, b:10);
  - [ ] This code contains an error.

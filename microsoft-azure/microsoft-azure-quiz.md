@@ -191,8 +191,7 @@
 - [ ] createArray()
 - [ ] indexOf()
 
-Q31. The Kineteco web app runs in an Azure Kubernetes Service. You need to monitor feature use and user navigation paths to identify where improvements are needed. What should you do?
-
+#### Q31. The Kineteco web app runs in an Azure Kubernetes Service. You need to monitor feature use and user navigation paths to identify where improvements are needed. What should you do?
 - [ ] Install the Analytics agent and configure Azure Monitor for Containers.
 - [ ] Install the App Insights Agent on AKS nodes.
 - [x] Configure Application Insights cohorts.

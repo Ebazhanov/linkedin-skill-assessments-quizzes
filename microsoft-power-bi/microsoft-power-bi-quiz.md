@@ -98,7 +98,8 @@
  - [ ] sort and group
 
 #### Q13. You just deleted a dashboard in the Power Bl service and want to get it back. What should you do?
- - [x] Press Ctrl+Z. [proof link1](https://docs.microsoft.com/en-us/power-bi/visuals/service-tips-and-tricks-for-color-formatting)
+ - [x] Press Ctrl+Z. 
+    [proof link1](https://docs.microsoft.com/en-us/power-bi/visuals/service-tips-and-tricks-for-color-formatting)
     [link2](https://www.edureka.co/community/26060/how-do-i-undo-something-in-power-bi)
  - [ ] Select Undo from the toolbar.
  - [ ] You cannot undo the deletion of a dashboard.
@@ -135,7 +136,8 @@
  - [ ] Best fit geospatial
 
 #### Q18. Formatting options within a visualization depend on what?
- - [x] the visualization you are formatting [proof link](https://docs.microsoft.com/en-us/power-bi/visuals/service-getting-started-with-color-formatting-and-axis-properties)
+ - [x] the visualization you are formatting 
+   [proof link](https://docs.microsoft.com/en-us/power-bi/visuals/service-getting-started-with-color-formatting-and-axis-properties)
  - [ ] the editor you use
  - [ ] the visualization group
  - [ ] your permissions

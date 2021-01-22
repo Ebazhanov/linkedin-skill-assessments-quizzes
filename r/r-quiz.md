@@ -151,7 +151,6 @@ c <- a < b
 x <- NA
 y <- x/1
 ```
-
 - [ ] Inf
 - [ ] Null
 - [ ] NaN

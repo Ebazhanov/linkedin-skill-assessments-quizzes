@@ -263,11 +263,11 @@ echo ${!fname}
 - [ ] `blank`
 
 #### Q30. What will be the output of this script?
-![question](questionimages/Q30/question.png)
-- [ ] `A` ![A](questionimages/Q30/A.png)
-- [ ] `B` ![B](questionimages/Q30/B.png)
-- [x] `C` ![C](questionimages/Q30/C.png)
-- [ ] `D` ![D](questionimages/Q30/D.png)
+![question](images/Q30/question.png)
+- [ ] `A` ![A](images/Q30/A.png)
+- [ ] `B` ![B](images/Q30/B.png)
+- [x] `C` ![C](images/Q30/C.png)
+- [ ] `D` ![D](images/Q30/D.png)
 
 Here a text based version of Q.30:
 
@@ -541,7 +541,7 @@ cd -
 - [ ] It deletes the current directory
 - [ ] It moves you one directory above your current working directory.
 
-Training questions
+# Training questions
 
 #### Q1. What does this command do?
 ```bash

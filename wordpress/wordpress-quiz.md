@@ -297,18 +297,18 @@ Use functions.php to conditionally load the script by hooking it to wp_enqueue_s
 add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 function load_scripts() {
-if ( is_page( 'contact' ) ) {
-echo '<script src="/my-script.js"></script>';
-}
+    if ( is_page( 'contact' ) ) {
+    echo '<script src="/my-script.js"></script>';
+    }
 }
 
 Use functions.php to conditionally load the script by hooking it to wp_enqueue_scripts(), like this:
 add_action( 'wp_enqueue_scripts', 'load_scripts' );
-function load_scripts() {
-if ( is_page( 'contact' ) ) {
-wp_enqueue_script( 'script', get_template_directory_uri() . '/script.js' );
-}
-}
+    function load_scripts() {
+        if ( is_page( 'contact' ) ) {
+        wp_enqueue_script( 'script', get_template_directory_uri() . '/script.js' );
+        }
+    }
 ```
 - [ ] Link to the script directly from a template named page-contact.php, like this:
 - [ ] <head>

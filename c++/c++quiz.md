@@ -1,7 +1,7 @@
 ## C++
 
 #### Q1. What is printed from this code?
-```c++
+```
 vector<int> v(22);
 bool b= (v[6]);
 printf("%d",!b);
@@ -12,16 +12,14 @@ printf("%d",!b);
  - [ ] This code has an error
 
 #### Q2. Which of the following is a reason why using this line is considerd a bad practice?
-```
-Using namespce std;
-```
+`Using namespce std;`
  - [ ] The compiled code is always bigger because of all of the imported symbols.
  - [ ] If the code uses the function defined in two different libraries with the same prototype but possibly with different implementation , there will be a compilation error due to ambuiguity.
  - [ ] It automatically includes all header files in the standard library (cstdint,cstdlib,cstdio,iostream et- []. << Correct
  - [ ] It causes the compiler to enforce the exclusion , inclusion of header file belonging to the standard library , generating compilation error when a different header file is included.
 
 #### Q3. What is the smallest size a variable of the type child_t may occupy in memory?
-```c++
+```
 typedef struct {
 unsigned int age : 4;
 unsigned char gender :1;
@@ -34,7 +32,7 @@ unsigned int size : 2;
  - [ ] 1 bytes.
 
 #### Q4. Which of the following shows the contents of vector v1 and v2 after running this code?
-```c++
+```
 std:: vector <int> v1{1,2,3},v2;
 v2=v1;
 v1.push_back(4);
@@ -62,11 +60,11 @@ v2:{1,2,3,5}; <<  Correct
  - [ ] There are no benefits because a reference and an object are treated as the same thing.
 
 #### Q7. What's the storage occupied by u1?
-```c++
+```
 union {
-unit16_t a;
-unit32_t b;
-int8_t c;
+    unit16_t a;
+    unit32_t b;
+    int8_t c;
 } u1;
 ```
  - [x] 4 bytes //You can see example [here](https://en.cppreference.com/w/cpp/language/union)
@@ -76,12 +74,12 @@ int8_t c;
 
 #### Q8. Which of the following operators is overloadable?
  - [ ] ?:
- - [x] new << Correct
+ - [x] new
  - [ ] ::
  - [ ] .
 
 #### Q9. Which of the following shows the contents of vector pointed by v1 and v2 after running this code?
-```c++
+```
 std:: vector<int> *v1 = new std:: vector<int> ({1,2,3});
 std:: vector<int> *v2;
 v2=v1;
@@ -95,25 +93,23 @@ v2->push_back(5);
  - [x] Error
  - [ ] *v1:{1,2,3,4};
 *v2:{1,2,3,5};
-
-
+   
 #### Q10. Which of the following is not a difference between a class and a struct?
  - [ ] Because structor are part of the c programming language there some complexity between c and c++ struct This is not the case with classes.
  - [ ] Classes may have member function;struct private.
  - [ ] The default acces specifier for members of struct is public, where as for member of class , it is private. << Correct -> You can see the answer [here](https://www.fluentcpp.com/2017/06/13/the-real-difference-between-struct-class/)
  - [ ] Template type parameters can be declared with , but not with the struct keyword.
 
-
 #### Q11. Suppose you need to keep a data struct with permission to access some resource base on the days of week , but you can't be use a bool variable for each day.you need to use one bit per day of the week.
 which of the following is a correct implementation of a structure with bit fields for this application?
-- [ ] 
+- [x] 
 ```
 typedef struct {
-int sunday:1;
-int monday:1;
-// more days
-int friday:1;
-int satarday:1;
+    int sunday:1;
+    int monday:1;
+    // more days
+    int friday:1;
+    int satarday:1;
 } weekdays; << Correct  That syntax says that each variable size is 1 bit. 'bit' is not a type in C++.
 ```
 - [ ] 
@@ -123,21 +119,21 @@ typedef char[7]: weekdays;
 - [ ] 
 ```
 typedef struct {
-bit sunday:1;
-bit monday:1;
-// more days
-bit fridyas:1;
-bit satarday:1;
+    bit sunday:1;
+    bit monday:1;
+    // more days
+    bit fridyas:1;
+    bit satarday:1;
 } weekdays;
 ```
 - [ ] 
 ```
 typedef struct {
-bit sunday;
-bit monday;
-// more days
-bit friday;
-bit satarday;
+    bit sunday;
+    bit monday;
+    // more days
+    bit friday;
+    bit satarday;
 } weekdays;
 ```
 
@@ -176,10 +172,10 @@ y=b;
 #include <iostream>
 int main()
 {
-int x=10, y=20;
-std::cout << "x = " << x++ << " and y = " << --y << std::endl;
-std::cout << "x = " << x-- << " and y = " << ++y << std::endl;
-return(0);
+    int x=10, y=20;
+    std::cout << "x = " << x++ << " and y = " << --y << std::endl;
+    std::cout << "x = " << x-- << " and y = " << ++y << std::endl;
+    return(0);
 }
 ```
  - [ ] x = 10 and y = 20 x = 11 and y = 19
@@ -198,14 +194,14 @@ return(0);
 int8_t a=200;
 uint8_t b=100;
 - if(a>b) {
-std::cout<<"greater";
-else std::cout<<"less";
+    std::cout<<"greater";
+    else std::cout<<"less";
 }
 ```
- - [x]There is no output because there is an exception when comparing an int8_t with a uint8t.There is no output because there is an exception when comparing an null with a null.
- - [ ]greaternull
- - [ ]lessnull
- - [ ]There is no output because there is a compiler error.There is no output because there is a compiler error.
+ - [x] There is no output because there is an exception when comparing an int8_t with a uint8t.There is no output because there is an exception when comparing an null with a null.
+ - [ ] greaternull
+ - [ ] lessnull
+ - [ ] There is no output because there is a compiler error.There is no output because there is a compiler error.
 
 #### Q.19 What results from executing this code snippet? What results from executing this code snippet?
 ```
@@ -214,10 +210,10 @@ if(x & y)
 { /_part A_/ } 
 else{ /_part B_/ }
 ```
-- [] Part A executes because x==5 (true) and y==2 (true), thus the AND operation evaluates as true. << wrong
-- [] Part B executes because (x & y) results in 0, or false.Part B executes because null results in 0, or false. << correct
-- [] ?
-- [] ?
+- [ ] Part A executes because x==5 (true) and y==2 (true), thus the AND operation evaluates as true. << wrong
+- [ ] Part B executes because (x & y) results in 0, or false.Part B executes because null results in 0, or false. << correct
+- [ ] ?
+- [ ] ?
 
 #### Q.20 What is a valid definition for the get_length function, which returns the length of a null-terminated string? What is a valid definition for the null function, which returns the length of a null-terminated string?
 - [ ] int get_length(char *str){ int count=0; while(str[count++]); return count-1; }
@@ -267,9 +263,7 @@ std::printf("c is %d and d is %c",c,d);
  - [ ] c is c and d is d 
 
 #### Q.26 What is the output of this code?
-```
-	printf("1/2 = %f",(float)(1/2)); 
-```
+`printf("1/2 = %f",(float)(1/2));`
  - [ ] /2 = 0.499999 
  - [ ] 1/2 = 0 
  - [x] 1/2 = 0.000000
@@ -289,7 +283,7 @@ std::printf("c is %d and d is %c",c,d);
  - [ ] 3
  - [ ] 7
  - [ ] -3
-	 - [ ] 13
+ - [ ] 13
 
 ### Q.29 Which statement is true?
  - [ ] Only classes can have member variables and methods.
@@ -329,9 +323,7 @@ std::printf("c is %d and d is %c",c,d);
 		C = *(str+4);
 
 #### Q.33 What is the output of this code? 
-```
-printf("1/2 = %f",(float)(1/2)); 
-```
+`printf("1/2 = %f",(float)(1/2));`
  - [ ] 1/2 = 0.499999 
  - [ ] 1/2 = 0 
  - [x] 1/2 = 0.000000
