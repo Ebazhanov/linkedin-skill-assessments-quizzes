@@ -462,3 +462,22 @@ Note: thre are centres of clusters (C0, C1, C2).
 - [ ] 2
 - [ ] 3
 - [x] 4
+
+#### Q68. You create a decision tree to show whether someone decides to go to the beach. There are three factors in this decision: rainy, overcast, and sunny. What are these three factors called?
+- [ ] tree nodes
+- [ ] predictors
+- [ ] root nodes
+- [ ] deciders
+
+#### Q69. You need to quickly label thousands of images to train a model. What should you do?
+- [ ] Set up a cluster of machines to label the images
+- [ ] Create a subset of the images and label then yourself
+- [x] Use naive Bayes to automatically generate labels.
+- [ ] Hire people to manually label the images
+
+#### Q70. The fit line and data in the figure exhibits which pattern? 
+<image Q70>
+- [ ] low bias, high variance
+- [ ] high bias, low variance
+- [ ] high bias, high variance
+- [ ] low bias, low variance
