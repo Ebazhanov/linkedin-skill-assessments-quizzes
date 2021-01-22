@@ -2228,6 +2228,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "Basim108",
+      "name": "Basim Al-Jawahery",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11601933?v=4",
+      "profile": "https://github.com/Basim108",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
