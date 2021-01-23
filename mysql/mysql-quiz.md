@@ -508,3 +508,36 @@
 - [ ] STORAGE
 - [ ] TABLESPACE
 
+#### Q68. You are working with the table in this diagram. You want to use full-text search to find the customers who live on a street or a drive. What is the command to do that?
+Table name: customers
+| ID   | lastname | firstname | phone        | address             | city        | state | zip   |
+| ---- | -------- | --------- | ------------ | ------------------- | ----------- | ----- | ----- |
+| A001 | Smith    | Bob       | 212-555-1212 | 1001 1st Street     | New York    | NY    | 10001 |
+| A002 | Chang    | John      | 213-555-5678 | 888 Rodeo Drive     | Los Angeles | CA    | 90210 |
+| A003 | Smith    | Mary      | 999-999-9999 | 123 Main Street     | Anytown     | VA    | 12345 |
+| A004 | Johnson  | Jack      | 312-312-3120 | 1111 Chicago Avenue | Chicago     | IL    | 60606 |
+| A005 | Lopez    | Linda     | 737-777-3333 | 123 Main Street     | Austin      | TX    | 73344 |
+- [ ]
+```
+SELECT *
+FROM customers
+WHERE address MATCH 'Street' OR 'Drive';
+```
+- [ ]
+```
+SELECT *
+FROM customers
+WHERE MATCH(address) IN ('street, drive');
+```
+- [ ]
+```
+SELECT *
+FROM customers
+WHERE address MATCH 'Street' OR address MATCH 'Drive';
+```
+- [x]
+```
+SELECT *
+FROM customers
+WHERE MATCH(address) AGAINST ('street, drive');
+```
