@@ -877,3 +877,10 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] Inline elements can be nested inside block elements.
 - [x] Block elements can be nested inside inline elements.
 
+#### Q62. What is the best semantic to use Quotes in HTML?
+Steve Kruz Said: "He will Win"
+- [ ] `<q>`
+- [x] `<quote>`
+- [ ] `<blockquote>`
+- [ ] `<notation>`
+
