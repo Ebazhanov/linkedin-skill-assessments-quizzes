@@ -1,105 +1,103 @@
-Linkedin Quiz Answers, Skill Assessments Test
--------
+## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-226-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-234-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-> This repository does not pretend to give you all answers for LinkedIn questions, rather it's a starting guide to help you prepare for the LinkedIn skills quiz and to know what to expect in the main exam or which areas to target in your exam preparations. Should you have found some incorrect answers, or want to contribute your answers, please feel free to create any PR changes - all are welcome!
-
-:point_right: If you want to improve your skills on another test platform [**Pluralsight IQ Skill**](https://www.pluralsight.com/product/skill-iq)
-find **questions and answers** in **@Timo Körner** [repository](https://github.com/tik9/pluralsight-skill-test).
-
-| Pluralsight IQ Skill quiz                                                                                                | Status      |
-| ------------------------------------------------------------------------------------------------------------------------ | ----------- |
-|[Angular](https://github.com/tik9/pluralsight-skill-tests/blob/master/angular.md)| 18 answers|
-|[AngularJs](https://github.com/tik9/pluralsight-skill-tests/blob/master/angularjs.md)|18 answers|
-|[Aws Big Data](https://github.com/tik9/pluralsight-skill-tests/blob/master/aws_big_data.md)|18 answers|
-|[Aws Machine Learning](https://github.com/tik9/pluralsight-skill-tests/blob/master/aws_machine_learning.md)|18 answers|
-|[Building Websites](https://github.com/tik9/pluralsight-skill-tests/blob/master/building_websites.md)|18 answers|
-|[Building Web Apps with React](https://github.com/tik9/pluralsight-skill-tests/blob/master/building_web_apps_with_react.md)|18 answers
-|[Java](https://github.com/tik9/pluralsight-skill-tests/blob/master/java.md)|18 answers |
-|[Javascript](https://github.com/tik9/pluralsight-skill-tests/blob/master/javascript.md)|18 answers|
-|[Mysql](https://github.com/tik9/pluralsight-skill-tests/blob/master/mysql.md)|18 answers|
-|[Powershell](https://github.com/tik9/pluralsight-skill-tests/blob/master/powershell.md)|18 answers|
-|[Python Core](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_core.md)|18 answers|
-|[Python Data Analysis](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_data_analysis.md)|18 answers|
-|[Python applied Data Mining](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_applied_data_mining.md)|18 answers|
-|[Python Web Scraping](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_web_scraping.md)|18 answers|
-|[Python Exploratory Data Analysis](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_exploratory_data_analysis.md)|18 answers|
-|[Python Clean Data](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_clean_data.md)|18 answers|
-|[Python Data Visualization](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_data_visualization.md)|18 answers|
-
-<img src="https://monosnap.com/image/mf3OkeABEfjiAFjYC8d0l7cE6yf52E"/>
+> This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
 
 ### Table of Contents
 
-| Linkedin-quiz-questions                                                                                                                 |          |  Status     |
-| --------------------------------------------------------------------------------------------------------------------------------------- | ---------------|-------------- |
-| [Adobe-Illustrator](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-illustrator/adobe-illustrator-quiz.md)             | => 51 questions | answers required               |
-| [Adobe-Photoshop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/adobe-photoshop/adobe-photoshop-quiz.md)                   | => 36 questions | answers required               |
-| [Agile Methodologies](https://github.com/Ebazhanov/in-quiz-questions/blob/master/agile-methodologies/agile-methodologies-quiz.md)       | => 76 questions | with answers                   |
-| [Android](https://github.com/Ebazhanov/in-quiz-questions/blob/master/android/android-quiz.md)                                           | => 44 questions | answers required               |
-| [AngularJs](https://github.com/Ebazhanov/in-quiz-questions/blob/master/angularjs/angularjs-quiz.md)                                     | => 15 questions | answers required               |
-| [AWS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws/aws-quiz.md)                                                       | => 28 questions | answers required               |
-| [AWS-Lambda](https://github.com/Ebazhanov/in-quiz-questions/blob/master/aws-lambda/aws-lambda-quiz.md) :fire:                           | => 44 questions | with answers                   |
-| [Bash](https://github.com/Ebazhanov/in-quiz-questions/blob/master/bash/bash-quiz.md)                                   | => 53 questions | partially answered             |
-| [C#](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%23/c-sharp-quiz.md)                                  | => 48 questions | answers required               |
-| [C++](https://github.com/Ebazhanov/in-quiz-questions/blob/master/c%2B%2B/c%2B%2Bquiz.md)                               | => 33 questions | with answers                   |
-| [CSS](https://github.com/Ebazhanov/in-quiz-questions/blob/master/css/css-quiz.md)                                                       | => 54 questions |with answers                   |
-| [Django](https://github.com/Ebazhanov/in-quiz-questions/blob/master/django/django-quiz.md)                                              | => 48 questions |with answers                   |
-| [.NET Framework](https://github.com/Ebazhanov/in-quiz-questions/blob/master/dotnet-framework/dotnet-framework-quiz.md)                  | => 37 questions |partially answered             |
-| [Git](https://github.com/Ebazhanov/in-quiz-questions/blob/master/git/git-quiz.md) :star:                                                | => 90 questions |with answers                   |
-| [Google Analytics](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-analytics/google-analytics-quiz.md)                | => 65 questions |answers required               |
-| [Google Cloud Platform (GCP)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/google-cloud-platform/gcp-quiz.md)             | => 27 questions |with answers                   |
-| [Hadoop](https://github.com/Ebazhanov/in-quiz-questions/blob/master/hadoop/hadoop-quiz.md)                                              | => 18 questions |answers required               |
-| [HTML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/html/html-quiz.md)                                                    | => 61 questions |with answers                   |
-| [Java](https://github.com/Ebazhanov/in-quiz-questions/blob/master/java/java-quiz.md)                                                    | => 64 questions |with answers                   |
-| [Javascript](https://github.com/Ebazhanov/in-quiz-questions/blob/master/javascript/javascript-quiz.md)                                  | => 65 questions |partially answered             |
-| [jQuery](https://github.com/Ebazhanov/in-quiz-questions/blob/master/jquery/jquery-quiz.md) :open_mouth:                                 | => 50 questions |with answers                   |
-| [JSON](https://github.com/Ebazhanov/in-quiz-questions/blob/master/json/json-quiz.md)                                                    | => 51 questions |with answers                   |
-| [Machine Learning](https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/machine-learning-quiz.md)                | => 67 questions |answers required               |
-| Kotlin                                                                                                                                  | => 0 questions |NO question and NO answers yet |
-| [MATLAB](https://github.com/Ebazhanov/in-quiz-questions/blob/master/matlab/matlab-quiz.md)                                              | => 45 questions |with answers                   |
-| [Maven](https://github.com/Ebazhanov/in-quiz-questions/blob/master/maven/maven-quiz.md) :fire:                                          | => 34 questions |with answers                   |
-| [Microsoft Azure](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-azure/microsoft-azure-quiz.md)                   | => 44 questions |with answers                   |
-| [Microsoft Excel](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-excel/microsoft-excel-quiz.md)                   | => 48 questions |with answers                   |
-| [Microsoft Power BI](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-power-bi/microsoft-power-bi-quiz.md)          | => 26 questions |answers required               |
-| [Microsoft Power Point](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-power-point/microsoft-power-point-quiz.md) | => 21 questions |partially answered             |
-| [Microsoft Project](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-project/microsoft-project-quiz.md)             | => 41 questions |answers required               |
-| [Microsoft Word](https://github.com/Ebazhanov/in-quiz-questions/blob/master/microsoft-word/microsoft-word-quiz.md)                      | => 42 questions |with answers                   |
-| [MongoDB](https://github.com/Ebazhanov/in-quiz-questions/blob/master/mongodb/mongodb-quiz.md)                                           | => 46 questions |with answers                   |
-| [MySQL](https://github.com/Ebazhanov/in-quiz-questions/blob/master/mysql/mysql-quiz.md)                                                 | => 64 questions |answers required               |
-| [node.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/node.js/node.js-quiz.md)                                           | => 40 questions |with answers                   |
-| [NoSQL](https://github.com/Ebazhanov/in-quiz-questions/blob/master/nosql/nosql-quiz.md)                                                 | => 43 questions |with answers                   |
-| [objective-c](https://github.com/Ebazhanov/in-quiz-questions/blob/master/objective-c/objective-c_quiz.md)                               | => 33 questions |partially answered             |
-| [OOP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/oop/object-oriented-programming-quiz.md)                               | => 50 questions |with answers                   |
-| [PHP](https://github.com/Ebazhanov/in-quiz-questions/blob/master/php/php-quiz.md)                                                       | => 29 questions |partially answered             |
-| [Python](https://github.com/Ebazhanov/in-quiz-questions/blob/master/python/python-quiz.md)                                              | => 67 questions |with answers                   |
-| [R](https://github.com/Ebazhanov/in-quiz-questions/blob/master/r/r-quiz.md)                                                             | => 29 questions |partially answered             |
-| [React.js](https://github.com/Ebazhanov/in-quiz-questions/blob/master/react/reactjs-quiz.md) :rose:                                     | => 51 questions |with answers                   |
-| [REST API](https://github.com/Ebazhanov/in-quiz-questions/blob/master/rest-api/rest-api-quiz.md) :+1:                                   | => 34 questions |partially answered             |
-| [Scala](https://github.com/Ebazhanov/in-quiz-questions/blob/master/scala/scala-quiz.md)                                                 | => 25 questions | answers required               |
-| [Search Engine Optimization (SEO)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/seo/search-engine-optimization-quiz.md)   | => 30 questions |partially answered             |
-| [SharePoint](https://github.com/Ebazhanov/in-quiz-questions/blob/master/sharepoint/sharepoint-quiz.md)                                  | => 29 questions |with answers                   |
-| [Swift](https://github.com/Ebazhanov/in-quiz-questions/blob/master/swift/swift-quiz.md)                                                 | => 48 questions |with answers                   |
-| [Transact-SQL (T-SQL)](https://github.com/Ebazhanov/in-quiz-questions/blob/master/t-sql/t-sql-quiz.md)                                  | => 28 questions |with answers                   |
-| [Windows Server](https://github.com/Ebazhanov/in-quiz-questions/blob/master/windows-server/windows-server-quiz.md)                      | => 46 questions |partially answered             |
-| [WordPress](https://github.com/Ebazhanov/in-quiz-questions/blob/master/wordpress/wordpress-quiz.md)                                     | => 42 questions |partially answered             |
-| [XML](https://github.com/Ebazhanov/in-quiz-questions/blob/master/xml/xml-quiz.md)                                                       | => 21 questions |answers required               |
+| Linkedin-quiz-questions                                                      |                 | Status                         |
+| ---------------------------------------------------------------------------- | --------------- | ------------------------------ |
+| [Adobe-Illustrator](adobe-illustrator/adobe-illustrator-quiz.md)             | => 51 questions | answers required               |
+| [Adobe-Photoshop](adobe-photoshop/adobe-photoshop-quiz.md)                   | => 36 questions | answers required               |
+| [Agile Methodologies](agile-methodologies/agile-methodologies-quiz.md)       | => 76 questions | with answers                   |
+| [Android](android/android-quiz.md)                                           | => 44 questions | answers required               |
+| [AngularJs](angularjs/angularjs-quiz.md)                                     | => 15 questions | answers required               |
+| [AWS](aws/aws-quiz.md)                                                       | => 28 questions | answers required               |
+| [AWS-Lambda](aws-lambda/aws-lambda-quiz.md) :fire:                           | => 44 questions | with answers                   |
+| [Bash](bash/bash-quiz.md)                                                    | => 53 questions | partially answered             |
+| [C#](c%23/c-sharp-quiz.md)                                                   | => 48 questions | answers required               |
+| [C++](c%2B%2B/c%2B%2Bquiz.md)                                                | => 33 questions | with answers                   |
+| [C (Programming Language)](<c-(programming-language)/c-quiz.md>)             | => 25 questions | with answers                   |
+| [CSS](css/css-quiz.md)                                                       | => 54 questions | with answers                   |
+| [Django](django/django-quiz.md)                                              | => 48 questions | with answers                   |
+| [.NET Framework](dotnet-framework/dotnet-framework-quiz.md)                  | => 37 questions | partially answered             |
+| [Git](git/git-quiz.md) :star:                                                | => 90 questions | with answers                   |
+| [Google Analytics](google-analytics/google-analytics-quiz.md)                | => 65 questions | answers required               |
+| [Google Cloud Platform (GCP)](google-cloud-platform/gcp-quiz.md)             | => 27 questions | with answers                   |
+| [Hadoop](hadoop/hadoop-quiz.md)                                              | => 18 questions | answers required               |
+| [HTML](html/html-quiz.md)                                                    | => 61 questions | with answers                   |
+| [Java](java/java-quiz.md)                                                    | => 64 questions | with answers                   |
+| [Javascript](javascript/javascript-quiz.md)                                  | => 65 questions | partially answered             |
+| [jQuery](jquery/jquery-quiz.md) :open_mouth:                                 | => 50 questions | with answers                   |
+| [JSON](json/json-quiz.md)                                                    | => 51 questions | with answers                   |
+| [Machine Learning](machine-learning/machine-learning-quiz.md)                | => 67 questions | answers required               |
+| Kotlin                                                                       | => 0 questions  | NO question and NO answers yet |
+| [MATLAB](matlab/matlab-quiz.md)                                              | => 45 questions | with answers                   |
+| [Maven](maven/maven-quiz.md) :fire:                                          | => 34 questions | with answers                   |
+| [Microsoft Azure](microsoft-azure/microsoft-azure-quiz.md)                   | => 44 questions | with answers                   |
+| [Microsoft Excel](microsoft-excel/microsoft-excel-quiz.md)                   | => 48 questions | with answers                   |
+| [Microsoft Power BI](microsoft-power-bi/microsoft-power-bi-quiz.md)          | => 26 questions | answers required               |
+| [Microsoft Power Point](microsoft-power-point/microsoft-power-point-quiz.md) | => 21 questions | partially answered             |
+| [Microsoft Project](microsoft-project/microsoft-project-quiz.md)             | => 41 questions | answers required               |
+| [Microsoft Word](microsoft-word/microsoft-word-quiz.md)                      | => 42 questions | with answers                   |
+| [MongoDB](mongodb/mongodb-quiz.md)                                           | => 46 questions | with answers                   |
+| [MySQL](mysql/mysql-quiz.md)                                                 | => 64 questions | answers required               |
+| [node.js](node.js/node.js-quiz.md)                                           | => 40 questions | with answers                   |
+| [NoSQL](nosql/nosql-quiz.md)                                                 | => 43 questions | with answers                   |
+| [objective-c](objective-c/objective-c-quiz.md)                               | => 33 questions | partially answered             |
+| [OOP](oop/object-oriented-programming-quiz.md)                               | => 50 questions | with answers                   |
+| [PHP](php/php-quiz.md)                                                       | => 29 questions | partially answered             |
+| [Python](python/python-quiz.md)                                              | => 67 questions | with answers                   |
+| [R](r/r-quiz.md)                                                             | => 29 questions | partially answered             |
+| [React.js](react/reactjs-quiz.md) :rose:                                     | => 51 questions | with answers                   |
+| [REST API](rest-api/rest-api-quiz.md) :+1:                                   | => 34 questions | partially answered             |
+| [Scala](scala/scala-quiz.md)                                                 | => 25 questions | answers required               |
+| [Search Engine Optimization (SEO)](seo/search-engine-optimization-quiz.md)   | => 30 questions | partially answered             |
+| [SharePoint](sharepoint/sharepoint-quiz.md)                                  | => 29 questions | with answers                   |
+| [Swift](swift/swift-quiz.md)                                                 | => 48 questions | with answers                   |
+| [Transact-SQL (T-SQL)](t-sql/t-sql-quiz.md)                                  | => 28 questions | with answers                   |
+| [Visual Basic for Applications (VBA)](vba/vba-quiz.md)                       | => 11 questions | answers required               |
+| [Windows Server](windows-server/windows-server-quiz.md)                      | => 46 questions | partially answered             |
+| [WordPress](wordpress/wordpress-quiz.md)                                     | => 42 questions | partially answered             |
+| [XML](xml/xml-quiz.md)                                                       | => 21 questions | answers required               |
 
-&nbsp;
+:point_right: If you want to improve your skills on another test platform [**Pluralsight IQ Skill**](https://www.pluralsight.com/product/skill-iq)
+find **questions and answers** in **@Timo Körner** [repository](https://github.com/tik9/pluralsight-skill-test):
+
+| Pluralsight IQ Skill quiz                                                                                                           | Status     |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| [Angular](https://github.com/tik9/pluralsight-skill-tests/blob/master/angular.md)                                                   | 18 answers |
+| [AngularJs](https://github.com/tik9/pluralsight-skill-tests/blob/master/angularjs.md)                                               | 18 answers |
+| [Aws Big Data](https://github.com/tik9/pluralsight-skill-tests/blob/master/aws_big_data.md)                                         | 18 answers |
+| [Aws Machine Learning](https://github.com/tik9/pluralsight-skill-tests/blob/master/aws_machine_learning.md)                         | 18 answers |
+| [Building Websites](https://github.com/tik9/pluralsight-skill-tests/blob/master/building_websites.md)                               | 18 answers |
+| [Building Web Apps with React](https://github.com/tik9/pluralsight-skill-tests/blob/master/building_web_apps_with_react.md)         | 18 answers |
+| [Java](https://github.com/tik9/pluralsight-skill-tests/blob/master/java.md)                                                         | 18 answers |
+| [Javascript](https://github.com/tik9/pluralsight-skill-tests/blob/master/javascript.md)                                             | 18 answers |
+| [Mysql](https://github.com/tik9/pluralsight-skill-tests/blob/master/mysql.md)                                                       | 18 answers |
+| [Powershell](https://github.com/tik9/pluralsight-skill-tests/blob/master/powershell.md)                                             | 18 answers |
+| [Python Core](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_core.md)                                           | 18 answers |
+| [Python Data Analysis](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_data_analysis.md)                         | 18 answers |
+| [Python applied Data Mining](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_applied_data_mining.md)             | 18 answers |
+| [Python Web Scraping](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_web_scraping.md)                           | 18 answers |
+| [Python Exploratory Data Analysis](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_exploratory_data_analysis.md) | 18 answers |
+| [Python Clean Data](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_clean_data.md)                               | 18 answers |
+| [Python Data Visualization](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_data_visualization.md)               | 18 answers |
+
+<img src="https://monosnap.com/image/mf3OkeABEfjiAFjYC8d0l7cE6yf52E"/>
+
 
 ## Format
 
-We recommend to format files using [Prettier](https://prettier.io/) code formatter. Prettier comes installed with the IDE [Vscode](code.visualstudio.com) which we recommend for preparing the md files. It works on all OS.
+We recommend formatting files using [Prettier](https://prettier.io/) code formatter. Prettier comes installed with the IDE [Vscode](code.visualstudio.com) which we recommend for preparing the md files. It works on all OS.
 If you want to run it independently, get **npm** and:
 
 ```sh
 npm run format
 ```
-
-&nbsp;
 
 ## Contributors ✨
 
@@ -400,6 +398,16 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://dev-mdminhaj.github.io"><img src="https://avatars2.githubusercontent.com/u/64159776?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Muhammad Minhaj</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=dev-mdminhaj" title="Code">💻</a></td>
     <td align="center"><a href="https://chandrikadeb7.github.io"><img src="https://avatars2.githubusercontent.com/u/29686102?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chandrika Deb</b></sub></a><br /><a href="#design-chandrikadeb7" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/Gitgit101-bit"><img src="https://avatars3.githubusercontent.com/u/52999282?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gitgit101-bit</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Gitgit101-bit" title="Code">💻</a> <a href="#design-Gitgit101-bit" title="Design">🎨</a></td>
+    <td align="center"><a href="https://gamejolt.com/@hedi-sellami"><img src="https://avatars2.githubusercontent.com/u/24782334?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hedi Sellami</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=hedi-sel" title="Code">💻</a> <a href="#design-hedi-sel" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/saurabhvaish93"><img src="https://avatars.githubusercontent.com/u/57400294?v=4?s=100" width="100px;" alt=""/><br /><sub><b>saurabhvaish93</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=saurabhvaish93" title="Code">💻</a> <a href="#design-saurabhvaish93" title="Design">🎨</a></td>
+    <td align="center"><a href="https://www.upwork.com/fl/nikolabegovic"><img src="https://avatars.githubusercontent.com/u/34249215?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nikola Begovic</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=BegovicNikola" title="Code">💻</a> <a href="#design-BegovicNikola" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/nkhs"><img src="https://avatars.githubusercontent.com/u/29690436?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Wang</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=nkhs" title="Code">💻</a> <a href="#design-nkhs" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://medium.com/@manueldepaz"><img src="https://avatars.githubusercontent.com/u/2047107?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Manuel Eusebio de Paz Carmona</b></sub></a><br /><a href="#design-Pelirrojo" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/Basim108"><img src="https://avatars.githubusercontent.com/u/11601933?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Basim Al-Jawahery</b></sub></a><br /><a href="#design-Basim108" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Basim108" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/AhmedRaja1"><img src="https://avatars.githubusercontent.com/u/52793181?v=4?s=100" width="100px;" alt=""/><br /><sub><b>RAJA AHMED</b></sub></a><br /><a href="#design-AhmedRaja1" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=AhmedRaja1" title="Code">💻</a></td>
   </tr>
 </table>
 
