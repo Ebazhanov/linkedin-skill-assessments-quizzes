@@ -302,3 +302,15 @@
 - [ ] A heavy border appears around the range that is occupied by the array formula.
 - [x] In the formula bar, an array formula appears surrounded by curly brackets.
 - [ ] When a cell that contains an array formula is selected, range finders appear on the worksheet around the formula's precedent cells.
+
+#### Q51. In a worksheet, column A contains employee last names, column B contains their middle initials (if any), and column C contains their first names. Which tool can combine the last names, initials, and first names in column D without using a worksheet formula?
+- [ ] Concatenation
+- [ ] Columns to Text
+- [ ] Flash Fill
+- [ ] AutoFill
+
+#### Q52. Which formula returns the  value in cell A10 of the worksheet named Budget Variances? 
+- [ ] ='Budget Variances'!A10
+- [ ] ='Budget Variances!A10'
+- [ ] ="BudgetVariances!A10"
+- [ ] ="BudgetVariances"!A10
