@@ -229,7 +229,7 @@ else{ /_part B_/ }
 
 #### Q.22 What is the meaning of the three sections specified between parentheses in a for loop separated by semicolons?
  - [ ] The first is the iterating variable name, the second is the number of times to iterate, and the third is the desired increment or decrement (specified with a signed integer).
- - [ ] The first is the initialization block, the second is the condition to iterate, and the third is the increment block. 
+ - [x] The first is the initialization block, the second is the condition to iterate, and the third is the increment block. 
  - [ ] The first is the iterating variable, the second is the container in which it should operate, and the third is an exit condition to abort at any time.
  - [ ] The first is the iterating variable name, the second is the starting value for the iterating variable, and the third is the stop value (the last value plus one).
 
