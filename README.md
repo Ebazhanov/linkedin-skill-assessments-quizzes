@@ -30,7 +30,7 @@
 | [Hadoop](hadoop/hadoop-quiz.md)                                              | => 18 questions | answers required               |
 | [HTML](html/html-quiz.md)                                                    | => 61 questions | with answers                   |
 | [Java](java/java-quiz.md)                                                    | => 64 questions | with answers                   |
-| [Javascript](javascript/javascript-quiz.md)                                  | => 65 questions | partially answered             |
+| [Javascript](javascript/javascript-quiz.md)                                  | => 69 questions | with answers                   |
 | [jQuery](jquery/jquery-quiz.md) :open_mouth:                                 | => 50 questions | with answers                   |
 | [JSON](json/json-quiz.md)                                                    | => 51 questions | with answers                   |
 | [Machine Learning](machine-learning/machine-learning-quiz.md)                | => 67 questions | answers required               |
