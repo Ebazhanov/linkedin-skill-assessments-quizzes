@@ -2266,6 +2266,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "HassanShahzad7",
+      "name": "Hassan Shahzad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37936447?v=4",
+      "profile": "https://hassanshahzad.urspace.io/",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
