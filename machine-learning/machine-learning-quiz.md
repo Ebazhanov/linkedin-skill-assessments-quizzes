@@ -552,4 +552,4 @@ Note: thre are centres of clusters (C0, C1, C2).
 - [ ] low bias, high variance
 - [ ] high bias, low variance
 - [ ] high bias, high variance
-- [ ] low bias, low variance
+- [x] low bias, low variance // since the data is accurately classified and is neither overfitting or underfitting the dataset
