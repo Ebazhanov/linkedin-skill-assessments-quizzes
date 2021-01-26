@@ -221,7 +221,7 @@ dessert.type = 'pudding';
 - [ ] \++
 - [ ] \--
 - [ ] \==
-- [x] ||
+- [x] \|\|
 
 #### Q26. Which statement sets the Person constructor as the parent of the Student constructor in the prototype chain?
 - [ ] Student.parent = Person;
