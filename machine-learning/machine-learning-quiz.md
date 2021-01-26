@@ -74,7 +74,7 @@
 - [ ] K-nearest neighbor
 - [ ] a clear trendline
 
-#### Q11. You for power company that owns hundreds of thousands of electric meters. These meters are connected to the internet and transmit energy usage data in real-time. Your supervisor asks you to direct project to use machine learning to analyze this usage data. Why are machine learning algorithms ideal in this scenario?
+#### Q11. You work for a power company that owns hundreds of thousands of electric meters. These meters are connected to the internet and transmit energy usage data in real-time. Your supervisor asks you to direct project to use machine learning to analyze this usage data. Why are machine learning algorithms ideal in this scenario?
 
 - [ ] The algorithms would help the meters access the internet.
 - [ ] The algorithms will improve the wireless connectivity.
@@ -359,9 +359,9 @@ Note: thre are centres of clusters (C0, C1, C2).
 #### Q46. The supervisor asks to create a ml system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?
 
 - [ ] deep learning artificial neural network that relies on petabytes of data
-- [x] unsupervised ml system that clusters together the best candidates
+- [ ] unsupervised ml system that clusters together the best candidates
 - [ ] Not recommend ml for this project
-- [ ] supervised ml system that classifies applicants into existing groups
+- [x] supervised ml system that classifies applicants into existing groups // we do not need to classify best candidates we just need to classify job applicants in to existing categories
 
 #### Q47. Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?
 
@@ -534,7 +534,7 @@ Note: thre are centres of clusters (C0, C1, C2).
 #### Q68. You create a decision tree to show whether someone decides to go to the beach. There are three factors in this decision: rainy, overcast, and sunny. What are these three factors called?
 
 - [ ] tree nodes
-- [ ] predictors
+- [x] predictors // these nodes decide whether the someone decides to go to beach or not, for example if its rainy people will mostly refrain from going to beach
 - [ ] root nodes
 - [ ] deciders
 
