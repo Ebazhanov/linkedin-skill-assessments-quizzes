@@ -2,7 +2,7 @@
   "name": "in-quiz-questions",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Ebazhanov/in-quiz-questions.git",
+  "repository": "https://github.com/Ebazhanov/linkedin-quiz-skill-assessments.git",
   "author": "Evgeny Bazhanov <evg.bazhanov@yahoo.com>",
   "license": "MIT",
   "scripts": {
