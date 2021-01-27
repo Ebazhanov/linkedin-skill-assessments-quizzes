@@ -405,3 +405,25 @@ echo $books->book[0]->categories->category[1];
 - [x] print $first_name, ' ', $familiy_name;
 - [ ] print $first_name. ' '. $familiy_name;
 - [ ] echo $first_name, ' ', $familiy_name;
+
+#### Q34. Which code snippet demonstrates encapsulation?
+- [ ] class Cow extends Animal {
+    private $milk;
+    }
+- [ ] class Cow {
+        public $milk;
+        }
+        $daisy = new Cow();
+        $daisy-&gt;milk = "creamy";
+- [ ] class Cow {
+        public $milk;
+            function getMilk() {
+                return $this->milk;
+            }
+        }
+- [x] class Cow {
+        private $milk;
+            public function getMilk() {
+                return $this->milk;
+            }
+        }
