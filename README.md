@@ -48,6 +48,7 @@
 | [node.js](node.js/node.js-quiz.md)                                           | => 40 questions | with answers                   |
 | [NoSQL](nosql/nosql-quiz.md)                                                 | => 43 questions | with answers                   |
 | [objective-c](objective-c/objective-c-quiz.md)                               | => 33 questions | partially answered             |
+| [Outlook](outlook/outlook-quiz.md)                                           | => 12 questions | no answers                     |
 | [OOP](oop/object-oriented-programming-quiz.md)                               | => 50 questions | with answers                   |
 | [PHP](php/php-quiz.md)                                                       | => 29 questions | partially answered             |
 | [Python](python/python-quiz.md)                                              | => 67 questions | with answers                   |
