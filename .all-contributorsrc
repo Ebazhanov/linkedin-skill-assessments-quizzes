@@ -2286,6 +2286,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "HrHasnai",
+      "name": "Hasnain Rasheed",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60227425?v=4",
+      "profile": "https://github.com/HrHasnai",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
