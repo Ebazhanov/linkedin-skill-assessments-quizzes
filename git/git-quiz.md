@@ -158,12 +158,12 @@ modified: beta-notes.js
 - [ ] git cache
 
 #### Q20. What commands would you use to force an overwrite of your local files with the master branch?
-- [ ] 
+- [ ]
 ```
 git pull --all
 git reset --hard origin/master
 ```
-- [ ] 
+- [ ]
 ```
 git pull -u origin master
 git reset --hard master
@@ -350,7 +350,7 @@ modified: beta-notes.js
 - [x] 2
 - [ ] 4
 
-In Git, there are two main ways to integrate changes from one branch into another: the merge and the rebase. 
+In Git, there are two main ways to integrate changes from one branch into another: the merge and the rebase.
 [Reference](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
 #### Q46. Which user should be created first during setting up of SSH?
@@ -629,3 +629,15 @@ Which of the following options is correct ?
 - [ ] git branch --status
 - [x] git branch --merged
 - [ ] git status --merged
+
+#### Q91. How would you configure Git to abort a commit if a smoke test script fails?
+- [ ] Create a post-commit shell script that triggers the action.
+- [ ] Create a post-commit hook to trigger the script.
+- [x] Create a pre-commit hook to trigger the script.
+- [ ] Create a pre-commit shell script that triggers the action.
+
+#### Q92. Which use case is **NOT** a good candidate for a Git hook?
+- [x] state dependent environment changes
+- [ ] continuous integration
+- [ ] increasing code coverage
+- [ ] enforcing commit rules
