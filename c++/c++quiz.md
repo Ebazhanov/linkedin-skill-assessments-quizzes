@@ -330,7 +330,7 @@ std::printf("c is %d and d is %c",c,d);
  - [ ] 1/2 = 0.5 
  
 #### Q34. Which choice is the correct declaration for the class named Dog, derived from the Animal class?
-which of the following is a correct implementation of a structure with bit fields for this application?
+
 - [x] 
 ```
 class Dog :: public Animal  {
@@ -355,4 +355,3 @@ public class Dog extends Animal {
    //....
 };
 ```
-
