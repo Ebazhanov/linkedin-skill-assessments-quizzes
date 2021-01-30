@@ -2296,6 +2296,15 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "T-Radford",
+      "name": "T-Radford",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46270573?v=4",
+      "profile": "https://github.com/T-Radford",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
