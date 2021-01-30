@@ -610,3 +610,159 @@ p:first-child {
 2. Only positive number can be used.
 3. z-index must also be used with positioned elements.
 ```
+#### Q58. You have a large image that needs to fit into a 400 x 200 pixel area. What should you resize the image to if your users are using Retina displays?
+- [ ] 2000 x 1400 pixels
+- [ ] 200 x 100 pixels
+- [x] 800 x 400 pixels
+- [ ] 400 x 200 pixels
+
+#### Q59. In Chrome's Developer Tools view, where are the default styles listed?
+- [x] under the User Agent Stylesheet section on the right
+- [ ] in the third panel under the Layout tab
+- [ ] under the HTML view on the left
+- [ ] in the middle panel
+
+#### Q60. While HTML controls document structure, CSS controls _____.
+- [ ] semantic meaning
+- [ ] content meaning
+- [ ] document structure
+- [x] content appearance
+
+#### Q61. What is the recommended name you should give the folder that holds your project's images?
+- [x] images
+- [ ] #images
+- [ ] Images
+- [ ] my images
+
+#### Q62. What is an advantage of using inline CSS?
+- [ ] It is easier to manage.
+- [x] It is easier to add multiple styles through it.
+- [ ] It can be used to quickly test local CSS overrides.
+- [ ] It reduces conflict with other CSS definition methods.
+
+#### Q63.Which W3C status code represents a CSS specification that is fully implemented by modern browsers?
+- [ ] Proposed Recommendation
+- [ ] Working Draft
+- [x] Recommendation
+- [ ] Candidate Recommendation
+### Q64. Are any of the following declarations invalid?
+```
+color: red;   /* declaration A */
+font-size: 1em;   /* declaration B */
+padding: 10px 0;   /* declaration C */
+```
+- [ ] Declaration A is invalid.
+- [ ] Declaration B is invalid.
+- [ ] Declaration C is invalid.
+- [x] All declarations are valid.
+### Q65. Which CSS will cause your links to have a solid blue background that changes to semitransparent on hover?
+- [x]
+```markdown
+a:link { background: #0000ff; }
+a:hover { background: rgba(0,0,255,0.5); }
+```
+- [ ]
+```markdown
+a { color: blue; }
+a:hover { background: white; }
+```
+- [ ]
+```markdown
+a:link { background: blue; }
+a:hover { color: rgba(0,0,255,0.5); }
+```
+- [ ]
+```markdown
+a:hover { background: rgba(blue,50%); }
+a:link { background: rgba(blue); }
+```
+### Q66. Which CSS rule takes precedence over the others listed?
+- [ ] div.sidebar {}
+- [ ] * {}
+- [x] div#sidebar2 p {}
+- [ ] .sidebar p {}
+
+### Q67. The body of your page includes some HTML sections. How will it look with the following CSS applied?
+
+```
+body {
+  background: #ffffff; /* white */
+}
+section {
+  background: 0000ff; /*blue*/
+  height: 200px;
+}
+```
+- [x] blue sections on a white background
+- [ ] Yellow sections on a blue background
+- [ ] Green sections on a white background
+- [ ] blue sections on a red background
+
+### Q68. Which CSS keyword can you use to override standard source order and specificity rules?
+- [ ] !elevate!
+- [ ] *prime
+- [ ] override
+- [x] !important
+
+### Q69. You can use the _____ pseudo-class to set a different color on a link if it was clicked on.
+- [x] a:visited
+- [ ] a:hover
+- [ ] a:link
+- [ ] a:focus
+
+### Q70. Which color will look the brightest on your screen, assuming the background is white?
+- [ ] background-color: #aaa;
+- [ ] background-color: #999999;
+- [ ] background-color: rgba(170,170,170,0.5);
+- [x] background-color: rgba(170,170,170,0.2);
+
+### Q71. Which CSS selector can you use to select all elements on your page associated with the two classes header and clear?
+- [ ] ."header clear" {}
+- [ ] header#clear {}
+- [x] .header.clear {}
+- [ ] .header clear {}
+
+### Q72. A universal selector is specified using a(n) _____.
+- [ ] "h1" string
+- [ ] "a" character
+- [ ] "p" character
+- [x] "*" character
+### Q73. In the following CSS code, 'h1' is the _____, while 'color' is the _____.
+```
+h1 {
+  color: red;
+}
+```
+- [ ] property; declaration
+- [ ] declaration; rule
+- [ ] "p" character
+- [x] selector; property
+
+### Q74. What is an alternate way to define the following CSS rule?
+```
+font-weight: bold;
+
+```
+- [ ] font-weight: 400;
+- [ ] font-weight: medium;
+- [x] font-weight: 700;
+- [ ] font-weight: Black;
+
+### Q75. You want your styling to be based on a font stack consisting of three fonts. Where should the generic font for your font family be specified?
+- [ ] It should be the first one on the list.
+- [ ] Generic fonts are discouraged from this list.
+- [x] It should be the last one on the list.
+- [ ] It should be the second one on the list.
+
+### Q76. What is one disadvantage of using a web font service?
+- [ ] It requires you to host font files on your own server.
+- [ ] It uses more of your site's bandwidth.
+- [ ] It offers a narrow selection of custom fonts.
+- [x] It is not always a free service.
+
+### Q77. How do you add Google fonts to your project?
+- [x] by using an HTML link element referring to a Google-provided CSS
+- [ ] by embedding the font file directly into the project's master JavaScript
+- [ ] by using a Google-specific CSS syntax that directly links to the desired font file
+- [ ] by using a standard font-face CSS definition sourcing a font file on Google's servers
+
