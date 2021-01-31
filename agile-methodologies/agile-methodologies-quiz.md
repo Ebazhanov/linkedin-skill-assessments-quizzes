@@ -114,10 +114,11 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [x] This is not a good idea because it can destroy the team unity that is essential to achieving high performance.
 
 #### Q19. What is a difference between a team's task board and a Kanban?
-- [ ] A Kanban has an explicit rule to limit WIP.
+- [x] A Kanban has an explicit rule to limit WIP. (explicit rule applies to scrum team's task board: tasks cannot be added to the scrum board in the middle of a sprint)
 - [ ] A Kanban shows the backlog of work.
 - [ ] A Kanban does not use a Definition of Done.
-- [x] A Kanban shows the status of the work items.
+- [ ] A Kanban shows the status of the work items.
+[(Source)](https://www.lucidchart.com/blog/kanban-vs-scrum#:~:text=Both%20boards%20are%20used%20to,can%20be%20more%20easily%20adapted.)
 
 #### Q20. The team complains that "things have been falling through the cracks lately." What should you do?
 - [ ] Ask the team's manager to make role assignments so the team can catch up.
