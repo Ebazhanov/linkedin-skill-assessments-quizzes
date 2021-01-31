@@ -297,7 +297,7 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [ ] Work Flow Indicator
 - [ ] Value Stream Map
 - [ ] Story Map
-- [x] Kanban Beard
+- [x] Kanban Board
 
 #### Q50. Which is the best definition of story points?
 - [x] They are a relative measure of the effort needed to complete a story.
