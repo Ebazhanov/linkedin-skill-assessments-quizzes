@@ -359,7 +359,7 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [ ] the Scrum Master
 - [ ] the Engineering Manager
 
-#### Q60. What happens in Splint 0?
+#### Q60. What happens in Sprint 0?
 - [ ] The team delivers no story points in that sprint.
 - [ ] The team does regression testing prior to release to production.
 - [x] The team prepares to work on the product backlog.
@@ -402,10 +402,11 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [ ] the Siebert model
 
 #### Q67. What is the name of the ceremony in which you inspect the work completed during the sprint?
-- [ ] Sprint Retrospective
-- [x] Sprint Review //Answer?
+- [ ] Sprint Retrospective (reflect on the previous sprint, discuss what’s working well, what could be improved, and how to improve it to be more productive)
+- [x] Sprint Review (discuss what has been accomplished during the sprint and whether the sprint goal has been met)
 - [ ] Next-Sprint Planning
 - [ ] Velocity Confirmation
+[(Source)](https://startinfinity.com/product-management-framework/scrum-sprint/sprint-review-vs-sprint-retrospective)
 
 #### Q68. Which choice best describes an Agile Release Train (ART)?
 - [x] continuous delivery
@@ -433,9 +434,10 @@ It is suggested that high business value, high-risk items are worked on first. W
 
 #### Q72. What does the Definition of Ready mean?
 - [ ] The story has been tested end is ready for release to production.
-- [x] The story is ready to be brought into a sprint. //Answer?
+- [x] The story is ready to be brought into a sprint.
 - [ ] The stakeholders are ready to discuss their requirements for story.
 - [ ] The team has completed sprint 0 and is ready to work.
+Definition of Ready means that stories must be immediately actionable. The Team must be able to determine what needs to be done and the amount of work required to complete the User Story.  [(Source)](https://www.scruminc.com/definition-of-ready/#:~:text=Having%20a%20Definition%20of%20Ready,the%20User%20Story%20or%20PBI.)
 
 #### Q73. Which is NOT a principle of the Scaled Agile Framework?
 - [ ] Centralize decision-making
