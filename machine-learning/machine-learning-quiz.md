@@ -196,7 +196,7 @@
 - [ ] a linear regression
 - [x] a K-means cluster
 
-Note: thre are centres of clusters (C0, C1, C2).
+Note: there are centres of clusters (C0, C1, C2).
 
 #### Q27. Random forest is modified and improved version of which earlier technique?
 
@@ -233,7 +233,7 @@ Note: thre are centres of clusters (C0, C1, C2).
 - [ ] KNN
 - [ ] deep neural network
 
-#### Q32. Your data science team wants to use the K-nearest neighbor classification algorithm. Someone on your team wants w use a K of 25. What are the challenges of this approach?
+#### Q32. Your data science team wants to use the K-nearest neighbor classification algorithm. Someone on your team wants to use a K of 25. What are the challenges of this approach?
 
 - [ ] Higher K values will produce noisy data.
 - [ ] Higher K values lower the bias but increase the variance.
@@ -347,7 +347,7 @@ Note: thre are centres of clusters (C0, C1, C2).
 - [ ] availability
 - [ ] algorithms
 
-#### Q45. What is the diagram a good example of ?
+#### Q45. What is this diagram a good example of?
 
 ![Machine Learning Q45](images/machine-learning_Q45.jpg)
 
@@ -376,7 +376,10 @@ Note: thre are centres of clusters (C0, C1, C2).
 
 #### Q49. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of fotos without them. What is the problem?
 
--[ ] Overfitting the model to the data -[ ] Smaller training set needed -[x] Underfitting the model to the data -[ ] larger training set needed
+-[ ] You are overfitting the model to the data 
+-[ ] You need a smaller training set 
+-[x] You are underfitting the model to the data 
+-[ ] You need a larger training set
 
 #### Q50. Your supervisor asks you to create a machine learning system that will help your human resources department classify jobs applicants into well defined groups. What type of system are you more likely to recommend?
 
