@@ -301,7 +301,7 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [ ] `public void delegate ResultCallback<int responseCode>`;
 
 #### Q41. What is the difference between non-static and static classes?
-- [ ] non-static classes need to be initialized before use, while static classes do not
+- [X] non-static classes need to be initialized before use, while static classes do not
 - [ ] non-static classes are accessible only from an interface while static classes are accessible from anywhere
 - [ ] non-static classes need to initialize all class members at runtime, while static classes do not
 - [ ] non-static classes do not need to be initialized while static classes do
