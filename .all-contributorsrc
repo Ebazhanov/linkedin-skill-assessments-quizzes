@@ -2335,6 +2335,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "thomasyoung-audet",
+      "name": "Thomas Young-Audet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8418461?v=4",
+      "profile": "https://github.com/thomasyoung-audet",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
