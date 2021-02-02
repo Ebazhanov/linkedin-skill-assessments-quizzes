@@ -325,3 +325,8 @@
  - [x] to separate class behaviour from the more general to the more specific
  - [ ] to delegate coding responsibility more efficiently
 
+ #### Q51. What is a reference to an object?
+  - [ ] It is the address of variable only -- not the method of an object.
+  - [ ] It is a shallow pointer that conatins address of an object.
+  - [ ] It is the physical address of an object.
+  - [x] It is the address where the variables and methods of an object are stored.
