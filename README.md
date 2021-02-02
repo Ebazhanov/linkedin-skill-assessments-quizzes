@@ -39,6 +39,7 @@
 | [Maven](maven/maven-quiz.md) :fire:                                          | => 34 questions | with answers                   |
 | [Microsoft Azure](microsoft-azure/microsoft-azure-quiz.md)                   | => 44 questions | with answers                   |
 | [Microsoft Excel](microsoft-excel/microsoft-excel-quiz.md)                   | => 48 questions | with answers                   |
+| [Microsoft Outlook](microsoft-outlook/microsoft-outlook-quiz.md)                                           | => 12 questions | no answers                     |
 | [Microsoft Power BI](microsoft-power-bi/microsoft-power-bi-quiz.md)          | => 26 questions | answers required               |
 | [Microsoft Power Point](microsoft-power-point/microsoft-power-point-quiz.md) | => 21 questions | partially answered             |
 | [Microsoft Project](microsoft-project/microsoft-project-quiz.md)             | => 41 questions | answers required               |
@@ -48,7 +49,6 @@
 | [node.js](node.js/node.js-quiz.md)                                           | => 40 questions | with answers                   |
 | [NoSQL](nosql/nosql-quiz.md)                                                 | => 43 questions | with answers                   |
 | [objective-c](objective-c/objective-c-quiz.md)                               | => 33 questions | partially answered             |
-| [Outlook](outlook/outlook-quiz.md)                                           | => 12 questions | no answers                     |
 | [OOP](oop/object-oriented-programming-quiz.md)                               | => 50 questions | with answers                   |
 | [PHP](php/php-quiz.md)                                                       | => 29 questions | partially answered             |
 | [Python](python/python-quiz.md)                                              | => 67 questions | with answers                   |
