@@ -98,7 +98,7 @@
 
 #### Q17. Which access protocol does Azure Files not support?
 - [ ] Network File System (NFS)
-- [x] HTTP 
+- [x] HTTPS
 - [ ] REST API
 - [ ] Server Message Block(SMB)
 
@@ -283,3 +283,9 @@
 - [ ] Event Grid
 - [ ] Service Bus
 - [ ] Queue Storage
+
+#### Q45. In Azure Key Vault, you can manage access to your application secrets by setting permissions at any level except ______.
+- [ ] on the secret itself
+- [ ] by secret type
+- [ ] on the Key Vault instance
+- [x] at the Azure Subscription level
