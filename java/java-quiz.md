@@ -802,3 +802,9 @@ public static void main(String[] args) {
 - [ ] native
 - [ ] interface
 - [X] unsigned
+
+#### Q65. Which operator would you use to find the remainder after division?
+- [X] %
+- [ ] //
+- [ ] /
+- [ ] DIV
