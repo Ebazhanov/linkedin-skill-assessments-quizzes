@@ -2325,6 +2325,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "Pjumpod",
+      "name": "Jumpod Plekhongthu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13193747?v=4",
+      "profile": "https://www.facebook.com/Muangthai.sriracha",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
