@@ -1,7 +1,9 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-246-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
@@ -35,11 +37,12 @@
 | [JSON](json/json-quiz.md)                                                    | => 51 questions | with answers                   |
 | [Machine Learning](machine-learning/machine-learning-quiz.md)                | => 67 questions | answers required               |
 | Kotlin                                                                       | => 0 questions  | NO question and NO answers yet |
+| [Linux](linux/linux-assesment.md)                                            | => 34 questions | 30 answers                     |
 | [MATLAB](matlab/matlab-quiz.md)                                              | => 45 questions | with answers                   |
 | [Maven](maven/maven-quiz.md) :fire:                                          | => 34 questions | with answers                   |
 | [Microsoft Azure](microsoft-azure/microsoft-azure-quiz.md)                   | => 44 questions | with answers                   |
 | [Microsoft Excel](microsoft-excel/microsoft-excel-quiz.md)                   | => 48 questions | with answers                   |
-| [Microsoft Outlook](microsoft-outlook/microsoft-outlook-quiz.md)                                           | => 12 questions | no answers                     |
+| [Microsoft Outlook](microsoft-outlook/microsoft-outlook-quiz.md)             | => 12 questions | no answers                     |
 | [Microsoft Power BI](microsoft-power-bi/microsoft-power-bi-quiz.md)          | => 26 questions | answers required               |
 | [Microsoft Power Point](microsoft-power-point/microsoft-power-point-quiz.md) | => 21 questions | partially answered             |
 | [Microsoft Project](microsoft-project/microsoft-project-quiz.md)             | => 41 questions | answers required               |
@@ -89,7 +92,6 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 | [Python Data Visualization](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_data_visualization.md)               | 18 answers |
 
 <img src="https://monosnap.com/image/mf3OkeABEfjiAFjYC8d0l7cE6yf52E"/>
-
 
 ## Format
 
