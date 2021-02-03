@@ -2365,6 +2365,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "adminazhar",
+      "name": "Azhar Khan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20738252?v=4",
+      "profile": "https://www.azhark.com",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
