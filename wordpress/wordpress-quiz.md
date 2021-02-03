@@ -267,7 +267,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 ### Q38. How would you write a text string containing "Hello World!" in a way that makes it possible for someone else to translate the string into a different language?
 - [ ] apply_filters( 'Hello World!', 'mytextdomain' );
-- [ ] \_\_( 'Hello World!', 'mytextdomain' );
+- [x] \_\_( 'Hello World!', 'mytextdomain' );
 - [ ] \$string = "Hello World!";
 - [ ] esc_html( 'Hello World!', 'mytextdomain' );
 
