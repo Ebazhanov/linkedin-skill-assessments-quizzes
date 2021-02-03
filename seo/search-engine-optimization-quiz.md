@@ -219,7 +219,7 @@ Disallow: \*
 - [ ] It creates an inability to use canonical URLs, which dramatically reduces crawl effectiveness,
 - [ ] It requires using a 302 redirect, which dilutes PageRank.
 - [ ] It triggers an immediate manual action penalty, which delists an entire domain until the duplicate content is removed.
-- [ ] It makes it difficult for a search engine to determine the original and authoritative content source.
+- [x] It makes it difficult for a search engine to determine the original and authoritative content source.
 
 #### Q27. What attribute would you use to describe the content of an image?
 - [ ] tabindex
