@@ -2355,6 +2355,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "kocdeniz",
+      "name": "Deniz Koç",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74410580?v=4",
+      "profile": "https://www.linkedin.com/in/deniz-ko%C3%A7-780090104/",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,

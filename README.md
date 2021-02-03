@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-245-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-246-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
@@ -422,6 +422,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.facebook.com/Muangthai.sriracha"><img src="https://avatars.githubusercontent.com/u/13193747?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jumpod Plekhongthu</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Pjumpod" title="Code">💻</a> <a href="#design-Pjumpod" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/thomasyoung-audet"><img src="https://avatars.githubusercontent.com/u/8418461?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Thomas Young-Audet</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=thomasyoung-audet" title="Code">💻</a> <a href="#design-thomasyoung-audet" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/VinayagamBabu"><img src="https://avatars.githubusercontent.com/u/78416322?v=4?s=100" width="100px;" alt=""/><br /><sub><b>VinayagamBabu</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=VinayagamBabu" title="Code">💻</a> <a href="#design-VinayagamBabu" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/deniz-ko%C3%A7-780090104/"><img src="https://avatars.githubusercontent.com/u/74410580?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Deniz Koç</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=kocdeniz" title="Code">💻</a> <a href="#design-kocdeniz" title="Design">🎨</a></td>
   </tr>
 </table>
 
