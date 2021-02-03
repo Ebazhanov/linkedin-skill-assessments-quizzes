@@ -200,7 +200,7 @@ Disallow: \*
 #### Q23. You are optimizing a website that sells supplies for banking donuts. Which approach is most appropriate to drive more organic traffic?
 - [ ] Buy donutbakingsupplies.com and 301 redirect to your website
 - [ ] Add the keyword "donut supplies" to every page.
-- [ ] Create a new blog with high-quality donut recipes
+- [x] Create a new blog with high-quality donut recipes
 - [ ] Join a link farm to rapidly build inbounnd links.
 
 #### Q24. Why is it important to be mindful of outbound follow links?
