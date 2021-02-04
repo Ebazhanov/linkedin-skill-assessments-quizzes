@@ -115,7 +115,7 @@ Disallow: /
 
 #### Q17. Which link is not crawlable?
 - [ ] `<a href="http://domain.com">`
-- [ ] `<a onclick="newwin('domain.com')">`
+- [x] `<a onclick="newwin('domain.com')">`
 - [ ] `<a href="http://domain.com" class="blue">`
 - [ ] `<a href="../category-2/page">`
 
