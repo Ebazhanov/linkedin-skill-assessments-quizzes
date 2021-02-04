@@ -207,7 +207,7 @@ Disallow: \*
 - [ ] There is a limit to how many links you can create.
 - [ ] all of these answers
 - [ ] Any follow links reduce your PageRank by 1.
-- [ ] Your site's reputation is tied to the sites you link to.
+- [x] Your site's reputation is tied to the sites you link to.
 
 #### Q25. Which statement is true about JSON-LD?
 - [ ] It has no relation to JSON.
