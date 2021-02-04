@@ -192,7 +192,7 @@ val list2 = (80..100).toList().filter(_____)
 - [ ] is
 - [ ] as
 
-22. Kotlin will not compiler this code snippet. What is wrong?
+22. Kotlin will not compile this code snippet. What is wrong?
 ```
 class Employee
 class Manager : Employee()
@@ -235,7 +235,7 @@ fun main(){
   var errorStatus = Status.Error()
 }
 ```
-- [ ] StatusError si an object, not a class and cannot be instantiated
+- [ ] StatusError is an object, not a class and cannot be instantiated
 - [ ] Only one instance of the class Status can be instantiated at a time
 - [ ] Status.Error must be declared as an immutable type
 - [ ] Status.Error is pribate to class and cannot be declared externally
@@ -247,8 +247,8 @@ val seq = sequence { yieldAll(1..20) }
   println(seq)
 ```
 - [ ] You cannot assign a sequence to a variable
-- [ ] To produce result, a sequence must have termial operation. In this case, it needs a .toList()
-- [ ] The .filter{ it < 11 } shudl be .filter{ it > 11 }
+- [ ] To produce result, a sequence must have terminal operation. In this case, it needs a .toList()
+- [ ] The .filter{ it < 11 } should be .filter{ it > 11 }
 - [ ] The yieldAll(1..20) should be yieldAll(1..10)
 
 27. What three methods does this class have?
