@@ -15,10 +15,10 @@
 #### Q3. How do you fix the syntax error that results from running this code?
 ```javascript
 const person =(firstName, lastName) =>
-       {
-            first: firstName,
-            last: lastName
-        }
+{
+  first: firstName,
+  last: lastName
+}
 console.log(person("Jill", "Wolson"))
 ```
 - [x] Wrap the object in parentheses. 
@@ -286,7 +286,7 @@ const Heading = () => {
 #### Q36. What is `[e.target.id]` called in the following code snippet?
 ```javascript
 handleChange(e) {
-	this.setState({[e.target.id]: e.target.value })
+  this.setState({ [e.target.id]: e.target.value })
 }
 ```
 - [ ] a computer property name
@@ -297,10 +297,10 @@ handleChange(e) {
 #### Q37. What is the name of this component?
 ```javascript
 class Clock extends React.Component {
-   render() {
-    return <h1>Look at the time: {time}</h1>;
-   }
+  render() {
+  return <h1>Look at the time: {time}</h1>;
   }
+}
 ```
 - [x] Clock 
 - [ ] It does not have a name prop.
@@ -372,15 +372,15 @@ function MyComponent(props) {
 #### Q46. What value of button will allow you to pass the name of the person to be hugged?
 ```javascript
 class Huggable extends React.Component{
-	hug(id){
-		console.log("hugging " + id);
-	}
+  hug(id){
+    console.log("hugging " + id);
+  }
 
-	render() {
-		let name = "kitteh";
-		let button = // Missing Code
-		return button;
-	}
+  render() {
+    let name = "kitteh";
+    let button = // Missing Code
+    return button;
+  }
 }
 ```
 - [x] `<button onClick={(name) => this.hug(name)>Hug Button</button>`
@@ -392,7 +392,7 @@ class Huggable extends React.Component{
 ```javascript
 <button onClick={this.handleClick()}>Click this</button>
 ```
-- [x] `<button onClick={this.handleClick.bind(handleClick}>Click this</button>`
+- [x] `<button onClick={this.handleClick.bind(handleClick)}>Click this</button>`
 - [ ] `<button onClick={handleClick()}>Click this</button>`
 - [ ] `<button onClick={this.handleClick}>Click this</button>` 
 - [ ] `<button onclick={this.handleClick}>Click this</button>`
@@ -411,8 +411,7 @@ class Huggable extends React.Component{
 
 #### Q50. What is the difference between the click behaviors of these two buttons(assuming that this.handleClick is bound correctly)
 ```javascript
-
-A. <button onClick=fthis.handleClickl>Click Me</button>
+A. <button onClick={this.handleClick}>Click Me</button>
 B. <button onClick={event => this.handleClick(event)}>Click Me</button>
 ```
 - [ ] `Button A will not have access to the event object on click of the button`
@@ -441,10 +440,10 @@ useEffect(() => {
 ```javascript
 class Button extends React.Component{
 
-	constructor(props) {
-		super(props);
+  constructor(props) {
+    super(props);
     // Missing line
-	}
+  }
 
   handleClick() {...}
 }
