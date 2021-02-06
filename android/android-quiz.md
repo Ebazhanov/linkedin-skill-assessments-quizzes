@@ -173,8 +173,8 @@
 - [ ] The test runner facilitates parallelization of test classes by providing for each test class.
 - [ ] The test runner facilitates interacting with visible elements on a device, regardless of the activity or fragment that has focus.
 
-#### Q16. WWhat allows you to properly restore a user's state when an activity is restarted?
-- [ ] the onSaveInstance()method
+#### Q16. What allows you to properly restore a user's state when an activity is restarted?
+- [x] the onSaveInstance()method
 - [ ] all of these answers
 - [ ] persistent storage
 - [ ] ViewModel objects
