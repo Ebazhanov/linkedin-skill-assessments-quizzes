@@ -2395,6 +2395,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "lnugraha",
+      "name": "Leo Nugraha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32232486?v=4",
+      "profile": "https://github.com/lnugraha",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
