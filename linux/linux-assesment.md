@@ -253,7 +253,7 @@ stderr. \*correct
 
 •The kernel identifies it as one of the names of extended commands.
 •It has the same name as the file it modifies.
-•It has the SUID permission mode and is owned by root.
+*Correct* •It has the SUID permission mode and is owned by root.
 •It is a system administration command.
 
 29)When a user deletes a file using the rm command, Linux will **\_**.
