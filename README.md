@@ -46,7 +46,7 @@
 | [Microsoft Project](microsoft-project/microsoft-project-quiz.md)             | => 41 questions | answers required               |
 | [Microsoft Word](microsoft-word/microsoft-word-quiz.md)                      | => 42 questions | with answers                   |
 | [MongoDB](mongodb/mongodb-quiz.md)                                           | => 46 questions | with answers                   |
-| [MySQL](mysql/mysql-quiz.md)                                                 | => 64 questions | answers required               |
+| [MySQL](mysql/mysql-quiz.md)                                                 | => 68 questions | answers required               |
 | [node.js](node.js/node.js-quiz.md)                                           | => 40 questions | with answers                   |
 | [NoSQL](nosql/nosql-quiz.md)                                                 | => 43 questions | with answers                   |
 | [objective-c](objective-c/objective-c-quiz.md)                               | => 33 questions | partially answered             |
