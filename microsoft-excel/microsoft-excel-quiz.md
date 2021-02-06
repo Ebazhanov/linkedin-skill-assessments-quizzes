@@ -104,8 +104,9 @@
 
 #### Q18. The AutoSum formulas in the range C9:F9 below return unexpected values. Why is this?
 - [ ] The AutoSum formulas refer to the column to the left of their cells.
-- [x] The AutoSum formulas exclude the bottom row of data.
-- [ ] The AutoSum formulas include the year at the top of each column in the calculation.
+- [ ] The AutoSum formulas exclude the bottom row of data.
+- [x] The AutoSum formulas include the year at the top of each column in the calculation.
+`The formula bar clearly shows it's the dates (top row) included, along with the total (bottom) row. Thus, the bottom row of data is not excluded.`
 - [ ] The AutoSum formulas include their own cells, creating a circular reference.
 
 #### Q19. The text filter in column A is designed to display only those rows where column A entry has a particular attribute. What is this attribute?

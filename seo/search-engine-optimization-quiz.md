@@ -115,7 +115,7 @@ Disallow: /
 
 #### Q17. Which link is not crawlable?
 - [ ] `<a href="http://domain.com">`
-- [ ] `<a onclick="newwin('domain.com')">`
+- [x] `<a onclick="newwin('domain.com')">`
 - [ ] `<a href="http://domain.com" class="blue">`
 - [ ] `<a href="../category-2/page">`
 
@@ -200,14 +200,14 @@ Disallow: \*
 #### Q23. You are optimizing a website that sells supplies for banking donuts. Which approach is most appropriate to drive more organic traffic?
 - [ ] Buy donutbakingsupplies.com and 301 redirect to your website
 - [ ] Add the keyword "donut supplies" to every page.
-- [ ] Create a new blog with high-quality donut recipes
+- [x] Create a new blog with high-quality donut recipes
 - [ ] Join a link farm to rapidly build inbounnd links.
 
 #### Q24. Why is it important to be mindful of outbound follow links?
 - [ ] There is a limit to how many links you can create.
 - [ ] all of these answers
 - [ ] Any follow links reduce your PageRank by 1.
-- [ ] Your site's reputation is tied to the sites you link to.
+- [x] Your site's reputation is tied to the sites you link to.
 
 #### Q25. Which statement is true about JSON-LD?
 - [ ] It has no relation to JSON.
@@ -219,7 +219,7 @@ Disallow: \*
 - [ ] It creates an inability to use canonical URLs, which dramatically reduces crawl effectiveness,
 - [ ] It requires using a 302 redirect, which dilutes PageRank.
 - [ ] It triggers an immediate manual action penalty, which delists an entire domain until the duplicate content is removed.
-- [ ] It makes it difficult for a search engine to determine the original and authoritative content source.
+- [x] It makes it difficult for a search engine to determine the original and authoritative content source.
 
 #### Q27. What attribute would you use to describe the content of an image?
 - [ ] tabindex

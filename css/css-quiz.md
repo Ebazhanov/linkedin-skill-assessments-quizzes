@@ -413,33 +413,33 @@ h2 + p {
 - [x] display:none hides the element from view and removes it from the normal flow of the document. visibility:hidden will hide the element but maintains the space it previously occupied.
 - [ ] There is no difference; both will hide the element on the page
 
-### Q38. What selector and property would you use to scale an element to be 50% smaller on hover?
+#### Q38. What selector and property would you use to scale an element to be 50% smaller on hover?
 - [ ] element:hover {scale: 0.5;}
 - [x] element:hover {transform: scale(0.5);}
 - [ ] element:hover {scale: 50%;}
 - [ ] element:hover {transform: scale(50%);}
 
-### Q39. Which statement regarding icon fonts is true?
+#### Q39. Which statement regarding icon fonts is true?
 - [ ] Icon fonts can be inserted only using JavaScript.
 - [ ] Icon fonts are inserted as inline images.
 - [ ] Icon fonts require browser extensions.
 - [x] Icon fonts can be styled with typography-related properties such as font-size and color.
 
-### Q40. The values for the font-weight property can be keywords or numbers. For each numbered value below, what is the associated keyword?
+#### Q40. The values for the font-weight property can be keywords or numbers. For each numbered value below, what is the associated keyword?
 `font-weight: 400; font-weight: 700;`
 - [ ] bold; normal
 - [x] normal; bold
 - [ ] light; normal
 - [ ] normal; bolder
 
-### Q41. If the width of the container is 500 pixels, what would the width of the three columns be in this layout?
+#### Q41. If the width of the container is 500 pixels, what would the width of the three columns be in this layout?
 `.grid { display: grid; grid-template-columns: 50px 1fr 2fr; }`
 - [x] 50px, 150px, 300px
 - [ ] 50px, 200px, 300px
 - [ ] 50px, 100px, 200px
 - [ ] 50px, 50px, 100px
 
-### Q42. Using the :nth-child pseudo class, what would be the most efficient way to style every third item in a list, no matter how many items are present, starting with item 2?
+#### Q42. Using the :nth-child pseudo class, what would be the most efficient way to style every third item in a list, no matter how many items are present, starting with item 2?
 - [ ]
 ```css
 li:nth-child(3 + 2n) {
@@ -467,31 +467,31 @@ li:nth-child(2n + 3) {
 }
 ```
 
-### Q43. Which selector would select only internal links within the current page?
-- [ ] a[href="#"] {...}
-- [ ] a[href~="#"]
-- [ ] a[href^="#"]
-- [x] a[href="#"]
+#### Q43. Which selector would select only internal links within the current page?
+- [ ] `a[href="#"] {...}`
+- [ ] `a[href~="#"]`
+- [ ] `a[href^="#"]`
+- [x] `a[href="#"]`
 
-### Q44. What is not true about class selectors?
+#### Q44. What is not true about class selectors?
 - [x] Only one class value can be assigned to an element.
 - [ ] An element can have multiple class value.
 - [ ] Class selectors are marked with a leading period.
 - [ ] More than one element can have the same class value.
 
-### Q45. What is the difference between the margin and padding properties?
+#### Q45. What is the difference between the margin and padding properties?
 - [ ] Margin adds space around and inside of an element; padding adds space only inside of an element.
 - [x] Margin adds space around an element; padding adds apace inside of an element.
 - [ ] Margin adds a line around an element, padding adds space inside of an element.
 - [ ] Margin adds space inside of an element, padding adds space around an element.
 
-### Q46. What is not a valid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
+#### Q46. What is not a valid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
 - [x] padding: 10px 10px 0px 0px;
 - [ ] padding: 10px 0px;
 - [ ] padding: 10px 0;
 - [ ] padding: 10px 0px 10px 0px;
 
-### Q47. Is there an error in this code? If so, find the best description of the problem
+#### Q47. Is there an error in this code? If so, find the best description of the problem
 ```css
 @font-face {
   font-family: 'Avenir', sans-serif;
@@ -504,13 +504,13 @@ li:nth-child(2n + 3) {
 - [ ] There are no errors in the example.
 - [x] The sans-serif inclusion is problematic.
 
-### Q48. Which style places an element at a fixed location within its container?
+#### Q48. Which style places an element at a fixed location within its container?
 - [x] position: absolute;
 - [ ] display: flex;
 - [ ] display: block;
 - [ ] float: left;
 
-### Q49. The calc() CSS function is often used for calculating relative values. In the example below, what is the specified margin-left value?
+#### Q49. The calc() CSS function is often used for calculating relative values. In the example below, what is the specified margin-left value?
 ```css
 .example{
   margin-left: calc(5% + 5px);
@@ -521,13 +521,13 @@ li:nth-child(2n + 3) {
 - [ ] The left margin value is equal to 5% of the closest positioned element's width plus 5px
 - [ ] The left margin value is equal to 5% of the selected element's width (.example) plus 5px
 
-### Q50. What is the CSS selector for an `<a>` tag containing the title attribute?
-- [x] a[title]
-- [ ] a > title
-- [ ] a=title
-- [ ] a.title
+#### Q50. What is the CSS selector for an `<a>` tag containing the title attribute?
+- [x] `a[title]`
+- [ ] `a > title`
+- [ ] `a=title`
+- [ ] `a.title`
 
-### Q51. Which code would you use to absolutely position an element of the logo class?
+#### Q51. Which code would you use to absolutely position an element of the logo class?
 - [x] `.logo { position: absolute; left: 100px; top: 150px; }`
 - [ ] `.logo { position: absolute; margin-left: 100px; margin-top: 150px; }`
 - [ ] `.logo { position: absolute; padding-left: 100px; padding-top: 150px; }`
@@ -561,13 +561,13 @@ p:first-child {
 - [x] red
 - [ ] yellow
 
-### Q53. What is the `::placeholder pseudo-element` used for?
+#### Q53. What is the `::placeholder pseudo-element` used for?
 - [x] It is used to format the appearance of placeholder text within a form control.
 - [ ] It specifies the default input text for a form control.
 - [ ] It writes text content into a hyperlink tooltip.
 - [ ] It writes text content into any page element.
 
-### Q54. Which statement is true of the single colon (`:`) or double colon (`::`) notations for pseudo-elements-for example, `::before` and `:before`?
+#### Q54. Which statement is true of the single colon (`:`) or double colon (`::`) notations for pseudo-elements-for example, `::before` and `:before`?
 - [ ] All browsers support single and double colons for new and older pseudo-elements. So you can use either but it is convention to use single colons for consistency.
 - [ ] In CSS3, the double colon notation (`::`) was introduced to create a consistency between pseudo-elements from pseudo-classes. For newer browsers, use the double colon notation. For IE8 and below, using single colon notation (`:`).
 - [ ] Only the new CSS3 pseudo-elements require the double colon notation while the CSS2 pseudo-elements do not.
@@ -610,3 +610,161 @@ p:first-child {
 2. Only positive number can be used.
 3. z-index must also be used with positioned elements.
 ```
+#### Q58. You have a large image that needs to fit into a 400 x 200 pixel area. What should you resize the image to if your users are using Retina displays?
+- [ ] 2000 x 1400 pixels
+- [ ] 200 x 100 pixels
+- [x] 800 x 400 pixels
+- [ ] 400 x 200 pixels
+
+#### Q59. In Chrome's Developer Tools view, where are the default styles listed?
+- [x] under the User Agent Stylesheet section on the right
+- [ ] in the third panel under the Layout tab
+- [ ] under the HTML view on the left
+- [ ] in the middle panel
+
+#### Q60. While HTML controls document structure, CSS controls _____.
+- [ ] semantic meaning
+- [ ] content meaning
+- [ ] document structure
+- [x] content appearance
+
+#### Q61. What is the recommended name you should give the folder that holds your project's images?
+- [x] images
+- [ ] #images
+- [ ] Images
+- [ ] my images
+
+#### Q62. What is an advantage of using inline CSS?
+- [ ] It is easier to manage.
+- [x] It is easier to add multiple styles through it.
+- [ ] It can be used to quickly test local CSS overrides.
+- [ ] It reduces conflict with other CSS definition methods.
+
+#### Q63.Which W3C status code represents a CSS specification that is fully implemented by modern browsers?
+- [ ] Proposed Recommendation
+- [ ] Working Draft
+- [x] Recommendation
+- [ ] Candidate Recommendation
+
+#### Q64. Are any of the following declarations invalid?
+```css
+color: red;   /* declaration A */
+font-size: 1em;   /* declaration B */
+padding: 10px 0;   /* declaration C */
+```
+- [ ] Declaration A is invalid.
+- [ ] Declaration B is invalid.
+- [ ] Declaration C is invalid.
+- [x] All declarations are valid.
+
+#### Q65. Which CSS will cause your links to have a solid blue background that changes to semitransparent on hover?
+- [x]
+```css
+a:link { background: #0000ff; }
+a:hover { background: rgba(0,0,255,0.5); }
+```
+- [ ]
+```css
+a { color: blue; }
+a:hover { background: white; }
+```
+- [ ]
+```css
+a:link { background: blue; }
+a:hover { color: rgba(0,0,255,0.5); }
+```
+- [ ]
+```css
+a:hover { background: rgba(blue,50%); }
+a:link { background: rgba(blue); }
+```
+
+#### Q66. Which CSS rule takes precedence over the others listed?
+- [ ] `div.sidebar {}`
+- [ ] `* {}`
+- [x] `div#sidebar2 p {}`
+- [ ] `.sidebar p {}`
+
+#### Q67. The body of your page includes some HTML sections. How will it look with the following CSS applied?
+
+```css
+body {
+  background: #ffffff; /* white */
+}
+section {
+  background: #0000ff; /* blue */
+  height: 200px;
+}
+```
+- [x] blue sections on a white background
+- [ ] Yellow sections on a blue background
+- [ ] Green sections on a white background
+- [ ] blue sections on a red background
+
+#### Q68. Which CSS keyword can you use to override standard source order and specificity rules?
+- [ ] `!elevate!`
+- [ ] `*prime`
+- [ ] `override`
+- [x] `!important`
+
+#### Q69. You can use the _____ pseudo-class to set a different color on a link if it was clicked on.
+- [x] `a:visited`
+- [ ] `a:hover`
+- [ ] `a:link`
+- [ ] `a:focus`
+
+#### Q70. Which color will look the brightest on your screen, assuming the background is white?
+- [ ] `background-color: #aaa;`
+- [ ] `background-color: #999999;`
+- [ ] `background-color: rgba(170,170,170,0.5);`
+- [x] `background-color: rgba(170,170,170,0.2);`
+
+#### Q71. Which CSS selector can you use to select all elements on your page associated with the two classes header and clear?
+- [ ] `."header clear" {}`
+- [ ] `header#clear {}`
+- [x] `.header.clear {}`
+- [ ] `.header clear {}`
+
+#### Q72. A universal selector is specified using a(n) _____.
+- [ ] "h1" string
+- [ ] "a" character
+- [ ] "p" character
+- [x] "*" character
+
+#### Q73. In the following CSS code, `'h1'` is the _____, while `'color'` is the _____.
+```css
+h1 {
+  color: red;
+}
+```
+- [ ] property; declaration
+- [ ] declaration; rule
+- [ ] "p" character
+- [x] selector; property
+
+#### Q74. What is an alternate way to define the following CSS rule?
+```css
+font-weight: bold;
+```
+- [ ] font-weight: 400;
+- [ ] font-weight: medium;
+- [x] font-weight: 700;
+- [ ] font-weight: Black;
+
+#### Q75. You want your styling to be based on a font stack consisting of three fonts. Where should the generic font for your font family be specified?
+- [ ] It should be the first one on the list.
+- [ ] Generic fonts are discouraged from this list.
+- [x] It should be the last one on the list.
+- [ ] It should be the second one on the list.
+
+#### Q76. What is one disadvantage of using a web font service?
+- [ ] It requires you to host font files on your own server.
+- [ ] It uses more of your site's bandwidth.
+- [ ] It offers a narrow selection of custom fonts.
+- [x] It is not always a free service.
+
+#### Q77. How do you add Google fonts to your project?
+- [x] by using an HTML link element referring to a Google-provided CSS
+- [ ] by embedding the font file directly into the project's master JavaScript
+- [ ] by using a Google-specific CSS syntax that directly links to the desired font file
+- [ ] by using a standard font-face CSS definition sourcing a font file on Google's servers

@@ -124,7 +124,7 @@ export class OrderService {
     }
 ```
 - [ ] {{ 'title' }}null
-- [ ] {{ title }}null
+- [x] {{ title }}null
 - [ ] [title]null
 - [ ] A class field cannot be displayed in a template via the template syntax.
 
