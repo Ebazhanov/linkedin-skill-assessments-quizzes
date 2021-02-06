@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-249-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-250-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
@@ -428,6 +428,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.azhark.com"><img src="https://avatars.githubusercontent.com/u/20738252?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Azhar Khan</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=adminazhar" title="Code">💻</a> <a href="#design-adminazhar" title="Design">🎨</a></td>
     <td align="center"><a href="http://www.jacobryanshort.com"><img src="https://avatars.githubusercontent.com/u/46907893?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jacob Short</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=jrshort89" title="Code">💻</a> <a href="#design-jrshort89" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/Uchimura85"><img src="https://avatars.githubusercontent.com/u/29099918?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Uchimura85</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Uchimura85" title="Code">💻</a> <a href="#design-Uchimura85" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/lnugraha"><img src="https://avatars.githubusercontent.com/u/32232486?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Leo Nugraha</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=lnugraha" title="Code">💻</a> <a href="#design-lnugraha" title="Design">🎨</a></td>
   </tr>
 </table>
 
