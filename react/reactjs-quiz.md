@@ -171,13 +171,13 @@ const element = <p>{message}</p>;
 
 #### 20. What is the difference between the click behaviors of these two buttons (assuming that this.handleClick is bound correctly)?
 ```javascript
-A. <button onClick="{this.handleClick}>Click Me</button>"
-B. <button onClick="{event => this.handleClick(event)}}>Click Me</button>"
+A. <button onClick={this.handleClick}>Click Me</button>
+B. <button onClick={event => this.handleClick(event)}>Click Me</button>
 ```
 - [ ] Button A will not have access to the event object on click of the button.
-- [x] Button B will not fire the handler this.handleClick successfully. 
+- [ ] Button B will not fire the handler this.handleClick successfully. 
 - [ ] Button A will not fire the handler this.handleClick successfully.
-- [ ] There is no difference
+- [x] There is no difference
 
 #### 21. How do you destructure the properties that are sent to the Dish component?
 ```javascript
@@ -409,17 +409,7 @@ class Huggable extends React.Component{
 - [X] `No library. fetch() is supported by most browsers.`
 - [ ] `React`
 
-#### Q50. What is the difference between the click behaviors of these two buttons(assuming that this.handleClick is bound correctly)
-```javascript
-A. <button onClick={this.handleClick}>Click Me</button>
-B. <button onClick={event => this.handleClick(event)}>Click Me</button>
-```
-- [ ] `Button A will not have access to the event object on click of the button`
-- [ ] `Button A will not fire the handler this.handleClick successfully`
-- [X] `There is no difference`
-- [ ] `Button B will not fire the handler this.handleClick successfully`
-
-#### Q51. What will happen when this useEffect Hook is executed, assuming name is not already equal to John?
+#### Q50. What will happen when this useEffect Hook is executed, assuming name is not already equal to John?
 ```javascript
 useEffect(() => {
   setName("John");
@@ -430,13 +420,13 @@ useEffect(() => {
 - [x] `It will update the value of name once and not run again until name is changed from the outside.`
 - [ ] `It will cause an infinite loop.`
 
-#### Q52. Which choice will not cause a React component to rerender?
+#### Q51. Which choice will not cause a React component to rerender?
 - [ ] `if the component call this.setState(...)`
 - [ ] `the value of one of the component's props changes`
 - [ ] `if the component calls this.forceUpdate()`
 - [X] `one of the component's siblings rerenders`
 
-#### Q53. You have created a new method in a class component called handleClick, but it is not working. Which code is missing?
+#### Q52. You have created a new method in a class component called handleClick, but it is not working. Which code is missing?
 ```javascript
 class Button extends React.Component{
 
