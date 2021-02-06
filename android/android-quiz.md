@@ -193,7 +193,7 @@
 
 #### Q19. How would you retrieve the value of a user's email from SharedPreferences while ensuring that the returned value is not null?
 - [ ] getPreferances(this).getString(Email,"")
-- [ ] getDefaultSharedPrefarances(this).getString(EMAIL,null)
+- [x] getDefaultSharedPrefarances(this).getString(EMAIL,null)
 - [ ] getDefaultSharedPreferances(this).getString(EMAIL,"")
 - [ ] getPreferances(this).getString(EMAIL,null)
 
