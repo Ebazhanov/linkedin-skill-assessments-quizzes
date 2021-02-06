@@ -1,70 +1,72 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-250-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
 
 ### Table of Contents
 
-| Linkedin-quiz-questions                                                      |                 | Status                         |
-| ---------------------------------------------------------------------------- | --------------- | ------------------------------ |
-| [Adobe-Illustrator](adobe-illustrator/adobe-illustrator-quiz.md)             | => 51 questions | answers required               |
-| [Adobe-Photoshop](adobe-photoshop/adobe-photoshop-quiz.md)                   | => 36 questions | answers required               |
-| [Agile Methodologies](agile-methodologies/agile-methodologies-quiz.md)       | => 76 questions | with answers                   |
-| [Android](android/android-quiz.md)                                           | => 44 questions | answers required               |
-| [AngularJs](angularjs/angularjs-quiz.md)                                     | => 15 questions | answers required               |
-| [AWS](aws/aws-quiz.md)                                                       | => 28 questions | answers required               |
-| [AWS-Lambda](aws-lambda/aws-lambda-quiz.md) :fire:                           | => 44 questions | with answers                   |
-| [Bash](bash/bash-quiz.md)                                                    | => 53 questions | partially answered             |
-| [C#](c%23/c-sharp-quiz.md)                                                   | => 48 questions | answers required               |
-| [C++](c%2B%2B/c%2B%2Bquiz.md)                                                | => 33 questions | with answers                   |
-| [C (Programming Language)](<c-(programming-language)/c-quiz.md>)             | => 25 questions | with answers                   |
-| [CSS](css/css-quiz.md)                                                       | => 54 questions | with answers                   |
-| [Django](django/django-quiz.md)                                              | => 48 questions | with answers                   |
-| [.NET Framework](dotnet-framework/dotnet-framework-quiz.md)                  | => 37 questions | partially answered             |
-| [Git](git/git-quiz.md) :star:                                                | => 90 questions | with answers                   |
-| [Google Analytics](google-analytics/google-analytics-quiz.md)                | => 65 questions | answers required               |
-| [Google Cloud Platform (GCP)](google-cloud-platform/gcp-quiz.md)             | => 27 questions | with answers                   |
-| [Hadoop](hadoop/hadoop-quiz.md)                                              | => 18 questions | answers required               |
-| [HTML](html/html-quiz.md)                                                    | => 61 questions | with answers                   |
-| [Java](java/java-quiz.md)                                                    | => 64 questions | with answers                   |
-| [Javascript](javascript/javascript-quiz.md)                                  | => 69 questions | with answers                   |
-| [jQuery](jquery/jquery-quiz.md) :open_mouth:                                 | => 50 questions | with answers                   |
-| [JSON](json/json-quiz.md)                                                    | => 51 questions | with answers                   |
-| [Machine Learning](machine-learning/machine-learning-quiz.md)                | => 67 questions | answers required               |
-| Kotlin                                                                       | => 0 questions  | NO question and NO answers yet |
-| [Linux](linux/linux-assesment.md)                                            | => 34 questions | 30 answers                     |
-| [MATLAB](matlab/matlab-quiz.md)                                              | => 45 questions | with answers                   |
-| [Maven](maven/maven-quiz.md) :fire:                                          | => 34 questions | with answers                   |
-| [Microsoft Azure](microsoft-azure/microsoft-azure-quiz.md)                   | => 44 questions | with answers                   |
-| [Microsoft Excel](microsoft-excel/microsoft-excel-quiz.md)                   | => 48 questions | with answers                   |
-| [Microsoft Outlook](microsoft-outlook/microsoft-outlook-quiz.md)             | => 12 questions | no answers                     |
-| [Microsoft Power BI](microsoft-power-bi/microsoft-power-bi-quiz.md)          | => 26 questions | answers required               |
-| [Microsoft Power Point](microsoft-power-point/microsoft-power-point-quiz.md) | => 21 questions | partially answered             |
-| [Microsoft Project](microsoft-project/microsoft-project-quiz.md)             | => 41 questions | answers required               |
-| [Microsoft Word](microsoft-word/microsoft-word-quiz.md)                      | => 42 questions | with answers                   |
-| [MongoDB](mongodb/mongodb-quiz.md)                                           | => 46 questions | with answers                   |
-| [MySQL](mysql/mysql-quiz.md)                                                 | => 64 questions | answers required               |
-| [node.js](node.js/node.js-quiz.md)                                           | => 40 questions | with answers                   |
-| [NoSQL](nosql/nosql-quiz.md)                                                 | => 43 questions | with answers                   |
-| [objective-c](objective-c/objective-c-quiz.md)                               | => 33 questions | partially answered             |
-| [OOP](oop/object-oriented-programming-quiz.md)                               | => 50 questions | with answers                   |
-| [PHP](php/php-quiz.md)                                                       | => 29 questions | partially answered             |
-| [Python](python/python-quiz.md)                                              | => 67 questions | with answers                   |
-| [R](r/r-quiz.md)                                                             | => 29 questions | partially answered             |
-| [React.js](react/reactjs-quiz.md) :rose:                                     | => 51 questions | with answers                   |
-| [REST API](rest-api/rest-api-quiz.md) :+1:                                   | => 34 questions | partially answered             |
-| [Scala](scala/scala-quiz.md)                                                 | => 25 questions | answers required               |
-| [Search Engine Optimization (SEO)](seo/search-engine-optimization-quiz.md)   | => 30 questions | partially answered             |
-| [SharePoint](sharepoint/sharepoint-quiz.md)                                  | => 29 questions | with answers                   |
-| [Swift](swift/swift-quiz.md)                                                 | => 48 questions | with answers                   |
-| [Transact-SQL (T-SQL)](t-sql/t-sql-quiz.md)                                  | => 28 questions | with answers                   |
-| [Visual Basic for Applications (VBA)](vba/vba-quiz.md)                       | => 11 questions | answers required               |
-| [Windows Server](windows-server/windows-server-quiz.md)                      | => 46 questions | partially answered             |
-| [WordPress](wordpress/wordpress-quiz.md)                                     | => 42 questions | partially answered             |
-| [XML](xml/xml-quiz.md)                                                       | => 21 questions | answers required               |
+| Linkedin-quiz-questions                                                      |                 | Status             |
+| ---------------------------------------------------------------------------- | --------------- | ------------------ |
+| [Adobe-Illustrator](adobe-illustrator/adobe-illustrator-quiz.md)             | => 51 questions | answers required   |
+| [Adobe-Photoshop](adobe-photoshop/adobe-photoshop-quiz.md)                   | => 36 questions | answers required   |
+| [Agile Methodologies](agile-methodologies/agile-methodologies-quiz.md)       | => 76 questions | with answers       |
+| [Android](android/android-quiz.md)                                           | => 44 questions | answers required   |
+| [AngularJs](angularjs/angularjs-quiz.md)                                     | => 15 questions | answers required   |
+| [AWS](aws/aws-quiz.md)                                                       | => 28 questions | answers required   |
+| [AWS-Lambda](aws-lambda/aws-lambda-quiz.md) :fire:                           | => 44 questions | with answers       |
+| [Bash](bash/bash-quiz.md)                                                    | => 53 questions | partially answered |
+| [C#](c%23/c-sharp-quiz.md)                                                   | => 48 questions | answers required   |
+| [C++](c%2B%2B/c%2B%2Bquiz.md)                                                | => 33 questions | with answers       |
+| [C (Programming Language)](<c-(programming-language)/c-quiz.md>)             | => 25 questions | with answers       |
+| [CSS](css/css-quiz.md)                                                       | => 54 questions | with answers       |
+| [Django](django/django-quiz.md)                                              | => 48 questions | with answers       |
+| [.NET Framework](dotnet-framework/dotnet-framework-quiz.md)                  | => 37 questions | partially answered |
+| [Git](git/git-quiz.md) :star:                                                | => 90 questions | with answers       |
+| [Google Analytics](google-analytics/google-analytics-quiz.md)                | => 65 questions | answers required   |
+| [Google Cloud Platform (GCP)](google-cloud-platform/gcp-quiz.md)             | => 27 questions | with answers       |
+| [Hadoop](hadoop/hadoop-quiz.md)                                              | => 18 questions | answers required   |
+| [HTML](html/html-quiz.md)                                                    | => 61 questions | with answers       |
+| [Java](java/java-quiz.md)                                                    | => 64 questions | with answers       |
+| [Javascript](javascript/javascript-quiz.md)                                  | => 69 questions | with answers       |
+| [jQuery](jquery/jquery-quiz.md) :open_mouth:                                 | => 50 questions | with answers       |
+| [JSON](json/json-quiz.md)                                                    | => 51 questions | with answers       |
+| [Machine Learning](machine-learning/machine-learning-quiz.md)                | => 67 questions | answers required   |
+| [Kotlin](kotlin/kotlin-quiz.md)                                              | => 30 questions | answers required   |
+| [Linux](linux/linux-assesment.md)                                            | => 34 questions | 30 answers         |
+| [MATLAB](matlab/matlab-quiz.md)                                              | => 45 questions | with answers       |
+| [Maven](maven/maven-quiz.md) :fire:                                          | => 34 questions | with answers       |
+| [Microsoft Azure](microsoft-azure/microsoft-azure-quiz.md)                   | => 44 questions | with answers       |
+| [Microsoft Excel](microsoft-excel/microsoft-excel-quiz.md)                   | => 48 questions | with answers       |
+| [Microsoft Outlook](microsoft-outlook/microsoft-outlook-quiz.md)             | => 12 questions | no answers         |
+| [Microsoft Power BI](microsoft-power-bi/microsoft-power-bi-quiz.md)          | => 26 questions | answers required   |
+| [Microsoft Power Point](microsoft-power-point/microsoft-power-point-quiz.md) | => 21 questions | partially answered |
+| [Microsoft Project](microsoft-project/microsoft-project-quiz.md)             | => 41 questions | answers required   |
+| [Microsoft Word](microsoft-word/microsoft-word-quiz.md)                      | => 42 questions | with answers       |
+| [MongoDB](mongodb/mongodb-quiz.md)                                           | => 46 questions | with answers       |
+| [MySQL](mysql/mysql-quiz.md)                                                 | => 64 questions | answers required   |
+| [node.js](node.js/node.js-quiz.md)                                           | => 40 questions | with answers       |
+| [NoSQL](nosql/nosql-quiz.md)                                                 | => 43 questions | with answers       |
+| [objective-c](objective-c/objective-c-quiz.md)                               | => 33 questions | partially answered |
+| [OOP](oop/object-oriented-programming-quiz.md)                               | => 50 questions | with answers       |
+| [PHP](php/php-quiz.md)                                                       | => 29 questions | partially answered |
+| [Python](python/python-quiz.md)                                              | => 67 questions | with answers       |
+| [R](r/r-quiz.md)                                                             | => 29 questions | partially answered |
+| [React.js](react/reactjs-quiz.md) :rose:                                     | => 51 questions | with answers       |
+| [REST API](rest-api/rest-api-quiz.md) :+1:                                   | => 34 questions | partially answered |
+| [Scala](scala/scala-quiz.md)                                                 | => 25 questions | answers required   |
+| [Search Engine Optimization (SEO)](seo/search-engine-optimization-quiz.md)   | => 30 questions | partially answered |
+| [SharePoint](sharepoint/sharepoint-quiz.md)                                  | => 29 questions | with answers       |
+| [Swift](swift/swift-quiz.md)                                                 | => 48 questions | with answers       |
+| [Transact-SQL (T-SQL)](t-sql/t-sql-quiz.md)                                  | => 28 questions | with answers       |
+| [Visual Basic for Applications (VBA)](vba/vba-quiz.md)                       | => 11 questions | answers required   |
+| [Windows Server](windows-server/windows-server-quiz.md)                      | => 46 questions | partially answered |
+| [WordPress](wordpress/wordpress-quiz.md)                                     | => 42 questions | partially answered |
+| [XML](xml/xml-quiz.md)                                                       | => 21 questions | answers required   |
 
 :point_right: If you want to improve your skills on another test platform [**Pluralsight IQ Skill**](https://www.pluralsight.com/product/skill-iq)
 find **questions and answers** in **@Timo Körner** [repository](https://github.com/tik9/pluralsight-skill-test):
