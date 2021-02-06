@@ -57,7 +57,7 @@
 | [React.js](react/reactjs-quiz.md) :rose:                                     | => 51 questions | with answers                   |
 | [REST API](rest-api/rest-api-quiz.md) :+1:                                   | => 34 questions | partially answered             |
 | [Scala](scala/scala-quiz.md)                                                 | => 25 questions | answers required               |
-| [Search Engine Optimization (SEO)](seo/search-engine-optimization-quiz.md)   | => 30 questions | partially answered             |
+| [Search Engine Optimization (SEO)](seo/search-engine-optimization-quiz.md)   | => 29 questions | partially answered             |
 | [SharePoint](sharepoint/sharepoint-quiz.md)                                  | => 29 questions | with answers                   |
 | [Swift](swift/swift-quiz.md)                                                 | => 48 questions | with answers                   |
 | [Transact-SQL (T-SQL)](t-sql/t-sql-quiz.md)                                  | => 28 questions | with answers                   |
