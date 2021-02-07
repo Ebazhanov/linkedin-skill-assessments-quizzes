@@ -115,7 +115,7 @@
 - [ ] The cell is comprised of 9 characters.
 - [ ] The number 9 appears once and only once within the cell.
 
-#### Q20. To ensure shapres and other objects are an equal left-to-right distance apart, select the shapes, click Page Layout > Align, and the click \_\_\_\_.
+#### Q20. To ensure shapes and other objects are an equal left-to-right distance apart, select the shapes, click Page Layout > Align, and then click \_\_\_\_.
 - [ ] Align Middle
 - [ ] Distribute Horizontally
 - [x] Distribute Vertically
