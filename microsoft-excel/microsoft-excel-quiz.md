@@ -113,7 +113,7 @@
 - [x] The second character in the cell is 9.
 - [ ] The number 9 appears one or more times within the cell.
 - [ ] The cell is comprised of 9 characters.
-- [ ] the number 9 apperars once and only once within the cell.
+- [ ] The number 9 appears once and only once within the cell.
 
 #### Q20. To ensure shapres and other objects are an equal left-to-right distance apart, select the shapes, click Page Layout > Align, and the click \_\_\_\_.
 - [ ] Aligh Middle
