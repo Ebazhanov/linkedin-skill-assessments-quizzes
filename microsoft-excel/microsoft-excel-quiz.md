@@ -145,7 +145,7 @@
 - [ ] =LARGE(H2:H30,29)
 - [ ] =UPPER(H2:H30,1)
 
-#### Q25. Which chart type can display two different data series as different series type within the same chart?
+#### Q25. Which chart type can display two different data series as a different series type within the same chart?
 - [x] XY chart
 - [ ] clustered column
 - [ ] bubble chart
