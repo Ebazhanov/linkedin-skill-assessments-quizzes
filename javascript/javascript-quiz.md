@@ -592,3 +592,8 @@ console.log(a.length);
 - [ ] SyntaxError
 - [ ] LogicError
 
+### Q70. Which method is called automatically when an object is initialized?
+- [ ] create()
+- [ ] new()
+- [x] constructor()
+- [ ] init()

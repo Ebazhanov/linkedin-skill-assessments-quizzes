@@ -115,7 +115,7 @@ Disallow: /
 
 #### Q17. Which link is not crawlable?
 - [ ] `<a href="http://domain.com">`
-- [ ] `<a onclick="newwin('domain.com')">`
+- [x] `<a onclick="newwin('domain.com')">`
 - [ ] `<a href="http://domain.com" class="blue">`
 - [ ] `<a href="../category-2/page">`
 
@@ -157,89 +157,67 @@ H6: Instructions
 H1: Reviews
 ```
 
-#### Q19. You want to block crawlers from accessing your entire website. What `robots.txt` entry would you use?
-- [ ]
-```markdown
-User-agent: \*
-Disallow: /
-```
-- [ ]
-```markdown
-User-agent: \*
-Disallow: /
-```
-- [ ]
-```markdown
-User-agent: /
-Disallow: \*
-```
-- [ ]
-```markdown
-User-agent: Allbots
-Disallow: \*
-```
-
-#### Q20. All byline dates articles are suddenly no longer visible on a website's listing within Google Search. Assuming no changes have been made to the site programming or content, what is the most likely cause?
+#### Q19. All byline dates articles are suddenly no longer visible on a website's listing within Google Search. Assuming no changes have been made to the site programming or content, what is the most likely cause?
 - [ ] The site has been delisted from Google Search
 - [ ] The site kept updating the date to make the content appear fresh, without changing the content.
 - [ ] The articles have aged more than 365 days without any significant updates to the content or the site.
 - [ ] A Google New sitemap was not provided within 30 days of setting up a Publisher Center account
 
-#### Q21. What is an example of a Google search result that can be found in position zero?
+#### Q20. What is an example of a Google search result that can be found in position zero?
 - [ ] Google Ads result
 - [x] featured snippet
 - [ ] related searches
 - [ ] autocomplete
 
-#### Q22. When creating accessible video content, what should you consider including?
+#### Q21. When creating accessible video content, what should you consider including?
 - [x] transcript
 - [ ] thumbnail
 - [ ] Flash Player
 - [ ] event tracking
 
-#### Q23. You are optimizing a website that sells supplies for banking donuts. Which approach is most appropriate to drive more organic traffic?
+#### Q22. You are optimizing a website that sells supplies for banking donuts. Which approach is most appropriate to drive more organic traffic?
 - [ ] Buy donutbakingsupplies.com and 301 redirect to your website
 - [ ] Add the keyword "donut supplies" to every page.
-- [ ] Create a new blog with high-quality donut recipes
+- [x] Create a new blog with high-quality donut recipes
 - [ ] Join a link farm to rapidly build inbounnd links.
 
-#### Q24. Why is it important to be mindful of outbound follow links?
+#### Q23. Why is it important to be mindful of outbound follow links?
 - [ ] There is a limit to how many links you can create.
 - [ ] all of these answers
 - [ ] Any follow links reduce your PageRank by 1.
-- [ ] Your site's reputation is tied to the sites you link to.
+- [x] Your site's reputation is tied to the sites you link to.
 
-#### Q25. Which statement is true about JSON-LD?
+#### Q24. Which statement is true about JSON-LD?
 - [ ] It has no relation to JSON.
 - [ ] It is the only structured data format available.
 - [ ] It is considered the most complicated approach to adding structured data.
 - [x] It is Google's preferred structured data format.
 
-#### Q26. What is a key reason why duplicate content might cause an issue with ranking?
+#### Q25. What is a key reason why duplicate content might cause an issue with ranking?
 - [ ] It creates an inability to use canonical URLs, which dramatically reduces crawl effectiveness,
 - [ ] It requires using a 302 redirect, which dilutes PageRank.
 - [ ] It triggers an immediate manual action penalty, which delists an entire domain until the duplicate content is removed.
-- [ ] It makes it difficult for a search engine to determine the original and authoritative content source.
+- [x] It makes it difficult for a search engine to determine the original and authoritative content source.
 
-#### Q27. What attribute would you use to describe the content of an image?
+#### Q26. What attribute would you use to describe the content of an image?
 - [ ] tabindex
 - [ ] longdesc
 - [ ] src
 - [x] alt
 
-#### Q28. You are researching keywords for a client and creating list for an optimization plan. Which is not a recommended method of creating keyword lists?
+#### Q27. You are researching keywords for a client and creating list for an optimization plan. Which is not a recommended method of creating keyword lists?
 - [ ] synonyms and related words
 - [ ] queries about benefits, features, problems
 - [ ] how-to and question-based queries
 - [x] focusing on only high-volume, high-popularity words
 
-#### Q29. You want to get a rough idea of how many searches per month a particular search term gets. Which tool do you use?
+#### Q28. You want to get a rough idea of how many searches per month a particular search term gets. Which tool do you use?
 - [x] Google Keyword Planner
 - [ ] Google Tag Manager
 - [ ] Google Search Console
 - [ ] Google Suggest
 
-#### Q30. Changing the title tag and/or meta description will have a measurable impact on your \_\_\_\_.
+#### Q29. Changing the title tag and/or meta description will have a measurable impact on your \_\_\_\_.
 - [ ] RSS
 - [ ] CTR
 - [ ] PPC

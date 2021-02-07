@@ -173,8 +173,8 @@
 - [ ] The test runner facilitates parallelization of test classes by providing for each test class.
 - [ ] The test runner facilitates interacting with visible elements on a device, regardless of the activity or fragment that has focus.
 
-#### Q16. WWhat allows you to properly restore a user's state when an activity is restarted?
-- [ ] the onSaveInstance()method
+#### Q16. What allows you to properly restore a user's state when an activity is restarted?
+- [x] the onSaveInstance()method
 - [ ] all of these answers
 - [ ] persistent storage
 - [ ] ViewModel objects
@@ -193,7 +193,7 @@
 
 #### Q19. How would you retrieve the value of a user's email from SharedPreferences while ensuring that the returned value is not null?
 - [ ] getPreferances(this).getString(Email,"")
-- [ ] getDefaultSharedPrefarances(this).getString(EMAIL,null)
+- [x] getDefaultSharedPrefarances(this).getString(EMAIL,null)
 - [ ] getDefaultSharedPreferances(this).getString(EMAIL,"")
 - [ ] getPreferances(this).getString(EMAIL,null)
 
@@ -538,7 +538,7 @@ buildTypes {
 
 #### Q40. Which layout is best for large, complex hierarchies?
 - [ ] LinearLayout
-- [ ] ConstraintLayout
+- [x] ConstraintLayout
 - [ ] FrameLayout
 - [ ] RelativeLayout
 

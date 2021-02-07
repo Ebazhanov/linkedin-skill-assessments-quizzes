@@ -217,3 +217,8 @@ mvn install
 - [ ] dependencies
 - [ ] distribution management
 
+### Q35. What does the mvn clean command do?
+- [x] It removes the target directory
+- [ ] It updates the version of the plugins defned in the POM file.
+- [ ] It removes unused dependencies in your project
+- [ ] It builds your project
