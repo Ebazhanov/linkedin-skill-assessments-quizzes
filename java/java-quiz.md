@@ -331,7 +331,7 @@ System.out.println(n);
 - [ ] new SimpleDateFormat("yyyy-MM-dd").format(new Date())
 - [ ] new Date(System.currentTimeMillis())
 - [x] LocalDate.now()  
-      **Explanation**: // LocalDate is newest class added in java 8
+       **Explanation**: // LocalDate is newest class added in java 8
 - [ ] Calender.getInstance().getTime()
 
 #### Q23. Fill in the blank to create a piece of code that will tell wether int0 is divisible by 5:

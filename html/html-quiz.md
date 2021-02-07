@@ -1054,7 +1054,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 #### Q62. What is the best semantic to use Quotes in HTML?
 
-Steve Kruz Said: "He will Win"
+`Steve Kruz Said: "He will Win"`
 
 - [ ] `<q>`
 - [x] `<quote>`

@@ -108,9 +108,9 @@
 #### Q16. You would like to know how many types of items you have in each category. Which query does this?
 
 - [ ] db.product.group({\_id: "$category", count: {$sum:1}})
-- [ ] db.product.aggregate($sum: {_id: "$category", count: {$group:1}}})
-- [x] db.product.aggregate($group: {_id: "$category", count: {$sum:1}}})
-- [ ] db.product.aggregate($count: {_id: "$category", count: {$group:1}}})
+- [ ] db.product.aggregate($sum: {_id: "$category", count: {\$group:1}}})
+- [x] db.product.aggregate($group: {_id: "$category", count: {\$sum:1}}})
+- [ ] db.product.aggregate($count: {_id: "$category", count: {\$group:1}}})
 
 #### Q17. To restrict the number of records coming back from a query, which command should you use?
 
@@ -380,10 +380,7 @@
 
 #### Q54. Given a customer collection which includes fields for gender and city, which aggregate pipeline shows the number of female customers in each city?
 
-- [x] db.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number: {$sum: 1}}}, {$sort :{number: -1}}])
-
-- [ ] db.members.find({$match: {gender: "Female"}}, {$group: {\_id: {city: "$city"}, number: {$sum: 1}}}.$sort ({number: -1})
-
-- [ ] db.members.find([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number: {$sum: 1}}}, {$sort :{number: -1}}])
-
-- [ ] db.members.aggregate([ {$match: {gender: "Female"}}, {$sort :{number: -1}}])
+- [x] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number: {$sum: 1}}}, {$sort :{number: -1}}])`
+- [ ] `db.members.find({$match: {gender: "Female"}}, {$group: {\_id: {city: "$city"}, number: {$sum: 1}}}.$sort ({number: -1})`
+- [ ] `db.members.find([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number: {$sum: 1}}}, {$sort :{number: -1}}])`
+- [ ] `db.members.aggregate([ {$match: {gender: "Female"}}, {$sort :{number: -1}}])`
