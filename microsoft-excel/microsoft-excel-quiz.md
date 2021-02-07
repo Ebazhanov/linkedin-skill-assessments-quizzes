@@ -90,7 +90,7 @@
 - [x] INDEX
 - [ ] MATCH
 
-#### Q16. You're working with columsn whose width and font-size should not be changed. Yet the columns are too narrow to display all the text in each cell. What tool should you use to solve the problem?
+#### Q16. You're working with columns whose width and font-size should not be changed. Yet the columns are too narrow to display all the text in each cell. What tool should you use to solve the problem?
 - [ ] Sparklines
 - [x] Wrap Text
 - [ ] Fill Handle
