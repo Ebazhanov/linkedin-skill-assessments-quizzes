@@ -121,7 +121,7 @@
 - [x] Distribute Vertically
 - [ ] Align Center
 
-#### Q21. An organization chart, which shows the hierarchy within a compmay or oraginization, is available as **\_** that is include with Excel.
+#### Q21. An organization chart, which shows the hierarchy within a company or orgainization, is available as **\_** that is included with Excel.
 - [ ] a 3D model
 - [x] SmartArt
 - [ ] a Treemap chart
@@ -145,7 +145,7 @@
 - [ ] =LARGE(H2:H30,29)
 - [ ] =UPPER(H2:H30,1)
 
-#### Q25. Which chart type can display two different data series as different series type within the same chart?
+#### Q25. Which chart type can display two different data series as a different series type within the same chart?
 - [x] XY chart
 - [ ] clustered column
 - [ ] bubble chart
