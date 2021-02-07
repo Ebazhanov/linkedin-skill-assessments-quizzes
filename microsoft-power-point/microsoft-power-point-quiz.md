@@ -139,7 +139,7 @@ If hidden is selected the courser stays hidden no matter what.
 #### Q20. How can you adjust which data in a table is used when working on a chart?
 - [ ] Click the Switch Row/Column button.
 - [ ] Click the Refresh Data button.
-- [ ] Click the Select Data button.
+- [x] Click the Select Data button.
 - [ ] Click the Edit Data button.
 
 #### Q21. Which view lets you see additional information on a second monitor when delivering a presentation?
@@ -226,3 +226,33 @@ Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .po
 - [x] Use the Screenshot command. (Office2019)
 - [ ] Use the Print key.
 - [ ] Use the Capture Screen command.
+
+#### Q34. How can you add more layouts to the Layout Gallery?
+- [ ] Customize the Layout Gallery.
+- [x] Add Slide Layouts to the Slide Master.
+- [ ] Use the Add Layouts command.
+- [ ] Use the Insert Layouts command.
+
+#### Q35. Why would you use the Outline view?
+- [x] To see only the text in placeholders.
+- [ ] To present the slides at a high level.
+- [ ] To add text from a Word document.
+- [ ] To organize your slides.
+
+#### Q36. The text on the left and right of the slide are cut off in print preview. How can you fix this in the printer settings?
+- [ ] Unselect High Quality.
+- [x] Select Scale to Fit Paper.
+- [ ] Select Frame Slides.
+- [ ] Select Frame Slides.
+
+#### Q37. In addition to organizing your slides, how else can sections increase your productivity?
+- [ ] In addition to organizing your slides, how else can sections increase your productivity?.
+- [x] All the slides in a section can be selected at once to apply changes such as transitions, layouts or hiding slides.
+- [ ] Sections can be exported as a separate presentation.
+- [ ] You can resize all the slides in a section at once.
+
+#### Q38. You have many slides that you need to reorder. How would you accomplish this?
+- [ ] Move the slides in Slide Show view.
+- [ ] Renumber the slides in Outline view.
+- [x] Move the slides in the Slide Sorter view.
+- [ ] Reset the slide footers.
