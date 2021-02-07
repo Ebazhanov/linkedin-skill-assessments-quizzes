@@ -2419,6 +2419,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Jim-ds",
+      "name": "Jim-ds",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63148414?v=4",
+      "profile": "https://github.com/Jim-ds",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
