@@ -538,7 +538,7 @@ buildTypes {
 
 #### Q40. Which layout is best for large, complex hierarchies?
 - [ ] LinearLayout
-- [ ] ConstraintLayout
+- [x] ConstraintLayout
 - [ ] FrameLayout
 - [ ] RelativeLayout
 
