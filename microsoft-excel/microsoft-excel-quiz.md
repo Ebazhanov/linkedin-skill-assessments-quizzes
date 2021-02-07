@@ -121,7 +121,7 @@
 - [x] Distribute Vertically
 - [ ] Align Center
 
-#### Q21. An organization chart, which shows the hierarchy within a compmay or oraginization, is available as **\_** that is include with Excel.
+#### Q21. An organization chart, which shows the hierarchy within a company or orgainization, is available as **\_** that is included with Excel.
 - [ ] a 3D model
 - [x] SmartArt
 - [ ] a Treemap chart
