@@ -203,7 +203,7 @@ File Tab -> Options -> Advanced -> Print -> High quality
 #### Q30. You need to reorder the levels of shapes on a SmartArt diagram. How can this be done
 - [ ] Retype the text
 - [ ] Change the shapes from rifht to left.
-- [x] Promt Shapes and/or Demote Shapes.
+- [x] Promote Shapes and/or Demote Shapes.
 - [ ] Move the shapes up and down.
 
 #### Q31. Why would you trim a video?
