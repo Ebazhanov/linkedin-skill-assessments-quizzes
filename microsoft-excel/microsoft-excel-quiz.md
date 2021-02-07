@@ -116,7 +116,7 @@
 - [ ] The number 9 appears once and only once within the cell.
 
 #### Q20. To ensure shapres and other objects are an equal left-to-right distance apart, select the shapes, click Page Layout > Align, and the click \_\_\_\_.
-- [ ] Aligh Middle
+- [ ] Align Middle
 - [ ] Distribute Horizontally
 - [x] Distribute Vertically
 - [ ] Align Center
