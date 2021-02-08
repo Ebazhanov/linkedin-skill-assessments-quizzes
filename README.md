@@ -32,7 +32,7 @@
 | [Hadoop](hadoop/hadoop-quiz.md)                                              | => 18 questions | => 18 answers | [@harman052](https://github.com/harman052) |
 | [HTML](html/html-quiz.md)                                                    | => 62 questions | => 62 answers | |
 | [Java](java/java-quiz.md)                                                    | => 65 questions | => 65 answers | |
-| [Javascript](javascript/javascript-quiz.md)                                  | => 70 questions | => 75 answers | [@harman052](https://github.com/harman052)|
+| [Javascript](javascript/javascript-quiz.md)                                  | => 70 questions | => 70 answers | [@harman052](https://github.com/harman052)|
 | [jQuery](jquery/jquery-quiz.md) :open_mouth:                                 | => 50 questions | => 50 answers | |
 | [JSON](json/json-quiz.md)                                                    | => 51 questions | => 51 answers | |
 | [Kotlin](kotlin/kotlin-quiz.md)                                              | => 30 questions | => 0 answers  | |
