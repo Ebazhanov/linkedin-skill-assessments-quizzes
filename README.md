@@ -54,7 +54,7 @@
 | [objective-c](objective-c/objective-c-quiz.md)                               | => 33 questions | => 31 answers | |
 | [OOP](oop/object-oriented-programming-quiz.md)                               | => 51 questions | => 51 answers | |
 | [PHP](php/php-quiz.md)                                                       | => 34 questions | => 34 answers | |
-| [Python](python/python-quiz.md)                                              | => 67 questions | => 67 answers | |
+| [Python](python/python-quiz.md)                                              | => 67 questions | => 67 answers | [@tik9](https://github.com/tik9)|
 | [R](r/r-quiz.md)                                                             | => 29 questions | => 29 answers | |
 | [React.js](react/reactjs-quiz.md) :rose:                                     | => 52 questions | => 52 answers | [@harman052](https://github.com/harman052) |
 | [REST API](rest-api/rest-api-quiz.md) :+1:                                   | => 34 questions | => 34 answers | |
