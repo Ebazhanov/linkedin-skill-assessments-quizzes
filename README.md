@@ -10,7 +10,7 @@
 
 ### Table of Contents
 
-| Linkedin-quiz-questions                                                      |                 | Status        |Responsible for answers in case you have doubts please contact this person or add him to review your PR        |
+| Linkedin-quiz-questions                                                      |                 | Status        |Your resource for answers. In case you have doubts please contact this person or add him to review your PR. |
 | ---------------------------------------------------------------------------- | --------------- | ------------- |------------- |
 | [Adobe-Illustrator](adobe-illustrator/adobe-illustrator-quiz.md)             | => 51 questions | => 0 answers  | |
 | [Adobe-Photoshop](adobe-photoshop/adobe-photoshop-quiz.md)                   | => 36 questions | => 36 answers | |
