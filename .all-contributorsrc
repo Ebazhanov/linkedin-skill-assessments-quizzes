@@ -2439,6 +2439,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "flomz",
+      "name": "Florian Martinez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24940563?v=4",
+      "profile": "https://github.com/flomz",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
