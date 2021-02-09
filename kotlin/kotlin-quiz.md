@@ -170,7 +170,7 @@ for (_____) {
 ```
 
 - [ ] `count in 1..10`
-- [ ] `count in 2..10 step 2`
+- [x] `count in 2..10 step 2`
 - [ ] `count in 1..10 % 2`
 - [ ] `var count=2; count <= 10; count+=2`
 
@@ -189,7 +189,7 @@ println(set.count())
 #### Q17. Which line of code shows how to display a nullable string's length and shows 0 instead of null?
 
 - [ ] `println(b!!.length ?: 0)`
-- [ ] `println(b?.length ?: 0)`
+- [x] `println(b?.length ?: 0)`
 - [ ] `println(b?.length ?? 0)`
 - [ ] `println(b == null? 0: b.length)`
 
@@ -232,7 +232,7 @@ class Employee
 class Manager : Employee()
 ```
 
-- [ ] In order to inherit from a class, it must be marked **open**
+- [x] In order to inherit from a class, it must be marked **open**
 - [ ] In order to inherit from a class, it must be marked **public**
 - [ ] In order to inherit from a class, it must be marked **sealed**
 - [ ] In order to inherit from a class, it must be marked **override**
@@ -259,7 +259,7 @@ class Supervisor : Employee() {
 
 - [ ] `Employee.display() `
 - [ ] `::display()`
-- [ ] `super.display()`
+- [x] `super.display()`
 - [ ] `override.display()`
 
 #### Q25. The code below compiled and executed without issue before the addition of the line declaring errorStatus. Why does this line break the code?
@@ -306,7 +306,7 @@ class Person
 
 #### Q28. Which is the proper way to declare a singleton named DatabaseManager?
 
-- [ ] `object DatabaseManager {}`
+- [x] `object DatabaseManager {}`
 - [ ] `singleton DatabaseManager {}`
 - [ ] `static class DatabaseManager {}`
 - [ ] `data class DatabaseManager {}`
