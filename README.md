@@ -21,7 +21,7 @@
 | [C#](c%23/c-sharp-quiz.md)                                                   | => 48 questions | => 47 answers | |
 | [C++](c%2B%2B/c%2B%2Bquiz.md)                                                | => 33 questions | => 26 answers | |
 | [C (Programming Language)](<c-(programming-language)/c-quiz.md>)             | => 25 questions | => 25 answers | |
-| [CSS](css/css-quiz.md)                                                       | => 54 questions | => 77 answers | |
+| [CSS](css/css-quiz.md)                                                       | => 77 questions | => 77 answers | |
 | [Django](django/django-quiz.md)                                              | => 48 questions | => 48 answers | |
 | [.NET Framework](dotnet-framework/dotnet-framework-quiz.md)                  | => 37 questions | => 34 answers | |
 | [Git](git/git-quiz.md) :star:                                                | => 92 questions | => 92 answers | |
