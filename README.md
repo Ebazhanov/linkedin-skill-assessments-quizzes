@@ -35,7 +35,7 @@
 | [JSON](json/json-quiz.md)                                                    | => 51 questions | => 51 answers | |
 | [Kotlin](kotlin/kotlin-quiz.md)                                              | => 30 questions | => 0 answers  | |
 | [Linux](linux/linux-assesment.md)                                            | => 34 questions | => 30 answers | |
-| [Machine Learning](machine-learning/machine-learning-quiz.md)                | => 70 questions | => 70 answers | |
+| [Machine Learning](machine-learning/machine-learning-quiz.md)                | => 70 questions | => 70 answers | [@aaronwangj](https://github.com/aaronwangj)|
 | [MATLAB](matlab/matlab-quiz.md)                                              | => 45 questions | => 45 answers | |
 | [Maven](maven/maven-quiz.md) :fire:                                          | => 35 questions | => 35 answers | |
 | [Microsoft Azure](microsoft-azure/microsoft-azure-quiz.md)                   | => 44 questions | => 45 answers | |
