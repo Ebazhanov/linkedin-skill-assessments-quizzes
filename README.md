@@ -29,8 +29,8 @@
 | [Git](git/git-quiz.md) :star:                                                | => 92 questions | => 92 answers | |
 | [Google Analytics](google-analytics/google-analytics-quiz.md)                | => 65 questions | => 45 answers | |
 | [Google Cloud Platform (GCP)](google-cloud-platform/gcp-quiz.md)             | => 27 questions | => 27 answers | |
-| [Hadoop](hadoop/hadoop-quiz.md)                                              | => 18 questions | => 18 answers | [@harman052](https://github.com/harman052) |
-| [HTML](html/html-quiz.md)                                                    | => 62 questions | => 62 answers | |
+| [Hadoop](hadoop/hadoop-quiz.md)                                              | => 18 questions | => 18 answers |  |
+| [HTML](html/html-quiz.md)                                                    | => 62 questions | => 62 answers | [@harman052](https://github.com/harman052)|
 | [Java](java/java-quiz.md)                                                    | => 65 questions | => 65 answers | |
 | [Javascript](javascript/javascript-quiz.md)                                  | => 70 questions | => 70 answers | [@harman052](https://github.com/harman052)|
 | [jQuery](jquery/jquery-quiz.md) :open_mouth:                                 | => 50 questions | => 50 answers | |
@@ -66,7 +66,7 @@
 | [Transact-SQL (T-SQL)](t-sql/t-sql-quiz.md)                                  | => 28 questions | => 28 answers | |
 | [Visual Basic for Applications (VBA)](vba/vba-quiz.md)                       | => 11 questions | => 0 answers  | |
 | [Windows Server](windows-server/windows-server-quiz.md)                      | => 46 questions | => 44 answers | |
-| [WordPress](wordpress/wordpress-quiz.md)                                     | => 42 questions | => 39 answers | |
+| [WordPress](wordpress/wordpress-quiz.md)                                     | => 42 questions | => 39 answers | [@harman052](https://github.com/harman052)|
 | [XML](xml/xml-quiz.md)                                                       | => 21 questions | => 19 answers | |
 
 :point_right: If you want to improve your skills on another test platform [**Pluralsight IQ Skill**](https://www.pluralsight.com/product/skill-iq)
