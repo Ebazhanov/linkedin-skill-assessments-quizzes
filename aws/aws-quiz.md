@@ -52,6 +52,7 @@
 - [ ] Use RDS for SQL Server and create the same instance in two different regions. Use Database Migration Service to keep each database in sync.
 - [ ] Use a VPN or VPC peering to establish a connection between the VPCs in each region. Install SOL Server Enterprise Edition on EC2 instances in each region and configure an Always On availability group.
 - [x] Use RDS for SQL Server 2016 or 2017 Enterprise Edition. Enable Multi-AZ support and select the Mirroring/Always On option. Select another region for the mirroring option
+  [Reference](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html?opt_id=oeu1612780272452r0.9199525073583283)
 - [ ] You can not set up an active-active architecture for SQL Server that spans geographic regions.
 
 #### Q10. What does it cost to launch an EC2 instance from the AWS Marketplace?
