@@ -2429,6 +2429,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "kariot",
+      "name": "Sreehari K",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35885296?v=4",
+      "profile": "http://kariot.me",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
