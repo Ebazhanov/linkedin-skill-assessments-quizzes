@@ -556,3 +556,10 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] high bias, low variance
 - [ ] high bias, high variance
 - [x] low bias, low variance // since the data is accurately classified and is neither overfitting or underfitting the dataset
+
+#### Q71. Many of the advances in machine learning have come from improved?
+
+- [x] structured data
+- [ ] algorithms
+- [ ] time
+- [ ] computer scientists
