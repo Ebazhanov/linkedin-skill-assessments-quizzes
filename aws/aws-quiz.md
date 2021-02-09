@@ -51,7 +51,7 @@
 #### Q9. How do you architect a solution for an SQL Server database to be replicated across AWS regions in an active-active architecture?
 - [ ] Use RDS for SQL Server and create the same instance in two different regions. Use Database Migration Service to keep each database in sync.
 - [ ] Use a VPN or VPC peering to establish a connection between the VPCs in each region. Install SOL Server Enterprise Edition on EC2 instances in each region and configure an Always On availability group.
-- [ ] Use RDS for SQL Server 2016 or 2017 Enterprise Edition. Enable Multi-AZ support and select the Mirroring/Always On option. Select another region for the mirroring option
+- [x] Use RDS for SQL Server 2016 or 2017 Enterprise Edition. Enable Multi-AZ support and select the Mirroring/Always On option. Select another region for the mirroring option
 - [ ] You can not set up an active-active architecture for SQL Server that spans geographic regions.
 
 #### Q10. What does it cost to launch an EC2 instance from the AWS Marketplace?
