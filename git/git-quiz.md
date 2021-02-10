@@ -559,7 +559,7 @@ In Git, there are two main ways to integrate changes from one branch into anothe
 - [x] `git prune --expire <time>`
 
 #### Q80. What conflicts can occur when forcing a push after rebasing?
-- [ ] The remote master branch could have existing changes overwritten.
+- [x] The remote master branch could have existing changes overwritten.
 - [ ] The origin URL will be reset to its default value.
 - [ ] The current HEAD will be deleted and can't be reinstated.
 - [ ] Nothing, it's common practice to force a push after rebasing.
