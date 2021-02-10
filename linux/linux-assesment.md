@@ -5,11 +5,16 @@
 - [ ] df -h
 - [ ] listid
 - [ ] ls -l
+
 - [ ] blkid \*\*correct
+
+- [x] blkid \*\*correct
+
 
 #### Q2. Linux file access control lists (ACLs) are **\_**.
 
 - [x] discretionary access control system permissions layered over standard Linux permissions \*\*correct
+
 - [ ] mandatory access control system permissions layered over standard Linux permissions
 - [ ] a type of firewall for Linux
 - [ ] the same as standard Linux permissions
@@ -23,6 +28,25 @@
 - [ ] ip route show
 
 #### Q4. What does this command string do?
+
+
+- [ ] mandatory access control system permissions layered over standard Linux permissions
+
+- [ ] a type of firewall for Linux
+
+- [ ] the same as standard Linux permissions
+
+
+
+3)When using iproute2, how do you show routing information for an IPv6 network?
+
+- [ ] route -ipv6
+- [ ] route
+- [ ] ip -6 route show \*\*correct
+- [ ] ip route show
+
+4)What does this command string do?
+
 find / -size +10M -exec ls -l {} ;
 
 - [ ] It finds all files using ls -l and hands them off to the find command to display.
@@ -128,7 +152,11 @@ ps -e --format uid,pid,ppid,%cpu,cmd
 
 - [ ] The backup drive is corrupted and needs to be re-created.
 
+
 - [x] When the backup drive was duplicated, the label was as well. When booted, the system mounted the old duplicated drive by its identical label. \*\*correct(I guess. 
+
+- [x] When the backup drive was duplicated, the label was as well. When booted, the system mounted the old duplicated drive by its identical label. \*\*correct(I guess)
+
 
 - [ ] There is a conflict between the physical location of the backup drive and the original drive.
 
@@ -140,7 +168,11 @@ ps -e --format uid,pid,ppid,%cpu,cmd
 
 - [ ] A redirect sends output to STDOUT and a file, whereas a tee sends output only to STDOUT.
 
+
 - [ ] Nothing, they are the same. \*\*correct
+
+- [x] Nothing, they are the same. \*\*correct
+
 
 - [ ] The tee command sends output to STDOUT and a file, whereas a redirect sends output only to a file.
 
@@ -152,7 +184,11 @@ ps -e --format uid,pid,ppid,%cpu,cmd
 
 - [ ] alternative DNS services
 
+
 - [ ] sources for name service information \*\*correct
+
+- [x] sources for name service information \*\*correct
+
 
 #### Q17. Assume the variable myNumber holds a string consisting of 10 digits. What will this command output?
 
@@ -164,7 +200,11 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 
 - [ ] It will output the entire 10-digit number inside parentheses.
 
+
 - [ ] It will output the same 10-digit number, but the first 3 digits will be inside parentheses. \*\*correct
+
+- [x] It will output the same 10-digit number, but the first 3 digits will be inside parentheses. \*\*correct
+
 
 #### Q18. Packages can be downloaded but not installed with yum or dnf by specifying which option?
 
@@ -174,20 +214,32 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 
 - [ ] -d
 
+
 - [ ] --downloadonly \*\*correct
+
+- [x] --downloadonly \*\*correct
+
 
 #### Q19. What character class is equal to this set?
 [0-9]
 
 - [ ] [[:alnum:]]
+
 - [ ] [[:digit:]] \*\*correct
+
+- [x] [[:digit:]] \*\*correct
+
 - [ ] [[:alpha:]]
 - [ ] [[:num:]]
 
 #### Q20. When archiving files, which command will preserve all file attributes including ACLs and SELinux security context?
 
 - [ ] zip
+
 - [ ] tar \*\*correct
+
+- [x] tar \*\*correct
+
 - [ ] archive
 - [ ] gzip
 
@@ -195,7 +247,11 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 
 - [ ] Restart dhcpd.
 - [ ] Run /etc/hostname.
+
 - [ ] Nothing, the system notices automatically. \*\*correct
+
+- [x] Nothing, the system notices automatically. \*\*correct
+
 - [ ] Notify systemd to update it by restarting the systemd-hostnamed service.
 
 #### Q22. What command would you use to resize an LVM volume group to include an additional physical volume?
@@ -203,14 +259,22 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 - [ ] vgadd
 - [ ] vgresize
 - [ ] vgappend
+
 - [ ] vgextend \*\*correct
+
+- [x] vgextend \*\*correct
+
 
 #### Q23. When would this system cron job run its task?
 0 1 \* \* \*
 
 - [ ] every minute of the hour
 - [ ] every hour of every day  
+
 - [ ] every day at 1:00 AM \*\*correct
+
+- [x] every day at 1:00 AM \*\*correct
+
 - [ ] only on Mondays
 
 #### Q24. ifconfig has been deprecated. What command is now recommended for changing IP addresses in the live config?
@@ -218,7 +282,11 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 - [ ] netconf
 - [ ] ipconfig
 - [ ] ipman
+
 - [ ] ip \*\*correct
+
+- [x] ip \*\*correct
+
 
 
 
@@ -226,21 +294,33 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 
 - [ ] apache_enable_homedirs
 - [ ] httpd_enable_userdirs
+
 - [ ] httpd_enable_homedirs \*\*correct
+
+- [x] httpd_enable_homedirs \*\*correct
+
 - [ ] httpd_enable_userhome_dirs
 
 #### Q26. Why doesn't passwd -l keep a user from logging in via other methods?
 
 - [ ] The passwd command is not used for locking passwords.
 - [ ] There is no password -l option.
+
 - [ ] It locks only the password, not the account, so users can still authenticate with keys or other methods. \*\*correct(I guess)
+
+- [x] It locks only the password, not the account, so users can still authenticate with keys or other methods. \*\*correct(I guess)
+
 - [ ] It does lock the account, keeping users from logging in even if they are using other authentication methods.
 
 #### Q27. In the Bash shell, what is the difference between piping into | and piping into |&?
 
 - [ ] Piping into | pipes both stdout and stderr. Piping into |& pipes only stderr.
+
 - [ ] Piping into | pipes stdout. Piping into |& pipes stdout and
 stderr. \*correct
+
+
+- [x] Piping into | pipes stdout. Piping into |& pipes stdout and stderr. \*correct
 
 - [ ] Piping into | pipes both stdout and stderr. Piping into |& pipes only stdout.
 - [ ] Piping into | pipes stdout. Piping into |& pipes all open file descriptors.
@@ -248,15 +328,24 @@ stderr. \*correct
 #### Q28. Why is the passwd command able to modify the /etc/passwd file?
 
 - [ ] The kernel identifies it as one of the names of extended commands.
+
 - [ ] It has the same name as the file it modifies.
 *Correct* - [ ] It has the SUID permission mode and is owned by root.
+
+- [x] It has the same name as the file it modifies. *Correct*
+- [ ] It has the SUID permission mode and is owned by root.
+
 - [ ] It is a system administration command.
 
 #### Q29. When a user deletes a file using the rm command, Linux will **\_**.
 
 - [ ] always ask for confirmation
 - [ ] back up the file before it deletes the file
+
 - [ ] ask for confirmation if configured to do so \*\*correct
+
+- [x] ask for confirmation if configured to do so \*\*correct
+
 - [ ] never ask for confirmation
 
 #### Q30. What is a major advantage of using Logical Volume Management (LVM)?
@@ -264,12 +353,20 @@ stderr. \*correct
 - [ ] Access to a drive is faster than with standard partitions.
 - [ ] Volumes can be resized smaller without unmounting them.
 - [ ] Repairing filesystem errors is easier than with standard partitions.
+
 - [ ] Volumes can be resized even if the free space is not contiguous. \*\*correct
+
+- [x] Volumes can be resized even if the free space is not contiguous. \*\*correct
+
 
 #### Q31. What is one major difference between brace expansion and globs?
 
 - [ ] Globs create a list; brace expansion matches pattern.
+
 - [ ] Brace expansion requires files to exist; globs do not. ( I dont know the answer)
+
+- [x] Brace expansion requires files to exist; globs do not. ( I dont know the answer)
+
 - [ ] Brace expansion creates a list; globs mart the list of pathnames.
 - [ ] Globs get processes first and brace expansion later.
 
@@ -277,16 +374,27 @@ stderr. \*correct
 
 - [ ] -d
 - [ ] -k
+
 - [ ] -b \*\*correct
+
+- [x] -b \*\*correct
+
 - [ ] -x
 
 #### Q33. Which choice will not print "Hello World" in the terminal?
 
 - [ ] myVar = 5
+
 [[ $myVar -lt 10 ]] && echo " Hello World" \*\* I dont know the answer
 - [ ] myVar = 5
 [[ $myVar -lt 10 ]] || echo " Hello World"
 - [ ] myVar = 5
+
+[[ $myVar -lt 10 ]] && echo " Hello World" 
+- [x] myVar = 5
+[[ $myVar -lt 10 ]] || echo " Hello World"
+- [x] myVar = 5
+
 [[ $myVar -gt 10 ]] && echo " Hello World"
 - [ ] myVar = 5
 [[ $myVar -gt 10 ]] || echo " Hello World"
