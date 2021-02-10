@@ -2459,6 +2459,15 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "apoage",
+      "name": "apoage",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11403095?v=4",
+      "profile": "https://github.com/apoage",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
