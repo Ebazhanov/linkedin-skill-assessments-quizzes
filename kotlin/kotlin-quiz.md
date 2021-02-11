@@ -39,7 +39,7 @@ class Airplane(private val name: String) : Aircraft() {
 #### Q4. Inside an extension function, what is the name of the variable that corresponds to the receiver object
 
 - [ ] The variable is named **it**
-- [ ] The variable is named **this**
+- [x] The variable is named **this**
 - [ ] The variable is named **receiver**
 - [ ] The variable is named **default**
 
