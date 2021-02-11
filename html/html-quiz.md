@@ -1060,3 +1060,10 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [x] `<quote>`
 - [ ] `<blockquote>`
 - [ ] `<notation>`
+
+#### Q63. How will a video look displayed on a fully loaded webpage if the `<video>` tag is used and the **autoplay** attribute is not set?
+
+- [ ] It will display a random frame from a video, unless the **poster** attribute is set.
+- [x] It will display the first frame of the video, unless the **poster** attribute is set.
+- [ ] It will display nothing unless the **poster** attribute is set.
+- [ ] It will display a black window unless the **poster** attribute is set.
