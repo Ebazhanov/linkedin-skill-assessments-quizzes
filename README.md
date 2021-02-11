@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-256-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-257-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
@@ -438,6 +438,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/flomz"><img src="https://avatars.githubusercontent.com/u/24940563?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Florian Martinez</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=flomz" title="Code">💻</a> <a href="#design-flomz" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/aaronwangj"><img src="https://avatars.githubusercontent.com/u/56976471?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aaron</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=aaronwangj" title="Code">💻</a> <a href="#design-aaronwangj" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/apoage"><img src="https://avatars.githubusercontent.com/u/11403095?v=4?s=100" width="100px;" alt=""/><br /><sub><b>apoage</b></sub></a><br /><a href="#design-apoage" title="Design">🎨</a></td>
+    <td align="center"><a href="http://jasperan.life"><img src="https://avatars.githubusercontent.com/u/20752424?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ignacio Guillermo Martinez </b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=jasperan" title="Code">💻</a> <a href="#design-jasperan" title="Design">🎨</a></td>
   </tr>
 </table>
 
