@@ -28,7 +28,7 @@
 - [ ] as children of `<body>, <article>, <aside>, <nav>, and <section>` tags
 - [ ] as children of `<body>, <article>, <table>, and <section>` tags
 
-#### Q5. What's the best way to apply bold styling to text?
+#### Q5. What is the best way to apply bold styling to text?
 
 - [x] `<strong>`
 - [ ] Use CSS.
@@ -163,7 +163,7 @@
 #### Q17. What should fill the blank in the HTML code bellow?
 
 ```html
-<form method="post" action="mailto:info@linkedin.com" ____="text/plain"></form>
+<form method="post" action="mailto:info@linkedin.com" ____="text/plain" >
 ```
 
 - [x] enctype
@@ -350,7 +350,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [x] It displays image1.jpg at 1000px and higher and image2.jpg at 750px and higher, image3.jpg is a default in case `<picture>` is not supported.
 - [ ] It displays image1.jpg, image2.jpg and image3.jpg at 1000px and higher.
 
-#### Q26. What code will produce the table shown below?
+#### Q26. What code will produce this table?
 
 ![Table with yellow background](images/ss-4.png?raw=true)
 
@@ -573,17 +573,15 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 ```markdown
 <ul>
-  <li>
-    office
+  <li>Office Supplies
     <ul>
-      <li>staple</li>
-      <li>paper</li>
+      <li>Stapler</li>
+      <li>Paper clips</li>
     </ul>
   </li>
-  <li>
-    groceries
+  <li>Groceries
     <ul>
-      <li>milk</li>
+      <li>Milk</li>
     </ul>
   </li>
 </ul>
@@ -601,66 +599,6 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 </ul>
 ```
 
-#### Q36. What code will produce this table?
-
-| col1 (yellow)  | col2 (yellow)   | col3  |
-| -------------- | --------------- | ----- |
-| first (yellow) | second (yellow) | third |
-
-- [ ]
-
-```markdown
-<table>
-  <group cols=2 style='background-color:yellow'>
-  <tr scope=row>
-    <th>col1</th>
-    <th>col2</th>
-    <th>col3</th>
-  </tr>
-  <tr scope=row>
-    <td>first</td>
-    <td>second</td>
-    <td>third</td>
-  </tr>
-</table>
-```
-
-- [ ]
-
-```markdown
-<table>
-  <columns colspan=2 style=background-color:yellow>
-  <tr>
-    <th>col1</th>
-    <th>col2</th>
-    <th>col3</th>
-  </tr>
-  <tr>
-    <td>first</td>
-    <td>second</td>
-    <td>third</td>
-  </tr>
-</table>
-```
-
-- [x]
-
-```markdown
-<table>
-  <colgroup span=2 style=background-color:yellow>
-  <tr>
-    <th>col1</th>
-    <th>col2</th>
-    <th>col3</th>
-  </tr>
-  <tr>
-    <td>first</td>
-    <td>second</td>
-    <td>third</td>
-  </tr>
-</table>
-```
-
 #### Q37. What should fill the blank below?
 
 ```html
@@ -672,7 +610,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] device
 - [x] media
 
-#### Q38. What is the best semantic way to mark up the layout shown?
+#### Q38. What is semantically correct way to mark up this layout?
 
 ![quote](images/ss-5.png?raw=true)
 
@@ -1060,3 +998,17 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [x] `<quote>`
 - [ ] `<blockquote>`
 - [ ] `<notation>`
+
+#### Q63. What is the root element of an HTML document?
+
+- [ ] `<!DOCTYPE html>`
+- [x] `<html>`
+- [ ] `<root>`
+- [ ] `<body>`
+
+#### Q64. What is the semantic meaning of the `<hr>` tag?
+
+- [ ] it drows a horizontal line.
+- [ ] This tag is depreced and should not be used.
+- [ ] It designates a seperation of sections within an `<article>`.
+- [x] It designates a topic shift within a section at the paragraph level
