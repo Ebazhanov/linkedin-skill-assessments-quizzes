@@ -927,3 +927,11 @@ public static void main(String[] args) {
 - [ ] //
 - [ ] /
 - [ ] DIV
+
+#### Q66. Which choice is a disadvantage of inheritance?
+
+- [ ] Overridden methods of the parent class cannot be reused.
+- [ ] Responsibilities are not evenly distributed between parent and child classes.
+- [x] Classes related by inheritance are tightly coupled to each other.
+	[reference](http://erpbasic.blogspot.com/2012/01/inheritance-advantages-and.html#:~:text=Main%20disadvantage%20of%20using%20inheritance,used%20independent%20of%20each%20other.&text=4.,case%20of%20using%20that%20method.)
+- [ ] The internal state of the parent class is accessible to its children.
