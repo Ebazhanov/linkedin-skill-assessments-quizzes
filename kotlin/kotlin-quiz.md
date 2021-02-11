@@ -40,6 +40,7 @@ class Airplane(private val name: String) : Aircraft() {
 
 - [ ] The variable is named **it**
 - [x] The variable is named **this**
+[reference](https://www.programiz.com/kotlin-programming/extension-functions#:~:text=The%20class%20name%20is%20the,function%20refers%20the%20receiver%20object)
 - [ ] The variable is named **receiver**
 - [ ] The variable is named **default**
 
