@@ -2479,6 +2479,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "AirlineDog",
+      "name": "AirlineDog",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72792044?v=4",
+      "profile": "https://github.com/AirlineDog",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
