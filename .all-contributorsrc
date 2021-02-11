@@ -2469,6 +2469,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "jasperan",
+      "name": "Ignacio Guillermo Martinez ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20752424?v=4",
+      "profile": "http://jasperan.life",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
