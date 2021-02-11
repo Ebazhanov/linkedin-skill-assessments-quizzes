@@ -1068,7 +1068,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] It will display nothing unless the **poster** attribute is set.
 - [ ] It will display a black window unless the **poster** attribute is set.
 
-### Q64. What is the correct way to describe an empty element?
+#### Q64. What is the correct way to describe an empty element?
 - [ ] It has opening and closing tags but no child content.
 - [ ] It display nothing on a website.
 - [x] It has no child content and no closing tag.
