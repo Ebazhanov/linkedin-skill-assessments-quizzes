@@ -1068,8 +1068,12 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] It will display nothing unless the **poster** attribute is set.
 - [ ] It will display a black window unless the **poster** attribute is set.
 
+[Reference (w3schools)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_video)
+
 #### Q64. What is the correct way to describe an empty element?
 - [ ] It has opening and closing tags but no child content.
 - [ ] It display nothing on a website.
 - [x] It has no child content and no closing tag.
 - [ ] It has child content but no cloding tag.
+
+[Reference (MDN Web Docs)](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element)
