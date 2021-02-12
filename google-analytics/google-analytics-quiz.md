@@ -102,17 +102,17 @@
 ### Q17. What feature do you configure if you want to track transactions, order values, shopping cart behavior, and product performance?
 - [ ] campaigns
 - [ ] revenue
-- [ ] ecommerce
+- [x] ecommerce
 - [ ] ROAS (Return On Ad Spend)
 
 ### Q18. What is an example of data you cannot track in Google Analytics?
 - [ ] page speed score
 - [ ] return on advertising spend
-- [ ] precise user latitude/longitude data
+- [x] precise user latitude/longitude data
 - [ ] time on site
 
 ### Q19. If you create a new user at the property level, what does the user inherit access to?
-- [ ] all the views of that property
+- [x] all the views of that property
 - [ ] all the accounts in the organization
 - [ ] Nothing—each permission must be set manually.
 - [ ] all the properties in the account
@@ -124,7 +124,7 @@
 - [ ] sessions with 0 goal completions
 
 ### Q21. If you wanted to determine if a particular browser was resulting in a high bounce rate, what report could you look at?
-- [ ] Technology > Browser & OS
+- [x] Technology > Browser & OS
 - [ ] Site Speed > Page Timings
 - [ ] Mobile > Devices
 - [ ] Behavior > Engagement
