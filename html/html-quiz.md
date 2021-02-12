@@ -1008,10 +1008,10 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 #### Q64. What is the semantic meaning of the `<hr>` tag?
 
-- [ ] it dr1ws a horizontal line.
+- [ ] It draws a horizontal line.
 - [ ] This tag is deprecated and should not be used.
 - [ ] It designates a separation of sections within an `<article>`.
-- [x] It designates a topic shift within a section at the paragraph level
+- [x] It designates a topic shift within a section at the paragraph level.
 
 #### Q65. How will a video look displayed on a fully loaded webpage if the `<video>` tag is used and the **autoplay** attribute is not set?
 
