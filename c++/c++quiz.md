@@ -419,3 +419,198 @@ public class Dog extends Animal {
    //....
 };
 ```
+
+#### Q34. What is the output of this code?
+```
+#include <cstdio>
+using namespace std;
+
+int main(){
+    char c = 255;
+    if(c>10)
+        printf("c = %i, which is greater than 10", c);
+    else
+        printf("c = %i, which is less than 10", c);
+    return 0;
+}
+```
+- [x] c = -1, which is less than 10
+- [ ] c = 255, which is greater than 10
+- [ ] c = -1, which is greater than 10
+- [ ] c = 255, which is less than 10
+
+#### Q35. How can C++ code call a C function?
+- [ ] by simply calling the C code
+- [ ] there is no way for C++ to call a C function
+- [x] by using extern "C"
+- [ ] by importing the source C code
+
+#### Q36. Which choice is _not_ a valid type definition of a structure that contains x and y coordinates as integers, and that can be used exactly as shown for the variable named `center`?
+```
+coord center;
+center.x = 5;
+center.y = 3;
+```
+- [x]
+```
+typedef struct coord {
+    int x;
+    int y;
+};
+```
+
+- [ ]
+```
+typedef struct coord {
+    int x;
+    int y;
+} coord;
+```
+
+- [ ]
+```
+typedef struct {
+    int x;
+    int y;
+} coord;
+```
+
+- [ ]
+```
+struct coord {
+    int x;
+    int y;
+};
+
+typedef struct coord coord;
+```
+
+#### Q37. Which choice does _not_ produce the same output as this code snippet? Assume the variable `i` will not be used anywhere else in the code.
+```
+for (i=1;i<10;i++){
+    cout<<i<<endl;
+}
+```
+
+- [x] 
+```
+i=1;
+while(i<10){
+    cout<<++i<<endl;
+}
+```
+
+- [ ]
+```
+for (int i:{1,2,3,4,5,6,7,8,9}) {
+    cout<<i<<endl;
+} 
+```
+
+- [ ]
+```
+i = 1;
+do {
+    cout<<i++<<endl;
+} while(i<10);
+```
+
+- [ ]
+```
+i = 1;
+loop:
+    cout<<i++<<endl;
+    if(i<10) goto loop;
+```
+
+#### Q38. What does this part of a main.cpp file do?
+```
+#include "library.h"
+```
+
+- [ ] It causes the toolchain to compile all the contents of library.h so that its executable code is available when needed by the final application.
+- [ ] It cherry picks library.h for the declarations and definitions of all data and functions used in the remainder of the source file main.cpp, finally replacing the `#include` directive by those declarations and definitions.
+- [ ] It informs the linker that some functions or data used in the source file main.cpp are contained in library.h, so that they can be called in run time. This is also known as dynamic linking.
+- [x] It causes the replacement of the `#include` directive by the entire contents of the source file library.h. This is similar to a Copy-Paste operation of library.h into main.cpp.
+
+#### Q39. Consider this function declaration of `is_even`, which takes in an integer and returns true if the argument is an even number and false otherwise. Which declarations are correct for overloaded versions of that function to support floating point numbers and string representations of numbers?
+```
+bool is_even(int);
+```
+
+- [x]
+```
+bool is_even(float f);
+bool is_even(char *str);
+```
+- [ ]
+```
+bool is_even(float f);
+bool is_even(char str);
+```
+- [ ]
+```
+bool is_even_float(float f);
+bool is_even_str(char *str);
+```
+- [ ]
+```
+float is_even(float f);
+char *is_even(char *str);
+```
+
+#### Q40. Which choice is an include guard for the header file my_library.h?
+- [ ]
+```
+#ifdef MY_LIBRARY_H
+#define MY_LIBRARY_H
+
+// my_library.h content
+
+#endif /* MY_LIBRARY_H */
+```
+- [x]
+```
+#ifndef MY_LIBRARY_H
+#define MY_LIBRARY_H
+
+// my_library.h content
+
+#endif /* MY_LIBRARY_H */
+```
+- [ ]
+```
+#ifdef MY_LIBRARY_H
+#undef MY_LIBRARY_H
+
+// my_library.h content
+
+#endif /* MY_LIBRARY_H */
+```
+- [ ]
+```
+#define MY_LIBRARY_H
+#include MY_LIBRARY_H
+
+// my_library.h content
+
+#undef MY_LIBRARY_H
+```
+
+#### Q41. What's wrong with this definition when using a pre-c++11 compiler?
+```
+std::vector<std::vector<int>> thematrix;
+```
+- [ ] There's nothing wrong with it
+- [ ] An std::vector cannot contain more std::vector containers as its elements
+- [ ] the correct syntax should be: `std::vector[std::vector[int]] thematrix;`
+- [x] ">>" is parsed as the shift-right operator, and thus results in a compile error.
+
+#### Q42. What is the statement below equivalent to?
+```
+sprite->x
+```
+- [ ] sprite.x
+- [ ] sprite.*x
+- [x] (*sprite).x
+- [ ] *sprite.x
