@@ -999,7 +999,6 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] `<blockquote>`
 - [ ] `<notation>`
 
-
 #### Q63. What is the root element of an HTML document?
 
 - [ ] `<!DOCTYPE html>`
@@ -1009,10 +1008,10 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 #### Q64. What is the semantic meaning of the `<hr>` tag?
 
-- [ ] it drows a horizontal line.
-- [ ] This tag is depreced and should not be used.
-- [ ] It designates a seperation of sections within an `<article>`.
-- [x] It designates a topic shift within a section at the paragraph level
+- [ ] It draws a horizontal line.
+- [ ] This tag is deprecated and should not be used.
+- [ ] It designates a separation of sections within an `<article>`.
+- [x] It designates a topic shift within a section at the paragraph level.
 
 #### Q65. How will a video look displayed on a fully loaded webpage if the `<video>` tag is used and the **autoplay** attribute is not set?
 
@@ -1027,7 +1026,6 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] It has opening and closing tags but no child content.
 - [ ] It display nothing on a website.
 - [x] It has no child content and no closing tag.
-- [ ] It has child content but no cloding tag.
+- [ ] It has child content but no closing tag.
 
 [Reference (MDN Web Docs)](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element)
-
