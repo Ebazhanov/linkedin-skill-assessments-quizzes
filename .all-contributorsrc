@@ -2469,6 +2469,36 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "jasperan",
+      "name": "Ignacio Guillermo Martinez ",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20752424?v=4",
+      "profile": "http://jasperan.life",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "AirlineDog",
+      "name": "AirlineDog",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72792044?v=4",
+      "profile": "https://github.com/AirlineDog",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "retr00exe",
+      "name": "Mekel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55347344?v=4",
+      "profile": "http://mekelilyasa.now.sh",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

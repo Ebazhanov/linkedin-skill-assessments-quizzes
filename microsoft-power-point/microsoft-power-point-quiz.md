@@ -268,14 +268,12 @@ Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .po
 
 - [ ] Customize the Layout Gallery.
 - [x] Add Slide Layouts to the Slide Master.
-- [ ] Add Slide Layouts to the Slide Master.
 - [ ] Use the Add Layouts command.
 - [ ] Use the Insert Layouts command.
 
 #### Q35. Why would you use the Outline view?
 
 - [x] To see only the text in placeholders.
-- [ ] To see only the text in placeholders.
 - [ ] To present the slides at a high level.
 - [ ] To add text from a Word document.
 - [ ] To organize your slides.
@@ -284,7 +282,6 @@ Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .po
 
 - [ ] Unselect High Quality.
 - [x] Select Scale to Fit Paper.
-- [ ] Select Scale to Fit Paper.
 - [ ] Select Frame Slides.
 - [ ] Select Frame Slides.
 
@@ -292,7 +289,6 @@ Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .po
 
 - [ ] In addition to organizing your slides, how else can sections increase your productivity?.
 - [x] All the slides in a section can be selected at once to apply changes such as transitions, layouts or hiding slides.
-- [ ] All the slides in a section can be selected at once to apply changes such as transitions, layouts or hiding slides.
 - [ ] Sections can be exported as a separate presentation.
 - [ ] You can resize all the slides in a section at once.
 
@@ -301,5 +297,18 @@ Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .po
 - [ ] Move the slides in Slide Show view.
 - [ ] Renumber the slides in Outline view.
 - [x] Move the slides in the Slide Sorter view.
-- [ ] Move the slides in the Slide Sorter view.
 - [ ] Reset the slide footers.
+
+#### Q39. What can be seen in Presenter view?
+
+- [ ] Timer.
+- [ ] Notes.
+- [ ] Side Navigator.
+- [x] all of these answers.
+
+#### Q40. How can you format the entire contents of a text box?
+
+- [ ] Click the dashed/dotted border of the text box.
+- [ ] Right-click the text box and select Select All.
+- [ ] Click the Fond button on the Home tab.
+- [ ] Double-click any word in the text box.

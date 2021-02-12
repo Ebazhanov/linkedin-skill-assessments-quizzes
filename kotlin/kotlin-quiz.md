@@ -34,12 +34,14 @@ class Airplane(private val name: String) : Aircraft() {
 - [ ] Only abstract classes are inheritable by subclasses
 - [ ] Only abstract classes can inherit from multiple superclasses
 - [ ] Only abstract classes can have abstract methods
-- [ ] Only abstract classes can store state
+- [x] Only abstract classes can store state
+[reference](https://blog.kotlin-academy.com/abstract-class-vs-interface-in-kotlin-5ab8697c3a14)
 
 #### Q4. Inside an extension function, what is the name of the variable that corresponds to the receiver object
 
 - [ ] The variable is named **it**
-- [ ] The variable is named **this**
+- [x] The variable is named **this**
+[reference](https://www.programiz.com/kotlin-programming/extension-functions#:~:text=The%20class%20name%20is%20the,function%20refers%20the%20receiver%20object)
 - [ ] The variable is named **receiver**
 - [ ] The variable is named **default**
 
