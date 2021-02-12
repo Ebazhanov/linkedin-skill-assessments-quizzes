@@ -12,7 +12,7 @@
 - [ ] ISVALUE AND ISNUMBER
 - [ ] ISVALUE and ISTEXT
 
-#### Q3. If you drag the fill handle (lower-right corner) of cell A2 downward into cells A3, A4, and A5, what contents will appear in those cells?
+#### Q3. If you drag the fill handle (lower-right corner) of cell A2 (Jan) downward into cells A3, A4, and A5, what contents will appear in those cells?
 - [ ] Jan, Jan, Jan
 - [ ] Feb, Mar, blank cell
 - [x] Feb, Mar, Apr
@@ -24,7 +24,10 @@
 - [ ] THE DEATH OF CHIVALRY
 - [x] The Death Of Chivalry
 
-#### Q5. If the worksheet below, you want to use Data > Subtotal to show a subtotal value per sport. What must you do BEFORE applying the Subtotal function?
+#### Q5. In the worksheet below, you want to use Data > Subtotal to show a subtotal value per sport. What must you do BEFORE applying the Subtotal function?
+
+![Subtotal](images/001.png?raw=true)
+
 - [ ] Sort by the data in Column E.
 - [ ] Format the data in Column D.
 - [x] Sort by the data in Column D.
@@ -69,7 +72,7 @@
 #### Q12. A cell contains the value 7.877 and you want it to display as 7.9. How can you accomplish this?
 - [ ] Use the ROUND() function.
 - [x] Click the Decrease Decimal button twice.
-- [ ] In the cells group on the Home tab, click Format > Format Cells. Then cick the Alignment tab and select Right Indent.
+- [ ] In the cells group on the Home tab, click Format > Format Cells. Then click the Alignment tab and select Right Indent.
 - [ ] Click the Decrease Decimal button once.
 
 #### Q13. Which formula is NOT equivalent to all of the others?
@@ -121,7 +124,7 @@
 - [x] Distribute Vertically
 - [ ] Align Center
 
-#### Q21. An organization chart, which shows the hierarchy within a company or orgainization, is available as **\_** that is included with Excel.
+#### Q21. An organization chart, which shows the hierarchy within a company or organization, is available as **\_** that is included with Excel.
 - [ ] a 3D model
 - [x] SmartArt
 - [ ] a Treemap chart
@@ -194,6 +197,9 @@
 - [ ] Filter
 
 #### Q33. You want to apply subtotals per sport in the data below. What should you do before applying subtotals?
+
+![Subtotal](images/001.png?raw=true)
+
 - [ ] Format the data in column E.
 - [ ] Format the data in column D.
 - [x] Sort the data in column D.
@@ -209,7 +215,7 @@
 - [ ] Cell style
 - [ ] Fill color
 - [ ] Pattern style
-- [ ] Font color
+- [x] Font color
 
 #### Q36. In Excel, what do most formulas begin with?
 - [ ] :
@@ -217,101 +223,92 @@
 - [ ] (
 - [ ] -
 
-#### Q38. You need to determine the commission earned by each Sales Rep, based on the Sales amounts in B3:B50 and the Commission rate specified in cell A1. You want to enter a formula in C3 and copy it down to C50. Which formula should you use?
-|     | A              | B               | C               |
-| --- | -------------- | --------------- | --------------- |
-| 1   | 8.5%           | 2018 Commission |                 |
-| 2   | Sales Rep      | 2018 Sales      | Comenion Earned |
-| 3   | Jordan Hinton  | \$123,938.00    |                 |
-| 4   | Lilah Douglas  | 5594,810.00     |                 |
-| 5   | Karyn Reese    | \$235,954.00    |                 |
-| 6   | Chiquita Walsh | \$684,760.00    |                 |
+#### Q37. You need to determine the commission earned by each Sales Rep, based on the Sales amounts in B3:B50 and the Commission rate specified in cell A1. You want to enter a formula in C3 and copy it down to C50. Which formula should you use?
+|     | A              | B               | C                 |
+| --- | -------------- | --------------- | ----------------- |
+| 1   | 8.5%           | 2018 Commission |                   |
+| 2   | Sales Rep      | 2018 Sales      | Commission Earned |
+| 3   | Jordan Hinton  | \$123,938.00    |                   |
+| 4   | Lilah Douglas  | \$5594,810.00   |                   |
+| 5   | Karyn Reese    | \$235,954.00    |                   |
+| 6   | Chiquita Walsh | \$684,760.00    |                   |
 
 - [ ] =\$A1\*B3
 - [x] =$A$1\*B3
 - [ ] =A1\*\$B3
 - [ ] =A1\*B3
 
-#### Q39. If you start a date series by dragging down the fill handle of a single cell that contains the date 12/1/19, what will you get?
-- [ ] a series of consecutive days following the initial date
+#### Q38. If you start a date series by dragging down the fill handle of a single cell that contains the date 12/1/19, what will you get?
+- [x] a series of consecutive days following the initial date
 - [ ] a series of days exactly one month apart
 - [ ] a series of days identical to the initial date
 - [ ] a series of days exactly one year apart
 
-#### Q40. To discover how many cells in a range contain values that meet a single criterion, use the \_\_\_function.
+#### Q39. To discover how many cells in a range contain values that meet a single criterion, use the \_\_\_function.
 - [ ] COUNT
 - [ ] SUMIFS
 - [ ] COUNTA
 - [x] COUNTIF
 
-#### Q41. Of these four chart types, which works best for summarizing time-based data?
-- [ ] pie chart
-- [ ] XY scatter chart
-- [ ] bar chart
-- [x] line chart
-
-#### Q42. Your worksheet has the value 27 in cell B3. What value is returned by the function =MOD (B3,6)?
+#### Q40. Your worksheet has the value 27 in cell B3. What value is returned by the function =MOD (B3,6)?
 - [ ] 4
 - [ ] 1
 - [ ] 5
 - [x] 3
 
-#### Q43. For an IF function to check whether cell B3 contains a value between 15 and 20 inclusively, what condition should you use?
+#### Q41. For an IF function to check whether cell B3 contains a value between 15 and 20 inclusively, what condition should you use?
 - [ ] OR(B3=>15,B3<=20)
 - [x] AND (B3>=15,B3<=20)
 - [ ] OR(B3>15,B3<20)
 - [ ] AND(B3>15, B3<20)
 
-#### Q44. Which of these functions returns the largest value within the range H2:H30?
-- [ ] =MAXIMUM (H2:H30)
-- [x] =MAX(H2:H30)
-- [ ] =LARGE (H2:H30, 29)
-- [ ] =UPPER(H2:H30,1)
-
-#### Q45. Which format setting does not change the background appearance of a cell?
+#### Q42. Which format setting does not change the background appearance of a cell?
 - [ ] Fill color
 - [x] Font Color
 - [ ] Pattern Style
 - [ ] Cell Style
 
-#### Q46. The charts below are based on the data in cells a3:g5. The chart on the right was created by copying the one on the left. Which ribbon button was clicked to change the layout of the chart on the right?
+#### Q43. The charts below are based on the data in cells A3:G5. The chart on the right was created by copying the one on the left. Which ribbon button was clicked to change the layout of the chart on the right?
+
+![Charts](images/002.png?raw=true)
+
 - [ ] Move Chart
 - [ ] Switch Row/Column
 - [ ] Quick Layout
 - [ ] Change Chart Type
 
-#### Q47. Cell A20 displays an orange background when its value is 5. Changing the value to 6 changes the background color to green. What type of formatting is applied to cell A20?
+#### Q44. Cell A20 displays an orange background when its value is 5. Changing the value to 6 changes the background color to green. What type of formatting is applied to cell A20?
 - [ ] Value Formatting
 - [ ] Cell Style Formatting
 - [x] Conditional Formatting
 - [ ] Tabular format
 
-#### Q48. What does this formula do? =Sum(Sheet1:Sheet4!D18)
+#### Q45. What does this formula do? `=Sum(Sheet1:Sheet4!D18)`
 - [ ] It adds data from cell D18 of Sheet1 and cell D18 of Sheet4
 - [ ] It adds data from cell A1 of Sheet1 and cell D18 of sheet4
 - [ ] It adds all data in the range A1:D18 in Sheet1, Sheet2, Sheet3 and Sheet4
-- [x] It adds data from all D18 cells in Sheet1, Sheet2, Sheet3 and 4
+- [x] It adds data from all D18 cells in Sheet1, Sheet2, Sheet3 and Sheet4
 
-#### Q49. What is the term for an expression that is entered into a worksheet cell and begins with an equal sign?
+#### Q46. What is the term for an expression that is entered into a worksheet cell and begins with an equal sign?
 - [ ] function
 - [ ] argument
 - [x] formula
 - [ ] contents
 
-#### Q50. How does the appearance of an array formula differ from that of a standard formula?
+#### Q47. How does the appearance of an array formula differ from that of a standard formula?
 - [ ] In a worksheet cell, array formulas have a small blue triangle in the cell's upper-right corner.
 - [ ] A heavy border appears around the range that is occupied by the array formula.
 - [x] In the formula bar, an array formula appears surrounded by curly brackets.
 - [ ] When a cell that contains an array formula is selected, range finders appear on the worksheet around the formula's precedent cells.
 
-#### Q51. In a worksheet, column A contains employee last names, column B contains their middle initials (if any), and column C contains their first names. Which tool can combine the last names, initials, and first names in column D without using a worksheet formula?
-- [ ] Concatenation
+#### Q48. In a worksheet, column A contains employee last names, column B contains their middle initials (if any), and column C contains their first names. Which tool can combine the last names, initials, and first names in column D without using a worksheet formula?
+- [x] Concatenation
 - [ ] Columns to Text
 - [ ] Flash Fill
 - [ ] AutoFill
 
-#### Q52. Which formula returns the  value in cell A10 of the worksheet named Budget Variances? 
-- [ ] ='Budget Variances'!A10
+#### Q49. Which formula returns the value in cell A10 of the worksheet named Budget Variances? 
+- [x] ='Budget Variances'!A10
 - [ ] ='Budget Variances!A10'
 - [ ] ="BudgetVariances!A10"
 - [ ] ="BudgetVariances"!A10
