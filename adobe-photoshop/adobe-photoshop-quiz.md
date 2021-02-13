@@ -2,28 +2,36 @@
 
 #### Q1. How can you open a file selected in Lightroom CC for retouching in Photoshop CC?
 - [ ] Double-click the file
-- [x] [Choose File > Edit in Photoshop](https://helpx.adobe.com/lightroom-cc/how-to/lightroom-photoshop-edit-photos.html#choose_a_photo_from_lightroom)
+- [x] Choose File > Edit in Photoshop
 - [ ] Choose File > Save to Photoshop
 - [ ] Press Cmd/Ctrl+E
 
+[Reference](https://helpx.adobe.com/lightroom-cc/how-to/lightroom-photoshop-edit-photos.html#choose_a_photo_from_lightroom)
+
 #### Q2. How can you undo one or more changes just made to an image?
 - [ ] Use the keyboard shortcut Cmd/Ctrl+Z
-- [x] [Click a state in the history panel](https://helpx.adobe.com/uk/photoshop/using/undo-history.html#using_the_history_panel)
+- [x] Click a state in the history panel
 - [ ] Choose File > Undo
 - [ ] Press Cmd/Ctrl+U
 
+[Reference](https://helpx.adobe.com/uk/photoshop/using/undo-history.html#using_the_history_panel)
+
 #### Q3. How can you select a specific layer? (find all that apply)
 - [ ] Click the eye icon in the layers panel
-- [x] [Use the Move tool with auto-select enabled](https://helpx.adobe.com/uk/photoshop/using/selecting-grouping-linking-layers.html#select_layers_in_the_document_window)
+- [x] Use the Move tool with auto-select enabled
 - [ ] Right-click the image and select layer
 - [ ] Press Cmd/Ctrl and click the layer
 
+[Reference](https://helpx.adobe.com/uk/photoshop/using/selecting-grouping-linking-layers.html#select_layers_in_the_document_window)
+
 #### Q4. How can you avoid having transparent edges along the edge of a panoramic photo while retaining the largest image size?
 ![How can you avoid having transparent edges along the edge of a panoramic photo while retaining the largest image size?](<image/Screenshot%20(441).png?raw=true>)
-- [ ] Choose the Cylindrical method
+- [ ] Choose the Cylindrical method.
 - [ ] Choose the Perspective method.
 - [ ] Adjust the Boundary Warp slider.
-- [x] [Select Auto Crop.](https://helpx.adobe.com/uk/lightroom-classic/help/panorama.html)
+- [x] Select Auto Crop.
+
+[Reference](https://helpx.adobe.com/uk/lightroom-classic/help/panorama.html)
 
 #### Q5. How do you crop a document without permanently discarding pixels along the edge?
 - [ ] Clear the Delete Cropped Pixels box.
@@ -37,7 +45,7 @@
 - [ ] calibration
 - [ ] snapshots
 
-#### Q7. When working in an RGB document, which option is NOT a method for the Select Color Range command?
+#### Q7. When working in an RGB document, which option is **NOT** a method for the Select Color Range command?
 - [ ] Sampled Colors
 - [ ] Skin Tones
 - [x] Key (Blacks)
@@ -59,8 +67,10 @@
 
 - [ ] C,D
 - [ ] D,E
-- [x] [B,C ](https://helpx.adobe.com/photoshop/using/free-transformations-images-shapes-paths.html#:~:text=The%20Free%20Transform%20command%20lets,to%20switch%20between%20transformation%20types.)
+- [x] B,C
 - [ ] C,E
+
+[Reference](https://helpx.adobe.com/photoshop/using/free-transformations-images-shapes-paths.html#:~:text=The%20Free%20Transform%20command%20lets,to%20switch%20between%20transformation%20types)
 
 #### Q10. What is considered the minimum DPI for photographic-quality inkjet printing?
 - [x] 300
@@ -72,7 +82,7 @@
 - [x] flatbed scanner
 - [ ] slide scanner
 - [ ] all-in-one unit
-- [x] drum scanner
+- [ ] drum scanner
 
 #### Q12. Which format does NOT support an alpha channel?
 - [ ] PSD
@@ -88,8 +98,8 @@
 
 #### Q14. What option cannot be adjusted with the Print command directly in the Print window?
 - [ ] size of the image
-- [ ] position on the page.
-- [x] paper quality.
+- [ ] position on the page
+- [x] paper quality
 - [ ] color management policies
 
 #### Q15. Which statement best describes the Quick Mask feature?
@@ -138,20 +148,20 @@
 - [x] Apply compression to the document
 - [ ] all of these answers
 
-#### Q22. Which image adjustment is null available as an adjustment layer?
+#### Q22. Which image adjustment is **not** available as an adjustment layer?
 - [ ] Levels
 - [x] Shadows/Highlights
 - [ ] Curves
 - [ ] Hue/Saturation
 
 #### Q23. With default Essentials settings, where would you find the Red Eye tool?
-- [ ] grouped with the Eyedropped tool
+- [ ] grouped with the Eyedropper tool
 - [ ] Image > Mode > Red Eye
 - [ ] Edit > Red Eye
 - [x] grouped with the Spot Healing Brush tool
 
-#### Q24. Which option was <em>not</em> selected in the Magic Wand tool to create a selection like the one shown below?
-![Which option was <em>not</em> selected in the Magic Wand tool to create a selection like the one shown below?](image/Screenshot.question24.png?raw=true)
+#### Q24. Which option was **not** selected in the Magic Wand tool to create a selection like the one shown below?
+![Which option was not selected in the Magic Wand tool to create a selection like the one shown below?](image/Screenshot.question24.png?raw=true)
 - [x] Contiguous
 - [ ] Anti-alias
 - [ ] Auto-Enhance
@@ -176,58 +186,121 @@
 - [ ] Actually, you cannot use filters on video files.
 - [ ] Convert the video file to an animated gif.
 
-#### Q28. Which option would you use to clone while respecting perspective planes?
-- [ ] Patch
-- [x] Vanishing Point
-- [ ] Clone Stamp
-- [ ] Healing Brush
-
-#### Q29. Which file format does <em>not</em> support layers?
-- [ ] Photoshop EPS
+#### Q28. Which file format does **not** support layers?
+- [x] Photoshop EPS
 - [ ] Photoshop PDF
-- [x] Large Document Format
+- [ ] Large Document Format
 - [ ] Photoshop PSD
 
-#### Q30. Of these formats, which supports 16-bit images?
+#### Q29. Of these formats, which supports 16-bit images?
 - [ ] JPEG
 - [ ] GIF
 - [x] PNG
 - [ ] Photoshop EPS
 
-#### Q31: What does the small black triangle in the lower-right corner of a tool indicate?
+#### Q30. What does the small black triangle in the lower-right corner of a tool indicate?
 - [ ] that the tool is currently deselected
 - [ ] tool options
 - [ ] that the tool is currently selected
 - [x] grouped or hidden tools
 
-#### Q32: Which command makes it easier to adjust selected areas of color in two images in order to make them similar?
+#### Q31. Which command makes it easier to adjust selected areas of color in two images in order to make them similar?
 - [ ] Match Color
 - [ ] Replace Color
 - [x] Hue/Saturation
 - [ ] Levels
 
-#### Q33: If you scan a film or slide negative, which command turns it into a positive?
+#### Q32. If you scan a film or slide negative, which command turns it into a positive?
 - [ ] Reverse
 - [ ] Threshold
 - [x] Invert
 - [ ] Inverse
 
-#### Q34: A filter recipe can be saved as an action and set to your desktop for drag-and-drop usage by converting the filter recipe into a **\_**.
+#### Q33. A filter recipe can be saved as an action and set to your desktop for drag-and-drop usage by converting the filter recipe into a **\_**.
 - [x] droplet
 - [ ] batch
 - [ ] scriptlet
 - [ ] image process
 
-#### Q35: Which tool is not found in the Select and Mask taskspace?
+#### Q34. Which tool is not found in the Select and Mask taskspace?
 - [ ] Refine Edge
 - [ ] Quick Select
-- [x] [Magic Wand](https://helpx.adobe.com/photoshop/using/select-mask.html#tools)
+- [x] Magic Wand
 - [ ] Lasso
 
-#### Q36: To use blending modes with a filter, choose the **\_** command.
+[Reference](https://helpx.adobe.com/photoshop/using/select-mask.html#tools)
+#### Q35. To use blending modes with a filter, choose the **\_** command.
 - [ ] Mix
 - [ ] Fade
 - [ ] Smooth
 - [x] Blend
 
-#### Prove a video link of my assignment done [passed >70%](https://www.youtube.com/watch?v=3TLGPOWE5SA)
+#### Q36. Which image adjustment is optimized for 32-bit images?
+- [ ] Exposure
+- [x] Color Lockup
+- [ ] Brightness/Contrast
+- [ ] Curves
+
+#### Q37. To hide the white borders around pixels that are viewed at a high magnification, which option do you disable?
+- [ ] Window > Workspace > Grid
+- [ ] View > Show > Slices
+- [ ] View > Show > Selection Edges
+- [x] View > Show > Pixel Grid
+
+#### Q38. To save a panel layout arrangement, what should you create?
+- [ ] A tool set
+- [ ] A layer set
+- [ ] A keyboard shortcut
+- [x] A workspace
+
+#### Q39. Which filter should you use to create photorealistic blurs?
+- [ ] Gaussian Blur
+- [x] Lens Blur
+- [ ] Shape Blur
+- [ ] Surface Blur
+
+#### Q40. When using the Type tool, what do you call the space between lines?
+- [x] Vertical scale
+- [ ] Kerning
+- [ ] Leading
+- [ ] Tracking
+
+#### Q41. If you want the most control over color when inkjet printing, which option should you select?
+- [x] Color Handling: Photoshop Manages Colors
+- [ ] Separations
+- [ ] Color Handling: Printer Manages Colors
+- [ ] Hard Proofing
+
+#### Q42. You have an RGB image that you want to convert to a duotone, but in the image > Mode menu, the Duotone option in grayed out. Why is this happening?
+- [ ] You must add a spot color channel first
+- [ ] You must remove all existing color by Image > Adjustments > Desaturate first
+- [x] Duotones require a single channel, so you must convert to grayscale first
+- [ ] Duotones require two channels, so you must delete one of RGB channels in the Channels panel first
+
+#### Q43. For smoother, curved edges on a selection, be sure to enable the **\_** option.
+- [x] anti-alias
+- [ ] fade
+- [ ] blend
+- [ ] curve
+
+#### Q44. Which web-ready format supports transparency and is optimized for continuous tone images such as photos?
+- [ ] GIF
+- [ ] PNG-8
+- [x] PNG-24
+- [ ] JPEG
+
+[Reference](https://helpx.adobe.com/photoshop-elements/using/optimizing-images-png-24-format.html)
+
+#### Q45. You're trying to use the Healing Brush tool, but don't see results. What is the problem?
+- [x] You forgot to Shift-click to set the source point for the tool
+- [ ] You forgot to Alt-click (Windows) or Option-click (Mac) to set the source point for the tool
+- [ ] You forgot to double-click to set the source point for the tool
+- [ ] You forgot to Ctrl-click (Windows) or Command-click (Mac) to set the source point for the tool
+
+#### Q46. Which color space is best for web graphics?
+- [ ] Adobe RGB
+- [ ] ProPhoto RGB
+- [ ] RGB
+- [x] sRGB
+
+[Reference](https://helpx.adobe.com/ca/photoshop/using/color-settings.html#:~:text=sRGB%20is%20recommended%20when%20you,as%20their%20default%20color%20space.)
