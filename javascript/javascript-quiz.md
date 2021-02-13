@@ -10,7 +10,7 @@
 - [ ] Only a for statement uses a callback function.
 - [x] A for statement is generic, but a forEach statement can be used only with an array.
 - [ ] Only a forEach statement lets you specify your own iterator.
-- [ ] A forEach statement is generic, but a for statement ca be used only with an array.
+- [ ] A forEach statement is generic, but a for statement can be used only with an array.
 
 #### Q3. Review the code below. Which statement calls the addTax function and passes 50 as an argument?
 ```js
