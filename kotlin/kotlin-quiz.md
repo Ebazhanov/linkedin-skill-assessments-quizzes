@@ -184,7 +184,8 @@ println(set.count())
 ```
 
 - [ ] 3
-- [ ] 4
+- [x] 4
+[reference](https://zetcode.com/kotlin/sets/)
 - [ ] 1
 - [ ] 5
 
