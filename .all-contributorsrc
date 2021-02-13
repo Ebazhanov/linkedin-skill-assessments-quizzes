@@ -2511,6 +2511,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Behnam-Emamian",
+      "name": "Ben Emamian",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9818491?v=4",
+      "profile": "https://www.linkedin.com/in/behnam-emamian/",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
