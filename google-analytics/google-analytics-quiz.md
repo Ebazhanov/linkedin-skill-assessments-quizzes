@@ -139,7 +139,7 @@
 - [ ] Hit: Music // Event: Download //Content: Sample Tone
 
 #### Q23. You want to classify people who join your newsletter with a custom dimension for "Newsletter Subscribers." What is the appropriate scope to apply to this custom dimension?
-- [ ] User
+- [x] User
 - [ ] Hit
 - [ ] Product
 - [ ] Session
@@ -148,22 +148,22 @@
 - [ ] Use a filter.
 - [ ] Create a new view.
 - [ ] This is not possible.
-- [ ] Use a secondary dimension.
+- [x] Use a secondary dimension.
 
 #### Q25. If you are collecting campaign data, which report shows the results?
-- [ ] Acquisition > Campaigns > All Campaigns
+- [x] Acquisition > Campaigns > All Campaigns
 - [ ] Audience > Custom > Custom Variables
 - [ ] Conversions > Goals > Overview
 - [ ] Behavior > Events > Overview
 
 #### Q26. If you wanted to verify Google Analytics was working immediately after installation, which report would you review?
 - [ ] Acquisition > Overview
-- [ ] Realtime > Overview
+- [x] Realtime > Overview
 - [ ] Behavior > Behavior Flow
 - [ ] Audience > Active Users
 
 #### Q27. What does this represent inside of Google Analytics?
-- [ ] segment
+- [x] segment
 - [ ] report tab
 - [ ] data header
 - [ ] view
@@ -172,11 +172,11 @@
 - [ ] An event goal must be created in order to track events.
 - [ ] Nothing, an event is another name for event goal.
 - [ ] An event is captured per user; an event goal is captured per session.
-- [ ] An event is a user interaction; an event goal is triggered by a selected event.
+- [x] An event is a user interaction; an event goal is triggered by a selected event.
 
 #### Q29. When configuring the global site tag, where in the HTML should it be placed?
 - [ ] directly before the `</head>` tag
-- [ ] directly after the `<head>` tag
+- [x] directly after the `<head>` tag
 - [ ] directly after the `<body>` tag
 - [ ] directly before the `</body>` tag
 
@@ -193,7 +193,7 @@
 - [x] treemap
 
 #### Q32. You already have Google Analytics set up on your website, but decide to add Google Tag Manager. What do you do with the existing Analytics tag?
-- [ ] Remove the tag.
+- [x] Remove the tag.
 - [ ] Move the tag to just before `</head>`.
 - [ ] Keep the tag.
 - [ ] Move the tag to just before `</body>`.
@@ -201,18 +201,18 @@
 #### Q33. How do you review the revenue and conversion rate between your traffic sources?
 - [ ] Create two segments, one for revenue and one for conversion rate, and then review Acquisition > All Traffic.
 - [ ] View Ecommerce > Overview and toggle Traffic Sources in the Explorer tab.
-- [ ] Create two segments, one for revenue and one for conversion rate, and then review Conversions > Ecommerce.
+- [x] Create two segments, one for revenue and one for conversion rate, and then review Conversions > Ecommerce.
 - [ ] Go to All Traffic > Source Medium and set eCommerce in the Conversions menu.
 
 #### Q34. Which calculated metric would return average events per user?
-- [ ] `{{Total Events}} / {{Users}} Type: Float`
+- [x] `{{Total Events}} / {{Users}} Type: Float`
 - [ ] `{{Goals}} / {{Users}} Type: Percentage`
 - [ ] `{{Goals}} / {{Users}} Type: Float`
 - [ ] `{{Total Events}} / {{Users}} Type: Percentage`
 
 #### Q35. What report helps you understand how many days it takes from the time a user first visits to the time the user converts?
 - [ ] Assisted Conversions
-- [ ] Time Lag
+- [x] Time Lag
 - [ ] Path Length
 - [ ] Shopping Behavior
 
@@ -220,17 +220,17 @@
 - [ ] Create a new filter.
 - [ ] Create an annotation.
 - [ ] Create a new view.
-- [ ] Create a new property.
+- [x] Create a new property.
 
 #### Q37. You want to enable a destination goal for a URL that appends query string parameters with each submission—for example, `/thanks?uid=123`. Which match types would work?
 - [ ] equals to /thanks
 - [ ] begins with /thanks
-- [ ] equals to /thanks?uid=
+- [x] equals to /thanks?uid=
 - [ ] regular expression /thanks[a z]
 
 #### Q38. You notice a sudden and unexplained change in traffic. Where do you look to see if someone added a filter?
 - [ ] Admin > Views > View Settings
-- [ ] Admin > Account > Change History
+- [x] Admin > Account > Change History
 - [ ] Admin > Views > Annotations
 - [ ] Admin > Account > User Management
 
@@ -242,7 +242,7 @@
 
 #### Q40. What are these examples of?
 - [ ] annotations
-- [ ] affinity categories
+- [x] affinity categories
 - [ ] custom audiences
 - [ ] channels
 
@@ -250,17 +250,17 @@
 - [ ] Admin > Tracking Info > Tracking Code
 - [ ] Customization > Settings > Tracking Code
 - [ ] Customization > Property > Tracking
-- [ ] Admin > Property Settings
+- [x] Admin > Property Settings
 
 #### Q42. What feature do you use to capture how many times a button was pressed?
 - [ ] action tracking
 - [ ] click handler
-- [ ] event tracking
+- [x] event tracking
 - [ ] goals
 
 #### Q43. Which step in this funnel had the largest percentage of exits?
 - [ ] Billing and Shipping
-- [ ] Cart
+- [x] Cart
 - [ ] There are no exits.
 - [ ] Payment
 
@@ -274,28 +274,28 @@
 - [ ] a filter to exclude traffic to the hostname
 - [ ] a segment to exclude traffic to the hostname
 - [ ] a segment to exclude traffic from IP addresses
-- [ ] a filter to exclude traffic from IP addresses
+- [x] a filter to exclude traffic from IP addresses
 
 #### Q46. You are running Google Ads and want to automatically track ad performance within Google Analytics. What feature do you enable?
-- [ ] auto tagging
+- [x] auto tagging
 - [ ] ad serving
 - [ ] advertising features
 - [ ] API link
 
 #### Q47. What is an example of a property in Google Analytics?
 - [ ] account
-- [ ] website
+- [x] website
 - [ ] graph
 - [ ] custom report
 
 #### Q48. By default, if a URL is accessed in the browser once as /contact/ and once again as /CONTACT/, how does the data appear in Google Analytics?
 - [ ] two pageviews for /contact/
-- [ ] one pageview for /contact/ and one pageview for /CONTACT/
+- [x] one pageview for /contact/ and one pageview for /CONTACT/
 - [ ] An error will be present, as a filter must be created to support this use case.
 - [ ] two pageviews for /CONTACT/
 
 #### Q49. What is the hierarchy between sessions, users, and hits?
-- [ ] User > Session > Hit
+- [x] User > Session > Hit
 - [ ] Session > Hit > User
 - [ ] Session > User > Hit
 - [ ] User > Hit > Session
@@ -310,40 +310,40 @@
 - [ ] Conversions > Goals > Reverse Goal Path
 - [ ] Conversions > Goals > Funnel Visualization
 - [ ] Behavior > Behavior Flow
-- [ ] Conversions > Multi- [ ] Channel Funnels
+- [x] Conversions > Multi- [ ] Channel Funnels
 
 #### Q52. What does Google Analytics add to the first party cookie to differentiate new from returning visitors?
 - [ ] an HTTP request
-- [ ] a randomly generated client ID
+- [x] a randomly generated client ID
 - [ ] a 1x1 tracking pixel
 - [ ] a SessionStorage object
 
 #### Q53. It is September, and you want to evaluate the most popular page on your site for the month of August. What first steps would you take?
-- [ ] 1. Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > All Pages.
+- [x] 1. Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > All Pages.
 - [ ] 1. Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > Content Drilldown.
 - [ ] 1. Set Date Range to Last Month. 2. Visit Behavior > Site Content > Content Drilldown.
-- [ ] 1. Set Date Range to Last Month. 2. Visit Behavior > Site Content > All Pages.
+- [x] 1. Set Date Range to Last Month. 2. Visit Behavior > Site Content > All Pages.
 
 #### Q54. This report is sorted by bounce rate in ascending order. How do you view these results in order of importance instead?
 - [ ] Sort Type: Absolute Change
 - [ ] Toggle Comparison View
-- [ ] Sort Type: Weighted Sort
+- [x] Sort Type: Weighted Sort
 - [ ] Use Table Filter
 
 #### Q55. What channel receives attribution if no traffic source data is available?
 - [ ] (Other)
-- [ ] Direct
+- [x] Direct
 - [ ] Referral
 - [ ] Organic Search
 
 #### Q56. Which is an example of a micro goal?
-- [ ] signing up for an account after clicking an ad
+- [x] signing up for an account after clicking an ad
 - [ ] playing a video before signing up
 - [ ] buying a product after reading an email
 - [ ] filling out a contact form after reading a social post
 
 #### Q57. What parameter should you use if you were tracking different versions of an ad?
-- [ ] utm_campaign
+- [x] utm_campaign
 - [ ] utm_medium
 - [ ] utm_term
 - [ ] utm_content
@@ -362,7 +362,7 @@
 
 #### Q60.If you want to quickly see what days and times were most popular for visiting your site, what do you do?
 - [ ] Go to Home > Users by time of day (Widget)
-- [ ] Go to the report at Audience > Cohort Analysis and toggle By Day.
+- [x] Go to the report at Audience > Cohort Analysis and toggle By Day.
 - [ ] Go to Behavior > Engagement and toggle Hourly.
 - [ ] Create a pivot table by Hour on Site Content > All Pages.
 
