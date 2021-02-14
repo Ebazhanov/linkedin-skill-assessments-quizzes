@@ -137,6 +137,8 @@
  - [ ] any type of inheritance
  - [ ] multilevel
  - [x] hierarchical
+   
+`Hybrid inheritance is a composition of multiple and hierarchical inheritances`
 
 #### Q22. A language that does not support polymorphism but supports classes is considered what?
  - [x] an object-based language
