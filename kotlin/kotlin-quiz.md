@@ -120,7 +120,8 @@ when (die) {
 ```
 
 - [x] `3,4,5,6`
-- [ ] `in 3..6`
+- [x] `in 3..6`
+  [reference](https://kotlinlang.org/docs/ranges.html)
 - [ ] `3 : 6`
 - [ ] `{3,4,5,6}`
 
