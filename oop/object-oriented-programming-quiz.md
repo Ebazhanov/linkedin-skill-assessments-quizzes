@@ -49,8 +49,8 @@
  - [x] A subclass object has an IS-A relationship with its superclass or interface
 
 #### Q8. You want a method with behavior similar to a virtual method--it is meant to be overridden --expect that it does not have a method body. It just has a method signature. What kind of method should you use?
- - [ ] an abstract method
- - [x] a public internal method
+ - [x] an abstract method
+ - [ ] a public internal method
  - [ ] an internal method
  - [ ] a protected internal method
 
@@ -79,7 +79,7 @@
  - [ ] when an object is created from a class using the create keyword
 
 #### Q12. If a local class is defined in a function, what is true for an object of that class?
- - [x] The object can be accessed, declared, and used locally in that function.** << correct
+ - [x] The object can be accessed, declared, and used locally in that function.
  - [ ] The object must be declared inside any other function.
  - [ ] The object is temporarily accessible outside the function.
  - [ ] The object can call all the other class members anywhere in the program.
@@ -109,15 +109,15 @@
  - [ ] multiple
 
 #### Q17. Which statement is true?
- - [ ] A default parameter's constructor is not equivalent to the default constructor
+ - [x] A default parameter's constructor is not equivalent to the default constructor
  - [ ] A default constructor is inherited from a parent class
  - [ ] A default constructor can be called explicitly
- - [x] A default constructor cannot be defined by the coder
+ - [ ] A default constructor cannot be defined by the coder
 
 #### Q18. Which of the following is NOT an advantage of using getters and setters?
- - [ ] Getters and setters can speed up compilation.
+ - [x] Getters and setters can speed up compilation.
  - [ ] Getters and setters provide encapsulation of behavior.
- - [x] Getters and setters provide a debugging point for when a property changes at runtime.
+ - [ ] Getters and setters provide a debugging point for when a property changes at runtime.
  - [ ] Getters and setters permit different access levels.
 
 #### Q19. In context of OOP, what is association?

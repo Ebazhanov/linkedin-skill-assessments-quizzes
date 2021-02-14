@@ -1514,7 +1514,9 @@
         "ideas",
         "business",
         "financial",
-        "code"
+        "code",
+        "content",
+        "question"
       ]
     },
     {
@@ -2508,6 +2510,36 @@
       "contributions": [
         "design",
         "code"
+      ]
+    },
+    {
+      "login": "Behnam-Emamian",
+      "name": "Ben Emamian",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9818491?v=4",
+      "profile": "https://www.linkedin.com/in/behnam-emamian/",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "babeshark",
+      "name": "babeshark",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78000734?v=4",
+      "profile": "https://github.com/babeshark",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "LeonardoJaques",
+      "name": "Leonardo Jaques",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28495699?v=4",
+      "profile": "https://github.com/LeonardoJaques",
+      "contributions": [
+        "code",
+        "design"
       ]
     }
   ],
