@@ -119,7 +119,7 @@ when (die) {
 }
 ```
 
-- [ ] `3,4,5,6`
+- [x] `3,4,5,6`
 - [ ] `in 3..6`
 - [ ] `3 : 6`
 - [ ] `{3,4,5,6}`
@@ -127,7 +127,7 @@ when (die) {
 #### Q12. The function **typeChecker** receiver a parameter **obj** of type **Any**. Based upon the type of **obj**, it prints different messages for Int, String, Double, and Float types; if not any of the mentioned types, it prints "unknown type". What operator allows you to determine the type of an object?
 
 - [ ] instanceof
-- [ ] is
+- [x] is
 - [ ] typeof
 - [ ] as
 
@@ -140,7 +140,7 @@ firstName?.let {
 ```
 
 - [ ] A null pointer exception is thrown
-- [ ] firstName is equal to null
+- [x] firstName is equal to null
 - [ ] firstName is equal to an empty string
 - [ ] firstName is equal to Boolean false
 
@@ -184,7 +184,7 @@ println(set.count())
 ```
 
 - [ ] 3
-- [ ] 4
+- [x] 4
 - [ ] 1
 - [ ] 5
 
@@ -209,7 +209,7 @@ val list2 = (80..100).toList().filter(_____)
 #### Q19. Which code snippet correctly shows a for loop using a range to display "1 2 3 4 5 6"?
 
 - [ ] `for(z in 1..7) println("$z ")`
-- [ ] `for(z in 1..6) print("$z ")`
+- [x] `for(z in 1..6) print("$z ")`
 - [ ] `for(z in 1 to 6) print("$z ")`
 - [ ] `for(z in 1..7) print("$z ")`
 
@@ -217,12 +217,12 @@ val list2 = (80..100).toList().filter(_____)
 
 - [ ] an anonymous object
 - [ ] a static property
-- [ ] a companion object
+- [x] a companion object
 - [ ] a backing field
 
 #### Q21. Your code need to try casting an object. If the cast is not possible, you do not want an exception generated, instead you want null to be assigned. Which operator can safely cast a value?
 
-- [ ] as?
+- [x] as?
 - [ ] ??
 - [ ] is
 - [ ] as
