@@ -133,10 +133,10 @@
  - [ ] User storised are more anecdotal and personal.
 
 #### Q21. Which type of inheritance must be used so that the resultant is hybrid?
- - [ ] multiple
+ - [x] multiple
  - [ ] any type of inheritance
- - [x] multilevel
- - [ ] hierarchical
+ - [ ] multilevel
+ - [x] hierarchical
 
 #### Q22. A language that does not support polymorphism but supports classes is considered what?
  - [x] an object-based language
