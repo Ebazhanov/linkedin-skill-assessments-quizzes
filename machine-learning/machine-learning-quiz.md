@@ -1,66 +1,64 @@
-﻿## Machine Learning Assessment
+﻿## Machine Learning
 
-#### Q01. You are part of data science team that is working for a national fast-food chain. You create a simple report that shows trend: Customers who visit the store more often and buy smaller meals spend more than customers who visit less frequently and buy larger meals. What is the most likely diagram that your team created?
+#### Q1. You are part of data science team that is working for a national fast-food chain. You create a simple report that shows trend: Customers who visit the store more often and buy smaller meals spend more than customers who visit less frequently and buy larger meals. What is the most likely diagram that your team created?
 
 - [x] multiclass classification diagram
 - [ ] linear regression and scatter plots
 - [ ] pivot table
 - [ ] K-means cluster diagram
 
-#### Q02. You work for an organization that sells a spam filtering service to large companies. Your organization wants to transition its product to use machine learning. It currently a list Of 250,00 keywords. If a message contains more than few of these keywords, then it is identified as spam. What would be one advantage of transitioning to machine learning?
+#### Q2. You work for an organization that sells a spam filtering service to large companies. Your organization wants to transition its product to use machine learning. It currently a list Of 250,00 keywords. If a message contains more than few of these keywords, then it is identified as spam. What would be one advantage of transitioning to machine learning?
 
 - [ ] The product would look for new patterns in spam messages.
 - [ ] The product could go through the keyword list much more quickly.
 - [ ] The product could have a much longer keyword list.
 - [x] The product could find spam messages using far fewer keywords.
 
-#### Q03. You work for a music streaming service and want to use supervised machine learning to classify music into different genres. Your service has collected thousands of songs in each genre, and you used this as your training data. Now you pull out a small random subset of all the songs in your service. What is this subset called?
+#### Q3. You work for a music streaming service and want to use supervised machine learning to classify music into different genres. Your service has collected thousands of songs in each genre, and you used this as your training data. Now you pull out a small random subset of all the songs in your service. What is this subset called?
 
 - [ ] data cluster
 - [ ] Supervised set
 - [ ] big data
 - [x] test data
 
-#### Q04. In traditional computer programming, you input commands. What do you input with machine learning?
+#### Q4. In traditional computer programming, you input commands. What do you input with machine learning?
 
 - [ ] patterns
 - [ ] programs
 - [ ] rules
 - [x] data
 
-#### Q05. Your company wants to predict whether existing automotive insurance customers are more likely to buy homeowners insurance. It created a model to better predict the best customers contact about homeowners insurance, and the model had a low variance but high bias. What does that say about the data model?
+#### Q5. Your company wants to predict whether existing automotive insurance customers are more likely to buy homeowners insurance. It created a model to better predict the best customers contact about homeowners insurance, and the model had a low variance but high bias. What does that say about the data model?
 
 - [x] It was consistently wrong.
 - [ ] It was inconsistently wrong.
 - [ ] It was consistently right.
 - [ ] It was equally right end wrong.
 
-<details><summary>Explanation</summary><p>
+[Reference](https://medium.com/datadriveninvestor/bias-and-variance-in-machine-learning-51fdd38d1f86)
 
-See link : [https://medium.com/datadriveninvestor/bias-and-variance-in-machine-learning-51fdd38d1f86](https://medium.com/datadriveninvestor/bias-and-variance-in-machine-learning-51fdd38d1f86)
-</p></details>
-#### Q06. You want to identify global weather patterns that may have been affected by climate change. To do so, you want to use machine learning algorithms to find patterns that would otherwise be imperceptible to a human meteorologist. What is the place to start?
+#### Q6. You want to identify global weather patterns that may have been affected by climate change. To do so, you want to use machine learning algorithms to find patterns that would otherwise be imperceptible to a human meteorologist. What is the place to start?
 
 - [ ] Find labeled data of sunny days so that the machine will learn to identify bad weather.
 - [x] Use unsupervised learning have the machine look for anomalies in a massive weather database.
 - [ ] Create a training set of unusual patterns and ask the machine learning algorithms to classify them.
 - [ ] Create a training set of normal weather and have the machine look for similar patterns.
 
-#### Q07. You work in a data science team that wants to improve the accuracy of its K-nearest neighbor result by running on top of a naive Bayes result. What is this an example of?
+#### Q7. You work in a data science team that wants to improve the accuracy of its K-nearest neighbor result by running on top of a naive Bayes result. What is this an example of?
 
 - [ ] regression
 - [ ] boosting
 - [ ] bagging
 - [x] stacking
 
-#### Q08. \_\_\_\_looks at the relationship between predictors and your outcome.
+#### Q8. `\_\_\_\_` looks at the relationship between predictors and your outcome.
 
 - [x] Regression analysis
 - [ ] K-means clustering
 - [ ] Big data
 - [ ] Unsupervised learning
 
-#### Q09. What is an example of a commercial application for a machine learning system?
+#### Q9. What is an example of a commercial application for a machine learning system?
 
 - [ ] a data entry system
 - [ ] a data warehouse system
@@ -76,14 +74,14 @@ See link : [https://medium.com/datadriveninvestor/bias-and-variance-in-machine-l
 - [ ] K-nearest neighbor
 - [ ] a clear trendline
 
-#### Q11. You for power company that owns hundreds of thousands of electric meters. These meters are connected to the internet and transmit energy usage data in real-time. Your supervisor asks you to direct project to use machine learning to analyze this usage data. Why are machine learning algorithms ideal in this scenario?
+#### Q11. You work for a power company that owns hundreds of thousands of electric meters. These meters are connected to the internet and transmit energy usage data in real-time. Your supervisor asks you to direct project to use machine learning to analyze this usage data. Why are machine learning algorithms ideal in this scenario?
 
 - [ ] The algorithms would help the meters access the internet.
 - [ ] The algorithms will improve the wireless connectivity.
 - [x] The algorithms would help your organization see patterns of the data.
 - [ ] By using machine learning algorithms, you are creating an IoT device.
 
-#### Q12. To predict a quantity value. use \_\_\_\_.
+#### Q12. To predict a quantity value. use `\_\_\_\_`.
 
 - [x] regression
 - [ ] clustering
@@ -150,7 +148,7 @@ See link : [https://medium.com/datadriveninvestor/bias-and-variance-in-machine-l
 - [ ] Machine learning algorithms are powerful enough to eliminate bias from the data.
 - [x] All human-created data is biased, and data scientists need to account for that.
 
-Note: While machine learning algorithms don't have bias, the data can have them.
+**Explanation**: While machine learning algorithms don't have bias, the data can have them.
 
 #### Q21. What is stacking?
 
@@ -173,7 +171,7 @@ Note: While machine learning algorithms don't have bias, the data can have them.
 - [ ] binary classification
 - [x] K-means clustering
 
-Note: The problem explicitly states "clustering".
+**Explanation**: The problem explicitly states "clustering".
 
 #### Q24. Your company wants you to build an internal email text prediction model to speed up the time that employees spend writing emails. What should you do?
 
@@ -198,7 +196,7 @@ Note: The problem explicitly states "clustering".
 - [ ] a linear regression
 - [x] a K-means cluster
 
-Note: thre are centres of clusters (C0, C1, C2).
+Note: there are centres of clusters (C0, C1, C2).
 
 #### Q27. Random forest is modified and improved version of which earlier technique?
 
@@ -235,7 +233,7 @@ Note: thre are centres of clusters (C0, C1, C2).
 - [ ] KNN
 - [ ] deep neural network
 
-#### Q32. Your data science team wants to use the K-nearest neighbor classification algorithm. Someone on your team wants w use a K of 25. What are the challenges of this approach?
+#### Q32. Your data science team wants to use the K-nearest neighbor classification algorithm. Someone on your team wants to use a K of 25. What are the challenges of this approach?
 
 - [ ] Higher K values will produce noisy data.
 - [ ] Higher K values lower the bias but increase the variance.
@@ -277,7 +275,8 @@ Note: thre are centres of clusters (C0, C1, C2).
 - [ ] Linear regression
 - [ ] Principal Component Analysis (PCA)
 
-Note: Logistic regression is far better than linear regression at binary classification since it biases the result toward one extreme or the other. K-means clustering can be used for classification but is not as accurate in most scenarios. Source: https://www.kaggle.com/minc33/k-means-clustering-vs-logistic-regression
+**Explanation:** Logistic regression is far better than linear regression at binary classification since it biases the result toward one extreme or the other. K-means clustering can be used for classification but is not as accurate in most scenarios.
+[Source:](https://www.kaggle.com/minc33/k-means-clustering-vs-logistic-regression)
 
 #### Q38. With traditional programming, the programmer typically inputs commands. With machine learning, the programmer inputs
 
@@ -286,7 +285,8 @@ Note: Logistic regression is far better than linear regression at binary classif
 - [ ] unsupervised learning
 - [ ] algorithms
 
-Note: This one is pretty straight forward and a fundamental concept. Source: https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab
+**Explanation**: This one is pretty straight forward and a fundamental concept.
+[Source:](https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab)
 
 #### Q39. Why is it important for machine learning algorithms to have access to high-quality data?
 
@@ -316,11 +316,12 @@ Note: This one is pretty straight forward and a fundamental concept. Source: htt
 - [x] The algorithms will cluster together drugs that have similar traits.
 - [ ] Human experts can create classes of drugs to help guide discovery.
 
-Note: This one is similar to an example talked about in the Stanford Machine Learning course. Source: https://www.coursera.org/learn/machine-learning/home/welcome
+**Explanation**: This one is similar to an example talked about in the Stanford Machine Learning course.
+[Source:](https://www.coursera.org/learn/machine-learning/home/welcome)
 
 #### Q43. In 2015, Google created a machine learning system that could beat a human in the game of Go. This extremely complex game is thought to have more gameplay possibilities than there are atoms of the universe. The first version of the system won by observing hundreds of thousands of hours of human gameplay; the second version learned how to play by getting rewards while playing against itself. How would you describe this transition to different machine learning approaches?
 
-- [x] The system went from from supervised learning to reinforcement learning.
+- [x] The system went from supervised learning to reinforcement learning.
 - [ ] The system evolved from supervised learning to unsupervised learning.
 - [ ] The system evolved from unsupervised learnin9 to supervised learning.
 - [ ] The system evolved from reinforcement learning to unsupervised learning.
@@ -346,7 +347,7 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ] availability
 - [ ] algorithms
 
-#### Q45. What is the diagram a good example of ?
+#### Q45. What is this diagram a good example of?
 
 ![Machine Learning Q45](images/machine-learning_Q45.jpg)
 
@@ -358,9 +359,9 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 #### Q46. The supervisor asks to create a ml system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?
 
 - [ ] deep learning artificial neural network that relies on petabytes of data
-- [x] unsupervised ml system that clusters together the best candidates
+- [ ] unsupervised ml system that clusters together the best candidates
 - [ ] Not recommend ml for this project
-- [ ] supervised ml system that classifies applicants into existing groups
+- [x] supervised ml system that classifies applicants into existing groups // we do not need to classify best candidates we just need to classify job applicants in to existing categories
 
 #### Q47. Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?
 
@@ -371,15 +372,24 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 
 #### Q48. Your data science team wants to use ml to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised ml, what would you call this data set?
 
--[ ] ml algorithm -[x] training set -[ ] big data test set -[ ] data cluster
+- [ ] ml algorithm 
+- [x] training set 
+- [ ] big data test set 
+- [ ] data cluster
 
 #### Q49. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of fotos without them. What is the problem?
 
--[ ] Overfitting the model to the data -[ ] Smaller training set needed -[x] Underfitting the model to the data -[ ] larger training set needed
+-[ ] You are overfitting the model to the data 
+-[ ] You need a smaller training set 
+-[x] You are underfitting the model to the data 
+-[ ] You need a larger training set
 
 #### Q50. Your supervisor asks you to create a machine learning system that will help your human resources department classify jobs applicants into well defined groups. What type of system are you more likely to recommend?
 
--[ ] an unsupervised machine learning system that clusters together the best candidates. -[ ] you would not recommend a machine learning system for this type of project. -[ ] a deep learning artificial neural network that relies on petabytes of employment data. -[x] a supervised machine learning system that classifies applicants into existing groups.
+- [ ] an unsupervised machine learning system that clusters together the best candidates. 
+- [ ] you would not recommend a machine learning system for this type of project. 
+- [ ] a deep learning artificial neural network that relies on petabytes of employment data. 
+- [x] a supervised machine learning system that classifies applicants into existing groups.
 
 #### Q51. You and your data science team have 1 TB of example data. What do you typically do with that data?
 
@@ -442,7 +452,7 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 ![Machine Learning Q58](images/machine-learning_Q58.jpg)
 
 - [x] This is a multiclass classification challenge.
-      // Shows data being classified into more than two categories or classes. Thus, this is a multi-class classification challenge.
+      **Explanation**: Shows data being classified into more than two categories or classes. Thus, this is a multi-class classification challenge.
 - [ ] This is a multi-binary classification challenge.
 - [ ] This is a binary classification challenge.
 - [ ] This is a reinforcement classification challenge.
@@ -468,7 +478,7 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ] Your training set is too large.
 - [ ] You are underfitting the model to the data.
 - [x] You are overfitting the model to the data.
-      // This question is very similar to Q49 but involves a polar opposite scenario.
+      **Explanation**: // This question is very similar to Q49 but involves a polar opposite scenario.
 - [ ] Your machine is creating inaccurate clusters.
 
 // I find that answer somewhat vague and unsettled. Small number of matchings does not necessarily implies that the model overfits, especially given 500 (!) independent variables. To me, it sounds more reasonable that the threshold (matching) criterion might be too tight, thus allowing only a small number of matching to occur. So a solution can be either softening the threshold criterion or increasing the number of candidates.
@@ -485,12 +495,7 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ] 88%
 - [ ] 12%
 - [ ] 0.0008%
-
-<details><summary>Explanation 👇</summary><p>
-
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/images/machine-learning_Q62.png?raw=true' width=500>
-
-</p></details>
+      ![image](images/machine-learning_Q62.png)
 
 #### Q63. The new dataset you have just scraped seems to exhibit lots of missing values. What action will help you minimizing that problem?
 
@@ -522,10 +527,9 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 
 #### Q67. What is the correct option?
 
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='https://github.com/Ebazhanov/in-quiz-questions/blob/master/machine-learning/images/machine-learning_Q67.png?raw=true' width=500>
-
+![image](images/machine-learning_Q67.png)
 | no. | Red | Blue | Green |
-| --- | --- | ---  | ---   |
+| --- | --- | --- | --- |
 | **1.** | Validation error | Training error | Test error |
 | **2.** | Training error | Test error | Validation error |
 | **3.** | Optimal error | Validation error | Test error |
@@ -535,3 +539,33 @@ Note: This one is similar to an example talked about in the Stanford Machine Lea
 - [ ] 2
 - [ ] 3
 - [x] 4
+
+#### Q68. You create a decision tree to show whether someone decides to go to the beach. There are three factors in this decision: rainy, overcast, and sunny. What are these three factors called?
+
+- [ ] tree nodes
+- [x] predictors // these nodes decide whether the someone decides to go to beach or not, for example if its rainy people will mostly refrain from going to beach
+- [ ] root nodes
+- [ ] deciders
+
+#### Q69. You need to quickly label thousands of images to train a model. What should you do?
+
+- [ ] Set up a cluster of machines to label the images
+- [ ] Create a subset of the images and label then yourself
+- [x] Use naive Bayes to automatically generate labels.
+- [ ] Hire people to manually label the images
+
+#### Q70. The fit line and data in the figure exhibits which pattern?
+
+![image](images/machine-learning_Q70.png)
+
+- [ ] low bias, high variance
+- [ ] high bias, low variance
+- [ ] high bias, high variance
+- [x] low bias, low variance // since the data is accurately classified and is neither overfitting or underfitting the dataset
+
+#### Q71. Many of the advances in machine learning have come from improved?
+
+- [x] structured data
+- [ ] algorithms
+- [ ] time
+- [ ] computer scientists

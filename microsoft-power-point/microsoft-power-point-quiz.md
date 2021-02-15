@@ -1,4 +1,4 @@
-## Microsoft Power Point Assessment
+## Microsoft PowerPoint
 
 #### Q1. When you create a new, blank presentation, you begin with one blank slide. What is the layout name of this slide?
 
@@ -13,9 +13,7 @@
 - [x] Arrange tools
 - [ ] Design Ideas feature
 - [ ] Picture tools
-```
-In MS PP 2019 it's called "Drawing Tools". There is no such answer but there is a function called "Arrange"
-```
+      `In MS PP 2019 it's called "Drawing Tools". There is no such answer but there is a function called "Arrange"`
 
 #### Q3. Which option must be enabled if you want to manipulate the playback of a video file during a presentation?
 
@@ -37,9 +35,7 @@ In MS PP 2019 it's called "Drawing Tools". There is no such answer but there is 
 - [ ] the Home tab
 - [x] the Print dialog box
 - [ ] the Share tab
-```
-Should be in the printer window not in the options menu
-```
+      `Should be in the printer window not in the options menu`
 
 #### Q6. Which tab is best for adding various types of objects to slides?
 
@@ -61,9 +57,7 @@ Should be in the printer window not in the options menu
 - [ ] slide titles
 - [ ] missing alt text
 - [x] grammar
-```
-[Source](https://support.microsoft.com/en-us/office/rules-for-the-accessibility-checker-651e08f2-0fc3-4e10-aaca-74b4a67101c1?ns=powerpnt&version=16&ui=en-us&rs=en-us&ad=us)
-```
+      [Source](https://support.microsoft.com/en-us/office/rules-for-the-accessibility-checker-651e08f2-0fc3-4e10-aaca-74b4a67101c1?ns=powerpnt&version=16&ui=en-us&rs=en-us&ad=us)
 
 #### Q9. How can you change the appearance of a table in one click?
 
@@ -71,9 +65,8 @@ Should be in the printer window not in the options menu
 - [ ] Apply a graphic style.
 - [x] Apply a table style.
 - [ ] Right-click a table and choose a new style.
-```
-Table Tools -> Design Tab -> Table Styles
-```
+
+`Table Tools -> Design Tab -> Table Styles`
 
 #### Q10. Which option changes a text box so that it automatically changes shape to fit longer text?
 
@@ -83,6 +76,7 @@ Table Tools -> Design Tab -> Table Styles
 - [ ] Shrink text on overflow
 
 #### Q11. Which three shadow properties can be adjusted in PowerPoint?
+
 ```
 A. Focal Point
 B. Depth
@@ -102,9 +96,7 @@ E. Distance
 - [ ] Advance slides manually
 - [ ] Advance slides automatically
 - [x] Loop continuously until 'Esc'
-```
-Slide Show Tab -> Set Up Slide Show -> Show options -> Loop continuously until 'Esc'
-```
+      `Slide Show Tab -> Set Up Slide Show -> Show options -> Loop continuously until 'Esc'`
 
 #### Q13. Which statement about the Compress Pictures command is true?
 
@@ -119,6 +111,7 @@ Slide Show Tab -> Set Up Slide Show -> Show options -> Loop continuously until '
 - [ ] Subtitle
 - [ ] Content Style
 - [ ] List 2
+
 ```
 Highlight the content you want to use as a slide title, and select Heading 1 in Styles.
 Highlight the content you want to use as the slide text, and select Heading 2 in Styles.
@@ -138,6 +131,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] Hidden
 - [ ] none of these answers
 - [ ] Visible
+
 ```
 If hidden is selected the courser stays hidden no matter what.
 ```
@@ -167,7 +161,7 @@ If hidden is selected the courser stays hidden no matter what.
 
 - [ ] Click the Switch Row/Column button.
 - [ ] Click the Refresh Data button.
-- [ ] Click the Select Data button.
+- [x] Click the Select Data button.
 - [ ] Click the Edit Data button.
 
 #### Q21. Which view lets you see additional information on a second monitor when delivering a presentation?
@@ -188,6 +182,7 @@ If hidden is selected the courser stays hidden no matter what.
 File Tab -> Options -> Advanced -> Image Size and Quality -> Do not compress images in file
 File Tab -> Options -> Advanced -> Print -> High quality
 ```
+
 #### Q23. You have inserted s video on a slide and want the video to automaaticlly start 2 seconods after the associated slide appears. How can you accomplish this?
 
 - [ ] Use playback timings.
@@ -241,7 +236,7 @@ File Tab -> Options -> Advanced -> Print -> High quality
 
 - [ ] Retype the text
 - [ ] Change the shapes from rifht to left.
-- [x] Promt Shapes and/or Demote Shapes.
+- [x] Promote Shapes and/or Demote Shapes.
 - [ ] Move the shapes up and down.
 
 #### Q31. Why would you trim a video?
@@ -257,6 +252,7 @@ File Tab -> Options -> Advanced -> Print -> High quality
 - [ ] Save the file as a PDF.
 - [ ] Save the file as a POTX.
 - [ ] Save the file as a PPTX.
+
 ```
 Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .pot).
 ```
@@ -267,3 +263,52 @@ Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .po
 - [x] Use the Screenshot command. (Office2019)
 - [ ] Use the Print key.
 - [ ] Use the Capture Screen command.
+
+#### Q34. How can you add more layouts to the Layout Gallery?
+
+- [ ] Customize the Layout Gallery.
+- [x] Add Slide Layouts to the Slide Master.
+- [ ] Use the Add Layouts command.
+- [ ] Use the Insert Layouts command.
+
+#### Q35. Why would you use the Outline view?
+
+- [x] To see only the text in placeholders.
+- [ ] To present the slides at a high level.
+- [ ] To add text from a Word document.
+- [ ] To organize your slides.
+
+#### Q36. The text on the left and right of the slide are cut off in print preview. How can you fix this in the printer settings?
+
+- [ ] Unselect High Quality.
+- [x] Select Scale to Fit Paper.
+- [ ] Select Frame Slides.
+- [ ] Select Frame Slides.
+
+#### Q37. In addition to organizing your slides, how else can sections increase your productivity?
+
+- [ ] In addition to organizing your slides, how else can sections increase your productivity?.
+- [x] All the slides in a section can be selected at once to apply changes such as transitions, layouts or hiding slides.
+- [ ] Sections can be exported as a separate presentation.
+- [ ] You can resize all the slides in a section at once.
+
+#### Q38. You have many slides that you need to reorder. How would you accomplish this?
+
+- [ ] Move the slides in Slide Show view.
+- [ ] Renumber the slides in Outline view.
+- [x] Move the slides in the Slide Sorter view.
+- [ ] Reset the slide footers.
+
+#### Q39. What can be seen in Presenter view?
+
+- [ ] Timer.
+- [ ] Notes.
+- [ ] Side Navigator.
+- [x] all of these answers.
+
+#### Q40. How can you format the entire contents of a text box?
+
+- [ ] Click the dashed/dotted border of the text box.
+- [ ] Right-click the text box and select Select All.
+- [ ] Click the Fond button on the Home tab.
+- [ ] Double-click any word in the text box.

@@ -1,4 +1,4 @@
-## C# Assessment
+## C#
 
 #### Q1. In which of these situations are interfaces better than abstract classes?
 
@@ -142,9 +142,7 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 #### Q15. What will be returned when this method is executed?
 
-    `
-        public void userInput(string charParamters) { }
-    `
+`public void userInput(string charParamters) { }`
 
 - [x] nothing
 - [ ] a Boolean
@@ -275,9 +273,7 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 #### Q31. Given this enumeration, how would you access the integer-type value of 'AppState.Loading'?
 
-    `
-    enum AppState { OffLine, Loading, Ready }
-    `
+`enum AppState { OffLine, Loading, Ready }`
 
 - [ ] string currentState = (string)AppState.Loading;
 - [ ] string currentState = AppState.Loading.integralVal;
@@ -359,60 +355,61 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 #### Q41. What is the difference between non-static and static classes?
 
-- [] non-static classes need to be initialized before use, while static classes do not
-- [] non-static classes are accessible only from an interface while static classes are accessible from anywhere
-- [] non-static classes need to initialize all class members at runtime, while static classes do not
-- [] non-static classes do not need to be initialized while static classes do
+- [x] non-static classes need to be initialized before use, while static classes do not
+      [reference](https://stackoverflow.com/questions/20451554/whats-the-function-of-a-static-constructor-in-a-non-static-class)
+- [ ] non-static classes are accessible only from an interface while static classes are accessible from anywhere
+- [ ] non-static classes need to initialize all class members at runtime, while static classes do not
+- [ ] non-static classes do not need to be initialized while static classes do
 
 #### Q42. Which characteristic prevents this code from compiling?
 
-public int age="28"
+`public int age="28"`
 
 - [x] type safety
-- [] single inheritance
-- [] dependency injection
-- [] multiple inheritance
+- [ ] single inheritance
+- [ ] dependency injection
+- [ ] multiple inheritance
 
 #### Q43. How would you serialize this class?
 
-public class User {}
+`public class User {}`
 
-- [] mark the User class with the DeserializableAttribute
-- [] Declare it as public serializable class User {}
-- [] Mark it with the SerializableAttribute
-- [] Declare it as private serializable class User{}
+- [ ] mark the User class with the DeserializableAttribute
+- [ ] Declare it as public serializable class User {}
+- [ ] Mark it with the SerializableAttribute
+- [ ] Declare it as private serializable class User{}
 
 #### Q44. How would you write a delegate named ResultCallback with an int parameter named responseCode
 
-- [] public delegate ResultCallback(int responseCode)
-- [] public delegate void ResultCallback<(int) responseCode>;
-- [] public void delegate ResultCallback<int responseCode>;
+- [ ] public delegate ResultCallback(int responseCode)
+- [ ] public delegate void ResultCallback<(int) responseCode>;
+- [ ] public void delegate ResultCallback<int responseCode>;
 - [x] public delegate void ResultCallback(int responseCode);
 
 #### Q45. What is the difference between a static and non-static method?
 
-- [] non-static methods always need to have a void return type
-- [] non-static methods do not have access to static member variables
+- [ ] non-static methods always need to have a void return type
+- [ ] non-static methods do not have access to static member variables
 - [x] static methods do not have to instantiate an instance of the class to call the method
-- [] static methods always have to be public
+- [ ] static methods always have to be public
 
 #### Q46. What is the correct way to write an event named apiResult based on a delegate named ResultCallback?
 
-- [] public void event ResultCallback apiResult;
-- [] public event ResultCallback(() -> apiResult);
-- [] public event void ResultCallback
+- [ ] public void event ResultCallback apiResult;
+- [ ] public event ResultCallback(() -> apiResult);
+- [ ] public event void ResultCallback
 - [x] public event ResultCallback apiResult;
 
 #### Q47. When will the code inside finally block be executed in a try-catch statement?
 
-- [] if there is an error, it won't execute at all
-- [] between the try and catch blocks
+- [ ] if there is an error, it won't execute at all
+- [ ] between the try and catch blocks
 - [x] after the try and catch blocks
-- [] when the finally block overrides the catch block and executes in its place
+- [ ] when the finally block overrides the catch block and executes in its place
 
 #### Q48. What method correctly extends the string class?
 
 - [x] public static string IsvalidName(this string i, string value) {}
-- [] public static void IsvalidName(this string i, string value) {}
-- [] public string IsvalidName(this string i, string value) {}
-- [] public void IsvalidName(this string i, string value) {}
+- [ ] public static void IsvalidName(this string i, string value) {}
+- [ ] public string IsvalidName(this string i, string value) {}
+- [ ] public void IsvalidName(this string i, string value) {}
