@@ -12,7 +12,10 @@
 - [ ] ISVALUE AND ISNUMBER
 - [ ] ISVALUE and ISTEXT
 
-#### Q3. If you drag the fill handle (lower-right corner) of cell A2 (Jan) downward into cells A3, A4, and A5, what contents will appear in those cells?
+#### Q3. If you drag the fill handle (lower-right corner) of cell A2 downward into cells A3, A4, and A5, what contents will appear in those cells?
+
+![Jan](images/003.png?raw=true)
+
 - [ ] Jan, Jan, Jan
 - [ ] Feb, Mar, blank cell
 - [x] Feb, Mar, Apr
@@ -64,6 +67,9 @@
 - [ ] one input
 
 #### Q11. In the image below, which option(s) can you select so that the appropriate field headers appear in cells A4 and B3 instead of the terms Row Labels and Column Labels, respectively?
+
+![Tabular form](images/004.png?raw=true)
+
 - [ ] Show in Tabular Form
 - [ ] Show in Compact Form
 - [ ] Show in Compact For or Show in Outline Form
@@ -106,6 +112,9 @@
 - [ ] bar chart
 
 #### Q18. The AutoSum formulas in the range C9:F9 below return unexpected values. Why is this?
+
+![AutoSum formula](images/006.png?raw=true)
+
 - [ ] The AutoSum formulas refer to the column to the left of their cells.
 - [ ] The AutoSum formulas exclude the bottom row of data.
 - [x] The AutoSum formulas include the year at the top of each column in the calculation.
@@ -113,6 +122,9 @@
 - [ ] The AutoSum formulas include their own cells, creating a circular reference.
 
 #### Q19. The text filter in column A is designed to display only those rows where column A entry has a particular attribute. What is this attribute?
+
+![text filter](images/007.png?raw=true)
+
 - [x] The second character in the cell is 9.
 - [ ] The number 9 appears one or more times within the cell.
 - [ ] The cell is comprised of 9 characters.
@@ -155,6 +167,9 @@
 - [ ] combo chart
 
 #### Q26. In the image below, what does clicking the button indicated by the green arrow do?
+
+![Select all](images/008.png?raw=true)
+
 - [ ] Hides or shows the formula bar.
 - [x] Selects all.
 - [ ] Hides or shows the ribbon.
@@ -167,6 +182,9 @@
 - [ ] =MySheet@A1
 
 #### Q28. In the worksheet below, you want to copy the formatting of cell A1 into cells B1:D1. Which approach (see arrows) accomplishes this the most efficiently?
+
+![Copy formatting](images/005.png?raw=true)
+
 - [ ] B
 - [ ] C
 - [x] A
