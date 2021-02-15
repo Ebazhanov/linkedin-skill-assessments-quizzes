@@ -101,7 +101,7 @@
 #### Q15.What is the difference between a SDK (software development kit) and runtime in .NET Core?
 
 - [ ] The SDK is the "virtual machine" that hosts and runs the application and abstracts all the interaction with the operating system; the runtime usually includes documentation and other help files.
-- [ ] The runtime is the virtual machine that hosts and runs the application and abstracts all the interaction with the operating system; the SDK usually includes documentation and other help files.
+- [x] The runtime is the virtual machine that hosts and runs the application and abstracts all the interaction with the operating system; the SDK usually includes documentation and other help files.
 - [ ] The runtime compiles code along with the CLR; the SDK usually includes documentation and other help files.
 - [ ] The SDK compiles code along with the CLR; the runtime usually includes documentation and other help files.
 
