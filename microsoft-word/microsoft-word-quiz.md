@@ -131,14 +131,12 @@
 - [x] Click File > Open > Recent > Documents.
 - [ ] Click File > Recent > Recover Unsaved Documents.
 
-<details><summary>Explanation</summary>
+Explanation:
 
 Solutions found in Office2019:  
 File -> Open -> Recent -> Recover Unsaved Documents  
 File -> Info -> Manage Document -> Recover Unsaved Documents  
 Read carefully. It's not about recovering, but only the last recent file!
-
-</details>
 
 #### Q22. What can you **NOT** insert into a Word document from the Insert tab?
 - [x] a sketch
@@ -158,9 +156,9 @@ Read carefully. It's not about recovering, but only the last recent file!
 - [ ] Find and Replace
 - [x] AutoCorrect Options
 
-<details><summary>Explanation</summary>
+Explanation:
+
 The keyword here is creating a "shortcut" which is set with the Autocorrect Options by navigating to File -> Options -> Proofing -> AutoCorrect Options -> Replace text as you type.
-</details>
 
 #### Q25. Your document contains two columns of content with a vertical line between the columns, as shown. From where can you delete the line?
 
@@ -171,11 +169,9 @@ The keyword here is creating a "shortcut" which is set with the Autocorrect Opti
 - [ ] Insert > Line > Vertical
 - [ ] Insert > Line > Remove
 
-<details><summary>Explanation</summary>
+Explanation:
 
 Layout -> Columns -> More columns -> Line between
-
-</details>
 
 #### Q26. You crop an image in a document, what happens to the image and the overall document file size?
 - [ ] The cropped parts of the image are hidden and the overall file size increases.
@@ -220,7 +216,9 @@ Layout -> Columns -> More columns -> Line between
 - [ ] An endnote always appears on the bottom of the same page that it references.
 
 #### Q33. Which formatting option was used to create the effect shown below?
+
 ![image](images/004.png)
+
 - [ ] Drop Cap
 - [x] Subscript
 - [ ] Small Caps
@@ -268,12 +266,10 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] B and C
 - [ ] A and D
 
-<details><summary>Hint</summary>
+Hint:
 
 (TM) : Unregistered trademark symbol  
 (R): Registered trademark symbol
-
-</details>
 
 #### Q39. You are reformatting a professional document that you created previously using manual formatting. In your document, first-level headings are formatted with Arial 11 Bold. What is the fastest way to create and apply a Heading 1 style using these properties?
 - [ ] In the **Styles** task pane, click **New Style** and select **Arial 11 Bold**.
@@ -305,11 +301,9 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Use the Section Break command.
 - [ ] Use the Split Cells command.
 
-<details><summary>Explanation</summary>
+Explanation:
 
 Tables Layout tab -> Merge group -> Split Table
-
-</details>
 
 #### Q44. What can you **NOT** create from a Word document?
 - [ ] a Word macro-enabled document
@@ -317,11 +311,9 @@ Tables Layout tab -> Merge group -> Split Table
 - [x] a multipage website
 - [ ] a Word 2003 XML document
 
-<details><summary>Explanation</summary>
+Explanation:
 
 Each Word document can be saved as a Web Page.
-
-</details>
 
 #### Q45. How can you add a manual line break to a paragraph?
 - [ ] Press Enter twice (Windows) or Return twice (Mac).
