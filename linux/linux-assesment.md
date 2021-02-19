@@ -281,8 +281,34 @@ myVar = 5
 ```
 
 #### Q34. What is not inherited by child process?
-
 - [x] shell aliases
 - [ ] userid
 - [ ] environmental variables
 - [ ] scheduling priority
+
+#### Q35. What NFS option allows the root user to access NFS shares as the root user?
+- [ ] no_admin_squash
+- [ ] no_root_squash
+- [x] allow_root_access
+- [ ] all_squash
+
+#### Q36. You send an email to a remote client using the following syntax. What will be in the body of the email?
+```bash
+date | mail -s "This is a remote test" user1@rhhost1.localnet.com
+```
+- [ ] "This is a remote test"
+- [ ] the date, the time, and the words "This is a remote test"
+- [x] The email subject shows "This is a remote test" but the body of the email will be empty. 
+- [ ] the current date and time
+
+#### Q37. What is the /etc/hosts file used for?
+- [ ] resolving the local name
+- [ ] blocking sites using iptables
+- [x] setting the hostname
+- [ ] configuring DNS name servers
+
+#### Q38. In an extended regular expression, you would use (pattern){3} to match three instances of the pattern. How would you match the same thing with an extended glob?
+- [ ] 3(pattern)
+- [ ] {0,3}(pattern}
+- [x] OccurＲence quantifiers are not supported in Bash's version of extended globs, so this is not possible.
+- [ ] {3}(pattern})
