@@ -332,3 +332,15 @@
   - [ ] It is a shallow pointer that conatins address of an object.
   - [ ] It is the physical address of an object.
   - [x] It is the address where the variables and methods of an object are stored.
+
+ #### Q52. Why is unit testing harder in OOP than functional programming?
+  - [x] Objects may maintain internal state, which is not easily accessible by the tests.
+  - [ ] The quality of unit testing frameworks for functional languages is better.
+  - [ ] OOP promotes code reuse, which means that your tests have to consider more use cases.
+  - [ ] Object-oriented languages tend to rely on frameworks such as Spring or Hibernate, which make them difficult to test.
+
+ #### Q53. What is the function of a user diagram?
+  - [ ] It connects actors to use cases.
+  - [x] It links actors to roles played in all use cases.
+  - [ ] It lists all actors for each use case.
+  - [ ] It minimizes the number of actors required.
