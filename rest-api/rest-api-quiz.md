@@ -229,3 +229,21 @@
 - [ ] to keep a web session active
 - [x] to retrive an access token
 
+#### Q35. What is Time to First Hello World?
+- [x] how long it takes for a developer to do something with your API
+- [ ] how long it takes to start a new programming language
+- [ ] how long it takes to install your SDK
+- [ ] how long it takes to read your documentation
+
+#### Q35. What is Time to First Hello World?
+- [x] how long it takes for a developer to do something with your API
+- [ ] how long it takes to start a new programming language
+- [ ] how long it takes to install your SDK
+- [ ] how long it takes to read your documentation
+
+
+#### Q36. Which response header tells the client and intermediaries that the response is not to be cached anywhere?
+- [ ] Cache-State: none
+- [ ] Expires:-1
+- [ ] Cache-Control: no-cache
+- [x] Cache-Control: no-store
