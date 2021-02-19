@@ -1,9 +1,8 @@
-AWS LAMBDA Assessment
----------------------
+## AWS Lambda
 
 #### Q1. How can you increase the CPU resources for your Lambda?
 - [ ] `Increase the configured CPU value`
-- [ ] `Increase the configured timeout  value`
+- [ ] `Increase the configured timeout value`
 - [x] `Increase the configured memory value`
 - [ ] `Increase the configured concurrency value`
 
@@ -92,7 +91,7 @@ AWS LAMBDA Assessment
 - [ ] `daily`
 
 #### Q16. You can restrict the scope of a user's permissions by specifying which two items in an IAM policy?
-- [ ] `resources and users` 
+- [ ] `resources and users`
 - [x] `resources and conditions`
 - [ ] `events and users`
 - [ ] `events and conditions`
@@ -127,7 +126,7 @@ AWS LAMBDA Assessment
 - [ ] `aws:demo;aws:demo`
 - [ ] `aws:demo;aws:DEMO`
 
-#### Q22. Outbound connections from Lambdas must be ______.
+#### Q22. Outbound connections from Lambdas must be `**\_\_**`.
 - [ ] `neither of these answers`
 - [ ] `UDP/IP`
 - [ ] `TCP/IP`
@@ -181,13 +180,11 @@ AWS LAMBDA Assessment
 - [ ] `Do not overprovision memory. Overprovision your function timeout settings to run your functions faster and reduce costs.`
 - [ ] `Do not overprovision memory. Do not overprovision your function timeout settings to run your functions faster and reduce costs.`
 
-
 #### Q31. Basic Lambda permissions include permissions for what?
 - [ ] `removing log groups`
 - [ ] `none of these answers`
 - [ ] `creating log groups`
 - [x] `updating log groups`
-
 
 #### Q32. How are environment variables stored?
 - [ ] `DynamoDB tables`
@@ -195,13 +192,11 @@ AWS LAMBDA Assessment
 - [ ] `S3 buckets`
 - [ ] `none of these answers`
 
-
 #### Q33. You need to use a Lambda to provide backend logic to your website. Which service do you use to make your Lambda available to your website?
 - [ ] `S3`
 - [x] `API Gateway`
 - [ ] `X-Ray`
 - [ ] `DynamoDB`
-
 
 #### Q34. How can additional code or content be provided for your Lambda?
 - [ ] `aliases`
@@ -209,13 +204,11 @@ AWS LAMBDA Assessment
 - [ ] `handlers`
 - [x] `layers`
 
-
 #### Q35. Lambdas allow for running of what other things?
 - [ ] `binaries`
 - [ ] `executables`
 - [x] `all of these answers`
 - [ ] `shell scripts`
-
 
 #### Q37. You are creating a Lambda to trigger on change to files in an S3 bucket. Where should you put the bucket name?
 - [ ] `in the Lambda function code`
@@ -223,13 +216,11 @@ AWS LAMBDA Assessment
 - [ ] `in the Lambda tags`
 - [ ] `in another S3 bucket`
 
-
 #### Q38. What action is needed before you can test a Lambda?
 - [ ] `Deploy the Lambda.`
 - [ ] `Export the function`
 - [ ] `none of these answers`
 - [x] `Configure a test event.`
-
 
 #### Q39. What kind of packages can you use with Node.js for Lambdas?
 - [ ] `Fleece`
@@ -237,13 +228,11 @@ AWS LAMBDA Assessment
 - [ ] `none of these answers`
 - [ ] `Pod`
 
-
 #### Q41. Lambdas are monitored by default using which service?
 - [ ] `CloudTrail`
 - [x] `CloudWatch`
 - [ ] `CloudFormation`
 - [ ] `LogWatch`
-
 
 #### Q42. What can trigger a Lambda function execution?
 - [ ] `a table definition`
@@ -251,10 +240,14 @@ AWS LAMBDA Assessment
 - [ ] `STS Write`
 - [x] `an SNS topic`
 
-
 #### Q43. You need to set an S3 event trigger on your Lambda to respond when data is added to your bucket from another S3 bucket. Which event type do you configure?
 - [ ] `POST`
 - [ ] `"All object create events"`
 - [x] `PUT`
 - [ ] `COPY`
 
+#### Q44. To make Lambdas more testable, it is AWS best practice to separate which of these?
+- [ ] `Lambda configuration from logging code`
+- [ ] `Lambda handler from logging code`
+- [x] `Lambda handler from core logic`
+- [ ] `Lambda configuration from core logic`
