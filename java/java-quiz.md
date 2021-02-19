@@ -7,7 +7,7 @@
 - [ ] awb
 - [ ] traw
 
-**Reasoning:** The substring method is accepting two arugments. The first argument being the index to start(includes that char at 2) and the second the index of the string to end the substring(excludes the char at 5). Strings in Java are like arrays of chars. Therefore the method will return "raw" as those are the chars in indexs 2,3, and 4. You can also take the ending index and subtract the beginning index from it, to determine how many chars will be included in the substring (5-2=3).
+**Reasoning:** The substring method is accepting two arguments. The first argument being the index to start(includes that char at 2) and the second the index of the string to end the substring(excludes the char at 5). Strings in Java are like arrays of chars. Therefore the method will return "raw" as those are the chars in indexes 2,3, and 4. You can also take the ending index and subtract the beginning index from it, to determine how many chars will be included in the substring (5-2=3).
 
 #### Q2. How can you achieve runtime polymorphism in Java?
 
@@ -16,14 +16,14 @@
 - [x] method overriding
 - [ ] method calling
 
-#### Q3. Given the following definitions, which of these expression will NOT evaluate to true?
+#### Q3. Given the following definitions, which of these expression will **NOT** evaluate to true?
 
 `boolean b1 = true, b2 = false; int i1 = 1, i2 = 2;`
 
-- [ ] (i1 | i2) == 3
-- [x] i2 && b1
-- [ ] b1 || !b2
-- [ ] (i1 ^ i2) < 4
+- [ ] `(i1 | i2) == 3`
+- [x] `i2 && b1`
+- [ ] `b1 || !b2`
+- [ ] `(i1 ^ i2) < 4`
 
 #### Q4. What can you use to create new instances in Java?
 
@@ -34,15 +34,15 @@
 
 #### Q5. What is the output of this code?
 
-```shell script
+```shell
 1: class Main {
 2:   public static void main (String[] args) {
 3:     int array[] = {1, 2, 3, 4};
 4:     for (int i = 0; i < array.size(); i++) {
 5:        System.out.print(array[i]);
-       }
-     }
-   }
+6:     }
+7:   }
+8: }
 ```
 
 - [x] It will not compile because of line 4.
@@ -52,7 +52,7 @@
 
 #### Q6. Which of the following can replace the CODE SNIPPET to make the code below print "Hello World"?
 
-```
+```java
 interface Interface1 {
     static void print() {
         System.out.print("Hello");
@@ -66,14 +66,14 @@ interface Interface2 {
 }
 ```
 
-- [ ] super1.print(); super2.print();
-- [ ] this.print();
-- [ ] super.print();
-- [x] Interface1.print(); Interface2.print();
+- [ ] `super1.print(); super2.print();`
+- [ ] `this.print();`
+- [ ] `super.print();`
+- [x] `Interface1.print(); Interface2.print();`
 
 #### Q7. What does the following code print?
 
-```
+```java
 String str = "abcde";
 str.trim();
 str.toUpperCase();
@@ -88,19 +88,19 @@ System.out.println(str);
 
 #### Q8. What is the result of this code?
 
-```
-1: class Main {
-2:   public static void main (String[] args){
-3:     System.out.println(print(1));
-4:   }
-5:   static Exception print(int i){
-6:       if (i>0) {
-7:          return new Exception();
-8:       } else {
-9:          throw new RuntimeException();
-10:      }
-11:  }
-12: }
+```java
+class Main {
+    public static void main (String[] args){
+        System.out.println(print(1));
+    }
+    static Exception print(int i){
+        if (i>0) {
+            return new Exception();
+        } else {
+            throw new RuntimeException();
+        }
+    }
+}
 ```
 
 - [ ] It will show a stack trace with a runtime exception.
@@ -110,63 +110,69 @@ System.out.println(str);
 
 #### Q9. Which class can compile given these declarations?
 
-```
-1: interface One {
-2:      default void method() {
-3:          System.out.println(""One"");
-4:      }   }
-5: interface Two {
-6:      default void method () {
-7:          System.out.println(""One"");
-8:      }   }
+```java
+interface One {
+    default void method() {
+        System.out.println(""One"");
+    }
+}
+
+interface Two {
+    default void method () {
+        System.out.println(""One"");
+    }
+}
 ```
 
-- [ ]
+- [ ] A
 
-```
-  class Three implements One, Two {
-    publc void method() {
+```java
+class Three implements One, Two {
+    public void method() {
         super.One.method();
-  } }
+    }
+}
 ```
 
-- [ ]
+- [ ] B
 
-```
-  class Three implements One, Two {
-    publc void method() {
+```java
+class Three implements One, Two {
+    public void method() {
         One.method();
-  } }
+    }
+}
 ```
 
-- [ ]
+- [ ] C
 
-```
+```java
 class Three implements One, Two {
 }
 ```
 
-- [X]
+- [x] D
 
-```
-  class Three implements One, Two {
-    publc void method() {
+```java
+class Three implements One, Two {
+    public void method() {
         One.super.method();
-  } }
+    }
+}
 ```
 
 #### Q10. What is the output of this code?
 
-```
-1: class Main {
-2:  public static void main (String[] args) {
-3:      List list = new ArrayList();
-4:      list.add("hello");
-5:      list.add(2);
-6:      System.out.print(list.get(0) instanceof Object);
-7:      System.out.print(list.get(1) instanceof Integer);
-8:  }
-9: }
+```java
+class Main {
+    public static void main (String[] args) {
+        List list = new ArrayList();
+        list.add("hello");
+        list.add(2);
+        System.out.print(list.get(0) instanceof Object);
+        System.out.print(list.get(1) instanceof Integer);
+    }
+}
 ```
 
 - [ ] The code does not compile.
@@ -176,11 +182,11 @@ class Three implements One, Two {
 
 #### Q11. Given the following two classes, what will be the output of the Main class?
 
-```
+```java
 package mypackage;
 public class Math {
     public static int abs(int num){
-        return num<0?-num:num;
+        return num < 0 ? -num : num;
     }
 }
 package mypackage.elementary;
@@ -189,25 +195,29 @@ public class Math {
         return -num;
     }
 }
-1: import mypackage.Math;
-2: import mypackage.elementary.*;
-
-3: class Main {
-4:  public static void main (String args[]){
-5:      System.out.println(Math.abs(123));
-6:  }
-7: }
 ```
 
-- [ ] Lines 1 and 2 generate compiler erros due to class name conflicts.
+```java
+import mypackage.Math;
+import mypackage.elementary.*;
+
+class Main {
+    public static void main (String args[]){
+        System.out.println(Math.abs(123));
+    }
+}
+```
+
+- [ ] Lines 1 and 2 generate compiler errors due to class name conflicts.
 - [ ] "-123"
 - [ ] It will throw an exception on line 5.
 - [x] "123"
-      **Explanation:** The answer is "123". The abs() method evaluates to the one inside mypackage.Math class.
+      
+**Explanation:** The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class.
 
 #### Q12. What is the result of this code?
 
-```
+```java
 1: class MainClass {
 2:  final String message(){
 3:      return "Hello!";
@@ -232,7 +242,7 @@ public class Math {
 
 #### Q13. Given this code, which command will output "2"?
 
-```
+```java
 class Main {
     public static void main(String[] args) {
         System.out.println(args[2]);
@@ -240,14 +250,14 @@ class Main {
 }
 ```
 
-- [ ] java Main 1 2 "3 4" 5
-- [x] java Main 1 "2" "2" 5
-- [ ] java Main.class 1 "2" 2 5
-- [ ] java Main 1 "2" "3 4" 5
+- [ ] `java Main 1 2 "3 4" 5`
+- [x] `java Main 1 "2" "2" 5`
+- [ ] `java Main.class 1 "2" 2 5`
+- [ ] `java Main 1 "2" "3 4" 5`
 
 #### Q14. What is the output of this code?
 
-```
+```java
 class Main {
     public static void main(String[] args){
         int a = 123451234512345;
@@ -265,7 +275,7 @@ class Main {
 
 #### Q15. What is the output of this code?
 
-```
+```java
 class Main {
     public static void main (String[] args) {
         String message = "Hello world!";
@@ -277,11 +287,11 @@ class Main {
 ```
 
 - [ ] The code does not compile.
-- [x] A runtime exception is thrown
+- [x] A runtime exception is thrown.
 - [ ] "world!!world"
 - [ ] "world!world!"
 
-```
+```java
 String m = "Hello world!";
 String n = m.substring(6,12) + m.substring(12,6);
 System.out.println(n);
@@ -289,10 +299,10 @@ System.out.println(n);
 
 #### Q16. How do you write a foreach loop that will iterate over ArrayList\<Pencil\>pencilCase?
 
-- [x] for (Pencil pencil : pencilCase) {}
-- [ ] for (pencilCase.next()) {}
-- [ ] for (Pencil pencil : pencilCase.iterator()) {}
-- [ ] for (pencil in pencilCase) {}
+- [x] `for (Pencil pencil : pencilCase) {}`
+- [ ] `for (pencilCase.next()) {}`
+- [ ] `for (Pencil pencil : pencilCase.iterator()) {}`
+- [ ] `for (pencil in pencilCase) {}`
 
 #### Q17. Fill in the blanks?
 
@@ -300,24 +310,28 @@ System.out.println(n);
 
 #### Q18. What code would you use to tell if "schwifty" is of type String?
 
-- [ ] "schwifty".getType() == String
-- [ ] "schwifty".getClass().getsimpleName() == "String"
-- [ ] "schwifty".getType().equals("String")
-- [x] "schwifty" instanceof String
+- [ ] `"schwifty".getType() == String`
+- [ ] `"schwifty".getClass().getSimpleName() == "String"`
+- [ ] `"schwifty".getType().equals("String")`
+- [x] `"schwifty" instanceof String`
 
-#### Q19. Correct output of `"apple".compareTo("banana")`
+#### Q19. What does this code print?
 
-- [ ] 0
+```java
+System.out.print("apple".compareTo("banana"));
+```
+
+- [ ] `0`
 - [ ] positive number
 - [x] negative number
 - [ ] compilation error
 
-#### Q20. You have an ArrayList of names that you want to sort alphabetically. Which approach would NOT work?
+#### Q20. You have an ArrayList of names that you want to sort alphabetically. Which approach would **NOT** work?
 
-- [ ] names.sort(Comparator.comparing(String::toString))
-- [ ] Collections.sort(names)
-- [x] names.sort(List.DESCENDING) <<<--- Correct
-- [ ] names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())
+- [ ] `names.sort(Comparator.comparing(String::toString))`
+- [ ] `Collections.sort(names)`
+- [x] `names.sort(List.DESCENDING)`
+- [ ] `names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())`
 
 #### Q21. By implementing encapsulation, you cannot directly access the class's **\_** properties unless you are writing code inside the class itself.
 
@@ -328,25 +342,26 @@ System.out.println(n);
 
 #### Q22. Which is the most up-to-date way to instantiate the current date?
 
-- [ ] new SimpleDateFormat("yyyy-MM-dd").format(new Date())
-- [ ] new Date(System.currentTimeMillis())
-- [x] LocalDate.now()  
-       **Explanation**: // LocalDate is newest class added in java 8
-- [ ] Calender.getInstance().getTime()
+- [ ] `new SimpleDateFormat("yyyy-MM-dd").format(new Date())`
+- [ ] `new Date(System.currentTimeMillis())`
+- [x] `LocalDate.now()`
+- [ ] `Calendar.getInstance().getTime()`
+
+**Explanation**: LocalDate is newest class added in java 8
 
 #### Q23. Fill in the blank to create a piece of code that will tell wether int0 is divisible by 5:
 
 `boolean isDivisibleBy5 = _____`
 
-- [ ] int0 / 5 ? true: false
-- [x] int0 % 5 == 0
-- [ ] int0 % 5 != 5
-- [ ] Math.isDivisible(int0, 5)
+- [ ] `int0 / 5 ? true: false`
+- [x] `int0 % 5 == 0`
+- [ ] `int0 % 5 != 5`
+- [ ] `Math.isDivisible(int0, 5)`
 
-#### Q24. How many time will this code print "Hello World!"?
+#### Q24. How many times will this code print "Hello World!"?
 
-```
-Class Main {
+```java
+class Main {
     public static void main(String[] args){
         for (int i=0; i<10; i=i++){
             i+=1;
@@ -372,7 +387,7 @@ Reason : Observe the loop increment. It's not an increment, it's an assignment(p
 
 #### Q26. What is the result of this code?
 
-```
+```java
 try{
     System.out.print("Hello World");
 }catch(Exception e){
@@ -389,23 +404,25 @@ try{
 - [ ] Hello World!
 - [ ] Hello World
 
-#### Q27. Which statement is NOT true?
+#### Q27. Which statement is **NOT** true?
 
 - [ ] An anonymous class may specify an abstract base class as its base type.
-- [ ] An anonymous class does not require a zero-argument constructor. <<<<---Correct
+- [x] An anonymous class does not require a zero-argument constructor.
 - [ ] An anonymous class may specify an interface as its base type.
-- [ ] An anonymous class may specify both an abstract class and interface as base types
+- [ ] An anonymous class may specify both an abstract class and interface as base types.
 
 #### Q28. What will this program print out to the console when executed?
 
-```
+```java
+import java.util.LinkedList;
+
 public class Main {
     public static void main(String[] args){
-       LinkedList<Integer> list = new LinkedList<>();
-       list.add(5);
-       list.add(1);
-       list.add(10);
-       System.out.println(list);
+        LinkedList<Integer> list = new LinkedList<>();
+        list.add(5);
+        list.add(1);
+        list.add(10);
+        System.out.println(list);
     }
 }
 ```
@@ -417,7 +434,7 @@ public class Main {
 
 #### Q29. What is the output of this code?
 
-```
+```java
 class Main {
     public static void main(String[] args){
        String message = "Hello";
@@ -429,7 +446,7 @@ class Main {
 ```
 
 - [ ] "Hello"
-- [x] A untime exception is thrown.
+- [x] A runtime exception is thrown.
 - [ ] The code does not compile.
 - [ ] "ello"
 
@@ -442,14 +459,14 @@ class Main {
 
 #### Q31. What statement returns true if "nifty" is of type String?
 
-- [ ] "nifty".getType().equals("String")
-- [ ] "nifty".getType() == String
-- [ ] "nifty".getClass().getSimpleName() == "String"
-- [x] "nifty" instanceof String
+- [ ] `"nifty".getType().equals("String")`
+- [ ] `"nifty".getType() == String`
+- [ ] `"nifty".getClass().getSimpleName() == "String"`
+- [x] `"nifty" instanceof String`
 
 #### Q32. What is the output of this code?
 
-```
+```java
 import java.util.*;
 class Main {
 	public static void main(String[] args) {
@@ -470,7 +487,7 @@ class Main {
 
 #### Q33. What is the result of this code?
 
-```
+```java
 1: class Main {
 2: 		Object message(){
 3: 			return "Hello!";
@@ -508,7 +525,7 @@ class Main {
 
 #### Q36. Which letters will print when this code is run?
 
-```
+```java
 public static void main(String[] args) {
 	try {
 		System.out.println("A");
@@ -532,7 +549,7 @@ public static void badMethod() {
 
 #### Q37. What is the output of this code?
 
-```
+```java
 class Main {
 	static int count = 0;
 	public static void main(String[] args) {
@@ -554,7 +571,7 @@ class Main {
 
 #### Q38. What is the output of this code?
 
-```
+```java
 import java.util.*;
 class Main {
 	public static void main(String[] args) {
@@ -573,7 +590,7 @@ class Main {
 
 #### Q39. What is the output of this code?
 
-```
+```java
 class Main {
 	public static void main(String[] args) {
 		String message = "Hello";
@@ -595,7 +612,7 @@ class Main {
 
 #### Q40. What is displayed when this code is compiled and executed?
 
-```
+```java
 public class Main {
 	public static void main(String[] args) {
 		int x = 5;
@@ -612,36 +629,38 @@ public class Main {
 
 #### Q41. Which approach cannot be used to iterate over a List named _theList_?
 
-- [ ]
+- [ ] A
 
-```
- for (int i = 0; i < theList.size(); i++) {
-     System.out.println(theList.get(i));
- }
-```
-
-- [ ]
-
-```
-  for (Object object : theList) {
-      System.out.println(object);
-  }
+```java
+for (int i = 0; i < theList.size(); i++) {
+    System.out.println(theList.get(i));
+}
 ```
 
-- [X]
+- [ ] B
 
-```
- Iterator it = theList.iterator();
- for (it.hasNext()) {       <---------- compiler error
-     System.out.println(it.next());
- }
+```java
+for (Object object : theList) {
+    System.out.println(object);
+}
 ```
 
-- [ }
+- [x] C
 
+```java
+Iterator it = theList.iterator();
+for (it.hasNext()) {
+    System.out.println(it.next());
+}
 ```
-  theList.forEach(System.out::println);
+
+- [ ] D
+
+```java
+theList.forEach(System.out::println);
 ```
+
+**Explanation:** `for (it.hasNext())` should be `while (it.hasNext())`.
 
 #### Q42. What method signature will work with this code?
 
@@ -675,7 +694,7 @@ public class Main {
 
 #### Q46. What is the result of this code?
 
-```
+```java
 char smooch = 'x';
 System.out.println((int) smooch);
 ```
@@ -694,7 +713,7 @@ System.out.println((int) smooch);
 
 #### Q48. How would you fix this code so that it compiles?
 
-```
+```java
 public class Nosey {
 	int age;
 	public static void main(String[] args) {
@@ -708,21 +727,21 @@ public class Nosey {
 - [ ] Make age public.
 - [ ] Initialize age to a number.
 
-#### Q49. Add a Duck called "Waddles" to the ArrayList _ducks_.
+#### Q49. Add a Duck called "Waddles" to the ArrayList **ducks**.
 
-```
+```java
 public class Duck {
 	private String name;
 	Duck(String name) {}
 }
 ```
 
-- [ ] Duck waddles = new Duck();
-      ducks.add(waddles);
-- [ ] Duck duck = new Duck("waddles");
-      ducks.add(wadd1es);
-- [x] ducks.add(new Duck("waddles"));
-- [ ] ducks.add(new Waddles());
+- [ ] `Duck waddles = new Duck();`
+      `ducks.add(waddles);`
+- [ ] `Duck duck = new Duck("Waddles");`
+      `ducks.add(waddles);`
+- [x] `ducks.add(new Duck("Waddles"));`
+- [ ] `ducks.add(new Waddles());`
 
 #### Q50. If you encounter `UnsupportedClassVersionError` it means the code was `**\_**` on a newer version of Java than the JRE `**\_**` it.
 
@@ -733,56 +752,56 @@ public class Duck {
 
 #### Q51. Given this class, how would you make the code compile?
 
-```
+```java
 public class TheClass {
-	private final int x;
+    private final int x;
 }
 ```
 
-- [ ]
+- [ ] A
 
-```
- public TheClass() {
- 	x += 77;
- }
-```
-
-- [ ]
-
-```
- public TheClass() {
- 	x = null;
- }
+```java
+public TheClass() {
+    x += 77;
+}
 ```
 
-- [ ]
+- [ ] B
 
-```
- public TheClass() {
- 	x = 77;
- }
+```java
+public TheClass() {
+    x = null;
+}
 ```
 
-- [X]
+- [ ] C
 
+```java
+public TheClass() {
+    x = 77;
+}
 ```
-  private void setX(int x) {
-  	this.x = x;
-  }
-  public TheClass() {
-  	setX(77);
-  }
+
+- [x] D
+
+```java
+private void setX(int x) {
+    this.x = x;
+}
+public TheClass() {
+    setX(77);
+}
 ```
 
 #### Q52. How many times f will be printed?
 
-```
+```java
 public class Solution {
-	public static void main(String[] args) {
-		for (int i = 44; i > 40; i--) {
-			System.out.println("f");
-		}
-	}
+    public static void main(String[] args) {
+        for (int i = 44; i > 40; i--) {
+            System.out.println("f");
+        }
+    }
 }
 ```
 
@@ -793,9 +812,11 @@ public class Solution {
 
 #### Q53. Which statements about `abstract` classes are true?
 
-    1. They can be instantiated.
-    2. They allow member variables and methods to be inherited by subclasses.
-    3. They can contain constructors.
+```
+1. They can be instantiated.
+2. They allow member variables and methods to be inherited by subclasses.
+3. They can contain constructors.
+```
 
 - [ ] 1, 2, and 3
 - [ ] only 3
@@ -811,7 +832,7 @@ public class Solution {
 
 #### Q55. What is the result of this code?
 
-```
+```java
   1: int a = 1;
   2: int b = 0;
   3: int c = a/b;
@@ -853,17 +874,17 @@ public class Solution {
 
 #### Q60. Use the magic power to cast a spell
 
-```
-  public class MagicPower {
+```java
+public class MagicPower {
     void castSpell(String spell) {}
-  }
+}
 ```
 
-- [x] new MagicPower().castSpell("expecto patronum")
-- [ ] MagicPower magicPower = new MagicPower();
-      magicPower.castSpell();
-- [ ] MagicPower.castSpell("expelliarmus");
-- [ ] new MagicPower.castSpell();
+- [x] `new MagicPower().castSpell("expecto patronum")`
+- [ ] `MagicPower magicPower = new MagicPower();`
+      `magicPower.castSpell();`
+- [ ] `MagicPower.castSpell("expelliarmus");`
+- [ ] `new MagicPower.castSpell();`
 
 #### Q61. What language construct serves as a blueprint containing an object's properties and functionality?
 
@@ -874,38 +895,37 @@ public class Solution {
 
 #### Q62. What does this code print?
 
-```
+```java
 public static void main(String[] args) {
-        int x=5,y=10;
-        swapsies(x,y);
-        System.out.println(x+"="+y);
-    }
+    int x=5,y=10;
+    swapsies(x,y);
+    System.out.println(x+"="+y);
+}
 
-     static void swapsies(int a, int b) {
-        int temp=a;
-        a=b;
-        b=temp;
-    }
+static void swapsies(int a, int b) {
+    int temp=a;
+    a=b;
+    b=temp;
+}
 ```
 
-- [ ] 10 10
-- [x] 5 10
-- [ ] 10 5
-- [ ] 5 5
+- [ ] 10=10
+- [x] 5=10
+- [ ] 10=5
+- [ ] 5=5
 
 #### Q63. What is the result of this code?
 
-```
- try {
-            System.out.println("Hello World");
-        } catch (Exception e) {
-            System.out.println("e");
-        }
-        catch (ArithmeticException e) {
-            System.out.println("e");
-        }finally {
-            System.out.println("!");
-        }
+```java
+try {
+    System.out.println("Hello World");
+} catch (Exception e) {
+    System.out.println("e");
+} catch (ArithmeticException e) {
+    System.out.println("e");
+} finally {
+    System.out.println("!");
+}
 ```
 
 - [ ] Hello World
@@ -922,16 +942,51 @@ public static void main(String[] args) {
 
 #### Q65. Which operator would you use to find the remainder after division?
 
-- [x] %
-      [reference](http://www.cs.ukzn.ac.za/~hughm/java/intro/week2/21.html)
-- [ ] //
-- [ ] /
-- [ ] DIV
+- [x] `%`
+- [ ] `//`
+- [ ] `/`
+- [ ] `DIV`
 
+[Reference](http://www.cs.ukzn.ac.za/~hughm/java/intro/week2/21.html)
 #### Q66. Which choice is a disadvantage of inheritance?
 
 - [ ] Overridden methods of the parent class cannot be reused.
 - [ ] Responsibilities are not evenly distributed between parent and child classes.
 - [x] Classes related by inheritance are tightly coupled to each other.
-	[reference](http://erpbasic.blogspot.com/2012/01/inheritance-advantages-and.html#:~:text=Main%20disadvantage%20of%20using%20inheritance,used%20independent%20of%20each%20other.&text=4.,case%20of%20using%20that%20method.)
 - [ ] The internal state of the parent class is accessible to its children.
+
+[Reference](http://erpbasic.blogspot.com/2012/01/inheritance-advantages-and.html#:~:text=Main%20disadvantage%20of%20using%20inheritance,used%20independent%20of%20each%20other.&text=4.,case%20of%20using%20that%20method.)
+
+#### Q67. Declare and initialize an array of 10 ints.
+
+- [ ] `Array<Integer> numbers = new Array<Integer>(10);`
+- [ ] `Array[int] numbers = new Array[int](10);`
+- [x] `int[] numbers = new int[10];`
+- [ ] `int numbers[] = int[10];`
+
+#### Q68. Refactor this event handler to a lambda expression:
+
+```java
+groucyButton.addActionListener(new ActionListener() {
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        System.out.println("Press me one more time..");
+    }
+});
+```
+
+- [ ] `groucyButton.addActionListener(ActionListener listener -> System.out.println("Press me one more time..."));`
+- [x] `groucyButton.addActionListener((event) -> System.out.println("Press me one more time..."));`
+- [ ] `groucyButton.addActionListener(new ActionListener(ActionEvent e) {() -> System.out.println("Press me one more time...");});`
+- [ ] `groucyButton.addActionListener(() -> System.out.println("Press me one more time..."));`
+
+[Reference](https://www.codejava.net/java-core/the-java-language/java-8-lambda-listener-example)
+
+#### Q69. Which functional interfaces does Java provide to serve as data types for lambda expressions?
+
+- [ ] Observer, Observable
+- [ ] Collector, Builder
+- [ ] Filter, Map, Reduce
+- [x] Consumer, Predicate, Supplier
+
+[Reference](https://www.baeldung.com/java-8-functional-interfaces)
