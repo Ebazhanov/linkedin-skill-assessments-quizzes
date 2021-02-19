@@ -169,7 +169,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Zer07793"><img src="https://avatars3.githubusercontent.com/u/68774399?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zer07793</b></sub></a><br /><a href="#design-Zer07793" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/cheungdzinyung"><img src="https://avatars1.githubusercontent.com/u/24264186?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrew Cheung</b></sub></a><br /><a href="#design-cheungdzinyung" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/sadhac"><img src="https://avatars2.githubusercontent.com/u/35103750?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sadha</b></sub></a><br /><a href="#design-sadhac" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/tainenko"><img src="https://avatars0.githubusercontent.com/u/31752048?v=4?s=100" width="100px;" alt=""/><br /><sub><b>tainenko</b></sub></a><br /><a href="#design-tainenko" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/tainenko"><img src="https://avatars0.githubusercontent.com/u/31752048?v=4?s=100" width="100px;" alt=""/><br /><sub><b>tainenko</b></sub></a><br /><a href="#design-tainenko" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=tainenko" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/github-star-coder"><img src="https://avatars2.githubusercontent.com/u/68719147?v=4?s=100" width="100px;" alt=""/><br /><sub><b>github-star-coder</b></sub></a><br /><a href="#design-github-star-coder" title="Design">🎨</a></td>
   </tr>
   <tr>
