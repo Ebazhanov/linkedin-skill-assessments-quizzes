@@ -413,3 +413,9 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [x] A, C, D
 
 [Reference](https://support.microsoft.com/en-us/office/coauthor-documents-anywhere-ed0cf685-f619-4d54-9c42-a61c8795c87f)
+
+#### Q58. When you insert a picture into a document, what happens to the picture?
+- [ ] Word stretches the photo to fill the page.
+- [ ] Word scales the image to the largest size possible to fit within the height or width of the page.
+- [ ] Word converts the photo's file format.
+- [ ] Word analyzes and corrects the image for tone and color.
