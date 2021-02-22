@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-266-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-267-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
@@ -450,6 +450,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://sapkarian.dev"><img src="https://avatars.githubusercontent.com/u/51930811?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stefanos Apkarian</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Stefanosapk" title="Code">💻</a> <a href="#design-Stefanosapk" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/albayrakayhan"><img src="https://avatars.githubusercontent.com/u/53487182?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ayhan Albayrak</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=albayrakayhan" title="Code">💻</a> <a href="#design-albayrakayhan" title="Design">🎨</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/kidus-tekeste-713261a7/"><img src="https://avatars.githubusercontent.com/u/18373774?v=4?s=100" width="100px;" alt=""/><br /><sub><b>KidusMT</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=KidusMT" title="Code">💻</a> <a href="#design-KidusMT" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/hectormarroquin20"><img src="https://avatars.githubusercontent.com/u/73187722?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hectormarroquin20</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=hectormarroquin20" title="Code">💻</a> <a href="#design-hectormarroquin20" title="Design">🎨</a></td>
   </tr>
 </table>
 
