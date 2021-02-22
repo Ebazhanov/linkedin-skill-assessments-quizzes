@@ -15,7 +15,7 @@
 | [Agile Methodologies](agile-methodologies/agile-methodologies-quiz.md)       | => 76 questions | => 76 answers | |
 | [Android](android/android-quiz.md)                                           | => 44 questions | => 40 answers | |
 | [AngularJs](angularjs/angularjs-quiz.md)                                     | => 15 questions | => 2 answers  | |
-| [AWS](aws/aws-quiz.md)                                                       | => 28 questions | => 26 answers | |
+| [AWS](aws/aws-quiz.md)                                                       | => 38 questions | => 36 answers | |
 | [AWS-Lambda](aws-lambda/aws-lambda-quiz.md) :fire:                           | => 44 questions | => 44 answers | |
 | [Bash](bash/bash-quiz.md)                                                    | => 53 questions | => 53 answers | |
 | [C#](c%23/c-sharp-quiz.md)                                                   | => 48 questions | => 47 answers | |
