@@ -274,3 +274,9 @@ fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) thro
 - [ ] util
 - [x] cluster
 - [ ] net
+
+### Q42. Which core Node module has wrappers for OpenSSL methods?
+- [ ] SSL
+- [ ] hash
+- [ ] crypto
+- [ ] TLS
