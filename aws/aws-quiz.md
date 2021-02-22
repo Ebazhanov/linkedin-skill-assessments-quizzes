@@ -190,3 +190,74 @@ Elastic IP addresses and allow all inbound HTTPS traffic.
 - [ ] bucketpolicy1 allows any user coming from the IP range of 68.249.108.0 to access objects in the userreports bucket and denies access to 68.249.108.128.
 - [ ] bucketpolicy1 allows any user to perform any action on the objects in the userreports bucket - except anyone coming from the IP of 68.249.108.128.
 - [x] bucketpolicy1 allows any user coming from the IP range of 68.249.108.0 to 68.249.108.255 to access objects in the userreports bucket-except anyone coming from the IP of 68.249.108.128.
+
+#### Q29. A new developer has been added to the team and you have been asked to provide access to the organization's AWS account. What is the best practice for granting access?
+- [ ] Give the new developer the IAM login that is assigned to the development team. This IAM user should already include all of the policies that a developer would need.
+- [ ] Create a IAM user for the new developer. Manually assign policies to the new IAM user account.
+- [ ] Do not give the new developer access to the AWS console. Using the IAM user that is assigned to the development goup, generate a new set of access keys and label these with the name of the developer.
+- [x] Create a IAM user for the new developer. Assign the new developer the a developer group you already created for the other developers.
+
+#### Q30. When launching an EC2 instance with an instance type that supports instance storage, what use case is best for instance storage?
+- [ ] Use the instance storage to serve temporary files that require low I/O latency.
+- [ ] Use the instance storage to handle files uploaded by your users. Since it is more secure than an EBS volume, you can isolate any malicious files from infecting your server.
+- [x] Instance storage is faster than EBS volumes, so install the root of the operating system on this volume to speed up server performance.
+- [ ] Instance storage is a deprecated option for storage and should not be used.
+
+#### Q31. What's the best practice for horizontally scaling a legace ASP.NET web application that relies on Active Directory and is currently deployed to a single Windows EC2 instance?
+- [ ] Use Sysprep to shut down the instance during a maintenance window. Create an AMI image and place both servers behind Application Load Balancer with sticky sessions.
+- [ ] Launch a new EC2 with the latest version of Windows Server and install the application again. Use Application Load Balancer and sticky sessions to balance between both servers.
+- [x] Create a clone of the server using an AMI image and user Application Load Balancer to balance the traffic between both instances using sticky sessions.
+- [ ] Horizontal scaling is not the best practice in this situation. Increase the size of the existing EC2 instance and vertically scale the application.
+
+#### Q32. What does this small section of a CloudFormation template do?
+```yaml
+FlowLog:
+        Type: AWS::EC2::FlowLog
+        Properties:
+                DeliverLogsPermissionArn: !GetAtt IamRole.Arn
+                LogGroupName: FlowLogsGroup
+                ResourceId: !Ref LogVpcId
+                ResourceType: VPC
+                TrafficType: ALL
+```
+- [x] It writes the VPC network flow logs to the CloudWatch FlowLogsGroup log group. You could use this to inspect the network connections of your VPC.
+- [ ] It logs all of the network traffic within a VPC except Instance IDs defined by LogVpcID and logs it to the CloudWatch FlowLogsGroup log group.
+- [ ] It logs all the network traffic going to and from a single EC2 instance into the CloudWatch FlowLogsGroup log group. You could use this to inspect suspicious network traffic coming into an EC2 instance.
+- [ ] It logs all of the DNS requests made by resources within a VPC and logs them to the CloudWatch FlowLogsGroup. Use this to diagnose DNS lookup errors within your environment.
+
+
+#### Q33. You are running Docker containers on ECS. What is the most important metric to monitor?
+- [ ] The running container count for each service from within CloudWatch.
+- [ ] The instance health of each EC2 instance in your cluster from within CloudWatch.
+- [ ] Monitor the EC2 service dashboard. Watch for posted outages to the ECS service.
+- [x] The memory consumption of each EC2 instance in your cluster from within CloudWatch.
+
+#### Q34. Application Load Balancer can route traffic to several different target groups based upon several conditions. Which of these use cases is not supported by Application Load Balancer?
+- [ ] A resuest with a HTTP header of X-Requested-With: staging can be routed to a target group for an ECS service in your staging environment.
+- [ ] Source IPs matching 192.0.2.0/24 on a listener port of 1433 can be routed to a target group for an RDS for SQL Server cluster.
+- [ ] A path of /signup* can be routed to a target group for a Lambda function that processes new user registrations.
+- [x] An Http POST query string of ? action=createuser can be routed to a target group for an ECS service.
+
+#### Q35. What does a VPC do?
+- [ ] creates a cloud-based network to interconnect a set of virtual servers and appliances
+- [ ] creates a secure tunnel between two networks
+- [ ] creates a shared storage plane for application data to be shared across multiple instances.
+- [x] creates a private network that is completely isolated from the public internet.
+
+#### Q36. Can you lose the public IP address associated with your EC2 instance?
+- [ ] Yes, you can lose it if you reboot the instance.
+- [x] Yes, you can lose it if you stop and start the instance.
+- [ ] No, you will never lose the public IP address for your instance.
+- [ ] Yes, you can lose it when you edit the instance properties and release the IP address.
+
+#### Q37. Where is the best place to store database backups on an EC2 instance that is configured as a database server?
+- [ ] an S3 bucket, synced with the database backups via a script that calls the AWS CLI
+- [ ] EBS volume attached to the instance
+- [ ] instance attached to the instance
+- [x] instance storage, with a script that replicates the database backups to another instance in a different availability zone.
+
+#### Q38. Which of these is a valid restriction on the properties of a VPC?
+- [ ] You can have only 10 internet gateways per region on a new AWS account.
+- [ ] You can have only 10 VPCs per region on a new AWS account
+- [x] You cannot create a CIDR block with a netmask larger than /16
+- [ ] YOu can have only 10 subnets within a VPC
