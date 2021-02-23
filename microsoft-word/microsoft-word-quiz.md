@@ -397,3 +397,25 @@ Each Word document can be saved as a Web Page.
 - [ ] You can restrict access to each section individually.
 
 [Reference](https://support.microsoft.com/en-us/office/insert-delete-or-change-a-section-break-0eeae2d6-b906-42d3-a1bd-7e77ca8ea1f3)
+
+#### Q57. How can you tell if a colleague is coauthoring a document at the same time as you? (Select all that apply.)
+
+```markdown
+A. Colleague's name appears in the Share panel.
+B. Colleague's picture appears in the upper-right corner of the ribbon.
+C. A banner notification pops up as the colleague edits the document.
+D. A flag icon with the colleague's name appears where their edit is being made.
+```
+
+- [ ] A, B, C
+- [ ] B, C, D
+- [ ] A, B, D
+- [x] A, C, D
+
+[Reference](https://support.microsoft.com/en-us/office/coauthor-documents-anywhere-ed0cf685-f619-4d54-9c42-a61c8795c87f)
+
+#### Q58. When you insert a picture into a document, what happens to the picture?
+- [ ] Word stretches the photo to fill the page.
+- [ ] Word scales the image to the largest size possible to fit within the height or width of the page.
+- [ ] Word converts the photo's file format.
+- [ ] Word analyzes and corrects the image for tone and color.
