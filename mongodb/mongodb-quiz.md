@@ -7,7 +7,7 @@
 - [ ] rs.insert("<hostname>")
 - [ ] replica.add("<hostname>")
 
-#### Q2. Which MongoDB shell command should you use to back up a database?
+#### Q2. Which MongoDB shell command should you use to back up a database? Repited with Q48
 
 - [ ] restore
 - [ ] backup
@@ -332,16 +332,16 @@
 #### Q48. Which command returns all of the documents in the customers collection?
 
 - [ ] db.customers.show();
-- [x] db.customers.all();
-- [ ] db.customers.find();
+- [ ] db.customers.all(); <-Not Exist
+- [X] db.customers.find();
 - [ ] db.find().customers();
 
 #### Q49. Whih MongoDB shell command deletes a single document?
 
 - [ ] db.customers.delete({\_id: 1});
-- [x] db.customers.drop({\_id: 1});
+- [ ] db.customers.drop({\_id: 1}); <-drop is for delete collections or db
 - [ ] db.drop.customers({\_id: 1});
-- [ ] db.customers.remove({\_id: 1});
+- [x] db.customers.remove({\_id: 1});
 
 #### Q50. Using the MongoDB shell, how do you remove the customer collection and its indexes?
 
@@ -367,8 +367,8 @@
 #### Q52. You are going to do a series of updates to multiple records. You find setting the multi option of the update() command too tiresome. What should you do instead?
 
 - [ ] Use the replaceMany() command instead
-- [x] Use the updateMulti() command instead
-- [ ] Use the updateMany command instead
+- [ ] Use the updateMulti() command instead <- Not exits
+- [x] Use the updateMany command instead
 - [ ] Set the global multi option to True
 
 #### Q53. To cleanly shut down MongoDB, what command should you use from the MongoDB shell?

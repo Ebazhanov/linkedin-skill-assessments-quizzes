@@ -214,11 +214,11 @@
 
 #### Q34. What does the code shown below demonstrate, and why?
 
-    <pre><code>
-        static void Multiply(int num1, int num2) {};
-        static void Multiply(double num1, double num2, double num3) {};
-        static void Multiply(float num1, float num2) {};
-    </code></pre>
+```
+   static void Multiply(int num1, int num2) {};
+   static void Multiply(double num1, double num2, double num3) {};
+   static void Multiply(float num1, float num2) {};
+```
 
  - [ ] polymorphism, because each method can perform different task
  - [ ] method overriding, because it display the same method name, different or same parameters, and same return type
