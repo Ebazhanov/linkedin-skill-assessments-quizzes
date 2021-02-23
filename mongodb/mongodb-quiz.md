@@ -2,12 +2,12 @@
 
 #### Q1. Which command adds members to the replica set from MongoDB shell?
 
-- [x] rs.add("<hostname>")
-- [ ] replicaSetAdd("<hostname>")
-- [ ] rs.insert("<hostname>")
-- [ ] replica.add("<hostname>")
+- [x] `rs.add("<hostname>")`
+- [ ] `replicaSetAdd("<hostname>")`
+- [ ] `rs.insert("<hostname>")`
+- [ ] `replica.add("<hostname>")`
 
-#### Q2. Which MongoDB shell command should you use to back up a database? Repited with Q48
+#### Q2. Which MongoDB shell command should you use to back up a database?
 
 - [ ] restore
 - [ ] backup
@@ -16,10 +16,10 @@
 
 #### Q3. Which shell query displays all citizens with an age greater than or equal to 21?
 
-- [ ] db.citizens.select('WHERE age >= 21')
-- [ ] db.citizens.select('age >= 21')
-- [ ] db.citizens.select('WHERE age >= 21')
-- [x] db.citizens.select({age: {\$gte: 21}})
+- [ ] `db.citizens.select('WHERE age >= 21')`
+- [ ] `db.citizens.where('age >= 21')`
+- [ ] `db.citizens.find('WHERE age >= 21')`
+- [x] `db.citizens.find({age: {$gte: 21}})`
 
 #### Q4. What does a MongoDB collection consist of?
 
@@ -107,10 +107,10 @@
 
 #### Q16. You would like to know how many types of items you have in each category. Which query does this?
 
-- [ ] db.product.group({\_id: "$category", count: {$sum:1}})
-- [ ] db.product.aggregate($sum: {_id: "$category", count: {\$group:1}}})
-- [x] db.product.aggregate($group: {_id: "$category", count: {\$sum:1}}})
-- [ ] db.product.aggregate($count: {_id: "$category", count: {\$group:1}}})
+- [ ] `db.product.group({_id: "$category", count: {$sum:1}})`
+- [ ] `db.product.aggregate($sum: {_id: "$category", count: {$group:1}})`
+- [x] `db.product.aggregate($group: {_id: "$category", count: {$sum:1}})`
+- [ ] `db.product.aggregate($count: {_id: "$category", count: {$group:1}})`
 
 #### Q17. To restrict the number of records coming back from a query, which command should you use?
 
@@ -121,50 +121,50 @@
 
 #### Q18. We have a collection named restaurants with the geographical information stored in the location property, how do you create a geospatial index on it?
 
-- [x] db.restaurants.CreateIndex({location: "2dsphere"})
-- [ ] db.restaurants.geospatial({location: "2dsphere"})
-- [ ] db.restaurants.CreateIndex("2dsphere":"location")
-- [ ] db.restaurants.CreateIndex({geospatial: "location"})
+- [x] `db.restaurants.CreateIndex({location: "2dsphere"})`
+- [ ] `db.restaurants.geospatial({location: "2dsphere"})`
+- [ ] `db.restaurants.CreateIndex("2dsphere":"location")`
+- [ ] `db.restaurants.CreateIndex({geospatial: "location"})`
 
 #### Q19. How do you find documents with a matching item in an embedded array?
 
-- [ ] `**db.customers.findmatch ({"jobs":"secretary"})**`
-- [ ] `**db.customers.find ({"jobs:secretary"})**`
-- [ ] `**db.customers.find ({"jobs":["secretary"]})**`
-- [x] `**db.customers.find ({"jobs":"secretary"})**`
+- [ ] `db.customers.findmatch ({"jobs":"secretary"})`
+- [ ] `db.customers.find ({"jobs:secretary"})`
+- [ ] `db.customers.find ({"jobs":["secretary"]})`
+- [x] `db.customers.find ({"jobs":"secretary"})`
 
 #### Q20. Which query bypasses the first 5 customers and returns the next 10?
 
-- [ ] `**db.customers.find({}, {skip: 5, limit: 10})**`
-- [ ] `**db.customers.find({}.page(5).take(10))**`
-- [ ] `**db.customers.find({}).skip(5).take(10)**`
-- [x] `**db.customers.find({}).skip(5).limit(10)**`
+- [ ] `db.customers.find({}, {skip: 5, limit: 10})`
+- [ ] `db.customers.find({}.page(5).take(10))`
+- [ ] `db.customers.find({}).skip(5).take(10)`
+- [x] `db.customers.find({}).skip(5).limit(10)`
 
 #### Q21. How do you create a text index?
 
-- [ ] db.customers.createIndex({firstName, lastName})
-- [ ] db.customers.createTextIndex({firstName, lastName})
-- [x] db.customers.createIndex({firstName: "text", lastName: "text"})
-- [ ] db.customers.createText({firstName: 1, lastName: 1})
+- [ ] `db.customers.createIndex({firstName, lastName})`
+- [ ] `db.customers.createTextIndex({firstName, lastName})`
+- [x] `db.customers.createIndex({firstName: "text", lastName: "text"})`
+- [ ] `db.customers.createText({firstName: 1, lastName: 1})`
 
 #### Q22. Assuming you have customers collection with a firstName and lastName field, which is the correct MongoDB shell command to create an index on lastName, then firstName both ascending?
 
-- [ ] db.customers.createIndex("lastName, firstName, ASC")
-- [ ] db.customers.addIndex({lastName:"ASC", firstName: "ASC"})
-- [ ] db.customers.newIndex({lastName:1, firstName:1})
-- [x] db.customers.createIndex({lastName:1, firstName: 1})
+- [ ] `db.customers.createIndex("lastName, firstName, ASC")`
+- [ ] `db.customers.addIndex({lastName:"ASC", firstName: "ASC"})`
+- [ ] `db.customers.newIndex({lastName:1, firstName:1})`
+- [x] `db.customers.createIndex({lastName:1, firstName: 1})`
 
-#### Q23. One of the documents in your collection has an _ id based upon an older database design and you want to change it. You write an update command to find the document and replace the _ id but the \_ id isnt changed. How should you fix the issue?
+#### Q23. One of the documents in your collection has an \_id based upon an older database design and you want to change it. You write an update command to find the document and replace the \_id but the \_id isn't changed. How should you fix the issue?
 
 - [ ] Set the replace option to true.
 - [ ] Use the replaceOne() command instead.
-- [x] You cant. Once set the \_ id field cannot be changed.
+- [x] You can't. Once set, the \_id field cannot be changed.
 - [ ] Use the updateOne() command instead.
 
 #### Q24. A compound index allows you to \_\_\_ ?
 
 - [ ] Calculate interest quickly.
-- [ ] Accomplish nothing, since compound indexes arent allowed in Mongo.
+- [ ] Accomplish nothing, since compound indexes aren't allowed in Mongo.
 - [ ] Use more than one field per index.
 - [x] Combine fields in different collations.
 
@@ -184,17 +184,17 @@
 
 #### Q27. Which command returns all of the documents in the customers collection?
 
-- [ ] `**db.customers.all()**`
-- [ ] `**db.find().customers();**`
-- [x] `**db.customers.find();**`
-- [ ] `**db.customers.show()**`
+- [ ] `db.customers.all();`
+- [ ] `db.find().customers();`
+- [x] `db.customers.find();`
+- [ ] `db.customers.show();`
 
 #### Q28. Given a cursor named myCursor, pointing to the customers collection, how to you get basic info about it?
 
-- [ ] myCursor.stats()
-- [ ] myCursor.dump()
-- [ ] myCursor.info()
-- [x] myCursor.explain()
+- [ ] `myCursor.stats()`
+- [ ] `myCursor.dump()`
+- [ ] `myCursor.info()`
+- [x] `myCursor.explain()`
 
 #### Q29. What is true about indexes?
 
@@ -210,7 +210,7 @@
 - [x] GeoJSON
 - [ ] BSON
 
-#### Q31. Which programming language is used to write MongoDB queries?
+#### Q31. Which programming language is used to write MongoDB queries? (*Alternative*: In the MongoDB shell, what programming language is used to make queries?)
 
 - [ ] Python
 - [x] JavaScript
@@ -235,13 +235,13 @@
 
 - [ ] access the database
 - [ ] be called only when the key has a single value
-- [ ] acces the database only to perform read operations
+- [ ] access the database only to perform read operations
 - [x] not access the data
 
 #### Q35. On a newly created collection, which field will have an index?
 
 - [ ] the name field
-- [ ] the Objectid field
+- [ ] the ObjectId field
 - [x] the \_id field
 - [ ] no field will have an index
 
@@ -282,105 +282,140 @@
 
 #### Q41. From the MongoDB shell, how do you create a new document in the customers collection?
 
-- [ ] `**db.customers.add({name: "Bob"})**`
-- [ ] `**db.customers.save({name: "Bob"})**`
-- [x] `**db.customers.create({name: "Bob"})**`
-- [ ] `**db.customers.new({name: "Bob"})**`
+- [ ] `db.customers.add({name: "Bob"})`
+- [ ] `db.customers.save({name: "Bob"})`
+- [x] `db.customers.create({name: "Bob"})`
+- [ ] `db.customers.new({name: "Bob"})`
 
 #### Q42. Which field is required of all MongoDB documents?
 
 - [x] \_id
 - [ ] \_name
-- [ ] objectId
+- [ ] ObjectId
 - [ ] mongoDB is schema-less so no field is required
 
-#### Q43. Which MongoDB shell command should you use to back up a database?
+#### Q43. A MongoDB instance has at least what three files?
 
-- [ ] backup
-- [ ] restore
-- [ ] mongobackup
-- [x] mongodump
-
-#### Q44. Which shell query displays all citizens with an age greater than or equal to 21?
-
-- [ ] `**db.citizens.find('WHERE age >= 21')**`
-- [x] `**db.citizens.find({age: {\$gte: 21}})**`
-- [ ] `**db.citizens.where('age >= 21')**`
-- [ ] `**dbcitizens.select('WHERE age >=21')**`
-
-#### Q45. A MongoDB instance has at least what three files?
-
-- [x] data, namespcae, and journal
+- [x] data, namespace, and journal
 - [ ] namespace, journal, and log
 - [ ] journal, data, and database
 - [ ] data, log, and journal
 
-#### Q46. You'd like a set of documents to be returned in last name, ascending order. Which query will accomplish this?
+#### Q44. You'd like a set of documents to be returned in last name, ascending order. Which query will accomplish this?
 
 - [ ] `db.persons.find().sort({lastName: -1}}`
 - [x] `db.persons.find().sort({lastName: 1}}`
 - [ ] `db.persons.find().sort({lastName: ascending}}`
 - [ ] `db.persons.find().sort({lastName: $asc}}`
 
-#### Q47. What is NOT a standard role in MongoDB?
+#### Q45. What is NOT a standard role in MongoDB?
 
 - [ ] restore
 - [ ] read/write
 - [x] dbadmin
 - [ ] delete collections
 
-#### Q48. Which command returns all of the documents in the customers collection?
+#### Q46. Which MongoDB shell command deletes a single document?
 
-- [ ] db.customers.show();
-- [ ] db.customers.all(); <-Not Exist
-- [X] db.customers.find();
-- [ ] db.find().customers();
+- [ ] `db.customers.delete({_id: 1});`
+- [ ] `db.customers.drop({_id: 1});`
+- [ ] `db.drop.customers({_id: 1});`
+- [x] `db.customers.remove({_id: 1});`
 
-#### Q49. Whih MongoDB shell command deletes a single document?
+#### Q47. Using the MongoDB shell, how do you remove the customer collection and its indexes?
 
-- [ ] db.customers.delete({\_id: 1});
-- [ ] db.customers.drop({\_id: 1}); <-drop is for delete collections or db
-- [ ] db.drop.customers({\_id: 1});
-- [x] db.customers.remove({\_id: 1});
+- [ ] `db.customers.remove({}).indexes();`
+- [ ] `db.customers.remove({});`
+- [x] `db.customers.drop();`
+- [ ] `db.customers.delete();`
 
-#### Q50. Using the MongoDB shell, how do you remove the customer collection and its indexes?
-
-- [ ] db.customers.remove({}).indexes();
-- [ ] db.customers.remove({});
-- [x] db.customers.drop();
-- [ ] db.customers.delete();
-
-#### Q51. By default, applications direct their read operations to which member of the replica set?
+#### Q48. By default, applications direct their read operations to which member of the replica set?
 
 - [ ] primary
 - [x] arbiter
 - [ ] secondary
 - [ ] backup
 
-#### Q52. You need to get the names of all the indexes on your current collection. What is the best way to accomplish this?
+#### Q49. You need to get the names of all the indexes on your current collection. What is the best way to accomplish this?
 
-- [ ] db.people.getName();
-- [ ] db.people.reIndex({names: 1});
-- [x] db.people.getIndexKeys();
-- [ ] db.people.getIndex();
+- [ ] `db.people.getName();`
+- [ ] `db.people.reIndex({names: 1});`
+- [x] `db.people.getIndexKeys();`
+- [ ] `db.people.getIndexes();`
 
-#### Q52. You are going to do a series of updates to multiple records. You find setting the multi option of the update() command too tiresome. What should you do instead?
+#### Q50. You are going to do a series of updates to multiple records. You find setting the multi option of the update() command too tiresome. What should you do instead?
 
 - [ ] Use the replaceMany() command instead
-- [ ] Use the updateMulti() command instead <- Not exits
-- [x] Use the updateMany command instead
+- [ ] Use the updateMulti() command instead
+- [x] Use the updateMany() command instead
 - [ ] Set the global multi option to True
 
-#### Q53. To cleanly shut down MongoDB, what command should you use from the MongoDB shell?
+#### Q51. To cleanly shut down MongoDB, what command should you use from the MongoDB shell?
 
 - [ ] quit()
 - [ ] exit()
 - [x] db.shutdownServer()
 - [ ] db.shutdown()
 
-#### Q54. Given a customer collection which includes fields for gender and city, which aggregate pipeline shows the number of female customers in each city?
+#### Q52. Given a customer collection which includes fields for gender and city, which aggregate pipeline shows the number of female customers in each city? (*Alternative*: How can you view the execution performance statistics for a query?)
 
 - [x] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number: {$sum: 1}}}, {$sort :{number: -1}}])`
 - [ ] `db.members.find({$match: {gender: "Female"}}, {$group: {\_id: {city: "$city"}, number: {$sum: 1}}}.$sort ({number: -1})`
 - [ ] `db.members.find([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number: {$sum: 1}}}, {$sort :{number: -1}}])`
 - [ ] `db.members.aggregate([ {$match: {gender: "Female"}}, {$sort :{number: -1}}])`
+
+#### Q53. When no parameters are passed to `explain()`, what mode does it run in?
+
+- [ ] wireTiger mode
+- [ ] executionStats mode
+- [ ] queryPlanner mode
+- [ ] allPlansExecution mode
+
+#### Q54. What is the correct query to find all of the people who have a home phone number defined?
+
+- [ ] `db.person.find({exists: 'homePhone'});`
+- [ ] `db.person.exists({homePhone: true});`
+- [ ] `db.person.find({homePhone: {$exists: true}});`
+- [ ] `db.person.has('homePhone');`
+
+#### Q55. Which file in the MongoDB directly holds the MongoDB daemon?
+
+- [ ] mongodb
+- [ ] mongo-daemon
+- [ ] daemon
+- [ ] mongod
+
+#### Q56. You have just secured your previously unsecured MongoDB server, but the server is still not requiring authentication. What is the best option?
+
+- [ ] Restart the `mongod` process.
+- [ ] Issue the `secure()` command.
+- [ ] Issue the `mongoimport` command.
+- [ ] Issue the `authenticate()` command.
+
+#### Q57. What is the most accurate statement regarding MongoDB and ad hoc queries?
+
+- [ ] MongoDB does not allow ad hoc queries; all queries require an index.
+- [ ] Ad hoc queries are allowed only in the paid version.
+- [ ] Ad hoc queries are allowed only through the ad hoc command.
+- [ ] MongoDB allows ad hoc queries.
+
+#### Q58. In MongoDB, what does a projection do?
+
+- [ ] allows you to do a calculation on the results
+- [ ] allows you to run queries on the server
+- [ ] allows you to select which fields should be in the return data
+- [ ] allows you to format the results for a display
+
+#### Q59. To remove a database and all of its records from MongoDB, what operator should you use?
+
+- [ ] `dropDatabase()`
+- [ ] `removeAll()`
+- [ ] `clear()`
+- [ ] `deleteDatabase()`
+
+#### Q60. What option can be passed to start the MongoDB shell without connecting to a database?
+
+- [ ] `-db=null`
+- [ ] `--shell-only`
+- [ ] `--free`
+- [ ] `-nodb`
