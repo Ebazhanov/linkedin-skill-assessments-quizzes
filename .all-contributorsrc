@@ -2592,6 +2592,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "mihai-db",
+      "name": "MihaiD",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23072513?v=4",
+      "profile": "https://github.com/mihai-db",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
