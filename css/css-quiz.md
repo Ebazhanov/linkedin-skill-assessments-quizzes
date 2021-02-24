@@ -57,7 +57,7 @@ They all target the same nav element.
 - [x] Opacity specifies the level of transparency of an element, including its content. Background with an `rgba()` value applies transparency to the background color only.
 - [ ] Opacity applies transparency to the parent and child elements. Background with an `rgba()` value specifies the level of transparency of the parent element only.
 
-#### Q6. What is true of block and inline elements?
+#### Q6. What is true of block and inline elements? (_Alternative_: Which statement about block and inline elements is true?)
 - [ ] By default, block elements are the same height and width as the content container between their tags; inline elements span the entire width of its container.
 - [x] By default, block elements span the entire width of its container; inline elements are the same height and width as the content contained between their tags.
 - [ ] A `<nav>` element is an example of an inline element. `<header>` is an example of a block element.
@@ -173,7 +173,7 @@ line-height: 2
 - [ ] The value of 20px will set the line-height to 20px. The value of 2 will default to a value of 2px.
 - [ ] The value of 20px will set the line-height to 20px. The value of 2 will set the line-height to 20% of the corresponding font-size value.
 
-#### Q15. In the following example, what color will paragraph one and paragraph two be?
+#### Q15. In the following example, what color will paragraph one and paragraph two be? (_Alternative_: In this example, what color will paragraphs one and two be?)
 ```html
 <section>
   <p>paragraph one</p>
@@ -221,7 +221,7 @@ section + p {
 3. Internal; CSS is included within the <head> element of the HTML file.
 ```
 
-#### Q17. Which of the following is true of the SVG image format?
+#### Q17. Which of the following is true of the SVG image format? (_Alternative_: Which statement about the SVG image format is true?)
 - [ ] CSS can be applied to SVGs but JavaScript cannot be.
 - [ ] SVGs work best for creating 3D graphics.
 - [x] SVGs can be created as a vector graphic or coded using SVG specific elements such as &#x3C;svg&#x3E;, &#x3C;line&#x3E;, and &#x3C;ellipse&#x3E;.
