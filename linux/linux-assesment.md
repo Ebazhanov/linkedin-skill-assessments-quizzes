@@ -7,14 +7,12 @@
 - [ ] ls -l
 - [x] blkid
 
-
 #### Q2. Linux file access control lists (ACLs) are **\_**.
 
 - [x] discretionary access control system permissions layered over standard Linux permissions
 - [ ] mandatory access control system permissions layered over standard Linux permissions
 - [ ] a type of firewall for Linux
 - [ ] the same as standard Linux permissions
-
 
 #### Q3. When using iproute2, how do you show routing information for an IPv6 network?
 
@@ -25,21 +23,6 @@
 
 #### Q4. What does this command string do?
 
-
-- [ ] mandatory access control system permissions layered over standard Linux permissions
-- [ ] a type of firewall for Linux
-- [ ] the same as standard Linux permissions
-
-
-
-3)When using iproute2, how do you show routing information for an IPv6 network?
-
-- [ ] route -ipv6
-- [ ] route
-- [x] ip -6 route show
-- [ ] ip route show
-
-4)What does this command string do?
 ```bash
 find / -size +10M -exec ls -l {} ;
 ```
@@ -50,10 +33,10 @@ find / -size +10M -exec ls -l {} ;
 
 #### Q5. What would this locate command show?
 ```bash
-locate --regexp '^/usr.*pixmaps.*jpg\$'
+locate --regexp '^/usr.*pixmaps.*jpg$'
 ```
 - [ ] all files in a directory named pixmaps
-- [ ] all files ending in ".jpg"all files ending in ".jpg"
+- [ ] all files ending in ".jpg"
 - [x] all file paths that start with "/usr", include the word "pixmaps", and end with ".jpg"
 - [ ] all file paths that include "/usr/pixmaps" and end with ".jpg"
 
@@ -86,14 +69,15 @@ locate --regexp '^/usr.*pixmaps.*jpg\$'
 - [ ] Save the DNS names in an SQL database and process it with dig.
 
 #### Q10. What would this command output?
+
+```
 ps -e --format uid,pid,ppid,%cpu,cmd
+```
 
 - [x] the user ID, process ID, parent process ID, CPU usage, and command name of a process
 - [ ] the user ID, group ID, parent process ID, CPU usage, and command name of a process
 - [ ] the UUID, process ID, parent process ID, CPU usage, and command name of a process
 - [ ] all of these answers
-
-
 
 #### Q11. Which command in Bash executes the last line in the shell history that starts with ls?
 
@@ -240,8 +224,7 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 - [ ] Access to a drive is faster than with standard partitions.
 - [ ] Volumes can be resized smaller without unmounting them.
 - [ ] Repairing filesystem errors is easier than with standard partitions.
-- [x] Volumes can be resized even if the free space is not contiguous. \*\*correct
-
+- [x] Volumes can be resized even if the free space is not contiguous.
 
 #### Q31. What is one major difference between brace expansion and globs?
 
