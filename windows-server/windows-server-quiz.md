@@ -9,7 +9,7 @@
 
 #### Q2. You support an IT infrastructure for an organization that has physical locations and WAN connections from the main office to each branch. You are designing a network where users at all locations have access to shared files, both online and offline. Which Windows technology is best for your design?
 - [ ] Data Deduplication
-- [x] BranchCach
+- [x] BranchCache
 - [ ] DFS Replication
 - [ ] File and Storage Services
 
@@ -25,11 +25,11 @@
 - [ ] a disk consolidation
 - [ ] a disk defragmentation
 
-#### Q5. A Windows Server 2012 R2 VM is available to use. You created an XML file that includes all the server roles and features you require for a file server. The XML tile is stored at the root ot the D: drive. What PowerShell command do you run to configure the server?
-- [ ] Install-WindowsServices -ConfigurationFilePath d:\PowerShellContig.xml
-- [ ] Install-WindowsFeature -ConfigurationFilePath d:\root\PowerShellContigFile.xml
-- [ ] Install-WindousRole -ConfigurationFilePath d:\FileServerConfig.xml
-- [x] Install-WindowsFeature -ConfigurationFiIePath d:\FileServerConfig.xml
+#### Q5. A Windows Server 2012 R2 VM is available to use. You created an XML file that includes all the server roles and features you require for a file server. The XML tile is stored at the root of the D: drive. What PowerShell command do you run to configure the server?
+- [ ] `Install-WindowsServices -ConfigurationFilePath d:\PowerShellConfig.xml`
+- [ ] `Install-WindowsFeature -ConfigurationFilePath d:\root\PowerShellConfigFile.xml`
+- [ ] `Install-WindowsRole -ConfigurationFilePath d:\FileServerConfig.xml`
+- [x] `Install-WindowsFeature -ConfigurationFiIePath d:\FileServerConfig.xml`
 
 #### Q6. When configuring a CA which role service provides a web interface for users to easily request and renew certificates?
 - [ ] Network Device Enrollment Service
@@ -50,10 +50,21 @@
 - [ ] Data Protection Manager
 
 #### Q9. You deployed a Windows Server 2012 R2 virtual machine and configured the File and Storage Services server role. Where do you begin configuring the use of Previous Versions for restoring files?
-- [ ] A ![Windows Server Q10A](images/windows-server_Q10A.jpg)
-- [ ] B ![Windows Server Q10B](images/windows-server_Q10B.jpg)
-- [ ] C ![Windows Server Q10C](images/windows-server_Q10C.jpg)
-- [x] D ![Windows Server Q10D](images/windows-server_Q10D.jpg)
+- [ ] A
+
+![Windows Server Q10A](images/windows-server_Q10A.jpg)
+
+- [ ] B
+
+![Windows Server Q10B](images/windows-server_Q10B.jpg)
+
+- [ ] C
+
+![Windows Server Q10C](images/windows-server_Q10C.jpg)
+
+- [x] D
+
+![Windows Server Q10D](images/windows-server_Q10D.jpg)
 
 #### Q10. You have installed the Remote Desktop Services role. Which remote desktop mode comes with two built-in licenses?
 - [x] RDA Administration Mode
@@ -69,15 +80,17 @@
 
 #### Q12. You've deployed a Server Core installation of Windows Server 2016. Which is NOT a way to update the server?
 - [x] Configure the server to use a WSUS server with Group Policy.
-- [ ] Run the following command: Net stop wuauserv %systmroot%\system32\Cscript scregedit.wsf /AU 4 Net start wuauserv.
-- [ ] Run the following command: Wusa <updatename>.msu /quiet.
+- [ ] Run the following command: `Net stop wuauserv %systemroot%\system32\Cscript scregedit.wsf /AU 4 Net start wuauserv`.
+- [ ] Run the following command: `Wusa <updatename>.msu /quiet`.
 - [ ] Install the WSUS server role.
 
 #### Q13. When deploying a Windows Server as a print server, which role needs to be installed?
-- [x] Print Services
+- [ ] Print Services
 - [ ] File Services
-- [ ] Print and Document Services
-- [x] Print Server
+- [x] Print and Document Services
+- [ ] Print Server
+
+[Reference](https://www.faqforge.com/windows-server-2012-r2/install-configure-print-server-windows-server-2012-r2/)
 
 #### Q14. Which type of DNS record is NOT specifically associated with an AD domain controller?
 - [ ] LDAP
@@ -103,23 +116,23 @@
 - [ ] Your domain admin account is not part of the local computer's Administrators group.
 - [ ] The DHCP server is not part of the AD domain.
 
-#### Q18. You want to verify that a DHCP server has been authorized use in Active Directory. Which cmdlet do you run in Windows PowelShell?
+#### Q18. You want to verify that a DHCP server has been authorized use in Active Directory. Which cmdlet do you run in Windows PowerShell?
 - [ ] Add-DhcpServerInDC
 - [x] Get-DhcpServerInDC
 - [ ] Get-WindowsFeature DHCP
 - [ ] Instä11-WindowsFeature DHCP
 
 #### Q19. You log in to the domain controller to manage some user and computer accounts in Active Directory (AS) and you cannot find the AD tools. To resolve this using the Add Roles and Features Wizard, which feature would you install without any unnecessary services?
-- [ ] Hypet-V Management Tools
-- [ ] Remove Server Adrriinistration Tools
-- [ ] Active Directory Rights Management Setvices
+- [ ] Hyper-V Management Tools
+- [ ] Remove Server Administration Tools
+- [ ] Active Directory Rights Management Services
 - [x] AD DS and AD LDS Tools
 
 #### Q20. You deploy Windows Server 2012 R2 server as a VPN server and must configure new firewall rules for workstation connections. Which command do you use to configure the new rules with the least amount of effort?
 - [ ] Use dism.exe from the command prompt.
 - [ ] Use dsadd.exe from the command prompt.
 - [x] Use the New-NetFirewallRule command in PowerShell.
-- [ ] use the Enable-NetFirewallRule in PowetShell.
+- [ ] use the Enable-NetFirewallRule in PowerShell.
 
 #### Q21. A basic DHCP server can provide clients with an IP address, subnet mask, default gateway, DNS IP address. and what other IP address?
 - [ ] file server
@@ -148,7 +161,7 @@
 #### Q25. You built a container image on Nano Server. The container image has multiple layers, including a custom application built for your company, and your development team pushed the image to your Azure image registry. What happens if you attempt to pull that image to a new server with previously downloaded OS images?
 - [ ] Your custom layers will be pulled from your Azure registry and you will receive an notifying you of the missing base image.
 - [x] You will receive an notifying you of the missing base image and you will not be allowed to pull the image.
-- [ ] All layers will be downloaded from yout Azure registry.
+- [ ] All layers will be downloaded from your Azure registry.
 - [ ] The base OS image layers will automatically be pulled from Microsoft's registry at Docker Hub, and your custom layers will be pulled from your Azure registry.
 
 #### Q26. You need to configure your DHCP server to deny certain client MAC addresses receiving an IP address. Where do you configure this setting?
@@ -182,7 +195,7 @@
 - [ ] certificate templates
 
 #### Q31. A company IIS server will host the corporate site, which is accessible only by company computers. You need to configure this website to SSL. You obtain certificate to install on the server. Into which certificate store should you import the server's certificate?
-- [ ] Trusted Root Certification Authoritie5 under Local Computer
+- [ ] Trusted Root Certification Authorities under Local Computer
 - [ ] Trusted Root Certification Authorities under Current User
 - [x] Personal under Local Computer
 - [ ] Client Authentication Computer
@@ -226,10 +239,10 @@
 - [ ] A proven failover option is required so clients are always connected.
 
 #### Q38. You prestaged a computer in Active Directory in a domain controller at company headquarters. After 30 minutes, that new computer object is still not available at the branch office domain What should you run from prompt to get a summary of the AD replication status in your domain from the perspective of all domain controllers?
-- [ ] repadmin / replsum
-- [x] repadmin / showrepl \*
-- [ ] ntdsutil.exe
-- [ ] repadmin /queue
+- [ ] `repadmin /replsum`
+- [x] `repadmin /showrepl *`
+- [ ] `ntdsutil.exe`
+- [ ] `repadmin /queue`
 
 #### Q39. You currently have a DHCP server issuing addresses to clients. Which task should you perform first to set up your DHCP server to dynamically issue addresses to clients on the network?
 - [x] Add IPv6 scope.
@@ -279,3 +292,9 @@
 - [ ] hash key
 - [ ] vendor name availability
 - [ ] authentication methods
+
+#### Q47. You run a script to encrypt a client computer's hard drive with BitLocker and back up the recovery password to Active Directory. When researching the computer object's properties, you cannot find the BitLocker recovery password. What may be the cause?
+- [ ] BitLocker Drive Encryption Administration Utilities are not installed on the client computer.
+- [ ] BitLocker Drive Encryption Administration Utilities are not installed on the domain controller.
+- [ ] BitLocker Drive Encryption Tools are not installed on the domain controller.
+- [ ] BitLocker Drive Encryption Tools are not installed on the client computer.
