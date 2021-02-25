@@ -344,3 +344,162 @@ class UserService{
 - [ ] Create subtypes with shorter names
 - [ ] Create interfaces with shorter names
 - [ ] Create extension classes with shorter names
+
+#### Q31. Your function is passed by a parameter obj of type Any. Which code snippet shows a way to retrieve the original type of obj, ncluding package information?
+
+- [ ] `obj.classInfo()`
+- [ ] `obj.typeInfo()`
+- [ ] `obj::class.simpleName`
+- [ ] `obj::class`
+
+#### Q32. Which is the correct declaration of an integer array with a size of 5?
+
+- [ ] `val arrs[5]: Int`
+- [ ] `val arrs = IntArray[5]`
+- [ ] `val arrs: Int[5]`
+- [ ] `val arrs = Array<Int>(5)`
+
+#### Q33. You have created a class that should be visible only to the other code in its module. Which modifier do you use?
+
+- [ ] `internal`
+- [ ] `private`
+- [ ] `public`
+- [ ] `protected`
+
+#### Q34. Kotlin has two equality operators, == and ===. What is the difference?
+
+- [ ] == determines if two primitive types are identical. === determines if two objects are identical
+- [ ] == determines if two references point to the same object. === determines if two objects have the same value
+- [ ] == determines if two objects have the same value. === determines if two strings have the same value
+- [ ] == determines if two objects have the same value. === determines if two references point to the same object
+
+#### Q35. Which snippet correctly shows setting the variable max to whichever variable holds the greatest value, a or b, using idiomatic Kotlin?
+
+- [ ] `val max3 = a.max(b)`
+- [ ] `val max = a > b ? a : b`
+- [ ] `val max = if (a > b) a else b`
+- [ ] `if (a > b) max = a else max = b`
+
+#### Q36. You have an enum class Signal that represents the state of a network connection. You want to print the position number of the SENDING enum. Which line of code does that?
+
+```java
+enum class Signal { OPEN, CLOSED, SENDING }
+```
+
+- [ ] `println(Signal.SENDING.position())`
+- [ ] `println(Signal.SENDING.hashCode())`
+- [ ] `println(Signal.SENDING)`
+- [ ] `println(Signal.SENDING.ordinal)`
+
+#### Q37. Both const and @JvmField create constants. What can const do that @JvmField cannot?
+
+```java
+class Detail {
+  companion object {
+    const val COLOR = "Blue"
+    @JvmField val SIZE = "Really Big"
+  }
+}
+```
+
+- [ ] const is compatible with Java, but @JvmField is not
+- [ ] The compiler will inline const so it is faster and more memory efficient
+- [ ] Virtually any type can be used with const but not @JvmField
+- [ ] const can also be used with mutable types
+
+#### Q38. You have a when expression for all of the subclasses of the class Attribute. To satisfy the when, you must include an else clause. Unfortunately, whenever a new subclass is added, it returns unknown. You would prefer to remove the else clause so the compiler generates an error for unknown subtypes. What is one simple thing you can do to achieve this?
+
+```java
+open class Attribute
+class Href: Attribute()
+class Src: Attribute()
+class Alt: Attribute()
+
+fun getAttribute(attribute: Attribute) : String {
+  return when (attribute) {
+    is Href -> "href"
+    is Alt -> "alt"
+    is Src -> "src"
+    else -> "unknown"
+  }
+}
+```
+
+- [ ] Replace `open` with `closed`
+- [ ] Replace `open` with `sealed`
+- [ ] Replace `open` with `private`
+- [ ] Replace `open` with `public`
+
+#### Q39. You would like to know each time a class property is updated. Which code snippet shows a built-in delegated property that can accomplish this?
+
+- [ ] `Delegates.watcher()`
+- [ ] `Delegates.observable()`
+- [ ] `Delegates.rx()`
+- [ ] `Delegates.observer()`
+
+#### Q40. Why doesn't this code compile?
+
+```java
+infix fun Int.add(addedL Int=1) = this + addend
+fun main(){
+  val msg = "Hello"
+  println( msg shouldMatch "Hello")    
+  println( 10 multiply 5 + 2)
+  println( 10 add 5)
+}
+```
+
+- [ ] infix function must be marked public
+- [ ] In Kotlin, add is a keyword
+- [ ] Extension functions use it, not this, as the default parameter name
+- [ ] infix functions cannot have default values
+
+#### Q41. What is the correct way to initialize a nullable variable?
+
+- [ ] `val name = null`
+- [ ] `var name: String`
+- [ ] `val name: String`
+- [ ] `val name: String? = null`
+
+#### Q42. Which line of code is a shorter, more idiomatic version of the displayed snippet?
+
+```java
+val len: Int = if (x != null) x.length else -1
+```
+
+- [ ] `val len = x?.let{x.len} else {-1}`
+- [ ] `val len = x!!.length ?: -1`
+- [ ] `val len:Int = (x != null)? x.length : -1`
+- [ ] `val len = x?.length ?: -1`
+
+#### Q43. You are creating a Kotlin unit test library. What else should you add to make the following code compile without error?
+
+```java
+fun String.shouldEqual(value: String) = this == value
+fun main(){
+  val msg = "test message"
+  println(msg shouldEqual "test message")
+}
+```
+
+- [ ] The extension function should be marked public
+- [ ] Add the prefix operator to the shouldMatch extension function
+- [ ] The code is not legal in Kotlin
+- [ ] Add the prefix infix to the shouldMatch extension function
+
+#### Q44. What is the difference between the declarations of COLOR and SIZE?
+
+```java
+class Record{
+  companion object {
+    const val COLOR = "Red"
+    val SIZE = "Large"
+  }
+}
+```
+
+- [ ] Since COLOR and SIZE are both immutable, they are identical internally
+- [ ] Both are immutable, but the use of the keyword const makes COLOR slower and less space efficient than SIZE
+- [ ] const makes COLOR faster, but not compatible with Java. Without const, SIZE is still compatible with Java
+- [ ] Both are immutable, but the use of the keyword const makes COLOR faster and mroe space efficient than SIZE
+
