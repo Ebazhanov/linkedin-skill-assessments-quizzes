@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-271-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-272-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
@@ -459,6 +459,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/mihai-db"><img src="https://avatars.githubusercontent.com/u/23072513?v=4?s=100" width="100px;" alt=""/><br /><sub><b>MihaiD</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=mihai-db" title="Code">💻</a> <a href="#design-mihai-db" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/AnveshReddyAnnem"><img src="https://avatars.githubusercontent.com/u/57712430?v=4?s=100" width="100px;" alt=""/><br /><sub><b>AnveshReddyAnnem</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=AnveshReddyAnnem" title="Code">💻</a> <a href="#design-AnveshReddyAnnem" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/devhyunjae"><img src="https://avatars.githubusercontent.com/u/12890257?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hyunjae Park</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=devhyunjae" title="Code">💻</a> <a href="#design-devhyunjae" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/rajivalbino"><img src="https://avatars.githubusercontent.com/u/19399225?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rajiv Albino</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=rajivalbino" title="Code">💻</a> <a href="#design-rajivalbino" title="Design">🎨</a></td>
   </tr>
 </table>
 
