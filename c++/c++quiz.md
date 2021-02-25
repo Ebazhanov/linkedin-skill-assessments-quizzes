@@ -357,7 +357,9 @@ void *ptr;
 - [ ] It is a pointer initialized at NULL.
 - [ ] It is a pointer to a void function.
 - [ ] That declaration causes a compiler error, as pointers must specify a type.
-- [ ] It is a pointer to a value with no specific type, so it may be cast to point to any type.
+- [x] It is a pointer to a value with no specific type, so it may be cast to point to any type.
+
+[Reference](https://en.cppreference.com/w/cpp/language/pointer)
 
 #### Q25. What is the output of this code?
 
@@ -769,7 +771,7 @@ complexNumber(float real, float im) {
 }
 ```
 
-- [ ] C
+- [x] C
 
 ```cpp
 complexNumber(float real, float im) {
@@ -812,7 +814,7 @@ std::cout << ( nums[0] << nums[1] << nums[2] );
 ```
 
 - [ ] The output is the addresses of `nums[0]`, `nums[1]`, and `nums[2]`, in that order, with no spaces.
-- [ ] `256`
+- [x] `256`
 - [ ] `0`
 - [ ] `243`
 
@@ -827,14 +829,16 @@ for(auto f:values)
 - [ ] `0.54 2.71828 3.14159 5.499999 10.0`
 - [ ] `1 3 4 6 11`
 - [ ] `0 2 3 5 10`
-- [ ] `1 3 3 5 10`
+- [x] `1 3 3 5 10`
 
 #### Q47. Which of the following STL classes is the best fit for implementing a phonebook? Suppose each entry contains a name and a phone number, with no duplicates, and you want to have lookup by name.
 
 - [ ] `std::priority_queue`
 - [ ] `std::list`
 - [ ] `std::vector`
-- [ ] `std::map`
+- [x] `std::map`
+
+[Reference](https://en.cppreference.com/w/cpp/container/map)
 
 #### Q48. What does this program do?
 
@@ -852,8 +856,10 @@ int main(){
 
 - [ ] It renames text1.txt to text2.txt.
 - [ ] It makes a directory called text2.txt and moves text1.txt there.
-- [ ] It copies the contents of text1.txt into text2.txt - i.e., it makes a copy of text1.txt, named text2.txt.
+- [x] It copies the contents of text1.txt into text2.txt - i.e., it makes a copy of text1.txt, named text2.txt.
 - [ ] It appends the contents of text1.txt into text2.txt - i.e., replaces the contents of text2.txt by the concatenation of text2.txt and text1.txt.
+
+[Reference](https://en.cppreference.com/w/cpp/header/fstream)
 
 #### Q49. Which of the following is *not* a consequence of declaring the member variable count of my_class as static?
 
@@ -863,14 +869,16 @@ class my_class {
 }
 ```
 
-- [ ] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
+- [x] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
 - [ ] The variable exists even when no objects of the class have been defined so it can be modified at any point in the source code.
 - [ ] The variable is allocated only once, regardless of how many objects are instantiated because it is bound to the class itself, not its instances.
 - [ ] All objects that try to access their count member variable actually refer to the only class-bound static count variable.
 
+[Reference](https://en.cppreference.com/w/cpp/language/static)
+
 #### Q50. What is the assumed type of a constant represented in the source code as `0.44`?
 
-- [ ] double
+- [x] double
 - [ ] long float
 - [ ] long double
 - [ ] float
@@ -884,7 +892,7 @@ std::cout<<"a="<<(int)a;
 std::cout<<", b="<<(int)b;
 ```
 
-- [ ] a=-56, b=100
+- [x] a=-56, b=100
 - [ ] a=-55, b=100
 - [ ] a=200, b=-156
 - [ ] a=200, b=100
@@ -895,7 +903,7 @@ std::cout<<", b="<<(int)b;
 my_class *my_object = new my_class();
 ```
 
-- [ ] `delete(my_object);`
+- [x] `delete(my_object);`
 - [ ] `free(my_object);`
 - [ ] The garbage collector will destroy the object eventually.
 - [ ] Exiting the scope will destroy the object.
@@ -915,8 +923,10 @@ int main(){
 
 - [ ] `grades.count();`
 - [ ] `my_array->count();`
-- [ ] `grades->count();`
+- [x] `grades->count();`
 - [ ] `my_array.count();`
+
+[Reference](https://en.cppreference.com/w/c/language/operator_member_access)
 
 #### Q54. What would be the output of this code?
 
@@ -926,10 +936,12 @@ int& nums[3]={i2,i0,i1};
 std::cout<<nums[0]<<nums[1]<<nums[2];
 ```
 
-- [ ] There is no output. The code causes a compiler error because `nums` is an array of references, which is illegal.
+- [x] There is no output. The code causes a compiler error because `nums` is an array of references, which is illegal.
 - [ ] 846
 - [ ] The output is the addresses of `i2`, `i0`, and `i1`, in that order, with no spaces.
 - [ ] 468
+
+[Reference](https://en.cppreference.com/w/cpp/language/array)
 
 #### Q55. What is `child_t` in this code?
 
@@ -942,9 +954,11 @@ typedef struct{
 ```
 
 - [ ] It is a type defined as a structure with three unsigned fields initialized as age=4, gender=1, and size=2.
-- [ ] It is a type defined as a structure with bit fields, with 4 bits for age, 1 bit for gender, and 2 bits for size.
+- [x] It is a type defined as a structure with bit fields, with 4 bits for age, 1 bit for gender, and 2 bits for size.
 - [ ] This code causes a compiler error because the colon character is not allowed in struct definitions.
 - [ ] It is a type defined as a structure with three arrays. The size and length of these arrays are age:int[4], gender:char[1], and size:int[2], all signed.
+
+[Reference](https://en.cppreference.com/w/cpp/language/bit_field)
 
 #### Q56. What is this expression equivalent to?
 
@@ -955,7 +969,7 @@ A->B->C->D
 - [ ] `A.B.C.D`
 - [ ] `*A.*B.*C.*D`
 - [ ] `&A.&B.&C.&D`
-- [ ] `*(*((*A).B).C).D`
+- [x] `*(*((*A).B).C).D`
 
 #### Q57. What does this function do?
 
@@ -965,12 +979,16 @@ std::memset(buff,20,50);
 ```
 - [ ] It declares a memory buffer named buff that starts at address 20 and ends at address 70.
 - [ ] It sets all bits in the array named buffer from its element at index 20 to its element at index 50.
-- [ ] It writes the value 20 in every memory address from buff to buff+49.
+- [x] It writes the value 20 in every memory address from buff to buff+49.
 - [ ] It declares a memory buffer named buff that starts at address 20 and ends at address 50.
+
+[Reference](https://en.cppreference.com/w/cpp/string/byte/memset)
 
 #### Q58. Consider a class named `CustomData`. Which choice is a correct declaration syntax to overload the postfix `++` operator as a class member?
 
 - [ ] `CustomData& operator++();`
 - [ ] `void operator++(CustomData);`
 - [ ] `CustomData operator++(CustomData);`
-- [ ] `CustomData operator++(int);`
+- [x] `CustomData operator++(int);`
+
+[Reference](https://en.cppreference.com/w/cpp/language/operators)
