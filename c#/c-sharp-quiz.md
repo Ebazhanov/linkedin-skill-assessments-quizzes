@@ -133,9 +133,9 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [ ] a value type that can be used only with an abstract class
 - [x] an instance of a class or struct that includes fields, properties, and/or methods
 
-#### Q14. Which code snippet declares an anonymous type named usedData?
+#### Q14. Which code snippet declares an anonymous type named userData?
 
-- [ ] var<T> userData = new <T> { name = "John", age = 32 };
+- [ ] var<<!---->T> userData = new <<!---->T> { name = "John", age = 32 };
 - [x] var userData = new { name = "John", age = 32 };
 - [ ] AType userData = new AType { name = "John", age = 32 };
 - [ ] Anonymous<T> userData = new Anonymous<T> { name = "John", age = 32 };
