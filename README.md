@@ -6,7 +6,8 @@
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
 
-#### Announcement:  if you want to meet each other and discuss related questions join the discard chat [https://discord.gg/ybN2zg7G](https://discord.gg/ybN2zg7G) 
+#### Announcement:  
+if you want to meet each other or discuss quiz related problems join the `Discord` chat [https://discord.gg/ybN2zg7G](https://discord.gg/ybN2zg7G) 
 
 ### Table of Contents
 
