@@ -23,7 +23,7 @@
 
 #### Q4. The relationship field in this table has been created with what feature?
 
-<p align="center"><img src="./image/question_4.png"></p>
+<p align="center"><img src="./images/question_4.png"></p>
 
 - [ ] lookup
 - [ ] reference integrity
