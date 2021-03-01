@@ -239,8 +239,8 @@ fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) thro
 - [x] node -h
 - [ ] node index.js -h
 
-### Q36. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named null?
-- [ ] http.IncomingMessage
+### Q36. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?
+- [x] http.IncomingMessage
 - [ ] http.ServerRequest
 - [ ] http.ClientRequest
 - [ ] http.ServerResponse
@@ -286,9 +286,3 @@ fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) thro
 - [ ] const { readFile } = require(fs)
 - [ ] const { readFilePromises: readFile } = require(fs)
 - [ ] const { readFile } = require(promises)
-
-### Q44. When a request is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?
-- [ ] http.ServerRequest
-- [x] http.IncomingMessage
-- [ ] http.ClientRequest
-- [ ] http.ServerResponse
