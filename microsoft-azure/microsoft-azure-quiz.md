@@ -1,30 +1,30 @@
 ## Microsoft Azure
 
-#### Q1. You need to create an application in Azure AD representing the Kinetico Web App so you can assign directory permissions to the app. To create the application identity, which command will you run?
+#### Q1. You need to create an application in Azure AD representing the Kineteco Web App so you can assign directory permissions to the app. To create the application identity, which command will you run?
 - [ ] `bash az ad app permission grant -display-name $appName \ ...`
 - [ ] `bash az ad app credential create -display-name $appName \ ...`
 - [x] `bash az ad app create -display-name $appName \ ...`
 - [ ] `bash az ad app permission ass -display-name $appName \ ...`
 
-#### Q2. You need to deliver a mobile push notification for the Kinetico Retail app, hosted in Azure App service. The solution should minimize cost, complexity and development effort. Which option should you choose?
+#### Q2. You need to deliver a mobile push notification feature for the Kineteco Retail app, hosted in Azure App Service. The solution should minimize cost, complexity, and development effort. Which option should you choose?
 - [x] Notification Hub
-- [ ] Event Hub
+- [ ] Event Grid
 - [ ] Twilio
 - [ ] Service Bus
 
-#### Q3. Your application hosted in Azure App services needs to retrieve secrets from Azure Key vault. Which choice is NOT a way to authenticate to Key vault?
-- [ ] service principle and certificate
+#### Q3. Your application hosted in Azure App Service needs to retrieve secrets from Azure Key Vault. Which choice is NOT a way to authenticate to Key Vault?
+- [ ] service principal and a certificate
 - [ ] managed identity
-- [ ] service principle and a secret
+- [ ] service principal and a secret
 - [x] shared access key
 
 #### Q4. You added a persistent volume claim to your apps YAML manifest. When you attempt to deploy to an existing AKS cluster there is no persistent volume available. What should you do?
 - [ ] Do nothing. The API server will provision additional storage automatically
-- [x] Add a data disk definition for the AKS cluste to your apps YAML manifest
+- [x] Add a data disk definition for the AKS cluster to your apps YAML manifest
 - [ ] Add a data disk to each Kubernetes cluster node and reattempt app deployment
 - [ ] Provision an Azure Files instance and reattempt app deployment
 
-#### Q5. Your corporate web application is hosted in Azure regional data centres aroung the world. You need to route user requests to the closest service endpoint based on response latency. Which routing method should you use?
+#### Q5. Your corporate web application is hosted in Azure regional data centres around the world. You need to route user requests to the closest service endpoint based on response latency. Which routing method should you use?
 - [ ] Application gateway
 - [ ] Front Door
 - [ ] API Management
@@ -32,9 +32,9 @@
 
 #### Q6. You are developing a release strategy for several related software components. You need to reference variable groups and secure files across multiple build and release pipelines. What is the most efficient way to store and reference these assets from the pipeline?
 - [ ] Add the assets to a git repository
-- [x] Add the assets in Key Vault <<<<<SHOULD BE THIS ONE
+- [x] Add the assets in Key Vault
 - [ ] Add the assets to an encrypted volume
-- [ ] Add the assets to a library <<<< COULD BE THIS ONE TOO
+- [ ] Add the assets to a library
 
 #### Q7. You need to grant full access for an app to a temporary Azure storage account. Configuring access should require minimum effort. Which option should you use?
 - [x] Azure AD user account
@@ -42,7 +42,7 @@
 - [ ] Shared key
 - [ ] Certificate
 
-#### Q8. The Kinetico web app runs in an Azure Kubernetes Service. You need to monitor feature use and user navigation paths to identify where improvements are needed. What should you do?
+#### Q8. The Kineteco web app runs in an Azure Kubernetes Service. You need to monitor feature use and user navigation paths to identify where improvements are needed. What should you do?
 - [ ] Configure application insights cohort
 - [x] Install the Log Analytics agent and configure Azure Monitor for Containers
 - [ ] Install the App Insights on AKS nodes
@@ -52,7 +52,7 @@
 - [ ] based on a time (schedule)
 - [ ] another Azure service (cosmos, service bus)
 - [ ] threshold alert in Azure App insights
-- [x] third party services
+- [x] third party services (GitHub)
 
 #### Q10. Which messaging service enables an even-driven programming model?
 - [ ] Service Bus
@@ -60,35 +60,35 @@
 - [ ] Notification Hub
 - [x] Event Grid
 
-#### Q11. You need to populate a newly created SQL database from your release pipeline in Azure DevOps. The solution should minimise deployment time and efforts. Which approach should you use?
-- [x] Populate from BACPAC file
-- [ ] Restore from backup file
-- [ ] populate from csv file
-- [ ] Populate from SQL file
+#### Q11. You need to populate a newly created SQL database from your release pipeline in Azure DevOps. The solution should minimize deployment time and efforts. Which approach should you use?
+- [x] Populate from a BACPAC file.
+- [ ] Restore from a backup file.
+- [ ] Populate from a CSV file.
+- [ ] Populate from a SQL file.
 
-#### Q12. You need to host a community website for you neighbourhood association. The site contains static content, HTML CSS, and a few pages with client-side JS. Which option should you use?
-- [x] Azure storage static website
+#### Q12. You need to host a community website for your neighborhood association. The site contains static content, including HTML, CSS, and a few pages with client-side JavaScript. The site contains no sensitive information, and CORS support is unnecessary. The association has limited funds to pay for hosting, so the solution should be as inexpensive as possible. Which option should you use?
+- [x] Azure Storage static website
 - [ ] static website with Azure CDN
-- [ ] App service on consumption plan
-- [ ] App service on standard plan
+- [ ] App Service on Consumption plan
+- [ ] App Service on Standard plan
 
-#### Q13. Your organisation delivers a number of RESTful web services to customers around the world. You need to deploy cloud infrastructure to deliver these services to paying customers, including authentication, request throttling and routing of requests to the closest service endpoint. Which solution should you choose?
+#### Q13. Your organization delivers a number of RESTful web services to customers around the world. You need to deploy cloud infrastructure to deliver these services to paying customers, including authentication, request throttling and routing of requests to the closest service endpoint. Which solution should you choose?
 - [ ] Front door
 - [ ] API Management
 - [ ] Traffic manager
 - [x] Application Gateway
 
-#### Q14. You have .NET app running CM scale set. You need to monitor application performance without modyfying the code. The solution should minimise the cost. What should you do?
-- [ ] Enable network performance monitor on the VMs
-- [ ] install the Log Analytics Agent and enable Azure Monitor for VMs
-- [x] Install Application Insights Agent
-- [ ] Enable SolarWinds Performance Monitor from the Azure Marketplace
+#### Q14. You have a .NET app running on a VM Scale set. You need to monitor application performance without modifying the code. The solution should minimize the cost. What should you do?
+- [ ] Enable Network Performance Monitor on the VMs.
+- [ ] Install the Log Analytics Agent and enable Azure Monitor for VMs.
+- [x] Install the Application Insights Agent.
+- [ ] Enable SolarWinds Performance Monitor from the Azure Marketplace.
 
 #### Q15. When setting your CI/CD pipeline an approval from your product owner is required before a final release to production. What solution do you use to achieve this?
-- [ ] Manual intervention task
-- [x] pre-deployment condition
-- [ ] branch filer
-- [ ] pre-deployment gate
+- [ ] a Manual Intervention task
+- [x] a pre-deployment condition
+- [ ] a branch filter
+- [ ] a pre-deployment gate
 
 #### Q16. You want to configure the AKS instance running the Kineteco Inventory App to use Azure Active Directory (AD) for user authentication. To integrate with AKS with Azure AD which steps should you perform first?
 - [ ] Create a service principal in Azure then assign the service principal AKS.
@@ -126,17 +126,17 @@
 - [x] Approval gate
 - [ ] Invoke REST API gate
 
-#### Q22. The Kineteco Web App is running on AKS to meet a spike in demand, the horizontal pod autoscaler recently provisioned additional pods, which are no longer needed. What should you do to scale down unnecessary pods?
+#### Q22. The Kineteco Web App is running on AKS. To meet a spike in demand, the horizontal pod autoscaler recently provisioned additional pods, which are no longer needed. What should you do to scale down unnecessary pods?
 - [ ] Trigger scale down in Azure Container Instances.
 - [ ] Trigger scale down in the HPA from the Azure CLI.
 - [ ] Manually deprovision unneeded pods.
-- [x] Do nothing. EPA will initiate scale down automatically.
+- [x] Do nothing. HPA will initiate scale down automatically.
 
 #### Q23. Your ARM template, created in VS Code, is failing validation in the build pipeline in Azure DevOps. You need to correct syntax issues at authoring time with a minimum of cost and effort. What should you do?
-- [x] Install Azure extension in VS Code.
+- [x] Install Azure Resource Manager Tools extension in VS Code.
 - [ ] Install Visual Studio 2019 Enterprise edition.
 - [ ] Install Visual Studio 2019 Community edition.
-- [ ] Install Visual Studio Code Intellicode extension in VS Code.
+- [ ] Install Visual Studio Code IntelliCode extension in VS Code.
 
 #### Q24. You need to migrate the backlog of a development project for a newly acquired subsidiary. The development team currently uses a Kanban board to track stories, tasks, and bugs. Which process framework should you select in Azure Boards?
 - [x] Agile
@@ -162,11 +162,11 @@
 - [ ] Azure PowerShell
 - [ ] REST API
 
-#### Q28. You need to create tech support chatbot for Microsoft teams that interacts with users based on natural language processing (NLP). The bot should be capable of processing differing sentence structures. Which Microsoft framework component will deliver this functionality?
+#### Q28. You need to create a tech support chatbot for Microsoft Teams that interacts with users based on natural language processing (NLP). The bot should be capable of processing differing sentence structures. Which Microsoft Bot Framework component will deliver this functionality?
 - [x] LUIS
 - [ ] Text to Speech
 - [ ] QnA Maker
-- [ ] Recognizer
+- [ ] Form Recognizer
 
 #### Q29. You are implementing an application to manage automated warehouse operations for a global retailer. You need to design an enrollment process for IoT devices for production use. Solution requirements are as follows: Register IoT devices in bulk; encrypt all communication between devices and the Azure IoT cloud service; and implement Microsoft recommendations for device security. Which option should you choose?
 - [ ] managed identity (shared)
@@ -176,15 +176,15 @@
 
 #### Q30. You are deploying three Azure VMS with an Azure Resource Manager (ARM) template. Which ARM function implements the iteration loop to provision the right number of VMs?
 ```json
-  {
-      "type": "Microsoft.Compute/virtualMachines",
-      "name": "[concat('myvm', `______`)]",
-      "apiVersion": "2016-04-30-preview",
-      "location": "[parameters('location')]",
-      "copy": {
-      "name": "virtualMachineLoop",
-      "count": "[parameters('numberOfInstances')]"
-  },
+{
+    "type": "Microsoft.Compute/virtualMachines",
+    "name": "[concat('myvm', `______`)]",
+    "apiVersion": "2016-04-30-preview",
+    "location": "[parameters('location')]",
+    "copy": " ",
+    "name": "virtualMachineLoop",
+    "count": "[parameters('numberOfInstances')]"
+},
 ```
 - [ ] max()
 - [x] copyIndex()
@@ -209,7 +209,7 @@
 - [ ] Configure release variables.
 - [x] Configure a variable group.
 
-#### Q34. You have configured the Kineteco Web App to run on Azure Kubernetes Service (AKS). Application resources need to scale to meet spikes in traffic. What should you do? The solution should minimize manual effort and cost
+#### Q34. You have configured the Kineteco Web App to run on Azure Kubernetes Service (AKS). Application resources need to scale to meet spikes in traffic. What should you do? The solution should minimize manual effort and cost.
 - [ ] Configure the horizontal pod autoscaler (HPA).
 - [ ] Manually scale pod when necessary.
 - [ ] Configure burst to Azure Container Instances.
@@ -236,7 +236,7 @@
       /SourceServerName:"kinetecosql.database.windows.net"
       /SourceDatabaseName:"kinetecoweb" /SourceUser:"admin" /SourcePassword:"MyPassword"
 
-#### Q37. You have web app hosted in Azure App Service that reads from and writes data to an Azure SQL Database back-end. You need to send email alert when your web app returns any failure HTTP status cede (anything except HTTP 200) for a user request. Which solution should you use?
+#### Q37. You have a web app hosted in Azure App Service that reads from and writes data to an Azure SQL Database back-end. You need to send email alert when your web app returns any failure HTTP status code (anything except HTTP 200) for a user request. Which solution should you use?
 - [x] service map in Azure Monitor
 - [ ] application maps in Azure Application Insights
 - [ ] availability tests in Azure Application Insights
@@ -278,7 +278,7 @@
 - [ ] Agent.BuildDirectory
 - [ ] Agent.ToolsDirectory
 
-#### Q44. You are selecting Azure technologies for a new a pp that will process print jobs in a facility with thousands of printers. A pool of worker processes will send jobs to printer and report results when jobs are complete. Requirements for the solution are: Worker processes will retrieve and process messages as capacity permits; if a worker process or printer fails, a worker process should be able to retrieve message and resurne processing; and the solution should maintain a central (server-side) log of messages processed. Which solution should you use?
+#### Q44. You are selecting Azure technologies for a new a pp that will process print jobs in a facility with thousands of printers. A pool of worker processes will send jobs to printer and report results when jobs are complete. Requirements for the solution are: Worker processes will retrieve and process messages as capacity permits; if a worker process or printer fails, a worker process should be able to retrieve message and resume processing; and the solution should maintain a central (server-side) log of messages processed. Which solution should you use?
 - [ ] Event Hub
 - [ ] Event Grid
 - [ ] Service Bus
@@ -289,3 +289,21 @@
 - [ ] by secret type
 - [ ] on the Key Vault instance
 - [x] at the Azure Subscription level
+
+#### Q46. Your company hosts a web application that uses Azure SQL Database to store data. You need to implement measures that allow only members of the managers group to see sensitive information. Which two actions should you perform?
+- [ ] Implement dynamic data masking and include the managers group.
+- [ ] Implement transparent data encryption and include the managers group.
+- [ ] Implement dynamic data masking and exclude the managers group.
+- [ ] Implement transparent data encryption and exclude the managers group.
+
+#### Q47. The Kineteco Inventory App uses an Azure SQL Database instance to store application and store inventory data. Store employees report occasional periods where queries in the web interface never return data. You suspect a database issue and need to identify the performance issue as soon as possible. The resource health dashboard reports "No health related issues found." What should you do?
+- [ ] Run the troubleshooting wizards under Resource and solve problems.
+- [ ] Enable Intelligent Insights.
+- [ ] Configure App Insights to alert admins when web interface experiences latency.
+- [ ] Configure an alert rule to email DBAs when DTU usage hits 100%.
+
+#### Q48. Your web application needs to access files on an Azure Files share. Which option will deliver the highest throughput?
+- [ ] SMB
+- [ ] REST API
+- [ ] Storage Explorer
+- [ ] NFS
