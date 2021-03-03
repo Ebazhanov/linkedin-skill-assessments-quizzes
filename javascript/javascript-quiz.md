@@ -70,7 +70,7 @@ for (var i = 1; i <= 4; i++) {
 ```
 - [ ] `for (var i=1; i<=4; i++){ (function(i){ setTimeout(function(){ console.log(j); }, j*1000); })(j) }`
 - [ ] `while (var i=1; i<=4; i++) { setTimeout(function() { console.log(i); }, i*1000); }`
-- [x] `for (var i=1; i<=4; i++) { {function(j) { setTimeout(function(){ console.log(j); }, j*1000); })(i) }`
+- [x] `for (var i=1; i<=4; i++) { (function(j) { setTimeout(function(){ console.log(j); }, j*1000); })(i) }`
 - [ ] `for (var j=1; j<=4; j++) { setTimeout(function() { console.log(j); }, j*1000); }`
 
 #### Q8. How does a function create a closure?
