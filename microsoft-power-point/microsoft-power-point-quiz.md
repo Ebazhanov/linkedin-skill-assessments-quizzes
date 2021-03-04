@@ -312,3 +312,10 @@ Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .po
 - [ ] Right-click the text box and select Select All.
 - [ ] Click the Fond button on the Home tab.
 - [ ] Double-click any word in the text box.
+
+#### Q41. You have a large number of objects on your slide. How can you use the selection pane to help you identify the objects quickly?
+
+- [ ] Select the show/hide icons next to the objects.
+- [x] Rename the objects with meaningful names.
+- [ ] Drag and drop the objects.
+- [ ] Tab through the objects and note each object as it's highlighted.
