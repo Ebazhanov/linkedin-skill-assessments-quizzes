@@ -2650,6 +2650,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "windusayles",
+      "name": "Windu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70447880?v=4",
+      "profile": "http://linkedin.com/in/windusayles",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
