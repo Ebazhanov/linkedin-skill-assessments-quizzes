@@ -1,7 +1,9 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-279-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
@@ -59,7 +61,7 @@ if you want to meet each other or discuss quiz related problems join the `Discor
 | [PHP](php/php-quiz.md)                                                       | => 34 questions | => 34 answers |                                                                                                             |
 | [Python](python/python-quiz.md)                                              | => 67 questions | => 67 answers | [@tik9](https://github.com/tik9)                                                                            |
 | [R](r/r-quiz.md)                                                             | => 29 questions | => 29 answers |                                                                                                             |
-| [React.js](react/reactjs-quiz.md) :rose:                                     | => 52 questions | => 52 answers | [@harman052](https://github.com/harman052)                                                                  |
+| [React.js](react/reactjs-quiz.md) :rose:                                     | => 52 questions | => 52 answers | [@harman052](https://github.com/harman052), [@RobTables](https://github.com/RobTables)                      |
 | [REST API](rest-api/rest-api-quiz.md) :+1:                                   | => 34 questions | => 34 answers |                                                                                                             |
 | [Rubi on Rails](ruby-on-rails/ruby-on-rails-quiz.md) :+1:                    | => 24 questions | => 4 answers  |                                                                                                             |
 | [Scala](scala/scala-quiz.md)                                                 | => 25 questions | => 25 answers |                                                                                                             |
