@@ -2679,6 +2679,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "SimStim",
+      "name": "Eduard Pech",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80007889?v=4",
+      "profile": "https://logophilia.top/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
