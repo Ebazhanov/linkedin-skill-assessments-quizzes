@@ -83,8 +83,8 @@ System.out.println(str);
 
 - [ ] CD
 - [ ] CDE
-- [ ] D
-- [x] "abcde"
+- [x] D
+- [ ] "abcde"
 
 #### Q8. What is the result of this code?
 
