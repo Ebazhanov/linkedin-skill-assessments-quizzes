@@ -210,7 +210,7 @@
 - [x] GeoJSON
 - [ ] BSON
 
-#### Q31. Which programming language is used to write MongoDB queries? (*Alternative*: In the MongoDB shell, what programming language is used to make queries?)
+#### Q31. Which programming language is used to write MongoDB queries? (_Alternative_: In the MongoDB shell, what programming language is used to make queries?)
 
 - [ ] Python
 - [x] JavaScript
@@ -357,7 +357,7 @@
 - [x] db.shutdownServer()
 - [ ] db.shutdown()
 
-#### Q52. Given a customer collection which includes fields for gender and city, which aggregate pipeline shows the number of female customers in each city? (*Alternative*: How can you view the execution performance statistics for a query?)
+#### Q52. Given a customer collection which includes fields for gender and city, which aggregate pipeline shows the number of female customers in each city? (_Alternative_: How can you view the execution performance statistics for a query?)
 
 - [x] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number: {$sum: 1}}}, {$sort :{number: -1}}])`
 - [ ] `db.members.find({$match: {gender: "Female"}}, {$group: {\_id: {city: "$city"}, number: {$sum: 1}}}.$sort ({number: -1})`
@@ -419,3 +419,17 @@
 - [ ] `--shell-only`
 - [ ] `--free`
 - [ ] `-nodb`
+
+#### Q61. How can you improve the appearance of the output JSON that contains the \_id?
+
+- [ ] `Use db.collection.set({$_id:pretty})`
+- [ ] `Create a second index`
+- [ ] `Use db.collection.format(numeric)`
+- [ ] `Use $_id = value`
+
+#### Q62. What happens to a Replica set oplog if it runs out of memory?
+
+- [ ] `The oplog will be saved on one of the secondary servers.`
+- [ ] `The oplog is capped collection and can't run out of memory`
+- [ ] `The MongoDB instance will fail`
+- [ ] `The oplog will stop recording logging information`

@@ -222,8 +222,8 @@ function Dish(props) {
 
 #### 27. When using webpack, why would you need to use a loader?
 - [ ] to put together physical file folders
-- [ ] to preprocess files
-- [x] to load external data
+- [x] to preprocess files
+- [ ] to load external data
 - [ ] to load the website into everyone's phone
 
 #### 28. A representation of a user interface that is kept in memory and is synced with the "real" DOM is called what?
@@ -365,8 +365,8 @@ function MyComponent(props) {
 }
 ```
 - [ ] `useEffect(() => { setDone(true); });`
-- [ ] `useEffect(() => { setDone(true); }, []);`
-- [x] `useEffect(() => { setDone(true); }, [setDone]);`
+- [x] `useEffect(() => { setDone(true); }, []);`
+- [ ] `useEffect(() => { setDone(true); }, [setDone]);`
 - [ ] `useEffect(() => { setDone(true); }, [done, setDone]);`
 
 #### Q46. What value of button will allow you to pass the name of the person to be hugged?

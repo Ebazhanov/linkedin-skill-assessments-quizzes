@@ -18,10 +18,10 @@
 - [ ] set`
 - [ ] OrderedDict
 
-#### Q4. What is a static method?
+#### Q4. What statement about static methods is true?
 - [ ] Static methods are called static because they always return `None`.
 - [ ] Static methods can be bound to either a class or an instance of a class.
-- [x] They serve mostly as utility methods or helper methods, since they can't access or modify a class's state.
+- [x] Static methods serve mostly as utility methods or helper methods, since they can't access or modify a class's state.
 - [ ] Static methods can access and modify the state of a class or an instance of a class.
 
 #### Q5. What are attributes?
@@ -570,11 +570,11 @@ def sum(a, b):
 - [ ] `self` means that no other arguments are required to be passed into the method.
 - [x] `self` refers to the instance whose method was called.
 
-#### Q52. What is a class method?
+#### Q52. What statement about a class methods is true?
 - [ ] A class method is a regular function that belongs to a class, but it must return None.
-- [x] Class methods can modify the state of the class, but they can't directly modify the state of an instance that inherits from that class.
+- [x] A class method can modify the state of the class, but they can't directly modify the state of an instance that inherits from that class.
 - [ ] A class method is similar to a regular function, but a class method doesn't take any arguments.
-- [ ] Class methods hold all of the data for a particular class.
+- [ ] A class method hold all of the data for a particular class.
 
 #### Q53. What does it mean for a function to have linear runtime?
 - [ ] You did not use very many advanced computer programming concepts in your code.
@@ -656,17 +656,26 @@ def __init__(self):
 
 #### Q63. What is the most self-descriptive way to define a function that calculates sales tax on a purchase?
 - [ ]
-`def tax(my_float):
-    '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal ...???`
+```
+def tax(my_float):
+    '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
+    pass
+```
 - [ ]
-`def tx(amt):
-    '''Gets the tax on an amount.'''`
+```
+def tx(amt):
+    '''Gets the tax on an amount.'''
+```
 - [ ]
-`def sales_tax(amount):
-    '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal ...???`
+```
+def sales_tax(amount):
+    '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
+```
 - [x]
-`def calculate_sales_tax(subtotal):
+```
+def calculate_sales_tax(subtotal):
     pass`
+```
 
 #### Q64. What would happen if you did not alter the state of the element that an algorithm is operating on recursively?
 - [ ] You do not have to alter the state of the element the algorithm is recursing on.
@@ -691,3 +700,9 @@ def __init__(self):
 - [x] Add items to a stack in O(1) time and remove items from a stack in O(1) time.
 - [ ] Add items to a stack in O(n) time and remove items from a stack on O(1) time.
 - [ ] Add items to a stack in O(n) time and remove items from a stack on O(n) time.
+
+#### Q68. What does calling namedtuple on a collection type return?
+- [x] a tuple subclass with iterable named fields
+- [ ] a generic object class with non-iterable named fields
+- [ ] a generic object class with iterable parameter fields
+- [ ] a tuple subclass with non-iterable parameter fields

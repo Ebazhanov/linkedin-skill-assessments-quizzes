@@ -109,10 +109,10 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
  - [ ] The forked process shares the same VM thread with the parent process.
 
 #### Q18. If EventEmitter is in scope, which of the following lines of code will have an event emitter emitting a change event?
- - [x] EventEmitter.emit(change);
- - [ ] EventEmitter.new().emit(change);
- - [ ] (new EventEmitter()).emit(change);
- - [ ] new EventEmitter(change);
+ - [x] EventEmitter.emit('change');
+ - [ ] EventEmitter.new().emit('change');
+ - [ ] (new EventEmitter()).emit('change');
+ - [ ] new EventEmitter('change');
  
  **Explanation:**
  
@@ -239,8 +239,8 @@ fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) thro
 - [x] node -h
 - [ ] node index.js -h
 
-### Q36. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named null?
-- [ ] http.IncomingMessage
+### Q36. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?
+- [x] http.IncomingMessage
 - [ ] http.ServerRequest
 - [ ] http.ClientRequest
 - [ ] http.ServerResponse
@@ -280,3 +280,9 @@ fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) thro
 - [ ] hash
 - [x] crypto
 - [ ] TLS
+
+### Q43. Which line imports a promise-based version of the readFile method?
+- [x] const { readFile } = require(fs).promises
+- [ ] const { readFile } = require(fs)
+- [ ] const { readFilePromises: readFile } = require(fs)
+- [ ] const { readFile } = require(promises)
