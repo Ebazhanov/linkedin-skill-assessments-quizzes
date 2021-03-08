@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-280-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-281-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
@@ -474,6 +474,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://logophilia.top/"><img src="https://avatars.githubusercontent.com/u/80007889?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eduard Pech</b></sub></a><br /><a href="#design-SimStim" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=SimStim" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/jjeshwani"><img src="https://avatars.githubusercontent.com/u/53613241?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jjeshwani</b></sub></a><br /><a href="#design-jjeshwani" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=jjeshwani" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/nullfx"><img src="https://avatars.githubusercontent.com/u/324971?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Steve</b></sub></a><br /><a href="#design-nullfx" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=nullfx" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/aohslund"><img src="https://avatars.githubusercontent.com/u/43076374?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aleigh Ohslund</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=aohslund" title="Code">💻</a></td>
   </tr>
 </table>
 
