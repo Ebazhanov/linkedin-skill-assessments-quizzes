@@ -2718,6 +2718,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "sumanabhi",
+      "name": "Abhinav Suman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20538074?v=4",
+      "profile": "https://www.linkedin.com/in/sumanabhinav",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
