@@ -97,6 +97,8 @@ find **questions and answers** in **@Timo Körner** [repository](https://github.
 | [Python Clean Data](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_clean_data.md)                               | 18 answers |
 | [Python Data Visualization](https://github.com/tik9/pluralsight-skill-tests/blob/master/python_data_visualization.md)               | 18 answers |
 
+<img src="https://monosnap.com/image/mf3OkeABEfjiAFjYC8d0l7cE6yf52E"/>
+
 ## Format
 
 We recommend formatting files using [Prettier](https://prettier.io/) code formatter. Prettier comes installed with the IDE [Vscode](code.visualstudio.com) which we recommend for preparing the md files. It works on all OS.
