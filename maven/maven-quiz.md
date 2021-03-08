@@ -222,3 +222,37 @@ mvn install
 - [ ] It updates the version of the plugins defned in the POM file.
 - [ ] It removes unused dependencies in your project
 - [ ] It builds your project
+
+#### Q36. If you want to utilize a locally  develop JAR file in another project and that JAR file has not been deployed to either the Maven central repository or your own locally sourced mirror repository, what Maven goal do you need to execute on the locally developed JAR project?
+- [x] install
+- [ ] test
+- [ ] compile
+- [ ] package
+
+#### Q37. Bellow is a definition of the Maven JAR Plugin, where the main class is set to com.palmer.bethan.App. What is the effect of this?
+```
+<configuration>
+    <archive>
+        <manifest>
+            <addClasspath>true</addClasspath>
+            <mainClass>com.palmer.bethan.App</mainClass>
+        </manifest>
+    </archive>
+</configuration>
+```
+- [ ] Maven will generate javadocs for the App class.
+- [x] Maven will generate an executable JAR, which can be used to run the App class.
+- [ ] Maven will include only the App class when it compiles the source code.
+- [ ] Maven will add an empty main  method to the App class.
+
+#### Q38. Suppose you are packaging a Mave project and see the following error "[WARNING] Using platform encoding (CP1252 actually) to copy filtered resources, i.e.    build platform dependent!" What do you add to your POM file to set platform encoding to ensure your build is not platform dependet  ?
+- [ ] <project.build.resources>
+- [ ] <maven.compiler.source>
+- [x] <project.build.sourceEncoding>
+- [ ] <project.compiler.encoding>
+
+#### Q39. Why might you not want to include groupId and version elements in child POM files?
+- [x] all of these answers
+- [ ] dependencies
+- [ ] version
+- [ ] groupId
