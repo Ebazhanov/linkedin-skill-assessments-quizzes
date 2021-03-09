@@ -293,7 +293,7 @@
 #### Q46. Your company hosts a web application that uses Azure SQL Database to store data. You need to implement measures that allow only members of the managers group to see sensitive information. Which two actions should you perform?
 - [ ] Implement dynamic data masking and include the managers group.
 - [ ] Implement transparent data encryption and include the managers group.
-- [ ] Implement dynamic data masking and exclude the managers group.
+- [x] Implement dynamic data masking and exclude the managers group.
 - [ ] Implement transparent data encryption and exclude the managers group.
 
 #### Q47. The Kineteco Inventory App uses an Azure SQL Database instance to store application and store inventory data. Store employees report occasional periods where queries in the web interface never return data. You suspect a database issue and need to identify the performance issue as soon as possible. The resource health dashboard reports "No health related issues found." What should you do?
