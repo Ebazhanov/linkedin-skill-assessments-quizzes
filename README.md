@@ -1,9 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-279-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-283-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
@@ -60,6 +58,7 @@ if you want to meet each other or discuss quiz related problems join the `Discor
 | [OOP](oop/object-oriented-programming-quiz.md)                               | => 51 questions | => 51 answers |                                                                                                             |
 | [PHP](php/php-quiz.md)                                                       | => 34 questions | => 34 answers |                                                                                                             |
 | [Python](python/python-quiz.md)                                              | => 67 questions | => 67 answers | [@tik9](https://github.com/tik9)                                                                            |
+| [QuickBooks](quickbooks/quickbooks-quiz.md)                                              | => 46 questions | => 0 answers |                                                                             |
 | [R](r/r-quiz.md)                                                             | => 29 questions | => 29 answers |                                                                                                             |
 | [React.js](react/reactjs-quiz.md) :rose:                                     | => 52 questions | => 52 answers | [@harman052](https://github.com/harman052), [@RobTables](https://github.com/RobTables)                      |
 | [REST API](rest-api/rest-api-quiz.md) :+1:                                   | => 34 questions | => 34 answers |                                                                                                             |
@@ -475,6 +474,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/SpaceMuffinn"><img src="https://avatars.githubusercontent.com/u/25411672?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Karine (:</b></sub></a><br /><a href="#design-SpaceMuffinn" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=SpaceMuffinn" title="Code">💻</a></td>
     <td align="center"><a href="https://logophilia.top/"><img src="https://avatars.githubusercontent.com/u/80007889?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eduard Pech</b></sub></a><br /><a href="#design-SimStim" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=SimStim" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/jjeshwani"><img src="https://avatars.githubusercontent.com/u/53613241?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jjeshwani</b></sub></a><br /><a href="#design-jjeshwani" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=jjeshwani" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/nullfx"><img src="https://avatars.githubusercontent.com/u/324971?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Steve</b></sub></a><br /><a href="#design-nullfx" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=nullfx" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/aohslund"><img src="https://avatars.githubusercontent.com/u/43076374?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aleigh Ohslund</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=aohslund" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/sumanabhinav"><img src="https://avatars.githubusercontent.com/u/20538074?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abhinav Suman</b></sub></a><br /><a href="#design-sumanabhi" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sumanabhi" title="Code">💻</a></td>
+    <td align="center"><a href="http://ehte5hamxa.web.app"><img src="https://avatars.githubusercontent.com/u/41139956?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hamza Ehtesham Farooq</b></sub></a><br /><a href="#design-EhtesHamXa" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=EhtesHamXa" title="Code">💻</a></td>
   </tr>
 </table>
 
