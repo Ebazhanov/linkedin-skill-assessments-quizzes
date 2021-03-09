@@ -629,7 +629,7 @@ console.log(a.length);
 #### Q71. What is the result of running the statement shown?
 ```javascript
 let a = 5;
-console.log(++a);4
+console.log(++a);
 ```
 - [ ] 4
 - [ ] 10
