@@ -240,6 +240,8 @@ class Main {
 - [ ] It will not compile because of line 2.
 - [ ] "World!"
 
+**Explanation:** Non-static method message() cannot be referenced from a static context.
+
 #### Q13. Given this code, which command will output "2"?
 
 ```java
