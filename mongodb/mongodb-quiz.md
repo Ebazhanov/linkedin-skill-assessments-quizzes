@@ -375,7 +375,7 @@
 
 - [ ] `db.person.find({exists: 'homePhone'});`
 - [ ] `db.person.exists({homePhone: true});`
-- [ ] `db.person.find({homePhone: {$exists: true}});`
+- [x] `db.person.find({homePhone: {$exists: true}});`
 - [ ] `db.person.has('homePhone');`
 
 #### Q55. Which file in the MongoDB directly holds the MongoDB daemon?
