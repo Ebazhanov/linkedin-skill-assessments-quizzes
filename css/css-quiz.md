@@ -768,3 +768,46 @@ font-weight: bold;
 - [ ] by embedding the font file directly into the project's master JavaScript
 - [ ] by using a Google-specific CSS syntax that directly links to the desired font file
 - [ ] by using a standard font-face CSS definition sourcing a font file on Google's servers
+
+#### Q78. which choice is not a valid color?
+- [ ] color: ``#000``;
+- [ ] color: ``rgb(0,0,0)``;
+- [ ] color: ``#000000``;
+- [X] color: ``000000``;
+
+#### Q79. Using the following HTML and CSS example, what will equivalent pixel value be for .em and .rem elements?
+```
+html {font-size: 10px} 
+body {font-size: 2rem;}
+.rem {font-size: 1.5rem;}
+.em {font-size: 2em;}
+
+<body>
+  <p class="rem"></p>
+  <p class="em"></p>
+</body>
+
+```
+- [ ] The .rem will be equivalent to 25px; the .em value will be 20px.
+- [ ] The .rem will be equivalent to 15px; the .em value will be 20px.
+- [ ] The .rem will be equivalent to 15px; the .em value will be 40px.
+- [ ] The .rem will be equivalent to 20px; the .em value will be 40px.
+
+#### Q80. In this example, according to cascading and specificity rules, what color will the link be?
+```
+.example {color: yellow;} 
+ul li a {color: blue;}
+ul a {color: green;}
+a {color: red;}
+
+<ul>
+  <li><a href="#" class="example">link</a></li>
+  <li>list item</li>
+  <li>list item</li>
+</ul>
+
+```
+- [ ] blue
+- [ ] red
+- [x] yellow
+- [ ] green
