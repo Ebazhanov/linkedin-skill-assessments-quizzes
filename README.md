@@ -8,7 +8,7 @@
 
 #### Announcement:
 
-if you want to meet each other or discuss quiz related problems join the `Discord` chat [https://discord.gg/ybN2zg7G](https://discord.gg/ybN2zg7G)
+if you want to meet each other or discuss quiz related problems join the `Discord` chat [https://discord.gg/nEx6AnGJ](https://discord.gg/nEx6AnGJ)
 
 ### Table of Contents
 
