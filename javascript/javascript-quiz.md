@@ -187,6 +187,7 @@ for (var i = 0; i < 5; i++) {
 ```js
 var a = ['dog', 'cat', 'hen'];
 a[100] = 'fox';
+console.log(a.length);
 ```
 - [x] 101
 - [ ] 3
@@ -545,54 +546,43 @@ new logThis();
 - [x] preventDefault()
 - [ ] prevent()
 
-#### Q63. What will be logged to the console?
-```javascript
-var a = ['dog', 'cat', 'hen'];
-a[100] = 'fox';
-console.log(a.length);
-```
-- [x] 101
-- [ ] 4
-- [ ] 100
-- [ ] 3
-
-#### Q64. Which method do you use to attach one DOM node to another?
+#### Q63. Which method do you use to attach one DOM node to another?
 - [ ] attachNode()
 - [ ] getNode()
 - [ ] querySelector()
 - [x] appendChild()
 
-#### Q65. Which statement is used to skip iteration of the loop?
+#### Q64. Which statement is used to skip iteration of the loop?
 - [ ] break
 - [ ] pass
 - [ ] skip
 - [x] continue
 
-#### Q66. Which choice is valid example for an arrow function?
+#### Q65. Which choice is valid example for an arrow function?
 - [x] (a,b) => c
 - [ ] a, b => {return c;}
 - [ ] a, b => c
 - [ ] { a, b } => c
 
-#### Q67. Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior?
+#### Q66. Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior?
 - [x] class
 - [ ] generator function
 - [ ] map
 - [ ] proxy
 
-#### Q68. How do you add a comment to JavaScript code?
+#### Q67. How do you add a comment to JavaScript code?
 - [ ] ! This is a comment
 - [ ] # This is a comment
 - [ ] \\ This is a comment
 - [x] // This is a comment
 
-### Q69. If you attempt to call a value as a function but the value is not a function, what kind of error would you get?
+#### Q68. If you attempt to call a value as a function but the value is not a function, what kind of error would you get?
 - [x] TypeError
 - [ ] SystemError
 - [ ] SyntaxError
 - [ ] LogicError
 
-### Q70. Which method is called automatically when an object is initialized?
+#### Q69. Which method is called automatically when an object is initialized?
 - [ ] create()
 - [ ] new()
 - [x] constructor()
