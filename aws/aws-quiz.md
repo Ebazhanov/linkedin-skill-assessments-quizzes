@@ -140,7 +140,7 @@
 
 ![image](images/001.png)
 
-- [ ] The rule that exposes TCP ports 3380-3390 would also publicly expose port 3389 (RDP) to the entire internet. Write separate rules to only expose the needed ports.
+- [x] The rule that exposes TCP ports 3380-3390 would also publicly expose port 3389 (RDP) to the entire internet. Write separate rules to only expose the needed ports.
 - [ ] The first security group rule allows all traffic into this instance. Exposing your entire instance to the whole internet leaves the server open to various attacks of the other services running on different port numbers.
 - [ ] Verify that the AWS account owners actually control the entire CIDR C block for 12.228.11.0-255 and these are secured IPs for RDP access into this instance.
 - [ ] There are no recommendations to make.
@@ -166,13 +166,13 @@ Elastic IP addresses and allow all inbound HTTPS traffic.
 
 #### Q26. What is the best practice for creating a highly available PostgreSQL database in RDS that can sustain the loss of a single AWS region?
 - [ ] PostgreSQL cannot be replicated across regions. Restore the database backups from an S3 bucket and repoint your database connections to the new instance.
-- [x] Create Read Replicas in other AWS regions. You can designate a new master database from any of the read replicas until the regional failure is resolved.
+- [ ] Create Read Replicas in other AWS regions. You can designate a new master database from any of the read replicas until the regional failure is resolved.
 - [ ] Verify that your instance is configured for Multi-AZ support. Database changes will be automatically synced to another region in the event of a failure and RDS will automatically select a new master until the regional failure is resolved.
-- [ ] Create Read Replicas in other AWS regions. Ensure read operations against the database occur on an available Read Replica, and send write operations to another region if you need to promote a Read Replica to a standalone database if the master is down.
+- [x] Create Read Replicas in other AWS regions. Ensure read operations against the database occur on an available Read Replica, and send write operations to another region if you need to promote a Read Replica to a standalone database if the master is down.
 
 #### Q27. You created a new Linux EC2 instance and installed PostgreSQL but you are not able to establish a connection to the server from your local computer. What steps do you take to resolve this issue?
-- [x] Create a security group rule that allows all traffic from 0.0.0.0/0. This will verify whether or not another rule is denying the traffic.
-- [ ] Verify that the assigned security groups allow traffic from your IP address to port 5432. Verify that PostgreSQL is configured to listen to external traffic and is bound to the public interface.
+- [ ] Create a security group rule that allows all traffic from 0.0.0.0/0. This will verify whether or not another rule is denying the traffic.
+- [x] Verify that the assigned security groups allow traffic from your IP address to port 5432. Verify that PostgreSQL is configured to listen to external traffic and is bound to the public interface.
 - [ ] Make sure that you are using an Elastic IP and that it is included within the `postgresql.conf` configuration file.
 - [ ] Stop and start the instance. New security group rules will only take effect after a restart.
 
@@ -202,15 +202,15 @@ Elastic IP addresses and allow all inbound HTTPS traffic.
 - [x] Create a IAM user for the new developer. Assign the new developer the a developer group you already created for the other developers.
 
 #### Q30. When launching an EC2 instance with an instance type that supports instance storage, what use case is best for instance storage?
-- [ ] Use the instance storage to serve temporary files that require low I/O latency.
+- [x] Use the instance storage to serve temporary files that require low I/O latency.
 - [ ] Use the instance storage to handle files uploaded by your users. Since it is more secure than an EBS volume, you can isolate any malicious files from infecting your server.
-- [x] Instance storage is faster than EBS volumes, so install the root of the operating system on this volume to speed up server performance.
+- [ ] Instance storage is faster than EBS volumes, so install the root of the operating system on this volume to speed up server performance.
 - [ ] Instance storage is a deprecated option for storage and should not be used.
 
 #### Q31. What's the best practice for horizontally scaling a legacy ASP.NET web application that relies on Active Directory and is currently deployed to a single Windows EC2 instance?
-- [ ] Use Sysprep to shut down the instance during a maintenance window. Create an AMI image and place both servers behind Application Load Balancer with sticky sessions.
+- [x] Use Sysprep to shut down the instance during a maintenance window. Create an AMI image and place both servers behind Application Load Balancer with sticky sessions.
 - [ ] Launch a new EC2 with the latest version of Windows Server and install the application again. Use Application Load Balancer and sticky sessions to balance between both servers.
-- [x] Create a clone of the server using an AMI image and user Application Load Balancer to balance the traffic between both instances using sticky sessions.
+- [ ] Create a clone of the server using an AMI image and user Application Load Balancer to balance the traffic between both instances using sticky sessions.
 - [ ] Horizontal scaling is not the best practice in this situation. Increase the size of the existing EC2 instance and vertically scale the application.
 
 #### Q32. What does this small section of a CloudFormation template do?
@@ -242,10 +242,10 @@ FlowLog:
 - [x] An Http POST query string of ? action=createuser can be routed to a target group for an ECS service.
 
 #### Q35. What does a VPC do?
-- [ ] creates a cloud-based network to interconnect a set of virtual servers and appliances
+- [x] creates a cloud-based network to interconnect a set of virtual servers and appliances
 - [ ] creates a secure tunnel between two networks
 - [ ] creates a shared storage plane for application data to be shared across multiple instances.
-- [x] creates a private network that is completely isolated from the public internet.
+- [ ] creates a private network that is completely isolated from the public internet.
 
 #### Q36. Can you lose the public IP address associated with your EC2 instance?
 - [ ] Yes, you can lose it if you reboot the instance.
@@ -254,10 +254,10 @@ FlowLog:
 - [ ] Yes, you can lose it when you edit the instance properties and release the IP address.
 
 #### Q37. Where is the best place to store database backups on an EC2 instance that is configured as a database server?
-- [ ] an S3 bucket, synced with the database backups via a script that calls the AWS CLI
+- [x] an S3 bucket, synced with the database backups via a script that calls the AWS CLI
 - [ ] EBS volume attached to the instance
 - [ ] instance attached to the instance
-- [x] instance storage, with a script that replicates the database backups to another instance in a different availability zone.
+- [ ] instance storage, with a script that replicates the database backups to another instance in a different availability zone.
 
 #### Q38. Which of these is a valid restriction on the properties of a VPC?
 - [ ] You can have only 10 internet gateways per region on a new AWS account.
@@ -289,17 +289,17 @@ FlowLog:
 - [ ] EC2 Auto Scaling groups
 - [ ] AWS Shield Advanced
 - [ ] RDS Read Replicas
-- [ ] all of these answers
+- [x] all of these answers
 
 #### Q44. If a set of servers are located within a private subnet of your VPC, how can you connect those servers to on-premise servers?
 - [ ] Establish a connection with AWS Direct Connect.
 - [ ] Use the AWS Client VPN.
 - [ ] Install a OpenVPN server on an instance that is located within the subnet with an elastic IP.
-- [ ] All of these options can establish a connection to a private subnet.
+- [x] All of these options can establish a connection to a private subnet.
 
 #### Q45. You have a UDP load balancer that is created by an instance that is running an NGINX proxy. Your application performance management (APM) solution can detect failures in your load balancer instance and transfer the Elastic IP to a passive standby instance. Using the AWS CLI, which script do you program into your APM to move the Elastic IP?
 
-- [ ] A
+- [x] A
 
 ```
 aws ec2 disassociate-address --association-id eipassoc-2bebb712
@@ -334,13 +334,13 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 - [ ] Lightsail
 - [ ] Elastic Container Service (ECS)
 - [ ] Elastic Compute Cloud (EC2)
-- [ ] All of these services can host a Docker container.
+- [x] All of these services can host a Docker container.
 
 #### Q47. In the S3 console, underneath the Access column, what does the public badge next to the bucket name indicate?
 
 ![image](images/002.png)
 
-- [ ] All objects within this bucket are assigned public access and could be readable or writable by anyone on the internet. Ensure no sensitive data is being publicly shared within this bucket.
+- [x] All objects within this bucket are assigned public access and could be readable or writable by anyone on the internet. Ensure no sensitive data is being publicly shared within this bucket.
 - [ ] All objects within this bucket are writable, which means that the public internet has the ability to upload any file directly to your S3 bucket. Your S3 bucket could be used to serve malware.
 - [ ] Some objects within this bucket are assigned public access. Verify that any publicly shared objects within this bucket contain no sensitive data.
 - [ ] Objects within this bucket can be made public, if the ACL on that object is set to allow everyone access. Private buckets do not allow you to set public permissions on any object.
@@ -348,17 +348,17 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 #### Q48. What privilege is specific to the AWS root account, and cannot be granted to another IAM user on the account?
 - [ ] Revoke the AdministratorAccess role or grant it to another IAM user.
 - [ ] Create a new hosted zone in Route 53.
-- [ ] Delete the AWS account.
+- [x] Delete the AWS account.
 - [ ] Modify the billing details.
 
 #### Q49. Your application is sending 50,000 emails through SES each day. Since you must maintain a low bounce rate to avoid being put on probation, what simple system do you architect to automatically process hard bounces?
-- [ ] Configure SES to send all bounce events to an SNS topic. Create a Lambda function that processes each hard bounce event and automatically flags that account as a bounce in your application to prevent further sending attempts.
+- [x] Configure SES to send all bounce events to an SNS topic. Create a Lambda function that processes each hard bounce event and automatically flags that account as a bounce in your application to prevent further sending attempts.
 - [ ] Configure SES to no longer send to email addresses that are on your bounce list.
 - [ ] Configure SES to send the logs of all delivery attempts through Kinesis Firehose. Process each event and look for bounce types and remove these emails from your list.
 - [ ] Send all emails through SES with a custom reply-to header. Configure SES to listen for events on this email address and flag any email address that replies to this account as a bounced message and remove it from your email list.
 
 #### Q50. Your web application is getting a suspicious amount of bad requests from foreign IP addresses. Your business is operating in only a few countries and you would like to block any other traffic. What is the best practice for limiting access to your web application by country?
-- [ ] Use Web Application Firewall and create a geo match condition to drop all requests from countries that aren't on your allow list.
+- [x] Use Web Application Firewall and create a geo match condition to drop all requests from countries that aren't on your allow list.
 - [ ] Use Application Load Balancer to create a new routing rule that looks at source IP address. Add an IP block for the countries that have access.
 - [ ] Host the front end of your website in CloudFront and configure a geo restriction on the distribution.
 - [ ] Use CloudTrail to monitor the IP addresses of the bad requests. Use Lambda to add these IP addresses to an Application Load Balancer rule that blocks the IPs.
@@ -366,11 +366,11 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 #### Q51. What is the best practice for maintaining Windows EC2 instances and applying updates?
 - [ ] Turn on auto update in Windows Update on each EC2 that is launched, or create your own AMI with this feature enabled and launch all of your EC2 instances from this AMI.
 - [ ] Create a maintenance schedule that an employee must fill out each week confirming a visual inspection of each instance was conducted and which patches were applied.
-- [ ] Use AWS Systems Manager Patch Manager to find an patch instances that require updates during a set maintenance window.
+- [x] Use AWS Systems Manager Patch Manager to find an patch instances that require updates during a set maintenance window.
 - [ ] Install Window Server Update Services on your primary Active Directory controller.
 
 #### Q52. In addition to CloudFormation, you can use other orchestration tools to automate server formation and maintenance. Which tool is _not_ an efficient choice for the orchestration of a large infrastructure?
 - [ ] Chef
 - [ ] Ansible
 - [ ] Puppet
-- [ ] Vagrant
+- [x] Vagrant
