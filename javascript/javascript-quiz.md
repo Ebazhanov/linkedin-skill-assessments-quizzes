@@ -23,7 +23,7 @@ function addTax(total) {
 - [x] addTax(50);
 - [ ] addTax 50;
 
-#### Q3 How would you use this function to find out how much tax should be paid on \$50?
+#### Q3. How would you use this function to find out how much tax should be paid on \$50?
 `(Version 2, possibly an updated version)`
 ```js
 function addTax(total) {
@@ -42,6 +42,7 @@ function addTax(total) {
 - [ ] rate = 100;
 
 #### Q5. Which statement creates a new object using the Person constructor?
+#### Q5. Which statement creates a new Person object called "student"?
 - [x] var student = new Person();
 - [ ] var student = construct Person;
 - [ ] var student = Person();
@@ -59,6 +60,19 @@ console.log('Results shown');
 - [ ] after results are received from the HTTP request
 - [ ] after 10000 seconds
 - [x] immediately
+
+#### Q6. When would 'results shown' be logged to the console?
+`(Version 2, possibly an updated version)`
+```js
+let modal = document.querySelector('#results');
+setTimeout(function() {
+  modal.classList.remove('hidden');
+}, 10000);
+```
+- [x] immediately
+- [ ] after results are received from the HTTP request
+- [ ] after 10 second
+- [ ] after 10,000 seconds
 
 #### Q7. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?
 ```js
@@ -85,7 +99,7 @@ for (var i = 1; i <= 4; i++) {
 - [ ] `let function = discountPrice(price) { return price * 0.85; };`
 - [ ] `discountPrice = function(price) { return price * 0.85; };`
 
-#### 10. What is the result in the console of running the code shown?
+#### Q10. What is the result in the console of running the code shown?
 ```js
 var Storm = function () {};
 Storm.prototype.precip = 'rain';
@@ -341,7 +355,7 @@ f2();
 ```
 - [ ] 2
 - [x] 1
-- [ ] Nothing--this code will throw an error.
+- [ ] Nothing - this code will throw an error.
 - [ ] undefined
 
 #### Q40. Which statement is true about Functional Programming?
@@ -364,6 +378,7 @@ f2();
 - [ ] 1
 
 #### Q43. Which of the following is not a unary operator?
+#### Q43. Which choice is *not* a unary operator?
 - [ ] typeof
 - [ ] delete
 - [x] instanceof
@@ -411,7 +426,18 @@ var b = (a = 3) ? true : false;
 - [x] The condition in the ternary is using the assignment operator.
 - [ ] You can't define a variable without initializing it.
 - [ ] You can't use a ternary in the right-hand side of an assignment operator.
-- [ ] The code is using the deprecated var keyword
+- [ ] The code is using the deprecated var keyword.
+
+#### Q48. This program has a problem. What is it?
+`(Version 2, possibly an updated version)`
+```js
+var a;
+var b = (a = 3) ? true : false
+```
+- [ ] You cannot use a ternary operator in the right-hand side of an assignment.
+- [ ] You cannot define a variable without initializing it first.
+- [x] The condition in the ternary statement is using the assignment operator.
+- [ ] The code is using the deprecated var keyword.
 
 #### Q49. Which statement references the DOM node created by the code shown?
 ```html
@@ -422,7 +448,7 @@ var b = (a = 3) ? true : false;
 - [ ] `Document.querySelector('pull')`
 - [ ] `Document.querySelector('#pull')`
 
-#### Q50. What value does the code return?
+#### Q50. What value does this code return?
 ```js
 let answer = true;
 if (answer === false) {
@@ -432,10 +458,11 @@ if (answer === false) {
 }
 ```
 - [x] 10
+- [ ] true
 - [ ] false
 - [ ] 0
 
-### Q51. What is the result in the console of running the code shown?
+#### Q51. What is the result in the console of running the code shown?
 ```js
 var start = 1;
 function setEnd() {
@@ -449,7 +476,7 @@ console.log(end);
 - [x] ReferenceError
 - [ ] undefined
 
-### Q52. What will this code log in the console?
+#### Q52. What will this code log in the console?
 ```js
 function sayHello() {
   console.log('hello');
@@ -462,13 +489,13 @@ console.log(sayHello.prototype);
 - [x] an object with a constructor property
 - [ ] an error message
 
-### Q53: Which collection object allows unique value to be inserted only once?
+#### Q53: Which collection object allows unique value to be inserted only once?
 - [ ] Object
 - [x] Set
 - [ ] Array
 - [ ] Map
 
-### Q54. What two values will this code print?
+#### Q54. What two values will this code print?
 ```js
 function printA() {
   console.log(answer);
@@ -535,6 +562,7 @@ new logThis();
 - [ ] 3 === '3'
 
 #### Q61. Which choice is a valid variable name?
+#### Q61. Which of these is a valid variable name?
 - [ ] 5thItem
 - [x] firstName
 - [ ] grand total
@@ -587,3 +615,65 @@ new logThis();
 - [ ] new()
 - [x] constructor()
 - [ ] init()
+
+#### Q70. What is the result of running the statement shown?
+```javascript
+let a = 5;
+console.log(++a);
+```
+- [ ] 4
+- [ ] 10
+- [x] 6
+- [ ] 5
+
+#### Q71. You've written the event listener shown below for a form button, but each time you cklick the button, the page reloads. Which statement would stop this from happening?
+```javascript
+button.addEventListener('click',function(e) {
+   button.className = 'clicked';
+}, false);
+```
+- [ ] e.blockReload();
+- [ ] button.preventDefault();
+- [ ] button.blockReload();
+- [x] e.preventDefault();
+
+#### Q72. Which statement represents the starting code converted to an IIFE?
+- [ ] `function() { console.log('lorem ipsum'); }()();`
+- [ ] `function() { console.log('lorem ipsum'); }();`
+- [x] `(function() { console.log('lorem ipsum'); })();`
+
+#### Q73. Which statement selects all img elements in the DOM tree?
+- [ ] `Document.querySelector('img')`
+- [ ] `Document.querySelectorAll('<img>')`
+- [x] `Document.querySelectorAll('img')`
+- [ ] `Document.querySelector('<img>')`
+
+#### Q74. Why would you choose an asynchronous structure for your code?
+- [ ] To use ES6 syntax
+- [ ] To start tasks that might take some time without blocking subsequent tasks from executing immediately
+- [ ] To ensure that parsers enforce all JavaScript syntax rules when processing your code
+- [x] To ensure that tasks further down in your code aren't initiated until earlier tasks have completed
+
+#### Q75. What is the HTTP verb to request the contents of an existing resource?
+- [ ] DELETE
+- [x] GET
+- [ ] PATCH
+- [ ] POST
+
+#### Q76. Which event is fired on a text field within a form when a user tabs to it, or clicks or touches it?
+- [x] focus
+- [ ] blur
+- [ ] hover
+- [ ] enter
+
+#### Q77. What is the result in the console of running this code?
+```javascript
+function logThis() {
+   console.log(this);
+}
+logThis();
+```
+- [ ] function
+- [ ] undefined
+- [ ] Function.prototype
+- [ ] window
