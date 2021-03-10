@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-284-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-285-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
@@ -481,6 +481,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/sumanabhinav"><img src="https://avatars.githubusercontent.com/u/20538074?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abhinav Suman</b></sub></a><br /><a href="#design-sumanabhi" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sumanabhi" title="Code">💻</a></td>
     <td align="center"><a href="http://ehte5hamxa.web.app"><img src="https://avatars.githubusercontent.com/u/41139956?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hamza Ehtesham Farooq</b></sub></a><br /><a href="#design-EhtesHamXa" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=EhtesHamXa" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/IamNotPeterPan"><img src="https://avatars.githubusercontent.com/u/80295779?v=4?s=100" width="100px;" alt=""/><br /><sub><b>IamNotPeterPan</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=IamNotPeterPan" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Cetger"><img src="https://avatars.githubusercontent.com/u/31896026?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Cetger</b></sub></a><br /><a href="#design-Cetger" title="Design">🎨</a></td>
   </tr>
 </table>
 

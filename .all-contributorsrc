@@ -2747,6 +2747,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Cetger",
+      "name": "Cetger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31896026?v=4",
+      "profile": "https://github.com/Cetger",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
