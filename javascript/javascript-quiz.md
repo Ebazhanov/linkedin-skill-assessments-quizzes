@@ -201,6 +201,7 @@ for (var i = 0; i < 5; i++) {
 ```js
 var a = ['dog', 'cat', 'hen'];
 a[100] = 'fox';
+console.log(a.length);
 ```
 - [x] 101
 - [ ] 3
@@ -573,60 +574,49 @@ new logThis();
 - [x] preventDefault()
 - [ ] prevent()
 
-#### Q63. What will be logged to the console?
-```javascript
-var a = ['dog', 'cat', 'hen'];
-a[100] = 'fox';
-console.log(a.length);
-```
-- [x] 101
-- [ ] 4
-- [ ] 100
-- [ ] 3
-
-#### Q64. Which method do you use to attach one DOM node to another?
+#### Q63. Which method do you use to attach one DOM node to another?
 - [ ] attachNode()
 - [ ] getNode()
 - [ ] querySelector()
 - [x] appendChild()
 
-#### Q65. Which statement is used to skip iteration of the loop?
+#### Q64. Which statement is used to skip iteration of the loop?
 - [ ] break
 - [ ] pass
 - [ ] skip
 - [x] continue
 
-#### Q66. Which choice is valid example for an arrow function?
+#### Q65. Which choice is valid example for an arrow function?
 - [x] (a,b) => c
 - [ ] a, b => {return c;}
 - [ ] a, b => c
 - [ ] { a, b } => c
 
-#### Q67. Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior?
+#### Q66. Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior?
 - [x] class
 - [ ] generator function
 - [ ] map
 - [ ] proxy
 
-#### Q68. How do you add a comment to JavaScript code?
+#### Q67. How do you add a comment to JavaScript code?
 - [ ] ! This is a comment
 - [ ] # This is a comment
 - [ ] \\ This is a comment
 - [x] // This is a comment
 
-#### Q69. If you attempt to call a value as a function but the value is not a function, what kind of error would you get?
+#### Q68. If you attempt to call a value as a function but the value is not a function, what kind of error would you get?
 - [x] TypeError
 - [ ] SystemError
 - [ ] SyntaxError
 - [ ] LogicError
 
-#### Q70. Which method is called automatically when an object is initialized?
+#### Q69. Which method is called automatically when an object is initialized?
 - [ ] create()
 - [ ] new()
 - [x] constructor()
 - [ ] init()
 
-#### Q71. What is the result of running the statement shown?
+#### Q70. What is the result of running the statement shown?
 ```javascript
 let a = 5;
 console.log(++a);
@@ -636,7 +626,7 @@ console.log(++a);
 - [x] 6
 - [ ] 5
 
-#### Q72. You've written the event listener shown below for a form button, but each time you cklick the button, the page reloads. Which statement would stop this from happening?
+#### Q71. You've written the event listener shown below for a form button, but each time you cklick the button, the page reloads. Which statement would stop this from happening?
 ```javascript
 button.addEventListener('click',function(e) {
    button.className = 'clicked';
@@ -647,36 +637,36 @@ button.addEventListener('click',function(e) {
 - [ ] button.blockReload();
 - [x] e.preventDefault();
 
-#### Q73. Which statement represents the starting code converted to an IIFE?
+#### Q72. Which statement represents the starting code converted to an IIFE?
 - [ ] `function() { console.log('lorem ipsum'); }()();`
 - [ ] `function() { console.log('lorem ipsum'); }();`
 - [x] `(function() { console.log('lorem ipsum'); })();`
 
-#### Q74. Which statement selects all img elements in the DOM tree?
+#### Q73. Which statement selects all img elements in the DOM tree?
 - [ ] `Document.querySelector('img')`
 - [ ] `Document.querySelectorAll('<img>')`
 - [x] `Document.querySelectorAll('img')`
 - [ ] `Document.querySelector('<img>')`
 
-#### Q75. Why would you choose an asynchronous structure for your code?
+#### Q74. Why would you choose an asynchronous structure for your code?
 - [ ] To use ES6 syntax
 - [ ] To start tasks that might take some time without blocking subsequent tasks from executing immediately
 - [ ] To ensure that parsers enforce all JavaScript syntax rules when processing your code
 - [x] To ensure that tasks further down in your code aren't initiated until earlier tasks have completed
 
-#### Q76. What is the HTTP verb to request the contents of an existing resource?
+#### Q75. What is the HTTP verb to request the contents of an existing resource?
 - [ ] DELETE
 - [x] GET
 - [ ] PATCH
 - [ ] POST
 
-#### Q77. Which event is fired on a text field within a form when a user tabs to it, or clicks or touches it?
+#### Q76. Which event is fired on a text field within a form when a user tabs to it, or clicks or touches it?
 - [x] focus
 - [ ] blur
 - [ ] hover
 - [ ] enter
 
-#### Q78. What is the result in the console of running this code?
+#### Q77. What is the result in the console of running this code?
 ```javascript
 function logThis() {
    console.log(this);
