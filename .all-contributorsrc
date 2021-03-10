@@ -2667,7 +2667,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/71970927?v=4",
       "profile": "https://github.com/Superv1sor",
       "contributions": [
-        "code"
+        "code",
+        "design"
       ]
     },
     {
@@ -2745,6 +2746,34 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/80295779?v=4",
       "profile": "https://github.com/IamNotPeterPan",
       "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Cetger",
+      "name": "Cetger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31896026?v=4",
+      "profile": "https://github.com/Cetger",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "pkonopacki1",
+      "name": "pkonopacki",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17990597?v=4",
+      "profile": "https://github.com/pkonopacki1",
+      "contributions": [
+        "design"
+      ]
+    },
+    {
+      "login": "jokerkeny",
+      "name": "Yang Yang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10593391?v=4",
+      "profile": "https://github.com/jokerkeny",
+      "contributions": [
+        "design",
         "code"
       ]
     }
