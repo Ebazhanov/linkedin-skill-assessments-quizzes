@@ -180,10 +180,10 @@ server.listen(port, hostname, () => { console.log(`server running at http://${ho
 
 #### Q27.What does the code shown below do?
 ```
-const fs = require('fs'); const os o require('os');
+const fs = require('fs'); const os = require('os');
 const system = os.platform(); const user = os.userInfo().username;
-fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) throw err; console.log('The data was appended to file!');
-) ;
+fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) throw err; console.log('The data was appended to file!');}
+);
 ```
  - [x] creates a text file hello.txt and appends customized text
  - [ ] creates an image file
