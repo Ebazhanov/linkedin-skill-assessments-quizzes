@@ -30,10 +30,10 @@
 
 #### Q5. What is the best way to apply bold styling to text?
 
-- [x] `<strong>`
+- [ ] `<strong>`
 - [ ] Use CSS.
 - [ ] `<bold>`
-- [ ] `<b>`
+- [x] `<b>`
 
 #### Q6. When is the `<link>` tag used?
 
