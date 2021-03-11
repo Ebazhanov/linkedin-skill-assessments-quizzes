@@ -191,3 +191,29 @@
  - [ ] Shrink to Fit
  - [ ] templates 
 
+#### Q27. What should you use to highlight a specific visualization in a report? 
+ - [ ] Spotlight
+ - [ ] Highlight 
+ - [ ] Magnify 
+ - [ ] None of the answers
+
+#### Q28. What does My Workspace on powerbi.com include?  
+ - [ ] Visualizations and a fields list 
+ - [ ] Toolbars and preferences 
+ - [ ] Workbooks and visualizations 
+ - [ ] Dashboards and reports 
+
+#### Q29. You want to access the underlying data for a specific data point in a visualization. What should you choose?
+ - [ ] Drill up 
+ - [ ] Drill down
+ - [ ] Expand to next level 
+ - [ ] Collapse
+
+#### Q30. You have a treemap visualization that groups by sales territory. To allow users to further analyze data for a specific territory, what filter should you apply?
+ - [ ] Visual level
+ - [ ] Page level 
+ - [ ] Drillthrough 
+ - [ ] Expand down 
+
+
+
