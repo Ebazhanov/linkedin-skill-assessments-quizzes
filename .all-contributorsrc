@@ -2787,6 +2787,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "omurilo",
+      "name": "Murilo Henrique",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1813234?v=4",
+      "profile": "https://omurilo.dev",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
