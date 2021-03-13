@@ -105,8 +105,8 @@ End Sub
 - [ ] 1 row and 10 columns
 
 #### Q11. Which cell is selected if you run this code?
-`Range("E3:312").Range("B3") Select`
+`Range("E3:312").Range("B3").Select`
 - [ ] F5
-- [ ] F3
+- [X] F3
 - [ ] B3
 - [ ] E3
