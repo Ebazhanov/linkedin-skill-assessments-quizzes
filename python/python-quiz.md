@@ -342,6 +342,7 @@ return output
 - [x] The `all()` function returns True if all items in the list evaluate to True. Otherwise, it returns False.
 
 #### Q33. What is the correct syntax for calling an instance method on a class named Game?
+*(Answer format may vary. Game and roll (or dice_roll) should each be called with no parameters.)*
 - [x]
 ```
 >>> dice = Game()
@@ -674,7 +675,7 @@ def sales_tax(amount):
 - [x]
 ```
 def calculate_sales_tax(subtotal):
-    pass`
+    pass
 ```
 
 #### Q64. What would happen if you did not alter the state of the element that an algorithm is operating on recursively?
@@ -713,8 +714,20 @@ def calculate_sales_tax(subtotal):
 - [ ] a stacks adds items to the top and removes items from anywhere in the stack.
 - [ ] a stacks adds items to either end and removes items from either end.
 
-#### Q70. what is a base case in a recursive function?
-- [ ] A base case is the condition that allows the algorithm to stop recursing. It is usually a problem that is small enough to solve  directly.
+#### Q70. What is a base case in a recursive function?
+- [x] A base case is the condition that allows the algorithm to stop recursing. It is usually a problem that is small enough to solve directly.
 - [ ] The base case is summary of the overall problem that needs to be solved.
 - [ ] The base case is passed in as an argument to a function whose body makes use of recursion.
 - [ ] The base case is similar to a base class, in that it can be inherited by another object.
+
+#### Q71. Why is it considered good practice to open a file from within a Python script by using the `with` keyword?
+- [ ] The `with` keyword lets you choose which application to open the file in.
+- [ ] The `with` keyword acts like a `for` loop, and lets you access each line in the file one by one.
+- [ ] There is no benefit to using the `with` keyword for opening a file in Python.
+- [x] When you open a file using the `with` keyword in Python, Python will make sure the file gets closed, even if an exception or error is thrown.
+
+#### Q72. Why would you use a virtual environment?
+- [x] Virtual environments create a "bubble" around your project so that any libraries or packages you install within it don't affect your entire machine.
+- [ ] Teams with remote employees use virtual environments so they can share code, do code reviews, and collaorate remotely.
+- [ ] Virtual environments were common in Python 2 because they augmented missing features in the language. Virtual environments are not necessary in Python 3 due to advancements in the language.
+- [ ] Virtual environments are tied to your GitHub or Bitbucket account, allowing you to access any of your repos virtually from any machine.
