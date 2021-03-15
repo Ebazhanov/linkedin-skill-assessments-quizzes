@@ -40,7 +40,7 @@ End Sub
 ```
 - [ ] 2
 - [ ] 10
-- [ ] First arg
+- [x] First arg
 - [ ] 3.1416
 
 #### Q5. What object is needed to put a userform module in a VBA project?
@@ -110,3 +110,13 @@ End Sub
 - [X] F3
 - [ ] B3
 - [ ] E3
+#### Q12. Which variable name is valid in VBA?
+- [x] _MyVar
+- [ ] My_Var
+- [ ] My-Var
+- [ ] 1MyVar
+Reference: https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/visual-basic-naming-rules
+Use the following rules when you name procedures, constants, variables, and arguments in a Visual Basic module:
+You must use a letter as the first character.
+You can't use a space, period (.), exclamation mark (!), or the characters @, &, $, # in the name.
+Name can't exceed 255 characters in length.
