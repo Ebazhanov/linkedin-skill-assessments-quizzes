@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-290-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-291-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
@@ -489,6 +489,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/mshoaibsarwar"><img src="https://avatars.githubusercontent.com/u/41059724?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Muhammad Shoaib Sarwar</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=mshoaibsarwar" title="Code">💻</a></td>
     <td align="center"><a href="https://omurilo.dev"><img src="https://avatars.githubusercontent.com/u/1813234?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Murilo Henrique</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=omurilo" title="Code">💻</a> <a href="#design-omurilo" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/emilianoalvz"><img src="https://avatars.githubusercontent.com/u/79676937?v=4?s=100" width="100px;" alt=""/><br /><sub><b>emilianoalvz</b></sub></a><br /><a href="#design-emilianoalvz" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=emilianoalvz" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.ratepay.com"><img src="https://avatars.githubusercontent.com/u/34478920?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sumana Saha</b></sub></a><br /><a href="#design-sumanas27" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sumanas27" title="Code">💻</a></td>
   </tr>
 </table>
 
