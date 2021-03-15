@@ -150,6 +150,8 @@ SELECT @UniqueID AS Result;
 - [ ] SELECT TOP(1) first_name, last_name FROM Student;
 - [ ] SELECT TOP(1) first_name, last_name FROM RAND(Student);
 
+[https://www.petefreitag.com/item/466.cfm](https://www.petefreitag.com/item/466.cfm)
+
 #### Q19. What result is returned after executing the following commands?
 
     DECLARE @MyVariable int;
