@@ -485,9 +485,9 @@
 - [x] `NOT FOUND` handler
 
 #### Q64. Which type of backup includes all the changes made to the data since the last full backup was performed?
-- [x] snapshot
+- [ ] snapshot
 - [ ] logical
-- [ ] differential
+- [x] differential
 - [ ] incremental
 
 #### Q65. You need to restore a MySQL database from a backup file. Which command-line tool do you use for the actual data import, after re-creating the database?
