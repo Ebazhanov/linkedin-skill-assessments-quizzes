@@ -115,8 +115,11 @@ End Sub
 - [ ] My_Var
 - [ ] My-Var
 - [ ] 1MyVar
-Reference: https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/visual-basic-naming-rules
+  
+[Reference link](https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/visual-basic-naming-rules)
+```
 Use the following rules when you name procedures, constants, variables, and arguments in a Visual Basic module:
 You must use a letter as the first character.
 You can't use a space, period (.), exclamation mark (!), or the characters @, &, $, # in the name.
 Name can't exceed 255 characters in length.
+```
