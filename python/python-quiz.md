@@ -710,7 +710,7 @@ def calculate_sales_tax(subtotal):
 
 #### Q69. Which statement accurately describes how items are added to and remnoved from a stack?
 - [ ] a stacks adds items to one side and removes items from the other side.
-- [ ] a stacks adds items to the top and removes items from the top.
+- [x] a stacks adds items to the top and removes items from the top.
 - [ ] a stacks adds items to the top and removes items from anywhere in the stack.
 - [ ] a stacks adds items to either end and removes items from either end.
 
