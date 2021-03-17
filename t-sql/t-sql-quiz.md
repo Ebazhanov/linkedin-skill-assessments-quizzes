@@ -145,10 +145,12 @@ SELECT @UniqueID AS Result;
 - [ ] abc def
 
 #### Q18. To select a random student from the table, which statement could you use?
-- [ ] SELECT TOP(1) first_name, last_name FROM Students ORDER BY NEWID();
+- [x] SELECT TOP(1) first_name, last_name FROM Students ORDER BY NEWID();
 - [ ] SELECT TOP(1) RAND(first_name, last_name) FROM Student;
-- [x] SELECT TOP(1) first_name, last_name FROM Student;
+- [ ] SELECT TOP(1) first_name, last_name FROM Student;
 - [ ] SELECT TOP(1) first_name, last_name FROM RAND(Student);
+
+[https://www.petefreitag.com/item/466.cfm](https://www.petefreitag.com/item/466.cfm)
 
 #### Q19. What result is returned after executing the following commands?
 

@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-288-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-293-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
@@ -16,6 +16,7 @@ if you want to meet each other or discuss quiz related problems join the `Discor
 | ---------------------------------------------------------------------------- | --------------- | ------------- | ----------------------------------------------------------------------------------------------------------- |
 | [Adobe-Illustrator](adobe-illustrator/adobe-illustrator-quiz.md)             | => 51 questions | => 0 answers  |                                                                                                             |
 | [Adobe-Photoshop](adobe-photoshop/adobe-photoshop-quiz.md)                   | => 36 questions | => 36 answers |                                                                                                             |
+| [Adobe Premiere Pro](adobe-premiere-pro/adobe-premiere-pro-quiz.md)       | => 47 questions | => 0 answers |                                                                                                             |
 | [Agile Methodologies](agile-methodologies/agile-methodologies-quiz.md)       | => 76 questions | => 76 answers |                                                                                                             |
 | [Android](android/android-quiz.md)                                           | => 44 questions | => 40 answers |                                                                                                             |
 | [AngularJs](angularjs/angularjs-quiz.md)                                     | => 15 questions | => 2 answers  |                                                                                                             |
@@ -66,6 +67,7 @@ if you want to meet each other or discuss quiz related problems join the `Discor
 | [Scala](scala/scala-quiz.md)                                                 | => 25 questions | => 25 answers |                                                                                                             |
 | [Search Engine Optimization (SEO)](seo/search-engine-optimization-quiz.md)   | => 29 questions | => 28 answers |                                                                                                             |
 | [SharePoint](sharepoint/sharepoint-quiz.md)                                  | => 29 questions | => 29 answers |                                                                                                             |
+| [Spring Framework](spring-framework/spring-framework-quiz.md)                | => 15 questions | => 15 answers |  [@sumanas27](https://github.com/sumanas27), [@rradfar](https://github.com/rradfar)                                                                                                           |
 | [Swift](swift/swift-quiz.md)                                                 | => 48 questions | => 48 answers |                                                                                                             |
 | [Transact-SQL (T-SQL)](t-sql/t-sql-quiz.md)                                  | => 28 questions | => 28 answers |                                                                                                             |
 | [Visual Basic for Applications (VBA)](vba/vba-quiz.md)                       | => 11 questions | => 0 answers  |                                                                                                             |
@@ -487,6 +489,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/mshoaibsarwar"><img src="https://avatars.githubusercontent.com/u/41059724?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Muhammad Shoaib Sarwar</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=mshoaibsarwar" title="Code">💻</a></td>
+    <td align="center"><a href="https://omurilo.dev"><img src="https://avatars.githubusercontent.com/u/1813234?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Murilo Henrique</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=omurilo" title="Code">💻</a> <a href="#design-omurilo" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/emilianoalvz"><img src="https://avatars.githubusercontent.com/u/79676937?v=4?s=100" width="100px;" alt=""/><br /><sub><b>emilianoalvz</b></sub></a><br /><a href="#design-emilianoalvz" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=emilianoalvz" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.ratepay.com"><img src="https://avatars.githubusercontent.com/u/34478920?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sumana Saha</b></sub></a><br /><a href="#design-sumanas27" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sumanas27" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Yurii17K"><img src="https://avatars.githubusercontent.com/u/56108535?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yurii17K</b></sub></a><br /><a href="#design-Yurii17K" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Yurii17K" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/rpshbhandari"><img src="https://avatars.githubusercontent.com/u/67644582?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rupesh Bhandari</b></sub></a><br /><a href="#design-rpshbhandari" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=rpshbhandari" title="Code">💻</a></td>
   </tr>
 </table>
 

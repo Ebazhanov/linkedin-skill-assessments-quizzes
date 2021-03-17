@@ -183,7 +183,7 @@
 #### Q30. Refer to the two following URLs. How can you make this data more readable in Google Analytics by mapping the actual product names to the ID in the URL? `.../shop/?ProductID=1234` `.../shop/?ProductID=5678`
 - [ ] Configure calculated metrics.
 - [ ] Use a custom import.
-- [ ] This functionality is not possible.
+- [x] This functionality is not possible.
 - [ ] Create a search and replace filter.
 
 #### Q31. What is this report an example of?

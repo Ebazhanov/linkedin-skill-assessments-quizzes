@@ -2787,6 +2787,56 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "omurilo",
+      "name": "Murilo Henrique",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1813234?v=4",
+      "profile": "https://omurilo.dev",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "emilianoalvz",
+      "name": "emilianoalvz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79676937?v=4",
+      "profile": "https://github.com/emilianoalvz",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "sumanas27",
+      "name": "Sumana Saha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34478920?v=4",
+      "profile": "https://www.ratepay.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Yurii17K",
+      "name": "Yurii17K",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56108535?v=4",
+      "profile": "https://github.com/Yurii17K",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "rpshbhandari",
+      "name": "Rupesh Bhandari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67644582?v=4",
+      "profile": "https://github.com/rpshbhandari",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
