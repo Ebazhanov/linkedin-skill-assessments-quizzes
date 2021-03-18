@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-294-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-295-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
@@ -495,6 +495,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Yurii17K"><img src="https://avatars.githubusercontent.com/u/56108535?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yurii17K</b></sub></a><br /><a href="#design-Yurii17K" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Yurii17K" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/rpshbhandari"><img src="https://avatars.githubusercontent.com/u/67644582?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rupesh Bhandari</b></sub></a><br /><a href="#design-rpshbhandari" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=rpshbhandari" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/salmos3718"><img src="https://avatars.githubusercontent.com/u/80355019?v=4?s=100" width="100px;" alt=""/><br /><sub><b>salmos3718</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=salmos3718" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/baker-jr-john/"><img src="https://avatars.githubusercontent.com/u/71906203?v=4?s=100" width="100px;" alt=""/><br /><sub><b>John Baker</b></sub></a><br /><a href="#design-baker-jr-john" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=baker-jr-john" title="Code">💻</a></td>
   </tr>
 </table>
 
