@@ -2846,6 +2846,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "baker-jr-john",
+      "name": "John Baker",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71906203?v=4",
+      "profile": "https://www.linkedin.com/in/baker-jr-john/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
