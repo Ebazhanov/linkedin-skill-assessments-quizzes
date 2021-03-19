@@ -5,11 +5,11 @@
 - [ ] Double-click the timeline, change the Finish date, and then click OK.
 - [ ] Select the timeline shape, then drag the control handle on the right end of the timeline to the right.
 - [ ] Re-create the timeline using the updated finish date.
-- [ X ] Right-click the timeline, select Configure Timeline, change the Finish date, and then click OK.
+- [x] Right-click the timeline, select Configure Timeline, change the Finish date, and then click OK.
 
 #### Q2. What is the correct order of the three basic steps required to create nearly all diagrams?
 
-- [ X ] A
+- [x] A
 
 ```markdown
 1. Create a new diagram from one of the templates.
@@ -46,32 +46,32 @@
 - [ ] The tools on the Mini Toolbar draw shapes with red borders.
 - [ ] The tools on the Home tab automatically revert to the Pointer tool after drawing one shape.
 - [ ] The tools on the Home tab draw shapes with dashed-line borders.
-- [ X ] The tools on the Mini Toolbar automatically revert to the Pointer tool after drawing one shape.
+- [x] The tools on the Mini Toolbar automatically revert to the Pointer tool after drawing one shape.
 
-#### Q4. Which of these is *not* one of the standard data sources that is available when running the **Data Selector Wizard**?
+#### Q4. Which of these is _not_ one of the standard data sources that is available when running the **Data Selector Wizard**?
 
-- [ X ] Microsoft Outlook tasks list
+- [x] Microsoft Outlook tasks list
 - [ ] Microsoft Access database
 - [ ] Microsoft SQL Server database
 - [ ] Microsoft SharePoint Foundation list
 
 #### Q5. A rack diagram is an example of a \_\_\_, one in which the size of the shapes on the page is dependent on the size and scale of the page itself.
 
-- [ X ] two-dimensional drawing
+- [x] two-dimensional drawing
 - [ ] units drawing
 - [ ] metric drawing
 - [ ] scaled drawing
 
 #### Q6. What do you call the spreadsheet-like data store that exists behind every object in Visio?
 
-- [ X ] ShapeSheet
+- [x] ShapeSheet
 - [ ] variable list
 - [ ] workspace
 - [ ] Master
 
 #### Q7. You've created a one-page organization chart but would like to remove the picture placeholders from all of the org chart shapes. How do you do it?
 
-- [ X ] Select all shapes on the page, then on the Org Chart tab, in the Picture group, click Show/Hide.
+- [x] Select all shapes on the page, then on the Org Chart tab, in the Picture group, click Show/Hide.
 - [ ] Ensure that no shapes are selected, then on the Org Chart tab, in the Picture group, click Show/Hide.
 - [ ] Select the Executive shape, then on the Org Chart tab, in the Picture group, click Show/Hide.
 - [ ] Right-click the Executive shape, select Picture, and then select Hide.
@@ -81,7 +81,7 @@
 - [ ] a visual boundary around sets of objects that also builds logical relationships
 - [ ] a container that maintains an ordered relationship among its members
 - [ ] a shape that is glued to others to add comments
-- [ X ] a one-dimensional shape that is used to connect two shapes
+- [x] a one-dimensional shape that is used to connect two shapes
 
 #### Q9. Which flowchart shape indicates a question or branch in the process flow?
 
@@ -89,7 +89,7 @@
 
 ![image](images/001.png)
 
-- [ X ] B
+- [x] B
 
 ![image](images/002.png)
 
@@ -106,19 +106,19 @@
 - [ ] Message Flow
 - [ ] Association
 - [ ] Data Object
-- [ X ] Text Annotation
+- [x] Text Annotation
 
 #### Q11. When a shape is rotated in Visio, what does it rotate around?
 
 - [ ] the center of the page
-- [ X ] the shape's pin position
+- [x] the shape's pin position
 - [ ] the shape's center of gravity
 - [ ] the origin on the rulers
 
 #### Q12. Which is one of the template categories in the Visio Standard desktop app?
 
 - [ ] Engineering
-- [ X ] Software and Database
+- [x] Software and Database
 - [ ] Maps and Floor Plans
 - [ ] Science
 
@@ -127,13 +127,13 @@
 ![image](images/005.png)
 
 - [ ] Belt shape
-- [ X ] hidden subordinates
+- [x] hidden subordinates
 - [ ] synchronized copy
 - [ ] executive position
 
 #### Q14. You need to create a diagram showing many servers, switches, and other devices in a large corporate environment. Which diagram should you use?
 
-- [ X ] detailed network diagram
+- [x] detailed network diagram
 - [ ] rack diagram
 - [ ] baseline
 - [ ] wiring schematic
@@ -142,40 +142,40 @@
 
 - [ ] Use the Container Tools Format tab and under Membership, use Select Contents to add the shapes.
 - [ ] Center the container over the top of the shapes.
-- [ X ] Select all the shapes to be added, right-click, and select Container \> Add to Underlying Container.
+- [x] Select all the shapes to be added, right-click, and select Container \> Add to Underlying Container.
 - [ ] Select the container and use the commands in the Format tab to add the shapes.
 
 #### Q16. Which of these defines the relative front-to-back position of the shape of a drawing?
 
 - [ ] layer
-- [ X ] z-order
+- [x] z-order
 - [ ] x-coordinate
 - [ ] y-coordinate
 
-#### Q17. On a Visio organization chart, which is *not* one of the standard shapes?
+#### Q17. On a Visio organization chart, which is _not_ one of the standard shapes?
 
 - [ ] manager
 - [ ] executive
 - [ ] associate
-- [ X ] assistant
+- [x] assistant
 
 #### Q18. You need to save a Visio drawing that contains a VBA macro. Which file format do you use?
 
 - [ ] .vsdm
 - [ ] .vstx
 - [ ] .vssx
-- [ x ] .vsdx
+- [x] .vsdx
 
 #### Q19. If you want to move a shape using the mouse, which key should you hold down so that the movement is restricted to being only horizontal or vertical?
 
 - [ ] Alt
 - [ ] Ctrl
 - [ ] Tab
-- [ x ] Shift
+- [x] Shift
 
 #### Q20. How do you constrain the Rectangle and Ellipse tools so they draw only squares or circles?
 
-- [  xx ] Hold down the Shift key while dragging the selection handle.
+- [x] Hold down the Shift key while dragging the selection handle.
 - [ ] Hold down the Ctrl key while dragging the selection handle.
 - [ ] Hold down the Tab key while dragging the selection handle.
 - [ ] Hold down the Shift key while dragging the selection handle.
@@ -185,11 +185,11 @@
 - [ ] Press Shift+F7.
 - [ ] Press Shift+F5.
 - [ ] Press F7.
-- [ x ] Press F5.
+- [x] Press F5.
 
 #### Q22. Which report would you run to provide equipment shape text, network name, network description, building, room, and asset number?
 
-- [ x ] Network Equipment
+- [x] Network Equipment
 - [ ] Network Device
 - [ ] PC Report
 - [ ] Inventory
@@ -197,14 +197,14 @@
 #### Q23. You are inserting a hyperlink from one shape in a Visio drawing to another shape. Which of these attributes of the target shape must you specify as part of the hyperlink?
 
 - [ ] Z-Order
-- [ X ] Type
+- [x] Type
 - [ ] Name
 - [ ] Master
 
 #### Q24. Management asked you to build an organization chart showing each employee's hire date and years of service separately from the shape data. Which data graphic should you use to show this data?
 
 - [ ] insertion bar
-- [ X ] data bar
+- [x] data bar
 - [ ] text callout
 - [ ] icon set
 
@@ -212,7 +212,7 @@
 
 ![image](images/006.png)
 
-- [ X ] Auto Align
+- [x] Auto Align
 - [ ] Auto Space
 - [ ] Align Center
 - [ ] Align Right
@@ -220,41 +220,41 @@
 #### Q26. Why would you use an icon set in your drawing?
 
 - [ ] to simply show data in the form of text, or to show text plus other symbols related to data, such as currency symbols
-- [ X ] to show conditions; to visualize data in grouped percentages, amounts, or degrees; and simply to represent data in yes-or-no format
+- [x] to show conditions; to visualize data in grouped percentages, amounts, or degrees; and simply to represent data in yes-or-no format
 - [ ] to show percentages, ratings, progressions, scores, and amounts for comparing symbols and identifying symbol performance
 - [ ] to fill shapes with color according to their data, such as identifying all shapes of a color as "on" and different colored shapes as "off"
 
-#### Q27. Which is *not* a way to disable AutoConnect with the Quick Shapes menu?
+#### Q27. Which is _not_ a way to disable AutoConnect with the Quick Shapes menu?
 
 - [ ] On the View tab, in the Visual Aids group, clear the AutoConnect check box.
 - [ ] On the File tab, open the Options dialog. In the Advanced group, clear Enable AutoConnect.
 - [ ] In the Quick Shapes menu, select a connector or container shape first. This way, no shapes will appear on the Quick Shapes menu.
-- [ X ] Open the Document Stencil and move all shapes out of the "Drop Quick Shapes here" area.
+- [x] Open the Document Stencil and move all shapes out of the "Drop Quick Shapes here" area.
 
 #### Q28. How do you add a foreground page immediately after the current foreground page?
 
 - [ ] From the Insert tab, in the Pages group, click the New Page button.
 - [ ] Right-click the page name tab, click Page Setup, enter a new name in the Name box, and select Foreground.
-- [ X ] Right-click the page name tab, click Insert, and on the Page Properties tab, select Foreground.
+- [x] Right-click the page name tab, click Insert, and on the Page Properties tab, select Foreground.
 - [ ] From the Insert tab, in the Pages group, click the New Page arrow and select Blank Page.
 
-#### Q29. Which is *not* one of the standard options for reducing the file size of a drawing?
+#### Q29. Which is _not_ one of the standard options for reducing the file size of a drawing?
 
 - [ ] remove preview picture
-- [ X ] compress shape data
+- [x] compress shape data
 - [ ] remove unused themes, data graphics, and styles
 - [ ] remove unused master shapes
 
 #### Q30. How do you move among multiple documents when you have them all open in the same instance of Visio?
 
-- [ X ] Press Ctrl+F6.
+- [x] Press Ctrl+F6.
 - [ ] Press Shift+F6.
 - [ ] Press Ctrl+Shift+F6.
 - [ ] On the View tab, in the Window group, click the Next Window button.
 
-#### Q31. You have dragged a table shape from the Office Furniture stencil into an office layout diagram, but it is not the correct width. Which method can you *not* use to set the width of the table?
+#### Q31. You have dragged a table shape from the Office Furniture stencil into an office layout diagram, but it is not the correct width. Which method can you _not_ use to set the width of the table?
 
-- [X ] A
+- [x] A
 
 ```markdown
 1. Select the table shape.
@@ -287,5 +287,5 @@
 
 - [ ] Ctrl+Home
 - [ ] Ctrl+W
-- [ X ] Ctrl+Shift+W
+- [x] Ctrl+Shift+W
 - [ ] Esc
