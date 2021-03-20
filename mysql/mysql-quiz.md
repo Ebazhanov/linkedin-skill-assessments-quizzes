@@ -16,7 +16,7 @@
 - [ ] row level
 - [ ] database level
 - [x] column level
-- [ ] function leve
+- [ ] function level
 
 #### Q4. Which option of most MySQL command-line programs can be used to get a description of the program's different options?
 - [ ] --options
@@ -26,7 +26,7 @@
 
 #### Q5. MySQL uses environment variables in some of the programs and command-line operations. Which variable is used by the shell to find MySQL programs?
 - [ ] DIR
-- [ ] HOМЕ
+- [ ] HOME
 - [x] PATH
 - [ ] MYSQL_HOME
 
@@ -118,7 +118,7 @@
 #### Q10. Which query would NOT be used to administer a MySQL server?
 - [ ] USE db
 - [x] SELECT column FROM tbl
-- [ ] SHOW COLUMNS FROM tb1
+- [ ] SHOW COLUMNS FROM tbl
 - [ ] SHOW TABLES
 
 #### Q11. What is the product of the database designing phase?
@@ -302,7 +302,7 @@
 - [ ] inefficient for storing json documents
 - [x] cannot be indexed directly
 - [ ] documents cannot be validated when stored in json columns
-- [ ] cannot be normalized --- no
+- [ ] cannot be normalized
 
 #### Q41.Which statement is true for the diagram below
 ![mysql Q41](images/mysql_q41.jpg)
@@ -317,7 +317,7 @@
 - [ ] load data local infile (also correct but only if the file is from the client)
 - [ ] extended insert statement
 
-#### Q43.See tables in the diagram. Make sure that any record added to the purchase table consists of a customerId, which exists in the customer table and a carId, which exists in the car table. You decide to use a trigger to do the validation. Which one?
+#### Q43. See tables in the diagram. Make sure that any record added to the purchase table consists of a customerId, which exists in the customer table and a carId, which exists in the car table. You decide to use a trigger to do the validation. Which one?
 ![mysql Q43](images/mysql_q43.jpg)
 - [ ] after insert
 - [ ] if exists (invalid not a trigger; IF function + EXISTS clause)
@@ -325,23 +325,19 @@
 - [ ] cross join (valid for a check but not a trigger)
 
 #### Q44. Which is the correct syntax of an extended insert statement?
-- [ ]
-  insert into cars (make, model, year) values ('Ford', 'Mustang', 2002)
+- [ ] insert into cars (make, model, year) values ('Ford', 'Mustang', 2002)
   ('Mercedes', 'C', 2003)
 
-- [ ]
-  insert into cars (make, model, year) values ('Ford', 'Mustang', 2002)
+- [ ] insert into cars (make, model, year) values ('Ford', 'Mustang', 2002)
   values ('Mercedes', 'C', 2003)
 
-- [ ]
-  insert into cars (make, model, year) extended ('Ford', 'Mustang', 2002),
+- [ ] insert into cars (make, model, year) extended ('Ford', 'Mustang', 2002),
   ('Mercedes', 'C', 2003)
 
-- [x]
-  insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
+- [x] insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
   ('Mercedes', 'C', 2003)
 
-### Q 45. You need an exact copy of a table with all columns and indexes. How?
+#### Q45. You need an exact copy of a table with all columns and indexes. How?
 - [ ] create table
 - [ ] clone table
 - [ ] insert into
@@ -378,7 +374,7 @@
 - [x] to display storage error codes
 
 `*note: perror prints a description for a system error code or for a storage engine (table handler) error code.` 
-[link:](https://dev.mysql.com/doc/refman/5.7/en/perror.html#:~:text=2%20perror%20%E2%80%94%20Display%20MySQL%20Error%20Message%20Information,-For%20most%20system&text=You%20can%20find%20out%20what,(table%20handler)%20error%20code.)
+[link](https://dev.mysql.com/doc/refman/5.7/en/perror.html#:~:text=2%20perror%20%E2%80%94%20Display%20MySQL%20Error%20Message%20Information,-For%20most%20system&text=You%20can%20find%20out%20what,(table%20handler)%20error%20code.)
 
 #### Q51. How can you list all columns for a given table?
 - [ ] SHOW table COLUMNS;
@@ -404,11 +400,11 @@
 - [ ] mysql.admin;
 - [x] mysql.user;
 
-#### Q55. Management has requested that you build an employee database. You need to include each employee's current position and salary, as well as all prior positions and salaries with the company. You decide to use a one-to-many structure: an employee table with the main information such as name and address, and an employment table with position and salary history. You can use the employeelD field to connect them. What is employment.employeelD an example of?
+#### Q55. Management has requested that you build an employee database. You need to include each employee's current position and salary, as well as all prior positions and salaries with the company. You decide to use a one-to-many structure: an employee table with the main information such as name and address, and an employment table with position and salary history. You can use the employeeID field to connect them. What is employment.employeeID an example of?
 - [ ] primary key;
 - [ ] secondary key;
 - [x] foreign key;
-- [ ] alternet key;
+- [ ] alternate key;
 
 #### Q56. In recent versions of MySQL (8.0+), what's the correct syntax to declare a CTE (Common Table Expression)?
 - [ ] WITH (SELECT id FROM users) as cte, SELECT ...
@@ -422,7 +418,7 @@
 - [ ] to make the system faster
 - [ ] to prevent data anomalies
 
-#### Q58. The code snippet below is used to read data from an XML file into a table. Which XML structure is **not** supported by the statement?
+#### Q58. The code snippet below is used to read data from an XML file into a table. Which XML structure is _not_ supported by the statement?
 ```
 1 LOAD XML LOCAL INFILE 'cars.xml'
 2 INTO TABLE cars
@@ -462,13 +458,13 @@
 #### Q60. Which statement about the `TRUNCATE TABLE` statement is true?
 - [ ] It will stop and issue an error when it encounters a row that is referenced by a row in a child table.
 - [x] It always first drops, then re-creates a new table.
-- [ ] It deletes rows one by one on tables with foreign key contraints.
+- [ ] It deletes rows one by one on tables with foreign key constraints.
 - [ ] It does not invoke the `DELETE` triggers associated with the table.
 
 #### Q61. You are working with the tables as shown in this diagram. You need to get the number of cars sold per the home state of each customer's residence. How can you accomplish this?
 ![mysql Q61](images/mysql_q61.png)
 - [ ] `SELECT state, COUNT(*) FROM customers WHERE ID IN (SELECT customerID FROM purchases) GROUP BY state;`
-- [ ] `SELECT state, COUNT(*) FROM customers c LEFT JOIN purchases p ON c.ID = p.ustomerID GROUP BY state;`
+- [ ] `SELECT state, COUNT(*) FROM customers c LEFT JOIN purchases p ON c.ID = p.customerID GROUP BY state;`
 - [x] `SELECT state, COUNT(*) FROM customers c, purchases p WHERE c.ID = p.customerID GROUP BY state;`
 - [ ] `SELECT state, COUNT(*) FROM customers GROUP BY state;`
 
@@ -498,7 +494,7 @@
 
 #### Q66. You are importing data as JSON into a new table. You run CREATE TABLE json_data ( city JSON ); and insert rows into this table. What is the correct syntax to see the list of cities?
 - [ ] SELECT city FROM json_data;
-- [x] SELECT city->>'$.name' city FROM json_data; <= best answer
+- [x] SELECT city->>'$.name' city FROM json_data;
 - [ ] SELECT city.name city FROM json_data; 
 - [ ] SELECT city->'$.name' city FROM json_data; <= this is valid too but the results will be enclosed with quotation marks
 
@@ -541,3 +537,27 @@ SELECT *
 FROM customers
 WHERE MATCH(address) AGAINST ('street, drive');
 ```
+
+#### Q69. Which query lists the databases on the current server?
+- [x] SHOW DATABASES;
+- [ ] LIST ALL DATABASES;
+- [ ] LIST DATABASES;
+- [ ] SHOW DB;
+
+#### Q70. What is the product of the database designing phase?
+- [ ] all tables, columns, data types, indexes and their relationships
+- [ ] a list of entities, their relationship, and constraints
+- [ ] all tables and their names, which are needed to implement the logical model
+- [ ] a list of entities, their relationship, constraints, data types, and cardinalities
+
+#### Q71. Which choice is _not_ a valid mode for a stored procedure parameter?
+- [ ] INOUT
+- [ ] IN
+- [ ] OUT
+- [ ] IN OUT
+
+#### Q72. What is the advantage of using a temporary table instead of a heap table?
+- [ ] The temporary table will be dropped when the database is restarted.
+- [ ] Temporary tables can be shared among clients, which makes them more usable in group development environments.
+- [ ] The temporary table will be dropped as soon as your session disconnects.
+- [ ] Creating a temporary table does not require any special privileges.
