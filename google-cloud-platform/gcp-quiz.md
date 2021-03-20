@@ -1,10 +1,10 @@
 ## Google Cloud Platform (GCP)
 
 #### Q1. You want to schedule a cron job to send a message to a Cloud Pub/Sub topic hourly. What do you do?
-- [ ] Create a Cloud Function with a targer of HTTP
-- [ ] Create a Cloud Scheduler job with a targer of HTTP
-- [x] Create a Cloud Function with a targer of Cloud Pub/Sub
-- [ ] Create a Cloud Scheduler job with a targer of Cloud Pub/Sub
+- [ ] Create a Cloud Function with a target of HTTP
+- [ ] Create a Cloud Scheduler job with a target of HTTP
+- [x] Create a Cloud Function with a target of Cloud Pub/Sub
+- [ ] Create a Cloud Scheduler job with a target of Cloud Pub/Sub
 
 #### Q2. You want to set up a managed Apache Spark cluster. Which service do you configure?
 - [ ] Cloud Dataprep
@@ -14,9 +14,11 @@
 
 #### Q3. GCP Organizations are not available in your GCP project. What type of account are you using?
 - [ ] Temporary
-- [x] Free Tier- free trail doesnt have the organization
+- [x] Free Tier
 - [ ] Local
 - [ ] Organizational
+
+Note: Free trial doesn't have the organizations.
 
 #### Q4. What feature do you need to enable to support load balancing and autoscaling managed instance groups for Compute Engine?
 - [ ] metadata
@@ -105,9 +107,9 @@
 - [ ] Use the GCP Organizational console Budgets section to set a billing alert. The organizational admin will be notified if the alert threshold is exceeded.
 
 #### Q17. Cloud SQL supports which two relational databases?
-- [ ] Radis and Oracle
+- [ ] Redis and Oracle
 - [ ] MySQL and Oracle
-- [ ] Radis and PostgreSQL
+- [ ] Redis and PostgreSQL
 - [x] MySQL and PostgreSQL
 
 #### Q18. You want to try out a machine-learning TensorFlow example notebook with the fewest configuration steps on GCP. What do you do?
@@ -169,3 +171,75 @@
 - [x] `cbt createfamily my-table cf1`
 - [ ] `gcloud createfamily cf1 my-table cf1`
 - [ ] `gcloud createfamily my-table cf1`
+
+#### Q28. Which command do you use to connect to a running Compute Engine instance with SSH?
+- [ ] `gcloud ssh compute [instance_name] --zone=[zone]`
+- [ ] `compute ssh connect [instance_name] --zone=[zone]`
+- [x] `gcloud compute ssh [instance_name] --zone=[zone]`
+- [ ] `compute connect ssh [instance_name] --zone=[zone]`
+
+#### Q29. You need to set CORS for some objects in a bucket for a client-side application. What do you do?
+- [ ] Segment the objects into two buckets. For the CORS objects, set the CORS policy at the bucket level.
+- [x] Segment the objects into two buckets. For the CORS objects, set the CORS policy at the bucket level. Add client-side code to handle the requests.
+- [ ] Leave the objects in one bucket. Set the CORS policy at the object level.
+- [ ] Leave the objects in one bucket. Set the CORS policy at the object level. Add client-side code to handle the requests.
+
+#### Q30. For your application, you are building a CI/CD pipeline that logs information when a message is sent to a queue. Which services should you select?
+- [ ] Cloud Functions and Cloud Spanner
+- [ ] Cloud Functions and Cloud Pub/Sub
+- [ ] Cloud Run and Cloud Pub/Sub
+- [ ] Cloud Run and Cloud Spanner
+
+#### Q31. You need to create instances with identical configurations that cannot be changed. Which Compute Engine feature do yo use?
+- [ ] instance templates
+- [ ] instance groups
+- [ ] snapshots
+- [ ] instances
+
+#### Q32. You want to automatically perform security scans on user-developed containers. Where should you advise your users to host their containers?
+- [ ] Google Container Registry
+- [ ] GitLab
+- [ ] Artifactory
+- [ ] Docker Hub
+
+#### Q33. You need to control incoming and outgoing traffic to a Compute Engine instance. What do yo do?
+- [ ] Configure firewall rules.
+- [ ] Configure VPC Network Peering.
+- [ ] Configure routes.
+- [ ] Configure external IP addresses.
+
+#### Q34. Which object is a container for GCP services instances?
+- [ ] group
+- [ ] folder
+- [ ] project
+- [ ] organization
+
+#### Q35. What is needed to access GCP APIs in your project?
+- [ ] GCP VMs
+- [ ] GCP buckets
+- [ ] GCP credentials
+- [ ] GCP users
+
+#### Q36. Which object is used to hold payment information for a GCP project?
+- [ ] organization
+- [ ] billing account
+- [ ] folder
+- [ ] payment account
+
+#### Q37. You need to cache your HTTP and HTTPS static content closer to users, so that you can get faster delivery and reduce serving costs. Which service do you set up?
+- [ ] Cloud DNS
+- [ ] Cloud NAT
+- [ ] Cloud CDN
+- [ ] Cloud Load Balancing
+
+#### Q38. You are designing security for an IoT device application. What best practices should you include in your design?
+- [ ] Use a private key for each device. Keep the private key secret.
+- [ ] Use a public key for each device. Keep the public key secret.
+- [ ] Use a public private key pair for each device. Keep the public key secret.
+- [ ] Use a public private key pair for each device. Keep the private key secret.
+
+#### Q39. You need to set a WordPress site with high availability on GCP using the fewest steps. What do you do?
+- [ ] Configure and launch the WordPress HA deployment template from the GCP Marketplace.
+- [ ] Configure and launch the WordPress HA deployment template from the WordPress Marketplace.
+- [ ] Create, configure, and launch a WordPress HA deployment template on Compute Engine.
+- [ ] Create, configure, and launch a WordPress HA deployment template on Google Kubernetes Engine.
