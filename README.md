@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-296-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-297-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
@@ -332,7 +332,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://marcobiedermann.com"><img src="https://avatars0.githubusercontent.com/u/5244986?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Marco Biedermann</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=marcobiedermann" title="Code">💻</a> <a href="#design-marcobiedermann" title="Design">🎨</a> <a href="#business-marcobiedermann" title="Business development">💼</a> <a href="#ideas-marcobiedermann" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/srinidhimurthy"><img src="https://avatars3.githubusercontent.com/u/10862228?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Srinidhi Murthy</b></sub></a><br /><a href="#design-srinidhimurthy" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/Hephaest"><img src="https://avatars2.githubusercontent.com/u/37981444?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Miao Cai</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Hephaest" title="Code">💻</a> <a href="#design-Hephaest" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/dionicio-gp"><img src="https://avatars3.githubusercontent.com/u/26011982?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dionicio Diaz</b></sub></a><br /><a href="#design-dionicio-gp" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=dionicio-gp" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/dioniciodiaz"><img src="https://avatars3.githubusercontent.com/u/26011982?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dionicio Diaz</b></sub></a><br /><a href="#design-dioniciodiaz" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=dioniciodiaz" title="Code">💻</a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/mirmpro"><img src="https://avatars0.githubusercontent.com/u/14123130?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mir Monoarul Alam</b></sub></a><br /><a href="#design-mirmpro" title="Design">🎨</a></td>
@@ -499,6 +499,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/baker-jr-john/"><img src="https://avatars.githubusercontent.com/u/71906203?v=4?s=100" width="100px;" alt=""/><br /><sub><b>John Baker</b></sub></a><br /><a href="#design-baker-jr-john" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=baker-jr-john" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/SanjaySathiraju"><img src="https://avatars.githubusercontent.com/u/80937013?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SanjaySathiraju</b></sub></a><br /><a href="#design-SanjaySathiraju" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=SanjaySathiraju" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/DKabashi"><img src="https://avatars.githubusercontent.com/u/48384060?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Donat Kabashi</b></sub></a><br /><a href="#design-DKabashi" title="Design">🎨</a></td>
   </tr>
 </table>
 
