@@ -370,7 +370,7 @@ var userLocation: String = "Home" {
 
  userLocation = "Work"
 ```
- - [ ] About to set userLocation to Work… userLocation updated to new value!
+ - [x] About to set userLocation to Work… userLocation updated with new value!
  - [ ] About to set userLocation to Work… userLocation already set to that value…
  - [ ] About to set userLocation to Home… userLocation updated to new value!
  - [ ] ERROR
