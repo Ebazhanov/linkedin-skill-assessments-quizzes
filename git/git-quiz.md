@@ -43,7 +43,7 @@ git merge --squash HEAD@{1}
 
 #### Q6. What will the following command print to the Terminal?
 `git remote -v`
-- [x] A list of remote repositories you are connected to
+- [x] A list of remote repositories and their URLs
 - [ ] The current git version you're running
 - [ ] An inline editor for modifying remote repositories
 - [ ] The last 5 git versions you've installed
@@ -60,10 +60,10 @@ git cherry-pick {kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231}
 
 #### Q8. What does the following command do to the git repository?
 `git reset --soft HEAD^`
-- [ ] Delete all previous commits and reset the repository history back to its initial state.
-- [ ] Resets the working branch to the first commit.
-- [ ] Keeps the HEAD at the current commit, but clears all previous commits.
-- [x] Undoes the last commit in the working branch and sets the HEAD back one commit.
+- [ ] It deletes all previous commits and reset the repository history back to its initial state.
+- [ ] It resets the working branch to the first commit.
+- [ ] It keeps the HEAD at the current commit, but clears all previous commits.
+- [x] It sets HEAD to the previous commit and leaves changes from the undone commit in the stage/index.
 
 #### Q9. You find a bug in your project, but can't locate where it was introduced in the commit history. How would you diagnose this problem?
 - [ ] Manually backtrack through your commit history.
