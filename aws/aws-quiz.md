@@ -374,3 +374,9 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 - [ ] Ansible
 - [ ] Puppet
 - [x] Vagrant
+
+#### Q53. What happens to a SQL Server RDS instance if the databases increase in size and go over the allocated space?
+- [ ] RDS will automatically increase the allocated space by 10% and will send the AWS root account an email with resolution steps.  Allocate more space to avoid overage charges.
+- [x] The database instance will report a STORAGE_FULL status and become inaccessible if the instance does not have enough remaining storage to operate.  Allocate more space to the instance.
+- [ ] SQL Server will close all existing connections to the databases and attempt to shrink its log files to reclaim storage space.
+- [ ] RDS will automatically increase the allocated space by 5% and will continue to allocate new space up to 50% of the orginal allocated space.  When storage space has increase 50%, RDS will automatically stop the instance to preserve data integrity.
