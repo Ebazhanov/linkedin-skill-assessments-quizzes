@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-298-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-299-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
@@ -501,6 +501,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/SanjaySathiraju"><img src="https://avatars.githubusercontent.com/u/80937013?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SanjaySathiraju</b></sub></a><br /><a href="#design-SanjaySathiraju" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=SanjaySathiraju" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/DKabashi"><img src="https://avatars.githubusercontent.com/u/48384060?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Donat Kabashi</b></sub></a><br /><a href="#design-DKabashi" title="Design">🎨</a></td>
     <td align="center"><a href="https://arulprasadj.com/"><img src="https://avatars.githubusercontent.com/u/11359760?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Arul Prasad J</b></sub></a><br /><a href="#design-arulprasadj" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=arulprasadj" title="Code">💻</a></td>
+    <td align="center"><a href="http://chenpost.com"><img src="https://avatars.githubusercontent.com/u/8637045?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Qi Chen</b></sub></a><br /><a href="#design-swordwielder" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=swordwielder" title="Code">💻</a></td>
   </tr>
 </table>
 
