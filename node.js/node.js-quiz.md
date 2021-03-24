@@ -286,3 +286,15 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] const { readFile } = require(fs)
 - [ ] const { readFilePromises: readFile } = require(fs)
 - [ ] const { readFile } = require(promises)
+
+### Q44. According to the rules of semantic versioning, what does a release incrementing the third number in an npm version string communicate to users about the release changes?
+- [ ] Changes are not backwards compatible.
+- [ ] Changes might not be backward compatible and might break existing code.
+- [x] Changes are just bug fixes and no new features were added.
+- [ ] Changes will add new functionality but will not break any existing code.
+
+### Q45. What does REPL stand for?
+- [ ] run, examine, put, loop
+- [x] read, eval, print, loop
+- [ ] run, edit, print, loop
+- [ ] read, extend, print, loop
