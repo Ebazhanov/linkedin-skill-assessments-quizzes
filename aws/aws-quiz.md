@@ -386,3 +386,13 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 - [ ] Use Route 53 with HTTP health checks.  Create an application on the server to report the readiness status of the vendor-provided server software to Route 53 via HTTP.
 - [ ] Use Route 53 with UDP health checks. As you scale up, Route 53 wiwll route the traffic to the new servers if they pass the health checks.
 - [ ] Use Application Load Balancer to distribute the traffic across your servers.
+
+#### Q55. the outbound rules of a security group only allow traffic going to 0.0.0.0/0 on TCP Port 22 (SSH) and TCP port 3306 (MySQL).  Review the inbound rules listed in the image below.  What is the most important issue to fix with this security group configuration, for an Ubuntu EC2 instance acting as a web server?
+
+![image](https://user-images.githubusercontent.com/8637045/112515574-c077e780-8d6c-11eb-96a6-11f27a0547cf.png)
+
+- [ ] The outbound rules block UDP port 53, so the server will not be able to resolve any DNS lookups.
+- [ ] The outbound rules do not allow for HTTP traffic to leave the instance, so inbound HTTP requests will fail because the clients will never get HTTP responses.
+- [ ] The incoming SSH port should not be open to the public.  Limit SSH to a single IP address or IP range of controlled addressed, or use a VPN to access the VPC for this server.
+- [ ] The all incoming TCP ports are exposed, which overrides the HTTP and SSH rules and exposes all TCP ports to the public internet.
+
