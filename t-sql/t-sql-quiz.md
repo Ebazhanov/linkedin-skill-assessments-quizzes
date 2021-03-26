@@ -28,7 +28,7 @@ END CATCH
 
 #### Q4. Given these two tables, which query generates a listing showing student names and the department office location where you could reach each student?
 - [ ] SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students, Departments;
-- [x] SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students ON Students JOIN Departments ON Students.department = Departments.department;
+- [x] SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students JOIN Departments ON Students.department = Departments.department;
 - [ ] SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students JOIN Departments;
 - [ ] SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students ON Students.department = Departments.department;
 
@@ -139,8 +139,8 @@ SELECT @UniqueID AS Result;
     SELECT 'abc\
     def' AS Result;
 
-- [ ] abc\def
-- [x] abcdef
+- [x] abc\def
+- [ ] abcdef
 - [ ] error
 - [ ] abc def
 
@@ -209,7 +209,7 @@ SELECT @UniqueID AS Result;
     Create table students(id int identity(1000,1), firstname varchar(20),
     lastname varchar(30));
     insert into students(firstname,lastname)values('mark','twain');
-    select \*from students;
+    select * from students;
 
 - [ ]
   studentid firstname lastname
