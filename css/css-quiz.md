@@ -249,7 +249,7 @@ section + p {
 3. Internal; CSS is included within the <header> element of the HTML file.
 ```
 
-- [x]
+- [ ]
 
 ```markdown
 1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file.
@@ -257,7 +257,7 @@ section + p {
 3. Inline; CSS is added to the HTML tag.
 ```
 
-- [ ]
+- [x]
 
 ```markdown
 1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file .
