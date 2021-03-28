@@ -4,7 +4,6 @@
 - [ ] `<%= render partial: "nav", selected: "about"}%>`
 - [ ] `<%= render partial: "nav", local_variables: {selected: "about"} %>`
 - [ ] `<%= render partial: "nav", locals: {selected: "about"}`
-- [ ] `<%= render partial: "nav", locals: {selected: "about"}`
 
 #### Q2. Within a Rails controller, which code will prevent the parent controller's before_action `:get_feature` from running?
 - [ ] `skip_before_action :get_feature`
@@ -84,14 +83,17 @@ end
 #### Q12. If a database table of users contains the following rows, and `id` is the primary key, which statement would return only an object whose `last_name` is "Cordero"?
 
 ```
-------------------------------
-id first_name last_name
-1 Alice Anderson
-2 Bob Buckner
-3 Carrie Cordero
-4 Devon Dupre
-5 Carrie Eastman
-------------------------------
+-------------------------------
+
+| id | first_name | last_name |
+|----|------------|-----------|
+| 1  | Alice      | Anderson  |
+| 2  | Bob        | Buckner   |
+| 3  | Carrie     | Cordero   |
+| 4  | Devon      | Dupre     |
+| 5  | Carrie     | Eastman   |
+
+-------------------------------
 ```
 
 - [ ] `User.where(first_name: "Carrie")`
