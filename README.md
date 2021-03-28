@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-304-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-305-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
@@ -509,6 +509,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/samiramaleki"><img src="https://avatars.githubusercontent.com/u/76865385?v=4?s=100" width="100px;" alt=""/><br /><sub><b>samiramaleki</b></sub></a><br /><a href="#design-samiramaleki" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=samiramaleki" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/nikitamahoviya"><img src="https://avatars.githubusercontent.com/u/43717626?v=4?s=100" width="100px;" alt=""/><br /><sub><b>NIKITA MAHOVIYA</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=nikitamahoviya" title="Code">💻</a></td>
     <td align="center"><a href="http://www.myappmemo.online"><img src="https://avatars.githubusercontent.com/u/8102337?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jesuisdev.Net</b></sub></a><br /><a href="#design-wth-mvp-s" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=wth-mvp-s" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/AshNaz87"><img src="https://avatars.githubusercontent.com/u/20570746?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ashraf Nazar</b></sub></a><br /><a href="#design-AshNaz87" title="Design">🎨</a></td>
   </tr>
 </table>
 
