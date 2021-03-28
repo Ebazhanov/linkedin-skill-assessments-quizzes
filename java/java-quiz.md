@@ -992,3 +992,26 @@ groucyButton.addActionListener(new ActionListener() {
 - [x] Consumer, Predicate, Supplier
 
 [Reference](https://www.baeldung.com/java-8-functional-interfaces)
+
+#### Q69. What is a valid use of the hashCode() method?
+- [ ] encrypting user passwords
+- [x] deciding if two instances of a class are equal
+- [ ] enabling HashMap to find matches faster
+- [ ] moving objects from a List to a HashMap
+
+[Reference](https://www.baeldung.com/java-hashcode)
+
+#### Q70. What kind of relationship does "extends" denote?
+- [ ] uses-a
+- [x] is-a
+- [ ] has-a
+- [ ] was-a
+
+[Reference](https://www.c-sharpcorner.com/UploadFile/3614a6/is-a-and-has-a-relationship-in-java/)
+
+#### Q71. How do you force an object to be garbage collected?
+- [ ] Set object to null and call Runtime.gc()
+- [x] Set object to null and call System.gc()
+- [ ] Set object to null and call Runtime.getRuntime().runFinalization()
+- [ ] There is no way to force an object to be garbage collected
+[Reference](https://www.baeldung.com/java-hashcode)
