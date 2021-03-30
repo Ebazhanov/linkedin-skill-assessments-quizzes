@@ -12,69 +12,65 @@ if you want to meet each other or discuss quiz related problems join the `Discor
 
 ### Table of Contents
 
-| Linkedin-quiz-questions                                                      |                 | Status        | Your resource for answers. In case you have doubts please contact this person or add him to review your PR. |
-| ---------------------------------------------------------------------------- | --------------- | ------------- | ----------------------------------------------------------------------------------------------------------- |
-| [Adobe-Illustrator](adobe-illustrator/adobe-illustrator-quiz.md)             | => 51 questions | => 0 answers  |                                                                                                             |
-| [Adobe-Photoshop](adobe-photoshop/adobe-photoshop-quiz.md)                   | => 36 questions | => 36 answers |                                                                                                             |
-| [Adobe Premiere Pro](adobe-premiere-pro/adobe-premiere-pro-quiz.md)       | => 47 questions | => 0 answers |                                                                                                             |
-| [Agile Methodologies](agile-methodologies/agile-methodologies-quiz.md)       | => 76 questions | => 76 answers |                                                                                                             |
-| [Android](android/android-quiz.md)                                           | => 44 questions | => 40 answers |                                                                                                             |
-| [AngularJs](angularjs/angularjs-quiz.md)                                     | => 15 questions | => 2 answers  |                                                                                                             |
-| [AWS](aws/aws-quiz.md)                                                       | => 38 questions | => 36 answers | [@jokerkeny](https://github.com/jokerkeny)                                                                                                           |
-| [AWS-Lambda](aws-lambda/aws-lambda-quiz.md) :fire:                           | => 44 questions | => 44 answers |                                                                                                             |
-| [Bash](bash/bash-quiz.md)                                                    | => 53 questions | => 53 answers |                                                                                                             |
-| [C#](c%23/c-sharp-quiz.md)                                                   | => 48 questions | => 47 answers |                                                                                                             |
-| [C++](c%2B%2B/c%2B%2Bquiz.md)                                                | => 33 questions | => 26 answers |                                                                                                             |
-| [C (Programming Language)](<c-(programming-language)/c-quiz.md>)             | => 25 questions | => 25 answers |                                                                                                             |
-| [CSS](css/css-quiz.md)                                                       | => 77 questions | => 77 answers |                                                                                                             |
-| [Django](django/django-quiz.md)                                              | => 48 questions | => 48 answers |                                                                                                             |
-| [.NET Framework](dotnet-framework/dotnet-framework-quiz.md)                  | => 37 questions | => 34 answers |                                                                                                             |
-| [Git](git/git-quiz.md) :star:                                                | => 92 questions | => 92 answers |                                                                                                             |
-| [Google Analytics](google-analytics/google-analytics-quiz.md)                | => 65 questions | => 45 answers |                                                                                                             |
-| [Google Cloud Platform (GCP)](google-cloud-platform/gcp-quiz.md)             | => 27 questions | => 27 answers |                                                                                                             |
-| [Hadoop](hadoop/hadoop-quiz.md)                                              | => 18 questions | => 18 answers |                                                                                                             |
-| [HTML](html/html-quiz.md)                                                    | => 62 questions | => 62 answers | [@harman052](https://github.com/harman052)                                                                  |
-| [Java](java/java-quiz.md)                                                    | => 65 questions | => 65 answers |                                                                                                             |
-| [Javascript](javascript/javascript-quiz.md)                                  | => 70 questions | => 70 answers | [@harman052](https://github.com/harman052)                                                                  |
-| [jQuery](jquery/jquery-quiz.md) :open_mouth:                                 | => 50 questions | => 50 answers |                                                                                                             |
-| [JSON](json/json-quiz.md)                                                    | => 51 questions | => 51 answers |                                                                                                             |
-| [Kotlin](kotlin/kotlin-quiz.md)                                              | => 44 questions | => 23 answers  |                                                                                                             |
-| [Linux](linux/linux-assesment.md)                                            | => 34 questions | => 30 answers |                                                                                                             |
-| [Machine Learning](machine-learning/machine-learning-quiz.md)                | => 70 questions | => 70 answers | [@aaronwangj](https://github.com/aaronwangj)                                                                |
-| [MATLAB](matlab/matlab-quiz.md)                                              | => 45 questions | => 45 answers |                                                                                                             |
-| [Maven](maven/maven-quiz.md) :fire:                                          | => 35 questions | => 35 answers |                                                                                                             |
-| [Microsoft Access](microsoft-access/microsoft-access.md)                     | => 26 questions | => 0 answers  |                                                                                                             |
-| [Microsoft Azure](microsoft-azure/microsoft-azure-quiz.md)                   | => 44 questions | => 45 answers |                                                                                                             |
-| [Microsoft Excel](microsoft-excel/microsoft-excel-quiz.md)                   | => 52 questions | => 52 answers |                                                                                                             |
-| [Microsoft Outlook](microsoft-outlook/microsoft-outlook-quiz.md)             | => 12 questions | => 0 answers  |                                                                                                             |
-| [Microsoft Power BI](microsoft-power-bi/microsoft-power-bi-quiz.md)          | => 26 questions | => 23 answers |                                                                                                             |
-| [Microsoft Power Point](microsoft-power-point/microsoft-power-point-quiz.md) | => 38 questions | => 38 answers |                                                                                                             |
-| [Microsoft Project](microsoft-project/microsoft-project-quiz.md)             | => 41 questions | => 41 answers |                                                                                                             |
-| [Microsoft Word](microsoft-word/microsoft-word-quiz.md)                      | => 54 questions | => 52 answers |                                                                                                             |
-| [MongoDB](mongodb/mongodb-quiz.md)                                           | => 54 questions | => 54 answers |                                                                                                             |
-| [MySQL](mysql/mysql-quiz.md)                                                 | => 68 questions | => 68 answers |                                                                                                             |
-| [node.js](node.js/node.js-quiz.md)                                           | => 41 questions | => 41 answers | [@harman052](https://github.com/harman052)                                                                  |
-| [NoSQL](nosql/nosql-quiz.md)                                                 | => 43 questions | => 43 answers |                                                                                                             |
-| [objective-c](objective-c/objective-c-quiz.md)                               | => 33 questions | => 31 answers |                                                                                                             |
-| [OOP](oop/object-oriented-programming-quiz.md)                               | => 51 questions | => 51 answers |                                                                                                             |
-| [PHP](php/php-quiz.md)                                                       | => 34 questions | => 34 answers |                                                                                                             |
-| [Python](python/python-quiz.md)                                              | => 67 questions | => 67 answers | [@tik9](https://github.com/tik9)                                                                            |
-| [QuickBooks](quickbooks/quickbooks-quiz.md)                                              | => 46 questions | => 0 answers |                                                                             |
-| [R](r/r-quiz.md)                                                             | => 29 questions | => 29 answers |                                                                                                             |
-| [React.js](react/reactjs-quiz.md) :rose:                                     | => 52 questions | => 52 answers | [@harman052](https://github.com/harman052), [@RobTables](https://github.com/RobTables)                      |
-| [REST API](rest-api/rest-api-quiz.md) :+1:                                   | => 34 questions | => 34 answers |                                                                                                             |
-| [Rubi on Rails](ruby-on-rails/ruby-on-rails-quiz.md) :+1:                    | => 24 questions | => 4 answers  |                                                                                                             |
-| [Scala](scala/scala-quiz.md)                                                 | => 25 questions | => 25 answers |                                                                                                             |
-| [Search Engine Optimization (SEO)](seo/search-engine-optimization-quiz.md)   | => 29 questions | => 28 answers |                                                                                                             |
-| [SharePoint](sharepoint/sharepoint-quiz.md)                                  | => 29 questions | => 29 answers |                                                                                                             |
-| [Spring Framework](spring-framework/spring-framework-quiz.md)                | => 15 questions | => 15 answers |  [@sumanas27](https://github.com/sumanas27), [@rradfar](https://github.com/rradfar)                                                                                                           |
-| [Swift](swift/swift-quiz.md)                                                 | => 48 questions | => 48 answers |                                                                                                             |
-| [Transact-SQL (T-SQL)](t-sql/t-sql-quiz.md)                                  | => 28 questions | => 28 answers |                                                                                                             |
-| [Visual Basic for Applications (VBA)](vba/vba-quiz.md)                       | => 11 questions | => 0 answers  |                                                                                                             |
-| [Visio](visio/visio-quiz.md)                                                 | => 32 questions | => 0 answers  |                                                                                                             |
-| [Windows Server](windows-server/windows-server-quiz.md)                      | => 46 questions | => 44 answers |                                                                                                             |
-| [WordPress](wordpress/wordpress-quiz.md)                                     | => 42 questions | => 39 answers | [@harman052](https://github.com/harman052)                                                                  |
-| [XML](xml/xml-quiz.md)                                                       | => 21 questions | => 19 answers |                                                                                                             |
+| Linkedin-quiz-questions                                                      |                 | Status        |Your resource for answers. In case you have doubts please contact this person or add him to review your PR. |
+| ---------------------------------------------------------------------------- | --------------- | ------------- |------------- |
+| [Adobe-Illustrator](adobe-illustrator/adobe-illustrator-quiz.md)             | => 51 questions | => 0 answers  | |
+| [Adobe-Photoshop](adobe-photoshop/adobe-photoshop-quiz.md)                   | => 36 questions | => 36 answers | |
+| [Agile Methodologies](agile-methodologies/agile-methodologies-quiz.md)       | => 76 questions | => 76 answers | |
+| [Android](android/android-quiz.md)                                           | => 44 questions | => 40 answers | |
+| [AngularJs](angularjs/angularjs-quiz.md)                                     | => 15 questions | => 2 answers  | |
+| [AWS](aws/aws-quiz.md)                                                       | => 38 questions | => 36 answers | |
+| [AWS-Lambda](aws-lambda/aws-lambda-quiz.md) :fire:                           | => 44 questions | => 44 answers | |
+| [Bash](bash/bash-quiz.md)                                                    | => 53 questions | => 53 answers | |
+| [C#](c%23/c-sharp-quiz.md)                                                   | => 48 questions | => 47 answers | |
+| [C++](c%2B%2B/c%2B%2Bquiz.md)                                                | => 33 questions | => 26 answers | |
+| [C (Programming Language)](<c-(programming-language)/c-quiz.md>)             | => 25 questions | => 25 answers | |
+| [CSS](css/css-quiz.md)                                                       | => 77 questions | => 77 answers | |
+| [Django](django/django-quiz.md)                                              | => 48 questions | => 48 answers | |
+| [.NET Framework](dotnet-framework/dotnet-framework-quiz.md)                  | => 37 questions | => 34 answers | |
+| [Eclipse](eclipse/eclipse-quiz.md)                                           | => 22 questions | => 15 answers | |
+| [Git](git/git-quiz.md) :star:                                                | => 92 questions | => 92 answers | |
+| [Google Analytics](google-analytics/google-analytics-quiz.md)                | => 65 questions | => 45 answers | |
+| [Google Cloud Platform (GCP)](google-cloud-platform/gcp-quiz.md)             | => 27 questions | => 27 answers | |
+| [Hadoop](hadoop/hadoop-quiz.md)                                              | => 18 questions | => 18 answers |  |
+| [HTML](html/html-quiz.md)                                                    | => 62 questions | => 62 answers | [@harman052](https://github.com/harman052)|
+| [Java](java/java-quiz.md)                                                    | => 65 questions | => 65 answers | |
+| [Javascript](javascript/javascript-quiz.md)                                  | => 70 questions | => 70 answers | [@harman052](https://github.com/harman052)|
+| [jQuery](jquery/jquery-quiz.md) :open_mouth:                                 | => 50 questions | => 50 answers | |
+| [JSON](json/json-quiz.md)                                                    | => 51 questions | => 51 answers | |
+| [Kotlin](kotlin/kotlin-quiz.md)                                              | => 30 questions | => 0 answers  | |
+| [Linux](linux/linux-assesment.md)                                            | => 34 questions | => 30 answers | |
+| [Machine Learning](machine-learning/machine-learning-quiz.md)                | => 70 questions | => 70 answers | [@aaronwangj](https://github.com/aaronwangj)|
+| [MATLAB](matlab/matlab-quiz.md)                                              | => 45 questions | => 45 answers | |
+| [Maven](maven/maven-quiz.md) :fire:                                          | => 35 questions | => 35 answers | |
+| [Microsoft Azure](microsoft-azure/microsoft-azure-quiz.md)                   | => 44 questions | => 45 answers | |
+| [Microsoft Excel](microsoft-excel/microsoft-excel-quiz.md)                   | => 52 questions | => 52 answers | |
+| [Microsoft Outlook](microsoft-outlook/microsoft-outlook-quiz.md)             | => 12 questions | => 0 answers  | |
+| [Microsoft Power BI](microsoft-power-bi/microsoft-power-bi-quiz.md)          | => 26 questions | => 23 answers | |
+| [Microsoft Power Point](microsoft-power-point/microsoft-power-point-quiz.md) | => 38 questions | => 38 answers | |
+| [Microsoft Project](microsoft-project/microsoft-project-quiz.md)             | => 41 questions | => 41 answers | |
+| [Microsoft Word](microsoft-word/microsoft-word-quiz.md)                      | => 54 questions | => 52 answers | |
+| [MongoDB](mongodb/mongodb-quiz.md)                                           | => 54 questions | => 54 answers | |
+| [MySQL](mysql/mysql-quiz.md)                                                 | => 68 questions | => 68 answers | |
+| [node.js](node.js/node.js-quiz.md)                                           | => 41 questions | => 41 answers |[@harman052](https://github.com/harman052) |
+| [NoSQL](nosql/nosql-quiz.md)                                                 | => 43 questions | => 43 answers | |
+| [objective-c](objective-c/objective-c-quiz.md)                               | => 33 questions | => 31 answers | |
+| [OOP](oop/object-oriented-programming-quiz.md)                               | => 51 questions | => 51 answers | |
+| [PHP](php/php-quiz.md)                                                       | => 34 questions | => 34 answers | |
+| [Python](python/python-quiz.md)                                              | => 67 questions | => 67 answers | [@tik9](https://github.com/tik9)|
+| [R](r/r-quiz.md)                                                             | => 29 questions | => 29 answers | |
+| [React.js](react/reactjs-quiz.md) :rose:                                     | => 52 questions | => 52 answers | [@harman052](https://github.com/harman052) |
+| [REST API](rest-api/rest-api-quiz.md) :+1:                                   | => 34 questions | => 34 answers | |
+| [Rubi on Rails](ruby-on-rails/ruby-on-rails-quiz.md) :+1:                    | => 24 questions | => 4 answers  | |
+| [Scala](scala/scala-quiz.md)                                                 | => 25 questions | => 25 answers | |
+| [Search Engine Optimization (SEO)](seo/search-engine-optimization-quiz.md)   | => 29 questions | => 28 answers | |
+| [SharePoint](sharepoint/sharepoint-quiz.md)                                  | => 29 questions | => 29 answers | |
+| [Swift](swift/swift-quiz.md)                                                 | => 48 questions | => 48 answers | |
+| [Transact-SQL (T-SQL)](t-sql/t-sql-quiz.md)                                  | => 28 questions | => 28 answers | |
+| [Visual Basic for Applications (VBA)](vba/vba-quiz.md)                       | => 11 questions | => 0 answers  | |
+| [Windows Server](windows-server/windows-server-quiz.md)                      | => 46 questions | => 44 answers | |
+| [WordPress](wordpress/wordpress-quiz.md)                                     | => 42 questions | => 39 answers | [@harman052](https://github.com/harman052)|
+| [XML](xml/xml-quiz.md)                                                       | => 21 questions | => 19 answers | |
 
 :point_right: If you want to improve your skills on another test platform [**Pluralsight IQ Skill**](https://www.pluralsight.com/product/skill-iq)
 find **questions and answers** in **@Timo Körner** [repository](https://github.com/tik9/pluralsight-skill-test):
