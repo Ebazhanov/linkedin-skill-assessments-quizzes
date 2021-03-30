@@ -578,3 +578,66 @@ E = setdiff(C,D)
 - [ ] E = {'cat'} {'cow'} {'dog'} {'piranha'}
 - [ ] E = 
 
+#### Q46. Where in the UI can you see what variables have been created, their values, and their class?
+- [ ] Editor
+- [ ] command window
+- [ ] details
+- [x] workspace
+
+#### Q47. Given the following x and y coordinates, which choice calculates a linear regression for the x and y coordinates, and which plots the points of the x,y data and the regression line on the same graph?
+```
+x = 9.0646 6.4362 7.8266 8.3945 5.6135 4.8186 2.8862 10.9311 1.1908 3.2586
+y = 15.4357 11.0923 14.1417 14.9506 8.7687 8.0416 5.1662 20.5005 1.0978
+```
+
+- [x]
+```
+coeff_line = polyfit(x,y,1)
+x_line = floor(min(x)):0.1:ceil(max(x));
+y_line = polyval(coeff_line,x_line)
+
+figure; plot(x,y,'o')
+hold on
+plot(x_linemy_line)
+```
+- [ ]
+```
+figure
+plot(x,y,'o')
+
+coeff_line = polyfit(x,y,1);
+x_line = floor(min(x)):0.1:ceil(max(x));
+y_line = polyval(coeff_line,x_line);
+plot(x_line,y_line)
+```
+- [ ]
+```
+figure
+plot(x,y)
+
+coeff_line = polyfit(x,y,1);
+x_line = floor(min(x)):0.1:ceil(max(x));
+y_line = polyval(coeff_line,x_line);
+hold on; plot(x_line,y_line)
+```
+- [ ]
+```
+coeff_line = polyfit(x,y,1);
+x_line = floor(min(x)):0.1:ceil(max(x));
+y_line = polyval(coeff_line,x_line);
+
+figure; plot(x,y,'o')
+hold on
+plot(x_line,y_line)
+```
+
+#### Q48. If you run this piece of code, you will get an error. Why?
+```
+a = [0 1 2 3; 4 5 6 7];
+a = a^2;
+```
+
+- [x] You are attempting to multiply a non-square matrix by itself, causing a dimension mismatch.
+- [ ] MATLAB does not allow you to square all the elements in the matrix in a single operation.
+- [ ] You must use the ** operator instead of the ^ operator.
+- [ ] You cannot square matrices that have a 0 as the first element.

@@ -293,5 +293,5 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 #### Q38. In an extended regular expression, you would use (pattern){3} to match three instances of the pattern. How would you match the same thing with an extended glob?
 - [ ] 3(pattern)
 - [ ] {0,3}(pattern}
-- [x] OccurＲence quantifiers are not supported in Bash's version of extended globs, so this is not possible.
+- [x] Occurrence quantifiers are not supported in Bash's version of extended globs, so this is not possible.
 - [ ] {3}(pattern})

@@ -109,10 +109,10 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
  - [ ] The forked process shares the same VM thread with the parent process.
 
 #### Q18. If EventEmitter is in scope, which of the following lines of code will have an event emitter emitting a change event?
- - [x] EventEmitter.emit(change);
- - [ ] EventEmitter.new().emit(change);
- - [ ] (new EventEmitter()).emit(change);
- - [ ] new EventEmitter(change);
+ - [x] EventEmitter.emit('change');
+ - [ ] EventEmitter.new().emit('change');
+ - [ ] (new EventEmitter()).emit('change');
+ - [ ] new EventEmitter('change');
  
  **Explanation:**
  
@@ -180,10 +180,10 @@ server.listen(port, hostname, () => { console.log(`server running at http://${ho
 
 #### Q27.What does the code shown below do?
 ```
-const fs = require('fs'); const os o require('os');
+const fs = require('fs'); const os = require('os');
 const system = os.platform(); const user = os.userInfo().username;
-fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) throw err; console.log('The data was appended to file!');
-) ;
+fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) throw err; console.log('The data was appended to file!');}
+);
 ```
  - [x] creates a text file hello.txt and appends customized text
  - [ ] creates an image file
@@ -239,8 +239,8 @@ fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) thro
 - [x] node -h
 - [ ] node index.js -h
 
-### Q36. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named null?
-- [ ] http.IncomingMessage
+### Q36. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?
+- [x] http.IncomingMessage
 - [ ] http.ServerRequest
 - [ ] http.ClientRequest
 - [ ] http.ServerResponse
@@ -280,3 +280,29 @@ fs.appendFilechello.txt'l 'Hello ${user} on ${system}r, (err) => { if (err) thro
 - [ ] hash
 - [x] crypto
 - [ ] TLS
+
+### Q43. Which line imports a promise-based version of the readFile method?
+- [x] const { readFile } = require(fs).promises
+- [ ] const { readFile } = require(fs)
+- [ ] const { readFilePromises: readFile } = require(fs)
+- [ ] const { readFile } = require(promises)
+
+### Q44. According to the rules of semantic versioning, what does a release incrementing the third number in an npm version string communicate to users about the release changes?
+- [ ] Changes are not backwards compatible.
+- [ ] Changes might not be backward compatible and might break existing code.
+- [x] Changes are just bug fixes and no new features were added.
+- [ ] Changes will add new functionality but will not break any existing code.
+
+### Q45. What does REPL stand for?
+- [ ] run, examine, put, loop
+- [x] read, eval, print, loop
+- [ ] run, edit, print, loop
+- [ ] read, extend, print, loop
+
+### Q45. Which statement is true when you run this code?
+`require('child_process').fork("script.js")`
+- [ ] The forked process shares the same VM thread with the parent process.
+- [ ] The forked process will have its own VM instance.
+- [ ] The forked process shares the event loop with the parent process.
+- [ ] A new VM instance is created, and the two VM instances will be shared between the forked process and the parent process.
+

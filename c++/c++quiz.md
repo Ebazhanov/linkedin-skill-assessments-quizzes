@@ -119,7 +119,7 @@ v2->push_back(5);
 #### Q10. Which of the following is not a difference between a class and a struct?
 
 - [ ] Because structs are part of the C programming language, there are some complexity between C and C++ structs. This is not the case with classes.
-- [ ] Classes may have member functions; structs are private.
+- [ X ] Classes may have member functions; structs are private.
 - [ ] The default access specifier for members of struct is public, whereas for member of class, it is private.
 - [ ] Template type parameters can be declared with classes, but not with the struct keyword.
 

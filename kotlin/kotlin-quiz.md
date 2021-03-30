@@ -7,7 +7,8 @@ fun main(){
   val highScores = listOf(4000, 2000, 10200, 12000, 9030)
 ```
 
-- [ ] `.withIndex()`
+- [x] `.withIndex()`
+[references](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.sequences/with-index.html)
 - [ ] `.forEachIndexed()`
 - [ ] `.forEach()`
 - [ ] `.forIndexes()`
@@ -54,10 +55,10 @@ fun add(a: Int, b: Int): Int {
 ```
 
 - [ ] `println(add(5,10).invoke())`
-- [ ] `println(::add.invoke(5, 10))`
+- [x] `println(::add.invoke(5, 10))`
+[reference](https://kotlinlang.org/docs/operator-overloading.html#invoke-operator)
 - [ ] `println(::add.invoke{5, 10})`
 - [ ] `println(add.invoke(5,10))`
-
 #### Q6. What is the entry point for a Kotlin application?
 
 - [ ] `fun static main(){}`
@@ -86,7 +87,7 @@ fun main() {
 - [ ] While the code runs, it does not produce correct results
 - [ ] The integer is always a class
 - [ ] The compiler runs an implicit .toClass() method on the integer
-- [ ] The integer is autoboxed to a Kotlin Int class
+- [x] The integer is autoboxed to a Kotlin Int class
 
 #### Q9. You have started a long-running coroutine whose job you have assigned to a variable named **task**. If the need arose, how could you abort the coroutine?
 
@@ -105,7 +106,8 @@ val task = launch {
 
 - [ ] You must wrap all implicit conversion in a try/catch block
 - [ ] You can only assign Long to an Int, not the other way around
-- [ ] There is no implicit conversion from Int to Long
+- [x] There is no implicit conversion from Int to Long
+[reference](https://kotlinlang.org/docs/basic-types.html#explicit-conversions)
 - [ ] All integers in Kotlin are of type Long
 
 #### Q11. You have written a snippet of code to display the results of the roll of a six-sided die. When the die displays from 3 to 6 inclusive, you want to display a special message. Using a Kotlin range, what code should you add?
@@ -148,7 +150,7 @@ firstName?.let {
 #### Q14. You have a function simple() that is called frequently in your code. You place the inline prefix on the function. What effect does it have on the code?
 
 ```
-inline fun simpe(x: Int): Int{
+inline fun simple(x: Int): Int{
   return x * x
 }
 
@@ -160,7 +162,7 @@ fun main() {
 ```
 
 - [ ] The code will give a stack overflow error
-- [ ] The compiler warns of insignificant performance impact
+- [x] The compiler warns of insignificant performance impact
 - [ ] The compiler warns of significant memory usage
 - [ ] The code is significantly faster
 
@@ -203,7 +205,8 @@ println(set.count())
 val list2 = (80..100).toList().filter(_____)
 ```
 
-- [ ] `::removeBadValues`
+- [x] `::removeBadValues`
+[reference](https://kotlinlang.org/docs/reflection.html#callable-references)
 - [ ] `GlobalScope.removeBadValues()`
 - [ ] `Mainkt.removeBadValues`
 - [ ] `removeBadValues`
@@ -303,7 +306,8 @@ val seq = sequence { yieldAll(1..20) }
 class Person
 ```
 
-- [ ] `equals(), hashCode(), and toString()`
+- [x] `equals(), hashCode(), and toString()`
+[reference](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/)
 - [ ] `equals(), toHash(), and super()`
 - [ ] `print(), println(), and toString()`
 - [ ] `clone(), equals(), and super()`
@@ -324,7 +328,8 @@ abstract class Person(val name: String){
 ```
 
 - [ ] The subclass must be marked sealed
-- [ ] You must override the displayJob() method
+- [x] You must override the displayJob() method
+[reference](https://kotlinlang.org/docs/inheritance.html)
 - [ ] You must mark the subclass as final
 - [ ] An abstract class cannot be extended, so you must change it to open
 

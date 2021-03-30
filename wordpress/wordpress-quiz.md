@@ -314,3 +314,15 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] <head>
 - [ ] <script src="/my-script.js"></script>
 - [ ] </head>
+
+### Q43. Where can you find the official WordPress documentation and usage guide? 
+- [ ] support.wordpress.com
+- [ ] developer.wordpress.com
+- [x] developer.wordpress.org
+- [ ] support.wordpress.org
+
+### Q44. How would you use CSS to ensure your theme was mobile responsive? 
+- [ ] Use CSS grid to create responsive layouts.
+- [ ] Use media queries to add breakpoints for different screen sizes.
+- [ ] Use Flexbox to create flexible page layouts. 
+- [x] all of these answers
