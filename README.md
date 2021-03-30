@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-308-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-309-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
@@ -513,6 +513,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://pk.linkedin.com/in/naveed99"><img src="https://avatars.githubusercontent.com/u/5438968?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Naveed Ahmad</b></sub></a><br /><a href="#design-naveedahmad99" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/Nakzz"><img src="https://avatars.githubusercontent.com/u/9344972?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ajmain Naqib</b></sub></a><br /><a href="#design-Nakzz" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Nakzz" title="Code">💻</a></td>
     <td align="center"><a href="http://tingreavinash.github.io"><img src="https://avatars.githubusercontent.com/u/39552348?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Avinash Tingre</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=tingreavinash" title="Code">💻</a> <a href="#design-tingreavinash" title="Design">🎨</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/nicktids"><img src="https://avatars.githubusercontent.com/u/26164799?v=4?s=100" width="100px;" alt=""/><br /><sub><b>nicktids</b></sub></a><br /><a href="#design-nicktids" title="Design">🎨</a></td>
   </tr>
 </table>
 
