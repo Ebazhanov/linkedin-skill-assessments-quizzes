@@ -528,7 +528,7 @@ def sum(a, b):
 - [ ] `my_list['price'] == 1.5`
 
 #### Q45. What value would be returned by this check for equality?
-`5!=6`
+`5! = 6`
 - [ ] `yes`
 - [ ] `False`
 - [x] `True`
