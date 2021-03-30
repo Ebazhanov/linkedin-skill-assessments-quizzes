@@ -10,7 +10,7 @@
 
 #### Announcement:
 
-if you want to meet each other or discuss quiz related problems join the `Discord` chat [https://discord.gg/jWyDVX3e4w](https://discord.gg/jWyDVX3e4w)
+if you want to meet each other or discuss quiz related problems join the `Discord` chat [https://discord.gg/6hYwWmw67w](https://discord.gg/6hYwWmw67w)
 
 ### Table of Contents
 
