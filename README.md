@@ -27,6 +27,7 @@ if you want to meet each other or discuss quiz related problems join the `Discor
 | [CSS](css/css-quiz.md)                                                       | => 77 questions | => 77 answers | |
 | [Django](django/django-quiz.md)                                              | => 48 questions | => 48 answers | |
 | [.NET Framework](dotnet-framework/dotnet-framework-quiz.md)                  | => 37 questions | => 34 answers | |
+| [Eclipse](eclipse/eclipse-quiz.md)                                           | => 22 questions | => 15 answers | |
 | [Git](git/git-quiz.md) :star:                                                | => 92 questions | => 92 answers | |
 | [Google Analytics](google-analytics/google-analytics-quiz.md)                | => 65 questions | => 45 answers | |
 | [Google Cloud Platform (GCP)](google-cloud-platform/gcp-quiz.md)             | => 27 questions | => 27 answers | |
