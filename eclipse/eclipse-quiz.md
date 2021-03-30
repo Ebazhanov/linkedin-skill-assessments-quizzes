@@ -24,11 +24,11 @@
 - [ ] Click Source -> Snippets -> Create Snippet
 - [ ] With the code selected, click the + button in the Snippets view
 
-#### (5) In thie images, what does the circled button do?
+#### (5) In this image, what does the circled button do?
 - [ ] It expands the comparison between the two files to include whitespace.
 - [ ] It allows you to delete the line of code to which it is connected.
 - [x] It allows changes from one version of a file to be applied to another version of the file.
-- [ ] It allows yu to merge both lines of code together.
+- [ ] It allows you to merge both lines of code together.
 
 #### (6) When inserting a snippet containing variables into a source file, how are values for the variable defined?
 - [ ] Eclipse fills them in with a drop-down menu of available optons.
@@ -46,7 +46,7 @@
 - [ ] to open a file by its name
 - [ ] to search the workbench for a class to open in an editor
 - [ ] to find a string in a text file
-- [x] to find all places where a certain tytpe is instantiated
+- [x] to find all places where a certain type is instantiated
 
 #### (9) In the JUnit view, what is the value in the parentheses after a previously run unit test?
 - [ ] the number of errors found in the test
@@ -89,3 +89,47 @@
 - [ ] Select Add a new browser and select the desired browser in the External web browsers menu.
 - [x] Select Use external web browser, click the New or Search button, add your browser, and then select it in the External web browsers menu.
 - [ ] Use the Search button to search for an installed web browser.
+
+## The following questions from my taking the test, no idea about the answers, but I might have guessed some of them right, as I passed it with 15 %
+
+#### (16) What view, within the Team component, displays the commits related to a particular project or file?
+- [ ] Git Staging
+- [ ] History
+- [ ] Synchronize
+- [ ] Git Repositories
+
+#### (17) What is included in your wqorkspace folder?
+- [ ] a hidden .metadata folder
+- [ ] a hidden .metadata folder and projects imported into the workspace only
+- [ ] only projects imported into the workspace
+- [ ] a hidden .metadata folder and projects created in the workspace
+
+#### (18) What can you not do in the Variables view?
+- [ ] monitor variables that are outside the scope of the current stack frame
+- [ ] set a breakpoint to track a particular instance
+- [ ] inspect the values of an object's fields
+- [ ] edit the value of a variable while the debugger is running your app
+
+#### (19) What is not a method stub that Eclipse will create for you in the New JUnit Test Case window?
+- [ ] tearDown()
+- [ ] setUpClass()
+- [ ] tearDownAfterClass()
+- [ ] setUp()
+
+#### (20) What does the Problems view show?
+- [ ] all of the answers
+- [ ] warnings and errors
+- [ ] code that does not match your formatting settings
+- [ ] threads containing errors
+
+#### (21) When switching workspaces, what is preserved?
+- [ ] all preferences
+- [ ] none of these answers
+- [ ] the current perspective
+- [ ] preferences for a language  (e.g., Java)
+
+#### (22) How can you set files to save automatically when launching an application?
+- [ ] Click Window (Eclipse) -> Preferences -> Run/Debug -> Launching, and then select Save required dirty editors before launching.
+- [ ] Click Window (Eclipse) -> Preferences -> Java -> Editor -> Save Actions
+- [ ] Click File -> Save All.
+- [ ] Change the project's run configuration.
