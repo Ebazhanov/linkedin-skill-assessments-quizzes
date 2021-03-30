@@ -11,7 +11,6 @@
 #### Announcement:
 
 if you want to meet each other or discuss quiz related problems join the `Discord` chat 
-https://invidget.switchblade.xyz/2FB8wDG?theme=light
 
 [![Join our Discord server!](https://invidget.switchblade.xyz/6hYwWmw67w?theme=light)](http://discord.gg/6hYwWmw67w)
 
