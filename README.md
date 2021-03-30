@@ -77,7 +77,7 @@ if you want to meet each other or discuss quiz related problems join the `Discor
 | [Visio](visio/visio-quiz.md)                                                 | => 32 questions | => 0 answers  |                                                                                                             |
 | [Windows Server](windows-server/windows-server-quiz.md)                      | => 46 questions | => 44 answers |                                                                                                             |
 | [WordPress](wordpress/wordpress-quiz.md)                                     | => 42 questions | => 39 answers | [@harman052](https://github.com/harman052)                                                                  |
-| [XML](xml/xml-quiz.md)                                                       | => 21 questions | => 19 answers |                                                                                                             | => 21 questions | => 19 answers |  |
+| [XML](xml/xml-quiz.md)                                                       | => 21 questions | => 19 answers |                                                                                                             |
 
 :point_right: If you want to improve your skills on another test platform [**Pluralsight IQ Skill**](https://www.pluralsight.com/product/skill-iq)
 find **questions and answers** in **@Timo Körner** [repository](https://github.com/tik9/pluralsight-skill-test):
