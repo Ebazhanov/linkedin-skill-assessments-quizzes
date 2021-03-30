@@ -2981,6 +2981,15 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "nicktids",
+      "name": "nicktids",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26164799?v=4",
+      "profile": "https://github.com/nicktids",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
