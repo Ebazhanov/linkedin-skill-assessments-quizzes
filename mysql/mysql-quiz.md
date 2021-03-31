@@ -561,3 +561,9 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [ ] Temporary tables can be shared among clients, which makes them more usable in group development environments.
 - [ ] The temporary table will be dropped as soon as your session disconnects.
 - [ ] Creating a temporary table does not require any special privileges.
+
+#### Q73. Which is a valid constructor for a class named User?
+- [ ] public construct User() {}
+- [X] public User() {}
+- [ ] public instance User() {}
+- [ ] public init User() {}
