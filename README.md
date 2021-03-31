@@ -8,6 +8,11 @@
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
 
+#### [Noatcards](https://noat.cards)
+
+Noatcards is simple spaced repetition learning platform based on Telegram(Bot). The platform has feature call Quiz Competition Game which you can create Quiz Game and play with your friend. 
+You can use the repo to create a Quiz Library in `noat.cards` and create some quiz games to test your knowledge yourself or have fun with your friends.
+
 #### Announcement:
 
 if you want to meet each other or discuss quiz related problems join the `Discord` chat 
