@@ -227,7 +227,7 @@
 - [ ] to share user profile information
 - [ ] to update an API configuration
 - [ ] to keep a web session active
-- [x] to retrive an access token
+- [x] to retrieve an access token
 
 #### Q39. What is Time to First Hello World?
 - [x] how long it takes for a developer to do something with your API
@@ -258,7 +258,7 @@
 #### Q43. Which is the most secure method to transmit an API key? 
 
 - [ ] `URL parameter`
-- [x] `Authorisation header`
+- [x] `Authorization header`
 - [ ] `Base64 encoding`
 - [ ] `Basic Auth`
 
@@ -266,7 +266,7 @@
 
 - [ ] `client`
 - [ ] `not specified`
-- [x] `authorisation server`
+- [x] `authorization server`
 - [ ] `resource server`
 
 #### Q45. API traffic  that is entirely internal to your organisation is normally called ____? 
