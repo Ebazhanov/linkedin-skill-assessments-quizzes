@@ -2990,6 +2990,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "KeithDinh",
+      "name": "Keith Dinh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52475783?v=4",
+      "profile": "http://www.kietdinh.com/",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
