@@ -295,3 +295,16 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 - [ ] {0,3}(pattern}
 - [x] Occurrence quantifiers are not supported in Bash's version of extended globs, so this is not possible.
 - [ ] {3}(pattern})
+
+#### Q39. When configuring a Samba share, how would the engineering group be specified in the smb.conf?
+- [ ] Samba uses Linux operating system groups from the /etc/group file; just specify the group name.
+- [x] It would be preceded by a percent sign (%), such as %engineers.
+- [ ] Use the group name by itself; Samba checks for its existence.
+- [ ] It would be preceded by an @ symbol, such as @engineering.
+
+#### Q40. To configure the Kerberos client, which command should you use to import the keytab file?
+- [ ] krb5-workstation
+- [x] ktutil
+- [ ] pam_krb5
+- [ ] kdb5_util
+
