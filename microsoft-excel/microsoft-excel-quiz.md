@@ -342,3 +342,15 @@
 - [ ] =ISCHAR(A1)
 - [ ] =ISSTRING(A1)
 - [x] =ISTEXT(A1)
+
+#### Q52. Which of these functions returns the largest value among all values within the range H2:H30?
+- [ ] =UPPER(H2:30,1)
+- [ ] =MAXIMUM(H2:H30)
+- [x] =MAX(H2:H30)
+- [ ] =LARGE(H2:H30,29)
+
+#### Q53. You select cell A1, hover the pointer over the cell border to reveal the move icon, then drag the cell to a new location. Which ribbon commands achieve the same result?
+- [ ] Cut and Fill
+- [x] Cut and Paste
+- [ ] Copy and Transpose
+- [ ] Copy and Paste
