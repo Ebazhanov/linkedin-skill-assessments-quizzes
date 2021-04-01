@@ -13,6 +13,8 @@
 Noatcards is simple spaced repetition learning platform based on Telegram(Bot). The platform has feature call Quiz Competition Game which you can create Quiz Game and play with your friend. 
 You can use the repo to create a Quiz Library in `noat.cards` and create some quiz games to test your knowledge yourself or have fun with your friends.
 
+![Noat Cards](assets/noatcards.gif)
+
 #### Announcement:
 
 if you want to meet each other or discuss quiz related problems join the `Discord` chat 
