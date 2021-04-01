@@ -13,6 +13,8 @@ You can use the repo to create a Quiz Library in `noat.cards` and create some qu
 
 ![Noat Cards](assets/noatcards.gif)
 
+* To import the repo to `noat.cards` please reference the [docs](https://noat.cards/docs/faq/#import-knowledge-repository-to-repo-shelf-by-git-url)
+
 #### Announcement:
 
 if you want to meet each other or discuss quiz related problems join the `Discord` chat 
