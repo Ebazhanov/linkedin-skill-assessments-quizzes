@@ -296,7 +296,7 @@ val seq = sequence { yieldAll(1..20) }
 ```
 
 - [ ] You cannot assign a sequence to a variable
-- [ ] To produce result, a sequence must have terminal operation. In this case, it needs a .toList()
+- [x] To produce result, a sequence must have terminal operation. In this case, it needs a .toList()
 - [ ] The .filter{ it < 11 } should be .filter{ it > 11 }
 - [ ] The yieldAll(1..20) should be yieldAll(1..10)
 
@@ -340,7 +340,7 @@ import com.tekadept.app.model.User
 import com.tekadept.app.database.User
 
 class UserService{
-  fun translateUser(user: com.tekadept.app.database,Yser): User =
+  fun translateUser(user: com.tekadept.app.database.User): User =
     com.tekadept.app.model.User("${user.first} ${user.last}")
 }
 ```
@@ -350,23 +350,26 @@ class UserService{
 - [ ] Create interfaces with shorter names
 - [ ] Create extension classes with shorter names
 
-#### Q31. Your function is passed by a parameter obj of type Any. Which code snippet shows a way to retrieve the original type of obj, ncluding package information?
+#### Q31. Your function is passed by a parameter obj of type Any. Which code snippet shows a way to retrieve the original type of obj, including package information?
 
 - [ ] `obj.classInfo()`
 - [ ] `obj.typeInfo()`
-- [ ] `obj::class.simpleName`
+- [x] `obj::class.simpleName`
+[reference](https://kotlinlang.org/docs/reflection.html#constructor-references)
 - [ ] `obj::class`
 
 #### Q32. Which is the correct declaration of an integer array with a size of 5?
 
 - [ ] `val arrs[5]: Int`
-- [ ] `val arrs = IntArray[5]`
+- [x] `val arrs = IntArray[5]`
+[reference](https://kotlinlang.org/docs/basic-types.html#primitive-type-arrays)
 - [ ] `val arrs: Int[5]`
 - [ ] `val arrs = Array<Int>(5)`
 
 #### Q33. You have created a class that should be visible only to the other code in its module. Which modifier do you use?
 
-- [ ] `internal`
+- [x] `internal`
+[reference](https://kotlinlang.org/docs/visibility-modifiers.html#classes-and-interfaces)
 - [ ] `private`
 - [ ] `public`
 - [ ] `protected`
@@ -376,13 +379,14 @@ class UserService{
 - [ ] == determines if two primitive types are identical. === determines if two objects are identical
 - [ ] == determines if two references point to the same object. === determines if two objects have the same value
 - [ ] == determines if two objects have the same value. === determines if two strings have the same value
-- [ ] == determines if two objects have the same value. === determines if two references point to the same object
+- [x] == determines if two objects have the same value. === determines if two references point to the same object
+[reference](https://kotlinlang.org/docs/equality.html#structural-equality)
 
 #### Q35. Which snippet correctly shows setting the variable max to whichever variable holds the greatest value, a or b, using idiomatic Kotlin?
 
 - [ ] `val max3 = a.max(b)`
 - [ ] `val max = a > b ? a : b`
-- [ ] `val max = if (a > b) a else b`
+- [x] `val max = if (a > b) a else b`
 - [ ] `if (a > b) max = a else max = b`
 
 #### Q36. You have an enum class Signal that represents the state of a network connection. You want to print the position number of the SENDING enum. Which line of code does that?
@@ -394,7 +398,8 @@ enum class Signal { OPEN, CLOSED, SENDING }
 - [ ] `println(Signal.SENDING.position())`
 - [ ] `println(Signal.SENDING.hashCode())`
 - [ ] `println(Signal.SENDING)`
-- [ ] `println(Signal.SENDING.ordinal)`
+- [x] `println(Signal.SENDING.ordinal)`
+[reference](https://kotlinlang.org/docs/enum-classes.html#working-with-enum-constants)
 
 #### Q37. Both const and @JvmField create constants. What can const do that @JvmField cannot?
 
@@ -438,7 +443,8 @@ fun getAttribute(attribute: Attribute) : String {
 #### Q39. You would like to know each time a class property is updated. Which code snippet shows a built-in delegated property that can accomplish this?
 
 - [ ] `Delegates.watcher()`
-- [ ] `Delegates.observable()`
+- [x] `Delegates.observable()`
+[reference](https://kotlinlang.org/docs/delegated-properties.html#observable-properties)
 - [ ] `Delegates.rx()`
 - [ ] `Delegates.observer()`
 
@@ -464,7 +470,7 @@ fun main(){
 - [ ] `val name = null`
 - [ ] `var name: String`
 - [ ] `val name: String`
-- [ ] `val name: String? = null`
+- [x] `val name: String? = null`
 
 #### Q42. Which line of code is a shorter, more idiomatic version of the displayed snippet?
 
@@ -475,7 +481,7 @@ val len: Int = if (x != null) x.length else -1
 - [ ] `val len = x?.let{x.len} else {-1}`
 - [ ] `val len = x!!.length ?: -1`
 - [ ] `val len:Int = (x != null)? x.length : -1`
-- [ ] `val len = x?.length ?: -1`
+- [x] `val len = x?.length ?: -1`
 
 #### Q43. You are creating a Kotlin unit test library. What else should you add to make the following code compile without error?
 
