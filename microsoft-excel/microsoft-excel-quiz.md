@@ -154,7 +154,7 @@
 - [ ] ROUND
 - [ ] CEILING
 
-#### Q24. Which function returns the largest value in the range H2:H30?
+#### Q24. Which function returns the largest value amongst all values within the range H2:H30?
 - [x] =MAX(H2:H30)
 - [ ] =MAXIMUM(H2:H30)
 - [ ] =LARGE(H2:H30,29)
@@ -330,3 +330,15 @@
 - [ ] ='Budget Variances!A10'
 - [ ] ="BudgetVariances!A10"
 - [ ] ="BudgetVariances"!A10
+
+#### Q50. Which function returns the leftmost five characters in cell A1?
+- [ ] =FIND(A1,1,5)
+- [ ] =SEARCH(A1,5)
+- [x] =LEFT(A1,5)
+- [ ] =A1-RIGHT(A1,LEN(A1)-5)
+
+#### Q51. Which function returns TRUE if cell A1 contains a text value?
+- [ ] =ISALPHA(A1)
+- [ ] =ISCHAR(A1)
+- [ ] =ISSTRING(A1)
+- [x] =ISTEXT(A1)

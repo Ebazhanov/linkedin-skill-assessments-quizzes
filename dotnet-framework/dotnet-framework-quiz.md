@@ -145,11 +145,11 @@
 - [ ] CAS stands for Code Application Secrets and it enables users to restrict, on a very granular level, what hidden code can do according to a level of trust for an application.
 - [ ] CAS stands for Code Access Secrets and it enables users to restrict, on a very granular level, what hidden code can do according to a level of trust.
 - [ ] CAS stands for Cognitive Access Security and it enables users to restrict security logic manipulation.
-- [ ] CAS stands for Code Access Security and it enables users to restrict, on a very granular level, what managed code can do according to a level of trust.
+- [x] CAS stands for Code Access Security and it enables users to restrict, on a very granular level, what managed code can do according to a level of trust.
 
 #### Q22. Which is NOT true about lambda statements?
 
-- [ ] A statement lambda cannot return a value. <= Correct
+- [x] A statement lambda cannot return a value. <= Correct
 - [ ] If a statement lambda has a return value, it has to use a return statement.
 - [ ] A statement lambda requires using curly braces.
 - [ ] A statement lambda can have more than one statement.
@@ -208,7 +208,9 @@
 - [ ] Construct an HTTP request URI and an HTTPS request URI.
 - [ ] Invoke the GetCurrentApplicationCallbackUri method and construct an HTTPS request URI.
 - [ ] Invoke the AuthenticateAsync and GetCurrentApplicationCallbackUri methods.
-- [ ] Invoke the AuthenticateAsync method and construct an HTTPS request URI.
+- [ ] Invoke the AuthenticateAsync method and construct an HTTPS request URI. //The requestUri parameter must be a HTTPS address and
+                                                                              //    You call the AuthenticateAsync method to 
+                                                                              //  connect to the online identity provider and get an access token
 
 #### Q31.You want to create a class of which only a single instance can exist. Which design pattern best fits this objective?
 
@@ -222,7 +224,7 @@
 - [ ] Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
 - [ ] A class should have only a single responsibility—that is, only changes to one part of the software's specification should be able to affect the specification of the class.
 - [ ] Software entities should be open for extension, but closed for modification.
-- [ ] Entities must depend on abstractions, not on concrete implementations. <= Correct
+- [x] Entities must depend on abstractions, not on concrete implementations. <= Correct
 
 #### Q33.What is a namespace?
 
@@ -242,7 +244,7 @@
 
 - [ ] At compile time, the value is evaluated.
 - [ ] Only at declaration can it be initialized.
-- [ ] At runtime, its value is evaluated.
+- [x] At runtime, its value is evaluated.
 - [ ] It cannot be static.
 
 #### Q36.What is the purpose of CLR?
@@ -250,11 +252,18 @@
 - [ ] CLR performs various operations such as security checks, spell checks, assembly loading, and thread management. It provides a secure execution environment for the internet.
 - [ ] CLR sets the rules developers must use for the components that are interlanguage compatible. CLR is reusable across all the .NET-compliant languages.
 - [ ] CLR is a compiler that converts Intermediate Language to a native code.
-- [ ] CLR performs various operations such as memory management, security checks, assembly loading, and thread management. It also provides a secure execution environment for applications.
+- [x] CLR performs various operations such as memory management, security checks, assembly loading, and thread management. It also provides a secure execution environment for applications.
 
 #### Q37.What is CIL?
 
-- [ ] Formerly known as MSIL, CIL is a programming language that NET developers use. It represents the lowest possible level for a language that humans can still read.
+- [x] Formerly known as MSIL, CIL is a programming language that NET developers use. It represents the lowest possible level for a language that humans can still read.
 - [ ] CIL is an object-oriented programming language that is a partially compiled code that .NET developers will then compile to native machine code.
 - [ ] CIL is used to convert a value type to an object type.
 - [ ] CIL is a compiled code library that Microsoft developed as an open specification. Developers use it for security, versioning, and deployment purposes.
+
+#### Q38. _______ pattern works as a bridge between two incompatible interfaces? // wording in question is maybe changed?
+
+- [x] Adapter
+- [ ] Bridge
+- [ ] Singleton
+- [ ] Builder

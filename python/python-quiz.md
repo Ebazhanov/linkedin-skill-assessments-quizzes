@@ -18,10 +18,10 @@
 - [ ] set`
 - [ ] OrderedDict
 
-#### Q4. What is a static method?
+#### Q4. What statement about static methods is true?
 - [ ] Static methods are called static because they always return `None`.
 - [ ] Static methods can be bound to either a class or an instance of a class.
-- [x] They serve mostly as utility methods or helper methods, since they can't access or modify a class's state.
+- [x] Static methods serve mostly as utility methods or helper methods, since they can't access or modify a class's state.
 - [ ] Static methods can access and modify the state of a class or an instance of a class.
 
 #### Q5. What are attributes?
@@ -342,6 +342,7 @@ return output
 - [x] The `all()` function returns True if all items in the list evaluate to True. Otherwise, it returns False.
 
 #### Q33. What is the correct syntax for calling an instance method on a class named Game?
+*(Answer format may vary. Game and roll (or dice_roll) should each be called with no parameters.)*
 - [x]
 ```
 >>> dice = Game()
@@ -527,7 +528,7 @@ def sum(a, b):
 - [ ] `my_list['price'] == 1.5`
 
 #### Q45. What value would be returned by this check for equality?
-`5!=6`
+`5! = 6`
 - [ ] `yes`
 - [ ] `False`
 - [x] `True`
@@ -570,11 +571,11 @@ def sum(a, b):
 - [ ] `self` means that no other arguments are required to be passed into the method.
 - [x] `self` refers to the instance whose method was called.
 
-#### Q52. What is a class method?
+#### Q52. What statement about a class methods is true?
 - [ ] A class method is a regular function that belongs to a class, but it must return None.
-- [x] Class methods can modify the state of the class, but they can't directly modify the state of an instance that inherits from that class.
+- [x] A class method can modify the state of the class, but they can't directly modify the state of an instance that inherits from that class.
 - [ ] A class method is similar to a regular function, but a class method doesn't take any arguments.
-- [ ] Class methods hold all of the data for a particular class.
+- [ ] A class method hold all of the data for a particular class.
 
 #### Q53. What does it mean for a function to have linear runtime?
 - [ ] You did not use very many advanced computer programming concepts in your code.
@@ -656,17 +657,26 @@ def __init__(self):
 
 #### Q63. What is the most self-descriptive way to define a function that calculates sales tax on a purchase?
 - [ ]
-`def tax(my_float):
-    '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal ...???`
+```
+def tax(my_float):
+    '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
+    pass
+```
 - [ ]
-`def tx(amt):
-    '''Gets the tax on an amount.'''`
+```
+def tx(amt):
+    '''Gets the tax on an amount.'''
+```
 - [ ]
-`def sales_tax(amount):
-    '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal ...???`
+```
+def sales_tax(amount):
+    '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
+```
 - [x]
-`def calculate_sales_tax(subtotal):
-    pass`
+```
+def calculate_sales_tax(subtotal):
+    pass
+```
 
 #### Q64. What would happen if you did not alter the state of the element that an algorithm is operating on recursively?
 - [ ] You do not have to alter the state of the element the algorithm is recursing on.
@@ -691,3 +701,33 @@ def __init__(self):
 - [x] Add items to a stack in O(1) time and remove items from a stack in O(1) time.
 - [ ] Add items to a stack in O(n) time and remove items from a stack on O(1) time.
 - [ ] Add items to a stack in O(n) time and remove items from a stack on O(n) time.
+
+#### Q68. What does calling namedtuple on a collection type return?
+- [x] a tuple subclass with iterable named fields
+- [ ] a generic object class with non-iterable named fields
+- [ ] a generic object class with iterable parameter fields
+- [ ] a tuple subclass with non-iterable parameter fields
+
+#### Q69. Which statement accurately describes how items are added to and remnoved from a stack?
+- [ ] a stacks adds items to one side and removes items from the other side.
+- [x] a stacks adds items to the top and removes items from the top.
+- [ ] a stacks adds items to the top and removes items from anywhere in the stack.
+- [ ] a stacks adds items to either end and removes items from either end.
+
+#### Q70. What is a base case in a recursive function?
+- [x] A base case is the condition that allows the algorithm to stop recursing. It is usually a problem that is small enough to solve directly.
+- [ ] The base case is summary of the overall problem that needs to be solved.
+- [ ] The base case is passed in as an argument to a function whose body makes use of recursion.
+- [ ] The base case is similar to a base class, in that it can be inherited by another object.
+
+#### Q71. Why is it considered good practice to open a file from within a Python script by using the `with` keyword?
+- [ ] The `with` keyword lets you choose which application to open the file in.
+- [ ] The `with` keyword acts like a `for` loop, and lets you access each line in the file one by one.
+- [ ] There is no benefit to using the `with` keyword for opening a file in Python.
+- [x] When you open a file using the `with` keyword in Python, Python will make sure the file gets closed, even if an exception or error is thrown.
+
+#### Q72. Why would you use a virtual environment?
+- [x] Virtual environments create a "bubble" around your project so that any libraries or packages you install within it don't affect your entire machine.
+- [ ] Teams with remote employees use virtual environments so they can share code, do code reviews, and collaorate remotely.
+- [ ] Virtual environments were common in Python 2 because they augmented missing features in the language. Virtual environments are not necessary in Python 3 due to advancements in the language.
+- [ ] Virtual environments are tied to your GitHub or Bitbucket account, allowing you to access any of your repos virtually from any machine.

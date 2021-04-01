@@ -237,7 +237,7 @@
 
 #### Q36. Which image adjustment is optimized for 32-bit images?
 - [ ] Exposure
-- [x] Color Lockup
+- [x] Color Lookup
 - [ ] Brightness/Contrast
 - [ ] Curves
 
