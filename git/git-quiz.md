@@ -641,3 +641,9 @@ Which of the following options is correct ?
 - [ ] continuous integration
 - [ ] increasing code coverage
 - [ ] enforcing commit rules
+
+#### Q93. After starting to work on a new feature and creating new files in the working directory related to it, the customer determinded the feature was no longer required. What command can be used to remove the untracked files from the working directory ?
+- [x] `git clean -f`
+- [ ] `git rm .`
+- [ ] `git reset HEAD`
+- [ ] `git checkout .`
