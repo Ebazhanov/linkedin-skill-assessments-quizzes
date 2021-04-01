@@ -387,7 +387,7 @@
 
 #### Q56. You have just secured your previously unsecured MongoDB server, but the server is still not requiring authentication. What is the best option?
 
-- [ ] Restart the `mongod` process.
+- [x] Restart the `mongod` process.
 - [ ] Issue the `secure()` command.
 - [ ] Issue the `mongoimport` command.
 - [ ] Issue the `authenticate()` command.
