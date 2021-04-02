@@ -319,3 +319,17 @@ Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .po
 - [x] Rename the objects with meaningful names.
 - [ ] Drag and drop the objects.
 - [ ] Tab through the objects and note each object as it's highlighted.
+
+#### Q42. How would you ensure a consistent appearance and placement across your slides even though the content might be different?
+
+- [x] Use fonts.
+- [ ] Use styles.
+- [ ] Use bullet points.
+- [ ] Use layouts.
+
+#### Q43. How can you add icons to SmartArt?
+
+- [ ] Select the picture icon in a SmartArt Picture Diagram.
+- [ ] Select the icon in a SmartArt Icon Diagram.
+- [ ] Select Insert Icon and place it on top of the SmartArt Diagram.
+- [ ] Select a SmartArt shape and select Insert Icon.
