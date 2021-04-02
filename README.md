@@ -13,7 +13,25 @@ You can use the repo to create a Quiz Library in `noat.cards` and create some qu
 
 ![Noat Cards](assets/noatcards.gif)
 
-* To import the repo to `noat.cards` please reference the [docs](https://noat.cards/docs/faq/#import-knowledge-repository-to-repo-shelf-by-git-url)
+##### How to use the repo with `noat.cards`
+
+**1. Import the repository to `noat.cards`**
+
+- Access to the [bot](https://telegram.me/noat_cards_bot?start)
+- Input command `/start` or `/home` start Main UI of the bot
+- Navigate to `🗃` (Repo Shelf) by click on `🗃` button
+- Select `Import Repo 📥` (Import Repository with git url)
+- Input the repo git url.
+  `https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes`
+  
+**2. Practice quiz**
+
+- Navigate to `🗃` (Repo Shelf) by click on `🗃` button
+- On `🗃` (Repo Shelf) tab,
+  
+  select `linkedin-skill-assessments-quizzes` by click on its index button
+- select Quiz Test, you want to practice. 
+- Click on button `Learn it` to start practice the quiz test
 
 #### Announcement:
 
