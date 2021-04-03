@@ -5,6 +5,13 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
+> 
+
+#### Announcement:
+
+if you want to meet each other or discuss quiz related problems join the `Discord` chat 
+
+[![Join our Discord server!](https://invidget.switchblade.xyz/6hYwWmw67w?theme=light)](http://discord.gg/6hYwWmw67w)
 
 #### [Noatcards](https://noat.cards)
 
@@ -32,12 +39,6 @@ You can use the repo to create a Quiz Library in `noat.cards` and create some qu
   select `linkedin-skill-assessments-quizzes` by click on its index button
 - select Quiz Test, you want to practice. 
 - Click on button `Learn it` to start practice the quiz test
-
-#### Announcement:
-
-if you want to meet each other or discuss quiz related problems join the `Discord` chat 
-
-[![Join our Discord server!](https://invidget.switchblade.xyz/6hYwWmw67w?theme=light)](http://discord.gg/6hYwWmw67w)
 
 ### Table of Contents
 
