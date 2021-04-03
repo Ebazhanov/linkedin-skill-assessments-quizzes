@@ -36,7 +36,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 - [ ] A,B,and C
 
 #### 6. What address box should you use if you want to hide message recipients from each other?
-- [ ] Bcc
+- [X] Bcc
 - [ ] to
 - [ ] cc
 - [ ] From
@@ -45,13 +45,13 @@ C. Read receipts are expensive, so some organizations turn them off.
 - [ ] to Diane and Joey
 - [ ] to Diane and bcc Joey
 - [ ] to Joey and bcc Diane
-- [ ] to Diane and cc Joey
+- [X] to Diane and cc Joey
 
 #### 8. Which choice is not an attachment?
 - [ ] a PDF document included with an email
 - [ ] a Word document included with an email
 - [ ] (Â) a calendar item included with an email
-- [ ] a hyperlink included in an email
+- [X] a hyperlink included in an email
 
 #### 9. You can use a___to indicate that a message requires further action and a__to organize the message.
 - [ ] folder; category
@@ -177,7 +177,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 #### 27. What is the key difference between an appointment and a meeting?
 
-- [ ] A meeting includes other people
+- [X] A meeting includes other people
 - [ ] An appointment is automatically marked as busy while a meeting is marked as tentative
 - [ ] An appointment can be all day, while a meeting has specific start and end time
 - [ ] A meeting has specific start and end times
