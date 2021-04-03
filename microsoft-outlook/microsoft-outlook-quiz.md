@@ -19,7 +19,7 @@
 - [ ] Click Reply All.
 
 #### 4. You are running low on Outlook storage space. How might you address this problem?
-- [ ]  all of these answers
+- [X]  all of these answers
 - [ ] Archive messages you are done with.
 - [ ] Save and then remove large attachments from messages
 - [ ] Sort by size and then delete large messages.
