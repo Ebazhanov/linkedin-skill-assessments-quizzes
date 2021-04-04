@@ -1036,7 +1036,7 @@ groucyButton.addActionListener(new ActionListener() {
 - [ ] There is no way to force an object to be garbage collected
 [Reference](https://www.baeldung.com/java-hashcode)
 
-### Q72. Java programmers commonly use design patterns. Some examples are the ______, which helps create instances of a class, the ______, which ensures that only one instance of a class can be created; and the ______, which allows for a group of algorithms to be interchangeable.
+#### Q72. Java programmers commonly use design patterns. Some examples are the ______, which helps create instances of a class, the ______, which ensures that only one instance of a class can be created; and the ______, which allows for a group of algorithms to be interchangeable.
 - [x] static factory method; singleton; strategy pattern
 - [ ] strategy pattern; static factory method; singleton
 - [ ] creation pattern; singleton; prototype pattern
