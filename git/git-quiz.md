@@ -114,7 +114,7 @@ git cherry-pick {kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231}
 
 #### Q16a. What files is this .gitignore programmed to leave out?
 ```shell
-# .swift
+#.swift
 build/
 
 *.txt
