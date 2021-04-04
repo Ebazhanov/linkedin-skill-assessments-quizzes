@@ -541,9 +541,7 @@ cd -
 - [ ] It deletes the current directory
 - [ ] It moves you one directory above your current working directory.
 
-# Training questions
-
-#### Q1. What does this command do?
+#### Q52. What does this command do?
 ```bash
 cat > notes -
 ```
@@ -552,7 +550,7 @@ cat > notes -
 - [ ] Outputs the content of notes and deletes it
 - [ ] Appends text to the existing "notes"
 
-#### Q2. What is the output of:
+#### Q53. What is the output of:
 ```bash
 VAR="This old man came rolling"
 echo "\${VAR//man/rolling}"

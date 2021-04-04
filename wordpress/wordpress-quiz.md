@@ -265,31 +265,31 @@ if ( ! defined( 'ABSPATH' ) ) {
 - [ ] MU Admin
 - [ ] Multisite Master
 
-### Q38. How would you write a text string containing "Hello World!" in a way that makes it possible for someone else to translate the string into a different language?
+#### Q38. How would you write a text string containing "Hello World!" in a way that makes it possible for someone else to translate the string into a different language?
 - [ ] apply_filters( 'Hello World!', 'mytextdomain' );
 - [x] \_\_( 'Hello World!', 'mytextdomain' );
 - [ ] \$string = "Hello World!";
 - [ ] esc_html( 'Hello World!', 'mytextdomain' );
 
-### Q39. What is the core mission of WordPress?
+#### Q39. What is the core mission of WordPress?
 - [x] to make free software
 - [ ] to democratize publishing and the freedoms that come with open source
 - [ ] to make money
 - [ ] to encourage blogging
 
-### Q40. Which of the following is NOT a suggested security improvement for your WordPress website?
+#### Q40. Which of the following is NOT a suggested security improvement for your WordPress website?
 - [ ] The site should communicate with WordPress.org.
 - [ ] Remove inactive themes.
 - [ ] Do not output debug information.
 - [ ] WordPress updates are accomplished manually only.
 
-### Q41. What's the primary difference between template tags prefaced with the* versus get_the*?
+#### Q41. What's the primary difference between template tags prefaced with the* versus get_the*?
 - [ ] Template tags prefaced with the\_ can be used directly within a template. Template tags prefaced with get_the are generally reserved for partial templates.
 - [ ] Template tags prefaced with the\_ return a value. Template tags prefaced with get_the display a value.
 - [ ] Template tags prefaced with the\_ display a value. Template tags prefaced with get_the return a value.
 - [ ] Template tags prefaced with the\_ don't accept arguments. Template tags prefaced with get_the do accept arguments.
 
-### Q42. How can you add a custom script that needs to run only on the contact page of a site? The slug of the page is contact.
+#### Q42. How can you add a custom script that needs to run only on the contact page of a site? The slug of the page is contact.
 ```
 Link to the script directly from a template named page-contact.php using the get_header() template tag, like this:
 get_header( '<script src="/my-script.js"></script>' );
@@ -315,13 +315,13 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] <script src="/my-script.js"></script>
 - [ ] </head>
 
-### Q43. Where can you find the official WordPress documentation and usage guide? 
+#### Q43. Where can you find the official WordPress documentation and usage guide? 
 - [ ] support.wordpress.com
 - [ ] developer.wordpress.com
 - [x] developer.wordpress.org
 - [ ] support.wordpress.org
 
-### Q44. How would you use CSS to ensure your theme was mobile responsive? 
+#### Q44. How would you use CSS to ensure your theme was mobile responsive? 
 - [ ] Use CSS grid to create responsive layouts.
 - [ ] Use media queries to add breakpoints for different screen sizes.
 - [ ] Use Flexbox to create flexible page layouts. 
