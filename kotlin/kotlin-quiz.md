@@ -68,7 +68,7 @@ fun add(a: Int, b: Int): Int {
 
 #### Q7. You are writing a console app in Kotlin that processes test entered by the user. If the user enters an empty string, the program exits. Which kind of loop would work best for this app? Keep in mind that the loop is entered at least once
 
-- [ ] a do..while loop
+- [x] a do..while loop
 - [ ] a for loop
 - [ ] a while loop
 - [ ] a forEach loop
