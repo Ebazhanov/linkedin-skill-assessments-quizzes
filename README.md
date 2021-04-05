@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-314-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-315-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use https://www.grammarly.com/ for online grammar checker when you contribute !
@@ -552,6 +552,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/eliottkespi"><img src="https://avatars.githubusercontent.com/u/38857833?v=4?s=100" width="100px;" alt=""/><br /><sub><b>eliottkespi</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=eliottkespi" title="Code">💻</a> <a href="#design-eliottkespi" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/praveenpno"><img src="https://avatars.githubusercontent.com/u/11199918?v=4?s=100" width="100px;" alt=""/><br /><sub><b>praveenpno</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=praveenpno" title="Code">💻</a> <a href="#design-praveenpno" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/vitowidigdo"><img src="https://avatars.githubusercontent.com/u/35423212?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vitowidigdo</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=vitowidigdo" title="Code">💻</a> <a href="#design-vitowidigdo" title="Design">🎨</a></td>
+    <td align="center"><a href="http://idevesh.in"><img src="https://avatars.githubusercontent.com/u/63795693?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Devesh Pratap Singh</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=idevesh" title="Code">💻</a> <a href="#design-idevesh" title="Design">🎨</a></td>
   </tr>
 </table>
 
