@@ -27,7 +27,7 @@ End Sub
 - [ ] There is no meaningful difference. The terms are used interchangeably.
 - [ ] A dass declares an object's properties. An object completes the declaration by defining events and methods.
 - [ ] An object is a template for a class.
-- [ ] A class describes the design of an object. An object is an instance of that design.
+- [X] A class describes the design of an object. An object is an instance of that design.
 
 #### Q4. What value does the MsgBox statement display?
 ```
