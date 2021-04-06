@@ -3051,6 +3051,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "D4RIO",
+      "name": "Dario Rodriguez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14243?v=4",
+      "profile": "https://github.com/D4RIO",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
