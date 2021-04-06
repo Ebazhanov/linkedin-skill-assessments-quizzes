@@ -138,116 +138,134 @@
  - [ ] MongoDB
  - [ ] Bigtable
 
-#### Q24. You need to implement the simples possible scalable, in-memory cache for your AWS application. Which service do you select?
- - [x] DynamoDb Accelerator (DAX)
- - [ ] ElastiCache using memcached
- - [ ] ElastiCache using Redis
- - [ ] DynamoDB
-
-#### Q25. Which statement is prefered Cypher code for Neo4j?
+#### Q24. Which statement is prefered Cypher code for Neo4j?
  - [ ] MATCH (:Person)-->(:Card)-->(:Company) RETURN count(vehicle)
  - [ ] Match (:Person)-->(:Car):(vehicle:Car)-->(:Company) RETURN count(vehicle)
  - [x] MATCH (:Person)-->(vehicle:Car)-->(:Company) RETURN count(vehicle)
  - [ ] MATCH (:Person)-->(:Card), (vehicle:Car)-->(:Company) RETURN count(vehicle)
 
-#### Q26. You need multi-item ACID transactions with snapshot isolation within a partition for your cloud-based application. Which NoSQL databse do you choose?
+#### Q25. You need multi-item ACID transactions with snapshot isolation within a partition for your cloud-based application. Which NoSQL databse do you choose?
  - [ ] Bigtable
  - [ ] GraphDB
  - [ ] DynamoDB
  - [x] Cosmos DB
 
-#### Q27. You need to control your application's batch updates destination for your Bigtable multinode cluster. Which action do you take?
+#### Q26. You need to control your application's batch updates destination for your Bigtable multinode cluster. Which action do you take?
  - [ ] Create a custom app profile to route batch updates.
  - [ ] Create a custom app profile to route the batch update from that client.
  - [x] Update the default app profile to route the natch update from that client.
  - [ ] Use the default app profile to route batch updates.
 
-#### Q29. Polyglot storage mean using multiple types of what in the same application?
+#### Q27. Polyglot storage mean using multiple types of what in the same application?
  - [ ] security systems
  - [ ] databse systems
  - [ ] query systems
  - [x] storage systems
 
-#### Q30. Your query to verify that your Redis key is configured to support expiring user information on a efined interval returns - - [ ] What does this value indicate?
+#### Q28. Your query to verify that your Redis key is configured to support expiring user information on a efined interval returns - - [ ] What does this value indicate?
  - [ ] The queried key value expired in the last two secodns.
  - [ ] The queried key value exists, but has no associated expire value.
  - [x] The queried key value does not exist.
  - [ ] There are two expired keys with this value.
 
-#### Q31. You are designing a MongoDB schema to support queries that will include lookups. What should you do?
+#### Q29. You are designing a MongoDB schema to support queries that will include lookups. What should you do?
  - [ ] Create an index on the key value used as the primary key.
  - [ ] Create an index on the key value used as the foreign key.
  - [x] Create a multicolumn index on the key value used as the foreign key and the most unique column in the document.
  - [ ] Create a multicolumn index on the key value used as the primary and also the forign key.
 
-#### Q32. What is the aggregation operator for a join concept in MongoDB?
+#### Q30. What is the aggregation operator for a join concept in MongoDB?
  - [ ] $group
  - [ ] $match
  - [x] $lookup
  - [ ] $project
 
-#### Q33. For your mobile application, you need to select a Google cloud databse that can support compound, filtered document queries. Which do you choose?
+#### Q31. For your mobile application, you need to select a Google cloud databse that can support compound, filtered document queries. Which do you choose?
  - [ ] Cloud SQL
  - [ ] Cloud Spanner
  - [x] Cloud Firestore
  - [ ] Cloud Firebase
 
-#### Q34. To bulk load data into Amazon Neputn, what do you do?
+#### Q32. To bulk load data into Amazon Neputn, what do you do?
  - [x] Upload data to S3 VPC endpoint, Use the Neptun loader to load from s3 into your Neptune instance
  - [ ] Ad data to a Kinesis stream, and use the Neptune loade to load from S# into your Neptun instance.
  - [ ] Add data to a Kisnesis stream, and create a Kinesis stream VPC endpoint. Use the Nepune loader to load from S3into your Neptune instance.
  - [ ] Upload data to S Use the neptune loader to load  from S3 into your Neptune instance.
 
-#### Q35. You need to create a pub/sub server. Which databse do you use?
+#### Q33. You need to create a pub/sub server. Which databse do you use?
  - [ ] Neo4j
  - [ ] Cassandra
  - [x] Redis
  - [ ] MyS#### QL
 
-#### Q36. You want to connect a DynamoDb stream to an AWS lamdba function. Which one of these object do you create.
+#### Q34. You want to connect a DynamoDb stream to an AWS lamdba function. Which one of these object do you create.
  - [ ] DynamoDb table
  - [x] DynamoDB trigger
  - [ ] DynamoDB item
  - [ ] DYnamoDB index
 
-#### Q37. Which two types of indexes are available in Cosmos DB?
+#### Q35. Which two types of indexes are available in Cosmos DB?
  - [x] secondery and primary key
  - [ ] secondary and spatial
  - [ ] range and spatial
  - [ ] range and primary key
 
-#### Q38. SQL databses and NoSQL are which types of scalable?
+#### Q36. SQL databses and NoSQL are which types of scalable?
  - [ ] horizontally, infinitely
  - [x] vertically, horizontally
  - [ ] vertically, infinitely
  - [ ] horizonally, vertically
 
-#### Q39. You need to create a scalable database that allows you to query data nodes and edges efficiently. What do you use?
+#### Q37. You need to create a scalable database that allows you to query data nodes and edges efficiently. What do you use?
  - [ ] a relational databse
  - [ ] a columnstore databse
  - [ ] a document databse
  - [x] a graph database
 
-#### Q40. You are developing a model for a graph databse. Your data will be moved from a relatinal databse into Neo4j. Which of these transformations apply?
+#### Q38. You are developing a model for a graph databse. Your data will be moved from a relatinal databse into Neo4j. Which of these transformations apply?
  - [ ] Rows become labes: bales become nodes.
  - [ ] Tables become labels: rows become nodes.
  - [ ] Tables become collections: rows become items.
  - [x] Rows become collections: tables become items.
 
-#### Q41. To index a field that holds an array value in MongoDB, which index type do you create?
+#### Q39. To index a field that holds an array value in MongoDB, which index type do you create?
  - [ ] sparse
  - [ ] compound
  - [ ] partial
  - [x] multikey
 
-#### Q42. You need to execute a command for MongoDB that does NOT load values from the `.mongorc.js` file. What do you do ?
+#### Q40. You need to execute a command for MongoDB that does NOT load values from the `.mongorc.js` file. What do you do ?
  - [ ] Delete the .monorc.js file and restart mongo shell.
  - [ ] Use the mongo shell to create a command with --norc option
  - [ ] Rem all lines in the .mongorc.js file ad restart mongo shell.
  - [x] Use the mongo shell to create a command with --nodedefault option.
 
-#### Q43. What is the recommended size for Redis keys?
+#### Q41. What is the recommended size for Redis keys?
  - [ ] long
  - [ ] short
  - [ ] medium
  - [x] a single bit
+
+#### Q42. You need to store an unordered collection of name-value pairs with differing data types in DynamoDB.  Which data type should you choose?
+ - [x] map
+ - [ ] set
+ - [ ] list
+ - [ ] stack
+
+ #### Q43. Which statement retrieves an item from the MusicCollection table in DynamoDB?
+ - [ ] aws dynamodb query --table-name MusicCollection --key file://key.json
+ - [x] aws dynamodb get-item --table-name MusicCollection --key file://key.json
+ - [ ] aws dynamodb select --table-name MusicCollection --key file://key.json
+ - [ ] aws dynamodb put-item --table-name MusicCollection --key file://key.json
+
+ #### Q44. Database availability is measured by which metric?
+ - [ ] the amount of service calls
+ - [ ] the number of minutes
+ - [ ] the amount of service costs
+ - [ ] the number of nines
+ 
+  #### Q44. You need to encrypt data at rest in DynamoDB.  Which action do you take?
+ - [ ] You assign a default AWS encryption key to your table to encrypt data.
+ - [ ] You create an AWS encryption key and assign it to your table to encrypt data.
+ - [ ] None.  Data is encrypted by default.
+ - [ ] You create an AWS encryption key and assign it to your database to encrypt data.
