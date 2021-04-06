@@ -111,8 +111,8 @@ ps -e --format uid,pid,ppid,%cpu,cmd
 
 - [ ] The tee command sends output only to STDOUT and STDERR.
 - [ ] A redirect sends output to STDOUT and a file, whereas a tee sends output only to STDOUT.
-- [x] Nothing, they are the same.
-- [ ] The tee command sends output to STDOUT and a file, whereas a redirect sends output only to a file.
+- [ ] Nothing, they are the same.
+- [x] The tee command sends output to STDOUT and a file, whereas a redirect sends output only to a file.
 
 #### Q16. What does the /etc/nsswitch.conf file manage?
 
