@@ -1,21 +1,22 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-317-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use https://www.grammarly.com/ for online grammar checker when you contribute !
-> 
 
 #### Announcement:
 
-if you want to meet each other or discuss quiz related problems join the `Discord` chat 
+if you want to meet each other or discuss quiz related problems join the `Discord` chat
 
 [![Join our Discord server!](https://invidget.switchblade.xyz/6hYwWmw67w?theme=light)](http://discord.gg/6hYwWmw67w)
 
 #### [Noatcards](https://noat.cards)
 
-Noatcards is simple spaced repetition learning platform based on Telegram(Bot). The platform has feature call Quiz Competition Game which you can create Quiz Game and play with your friend. 
+Noatcards is simple spaced repetition learning platform based on Telegram(Bot). The platform has feature call Quiz Competition Game which you can create Quiz Game and play with your friend.
 You can use the repo to create a Quiz Library in `noat.cards` and create some quiz games to test your knowledge yourself or have fun with your friends.
 
 ![Noat Cards](assets/noatcards.gif)
@@ -30,14 +31,15 @@ You can use the repo to create a Quiz Library in `noat.cards` and create some qu
 - Select `Import Repo 📥` (Import Repository with git url)
 - Input the repo git url.
   `https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes`
-  
+
 **2. Practice quiz**
 
 - Navigate to `🗃` (Repo Shelf) by click on `🗃` button
 - On `🗃` (Repo Shelf) tab,
-  
+
   select `linkedin-skill-assessments-quizzes` by click on its index button
-- select Quiz Test, you want to practice. 
+
+- select Quiz Test, you want to practice.
 - Click on button `Learn it` to start practice the quiz test
 
 ### Table of Contents
@@ -48,11 +50,11 @@ You can use the repo to create a Quiz Library in `noat.cards` and create some qu
 | [Adobe-Photoshop](adobe-photoshop/adobe-photoshop-quiz.md)                   | => 36 questions | => 36 answers |                                                                                                             |
 | [Adobe Premiere Pro](adobe-premiere-pro/adobe-premiere-pro-quiz.md)          | => 47 questions | => 0 answers  |                                                                                                             |
 | [Agile Methodologies](agile-methodologies/agile-methodologies-quiz.md)       | => 76 questions | => 76 answers |                                                                                                             |
-| [Android](android/android-quiz.md)                                           | => 44 questions | => 40 answers | [@surajsahani](https://github.com/surajsahani)                                                                                                            |
+| [Android](android/android-quiz.md)                                           | => 44 questions | => 40 answers | [@surajsahani](https://github.com/surajsahani)                                                              |
 | [AngularJs](angularjs/angularjs-quiz.md)                                     | => 15 questions | => 2 answers  |                                                                                                             |
 | [AWS](aws/aws-quiz.md)                                                       | => 38 questions | => 36 answers | [@jokerkeny](https://github.com/jokerkeny)                                                                  |
 | [AWS-Lambda](aws-lambda/aws-lambda-quiz.md) :fire:                           | => 44 questions | => 44 answers |                                                                                                             |
-| [Bash](bash/bash-quiz.md)                                                    | => 53 questions | => 53 answers |                                                                                                             |
+| [Bash](bash/bash-quiz.md)                                                    | => 53 questions | => 53 answers | [@D4RIO](https://github.com/D4RIO)                                                                          |
 | [C#](c%23/c-sharp-quiz.md)                                                   | => 48 questions | => 47 answers |                                                                                                             |
 | [C++](c%2B%2B/c%2B%2Bquiz.md)                                                | => 33 questions | => 26 answers |                                                                                                             |
 | [C (Programming Language)](<c-(programming-language)/c-quiz.md>)             | => 25 questions | => 25 answers |                                                                                                             |
