@@ -447,9 +447,9 @@ mysql < file.sql > out.txt
 - [ ] cp history
 
 #### Q44. In order to write a script that iterates through the files in a directory, which of the following could you use?
-- [ ] `bash for i in $(ls); do ... done`
+- [x] `bash for i in $(ls); do ... done`
 - [ ] `bash for $(ls); do ... done`
-- [x] `bash for i in $ls; do ... done`
+- [ ] `bash for i in $ls; do ... done`
 - [ ] `bash for $ls; do ... done`
 
 #### Q45 When executing a command and passing the output of that command to another command, which character allows you to chain these commands together?
