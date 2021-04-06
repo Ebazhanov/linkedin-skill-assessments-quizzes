@@ -251,3 +251,33 @@
  - [ ] short
  - [ ] medium
  - [x] a single bit
+
+#### Q44. You need to generate a unique, sequential identifier for each value stored in a Redis cluster. What do you do?
+ - [ ] Implement a SortedSet object to generate a value.
+ - [ ] Use the GUID keyword to generate a value.
+ - [ ] Implement a List object to generate a value.
+ - [x] Use the INCR keyword to generate a value
+
+ #### Q45. You want to return a list of all elements in two Redis sets. Which keyword do you use?
+ - [x] smembers
+ - [ ] returnall
+ - [ ] sunion
+ - [ ] sismember
+
+#### Q46. Which method shows you whether MongoDB uses any indexes when running a query, and how the indexes are used?
+ - [ ] detailQueryExecution()
+ - [ ] showPlan()
+ - [x] explain()
+ - [ ] describe()
+
+#### Q47. Which statement retrieves an item from the MusicCollection table in DynamoDB?
+ - [ ] aws dynamodb select --table-name MusicCollection --key file://key.json
+ - [ ] aws dynamodb query --table-name MusicCollection --key file://key.json
+ - [ ] aws dynamodb put-item --table-name MusicCollection --key file://key.json
+ - [x] aws dynamodb get-item --table-name MusicCollection --key file://key.json
+
+#### Q48. Which statement accurately describes global secondary indexes in DynamoDB?
+ - [ ] The global secondary indexes in DynamoDB are consistent, and are not guaranteed to return correct results.
+ - [ ] The global secondary indexes in DynamoDB are transactionally consistent, and are guaranteed to return correct results.
+ - [ ] The global secondary indexes in DynamoDB are partially consistent, and are not guaranteed to return correct results.
+ - [ ] The global secondary indexes in DynamoDB are eventually consistent, and are not guaranteed to return correct results.
