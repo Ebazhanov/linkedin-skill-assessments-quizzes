@@ -731,3 +731,9 @@ def calculate_sales_tax(subtotal):
 - [ ] Teams with remote employees use virtual environments so they can share code, do code reviews, and collaorate remotely.
 - [ ] Virtual environments were common in Python 2 because they augmented missing features in the language. Virtual environments are not necessary in Python 3 due to advancements in the language.
 - [ ] Virtual environments are tied to your GitHub or Bitbucket account, allowing you to access any of your repos virtually from any machine.
+
+#### Q73. What is the correct way to run all the doctests in a given file from the command line?
+- [ ] python3 -m doctest <filename>
+- [x] python3 <filename>
+- [ ] python3 <filename> rundoctests
+- [ ] python3 doctest

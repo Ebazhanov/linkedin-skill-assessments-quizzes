@@ -569,3 +569,38 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] algorithms
 - [ ] time
 - [ ] computer scientists
+
+#### Q72. You need to select a machine learning process to run a distributed neural network on a mobile application. Which would you choose?
+
+- [ ] Scikit-learn
+- [ ] PyTorch
+- [x] Tensowflow Lite
+- [ ] Tensorflow
+
+#### Q73. Which choice is the best example of labeled data?
+
+- [ ] a spreadsheet
+- [ ] 20,000 recorded voicemail messages
+- [x] 100,000 images of automobiles
+- [ ] hundreds of gigabytes of audio files
+
+#### Q74. In statistics, what is defined as the probability of a hypothesis test of finding an effect - if there is an effect to be found?
+
+- [ ] confidence
+- [ ] alpha
+- [x] power
+- [ ] significance
+
+#### Q75. You want to create a machine learning algorithm to identify food recipes on the web. To do this, you create an algorithm that looks at different conditional probabilities. So if the post includes the word *flour*, it has a slightly stronger probability of being a recipe. If it contains both *flour* and *sugar*, it even more likely a recipe. What type of algorithm are you using?
+
+- [ ] naive Bayes classifier
+- [ ] K-nearest neighbor
+- [ ] multiclass classification
+- [x] decision tree
+
+#### Q76. What is lazy learning?
+
+- [ ] when the machine learning algorithms do most of the programming
+- [ ] when you don't do any data scrubbing
+- [x] when the learning happens continuously
+- [ ] when you run your computation in one big instance at the beginning
