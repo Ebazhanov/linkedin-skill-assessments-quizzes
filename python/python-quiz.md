@@ -110,6 +110,7 @@ def sum(a, b):
     ###
     return a + b
 ```
+
 #### Q12. What built-in Python data type is commonly used to represent a stack?
 - [ ] `set`
 - [x] `list`
