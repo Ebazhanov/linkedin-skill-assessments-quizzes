@@ -208,8 +208,8 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 #### Q28. Why is the passwd command able to modify the /etc/passwd file?
 
 - [ ] The kernel identifies it as one of the names of extended commands.
-- [x] It has the same name as the file it modifies.
-- [ ] It has the SUID permission mode and is owned by root.
+- [ ] It has the same name as the file it modifies.
+- [x] It has the SUID permission mode and is owned by root.
 - [ ] It is a system administration command.
 
 #### Q29. When a user deletes a file using the rm command, Linux will **\_**.
