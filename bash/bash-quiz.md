@@ -182,11 +182,12 @@ E. bash demo.sh
 
 #### Q22. How could you get a list of all .html files in your tree?
 
-#### Idk both of them work
 - [ ] `find . -type html`
-- [x] `find . -name *.html`
+- [ ] `find . -name *.html`
 - [ ] `find *.html`
 - [x] `find . -name \*.html -print`
+
+The second seems well, but will expand the * if there is any .html file on your working directory.
 
 #### Q23. What would be in out.txt?
 ```bash
