@@ -176,7 +176,7 @@
  - [ ] a set of variables that can change over time
  - [ ] a procedure associated with data and behaviour
 
-### Q28. A mobile phone is made up of components such as a motherboard, camera, and sensors. The motherboard represents all the functions of a phone, the display shows the display only, and the phone is represented as a whole. Which of the following has the highest level of abstraction?
+#### Q28. A mobile phone is made up of components such as a motherboard, camera, and sensors. The motherboard represents all the functions of a phone, the display shows the display only, and the phone is represented as a whole. Which of the following has the highest level of abstraction?
  - [ ] camera
  - [ ] display
  - [ ] motherboard

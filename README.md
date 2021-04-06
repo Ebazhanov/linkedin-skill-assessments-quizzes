@@ -1,21 +1,44 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-310-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-315-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-> This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here!
-
-#### [Noatcards](https://noat.cards)
-
-Noatcards is simple spaced repetition learning platform based on Telegram(Bot). The platform has feature call Quiz Competition Game which you can create Quiz Game and play with your friend. 
-You can use the repo to create a Quiz Library in `noat.cards` and create some quiz games to test your knowledge yourself or have fun with your friends.
+> This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use https://www.grammarly.com/ for online grammar checker when you contribute !
+> 
 
 #### Announcement:
 
 if you want to meet each other or discuss quiz related problems join the `Discord` chat 
 
 [![Join our Discord server!](https://invidget.switchblade.xyz/6hYwWmw67w?theme=light)](http://discord.gg/6hYwWmw67w)
+
+#### [Noatcards](https://noat.cards)
+
+Noatcards is simple spaced repetition learning platform based on Telegram(Bot). The platform has feature call Quiz Competition Game which you can create Quiz Game and play with your friend. 
+You can use the repo to create a Quiz Library in `noat.cards` and create some quiz games to test your knowledge yourself or have fun with your friends.
+
+![Noat Cards](assets/noatcards.gif)
+
+##### How to use the repo with `noat.cards`
+
+**1. Import the repository to `noat.cards`**
+
+- Access to the [bot](https://telegram.me/noat_cards_bot?start)
+- Input command `/start` or `/home` start Main UI of the bot
+- Navigate to `🗃` (Repo Shelf) by click on `🗃` button
+- Select `Import Repo 📥` (Import Repository with git url)
+- Input the repo git url.
+  `https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes`
+  
+**2. Practice quiz**
+
+- Navigate to `🗃` (Repo Shelf) by click on `🗃` button
+- On `🗃` (Repo Shelf) tab,
+  
+  select `linkedin-skill-assessments-quizzes` by click on its index button
+- select Quiz Test, you want to practice. 
+- Click on button `Learn it` to start practice the quiz test
 
 ### Table of Contents
 
@@ -25,7 +48,7 @@ if you want to meet each other or discuss quiz related problems join the `Discor
 | [Adobe-Photoshop](adobe-photoshop/adobe-photoshop-quiz.md)                   | => 36 questions | => 36 answers |                                                                                                             |
 | [Adobe Premiere Pro](adobe-premiere-pro/adobe-premiere-pro-quiz.md)          | => 47 questions | => 0 answers  |                                                                                                             |
 | [Agile Methodologies](agile-methodologies/agile-methodologies-quiz.md)       | => 76 questions | => 76 answers |                                                                                                             |
-| [Android](android/android-quiz.md)                                           | => 44 questions | => 40 answers |                                                                                                             |
+| [Android](android/android-quiz.md)                                           | => 44 questions | => 40 answers | [@surajsahani](https://github.com/surajsahani)                                                                                                            |
 | [AngularJs](angularjs/angularjs-quiz.md)                                     | => 15 questions | => 2 answers  |                                                                                                             |
 | [AWS](aws/aws-quiz.md)                                                       | => 38 questions | => 36 answers | [@jokerkeny](https://github.com/jokerkeny)                                                                  |
 | [AWS-Lambda](aws-lambda/aws-lambda-quiz.md) :fire:                           | => 44 questions | => 44 answers |                                                                                                             |
@@ -392,7 +415,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://derekyang.netlify.app"><img src="https://avatars1.githubusercontent.com/u/55335639?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Derek Yang</b></sub></a><br /><a href="#design-baymax88" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=baymax88" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/mohsinmsm"><img src="https://avatars2.githubusercontent.com/u/63414742?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mohsinmsm</b></sub></a><br /><a href="#design-mohsinmsm" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=mohsinmsm" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/gokulakrishnan-velu-43289174/"><img src="https://avatars3.githubusercontent.com/u/65799732?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gokulkrish2302</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=gokulkrish2302" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Bhaavishek"><img src="https://avatars0.githubusercontent.com/u/49985195?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bhaavishek</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Bhaavishek" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Bhaavishek"><img src="https://avatars0.githubusercontent.com/u/49985195?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bhaavishek</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Bhaavishek" title="Code">💻</a> <a href="#design-Bhaavishek" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/a401120174"><img src="https://avatars0.githubusercontent.com/u/39911137?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Louis Liao</b></sub></a><br /><a href="#design-a401120174" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/sengc92"><img src="https://avatars1.githubusercontent.com/u/63807395?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sengc92</b></sub></a><br /><a href="#design-sengc92" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sengc92" title="Code">💻</a></td>
   </tr>
@@ -525,6 +548,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/nicktids"><img src="https://avatars.githubusercontent.com/u/26164799?v=4?s=100" width="100px;" alt=""/><br /><sub><b>nicktids</b></sub></a><br /><a href="#design-nicktids" title="Design">🎨</a></td>
     <td align="center"><a href="http://www.kietdinh.com/"><img src="https://avatars.githubusercontent.com/u/52475783?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Keith Dinh</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=KeithDinh" title="Code">💻</a> <a href="#design-KeithDinh" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/andreeferreira"><img src="https://avatars.githubusercontent.com/u/49101040?v=4?s=100" width="100px;" alt=""/><br /><sub><b>André Ferreira</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=andreeferreira" title="Code">💻</a> <a href="#design-andreeferreira" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/eliottkespi"><img src="https://avatars.githubusercontent.com/u/38857833?v=4?s=100" width="100px;" alt=""/><br /><sub><b>eliottkespi</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=eliottkespi" title="Code">💻</a> <a href="#design-eliottkespi" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/praveenpno"><img src="https://avatars.githubusercontent.com/u/11199918?v=4?s=100" width="100px;" alt=""/><br /><sub><b>praveenpno</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=praveenpno" title="Code">💻</a> <a href="#design-praveenpno" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/vitowidigdo"><img src="https://avatars.githubusercontent.com/u/35423212?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vitowidigdo</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=vitowidigdo" title="Code">💻</a> <a href="#design-vitowidigdo" title="Design">🎨</a></td>
+    <td align="center"><a href="http://idevesh.in"><img src="https://avatars.githubusercontent.com/u/63795693?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Devesh Pratap Singh</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=idevesh" title="Code">💻</a> <a href="#design-idevesh" title="Design">🎨</a></td>
   </tr>
 </table>
 

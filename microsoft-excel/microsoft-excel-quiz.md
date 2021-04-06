@@ -342,3 +342,36 @@
 - [ ] =ISCHAR(A1)
 - [ ] =ISSTRING(A1)
 - [x] =ISTEXT(A1)
+
+#### Q52. Which of these functions returns the largest value among all values within the range H2:H30?
+- [ ] =UPPER(H2:30,1)
+- [ ] =MAXIMUM(H2:H30)
+- [x] =MAX(H2:H30)
+- [ ] =LARGE(H2:H30,29)
+
+#### Q53. You select cell A1, hover the pointer over the cell border to reveal the move icon, then drag the cell to a new location. Which ribbon commands achieve the same result?
+- [ ] Cut and Fill
+- [x] Cut and Paste
+- [ ] Copy and Transpose
+- [ ] Copy and Paste
+
+#### Q54. You want to add a column to the PivotTable below that shows a 5% bonus for each sales rep.  That data does not exists in the original data table.  How can you do this without adding more data to the table?
+![image](https://user-images.githubusercontent.com/8637045/113378635-7cc14700-9345-11eb-95fd-0f751af49317.png)
+- [ ] Add a new PivotTable field.
+- [ ] Add a calculated item
+- [ ] Add a new Summarize Value By field.
+- [x] Add a calculated field.
+
+#### Q55. You need to determine the commission earned by each Sales rep, based on the Sales amount in B3:B50 and the Commission rate specified in cell A1.  You want to enter a formula in C3 and copy it down to C50.  Which formula should you use?
+![image](https://user-images.githubusercontent.com/8637045/113378769-cdd13b00-9345-11eb-81f4-b9567d53f26b.png)
+- [ ] =A1*$B3
+- [ ] =A1*B3
+- [x] =$A$1*B3
+- [ ] =$A1*B3
+
+#### Q56. The NOW() function returns the current date and time as 43740.665218.  Which part of this value indicates the time?
+- [ ] 6652
+- [ ] 43740.665218
+- [ ] 43740
+- [x] 665218
+

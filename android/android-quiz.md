@@ -602,3 +602,119 @@ buildTypes {
 - [ ] View C has too many constraints.
 - [ ] View B is not vertically constrained.
 - [ ] View C is constrained to the parent.
+#### Q45. Given this code snippey from a build.gradle file, which choice is not a possible build variant?
+android {
+  ...
+  defaultConfig{...}
+  
+  buildTypes{
+      debug{...}
+      releasae{...}
+      }
+      
+      flavorDimensions "environment"
+      productFlavors {
+         producation {...}
+         staging {...}
+     }
+   }
+- [ ] productionDebug.
+- [ ] developmentDebug.
+- [ ] stagingDebug.
+- [ ] stagingRelease.
+
+#### Q46. You need to upgrade to the latest version of the Android Gradle plugin. Which file should you modify?
+
+- [x] root_project_dir/app/build.gradle.
+- [ ] root_project_dir/settings.gradle.
+- [ ] root_project_dir/build.gradle.
+- [ ] root_project_dir/app/gradle.properties.
+
+#### Q47. What is not good way to reuse Android code?
+
+- [ ] Break down UI layouts into common elements and use <include/> to include them in other layout XML files.
+- [ ] Prefer to build custom views or fragments over activities.
+- [ ] Use a common Gradle module shared by different Android projects.
+- [ ] Prefer to build activities instead of fragments.
+
+#### Q47. When should you use the androidTest directory to store your test classes?
+
+- [ ] when the tests consist only of unit tests.
+- [ ] when the number of tests to run is large(500+).
+- [ ] when the tests need to run on your local machine.
+- [ ] when the tests need to run on real or virtual devices.
+
+#### Q48. What is the benifit of using the @VisibleForTesting annotation?
+
+- [ ] to denote that a class, method, or field is visible only in test code.
+- [ ] to dentoe that a class, method or field has it's visibility increased to make code less testable.
+- [ ] to denote that a class, method, or field has it's visibility relaxed to make code testable.
+- [ ] to throw a run-time error if a class, method, or field which this annotation is accessed improperly.
+
+#### Q49. Given an APK named app-internal-debug.apk produced from the build process, which statement is likely to be true?
+
+- [ ] This APK is created on a developer machine from the debug product flavor.
+- [ ] This APK is created from the internalDebug product flavor.
+- [ ] This APK created from the debug product flavor and internal build type.
+- [ ] This APK is created from the debug build type and internal product flavor.
+
+#### Q50. When attempting to build your project,  what might the following error indicate?
+
+ Conversion to Dalvik format filed:
+ Unable to execute dex: method ID not in [0, 0xffff]: 65536
+ 
+- [ ] You have included incorect format information in your build.gradle file.
+- [ ] You have added more than 20 dependencies to your build.gradle.
+- [ ] You have exceeded the total number of methods that can be referenced within a single DEX file.
+- [ ] You have a NullPointerException in your code.
+
+#### Q51. Which statement, in build.gradle file, correctly denotes that the corresponding module is an Android library module?
+
+
+- [ ] apply plugin: 'com.module.library'
+- [ ] apply plugin: 'com.android.library'
+- [ ] apply plugin: 'com.module.library'
+- [ ] include plugin: 'com.module.library'
+
+#### Q52. Given the following dimens.xml file, how would you define an ImageView with medium spacing at the bottom?
+```
+<?xml version=1.0 encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">12dp</dimen>
+</resources>
+```
+- [ ]
+```
+<ImageView
+   android:id=@+id/image_map_pin"
+   android:layout_width="wrap_content"
+   android:layout_heignt="wrap_content"
+   android:src=@drawable/map_pin />
+```
+- [ ]
+```<ImageView
+   android:id=@+id/image_map_pin"
+   android:layout_width="wrap_content"
+   android:layout_heignt="wrap_content"
+   androi:layout_botttom="@dimen/spacing_medium"
+   android:src=@drawable/map_pin />
+```
+- [ ]
+```
+<ImageView
+   android:id=@+id/image_map_pin"
+   android:layout_width="wrap_content"
+   android:layout_heignt="wrap_content"
+   android:layout_marginBottom="@resources/spacing_medium"
+   android:src=@drawable/map_pin />
+```
+- [ ]
+```
+<ImageView
+   android:id=@+id/image_map_pin"
+   android:layout_width="wrap_content"
+   android:layout_heignt="wrap_content"
+   android:layout_marginBottom="@dimen/spacing_medium"
+   android:src=@drawable/map_pin />
+```

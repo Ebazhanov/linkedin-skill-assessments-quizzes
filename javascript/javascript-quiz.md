@@ -676,4 +676,4 @@ logThis();
 - [ ] function
 - [ ] undefined
 - [ ] Function.prototype
-- [ ] window
+- [x] window

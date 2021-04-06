@@ -164,7 +164,7 @@
 - [ ] You would use this function if you wanted to abort the script for all logged-in users, not just the one who disconnected.
 - [ ] You would use this function if you want a PHP script to run forever.
 
-#### Q19. The PHP function array_reduce() takes a callback function that accepts a value carried over each iteration and the current item in the array, and reduces an array to a single value. Which code sample will sum and output the values in the provided array?
+##### Q19. The PHP function array_reduce() takes a callback function that accepts a value carried over each iteration and the current item in the array, and reduces an array to a single value. Which code sample will sum and output the values in the provided array?
 
 - [ ]
 
@@ -390,14 +390,14 @@ echo sizeof($mathe);
 - [ ] no output. Syntax error do to missing semicolon at the end
 - [ ] no output due to % in \$num%2!=0
 
-#### Q37. You want to list the modules available in your PHP installation. What command should you run?
+##### Q37. You want to list the modules available in your PHP installation. What command should you run?
 
 - [ ] php -h
 - [ ] php info
 - [ ] php -v
 - [x] php -m
 
-#### Q38. For the HTML form below, what is the correct functioning script that checks the input "mail" to be sure it is filled before proceeding?
+##### Q38. For the HTML form below, what is the correct functioning script that checks the input "mail" to be sure it is filled before proceeding?
 
 ```
 if (!empty(\$\_POST["mail"])) {
@@ -407,7 +407,7 @@ echo "No, mail is not set";
 } (correct)
 ```
 
-#### Q29. What is the value of '$result' in this calculation?
+##### Q39. What is the value of '$result' in this calculation?
 
 `$result = 25 % 6;`
 
@@ -416,14 +416,14 @@ echo "No, mail is not set";
 - [ ] 4
 - [x] 1
 
-#### Q30. What is the job of the controller as a component in MVC?
+##### Q40. What is the job of the controller as a component in MVC?
 
 - [ ] The controller handles data passed to it by the view, and also passes data to the view. It interprets data sent by the view and disperses that data to the approrpiate models awaiting results to pass back to the view.
 - [ ] The controller is a mechanism that allows you to create reusable code in languages such as PHP, where multiple inheritance is not supported.
 - [ ] The controller presents content through the user interface, after communicating directly with the database.
 - [x] The controller handles specific tasks related to a specific area of functionality, handles business logic related to the results, and communicates directly with the database.
 
-#### Q31. Why does this code trigger an error?
+##### Q41. Why does this code trigger an error?
 
 `$string = 'Shylock in a Shakespeare's "Merchangt of Venice" demands his pound of flesh.';`
 
@@ -432,51 +432,22 @@ echo "No, mail is not set";
 - [ ] The opening and closing single quotes should be replaced by double quotes; and the apostrophe should be escaped by a backslash.
 - [x] The apostrophe needs to be escaped by a backslash to prevent it from being treated as the closing quote.
 
-### The following XML document is in books.xml. Which code will output "Historical"?
 
-```
-<books>
-    <book>
-        <title>A Tale of Two Cities</title>
-            <author>Charles Dickens</author>
-            <categories>
-            <category>Classics</category>
-            <category>Historical</category>
-            </categories>
-            </book>
-        <title>Then There Were None</title>
-            <author>Agatha Christies</author>
-            <categories>
-            <category>Mystery</category>
-        </categories>
-    </book>
-</books>
-```
-
-- [ ] $books = simplexml_load_string('books.xml');
-      echo $books->book[0]->categories->category[1];
-- [ ] $books = simplexml_load_file('books.xml');
-      echo $books->book[0]->categories->category[1];
-- [x] $books = SimpleXMLElement('books.xml');
-      echo $books->book[0]->categories->category[1];
-- [ ] $books = SimpleXML('books.xml');
-      echo $books->book[0]->categories->category[1];
-
-#### Q32. A PDO object called $db has been set up to use for database operations, including user authentication. All user-related properties are set. The script line `public function __construct(&$db)` shows a constructor that initializes all user-related properties to \_\_\_\_ if no user has logged in. These parameters will be properly set by the login functions when a user logs in.
+##### Q42. A PDO object called $db has been set up to use for database operations, including user authentication. All user-related properties are set. The script line `public function __construct(&$db)` shows a constructor that initializes all user-related properties to \_\_\_\_ if no user has logged in. These parameters will be properly set by the login functions when a user logs in.
 
 - [x] NULL
 - [ ] TRUE
 - [ ] FALSE
 - [ ] 0
 
-#### Q33. Assuming that $first_name and $family_name are valid strings, which statement is invalid?
+##### Q43. Assuming that $first_name and $family_name are valid strings, which statement is invalid?
 
 - [ ] echo $first_name. ' '. $familiy_name;
 - [x] print $first_name, ' ', $familiy_name;
 - [ ] print $first_name. ' '. $familiy_name;
 - [ ] echo $first_name, ' ', $familiy_name;
 
-#### Q34. Which code snippet demonstrates encapsulation?
+##### Q44. Which code snippet demonstrates encapsulation?
 
 - [ ]
 
@@ -517,3 +488,33 @@ class Cow {
         }
 }
 ```
+
+##### Q45. The following XML document is in books.xml. Which code will output "Historical"?
+
+```
+<books>
+    <book>
+        <title>A Tale of Two Cities</title>
+            <author>Charles Dickens</author>
+            <categories>
+            <category>Classics</category>
+            <category>Historical</category>
+            </categories>
+            </book>
+        <title>Then There Were None</title>
+            <author>Agatha Christies</author>
+            <categories>
+            <category>Mystery</category>
+        </categories>
+    </book>
+</books>
+```
+
+- [ ] $books = simplexml_load_string('books.xml');
+      echo $books->book[0]->categories->category[1];
+- [ ] $books = simplexml_load_file('books.xml');
+      echo $books->book[0]->categories->category[1];
+- [x] $books = SimpleXMLElement('books.xml');
+      echo $books->book[0]->categories->category[1];
+- [ ] $books = SimpleXML('books.xml');
+      echo $books->book[0]->categories->category[1];
