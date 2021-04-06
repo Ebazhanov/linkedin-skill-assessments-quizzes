@@ -424,10 +424,12 @@ else
     echo "Is not numeric"
 fi
 ```
-- [x] Any sequence of characters that includes an integer
+- [ ] Any sequence of characters that includes an integer
 - [ ] The user would have to enter the character sequence of `^[0-9]]+$` Only this will prove to be true and "Is numeric" would be printed on the screen due to incorrect syntax. By encapsulating the regular expression in double quotes every match will fail except the text string `^[0-9]+$`
 - [ ] One or more characters that only includes integers
-- [ ] Due to a syntax error it is impossible to get the script to print "Is numeric"
+- [x] Due to a syntax error it is impossible to get the script to print "Is numeric"
+
+The regex must not be quoted to work properly.
 
 #### Q42. What will be the difference between the output on the screen and the contents of out.txt
 ```bash
@@ -445,9 +447,9 @@ mysql < file.sql > out.txt
 - [ ] cp history
 
 #### Q44. In order to write a script that iterates through the files in a directory, which of the following could you use?
-- [ ] `bash for i in $(ls); do ... done`
+- [x] `bash for i in $(ls); do ... done`
 - [ ] `bash for $(ls); do ... done`
-- [x] `bash for i in $ls; do ... done`
+- [ ] `bash for i in $ls; do ... done`
 - [ ] `bash for $ls; do ... done`
 
 #### Q45 When executing a command and passing the output of that command to another command, which character allows you to chain these commands together?
