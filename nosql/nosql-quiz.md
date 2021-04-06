@@ -264,8 +264,32 @@
  - [ ] the amount of service costs
  - [ ] the number of nines
  
-  #### Q44. You need to encrypt data at rest in DynamoDB.  Which action do you take?
+  #### Q45. You need to encrypt data at rest in DynamoDB.  Which action do you take?
  - [ ] You assign a default AWS encryption key to your table to encrypt data.
  - [ ] You create an AWS encryption key and assign it to your table to encrypt data.
  - [ ] None.  Data is encrypted by default.
  - [ ] You create an AWS encryption key and assign it to your database to encrypt data.
+ 
+ #### Q46. You need to generate a unique, sequential identifier for each value stored in a Redis cluster. What do you do?
+ - [ ] Implement a SortedSet object to generate a value.
+ - [ ] Use the GUID keyword to generate a value.
+ - [ ] Implement a List object to generate a value.
+ - [x] Use the INCR keyword to generate a value
+
+ #### Q47. You want to return a list of all elements in two Redis sets. Which keyword do you use?
+ - [x] smembers
+ - [ ] returnall
+ - [ ] sunion
+ - [ ] sismember
+
+#### Q48. Which method shows you whether MongoDB uses any indexes when running a query, and how the indexes are used?
+ - [ ] detailQueryExecution()
+ - [ ] showPlan()
+ - [x] explain()
+ - [ ] describe()
+
+#### Q49. Which statement accurately describes global secondary indexes in DynamoDB?
+ - [ ] The global secondary indexes in DynamoDB are consistent, and are not guaranteed to return correct results.
+ - [ ] The global secondary indexes in DynamoDB are transactionally consistent, and are guaranteed to return correct results.
+ - [ ] The global secondary indexes in DynamoDB are partially consistent, and are not guaranteed to return correct results.
+ - [ ] The global secondary indexes in DynamoDB are eventually consistent, and are not guaranteed to return correct results.
