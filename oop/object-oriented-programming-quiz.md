@@ -265,7 +265,7 @@
  - [ ] to protect attributes from unwanted changes
  - [ ] to delegate coding responsibility more efficiently
  - [ ] to conserve memory
- - [ ] to avoid writing duplicate code
+ - [x] to avoid writing duplicate code
 
 #### Q41. In addition to attributes and behaviours, what quality must a class possess?
  - [x] a name
@@ -304,9 +304,9 @@
  - [x] multiple
 
 #### Q47. How are the contents of a composition different from those of an aggregation?
- - [x] The contents of a composition are all siblings.
+ - [ ] The contents of a composition are all siblings.
  - [ ] An aggregation contains only abstract classes.
- - [ ] If a composition dies, the contents die.
+ - [x] If a composition dies, the contents die.
  - [ ] If one element of an aggregation is dereferenced, all its elements are eligible for garbage collection.
 
 #### Q48. What is the relationship between abstraction and encapsulation?
