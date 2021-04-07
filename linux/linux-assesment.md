@@ -281,8 +281,8 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 ```
 - [ ] "This is a remote test"
 - [ ] the date, the time, and the words "This is a remote test"
-- [x] The email subject shows "This is a remote test" but the body of the email will be empty. 
-- [ ] the current date and time
+- [ ] The email subject shows "This is a remote test" but the body of the email will be empty. 
+- [x] the current date and time
 
 #### Q37. What is the /etc/hosts file used for?
 - [ ] resolving the local name
