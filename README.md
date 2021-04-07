@@ -6,41 +6,14 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-> This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use https://www.grammarly.com/ for online grammar checker when you contribute !
+> This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use https://www.grammarly.com/ for online grammar checker when you contribute!
+
 
 #### Announcement:
 
 if you want to meet each other or discuss quiz related problems join the `Discord` chat
 
 [![Join our Discord server!](https://invidget.switchblade.xyz/6hYwWmw67w?theme=light)](http://discord.gg/6hYwWmw67w)
-
-#### [Noatcards](https://noat.cards)
-
-Noatcards is simple spaced repetition learning platform based on Telegram(Bot). The platform has feature call Quiz Competition Game which you can create Quiz Game and play with your friend.
-You can use the repo to create a Quiz Library in `noat.cards` and create some quiz games to test your knowledge yourself or have fun with your friends.
-
-![Noat Cards](assets/noatcards.gif)
-
-##### How to use the repo with `noat.cards`
-
-**1. Import the repository to `noat.cards`**
-
-- Access to the [bot](https://telegram.me/noat_cards_bot?start)
-- Input command `/start` or `/home` start Main UI of the bot
-- Navigate to `🗃` (Repo Shelf) by click on `🗃` button
-- Select `Import Repo 📥` (Import Repository with git url)
-- Input the repo git url.
-  `https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes`
-
-**2. Practice quiz**
-
-- Navigate to `🗃` (Repo Shelf) by click on `🗃` button
-- On `🗃` (Repo Shelf) tab,
-
-  select `linkedin-skill-assessments-quizzes` by click on its index button
-
-- select Quiz Test, you want to practice.
-- Click on button `Learn it` to start practice the quiz test
 
 ### Table of Contents
 
@@ -108,6 +81,34 @@ You can use the repo to create a Quiz Library in `noat.cards` and create some qu
 | [Windows Server](windows-server/windows-server-quiz.md)                      | => 46 questions | => 44 answers |                                                                                                             |
 | [WordPress](wordpress/wordpress-quiz.md)                                     | => 42 questions | => 39 answers | [@harman052](https://github.com/harman052)                                                                  |
 | [XML](xml/xml-quiz.md)                                                       | => 21 questions | => 19 answers |                                                                                                             |
+
+#### [Noatcards](https://noat.cards)
+
+Noatcards is simple spaced repetition learning platform based on Telegram(Bot). The platform has feature call Quiz Competition Game which you can create Quiz Game and play with your friend.
+You can use the repo to create a Quiz Library in `noat.cards` and create some quiz games to test your knowledge yourself or have fun with your friends.
+
+![Noat Cards](assets/noatcards.gif)
+
+##### How to use the repo with `noat.cards`
+
+**1. Import the repository to `noat.cards`**
+
+- Access to the [bot](https://telegram.me/noat_cards_bot?start)
+- Input command `/start` or `/home` start Main UI of the bot
+- Navigate to `🗃` (Repo Shelf) by click on `🗃` button
+- Select `Import Repo 📥` (Import Repository with git url)
+- Input the repo git url.
+  `https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes`
+
+**2. Practice quiz**
+
+- Navigate to `🗃` (Repo Shelf) by click on `🗃` button
+- On `🗃` (Repo Shelf) tab,
+
+  select `linkedin-skill-assessments-quizzes` by click on its index button
+
+- select Quiz Test, you want to practice.
+- Click on button `Learn it` to start practice the quiz test
 
 :point_right: If you want to improve your skills on another test platform [**Pluralsight IQ Skill**](https://www.pluralsight.com/product/skill-iq)
 find **questions and answers** in **@Timo Körner** [repository](https://github.com/tik9/pluralsight-skill-test):
