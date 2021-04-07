@@ -110,6 +110,8 @@ You can use the repo to create a Quiz Library in `noat.cards` and create some qu
 - select Quiz Test, you want to practice.
 - Click on button `Learn it` to start practice the quiz test
 
+--------------------------------
+
 :point_right: If you want to improve your skills on another test platform [**Pluralsight IQ Skill**](https://www.pluralsight.com/product/skill-iq)
 find **questions and answers** in **@Timo Körner** [repository](https://github.com/tik9/pluralsight-skill-test):
 
