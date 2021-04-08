@@ -229,8 +229,8 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 #### Q31. What is one major difference between brace expansion and globs?
 
 - [ ] Globs create a list; brace expansion matches pattern.
-- [x] Brace expansion requires files to exist; globs do not.
-- [ ] Brace expansion creates a list; globs mart the list of pathnames.
+- [ ] Brace expansion requires files to exist; globs do not.
+- [x] Brace expansion creates a list; globs mart the list of pathnames.
 - [ ] Globs get processes first and brace expansion later.
 
 #### Q32. To remove all ACLs from a directory , use setfacl with which options?
