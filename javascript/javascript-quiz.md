@@ -139,9 +139,9 @@ new logThis();
 let roadTypes = ['street', 'road', 'avenue', 'circle'];
 ```
 - [ ] roadTypes.2
-- [ ] roadTypes[3]
+- [ ] roadTypes\[3\]
 - [ ] roadTypes.3
-- [x] roadTypes[2]
+- [x] roadTypes\[2\]
 
 #### Q14. What is the result of running this statement?
 `console.log(typeof(42));`
