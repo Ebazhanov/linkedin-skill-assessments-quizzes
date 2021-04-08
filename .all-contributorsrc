@@ -3112,6 +3112,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "BenitesGui",
+      "name": "BenitesGui",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12888298?v=4",
+      "profile": "https://github.com/BenitesGui",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
