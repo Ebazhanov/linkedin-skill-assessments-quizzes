@@ -222,3 +222,67 @@ H1: Reviews
 - [ ] CTR
 - [ ] PPC
 - [ ] LSI
+
+#### Q30. How do keywords change as people progress through the buying cycle?
+- [ ] They move from simple to more comples as searchers gather more information and then refine their choices.
+- [ ] The stay simple, as searchers try to use as few words as possible.
+- [ ] The keywords do not change much at all.
+- [ ] They move from complex to simple, as searchers find answers to their questions.
+
+#### Q31. Which technique is an example of black hat SEO?
+- [ ] cloaking
+- [ ] keyword research
+- [ ] useful content
+- [ ] on-page optimization
+
+#### Q32. A local accountant wants to start attracting more business directly from Google organic search. What is the best piece of advice to give to her?
+- [ ] Use the pharse "local accountant" as a keyword to focus her website on.
+- [ ] Focus on short-tail keywords.
+- [ ] Register her business with a Google My Business account.
+- [ ] Leave a link to her website in the blog comments of popular accounting websites.
+
+#### Q33. What is the anchor text in this code sample?
+```<a href="catalog/gloves.html">Blue Gloves</a>```
+- [ ] Blue Gloves
+- [ ] href
+- [ ] catalog/
+- [ ] gloves.html
+
+#### Q34. ________ analysis allows you to review requests made to your web server to identify insights such as how ofter a crawler arrives, what pages have 404 errors, and most crawled pages
+- [ ] Log file
+- [ ] HTTP/2
+- [ ] Cron job
+- [ ] Resource packet
+
+#### Q35. Which page title references content that is evergreen
+- [ ] Mega List of Teams Going to the Olympics
+- [ ] Complete Coverage of Microsoft's Latest Announcement
+- [ ] The Future of SEO in 2020
+- [ ] How to Reheat Pizza
+
+#### Q36. You load a page and start reading an article, and suddenly the content on the page moves. What metric is used to quantify this impact on user experience?
+- [ ] First Meaningful Paint (FMP)
+- [ ] Recalculated Style Timing (RST)
+- [ ] Latent Loading Signal (LLS)
+- [ ] Cumulative Layout Shift (CLS)
+
+#### Q37. What is this code is an example of?
+```<script type="application/ld+json">
+{
+   "@context": "https://schema.org",
+   "@type": "Organization",
+   "url": "http://www.domain.com",
+   "name": "Bradley Corp.",
+   "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+1-555-555-5555",
+      "contactType": "Customer service"
+    }
+}
+</script>
+```
+
+- [ ] meta tag
+- [ ] HTTP response
+- [ ] XML sitemap
+- [ ] structured data
