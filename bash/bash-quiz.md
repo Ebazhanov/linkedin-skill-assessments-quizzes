@@ -399,8 +399,6 @@ done
 ```bash
 ls Hello[[.vertical-line.]]World
 ```
-It's matches also `Hello[[.vertical-line.]]World` file but if we have this and `Hello|World` file will always be matched last one
-
 - [ ] `Nothing, this is an invalid file glob.`
 - [ ] `Hello.vertical-line.World`
 - [ ] `Hello[[.vertical-line.]]World`
