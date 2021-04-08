@@ -242,22 +242,22 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 
 #### Q33. Which choice will not print "Hello World" in the terminal?
 
-- [x]
+- [ ]
 ```bash
 myVar = 5
 [[ $myVar -lt 10 ]] && echo " Hello World"
 ```
-- [ ] 
+- [X] 
 ```bash
 myVar = 5
 [[ $myVar -lt 10 ]] || echo " Hello World"
 ```
-- [] 
+- [X] 
 ```bash
 myVar = 5
 [[ $myVar -gt 10 ]] && echo " Hello World"
 ```
-- [x]
+- [ ]
 ```bash
 myVar = 5
 [[ $myVar -gt 10 ]] || echo " Hello World"
@@ -308,3 +308,20 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 - [ ] pam_krb5
 - [ ] kdb5_util
 
+#### Q41. To search from the current cursor position up to the beginning of the file using VIM, type ______ and then the search criteria.
+- [x] ?
+- [ ] \
+- [ ] /
+- [ ] /search
+
+#### Q42. What is the job of the NetworkManager daemon?
+- [ ] It is a graphical tool that manages network connections, including bonding and wireless networks.
+- [ ] It is a security service that manages user access control of local network-aware services.
+- [ ] It attempts to keep an active network connection available at all times.
+- [x] It is a command-line tool that manages network connections.
+
+#### Q43. Why might would you use the usermod command ?
+- [ ] to log out a user
+- [ ] to lock a user's account
+- [x] to change global user account settings
+- [ ] to set a user's password
