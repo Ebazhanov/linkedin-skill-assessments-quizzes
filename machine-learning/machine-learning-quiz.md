@@ -2,10 +2,10 @@
 
 #### Q1. You are part of data science team that is working for a national fast-food chain. You create a simple report that shows trend: Customers who visit the store more often and buy smaller meals spend more than customers who visit less frequently and buy larger meals. What is the most likely diagram that your team created?
 
-- [x] multiclass classification diagram
+- [ ] multiclass classification diagram
 - [ ] linear regression and scatter plots
 - [ ] pivot table
-- [ ] K-means cluster diagram
+- [x] K-means cluster diagram
 
 #### Q2. You work for an organization that sells a spam filtering service to large companies. Your organization wants to transition its product to use machine learning. It currently a list Of 250,00 keywords. If a message contains more than few of these keywords, then it is identified as spam. What would be one advantage of transitioning to machine learning?
 
