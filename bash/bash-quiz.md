@@ -246,11 +246,6 @@ esac
 - [ ] `$!`
 - [ ] `$@`
 
-#WARNING!
-Start from this question and to Q40 I have a lot of doubts about answers
-because in real assessment I get these 12 question + 3 from Q1 to Q28,
-and I select other answers in Q29, Q31, Q32, Q35, Q36, Q37, Q39, Q40 and pass it
-
 #### Q29. What is the output of this script?
 ```bash
 #!/bin/bash
