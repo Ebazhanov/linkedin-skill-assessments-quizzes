@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-321-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-322-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use https://www.grammarly.com/ for online grammar checker when you contribute!
@@ -564,6 +564,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://in.linkedin.com/in/ritvik92"><img src="https://avatars.githubusercontent.com/u/9117019?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ritvik Singh Chauhan</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=s3c-d43m0n" title="Code">💻</a> <a href="#design-s3c-d43m0n" title="Design">🎨</a></td>
     <td align="center"><a href="https://riyamathew-11.github.io/riyapmathew2000/"><img src="https://avatars.githubusercontent.com/u/60656677?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Riya P Mathew</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=RiyaMathew-11" title="Code">💻</a> <a href="#design-RiyaMathew-11" title="Design">🎨</a></td>
     <td align="center"><a href="http://linkedin.com/in/stephanie-cherubin"><img src="https://avatars.githubusercontent.com/u/26418542?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stephanie Cherubin</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=StephanieCherubin" title="Code">💻</a> <a href="#design-StephanieCherubin" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/BenitesGui"><img src="https://avatars.githubusercontent.com/u/12888298?v=4?s=100" width="100px;" alt=""/><br /><sub><b>BenitesGui</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=BenitesGui" title="Code">💻</a> <a href="#design-BenitesGui" title="Design">🎨</a></td>
   </tr>
 </table>
 
