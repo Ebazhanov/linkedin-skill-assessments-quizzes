@@ -379,10 +379,10 @@ Note: there are centres of clusters (C0, C1, C2).
 
 #### Q49. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of fotos without them. What is the problem?
 
--[ ] You are overfitting the model to the data 
--[ ] You need a smaller training set 
--[x] You are underfitting the model to the data 
--[ ] You need a larger training set
+- [ ] You are overfitting the model to the data 
+- [ ] You need a smaller training set 
+- [x] You are underfitting the model to the data 
+- [ ] You need a larger training set
 
 #### Q50. Your supervisor asks you to create a machine learning system that will help your human resources department classify jobs applicants into well defined groups. What type of system are you more likely to recommend?
 
