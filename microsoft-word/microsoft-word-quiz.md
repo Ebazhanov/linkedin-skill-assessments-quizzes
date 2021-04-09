@@ -419,3 +419,15 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] Word scales the image to the largest size possible to fit within the height or width of the page.
 - [ ] Word converts the photo's file format.
 - [ ] Word analyzes and corrects the image for tone and color.
+
+#### Q59. When working with Track Changes, what is the difference between Simple Markup and all Markup?
+- [ ] Simple Markup shows the final version without inline markups; All Markups shows the final version with inline markups.
+- [ ] Simple Markup shows the markup versions by one selected author; All Markup shows the combined markup version of all authors.
+- [ ] Simple Markup shows the revisions of one selected author in the Review pane; All Markup shows the revisions of all authors with inline markups.
+- [ ] Simple Markup shows the final version with inline markups; All Markup shows the final version without inline markups.
+
+#### Q60. You want to set a wider inside margin to accommodate binding a document where pages are printed on both sides. Which option should you choose in the Page Setup diealog box?
+- [ ] Book Fold.
+- [ ] Mirror Margins
+- [ ] Duplex
+- [ ] Difference Odd & Even Pages
