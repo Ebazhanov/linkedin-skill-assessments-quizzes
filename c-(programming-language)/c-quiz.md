@@ -1,39 +1,39 @@
 ## C (Programming Language) 
 
 ##### Q1. Which Code saple will eventually cause the computer to run out of memory ?
-- [x]
-```
-while(1)
-{
-    char *smallString = (char *) malloc(10);
-}
-```
-- [ ]
-```
-long long number = 1;
-while(1)
-    number *= 2;
-```
-- [ ]
-```
-while(1)
-{
-    char hugeString[1000000L];
-    memset(hugeString, 0, 1000000L);
-}
-```
-- [ ]
-```
-while(1)
-{
-    long *bigArray = (long *) malloc(sizeof(long) * 1000);
-    memset(bigArray, 1000000, 1000);
-    free(bigArray);
-}
-```
+- [x] 
+  ```c
+  while(1)
+  {
+      char *smallString = (char *) malloc(10);
+  }
+  ```
+- [ ] 
+  ```c
+  long long number = 1;
+  while(1)
+      number *= 2;
+  ```
+- [ ] 
+  ```c
+  while(1)
+  {
+      char hugeString[1000000L];
+      memset(hugeString, 0, 1000000L);
+  }
+  ```
+- [ ] 
+  ```c
+  while(1)
+  {
+      long *bigArray = (long *) malloc(sizeof(long) * 1000);
+      memset(bigArray, 1000000, 1000);
+      free(bigArray);
+  }
+  ```
 
 #### Q2. What will this code print on the screen?
-```
+```c
 int f1 (int a, int b)
 {
     if (a > b)
@@ -73,7 +73,7 @@ main()
 - [ ] infinite loop
 
 #### Q4. What does the declaration of variable c2 demonstrate?
-```
+```c
 main(){
     char c1 ='a';
     char c2 = c1+10;
@@ -85,7 +85,7 @@ main(){
 - [ ] invalid declaration
 
 #### Q5. A pointer to void named vptr, has been set to point to a floating point variable named g. What is the valid way to dereference vptr to assign its pointed value to a float variable named f later in this program?
-```
+```c
 float g;
 void *vptr=&g;
 ```
@@ -95,7 +95,7 @@ void *vptr=&g;
 - [ ] f = \*(float)vptr;
 
 #### Q6. What is this declaration an example of?
-```
+```c
 struct s {
     int i;
     struct s *s1;
@@ -114,34 +114,34 @@ struct s {
 - [x] The preprocessor will try to locate the fileA in a predetermined directory path. It will try to locate fileB in the same directory as the source file along with a custom directory path.
 
 #### Q8. Using a for loop, how could you write a C code to count down from 10 to 1 and display each number on its own line?
-- [ ]
-```
-for (int i = 0; i>=0, i--){
-    printf("%d\n", i);
-}//end of loop
-```
-- [ ]
-```
-int i;
-for (i=1; i<=10; i++){
-    printf("%d", i);
-}
-```
-- [ ]
-```
-int i = 10;
-while (i>0){
-    printf("%d\n", i);
-    i--;
-}
-```
-- [x]
-```
-int i;
-for (i= 10; i>0; i--){
-    printf("%d\n", i);
-}// end of loop
-```
+- [ ] 
+  ```c
+  for (int i = 0; i>=0, i--){
+      printf("%d\n", i);
+  }//end of loop
+  ```
+- [ ] 
+  ```c
+  int i;
+  for (i=1; i<=10; i++){
+      printf("%d", i);
+  }
+  ```
+- [ ] 
+  ```c
+  int i = 10;
+  while (i>0){
+      printf("%d\n", i);
+      i--;
+  }
+  ```
+- [x] 
+  ```c
+  int i;
+  for (i= 10; i>0; i--){
+      printf("%d\n", i);
+  }// end of loop
+  ```
 
 #### Q9. What is not one of the reserved words in standard C?
 - [ ] volatile
@@ -150,7 +150,7 @@ for (i= 10; i>0; i--){
 - [ ] typedef
 
 #### Q10. What does the program shown below return?
-```
+```c
 int main(){
     int a=1, b=2, c=3, d=4;
     int x = a;
@@ -166,7 +166,7 @@ int main(){
 - [ ] 0
 
 #### Q11. Using the Union declaration below, how many bytes of memory space will the data of this type occupy?
-```
+```c
 union Cars{
     char make[20];
     char model[30];
@@ -179,7 +179,7 @@ union Cars{
 - [ ] 52
 
 #### Q12. In this code sample, what is not a problem for C compiler?
-```
+```c
 main(){
     constant int PI = 3.14;
     printf("%f\n", pi);
@@ -245,7 +245,7 @@ main(){
 - [ ] Arrays; Header file
 
 #### Q22. What is the output of this program?
-```
+```c
 main(){
     char c1='a' , c2='A';
     int i=c2-c1;
@@ -264,7 +264,9 @@ main(){
 - [ ] The scanf() function reads formatted data from a file; The sscanf() function reads input from a selected string
 
 #### Q24. What is not a valid command with this declaration?
-`char *string[20] = { "one", "two", "three"};`
+```c
+char *string[20] = { "one", "two", "three"};
+```
 - [ ] printf("%c", string[1][2]);
 - [x] printf("%s", string[1][2]);
 - [ ] printf("%s", string[1]);
