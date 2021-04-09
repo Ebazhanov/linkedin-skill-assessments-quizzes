@@ -293,3 +293,10 @@
  - [ ] The global secondary indexes in DynamoDB are transactionally consistent, and are guaranteed to return correct results.
  - [ ] The global secondary indexes in DynamoDB are partially consistent, and are not guaranteed to return correct results.
  - [ ] The global secondary indexes in DynamoDB are eventually consistent, and are not guaranteed to return correct results.
+
+#### Q50. Which command do you use to add a value to a Redis stream named mystream?
+ - [ ] ADD mystream * sensor-id 1234 temperature 19.8 1518951480106-1
+ - [ ] UPDATE mystream * sensor-id 1234 temperature 19.8 1518951480106-3
+ - [x] XADD mystream * sensor-id 1234 temperature 9.8 1518951480106-0
+ - [ ] INSERT mystream * sensor-d 1234 temperature 19.8 15181480106-2
+ 
