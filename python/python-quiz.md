@@ -737,3 +737,11 @@ def calculate_sales_tax(subtotal):
 - [x] python3 <filename>
 - [ ] python3 <filename> rundoctests
 - [ ] python3 doctest
+
+#### Q74. What is a lambda function ?
+- [ ] any function that makes use of scientific or mathematical constants, often represented by Greek letters in academic writing
+- [ ] a function that get executed when decorators are used
+- [ ] any function whose definition is contained within five lines of code or fewer
+- [x] a small, anonymous function that can take any number of arguments but has only expression to evaluate 
+
+[Reference](https://www.guru99.com/python-lambda-function.html)
