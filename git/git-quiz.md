@@ -7,10 +7,13 @@
 - [ ] git --current
 
 #### Q2. What command lets you create a connection between a local and remote repository?
-- [ ] git remote add new
+- [x] git remote add new
 - [x] git remote add origin
 - [ ] git remote new origin
 - [ ] git remote origin
+
+The command is git remote add. The new added connection can be named origin or new. The only constraints, although it is not documented AFAIK, is that the connection name needs to be acceptable to git-check-ref-format, and it cannot be repeated.
+If the LinkedIn assessment asks this and you can choose just one option, then leave feedback.
 
 #### Q3. Describe what the following git commands do to the commit history.
 ```
