@@ -166,25 +166,27 @@ modified: beta-notes.js
 
 #### Q20. What commands would you use to force an overwrite of your local files with the master branch?
 - [ ]
-```
-git pull --all
-git reset --hard origin/master
-```
+  ```bash
+  git pull --all
+  git reset --hard origin/master
+  ```
 - [ ]
-```
-git pull -u origin master
-git reset --hard master
-```
+  ```bash
+  git pull -u origin master
+  git reset --hard master
+  ```
 - [ ]
-```
-git pull origin master
-git reset --hard origin/myCurrentBranch
-```
+  ```bash
+  git pull origin master
+  git reset --hard origin/myCurrentBranch
+  ```
 - [x]
-```
-git fetch --all
-git reset --hard origin/master
-```
+  ```bash
+  git fetch --all
+  git reset --hard origin/master
+  ```
+
+The command `pull` is `fetch` followed by either `merge` or `rebase` (in this case, `merge`). We don't want to merge. Merge would be an action to our **repository**. We just want to overwrite our **local files**.
 
 #### Q21. Which statement is true when you use the **git add -A** command?
 - [ ] Only new files in the working directory are staged to the index.
