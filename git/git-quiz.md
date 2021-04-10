@@ -51,12 +51,16 @@ git merge --squash HEAD@{1}
 #### Q7. Looking at the following commands, describe what is happening.
 ```
 git checkout feature-user-location
-git cherry-pick {kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231}
+git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 ```
 - [ ] The commit is being tagged for release on the feature-user-location branch
-- [x] A commit is being copied from its original branch over to the feature-user-location branch
-- [ ] The commit is being cherry picked as the new HEAD of the commit history
+- [ ] A commit is being copied from its original branch over to the feature-user-location branch
+- [x] The commit is being cherry picked as the new HEAD of the commit history
 - [ ] A commit is being copied from the feature-user-location branch to the master branch
+
+Commits aren't copied when cherry picking, they are cherry picked (the changes introduced by the commit are applied and a new commit is then created). This allow us to get specific changes as if they were patches.
+
+As a new commit is created upon feature-user-location, HEAD changes to match it. Here, you can see it in `cat .git/HEAD` and `cat .git/refs/heads/feature-user-location`.
 
 #### Q8. What does the following command do to the git repository?
 `git reset --soft HEAD^`
