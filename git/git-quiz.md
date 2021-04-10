@@ -195,14 +195,16 @@ The command `pull` is `fetch` followed by either `merge` or `rebase` (in this ca
 - [ ] Only updated files in the working directory are staged to the index.
 
 #### Q22. Describe what is happening given these commands:
-```
-git checkout feature-user-location
-git cherry-pick {123safd23e}
-```
+	```bash
+	git checkout feature-user-location
+	git cherry-pick 123safd23e
+	```
 - [ ] The commit is being tagged for release on the feature-user-location branch.
 - [ ] A commit is being copied from the feature-user-location branch to the master branch.
-- [ ] The commit is being cherry-picked as new HEAD of the commit history.
+- [x] The commit is being cherry-picked as new HEAD of the commit history.
 - [x] The branch is switched to the feature-user-location branch, and the specified commit is applied to the branch.
+
+Discussion: I think that maybe both 3 and 4 can be accepted. I would even reject 4 because it says that the commit is applied to the branch. The truth is that the commit changes will be applied, but a new commit will be created on top of feature-user-location. I leave it open to discussion.
 
 #### Q23. You find that your project has a tag and branch both named push-notifications, which causes confusion when trying to print out given reference. How can you specify which branch you want to look at?
 - [ ] use git show refs/push-notifications
