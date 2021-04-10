@@ -246,7 +246,9 @@ git bisect good 69faab6268350295550de7d587bc323d
 [Reference](https://git-scm.com/book/en/v2/Git-Basics-Tagging#_sharing_tags)
 
 #### Q28. After pushing commits to the remote repository for the first time using the command below, what shorthand command can you use in future?
-`git push -u origin master`
+```bash
+git push -u origin master
+```
 - [ ] git push master
 - [ ] git push origin
 - [ ] Same as before, git push -u origin master
