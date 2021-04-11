@@ -1,7 +1,7 @@
 ## Microsoft Outlook
 
 #### 1. What can you set a reminder for in Outlook?
-- [ ] all of these answers
+- [X] all of these answers
 - [ ] contacts
 - [ ] email messages
 - [ ] appointments and meetings
