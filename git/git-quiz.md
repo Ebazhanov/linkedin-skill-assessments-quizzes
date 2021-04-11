@@ -16,7 +16,7 @@ The command is git remote add. The new added connection can be named origin or n
 If the LinkedIn assessment asks this and you can choose just one option, then leave feedback.
 
 #### Q3. Describe what the following git commands do to the commit history.
-```
+```bash
 git reset --hard HEAD~5
 git merge --squash HEAD@{1}
 ```
@@ -25,11 +25,9 @@ git merge --squash HEAD@{1}
 - [ ] Delete the last 5 commits
 - [ ] Merges the last 5 commits into a new branch
 
-`git reset --hard HEAD~5`
-(Reset the current branch to the commit just before the last 5)
+`git reset --hard HEAD~5` resets the current branch to the commit just before the last 5 (see `man gitrevisions` for details about this notation and other cool alternatives like `HEAD@{2 days ago}`). As it is a hard reset, it will also overwrite every change in the working tree as well. See `man git-reset`.
 
-`git merge --squash HEAD@{1}`
-(HEAD@{1} is where the branch was just before the previous command. This command sets the state of the index to be as it would just after a merge from that commit)
+`git merge --squash HEAD@{1}` HEAD@{1} is where the branch was just before the previous command (again, see `man gitrevisions`). This command sets the state of the index to be as it would just after a merge from that commit. This whole operation could be a way to take 5 commits from a branch in which you started a new feature and squash them to a single commit, a meaningful one.
 
 #### Q4. Your current project has several branches; master, beta, and push-notifications. You've just finished the notification feature in the push-notification branch, and you want to commit it to beta branch. How can you accomplish this?
 - [ ] Checkout the push-notifications branch and run git merge beta
@@ -499,7 +497,9 @@ In Git, there are two main ways to integrate changes from one branch into anothe
 - [ ] Use git reset.
 
 #### Q68. What happens if you run this command from your master branch?
-`git checkout -b beta-test`
+```bash
+git checkout -b beta-test
+```
 - [ ] The beta-test branch will be checked out of the current commit.
 - [ ] The beta-test branch will be checked out and deleted.
 - [x] A new branch called beta-test will be created and switched to.
