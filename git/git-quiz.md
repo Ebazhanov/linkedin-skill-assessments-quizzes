@@ -115,9 +115,7 @@ As a new commit is created upon feature-user-location, HEAD changes to match it.
 - [ ] Run git commit --info with the commit hash.
 - [ ] Access the commit stash data with git stash.
 
-#### Q16. What files is the following .gitignore programmed to leave out?
-
-#### Q16a. What files is this .gitignore programmed to leave out?
+#### Q16. What files is this .gitignore programmed to leave out?
 ```shell
 #.swift
 build/
@@ -130,7 +128,7 @@ build/
 - [x] All files in the build directory, as well as files ending with .txt or .metadata
 - [ ] Only files with .swift and .txt extensions.
 
-A line starting with `#` serves as a comment. Hence `# .swift` does not do anything.
+A line starting with `#` serves as a comment. Hence `# .swift` does not do anything. See `man gitignore`.
 
 #### Q17. After you make changes to a tracked file, you run the following command. What will this do?
 `git commit -a -m "Refactor code base"`
