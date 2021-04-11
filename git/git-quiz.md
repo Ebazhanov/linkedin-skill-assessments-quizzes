@@ -78,8 +78,6 @@ Commits aren't copied when cherry picking, they are cherry picked. The changes i
 - [x] Use git bisect to compare the buggy commit to an early commit that works as expected.
 
 #### Q10. Why would the following command be used?
-
-#### Q10a. Why would you use this command?
 `git rebase -i HEAD~10`
 - [ ] To run a comparative search of the last 10 commits for differences
 - [x] To list the last 10 commits and modify them with either the squash or fixup command
