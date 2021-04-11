@@ -193,8 +193,8 @@
 
 #### Q19. How would you retrieve the value of a user's email from SharedPreferences while ensuring that the returned value is not null?
 - [ ] getPreferances(this).getString(Email,"")
-- [x] getDefaultSharedPrefarances(this).getString(EMAIL,null)
-- [ ] getDefaultSharedPreferances(this).getString(EMAIL,"")
+- [ ] getDefaultSharedPrefarances(this).getString(EMAIL,null)
+- [x] getDefaultSharedPreferances(this).getString(EMAIL,"")
 - [ ] getPreferances(this).getString(EMAIL,null)
 
 #### Q20. Why is it problematic to define sizes using pixels on Android?
@@ -494,11 +494,11 @@ buildTypes {
 - [x] main
 
 #### Q37. Which definition will prevent other apps from accessing your `Activity` class via an `intent`?
-- [ ]
+- [x]
 ```xml
 	<activity android:name=".ExampleActivity" />
 ```
-- [x]
+- [ ]
 ```xml
 	<activity android:name=".ExampleActivity">
 		<intent-filter>
