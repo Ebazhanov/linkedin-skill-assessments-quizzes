@@ -377,7 +377,6 @@ f2();
 - [x] 0
 - [ ] 1
 
-#### Q43. Which of the following is not a unary operator?
 #### Q43. Which choice is *not* a unary operator?
 - [ ] typeof
 - [ ] delete
