@@ -197,6 +197,8 @@
 - [x] getDefaultSharedPreferances(this).getString(EMAIL,"")
 - [ ] getPreferances(this).getString(EMAIL,null)
 
+**Explanation:** In Method "getDefaultSharedPrefarances(this).getString()" Second parameter is passed so that it can be returned, in case key doesn't exist. So we need to pass an empty string to be returned in case key doesn't exist.
+
 #### Q20. Why is it problematic to define sizes using pixels on Android?
 - [ ] Although screen pixel density vary,this does not impact the use of pixels to define sizes.
 - [ ] Large devices always have more pixels so your UI elements will be effected if you define them with pixels.
@@ -523,6 +525,7 @@ buildTypes {
 		</intent-filter>
 	</activity>
 ```
+**Explanation:** Intent filters are used to make activities accessible to other apps using intents. So we have to choose option which have no intent filter to make sure it is not accessible by intent
 
 #### Q38. To preserve on-device memory, how might you determine that the user's device has limited storage capabilities?
 - [x] Use the `ActivityManager.isLowRamDevice()` method to find out whether a device defines itself as "low RAM."
