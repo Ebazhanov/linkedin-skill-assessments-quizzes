@@ -3132,6 +3132,15 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "gavrilow",
+      "name": "Dmytro Havrilov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25771771?v=4",
+      "profile": "https://www.linkedin.com/in/dmytrohavrilov/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
