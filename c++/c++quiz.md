@@ -112,10 +112,12 @@ v2->push_back(5);
 ```
 
 - [ ] `*v1:{1,2,3,4}; *v2:{5};`
-- [ ] `*v1:{1,2,3,4'5}; *v2:{1,2,3,4,5};`
+- [x] `*v1:{1,2,3,4'5}; *v2:{1,2,3,4,5};`
 - [ ] Error
-- [x] `*v1:{1,2,3,4}; *v2:{1,2,3,5};`
-   
+- [ ] `*v1:{1,2,3,4}; *v2:{1,2,3,5};`
+
+v1 and v2 point to the same vector.
+
 #### Q10. Which of the following is not a difference between a class and a struct?
 
 - [ ] Because structs are part of the C programming language, there are some complexity between C and C++ structs. This is not the case with classes.
