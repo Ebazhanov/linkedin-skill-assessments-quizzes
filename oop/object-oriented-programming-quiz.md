@@ -344,3 +344,9 @@
   - [x] It links actors to roles played in all use cases.
   - [ ] It lists all actors for each use case.
   - [ ] It minimizes the number of actors required.
+
+ #### Q54. How do object behaviour and attributes differ?
+  - [ ] Behaviour describe dynamic properties; attributes are static.
+  - [x] Attributes describ a state; behaviours describe a change.
+  - [ ] Attributes apply only to a specified object; behaviour apply to other linked objects.
+  - [ ] Behaviours are vector quantities; attributes are scalars.
