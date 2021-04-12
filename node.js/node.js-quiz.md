@@ -299,7 +299,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] run, edit, print, loop
 - [ ] read, extend, print, loop
 
-### Q45. Which statement is true when you run this code?
+### Q46. Which statement is true when you run this code?
 `require('child_process').fork("script.js")`
 - [ ] The forked process shares the same VM thread with the parent process.
 - [ ] The forked process will have its own VM instance.
