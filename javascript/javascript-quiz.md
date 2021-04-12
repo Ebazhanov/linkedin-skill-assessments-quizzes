@@ -560,7 +560,6 @@ new logThis();
 - [ ] 3 != '3'
 - [ ] 3 === '3'
 
-#### Q61. Which choice is a valid variable name?
 #### Q61. Which of these is a valid variable name?
 - [ ] 5thItem
 - [x] firstName
