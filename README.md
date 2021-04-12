@@ -567,7 +567,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/FarikBear"><img src="https://avatars.githubusercontent.com/u/35699679?v=4?s=100" width="100px;" alt=""/><br /><sub><b>FarikBear</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=FarikBear" title="Code">💻</a> <a href="#design-FarikBear" title="Design">🎨</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/dmytrohavrilov/"><img src="https://avatars.githubusercontent.com/u/25771771?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dmytro Havrilov</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=gavrilow" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/dmytrohavrilov/"><img src="https://avatars.githubusercontent.com/u/25771771?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dmytro Havrilov</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=gavrilow" title="Code">💻</a> <a href="#design-gavrilow" title="Design">🎨</a></td>
   </tr>
 </table>
 
