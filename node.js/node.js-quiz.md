@@ -231,7 +231,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] process
 - [ ] Buffer
 - [ ] root
-- [ ] require
+- [x] require
 
 ### Q35. What is the command to get a list of available commands for Node.js?What is the command to get a list of available commands for Node.js?
 - [ ] node index.js -x
