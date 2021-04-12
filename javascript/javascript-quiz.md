@@ -624,7 +624,7 @@ console.log(++a);
 - [x] 6
 - [ ] 5
 
-#### Q71. You've written the event listener shown below for a form button, but each time you cklick the button, the page reloads. Which statement would stop this from happening?
+#### Q71. You've written the event listener shown below for a form button, but each time you click the button, the page reloads. Which statement would stop this from happening?
 ```javascript
 button.addEventListener('click',function(e) {
    button.className = 'clicked';
