@@ -1,16 +1,18 @@
 ## Microsoft Outlook
 
 #### 1. What can you set a reminder for in Outlook?
-- [ ] all of these answers
+- [X] all of these answers
 - [ ] contacts
 - [ ] email messages
 - [ ] appointments and meetings
 
 #### 2. What is the default permission that other people in your organization have to your calendar?
-- [ ] none of these answers
+- [X] none of these answers
 - [ ] They can edit.
 - [ ] They can view all details.
 - [ ] They can view titles and locations.
+
+Can view when I'm busy. https://support.microsoft.com/en-us/office/share-an-outlook-calendar-with-other-people-353ed2c1-3ec5-449d-8c73-6931a0adab88
 
 #### 3. Your boss sends you an email with a request to set up a meeting and copies all meeting attendees on the message. What is the fastest way to create the calendar appointment
 - [ ] Click New Items > New Appointment.
