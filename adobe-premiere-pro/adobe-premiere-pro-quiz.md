@@ -2,7 +2,7 @@
 
 #### Q1. You open a nested sequence in order to trim the length of a clip. You make the total duration of the clips longer. What happens to the duration of the nest in the main sequence?
 
-- [ ] Nothing, the nest duration remains the same in the original sequence.
+- [x] Nothing, the nest duration remains the same in the original sequence.
 - [ ] The duration of the nest changes and an overwrite edit pushes the remaining clips to make room.
 - [ ] The clips change speed to match the duration of the nest.
 - [ ] The duration of the nest changes and a ripple edit pushes the remaining clips to make room.
@@ -11,12 +11,12 @@
 
 - [ ] Nesting improves playback performance.
 - [ ] Nesting makes it easier to reduce clutter in the Project panel, saving time and potentially project budget.
-- [ ] Nesting allows a single effect to be applied to everything that is inside the nest, like a color correction or a video limiter.
+- [x] Nesting allows a single effect to be applied to everything that is inside the nest, like a color correction or a video limiter.
 - [ ] Nesting helps Adobe Premiere Pro render faster.
 
 #### Q3. What happens on your hard drive when you create a subclip?
 
-- [ ] Nothing, since a subclip does not create a new media file on your hard drive.
+- [x] Nothing, since a subclip does not create a new media file on your hard drive.
 - [ ] A pointer file is created on your hard drive.
 - [ ] A new master clip is created on your hard drive and added to the project.
 - [ ] A new media file is created next to the original media.
@@ -26,18 +26,18 @@
 - [ ] Adobe Premiere can directly export files.
 - [ ] You can encode sequences into one or more formats with Adobe Media Encoder.
 - [ ] While using Adobe Media Encoder, you can keep working on the same sequence in Adobe Premiere Pro.
-- [ ] When you click Export, Adobe Premiere Pro will encode the file in the background and let you continue editing.
+- [x] When you click Export, Adobe Premiere Pro will encode the file in the background and let you continue editing.
 
 #### Q5. While working in Premiere Pro, how can you quickly create a new After Effects composition with settings that match the current sequence?
 
 - [ ] Select File > Adobe Dynamic Link > Import After Effects Composition.
 - [ ] Import a project from After Effects and choose Match project size when importing.
-- [ ] Select File > Adobe Dynamic Link > New After Effects Composition.
+- [x] Select File > Adobe Dynamic Link > New After Effects Composition.
 - [ ] Switch to After Effects and manually set up the project for accuracy.
 
 #### Q6. Which is NOT a tag available in the Essential Sound panel?
 
-- [ ] Narration
+- [x] Narration
 - [ ] SFX
 - [ ] Ambience
 - [ ] Music
@@ -52,7 +52,7 @@ D. Temperature
 E. Blur
 ```
 
-- [ ] B, C, D
+- [x] B, C, D
 - [ ] A, B, C
 - [ ] B, D, E
 - [ ] A, C, E
@@ -61,14 +61,14 @@ E. Blur
 
 - [ ] Program Monitor panel
 - [ ] Source Monitor panel
-- [ ] Timeline panel
+- [x] Timeline panel
 - [ ] Media Browser panel
 
 #### Q9. What can you do to make the shape layer automatically adjust size as the text layer changes?
 
 ![image](images/001.png)
 
-- [ ] Select the Mask with Shape option.
+- [x] Select the Mask with Shape option.
 - [ ] Select Responsive Design and Pin To the text layer.
 - [ ] Select Responsive Design and Pin To the Video Frame.
 - [ ] Use the Align and Transform controls.
@@ -78,11 +78,11 @@ E. Blur
 - [ ] Timeline panel
 - [ ] Media Browser panel
 - [ ] Capture panel
-- [ ] Source Monitor panel
+- [x] Source Monitor panel
 
 #### Q11. Which panel allows you to modify video effects after they have been applied to a clip?
 
-- [ ] Effects panel
+- [x] Effects panel
 - [ ] Timeline panel
 - [ ] Source Monitor panel
 - [ ] Effect Controls panel
@@ -91,14 +91,14 @@ E. Blur
 
 - [ ] Exclude Unused Clips
 - [ ] Consolidate and Transcode
-- [ ] Collect Files and Copy to New Location
+- [x] Collect Files and Copy to New Location
 - [ ] Create New Trimmed Project
 
 #### Q13. What is the default video transition in Adobe Premiere Pro?
 
 - [ ] film dissolve
 - [ ] additive dissolve
-- [ ] cross dissolve
+- [x] cross dissolve
 - [ ] impact dissolve
 
 #### Q14. Which term describes the algorithm that is used to encode and decode a video file?
@@ -106,7 +106,7 @@ E. Blur
 - [ ] container
 - [ ] format
 - [ ] compressor
-- [ ] codec
+- [x] codec
 
 #### Q15. You want to save a short portion of a longer clip for easy access. How can you do this?
 
@@ -115,20 +115,20 @@ E. Blur
 - [ ] in the Media Browser, mark in and out points on a clip, and then import.
 - [ ] Mark in and out points on the clip in the Program Monitor and select choose Clip > Make Subclip.
 - [ ] Mark in and out points on a clip in the Timeline panel and then drag it back into a bin.
-- [ ] Mark in and out points on the clip in the Source Monitor and select Clip > Make Subclip.
+- [x] Mark in and out points on the clip in the Source Monitor and select Clip > Make Subclip.
 
 #### Q16. What adjustment can help return edge detail to video footage?
 
 - [ ] Intensity
 - [ ] Contrast
-- [ ] Sharpen
+- [x] Sharpen
 - [ ] Clarity
 
 #### Q17. Where can you adjust the duration of a transition?
 
 - [ ] Effects panel
 - [ ] Project panel
-- [ ] Effect Controls panel
+- [x] Effect Controls panel
 - [ ] Program Monitor panel
 
 #### Q18. You are working with a new project and have been editing for two hours. What is the number of backup projects you would expect to find?
@@ -137,12 +137,12 @@ E. Blur
 
 - [ ] 2
 - [ ] 12
-- [ ] 20
+- [x] 20
 - [ ] 24
 
 #### Q19. Which panel would you use to browse and import assets for maximum compatibility with Premiere Pro?
 
-- [ ] Library
+- [x] Library
 - [ ] Effects
 - [ ] Project
 - [ ] Media Browser
@@ -151,7 +151,7 @@ E. Blur
 
 ![image](images/004.png)
 
-- [ ] The transition would slide to the right.
+- [x] The transition would slide to the right.
 - [ ] You would extend only the right side of the transition.
 - [ ] You would perform a ripple edit and extend the duration of the first clip.
 - [ ] The transition would grow on both sides.
@@ -160,7 +160,7 @@ E. Blur
 
 - [ ] Adobe Photoshop
 - [ ] Adobe Premiere Pro
-- [ ] Adobe Audition
+- [x] Adobe Audition
 - [ ] Adobe After Effects
 
 #### Q22. Which preference pane includes the Video Transition Default Duration and Audio Transition Default Duration?
@@ -168,20 +168,20 @@ E. Blur
 - [ ] Media
 - [ ] Playback
 - [ ] General
-- [ ] Timeline
+- [x] Timeline
 
 #### Q23. If an effect has a star next to its icon, what type of effect is it?
 
 - [ ] audio
 - [ ] template
 - [ ] transition
-- [ ] preset
+- [x] preset
 
 #### Q24. How was this clip manipulated using a Curves adjustment?
 
 ![image](images/005.png)
 
-- [ ] Hue vs. Luma
+- [x] Hue vs. Luma
 - [ ] Saturation vs. Saturation
 - [ ] Hue vs. Saturation
 - [ ] Luma vs. Saturation
@@ -189,20 +189,20 @@ E. Blur
 #### Q25. Where is transparency data stored when compositing media?
 
 - [ ] Essential Graphics panel
-- [ ] Effects panel
+- [x] Effects panel
 - [ ] alpha channel
 - [ ] assembly edit
 
 #### Q26. When part of your footage is transparent, where is the transparency information stored in the file?
 
 - [ ] source monitor
-- [ ] alpha channel
+- [x] alpha channel
 - [ ] opacity effect
 - [ ] alpha effect
 
 #### Q27. Which option allows you to reuse previously created render files for an export?
 
-- [ ] Use Previews
+- [x] Use Previews
 - [ ] Use Frame Blending
 - [ ] Use Maximum Render Quality
 - [ ] Match Sequence Settings
@@ -212,7 +212,7 @@ E. Blur
 ![image](images/006.png)
 
 - [ ] Trim In
-- [ ] Trim Out
+- [x] Trim Out
 - [ ] Ripple Trim In
 - [ ] Ripple Trim Out
 
@@ -228,7 +228,7 @@ E. FLV
 
 - [ ] A, B, C
 - [ ] A, C, E
-- [ ] B, C, D
+- [x] B, C, D
 - [ ] B, D, E
 
 #### Q30. Which video file format can you export with Adobe Media Encoder? (Select three items.)
@@ -244,11 +244,11 @@ E. M4A
 - [ ] A, B, C
 - [ ] A, C, E
 - [ ] B, C, D
-- [ ] B, D, E
+- [x] B, D, E
 
 #### Q31. If you have placed a GPU-accelerated effect on a clip in the Timeline and have not rendered it, what color appears at the top of your Timeline?
 
-- [ ] red
+- [x] red
 - [ ] blue
 - [ ] yellow
 - [ ] green
@@ -258,7 +258,7 @@ E. M4A
 - [ ] The default brightness is the halfway position between darker and lighter.
 - [ ] You can set the top bar of windows to a custom accent color.
 - [ ] You can adjust the intensity of the Focus Indicator to help easily identify which window is active.
-- [ ] You can change the highlight color.
+- [x] You can change the highlight color.
 
 #### Q33. What can you tell about this transition?
 
@@ -274,7 +274,7 @@ E. M4A
 - [ ] Deselect the unwanted sequences in the Sequence area.
 - [ ] Select Create New Trimmed Project.
 - [ ] Select Consolidate and Transcode.
-- [ ] Choose Collect Files and Copy to New Location.
+- [x] Choose Collect Files and Copy to New Location.
 
 #### Q35. You want to take a partial clip that's used in your Timeline and send it to After Effects for additional processing using Dynamic Link. Which method best accomplishes this?
 
