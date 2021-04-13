@@ -470,3 +470,93 @@ aws ec2 reboot-instances --instance-ids i-0b263919b6498b123
 aws ec2 start-instances --instance-ids i-0b263919b6498b123
 ```
 
+#### Q64 What is wrong with the third incoming security group rule, which allows all traffic from sg-269afc5e to go to an 
+Ubuntu EC2 instance configured as a web server?
+
+- [ ] All traffic on all ports is being denied into this instance, which overwrites the HTTP rule and makes it redundant.
+- [ ] The instance was launched with the default security group, but there is no way for an administrator to SSH into the instance. 
+Add another rule that allows for SSH access from a secured source, such as a single IP or a range of managed IP addresses.
+- [ ] There is nothing wrong with this security group rule. Assuming that sg-269afc5e is applied to other resources that are properly 
+secured, this rule allows all traffic to pass through that is also assigned security group sg-269afc5e.
+- [ ] ?> All traffic on all ports are allowed into this instance. This exposes the instance to all public internet traffic and
+ overwrites the incoming HTTP rule.
+
+
+#### 65 You have a VPC that has a public and private subnet. There is a NAT gateway in the public subnet that allows instances in the 
+private subnet to access the internet without having public exposure outside of the VPC. 
+What should the routing tables be for the private subnet?
+
+- [x] 
+
+```
+ Destination 1: 10.0.0.0/16, Target 1: local;
+ Destination 2: 0.0.0.0/0, Target 2: nat-09b4832
+```
+
+- [ ] 
+
+```
+ Destination 1: 10.0.0.0/24, Target 1: local;
+ Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
+```
+
+- [ ] 
+
+```
+ Destination 1: 10.0.0.0/24, Target 1: subnet-1948ba2;
+ Destination 2: 0.0.0.0/0, Target 2: nat-09b4832
+```
+
+- [ ] 
+
+```
+ Destination 1: 10.0.0.0/16, Target 1: vpc-12bd09ac2;
+ Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
+```
+
+
+#### Q66 To comply with auditing requirements of some compliance standards, which AWS tool can be enabled to maintain an audit log of 
+access and changes to your AWS infrastructure?
+
+- [x] CloudTrail
+- [ ] CloudWatch
+- [ ] AWS Audit and Compliance Tool
+- [ ] GuardDuty
+
+
+
+#### Q67 You have an application that generates long-running reports, stores them in an S3 bucket, and then emails the user who requested 
+the report with a link to download it. What is the best practice for storing the report data in S3?
+
+- [ ] Create a public S3 bucket. When your application creates the report object in S3, generate two randomly generated long 
+folder names and place the file within the deepest subfolder. Set the retention policy on the object to one hour and email this link to 
+the user. The link will be active for one hour.
+- [ ] Create a public S3 bucket. Use a hash of the user's email address and the date and time the report was requested to generate a 
+unique object name. Email this link to the user and have a scheduled task run within your application to remove objects that are older 
+than seven days.
+- [x] Create a private S3 bucket. The link in the email should take the user to your application, where you can verify the active user 
+session or force the user to log in. After verifying the user has rights to access this file, have the application retrieve the object 
+from S3 and return it in the HTTP response. Delete the file from the S3 bucket after the request is completed.
+- [ ] Create a private S3 bucket. The link in the email should take the user to your application, where you can verify the active user 
+session or force the user to log in. Set the report object in S3 to public. Show the user a "Download" button in the browser that links 
+to the public object.
+
+
+
+
+
+#### When sending a large volume of email through SES, what is the most important set of metrics to monitor?
+
+- [x] your complaint and bounce rates
+- [ ] opens and clicks
+- [ ] clicks and deliveries
+- [ ] sending volume over the past 15 minutes and over one day to watch for billing spikes
+
+
+#### You are going to host an application that uses a MySQL database. Which database should you select if you don't want to manage 
+scaling or database administration tasks?
+
+- [ ] Launch an AMI image from the marketplace containing a preconfigured MySQL server.
+- [x] Aurora
+- [ ] RDS for MySQL
+- [ ] Redshift
