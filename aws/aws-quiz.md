@@ -383,7 +383,7 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 
 #### Q54. You have a fleet of IoT devices that send telemetry to a server-side application provided by your IoT vendor for decoding a proprietary messaging format.  The devices are provisioned to send telemetry reports to your server via UDP on port 6339.  What is the best way scale this server as more Iot devices are added to your fleet?
 - [ ] Use a Network Load Balancer to distribute the traffic across your servers. Use UDP health checks to determine if the server is available to receive traffic.
-- [ ] Use Route 53 with HTTP health checks.  Create an application on the server to report the readiness status of the vendor-provided server software to Route 53 via HTTP.
+- [x] Use Route 53 with HTTP health checks.  Create an application on the server to report the readiness status of the vendor-provided server software to Route 53 via HTTP.
 - [ ] Use Route 53 with UDP health checks. As you scale up, Route 53 wiwll route the traffic to the new servers if they pass the health checks.
 - [ ] Use Application Load Balancer to distribute the traffic across your servers.
 
