@@ -396,3 +396,16 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 - [ ] The incoming SSH port should not be open to the public.  Limit SSH to a single IP address or IP range of controlled addressed, or use a VPN to access the VPC for this server.
 - [ ] The all incoming TCP ports are exposed, which overrides the HTTP and SSH rules and exposes all TCP ports to the public internet.
 
+#### Q56. An EC2 instance running a WordPress site keeps getting hacked, even though you have restored the server several times and have patched WordPress. What AWS service can help you detect and prevent further attacks?
+
+- [ ] CloudWatch
+- [x] GuardDuty
+- [ ] Shield
+- [ ] Security Advisor
+
+#### Q57. A nontechnical client wants to migrate a WordPress site to AWS from a private server managed by a third-party hosting company. Which AWS service should you recommend to migrate the site to?
+
+- [ ] CloudFront
+- [ ] An EC2 instance launched from the official WordPress AMI
+- [ ] S3
+- [x] Lightsail
