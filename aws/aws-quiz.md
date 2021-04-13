@@ -492,28 +492,24 @@ What should the routing tables be for the private subnet?
  Destination 1: 10.0.0.0/16, Target 1: local;
  Destination 2: 0.0.0.0/0, Target 2: nat-09b4832
 ```
-
 - [ ] 
 
 ```
  Destination 1: 10.0.0.0/24, Target 1: local;
  Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
 ```
-
 - [ ] 
 
 ```
  Destination 1: 10.0.0.0/24, Target 1: subnet-1948ba2;
  Destination 2: 0.0.0.0/0, Target 2: nat-09b4832
 ```
-
 - [ ] 
 
 ```
  Destination 1: 10.0.0.0/16, Target 1: vpc-12bd09ac2;
  Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
 ```
-
 
 #### Q66 To comply with auditing requirements of some compliance standards, which AWS tool can be enabled to maintain an audit log of 
 access and changes to your AWS infrastructure?
@@ -522,8 +518,6 @@ access and changes to your AWS infrastructure?
 - [ ] CloudWatch
 - [ ] AWS Audit and Compliance Tool
 - [ ] GuardDuty
-
-
 
 #### Q67 You have an application that generates long-running reports, stores them in an S3 bucket, and then emails the user who requested 
 the report with a link to download it. What is the best practice for storing the report data in S3?
@@ -541,19 +535,14 @@ from S3 and return it in the HTTP response. Delete the file from the S3 bucket a
 session or force the user to log in. Set the report object in S3 to public. Show the user a "Download" button in the browser that links 
 to the public object.
 
-
-
-
-
-#### When sending a large volume of email through SES, what is the most important set of metrics to monitor?
+#### Q68 When sending a large volume of email through SES, what is the most important set of metrics to monitor?
 
 - [x] your complaint and bounce rates
 - [ ] opens and clicks
 - [ ] clicks and deliveries
 - [ ] sending volume over the past 15 minutes and over one day to watch for billing spikes
 
-
-#### You are going to host an application that uses a MySQL database. Which database should you select if you don't want to manage 
+#### Q69 You are going to host an application that uses a MySQL database. Which database should you select if you don't want to manage 
 scaling or database administration tasks?
 
 - [ ] Launch an AMI image from the marketplace containing a preconfigured MySQL server.
