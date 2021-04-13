@@ -397,15 +397,76 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 - [ ] The all incoming TCP ports are exposed, which overrides the HTTP and SSH rules and exposes all TCP ports to the public internet.
 
 #### Q56. An EC2 instance running a WordPress site keeps getting hacked, even though you have restored the server several times and have patched WordPress. What AWS service can help you detect and prevent further attacks?
-
 - [ ] CloudWatch
 - [x] GuardDuty
 - [ ] Shield
 - [ ] Security Advisor
 
 #### Q57. A nontechnical client wants to migrate a WordPress site to AWS from a private server managed by a third-party hosting company. Which AWS service should you recommend to migrate the site to?
-
 - [ ] CloudFront
 - [ ] An EC2 instance launched from the official WordPress AMI
 - [ ] S3
 - [x] Lightsail
+
+#### Q58. Your company has on-premise servers with an existing onsite backup solution that also replicates backups to another campus on the other side of the country with its own on-site backup solution. You have been asked to create a third level of redundancy by also storing these backups in the cloud. In the event of a primary and secondary backup failure, your boss wants to know that the cloud backups can be accessible as fast as possible to reduce downtime during the recovery. What S3 storage class do you recommend for cost and performance?
+- [ ] S3 Standard
+- [ ] S3 Intelligent-Tiering
+- [ ] S3 Glacier
+- [x] S3 One Zone-Infrequent Access
+
+#### Q59. Which big data store will let you store large streams of user activity data coming from both web and mobile applications?
+- [ ] Neptune
+- [ ] Aurora
+- [ ] RDS for SQL Server
+- [x] Redshift
+
+#### Q60. What option is best for Auto Scaling your EC2 instances for predictable traffic patterns?
+- [x] scale based on a schedule
+- [ ] manual scaling
+- [ ] scale based on demand
+- [ ] maintain current levels at all times
+
+#### Q61. You are migrating an on-premise RabbitMQ cluster into AWS. Which migration path should you choose for ease of both maintenance and deployment?
+- [ ] Rewrite the parts of your application that use RabbitMQ to use SQS.
+- [ ] Launch a RabbitMQ cluster with EC2 instances using a supported AMI.
+- [ ] Rewrite the parts of your application that use RabbitMQ to use Kinesis.
+- [x] Rewrite the parts of your application that use RabbitMQ to use Amazon MQ.
+
+#### Q62. When creating a new RDS instance, what does the Multi-AZ option do?
+- [ ] replicates backups of your database to S3 and makes them available across regions to prevent against any data loss
+- [x] creates a second passive database instance within the same region that will become the primary database during a failover
+- [ ] creates a highly available database cluster that will host your database cluster in at least two regions
+- [ ] creates another database instance in another region and keeps a hot standby active to failover to during regional failures
+
+#### Q62. What is the best EC2 instance class for a server that continuously has a heavy CPU load?
+- [x] C5
+- [ ] T2
+- [ ] R5
+- [ ] H1
+
+#### Q63. Your application performance management (APM) system can read the status of your CloudWatch monitors and perform scripted actions. When the CloudWatch metric StatusCheckFailed enters a failed state (a value of 1), you would like your APM to automatically repair the instance. Which script do you use?
+- [x] 
+
+```
+aws ec2 stop-instances --instance-ids i-0b263919b6498b123
+aws ec2 start-instances --instance-ids i-0b263919b6498b123
+```
+- [ ] 
+
+```
+aws ec2 reboot-instances --instance-ids i-0b263919b6498b123
+```
+- [ ] 
+
+```
+aws ec2 reboot-instances --instance-ids i-0b263919b6498b123
+wait 30
+aws ec2 start-instance --instance-ids i-0b263919b6498b123
+```
+- [ ] 
+
+```
+aws ec2 reboot-instances --instance-ids i-0b263919b6498b123
+aws ec2 start-instances --instance-ids i-0b263919b6498b123
+```
+
