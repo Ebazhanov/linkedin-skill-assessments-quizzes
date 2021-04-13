@@ -489,19 +489,19 @@ secured, this rule allows all traffic to pass through that is also assigned secu
 Destination 1: 10.0.0.0/16, Target 1: local;
 Destination 2: 0.0.0.0/0, Target 2: nat-09b4832
 ```
-- [ ]
+- [ ] 
 
 ```
 Destination 1: 10.0.0.0/24, Target 1: local;
 Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
 ```
-- [ ]
+- [ ] 
 
 ```
 Destination 1: 10.0.0.0/24, Target 1: subnet-1948ba2;
 Destination 2: 0.0.0.0/0, Target 2: nat-09b4832
 ```
-- [ ]
+- [ ] 
 
 ```
 Destination 1: 10.0.0.0/16, Target 1: vpc-12bd09ac2;
@@ -546,3 +546,4 @@ scaling or database administration tasks?
 - [x] Aurora
 - [ ] RDS for MySQL
 - [ ] Redshift
+
