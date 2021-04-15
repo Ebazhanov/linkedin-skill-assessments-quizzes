@@ -604,3 +604,10 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] when you don't do any data scrubbing
 - [x] when the learning happens continuously
 - [ ] when you run your computation in one big instance at the beginning
+
+#### Q77. What is Q-learning reinforcement learning?
+
+- [ ] supervised machine learning with rewards
+- [ ] a type of unsupervised learning that relies heavily on a well-established model
+- [ ] a type of reinforcement learning where accuracy degrades over time
+- [x] a type of reinforcement learning that focuses on rewards
