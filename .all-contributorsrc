@@ -3162,6 +3162,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "gudata",
+      "name": "gudata",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25951?v=4",
+      "profile": "http://www.gudasoft.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
