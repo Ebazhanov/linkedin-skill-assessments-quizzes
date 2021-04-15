@@ -397,15 +397,178 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 - [ ] The all incoming TCP ports are exposed, which overrides the HTTP and SSH rules and exposes all TCP ports to the public internet.
 
 #### Q56. An EC2 instance running a WordPress site keeps getting hacked, even though you have restored the server several times and have patched WordPress. What AWS service can help you detect and prevent further attacks?
-
 - [ ] CloudWatch
 - [x] GuardDuty
 - [ ] Shield
 - [ ] Security Advisor
 
 #### Q57. A nontechnical client wants to migrate a WordPress site to AWS from a private server managed by a third-party hosting company. Which AWS service should you recommend to migrate the site to?
-
 - [ ] CloudFront
 - [ ] An EC2 instance launched from the official WordPress AMI
 - [ ] S3
 - [x] Lightsail
+
+#### Q58. Your company has on-premise servers with an existing onsite backup solution that also replicates backups to another campus on the other side of the country with its own on-site backup solution. You have been asked to create a third level of redundancy by also storing these backups in the cloud. In the event of a primary and secondary backup failure, your boss wants to know that the cloud backups can be accessible as fast as possible to reduce downtime during the recovery. What S3 storage class do you recommend for cost and performance?
+- [ ] S3 Standard
+- [ ] S3 Intelligent-Tiering
+- [ ] S3 Glacier
+- [x] S3 One Zone-Infrequent Access
+
+#### Q59. Which big data store will let you store large streams of user activity data coming from both web and mobile applications?
+- [ ] Neptune
+- [ ] Aurora
+- [ ] RDS for SQL Server
+- [x] Redshift
+
+#### Q60. What option is best for Auto Scaling your EC2 instances for predictable traffic patterns?
+- [x] scale based on a schedule
+- [ ] manual scaling
+- [ ] scale based on demand
+- [ ] maintain current levels at all times
+
+#### Q61. You are migrating an on-premise RabbitMQ cluster into AWS. Which migration path should you choose for ease of both maintenance and deployment?
+- [ ] Rewrite the parts of your application that use RabbitMQ to use SQS.
+- [ ] Launch a RabbitMQ cluster with EC2 instances using a supported AMI.
+- [ ] Rewrite the parts of your application that use RabbitMQ to use Kinesis.
+- [x] Rewrite the parts of your application that use RabbitMQ to use Amazon MQ.
+
+#### Q62. When creating a new RDS instance, what does the Multi-AZ option do?
+- [ ] replicates backups of your database to S3 and makes them available across regions to prevent against any data loss
+- [x] creates a second passive database instance within the same region that will become the primary database during a failover
+- [ ] creates a highly available database cluster that will host your database cluster in at least two regions
+- [ ] creates another database instance in another region and keeps a hot standby active to failover to during regional failures
+
+#### Q62. What is the best EC2 instance class for a server that continuously has a heavy CPU load?
+- [x] C5
+- [ ] T2
+- [ ] R5
+- [ ] H1
+
+#### Q63. Your application performance management (APM) system can read the status of your CloudWatch monitors and perform scripted actions. When the CloudWatch metric StatusCheckFailed enters a failed state (a value of 1), you would like your APM to automatically repair the instance. Which script do you use?
+- [x] 
+
+```
+aws ec2 stop-instances --instance-ids i-0b263919b6498b123
+aws ec2 start-instances --instance-ids i-0b263919b6498b123
+```
+- [ ] 
+
+```
+aws ec2 reboot-instances --instance-ids i-0b263919b6498b123
+```
+- [ ] 
+
+```
+aws ec2 reboot-instances --instance-ids i-0b263919b6498b123
+wait 30
+aws ec2 start-instance --instance-ids i-0b263919b6498b123
+```
+- [ ] 
+
+```
+aws ec2 reboot-instances --instance-ids i-0b263919b6498b123
+aws ec2 start-instances --instance-ids i-0b263919b6498b123
+```
+
+#### Q64 What is wrong with the third incoming security group rule, which allows all traffic from sg-269afc5e to go to an 
+Ubuntu EC2 instance configured as a web server?
+
+- [ ] All traffic on all ports is being denied into this instance, which overwrites the HTTP rule and makes it redundant.
+- [ ] The instance was launched with the default security group, but there is no way for an administrator to SSH into the instance. 
+Add another rule that allows for SSH access from a secured source, such as a single IP or a range of managed IP addresses.
+- [ ] There is nothing wrong with this security group rule. Assuming that sg-269afc5e is applied to other resources that are properly 
+secured, this rule allows all traffic to pass through that is also assigned security group sg-269afc5e.
+- [ ] ?> All traffic on all ports are allowed into this instance. This exposes the instance to all public internet traffic and
+ overwrites the incoming HTTP rule.
+
+
+#### Q65 You have a VPC that has a public and private subnet. There is a NAT gateway in the public subnet that allows instances in the private subnet to access the internet without having public exposure outside of the VPC. What should the routing tables be for the private subnet?
+
+![image](images/003.png)
+
+- [x] A
+
+```
+Destination 1: 10.0.0.0/16, Target 1: local;
+Destination 2: 0.0.0.0/0, Target 2: nat-09b4832
+```
+- [ ] B
+
+```
+Destination 1: 10.0.0.0/24, Target 1: local;
+Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
+```
+- [ ] C
+
+```
+Destination 1: 10.0.0.0/24, Target 1: subnet-1948ba2;
+Destination 2: 0.0.0.0/0, Target 2: nat-09b4832
+```
+- [ ] D
+
+```
+Destination 1: 10.0.0.0/16, Target 1: vpc-12bd09ac2;
+Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
+```
+
+#### Q66 To comply with auditing requirements of some compliance standards, which AWS tool can be enabled to maintain an audit log of 
+access and changes to your AWS infrastructure?
+
+- [x] CloudTrail
+- [ ] CloudWatch
+- [ ] AWS Audit and Compliance Tool
+- [ ] GuardDuty
+
+#### Q67 You have an application that generates long-running reports, stores them in an S3 bucket, and then emails the user who requested 
+the report with a link to download it. What is the best practice for storing the report data in S3?
+
+- [ ] Create a public S3 bucket. When your application creates the report object in S3, generate two randomly generated long 
+folder names and place the file within the deepest subfolder. Set the retention policy on the object to one hour and email this link to 
+the user. The link will be active for one hour.
+- [ ] Create a public S3 bucket. Use a hash of the user's email address and the date and time the report was requested to generate a 
+unique object name. Email this link to the user and have a scheduled task run within your application to remove objects that are older 
+than seven days.
+- [x] Create a private S3 bucket. The link in the email should take the user to your application, where you can verify the active user 
+session or force the user to log in. After verifying the user has rights to access this file, have the application retrieve the object 
+from S3 and return it in the HTTP response. Delete the file from the S3 bucket after the request is completed.
+- [ ] Create a private S3 bucket. The link in the email should take the user to your application, where you can verify the active user 
+session or force the user to log in. Set the report object in S3 to public. Show the user a "Download" button in the browser that links 
+to the public object.
+
+#### Q68 When sending a large volume of email through SES, what is the most important set of metrics to monitor?
+
+- [x] your complaint and bounce rates
+- [ ] opens and clicks
+- [ ] clicks and deliveries
+- [ ] sending volume over the past 15 minutes and over one day to watch for billing spikes
+
+#### Q69 You are going to host an application that uses a MySQL database. Which database should you select if you don't want to manage 
+scaling or database administration tasks?
+
+- [ ] Launch an AMI image from the marketplace containing a preconfigured MySQL server.
+- [x] Aurora
+- [ ] RDS for MySQL
+- [ ] Redshift
+
+#### Q70 A form in web application is sending sign-up data to "http://example.com/signup/new?source=web" and this data needs to be handled by an ECS service behind Application Load Balancer (ALB). Which ALB rule will route this request?
+
+![image](images/004.png)
+
+- [ ] A
+```
+IF (all match)
+    Path is /signup*
+    Query string is signup:new
+Then 
+    Forward to ecs-cluse-service <there is a typo - yes!
+```
+- [ ] B
+```
+IF (all match)
+    Path is /sign/new/&
+    Query request method is POST
+Then 
+    Forward to ecs-cluse-service 
+```
+- [ ] C ...One more with POST
+- [x] D ...Only one with Get
