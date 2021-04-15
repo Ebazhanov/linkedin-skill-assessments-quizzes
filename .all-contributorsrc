@@ -3172,6 +3172,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "gawadeditor",
+      "name": "gawadeditor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11796330?v=4",
+      "profile": "https://github.com/gawadeditor",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
