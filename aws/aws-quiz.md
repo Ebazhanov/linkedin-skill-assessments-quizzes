@@ -483,25 +483,28 @@ secured, this rule allows all traffic to pass through that is also assigned secu
 
 
 #### Q65 You have a VPC that has a public and private subnet. There is a NAT gateway in the public subnet that allows instances in the private subnet to access the internet without having public exposure outside of the VPC. What should the routing tables be for the private subnet?
-- [x] 
+
+![image](images/003.png)
+
+- [x] A
 
 ```
 Destination 1: 10.0.0.0/16, Target 1: local;
 Destination 2: 0.0.0.0/0, Target 2: nat-09b4832
 ```
-- [ ] 
+- [ ] B
 
 ```
 Destination 1: 10.0.0.0/24, Target 1: local;
 Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
 ```
-- [ ] 
+- [ ] C
 
 ```
 Destination 1: 10.0.0.0/24, Target 1: subnet-1948ba2;
 Destination 2: 0.0.0.0/0, Target 2: nat-09b4832
 ```
-- [ ] 
+- [ ] D
 
 ```
 Destination 1: 10.0.0.0/16, Target 1: vpc-12bd09ac2;
@@ -548,8 +551,10 @@ scaling or database administration tasks?
 - [ ] Redshift
 
 #### Q70 A form in web application is sending sign-up data to "http://example.com/signup/new?source=web" and this data needs to be handled by an ECS service behind Application Load Balancer (ALB). Which ALB rule will route this request?
-- [ ] 
 
+![image](images/004.png)
+
+- [ ] A
 ```
 IF (all match)
     Path is /signup*
@@ -557,8 +562,7 @@ IF (all match)
 Then 
     Forward to ecs-cluse-service <there is a typo - yes!
 ```
-- [ ] 
-
+- [ ] B
 ```
 IF (all match)
     Path is /sign/new/&
@@ -566,5 +570,5 @@ IF (all match)
 Then 
     Forward to ecs-cluse-service 
 ```
-- [ ] ...One more with POST
-- [x] ...Only one with Get
+- [ ] C ...One more with POST
+- [x] D ...Only one with Get
