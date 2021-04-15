@@ -203,7 +203,7 @@ Note: Free trial doesn't have the organizations.
 - [ ] Docker Hub
 
 #### Q33. You need to control incoming and outgoing traffic to a Compute Engine instance. What do yo do?
-- [ ] Configure firewall rules.
+- [x] Configure firewall rules.
 - [ ] Configure VPC Network Peering.
 - [ ] Configure routes.
 - [ ] Configure external IP addresses.
@@ -218,28 +218,32 @@ Note: Free trial doesn't have the organizations.
 - [ ] GCP VMs
 - [ ] GCP buckets
 - [ ] GCP credentials
-- [ ] GCP users
+- [x] GCP users
+https://cloud.google.com/endpoints/docs/openapi/enable-api
 
 #### Q36. Which object is used to hold payment information for a GCP project?
 - [ ] organization
-- [ ] billing account
+- [x] billing account
 - [ ] folder
 - [ ] payment account
+https://cloud.google.com/billing/docs/images/billing-project.png
 
 #### Q37. You need to cache your HTTP and HTTPS static content closer to users, so that you can get faster delivery and reduce serving costs. Which service do you set up?
 - [ ] Cloud DNS
 - [ ] Cloud NAT
-- [ ] Cloud CDN
+- [x] Cloud CDN
 - [ ] Cloud Load Balancing
+https://cloud.google.com/cdn/docs/caching
 
 #### Q38. You are designing security for an IoT device application. What best practices should you include in your design?
 - [ ] Use a private key for each device. Keep the private key secret.
 - [ ] Use a public key for each device. Keep the public key secret.
 - [ ] Use a public private key pair for each device. Keep the public key secret.
-- [ ] Use a public private key pair for each device. Keep the private key secret.
+- [x] Use a public private key pair for each device. Keep the private key secret.
+https://cloud.google.com/iot/docs/concepts/device-security
 
 #### Q39. You need to set a WordPress site with high availability on GCP using the fewest steps. What do you do?
 - [ ] Configure and launch the WordPress HA deployment template from the GCP Marketplace.
 - [ ] Configure and launch the WordPress HA deployment template from the WordPress Marketplace.
-- [ ] Create, configure, and launch a WordPress HA deployment template on Compute Engine.
+- [x] Create, configure, and launch a WordPress HA deployment template on Compute Engine.
 - [ ] Create, configure, and launch a WordPress HA deployment template on Google Kubernetes Engine.
