@@ -547,3 +547,24 @@ scaling or database administration tasks?
 - [ ] RDS for MySQL
 - [ ] Redshift
 
+#### Q70 A form in web application is sending sign-up data to "http://example.com/signup/new?source=web" and this data needs to be handled by an ECS service behind Application Load Balancer (ALB). Which ALB rule will route this request?
+- [ ] 
+
+```
+IF (all match)
+    Path is /signup*
+    Query string is signup:new
+Then 
+    Forward to ecs-cluse-service <there is a typo - yes!
+```
+- [ ] 
+
+```
+IF (all match)
+    Path is /sign/new/&
+    Query request method is POST
+Then 
+    Forward to ecs-cluse-service 
+```
+- [ ] ...One more with POST
+- [x] ...Only one with Get
