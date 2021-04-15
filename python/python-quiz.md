@@ -62,7 +62,7 @@
 - [ ] `class Game(): pass`
 
 #### Q11. What is the correct way to write a doctest?
-- [ ]
+- [ ] A
 ```
 def sum(a, b):
     """
@@ -74,7 +74,7 @@ def sum(a, b):
     """
     return a + b
 ```
-- [x]
+- [x] B
 ```
 def sum(a, b):
     """
@@ -86,7 +86,7 @@ def sum(a, b):
     """
     return a + b
 ```
-- [ ] 
+- [ ] C
 ```
 def sum(a, b):
     """
@@ -98,7 +98,7 @@ def sum(a, b):
     """
     return a + b
 ```
-- [ ]
+- [ ] D
 ```
 def sum(a, b):
     ###
