@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-327-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-328-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use https://www.grammarly.com/ for online grammar checker when you contribute!
@@ -516,6 +516,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://youtube.com/right2trick"><img src="https://avatars.githubusercontent.com/u/17097240?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Parvesh Monu</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Parveshdhull" title="Code">💻</a> <a href="#design-Parveshdhull" title="Design">🎨</a></td>
     <td align="center"><a href="http://stackoverflow.com/users/990070/dipen-panchasara"><img src="https://avatars.githubusercontent.com/u/1386724?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dipen Panchasara</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=DipenPanchasara" title="Code">💻</a> <a href="#design-DipenPanchasara" title="Design">🎨</a></td>
     <td align="center"><a href="http://www.gudasoft.com"><img src="https://avatars.githubusercontent.com/u/25951?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gudata</b></sub></a><br /><a href="#design-gudata" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=gudata" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/gawadeditor"><img src="https://avatars.githubusercontent.com/u/11796330?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gawadeditor</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=gawadeditor" title="Code">💻</a> <a href="#design-gawadeditor" title="Design">🎨</a></td>
   </tr>
 </table>
 
