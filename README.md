@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-330-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-331-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use https://www.grammarly.com/ for online grammar checker when you contribute!
@@ -521,6 +521,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="http://saajan.work"><img src="https://avatars.githubusercontent.com/u/2259377?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Saajan</b></sub></a><br /><a href="#design-Saajan" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Saajan" title="Code">💻</a></td>
+    <td align="center"><a href="http://www.silicons.studio"><img src="https://avatars.githubusercontent.com/u/66439372?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kushagra S</b></sub></a><br /><a href="#design-skushagra" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=skushagra" title="Code">💻</a></td>
   </tr>
 </table>
 
