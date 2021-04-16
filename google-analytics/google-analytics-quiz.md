@@ -388,7 +388,7 @@
 - [ ] Google Ads data sync
 - [ ] enhanced UTM tracking
 - [ ] Google Adsense data sync
-- [ ] Demographics and Interests reports
+- [x] Demographics and Interests reports
 
 #### Q65. Which choice is an example of a micro goal?
 - [ ] playing a video before signing up
