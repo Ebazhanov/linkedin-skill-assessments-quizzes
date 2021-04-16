@@ -230,7 +230,7 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 
 - [ ] Globs create a list; brace expansion matches pattern.
 - [ ] Brace expansion requires files to exist; globs do not.
-- [x] Brace expansion creates a list; globs mart the list of pathnames.
+- [x] Brace expansion creates a list; globs match the list of pathnames.
 - [ ] Globs get processes first and brace expansion later.
 
 #### Q32. To remove all ACLs from a directory , use setfacl with which options?
@@ -247,7 +247,7 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 myVar = 5
 [[ $myVar -lt 10 ]] && echo " Hello World"
 ```
-- [X] 
+- [ ] 
 ```bash
 myVar = 5
 [[ $myVar -lt 10 ]] || echo " Hello World"
