@@ -373,8 +373,8 @@ f2();
 #### Q42. How many prototype objects are in the chain for the following array?
 `let arr = [];`
 - [ ] 3
-- [ ] 2
-- [x] 0
+- [x] 2
+- [ ] 0
 - [ ] 1
 
 #### Q43. Which choice is *not* a unary operator?
