@@ -3182,6 +3182,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "taletski",
+      "name": "Kirill Taletski",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25644093?v=4",
+      "profile": "https://github.com/taletski",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
