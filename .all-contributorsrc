@@ -3192,6 +3192,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Saajan",
+      "name": "Saajan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2259377?v=4",
+      "profile": "http://saajan.work",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
