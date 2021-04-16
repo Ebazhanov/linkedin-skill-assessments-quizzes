@@ -449,9 +449,9 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 ```
 
 - [ ] `itemprop="aggregateRating" itemref="http://schema.org/AggregateRating"`
-- [x] `itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating`
-- [ ] `itemid="aggregateRating" itemtype="http://schema.org/AggregateRating`
-- [ ] `itemid="aggregateRating" itemref="http://schema.org/AggregateRating`
+- [x] `itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating"`
+- [ ] `itemid="aggregateRating" itemtype="http://schema.org/AggregateRating"`
+- [ ] `itemid="aggregateRating" itemref="http://schema.org/AggregateRating"`
 
 #### Q29. Which HTML snippet links back to the very top of a webpage?
 
