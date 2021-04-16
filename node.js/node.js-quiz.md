@@ -71,7 +71,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
  - [ ] node -p "process.os.cpus"
  - [x] node -p "os.cpus().length"
 
-#### Q12. Which of the following is a method on the console obejct?
+#### Q12. Which of the following is a method on the console object?
  - [ ] exit
  - [ ] test
  - [x] time
