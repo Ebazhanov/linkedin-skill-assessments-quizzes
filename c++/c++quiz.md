@@ -994,3 +994,36 @@ std::memset(buff,20,50);
 - [x] `CustomData operator++(int);`
 
 [Reference](https://en.cppreference.com/w/cpp/language/operators)
+
+#### Q59. Which choice is not a valid type definition of a structure that contains x and y coordinates as integers, and that can be used exactly as shown for the variable named center?
+
+```cpp
+coord center;
+center.x = 9;
+center.y = 3;
+```
+
+- [ ] ```cpp
+ struct coord{
+    int x;
+    int y;
+};
+typedef struct coord coord;
+```
+- [ ] ```cpp
+ typedef struct coord{
+    int x;
+    int y;
+} coord;
+```
+- [ ] ```cpp typedef struct coord{
+    int x;
+    int y;
+};
+```
+- [ ] ```cpp typedef struct{
+    int x;
+    int y;
+} coord;
+```
+
