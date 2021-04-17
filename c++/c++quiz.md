@@ -1003,7 +1003,7 @@ center.x = 9;
 center.y = 3;
 ```
 
-- [ ] 
+- [ ] A
 ```cpp
  struct coord{
     int x;
@@ -1011,21 +1011,21 @@ center.y = 3;
 };
 typedef struct coord coord;
 ```
-- [ ] 
+- [ ] B
 ```cpp
  typedef struct coord{
     int x;
     int y;
 } coord;
 ```
-- [ ] 
+- [ ] C
 ```cpp 
 typedef struct coord{
     int x;
     int y;
 };
 ```
-- [ ] 
+- [ ] D
 ```cpp 
 typedef struct{
     int x;
@@ -1039,28 +1039,28 @@ typedef struct{
 std::array<uint32_t, 50> my_array;
 ```
 
-- [ ] 
+- [ ] A
 ```cpp
 std::sort(my_array.begin(), my_array.end(),
     [](uint32_t a, uint32_t b) {
         return a < b;
     })
 ```
-- [ ] 
+- [ ] B
 ```cpp
 lambda(uint32_t a, uint32_t b){
     return a < b;
 }
 std::sort(my_array.begin(), my_array.end(), lambda);
 ```
-- [ ] 
+- [ ] C
 ```cpp 
 std::sort(my_array.begin(), my_array.end(),
     lambda(uint32_t a, uint32_t b){
         return a < b;
     })
 ```
-- [ ] 
+- [ ] D
 ```cpp 
 lambda(uint32_t a, uint32_t b){
     return a < b;
