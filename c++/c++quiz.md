@@ -1003,27 +1003,67 @@ center.x = 9;
 center.y = 3;
 ```
 
-- [ ] ```cpp
+- [ ] A
+```cpp
  struct coord{
     int x;
     int y;
 };
 typedef struct coord coord;
 ```
-- [ ] ```cpp
+- [ ] B
+```cpp
  typedef struct coord{
     int x;
     int y;
 } coord;
 ```
-- [ ] ```cpp typedef struct coord{
+- [ ] C
+```cpp 
+typedef struct coord{
     int x;
     int y;
 };
 ```
-- [ ] ```cpp typedef struct{
+- [ ] D
+```cpp 
+typedef struct{
     int x;
     int y;
 } coord;
 ```
 
+#### Q60. You want to sort my_array, declared below.  Which choice is the correct call to std::sort, using a lambda expression as the comparison function?
+
+```cpp
+std::array<uint32_t, 50> my_array;
+```
+
+- [ ] A
+```cpp
+std::sort(my_array.begin(), my_array.end(),
+    [](uint32_t a, uint32_t b) {
+        return a < b;
+    })
+```
+- [ ] B
+```cpp
+lambda(uint32_t a, uint32_t b){
+    return a < b;
+}
+std::sort(my_array.begin(), my_array.end(), lambda);
+```
+- [ ] C
+```cpp 
+std::sort(my_array.begin(), my_array.end(),
+    lambda(uint32_t a, uint32_t b){
+        return a < b;
+    })
+```
+- [ ] D
+```cpp 
+lambda(uint32_t a, uint32_t b){
+    return a < b;
+}
+std::sort(my_array.begin(), my_array.end(), &lambda);
+```
