@@ -1018,7 +1018,7 @@ typedef struct coord coord;
     int y;
 } coord;
 ```
-- [ ] C
+- [x] C
 ```cpp 
 typedef struct coord{
     int x;
@@ -1032,14 +1032,15 @@ typedef struct{
     int y;
 } coord;
 ```
+[Reference](https://stackoverflow.com/questions/18806392/typedef-struct-declarations/18806720)
 
-#### Q60. You want to sort my_array, declared below.  Which choice is the correct call to std::sort, using a lambda expression as the comparison function?
+#### Q60. You want to sort my_array, declared below. Which choice is the correct call to std::sort, using a lambda expression as the comparison function?
 
 ```cpp
 std::array<uint32_t, 50> my_array;
 ```
 
-- [ ] A
+- [x] A
 ```cpp
 std::sort(my_array.begin(), my_array.end(),
     [](uint32_t a, uint32_t b) {
@@ -1066,4 +1067,33 @@ lambda(uint32_t a, uint32_t b){
     return a < b;
 }
 std::sort(my_array.begin(), my_array.end(), &lambda);
+```
+[Reference](https://docs.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=msvc-160)
+
+#### Q61. Which choice is the most reasonable implementation of the function std::mutex::lock() by using std::mutex::try_lock()?
+
+- [ ] A
+```cpp
+void std::mutex::lock(){
+    while(!this->try_lock());
+}
+```
+- [ ] B
+```cpp
+void std::mutex::lock(){
+    return (this->try_lock());
+}
+```
+- [ ] C
+```cpp
+void std::mutex::lock(){
+    while(1)
+        this->try_lock();
+}
+```
+- [ ] D
+```cpp
+void std::mutex::lock(){
+    while(this->try_lock());
+}
 ```
