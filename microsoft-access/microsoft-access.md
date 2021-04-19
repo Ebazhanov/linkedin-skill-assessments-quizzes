@@ -195,3 +195,5 @@
 - [ ] When you want to retrieve all of the records from the right table that have matching records in the left table
 - [ ] When you want to retrieve just the records from the left table that have matching records in the right table
 - [ ] When you want to retrieve just the records from the left table that do not have any matching records in the right table
+
+Q27.You want to use data from a SQL Server database in Access.How can you be able to modify the data stored in SQL Server from a form that you develop in Access?
