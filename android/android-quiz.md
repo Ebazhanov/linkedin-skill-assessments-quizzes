@@ -273,7 +273,7 @@
 - [ ] assertThat(resultAdd).isWqualTo(2.0)
 - [ ] assertThat(resultAdd)
 
-#### Q26. What tag should you used to add a reusable view component to a layour file?
+#### Q26. What tag should you use to add a reusable view component to a layout file?
 - [ ] `<merge/>`
 - [x] `<include/>`
 - [ ] `<layout/>`
