@@ -200,18 +200,18 @@
 **Explanation:** In Method "getDefaultSharedPrefarances(this).getString()" Second parameter is passed so that it can be returned, in case key doesn't exist. So we need to pass an empty string to be returned in case key doesn't exist.
 
 #### Q20. Why is it problematic to define sizes using pixels on Android?
-- [ ] Although screen pixel density vary,this does not impact the use of pixels to define sizes.
-- [ ] Large devices always have more pixels so your UI elements will be effected if you define them with pixels.
-- [ ] The same number of pixels may corresponds to different physical sizes, affecting the appearance of your UI elements.
+- [ ] Although screen pixel density varies, this does not impact the use of pixels to define sizes.
+- [ ] Large devices always have more pixels so your UI elements will be e=affected if you define them with pixels.
+- [ ] The same number of pixels may correspond to different physical sizes, affecting the appearance of your UI elements.
 - [x] Different devices have different understanding of what a pixel is , affecting the appearance of your UI elements
 
-#### Q20. You need to get a listing devices that are attached to your computer with USB debugging enable. Which command would execute using the Android Debug Bridge?
+#### Q21. You need to get a listing devices that are attached to your computer with USB debugging enable. Which command would execute using the Android Debug Bridge?
 - [ ] list devices
 - [x] adb devices
 - [ ] list avd
 - [ ] dir devices
 
-#### Q21. Which drawable defination allows you to achieve the shape below?
+#### Q22. Which drawable defination allows you to achieve the shape below?
 ![img](image/shape.png)
 - [ ]
 ```xml
@@ -251,13 +251,13 @@
       </shape>
 ```
 
-#### Q22. To persist a small collection of key-value data, what should you use?
+#### Q23. To persist a small collection of key-value data, what should you use?
 - [ ] external file storage
 - [x] SharedPereferences
 - [ ] SQLite
 - [ ] internal file storage
 
-#### Q22. You need to retrieve a list of photos from an API. Which code snippet defines an HTML GET request in Retrofit?
+#### Q24. You need to retrieve a list of photos from an API. Which code snippet defines an HTML GET request in Retrofit?
 - [ ] @GET("photo/{id}"}
       fun listPhotos(@Path("id") id:Long?) : Call<Photo>
 - [ ] @LIST("photo")
@@ -267,32 +267,32 @@
 - [x] @GET("photo")
       fun listPhotos() : Call<List<Photo>>
 
-#### Q23. Given the test class below, which code snippet would be a correct assertion?
+#### Q25. Given the test class below, which code snippet would be a correct assertion?
 - [ ] assertThat(resultAdd).is(2.0)
 - [x] assertNotNull(resultAdd)
 - [ ] assertThat(resultAdd).isWqualTo(2.0)
 - [ ] assertThat(resultAdd)
 
-#### Q24. What tag should you used to add a reusable view component to a layour file?
+#### Q26. What tag should you used to add a reusable view component to a layour file?
 - [ ] `<merge/>`
 - [x] `<include/>`
 - [ ] `<layout/>`
 - [ ] `<add/>`
 
-#### Q25. You want to provide a different drawable for devices that are in landscape mode and whose language is set to French. which directory is named correctly?
+#### Q27. You want to provide a different drawable for devices that are in landscape mode and whose language is set to French. which directory is named correctly?
 - [ ] fr-land-drawable
 - [x] drawable-fr-land
 - [ ] drawable-french-land
 - [ ] french-land-drawable
 
-#### Q26. Why might you need to include the following permission to your app?
+#### Q28. Why might you need to include the following permission to your app?
 `android.permission.ACCESS_NETWORK_STATE`
 - [ ] to monitor the location of the devices so that you don't attempt to make network calls when the user is stationary
 - [x] to request the ability to make network calls from your app
 - [ ] to monitor the network state of the device so that you can display an in-app banner to the user
 - [ ] to monitor the network state of the devices so that you don't attempt to make network calls when the network is unavailable
 
-#### Q27. Which image best corresponds to the following `LinearLayout`?
+#### Q29. Which image best corresponds to the following `LinearLayout`?
 ```xml
 <LinearLayout
 	android:layout_width="match_parent"
@@ -318,7 +318,7 @@
 - [ ] D
       ![img](image/03.jpeg)
 
-#### Q28. You want to open the default Dialer app on a device. What is wrong with this code?
+#### Q30. You want to open the default Dialer app on a device. What is wrong with this code?
 ```
 val dialerIntent = Intent()
 val et = findViewById(R.id.some_edit_text)
@@ -331,25 +331,25 @@ startActivity(dialerIntent)
 - [ ] The `dialerIntent` will cause an ActivityNotFoundException to be thrown on devices that do not support `Intent.ACTION_DIAL`.
 - [ ] The permission `android.permission.CALL_PHONE` must be requested first before `Intent.ACTION_DIAL` can be used.
 
-#### Q29. When should you store files in the `/assets` directory?
+#### Q31. When should you store files in the `/assets` directory?
 - [x] when you need access to the original file names and file hierarchy
 - [ ] when you need access to the file with its `resource ID`, like `R.assets.filename`
 - [ ] when you have XML files that define tween animations
 - [ ] when you need to access the file in its raw form using `Resources.openRawResource()`
 
-#### Q30. You want to allow users to take pictures in your app. Which is _not_ an advantage of creating an appropriate `intent`, instead of requesting the camera permission directly?
+#### Q32. You want to allow users to take pictures in your app. Which is _not_ an advantage of creating an appropriate `intent`, instead of requesting the camera permission directly?
 - [ ] Users can select their favorite photo apps to take pictures.
 - [ ] You do not have to make a permission request in your app to take a picture.
 - [x] You have full control over the user experience. The app that handles the camera `intent` will respect your design choices.
 - [ ] You do not have to design the UI. The app that handles the camera `intent` will provide the UI.
 
-#### Q31. When would you use the `ActivityCompat.shouldShowRequestPermissionRationale()` function?
+#### Q33. When would you use the `ActivityCompat.shouldShowRequestPermissionRationale()` function?
 - [ ] when a user first opens your app and you want to provide an explanation for the use of a given permission
 - [ ] when a user has previously denied the request for a given permission and selects "Tell me more"
 - [ ] when a user has previously denied the request for a given permission and you want to provide an explanation for its use
 - [x] when a user has previously denied the request for a given permission and selected "Don't ask again," but you need the permission for your app to function
 
-#### Q32. You would like to enable analytics tracking only in `release` builds. How can you create a new field in the generated `BuildConfig` class to store that value?
+#### Q34. You would like to enable analytics tracking only in `release` builds. How can you create a new field in the generated `BuildConfig` class to store that value?
 - [ ]
 ```
 buildTypes {
@@ -395,19 +395,19 @@ buildTypes {
 }
 ```
 
-#### Q33. To optimize your APK size, what image codec should you use?
+#### Q35. To optimize your APK size, what image codec should you use?
 - [ ] JPG
 - [ ] PNG
 - [ ] MPEG
 - [x] WebP
 
-#### Q34. You have built code to make a network call and tested that it works in your development environment. However, when you publish it to the Play console, the networking call fails to work. What will _not_ help you troubleshoot this issue?
+#### Q36. You have built code to make a network call and tested that it works in your development environment. However, when you publish it to the Play console, the networking call fails to work. What will _not_ help you troubleshoot this issue?
 - [ ] checking whether `ProGuard` -keepclassmembers have been added to the network data transfer objects (DTOs) in question
 - [x] using the profiler tools in Android Studio to detect anomalies in CPU, memory, and network usage
 - [ ] checking for exceptions in the sever logs or server console
 - [ ] checking that the network data transfer object has `@SerizlizedName` applied to its member properties
 
-#### Q35. Which code snippet would achieve the layout displayed below?
+#### Q37. Which code snippet would achieve the layout displayed below?
 ![img](image/04.jpeg)
 - [ ]
 ```xml
@@ -489,13 +489,13 @@ buildTypes {
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-#### Q36. Which source set is `_not_` available to you by default when Android Studio creates a new project?
+#### Q38. Which source set is `_not_` available to you by default when Android Studio creates a new project?
 - [ ] test
 - [ ] androidTest
 - [ ] app
 - [x] main
 
-#### Q37. Which definition will prevent other apps from accessing your `Activity` class via an `intent`?
+#### Q39. Which definition will prevent other apps from accessing your `Activity` class via an `intent`?
 - [x]
 ```xml
 	<activity android:name=".ExampleActivity" />
@@ -527,37 +527,37 @@ buildTypes {
 ```
 **Explanation:** Intent filters are used to make activities accessible to other apps using intents. So we have to choose option which have no intent filter to make sure it is not accessible by intent
 
-#### Q38. To preserve on-device memory, how might you determine that the user's device has limited storage capabilities?
+#### Q40. To preserve on-device memory, how might you determine that the user's device has limited storage capabilities?
 - [x] Use the `ActivityManager.isLowRamDevice()` method to find out whether a device defines itself as "low RAM."
 - [ ] Use the `Activity.islowRam()` method to find out whether a device defines itself as "low RAM."
 - [ ] Use the `ConnectivityManager.hasLowMemory()` method to find out whether a device defines itself as "low RAM."
 - [ ] Make an image download request and check the remaining device storage usage.
 
-#### Q39. What is `_not_` a good way to reuse Android code?
+#### Q41. What is `_not_` a good way to reuse Android code?
 - [ ] Use a common Gradle module shared by different Android projects.
 - [ ] Prefer to build custom views or fragments over activities.
 - [ ] Prefer to build activities instead of fragments.
 - [x] Break down UI layouts into common elements and use `<include/>` to include them in other layout XML files.
 
-#### Q40. Which layout is best for large, complex hierarchies?
+#### Q42. Which layout is best for large, complex hierarchies?
 - [ ] LinearLayout
 - [x] ConstraintLayout
 - [ ] FrameLayout
 - [ ] RelativeLayout
 
-#### Q41. Why do developers often put app initialization code in the Application class?
+#### Q43. Why do developers often put app initialization code in the Application class?
 - [ ] The Application class is instantiated before any other class when the process for the application is created.
 - [ ] The Application class is instantiated after any permissions requests when the process for the application is created.
 - [ ] The Application class is created each time a new Activity is launched, making it ideal for initialization code.
 - [ ] The Application class is created each time a background service is called, making it ideal for initialization code.
 
-#### Q42. What folder should you use for your app's launcher icons?
+#### Q44. What folder should you use for your app's launcher icons?
 - [ ] /drawable
 - [ ] /icon
 - [ ] /mipmap
 - [ ] /launcher
 
-#### Q43. Which drawable definition allows you to achieve the shape below?
+#### Q45. Which drawable definition allows you to achieve the shape below?
 ![img](image/43.jpeg)
 - [ ]
 ```xml
@@ -599,13 +599,13 @@ buildTypes {
 	</shape>
 ```
 
-#### Q44. Given the ConstraintLayout below, which statement is true?
+#### Q46. Given the ConstraintLayout below, which statement is true?
 ![img](image/44.jpeg)
 - [ ] View B is not horizontally constrained.
 - [ ] View C has too many constraints.
 - [ ] View B is not vertically constrained.
 - [ ] View C is constrained to the parent.
-#### Q45. Given this code snippey from a build.gradle file, which choice is not a possible build variant?
+#### Q47. Given this code snippey from a build.gradle file, which choice is not a possible build variant?
 android {
   ...
   defaultConfig{...}
@@ -626,42 +626,42 @@ android {
 - [ ] stagingDebug.
 - [ ] stagingRelease.
 
-#### Q46. You need to upgrade to the latest version of the Android Gradle plugin. Which file should you modify?
+#### Q48. You need to upgrade to the latest version of the Android Gradle plugin. Which file should you modify?
 
 - [x] root_project_dir/app/build.gradle.
 - [ ] root_project_dir/settings.gradle.
 - [ ] root_project_dir/build.gradle.
 - [ ] root_project_dir/app/gradle.properties.
 
-#### Q47. What is not good way to reuse Android code?
+#### Q49. What is not good way to reuse Android code?
 
 - [ ] Break down UI layouts into common elements and use <include/> to include them in other layout XML files.
 - [ ] Prefer to build custom views or fragments over activities.
 - [ ] Use a common Gradle module shared by different Android projects.
 - [ ] Prefer to build activities instead of fragments.
 
-#### Q47. When should you use the androidTest directory to store your test classes?
+#### Q50. When should you use the androidTest directory to store your test classes?
 
 - [ ] when the tests consist only of unit tests.
 - [ ] when the number of tests to run is large(500+).
 - [ ] when the tests need to run on your local machine.
 - [ ] when the tests need to run on real or virtual devices.
 
-#### Q48. What is the benifit of using the @VisibleForTesting annotation?
+#### Q51. What is the benifit of using the @VisibleForTesting annotation?
 
 - [ ] to denote that a class, method, or field is visible only in test code.
 - [ ] to dentoe that a class, method or field has it's visibility increased to make code less testable.
 - [ ] to denote that a class, method, or field has it's visibility relaxed to make code testable.
 - [ ] to throw a run-time error if a class, method, or field which this annotation is accessed improperly.
 
-#### Q49. Given an APK named app-internal-debug.apk produced from the build process, which statement is likely to be true?
+#### Q52. Given an APK named app-internal-debug.apk produced from the build process, which statement is likely to be true?
 
 - [ ] This APK is created on a developer machine from the debug product flavor.
 - [ ] This APK is created from the internalDebug product flavor.
 - [ ] This APK created from the debug product flavor and internal build type.
 - [ ] This APK is created from the debug build type and internal product flavor.
 
-#### Q50. When attempting to build your project,  what might the following error indicate?
+#### Q53. When attempting to build your project,  what might the following error indicate?
 
  Conversion to Dalvik format filed:
  Unable to execute dex: method ID not in [0, 0xffff]: 65536
@@ -671,7 +671,7 @@ android {
 - [ ] You have exceeded the total number of methods that can be referenced within a single DEX file.
 - [ ] You have a NullPointerException in your code.
 
-#### Q51. Which statement, in build.gradle file, correctly denotes that the corresponding module is an Android library module?
+#### Q54. Which statement, in build.gradle file, correctly denotes that the corresponding module is an Android library module?
 
 
 - [ ] apply plugin: 'com.module.library'
@@ -679,7 +679,7 @@ android {
 - [ ] apply plugin: 'com.module.library'
 - [ ] include plugin: 'com.module.library'
 
-#### Q52. Given the following dimens.xml file, how would you define an ImageView with medium spacing at the bottom?
+#### Q55. Given the following dimens.xml file, how would you define an ImageView with medium spacing at the bottom?
 ```
 <?xml version=1.0 encoding="utf-8"?>
 <resources>
