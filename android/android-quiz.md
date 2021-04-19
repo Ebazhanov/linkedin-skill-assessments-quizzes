@@ -404,7 +404,7 @@ buildTypes {
 #### Q36. You have built code to make a network call and tested that it works in your development environment. However, when you publish it to the Play console, the networking call fails to work. What will _not_ help you troubleshoot this issue?
 - [ ] checking whether `ProGuard` -keepclassmembers have been added to the network data transfer objects (DTOs) in question
 - [x] using the profiler tools in Android Studio to detect anomalies in CPU, memory, and network usage
-- [ ] checking for exceptions in the sever logs or server console
+- [ ] checking for exceptions in the server logs or server console
 - [ ] checking that the network data transfer object has `@SerizlizedName` applied to its member properties
 
 #### Q37. Which code snippet would achieve the layout displayed below?
