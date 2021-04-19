@@ -745,3 +745,10 @@ def calculate_sales_tax(subtotal):
 - [x] a small, anonymous function that can take any number of arguments but has only expression to evaluate 
 
 [Reference](https://www.guru99.com/python-lambda-function.html)
+
+#### Q75. What is the primary difference between lists and tuples?
+- [ ] You can access a specifc element in a list by indexing to its position, but you cannot access a specifc element in a tuple unless you iterate through the tuple
+- [x] Lists are mutable, meaning you can change the data that is inside them at an time. Tuples are immutable, meaning you cannot change the data that is inside them once you hav ecreated the tuple.
+- [ ] Lists are immutable, meaning you cannot change the data that is inside them once you hav ecreate the list. Tuples are mutable, meaning you can change the data that is inside them at any time.
+- [ ] Lists can hold several data types inside them at once, but tuples can only hold the same data type if multiple elements are present.
+
