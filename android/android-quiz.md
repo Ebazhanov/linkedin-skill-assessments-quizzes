@@ -205,7 +205,7 @@
 - [ ] The same number of pixels may correspond to different physical sizes, affecting the appearance of your UI elements.
 - [x] Different devices have different understanding of what a pixel is , affecting the appearance of your UI elements
 
-#### Q21. You need to get a listing devices that are attached to your computer with USB debugging enable. Which command would execute using the Android Debug Bridge?
+#### Q21. You need to get a list of devices that are attached to your computer with USB debugging enable. Which command would execute using the Android Debug Bridge?
 - [ ] list devices
 - [x] adb devices
 - [ ] list avd
