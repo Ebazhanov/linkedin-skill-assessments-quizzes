@@ -273,7 +273,7 @@
 - [ ] assertThat(resultAdd).isWqualTo(2.0)
 - [ ] assertThat(resultAdd)
 
-#### Q26. What tag should you used to add a reusable view component to a layour file?
+#### Q26. What tag should you use to add a reusable view component to a layout file?
 - [ ] `<merge/>`
 - [x] `<include/>`
 - [ ] `<layout/>`
@@ -404,7 +404,7 @@ buildTypes {
 #### Q36. You have built code to make a network call and tested that it works in your development environment. However, when you publish it to the Play console, the networking call fails to work. What will _not_ help you troubleshoot this issue?
 - [ ] checking whether `ProGuard` -keepclassmembers have been added to the network data transfer objects (DTOs) in question
 - [x] using the profiler tools in Android Studio to detect anomalies in CPU, memory, and network usage
-- [ ] checking for exceptions in the sever logs or server console
+- [ ] checking for exceptions in the server logs or server console
 - [ ] checking that the network data transfer object has `@SerizlizedName` applied to its member properties
 
 #### Q37. Which code snippet would achieve the layout displayed below?
@@ -545,19 +545,26 @@ buildTypes {
 - [ ] FrameLayout
 - [ ] RelativeLayout
 
-#### Q43. Why do developers often put app initialization code in the Application class?
+#### Q43. You need to upgrade to the latest version of the Android Gradle plugin. Which file should you modify?
+
+- [x] root_project_dir/app/build.gradle.
+- [ ] root_project_dir/settings.gradle.
+- [ ] root_project_dir/build.gradle.
+- [ ] root_project_dir/app/gradle.properties.
+
+#### Q44. Why do developers often put app initialization code in the Application class?
 - [ ] The Application class is instantiated before any other class when the process for the application is created.
 - [ ] The Application class is instantiated after any permissions requests when the process for the application is created.
 - [ ] The Application class is created each time a new Activity is launched, making it ideal for initialization code.
 - [ ] The Application class is created each time a background service is called, making it ideal for initialization code.
 
-#### Q44. What folder should you use for your app's launcher icons?
+#### Q45. What folder should you use for your app's launcher icons?
 - [ ] /drawable
 - [ ] /icon
 - [ ] /mipmap
 - [ ] /launcher
 
-#### Q45. Which drawable definition allows you to achieve the shape below?
+#### Q46. Which drawable definition allows you to achieve the shape below?
 ![img](image/43.jpeg)
 - [ ]
 ```xml
@@ -599,13 +606,13 @@ buildTypes {
 	</shape>
 ```
 
-#### Q46. Given the ConstraintLayout below, which statement is true?
+#### Q47. Given the ConstraintLayout below, which statement is true?
 ![img](image/44.jpeg)
 - [ ] View B is not horizontally constrained.
 - [ ] View C has too many constraints.
 - [ ] View B is not vertically constrained.
 - [ ] View C is constrained to the parent.
-#### Q47. Given this code snippey from a build.gradle file, which choice is not a possible build variant?
+#### Q48. Given this code snippey from a build.gradle file, which choice is not a possible build variant?
 android {
   ...
   defaultConfig{...}
@@ -626,12 +633,6 @@ android {
 - [ ] stagingDebug.
 - [ ] stagingRelease.
 
-#### Q48. You need to upgrade to the latest version of the Android Gradle plugin. Which file should you modify?
-
-- [x] root_project_dir/app/build.gradle.
-- [ ] root_project_dir/settings.gradle.
-- [ ] root_project_dir/build.gradle.
-- [ ] root_project_dir/app/gradle.properties.
 
 #### Q49. What is not good way to reuse Android code?
 
