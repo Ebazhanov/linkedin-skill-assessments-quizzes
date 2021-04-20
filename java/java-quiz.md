@@ -212,7 +212,7 @@ class Main {
 - [ ] "-123"
 - [ ] It will throw an exception on line 5.
 - [x] "123"
-      
+
 **Explanation:** The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class.
 
 #### Q12. What is the result of this code?
@@ -874,25 +874,26 @@ public class Solution {
 - [x] double pi = 3.141;
 - [ ] float pi = 3.141;
 
-**Reasoning:** 
+**Reasoning:**
+
 ```java
 public class TestReal {
     public static void main (String[] argv)
     {
       double pi = 3.14159265;       //accuaracy upto 15 digits
       float pi2 = 3.141F;                //accuracy upto 6-7 digits
-  
+
       System.out.println ("Pi=" + pi);
       System.out.println ("Pi2" + pi2;
     }
   }
-  ```
-  ```
-  The default Java type which Java will be using for a float variable will be double. 
-  So, even if you declare any variable as float, what the compiler has to actually do is to assign a double value to a float variable, 
-  which is not possible. So, to tell the compiler to treat this value as a float, that 'F' is used.
-  ```
+```
 
+```
+The default Java type which Java will be using for a float variable will be double.
+So, even if you declare any variable as float, what the compiler has to actually do is to assign a double value to a float variable,
+which is not possible. So, to tell the compiler to treat this value as a float, that 'F' is used.
+```
 
 #### Q60. Use the magic power to cast a spell
 
@@ -970,6 +971,7 @@ try {
 - [ ] `DIV`
 
 [Reference](http://www.cs.ukzn.ac.za/~hughm/java/intro/week2/21.html)
+
 #### Q66. Which choice is a disadvantage of inheritance?
 
 - [ ] Overridden methods of the parent class cannot be reused.
@@ -1014,6 +1016,7 @@ groucyButton.addActionListener(new ActionListener() {
 [Reference](https://www.baeldung.com/java-8-functional-interfaces)
 
 #### Q69. What is a valid use of the hashCode() method?
+
 - [ ] encrypting user passwords
 - [x] deciding if two instances of a class are equal
 - [ ] enabling HashMap to find matches faster
@@ -1022,6 +1025,7 @@ groucyButton.addActionListener(new ActionListener() {
 [Reference](https://www.baeldung.com/java-hashcode)
 
 #### Q70. What kind of relationship does "extends" denote?
+
 - [ ] uses-a
 - [x] is-a
 - [ ] has-a
@@ -1030,14 +1034,30 @@ groucyButton.addActionListener(new ActionListener() {
 [Reference](https://www.c-sharpcorner.com/UploadFile/3614a6/is-a-and-has-a-relationship-in-java/)
 
 #### Q71. How do you force an object to be garbage collected?
+
 - [ ] Set object to null and call Runtime.gc()
 - [x] Set object to null and call System.gc()
 - [ ] Set object to null and call Runtime.getRuntime().runFinalization()
 - [ ] There is no way to force an object to be garbage collected
-[Reference](https://www.baeldung.com/java-hashcode)
+      [Reference](https://www.baeldung.com/java-hashcode)
 
-#### Q72. Java programmers commonly use design patterns. Some examples are the ______, which helps create instances of a class, the ______, which ensures that only one instance of a class can be created; and the ______, which allows for a group of algorithms to be interchangeable.
+#### Q72. Java programmers commonly use design patterns. Some examples are the **\_\_**, which helps create instances of a class, the **\_\_**, which ensures that only one instance of a class can be created; and the **\_\_**, which allows for a group of algorithms to be interchangeable.
+
 - [x] static factory method; singleton; strategy pattern
 - [ ] strategy pattern; static factory method; singleton
 - [ ] creation pattern; singleton; prototype pattern
 - [ ] singleton; strategy pattern; static factory method
+
+#### Q73. Using Java's Reflection API, you can use \_**\_ to get the name of a class and \_\_** to retrieve an array of its methods.
+
+- [x] this.getClass().getSimpleName(); this.getClass().getDeclaredMethods()
+- [ ] this.getName(); this.getMethods()
+- [ ] Reflection.getName(this); Reflection.getMethods(this)
+- [ ] Reflection.getClass(this).getName(); Reflection.getClass(this).getMethods()
+
+#### Q74. What is a valid use of the hashCOde() method?
+
+- [ ] moving objects from a List to a HashMap
+- [x] deciding if two instances of a class are equal
+- [ ] enabling HashMap to find matches faster
+- [ ] encrypting user passwords

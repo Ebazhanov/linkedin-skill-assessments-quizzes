@@ -496,3 +496,21 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] an equation
 - [ ] a sketch
 - [ ] a symbol
+
+#### Q62. You're finalizing a document that contains some high-resolution images. You want to reduce the picture size while ensuring image quality is adequate for online viewing. What is a best-practice approach?
+
+- [ ] Review the images and crop as needed. Compress the images. Save the document and then compress the entire document.
+- [ ] Replace the images with lower-resolution images. Save the document and then compress it.
+- [x] Review the images and crop as needed. Then compress the images and delete cropped areas.
+- [ ] Review the images and crop as needed. Save document and then compress it.
+
+[Reference link](https://support.microsoft.com/en-us/topic/reduce-the-file-size-of-a-picture-in-microsoft-office-8db7211c-d958-457c-babd-194109eb9535)
+
+#### Q63. Before you send a document to an external client, you must remove personal information--including document author names, comments, and hidden text--from the doc. What tool can help you locate and clean up these details??
+
+- [ ] Accessibility Checker
+- [ ] Check Compatibility
+- [ ] Manage Document
+- [x] Document Inspector
+
+[Reference](https://support.microsoft.com/en-us/topic/remove-hidden-data-and-personal-information-by-inspecting-documents-presentations-or-workbooks-356b7b5d-77af-44fe-a07f-9aa4d085966f#:~:text=Click%20File%20%3E%20Info%20%3E%20Remove%20Personal,from%20the%20document%20check%20box.)
