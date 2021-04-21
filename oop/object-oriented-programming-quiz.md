@@ -413,3 +413,17 @@
 - [x] Attributes describ a state; behaviours describe a change.
 - [ ] Attributes apply only to a specified object; behaviour apply to other linked objects.
 - [ ] Behaviours are vector quantities; attributes are scalars.
+
+#### Q55. The open/closed principle states that classes should be open for ___ but closed for ____.
+
+- [ ] refactoring; duplication
+- [ ] modification; duplication
+- [x] extension; modification
+- [ ] reuse; encapsulation
+
+#### Q56. Why would you override a method of a base class?
+
+- [ ] to define a method that must be implemented in a derived class
+- [x] to define a custom implementation of an inherited member
+- [ ] to define a method that must be implemented in a superclass only
+- [ ] to define a class that can be inherited from

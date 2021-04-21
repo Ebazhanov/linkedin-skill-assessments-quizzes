@@ -256,3 +256,36 @@ mvn install
 - [ ] dependencies
 - [ ] version
 - [ ] groupId
+
+#### Q40. The settings.xml file that provides the user-specific settings for Maven is contained in which directory by default?
+- [ ] `${maven.home}/${user.name}/settings.xml`
+- [x] `${user.home}/.m2/settings.xml`
+- [ ] `${maven.home}/conf/settings.xml`
+- [ ] `${user.home}/maven/settings.xml`
+
+#### Q41. Suppose you are using Maven in a corporate environment and, to save bandwidth, you want to prevent the need for large numbers of developers to download the same dependency from the internet. What do you do to limit this?
+- [x] Create an internal corporate repository to store copies of the necessary artifacts.
+- [ ] It is not possible to do this.
+- [ ] When defining the dependency, set the scope to provided.
+- [ ] Each developer should define the dependency in the POM file in the local copy of the project.
+
+#### Q42. In multimodule projects, what do child POMs inherit from the parent POM?
+- [x] all of these answers
+- [ ] dependencies
+- [ ] groupId
+- [ ] version
+
+#### Q43. Below is a report generated for a multimodule project with the Checkstyle Plugin. Why might the highlighted links to the two child projects _not_ work?
+
+![q43](q43.png)
+
+- [ ] The Checkstyle Plugin does not work on child modules.
+- [ ] Each Checkstyle report is in the target/site folder of the respective module.
+- [ ] All links in Checkstyle reports must be specified in the plugin definition.
+- [ ] Checkstyle reports for child modules have to be behind a firewall.
+
+#### Q44. Which build plugin allows you to create a "fat" JAR file that contains all of the dependencies in the final JAR file?
+- [ ] Fatjar
+- [x] Shade
+- [ ] Dependency
+- [ ] Package
