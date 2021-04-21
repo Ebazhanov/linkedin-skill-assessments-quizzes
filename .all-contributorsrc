@@ -3222,6 +3222,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "fmedv",
+      "name": "Frane Medvidović",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28409749?v=4",
+      "profile": "https://github.com/fmedv",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
