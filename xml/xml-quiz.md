@@ -197,7 +197,7 @@
 #### Q23. Which type of DTD declaration is this code an example of? `<!DOCTYPE abc SYSTEM "file/file.dtd">`
 - [ ] Linked
 - [ ] Internal
-- [ ] External
+- [x] External
 - [ ] Structured
 
 #### Q24. The purpose of an XML schema is to define the building blocks of an XML document. Which option best describes the building blocks of an XML document?
@@ -210,7 +210,7 @@
 - [ ] Frameset
 - [ ] Transitional
 - [ ] Basic
-- [ ] Strict
+- [x] Strict
 
 #### Q26. You are working with the following XML code snippet. You have this line in your XSLT code `xsl:value-of-select="//car/make"/>`. What does it display?
 
@@ -228,7 +228,7 @@
 - [ ] Cadillac
 - [ ] Cadillac Escalade
 - [ ] Cadillac Escalade 20000
-- [ ] Cadillac Escalade $20,000
+- [x] Cadillac Escalade $20,000
 
 #### Q27. You need to display the list of cars in the code snippet below in a column format, with a counter column for each row. Which XPath function do you use for the counter?
 
@@ -334,7 +334,7 @@
 ```
 
 - [ ] `/car[price>20000]/make/model`
-- [ ] `/car[price>=20000 and @year>=2009]/make/model`
+- [x] `/car[price>=20000 and @year>=2009]/make/model`
 - [ ] `//car[price>=20000 and @year>2008]/model`
 - [ ] `/cars/car[price>=20000 and year>2008]/model`
 
@@ -358,7 +358,7 @@
 </cars>
 ```
 
-- [ ] `<xsl:sort select="make" />`
+- [x] `<xsl:sort select="make" />`
 - [ ] `<xsl:sort select="model" />`
 - [ ] `<xsl:sort select="car" />`
 - [ ] `<xsl:sort select="price" />`
@@ -368,7 +368,7 @@
 - [ ] `/* */`
 - [ ] `<!-- -->`
 - [ ] `//`
-- [ ] `(: :)`
+- [x] `(: :)`
 
 #### Q35. Which DOM node type may NOT have the EntityReference node type as one of its child nodes?
 
@@ -394,6 +394,6 @@
 #### Q38. XML is a markup language, not a programming language. What makes XML not qualify to be a programming language?
 
 - [ ] XML is too flexible and does not have enough reserved keywords.
-- [ ] XML contains only data and not any processing instructions.
+- [x] XML contains only data and not any processing instructions.
 - [ ] XML does not perform any computation or algorithms.
 - [ ] XML does not have specialized syntax rules.
