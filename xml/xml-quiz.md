@@ -203,7 +203,7 @@
 #### Q24. The purpose of an XML schema is to define the building blocks of an XML document. Which option best describes the building blocks of an XML document?
 - [ ] Header files, function declarations, global variables with their data types, and system library folder location.
 - [ ] Namespace declaration, processor type, markup references, and encoding specification.
-- [ ] The document's elements and attributes, their data types and default values, and the number and order of child elements.
+- [x] The document's elements and attributes, their data types and default values, and the number and order of child elements.
 - [ ] XML entity definitions, XSLT and cascading style sheets, DOM specification, and CDATA assignments.
 
 #### Q25. An XHTML document type definition (DTD) describes the allowed syntax and grammar of XHTML markup. Which is not one of the formal DTDs used in XHTML 1.0?
@@ -241,7 +241,7 @@
 ```
 - [ ] `format-number()`
 - [ ] `id()`
-- [ ] `count()`
+- [x] `count()`
 - [ ] `position()`
 
 #### Q28. You are working with this XML code snippet from the XML document cars.xml. You need to return the information about the cars built after the year 2000, as an ordered list, starting with the most recent. What does your XQuery look like?
@@ -293,7 +293,7 @@
 }
 </ul>
 ```
-- [ ] D
+- [x] D
 
 ```xquery
 <ol>
@@ -310,12 +310,12 @@
 
 - [ ] `4 (DONE)`
 - [ ] `3 (LOADING)`
-- [ ] `1 (PROCESSING)`
+- [x] `1 (PROCESSING)`
 - [ ] `0 (UNSENT)`
 
 #### Q30. You are working with an XML document that uses an XML schema. How can you extend the document with elements NOT specified by the schema?
 
-- [ ] Use the `<any>` element.
+- [x] Use the `<any>` element.
 - [ ] Use the `<redefine>` element.
 - [ ] Use `<xs:extension>`.
 - [ ] Specify the new elements in the schema.
@@ -373,7 +373,7 @@
 #### Q35. Which DOM node type may NOT have the EntityReference node type as one of its child nodes?
 
 - [ ] Element
-- [ ] Document
+- [x] Document
 - [ ] EntityReference
 - [ ] DocumentFragment
 
@@ -388,7 +388,7 @@
 
 - [ ] `<xsl:namespace>`
 - [ ] any valid element
-- [ ] root element
+- [x] root element
 - [ ] top-level element in the corresponding namespace
 
 #### Q38. XML is a markup language, not a programming language. What makes XML not qualify to be a programming language?
