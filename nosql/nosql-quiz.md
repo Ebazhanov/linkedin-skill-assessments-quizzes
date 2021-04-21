@@ -189,7 +189,7 @@
 - [ ] query systems
 - [x] storage systems
 
-#### Q28. Your query to verify that your Redis key is configured to support expiring user information on a efined interval returns - - [ ] What does this value indicate?
+#### Q28. Your query to verify that your Redis key is configured to support expiring user information on a defined interval returns -2, What does this value indicate?
 
 - [ ] The queried key value expired in the last two secodns.
 - [ ] The queried key value exists, but has no associated expire value.
@@ -341,7 +341,7 @@
 - [ ] The global secondary indexes in DynamoDB are consistent, and are not guaranteed to return correct results.
 - [ ] The global secondary indexes in DynamoDB are transactionally consistent, and are guaranteed to return correct results.
 - [ ] The global secondary indexes in DynamoDB are partially consistent, and are not guaranteed to return correct results.
-- [ ] The global secondary indexes in DynamoDB are eventually consistent, and are not guaranteed to return correct results.
+- [x] The global secondary indexes in DynamoDB are eventually consistent, and are not guaranteed to return correct results.
 
 #### Q50. Which command do you use to add a value to a Redis stream named mystream?
 
@@ -349,3 +349,12 @@
 - [ ] UPDATE mystream \* sensor-id 1234 temperature 19.8 1518951480106-3
 - [x] XADD mystream \* sensor-id 1234 temperature 9.8 1518951480106-0
 - [ ] INSERT mystream \* sensor-d 1234 temperature 19.8 15181480106-2
+
+#### Q51. Which code example completes this statement and creates an index for a MongoDB object named restaurants, sorted ascending by the field name?
+```
+var indexCollection = function(db) {return co(function*() {...});};
+```
+- [ ] `const results = yield db.table('restaurants').createIndex({"name": 1}, null); return results;`
+- [ ] `const results = yield db.collection('restaurants').createIndex({"name": 0}, null); return results;`
+- [x] `const results = yield db.collection('restaurants').createIndex({"name": 1}, null); return results;`
+- [ ] `const results = yield db.table('restaurants').createIndex({"name": 0}, null); return results;`
