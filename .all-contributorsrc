@@ -3232,6 +3232,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "cixtor",
+      "name": "Yorman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1933999?v=4",
+      "profile": "https://cixtor.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
