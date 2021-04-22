@@ -3242,6 +3242,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "billpwchan",
+      "name": "Bill Chan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25129943?v=4",
+      "profile": "https://www.billpwchan.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
