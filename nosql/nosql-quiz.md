@@ -343,6 +343,8 @@
 - [ ] The global secondary indexes in DynamoDB are partially consistent, and are not guaranteed to return correct results.
 - [x] The global secondary indexes in DynamoDB are eventually consistent, and are not guaranteed to return correct results.
 
+[reference link:](https://stackoverflow.com/questions/35414372/dynamodb-consistent-reads-for-global-secondary-index)
+
 #### Q50. Which command do you use to add a value to a Redis stream named mystream?
 
 - [ ] ADD mystream \* sensor-id 1234 temperature 19.8 1518951480106-1
