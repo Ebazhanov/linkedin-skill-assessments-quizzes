@@ -400,17 +400,10 @@
 - [ ] It lists all actors for each use case.
 - [ ] It minimizes the number of actors required.
 
-#### Q54. How do object behaviors and attributes differ?
-
-- [ ] Attributes apply only to a specified object; behaviors apply to other linked objects.
-- [ ] Behaviors are vector quantities; attributes are scalars.
-- [ ] Attributes describe a state; behaviors describe a change.
-- [ ] Behaviors describe dynamic properties; attributes are static.
-
 #### Q54. How do object behaviour and attributes differ?
 
 - [ ] Behaviour describe dynamic properties; attributes are static.
-- [x] Attributes describ a state; behaviours describe a change.
+- [x] Attributes describe a state; behaviours describe a change.
 - [ ] Attributes apply only to a specified object; behaviour apply to other linked objects.
 - [ ] Behaviours are vector quantities; attributes are scalars.
 
@@ -427,3 +420,9 @@
 - [x] to define a custom implementation of an inherited member
 - [ ] to define a method that must be implemented in a superclass only
 - [ ] to define a class that can be inherited from
+
+#### Q57. What is a copy constructor?
+- [x] It is a unique constructor for creating a new object as a copy of an object that already exists. There will always be only one copy constructor that can be either defined by the user or the system.
+- [] It is a constructor that duplicates itself when requested on demand.
+- [] It is a common constructor for preventing the creation of a new object as a copy of an object that alreayd exists. There will always be multiple standard constructors that can be either defined by the user or the system.
+- [] It is a constructor that duplicates itself on its own, based on memory available.
