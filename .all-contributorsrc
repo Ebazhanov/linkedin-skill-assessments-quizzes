@@ -3252,6 +3252,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "PratikLomte",
+      "name": "Pratik Lomte",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66465662?v=4",
+      "profile": "http://pratiklomte1412.pythonanywhere.com/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
