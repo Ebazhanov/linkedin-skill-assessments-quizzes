@@ -277,3 +277,32 @@ char *string[20] = { "one", "two", "three"};
 - [x] (\*player).name
 - [ ] \*player.name
 - [ ] player.\*name
+
+#### Q26. Which program will compile and run without errors?
+- [ ] 
+  ```c
+  main() {
+      for(i=0; i<10; i++) ;
+  }
+  ```
+- [x] 
+  ```c
+  main() {
+      int i=0;
+      for(; i<10; i++) ;
+  }
+  ```
+- [ ] 
+  ```c
+  main() {
+      int i;
+      for(i=0; i<j; i++) ;
+  }
+  ```
+- [ ] 
+  ```c
+  main() {
+      int i;
+      for (i= 10; i<10; i++)
+  }
+  ```
