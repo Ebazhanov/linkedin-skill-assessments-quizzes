@@ -1,9 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-335-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-336-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use https://www.grammarly.com/ for online grammar checker when you contribute!
@@ -529,6 +527,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/fmedv"><img src="https://avatars.githubusercontent.com/u/28409749?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Frane Medvidović</b></sub></a><br /><a href="#design-fmedv" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=fmedv" title="Code">💻</a></td>
     <td align="center"><a href="https://cixtor.com"><img src="https://avatars.githubusercontent.com/u/1933999?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yorman</b></sub></a><br /><a href="#design-cixtor" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=cixtor" title="Code">💻</a></td>
     <td align="center"><a href="https://www.billpwchan.com"><img src="https://avatars.githubusercontent.com/u/25129943?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bill Chan</b></sub></a><br /><a href="#design-billpwchan" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=billpwchan" title="Code">💻</a></td>
+    <td align="center"><a href="http://pratiklomte1412.pythonanywhere.com/"><img src="https://avatars.githubusercontent.com/u/66465662?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pratik Lomte</b></sub></a><br /><a href="#design-PratikLomte" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=PratikLomte" title="Code">💻</a></td>
   </tr>
 </table>
 
