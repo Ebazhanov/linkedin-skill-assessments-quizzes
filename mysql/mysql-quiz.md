@@ -653,11 +653,11 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [ ] all tables, columns, data types, indexes and their relationships
 - [ ] a list of entities, their relationship, and constraints
 - [ ] all tables and their names, which are needed to implement the logical model
-- [ ] a list of entities, their relationship, constraints, data types, and cardinalities
+- [ X] a list of entities, their relationship, constraints, data types, and cardinalities
 
 #### Q71. Which choice is _not_ a valid mode for a stored procedure parameter?
 
-- [ ] INOUT
+- [X] INOUT
 - [ ] IN
 - [ ] OUT
 - [ ] IN OUT
@@ -666,7 +666,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 - [ ] The temporary table will be dropped when the database is restarted.
 - [ ] Temporary tables can be shared among clients, which makes them more usable in group development environments.
-- [ ] The temporary table will be dropped as soon as your session disconnects.
+- [X] The temporary table will be dropped as soon as your session disconnects.
 - [ ] Creating a temporary table does not require any special privileges.
 
 #### Q73. Which is a valid constructor for a class named User?
@@ -681,12 +681,12 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [ ] 2
 - [ ] 4
 - [ ] 8
-- [ ] 16
+- [ X] 16
 
 #### Q75. Which command will return a list of triggers in the current database?
 
 - [ ] DISPLAY TRIGGERS;
-- [ ] SHOW TRIGGERS;
+- [X] SHOW TRIGGERS;
 - [ ] SELECT ALL TRIGGERS;
 - [ ] SELECT \* FROM information_schema.triggers;
 
@@ -694,12 +694,12 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 - [ ] TIMESTAMP values require more bytes for storage than DATETIME values.
 - [ ] TIMESTAMP is stored without timezone, and DATETIME is stored in UTC values.
-- [ ] TIMESTAMP and DATETIME are both stored without time zone.
+- [x] TIMESTAMP and DATETIME are both stored without time zone.
 - [ ] TIMESTAMP is stored in UTC values, and DATETIME is stored in without time zone.
 
 #### Q76. What is the equivalent of mysqladmin reload command?
 
 - [ ] mysqladmind flush-threads
 - [ ] mysqladmind flush-tables
-- [ ] mysqladmind flush-privileges
+- [X] mysqladmind flush-privileges
 - [ ] mysqladmind flush-all
