@@ -897,3 +897,10 @@ def calculate_sales_tax(subtotal):
 - [x] Lists are mutable, meaning you can change the data that is inside them at any time. Tuples are immutable, meaning you cannot change the data that is inside them once you have created the tuple.
 - [ ] Lists are immutable, meaning you cannot change the data that is inside them once you have created the list. Tuples are mutable, meaning you can change the data that is inside them at any time.
 - [ ] Lists can hold several data types inside them at once, but tuples can only hold the same data type if multiple elements are present.
+
+#### Q76. Which statement about static method is true?
+
+- [ ] Static methods can be bound to either a class or an instance of a class.
+- [ ] Static methods can access and modify the state of a class or an instance of a class.
+- [x] Static methods serve mostly as utility or helper methods, since they cannot access or modify a class's state.
+- [ ] Static methods are called static because they always return None.
