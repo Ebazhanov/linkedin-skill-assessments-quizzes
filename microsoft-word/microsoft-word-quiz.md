@@ -485,7 +485,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 
 #### Q60. You want to set a wider inside margin to accommodate binding a document where pages are printed on both sides. Which option should you choose in the Page Setup diealog box?
 
-- [ ] Book Fold.
+- [x] Book Fold.
 - [ ] Mirror Margins
 - [ ] Duplex
 - [ ] Difference Odd & Even Pages
