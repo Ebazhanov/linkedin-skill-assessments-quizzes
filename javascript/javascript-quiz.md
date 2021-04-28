@@ -853,3 +853,43 @@ useEffect(() => {
 - [ ] componentDidUpdate
 - [ ] render
 - [x] componentDidMount
+
+#### Q80. What is the output of this code?
+
+```javascript
+var obj;
+console.log(obj);
+```
+
+- [ ] ReferenceError: obj is not defined
+- [ ] {}
+- [x] undefined
+- [ ] null
+
+#### Q81. What will be logged to the console?
+
+```javascript
+var a = ['dog', 'cat', 'hen'];
+a[100] = 'fox';
+console.log(a.length);
+```
+
+- [ ] 4
+- [ ] 100
+- [x] 101
+- [ ] 3
+
+#### Q82. How would you use the TaxCalculator to determine the amount of tax on \$50?
+
+```javascript
+class TaxCalculator {
+  static calculate(total) {
+    return total * 0.05;
+  }
+}
+```
+
+- [ ] calculate(50);
+- [ ] new TaxCalculator().calculate(\$50);
+- [x] TaxCalculator.calculate(50);
+- [ ] new TaxCalculator().calculate(50);
