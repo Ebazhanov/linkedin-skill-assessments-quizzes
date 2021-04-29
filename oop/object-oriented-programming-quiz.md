@@ -424,5 +424,5 @@
 #### Q57. What is a copy constructor?
 - [x] It is a unique constructor for creating a new object as a copy of an object that already exists. There will always be only one copy constructor that can be either defined by the user or the system.
 - [ ] It is a constructor that duplicates itself when requested on demand.
-- [ ] It is a common constructor for preventing the creation of a new object as a copy of an object that alreayd exists. There will always be multiple standard constructors that can be either defined by the user or the system.
+- [ ] It is a common constructor for preventing the creation of a new object as a copy of an object that already exists. There will always be multiple standard constructors that can be either defined by the user or the system.
 - [ ] It is a constructor that duplicates itself on its own, based on memory available.
