@@ -25,21 +25,21 @@
 - [ ] Battery optimization is turned on on the device.
 
 #### Q5. What is correct set of classes needed to implement a RecyclerView of items that displays a list of widgets vertically?
-- [ ]
+- [ ] 
 ```
       RecycleView
       RecyclerView.Adapter
       RecyclerView.ViewHolder<T extends BaseViewHolder>
       LinearLayoutManager
 ```
-- [ ]
+- [ ] 
 ```
       RecycleView
       RecyclerView.Adapter
       RecyclerView.ViewHolder
       LinearLayoutManager
 ```
-- [x]
+- [x] 
 ```
       RecycleView
       RecyclerView.Adapter<VH extends ViewHolder>
@@ -54,13 +54,13 @@
 - [ ] Process:In the foreground;Activity:Is paused
 
 #### Q7. You have created a NextActivity class that relies on a string containing some data that pass inside the intent Which code snippet allows you to launch your activity?
-- [ ]
+- [ ] 
 ```
         Intent(this, NextActivity::class.java).also { intent ->
             startActivity(intent)
         }
 ```
-- [ ]
+- [ ] 
 ```
         Intent(this, NextActivity::class.java).apply {
             put(EXTRA_NEXT, "some data")
@@ -68,7 +68,7 @@
             activityStart(intent)
         }
 ```
-- [x]
+- [x] 
 ```
         Intent(this, NextActivity::class.java).apply {
             putExtra(EXTRA_NEXT, "some data")
@@ -76,7 +76,7 @@
             startActivity(intent)
         }
 ```
-- [ ]
+- [ ] 
 ```
         Intent(this, NextActivity::class.java).apply {
             put(EXTRA_NEXT, "some data")
@@ -98,7 +98,7 @@
 - [ ] to throw a run-time error if a class, methos, or field with this annotation is accessed improperly
 
 #### Q10. How would you specify in your build.gradle file that your app required at least API level 21 to run, but that it can be tested on API level 28?
-- [ ]
+- [ ] 
 ```
       defaultConfig {
         ...
@@ -106,7 +106,7 @@
         targetApiVersion 28
       }
 ```
-- [ ]
+- [ ] 
 ```
       defaultConfig {
         ...
@@ -114,7 +114,7 @@
         testSdkVersion 28
       }
 ```
-- [ ]
+- [ ] 
 ```
       defaultConfig {
         ...
@@ -122,7 +122,7 @@
         testApiVersion 28
       }
 ```
-- [x]
+- [x] 
 ```
       defaultConfig {
         ...
@@ -135,7 +135,7 @@
 - [ ] when calling finish()in the parent activity
 - [ ] when placing an app into the background by sitching to another app
 - [ ] When onStop() is called in the target activity
-- [] when calling finish() in the target activity
+- [ ] when calling finish() in the target activity
 
 #### Q12. You need to remove an Event based on it;s id from your API, Which code snippet defines that request in Retrofit?
 - [ ] @DELETE("events)
@@ -213,42 +213,46 @@
 
 #### Q22. Which drawable defination allows you to achieve the shape below?
 ![img](image/shape.png)
-- [ ]
-```xml
-      <shape xmlns:android="http://schemas.android.com/apk/res/android"
-          android:shape="oval">
-          <stroke
-              android:width="4dp"
-              android:color="@android:color/white" />
-          <solid android:color="@android:color/black" />
-      </shape>
+- [ ] 
 ```
-- [ ]
-```xml
-      <oval xmlns:android="http://schemas.android.com/apk/res/android">
-          <stroke android:width="4dp" android:color="@android:color/black"/>
-          <solid android:color="@android:color/white"/>
-      </oval>
+    xml
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="oval">
+        <stroke
+            android:width="4dp"
+	    android:color="@android:color/white" />
+	<solid android:color="@android:color/black" />
+    </shape>
 ```
-- [x]
-```xml
-      <shape xmlns:android="http://schemas.android.com/apk/res/android"
-          android:shape="oval">
-          <stroke
-              android:width="4dp"
-              android:color="@android:color/black" />
-          <solid android:color="@android:color/white" />
-      </shape>
+- [ ] 
 ```
-- [ ]
-```xml
-      <shape xmlns:android="http://schemas.android.com/apk/res/android"
-          android:shape="oval">
-          <stroke
-              android:width="4dp"
-              android:color="@android:color/white" />
-          <solid android:color="@android:color/white" />
-      </shape>
+    xml
+    <oval xmlns:android="http://schemas.android.com/apk/res/android">
+        <stroke android:width="4dp" android:color="@android:color/black"/>
+        <solid android:color="@android:color/white"/>
+    </oval>
+```
+- [x] 
+```
+    xml
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="oval">
+        <stroke
+            android:width="4dp"
+            android:color="@android:color/black" />
+        <solid android:color="@android:color/white" />
+    </shape>
+```
+- [ ] 
+```
+    xml
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="oval">
+        <stroke
+            android:width="4dp"
+            android:color="@android:color/white" />
+        <solid android:color="@android:color/white" />
+    </shape>
 ```
 
 #### Q23. To persist a small collection of key-value data, what should you use?
@@ -293,21 +297,22 @@
 - [ ] to monitor the network state of the devices so that you don't attempt to make network calls when the network is unavailable
 
 #### Q29. Which image best corresponds to the following `LinearLayout`?
-```xml
-<LinearLayout
-	android:layout_width="match_parent"
+```
+    xml
+    <LinearLayout
+        android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	android:orientation="horizontal"
 	android:gravity="center">
 	<Button
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:text="Button" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
 	<Button
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:text="Button" />
-</LinearLayout>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+        </LinearLayout>
 ```
 - [ ] A
       ![img](image/00.jpeg)
@@ -410,8 +415,9 @@ buildTypes {
 #### Q37. Which code snippet would achieve the layout displayed below?
 ![img](image/04.jpeg)
 - [ ]
-```xml
-<androidx.constraintlayout.widget.ConstraintLayout
+```
+xml
+    <androidx.constraintlayout.widget.ConstraintLayout
 	...>
 
 	<TextView
@@ -426,11 +432,12 @@ buildTypes {
 		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-- [x]
-```xml
-<androidx.constraintlayout.widget.ConstraintLayout
+- [x] 
+```
+xml
+    <androidx.constraintlayout.widget.ConstraintLayout
 	...>
 
 	<TextView
@@ -445,11 +452,12 @@ buildTypes {
 		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-- [ ]
-```xml
-<androidx.constraintlayout.widget.ConstraintLayout
+- [ ] 
+```
+xml
+    <androidx.constraintlayout.widget.ConstraintLayout
 	...>
 
 	<TextView
@@ -466,11 +474,12 @@ buildTypes {
 		app:layout_constraintStart_toStartOf="parent"
 		app:layout_constraintTop_toTopOf="parent" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-- [ ]
-```xml
-<androidx.constraintlayout.widget.ConstraintLayout
+- [ ] 
+```
+xml
+    <androidx.constraintlayout.widget.ConstraintLayout
 	...>
 
 	<TextView
@@ -496,20 +505,23 @@ buildTypes {
 - [x] main
 
 #### Q39. Which definition will prevent other apps from accessing your `Activity` class via an `intent`?
-- [x]
-```xml
+- [x] 
+```
+xml
 	<activity android:name=".ExampleActivity" />
 ```
-- [ ]
-```xml
+- [ ] 
+```
+xml
 	<activity android:name=".ExampleActivity">
 		<intent-filter>
 			<action android:name="android.intent.action.SEND" />
 		</intent-filter>
 	</activity>
 ```
-- [ ]
-```xml
+- [ ] 
+```
+xml
 	<activity android:name=".ExampleActivity">
 		<intent-filter>
 			<action android:name="android.intent.action.MAIN" />
@@ -517,8 +529,9 @@ buildTypes {
 		</intent-filter>
 	</activity>
 ```
-- [ ]
-```xml
+- [ ] 
+```
+xml
 	<activity android:name=".ExampleActivity">
 		<intent-filter>
 			<action android:name="android.intent.action.VIEW" />
@@ -566,8 +579,9 @@ buildTypes {
 
 #### Q46. Which drawable definition allows you to achieve the shape below?
 ![img](image/43.jpeg)
-- [ ]
-```xml
+- [ ] 
+```
+xml
 	<shape xmlns:android-"http://schemas.android.com/apk/res/android"
 	    android:shape-"oval">
 	    <gradient
@@ -576,8 +590,9 @@ buildTypes {
                android:angle-"45"/>
 	</shape>
 ```
-- [ ]
-```xml
+- [ ] 
+```
+xml
 	<rectangle xmlns:android-"http://schemas.android.com/apk/res/android">
 	   <gradient
 	      android:startColor-"@android:color/white"
@@ -585,8 +600,9 @@ buildTypes {
 	      android:angle-"135"/>
 	</rectangle>
 ```
-- [ ]
-```xml
+- [ ] 
+```
+xml
 	<shape xmlns:android-"http://schemas.android.com/apk/res/android"
 	   android:shape-"rectangle">
 	   <gradient
@@ -595,8 +611,9 @@ buildTypes {
 	      android:angle-"135"/>
 	</shape>
 ```
-- [ ]
-```xml
+- [ ] 
+```
+xml
 	<shape xmlns:android-"http://schemas.android.com/apk/res/android"
 	   android:shape-"rectangle">
 	   <gradient
@@ -688,7 +705,7 @@ android {
     <dimen name="spacing_large">12dp</dimen>
 </resources>
 ```
-- [ ]
+- [ ] 
 ```
 <ImageView
    android:id=@+id/image_map_pin"
@@ -696,7 +713,7 @@ android {
    android:layout_heignt="wrap_content"
    android:src=@drawable/map_pin />
 ```
-- [ ]
+- [ ] 
 ```<ImageView
    android:id=@+id/image_map_pin"
    android:layout_width="wrap_content"
@@ -704,7 +721,7 @@ android {
    androi:layout_botttom="@dimen/spacing_medium"
    android:src=@drawable/map_pin />
 ```
-- [ ]
+- [ ] 
 ```
 <ImageView
    android:id=@+id/image_map_pin"
@@ -713,7 +730,7 @@ android {
    android:layout_marginBottom="@resources/spacing_medium"
    android:src=@drawable/map_pin />
 ```
-- [ ]
+- [ ] 
 ```
 <ImageView
    android:id=@+id/image_map_pin"
