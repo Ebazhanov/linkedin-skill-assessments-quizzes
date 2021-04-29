@@ -184,7 +184,7 @@
 - [ ] Composite, Builder, Factory Method, Prototype, and Singleton.
 - [x] Abstract Factory, Builder, Factory Method, Prototype, and Singleton.
 
-#### Q25. In multilevel inheritence, one class inherits how many classes?
+#### Q25. In multilevel inheritance, one class inherits how many classes?
 
 - [x] one class only
 - [ ] two classes
