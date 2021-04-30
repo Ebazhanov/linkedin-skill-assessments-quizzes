@@ -27,7 +27,7 @@ class Airplane(private val name: String) : Aircraft() {
 
 - [ ] Classes are initialized in the same order they are in the file, therefore, Aircraft should appear after Airplane
 - [ ] The code needs to pass the parameter to the base class's primary constructor. Since it does not, it receives a null
-- [ ] Abstract function always returns null
+- [x] Abstract function always returns null
 - [ ] A superclass is initialized before its subclass. Therefore, name has not been set before it is rendered
 
 #### Q3. Kotlin interfaces ad abstract classes are very similar. What is one thing abstract class can do that interfaces cannot?
