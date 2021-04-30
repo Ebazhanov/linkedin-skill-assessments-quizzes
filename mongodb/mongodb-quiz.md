@@ -105,7 +105,7 @@
 - [ ] It holds a backup copy of the database.
 - [ ] It reboots the failed server.
 
-#### Q16. You would like to know how many types of items you have in each category. Which query does this?
+#### Q16. You want to know how many types of items you have in each category. Which query does this?
 
 - [ ] `db.product.group({_id: "$category", count: {$sum:1}})`
 - [ ] `db.product.aggregate($sum: {_id: "$category", count: {$group:1}})`
@@ -119,7 +119,7 @@
 - [ ] max
 - [ ] skip
 
-#### Q18. We have a collection named restaurants with the geographical information stored in the location property, how do you create a geospatial index on it?
+#### Q18. You have a collection named restaurants with the geographical information stored in the location property, how do you create a geospatial index on it?
 
 - [x] `db.restaurants.CreateIndex({location: "2dsphere"})`
 - [ ] `db.restaurants.geospatial({location: "2dsphere"})`
@@ -259,7 +259,7 @@
 - [ ] `db.vehicle.stats(true)`
 - [ ] `db.vehicle.stats("kb")`
 
-#### Q38. You'd like to modify an existing index. What is the best way to do this?
+#### Q38. You want to modify an existing index. What is the best way to do this?
 
 - [ ] Use the `reIndex()` command to modify the index.
 - [x] Delete the original index and create a new index.
@@ -433,3 +433,23 @@
 - [ ] `The oplog is capped collection and can't run out of memory`
 - [ ] `The MongoDB instance will fail`
 - [ ] `The oplog will stop recording logging information`
+
+#### Q63. MongoDB ships with a variety of files. Which file runs the MongoDB shell?
+
+- [X] mongo
+
+- [ ] mongo-s
+
+- [ ] shell
+
+- [ ] mongo-shell
+
+#### Q64. How can you view the execution performance statistics for a query?
+
+- [ ] `db.performance.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id:{city:"$city"}, number: {$sum: 1}}}, {$sort : {number: -1}}])`
+
+- [ ] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number:{$sum:1}}}, {$sort: {number:-1}}]).explain("executionStats")`
+
+- [ ] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group:{_id: {city: "$city"}, number: {$sum: 1}}}, {$sort: {number: -1}}]).explain()`
+
+- [ ] `db.members.aggregate([ {$match: {gender: """Female"""}}, {$group: {_id: {city: """$city"""}, number: {$sum:1}}}, {$sort: {number: -1}}]).number()`
