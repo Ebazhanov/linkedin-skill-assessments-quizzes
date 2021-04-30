@@ -655,7 +655,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [ ] all tables and their names, which are needed to implement the logical model
 - [ ] a list of entities, their relationship, constraints, data types, and cardinalities
 
-#### Q71. Which choice is _not_ a valid mode for a stored procedure parameter?
+#### Q71. Which choice is _not_ a valid model for a stored procedure parameter?
 
 - [X] INOUT
 - [ ] IN
