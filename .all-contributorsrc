@@ -3290,6 +3290,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "snakehead007",
+      "name": "Karel De Smet",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10829524?v=4",
+      "profile": "http://karel.be",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
