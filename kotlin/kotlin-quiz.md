@@ -514,3 +514,84 @@ class Record{
 - [ ] const makes COLOR faster, but not compatible with Java. Without const, SIZE is still compatible with Java
 - [ ] Both are immutable, but the use of the keyword const makes COLOR faster and mroe space efficient than SIZE
 
+#### Q45. Why does not this code snippet compile?
+
+```java
+class Cat (name: String) {
+  fun greet() { println("Hello ${this.name}") }
+}
+
+fun main(){
+  val thunderCat = Cat("ThunderCat")
+  thunderCat.greet()
+}
+```
+
+- [ ] Because name is a class parameter, not a property-it is unresolved ```main()```.
+- [ ] In order to create an instance of a class, you need the keyword ```new```
+- [ ] The reference to name needs to be scoped to the class, so it should be ```this.name```
+- [ ] Classes cannot be immutable. You need to change var to val
+
+#### Q46. The code below shows a typical way to show both index and value in many languages, including Kotlin. Which line of code shows a way to get both index and value more idiomatically?
+
+```java
+var ndx = 0;
+for (value in 1..5){
+  println("$ndx - $value")
+  ndx++
+}
+```
+
+- [ ] ```for( (ndx, value) in (1..20).withIndex() ){```
+- [ ] ```for( (ndx, value) in (1..20).pair() ){```
+- [ ] ```for( Pair(ndx, value) in 1..20 ){```
+- [ ] ```for( (ndx, value) in *(1..20) ){```
+
+#### Q47. The Kotlin .. operator can be written as which function?
+
+- [ ] a.from(b)
+- [ ] a.range(b)
+- [ ] a.rangeTo(b)
+- [ ] a.to(b)
+
+#### Q48. How can you retrieve the value of the property codeName without referring to it by name or destructuring?
+
+```java
+data class Project(var codeName: String, var version: String)
+fun main(){
+  val proj = Project("Chilli Pepper", "2.1.0")
+}
+```
+
+- [ ] ```proj.0```
+- [ ] ```proj[0]```
+- [ ] ```proj[1]```
+- [ ] ```proj.component1()```
+
+#### Q49. This function generates Fibonacci sequence. Which function is missing?
+
+```java
+fun fibonacci() = sequence {
+  var params = Pair(0, 1)
+  while (true) {
+    ___(params.first)
+    params = Pair(params.second, params.first + params.second)
+  }
+}
+```
+
+- [ ] with()
+- [ ] yield()
+- [ ] skip()
+- [ ] return()
+
+#### Q50. In this code snippet, why does the compiler not allow the value of y to change?
+
+```java
+for(y in 1..100) y+=2 
+```
+
+- [ ] y must be declared with var to be mutable
+- [ ] y is an implicitly immutable value
+- [ ] y can change only in a while loop
+- [ ] In order to change y, it must be declared outside of the loop
