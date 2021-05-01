@@ -1041,7 +1041,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 #### Q68. What does this code?
 `<audio autoplay loop src="sound.mp3" type="audio/mpeg"></audio>`
-- [ ] When the **play** button is pressed, the browser playes the sounds over and over again until the user stops it.
+- [ ] When the **play** button is pressed, the browser plays the sounds over and over again until the user stops it.
 - [x] The browser plays the sound once automatically in the background. The user has no control over the sound.
 - [ ] The browser plays the sound automatically and continuously in the background. The user may stop the sound at any tune.
 - [ ] The browser plays the sound automatically and continuously in the background. The user has no control over the sound.
