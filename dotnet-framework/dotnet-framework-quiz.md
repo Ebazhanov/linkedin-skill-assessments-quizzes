@@ -108,7 +108,7 @@
 #### Q16. What is the Common Type System (CTS)?
 
 - [ ] the component of CLR in which .NET Framework provides support for several languages since it contains a type system that is common with all the languages
-- [ ] the component of CLI in which .NET Framework provides support for several languages since it contains a type system that is common with all the languages
+- [x] the component of CLI in which .NET Framework provides support for several languages since it contains a type system that is common with all the languages
 - [ ] the component of CLR that allows you to map the content of a file to the logical address of an application
 - [ ] the component of CLR that enables you to run multiple versions of an application or component and CLR on the same computer at the same time
 
