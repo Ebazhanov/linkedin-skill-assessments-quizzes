@@ -112,7 +112,9 @@
 - [ ] the component of CLR that allows you to map the content of a file to the logical address of an application
 - [ ] the component of CLR that enables you to run multiple versions of an application or component and CLR on the same computer at the same time
 
-#### Q7.Assuming y is a value type, which is an example of boxing?
+[reference link](https://en.wikipedia.org/wiki/Common_Type_System#:~:text=In%20Microsoft's%20.,languages%20to%20easily%20share%20information.)
+
+#### Q17.Assuming y is a value type, which is an example of boxing?
 
 - [ ] y = (int)thisObject;
 - [ ] int y = 3;
@@ -209,8 +211,8 @@
 - [ ] Invoke the GetCurrentApplicationCallbackUri method and construct an HTTPS request URI.
 - [ ] Invoke the AuthenticateAsync and GetCurrentApplicationCallbackUri methods.
 - [ ] Invoke the AuthenticateAsync method and construct an HTTPS request URI. //The requestUri parameter must be a HTTPS address and
-                                                                              //    You call the AuthenticateAsync method to 
-                                                                              //  connect to the online identity provider and get an access token
+      // You call the AuthenticateAsync method to
+      // connect to the online identity provider and get an access token
 
 #### Q31.You want to create a class of which only a single instance can exist. Which design pattern best fits this objective?
 
@@ -261,7 +263,7 @@
 - [ ] CIL is used to convert a value type to an object type.
 - [ ] CIL is a compiled code library that Microsoft developed as an open specification. Developers use it for security, versioning, and deployment purposes.
 
-#### Q38. _______ pattern works as a bridge between two incompatible interfaces? // wording in question is maybe changed?
+#### Q38. **\_\_\_** pattern works as a bridge between two incompatible interfaces? // wording in question is maybe changed?
 
 - [x] Adapter
 - [ ] Bridge
