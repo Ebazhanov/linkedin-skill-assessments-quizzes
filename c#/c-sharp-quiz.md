@@ -346,12 +346,12 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [x] sealed class User
 - [ ] private sealed class User
 
-#### Q40. How would you write a delegeate named ResultCallback with an int parameter named responseCode?
+#### Q40. What is the correct syntax for a new generic list of strings named contacts? (similar to Q26)
 
-- [ ] `public delegate void ResultCallback<(int) responseCode>`;
-- [ ] `public delegate ResultCallback(int responseCode)`;
-- [x] `public delegate void ResultCallback(int responseCode)`;
-- [ ] `public void delegate ResultCallback<int responseCode>`;
+- [ ] var contacts = new List<string>();
+- [ ] var contacts = new List(string);
+- [ ] public List<string names> contacts = new List<string names>();
+- [ ] public List(string names) contacts = new List(string names);
 
 #### Q41. What is the difference between non-static and static classes?
 
