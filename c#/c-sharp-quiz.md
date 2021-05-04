@@ -346,6 +346,13 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [x] sealed class User
 - [ ] private sealed class User
 
+#### Q40. What is the correct syntax for a new generic list of strings named contacts? (similar to Q26)
+
+- [ ] var contacts = new List<string>();
+- [ ] var contacts = new List(string);
+- [ ] public List<string names> contacts = new List<string names>();
+- [ ] public List(string names) contacts = new List(string names);
+
 #### Q41. What is the difference between non-static and static classes?
 
 - [x] non-static classes need to be initialized before use, while static classes do not
