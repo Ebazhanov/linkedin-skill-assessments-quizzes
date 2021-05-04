@@ -346,13 +346,6 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [x] sealed class User
 - [ ] private sealed class User
 
-#### Q40. How would you write a delegeate named ResultCallback with an int parameter named responseCode?
-
-- [ ] `public delegate void ResultCallback<(int) responseCode>`;
-- [ ] `public delegate ResultCallback(int responseCode)`;
-- [x] `public delegate void ResultCallback(int responseCode)`;
-- [ ] `public void delegate ResultCallback<int responseCode>`;
-
 #### Q41. What is the difference between non-static and static classes?
 
 - [x] non-static classes need to be initialized before use, while static classes do not
