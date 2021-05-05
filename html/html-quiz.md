@@ -1118,3 +1118,53 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
   <caption>A table</caption>
 </table>
 ```
+
+#### Q72. Given the file and directory structure shown here, what is the correct element to place in file profit.html to link to info.html?
+
+![Image of footer](images/ss-7.png?raw=true)
+
+- [ ] ```<a href="../work/info.html">See Information </a>```
+- [X] ```<a href="../info.html">See Information </a>```
+- [ ] ```<a href="../../info.html">See Information </a>```
+- [ ] ```<a href="info.html">See Information </a>```
+
+#### Q73. When should you use the `<article>` element?
+
+- [ ] For blog posts and other social media items
+- [ ] For the main content area of your website
+- [ ] When the content stands alone as a unit, is suitable for syndication, or is reusable
+- [ ] To associate comments with a blog post
+
+#### Q74. Which list comprises three empty elements?
+
+- [ ]
+
+```HTML
+<area> 
+<embed> 
+<strong>
+```
+
+- [ ]
+
+```HTML
+<input> 
+<br> 
+<p>
+```
+
+- [ ]
+
+```HTML
+<link> 
+<meta> 
+<title>
+```
+
+- [ ]
+  
+```HTML
+<wbr> 
+<base> 
+<source>
+```
