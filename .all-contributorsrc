@@ -3337,6 +3337,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "danie007",
+      "name": "Daniel Selvan D",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50566479?v=4",
+      "profile": "https://github.com/danie007",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
