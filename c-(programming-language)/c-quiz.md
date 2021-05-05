@@ -1,6 +1,6 @@
 ## C (Programming Language) 
 
-##### Q1. Which Code saple will eventually cause the computer to run out of memory ?
+##### Q1. Which Code sample will eventually cause the computer to run out of memory ?
 - [x] 
   ```c
   while(1)
@@ -167,11 +167,11 @@ int main(){
 
 #### Q11. Using the Union declaration below, how many bytes of memory space will the data of this type occupy?
 ```c
-union Cars{
+union Cars {
     char make[20];
     char model[30];
     short year;
-}car;
+} car;
 ```
 - [ ] 32
 - [ ] 54
@@ -246,7 +246,7 @@ main(){
 
 #### Q22. What is the output of this program?
 ```c
-main(){
+main() {
     char c1='a' , c2='A';
     int i=c2-c1;
     printf("%d", i);
@@ -306,3 +306,13 @@ char *string[20] = { "one", "two", "three"};
       for (i= 10; i<10; i++)
   }
   ```
+
+#### Q27. What does this function call return?
+```c
+1 main() { float x = f1(10, 5); }
+2 float f1(int a, int b) { return (a/b); }
+```
+- [ ] 2 
+- [ ] 2.000000
+- [ ] a runtime error
+- [x] a compiler error
