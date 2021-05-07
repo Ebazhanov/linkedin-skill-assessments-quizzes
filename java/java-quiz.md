@@ -1061,3 +1061,25 @@ groucyButton.addActionListener(new ActionListener() {
 - [x] deciding if two instances of a class are equal
 - [ ] enabling HashMap to find matches faster
 - [ ] encrypting user passwords
+
+
+#### Q75. Which access modifier makes variables and methods visible only in the class where they are declared?
+
+- [ ] public
+- [ ] protected
+- [ ] nonmodifier
+- [x] private
+
+#### Q76. What type of variable can be assigned to only once?
+
+- [ ] private
+- [ ] non-static
+- [x] final
+- [ ] static
+
+#### Q77. How would you convert a String to an Int?
+
+- [ ] ```"21".intValue()```
+- [ ] ```String.toInt("21")```
+- [x] ```Integer.parseInt("21")```
+- [ ] ```String.valueOf("21")```

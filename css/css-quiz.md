@@ -992,3 +992,25 @@ a {color: red;}
 - [ ] `.element {cursor: hand;}`
 - [ ] `.element {cursor: move-hand;}`
 - [ ] `.element {cursor: pointer-hand;}`
+
+#### Q83. What is the effect of this style?
+
+```html
+background-position: 10% 50%;
+```
+
+- [ ] The background image is placed 10% from the left and 50% from the top of its container
+- [ ] The background image is placed 10% from the bottom and 50% from the left of its container
+- [ ] The background image is placed 10% from the right and 50% from the bottom of its container
+- [ ] The background image is placed 10% from the top and 50% from the left of its container
+
+#### Q84. How will the grid items display?
+
+```html
+grid-template-columns: 2fr 1fr;
+```
+
+- [ ] The first column is twice the height of the second column and will be as wide as the content
+- [ ] The first column is half the size of the container and the second column will absorb the remaining space
+- [ ] The first column is twice as wide as the second column and will fit proportionally within the grid container
+- [ ] The first column is twice the width and height of the second column, and will fit proportionally within the grid container

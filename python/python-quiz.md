@@ -904,3 +904,47 @@ def calculate_sales_tax(subtotal):
 - [ ] Static methods can access and modify the state of a class or an instance of a class.
 - [x] Static methods serve mostly as utility or helper methods, since they cannot access or modify a class's state.
 - [ ] Static methods are called static because they always return None.
+
+#### Q77. What does a generator return?
+
+- [ ] None
+- [ ] An iterable object
+- [ ] A linked list data structure from a non-empty list
+- [ ] All the keys of the given dictionary
+
+#### Q78. What is the difference between class attributes and instance attributes?
+
+- [ ] Instance attributes can be changed, but class attributes cannot be changed
+- [ ] Class attributes are shared by all instances of the class. Instance attributes may be unique to just that instance
+- [ ] There is no difference between class attributes and instance attributes
+- [ ] Class attributes belong just to the class, not to instance of that class. Instance attributes are shared among all instances of a class
+
+#### Q79. What is the correct syntax of creating an instance method?
+
+- [ ]
+
+```python
+def get_next_card():
+  # method body goes here
+```
+
+- [x]
+
+```python
+def get_next_card(self):
+  # method body goes here
+```
+
+- [ ]
+
+```python
+def self.get_next_card():
+  # method body goes here
+```
+
+- [ ]
+
+```python
+def self.get_next_card(self):
+  # method body goes here
+```
