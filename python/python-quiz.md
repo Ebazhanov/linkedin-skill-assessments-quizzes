@@ -626,7 +626,7 @@ def sum(a, b):
 
 #### Q45. What value would be returned by this check for equality?
 
-`5! = 6`
+`5 != 6`
 
 - [ ] `yes`
 - [ ] `False`
