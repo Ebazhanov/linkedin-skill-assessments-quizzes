@@ -681,7 +681,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [ ] 2
 - [ ] 4
 - [ ] 8
-- [ ] 16
+- [x] 16
 
 #### Q75. Which command will return a list of triggers in the current database?
 
