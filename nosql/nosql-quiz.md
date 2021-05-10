@@ -306,7 +306,7 @@
 - [ ] the amount of service calls
 - [ ] the number of minutes
 - [ ] the amount of service costs
-- [ ] the number of nines
+- [x] the number of nines
 
 #### Q45. You need to encrypt data at rest in DynamoDB. Which action do you take?
 
