@@ -3357,6 +3357,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "NiklasTiede",
+      "name": "Niklas Tiede",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56223902?v=4",
+      "profile": "http://the-coding-lab.com",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
