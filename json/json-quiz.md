@@ -553,10 +553,10 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] comma
 
 #### Q47. What character separates keys from values?
-- [ ] `:`
+- [x] `:`
 - [ ] `->`
 - [ ] `::`
-- [x] `.`
+- [ ] `.`
 
 #### Q48. If a string contains line breaks, what should you do?
 - [ ] Wrap line breaks in single quotation marks
@@ -594,12 +594,6 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] hashes, arrays, strings, numbers, booleans, null
 - [ ] arrays, objects, lists, strings, numbers, booleans
 - [x] objects, arrays, strings, numbers, booleans, null
-
-#### Q54. What character separates keys from values?
-- [ ] ->
-- [x] :
-- [ ] ::
-- [ ] .
 
 #### Q54. Which key format is valid JSON?
 - [ ] key: "value"
