@@ -327,7 +327,7 @@
 - [ ] Event Hub
 - [ ] Event Grid
 - [ ] Service Bus
-- [ ] Queue Storage
+- [x] Queue Storage
 
 #### Q45. In Azure Key Vault, you can manage access to your application secrets by setting permissions at any level except **\_\_**.
 
@@ -349,13 +349,13 @@
 #### Q47. The Kineteco Inventory App uses an Azure SQL Database instance to store application and store inventory data. Store employees report occasional periods where queries in the web interface never return data. You suspect a database issue and need to identify the performance issue as soon as possible. The resource health dashboard reports "No health related issues found." What should you do?
 
 - [ ] Run the troubleshooting wizards under Resource and solve problems.
-- [ ] Enable Intelligent Insights.
+- [x] Enable Intelligent Insights.
 - [ ] Configure App Insights to alert admins when web interface experiences latency.
 - [ ] Configure an alert rule to email DBAs when DTU usage hits 100%.
 
 #### Q48. Your web application needs to access files on an Azure Files share. Which option will deliver the highest throughput?
 
-- [ ] SMB
+- [x] SMB
 - [ ] REST API
 - [ ] Storage Explorer
 - [ ] NFS
