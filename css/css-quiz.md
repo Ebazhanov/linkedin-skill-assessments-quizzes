@@ -999,7 +999,7 @@ a {color: red;}
 background-position: 10% 50%;
 ```
 
-- [ ] The background image is placed 10% from the left and 50% from the top of its container
+- [x] The background image is placed 10% from the left and 50% from the top of its container
 - [ ] The background image is placed 10% from the bottom and 50% from the left of its container
 - [ ] The background image is placed 10% from the right and 50% from the bottom of its container
 - [ ] The background image is placed 10% from the top and 50% from the left of its container
