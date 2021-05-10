@@ -739,3 +739,28 @@ android {
    android:layout_marginBottom="@dimen/spacing_medium"
    android:src=@drawable/map_pin />
 ```
+#### Q56. what is not a benefit of externalizing app resources such as image and string from a code?
+- [x] It allows Android to choose the appropriate resource based on the current configuration during runtime.
+- [ ] It allows you to have more performant applications because the code and resources are separated.
+- [ ] It allows you to provide a different Ul experience based on the user's language settings.
+- [ ] It allows you to provide a different Ul experience based on the user's device size.
+
+#### Q57. What is the chief purpose of line five in this code snippet?
+
+```
+override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_post_create)
+
+	if (savedInstanceState != null) return
+
+	val fragment = CreatePostFragment() 
+		supportFragmentManager
+		.beginTransaction()
+		.add(R.id. fragment_container, fragment)
+		.commit()
+
+}
+```
+- [ ] to make sure that the activity finishes when the savedInstanceState is not null
+- [x] to make sure that the activity creates a new fragment each time it is restored from a previous state
+- [ ] to prevent the display of two fragments side by side in cases where the activity is restored from a previous state
+- [ ] to prevent the creation of overlapping fragments in cases where the activity is restored from a previous state
