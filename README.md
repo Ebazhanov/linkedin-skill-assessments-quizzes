@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-347-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-348-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -544,6 +544,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/danie007"><img src="https://avatars.githubusercontent.com/u/50566479?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daniel Selvan D</b></sub></a><br /><a href="#design-danie007" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=danie007" title="Code">💻</a></td>
     <td align="center"><a href="http://www.MahdiRazavi.net"><img src="https://avatars.githubusercontent.com/u/6397404?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mahdi Razavi</b></sub></a><br /><a href="#design-M-Razavi" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=M-Razavi" title="Code">💻</a></td>
     <td align="center"><a href="http://the-coding-lab.com"><img src="https://avatars.githubusercontent.com/u/56223902?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Niklas Tiede</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=NiklasTiede" title="Code">💻</a> <a href="#design-NiklasTiede" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/narutubaderddin"><img src="https://avatars.githubusercontent.com/u/43589046?v=4?s=100" width="100px;" alt=""/><br /><sub><b>narutubaderddin</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=narutubaderddin" title="Code">💻</a> <a href="#design-narutubaderddin" title="Design">🎨</a></td>
   </tr>
 </table>
 
