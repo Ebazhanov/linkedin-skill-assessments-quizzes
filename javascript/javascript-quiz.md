@@ -1,4 +1,4 @@
-## JavaScript Assessment
+## JavaScript
 
 #### Q1. Which operator returns true if the two compared values are not equal?
 
@@ -12,7 +12,7 @@
 - [ ] Only a for statement uses a callback function.
 - [x] A for statement is generic, but a forEach statement can be used only with an array.
 - [ ] Only a forEach statement lets you specify your own iterator.
-- [ ] A forEach statement is generic, but a for statement ca be used only with an array.
+- [ ] A forEach statement is generic, but a for statement can be used only with an array.
 
 #### Q3. Review the code below. Which statement calls the addTax function and passes 50 as an argument?
 
@@ -27,9 +27,9 @@ function addTax(total) {
 - [x] addTax(50);
 - [ ] addTax 50;
 
-#### Q3 How would you use this function to find out how much tax should be paid on \$50?
+#### Q3. How would you use this function to find out how much tax should be paid on \$50?
 
-(Version 2, possibly an updated version)
+`(Version 2, possibly an updated version)`
 
 ```js
 function addTax(total) {
@@ -51,6 +51,8 @@ function addTax(total) {
 
 #### Q5. Which statement creates a new object using the Person constructor?
 
+#### Q5. Which statement creates a new Person object called "student"?
+
 - [x] var student = new Person();
 - [ ] var student = construct Person;
 - [ ] var student = Person();
@@ -71,6 +73,22 @@ console.log('Results shown');
 - [ ] after 10000 seconds
 - [x] immediately
 
+#### Q6. When would 'results shown' be logged to the console?
+
+`(Version 2, possibly an updated version)`
+
+```js
+let modal = document.querySelector('#results');
+setTimeout(function () {
+  modal.classList.remove('hidden');
+}, 10000);
+```
+
+- [x] immediately
+- [ ] after results are received from the HTTP request
+- [ ] after 10 second
+- [ ] after 10,000 seconds
+
 #### Q7. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?
 
 ```js
@@ -83,7 +101,7 @@ for (var i = 1; i <= 4; i++) {
 
 - [ ] `for (var i=1; i<=4; i++){ (function(i){ setTimeout(function(){ console.log(j); }, j*1000); })(j) }`
 - [ ] `while (var i=1; i<=4; i++) { setTimeout(function() { console.log(i); }, i*1000); }`
-- [x] `for (var i=1; i<=4; i++) { {function(j) { setTimeout(function(){ console.log(j); }, j*1000); })(i) }`
+- [x] `for (var i=1; i<=4; i++) { (function(j) { setTimeout(function(){ console.log(j); }, j*1000); })(i) }`
 - [ ] `for (var j=1; j<=4; j++) { setTimeout(function() { console.log(j); }, j*1000); }`
 
 #### Q8. How does a function create a closure?
@@ -96,12 +114,11 @@ for (var i = 1; i <= 4; i++) {
 #### Q9. Which statement creates a new function called discountPrice?
 
 - [x] `let discountPrice = function(price) { return price * 0.85; };`
-
 - [ ] `let discountPrice(price) { return price * 0.85; };`
 - [ ] `let function = discountPrice(price) { return price * 0.85; };`
 - [ ] `discountPrice = function(price) { return price * 0.85; };`
 
-#### 10. What is the result in the console of running the code shown?
+#### Q10. What is the result in the console of running the code shown?
 
 ```js
 var Storm = function () {};
@@ -148,9 +165,9 @@ let roadTypes = ['street', 'road', 'avenue', 'circle'];
 ```
 
 - [ ] roadTypes.2
-- [ ] roadTypes[3]
+- [ ] roadTypes\[3\]
 - [ ] roadTypes.3
-- [x] roadTypes[2]
+- [x] roadTypes\[2\]
 
 #### Q14. What is the result of running this statement?
 
@@ -221,6 +238,7 @@ for (var i = 0; i < 5; i++) {
 ```js
 var a = ['dog', 'cat', 'hen'];
 a[100] = 'fox';
+console.log(a.length);
 ```
 
 - [x] 101
@@ -235,11 +253,7 @@ a[100] = 'fox';
 - [ ] Keys in Maps can be strings.
 - [ ] You can access values in a Map without iterating over the whole collection.
 
-<details><summary>Explanation</summary><p>
-
 `Map.prototype.size` returns the number of elements in a Map, whereas Object does not have a built-in method to return its size.
-
-</p></details>
 
 #### Q23. What is the value of dessert.type after executing this code?
 
@@ -265,7 +279,7 @@ dessert.type = 'pudding';
 - [ ] \++
 - [ ] \--
 - [ ] \==
-- [x] ||
+- [x] \|\|
 
 #### Q26. Which statement sets the Person constructor as the parent of the Student constructor in the prototype chain?
 
@@ -350,11 +364,7 @@ let diff = function (x, y) {
 - [x] Most operations involve looking up a record, and objects can do that better than arrays.
 - [ ] Working with objects makes the code more readable.
 
-<details><summary>Explanation</summary><p>
-
-Records in an object can be retrieved using their key which can be any given value (e.g. an employee ID, a city name, etc), whereas to retrieve a record from an array we need to know its index.
-
-</p></details>
+**Explanation:** Records in an object can be retrieved using their key which can be any given value (e.g. an employee ID, a city name, etc), whereas to retrieve a record from an array we need to know its index.
 
 #### Q35. Which statement is true about the "async" attribute for the HTML script tag?
 
@@ -406,7 +416,7 @@ f2();
 
 - [ ] 2
 - [x] 1
-- [ ] Nothing--this code will throw an error.
+- [ ] Nothing - this code will throw an error.
 - [ ] undefined
 
 #### Q40. Which statement is true about Functional Programming?
@@ -428,11 +438,11 @@ f2();
 `let arr = [];`
 
 - [ ] 3
-- [ ] 2
-- [x] 0
+- [x] 2
+- [ ] 0
 - [ ] 1
 
-#### Q43. Which of the following is not a unary operator?
+#### Q43. Which choice is _not_ a unary operator?
 
 - [ ] typeof
 - [ ] delete
@@ -441,10 +451,10 @@ f2();
 
 #### Q44. What type of scope does the end variable have in the code shown?
 
-```
+```javascript
 var start = 1;
 if (start === 1) {
- let end = 2;
+  let end = 2;
 }
 ```
 
@@ -455,9 +465,9 @@ if (start === 1) {
 
 #### Q45. What will the value of y be in this code:
 
-```
+```javascript
 const x = 6 % 2;
-const y = x ? 'One': 'Two';
+const y = x ? 'One' : 'Two';
 ```
 
 - [ ] One
@@ -489,7 +499,21 @@ var b = (a = 3) ? true : false;
 - [x] The condition in the ternary is using the assignment operator.
 - [ ] You can't define a variable without initializing it.
 - [ ] You can't use a ternary in the right-hand side of an assignment operator.
-- [ ] The code is using the deprecated var keyword
+- [ ] The code is using the deprecated var keyword.
+
+#### Q48. This program has a problem. What is it?
+
+`(Version 2, possibly an updated version)`
+
+```js
+var a;
+var b = (a = 3) ? true : false;
+```
+
+- [ ] You cannot use a ternary operator in the right-hand side of an assignment.
+- [ ] You cannot define a variable without initializing it first.
+- [x] The condition in the ternary statement is using the assignment operator.
+- [ ] The code is using the deprecated var keyword.
 
 #### Q49. Which statement references the DOM node created by the code shown?
 
@@ -502,7 +526,7 @@ var b = (a = 3) ? true : false;
 - [ ] `Document.querySelector('pull')`
 - [ ] `Document.querySelector('#pull')`
 
-#### Q50. What value does the code return?
+#### Q50. What value does this code return?
 
 ```js
 let answer = true;
@@ -514,10 +538,11 @@ if (answer === false) {
 ```
 
 - [x] 10
+- [ ] true
 - [ ] false
 - [ ] 0
 
-### Q51. What is the result in the console of running the code shown?
+#### Q51. What is the result in the console of running the code shown?
 
 ```js
 var start = 1;
@@ -533,7 +558,7 @@ console.log(end);
 - [x] ReferenceError
 - [ ] undefined
 
-### Q52. What will this code log in the console?
+#### Q52. What will this code log in the console?
 
 ```js
 function sayHello() {
@@ -548,14 +573,14 @@ console.log(sayHello.prototype);
 - [x] an object with a constructor property
 - [ ] an error message
 
-### Q53: Which collection object allows unique value to be inserted only once?
+#### Q53: Which collection object allows unique value to be inserted only once?
 
 - [ ] Object
 - [x] Set
 - [ ] Array
 - [ ] Map
 
-### Q54. What two values will this code print?
+#### Q54. What two values will this code print?
 
 ```js
 function printA() {
@@ -631,7 +656,7 @@ new logThis();
 - [ ] 3 != '3'
 - [ ] 3 === '3'
 
-#### Q61. Which choice is a valid variable name?
+#### Q61. Which of these is a valid variable name?
 
 - [ ] 5thItem
 - [x] firstName
@@ -645,7 +670,203 @@ new logThis();
 - [x] preventDefault()
 - [ ] prevent()
 
-#### Q63. What will be logged to the console?
+#### Q63. Which method do you use to attach one DOM node to another?
+
+- [ ] attachNode()
+- [ ] getNode()
+- [ ] querySelector()
+- [x] appendChild()
+
+#### Q64. Which statement is used to skip iteration of the loop?
+
+- [ ] break
+- [ ] pass
+- [ ] skip
+- [x] continue
+
+#### Q65. Which choice is valid example for an arrow function?
+
+- [x] (a,b) => c
+- [ ] a, b => {return c;}
+- [ ] a, b => c
+- [ ] { a, b } => c
+
+#### Q66. Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior?
+
+- [x] class
+- [ ] generator function
+- [ ] map
+- [ ] proxy
+
+#### Q67. How do you add a comment to JavaScript code?
+
+- [ ] ! This is a comment
+- [ ] # This is a comment
+- [ ] \\ This is a comment
+- [x] // This is a comment
+
+#### Q68. If you attempt to call a value as a function but the value is not a function, what kind of error would you get?
+
+- [x] TypeError
+- [ ] SystemError
+- [ ] SyntaxError
+- [ ] LogicError
+
+#### Q69. Which method is called automatically when an object is initialized?
+
+- [ ] create()
+- [ ] new()
+- [x] constructor()
+- [ ] init()
+
+#### Q70. What is the result of running the statement shown?
+
+```javascript
+let a = 5;
+console.log(++a);
+```
+
+- [ ] 4
+- [ ] 10
+- [x] 6
+- [ ] 5
+
+#### Q71. You've written the event listener shown below for a form button, but each time you click the button, the page reloads. Which statement would stop this from happening?
+
+```javascript
+button.addEventListener(
+  'click',
+  function (e) {
+    button.className = 'clicked';
+  },
+  false,
+);
+```
+
+- [ ] e.blockReload();
+- [ ] button.preventDefault();
+- [ ] button.blockReload();
+- [x] e.preventDefault();
+
+#### Q72. Which statement represents the starting code converted to an IIFE?
+
+- [ ] `function() { console.log('lorem ipsum'); }()();`
+- [ ] `function() { console.log('lorem ipsum'); }();`
+- [x] `(function() { console.log('lorem ipsum'); })();`
+
+#### Q73. Which statement selects all img elements in the DOM tree?
+
+- [ ] `Document.querySelector('img')`
+- [ ] `Document.querySelectorAll('<img>')`
+- [x] `Document.querySelectorAll('img')`
+- [ ] `Document.querySelector('<img>')`
+
+#### Q74. Why would you choose an asynchronous structure for your code?
+
+- [ ] To use ES6 syntax
+- [ ] To start tasks that might take some time without blocking subsequent tasks from executing immediately
+- [ ] To ensure that parsers enforce all JavaScript syntax rules when processing your code
+- [x] To ensure that tasks further down in your code aren't initiated until earlier tasks have completed
+
+#### Q75. What is the HTTP verb to request the contents of an existing resource?
+
+- [ ] DELETE
+- [x] GET
+- [ ] PATCH
+- [ ] POST
+
+#### Q76. Which event is fired on a text field within a form when a user tabs to it, or clicks or touches it?
+
+- [x] focus
+- [ ] blur
+- [ ] hover
+- [ ] enter
+
+#### Q77. What is the result in the console of running this code?
+
+```javascript
+function logThis() {
+  console.log(this);
+}
+logThis();
+```
+
+- [ ] function
+- [ ] undefined
+- [ ] Function.prototype
+- [x] window
+
+#### Q78. Which class-based component is equivalent to this function component?
+
+```javascript
+const Greeting = ({ name }) => <h1>Hello {name}!</h1>;
+```
+
+- [x]
+
+```javascript
+class Greeting extends React.Component {
+  render() {
+    return <h1>Hello {this.props.name}!</h1>;
+  }
+}
+```
+
+- [ ]
+
+```javascript
+class Greeting extends React.Component {
+  constructor() {
+    return <h1>Hello {this.props.name}!</h1>;
+  }
+}
+```
+
+- [ ]
+
+```javascript
+class Greeting extends React.Component {
+    <h1>Hello {this.props.name}!</h1>;
+  }
+}
+```
+
+- [ ]
+
+```javascript
+class Greeting extends React.Component {
+  render({ name }) {
+    return <h1>Hello {name}!</h1>;
+  }
+}
+```
+
+#### Q79. Which class-based lifecycle method would be called at the same time as this effect Hook?
+
+```javascript
+useEffect(() => {
+  // do things
+}, []);
+```
+
+- [ ] componentWillUnmount
+- [ ] componentDidUpdate
+- [ ] render
+- [x] componentDidMount
+
+#### Q80. What is the output of this code?
+
+```javascript
+var obj;
+console.log(obj);
+```
+
+- [ ] ReferenceError: obj is not defined
+- [ ] {}
+- [x] undefined
+- [ ] null
+
+#### Q81. What will be logged to the console?
 
 ```javascript
 var a = ['dog', 'cat', 'hen'];
@@ -653,14 +874,22 @@ a[100] = 'fox';
 console.log(a.length);
 ```
 
-- [x] 101
 - [ ] 4
 - [ ] 100
+- [x] 101
 - [ ] 3
 
-#### Q64. Which methid do you use to attach one DOM node to another?
+#### Q82. How would you use the TaxCalculator to determine the amount of tax on \$50?
 
-- [ ] attachNode()
-- [ ] getNode()
-- [ ] querySelector()
-- [x] appendChild()
+```javascript
+class TaxCalculator {
+  static calculate(total) {
+    return total * 0.05;
+  }
+}
+```
+
+- [ ] calculate(50);
+- [ ] new TaxCalculator().calculate(\$50);
+- [x] TaxCalculator.calculate(50);
+- [ ] new TaxCalculator().calculate(50);

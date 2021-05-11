@@ -1,4 +1,4 @@
-## Microsoft Word Assessment
+## Microsoft Word
 
 #### Q1. Which feature allows you to copy attributes of selected text and apply them to another selection?
 
@@ -28,12 +28,14 @@
 - [x] Click Insert > Text > Text from File.
 - [ ] Click Insert > Media.
 
-#### Q5. You want to set a wider inside margin to accommodate binding a document where pages are printed in both sides. Which option should you choose in the Page Setup dialog box.
+#### Q5. You want to set a wider inside margin to accommodate binding a document where pages are printed in both sides. Which option should you choose in the Page Setup dialog box?
 
-- [x] Book Fold.
-- [ ] Different Odd & Even Pages. <-- Should not this one instead?
-- [ ] Mirror Margins.
+- [ ] Book Fold.
+- [ ] Different Odd & Even Pages.
+- [x] Mirror Margins.
 - [ ] Landscape.
+
+[Reference](https://support.microsoft.com/en-us/office/set-mirror-margins-for-facing-pages-460c38d0-fc9e-4a11-9f2f-7b48f61aa9c0)
 
 #### Q6. Which feature lets you place a ghosted logo or text behind the regular text on your document?
 
@@ -49,12 +51,12 @@
 - [x] Layout > Size.
 - [ ] Layout > Margins.
 
-#### Q8. Which option lets you mark your favourite templates for quick reuse in the future?
+#### Q8. Which option lets you mark your favorite templates for quick reuse in the future?
 
 - [ ] Drag to Home tab.
 - [ ] Add to chooser.
 - [x] Pin to list.
-- [ ] Mark as favourite.
+- [ ] Mark as favorite.
 
 #### Q9. If you want to add a caption to a table, where should you look?
 
@@ -65,12 +67,12 @@
 
 #### Q10. How can you change the appearance of an entire table in a single step?
 
-- [ ] Apply a table style.
+- [x] Apply a table style.
 - [ ] Apply a graphic style.
-- [x] Right-click a table and choose a new style.
+- [ ] Right-click a table and choose a new style.
 - [ ] Apply a cell style.
 
-#### Q11. Which option does the Find and Replace feature NOT support?
+#### Q11. Which option does the Find and Replace feature **NOT** support?
 
 - [ ] Whole Word Only.
 - [ ] Replace All.
@@ -80,11 +82,11 @@
 #### Q12. Which statement best describes how a bookmark is used in a Word document?
 
 - [ ] A bookmark is a hyperlink where the label is automatically generated.
-- [x] A bookmark works in conjuction with hyperlinks to allow you to quickly jump to a specific location in your document.
-- [ ] A bookmark is a link in your document that can goive you quick access to webpages, files and other locations within your document.
+- [x] A bookmark works in conjunction with hyperlinks to allow you to quickly jump to a specific location in your document.
+- [ ] A bookmark is a link in your document that can give you quick access to webpages, files, and other locations within your document.
 - [ ] A bookmark is a color-coded graphic that appears in the navigation pane for easy access to a specific location in your document.
 
-#### Q13. What is NOT an option when inviting a colleague to collaborate on a document?
+#### Q13. What is **NOT** an option when inviting a colleague to collaborate on a document?
 
 - [ ] including a personalized message
 - [ ] giving the collaborator the option to edit a document
@@ -114,6 +116,8 @@
 
 #### Q17. What happens in this SmartArt object when you press the Delete key?
 
+![image](images/001.png)
+
 - [x] The boxes resize to maintain the same overall height.
 - [ ] The object is deleted and a hole is left behind.
 - [ ] The text merges with the second box.
@@ -126,7 +130,7 @@
 - [ ] Insert Index
 - [x] Table of Contents
 
-#### Q19. Which statistic does the Word Count feature NOT collect?
+#### Q19. Which statistic does the Word Count feature **NOT** collect?
 
 - [ ] paragraphs
 - [ ] lines
@@ -144,10 +148,17 @@
 
 - [ ] Click Open > Recent and select Recover Unsaved Documents.
 - [ ] Click File > Options > Recover Unsaved Documents.
-- [ ] Click File > Open > Recent > Documents.
-- [x] Click File > Recent > Recover Unsaved Documents.
+- [x] Click File > Open > Recent > Documents.
+- [ ] Click File > Recent > Recover Unsaved Documents.
 
-#### Q22. What can you NOT insert into a Word document from the Insert tab?
+Explanation:
+
+Solutions found in Office2019:  
+File -> Open -> Recent -> Recover Unsaved Documents  
+File -> Info -> Manage Document -> Recover Unsaved Documents  
+Read carefully. It's not about recovering, but only the last recent file!
+
+#### Q22. What can you **NOT** insert into a Word document from the Insert tab?
 
 - [x] a sketch
 - [ ] a symbol
@@ -165,19 +176,27 @@
 
 - [ ] Replace All
 - [ ] AutoFormat As You Type
-- [x] Find and Replace
-- [ ] AutoCorrect Options
+- [ ] Find and Replace
+- [x] AutoCorrect Options
+
+Explanation:
+
+The keyword here is creating a "shortcut" which is set with the Autocorrect Options by navigating to File -> Options -> Proofing -> AutoCorrect Options -> Replace text as you type.
 
 #### Q25. Your document contains two columns of content with a vertical line between the columns, as shown. From where can you delete the line?
 
-[picture](https://cdn.lynda.com/question/5d379809498e21bc9b0800bc/5d379809498e21bc9b0800bc-1563924805745)
+![image](images/003.png)
 
 - [ ] Insert > Text
 - [x] Columns dialog box
 - [ ] Insert > Line > Vertical
 - [ ] Insert > Line > Remove
 
-#### Q26. You crop an image in a document, what happens to the image and the overall document file size?
+Explanation:
+
+Layout -> Columns -> More columns -> Line between
+
+#### Q26. When you crop an image in a document, what happens to the image and the overall document file size?
 
 - [ ] The cropped parts of the image are hidden and the overall file size increases.
 - [ ] The cropped parts of the image are removed and the overall file size does not change.
@@ -198,65 +217,68 @@
 - [x] Hierarchy
 - [ ] Matrix
 
-#### Q29. When you insert page numbers, which position is NOT an option?
+#### Q29. When you insert page numbers, which position is **NOT** an option?
 
 - [ ] page margins
 - [x] inset
 - [ ] current position
 - [ ] bottom of page
 
-#### Q30. How can you quickly move an insertion point to the start of the previous paragraph?
+#### Q30. How can you quickly move an insertion point up to the start of the previous paragraph?
 
-- [x] Ctrl + Up Arrow
-- [ ] Ctrl + Page Up
-- [ ] Alt + Ctrl + Up Arrow
-- [ ] Alt + Ctrl + Page Up
+- [x] Press Ctrl+Up Arrow (Windows) or Command+Up Arrow (Mac).
+- [ ] Press Ctrl+Page Up (Windows) or Command+Page Up (Mac).
+- [ ] Press Ctrl+Left Arrow (Windows) or Command+Left Arrow (Mac).
+- [ ] Press Alt+Left Arrow (Windows) or Option+Left Arrow (Mac).
 
 #### Q31. You send a document to two clients for review, and each client returns a separate, edited version of the document. How do you most efficiently review their feedback?
 
-- [ ] Click **Review > Accept**. 
+- [ ] Click **Review > Accept**.
 - [ ] Turn on **Track Changes**.
-- [ ] Click **Review > Compare**.
+- [x] Click **Review > Compare**.
 - [ ] Click **Review > Smart Lookup**.
 
 #### Q32. What is the difference between a footnote and an endnote?
 
 - [ ] Footnotes use Arabic numerals and endnotes use letters.
 - [ ] A footnote is placed in the page footer, and an endnote is placed on a blank page at the end of the document.
-- [ ] A footnote is placed at the bottom of the page, and an endnote is placed at the end of the document.
+- [x] A footnote is placed at the bottom of the page, and an endnote is placed at the end of the document.
 - [ ] An endnote always appears on the bottom of the same page that it references.
 
-#### Q33. Which formatting option was used to create the effect shown below? 
+#### Q33. Which formatting option was used to create the effect shown below?
 
-                    [picture](https://cdn.lynda.com/question/5d379809498e21bc9b0800c4/5d379809498e21bc9b0800c4-1563924833648)
+![image](images/004.png)
 
 - [ ] Drop Cap
-- [ ] Subscript
+- [x] Subscript
 - [ ] Small Caps
 - [ ] Superscript
 
 #### Q34. What Word building block uses headings to help users identify the contents of a document?
 
-- [ ] table of contents
+- [x] table of contents
 - [ ] page break
 - [ ] cover page
 - [ ] index
 
-#### Q35. You have been reviewing a Word document using Track Changes. There are still changes that need to be reviewed, but you cannot see them. Why is this? (Select all that apply.) 
+#### Q35. You have been reviewing a Word document using Track Changes. There are still changes that need to be reviewed, but you cannot see them. Why is this? (Select all that apply.)
+
+```
 A. Display for Review is set to No Markup.
 B. Track changes has been turned off.
 C. Display for Review is set to Original.
 D. Inserts and Deletions and Formatting are turned off in Show Markup.
+```
 
 - [ ] A, C, D
-- [ ] A, B
+- [x] A, B
 - [ ] D
 - [ ] A, C
 
 #### Q36. You are coordinating the update of your company's 10-chapter operations manual. You begin by saving each chapter as a separate document. What Word feature can you use to manage all of these chapter documents?
 
 - [ ] the Organizer
-- [ ] master document
+- [x] master document
 - [ ] outline view
 - [ ] versioning
 
@@ -264,24 +286,231 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 - [ ] You can reformat all headings by changing style sets.
 - [ ] You can navigate from heading to heading in the Navigation pane.
-- [ ] all of these answers
+- [x] all of these answers
 - [ ] You can easily generate a table of contents.
 
-#### Q38. You need to add a trademark symbol to a new product name. How can you accomplish this? (Select two items.) 
-           A. Type "(TM)". 
-           B. On the **Insert**  tab, in the **Symbols**  group, select **Symbol** . From the symbols gallery, select the trademark symbol, then click **Insert**.
-           C. On the **Insert**  Tab, in the **Illustrations**  group, select  **Icons**. From the icons gallery, select the **Signs and Symbols**  category. Then select the     trademark symbol and click **Insert**.
-           D. Type "(R)".
+#### Q38. You need to add a trademark symbol to a new product name. How can you accomplish this? (Select two items.)
+
+```
+ A. Type "(TM)".
+ B. On the **Insert** tab, in the **Symbols** group, select **Symbol**. From the symbols gallery, select the trademark symbol, then click **Insert**.
+ C. On the **Insert** Tab, in the **Illustrations** group, select **Icons**. From the icons gallery, select the **Signs and Symbols** category. Then select the trademark symbol and click **Insert**.
+ D. Type "(R)".
+```
 
 - [ ] B and D
-- [ ] A and B
+- [x] A and B
 - [ ] B and C
 - [ ] A and D
 
+Hint:
+
+(TM) : Unregistered trademark symbol  
+(R): Registered trademark symbol
+
 #### Q39. You are reformatting a professional document that you created previously using manual formatting. In your document, first-level headings are formatted with Arial 11 Bold. What is the fastest way to create and apply a Heading 1 style using these properties?
 
-- [ ] In the **Styles**  task pane, click **New Style**  and select **Arial 11 Bold**.
+- [ ] In the **Styles** task pane, click **New Style** and select **Arial 11 Bold**.
 - [ ] Hold the Ctrl key (Windows) or Command key (Mac) and click the **Format Painter**. Then select **New Style**.
-- [ ] Select one of the first level headings. Right-click **Heading 1**  and update it to match the selection.
+- [x] Select one of the first level headings. Right-click **Heading 1** and update it to match the selection.
 - [ ] Select the text, right-click to display the formatting bar, and select **Styles > Copy**.
 
+#### Q40. You are typing text in two columns. When you reach the end of a paragraph in column 1, you want to start the next paragraph in column 1 on the next page. What type of break should you insert at this point?
+
+- [ ] next page section break
+- [ ] continuous section break
+- [ ] column break
+- [x] page break
+
+#### Q41. You want to capture all the content and design elements in your current document, so you can use them as a starting point when creating new documents. To do so, save the current document as **\_\_\_**.
+
+- [x] a template file
+- [ ] a PDF
+- [ ] an OpenDocument Text file
+- [ ] a Rich Text Format file
+
+#### Q42. Which file format best preserves formatting and allows editing when a Word document is transferred to another application?
+
+- [ ] XML Paper Specification (XPS)
+- [ ] OpenDocument Text (ODT)
+- [x] Rich Text Format (RTF)
+- [ ] plain text (TXT)
+
+#### Q43. How can you break a table into two parts?
+
+- [x] Use the Split Table command.
+- [ ] Press Shift + Enter (Windows) or Sift + Return (Mac).
+- [ ] Use the Section Break command.
+- [ ] Use the Split Cells command.
+
+Explanation:
+
+Tables Layout tab -> Merge group -> Split Table
+
+#### Q44. What can you **NOT** create from a Word document?
+
+- [ ] a Word macro-enabled document
+- [ ] a plain text file
+- [x] a multipage website
+- [ ] a Word 2003 XML document
+
+Explanation:
+
+Each Word document can be saved as a Web Page.
+
+#### Q45. How can you add a manual line break to a paragraph?
+
+- [ ] Press Enter twice (Windows) or Return twice (Mac).
+- [ ] Press Alt+Enter (Windows) or Option+Return (Mac).
+- [ ] Press Enter (Windows) or Return (Mac).
+- [x] Press Shift+Enter (Windows) or Shift+Return (Mac)
+
+#### Q46. You want to repeat an element (such as the date<9 on all pages of the document. Which options should you choose?
+
+- [x] Insert > Header & Footer
+- [ ] Insert > Text
+- [ ] Design > Header & Footer
+- [ ] View > Header & Footer
+
+#### Q47. A document has been shared with you from your colleague's OneDrive library. They have given only you editing access. What can you do with this document?
+
+- [x] Share the document with others.
+- [ ] Assume ownership of the document.
+- [ ] Remove access from another user.
+- [ ] Coauthor the document with your colleague.
+
+#### Q48. In the image below, what do the red bars next to the text indicate?
+
+![image](images/002.png)
+
+- [ ] Draw tools were used in these areas.
+- [x] Changes were made to these areas.
+- [ ] Comments were added to these areas.
+- [ ] none of these answers
+
+#### Q49. What formatting must you use to use both portrait and landscape pages in the same Word document?
+
+- [ ] templates
+- [ ] page
+- [ ] columns
+- [x] sections
+
+#### Q50. Which option does the Find and Replace feature **NOT** support?
+
+- [x] Match Punctuation
+- [ ] Replace All
+- [ ] Match Case
+- [ ] Whole Word Only
+
+#### Q51. What is the name of the text effect that displays a large capital letter at the beginning of a paragraph?
+
+- [ ] superscript
+- [x] drop cap
+- [ ] subscript
+- [ ] small caps
+
+#### Q52. You need to document a procedure. Which paragraph format is best to help readers follow the sequence of instructions?
+
+- [ ] line numbers
+- [x] numbered list
+- [ ] columns
+- [ ] bulleted list
+
+#### Q53. How can you adjust which data in a table is used when creating a chart?
+
+- [ ] Click the Select Data button.
+- [ ] Click the Refresh Data button.
+- [ ] Click the Switch Row/Column button.
+- [ ] Click the Edit Data button.
+
+#### Q54. You want to be able to edit your Word document simultaneously with other Word users in your organization. Which save location should you select in the Save As dialog box?
+
+A. OneDrive
+B. SharePoint document library
+C. Google Drive
+D. DropBox
+
+- [ ] A
+- [ ] A, B, C, D
+- [ ] A, B, C
+- [ ] A or B
+
+#### Q55. Why is it important to use alternative text for objects in your document?
+
+- [ ] Adding alternative text to an object is one way to apply a caption to an object.
+- [ ] It allows you to display the text in a language other than the default language-for example, English to French, French to German.
+- [x] It helps a user with a visual impairment who is using a screen reader understand the content of the object.
+- [ ] It enables you to provide another explanation of the object, in case the user does not understand what the object is.
+
+[Reference](https://support.microsoft.com/en-us/office/add-alternative-text-to-a-shape-picture-chart-smartart-graphic-or-other-object-44989b2a-903c-4d9a-b742-6a75b451c669)
+
+#### Q56. What is a benefit of using sections in a Microsoft Word document?
+
+- [ ] You can restrict printing for specific document sections.
+- [x] You can apply unique formatting to each section.
+- [ ] You can collaborate on specific sections with other authors.
+- [ ] You can restrict access to each section individually.
+
+[Reference](https://support.microsoft.com/en-us/office/insert-delete-or-change-a-section-break-0eeae2d6-b906-42d3-a1bd-7e77ca8ea1f3)
+
+#### Q57. How can you tell if a colleague is coauthoring a document at the same time as you? (Select all that apply.)
+
+```markdown
+A. Colleague's name appears in the Share panel.
+B. Colleague's picture appears in the upper-right corner of the ribbon.
+C. A banner notification pops up as the colleague edits the document.
+D. A flag icon with the colleague's name appears where their edit is being made.
+```
+
+- [ ] A, B, C
+- [ ] B, C, D
+- [ ] A, B, D
+- [x] A, C, D
+
+[Reference](https://support.microsoft.com/en-us/office/coauthor-documents-anywhere-ed0cf685-f619-4d54-9c42-a61c8795c87f)
+
+#### Q58. When you insert a picture into a document, what happens to the picture?
+
+- [ ] Word stretches the photo to fill the page.
+- [ ] Word scales the image to the largest size possible to fit within the height or width of the page.
+- [ ] Word converts the photo's file format.
+- [ ] Word analyzes and corrects the image for tone and color.
+
+#### Q59. When working with Track Changes, what is the difference between Simple Markup and all Markup?
+
+- [ ] Simple Markup shows the final version without inline markups; All Markups shows the final version with inline markups.
+- [ ] Simple Markup shows the markup versions by one selected author; All Markup shows the combined markup version of all authors.
+- [ ] Simple Markup shows the revisions of one selected author in the Review pane; All Markup shows the revisions of all authors with inline markups.
+- [ ] Simple Markup shows the final version with inline markups; All Markup shows the final version without inline markups.
+
+#### Q60. You want to set a wider inside margin to accommodate binding a document where pages are printed on both sides. Which option should you choose in the Page Setup diealog box?
+
+- [x] Book Fold.
+- [ ] Mirror Margins
+- [ ] Duplex
+- [ ] Difference Odd & Even Pages
+
+#### Q61. Which object can you NOT insert into a Word document from the Insert tab?
+
+- [ ] a 3D model
+- [ ] an equation
+- [ ] a sketch
+- [ ] a symbol
+
+#### Q62. You're finalizing a document that contains some high-resolution images. You want to reduce the picture size while ensuring image quality is adequate for online viewing. What is a best-practice approach?
+
+- [ ] Review the images and crop as needed. Compress the images. Save the document and then compress the entire document.
+- [ ] Replace the images with lower-resolution images. Save the document and then compress it.
+- [x] Review the images and crop as needed. Then compress the images and delete cropped areas.
+- [ ] Review the images and crop as needed. Save document and then compress it.
+
+[Reference link](https://support.microsoft.com/en-us/topic/reduce-the-file-size-of-a-picture-in-microsoft-office-8db7211c-d958-457c-babd-194109eb9535)
+
+#### Q63. Before you send a document to an external client, you must remove personal information--including document author names, comments, and hidden text--from the doc. What tool can help you locate and clean up these details??
+
+- [ ] Accessibility Checker
+- [ ] Check Compatibility
+- [ ] Manage Document
+- [x] Document Inspector
+
+[Reference](https://support.microsoft.com/en-us/topic/remove-hidden-data-and-personal-information-by-inspecting-documents-presentations-or-workbooks-356b7b5d-77af-44fe-a07f-9aa4d085966f#:~:text=Click%20File%20%3E%20Info%20%3E%20Remove%20Personal,from%20the%20document%20check%20box.)

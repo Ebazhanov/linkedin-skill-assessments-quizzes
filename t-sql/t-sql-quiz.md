@@ -1,4 +1,4 @@
-## T-SQL Assessment
+## Transact-SQL (T-SQL)
 
 #### Q1. Which answer is NOT a type of table index?
 
@@ -16,12 +16,14 @@
 
 #### Q3. What is the result of this series of statements?
 
+```
 BEGIN TRY
 SELECT 'Foo' AS Result;
 END TRY
 BEGIN CATCH
 SELECT 'Bar' AS Result;
 END CATCH
+```
 
 - [x] Foo
 - [ ] FooBar
@@ -31,7 +33,7 @@ END CATCH
 #### Q4. Given these two tables, which query generates a listing showing student names and the department office location where you could reach each student?
 
 - [ ] SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students, Departments;
-- [x] SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students ON Students JOIN Departments ON Students.department = Departments.department;
+- [x] SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students JOIN Departments ON Students.department = Departments.department;
 - [ ] SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students JOIN Departments;
 - [ ] SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students ON Students.department = Departments.department;
 
@@ -63,8 +65,10 @@ END CATCH
 
 #### Q7. Which answer is a possible result of the sequence of commands below?
 
+```
 DECLARE @UniqueID uniqueidentifier = NEWID();
 SELECT @UniqueID AS Result;
+```
 
 - [ ] 1
 - [x] bb261196-66a5-43af-815d-123fc593cf3a
@@ -95,13 +99,15 @@ SELECT @UniqueID AS Result;
 #### Q10. Which query shows the first name, department, and team of all students with the two lowest points?
 
 - [ ] SELECT LIMIT(2) first_name, department, team FROM Students ORDER BY points ASC;
-- [x] SELECT TOP(2) first_name, deprtment, team FROM Students ORDER BY points DESC;
-- [ ] SELECT TOP(2) WITH TIES first_name, department, team FROM Students ORDER BY points;
+- [ ] SELECT TOP(2) first_name, deprtment, team FROM Students ORDER BY points DESC;
+- [x] SELECT TOP(2) WITH TIES first_name, department, team FROM Students ORDER BY points;
 - [ ] SELECT BOTTOM(2) first_name, department, team FROM Students ORDER BY points ASC;
+
+`the picture of table is important here and there it can be seen that there are only two value with min points. Secondly, the previous answer was wrong because order by DESC will put highest points into the beginning of result list and TOP(2) will take first two highest points, and we need the lowest points.`
 
 #### Q11. What is the result of this statement?
 
-SELECT FLOOR(-1234.321)
+`SELECT FLOOR(-1234.321)`
 
 - [ ] -1234.3
 - [ ] -1234
@@ -145,20 +151,22 @@ SELECT FLOOR(-1234.321)
 
 #### Q17. What is the result of this query?
 
-SELECT 'abc\
-def' AS Result;
+    SELECT 'abc\
+    def' AS Result;
 
-- [ ] abc\def
-- [x] abcdef
+- [x] abc\def
+- [ ] abcdef
 - [ ] error
 - [ ] abc def
 
 #### Q18. To select a random student from the table, which statement could you use?
 
-- [ ] SELECT TOP(1) first_name, last_name FROM Students ORDER BY NEWID();
+- [x] SELECT TOP(1) first_name, last_name FROM Students ORDER BY NEWID();
 - [ ] SELECT TOP(1) RAND(first_name, last_name) FROM Student;
-- [x] SELECT TOP(1) first_name, last_name FROM Student;
+- [ ] SELECT TOP(1) first_name, last_name FROM Student;
 - [ ] SELECT TOP(1) first_name, last_name FROM RAND(Student);
+
+[https://www.petefreitag.com/item/466.cfm](https://www.petefreitag.com/item/466.cfm)
 
 #### Q19. What result is returned after executing the following commands?
 
@@ -188,10 +196,8 @@ def' AS Result;
 
 #### Q22. You need to write a query that returns all products that have a SerialNumber ending with "10_3". Which WHERE clause should you use to fill in the blank in this query?
 
-```
-SELECT ProductID, ProductName, SerialNumber
-FROM Products______ ;
-```
+    SELECT ProductID, ProductName, SerialNumber
+    FROM Products______ ;
 
 - [x] `WHERE SerialNumer LIKE '%10_3'`
 - [ ] `WHERE SerialNumer LIKE ('%10'+'_'+'3')`
@@ -221,48 +227,51 @@ FROM Products______ ;
 
 #### Q26. You execute the following three queries. What is the result?
 
-Create table students(id int identity(1000,1), firstname varchar(20),
-lastname varchar(30));
-insert into students(firstname,lastname)values('mark','twain');
-select \*from students;
+    Create table students(id int identity(1000,1), firstname varchar(20),
+    lastname varchar(30));
+    insert into students(firstname,lastname)values('mark','twain');
+    select * from students;
 
-- []
+- [ ]
   studentid firstname lastname
   1 1001 mark twain
 
-- []
+- [ ]
   studentid firstname lastname
   1 1 mark twain
 
 - [x] studentid firstname lastname
       1 1000 mark twain
 
-- []
+- [ ]
   studentid firstname lastname
   1 null mark twain
 
-
-
 #### Q27. Which Query returns all student names with the highest grade?
 
-create table students( studentname varchar(50), grade int);
+`create table students( studentname varchar(50), grade int);`
 
-- [] select studentname from students where grade=max(grade);
+- [ ] select studentname from students where grade=max(grade);
+- [ ] select top(1) studentname from students order by grade;
+- [x] select top(1) with ties studentname from students order by grade desc;
+- [ ] select studentname,max(grade) from students order by grade desc;
 
-- [] select top(1) studentname from students order by grade;
-
-- [] select top(1) with ties studentname from students order by grade desc; 
-
-- [x] select studentname,max(grade) from students order by grade desc;
+`top(1) with ties will take the highest grade and all other students with the same grade (because they are order by grade) and matches the highest grade.`
 
 #### Q28. What role does "inventory" play?
 
-select bookid, boooktitle, bookauthor,quantityonhand from inventory.books;
+`select bookid, boooktitle, bookauthor,quantityonhand from inventory.books;`
 
-- [] you only want to see results from books currently in inventory
+- [ ] you only want to see results from books currently in inventory
+- [x] it instructs the query engine to find the books table in the inventory schema
+- [ ] it instructs the query engine to find the books table in the inventory database
+- [ ] it instructs the query engine to join the books table to the inventory schema
 
-- [] it instructs the query engine to find the books table in the inventory schema 
+`select * from dbo.books here dbo is a schema and the inventory is also schema; if we'd like to specify a database we should use db_name.schema_name.table_name`
 
-- [x] it instructs the query engine to find the books table in the inventory database
+#### Q29. What is the result of an INNER JOIN between table1 and table2?
 
-- [] it instructs the query engine to join the books table to the inventory schema
+- [x] Only records that have corresponding entries in table1 and table2 are displayed.
+- [ ] No records from table1 are ever displayed.
+- [ ] All records from table1 are displayed, regardless of whether the records have a corresponding row in table2
+- [ ] Only records that have no corresponding records in table1 or table2 are displayed.
