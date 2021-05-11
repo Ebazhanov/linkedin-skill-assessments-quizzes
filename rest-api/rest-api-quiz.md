@@ -296,3 +296,31 @@
 - [ ] `JSON payloads`
 - [ ] `HTTP response codes`
 - [x] `rate limiting/throttling`
+
+#### Q49. API testing must be treated as ______? 
+
+- [ ] `red team testing`
+- [ ] `white box testing`
+- [ ] `blue box testing`
+- [x] `black box testing`
+
+#### Q50. Which HTTP verb is used in a CORS preflight request? 
+
+- [ ] `PUT`
+- [ ] `POST`
+- [ ] `GET`
+- [x] `OPTIONS`
+
+#### Q51. Which response header will tell the client that the response is cached for 1 minute  ? 
+
+- [ ] `Expires: 1 minute`
+- [x] `Cache-Control: max-age=60`
+- [ ] `Expires: 1 January 2020`
+- [ ] `Cache-Expires: max-age=60`
+
+#### Q52.  What is the concept that allows an API client to explore an API via links embedded in payloads? 
+
+- [ ] `hypermedia`
+- [x] `link relations`
+- [ ] `parsing`
+- [ ] `browsing`
