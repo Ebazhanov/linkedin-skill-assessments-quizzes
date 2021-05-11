@@ -583,6 +583,6 @@ for(y in 1..100) y+=2
 ```
 
 - [ ] y must be declared with var to be mutable
-- [ ] y is an implicitly immutable value
+- [x] y is an implicitly immutable value
 - [ ] y can change only in a while loop
 - [ ] In order to change y, it must be declared outside of the loop
