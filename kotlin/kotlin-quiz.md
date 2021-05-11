@@ -123,8 +123,7 @@ when (die) {
 ```
 
 - [x] `3,4,5,6`
-- [x] `in 3..6`
-  [reference](https://kotlinlang.org/docs/ranges.html)
+- [x] `in 3..6` ([reference](https://kotlinlang.org/docs/ranges.html))
 - [ ] `3 : 6`
 - [ ] `{3,4,5,6}`
 
@@ -247,7 +246,7 @@ class Manager : Employee()
 
 - [ ] `change()`
 - [ ] `modify()`
-- [ ] `set()`
+- [x] `set()` ([reference](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-mutable-list-iterator/set.html))
 - [ ] `assign()`
 
 #### Q24. From the Supervisor subclass, how do you call the Employee class's display() method?
