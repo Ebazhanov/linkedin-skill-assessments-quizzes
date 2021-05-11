@@ -6,10 +6,9 @@
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
 
-#### Announcement:
+#### Announcement:[![Discord chat](https://img.shields.io/discord/591914197219016707.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/r32gPVfKWn)
 
 if you want to meet each other or discuss quiz related problems join the `Discord` chat 
-[![Discord](https://img.shields.io/discord/591914197219016707.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/r32gPVfKWn)
 
 [![Join our Discord server!](https://invidget.switchblade.xyz/r32gPVfKWn)](https://discord.gg/r32gPVfKWn)
 
