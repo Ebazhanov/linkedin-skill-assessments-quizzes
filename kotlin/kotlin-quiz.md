@@ -2,9 +2,10 @@
 
 #### Q1. You would like to print each score on its own line with its cardinal position. Without using **var** or **val**, which method allows iteration with both the value and its position?
 
-```
-fun main(){
+```kotlin
+fun main() {
   val highScores = listOf(4000, 2000, 10200, 12000, 9030)
+}
 ```
 
 - [x] `.withIndex()`
@@ -15,7 +16,7 @@ fun main(){
 
 #### Q2. When the **Airplane** class is instantiated, it displays **Aircraft = null**, not **Aircraft = C130** why?
 
-```
+```kotlin
 abstract class Aircraft {
   init { println("Aircraft = ${getName()}") }
   abstract fun getName(): String
