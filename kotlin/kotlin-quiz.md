@@ -251,7 +251,7 @@ class Manager : Employee()
 
 #### Q24. From the Supervisor subclass, how do you call the Employee class's display() method?
 
-```
+```kotlin
 open class Employee(){
   open fun display() = println("Employee display()")
 }
@@ -441,7 +441,8 @@ fun getAttribute(attribute: Attribute) : String {
 #### Q40. Why doesn't this code compile?
 
 ```kotlin
-infix fun Int.add(addedL Int=1) = this + addend
+val addend = 1
+infix fun Int.add(added: Int=1) = this + addend
 fun main(){
   val msg = "Hello"
   println( msg shouldMatch "Hello")    
@@ -453,7 +454,7 @@ fun main(){
 - [ ] infix function must be marked public
 - [ ] In Kotlin, add is a keyword
 - [ ] Extension functions use it, not this, as the default parameter name
-- [ ] infix functions cannot have default values
+- [x] infix functions cannot have default values ([reference](https://kotlinlang.org/docs/functions.html#infix-notation))
 
 #### Q41. What is the correct way to initialize a nullable variable?
 
