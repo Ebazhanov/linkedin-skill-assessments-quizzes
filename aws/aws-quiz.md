@@ -511,8 +511,7 @@ Destination 1: 10.0.0.0/16, Target 1: vpc-12bd09ac2;
 Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
 ```
 
-#### Q66 To comply with auditing requirements of some compliance standards, which AWS tool can be enabled to maintain an audit log of 
-access and changes to your AWS infrastructure?
+#### Q66 To comply with auditing requirements of some compliance standards, which AWS tool can be enabled to maintain an audit log of access and changes to your AWS infrastructure?
 
 - [x] CloudTrail
 - [ ] CloudWatch

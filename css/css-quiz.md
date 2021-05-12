@@ -986,7 +986,7 @@ a {color: red;}
 - [ ] `font-variant`
 - [x] `letter-spacing`
 
- #### Q82. What is the correct syntax for changing the curse from an arrow to a pointing hand when it interacts with a named element?
+#### Q82. What is the correct syntax for changing the curse from an arrow to a pointing hand when it interacts with a named element?
 
 - [x] `.element {cursor: pointer;}`
 - [ ] `.element {cursor: hand;}`

@@ -360,3 +360,26 @@ var indexCollection = function(db) {return co(function*() {...});};
 - [ ] `const results = yield db.collection('restaurants').createIndex({"name": 0}, null); return results;`
 - [x] `const results = yield db.collection('restaurants').createIndex({"name": 1}, null); return results;`
 - [ ] `const results = yield db.table('restaurants').createIndex({"name": 0}, null); return results;`
+
+#### Q52. Which Cypher code executes the multiquery block?
+
+- [ ] 
+```
+MATCH (c:Company {name: 'Neo4j'}) RETURN c, MATCH (p:Person) WHERE p.name = 'Jennifer' RETURN p, 
+MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
+```
+- [ ] 
+```
+MATCH (c:Company {name: 'Neo4j'}) RETURN c, MATCH (p:Person) WHERE p.name = 'Jennifer' RETURN p, 
+MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type
+```
+- [ ] 
+```
+MATCH (c:Company {name: 'Neo4j'}) RETURN c AND MATCH (p:Person) WHERE p.name = 'Jennifer' RETURN p, 
+AND MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
+```
+- [ ] 
+```
+MATCH (c:Company {name: 'Neo4j'}) RETURN c;MATCH (p:Person) WHERE p.name = 'Jennifer' RETURN p;
+MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
+```
