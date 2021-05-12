@@ -99,10 +99,10 @@ val z = y::List('c')
 - [ ] mustHave
 
 #### Q15. Which Scala type may throw an exception or a successfully computed value, and is commonly used to trap and propagate errors?
-
-##### answers missing
-
-Answer should be Option: Some or None
+- [ ] `scala.util.ExceptionHandling`
+- [ ] `scala.Catch.Throw`
+- [ ] `scala.exception.TryFinally`
+- [ ] `scala.util.Try`
 
 #### Q16. What is the data type of y after this code is executed?
 ```
@@ -172,3 +172,84 @@ def main () {
 - [ ] multilevel inheritance
 - [ ] multimode inheritance
 - [x] hierarchical inheritance
+
+#### Q26. One way to improve code reliability is to use _____, which will evaluate a condition and return an error if the conditions is violated.
+- [ ] packages
+- [ ] polymorphisms
+- [ ] assertions
+- [ ] traits
+
+#### Q27. Which statement about if-else-if-else statements is true?
+- [ ] If the first else-if does not succeed, then no other else-ifs are tested.
+- [ ] If an else-if does not succeed, then none of the remaining else-if statements or elses will be tested.
+- [ ] All else-if statements are tested in all cases.
+- [ ] If an else-if succeeds, then none of the remaining else-if statements or elses will tested.
+
+#### Q28. What do you call the process of changing the definition of an inherited method?
+- [ ] recursive methods
+- [ ] currying methods
+- [ ] redefining methods
+- [ ] overriding methods
+
+#### Q29. What is an advantage of an immutable object?
+- [ ] Immutable objects use less memory than their mutable counterparts.
+- [ ] Immutable objects do not require error handling.
+- [ ] Immutable objects can be used in classes, mutable objects cannot.
+- [ ] Immutable objects are threadsafe.
+
+#### Q30. What is the code below equivalent to?
+```
+myClass.foreach(println _)
+```
+- [ ] myClass.foreach(println ())
+- [ ] myClass.foreach(print NIL)
+- [ ] myClass.loop(println ())
+- [ ] myClass.foreach(x => println(x))
+
+#### Q31. What is an advantage of an immutable object?
+- [ ] Immutable objects use less memory than their mutable counterparts.
+- [ ] Immutable objects do not require error handling.
+- [ ] Immutable objects can be used in classes, mutable objects cannot.
+- [ ] Immutable objects are threadsafe.
+
+#### Q32. You want to create an iteration loop that tests the condition at the end of the loop body. Which iteration would you use?
+- [ ] do-while loop
+- [ ] while loop
+- [ ] for loop
+- [ ] do-until loop
+
+#### Q33. What can you use to make querying a database more efficient, by avoiding the need to parse the SQL string every time a query is executed from Scala?
+- [ ] database driver
+- [ ] connection
+- [ ] prepared statement
+- [ ] SQL view
+
+#### Q34. Which is _not_ a member of the collections hierarchy?
+- [ ] Set
+- [ ] Seq
+- [ ] Hash
+- [ ] Map
+
+#### Q35. Which term makes the contents of packages available without prefixing?
+- [ ] use
+- [ ] include
+- [ ] import
+- [ ] assertion
+
+#### Q36. If you wanted to find the remainder after division, what operator would you use?
+- [ ] %
+- [ ] DIV
+- [ ] //
+- [ ] /
+
+#### Q37. What are defined inside a class definition?
+- [ ] method
+- [ ] fields and methods
+- [ ] fields, methods, and packages
+- [ ] fields
+
+#### Q38. What defines methods and fields that can then be reused by mixing into classes?
+- [ ] singleton
+- [ ] assertion
+- [ ] trait
+- [ ] monad

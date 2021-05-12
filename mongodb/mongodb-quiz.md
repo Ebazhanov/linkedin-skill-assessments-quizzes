@@ -436,20 +436,14 @@
 
 #### Q63. MongoDB ships with a variety of files. Which file runs the MongoDB shell?
 
-- [X] mongo
-
+- [x] mongo
 - [ ] mongo-s
-
 - [ ] shell
-
 - [ ] mongo-shell
 
 #### Q64. How can you view the execution performance statistics for a query?
 
 - [ ] `db.performance.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id:{city:"$city"}, number: {$sum: 1}}}, {$sort : {number: -1}}])`
-
 - [ ] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number:{$sum:1}}}, {$sort: {number:-1}}]).explain("executionStats")`
-
 - [ ] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group:{_id: {city: "$city"}, number: {$sum: 1}}}, {$sort: {number: -1}}]).explain()`
-
 - [ ] `db.members.aggregate([ {$match: {gender: """Female"""}}, {$group: {_id: {city: """$city"""}, number: {$sum:1}}}, {$sort: {number: -1}}]).number()`
