@@ -3395,6 +3395,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "pieterclaerhout",
+      "name": "Pieter Claerhout",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74731?v=4",
+      "profile": "https://www.yellowduck.be",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
