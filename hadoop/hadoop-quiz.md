@@ -149,3 +149,39 @@
 - [ ] S3N
 - [ ] S3
 - [ ] the EMR S3
+
+#### Q26. HBase works with which type of schema enforcement?
+- [ ] schema on write
+- [ ] no schema
+- [ ] external schema
+- [ ] schema on read
+
+#### Q27. HDFS file are of what type?
+- [ ] read-write
+- [ ] read-only
+- [ ] write-only
+- [ ] append-only
+
+#### Q28. A distributed cache file path can originate from what location?
+- [ ] hdfs or top
+- [ ] http
+- [ ] hdfs or http
+- [ ] hdfs
+
+#### Q29. Which library should you use to perform ETL-type MapReduce jobs?
+- [ ] Hive 
+- [ ] Pig
+- [ ] Impala
+- [ ] Mahout
+
+#### Q30. What is the output of the Reducer?
+- [ ] a relational table
+- [ ] an update to the input file
+- [ ] a single, combined list
+- [ ] a set of <key, value> pairs
+
+#### Q31. To optimize a Mapper, what should you perform first?
+- [ ] Override the default Partitioner.
+- [ ] Skip bad records.
+- [ ] Break up Mappers that do more than one task into multiple Mappers.
+- [ ] Combine Mappers that do one task into large Mappers.
