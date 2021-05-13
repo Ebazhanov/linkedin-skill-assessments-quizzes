@@ -316,13 +316,84 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] </head>
 
 #### Q43. Where can you find the official WordPress documentation and usage guide? 
-- [ ] support.wordpress.com
-- [ ] developer.wordpress.com
-- [x] developer.wordpress.org
-- [ ] support.wordpress.org
+- [ ] `support.wordpress.com`
+- [ ] `developer.wordpress.com`
+- [x] `developer.wordpress.org`
+- [ ] `support.wordpress.org`
 
 #### Q44. How would you use CSS to ensure your theme was mobile responsive? 
 - [ ] Use CSS grid to create responsive layouts.
 - [ ] Use media queries to add breakpoints for different screen sizes.
 - [ ] Use Flexbox to create flexible page layouts. 
 - [x] all of these answers
+
+#### Q45. The Block API enables developers to register custom blocks in themes or plugins. How would you register a custom block?
+- [ ] Use the registerBlockName() function.
+- [ ] Use the createGutenBlock() function.
+- [ ] Use a block template.
+- [ ] Use the registerBlockType() function.
+
+#### Q46. Which software development principle, often used in WordPress, aims to reduce the repetition of code?
+- [ ] RRR
+- [ ] WET
+- [ ] DRY
+- [ ] KISS
+
+#### Q47. In a standard template file, how often does the WordPress Loop run?
+- [ ] It runs once per post in the database.
+- [ ] It runs once.
+- [ ] The Loop doesn't run in template files.
+- [ ] It runs once per fetched post.
+
+#### Q48. Which is not a suggested performance improvement for your WordPress website?
+- [ ] The site should run the most recent version of WordPress.
+- [ ] Remove or inactivate unnecessary plugins.
+- [ ] UTF8 is supported.
+- [ ] Choose a very recent version of PHP.
+
+#### Q49. On a regular WordPress install, what is the difference between transients and the object cache?
+- [ ] Transients are persistent and write to the wp_options. The object cache persists only for the particular page load.
+- [ ] Transients are stored in the WordPress database. The object cache is stored on the server where the WordPress install is located.
+- [ ] Transients are available for the duration of a user session and apply to all page components. The object cache is available only for scripts.
+- [ ] Transients persist only for the particular page load. The object cache is persistent and writes to the wp_options table.
+
+#### Q50. For the majority of modern themes, what is the standart method used to customize various details of site appearance and features, such as changing the site description or adding a logo and favicons?
+- [ ] Theme settings
+- [ ] wp-config.php
+- [ ] Customizer
+- [ ] WordPress settings
+
+#### Q51. You can harden your WordPress site security by adding ____ to your wp-config.php file?
+- [ ] database usernames and passwords
+- [ ] unique keys and salts
+- [ ] accessibility
+- [ ] documentation
+
+#### Q52. According to WordPress PHP coding standards for inline comments, how would you write a single-line comment in a PHP document?
+- [ ] 
+/*
+ * This is a single line comment
+ */
+   
+- [ ] // This is a single line comment.
+- [ ] <!-- This is a single line comment -->
+- [ ] // This is a single line comment
+
+#### Q53. If you have pretty permalinks enabled on a WordPress site, the REST API index is exposed by appending what to the end of the site URL? (for example, http://example.com/answer/) Note that the index provides information regarding which routes are available for that particular WordPress install.
+- [ ] `http://example.com/wp-json/`
+- [ ] `http://example.com/wp-admin/`
+- [ ] `http://example.com/wp-rest/`
+- [ ] `http://example.com/wp-rest-api/`
+
+#### Q54. What is the process of marking the code you write so that it is ready for translation?
+- [ ] internationalization
+- [ ] localization
+- [ ] translation
+- [ ] using GlotPress
+
+#### Q55. In your wp-config.php file, you've added the following line of code. What does it do?
+`define( 'DISALLOW_FILE_EDIT', true );`
+- [ ] prevents any non-admin user from directly editing theme or plugin files
+- [ ] disables the theme and plugin editor in the WordPress admin
+- [ ] disables the ability to edit core WordPress files from either within the WordPress admin or via direct file access
+- [ ] sets read-only permissions on all files in the WordPress install
