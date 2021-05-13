@@ -954,4 +954,4 @@ def self.get_next_card(self):
 - [ ] A set is an ordered collection of non-unique items. A list is an unordered collection of unique items.
 - [ ] A set is an ordered collection of unique items. A list is an unordered collection of non-unique items.
 - [ ] Elements can be retrieved from a list but they cannot be retrieved from a set.
-- [ ] A set is an unordered collection of unique items. A list is an ordered collection of non-unique items.
+- [x] A set is an unordered collection of unique items. A list is an ordered collection of non-unique items.
