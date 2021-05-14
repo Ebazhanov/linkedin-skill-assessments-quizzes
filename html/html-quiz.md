@@ -1161,7 +1161,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 <title>
 ```
 
-- [ ]
+- [X]
   
 ```HTML
 <wbr> 
