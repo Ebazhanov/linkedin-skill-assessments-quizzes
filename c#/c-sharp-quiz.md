@@ -1,4 +1,4 @@
-## C# Assessment
+## C#
 
 #### Q1. In which of these situations are interfaces better than abstract classes?
 
@@ -133,18 +133,16 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [ ] a value type that can be used only with an abstract class
 - [x] an instance of a class or struct that includes fields, properties, and/or methods
 
-#### Q14. Which code snippet declares an anonymous type named usedData?
+#### Q14. Which code snippet declares an anonymous type named userData?
 
-- [ ] var<T> userData = new <T> { name = "John", age = 32 };
+- [ ] var<<!---->T> userData = new <<!---->T> { name = "John", age = 32 };
 - [x] var userData = new { name = "John", age = 32 };
 - [ ] AType userData = new AType { name = "John", age = 32 };
 - [ ] Anonymous<T> userData = new Anonymous<T> { name = "John", age = 32 };
 
 #### Q15. What will be returned when this method is executed?
 
-    `
-        public void userInput(string charParamters) { }
-    `
+`public void userInput(string charParamters) { }`
 
 - [x] nothing
 - [ ] a Boolean
@@ -275,9 +273,7 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 #### Q31. Given this enumeration, how would you access the integer-type value of 'AppState.Loading'?
 
-    `
-    enum AppState { OffLine, Loading, Ready }
-    `
+`enum AppState { OffLine, Loading, Ready }`
 
 - [ ] string currentState = (string)AppState.Loading;
 - [ ] string currentState = AppState.Loading.integralVal;
@@ -350,48 +346,124 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [x] sealed class User
 - [ ] private sealed class User
 
-#### Q40. How would you write a delegeate named ResultCallback with an int parameter named responseCode?
+#### Q40. What is the correct syntax for a new generic list of strings named contacts? (similar to Q26)
 
-- [ ] `public delegate void ResultCallback<(int) responseCode>`;
-- [ ] `public delegate ResultCallback(int responseCode)`;
-- [x] `public delegate void ResultCallback(int responseCode)`;
-- [ ] `public void delegate ResultCallback<int responseCode>`;
+- [ ] var contacts = new List<string>();
+- [ ] var contacts = new List(string);
+- [ ] public List<string names> contacts = new List<string names>();
+- [ ] public List(string names) contacts = new List(string names);
 
 #### Q41. What is the difference between non-static and static classes?
 
-- [] non-static classes need to be initialized before use, while static classes do not
-- [] non-static classes are accessible only from an interface while static classes are accessible from anywhere
-- [] non-static classes need to initialize all class members at runtime, while static classes do not
-- [] non-static classes do not need to be initialized while static classes do
+- [x] non-static classes need to be initialized before use, while static classes do not
+      [reference](https://stackoverflow.com/questions/20451554/whats-the-function-of-a-static-constructor-in-a-non-static-class)
+- [ ] non-static classes are accessible only from an interface while static classes are accessible from anywhere
+- [ ] non-static classes need to initialize all class members at runtime, while static classes do not
+- [ ] non-static classes do not need to be initialized while static classes do
 
 #### Q42. Which characteristic prevents this code from compiling?
 
-public int age="28"
+`public int age="28"`
 
 - [x] type safety
-- [] single inheritance
-- [] dependency injection
-- [] multiple inheritance
+- [ ] single inheritance
+- [ ] dependency injection
+- [ ] multiple inheritance
 
 #### Q43. How would you serialize this class?
 
-public class User {}
+`public class User {}`
 
-- [] mark the User class with the DeserializableAttribute
-- [] Declare it as public serializable class User {}
-- [] Mark it with the SerializableAttribute
-- [] Declare it as private serializable class User{}
+- [ ] mark the User class with the DeserializableAttribute
+- [ ] Declare it as public serializable class User {}
+- [x] Mark it with the SerializableAttribute // [Serializable] public class User {}
+- [ ] Declare it as private serializable class User{}
 
 #### Q44. How would you write a delegate named ResultCallback with an int parameter named responseCode
 
-- [] public delegate ResultCallback(int responseCode)
-- [] public delegate void ResultCallback<(int) responseCode>;
-- [] public void delegate ResultCallback<int responseCode>;
+- [ ] public delegate ResultCallback(int responseCode)
+- [ ] public delegate void ResultCallback<(int) responseCode>;
+- [ ] public void delegate ResultCallback<int responseCode>;
 - [x] public delegate void ResultCallback(int responseCode);
 
 #### Q45. What is the difference between a static and non-static method?
 
-- [] non-static methods always need to have a void return type
-- [] non-static methods do not have access to static member variables
+- [ ] non-static methods always need to have a void return type
+- [ ] non-static methods do not have access to static member variables
 - [x] static methods do not have to instantiate an instance of the class to call the method
-- [] static methods always have to be public
+- [ ] static methods always have to be public
+
+#### Q46. What is the correct way to write an event named apiResult based on a delegate named ResultCallback?
+
+- [ ] public void event ResultCallback apiResult;
+- [ ] public event ResultCallback(() -> apiResult);
+- [ ] public event void ResultCallback
+- [x] public event ResultCallback apiResult;
+
+#### Q47. When will the code inside finally block be executed in a try-catch statement?
+
+- [ ] if there is an error, it won't execute at all
+- [ ] between the try and catch blocks
+- [x] after the try and catch blocks
+- [ ] when the finally block overrides the catch block and executes in its place
+
+#### Q48. What method correctly extends the string class?
+
+- [x] public static string IsvalidName(this string i, string value) {}
+- [ ] public static void IsvalidName(this string i, string value) {}
+- [ ] public string IsvalidName(this string i, string value) {}
+- [ ] public void IsvalidName(this string i, string value) {}
+
+#### Q49. How are C# classses limited?
+
+- [x] They do not support multiple inheritance.
+- [ ] They support multiple inheritance.
+- [ ] They can have only a set number of properties.
+- [ ] They can have only a set number of methods.
+
+#### Q50. What function do namespaces perform?
+- [ ] Namespaces calculate code coverage at runtime.
+- [ ] Namespaces compile application code together at compile time.
+- [ ] Namespaces group code together into a single repository.
+- [x] Namespaces separate code into groupings, control access, and void naming collisions.
+
+#### Q51. What is the correct way to write a public property with a private backing field?
+- [ ]
+```
+private int _password;
+pubic int Password = { get; set; }
+```
+- [ ]
+```private int _password;
+public int Password = _password;
+```
+- [ ]
+```
+private int _password;
+public int Password
+{
+get -> _password;
+set-> _password = value;
+}
+```
+- [x]
+```
+private int _password;
+public int Password
+{
+get { return _password; }
+set { _password = value; }
+}
+```
+
+#### Q52. What is a thread pool?
+- [ ] a collection of synchronous methods created during initialization that cannot be reused
+- [x] a collection of threads created during initialization that can be reused
+- [ ] a collection of threads only recognized at compile time that can be reused
+- [ ] a collection of asynchronous methods created at compile time that cannot be reused
+
+#### Q53. What is the most accurate description of a regular expression?
+- [ ] A regular expressions allows a variable to be passed by reference
+- [ ] A regular expression allows a class to conform to the Equatable protocol
+- [ ] A regular expression is a C# tool used to parse HTML
+- [x] A regular expression is a special text string for describing a search pattern

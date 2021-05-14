@@ -1,4 +1,4 @@
-## HTML Assessment
+## HTML
 
 #### Q1. What is the purpose of the `<track>` tag, and when should it be used?
 
@@ -28,7 +28,7 @@
 - [ ] as children of `<body>, <article>, <aside>, <nav>, and <section>` tags
 - [ ] as children of `<body>, <article>, <table>, and <section>` tags
 
-#### Q5. What's the best way to apply bold styling to text?
+#### Q5. What is the best way to apply bold styling to text?
 
 - [x] `<strong>`
 - [ ] Use CSS.
@@ -163,7 +163,7 @@
 #### Q17. What should fill the blank in the HTML code bellow?
 
 ```html
-<form method="post" action="mailto:info@linkedin.com" ____="text/plain"></form>
+<form method="post" action="mailto:info@linkedin.com" ____="text/plain" >
 ```
 
 - [x] enctype
@@ -216,7 +216,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [x]
 
-```html
+```markdown
 <p>
   On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said,
   <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
@@ -227,7 +227,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ]
 
-```html
+```markdown
 <p>
   On July 21, 1969, Neil Armstrong said,
   <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
@@ -238,7 +238,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ]
 
-```html
+```markdown
 <p>
   On July 21, 1969, Neil Armstrong said, <q>One small step for man, one giant leap for mankind.</q>
 </p>
@@ -246,7 +246,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ]
 
-```html
+```markdown
 <p>
   On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said,
   <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
@@ -279,9 +279,10 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ]
 
-```html
+```markdown
 <label for="example">Make a choice:</label>
 <datalist id="example">
+
   <option value="Choice 1"></option>
   <option value="Choice 2"></option>
   <option value="Choice 3"></option>
@@ -290,7 +291,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ]
 
-```html
+```markdown
 <p>Make a choice:</p>
 <input id="choices" name="example" />
 
@@ -303,7 +304,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ]
 
-```html
+```markdown
 <label for="example">Make a choice:</label>
 <input list="example" id="choices" name="choices" />
 
@@ -316,7 +317,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [x]
 
-```html
+```markdown
 <label for="example">Make a choice:</label>
 <input list="choices" id="example" name="example" />
 
@@ -349,13 +350,13 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [x] It displays image1.jpg at 1000px and higher and image2.jpg at 750px and higher, image3.jpg is a default in case `<picture>` is not supported.
 - [ ] It displays image1.jpg, image2.jpg and image3.jpg at 1000px and higher.
 
-#### Q26. What code will produce the table shown below?
+#### Q26. What code will produce this table?
 
 ![Table with yellow background](images/ss-4.png?raw=true)
 
 - [ ]
 
-```html
+```markdown
 <table>
   <scope cols="2" style="background-color: yellow">
   <tr>
@@ -373,7 +374,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [x]
 
-```html
+```markdown
 <table>
   <colgroup span="2" style="background-color: yellow">
   <tr>
@@ -391,7 +392,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ]
 
-```html
+```markdown
 <table>
   <group cols="2" style="background-color: yellow">
   <tr scope="row">
@@ -409,7 +410,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ]
 
-```html
+```markdown
 <table>
   <columns colspan="2" style="background-color: yellow">
   <tr>
@@ -432,16 +433,12 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] It draws a horizontal line.
 - [ ] It designates a shift of topic at the section level.
 
-<details><summary>Explanation</summary><p>
-
 This is a confusing question and there can be an arguments for both the second and the third options being correct.
 From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HTML `<hr>` element represents a thematic break between paragraph-level elements. Historically, this has been presented as a horizontal rule or line. While it may still be displayed as a horizontal rule in visual browsers, this element is now defined in semantic terms, rather than presentational terms, so if you wish to draw a horizontal line, you should do so using appropriate CSS.
 
-</p></details>
-
 #### Q28. What should fill the two blanks in the HTML code below?
 
-```html
+```markdown
 <section itemscope itemtype="http://schema.org/Restaurant">
   <h1 itemprop="name">Nadia's Garden</h1>
   <p itemscope ______ ______>
@@ -452,37 +449,41 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 ```
 
 - [ ] `itemprop="aggregateRating" itemref="http://schema.org/AggregateRating"`
-- [x] `itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating`
-- [ ] `itemid="aggregateRating" itemtype="http://schema.org/AggregateRating`
-- [ ] `itemid="aggregateRating" itemref="http://schema.org/AggregateRating`
+- [x] `itemprop="aggregateRating" itemtype="http://schema.org/AggregateRating"`
+- [ ] `itemid="aggregateRating" itemtype="http://schema.org/AggregateRating"`
+- [ ] `itemid="aggregateRating" itemref="http://schema.org/AggregateRating"`
 
 #### Q29. Which HTML snippet links back to the very top of a webpage?
 
 - [x]
 
-```html
+```markdown
 <a id="top"></a>
+
 <!-- placed at the top of the page -->
+
 <a href="#top">back to top</a>
 ```
 
 - [ ]
 
-```html
+```markdown
 <a name="top"></a>
+
 <!-- placed at the top of the page -->
+
 <a href="#top">back to top</a>
 ```
 
 - [ ]
 
-```html
+```markdown
 <a href="#">back to top</a> <a href="#top">back to top</a>
 ```
 
 - [ ]
 
-```html
+```markdown
 <button href="#">back to top</button> <button href="#top">back to top</button>
 ```
 
@@ -493,7 +494,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] `<hgroup> <q> <wbr>`
 - [ ] `<b> <i> <u>`
 
-#### Q31. The "**\_\_**"tag is used for marking up a short code snippet, while the **\_\_** tag is used for marking up a longer block of code.
+#### Q31. The `**\_\_**` tag is used for marking up a short code snippet, while the `**\_\_**` tag is used for marking up a longer block of code.
 
 - [ ] `<kdb>`, `<pre>`
 - [ ] `<pre>`, `<code>`
@@ -507,7 +508,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] It visually labels from fields.
 - [x] It programmatically associates a text label with an interface element.
 
-#### Q33. To get a link to open in a new window or tab, use the **\_\_** attribute.
+#### Q33. To get a link to open in a new window or tab, use the `**\_\_**` attribute.
 
 - [x] `_blank`
 - [ ] `_self`
@@ -542,11 +543,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 <p>we are fond of our <acronym title="three-letter acronym">TLAs</acronym> in web design.</p>
 ```
 
-<details><summary>Note</summary><p>
-
 `<acronym>` has been removed in HTML5 and shouldn't be used anymore. Instead web developers should use the `<abbr>` element.
-
-</p></details>
 
 #### Q35. What is the correctly nested markup for this list?
 
@@ -554,7 +551,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 - [ ]
 
-```html
+```markdown
 <ul>
   <li>
     office
@@ -574,19 +571,17 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 - [x]
 
-```html
+```markdown
 <ul>
-  <li>
-    office
+  <li>Office Supplies
     <ul>
-      <li>staple</li>
-      <li>paper</li>
+      <li>Stapler</li>
+      <li>Paper clips</li>
     </ul>
   </li>
-  <li>
-    groceries
+  <li>Groceries
     <ul>
-      <li>milk</li>
+      <li>Milk</li>
     </ul>
   </li>
 </ul>
@@ -594,7 +589,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 - [ ]
 
-```html
+```markdown
 <ul>
   <li>office</li>
   <li>staple</li>
@@ -602,66 +597,6 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
   <li>groceries</li>
   <li>milk</li>
 </ul>
-```
-
-#### Q36. What code will produce this table?
-
-| col1 (yellow)  | col2 (yellow)   | col3  |
-| -------------- | --------------- | ----- |
-| first (yellow) | second (yellow) | third |
-
-- [ ]
-
-```html
-<table>
-  <group cols=2 style='background-color:yellow'>
-  <tr scope=row>
-    <th>col1</th>
-    <th>col2</th>
-    <th>col3</th>
-  </tr>
-  <tr scope=row>
-    <td>first</td>
-    <td>second</td>
-    <td>third</td>
-  </tr>
-</table>
-```
-
-- [ ]
-
-```html
-<table>
-  <columns colspan=2 style=background-color:yellow>
-  <tr>
-    <th>col1</th>
-    <th>col2</th>
-    <th>col3</th>
-  </tr>
-  <tr>
-    <td>first</td>
-    <td>second</td>
-    <td>third</td>
-  </tr>
-</table>
-```
-
-- [x]
-
-```html
-<table>
-  <colgroup span=2 style=background-color:yellow>
-  <tr>
-    <th>col1</th>
-    <th>col2</th>
-    <th>col3</th>
-  </tr>
-  <tr>
-    <td>first</td>
-    <td>second</td>
-    <td>third</td>
-  </tr>
-</table>
 ```
 
 #### Q37. What should fill the blank below?
@@ -675,13 +610,13 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] device
 - [x] media
 
-#### Q38. What is the best semantic way to mark up the layout shown?
+#### Q38. What is semantically correct way to mark up this layout?
 
 ![quote](images/ss-5.png?raw=true)
 
 - [ ]
 
-```html
+```markdown
 <p>
   "Making money is what you have to do to sustain a business—being driven to make something of value
   and purpose is much more powerful."
@@ -691,7 +626,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 - [ ]
 
-```html
+```markdown
 <blockquote>
   <q
     >"Making money is what you have to do to sustain a business—being driven to make something of
@@ -703,7 +638,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 - [x]
 
-```html
+```markdown
 <blockquote>
   <p>
     "Making money is what you have to do to sustain a business—being driven to make something of
@@ -715,7 +650,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 - [ ]
 
-```html
+```markdown
 <section>
   <q
     >"Making money is what you have to do to sustain a business—being driven to make something of
@@ -748,7 +683,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 #### Q42. What does this code do?
 
-```html
+```markdown
 <audio controls>
   <source src="sound.mp3" type="audio/mpeg" />
   <source src="sound.ogg" type="audio/ogg" />
@@ -788,7 +723,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 - [ ]
 
-```html
+```markdown
 <tr>
   <td>Table cell 1</td>
   <td>Table cell 2</td>
@@ -800,7 +735,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 - [ ]
 
-```html
+```markdown
 <tr>
   <td>Table cell 1</td>
   <td>Table cell 2</td>
@@ -810,7 +745,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 - [x]
 
-```html
+```markdown
 <tr>
   <td>Table cell 1</td>
   <td>Table cell 2</td>
@@ -822,7 +757,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 - [ ]
 
-```html
+```markdown
 <tr>
   <td>Table cell 1</td>
   <td>Table cell 2</td>
@@ -843,7 +778,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 - [ ]
 
-```html
+```markdown
 <form>
   <legend>Title</legend>
   <fieldset>
@@ -856,7 +791,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 - [ ]
 
-```html
+```markdown
 <form>
   <fieldset>
     <legend>Title</legend>
@@ -869,7 +804,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 - [x]
 
-```html
+```markdown
 <form>
   <fieldset>
     <legend>Title</legend>
@@ -882,7 +817,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 - [ ]
 
-```html
+```markdown
 <form>
   <legend>Title</legend>
   <label for="name">Your name:</label>
@@ -944,7 +879,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 #### Q55. Review the code below. What is the absolute URL for a page called **page.html**?
 
 ```html
-<base href="http://www.linkedin.com/dir/">
+<base href="http://www.linkedin.com/dir/" />
 ```
 
 - [x] `http://www.linkedin.com/dir/page.html`
@@ -975,6 +910,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 #### Q59. Review the code below. How do you include subnavigation for Link 2 that includes a link?
 
+```markdown
 <ul>
   <li><!a href="#">Link 1</a></li>
   <li><!a href="#">Link 2</a>
@@ -984,10 +920,11 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
   </li>
   <li><!a href="#">Link 3</a></li>
 </ul>
+```
 
 - [ ]
 
-```html
+```markdown
 <nav><ul>
   <li><a href="#">Link 1</a></li>
   <li><a href="#">Link 2</a></li>
@@ -1000,7 +937,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 - [x]
 
-```html
+```markdown
 <nav><ul>
   <li><a href="#">Link 1</a></li>
   <li><a href="#">Link 2</a>
@@ -1014,7 +951,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 - [ ]
 
-```html
+```markdown
 <ul><nav>
   <li><a href="#">Link 1</a></li>
   <li><a href="#">Link 2</a>
@@ -1028,7 +965,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 - [ ]
 
-```html
+```markdown
 <nav><ul>
   <li><a href="#">Link 1</a></li>
   <li><a href="#">Link 2</a></li>
@@ -1053,7 +990,185 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] Inline elements can be nested inside block elements.
 - [x] Block elements can be nested inside inline elements.
 
-#### Q62. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
+#### Q62. What is the best semantic to use Quotes in HTML?
+
+`Steve Kruz Said: "He will Win"`
+
+- [ ] `<q>`
+- [x] `<quote>`
+- [ ] `<blockquote>`
+- [ ] `<notation>`
+
+#### Q63. What is the root element of an HTML document?
+
+- [ ] `<!DOCTYPE html>`
+- [x] `<html>`
+- [ ] `<root>`
+- [ ] `<body>`
+
+#### Q64. What is the semantic meaning of the `<hr>` tag?
+
+- [ ] It draws a horizontal line.
+- [ ] This tag is deprecated and should not be used.
+- [ ] It designates a separation of sections within an `<article>`.
+- [x] It designates a topic shift within a section at the paragraph level.
+
+#### Q65. How will a video look displayed on a fully loaded webpage if the `<video>` tag is used and the **autoplay** attribute is not set?
+
+- [ ] It will display a random frame from a video, unless the **poster** attribute is set.
+- [x] It will display the first frame of the video, unless the **poster** attribute is set.
+- [ ] It will display nothing unless the **poster** attribute is set.
+- [ ] It will display a black window unless the **poster** attribute is set.
+
+[Reference (w3schools)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_video)
+
+#### Q66. What is the correct way to describe an empty element?
+- [ ] It has opening and closing tags but no child content.
+- [ ] It display nothing on a website.
+- [x] It has no child content and no closing tag.
+- [ ] It has child content but no closing tag.
+
+[Reference (MDN Web Docs)](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element)
+
+#### Q67. What is the purpose of async in this code? 
+
+`<script async src="myscript.js"></script>`
+
+- [ ] It downloads the script from the server when resources allow.
+- [ ] It runs the script after HTML parsing is complete.
+- [x] It runs the script when the script is ready.
+- [ ] It pauses the parsing of HTML code while the script runs.
+
+#### Q68. What does this code?
+`<audio autoplay loop src="sound.mp3" type="audio/mpeg"></audio>`
+- [ ] When the **play** button is pressed, the browser plays the sounds over and over again until the user stops it.
+- [x] The browser plays the sound once automatically in the background. The user has no control over the sound.
+- [ ] The browser plays the sound automatically and continuously in the background. The user may stop the sound at any tune.
+- [ ] The browser plays the sound automatically and continuously in the background. The user has no control over the sound.
+
+#### Q69. What is the difference between the `<head>` and `<header>` tags?
+
+- [ ] There is only one `<head>` tag per page, while there may be many `<header>` tags.
+- [ ] The `<head>` tag may contain CSS and Javascript links, while the `<header>` tag may contain headings and navigational links.
+- [x] all of these answers
+- [ ] The `<head>` tag contains meta information, while the `<header>` tag contains navigation, logos, and other page identifying content.
+
+#### Q70. In this code, what is the purpose of defer?
+
+`<script defer src="myscript.js"></script>`
+
+- [ ] It downloads the script from the server when resources allow.
+- [X] It runs the script after HTML parsing is complete.
+- [ ] It runs the script when the script is ready.
+- [ ] It pauses the parsing of HTML code while the script runs.
+
+#### Q71. The code below contains some errors. Which choice corrects all of the errors?
+
+```html
+<table>
+  <tr>Cell 1</tr>
+  <td>Cell 2</td>
+  <caption>A table</caption>
+</table>
+```
+- [ ]
+
+```HTML
+<caption>A table</caption>
+  <table>
+    <td>
+      <tr>Cell 1</tr>
+      <tr>Cell 2</tr>
+    </td>
+  </table>
+```
+
+- [ ]
+
+```HTML
+<caption>A table</caption>
+<table>
+  <tr>
+    <td>Cell 1</td>
+    <td>Cell 2</td>
+  </tr>
+</table>
+```
+
+- [X]
+
+```HTML
+<table>
+  <caption>A table</caption>
+  <tr>
+    <td>Cell 1</td>
+    <td>Cell 2</td>
+  </tr>
+</table>
+```
+
+- [ ]
+
+```HTML
+<table>
+  <tr>
+    <td>Cell 1</td>
+    <td>Cell 2</td>
+  </tr>
+  <caption>A table</caption>
+</table>
+```
+
+#### Q72. Given the file and directory structure shown here, what is the correct element to place in file profit.html to link to info.html?
+
+![Image of footer](images/ss-7.png?raw=true)
+
+- [ ] ```<a href="../work/info.html">See Information </a>```
+- [X] ```<a href="../info.html">See Information </a>```
+- [ ] ```<a href="../../info.html">See Information </a>```
+- [ ] ```<a href="info.html">See Information </a>```
+
+#### Q73. When should you use the `<article>` element?
+
+- [ ] For blog posts and other social media items
+- [ ] For the main content area of your website
+- [ ] When the content stands alone as a unit, is suitable for syndication, or is reusable
+- [ ] To associate comments with a blog post
+
+#### Q74. Which list comprises three empty elements?
+
+- [ ]
+
+```HTML
+<area> 
+<embed> 
+<strong>
+```
+
+- [ ]
+
+```HTML
+<input> 
+<br> 
+<p>
+```
+
+- [ ]
+
+```HTML
+<link> 
+<meta> 
+<title>
+```
+
+- [X]
+  
+```HTML
+<wbr> 
+<base> 
+<source>
+```
+#### Q75. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
 
 - [x] <a href="tel: 802-555-1212">Call me</a>
 - [ ] <a href="phone">802-555-1212</a>
