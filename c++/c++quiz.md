@@ -1177,8 +1177,3 @@ printf("1/2 = %f",(float)(1/2));
 - [] 1/2 = 0 
 - [] 1/2 = 0.000000 << correct
 - [] 1/2 = 0.5 
-
-- [ ] c is d and d is c
-- [ ] c is A and d is 3
-- [x] c is 3 and d is A
-- [ ] c is c and d is d
