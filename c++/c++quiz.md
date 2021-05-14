@@ -369,10 +369,10 @@ void *ptr;
 int c=3; char d='A';
 std::printf("c is %d and d is %c",c,d);
 ```
-	- []c is d and d is c 
-	- []c is A and d is 3 
-	- []c is 3 and d is A << correct
-	- [] c is c and d is d 
+- [ ] c is d and d is c
+- [ ] c is A and d is 3
+- [x] c is 3 and d is A
+- [ ] c is c and d is d
 
 #### Q26. What is the output of this code?
 
