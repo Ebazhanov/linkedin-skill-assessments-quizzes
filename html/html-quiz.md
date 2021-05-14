@@ -1053,3 +1053,9 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] Inline elements can be nested inside block elements.
 - [x] Block elements can be nested inside inline elements.
 
+#### Q62. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
+
+- [x] <a href="tel: 802-555-1212">Call me</a>
+- [ ] <a href="phone">802-555-1212</a>
+- [ ] <a href="tel">802-555-1212</a>
+- [ ] <a href="phone: 802-555-1212">Call me</a>
