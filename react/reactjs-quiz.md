@@ -673,3 +673,48 @@ useEffect(() => {
 - [ ] `It will execute the code inside the function, but only after waiting to ensure that no other component is accessing the name variable.`
 - [ ] `It will update the value of name once and not run again until name is changed from the outside.`
 - [ ] `It will cause an infinite loop.`
+
+#### Q64. How would you add to this code, from React Router, to display a component called About?
+
+```javascript
+<Route path="/:id" />
+```
+
+- [ ] ```javascript
+          <Route path="/:id"> <About />
+          </Route>
+      ```
+- [ ] ```javascript
+          <Route path="/tid" about={Component} />
+      ```
+- [ ] ```javascript
+           <Route path="/:id" route={About} />
+      ```
+- [ ] ```javascript
+          <Route>
+            <About path="/:id" />
+          </Route>
+      ```      
+
+#### Q65. Which class-based component is equivalent to this function component?
+
+```javascript
+const Greeting ({ name }) > <h1>Hello {name}!</h1>;
+```
+
+- [ ] ```javascript
+          class Greeting extends React.Component {
+          constructor() { return <h1>Hello (this.props.name)!</h1>; }
+          }
+      ```
+- [ ] ```javascript
+         class Greeting extends React.Component { <h1>Hello (this.props.name}!</h1>; }
+      ```      
+- [ ] ```javascript
+         class Greeting extends React.Component { return <h1>Hello (this.props.name) 1</h1>; }
+      ```
+- [ ] ```javascript
+          class Greeting extends React.Component ( render({ name }) {
+            return <h1>Hello (name)} !</h1>;
+          })
+      ```                
