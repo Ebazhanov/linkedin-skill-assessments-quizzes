@@ -91,7 +91,7 @@ void *vptr=&g;
 ```
 - [ ] f = _(float _)vptr;
 - [ ] f = (float \*)vptr;
-- [x] f = (float)\*vptr;
+- [x] f = \*(float \*)vptr;
 - [ ] f = \*(float)vptr;
 
 #### Q6. What is this declaration an example of?
@@ -316,3 +316,18 @@ char *string[20] = { "one", "two", "three"};
 - [ ] 2.000000
 - [ ] a runtime error
 - [x] a compiler error
+
+
+#### Q28. What does this program create?
+```c
+#include <stdio.h>
+int main() {
+    int *p = NULL;
+    return 0;
+}
+```
+
+- [ ] a runtime error
+- [x] a NULL pointer
+- [ ] a compile error
+- [ ] a void pointer
