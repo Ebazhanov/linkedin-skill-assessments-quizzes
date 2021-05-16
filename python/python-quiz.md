@@ -955,3 +955,10 @@ def self.get_next_card(self):
 - [ ] A set is an ordered collection of unique items. A list is an unordered collection of non-unique items.
 - [ ] Elements can be retrieved from a list but they cannot be retrieved from a set.
 - [x] A set is an unordered collection of unique items. A list is an ordered collection of non-unique items.
+
+#### Q81. What is the correct way to call a function?
+
+- [x] get_max_num([57, 99, 31, 18])
+- [ ] call.(get_max_num)
+- [ ] def get_max_num([57, 99, 31, 18])
+- [ ] call.get_max_num([57, 99, 31, 18])
