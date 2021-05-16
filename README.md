@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-353-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-354-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -552,6 +552,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.yellowduck.be"><img src="https://avatars.githubusercontent.com/u/74731?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pieter Claerhout</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=pieterclaerhout" title="Code">💻</a> <a href="#design-pieterclaerhout" title="Design">🎨</a></td>
     <td align="center"><a href="https://shivam48972.github.io/portfolio/"><img src="https://avatars.githubusercontent.com/u/53830298?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shivam Agnihotri</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=shivam48972" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/RanjithReddy-Narra"><img src="https://avatars.githubusercontent.com/u/76155807?v=4?s=100" width="100px;" alt=""/><br /><sub><b>RanjithReddy-Narra</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=RanjithReddy-Narra" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/NikkiW96"><img src="https://avatars.githubusercontent.com/u/43293583?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nikita Wadhwani</b></sub></a><br /><a href="#design-NikkiW96" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=NikkiW96" title="Code">💻</a></td>
   </tr>
 </table>
 
