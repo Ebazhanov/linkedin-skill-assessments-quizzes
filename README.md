@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-357-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-358-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -556,6 +556,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/rsholokh"><img src="https://avatars.githubusercontent.com/u/67190621?v=4?s=100" width="100px;" alt=""/><br /><sub><b>rsholokh</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=rsholokh" title="Code">💻</a> <a href="#design-rsholokh" title="Design">🎨</a></td>
     <td align="center"><a href="http://salislab.net"><img src="https://avatars.githubusercontent.com/u/26147572?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ayaan Hossain</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ayaanhossain" title="Code">💻</a> <a href="#design-ayaanhossain" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/rajeshswarna123"><img src="https://avatars.githubusercontent.com/u/25494087?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rajesh Swarna</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=rajeshswarna123" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/denizetkar"><img src="https://avatars.githubusercontent.com/u/25102252?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Deniz Etkar</b></sub></a><br /><a href="#design-denizetkar" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=denizetkar" title="Code">💻</a></td>
   </tr>
 </table>
 
