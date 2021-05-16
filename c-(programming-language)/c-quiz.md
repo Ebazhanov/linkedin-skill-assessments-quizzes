@@ -91,7 +91,7 @@ void *vptr=&g;
 ```
 - [ ] f = _(float _)vptr;
 - [ ] f = (float \*)vptr;
-- [x] f = (float)\*vptr;
+- [x] f = \*(float \*)vptr;
 - [ ] f = \*(float)vptr;
 
 #### Q6. What is this declaration an example of?
