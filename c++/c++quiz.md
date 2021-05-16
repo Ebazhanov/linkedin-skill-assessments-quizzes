@@ -1097,3 +1097,10 @@ void std::mutex::lock(){
     while(this->try_lock());
 }
 ```
+
+#### Q62. What is the purpose of a destructor?
+
+- [X] It allows the programmer to write the necessary code to free the resources acquired by the object prior to deleting the object itself.
+- [ ] It deletes an object. One example of a destructor is the `delete()` function.
+- [ ] It terminates a program. This may be achieved as a regular function call or as an exception.
+- [ ] There are no destructors in C++.
