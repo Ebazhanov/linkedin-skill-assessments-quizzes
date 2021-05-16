@@ -908,14 +908,14 @@ def calculate_sales_tax(subtotal):
 #### Q77. What does a generator return?
 
 - [ ] None
-- [ ] An iterable object
+- [x] An iterable object
 - [ ] A linked list data structure from a non-empty list
 - [ ] All the keys of the given dictionary
 
 #### Q78. What is the difference between class attributes and instance attributes?
 
 - [ ] Instance attributes can be changed, but class attributes cannot be changed
-- [ ] Class attributes are shared by all instances of the class. Instance attributes may be unique to just that instance
+- [x] Class attributes are shared by all instances of the class. Instance attributes may be unique to just that instance
 - [ ] There is no difference between class attributes and instance attributes
 - [ ] Class attributes belong just to the class, not to instance of that class. Instance attributes are shared among all instances of a class
 
