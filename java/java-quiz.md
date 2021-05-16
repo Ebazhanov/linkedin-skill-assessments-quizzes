@@ -1084,7 +1084,28 @@ groucyButton.addActionListener(new ActionListener() {
 - [x] ```Integer.parseInt("21")```
 - [ ] ```String.valueOf("21")```
 
-#### Q78. Which operator is used to concatenate Strings in Java
+#### Q78. What method should be added to the Duck class to print the name Moby?
+
+```java
+public class Duck {
+    private String name;
+    
+    Duck(String name) {
+        this.name = name;
+    }
+    
+    public static void main(String[] args) {
+        System.out.println(new Duck("Moby"));
+    }
+}
+```
+
+- [x] ```public String toString() { return name; } ```
+- [ ] ```public void println() { System.out.println(name); } ```
+- [ ] ```String toString() { return this.name; } ```
+- [ ] ```public void toString() { System.out.println(this.name); } ```
+
+#### Q79. Which operator is used to concatenate Strings in Java
 
 - [x] +
 - [ ] &
