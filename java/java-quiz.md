@@ -922,7 +922,7 @@ public class MagicPower {
 public static void main(String[] args) {
     int x=5,y=10;
     swapsies(x,y);
-    System.out.println(x+"="+y);
+    System.out.println(x+" "+y);
 }
 
 static void swapsies(int a, int b) {
@@ -932,10 +932,10 @@ static void swapsies(int a, int b) {
 }
 ```
 
-- [ ] 10=10
-- [x] 5=10
-- [ ] 10=5
-- [ ] 5=5
+- [ ] 10 10
+- [x] 5 10
+- [ ] 10 5
+- [ ] 5 5
 
 #### Q63. What is the result of this code?
 
@@ -1055,7 +1055,7 @@ groucyButton.addActionListener(new ActionListener() {
 - [ ] Reflection.getName(this); Reflection.getMethods(this)
 - [ ] Reflection.getClass(this).getName(); Reflection.getClass(this).getMethods()
 
-#### Q74. What is a valid use of the hashCOde() method?
+#### Q74. What is a valid use of the hashCode() method?
 
 - [ ] moving objects from a List to a HashMap
 - [x] deciding if two instances of a class are equal
@@ -1083,3 +1083,10 @@ groucyButton.addActionListener(new ActionListener() {
 - [ ] ```String.toInt("21")```
 - [x] ```Integer.parseInt("21")```
 - [ ] ```String.valueOf("21")```
+
+#### Q78. Which operator is used to concatenate Strings in Java
+
+- [x] +
+- [ ] &
+- [ ] .
+- [ ] -
