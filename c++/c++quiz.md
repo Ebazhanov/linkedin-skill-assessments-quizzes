@@ -112,7 +112,7 @@ v2->push_back(5);
 ```
 
 - [ ] `*v1:{1,2,3,4}; *v2:{5};`
-- [x] `*v1:{1,2,3,4'5}; *v2:{1,2,3,4,5};`
+- [x] `*v1:{1,2,3,4,5}; *v2:{1,2,3,4,5};`
 - [ ] Error
 - [ ] `*v1:{1,2,3,4}; *v2:{1,2,3,5};`
 
@@ -121,7 +121,7 @@ v1 and v2 point to the same vector.
 #### Q10. Which of the following is not a difference between a class and a struct?
 
 - [ ] Because structs are part of the C programming language, there are some complexity between C and C++ structs. This is not the case with classes.
-- [ X ] Classes may have member functions; structs are private.
+- [X] Classes may have member functions; structs are private.
 - [ ] The default access specifier for members of struct is public, whereas for member of class, it is private.
 - [ ] Template type parameters can be declared with classes, but not with the struct keyword.
 
@@ -485,7 +485,7 @@ class Animal{
 }
 ```
 
-- [x] A
+- [ ] A
 
 ```cpp
 class Dog :: public Animal {
@@ -493,7 +493,7 @@ class Dog :: public Animal {
 };
 ```
 
-- [ ] B
+- [x] B
 
 ```cpp
 class Dog : public Animal {
@@ -1072,7 +1072,7 @@ std::sort(my_array.begin(), my_array.end(), &lambda);
 
 #### Q61. Which choice is the most reasonable implementation of the function std::mutex::lock() by using std::mutex::try_lock()?
 
-- [ ] A
+- [X] A
 ```cpp
 void std::mutex::lock(){
     while(!this->try_lock());
