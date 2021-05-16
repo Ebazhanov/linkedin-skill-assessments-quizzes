@@ -908,14 +908,14 @@ def calculate_sales_tax(subtotal):
 #### Q77. What does a generator return?
 
 - [ ] None
-- [ ] An iterable object
+- [x] An iterable object
 - [ ] A linked list data structure from a non-empty list
 - [ ] All the keys of the given dictionary
 
 #### Q78. What is the difference between class attributes and instance attributes?
 
 - [ ] Instance attributes can be changed, but class attributes cannot be changed
-- [ ] Class attributes are shared by all instances of the class. Instance attributes may be unique to just that instance
+- [x] Class attributes are shared by all instances of the class. Instance attributes may be unique to just that instance
 - [ ] There is no difference between class attributes and instance attributes
 - [ ] Class attributes belong just to the class, not to instance of that class. Instance attributes are shared among all instances of a class
 
@@ -955,3 +955,10 @@ def self.get_next_card(self):
 - [ ] A set is an ordered collection of unique items. A list is an unordered collection of non-unique items.
 - [ ] Elements can be retrieved from a list but they cannot be retrieved from a set.
 - [x] A set is an unordered collection of unique items. A list is an ordered collection of non-unique items.
+
+#### Q81. What is the correct way to call a function?
+
+- [x] get_max_num([57, 99, 31, 18])
+- [ ] call.(get_max_num)
+- [ ] def get_max_num([57, 99, 31, 18])
+- [ ] call.get_max_num([57, 99, 31, 18])
