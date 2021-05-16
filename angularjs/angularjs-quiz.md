@@ -152,7 +152,7 @@ export class ShoppingCartComponent {
 ```
 - [ ] It makes the `itemTotalChanged` class field public. 
 - [ ] It provides a way to bind values to the `itemTotalChanged` class field, like so: `<app-shopping-cart [itemTotalChanged]="newTotal"></app-shopping-cart>`. 
-- [ ] It provides a way to bind events to the `itemTotalChanged` class field, like so: `<app-shopping-cart (itemTotalChanged)="logNewTotal($event)"></app-shopping-cart>`. 
+- [x] It provides a way to bind events to the `itemTotalChanged` class field, like so: `<app-shopping-cart (itemTotalChanged)="logNewTotal($event)"></app-shopping-cart>`. 
 - [ ] It is simply a way to put a comment in front of a class field for documentation.
 
 
