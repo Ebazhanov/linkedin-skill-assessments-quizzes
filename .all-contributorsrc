@@ -3423,6 +3423,45 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "NikkiW96",
+      "name": "Nikita Wadhwani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43293583?v=4",
+      "profile": "https://github.com/NikkiW96",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "rsholokh",
+      "name": "rsholokh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67190621?v=4",
+      "profile": "https://github.com/rsholokh",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "ayaanhossain",
+      "name": "Ayaan Hossain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26147572?v=4",
+      "profile": "http://salislab.net",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "rajeshswarna123",
+      "name": "Rajesh Swarna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25494087?v=4",
+      "profile": "https://github.com/rajeshswarna123",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
