@@ -3462,6 +3462,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "denizetkar",
+      "name": "Deniz Etkar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25102252?v=4",
+      "profile": "https://github.com/denizetkar",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
