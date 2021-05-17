@@ -17,3 +17,10 @@
   ![B](images/Q1-B.jpg)
 - [ ] ![C](images/Q1-C.jpg)
 - [ ] ![D](images/Q1-D.jpg)
+
+#### Q2. Variables declared with the let keyword have what type of scope?
+
+- [x] function scope
+- [ ] block scope
+- [ ] inline scope
+- [ ] global scope
