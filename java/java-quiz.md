@@ -1111,3 +1111,16 @@ public class Duck {
 - [ ] &
 - [ ] .
 - [ ] -
+
+#### Q80. How many times does this loop print "exterminate"?
+
+```java
+for (int i = 44; i > 40; i--) {
+    System.out.println("exterminate");
+}
+```
+
+- [ ] two
+- [x] four
+- [ ] three
+- [ ] five
