@@ -112,7 +112,7 @@ v2->push_back(5);
 ```
 
 - [ ] `*v1:{1,2,3,4}; *v2:{5};`
-- [x] `*v1:{1,2,3,4'5}; *v2:{1,2,3,4,5};`
+- [x] `*v1:{1,2,3,4,5}; *v2:{1,2,3,4,5};`
 - [ ] Error
 - [ ] `*v1:{1,2,3,4}; *v2:{1,2,3,5};`
 
@@ -121,7 +121,7 @@ v1 and v2 point to the same vector.
 #### Q10. Which of the following is not a difference between a class and a struct?
 
 - [ ] Because structs are part of the C programming language, there are some complexity between C and C++ structs. This is not the case with classes.
-- [ X ] Classes may have member functions; structs are private.
+- [X] Classes may have member functions; structs are private.
 - [ ] The default access specifier for members of struct is public, whereas for member of class, it is private.
 - [ ] Template type parameters can be declared with classes, but not with the struct keyword.
 
@@ -485,7 +485,7 @@ class Animal{
 }
 ```
 
-- [x] A
+- [ ] A
 
 ```cpp
 class Dog :: public Animal {
@@ -493,7 +493,7 @@ class Dog :: public Animal {
 };
 ```
 
-- [ ] B
+- [x] B
 
 ```cpp
 class Dog : public Animal {
@@ -1072,7 +1072,7 @@ std::sort(my_array.begin(), my_array.end(), &lambda);
 
 #### Q61. Which choice is the most reasonable implementation of the function std::mutex::lock() by using std::mutex::try_lock()?
 
-- [ ] A
+- [X] A
 ```cpp
 void std::mutex::lock(){
     while(!this->try_lock());
@@ -1097,83 +1097,100 @@ void std::mutex::lock(){
     while(this->try_lock());
 }
 ```
-#### Q.62 What is the output of this code? 
+
+#### Q62. What is the purpose of a destructor?
+
+- [X] It allows the programmer to write the necessary code to free the resources acquired by the object prior to deleting the object itself.
+- [ ] It deletes an object. One example of a destructor is the `delete()` function.
+- [ ] It terminates a program. This may be achieved as a regular function call or as an exception.
+- [ ] There are no destructors in C++.
+
+#### Q.63 What is the output of this code? 
 
 ```c++
 	printf("1/2 = %f",(float)(1/2)); 
 ```
-	
-	- []1/2 = 0.499999 
-	- []1/2 = 0 
-	- []1/2 = 0.000000 << correct
-	- [] 1/2 = 0.5 
-	
-### Q.63 What is the difference between a public and a private class member?
 
-	- [] Public members are the same as global variables, so every part of the code has access to them. Private members are the same as  	automatic variables, so only their class has access to them.
- 	- [] Public members are made accessible to any running application. Private members are made accessible only to the application where   the object is instantiated.
-	- [] Public members will be compiled as shared variables in a multithreaded environment. Private members will be compiled as Thread-local variables.
-	- [] Public members can be accessed by any function. Private members can be accessed only by the same class's member functions and the friends of the class.
+- [ ] 1/2 = 0.499999 
+- [ ] 1/2 = 0 
+- [ ] 1/2 = 0.000000 << correct
+- [ ] 1/2 = 0.5 
+	
+### Q.64 What is the difference between a public and a private class member?
 
-### Q.64 What is the value of x after running this code?
+- [ ] Public members are the same as global variables, so every part of the code has access to them. Private members are the same as  	automatic variables, so only their class has access to them.
+- [ ] Public members are made accessible to any running application. Private members are made accessible only to the application where   the object is instantiated.
+- [ ] Public members will be compiled as shared variables in a multithreaded environment. Private members will be compiled as Thread-local variables.
+- [ ] Public members can be accessed by any function. Private members can be accessed only by the same class's member functions and the friends of the class.
+
+### Q.65 What is the value of x after running this code?
 	
 	```c++
 	int x=10, a=-3;
 	x=+a;
 	```
 
-	- []3
-	- []7
-	- []-3
-	- [] 13
+- [ ] 3
+- [ ] 7
+- [ ] -3
+- [ ] 13
 
-### Q.65 Which statement is true?
+### Q.66 Which statement is true?
 	
 	- []Only classes can have member variables and methods.
 	- []C++ supports multiple inheritance.
 	- []C++ supports only single inheritance.
 	- [] Only structs can inherit.
 
-### Q.66 Consider a pointer to void, named ptr, which has been set to point to a floating point variable g. Which choice is a valid way to dereference ptr to assign its pointed value to a float variable f later in the program?
+### Q.67 Consider a pointer to void, named ptr, which has been set to point to a floating point variable g. Which choice is a valid way to dereference ptr to assign its pointed value to a float variable f later in the program?
 
 ```c++
 	float g;
 	void *ptr=&g;
 ```
 
-	- []float f=*(float)ptr;
-	- []float f=(float *)ptr;
-	- []float f=(float)*ptr;
-	- [] float f=*(float *)ptr;		
+- [ ] float f=*(float)ptr;
+- [ ] float f=(float *)ptr;
+- [ ] float f=(float)*ptr;
+- [ ] float f=*(float *)ptr;		
 
-### Q.67 What is the .* operator and what does it do?
+### Q.68 What is the .* operator and what does it do?
 
-	- []It is the same as the class member access operator, or arrow operator (->), which allows you to access a member of an object through a pointer to the object.
-	- []It is the pointer to member operator, and it allows you to access a member of an object through a pointer to that specific class member.
-	- []It is the member access with address of operator, which returns the address of a class or struct member.
-	- [] It is a combination of the member access operator (.) and the dereference operator (*), so it allows you to access the object that a member pointer points to 
+- [ ] It is the same as the class member access operator, or arrow operator (->), which allows you to access a member of an object through a pointer to the object.
+- [ ] It is the pointer to member operator, and it allows you to access a member of an object through a pointer to that specific class member.
+- [ ] It is the member access with address of operator, which returns the address of a class or struct member.
+- [ ] It is a combination of the member access operator (.) and the dereference operator (*), so it allows you to access the object that a member pointer points to 
 
-### Q.68 For these declarations, which choice shows four equivalent ways to assign the character "y" in the string to a char variable c?
+### Q.69 For these declarations, which choice shows four equivalent ways to assign the character "y" in the string to a char variable c?
 
-	a)	c = buff[16];
-	  	C = str[5];
-	   	C = * (buff+16);
-	   	c = * (str+5);
-	b)	C = *(buff[15]);
-		C = * (str[4]);
-		c = buff+15;
-		C-str+4;
-	c)	c = buff[15];
-		C = str[4];
-		c = (buff+15);
-		C = *(str+4);
+- [ ]	
+```
+  c = buff[16];
+	C = str[5];
+	C = * (buff+16);
+	c = * (str+5);
+```
+- [ ]   
+```
+	C = *(buff[15]);
+	C = * (str[4]);
+	c = buff+15;
+	C-str+4;
+```
+- [ ] 
+```
+  c = buff[15];
+	C = str[4];
+	c = (buff+15);
+	C = *(str+4);
+```
 
-#### Q.69 What is the output of this code? 
+#### Q.70 What is the output of this code? 
 ```c++
 printf("1/2 = %f",(float)(1/2)); 
 ```
 
-- [] 1/2 = 0.499999 
-- [] 1/2 = 0 
-- [] 1/2 = 0.000000 << correct
-- [] 1/2 = 0.5 
+- [ ] 1/2 = 0.499999 
+- [ ] 1/2 = 0 
+- [x] 1/2 = 0.000000
+- [ ] 1/2 = 0.5 
