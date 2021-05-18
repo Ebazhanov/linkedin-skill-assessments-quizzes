@@ -3484,6 +3484,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "radzikoska123",
+      "name": "Jakub Radzik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42437524?v=4",
+      "profile": "http://jakub-radzik.ovh",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
