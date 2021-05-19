@@ -343,7 +343,7 @@ private String val;
 private String val;
 ```
 
-- [ ] D
+- [X] D
 
 ```java
 @Value("${my.property}") 
