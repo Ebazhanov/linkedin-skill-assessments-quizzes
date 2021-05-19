@@ -3503,6 +3503,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "arnonrdp",
+      "name": "ARNON",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26576201?v=4",
+      "profile": "https://github.com/arnonrdp",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
