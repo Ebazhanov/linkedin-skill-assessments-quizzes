@@ -83,7 +83,7 @@ let fruit = 'apple';
 - [ ] `const fuit = 'plum'`
 - [x] `fuit = 'plum'`
 
-#### Q10. What is the <label> element used for?
+#### Q10. What is the `<label>` element used for?
 
 - [ ] to identify the difference parts of a figure
 - [x] to explain what needs to be entered into a form field
