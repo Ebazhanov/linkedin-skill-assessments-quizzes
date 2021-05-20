@@ -331,3 +331,27 @@ int main() {
 - [x] a NULL pointer
 - [ ] a compile error
 - [ ] a void pointer
+
+
+#### Q29. What is an alternative way to write the expression (*x).y?
+
+- [ ] There is no equivalent.
+- [x] x->y
+- [ ] *x->y
+- [ ] y->x
+
+
+#### Q30. Compile time errors are static errors that can be found where in the code?
+
+- [x] in declarations and definitions
+- [ ] in functions and expressions
+- [ ] in syntax and semantics
+- [ ] in objects and statements
+
+
+#### Q31. File input and output (I/O) in C is heavily based on the way it is done ______?
+
+- [x] in Unix
+- [ ] in C++
+- [ ] in C#
+- [ ] in DOS
