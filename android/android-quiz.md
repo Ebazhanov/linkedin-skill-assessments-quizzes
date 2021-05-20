@@ -505,12 +505,12 @@ xml
 - [x] main
 
 #### Q39. Which definition will prevent other apps from accessing your `Activity` class via an `intent`?
-- [x] 
+- [ ] 
 ```
 xml
 	<activity android:name=".ExampleActivity" />
 ```
-- [ ] 
+- [x] 
 ```
 xml
 	<activity android:name=".ExampleActivity">
