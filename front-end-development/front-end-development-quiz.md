@@ -307,7 +307,8 @@ cite {
 
 
 #### Q33. In the context of this code, how would you describe user?
-```const user = {
+```
+const user = {
   given_name: 'Joe',
   family_name: 'Bloggs',
   age: 40,
