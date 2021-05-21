@@ -275,10 +275,10 @@ cite {
 
 #### Q29. You have placed an image in a directory named images and want to reference it from a page located in the root of your site. Which choice would correctly display the image on the page? 
 
-- [ ] <img src="image.jpg">
-- [ ] <a href="images/image.jpg"></a>
-- [ ] <img src="images/image.jpg">
-- [ ] <img href="image.jpg">
+- [ ] < img src="image.jpg">
+- [ ] < a href="images/image.jpg"></a>
+- [ ] < img src="images/image.jpg">
+- [ ] < img href="image.jpg">
 
 #### Q30. Which choice is a correct use of the parseInt() function in Javascript that parses a string and return an integer? 
 
