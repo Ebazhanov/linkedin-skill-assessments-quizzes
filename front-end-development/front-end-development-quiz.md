@@ -271,3 +271,28 @@ cite {
 - [ ] Your browser does not support HTML5 video.
 - [ ] The video is from a source that cannot be displayed in your location for legal reasons.
 - [x] The page is loaded via HTTPS, but the video is being served insecurely as HTTP and the browser is blocking it.
+
+
+#### Q29. You have placed an image in a directory named images and want to reference it from a page located in the root of your site. Which choice would correctly display the image on the page? 
+
+- [ ] <img src="image.jpg">
+- [ ] <a href="images/image.jpg"></a>
+- [ ] <img src="images/image.jpg">
+- [ ] <img href="image.jpg">
+
+#### Q30. Which choice is a correct use of the parseInt() function in Javascript that parses a string and return an integer? 
+
+- [ ] parseInt("six");
+- [ ] parse_int('6');
+- [x] parseInt("6");
+- [ ] parseint("6");
+
+
+#### Q31. How can you rewrite this function using arrow function syntax? 
+
+- [ ] let product => (x,y) {
+        x * y;
+      }
+- [ ] let product = (x,y) => x*y;
+- [ ] let product => x*y;
+- [ ] let product = (x,y) -> x*y;
