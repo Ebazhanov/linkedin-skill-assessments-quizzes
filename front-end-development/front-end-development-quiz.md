@@ -290,9 +290,31 @@ cite {
 
 #### Q31. How can you rewrite this function using arrow function syntax? 
 
-- [ ] let product => (x,y) {
-        x * y;
+- [ ] let product => (x,y) { <br />
+        x * y; <br />
       }
 - [ ] let product = (x,y) => x*y;
 - [ ] let product => x*y;
 - [ ] let product = (x,y) -> x*y;
+
+
+#### Q32. Lighthouse is a tool for auditing your website. Which choice is not a category of report offered by Lighthouse? 
+
+- [ ] performance
+- [ ] UX design
+- [ ] accessibility
+- [ ] SEO
+
+
+#### Q33. In the context of this code, how would you describe user?
+```const user = {
+  given_name: 'Joe',
+  family_name: 'Bloggs',
+  age: 40,
+}
+```
+
+- [ ] function
+- [ ] array
+- [ ] variable
+- [ ] object
