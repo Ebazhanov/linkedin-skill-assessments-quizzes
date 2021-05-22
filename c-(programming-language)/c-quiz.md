@@ -259,8 +259,8 @@ main() {
 
 #### Q23. What is the difference between scanf() and sscanf() functions?
 - [ ] The scanf() function reads data formatted as a string; The sscanf() function reads string input from the screen.
-- [x] The scanf() function reads formatted data from the keyword; The sscanf() function reads formatted input from a string.
-- [ ] The scanf() function reads string data from the keyword; The sscanf() function reads string data from a string.
+- [x] The scanf() function reads formatted data from the keyboard; The sscanf() function reads formatted input from a string.
+- [ ] The scanf() function reads string data from the keyboard; The sscanf() function reads string data from a string.
 - [ ] The scanf() function reads formatted data from a file; The sscanf() function reads input from a selected string
 
 #### Q24. What is not a valid command with this declaration?
@@ -331,3 +331,27 @@ int main() {
 - [x] a NULL pointer
 - [ ] a compile error
 - [ ] a void pointer
+
+
+#### Q29. What is an alternative way to write the expression (*x).y?
+
+- [ ] There is no equivalent.
+- [x] x->y
+- [ ] *x->y
+- [ ] y->x
+
+
+#### Q30. Compile time errors are static errors that can be found where in the code?
+
+- [x] in declarations and definitions
+- [ ] in functions and expressions
+- [ ] in syntax and semantics
+- [ ] in objects and statements
+
+
+#### Q31. File input and output (I/O) in C is heavily based on the way it is done ______?
+
+- [x] in Unix
+- [ ] in C++
+- [ ] in C#
+- [ ] in DOS
