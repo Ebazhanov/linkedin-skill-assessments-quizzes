@@ -574,7 +574,7 @@ xml
 #### Q45. What folder should you use for your app's launcher icons?
 - [ ] /drawable
 - [ ] /icon
-- [ ] /mipmap
+- [x] /mipmap
 - [ ] /launcher
 
 #### Q46. Which drawable definition allows you to achieve the shape below?
@@ -669,7 +669,7 @@ android {
 
 - [ ] to denote that a class, method, or field is visible only in test code.
 - [ ] to dentoe that a class, method or field has it's visibility increased to make code less testable.
-- [ ] to denote that a class, method, or field has it's visibility relaxed to make code testable.
+- [x] to denote that a class, method, or field has it's visibility relaxed to make code testable.
 - [ ] to throw a run-time error if a class, method, or field which this annotation is accessed improperly.
 
 #### Q52. Given an APK named app-internal-debug.apk produced from the build process, which statement is likely to be true?
@@ -686,14 +686,14 @@ android {
  
 - [ ] You have included incorect format information in your build.gradle file.
 - [ ] You have added more than 20 dependencies to your build.gradle.
-- [ ] You have exceeded the total number of methods that can be referenced within a single DEX file.
+- [x] You have exceeded the total number of methods that can be referenced within a single DEX file.
 - [ ] You have a NullPointerException in your code.
 
 #### Q54. Which statement, in build.gradle file, correctly denotes that the corresponding module is an Android library module?
 
 
 - [ ] apply plugin: 'com.module.library'
-- [ ] apply plugin: 'com.android.library'
+- [x] apply plugin: 'com.android.library'
 - [ ] apply plugin: 'com.module.library'
 - [ ] include plugin: 'com.module.library'
 
@@ -730,7 +730,7 @@ android {
    android:layout_marginBottom="@resources/spacing_medium"
    android:src=@drawable/map_pin />
 ```
-- [ ] 
+- [x] 
 ```
 <ImageView
    android:id=@+id/image_map_pin"
