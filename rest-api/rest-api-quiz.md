@@ -324,3 +324,10 @@
 - [x] `link relations`
 - [ ] `parsing`
 - [ ] `browsing`
+
+#### Q53.  Which REST constraint allows for the presence of caching, routing, and other systems between the client and server?
+
+- [ ] `Cacheable`
+- [x] `Layered System`
+- [ ] `Client-Server`
+- [ ] `Stateless`
