@@ -316,9 +316,9 @@
 ```
 - [ ] A
       ![img](image/00.jpeg)
-- [ ] B
+- [x] B
       ![img](image/01.jpeg)
-- [x] C
+- [ ] C
       ![img](image/02.jpeg)
 - [ ] D
       ![img](image/03.jpeg)
