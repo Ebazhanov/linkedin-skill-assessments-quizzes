@@ -16,6 +16,8 @@
 
 #### Q3. Review the code below. Which statement calls the addTax function and passes 50 as an argument?
 
+#### Q3. How would you use this function to find out how much tax should be paid on \$50?
+
 ```js
 function addTax(total) {
   return total * 1.05;
@@ -23,21 +25,6 @@ function addTax(total) {
 ```
 
 - [ ] addTax = 50;
-- [ ] return addTax 50;
-- [x] addTax(50);
-- [ ] addTax 50;
-
-#### Q3. How would you use this function to find out how much tax should be paid on \$50?
-
-`(Version 2, possibly an updated version)`
-
-```js
-function addTax(total) {
-  return total * 1.05;
-}
-```
-
-- [ ] addTax(\$50);
 - [ ] return addTax 50;
 - [x] addTax(50);
 - [ ] addTax 50;
@@ -235,6 +222,7 @@ for (var i = 0; i < 5; i++) {
 
 #### Q21. After the following code, what is the value of a.length?
 
+#### Q21. What will be logged to the console?
 ```js
 var a = ['dog', 'cat', 'hen'];
 a[100] = 'fox';
@@ -501,20 +489,6 @@ var b = (a = 3) ? true : false;
 - [ ] You can't use a ternary in the right-hand side of an assignment operator.
 - [ ] The code is using the deprecated var keyword.
 
-#### Q48. This program has a problem. What is it?
-
-`(Version 2, possibly an updated version)`
-
-```js
-var a;
-var b = (a = 3) ? true : false;
-```
-
-- [ ] You cannot use a ternary operator in the right-hand side of an assignment.
-- [ ] You cannot define a variable without initializing it first.
-- [x] The condition in the ternary statement is using the assignment operator.
-- [ ] The code is using the deprecated var keyword.
-
 #### Q49. Which statement references the DOM node created by the code shown?
 
 ```html
@@ -596,30 +570,14 @@ printA();
 - [x] undefined the undefined
 - [ ] undefined the 1
 
-#### Q55. For the following class, how do you get the value of 42 from "X" ?
-
-```javascript
-class X {
-  get Y() {
-    return 42;
-  }
-}
-var x = new X();
-```
-
-- [x] x.Y
-- [ ] x.Y()
-- [ ] x.get('Y')
-- [ ] x.get().Y
-
-#### Q56. How does the forEach() method differ from a for statement?
+#### Q55. How does the forEach() method differ from a for statement?
 
 - [ ] forEach allows you to specify your own iterator, whereas for does not.
 - [ ] forEach can be used only with strings, whereas for can be used with additional data types.
 - [x] forEach can be used only with an array, whereas for can be used with additional data types.
 - [ ] for loops can be nested; whereas forEach loops cannot.
 
-#### Q57. What will be logged to the console?
+#### Q56. What will be logged to the console?
 
 ```javascript
 'use strict';
@@ -635,91 +593,91 @@ new logThis();
 - [ ] windows
 - [x] {desc: "logger"}
 
-#### Q58. Which choice is an incorrect way to define an arrow function that returns an empty object?
+#### Q57. Which choice is an incorrect way to define an arrow function that returns an empty object?
 
 - [ ] => ({})
 - [x] => {}
 - [ ] => { return {};}
 - [ ] => (({}))
 
-#### Q59. Why might you choose to make your code asynchronous?
+#### Q58. Why might you choose to make your code asynchronous?
 
 - [ ] to start tasks that might take some time without blocking subsequent tasks from executing immediately
 - [x] to ensure that tasks further down in your code are not initiated until earlier tasks have completed
 - [ ] to make your code faster
 - [ ] to ensure that the call stack maintains a LIFO (Last in, First Out) structure
 
-#### Q60. Which expression evaluates to true?
+#### Q59. Which expression evaluates to true?
 
 - [ ] [3] == [3]
 - [x] 3 == '3'
 - [ ] 3 != '3'
 - [ ] 3 === '3'
 
-#### Q61. Which of these is a valid variable name?
+#### Q60. Which of these is a valid variable name?
 
 - [ ] 5thItem
 - [x] firstName
 - [ ] grand total
 - [ ] function
 
-#### Q62. Which method cancels event default behavior?
+#### Q61. Which method cancels event default behavior?
 
 - [ ] cancel()
 - [ ] stop()
 - [x] preventDefault()
 - [ ] prevent()
 
-#### Q63. Which method do you use to attach one DOM node to another?
+#### Q62. Which method do you use to attach one DOM node to another?
 
 - [ ] attachNode()
 - [ ] getNode()
 - [ ] querySelector()
 - [x] appendChild()
 
-#### Q64. Which statement is used to skip iteration of the loop?
+#### Q63. Which statement is used to skip iteration of the loop?
 
 - [ ] break
 - [ ] pass
 - [ ] skip
 - [x] continue
 
-#### Q65. Which choice is valid example for an arrow function?
+#### Q64. Which choice is valid example for an arrow function?
 
 - [x] (a,b) => c
 - [ ] a, b => {return c;}
 - [ ] a, b => c
 - [ ] { a, b } => c
 
-#### Q66. Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior?
+#### Q65. Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior?
 
 - [x] class
 - [ ] generator function
 - [ ] map
 - [ ] proxy
 
-#### Q67. How do you add a comment to JavaScript code?
+#### Q66. How do you add a comment to JavaScript code?
 
 - [ ] ! This is a comment
 - [ ] # This is a comment
 - [ ] \\ This is a comment
 - [x] // This is a comment
 
-#### Q68. If you attempt to call a value as a function but the value is not a function, what kind of error would you get?
+#### Q67. If you attempt to call a value as a function but the value is not a function, what kind of error would you get?
 
 - [x] TypeError
 - [ ] SystemError
 - [ ] SyntaxError
 - [ ] LogicError
 
-#### Q69. Which method is called automatically when an object is initialized?
+#### Q68. Which method is called automatically when an object is initialized?
 
 - [ ] create()
 - [ ] new()
 - [x] constructor()
 - [ ] init()
 
-#### Q70. What is the result of running the statement shown?
+#### Q69. What is the result of running the statement shown?
 
 ```javascript
 let a = 5;
@@ -731,7 +689,7 @@ console.log(++a);
 - [x] 6
 - [ ] 5
 
-#### Q71. You've written the event listener shown below for a form button, but each time you click the button, the page reloads. Which statement would stop this from happening?
+#### Q70. You've written the event listener shown below for a form button, but each time you click the button, the page reloads. Which statement would stop this from happening?
 
 ```javascript
 button.addEventListener(
@@ -748,41 +706,41 @@ button.addEventListener(
 - [ ] button.blockReload();
 - [x] e.preventDefault();
 
-#### Q72. Which statement represents the starting code converted to an IIFE?
+#### Q71. Which statement represents the starting code converted to an IIFE?
 
 - [ ] `function() { console.log('lorem ipsum'); }()();`
 - [ ] `function() { console.log('lorem ipsum'); }();`
 - [x] `(function() { console.log('lorem ipsum'); })();`
 
-#### Q73. Which statement selects all img elements in the DOM tree?
+#### Q72. Which statement selects all img elements in the DOM tree?
 
 - [ ] `Document.querySelector('img')`
 - [ ] `Document.querySelectorAll('<img>')`
 - [x] `Document.querySelectorAll('img')`
 - [ ] `Document.querySelector('<img>')`
 
-#### Q74. Why would you choose an asynchronous structure for your code?
+#### Q73. Why would you choose an asynchronous structure for your code?
 
 - [ ] To use ES6 syntax
 - [ ] To start tasks that might take some time without blocking subsequent tasks from executing immediately
 - [ ] To ensure that parsers enforce all JavaScript syntax rules when processing your code
 - [x] To ensure that tasks further down in your code aren't initiated until earlier tasks have completed
 
-#### Q75. What is the HTTP verb to request the contents of an existing resource?
+#### Q74. What is the HTTP verb to request the contents of an existing resource?
 
 - [ ] DELETE
 - [x] GET
 - [ ] PATCH
 - [ ] POST
 
-#### Q76. Which event is fired on a text field within a form when a user tabs to it, or clicks or touches it?
+#### Q75. Which event is fired on a text field within a form when a user tabs to it, or clicks or touches it?
 
 - [x] focus
 - [ ] blur
 - [ ] hover
 - [ ] enter
 
-#### Q77. What is the result in the console of running this code?
+#### Q76. What is the result in the console of running this code?
 
 ```javascript
 function logThis() {
@@ -796,52 +754,44 @@ logThis();
 - [ ] Function.prototype
 - [x] window
 
-#### Q78. Which class-based component is equivalent to this function component?
+#### Q77. Which class-based component is equivalent to this function component?
 
 ```javascript
 const Greeting = ({ name }) => <h1>Hello {name}!</h1>;
 ```
 
-- [x]
-
-```javascript
+- [x] `
 class Greeting extends React.Component {
   render() {
     return <h1>Hello {this.props.name}!</h1>;
   }
 }
-```
+`
 
-- [ ]
-
-```javascript
+- [ ] `
 class Greeting extends React.Component {
   constructor() {
     return <h1>Hello {this.props.name}!</h1>;
   }
 }
-```
+`
 
-- [ ]
-
-```javascript
+- [ ] `
 class Greeting extends React.Component {
-    <h1>Hello {this.props.name}!</h1>;
+    <h>Hello {this.props.name}!</h>;
   }
 }
-```
+`
 
-- [ ]
-
-```javascript
+- [ ] `
 class Greeting extends React.Component {
   render({ name }) {
     return <h1>Hello {name}!</h1>;
   }
 }
-```
+`
 
-#### Q79. Which class-based lifecycle method would be called at the same time as this effect Hook?
+#### Q78. Which class-based lifecycle method would be called at the same time as this effect Hook?
 
 ```javascript
 useEffect(() => {
@@ -854,7 +804,7 @@ useEffect(() => {
 - [ ] render
 - [x] componentDidMount
 
-#### Q80. What is the output of this code?
+#### Q79. What is the output of this code?
 
 ```javascript
 var obj;
@@ -866,20 +816,7 @@ console.log(obj);
 - [x] undefined
 - [ ] null
 
-#### Q81. What will be logged to the console?
-
-```javascript
-var a = ['dog', 'cat', 'hen'];
-a[100] = 'fox';
-console.log(a.length);
-```
-
-- [ ] 4
-- [ ] 100
-- [x] 101
-- [ ] 3
-
-#### Q82. How would you use the TaxCalculator to determine the amount of tax on \$50?
+#### Q80. How would you use the TaxCalculator to determine the amount of tax on \$50?
 
 ```javascript
 class TaxCalculator {
