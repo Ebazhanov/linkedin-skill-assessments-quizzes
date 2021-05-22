@@ -3530,6 +3530,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "aamita96",
+      "name": "Amit Khatri",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31533685?v=4",
+      "profile": "https://github.com/aamita96",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
