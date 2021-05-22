@@ -3521,6 +3521,35 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "mr-shoxruxbek",
+      "name": "Shoxruxbek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41718373?v=4",
+      "profile": "http://shohruh.maxmudov@mail.ru",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "aamita96",
+      "name": "Amit Khatri",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31533685?v=4",
+      "profile": "https://github.com/aamita96",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "SABERGLOW",
+      "name": "Wali Ullah",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62393901?v=4",
+      "profile": "https://www.linkedin.com/in/sardarwaliullah/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

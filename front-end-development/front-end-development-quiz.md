@@ -282,3 +282,48 @@ cite {
 - [ ] skrt skrt
 - [ ] skrt skrt skrt skrt
 - [x] nothing
+
+#### Q30. You have placed an image in a directory named images and want to reference it from a page located in the root of your site. Which choice would correctly display the image on the page? 
+
+- [ ] < img src="image.jpg">
+- [ ] < a href="images/image.jpg"></a>
+- [ ] < img src="images/image.jpg">
+- [ ] < img href="image.jpg">
+
+#### Q31. Which choice is a correct use of the parseInt() function in Javascript that parses a string and return an integer? 
+
+- [ ] parseInt("six");
+- [ ] parse_int('6');
+- [x] parseInt("6");
+- [ ] parseint("6");
+
+
+#### Q32. How can you rewrite this function using arrow function syntax? 
+
+- [ ] let product => (x,y) { <br /> x * y; <br />}
+- [ ] let product = (x,y) => x*y;
+- [ ] let product => x*y;
+- [ ] let product = (x,y) -> x*y;
+
+
+#### Q33. Lighthouse is a tool for auditing your website. Which choice is not a category of report offered by Lighthouse? 
+
+- [ ] performance
+- [ ] UX design
+- [ ] accessibility
+- [ ] SEO
+
+
+#### Q34. In the context of this code, how would you describe user?
+```
+const user = {
+  given_name: 'Joe',
+  family_name: 'Bloggs',
+  age: 40,
+}
+```
+
+- [ ] function
+- [ ] array
+- [ ] variable
+- [ ] object
