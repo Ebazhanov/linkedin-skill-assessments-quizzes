@@ -844,7 +844,7 @@ def calculate_sales_tax(subtotal):
 - [ ] a generic object class with iterable parameter fields
 - [ ] a tuple subclass with non-iterable parameter fields
 
-#### Q69. Which statement accurately describes how items are added to and remnoved from a stack?
+#### Q69. Which statement accurately describes how items are added to and removed from a stack?
 
 - [ ] a stacks adds items to one side and removes items from the other side.
 - [x] a stacks adds items to the top and removes items from the top.
