@@ -287,7 +287,7 @@ cite {
 
 - [ ] < img src="image.jpg">
 - [ ] < a href="images/image.jpg"></a>
-- [ ] < img src="images/image.jpg">
+- [x] < img src="images/image.jpg">
 - [ ] < img href="image.jpg">
 
 #### Q31. Which choice is a correct use of the parseInt() function in Javascript that parses a string and return an integer? 
@@ -309,7 +309,7 @@ cite {
 #### Q33. Lighthouse is a tool for auditing your website. Which choice is not a category of report offered by Lighthouse? 
 
 - [ ] performance
-- [ ] UX design
+- [x] UX design
 - [ ] accessibility
 - [ ] SEO
 
