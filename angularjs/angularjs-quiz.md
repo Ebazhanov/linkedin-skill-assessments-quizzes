@@ -217,7 +217,7 @@ export class TitleCardComponent {
     titleText = 'User Data';
 }
 ```
-
+  
 - [ ] `<h1 data-title="titleText">{{ titleText }}</h1>`
 - [ ] `<h1 title="titleText">{{ titleText }}</h1>`
 - [x] `<h1 [title]="titleText">{{ titleText }}</h1>`
@@ -267,7 +267,7 @@ export class CalloutDirective {
     }
 }
 ```
-
+  
 - [x] They are setting the CalloutDirective.fontWeight field based on whether or not the mouse is over the DOM element. The HostListener then sets the font-weight CSS property to the fontWeight value.
 - [ ] They are setting up the directive to check the DOM element that it is on. If it has event bindings added for mouse enter and leave it will use this code. Otherwise nothing will happen.
 - [ ] This is an incorrect use of HostListener and HostBinding. The HostListener and HostBinding decorators do not do anything on directives; they work only when used on components.
@@ -282,6 +282,7 @@ export class CalloutDirective {
         minlength="4">
     <span *ngIf="">Invalid field data</span>
 ```
+  
 - [x] You can make use of a template reference variable and the exportAs feature that the ngModel directive has.
 - [ ] You can use the ngModel directive in combination with the input field name.
 - [ ] You can use a template reference variable for the HTML input element and then check the valid property off of that.
@@ -292,6 +293,7 @@ export class CalloutDirective {
 ```html
     <h1 #headerText>User List</h1>
 ```
+  
 - [x] an Angular ElementRef, a wrapper around a native element
 - [ ] the inner text of the `<h1>` element
 - [ ] a header component class
@@ -303,10 +305,11 @@ export class CalloutDirective {
     [ { provide: FormattedLogger, useClass: Logger }]
     [ { provide: FormattedLogger, useExisting: Logger }]
 ```
+  
 - [ ] They are the same. Both will result in a new instance of Logger that is bound to the FormattedLogger token.
 - [x] The useClass syntax tells the injector to make a new instance of Logger and bind that instance to the FormattedLogger token. The useExisting syntax refers to an already existing object instance declared as Logger.
- - [ ] Both of them are wrong. A strong type connot be used for useClass or useExisting.
- - [ ] They are the same. Both will result in the FormattedLogger token being an alias for the instance of Logger.
+- [ ] Both of them are wrong. A strong type connot be used for useClass or useExisting.
+- [ ] They are the same. Both will result in the FormattedLogger token being an alias for the instance of Logger.
 
  #### Q25. What is the purpose of the data property (seen in the example below) in a route configuration?
 
@@ -317,6 +320,7 @@ export class CalloutDirective {
         data: { accountSection:true }
     }
  ```
+  
  - [ ] a key/value mapping for setting @Input values on the routed component instance
  - [x] a way to include static, read-only data associated with the route that can be retrieved from the ActivatedRoute
  - [ ] a property on the route that can be used to load dynamic data for the route
