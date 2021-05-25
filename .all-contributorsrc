@@ -3580,6 +3580,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "KNeeraj038",
+      "name": "Kumar Neeraj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33743260?v=4",
+      "profile": "http://kneeraj.netlify.app",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
