@@ -217,8 +217,111 @@ export class TitleCardComponent {
     titleText = 'User Data';
 }
 ```
-
+  
 - [ ] `<h1 data-title="titleText">{{ titleText }}</h1>`
 - [ ] `<h1 title="titleText">{{ titleText }}</h1>`
 - [x] `<h1 [title]="titleText">{{ titleText }}</h1>`
 - [ ] `<h1 titleText>{{ titleText }}</h1>`
+
+#### Q18. What are Angular lifecycle hooks?
+
+- [ ] loggers for tracking the health of an Angular app
+- [ ] providers that can be used to track the instances of components
+- [ ] built-in pipes that can be used in templates for DOM events
+- [x] reserved named methods for components and directives that Angular will call during set times in its execution, and can be used to tap into those lifecycle moments
+
+#### Q19. Pick the best description for this template syntax code:
+
+```html
+<span>Boss: {{job?.bossName}} </span>
+```
+- [ ] The ? is shorthand for the async pipe. The job value must be an Observable.
+- [x] It is using the safe navigation operator (?) on the job field. If the job field is undefined, the access to the bossName will be ignored and no error will occur.
+- [ ] There is an error in the template syntax. The ? is not valid here.
+- [ ] It is diplaying the job value if it has one; otherwise it is displaying the bossName.
+
+#### Q20. How would you configure a route definition for a UserDetailComponent taht supports the URL path user/23 (where 23 represents the id of the requested user)?
+
+- [x] `{ path: 'user/:id', component: UserDetailComponent }` 
+- [ ] `{ url: 'user/:id', routedComponent: UserDetailComponent }`
+- [ ] `{ routedPath: 'user/:id', component: UserDetailComponent }`
+- [ ] `{ destination: new UserDetailComponent(), route: 'user/:id' }`
+
+#### Q21. What are the HostListener decorators and the HostBinding decorator doing in this directive?
+
+```javascript
+@Directive({
+    selector: '[appCallout]'
+})
+export class CalloutDirective {
+    @HostBinding('style.font-weight') fontWeight = 'normal';
+    
+    @HostListener('mouseenter') 
+    onMouseEnter() {
+        this.fontWeight = 'bold';
+    }
+
+    @HostListener('mouseleave')
+    onMouseLeave(){
+        this.fontWeight = 'normal';
+    }
+}
+```
+  
+- [x] They are setting the CalloutDirective.fontWeight field based on whether or not the mouse is over the DOM element. The HostListener then sets the font-weight CSS property to the fontWeight value.
+- [ ] They are setting up the directive to check the DOM element that it is on. If it has event bindings added for mouse enter and leave it will use this code. Otherwise nothing will happen.
+- [ ] This is an incorrect use of HostListener and HostBinding. The HostListener and HostBinding decorators do not do anything on directives; they work only when used on components.
+- [ ] If the DOM element that this directive is placed on has the CSS property font-weight set on it, the mouseenter and mouseleave events will get raised.
+
+#### Q22. What Angular template syntax can you use on this template-driven form field to access the field value and check for validation within the template markup?
+
+```html
+    <input type="text" ngModel
+        name="firstName"
+        required
+        minlength="4">
+    <span *ngIf="">Invalid field data</span>
+```
+  
+- [x] You can make use of a template reference variable and the exportAs feature that the ngModel directive has.
+- [ ] You can use the ngModel directive in combination with the input field name.
+- [ ] You can use a template reference variable for the HTML input element and then check the valid property off of that.
+- [ ] It is not possible to get access to the field value with template-driven forms. You must use reactive forms for that.
+
+#### Q23. What is the value type that will be stored in the headerText template reference variable in this markup?
+
+```html
+    <h1 #headerText>User List</h1>
+```
+  
+- [x] an Angular ElementRef, a wrapper around a native element
+- [ ] the inner text of the `<h1>` element
+- [ ] a header component class
+- [ ] the native DOM element type of HTMLHeadingElement
+
+#### Q24. What is the difference, if any, of the resulting code logic based on these two provider configurations?
+
+```javascript
+    [ { provide: FormattedLogger, useClass: Logger }]
+    [ { provide: FormattedLogger, useExisting: Logger }]
+```
+  
+- [ ] They are the same. Both will result in a new instance of Logger that is bound to the FormattedLogger token.
+- [x] The useClass syntax tells the injector to make a new instance of Logger and bind that instance to the FormattedLogger token. The useExisting syntax refers to an already existing object instance declared as Logger.
+- [ ] Both of them are wrong. A strong type connot be used for useClass or useExisting.
+- [ ] They are the same. Both will result in the FormattedLogger token being an alias for the instance of Logger.
+
+ #### Q25. What is the purpose of the data property (seen in the example below) in a route configuration?
+
+ ```javascript
+    {
+        path: 'customers',
+        component: CustomerListComponent,
+        data: { accountSection:true }
+    }
+ ```
+  
+ - [ ] a key/value mapping for setting @Input values on the routed component instance
+ - [x] a way to include static, read-only data associated with the route that can be retrieved from the ActivatedRoute
+ - [ ] a property on the route that can be used to load dynamic data for the route
+ - [ ] an object that will get auto-injected into the routed component's constructor.
