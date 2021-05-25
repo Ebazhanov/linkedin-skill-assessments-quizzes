@@ -299,3 +299,8 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] run, edit, print, loop
 - [ ] read, extend, print, loop
 
+### Q46. Which file does node-gyp use to read the build configuration of module ?
+- [ ] .gyprc
+- [x] binding.gyp
+- [ ] gyp.json
+- [ ] package.gyp
