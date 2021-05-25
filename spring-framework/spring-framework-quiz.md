@@ -163,7 +163,7 @@ public class SampleController {
 
 #### Q18. What is dependency injection?
 
-- [ ] a method by which objects define dependencies they need as abstractions that allows the framework to instantiate and configure them in a central location at runtime.
+- [x] a method by which objects define dependencies they need as abstractions that allows the framework to instantiate and configure them in a central location at runtime.
 - [ ] a paradigm where dependent code is injected into the bytecode of a Java application on a remote server.
 - [ ] a way of injecting remote dependencies into a pre-packaged JAR file from the file system.
 - [ ] a way of injecting remote dependencies into a pre-packaged WAR file from the file system.
@@ -214,7 +214,7 @@ public class SampleController {
 
 #### Q26. What is component scanning?
 
-- [ ] feature that scans packages for classes with specific annotations and, when found, creates their bean definitions within the IoC container
+- [x] feature that scans packages for classes with specific annotations and, when found, creates their bean definitions within the IoC container
 - [ ] paradigm where bytecode is actively scanned to identify additional optimizations to inject into components in the application context
 - [ ] a method by which cloud repositories are scanned to identify components for injection into an IoC container
 - [ ] a method by which binary data in a database is searched to identify components for injection into the IoC container
@@ -290,10 +290,10 @@ public class SampleController {
 
 #### Q37. Which are valid steps to take to enable JPA in Spring Boot?
 
-- [ ] Add an @Enable3paRepositories annotation to your configuration class and create a Spring Data Repository.
-- [ ] Add an @Enable3paEntities annotation to your configuration class, create a Spring Data YAML configuration file, and manually update the Spring XML config files to define your repository locations.
+- [x] Add an @EnableJpaRepositories annotation to your configuration class and create a Spring Data Repository.
+- [ ] Add an @EnableJpaEntities annotation to your configuration class, create a Spring Data YAML configuration file, and manually update the Spring XML config files to define your repository locations.
 - [ ] Add an @EnableDbFunctionality annotation to your configuration class, create a Spring Data XML configuration file, and manually update the Spring factories file to define your repositories.
-- [ ] Add an @InitOpaEntities annotation to your configuration class, create a Spring Data properties configuration file, and manually update the Spring startup parameters to define your repository locations.
+- [ ] Add an @InitJpaEntities annotation to your configuration class, create a Spring Data properties configuration file, and manually update the Spring startup parameters to define your repository locations.
 
 #### Q38. What is a transaction in the context of Spring Data?
 
@@ -305,7 +305,7 @@ public class SampleController {
 #### Q39. Modularization of a concern that cuts across multiple classes is known as a(n)___.
 
 - [ ] multiclass
-- [ ] aspect
+- [x] aspect
 - [ ] crosscut
 - [ ] sidecut
 
