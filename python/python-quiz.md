@@ -768,7 +768,7 @@ def __init__(self):
 
 - [ ] A decorator is similar to a class and should be used if you are doing functional programming instead of object oriented programming.
 - [ ] A decorator is a visual indicator to someone reading your code that a portion of your code is critical and should not be changed.
-- [x] You use the decorator to alter the functionality of a function without the without having to modify the functions code.
+- [x] You use the decorator to alter the functionality of a function without having to modify the functions code.
 - [ ] An import statement is preceded by a decorator, python knows to import the most recent version of whatever package or library is being imported.
 
 #### Q62. When would you use a for loop ?
@@ -844,7 +844,7 @@ def calculate_sales_tax(subtotal):
 - [ ] a generic object class with iterable parameter fields
 - [ ] a tuple subclass with non-iterable parameter fields
 
-#### Q69. Which statement accurately describes how items are added to and remnoved from a stack?
+#### Q69. Which statement accurately describes how items are added to and removed from a stack?
 
 - [ ] a stacks adds items to one side and removes items from the other side.
 - [x] a stacks adds items to the top and removes items from the top.
