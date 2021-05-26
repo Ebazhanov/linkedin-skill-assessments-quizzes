@@ -600,3 +600,21 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [x] "key": "value"
 - [ ] key, "value"
 - [ ] 'key': 'value'
+
+#### Q55. What data type is encoded in the outermost component of the JSON shown?
+```json
+{
+ "result": [
+   {
+     "year": 2024
+   },
+   {
+     "location": "unknown"
+   }
+ ] 
+}
+```
+- [ ] number
+- [ ] array
+- [ ] string
+- [x] object
