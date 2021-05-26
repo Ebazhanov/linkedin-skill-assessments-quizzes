@@ -83,7 +83,7 @@ let fruit = 'apple';
 - [ ] `const fuit = 'plum'`
 - [x] `fuit = 'plum'`
 
-#### Q10. What is the <label> element used for?
+#### Q10. What is the `<label>` element used for?
 
 - [ ] to identify the difference parts of a figure
 - [x] to explain what needs to be entered into a form field
@@ -271,3 +271,61 @@ cite {
 - [ ] Your browser does not support HTML5 video.
 - [ ] The video is from a source that cannot be displayed in your location for legal reasons.
 - [x] The page is loaded via HTTPS, but the video is being served insecurely as HTTP and the browser is blocking it.
+
+
+#### Q29. What will this loop print?
+          let max = 3;
+          for (i = 0; i > max; i++) {
+            document.write("skrt ");
+          }
+
+- [ ] skrt skrt skrt
+- [ ] skrt skrt
+- [ ] skrt skrt skrt skrt
+- [x] nothing
+
+#### Q30. You have placed an image in a directory named images and want to reference it from a page located in the root of your site. Which choice would correctly display the image on the page? 
+
+- [ ] < img src="image.jpg">
+- [ ] < a href="images/image.jpg"></a>
+- [x] < img src="images/image.jpg">
+- [ ] < img href="image.jpg">
+
+#### Q31. Which choice is a correct use of the parseInt() function in Javascript that parses a string and return an integer? 
+
+- [ ] parseInt("six");
+- [ ] parse_int('6');
+- [x] parseInt("6");
+- [ ] parseint("6");
+
+
+#### Q32. How can you rewrite this function using arrow function syntax? 
+
+- [ ] let product => (x,y) { <br /> x * y; <br />}
+- [ ] let product = (x,y) => x*y;
+- [ ] let product => x*y;
+- [ ] let product = (x,y) -> x*y;
+
+
+#### Q33. Lighthouse is a tool for auditing your website. Which choice is not a category of report offered by Lighthouse? 
+
+- [ ] performance
+- [x] UX design
+- [ ] accessibility
+- [ ] SEO
+
+
+#### Q34. In the context of this code, how would you describe user?
+```
+const user = {
+  given_name: 'Joe',
+  family_name: 'Bloggs',
+  age: 40,
+}
+```
+
+- [ ] function
+- [ ] array
+- [ ] variable
+- [ ] object
+

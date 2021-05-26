@@ -6,7 +6,7 @@
 - [x] `Increase the configured memory value`
 - [ ] `Increase the configured concurrency value`
 
-#### Q2. How can additional code or content can be provided for Lambda?
+#### Q2. How can additional code or content be provided for your Lambda?
 - [ ] `blocks`
 - [x] `layers`
 - [ ] `aliases`
@@ -54,7 +54,7 @@
 - [x] `an AWS KMS key`
 - [ ] `an HTTP protocol `
 
-#### Q10. Lambda allows for running of what other things?
+#### Q10. Lambdas allow for running of what other things?
 - [ ] `binaries.`
 - [x] `all of these answers`
 - [ ] `executables`
@@ -72,7 +72,7 @@
 - [ ] `by editing inline`
 - [ ] `from an S3 bucket`
 
-#### Q13. You are performance-testing your Lambda to verify that you set the memory size adequately. Where do you verify the exectuon overhead?
+#### Q13. You are performance-testing your Lambda to verify that you set the memory size adequately. Where do you verify the execution overhead?
 - [ ] `CLoudWatch logs`
 - [ ] `DynamoDB logs`
 - [ ] `S3 logs`
@@ -126,7 +126,7 @@
 - [ ] `aws:demo;aws:demo`
 - [ ] `aws:demo;aws:DEMO`
 
-#### Q22. Outbound connections from Lambdas must be `**\_\_**`.
+#### Q22. Outbound connections from Lambdas must be ____.
 - [ ] `neither of these answers`
 - [ ] `UDP/IP`
 - [ ] `TCP/IP`
@@ -198,55 +198,43 @@
 - [ ] `X-Ray`
 - [ ] `DynamoDB`
 
-#### Q34. How can additional code or content be provided for your Lambda?
-- [ ] `aliases`
-- [ ] `blocks`
-- [ ] `handlers`
-- [x] `layers`
-
-#### Q35. Lambdas allow for running of what other things?
-- [ ] `binaries`
-- [ ] `executables`
-- [x] `all of these answers`
-- [ ] `shell scripts`
-
-#### Q37. You are creating a Lambda to trigger on change to files in an S3 bucket. Where should you put the bucket name?
+#### Q34. You are creating a Lambda to trigger on change to files in an S3 bucket. Where should you put the bucket name?
 - [ ] `in the Lambda function code`
 - [x] `in a Lambda environment variable`
 - [ ] `in the Lambda tags`
 - [ ] `in another S3 bucket`
 
-#### Q38. What action is needed before you can test a Lambda?
-- [ ] `Deploy the Lambda.`
+#### Q35. What action is needed before you can test a Lambda?
+- [ ] `Deploy the Lambda`
 - [ ] `Export the function`
 - [ ] `none of these answers`
-- [x] `Configure a test event.`
+- [x] `Configure a test event`
 
-#### Q39. What kind of packages can you use with Node.js for Lambdas?
+#### Q36. What kind of packages can you use with Node.js for Lambdas?
 - [ ] `Fleece`
 - [x] `NPM`
 - [ ] `none of these answers`
 - [ ] `Pod`
 
-#### Q41. Lambdas are monitored by default using which service?
+#### Q37. Lambdas are monitored by default using which service?
 - [ ] `CloudTrail`
 - [x] `CloudWatch`
 - [ ] `CloudFormation`
 - [ ] `LogWatch`
 
-#### Q42. What can trigger a Lambda function execution?
+#### Q38. What can trigger a Lambda function execution?
 - [ ] `a table definition`
 - [ ] `queue isolation`
 - [ ] `STS Write`
 - [x] `an SNS topic`
 
-#### Q43. You need to set an S3 event trigger on your Lambda to respond when data is added to your bucket from another S3 bucket. Which event type do you configure?
+#### Q39. You need to set an S3 event trigger on your Lambda to respond when data is added to your bucket from another S3 bucket. Which event type do you configure?
 - [ ] `POST`
 - [ ] `"All object create events"`
 - [x] `PUT`
 - [ ] `COPY`
 
-#### Q44. To make Lambdas more testable, it is AWS best practice to separate which of these?
+#### Q40. To make Lambdas more testable, it is AWS best practice to separate which of these?
 - [ ] `Lambda configuration from logging code`
 - [ ] `Lambda handler from logging code`
 - [x] `Lambda handler from core logic`

@@ -555,3 +555,10 @@ echo "\${VAR//man/rolling}"
 - [ ] This old man came man
 - [ ] This old man came rolling
 - [ ] This old came
+- [ ] 
+
+#### Q54. The shell looks at the contents of a particular variable to identify which programs it can run. What is the name of this variable?
+- [ ] $INCLUDE
+- [x] $PATH
+- [ ] $PROGRAM
+- [ ] $PATHS
