@@ -316,9 +316,9 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 #### Q39. When configuring a Samba share, how would the engineering group be specified in the smb.conf?
 
 - [ ] Samba uses Linux operating system groups from the /etc/group file; just specify the group name.
-- [x] It would be preceded by a percent sign (%), such as %engineers.
+- [ ] It would be preceded by a percent sign (%), such as %engineers.
 - [ ] Use the group name by itself; Samba checks for its existence.
-- [ ] It would be preceded by an @ symbol, such as @engineering.
+- [x] It would be preceded by an @ symbol, such as @engineering.
 
 #### Q40. To configure the Kerberos client, which command should you use to import the keytab file?
 
