@@ -3590,6 +3590,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "mauriziomarini",
+      "name": "Maurizio Marini",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16784058?v=4",
+      "profile": "https://github.com/mauriziomarini",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
