@@ -1014,3 +1014,13 @@ grid-template-columns: 2fr 1fr;
 - [ ] The first column is half the size of the container and the second column will absorb the remaining space
 - [ ] The first column is twice as wide as the second column and will fit proportionally within the grid container
 - [ ] The first column is twice the width and height of the second column, and will fit proportionally within the grid container
+
+#### Q85. Which style rule would make the image 50% smaller during a hover?
+```html
+<img id="photo" alt=""  src="..." />
+```
+
+- [ ] img#photo:hover {scale: 0.5;}
+- [ ] img#photo:hover {transform: scale(0.5);}
+- [ ] img#photo {hover-scale: 0.5;}
+- [ ] img#photo:hover {size: smaller;}
