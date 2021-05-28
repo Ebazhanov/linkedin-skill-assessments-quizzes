@@ -3610,6 +3610,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "ZoltePudeleczko",
+      "name": "Szymon Zborowski",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22434824?v=4",
+      "profile": "http://linkedin.com/in/szymon-zborowski",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
