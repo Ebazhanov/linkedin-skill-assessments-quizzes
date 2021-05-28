@@ -615,3 +615,27 @@ Which of the following options is correct ?
 - [ ] `git rm .`
 - [ ] `git reset HEAD`
 - [ ] `git checkout .`
+
+#### Q88. What information do Git reflogs (reference logs) store?
+- [ ] shell script pointers and keychain credentials
+- [x] updates to branch tips and other references in the local repository
+- [ ] release notes and hook script values
+- [ ] tag and versioning information
+
+#### Q89. You have just completed rebasing your master branch and need to manually update the remote master, even though there is a merge conflict. How can you accomplish this?
+- [ ] `git push --overwrite`
+- [ ] `git push --update`
+- [ ] `git push --assert`
+- [x] `git push --force-with-lease`
+
+#### Q90. What is the difference between `git fetch` amd `git pull`
+- [ ] `git fetch` creates a new branch off the master branch, while `git pull` creates a new branch off the local repository's master branch.
+- [ ] `git pull` downloads new data from a remote repository without integrating it into local files, while `git fetch` updates the current HEAD branch with the latest changes from the remote server.
+- [x] `git fetch` updates remote tracking branches with changes from a remote repository, while `git pull` updates remote tracking branches with changes from a remote repository and merges them into their corresponding local branches.
+- [ ] `git fetch` downloads and merges data from the local repository, while `git pull` informs your colleagues you are about to make changes to the master branch.
+
+#### Q91. What command displays the difference between the working tree and the stage/index area, as well as files not tracked by Git?
+- [ ] `git current`
+- [x] `git status`
+- [ ] `git local`
+- [ ] `git context`
