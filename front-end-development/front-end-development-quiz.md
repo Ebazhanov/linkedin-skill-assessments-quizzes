@@ -302,7 +302,7 @@ cite {
 #### Q32. How can you rewrite this function using arrow function syntax? 
 
 - [ ] let product => (x,y) { <br /> x * y; <br />}
-- [ ] let product = (x,y) => x*y;
+- [x] let product = (x,y) => x*y;
 - [ ] let product => x*y;
 - [ ] let product = (x,y) -> x*y;
 
@@ -327,5 +327,5 @@ const user = {
 - [ ] function
 - [ ] array
 - [ ] variable
-- [ ] object
+- [x] object
 
