@@ -828,17 +828,17 @@ $('ul > li:first-child');
 
 ```html
 <ul class="clickable-list">
-  <li>First Item</li>
-  <li>Second Item</li>
-  <li>Third Item</li>
-  <li>Fourth Item</li>
-  <li>Fifth Item</li>
+    <li>First Item</li>
+    <li>Second Item</li>
+    <li>Third Item</li>
+    <li>Fourth Item</li>
+    <li>Fifth Item</li>
 </ul>
 ```
 
 ```js
 function listResponder(evt) {
-  console.log('You clicked a list item that says', evt.target.innerText);
+    console.log('You clicked a list item that says', evt.target.innerText);
 }
 ```
 
@@ -846,3 +846,97 @@ function listResponder(evt) {
 - [ ] `$('.clickable-list).on('click', 'li', listResponder);`
 - [ ] `$('.clickable-list).on('click, append', listResponder);`
 - [ ] `$('.clickable-list).each(function() { $(this).click(listResponder); });`
+
+#### Q58. What is the difference between $('p').find('a') and $('p').children('a')?
+
+- [ ] `find() traverses only one level down, whereas children() selects anything inside the original element`
+- [ ] `$('p').find('a') finds all paragraphs inside links, whereas $('p').children('a') finds links within paragraph tags`
+- [ ] `.find() always searches the entire DOM tree, regardless of the original selection .children() searches only the immediate childern of an element`
+- [ ] `children() traverses only one level down, whereas find() selects anything inside the original element`
+
+#### Q59. Consider the following markup, used to lay out three balls on the page, all hidden. How can you select the green ball, make it faded in over the course of three seconds, and log a console message when the animation has finished?
+
+```html
+<div class="balls">
+    <div class="ball ball--red" style="display: none"></div>
+    <div class="ball ball--green" style="display: none"></div>
+    <div class="ball ball--blue" style="display: none"></div>
+</div>
+```
+
+- [ ]
+```
+$('.ball--green').fadeIn(3000, function(){
+    console.log("Animation is done!");
+});
+```
+- [ ] 
+```
+$('.ball--green').fade('in',3000).done(function(){
+    console.log("Animation is done!");
+});
+```
+- [ ] 
+```
+$('.ball--green').fadeIn(3).console().log("Animation is done!");
+```
+- [ ] 
+```
+$('.ball--green').fadeIn("3s", function(){
+    console.log("Animation is done!");
+});
+```
+
+#### Q60. Why might you use custom events instead of shared helper functions? For example:
+```
+$(document).on('myCustomEvent', function(){
+    // act on my custom event
+});
+
+//and later...
+$(document).trigger('myCustomEvent');
+```
+
+- [ ] `Custom events are at least an order of magnitude faster than helper functions`
+- [ ] `Custom events can be listened for and acted upon across one or more scripts without needing to keep helper funtions in scope`
+- [ ] `Handler functions for custom events are less likely to be mangled by minification and obfuscation build tools`
+- [ ] `It is easier to write documentation for custom events than it is for helper functions`
+
+#### Q61. In the HTML and JavaScript below, the animations will all fire at once. How can you make them fire in sequence instead?
+```html
+<div id="element-1" class="animel"></div>
+<div id="element-2" class="animel"></div>
+<div id="element-3" class="animel"></div>
+
+$('#element-1').animate({ top: '+=100' });
+$('#element-2').animate({ top: '+=100' });
+$('#element-3').animate({ top: '+=100' });
+```
+- [ ]
+```
+$('element-1').animate({ top: '+=100' })
+    .pushStack('#element-2')
+    .animate({ top: '+=100' })
+    .pushStack('#element-3').animate({ top: '+=100' })
+```
+- [ ]
+```
+$('element-1').animate({ top: '+=100' }, function() {
+    $('element-2').animate({ top: '+=100' }, function() {
+        $('element-3').animate({ top: '+=100' });
+    })
+});
+```
+- [ ]
+```
+$('element-1').animate({ top: '+=100' })
+    .add('element-2').animate({ top: '+=100' })
+    .add('element-3').animate({ top: '+=100' })
+```
+- [ ]
+```
+$('element-1').animate({ top: '+=100' }, {queue: 'custom'}); 
+$('element-2').animate({ top: '+=100' }, {queue: 'custom'}); 
+$('element-3').animate({ top: '+=100' }, {queue: 'custom'}); 
+$('custom').dequeue();
+```
