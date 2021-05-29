@@ -618,3 +618,62 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] array
 - [ ] string
 - [x] object
+
+#### Q56. What's wrong with this JSON object?
+```json
+{
+series: "Star Trek",
+episodes: "The Trouble with Tribbles"
+}
+```
+- [ ] Key/value pairs should be separated by semicolons.
+- [x] Keys should be enclosed with double qoutes.
+- [ ] Key/value pairs should allways have a trailing comma.
+- [ ] Keys and values shold be enclosed with single qoutes.
+
+#### Q57. How shold comments be formatted in JSON?
+- [ ] Wrap the comments in single qoutes and place it at the bottom of the file.
+- [ ] Wrap the comments in double parentheses.
+- [ ] Escape comments by placing two slashes at the start of the comment.
+- [x] JSON does not support comments.
+
+#### Q58. How would you make the following string valid in JSON?
+```json
+"name": 'bb-8'
+```
+- [ ] name: "bb-8"
+- [ ] "name": \'bb-8\'
+- [x] "name": "bb-8"
+- [ ] "name": bb-8
+
+#### Q59. How are values seperated in JSON?
+- [ ] with brackets
+- [ ] with colons
+- [x] with commas
+- [ ] with parentheses
+
+#### Q60. With which programming language is JSON best used?
+- [ ] any language, as JSON is language agnostic.
+- [ ] Ruby
+- [ ] JavaScript
+- [ ] Python
+
+#### Q61. What values can arrays contain?
+- [ ] only numbers
+- [x] any valid JSON value
+- [ ] only strings and numbers
+- [ ] only strings
+
+#### Q62. What technique can be used to represent complex objets with JSON?
+- [ ] reserialization
+- [x] nesting
+- [ ] memorization
+- [ ] minimization
+
+#### Q63. What characters are used to enclose an array?
+- [x] []
+- [ ] {}
+- [ ] ""
+- [ ] ()
+
+
