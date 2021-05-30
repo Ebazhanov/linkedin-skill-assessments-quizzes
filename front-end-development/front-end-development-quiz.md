@@ -25,7 +25,7 @@
 - [ ] inline scope
 - [ ] global scope
 
-#### Q3. Why would you surround a piece of text with <h1></h1> tags?
+#### Q3. Why would you surround a piece of text with `<h1></h1>` tags?
 
 - [x] to indicate that this text is the main heading on the page
 - [ ] to make the text bold
@@ -124,7 +124,7 @@ h1 {
 - [ ] `<highlight">#BLM</span>`
 - [ ] `<div id="highlight">#BLM</span>`
 
-#### Q14. Which choice is not a value of the type attribute of the <input> element?
+#### Q14. Which choice is not a value of the type attribute of the `<input>` element?
 
 - [ ] range
 - [x] address
