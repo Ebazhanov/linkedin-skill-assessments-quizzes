@@ -45,7 +45,7 @@ contents:
   - file: google-cloud-platform/gcp-quiz.md
   - file: jquery/jquery-quiz.md
   - file: swift/swift-quiz.md
-  - file: angularjs/angularjs-quiz.md
+  - file: angular/angular-quiz.md
   - file: t-sql/t-sql-quiz.md
   - file: c++/c++quiz.md
   - file: windows-server/windows-server-quiz.md

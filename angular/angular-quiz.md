@@ -1,4 +1,4 @@
-## AngularJs
+## Angular
 
 #### Q1. What is the purpose of the ViewChild decorator in this component class?
 ```javascript
