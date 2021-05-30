@@ -65,7 +65,7 @@ let selected = pocket[1];
 - [x] stone
 - [ ] turnip
 
-#### Q8. What does the === comparison operator do?
+#### Q8. What does the `===` comparison operator do?
 
 - [ ] It sets one variable equal to another in both value and type
 - [ ] It tests for equality of type only
