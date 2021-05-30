@@ -636,7 +636,7 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 
 #### Q60. Which answer best describes a function component?(Not sure answer)
 - [ ] `A function component is the same as a class component.`
-- [ ] `A function component accepts a single props object and returns a React element.`
+- [x] `A function component accepts a single props object and returns a React element.`
 - [ ] `A function component is the only way to create a component.`
 - [ ] `A function component is required to create a React component.`
 
@@ -671,7 +671,7 @@ useEffect(() => {
 
 - [ ] `It will cause an error immediately.`
 - [ ] `It will execute the code inside the function, but only after waiting to ensure that no other component is accessing the name variable.`
-- [ ] `It will update the value of name once and not run again until name is changed from the outside.`
+- [x] `It will update the value of name once and not run again until name is changed from the outside.`
 - [ ] `It will cause an infinite loop.`
 
 #### Q64. How would you add to this code, from React Router, to display a component called About?
