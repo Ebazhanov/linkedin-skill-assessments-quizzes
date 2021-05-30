@@ -1042,9 +1042,11 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 #### Q68. What does this code?
 `<audio autoplay loop src="sound.mp3" type="audio/mpeg"></audio>`
 - [ ] When the **play** button is pressed, the browser plays the sounds over and over again until the user stops it.
-- [x] The browser plays the sound once automatically in the background. The user has no control over the sound.
+- [ ] The browser plays the sound once automatically in the background. The user has no control over the sound.
 - [ ] The browser plays the sound automatically and continuously in the background. The user may stop the sound at any tune.
-- [ ] The browser plays the sound automatically and continuously in the background. The user has no control over the sound.
+- [X] The browser plays the sound automatically and continuously in the background. The user has no control over the sound.
+
+[Reference(MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
 
 #### Q69. What is the difference between the `<head>` and `<header>` tags?
 
@@ -1132,8 +1134,10 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 - [ ] For blog posts and other social media items
 - [ ] For the main content area of your website
-- [ ] When the content stands alone as a unit, is suitable for syndication, or is reusable
+- [X] When the content stands alone as a unit, is suitable for syndication, or is reusable
 - [ ] To associate comments with a blog post
+
+[Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
 
 #### Q74. Which list comprises three empty elements?
 
@@ -1170,7 +1174,27 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 ```
 #### Q75. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
 
-- [x] <a href="tel: 802-555-1212">Call me</a>
-- [ ] <a href="phone">802-555-1212</a>
-- [ ] <a href="tel">802-555-1212</a>
-- [ ] <a href="phone: 802-555-1212">Call me</a>
+- [x] `<a href="tel: 802-555-1212">Call me</a>`
+- [ ] `<a href="phone">802-555-1212</a>`
+- [ ] `<a href="tel">802-555-1212</a>`
+- [ ] `<a href="phone: 802-555-1212">Call me</a>`
+
+#### Q76. What is the purpose of the `class` attribute?
+
+- [ ] Classes allow CSS to select specific elements on the page. You may list as many class names within the class attribute as you wish,
+  separated by spaces.
+- [ ] Classes allow CSS and JavaScript to select specific elements on the page. You may list only one class name per class attribute.
+- [ ] Classes allow CSS to select specific elements on the page. You may list only one class name per class attribute.
+- [X] Classes allow CSS and JavaScript to select specific elements on the page. You may list as many class names within the class attribute
+  as you wish, separated by spaces.
+  
+[Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class)
+
+#### Q77. Which choice is not a legal type attribute for the `<input>` tag?
+
+- [ ] `<input type="color">`
+- [ ] `<input type="tel">`
+- [ ] `<input type="week">`
+- [X] `<input type="num">`
+
+[Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)
