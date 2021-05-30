@@ -138,56 +138,56 @@ h1 {
 - [x] no users
 - [ ] screen reader users
 
-#### Q15. Which choice is not part of CSS box model
+#### Q16. Which choice is not part of CSS box model
 
 - [ ] margin
 - [ ] border
 - [ ] padding
 - [x] paragraph
 
-#### Q16. Which part of the URL `https://app.uniswap.org/pool` specifies the domain name
+#### Q17. Which part of the URL `https://app.uniswap.org/pool` specifies the domain name
 
 - [ ] https
 - [ ] org
 - [x] uniswap.org
 - [ ] app.uniswap
 
-#### Q17. Which HTML element is not considered a landmark element?
+#### Q18. Which HTML element is not considered a landmark element?
 
 - [ ] `<form>`
 - [x] `<ul>`
 - [ ] `<main>`
 - [ ] `<nav>`
 
-#### Q18. Which statement is true when an HTML tag has been deprecated?
+#### Q19. Which statement is true when an HTML tag has been deprecated?
 
 - [ ] It employs code that can be viewed only on a desktop computer
 - [x] It is obsolete and is not recommended for use in marking web content
 - [ ] It employs code that will require users to update their browsers
 - [ ] It employs incorrect syntax that will cause the browser to crash
 
-#### Q19. How does the rem unit represent a font size?
+#### Q20. How does the rem unit represent a font size?
 
 - [ ] Font sizes are expressed relative to the font size of the containing div element
 - [ ] Font sizes are expressed relative to the font size of the parent elements
 - [ ] Font sizes are relative to the base font size of the operating system.
 - [x] Font sizes are relative to the root em unit used in the HTML element.
 
-#### Q20. Which HTML element represents either a scalar value within a known range a fractional value?
+#### Q21. Which HTML element represents either a scalar value within a known range a fractional value?
 
 - [x] `<meter>`
 - [ ] `<range>`
 - [ ] `<datalist>`
 - [ ] `<optgroup>`
 
-#### Q21. What is Webpack primarily used for?
+#### Q22. What is Webpack primarily used for?
 
 - [ ] sharing JavaScript code with other people
 - [ ] making JavaScript-reliant sites accessible to users who do not have JavaScript turned on
 - [x] bundling individual JavaScript files for use in your website
 - [ ] source control
 
-#### Q22. How many columns will there be, given this code?
+#### Q23. How many columns will there be, given this code?
 
 ```css
 .container {
@@ -202,7 +202,7 @@ h1 {
 - [ ] four
 - [x] two
 
-#### Q23. Which style will change the color of the text?
+#### Q24. Which style will change the color of the text?
 ```html
   <cite>Noam Chomsky</cite>
 ```
@@ -231,7 +231,7 @@ cite {
 }
 ```
 
-#### Q24. You find this code in a stylesheet. What is it being used for?
+#### Q25. You find this code in a stylesheet. What is it being used for?
 ```css
 .cf::after {
   content: "";
@@ -244,28 +244,28 @@ cite {
 - [x] clearing floats in float-based layouts
 - [ ] creating a new block formatting context
 
-#### Q25. What is the correct way to initialize an array of galaxies in JavaScript?
+#### Q26. What is the correct way to initialize an array of galaxies in JavaScript?
 
 - [ ] `String[] galaxies = new Array("Milky Way", "Whirlpool", "Andromeda");`
 - [ ] `let galaxies = {Milky Way, Whirlpool, Andromeda};`
 - [x] `galaxies = ["Milky Way", "Whirlpool", "Andromeda"];`
 - [ ] `var galaxies = {"Milky Way", "Whirlpool", "Andromeda"};`
 
-#### Q26. Which description correctly describes the initial values of flex items if the only thing you have done is apply `display: flex` to their parent?
+#### Q27. Which description correctly describes the initial values of flex items if the only thing you have done is apply `display: flex` to their parent?
 
 - [x] Items display in a row, lined up at the start, and do not stretch to fill the container
 - [ ] Items display in a column, lined up at the start, and do not stretch to fill the container
 - [ ] Items stay in a column until you add some flex properties.
 - [ ] Items display in a row, lined up at the start, and stretch to fill the container
 
-#### Q27. Which line of code, if applied to all flex items in a flex container, would cause each flex item to take up an equal share of the total width of the container? For example, if there are four items, they would get 25% of each/
+#### Q28. Which line of code, if applied to all flex items in a flex container, would cause each flex item to take up an equal share of the total width of the container? For example, if there are four items, they would get 25% of each/
 
 - [ ] `flex: 1 0 0;`
 - [ ] `flex: initial;`
 - [x] `flex: 1 1 auto;`
 - [ ] `flex: 1 0 auto;`
 
-#### Q28. A video on your webpage does not display and the console shows an error about mixed content. What is happening? 
+#### Q29. A video on your webpage does not display and the console shows an error about mixed content. What is happening? 
 
 - [ ] The webapge is using a DOCTYPE, which renders it incapable of displayed video in addition to other web content.
 - [ ] Your browser does not support HTML5 video.
@@ -273,7 +273,7 @@ cite {
 - [x] The page is loaded via HTTPS, but the video is being served insecurely as HTTP and the browser is blocking it.
 
 
-#### Q29. What will this loop print?
+#### Q30. What will this loop print?
           let max = 3;
           for (i = 0; i > max; i++) {
             document.write("skrt ");
@@ -284,35 +284,35 @@ cite {
 - [ ] skrt skrt skrt skrt
 - [x] nothing
 
-#### Q30. You have placed an image in a directory named images and want to reference it from a page located in the root of your site. Which choice would correctly display the image on the page? 
+#### Q31. You have placed an image in a directory named images and want to reference it from a page located in the root of your site. Which choice would correctly display the image on the page? 
 
 - [ ] < img src="image.jpg">
 - [ ] < a href="images/image.jpg"></a>
 - [x] < img src="images/image.jpg">
 - [ ] < img href="image.jpg">
 
-#### Q31. Which choice is a correct use of the parseInt() function in Javascript that parses a string and return an integer? 
+#### Q32. Which choice is a correct use of the parseInt() function in Javascript that parses a string and return an integer? 
 
 - [ ] parseInt("six");
 - [ ] parse_int('6');
 - [x] parseInt("6");
 - [ ] parseint("6");
 
-#### Q32. How can you rewrite this function using arrow function syntax? 
+#### Q33. How can you rewrite this function using arrow function syntax? 
 
 - [ ] let product => (x,y) { <br /> x * y; <br />}
 - [x] let product = (x,y) => x*y;
 - [ ] let product => x*y;
 - [ ] let product = (x,y) -> x*y;
 
-#### Q33. Lighthouse is a tool for auditing your website. Which choice is not a category of report offered by Lighthouse? 
+#### Q34. Lighthouse is a tool for auditing your website. Which choice is not a category of report offered by Lighthouse? 
 
 - [ ] performance
 - [x] UX design
 - [ ] accessibility
 - [ ] SEO
 
-#### Q34. In the context of this code, how would you describe user?
+#### Q35. In the context of this code, how would you describe user?
 ```
 const user = {
   given_name: 'Joe',
@@ -326,7 +326,7 @@ const user = {
 - [ ] variable
 - [x] object
 
-#### Q35. A webpage has `rel="preconnect"` added to a link resource. What will this do?
+#### Q36. A webpage has `rel="preconnect"` added to a link resource. What will this do?
 ```
 <link rel="preconnect" href="https://example.com">
 ```
@@ -338,7 +338,7 @@ const user = {
   
 [Reference (web.dev)](https://web.dev/preconnect-and-dns-prefetch/)
 
-#### Q36. Which choice is _not_ a render blocking resource?
+#### Q37. Which choice is _not_ a render blocking resource?
 
 - [X] images
 - [ ] HTML
@@ -347,7 +347,7 @@ const user = {
 
 [Reference (blog.logrocket)](https://blog.logrocket.com/5-tricks-to-eliminate-render-blocking-resources/)
 
-#### Q37. Which choice does _not_ provide information on browser support for a particular CSS property?
+#### Q38. Which choice does _not_ provide information on browser support for a particular CSS property?
 
 - [ ] the "Can I Use" website
 - [ ] the Web Platform Tests Suite
