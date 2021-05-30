@@ -298,7 +298,6 @@ cite {
 - [x] parseInt("6");
 - [ ] parseint("6");
 
-
 #### Q32. How can you rewrite this function using arrow function syntax? 
 
 - [ ] let product => (x,y) { <br /> x * y; <br />}
@@ -306,14 +305,12 @@ cite {
 - [ ] let product => x*y;
 - [ ] let product = (x,y) -> x*y;
 
-
 #### Q33. Lighthouse is a tool for auditing your website. Which choice is not a category of report offered by Lighthouse? 
 
 - [ ] performance
 - [x] UX design
 - [ ] accessibility
 - [ ] SEO
-
 
 #### Q34. In the context of this code, how would you describe user?
 ```
@@ -329,3 +326,30 @@ const user = {
 - [ ] variable
 - [x] object
 
+#### Q35. A webpage has `rel="preconnect"` added to a link resource. What will this do?
+```
+<link rel="preconnect" href="https://example.com">
+```
+
+- [ ] It will tell the browser that this link is a site belonging to the current domain.
+- [ ] It will do nothing a because this is a deprecated attribute that browsers do not support.
+- [X] It will tell the browser that a connection will be made to another origin and to start getting ready as soon as possible.
+- [ ] It will tell the browser that a resource is needed, and that it should start getting fetched as soon as possible.
+  
+[Reference (web.dev)](https://web.dev/preconnect-and-dns-prefetch/)
+
+#### Q36. Which choice is _not_ a render blocking resource?
+
+- [X] images
+- [ ] HTML
+- [ ] CSS
+- [ ] JavaScript
+
+[Reference (blog.logrocket)](https://blog.logrocket.com/5-tricks-to-eliminate-render-blocking-resources/)
+
+#### Q37. Which choice does _not_ provide information on browser support for a particular CSS property?
+
+- [ ] the "Can I Use" website
+- [ ] the Web Platform Tests Suite
+- [ ] the CSS specification 
+- [ ] MDN property pages
