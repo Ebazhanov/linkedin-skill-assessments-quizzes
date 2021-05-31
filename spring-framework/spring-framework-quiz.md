@@ -56,14 +56,14 @@
 
 #### Q10. In what order do the @PostConstruct annotated method, the init-method parameter method on beans and the afterPropertiesSet() method execute?
 - [ ] 1. afterPropertiesSet()
-       2. init-method
-       3. @PostConstruct
+     2. init-method
+     3. @PostConstruct
 - [x] 1. @PostConstruct
-       2. afterPropertiesSet()
-       3. init-method
+     2. afterPropertiesSet()
+     3. init-method
 - [ ] 1. init-method
-       2. afterPropertiesSet()
-       3. @PostConstruct
+     2. afterPropertiesSet()
+     3. @PostConstruct
 - [ ] You cannot use these methods together-you must choose only one.
 
 #### Q11. What is the function of the @Transactional annotation at the class level?
@@ -76,22 +76,22 @@
 ```java
 @SpringBootApplication
 public class App {
-    public static void main(String args[]) {
-        SpringApplication.run(App.class, args);
-        System.out.println("startup");
-    }
+     public static void main(String args[]) {
+          SpringApplication.run(App.class, args);
+          System.out.println("startup");
+     }
 }
 
 public class Print implements InitializingBean {
-    @Override
-    public void afterPropertiesSet() throws Exception {
-        System.out.println("init");
-    }
+     @Override
+     public void afterPropertiesSet() throws Exception {
+          System.out.println("init");
+     }
 }
 ```
 - [x] Nothing will print
 - [ ] startup
-       init
+  init
 - [ ] init
 - [ ] startup
 
@@ -99,26 +99,26 @@ public class Print implements InitializingBean {
 ```java
 @Component
 public class Test implements InitializingBean {
-    @Autowired
-    ApplicationContext context;
-    @Autowired
-    static SimpleDateFormt formatter;
-    
-    @Override
-    public void afterPropertiesSet() throws Exception {
-        System.out.println(context.containsBean("formatter") + " ");
-        System.out.println(context.getBean("formatter").getClass());
-        System.out.println(formatter.getClass());
-        System.out.println(context.getClass());
-    }
+     @Autowired
+     ApplicationContext context;
+     @Autowired
+     static SimpleDateFormt formatter;
+
+     @Override
+     public void afterPropertiesSet() throws Exception {
+          System.out.println(context.containsBean("formatter") + " ");
+          System.out.println(context.getBean("formatter").getClass());
+          System.out.println(formatter.getClass());
+          System.out.println(context.getClass());
+     }
 }
 
 @Configuration
 class TestConfig {
-    @Bean
-    public SimpleDateFormat formatter() {
-        return new SimpleDateFormat();
-    }
+     @Bean
+     public SimpleDateFormat formatter() {
+          return new SimpleDateFormat();
+     }
 }
 ```
 - [x] formatter.getClass()
@@ -143,10 +143,10 @@ class TestConfig {
 @RestController
 public class SampleController {
 
-    @RequestMapping("/map")
-    public String map(@RequestParam("bar") String foo, @RequestParam("foo") String bar) {
-        return bar + foo;
-    }
+     @RequestMapping("/map")
+     public String map(@RequestParam("bar") String foo, @RequestParam("foo") String bar) {
+          return bar + foo;
+     }
 }
 ```
 - [ ] An InvalidParameterNameMappingException is thrown at runtime.
@@ -158,7 +158,7 @@ public class SampleController {
 
 - [ ] It prevents a bean from being created and injected until you run a specific CLI command. It reduces complexity in the application.
 - [ ] It can be applied to a bean so that the bean is not persisted in the database. It reduces the number of database operations.
-- [ ] It can be applied to a bean so that the bean is not created and injected until it is needed. It can help speed up startup time for your application.
+- [x] It can be applied to a bean so that the bean is not created and injected until it is needed. It can help speed up startup time for your application.
 - [ ] It prevents a bean from being created and injected until it receives a HTTP request to a callback hook. It reduces disk footprint.
 
 #### Q18. What is dependency injection?
@@ -175,7 +175,7 @@ public class SampleController {
 - [ ] Reactive Enterprise State Transfer is a web service comprising a set of guidelines and technical constraints for web services y that have access to resources and are async in nature.
 
 #### Q20. What happens when a class is annotated with the @Controller annotation?
-- [ ] A controller bean definition is defined in the servlet's WebApplicationContext. The class is marked as a web component, and you can map requests to controller methods.
+- [x] A controller bean definition is defined in the servlet's WebApplicationContext. The class is marked as a web component, and you can map requests to controller methods.
 - [ ] A controller bean definition is defined in the Web Context, and Web Servlet is marked as a component that reads mapped controller requests from an XML config file.
 - [ ] A controller bean definition is defined in the Tomcat Context, and the Controller Servlet is marked as a web component that reads mapped controller requests from a YAML config file.
 - [ ] A controller bean definition is defined in the Servlet Context, and the Controller Servlet is marked as a component that reads mapped controller requests from an XML config file.
@@ -188,14 +188,14 @@ public class SampleController {
 
 #### Q22. What is the purpose of the @ResponseBody annotation?
 - [ ] to validate the char array contained in a response to ensure that it is a valid character encoding
-- [ ] to generate a local byte stream from the body of a response that allows a request to scanned for security risks
-- [ ] to indicate whether a handler mejfhod return value should be bound to the webresponse body in servlet environments
+- [ ] to generate a local byte stream from the body of a response that allows a request to be scanned for security risks
+- [x] to indicate whether a handler method return value should be bound to the web response body in servlet environments
 - [ ] to ensure a ThreadLocal byte stream that allows a response to be encoded for reading directly into a socket stream
 
 #### Q23. How are mocking frameworks such as Mockito used with Spring?
 
 - [ ] Mockito will spin up a mock web service hosted in a Docker container that can respond to HTTP requests to mock out third-party APIs.
-- [ ] Mockito can use annotations or factory methods to create mock objects that may be injected into tests in place of dependencies. The behavior of mocks can be explicitly configured.
+- [x] Mockito can use annotations or factory methods to create mock objects that may be injected into tests in place of dependencies. The behavior of mocks can be explicitly configured.
 - [ ] Mockito will create mock users to repeatedly perform requests against your Spring application to test your app's ability to take load.
 - [ ] Mockito will spin up a mock web service hosted in a Docker container that can respond to RPC calls to mock out remote resources.
 
@@ -207,7 +207,7 @@ public class SampleController {
 
 #### Q25. What is the purpose of the Spring IoC (Inversion of Control) container?
 
-- [ ] It instantiates and configures objects, supplied at runtime, to classes that define them as a dependency.
+- [x] It instantiates and configures objects, supplied at runtime, to classes that define them as a dependency.
 - [ ] It allows the front-end code to manage the ResponseBody objects provided by a back-end REST API.
 - [ ] It allows a database to define business objects via a shared schema at compile time.
 - [ ] It facilitates a remote server to configure a local application.
@@ -222,20 +222,20 @@ public class SampleController {
 #### Q27. What does @SpringBootApplication do?
 
 - [ ] This annotation takes the String literal passed into the annotation as a parameter and automatically generates all the code for your application as per the passed in template parameter.
-- [ ] This compound annotation applies the @Bootable, @Springify, and @StandardConfig annotations that launch a CLI tool after launching the Spring Boot WAR file that will guide you through a series of prompts to set up your app.
+- [x] This compound annotation applies the @Bootable, @Springify, and @StandardConfig annotations that launch a CLI tool after launching the Spring Boot WAR file that will guide you through a series of prompts to set up your app.
 - [ ] This annotation scans the provided spring-boot-config-construction.yaml file in your root directory and automatically generates all the code for your application as defined in the YAML file.
 
 #### Q28. How does Spring Data facilitate queries against a datastore?
 
 - [ ] Queries are explicitly coded in repository implementations using the Spring Data CriteriaBuilder.
 - [ ] Query metadata is stored in the underlying datastore and retrieved at runtime per repository.
-- [ ] Queries are derived from the signatures of methods on a Spring Data repository that contain keywords in their name for constructing the query logic.
+- [x] Queries are derived from the signatures of methods on a Spring Data repository that contain keywords in their name for constructing the query logic.
 - [ ] A spring-data-queries.xml file contains queries within entity tags that specify the query logic for each repository.
 
 #### Q29. How does Spring generate bean names for classes annotated with @Component that do not specify a name?
 
-- [ ] It uses the short name of the class with the first letter in lowercase.
-- [ ] It use the short name of the class.
+- [x] It uses the short name of the class with the first letter in lowercase.
+- [ ] It uses the short name of the class.
 - [ ] It uses the short name of the class in uppercase.
 - [ ] It uses the canonical name of the class in lowercase.
 
@@ -243,21 +243,21 @@ public class SampleController {
 
 - [ ] It's the servlet filter chain proxy that handles all requests to the route defined in spring.security.xml. All calls to the filter proxy are forwarded to the ErrorDispatcherServlet.
 - [ ] It's the servlet filter chain that handles requests to the route defined in spring.security.factories. All calls to the filter proxy y are forwarded to the ErrorServlet.
-- [ ] It's the servlet filter proxy delegating to a filter bean specified in web.xml. All calls to the filter proxy will be delegated to that servlet filter bean.
+- [x] It's the servlet filter proxy delegating to a filter bean specified in web.xml. All calls to the filter proxy will be delegated to that servlet filter bean.
 - [ ] It's the web servlet daemon filter proxy that delegates to a bean specified in spring.security.factories. All calls to the filter proxy that do not contain a proper route will return an error.
 
 #### Q31. What value does Spring Boot Actuator provide?
 
-- [ ] It helps monitor and manage a Spring Boot application by providing endpoints such as health checks, auditing, metrics gathering, and HTTP tracing.
+- [x] It helps monitor and manage a Spring Boot application by providing endpoints such as health checks, auditing, metrics gathering, and HTTP tracing.
 - [ ] It provides out-of-the-box functionality that integrates with third-party metrics platforms to automatically scale up and down the number of threads in threadpools.
 - [ ] It's a CLI that allows you to modify the configuration of a running Spring Boot application without the need for restarting or downtime.
 - [ ] It provides out-of-the-box functionality that integrates wiltr?third-party metrics platforms to automatically scale up and down the number of instances of the Spring Boot application.
 
-#### Q32. What is the purpose of the @ContextConf iguration annotation in a JUnit Test?
+#### Q32. What is the purpose of the @ContextConfiguration annotation in a JUnit Test?
 
 - [ ] It introspects the local machine and automatically provisions resources based on certain contextual configuration files.
 - [ ] It automatically generates comments for annotated classes on autowired dependencies to provide additional context about dependencies.
-- [ ] It defines metadata at the class-level to determine how to load or configure an Applicationcontext in Spring integration tests.
+- [x] It defines metadata at the class-level to determine how to load or configure an ApplicationContext in Spring integration tests.
 - [ ] It automatically generates JavaDocs for annotated classes to provide additional context about the purpose of the class.
 
 #### Q33. How are authentication and authorization different?
@@ -265,19 +265,19 @@ public class SampleController {
 - [ ] Authentication is the act of granting access to specific resources and functions based on config settings. Authorization is the act of introspecting a user's credentials to ensure they are not impersonating another user.
 - [ ] Authentication is the act of verifying certain resources and functions are actually valid. Authorization is the act of verifying a user's credentials have not expired.
 - [ ] Authentication is the act of verifying that certain resources and functions actually exist in the database. Authorization is the act of verifying a user's credentials to ensure they are valid.
-- [ ] Authentication is validating that users are who they claim to be. Authorization is granting access to specific resources and functions.
+- [x] Authentication is validating that users are who they claim to be. Authorization is granting access to specific resources and functions.
 
 #### Q34. What is the purpose of the @RequestBody annotation?
 
 - [ ] to create a ThreadLocal byte stream that allows a request to be encoded for reading directly into a database
 - [ ] to automatically generate a ThreadLocal byte stream from the body of a request that allows a request to scanned for security risks
-- [ ] to indicate whether an annotated handler method parameter should be bound to the web request body, which is converted by an HttpMessageConverter
+- [x] to indicate whether an annotated handler method parameter should be bound to the web request body, which is converted by an HttpMessageConverter
 - [ ] to automatically validate the characters contained in a request to ensure that they are a valid character encoding
 
 #### Q35. What is the DispatcherServlet and what is its function?
 
 - [ ] The DispatcherServlet process daemon assigns a separate Web Servlet Container process to each HTTP request that comes into the web server.
-- [ ] It is a servlet that dispatches HTTP requests to registered handlers/controllers for processing.
+- [x] It is a servlet that dispatches HTTP requests to registered handlers/controllers for processing.
 - [ ] The DispatcherServlet API assigns a separate Web Servlet Node process to each additional HTTP request that comes into the web server.
 - [ ] It is a servlet that dispatches an array of background daemon processes that allocate memory and CPU cycles to each request.
 
@@ -285,7 +285,7 @@ public class SampleController {
 
 - [ ] It triggers a local automated review of configuration files such as web.xml and detects possible security issues or automatically resolves circular dependencies.
 - [ ] It triggers an automated review of configuration by a web-based agent that reviews your existing web.xml file and detects possible security issues.
-- [ ] It's an opinionated, intelligent method of introspecting an app to configure beans that are likely to be needed. This configuration can be overridden over time with manual configuration.
+- [x] It's an opinionated, intelligent method of introspecting an app to configure beans that are likely to be needed. This configuration can be overridden over time with manual configuration.
 - [ ] It provides plug-in functionality while editing your web.xml and other config files that will autocomplete common dependencies while typing.
 
 #### Q37. Which are valid steps to take to enable JPA in Spring Boot?
@@ -298,7 +298,7 @@ public class SampleController {
 #### Q38. What is a transaction in the context of Spring Data?
 
 - [ ] a version-controlled schema change that is applied to a database
-- [ ] a sequence of actions representing a single unit of work managed as a single operation that can be either committed or rolled back
+- [x] a sequence of actions representing a single unit of work managed as a single operation that can be either committed or rolled back
 - [ ] an encoded message and response between various shards of a database
 - [ ] an exchange or interaction between various worker nodes in a multithreaded environment
 
@@ -311,7 +311,7 @@ public class SampleController {
 
 #### Q40. How do you inject a dependency into a Spring bean?
 
-- [ ] any of these answers
+- [x] any of these answers
 - [ ] Annotate a Setter method with the @Autowired annotation.
 - [ ] Specify parameters in the constructor with an optional @Autowired annotation.
 - [ ] Use field injection.
@@ -343,9 +343,9 @@ private String val;
 private String val;
 ```
 
-- [X] D
+- [x] D
 
 ```java
-@Value("${my.property}") 
+@Value("${my.property}")
 private String val;
 ```
