@@ -77,6 +77,8 @@ int median(const my_array& a);
 - [ ] Actually objects can't be passed as regular variables because they require a constructor call. Therefore a const reference is the only way to pass class instances to functions.
 - [ ] There are no benefits because a reference and an object are treated as the same thing.
 
+[Reference](https://stackoverflow.com/a/2627179/10773894)
+
 #### Q7. What's the storage occupied by u1?
 
 ```cpp
@@ -138,7 +140,7 @@ typedef struct {
     // more days
     int friday:1;
     int saturday:1;
-} weekdays; << Correct  That syntax says that each variable size is 1 bit. 'bit' is not a type in C++.
+} weekdays;
 ```
 - [ ] B
 
@@ -171,7 +173,7 @@ typedef struct {
 } weekdays;
 ```
 
-[Reference](https://en.cppreference.com/w/cpp/language/bit_field)
+_NOTE_: Correct syntax is that each variable size is 1 bit. `bit` is not a type in C++. [Reference](https://en.cppreference.com/w/cpp/language/bit_field)
 
 #### Q12. What is an lvalue?
 
@@ -393,7 +395,7 @@ printf("1/2 = %f",(float)(1/2));
 - [ ] Public members will be compiled as shared variables in a multithreaded environment. Private members will be compiled as Thread-local variables.
 - [x] Public members can be accessed by any function. Private members can be accessed only by the same class's member functions and the friends of the class.
 
-#### Q28. What is the value of x after running this code?
+#### Q28. What is the value of `x` after running this code?
 
 ```cpp
 int x=10, a=-3;
@@ -995,46 +997,7 @@ std::memset(buff,20,50);
 
 [Reference](https://en.cppreference.com/w/cpp/language/operators)
 
-#### Q59. Which choice is not a valid type definition of a structure that contains x and y coordinates as integers, and that can be used exactly as shown for the variable named center?
-
-```cpp
-coord center;
-center.x = 9;
-center.y = 3;
-```
-
-- [ ] A
-```cpp
- struct coord{
-    int x;
-    int y;
-};
-typedef struct coord coord;
-```
-- [ ] B
-```cpp
- typedef struct coord{
-    int x;
-    int y;
-} coord;
-```
-- [x] C
-```cpp 
-typedef struct coord{
-    int x;
-    int y;
-};
-```
-- [ ] D
-```cpp 
-typedef struct{
-    int x;
-    int y;
-} coord;
-```
-[Reference](https://stackoverflow.com/questions/18806392/typedef-struct-declarations/18806720)
-
-#### Q60. You want to sort my_array, declared below. Which choice is the correct call to std::sort, using a lambda expression as the comparison function?
+#### Q59. You want to sort my_array, declared below. Which choice is the correct call to std::sort, using a lambda expression as the comparison function?
 
 ```cpp
 std::array<uint32_t, 50> my_array;
@@ -1070,7 +1033,7 @@ std::sort(my_array.begin(), my_array.end(), &lambda);
 ```
 [Reference](https://docs.microsoft.com/en-us/cpp/cpp/lambda-expressions-in-cpp?view=msvc-160)
 
-#### Q61. Which choice is the most reasonable implementation of the function std::mutex::lock() by using std::mutex::try_lock()?
+#### Q60. Which choice is the most reasonable implementation of the function std::mutex::lock() by using std::mutex::try_lock()?
 
 - [X] A
 ```cpp
@@ -1098,113 +1061,9 @@ void std::mutex::lock(){
 }
 ```
 
-#### Q62. What is the purpose of a destructor?
+#### Q61. What is the purpose of a destructor?
 
 - [X] It allows the programmer to write the necessary code to free the resources acquired by the object prior to deleting the object itself.
 - [ ] It deletes an object. One example of a destructor is the `delete()` function.
 - [ ] It terminates a program. This may be achieved as a regular function call or as an exception.
 - [ ] There are no destructors in C++.
-
-#### Q.63 What is the output of this code? 
-
-```c++
-	printf("1/2 = %f",(float)(1/2)); 
-```
-
-- [ ] 1/2 = 0.499999 
-- [ ] 1/2 = 0 
-- [ ] 1/2 = 0.000000 << correct
-- [ ] 1/2 = 0.5 
-	
-### Q.64 What is the difference between a public and a private class member?
-
-- [ ] Public members are the same as global variables, so every part of the code has access to them. Private members are the same as  	automatic variables, so only their class has access to them.
-- [ ] Public members are made accessible to any running application. Private members are made accessible only to the application where   the object is instantiated.
-- [ ] Public members will be compiled as shared variables in a multithreaded environment. Private members will be compiled as Thread-local variables.
-- [ ] Public members can be accessed by any function. Private members can be accessed only by the same class's member functions and the friends of the class.
-
-### Q.65 What is the value of x after running this code?
-	
-	```c++
-	int x=10, a=-3;
-	x=+a;
-	```
-
-- [ ] 3
-- [ ] 7
-- [ ] -3
-- [ ] 13
-
-### Q.66 Which statement is true?
-	
-	- []Only classes can have member variables and methods.
-	- []C++ supports multiple inheritance.
-	- []C++ supports only single inheritance.
-	- [] Only structs can inherit.
-
-### Q.67 Consider a pointer to void, named ptr, which has been set to point to a floating point variable g. Which choice is a valid way to dereference ptr to assign its pointed value to a float variable f later in the program?
-
-```c++
-	float g;
-	void *ptr=&g;
-```
-
-- [ ] float f=*(float)ptr;
-- [ ] float f=(float *)ptr;
-- [ ] float f=(float)*ptr;
-- [ ] float f=*(float *)ptr;		
-
-### Q.68 What is the .* operator and what does it do?
-
-- [ ] It is the same as the class member access operator, or arrow operator (->), which allows you to access a member of an object through a pointer to the object.
-- [ ] It is the pointer to member operator, and it allows you to access a member of an object through a pointer to that specific class member.
-- [ ] It is the member access with address of operator, which returns the address of a class or struct member.
-- [ ] It is a combination of the member access operator (.) and the dereference operator (*), so it allows you to access the object that a member pointer points to 
-
-### Q.69 For these declarations, which choice shows four equivalent ways to assign the character "y" in the string to a char variable c?
-
-- [ ]	
-```
-  c = buff[16];
-	C = str[5];
-	C = * (buff+16);
-	c = * (str+5);
-```
-- [ ]   
-```
-	C = *(buff[15]);
-	C = * (str[4]);
-	c = buff+15;
-	C-str+4;
-```
-- [ ] 
-```
-  c = buff[15];
-	C = str[4];
-	c = (buff+15);
-	C = *(str+4);
-```
-
-#### Q.70 What is the output of this code? 
-```c++
-printf("1/2 = %f",(float)(1/2)); 
-```
-
-- [ ] 1/2 = 0.499999 
-- [ ] 1/2 = 0 
-- [x] 1/2 = 0.000000
-- [ ] 1/2 = 0.5 
-
-
-#### Q.71 Which choice is *not* related to declaring the member variable count as static in my_class?
-
-```cpp
-class my_class{
-    public: static int count;
-}
-```
-
-- [ ] All objects that try to access their count member variable actually refer to the only class-bound static count variable.
-- [ ] The variable exists even when no objects of the class have been defined, so it can be modified at any point in the source code.
-- [ ] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
-- [ ] The variable is allocated only once, regardless of how many objects are instantiated, because it is bound to the class itself, not its instances.
