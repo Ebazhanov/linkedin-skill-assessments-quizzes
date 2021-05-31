@@ -203,42 +203,53 @@ h1 {
 - [x] two
 
 #### Q24. Which style will change the color of the text?
+
 ```html
-  <cite>Noam Chomsky</cite>
+<cite>Noam Chomsky</cite>
 ```
+
 - [ ] A
+
 ```css
 cite {
-    text-color: cyan;
+  text-color: cyan;
 }
 ```
+
 - [ ] B
+
 ```css
 cite {
-    font-color: cyan;
+  font-color: cyan;
 }
 ```
+
 - [x] C
+
 ```css
 cite {
-    color: cyan;
+  color: cyan;
 }
 ```
+
 - [ ] D
+
 ```css
 cite {
-    text: cyan;
+  text: cyan;
 }
 ```
 
 #### Q25. You find this code in a stylesheet. What is it being used for?
+
 ```css
 .cf::after {
-  content: "";
+  content: '';
   display: block;
   clear: both;
 }
 ```
+
 - [ ] inserting content that cannot be seen by screen readers
 - [ ] fixing an Internet Explorer 11 bug
 - [x] clearing floats in float-based layouts
@@ -265,15 +276,15 @@ cite {
 - [x] `flex: 1 1 auto;`
 - [ ] `flex: 1 0 auto;`
 
-#### Q29. A video on your webpage does not display and the console shows an error about mixed content. What is happening? 
+#### Q29. A video on your webpage does not display and the console shows an error about mixed content. What is happening?
 
 - [ ] The webapge is using a DOCTYPE, which renders it incapable of displayed video in addition to other web content.
 - [ ] Your browser does not support HTML5 video.
 - [ ] The video is from a source that cannot be displayed in your location for legal reasons.
 - [x] The page is loaded via HTTPS, but the video is being served insecurely as HTTP and the browser is blocking it.
 
-
 #### Q30. What will this loop print?
+
           let max = 3;
           for (i = 0; i > max; i++) {
             document.write("skrt ");
@@ -284,28 +295,28 @@ cite {
 - [ ] skrt skrt skrt skrt
 - [x] nothing
 
-#### Q31. You have placed an image in a directory named images and want to reference it from a page located in the root of your site. Which choice would correctly display the image on the page? 
+#### Q31. You have placed an image in a directory named images and want to reference it from a page located in the root of your site. Which choice would correctly display the image on the page?
 
 - [ ] < img src="image.jpg">
 - [ ] < a href="images/image.jpg"></a>
 - [x] < img src="images/image.jpg">
 - [ ] < img href="image.jpg">
 
-#### Q32. Which choice is a correct use of the parseInt() function in Javascript that parses a string and return an integer? 
+#### Q32. Which choice is a correct use of the parseInt() function in Javascript that parses a string and return an integer?
 
 - [ ] parseInt("six");
 - [ ] parse_int('6');
 - [x] parseInt("6");
 - [ ] parseint("6");
 
-#### Q33. How can you rewrite this function using arrow function syntax? 
+#### Q33. How can you rewrite this function using arrow function syntax?
 
-- [ ] let product => (x,y) { <br /> x * y; <br />}
-- [x] let product = (x,y) => x*y;
-- [ ] let product => x*y;
-- [ ] let product = (x,y) -> x*y;
+- [ ] let product => (x,y) { <br /> x \* y; <br />}
+- [x] let product = (x,y) => x\*y;
+- [ ] let product => x\*y;
+- [ ] let product = (x,y) -> x\*y;
 
-#### Q34. Lighthouse is a tool for auditing your website. Which choice is not a category of report offered by Lighthouse? 
+#### Q34. Lighthouse is a tool for auditing your website. Which choice is not a category of report offered by Lighthouse?
 
 - [ ] performance
 - [x] UX design
@@ -313,6 +324,7 @@ cite {
 - [ ] SEO
 
 #### Q35. In the context of this code, how would you describe user?
+
 ```
 const user = {
   given_name: 'Joe',
@@ -327,20 +339,21 @@ const user = {
 - [x] object
 
 #### Q36. A webpage has `rel="preconnect"` added to a link resource. What will this do?
+
 ```
 <link rel="preconnect" href="https://example.com">
 ```
 
 - [ ] It will tell the browser that this link is a site belonging to the current domain.
 - [ ] It will do nothing a because this is a deprecated attribute that browsers do not support.
-- [X] It will tell the browser that a connection will be made to another origin and to start getting ready as soon as possible.
+- [x] It will tell the browser that a connection will be made to another origin and to start getting ready as soon as possible.
 - [ ] It will tell the browser that a resource is needed, and that it should start getting fetched as soon as possible.
-  
+
 [Reference (web.dev)](https://web.dev/preconnect-and-dns-prefetch/)
 
 #### Q37. Which choice is _not_ a render blocking resource?
 
-- [X] images
+- [x] images
 - [ ] HTML
 - [ ] CSS
 - [ ] JavaScript
@@ -351,5 +364,19 @@ const user = {
 
 - [ ] the "Can I Use" website
 - [ ] the Web Platform Tests Suite
-- [ ] the CSS specification 
+- [ ] the CSS specification
 - [ ] MDN property pages
+
+#### Q39. You have a set of images that are slightly different sizes and aspect ratios. You don't mind if you crop off some of the image, but you want each image to completely fill a square box without being distorted. Which property and value would achieve this?
+
+- [ ] object-fit: contain
+- [ ] object-fit: stretch
+- [ ] object-fit: all
+- [x] object-fit: cover
+
+#### Q40. what does the CSS selector a[href$="org"] select?
+
+- [ ] all <a> tags whose href attribute begins with "org"
+- [ ] all <a> tags whose href attribute equals "org"
+- [x] all <a> tags whose href attribute ends with "org"
+- [ ] all <a> tags whose href attribute contains "org"

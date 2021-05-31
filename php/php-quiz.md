@@ -432,7 +432,6 @@ echo "No, mail is not set";
 - [ ] The opening and closing single quotes should be replaced by double quotes; and the apostrophe should be escaped by a backslash.
 - [x] The apostrophe needs to be escaped by a backslash to prevent it from being treated as the closing quote.
 
-
 ##### Q42. A PDO object called $db has been set up to use for database operations, including user authentication. All user-related properties are set. The script line `public function __construct(&$db)` shows a constructor that initializes all user-related properties to \_\_\_\_ if no user has logged in. These parameters will be properly set by the login functions when a user logs in.
 
 - [x] NULL
@@ -518,3 +517,10 @@ class Cow {
       echo $books->book[0]->categories->category[1];
 - [ ] $books = SimpleXML('books.xml');
       echo $books->book[0]->categories->category[1];
+
+##### Q46. When it comes to the value of a variable, what is the difference between NULL and empty?
+
+- [] NULL is a blank value; empty is the lack of a value.
+- [] A NULL value has an allocated address in memory; empty does not.
+- [] NULL referes to the lack of a value for an integer; empty refers to the lack of a value for a string.
+- [] NULL is the lack of a value; empty is a blank value.

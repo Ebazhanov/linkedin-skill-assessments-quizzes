@@ -3660,6 +3660,36 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "shijiezhou1",
+      "name": "Shijie Zhou",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28111591?v=4",
+      "profile": "http://www.shijiezhou.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "lakshyamcs16",
+      "name": "lakshyamcs16",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32986427?v=4",
+      "profile": "https://github.com/lakshyamcs16",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "facco1",
+      "name": "Filippo Facco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54476134?v=4",
+      "profile": "http://facco.tk",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
