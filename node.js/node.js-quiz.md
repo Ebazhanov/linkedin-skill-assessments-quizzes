@@ -304,3 +304,9 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [x] binding.gyp
 - [ ] gyp.json
 - [ ] package.gyp
+
+### Q47. Which core module in Node can you use for testing?
+- [ ] chai
+- [ ] jest
+- [x] assert
+- [ ] mocha
