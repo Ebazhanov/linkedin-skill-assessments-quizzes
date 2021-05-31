@@ -221,6 +221,8 @@
 - [x] The point is deleted.
 - [ ] The point is selected.
 
+[Reference](http://www.photoshopforphotographers.com/3101-1901/Help_guide/tp/Pen_path_tools.html)
+
 #### Q30. When creating a mesh object, when should you use the Mesh tool instead of the Create Gradient Mesh command in the Object menu?
 
 - [ ] when you want to create simpler meshes so the performance of Illustrator is not negatively affected
