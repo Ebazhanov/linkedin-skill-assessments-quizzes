@@ -3680,6 +3680,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "facco1",
+      "name": "Filippo Facco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54476134?v=4",
+      "profile": "http://facco.tk",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
