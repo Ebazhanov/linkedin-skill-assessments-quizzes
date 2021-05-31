@@ -45,8 +45,9 @@ export class UserDetailsComponent {
 ```javascript
 export class OrderService {
     constructor(private httpClient: HttpClient) { }
+
     addOrder(order: Order) {
-    // Missing line
+      // Missing line
     }
 }
 ```
@@ -163,7 +164,7 @@ export class ShoppingCartComponent {
 ```
 - [ ] The `ngIf` is shorthand for the other example. When Angular processes that directive, it writes a div element to the DOM with the hidden property. 
 - [ ] They are fundamentally the same. 
-- [x] The `ngIf` directive does not render the div in the DOM if the expression is false. The `hidden` property usage hides the div content in the browser viewport, but the div is still in the in the DOM. 
+- [x] The `ngIf` directive does not render the div in the DOM if the expression is false. The `hidden` property usage hides the div content in the browser viewport, but the div is still in the DOM. 
 - [ ] The `ngIf` is valid, but the use of the `hidden` property is wrong and will throw an error.
 
 #### Q15. How can you disable the submit button when the form has errors in this template-driven forms example?
@@ -240,7 +241,7 @@ export class TitleCardComponent {
 - [ ] There is an error in the template syntax. The ? is not valid here.
 - [ ] It is diplaying the job value if it has one; otherwise it is displaying the bossName.
 
-#### Q20. How would you configure a route definition for a UserDetailComponent taht supports the URL path user/23 (where 23 represents the id of the requested user)?
+#### Q20. How would you configure a route definition for a UserDetailComponent that supports the URL path user/23 (where 23 represents the id of the requested user)?
 
 - [x] `{ path: 'user/:id', component: UserDetailComponent }` 
 - [ ] `{ url: 'user/:id', routedComponent: UserDetailComponent }`
@@ -317,7 +318,7 @@ export class CalloutDirective {
     {
         path: 'customers',
         component: CustomerListComponent,
-        data: { accountSection:true }
+        data: { accountSection: true }
     }
  ```
   
@@ -325,3 +326,140 @@ export class CalloutDirective {
  - [x] a way to include static, read-only data associated with the route that can be retrieved from the ActivatedRoute
  - [ ] a property on the route that can be used to load dynamic data for the route
  - [ ] an object that will get auto-injected into the routed component's constructor.
+
+#### Q26. How does the built-in `ngIf` structural directive change the rendered DOM based on this template syntax?
+
+ ```javascript
+@Component({
+  selector: 'app-product',
+  template: '<div *ngIf="product">{{ product.name }}</div>'
+})
+export class ProductComponent {
+  @Input() product;
+}
+ ```
+
+- [ ] The `<div>` acts as a placeholder. If the product class field is "truthy," the `<div>` will get replaced by just the
+  `product.name` value; if not, then nothing will get rendered.
+- [ ] The `<div>` will always be rendered, and if the product field is "truthy," the `<div>` element will contain the
+  `product.name` value; otherwise it will render the `<div>` element with no value in it.
+- [ ] It produces an error, since ngIf is not a built-in structural directive.
+- [X] If the product class field is "truthy," then the rendered DOM will include the `<div>` with the value of the `product.name`
+  field. If it is not "truthy,' the rendered DOM will not contain the `<div>` element.
+  
+[Reference (angular.io)](https://angular.io/api/common/NgIf)
+
+#### Q27. What does this code accomplish?
+
+ ```javascript
+@NgModule({
+  declarations: [AppComponent],
+  imports: [BrowserModule],
+  bootstrap: [AppComponent]
+})
+export class AppModule{ }
+
+platformBrowserDynamic().bootstrapModule(AppModule);
+ ```
+
+- [ ] It executes a unit test for an NgModule.
+- [ ] It provides a way to code the document structure of an Angular application. The @NgModule is a form of inline code
+  commenting that gets ignored by the TypeScript compiler but will show up with special formatting in code editor
+  applications.
+- [ ] It declares an Angular module named AppModule and makes it available for lazy loading throughout the application.
+- [X] It declares an Angular module named AppModule that contains a bootstrapped component named AppComponent.
+  Then it registers that module with Angular, so the app can start up.
+
+#### Q28. Which choice best describes what the _resolve_ property does in this route configuration?
+
+ ```javascript
+{
+    path: ':id',
+    component: UserComponent,
+    resolve: {
+      user: UserResolverService
+    }
+}
+ ```
+
+- [X] Prior to loading the _UserComponent_, the router will subscribe to the _Observable_ returned by a _resolve_ method in the
+  _UserResolverService_. This technique can be used to get preloaded data for a _route_.
+- [ ] After the _route_ is done resolving, and the component is loaded and rendered, the _UserResolverService_ will have a
+  method named _user_ run that will clean up any open data connections.
+- [ ] There is an error. The correct property name is _onResolve_.
+- [ ] The _UserComponent_ will have a parameter in its constructor for _user_, and the _router_ will handle injecting in a value for
+  that from a call to a _user_ method in the _UserResolverService_.
+
+[Reference (angular.io)](https://angular.io/api/router/Resolve)
+
+#### Q29. What is the purpose of the ContentChildren decorator in this component class?
+
+ ```javascript
+@Component({
+  . . .
+  template: '<ng-content></ng-content›'
+})
+export class TabsListComponent {
+  @ContentChildren(TabComponent) tabs;
+}
+ ```
+
+- [ ] If any _TabsComponent_ elements are added to the _TabsListComponent_ template, they will get put into the <ng-content>
+  element at runtime.
+- [ ] It creates _TabComponent_ components in the _TabsListComponent_ template when a _TabsListComponent_ is
+  instantiated.
+- [X] It provides access from within the component class to any _TabComponent_ components that were content projected into
+  the <ng-content> for this component.
+- [ ] It restricts the allowed elements that can be put into a _TabsListComponent_ element to allow only _TabComponent_
+  elements.
+  
+[Reference (betterprogramming.pub)](https://betterprogramming.pub/understanding-contentchildren-with-an-example-e76ce78968db)
+
+#### Q30. In order for Angular to process components in an application, where do the component types need to be registered?
+
+- [ ] within a script tag in the index.html file
+- [ ] in an NgModule decorator metadata tag named _components_
+- [ ] No registration is needed simply include the component files in an app directory.
+- [X] in an NgModule decorator metadata property named _declarations_
+
+[Reference (angular.io)](https://angular.io/guide/ngmodule-api#ngmodule-metadata)
+
+#### Q31. What is the purpose of the `fixture.detectChanges()` call in this unit test?
+
+ ```javascript
+TestBed.configureTestingModule({
+  declarations: [ UserCardComponent]
+});
+let fixture = TestBed.createComponent(UserCardComponent);
+
+fixture.detectChanges();
+
+expect(fixture.nativeElement.querySelector('h1').textContent)
+        .toContain(fixture.componentInstance.title);
+ ```
+
+- [ ] It tracks any potential Ul changes and will fail the unit test if any are made.
+- [ ] It is used to ensure component template stability across multiple unit tests in the entire test suite.
+- [X] It forces Angular to perform change detection, which will render the _UserCardComponent_ before you can validate its
+  template.
+- [ ] It is used to log change-detection events to the console during unit test runs.
+
+[Reference (angular.io)](https://angular.io/api/core/testing/ComponentFixture#detectChanges)
+
+#### Q32. What will the URL segment look like based on the following call to the `Router.navigate` method when goToUser is passed the value 15?
+
+ ```javascript
+export class ToolsComponent {
+  constructor (private router: Router) { }
+  goToUser (id: number) {
+    this.router.navigate(['user', id]);
+  }
+}
+ ```
+
+- [X] /user/15
+- [ ] /user?id=15
+- [ ] /user:15
+- [ ] /user;id=15
+
+[Reference (angular.io)](https://angular.io/api/router/Router#navigate)
