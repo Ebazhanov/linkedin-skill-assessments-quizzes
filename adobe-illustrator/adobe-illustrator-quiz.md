@@ -192,7 +192,7 @@
 #### Q29. What happens when you click an existing anchor point with the Pen tool?
 - [ ] Any control handles are removed, converting the point into a corner point.
 - [ ] The path is split at that point.
-- [ ] The point is deleted.
+- [x] The point is deleted.
 - [ ] The point is selected.
 
 #### Q30. When creating a mesh object, when should you use the Mesh tool instead of the Create Gradient Mesh command in the Object menu?
