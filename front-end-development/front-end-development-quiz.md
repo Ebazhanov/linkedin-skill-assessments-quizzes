@@ -353,3 +353,17 @@ const user = {
 - [ ] the Web Platform Tests Suite
 - [ ] the CSS specification 
 - [ ] MDN property pages
+
+#### Q39. You have a set of images that are slightly different sizes and aspect ratios. You don't mind if you crop off some of the image, but you want each image to completely fill a square box without being distorted. Which property and value would achieve this?
+
+- [ ] object-fit: contain
+- [ ] object-fit: stretch
+- [ ] object-fit: all
+- [X] object-fit: cover
+
+#### Q40. what does the CSS selector a[href$="org"] select?
+
+- [ ] all <a> tags whose href attribute begins with "org"
+- [ ] all <a> tags whose href attribute equals "org"
+- [X] all <a> tags whose href attribute ends with "org"
+- [ ] all <a> tags whose href attribute contains "org"
