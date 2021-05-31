@@ -6,8 +6,8 @@
 - [x] `<%= render partial: "nav", locals: {selected: "about"}`
 
 #### Q2. Within a Rails controller, which code will prevent the parent controller's before_action `:get_feature` from running?
-- [ ] `skip_before_action :get_feature`
-- [x] `skip :get_feature, except: []`
+- [x] `skip_before_action :get_feature`
+- [ ] `skip :get_feature, except: []`
 - [ ] `prevent_action :get_feature`
 - [ ] `:redis_cache_store`
 
