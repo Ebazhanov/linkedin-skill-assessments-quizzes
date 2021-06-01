@@ -104,3 +104,93 @@
 - [ ] only the objects not encompassed nor crossed by the crossing selection
 - [ ] only the objects completely encompassed by the crossing selection
 - [x] only the objects completely encompassed and crossed by the crossing selection
+
+#### Q16. You can dimension objects in AutoCAD from the Annotation panel on the Home tab of the ribbon. Where else can you dimension on the ribbon?
+
+- [x] the Dimension panel on the Annotate tab
+- [ ] the Dimensional panel on the Parametric tab
+- [ ] the Palettes panel on the View tab
+- [ ] the Reference panel on the Insert tab
+
+#### Q17. When drawing a group of line segments with the LINE command, which command on the right-click shortcut menu allows you to form a closed boundary and snap back to the start point of the first line segment?
+
+- [x] CLOSE
+- [ ] ENTER
+- [ ] CANCEL
+- [ ] UNDO
+
+#### Q18. AutoCAD allows you to create elliptical arcs in drawings. When creating one of these arcs, which default drafting rule do you need to follow?
+
+- [ ] Arcs follow a counterclockwise (positive angle value) path.
+- [ ] Arcs follow a clockwise (positive angle value) path.
+- [ ] Arcs always follow a path with a negative angle value.
+- [x] Arcs follow a user-defined path.
+
+#### Q19. Linetype Scale (LTSCALE) is applied to what sort of linetypes in AutoCAD drawings?
+
+- [ ] any objects that utilize a continuous linetype
+- [x] any objects that utilize any linetype
+- [ ] any objects that utilize a dashed or dotted linetype, or a combination of both
+- [ ] any objects that utilize a colored or continuous linetype, or a combination of both
+
+#### Q20. By default, all of the ARRAY commands make their respective arrays associative and group the selected objects in the array. What command would you use to convert the selected array into individual AutoCAD objects?
+
+- [ ] EATTEDIT
+- [ ] WBLOCK
+- [x] EXPLODE
+- [ ] PROPERTIES
+
+#### Q21. Which command opens a folder where you can start the Add-a-Plotter wizard?
+
+- [ ] QUICKSETUP
+- [ ] STYLESMANAGER
+- [x] PLOTTERMANAGER
+- [ ] PLOTTERWIZARD
+
+#### Q22. Dimensions in a drawing can be spaced automatically with the Adjust Space (DIMSPACE) command. You can specify a distance between spaced dimensions or you can use the Auto option. What does Auto do to the dimensions being spaced?
+
+- [ ] calculates the Auto space as one and a half times (1.5x) the text height of the text in the dimension style being used
+- [x] calculates the Auto space as twice the distance between the first and second dimensions selected for spacing
+- [ ] calculates the Auto space as three times (3x) the text height of the text in the dimension style being used
+
+#### Q23. There is often a need to hide or isolate selected objects, especially in complex drawings when detailing geometry. Where would you find the Isolate menu option—which is not on the ribbon?
+
+- [ ] the status bar
+- [x] a right-click shortcut menu after object selection
+- [ ] the Quick Access toolbar (QAT)
+- [ ] the navigation bar
+
+#### Q24. System variables can be monitored in AutoCAD. When monitored, they can also be reset to preferred values. What command is used to control these system variables?
+
+- [x] SYSVARMONITOR
+- [ ] SYSVARMON
+- [ ] SYSTEMVARIABLEMON
+- [ ] SYSVARIABLEMONITOR
+
+#### Q25. When using HIDE or ISOLATE in a drawing, the objects are either hidden or isolated for clarity. What happens to the layers of hidden or isolated objects?
+
+- [ ] The hidden and isolated object layers go on to their own layer.
+- [ ] The isolated object layers stay on; all other layers are turned off in the Layer Properties Manager.
+- [x] Nothing happens.
+- [ ] The hidden object layers turn off; all other layers stay on in the Layer Properties Manager.
+
+#### Q26. When scaling a drawing from imperial feet and inches to metric millimeters, what scale factor do you use in the SCALE command, before adjusting your units settings?
+
+- [x] 25.4
+- [ ] 0.03937
+- [ ] 12.0
+- [ ] 0.08333
+
+#### Q27. When drawing line objects in a drawing, you may use coordinates to define distance and direction. One type of coordinate is a relative coordinate, which is relative to the last point specified—often the second point when drawing a line using the LINE command. What prefix symbol should you type in front of 2D X,Y coordinates to ensure that AutoCAD knows it is a relative coordinate input?
+
+- [ ] `#X,Y`
+- [x] `@X,Y`
+- [ ] `R-(X,Y)`
+- [ ] `REL X,Y`
+
+#### Q28. Center Mark (CENTERMARK), a new annotation tool for circles and arcs, provides an associative center mark that can be edited easily and remains associative to its geometry. Which AutoCAD system variable controls the extension line overshoots that go past the circumference of the circle or arc?
+
+- [ ] CENTERRESET
+- [ ] CENTEREXE
+- [ ] CENTERLTSCALE
+- [x] CENTERMARKEXE
