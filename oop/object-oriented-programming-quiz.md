@@ -143,7 +143,7 @@
 #### Q19. In context of OOP, what is association?
 
 - [x] Association is a relationship where all objects have their own life cycle and there is no owner.
-- [ ] Association is the procecss where model elements cooperate to proide higher-level behavior.
+- [ ] Association is the process where model elements cooperate to provide higher-level behavior.
 - [ ] Association is whole/part relationship where one object is composed of one or more other objects, each of which is considered a part of the whole.
 - [ ] Association is where all objects have their own life cycle, but there is ownerhip, and child objects can not belong to another parent object.
 
@@ -161,7 +161,7 @@
 - [ ] multilevel
 - [x] hierarchical
 
-`Hybrid inheritance is a composition of multiple and hierarchical inheritances`
+_NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inheritances
 
 #### Q22. A language that does not support polymorphism but supports classes is considered what?
 
@@ -191,7 +191,7 @@
 - [ ] as many classes as required
 - [ ] at least two classes
 
-#### Q26. if an object is passed by reference, the changes made in the function are reflected `**\_\_\_**`.
+#### Q26. if an object is passed by reference, the changes made in the function are reflected ____.
 
 - [x] to the main object of the caller function, too
 - [ ] on the caller function object and also the called function object
@@ -219,37 +219,30 @@
 - [ ] All have the same degree of abstraction.
 - [ ] the class at the second level
 
-#### Q30. In the contex of OOP, what is association?
-
-- [ ] Association is a whole/part relationship where one object is composed of one or more other objects, each of which is considered a part of the whole.
-- [ ] Association is where all objects have their own life cycle, but there is ownership, and child objects can not belong to another parent object.
-- [ ] Association is the process where model elements cooperate to provide higher-level behavior.
-- [x] Association is a relationship where all objects have their own life cycles and there is no owner.
-
-#### Q31. Which is NOT one of the basic types of inheritance?
+#### Q30. Which is NOT one of the basic types of inheritance?
 
 - [ ] multilevel inheritance
 - [x] double inheritance
 - [ ] single inheritance
 - [ ] hierarchical inheritance
 
-#### Q32. Why is code duplication so insidious?
+#### Q31. Why is code duplication so insidious?
 
 - [ ] The duplication uses unnecessary space.
 - [x] One has to maintain all the duplicates.
 - [ ] Duplication can cause intellectual property concerns.
 - [ ] Duplication is easy to hide.
 
-#### Q33. When and how often is a static constructor called?
+#### Q32. When and how often is a static constructor called?
 
 - [ ] It is called initially when an object is created and called with every new object instance.
 - [ ] It is called when an object is destroyed and only one time.
 - [x] It is called initially when an object is created and only one time.
 - [ ] It is created at time when the object is discarded.
 
-#### Q34. What does the code shown below demonstrate, and why?
+#### Q33. What does the code shown below demonstrate, and why?
 
-```
+```cpp
    static void Multiply(int num1, int num2) {};
    static void Multiply(double num1, double num2, double num3) {};
    static void Multiply(float num1, float num2) {};
@@ -260,168 +253,155 @@
 - [x] method overloading, because it allows the creation of several methods with the same name, wich differ by the type of input via parameter
 - [ ] method overriding, because it display the same method name, different parameters, and same return type
 
-#### Q35. What is the purpose os static constructor?
+#### Q34. What is the purpose os static constructor?
 
 - [x] to initialize all the members with static value
 - [ ] to delete the static members when not required
 - [ ] to initialize the static members of class
 - [ ] to clear all the static members' initialized values
 
-#### Q36. What are CRC Cards?
+#### Q35. What are CRC Cards?
 
 - [x] Code Responsibility Collection cards are a brainstorming tool used in the design of procedural software
 - [ ] Class responsible collaboration cards are a brainstorming tool used in the design of oop software
 - [ ] Code Responsibility Correction cards are tools used for debugging
 - [ ] Code Responsibility Correction cards are tools for modeling
 
-#### Q37.1 How are contents of a composition different from those of aggregation?
+#### Q36.1 How are contents of a composition different from those of aggregation?
 
 - [ ] if one element of an aggregation is dereferenced, all its elements are eligible for garbage collection
 - [x] if a composition dies, the contents die
 - [ ] the contents of a composition are all siblings
 - [ ] an aggregation contains only abstract classes
 
-#### Q37.2 Which statement about compositions and aggregations is true?
+#### Q36.2 Which statement about compositions and aggregations is true?
 
 - [ ] if one element of an aggregation is dereferenced, all its elements are eligible for garbage collection
 - [x] if a composition dies, the contents die
 - [ ] the contents of a composition are all siblings
 - [ ] an aggregation contains only abstract classes
 
-#### Q38. What is the result of using more abstraction?
+#### Q37. What is the result of using more abstraction?
 
 - [ ] it can increase code vulnerability
 - [ ] it can make code unsafe
 - [x] it can limit code readability
 - [ ] it can be safer for coding
 
-#### Q39. Which is false for a member function of a class?
+#### Q38. Which is false for a member function of a class?
 
 - [ ] they can be defined only inside or outside the class body
 - [ ] the can be made to be friends of another class
-- [ ] they do not need to be declared inside the class definiton
+- [x] they do not need to be declared inside the class definition
 - [ ] they need to be defined
 
-#### Q40. Why is inheritance used when creating a new class?
+#### Q39. Why is inheritance used when creating a new class?
 
 - [ ] to protect attributes from unwanted changes
 - [ ] to delegate coding responsibility more efficiently
 - [ ] to conserve memory
 - [x] to avoid writing duplicate code
 
-#### Q41. In addition to attributes and behaviours, what quality must a class possess?
+#### Q40. In addition to attributes and behaviours, what quality must a class possess?
 
 - [x] a name
 - [ ] a state
 - [ ] a color
 - [ ] an object
 
-#### Q42. Which type of function among the following shows polymorphism?
+#### Q41. Which type of function among the following shows polymorphism?
 
 - [ ] inline function
 - [ ] undefined function
 - [x] virtual function
 - [ ] class member function
 
-#### Q43. Which words in the following list are candidates for objects: trumpet, clean, enrage, leaf, tree, collapse, active, and lively?
+#### Q42. Which words in the following list are candidates for objects: trumpet, clean, enrage, leaf, tree, collapse, active, and lively?
 
 - [ ] leaf and tree
 - [ ] clean, enrage, and collapse
 - [ ] clean, active, and lively
 - [x] leaf, tree, and trumpet
 
-#### Q44. What best describes what object-oriented programming does?
+#### Q43. What best describes what object-oriented programming does?
 
 - [x] It focuses on objects that interact cleanly with one another.
 - [ ] It programs exclusively to interfaces.
 - [ ] It programs exclusively to classes.
 - [ ] It creates one class for all business logic.
 
-#### Q45. Can abstract classes be used in multilevel inheritance?
+#### Q44. Can abstract classes be used in multilevel inheritance?
 
 - [ ] No, abstract classes can be used only in single-level inheritance since they must be immediately implemented.
 - [x] yes, always
 - [ ] yes, but with only one abstract class
 - [ ] No, abstract classes do not have constructors.
 
-#### Q46. What type of inheritance may lead to the diamond problem?
+#### Q45. What type of inheritance may lead to the diamond problem?
 
 - [ ] single level
 - [ ] multilevel
 - [ ] hierarchical
 - [x] multiple
 
-#### Q47. How are the contents of a composition different from those of an aggregation?
-
-- [ ] The contents of a composition are all siblings.
-- [ ] An aggregation contains only abstract classes.
-- [x] If a composition dies, the contents die.
-- [ ] If one element of an aggregation is dereferenced, all its elements are eligible for garbage collection.
-
-#### Q48. What is the relationship between abstraction and encapsulation?
+#### Q46. What is the relationship between abstraction and encapsulation?
 
 - [x] Abstraction is about making relevant information visible, while encapsulation enables a programmer to implement the desired level of abstraction.
 - [ ] Abstraction and encapsulation are essentially the same.
 - [ ] Abstraction and encapsulation are unrelated.
 - [ ] Encapsulation is about making relevant information visible, while abstraction enables a programmer to implement the desired level of encapsulation.
 
-#### Q49. Which of these keywords are access specifiers?
+#### Q47. Which of these keywords are access specifiers?
 
 - [ ] abstract and public
 - [x] public and private
 - [ ] this and final
 - [ ] final and abstract
 
-#### Q50. Why is inheritance used when creating a new class?
-
-- [ ] to conserve memory
-- [ ] to protect attributes from unwanted changes
-- [x] to separate class behaviour from the more general to the more specific
-- [ ] to delegate coding responsibility more efficiently
-
-#### Q51. What is a reference to an object?
+#### Q48. What is a reference to an object?
 
 - [ ] It is the address of variable only -- not the method of an object.
-- [ ] It is a shallow pointer that conatins address of an object.
+- [ ] It is a shallow pointer that contains address of an object.
 - [ ] It is the physical address of an object.
 - [x] It is the address where the variables and methods of an object are stored.
 
-#### Q52. Why is unit testing harder in OOP than functional programming?
+#### Q49. Why is unit testing harder in OOP than functional programming?
 
 - [x] Objects may maintain internal state, which is not easily accessible by the tests.
 - [ ] The quality of unit testing frameworks for functional languages is better.
 - [ ] OOP promotes code reuse, which means that your tests have to consider more use cases.
 - [ ] Object-oriented languages tend to rely on frameworks such as Spring or Hibernate, which make them difficult to test.
 
-#### Q53. What is the function of a user diagram?
+#### Q50. What is the function of a user diagram?
 
 - [ ] It connects actors to use cases.
 - [x] It links actors to roles played in all use cases.
 - [ ] It lists all actors for each use case.
 - [ ] It minimizes the number of actors required.
 
-#### Q54. How do object behaviour and attributes differ?
+#### Q51. How do object behaviour and attributes differ?
 
 - [ ] Behaviour describe dynamic properties; attributes are static.
 - [x] Attributes describe a state; behaviours describe a change.
 - [ ] Attributes apply only to a specified object; behaviour apply to other linked objects.
 - [ ] Behaviours are vector quantities; attributes are scalars.
 
-#### Q55. The open/closed principle states that classes should be open for ___ but closed for ____.
+#### Q52. The open/closed principle states that classes should be open for ____ but closed for ____.
 
 - [ ] refactoring; duplication
 - [ ] modification; duplication
 - [x] extension; modification
 - [ ] reuse; encapsulation
 
-#### Q56. Why would you override a method of a base class?
+#### Q53. Why would you override a method of a base class?
 
 - [ ] to define a method that must be implemented in a derived class
 - [x] to define a custom implementation of an inherited member
 - [ ] to define a method that must be implemented in a superclass only
 - [ ] to define a class that can be inherited from
 
-#### Q57. What is a copy constructor?
+#### Q54. What is a copy constructor?
+
 - [x] It is a unique constructor for creating a new object as a copy of an object that already exists. There will always be only one copy constructor that can be either defined by the user or the system.
 - [ ] It is a constructor that duplicates itself when requested on demand.
 - [ ] It is a common constructor for preventing the creation of a new object as a copy of an object that already exists. There will always be multiple standard constructors that can be either defined by the user or the system.
