@@ -483,7 +483,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] Simple Markup shows the revisions of one selected author in the Review pane; All Markup shows the revisions of all authors with inline markups.
 - [ ] Simple Markup shows the final version with inline markups; All Markup shows the final version without inline markups.
 
-#### Q60. You want to set a wider inside margin to accommodate binding a document where pages are printed on both sides. Which option should you choose in the Page Setup diealog box?
+#### Q60. You want to set a wider inside margin to accommodate binding a document where pages are printed on both sides. Which option should you choose in the Page Setup dialog box?
 
 - [x] Book Fold.
 - [ ] Mirror Margins
