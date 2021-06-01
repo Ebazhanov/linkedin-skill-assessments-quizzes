@@ -204,6 +204,8 @@ h1 {
 
 #### Q24. Which style will change the color of the text?
 
+![A](images/Q24.png)
+
 ```html
 <cite>Noam Chomsky</cite>
 ```

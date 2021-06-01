@@ -520,7 +520,7 @@ class Cow {
 
 ##### Q46. When it comes to the value of a variable, what is the difference between NULL and empty?
 
-- [] NULL is a blank value; empty is the lack of a value.
-- [] A NULL value has an allocated address in memory; empty does not.
-- [] NULL referes to the lack of a value for an integer; empty refers to the lack of a value for a string.
-- [] NULL is the lack of a value; empty is a blank value.
+- [ ] NULL is a blank value; empty is the lack of a value.
+- [ ] A NULL value has an allocated address in memory; empty does not.
+- [ ] NULL referes to the lack of a value for an integer; empty refers to the lack of a value for a string.
+- [ ] NULL is the lack of a value; empty is a blank value.
