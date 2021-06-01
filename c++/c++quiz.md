@@ -1084,3 +1084,9 @@ void std::mutex::lock(){
 - [ ] It deletes an object. One example of a destructor is the `delete()` function.
 - [ ] It terminates a program. This may be achieved as a regular function call or as an exception.
 - [ ] There are no destructors in C++.
+
+#### Q62. Which STL class is the best fit for implementing a phonebook? Suppose each entry contains a name and a phone number, with no duplicates, and you want to have lookup by name.
+ - [] std::priority_queue
+ - [x] std::map
+ - [] std::vector
+ - [] std::list
