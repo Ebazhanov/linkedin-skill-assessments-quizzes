@@ -183,7 +183,7 @@ File Tab -> Options -> Advanced -> Image Size and Quality -> Do not compress ima
 File Tab -> Options -> Advanced -> Print -> High quality
 ```
 
-#### Q23. You have inserted s video on a slide and want the video to automaaticlly start 2 seconods after the associated slide appears. How can you accomplish this?
+#### Q23. You have inserted a video on a slide and want the video to automaaticlly start 2 seconods after the associated slide appears. How can you accomplish this?
 
 - [ ] Use playback timings.
 - [x] Use animation timings.
