@@ -178,7 +178,7 @@
 - [ ] a relational table
 - [ ] an update to the input file
 - [ ] a single, combined list
-- [ ] a set of <key, value> pairs
+- [x] a set of <key, value> pairs
 
 #### Q31. To optimize a Mapper, what should you perform first?
 - [ ] Override the default Partitioner.
