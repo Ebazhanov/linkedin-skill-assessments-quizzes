@@ -324,3 +324,10 @@
 - [x] `link relations`
 - [ ] `parsing`
 - [ ] `browsing`
+
+#### Q53. Which HTTP response code describes a new resource as created successfully?
+
+- [ ] `200`
+- [x] `201`
+- [ ] `204`
+- [ ] `202`
