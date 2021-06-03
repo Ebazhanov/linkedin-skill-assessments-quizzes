@@ -178,7 +178,9 @@
 - [ ] a relational table
 - [ ] an update to the input file
 - [ ] a single, combined list
-- [ ] a set of <key, value> pairs
+- [x] a set of <key, value> pairs
+  
+`map function processes a certain key-value pair and emits a certain number of key-value pairs and the Reduce function processes values grouped by the same key and emits another set of key-value pairs as output.`
 
 #### Q31. To optimize a Mapper, what should you perform first?
 - [ ] Override the default Partitioner.
