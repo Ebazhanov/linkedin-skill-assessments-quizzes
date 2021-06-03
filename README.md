@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-381-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-382-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -592,6 +592,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/lakshyamcs16"><img src="https://avatars.githubusercontent.com/u/32986427?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lakshyamcs16</b></sub></a><br /><a href="#design-lakshyamcs16" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=lakshyamcs16" title="Code">💻</a></td>
     <td align="center"><a href="http://facco.tk"><img src="https://avatars.githubusercontent.com/u/54476134?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Filippo Facco</b></sub></a><br /><a href="#design-facco1" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=facco1" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/mendel5"><img src="https://avatars.githubusercontent.com/u/60322520?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mendel5</b></sub></a><br /><a href="#design-mendel5" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=mendel5" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/dandrok"><img src="https://avatars.githubusercontent.com/u/46764643?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Patryk</b></sub></a><br /><a href="#design-dandrok" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=dandrok" title="Code">💻</a></td>
   </tr>
 </table>
 
