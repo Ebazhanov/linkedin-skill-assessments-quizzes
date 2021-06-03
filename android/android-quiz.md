@@ -668,7 +668,7 @@ android {
 #### Q51. What is the benifit of using the @VisibleForTesting annotation?
 
 - [ ] to denote that a class, method, or field is visible only in test code.
-- [ ] to dentoe that a class, method or field has it's visibility increased to make code less testable.
+- [ ] to denote that a class, method or field has it's visibility increased to make code less testable.
 - [x] to denote that a class, method, or field has it's visibility relaxed to make code testable.
 - [ ] to throw a run-time error if a class, method, or field which this annotation is accessed improperly.
 
