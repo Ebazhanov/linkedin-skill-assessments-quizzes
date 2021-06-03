@@ -697,7 +697,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [x] TIMESTAMP and DATETIME are both stored without time zone.
 - [ ] TIMESTAMP is stored in UTC values, and DATETIME is stored in without time zone.
 
-#### Q76. What is the equivalent of mysqladmin reload command?
+#### Q77. What is the equivalent of mysqladmin reload command?
 
 - [ ] mysqladmind flush-threads
 - [ ] mysqladmind flush-tables
