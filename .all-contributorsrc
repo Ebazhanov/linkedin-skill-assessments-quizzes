@@ -3730,6 +3730,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "lazargugleta",
+      "name": "Lazar Gugleta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37106022?v=4",
+      "profile": "https://lazargugleta.github.io",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
