@@ -3720,6 +3720,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "yzAlvin",
+      "name": "Alvin Zhao",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14051545?v=4",
+      "profile": "http://yzAlvin.github.io",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
