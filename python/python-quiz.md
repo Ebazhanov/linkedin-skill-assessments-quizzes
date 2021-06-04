@@ -962,3 +962,31 @@ def self.get_next_card(self):
 - [ ] call.(get_max_num)
 - [ ] def get_max_num([57, 99, 31, 18])
 - [ ] call.get_max_num([57, 99, 31, 18])
+    
+#### Q82. How is comment created?
+    
+- [ ] -- This is a comment
+- [x] # This is a comment
+- [ ] /* This is a comment *\
+- [ ] // This is a comment
+    
+#### Q83. What is the correct syntax for replacing the string apple in the list with the string orange?
+    
+- [ ] orange = my_list[1]
+- [x] my_list[1] = 'orange'
+- [ ] my_list['orange'] = 1
+- [ ] my_list[1] == orange
+    
+#### Q84. What will happen if you use a while loop and forget to include logic that eventually causes the while loop to stop?
+    
+- [ ] Nothing will happen; your computer knows when to stop running the code in the while loop.
+- [ ] You will get a KeyError.
+- [x] Your code will get stuck in an infinite loop.
+- [ ] You will get a WhileLoopError.
+ 
+#### Q85. Describe the functionality of a queue?
+    
+- [x] A queue add items to either end and remove items from either end.
+- [ ] A queue add items to the top and remove items from the top.
+- [ ] A queue add items to the top, and removes items from anywhere in, a list.
+- [ ] A queue add items to the top and remove items from anywhere in the queue.
