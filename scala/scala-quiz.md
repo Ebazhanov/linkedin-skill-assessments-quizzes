@@ -176,26 +176,26 @@ def main () {
 #### Q26. One way to improve code reliability is to use _____, which will evaluate a condition and return an error if the conditions is violated.
 - [ ] packages
 - [ ] polymorphisms
-- [ ] assertions
+- [x] assertions
 - [ ] traits
 
 #### Q27. Which statement about if-else-if-else statements is true?
 - [ ] If the first else-if does not succeed, then no other else-ifs are tested.
 - [ ] If an else-if does not succeed, then none of the remaining else-if statements or elses will be tested.
 - [ ] All else-if statements are tested in all cases.
-- [ ] If an else-if succeeds, then none of the remaining else-if statements or elses will tested.
+- [x] If an else-if succeeds, then none of the remaining else-if statements or elses will tested.
 
 #### Q28. What do you call the process of changing the definition of an inherited method?
 - [ ] recursive methods
 - [ ] currying methods
 - [ ] redefining methods
-- [ ] overriding methods
+- [x] overriding methods
 
 #### Q29. What is an advantage of an immutable object?
 - [ ] Immutable objects use less memory than their mutable counterparts.
 - [ ] Immutable objects do not require error handling.
 - [ ] Immutable objects can be used in classes, mutable objects cannot.
-- [ ] Immutable objects are threadsafe.
+- [x] Immutable objects are threadsafe.
 
 #### Q30. What is the code below equivalent to?
 ```
@@ -204,16 +204,16 @@ myClass.foreach(println _)
 - [ ] myClass.foreach(println ())
 - [ ] myClass.foreach(print NIL)
 - [ ] myClass.loop(println ())
-- [ ] myClass.foreach(x => println(x))
+- [x] myClass.foreach(x => println(x))
 
 #### Q31. What is an advantage of an immutable object?
 - [ ] Immutable objects use less memory than their mutable counterparts.
 - [ ] Immutable objects do not require error handling.
 - [ ] Immutable objects can be used in classes, mutable objects cannot.
-- [ ] Immutable objects are threadsafe.
+- [x] Immutable objects are threadsafe.
 
 #### Q32. You want to create an iteration loop that tests the condition at the end of the loop body. Which iteration would you use?
-- [ ] do-while loop
+- [x] do-while loop
 - [ ] while loop
 - [ ] for loop
 - [ ] do-until loop
@@ -227,29 +227,29 @@ myClass.foreach(println _)
 #### Q34. Which is _not_ a member of the collections hierarchy?
 - [ ] Set
 - [ ] Seq
-- [ ] Hash
+- [x] Hash
 - [ ] Map
 
 #### Q35. Which term makes the contents of packages available without prefixing?
 - [ ] use
 - [ ] include
-- [ ] import
+- [x] import
 - [ ] assertion
 
 #### Q36. If you wanted to find the remainder after division, what operator would you use?
-- [ ] %
+- [x] %
 - [ ] DIV
 - [ ] //
 - [ ] /
 
 #### Q37. What are defined inside a class definition?
 - [ ] method
-- [ ] fields and methods
+- [x] fields and methods
 - [ ] fields, methods, and packages
 - [ ] fields
 
 #### Q38. What defines methods and fields that can then be reused by mixing into classes?
 - [ ] singleton
 - [ ] assertion
-- [ ] trait
+- [x] trait
 - [ ] monad
