@@ -1090,3 +1090,17 @@ void std::mutex::lock(){
  - [x] std::map
  - [] std::vector
  - [] std::list
+
+#### Q63. What is the main difference between these two Functions?
+
+```cpp
+std::mutex::lock()
+std::mutex::try_lock()
+```
+
+- [ ] `lock()` has a higher privilege over `try_lock()`. This means that you have a better chance of acquiring a mutex `with lock()`.
+- [x] Both attempt to acquire a lock, but `lock()` blocks if the mutex is not available, whereas `try_lock()` returns whether the mutex is available or not.
+- [ ] `lock()` enforces preemption, whereas `try_lock()` suggests preemption.
+- [ ] If the mutex is not available, `try_lock()` returns with a corresponding code, whereas `lock()` snatches the mutex from the thread that currently has it.
+
+[Reference](https://en.cppreference.com/w/cpp/thread/mutex/try_lock)
