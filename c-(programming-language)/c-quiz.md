@@ -355,3 +355,10 @@ int main() {
 - [ ] in C++
 - [ ] in C#
 - [ ] in DOS
+
+#### Q32. What does the strcmp(str1, str2); function return?
+
+- [x] 0 if str1 and str2 are the same, a negative number if str1 is less than str2, a positive number if str1 is greater than str2
+- [ ] true (1) if str1 and str2 are the same, false (0) if str1 and str2 are not the same
+- [ ] true (1) if str1 and str2 are the same, NULL if str1 and str2 are not the same
+- [ ] 0 if str1 and str2 are the same, a negative number if str2 is less than str1, a positive number if str2 is greater than str1
