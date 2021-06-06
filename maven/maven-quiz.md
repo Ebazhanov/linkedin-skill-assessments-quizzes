@@ -217,3 +217,75 @@ mvn install
 - [ ] dependencies
 - [ ] distribution management
 
+#### Q35. What does the mvn clean command do?
+- [x] It removes the target directory
+- [ ] It updates the version of the plugins defned in the POM file.
+- [ ] It removes unused dependencies in your project
+- [ ] It builds your project
+
+#### Q36. If you want to utilize a locally  develop JAR file in another project and that JAR file has not been deployed to either the Maven central repository or your own locally sourced mirror repository, what Maven goal do you need to execute on the locally developed JAR project?
+- [x] install
+- [ ] test
+- [ ] compile
+- [ ] package
+
+#### Q37. Bellow is a definition of the Maven JAR Plugin, where the main class is set to com.palmer.bethan.App. What is the effect of this?
+```
+<configuration>
+    <archive>
+        <manifest>
+            <addClasspath>true</addClasspath>
+            <mainClass>com.palmer.bethan.App</mainClass>
+        </manifest>
+    </archive>
+</configuration>
+```
+- [ ] Maven will generate javadocs for the App class.
+- [x] Maven will generate an executable JAR, which can be used to run the App class.
+- [ ] Maven will include only the App class when it compiles the source code.
+- [ ] Maven will add an empty main  method to the App class.
+
+#### Q38. Suppose you are packaging a Mave project and see the following error "[WARNING] Using platform encoding (CP1252 actually) to copy filtered resources, i.e.    build platform dependent!" What do you add to your POM file to set platform encoding to ensure your build is not platform dependet  ?
+- [ ] <project.build.resources>
+- [ ] <maven.compiler.source>
+- [x] <project.build.sourceEncoding>
+- [ ] <project.compiler.encoding>
+
+#### Q39. Why might you not want to include groupId and version elements in child POM files?
+- [x] all of these answers
+- [ ] dependencies
+- [ ] version
+- [ ] groupId
+
+#### Q40. The settings.xml file that provides the user-specific settings for Maven is contained in which directory by default?
+- [ ] `${maven.home}/${user.name}/settings.xml`
+- [x] `${user.home}/.m2/settings.xml`
+- [ ] `${maven.home}/conf/settings.xml`
+- [ ] `${user.home}/maven/settings.xml`
+
+#### Q41. Suppose you are using Maven in a corporate environment and, to save bandwidth, you want to prevent the need for large numbers of developers to download the same dependency from the internet. What do you do to limit this?
+- [x] Create an internal corporate repository to store copies of the necessary artifacts.
+- [ ] It is not possible to do this.
+- [ ] When defining the dependency, set the scope to provided.
+- [ ] Each developer should define the dependency in the POM file in the local copy of the project.
+
+#### Q42. In multimodule projects, what do child POMs inherit from the parent POM?
+- [x] all of these answers
+- [ ] dependencies
+- [ ] groupId
+- [ ] version
+
+#### Q43. Below is a report generated for a multimodule project with the Checkstyle Plugin. Why might the highlighted links to the two child projects _not_ work?
+
+![q43](q43.png)
+
+- [ ] The Checkstyle Plugin does not work on child modules.
+- [ ] Each Checkstyle report is in the target/site folder of the respective module.
+- [ ] All links in Checkstyle reports must be specified in the plugin definition.
+- [ ] Checkstyle reports for child modules have to be behind a firewall.
+
+#### Q44. Which build plugin allows you to create a "fat" JAR file that contains all of the dependencies in the final JAR file?
+- [ ] Fatjar
+- [x] Shade
+- [ ] Dependency
+- [ ] Package

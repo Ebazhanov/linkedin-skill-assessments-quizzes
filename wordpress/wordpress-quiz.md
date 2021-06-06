@@ -265,31 +265,31 @@ if ( ! defined( 'ABSPATH' ) ) {
 - [ ] MU Admin
 - [ ] Multisite Master
 
-### Q38. How would you write a text string containing "Hello World!" in a way that makes it possible for someone else to translate the string into a different language?
+#### Q38. How would you write a text string containing "Hello World!" in a way that makes it possible for someone else to translate the string into a different language?
 - [ ] apply_filters( 'Hello World!', 'mytextdomain' );
-- [ ] \_\_( 'Hello World!', 'mytextdomain' );
+- [x] \_\_( 'Hello World!', 'mytextdomain' );
 - [ ] \$string = "Hello World!";
 - [ ] esc_html( 'Hello World!', 'mytextdomain' );
 
-### Q39. What is the core mission of WordPress?
+#### Q39. What is the core mission of WordPress?
 - [x] to make free software
 - [ ] to democratize publishing and the freedoms that come with open source
 - [ ] to make money
 - [ ] to encourage blogging
 
-### Q40. Which of the following is NOT a suggested security improvement for your WordPress website?
+#### Q40. Which of the following is NOT a suggested security improvement for your WordPress website?
 - [ ] The site should communicate with WordPress.org.
 - [ ] Remove inactive themes.
 - [ ] Do not output debug information.
 - [ ] WordPress updates are accomplished manually only.
 
-### Q41. What's the primary difference between template tags prefaced with the* versus get_the*?
+#### Q41. What's the primary difference between template tags prefaced with the* versus get_the*?
 - [ ] Template tags prefaced with the\_ can be used directly within a template. Template tags prefaced with get_the are generally reserved for partial templates.
 - [ ] Template tags prefaced with the\_ return a value. Template tags prefaced with get_the display a value.
 - [ ] Template tags prefaced with the\_ display a value. Template tags prefaced with get_the return a value.
 - [ ] Template tags prefaced with the\_ don't accept arguments. Template tags prefaced with get_the do accept arguments.
 
-### Q42. How can you add a custom script that needs to run only on the contact page of a site? The slug of the page is contact.
+#### Q42. How can you add a custom script that needs to run only on the contact page of a site? The slug of the page is contact.
 ```
 Link to the script directly from a template named page-contact.php using the get_header() template tag, like this:
 get_header( '<script src="/my-script.js"></script>' );
@@ -314,3 +314,86 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] <head>
 - [ ] <script src="/my-script.js"></script>
 - [ ] </head>
+
+#### Q43. Where can you find the official WordPress documentation and usage guide? 
+- [ ] `support.wordpress.com`
+- [ ] `developer.wordpress.com`
+- [x] `developer.wordpress.org`
+- [ ] `support.wordpress.org`
+
+#### Q44. How would you use CSS to ensure your theme was mobile responsive? 
+- [ ] Use CSS grid to create responsive layouts.
+- [ ] Use media queries to add breakpoints for different screen sizes.
+- [ ] Use Flexbox to create flexible page layouts. 
+- [x] all of these answers
+
+#### Q45. The Block API enables developers to register custom blocks in themes or plugins. How would you register a custom block?
+- [ ] Use the registerBlockName() function.
+- [ ] Use the createGutenBlock() function.
+- [ ] Use a block template.
+- [ ] Use the registerBlockType() function.
+
+#### Q46. Which software development principle, often used in WordPress, aims to reduce the repetition of code?
+- [ ] RRR
+- [ ] WET
+- [ ] DRY
+- [ ] KISS
+
+#### Q47. In a standard template file, how often does the WordPress Loop run?
+- [ ] It runs once per post in the database.
+- [ ] It runs once.
+- [ ] The Loop doesn't run in template files.
+- [ ] It runs once per fetched post.
+
+#### Q48. Which is not a suggested performance improvement for your WordPress website?
+- [ ] The site should run the most recent version of WordPress.
+- [ ] Remove or inactivate unnecessary plugins.
+- [ ] UTF8 is supported.
+- [ ] Choose a very recent version of PHP.
+
+#### Q49. On a regular WordPress install, what is the difference between transients and the object cache?
+- [ ] Transients are persistent and write to the wp_options. The object cache persists only for the particular page load.
+- [ ] Transients are stored in the WordPress database. The object cache is stored on the server where the WordPress install is located.
+- [ ] Transients are available for the duration of a user session and apply to all page components. The object cache is available only for scripts.
+- [ ] Transients persist only for the particular page load. The object cache is persistent and writes to the wp_options table.
+
+#### Q50. For the majority of modern themes, what is the standart method used to customize various details of site appearance and features, such as changing the site description or adding a logo and favicons?
+- [ ] Theme settings
+- [ ] wp-config.php
+- [ ] Customizer
+- [ ] WordPress settings
+
+#### Q51. You can harden your WordPress site security by adding ____ to your wp-config.php file?
+- [ ] database usernames and passwords
+- [ ] unique keys and salts
+- [ ] accessibility
+- [ ] documentation
+
+#### Q52. According to WordPress PHP coding standards for inline comments, how would you write a single-line comment in a PHP document?
+- [ ] 
+/*
+ * This is a single line comment
+ */
+   
+- [ ] // This is a single line comment.
+- [ ] <!-- This is a single line comment -->
+- [ ] // This is a single line comment
+
+#### Q53. If you have pretty permalinks enabled on a WordPress site, the REST API index is exposed by appending what to the end of the site URL? (for example, http://example.com/answer/) Note that the index provides information regarding which routes are available for that particular WordPress install.
+- [ ] `http://example.com/wp-json/`
+- [ ] `http://example.com/wp-admin/`
+- [ ] `http://example.com/wp-rest/`
+- [ ] `http://example.com/wp-rest-api/`
+
+#### Q54. What is the process of marking the code you write so that it is ready for translation?
+- [ ] internationalization
+- [ ] localization
+- [ ] translation
+- [ ] using GlotPress
+
+#### Q55. In your wp-config.php file, you've added the following line of code. What does it do?
+`define( 'DISALLOW_FILE_EDIT', true );`
+- [ ] prevents any non-admin user from directly editing theme or plugin files
+- [ ] disables the theme and plugin editor in the WordPress admin
+- [ ] disables the ability to edit core WordPress files from either within the WordPress admin or via direct file access
+- [ ] sets read-only permissions on all files in the WordPress install

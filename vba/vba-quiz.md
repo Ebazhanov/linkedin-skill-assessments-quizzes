@@ -27,7 +27,7 @@ End Sub
 - [ ] There is no meaningful difference. The terms are used interchangeably.
 - [ ] A dass declares an object's properties. An object completes the declaration by defining events and methods.
 - [ ] An object is a template for a class.
-- [ ] A class describes the design of an object. An object is an instance of that design.
+- [X] A class describes the design of an object. An object is an instance of that design.
 
 #### Q4. What value does the MsgBox statement display?
 ```
@@ -40,7 +40,7 @@ End Sub
 ```
 - [ ] 2
 - [ ] 10
-- [ ] First arg
+- [x] First arg
 - [ ] 3.1416
 
 #### Q5. What object is needed to put a userform module in a VBA project?
@@ -105,8 +105,21 @@ End Sub
 - [ ] 1 row and 10 columns
 
 #### Q11. Which cell is selected if you run this code?
-`Range("E3:312").Range("B3") Select`
+`Range("E3:312").Range("B3").Select`
 - [ ] F5
-- [ ] F3
+- [X] F3
 - [ ] B3
 - [ ] E3
+#### Q12. Which variable name is valid in VBA?
+- [x] _MyVar
+- [ ] My_Var
+- [ ] My-Var
+- [ ] 1MyVar
+  
+[Reference link](https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/visual-basic-naming-rules)
+```
+Use the following rules when you name procedures, constants, variables, and arguments in a Visual Basic module:
+You must use a letter as the first character.
+You can't use a space, period (.), exclamation mark (!), or the characters @, &, $, # in the name.
+Name can't exceed 255 characters in length.
+```

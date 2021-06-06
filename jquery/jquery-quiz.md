@@ -678,7 +678,7 @@ m.css('font-weight', 'bold');
 
 #### Q45. You want to take a block of type and animate it to a larger size with jQuery. The following HTML and JavaScript behaves strangely. What is the issue?
 ```html
-<div id="type" style="font: 1em/1.5 helvetica, arial, sans-serif; background: #ffc">
+<div id="type" style="font: 1em/1.5 helvetica, arial, sans-serif; background: #ffc; padding: 0">
   Animate me!
 </div>
 ```
@@ -736,3 +736,207 @@ $('#type').animate({
 - [ ] jQuery uses a virtual DOM that batches updates, making inserts and deletes faster.
 - [x] jQuery code to perform DOM manipulation is shorter and easier to write, but does not make DOM operations faster.
 
+#### Q51. There are some issues with this snippet of jQuery. First, it is manipulating CSS directly, rather than manipulating classes and leaving the CSS in stylesheets. What else in this code is best to avoid?
+
+```js
+$('.item').css('background-color', 'red');
+// some other code here
+var firstSubItem = $('.item').find('.sub-item').get(0);
+// some other code here too
+$('.item').parents('.navigation').css('font-weight', 'bold');
+```
+
+- [ ] The `.css()` method accepts only an object, not two separate arguments. This will trigger an exception that should be caught.
+- [ ] The `$('.item')` selection is being made several times. This should be cached in a variable for (however slightly) better performance and easier maintainability.
+- [x] The call to `.parents()` is in an inefficient place.
+- [ ] All the calls to `$('.item')` should be chained together as a single executable line for better performance.
+
+#### Q52. Which choice is an example of statement chaining?
+- [ ] `var $p = $('p'); console.log($p.length);`
+- [x] `$('p').find('a').children('li');`
+- [ ] `$('p > a > li');`
+- [ ] `$('p'); $('a'); $('li');`
+
+#### Q53. How can you ensure that some code executes only when a class `active` appears on an element?
+- [x] `$('.element').attr('class', 'active')`
+- [ ] `$('.element').with('.active')`
+- [ ] `$('.element').hasClass('active')`
+- [ ] `$('.active').then()`
+
+#### Q54. jQuery has a main function for handling AJAX, and several shorthand function including `load()` that make calling that main function easier. Given this HTML snippet, how can you insert only the second snippet from the source.html file (`div#one`) into the `#load-me` div on-demand via AJAX?
+
+```html
+<div id="load-me">
+  This area will be replaced with AJAX loaded content.
+</div>
+
+<div id="one">
+  <h1>First Piece</h1>
+
+  <p>
+    Lorem ipsum duis maximus quam condimentum dolor eleifend scelerisque.
+  </p>
+</div>
+
+<div id="two">
+  <h1>Second Piece</h1>
+
+  <p>
+    Lorem ipsum proin facilisis augue in risus interdum ornare.
+  </p>
+</div>
+```
+
+- [ ] `$('#load-me').get('source.html#one');`
+- [ ] `$('#load-me').get('source.html #one');`
+- [ ] `$('#load-me').load('source.html #one');`
+- [ ] `$('#load-me').load('source.html', '#one');`
+
+#### Q55. Given this HTML list and subsequent two lines of jQuery, what is the difference in the behavior of `.closest()` and `.parents()`?
+
+```html
+<ul class="items" id="main-menu">
+  <li>Item 1 <ul id="sub-menu">
+  <li class="leaf">Sub Item 1</li>
+  <li>Sub Item 2</li>
+  </ul></li>
+</ul>
+```
+
+```js
+$('.leaf').closest('.items');
+$('.leaf').parents('.items');
+```
+
+- [x] `.closest()` returns `.leaf` and `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
+- [ ] `.closest()` returns `.leaf` and `#sub-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
+- [ ] `.closest()` returns only `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
+- [ ] `.closest()` returns only `#sub-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
+
+#### Q56. What does this line of code do?
+
+```js
+$('ul > li:first-child');
+```
+
+- [x] selects the first list item inside all unordered lists on the page
+- [ ] selects the first list item inside the first unordered list on the page
+- [ ] selects the first element inside any list items on the page
+- [ ] creates a predefined CSS selector that can be reused later
+
+#### Q57. Below is a list of items that you want to be clickable and an event handler function. How can you assign the event handler to every item in the list in a way that is most performant, and also that ensures that the handler is called even if more items are added to the list programmatically?
+
+```html
+<ul class="clickable-list">
+    <li>First Item</li>
+    <li>Second Item</li>
+    <li>Third Item</li>
+    <li>Fourth Item</li>
+    <li>Fifth Item</li>
+</ul>
+```
+
+```js
+function listResponder(evt) {
+    console.log('You clicked a list item that says', evt.target.innerText);
+}
+```
+
+- [ ] `$('.clickable-list).click(listResponder);`
+- [ ] `$('.clickable-list).on('click', 'li', listResponder);`
+- [ ] `$('.clickable-list).on('click, append', listResponder);`
+- [ ] `$('.clickable-list).each(function() { $(this).click(listResponder); });`
+
+#### Q58. What is the difference between $('p').find('a') and $('p').children('a')?
+
+- [ ] `find() traverses only one level down, whereas children() selects anything inside the original element`
+- [ ] `$('p').find('a') finds all paragraphs inside links, whereas $('p').children('a') finds links within paragraph tags`
+- [ ] `.find() always searches the entire DOM tree, regardless of the original selection .children() searches only the immediate childern of an element`
+- [ ] `children() traverses only one level down, whereas find() selects anything inside the original element`
+
+#### Q59. Consider the following markup, used to lay out three balls on the page, all hidden. How can you select the green ball, make it faded in over the course of three seconds, and log a console message when the animation has finished?
+
+```html
+<div class="balls">
+    <div class="ball ball--red" style="display: none"></div>
+    <div class="ball ball--green" style="display: none"></div>
+    <div class="ball ball--blue" style="display: none"></div>
+</div>
+```
+
+- [ ]
+```
+$('.ball--green').fadeIn(3000, function(){
+    console.log("Animation is done!");
+});
+```
+- [ ] 
+```
+$('.ball--green').fade('in',3000).done(function(){
+    console.log("Animation is done!");
+});
+```
+- [ ] 
+```
+$('.ball--green').fadeIn(3).console().log("Animation is done!");
+```
+- [ ] 
+```
+$('.ball--green').fadeIn("3s", function(){
+    console.log("Animation is done!");
+});
+```
+
+#### Q60. Why might you use custom events instead of shared helper functions? For example:
+```
+$(document).on('myCustomEvent', function(){
+    // act on my custom event
+});
+
+//and later...
+$(document).trigger('myCustomEvent');
+```
+
+- [ ] `Custom events are at least an order of magnitude faster than helper functions`
+- [ ] `Custom events can be listened for and acted upon across one or more scripts without needing to keep helper funtions in scope`
+- [ ] `Handler functions for custom events are less likely to be mangled by minification and obfuscation build tools`
+- [ ] `It is easier to write documentation for custom events than it is for helper functions`
+
+#### Q61. In the HTML and JavaScript below, the animations will all fire at once. How can you make them fire in sequence instead?
+```html
+<div id="element-1" class="animel"></div>
+<div id="element-2" class="animel"></div>
+<div id="element-3" class="animel"></div>
+
+$('#element-1').animate({ top: '+=100' });
+$('#element-2').animate({ top: '+=100' });
+$('#element-3').animate({ top: '+=100' });
+```
+- [ ]
+```
+$('element-1').animate({ top: '+=100' })
+    .pushStack('#element-2')
+    .animate({ top: '+=100' })
+    .pushStack('#element-3').animate({ top: '+=100' })
+```
+- [ ]
+```
+$('element-1').animate({ top: '+=100' }, function() {
+    $('element-2').animate({ top: '+=100' }, function() {
+        $('element-3').animate({ top: '+=100' });
+    })
+});
+```
+- [ ]
+```
+$('element-1').animate({ top: '+=100' })
+    .add('element-2').animate({ top: '+=100' })
+    .add('element-3').animate({ top: '+=100' })
+```
+- [ ]
+```
+$('element-1').animate({ top: '+=100' }, {queue: 'custom'}); 
+$('element-2').animate({ top: '+=100' }, {queue: 'custom'}); 
+$('element-3').animate({ top: '+=100' }, {queue: 'custom'}); 
+$('custom').dequeue();
+```

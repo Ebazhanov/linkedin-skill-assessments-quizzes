@@ -182,11 +182,12 @@ E. bash demo.sh
 
 #### Q22. How could you get a list of all .html files in your tree?
 
-#### Idk both of them work
 - [ ] `find . -type html`
-- [x] `find . -name *.html`
+- [ ] `find . -name *.html`
 - [ ] `find *.html`
 - [x] `find . -name \*.html -print`
+
+The second seems well, but will expand the * if there is any .html file on your working directory.
 
 #### Q23. What would be in out.txt?
 ```bash
@@ -244,11 +245,6 @@ esac
 - [x] `$?`
 - [ ] `$!`
 - [ ] `$@`
-
-#WARNING!
-Start from this question and to Q40 I have a lot of doubts about answers
-because in real assessment I get these 12 question + 3 from Q1 to Q28,
-and I select other answers in Q29, Q31, Q32, Q35, Q36, Q37, Q39, Q40 and pass it
 
 #### Q29. What is the output of this script?
 ```bash
@@ -398,8 +394,6 @@ done
 ```bash
 ls Hello[[.vertical-line.]]World
 ```
-It's matches also `Hello[[.vertical-line.]]World` file but if we have this and `Hello|World` file will always be matched last one
-
 - [ ] `Nothing, this is an invalid file glob.`
 - [ ] `Hello.vertical-line.World`
 - [ ] `Hello[[.vertical-line.]]World`
@@ -424,10 +418,12 @@ else
     echo "Is not numeric"
 fi
 ```
-- [x] Any sequence of characters that includes an integer
+- [ ] Any sequence of characters that includes an integer
 - [ ] The user would have to enter the character sequence of `^[0-9]]+$` Only this will prove to be true and "Is numeric" would be printed on the screen due to incorrect syntax. By encapsulating the regular expression in double quotes every match will fail except the text string `^[0-9]+$`
 - [ ] One or more characters that only includes integers
-- [ ] Due to a syntax error it is impossible to get the script to print "Is numeric"
+- [x] Due to a syntax error it is impossible to get the script to print "Is numeric"
+
+The regex must not be quoted to work properly.
 
 #### Q42. What will be the difference between the output on the screen and the contents of out.txt
 ```bash
@@ -445,9 +441,9 @@ mysql < file.sql > out.txt
 - [ ] cp history
 
 #### Q44. In order to write a script that iterates through the files in a directory, which of the following could you use?
-- [ ] `bash for i in $(ls); do ... done`
+- [x] `bash for i in $(ls); do ... done`
 - [ ] `bash for $(ls); do ... done`
-- [x] `bash for i in $ls; do ... done`
+- [ ] `bash for i in $ls; do ... done`
 - [ ] `bash for $ls; do ... done`
 
 #### Q45 When executing a command and passing the output of that command to another command, which character allows you to chain these commands together?
@@ -541,9 +537,7 @@ cd -
 - [ ] It deletes the current directory
 - [ ] It moves you one directory above your current working directory.
 
-# Training questions
-
-#### Q1. What does this command do?
+#### Q52. What does this command do?
 ```bash
 cat > notes -
 ```
@@ -552,7 +546,7 @@ cat > notes -
 - [ ] Outputs the content of notes and deletes it
 - [ ] Appends text to the existing "notes"
 
-#### Q2. What is the output of:
+#### Q53. What is the output of:
 ```bash
 VAR="This old man came rolling"
 echo "\${VAR//man/rolling}"
@@ -561,3 +555,10 @@ echo "\${VAR//man/rolling}"
 - [ ] This old man came man
 - [ ] This old man came rolling
 - [ ] This old came
+- [ ] 
+
+#### Q54. The shell looks at the contents of a particular variable to identify which programs it can run. What is the name of this variable?
+- [ ] $INCLUDE
+- [x] $PATH
+- [ ] $PROGRAM
+- [ ] $PATHS

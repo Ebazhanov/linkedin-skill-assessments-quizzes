@@ -15,8 +15,8 @@ NSMutableString *s = [NSMutableString stringWithString: @"123"];
 NSString *str = nil;
 NSInteger i = str.integerValue;
 ```
- - [x] nil
- - [ ] 0
+ - [ ] nil
+ - [x] 0 (technically `nil` == 0 but i will have a literal value of `0` and not the `void*` value of `nil`)
  - [ ] -1
  - [ ] This code crashes.
 
@@ -87,7 +87,7 @@ for (int x=0; x<100; x++) {
 
 #### Q11. What is this code an example of?
 `[self addObserver: self forKeyPath: @"val" options:0 context: nil];`
- - [ ] Key-Value Observing
+ - [x] Key-Value Observing
  - [ ] Class Value Observing
  - [ ] Key-Data Observing
  - [ ] KeyPath Observing
@@ -110,7 +110,7 @@ printf("%d", val);
  - [ ] This code contains an error.
 
 #### Q14. What best describes class inheritance in Objective-C?
- - [ ] single inheritance but multiple protocol implementation
+ - [x] single inheritance but multiple protocol implementation
  - [ ] Objective-C doesn't support inheritance
  - [ ] dual class inheritance
  - [ ] unlimited class inheritance and protocol adherence
@@ -127,8 +127,8 @@ printf("%d", val);
 NSMutableDictionary *dict1 = [NSMutableDictionary dictionaryWithCapacity:5];
 [dict1 setValue:@"key" forKey:@"value"];
 ```
- - [x] The key and value items are mixed
- - [ ] Nothing is wrong with it
+ - [ ] The key and value items are mixed
+ - [x] Nothing is wrong with it
  - [ ] You can't set the capacity of a dictionary
  - [ ] NSMutableDictionary doesn't have a :setValue:forKey function.
 
@@ -150,9 +150,9 @@ NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding]
  - [ ] This code contains an error.
 
 #### Q19. Structs can have `**\_\_\_**`?
- - [x] functions
+ - [ ] functions
  - [ ] initializers
- - [ ] fields
+ - [x] fields
  - [ ] all of these answers
 
 #### Q20. What is wrong with this code?
@@ -166,37 +166,26 @@ NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding]
  - [ ] MyClass doesn't implement NSObject.
  - [ ] Properties are declared in the implementation.
 
-#### Q21. What is wrong with this code?
-```
-NSArray *vals = @[@"1", @"2", @"3"];
-NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF.intValue > 1"];
-NSArray *newValues = [vals filteredArrayUsingPredicate:pred];
-```
- - [x] 2,3
- - [ ] nil
- - [ ] 2,"3"
- - [ ] This code contains an error.
-
-#### Q22. What is an enums base type for the code below?
+#### Q21. What is an enums base type for the code below?
 `typedef enum { Foo1, Foo2} Foo;`
  - [x] There is no base type.
  - [ ] NSObject
  - [ ] int
  - [ ] NSNumber
 
-#### Q23. If you want to store a small amount of information (e.g., user settings), whats the best, built-in way to go?
+#### Q22. If you want to store a small amount of information (e.g., user settings), whats the best, built-in way to go?
  - [x] UserDefaults
  - [ ] plist file
  - [ ] CoreData
  - [ ] TextFile
 
-#### Q24. What are categories used for?
+#### Q23. What are categories used for?
  - [x] to extend other classes
  - [ ] to manage access control
  - [ ] to coordinate objects
  - [ ] to group classes
 
-#### Q25. What is this Objective-C code checking?
+#### Q24. What is this Objective-C code checking?
 ```
 if ([keyPath isInstanceOf:[NSString class]]) {
 }
@@ -206,24 +195,24 @@ if ([keyPath isInstanceOf:[NSString class]]) {
  - [ ] if keyPath's baseclass is the same as NSString's baseclass
  - [ ] if keyPath implements the same methods as NSString
 
-#### Q26. What is this a declaration of?
+#### Q25. What is this a declaration of?
 `int(^foo)(int);`
  - [ ] an Extension
  - [ ] a Generic
- - [ ] a block of code
+ - [x] a block of code
  - [ ] an abstract class
 
-#### Q27. For observing changes to a property, which of these two statements cause the related method to be called and why?
+#### Q26. For observing changes to a property, which of these two statements cause the related method to be called and why?
 ```
 1. _val = 1;
 2. self.val= 100;
 ```
- - [ ] Statement 2, since it calls the auto-created setter on the property.
+ - [x] Statement 2, since it calls the auto-created setter on the property.
  - [ ] Statement 1, since it uses the property directly.
  - [ ] Statement 2, since it specifies the class instance to use.
  - [ ] Statement 1, since it calls the auto-created setter on the property.
 
-#### Q28. What is wrong with this code?
+#### Q27. What is wrong with this code?
 ```
 float x = 2.0;
 int(^foo)(int) = ^(int n1) {
@@ -234,45 +223,78 @@ foo(5);
  - [ ] Ints and floats can't be multiplied.
  - [ ] The parameter isn't declared correctly.
  - [ ] x is not in the right scope.
- - [ ] Nothing is wrong with this code.
+ - [x] Nothing is wrong with this code.
 
-#### Q29. What's the difference between an array and a set?
- - [ ] Arrays are ordered, non-unique values.
+#### Q28. What's the difference between an array and a set?
+ - [x] Arrays are ordered, non-unique values.
  - [ ] Arrays are stored sorted.
  - [ ] Sets are ordered, unique values.
  - [ ] Sets can contain nils.
 
-#### Q30. Dot notation can be used for `**\_\_\_**`?
+#### Q29. Dot notation can be used for `**\_\_\_**`?
  - [ ] nothing, as they're never used in Objective-C
  - [ ] function calls only
- - [ ] property getter/setter
+ - [x] property getter/setter
  - [ ] parameter delimiters
 
-#### Q31. What is the value of newVals after this code is executed?
-
+#### Q30. What is the value of newVals after this code is executed?
+```
     NSArray *vals = @[@"1", @"2", @"3"];
     NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF.intValue > 1"];
-    NSArray \*newVals = [vals filteredArrayUsingPredicate:pred];
-
+    NSArray *newVals = [vals filteredArrayUsingPredicate:pred];
+```
  - [x] 2,3
  - [ ] nil
  - [ ] This code contains an error
  - [ ] 2,"3"
 
-#### Q32. How would this function be called?
+#### Q31. How would this function be called?
 `-(int)foo:(int)a b:(int)c;`
  - [ ] self.foo(5, b:10);
  - [ ] This code contains an error.
  - [ ] [self foo:5:10:20];
- - [ ] [self foo:5 b:10];
+ - [x] [self foo:5 b:10];
 
-#### Q33. What is the type of the error return value stored in json?
-
-    NSERROR *error;
+#### Q32. What is the type of the error return value stored in json?
+```
+    NSError *error;
     NSData *data;
-    id json = [NSJSONSerialization JSONObjectWithData:data opetions:NSJSONReadingAllowFragments error:&error];
-
+    id json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
+```
  - [ ] NSString
  - [ ] NSArray
  - [ ] id
  - [ ] NSDictionary
+
+#### Q33. What is significant about this function declaration?
+```
+    -(void)testFunc:(NSString**)str;
+```
+- [ ] The parameter is passed by value and can not be changed
+- [ ] ** is not allowed on a parameter
+- [ ] The parameter may be nil
+- [x] The parameter is passed by reference and may be changed
+
+#### Q34. What is printed from this code execution?
+```
+    typedef enum {
+        thing1,
+        thing2,
+        thing3
+    } Thing;
+
+
+    -(void) enumStuff {
+        NSLog(@"%d", thing2);
+    }
+```
+- [ ] 0
+- [x] 1
+- [ ] thing2
+- [ ] This code does not print anything
+
+#### Q35. You are worried about threaded access to a property and possible collision in writing. What directive should you use on the property?
+- [ ] non-atomic
+- [ ] strong
+- [ ] weak
+- [x] atomic

@@ -107,3 +107,83 @@
 - [ ] reducer inputs
 - [ ] intermediate values
 - [x] map inputs
+
+#### Q19. Which command imports data to Hadoop from a MySQL database?
+- [ ] spark import --connect jdbc:mysql://mysql.example.com/spark --username spark --warehouse-dir user/hue/oozie/deployments/spark
+- [ ] sqoop import --connect jdbc:mysql://mysql.example.com/sqoop --username sqoop --warehouse-dir user/hue/oozie/deployments/sqoop
+- [x] sqoop import --connect jdbc:mysql://mysql.example.com/sqoop --username sqoop --password sqoop --warehouse-dir user/hue/oozie/deployments/sqoop
+- [ ] spark import --connect jdbc:mysql://mysql.example.com/spark --username spark --password spark --warehouse-dir user/hue/oozie/deployments/spark
+
+#### Q20. In what form is Reducer output presented?
+- [x] compressed (NOT SURE)
+- [ ] sorted
+- [ ] not sorted
+- [ ] encrypted
+
+#### Q21. Which library should be used to unit test MapReduce code?
+- [ ] JUnit
+- [ ] XUnit
+- [x] MRUnit
+- [ ] HadoopUnit
+
+#### Q22. If you started the NameNode, then which kind of user must you be?
+- [ ] hadoop-user
+- [x] super-user
+- [ ] node-user
+- [ ] admin-user
+
+#### Q23. State __ between the JVMs in a MapReduce job
+- [ ] can be configured to be shared
+- [ ] is partially shared
+- [ ] is shared
+- [x] is not shared (https://www.lynda.com/Hadoop-tutorials/Understanding-Java-virtual-machines-JVMs/191942/369545-4.html)
+
+#### Q24. To create a MapReduce job, what should be coded first?
+- [ ] a static job() method
+- [x] a Job class and instance (NOT SURE)
+- [ ] a job() method
+- [ ] a static Job class
+
+#### Q25. To connect Hadoop to AWS S3, which client should you use?
+- [x] S3A
+- [ ] S3N
+- [ ] S3
+- [ ] the EMR S3
+
+#### Q26. HBase works with which type of schema enforcement?
+- [ ] schema on write
+- [ ] no schema
+- [ ] external schema
+- [ ] schema on read
+
+#### Q27. HDFS file are of what type?
+- [ ] read-write
+- [ ] read-only
+- [ ] write-only
+- [ ] append-only
+
+#### Q28. A distributed cache file path can originate from what location?
+- [ ] hdfs or top
+- [ ] http
+- [ ] hdfs or http
+- [ ] hdfs
+
+#### Q29. Which library should you use to perform ETL-type MapReduce jobs?
+- [ ] Hive 
+- [ ] Pig
+- [ ] Impala
+- [ ] Mahout
+
+#### Q30. What is the output of the Reducer?
+- [ ] a relational table
+- [ ] an update to the input file
+- [ ] a single, combined list
+- [x] a set of <key, value> pairs
+  
+`map function processes a certain key-value pair and emits a certain number of key-value pairs and the Reduce function processes values grouped by the same key and emits another set of key-value pairs as output.`
+
+#### Q31. To optimize a Mapper, what should you perform first?
+- [ ] Override the default Partitioner.
+- [ ] Skip bad records.
+- [ ] Break up Mappers that do more than one task into multiple Mappers.
+- [ ] Combine Mappers that do one task into large Mappers.
