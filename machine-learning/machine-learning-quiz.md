@@ -343,9 +343,9 @@ Note: there are centres of clusters (C0, C1, C2).
 #### QTraining2. Man of the advances in ml have come from improved
 
 - [ ] statistics
-- [x] structured data
+- [ ] structured data
 - [ ] availability
-- [ ] algorithms
+- [X] algorithms
 
 #### Q45. What is this diagram a good example of?
 
