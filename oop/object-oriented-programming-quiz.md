@@ -262,8 +262,8 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 
 #### Q35. What are CRC Cards?
 
-- [x] Code Responsibility Collection cards are a brainstorming tool used in the design of procedural software
-- [ ] Class responsible collaboration cards are a brainstorming tool used in the design of oop software
+- [ ] Code Responsibility Collection cards are a brainstorming tool used in the design of procedural software
+- [x] Class responsible collaboration cards are a brainstorming tool used in the design of oop software
 - [ ] Code Responsibility Correction cards are tools used for debugging
 - [ ] Code Responsibility Correction cards are tools for modeling
 
