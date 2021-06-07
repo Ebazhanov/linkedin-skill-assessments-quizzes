@@ -383,3 +383,10 @@ AND MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 MATCH (c:Company {name: 'Neo4j'}) RETURN c;MATCH (p:Person) WHERE p.name = 'Jennifer' RETURN p;
 MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 ```
+
+### Q53. You need to create a scalable database that supports immutable writes. What do you use?
+
+- [X] A ledger database
+- [ ] A graph database
+- [ ] A key-value database
+- [ ] A columnstore database
