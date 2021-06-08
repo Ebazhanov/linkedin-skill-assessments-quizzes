@@ -524,3 +524,51 @@ class Cow {
 - [ ] A NULL value has an allocated address in memory; empty does not.
 - [ ] NULL referes to the lack of a value for an integer; empty refers to the lack of a value for a string.
 - [ ] NULL is the lack of a value; empty is a blank value.
+
+##### Q47. What would be a good name for this function?
+```
+function doStuff($haystack, $needle) {
+      $length = strlen($needle)
+      if (substr($haystack, 0, $needle) == $needle)
+        return true;
+      else
+        return false;
+}
+```
+
+- [ ] equals
+- [ ] endsWith
+- [X] startsWith
+- [ ] contains
+
+##### Q48. If you want to pass a formfield to another page when a button is clicked, you should use the ___ . If you want to store information across multiple pages, you should use the ___?
+
+- [ ] request; response
+- [ ] response; request
+- [ ] session; request
+- [X] request; session
+
+##### Q49. You are using the following code to decide if a button is clicked, but it is never returning true. Which step is most likely to shed light on the problem?
+
+```
+isset($_POST['submit'])
+```
+
+- [ ] Make sure the input field displaying the button is named 'submit'
+- [ ] Make sure you are not missing any semicolons
+- [ ] Print everything in the session ```print_r($_SESSION);```
+- [ ] Look in the query string at the top of your browser to see if submit is assigned a value
+
+##### Q50. Why should you follow a PSR standard?
+
+- [ ] because coding standards often vary between developers and companies
+- [ ] because coding standards are monitored for compliance accross developers and companies
+- [ ] because there are mandatory coding standards among developers and companies
+- [ ] if using certain platforms, because the PSR's apply to those platforms only
+
+##### Q51. What are getters and setters?
+
+- [ ] Getters and setters ensure that if a data member is declared private, then it can be accessed only within the same function, not by an outside class
+- [ ] Getters and setters are utility functions within PHP that allow loading from, and saving to, a database
+- [ ] Getters and setters encapsulate the fields of a class by making them acccessible only through its private methods, and keep the values themselves public
+- [X] Getters and setters are methods used to declare or obtain the values of variables, usually private ones
