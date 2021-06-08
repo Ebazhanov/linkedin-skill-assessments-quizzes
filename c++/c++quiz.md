@@ -1104,3 +1104,18 @@ std::mutex::try_lock()
 - [ ] If the mutex is not available, `try_lock()` returns with a corresponding code, whereas `lock()` snatches the mutex from the thread that currently has it.
 
 [Reference](https://en.cppreference.com/w/cpp/thread/mutex/try_lock)
+
+#### Q64. What is the main difference between these two Functions?
+
+What is one benefit of declaring the parameter as a `const` reference instead of declaring it as a regular object?
+
+```cpp
+int median(const my_array& a)
+```
+
+- [ ] Actually, objects cannot be passed as regular variables, because they require a constructor call. Therefore, a `const` reference is the only way to pass class instances to functions.
+- [ ] There are no benefits because a reference and an object are treated as the same thing.
+- [x] The `const` qualifier Forbids the code to modify the argument, so the programmer can rest assured that the source object will remain unchanged.
+- [ ] The argument is passed as a reference, so the Function receives a copy that can be modified without affecting the original variable.
+
+Note: This one is similar to Q6, but focuses on the `const` keyword.
