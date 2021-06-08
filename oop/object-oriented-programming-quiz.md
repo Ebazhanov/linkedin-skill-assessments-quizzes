@@ -267,6 +267,8 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] Code Responsibility Correction cards are tools used for debugging
 - [ ] Code Responsibility Correction cards are tools for modeling
 
+[reference link](https://en.wikipedia.org/wiki/Class-responsibility-collaboration_card)
+
 #### Q36.1 How are contents of a composition different from those of aggregation?
 
 - [ ] if one element of an aggregation is dereferenced, all its elements are eligible for garbage collection
