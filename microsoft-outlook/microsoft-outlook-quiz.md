@@ -267,35 +267,35 @@ C. Some people have already accepted, so you must cancel this meeting and create
 - [ ] You change the time zone that your calendar uses
 - [ ] You change the number of hours visible on the grid
 
-#### 38. Which is not a good reason to create a new calendar?
+#### 39. Which is not a good reason to create a new calendar?
 
 - [ ] To keep track of personal events in a work setting
 - [ ] To use a shared calendar with colleagues
 - [ ] To isolate meetings and important dates for a project team
 - [ ] To have a different view of your calendar
 
-#### 39. Under what conditions can you successfully recall a message?
+#### 40. Under what conditions can you successfully recall a message?
 
 - [ ] Only when the recipient is also using Outlook
 - [ ] Only if the email is plain text without attachments
 - [ ] If the email si still in your outbox
 - [ ] If the email was sent within the past 24 hours
 
-#### 40. What rule can you create in View Settings to color code messages from a particular senderm such as your manager?
+#### 41. What rule can you create in View Settings to color code messages from a particular senderm such as your manager?
 
 - [ ] Format Columns
 - [ ] Conditional Formatting
 - [ ] Group By
 - [ ] By Sender
 
-#### 41. You have a contact folder for members and you need to track two additional pieces of member information: start date and last renewal. What is the simplest wat to track this information?
+#### 42. You have a contact folder for members and you need to track two additional pieces of member information: start date and last renewal. What is the simplest wat to track this information?
 
 - [ ] Export your contacts to Excel, which ash lots of columns; add the data; and then import the contacts back to Outlook
 - [ ] Use the Field Chooser to create two new columns of type Date in the folder
 - [ ] Create a custom contacts form that includes two text boxes to collect this data
 - [ ] All of these answers
 
-#### 42. You have created a rule to automatically route emails to the Project A folder. Why might you also add Project A to Favorites? (Select all that apply)
+#### 43. You have created a rule to automatically route emails to the Project A folder. Why might you also add Project A to Favorites? (Select all that apply)
 
 ```
 A. To easily see when you have a new message related to Project A
