@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-387-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-388-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -600,6 +600,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/vmicho"><img src="https://avatars.githubusercontent.com/u/66125746?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vmicho</b></sub></a><br /><a href="#design-vmicho" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=vmicho" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/theExicuter"><img src="https://avatars.githubusercontent.com/u/45738492?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sikandar Ali</b></sub></a><br /><a href="#design-theExicuter" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=theExicuter" title="Code">💻</a></td>
+    <td align="center"><a href="https://therajababu.com"><img src="https://avatars.githubusercontent.com/u/18283763?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Raja Babu</b></sub></a><br /><a href="#design-therajababu" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=therajababu" title="Code">💻</a></td>
   </tr>
 </table>
 
