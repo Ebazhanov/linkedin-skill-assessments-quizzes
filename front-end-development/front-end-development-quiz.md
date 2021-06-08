@@ -382,3 +382,11 @@ const user = {
 - [ ] all <a> tags whose href attribute equals "org"
 - [x] all <a> tags whose href attribute ends with "org"
 - [ ] all <a> tags whose href attribute contains "org"
+  
+
+**#### Q41. Which choice <em>is not</em> of invoking strict mode in JavaScript?**
+
+- [ ] it eliminates some JavaScript silent errors by changing them to throw errors.
+- [ ] it prohibits some syntax likely to be defined in future versions of ECMAScript.
+- [ ] it forces the writing of valid HTML and CSS.
+- [ ] it fixes mistakes that make it difficult for JavaScript engines to perform optimizations.
