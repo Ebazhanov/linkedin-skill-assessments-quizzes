@@ -406,3 +406,9 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] It is a constructor that duplicates itself when requested on demand.
 - [ ] It is a common constructor for preventing the creation of a new object as a copy of an object that already exists. There will always be multiple standard constructors that can be either defined by the user or the system.
 - [ ] It is a constructor that duplicates itself on its own, based on memory available.
+
+#### Q55. What defines the catch block most accurately?
+- [x] The catch block that will be executed is the one that best matches the type of the exception thrown
+- [ ] Multiple catch blocks are not allowed with a single try.
+- [ ] Every catch block will run accordingly in a try.
+- [ ] 
