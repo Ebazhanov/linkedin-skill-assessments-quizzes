@@ -1124,3 +1124,72 @@ for (int i = 44; i > 40; i--) {
 - [x] four
 - [ ] three
 - [ ] five
+
+#### Q81. What is the value of myCharacter after line 3 is run?
+
+```java
+1: public class Main {
+2:   public static void main (String[] args) {
+3:     char myCharacter = "piper".charAt(3);
+4:   }
+5: }
+```
+
+- [ ] p
+- [ ] r
+- [X] e
+- [ ] i
+
+#### Q82. When should you use a static method?
+
+- [ ]  when your method is related to the object's characteristics
+- [ ]  when you want your method to be available independently of class instances
+- [ ]  when your method uses an object's instance variable
+- [ ]  when your method is dependent on the specific instance that calls it
+
+#### Q83. What phrase indicates that a function receives a copy of each argument passed to it rather than a reference to the objects themselves?
+
+- [ ] pass by reference
+- [ ] pass by occurrence
+- [X] pass by value
+- [ ] API call
+
+#### Q84. In Java, what is the scope of a method's argument or parameter?
+
+- [X] inside the method
+- [ ] both inside and outside the method
+- [ ] neither inside nor outside the method
+- [ ] outside the method
+
+#### Q85. What is the output of this code?
+
+```java
+public class Main {
+  public static void main (String[] args) {
+    int[] sampleNumbers = {8, 5, 3, 1};
+    System.out.println(sampleNumbers[2]);
+  }
+}
+```
+
+- [ ] 5
+- [ ] 8
+- [ ] 1
+- [X] 3
+
+#### Q86. Which change will make this code compile successfully?
+
+```java
+1: public class Main {
+2:   String MESSAGE ="Hello!";
+3:   static void print(){
+4:     System.out.println(message);
+5:   }
+6:   void print2(){}
+7: }
+```
+
+- [X] Change line 2 to ```public static final String message```
+- [ ] Change line 6 to ```public void print2(){}```
+- [ ] Remove the body of the ```print2``` method and add a semicolon.
+- [ ] Remove the body of the ```print``` method.

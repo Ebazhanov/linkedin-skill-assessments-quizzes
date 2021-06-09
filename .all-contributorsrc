@@ -3750,6 +3750,26 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "theExicuter",
+      "name": "Sikandar Ali",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45738492?v=4",
+      "profile": "https://github.com/theExicuter",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "therajababu",
+      "name": "Raja Babu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18283763?v=4",
+      "profile": "https://therajababu.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
