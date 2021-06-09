@@ -278,3 +278,11 @@ Note: Free trial doesn't have the organizations.
 - [ ] Configure and launch the WordPress HA deployment template from the WordPress Marketplace.
 - [x] Create, configure, and launch a WordPress HA deployment template on Compute Engine.
 - [ ] Create, configure, and launch a WordPress HA deployment template on Google Kubernetes Engine.
+
+
+#### Q41. How do you configure Cloud Build to rebuild your image when a change is made to the source code?
+
+- [x] Add a Cloud Build trigger, and set it to fire on commit to associate repository.
+- [ ] Add a Cloud Build function, and set it to fire on commit to associate repository.
+- [ ] Add a Cloud Build trigger, and set it to fire on commit to associate registry.
+- [ ] Add a Cloud Build function, and set it to fire on commit to associate registry.
