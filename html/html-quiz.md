@@ -1198,3 +1198,12 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [X] `<input type="num">`
 
 [Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)
+
+#### Q78. What is the most semantic way to mark up this sentence so that "happy talk must die" is rendered as an inline quote?
+
+As Steve Krug once said, happy talk must die.
+
+- [ ] `<p>`As Steve Krug once said, `<b>`happy talk must die.`</b>` `</p>`
+- [ ] `<p>`As Steve Krug once said, `<i>`happy talk must die.`</i>` `</p>`
+- [ ] `<p>`As Steve Krug once said, `<blockquote>`happy talk must die.`</blockquote>` `</p>`
+- [ ] `<p>`As Steve Krug once said, `<q>`happy talk must die.`</q>` `</p>`
