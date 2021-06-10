@@ -57,7 +57,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 #### 9. You can use a___to indicate that a message requires further action and a__to organize the message.
 - [ ] folder; category
-- [ ] flag; tag
+- [X] flag; tag
 - [ ] category; flag
 - [ ] flag; category
 
@@ -187,7 +187,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 #### 28. When adding an email account to Outlook, why might you need to enter the server settings manually?
 
 - [ ] You did not write down your password
-- [ ] Outlook cannot detect the proper settings for your server automatically
+- [X] Outlook cannot detect the proper settings for your server automatically
 - [ ] You do not have an email server
 - [ ] The server is not on the list of Microsoft approved servers
 
@@ -229,7 +229,7 @@ C. Some people have already accepted, so you must cancel this meeting and create
 
 - [ ] B
 - [ ] C
-- [ ] A or B
+- [X] A or B
 - [ ] A
 
 #### 34. What permission allows your delegates to read, create, change, and delete items that they create, but not items that you created?
@@ -285,7 +285,7 @@ C. Some people have already accepted, so you must cancel this meeting and create
 
 - [ ] Format Columns
 - [ ] Conditional Formatting
-- [ ] Group By
+- [X] Group By
 - [ ] By Sender
 
 #### 42. You have a contact folder for members and you need to track two additional pieces of member information: start date and last renewal. What is the simplest wat to track this information?
