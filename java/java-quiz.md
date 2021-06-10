@@ -1211,7 +1211,7 @@ class Main {
 ```
 
 - [ ] falsefalse
-- [ ] truetrue
+- [X] truetrue
 - [ ] falsetrue
 - [ ] truefalse
 
@@ -1221,4 +1221,22 @@ class Main {
 - [ ] ```ArrayList<String> words = new ArrayList<String>(){"Hello", "World"};```
 - [ ] ```ArrayList words = Arrays.asList("Hello", "World");```
 - [ ] ```ArrayList<String> words = {"Hello", "World"};```
-- [ ] ```ArrayList<String> words = new ArrayList<>(Arrays.asList("Hello", "World"));```
+- [X] ```ArrayList<String> words = new ArrayList<>(Arrays.asList("Hello", "World"));```
+
+
+#### Q89. What is the output of this code?
+
+```java
+class Main {
+  public static void main(String[] args) {
+    StringBuilder sb = new StringBuilder("hello");
+    sb.deleteCharAt(0).insert(0, "H")." World!";
+    System.out.println(sb);
+  }
+}
+```
+
+- [ ] A runtime exception is thrown.
+- [ ] "HelloWorld!"
+- [ ] "hello"
+- [ ] ????
