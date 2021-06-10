@@ -1105,9 +1105,7 @@ std::mutex::try_lock()
 
 [Reference](https://en.cppreference.com/w/cpp/thread/mutex/try_lock)
 
-#### Q64. What is the main difference between these two Functions?
-
-What is one benefit of declaring the parameter as a `const` reference instead of declaring it as a regular object?
+#### Q64. What is one benefit of declaring the parameter as a `const` reference instead of declaring it as a regular object?
 
 ```cpp
 int median(const my_array& a)
