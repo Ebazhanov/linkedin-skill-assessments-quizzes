@@ -986,7 +986,7 @@ def self.get_next_card(self):
  
 #### Q85. Describe the functionality of a queue?
     
-- [x] A queue add items to either end and remove items from either end.
-- [ ] A queue add items to the top and remove items from the top.
-- [ ] A queue add items to the top, and removes items from anywhere in, a list.
-- [ ] A queue add items to the top and remove items from anywhere in the queue.
+- [x] A queue adds items to either end and removes items from either end.
+- [ ] A queue adds items to the top and removes items from the top.
+- [ ] A queue adds items to the top, and removes items from anywhere in, a list.
+- [ ] A queue adds items to the top and removes items from anywhere in the queue.
