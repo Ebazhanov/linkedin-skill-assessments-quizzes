@@ -25,26 +25,26 @@
 
 - [ ] .
 
-```
+```cs
 var type = typeof(SomeType);
 var attribute = type.GetCustomAttribute<SomeAttribute>();
 ```
 
 - [ ] .
 
-```
+```cs
 var typeof(MyPresentationModel).Should().BeDecoratedWith<SomeAttribute>();
 ```
 
 - [ ] .
 
-```
+```cs
 Attribute.GetCustomAttribute, typeof(SubControllerActionToViewDataAttribute)
 ```
 
 - [x] .
 
-```
+```cs
 Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActionToViewDataAttribute))
 ```
 
@@ -64,27 +64,27 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 #### Q7. What is this code an example of?
 
-    ```
-    private static object objA;
-        private static object objB;
+```cs
+private static object objA;
+    private static object objB;
 
-        private static void performTaskA()
+    private static void performTaskA()
+    {
+        lock (obj)
         {
-            lock (obj)
-            {
-                Thread.Sleep(1000);
-                lock (objA) { }
-            }
+            Thread.Sleep(1000);
+            lock (objA) { }
         }
+    }
 
-        private static void PerformTaskB()
+    private static void PerformTaskB()
+    {
+        lock (objA)
         {
-            lock (objA)
-            {
-                lock (objB) { }
-            }
+            lock (objB) { }
         }
-    ```
+    }
+```
 
 - [ ] a private class that uses multithreading
 - [ ] multithread coding
@@ -135,10 +135,10 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 #### Q14. Which code snippet declares an anonymous type named userData?
 
-- [ ] var<<!---->T> userData = new <<!---->T> { name = "John", age = 32 };
-- [x] var userData = new { name = "John", age = 32 };
-- [ ] AType userData = new AType { name = "John", age = 32 };
-- [ ] Anonymous<T> userData = new Anonymous<T> { name = "John", age = 32 };
+- [ ] `var<<!---->T> userData = new <<!---->T> { name = "John", age = 32 };`
+- [x] `var userData = new { name = "John", age = 32 };`
+- [ ] `AType userData = new AType { name = "John", age = 32 };`
+- [ ] `Anonymous<T> userData = new Anonymous<T> { name = "John", age = 32 };`
 
 #### Q15. What will be returned when this method is executed?
 
@@ -151,18 +151,18 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 #### Q16. In what order would the employee names in this example be printed to the console?
 
-    `
-        string[] employees = { "Joe", "Bob", "Carol", "Alice", "Will" };
+```cs
+string[] employees = { "Joe", "Bob", "Carol", "Alice", "Will" };
 
-        IEnumerable<string> employeeQuery = from person in employees
-                                             orderby person
-                                             select person;
+IEnumerable<string> employeeQuery = from person in employees
+                                    orderby person
+                                    select person;
 
-        foreach(string employee in employeeQuery)
-        {
-            Console.WriteLine(employee);
-        }
-    `
+foreach(string employee in employeeQuery)
+{
+    Console.WriteLine(employee);
+}
+```
 
 - [x] ascending
 - [ ] unordered
@@ -289,13 +289,13 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 #### Q33. To conform to the following interface, which of its members need to be implemented?
 
-    ```
-    public interface INameble
-    {
-        string FirstName { get; set; }
-        string LastName { get; }
-    }
-    ```
+```cs
+public interface INameble
+{
+    string FirstName { get; set; }
+    string LastName { get; }
+}
+```
 
 - [x] Both the FirstName and LastName properties need to be implemented.
 - [ ] Neither, they are both optional.
@@ -332,7 +332,19 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 #### Q38. What prints to the console when this code is executed?
 
-`public delegate void AuthCallback(bool validUser); public static AuthCallback loginCallback : Login; public static void Login() { Console.WriteLine("Valid user!"); } public static void Main(string[] args) { loginCallback(true); } `
+```cs
+public delegate void AuthCallback(bool validUser);
+public static AuthCallback loginCallback : Login;
+public static void Login()
+{
+    Console.WriteLine("Valid user!");
+}
+
+public static void Main(string[] args)
+{
+    loginCallback(true);
+}
+```
 
 - [ ] Login successful...
 - [ ] Valid user!
@@ -429,30 +441,31 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 #### Q51. What is the correct way to write a public property with a private backing field?
 - [ ]
-```
+```cs
 private int _password;
 pubic int Password = { get; set; }
 ```
 - [ ]
-```private int _password;
+```cs
+private int _password;
 public int Password = _password;
 ```
 - [ ]
-```
+```cs
 private int _password;
 public int Password
 {
-get -> _password;
-set-> _password = value;
+  get -> _password;
+  set-> _password = value;
 }
 ```
 - [x]
-```
+```cs
 private int _password;
 public int Password
 {
-get { return _password; }
-set { _password = value; }
+  get { return _password; }
+  set { _password = value; }
 }
 ```
 
@@ -467,3 +480,19 @@ set { _password = value; }
 - [ ] A regular expression allows a class to conform to the Equatable protocol
 - [ ] A regular expression is a C# tool used to parse HTML
 - [x] A regular expression is a special text string for describing a search pattern
+
+#### Q54. When an object in C# is serialized, what is it converted to?
+* [ ] XML
+* [ ] JSON
+* [X] byte stream
+* [ ] value stream
+
+**Reference:** https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/serialization/
+
+#### Q55. What is a delegate
+* [ ] a variable that holds a reference to a value type and its content
+* [ ] a specific value type that can be used only in callback methods
+* [X] a type that holds a reference to a method with a particular parameter list and return type
+* [ ] a custom variable type that can be used in abstract classes
+
+**Reference:** https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/
