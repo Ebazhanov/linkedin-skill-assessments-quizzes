@@ -382,7 +382,6 @@ const user = {
 - [ ] all <a> tags whose href attribute equals "org"
 - [x] all <a> tags whose href attribute ends with "org"
 - [ ] all <a> tags whose href attribute contains "org"
-  
 
 **#### Q41. Which choice <em>is not</em> of invoking strict mode in JavaScript?**
 

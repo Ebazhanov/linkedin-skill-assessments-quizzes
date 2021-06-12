@@ -22,6 +22,5 @@ console.log(discountPrice(50));
 
 // Q19
 for (var i = 0; i < 5; i++) {
-  console.log(i);                       //result 0,1,2,3,4
+  console.log(i); //result 0,1,2,3,4
 }
-

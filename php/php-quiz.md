@@ -526,6 +526,7 @@ class Cow {
 - [ ] NULL is the lack of a value; empty is a blank value.
 
 ##### Q47. What would be a good name for this function?
+
 ```
 function doStuff($haystack, $needle) {
       $length = strlen($needle)
@@ -538,15 +539,15 @@ function doStuff($haystack, $needle) {
 
 - [ ] equals
 - [ ] endsWith
-- [X] startsWith
+- [x] startsWith
 - [ ] contains
 
-##### Q48. If you want to pass a formfield to another page when a button is clicked, you should use the ___ . If you want to store information across multiple pages, you should use the ___?
+##### Q48. If you want to pass a formfield to another page when a button is clicked, you should use the **_ . If you want to store information across multiple pages, you should use the _**?
 
 - [ ] request; response
 - [ ] response; request
 - [ ] session; request
-- [X] request; session
+- [x] request; session
 
 ##### Q49. You are using the following code to decide if a button is clicked, but it is never returning true. Which step is most likely to shed light on the problem?
 
@@ -556,7 +557,7 @@ isset($_POST['submit'])
 
 - [ ] Make sure the input field displaying the button is named 'submit'
 - [ ] Make sure you are not missing any semicolons
-- [ ] Print everything in the session ```print_r($_SESSION);```
+- [ ] Print everything in the session `print_r($_SESSION);`
 - [ ] Look in the query string at the top of your browser to see if submit is assigned a value
 
 ##### Q50. Why should you follow a PSR standard?
@@ -571,4 +572,4 @@ isset($_POST['submit'])
 - [ ] Getters and setters ensure that if a data member is declared private, then it can be accessed only within the same function, not by an outside class
 - [ ] Getters and setters are utility functions within PHP that allow loading from, and saving to, a database
 - [ ] Getters and setters encapsulate the fields of a class by making them acccessible only through its private methods, and keep the values themselves public
-- [X] Getters and setters are methods used to declare or obtain the values of variables, usually private ones
+- [x] Getters and setters are methods used to declare or obtain the values of variables, usually private ones

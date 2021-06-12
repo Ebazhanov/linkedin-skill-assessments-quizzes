@@ -390,7 +390,7 @@
 - [ ] Levels
 - [ ] Hue/Saturation
 
-#### Q53. The illustrator tool which is shown as a white arrow is known as the **\_**
+#### Q53. The illustrator tool which is shown as a white arrow is known as the `___`
 
 ![white arrow](images/001.png?raw=true)
 
@@ -406,7 +406,7 @@
 - [ ] Extrapolation
 - [x] Vector
 
-#### Q55. Adobe Illustrator terminology for drawn line is **\_**
+#### Q55. Adobe Illustrator terminology for drawn line is `___`
 
 - [ ] Line
 - [ ] Gamma Line
@@ -427,14 +427,14 @@
 - [ ] bisect tool
 - [ ] transform tool
 
-#### Q58. The two overlapping boxes at the bottom of the Adobe Illustrator toolbox control **\_**
+#### Q58. The two overlapping boxes at the bottom of the Adobe Illustrator toolbox control `___`
 
 - [ ] stroke and shadow
 - [x] fill and stroke
 - [ ] history and undo
 - [ ] texture and gamma
 
-#### Q59. A curve created in Adobe Illustrator is commonly referred to as **\_**
+#### Q59. A curve created in Adobe Illustrator is commonly referred to as `___`
 
 - [x] Bezier Curve
 - [ ] Venus Curve
@@ -462,7 +462,7 @@
 - [ ] Until the software is shut down
 - [x] Until another tool is selected
 
-#### Q63. In Adobe illustrator we create our design and Illustrator on **\_**
+#### Q63. In Adobe illustrator we create our design and Illustrator on `___`
 
 - [ ] Pages
 - [ ] Canvas
@@ -476,7 +476,7 @@
 - [ ] 3
 - [ ] 4
 
-#### Q65. Shortcut of Selection tool in Adobe Illustrator is **\_**
+#### Q65. Shortcut of Selection tool in Adobe Illustrator is `___`
 
 - [ ] A
 - [x] V

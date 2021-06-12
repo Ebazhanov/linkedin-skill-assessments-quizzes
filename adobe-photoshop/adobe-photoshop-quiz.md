@@ -254,7 +254,7 @@
 - [x] Invert
 - [ ] Inverse
 
-#### Q33. A filter recipe can be saved as an action and set to your desktop for drag-and-drop usage by converting the filter recipe into a **\_**.
+#### Q33. A filter recipe can be saved as an action and set to your desktop for drag-and-drop usage by converting the filter recipe into a `___`.
 
 - [x] droplet
 - [ ] batch
@@ -270,7 +270,7 @@
 
 [Reference](https://helpx.adobe.com/photoshop/using/select-mask.html#tools)
 
-#### Q35. To use blending modes with a filter, choose the **\_** command.
+#### Q35. To use blending modes with a filter, choose the `___` command.
 
 - [ ] Mix
 - [ ] Fade
@@ -328,7 +328,7 @@
 - [x] Duotones require a single channel, so you must convert to grayscale first
 - [ ] Duotones require two channels, so you must delete one of RGB channels in the Channels panel first
 
-#### Q43. For smoother, curved edges on a selection, be sure to enable the **\_** option.
+#### Q43. For smoother, curved edges on a selection, be sure to enable the `___` option.
 
 - [x] anti-alias
 - [ ] fade

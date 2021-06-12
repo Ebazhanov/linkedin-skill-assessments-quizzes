@@ -345,7 +345,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] statistics
 - [ ] structured data
 - [ ] availability
-- [X] algorithms
+- [x] algorithms
 
 #### Q45. What is this diagram a good example of?
 
@@ -372,23 +372,23 @@ Note: there are centres of clusters (C0, C1, C2).
 
 #### Q48. Your data science team wants to use ml to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised ml, what would you call this data set?
 
-- [ ] ml algorithm 
-- [x] training set 
-- [ ] big data test set 
+- [ ] ml algorithm
+- [x] training set
+- [ ] big data test set
 - [ ] data cluster
 
 #### Q49. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of fotos without them. What is the problem?
 
-- [ ] You are overfitting the model to the data 
-- [ ] You need a smaller training set 
-- [x] You are underfitting the model to the data 
+- [ ] You are overfitting the model to the data
+- [ ] You need a smaller training set
+- [x] You are underfitting the model to the data
 - [ ] You need a larger training set
 
 #### Q50. Your supervisor asks you to create a machine learning system that will help your human resources department classify jobs applicants into well defined groups. What type of system are you more likely to recommend?
 
-- [ ] an unsupervised machine learning system that clusters together the best candidates. 
-- [ ] you would not recommend a machine learning system for this type of project. 
-- [ ] a deep learning artificial neural network that relies on petabytes of employment data. 
+- [ ] an unsupervised machine learning system that clusters together the best candidates.
+- [ ] you would not recommend a machine learning system for this type of project.
+- [ ] a deep learning artificial neural network that relies on petabytes of employment data.
 - [x] a supervised machine learning system that classifies applicants into existing groups.
 
 #### Q51. You and your data science team have 1 TB of example data. What do you typically do with that data?
@@ -591,7 +591,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [x] power
 - [ ] significance
 
-#### Q75. You want to create a machine learning algorithm to identify food recipes on the web. To do this, you create an algorithm that looks at different conditional probabilities. So if the post includes the word *flour*, it has a slightly stronger probability of being a recipe. If it contains both *flour* and *sugar*, it even more likely a recipe. What type of algorithm are you using?
+#### Q75. You want to create a machine learning algorithm to identify food recipes on the web. To do this, you create an algorithm that looks at different conditional probabilities. So if the post includes the word _flour_, it has a slightly stronger probability of being a recipe. If it contains both _flour_ and _sugar_, it even more likely a recipe. What type of algorithm are you using?
 
 - [ ] naive Bayes classifier
 - [ ] K-nearest neighbor

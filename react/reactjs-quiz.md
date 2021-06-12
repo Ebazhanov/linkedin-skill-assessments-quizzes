@@ -651,10 +651,8 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 #### Q62.What is the difference between the click behaviors of these two buttons(assuming that this.handleClick is bound correctly)
 
 ```javascript
-
-A. <button onClick=fthis.handleClickl>Click Me</button>
-B. <button onClick={event => this.handleClick(event)}>Click Me</button>
-
+  A. <button onClick=this.handleClick>Click Me</button>
+  B. <button onClick={event => this.handleClick(event)}>Click Me</button>
 ```
 
 - [ ] `Button A will not have access to the event object on click of the button`
@@ -681,29 +679,39 @@ useEffect(() => {
 <Route path="/:id" />
 ```
 
-- [ ] `````javascript
-                  <Route path="/:id"> <About />
-                  </Route>
-              ```
-          ````
-      `````
-- [ ] `````javascript
-                  <Route path="/tid" about={Component} />
-              ```
-          ````
-      `````
-- [ ] `````javascript
-                   <Route path="/:id" route={About} />
-              ```
-          ````
-      `````
-- [ ] `````javascript
-                  <Route>
-                    <About path="/:id" />
-                  </Route>
-              ```
-          ````
-      `````
+- [ ] ```````javascript
+      (
+        <Route path="/:id">
+          {' '}
+          <About />
+        </Route>
+      )```
+                  ````
+              `````;
+      ``````;
+      ```````
+- [ ] ```````javascript
+      (<Route path="/tid" about={Component} />)```
+                  ````
+              `````;
+      ``````;
+      ```````
+- [ ] ```````javascript
+      (<Route path="/:id" route={About} />)```
+                  ````
+              `````;
+      ``````;
+      ```````
+- [ ] ```````javascript
+      (
+        <Route>
+          <About path="/:id" />
+        </Route>
+      )```
+                  ````
+              `````;
+      ``````;
+      ```````
 
 #### Q65. Which class-based component is equivalent to this function component?
 
@@ -711,30 +719,40 @@ useEffect(() => {
 const Greeting ({ name }) > <h1>Hello {name}!</h1>;
 ```
 
-- [ ] `````javascript
-                  class Greeting extends React.Component {
-                  constructor() { return <h1>Hello (this.props.name)!</h1>; }
-                  }
-              ```
-          ````
-      `````
-- [ ] `````javascript
-                 class Greeting extends React.Component { <h1>Hello (this.props.name}!</h1>; }
-              ```
-          ````
-      `````
-- [ ] `````javascript
-                 class Greeting extends React.Component { return <h1>Hello (this.props.name) 1</h1>; }
-              ```
-          ````
-      `````
-- [ ] `````javascript
-                  class Greeting extends React.Component ( render({ name }) {
-                    return <h1>Hello (name)} !</h1>;
-                  })
-              ```
-          ````
-      `````
+- [ ] ```````javascript
+      class Greeting extends React.Component {
+        constructor() {
+          return <h1>Hello (this.props.name)!</h1>;
+        }
+      }
+      ```
+                  ````
+              `````;
+      ``````;
+      ```````
+- [ ] ```````javascript
+                         class Greeting extends React.Component { <h1>Hello (this.props.name}!</h1>; }
+                      ```
+                  ````
+              `````
+          ``````
+      ```````
+- [ ] ```````javascript
+                         class Greeting extends React.Component { return <h1>Hello (this.props.name) 1</h1>; }
+                      ```
+                  ````
+              `````
+          ``````
+      ```````
+- [ ] ```````javascript
+                          class Greeting extends React.Component ( render({ name }) {
+                            return <h1>Hello (name)} !</h1>;
+                          })
+                      ```
+                  ````
+              `````
+          ``````
+      ```````
 
 #### Q66. Give the code below, what does the second argument that is sent to the render function describe?
 

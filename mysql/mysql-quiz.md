@@ -175,7 +175,7 @@
 - [ ] STRUCTURE table;
 - [x] DESCRIBE table;
 
-#### Q15. MySQL uses security based on**\_**for all connections, queries, and other operations that users can attempt to perform.
+#### Q15. MySQL uses security based on\_\_\_for all connections, queries, and other operations that users can attempt to perform.
 
 - [ ] administrator schema
 - [ ] encrypted algorithms
@@ -657,7 +657,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 #### Q71. Which choice is _not_ a valid model for a stored procedure parameter?
 
-- [X] INOUT
+- [x] INOUT
 - [ ] IN
 - [ ] OUT
 - [ ] IN OUT
@@ -666,7 +666,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 - [ ] The temporary table will be dropped when the database is restarted.
 - [ ] Temporary tables can be shared among clients, which makes them more usable in group development environments.
-- [X] The temporary table will be dropped as soon as your session disconnects.
+- [x] The temporary table will be dropped as soon as your session disconnects.
 - [ ] Creating a temporary table does not require any special privileges.
 
 #### Q73. Which is a valid constructor for a class named User?
@@ -686,7 +686,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 #### Q75. Which command will return a list of triggers in the current database?
 
 - [ ] DISPLAY TRIGGERS;
-- [X] SHOW TRIGGERS;
+- [x] SHOW TRIGGERS;
 - [ ] SELECT ALL TRIGGERS;
 - [ ] SELECT \* FROM information_schema.triggers;
 
@@ -701,7 +701,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 - [ ] mysqladmind flush-threads
 - [ ] mysqladmind flush-tables
-- [X] mysqladmind flush-privileges
+- [x] mysqladmind flush-privileges
 - [ ] mysqladmind flush-all
 
 #### Q78. Explain the security aspectof stored procedures
@@ -712,7 +712,9 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [ ] Stored procedures are not secure, because they can execute statements to drop tables or bulk delete data
 
 #### Q79. Management has requested that you build an employee database. You start with the employee table. What is the correct syntax?
-- [ ] 
+
+- [ ]
+
 ```sql
 1 CREATE TABLE employee (
 2   employeeID char(10),
@@ -723,7 +725,9 @@ WHERE MATCH(address) AGAINST ('street, drive');
 7   PRIMARY KEY employeeID
 8 );
 ```
-- [ ] 
+
+- [ ]
+
 ```sql
 1 CREATE TABLE IF NOT EXISTS employee (
 2   employeeID char(10),
@@ -734,7 +738,9 @@ WHERE MATCH(address) AGAINST ('street, drive');
 7   PRIMARY KEY (employeeID)
 8 );
 ```
-- [ ] 
+
+- [ ]
+
 ```sql
 1 CREATE TABLE employee (
 2   employeeID char(10),
@@ -745,7 +751,9 @@ WHERE MATCH(address) AGAINST ('street, drive');
 7   PRIMARY KEY ON employeeID
 8 );
 ```
-- [ ] 
+
+- [ ]
+
 ```sql
 1 CREATE TABLE IF EXISTS employee (
 2   employeeID char(10),

@@ -335,7 +335,7 @@ System.out.print("apple".compareTo("banana"));
 - [x] `names.sort(List.DESCENDING)`
 - [ ] `names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())`
 
-#### Q21. By implementing encapsulation, you cannot directly access the class's **\_** properties unless you are writing code inside the class itself.
+#### Q21. By implementing encapsulation, you cannot directly access the class's \_\_\_ properties unless you are writing code inside the class itself.
 
 - [x] private
 - [ ] protected
@@ -745,7 +745,7 @@ public class Duck {
 - [x] `ducks.add(new Duck("Waddles"));`
 - [ ] `ducks.add(new Waddles());`
 
-#### Q50. If you encounter `UnsupportedClassVersionError` it means the code was `**\_**` on a newer version of Java than the JRE `**\_**` it.
+#### Q50. If you encounter `UnsupportedClassVersionError` it means the code was `___` on a newer version of Java than the JRE `___` it.
 
 - [ ] executed; interpreting
 - [ ] executed; compiling
@@ -1062,7 +1062,6 @@ groucyButton.addActionListener(new ActionListener() {
 - [ ] enabling HashMap to find matches faster
 - [ ] encrypting user passwords
 
-
 #### Q75. Which access modifier makes variables and methods visible only in the class where they are declared?
 
 - [ ] public
@@ -1079,35 +1078,35 @@ groucyButton.addActionListener(new ActionListener() {
 
 #### Q77. How would you convert a String to an Int?
 
-- [ ] ```"21".intValue()```
-- [ ] ```String.toInt("21")```
-- [x] ```Integer.parseInt("21")```
-- [ ] ```String.valueOf("21")```
+- [ ] `"21".intValue()`
+- [ ] `String.toInt("21")`
+- [x] `Integer.parseInt("21")`
+- [ ] `String.valueOf("21")`
 
 #### Q78. What method should be added to the Duck class to print the name Moby?
 
 ```java
 public class Duck {
     private String name;
-    
+
     Duck(String name) {
         this.name = name;
     }
-    
+
     public static void main(String[] args) {
         System.out.println(new Duck("Moby"));
     }
 }
 ```
 
-- [x] ```public String toString() { return name; } ```
-- [ ] ```public void println() { System.out.println(name); } ```
-- [ ] ```String toString() { return this.name; } ```
-- [ ] ```public void toString() { System.out.println(this.name); } ```
+- [x] `public String toString() { return name; } `
+- [ ] `public void println() { System.out.println(name); } `
+- [ ] `String toString() { return this.name; } `
+- [ ] `public void toString() { System.out.println(this.name); } `
 
 #### Q79. Which operator is used to concatenate Strings in Java
 
-- [x] +
+- [x] -
 - [ ] &
 - [ ] .
 - [ ] -
@@ -1137,26 +1136,26 @@ for (int i = 44; i > 40; i--) {
 
 - [ ] p
 - [ ] r
-- [X] e
+- [x] e
 - [ ] i
 
 #### Q82. When should you use a static method?
 
-- [ ]  when your method is related to the object's characteristics
-- [ ]  when you want your method to be available independently of class instances
-- [ ]  when your method uses an object's instance variable
-- [ ]  when your method is dependent on the specific instance that calls it
+- [ ] when your method is related to the object's characteristics
+- [ ] when you want your method to be available independently of class instances
+- [ ] when your method uses an object's instance variable
+- [ ] when your method is dependent on the specific instance that calls it
 
 #### Q83. What phrase indicates that a function receives a copy of each argument passed to it rather than a reference to the objects themselves?
 
 - [ ] pass by reference
 - [ ] pass by occurrence
-- [X] pass by value
+- [x] pass by value
 - [ ] API call
 
 #### Q84. In Java, what is the scope of a method's argument or parameter?
 
-- [X] inside the method
+- [x] inside the method
 - [ ] both inside and outside the method
 - [ ] neither inside nor outside the method
 - [ ] outside the method
@@ -1175,7 +1174,7 @@ public class Main {
 - [ ] 5
 - [ ] 8
 - [ ] 1
-- [X] 3
+- [x] 3
 
 #### Q86. Which change will make this code compile successfully?
 
@@ -1189,10 +1188,10 @@ public class Main {
 7: }
 ```
 
-- [X] Change line 2 to ```public static final String message```
-- [ ] Change line 6 to ```public void print2(){}```
-- [ ] Remove the body of the ```print2``` method and add a semicolon.
-- [ ] Remove the body of the ```print``` method.
+- [x] Change line 2 to `public static final String message`
+- [ ] Change line 6 to `public void print2(){}`
+- [ ] Remove the body of the `print2` method and add a semicolon.
+- [ ] Remove the body of the `print` method.
 
 #### Q87. What is the output of this code?
 
@@ -1211,18 +1210,16 @@ class Main {
 ```
 
 - [ ] falsefalse
-- [X] truetrue
+- [x] truetrue
 - [ ] falsetrue
 - [ ] truefalse
 
-
 #### Q88. Which code snippet is valid?
 
-- [ ] ```ArrayList<String> words = new ArrayList<String>(){"Hello", "World"};```
-- [ ] ```ArrayList words = Arrays.asList("Hello", "World");```
-- [ ] ```ArrayList<String> words = {"Hello", "World"};```
-- [X] ```ArrayList<String> words = new ArrayList<>(Arrays.asList("Hello", "World"));```
-
+- [ ] `ArrayList<String> words = new ArrayList<String>(){"Hello", "World"};`
+- [ ] `ArrayList words = Arrays.asList("Hello", "World");`
+- [ ] `ArrayList<String> words = {"Hello", "World"};`
+- [x] `ArrayList<String> words = new ArrayList<>(Arrays.asList("Hello", "World"));`
 
 #### Q89. What is the output of this code?
 

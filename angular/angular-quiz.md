@@ -4,7 +4,7 @@
 
 ```javascript
 @Component({
-    . . .
+    ...
     template: '<p #bio></p>'
 })
 export class UserDetailsComponent {
@@ -24,7 +24,7 @@ export class UserDetailsComponent {
 - [x] Use the formControlName directive and set the value equal to the string name given to the FormControl.
 - [ ] Use the string name given to the FormControl as the value for the DOM element id attribute.
 
-#### Q3. What is the difference between the paramMap and the queryParamMap on the ActivatedRoute class?
+#### Q3. What is the difference between the `paramMap` and the `queryParamMap` on the `ActivatedRoute` class?
 
 - [ ] The paramMap is an object literal of the parameters in a route's URL path. The queryParamMap is an Observable of those same parameters.
 - [ ] The paramMap is an Observable that contains the parameter values that are part of a route's URL path. The queryParamMap is a method that takes in an array of keys and is used to find specific parameters in the paramMap.
@@ -358,13 +358,10 @@ export class ProductComponent {
 }
 ```
 
-- [ ] The `<div>` acts as a placeholder. If the product class field is "truthy," the `<div>` will get replaced by just the
-      `product.name` value; if not, then nothing will get rendered.
-- [ ] The `<div>` will always be rendered, and if the product field is "truthy," the `<div>` element will contain the
-      `product.name` value; otherwise it will render the `<div>` element with no value in it.
+- [ ] The `<div>` acts as a placeholder. If the product class field is "truthy," the `<div>` will get replaced by just the `product.name` value; if not, then nothing will get rendered.
+- [ ] The `<div>` will always be rendered, and if the product field is "truthy," the `<div>` element will contain the `product.name` value; otherwise it will render the `<div>` element with no value in it.
 - [ ] It produces an error, since ngIf is not a built-in structural directive.
-- [x] If the product class field is "truthy," then the rendered DOM will include the `<div>` with the value of the `product.name`
-      field. If it is not "truthy,' the rendered DOM will not contain the `<div>` element.
+- [x] If the product class field is "truthy," then the rendered DOM will include the `<div>` with the value of the `product.name` field. If it is not "truthy,' the rendered DOM will not contain the `<div>` element.
 
 [Reference (angular.io)](https://angular.io/api/common/NgIf)
 
@@ -382,12 +379,9 @@ platformBrowserDynamic().bootstrapModule(AppModule);
 ```
 
 - [ ] It executes a unit test for an NgModule.
-- [ ] It provides a way to code the document structure of an Angular application. The @NgModule is a form of inline code
-      commenting that gets ignored by the TypeScript compiler but will show up with special formatting in code editor
-      applications.
+- [ ] It provides a way to code the document structure of an Angular application. The @NgModule is a form of inline code commenting that gets ignored by the TypeScript compiler but will show up with special formatting in code editor applications.
 - [ ] It declares an Angular module named AppModule and makes it available for lazy loading throughout the application.
-- [x] It declares an Angular module named AppModule that contains a bootstrapped component named AppComponent.
-      Then it registers that module with Angular, so the app can start up.
+- [x] It declares an Angular module named AppModule that contains a bootstrapped component named AppComponent. Then it registers that module with Angular, so the app can start up.
 
 #### Q28. Which choice best describes what the _resolve_ property does in this route configuration?
 
@@ -401,13 +395,10 @@ platformBrowserDynamic().bootstrapModule(AppModule);
 }
 ```
 
-- [x] Prior to loading the _UserComponent_, the router will subscribe to the _Observable_ returned by a _resolve_ method in the
-      _UserResolverService_. This technique can be used to get preloaded data for a _route_.
-- [ ] After the _route_ is done resolving, and the component is loaded and rendered, the _UserResolverService_ will have a
-      method named _user_ run that will clean up any open data connections.
+- [x] Prior to loading the _UserComponent_, the router will subscribe to the _Observable_ returned by a _resolve_ method in the _UserResolverService_. This technique can be used to get preloaded data for a _route_.
+- [ ] After the _route_ is done resolving, and the component is loaded and rendered, the _UserResolverService_ will have a method named _user_ run that will clean up any open data connections.
 - [ ] There is an error. The correct property name is _onResolve_.
-- [ ] The _UserComponent_ will have a parameter in its constructor for _user_, and the _router_ will handle injecting in a value for
-      that from a call to a _user_ method in the _UserResolverService_.
+- [ ] The _UserComponent_ will have a parameter in its constructor for _user_, and the _router_ will handle injecting in a value for that from a call to a _user_ method in the _UserResolverService_.
 
 [Reference (angular.io)](https://angular.io/api/router/Resolve)
 
@@ -423,14 +414,10 @@ export class TabsListComponent {
 }
 ```
 
-- [ ] If any _TabsComponent_ elements are added to the _TabsListComponent_ template, they will get put into the <ng-content>
-      element at runtime.
-- [ ] It creates _TabComponent_ components in the _TabsListComponent_ template when a _TabsListComponent_ is
-      instantiated.
-- [x] It provides access from within the component class to any _TabComponent_ components that were content projected into
-      the <ng-content> for this component.
-- [ ] It restricts the allowed elements that can be put into a _TabsListComponent_ element to allow only _TabComponent_
-      elements.
+- [ ] If any _TabsComponent_ elements are added to the _TabsListComponent_ template, they will get put into the <ng-content> element at runtime.
+- [ ] It creates _TabComponent_ components in the _TabsListComponent_ template when a _TabsListComponent_ is instantiated.
+- [x] It provides access from within the component class to any _TabComponent_ components that were content projected into the <ng-content> for this component.
+- [ ] It restricts the allowed elements that can be put into a _TabsListComponent_ element to allow only _TabComponent_ elements.
 
 [Reference (betterprogramming.pub)](https://betterprogramming.pub/understanding-contentchildren-with-an-example-e76ce78968db)
 
@@ -460,8 +447,7 @@ expect(fixture.nativeElement.querySelector('h1').textContent).toContain(
 
 - [ ] It tracks any potential Ul changes and will fail the unit test if any are made.
 - [ ] It is used to ensure component template stability across multiple unit tests in the entire test suite.
-- [x] It forces Angular to perform change detection, which will render the _UserCardComponent_ before you can validate its
-      template.
+- [x] It forces Angular to perform change detection, which will render the _UserCardComponent_ before you can validate its template.
 - [ ] It is used to log change-detection events to the console during unit test runs.
 
 [Reference (angular.io)](https://angular.io/api/core/testing/ComponentFixture#detectChanges)

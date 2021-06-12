@@ -223,6 +223,7 @@ for (var i = 0; i < 5; i++) {
 #### Q21. After the following code, what is the value of a.length?
 
 #### Q21. What will be logged to the console?
+
 ```js
 var a = ['dog', 'cat', 'hen'];
 a[100] = 'fox';
@@ -760,36 +761,13 @@ logThis();
 const Greeting = ({ name }) => <h1>Hello {name}!</h1>;
 ```
 
-- [x] `
-class Greeting extends React.Component {
-  render() {
-    return <h1>Hello {this.props.name}!</h1>;
-  }
-}
-`
+- [x] `class Greeting extends React.Component { render() { return <h1>Hello {this.props.name}!</h1>; } }`
 
-- [ ] `
-class Greeting extends React.Component {
-  constructor() {
-    return <h1>Hello {this.props.name}!</h1>;
-  }
-}
-`
+- [ ] `class Greeting extends React.Component { constructor() { return <h1>Hello {this.props.name}!</h1>; } }`
 
-- [ ] `
-class Greeting extends React.Component {
-    <h>Hello {this.props.name}!</h>;
-  }
-}
-`
+- [ ] `class Greeting extends React.Component { <h>Hello {this.props.name}!</h>; } }`
 
-- [ ] `
-class Greeting extends React.Component {
-  render({ name }) {
-    return <h1>Hello {name}!</h1>;
-  }
-}
-`
+- [ ] `class Greeting extends React.Component { render({ name }) { return <h1>Hello {name}!</h1>; } }`
 
 #### Q78. Which class-based lifecycle method would be called at the same time as this effect Hook?
 

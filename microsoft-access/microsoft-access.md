@@ -7,7 +7,7 @@
 - [ ] **Design** view
 - [ ] **Form** view
 
-#### Q2. How can you add multiple view button controls to a form at once? 
+#### Q2. How can you add multiple view button controls to a form at once?
 
 - [ ] Double-click the button control to lock it on, then left-click in the form to add each button
 - [ ] Right-click the button control and select Drop Multiple Controls. Then left-click to add each button to a form
@@ -19,7 +19,7 @@
 - [ ] &
 - [ ] !
 - [ ] #
-- [ ] +
+- [ ] -
 
 #### Q4. The relationship field in this table has been created with what feature?
 
@@ -100,19 +100,19 @@
 - [ ] a group header and footer
 - [ ] a group footer
 
-#### Q15. A table contains a field with the lookup properties set as shown. What will be the value of the field when the end user clicks Normal from the combo box when entering a record into the table? 
+#### Q15. A table contains a field with the lookup properties set as shown. What will be the value of the field when the end user clicks Normal from the combo box when entering a record into the table?
 
-| General | Lookup |
-|-----------------|-----------|
-| Display Control | Combo Box |
-| Raw Source Type | Value List|
-| Raw Source |1:"High"; 2 :"Normal"; 3: "Low"|
-| Bound Column | 1 |
-| Column Count | 2 |
-| Column Heads | No |
-| Column Widths|0; 1 |
-| List Rows | 16 |
-| List Width | Auto |
+| General         | Lookup                          |
+| --------------- | ------------------------------- |
+| Display Control | Combo Box                       |
+| Raw Source Type | Value List                      |
+| Raw Source      | 1:"High"; 2 :"Normal"; 3: "Low" |
+| Bound Column    | 1                               |
+| Column Count    | 2                               |
+| Column Heads    | No                              |
+| Column Widths   | 0; 1                            |
+| List Rows       | 16                              |
+| List Width      | Auto                            |
 
 - [ ] 1
 - [ ] 3
@@ -126,7 +126,7 @@
 - [ ] `IIf()`
 - [ ] `Choose()`
 
-#### Q17. The display fo numerical data defaults to a___alignment, and text data defaults to___aligntment
+#### Q17. The display fo numerical data defaults to a**_alignment, and text data defaults to_**aligntment
 
 - [ ] left; right
 - [ ] right; left
@@ -156,10 +156,10 @@
 
 #### Q21. When backing up an Access database, what is added to the file name automatically?
 
-- [ ] A serialized backup number, such as "_Backup_2"
-- [ ] The current date, such as "_2019-08-21"
-- [ ] The characters "_bu"
-- [ ] The word "_Archive"
+- [ ] A serialized backup number, such as "\_Backup_2"
+- [ ] The current date, such as "\_2019-08-21"
+- [ ] The characters "\_bu"
+- [ ] The word "\_Archive"
 
 #### Q22. Which table field property, if supplied, will display instead of the field name as a column header when viewing the datasheet of as a label when the field is added toa form or report?
 

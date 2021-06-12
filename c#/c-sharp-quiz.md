@@ -434,23 +434,30 @@ public static void Main(string[] args)
 - [ ] They can have only a set number of methods.
 
 #### Q50. What function do namespaces perform?
+
 - [ ] Namespaces calculate code coverage at runtime.
 - [ ] Namespaces compile application code together at compile time.
 - [ ] Namespaces group code together into a single repository.
 - [x] Namespaces separate code into groupings, control access, and void naming collisions.
 
 #### Q51. What is the correct way to write a public property with a private backing field?
+
 - [ ]
+
 ```cs
 private int _password;
 pubic int Password = { get; set; }
 ```
+
 - [ ]
+
 ```cs
 private int _password;
 public int Password = _password;
 ```
+
 - [ ]
+
 ```cs
 private int _password;
 public int Password
@@ -459,7 +466,9 @@ public int Password
   set-> _password = value;
 }
 ```
+
 - [x]
+
 ```cs
 private int _password;
 public int Password
@@ -470,29 +479,33 @@ public int Password
 ```
 
 #### Q52. What is a thread pool?
+
 - [ ] a collection of synchronous methods created during initialization that cannot be reused
 - [x] a collection of threads created during initialization that can be reused
 - [ ] a collection of threads only recognized at compile time that can be reused
 - [ ] a collection of asynchronous methods created at compile time that cannot be reused
 
 #### Q53. What is the most accurate description of a regular expression?
+
 - [ ] A regular expressions allows a variable to be passed by reference
 - [ ] A regular expression allows a class to conform to the Equatable protocol
 - [ ] A regular expression is a C# tool used to parse HTML
 - [x] A regular expression is a special text string for describing a search pattern
 
 #### Q54. When an object in C# is serialized, what is it converted to?
-* [ ] XML
-* [ ] JSON
-* [X] byte stream
-* [ ] value stream
+
+- [ ] XML
+- [ ] JSON
+- [x] byte stream
+- [ ] value stream
 
 **Reference:** https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/serialization/
 
 #### Q55. What is a delegate
-* [ ] a variable that holds a reference to a value type and its content
-* [ ] a specific value type that can be used only in callback methods
-* [X] a type that holds a reference to a method with a particular parameter list and return type
-* [ ] a custom variable type that can be used in abstract classes
+
+- [ ] a variable that holds a reference to a value type and its content
+- [ ] a specific value type that can be used only in callback methods
+- [x] a type that holds a reference to a method with a particular parameter list and return type
+- [ ] a custom variable type that can be used in abstract classes
 
 **Reference:** https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/

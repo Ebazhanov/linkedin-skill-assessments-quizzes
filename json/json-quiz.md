@@ -20,40 +20,32 @@
 - [ ]
 
 ```json
-[
-	'red',
-	'blue',
-	'green'
-]
+["red", "blue", "green"]
 ```
 
 - [x]
 
 ```json
-  [
-    "red",
-    "blue",
-    "green"
-  ]
+["red", "blue", "green"]
 ```
 
 - [ ]
 
 ```json
-  {
-    "color": "red",
-    "color": "blue",
-    "color": "green"
-  }
+{
+  "color": "red",
+  "color": "blue",
+  "color": "green"
+}
 ```
 
 - [ ]
 
 ```json
-  {
-    'red': 'red',
-    'blue': 'blue',
-  }
+{
+  "red": "red",
+  "blue": "blue"
+}
 ```
 
 #### Q3. Which JavaScript method converts a JavaScript value to Json?
@@ -127,69 +119,69 @@
 - [ ]
 
 ```json
-  {
-  	'photo': {
-  	'width': 1600,
-  	'height': 900,
-  	'binaries': {
-  	'url': 'https://www.example.com/images/34097349843',
-  	'thumbnail': 'https://www.example.com/images/thumbs/34097349843'
-  	},
-  	'animated': 'false',
-  	'tags': [116, 943, 234, 38793],
-  	}
+{
+  "photo": {
+    "width": 1600,
+    "height": 900,
+    "binaries": {
+      "url": "https://www.example.com/images/34097349843",
+      "thumbnail": "https://www.example.com/images/thumbs/34097349843"
+    },
+    "animated": "false",
+    "tags": [116, 943, 234, 38793]
   }
+}
 ```
 
 - [ ]
 
 ```json
-  {
-  	photo: {
-  	width: 1600,
-  	height: 900,
-  	binaries: {
-  	url: 'https://www.example.com/images/34097349843',
-  	thumbnail: 'https://www.example.com/images/thumbs/34097349843'
-  	},
-  	animated: false,
-  	tags: [116, 943, 234, 38793],
-  	}
+{
+  "photo": {
+    "width": 1600,
+    "height": 900,
+    "binaries": {
+      "url": "https://www.example.com/images/34097349843",
+      "thumbnail": "https://www.example.com/images/thumbs/34097349843"
+    },
+    "animated": false,
+    "tags": [116, 943, 234, 38793]
   }
+}
 ```
 
 - [x]
 
 ```json
-  {
-  	"photo": {
-  	"width": 1600,
-  	"height": 900,
-  	"binaries": {
-  	"url": "https://www.example.com/images/34097349843",
-  	"thumbnail": "https://www.example.com/images/thumbs/34097349843"
-  	},
-  	"animated": false,
-  	"tags": [116, 943, 234, 38793],
-  	}
+{
+  "photo": {
+    "width": 1600,
+    "height": 900,
+    "binaries": {
+      "url": "https://www.example.com/images/34097349843",
+      "thumbnail": "https://www.example.com/images/thumbs/34097349843"
+    },
+    "animated": false,
+    "tags": [116, 943, 234, 38793]
   }
+}
 ```
 
 - [ ]
 
 ```json
-  {
-  	"photo": {
-  	"width": "1600",
-  	"height": "900",
-  	"binaries": {
-  	"url": "https://www.example.com/images/34097349843",
-  	"thumbnail": "https://www.example.com/images/thumbs/34097349843"
-  	},
-  	"animated": "false",
-  	"tags": ["116", "943", "234", "38793"],
-  	}
+{
+  "photo": {
+    "width": "1600",
+    "height": "900",
+    "binaries": {
+      "url": "https://www.example.com/images/34097349843",
+      "thumbnail": "https://www.example.com/images/thumbs/34097349843"
+    },
+    "animated": "false",
+    "tags": ["116", "943", "234", "38793"]
   }
+}
 ```
 
 #### Q11. How do you store several paragraphs of text as a string in JSON?
@@ -276,9 +268,9 @@
 
 ```json
 {
-"host": "Atlanta",
-"year": 1996
-// Centennial Olympics
+  "host": "Atlanta",
+  "year": 1996
+  // Centennial Olympics
 }
 ```
 
@@ -286,9 +278,9 @@
 
 ```json
 {
-"host": "Atlanta",
-"year": 1996,
-"comments": "Centennial Olympics"
+  "host": "Atlanta",
+  "year": 1996,
+  "comments": "Centennial Olympics"
 }
 ```
 
@@ -344,8 +336,8 @@ printNullness(JSON.parse('{ "lemmings": null }'));
 printNullness(JSON.parse('{ "lemmings": "null" }'));
 
 function printNullness() {
-  if (testMe.lemmings == null) console.log("null");
-  else console.log("not null");
+  if (testMe.lemmings == null) console.log('null');
+  else console.log('not null');
 }
 ```
 
@@ -437,14 +429,7 @@ Explanation: Scientific Notation is a valid JSON number. You can use `e` or `E`.
 
 ```json
 {
-  "avengers": [
-    "iron man",
-    "hulk",
-    "thor",
-    "black widow",
-    "ant man",
-    "spider man"
-  ]
+  "avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]
 }
 ```
 
@@ -467,14 +452,7 @@ Explanation: Scientific Notation is a valid JSON number. You can use `e` or `E`.
 
 ```json
 {
-  'avengers': [
-    'iron man',
-    'hulk',
-    'thor',
-    'black widow',
-    'ant man',
-    'spider man'
-  ]
+  "avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]
 }
 ```
 
@@ -493,7 +471,7 @@ Explanation: Scientific Notation is a valid JSON number. You can use `e` or `E`.
 }
 ```
 
-#### Q32. When building dynamic web applications using AJAX, developers originally used the ____ data format, which has since been replaced by JSON.
+#### Q32. When building dynamic web applications using AJAX, developers originally used the \_\_\_\_ data format, which has since been replaced by JSON.
 
 - [x] XML
 - [ ] GRAPHQL
@@ -758,12 +736,14 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] ()
 
 #### Q64. What is the official MIME type for JSON?
+
 - [ ] text/json
 - [ ] text/javascript
 - [x] application/json
 - [ ] data/json
 
 #### Q65. What character cannot be part of string within JSON without additional formatting?
+
 - [ ] /
 - [x] "
 - [ ] -

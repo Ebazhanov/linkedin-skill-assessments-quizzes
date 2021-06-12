@@ -42,8 +42,6 @@
 - [ ] The file creator did not give the article a title.
 - [ ] You are viewing the PDF in Adobe Reader.
 
-
-
 #### Q7. As you examine large engineering documents, you would like to have the Marquee Zoom tool easily available all the time. What is the fastest way to add the Marquee Zoom tool to Common Tools?
 
 - [ ] Right-click in the toolbar and select Show Page Navigation Tools.

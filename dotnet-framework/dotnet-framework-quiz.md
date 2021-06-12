@@ -286,7 +286,7 @@
 
 #### Q42. What is a thread?
 
-- [x] A single operation that does not return a value and that usually executes asynchronously 
+- [x] A single operation that does not return a value and that usually executes asynchronously
 - [ ] the basic unit to which an operating system allocate processor time
 - [ ] a series of related tasks or methods that together turn inputs into outputs
 - [ ] a program that is running on your computer
@@ -312,28 +312,28 @@ https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net
 
 - [ ] public IFormResult ReceivedDataByRequest()
       {
-        string theName = Request.Forms["theName"];
-        return View();
+      string theName = Request.Forms["theName"];
+      return View();
       }
 - [ ] public IActionResult ReceivedDataByRequest()
       {
-        string theName = Request.Forms["theName"];
-        return View();
+      string theName = Request.Forms["theName"];
+      return View();
       }
 - [ ] public IFormResult ReceivedDataByRequest()
       {
-        string theName = Request.Form["theName"];
-        return View();
+      string theName = Request.Form["theName"];
+      return View();
       }
 - [x] public IActionResult ReceivedDataByRequest()
       {
-        string theName = Request.Form["theName"];
-        return View();
+      string theName = Request.Form["theName"];
+      return View();
       }
-      
+
 #### Q46. Where should you store connection string information?
 
 - [ ] in any file within the namespace of the program
 - [ ] in the view
 - [x] in configuration files
-- [ ] in the database     
+- [ ] in the database

@@ -163,7 +163,7 @@
 #### Q17. What should fill the blank in the HTML code bellow?
 
 ```html
-<form method="post" action="mailto:info@linkedin.com" ____="text/plain" >
+<form method="post" action="mailto:info@linkedin.com" ____="text/plain"></form>
 ```
 
 - [x] enctype
@@ -1023,6 +1023,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 [Reference (w3schools)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_video)
 
 #### Q66. What is the correct way to describe an empty element?
+
 - [ ] It has opening and closing tags but no child content.
 - [ ] It display nothing on a website.
 - [x] It has no child content and no closing tag.
@@ -1030,7 +1031,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 [Reference (MDN Web Docs)](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element)
 
-#### Q67. What is the purpose of async in this code? 
+#### Q67. What is the purpose of async in this code?
 
 `<script async src="myscript.js"></script>`
 
@@ -1040,11 +1041,13 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] It pauses the parsing of HTML code while the script runs.
 
 #### Q68. What does this code?
+
 `<audio autoplay loop src="sound.mp3" type="audio/mpeg"></audio>`
+
 - [ ] When the **play** button is pressed, the browser plays the sounds over and over again until the user stops it.
 - [ ] The browser plays the sound once automatically in the background. The user has no control over the sound.
 - [ ] The browser plays the sound automatically and continuously in the background. The user may stop the sound at any tune.
-- [X] The browser plays the sound automatically and continuously in the background. The user has no control over the sound.
+- [x] The browser plays the sound automatically and continuously in the background. The user has no control over the sound.
 
 [Reference(MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
 
@@ -1060,7 +1063,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 `<script defer src="myscript.js"></script>`
 
 - [ ] It downloads the script from the server when resources allow.
-- [X] It runs the script after HTML parsing is complete.
+- [x] It runs the script after HTML parsing is complete.
 - [ ] It runs the script when the script is ready.
 - [ ] It pauses the parsing of HTML code while the script runs.
 
@@ -1068,11 +1071,16 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 ```html
 <table>
-  <tr>Cell 1</tr>
+  <tr>
+    Cell 1
+  </tr>
   <td>Cell 2</td>
-  <caption>A table</caption>
+  <caption>
+    A table
+  </caption>
 </table>
 ```
+
 - [ ]
 
 ```HTML
@@ -1125,16 +1133,16 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 ![Image of footer](images/ss-7.png?raw=true)
 
-- [ ] ```<a href="../work/info.html">See Information </a>```
-- [X] ```<a href="../info.html">See Information </a>```
-- [ ] ```<a href="../../info.html">See Information </a>```
-- [ ] ```<a href="info.html">See Information </a>```
+- [ ] `<a href="../work/info.html">See Information </a>`
+- [x] `<a href="../info.html">See Information </a>`
+- [ ] `<a href="../../info.html">See Information </a>`
+- [ ] `<a href="info.html">See Information </a>`
 
 #### Q73. When should you use the `<article>` element?
 
 - [ ] For blog posts and other social media items
 - [ ] For the main content area of your website
-- [X] When the content stands alone as a unit, is suitable for syndication, or is reusable
+- [x] When the content stands alone as a unit, is suitable for syndication, or is reusable
 - [ ] To associate comments with a blog post
 
 [Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
@@ -1144,34 +1152,35 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ]
 
 ```HTML
-<area> 
-<embed> 
+<area>
+<embed>
 <strong>
 ```
 
 - [ ]
 
 ```HTML
-<input> 
-<br> 
+<input>
+<br>
 <p>
 ```
 
 - [ ]
 
 ```HTML
-<link> 
-<meta> 
+<link>
+<meta>
 <title>
 ```
 
 - [X]
-  
+
 ```HTML
-<wbr> 
-<base> 
+<wbr>
+<base>
 <source>
 ```
+
 #### Q75. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
 
 - [x] `<a href="tel: 802-555-1212">Call me</a>`
@@ -1182,12 +1191,12 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 #### Q76. What is the purpose of the `class` attribute?
 
 - [ ] Classes allow CSS to select specific elements on the page. You may list as many class names within the class attribute as you wish,
-  separated by spaces.
+      separated by spaces.
 - [ ] Classes allow CSS and JavaScript to select specific elements on the page. You may list only one class name per class attribute.
 - [ ] Classes allow CSS to select specific elements on the page. You may list only one class name per class attribute.
-- [X] Classes allow CSS and JavaScript to select specific elements on the page. You may list as many class names within the class attribute
-  as you wish, separated by spaces.
-  
+- [x] Classes allow CSS and JavaScript to select specific elements on the page. You may list as many class names within the class attribute
+      as you wish, separated by spaces.
+
 [Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class)
 
 #### Q77. Which choice is not a legal type attribute for the `<input>` tag?
@@ -1195,7 +1204,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] `<input type="color">`
 - [ ] `<input type="tel">`
 - [ ] `<input type="week">`
-- [X] `<input type="num">`
+- [x] `<input type="num">`
 
 [Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)
 
