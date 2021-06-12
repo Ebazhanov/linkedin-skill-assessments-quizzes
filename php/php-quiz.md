@@ -562,7 +562,7 @@ isset($_POST['submit'])
 ##### Q50. Why should you follow a PSR standard?
 
 - [ ] because coding standards often vary between developers and companies
-- [ ] because coding standards are monitored for compliance accross developers and companies
+- [ ] because coding standards are monitored for compliance across developers and companies
 - [ ] because there are mandatory coding standards among developers and companies
 - [ ] if using certain platforms, because the PSR's apply to those platforms only
 
