@@ -681,25 +681,29 @@ useEffect(() => {
 <Route path="/:id" />
 ```
 
-- [ ] ````javascript
-              <Route path="/:id"> <About />
-              </Route>
-          ```
-      ````
-- [ ] ````javascript
-              <Route path="/tid" about={Component} />
-          ```
-      ````
-- [ ] ````javascript
-               <Route path="/:id" route={About} />
-          ```
-      ````
-- [ ] ````javascript
-              <Route>
-                <About path="/:id" />
-              </Route>
-          ```
-      ````
+- [ ] `````javascript
+                  <Route path="/:id"> <About />
+                  </Route>
+              ```
+          ````
+      `````
+- [ ] `````javascript
+                  <Route path="/tid" about={Component} />
+              ```
+          ````
+      `````
+- [ ] `````javascript
+                   <Route path="/:id" route={About} />
+              ```
+          ````
+      `````
+- [ ] `````javascript
+                  <Route>
+                    <About path="/:id" />
+                  </Route>
+              ```
+          ````
+      `````
 
 #### Q65. Which class-based component is equivalent to this function component?
 
@@ -707,26 +711,30 @@ useEffect(() => {
 const Greeting ({ name }) > <h1>Hello {name}!</h1>;
 ```
 
-- [ ] ````javascript
-              class Greeting extends React.Component {
-              constructor() { return <h1>Hello (this.props.name)!</h1>; }
-              }
-          ```
-      ````
-- [ ] ````javascript
-             class Greeting extends React.Component { <h1>Hello (this.props.name}!</h1>; }
-          ```
-      ````
-- [ ] ````javascript
-             class Greeting extends React.Component { return <h1>Hello (this.props.name) 1</h1>; }
-          ```
-      ````
-- [ ] ````javascript
-              class Greeting extends React.Component ( render({ name }) {
-                return <h1>Hello (name)} !</h1>;
-              })
-          ```
-      ````
+- [ ] `````javascript
+                  class Greeting extends React.Component {
+                  constructor() { return <h1>Hello (this.props.name)!</h1>; }
+                  }
+              ```
+          ````
+      `````
+- [ ] `````javascript
+                 class Greeting extends React.Component { <h1>Hello (this.props.name}!</h1>; }
+              ```
+          ````
+      `````
+- [ ] `````javascript
+                 class Greeting extends React.Component { return <h1>Hello (this.props.name) 1</h1>; }
+              ```
+          ````
+      `````
+- [ ] `````javascript
+                  class Greeting extends React.Component ( render({ name }) {
+                    return <h1>Hello (name)} !</h1>;
+                  })
+              ```
+          ````
+      `````
 
 #### Q66. Give the code below, what does the second argument that is sent to the render function describe?
 
@@ -772,3 +780,46 @@ useEffect(() => {
 - [x] componentDidMount
 - [ ] render
 - [ ] componentDidUpdate
+
+#### Q70. Given the code below, what does the second argument that is sent to the render function describe?
+
+```javascript
+ReactDOM.render(
+  <h1>Hi</h1>
+  document.getElementById('root')
+);
+```
+
+- [x] where the React element should be added to the DOM
+- [ ] where to call the function
+- [ ] where the root component is
+- [ ] where to create a new JavaScript file
+
+#### Q71. Why should you use React Router's **Link** component instead of a basic <a> tag in React?
+
+- [ ] The Link component allows the user to use the browser's **Back** button
+- [ ] There is no difference -- the **Link** component is just another name for the <a> tag.
+- [ ] The <a> tag will cause an error when used in React.
+- [ ] The <a> tag triggers a full page reload, while the **Link** component does not.
+
+#### Q72. What is the first argument, x, that is sent to the `createElement` function?
+
+`React.createElement(x,y,z);`
+
+- [x] the element that should be created
+- [ ] the order in which this element should be placed on the page
+- [ ] the properties of the element
+- [ ] data that should be displayed in the element.
+
+#### Q73. Which class-based lifecycle method would be called at the same time as this effect Hook?
+
+```javascript
+useEffect(() => {
+  // do things
+}, []);
+```
+
+- [ ] `componentWillUnmount`
+- [x] `componentDidMount`
+- [ ] `render`
+- [ ] `componentDidUpdate`
