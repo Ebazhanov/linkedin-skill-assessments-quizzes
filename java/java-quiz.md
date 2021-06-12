@@ -1193,3 +1193,50 @@ public class Main {
 - [ ] Change line 6 to ```public void print2(){}```
 - [ ] Remove the body of the ```print2``` method and add a semicolon.
 - [ ] Remove the body of the ```print``` method.
+
+#### Q87. What is the output of this code?
+
+```java
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    String[] array = new String[]{"A", "B", "C"};
+    List<String> list1 = Arrays.asList(array);
+    List<String> list2 = new ArrayList<>(Arrays.asList(array));
+    List<String> list3 = new ArrayList<>(Arrays.asList("A", new String("B"), "C"));
+    System.out.print(list1.equals(list2));
+    System.out.print(list1.equals(list3));
+  }
+}
+```
+
+- [ ] falsefalse
+- [X] truetrue
+- [ ] falsetrue
+- [ ] truefalse
+
+
+#### Q88. Which code snippet is valid?
+
+- [ ] ```ArrayList<String> words = new ArrayList<String>(){"Hello", "World"};```
+- [ ] ```ArrayList words = Arrays.asList("Hello", "World");```
+- [ ] ```ArrayList<String> words = {"Hello", "World"};```
+- [X] ```ArrayList<String> words = new ArrayList<>(Arrays.asList("Hello", "World"));```
+
+
+#### Q89. What is the output of this code?
+
+```java
+class Main {
+  public static void main(String[] args) {
+    StringBuilder sb = new StringBuilder("hello");
+    sb.deleteCharAt(0).insert(0, "H")." World!";
+    System.out.println(sb);
+  }
+}
+```
+
+- [ ] A runtime exception is thrown.
+- [ ] "HelloWorld!"
+- [ ] "hello"
+- [ ] ????
