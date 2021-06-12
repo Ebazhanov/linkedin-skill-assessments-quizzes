@@ -3837,6 +3837,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "lolcatnip",
+      "name": "lolcatnip",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25205029?v=4",
+      "profile": "https://github.com/lolcatnip",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
