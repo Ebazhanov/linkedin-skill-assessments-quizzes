@@ -139,7 +139,7 @@ def sum(a, b):
 
 #### Q13. What would this expression return?
 
-```
+```python
 college_years = ['Freshman', 'Sophomore', 'Junior', 'Senior']
 return list(enumerate(college_years, 2019))
 ```
@@ -188,7 +188,7 @@ return list(enumerate(college_years, 2019))
 
 - [ ]
 
-```
+```python
 num_people = 5
 
 if num_people > 10:
@@ -203,7 +203,7 @@ else:
 
 - [ ]
 
-```
+```python
 num_people = 5
 
 if num_people > 10:
@@ -218,7 +218,7 @@ else:
 
 - [x]
 
-```
+```python
 num_people = 5
 
 if num_people > 10:
@@ -323,7 +323,7 @@ else:
 
 #### Q31. Given the following three list, how would you create a new list that matches the desired output printed below?
 
-```
+```python
 fruits = ['Apples', 'Oranges', 'Bananas']
 quantities = [5, 3, 4]
 prices = [1.50, 2.25, 0.89]
@@ -336,7 +336,7 @@ prices = [1.50, 2.25, 0.89]
 
 - [ ]
 
-```
+```python
 output = []
 
 fruit_tuple_0 = (first[0], quantities[0], price[0])
@@ -353,7 +353,7 @@ return output
 
 - [x]
 
-```
+```python
 i = 0
 output = []
 for fruit in fruits:
@@ -366,7 +366,7 @@ return output
 
 - [ ]
 
-```
+```python
 groceries = zip(fruits, quantities, prices)
 return groceries
 
@@ -379,7 +379,7 @@ return groceries
 
 - [ ]
 
-```
+```python
 i = 0
 output = []
 for fruit in fruits:
@@ -403,28 +403,28 @@ _(Answer format may vary. Game and roll (or dice_roll) should each be called wit
 
 - [x]
 
-```
+```python
 >>> dice = Game()
 >>> dice.roll()
 ```
 
 - [ ]
 
-```
+```python
 >>> dice = Game(self)
 >>> dice.roll(self)
 ```
 
 - [ ]
 
-```
+```python
 >>> dice = Game()
 >>> dice.roll(self)
 ```
 
 - [ ]
 
-```
+```python
 >>> dice = Game(self)
 >>> dice.roll()
 ```
@@ -459,7 +459,7 @@ _(Answer format may vary. Game and roll (or dice_roll) should each be called wit
 
 #### Q38. What does this function print?
 
-```
+```python
 def print_alpha_nums(abc_list, num_list):
     for char in abc_list:
         for num in num_list:
@@ -471,7 +471,7 @@ print_alpha_nums(['a', 'b', 'c'], [1, 2, 3])
 
 - [x]
 
-```
+```python
 a 1
 a 2
 a 3
@@ -485,13 +485,13 @@ c 3
 
 - [ ]
 
-```
+```python
 ['a', 'b', 'c'], [1, 2, 3]
 ```
 
 - [ ]
 
-```
+```python
 aaa
 bbb
 ccc
@@ -502,7 +502,7 @@ ccc
 
 - [ ]
 
-```
+```python
 a 1 2 3
 b 1 2 3
 c 1 2 3
@@ -512,28 +512,28 @@ c 1 2 3
 
 - [x]
 
-```
+```python
 my_game = Game()
 my_game.roll_dice()
 ```
 
 - [ ]
 
-```
+```python
 my_game = Game()
 self.my_game.roll_dice()
 ```
 
 - [ ]
 
-```
+```python
 my_game = Game(self)
 self.my_game.roll_dice()
 ```
 
 - [ ]
 
-```
+```python
 my_game = Game(self)
 my_game.roll_dice(self)
 ```
@@ -542,7 +542,7 @@ my_game.roll_dice(self)
 
 - [ ]
 
-```
+```python
 def sum(a, b):
     # a = 1
     # b = 2
@@ -553,7 +553,7 @@ def sum(a, b):
 
 - [ ]
 
-```
+```python
 def sum(a, b):
     """
     a = 1
@@ -566,7 +566,7 @@ def sum(a, b):
 
 - [x]
 
-```
+```python
 def sum(a, b):
     """
     >>> a = 1
@@ -613,11 +613,13 @@ def sum(a, b):
 
 #### Q44. Review the code below. What is the correct syntax for changing the price to 1.5?
 
-    fruit_info = {
-    'fruit': 'apple',
-    'count': 2,
-    'price': 3.5
-    }
+```python
+fruit_info = {
+  'fruit': 'apple',
+  'count': 2,
+  'price': 3.5
+}
+```
 
 - [x] `fruit_info ['price'] = 1.5`
 - [ ] `my_list [3.5] = 1.5`
@@ -697,7 +699,8 @@ def sum(a, b):
 - [ ] `func get_max_num(list_of_nums): # body of function goes here`
 - [ ] `func getMaxNum(list_of_nums): # body of function goes here`
 - [x] `def get_max_num(list_of_nums): # body of function goes here`
-      [explanation](https://www.python.org/dev/peps/pep-0008/)
+
+[explanation](https://www.python.org/dev/peps/pep-0008/)
 
 #### Q55. According to the PEP 8 coding style guidelines, how should constant values be named in Python?
 
@@ -724,28 +727,28 @@ def sum(a, b):
 
 - [ ]
 
-```
+```python
 class __init__(self):
     pass
 ```
 
 - [ ]
 
-```
+```python
 def __init__():
     pass
 ```
 
 - [ ]
 
-```
+```python
 class __init__():
     pass
 ```
 
 - [x]
 
-```
+```python
 def __init__(self):
     pass
 ```
@@ -782,7 +785,7 @@ def __init__(self):
 
 - [ ]
 
-```
+```python
 def tax(my_float):
     '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
     pass
@@ -790,21 +793,21 @@ def tax(my_float):
 
 - [ ]
 
-```
+```python
 def tx(amt):
     '''Gets the tax on an amount.'''
 ```
 
 - [ ]
 
-```
+```python
 def sales_tax(amount):
     '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
 ```
 
 - [x]
 
-```
+```python
 def calculate_sales_tax(subtotal):
     pass
 ```
@@ -965,10 +968,10 @@ def self.get_next_card(self):
 
 #### Q82. How is comment created?
 
-- [ ] -- This is a comment
-- [x] # This is a comment
-- [ ] /_ This is a comment _\
-- [ ] // This is a comment
+- [ ] `-- This is a comment`
+- [x] `# This is a comment`
+- [ ] `/_ This is a comment _\`
+- [ ] `// This is a comment`
 
 #### Q83. What is the correct syntax for replacing the string apple in the list with the string orange?
 
