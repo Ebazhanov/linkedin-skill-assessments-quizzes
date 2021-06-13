@@ -18,7 +18,7 @@
 
 - [x] linked list
 - [ ] queue
-- [ ] set`
+- [ ] set
 - [ ] OrderedDict
 
 #### Q4. What statement about static methods is true?
@@ -46,10 +46,10 @@
 
 #### Q7. What built-in list method would you use to remove items from a list?
 
-- [ ] `".delete()" method`
+- [ ] `.delete()` method
 - [ ] `pop(my_list)`
 - [ ] `del(my_list)`
-- [x] `".pop()" method`
+- [x] `.pop()` method
 
 #### Q8. What is one of the most common use of Python's sys library?
 
@@ -76,7 +76,7 @@
 
 - [ ] A
 
-```
+```python
 def sum(a, b):
     """
     sum(4, 3)
@@ -90,7 +90,7 @@ def sum(a, b):
 
 - [x] B
 
-```
+```python
 def sum(a, b):
     """
     >>> sum(4, 3)
@@ -104,7 +104,7 @@ def sum(a, b):
 
 - [ ] C
 
-```
+```python
 def sum(a, b):
     """
     # >>> sum(4, 3)
@@ -118,7 +118,7 @@ def sum(a, b):
 
 - [ ] D
 
-```
+```python
 def sum(a, b):
     ###
     >>> sum(4, 3)
