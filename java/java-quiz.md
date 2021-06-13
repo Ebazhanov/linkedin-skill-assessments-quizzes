@@ -1142,7 +1142,7 @@ for (int i = 44; i > 40; i--) {
 #### Q82. When should you use a static method?
 
 - [ ] when your method is related to the object's characteristics
-- [ ] when you want your method to be available independently of class instances
+- [x] when you want your method to be available independently of class instances
 - [ ] when your method uses an object's instance variable
 - [ ] when your method is dependent on the specific instance that calls it
 
@@ -1237,3 +1237,20 @@ class Main {
 - [ ] "HelloWorld!"
 - [ ] "hello"
 - [ ] ????
+
+### 90. What code would you use in Constructor A to call Constructor B?
+
+```java
+public class Jedi {
+  /* Constructor A */
+  Jedi(String name, String species){}
+  
+  /* Constructor B */
+  Jedi(String name, String species, boolean followsTheDarkSide){}
+  }
+```
+
+- [ ] Jedi(name, species, false)
+- [ ] new Jedi(name, species, false)
+- [x] this(name, species, false)
+- [ ] super(name, species, false)
