@@ -51,7 +51,7 @@
 - [ ] bagging
 - [x] stacking
 
-#### Q8. `\_\_\_\_` looks at the relationship between predictors and your outcome.
+#### Q8. `____` looks at the relationship between predictors and your outcome.
 
 - [x] Regression analysis
 - [ ] K-means clustering
@@ -81,7 +81,7 @@
 - [x] The algorithms would help your organization see patterns of the data.
 - [ ] By using machine learning algorithms, you are creating an IoT device.
 
-#### Q12. To predict a quantity value. use `\_\_\_\_`.
+#### Q12. To predict a quantity value. use `___`.
 
 - [x] regression
 - [ ] clustering
@@ -433,14 +433,14 @@ Note: there are centres of clusters (C0, C1, C2).
 - [x] The cross-entropy function.
 - [ ] The number of mistakes.
 
-#### Q59. Compared to the variance of the Maximum Likelihood Estimate (MLE), the variance of the Maximum A Posteriori (MAP) estimate is **\_\_\_\_**
+#### Q59. Compared to the variance of the Maximum Likelihood Estimate (MLE), the variance of the Maximum A Posteriori (MAP) estimate is `___`
 
 - [ ] Higher
 - [ ] same
 - [x] Lower
 - [ ] it could be any of the above
 
-#### Q60. **\_** refers to a model that can neither model the training data nor generalize to new data.
+#### Q60. `___` refers to a model that can neither model the training data nor generalize to new data.
 
 - [ ] good fitting
 - [ ] overfitting
@@ -452,18 +452,20 @@ Note: there are centres of clusters (C0, C1, C2).
 ![Machine Learning Q58](images/machine-learning_Q58.jpg)
 
 - [x] This is a multiclass classification challenge.
-      **Explanation**: Shows data being classified into more than two categories or classes. Thus, this is a multi-class classification challenge.
 - [ ] This is a multi-binary classification challenge.
 - [ ] This is a binary classification challenge.
 - [ ] This is a reinforcement classification challenge.
+
+  **Explanation**: Shows data being classified into more than two categories or classes. Thus, this is a multi-class classification challenge.
 
 #### Q62. What does it mean to underfit your data model?
 
 - [ ] There is too little data in your training set.
 - [ ] There is too much data in your training set.
 - [x] There is not a lot of variance but there is a high bias.
-      `Underfitted data models usually have high bias and low variance. Overfitted data models have low bias and high variance.`
 - [ ] Your model has low bias but high variance.
+
+  `Underfitted data models usually have high bias and low variance. Overfitted data models have low bias and high variance.`
 
 #### Q63. Asian user complains that your company's facial recognition model does not properly identify their facial expressions. What should you do?
 
@@ -471,16 +473,19 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] Retrain your model with updated hyperparameter values.
 - [ ] Retrain your model with smaller batch sizes.
 - [x] Include Asian faces in your training data and retrain your model.
-      `The answer is self-explanatory: if Asian users are the only group of people making the complaint, then the training data should have more Asian faces.`
+
+  `The answer is self-explanatory: if Asian users are the only group of people making the complaint, then the training data should have more Asian faces.`
 
 #### Q64. You work for a website that helps match people up for lunch dates. The website boasts that it uses more than 500 predictors to find customers the perfect date, but many costumers complain that they get very few matches. What is a likely problem with your model?
 
 - [ ] Your training set is too large.
 - [ ] You are underfitting the model to the data.
 - [x] You are overfitting the model to the data.
-      **Explanation**: // This question is very similar to Q49 but involves a polar opposite scenario.
 - [ ] Your machine is creating inaccurate clusters.
-      `that answer somewhat vague and unsettled. Small number of matchings does not necessarily implies that the model overfits, especially given 500 (!) independent variables. To me, it sounds more reasonable that the threshold (matching) criterion might be too tight, thus allowing only a small number of matching to occur. So a solution can be either softening the threshold criterion or increasing the number of candidates.`
+
+  **Explanation**: // This question is very similar to Q49 but involves a polar opposite scenario.
+
+  `that answer somewhat vague and unsettled. Small number of matchings does not necessarily implies that the model overfits, especially given 500 (!) independent variables. To me, it sounds more reasonable that the threshold (matching) criterion might be too tight, thus allowing only a small number of matching to occur. So a solution can be either softening the threshold criterion or increasing the number of candidates.`
 
 #### Q65. (Mostly) whenever we see kernel visualizations online (or some other reference) we are actually seeing:
 
@@ -543,9 +548,11 @@ Note: there are centres of clusters (C0, C1, C2).
 #### Q72. You create a decision tree to show whether someone decides to go to the beach. There are three factors in this decision: rainy, overcast, and sunny. What are these three factors called?
 
 - [ ] tree nodes
-- [x] predictors // these nodes decide whether the someone decides to go to beach or not, for example if its rainy people will mostly refrain from going to beach
+- [x] predictors
 - [ ] root nodes
 - [ ] deciders
+
+`// these nodes decide whether the someone decides to go to beach or not, for example if its rainy people will mostly refrain from going to beach`
 
 #### Q73. You need to quickly label thousands of images to train a model. What should you do?
 
@@ -561,7 +568,9 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] low bias, high variance
 - [ ] high bias, low variance
 - [ ] high bias, high variance
-- [x] low bias, low variance // since the data is accurately classified and is neither overfitting or underfitting the dataset
+- [x] low bias, low variance
+
+  `// since the data is accurately classified and is neither overfitting or underfitting the dataset`
 
 #### Q75. Many of the advances in machine learning have come from improved?
 
