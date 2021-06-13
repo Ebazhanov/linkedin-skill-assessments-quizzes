@@ -360,14 +360,14 @@
 - [ ] Click the Edit Symbol button in the Control panel or Properties panel.
 - [ ] Edit the symbol instance name.
 - [ ] Double-click the instance with the Type tool.
-- [ ] Click the Break Link button in the Control panel or Properties panel.
+- [x] Click the Break Link button in the Control panel or Properties panel.
 
 #### Q49. Your colleague has asked you to provide the CSS code for an object in your document. What must you do to make Illustrator auto-generate the code for that particular object?
 
 - [ ] Drag the object into the Asset Export panel.
 - [ ] Select the object and choose Generate CSS from the CSS Properties panel.
 - [ ] Select the object and choose Copy Selected Style from the CSS Properties panel.
-- [ ] Give the object a name in the Layers panel.
+- [x] Give the object a name in the Layers panel.
 
 #### Q50. You have drawn objects on planes using the perspective grid, but now want to change the angles of the grid to new vanishing points and have the artwork update automatically. What option should be enabled to achieve this result?
 
