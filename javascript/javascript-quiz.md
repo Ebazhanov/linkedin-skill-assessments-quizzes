@@ -137,10 +137,37 @@ for (var j = 1; j <= 4; j++) {
 
 #### Q10. Which statement creates a new function called discountPrice?
 
-- [x] `let discountPrice = function(price) { return price * 0.85; };`
-- [ ] `let discountPrice(price) { return price * 0.85; };`
-- [ ] `let function = discountPrice(price) { return price * 0.85; };`
-- [ ] `discountPrice = function(price) { return price * 0.85; };`
+- [x]
+
+```js
+let discountPrice = function (price) {
+  return price * 0.85;
+};
+```
+
+- [ ]
+
+```js
+let discountPrice(price) {
+  return price * 0.85;
+};
+```
+
+- [ ]
+
+```js
+let function = discountPrice(price) {
+  return price * 0.85;
+};
+```
+
+- [ ]
+
+```js
+discountPrice = function (price) {
+  return price * 0.85;
+};
+```
 
 #### Q11. What is the result in the console of running the code shown?
 
