@@ -389,3 +389,11 @@ const user = {
 - [ ] it prohibits some syntax likely to be defined in future versions of ECMAScript.
 - [ ] it forces the writing of valid HTML and CSS.
 - [ ] it fixes mistakes that make it difficult for JavaScript engines to perform optimizations.
+
+** Q42. In normal flow, some elements display as block elements default and others inline. which choice contains only block-level by default elements?**
+
+- [ ] ul, li, a
+- [ ] p, b, h3
+- [ ] div, p, em
+- [X] div, main, h1
+
