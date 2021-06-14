@@ -134,8 +134,10 @@ def sum(a, b):
 
 - [ ] `set`
 - [x] `list`
-- [ ] `None`. You can only build a stack from scratch.
+- [ ] `None`
 - [ ] `dictionary`
+
+`. You can only build a stack from scratch.`
 
 #### Q13. What would this expression return?
 
@@ -262,8 +264,10 @@ else:
 
 - [ ] `dictionary`
 - [ ] `set`
-- [ ] `None`. You can only build a stack from scratch.
+- [ ] `None`
 - [x] `list`
+
+`You can only build a stack from scratch.`
 
 #### Q23. What is the correct syntax for instantiating a new object of the type Game?
 
@@ -272,7 +276,7 @@ else:
 - [x] `my_game = Game()`
 - [ ] `my_game = Game.create()`
 
-#### Q24. What does the built-in map() function do?
+#### Q24. What does the built-in `map()` function do?
 
 - [ ] It creates a path from multiple values in an iterable to a single value.
 - [x] It applies a function to each item in an iterable and returns the value of that function.
@@ -394,7 +398,7 @@ return output
 
 - [ ] The `all()` function returns a Boolean value that answers the question "Are all the items in this list the same?
 - [ ] The `all()` function returns True if all the items in the list can be converted to strings. Otherwise, it returns False.
-- [ ] The `all()` function will return all the values in the list.`
+- [ ] The `all()` function will return all the values in the list.
 - [x] The `all()` function returns True if all items in the list evaluate to True. Otherwise, it returns False.
 
 #### Q33. What is the correct syntax for calling an instance method on a class named Game?
