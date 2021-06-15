@@ -3856,6 +3856,36 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "Farukh1x95",
+      "name": "Farukh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42496291?v=4",
+      "profile": "http://farukh.me",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Moksedul",
+      "name": "Moksedul",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37239739?v=4",
+      "profile": "https://github.com/Moksedul",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "nvntkmr81",
+      "name": "Navneet Kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26296352?v=4",
+      "profile": "https://github.com/nvntkmr81",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
