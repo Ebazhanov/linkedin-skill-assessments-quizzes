@@ -275,9 +275,9 @@ It is suggested that high business value, high-risk items are worked on first. W
 
 #### Q39. Which statement about estimating is not true?
 
-- [ ] Absolute estimating is more reliable than relative estimating.
+- [x] Absolute estimating is more reliable than relative estimating.
 - [ ] Relative estimating is more reliable than absolute estimating.
-- [x] In estimating, accuracy is more important than precision.
+- [ ] In estimating, accuracy is more important than precision.
 - [ ] In estimating, the effort is more important than the time required.
 
 #### Q40. Which ceremony should the Product Owner not attend?
