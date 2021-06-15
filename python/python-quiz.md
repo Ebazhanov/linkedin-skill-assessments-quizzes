@@ -440,14 +440,14 @@ _(Answer format may vary. Game and roll (or dice_roll) should each be called wit
 - [ ] decrease and conquer
 - [x] divide and conquer
 
-#### Q35. What is runtime complexity of the list's built-in .append() method?
+#### Q35. What is runtime complexity of the list's built-in `.append()` method?
 
 - [x] O(1), also called constant time
 - [ ] O(log n), also called logarithmic time
 - [ ] O(n^2), also called quadratic time
 - [ ] O(n), also called linear time
 
-#### Q36. What is key difference between a set and a list?
+#### Q36. What is key difference between a `set` and a `list`?
 
 - [ ] A set is an ordered collection unique items. A list is an unordered collection of non-unique items.
 - [ ] Elements can be retrieved from a list but they cannot be retrieved from a set.
@@ -639,12 +639,12 @@ fruit_info = {
 - [x] `True`
 - [ ] `None`
 
-#### Q46. What does a class's **init**() method do?
+#### Q46. What does a class's `init()` method do?
 
 - [ ] The `__init__` method makes classes aware of each other if more than one class is defined in a single code file.
 - [ ] The`__init__` method is included to preserve backwards compatibility from Python 3 to Python 2, but no longer needs to be used in Python 3.
-- [x] The `__init__` method is a constructor method that is called automatically whenever a new object is created from a class. It sets the initial state of a new object.`
-- [ ] The `__init__` method initializes any imports you may have included at the top of your file.`
+- [x] The `__init__` method is a constructor method that is called automatically whenever a new object is created from a class. It sets the initial state of a new object.
+- [ ] The `__init__` method initializes any imports you may have included at the top of your file.
 
 #### Q47. What is meant by the phrase "space complexity"?
 
@@ -766,7 +766,7 @@ def __init__(self):
 
 #### Q60. Which of the following is TRUE About how numeric data would be organised in a binary Search tree?
 
-- [x] For any given Node in a binary Search Tree, the child node to the left is less than the value of the given node and the child node to its right is greater than the given node. (Not Sure)
+- [x] For any given Node in a binary Search Tree, the child node to the left is less than the value of the given node and the child node to its right is greater than the given node.
 - [ ] Binary Search Tree cannot be used to organize and search through numeric data, given the complication that arise with very deep trees.
 - [ ] The top node of the binary search tree would be an arbitrary number. All the nodes to the left of the top node need to be less than the top node's number, but they don't need to ordered in any particular way.
 - [ ] The smallest numeric value would go in the top most node. The next highest number would go in its left child node, the the next highest number after that would go in its right child node. This pattern would continue until all numeric values were in their own node.
@@ -778,9 +778,9 @@ def __init__(self):
 - [x] You use the decorator to alter the functionality of a function without having to modify the functions code.
 - [ ] An import statement is preceded by a decorator, python knows to import the most recent version of whatever package or library is being imported.
 
-#### Q62. When would you use a for loop ?
+#### Q62. When would you use a for loop?
 
-- [ ] Only in some situations, as loops are used ony for certain type of programming.
+- [ ] Only in some situations, as loops are used only for certain type of programming.
 - [x] When you need to check every element in an iterable of known length.
 - [ ] When you want to minimize the use of strings in your code.
 - [ ] When you want to run code in one file for a function in another file.
@@ -844,49 +844,42 @@ def calculate_sales_tax(subtotal):
 - [ ] Add items to a stack in O(n) time and remove items from a stack on O(1) time.
 - [ ] Add items to a stack in O(n) time and remove items from a stack on O(n) time.
 
-#### Q68. What does calling namedtuple on a collection type return?
-
-- [x] a tuple subclass with iterable named fields
-- [ ] a generic object class with non-iterable named fields
-- [ ] a generic object class with iterable parameter fields
-- [ ] a tuple subclass with non-iterable parameter fields
-
-#### Q69. Which statement accurately describes how items are added to and removed from a stack?
+#### Q68. Which statement accurately describes how items are added to and removed from a stack?
 
 - [ ] a stacks adds items to one side and removes items from the other side.
 - [x] a stacks adds items to the top and removes items from the top.
 - [ ] a stacks adds items to the top and removes items from anywhere in the stack.
 - [ ] a stacks adds items to either end and removes items from either end.
 
-#### Q70. What is a base case in a recursive function?
+#### Q69. What is a base case in a recursive function?
 
 - [x] A base case is the condition that allows the algorithm to stop recursing. It is usually a problem that is small enough to solve directly.
 - [ ] The base case is summary of the overall problem that needs to be solved.
 - [ ] The base case is passed in as an argument to a function whose body makes use of recursion.
 - [ ] The base case is similar to a base class, in that it can be inherited by another object.
 
-#### Q71. Why is it considered good practice to open a file from within a Python script by using the `with` keyword?
+#### Q70. Why is it considered good practice to open a file from within a Python script by using the `with` keyword?
 
 - [ ] The `with` keyword lets you choose which application to open the file in.
 - [ ] The `with` keyword acts like a `for` loop, and lets you access each line in the file one by one.
 - [ ] There is no benefit to using the `with` keyword for opening a file in Python.
 - [x] When you open a file using the `with` keyword in Python, Python will make sure the file gets closed, even if an exception or error is thrown.
 
-#### Q72. Why would you use a virtual environment?
+#### Q71. Why would you use a virtual environment?
 
 - [x] Virtual environments create a "bubble" around your project so that any libraries or packages you install within it don't affect your entire machine.
-- [ ] Teams with remote employees use virtual environments so they can share code, do code reviews, and collaorate remotely.
+- [ ] Teams with remote employees use virtual environments so they can share code, do code reviews, and collaborate remotely.
 - [ ] Virtual environments were common in Python 2 because they augmented missing features in the language. Virtual environments are not necessary in Python 3 due to advancements in the language.
 - [ ] Virtual environments are tied to your GitHub or Bitbucket account, allowing you to access any of your repos virtually from any machine.
 
-#### Q73. What is the correct way to run all the doctests in a given file from the command line?
+#### Q72. What is the correct way to run all the doctests in a given file from the command line?
 
 - [ ] python3 -m doctest <filename>
 - [x] python3 <filename>
 - [ ] python3 <filename> rundoctests
 - [ ] python3 doctest
 
-#### Q74. What is a lambda function ?
+#### Q73. What is a lambda function ?
 
 - [ ] any function that makes use of scientific or mathematical constants, often represented by Greek letters in academic writing
 - [ ] a function that get executed when decorators are used
@@ -898,35 +891,35 @@ def calculate_sales_tax(subtotal):
 **Explanation:**
 `the lambda notation is basically an anonymous function that can take any number of arguments with only single expression (i.e, cannot be overloaded). It has been introducted in other programming languages, such as C++ and Java. The lambda notation allows programmers to "bypass" function declaration.`
 
-#### Q75. What is the primary difference between lists and tuples?
+#### Q74. What is the primary difference between lists and tuples?
 
 - [ ] You can access a specifc element in a list by indexing to its position, but you cannot access a specific element in a tuple unless you iterate through the tuple
 - [x] Lists are mutable, meaning you can change the data that is inside them at any time. Tuples are immutable, meaning you cannot change the data that is inside them once you have created the tuple.
 - [ ] Lists are immutable, meaning you cannot change the data that is inside them once you have created the list. Tuples are mutable, meaning you can change the data that is inside them at any time.
 - [ ] Lists can hold several data types inside them at once, but tuples can only hold the same data type if multiple elements are present.
 
-#### Q76. Which statement about static method is true?
+#### Q75. Which statement about static method is true?
 
 - [ ] Static methods can be bound to either a class or an instance of a class.
 - [ ] Static methods can access and modify the state of a class or an instance of a class.
 - [x] Static methods serve mostly as utility or helper methods, since they cannot access or modify a class's state.
 - [ ] Static methods are called static because they always return None.
 
-#### Q77. What does a generator return?
+#### Q76. What does a generator return?
 
 - [ ] None
 - [x] An iterable object
 - [ ] A linked list data structure from a non-empty list
 - [ ] All the keys of the given dictionary
 
-#### Q78. What is the difference between class attributes and instance attributes?
+#### Q77. What is the difference between class attributes and instance attributes?
 
 - [ ] Instance attributes can be changed, but class attributes cannot be changed
 - [x] Class attributes are shared by all instances of the class. Instance attributes may be unique to just that instance
 - [ ] There is no difference between class attributes and instance attributes
 - [ ] Class attributes belong just to the class, not to instance of that class. Instance attributes are shared among all instances of a class
 
-#### Q79. What is the correct syntax of creating an instance method?
+#### Q78. What is the correct syntax of creating an instance method?
 
 - [ ]
 
@@ -956,42 +949,42 @@ def self.get_next_card(self):
   # method body goes here
 ```
 
-#### Q80. What is a key difference between a set and a list?
+#### Q79. What is a key difference between a set and a list?
 
 - [ ] A set is an ordered collection of non-unique items. A list is an unordered collection of unique items.
 - [ ] A set is an ordered collection of unique items. A list is an unordered collection of non-unique items.
 - [ ] Elements can be retrieved from a list but they cannot be retrieved from a set.
 - [x] A set is an unordered collection of unique items. A list is an ordered collection of non-unique items.
 
-#### Q81. What is the correct way to call a function?
+#### Q80. What is the correct way to call a function?
 
 - [x] get_max_num([57, 99, 31, 18])
 - [ ] call.(get_max_num)
 - [ ] def get_max_num([57, 99, 31, 18])
 - [ ] call.get_max_num([57, 99, 31, 18])
 
-#### Q82. How is comment created?
+#### Q81. How is comment created?
 
 - [ ] `-- This is a comment`
 - [x] `# This is a comment`
 - [ ] `/_ This is a comment _\`
 - [ ] `// This is a comment`
 
-#### Q83. What is the correct syntax for replacing the string apple in the list with the string orange?
+#### Q82. What is the correct syntax for replacing the string apple in the list with the string orange?
 
 - [ ] orange = my_list[1]
 - [x] my_list[1] = 'orange'
 - [ ] my_list['orange'] = 1
 - [ ] my_list[1] == orange
 
-#### Q84. What will happen if you use a while loop and forget to include logic that eventually causes the while loop to stop?
+#### Q83. What will happen if you use a while loop and forget to include logic that eventually causes the while loop to stop?
 
 - [ ] Nothing will happen; your computer knows when to stop running the code in the while loop.
 - [ ] You will get a KeyError.
 - [x] Your code will get stuck in an infinite loop.
 - [ ] You will get a WhileLoopError.
 
-#### Q85. Describe the functionality of a queue?
+#### Q84. Describe the functionality of a queue?
 
 - [x] A queue adds items to either end and removes items from either end.
 - [ ] A queue adds items to the top and removes items from the top.
