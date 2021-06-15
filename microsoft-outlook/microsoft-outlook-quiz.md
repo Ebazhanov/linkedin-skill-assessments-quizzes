@@ -321,3 +321,136 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] A, C, and D
 - [ ] A and B
 - [ ] B and D
+
+#### 44. Each \_\_\_ can be assigned two default signatures for \_\_\_ .
+
+- [ ] None of these answers
+- [x] email account; new messages and replies or forwards
+- [ ] user; new messages and replies
+- [ ] user; new messages and replies or forwards
+
+#### 45. While using Focused Inbox, you notice that Outlook sometimes puts important messages from a specific customer on th Another tab. How do you fix this for future messages?
+
+- [ ] Right-click a message that was incorrectly organized and click Move to Focused.
+- [ ] Right-click a message that was incorrectly organized and click Always Move to Focused.
+- [ ] Close the Outlook application and relaunch.
+- [ ] Locate that customer in the People Hub and select the Focused check box.
+
+#### 46. In the Outlook interface shown below, why is the Show as Conversations option grayed out?
+
+- [ ] The Inbox folder is sorted by size.
+- [ ] The People peek is open and Sally Kerner's card has focus.
+- [ ] Focused Inbox is being used.
+- [ ] The People peek is open and has focus.
+
+#### 47. Suppose you select a message in Focused Inbox and then chose Move to Other, but the message does not move. What is the most likely cause?
+
+- [ ] Clutter is prioritizing the messages.
+- [ ] Your mailbox is not ser for random synchronization.
+- [ ] The mailbox is offline.
+- [ ] The mailbox is a shared mailbox.
+
+#### 48. For efficiency, how should you save a search that you run frequently?
+
+- [ ] as a search folder (Smart Folder on Mac)
+- [ ] none of these answers
+- [ ] as a column
+- [ ] as a criteria set
+
+#### 49. When you compose and email and click the To or Cc button, where does Outlook search first?
+
+- [ ] none of these answers
+- [ ] your People list
+- [ ] your Outlook Favorites
+- [ ] the global address book
+
+#### 50. What do you call an appointment or meeting that happens on a regular basis?
+
+- [ ] repeating
+- [ ] redundant
+- [ ] related
+- [x] recurring
+
+#### 51. Which key, when held down, allows you to select multiple nonadjacent emails?
+
+- [ ] Alt (Windows) or Option (Mac)
+- [ ] Shift+Tab
+- [x] Ctrl (Windows) or Command (Mac)
+- [ ] Shift
+
+#### 52. You are inviting five members of your executive staff to an offsite retreat. You need to ensure that they do not share the invitation with others. What should you do before sending the email?
+
+- [ ] Include the text "No Forward" in the Bcc field.
+- [ ] Turn off the Allow Forwarding option.
+- [ ] Prefix the email subject with "FWD OFF".
+- [ ] Turn on the No Forwarding option.
+
+#### 53. When adding a calendar to view, which is not a valid option?
+
+- [ ] From Internet
+- [ ] From Contacts
+- [ ] From Address Book
+- [ ] From Room List
+
+#### 54. Which criteria can you select to filter email in the Focused folder?
+
+- [ ] unread status
+- [ ] importance
+- [ ] message size
+- [ ] date received
+
+#### 55. A meeting reminder showed up and you accidently closed it. What is the best way to bring back the reminder when in Calendar view?
+
+- [ ] Right-click the meeting in the Calendar and select Reminders Window.
+- [ ] Close and reopen Outlook
+- [ ] On Windows, on the Home tab, click Schedule View. On Mac, click View > Switch to Other.
+- [ ] On Windows, on the View tab, click Reminders Window. On Mac, click Windows > Reminders.
+
+#### 56. You received an email from someone and want to find other emails from this person. Witch method is not a way to see those emails across all folders?
+
+- [ ] Highlight the email in the viewing pane and sort by From,
+- [ ] Enter the person's email address into the search box.
+- [ ] On the Folder tab, click New Search Folder and select Mail from specific people.
+- [ ] Right-click the email and select Find Related > Messages from sender.
+
+#### 57. What does the ignore button allow you to do?
+
+- [ ] Flag yourself as unavailable to specific coworkers.
+- [ ] Route all future emails from a user directly to the Deleted Items folder.
+- [ ] Skip all misspellings of a specific word.
+- [ ] Turn off all reminders and notifications.
+
+#### 58. When you flag an email for follow-up, you are assigning the email a(n) \_\_\_ .
+
+- [ ] importance level
+- [ ] priority level
+- [ ] category
+- [ ] due date
+
+#### 59. What happens when you drag an email to the Calendar icon?
+
+- [ ] The Archive window opens.
+- [ ] Outlook schedule a reminder.
+- [ ] Outlook schedule a appointment.
+- [ ] The Work Week calendar view opens.
+
+#### 60. In this image, what do you use to move between Mail, Calendar, People and Tasks?
+
+- [ ] Quick Steps
+- [ ] Navigation Pane
+- [x] Navigation Bar
+- [ ] To-DO Bar
+
+#### 61. It is currently the week of April 23. You are viewing the week of May 21 in your Outlook calendar. You switch to email then back to the calendar. Which dates do the calendar display now?
+
+- [ ] the week of May 21
+- [ ] the month of April
+- [ ] the month of May
+- [ ] the week of April 23
+
+#### 62. Besides opening an email in a new window, where can you view all the content of a message?
+
+- [ ] in the sidebar
+- [ ] in the Information Viewer
+- [ ] in Message Preview
+- [x] in the Reading Pane
