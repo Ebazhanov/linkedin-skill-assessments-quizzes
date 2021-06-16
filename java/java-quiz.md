@@ -1254,3 +1254,17 @@ public class Jedi {
 - [ ] new Jedi(name, species, false)
 - [x] this(name, species, false)
 - [ ] super(name, species, false)
+
+#### Q91. Which is not a valid lambda expression?
+
+- [ ] `a -> false;`
+- [ ] `(a) -> false;`
+- [x] `String a -> false;`
+- [ ] `(String a) -> false;`
+
+#### Q92. By implementing encapsulation, you cannot directly access the class's ______ properties unless you are writing code inside the class itself.
+
+- [x] private
+- [ ] package-private (no explicit modifier)
+- [ ] public
+- [ ] protected
