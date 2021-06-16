@@ -448,3 +448,10 @@ model=Planet
 - [ ] controllers
 - [ ] programmers
 - [ ] clients
+  
+#### Q49. Which is not the part of Django Design Philosophies?
+
+- [ ] Loose Coupling
+- [ ] Less Code
+- [ ] Fast Development
+- [x] Repeat Yourself
