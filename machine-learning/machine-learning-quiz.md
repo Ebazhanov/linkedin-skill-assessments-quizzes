@@ -620,3 +620,10 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] a type of unsupervised learning that relies heavily on a well-established model
 - [ ] a type of reinforcement learning where accuracy degrades over time
 - [x] a type of reinforcement learning that focuses on rewards
+
+#### Q82. Data in your model has low bias and low variance. How would you expect the data points to be grouped together on the diagram?
+
+- [ ] They would be grouped tightly together in the predicted outcome.
+- [ ] They would be grouped tightly together but far from the predicted.
+- [ ] They would be scattered around the predict outcome.
+- [ ] They would be scattered far away from the predeicted outcome.
