@@ -646,3 +646,28 @@ Then
 
 - [ ] C ...One more with POST
 - [x] D ...Only one with Get
+
+#### Q71 Which AWS service can host the web application server for a WordPress site?
+
+- [ ] S3
+- [x] Elastic BeanStalk
+- [ ] ElasticCache
+- [ ] CloudFront
+
+#### Q72 What does the following AWS CLI `create-service` command for ECS do?
+
+```
+aws ecs create-service \
+ --cluster production \
+ --service-name rest-api \
+ --task-definition rest-api:1 \
+ --desired-count 2 \
+ --launch-type "FARGET" \
+ --network-configuration \
+ "awsvpcConfiguration={subnets=[subnet-0b29129ab],securityGroups=[sg-0b29129ab]}"
+```
+
+- [ ] changes the security groups of the running **rest-api** task
+- [ ] creates a cluster called **production** and launches two containers into Farget with the **rest-api** task definition
+- [ ] launches two containers onto Farget into the existing **production** cluster using the **rest-api** task definition
+- [ ] creates a service definition for the **rest-api** task; put two containers on the production cluster when launched **ecs-cli** up command
