@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-407-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-408-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -628,6 +628,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/djungbluth"><img src="https://avatars.githubusercontent.com/u/651505?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daniel Jungbluth</b></sub></a><br /><a href="#design-djungbluth" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=djungbluth" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Rajdeep-Borana"><img src="https://avatars.githubusercontent.com/u/84788418?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rajdeep Singh Borana</b></sub></a><br /><a href="#design-Rajdeep-Borana" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Rajdeep-Borana" title="Code">💻</a></td>
   </tr>
 </table>
 
