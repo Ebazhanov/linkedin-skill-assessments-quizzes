@@ -286,8 +286,6 @@ for (var i = 0; i < 5; i++) {
 - [ ] Object.each()
 - [x] Object.keys()
 
-#### Q22. After the following code, what is the value of a.length?
-
 #### Q22. What will be logged to the console?
 
 ```js
@@ -308,7 +306,7 @@ console.log(a.length);
 - [ ] Keys in Maps can be strings.
 - [ ] You can access values in a Map without iterating over the whole collection.
 
-`Map.prototype.size` returns the number of elements in a Map, whereas Object does not have a built-in method to return its size.
+**Explanation:** `Map.prototype.size returns the number of elements in a Map, whereas Object does not have a built-in method to return its size.`
 
 #### Q24. What is the value of dessert.type after executing this code?
 
