@@ -739,7 +739,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 8 );
 ```
 
-- [ ]
+- [x]
 
 ```sql
 1 CREATE TABLE employee (
