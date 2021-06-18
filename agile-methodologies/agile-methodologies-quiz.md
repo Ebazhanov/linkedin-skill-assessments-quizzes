@@ -217,6 +217,8 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [x] Maximize outcome while minimizing output.
 - [ ] Optimize for resource utilization.
 
+`“…your job is to minimize output, and maximize outcome and impact.” - Jeff Patton`
+
 #### Q31. Which statement is true about the actor in a user story?
 
 - [ ] The actor does not have to be a specified role in the solution.
