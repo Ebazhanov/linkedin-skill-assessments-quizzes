@@ -3946,6 +3946,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "djungbluth",
+      "name": "Daniel Jungbluth",
+      "avatar_url": "https://avatars.githubusercontent.com/u/651505?v=4",
+      "profile": "https://github.com/djungbluth",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
