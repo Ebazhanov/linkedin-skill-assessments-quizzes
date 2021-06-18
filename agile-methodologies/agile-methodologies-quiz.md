@@ -213,8 +213,8 @@ It is suggested that high business value, high-risk items are worked on first. W
 #### Q30. Which strategy is preferred for development teams?
 
 - [ ] Optimize for most work done.
-- [x] Maximize output and maximize outcome.
-- [ ] Maximize outcome while minimizing output.
+- [ ] Maximize output and maximize outcome.
+- [x] Maximize outcome while minimizing output.
 - [ ] Optimize for resource utilization.
 
 #### Q31. Which statement is true about the actor in a user story?
