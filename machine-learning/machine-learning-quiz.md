@@ -3,9 +3,9 @@
 #### Q1. You are part of data science team that is working for a national fast-food chain. You create a simple report that shows trend: Customers who visit the store more often and buy smaller meals spend more than customers who visit less frequently and buy larger meals. What is the most likely diagram that your team created?
 
 - [ ] multiclass classification diagram
-- [ ] linear regression and scatter plots
+- [x] linear regression and scatter plots
 - [ ] pivot table
-- [x] K-means cluster diagram
+- [ ] K-means cluster diagram
 
 #### Q2. You work for an organization that sells a spam filtering service to large companies. Your organization wants to transition its product to use machine learning. It currently a list Of 250,00 keywords. If a message contains more than few of these keywords, then it is identified as spam. What would be one advantage of transitioning to machine learning?
 
@@ -574,8 +574,8 @@ Note: there are centres of clusters (C0, C1, C2).
 
 #### Q75. Many of the advances in machine learning have come from improved?
 
-- [x] structured data
-- [ ] algorithms
+- [ ] structured data
+- [x] algorithms
 - [ ] time
 - [ ] computer scientists
 
@@ -588,9 +588,9 @@ Note: there are centres of clusters (C0, C1, C2).
 
 #### Q77. Which choice is the best example of labeled data?
 
-- [ ] a spreadsheet
+- [x] a spreadsheet
 - [ ] 20,000 recorded voicemail messages
-- [x] 100,000 images of automobiles
+- [ ] 100,000 images of automobiles
 - [ ] hundreds of gigabytes of audio files
 
 #### Q78. In statistics, what is defined as the probability of a hypothesis test of finding an effect - if there is an effect to be found?
@@ -602,10 +602,10 @@ Note: there are centres of clusters (C0, C1, C2).
 
 #### Q79. You want to create a machine learning algorithm to identify food recipes on the web. To do this, you create an algorithm that looks at different conditional probabilities. So if the post includes the word _flour_, it has a slightly stronger probability of being a recipe. If it contains both _flour_ and _sugar_, it even more likely a recipe. What type of algorithm are you using?
 
-- [ ] naive Bayes classifier
+- [x] naive Bayes classifier
 - [ ] K-nearest neighbor
 - [ ] multiclass classification
-- [x] decision tree
+- [ ] decision tree
 
 #### Q80. What is lazy learning?
 
@@ -626,4 +626,4 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] They would be grouped tightly together in the predicted outcome.
 - [ ] They would be grouped tightly together but far from the predicted.
 - [ ] They would be scattered around the predict outcome.
-- [ ] They would be scattered far away from the predeicted outcome.
+- [x] They would be scattered far away from the predeicted outcome.
