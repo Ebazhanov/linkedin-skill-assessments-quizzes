@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-411-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-412-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -632,6 +632,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/moonface19"><img src="https://avatars.githubusercontent.com/u/31180335?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ankitha19</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=moonface19" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/linh-tran-16b4b11ab/"><img src="https://avatars.githubusercontent.com/u/73977514?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Linh Tran</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=linhtran2407" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/islamarr"><img src="https://avatars.githubusercontent.com/u/38818550?v=4?s=100" width="100px;" alt=""/><br /><sub><b>islamarr</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=islamarr" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/sabith-nadakkavil"><img src="https://avatars.githubusercontent.com/u/47350620?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mohamed Sabith</b></sub></a><br /><a href="#design-sabith-nadakkavil" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sabith-nadakkavil" title="Code">💻</a></td>
   </tr>
 </table>
 
