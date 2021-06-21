@@ -487,8 +487,8 @@ fun main(){
 
 - [ ] The extension function should be marked public
 - [ ] Add the prefix operator to the shouldMatch extension function
-- [x] The code is not legal in Kotlin (should be `println(msg.shouldEqual("test message"))`)
-- [ ] Add the prefix infix to the shouldMatch extension function
+- [ ] The code is not legal in Kotlin (should be `println(msg.shouldEqual("test message"))`)
+- [x] Add the prefix infix to the shouldMatch extension function
 
 #### Q44. What is the difference between the declarations of COLOR and SIZE?
 
