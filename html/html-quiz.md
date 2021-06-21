@@ -999,21 +999,15 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] `<blockquote>`
 - [ ] `<notation>`
 
-#### Q63. What is the root element of an HTML document?
 
-- [ ] `<!DOCTYPE html>`
-- [x] `<html>`
-- [ ] `<root>`
-- [ ] `<body>`
-
-#### Q64. What is the semantic meaning of the `<hr>` tag?
+#### Q63. What is the semantic meaning of the `<hr>` tag?
 
 - [ ] It draws a horizontal line.
 - [ ] This tag is deprecated and should not be used.
 - [ ] It designates a separation of sections within an `<article>`.
 - [x] It designates a topic shift within a section at the paragraph level.
 
-#### Q65. How will a video look displayed on a fully loaded webpage if the `<video>` tag is used and the **autoplay** attribute is not set?
+#### Q64. How will a video look displayed on a fully loaded webpage if the `<video>` tag is used and the **autoplay** attribute is not set?
 
 - [ ] It will display a random frame from a video, unless the **poster** attribute is set.
 - [x] It will display the first frame of the video, unless the **poster** attribute is set.
@@ -1022,7 +1016,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 [Reference (w3schools)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_video)
 
-#### Q66. What is the correct way to describe an empty element?
+#### Q65. What is the correct way to describe an empty element?
 
 - [ ] It has opening and closing tags but no child content.
 - [ ] It display nothing on a website.
@@ -1031,7 +1025,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 [Reference (MDN Web Docs)](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element)
 
-#### Q67. What is the purpose of async in this code?
+#### Q66. What is the purpose of async in this code?
 
 `<script async src="myscript.js"></script>`
 
@@ -1040,7 +1034,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [x] It runs the script when the script is ready.
 - [ ] It pauses the parsing of HTML code while the script runs.
 
-#### Q68. What does this code?
+#### Q67. What does this code?
 
 `<audio autoplay loop src="sound.mp3" type="audio/mpeg"></audio>`
 
@@ -1051,14 +1045,14 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 [Reference(MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
 
-#### Q69. What is the difference between the `<head>` and `<header>` tags?
+#### Q68. What is the difference between the `<head>` and `<header>` tags?
 
 - [ ] There is only one `<head>` tag per page, while there may be many `<header>` tags.
 - [ ] The `<head>` tag may contain CSS and Javascript links, while the `<header>` tag may contain headings and navigational links.
 - [x] all of these answers
 - [ ] The `<head>` tag contains meta information, while the `<header>` tag contains navigation, logos, and other page identifying content.
 
-#### Q70. In this code, what is the purpose of defer?
+#### Q69. In this code, what is the purpose of defer?
 
 `<script defer src="myscript.js"></script>`
 
@@ -1067,7 +1061,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] It runs the script when the script is ready.
 - [ ] It pauses the parsing of HTML code while the script runs.
 
-#### Q71. The code below contains some errors. Which choice corrects all of the errors?
+#### Q70. The code below contains some errors. Which choice corrects all of the errors?
 
 ```html
 <table>
@@ -1129,7 +1123,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 </table>
 ```
 
-#### Q72. Given the file and directory structure shown here, what is the correct element to place in file profit.html to link to info.html?
+#### Q71. Given the file and directory structure shown here, what is the correct element to place in file profit.html to link to info.html?
 
 ![Image of footer](images/ss-7.png?raw=true)
 
@@ -1138,7 +1132,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] `<a href="../../info.html">See Information </a>`
 - [ ] `<a href="info.html">See Information </a>`
 
-#### Q73. When should you use the `<article>` element?
+#### Q72. When should you use the `<article>` element?
 
 - [ ] For blog posts and other social media items
 - [ ] For the main content area of your website
@@ -1147,7 +1141,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 [Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
 
-#### Q74. Which list comprises three empty elements?
+#### Q73. Which list comprises three empty elements?
 
 - [ ]
 
@@ -1181,14 +1175,14 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 <source>
 ```
 
-#### Q75. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
+#### Q74. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
 
 - [x] `<a href="tel: 802-555-1212">Call me</a>`
 - [ ] `<a href="phone">802-555-1212</a>`
 - [ ] `<a href="tel">802-555-1212</a>`
 - [ ] `<a href="phone: 802-555-1212">Call me</a>`
 
-#### Q76. What is the purpose of the `class` attribute?
+#### Q75. What is the purpose of the `class` attribute?
 
 - [ ] Classes allow CSS to select specific elements on the page. You may list as many class names within the class attribute as you wish,
       separated by spaces.
@@ -1199,7 +1193,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 [Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class)
 
-#### Q77. Which choice is not a legal type attribute for the `<input>` tag?
+#### Q76. Which choice is not a legal type attribute for the `<input>` tag?
 
 - [ ] `<input type="color">`
 - [ ] `<input type="tel">`
@@ -1208,7 +1202,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 [Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)
 
-#### Q78. What is the most semantic way to mark up this sentence so that "happy talk must die" is rendered as an inline quote?
+#### Q77. What is the most semantic way to mark up this sentence so that "happy talk must die" is rendered as an inline quote?
 
 As Steve Krug once said, happy talk must die.
 
