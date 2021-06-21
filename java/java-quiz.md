@@ -1233,7 +1233,7 @@ class Main {
 }
 ```
 
-- [ ] A runtime exception is thrown.
+- [x] A runtime exception is thrown.
 - [ ] "HelloWorld!"
 - [ ] "hello"
 - [ ] ????
