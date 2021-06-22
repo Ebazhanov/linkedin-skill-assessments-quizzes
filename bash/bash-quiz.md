@@ -661,3 +661,26 @@ echo "\${VAR//man/rolling}"
 - [x] $PATH
 - [ ] $PROGRAM
 - [ ] $PATHS
+
+#### Q55. What does this command sequence do?
+
+```bash
+cat >notes -
+```
+
+- [ ] It creates an empty file called "notes" and then exits.
+- [x] It accepts text from the standard input and places it in the "notes" file.
+- [ ] It appends text to an existing file called "notes."
+- [ ] It outputs the contents of the "notes" file to the screen, and then deletes it.
+
+#### Q56. What is the output of this code?
+
+```bash
+VAR="This old man came rolling"
+echo "${VAR//man/rolling}"
+```
+
+- [ ] This old man came man
+- [ ] This old man came rolling
+- [x] This old rolling came rolling
+- [ ] This old came
