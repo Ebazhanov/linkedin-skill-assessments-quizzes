@@ -766,35 +766,23 @@ xml
 - [ ] stagingDebug.
 - [ ] stagingRelease.
 
-#### Q49. What is not good way to reuse Android code?
-
-- [ ] Break down UI layouts into common elements and use <include/> to include them in other layout XML files.
-- [ ] Prefer to build custom views or fragments over activities.
-- [ ] Use a common Gradle module shared by different Android projects.
-- [ ] Prefer to build activities instead of fragments.
-
-#### Q50. When should you use the androidTest directory to store your test classes?
+#### Q49. When should you use the androidTest directory to store your test classes?
 
 - [ ] when the tests consist only of unit tests.
 - [ ] when the number of tests to run is large(500+).
 - [ ] when the tests need to run on your local machine.
-- [ ] when the tests need to run on real or virtual devices.
+- [x] when the tests need to run on real or virtual devices.
+	
+[reference](https://developer.android.com/studio/test#test_types_and_location)
 
-#### Q51. What is the benifit of using the @VisibleForTesting annotation?
-
-- [ ] to denote that a class, method, or field is visible only in test code.
-- [ ] to denote that a class, method or field has it's visibility increased to make code less testable.
-- [x] to denote that a class, method, or field has it's visibility relaxed to make code testable.
-- [ ] to throw a run-time error if a class, method, or field which this annotation is accessed improperly.
-
-#### Q52. Given an APK named app-internal-debug.apk produced from the build process, which statement is likely to be true?
+#### Q50. Given an APK named app-internal-debug.apk produced from the build process, which statement is likely to be true?
 
 - [ ] This APK is created on a developer machine from the debug product flavor.
 - [ ] This APK is created from the internalDebug product flavor.
 - [ ] This APK created from the debug product flavor and internal build type.
 - [ ] This APK is created from the debug build type and internal product flavor.
 
-#### Q53. When attempting to build your project, what might the following error indicate?
+#### Q51. When attempting to build your project, what might the following error indicate?
 
 `Conversion to Dalvik format filed: Unable to execute dex: method ID not in [0, 0xffff]: 65536`
 
@@ -803,14 +791,14 @@ xml
 - [x] You have exceeded the total number of methods that can be referenced within a single DEX file.
 - [ ] You have a NullPointerException in your code.
 
-#### Q54. Which statement, in build.gradle file, correctly denotes that the corresponding module is an Android library module?
+#### Q52. Which statement, in build.gradle file, correctly denotes that the corresponding module is an Android library module?
 
 - [ ] apply plugin: 'com.module.library'
 - [x] apply plugin: 'com.android.library'
 - [ ] apply plugin: 'com.module.library'
 - [ ] include plugin: 'com.module.library'
 
-#### Q55. Given the following dimens.xml file, how would you define an ImageView with medium spacing at the bottom?
+#### Q53. Given the following dimens.xml file, how would you define an ImageView with medium spacing at the bottom?
 
 ```
 <?xml version=1.0 encoding="utf-8"?>
@@ -862,14 +850,14 @@ xml
    android:src=@drawable/map_pin />
 ```
 
-#### Q56. what is not a benefit of externalizing app resources such as image and string from a code?
+#### Q54. what is not a benefit of externalizing app resources such as image and string from a code?
 
 - [x] It allows Android to choose the appropriate resource based on the current configuration during runtime.
 - [ ] It allows you to have more performant applications because the code and resources are separated.
 - [ ] It allows you to provide a different Ul experience based on the user's language settings.
 - [ ] It allows you to provide a different Ul experience based on the user's device size.
 
-#### Q57. What is the chief purpose of line five in this code snippet?
+#### Q55. What is the chief purpose of line five in this code snippet?
 
 ```
 override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_post_create)
