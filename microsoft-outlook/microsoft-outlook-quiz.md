@@ -9,7 +9,7 @@
 
 #### 2. What is the default permission that other people in your organization have to your calendar?
 
-- [x] none of these answers
+- [x] They can view free/busy details only.
 - [ ] They can edit.
 - [ ] They can view all details.
 - [ ] They can view titles and locations.
