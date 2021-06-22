@@ -327,9 +327,9 @@ modified: beta-notes.js
 - [ ] Use git clear-all to clean up any hanging files.
 - [x] Run git rebase to move the current commit to its original location.
 
-#### Q34. You're in the middle of modifying a file when you're unexpectedly assigned an urgent bug fix on another branch. What would you do to temporarily save the work your doing locally without committing?
+#### Q34. While modifying a file, you're unexpectedly assigned an urgent bug fix on another branch. How can you temporarily save your local work without committing?
 
-- [ ] You cannot save locally without committing, so that is not possible.
+- [ ] This is not possible, as you cannot save locally without committing.
 - [ ] Run git hold to save a local copy of what you're doing to return to later.
 - [ ] Save your work with git local-cache.
 - [x] Use git stash to save your work and come back later and reapply the stashed commit.
@@ -747,3 +747,10 @@ Which of the following options is correct ?
 - [x] `git status`
 - [ ] `git local`
 - [ ] `git context`
+
+#### Q92. Your current repository has three branches: master, beta, and push-notifications. You have just finished the notification feature and commit the changes to the push-notification branch, and you want to include them in the beta branch. How can you accomplish this?
+
+- [x] Check out the beta branch and run git merge push-notifications.
+- [ ] Check out the push-notifications branch and run git merge beta.
+- [ ] Check out the master branch and run git merge beta -> push-notifications.
+- [ ] Delete the push-notifications branch; it will be committed to the master branch automatically.
