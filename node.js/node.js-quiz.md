@@ -361,3 +361,17 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] jest
 - [x] assert
 - [ ] mocha
+
+### Q48. Which core module in Node provides an API to register callbacks to track asynchronous resources created inside a Node.js application?
+
+- [ ] cluster
+- [x] async_hooks
+- [ ] dgram
+- [ ] inspector
+
+### Q49. Which Node.js module should you use when you need to decode raw data into strings?
+
+- [ ] buffer
+- [ ] util
+- [x] string_decoder
+- [ ] string_buffer
