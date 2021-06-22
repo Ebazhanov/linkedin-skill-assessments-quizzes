@@ -3991,7 +3991,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/38818550?v=4",
       "profile": "https://github.com/islamarr",
       "contributions": [
-        "code"
+        "code",
+        "design"
       ]
     },
     {
@@ -3999,6 +4000,16 @@
       "name": "Mohamed Sabith",
       "avatar_url": "https://avatars.githubusercontent.com/u/47350620?v=4",
       "profile": "https://github.com/sabith-nadakkavil",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "miguelangelcruzA",
+      "name": "Miguel Angel Cruz Acosta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21376895?v=4",
+      "profile": "https://github.com/miguelangelcruzA",
       "contributions": [
         "design",
         "code"
