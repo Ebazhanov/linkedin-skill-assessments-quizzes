@@ -333,14 +333,14 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] It would substantially shorten your development time.
 - [ ] It would increase the speed of the appliance.
 
-#### Q45. You work for a hospital that is tracking the community spread of a virus. The hospital created a smartwatch app that uploads body temperature data from hundreds of thousands of participants. What is best technique to analyze the data?
+#### Q45. You work for a hospital that is tracking the community spread of a virus. The hospital created a smartwatch application that uploads body temperature data from hundreds of thousands of participants. What is the best technique to analyze the data?
 
-- [ ] Use reinforcement learning to reward the system when a new person participates
-- [ ] Unsupervised machine learning to cluster together people based on patterns the machine discovers
-- [ ] Supervised machine learning to sort people by demographic data
-- [x] supervised ml to classify people by body temperature
+- [ ] Use reinforcement learning to reward the system when a new person participates.
+- [ ] Use unsupervised machine learning to cluster together people based on patterns the machine discovers.
+- [ ] Use Supervised machine learning to sort people by demographic data.
+- [x] Use Supervised machine learning to classify people by body temperature.
 
-#### Q46. Man of the advances in ml have come from improved
+#### Q46. Many of the advances in machine learning have come from improved `___`.
 
 - [ ] statistics
 - [ ] structured data
@@ -356,12 +356,12 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] multiclass classification
 - [x] k-nearest neighbour
 
-#### Q48. The supervisor asks to create a ml system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?
+#### Q48. The supervisor asks to create a machine learning system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?
 
 - [ ] deep learning artificial neural network that relies on petabytes of data
-- [ ] unsupervised ml system that clusters together the best candidates
-- [ ] Not recommend ml for this project
-- [x] supervised ml system that classifies applicants into existing groups // we do not need to classify best candidates we just need to classify job applicants in to existing categories
+- [ ] unsupervised machine learning system that clusters together the best candidates
+- [ ] Not recommend machine learning for this project
+- [x] supervised machine learning system that classifies applicants into existing groups // we do not need to classify best candidates we just need to classify job applicants in to existing categories
 
 #### Q49. Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?
 
@@ -370,9 +370,9 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] high -variance modeling
 - [x] ensemble modeling
 
-#### Q50. Your data science team wants to use ml to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised ml, what would you call this data set?
+#### Q50. Your data science team wants to use machine learning to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised machine learning, what would you call this data set?
 
-- [ ] ml algorithm
+- [ ] machine learning algorithm
 - [x] training set
 - [ ] big data test set
 - [ ] data cluster
