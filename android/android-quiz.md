@@ -663,7 +663,7 @@ xml
 
 #### Q44. Why do developers often put app initialization code in the Application class?
 
-- [ ] The Application class is instantiated before any other class when the process for the application is created.
+- [x] The Application class is instantiated before any other class when the process for the application is created. [reference](https://developer.android.com/reference/android/app/Application)
 - [ ] The Application class is instantiated after any permissions requests when the process for the application is created.
 - [ ] The Application class is created each time a new Activity is launched, making it ideal for initialization code.
 - [ ] The Application class is created each time a background service is called, making it ideal for initialization code.
