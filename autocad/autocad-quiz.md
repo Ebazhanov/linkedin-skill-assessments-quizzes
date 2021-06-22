@@ -382,10 +382,10 @@
 
 #### Q51. When using the OFFSET command, you specify an offset distance and then select the object you want to offset. How do you then specify which side of the original object to offset?
 
-- [x] Use the Tab key to alternate which side you want to offset to.
-- [ ] Then press Enter (Windows) or Return (Mac) to confirm.
+- [ ] Use the Tab key to alternate which side you want to offset to. Then press Enter (Windows) or Return (Mac) to confirm.
+- [ ] Move the cursor to the appropriate side of the original object and the OFFSET command automatically offsets that side.
 - [ ] Right-click and use options on the shortcut menu.
-- [ ] Click to the side of the original object where you want the offset object to appear.
+- [x] Click to the side of the original object where you want the offset object to appear.
 
 #### Q52. When using the ELLIPSE command with the Axis, End, and Center methods, how many axes are needed to form an ellipse?
 
@@ -533,3 +533,10 @@
 - [ ] the Plot dialog boxt
 - [ ] batch plotting
 - [x] Page Setup Manager (Windows) or Page Setup (Mac)
+
+#### Q73. Using the Array command, you have the option to create an associative array. What does this mean?
+
+- [ ] When dimensioning an array, the dimensions displayed are associative.
+- [x] The arrayed objects becomes a single entity and, when selected, display as a single entity.
+- [ ] The arrayed objects become associated to the X and Y coordinates used for the array.
+- [ ] The array is associated to the linetype scale.
