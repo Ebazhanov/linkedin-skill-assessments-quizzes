@@ -49,13 +49,13 @@
 
 - [ ] The order is not important.
 - [ ]       1. Modem
-            2. Gateway
-            3. Switch
+                2. Gateway
+                3. Switch
 - [x]       1. Modem
-            2. Switch
-            3. Gateway
+                2. Switch
+                3. Gateway
 - [ ]       1. Gateway
-            2. Switch
+                2. Switch
 
 #### Q7. A client needs to secure their cafe's wireless network, which is used only by employees. What is the best approach for a finite list of devices?
 
@@ -81,25 +81,25 @@
 #### Q10. Which components are typically found on the motherboard?
 
 - [ ]       basic I/O
-            graphics
-            NIC
-            battery
-            expansion slots
+                graphics
+                NIC
+                battery
+                expansion slots
 - [ ]       basic I/O
-            cooling
-            NIC
-            graphics
-            expansion slots
+                cooling
+                NIC
+                graphics
+                expansion slots
 - [x]       basic I/O
-            graphics
-            NIC
-            mass storage
-            expansion slots
+                graphics
+                NIC
+                mass storage
+                expansion slots
 - [ ]       basic I/O
-            graphics
-            NIC
-            power supply
-            expansion slots
+                graphics
+                NIC
+                power supply
+                expansion slots
 
 #### Q11. What does the acronym RAID refer to?
 
@@ -137,3 +137,17 @@
 - [ ] Yes. Incognito mode encrypts data packets, making it difficult for websites to track your activity.
 - [x] No. Some websites track by ID, and if you sign into a site even in incognito, your activity is known.
 - [ ] Yes. Incognito mode blocks all cookies and tracking IDs and suppresses browser history.
+
+#### Q16. What must you confirm before performing a processor upgrade?
+
+- [x] The new processor is compatible with the current motherboard.
+- [ ] The new processor is the same type as the old.
+- [ ] The new processor is compatible with the operating system.
+- [ ] The new processor fits into the old processor's slot.
+
+#### Q17. Which type of storage has the fastest data access speeds?
+
+- [ ] Secure Sockets Layer drive
+- [x] solid-state drive
+- [ ] serial attached storage device
+- [ ] SCSI drive
