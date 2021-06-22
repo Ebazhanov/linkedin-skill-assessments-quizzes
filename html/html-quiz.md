@@ -38,8 +38,8 @@
 #### Q6. When is the `<link>` tag used?
 
 - [ ] when linking style sheets, JavaScript, and icons for mobile apps
-- [ ] when linking style sheets, favicons, and preloading assets
-- [x] when linking style sheets and favicons
+- [x] when linking style sheets, favicons, and preloading assets
+- [ ] when linking one webpage to another
 - [ ] when linking style sheets, external URLs, and favicons
 
 #### Q7. The "value" attribute is associated with which set of tags?
@@ -999,7 +999,6 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] `<blockquote>`
 - [ ] `<notation>`
 
-
 #### Q63. What is the semantic meaning of the `<hr>` tag?
 
 - [ ] It draws a horizontal line.
@@ -1210,3 +1209,10 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<p>`As Steve Krug once said, `<i>`happy talk must die.`</i>` `</p>`
 - [ ] `<p>`As Steve Krug once said, `<blockquote>`happy talk must die.`</blockquote>` `</p>`
 - [ ] `<p>`As Steve Krug once said, `<q>`happy talk must die.`</q>` `</p>`
+
+#### Q78. What is the primary purpose of HTML?
+
+- [x] HTML structures the webpage, identifying its elements such as paragraphs, headings, and lists.
+- [ ] HTML structures and provides a rudimentary look to webpages.
+- [ ] HTML is responsible for the structure, styling, and interactivity of webpages.
+- [ ] HTML is responsible for the structure and styling of webpages.
