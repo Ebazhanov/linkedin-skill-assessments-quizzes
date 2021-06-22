@@ -656,9 +656,9 @@ xml
 
 #### Q43. You need to upgrade to the latest version of the Android Gradle plugin. Which file should you modify?
 
-- [x] root_project_dir/app/build.gradle.
+- [ ] root_project_dir/app/build.gradle.
 - [ ] root_project_dir/settings.gradle.
-- [ ] root_project_dir/build.gradle.
+- [x] root_project_dir/build.gradle. [reference](https://developer.android.com/studio/releases/gradle-plugin#updating-plugin)
 - [ ] root_project_dir/app/gradle.properties.
 
 #### Q44. Why do developers often put app initialization code in the Application class?
