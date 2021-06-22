@@ -1210,3 +1210,95 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<p>`As Steve Krug once said, `<i>`happy talk must die.`</i>` `</p>`
 - [ ] `<p>`As Steve Krug once said, `<blockquote>`happy talk must die.`</blockquote>` `</p>`
 - [ ] `<p>`As Steve Krug once said, `<q>`happy talk must die.`</q>` `</p>`
+
+#### Q78. What is the most semantically accurate way to make up a main navigation bar, displayed in a horizontal direction?
+
+```markdown
+<p>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</p>
+```
+
+- [ ]
+
+```markdown
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+```
+
+- [ ]
+
+```markdown
+ <nav>
+    <ol>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+     </ol>
+  </nav>
+```
+
+- [x]
+
+```markdown
+ <nav>
+   <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="about.html">About</a></li>
+     <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+```
+
+
+#### Q79. Which choice is the best way to mark up this loyout?
+
+![Image of footer](images/ss-8.png?raw=true)
+
+```markdown
+<p><strong>Mailing Address</strong></p>
+  <p><em>
+    6640 via Real <br>
+    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+  </em></p>
+</p>
+```
+
+- [ ]
+
+```markdown
+<h4>Mailing Address</h4>
+  <address>
+    6640 via Real <br>
+    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+  </address>
+
+```
+- [ ]
+
+```markdown
+<h4><strong>Mailing Address</strongh></h4>
+  <address><em>
+    6640 via Real <br>
+    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+  </em></address>
+
+```
+
+- [ ]
+
+```markdown
+<h4>Mailing Address</h4>
+  <p><em>
+    6640 via Real <br>
+    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+  </em></p>
+</p>
+```
+- [ ]
+
