@@ -1050,28 +1050,68 @@ D. border-top-radius: 10px;
 
 - [ ]
 
-1. section \* {...}
-2. [class*="example"] {...}
-3. p.example {...}
-4. section p {...}
+```css
+1. section \* {
+  ...;
+}
+2. [class*='example'] {
+  ...;
+}
+3. p.example {
+  ...;
+}
+4. section p {
+  ...;
+}
+```
 
 - [ ]
 
-1. p {...}
-2. p.example {...}
-3. section p {...}
-4. [class*="example"] {...}
+```css
+1. p {
+  ...;
+}
+2. p.example {
+  ...;
+}
+3. section p {
+  ...;
+}
+4. [class*='example'] {
+  ...;
+}
+```
 
 - [ ]
 
-1. p.example {...}
-2. section p {...}
-3. [class*="example"] {...}
-4. section \* {...}
+```css
+1. p.example {
+  ...;
+}
+2. section p {
+  ...;
+}
+3. [class*='example'] {
+  ...;
+}
+4. section \* {
+  ...;
+}
+```
 
 - [x]
 
-1. p {...}
-2. section p {...}
-3. [class*="example"] {...}
-4. p.example {...}
+```css
+1. p {
+  ...;
+}
+2. section p {
+  ...;
+}
+3. [class*='example'] {
+  ...;
+}
+4. p.example {
+  ...;
+}
+```
