@@ -656,17 +656,21 @@ xml
 
 #### Q43. You need to upgrade to the latest version of the Android Gradle plugin. Which file should you modify?
 
-- [x] root_project_dir/app/build.gradle.
+- [ ] root_project_dir/app/build.gradle.
 - [ ] root_project_dir/settings.gradle.
-- [ ] root_project_dir/build.gradle.
+- [x] root_project_dir/build.gradle. 
 - [ ] root_project_dir/app/gradle.properties.
+	
+[reference](https://developer.android.com/studio/releases/gradle-plugin#updating-plugin)
 
 #### Q44. Why do developers often put app initialization code in the Application class?
 
-- [ ] The Application class is instantiated before any other class when the process for the application is created.
+- [x] The Application class is instantiated before any other class when the process for the application is created.
 - [ ] The Application class is instantiated after any permissions requests when the process for the application is created.
 - [ ] The Application class is created each time a new Activity is launched, making it ideal for initialization code.
 - [ ] The Application class is created each time a background service is called, making it ideal for initialization code.
+	
+[reference](https://developer.android.com/reference/android/app/Application)
 
 #### Q45. What folder should you use for your app's launcher icons?
 
