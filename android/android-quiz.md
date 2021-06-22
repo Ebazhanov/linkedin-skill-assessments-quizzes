@@ -28,7 +28,16 @@
 - [ ] Google Play Services is not installed on the deivce/emulator.
 - [ ] Battery optimization is turned on on the device.
 
-#### Q5. What is correct set of classes needed to implement a RecyclerView of items that displays a list of widgets vertically?
+#### Q5. What is the correct set of component classes needed to implement a RecyclerView of items that displays a list of widgets vertically?
+
+- [ ]
+
+```
+      RecycleView
+      RecyclerView.Adapter<T extends BaseAdapter>
+      RecyclerView.ViewHolder<T extends BaseViewHolder>
+      LinearLayoutManager
+```
 
 - [ ]
 
