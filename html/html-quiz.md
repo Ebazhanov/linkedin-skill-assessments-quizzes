@@ -1258,7 +1258,7 @@ As Steve Krug once said, happy talk must die.
 
 #### Q79. Which choice is the best way to mark up this loyout?
 
-![Image of footer](images/ss-7.png?raw=true)
+![Image of footer](images/ss-8.png?raw=true)
 
 ```markdown
 <p><strong>Mailing Address</strong></p>
