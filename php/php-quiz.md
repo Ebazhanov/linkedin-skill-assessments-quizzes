@@ -573,3 +573,40 @@ isset($_POST['submit'])
 - [ ] Getters and setters are utility functions within PHP that allow loading from, and saving to, a database
 - [ ] Getters and setters encapsulate the fields of a class by making them acccessible only through its private methods, and keep the values themselves public
 - [x] Getters and setters are methods used to declare or obtain the values of variables, usually private ones
+
+#### Q52. What are the recommended settings in the PHP configuration file, php.ini, for a testing environment?
+
+- [ ]
+
+```
+report_errors = E_ALL
+display_errors = On
+```
+
+- [x]
+
+```
+error_reporting = E_ALL
+display_errors = On
+```
+
+- [ ]
+
+```
+error_reporting = E_ALL & ~E_NOTICE
+display_errors = Off
+```
+
+- [ ]
+
+```
+error_reporting = E_ALL & ~E_NOTICE
+display_errors = On
+```
+
+#### Q53. Which PHP variable name is invalid?
+
+- [ ] $Double
+- [ ] $double
+- [ ] $\_2times
+- [x] $2times

@@ -246,6 +246,8 @@ else:
     print("There is no one in the pool.")
 ```
 
+Also see Question 85 for the same question with different answers.
+
 #### Q20. Which statement does NOT describe the object-oriented programming concept of encapsulation?
 
 - [ ] It protects the data from outside interference.
@@ -255,10 +257,10 @@ else:
 
 #### Q21. What is the purpose of an if/else statement?
 
-- [ ] An if/else statement tells the computer which chunk of code to run if the instructions you coded are incorrect
-- [ ] An if/else statement runs one chunk of code if all the imports were successful, and another chunk of code if the imports were not successful
-- [x] An if/else statement executes one chunk of code if a condition it true, but a different chunk of code if the condition is false
-- [ ] An if/else statement tells the computer which chunk of code to run if the is enough memory to handle it. and which chunk of code to run if there is not enough memory to handle it
+- [ ] It tells the computer which chunk of code to run if the instructions you coded are incorrect.
+- [ ] It runs one chunk of code if all the imports were successful, and another chunk of code if the imports were not successful.
+- [x] It executes one chunk of code if a condition is true, but a different chunk of code if the condition is false.
+- [ ] It tells the computer which chunk of code to run if the is enough memory to handle it, and which chunk of code to run if there is not enough memory to handle it.
 
 #### Q22. What built-in Python data type is commonly used to represent a queue?
 
@@ -990,3 +992,57 @@ def self.get_next_card(self):
 - [ ] A queue adds items to the top and removes items from the top.
 - [ ] A queue adds items to the top, and removes items from anywhere in, a list.
 - [ ] A queue adds items to the top and removes items from anywhere in the queue.
+
+#### Q85. Which choice is the most syntactically correct example of the conditional branching?
+
+- [x]
+
+```python
+num_people = 5
+
+if num_people > 10:
+    print("There is a lot of people in the pool.")
+elif num_people > 4:
+    print("There are some people in the pool.")
+else:
+    print("There is no one in the pool.")
+```
+
+- [ ]
+
+```python
+num_people = 5
+
+if num_people > 10:
+    print("There is a lot of people in the pool.")
+if num_people > 4:
+    print("There are some people in the pool.")
+else:
+    print("There is no one in the pool.")
+```
+
+- [ ]
+
+```python
+num_people = 5
+
+if num_people > 10;
+    print("There is a lot of people in the pool.")
+elif num_people > 4;
+    print("There are some people in the pool.")
+else;
+    print("There is no one in the pool.")
+```
+
+- [ ]
+
+```python
+if num_people > 10;
+    print("There is a lot of people in the pool.")
+if num_people > 4;
+    print("There are some people in the pool.")
+else;
+    print("There is no one in the pool.")
+```
+
+This question seems to be an updated version of Question 19.

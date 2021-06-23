@@ -482,3 +482,19 @@
 - [x] V
 - [ ] S
 - [ ] T
+
+#### Q66. Why does the top point of this star appear different from the other points?
+
+![yellow star](images/010.png?raw=true)
+
+- [ ] The stroke has been outlined.
+- [ ] The stroke has a corner type of Bevel Join.
+- [x] The star is an open path with two overlapping points at the top.
+- [ ] The Limit value in the Stroke panel is less than the stroke width.
+
+#### Q67. When creating a new color swatch, how can you ensure that the appearance of objects colored with that swatch will update if you edit the swatch at a later time?
+
+- [ ] Give the swatch a custom name.
+- [x] Click **Global** in the **Swatch Options** dialog box.
+- [ ] Place the swatch in a color group.
+- [ ] Add the swatch to a Creative Cloud library.

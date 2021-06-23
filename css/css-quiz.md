@@ -1025,3 +1025,93 @@ grid-template-columns: 2fr 1fr;
 - [ ] img#photo:hover {transform: scale(0.5);}
 - [ ] img#photo {hover-scale: 0.5;}
 - [ ] img#photo:hover {size: smaller;}
+
+#### Q86. Which CSS properties can you use to create a rounded corner on just the top-left and top-right corners of an element?
+
+```css
+A. border-radius: 10px 10px 0 0;
+B. border-top-left-radius: 10px; and border-top-right-radius: 10px;
+C. border-radius: 10px 0;
+D. border-top-radius: 10px;
+```
+
+- [ ] A and C
+- [ ] C and D
+- [ ] B and C
+- [x] A and B
+
+#### Q87. Review the HTML example below. Then choose the list of selectors that select the \<p>, from lowest to highest specificity.
+
+```html
+<section>
+  <p class="example">...</p>
+</section>
+```
+
+- [ ]
+
+```css
+1. section \* {
+  ...;
+}
+2. [class*='example'] {
+  ...;
+}
+3. p.example {
+  ...;
+}
+4. section p {
+  ...;
+}
+```
+
+- [ ]
+
+```css
+1. p {
+  ...;
+}
+2. p.example {
+  ...;
+}
+3. section p {
+  ...;
+}
+4. [class*='example'] {
+  ...;
+}
+```
+
+- [ ]
+
+```css
+1. p.example {
+  ...;
+}
+2. section p {
+  ...;
+}
+3. [class*='example'] {
+  ...;
+}
+4. section \* {
+  ...;
+}
+```
+
+- [x]
+
+```css
+1. p {
+  ...;
+}
+2. section p {
+  ...;
+}
+3. [class*='example'] {
+  ...;
+}
+4. p.example {
+  ...;
+}
+```

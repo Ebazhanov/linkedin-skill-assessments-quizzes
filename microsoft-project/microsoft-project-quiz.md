@@ -310,3 +310,17 @@
 - [ ] duration
 - [ ] work breakdown structure
 - [ ] task assignment
+
+#### Q42. A resource's hours have increased over the span of five days for a particular task. The duration has not changed, and the task is effort driven. What element can you add to the Task Usage view to see what has changed?
+
+- [ ] Add a column for the actual duration.
+- [ ] Add a column for the level assignments.
+- [x] Add a column for the Peak value.
+- [ ] Add a column for the assignment.
+
+#### Q43. You are modifying a project's work breakdown structure (WBS) code. What is the default length for any selected sequence type?
+
+- [x] any
+- [ ] 5
+- [ ] 3
+- [ ] 1

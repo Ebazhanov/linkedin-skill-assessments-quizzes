@@ -257,107 +257,121 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] undefined
 - [x] an object representing an array that has five elements
 
-### Q33. Which choice is not a valid method on event emitters?
+#### Q33. Which choice is not a valid method on event emitters?
 
 - [x] start
 - [ ] on
 - [ ] once
 - [ ] off
 
-### Q34. Which special object is an instance of EventEmitter?Which special object is an instance of null?
+#### Q34. Which special object is an instance of EventEmitter?Which special object is an instance of null?
 
 - [ ] process
 - [ ] Buffer
 - [ ] root
 - [x] require
 
-### Q35. What is the command to get a list of available commands for Node.js?What is the command to get a list of available commands for Node.js?
+#### Q35. What is the command to get a list of available commands for Node.js?What is the command to get a list of available commands for Node.js?
 
 - [ ] node index.js -x
 - [ ] node -v
 - [x] node -h
 - [ ] node index.js -h
 
-### Q36. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?
+#### Q36. When a request event is received in the HTTP module, what is the type of the first argument passed to that event, usually named req?
 
 - [x] http.IncomingMessage
 - [ ] http.ServerRequest
 - [ ] http.ClientRequest
 - [ ] http.ServerResponse
 
-### Q37. What are the arguments passed to the module wrapper function?
+#### Q37. What are the arguments passed to the module wrapper function?
 
 - [ ] exports, **filename, **dirname
 - [ ] exports, process, require, module, **filename, **dirname
 - [ ] exports, module, **filename, **dirname
 - [x] exports, require, module, **filename, **dirname
 
-### Q38. Which library provides Node.js with the event loop?
+#### Q38. Which library provides Node.js with the event loop?
 
 - [ ] V8
 - [ ] c-ares
 - [x] libuv
 - [ ] events
 
-### Q39. What does the .node file extension represent?
+#### Q39. What does the .node file extension represent?
 
 - [ ] a C++ file that can have a .node extension and that Node will be able to execute directly.
 - [x] a C++ Addon file that is built with node-gyp
 - [ ] a JSON file that can have a .node extension as well as the .json extension
 - [ ] a JavaScript file that can have a .node extension as well as the .js extension
 
-### Q40. What can you export with module.exports?
+#### Q40. What can you export with module.exports?
 
 - [ ] only objects.
 - [ ] only functions
 - [ ] only variables and arrays
 - [x] functions, objects, arrays, or anything you assign to the module
 
-### Q41. Which core module in Node can you use to take advantage of multicore systems?
+#### Q41. Which core module in Node can you use to take advantage of multicore systems?
 
 - [ ] os
 - [ ] util
 - [x] cluster
 - [ ] net
 
-### Q42. Which core Node module has wrappers for OpenSSL methods?
+#### Q42. Which core Node module has wrappers for OpenSSL methods?
 
 - [ ] SSL
 - [ ] hash
 - [x] crypto
 - [ ] TLS
 
-### Q43. Which line imports a promise-based version of the readFile method?
+#### Q43. Which line imports a promise-based version of the readFile method?
 
 - [x] const { readFile } = require(fs).promises
 - [ ] const { readFile } = require(fs)
 - [ ] const { readFilePromises: readFile } = require(fs)
 - [ ] const { readFile } = require(promises)
 
-### Q44. According to the rules of semantic versioning, what does a release incrementing the third number in an npm version string communicate to users about the release changes?
+#### Q44. According to the rules of semantic versioning, what does a release incrementing the third number in an npm version string communicate to users about the release changes?
 
 - [ ] Changes are not backwards compatible.
 - [ ] Changes might not be backward compatible and might break existing code.
 - [x] Changes are just bug fixes and no new features were added.
 - [ ] Changes will add new functionality but will not break any existing code.
 
-### Q45. What does REPL stand for?
+#### Q45. What does REPL stand for?
 
 - [ ] run, examine, put, loop
 - [x] read, eval, print, loop
 - [ ] run, edit, print, loop
 - [ ] read, extend, print, loop
 
-### Q46. Which file does node-gyp use to read the build configuration of module ?
+#### Q46. Which file does node-gyp use to read the build configuration of module ?
 
 - [ ] .gyprc
 - [x] binding.gyp
 - [ ] gyp.json
 - [ ] package.gyp
 
-### Q47. Which core module in Node can you use for testing?
+#### Q47. Which core module in Node can you use for testing?
 
 - [ ] chai
 - [ ] jest
 - [x] assert
 - [ ] mocha
+
+#### Q48. Which core module in Node provides an API to register callbacks to track asynchronous resources created inside a Node.js application?
+
+- [ ] cluster
+- [x] async_hooks
+- [ ] dgram
+- [ ] inspector
+
+#### Q49. Which Node.js module should you use when you need to decode raw data into strings?
+
+- [ ] buffer
+- [ ] util
+- [x] string_decoder
+- [ ] string_buffer

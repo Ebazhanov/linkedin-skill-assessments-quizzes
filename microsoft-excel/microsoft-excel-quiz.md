@@ -423,3 +423,10 @@
 - [ ] 43740.665218
 - [ ] 43740
 - [x] 665218
+
+#### Q57. Cell A2 contains the value 8 and cell B2 contains the value 9. What happens when cells A2 and B2 are merged and then unmerged?
+
+- [ ] Both values are lost.
+- [x] Cell A2 contains the value 8 and cell B2 is empty.
+- [ ] Cell A2 contains the value 8 and cell B2 contains the value 9.
+- [ ] Cell A2 contains the value 17 and cell B2 is empty.

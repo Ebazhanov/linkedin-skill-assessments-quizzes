@@ -349,3 +349,17 @@
 - [ ] BitLocker Drive Encryption Administration Utilities are not installed on the domain controller.
 - [ ] BitLocker Drive Encryption Tools are not installed on the domain controller.
 - [ ] BitLocker Drive Encryption Tools are not installed on the client computer.
+
+#### Q48. After running the PowerShell cmdlet Add-WindowsFeature Adcs-Cert-Authority -IncludeManagementTool on a Windows Server 2016 server, which command will make it a Root Certificate Authority (CA)?
+
+- [ ] Install-CertificationAuthority
+- [ ] Install-CertificationAuthority -CAType RootCA
+- [x] Install-AdcsCertificationAuthority -CAType EnterpriseRootCA
+- [ ] Install-AdcsCertificationAuthority -CAType RootCA
+
+#### Q49. A set of computer and user settings can be applied to multiple clients and servers in a domain through the use of `___`.
+
+- [x] Group Policy Objects
+- [ ] Microsoft Management Console
+- [ ] Users and Groups
+- [ ] Computer Objects

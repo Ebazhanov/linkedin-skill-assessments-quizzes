@@ -358,3 +358,27 @@ foo(5);
 - [ ] strong
 - [ ] weak
 - [x] atomic
+
+#### Q36. What is wrong with this line of code?
+
+```
+int temp = 1==1;
+```
+
+- [ ] `temp` is a keyword.
+- [ ] 1==1 is invalid.
+- [ ] 1==1 evaluates to a Boolean.
+- [x] Nothing is wrong with it.
+
+#### Q37. What is special about the code within this block?
+
+```
+dispatch_async(dispatch_get_main_queue(), ^{
+// code
+});
+```
+
+- [x] It executes on the main queue.
+- [ ] It is the last code to run before the app goes inactive.
+- [ ] It executes on a background thread.
+- [ ] It is queued to execute in the background.

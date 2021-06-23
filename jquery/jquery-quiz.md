@@ -179,7 +179,7 @@ $(this).animate({ top: '100', left: '100' }, 600, function () {
 - [x] `$('.feedback').addClass('success');`
 - [ ] `$('.feedback').css('.success');`
 
-#### Q8. Below is an example page snippet that includes a couple of messages in a list, and a code snippet that retrieves a few hundred messages from a API endpoints using AJAX. How might we add these items to the page snippet in a way that avoids performance problems with DOM insertions?
+#### Q8. The following page snippet includes a couple of messages in a list, and a code snippet that retrieves a few hundred messages from an API endpoint using AJAX. How can you add these new items to the .message-area--list element in the most performant way?
 
 ```html
 <div class="message-area">
@@ -188,19 +188,44 @@ $(this).animate({ top: '100', left: '100' }, 600, function () {
     <li>Existing message 2</li>
   </ul>
 </div>
+
+$.get('//example.com/api/v1/message').done(function (data) { var tonsOfItems = data.messages; // add
+all these messages to a large page });
 ```
 
+- [ ]
+
 ```js
-$.get('//example.com/api/v1/message').done(function (data) {
-  var tonsOfItems = data.messages;
-  // add all these messages to a large page
+tonsOfItems.map(function (item) {
+  $('.message-area--list').append('<li>' + item + '</li>');
 });
 ```
 
-- [x] `tonsOfItems.map(function(item) { $('.message-area--list').append('<li>'+item+'</li>'); });`
-- [ ] `var tonsOfListItems = tonsOfItems.map(function(item)) { return '<li>'+item+'</li>'; }); $('.message-area--list').append(tonsOfListItems.join(''));`
-- [ ] `Removing the event handlers with JavaScript will be slower than removing them $.each(tonsOfItems, function(idx, item) { $('<li>'+item+'</li>').appendTo($messageList); });`
-- [ ] `$.each(tonsOfItems, function(idx, item) { $('.message-area--list').append('<li>'+item+'</li>'); });`
+- [x]
+
+```js
+var tonsOfListItems = tonsOfItems.map(function (item) {
+  return '<li>' + item + '</li>';
+});
+$('.message-area--list').append(tonsOfListItems.join(''));
+```
+
+- [ ]
+
+```js
+CSS.$messageList = $('.message-area--list');
+$.each(tonsOfItems, function (idx, item) {
+  $('<li>' + item + '</li>').appendTo($messageList);
+});
+```
+
+- [ ]
+
+```js
+$.each(tonsOfItems, function (idx, item) {
+  $('.message-area--list').append('<li>' + item + '</li>');
+});
+```
 
 #### Q9. What is jQuery?
 
@@ -1134,3 +1159,10 @@ $('element-2').animate({ top: '+=100' }, {queue: 'custom'});
 $('element-3').animate({ top: '+=100' }, {queue: 'custom'});
 $('custom').dequeue();
 ```
+
+#### Q62. Given this checkbox, how can you determine whether a user has selected or cleared the checkbox? `<input type="checkbox" id="same-address" checked>`
+
+- [ ] by checking the value of $('#same-address').val()
+- [x] by checking the value of $('#same-address').prop('checked')
+- [ ] by checking the value of $('#same-address').attr('checked')
+- [ ] by checking the value of $('#same-address').checked

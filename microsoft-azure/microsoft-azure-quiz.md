@@ -359,3 +359,17 @@
 - [ ] REST API
 - [ ] Storage Explorer
 - [ ] NFS
+
+#### Q49. You have source code for a project in a repository on GitHub. You need to migrate source code to a repository in Azure Repos. The solution should minimize effort. Which solution should you recommend?
+
+- [ ] Download the GitHub repository to a Zip file, and then unzip the repository in Azure DevOps.
+- [x] From the **Import a Git repository** menu, select **Import**.
+- [ ] Create a service connection to the GitHub repository.
+- [ ] Create a webhook in GitHub and then trigger it from Azure DevOps.
+
+#### Q50. You need to facilitate user acceptance testing (UAT) on your web application hosted in App Service. Testers must approve changes before they are deployed to production. You should implement support for these requirements with a minimum of cost and complexity. What should you do?
+
+- [ ] Configure an additional App Service instance. In Azure DevOps, enable an approval gate for deployment.
+- [ ] Configure an Azure load balancer to redirect traffic to the approved App Service instance.
+- [x] Configure an additional deployment slot in the existing App Service instance.
+- [ ] Configure an App Service Environment (ASE).

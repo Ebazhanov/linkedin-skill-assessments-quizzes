@@ -587,3 +587,36 @@ for(y in 1..100) y+=2
 - [x] y is an implicitly immutable value
 - [ ] y can change only in a while loop
 - [ ] In order to change y, it must be declared outside of the loop
+
+#### Q51. You have created a data class, Point, that holds two properties, x and y, representing a point on a grid. You want to use the hash symbol for subtraction on the Point class, but the code as shown will not compile. How can you fix it?
+
+```kotlin
+data class Point(val x: Int, val y: Int)
+
+operator fun Point.plus(other: Point) = Point(x + other.x, y + other.y)
+operator fun Point.hash(other: Point) = Point(x - other.x, y - other.y)
+
+fun main() {
+    val point1 = Point(10, 20)
+    val point2 = Point(20, 30)
+    println(point1 + point2)
+    println(point1 # point2)
+}
+```
+
+- [x] You cannot; the hash symbol is not a valid operator.
+- [ ] You should replace the word hash with octothorpe, the actual name for the symbol.
+- [ ] You should use `minus` instead of hash, then type alias the minus symbol.
+- [ ] You need to replace operator with the word `infix`.
+
+#### Q52. This code snippet compiles without error, but never prints the results when executed. What could be wrong?
+
+```kotlin
+val result = generateSequence(1) { it + 1 }.toList()
+println(result)
+```
+
+- [ ] The sequence lacks a terminal operation.
+- [x] The sequence is infinite and lacks an intermediate operation to make it finite.
+- [ ] The expression should begin with generateSequence(0).
+- [ ] The it parameter should be replaced with this.

@@ -118,3 +118,19 @@ Note: I just use synchronization. After digging into settings I was able only to
 - [ ] You are editing a raw file.
 - [ ] You are using the Color Priority style.
 - [ ] You are using the Highlight Priority style.
+
+#### Q16. In the image shown, what is the icon circled in yellow?
+
+![Image with a yellow circle](images/Q16.png)
+
+- [ ] Virtual copy
+- [ ] Synced with Lightroom
+- [x] Metadata conflict warning
+- [ ] Missing photo
+
+#### Q17. Which criteria CANNOT be used with a smart collection?
+
+- [x] Export Date
+- [ ] Capture Date
+- [ ] Rating
+- [ ] Camera Serial Number

@@ -218,3 +218,17 @@
 - [ ] Skip bad records.
 - [ ] Break up Mappers that do more than one task into multiple Mappers.
 - [ ] Combine Mappers that do one task into large Mappers.
+
+#### Q32. When implemented on a public cloud, with what does Hadoop processing interact?
+
+- [x] files in object storage
+- [ ] graph data in graph databases
+- [ ] relational data in managed RDBMS systems
+- [ ] JSON data in NoSQL databases
+
+#### Q33. In the Hadoop system, what administrative mode is used for maintenance?
+
+- [ ] data mode
+- [x] safe mode
+- [ ] single-user mode
+- [ ] pseudo-distributed mode

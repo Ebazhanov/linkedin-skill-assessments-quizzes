@@ -367,3 +367,17 @@ private String val;
 @Value("${my.property}")
 private String val;
 ```
+
+#### Q42. What is a bean in the context of Spring?
+
+- [x] a managed dependency defined by configuration metadata that can be injected into downstream classes
+- [ ] a binary-encoded, agnostic, named entity that is translatable between different data formats
+- [ ] a payload that is transferable between different services in a Service-Oriented Architecture (SOA)
+- [ ] a discrete piece of data that is encoded in a binary format for persisting to a file system
+
+#### Q43. Which property is given precedence by Spring?
+
+- [ ] application properties located in an application.properties file outside the application.jar
+- [ ] @PropertySource annotations on configuration classes
+- [x] profile-specific application-{profile}.properties files
+- [ ] application properties located in an application.properties file inside the application.jar

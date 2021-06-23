@@ -241,19 +241,19 @@ name = models.CharField(max_length=100)
 - [x] import django django.get_version()
 - [ ] python -c django --version
 
-#### Q32. You should use the http method ** to read data and ** to update or create data
+#### Q32. You should use the http method `___` to read data and `___` to update or create data
 
-- [ ] read;write
-- [ ] get; post
-- [ ] post; get
-- [x] get; patch
+- [ ] READ; WRITE
+- [x] GET; POST
+- [ ] POST; GET
+- [ ] GET; PATCH
 
 #### Q33. When should you employ the POST method over GET for submitting data?
 
 - [ ] when efficiency is important
-- [ ] for caching data
-- [ ] help your browser with debugging
-- [x] data may be sensitive
+- [ ] when you want the data to be cached
+- [ ] when you want to use your browser to help with debugging
+- [x] when the data in the form may be sensitive
 
 #### Q34. When to use the Django sites framework?
 
@@ -448,7 +448,7 @@ model=Planet
 - [ ] controllers
 - [ ] programmers
 - [ ] clients
-  
+
 #### Q49. Which is not the part of Django Design Philosophies?
 
 - [ ] Loose Coupling

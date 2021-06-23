@@ -330,3 +330,17 @@ D. They must have no duplicate data rows.
 - [x] All of these tasks can be done with drag and drop.
 - [ ] Create a new visualization.
 - [ ] Rearrange and resize visualizations.
+
+#### Q43. In general, what is the best way to shape your data for Power BI?
+
+- [x] User a star schema.
+- [ ] Load all tables from the data source.
+- [ ] all of these answers
+- [ ] Include multiple objects in each data table.
+
+#### Q44. You can optionally include a filter in which DAX function?
+
+- [x] CALCULATE
+- [ ] SUM
+- [ ] PICARD
+- [ ] COMPARE
