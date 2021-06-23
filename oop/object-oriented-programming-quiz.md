@@ -292,10 +292,10 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 
 #### Q38. Which is false for a member function of a class?
 
-- [ ] they can be defined only inside or outside the class body
-- [ ] the can be made to be friends of another class
-- [x] they do not need to be declared inside the class definition
-- [ ] they need to be defined
+- [ ] Member functions can be defined only inside or outside the class body.
+- [ ] Member functions can be made to be friends of another class.
+- [x] Member functions do not need to be declared inside the class definition.
+- [ ] All member functions need to be defined.
 
 #### Q39. Why is inheritance used when creating a new class?
 
