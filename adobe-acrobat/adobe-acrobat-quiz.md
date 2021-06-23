@@ -104,3 +104,17 @@
 - [ ] Prepare Form > Document Actions
 - [ ] Prepare Form > Document JavaScripts
 - [ ] Prepare Form > More
+
+#### Q16. You turn around the files that you edit fairly quickly, and you edit many files. As a result, the long list of recent files in the Home view has become cumbersome. Where can you customize the number of recent files listed in the Home view?
+
+- [ ] Preferences > Page Display
+- [ ] Preferences > Reading
+- [ ] Preferences > General
+- [x] Preferences > Documents
+
+#### Q17. You are about to submit a client’s PDF to a commercial printer. However, at the last minute, you discover a blemish in one of the images in the PDF, which the client requested that you fix. With no access to the original file, how can you do this?
+
+- [x] Select **Tools** > **Edit PDF**, right-click the image, and select the **Edit Using** option.
+- [ ] Select **Tools** > **Enhance Scans** > **Enhance Camera Image**.
+- [ ] Select **Tools** > **Enhance Scans** > **Enhance Scanned Document**.
+- [ ] Right-click the image and select **Add Image**.

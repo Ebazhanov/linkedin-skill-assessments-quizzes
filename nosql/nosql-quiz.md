@@ -399,3 +399,17 @@ MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 - [ ] A graph database
 - [ ] A key-value database
 - [ ] A columnstore database
+
+#### Q54. You need to create a data store for the catalog for your new ecommerce application. Your company is a startup, so the catalog schema may evolve. Which do you choose?
+
+- [ ] Neo4j
+- [ ] Redis
+- [ ] MySQL
+- [x] MongoDB
+
+#### Q55. You need to select a NoSQL database for heavy aggregate query workloads. Which type do you choose?
+
+- [ ] graph
+- [ ] key-value
+- [ ] document
+- [x] columnstore

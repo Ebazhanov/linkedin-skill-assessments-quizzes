@@ -779,3 +779,17 @@ a = a^2;
 - [ ] MATLAB does not allow you to square all the elements in the matrix in a single operation.
 - [ ] You must use the \*\* operator instead of the ^ operator.
 - [ ] You cannot square matrices that have a 0 as the first element.
+
+#### Q49. Which command will create a 10-element vector v with values from 1 to 10?
+
+- [ ] v = {1:10}
+- [ ] v = [1-10]
+- [x] v = 1:10
+- [ ] v = (10)
+
+#### Q50. For a 5 x 5 array, the two subscript index (4,2) indexes the same location as linear index `___`.
+
+- [ ] 7
+- [ ] 8
+- [ ] 17
+- [x] 9

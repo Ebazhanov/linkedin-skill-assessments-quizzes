@@ -333,3 +333,10 @@ mvn install
 - [x] Shade
 - [ ] Dependency
 - [ ] Package
+
+#### Q45. What is the default scope for Maven dependencies?
+
+- [ ] Test
+- [x] Compile
+- [ ] Runtime
+- [ ] Build

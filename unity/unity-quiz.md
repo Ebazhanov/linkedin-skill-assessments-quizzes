@@ -176,7 +176,7 @@
 #### Q25. Every time you double-click a C# script file from the Project window, Unity prints the message below (or something very similar) to the console. What is a reasonable step in trying to solve this? Cannot start process because a file name has not been provided
 
 - [ ] Search the Project windows for all script files and then rename all of them
-- [ ] Set Visual Studio as the code default editor via the External Tools tab of the Preferences menu
+- [x] Set Visual Studio as the code default editor via the External Tools tab of the Preferences menu
 - [ ] Ensure you have specified a Play mode tint color from the Colors tab of the Preferences menu
 - [ ] Select the Script file, and then select Assets > Find references in Scene from the Application menu
 
@@ -185,7 +185,7 @@
 - [ ] Viewing and editing text files
 - [ ] Downloading data packets and asset packages
 - [ ] Typing and executing command line instructions through a shell interface
-- [ ] Identifying errors in your script files and project
+- [x] Identifying errors in your script files and project
 
 #### Q27. Sprite atlas assets, large textures containing many smaller sprites, can be optimized by batching together what?
 

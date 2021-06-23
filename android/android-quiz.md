@@ -28,7 +28,16 @@
 - [ ] Google Play Services is not installed on the deivce/emulator.
 - [ ] Battery optimization is turned on on the device.
 
-#### Q5. What is correct set of classes needed to implement a RecyclerView of items that displays a list of widgets vertically?
+#### Q5. What is the correct set of component classes needed to implement a RecyclerView of items that displays a list of widgets vertically?
+
+- [ ]
+
+```
+      RecycleView
+      RecyclerView.Adapter<T extends BaseAdapter>
+      RecyclerView.ViewHolder<T extends BaseViewHolder>
+      LinearLayoutManager
+```
 
 - [ ]
 
@@ -658,9 +667,9 @@ xml
 
 - [ ] root_project_dir/app/build.gradle.
 - [ ] root_project_dir/settings.gradle.
-- [x] root_project_dir/build.gradle. 
+- [x] root_project_dir/build.gradle.
 - [ ] root_project_dir/app/gradle.properties.
-	
+
 [reference](https://developer.android.com/studio/releases/gradle-plugin#updating-plugin)
 
 #### Q44. Why do developers often put app initialization code in the Application class?
@@ -669,7 +678,7 @@ xml
 - [ ] The Application class is instantiated after any permissions requests when the process for the application is created.
 - [ ] The Application class is created each time a new Activity is launched, making it ideal for initialization code.
 - [ ] The Application class is created each time a background service is called, making it ideal for initialization code.
-	
+
 [reference](https://developer.android.com/reference/android/app/Application)
 
 #### Q45. What folder should you use for your app's launcher icons?

@@ -447,3 +447,17 @@
 - [ ] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number:{$sum:1}}}, {$sort: {number:-1}}]).explain("executionStats")`
 - [ ] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group:{_id: {city: "$city"}, number: {$sum: 1}}}, {$sort: {number: -1}}]).explain()`
 - [ ] `db.members.aggregate([ {$match: {gender: """Female"""}}, {$group: {_id: {city: """$city"""}, number: {$sum:1}}}, {$sort: {number: -1}}]).number()`
+
+#### Q65. From the MongoDB shell, how do you execute a JavaScript file named list.js?
+
+- [ ] node 'list.js'
+- [ ] exec('list.js)
+- [ ] run('list.js)
+- [x] load('list.js)
+
+#### Q66. Which MongoDB shell query will sort the customer's collection by name descending?
+
+- [ ] db.customers.sort({name: -1}.find({})
+- [ ] db.customers.sort({name: -1})
+- [x] db.customers.find({}).sort({name: -1})
+- [ ] db.customers.find({}).sort({name: 1})

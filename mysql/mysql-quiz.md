@@ -406,12 +406,12 @@
 - [ ] insert into
 - [x] show create table
 
-#### Q46. you need to make your mysql system secure against hackers. What are you not supposed to do?
+#### Q46. you need to make your mysql system secure against attackers. What are you _not_ supposed to do?
 
-- [ ] Run the server as normal user
-- [x] grant process or super privilege to other user
-- [ ] run the server as the unix root user
-- [ ] use the compressed protocol
+- [ ] Run MySQL server as a normal user.
+- [ ] Grant PROCESS or SUPER privilege to other users.
+- [x] Run MySQL server as the unix root user.
+- [ ] Use the compressed protocol.
 
 #### Q47. You manage a database with a table "customers". You created a temporary table also called "customers" with which you are working for the duration of your session. You need to recreate the temporary table with different specs. Which command do you need to run first?
 
@@ -764,3 +764,12 @@ WHERE MATCH(address) AGAINST ('street, drive');
 7   PRIMARY KEY (employeeID)
 ’8 );
 ```
+
+#### Q80. In the diagram below, the price field is declared as type DECIMAL. What would be a more efficient declaration for this field?
+
+![mysql picture](images/mysql_q80.png)
+
+- [ ] FLOAT
+- [x] DECIMAL(10,2)
+- [ ] NUMERIC
+- [ ] DOUBLE

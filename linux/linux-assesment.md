@@ -347,3 +347,10 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 - [ ] to lock a user's account
 - [x] to change global user account settings
 - [ ] to set a user's password
+
+#### Q44. Extending an LVM volume group does what to the formatted filesystem?
+
+- [ ] It prepares the filesystem for use by defragmenting it.
+- [ ] It resizes the filesystem to match the volume group size.
+- [x] It does nothing.
+- [ ] It remounts the filesystem with the new size.

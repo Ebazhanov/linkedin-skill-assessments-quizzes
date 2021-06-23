@@ -328,7 +328,7 @@ E. Ellipse
 ![image](images/010.png)
 
 - [ ] Blacks
-- [ ] Contrast
+- [x] Contrast
 - [ ] Whites
 - [ ] Exposure
 
@@ -382,3 +382,10 @@ E. Ellipse
 - [ ] Undock Frame
 - [ ] Maximize Panel
 - [ ] Maximize Frame
+
+#### Q48. To quickly arrange the panels in Adobe Premiere Pro for a specific task, what do you use?
+
+- [x] workspaces
+- [ ] layouts
+- [ ] panel presets
+- [ ] events

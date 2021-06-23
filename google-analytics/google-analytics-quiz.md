@@ -469,3 +469,17 @@
 - [ ] urchin.js
 - [ ] gaq.push and ga.js
 - [ ] analytics.js
+
+#### Q66. What is an example of a dimension?
+
+- [ ] Sessions
+- [ ] Bounce Rate
+- [ ] Conversions
+- [x] Source/Medium
+
+#### Q67. Which report displays the page a visitor arrived on?
+
+- [ ] Behavior Flow
+- [ ] Exit Pages
+- [x] Landing Pages
+- [ ] Channels

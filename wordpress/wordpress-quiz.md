@@ -463,3 +463,17 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] disables the theme and plugin editor in the WordPress admin
 - [ ] disables the ability to edit core WordPress files from either within the WordPress admin or via direct file access
 - [ ] sets read-only permissions on all files in the WordPress install
+
+#### Q56. Which of the following must have underlined links in order to meet WCAG 2.0 accessibility standards?
+
+- [ ] links on images
+- [ ] links in user interface controls
+- [ ] links in a nav bar
+- [x] links in paragraph text
+
+#### Q57. In which of the following ways might you contribute to the WordPress community by testing?
+
+- [ ] user testing
+- [x] all of these answers
+- [ ] beta testing
+- [ ] automated testing

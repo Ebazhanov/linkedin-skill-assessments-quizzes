@@ -195,3 +195,17 @@
 - [ ] When you want to retrieve all of the records from the right table that have matching records in the left table
 - [ ] When you want to retrieve just the records from the left table that have matching records in the right table
 - [ ] When you want to retrieve just the records from the left table that do not have any matching records in the right table
+
+#### Q27. How can you run a submacro saved in a macro?
+
+- [ ] Use an If container in the macro.
+- [ ] Call the submacro with the [MacroName]![SubMacroName] syntax.
+- [x] Use a RunMacro or OnError macro action.
+- [ ] Expand the macro in the **Navigation Pane** and double-click the submacro name.
+
+#### Q28. Which combo box property defines what values appear when the user clicks the drop-down arrow?
+
+- [ ] Control Source
+- [x] Row Source
+- [ ] Value List
+- [ ] Data Source

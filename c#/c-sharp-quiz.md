@@ -386,10 +386,10 @@ public static void Main(string[] args)
 
 `public class User {}`
 
-- [ ] mark the User class with the DeserializableAttribute
-- [ ] Declare it as public serializable class User {}
-- [x] Mark it with the SerializableAttribute // [Serializable] public class User {}
-- [ ] Declare it as private serializable class User{}
+- [ ] Mark the User class with the `DeserializableAttribute`.
+- [ ] Declare the class as `public serializable class User {}`.
+- [x] Mark the User class with the `SerializableAttribute` attribute.
+- [ ] Declare the class as `private serializable class User {}`.
 
 #### Q44. How would you write a delegate named ResultCallback with an int parameter named responseCode
 

@@ -371,3 +371,17 @@
 - [x] `201`
 - [ ] `204`
 - [ ] `202`
+
+#### Q54. Which is an example of Code on Demand?
+
+- [ ] AWS Lambda
+- [ ] downloading open-source software
+- [ ] Serverless
+- [x] JavaScript on a webpage
+
+#### Q55. Which URL pattern should you follow for accessing a subresource attached to a specific resource?
+
+- [ ] /companies/employees/{companyId}/{employeeId}
+- [ ] /company/{companyId}/employees/{employeeId}
+- [x] /companies/{companyId}/employees/{employeeId}
+- [ ] /companies/{companyId}/employee/{employeeId}

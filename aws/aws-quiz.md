@@ -536,7 +536,7 @@ aws ec2 reboot-instances --instance-ids i-0b263919b6498b123
 aws ec2 start-instances --instance-ids i-0b263919b6498b123
 ```
 
-#### Q64 What is wrong with the third incoming security group rule, which allows all traffic from sg-269afc5e to go to an
+#### Q64. What is wrong with the third incoming security group rule, which allows all traffic from sg-269afc5e to go to an
 
 Ubuntu EC2 instance configured as a web server?
 
@@ -548,7 +548,7 @@ Ubuntu EC2 instance configured as a web server?
 - [ ] ?> All traffic on all ports are allowed into this instance. This exposes the instance to all public internet traffic and
       overwrites the incoming HTTP rule.
 
-#### Q65 You have a VPC that has a public and private subnet. There is a NAT gateway in the public subnet that allows instances in the private subnet to access the internet without having public exposure outside of the VPC. What should the routing tables be for the private subnet?
+#### Q65. You have a VPC that has a public and private subnet. There is a NAT gateway in the public subnet that allows instances in the private subnet to access the internet without having public exposure outside of the VPC. What should the routing tables be for the private subnet?
 
 ![image](images/003.png)
 
@@ -580,14 +580,14 @@ Destination 1: 10.0.0.0/16, Target 1: vpc-12bd09ac2;
 Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
 ```
 
-#### Q66 To comply with auditing requirements of some compliance standards, which AWS tool can be enabled to maintain an audit log of access and changes to your AWS infrastructure?
+#### Q66. To comply with auditing requirements of some compliance standards, which AWS tool can be enabled to maintain an audit log of access and changes to your AWS infrastructure?
 
 - [x] CloudTrail
 - [ ] CloudWatch
 - [ ] AWS Audit and Compliance Tool
 - [ ] GuardDuty
 
-#### Q67 You have an application that generates long-running reports, stores them in an S3 bucket, and then emails the user who requested
+#### Q67. You have an application that generates long-running reports, stores them in an S3 bucket, and then emails the user who requested
 
 the report with a link to download it. What is the best practice for storing the report data in S3?
 
@@ -604,14 +604,14 @@ the report with a link to download it. What is the best practice for storing the
       session or force the user to log in. Set the report object in S3 to public. Show the user a "Download" button in the browser that links
       to the public object.
 
-#### Q68 When sending a large volume of email through SES, what is the most important set of metrics to monitor?
+#### Q68. When sending a large volume of email through SES, what is the most important set of metrics to monitor?
 
 - [x] your complaint and bounce rates
 - [ ] opens and clicks
 - [ ] clicks and deliveries
 - [ ] sending volume over the past 15 minutes and over one day to watch for billing spikes
 
-#### Q69 You are going to host an application that uses a MySQL database. Which database should you select if you don't want to manage
+#### Q69. You are going to host an application that uses a MySQL database. Which database should you select if you don't want to manage
 
 scaling or database administration tasks?
 
@@ -620,7 +620,7 @@ scaling or database administration tasks?
 - [ ] RDS for MySQL
 - [ ] Redshift
 
-#### Q70 A form in web application is sending sign-up data to "http://example.com/signup/new?source=web" and this data needs to be handled by an ECS service behind Application Load Balancer (ALB). Which ALB rule will route this request?
+#### Q70. A form in web application is sending sign-up data to "http://example.com/signup/new?source=web" and this data needs to be handled by an ECS service behind Application Load Balancer (ALB). Which ALB rule will route this request?
 
 ![image](images/004.png)
 
@@ -647,14 +647,14 @@ Then
 - [ ] C ...One more with POST
 - [x] D ...Only one with Get
 
-#### Q71 Which AWS service can host the web application server for a WordPress site?
+#### Q71. Which AWS service can host the web application server for a WordPress site?
 
 - [ ] S3
 - [x] Elastic BeanStalk
 - [ ] ElasticCache
 - [ ] CloudFront
 
-#### Q72 What does the following AWS CLI `create-service` command for ECS do?
+#### Q72. What does the following AWS CLI `create-service` command for ECS do?
 
 ```
 aws ecs create-service \
@@ -671,3 +671,17 @@ aws ecs create-service \
 - [ ] creates a cluster called **production** and launches two containers into Farget with the **rest-api** task definition
 - [ ] launches two containers onto Farget into the existing **production** cluster using the **rest-api** task definition
 - [ ] creates a service definition for the **rest-api** task; put two containers on the production cluster when launched **ecs-cli** up command
+
+#### Q73. You want to make your public API quickly accessible from all regions. What is the best way to do this?
+
+- [ ] Create a single API gateway endpoint in a central region.
+- [ ] Create a private API gateway endpoint for each region.
+- [ ] Create a regional API gateway endpoint for each region.
+- [x] Create edge-optimized API gateway endpoints and deploy them to a CloudFront network.
+
+#### Q74. What type of data solution should you use for data coming from nonrelational and relational data from IoT devices, websites, mobile apps, etc.?
+
+- [ ] Amazon DynamoDB
+- [x] AWS Lake Formation
+- [ ] Amazon Redshift
+- [ ] Amazon Aurora
