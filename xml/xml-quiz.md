@@ -449,3 +449,88 @@
 - [x] XML contains only data and not any processing instructions.
 - [ ] XML does not perform any computation or algorithms.
 - [ ] XML does not have specialized syntax rules.
+
+#### Q39. What is true about these elements in XQuery?
+
+```xml
+<cars>
+    <car><make>Cadillac</make><model>Escalade</model><year>2007</year></car>
+    <car><make>Cadillac</make><model>Escalade</model><year>2011</year></car>
+    <car><make>Ford</make><model>Mustang</model><year>1968</year></car>
+    <car><make>Ford</make><model>Mustang</model><year>1998</year></car>
+    <car><make>Mercedes</make><model>C-Class</model><year>1999</year></car>
+    <car><make>Mercedes</make><model>C-Class</model><year>2009</year></car>
+</cars>
+```
+
+- [ ] Elements <make> and <model> are ancestors of <year>.
+- [ ] Elements <make> and <model> are children of <cars>.
+- [x] Elements <make> and <model> are siblings.
+- [ ] Elements <car> and <cars> are parents of <make> and <model>.
+
+#### Q40. Which is a valid CSS section for this XML code snippet?
+
+```xml
+<cars>
+    <car><make>Cadillac</make><model>Escalade</model><year>2007</year></car>
+    <car><make>Ford</make><model>Mustang</model><year>1968</year></car>
+    <car><make>Mercedes</make><model>C-Class</model><year>1999</year></car>
+</cars>
+```
+
+- [ ]
+
+```css
+cars {
+  display: block;
+}
+car(make),
+car(model),
+car(year) {
+  display: inline;
+  padding-top: 0.5em;
+}
+```
+
+- [x]
+
+```css
+car,
+cars {
+  display: block;
+}
+make,
+model,
+year {
+  display: inline;
+  padding-top: 0.5em;
+}
+```
+
+- [ ]
+
+```css
+cars {
+  display: block;
+}
+car.make,
+car.model,
+car.year {
+  display: inline;
+  padding-top: 0.5em;
+}
+```
+
+- [ ]
+
+```css
+cars {
+  display: block;
+}
+car#make,
+car#model,
+car#year {
+  display: inline;
+  padding-top: 0.5em;
+}
+```
