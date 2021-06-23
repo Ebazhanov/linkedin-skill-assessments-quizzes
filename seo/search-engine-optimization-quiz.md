@@ -51,26 +51,30 @@
 
 #### Q8. You want to block crawlers from accessing your entire website. What robots.txt entry would you use?
 
-- [ ] ````markdown
-          User-agent: Allbots
-          Disallow: \*
-          ```
-      ````
-- [ ] ````markdown
-          User-agent: /
-          Disallow: \*
-          ```
-      ````
-- [ ] ````markdown
-          User-agent: /
-          Disallow:
-          ```
-      ````
-- [x] ````markdown
-          User-agent: \*
-          Disallow: /
-          ```
-      ````
+- [ ] `````markdown
+              User-agent: Allbots
+              Disallow: \*
+              ```
+          ````
+      `````
+- [ ] `````markdown
+              User-agent: /
+              Disallow: \*
+              ```
+          ````
+      `````
+- [ ] `````markdown
+              User-agent: /
+              Disallow:
+              ```
+          ````
+      `````
+- [x] `````markdown
+              User-agent: \*
+              Disallow: /
+              ```
+          ````
+      `````
 
 #### Q9. Which results is most likely if you use an interstitial pop-up that requires a user to take action before you load the content of the page?
 
@@ -138,42 +142,46 @@
 
 #### Q18. Which choice represents the best header structure?
 
-- [ ] ````markdown
-          H1: How to Bak Bagels
-          H2: Ingredients
-          H3: Dry Ingredients
-          H4: Wet Ingredients
-          H2: Instructions
-          H6: Reviews
-          ```
-      ````
-- [ ] ````markdown
-          H1: How to Bak Bagels
-          H1: Ingredients
-          H1: Dry Ingredients
-          H1: Wet Ingredients
-          H1: Instructions
-          H2: Reviews
-          ```
-      ````
-- [ ] ````markdown
-          H1: How to Bak Bagels
-          H2: Ingredients
-          H3: Dry Ingredients
-          H3: Wet Ingredients
-          H2: Instructions
-          H2: Reviews
-          ```
-      ````
-- [x] ````markdown
-          H1: How to Bak Bagels
-          H2: Ingredients
-          H4: Dry Ingredients
-          H5: Wet Ingredients
-          H6: Instructions
-          H1: Reviews
-          ```
-      ````
+- [ ] `````markdown
+              H1: How to Bak Bagels
+              H2: Ingredients
+              H3: Dry Ingredients
+              H4: Wet Ingredients
+              H2: Instructions
+              H6: Reviews
+              ```
+          ````
+      `````
+- [ ] `````markdown
+              H1: How to Bak Bagels
+              H1: Ingredients
+              H1: Dry Ingredients
+              H1: Wet Ingredients
+              H1: Instructions
+              H2: Reviews
+              ```
+          ````
+      `````
+- [ ] `````markdown
+              H1: How to Bak Bagels
+              H2: Ingredients
+              H3: Dry Ingredients
+              H3: Wet Ingredients
+              H2: Instructions
+              H2: Reviews
+              ```
+          ````
+      `````
+- [x] `````markdown
+              H1: How to Bak Bagels
+              H2: Ingredients
+              H4: Dry Ingredients
+              H5: Wet Ingredients
+              H6: Instructions
+              H1: Reviews
+              ```
+          ````
+      `````
 
 #### Q19. All byline dates articles are suddenly no longer visible on a website's listing within Google Search. Assuming no changes have been made to the site programming or content, what is the most likely cause?
 
@@ -369,26 +377,30 @@
 
 #### Q44. You want to block crwlers from accessing your entire website. What robots.txt entry would you use?
 
-- [ ] ````
-             User-agent: Allbots
-             Disallow: *
-          ```
-      ````
-- [ ] ````
-             User-agent: /
-             Disallow: *
-          ```
-      ````
-- [ ] ````
-             User-agent: *
-             Disallow:
-          ```
-      ````
-- [x] ````
-             User-agent: *
-             Disallow: /
-          ```
-      ````
+- [ ] `````
+                 User-agent: Allbots
+                 Disallow: *
+              ```
+          ````
+      `````
+- [ ] `````
+                 User-agent: /
+                 Disallow: *
+              ```
+          ````
+      `````
+- [ ] `````
+                 User-agent: *
+                 Disallow:
+              ```
+          ````
+      `````
+- [x] `````
+                 User-agent: *
+                 Disallow: /
+              ```
+          ````
+      `````
 
 #### Q45. What is the relationship of click depth to PageRank?
 
@@ -424,3 +436,17 @@
 - [ ] Do not use site search.
 - [ ] Set site search to 404.
 - [ ] Add a canonical from the search result page to the home page.
+
+#### Q50. What might help a search engine understand the difference between an article on a dog bark versus tree bark?
+
+- [ ] tertiary analysis
+- [ ] ranked choice trees
+- [x] semantic analysis
+- [ ] knowledge graphs
+
+#### Q51. A webpage has this tag: `<title>Brad's Bagels: How to Bake a Bagel</title>`. However, the Google search result for this page displays this title: _Brad's Bagels: Baking Bagels in the Oven_. What is a likely explanation?
+
+- [ ] The title tag was placed within the <HEAD> section of the webpage, but not before the meta content tags, so Google cannot identify the actual title.
+- [ ] The page is using structured data to define an alternative title object, which allows the search engine to pick a preferable version.
+- [ ] A breadcrumb navigation is in use, which overrides the title tag supplied in the HTML.
+- [x] Google generated a new title using text on the page that more closely matched the search query.
