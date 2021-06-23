@@ -299,3 +299,17 @@ myClass.foreach(println _)
 - [ ] assertion
 - [x] trait
 - [ ] monad
+
+#### Q39. When do you need to explicitly state the return type in a function definition?
+
+- [ ] when the function has no side effects
+- [ ] when the function returns a Unit type
+- [x] when the function is recursive
+- [ ] when the function has side effects
+
+#### Q40. Why would you make a field private?
+
+- [ ] so only methods in the same file can access the field
+- [ ] so only methods in the same package can access the field
+- [x] so only methods in the same class could access the field
+- [ ] so only methods defined in a Java class can access the field
