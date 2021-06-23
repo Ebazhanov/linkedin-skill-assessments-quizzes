@@ -632,3 +632,17 @@ link_to('Link', {controller: 'products', action: 'index', page: 3})
 - [x] controller
 - [ ] ActiveRecord
 - [ ] model
+
+#### Q49. If User is an ActiveRecord class, which choice would be expected to return an array?
+
+- [x] User.where(last_name: 'Smith')
+- [ ] User.find_or_create(last_name: 'Smith')
+- [ ] User.find_by_last_name('Smith')
+- [ ] User.find('Smith')
+
+#### Q50. Which choice is not a valid Rails route?
+
+- [x] route "products/index", to: "products/index", via: :get
+- [ ] match "products/index", to: "products#index", via: :get
+- [ ] root "products/index"
+- [ ] get "products/index"
