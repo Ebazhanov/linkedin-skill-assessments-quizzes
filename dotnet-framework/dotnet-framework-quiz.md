@@ -337,3 +337,24 @@ https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net
 - [ ] in the view
 - [x] in configuration files
 - [ ] in the database
+
+#### Q47. Why use design patterns?
+
+- [ ] design patterns make the code more efficient with memory usage
+- [ ] design patterns minimize the number of code lines when creating complex applications
+- [ ] design patterns tend to be more secure and prevent code from being hacked
+- [x] design patterns help you solve issues related to sofware development using a proven solution, and make communication between developers more efficient
+
+#### Q48. What is a task?
+
+- [ ] the basic unit to which an operating system allocates processor time
+- [ ] a program that is running on your compiler
+- [x] a single operation that does not return a value and that usually executes asynchronously
+- [ ] a series of related methods that together turn inputs into outputs
+
+#### Q49. Which choice is NOT a component of .NET Framework?
+
+- [ ] common language JIT
+- [x] .NET framework class library
+- [ ] common language runtime
+- [ ] side-by-side execution
