@@ -338,18 +338,37 @@ https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net
 - [x] in configuration files
 - [ ] in the database
 
-#### Q47. Which statement about the `this` keyword is _not_ true?
+#### Q47. Why use design patterns?
+
+- [ ] design patterns make the code more efficient with memory usage
+- [ ] design patterns minimize the number of code lines when creating complex applications
+- [ ] design patterns tend to be more secure and prevent code from being hacked
+- [x] design patterns help you solve issues related to sofware development using a proven solution, and make communication between developers more efficient
+
+#### Q48. What is a task?
+
+- [ ] the basic unit to which an operating system allocates processor time
+- [ ] a program that is running on your compiler
+- [x] a single operation that does not return a value and that usually executes asynchronously
+- [ ] a series of related methods that together turn inputs into outputs
+
+#### Q49. Which choice is NOT a component of .NET Framework?
+
+- [ ] common language JIT
+- [x] .NET framework class library
+- [ ] common language runtime
+- [ ] side-by-side execution
+
+#### Q50. Which statement about the `this` keyword is _not_ true?
 
 - [ ] The `this` keyword lets a constructor call a different constructor in the same class.
 - [x] A constructor can use a base statement and a `this` statement if the base statement comes first.
 - [ ] A constructor can use one `this` statement at most.
 - [ ] If a constructor uses a `this` statement, its code is executed after the invoked constructor is executed.
 
-#### Q48. When should you use the .NET Core class library project type?
+#### Q51. When should you use the .NET Core class library project type?
 
 - [x] when you want to increase the .NET API surface area your library can access, and allow only .NET Core apps to be compatible with your library
 - [ ] when you want to increase the number of apps that are compatible with your library, and decrease the .NET API surface area your library can access
 - [ ] when you want to decrease speed but have more features
 - [ ] when you want to increase compilation speed and have fewer features
-
-See Q14 for the same question but with .NET Standard
