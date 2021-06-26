@@ -540,3 +540,24 @@
 - [x] The arrayed objects becomes a single entity and, when selected, display as a single entity.
 - [ ] The arrayed objects become associated to the X and Y coordinates used for the array.
 - [ ] The array is associated to the linetype scale.
+
+#### Q74. When drawing a Start, Center, End arc, which key do you press to draw the arc in a clockwise direction?
+
+- [ ] C (clockwise)
+- [ ] Alt
+- [ ] D (direction)
+- [x] Ctrl
+
+#### Q75. When using the POLYGON command in AutoCAD, you can create an inscribed polygon and a circumscribed polygon. What other type of polygon is available?
+
+- [ ] side polygon
+- [ ] polyline polygon
+- [ ] line polygon
+- [ ] edge polygon
+
+#### Q76. When using blocks in a drawing, a selected block displays only one grip: the insertion point. How would you get a block to display all of its associated grips?
+
+- [ ] Change the GRIPBLOCK system variable to 1.
+- [ ] Select the block and change it in the Properties palette.
+- [ ] Change the GRIPBLOCK system variable to 0.
+- [ ] Select the block and change it in the right-click shortcut menu.
