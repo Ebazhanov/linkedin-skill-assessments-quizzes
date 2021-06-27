@@ -63,7 +63,7 @@
 - [ ] threshold alert in Azure App insights
 - [x] third party services (GitHub)
 
-#### Q10. Which messaging service enables an even-driven programming model?
+#### Q10. Which messaging service enables an event-driven programming model?
 
 - [ ] Service Bus
 - [ ] Event Hub
@@ -137,7 +137,7 @@
 
 - [ ] Create a Logic App. Then configure an action group with the Logic App action type.
 - [ ] Create an Azure Automation Runbook. Then configure an action group with the Automation Runbook action type.
-- [x] Configure an rule based on a metric.
+- [x] Configure an autoscape rule based on a metric.
 - [ ] Create an Azure function. Then configure an action group with the Secure Webhook action type.
 
 #### Q21. You have CI/CD pipeline for a modern web application in Azure DevOps. The CI/CD process includes both a build and a release pipeline. You need to ensure that user testing (UAT) is successful before triggering the release pipeline. The process should be automated as possible. What should you add to your build pipeline?
@@ -373,3 +373,10 @@
 - [ ] Configure an Azure load balancer to redirect traffic to the approved App Service instance.
 - [x] Configure an additional deployment slot in the existing App Service instance.
 - [ ] Configure an App Service Environment (ASE).
+
+#### Q51. Your microservices application includes a logging component that performs a large number of sequentinal writes. Which type of Azure Storage should you use?
+
+- [ ] Table storage
+- [x] append blob
+- [ ] page blob
+- [ ] block blob
