@@ -10,7 +10,7 @@
 #### Q2. What are the best examples of void elements?
 
 - [ ] `<link><meta><title>`
-- [x] `<wbr><base><source>`
+- [x] `<br><base><source>`
 - [ ] `<input><br><p>`
 - [ ] `<area><embed><strong>`
 
@@ -1306,3 +1306,11 @@ As Steve Krug once said, happy talk must die.
 - [ ] HTML structures and provides a rudimentary look to webpages.
 - [ ] HTML is responsible for the structure, styling, and interactivity of webpages.
 - [ ] HTML is responsible for the structure and styling of webpages.
+
+#### Q81. What is the correct way to describe an empty element, such as a line break tag?
+
+- [ ] It displays nothing on a website.
+- [ ] It has opening and closing tags but no child content.
+- [ ] It has child content but no closing tag.
+- [x] It has no child content and no closing tag.
+
