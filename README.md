@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-420-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-421-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -643,6 +643,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/davidqmelo/"><img src="https://avatars.githubusercontent.com/u/1130405?v=4?s=100" width="100px;" alt=""/><br /><sub><b>David Melo</b></sub></a><br /><a href="#design-djayor" title="Design">🎨</a> <a href="#data-djayor" title="Data">🔣</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/sacha-roussakis-notter-b6903095/"><img src="https://avatars.githubusercontent.com/u/45083490?v=4?s=100" width="100px;" alt=""/><br /><sub><b>DFW1N</b></sub></a><br /><a href="#design-DFW1N" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=DFW1N" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/sohaibayub"><img src="https://avatars.githubusercontent.com/u/3404286?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sohaib Ayub</b></sub></a><br /><a href="#design-sohaibayub" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sohaibayub" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/naveen2593kumar"><img src="https://avatars.githubusercontent.com/u/25560921?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Navvy</b></sub></a><br /><a href="#design-naveen2593kumar" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=naveen2593kumar" title="Code">💻</a></td>
   </tr>
 </table>
 
