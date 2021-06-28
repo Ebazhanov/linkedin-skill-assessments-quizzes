@@ -128,12 +128,11 @@ Commits aren't copied when cherry picking, they are cherry picked. The changes i
 - [ ] Nothing, cloning is not a supported git function
 - [ ] A copy of the repository would be created on the hosting platform
 
-#### Q15. Suppose you needed to see a list of all files that had been modified or added to a specific commit over the course of a project. How would you accomplish this?
+#### Q15. How can you display a list of files added or modified in a specific commit?
 
 - [ ] Find the commit in the remote repository, as that's the only place that kind of information is stored.
 - [x] Use the diff-tree command with the commit hash.
 - [ ] Run git commit --info with the commit hash.
-- [ ] Access the commit stash data with git stash.
 
 #### Q16. What files is this .gitignore programmed to leave out?
 
@@ -152,7 +151,7 @@ build/
 
 A line starting with `#` serves as a comment. Hence `# .swift` does not do anything. See `man gitignore`.
 
-#### Q17. After you make changes to a tracked file, you run the following command. What will this do?
+#### Q17. After you make changes to a local repository, you run the following command. What will this do?
 
 `git commit -a -m "Refactor code base"`
 
@@ -754,3 +753,17 @@ Which of the following options is correct ?
 - [ ] Check out the push-notifications branch and run git merge beta.
 - [ ] Check out the master branch and run git merge beta -> push-notifications.
 - [ ] Delete the push-notifications branch; it will be committed to the master branch automatically.
+
+#### Q93. You would like to restore some previously stashed work to a new branch. How can you do that?
+
+- [x] Use git branch <stash hash>.
+- [ ] Add the stashed commits to the current commit, then create a new branch.
+- [ ] Use git checkout -b.
+- [ ] Run git stash branch <branch name>.
+  
+ #### Q94. You is the difference between git branch -d and git branch -D?
+
+- [ ] -D deletes the local branch, while -d deletes the branch regardless of push and merge status.
+- [ ] -d deletes the current commit head, while -D deletes the entire branch.
+- [x] -d deletes the local branch, while -D deletes the local branch regardless of push and merge status.
+- [ ] -D deletes the current commit head, while -d deletes the entire branch.
