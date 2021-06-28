@@ -4063,6 +4063,16 @@
         "design",
         "data"
       ]
+    },
+    {
+      "login": "DFW1N",
+      "name": "DFW1N",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45083490?v=4",
+      "profile": "https://www.linkedin.com/in/sacha-roussakis-notter-b6903095/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
