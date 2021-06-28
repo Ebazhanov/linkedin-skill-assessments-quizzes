@@ -78,10 +78,10 @@ let selected = pocket[1];
 let fruit = 'apple';
 ```
 
-- [ ] `let fuit = 'plum'`
-- [ ] `var fuit = 'plum'`
-- [ ] `const fuit = 'plum'`
-- [x] `fuit = 'plum'`
+- [ ] `let fruit = 'plum'`
+- [ ] `var fruit = 'plum'`
+- [ ] `const fruit = 'plum'`
+- [x] `fruit = 'plum'`
 
 #### Q10. What is the `<label>` element used for?
 
@@ -131,7 +131,7 @@ h1 {
 - [ ] date
 - [ ] password
 
-#### Q15. You have used `dispaly: none` in your stylesheet. Which users will be able to see or hear this content?
+#### Q15. You have used `display: none` in your stylesheet. Which users will be able to see or hear this content?
 
 - [ ] all users
 - [ ] users who can see the content on screen
