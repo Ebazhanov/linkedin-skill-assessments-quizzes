@@ -432,14 +432,12 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 #### Q52. According to WordPress PHP coding standards for inline comments, how would you write a single-line comment in a PHP document?
 
-- [ ] /\*
-
-* This is a single line comment
-  \*/
-
-- [ ] // This is a single line comment.
-- [ ] <!-- This is a single line comment -->
-- [ ] // This is a single line comment
+- [x] `// This is a single line comment`
+- [ ] ```/*
+	      * This is a single line comment.
+		  */```
+- [ ] `// This is a single line comment.`
+- [ ] `<!-- This is a single line comment -->`
 
 #### Q53. If you have pretty permalinks enabled on a WordPress site, the REST API index is exposed by appending what to the end of the site URL? (for example, http://example.com/answer/) Note that the index provides information regarding which routes are available for that particular WordPress install.
 
@@ -477,3 +475,43 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [x] all of these answers
 - [ ] beta testing
 - [ ] automated testing
+
+#### Q58. WordPress is an open-source software licensed under the GPL. Tis means that ____.
+
+- [ ] derivative works must also be licensed as GPL
+- [x] all of these answers
+- [ ] the software is free to use
+- [ ] the software is free to modify
+
+#### Q59 Review of the HTML on line1. The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting into the database. What is wrong with this PHP code?
+
+`<input type="text" id="title" name="title" />`
+
+`$title = $_POST[ 'title' ];`
+
+- [ ] The code sample does not use the GET method. It should be wrapped in the `get_post_field()` function and look like this `$title = get_post_field( $GET[ 'title' ] );`
+- [ ] The code sample doesnot use sanitize the form data. It should use the `sanitize_text_field()` function and look like this `$title = sanitize_text_field( $_POST[ 'title' ] );`
+- [ ] There is no error. The code follows WordPress best practices.
+- [ ] The code sample does not allow for translation. It should use a translation function and look like this: `$title = __( $_POST[ 'title' ];`
+
+#### Q60. Which software development principle, often used in WordPress, aims to reduce the repetition of code?
+
+- [x] DRY
+- [ ] RRR
+- [ ] WET
+- [ ] KISS
+
+#### Q61. Which of these CSS classs naming convention is correct according to WordPress CSS Coding Standards?
+
+- [ ] `.selector-name`
+- [x] `.selector_name`
+- [ ] `.selectorName`
+- [ ] `div.selector_name`
+
+#### Q62. Which folder in a WordPress install is not affected by an automatic WordPress update?
+
+- [ ] `/wp-admin`
+- [x] `root`
+- [ ] `/wp-content`
+- [ ] `/wp-includes`
+
