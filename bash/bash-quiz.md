@@ -684,3 +684,10 @@ echo "${VAR//man/rolling}"
 - [ ] This old man came rolling
 - [x] This old rolling came rolling
 - [ ] This old came
+
+#### Q57. What statement would you use to print this in the console?
+
+- [ ] `echo "Shall we play a game? yes/\no"`
+- [ ] `echo "Shall we play a game\? yes\\no"`
+- [x] `echo "Shall we play a game? yes\\no"`
+- [ ] `echo "Shall we play a game? yes\no"`
