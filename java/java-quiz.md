@@ -387,24 +387,22 @@ Reason : Observe the loop increment. It's not an increment, it's an assignment(p
 - [ ] hello
 - [x] main
 
-#### Q26. What is the result of this code?
+### 26. What code would you use in Constructor A to call Constructor B?
 
 ```java
-try{
-    System.out.print("Hello World");
-}catch(Exception e){
-    System.out.println("e");
-}catch(ArithmeticException e){
-    System.out.println("e");
-}finally{
-    System.out.println("!")
-}
+public class Jedi {
+  /* Constructor A */
+  Jedi(String name, String species){}
+  
+  /* Constructor B */
+  Jedi(String name, String species, boolean followsTheDarkSide){}
+  }
 ```
 
-- [ ] It will throw a runtime exception
-- [x] It will not compile
-- [ ] Hello World!
-- [ ] Hello World
+- [ ] Jedi(name, species, false)
+- [ ] new Jedi(name, species, false)
+- [x] this(name, species, false)
+- [ ] super(name, species, false)
 
 #### Q27. Which statement is **NOT** true?
 
@@ -1039,7 +1037,8 @@ groucyButton.addActionListener(new ActionListener() {
 - [x] Set object to null and call System.gc()
 - [ ] Set object to null and call Runtime.getRuntime().runFinalization()
 - [ ] There is no way to force an object to be garbage collected
-      [Reference](https://www.baeldung.com/java-hashcode)
+
+[Reference](https://www.baeldung.com/java-hashcode)
 
 #### Q72. Java programmers commonly use design patterns. Some examples are the **\_\_**, which helps create instances of a class, the **\_\_**, which ensures that only one instance of a class can be created; and the **\_\_**, which allows for a group of algorithms to be interchangeable.
 
@@ -1055,12 +1054,12 @@ groucyButton.addActionListener(new ActionListener() {
 - [ ] Reflection.getName(this); Reflection.getMethods(this)
 - [ ] Reflection.getClass(this).getName(); Reflection.getClass(this).getMethods()
 
-#### Q74. What is a valid use of the hashCode() method?
+#### Q74. Which is not a valid lambda expression?
 
-- [ ] moving objects from a List to a HashMap
-- [x] deciding if two instances of a class are equal
-- [ ] enabling HashMap to find matches faster
-- [ ] encrypting user passwords
+- [ ] `a -> false;`
+- [ ] `(a) -> false;`
+- [x] `String a -> false;`
+- [ ] `(String a) -> false;`
 
 #### Q75. Which access modifier makes variables and methods visible only in the class where they are declared?
 
@@ -1237,34 +1236,3 @@ class Main {
 - [ ] "HelloWorld!"
 - [ ] "hello"
 - [ ] ????
-
-### 90. What code would you use in Constructor A to call Constructor B?
-
-```java
-public class Jedi {
-  /* Constructor A */
-  Jedi(String name, String species){}
-  
-  /* Constructor B */
-  Jedi(String name, String species, boolean followsTheDarkSide){}
-  }
-```
-
-- [ ] Jedi(name, species, false)
-- [ ] new Jedi(name, species, false)
-- [x] this(name, species, false)
-- [ ] super(name, species, false)
-
-#### Q91. Which is not a valid lambda expression?
-
-- [ ] `a -> false;`
-- [ ] `(a) -> false;`
-- [x] `String a -> false;`
-- [ ] `(String a) -> false;`
-
-#### Q92. By implementing encapsulation, you cannot directly access the class's ______ properties unless you are writing code inside the class itself.
-
-- [x] private
-- [ ] package-private (no explicit modifier)
-- [ ] public
-- [ ] protected
