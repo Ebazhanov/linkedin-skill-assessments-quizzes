@@ -151,3 +151,31 @@
 - [x] solid-state drive
 - [ ] serial attached storage device
 - [ ] SCSI drive
+
+#### Q18. A Bluetooth peripheral is prompting for a passcode to complete the pairing/connection process. What is the peripheral, most likely?
+
+- [ ] keyboard
+- [x] all of these answers
+- [ ] mouse
+- [ ] headset
+
+#### Q19. Walt's computer is several years old and he wants to ensure that the system works until he gets a replacement. What should he do first?
+
+- [ ] Run a file check daily.
+- [ ] Obtain an extended warranty.
+- [x] Back up his data.
+- [ ] Ensure that the system is protected against malware.
+
+#### Q20. What is one difference between a drive and media?
+
+- [ ] The drive is where the data is stored and the media is the data itself.
+- [ ] A drive is hardware that reads media.
+- [ ] These are two terms for the same thing: storage.
+- [ ] The terms apply only to removable storage, where the drive is the slot and the media is the thumb drive or media card inserted into the slot.
+
+#### Q21. Mass storage inside a desktop computer case is usually found where?
+
+- [ ] in an expansion slot
+- [ ] attached to the front of the case
+- [ ] in a drive cage
+- [x] on the motherboard
