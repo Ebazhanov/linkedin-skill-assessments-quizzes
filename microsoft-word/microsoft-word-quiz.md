@@ -516,3 +516,37 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [x] Document Inspector
 
 [Reference](https://support.microsoft.com/en-us/topic/remove-hidden-data-and-personal-information-by-inspecting-documents-presentations-or-workbooks-356b7b5d-77af-44fe-a07f-9aa4d085966f#:~:text=Click%20File%20%3E%20Info%20%3E%20Remove%20Personal,from%20the%20document%20check%20box.)
+
+#### Q64. What chart type cannot be used for more than one data series? 
+
+- [x] Pie 
+- [ ] Column 
+- [ ] Line 
+- [ ] Bar
+
+
+#### Q65. What is the difference between a footnote and an endnote?
+
+- [ ] An endnote always appears on the bottom of the same page that it references
+- [ ] Footnote use Arabic numerals and endnotes use letters.
+- [x] A footnote is placed at the bottom of the page, and an endnote is placed at the end of the document
+- [ ] A footnote is placed in teh page footer and an endnote is placed on a blank page at the end of the document
+
+
+#### Q66. In the image below, where do you click to hide comments when a document prints?
+
+![image](https://i.imgur.com/JjdzceL.png)
+
+- [ ] A
+- [x] B
+- [ ] C
+- [ ] D
+
+
+#### Q67. Which page orientation should you select to accommodate a wide chart or table?
+
+- [ ] Tall
+- [x] Portrait
+- [ ] Wide
+- [ ] Landscape
+
