@@ -340,7 +340,7 @@ end
 
 - [ ] `csrf_protection`
 - [ ] `csrf_helper`
-- [x] `csrf_meta_tags` [Reference] (https://api.rubyonrails.org/classes/ActionView/Helpers/CsrfHelper.html)
+- [x] `csrf_meta_tags` [Reference](https://api.rubyonrails.org/classes/ActionView/Helpers/CsrfHelper.html)
 - [ ] `csrf`
 
 #### Q35. In the model `User` you have the code shown below. When saving the model and `model.is_admin` is set to true, which callback will be called?
