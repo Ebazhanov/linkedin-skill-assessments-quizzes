@@ -955,7 +955,7 @@ body {font-size: 2rem;}
 
 - [ ] The .rem will be equivalent to 25px; the .em value will be 20px.
 - [ ] The .rem will be equivalent to 15px; the .em value will be 20px.
-- [ ] The .rem will be equivalent to 15px; the .em value will be 40px.
+- [x] The .rem will be equivalent to 15px; the .em value will be 40px.
 - [ ] The .rem will be equivalent to 20px; the .em value will be 40px.
 
 #### Q80. In this example, according to cascading and specificity rules, what color will the link be?
@@ -1012,7 +1012,7 @@ grid-template-columns: 2fr 1fr;
 
 - [ ] The first column is twice the height of the second column and will be as wide as the content
 - [ ] The first column is half the size of the container and the second column will absorb the remaining space
-- [ ] The first column is twice as wide as the second column and will fit proportionally within the grid container
+- [x] The first column is twice as wide as the second column and will fit proportionally within the grid container
 - [ ] The first column is twice the width and height of the second column, and will fit proportionally within the grid container
 
 #### Q85. Which style rule would make the image 50% smaller during a hover?
@@ -1022,7 +1022,7 @@ grid-template-columns: 2fr 1fr;
 ```
 
 - [ ] img#photo:hover {scale: 0.5;}
-- [ ] img#photo:hover {transform: scale(0.5);}
+- [x] img#photo:hover {transform: scale(0.5);}
 - [ ] img#photo {hover-scale: 0.5;}
 - [ ] img#photo:hover {size: smaller;}
 
