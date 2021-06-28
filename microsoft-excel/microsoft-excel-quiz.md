@@ -430,3 +430,122 @@
 - [x] Cell A2 contains the value 8 and cell B2 is empty.
 - [ ] Cell A2 contains the value 8 and cell B2 contains the value 9.
 - [ ] Cell A2 contains the value 17 and cell B2 is empty.
+
+#### Q58. In the formula `=VLOOKUP(A1,D1:H30,3,FALSE)`, the lookup value (A1) is being looked for in _____.
+
+- [ ] column D
+- [x] columns D through H
+- [ ] column H
+- [ ] column F
+
+#### Q59. An .xlsx workbook is saved into .csv format. What is preserved in the new .csv file?
+
+- [x] cell values only
+- [ ] cell values and formats
+- [ ] cell values and formulas
+- [ ] cell value, formats, and formulas
+
+#### Q60. Which function, when entered into cell G7, allows you to determine the sum total of annual sles for market regions 18 and greater?
+
+![image](https://i.imgur.com/rZyGzER.png)
+
+- [ ] `=SUMIF(G2:G6,">17",F2:F6)`
+- [ ] `=SUM(G2:G6,">=18,F2:F6)`
+- [x] `=SUMIF(F2:F6,">=18",G2:G6)`
+- [ ] `=SUM(F2:F6,"18+",G2:G6)
+
+#### Q61. Which function, when entered into cell F2 and then dragged to cell F6, returns the performance rating text (e.g., "Good", "Poor") for each representative?
+
+![image](https://i.imgur.com/Z6Kj8CE.png)
+
+- [x] `=RIGHT(E2,LEN(E2)-27)`
+- [ ] `=LEN(E2,MID(E2)-27)`
+- [ ] `=LEFT(E2,LEN(E2)-27)`
+- [ ] `=RIGHT(E2,MID(E2)-27)`
+
+#### Q62. (answer needed) What is `Colors[Inventory]` referring to here?
+
+`=SUMIFS(Colors[Inventory],Colors[Colors],"Orange")`
+
+- [ ] the Inventory worksheet in the Colors workbook
+- [ ] the Inventory column in the Colors table
+- [ ] the Colors worksheet in the Inventory workbook
+- [ ] the named range Colors[Inventory], which does not use Format as Table Feature
+
+#### Q63. Which VLOOKUP function, when entered into cell L2 and then dragged to cell L5, returns the average number of calls for the representative IDs listed in column J?
+
+![image](https://i.imgur.com/SAJTiQU.png)
+
+- [ ] `=VLOOKUP(A2,J2:L5,1,FALSE)`
+- [x] `=VLOOKUP(J2,A$2:C$7,1,FALSE)`
+- [ ] `=VLOOKUP(J2,A$2:C$7,3,FALSE)`
+- [ ] `=VLOOKUP(J2,A2:C7,3,FALSE)`
+
+#### Q64. (answer needed) Which formula calculates the total value of a single row of cells across a range of columns?
+
+- [ ] `=SUBTOTAL(C1:Y15)`
+- [ ] `=SUM(15L:15Z)`
+- [ ] `=SUM(C15:Y15)`
+- [ ] `=SUM(C11:C35)`
+
+#### Q65. Which value is returned when you enter `=LEN(C3)` into cell F3?
+
+![image](https://i.imgur.com/DOUeapg.png)
+
+- [ ] 4
+- [x] 5
+- [ ] 3
+- [ ] 2
+
+#### Q66. (answer needed) How can you create the lower table from the top one when the tables are `not` linked?
+
+![image](https://i.imgur.com/2s1NJQP.png)
+
+- [ ] Select `Paste Special > Values.`
+- [ ] Select `Paste Special > Transpose.`
+- [ ] Use the `TRANSPOSE` function
+- [ ] Click `Switch Rows &  Columns`
+
+#### Q67. Which function returns the number of characters in a text string in cell A1?
+
+- [ ] `=RIGHT(A1)-LEFT(A1)+1`
+- [x] `=LEN(A1)`
+- [ ] `=EXACT(A1)`
+- [ ] `=CHARS(A1)`
+
+#### Q68. Which formula, when entered into cell D2 and then dragged to cell D6, calculates the average total number of minutes spent on phone calls for each representative?
+
+![image](https://i.imgur.com/OPH8gt9.png)
+
+- [ ] `=B$2*C$2`
+- [ ] `=$C$2/$B$2`
+- [ ] `=C2/B2`
+- [x] `=B2*C2`
+
+#### Q69. (answer needed) The PivotTable below has one row field and two column fields. How can you pivot this table to show the column fields as subtotals of each value in the row field?
+
+![image](https://i.imgur.com/5owckbM.png)
+
+- [ ] On the PivotTable itself, drag each `Average` field into the row fields area.
+- [ ] Right-click a cel in the PivotTable and select `PivotTable Options > Classic PivotTable layout`.
+- [ ] In the `PivotTable Fields` pane, drag `Sum Values` from the `Columns` section to a location below the field in the `Rows` section.
+- [ ] In the `PivotTable Fields` pane, drag each field from the `Sum Values` section to the `Rows` section.
+
+### Q70. Which Excel feature allows you to hide rows or columns with an easily visible expand/collapse?
+
+![image](https://i.imgur.com/5RVF2Gd.png)
+
+- [x] grouping
+- [ ] filtering
+- [ ] hiding
+- [ ] cut and paste
+
+#### Q71. (answer needed) Monthly revenues of 2019 are entered in B2:M2, as shown below, To get year-to-date running total revenues, what formula should you enter in B3 and autofill through M3?
+
+![image](https://i.imgur.com/ZEz2A5x.png)
+
+- [ ] `=SUMIF($B$2:$M$2,"COLUMN($B$2:$M$2)<=COLUMN())")`
+- [ ] `=SUM($B2:B2)`
+- [ ] `=SUM(OFFSET($A1,0,0,1,COLUMN()))`
+- [ ] `=B2+B3`
+
