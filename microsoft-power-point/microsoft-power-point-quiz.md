@@ -355,3 +355,9 @@ Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .po
 - [ ] Country
 - [x] All of these answers
 
+#### Q46.You receive feedback from two clients on your presentation. Each person sent you an edited file. What's the best way to review their changes?
+
+- [ ] Review > Accept
+- [ ] Review > Smart Lookup
+- [x] Review > Compare
+- [ ] Review > Show Comments
