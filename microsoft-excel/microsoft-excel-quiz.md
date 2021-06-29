@@ -452,7 +452,7 @@
 - [ ] `=SUMIF(G2:G6,">17",F2:F6)`
 - [ ] `=SUM(G2:G6,">=18,F2:F6)`
 - [x] `=SUMIF(F2:F6,">=18",G2:G6)`
-- [ ] `=SUM(F2:F6,"18+",G2:G6)
+- [ ] `=SUM(F2:F6,"18+",G2:G6)`
 
 #### Q61. Which function, when entered into cell F2 and then dragged to cell F6, returns the performance rating text (e.g., "Good", "Poor") for each representative?
 
@@ -481,7 +481,7 @@
 - [ ] `=VLOOKUP(J2,A$2:C$7,3,FALSE)`
 - [ ] `=VLOOKUP(J2,A2:C7,3,FALSE)`
 
-#### Q64. (answer needed) Which formula calculates the total value of a single row of cells across a range of columns?
+#### Q64. Which formula calculates the total value of a single row of cells across a range of columns?
 
 - [ ] `=SUBTOTAL(C1:Y15)`
 - [ ] `=SUM(15L:15Z)`
@@ -497,7 +497,7 @@
 - [ ] 3
 - [ ] 2
 
-#### Q66. (answer needed) How can you create the lower table from the top one when the tables are `not` linked?
+#### Q66. How can you create the lower table from the top one when the tables are `not` linked?
 
 ![image](https://i.imgur.com/2s1NJQP.png)
 
@@ -522,7 +522,7 @@
 - [ ] `=C2/B2`
 - [x] `=B2*C2`
 
-#### Q69. (answer needed) The PivotTable below has one row field and two column fields. How can you pivot this table to show the column fields as subtotals of each value in the row field?
+#### Q69. The PivotTable below has one row field and two column fields. How can you pivot this table to show the column fields as subtotals of each value in the row field?
 
 ![image](https://i.imgur.com/5owckbM.png)
 
@@ -549,3 +549,37 @@
 - [ ] `=SUM(OFFSET($A1,0,0,1,COLUMN()))`
 - [ ] `=B2+B3`
 
+#### Q72. If a worksheet has the value 27 in cell B3, what value is returned by the function =MOD(B3,6)?
+
+- [ ] 4
+- [ ] 1
+- [x] 5
+- [ ] 3
+
+#### Q73. From which field  list was the pivotTalble created?
+
+- [ ] rows:event, donor / values: Sum of amount
+- [ ] columns: event / row:donor / values: Sum of amount
+- [x] rows:donor, event / values: Sum of amount
+- [ ] filter: event /  row:donor / values: Sum of amount
+
+#### Q74. In the worksheet shown below, cell C6 contains the formula =VLOOKUP(A6,$F$2:$G$10,2,FALSE). What is the most likely reason that #N/A is returned in cell C6 instead of mallory's ID (2H54)
+
+- [ ] The absolute/relative cell references in the formula are wrong
+- [ ] Cell A6 is not actualy text its a formula that need to be copied and pasted as a value 
+- [ ] Column C in the lookup range is not sorted properly
+- [x] A trailing space probably exist in cell A6 or F7
+
+#### Q75. What is the difference between pressing the delete key and using the clear command in the Home tab's Editing group?
+
+- [ ] deletes removes the entire column or row. Clear removes the content from the column or row
+- [x] deletes removes formulas, values and hyperlinks. clear removes formulas, values, hyperlinks, formats, comments and notes
+- [ ] Delete removes the cell itself, shifting cells either up or to the left. Clear removes content and properties but does not muves cells
+- [ ] Delete removes formulas and values. clear removes formulas, values, hyperlinks, formats, comments and notes
+
+#### Q76. what is the intersection of a worksheet row and column?
+
+- [ ] cell
+- [x] selection
+- [ ] element
+- [ ] scalar
