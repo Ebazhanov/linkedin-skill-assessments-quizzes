@@ -430,3 +430,45 @@
 - [x] Cell A2 contains the value 8 and cell B2 is empty.
 - [ ] Cell A2 contains the value 8 and cell B2 contains the value 9.
 - [ ] Cell A2 contains the value 17 and cell B2 is empty.
+
+#### Q58. if a worksheet has the value 27 in cell B3, what value is returned by the function =MOD(B3,6)?
+
+- [ ] 4
+- [ ] 1
+- [x] 5
+- [ ] 3
+
+#### Q59. From which field  list was the pivotTalble created?
+
+- [ ] rows:event, donor / values: Sum of amount
+- [ ] columns: event / row:donor / values: Sum of amount
+- [x] rows:donor, event / values: Sum of amount
+- [ ] filter: event /  row:donor / values: Sum of amount
+
+#### Q60. In the worksheet shown below, cell C6 contains the formula =VLOOKUP(A6,$F$2:$G$10,2,FALSE). What is the most likely reason that #N/A is returned in cell C6 instead of mallory's ID (2H54)
+
+- [ ] The absolute/relative cell references in the formula are wrong
+- [ ] Cell A6 is not actualy text its a formula that need to be copied and pasted as a value 
+- [ ] Column C in the lookup range is not sorted properly
+- [x] A trailing space probably exist in cell A6 or F7
+
+#### Q61. What is the difference between pressing the delete key and using the clear command in the Home tab's Editing group?
+
+- [ ] deletes removes the entire column or row. Clear removes the content from the column or row
+- [x] deletes removes formulas, values and hyperlinks. clear removes formulas, values, hyperlinks, formats, comments and notes
+- [ ] Delete removes the cell itself, shifting cells either up or to the left. Clear removes content and properties but does not muves cells
+- [ ] Delete removes formulas and values. clear removes formulas, values, hyperlinks, formats, comments and notes
+
+#### Q62. what is the intersection of a worksheet row and column?
+
+- [ ] cell
+- [x] selection
+- [ ] element
+- [ ] scalar
+
+#### Q63. which function when entered into cell b7 calculates the range for average call length
+
+- [ ] 
+- [ ]
+- [ ] 
+- [ ] 
