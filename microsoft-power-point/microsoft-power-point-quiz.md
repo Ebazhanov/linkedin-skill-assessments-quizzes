@@ -347,3 +347,11 @@ Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .po
 - [ ] Rehearse Timings
 - [x] Custom Slide Show
 - [ ] Hide Slide
+
+#### Q45. When working with a mapchart, which options can be drawn?
+
+- [ ] Postal code
+- [ ] State
+- [ ] Country
+- [x] All of these answers
+
