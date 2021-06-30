@@ -1133,3 +1133,10 @@ grid-template-columns: 2fr 1ffr;
 - [ ] The first column is twice the width and height of the second column, and will fit proportionally within the grid container.
 - [ ] The first column is twice as wide as the second column and will fit proportionally within the grid container.
 - [ ] The first column is twice the height of the second column and will be as wide as the content.
+
+#### Q90. How can you create a semi-transparent background color?
+
+- [ ] background-color: hsl(0, 0, 0, 0.5);
+- [ ] background-color: rgbx(0, 0, 0, 0.5);
+- [ ] background-color: rgba(0, 0, 0, 0.5);
+- [ ] background-color: rgba(0, 0, 0, 1);
