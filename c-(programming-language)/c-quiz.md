@@ -203,8 +203,8 @@ main(){
 }
 ```
 
-- [ ] The value of PI needs to be set to 3.141593, not 3.14
-- [x] The declaration of PI needs to say const, not constant.
+- [x] The value of PI needs to be set to 3.141593, not 3.14
+- [ ] The declaration of PI needs to say const, not constant.
 - [ ] The data type of PI needs to be float not int.
 - [ ] The printf statement needs to use PI, not pi.
 
