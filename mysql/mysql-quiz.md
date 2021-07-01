@@ -773,3 +773,10 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [x] DECIMAL(10,2)
 - [ ] NUMERIC
 - [ ] DOUBLE
+
+#### Q81. Which choice is _not_ an available string type for a column?
+
+- [ ] ENUM
+- [ ] SET
+- [x] BIT
+- [ ] CHAR
