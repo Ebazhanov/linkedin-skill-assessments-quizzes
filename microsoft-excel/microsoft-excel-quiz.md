@@ -463,7 +463,7 @@
 - [ ] `=LEFT(E2,LEN(E2)-27)`
 - [ ] `=RIGHT(E2,MID(E2)-27)`
 
-#### Q62. (answer needed) What is `Colors[Inventory]` referring to here?
+#### Q62. What is `Colors[Inventory]` referring to here?
 
 `=SUMIFS(Colors[Inventory],Colors[Colors],"Orange")`
 
@@ -540,7 +540,7 @@
 - [ ] hiding
 - [ ] cut and paste
 
-#### Q71. (answer needed) Monthly revenues of 2019 are entered in B2:M2, as shown below, To get year-to-date running total revenues, what formula should you enter in B3 and autofill through M3?
+#### Q71. Monthly revenues of 2019 are entered in B2:M2, as shown below, To get year-to-date running total revenues, what formula should you enter in B3 and autofill through M3?
 
 ![image](https://i.imgur.com/ZEz2A5x.png)
 
@@ -549,21 +549,21 @@
 - [ ] `=SUM(OFFSET($A1,0,0,1,COLUMN()))`
 - [ ] `=B2+B3`
 
-#### Q72. If a worksheet has the value 27 in cell B3, what value is returned by the function =MOD(B3,6)?
+#### Q72. If a worksheet has the value 27 in cell B3, what value is returned by the `function =MOD(B3,6)`?
 
 - [ ] 4
 - [ ] 1
 - [x] 5
 - [ ] 3
 
-#### Q73. From which field  list was the pivotTalble created?
+#### Q73. From which field list was the pivotTalble created?
 
 - [ ] rows:event, donor / values: Sum of amount
 - [ ] columns: event / row:donor / values: Sum of amount
 - [x] rows:donor, event / values: Sum of amount
 - [ ] filter: event /  row:donor / values: Sum of amount
 
-#### Q74. In the worksheet shown below, cell C6 contains the formula =VLOOKUP(A6,$F$2:$G$10,2,FALSE). What is the most likely reason that #N/A is returned in cell C6 instead of mallory's ID (2H54)
+#### Q74. In the worksheet shown below, cell C6 contains the `formula=VLOOKUP(A6,$F$2:$G$10,2,FALSE)`. What is the most likely reason that `#N/A` is returned in cell `C6` instead of mallory's `ID (2H54)`
 
 - [ ] The absolute/relative cell references in the formula are wrong
 - [ ] Cell A6 is not actualy text its a formula that need to be copied and pasted as a value 
