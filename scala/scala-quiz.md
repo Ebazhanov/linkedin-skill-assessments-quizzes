@@ -313,3 +313,10 @@ myClass.foreach(println _)
 - [ ] so only methods in the same package can access the field
 - [x] so only methods in the same class could access the field
 - [ ] so only methods defined in a Java class can access the field
+
+#### Q41. What's the difference between == and .equals in Scala?
+
+- [x] == routes to equals, except that it treats nulls properly
+- [ ] (FORGOT ANSWER)
+- [ ] (FORGOT ANSWER)
+- [ ] (FORGOT ANSWER)
