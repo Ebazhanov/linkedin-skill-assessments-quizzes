@@ -210,7 +210,7 @@
 - [ ] Construct an HTTP request URI and an HTTPS request URI.
 - [ ] Invoke the GetCurrentApplicationCallbackUri method and construct an HTTPS request URI.
 - [ ] Invoke the AuthenticateAsync and GetCurrentApplicationCallbackUri methods.
-- [ ] Invoke the AuthenticateAsync method and construct an HTTPS request URI. //The requestUri parameter must be a HTTPS address and
+- [x] Invoke the AuthenticateAsync method and construct an HTTPS request URI. //The requestUri parameter must be a HTTPS address and
       // You call the AuthenticateAsync method to
       // connect to the online identity provider and get an access token
 
