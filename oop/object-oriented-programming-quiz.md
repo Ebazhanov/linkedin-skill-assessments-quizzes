@@ -414,4 +414,12 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [x] The catch block that will be executed is the one that best matches the type of the exception thrown
 - [ ] Multiple catch blocks are not allowed with a single try.
 - [ ] Every catch block will run accordingly in a try.
-- [ ]
+- [ ] 
+
+#### Q56. There are five classes. Class E is derived from class D, D from C, C from B, and B from A. Which class constructor(s) will be called first if the object of E or D is created?
+
+- [ ] A
+- [ ] B
+- [ ] C
+- [ ] C and B
+
