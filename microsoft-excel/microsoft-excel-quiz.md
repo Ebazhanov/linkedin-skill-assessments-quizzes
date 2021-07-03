@@ -477,15 +477,15 @@
 ![image](https://i.imgur.com/SAJTiQU.png)
 
 - [ ] `=VLOOKUP(A2,J2:L5,1,FALSE)`
-- [x] `=VLOOKUP(J2,A$2:C$7,1,FALSE)`
-- [ ] `=VLOOKUP(J2,A$2:C$7,3,FALSE)`
+- [ ] `=VLOOKUP(J2,A$2:C$7,1,FALSE)`
+- [x] `=VLOOKUP(J2,A$2:C$7,3,FALSE)`
 - [ ] `=VLOOKUP(J2,A2:C7,3,FALSE)`
 
 #### Q64. Which formula calculates the total value of a single row of cells across a range of columns?
 
 - [ ] `=SUBTOTAL(C1:Y15)`
 - [ ] `=SUM(15L:15Z)`
-- [ ] `=SUM(C15:Y15)`
+- [x] `=SUM(C15:Y15)`
 - [ ] `=SUM(C11:C35)`
 
 #### Q65. Which value is returned when you enter `=LEN(C3)` into cell F3?
@@ -502,7 +502,7 @@
 ![image](https://i.imgur.com/2s1NJQP.png)
 
 - [ ] Select `Paste Special > Values.`
-- [ ] Select `Paste Special > Transpose.`
+- [x] Select `Paste Special > Transpose.`
 - [ ] Use the `TRANSPOSE` function
 - [ ] Click `Switch Rows &  Columns`
 
@@ -545,7 +545,7 @@
 ![image](https://i.imgur.com/ZEz2A5x.png)
 
 - [ ] `=SUMIF($B$2:$M$2,"COLUMN($B$2:$M$2)<=COLUMN())")`
-- [ ] `=SUM($B2:B2)`
+- [x] `=SUM($B2:B2)`
 - [ ] `=SUM(OFFSET($A1,0,0,1,COLUMN()))`
 - [ ] `=B2+B3`
 
@@ -553,8 +553,8 @@
 
 - [ ] 4
 - [ ] 1
-- [x] 5
-- [ ] 3
+- [ ] 5
+- [x] 3
 
 #### Q73. From which field list was the pivotTalble created?
 
