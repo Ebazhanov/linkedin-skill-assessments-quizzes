@@ -431,7 +431,7 @@
 - [ ] Cell A2 contains the value 8 and cell B2 contains the value 9.
 - [ ] Cell A2 contains the value 17 and cell B2 is empty.
 
-#### Q58. In the formula `=VLOOKUP(A1,D1:H30,3,FALSE)`, the lookup value (A1) is being looked for in _____.
+#### Q58. In the formula `=VLOOKUP(A1,D1:H30,3,FALSE)`, the lookup value (A1) is being looked for in **\_**.
 
 - [ ] column D
 - [x] columns D through H
@@ -481,12 +481,16 @@
 - [x] `=VLOOKUP(J2,A$2:C$7,3,FALSE)`
 - [ ] `=VLOOKUP(J2,A2:C7,3,FALSE)`
 
+`because we are interested in the value of the 3rd column of the table`
+
 #### Q64. Which formula calculates the total value of a single row of cells across a range of columns?
 
 - [ ] `=SUBTOTAL(C1:Y15)`
 - [ ] `=SUM(15L:15Z)`
 - [x] `=SUM(C15:Y15)`
 - [ ] `=SUM(C11:C35)`
+
+`the sum of columns C to Y for the same row 15`
 
 #### Q65. Which value is returned when you enter `=LEN(C3)` into cell F3?
 
@@ -504,7 +508,9 @@
 - [ ] Select `Paste Special > Values.`
 - [x] Select `Paste Special > Transpose.`
 - [ ] Use the `TRANSPOSE` function
-- [ ] Click `Switch Rows &  Columns`
+- [ ] Click `Switch Rows & Columns`
+
+`because it needs to be transposed without creating a reference`
 
 #### Q67. Which function returns the number of characters in a text string in cell A1?
 
@@ -549,6 +555,8 @@
 - [ ] `=SUM(OFFSET($A1,0,0,1,COLUMN()))`
 - [ ] `=B2+B3`
 
+`we are calculating the running total here`
+
 #### Q72. If a worksheet has the value 27 in cell B3, what value is returned by the `function =MOD(B3,6)`?
 
 - [ ] 4
@@ -561,12 +569,12 @@
 - [ ] rows:event, donor / values: Sum of amount
 - [ ] columns: event / row:donor / values: Sum of amount
 - [x] rows:donor, event / values: Sum of amount
-- [ ] filter: event /  row:donor / values: Sum of amount
+- [ ] filter: event / row:donor / values: Sum of amount
 
 #### Q74. In the worksheet shown below, cell C6 contains the `formula=VLOOKUP(A6,$F$2:$G$10,2,FALSE)`. What is the most likely reason that `#N/A` is returned in cell `C6` instead of mallory's `ID (2H54)`
 
 - [ ] The absolute/relative cell references in the formula are wrong
-- [ ] Cell A6 is not actualy text its a formula that need to be copied and pasted as a value 
+- [ ] Cell A6 is not actualy text its a formula that need to be copied and pasted as a value
 - [ ] Column C in the lookup range is not sorted properly
 - [x] A trailing space probably exist in cell A6 or F7
 
