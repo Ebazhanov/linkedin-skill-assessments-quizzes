@@ -740,7 +740,7 @@ p:first-child {
 - [ ] under the HTML view on the left
 - [ ] in the middle panel
 
-#### Q60. While HTML controls document structure, CSS controls **\_**.
+#### Q60. While HTML controls document structure, CSS controls `___`.
 
 - [ ] semantic meaning
 - [ ] content meaning
@@ -858,7 +858,7 @@ section {
 - [ ] `override`
 - [x] `!important`
 
-#### Q69. You can use the **\_** pseudo-class to set a different color on a link if it was clicked on.
+#### Q69. You can use the `___` pseudo-class to set a different color on a link if it was clicked on.
 
 - [x] `a:visited`
 - [ ] `a:hover`
@@ -879,14 +879,14 @@ section {
 - [x] `.header.clear {}`
 - [ ] `.header clear {}`
 
-#### Q72. A universal selector is specified using a(n) **\_**.
+#### Q72. A universal selector is specified using a(n) `___`.
 
 - [ ] "h1" string
 - [ ] "a" character
 - [ ] "p" character
 - [x] "\*" character
 
-#### Q73. In the following CSS code, `'h1'` is the **\_**, while `'color'` is the **\_**.
+#### Q73. In the following CSS code, `'h1'` is the `___`, while `'color'` is the `___`.
 
 ```css
 h1 {
@@ -955,7 +955,7 @@ body {font-size: 2rem;}
 
 - [ ] The .rem will be equivalent to 25px; the .em value will be 20px.
 - [ ] The .rem will be equivalent to 15px; the .em value will be 20px.
-- [ ] The .rem will be equivalent to 15px; the .em value will be 40px.
+- [x] The .rem will be equivalent to 15px; the .em value will be 40px.
 - [ ] The .rem will be equivalent to 20px; the .em value will be 40px.
 
 #### Q80. In this example, according to cascading and specificity rules, what color will the link be?
@@ -1012,15 +1012,131 @@ grid-template-columns: 2fr 1fr;
 
 - [ ] The first column is twice the height of the second column and will be as wide as the content
 - [ ] The first column is half the size of the container and the second column will absorb the remaining space
-- [ ] The first column is twice as wide as the second column and will fit proportionally within the grid container
+- [x] The first column is twice as wide as the second column and will fit proportionally within the grid container
 - [ ] The first column is twice the width and height of the second column, and will fit proportionally within the grid container
 
 #### Q85. Which style rule would make the image 50% smaller during a hover?
+
 ```html
-<img id="photo" alt=""  src="..." />
+<img id="photo" alt="" src="..." />
 ```
 
 - [ ] img#photo:hover {scale: 0.5;}
-- [ ] img#photo:hover {transform: scale(0.5);}
+- [x] img#photo:hover {transform: scale(0.5);}
 - [ ] img#photo {hover-scale: 0.5;}
 - [ ] img#photo:hover {size: smaller;}
+
+#### Q86. Which CSS properties can you use to create a rounded corner on just the top-left and top-right corners of an element?
+
+```css
+A. border-radius: 10px 10px 0 0;
+B. border-top-left-radius: 10px; and border-top-right-radius: 10px;
+C. border-radius: 10px 0;
+D. border-top-radius: 10px;
+```
+
+- [ ] A and C
+- [ ] C and D
+- [ ] B and C
+- [x] A and B
+
+#### Q87. Review the HTML example below. Then choose the list of selectors that select the \<p>, from lowest to highest specificity.
+
+```html
+<section>
+  <p class="example">...</p>
+</section>
+```
+
+- [ ]
+
+```css
+1. section \* {
+  ...;
+}
+2. [class*='example'] {
+  ...;
+}
+3. p.example {
+  ...;
+}
+4. section p {
+  ...;
+}
+```
+
+- [ ]
+
+```css
+1. p {
+  ...;
+}
+2. p.example {
+  ...;
+}
+3. section p {
+  ...;
+}
+4. [class*='example'] {
+  ...;
+}
+```
+
+- [ ]
+
+```css
+1. p.example {
+  ...;
+}
+2. section p {
+  ...;
+}
+3. [class*='example'] {
+  ...;
+}
+4. section \* {
+  ...;
+}
+```
+
+- [x]
+
+```css
+1. p {
+  ...;
+}
+2. section p {
+  ...;
+}
+3. [class*='example'] {
+  ...;
+}
+4. p.example {
+  ...;
+}
+```
+
+#### Q88. Which property is used to create a drop shadow effect on an HTML element?
+
+- [ ] element-shadow
+- [ ] outer-shadow
+- [ ] dropbox-shadow
+- [x] box-shadow
+
+#### Q89. Which property is used to create a drop shadow effect on an HTML element?
+
+```css
+grid-template-columns: 2fr 1ffr;
+```
+
+- [ ] The first column is half the size of the container and the second column will absorb the remaining space.
+- [ ] The first column is twice the width and height of the second column, and will fit proportionally within the grid container.
+- [ ] The first column is twice as wide as the second column and will fit proportionally within the grid container.
+- [ ] The first column is twice the height of the second column and will be as wide as the content.
+
+#### Q90. How can you create a semi-transparent background color?
+
+- [ ] background-color: hsl(0, 0, 0, 0.5);
+- [ ] background-color: rgbx(0, 0, 0, 0.5);
+- [ ] background-color: rgba(0, 0, 0, 0.5);
+- [ ] background-color: rgba(0, 0, 0, 1);

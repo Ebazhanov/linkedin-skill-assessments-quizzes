@@ -3,9 +3,9 @@
 #### Q1. You are part of data science team that is working for a national fast-food chain. You create a simple report that shows trend: Customers who visit the store more often and buy smaller meals spend more than customers who visit less frequently and buy larger meals. What is the most likely diagram that your team created?
 
 - [ ] multiclass classification diagram
-- [ ] linear regression and scatter plots
+- [x] linear regression and scatter plots
 - [ ] pivot table
-- [x] K-means cluster diagram
+- [ ] K-means cluster diagram
 
 #### Q2. You work for an organization that sells a spam filtering service to large companies. Your organization wants to transition its product to use machine learning. It currently a list Of 250,00 keywords. If a message contains more than few of these keywords, then it is identified as spam. What would be one advantage of transitioning to machine learning?
 
@@ -51,7 +51,7 @@
 - [ ] bagging
 - [x] stacking
 
-#### Q8. `\_\_\_\_` looks at the relationship between predictors and your outcome.
+#### Q8. `____` looks at the relationship between predictors and your outcome.
 
 - [x] Regression analysis
 - [ ] K-means clustering
@@ -81,7 +81,7 @@
 - [x] The algorithms would help your organization see patterns of the data.
 - [ ] By using machine learning algorithms, you are creating an IoT device.
 
-#### Q12. To predict a quantity value. use `\_\_\_\_`.
+#### Q12. To predict a quantity value. use `___`.
 
 - [x] regression
 - [ ] clustering
@@ -333,21 +333,21 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] It would substantially shorten your development time.
 - [ ] It would increase the speed of the appliance.
 
-#### QTraining1. You work for a hospital that is tracking the community spread of a virus. The hospital created a smartwatch app that uploads body temperature data from hundreds of thousands of participants. What is best technique to analyze the data?
+#### Q45. You work for a hospital that is tracking the community spread of a virus. The hospital created a smartwatch application that uploads body temperature data from hundreds of thousands of participants. What is the best technique to analyze the data?
 
-- [ ] Use reinforcement learning to reward the system when a new person participates
-- [ ] Unsupervised machine learning to cluster together people based on patterns the machine discovers
-- [ ] Supervised machine learning to sort people by demographic data
-- [x] supervised ml to classify people by body temperature
+- [ ] Use reinforcement learning to reward the system when a new person participates.
+- [ ] Use unsupervised machine learning to cluster together people based on patterns the machine discovers.
+- [ ] Use Supervised machine learning to sort people by demographic data.
+- [x] Use Supervised machine learning to classify people by body temperature.
 
-#### QTraining2. Man of the advances in ml have come from improved
+#### Q46. Many of the advances in machine learning have come from improved `___`.
 
 - [ ] statistics
-- [x] structured data
+- [ ] structured data
 - [ ] availability
-- [ ] algorithms
+- [x] algorithms
 
-#### Q45. What is this diagram a good example of?
+#### Q47. What is this diagram a good example of?
 
 ![Machine Learning Q45](images/machine-learning_Q45.jpg)
 
@@ -356,176 +356,181 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] multiclass classification
 - [x] k-nearest neighbour
 
-#### Q46. The supervisor asks to create a ml system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?
+#### Q48. The supervisor asks to create a machine learning system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?
 
 - [ ] deep learning artificial neural network that relies on petabytes of data
-- [ ] unsupervised ml system that clusters together the best candidates
-- [ ] Not recommend ml for this project
-- [x] supervised ml system that classifies applicants into existing groups // we do not need to classify best candidates we just need to classify job applicants in to existing categories
+- [ ] unsupervised machine learning system that clusters together the best candidates
+- [ ] Not recommend machine learning for this project
+- [x] supervised machine learning system that classifies applicants into existing groups // we do not need to classify best candidates we just need to classify job applicants in to existing categories
 
-#### Q47. Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?
+#### Q49. Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?
 
 - [ ] regression analysis
 - [ ] unsupervised learning
 - [ ] high -variance modeling
 - [x] ensemble modeling
 
-#### Q48. Your data science team wants to use ml to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised ml, what would you call this data set?
+#### Q50. Your data science team wants to use machine learning to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised machine learning, what would you call this data set?
 
-- [ ] ml algorithm 
-- [x] training set 
-- [ ] big data test set 
+- [ ] machine learning algorithm
+- [x] training set
+- [ ] big data test set
 - [ ] data cluster
 
-#### Q49. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of fotos without them. What is the problem?
+#### Q51. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of fotos without them. What is the problem?
 
-- [ ] You are overfitting the model to the data 
-- [ ] You need a smaller training set 
-- [x] You are underfitting the model to the data 
+- [ ] You are overfitting the model to the data
+- [ ] You need a smaller training set
+- [x] You are underfitting the model to the data
 - [ ] You need a larger training set
 
-#### Q50. Your supervisor asks you to create a machine learning system that will help your human resources department classify jobs applicants into well defined groups. What type of system are you more likely to recommend?
+#### Q52. Your supervisor asks you to create a machine learning system that will help your human resources department classify jobs applicants into well defined groups. What type of system are you more likely to recommend?
 
-- [ ] an unsupervised machine learning system that clusters together the best candidates. 
-- [ ] you would not recommend a machine learning system for this type of project. 
-- [ ] a deep learning artificial neural network that relies on petabytes of employment data. 
+- [ ] an unsupervised machine learning system that clusters together the best candidates.
+- [ ] you would not recommend a machine learning system for this type of project.
+- [ ] a deep learning artificial neural network that relies on petabytes of employment data.
 - [x] a supervised machine learning system that classifies applicants into existing groups.
 
-#### Q51. You and your data science team have 1 TB of example data. What do you typically do with that data?
+#### Q53. You and your data science team have 1 TB of example data. What do you typically do with that data?
 
 - [ ] you use it as your training set.
 - [x] You label it big data.
 - [ ] You split it into a training set and test set.
 - [ ] You use it as your test set.
 
-#### Q52. Your data science team is working on a machine learning product that can act as an artificial opponent in video games. The team is using a machine learning algorithm that focuses on rewards: If the machine does some things well, then it improves the quality of the outcome. How would you describe this type of machine learning algorithm?
+#### Q54. Your data science team is working on a machine learning product that can act as an artificial opponent in video games. The team is using a machine learning algorithm that focuses on rewards: If the machine does some things well, then it improves the quality of the outcome. How would you describe this type of machine learning algorithm?
 
 - [ ] semi-supervised machine learning
 - [ ] supervised machine learning
 - [ ] unsupervised machine learning
 - [x] reinforcement learning
 
-#### Q53. The model will be trained with data in one single batch is known as ?
+#### Q55. The model will be trained with data in one single batch is known as ?
 
 - [ ] Batch learning
 - [ ] Offline learning
 - [x] Both A and B
 - [ ] None of the above
 
-#### Q54. Which of the following is NOT supervised learning? ?
+#### Q56. Which of the following is NOT supervised learning?
 
 - [ ] Decision Tree
 - [ ] Linear Regression
 - [x] PCA
 - [ ] Naive Bayesian
 
-#### Q55. Suppose we would like to perform clustering on spatial data such as the geometrical locations of houses. We wish to produce clusters of many different sizes and shapes. Which of the following methods is the most appropriate? ?
+#### Q57. Suppose we would like to perform clustering on spatial data such as the geometrical locations of houses. We wish to produce clusters of many different sizes and shapes. Which of the following methods is the most appropriate?
 
 - [ ] Decision Trees
 - [ ] K-means clustering
 - [x] Density-based clustering
 - [ ] Model-based clustering
 
-#### Q59. The error function most suited for gradient descent using logistic regression is
+#### Q58. The error function most suited for gradient descent using logistic regression is
 
 - [ ] The entropy function.
 - [ ] The squared error.
 - [x] The cross-entropy function.
 - [ ] The number of mistakes.
 
-#### Q58. Compared to the variance of the Maximum Likelihood Estimate (MLE), the variance of the Maximum A Posteriori (MAP) estimate is **\_\_\_\_**
+#### Q59. Compared to the variance of the Maximum Likelihood Estimate (MLE), the variance of the Maximum A Posteriori (MAP) estimate is `___`
 
 - [ ] Higher
 - [ ] same
 - [x] Lower
 - [ ] it could be any of the above
 
-#### Q57. \***\*\_\_\_\*\*** refers to a model that can neither model the training data nor generalize to new data.
+#### Q60. `___` refers to a model that can neither model the training data nor generalize to new data.
 
 - [ ] good fitting
 - [ ] overfitting
 - [x] underfitting
 - [ ] all of the above
 
-#### Q58. How would you describe this type of classification challenge?
+#### Q61. How would you describe this type of classification challenge?
 
 ![Machine Learning Q58](images/machine-learning_Q58.jpg)
 
 - [x] This is a multiclass classification challenge.
-      **Explanation**: Shows data being classified into more than two categories or classes. Thus, this is a multi-class classification challenge.
 - [ ] This is a multi-binary classification challenge.
 - [ ] This is a binary classification challenge.
 - [ ] This is a reinforcement classification challenge.
 
-#### Q59. What does it mean to underfit your data model?
+  **Explanation**: Shows data being classified into more than two categories or classes. Thus, this is a multi-class classification challenge.
+
+#### Q62. What does it mean to underfit your data model?
 
 - [ ] There is too little data in your training set.
 - [ ] There is too much data in your training set.
 - [x] There is not a lot of variance but there is a high bias.
-      // Underfitted data models usually have high bias and low variance. Overfitted data models have low bias and high variance.
 - [ ] Your model has low bias but high variance.
 
-#### Q60. Asian user complains that your company's facial recognition model does not properly identify their facial expressions. What should you do?
+  `Underfitted data models usually have high bias and low variance. Overfitted data models have low bias and high variance.`
+
+#### Q63. Asian user complains that your company's facial recognition model does not properly identify their facial expressions. What should you do?
 
 - [ ] Include Asian faces in your test data and retrain your model.
 - [ ] Retrain your model with updated hyperparameter values.
 - [ ] Retrain your model with smaller batch sizes.
 - [x] Include Asian faces in your training data and retrain your model.
-      // The answer is self-explanatory: if Asian users are the only group of people making the complaint, then the training data should have more Asian faces.
 
-#### Q61. You work for a website that helps match people up for lunch dates. The website boasts that it uses more than 500 predictors to find customers the perfect date, but many costumers complain that they get very few matches. What is a likely problem with your model?
+  `The answer is self-explanatory: if Asian users are the only group of people making the complaint, then the training data should have more Asian faces.`
+
+#### Q64. You work for a website that helps match people up for lunch dates. The website boasts that it uses more than 500 predictors to find customers the perfect date, but many costumers complain that they get very few matches. What is a likely problem with your model?
 
 - [ ] Your training set is too large.
 - [ ] You are underfitting the model to the data.
 - [x] You are overfitting the model to the data.
-      **Explanation**: // This question is very similar to Q49 but involves a polar opposite scenario.
 - [ ] Your machine is creating inaccurate clusters.
 
-// I find that answer somewhat vague and unsettled. Small number of matchings does not necessarily implies that the model overfits, especially given 500 (!) independent variables. To me, it sounds more reasonable that the threshold (matching) criterion might be too tight, thus allowing only a small number of matching to occur. So a solution can be either softening the threshold criterion or increasing the number of candidates.
+  **Explanation**: // This question is very similar to Q49 but involves a polar opposite scenario.
 
-#### Q62. (Mostly) whenever we see kernel visualizations online (or some other reference) we are actually seeing:
+  `that answer somewhat vague and unsettled. Small number of matchings does not necessarily implies that the model overfits, especially given 500 (!) independent variables. To me, it sounds more reasonable that the threshold (matching) criterion might be too tight, thus allowing only a small number of matching to occur. So a solution can be either softening the threshold criterion or increasing the number of candidates.`
+
+#### Q65. (Mostly) whenever we see kernel visualizations online (or some other reference) we are actually seeing:
 
 - [x] What kernels extract
 - [ ] Feature Maps
 - [ ] How kernels Look
 
-#### Q62. The activations for class A, B and C before softmax were 10,8 and 3. The different in softmax values for class A and class B would be :
+#### Q66. The activations for class A, B and C before softmax were 10,8 and 3. The different in softmax values for class A and class B would be :
 
 - [x] 76%
 - [ ] 88%
 - [ ] 12%
 - [ ] 0.0008%
-      ![image](images/machine-learning_Q62.png)
 
-#### Q63. The new dataset you have just scraped seems to exhibit lots of missing values. What action will help you minimizing that problem?
+![image](images/machine-learning_Q62.png)
+
+#### Q67. The new dataset you have just scraped seems to exhibit lots of missing values. What action will help you minimizing that problem?
 
 - [ ] Wise fill-in of controlled random values
 - [ ] Replace missing values with averaging across all samples
 - [ ] Remove defective samples
 - [x] Imputation
 
-#### Q64. Which of the following methods can use either as an unsupervised learning or as a dimensionality reduction technique?
+#### Q68. Which of the following methods can use either as an unsupervised learning or as a dimensionality reduction technique?
 
 - [ ] SVM
 - [x] PCA
 - [ ] LDA
 - [ ] TSNE
 
-#### Q65. What is the main motivation for using activation functions in ANN?
+#### Q69. What is the main motivation for using activation functions in ANN?
 
 - [x] Capturing complex non-linear patterns
 - [ ] Transforming continuous values into "ON" (1) or "OFF" (0) values
 - [ ] Help avoiding the vanishing/exploding gradient problem
 - [ ] Their ability to activate each neurons individually.
 
-#### Q66. Which loss function would fit best in a categorical (discrete) supervised learning ?
+#### Q70. Which loss function would fit best in a categorical (discrete) supervised learning ?
 
 - [ ] kullback-leibler (KL) loss
 - [x] Binary Crossentropy
 - [ ] Mean Squared Error (MSE)
 - [ ] Any L2 loss
 
-#### Q67. What is the correct option?
+#### Q71. What is the correct option?
 
 ![image](images/machine-learning_Q67.png)
 | no. | Red | Blue | Green |
@@ -540,74 +545,85 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] 3
 - [x] 4
 
-#### Q68. You create a decision tree to show whether someone decides to go to the beach. There are three factors in this decision: rainy, overcast, and sunny. What are these three factors called?
+#### Q72. You create a decision tree to show whether someone decides to go to the beach. There are three factors in this decision: rainy, overcast, and sunny. What are these three factors called?
 
 - [ ] tree nodes
-- [x] predictors // these nodes decide whether the someone decides to go to beach or not, for example if its rainy people will mostly refrain from going to beach
+- [x] predictors
 - [ ] root nodes
 - [ ] deciders
 
-#### Q69. You need to quickly label thousands of images to train a model. What should you do?
+`// these nodes decide whether the someone decides to go to beach or not, for example if its rainy people will mostly refrain from going to beach`
+
+#### Q73. You need to quickly label thousands of images to train a model. What should you do?
 
 - [ ] Set up a cluster of machines to label the images
 - [ ] Create a subset of the images and label then yourself
 - [x] Use naive Bayes to automatically generate labels.
 - [ ] Hire people to manually label the images
 
-#### Q70. The fit line and data in the figure exhibits which pattern?
+#### Q74. The fit line and data in the figure exhibits which pattern?
 
 ![image](images/machine-learning_Q70.png)
 
 - [ ] low bias, high variance
 - [ ] high bias, low variance
 - [ ] high bias, high variance
-- [x] low bias, low variance // since the data is accurately classified and is neither overfitting or underfitting the dataset
+- [x] low bias, low variance
 
-#### Q71. Many of the advances in machine learning have come from improved?
+  `// since the data is accurately classified and is neither overfitting or underfitting the dataset`
 
-- [x] structured data
-- [ ] algorithms
+#### Q75. Many of the advances in machine learning have come from improved?
+
+- [ ] structured data
+- [x] algorithms
 - [ ] time
 - [ ] computer scientists
 
-#### Q72. You need to select a machine learning process to run a distributed neural network on a mobile application. Which would you choose?
+#### Q76. You need to select a machine learning process to run a distributed neural network on a mobile application. Which would you choose?
 
 - [ ] Scikit-learn
 - [ ] PyTorch
 - [x] Tensowflow Lite
 - [ ] Tensorflow
 
-#### Q73. Which choice is the best example of labeled data?
+#### Q77. Which choice is the best example of labeled data?
 
-- [ ] a spreadsheet
+- [x] a spreadsheet
 - [ ] 20,000 recorded voicemail messages
-- [x] 100,000 images of automobiles
+- [ ] 100,000 images of automobiles
 - [ ] hundreds of gigabytes of audio files
 
-#### Q74. In statistics, what is defined as the probability of a hypothesis test of finding an effect - if there is an effect to be found?
+#### Q78. In statistics, what is defined as the probability of a hypothesis test of finding an effect - if there is an effect to be found?
 
 - [ ] confidence
 - [ ] alpha
 - [x] power
 - [ ] significance
 
-#### Q75. You want to create a machine learning algorithm to identify food recipes on the web. To do this, you create an algorithm that looks at different conditional probabilities. So if the post includes the word *flour*, it has a slightly stronger probability of being a recipe. If it contains both *flour* and *sugar*, it even more likely a recipe. What type of algorithm are you using?
+#### Q79. You want to create a machine learning algorithm to identify food recipes on the web. To do this, you create an algorithm that looks at different conditional probabilities. So if the post includes the word _flour_, it has a slightly stronger probability of being a recipe. If it contains both _flour_ and _sugar_, it even more likely a recipe. What type of algorithm are you using?
 
-- [ ] naive Bayes classifier
+- [x] naive Bayes classifier
 - [ ] K-nearest neighbor
 - [ ] multiclass classification
-- [x] decision tree
+- [ ] decision tree
 
-#### Q76. What is lazy learning?
+#### Q80. What is lazy learning?
 
 - [ ] when the machine learning algorithms do most of the programming
 - [ ] when you don't do any data scrubbing
 - [x] when the learning happens continuously
 - [ ] when you run your computation in one big instance at the beginning
 
-#### Q77. What is Q-learning reinforcement learning?
+#### Q81. What is Q-learning reinforcement learning?
 
 - [ ] supervised machine learning with rewards
 - [ ] a type of unsupervised learning that relies heavily on a well-established model
 - [ ] a type of reinforcement learning where accuracy degrades over time
 - [x] a type of reinforcement learning that focuses on rewards
+
+#### Q82. Data in your model has low bias and low variance. How would you expect the data points to be grouped together on the diagram?
+
+- [ ] They would be grouped tightly together in the predicted outcome.
+- [ ] They would be grouped tightly together but far from the predicted.
+- [ ] They would be scattered around the predict outcome.
+- [x] They would be scattered far away from the predeicted outcome.

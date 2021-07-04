@@ -335,7 +335,7 @@ System.out.print("apple".compareTo("banana"));
 - [x] `names.sort(List.DESCENDING)`
 - [ ] `names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())`
 
-#### Q21. By implementing encapsulation, you cannot directly access the class's **\_** properties unless you are writing code inside the class itself.
+#### Q21. By implementing encapsulation, you cannot directly access the class's \_\_\_ properties unless you are writing code inside the class itself.
 
 - [x] private
 - [ ] protected
@@ -387,24 +387,22 @@ Reason : Observe the loop increment. It's not an increment, it's an assignment(p
 - [ ] hello
 - [x] main
 
-#### Q26. What is the result of this code?
+### 26. What code would you use in Constructor A to call Constructor B?
 
 ```java
-try{
-    System.out.print("Hello World");
-}catch(Exception e){
-    System.out.println("e");
-}catch(ArithmeticException e){
-    System.out.println("e");
-}finally{
-    System.out.println("!")
-}
+public class Jedi {
+  /* Constructor A */
+  Jedi(String name, String species){}
+  
+  /* Constructor B */
+  Jedi(String name, String species, boolean followsTheDarkSide){}
+  }
 ```
 
-- [ ] It will throw a runtime exception
-- [x] It will not compile
-- [ ] Hello World!
-- [ ] Hello World
+- [ ] Jedi(name, species, false)
+- [ ] new Jedi(name, species, false)
+- [x] this(name, species, false)
+- [ ] super(name, species, false)
 
 #### Q27. Which statement is **NOT** true?
 
@@ -745,7 +743,7 @@ public class Duck {
 - [x] `ducks.add(new Duck("Waddles"));`
 - [ ] `ducks.add(new Waddles());`
 
-#### Q50. If you encounter `UnsupportedClassVersionError` it means the code was `**\_**` on a newer version of Java than the JRE `**\_**` it.
+#### Q50. If you encounter `UnsupportedClassVersionError` it means the code was `___` on a newer version of Java than the JRE `___` it.
 
 - [ ] executed; interpreting
 - [ ] executed; compiling
@@ -1039,7 +1037,8 @@ groucyButton.addActionListener(new ActionListener() {
 - [x] Set object to null and call System.gc()
 - [ ] Set object to null and call Runtime.getRuntime().runFinalization()
 - [ ] There is no way to force an object to be garbage collected
-      [Reference](https://www.baeldung.com/java-hashcode)
+
+[Reference](https://www.baeldung.com/java-hashcode)
 
 #### Q72. Java programmers commonly use design patterns. Some examples are the **\_\_**, which helps create instances of a class, the **\_\_**, which ensures that only one instance of a class can be created; and the **\_\_**, which allows for a group of algorithms to be interchangeable.
 
@@ -1055,13 +1054,12 @@ groucyButton.addActionListener(new ActionListener() {
 - [ ] Reflection.getName(this); Reflection.getMethods(this)
 - [ ] Reflection.getClass(this).getName(); Reflection.getClass(this).getMethods()
 
-#### Q74. What is a valid use of the hashCode() method?
+#### Q74. Which is not a valid lambda expression?
 
-- [ ] moving objects from a List to a HashMap
-- [x] deciding if two instances of a class are equal
-- [ ] enabling HashMap to find matches faster
-- [ ] encrypting user passwords
-
+- [ ] `a -> false;`
+- [ ] `(a) -> false;`
+- [x] `String a -> false;`
+- [ ] `(String a) -> false;`
 
 #### Q75. Which access modifier makes variables and methods visible only in the class where they are declared?
 
@@ -1079,35 +1077,35 @@ groucyButton.addActionListener(new ActionListener() {
 
 #### Q77. How would you convert a String to an Int?
 
-- [ ] ```"21".intValue()```
-- [ ] ```String.toInt("21")```
-- [x] ```Integer.parseInt("21")```
-- [ ] ```String.valueOf("21")```
+- [ ] `"21".intValue()`
+- [ ] `String.toInt("21")`
+- [x] `Integer.parseInt("21")`
+- [ ] `String.valueOf("21")`
 
 #### Q78. What method should be added to the Duck class to print the name Moby?
 
 ```java
 public class Duck {
     private String name;
-    
+
     Duck(String name) {
         this.name = name;
     }
-    
+
     public static void main(String[] args) {
         System.out.println(new Duck("Moby"));
     }
 }
 ```
 
-- [x] ```public String toString() { return name; } ```
-- [ ] ```public void println() { System.out.println(name); } ```
-- [ ] ```String toString() { return this.name; } ```
-- [ ] ```public void toString() { System.out.println(this.name); } ```
+- [x] `public String toString() { return name; } `
+- [ ] `public void println() { System.out.println(name); } `
+- [ ] `String toString() { return this.name; } `
+- [ ] `public void toString() { System.out.println(this.name); } `
 
 #### Q79. Which operator is used to concatenate Strings in Java
 
-- [x] +
+- [x] -
 - [ ] &
 - [ ] .
 - [ ] -
@@ -1124,3 +1122,117 @@ for (int i = 44; i > 40; i--) {
 - [x] four
 - [ ] three
 - [ ] five
+
+#### Q81. What is the value of myCharacter after line 3 is run?
+
+```java
+1: public class Main {
+2:   public static void main (String[] args) {
+3:     char myCharacter = "piper".charAt(3);
+4:   }
+5: }
+```
+
+- [ ] p
+- [ ] r
+- [x] e
+- [ ] i
+
+#### Q82. When should you use a static method?
+
+- [ ] when your method is related to the object's characteristics
+- [x] when you want your method to be available independently of class instances
+- [ ] when your method uses an object's instance variable
+- [ ] when your method is dependent on the specific instance that calls it
+
+#### Q83. What phrase indicates that a function receives a copy of each argument passed to it rather than a reference to the objects themselves?
+
+- [ ] pass by reference
+- [ ] pass by occurrence
+- [x] pass by value
+- [ ] API call
+
+#### Q84. In Java, what is the scope of a method's argument or parameter?
+
+- [x] inside the method
+- [ ] both inside and outside the method
+- [ ] neither inside nor outside the method
+- [ ] outside the method
+
+#### Q85. What is the output of this code?
+
+```java
+public class Main {
+  public static void main (String[] args) {
+    int[] sampleNumbers = {8, 5, 3, 1};
+    System.out.println(sampleNumbers[2]);
+  }
+}
+```
+
+- [ ] 5
+- [ ] 8
+- [ ] 1
+- [x] 3
+
+#### Q86. Which change will make this code compile successfully?
+
+```java
+1: public class Main {
+2:   String MESSAGE ="Hello!";
+3:   static void print(){
+4:     System.out.println(message);
+5:   }
+6:   void print2(){}
+7: }
+```
+
+- [x] Change line 2 to `public static final String message`
+- [ ] Change line 6 to `public void print2(){}`
+- [ ] Remove the body of the `print2` method and add a semicolon.
+- [ ] Remove the body of the `print` method.
+
+#### Q87. What is the output of this code?
+
+```java
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+    String[] array = new String[]{"A", "B", "C"};
+    List<String> list1 = Arrays.asList(array);
+    List<String> list2 = new ArrayList<>(Arrays.asList(array));
+    List<String> list3 = new ArrayList<>(Arrays.asList("A", new String("B"), "C"));
+    System.out.print(list1.equals(list2));
+    System.out.print(list1.equals(list3));
+  }
+}
+```
+
+- [ ] falsefalse
+- [x] truetrue
+- [ ] falsetrue
+- [ ] truefalse
+
+#### Q88. Which code snippet is valid?
+
+- [ ] `ArrayList<String> words = new ArrayList<String>(){"Hello", "World"};`
+- [ ] `ArrayList words = Arrays.asList("Hello", "World");`
+- [ ] `ArrayList<String> words = {"Hello", "World"};`
+- [x] `ArrayList<String> words = new ArrayList<>(Arrays.asList("Hello", "World"));`
+
+#### Q89. What is the output of this code?
+
+```java
+class Main {
+  public static void main(String[] args) {
+    StringBuilder sb = new StringBuilder("hello");
+    sb.deleteCharAt(0).insert(0, "H")." World!";
+    System.out.println(sb);
+  }
+}
+```
+
+- [x] A runtime exception is thrown.
+- [ ] "HelloWorld!"
+- [ ] "hello"
+- [ ] ????

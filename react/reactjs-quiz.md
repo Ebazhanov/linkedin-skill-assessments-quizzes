@@ -635,24 +635,24 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 - [ ] white
 
 #### Q60. Which answer best describes a function component?(Not sure answer)
+
 - [ ] `A function component is the same as a class component.`
-- [ ] `A function component accepts a single props object and returns a React element.`
+- [x] `A function component accepts a single props object and returns a React element.`
 - [ ] `A function component is the only way to create a component.`
 - [ ] `A function component is required to create a React component.`
 
 #### Q61.Which library does the fetch() function come from?
+
 - [ ] `FetchJS`
 - [ ] `ReactDOM`
-- [X] `No library. fetch() is supported by most browsers.`
+- [x] `No library. fetch() is supported by most browsers.`
 - [ ] `React`
 
 #### Q62.What is the difference between the click behaviors of these two buttons(assuming that this.handleClick is bound correctly)
 
 ```javascript
-
-A. <button onClick=fthis.handleClickl>Click Me</button>
-B. <button onClick={event => this.handleClick(event)}>Click Me</button>
-
+  A. <button onClick=this.handleClick>Click Me</button>
+  B. <button onClick={event => this.handleClick(event)}>Click Me</button>
 ```
 
 - [ ] `Button A will not have access to the event object on click of the button`
@@ -660,18 +660,17 @@ B. <button onClick={event => this.handleClick(event)}>Click Me</button>
 - [ ] `There is no difference`
 - [ ] `Button B will not fire the handler this.handleClick successfully`
 
-#### Q63.What will happen when this useEffect Hook is executed, assuming name is not already equal to John? 
+#### Q63.What will happen when this useEffect Hook is executed, assuming name is not already equal to John?
 
 ```javascript
 useEffect(() => {
-  setName("John");
+  setName('John');
 }, [name]);
 ```
 
-
 - [ ] `It will cause an error immediately.`
 - [ ] `It will execute the code inside the function, but only after waiting to ensure that no other component is accessing the name variable.`
-- [ ] `It will update the value of name once and not run again until name is changed from the outside.`
+- [x] `It will update the value of name once and not run again until name is changed from the outside.`
 - [ ] `It will cause an infinite loop.`
 
 #### Q64. How would you add to this code, from React Router, to display a component called About?
@@ -680,21 +679,51 @@ useEffect(() => {
 <Route path="/:id" />
 ```
 
-- [ ] ```javascript
-          <Route path="/:id"> <About />
-          </Route>
-      ```
-- [ ] ```javascript
-          <Route path="/tid" about={Component} />
-      ```
-- [ ] ```javascript
-           <Route path="/:id" route={About} />
-      ```
-- [ ] ```javascript
-          <Route>
-            <About path="/:id" />
-          </Route>
-      ```      
+- [ ] ``````````javascript
+      (
+        <Route path="/:id">
+          {' '}
+          <About />
+        </Route>
+      )```
+                              ````
+                          `````;
+      ``````;
+      ```````
+              ````````
+          `````````;
+      ``````````
+- [ ] ``````````javascript
+      (<Route path="/tid" about={Component} />)```
+                              ````
+                          `````;
+      ``````;
+      ```````
+              ````````
+          `````````;
+      ``````````
+- [ ] ``````````javascript
+      (<Route path="/:id" route={About} />)```
+                              ````
+                          `````;
+      ``````;
+      ```````
+              ````````
+          `````````;
+      ``````````
+- [ ] ``````````javascript
+      (
+        <Route>
+          <About path="/:id" />
+        </Route>
+      )```
+                              ````
+                          `````;
+      ``````;
+      ```````
+              ````````
+          `````````;
+      ``````````
 
 #### Q65. Which class-based component is equivalent to this function component?
 
@@ -702,19 +731,134 @@ useEffect(() => {
 const Greeting ({ name }) > <h1>Hello {name}!</h1>;
 ```
 
-- [ ] ```javascript
-          class Greeting extends React.Component {
-          constructor() { return <h1>Hello (this.props.name)!</h1>; }
-          }
+- [ ] ``````````javascript
+      class Greeting extends React.Component {
+        constructor() {
+          return <h1>Hello (this.props.name)!</h1>;
+        }
+      }
       ```
-- [ ] ```javascript
-         class Greeting extends React.Component { <h1>Hello (this.props.name}!</h1>; }
-      ```      
-- [ ] ```javascript
-         class Greeting extends React.Component { return <h1>Hello (this.props.name) 1</h1>; }
-      ```
-- [ ] ```javascript
-          class Greeting extends React.Component ( render({ name }) {
-            return <h1>Hello (name)} !</h1>;
-          })
-      ```                
+                              ````
+                          `````;
+      ``````;
+      ```````
+              ````````
+          `````````;
+      ``````````
+- [ ] ``````````javascript
+                                     class Greeting extends React.Component { <h1>Hello (this.props.name}!</h1>; }
+                                  ```
+                              ````
+                          `````
+                      ``````
+                  ```````
+              ````````
+          `````````
+      ``````````
+- [ ] ``````````javascript
+                                     class Greeting extends React.Component { return <h1>Hello (this.props.name) 1</h1>; }
+                                  ```
+                              ````
+                          `````
+                      ``````
+                  ```````
+              ````````
+          `````````
+      ``````````
+- [ ] ``````````javascript
+                                      class Greeting extends React.Component ( render({ name }) {
+                                        return <h1>Hello (name)} !</h1>;
+                                      })
+                                  ```
+                              ````
+                          `````
+                      ``````
+                  ```````
+              ````````
+          `````````
+      ``````````
+
+#### Q66. Give the code below, what does the second argument that is sent to the render function describe?
+
+```javascript
+ReactDOM.render(
+  <h1>Hi<h1>,
+    document.getElementById('root')
+)
+```
+
+- [x] where the React element should be added to the DOM
+- [ ] where to call the function
+- [ ] where the root component is
+- [ ] where to create a new JavaScript file
+
+#### Q67. Why should you use React Router's Link component instead of a basic `<a>` tag in React?
+
+- [ ] The link component allows the user to use the browser's `Back` button.
+- [ ] There is no difference--the `Link` component is just another name for the `<a>` tag.
+- [ ] The `<a>` tag will cause an error when used in React.
+- [ ] The `<a>` tag triggers a full page reload, while the `Link` component does not.
+
+#### Q68. What is the first argument, `x`, that is sent to the `createElement` function?
+
+```javascript
+React.createElement(x, y, z);
+```
+
+- [x] the element that should be created
+- [ ] the order in which this element should be placed on the page
+- [ ] the properties of the element
+- [ ] data that should be displayed in the element
+
+#### Q69. Which class-based lifecycle method would be called at the same time as this effect Hook?
+
+```javascript
+useEffect(() => {
+  // do things
+}, []);
+```
+
+- [ ] componentWillUnmount
+- [x] componentDidMount
+- [ ] render
+- [ ] componentDidUpdate
+
+#### Q70. Given the code below, what does the second argument that is sent to the render function describe?
+
+```javascript
+ReactDOM.render(
+  <h1>Hi</h1>,
+  document.getElementById('root')
+);
+```
+
+- [x] where the React element should be added to the DOM
+- [ ] where to call the function
+- [ ] where the root component is
+- [ ] where to create a new JavaScript file
+
+#### Q71. What is the first argument, x, that is sent to the `createElement` function?
+
+`React.createElement(x,y,z);`
+
+- [x] the element that should be created
+- [ ] the order in which this element should be placed on the page
+- [ ] the properties of the element
+- [ ] data that should be displayed in the element.
+
+#### Q72. What is the name of this component?
+
+```javascript
+class Comp extends React.Component {
+  render() {
+    return <h1>Look at the time: {time}</h1>;
+  }
+}
+```
+
+- [x] Comp
+- [ ] h1
+- [ ] React.Component
+- [ ] Component
+
+This question might be an updated version of Q37.

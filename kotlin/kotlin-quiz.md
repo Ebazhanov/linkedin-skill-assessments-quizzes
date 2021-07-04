@@ -9,7 +9,7 @@ fun main() {
 ```
 
 - [x] `.withIndex()`
-([reference](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.sequences/with-index.html))
+      ([reference](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.sequences/with-index.html))
 - [ ] `.forEachIndexed()`
 - [ ] `.forEach()`
 - [ ] `.forIndexes()`
@@ -37,13 +37,13 @@ class Airplane(private val name: String) : Aircraft() {
 - [ ] Only abstract classes can inherit from multiple superclasses
 - [ ] Only abstract classes can have abstract methods
 - [x] Only abstract classes can store state
-[reference](https://blog.kotlin-academy.com/abstract-class-vs-interface-in-kotlin-5ab8697c3a14)
+      [reference](https://blog.kotlin-academy.com/abstract-class-vs-interface-in-kotlin-5ab8697c3a14)
 
 #### Q4. Inside an extension function, what is the name of the variable that corresponds to the receiver object
 
 - [ ] The variable is named **it**
 - [x] The variable is named **this**
-[reference](https://www.programiz.com/kotlin-programming/extension-functions#:~:text=The%20class%20name%20is%20the,function%20refers%20the%20receiver%20object)
+      [reference](https://www.programiz.com/kotlin-programming/extension-functions#:~:text=The%20class%20name%20is%20the,function%20refers%20the%20receiver%20object)
 - [ ] The variable is named **receiver**
 - [ ] The variable is named **default**
 
@@ -57,9 +57,10 @@ fun add(a: Int, b: Int): Int {
 
 - [ ] `println(add(5,10).invoke())`
 - [x] `println(::add.invoke(5, 10))`
-([reference](https://kotlinlang.org/docs/operator-overloading.html#invoke-operator))
+      ([reference](https://kotlinlang.org/docs/operator-overloading.html#invoke-operator))
 - [ ] `println(::add.invoke{5, 10})`
 - [ ] `println(add.invoke(5,10))`
+
 #### Q6. What is the entry point for a Kotlin application?
 
 - [ ] `fun static main(){}`
@@ -108,7 +109,7 @@ val task = launch {
 - [ ] You must wrap all implicit conversion in a try/catch block
 - [ ] You can only assign Long to an Int, not the other way around
 - [x] There is no implicit conversion from Int to Long
-([reference](https://kotlinlang.org/docs/basic-types.html#explicit-conversions))
+      ([reference](https://kotlinlang.org/docs/basic-types.html#explicit-conversions))
 - [ ] All integers in Kotlin are of type Long
 
 #### Q11. You have written a snippet of code to display the results of the roll of a six-sided die. When the die displays from 3 to 6 inclusive, you want to display a special message. Using a Kotlin range, what code should you add?
@@ -445,7 +446,7 @@ val addend = 1
 infix fun Int.add(added: Int=1) = this + addend
 fun main(){
   val msg = "Hello"
-  println( msg shouldMatch "Hello")    
+  println( msg shouldMatch "Hello")
   println( 10 multiply 5 + 2)
   println( 10 add 5)
 }
@@ -486,8 +487,8 @@ fun main(){
 
 - [ ] The extension function should be marked public
 - [ ] Add the prefix operator to the shouldMatch extension function
-- [x] The code is not legal in Kotlin (should be `println(msg.shouldEqual("test message"))`)
-- [ ] Add the prefix infix to the shouldMatch extension function
+- [ ] The code is not legal in Kotlin (should be `println(msg.shouldEqual("test message"))`)
+- [x] Add the prefix infix to the shouldMatch extension function
 
 #### Q44. What is the difference between the declarations of COLOR and SIZE?
 
@@ -518,9 +519,9 @@ fun main() {
 }
 ```
 
-- [x] Because name is a class parameter, not a property-it is unresolved ```main()```.
-- [ ] In order to create an instance of a class, you need the keyword ```new```
-- [ ] The reference to name needs to be scoped to the class, so it should be ```this.name```
+- [x] Because name is a class parameter, not a property-it is unresolved `main()`.
+- [ ] In order to create an instance of a class, you need the keyword `new`
+- [ ] The reference to name needs to be scoped to the class, so it should be `this.name`
 - [ ] Classes cannot be immutable. You need to change var to val
 
 #### Q46. The code below shows a typical way to show both index and value in many languages, including Kotlin. Which line of code shows a way to get both index and value more idiomatically?
@@ -533,10 +534,10 @@ for (value in 1..5){
 }
 ```
 
-- [x] ```for( (ndx, value) in (1..20).withIndex() ){``` ([reference](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.sequences/with-index.html))
-- [ ] ```for( (ndx, value) in (1..20).pair() ){```
-- [ ] ```for( Pair(ndx, value) in 1..20 ){```
-- [ ] ```for( (ndx, value) in *(1..20) ){```
+- [x] `for( (ndx, value) in (1..20).withIndex() ){` ([reference](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.sequences/with-index.html))
+- [ ] `for( (ndx, value) in (1..20).pair() ){`
+- [ ] `for( Pair(ndx, value) in 1..20 ){`
+- [ ] `for( (ndx, value) in *(1..20) ){`
 
 #### Q47. The Kotlin .. operator can be written as which function?
 
@@ -554,10 +555,10 @@ fun main(){
 }
 ```
 
-- [ ] ```proj.0```
-- [ ] ```proj[0]```
-- [ ] ```proj[1]```
-- [x] ```proj.component1()``` ([reference](https://kotlinlang.org/docs/destructuring-declarations.html))
+- [ ] `proj.0`
+- [ ] `proj[0]`
+- [ ] `proj[1]`
+- [x] `proj.component1()` ([reference](https://kotlinlang.org/docs/destructuring-declarations.html))
 
 #### Q49. This function generates Fibonacci sequence. Which function is missing?
 
@@ -579,10 +580,43 @@ fun fibonacci() = sequence {
 #### Q50. In this code snippet, why does the compiler not allow the value of y to change?
 
 ```kotlin
-for(y in 1..100) y+=2 
+for(y in 1..100) y+=2
 ```
 
 - [ ] y must be declared with var to be mutable
 - [x] y is an implicitly immutable value
 - [ ] y can change only in a while loop
 - [ ] In order to change y, it must be declared outside of the loop
+
+#### Q51. You have created a data class, Point, that holds two properties, x and y, representing a point on a grid. You want to use the hash symbol for subtraction on the Point class, but the code as shown will not compile. How can you fix it?
+
+```kotlin
+data class Point(val x: Int, val y: Int)
+
+operator fun Point.plus(other: Point) = Point(x + other.x, y + other.y)
+operator fun Point.hash(other: Point) = Point(x - other.x, y - other.y)
+
+fun main() {
+    val point1 = Point(10, 20)
+    val point2 = Point(20, 30)
+    println(point1 + point2)
+    println(point1 # point2)
+}
+```
+
+- [x] You cannot; the hash symbol is not a valid operator.
+- [ ] You should replace the word hash with octothorpe, the actual name for the symbol.
+- [ ] You should use `minus` instead of hash, then type alias the minus symbol.
+- [ ] You need to replace operator with the word `infix`.
+
+#### Q52. This code snippet compiles without error, but never prints the results when executed. What could be wrong?
+
+```kotlin
+val result = generateSequence(1) { it + 1 }.toList()
+println(result)
+```
+
+- [ ] The sequence lacks a terminal operation.
+- [x] The sequence is infinite and lacks an intermediate operation to make it finite.
+- [ ] The expression should begin with generateSequence(0).
+- [ ] The it parameter should be replaced with this.

@@ -279,9 +279,9 @@ SELECT @UniqueID AS Result;
 #### Q30. To remove all of the content from the Students table but keep the schema, which statement should you use?
 
 - [x] TRUNCATE TABLE Students;
-- [ ] TRUNCATE * FROM Students;
+- [ ] TRUNCATE \* FROM Students;
 - [ ] DROP TABLE Students;
-- [ ] REMOVE * FROM Students;
+- [ ] REMOVE \* FROM Students;
 
 #### Q31. Review the CREATE TABLE statement below. Which option, when placed in the blank space, ensures that the BookISBN column will not contain any duplicate values?
 
@@ -290,7 +290,7 @@ CREATE TABLE Books (
     BookID int PRIMARY KEY,
     BookISBN char(13) NOT NULL _____,
     BookTitle nvarchar(100) NOT NULL
-);    
+);
 ```
 
 - [ ] NO DUPLICATES
@@ -308,30 +308,38 @@ GREATE TABLE Students (
 ```
 
 - [ ]
+
 ```
 SELECT StudentName
 FROM Students
 WHERE Grade = (SELECT MIN(Grade) FROM Student);
 ```
+
 - [x]
+
 ```
 SELECT TOP(1) Grade
 FROM Students
 ORDER BY Grade;
 ```
+
 - [ ]
+
 ```
-SELECT MIN(Grade) 
+SELECT MIN(Grade)
 FROM Students
 ORDER BY Grade;
 ```
+
 - [ ]
+
 ```
-SELECT MIN(Grade) 
+SELECT MIN(Grade)
 FROM Students
 ```
 
 #### Q33. Given a table with the following structure, which query will not return the lowest grade earned by any student?
+
 ![T-SQL-Q33](images/Q33.jpg)
 
 - [ ] UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id='56295';

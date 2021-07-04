@@ -246,7 +246,8 @@ Note: Free trial doesn't have the organizations.
 - [ ] GCP buckets
 - [ ] GCP credentials
 - [x] GCP users
-      https://cloud.google.com/endpoints/docs/openapi/enable-api
+
+[reference link](https://cloud.google.com/endpoints/docs/openapi/enable-api)
 
 #### Q36. Which object is used to hold payment information for a GCP project?
 
@@ -254,7 +255,8 @@ Note: Free trial doesn't have the organizations.
 - [x] billing account
 - [ ] folder
 - [ ] payment account
-      https://cloud.google.com/billing/docs/images/billing-project.png
+
+[reference link](https://cloud.google.com/billing/docs/images/billing-project.png)
 
 #### Q37. You need to cache your HTTP and HTTPS static content closer to users, so that you can get faster delivery and reduce serving costs. Which service do you set up?
 
@@ -262,7 +264,8 @@ Note: Free trial doesn't have the organizations.
 - [ ] Cloud NAT
 - [x] Cloud CDN
 - [ ] Cloud Load Balancing
-      https://cloud.google.com/cdn/docs/caching
+
+[reference link](https://cloud.google.com/cdn/docs/caching)
 
 #### Q38. You are designing security for an IoT device application. What best practices should you include in your design?
 
@@ -270,7 +273,8 @@ Note: Free trial doesn't have the organizations.
 - [ ] Use a public key for each device. Keep the public key secret.
 - [ ] Use a public private key pair for each device. Keep the public key secret.
 - [x] Use a public private key pair for each device. Keep the private key secret.
-      https://cloud.google.com/iot/docs/concepts/device-security
+
+[reference link](https://cloud.google.com/iot/docs/concepts/device-security)
 
 #### Q39. You need to set a WordPress site with high availability on GCP using the fewest steps. What do you do?
 
@@ -278,3 +282,17 @@ Note: Free trial doesn't have the organizations.
 - [ ] Configure and launch the WordPress HA deployment template from the WordPress Marketplace.
 - [x] Create, configure, and launch a WordPress HA deployment template on Compute Engine.
 - [ ] Create, configure, and launch a WordPress HA deployment template on Google Kubernetes Engine.
+
+#### Q41. How do you configure Cloud Build to rebuild your image when a change is made to the source code?
+
+- [x] Add a Cloud Build trigger, and set it to fire on commit to associate repository.
+- [ ] Add a Cloud Build function, and set it to fire on commit to associate repository.
+- [ ] Add a Cloud Build trigger, and set it to fire on commit to associate registry.
+- [ ] Add a Cloud Build function, and set it to fire on commit to associate registry.
+
+#### Q42. To be able to decrypt files that were encrypted with a customer-manager key, what conditions must be met?
+
+- [x] Specify the decryption key with the same name as the encryption key. At least one version of a key with that name must be enabled.
+- [ ] Specify a decryption key and version with the same name as the encryption key and version. The name key and that version must be enabled.
+- [ ] Specify the decryption key with the same name as the encryption key. The named key and that version must be enabled.
+- [ ] Specify a decryption key and version with the same name as the encryption key and version. At least one version of a key with that name must be enabled.

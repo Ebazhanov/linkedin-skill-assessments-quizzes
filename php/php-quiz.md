@@ -432,7 +432,6 @@ echo "No, mail is not set";
 - [ ] The opening and closing single quotes should be replaced by double quotes; and the apostrophe should be escaped by a backslash.
 - [x] The apostrophe needs to be escaped by a backslash to prevent it from being treated as the closing quote.
 
-
 ##### Q42. A PDO object called $db has been set up to use for database operations, including user authentication. All user-related properties are set. The script line `public function __construct(&$db)` shows a constructor that initializes all user-related properties to \_\_\_\_ if no user has logged in. These parameters will be properly set by the login functions when a user logs in.
 
 - [x] NULL
@@ -518,3 +517,96 @@ class Cow {
       echo $books->book[0]->categories->category[1];
 - [ ] $books = SimpleXML('books.xml');
       echo $books->book[0]->categories->category[1];
+
+##### Q46. When it comes to the value of a variable, what is the difference between NULL and empty?
+
+- [ ] NULL is a blank value; empty is the lack of a value.
+- [ ] A NULL value has an allocated address in memory; empty does not.
+- [ ] NULL referes to the lack of a value for an integer; empty refers to the lack of a value for a string.
+- [ ] NULL is the lack of a value; empty is a blank value.
+
+##### Q47. What would be a good name for this function?
+
+```
+function doStuff($haystack, $needle) {
+      $length = strlen($needle)
+      if (substr($haystack, 0, $needle) == $needle)
+        return true;
+      else
+        return false;
+}
+```
+
+- [ ] equals
+- [ ] endsWith
+- [x] startsWith
+- [ ] contains
+
+##### Q48. If you want to pass a formfield to another page when a button is clicked, you should use the **_ . If you want to store information across multiple pages, you should use the _**?
+
+- [ ] request; response
+- [ ] response; request
+- [ ] session; request
+- [x] request; session
+
+##### Q49. You are using the following code to decide if a button is clicked, but it is never returning true. Which step is most likely to shed light on the problem?
+
+```
+isset($_POST['submit'])
+```
+
+- [ ] Make sure the input field displaying the button is named 'submit'
+- [ ] Make sure you are not missing any semicolons
+- [ ] Print everything in the session `print_r($_SESSION);`
+- [ ] Look in the query string at the top of your browser to see if submit is assigned a value
+
+##### Q50. Why should you follow a PSR standard?
+
+- [ ] because coding standards often vary between developers and companies
+- [ ] because coding standards are monitored for compliance across developers and companies
+- [ ] because there are mandatory coding standards among developers and companies
+- [ ] if using certain platforms, because the PSR's apply to those platforms only
+
+##### Q51. What are getters and setters?
+
+- [ ] Getters and setters ensure that if a data member is declared private, then it can be accessed only within the same function, not by an outside class
+- [ ] Getters and setters are utility functions within PHP that allow loading from, and saving to, a database
+- [ ] Getters and setters encapsulate the fields of a class by making them acccessible only through its private methods, and keep the values themselves public
+- [x] Getters and setters are methods used to declare or obtain the values of variables, usually private ones
+
+#### Q52. What are the recommended settings in the PHP configuration file, php.ini, for a testing environment?
+
+- [ ]
+
+```
+report_errors = E_ALL
+display_errors = On
+```
+
+- [x]
+
+```
+error_reporting = E_ALL
+display_errors = On
+```
+
+- [ ]
+
+```
+error_reporting = E_ALL & ~E_NOTICE
+display_errors = Off
+```
+
+- [ ]
+
+```
+error_reporting = E_ALL & ~E_NOTICE
+display_errors = On
+```
+
+#### Q53. Which PHP variable name is invalid?
+
+- [ ] $Double
+- [ ] $double
+- [ ] $\_2times
+- [x] $2times

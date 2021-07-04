@@ -175,7 +175,7 @@
 - [ ] STRUCTURE table;
 - [x] DESCRIBE table;
 
-#### Q15. MySQL uses security based on**\_**for all connections, queries, and other operations that users can attempt to perform.
+#### Q15. MySQL uses security based on\_\_\_for all connections, queries, and other operations that users can attempt to perform.
 
 - [ ] administrator schema
 - [ ] encrypted algorithms
@@ -406,12 +406,12 @@
 - [ ] insert into
 - [x] show create table
 
-#### Q46. you need to make your mysql system secure against hackers. What are you not supposed to do?
+#### Q46. you need to make your mysql system secure against attackers. What are you _not_ supposed to do?
 
-- [ ] Run the server as normal user
-- [x] grant process or super privilege to other user
-- [ ] run the server as the unix root user
-- [ ] use the compressed protocol
+- [ ] Run MySQL server as a normal user.
+- [ ] Grant PROCESS or SUPER privilege to other users.
+- [x] Run MySQL server as the unix root user.
+- [ ] Use the compressed protocol.
 
 #### Q47. You manage a database with a table "customers". You created a temporary table also called "customers" with which you are working for the duration of your session. You need to recreate the temporary table with different specs. Which command do you need to run first?
 
@@ -657,7 +657,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 #### Q71. Which choice is _not_ a valid model for a stored procedure parameter?
 
-- [X] INOUT
+- [x] INOUT
 - [ ] IN
 - [ ] OUT
 - [ ] IN OUT
@@ -666,7 +666,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 - [ ] The temporary table will be dropped when the database is restarted.
 - [ ] Temporary tables can be shared among clients, which makes them more usable in group development environments.
-- [X] The temporary table will be dropped as soon as your session disconnects.
+- [x] The temporary table will be dropped as soon as your session disconnects.
 - [ ] Creating a temporary table does not require any special privileges.
 
 #### Q73. Which is a valid constructor for a class named User?
@@ -686,7 +686,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 #### Q75. Which command will return a list of triggers in the current database?
 
 - [ ] DISPLAY TRIGGERS;
-- [X] SHOW TRIGGERS;
+- [x] SHOW TRIGGERS;
 - [ ] SELECT ALL TRIGGERS;
 - [ ] SELECT \* FROM information_schema.triggers;
 
@@ -697,9 +697,86 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [x] TIMESTAMP and DATETIME are both stored without time zone.
 - [ ] TIMESTAMP is stored in UTC values, and DATETIME is stored in without time zone.
 
-#### Q76. What is the equivalent of mysqladmin reload command?
+#### Q77. What is the equivalent of mysqladmin reload command?
 
 - [ ] mysqladmind flush-threads
 - [ ] mysqladmind flush-tables
-- [X] mysqladmind flush-privileges
+- [x] mysqladmind flush-privileges
 - [ ] mysqladmind flush-all
+
+#### Q78. Explain the security aspectof stored procedures
+
+- [ ] Stored procedures are not secure, because they can be executed from the command line as the root user
+- [ ] Stored procedures are secure, because the owner of the stored procedure can decide to whom access is granted
+- [ ] Stored procedures are secure, because applications can be given access to stored procedures and not any underlying variables
+- [ ] Stored procedures are not secure, because they can execute statements to drop tables or bulk delete data
+
+#### Q79. Management has requested that you build an employee database. You start with the employee table. What is the correct syntax?
+
+- [ ]
+
+```sql
+1 CREATE TABLE employee (
+2   employeeID char(10),
+3   firstName varchar(50),
+4   lastName varchar(50),
+5   phone varchar(20),
+6   address varchar(50),
+7   PRIMARY KEY employeeID
+8 );
+```
+
+- [ ]
+
+```sql
+1 CREATE TABLE IF NOT EXISTS employee (
+2   employeeID char(10),
+3   firstName varchar(50),
+4   lastName varchar(50),
+5   phone varchar(20),
+6   address varchar(50),
+7   PRIMARY KEY (employeeID)
+8 );
+```
+
+- [x]
+
+```sql
+1 CREATE TABLE employee (
+2   employeeID char(10),
+3   firstName varchar(50),
+4   lastName varchar(50),
+5   phone varchar(20),
+6   address varchar(50),
+7   PRIMARY KEY ON employeeID
+8 );
+```
+
+- [ ]
+
+```sql
+1 CREATE TABLE IF EXISTS employee (
+2   employeeID char(10),
+3   firstName varchar(50),
+4   lastName varchar(50),
+5   phone varchar(20),
+6   address varchar(50),
+7   PRIMARY KEY (employeeID)
+’8 );
+```
+
+#### Q80. In the diagram below, the price field is declared as type DECIMAL. What would be a more efficient declaration for this field?
+
+![mysql picture](images/mysql_q80.png)
+
+- [ ] FLOAT
+- [x] DECIMAL(10,2)
+- [ ] NUMERIC
+- [ ] DOUBLE
+
+#### Q81. Which choice is _not_ an available string type for a column?
+
+- [ ] ENUM
+- [ ] SET
+- [x] BIT
+- [ ] CHAR

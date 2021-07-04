@@ -63,7 +63,7 @@
 - [ ] threshold alert in Azure App insights
 - [x] third party services (GitHub)
 
-#### Q10. Which messaging service enables an even-driven programming model?
+#### Q10. Which messaging service enables an event-driven programming model?
 
 - [ ] Service Bus
 - [ ] Event Hub
@@ -137,7 +137,7 @@
 
 - [ ] Create a Logic App. Then configure an action group with the Logic App action type.
 - [ ] Create an Azure Automation Runbook. Then configure an action group with the Automation Runbook action type.
-- [x] Configure an rule based on a metric.
+- [x] Configure an autoscape rule based on a metric.
 - [ ] Create an Azure function. Then configure an action group with the Secure Webhook action type.
 
 #### Q21. You have CI/CD pipeline for a modern web application in Azure DevOps. The CI/CD process includes both a build and a release pipeline. You need to ensure that user testing (UAT) is successful before triggering the release pipeline. The process should be automated as possible. What should you add to your build pipeline?
@@ -359,3 +359,24 @@
 - [ ] REST API
 - [ ] Storage Explorer
 - [ ] NFS
+
+#### Q49. You have source code for a project in a repository on GitHub. You need to migrate source code to a repository in Azure Repos. The solution should minimize effort. Which solution should you recommend?
+
+- [ ] Download the GitHub repository to a Zip file, and then unzip the repository in Azure DevOps.
+- [x] From the **Import a Git repository** menu, select **Import**.
+- [ ] Create a service connection to the GitHub repository.
+- [ ] Create a webhook in GitHub and then trigger it from Azure DevOps.
+
+#### Q50. You need to facilitate user acceptance testing (UAT) on your web application hosted in App Service. Testers must approve changes before they are deployed to production. You should implement support for these requirements with a minimum of cost and complexity. What should you do?
+
+- [ ] Configure an additional App Service instance. In Azure DevOps, enable an approval gate for deployment.
+- [ ] Configure an Azure load balancer to redirect traffic to the approved App Service instance.
+- [x] Configure an additional deployment slot in the existing App Service instance.
+- [ ] Configure an App Service Environment (ASE).
+
+#### Q51. Your microservices application includes a logging component that performs a large number of sequentinal writes. Which type of Azure Storage should you use?
+
+- [ ] Table storage
+- [x] append blob
+- [ ] page blob
+- [ ] block blob

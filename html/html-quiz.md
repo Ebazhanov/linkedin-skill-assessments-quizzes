@@ -10,7 +10,7 @@
 #### Q2. What are the best examples of void elements?
 
 - [ ] `<link><meta><title>`
-- [x] `<wbr><base><source>`
+- [x] `<br><base><source>`
 - [ ] `<input><br><p>`
 - [ ] `<area><embed><strong>`
 
@@ -38,8 +38,8 @@
 #### Q6. When is the `<link>` tag used?
 
 - [ ] when linking style sheets, JavaScript, and icons for mobile apps
-- [ ] when linking style sheets, favicons, and preloading assets
-- [x] when linking style sheets and favicons
+- [x] when linking style sheets, favicons, and preloading assets
+- [ ] when linking one webpage to another
 - [ ] when linking style sheets, external URLs, and favicons
 
 #### Q7. The "value" attribute is associated with which set of tags?
@@ -163,7 +163,7 @@
 #### Q17. What should fill the blank in the HTML code bellow?
 
 ```html
-<form method="post" action="mailto:info@linkedin.com" ____="text/plain" >
+<form method="post" action="mailto:info@linkedin.com" ____="text/plain"></form>
 ```
 
 - [x] enctype
@@ -999,21 +999,14 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] `<blockquote>`
 - [ ] `<notation>`
 
-#### Q63. What is the root element of an HTML document?
-
-- [ ] `<!DOCTYPE html>`
-- [x] `<html>`
-- [ ] `<root>`
-- [ ] `<body>`
-
-#### Q64. What is the semantic meaning of the `<hr>` tag?
+#### Q63. What is the semantic meaning of the `<hr>` tag?
 
 - [ ] It draws a horizontal line.
 - [ ] This tag is deprecated and should not be used.
 - [ ] It designates a separation of sections within an `<article>`.
 - [x] It designates a topic shift within a section at the paragraph level.
 
-#### Q65. How will a video look displayed on a fully loaded webpage if the `<video>` tag is used and the **autoplay** attribute is not set?
+#### Q64. How will a video look displayed on a fully loaded webpage if the `<video>` tag is used and the **autoplay** attribute is not set?
 
 - [ ] It will display a random frame from a video, unless the **poster** attribute is set.
 - [x] It will display the first frame of the video, unless the **poster** attribute is set.
@@ -1022,7 +1015,8 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 [Reference (w3schools)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_video)
 
-#### Q66. What is the correct way to describe an empty element?
+#### Q65. What is the correct way to describe an empty element?
+
 - [ ] It has opening and closing tags but no child content.
 - [ ] It display nothing on a website.
 - [x] It has no child content and no closing tag.
@@ -1030,7 +1024,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 [Reference (MDN Web Docs)](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element)
 
-#### Q67. What is the purpose of async in this code? 
+#### Q66. What is the purpose of async in this code?
 
 `<script async src="myscript.js"></script>`
 
@@ -1039,38 +1033,47 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [x] It runs the script when the script is ready.
 - [ ] It pauses the parsing of HTML code while the script runs.
 
-#### Q68. What does this code?
-`<audio autoplay loop src="sound.mp3" type="audio/mpeg"></audio>`
-- [ ] When the **play** button is pressed, the browser plays the sounds over and over again until the user stops it.
-- [x] The browser plays the sound once automatically in the background. The user has no control over the sound.
-- [ ] The browser plays the sound automatically and continuously in the background. The user may stop the sound at any tune.
-- [ ] The browser plays the sound automatically and continuously in the background. The user has no control over the sound.
+#### Q67. What does this code?
 
-#### Q69. What is the difference between the `<head>` and `<header>` tags?
+`<audio autoplay loop src="sound.mp3" type="audio/mpeg"></audio>`
+
+- [ ] When the **play** button is pressed, the browser plays the sounds over and over again until the user stops it.
+- [ ] The browser plays the sound once automatically in the background. The user has no control over the sound.
+- [ ] The browser plays the sound automatically and continuously in the background. The user may stop the sound at any tune.
+- [x] The browser plays the sound automatically and continuously in the background. The user has no control over the sound.
+
+[Reference(MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
+
+#### Q68. What is the difference between the `<head>` and `<header>` tags?
 
 - [ ] There is only one `<head>` tag per page, while there may be many `<header>` tags.
 - [ ] The `<head>` tag may contain CSS and Javascript links, while the `<header>` tag may contain headings and navigational links.
 - [x] all of these answers
 - [ ] The `<head>` tag contains meta information, while the `<header>` tag contains navigation, logos, and other page identifying content.
 
-#### Q70. In this code, what is the purpose of defer?
+#### Q69. In this code, what is the purpose of defer?
 
 `<script defer src="myscript.js"></script>`
 
 - [ ] It downloads the script from the server when resources allow.
-- [X] It runs the script after HTML parsing is complete.
+- [x] It runs the script after HTML parsing is complete.
 - [ ] It runs the script when the script is ready.
 - [ ] It pauses the parsing of HTML code while the script runs.
 
-#### Q71. The code below contains some errors. Which choice corrects all of the errors?
+#### Q70. The code below contains some errors. Which choice corrects all of the errors?
 
 ```html
 <table>
-  <tr>Cell 1</tr>
+  <tr>
+    Cell 1
+  </tr>
   <td>Cell 2</td>
-  <caption>A table</caption>
+  <caption>
+    A table
+  </caption>
 </table>
 ```
+
 - [ ]
 
 ```HTML
@@ -1119,58 +1122,195 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 </table>
 ```
 
-#### Q72. Given the file and directory structure shown here, what is the correct element to place in file profit.html to link to info.html?
+#### Q71. Given the file and directory structure shown here, what is the correct element to place in file profit.html to link to info.html?
 
 ![Image of footer](images/ss-7.png?raw=true)
 
-- [ ] ```<a href="../work/info.html">See Information </a>```
-- [X] ```<a href="../info.html">See Information </a>```
-- [ ] ```<a href="../../info.html">See Information </a>```
-- [ ] ```<a href="info.html">See Information </a>```
+- [ ] `<a href="../work/info.html">See Information </a>`
+- [x] `<a href="../info.html">See Information </a>`
+- [ ] `<a href="../../info.html">See Information </a>`
+- [ ] `<a href="info.html">See Information </a>`
 
-#### Q73. When should you use the `<article>` element?
+#### Q72. When should you use the `<article>` element?
 
 - [ ] For blog posts and other social media items
 - [ ] For the main content area of your website
-- [ ] When the content stands alone as a unit, is suitable for syndication, or is reusable
+- [x] When the content stands alone as a unit, is suitable for syndication, or is reusable
 - [ ] To associate comments with a blog post
 
-#### Q74. Which list comprises three empty elements?
+[Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
+
+#### Q73. Which list comprises three empty elements?
 
 - [ ]
 
 ```HTML
-<area> 
-<embed> 
+<area>
+<embed>
 <strong>
 ```
 
 - [ ]
 
 ```HTML
-<input> 
-<br> 
+<input>
+<br>
 <p>
 ```
 
 - [ ]
 
 ```HTML
-<link> 
-<meta> 
+<link>
+<meta>
 <title>
 ```
 
 - [X]
-  
+
 ```HTML
-<wbr> 
-<base> 
+<wbr>
+<base>
 <source>
 ```
-#### Q75. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
 
-- [x] <a href="tel: 802-555-1212">Call me</a>
-- [ ] <a href="phone">802-555-1212</a>
-- [ ] <a href="tel">802-555-1212</a>
-- [ ] <a href="phone: 802-555-1212">Call me</a>
+#### Q74. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
+
+- [x] `<a href="tel: 802-555-1212">Call me</a>`
+- [ ] `<a href="phone">802-555-1212</a>`
+- [ ] `<a href="tel">802-555-1212</a>`
+- [ ] `<a href="phone: 802-555-1212">Call me</a>`
+
+#### Q75. What is the purpose of the `class` attribute?
+
+- [ ] Classes allow CSS to select specific elements on the page. You may list as many class names within the class attribute as you wish,
+      separated by spaces.
+- [ ] Classes allow CSS and JavaScript to select specific elements on the page. You may list only one class name per class attribute.
+- [ ] Classes allow CSS to select specific elements on the page. You may list only one class name per class attribute.
+- [x] Classes allow CSS and JavaScript to select specific elements on the page. You may list as many class names within the class attribute
+      as you wish, separated by spaces.
+
+[Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class)
+
+#### Q76. Which choice is not a legal type attribute for the `<input>` tag?
+
+- [ ] `<input type="color">`
+- [ ] `<input type="tel">`
+- [ ] `<input type="week">`
+- [x] `<input type="num">`
+
+[Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)
+
+#### Q77. What is the most semantic way to mark up this sentence so that "happy talk must die" is rendered as an inline quote?
+
+As Steve Krug once said, happy talk must die.
+
+- [ ] `<p>`As Steve Krug once said, `<b>`happy talk must die.`</b>` `</p>`
+- [ ] `<p>`As Steve Krug once said, `<i>`happy talk must die.`</i>` `</p>`
+- [ ] `<p>`As Steve Krug once said, `<blockquote>`happy talk must die.`</blockquote>` `</p>`
+- [ ] `<p>`As Steve Krug once said, `<q>`happy talk must die.`</q>` `</p>`
+
+#### Q78. What is the most semantically accurate way to make up a main navigation bar, displayed in a horizontal direction?
+
+```markdown
+<p>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</p>
+```
+
+- [ ]
+
+```markdown
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+```
+
+- [ ]
+
+```markdown
+ <nav>
+    <ol>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+     </ol>
+  </nav>
+```
+
+- [x]
+
+```markdown
+ <nav>
+   <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="about.html">About</a></li>
+     <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+```
+
+#### Q79. Which choice is the best way to mark up this loyout?
+
+![Image of footer](images/ss-8.png?raw=true)
+
+```markdown
+<p><strong>Mailing Address</strong></p>
+  <p><em>
+    6640 via Real <br>
+    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+  </em></p>
+</p>
+```
+
+- [ ]
+
+```markdown
+<h4>Mailing Address</h4>
+  <address>
+    6640 via Real <br>
+    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+  </address>
+```
+
+- [ ]
+
+```markdown
+<h4><strong>Mailing Address</strongh></h4>
+  <address><em>
+    6640 via Real <br>
+    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+  </em></address>
+```
+
+- [ ]
+
+```markdown
+<h4>Mailing Address</h4>
+  <p><em>
+    6640 via Real <br>
+    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+  </em></p>
+</p>
+```
+
+- [ ]
+
+#### Q80. What is the primary purpose of HTML?
+
+- [x] HTML structures the webpage, identifying its elements such as paragraphs, headings, and lists.
+- [ ] HTML structures and provides a rudimentary look to webpages.
+- [ ] HTML is responsible for the structure, styling, and interactivity of webpages.
+- [ ] HTML is responsible for the structure and styling of webpages.
+
+#### Q81. What is the correct way to describe an empty element, such as a line break tag?
+
+- [ ] It displays nothing on a website.
+- [ ] It has opening and closing tags but no child content.
+- [ ] It has child content but no closing tag.
+- [x] It has no child content and no closing tag.
+

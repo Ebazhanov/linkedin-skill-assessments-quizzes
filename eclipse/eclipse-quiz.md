@@ -153,3 +153,17 @@
 - [ ] Click Window (Eclipse) -> Preferences -> Java -> Editor -> Save Actions
 - [ ] Click File -> Save All.
 - [ ] Change the project's run configuration.
+
+#### Q23. Which is _not_ a valid way to create a test class?
+
+- [ ] In the **Package Explorer**, right-click a class and select **New > JUnit Test Case**.
+- [x] none of these answers
+- [ ] Create a JUnit Test Case class through the **File** menu.
+- [ ] Create the class manually while in any perspective.
+
+#### Q24. What happens when you double-click a Revision Time in the History view?
+
+- [ ] Nothing happens.
+- [x] The select file is opened in the Editor in its state at the time of the revision.
+- [ ] The revision opens in a **Split Editor** window alongside the current local revision of the file.
+- [ ] A pop-up window showing details about the revision appears.
