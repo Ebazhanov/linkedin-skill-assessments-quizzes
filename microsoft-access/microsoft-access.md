@@ -21,7 +21,7 @@
 - [ ] #
 - [ ] -
 
-_Caveat: https://support.microsoft.com/en-us/office/string-functions-and-how-to-use-them-965efa84-7009-4603-9765-2eb4a099ec72 - "In a desktop database, you can also use the ampersand operator (&) for concatentation. In an Access app, you must use the plus sign (+)."_
+[_Caveat:](https://support.microsoft.com/en-us/office/string-functions-and-how-to-use-them-965efa84-7009-4603-9765-2eb4a099ec72) - "In a desktop database, you can also use the ampersand operator (&) for concatentation. In an Access app, you must use the plus sign (+)."_
 
 #### Q4. The relationship field in this table has been created with what feature?
 
@@ -46,7 +46,7 @@ _Caveat: https://support.microsoft.com/en-us/office/string-functions-and-how-to-
 - [ ] simple
 - [ ] spreadsheet
 
-https://support.microsoft.com/en-us/office/make-summary-data-easier-to-read-by-using-a-crosstab-query-8465b89c-2ff2-4cc8-ba60-2cd8484667e8
+[Reference](https://support.microsoft.com/en-us/office/make-summary-data-easier-to-read-by-using-a-crosstab-query-8465b89c-2ff2-4cc8-ba60-2cd8484667e8)
 
 #### Q7. What currency format displays a thousand separator, but not a currency symbol, such as $ or €?
 
@@ -55,7 +55,7 @@ https://support.microsoft.com/en-us/office/make-summary-data-easier-to-read-by-u
 - [ ] General Number
 - [ ] Fixed
 
-https://support.microsoft.com/en-us/office/format-a-number-or-currency-field-e48f2312-67f0-4921-aca0-15d36b7f9c3b#bkmk_examples_predefined
+[Reference)[https://support.microsoft.com/en-us/office/format-a-number-or-currency-field-e48f2312-67f0-4921-aca0-15d36b7f9c3b#bkmk_examples_predefined]
 
 #### Q8. In Access Option > Current Database, what does turning off the Allow Full Menus option do?
 
@@ -64,7 +64,7 @@ https://support.microsoft.com/en-us/office/format-a-number-or-currency-field-e48
 - [ ] disable the right-click menu when working with objects
 - [x] removes the **Design** view contextual tabs, which forces most design changes to be made in **Layout** view
 
-https://support.microsoft.com/en-us/office/allowfullmenus-property-d1cf24ab-ca65-4450-8917-93d83319b678
+[Reference](https://support.microsoft.com/en-us/office/allowfullmenus-property-d1cf24ab-ca65-4450-8917-93d83319b678)
 
 #### Q9. You want to create a form to view customer's details, as well as some information about all order that the customer has placed with your company. What is the best way to display this information on a single screen?
 
@@ -80,7 +80,7 @@ https://support.microsoft.com/en-us/office/allowfullmenus-property-d1cf24ab-ca65
 - [ ] Right-click the form you want to open automatically and select **Startup Form**
 - [ ] On the **Database Tools** tab, click **Database Options**, then set the form you want to open as the **Initial View** object
 
-https://support.microsoft.com/en-us/office/set-the-default-form-that-appears-when-you-open-an-access-database-94961011-392f-4c3b-8dbc-e5d5adbff1df
+[Reference](https://support.microsoft.com/en-us/office/set-the-default-form-that-appears-when-you-open-an-access-database-94961011-392f-4c3b-8dbc-e5d5adbff1df)
 
 #### Q11. In Design view, which area of a form is the primary location for text boxes, buttons, and other control objects?
 
@@ -96,7 +96,7 @@ https://support.microsoft.com/en-us/office/set-the-default-form-that-appears-whe
 - [ ] Access database manager
 - [x] Database documenter
 
-https://support.microsoft.com/en-gb/office/learn-the-structure-of-an-access-database-001a5c05-3fea-48f1-90a0-cccaa57ba4af?rs=en-gb#bm1
+[Reference](https://support.microsoft.com/en-gb/office/learn-the-structure-of-an-access-database-001a5c05-3fea-48f1-90a0-cccaa57ba4af?rs=en-gb#bm1)
 
 #### Q13. You want to validate a proposed modification to a record's value before the table is saved to the database. What data macro can you add to the table to do this?
 
@@ -112,7 +112,7 @@ https://support.microsoft.com/en-gb/office/learn-the-structure-of-an-access-data
 - [ ] a group header and footer
 - [ ] a group footer
 
-https://support.microsoft.com/en-us/office/create-a-grouped-or-summary-report-f23301a1-3e0a-4243-9002-4a23ac0fdbf3#__add_or_modify
+[Reference](https://support.microsoft.com/en-us/office/create-a-grouped-or-summary-report-f23301a1-3e0a-4243-9002-4a23ac0fdbf3#__add_or_modify)
 
 #### Q15. A table contains a field with the lookup properties set as shown. What will be the value of the field when the end user clicks Normal from the combo box when entering a record into the table?
 
@@ -149,8 +149,8 @@ https://support.microsoft.com/en-us/office/iif-function-32436ecf-c629-48a3-9900-
 - [ ] left; left
 - [ ] right; right
 
-Text: https://support.microsoft.com/en-us/office/format-a-text-field-a5e5bcde-85da-4c7a-8164-1fe286636668
-Numerical: https://support.microsoft.com/en-us/office/format-a-number-or-currency-field-e48f2312-67f0-4921-aca0-15d36b7f9c3b
+[Text:](https://support.microsoft.com/en-us/office/format-a-text-field-a5e5bcde-85da-4c7a-8164-1fe286636668)
+[Numerical:](https://support.microsoft.com/en-us/office/format-a-number-or-currency-field-e48f2312-67f0-4921-aca0-15d36b7f9c3b)
 
 #### Q18. Which data type is a modern replacement for the OLE Object data type?
 
@@ -159,7 +159,7 @@ Numerical: https://support.microsoft.com/en-us/office/format-a-number-or-currenc
 - [ ] BLOB
 - [ ] Hyperlink
 
-https://support.microsoft.com/en-us/office/attach-files-and-graphics-to-the-records-in-your-database-d40a09ad-a753-4a14-9161-7f15baad6dbd
+[Reference](https://support.microsoft.com/en-us/office/attach-files-and-graphics-to-the-records-in-your-database-d40a09ad-a753-4a14-9161-7f15baad6dbd)
 
 #### Q19. How can you ensure that each value saved in a particular field is unique from all other values in the field?
 
@@ -168,7 +168,7 @@ https://support.microsoft.com/en-us/office/attach-files-and-graphics-to-the-reco
 - [ ] Set the Validation Rule property to No Duplicates
 - [x] Set the Indexed property to Yes (No Duplicates)
 
-https://support.microsoft.com/en-us/office/prevent-duplicate-values-in-a-table-field-using-an-index-b5eaace7-6161-4edc-bb90-39d1a1bc5576
+[Reference](https://support.microsoft.com/en-us/office/prevent-duplicate-values-in-a-table-field-using-an-index-b5eaace7-6161-4edc-bb90-39d1a1bc5576)
 
 #### Q20. Which Access database tool will help you split a single, large, unnormalized data table into multiple related tables that follow the best practices of good database design?
 
@@ -177,7 +177,7 @@ https://support.microsoft.com/en-us/office/prevent-duplicate-values-in-a-table-f
 - [ ] Database Splitter Wizard
 - [x] Table Analyzer Wizard
 
-https://support.microsoft.com/en-us/office/normalize-your-data-using-the-table-analyzer-8edbb763-5bab-4fbc-b62d-c17b1a40bbe2
+[Reference](https://support.microsoft.com/en-us/office/normalize-your-data-using-the-table-analyzer-8edbb763-5bab-4fbc-b62d-c17b1a40bbe2)
 
 #### Q21. When backing up an Access database, what is added to the file name automatically?
 
@@ -193,7 +193,7 @@ https://support.microsoft.com/en-us/office/normalize-your-data-using-the-table-a
 - [x] Caption
 - [ ] Tool Tip
 
-https://support.microsoft.com/en-us/office/introduction-to-data-types-and-field-properties-30ad644f-946c-442e-8bd2-be067361987c#typereference
+[Reference](https://support.microsoft.com/en-us/office/introduction-to-data-types-and-field-properties-30ad644f-946c-442e-8bd2-be067361987c#typereference)
 
 #### Q23. Which form control property creates a small pop-up flag that contains text when a user hovers the mouse cursor over the object?
 
@@ -209,7 +209,7 @@ https://support.microsoft.com/en-us/office/introduction-to-data-types-and-field-
 - [ ] string operators
 - [ ] arithmetic operators
 
-https://support.microsoft.com/en-us/office/guide-to-expression-syntax-ebc770bc-8486-4adc-a9ec-7427cce39a90#bm3
+[Reference](https://support.microsoft.com/en-us/office/guide-to-expression-syntax-ebc770bc-8486-4adc-a9ec-7427cce39a90#bm3)
 
 #### Q25. Which section of a report appears at the top of every page in the printed report?
 
@@ -218,7 +218,7 @@ https://support.microsoft.com/en-us/office/guide-to-expression-syntax-ebc770bc-8
 - [ ] detail header
 - [ ] report header
 
-https://support.microsoft.com/en-ie/office/pageheader-property-8c6e6fe7-45fe-4f71-bd5d-71325275a812
+[Reference](https://support.microsoft.com/en-ie/office/pageheader-property-8c6e6fe7-45fe-4f71-bd5d-71325275a812)
 
 #### Q26. When would you use a left join query?
 
