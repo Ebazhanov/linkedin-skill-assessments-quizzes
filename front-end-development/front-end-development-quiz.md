@@ -369,6 +369,8 @@ const user = {
 - [ ] the CSS specification
 - [ ] MDN property pages
 
+[Web platform tests site](https://web-platform-tests.org/)
+
 #### Q39. You have a set of images that are slightly different sizes and aspect ratios. You don't mind if you crop off some of the image, but you want each image to completely fill a square box without being distorted. Which property and value would achieve this?
 
 - [ ] object-fit: contain
@@ -389,6 +391,8 @@ const user = {
 - [ ] it prohibits some syntax likely to be defined in future versions of ECMAScript.
 - [x] it forces the writing of valid HTML and CSS.
 - [ ] it fixes mistakes that make it difficult for JavaScript engines to perform optimizations.
+
+[MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
 
 #### Q42. In normal flow, some elements display as block elements default and others inline. which choice contains only block-level by default elements?\*\*
 
