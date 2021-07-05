@@ -469,3 +469,270 @@ export class ToolsComponent {
 - [ ] /user;id=15
 
 [Reference (angular.io)](https://angular.io/api/router/Router#navigate)
+
+#### Q33. When a service is provided for root and is also added to the provider's configuration for a lazy-loaded module, what instance of that service does the
+injector provide to constructors in the lazy-loaded module?
+
+- [ ] A new instance of that service is created when the module is lazy loaded.
+- [ ] Providing a service of the same type at a lazy-loaded module level is not allowed.
+- [ ] If an instance of the service has not been created at the root level yet. it will create one there and then use it.
+- [ ] A single instance of that service is always instantiated at root and is the only one ever used, including within lazy modules.
+
+#### Q34. What is the HostBinding decorator doing in this directive?
+
+```javascript
+@Directive ({
+ selector: ' [appHighlight] '
+})
+export class HighlightDirective {
+ @HostBinding('class.highlighted') highlight = true;
+}
+```
+
+- [ ] It is adding the CSS class named highlighted to any DOM element that has the appHighlight directive on it.
+- [ ] HostBinding does not do anything on directives, only on components.
+- [ ] It is specifying if the host element gets the highlighted class added to its class attribute, then the directive class field highlight will get set to
+  true; and if it is not added on the host it will get set to false.
+- [ ] It is creating an inline style on the host element with a CSS property named highlight set to true.
+
+#### Q35. In reactive forms, what Angular form class type is used on the native DOM <form> element to wire it up?
+
+- [ ] `FormArray`
+- [ ] `FormControl`
+- [x] `FormGroup`
+- [ ] `all of these answers`
+
+#### Q36. Assuming the username FormControl has been configured with a minLength validator, how can you set up an error display in the following reactive
+forms markup for the username field?
+
+```html
+<form [formGroup]="form"›
+  <input type="text" formControlName= "username"›
+  ...
+</form>
+```
+
+- []      
+
+```javascript
+    <span *ngIf="username.minLength.invalid"›
+        Username length is not valid
+    </span>
+``` 
+
+- [ ]
+  
+```javascript
+<input type="text" formControlName="username" [showMinLength]="true"›
+```
+
+- [ ]
+  
+```javascript
+    <span *ngIf="form.get('username').getError('minLength') as minLengthError"> 
+      Username must be at least {{ minLengthError.requiredLength }} characters. 
+    </span>
+```
+
+- [ ]
+
+```javascript
+<input type="text" formControlName="username" #userName="ngModer>
+    <span *ngIf="userName.errors.minlength"›
+      Username must be at least {{ userName.errors.minlength.requiredLength }} characters. 
+    </span>
+```
+
+#### Q37. How does the emulated view encapsulation mode handle CSS for a component?
+
+- [ ] It renders the CSS exactly how you wrote it without any changes.
+- [ ] It makes use of shadow DOM markup and CSS.
+- [ ] It creates unique attributes for DOM elements and scopes the CSS selectors you write to those attribute ids.
+- [ ] It renders all of the CSS rules you write as inline CSS on all of the DOM elements you use them on in the template.
+
+#### Q38. With the following TestBed setup, what can be used to access the rendered DOM for the UserCardComponent?
+
+```javascript
+TestBed.configureTestingModule({
+ declarations: [ UserCardComponent ]
+});
+let fixture = TestBed.createComponent(UserCardComponent);
+```
+
+- [ ] `fixture.componentTemplate`
+- [ ] `fixture.getComponentHtml()`
+- [ ] `fixture.nativeElement`
+- [ ] `fixture.componentInstance.template
+  `
+
+#### Q39. Given these two components, what will get rendered to the DOM based on the markup usage?
+
+```javascript
+@Component({
+ selector: 'app-card',
+ template: '<h1>Data Card</h1><ng-content></ng-content>'
+})
+export class CardComponent { }
+
+@Component({
+ selector: 'app-bio',
+ template: '<ng-content></ng-content>.
+})
+export class BioComponent { }
+
+// markup usage:
+<app-card><app-bio>Been around for four years.</app-bio></app-card>
+```
+
+- [ ] 
+  
+```javascript
+ <app-card>
+  <h1>Data Card</hl>
+  <app-bio>
+   Been around for four years.
+  </app-bio> 
+ </app-card>
+```
+
+- [ ]
+  
+```javascript
+<h1>Data Card</h1>
+ <app-bio>
+  Been around for four years. 
+ </app-bio>
+```
+
+- [ ]
+  
+```javascript
+<app-card>
+  <h1>Data Card</hl>
+  <ng-content></ng-content>
+  <app-bio>
+   Been around for four years.
+   <ng-content></ng-content>
+  </app-bio> 
+</app-card>
+```
+
+- [ ]
+
+```javascript
+<app-card>
+  <h1>Data Card</hl> 
+</app-card>
+```
+
+#### Q40. Given the app-title-card component in the code below, what DOM will the app-user-card component render?
+
+```javascript
+@Component({
+   selector: 'app-user-card',
+   template: '<app-title-card></app-title-card><p>3enny Smith</p>'
+})
+
+@Component({
+   selector: 'app-title-card', 
+   template: '<h1>User Data</hl>'
+})
+
+// usage of user card component in parent component html 
+<app-user-card></app-user-card>
+```
+
+- [ ] 
+
+```javascript
+<app-user-card>
+    <app-title-card>
+     <h1>User Data</h1> 
+    </app-title-card> 
+    <p>genny Smith</p>
+</app-user-card>
+```
+- [ ]
+
+```javascript
+<h1>User Data</h1> 
+<p>Jenny Smith<p>
+```  
+
+- [ ]
+
+```javascript
+<app-user-card>
+    <app-title-card></app-title-card> 
+</app-user-card>
+```  
+
+- [ ]
+
+```javascript
+<div app-user-card>
+    <h1 app-title-card>User Data</h1> 
+    <p>Jenny Smith</p>
+</div>
+```
+
+#### Q41. Pick the matching code for the custom provider registration that the @Inject () decorator is looking for:
+
+```javascript
+constructor(@Inject('Logger') private logger) { }
+```
+
+- [ ] 
+  
+```javascript
+providers: [ 
+    Logger
+]
+```
+
+- [ ]
+  
+```javascript
+providers: [
+    { provide: 'Logger', useClass: Logger }
+]
+```
+
+- [ ]
+  
+```javascript
+@Injectable({ 
+    providedln: 'root'
+})
+```
+
+- [ ]
+
+```javascript
+providers: [
+    { provide: 'Logger' }
+]
+```
+
+#### Q42. Which choice best describes the following usage of the HttpClient . get method in the getsettings class method?
+
+```javascript
+export class SettingsService {  
+    constructor(private httpClient: HttpClient) { }
+    ...
+
+getSettings()
+{
+    return this.httpClient.get < Settings > (this.settingsUrl)
+        .pipe(
+            retry(3)
+        );
+}}
+```
+
+- [ ] The RxJs pipe method is an alias for the subscribe method, so a call to `getSettings` will execute the get query. The retry operator is used to tell  
+  the pipe call to retry the get query three times.
+- [ ] It will produce an error at runtime because the pipe method is not available off of the `Httpclient.get` call.
+- [ ] Every single call to the getSettings method will result in the Httpclient making three total get requests to the settingsUrl, which is not ideal  
+  because there will always be two extra calls that are not needed. The retry operator should not be used in this manner.
+- [ ] When the result of the getSettings method is subscribed to, the HTTP GET call will be made; if it fails, it will be retried up to three times before it gives up and returns an error.
