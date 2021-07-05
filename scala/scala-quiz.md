@@ -320,3 +320,5 @@ myClass.foreach(println _)
 - [ ] &&
 - [x] &
 - [ ] %
+
+[Source:](https://docs.scala-lang.org/overviews/collections/sets.html)
