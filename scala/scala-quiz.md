@@ -320,3 +320,14 @@ myClass.foreach(println _)
 - [ ] (FORGOT ANSWER)
 - [ ] (FORGOT ANSWER)
 - [ ] (FORGOT ANSWER)
+
+[Source:](https://www.programmersought.com/article/3717957705/)
+
+#### Q42. What is denotes the intersection between two sets?
+
+- [ ] ||
+- [ ] &&
+- [x] &
+- [ ] %
+
+[Source:](https://docs.scala-lang.org/overviews/collections/sets.html)
