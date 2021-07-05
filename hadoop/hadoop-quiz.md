@@ -187,7 +187,7 @@
 - [ ] read-write
 - [ ] read-only
 - [ ] write-only
-- [ ] append-only
+- [x] append-only
 
 #### Q28. A distributed cache file path can originate from what location?
 
