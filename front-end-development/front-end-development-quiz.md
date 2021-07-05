@@ -365,9 +365,11 @@ const user = {
 #### Q38. Which choice does _not_ provide information on browser support for a particular CSS property?
 
 - [ ] the "Can I Use" website
-- [ ] the Web Platform Tests Suite
+- [x] the Web Platform Tests Suite
 - [ ] the CSS specification
 - [ ] MDN property pages
+
+[Web platform tests site](https://web-platform-tests.org/)
 
 #### Q39. You have a set of images that are slightly different sizes and aspect ratios. You don't mind if you crop off some of the image, but you want each image to completely fill a square box without being distorted. Which property and value would achieve this?
 
@@ -387,8 +389,10 @@ const user = {
 
 - [ ] it eliminates some JavaScript silent errors by changing them to throw errors.
 - [ ] it prohibits some syntax likely to be defined in future versions of ECMAScript.
-- [ ] it forces the writing of valid HTML and CSS.
+- [x] it forces the writing of valid HTML and CSS.
 - [ ] it fixes mistakes that make it difficult for JavaScript engines to perform optimizations.
+
+[MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
 
 #### Q42. In normal flow, some elements display as block elements default and others inline. which choice contains only block-level by default elements?\*\*
 
