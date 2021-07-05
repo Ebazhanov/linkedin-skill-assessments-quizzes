@@ -26,8 +26,8 @@
 
 #### Q3. What is the I/O panel?
 
-- [x] the location where expansion cards can connect to peripherals
-- [ ] a cluster of ports and connectors found on the back of the computer case
+- [ ] the location where expansion cards can connect to peripherals
+- [x] a cluster of ports and connectors found on the back of the computer case
 - [ ] the switches that turn on, sleep, and turn off the computer
 - [ ] the portion of the motherboard where non-power cables connect
 
@@ -48,10 +48,10 @@
 #### Q6. Assuming that the gateway, modem, and switch are separate units, in what order should a small office or home office LAN be restarted?
 
 - [ ] The order is not important.
-- [ ]       1. Modem
+- [x]       1. Modem
                 2. Gateway
                 3. Switch
-- [x]       1. Modem
+- [ ]       1. Modem
                 2. Switch
                 3. Gateway
 - [ ]       1. Gateway
@@ -80,7 +80,7 @@
 
 #### Q10. Which components are typically found on the motherboard?
 
-- [ ]       basic I/O
+- [x]       basic I/O
                 graphics
                 NIC
                 battery
@@ -90,7 +90,7 @@
                 NIC
                 graphics
                 expansion slots
-- [x]       basic I/O
+- [ ]       basic I/O
                 graphics
                 NIC
                 mass storage
@@ -168,7 +168,7 @@
 
 #### Q20. What is one difference between a drive and media?
 
-- [ ] The drive is where the data is stored and the media is the data itself.
+- [x] The drive is where the data is stored and the media is the data itself.
 - [ ] A drive is hardware that reads media.
 - [ ] These are two terms for the same thing: storage.
 - [ ] The terms apply only to removable storage, where the drive is the slot and the media is the thumb drive or media card inserted into the slot.
@@ -177,5 +177,12 @@
 
 - [ ] in an expansion slot
 - [ ] attached to the front of the case
-- [ ] in a drive cage
-- [x] on the motherboard
+- [x] in a drive cage
+- [ ] on the motherboard
+
+#### Q22. Which statement about a modular power supply is true?
+
+- [ ] It is built from a cluster of smaller, easier-to-install power supplies.
+- [ ] Its power output can be varied to save electricity.
+- [x] Its cables are detachable.
+- [ ] It has dedicated power reserved for different computer components.
