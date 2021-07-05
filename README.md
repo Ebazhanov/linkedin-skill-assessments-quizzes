@@ -1,9 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-429-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-430-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -659,6 +657,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/norioumata"><img src="https://avatars.githubusercontent.com/u/49550016?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Norio Umata</b></sub></a><br /><a href="#design-norioumata" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=norioumata" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/gazihasanrahman"><img src="https://avatars.githubusercontent.com/u/32906826?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gazi Hasan Rahman</b></sub></a><br /><a href="#design-gazihasanrahman" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=gazihasanrahman" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/ktn0047/"><img src="https://avatars.githubusercontent.com/u/5679700?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Keith Nguyen</b></sub></a><br /><a href="#design-ecigar13" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ecigar13" title="Code">💻</a></td>
   </tr>
 </table>
 
