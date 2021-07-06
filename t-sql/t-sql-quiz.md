@@ -352,7 +352,7 @@ FROM Students
 - [ ] You should create a DML trigger on the server.
 - [ ] You should create a DDL trigger on the database.
 - [ ] You should create a DML trigger on TableA.
-- [ ] You should create a DML trigger on TableB.
+- [x] You should create a DML trigger on TableB.
 
 #### Q35. What is the problem with this code?
 
