@@ -375,3 +375,31 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] util
 - [x] string_decoder
 - [ ] string_buffer
+
+#### Q50. Which global object acts like a bridge between a Node script and the host operating system?
+
+- [ ] v8
+- [ ] env
+- [ ] process
+- [ ] child_process
+
+#### Q51. Which statement is true about Node.js and threads?
+
+- [ ] Every Node process runs in a single thread, and all the I/O work is run in that same thread.
+- [ ] Every Node process gets four threads that it can share between its JavaScript VM and the event loop.
+- [ ] The event loop is single-threaded, but a JavaScript VM can use multiple threads.
+- [ ] JavaScript execution in Node.js is single-threaded, but I/O operations are executed using multiple threads.
+
+#### Q52. Which statement about event emitters is false?
+
+- [x] Event names must be camelCase strings.
+- [ ] The emit method allows a arbitrary set of arguments to be passed to the listener functions.
+- [ ] Any values returned by the listeners for an emitted events are ignored.
+- [ ] When an event emitter objeect emits an event, all of the functions attached to that specific event are called synchronously.
+
+#### Q53. Which core module in Node can you use to compile and run JavaScript code in a sandbox environment?
+
+- [ ] sandbox
+- [ ] buffer
+- [x] vm
+- [ ] v8
