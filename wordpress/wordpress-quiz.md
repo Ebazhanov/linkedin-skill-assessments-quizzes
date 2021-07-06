@@ -171,7 +171,8 @@
 
 - [ ] .
 
-```$.ready(function() {
+```
+$.ready(function() {
 // do stuff
 });
 ```
