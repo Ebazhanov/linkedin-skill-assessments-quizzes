@@ -10,7 +10,7 @@
 
 if you want to meet each other or discuss quiz related problems join the `Discord` chat
 
-[![Join our Discord server!](https://invidget.switchblade.xyz/sSJSNzs7N6?theme=light)](https://discord.gg/sSJSNzs7N6)
+[![Join our Discord server!](https://invidget.switchblade.xyz/hbTNJ6fpXb?theme=light)](https://discord.gg/hbTNJ6fpXb)
 
 ### Table of Contents
 
