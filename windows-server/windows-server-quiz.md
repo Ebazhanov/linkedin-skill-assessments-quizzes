@@ -364,7 +364,7 @@
 - [ ] Users and Groups
 - [ ] Computer Objects
 
-#### Q50. What is the Microsoft implementation of a RADIUS server
+#### Q50. What is the Microsoft implementation of a RADIUS server?
 
 - [ ] IP address Management (IPAM) Server
 - [x] Network Policy Server (NPS)
