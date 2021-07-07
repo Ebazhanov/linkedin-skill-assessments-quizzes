@@ -393,8 +393,10 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 - [ ] RRR
 - [ ] WET
-- [ ] DRY
+- [x] DRY
 - [ ] KISS
+
+`DRY(Don't Repeat Yourself)`
 
 #### Q47. In a standard template file, how often does the WordPress Loop run?
 
@@ -434,9 +436,10 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 #### Q52. According to WordPress PHP coding standards for inline comments, how would you write a single-line comment in a PHP document?
 
 - [x] `// This is a single line comment`
-- [ ] ```/*
-	      * This is a single line comment.
-		  */```
+- [ ] ````/*
+            * This is a single line comment.
+      	  */```
+      ````
 - [ ] `// This is a single line comment.`
 - [ ] `<!-- This is a single line comment -->`
 
@@ -477,7 +480,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] beta testing
 - [ ] automated testing
 
-#### Q58. WordPress is an open-source software licensed under the GPL. Tis means that ____.
+#### Q58. WordPress is an open-source software licensed under the GPL. Tis means that \_\_\_\_.
 
 - [ ] derivative works must also be licensed as GPL
 - [x] all of these answers
@@ -515,4 +518,3 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [x] `root`
 - [ ] `/wp-content`
 - [ ] `/wp-includes`
-
