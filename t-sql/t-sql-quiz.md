@@ -301,7 +301,7 @@ CREATE TABLE Books (
 #### Q32. Given a table with the following structure, which query will not return the lowest grade earned by any student?
 
 ```
-GREATE TABLE Students (
+CREATE TABLE Students (
     StudentName varchar(50),
     Grade int
 );
@@ -346,3 +346,44 @@ FROM Students
 - [ ] UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id='56295';
 - [ ] UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id=56295;
 - [x] UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id=56295;
+
+#### Q34. You would like to have a record added to a TableB every time a record is modified in TableA. What technique should you look at implementing?
+
+- [ ] You should create a DML trigger on the server.
+- [ ] You should create a DDL trigger on the database.
+- [ ] You should create a DML trigger on TableA.
+- [x] You should create a DML trigger on TableB.
+
+#### Q35. What is the problem with this code?
+
+    DECLARE @Counter int;
+    SET @Counter = 1;
+    WHILE @Counter > 0
+    BEGIN
+      SET @Counter = @Counter +1;
+    END;
+
+- [x] There is no END WHILE statement;
+- [ ] The local varaible is not available to the WHILE block.
+- [ ] The query causes an infinite loop.
+- [ ] "Counter" is an invalid variable name.
+
+#### Q36. Which is the right query to change the name of the Philosophy Pandas team to the Philosophy Parrots?
+
+![T-SQL-Q36](images/Q36.jpg)
+
+- [x] UPDATES Students SET team = 'Philosophy Parrots' WHERE team = 'Philosophy Pandas';
+- [ ] UPDATES Students SET team = `Philosophy Parrots` WHERE team = `Philosophy Pandas`;
+- [ ] UPDATES Students SET team = "Philosophy Parrots" WHERE team = "Philosophy Pandas";
+- [ ] UPDATES Students SET team = Philosophy Parrots WHERE team = Philosophy Pandas;
+
+#### Q37. What is the result of this query?
+
+```
+SELECT '123'+'123' AS Result;
+```
+
+- [x] error
+- [ ] '123''123'
+- [ ] 123123
+- [ ] 246
