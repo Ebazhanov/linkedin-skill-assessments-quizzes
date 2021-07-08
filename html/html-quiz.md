@@ -1314,3 +1314,69 @@ As Steve Krug once said, happy talk must die.
 - [ ] It has child content but no closing tag.
 - [x] It has no child content and no closing tag.
 
+#### Q82. For the HTML code below, when will "Sample Text" display to the browser?
+
+```markdown
+<noscript>Sample Text</noscript>
+```
+
+- [ ] when there is no JavaScript used on this webpage
+- [x] when JavaScript is not supported by the browser or if JavaScript is disabled in the browser
+- [ ] when JavaScript is disabled in the web browser
+- [ ] when JavaScript is not supported by the web browser
+
+[Reference (MDN)](https://www.w3schools.com/tags/tag_noscript.asp)
+
+
+#### Q83. 
+
+- [ ] 
+```markdown
+<h4>Mailing Address</h4>
+<address>
+  6410 Via Real <br>
+  Carpinteria, CA 93013<br>
+  <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</address>
+```
+- [ ] 
+```markdown
+<h4><strong>Mailing Address</h4>
+<address><em>
+  6410 Via Real <br>
+  Carpinteria, CA 93013<br>
+  <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</em></address>
+```
+- [ ] 
+```markdown
+<h4>Mailing Address</h4>
+<p><em>
+  6410 Via Real <br>
+  Carpinteria, CA 93013<br>
+  <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</em></p>
+```
+- [ ] 
+```markdown
+<p><strong>Mailing Address</strong></p>
+<p><em>
+  6410 Via Real <br>
+  Carpinteria, CA 93013<br>
+  <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</em></p>
+```
+
+#### Q84. How will this code render by default in most web browsers?
+
+```markdown
+<details>
+  <h4>Mixed Berry Tart.</h4>
+  <p4>Raspberries, blueberries, and strawberries on top of a creamy filling served in a crispy tart.</p4>
+</details>
+```
+
+- [ ] A
+- [ ] B
+- [ ] C
+- [ ] D
