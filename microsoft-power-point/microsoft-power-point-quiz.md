@@ -368,3 +368,10 @@ Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .po
 - [ ] Right-click the bulleted text and select Promote.
 - [ ] Press the Esc key.
 - [ ] Press the Spacebar.
+
+#### Q46.What is the term used for the arrangement of elements on a slide, such as Title and Content?
+
+- [ ] scheme
+- [x] layout
+- [ ] theme
+- [ ] design
