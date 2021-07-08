@@ -1327,10 +1327,10 @@ As Steve Krug once said, happy talk must die.
 
 [Reference (MDN)](https://www.w3schools.com/tags/tag_noscript.asp)
 
+#### Q83.
 
-#### Q83. 
+- [ ]
 
-- [ ] 
 ```markdown
 <h4>Mailing Address</h4>
 <address>
@@ -1339,7 +1339,9 @@ As Steve Krug once said, happy talk must die.
   <a href="mailto:info@linkedin.com">info@linkedin.com</a>
 </address>
 ```
-- [ ] 
+
+- [ ]
+
 ```markdown
 <h4><strong>Mailing Address</h4>
 <address><em>
@@ -1348,7 +1350,9 @@ As Steve Krug once said, happy talk must die.
   <a href="mailto:info@linkedin.com">info@linkedin.com</a>
 </em></address>
 ```
-- [ ] 
+
+- [ ]
+
 ```markdown
 <h4>Mailing Address</h4>
 <p><em>
@@ -1357,7 +1361,9 @@ As Steve Krug once said, happy talk must die.
   <a href="mailto:info@linkedin.com">info@linkedin.com</a>
 </em></p>
 ```
-- [ ] 
+
+- [ ]
+
 ```markdown
 <p><strong>Mailing Address</strong></p>
 <p><em>
@@ -1377,6 +1383,10 @@ As Steve Krug once said, happy talk must die.
 ```
 
 - [ ] A
+      ![A](images/Q84-1.jpg)
 - [ ] B
+      ![B](images/Q84-2.jpg)
 - [ ] C
+      ![C](images/Q84-3.jpg)
 - [ ] D
+      ![D](images/Q84-4.jpg)
