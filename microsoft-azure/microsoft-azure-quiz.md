@@ -380,3 +380,10 @@
 - [x] append blob
 - [ ] page blob
 - [ ] block blob
+
+#### Q52. Your microservices application includes a logging component that performs a large number of sequentinal writes. Which type of Azure Storage should you use?
+
+- [ ] CORS
+- [ ] custom domains
+- [ ] webjobs
+- [ ] deployment slots

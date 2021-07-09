@@ -370,3 +370,10 @@
 - [x] Network Policy Server (NPS)
 - [ ] Network Load Balancing
 - [ ] Web Server (IIS)
+
+#### Q51. After installing the active directory domain services role to your windows server 2016 OS, how do you promote the server to a domain controller using the GUI?
+
+- [ ] Open mmc.exe
+- [ ] Run dcpromo.exe
+- [ ] Click Add Roles and Features.
+- [ ] Click the notification flag in the Server Manager windows.
