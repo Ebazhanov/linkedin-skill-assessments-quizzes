@@ -279,7 +279,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 #### Q33. If your WordPress site is seriously compromised, what is the best course of action to return your site to good health?
 
-- [ ] Determine the date of the attack and restore your site to a backup point prior to that date.
+- [x] Determine the date of the attack and restore your site to a backup point prior to that date.
 - [ ] Hire a third-party service to clean up your site because it is difficult for someone who is not a WordPress security expert to find and remove all traces of an attack.
 - [ ] Manually delete suspicious files on the server and delete any database tables that are not core WordPress.
 - [ ] Change your hosting password, your WordPress admin password, and your database password.
