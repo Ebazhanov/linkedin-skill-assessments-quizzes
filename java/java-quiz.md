@@ -34,7 +34,7 @@
 
 #### Q5. What is the output of this code?
 
-```shell
+```java
 1: class Main {
 2:   public static void main (String[] args) {
 3:     int array[] = {1, 2, 3, 4};
@@ -113,13 +113,13 @@ class Main {
 ```java
 interface One {
     default void method() {
-        System.out.println(""One"");
+        System.out.println("One");
     }
 }
 
 interface Two {
     default void method () {
-        System.out.println(""One"");
+        System.out.println("One");
     }
 }
 ```
@@ -293,12 +293,6 @@ class Main {
 - [ ] "world!!world"
 - [ ] "world!world!"
 
-```java
-String m = "Hello world!";
-String n = m.substring(6,12) + m.substring(12,6);
-System.out.println(n);
-```
-
 #### Q16. How do you write a foreach loop that will iterate over ArrayList\<Pencil\>pencilCase?
 
 - [x] `for (Pencil pencil : pencilCase) {}`
@@ -306,7 +300,7 @@ System.out.println(n);
 - [ ] `for (Pencil pencil : pencilCase.iterator()) {}`
 - [ ] `for (pencil in pencilCase) {}`
 
-#### Q17. Fill in the blanks?
+#### Q17. Fill in the blanks
 
 - Object-oriented programming (OOP) is a programming language model that organizes software design around (objects), rather than (actions).
 
