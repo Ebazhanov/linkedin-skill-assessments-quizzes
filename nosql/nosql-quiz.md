@@ -259,7 +259,7 @@
 - [ ] a document databse
 - [x] a graph database
 
-#### Q38. You are developing a model for a graph databse. Your data will be moved from a relatinal databse into Neo4j. Which of these transformations apply?
+#### Q38. You are developing a model for a graph database. Your data will be moved from a relational database into Neo4j. Which of these transformations apply?
 
 - [ ] Rows become labes: bales become nodes.
 - [ ] Tables become labels: rows become nodes.
