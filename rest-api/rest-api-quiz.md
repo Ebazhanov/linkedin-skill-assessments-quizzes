@@ -7,7 +7,7 @@
 - [ ] `associative`
 - [ ] `linked`
 
-#### Q2. Which URL pattern s recommended when working with one resource and a collection of resources?
+#### Q2. Which URL pattern is recommended when working with one resource and a collection of resources?
 
 - [ ] `/companies/{id} and/company`
 - [ ] `/company/{id} and/companies`
