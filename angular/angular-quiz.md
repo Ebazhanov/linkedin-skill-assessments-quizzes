@@ -534,7 +534,7 @@ forms markup for the username field?
     </span>
 ```
 
-- [ ]
+- [x]
 
 ```javascript
 <input type="text" formControlName="username" #userName="ngModer>
