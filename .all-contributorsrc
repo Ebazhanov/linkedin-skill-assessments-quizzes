@@ -4263,6 +4263,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "ruslanbes",
+      "name": "Ruslan Bes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4248022?v=4",
+      "profile": "http://ruslanbes.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
