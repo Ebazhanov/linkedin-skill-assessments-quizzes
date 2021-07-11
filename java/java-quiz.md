@@ -300,9 +300,7 @@ class Main {
 - [ ] `for (Pencil pencil : pencilCase.iterator()) {}`
 - [ ] `for (pencil in pencilCase) {}`
 
-#### Q17. Fill in the blanks
-
-- Object-oriented programming (OOP) is a programming language model that organizes software design around (objects), rather than (actions).
+#### Q17. <DUPLICATE of Q30>
 
 #### Q18. What code would you use to tell if "schwifty" is of type String?
 
@@ -381,7 +379,7 @@ Reason : Observe the loop increment. It's not an increment, it's an assignment(p
 - [ ] hello
 - [x] main
 
-### 26. What code would you use in Constructor A to call Constructor B?
+#### 26. What code would you use in Constructor A to call Constructor B?
 
 ```java
 public class Jedi {
