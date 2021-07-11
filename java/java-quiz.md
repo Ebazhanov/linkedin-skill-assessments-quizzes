@@ -760,7 +760,7 @@ public TheClass() {
 }
 ```
 
-- [ ] C
+- [x] C
 
 ```java
 public TheClass() {
@@ -768,7 +768,7 @@ public TheClass() {
 }
 ```
 
-- [x] D
+- [ ] D
 
 ```java
 private void setX(int x) {
@@ -778,6 +778,8 @@ public TheClass() {
     setX(77);
 }
 ```
+
+**Explanation:** `final` class members are allowed to be assigned only in two places: declaration and constructor
 
 #### Q52. How many times f will be printed?
 
@@ -864,11 +866,11 @@ public class Solution {
 public class TestReal {
     public static void main (String[] argv)
     {
-      double pi = 3.14159265;       //accuaracy upto 15 digits
-      float pi2 = 3.141F;                //accuracy upto 6-7 digits
+      double pi = 3.14159265;       //accuracy up to 15 digits
+      float pi2 = 3.141F;           //accuracy up to 6-7 digits
 
       System.out.println ("Pi=" + pi);
-      System.out.println ("Pi2" + pi2;
+      System.out.println ("Pi2=" + pi2);
     }
   }
 ```
@@ -946,6 +948,8 @@ try {
 - [ ] native
 - [ ] interface
 - [x] unsigned
+
+**Explanation:** `native` is a part of JNI interface
 
 #### Q65. Which operator would you use to find the remainder after division?
 
@@ -1091,7 +1095,7 @@ public class Duck {
 
 #### Q79. Which operator is used to concatenate Strings in Java
 
-- [x] -
+- [x] +
 - [ ] &
 - [ ] .
 - [ ] -
@@ -1173,10 +1177,12 @@ public class Main {
 7: }
 ```
 
-- [x] Change line 2 to `public static final String message`
+- [ ] Change line 2 to `public static final String message`
 - [ ] Change line 6 to `public void print2(){}`
 - [ ] Remove the body of the `print2` method and add a semicolon.
-- [ ] Remove the body of the `print` method.
+- [x] Remove the body of the `print` method.
+
+**Explanation**: Chaning line 2 to `public static final String message` raises the error `message not initialized in the default constructor`
 
 #### Q87. What is the output of this code?
 
@@ -1212,7 +1218,7 @@ class Main {
 class Main {
   public static void main(String[] args) {
     StringBuilder sb = new StringBuilder("hello");
-    sb.deleteCharAt(0).insert(0, "H")." World!";
+    sb.deleteCharAt(0).insert(0, "H")." World!"; 
     System.out.println(sb);
   }
 }
@@ -1222,3 +1228,5 @@ class Main {
 - [ ] "HelloWorld!"
 - [ ] "hello"
 - [ ] ????
+
+**Note:** This code won't compile, possibly broken code sample
