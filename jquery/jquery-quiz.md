@@ -989,7 +989,7 @@ $('.item').parents('.navigation').css('font-weight', 'bold');
 
 - [ ] `$('#load-me').get('source.html#one');`
 - [ ] `$('#load-me').get('source.html #one');`
-- [ ] `$('#load-me').load('source.html #one');`
+- [x] `$('#load-me').load('source.html #one');`
 - [ ] `$('#load-me').load('source.html', '#one');`
 
 #### Q55. Given this HTML list and subsequent two lines of jQuery, what is the difference in the behavior of `.closest()` and `.parents()`?
@@ -1046,7 +1046,7 @@ function listResponder(evt) {
 ```
 
 - [ ] `$('.clickable-list).click(listResponder);`
-- [ ] `$('.clickable-list).on('click', 'li', listResponder);`
+- [x] `$('.clickable-list).on('click', 'li', listResponder);`
 - [ ] `$('.clickable-list).on('click, append', listResponder);`
 - [ ] `$('.clickable-list).each(function() { $(this).click(listResponder); });`
 
