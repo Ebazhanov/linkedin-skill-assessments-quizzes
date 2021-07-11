@@ -653,7 +653,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [ ] all tables, columns, data types, indexes and their relationships
 - [ ] a list of entities, their relationship, and constraints
 - [ ] all tables and their names, which are needed to implement the logical model
-- [ ] a list of entities, their relationship, constraints, data types, and cardinalities
+- [x] a list of entities, their relationship, constraints, data types, and cardinalities
 
 #### Q71. Which choice is _not_ a valid model for a stored procedure parameter?
 
