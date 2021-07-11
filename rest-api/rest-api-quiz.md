@@ -7,7 +7,7 @@
 - [ ] `associative`
 - [ ] `linked`
 
-#### Q2. Which URL pattern s recommended when working with one resource and a collection of resources?
+#### Q2. Which URL pattern is recommended when working with one resource and a collection of resources?
 
 - [ ] `/companies/{id} and/company`
 - [ ] `/company/{id} and/companies`
@@ -309,7 +309,7 @@
 - [x] `authorization server`
 - [ ] `resource server`
 
-#### Q45. API traffic that is entirely internal to your organisation is normally called \_\_\_\_?
+#### Q45. API traffic that is entirely internal to your organization is normally called \_\_\_\_?
 
 - [ ] `inbound traffic`
 - [ ] `north-south traffic `
@@ -323,7 +323,7 @@
 - [ ] `Use the Content-Type header.`
 - [x] `Use the Accept header.`
 
-#### Q47. When a user attempts to access a record that is not their own, whitch HTTP response code is the most appropriate?
+#### Q47. When a user attempts to access a record that is not their own, which HTTP response code is the most appropriate?
 
 - [ ] `403`
 - [ ] `404`

@@ -1254,7 +1254,7 @@ As Steve Krug once said, happy talk must die.
   </nav>
 ```
 
-#### Q79. Which choice is the best way to mark up this loyout?
+#### Q79. Which choice is the best way to mark up this layout?
 
 ![Image of footer](images/ss-8.png?raw=true)
 
