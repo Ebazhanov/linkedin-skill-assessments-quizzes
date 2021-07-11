@@ -1,7 +1,7 @@
-name: Greetings
+name: Auto message for PR's and Issues
 
-# on: [pull_request, issues]
-on: issues
+on: [pull_request, issues]
+# on: issues
 
 jobs:
   greeting:
@@ -12,3 +12,4 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: 'Hello @${{ github.actor }} , thank you for submitting an issue! 👍 We highly appreciate it if you work on it as well.'
           # pr-message: 'Hello @${{ github.actor }} , thank you for submitting a pull request, we appreciate it a lot! If you feel this repository helped you to achieve your goals, warm us with a cup of :coffee:.  🙂'
+          pr-message: 'Warm welcome @${{ github.actor }} , thanks for making a pull request. We will get back to you shortly.'
