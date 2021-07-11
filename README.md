@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-441-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-442-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -671,6 +671,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://ruslanbes.com"><img src="https://avatars.githubusercontent.com/u/4248022?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ruslan Bes</b></sub></a><br /><a href="#design-ruslanbes" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ruslanbes" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/BohdansWorkshop"><img src="https://avatars.githubusercontent.com/u/26243346?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bohdan</b></sub></a><br /><a href="#design-BohdansWorkshop" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=BohdansWorkshop" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Juzdzewski"><img src="https://avatars.githubusercontent.com/u/34581620?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Juzdzewski</b></sub></a><br /><a href="#design-Juzdzewski" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Juzdzewski" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/grigor-minasyan/"><img src="https://avatars.githubusercontent.com/u/4447177?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Grigor Minasyan</b></sub></a><br /><a href="#design-grigor-minasyan" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=grigor-minasyan" title="Code">💻</a></td>
   </tr>
 </table>
 
