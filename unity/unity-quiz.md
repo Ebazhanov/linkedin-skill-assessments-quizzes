@@ -5,7 +5,7 @@
 - [ ] The object inspector
 - [ ] Handles
 - [ ] Gizmos
-- [ ] Play mode tint
+- [x] Play mode tint
 
 #### Q2. A developer executes the C# code below, which finds any game objects tagged as “enemy” in a start event. But the developer notices that, when executed, FindGameObjectsWithTag returns NULL even though the scene contains objects tagged as “Enemy”. What is a possible cause?
 
@@ -14,13 +14,13 @@
 - [ ] The objects are animated
 - [ ] The objects are on the UI layer
 - [ ] The objects are not named “Enemy”
-- [ ] The objects are deactivated
+- [x] The objects are deactivated
 
 #### Q3. What does this code sample achieve? Float Answer = Random.value \* 10f;
 
 - [ ] It selects a random number that is less than 10
 - [ ] It selects a random number greater than 10
-- [ ] It selects a random number between 0 and 10
+- [x] It selects a random number between 0 and 10
 - [ ] It selects a random number that is multiple of 10
 
 #### Q4. Unity scenes may be saved entirely in the YAML format. Why might you do this?
@@ -69,7 +69,7 @@
 
 - [ ] Developers to contribute to the unity source code
 - [ ] Companies to raise money for projects through crowdfunding
-- [ ] Team members to save, share, and sync unity projects
+- [x] Team members to save, share, and sync unity projects
 - [ ] Developers to integrate version control systems, like git, into projects
 
 #### Q11. The Clear Flags property of the Camera components affects which behaviour?
@@ -97,7 +97,7 @@
 
 - [ ] A Collider and a MeshRenderer
 - [ ] A Collider and a MeshFilter
-- [ ] A Rigidbody and a Collider
+- [x] A Rigidbody and a Collider
 - [ ] A MeshRenderer and a MeshFilter
 
 #### Q15. UI elements, such as images and buttons, may be fixed at specific screen positions to build responsive interfaces. Which Unity features help achieve this?
@@ -105,20 +105,20 @@
 - [ ] Events and raycasts
 - [ ] Quaternions and Euler angles
 - [ ] Opacity and transparency
-- [ ] Anchors and pivots
+- [x] Anchors and pivots
 
 #### Q16. The occlusion map of a material is often a grayscale image with pixels ranging between black and white. What does this map contribute to an object’s material?
 
 - [ ] White pixels reveal the detail map and black pixels reveal none
 - [ ] White pixels allow emission and black pixels allow none
 - [ ] White pixels receive shadows and black pixels receive none
-- [ ] White pixels receive full indirect illumination and black pixels receive none
+- [x] White pixels receive full indirect illumination and black pixels receive none
 
 #### Q17. What can you use to organize different game objects into groups inside the Hierarchy panel?
 
 - [ ] Canvas objects
 - [ ] Event systems
-- [ ] Empty objects
+- [x] Empty objects
 - [ ] Mesh renderers
 
 #### Q18. The Project windows search box can filter the display of assets with text commands. Which command displays only texture assets?
@@ -132,19 +132,19 @@
 
 - [ ] Expand the collider size of all scene objects and the bullets to detect collisions with better time
 - [ ] Increase the Fixed Time Step value from the Project Settings dialog to change the frequency of the FixedUpdate event
-- [ ] Change the Collision Detection property of the Rigidbody to Continuous Dynamic or Continous Speculative
+- [x] Change the Collision Detection property of the Rigidbody to Continuous Dynamic or Continous Speculative
 - [ ] Enable the IsKinematic property of the Rigidbody
 
 #### Q20. Some material types may include normal map textures. What does a normal map achieve?
 
 - [ ] It programmatically reduced the polycount of your meshes.
 - [ ] It displaces mesh geometry with extrusion and bevels to generate higher-poly versions.
-- [ ] It creates the appearance of surface detail on mesh - like bumps, dents, and scratches
+- [x] It creates the appearance of surface detail on mesh - like bumps, dents, and scratches
 - [ ] It is a level-of-detail system that progressively reduces a mesh’s polygons as a scene camera moves farther away from it
 
 #### Q21. A SkinnedMeshRenderer component is attached automatically by Unity to some mesh objects when they are added to a scene. Which reason best explains why?
 
-- [ ] The mesh file contains bones and rig data
+- [x] The mesh file contains bones and rig data
 - [ ] The game object also features an animator component
 - [ ] The game object is a Player-Controlled character
 - [ ] The mesh file contains a humanoid character
@@ -154,7 +154,7 @@
 - [ ] Range
 - [ ] HideInInspector
 - [ ] Serializable
-- [ ] SerializedField
+- [x] SerializedField
 
 #### Q23. What is a technique for optimizing Unity UI elements?
 
@@ -171,7 +171,7 @@
 - [ ] It inserts 20 space characters as a default value into the string variable below
 - [ ] It inserts 20 pixels of margin on all edges around the variable inside the Object Inspector
 - [ ] It inserts 20 pixels of empty space above the variable inside the Object Inspector
-- [ ] It inserts 20 pixels of empty space below the variable inside the Object Inspector
+- [x] It inserts 20 pixels of empty space below the variable inside the Object Inspector
 
 #### Q25. Every time you double-click a C# script file from the Project window, Unity prints the message below (or something very similar) to the console. What is a reasonable step in trying to solve this? Cannot start process because a file name has not been provided
 
@@ -213,18 +213,18 @@
 - [ ] It removes gravity from an object but retains all other forces
 - [ ] It removes all physical forces from the object, except gravity
 - [ ] It converts the object into physical forces that affect other objects
-- [ ] It suspends physical forces on the object, allowing manual transofrmations
+- [x] It suspends physical forces on the object, allowing manual transofrmations
 
 #### Q31. The primary directional light in a scene is linked by default to a procedural scene Skybox. What does the rotation of this light control?
 
 - [ ] The orientation of the Skybox
-- [ ] The night and day status of the skybox
+- [x] The night and day status of the skybox
 - [ ] The acoustics of all audio sources
 - [ ] The resolution of the skybox
 
 #### Q32. You can combine quaternions together through which arithmetic operation?
 
-- [ ] Multiplication
+- [x] Multiplication
 - [ ] Division
 - [ ] Addition
 - [ ] Subtraction
@@ -234,11 +234,11 @@
 - [ ] Render textures
 - [ ] Navigation mesh
 - [ ] Profiler
-- [ ] Occlusion Culling
+- [x] Occlusion Culling
 
 #### Q34. How does the Range C# attribute control the interaction behavior of numerical variables in the Object Inspector?
 
-- [ ] It restricts the variable value using a slider widget
+- [x] It restricts the variable value using a slider widget
 - [ ] It validates the variable values through a text box widget
 - [ ] It restricts the variable values using a color picker widget
 - [ ] It presents valid options in a drop down list
@@ -262,7 +262,7 @@
 
 #### Q36. The variable Transform.forward is a Vector3 measured in what?
 
-- [ ] Local space
+- [x] Local space
 - [ ] Innerspace
 - [ ] Normal space
 - [ ] World space
@@ -277,6 +277,6 @@
 #### Q38. Humanoid character assets, like NPCs and the player character, feature on Avatar object. Which statement best describes its purpose?
 
 - [ ] Avatars define parameter sets for facial muscle blendshapes
-- [ ] Avatar facilitate animation retargeting across different humanoid characters
+- [x] Avatar facilitate animation retargeting across different humanoid characters
 - [ ] Avatar define IK data for animated characters
 - [ ] Avatars describe how textures map on deforming objects during animation
