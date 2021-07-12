@@ -483,3 +483,46 @@
 - [ ] Exit Pages
 - [x] Landing Pages
 - [ ] Channels
+
+#### Q68. You are tracking events of playback of video on the home page of a website. You want users who watch the video, but still leave the page with no additional pageviews or interactions, to still be included in the bounce rate calculation. What must be configured?
+
+- [ ] non-interaction event
+- [ ] implicit event
+- [ ] advanced events
+- [ ] default event
+
+#### Q69. Which attribution model does Google Analytics apply by default for standard reports?
+
+- [ ] Linear
+- [ ] First Interaction
+- [ ] Last Interaction
+- [ ] Last Non-Direct Click
+
+#### Q70. If you want to track one destination goal but have two URLs that could trigger the goal (for example,/thank-you and /checkout-complete), what approach can you use?
+
+- [ ] Create a content grouping, and then use the group as the destination.
+- [ ] Add the additional page as a funnel step.
+- [ ] Use a regular expression when adding the goal destination.
+- [ ] That is not possible.
+
+#### Q71. If you created a calculated metric that returned a value of "80" with Time as the formatting type, how would it be represented in Google Analytics?
+
+- [ ] 0:01:20
+- [ ] 80
+- [ ] 80:00:00
+- [ ] 1:20:00
+
+#### Q72. You want to compare the revenue, top products, and average order value between people who viewed three or more pages on your site, to those who viewed fewer. What do you do? 
+
+- [ ] Create a custom report where Page Depth is >/3 or Page Depth is <3. Toggle on Revenue, Top Products, and Average Order Value as Dimensions.
+- [ ] View the Product Performance report and add Page Depth as a secondary dimension. Create a table filter for Page Depth greater than 3 and Page Depth less than 3.
+- [ ] Create a custom segment where Page Depth is >/3 and another segment where Page Depth is <3. Apply both segments while on the Ecommerce Overview report.
+- [ ] View the Ecommerce Overview report and create a table filter where Page Depth is >/3 or Page Depth is <3.
+
+#### Q73. If you wanted to create a user-defined metric to measure Revenue per User, what would you use? 
+
+- [ ] ecommerce metrics
+- [ ] custom dimensions
+- [ ] calculated metrics
+- [ ] custom metrics
+
