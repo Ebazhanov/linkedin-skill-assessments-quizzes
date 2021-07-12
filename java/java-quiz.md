@@ -25,16 +25,11 @@
 - [ ] `b1 || !b2`
 - [ ] `(i1 ^ i2) < 4`
 
-#### Q4. What can you use to create new instances in Java?
-
-- [x] constructor
-- [ ] another instance
-- [ ] field
-- [ ] private method
+#### Q4. <DUPLICATE OF Q34>
 
 #### Q5. What is the output of this code?
 
-```shell
+```java
 1: class Main {
 2:   public static void main (String[] args) {
 3:     int array[] = {1, 2, 3, 4};
@@ -113,13 +108,13 @@ class Main {
 ```java
 interface One {
     default void method() {
-        System.out.println(""One"");
+        System.out.println("One");
     }
 }
 
 interface Two {
     default void method () {
-        System.out.println(""One"");
+        System.out.println("One");
     }
 }
 ```
@@ -293,12 +288,6 @@ class Main {
 - [ ] "world!!world"
 - [ ] "world!world!"
 
-```java
-String m = "Hello world!";
-String n = m.substring(6,12) + m.substring(12,6);
-System.out.println(n);
-```
-
 #### Q16. How do you write a foreach loop that will iterate over ArrayList\<Pencil\>pencilCase?
 
 - [x] `for (Pencil pencil : pencilCase) {}`
@@ -306,16 +295,9 @@ System.out.println(n);
 - [ ] `for (Pencil pencil : pencilCase.iterator()) {}`
 - [ ] `for (pencil in pencilCase) {}`
 
-#### Q17. Fill in the blanks?
+#### Q17. <DUPLICATE of Q30>
 
-- Object-oriented programming (OOP) is a programming language model that organizes software design around (objects), rather than (actions).
-
-#### Q18. What code would you use to tell if "schwifty" is of type String?
-
-- [ ] `"schwifty".getType() == String`
-- [ ] `"schwifty".getClass().getSimpleName() == "String"`
-- [ ] `"schwifty".getType().equals("String")`
-- [x] `"schwifty" instanceof String`
+#### Q18. <DUPICATE OF Q31>
 
 #### Q19. What does this code print?
 
@@ -335,7 +317,7 @@ System.out.print("apple".compareTo("banana"));
 - [x] `names.sort(List.DESCENDING)`
 - [ ] `names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())`
 
-#### Q21. By implementing encapsulation, you cannot directly access the class's \_\_\_ properties unless you are writing code inside the class itself.
+#### Q21. By implementing encapsulation, you cannot directly access the class's __ properties unless you are writing code inside the class itself.
 
 - [x] private
 - [ ] protected
@@ -378,7 +360,7 @@ class Main {
 - [ ] 5 times
 - [ ] infinite number of times
 
-Reason : Observe the loop increment. It's not an increment, it's an assignment(post).
+**Explanation**: Observe the loop increment. It's not an increment, it's an assignment(post).
 
 #### Q25. The runtime system starts your program by calling which function first?
 
@@ -387,7 +369,7 @@ Reason : Observe the loop increment. It's not an increment, it's an assignment(p
 - [ ] hello
 - [x] main
 
-### 26. What code would you use in Constructor A to call Constructor B?
+#### 26. What code would you use in Constructor A to call Constructor B?
 
 ```java
 public class Jedi {
@@ -489,13 +471,13 @@ class Main {
 
 ```java
 1: class Main {
-2: 		Object message(){
-3: 			return "Hello!";
-4: 		}
-5: 		public static void main(String[] args) {
-6: 			System.out.print(new Main().message());
-7: 			System.out.print(new Main2().message());
-8: 		}
+2: 	Object message(){
+3: 		return "Hello!";
+4: 	}
+5: 	public static void main(String[] args) {
+6: 		System.out.print(new Main().message());
+7: 		System.out.print(new Main2().message());
+8: 	}
 9: }
 10: class Main2 extends Main {
 11: 	String message(){
@@ -547,6 +529,8 @@ public static void badMethod() {
 - [ ] C and D
 - [x] A and D
 
+**Explanation**: `Error` is not inherited from `Exception`
+
 #### Q37. What is the output of this code?
 
 ```java
@@ -587,6 +571,8 @@ class Main {
 - [ ] The code does not compile.
 - [ ] [abc, 2, 10, 0]
 - [x] [0, 10, 2, abc]
+
+**Explanation**: The `java.util.Arrays.asList(T... a)` returns a fixed-size list backed by the specified array. (Changes to the returned list "write through" to the array.)
 
 #### Q39. What is the output of this code?
 
@@ -671,7 +657,7 @@ theList.forEach(System.out::println);
 - [ ] public isHealthy("avocado")
 - [ ] private String isHealthy(String food)
 
-#### Q43. Which are valid keywords in a Java module descriptor (module-infoJava)?
+#### Q43. Which are valid keywords in a Java module descriptor (module-info.java)?
 
 - [ ] provides, employs
 - [ ] imports, exports
@@ -685,7 +671,7 @@ theList.forEach(System.out::println);
 - [x] final
 - [ ] private
 
-#### Q45. How does the keyword `_volatile_` affect how a variable is handled?
+#### Q45. How does the keyword `volatile` affect how a variable is handled?
 
 - [ ] It will be read by only one thread at a time.
 - [ ] It will be stored on the hard drive.
@@ -774,7 +760,7 @@ public TheClass() {
 }
 ```
 
-- [ ] C
+- [x] C
 
 ```java
 public TheClass() {
@@ -782,7 +768,7 @@ public TheClass() {
 }
 ```
 
-- [x] D
+- [ ] D
 
 ```java
 private void setX(int x) {
@@ -792,6 +778,8 @@ public TheClass() {
     setX(77);
 }
 ```
+
+**Explanation:** `final` class members are allowed to be assigned only in two places: declaration and constructor
 
 #### Q52. How many times f will be printed?
 
@@ -878,11 +866,11 @@ public class Solution {
 public class TestReal {
     public static void main (String[] argv)
     {
-      double pi = 3.14159265;       //accuaracy upto 15 digits
-      float pi2 = 3.141F;                //accuracy upto 6-7 digits
+      double pi = 3.14159265;       //accuracy up to 15 digits
+      float pi2 = 3.141F;           //accuracy up to 6-7 digits
 
       System.out.println ("Pi=" + pi);
-      System.out.println ("Pi2" + pi2;
+      System.out.println ("Pi2=" + pi2);
     }
   }
 ```
@@ -960,6 +948,8 @@ try {
 - [ ] native
 - [ ] interface
 - [x] unsigned
+
+**Explanation:** `native` is a part of JNI interface
 
 #### Q65. Which operator would you use to find the remainder after division?
 
@@ -1105,7 +1095,7 @@ public class Duck {
 
 #### Q79. Which operator is used to concatenate Strings in Java
 
-- [x] -
+- [x] +
 - [ ] &
 - [ ] .
 - [ ] -
@@ -1187,10 +1177,12 @@ public class Main {
 7: }
 ```
 
-- [x] Change line 2 to `public static final String message`
+- [ ] Change line 2 to `public static final String message`
 - [ ] Change line 6 to `public void print2(){}`
 - [ ] Remove the body of the `print2` method and add a semicolon.
-- [ ] Remove the body of the `print` method.
+- [x] Remove the body of the `print` method.
+
+**Explanation**: Chaning line 2 to `public static final String message` raises the error `message not initialized in the default constructor`
 
 #### Q87. What is the output of this code?
 
@@ -1226,7 +1218,7 @@ class Main {
 class Main {
   public static void main(String[] args) {
     StringBuilder sb = new StringBuilder("hello");
-    sb.deleteCharAt(0).insert(0, "H")." World!";
+    sb.deleteCharAt(0).insert(0, "H")." World!"; 
     System.out.println(sb);
   }
 }
@@ -1236,3 +1228,5 @@ class Main {
 - [ ] "HelloWorld!"
 - [ ] "hello"
 - [ ] ????
+
+**Note:** This code won't compile, possibly broken code sample
