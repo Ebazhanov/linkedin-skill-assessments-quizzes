@@ -436,10 +436,11 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 #### Q52. According to WordPress PHP coding standards for inline comments, how would you write a single-line comment in a PHP document?
 
 - [x] `// This is a single line comment`
-- [ ] ````/*
-            * This is a single line comment.
-      	  */```
-      ````
+- [ ] `````/*
+                * This is a single line comment.
+          	  */```
+          ````
+      `````
 - [ ] `// This is a single line comment.`
 - [ ] `<!-- This is a single line comment -->`
 
@@ -518,3 +519,17 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [x] `root`
 - [ ] `/wp-content`
 - [ ] `/wp-includes`
+
+#### Q63. What are transients?
+
+- [ ] short database queries
+- [ ] away to cache information
+- [ ] plugins used for quick debugging
+- [ ] post draft stored in the database
+
+#### Q64. If you wanted to debug some javasript, which method would you use to display data in your browser console?
+
+- [ ] `windows.alert()`
+- [ ] `console.log()`
+- [ ] `document.write()`
+- [ ] `innerHTML`
