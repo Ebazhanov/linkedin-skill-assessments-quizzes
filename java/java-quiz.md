@@ -1182,7 +1182,7 @@ public class Main {
 - [ ] Remove the body of the `print2` method and add a semicolon.
 - [x] Remove the body of the `print` method.
 
-**Explanation**: Chaning line 2 to `public static final String message` raises the error `message not initialized in the default constructor`
+**Explanation**: Changing line 2 to `public static final String message` raises the error `message not initialized in the default constructor`
 
 #### Q87. What is the output of this code?
 
