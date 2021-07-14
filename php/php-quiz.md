@@ -18,11 +18,11 @@
 
 ##### Q3. What does this script do?
 
-```
-1 $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
-2 if ($email === false) {
-3  $emailErr = "Please re-enter valid email";
-4 }
+```php
+$email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
+if ($email === false) {
+    $emailErr = "Please re-enter valid email";
+}
 ```
 
 - [ ] It makes sure the email address is a good and functioning address
@@ -93,7 +93,7 @@
 
 ##### Q11. What is missing from this code, which is supposed to create a test cookies?
 
-```
+```php
 1 $string_name = "testcookie";
 2 $string_value = "This is a test cookie";
 3 $expiry_info = info()+259200;
@@ -123,14 +123,14 @@
 
 ##### Q14. Which code snippet uses the correct syntax for creating an instance of the Pet class?
 
-- [ ] $dog = new Pet;
+- [ ] `$dog = new Pet;`
 - [x] all of these answers
-- [ ] $horse = (new Pet);
-- [ ] $cat = new Pet();
+- [ ] `$horse = (new Pet);`
+- [ ] `$cat = new Pet();`
 
 ##### Q15. What is the best way to explain what this script does?
 
-```
+```php
 1 if (!$_SESSION['myusername'])
 2 {
 3   header('locaton: /login.php');
@@ -166,95 +166,81 @@
 
 ##### Q19. The PHP function array_reduce() takes a callback function that accepts a value carried over each iteration and the current item in the array, and reduces an array to a single value. Which code sample will sum and output the values in the provided array?
 
-- [ ] 
-
-```
-1 <?php
-2 echo array_reduce([1, 2, 5, 10, 11], function ($item, $carry) {
-3     $carry = $carry + $item;
-4 });
-5?>
-```
-
-- [ ] 
-
-```
-1 <?php
-2 echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) {
-3     return $carry = $item + $item;
-4 });
-5?>
-```
-
-- [ ] 
-
-```
-1 <?php
-2 array_reduce([11 2, 5, 10, 11], function ($item, $carry) {
-3     echo $carry + $item;
-4 });
-5?>
-```
-
+- [ ]
+  ```php
+  1 <?php
+  2 echo array_reduce([1, 2, 5, 10, 11], function ($item, $carry) {
+  3     $carry = $carry + $item;
+  4 });
+  5?>
+  ```
+- [ ]
+  ```php
+  1 <?php
+  2 echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) {
+  3     return $carry = $item + $item;
+  4 });
+  5?>
+  ```
+- [ ]
+  ```php
+  1 <?php
+  2 array_reduce([11 2, 5, 10, 11], function ($item, $carry) {
+  3     echo $carry + $item;
+  4 });
+  5?>
+  ```
 - [x]
-
-```
-1 <?php
-2 echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) {
-3     return $carry += $item;
-4 });
-5?>
-```
+  ```php
+  1 <?php
+  2 echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) {
+  3     return $carry += $item;
+  4 });
+  5?>
+  ```
 
 ##### Q20. Which PHP script uses a constructor to display the string "Winter is almost over!"?
 
 - [x]
-
-```
-1 class MyClass {
-2 public function \_construct()
-3 {
-4 echo 'Winter is almost over!'."\n";
-5 }
-6 }
-7 \$userclass = new MyClass;
-```
-
+  ```php
+  1 class MyClass {
+  2 public function \_construct()
+  3 {
+  4 echo 'Winter is almost over!'."\n";
+  5 }
+  6 }
+  7 \$userclass = new MyClass;
+  ```
 - [ ]
-
-```
-1 class MyClass {
-2 public function _construct()
-3 {
-4 echo 'Winter is almost over!.."\n";
-5 }
-6 }
-7 $userclass = new MyClass;
-```
-
+  ```php
+  1 class MyClass {
+  2 public function _construct()
+  3 {
+  4 echo 'Winter is almost over!.."\n";
+  5 }
+  6 }
+  7 $userclass = new MyClass;
+  ```
 - [ ]
-
-```
-1 class MyClass {
-2 public function \_construct()
-3 {
-4 echo 'Winter is almost over!.."\n";
-5 }
-6 }
-7 \$userclass = new MyClass;
-```
-
+  ```php
+  1 class MyClass {
+  2 public function \_construct()
+  3 {
+  4 echo 'Winter is almost over!.."\n";
+  5 }
+  6 }
+  7 \$userclass = new MyClass;
+  ```
 - [ ]
-
-```
-1 class MyClass {
-2 public function _construct()
-3 {
-4 echo 'Winter is almost over!'."n";
-5 }
-6 }
-7 $userclass = MyClass;
-```
+  ```php
+  1 class MyClass {
+  2 public function _construct()
+  3 {
+  4 echo 'Winter is almost over!'."n";
+  5 }
+  6 }
+  7 $userclass = MyClass;
+  ```
 
 ##### Q21. How might you troubleshoot a "call to undefined function" error?
 
@@ -286,7 +272,7 @@
 
 ##### Q25. What is the significance of the three dots in this function signature?
 
-```
+```php
 function process(...$vals) {
         // do some processing
  }
@@ -320,12 +306,15 @@ function process(...$vals) {
 
 ##### Q29. Which is the way to create an array of "seasons"?
 
-- [ ] `seasons=array(
+- [ ] 
+  ```
+  seasons=array(
       1=>'spring',
       2=>'summer',
       3=>'autumn',
       4=>'winter',
-      );`
+      );
+  ```
 - [ ] `$seasons=array(spring,summer,autumn,winter);`
 - [ ] `$seasons=('spring','summer','autumn','winter');`
 - [x] `$seasons=['spring','summer','autumn','winter'];`
@@ -339,7 +328,7 @@ function process(...$vals) {
 
 ##### Q31. What will this code print?
 
-```
+```php
 $mathe=array('archi','euler','pythagoras');
 array_push($mathe,'hypatia');
 array_push($mathe,'fibonacci');
@@ -399,7 +388,7 @@ echo sizeof($mathe);
 
 ##### Q38. For the HTML form below, what is the correct functioning script that checks the input "mail" to be sure it is filled before proceeding?
 
-```
+```php
 if (!empty($_POST["mail"])) {
 echo "Yes, mail is set";
 } else {
@@ -449,48 +438,41 @@ echo "No, mail is not set";
 ##### Q44. Which code snippet demonstrates encapsulation?
 
 - [ ]
-
-```
-class Cow extends Animal {
-    private $milk;
-}
-```
-
+  ```php
+  class Cow extends Animal {
+      private $milk;
+  }
+  ```
 - [ ]
-
-```
-class Cow {
-    public $milk;
-}
-$daisy = new Cow();
-$daisy->milk = "creamy";
-```
-
+  ```php
+  class Cow {
+      public $milk;
+  }
+  $daisy = new Cow();
+  $daisy->milk = "creamy";
+  ```
 - [ ]
-
-```
-class Cow {
-    public $milk;
-    function getMilk() {`
-        return $this->milk;
-    }
-}
-```
-
+  ```php
+  class Cow {
+      public $milk;
+      function getMilk() {`
+          return $this->milk;
+      }
+  }
+  ```
 - [x]
-
-```
-class Cow {
-    private $milk;
-        public function getMilk() {
-            return $this->milk;
-        }
-}
-```
+  ```php
+  class Cow {
+      private $milk;
+      public function getMilk() {
+          return $this->milk;
+      }
+  }
+  ```
 
 ##### Q45. The following XML document is in books.xml. Which code will output "Historical"?
 
-```
+```xml
 <books>
     <book>
         <title>A Tale of Two Cities</title>
@@ -510,14 +492,26 @@ class Cow {
 </books>
 ```
 
-- [ ] `$books = simplexml_load_string('books.xml');
-      echo $books->book[0]->categories->category[1];`
-- [x] `$books = simplexml_load_file('books.xml');
-      echo $books->book[0]->categories->category[1];`
-- [ ] `$books = SimpleXMLElement('books.xml');
-      echo $books->book[0]->categories->category[1];`
-- [ ] `$books = SimpleXML('books.xml');
-      echo $books->book[0]->categories->category[1];`
+- [ ] 
+  ```php
+  $books = simplexml_load_string('books.xml');
+  echo $books->book[0]->categories->category[1];
+  ```
+- [x] 
+  ```php
+  $books = simplexml_load_file('books.xml');
+  echo $books->book[0]->categories->category[1];
+  ```
+- [ ] 
+  ```php
+  $books = SimpleXMLElement('books.xml');
+  echo $books->book[0]->categories->category[1];
+  ```
+- [ ] 
+  ```php
+  $books = SimpleXML('books.xml');
+  echo $books->book[0]->categories->category[1];
+  ```
 
 ##### Q46. When it comes to the value of a variable, what is the difference between NULL and empty?
 
@@ -528,7 +522,7 @@ class Cow {
 
 ##### Q47. What would be a good name for this function?
 
-```
+```php
 function doStuff($haystack, $needle) {
       $length = strlen($needle)
       if (substr($haystack, 0, $length) == $needle)
@@ -552,7 +546,7 @@ function doStuff($haystack, $needle) {
 
 ##### Q49. You are using the following code to decide if a button is clicked, but it is never returning true. Which step is most likely to shed light on the problem?
 
-```
+```php
 isset($_POST['submit'])
 ```
 
@@ -578,32 +572,25 @@ isset($_POST['submit'])
 #### Q52. What are the recommended settings in the PHP configuration file, php.ini, for a testing environment?
 
 - [ ]
-
-```
-report_errors = E_ALL
-display_errors = On
-```
-
+  ```php
+  report_errors = E_ALL
+  display_errors = On
+  ```
 - [x]
-
-```
-error_reporting = E_ALL
-display_errors = On
-```
-
+  ```php
+  error_reporting = E_ALL
+  display_errors = On
+  ```
 - [ ]
-
-```
-error_reporting = E_ALL & ~E_NOTICE
-display_errors = Off
-```
-
+  ```php
+  error_reporting = E_ALL & ~E_NOTICE
+  display_errors = Off
+  ```
 - [ ]
-
-```
-error_reporting = E_ALL & ~E_NOTICE
-display_errors = On
-```
+  ```php
+  error_reporting = E_ALL & ~E_NOTICE
+  display_errors = On
+  ```
 
 #### Q53. Which PHP variable name is invalid?
 
