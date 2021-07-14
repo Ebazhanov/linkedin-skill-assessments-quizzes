@@ -189,9 +189,11 @@ console.log(bob.precip);
 #### Q12. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?
 
 - [ ] /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/
-- [x] /\d\d:\d\d:\d\d/
+- [ ] /\d\d:\d\d:\d\d/
 - [ ] /[0-9]+:[0-9]+:[0-9]+/
 - [ ] / : : /
+
+NOTE: the first three expressions will all match. Question seem to be incorrect.
 
 #### Q13. What is the result in the console of running this code?
 
@@ -632,10 +634,10 @@ printA();
 printA();
 ```
 
-- [ ] 1 then 1
-- [ ] 1 then undefined
-- [x] undefined the undefined
-- [ ] undefined the 1
+- [ ] `1` then `1`
+- [ ] `1` then `undefined`
+- [x] `undefined` then `undefined`
+- [ ] `undefined` then `1`
 
 #### Q56. How does the `forEach()` method differ from a `for` statement?
 
@@ -669,10 +671,12 @@ new logThis();
 
 #### Q59. Why might you choose to make your code asynchronous?
 
-- [ ] to start tasks that might take some time without blocking subsequent tasks from executing immediately
-- [x] to ensure that tasks further down in your code are not initiated until earlier tasks have completed
+- [x] to start tasks that might take some time without blocking subsequent tasks from executing immediately
+- [ ] to ensure that tasks further down in your code are not initiated until earlier tasks have completed
 - [ ] to make your code faster
 - [ ] to ensure that the call stack maintains a LIFO (Last in, First Out) structure
+
+**EXPLANATION:** "to ensure that tasks further down in your code are not initiated until earlier tasks have completed" you use the normal (synchronous) flow where each command is executed sequentially. Asynchronous code allows you to break this sequence: start a long running function (AJAX call to an external service) and continue running the rest of the code in parallel.
 
 #### Q60. Which expression evaluates to true?
 
@@ -789,9 +793,9 @@ button.addEventListener(
 #### Q74. Why would you choose an asynchronous structure for your code?
 
 - [ ] To use ES6 syntax
-- [ ] To start tasks that might take some time without blocking subsequent tasks from executing immediately
+- [x] To start tasks that might take some time without blocking subsequent tasks from executing immediately
 - [ ] To ensure that parsers enforce all JavaScript syntax rules when processing your code
-- [x] To ensure that tasks further down in your code aren't initiated until earlier tasks have completed
+- [ ] To ensure that tasks further down in your code aren't initiated until earlier tasks have completed
 
 #### Q75. What is the HTTP verb to request the contents of an existing resource?
 
