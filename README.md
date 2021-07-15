@@ -1,9 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-446-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-447-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -684,6 +682,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/anandnat"><img src="https://avatars.githubusercontent.com/u/6303094?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anand Natarajan</b></sub></a><br /><a href="#design-anandnat" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=anandnat" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/esyekas"><img src="https://avatars.githubusercontent.com/u/12535720?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kashan Ali</b></sub></a><br /><a href="#design-esyekas" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=esyekas" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/2Math0"><img src="https://avatars.githubusercontent.com/u/50797015?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Thomas Meshail</b></sub></a><br /><a href="#design-2Math0" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=2Math0" title="Code">💻</a></td>
+    <td align="center"><a href="https://lamegaton.github.io/"><img src="https://avatars.githubusercontent.com/u/5988492?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Son Pham</b></sub></a><br /><a href="#design-lamegaton" title="Design">🎨</a></td>
   </tr>
 </table>
 
