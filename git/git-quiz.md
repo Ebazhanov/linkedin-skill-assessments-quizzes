@@ -756,12 +756,12 @@ Which of the following options is correct ?
 
 #### Q93. You would like to restore some previously stashed work to a new branch. How can you do that?
 
-- [x] Use git branch <stash hash>.
+- [x] Use `git branch <stash hash>`.
 - [ ] Add the stashed commits to the current commit, then create a new branch.
-- [ ] Use git checkout -b.
-- [ ] Run git stash branch <branch name>.
-  
- #### Q94. You is the difference between git branch -d and git branch -D?
+- [ ] Use `git checkout -b`.
+- [ ] Run `git stash branch <branch name>`.
+
+#### Q94. You is the difference between git branch -d and git branch -D?
 
 - [ ] -D deletes the local branch, while -d deletes the branch regardless of push and merge status.
 - [ ] -d deletes the current commit head, while -D deletes the entire branch.

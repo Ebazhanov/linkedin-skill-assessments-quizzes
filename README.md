@@ -2,7 +2,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-444-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-445-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -92,7 +92,7 @@ if you want to meet each other or discuss quiz related problems join the `Discor
 | [Visio](visio/visio-quiz.md)                                                 |                                                                                                                                                                                      | => 32 questions | => 0 answers  |                                                                                                             |
 | [Windows Server](windows-server/windows-server-quiz.md)                      |                                                                                                                                                                                      | => 46 questions | => 44 answers |                                                                                                             |
 | [WordPress](wordpress/wordpress-quiz.md)                                     |                                                                                                                                                                                      | => 55 questions | => 39 answers |                                                                                                             |
-| [XML](xml/xml-quiz.md)                                                       |                                                                                                                                                                                      | => 21 questions | => 19 answers | [@ruslanbes](https://github.com/ruslanbes)                                                                  |
+| [XML](xml/xml-quiz.md)                                                       |                                                                                                                                                                                      | => 21 questions | => 19 answers |                                                                                                             |
 
 ## Format
 
@@ -682,6 +682,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/grigor-minasyan/"><img src="https://avatars.githubusercontent.com/u/4447177?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Grigor Minasyan</b></sub></a><br /><a href="#design-grigor-minasyan" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=grigor-minasyan" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/alvintwc"><img src="https://avatars.githubusercontent.com/u/55237079?v=4?s=100" width="100px;" alt=""/><br /><sub><b>alvintwc</b></sub></a><br /><a href="#design-alvintwc" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=alvintwc" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/anandnat"><img src="https://avatars.githubusercontent.com/u/6303094?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anand Natarajan</b></sub></a><br /><a href="#design-anandnat" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=anandnat" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/esyekas"><img src="https://avatars.githubusercontent.com/u/12535720?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kashan Ali</b></sub></a><br /><a href="#design-esyekas" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=esyekas" title="Code">💻</a></td>
   </tr>
 </table>
 
