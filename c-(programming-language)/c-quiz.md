@@ -7,13 +7,11 @@
           {
               char *smallString = (char *) malloc(10);
           }
-          ```
       ````
 - [ ] ````c
           long long number = 1;
           while(1)
               number *= 2;
-          ```
       ````
 - [ ] ````c
           while(1)
@@ -21,7 +19,6 @@
               char hugeString[1000000L];
               memset(hugeString, 0, 1000000L);
           }
-          ```
       ````
 - [ ] ````c
           while(1)
@@ -30,7 +27,6 @@
               memset(bigArray, 1000000, 1000);
               free(bigArray);
           }
-          ```
       ````
 
 #### Q2. What will this code print on the screen?
