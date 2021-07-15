@@ -80,7 +80,7 @@
 #### Q4. When working with Ajax applications, which is faster, XML or JSON?
 
 - [ ] XML, because it is extensible
-- [x] JSON, because it transfers data without waiting for a sever response
+- [x] JSON, because it transfers data without waiting for a server response
 - [ ] XML, because it supports namespaces
 - [ ] JSON, because it is already parsed into a JavaScript object
 
@@ -381,16 +381,20 @@
 ```
 
 - [ ] `/car[price>20000]/make/model`
-- [x] `/car[price>=20000 and @year>=2009]/make/model`
+- [ ] `/car[price>=20000 and @year>=2009]/make/model`
 - [ ] `//car[price>=20000 and @year>2008]/model`
 - [ ] `/cars/car[price>=20000 and year>2008]/model`
+
+NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Check the question
 
 #### Q32. You are working with an XML document that uses an XML schema. How do you ensure that an attribute must be specified for its corresponding element?
 
 - [ ] Set the type attribute to `xs:required`.
-- [ ] Set the use attribute to `required`.
+- [x] Set the `use` attribute to `required`.
 - [ ] Set the minLength attribute to 1.
 - [ ] Set the minOccurs attribute to 1.
+
+**Reference**: [XSD Attributres](https://www.w3schools.com/xml/schema_simple_attributes.asp)
 
 #### Q33. You are working with the following XML code snippet. What do you need to include in your XSLT code to display `Mercedes, Cadillac, Ford`?
 
