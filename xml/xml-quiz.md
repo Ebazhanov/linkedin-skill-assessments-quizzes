@@ -209,13 +209,15 @@
 - [ ] XSLT
 - [ ] DOM
 - [ ] AJAX
-- [ ] XSD
+- [x] XSD
+
+`This question is about understanding the XML аfile contents. XSD is the correct one here - that's the schema document, which describes the XML.`
 
 #### Q21. In an XML DTD, attributes are declared with an ATTLIST declaration. You need to validate the color attribute for element `<car>` against a fixed list of values. Which is the correct declaration?
 
 - [ ] `<!ATTLIST car color (red|white|blue|black) black>`
 - [ ] `<!ATTLIST car color (red|white|blue|black) #REQUIRED>`
-- [ ] `<!ATTLIST car color (red|white|blue|black) #FIXED>`
+- [x] `<!ATTLIST car color (red|white|blue|black) #FIXED>`
 - [ ] `<!ATTLIST car color (red|white|blue|black)>`
 
 #### Q22. The main ways to control the display of XML documents are with Cascading Style Sheets (CSS) and Extensible Styles Language (XSL). What is an advantage of CSS over XSL?
@@ -223,7 +225,7 @@
 - [ ] CSS is a complete programming language with more powerful syntax.
 - [ ] With CSS, the same element can be processed multiple times.
 - [ ] CSS allows you to reformat data into completely new structures.
-- [ ] CSS is easier to learn, use, and maintain.
+- [x] CSS is easier to learn, use, and maintain.
 
 #### Q23. Which type of DTD declaration is this code an example of? `<!DOCTYPE abc SYSTEM "file/file.dtd">`
 
@@ -432,7 +434,7 @@
 - [ ] The implementation of an XHTML module requires an extension module and a validation module that ensures that the XHTML is well formed and valid; otherwise the extended instances aren't formally XHTML.
 - [ ] The implementation of an XHTML module requires a definitions module and a constraint module that specifies syntax rules and uses the parameter entities declared in the definitions module.
 - [ ] The implementation of an XHTML module requires a qualified name module and a declaration module that holds the element, element attribute, and content model declarations.
-- [ ] The implementation of an XHTML module requires a namespace module that holds the element, element attribute, and content model declarations, and a parameter module that uses the entities declared in the namespace module.
+- [x] The implementation of an XHTML module requires a namespace module that holds the element, element attribute, and content model declarations, and a parameter module that uses the entities declared in the namespace module.
 
 #### Q37. The `<xsl:namespace-alias>` element is used to replace a namespace in the style sheet with a different namespace in the output. Which XSLT element needs to be its parent node?
 
