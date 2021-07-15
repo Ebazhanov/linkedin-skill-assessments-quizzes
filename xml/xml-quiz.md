@@ -206,10 +206,12 @@
 
 #### Q20. You want to convert a large XML file into CSV format. You did not create the XML file, so you are not familiar with all of the syntax. What will help you get the best insight into the file contents?
 
-- [x] XSLT
+- [ ] XSLT
 - [ ] DOM
 - [ ] AJAX
-- [ ] XSD
+- [x] XSD
+
+`This question is about understanding the XML аfile contents. XSD is the correct one here - that's the schema document, which describes the XML.`
 
 #### Q21. In an XML DTD, attributes are declared with an ATTLIST declaration. You need to validate the color attribute for element `<car>` against a fixed list of values. Which is the correct declaration?
 
