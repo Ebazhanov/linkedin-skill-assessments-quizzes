@@ -428,7 +428,7 @@ NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Check
 - [ ] EntityReference
 - [ ] DocumentFragment
 
-[reference link:](<https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ms766473(v=vs.85)>)
+[reference link:](https://www.w3schools.com/XML/dom_nodetype.asp)
 
 #### Q36. XHTML modules can be extended by adding elements, attributes, modifying content models, or some combination of these. What does a proper implementation of an XHTML module require?
 
@@ -466,10 +466,10 @@ NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Check
 </cars>
 ```
 
-- [ ] Elements <make> and <model> are ancestors of <year>.
-- [ ] Elements <make> and <model> are children of <cars>.
-- [x] Elements <make> and <model> are siblings.
-- [ ] Elements <car> and <cars> are parents of <make> and <model>.
+- [ ] Elements `<make>` and `<model>` are ancestors of `<year>`.
+- [ ] Elements `<make>` and `<model>` are children of `<cars>`.
+- [x] Elements `<make>` and `<model>` are siblings.
+- [ ] Elements `<car>` and `<cars>` are parents of `<make>` and `<model>`.
 
 #### Q40. Which is a valid CSS section for this XML code snippet?
 
