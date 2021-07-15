@@ -4353,6 +4353,15 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "frenchytheasian",
+      "name": "Michael French",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53289952?v=4",
+      "profile": "https://github.com/frenchytheasian",
+      "contributions": [
+        "example"
+      ]
     }
   ],
   "contributorsPerLine": 7,
