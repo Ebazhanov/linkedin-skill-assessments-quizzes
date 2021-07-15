@@ -41,48 +41,41 @@
 #### Q3. You are converting your HTML file into XHTML Strict. Which code snippet will validate without errors?
 
 - [ ]
-
-```xml
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head><title>XHTML Example</title></head>
-    <body bgcolor="#FFFFFF" >
-        <p>Content goes here ...</p>
-    </body>
-</html>
-```
-
+  ```xml
+  <html xmlns="http://www.w3.org/1999/xhtml">
+      <head><title>XHTML Example</title></head>
+      <body bgcolor="#FFFFFF" >
+          <p>Content goes here ...</p>
+      </body>
+  </html>
+  ```
 - [ ]
-
-```xml
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head><title>XHTML Example</title></head>
-    <body name="bodySection">
-        <p><b>Content goes here ...</b></p>
-    </body>
-</html>
-```
-
+  ```xml
+  <html xmlns="http://www.w3.org/1999/xhtml">
+      <head><title>XHTML Example</title></head>
+      <body name="bodySection">
+          <p><b>Content goes here ...</b></p>
+      </body>
+  </html>
+  ```
 - [ ]
-
-```xml
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head><title>XHTML Example</title></head>
-    <body color="#333333">
-        <p><i>Content goes here ...</i></p>
-    </body>
-</html>
-```
-
+  ```xml
+  <html xmlns="http://www.w3.org/1999/xhtml">
+      <head><title>XHTML Example</title></head>
+      <body color="#333333">
+          <p><i>Content goes here ...</i></p>
+      </body>
+  </html>
+  ```
 - [x]
-
-```xml
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head><title>XHTML Example</title></head>
-    <body id="bodySelection">
-        <p><strong>Content goes here ...</strong></p>
-    </body>
-</html>
-```
+  ```xml
+  <html xmlns="http://www.w3.org/1999/xhtml">
+      <head><title>XHTML Example</title></head>
+      <body id="bodySelection">
+          <p><strong>Content goes here ...</strong></p>
+      </body>
+  </html>
+  ```
 
 #### Q4. When working with Ajax applications, which is faster, XML or JSON?
 
@@ -111,10 +104,12 @@
 
 #### Q7. Which XHTML syntax rule does NOT apply to XML?
 
-- [x] XHTML attribute values must be quoted
-- [ ] XHTML tags and attributes must be in lowercase
+- [ ] XHTML attribute values must be quoted
+- [x] XHTML tags and attributes must be in lowercase
 - [ ] XHTML elements must be properly nested within each other.
 - [ ] XHTML tags must have an equivalent closing tag.
+
+**Explanation**: XML Attributes values [must be quoted](https://www.w3schools.com/xml/xml_attributes.asp). Element names are [case-sensitive](https://www.w3schools.com/xml/xml_elements.asp) (and CamelCase is actually one of the naming styles).
 
 #### Q8. Which Ajax method is used to exchange data with a server, using a modern browser?
 
