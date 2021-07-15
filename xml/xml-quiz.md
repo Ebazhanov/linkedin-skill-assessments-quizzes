@@ -277,10 +277,10 @@
 
 - [ ] `format-number()`
 - [ ] `id()`
-- [x] `count()`
-- [ ] `position()`
+- [ ] `count()`
+- [x] `position()`
 
-[reference link:](https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/count)
+**Explanation**: [count()](https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/count) returns the total the number of nodes (3), while [position()](https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/position) returns the 0-based index of each node.
 
 #### Q28. You are working with this XML code snippet from the XML document cars.xml. You need to return the information about the cars built after the year 2000, as an ordered list, starting with the most recent. What does your XQuery look like?
 
