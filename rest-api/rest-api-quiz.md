@@ -63,12 +63,16 @@
 - [ ] `WSDL`
 - [ ] `OAuth`
 
+Explanation: [OpenAPI Specification](https://swagger.io/specification/)
+
 #### Q10. Which HTTP verb is normally used to update or create a resource in an API?
 
 - [ ] `SUBMIT`
 - [ ] `WRITE`
 - [x] `POST`
 - [ ] `CREATE`
+
+Explanation: [HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
 #### Q11. What is one benefit of server-side caching in APIs?
 
@@ -84,6 +88,8 @@
 - [ ] `406 Not Acceptable`
 - [x] `405 Method Not Allowed`
 
+Explanation: [Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
+
 #### Q13. What is OpenID Connect?
 
 - [x] `an identify layer on top of OAuth 2.0`
@@ -91,12 +97,16 @@
 - [ ] `a modern replacement for API keys`
 - [ ] `an SSO competitor for OAuth 2.0`
 
+Explanation: [What is OpenID Connect?](https://openid.net/connect/)
+
 #### Q14. What is one benefit of GraphQl over REST approaches?
 
 - [x] `flexible querying/responses`
 - [ ] `more stable APIs`
 - [ ] `compatible with more gateways`
 - [ ] `more secure by default`
+
+Explanation: [GraphQL vs. REST](https://www.apollographql.com/blog/graphql/basics/graphql-vs-rest/)
 
 #### Q15. Which REST constraint specifies that there should be no shared context?
 
@@ -126,6 +136,8 @@
 - [x] `A token is scoped to the use case.`
 - [ ] `A token can be shared between systems.`
 
+Explanation: [How to easily secure your APIs with API keys and OAuth](https://apifriends.com/api-security/api-keys-oauth/)
+
 #### Q19. The ability to execute the same API request over and over again without changing the resource's state is an example of \_\_\_.
 
 - [ ] `stateless architecture`
@@ -153,6 +165,8 @@
 - [x] `scope`
 - [ ] `claim`
 - [ ] `back channel`
+
+Explanation: [OAuth Scopes](https://oauth.net/2/scope/)
 
 #### Q23. What additional type of token would you see when using OpenID Connect?
 
@@ -267,6 +281,7 @@
 - [ ] to keep a web session active
 - [x] to retrieve an access token
 
+Explanation: [Understanding Refresh Tokens](https://auth0.com/learn/refresh-tokens/)
 #### Q39. What is Time to First Hello World?
 
 - [x] how long it takes for a developer to do something with your API
@@ -330,6 +345,8 @@
 - [x] `401`
 - [ ] `405`
 
+Explanation: [Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
+
 #### Q48. Which is a benefit of using an API gateway?
 
 - [ ] `HTTP verbs`
@@ -358,6 +375,8 @@
 - [ ] `Expires: 1 January 2020`
 - [ ] `Cache-Expires: max-age=60`
 
+Explanation: [Cache Control Header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
+
 #### Q52. What is the concept that allows an API client to explore an API via links embedded in payloads?
 
 - [ ] `hypermedia`
@@ -372,6 +391,8 @@
 - [ ] `204`
 - [ ] `202`
 
+Explanation: [Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
+
 #### Q54. Which is an example of Code on Demand?
 
 - [ ] AWS Lambda
@@ -379,9 +400,13 @@
 - [ ] Serverless
 - [x] JavaScript on a webpage
 
+Explanation: [Code on Demand](https://en.wikipedia.org/wiki/Code_on_demand)
+
 #### Q55. Which URL pattern should you follow for accessing a subresource attached to a specific resource?
 
 - [ ] /companies/employees/{companyId}/{employeeId}
 - [ ] /company/{companyId}/employees/{employeeId}
 - [x] /companies/{companyId}/employees/{employeeId}
 - [ ] /companies/{companyId}/employee/{employeeId}
+
+Explanation: [Resource Naming](https://restfulapi.net/resource-naming/)
