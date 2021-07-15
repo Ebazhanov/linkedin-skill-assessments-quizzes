@@ -34,9 +34,11 @@
 ```
 
 - [ ] The `<car>` element can be extended with only one attribute
-- [ ] The `<car>` element can be extended with multiple attributes
-- [x] The `<car>` element have any attributes
-- [ ] The `<car>` element has child elements which can appear in order
+- [x] The `<car>` element can be extended with multiple attributes
+- [ ] The `<car>` element cannot have any attributes
+- [ ] The `<car>` element has child elements which can appear in any order
+
+**Reference**: [XSD The `<anyAttribute>` Element](https://www.w3schools.com/xml/schema_complex_anyattribute.asp)
 
 #### Q3. You are converting your HTML file into XHTML Strict. Which code snippet will validate without errors?
 
@@ -385,7 +387,7 @@
 - [ ] `//car[price>=20000 and @year>2008]/model`
 - [ ] `/cars/car[price>=20000 and year>2008]/model`
 
-NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Check the question
+NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Report the question.
 
 #### Q32. You are working with an XML document that uses an XML schema. How do you ensure that an attribute must be specified for its corresponding element?
 
@@ -409,10 +411,16 @@ NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Check
 </cars>
 ```
 
-- [x] `<xsl:sort select="make" />`
-- [ ] `<xsl:sort select="model" />`
+- [ ] `<xsl:sort select="make" />`
+- [x] `<xsl:sort select="model" />`
 - [ ] `<xsl:sort select="car" />`
 - [ ] `<xsl:sort select="price" />`
+
+**Explanation**: A trick question. The [`<xsl:sort>`](https://www.w3schools.com/xml/ref_xsl_el_sort.asp) will sort the output in ascending (alphabetical for strings) order by default. The `select` tells which tag to use for sorting. 
+
+* If we use `select="make"` or `select="year"` we get the order `Cadillac, Ford, Mercedes`
+* If we use `select="price"` we get `Ford, Cadillac, Mercedes`
+* And finally with `select="model"` we get `Mercedes, Cadillac, Ford`
 
 #### Q34. What is the correct syntax for comments in XQuery?
 
