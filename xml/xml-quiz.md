@@ -242,8 +242,10 @@
 
 - [ ] Frameset
 - [ ] Transitional
-- [ ] Basic
-- [x] Strict
+- [x] Basic
+- [ ] Strict
+
+**Explanation**: [XHTML - Doctypes](https://www.tutorialspoint.com/xhtml/xhtml_doctypes.htm)
 
 #### Q26. You are working with the following XML code snippet. You have this line in your XSLT code `xsl:value-of-select="//car/make"/>`. What does it display?
 
