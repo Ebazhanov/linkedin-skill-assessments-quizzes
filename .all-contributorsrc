@@ -4343,6 +4343,15 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "lamegaton",
+      "name": "Son Pham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5988492?v=4",
+      "profile": "https://lamegaton.github.io/",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
