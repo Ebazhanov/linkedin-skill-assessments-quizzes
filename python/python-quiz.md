@@ -876,9 +876,9 @@ def calculate_sales_tax(subtotal):
 
 #### Q72. What is the correct way to run all the doctests in a given file from the command line?
 
-- [ ] python3 -m doctest <*filename*>
-- [x] python3 <*filename*>
-- [ ] python3 <*filename*> rundoctests
+- [ ] python3 -m doctest <_filename_>
+- [x] python3 <_filename_>
+- [ ] python3 <_filename_> rundoctests
 - [ ] python3 doctest
 
 #### Q73. What is a lambda function ?
@@ -1046,7 +1046,6 @@ else;
 ```
 
 This question seems to be an updated version of Question 19.
-
 
 #### Q86. How does `defaultdict` work?
 

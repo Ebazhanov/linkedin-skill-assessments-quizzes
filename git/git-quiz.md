@@ -760,8 +760,8 @@ Which of the following options is correct ?
 - [ ] Add the stashed commits to the current commit, then create a new branch.
 - [ ] Use `git checkout -b`.
 - [ ] Run `git stash branch <branch name>`.
-  
- #### Q94. You is the difference between git branch -d and git branch -D?
+
+#### Q94. You is the difference between git branch -d and git branch -D?
 
 - [ ] -D deletes the local branch, while -d deletes the branch regardless of push and merge status.
 - [ ] -d deletes the current commit head, while -D deletes the entire branch.
