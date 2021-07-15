@@ -280,9 +280,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 #### Q33. If your WordPress site is seriously compromised, what is the best course of action to return your site to good health?
 
 - [ ] Determine the date of the attack and restore your site to a backup point prior to that date.
-- [ ] Hire a third-party service to clean up your site because it is difficult for someone who is not a WordPress security expert to find and remove all traces of an attack.
+- [x] Hire a third-party service to clean up your site because it is difficult for someone who is not a WordPress security expert to find and remove all traces of an attack.
 - [ ] Manually delete suspicious files on the server and delete any database tables that are not core WordPress.
 - [ ] Change your hosting password, your WordPress admin password, and your database password.
+
+**Explanation**: It's not the cheapest, but it's the most reliable. Restoring the backup might not help if you have backdoor scripts installed outside of WP directory. 
 
 #### Q34. If you wanted to register a custom post type, which hook would you use?
 
@@ -414,7 +416,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [x] UTF8 is supported.
 - [ ] Choose a very recent version of PHP.
 
-**Explanation**: New versions usuallly come with speed improvements. Inactivating plugins improves performance. By exclusion it's UTF8.
+**Explanation**: New versions usually come with speed improvements. Inactivating plugins improves performance. By exclusion it's UTF8.
 
 #### Q49. On a regular WordPress install, what is the difference between transients and the object cache?
 
@@ -489,7 +491,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] beta testing
 - [ ] automated testing
 
-#### Q58. WordPress is an open-source software licensed under the GPL. This means that \_\_\_\_.
+#### Q58. WordPress is an open-source software licensed under the GPL. This means that `__`.
 
 - [ ] derivative works must also be licensed as GPL
 - [x] all of these answers
