@@ -4362,6 +4362,15 @@
       "contributions": [
         "example"
       ]
+    },
+    {
+      "login": "yashmishra12",
+      "name": "Yash Mishra",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32962569?v=4",
+      "profile": "https://www.linkedin.com/in/yashmishra12/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
