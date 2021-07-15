@@ -2,7 +2,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-445-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-446-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -683,6 +683,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/alvintwc"><img src="https://avatars.githubusercontent.com/u/55237079?v=4?s=100" width="100px;" alt=""/><br /><sub><b>alvintwc</b></sub></a><br /><a href="#design-alvintwc" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=alvintwc" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/anandnat"><img src="https://avatars.githubusercontent.com/u/6303094?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anand Natarajan</b></sub></a><br /><a href="#design-anandnat" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=anandnat" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/esyekas"><img src="https://avatars.githubusercontent.com/u/12535720?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kashan Ali</b></sub></a><br /><a href="#design-esyekas" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=esyekas" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/2Math0"><img src="https://avatars.githubusercontent.com/u/50797015?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Thomas Meshail</b></sub></a><br /><a href="#design-2Math0" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=2Math0" title="Code">💻</a></td>
   </tr>
 </table>
 
