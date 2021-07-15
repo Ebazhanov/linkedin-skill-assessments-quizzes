@@ -199,7 +199,7 @@
 #### Q29. Which library should you use to perform ETL-type MapReduce jobs?
 
 - [ ] Hive
-- [ ] Pig
+- [x] Pig
 - [ ] Impala
 - [ ] Mahout
 
