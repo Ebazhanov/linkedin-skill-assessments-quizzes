@@ -403,3 +403,36 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] buffer
 - [x] vm
 - [ ] v8
+
+#### Q54. How would you determine the number of cluster instances to start when using the cluster module?
+
+- [ ] const numInstances = cluster.instances().length;
+- [ ] const numInstances = cluster.instances();
+- [ ] const numInstances = require('os').cpus().length;
+- [x] const numInstances = process.cpus().length;
+
+**Explanation:**
+
+_From official docs: [https://nodejs.org/api/cluster.html#cluster_cluster](https://nodejs.org/api/cluster.html#cluster_cluster)_
+
+#### Q55. You have to read a large text file, replace some words in it, and write it back to a new file. You know that the memory on your target system is limited. What should you do?
+
+- [ ] Use regular expressions directly on the file.
+- [ ] Use Promises and async/await to offload the task to libuv.
+- [ ] Copy the file into a database and perform the operations there.
+- [x] Use readline together with streams to read and transform and write the file contents line by line.
+
+**Explanation:**
+
+_From official docs: [https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line](https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line)_
+
+#### Q56. Which choice is not a global object?
+
+- [ ] process
+- [ ] exports
+- [ ] setTimeout
+- [x] Buffer
+
+**Explanation:**
+
+_process, exports and setTimeout are global objects, Buffer isn't (please see https://nodejs.org/api/globals.html)_
