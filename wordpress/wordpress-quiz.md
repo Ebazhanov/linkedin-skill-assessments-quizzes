@@ -280,9 +280,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 #### Q33. If your WordPress site is seriously compromised, what is the best course of action to return your site to good health?
 
 - [ ] Determine the date of the attack and restore your site to a backup point prior to that date.
-- [ ] Hire a third-party service to clean up your site because it is difficult for someone who is not a WordPress security expert to find and remove all traces of an attack.
+- [x] Hire a third-party service to clean up your site because it is difficult for someone who is not a WordPress security expert to find and remove all traces of an attack.
 - [ ] Manually delete suspicious files on the server and delete any database tables that are not core WordPress.
 - [ ] Change your hosting password, your WordPress admin password, and your database password.
+
+**Explanation**: It's not the cheapest, but it's the most reliable. Restoring the backup might not help if you have backdoor scripts installed outside of WP directory. 
 
 #### Q34. If you wanted to register a custom post type, which hook would you use?
 
@@ -331,7 +333,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 - [ ] The site should communicate with WordPress.org.
 - [ ] Remove inactive themes.
 - [ ] Do not output debug information.
-- [ ] WordPress updates are accomplished manually only.
+- [x] WordPress updates are accomplished manually only.
+
+**Explanation**: Communicating with WordPress.org is needed for detecting new versions.  
 
 #### Q41. What's the primary difference between template tags prefaced with the* versus get_the*?
 
@@ -405,12 +409,14 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] The Loop doesn't run in template files.
 - [ ] It runs once per fetched post.
 
-#### Q48. Which is not a suggested performance improvement for your WordPress website?
+#### Q48. Which is NOT a suggested performance improvement for your WordPress website?
 
 - [ ] The site should run the most recent version of WordPress.
 - [ ] Remove or inactivate unnecessary plugins.
-- [ ] UTF8 is supported.
+- [x] UTF8 is supported.
 - [ ] Choose a very recent version of PHP.
+
+**Explanation**: New versions usually come with speed improvements. Inactivating plugins improves performance. By exclusion it's UTF8.
 
 #### Q49. On a regular WordPress install, what is the difference between transients and the object cache?
 
@@ -426,7 +432,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] Customizer
 - [ ] WordPress settings
 
-#### Q51. You can harden your WordPress site security by adding \_\_\_\_ to your wp-config.php file?
+#### Q51. You can harden your WordPress site security by adding `__` to your wp-config.php file?
 
 - [ ] database usernames and passwords
 - [ ] unique keys and salts
@@ -453,19 +459,23 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 #### Q54. What is the process of marking the code you write so that it is ready for translation?
 
-- [ ] internationalization
+- [x] internationalization
 - [ ] localization
 - [ ] translation
 - [ ] using GlotPress
+
+**Explanation**: Localization and translation are synonyms for submitting language-specific translation. GlotPress is just a Wordpress plugin.
 
 #### Q55. In your wp-config.php file, you've added the following line of code. What does it do?
 
 `define( 'DISALLOW_FILE_EDIT', true );`
 
 - [ ] prevents any non-admin user from directly editing theme or plugin files
-- [ ] disables the theme and plugin editor in the WordPress admin
+- [x] disables the theme and plugin editor in the WordPress admin
 - [ ] disables the ability to edit core WordPress files from either within the WordPress admin or via direct file access
 - [ ] sets read-only permissions on all files in the WordPress install
+
+**Explanation**: [More WordPress Security: Disallow File Edit Setting In WordPress](https://www.icontrolwp.com/blog/more-wordpress-security-disallow-file-edit-setting-wordpress/). Setting all files to read-only would make auto-updates impossible.
 
 #### Q56. Which of the following must have underlined links in order to meet WCAG 2.0 accessibility standards?
 
@@ -481,7 +491,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] beta testing
 - [ ] automated testing
 
-#### Q58. WordPress is an open-source software licensed under the GPL. Tis means that \_\_\_\_.
+#### Q58. WordPress is an open-source software licensed under the GPL. This means that `__`.
 
 - [ ] derivative works must also be licensed as GPL
 - [x] all of these answers
@@ -523,13 +533,15 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 #### Q63. What are transients?
 
 - [ ] short database queries
-- [ ] away to cache information
+- [x] a way to cache information
 - [ ] plugins used for quick debugging
 - [ ] post draft stored in the database
+
+**Explanation**: [Transients](https://developer.wordpress.org/apis/handbook/transients/)
 
 #### Q64. If you wanted to debug some javasript, which method would you use to display data in your browser console?
 
 - [ ] `windows.alert()`
-- [ ] `console.log()`
+- [x] `console.log()`
 - [ ] `document.write()`
 - [ ] `innerHTML`
