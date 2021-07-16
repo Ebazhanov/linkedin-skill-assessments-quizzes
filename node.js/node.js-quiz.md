@@ -380,15 +380,23 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 - [ ] v8
 - [ ] env
-- [ ] process
+- [x] process
 - [ ] child_process
+
+**Explanation:**
+
+_process is an global object and act like a bridge, the others aren't (please see https://nodejs.org/api/globals.html or https://nodejs.org/api/process.html#process_process)._
 
 #### Q51. Which statement is true about Node.js and threads?
 
 - [ ] Every Node process runs in a single thread, and all the I/O work is run in that same thread.
 - [ ] Every Node process gets four threads that it can share between its JavaScript VM and the event loop.
-- [ ] The event loop is single-threaded, but a JavaScript VM can use multiple threads.
+- [x] The event loop is single-threaded, but a JavaScript VM can use multiple threads.
 - [ ] JavaScript execution in Node.js is single-threaded, but I/O operations are executed using multiple threads.
+
+**Explanation:**
+
+_https://www.geeksforgeeks.org/why-node-js-is-a-single-threaded-language/_
 
 #### Q52. Which statement about event emitters is false?
 
