@@ -1264,10 +1264,9 @@ As Steve Krug once said, happy talk must die.
     6640 via Real <br>
     <a href="mailto:info@linkedin.com">info@linkedin.com</a>
   </em></p>
-</p>
 ```
 
-- [ ]
+- [X]
 
 ```markdown
 <h4>Mailing Address</h4>
@@ -1388,5 +1387,5 @@ As Steve Krug once said, happy talk must die.
       ![B](images/Q84-2.jpg)
 - [ ] C
       ![C](images/Q84-3.jpg)
-- [ ] D
+- [X] D
       ![D](images/Q84-4.jpg)
