@@ -4372,6 +4372,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "marod1971",
+      "name": "Miguel Rodriguez",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37345146?v=4",
+      "profile": "https://github.com/marod1971",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
