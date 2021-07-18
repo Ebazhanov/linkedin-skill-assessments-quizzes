@@ -4382,6 +4382,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "pbachman",
+      "name": "Philipp Bachmann",
+      "avatar_url": "https://avatars.githubusercontent.com/u/393635?v=4",
+      "profile": "https://github.com/pbachman",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
