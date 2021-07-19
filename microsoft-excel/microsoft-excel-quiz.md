@@ -585,9 +585,18 @@
 - [ ] Delete removes the cell itself, shifting cells either up or to the left. Clear removes content and properties but does not muves cells
 - [ ] Delete removes formulas and values. clear removes formulas, values, hyperlinks, formats, comments and notes
 
-#### Q76. what is the intersection of a worksheet row and column?
+#### Q76. What is the intersection of a worksheet row and column?
 
 - [ ] cell
 - [x] selection
 - [ ] element
 - [ ] scalar
+
+#### Q77. In this PivotTable, the continuous variable weight is shown in the *Row* field. Another continuous variable is in the *Sum Values* field. It is important to reduce a long list of body weights to a smaller set of weight categories. How do you do this?
+
+![Excel-Q77](images/Q77.jpg)
+
+- [ ] Use weight as a filter field as well as a row field in the PivotTable.
+- [ ] Use `IF()` to show weight by categories instead of by pounds.
+- [ ] Click the *Row Labels* arrow and select *Group*.
+- [ ] Right-click any row field value in the PivotTable and select *Group*.
