@@ -599,4 +599,54 @@
 - [ ] Use weight as a filter field as well as a row field in the PivotTable.
 - [ ] Use `IF()` to show weight by categories instead of by pounds.
 - [ ] Click the *Row Labels* arrow and select *Group*.
-- [ ] Right-click any row field value in the PivotTable and select *Group*.
+- [x] Right-click any row field value in the PivotTable and select *Group*.
+
+#### Q78. How can you drill down into a PivotTable to show details?
+
+- [ ] Select the cell into which you want to drill down, right-click, and select *Show Summary*.
+- [ ] Select the cell into which you want to drill down, right-click and select *Drill-down*.
+- [x] Select the cell into which you want to drill down and double-click. 
+- [ ] Select the cell into which you want to drill down, right-click and select *Show Details > Summary Page*
+
+#### Q79. To ensure the VLOOKUP function returns the value of an exact match, what do you need to enter into the Range_lookup field?
+
+![Excel-Q79](images/Q79.jpg)
+
+- [ ] 0
+- [ ] 1
+- [x] FALSE
+- [ ] TRUE
+
+#### Q80. Cell D2 contains the formula =B2-C2. What is the fastest way to copy that formula into cells D3:D501 (the bottom of the data set)?
+
+![Excel-Q80](images/Q80.jpg)
+
+- [ ] Right-click D2 and select *Fill Down*.
+- [ ] Click D2's fill handle and drag it down to D501.
+- [ ] On the ribbon's *Data* tab, select *Flash fill*.
+- [x] Double-click D2's fill handle.
+
+#### Q81. This data needs to be sorted by Group, then by Last Name, then by First Name. How do you accomplish this?
+
+![Excel-Q81](images/Q81.jpg)
+
+- [ ] 
+1. Rearrange the columns in this order: Group, Last Name, First Name.
+2. Right-click any of the headers.
+3. Select *Sort All*.
+
+- [ ]
+1. Select any cell in the dataset.
+2. In the *Data* tab, click the *Sort* button.
+3. Add two levels to the default level.
+4. Populate the *Sort-by* fields in this order: Group, Last Name, First Name.
+
+- [x]
+1. Highlight the entire dataset.
+2. In the *Data* tab, click the *Sort* button. The headers appear.
+3. Drag the headers into this order: Group, Last Name, First Name.
+
+- [ ]
+1. Select a cell in the Group column, then sort.
+2. Select a cell in the Last Name column, then sort.
+3. Select a cell in the FIrst Name column, then sort.
