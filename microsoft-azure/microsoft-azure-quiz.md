@@ -14,12 +14,16 @@
 - [ ] Twilio
 - [ ] Service Bus
 
+**Explanation:** Twilio is an SMS notification app, also not from Microsoft. Event Grid can be techincally used for this purpose but it's a more generic event-broadcasting service. Service Bus is another generic publish-subscribe solution. Finally [Notification Hubs](https://docs.microsoft.com/en-us/azure/notification-hubs/notification-hubs-push-notification-overview) are specifically designed for push-notifications.
+
 #### Q3. Your application hosted in Azure App Service needs to retrieve secrets from Azure Key Vault. Which choice is NOT a way to authenticate to Key Vault?
 
 - [ ] service principal and a certificate
 - [ ] managed identity
 - [ ] service principal and a secret
 - [x] shared access key
+
+**Reference:** [Azure Key Vault Developer's Guide](https://docs.microsoft.com/en-us/azure/key-vault/general/developers-guide#authenticate-to-key-vault-in-code) lists 3 available methods. The _shared access key_ does not exist in Azure at all, the closest term is _shared access signature (SAS)_ but it's used to access Azure Storage only.
 
 #### Q4. You added a persistent volume claim to your apps YAML manifest. When you attempt to deploy to an existing AKS cluster there is no persistent volume available. What should you do?
 
@@ -44,17 +48,21 @@
 
 #### Q7. You need to grant full access for an app to a temporary Azure storage account. Configuring access should require minimum effort. Which option should you use?
 
-- [x] Azure AD user account
-- [ ] Shared access signature
+- [ ] Azure AD user account
+- [x] Shared access signature
 - [ ] Shared key
 - [ ] Certificate
+
+**Explanation:** [Shared access signature](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview) exists exactly for the purpose of giving a temporary access. Azure AD user account is not temporary so it needs to be managed. Creating/revoking Certificates for temporary access is just too much hassle.
 
 #### Q8. The Kineteco web app runs in an Azure Kubernetes Service. You need to monitor feature use and user navigation paths to identify where improvements are needed. What should you do?
 
 - [ ] Configure application insights cohort
-- [x] Install the Log Analytics agent and configure Azure Monitor for Containers
+- [ ] Install the Log Analytics agent and configure Azure Monitor for Containers
 - [ ] Install the App Insights on AKS nodes
 - [ ] Add instrumentation to your app to send usage analytics with Application Insights.
+
+**Notes:** Needs to be clarified. The [Container Monitoring doc](https://docs.microsoft.com/en-us/azure/azure-monitor/containers/containers) explicitly mentions that it's not for AKS. 3 and 4 look right  
 
 #### Q9. Which choice is not a valid trigger for an Azure functions?
 
@@ -87,9 +95,11 @@
 #### Q13. Your organization delivers a number of RESTful web services to customers around the world. You need to deploy cloud infrastructure to deliver these services to paying customers, including authentication, request throttling and routing of requests to the closest service endpoint. Which solution should you choose?
 
 - [ ] Front door
-- [ ] API Management
+- [x] API Management
 - [ ] Traffic manager
-- [x] Application Gateway
+- [ ] Application Gateway
+
+**Hint:** If you see the words REST and throttling - the answer is almost always API Management. It's the most expensive solution but is specifically designed to proxy the REST API.
 
 #### Q14. You have a .NET app running on a VM Scale set. You need to monitor application performance without modifying the code. The solution should minimize the cost. What should you do?
 
@@ -119,14 +129,16 @@
 - [ ] REST API
 - [ ] Server Message Block(SMB)
 
-#### Q18. You are writing an app for a sales team. You need to implement security in SQL Server to ensure that sales representatives see customer financial information only for customers whom they manage. Your app must make this transparent to the user. Which S#### QL data security option should you choose?
+**Reference:** [What is Azure Files?](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-introduction) page mentions the supported protocols.
+
+#### Q18. You are writing an app for a sales team. You need to implement security in SQL Server to ensure that sales representatives see customer financial information only for customers whom they manage. Your app must make this transparent to the user. Which SQL data security option should you choose?
 
 - [x] Dynamic Data Masking
 - [ ] Transparent Data Encryption
 - [ ] Row-Level Security
 - [ ] Always Encrypted
 
-#### Q19. You configure access to secrets in Azure Key Vault with `\_`.
+#### Q19. You configure access to secrets in Azure Key Vault with `__`.
 
 - [ ] service principals
 - [ ] certificates
@@ -137,7 +149,7 @@
 
 - [ ] Create a Logic App. Then configure an action group with the Logic App action type.
 - [ ] Create an Azure Automation Runbook. Then configure an action group with the Automation Runbook action type.
-- [x] Configure an autoscape rule based on a metric.
+- [x] Configure an autoscale rule based on a metric.
 - [ ] Create an Azure function. Then configure an action group with the Secure Webhook action type.
 
 #### Q21. You have CI/CD pipeline for a modern web application in Azure DevOps. The CI/CD process includes both a build and a release pipeline. You need to ensure that user testing (UAT) is successful before triggering the release pipeline. The process should be automated as possible. What should you add to your build pipeline?
