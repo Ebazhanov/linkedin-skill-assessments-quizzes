@@ -638,3 +638,43 @@ fun printStudents(vararg students: String) {
 - [ ] printStudents(students!!)
 - [x] printStudents(*students)
 - [ ] printStudents(students[])
+
+#### Q54. Both y and z are immutable references pointing to fixed-size collections of the same four integers. Are there any differences?
+
+```kotlin
+val y = arrayOf(10, 20, 30, 40)
+val z = listOf(10, 20, 30, 40)
+```
+
+- [x] You can modify the contents of the elements in y but not z.
+- [ ] There are not any differences. y and z are a type alias of the same type.
+- [ ] You add more elements to z since it is a list.
+- [ ] You can modify the contents of the elements in z but not y.
+
+#### Q55. The code snippet compile and runs without issue, but does not wait for the coroutine to show the "there" message. Which line of code will cause the code to wait for the coroutine to finish before exiting?  
+
+```kotlin
+fun main() = runBlocking {
+    val task = GlobalScope.launch {
+        delay(1000L)
+        println("there")
+    }
+    println("Hello,")
+}
+```
+
+- [ ] task.complete()
+- [ ] task.wait()
+- [x] task.join()
+- [ ] task.cancel()
+
+#### Q56. You would like to group a list of students by last name and get the total number of groups. Which line of code accomplishes this, assuming you have a list of the Student data class?
+
+```kotlin
+data class Student(val firstName: String, val lastName: String)
+```
+
+- [x] println(students.groupBy{ it.lastName.first() }.count())
+- [ ] println(students.groupBy{ it.lastName.first() }.fold().count())
+- [ ] println(students.groupingBy{ it.lastName.first() }.count())
+- [ ] println(students.groupingBy{ it.lastName.first() }.size())
