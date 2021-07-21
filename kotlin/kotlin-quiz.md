@@ -678,3 +678,46 @@ data class Student(val firstName: String, val lastName: String)
 - [ ] println(students.groupBy{ it.lastName.first() }.fold().count())
 - [ ] println(students.groupingBy{ it.lastName.first() }.count())
 - [ ] println(students.groupingBy{ it.lastName.first() }.size())
+
+#### Q57. Class BB inherits from class AA. BB uses a different method to calculate the price. As shown, the code does not compile. What changes is needed to resolve the compilation error?
+
+```kotlin
+open class AA() {
+     var price: Int = 0
+        get() = field + 10
+}
+class BB() : AA() {
+     var price: Int = 0
+        get() = field + 20
+}
+```
+
+- [ ] You need to add a lateinit modifier to AA.price.
+- [ ] You simply need to add an override modifier to BB.price.
+- [x] You need to add an open modifier to AA.price and an override modifier to BB.price.
+- [ ] You need to add a public modifier to AA.price and a protected modifier to BB.price.
+
+#### Q58. What is the output of this code?
+
+```kotlin
+val quote = "The eagle has landed."
+println("The length of the quote is $quote.length")
+```
+
+- [ ] The length of the quote is The eagle has landed.
+- [ ] A compilation error is displayed.
+- [ ] The length of the quote is 21
+- [x] The length of the quote is The eagle has landed..length
+
+#### Q59. You have an unordered list of high scores. Which is the simple method to sort the highScores in descending order?
+
+```kotlin
+fun main() {
+    val highScores = listOf(4000, 2000, 10200, 12000, 9030)
+	
+```
+
+- [ ] .sortedByDescending()
+- [ ] .descending()
+- [x] .sortedDescending()
+- [ ] .sort("DESC")
