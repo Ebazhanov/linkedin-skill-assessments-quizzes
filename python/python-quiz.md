@@ -1055,3 +1055,10 @@ This question seems to be an updated version of Question 19.
 - [ ] `defaultdict` stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.
 
 Updated version of Question 14.
+
+#### Q87. What is the correct syntax for adding a key called `variety` to the `fruit_info` dictionary that has a value of `Red Delicious`?
+
+- [ ] `fruit_info['variety'] == 'Red Delicious'`
+- [x] `fruit_info['variety'] = 'Red Delicious'`
+- [ ] `red_delicious = fruit_info['variety']`
+- [ ] `red_delicious == fruit_info['variety']`
