@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-453-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-454-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -691,6 +691,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/pbachman"><img src="https://avatars.githubusercontent.com/u/393635?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Philipp Bachmann</b></sub></a><br /><a href="#design-pbachman" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=pbachman" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/sunny7899"><img src="https://avatars.githubusercontent.com/u/15168009?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sunny</b></sub></a><br /><a href="#design-sunny7899" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sunny7899" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/siddharth9chatterjee/"><img src="https://avatars.githubusercontent.com/u/59141222?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Siddharth Chatterjee</b></sub></a><br /><a href="#design-siddharthchatterjee9" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=siddharthchatterjee9" title="Code">💻</a></td>
+    <td align="center"><a href="https://naghavipour.ir/"><img src="https://avatars.githubusercontent.com/u/39297270?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Michael Naghavipour</b></sub></a><br /><a href="#design-MichaelNaghavipour" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=MichaelNaghavipour" title="Code">💻</a></td>
   </tr>
 </table>
 
