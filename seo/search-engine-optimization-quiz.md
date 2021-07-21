@@ -425,7 +425,7 @@
 
 #### Q48. What is a common best practice for handling search result pages on a blog's built-in site search?
 
-- [x Set site research results to no-index.
+- [x] Set site research results to no-index.
 - [ ] Do not use site search.
 - [ ] Set site search to 404.
 - [ ] Add a canonical from the search result page to the home page.
