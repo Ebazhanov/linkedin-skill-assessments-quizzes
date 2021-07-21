@@ -186,7 +186,7 @@
 #### Q19. All byline dates articles are suddenly no longer visible on a website's listing within Google Search. Assuming no changes have been made to the site programming or content, what is the most likely cause?
 
 - [ ] The site has been delisted from Google Search
-- [ ] The site kept updating the date to make the content appear fresh, without changing the content.
+- [x] The site kept updating the date to make the content appear fresh, without changing the content.
 - [ ] The articles have aged more than 365 days without any significant updates to the content or the site.
 - [ ] A Google New sitemap was not provided within 30 days of setting up a Publisher Center account
 
@@ -256,20 +256,20 @@
 #### Q29. Changing the title tag and/or meta description will have a measurable impact on your \_\_\_\_.
 
 - [ ] RSS
-- [ ] CTR
+- [x] CTR
 - [ ] PPC
 - [ ] LSI
 
 #### Q30. How do keywords change as people progress through the buying cycle?
 
-- [ ] They move from simple to more comples as searchers gather more information and then refine their choices.
+- [x] They move from simple to more complex as searchers gather more information and then refine their choices.
 - [ ] The stay simple, as searchers try to use as few words as possible.
 - [ ] The keywords do not change much at all.
 - [ ] They move from complex to simple, as searchers find answers to their questions.
 
 #### Q31. Which technique is an example of black hat SEO?
 
-- [ ] cloaking
+- [x] cloaking
 - [ ] keyword research
 - [ ] useful content
 - [ ] on-page optimization
@@ -278,21 +278,21 @@
 
 - [ ] Use the pharse "local accountant" as a keyword to focus her website on.
 - [ ] Focus on short-tail keywords.
-- [ ] Register her business with a Google My Business account.
+- [x] Register her business with a Google My Business account.
 - [ ] Leave a link to her website in the blog comments of popular accounting websites.
 
 #### Q33. What is the anchor text in this code sample?
 
 `<a href="catalog/gloves.html">Blue Gloves</a>`
 
-- [ ] Blue Gloves
+- [x] Blue Gloves
 - [ ] href
 - [ ] catalog/
 - [ ] gloves.html
 
 #### Q34. **\_\_\_\_** analysis allows you to review requests made to your web server to identify insights such as how ofter a crawler arrives, what pages have 404 errors, and most crawled pages
 
-- [ ] Log file
+- [x] Log file
 - [ ] HTTP/2
 - [ ] Cron job
 - [ ] Resource packet
@@ -302,14 +302,14 @@
 - [ ] Mega List of Teams Going to the Olympics
 - [ ] Complete Coverage of Microsoft's Latest Announcement
 - [ ] The Future of SEO in 2020
-- [ ] How to Reheat Pizza
+- [x] How to Reheat Pizza
 
 #### Q36. You load a page and start reading an article, and suddenly the content on the page moves. What metric is used to quantify this impact on user experience?
 
 - [ ] First Meaningful Paint (FMP)
 - [ ] Recalculated Style Timing (RST)
 - [ ] Latent Loading Signal (LLS)
-- [ ] Cumulative Layout Shift (CLS)
+- [x] Cumulative Layout Shift (CLS)
 
 #### Q37. What is this code is an example of?
 
@@ -331,7 +331,7 @@
 - [ ] meta tag
 - [ ] HTTP response
 - [ ] XML sitemap
-- [ ] structured data
+- [x] structured data
 
 #### Q38. Which search query would be most difficult to determine search intent?
 
@@ -359,7 +359,7 @@
 - [ ] Google does not use social signals to determine rank
 - [ ] Social signals are identical to backlinks
 - [x] Social signals are used to determine topic authority
-- [ ] Social signals proide a benefit only if they have structured data markup
+- [ ] Social signals provide a benefit only if they have structured data markup
 
 #### Q42. A user clicks an internal link resulting in this redirect chain: `http://domain.com -> https://domain.com -> https://domain.com/`. In this example, what is being consumed unnecessarily?
 
@@ -411,40 +411,33 @@
 
 #### Q46. What is a popular technique for writing content with the goal of having it appear in a features snippet?
 
-- [ ] Write the question in a headline tag, and then answer it below in a format that matches the snippet type.
+- [x] Write the question in a headline tag, and then answer it below in a format that matches the snippet type.
 - [ ] Use the features snippet schema and apply an object that matches the correct snippet type.
 - [ ] Google manually generates featured snippets, so there is no special technique.
 - [ ] Submit the content through Google Search Console, and tag it with the correct snippet type.
 
-#### Q47. What is an example of a Google search result that can be found in position zero?
-
-- [x] Google Ads result
-- [ ] featured snippet
-- [ ] autocomplete
-- [ ] related searches
-
-#### Q48. Which approach is not advisable to geotargeting your website?
+#### Q47. Which approach is not advisable to geotargeting your website?
 
 - [ ] using a gTLD with a subdirectory
 - [x] using URL parameters
 - [ ] using a gTLD with subdomain
 - [ ] using a ccTLD
 
-#### Q49. What is a common best practice for handling search result pages on a blog's built-in site search?
+#### Q48. What is a common best practice for handling search result pages on a blog's built-in site search?
 
-- [ ] Set site research results to no-index.
+- [x] Set site research results to no-index.
 - [ ] Do not use site search.
 - [ ] Set site search to 404.
 - [ ] Add a canonical from the search result page to the home page.
 
-#### Q50. What might help a search engine understand the difference between an article on a dog bark versus tree bark?
+#### Q59. What might help a search engine understand the difference between an article on a dog bark versus tree bark?
 
 - [ ] tertiary analysis
 - [ ] ranked choice trees
 - [x] semantic analysis
 - [ ] knowledge graphs
 
-#### Q51. A webpage has this tag: `<title>Brad's Bagels: How to Bake a Bagel</title>`. However, the Google search result for this page displays this title: _Brad's Bagels: Baking Bagels in the Oven_. What is a likely explanation?
+#### Q50 A webpage has this tag: `<title>Brad's Bagels: How to Bake a Bagel</title>`. However, the Google search result for this page displays this title: _Brad's Bagels: Baking Bagels in the Oven_. What is a likely explanation?
 
 - [ ] The title tag was placed within the <HEAD> section of the webpage, but not before the meta content tags, so Google cannot identify the actual title.
 - [ ] The page is using structured data to define an alternative title object, which allows the search engine to pick a preferable version.
