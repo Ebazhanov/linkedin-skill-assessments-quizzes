@@ -262,7 +262,7 @@
 
 #### Q30. How do keywords change as people progress through the buying cycle?
 
-- [x] They move from simple to more complexas searchers gather more information and then refine their choices.
+- [x] They move from simple to more complex as searchers gather more information and then refine their choices.
 - [ ] The stay simple, as searchers try to use as few words as possible.
 - [ ] The keywords do not change much at all.
 - [ ] They move from complex to simple, as searchers find answers to their questions.
