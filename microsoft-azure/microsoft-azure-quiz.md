@@ -276,8 +276,7 @@
       /SourceDatabaseName:"kinetecoweb" /SourceUser:"admin" /SourcePassword:"MyPassword"
 - [ ] SqlPackage.exe /TargetFile:" myapp.bacpac " /Action:**Import**
       /SourceServerName:"kinetecosql.database.windows.net"
-      /SourceDatabaseName:"kinetecoweb" /SourceUser:"admin" /SourcePassword:"MyPassword"
-      SqiPackage.exe /TargetFile :" myapp.bacpac Action:Import
+      /SourceDatabaseName:"kinetecoweb" /SourceUser:"admin" /SourcePassword:"MyPassword"      
 - [ ] SqlPackage.exe /TargetFile:"./myapp.bacpac" /Action:**Publish**
       /SourceServerName:"kinetecosql.database.windows.net"
       /SourceDatabaseName:"kinetecoweb" /SourceUser:"admin" /SourcePassword:"MyPassword"
@@ -392,10 +391,3 @@
 - [x] append blob
 - [ ] page blob
 - [ ] block blob
-
-#### Q52. Your microservices application includes a logging component that performs a large number of sequentinal writes. Which type of Azure Storage should you use?
-
-- [ ] CORS
-- [ ] custom domains
-- [ ] webjobs
-- [ ] deployment slots
