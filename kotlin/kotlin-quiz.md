@@ -620,3 +620,104 @@ println(result)
 - [x] The sequence is infinite and lacks an intermediate operation to make it finite.
 - [ ] The expression should begin with generateSequence(0).
 - [ ] The it parameter should be replaced with this.
+
+#### Q53. An error is generated when you try to compile the following code. How should you change the call to printStudents to fix the error?
+
+```kotlin
+fun main() {
+    val students = arrayOf("Abel", "Bill", "Cindy", "Darla")
+    printStudents(students)
+}
+
+fun printStudents(vararg students: String) {
+    for(student in students) println(student)
+}
+```
+
+- [ ] printStudents(students.toList())
+- [ ] printStudents(students!!)
+- [x] printStudents(*students)
+- [ ] printStudents(students[])
+
+#### Q54. Both y and z are immutable references pointing to fixed-size collections of the same four integers. Are there any differences?
+
+```kotlin
+val y = arrayOf(10, 20, 30, 40)
+val z = listOf(10, 20, 30, 40)
+```
+
+- [x] You can modify the contents of the elements in y but not z.
+- [ ] There are not any differences. y and z are a type alias of the same type.
+- [ ] You add more elements to z since it is a list.
+- [ ] You can modify the contents of the elements in z but not y.
+
+#### Q55. The code snippet compile and runs without issue, but does not wait for the coroutine to show the "there" message. Which line of code will cause the code to wait for the coroutine to finish before exiting?  
+
+```kotlin
+fun main() = runBlocking {
+    val task = GlobalScope.launch {
+        delay(1000L)
+        println("there")
+    }
+    println("Hello,")
+}
+```
+
+- [ ] task.complete()
+- [ ] task.wait()
+- [x] task.join()
+- [ ] task.cancel()
+
+#### Q56. You would like to group a list of students by last name and get the total number of groups. Which line of code accomplishes this, assuming you have a list of the Student data class?
+
+```kotlin
+data class Student(val firstName: String, val lastName: String)
+```
+
+- [x] println(students.groupBy{ it.lastName.first() }.count())
+- [ ] println(students.groupBy{ it.lastName.first() }.fold().count())
+- [ ] println(students.groupingBy{ it.lastName.first() }.count())
+- [ ] println(students.groupingBy{ it.lastName.first() }.size())
+
+#### Q57. Class BB inherits from class AA. BB uses a different method to calculate the price. As shown, the code does not compile. What changes is needed to resolve the compilation error?
+
+```kotlin
+open class AA() {
+     var price: Int = 0
+        get() = field + 10
+}
+class BB() : AA() {
+     var price: Int = 0
+        get() = field + 20
+}
+```
+
+- [ ] You need to add a lateinit modifier to AA.price.
+- [ ] You simply need to add an override modifier to BB.price.
+- [x] You need to add an open modifier to AA.price and an override modifier to BB.price.
+- [ ] You need to add a public modifier to AA.price and a protected modifier to BB.price.
+
+#### Q58. What is the output of this code?
+
+```kotlin
+val quote = "The eagle has landed."
+println("The length of the quote is $quote.length")
+```
+
+- [ ] The length of the quote is The eagle has landed.
+- [ ] A compilation error is displayed.
+- [ ] The length of the quote is 21
+- [x] The length of the quote is The eagle has landed..length
+
+#### Q59. You have an unordered list of high scores. Which is the simple method to sort the highScores in descending order?
+
+```kotlin
+fun main() {
+    val highScores = listOf(4000, 2000, 10200, 12000, 9030)
+	
+```
+
+- [ ] .sortedByDescending()
+- [ ] .descending()
+- [x] .sortedDescending()
+- [ ] .sort("DESC")
