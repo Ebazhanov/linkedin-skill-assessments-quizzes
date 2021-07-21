@@ -620,3 +620,21 @@ println(result)
 - [x] The sequence is infinite and lacks an intermediate operation to make it finite.
 - [ ] The expression should begin with generateSequence(0).
 - [ ] The it parameter should be replaced with this.
+
+#### Q53. An error is generated when you try to compile the following code. How should you change the call to printStudents to fix the error?
+
+```kotlin
+fun main() {
+    val students = arrayOf("Abel", "Bill", "Cindy", "Darla")
+    printStudents(students)
+}
+
+fun printStudents(vararg students: String) {
+    for(student in students) println(student)
+}
+```
+
+- [ ] printStudents(students.toList())
+- [ ] printStudents(students!!)
+- [x] printStudents(*students)
+- [ ] printStudents(students[])
