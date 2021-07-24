@@ -442,7 +442,7 @@ console.log(currencies);
 
 - [ ] .box { overflow: scroll; }
 - [ ] .box { overflow: scroll-x; }
-- [ ] .box { overflow: auto; }
+- [x] .box { overflow: auto; }
 - [ ] .box { overflow: none; }
   
 #### Q47. Which array method should you apply to run a function for every item within an array, returning an array of all items for which the function is true?
@@ -450,6 +450,6 @@ console.log(currencies);
 - [ ] every()
 - [ ] map()
 - [ ] forEach()
-- [ ] filter()
+- [x] filter()
   
   
