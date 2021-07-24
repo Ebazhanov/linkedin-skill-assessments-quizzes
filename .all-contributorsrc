@@ -4432,6 +4432,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "react-ghost",
+      "name": "MicroLion",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53898208?v=4",
+      "profile": "https://github.com/react-ghost",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
