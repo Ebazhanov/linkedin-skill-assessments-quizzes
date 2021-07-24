@@ -288,3 +288,30 @@ VarA VarB VarA VarD
 - [ ] 9
 - [ ] 3
 - [x] 0
+
+
+#### Q30. What does R return in response to the final statement?
+
+```
+x<-5:8
+names(x)<-letters[5:8]
+x
+```
+
+-[ ] e   f   g   h
+    "5" "6" "7" "8"
+-[ ]5 6 7 8
+-[ ]e f g h
+-[x]e f g h
+    5 6 7 8
+    
+#### Q31. How do you return "October" from x in this code?
+
+```
+x<-as.Date("2018-10-01")
+```
+
+-[ ] attr()
+-[X] months(x)
+-[ ] as.month(x)
+-[ ] month(x)
