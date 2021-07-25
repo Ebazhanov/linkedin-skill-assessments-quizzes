@@ -434,7 +434,7 @@ function MyComponent(props) {
 - [ ] `useEffect(() => { setDone(true); }, [setDone]);`
 - [ ] `useEffect(() => { setDone(true); }, [done, setDone]);`
 
-#### Q46. What value of button will allow you to pass the name of the person to be hugged?
+#### Q46. Which of the following click event handlers will allow you to pass the name of the person to be hugged?
 
 ```javascript
 class Huggable extends React.Component {
@@ -450,10 +450,10 @@ class Huggable extends React.Component {
 }
 ```
 
-- [x] `<button onClick={(name) => this.hug(name)>Hug Button</button>`
+- [ ] `<button onClick={(name) => this.hug(name)}>Hug Button</button>`
 - [ ] `<button onClick={this.hug(e, name)}>Hug Button</button>`
 - [ ] `<button onClick={(e) => hug(e, name)}>Hug Button</button>`
-- [ ] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>`
+- [x] `<button onClick={() => this.hug(name)}>Hug Button</button>`
 
 #### Q47. Currently, `handleClick` is being called instead of passed as a reference. How do you fix this?
 
