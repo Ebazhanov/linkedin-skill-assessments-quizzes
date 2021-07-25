@@ -423,3 +423,16 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] C
 - [ ] C and B
 
+#### Q57. You have modules that are dependent on each other. If you change one module, you have to make changes in the dependent modules. What term is used to describe this problem, and what is a potential solution?
+
+- [ ] Cohesion. A solution is to show that each module has certain responsibilities and to use an anticohesive design pattern.
+- [ ] Encapsulation. A solution is to implement one of the SOLID principles to ensure the modules do not encapsulate with each other.
+- [ ] Coupling. A solution is to refactor the code to be loosely coupled by using inversion of control and dependency injection.
+- [ ] Dependency. A solution is to implement polymorphism and abstraction to change and extract dependent elements of a module so that it functions on its own.
+
+#### Q58. __________ describes an aggregation
+
+- [ ] A class of resources
+- [ ] A group of methods
+- [ ] A collection of objects
+- [ ] A list of children
