@@ -594,7 +594,7 @@
 
 #### Q77. In this PivotTable, the continuous variable weight is shown in the *Row* field. Another continuous variable is in the *Sum Values* field. It is important to reduce a long list of body weights to a smaller set of weight categories. How do you do this?
 
-![Excel-Q77](images/Q77.jpg)
+![Excel-Q77](images/Q77.png?raw=true)
 
 - [ ] Use weight as a filter field as well as a row field in the PivotTable.
 - [ ] Use `IF()` to show weight by categories instead of by pounds.
@@ -610,7 +610,7 @@
 
 #### Q79. To ensure the VLOOKUP function returns the value of an exact match, what do you need to enter into the Range_lookup field?
 
-![Excel-Q79](images/Q79.jpg)
+![Excel-Q79](images/Q79.png?raw=true)
 
 - [ ] 0
 - [ ] 1
@@ -619,7 +619,7 @@
 
 #### Q80. Cell D2 contains the formula =B2-C2. What is the fastest way to copy that formula into cells D3:D501 (the bottom of the data set)?
 
-![Excel-Q80](images/Q80.jpg)
+![Excel-Q80](images/Q80.png?raw=true)
 
 - [ ] Right-click D2 and select *Fill Down*.
 - [ ] Click D2's fill handle and drag it down to D501.
@@ -628,7 +628,7 @@
 
 #### Q81. This data needs to be sorted by Group, then by Last Name, then by First Name. How do you accomplish this?
 
-![Excel-Q81](images/Q81.jpg)
+![Excel-Q81](images/Q81.png?raw=true)
 
 - [ ] 
 1. Rearrange the columns in this order: Group, Last Name, First Name.
