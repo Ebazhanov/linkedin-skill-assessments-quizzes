@@ -457,3 +457,10 @@
 - [ ] URL cloaking 
 - [ ] a 302 redirect
 - [x] a rel=canonical link
+
+#### Q53. What data vocabulary is most commonly used when marking up content on a page?
+
+- [ ] vocabulary.org
+- [ ] RDFa.org
+- [ ] schema.org
+- [ ] data-vocabulary.org
