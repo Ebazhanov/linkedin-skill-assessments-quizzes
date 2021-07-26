@@ -430,7 +430,7 @@
 - [ ] Set site search to 404.
 - [ ] Add a canonical from the search result page to the home page.
 
-#### Q59. What might help a search engine understand the difference between an article on a dog bark versus tree bark?
+#### Q49. What might help a search engine understand the difference between an article on a dog bark versus tree bark?
 
 - [ ] tertiary analysis
 - [ ] ranked choice trees
