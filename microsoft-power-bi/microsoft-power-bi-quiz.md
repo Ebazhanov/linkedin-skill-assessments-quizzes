@@ -28,9 +28,9 @@
 
 `CALCULATE(SUM([Sales]) ,DATESMTD([Date] ))`
 
-- [ ] running total sales in each month that starts over each month
+- [x] running total sales in each month that starts over each month
 - [ ] total sales for the entire month
-- [x] running total in entire year for the entire month
+- [ ] running total in entire year for the entire month
 - [ ] rolling average over 12 months of sales
 
 #### Q4. You are creating a report in Power BI Desktop and want to restrict the data to records where Country="Canada". To accomplish this, what do you need to create?
@@ -201,13 +201,13 @@
 #### Q25. Which feature in the Power BI service is most useful when you need to create pages that present the same visualizations for different territories, salespeople, or teams?
 
 - [ ] landscape mode
-- [ ] none of these answers
+- [x] none of these answers
 - [ ] Shrink to Fit
 - [ ] templates
 
 #### Q26. What should you use to highlight a specific visualization in a report?
 
-- [ ] Spotlight
+- [x] Spotlight
 - [ ] Highlight
 - [ ] Magnify
 - [ ] None of the answers
@@ -223,7 +223,7 @@
 
 - [ ] Drill up
 - [ ] Drill down
-- [ ] Expand to next level
+- [x] Expand to next level
 - [ ] Collapse
 
 #### Q29. You have a treemap visualization that groups by sales territory. To allow users to further analyze data for a specific territory, what filter should you apply?
