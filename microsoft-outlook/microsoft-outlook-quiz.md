@@ -454,3 +454,10 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] in the Information Viewer
 - [ ] in Message Preview
 - [x] in the Reading Pane
+
+#### 63. You want to print full-page slides to fill 8.5-by-11-inch paper, but they appear too small in the preview. What is the best way to rectify this?
+
+- [ ] Repeatedly bumo up the scale setting print option until it fills the page in the preview.
+- [ ] Change the slide size to standard.
+- [ ] Change the scale setting option to 100%.
+- [x] Select the Scale to Fit Paper print option.
