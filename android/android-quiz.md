@@ -135,7 +135,7 @@
 - [ ] when calling finish()in the parent activity
 - [ ] when placing an app into the background by sitching to another app
 - [ ] When onStop() is called in the target activity
-- [ ] when calling finish() in the target activity
+- [x] when calling finish() in the target activity
 
 #### Q12. You need to remove an Event based on it;s id from your API, Which code snippet defines that request in Retrofit?
 - [ ] @DELETE("events)
