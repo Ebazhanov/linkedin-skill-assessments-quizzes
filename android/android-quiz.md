@@ -774,6 +774,8 @@ xml
 - [x] developmentDebug.
 - [ ] stagingDebug.
 - [ ] stagingRelease.
+	
+[Reference](https://developer.android.com/studio/build/build-variants#flavor-dimensions)
 
 #### Q49. When should you use the androidTest directory to store your test classes?
 
