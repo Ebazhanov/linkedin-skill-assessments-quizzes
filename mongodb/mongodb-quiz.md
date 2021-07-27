@@ -408,7 +408,7 @@
 
 #### Q59. To remove a database and all of its records from MongoDB, what operator should you use?
 
-- [ ] `dropDatabase()`
+- [x] `dropDatabase()`
 - [ ] `removeAll()`
 - [ ] `clear()`
 - [ ] `deleteDatabase()`
@@ -418,7 +418,7 @@
 - [ ] `-db=null`
 - [ ] `--shell-only`
 - [ ] `--free`
-- [ ] `-nodb`
+- [x] `-nodb`
 
 #### Q61. How can you improve the appearance of the output JSON that contains the \_id?
 
