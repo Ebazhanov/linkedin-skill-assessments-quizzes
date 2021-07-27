@@ -430,7 +430,7 @@
 - [ ] Set site search to 404.
 - [ ] Add a canonical from the search result page to the home page.
 
-#### Q59. What might help a search engine understand the difference between an article on a dog bark versus tree bark?
+#### Q49. What might help a search engine understand the difference between an article on a dog bark versus tree bark?
 
 - [ ] tertiary analysis
 - [ ] ranked choice trees
@@ -443,3 +443,24 @@
 - [ ] The page is using structured data to define an alternative title object, which allows the search engine to pick a preferable version.
 - [ ] A breadcrumb navigation is in use, which overrides the title tag supplied in the HTML.
 - [x] Google generated a new title using text on the page that more closely matched the search query.
+
+#### Q51. What alt attribute should be assigned to an image of a decorative line being used to separate content
+
+- [x] alt=""
+- [ ] alt="Thin black line being used to seperate two blocks of content" 
+- [ ] alt="dec"
+- [ ] alt="thin-line"
+
+#### Q52. Your site serves identical content when you visit domain.com/page or domain.com/page?ref=123. What should you implement?
+
+- [ ] parameter stripping
+- [ ] URL cloaking 
+- [ ] a 302 redirect
+- [x] a rel=canonical link
+
+#### Q53. What data vocabulary is most commonly used when marking up content on a page?
+
+- [ ] vocabulary.org
+- [ ] RDFa.org
+- [ ] schema.org
+- [ ] data-vocabulary.org
