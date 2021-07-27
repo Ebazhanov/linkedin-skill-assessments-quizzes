@@ -146,7 +146,7 @@
 - [ ] users who converted
 - [ ] sessions with a >80% bounce rate
 - [ ] all multisession users
-- [ ] sessions with 0 goal completions
+- [x] sessions with 0 goal completions
 
 #### Q21. If you wanted to determine if a particular browser was resulting in a high bounce rate, what report could you look at?
 
@@ -277,7 +277,7 @@
 #### Q39. Your website has a logged in experience for users. What do you implement to track individual engagement across multiple sessions and multiple devices?
 
 - [ ] Client- [ ] ID
-- [ ] User- [ ] ID
+- [x] User-ID
 - [ ] cross- [ ] domain tracking
 - [ ] session unification
 
@@ -313,7 +313,7 @@
 
 - [ ] dynamics
 - [ ] personas
-- [ ] audiences
+- [x] audiences
 - [ ] tags
 
 #### Q45. If you want to exclude traffic to your website from people on your company network, what do you create?
@@ -353,7 +353,7 @@
 
 #### Q50. Which feature would allow you to navigate between multiple reports while comparing the data collected for visitors in Los Angeles to the data for visitors in London?
 
-- [ ] segments
+- [x] segments
 - [ ] filters
 - [ ] views
 - [ ] dimensions
@@ -417,7 +417,7 @@
 #### Q59.If a user fills in a contact form and provides an email address, which report would contain that information?
 
 - [ ] Behavior > Events > Overview
-- [ ] Acquisition > Social > Form Submissions
+- [x] Acquisition > Social > Form Submissions
 - [ ] Acquisition > Social > Users Flow
 - [ ] No report contains this information.
 
@@ -454,18 +454,18 @@
 - [ ] Google Ads data sync
 - [ ] enhanced UTM tracking
 - [ ] Google Adsense data sync
-- [ ] Demographics and Interests reports
+- [x] Demographics and Interests reports
 
 #### Q65. Which choice is an example of a micro goal?
 
 - [ ] playing a video before signing up
 - [ ] buying a product after reading an email
 - [ ] filling out a contact form after reading a social post
-- [ ] signing up for an account after clicking an ad
+- [x] signing up for an account after clicking an ad
 
 #### Q65. What is the latest version of the analytics tracking tag?
 
-- [ ] gtag.js
+- [x] gtag.js
 - [ ] urchin.js
 - [ ] gaq.push and ga.js
 - [ ] analytics.js
@@ -486,7 +486,7 @@
 
 #### Q68. You are tracking events of playback of video on the home page of a website. You want users who watch the video, but still leave the page with no additional pageviews or interactions, to still be included in the bounce rate calculation. What must be configured?
 
-- [ ] non-interaction event
+- [x] non-interaction event
 - [ ] implicit event
 - [ ] advanced events
 - [ ] default event
@@ -496,19 +496,19 @@
 - [ ] Linear
 - [ ] First Interaction
 - [ ] Last Interaction
-- [ ] Last Non-Direct Click
+- [x] Last Non-Direct Click
 
 #### Q70. If you want to track one destination goal but have two URLs that could trigger the goal (for example,/thank-you and /checkout-complete), what approach can you use?
 
 - [ ] Create a content grouping, and then use the group as the destination.
 - [ ] Add the additional page as a funnel step.
-- [ ] Use a regular expression when adding the goal destination.
+- [x] Use a regular expression when adding the goal destination.
 - [ ] That is not possible.
 
 #### Q71. If you created a calculated metric that returned a value of "80" with Time as the formatting type, how would it be represented in Google Analytics?
 
 - [ ] 0:01:20
-- [ ] 80
+- [x] 80
 - [ ] 80:00:00
 - [ ] 1:20:00
 
@@ -523,6 +523,6 @@
 
 - [ ] ecommerce metrics
 - [ ] custom dimensions
-- [ ] calculated metrics
+- [x] calculated metrics
 - [ ] custom metrics
 
