@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-462-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-463-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -702,6 +702,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/garkuwa"><img src="https://avatars.githubusercontent.com/u/27901660?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Taras Pysarskyi</b></sub></a><br /><a href="#design-garkuwa" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=garkuwa" title="Code">💻</a></td>
     <td align="center"><a href="https://www.luqmanbello.com"><img src="https://avatars.githubusercontent.com/u/22626993?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Luqman Bello O.</b></sub></a><br /><a href="#design-Lukazcreations" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Lukazcreations" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/DyingDown"><img src="https://avatars.githubusercontent.com/u/41174243?v=4?s=100" width="100px;" alt=""/><br /><sub><b>DyingDown</b></sub></a><br /><a href="#design-DyingDown" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=DyingDown" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/diegochappedelaine/"><img src="https://avatars.githubusercontent.com/u/25375651?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Diego Chapedelaine</b></sub></a><br /><a href="#design-diegochappedelaine" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=diegochappedelaine" title="Code">💻</a></td>
   </tr>
 </table>
 
