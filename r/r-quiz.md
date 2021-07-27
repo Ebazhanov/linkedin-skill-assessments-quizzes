@@ -298,11 +298,11 @@ names(x)<-letters[5:8]
 x
 ```
 
--[ ] e   f   g   h
+- [ ] e   f   g   h
     "5" "6" "7" "8"
--[ ]5 6 7 8
--[ ]e f g h
--[x]e f g h
+- [ ] 5 6 7 8
+- [ ] e f g h
+- [X] e f g h
     5 6 7 8
     
 #### Q31. How do you return "October" from x in this code?
@@ -311,7 +311,35 @@ x
 x<-as.Date("2018-10-01")
 ```
 
--[ ] attr()
--[X] months(x)
--[ ] as.month(x)
--[ ] month(x)
+- [ ]  attr()
+- [X] months(x)
+- [ ]  as.month(x)
+- [ ]  month(x)
+
+#### Q32. How will R respond to the last line of this code?
+
+```
+fact<-factor(c("Rep","Dem","Dem","Rep"))
+fact
+[1] Rep Dem Dem Rep
+Levels: Rep Dem
+fact[2]<-"Ind"
+```
+
+- [ ] >
+- [ ] [,2]Ind
+- [X] invalid factor level, NA generated
+- [ ] Ind
+
+#### Q33. What does R return?
+
+```
+StartDate<- as.Date("2020/2/28")
+StopDate<- as.Date("2020/3/1")
+StopDate-StartDate
+```
+
+- [ ] "1970-01-02"
+- [ ] time difference of one day
+- [X] time difference of two days
+- [ ] error in x-y: nonnumeric argument to binary operator
