@@ -771,7 +771,7 @@ xml
     }
 
 - [ ] productionDebug.
-- [ ] developmentDebug.
+- [x] developmentDebug.
 - [ ] stagingDebug.
 - [ ] stagingRelease.
 
