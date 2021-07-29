@@ -1230,3 +1230,21 @@ class Main {
 - [ ] ????
 
 **Note:** This code won't compile, possibly broken code sample
+
+#### Q90. How would you use the TaxCalculator to determine the amount of tax on $50?
+
+```java
+class TaxCalculator {
+  static calculate(total) {
+    return total * .05;
+  }
+}
+```
+- [x] TaxCalculator.calculate(50);
+- [ ] new TaxCalculator.calculate(50);
+- [ ] calculate(50);
+- [ ] new TaxCalculator.calculate($50);
+
+**Note:** This code won't compile, broken code sample
+[Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
+[Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
