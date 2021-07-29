@@ -1130,8 +1130,7 @@ D. border-top-radius: 10px;
 - [ ] `input[type*="text"]:not([disabled="disabled"]) {...}`
 - [ ] `input[type="text"]:not([type="disabled"]) {...}`
 
-#### Explanation: `input[type="text"] selects all the input with type text, and :not([disabled]) selects all the elements not having the attribute "disabled".
-Combining both only selects the input element with type attribte as "text" and not having "disabled" attribute.`
+#### Explanation: `input[type="text"] selects all the input with type text, and :not([disabled]) selects all the elements not having the attribute "disabled". Combining both only selects the input element with type attribte as "text" and not having "disabled" attribute.`
 ##### [reference-link-attribute-selector](https://www.w3schools.com/css/css_attribute_selectors.asp)
 ##### [reference-link-:not()](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
 
