@@ -1132,8 +1132,8 @@ D. border-top-radius: 10px;
 
 #### Explanation: `input[type="text"] selects all the input with type text, and :not([disabled]) selects all the elements not having the attribute "disabled".
 Combining both only selects the input element with type attribte as "text" and not having "disabled" attribute.`
-##### [reference-link-attribute-selector](https://www.w3schools.com/cssref/func_rgba.asp)
-##### [reference-link-:not()](https://www.w3schools.com/cssref/func_rgba.asp)
+##### [reference-link-attribute-selector](https://www.w3schools.com/css/css_attribute_selectors.asp)
+##### [reference-link-:not()](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
 
 #### Q90. How can you create a semi-transparent background color?
 
@@ -1143,7 +1143,7 @@ Combining both only selects the input element with type attribte as "text" and n
 - [ ] background-color: rgba(0, 0, 0, 1);
 
 #### Explanation: `rgba is a funtion in css. rgba stands for red, green, blue and alpha. The value of alpha can be between 0 and 1 both inclusive with 0 being fully transparent and 1 being fully opaque.`
-##### [reference-link](https://www.w3schools.com/cssref/func_rgba.asp)
+##### [reference-link-rgba](https://www.w3schools.com/cssref/func_rgba.asp)
 
 #### Q91. Which property is used to create a drop shadow effect on an HTML element?
 
