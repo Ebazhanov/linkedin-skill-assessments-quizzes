@@ -1123,7 +1123,29 @@ D. border-top-radius: 10px;
 - [ ] dropbox-shadow
 - [x] box-shadow
 
-#### Q89. Which property is used to create a drop shadow effect on an HTML element?
+#### Q89. What is the correct selector for targeting all text inputs that are not disabled?
+
+- [x] `input[type="text"]:not([disabled]) {...}`
+- [ ] `input[type="text"]:not("disabled") {...}`
+- [ ] `input[type*="text"]:not([disabled="disabled"]) {...}`
+- [ ] `input[type="text"]:not([type="disabled"]) {...}`
+
+#### Explanation: `input[type="text"] selects all the input with type text, and :not([disabled]) selects all the elements not having the attribute "disabled".
+Combining both only selects the input element with type attribte as "text" and not having "disabled" attribute.`
+##### [reference-link-attribute-selector](https://www.w3schools.com/cssref/func_rgba.asp)
+##### [reference-link-:not()](https://www.w3schools.com/cssref/func_rgba.asp)
+
+#### Q90. How can you create a semi-transparent background color?
+
+- [ ] background-color: hsl(0, 0, 0, 0.5);
+- [ ] background-color: rgbx(0, 0, 0, 0.5);
+- [x] background-color: rgba(0, 0, 0, 0.5);
+- [ ] background-color: rgba(0, 0, 0, 1);
+
+#### Explanation: `rgba is a funtion in css. rgba stands for red, green, blue and alpha. The value of alpha can be between 0 and 1 both inclusive with 0 being fully transparent and 1 being fully opaque.`
+##### [reference-link](https://www.w3schools.com/cssref/func_rgba.asp)
+
+#### Q91. Which property is used to create a drop shadow effect on an HTML element?
 
 ```css
 grid-template-columns: 2fr 1ffr;
@@ -1133,10 +1155,3 @@ grid-template-columns: 2fr 1ffr;
 - [ ] The first column is twice the width and height of the second column, and will fit proportionally within the grid container.
 - [ ] The first column is twice as wide as the second column and will fit proportionally within the grid container.
 - [ ] The first column is twice the height of the second column and will be as wide as the content.
-
-#### Q90. How can you create a semi-transparent background color?
-
-- [ ] background-color: hsl(0, 0, 0, 0.5);
-- [ ] background-color: rgbx(0, 0, 0, 0.5);
-- [ ] background-color: rgba(0, 0, 0, 0.5);
-- [ ] background-color: rgba(0, 0, 0, 1);
