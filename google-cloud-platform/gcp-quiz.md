@@ -315,23 +315,23 @@ Note: Free trial doesn't have the organizations.
   Create a file on the mounted fileshare.
   ```
 - [ ]
-```
-Create a Filestore instance.
-Mount the fileshare from that instance on a client VM instance.
-Create a file on the mounted file share.
-Create a Compute Instance VM to be the client.
-```
+  ```
+  Create a Filestore instance.
+  Mount the fileshare from that instance on a client VM instance.
+  Create a file on the mounted file share.
+  Create a Compute Instance VM to be the client.
+  ```
 - [x]
-```
-Create a Compute Instance VM to be the client.
-Create a Filestore instance.
-Mount the file share from that instance on a client VM instance.
-Create a file on the mounted fileshare.
-```
+  ```
+  Create a Compute Instance VM to be the client.
+  Create a Filestore instance.
+  Mount the file share from that instance on a client VM instance.
+  Create a file on the mounted fileshare.
+  ```
 - [ ]
-```
-Create a Compute Instance VM to be the client.
-Mount the fileshare from that instance on a client VM instance.
-Create a file on the mounted file share.
-```
+  ```
+  Create a Compute Instance VM to be the client.
+  Mount the fileshare from that instance on a client VM instance.
+  Create a file on the mounted file share.
+  ```
 [Reference](https://cloud.google.com/filestore/docs/quickstart-console)
