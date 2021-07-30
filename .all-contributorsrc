@@ -4542,6 +4542,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "tonikolaba",
+      "name": "toni",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24297746?v=4",
+      "profile": "https://github.com/tonikolaba",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
