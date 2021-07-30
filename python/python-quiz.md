@@ -1062,3 +1062,10 @@ Updated version of Question 14.
 - [x] `fruit_info['variety'] = 'Red Delicious'`
 - [ ] `red_delicious = fruit_info['variety']`
 - [ ] `red_delicious == fruit_info['variety']`
+
+#### Q88. When would you use a `while` loop?
+
+- [ ] when you want to minimize the use of strings in your code
+- [ ] when you want to run code in one file while code in another file is also running
+- [x] when you want some code to continue running as long as some condition is true
+- [ ] when you need to run two or more chunks of code at once within the same file
