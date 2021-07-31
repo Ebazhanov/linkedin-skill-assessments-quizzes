@@ -189,11 +189,11 @@ console.log(bob.precip);
 #### Q12. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?
 
 - [ ] /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/
-- [ ] /\d\d:\d\d:\d\d/
+- [x] /\d\d:\d\d:\d\d/
 - [ ] /[0-9]+:[0-9]+:[0-9]+/
 - [ ] / : : /
 
-NOTE: the first three expressions will all match. Question seem to be incorrect.
+NOTE: The first three are all partially correct and will match digits, but the **second option is the most correct** because it will **only** match **2 digit** time values (12:00:32). The first option would have worked if the repitions range looked like `[0-9]{2}`, however because of the **comma** `[0-9]{2,}` it will select 2 **or more** digits (120:000:321). The third option will any range of time digits, single _and_ multiple (meaning `1:2:3` will also match).
 
 #### Q13. What is the result in the console of running this code?
 
