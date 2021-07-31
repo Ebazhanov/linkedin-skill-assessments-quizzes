@@ -432,7 +432,7 @@ console.log(currencies);
 #### Q45. _____ moves an element completely out of the page's normal layout flow, like it is sitting on its own separate layer. From there, you can fix it in a position relative to the edges of the page's <html> element (or its nearest positioned ancestor element)?
 
 - [ ] Sticky positioning
-- [ ] Absolute positioning
+- [x] Absolute positioning
 - [ ] Relative positioning
 - [ ] Fixed positioning
   
