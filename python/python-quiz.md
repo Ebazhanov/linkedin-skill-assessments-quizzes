@@ -648,7 +648,7 @@ fruit_info = {
 - [ ] `self` means that no other arguments are required to be passed into the method.
 - [x] `self` refers to the instance whose method was called.
 
-#### Q50. What statement about a class methods is true?
+#### Q50. What statement about the class methods is true?
 
 - [ ] A class method is a regular function that belongs to a class, but it must return None.
 - [x] A class method can modify the state of the class, but they can't directly modify the state of an instance that inherits from that class.
@@ -722,35 +722,28 @@ def __init__(self):
     pass
 ```
 
-#### Q57. Which statement about the class methods is true?
-
-- [ ] A class method holds all of the data for a particular class.
-- [x] A class method can modify the state of the class, but it cannot directly modify the state of an instance that inherits from that class.
-- [ ] A class method is a regular function that belongs to a class, but it must return `None`
-- [ ] A class method is similar to a regular function, but a class method does not take any arguments.
-
-#### Q58. Which of the following is TRUE About how numeric data would be organised in a binary Search tree?
+#### Q57. Which of the following is TRUE About how numeric data would be organised in a binary Search tree?
 
 - [x] For any given Node in a binary Search Tree, the child node to the left is less than the value of the given node and the child node to its right is greater than the given node.
 - [ ] Binary Search Tree cannot be used to organize and search through numeric data, given the complication that arise with very deep trees.
 - [ ] The top node of the binary search tree would be an arbitrary number. All the nodes to the left of the top node need to be less than the top node's number, but they don't need to ordered in any particular way.
 - [ ] The smallest numeric value would go in the top most node. The next highest number would go in its left child node, the the next highest number after that would go in its right child node. This pattern would continue until all numeric values were in their own node.
 
-#### Q59. Why would you use a decorator?
+#### Q58. Why would you use a decorator?
 
 - [ ] A decorator is similar to a class and should be used if you are doing functional programming instead of object oriented programming.
 - [ ] A decorator is a visual indicator to someone reading your code that a portion of your code is critical and should not be changed.
 - [x] You use the decorator to alter the functionality of a function without having to modify the functions code.
 - [ ] An import statement is preceded by a decorator, python knows to import the most recent version of whatever package or library is being imported.
 
-#### Q60. When would you use a for loop?
+#### Q59. When would you use a for loop?
 
 - [ ] Only in some situations, as loops are used only for certain type of programming.
 - [x] When you need to check every element in an iterable of known length.
 - [ ] When you want to minimize the use of strings in your code.
 - [ ] When you want to run code in one file for a function in another file.
 
-#### Q61. What is the most self-descriptive way to define a function that calculates sales tax on a purchase?
+#### Q60. What is the most self-descriptive way to define a function that calculates sales tax on a purchase?
 
 - [ ]
 
@@ -781,70 +774,70 @@ def calculate_sales_tax(subtotal):
     pass
 ```
 
-#### Q62. What would happen if you did not alter the state of the element that an algorithm is operating on recursively?
+#### Q61. What would happen if you did not alter the state of the element that an algorithm is operating on recursively?
 
 - [ ] You do not have to alter the state of the element the algorithm is recursing on.
 - [ ] You would eventually get a KeyError when the recursive portion of the code ran out of items to recurse on.
 - [x] You would get a RuntimeError: maximum recursion depth exceeded.
 - [ ] The function using recursion would return None.
 
-#### Q63. What is the runtime complexity of searching for an item in a binary search tree?
+#### Q62. What is the runtime complexity of searching for an item in a binary search tree?
 
 - [ ] The runtime for searching in a binary search tree is O(1) because each node acts as a key, similar to a dictionary.
 - [ ] The runtime for searching in a binary search tree is O(n!) because every node must be compared to every other node.
 - [x] The runtime for searching in a binary search tree is generally O(h), where h is the height of the tree.
 - [ ] The runtime for searching in a binary search tree is O(n) because every node in the tree must be visited.
 
-#### Q64. Why would you use `mixin`?
+#### Q63. Why would you use `mixin`?
 
 - [ ] You use a `mixin` to force a function to accept an argument at runtime even if the argument wasn't included in the function's definition.
 - [ ] You use a `mixin` to allow a decorator to accept keyword arguments.
 - [ ] You use a `mixin` to make sure that a class's attributes and methods don't interfere with global variables and functions.
 - [x] If you have many classes that all need to have the same functionality, you'd use a `mixin` to define that functionality.
 
-#### Q65. What is the runtime complexity of adding an item to a stack and removing an item from a stack?
+#### Q64. What is the runtime complexity of adding an item to a stack and removing an item from a stack?
 
 - [ ] Add items to a stack in O(1) time and remove items from a stack on O(n) time.
 - [x] Add items to a stack in O(1) time and remove items from a stack in O(1) time.
 - [ ] Add items to a stack in O(n) time and remove items from a stack on O(1) time.
 - [ ] Add items to a stack in O(n) time and remove items from a stack on O(n) time.
 
-#### Q66. Which statement accurately describes how items are added to and removed from a stack?
+#### Q65. Which statement accurately describes how items are added to and removed from a stack?
 
 - [ ] a stacks adds items to one side and removes items from the other side.
 - [x] a stacks adds items to the top and removes items from the top.
 - [ ] a stacks adds items to the top and removes items from anywhere in the stack.
 - [ ] a stacks adds items to either end and removes items from either end.
 
-#### Q67. What is a base case in a recursive function?
+#### Q66. What is a base case in a recursive function?
 
 - [x] A base case is the condition that allows the algorithm to stop recursing. It is usually a problem that is small enough to solve directly.
 - [ ] The base case is summary of the overall problem that needs to be solved.
 - [ ] The base case is passed in as an argument to a function whose body makes use of recursion.
 - [ ] The base case is similar to a base class, in that it can be inherited by another object.
 
-#### Q68. Why is it considered good practice to open a file from within a Python script by using the `with` keyword?
+#### Q67. Why is it considered good practice to open a file from within a Python script by using the `with` keyword?
 
 - [ ] The `with` keyword lets you choose which application to open the file in.
 - [ ] The `with` keyword acts like a `for` loop, and lets you access each line in the file one by one.
 - [ ] There is no benefit to using the `with` keyword for opening a file in Python.
 - [x] When you open a file using the `with` keyword in Python, Python will make sure the file gets closed, even if an exception or error is thrown.
 
-#### Q69. Why would you use a virtual environment?
+#### Q68. Why would you use a virtual environment?
 
 - [x] Virtual environments create a "bubble" around your project so that any libraries or packages you install within it don't affect your entire machine.
 - [ ] Teams with remote employees use virtual environments so they can share code, do code reviews, and collaborate remotely.
 - [ ] Virtual environments were common in Python 2 because they augmented missing features in the language. Virtual environments are not necessary in Python 3 due to advancements in the language.
 - [ ] Virtual environments are tied to your GitHub or Bitbucket account, allowing you to access any of your repos virtually from any machine.
 
-#### Q70. What is the correct way to run all the doctests in a given file from the command line?
+#### Q69. What is the correct way to run all the doctests in a given file from the command line?
 
 - [ ] python3 -m doctest <_filename_>
 - [x] python3 <_filename_>
 - [ ] python3 <_filename_> rundoctests
 - [ ] python3 doctest
 
-#### Q71. What is a lambda function ?
+#### Q70. What is a lambda function ?
 
 - [ ] any function that makes use of scientific or mathematical constants, often represented by Greek letters in academic writing
 - [ ] a function that get executed when decorators are used
@@ -856,35 +849,35 @@ def calculate_sales_tax(subtotal):
 **Explanation:**
 `the lambda notation is basically an anonymous function that can take any number of arguments with only single expression (i.e, cannot be overloaded). It has been introducted in other programming languages, such as C++ and Java. The lambda notation allows programmers to "bypass" function declaration.`
 
-#### Q72. What is the primary difference between lists and tuples?
+#### Q71. What is the primary difference between lists and tuples?
 
 - [ ] You can access a specifc element in a list by indexing to its position, but you cannot access a specific element in a tuple unless you iterate through the tuple
 - [x] Lists are mutable, meaning you can change the data that is inside them at any time. Tuples are immutable, meaning you cannot change the data that is inside them once you have created the tuple.
 - [ ] Lists are immutable, meaning you cannot change the data that is inside them once you have created the list. Tuples are mutable, meaning you can change the data that is inside them at any time.
 - [ ] Lists can hold several data types inside them at once, but tuples can only hold the same data type if multiple elements are present.
 
-#### Q73. Which statement about static method is true?
+#### Q72. Which statement about static method is true?
 
 - [ ] Static methods can be bound to either a class or an instance of a class.
 - [ ] Static methods can access and modify the state of a class or an instance of a class.
 - [x] Static methods serve mostly as utility or helper methods, since they cannot access or modify a class's state.
 - [ ] Static methods are called static because they always return None.
 
-#### Q74. What does a generator return?
+#### Q73. What does a generator return?
 
 - [ ] None
 - [x] An iterable object
 - [ ] A linked list data structure from a non-empty list
 - [ ] All the keys of the given dictionary
 
-#### Q75. What is the difference between class attributes and instance attributes?
+#### Q74. What is the difference between class attributes and instance attributes?
 
 - [ ] Instance attributes can be changed, but class attributes cannot be changed
 - [x] Class attributes are shared by all instances of the class. Instance attributes may be unique to just that instance
 - [ ] There is no difference between class attributes and instance attributes
 - [ ] Class attributes belong just to the class, not to instance of that class. Instance attributes are shared among all instances of a class
 
-#### Q76. What is the correct syntax of creating an instance method?
+#### Q75. What is the correct syntax of creating an instance method?
 
 - [ ]
 
@@ -914,49 +907,49 @@ def self.get_next_card(self):
   # method body goes here
 ```
 
-#### Q77. What is a key difference between a set and a list?
+#### Q76. What is a key difference between a set and a list?
 
 - [ ] A set is an ordered collection of non-unique items. A list is an unordered collection of unique items.
 - [ ] A set is an ordered collection of unique items. A list is an unordered collection of non-unique items.
 - [ ] Elements can be retrieved from a list but they cannot be retrieved from a set.
 - [x] A set is an unordered collection of unique items. A list is an ordered collection of non-unique items.
 
-#### Q78. What is the correct way to call a function?
+#### Q77. What is the correct way to call a function?
 
 - [x] get_max_num([57, 99, 31, 18])
 - [ ] call.(get_max_num)
 - [ ] def get_max_num([57, 99, 31, 18])
 - [ ] call.get_max_num([57, 99, 31, 18])
 
-#### Q79. How is comment created?
+#### Q78. How is comment created?
 
 - [ ] `-- This is a comment`
 - [x] `# This is a comment`
 - [ ] `/_ This is a comment _\`
 - [ ] `// This is a comment`
 
-#### Q80. What is the correct syntax for replacing the string apple in the list with the string orange?
+#### Q79. What is the correct syntax for replacing the string apple in the list with the string orange?
 
 - [ ] orange = my_list[1]
 - [x] my_list[1] = 'orange'
 - [ ] my_list['orange'] = 1
 - [ ] my_list[1] == orange
 
-#### Q81. What will happen if you use a while loop and forget to include logic that eventually causes the while loop to stop?
+#### Q80. What will happen if you use a while loop and forget to include logic that eventually causes the while loop to stop?
 
 - [ ] Nothing will happen; your computer knows when to stop running the code in the while loop.
 - [ ] You will get a KeyError.
 - [x] Your code will get stuck in an infinite loop.
 - [ ] You will get a WhileLoopError.
 
-#### Q82. Describe the functionality of a queue?
+#### Q81. Describe the functionality of a queue?
 
 - [x] A queue adds items to either end and removes items from either end.
 - [ ] A queue adds items to the top and removes items from the top.
 - [ ] A queue adds items to the top, and removes items from anywhere in, a list.
 - [ ] A queue adds items to the top and removes items from anywhere in the queue.
 
-#### Q83. Which choice is the most syntactically correct example of the conditional branching?
+#### Q82. Which choice is the most syntactically correct example of the conditional branching?
 
 - [x]
 
@@ -1010,7 +1003,7 @@ else;
 
 This question seems to be an updated version of Question 19.
 
-#### Q84. How does `defaultdict` work?
+#### Q83. How does `defaultdict` work?
 
 - [ ] `defaultdict` will automatically create a dictionary for you that has keys which are the integers 0-10.
 - [ ] `defaultdict` forces a dictionary to only accept keys that are of the types specified when you created the `defaultdict` (such as strings or integers).
@@ -1019,14 +1012,14 @@ This question seems to be an updated version of Question 19.
 
 Updated version of Question 14.
 
-#### Q85. What is the correct syntax for adding a key called `variety` to the `fruit_info` dictionary that has a value of `Red Delicious`?
+#### Q84. What is the correct syntax for adding a key called `variety` to the `fruit_info` dictionary that has a value of `Red Delicious`?
 
 - [ ] `fruit_info['variety'] == 'Red Delicious'`
 - [x] `fruit_info['variety'] = 'Red Delicious'`
 - [ ] `red_delicious = fruit_info['variety']`
 - [ ] `red_delicious == fruit_info['variety']`
 
-#### Q86. When would you use a `while` loop?
+#### Q85. When would you use a `while` loop?
 
 - [ ] when you want to minimize the use of strings in your code
 - [ ] when you want to run code in one file while code in another file is also running
