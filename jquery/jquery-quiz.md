@@ -1055,7 +1055,7 @@ function listResponder(evt) {
 - [ ] `find() traverses only one level down, whereas children() selects anything inside the original element`
 - [ ] `$('p').find('a') finds all paragraphs inside links, whereas $('p').children('a') finds links within paragraph tags`
 - [ ] `.find() always searches the entire DOM tree, regardless of the original selection .children() searches only the immediate childern of an element`
-- [ ] `children() traverses only one level down, whereas find() selects anything inside the original element`
+- [x] `children() traverses only one level down, whereas find() selects anything inside the original element`
 
 #### Q59. Consider the following markup, used to lay out three balls on the page, all hidden. How can you select the green ball, make it faded in over the course of three seconds, and log a console message when the animation has finished?
 
