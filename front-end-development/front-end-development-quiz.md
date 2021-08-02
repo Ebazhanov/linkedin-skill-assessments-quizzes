@@ -429,16 +429,20 @@ console.log(currencies);
 - [ ] `<input type="radio" value="vanilla" on>`
 
 
-#### Q45. _____ moves an element completely out of the page's normal layout flow, like it is sitting on its own separate layer. From there, you can fix it in a position relative to the edges of the page's <html> element (or its nearest positioned ancestor element)?
+#### Q45. _____ moves an element completely out of the page's normal layout flow, like it is sitting on its own separate layer. From there, you can fix it in a position relative to the edges of the page's `<html>` element (or its nearest positioned ancestor element)?
 
 - [ ] Sticky positioning
 - [x] Absolute positioning
 - [ ] Relative positioning
 - [ ] Fixed positioning
+
+[Source: W3Schools](https://www.w3schools.com/css/css_positioning.asp)
+
+**position: absolute;**
+`An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.`
   
 #### Q46. You have created a box that has a height set with CSS. Which line of CSS would add scroll bars if the content is taller than the box, but leave no visible scroll bars if the content fits into the box?
-
-
 
 - [ ] .box { overflow: scroll; }
 - [ ] .box { overflow: scroll-x; }
