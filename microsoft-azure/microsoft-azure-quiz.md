@@ -62,7 +62,7 @@
 - [ ] Install the App Insights on AKS nodes
 - [ ] Add instrumentation to your app to send usage analytics with Application Insights.
 
-**Notes:** Needs to be clarified. The [Container Monitoring doc](https://docs.microsoft.com/en-us/azure/azure-monitor/containers/containers) explicitly mentions that it's not for AKS. 3 and 4 look right  
+**Notes:** Needs to be clarified. The [Container Monitoring doc](https://docs.microsoft.com/en-us/azure/azure-monitor/containers/containers) explicitly mentions that it's not for AKS. 3 and 4 look right
 
 #### Q9. Which choice is not a valid trigger for an Azure functions?
 
@@ -276,7 +276,7 @@
       /SourceDatabaseName:"kinetecoweb" /SourceUser:"admin" /SourcePassword:"MyPassword"
 - [ ] SqlPackage.exe /TargetFile:" myapp.bacpac " /Action:**Import**
       /SourceServerName:"kinetecosql.database.windows.net"
-      /SourceDatabaseName:"kinetecoweb" /SourceUser:"admin" /SourcePassword:"MyPassword"      
+      /SourceDatabaseName:"kinetecoweb" /SourceUser:"admin" /SourcePassword:"MyPassword"
 - [ ] SqlPackage.exe /TargetFile:"./myapp.bacpac" /Action:**Publish**
       /SourceServerName:"kinetecosql.database.windows.net"
       /SourceDatabaseName:"kinetecoweb" /SourceUser:"admin" /SourcePassword:"MyPassword"
@@ -391,3 +391,10 @@
 - [x] append blob
 - [ ] page blob
 - [ ] block blob
+
+#### Q52. Group policy objects are not being applied to domain controllers because the Default Domain Controllers and Default Domain group policies are corrupt. What can you run in a command prompt to recover them?
+
+- [ ] `dcpromo.exe`
+- [x] `dcgpofix.exe`
+- [ ] `dcdiagfix.exe`
+- [ ] `ntdsutil.exe`
