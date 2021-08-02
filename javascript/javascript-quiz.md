@@ -195,6 +195,11 @@ console.log(bob.precip);
 
 NOTE: The first three are all partially correct and will match digits, but the **second option is the most correct** because it will **only** match **2 digit** time values (12:00:32). The first option would have worked if the repitions range looked like `[0-9]{2}`, however because of the **comma** `[0-9]{2,}` it will select 2 **or more** digits (120:000:321). The third option will any range of time digits, single _and_ multiple (meaning `1:2:3` will also match).
 
+**More resources:**
+
+- [Repeating characters](https://regexone.com/lesson/repeating_characters)
+- [Kleene operators](https://regexone.com/lesson/kleene_operators)
+
 #### Q13. What is the result in the console of running this code?
 
 ```js
