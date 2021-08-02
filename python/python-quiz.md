@@ -907,49 +907,42 @@ def self.get_next_card(self):
   # method body goes here
 ```
 
-#### Q76. What is a key difference between a set and a list?
-
-- [ ] A set is an ordered collection of non-unique items. A list is an unordered collection of unique items.
-- [ ] A set is an ordered collection of unique items. A list is an unordered collection of non-unique items.
-- [ ] Elements can be retrieved from a list but they cannot be retrieved from a set.
-- [x] A set is an unordered collection of unique items. A list is an ordered collection of non-unique items.
-
-#### Q77. What is the correct way to call a function?
+#### Q76. What is the correct way to call a function?
 
 - [x] get_max_num([57, 99, 31, 18])
 - [ ] call.(get_max_num)
 - [ ] def get_max_num([57, 99, 31, 18])
 - [ ] call.get_max_num([57, 99, 31, 18])
 
-#### Q78. How is comment created?
+#### Q77. How is comment created?
 
 - [ ] `-- This is a comment`
 - [x] `# This is a comment`
 - [ ] `/_ This is a comment _\`
 - [ ] `// This is a comment`
 
-#### Q79. What is the correct syntax for replacing the string apple in the list with the string orange?
+#### Q78. What is the correct syntax for replacing the string apple in the list with the string orange?
 
 - [ ] orange = my_list[1]
 - [x] my_list[1] = 'orange'
 - [ ] my_list['orange'] = 1
 - [ ] my_list[1] == orange
 
-#### Q80. What will happen if you use a while loop and forget to include logic that eventually causes the while loop to stop?
+#### Q79. What will happen if you use a while loop and forget to include logic that eventually causes the while loop to stop?
 
 - [ ] Nothing will happen; your computer knows when to stop running the code in the while loop.
 - [ ] You will get a KeyError.
 - [x] Your code will get stuck in an infinite loop.
 - [ ] You will get a WhileLoopError.
 
-#### Q81. Describe the functionality of a queue?
+#### Q80. Describe the functionality of a queue?
 
 - [x] A queue adds items to either end and removes items from either end.
 - [ ] A queue adds items to the top and removes items from the top.
 - [ ] A queue adds items to the top, and removes items from anywhere in, a list.
 - [ ] A queue adds items to the top and removes items from anywhere in the queue.
 
-#### Q82. Which choice is the most syntactically correct example of the conditional branching?
+#### Q81. Which choice is the most syntactically correct example of the conditional branching?
 
 - [x]
 
@@ -1003,7 +996,7 @@ else;
 
 This question seems to be an updated version of Question 19.
 
-#### Q83. How does `defaultdict` work?
+#### Q82. How does `defaultdict` work?
 
 - [ ] `defaultdict` will automatically create a dictionary for you that has keys which are the integers 0-10.
 - [ ] `defaultdict` forces a dictionary to only accept keys that are of the types specified when you created the `defaultdict` (such as strings or integers).
@@ -1012,14 +1005,14 @@ This question seems to be an updated version of Question 19.
 
 Updated version of Question 14.
 
-#### Q84. What is the correct syntax for adding a key called `variety` to the `fruit_info` dictionary that has a value of `Red Delicious`?
+#### Q83. What is the correct syntax for adding a key called `variety` to the `fruit_info` dictionary that has a value of `Red Delicious`?
 
 - [ ] `fruit_info['variety'] == 'Red Delicious'`
 - [x] `fruit_info['variety'] = 'Red Delicious'`
 - [ ] `red_delicious = fruit_info['variety']`
 - [ ] `red_delicious == fruit_info['variety']`
 
-#### Q85. When would you use a `while` loop?
+#### Q84. When would you use a `while` loop?
 
 - [ ] when you want to minimize the use of strings in your code
 - [ ] when you want to run code in one file while code in another file is also running
