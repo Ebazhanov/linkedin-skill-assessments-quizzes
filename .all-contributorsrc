@@ -4582,6 +4582,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Romazho",
+      "name": "Roman Zhornytskiy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45086380?v=4",
+      "profile": "https://github.com/Romazho",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
