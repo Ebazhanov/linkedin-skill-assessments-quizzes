@@ -1057,6 +1057,10 @@ function listResponder(evt) {
 - [ ] `.find() always searches the entire DOM tree, regardless of the original selection .children() searches only the immediate childern of an element`
 - [x] `children() traverses only one level down, whereas find() selects anything inside the original element`
 
+[Source: https://api.jquery.com/find/](https://api.jquery.com/find/)
+
+**Explanation**:`Given a jQuery object that represents a set of DOM elements, the .find() method allows us to search through the descendants of these elements in the DOM tree and construct a new jQuery object from the matching elements. The .find() and .children() methods are similar, except that the latter only travels a single level down the DOM tree.`
+
 #### Q59. Consider the following markup, used to lay out three balls on the page, all hidden. How can you select the green ball, make it faded in over the course of three seconds, and log a console message when the animation has finished?
 
 ```html
