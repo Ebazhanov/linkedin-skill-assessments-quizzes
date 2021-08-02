@@ -4562,6 +4562,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "mattheweller",
+      "name": "Matthew Eller",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8635070?v=4",
+      "profile": "https://github.com/mattheweller",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
