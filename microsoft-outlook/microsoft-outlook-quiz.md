@@ -461,3 +461,26 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Change the slide size to standard.
 - [ ] Change the scale setting option to 100%.
 - [x] Select the Scale to Fit Paper print option.
+
+#### 64. Which is not a valid search criteria when searching for messages in your inbox?
+
+- [ ] Words found in the message itself.
+- [ ] Who sent the email.
+- [ ] Attachements.
+- [ ] Where the email was sent from.
+
+#### 65. You have 15 folders, one of each of your projects. How can you make your most frequently used folders more accessible?
+
+- [ ] Create subcategories for the folders based on frequency of use.
+- [ ] Assign the frequently used folders to the same color category.
+- [ ] Save the folders to Favorites.
+- [ ] Assign each folder a priority number.
+
+#### 66. You accidentally delete an email from your inbox. How can you retrieve the deleted email?
+
+- [ ] You cannot retrieve a deleted email.
+- [ ] Open the Deleted Items folder.
+- [ ] Open your computer's Recycle Bin (Windows) or Trash (Mac).
+- [ ] Click the Undo button.
+
+
