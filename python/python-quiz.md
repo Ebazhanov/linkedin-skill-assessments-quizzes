@@ -1018,3 +1018,37 @@ Updated version of Question 14.
 - [ ] when you want to run code in one file while code in another file is also running
 - [x] when you want some code to continue running as long as some condition is true
 - [ ] when you need to run two or more chunks of code at once within the same file
+
+#### Q85. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?
+
+- [ ]
+
+```python
+def __init__(self, attr1, attr2):
+    attr1 = attr1
+    attr2 = attr2
+```
+
+- [ ]
+
+```python
+def __init__(attr1, attr2):
+    attr1 = attr1
+    attr2 = attr2
+```
+
+- [x]
+
+```python
+def __init__(self, attr1, attr2):
+    self.attr1 = attr1
+    self.attr2 = attr2
+```
+
+- [ ]
+
+```python
+def __init__(attr1, attr2):
+    self.attr1 = attr1
+    self.attr2 = attr2
+```
