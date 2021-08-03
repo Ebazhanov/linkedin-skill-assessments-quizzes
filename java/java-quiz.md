@@ -1246,5 +1246,21 @@ class TaxCalculator {
 - [ ] new TaxCalculator.calculate($50);
 
 **Note:** This code won't compile, broken code sample
+
 [Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
 [Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
+
+#### Q91. What is the value of myCharacter after line 3 is run?
+
+```java
+1: public class Main {
+2:   public static void main (String[] args) {
+3:     char myCharacter = "piper".chatAt(3);
+4:   }
+5: }
+```
+
+- [ ] p
+- [ ] i
+- [ ] r
+- [x] e
