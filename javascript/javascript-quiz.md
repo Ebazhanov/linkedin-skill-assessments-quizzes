@@ -880,3 +880,20 @@ class TaxCalculator {
 - [ ] new TaxCalculator().calculate(\$50);
 - [x] TaxCalculator.calculate(50);
 - [ ] new TaxCalculator().calculate(50);
+
+#### Q82. What is wrong with this code?
+
+```js
+const foo = {
+  bar(){
+    console.log("Hello, world!");
+  },
+  name: "Albert",
+  age: 26,
+}
+```
+
+- [ ] The function bar needs to be defined as a key/value pair.
+- [ ] Trailing commas are not allowed in JavaScript.
+- [ ] Functions cannot be declared as properties of objects.
+- [x] Nothing, there are no errors.
