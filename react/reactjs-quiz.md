@@ -656,7 +656,7 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 ```
 
 - [ ] `Button A will not have access to the event object on click of the button`
-- [ ] `Button A will not fire the handler this.handleClick successfully`
+- [x] `Button A will not fire the handler this.handleClick successfully`
 - [ ] `There is no difference`
 - [ ] `Button B will not fire the handler this.handleClick successfully`
 
@@ -679,7 +679,7 @@ useEffect(() => {
 <Route path="/:id" />
 ```
 
-- [ ] ``````````javascript
+- [x] ``````````javascript
       (
         <Route path="/:id">
           {' '}
@@ -745,8 +745,8 @@ const Greeting ({ name }) > <h1>Hello {name}!</h1>;
               ````````
           `````````;
       ``````````
-- [ ] ``````````javascript
-                                     class Greeting extends React.Component { <h1>Hello (this.props.name}!</h1>; }
+- [x] ``````````javascript
+                                     class Greeting extends React.Component { <h1>Hello {this.props.name}!</h1>; }
                                   ```
                               ````
                           `````
@@ -797,7 +797,7 @@ ReactDOM.render(
 - [ ] The link component allows the user to use the browser's `Back` button.
 - [ ] There is no difference--the `Link` component is just another name for the `<a>` tag.
 - [ ] The `<a>` tag will cause an error when used in React.
-- [ ] The `<a>` tag triggers a full page reload, while the `Link` component does not.
+- [x] The `<a>` tag triggers a full page reload, while the `Link` component does not.
 
 #### Q68. What is the first argument, `x`, that is sent to the `createElement` function?
 
