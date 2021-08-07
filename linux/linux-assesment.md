@@ -354,3 +354,28 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 - [ ] It resizes the filesystem to match the volume group size.
 - [x] It does nothing.
 - [ ] It remounts the filesystem with the new size.
+
+#### Q45. What would this sed command do?
+
+```bash
+sed -E 's/[a-Z]{4}/($)/'  textfile.txt
+```
+
+- [ ] It would substitute the letter with an ampersand (&).
+- [ ] It would replace all letters in the textfile.txt file with ampersand (&).
+- [x] It would replace the first four letters with an ampersand (&).
+- [ ] It would place parentheses around the first four letters of each line of textfile.txt.
+
+#### Q46. With GNU tools such as GNU grep, awk, and sed, what is difference between regular expressions (BREs) and extended regular expressions (EREs)?
+
+- [ ] EREs support occurrence operators.
+- [x] Only the syntax differs.
+- [ ] EREs support alternation.
+- [ ] EREs can match groups.
+
+#### Q47. Which kernel module do you need to load to use interface bonding?
+
+- [x] bonding.
+- [ ] team.
+- [ ] netbond.
+- [ ] bond.
