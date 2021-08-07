@@ -793,3 +793,26 @@ a = a^2;
 - [ ] 8
 - [ ] 17
 - [x] 9
+
+#### Q51.What is a difference between global variable and persistent variables?
+
+- [ ] Global variables have a higher performance overhead than persistent variables.
+- [ ] Global variables remain in memory after clear all; persistent variables do not.
+- [ ] Global variables can be used to cache data in memory; persistent variables cannot.
+- [x] Global variables are accessible outside the function scope; persistent variables are not.
+
+#### Q52. How is the random seed for MATLAB's random number generator first initializedin a MATLAB Session?
+
+- [ ] Seed is undefined until it is initialized by the user.
+- [ ] Seed is set to a value based on the current time when user first calls rand()
+- [ ] Seed is set to a value based on the current time on startup.
+- [x] Seed is set to a static default value on startup.
+
+[Reference](https://ch.mathworks.com/help/matlab/math/why-do-random-numbers-repeat-after-startup.html)
+
+#### Q53. At what will MATLAB look first for a called function?
+
+- [ ] functions on the path
+- [ ] built-in functions
+- [ ] functions within the current file
+- [ ] functions within the current directory
