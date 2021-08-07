@@ -1166,7 +1166,114 @@ $('custom').dequeue();
 
 #### Q62. Given this checkbox, how can you determine whether a user has selected or cleared the checkbox? `<input type="checkbox" id="same-address" checked>`
 
-- [ ] by checking the value of $('#same-address').val()
-- [x] by checking the value of $('#same-address').prop('checked')
-- [ ] by checking the value of $('#same-address').attr('checked')
-- [ ] by checking the value of $('#same-address').checked
+- [ ] by checking the value of `$('#same-address').val()`
+- [x] by checking the value of `$('#same-address').prop('checked')`
+- [ ] by checking the value of `$('#same-address').attr('checked')`
+- [ ] by checking the value of `$('#same-address').checked`
+
+#### Q63. In some projects, jQuery is not included as a file with an obvious version number (if it has been run through a minifier or other code bundler, for example). How can you detect programmatically what version of jQuery is active?In some projects, jQuery is not included as a file with an obvious version number (if it has been run through a minifier or other code bundler, for example). How can you detect programmatically what version of jQuery is active?
+
+- [ ] `jQuery.version()`
+- [ ] `jQuery.jquery`
+- [ ] `jQuery.prototype.version`
+- [x] `jQuery.fn.jquery`
+
+#### Q64. Given this snippet of HTML, how can you get the value of the text field using jQuery? Given this snippet of HTML, how can you get the value of the text field using jQuery? `<input type="text" class="form-control" id="firstName" placeholder="" value="" required="">`
+
+- [ ] `$('input[type=text]').val()`
+- [ ] `$('.form-control').val()`
+- [ ] `all of these answers`
+- [ ] `$('#firstName').val()`
+
+#### Q65. Which property of the jQuery event object references the DOM object that dispatched an event?Which property of the jQuery event object references the DOM object that dispatched an event?
+
+- [ ] target
+- [ ] self
+- [ ] source
+- [ ] object
+
+#### Q66. You want to write a plugin that creates a new traversal function—such as parent() and children()—and behaves like the ones jQuery includes out of the box. It needs to correctly modify the list of selections jQuery tracks internally, build up a list of additional items, and return the merged collection. What do you need to return on the last line of the function in order for this plugin to work correctly? You want to write a plugin that creates a new traversal function—such as parent() and children()—and behaves like the ones jQuery includes out of the box. It needs to correctly modify the list of selections jQuery tracks internally, build up a list of additional items, and return the merged collection. What do you need to return on the last line of the function in order for this plugin to work correctly?
+```
+$.fn.myTraverse = function() {
+   // ... setup
+
+   var additionalItems = [ /* some additional items for jQuery */ ];
+
+   return // return what?
+}
+```
+
+- [ ] `return this.append(additionalItems);return this.append(additionalItems);`
+- [ ] `return additionalItems.appendTo(this);return additionalItems.appendTo(this);`
+- [ ] `return this.pushStack(additionalItems);return this.pushStack(additionalItems);`
+- [ ] `return this.add(additionalItems);return this.add(additionalItems);`
+
+#### Q67. Given this snippet of HTML and jQuery code, what will the result look like? Given this snippet of HTML and jQuery code, what will the result look like?
+```html
+<ul class="items">
+   <li class="active">Item 1</li>
+   <li>Item 2</li>
+   <li>Item 3 <ul>
+      <li>Sub Item 1</li>
+      <li>Sub Item 2</li>
+   </ul></li>
+</ul>
+```
+
+`$('.items').find('.active').nextAll().addClass('after-active');`
+
+- [ ]
+```html
+<ul class="items">
+   <li class="active">Item 1</li>
+   <li class="after-active">Item 2</li>
+   <li class="after-active">Item 3
+      <ul>
+         <li>Sub Item 1</li>
+         <li>Sub Item 2</li>
+      </ul>
+   </li>
+</ul>
+```
+
+- [ ]
+```html
+<ul class="items">
+   <li class="active">Item 1</li>
+   <li class="after-active">Item 2</li>
+   <li class="after-active">Item 3
+      <ul class="after-active">
+         <li>Sub Item 1</li>
+         <li>Sub Item 2</li>
+      </ul>
+   </li>
+</ul>
+```
+
+- [ ] 
+```html
+<ul class="items">
+   <li class="active">Item 1</li>
+   <li class="after-active">Item 2</li>
+   <li class="after-active">Item 3
+      <ul>
+         <li class="after-active">Sub Item 1</li>
+         <li class="after-active">Sub Item 2</li>
+      </ul>
+   </li>
+</ul>
+```
+
+- [ ]
+```html
+<ul class="items">
+   <li class="active">Item 1</li>
+   <li class="after-active">Item 2</li>
+   <li class="after-active">Item 3
+      <ul class="after-active">
+         <li class="after-active">Sub Item 1</li>
+         <li class="after-active">Sub Item 2</li>
+      </ul>
+   </li>
+</ul>
+```
