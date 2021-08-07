@@ -247,7 +247,7 @@ vbound<-cbind(v1,v2)
 - [ ] records where the first character is a C
 - [ ] any record with a value containing a C
 - [ ] TRUE or FALSE, depending on whether any character in ournames is C
-- [x] TRUE or FALSE values, depending on whether the first character in an ournames record is C
+- [x] TRUE and FALSE values, depending on whether the first character in an ournames record is C
 
 #### Q27. What is the value of names(v[4])?
 
