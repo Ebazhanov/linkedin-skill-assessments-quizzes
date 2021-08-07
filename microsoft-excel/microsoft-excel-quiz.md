@@ -67,12 +67,12 @@
 - [ ] 999.9,,
 - [ ] ###,###.0,
 
-#### Q10. When using Goal Seek, you can find a target result by varying \_\_\_ at most.
+#### Q10. When using Goal Seek, you can find a target result by varying \_\_\_\_ at most.
 
-- [x] three inputs
+- [ ] three inputs
 - [ ] four inputs
 - [ ] two inputs
-- [ ] one input
+- [x] one input
 
 #### Q11. In the image below, which option(s) can you select so that the appropriate field headers appear in cells A4 and B3 instead of the terms Row Labels and Column Labels, respectively?
 

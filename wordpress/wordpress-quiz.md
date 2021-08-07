@@ -125,12 +125,12 @@
 - [ ] 0
 - [ ] 5
 
-#### Q16. What's the primary difference between template tags prefaced with the* versus get_the*?
+#### Q16. What's the primary difference between template tags prefaced with the **versus get_the**?
 
-- [ ] Template tags prefaced with the\_ don't accept arguments.
-- [ ] Template tags prefaced with the\_ can be used directly within a template.
-- [ ] Template tags prefaced with the\_ display a value. Template tags prefaced with get_the return a value.
-- [ ] Template tags prefaced with the\_ return a value. Template tags prefaced with get_the display a value.
+- [ ] Template tags prefaced with the \_\_ don't accept arguments.
+- [ ] Template tags prefaced with the \_\_ can be used directly within a template.
+- [ ] Template tags prefaced with the \_\_ display a value. Template tags prefaced with get_the return a value.
+- [ ] Template tags prefaced with the \_\_ return a value. Template tags prefaced with get_the display a value.
 
 #### Q17. WP_Query is the WordPress query class that is used to fetch posts from the database. How would you create a new instance of this class?
 
@@ -416,7 +416,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [x] UTF8 is supported.
 - [ ] Choose a very recent version of PHP.
 
-**Explanation**: New versions usually come with speed improvements. Inactivating plugins improves performance. By exclusion it's UTF8.
+**Explanation**: New versions usually come with speed improvements. Inactivating plugins improves performance. By exclusion, it's UTF8.
 
 #### Q49. On a regular WordPress install, what is the difference between transients and the object cache?
 
@@ -425,7 +425,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] Transients are available for the duration of a user session and apply to all page components. The object cache is available only for scripts.
 - [ ] Transients persist only for the particular page load. The object cache is persistent and writes to the wp_options table.
 
-#### Q50. For the majority of modern themes, what is the standart method used to customize various details of site appearance and features, such as changing the site description or adding a logo and favicons?
+#### Q50. For the majority of modern themes, what is the standard method used to customize various details of site appearance and features, such as changing the site description or adding a logo and favicons?
 
 - [ ] Theme settings
 - [ ] wp-config.php
@@ -442,13 +442,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 #### Q52. According to WordPress PHP coding standards for inline comments, how would you write a single-line comment in a PHP document?
 
 - [x] `// This is a single line comment`
-- [ ] ```````/*
-                        * This is a single line comment.
-                  	  */```
-                  ````
-              `````
-          ``````
-      ```````
+- [ ] /\* _ This is a single line comment._/
 - [ ] `// This is a single line comment.`
 - [ ] `<!-- This is a single line comment -->`
 
