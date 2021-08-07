@@ -303,7 +303,8 @@ Note: Free trial doesn't have the organizations.
 - [ ] Nothing. Images are encrypted by default with a customer-managed key.
 - [ ] Associate you image with a customer-managed key to encrypt it.
 - [ ] Associate you image with a Google-managed key to encrypt it.
-      [Reference](https://cloud.google.com/compute/docs/disks/customer-supplied-encryption)
+
+[Reference](https://cloud.google.com/compute/docs/disks/customer-supplied-encryption)
 
 #### Q44. You want to quickly evaluate Cloud Filestore. What are the steps, in order, to set up a test environment?
 
@@ -334,4 +335,5 @@ Note: Free trial doesn't have the organizations.
   Mount the fileshare from that instance on a client VM instance.
   Create a file on the mounted file share.
   ```
-  [Reference](https://cloud.google.com/filestore/docs/quickstart-console)
+
+[Reference](https://cloud.google.com/filestore/docs/quickstart-console)

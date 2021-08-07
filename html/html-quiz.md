@@ -494,7 +494,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] `<hgroup> <q> <wbr>`
 - [ ] `<b> <i> <u>`
 
-#### Q31. The `**\_\_**` tag is used for marking up a short code snippet, while the `**\_\_**` tag is used for marking up a longer block of code.
+#### Q31. The **\_** tag is used for marking up a short code snippet, while the **\_** tag is used for marking up a longer block of code.
 
 - [ ] `<kdb>`, `<pre>`
 - [ ] `<pre>`, `<code>`
@@ -508,7 +508,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] It visually labels from fields.
 - [x] It programmatically associates a text label with an interface element.
 
-#### Q33. To get a link to open in a new window or tab, use the `**\_\_**` attribute.
+#### Q33. To get a link to open in a new window or tab, use the **\_** attribute.
 
 - [x] `_blank`
 - [ ] `_self`

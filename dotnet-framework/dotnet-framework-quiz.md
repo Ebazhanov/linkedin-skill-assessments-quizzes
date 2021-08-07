@@ -263,7 +263,7 @@
 - [ ] CIL is used to convert a value type to an object type.
 - [ ] CIL is a compiled code library that Microsoft developed as an open specification. Developers use it for security, versioning, and deployment purposes.
 
-#### Q38. **\_\_\_** pattern works as a bridge between two incompatible interfaces? // wording in question is maybe changed?
+#### Q38. **\_** pattern works as a bridge between two incompatible interfaces? // wording in question is maybe changed?
 
 - [x] Adapter
 - [ ] Bridge
@@ -291,8 +291,7 @@
 - [ ] a series of related tasks or methods that together turn inputs into outputs
 - [ ] a program that is running on your computer
 
-[reference link]
-https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net-5.0
+[Reference link](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net-5.0)
 
 #### Q43. You want to add responsibilities to object dynamically. Which design pattern best fit this objective?
 

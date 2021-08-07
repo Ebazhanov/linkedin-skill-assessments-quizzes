@@ -7,7 +7,13 @@
 - [ ] awb
 - [ ] traw
 
-**Reasoning:** The substring method is accepting two arguments. The first argument being the index to start(includes that char at 2) and the second the index of the string to end the substring(excludes the char at 5). Strings in Java are like arrays of chars. Therefore the method will return "raw" as those are the chars in indexes 2,3, and 4. You can also take the ending index and subtract the beginning index from it, to determine how many chars will be included in the substring (5-2=3).
+**Reasoning:** The substring method is accepting two arguments.
+
+- The first argument being the index to start(includes that char at 2)
+- and the second the index of the string to end the substring(excludes the char at 5).
+- Strings in Java are like arrays of chars.
+- Therefore, the method will return "raw" as those are the chars in indexes 2,3, and 4.
+- You can also take the ending index and subtract the beginning index from it, to determine how many chars will be included in the substring (5-2=3).
 
 #### Q2. How can you achieve runtime polymorphism in Java?
 
@@ -208,7 +214,7 @@ class Main {
 - [ ] It will throw an exception on line 5.
 - [x] "123"
 
-**Explanation:** The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class.
+**Explanation:** `The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class.`
 
 #### Q12. What is the result of this code?
 
@@ -317,7 +323,7 @@ System.out.print("apple".compareTo("banana"));
 - [x] `names.sort(List.DESCENDING)`
 - [ ] `names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())`
 
-#### Q21. By implementing encapsulation, you cannot directly access the class's \_\_ properties unless you are writing code inside the class itself.
+#### Q21. By implementing encapsulation, you cannot directly access the class's \_ properties unless you are writing code inside the class itself.
 
 - [x] private
 - [ ] protected
@@ -333,7 +339,7 @@ System.out.print("apple".compareTo("banana"));
 
 **Explanation**: LocalDate is newest class added in java 8
 
-#### Q23. Fill in the blank to create a piece of code that will tell wether int0 is divisible by 5:
+#### Q23. Fill in the blank to create a piece of code that will tell whether `int0` is divisible by `5`:
 
 `boolean isDivisibleBy5 = _____`
 
@@ -432,7 +438,7 @@ class Main {
 - [ ] The code does not compile.
 - [ ] "ello"
 
-#### Q30. Object-oriented programming is a style of programming where you organize your program around \_**\_ rather than \_\_** and data rather than logic.
+#### Q30. Object-oriented programming is a style of programming where you organize your program around \_ rather than \_ and data rather than logic.
 
 - [ ] functions; actions
 - [x] objects; actions
@@ -1030,14 +1036,14 @@ groucyButton.addActionListener(new ActionListener() {
 
 [Reference](https://www.baeldung.com/java-hashcode)
 
-#### Q72. Java programmers commonly use design patterns. Some examples are the **\_\_**, which helps create instances of a class, the **\_\_**, which ensures that only one instance of a class can be created; and the **\_\_**, which allows for a group of algorithms to be interchangeable.
+#### Q72. Java programmers commonly use design patterns. Some examples are the **\_**, which helps create instances of a class, the **\_**, which ensures that only one instance of a class can be created; and the **\_**, which allows for a group of algorithms to be interchangeable.
 
 - [x] static factory method; singleton; strategy pattern
 - [ ] strategy pattern; static factory method; singleton
 - [ ] creation pattern; singleton; prototype pattern
 - [ ] singleton; strategy pattern; static factory method
 
-#### Q73. Using Java's Reflection API, you can use \_**\_ to get the name of a class and \_\_** to retrieve an array of its methods.
+#### Q73. Using Java's Reflection API, you can use \_ to get the name of a class and \_ to retrieve an array of its methods.
 
 - [x] this.getClass().getSimpleName(); this.getClass().getDeclaredMethods()
 - [ ] this.getName(); this.getMethods()
@@ -1248,8 +1254,8 @@ class TaxCalculator {
 
 **Note:** This code won't compile, broken code sample
 
-[Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
-[Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
+- [Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
+- [Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
 
 #### Q91. What is the value of myCharacter after line 3 is run?
 

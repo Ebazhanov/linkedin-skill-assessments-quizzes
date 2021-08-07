@@ -204,7 +204,7 @@ if ($email === false) {
 - [x]
   ```php
   1 class MyClass {
-  2 public function \_construct()
+  2 public function _construct()
   3 {
   4 echo 'Winter is almost over!'."\n";
   5 }
@@ -224,7 +224,7 @@ if ($email === false) {
 - [ ]
   ```php
   1 class MyClass {
-  2 public function \_construct()
+  2 public function _construct()
   3 {
   4 echo 'Winter is almost over!.."\n";
   5 }
@@ -290,7 +290,7 @@ function process(...$vals) {
 - [ ] `class Unicorn implements Horse {}`
 - [ ] `class Horse inherits Unicorn {}`
 
-##### Q27. Both triple === and double == can be used to ** variables in php. If you want to hear that string "33" and the number 33 are equal, you would use ** . If you want to check if an array contains a particular string value at a particular index, you would use \_\_
+##### Q27. Both triple === and double == can be used to ** variables in php. If you want to hear that string "33" and the number 33 are equal, you would use ** . If you want to check if an array contains a particular string value at a particular index, you would use \_
 
 - [x] compare; doubles; triples
 - [ ] compare; triples; doubles
@@ -306,15 +306,16 @@ function process(...$vals) {
 
 ##### Q29. Which is the way to create an array of "seasons"?
 
-- [ ] ````
-          seasons=array(
-              1=>'spring',
-              2=>'summer',
-              3=>'autumn',
-              4=>'winter',
-              );
-          ```
-      ````
+- [ ] `````
+              seasons=array(
+                  1=>'spring',
+                  2=>'summer',
+                  3=>'autumn',
+                  4=>'winter',
+                  );
+              ```
+          ````
+      `````
 - [ ] `$seasons=array(spring,summer,autumn,winter);`
 - [ ] `$seasons=('spring','summer','autumn','winter');`
 - [x] `$seasons=['spring','summer','autumn','winter'];`
@@ -421,7 +422,7 @@ echo "No, mail is not set";
 - [ ] The opening and closing single quotes should be replaced by double quotes; and the apostrophe should be escaped by a backslash.
 - [x] The apostrophe needs to be escaped by a backslash to prevent it from being treated as the closing quote.
 
-##### Q42. A PDO object called `$db` has been set up to use for database operations, including user authentication. All user-related properties are set. The script line `public function __construct(&$db)` shows a constructor that initializes all user-related properties to \_\_ if no user has logged in. These parameters will be properly set by the login functions when a user logs in.
+##### Q42. A PDO object called `$db` has been set up to use for database operations, including user authentication. All user-related properties are set. The script line `public function __construct(&$db)` shows a constructor that initializes all user-related properties to \_ if no user has logged in. These parameters will be properly set by the login functions when a user logs in.
 
 - [x] NULL
 - [ ] TRUE
@@ -492,26 +493,33 @@ echo "No, mail is not set";
 </books>
 ```
 
-- [ ] ````php
+- [ ]
+
+```php
           $books = simplexml_load_string('books.xml');
           echo $books->book[0]->categories->category[1];
-          ```
-      ````
-- [x] ````php
+```
+
+- [x]
+
+```php
           $books = simplexml_load_file('books.xml');
           echo $books->book[0]->categories->category[1];
-          ```
-      ````
-- [ ] ````php
+```
+
+- [ ]
+
+```php
           $books = SimpleXMLElement('books.xml');
           echo $books->book[0]->categories->category[1];
-          ```
-      ````
-- [ ] ````php
+```
+
+- [ ]
+
+```php
           $books = SimpleXML('books.xml');
           echo $books->book[0]->categories->category[1];
-          ```
-      ````
+```
 
 ##### Q46. When it comes to the value of a variable, what is the difference between NULL and empty?
 

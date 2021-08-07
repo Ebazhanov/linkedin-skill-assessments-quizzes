@@ -191,7 +191,7 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] as many classes as required
 - [ ] at least two classes
 
-#### Q26. if an object is passed by reference, the changes made in the function are reflected \_\_\_\_.
+#### Q26. if an object is passed by reference, the changes made in the function are reflected \_.
 
 - [x] to the main object of the caller function, too
 - [ ] on the caller function object and also the called function object
@@ -388,7 +388,7 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] Attributes apply only to a specified object; behaviour apply to other linked objects.
 - [ ] Behaviours are vector quantities; attributes are scalars.
 
-#### Q52. The open/closed principle states that classes should be open for \_**\_ but closed for \_\_**.
+#### Q52. The open/closed principle states that classes should be open for \_ but closed for \_.
 
 - [ ] refactoring; duplication
 - [ ] modification; duplication
@@ -430,7 +430,7 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] Coupling. A solution is to refactor the code to be loosely coupled by using inversion of control and dependency injection.
 - [ ] Dependency. A solution is to implement polymorphism and abstraction to change and extract dependent elements of a module so that it functions on its own.
 
-#### Q58. ****\_\_**** describes an aggregation
+#### Q58. **\_** describes an aggregation
 
 - [ ] A class of resources
 - [ ] A group of methods

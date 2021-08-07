@@ -127,10 +127,10 @@
 
 #### Q16. What's the primary difference between template tags prefaced with the **versus get_the**?
 
-- [ ] Template tags prefaced with the \_\_ don't accept arguments.
-- [ ] Template tags prefaced with the \_\_ can be used directly within a template.
-- [ ] Template tags prefaced with the \_\_ display a value. Template tags prefaced with get_the return a value.
-- [ ] Template tags prefaced with the \_\_ return a value. Template tags prefaced with get_the display a value.
+- [ ] Template tags prefaced with the \_ don't accept arguments.
+- [ ] Template tags prefaced with the \_ can be used directly within a template.
+- [ ] Template tags prefaced with the \_ display a value. Template tags prefaced with get_the return a value.
+- [ ] Template tags prefaced with the \_ return a value. Template tags prefaced with get_the display a value.
 
 #### Q17. WP_Query is the WordPress query class that is used to fetch posts from the database. How would you create a new instance of this class?
 
@@ -256,7 +256,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 - [ ] Access site files via FTP and navigate to /wp-content/plugins/. Delete the folder of the plugin that you would like to disable or simply rename it.
 - [ ] Use phpMyAdmin to change the wp_options table's active_plugins option value to a:0:{}.
 
-#### Q30. The WordPress REST API is designed to receive and respond to particular types of requests using basic HTML methods. For example, a request to upload a PHP file into a particular folder on a server might look like the code POST /folder/\_file.php. Based on this code, what would you call /folder/\_file.php (in REST API terms)?
+#### Q30. The WordPress REST API is designed to receive and respond to particular types of requests using basic HTML methods. For example, a request to upload a PHP file into a particular folder on a server might look like the code POST `/folder/_file.php`. Based on this code, what would you call /folder/\_file.php (in REST API terms)?
 
 - [ ] schema
 - [ ] route
@@ -316,10 +316,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 #### Q38. How would you write a text string containing "Hello World!" in a way that makes it possible for someone else to translate the string into a different language?
 
-- [ ] apply_filters( 'Hello World!', 'mytextdomain' );
-- [x] \_\_( 'Hello World!', 'mytextdomain' );
-- [ ] \$string = "Hello World!";
-- [ ] esc_html( 'Hello World!', 'mytextdomain' );
+- [ ] `apply_filters( 'Hello World!', 'mytextdomain' );`
+- [x] `_( 'Hello World!', 'mytextdomain' );`
+- [ ] `\$string = "Hello World!";`
+- [ ] `esc_html( 'Hello World!', 'mytextdomain' );`
 
 #### Q39. What is the core mission of WordPress?
 

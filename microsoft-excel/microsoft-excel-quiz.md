@@ -67,7 +67,7 @@
 - [ ] 999.9,,
 - [ ] ###,###.0,
 
-#### Q10. When using Goal Seek, you can find a target result by varying \_\_\_\_ at most.
+#### Q10. When using Goal Seek, you can find a target result by varying \_ at most.
 
 - [ ] three inputs
 - [ ] four inputs
@@ -144,14 +144,14 @@
 - [ ] The cell is comprised of 9 characters.
 - [ ] The number 9 appears once and only once within the cell.
 
-#### Q20. To ensure shapes and other objects are an equal left-to-right distance apart, select the shapes, click Page Layout > Align, and then click \_\_\_\_.
+#### Q20. To ensure shapes and other objects are an equal left-to-right distance apart, select the shapes, click Page Layout > Align, and then click \_.
 
 - [ ] Align Middle
 - [ ] Distribute Horizontally
 - [x] Distribute Vertically
 - [ ] Align Center
 
-#### Q21. An organization chart, which shows the hierarchy within a company or organization, is available as \_\_\_ that is included with Excel.
+#### Q21. An organization chart, which shows the hierarchy within a company or organization, is available as \_ that is included with Excel.
 
 - [ ] a 3D model
 - [x] SmartArt
@@ -248,7 +248,7 @@
 - [x] Sort the data in column D.
 - [ ] Sort the data in column E.
 
-#### Q34. When you sort a list of numerical value into ascending or descending order, the value in the middle of the list is the \_\_\_.
+#### Q34. When you sort a list of numerical value into ascending or descending order, the value in the middle of the list is the \_.
 
 - [ ] mode
 - [ ] modulus
@@ -292,7 +292,7 @@
 - [ ] a series of days identical to the initial date
 - [ ] a series of days exactly one year apart
 
-#### Q39. To discover how many cells in a range contain values that meet a single criterion, use the \_\_\_function.
+#### Q39. To discover how many cells in a range contain values that meet a single criterion, use the \_ function.
 
 - [ ] COUNT
 - [ ] SUMIFS

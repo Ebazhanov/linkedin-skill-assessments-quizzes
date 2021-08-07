@@ -35,9 +35,7 @@
 - [x] createReadStream
 - [ ] readFileSync
 
-**Explanation:**
-
-_From official docs: [https://nodejs.org/api/fs.html#fs_dir_read](https://nodejs.org/api/fs.html#fs_dir_read)
+**Explanation:** _From official docs: [https://nodejs.org/api/fs.html#fs_dir_read](https://nodejs.org/api/fs.html#fs_dir_read)
 To minimize memory costs, when possible prefer streaming via fs.createReadStream()._
 
 #### Q6. Which of the following DNS module methods uses the underlying OS facilities and does not necessarily perform any network communication?
@@ -133,9 +131,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 - [ ] (new EventEmitter()).emit('change');
 - [ ] new EventEmitter('change');
 
-**Explanation:**
-
-_Because the EventEmitter is already in scope. No need to create new one._
+**Explanation:** _Because the EventEmitter is already in scope. No need to create new one._
 
 #### Q19. Which of the following objects is a stream
 
@@ -144,16 +140,14 @@ _Because the EventEmitter is already in scope. No need to create new one._
 - [ ] process
 - [ ] Buffer
 
-**Explanation:**
+**Explanation:** _process.stdout is Buffer type._
 
-_process.stdout is Buffer type._
+#### Q20. Which module variable holds the resolved absolute path of the current module file?
 
-#### Q20. Which module variable holds the resolved aboslute path of the current module file?
-
-- [ ] \_\_pathname
-- [ ] \_\_location
-- [ ] \_\_flder
-- [x] \_\_filename
+- [ ] `_pathname`
+- [ ] `_location`
+- [ ] `_flder`
+- [x] `_filename`
 
 #### 21. If the child_process module methods are in scope, what is a current way to execute the command ps -ef using a child process?
 
@@ -383,9 +377,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [x] process
 - [ ] child_process
 
-**Explanation:**
-
-_process is an global object and act like a bridge, the others aren't (please see https://nodejs.org/api/globals.html or https://nodejs.org/api/process.html#process_process)._
+**Explanation:** _process is an global object and act like a bridge, the others aren't (please see https://nodejs.org/api/globals.html or https://nodejs.org/api/process.html#process_process)._
 
 #### Q51. Which statement is true about Node.js and threads?
 
@@ -394,9 +386,7 @@ _process is an global object and act like a bridge, the others aren't (please se
 - [x] The event loop is single-threaded, but a JavaScript VM can use multiple threads.
 - [ ] JavaScript execution in Node.js is single-threaded, but I/O operations are executed using multiple threads.
 
-**Explanation:**
-
-_https://www.geeksforgeeks.org/why-node-js-is-a-single-threaded-language/_
+**Explanation:** _https://www.geeksforgeeks.org/why-node-js-is-a-single-threaded-language/_
 
 #### Q52. Which statement about event emitters is false?
 
@@ -419,9 +409,7 @@ _https://www.geeksforgeeks.org/why-node-js-is-a-single-threaded-language/_
 - [ ] const numInstances = require('os').cpus().length;
 - [x] const numInstances = process.cpus().length;
 
-**Explanation:**
-
-_From official docs: [https://nodejs.org/api/cluster.html#cluster_cluster](https://nodejs.org/api/cluster.html#cluster_cluster)_
+**Explanation:** _From official docs: [https://nodejs.org/api/cluster.html#cluster_cluster](https://nodejs.org/api/cluster.html#cluster_cluster)_
 
 #### Q55. You have to read a large text file, replace some words in it, and write it back to a new file. You know that the memory on your target system is limited. What should you do?
 
@@ -430,9 +418,7 @@ _From official docs: [https://nodejs.org/api/cluster.html#cluster_cluster](https
 - [ ] Copy the file into a database and perform the operations there.
 - [x] Use readline together with streams to read and transform and write the file contents line by line.
 
-**Explanation:**
-
-_From official docs: [https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line](https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line)_
+**Explanation:** _From official docs: [https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line](https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line)_
 
 #### Q56. Which choice is not a global object?
 
@@ -441,6 +427,4 @@ _From official docs: [https://nodejs.org/api/readline.html#readline_example_read
 - [ ] setTimeout
 - [x] Buffer
 
-**Explanation:**
-
-_process, exports and setTimeout are global objects, Buffer isn't (please see https://nodejs.org/api/globals.html)_
+**Explanation:** _process, exports and setTimeout are global objects, Buffer isn't (please see https://nodejs.org/api/globals.html)_

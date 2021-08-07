@@ -179,9 +179,7 @@ Read carefully. It's not about recovering, but only the last recent file!
 - [ ] Find and Replace
 - [x] AutoCorrect Options
 
-Explanation:
-
-The keyword here is creating a "shortcut" which is set with the Autocorrect Options by navigating to File -> Options -> Proofing -> AutoCorrect Options -> Replace text as you type.
+**Explanation:** The keyword here is creating a "shortcut" which is set with the Autocorrect Options by navigating to File -> Options -> Proofing -> AutoCorrect Options -> Replace text as you type.
 
 #### Q25. Your document contains two columns of content with a vertical line between the columns, as shown. From where can you delete the line?
 
@@ -192,9 +190,7 @@ The keyword here is creating a "shortcut" which is set with the Autocorrect Opti
 - [ ] Insert > Line > Vertical
 - [ ] Insert > Line > Remove
 
-Explanation:
-
-Layout -> Columns -> More columns -> Line between
+**Explanation:** Layout -> Columns -> More columns -> Line between
 
 #### Q26. When you crop an image in a document, what happens to the image and the overall document file size?
 
@@ -303,7 +299,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] B and C
 - [ ] A and D
 
-Hint:
+**Hint:**
 
 (TM) : Unregistered trademark symbol  
 (R): Registered trademark symbol
@@ -322,7 +318,7 @@ Hint:
 - [ ] column break
 - [x] page break
 
-#### Q41. You want to capture all the content and design elements in your current document, so you can use them as a starting point when creating new documents. To do so, save the current document as **\_\_\_**.
+#### Q41. You want to capture all the content and design elements in your current document, so you can use them as a starting point when creating new documents. To do so, save the current document as **\_**.
 
 - [x] a template file
 - [ ] a PDF
@@ -343,9 +339,7 @@ Hint:
 - [ ] Use the Section Break command.
 - [ ] Use the Split Cells command.
 
-Explanation:
-
-Tables Layout tab -> Merge group -> Split Table
+**Explanation:** Tables Layout tab -> Merge group -> Split Table
 
 #### Q44. What can you **NOT** create from a Word document?
 
@@ -354,9 +348,7 @@ Tables Layout tab -> Merge group -> Split Table
 - [x] a multipage website
 - [ ] a Word 2003 XML document
 
-Explanation:
-
-Each Word document can be saved as a Web Page.
+**Explanation:** Each Word document can be saved as a Web Page.
 
 #### Q45. How can you add a manual line break to a paragraph?
 

@@ -7,7 +7,7 @@
 - [ ] binomial
 - [x] uniform
 
-#### Q2. Based on the code below, c is the `\_` of a.
+#### Q2. Based on the code below, c is the \_ of a.
 
 ```
 a = rand(1, 11);

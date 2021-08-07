@@ -514,7 +514,7 @@ forms markup for the username field?
 </form>
 ```
 
-- []
+- [ ]
 
 ```javascript
     <span *ngIf="username.minLength.invalid"›

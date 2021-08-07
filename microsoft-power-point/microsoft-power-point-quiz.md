@@ -13,7 +13,8 @@
 - [x] Arrange tools
 - [ ] Design Ideas feature
 - [ ] Picture tools
-      `In MS PP 2019 it's called "Drawing Tools". There is no such answer but there is a function called "Arrange"`
+
+`In MS PP 2019 it's called "Drawing Tools". There is no such answer but there is a function called "Arrange"`
 
 #### Q3. Which option must be enabled if you want to manipulate the playback of a video file during a presentation?
 
@@ -35,7 +36,8 @@
 - [ ] the Home tab
 - [x] the Print dialog box
 - [ ] the Share tab
-      `Should be in the printer window not in the options menu`
+
+`Should be in the printer window not in the options menu`
 
 #### Q6. Which tab is best for adding various types of objects to slides?
 
@@ -96,7 +98,8 @@ E. Distance
 - [ ] Advance slides manually
 - [ ] Advance slides automatically
 - [x] Loop continuously until 'Esc'
-      `Slide Show Tab -> Set Up Slide Show -> Show options -> Loop continuously until 'Esc'`
+
+`Slide Show Tab -> Set Up Slide Show -> Show options -> Loop continuously until 'Esc'`
 
 #### Q13. Which statement about the Compress Pictures command is true?
 
@@ -132,9 +135,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] none of these answers
 - [ ] Visible
 
-```
-If hidden is selected the courser stays hidden no matter what.
-```
+`If hidden is selected the courser stays hidden no matter what.`
 
 #### Q17. Which chart type is best suited for displaying annual financial data for a 10-year period?
 
@@ -178,10 +179,7 @@ If hidden is selected the courser stays hidden no matter what.
 - [x] Remove picture compression.
 - [ ] Change the printer property settings to print in a higher resolution.
 
-```Personal Hint:
-File Tab -> Options -> Advanced -> Image Size and Quality -> Do not compress images in file
-File Tab -> Options -> Advanced -> Print -> High quality
-```
+`Personal Hint: File Tab -> Options -> Advanced -> Image Size and Quality -> Do not compress images in file File Tab -> Options -> Advanced -> Print -> High quality `
 
 #### Q23. You have inserted a video on a slide and want the video to automaaticlly start 2 seconods after the associated slide appears. How can you accomplish this?
 
@@ -253,9 +251,7 @@ File Tab -> Options -> Advanced -> Print -> High quality
 - [ ] Save the file as a POTX.
 - [ ] Save the file as a PPTX.
 
-```
-Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .pot).
-```
+`Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .pot).`
 
 #### Q33. You are creating an industrial presentation of a new software program and would like to include an image of your program. How can you use PowerPoint to do this?
 

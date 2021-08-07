@@ -435,10 +435,10 @@ let diff = function (x, y) {
 
 #### Q37. How do you import the lodash library making it top-level Api available as the "\_" variable?
 
-- [x] import \_ from 'lodash';
-- [ ] import 'lodash' as \_;
-- [ ] import '\_' from 'lodash;
-- [ ] import lodash as \_ from 'lodash';
+- [x] `import _ from 'lodash';`
+- [ ] `import 'lodash' as _;`
+- [ ] `import '_' from 'lodash;`
+- [ ] `import lodash as _ from 'lodash';`
 
 #### Q38. What does the following expression evaluate to?
 

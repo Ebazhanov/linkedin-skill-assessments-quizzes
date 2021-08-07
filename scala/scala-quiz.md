@@ -193,7 +193,7 @@ def main () {
 - [ ] functional objects
 - [ ] fixed objects
 
-Note: singletons may have mutable state
+**Note:** singletons may have mutable state
 
 #### Q21. You have written a Scala script. How would you access command-line arguments in the script?
 

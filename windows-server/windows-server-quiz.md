@@ -51,7 +51,7 @@
 - [ ] DNS forward lookup zone
 - [ ] DNS reverse lookup zone
 
-#### Q8. Hyper-V \_\_\_\_ is a disaster recovery tool that replicates virtual machines from one Hyper-V host server to another in a Hyper-V Windows Server 2016 environment.
+#### Q8. Hyper-V \_ is a disaster recovery tool that replicates virtual machines from one Hyper-V host server to another in a Hyper-V Windows Server 2016 environment.
 
 - [ ] Manager
 - [x] Replica

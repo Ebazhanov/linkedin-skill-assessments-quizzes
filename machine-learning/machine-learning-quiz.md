@@ -384,7 +384,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [x] You are underfitting the model to the data
 - [ ] You need a larger training set
 
-#### Q52. Your supervisor asks you to create a machine learning system that will help your human resources department classify jobs applicants into well defined groups. What type of system are you more likely to recommend?
+#### Q52. Your supervisor asks you to create a machine learning system that will help your human resources department classify jobs applicants into well-defined groups. What type of system are you more likely to recommend?
 
 - [ ] an unsupervised machine learning system that clusters together the best candidates.
 - [ ] you would not recommend a machine learning system for this type of project.

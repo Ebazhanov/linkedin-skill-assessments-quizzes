@@ -152,7 +152,8 @@
 - [x] logical model
 - [ ] physical model
 - [ ] normalized database
-      `NOT SURE THE QUESTION IS CORRECT. Logical, physical and normalized are all products of the designing phase in this order.`
+
+`Logical, physical and normalized are all products of the designing phase in this order.`
 
 #### Q12. MySQL server can operate in different SQL modes, depending on the value of the sql_mode system variable. Which mode changes syntax and behavior to conform more closely to standard SQL?
 
@@ -175,7 +176,7 @@
 - [ ] STRUCTURE table;
 - [x] DESCRIBE table;
 
-#### Q15. MySQL uses security based on\_\_\_for all connections, queries, and other operations that users can attempt to perform.
+#### Q15. MySQL uses security based on \_ for all connections, queries, and other operations that users can attempt to perform.
 
 - [ ] administrator schema
 - [ ] encrypted algorithms
@@ -304,7 +305,7 @@
 - [ ] help files
 - [ ] default settings
 
-#### Q33. After installing MySQL, it may be necessary to initialize the \_\_ which may be done automatically with some MySQL installation methods.
+#### Q33. After installing MySQL, it may be necessary to initialize the \_ which may be done automatically with some MySQL installation methods.
 
 - [ ] storage engine
 - [ ] user accounts
@@ -318,7 +319,7 @@
 - [x] UNION
 - [ ] WITH COLUMNS
 
-#### Q35. One form of backup, replication, enables you to maintain identical data on multiple servers, as a \_\_\_ configuration.
+#### Q35. One form of backup, replication, enables you to maintain identical data on multiple servers, as a \_ configuration.
 
 - [ ] remote-local
 - [ ] parent-child
@@ -442,7 +443,7 @@
 - [x] to display storage error codes
 
 `*note: perror prints a description for a system error code or for a storage engine (table handler) error code.`
-[link](<https://dev.mysql.com/doc/refman/5.7/en/perror.html#:~:text=2%20perror%20%E2%80%94%20Display%20MySQL%20Error%20Message%20Information,-For%20most%20system&text=You%20can%20find%20out%20what,(table%20handler)%20error%20code.>)
+[link](<https://dev.mysql.com/doc/refman/5.7/en/perror.html#:~:text=2%20perror%20%E2%80%94%20Display%20MySQL%20Error%20Message%20Information,-For%20most%20system&text=You%20can%20find%20out%20what,(table%20handler)%20error%20code>)
 
 #### Q51. How can you list all columns for a given table?
 

@@ -233,7 +233,7 @@
 - [ ] root.getById(R.id.text_home)
 - [x] root.findViewById(R.id.text_home)
 
-#### Q18. IF the main thread is blocked for too long, the system displays the\_\_\_dialog?
+#### Q18. IF the main thread is blocked for too long, the system displays the \_ dialog?
 
 - [ ] Thread Not Responding
 - [ ] Application Paused
@@ -786,7 +786,7 @@ xml
 - [ ] when the tests need to run on your local machine.
 - [x] when the tests need to run on real or virtual devices.
 
-[reference](https://developer.android.com/studio/test#test_types_and_location)
+[Reference](https://developer.android.com/studio/test#test_types_and_location)
 
 #### Q50. Given an APK named app-internal-debug.apk produced from the build process, which statement is likely to be true?
 

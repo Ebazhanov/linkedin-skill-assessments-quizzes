@@ -299,7 +299,7 @@ a:active {
 - [ ] the parent element
 - [ ] the wrapper element
 
-#### Q21. By default, a background image will repeat `\_\_\_`
+#### Q21. By default, a background image will repeat \_
 
 - [ ] only if the background-repeat property is set to repeat
 - [x] indefinitely, vertically, and horizontally
@@ -1130,9 +1130,12 @@ D. border-top-radius: 10px;
 - [ ] `input[type*="text"]:not([disabled="disabled"]) {...}`
 - [ ] `input[type="text"]:not([type="disabled"]) {...}`
 
-**Explanation:**`input[type="text"] selects all the input with type text, and :not([disabled]) selects all the elements not having the attribute "disabled". Combining both only selects all the input elements with type attribte as "text" and not having "disabled" attribute.`
-[Reference link attribute-selector](https://www.w3schools.com/css/css_attribute_selectors.asp)
-[Reference link-:not()](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
+**Explanation:**
+
+`input[type="text"] selects all the input with type text, and :not([disabled]) selects all the elements not having the attribute "disabled". Combining both only selects all the input elements with type attribte as "text" and not having "disabled" attribute.`
+
+- [Reference link attribute-selector](https://www.w3schools.com/css/css_attribute_selectors.asp)
+- [Reference link-:not()](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
 
 #### Q90. How can you create a semi-transparent background color?
 
@@ -1141,8 +1144,10 @@ D. border-top-radius: 10px;
 - [x] background-color: rgba(0, 0, 0, 0.5);
 - [ ] background-color: rgba(0, 0, 0, 1);
 
-**Explanation:**`rgba is a funtion in css. rgba stands for red, green, blue and alpha. The value of alpha can be between 0 and 1 both inclusive with 0 being fully transparent and 1 being fully opaque.`
-[Reference link-rgba](https://www.w3schools.com/cssref/func_rgba.asp)
+**Explanation:**
+`rgba is a funtion in css. rgba stands for red, green, blue and alpha. The value of alpha can be between 0 and 1 both inclusive with 0 being fully transparent and 1 being fully opaque.`
+
+- [Reference link-rgba](https://www.w3schools.com/cssref/func_rgba.asp)
 
 #### Q91. Which property is used to create a drop shadow effect on an HTML element?
 

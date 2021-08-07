@@ -471,7 +471,7 @@ Explanation: Scientific Notation is a valid JSON number. You can use `e` or `E`.
 }
 ```
 
-#### Q32. When building dynamic web applications using AJAX, developers originally used the \_\_\_\_ data format, which has since been replaced by JSON.
+#### Q32. When building dynamic web applications using AJAX, developers originally used the \_ data format, which has since been replaced by JSON.
 
 - [x] XML
 - [ ] GRAPHQL

@@ -21,7 +21,7 @@
 - [ ] modules/enterpriseModules
 - [ ] modules/services
 
-#### Q4. The goal that is executed to generate and deploy a documentation website is \_\_\_.
+#### Q4. The goal that is executed to generate and deploy a documentation website is \_.
 
 - [ ] deliver
 - [x] site
@@ -244,7 +244,7 @@ mvn install
 - [ ] developmentVersion
 - [x] releaseVersion
 
-#### Q34. These are two general uses of plugins. The first is build and the second is **\_**
+#### Q34. These are two general uses of plugins. The first is build and the second is \_
 
 - [x] reporting
 - [ ] servers
@@ -254,7 +254,7 @@ mvn install
 #### Q35. What does the mvn clean command do?
 
 - [x] It removes the target directory
-- [ ] It updates the version of the plugins defned in the POM file.
+- [ ] It updates the version of the plugins defined in the POM file.
 - [ ] It removes unused dependencies in your project
 - [ ] It builds your project
 
@@ -283,7 +283,7 @@ mvn install
 - [ ] Maven will include only the App class when it compiles the source code.
 - [ ] Maven will add an empty main method to the App class.
 
-#### Q38. Suppose you are packaging a Mave project and see the following error "[WARNING] Using platform encoding (CP1252 actually) to copy filtered resources, i.e. build platform dependent!" What do you add to your POM file to set platform encoding to ensure your build is not platform dependet ?
+#### Q38. Suppose you are packaging a Maven project and see the following error "[WARNING] Using platform encoding (CP1252 actually) to copy filtered resources, i.e. build platform dependent!" What do you add to your POM file to set platform encoding to ensure your build is not platform dependet ?
 
 - [ ] <project.build.resources>
 - [ ] <maven.compiler.source>

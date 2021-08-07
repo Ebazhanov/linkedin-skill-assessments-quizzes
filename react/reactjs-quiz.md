@@ -316,7 +316,7 @@ const Heading = () => {
 - [ ] with webpack
 - [ ] with code splitting
 
-#### Q34. All React components must act like `**\_\_**` with respect to their props.
+#### Q34. All React components must act like **\_** with respect to their props.
 
 - [ ] monads
 - [x] pure functions
@@ -401,9 +401,8 @@ class clock extends React.Component {
 - [ ] Remove the render method
 - [x] Capitalize `clock`
 
-<details><summary>Explanation</summary>
-<p>In JSX, lower-case tag names are considered to be HTML tags. Read [this article](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components)</p>
-</details>
+**Explanation:** In JSX, lower-case tag names are considered to be HTML tags.
+Read [this article](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components)
 
 #### Q43. Which Hook could be used to update the document's title?
 
@@ -679,55 +678,34 @@ useEffect(() => {
 <Route path="/:id" />
 ```
 
-- [x] ```````````javascript
-      (
-        <Route path="/:id">
-          {' '}
-          <About />
-        </Route>
-      )```
-                                  ````
-                              `````;
-      ``````;
-      ```````
-                  ````````
-              `````````;
-      ``````````;
-      ```````````
-- [ ] ```````````javascript
-      (<Route path="/tid" about={Component} />)```
-                                  ````
-                              `````;
-      ``````;
-      ```````
-                  ````````
-              `````````;
-      ``````````;
-      ```````````
-- [ ] ```````````javascript
-      (<Route path="/:id" route={About} />)```
-                                  ````
-                              `````;
-      ``````;
-      ```````
-                  ````````
-              `````````;
-      ``````````;
-      ```````````
-- [ ] ```````````javascript
-      (
-        <Route>
-          <About path="/:id" />
-        </Route>
-      )```
-                                  ````
-                              `````;
-      ``````;
-      ```````
-                  ````````
-              `````````;
-      ``````````;
-      ```````````
+- [x]
+
+```javascript
+<Route path="/:id">
+  {' '}
+  <About />
+</Route>
+```
+
+- [ ]
+
+```javascript
+<Route path="/tid" about={Component} />
+```
+
+- [ ]
+
+```javascript
+<Route path="/:id" route={About} />
+```
+
+- [ ]
+
+```javascript
+<Route>
+  <About path="/:id" />
+</Route>
+```
 
 #### Q65. Which class-based component is equivalent to this function component?
 
@@ -735,56 +713,33 @@ useEffect(() => {
 const Greeting ({ name }) > <h1>Hello {name}!</h1>;
 ```
 
-- [ ] ```````````javascript
-      class Greeting extends React.Component {
-        constructor() {
-          return <h1>Hello (this.props.name)!</h1>;
-        }
-      }
-      ```
-                                  ````
-                              `````;
-      ``````;
-      ```````
-                  ````````
-              `````````;
-      ``````````;
-      ```````````
-- [x] ```````````javascript
-                                         class Greeting extends React.Component { <h1>Hello {this.props.name}!</h1>; }
-                                      ```
-                                  ````
-                              `````
-                          ``````
-                      ```````
-                  ````````
-              `````````
-          ``````````
-      ```````````
-- [ ] ```````````javascript
-                                         class Greeting extends React.Component { return <h1>Hello (this.props.name) 1</h1>; }
-                                      ```
-                                  ````
-                              `````
-                          ``````
-                      ```````
-                  ````````
-              `````````
-          ``````````
-      ```````````
-- [ ] ```````````javascript
-                                          class Greeting extends React.Component ( render({ name }) {
-                                            return <h1>Hello (name)} !</h1>;
-                                          })
-                                      ```
-                                  ````
-                              `````
-                          ``````
-                      ```````
-                  ````````
-              `````````
-          ``````````
-      ```````````
+- [ ]
+
+```javascript
+class Greeting extends React.Component {
+  constructor() {
+    return <h1>Hello (this.props.name)!</h1>;
+  }
+}
+```
+
+- [x]
+
+```javascript
+    class Greeting extends React.Component { <h1>Hello {this.props.name}!</h1>; }
+```
+
+- [ ]
+
+```javascript
+   class Greeting extends React.Component { return <h1>Hello (this.props.name) 1</h1>; }
+```
+
+- [ ]
+
+```javascript
+class Greeting extends React.Component ( render({ name }) {return <h1>Hello (name)} !</h1>;})
+```
 
 #### Q66. Give the code below, what does the second argument that is sent to the render function describe?
 

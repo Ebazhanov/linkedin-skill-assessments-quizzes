@@ -154,7 +154,7 @@
 - [ ] node-user
 - [ ] admin-user
 
-#### Q23. State \_\_ between the JVMs in a MapReduce job
+#### Q23. State \_ between the JVMs in a MapReduce job
 
 - [ ] can be configured to be shared
 - [ ] is partially shared
@@ -268,7 +268,7 @@
 - [ ] JobTracker
 - [x] YARN
 
-### Q39. In MapReduce, **\_\_\_** have \_\_\_\_
+### Q39. In MapReduce, **\_** have \_
 
 - [ ] tasks; jobs
 - [ ] jobs; activities
@@ -282,7 +282,7 @@
 - [ ] operating system
 - [ ] productivity tool
 
-### Q41. If no reduction is desired, you should set the numbers of \_\_\_\_ tasks to zero
+### Q41. If no reduction is desired, you should set the numbers of \_ tasks to zero
 
 - [ ] combiner
 - [x] reduce
@@ -296,14 +296,14 @@
 - [ ] combiner
 - [x] counter
 
-### Q43. \_**\_ is the query language, and \_\_** is storage for NoSQL on Hadoop
+### Q43. \_ is the query language, and \_ is storage for NoSQL on Hadoop
 
 - [ ] HDFS; HQL
 - [x] HQL; HBase
 - [ ] HDFS; SQL
 - [ ] SQL; HBase
 
-### Q44. MapReduce 1.0 \_\_\_ YARN
+### Q44. MapReduce 1.0 \_ YARN
 
 - [x] does not include
 - [ ] is the same thing as
@@ -348,7 +348,7 @@
 - [ ] mapreduce.job.ubertask.maxbytes in mapred-site.xml
 - [ ] hdfs.block.size in hdfs-site.xml
 
-### Q50. Hadoop systems are **\_\_** RDBMS systems.
+### Q50. Hadoop systems are **\_** RDBMS systems.
 
 - [ ] replacements for
 - [ ] not used with

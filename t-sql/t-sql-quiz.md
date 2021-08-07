@@ -187,7 +187,7 @@ SELECT @UniqueID AS Result;
 - [x] CREATE SCHEMA Sales SET OWNER Sharon;
 - [ ] CREATE SCHEMA Sales AUTHORIZATION Sharon;
 
-#### Q21. The result of a CROSS JOIN between a table with 4 rows, and one with 5 rows, will give with \_\_\_\_ rows.
+#### Q21. The result of a CROSS JOIN between a table with 4 rows, and one with 5 rows, will give with \_ rows.
 
 - [ ] 1024
 - [x] 20
@@ -379,9 +379,7 @@ FROM Students
 
 #### Q37. What is the result of this query?
 
-```
-SELECT '123'+'123' AS Result;
-```
+`SELECT '123'+'123' AS Result;`
 
 - [x] error
 - [ ] '123''123'

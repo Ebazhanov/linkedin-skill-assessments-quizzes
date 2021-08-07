@@ -120,7 +120,7 @@
 - [ ] ActiveXObject
 - [ ] responseXML
 
-#### Q9. A markup language is a \_**\_-readable language that \_\_** text so that the computer can **\_** that text.
+#### Q9. A markup language is a **\_** -readable language that **\_** text so that the computer can **\_** that text.
 
 - [ ] processor; complies; process
 - [ ] system; stores; retrieve

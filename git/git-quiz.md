@@ -29,9 +29,10 @@ git merge --squash HEAD@{1}
 - [ ] Delete the last 5 commits
 - [ ] Merges the last 5 commits into a new branch
 
-`git reset --hard HEAD~5` resets the current branch to the commit just before the last 5 (see `man gitrevisions` for details about this notation and other cool alternatives like `HEAD@{2 days ago}`). As it is a hard reset, it will also overwrite every change in the working tree as well. See `man git-reset`.
+**Explanation:**
 
-`git merge --squash HEAD@{1}` HEAD@{1} is where the branch was just before the previous command (again, see `man gitrevisions`). This command sets the state of the index to be as it would just after a merge from that commit. This whole operation could be a way to take 5 commits from a branch in which you started a new feature and squash them to a single commit, a meaningful one.
+- `git reset --hard HEAD~5` resets the current branch to the commit just before the last 5 (see `man gitrevisions` for details about this notation and other cool alternatives like `HEAD@{2 days ago}`). As it is a hard reset, it will also overwrite every change in the working tree as well. See `man git-reset`.
+- `git merge --squash HEAD@{1}` HEAD@{1} is where the branch was just before the previous command (again, see `man gitrevisions`). This command sets the state of the index to be as it would just after a merge from that commit. This whole operation could be a way to take 5 commits from a branch in which you started a new feature and squash them to a single commit, a meaningful one.
 
 #### Q4. Your current project has several branches; master, beta, and push-notifications. You've just finished the notification feature in the push-notification branch, and you want to commit it to beta branch. How can you accomplish this?
 
@@ -71,7 +72,7 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [ ] A commit is being copied from the feature-user-location branch to the master branch
 - [ ] The branch is switched to the feature-user-location branch, and the specified commit is applied to the branch.
 
-Commits aren't copied when cherry picking, they are cherry picked. The changes introduced by the commit are applied and a new commit is then created. This allow us to get specific changes as if they were patches (in the GIT's book, this is actually called [Patching](https://git-scm.com/book/en/v2/Appendix-C:-Git-Commands-Patching "See this in the GIT's book")). As a new commit is created upon feature-user-location, HEAD also changes to match it. You can see this in `cat .git/HEAD` and `cat .git/refs/heads/feature-user-location` for this case. See `man git-cherry-pick` for details.
+**Explanation:** `Commits aren't copied when cherry picking, they are cherry picked. The changes introduced by the commit are applied and a new commit is then created. This allow us to get specific changes as if they were patches (in the GIT's book, this is actually called [Patching](https://git-scm.com/book/en/v2/Appendix-C:-Git-Commands-Patching "See this in the GIT's book")). As a new commit is created upon feature-user-location, HEAD also changes to match it. You can see this in `cat .git/HEAD`and`cat .git/refs/heads/feature-user-location`for this case. See`man git-cherry-pick` for details.`
 
 **NOTE**: There are two versions of this question so far. The task is always "describe what is happening", the commands are always a `checkout` and a `cherry-pick`, and the correct answer is always the same.
 
@@ -205,12 +206,13 @@ modified: beta-notes.js
   git reset --hard origin/myCurrentBranch
   ```
 - [x]
+
   ```bash
   git fetch --all
   git reset --hard origin/master
   ```
 
-The command `pull` is `fetch` followed by either `merge` or `rebase` (in this case, `merge`). We don't want to merge. Merge would be an action to our **repository**. We just want to overwrite our **local files**.
+- `The command `pull`is`fetch`followed by either`merge`or`rebase`(in this case,`merge`). We don't want to merge. Merge would be an action to our **repository**. We just want to overwrite our **local files**.`
 
 #### Q21. Which statement is true when you use the git add -A command?
 
@@ -375,8 +377,8 @@ modified: beta-notes.js
 - [x] 2
 - [ ] 4
 
-In Git, there are two main ways to integrate changes from one branch into another: the merge and the rebase.
-[Reference](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
+- **Explanation:** `In Git, there are two main ways to integrate changes from one branch into another: the merge and the rebase.`
+- [Reference link](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
 
 #### Q41. Which user should be created first during setting up of SSH?
 

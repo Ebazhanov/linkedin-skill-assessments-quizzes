@@ -141,7 +141,7 @@ func myFunc(_ a: Int, b: Int) -> Int {
 - [ ] myFunc(a: 5, b: 6)
 - [ ] myFunc(a, b)
 
-#### Q13. The Codable protocol is \***\*\_\*\***?
+#### Q13. The Codable protocol is **\_**?
 
 - [x] a combination of Encodable and Decodable
 - [ ] not a true protocol <<<<---Possibly correct as it's a typealias of Encodable and Decodable
@@ -189,7 +189,7 @@ names.map { (s) -> String in
 }
 ```
 
-- [ x] ["BEAR", "JOE", "CLARK"]
+- [x] ["BEAR", "JOE", "CLARK"]
 - [ ] ["B", "J", "C"]
 - [ ] ["Bear", "Joe", "Clark"]
 - [ ] This code contains an error.
@@ -222,7 +222,7 @@ extension String {
 - [ ] didSet takes a parameter.
 - [ ] c is not a character.
 
-#### Q20. didSet and willSet are examples of `\***\*\_\*\***`?
+#### Q20. didSet and willSet are examples of **\_**?
 
 - [x] property observers
 - [ ] key properties
@@ -289,7 +289,7 @@ if let s = String.init("some string") {
 - [ ] class
 - [ ] this
 
-#### Q27. All value types in Swift are \***\*\_\*\*** under the hood?
+#### Q27. All value types in Swift are **\_** under the hood?
 
 - [x] structs
 - [ ] classes
@@ -744,7 +744,7 @@ print(s1)
 - [ ] raw values
 - [ ] custom values
 
-#### Q66. In the code below, AOM must be a(n)\_\_\_\_?
+#### Q66. In the code below, AOM must be a(n) \_?
 
 ```swift
 class AmP : MMM, AOM {

@@ -21,7 +21,7 @@
 - [ ] #
 - [ ] -
 
-[_Caveat:](https://support.microsoft.com/en-us/office/string-functions-and-how-to-use-them-965efa84-7009-4603-9765-2eb4a099ec72) - "In a desktop database, you can also use the ampersand operator (&) for concatentation. In an Access app, you must use the plus sign (+)."_
+[\_Caveat:](https://support.microsoft.com/en-us/office/string-functions-and-how-to-use-them-965efa84-7009-4603-9765-2eb4a099ec72) - "In a desktop database, you can also use the ampersand operator (&) for concatentation. In an Access app, you must use the plus sign (+)."\_
 
 #### Q4. The relationship field in this table has been created with what feature?
 
@@ -142,7 +142,7 @@
 
 https://support.microsoft.com/en-us/office/iif-function-32436ecf-c629-48a3-9900-647539c764e3
 
-#### Q17. The display for numerical data defaults to a **_alignment, and text data defaults to **_aligntment
+#### Q17. The display for numerical data defaults to a **\_alignment, and text data defaults to **\_aligntment
 
 - [ ] left; right
 - [x] right; left
@@ -181,10 +181,10 @@ https://support.microsoft.com/en-us/office/iif-function-32436ecf-c629-48a3-9900-
 
 #### Q21. When backing up an Access database, what is added to the file name automatically?
 
-- [ ] A serialized backup number, such as "\_Backup_2"
-- [x] The current date, such as "\_2019-08-21"
-- [ ] The characters "\_bu"
-- [ ] The word "\_Archive"
+- [ ] `A serialized backup number, such as "_Backup_2"`
+- [x] `The current date, such as "_2019-08-21"`
+- [ ] `The characters "_bu"`
+- [ ] `The word "_Archive"`
 
 #### Q22. Which table field property, if supplied, will display instead of the field name as a column header when viewing the datasheet of as a label when the field is added toa form or report?
 

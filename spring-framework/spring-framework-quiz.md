@@ -320,7 +320,7 @@ public class SampleController {
 - [ ] an encoded message and response between various shards of a database
 - [ ] an exchange or interaction between various worker nodes in a multithreaded environment
 
-#### Q39. Modularization of a concern that cuts across multiple classes is known as a(n)\_\_\_.
+#### Q39. Modularization of a concern that cuts across multiple classes is known as a(n)\_.
 
 - [ ] multiclass
 - [x] aspect

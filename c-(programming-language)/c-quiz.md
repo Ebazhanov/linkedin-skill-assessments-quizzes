@@ -1,41 +1,44 @@
 ## C (Programming Language)
 
-##### Q1. Which Code sample will eventually cause the computer to run out of memory ?
+##### Q1. Which Code sample will eventually cause the computer to run out of memory?
 
-- [x] ``````c
-                  while(1)
-                  {
-                      char *smallString = (char *) malloc(10);
-                  }
-              ````
-          `````
-      ``````
-- [ ] ``````c
-                  long long number = 1;
-                  while(1)
-                      number *= 2;
-              ````
-          `````
-      ``````
-- [ ] ``````c
-                  while(1)
-                  {
-                      char hugeString[1000000L];
-                      memset(hugeString, 0, 1000000L);
-                  }
-              ````
-          `````
-      ``````
-- [ ] ``````c
-                  while(1)
-                  {
-                      long *bigArray = (long *) malloc(sizeof(long) * 1000);
-                      memset(bigArray, 1000000, 1000);
-                      free(bigArray);
-                  }
-              ````
-          `````
-      ``````
+- [x]
+
+```c
+while(1)
+{
+    char *smallString = (char *) malloc(10);
+}
+```
+
+- [ ]
+
+```c
+long long number = 1;
+    while(1)
+    number *= 2;
+```
+
+- [ ]
+
+```c
+while(1)
+{
+    char hugeString[1000000L];
+    memset(hugeString, 0, 1000000L);
+}
+```
+
+- [ ]
+
+```c
+while(1)
+{
+    long *bigArray = (long *) malloc(sizeof(long) * 1000);
+    memset(bigArray, 1000000, 1000);
+    free(bigArray);
+}
+```
 
 #### Q2. What will this code print on the screen?
 
@@ -142,42 +145,41 @@ struct s {
 
 #### Q8. Using a for loop, how could you write a C code to count down from 10 to 1 and display each number on its own line?
 
-- [ ] ``````c
-                  for (int i = 0; i>=0, i--){
-                      printf("%d\n", i);
-                  }//end of loop
-                  ```
-              ````
-          `````
-      ``````
-- [ ] ``````c
-                  int i;
-                  for (i=1; i<=10; i++){
-                      printf("%d", i);
-                  }
-                  ```
-              ````
-          `````
-      ``````
-- [ ] ``````c
-                  int i = 10;
-                  while (i>0){
-                      printf("%d\n", i);
-                      i--;
-                  }
-                  ```
-              ````
-          `````
-      ``````
-- [x] ``````c
-                  int i;
-                  for (i= 10; i>0; i--){
-                      printf("%d\n", i);
-                  }// end of loop
-                  ```
-              ````
-          `````
-      ``````
+- [ ]
+
+```c
+for (int i = 0; i>=0, i--){
+    printf("%d\n", i);
+}//end of loop
+```
+
+- [ ]
+
+```c
+int i;
+for (i=1; i<=10; i++){
+    printf("%d", i);
+}
+```
+
+- [ ]
+
+```c
+int i = 10;
+while (i>0){
+    printf("%d\n", i);
+    i--;
+}
+```
+
+- [x]
+
+```c
+int i;
+for (i= 10; i>0; i--){
+    printf("%d\n", i);
+}// end of loop
+```
 
 #### Q9. What is not one of the reserved words in standard C?
 
@@ -338,41 +340,40 @@ char *string[20] = { "one", "two", "three"};
 
 #### Q26. Which program will compile and run without errors?
 
-- [ ] ``````c
-                  main() {
-                      for(i=0; i<10; i++) ;
-                  }
-                  ```
-              ````
-          `````
-      ``````
-- [x] ``````c
-                  main() {
-                      int i=0;
-                      for(; i<10; i++) ;
-                  }
-                  ```
-              ````
-          `````
-      ``````
-- [ ] ``````c
-                  main() {
-                      int i;
-                      for(i=0; i<j; i++) ;
-                  }
-                  ```
-              ````
-          `````
-      ``````
-- [ ] ``````c
-                  main() {
-                      int i;
-                      for (i= 10; i<10; i++)
-                  }
-                  ```
-              ````
-          `````
-      ``````
+- [ ]
+
+```c
+main() {
+    for(i=0; i<10; i++) ;
+}
+```
+
+- [x]
+
+```c
+main() {
+int i=0;
+    for(; i<10; i++) ;
+}
+```
+
+- [ ]
+
+```c
+main() {
+    int i;
+    for(i=0; i<j; i++) ;
+}
+```
+
+- [ ]
+
+```c
+main() {
+int i;
+    for (i= 10; i<10; i++)
+}
+```
 
 #### Q27. What does this function call return?
 
