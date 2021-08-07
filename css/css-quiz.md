@@ -1154,3 +1154,20 @@ grid-template-columns: 2fr 1ffr;
 - [ ] The first column is twice the width and height of the second column, and will fit proportionally within the grid container.
 - [ ] The first column is twice as wide as the second column and will fit proportionally within the grid container.
 - [ ] The first column is twice the height of the second column and will be as wide as the content.
+
+#### Q92. Suppose you want to have a list of items (.item) displayed in a row and in reverse order using flexbox. What is the error in the CSS below?
+
+```css
+.container {
+  display: flex;
+}
+.item {
+  border: 1px solid red;
+  flex-direction: row-reverse;
+}
+```
+
+- [ ] The value for flex-direction should be reverse-row.
+- [ ] The .container element should have a property of flex: display.
+- [x] The flex-direction property should be declared in the container.
+- [ ] The display value should be flex-inline to display the items in a row.
