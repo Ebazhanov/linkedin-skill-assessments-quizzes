@@ -1176,3 +1176,30 @@ grid-template-columns: 2fr 1ffr;
 - [ ] The .container element should have a property of flex: display.
 - [x] The flex-direction property should be declared in the container.
 - [ ] The display value should be flex-inline to display the items in a row.
+
+#### Q93. Which choice is not a valid transition?
+
+- [x] `transition: margin 1000ms ease-in-out;transition: margin 1000ms ease-in-out;`
+- [ ] `transition: color 1.3s ease-in;transition: color 1.3s ease-in;`
+- [ ] `transition: position 400ms linear;transition: position 400ms linear;`
+- [ ] `transition: opacity 1s ease-in;transition: opacity 1s ease-in;`
+
+#### Q94. In this example, what color will the paragraphs be and why? In this example, what color will the paragraphs be and why?
+```
+article p { color: blue; }
+article > p { color: green; }
+```
+```html
+<article>
+  <p>Paragraph 1</p>
+
+  <aside>
+    <p>Paragraph 2</p>
+  </aside>
+</article>
+```
+
+- [ ] Paragraph 1 will be blue. Paragraph 2 will be green.Paragraph 1 will be blue. Paragraph 2 will be green.
+- [ ] Both paragraphs will be green.Both paragraphs will be green.
+- [ ] Paragraph 1 will be green. Paragraph 2 will be blue. Paragraph 1 will be green. Paragraph 2 will be blue.
+- [ ] Both paragraphs will be blue.Both paragraphs will be blue.
