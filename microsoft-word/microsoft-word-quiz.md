@@ -477,13 +477,14 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] Word analyzes and corrects the image for tone and color.
 
 [Reference link](https://support.microsoft.com/en-us/office/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344)
+
 #### Q59. When working with Track Changes, what is the difference between Simple Markup and all Markup?
 
 - [ ] Simple Markup shows the final version without inline markups; All Markups shows the final version with inline markups.
 - [x] Simple Markup shows the markup versions by one selected author; All Markup shows the combined markup version of all authors.
 - [ ] Simple Markup shows the revisions of one selected author in the Review pane; All Markup shows the revisions of all authors with inline markups.
 - [ ] Simple Markup shows the final version with inline markups; All Markup shows the final version without inline markups.
-[Reference link](https://support.microsoft.com/en-us/office/video-track-changes-and-show-markup-3faf8a07-26ed-4b76-b6a0-43cca013e6d3)
+      [Reference link](https://support.microsoft.com/en-us/office/video-track-changes-and-show-markup-3faf8a07-26ed-4b76-b6a0-43cca013e6d3)
 
 #### Q60. You want to set a wider inside margin to accommodate binding a document where pages are printed on both sides. Which option should you choose in the Page Setup dialog box?
 
@@ -517,13 +518,12 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 
 [Reference](https://support.microsoft.com/en-us/topic/remove-hidden-data-and-personal-information-by-inspecting-documents-presentations-or-workbooks-356b7b5d-77af-44fe-a07f-9aa4d085966f#:~:text=Click%20File%20%3E%20Info%20%3E%20Remove%20Personal,from%20the%20document%20check%20box.)
 
-#### Q64. What chart type cannot be used for more than one data series? 
+#### Q64. What chart type cannot be used for more than one data series?
 
-- [x] Pie 
-- [ ] Column 
-- [ ] Line 
+- [x] Pie
+- [ ] Column
+- [ ] Line
 - [ ] Bar
-
 
 #### Q65. What is the difference between a footnote and an endnote?
 
@@ -531,7 +531,6 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] Footnote use Arabic numerals and endnotes use letters.
 - [x] A footnote is placed at the bottom of the page, and an endnote is placed at the end of the document
 - [ ] A footnote is placed in teh page footer and an endnote is placed on a blank page at the end of the document
-
 
 #### Q66. In the image below, where do you click to hide comments when a document prints?
 
@@ -542,11 +541,9 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] C
 - [ ] D
 
-
 #### Q67. Which page orientation should you select to accommodate a wide chart or table?
 
 - [ ] Tall
 - [x] Portrait
 - [ ] Wide
 - [ ] Landscape
-

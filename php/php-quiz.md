@@ -60,7 +60,7 @@ if ($email === false) {
 
 - [ ] &
 - [ ] %
-- [ ] _
+- [ ] \_
 - [x] $
 
 ##### Q7. What is a key difference between GET and POST?
@@ -70,7 +70,7 @@ if ($email === false) {
 - [ ] GET is intended for changing the server state and it carries more data than POST.
 - [ ] GET is more secure than POST and should be used for sensitive information.
 
-##### Q8. The __ operator is useful for sorting operations. It compares two values and returns an integer less than, equal to, or greater than 0 depending on whether on whether the value on the __ is less than, equal to, or greater than the other.
+##### Q8. The ** operator is useful for sorting operations. It compares two values and returns an integer less than, equal to, or greater than 0 depending on whether on whether the value on the ** is less than, equal to, or greater than the other.
 
 - [ ] greater-than; right
 - [x] spaceship; left
@@ -147,7 +147,7 @@ if ($email === false) {
 
 - [x] all of these answers
 - [ ] #This is a comment
-- [ ] /* This is a comment */
+- [ ] /_ This is a comment _/
 - [ ] // This is a comment
 
 ##### Q17. PHP supports multiple types of loops. If you wanted to loop through a block of code if and as long a specified condition is true, which type of loop would you use?
@@ -290,7 +290,7 @@ function process(...$vals) {
 - [ ] `class Unicorn implements Horse {}`
 - [ ] `class Horse inherits Unicorn {}`
 
-##### Q27. Both triple === and double == can be used to __ variables in php. If you want to hear that string "33" and the number 33 are equal, you would use __ . If you want to check if an array contains a particular string value at a particular index, you would use __
+##### Q27. Both triple === and double == can be used to ** variables in php. If you want to hear that string "33" and the number 33 are equal, you would use ** . If you want to check if an array contains a particular string value at a particular index, you would use \_\_
 
 - [x] compare; doubles; triples
 - [ ] compare; triples; doubles
@@ -306,20 +306,20 @@ function process(...$vals) {
 
 ##### Q29. Which is the way to create an array of "seasons"?
 
-- [ ] 
-  ```
-  seasons=array(
-      1=>'spring',
-      2=>'summer',
-      3=>'autumn',
-      4=>'winter',
-      );
-  ```
+- [ ] ````
+          seasons=array(
+              1=>'spring',
+              2=>'summer',
+              3=>'autumn',
+              4=>'winter',
+              );
+          ```
+      ````
 - [ ] `$seasons=array(spring,summer,autumn,winter);`
 - [ ] `$seasons=('spring','summer','autumn','winter');`
 - [x] `$seasons=['spring','summer','autumn','winter'];`
 
-##### Q30. Both `self` and `this` are keywords that can be used to refer to member variables of an enclosing class. The difference is that `$this->member` should be used for __ members and `self::$member` should be used for __ members.
+##### Q30. Both `self` and `this` are keywords that can be used to refer to member variables of an enclosing class. The difference is that `$this->member` should be used for ** members and `self::$member` should be used for ** members.
 
 - [ ] private, public
 - [ ] object,primitive
@@ -421,7 +421,7 @@ echo "No, mail is not set";
 - [ ] The opening and closing single quotes should be replaced by double quotes; and the apostrophe should be escaped by a backslash.
 - [x] The apostrophe needs to be escaped by a backslash to prevent it from being treated as the closing quote.
 
-##### Q42. A PDO object called `$db` has been set up to use for database operations, including user authentication. All user-related properties are set. The script line `public function __construct(&$db)` shows a constructor that initializes all user-related properties to __ if no user has logged in. These parameters will be properly set by the login functions when a user logs in.
+##### Q42. A PDO object called `$db` has been set up to use for database operations, including user authentication. All user-related properties are set. The script line `public function __construct(&$db)` shows a constructor that initializes all user-related properties to \_\_ if no user has logged in. These parameters will be properly set by the login functions when a user logs in.
 
 - [x] NULL
 - [ ] TRUE
@@ -492,26 +492,26 @@ echo "No, mail is not set";
 </books>
 ```
 
-- [ ] 
-  ```php
-  $books = simplexml_load_string('books.xml');
-  echo $books->book[0]->categories->category[1];
-  ```
-- [x] 
-  ```php
-  $books = simplexml_load_file('books.xml');
-  echo $books->book[0]->categories->category[1];
-  ```
-- [ ] 
-  ```php
-  $books = SimpleXMLElement('books.xml');
-  echo $books->book[0]->categories->category[1];
-  ```
-- [ ] 
-  ```php
-  $books = SimpleXML('books.xml');
-  echo $books->book[0]->categories->category[1];
-  ```
+- [ ] ````php
+          $books = simplexml_load_string('books.xml');
+          echo $books->book[0]->categories->category[1];
+          ```
+      ````
+- [x] ````php
+          $books = simplexml_load_file('books.xml');
+          echo $books->book[0]->categories->category[1];
+          ```
+      ````
+- [ ] ````php
+          $books = SimpleXMLElement('books.xml');
+          echo $books->book[0]->categories->category[1];
+          ```
+      ````
+- [ ] ````php
+          $books = SimpleXML('books.xml');
+          echo $books->book[0]->categories->category[1];
+          ```
+      ````
 
 ##### Q46. When it comes to the value of a variable, what is the difference between NULL and empty?
 
@@ -537,7 +537,7 @@ function doStuff($haystack, $needle) {
 - [x] `startsWith`
 - [ ] `contains`
 
-##### Q48. If you want to pass a formfield to another page when a button is clicked, you should use the __ . If you want to store information across multiple pages, you should use the __ ?
+##### Q48. If you want to pass a formfield to another page when a button is clicked, you should use the ** . If you want to store information across multiple pages, you should use the ** ?
 
 - [ ] request; response
 - [ ] response; request
@@ -600,18 +600,21 @@ isset($_POST['submit'])
 - [x] `$2times`
 
 #### Q54. Which command will extract the domain suffix ("com") from the string `$string = "https://cat-bounce.com";`?
+
 - [ ] `sub($string, -3)`
 - [x] `substr($string, -3)`
 - [ ] `substr($string, 3)`
 - [ ] `$string.substr(-3)`
 
 #### Q55. Where is PHP code executed?
+
 - [ ] in the client's browser
 - [ ] in the virtual machine
 - [ ] in the memory of the computer viewing the webpage
 - [x] on a web server
 
 #### Q56. Which is not a valid magic constant?
+
 - [x] `__RESOURCE__`
 - [ ] `__FUNCTION__`
 - [ ] `__CLASS__`

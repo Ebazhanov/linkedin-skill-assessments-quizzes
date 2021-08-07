@@ -885,12 +885,12 @@ class TaxCalculator {
 
 ```js
 const foo = {
-  bar(){
-    console.log("Hello, world!");
+  bar() {
+    console.log('Hello, world!');
   },
-  name: "Albert",
+  name: 'Albert',
   age: 26,
-}
+};
 ```
 
 - [ ] The function bar needs to be defined as a key/value pair.

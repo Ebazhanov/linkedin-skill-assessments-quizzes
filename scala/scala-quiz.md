@@ -92,7 +92,7 @@ val x = (1234, "Active")
 - [x] No, because for-yield shares the same scope, even though they are within separate curly braces.
 - [ ] Yes, because they are within different curly braces.
 
-**Example**: yield-body has access to the `e` variable from the for-body 
+**Example**: yield-body has access to the `e` variable from the for-body
 
 ```scala
 val a = Array(1, 2, 3, 4, 5)
@@ -165,7 +165,8 @@ val y = (math floor 3.1415 * 2)
 - [ ] Yes, val does not make arrays immutable.
 - [ ] No, val makes the array and values of the array immutable.
 
-**Explanation**: 
+**Explanation**:
+
 ```scala
 val a1 = Array(1, 2, 3)
 a1{1} = 3 // OK
@@ -349,7 +350,7 @@ myClass.foreach(println _)
 - [ ] They do the exact same thing
 - [ ] `==` won't work on objects
 - [ ] `==` cannot be applied to `String`
-- [x] `==` is a wrapper of `.equals()` and checks for nulls 
+- [x] `==` is a wrapper of `.equals()` and checks for nulls
 
 [Source:](https://www.programmersought.com/article/3717957705/)
 

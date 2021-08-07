@@ -289,7 +289,6 @@ VarA VarB VarA VarD
 - [ ] 3
 - [x] 0
 
-
 #### Q30. What does R return in response to the final statement?
 
 ```
@@ -298,23 +297,23 @@ names(x)<-letters[5:8]
 x
 ```
 
-- [ ] e   f   g   h
-    "5" "6" "7" "8"
+- [ ] e f g h
+      "5" "6" "7" "8"
 - [ ] 5 6 7 8
 - [ ] e f g h
-- [X] e f g h
-    5 6 7 8
-    
+- [x] e f g h
+      5 6 7 8
+
 #### Q31. How do you return "October" from x in this code?
 
 ```
 x<-as.Date("2018-10-01")
 ```
 
-- [ ]  attr()
-- [X] months(x)
-- [ ]  as.month(x)
-- [ ]  month(x)
+- [ ] attr()
+- [x] months(x)
+- [ ] as.month(x)
+- [ ] month(x)
 
 #### Q32. How will R respond to the last line of this code?
 
@@ -328,7 +327,7 @@ fact[2]<-"Ind"
 
 - [ ] >
 - [ ] [,2]Ind
-- [X] invalid factor level, NA generated
+- [x] invalid factor level, NA generated
 - [ ] Ind
 
 #### Q33. What does R return?
@@ -341,5 +340,5 @@ StopDate-StartDate
 
 - [ ] "1970-01-02"
 - [ ] time difference of one day
-- [X] time difference of two days
+- [x] time difference of two days
 - [ ] error in x-y: nonnumeric argument to binary operator

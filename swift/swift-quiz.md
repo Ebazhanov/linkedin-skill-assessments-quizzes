@@ -736,6 +736,7 @@ print(s1)
 - [ ] ["1", "2", "3"]
 
 #### Q65. What enumeration feature allows them to store case-specific data?
+
 (Question does not make that much sense though. )
 
 - [x] associated values
@@ -743,16 +744,14 @@ print(s1)
 - [ ] raw values
 - [ ] custom values
 
-#### Q66. In the code below, AOM must be a(n)____?
+#### Q66. In the code below, AOM must be a(n)\_\_\_\_?
 
 ```swift
 class AmP : MMM, AOM {
   }
 ```
-  
+
 - [ ] class
 - [x] protocol
 - [ ] enumeration
 - [ ] struct
-
-  

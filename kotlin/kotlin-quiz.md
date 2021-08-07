@@ -636,7 +636,7 @@ fun printStudents(vararg students: String) {
 
 - [ ] printStudents(students.toList())
 - [ ] printStudents(students!!)
-- [x] printStudents(*students)
+- [x] printStudents(\*students)
 - [ ] printStudents(students[])
 
 #### Q54. Both y and z are immutable references pointing to fixed-size collections of the same four integers. Are there any differences?
@@ -651,7 +651,7 @@ val z = listOf(10, 20, 30, 40)
 - [ ] You add more elements to z since it is a list.
 - [ ] You can modify the contents of the elements in z but not y.
 
-#### Q55. The code snippet compile and runs without issue, but does not wait for the coroutine to show the "there" message. Which line of code will cause the code to wait for the coroutine to finish before exiting?  
+#### Q55. The code snippet compile and runs without issue, but does not wait for the coroutine to show the "there" message. Which line of code will cause the code to wait for the coroutine to finish before exiting?
 
 ```kotlin
 fun main() = runBlocking {
@@ -714,7 +714,7 @@ println("The length of the quote is $quote.length")
 ```kotlin
 fun main() {
     val highScores = listOf(4000, 2000, 10200, 12000, 9030)
-	
+
 ```
 
 - [ ] .sortedByDescending()

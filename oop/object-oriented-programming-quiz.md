@@ -414,7 +414,7 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [x] The catch block that will be executed is the one that best matches the type of the exception thrown
 - [ ] Multiple catch blocks are not allowed with a single try.
 - [ ] Every catch block will run accordingly in a try.
-- [ ] 
+- [ ]
 
 #### Q56. There are five classes. Class E is derived from class D, D from C, C from B, and B from A. Which class constructor(s) will be called first if the object of E or D is created?
 
@@ -430,7 +430,7 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] Coupling. A solution is to refactor the code to be loosely coupled by using inversion of control and dependency injection.
 - [ ] Dependency. A solution is to implement polymorphism and abstraction to change and extract dependent elements of a module so that it functions on its own.
 
-#### Q58. __________ describes an aggregation
+#### Q58. ****\_\_**** describes an aggregation
 
 - [ ] A class of resources
 - [ ] A group of methods

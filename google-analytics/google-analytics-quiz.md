@@ -512,17 +512,16 @@
 - [ ] 80:00:00
 - [ ] 1:20:00
 
-#### Q72. You want to compare the revenue, top products, and average order value between people who viewed three or more pages on your site, to those who viewed fewer. What do you do? 
+#### Q72. You want to compare the revenue, top products, and average order value between people who viewed three or more pages on your site, to those who viewed fewer. What do you do?
 
 - [ ] Create a custom report where Page Depth is >/3 or Page Depth is <3. Toggle on Revenue, Top Products, and Average Order Value as Dimensions.
 - [ ] View the Product Performance report and add Page Depth as a secondary dimension. Create a table filter for Page Depth greater than 3 and Page Depth less than 3.
 - [x] Create a custom segment where Page Depth is >/3 and another segment where Page Depth is <3. Apply both segments while on the Ecommerce Overview report.
 - [ ] View the Ecommerce Overview report and create a table filter where Page Depth is >/3 or Page Depth is <3.
 
-#### Q73. If you wanted to create a user-defined metric to measure Revenue per User, what would you use? 
+#### Q73. If you wanted to create a user-defined metric to measure Revenue per User, what would you use?
 
 - [ ] ecommerce metrics
 - [ ] custom dimensions
 - [x] calculated metrics
 - [ ] custom metrics
-

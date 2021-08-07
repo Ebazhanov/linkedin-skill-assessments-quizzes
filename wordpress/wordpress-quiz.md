@@ -284,7 +284,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 - [ ] Manually delete suspicious files on the server and delete any database tables that are not core WordPress.
 - [ ] Change your hosting password, your WordPress admin password, and your database password.
 
-**Explanation**: It's not the cheapest, but it's the most reliable. Restoring the backup might not help if you have backdoor scripts installed outside of WP directory. 
+**Explanation**: It's not the cheapest, but it's the most reliable. Restoring the backup might not help if you have backdoor scripts installed outside of WP directory.
 
 #### Q34. If you wanted to register a custom post type, which hook would you use?
 
@@ -335,7 +335,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 - [ ] Do not output debug information.
 - [x] WordPress updates are accomplished manually only.
 
-**Explanation**: Communicating with WordPress.org is needed for detecting new versions.  
+**Explanation**: Communicating with WordPress.org is needed for detecting new versions.
 
 #### Q41. What's the primary difference between template tags prefaced with the* versus get_the*?
 
@@ -442,11 +442,13 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 #### Q52. According to WordPress PHP coding standards for inline comments, how would you write a single-line comment in a PHP document?
 
 - [x] `// This is a single line comment`
-- [ ] `````/*
-                * This is a single line comment.
-          	  */```
-          ````
-      `````
+- [ ] ```````/*
+                        * This is a single line comment.
+                  	  */```
+                  ````
+              `````
+          ``````
+      ```````
 - [ ] `// This is a single line comment.`
 - [ ] `<!-- This is a single line comment -->`
 

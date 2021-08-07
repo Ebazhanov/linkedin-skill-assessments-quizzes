@@ -282,6 +282,7 @@ Explanation: [OAuth Scopes](https://oauth.net/2/scope/)
 - [x] to retrieve an access token
 
 Explanation: [Understanding Refresh Tokens](https://auth0.com/learn/refresh-tokens/)
+
 #### Q39. What is Time to First Hello World?
 
 - [x] how long it takes for a developer to do something with your API

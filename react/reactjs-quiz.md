@@ -679,51 +679,55 @@ useEffect(() => {
 <Route path="/:id" />
 ```
 
-- [x] ``````````javascript
+- [x] ```````````javascript
       (
         <Route path="/:id">
           {' '}
           <About />
         </Route>
       )```
-                              ````
-                          `````;
+                                  ````
+                              `````;
       ``````;
       ```````
-              ````````
-          `````````;
-      ``````````
-- [ ] ``````````javascript
+                  ````````
+              `````````;
+      ``````````;
+      ```````````
+- [ ] ```````````javascript
       (<Route path="/tid" about={Component} />)```
-                              ````
-                          `````;
+                                  ````
+                              `````;
       ``````;
       ```````
-              ````````
-          `````````;
-      ``````````
-- [ ] ``````````javascript
+                  ````````
+              `````````;
+      ``````````;
+      ```````````
+- [ ] ```````````javascript
       (<Route path="/:id" route={About} />)```
-                              ````
-                          `````;
+                                  ````
+                              `````;
       ``````;
       ```````
-              ````````
-          `````````;
-      ``````````
-- [ ] ``````````javascript
+                  ````````
+              `````````;
+      ``````````;
+      ```````````
+- [ ] ```````````javascript
       (
         <Route>
           <About path="/:id" />
         </Route>
       )```
-                              ````
-                          `````;
+                                  ````
+                              `````;
       ``````;
       ```````
-              ````````
-          `````````;
-      ``````````
+                  ````````
+              `````````;
+      ``````````;
+      ```````````
 
 #### Q65. Which class-based component is equivalent to this function component?
 
@@ -731,52 +735,56 @@ useEffect(() => {
 const Greeting ({ name }) > <h1>Hello {name}!</h1>;
 ```
 
-- [ ] ``````````javascript
+- [ ] ```````````javascript
       class Greeting extends React.Component {
         constructor() {
           return <h1>Hello (this.props.name)!</h1>;
         }
       }
       ```
-                              ````
-                          `````;
+                                  ````
+                              `````;
       ``````;
       ```````
-              ````````
-          `````````;
-      ``````````
-- [x] ``````````javascript
-                                     class Greeting extends React.Component { <h1>Hello {this.props.name}!</h1>; }
-                                  ```
-                              ````
-                          `````
-                      ``````
-                  ```````
-              ````````
-          `````````
-      ``````````
-- [ ] ``````````javascript
-                                     class Greeting extends React.Component { return <h1>Hello (this.props.name) 1</h1>; }
-                                  ```
-                              ````
-                          `````
-                      ``````
-                  ```````
-              ````````
-          `````````
-      ``````````
-- [ ] ``````````javascript
-                                      class Greeting extends React.Component ( render({ name }) {
-                                        return <h1>Hello (name)} !</h1>;
-                                      })
-                                  ```
-                              ````
-                          `````
-                      ``````
-                  ```````
-              ````````
-          `````````
-      ``````````
+                  ````````
+              `````````;
+      ``````````;
+      ```````````
+- [x] ```````````javascript
+                                         class Greeting extends React.Component { <h1>Hello {this.props.name}!</h1>; }
+                                      ```
+                                  ````
+                              `````
+                          ``````
+                      ```````
+                  ````````
+              `````````
+          ``````````
+      ```````````
+- [ ] ```````````javascript
+                                         class Greeting extends React.Component { return <h1>Hello (this.props.name) 1</h1>; }
+                                      ```
+                                  ````
+                              `````
+                          ``````
+                      ```````
+                  ````````
+              `````````
+          ``````````
+      ```````````
+- [ ] ```````````javascript
+                                          class Greeting extends React.Component ( render({ name }) {
+                                            return <h1>Hello (name)} !</h1>;
+                                          })
+                                      ```
+                                  ````
+                              `````
+                          ``````
+                      ```````
+                  ````````
+              `````````
+          ``````````
+      ```````````
 
 #### Q66. Give the code below, what does the second argument that is sent to the render function describe?
 
@@ -826,10 +834,7 @@ useEffect(() => {
 #### Q70. Given the code below, what does the second argument that is sent to the render function describe?
 
 ```javascript
-ReactDOM.render(
-  <h1>Hi</h1>,
-  document.getElementById('root')
-);
+ReactDOM.render(<h1>Hi</h1>, document.getElementById('root'));
 ```
 
 - [x] where the React element should be added to the DOM

@@ -11,4 +11,5 @@
 - after your PR is merged, you will be automatically become a contributor and will be appeared in the Readme.md as the contributor.
 
 ## PLEASE
+
 add explanation (`or reference link`) to your answers. That will help anyone to better learn concepts they might not have a great understanding about.

@@ -471,6 +471,7 @@ export class ToolsComponent {
 [Reference (angular.io)](https://angular.io/api/router/Router#navigate)
 
 #### Q33. When a service is provided for root and is also added to the provider's configuration for a lazy-loaded module, what instance of that service does the
+
 injector provide to constructors in the lazy-loaded module?
 
 - [ ] A new instance of that service is created when the module is lazy loaded.
@@ -481,18 +482,18 @@ injector provide to constructors in the lazy-loaded module?
 #### Q34. What is the HostBinding decorator doing in this directive?
 
 ```javascript
-@Directive ({
- selector: ' [appHighlight] '
+@Directive({
+  selector: ' [appHighlight] ',
 })
 export class HighlightDirective {
- @HostBinding('class.highlighted') highlight = true;
+  @HostBinding('class.highlighted') highlight = true;
 }
 ```
 
 - [ ] It is adding the CSS class named highlighted to any DOM element that has the appHighlight directive on it.
 - [ ] HostBinding does not do anything on directives, only on components.
 - [ ] It is specifying if the host element gets the highlighted class added to its class attribute, then the directive class field highlight will get set to
-  true; and if it is not added on the host it will get set to false.
+      true; and if it is not added on the host it will get set to false.
 - [ ] It is creating an inline style on the host element with a CSS property named highlight set to true.
 
 #### Q35. In reactive forms, what Angular form class type is used on the native DOM <form> element to wire it up?
@@ -503,6 +504,7 @@ export class HighlightDirective {
 - [ ] `all of these answers`
 
 #### Q36. Assuming the username FormControl has been configured with a minLength validator, how can you set up an error display in the following reactive
+
 forms markup for the username field?
 
 ```html
@@ -512,25 +514,25 @@ forms markup for the username field?
 </form>
 ```
 
-- []      
+- []
 
 ```javascript
     <span *ngIf="username.minLength.invalid"›
         Username length is not valid
     </span>
-``` 
+```
 
 - [ ]
-  
+
 ```javascript
 <input type="text" formControlName="username" [showMinLength]="true"›
 ```
 
 - [ ]
-  
+
 ```javascript
-    <span *ngIf="form.get('username').getError('minLength') as minLengthError"> 
-      Username must be at least {{ minLengthError.requiredLength }} characters. 
+    <span *ngIf="form.get('username').getError('minLength') as minLengthError">
+      Username must be at least {{ minLengthError.requiredLength }} characters.
     </span>
 ```
 
@@ -539,7 +541,7 @@ forms markup for the username field?
 ```javascript
 <input type="text" formControlName="username" #userName="ngModer>
     <span *ngIf="userName.errors.minlength"›
-      Username must be at least {{ userName.errors.minlength.requiredLength }} characters. 
+      Username must be at least {{ userName.errors.minlength.requiredLength }} characters.
     </span>
 ```
 
@@ -554,7 +556,7 @@ forms markup for the username field?
 
 ```javascript
 TestBed.configureTestingModule({
- declarations: [ UserCardComponent ]
+  declarations: [UserCardComponent],
 });
 let fixture = TestBed.createComponent(UserCardComponent);
 ```
@@ -562,8 +564,7 @@ let fixture = TestBed.createComponent(UserCardComponent);
 - [ ] `fixture.componentTemplate`
 - [ ] `fixture.getComponentHtml()`
 - [ ] `fixture.nativeElement`
-- [ ] `fixture.componentInstance.template
-  `
+- [ ] `fixture.componentInstance.template `
 
 #### Q39. Given these two components, what will get rendered to the DOM based on the markup usage?
 
@@ -584,28 +585,28 @@ export class BioComponent { }
 <app-card><app-bio>Been around for four years.</app-bio></app-card>
 ```
 
-- [ ] 
-  
+- [ ]
+
 ```javascript
  <app-card>
   <h1>Data Card</hl>
   <app-bio>
    Been around for four years.
-  </app-bio> 
+  </app-bio>
  </app-card>
 ```
 
 - [ ]
-  
+
 ```javascript
 <h1>Data Card</h1>
  <app-bio>
-  Been around for four years. 
+  Been around for four years.
  </app-bio>
 ```
 
 - [ ]
-  
+
 ```javascript
 <app-card>
   <h1>Data Card</hl>
@@ -613,7 +614,7 @@ export class BioComponent { }
   <app-bio>
    Been around for four years.
    <ng-content></ng-content>
-  </app-bio> 
+  </app-bio>
 </app-card>
 ```
 
@@ -621,7 +622,7 @@ export class BioComponent { }
 
 ```javascript
 <app-card>
-  <h1>Data Card</hl> 
+  <h1>Data Card</hl>
 </app-card>
 ```
 
@@ -634,45 +635,46 @@ export class BioComponent { }
 })
 
 @Component({
-   selector: 'app-title-card', 
+   selector: 'app-title-card',
    template: '<h1>User Data</hl>'
 })
 
-// usage of user card component in parent component html 
+// usage of user card component in parent component html
 <app-user-card></app-user-card>
 ```
 
-- [ ] 
+- [ ]
 
 ```javascript
 <app-user-card>
-    <app-title-card>
-     <h1>User Data</h1> 
-    </app-title-card> 
-    <p>genny Smith</p>
+  <app-title-card>
+    <h1>User Data</h1>
+  </app-title-card>
+  <p>genny Smith</p>
 </app-user-card>
 ```
+
 - [ ]
 
 ```javascript
-<h1>User Data</h1> 
+<h1>User Data</h1>
 <p>Jenny Smith<p>
-```  
+```
 
 - [ ]
 
 ```javascript
 <app-user-card>
-    <app-title-card></app-title-card> 
+  <app-title-card></app-title-card>
 </app-user-card>
-```  
+```
 
 - [ ]
 
 ```javascript
 <div app-user-card>
-    <h1 app-title-card>User Data</h1> 
-    <p>Jenny Smith</p>
+  <h1 app-title-card>User Data</h1>
+  <p>Jenny Smith</p>
 </div>
 ```
 
@@ -682,26 +684,22 @@ export class BioComponent { }
 constructor(@Inject('Logger') private logger) { }
 ```
 
-- [ ] 
-  
+- [ ]
+
 ```javascript
-providers: [ 
-    Logger
-]
+providers: [Logger];
 ```
 
 - [ ]
-  
+
 ```javascript
-providers: [
-    { provide: 'Logger', useClass: Logger }
-]
+providers: [{ provide: 'Logger', useClass: Logger }];
 ```
 
 - [ ]
-  
+
 ```javascript
-@Injectable({ 
+@Injectable({
     providedln: 'root'
 })
 ```
@@ -709,15 +707,13 @@ providers: [
 - [ ]
 
 ```javascript
-providers: [
-    { provide: 'Logger' }
-]
+providers: [{ provide: 'Logger' }];
 ```
 
 #### Q42. Which choice best describes the following usage of the HttpClient . get method in the getsettings class method?
 
 ```javascript
-export class SettingsService {  
+export class SettingsService {
     constructor(private httpClient: HttpClient) { }
     ...
 
@@ -730,9 +726,7 @@ getSettings()
 }}
 ```
 
-- [ ] The RxJs pipe method is an alias for the subscribe method, so a call to `getSettings` will execute the get query. The retry operator is used to tell  
-  the pipe call to retry the get query three times.
+- [ ] The RxJs pipe method is an alias for the subscribe method, so a call to `getSettings` will execute the get query. The retry operator is used to tell the pipe call to retry the get query three times.
 - [ ] It will produce an error at runtime because the pipe method is not available off of the `Httpclient.get` call.
-- [ ] Every single call to the getSettings method will result in the Httpclient making three total get requests to the settingsUrl, which is not ideal  
-  because there will always be two extra calls that are not needed. The retry operator should not be used in this manner.
+- [ ] Every single call to the getSettings method will result in the Httpclient making three total get requests to the settingsUrl, which is not ideal because there will always be two extra calls that are not needed. The retry operator should not be used in this manner.
 - [ ] When the result of the getSettings method is subscribed to, the HTTP GET call will be made; if it fails, it will be retried up to three times before it gives up and returns an error.

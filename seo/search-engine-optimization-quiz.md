@@ -51,30 +51,34 @@
 
 #### Q8. You want to block crawlers from accessing your entire website. What robots.txt entry would you use?
 
-- [ ] `````markdown
-              User-agent: Allbots
-              Disallow: \*
-              ```
-          ````
-      `````
-- [ ] `````markdown
-              User-agent: /
-              Disallow: \*
-              ```
-          ````
-      `````
-- [ ] `````markdown
-              User-agent: /
-              Disallow:
-              ```
-          ````
-      `````
-- [x] `````markdown
-              User-agent: \*
-              Disallow: /
-              ```
-          ````
-      `````
+- [ ] ``````markdown
+                  User-agent: Allbots
+                  Disallow: \*
+                  ```
+              ````
+          `````
+      ``````
+- [ ] ``````markdown
+                  User-agent: /
+                  Disallow: \*
+                  ```
+              ````
+          `````
+      ``````
+- [ ] ``````markdown
+                  User-agent: /
+                  Disallow:
+                  ```
+              ````
+          `````
+      ``````
+- [x] ``````markdown
+                  User-agent: \*
+                  Disallow: /
+                  ```
+              ````
+          `````
+      ``````
 
 #### Q9. Which results is most likely if you use an interstitial pop-up that requires a user to take action before you load the content of the page?
 
@@ -142,46 +146,50 @@
 
 #### Q18. Which choice represents the best header structure?
 
-- [ ] `````markdown
-              H1: How to Bak Bagels
-              H2: Ingredients
-              H3: Dry Ingredients
-              H4: Wet Ingredients
-              H2: Instructions
-              H6: Reviews
-              ```
-          ````
-      `````
-- [ ] `````markdown
-              H1: How to Bak Bagels
-              H1: Ingredients
-              H1: Dry Ingredients
-              H1: Wet Ingredients
-              H1: Instructions
-              H2: Reviews
-              ```
-          ````
-      `````
-- [ ] `````markdown
-              H1: How to Bak Bagels
-              H2: Ingredients
-              H3: Dry Ingredients
-              H3: Wet Ingredients
-              H2: Instructions
-              H2: Reviews
-              ```
-          ````
-      `````
-- [x] `````markdown
-              H1: How to Bak Bagels
-              H2: Ingredients
-              H4: Dry Ingredients
-              H5: Wet Ingredients
-              H6: Instructions
-              H1: Reviews
-              ```
-          ````
-      `````
+- [ ] ``````markdown
+                  H1: How to Bak Bagels
+                  H2: Ingredients
+                  H3: Dry Ingredients
+                  H4: Wet Ingredients
+                  H2: Instructions
+                  H6: Reviews
+                  ```
+              ````
+          `````
+      ``````
+- [ ] ``````markdown
+                  H1: How to Bak Bagels
+                  H1: Ingredients
+                  H1: Dry Ingredients
+                  H1: Wet Ingredients
+                  H1: Instructions
+                  H2: Reviews
+                  ```
+              ````
+          `````
+      ``````
+- [ ] ``````markdown
+                  H1: How to Bak Bagels
+                  H2: Ingredients
+                  H3: Dry Ingredients
+                  H3: Wet Ingredients
+                  H2: Instructions
+                  H2: Reviews
+                  ```
+              ````
+          `````
+      ``````
+- [x] ``````markdown
+                  H1: How to Bak Bagels
+                  H2: Ingredients
+                  H4: Dry Ingredients
+                  H5: Wet Ingredients
+                  H6: Instructions
+                  H1: Reviews
+                  ```
+              ````
+          `````
+      ``````
 
 #### Q19. All byline dates articles are suddenly no longer visible on a website's listing within Google Search. Assuming no changes have been made to the site programming or content, what is the most likely cause?
 
@@ -377,30 +385,34 @@
 
 #### Q44. You want to block crwlers from accessing your entire website. What robots.txt entry would you use?
 
-- [ ] `````
-                 User-agent: Allbots
-                 Disallow: *
-              ```
-          ````
-      `````
-- [ ] `````
-                 User-agent: /
-                 Disallow: *
-              ```
-          ````
-      `````
-- [ ] `````
-                 User-agent: *
-                 Disallow:
-              ```
-          ````
-      `````
-- [x] `````
-                 User-agent: *
-                 Disallow: /
-              ```
-          ````
-      `````
+- [ ] ``````
+                     User-agent: Allbots
+                     Disallow: *
+                  ```
+              ````
+          `````
+      ``````
+- [ ] ``````
+                     User-agent: /
+                     Disallow: *
+                  ```
+              ````
+          `````
+      ``````
+- [ ] ``````
+                     User-agent: *
+                     Disallow:
+                  ```
+              ````
+          `````
+      ``````
+- [x] ``````
+                     User-agent: *
+                     Disallow: /
+                  ```
+              ````
+          `````
+      ``````
 
 #### Q45. What is the relationship of click depth to PageRank?
 
@@ -447,14 +459,14 @@
 #### Q51. What alt attribute should be assigned to an image of a decorative line being used to separate content
 
 - [x] alt=""
-- [ ] alt="Thin black line being used to seperate two blocks of content" 
+- [ ] alt="Thin black line being used to seperate two blocks of content"
 - [ ] alt="dec"
 - [ ] alt="thin-line"
 
 #### Q52. Your site serves identical content when you visit domain.com/page or domain.com/page?ref=123. What should you implement?
 
 - [ ] parameter stripping
-- [ ] URL cloaking 
+- [ ] URL cloaking
 - [ ] a 302 redirect
 - [x] a rel=canonical link
 

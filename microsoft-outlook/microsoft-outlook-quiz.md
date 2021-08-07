@@ -482,5 +482,3 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Open the Deleted Items folder.
 - [ ] Open your computer's Recycle Bin (Windows) or Trash (Mac).
 - [ ] Click the Undo button.
-
-

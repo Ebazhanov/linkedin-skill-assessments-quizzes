@@ -268,7 +268,7 @@
 - [ ] JobTracker
 - [x] YARN
 
-### Q39. In MapReduce, _______ have ____
+### Q39. In MapReduce, **\_\_\_** have \_\_\_\_
 
 - [ ] tasks; jobs
 - [ ] jobs; activities
@@ -282,7 +282,7 @@
 - [ ] operating system
 - [ ] productivity tool
 
-### Q41. If no reduction is desired, you should set the numbers of ____ tasks to zero
+### Q41. If no reduction is desired, you should set the numbers of \_\_\_\_ tasks to zero
 
 - [ ] combiner
 - [x] reduce
@@ -296,14 +296,14 @@
 - [ ] combiner
 - [x] counter
 
-### Q43. ____ is the query language, and ____ is storage for NoSQL on Hadoop
+### Q43. \_**\_ is the query language, and \_\_** is storage for NoSQL on Hadoop
 
 - [ ] HDFS; HQL
 - [x] HQL; HBase
 - [ ] HDFS; SQL
 - [ ] SQL; HBase
 
-### Q44. MapReduce 1.0 ___ YARN
+### Q44. MapReduce 1.0 \_\_\_ YARN
 
 - [x] does not include
 - [ ] is the same thing as
@@ -311,6 +311,7 @@
 - [ ] replaces
 
 ### Q45. Which type of Hadoop node executes file system namespace operations like opening, closing, and renaming files and directories?
+
 - [ ] ControllerNode
 - [ ] DataNode
 - [ ] MetadataNode
@@ -324,9 +325,10 @@
 - [ ] Pig
 
 ### Q47 Suppose you are trying to finish a Pig script that converts text in the input string to uppercase. What code is needed on line 2 below?
-	1 data = LOAD '/user/hue/pig/examples/data/midsummer.txt'...
-	2
-	
+
+    1 data = LOAD '/user/hue/pig/examples/data/midsummer.txt'...
+    2
+
 - [ ] as (text:CHAR[]); upper_case = FOREACH data GENERATE org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);
 - [x] as (text:CHARARRAY); upper_case = FOREACH data GENERATE org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);
 - [ ] as (text:CHAR[]); upper_case = FOREACH data org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);
@@ -346,16 +348,16 @@
 - [ ] mapreduce.job.ubertask.maxbytes in mapred-site.xml
 - [ ] hdfs.block.size in hdfs-site.xml
 
-### Q50. Hadoop systems are ______ RDBMS systems.
+### Q50. Hadoop systems are **\_\_** RDBMS systems.
 
 - [ ] replacements for
 - [ ] not used with
 - [ ] substitutes for
-- [x] additions for 
+- [x] additions for
 
 ### Q51. Which object can be used to distribute jars or libraries for use in MapReduce tasks?
 
 - [x] distributed cache
 - [ ] library manager
 - [ ] lookup store
-- [ ] registry 
+- [ ] registry

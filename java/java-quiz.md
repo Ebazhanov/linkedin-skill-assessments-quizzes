@@ -317,7 +317,7 @@ System.out.print("apple".compareTo("banana"));
 - [x] `names.sort(List.DESCENDING)`
 - [ ] `names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())`
 
-#### Q21. By implementing encapsulation, you cannot directly access the class's __ properties unless you are writing code inside the class itself.
+#### Q21. By implementing encapsulation, you cannot directly access the class's \_\_ properties unless you are writing code inside the class itself.
 
 - [x] private
 - [ ] protected
@@ -375,7 +375,7 @@ class Main {
 public class Jedi {
   /* Constructor A */
   Jedi(String name, String species){}
-  
+
   /* Constructor B */
   Jedi(String name, String species, boolean followsTheDarkSide){}
   }
@@ -1095,7 +1095,7 @@ public class Duck {
 
 #### Q79. Which operator is used to concatenate Strings in Java
 
-- [x] +
+- [x] -
 - [ ] &
 - [ ] .
 - [ ] -
@@ -1218,7 +1218,7 @@ class Main {
 class Main {
   public static void main(String[] args) {
     StringBuilder sb = new StringBuilder("hello");
-    sb.deleteCharAt(0).insert(0, "H")." World!"; 
+    sb.deleteCharAt(0).insert(0, "H")." World!";
     System.out.println(sb);
   }
 }
@@ -1240,6 +1240,7 @@ class TaxCalculator {
   }
 }
 ```
+
 - [x] TaxCalculator.calculate(50);
 - [ ] new TaxCalculator.calculate(50);
 - [ ] calculate(50);

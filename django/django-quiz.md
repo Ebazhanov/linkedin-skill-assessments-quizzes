@@ -457,6 +457,7 @@ model=Planet
 - [x] Repeat Yourself
 
 #### Q50. What is the result of this template code?
+
 ```
 {{"live long and prosper"|truncate:3}}
 ```
@@ -467,10 +468,11 @@ model=Planet
 - [ ] liv
 
 #### Q51. When does this code load data into memory?
+
 ```
 1 sandwiches = Sandwich.objects.filter(is_vegan=True)
 2 for sandwich in sandwiches:
-3   print(sandwich.name + " - " + sandwich.spice_level) 
+3   print(sandwich.name + " - " + sandwich.spice_level)
 ```
 
 - [ ] line 1

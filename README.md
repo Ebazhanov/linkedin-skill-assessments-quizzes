@@ -95,15 +95,6 @@ if you want to meet each other or discuss quiz related problems join the `Discor
 | [WordPress](wordpress/wordpress-quiz.md)                                     |                                                                                                                                                                                      | => 55 questions | => 39 answers | [@ruslanbes](https://github.com/ruslanbes)                                                                  |
 | [XML](xml/xml-quiz.md)                                                       |                                                                                                                                                                                      | => 21 questions | => 19 answers | [@ruslanbes](https://github.com/ruslanbes)                                                                  |
 
-## Format
-
-We recommend formatting files using [Prettier](https://prettier.io/) code formatter. Prettier comes installed with the IDE [Vscode](code.visualstudio.com) which we recommend for preparing the md files. It works on all OS.
-If you want to run it independently, get **npm** and:
-
-```sh
-npm run format
-```
-
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):

@@ -416,11 +416,11 @@ NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Repor
 - [ ] `<xsl:sort select="car" />`
 - [ ] `<xsl:sort select="price" />`
 
-**Explanation**: A trick question. The [`<xsl:sort>`](https://www.w3schools.com/xml/ref_xsl_el_sort.asp) will sort the output in ascending (alphabetical for strings) order by default. The `select` tells which tag to use for sorting. 
+**Explanation**: A trick question. The [`<xsl:sort>`](https://www.w3schools.com/xml/ref_xsl_el_sort.asp) will sort the output in ascending (alphabetical for strings) order by default. The `select` tells which tag to use for sorting.
 
-* If we use `select="make"` or `select="year"` we get the order `Cadillac, Ford, Mercedes`
-* If we use `select="price"` we get `Ford, Cadillac, Mercedes`
-* And finally with `select="model"` we get `Mercedes, Cadillac, Ford`
+- If we use `select="make"` or `select="year"` we get the order `Cadillac, Ford, Mercedes`
+- If we use `select="price"` we get `Ford, Cadillac, Mercedes`
+- And finally with `select="model"` we get `Mercedes, Cadillac, Ford`
 
 #### Q34. What is the correct syntax for comments in XQuery?
 

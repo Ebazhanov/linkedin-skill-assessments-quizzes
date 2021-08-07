@@ -1031,17 +1031,17 @@ $('ul > li:first-child');
 
 ```html
 <ul class="clickable-list">
-    <li>First Item</li>
-    <li>Second Item</li>
-    <li>Third Item</li>
-    <li>Fourth Item</li>
-    <li>Fifth Item</li>
+  <li>First Item</li>
+  <li>Second Item</li>
+  <li>Third Item</li>
+  <li>Fourth Item</li>
+  <li>Fifth Item</li>
 </ul>
 ```
 
 ```js
 function listResponder(evt) {
-    console.log('You clicked a list item that says', evt.target.innerText);
+  console.log('You clicked a list item that says', evt.target.innerText);
 }
 ```
 
@@ -1072,11 +1072,13 @@ function listResponder(evt) {
 ```
 
 - [ ]
+
 ```
 $('.ball--green').fadeIn(3000, function(){
     console.log("Animation is done!");
 });
 ```
+
 - [ ]
 
 ```
@@ -1084,7 +1086,6 @@ $('.ball--green').fade('in',3000).done(function(){
     console.log("Animation is done!");
 });
 ```
-
 
 - [ ]
 
@@ -1117,11 +1118,11 @@ $(document).trigger('myCustomEvent');
 - [ ] `It is easier to write documentation for custom events than it is for helper functions`
 
 #### Q61. In the HTML and JavaScript below, the animations will all fire at once. How can you make them fire in sequence instead?
+
 ```html
 <div id="element-1" class="animel"></div>
 <div id="element-2" class="animel"></div>
 <div id="element-3" class="animel"></div>
-
 
 $('#element-1').animate({ top: '+=100' }); $('#element-2').animate({ top: '+=100' });
 $('#element-3').animate({ top: '+=100' });
@@ -1136,7 +1137,6 @@ $('element-1').animate({ top: '+=100' })
     .pushStack('#element-3').animate({ top: '+=100' })
 ```
 
-
 - [ ]
 
 ```
@@ -1146,7 +1146,6 @@ $('element-1').animate({ top: '+=100' }, function() {
     })
 });
 ```
-
 
 - [ ]
 

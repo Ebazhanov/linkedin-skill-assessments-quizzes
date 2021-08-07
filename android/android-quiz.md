@@ -776,7 +776,7 @@ xml
 - [x] developmentDebug.
 - [ ] stagingDebug.
 - [ ] stagingRelease.
-	
+
 [Reference](https://developer.android.com/studio/build/build-variants#flavor-dimensions)
 
 #### Q49. When should you use the androidTest directory to store your test classes?
@@ -785,7 +785,7 @@ xml
 - [ ] when the number of tests to run is large(500+).
 - [ ] when the tests need to run on your local machine.
 - [x] when the tests need to run on real or virtual devices.
-	
+
 [reference](https://developer.android.com/studio/test#test_types_and_location)
 
 #### Q50. Given an APK named app-internal-debug.apk produced from the build process, which statement is likely to be true?
