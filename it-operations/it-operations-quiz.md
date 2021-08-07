@@ -9,13 +9,15 @@
   - Set network security.
   - Set network password.
 
-- [ ] - Reset administrator password.
+- [ ]
+  - Reset administrator password.
   - Set network name.
   - Set network password.
 - [ ] - Set network name.
   - Set network password.
   - Assign DNS servers.
-- [ ] - Change administrator account name.
+- [ ]
+  - Change administrator account name.
   - Set network password.
   - Set network name.
   - Assign DNS servers.
@@ -51,14 +53,14 @@
 #### Q6. Assuming that the gateway, modem, and switch are separate units, in what order should a small office or home office LAN be restarted?
 
 - [ ] The order is not important.
-- [x]         1. Modem
-              2. Gateway
-              3. Switch
-- [ ]         1. Modem
-              2. Switch
-              3. Gateway
-- [ ]         1. Gateway
-              2. Switch
+- [x]        1. Modem
+             2. Gateway
+             3. Switch
+- [ ]        1. Modem
+             2. Switch
+             3. Gateway
+- [ ]        1. Gateway
+             2. Switch
 
 #### Q7. A client needs to secure their cafe's wireless network, which is used only by employees. What is the best approach for a finite list of devices?
 
@@ -83,27 +85,27 @@
 
 #### Q10. Which components are typically found on the motherboard?
 
-- [x]      basic I/O
-           graphics
-           NIC
-           battery
-           expansion slots
+- [x]              basic I/O
+                   graphics
+                   NIC
+                   battery
+                   expansion slots
 
-- [ ]      basic I/O
-           cooling
-           NIC
-           graphics
-           expansion slots
-- [ ]      basic I/O
-           graphics
-           NIC
-           mass storage
-           expansion slots
-- [ ]      basic I/O
-           graphics
-           NIC
-           power supply
-           expansion slots
+- [ ]              basic I/O
+                   cooling
+                   NIC
+                   graphics
+                   expansion slots
+- [ ]              basic I/O
+                   graphics
+                   NIC
+                   mass storage
+                   expansion slots
+- [ ]              basic I/O
+                   graphics
+                   NIC
+                   power supply
+                   expansion slots
 
 #### Q11. What does the acronym RAID refer to?
 

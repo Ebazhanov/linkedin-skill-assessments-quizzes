@@ -466,7 +466,7 @@ D. Because you cannot create a search folder for a subfolder
 
 - [ ] Words found in the message itself.
 - [ ] Who sent the email.
-- [ ] Attachements.
+- [ ] Attachments.
 - [ ] Where the email was sent from.
 
 #### Q65. You have 15 folders, one of each of your projects. How can you make your most frequently used folders more accessible?

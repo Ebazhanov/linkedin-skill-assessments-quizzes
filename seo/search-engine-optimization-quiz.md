@@ -383,38 +383,33 @@
 
 #### Q44. You want to block crwlers from accessing your entire website. What robots.txt entry would you use?
 
-- [ ] ```````
-                         User-agent: Allbots
-                         Disallow: *
-                      ```
-                  ````
-              `````
-          ``````
-      ```````
-- [ ] ```````
-                         User-agent: /
-                         Disallow: *
-                      ```
-                  ````
-              `````
-          ``````
-      ```````
-- [ ] ```````
-                         User-agent: *
-                         Disallow:
-                      ```
-                  ````
-              `````
-          ``````
-      ```````
-- [x] ```````
-                         User-agent: *
-                         Disallow: /
-                      ```
-                  ````
-              `````
-          ``````
-      ```````
+- [ ]
+
+```
+    User-agent: Allbots
+    Disallow: *
+```
+
+- [ ]
+
+```
+    User-agent: /
+    Disallow: *
+```
+
+- [ ]
+
+```
+    User-agent: *
+    Disallow:
+```
+
+- [x]
+
+```
+    User-agent: *
+    Disallow: /
+```
 
 #### Q45. What is the relationship of click depth to PageRank?
 

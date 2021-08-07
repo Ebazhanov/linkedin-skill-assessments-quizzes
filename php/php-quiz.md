@@ -306,16 +306,17 @@ function process(...$vals) {
 
 ##### Q29. Which is the way to create an array of "seasons"?
 
-- [ ] `````
-              seasons=array(
-                  1=>'spring',
-                  2=>'summer',
-                  3=>'autumn',
-                  4=>'winter',
-                  );
-              ```
-          ````
-      `````
+- [ ]
+
+```
+seasons=array(
+    1=>'spring',
+    2=>'summer',
+    3=>'autumn',
+    4=>'winter',
+);
+```
+
 - [ ] `$seasons=array(spring,summer,autumn,winter);`
 - [ ] `$seasons=('spring','summer','autumn','winter');`
 - [x] `$seasons=['spring','summer','autumn','winter'];`
