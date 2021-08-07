@@ -303,8 +303,8 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 
 - [ ] resolving the local name
 - [ ] blocking sites using iptables
-- [x] setting the hostname
-- [ ] configuring DNS name servers
+- [ ] setting the hostname
+- [x] configuring DNS name servers
 
 #### Q38. In an extended regular expression, you would use (pattern){3} to match three instances of the pattern. How would you match the same thing with an extended glob?
 
