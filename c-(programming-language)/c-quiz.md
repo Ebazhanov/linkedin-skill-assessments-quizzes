@@ -57,17 +57,16 @@ main()
 }
 ```
 
-- [x]     A is greater then B
+- [x]     ```
+          A is greater then B
           C is fun!
-
+          ```
 - [ ]
-  A is greater then B
-  B is greater then A
-  C is fun!
-
-- [ ]     A is greater then B
+  ` A is greater then B B is greater then A C is fun! `
+- [ ]     ```
+          A is greater then B
           B is greater then A
-
+          ```
 - [ ]     Nothing is printed on Screen
 
 #### Q3. What is the name for calling a function inside the same function?
