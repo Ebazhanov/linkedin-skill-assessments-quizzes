@@ -318,10 +318,10 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 #### Q42. How would you ensure a consistent appearance and placement across your slides even though the content might be different?
 
-- [x] Use fonts.
+- [ ] Use fonts.
 - [ ] Use styles.
 - [ ] Use bullet points.
-- [ ] Use layouts.
+- [x] Use layouts.
 
 #### Q43. How can you add icons to SmartArt?
 
