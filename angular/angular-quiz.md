@@ -730,3 +730,30 @@ getSettings()
 - [ ] It will produce an error at runtime because the pipe method is not available off of the `Httpclient.get` call.
 - [ ] Every single call to the getSettings method will result in the Httpclient making three total get requests to the settingsUrl, which is not ideal because there will always be two extra calls that are not needed. The retry operator should not be used in this manner.
 - [ ] When the result of the getSettings method is subscribed to, the HTTP GET call will be made; if it fails, it will be retried up to three times before it gives up and returns an error.
+
+#### Q43. When a service requires some setup to initialize its default state through a method, how can you make sure that said method is invoked before the service gets injected anywhere?
+
+- [ ] Put the logic of that service method into the service constructor instead.
+- [ ] Use a factory provider at the root AppModule level that depends on the service to call that service method.
+- [ ] it is not possible to do it at application start; you can do it only at a component level.
+- [ ] Instantiate an instance of the service at the global level (window scope) and then call that method.
+
+#### Q44. What statement best describes this usage of the TestBed?
+
+```javascript
+const spy = jasmine.createSpyObj('DataService', ['getUsersFromApi']);
+TestBed.configureTestingModule({
+  providers: [
+    UserService,
+    { provide: DataService, useValue: spy }
+  ]
+});
+const userService = TestBed.get(UserService);
+```
+- [ ] The TestBed is required anytime you want to make use of a spy object in a unit test for an Angular provider.
+- [ ] The TestBed is being used to test a component's view.
+- [ ] The TestBed scaffolds an NgModule with two providers and handles any dependeny injection. If any Angular class requests the DataService in its constructor, the TestBed will inject spy in that constructor.
+- [ ] The TestBed is configuring the test runner to tell it to only execute tests for the two providers listed in its providers array.
+All other tests be ignored, including tests that assert results against one of these providers and a non-defined provider.
+Although it will work when multiple providers in this configuration are asserted against in a single test.
+
