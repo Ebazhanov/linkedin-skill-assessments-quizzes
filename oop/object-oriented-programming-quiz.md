@@ -436,3 +436,10 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] A group of methods
 - [ ] A collection of objects
 - [ ] A list of children
+
+#### Q59. Which type of function can be used for polymorphism?
+
+- [x] virtual function
+- [ ] inline function
+- [ ] undefined function
+- [ ] private function
