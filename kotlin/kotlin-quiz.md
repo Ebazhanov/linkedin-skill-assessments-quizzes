@@ -721,3 +721,17 @@ fun main() {
 - [ ] .descending()
 - [x] .sortedDescending()
 - [ ] .sort("DESC")
+
+#### Q60. Your class has a property name that gets assigned later. You do not want it to be a nullable type. Using a delegate, how should you declare it?
+
+- [x] lateinit var name: String
+- [ ] var name: String by lazy
+- [ ] var name: String by Delegates.notNull()
+- [ ] var name: String? = null
+
+#### Q61. You want to know each time a class property is updated. If the new value is not within range, you want to stop the update. Which code snippet shows a built-in delegated property that can accomplish this?
+
+- [x] Delegates.vetoable()
+- [ ] Delegates.cancellable()
+- [ ] Delegates.observer()
+- [ ] Delegates.watcher()
