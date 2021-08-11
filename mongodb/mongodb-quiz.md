@@ -368,7 +368,7 @@
 
 - [ ] wireTiger mode
 - [ ] executionStats mode
-- [ ] queryPlanner mode
+- [x] queryPlanner mode
 - [ ] allPlansExecution mode
 
 #### Q54. What is the correct query to find all of the people who have a home phone number defined?
@@ -429,7 +429,7 @@
 
 #### Q62. What happens to a Replica set oplog if it runs out of memory?
 
-- [ ] `The oplog will be saved on one of the secondary servers.`
+- [x] `The oplog will be saved on one of the secondary servers.`
 - [ ] `The oplog is capped collection and can't run out of memory`
 - [ ] `The MongoDB instance will fail`
 - [ ] `The oplog will stop recording logging information`
@@ -444,7 +444,7 @@
 #### Q64. How can you view the execution performance statistics for a query?
 
 - [ ] `db.performance.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id:{city:"$city"}, number: {$sum: 1}}}, {$sort : {number: -1}}])`
-- [ ] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number:{$sum:1}}}, {$sort: {number:-1}}]).explain("executionStats")`
+- [x] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number:{$sum:1}}}, {$sort: {number:-1}}]).explain("executionStats")`
 - [ ] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group:{_id: {city: "$city"}, number: {$sum: 1}}}, {$sort: {number: -1}}]).explain()`
 - [ ] `db.members.aggregate([ {$match: {gender: """Female"""}}, {$group: {_id: {city: """$city"""}, number: {$sum:1}}}, {$sort: {number: -1}}]).number()`
 
