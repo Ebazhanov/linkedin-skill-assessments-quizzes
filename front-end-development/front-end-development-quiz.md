@@ -453,3 +453,12 @@ console.log(currencies);
 - [ ] map()
 - [ ] forEach()
 - [x] filter()
+
+#### Q48. The image below has float: left applied. Text wraps the float on the right and bottom. How would you force the second paragraph to start underneath the float, leaving a gap after the preceding paragraph? The image below has float: left applied. Text wraps the float on the right and bottom. How would you force the second paragraph to start underneath the float, leaving a gap after the preceding paragraph?
+
+![CSS clear](images/Q48.png?raw=true)
+
+- [ ] Apply `float: left`to the second paragraph.
+- [ ] Apply `clear: right` to the floated item.
+- [ ] Apply `clear: left`to the second paragraph.
+- [ ] Apply `clear: left`to the floated item.
