@@ -462,3 +462,10 @@ console.log(currencies);
 - [ ] Apply `clear: right` to the floated item.
 - [ ] Apply `clear: left` to the second paragraph.
 - [ ] Apply `clear: left` to the floated item.
+
+#### Q49. Which choice is not a result of invoking strict mode in JavaScript?
+
+- [x] It forces the writing of valid HTML and CSS.It forces the writing of valid HTML and CSS.
+- [ ] It prohibits some syntax likely to be defined in future versions of ECMAScript.
+- [ ] It eliminates some JavaScript silent errors by changing them to throw errors.
+- [ ] It fixes mistakes that make it difficult for JavaScript engines to perform optimizations.
