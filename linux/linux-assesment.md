@@ -379,3 +379,35 @@ sed -E 's/[a-Z]{4}/($)/'  textfile.txt
 - [ ] team.
 - [ ] netbond.
 - [ ] bond.
+
+#### Q48. What does this command string do?
+
+```bash
+find / -size -10K -exec ls -l {} \;
+```
+
+- [ ] It finds all files larger than 10k and long lists them using the ls command.
+- [ ] It finds all files of size 10k using ls -l and hands them off to the find command to display.
+- [ ] It finds all files in the / directory of size 10k and long lists them.
+- [x] It finds all files in the file system smaller than 10k and long lists them using the ls command.
+
+#### Q49. To change the priority of multiple swap partitions, which file would you edit?
+
+- [ ] /proc/swapiness
+- [x] /etc/fstab
+- [ ] /etc/mounts
+- [ ] /etc/swaps
+
+#### Q50. What would you type to list all systemd service unit files, whether they are enabled or not?
+
+- [ ] systemctl list-services.
+- [ ] chkconfig --list-all
+- [x] systemctl list-unit-files -at service
+- [ ] systemctl list-unit-files -t service
+
+#### Q51. You can set Linux group passwords using which command?
+
+- [x] gpasswd
+- [ ] passwd
+- [ ] editsam
+- [ ] grouppass
