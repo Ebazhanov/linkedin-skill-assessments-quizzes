@@ -125,12 +125,12 @@
 - [ ] 0
 - [ ] 5
 
-#### Q16. What's the primary difference between template tags prefaced with the* versus get_the*?
+#### Q16. What's the primary difference between template tags prefaced with the **versus get_the**?
 
-- [ ] Template tags prefaced with the\_ don't accept arguments.
-- [ ] Template tags prefaced with the\_ can be used directly within a template.
-- [ ] Template tags prefaced with the\_ display a value. Template tags prefaced with get_the return a value.
-- [ ] Template tags prefaced with the\_ return a value. Template tags prefaced with get_the display a value.
+- [ ] Template tags prefaced with the \_ don't accept arguments.
+- [ ] Template tags prefaced with the \_ can be used directly within a template.
+- [ ] Template tags prefaced with the \_ display a value. Template tags prefaced with get_the return a value.
+- [ ] Template tags prefaced with the \_ return a value. Template tags prefaced with get_the display a value.
 
 #### Q17. WP_Query is the WordPress query class that is used to fetch posts from the database. How would you create a new instance of this class?
 
@@ -171,7 +171,8 @@
 
 - [ ] .
 
-```$.ready(function() {
+```
+$.ready(function() {
 // do stuff
 });
 ```
@@ -255,7 +256,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 - [ ] Access site files via FTP and navigate to /wp-content/plugins/. Delete the folder of the plugin that you would like to disable or simply rename it.
 - [ ] Use phpMyAdmin to change the wp_options table's active_plugins option value to a:0:{}.
 
-#### Q30. The WordPress REST API is designed to receive and respond to particular types of requests using basic HTML methods. For example, a request to upload a PHP file into a particular folder on a server might look like the code POST /folder/\_file.php. Based on this code, what would you call /folder/\_file.php (in REST API terms)?
+#### Q30. The WordPress REST API is designed to receive and respond to particular types of requests using basic HTML methods. For example, a request to upload a PHP file into a particular folder on a server might look like the code POST `/folder/_file.php`. Based on this code, what would you call /folder/\_file.php (in REST API terms)?
 
 - [ ] schema
 - [ ] route
@@ -279,9 +280,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 #### Q33. If your WordPress site is seriously compromised, what is the best course of action to return your site to good health?
 
 - [ ] Determine the date of the attack and restore your site to a backup point prior to that date.
-- [ ] Hire a third-party service to clean up your site because it is difficult for someone who is not a WordPress security expert to find and remove all traces of an attack.
+- [x] Hire a third-party service to clean up your site because it is difficult for someone who is not a WordPress security expert to find and remove all traces of an attack.
 - [ ] Manually delete suspicious files on the server and delete any database tables that are not core WordPress.
 - [ ] Change your hosting password, your WordPress admin password, and your database password.
+
+**Explanation**: It's not the cheapest, but it's the most reliable. Restoring the backup might not help if you have backdoor scripts installed outside of WP directory.
 
 #### Q34. If you wanted to register a custom post type, which hook would you use?
 
@@ -313,10 +316,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 #### Q38. How would you write a text string containing "Hello World!" in a way that makes it possible for someone else to translate the string into a different language?
 
-- [ ] apply_filters( 'Hello World!', 'mytextdomain' );
-- [x] \_\_( 'Hello World!', 'mytextdomain' );
-- [ ] \$string = "Hello World!";
-- [ ] esc_html( 'Hello World!', 'mytextdomain' );
+- [ ] `apply_filters( 'Hello World!', 'mytextdomain' );`
+- [x] `_( 'Hello World!', 'mytextdomain' );`
+- [ ] `\$string = "Hello World!";`
+- [ ] `esc_html( 'Hello World!', 'mytextdomain' );`
 
 #### Q39. What is the core mission of WordPress?
 
@@ -330,7 +333,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 - [ ] The site should communicate with WordPress.org.
 - [ ] Remove inactive themes.
 - [ ] Do not output debug information.
-- [ ] WordPress updates are accomplished manually only.
+- [x] WordPress updates are accomplished manually only.
+
+**Explanation**: Communicating with WordPress.org is needed for detecting new versions.
 
 #### Q41. What's the primary difference between template tags prefaced with the* versus get_the*?
 
@@ -392,8 +397,10 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 - [ ] RRR
 - [ ] WET
-- [ ] DRY
+- [x] DRY
 - [ ] KISS
+
+`DRY(Don't Repeat Yourself)`
 
 #### Q47. In a standard template file, how often does the WordPress Loop run?
 
@@ -402,12 +409,14 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] The Loop doesn't run in template files.
 - [ ] It runs once per fetched post.
 
-#### Q48. Which is not a suggested performance improvement for your WordPress website?
+#### Q48. Which is NOT a suggested performance improvement for your WordPress website?
 
 - [ ] The site should run the most recent version of WordPress.
 - [ ] Remove or inactivate unnecessary plugins.
-- [ ] UTF8 is supported.
+- [x] UTF8 is supported.
 - [ ] Choose a very recent version of PHP.
+
+**Explanation**: New versions usually come with speed improvements. Inactivating plugins improves performance. By exclusion, it's UTF8.
 
 #### Q49. On a regular WordPress install, what is the difference between transients and the object cache?
 
@@ -416,14 +425,14 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] Transients are available for the duration of a user session and apply to all page components. The object cache is available only for scripts.
 - [ ] Transients persist only for the particular page load. The object cache is persistent and writes to the wp_options table.
 
-#### Q50. For the majority of modern themes, what is the standart method used to customize various details of site appearance and features, such as changing the site description or adding a logo and favicons?
+#### Q50. For the majority of modern themes, what is the standard method used to customize various details of site appearance and features, such as changing the site description or adding a logo and favicons?
 
 - [ ] Theme settings
 - [ ] wp-config.php
 - [ ] Customizer
 - [ ] WordPress settings
 
-#### Q51. You can harden your WordPress site security by adding \_\_\_\_ to your wp-config.php file?
+#### Q51. You can harden your WordPress site security by adding `__` to your wp-config.php file?
 
 - [ ] database usernames and passwords
 - [ ] unique keys and salts
@@ -432,14 +441,10 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 #### Q52. According to WordPress PHP coding standards for inline comments, how would you write a single-line comment in a PHP document?
 
-- [ ] /\*
-
-* This is a single line comment
-  \*/
-
-- [ ] // This is a single line comment.
-- [ ] <!-- This is a single line comment -->
-- [ ] // This is a single line comment
+- [x] `// This is a single line comment`
+- [ ] /\* _ This is a single line comment._/
+- [ ] `// This is a single line comment.`
+- [ ] `<!-- This is a single line comment -->`
 
 #### Q53. If you have pretty permalinks enabled on a WordPress site, the REST API index is exposed by appending what to the end of the site URL? (for example, http://example.com/answer/) Note that the index provides information regarding which routes are available for that particular WordPress install.
 
@@ -450,16 +455,89 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 #### Q54. What is the process of marking the code you write so that it is ready for translation?
 
-- [ ] internationalization
+- [x] internationalization
 - [ ] localization
 - [ ] translation
 - [ ] using GlotPress
+
+**Explanation**: Localization and translation are synonyms for submitting language-specific translation. GlotPress is just a Wordpress plugin.
 
 #### Q55. In your wp-config.php file, you've added the following line of code. What does it do?
 
 `define( 'DISALLOW_FILE_EDIT', true );`
 
 - [ ] prevents any non-admin user from directly editing theme or plugin files
-- [ ] disables the theme and plugin editor in the WordPress admin
+- [x] disables the theme and plugin editor in the WordPress admin
 - [ ] disables the ability to edit core WordPress files from either within the WordPress admin or via direct file access
 - [ ] sets read-only permissions on all files in the WordPress install
+
+**Explanation**: [More WordPress Security: Disallow File Edit Setting In WordPress](https://www.icontrolwp.com/blog/more-wordpress-security-disallow-file-edit-setting-wordpress/). Setting all files to read-only would make auto-updates impossible.
+
+#### Q56. Which of the following must have underlined links in order to meet WCAG 2.0 accessibility standards?
+
+- [ ] links on images
+- [ ] links in user interface controls
+- [ ] links in a nav bar
+- [x] links in paragraph text
+
+#### Q57. In which of the following ways might you contribute to the WordPress community by testing?
+
+- [ ] user testing
+- [x] all of these answers
+- [ ] beta testing
+- [ ] automated testing
+
+#### Q58. WordPress is an open-source software licensed under the GPL. This means that `__`.
+
+- [ ] derivative works must also be licensed as GPL
+- [x] all of these answers
+- [ ] the software is free to use
+- [ ] the software is free to modify
+
+#### Q59 Review of the HTML on line1. The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting into the database. What is wrong with this PHP code?
+
+`<input type="text" id="title" name="title" />`
+
+`$title = $_POST[ 'title' ];`
+
+- [ ] The code sample does not use the GET method. It should be wrapped in the `get_post_field()` function and look like this `$title = get_post_field( $GET[ 'title' ] );`
+- [ ] The code sample doesnot use sanitize the form data. It should use the `sanitize_text_field()` function and look like this `$title = sanitize_text_field( $_POST[ 'title' ] );`
+- [ ] There is no error. The code follows WordPress best practices.
+- [ ] The code sample does not allow for translation. It should use a translation function and look like this: `$title = __( $_POST[ 'title' ];`
+
+#### Q60. Which software development principle, often used in WordPress, aims to reduce the repetition of code?
+
+- [x] DRY
+- [ ] RRR
+- [ ] WET
+- [ ] KISS
+
+#### Q61. Which of these CSS classs naming convention is correct according to WordPress CSS Coding Standards?
+
+- [ ] `.selector-name`
+- [x] `.selector_name`
+- [ ] `.selectorName`
+- [ ] `div.selector_name`
+
+#### Q62. Which folder in a WordPress install is not affected by an automatic WordPress update?
+
+- [ ] `/wp-admin`
+- [x] `root`
+- [ ] `/wp-content`
+- [ ] `/wp-includes`
+
+#### Q63. What are transients?
+
+- [ ] short database queries
+- [x] a way to cache information
+- [ ] plugins used for quick debugging
+- [ ] post draft stored in the database
+
+**Explanation**: [Transients](https://developer.wordpress.org/apis/handbook/transients/)
+
+#### Q64. If you wanted to debug some javasript, which method would you use to display data in your browser console?
+
+- [ ] `windows.alert()`
+- [x] `console.log()`
+- [ ] `document.write()`
+- [ ] `innerHTML`

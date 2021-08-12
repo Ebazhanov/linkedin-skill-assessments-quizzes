@@ -56,49 +56,49 @@
 - [ ] Bridge
 - [x] Decorator
 
-#### Q9.What makes a strong-named assembly?
+#### Q9. What makes a strong-named assembly?
 
 - [ ] an assembly with the version specified
 - [x] a signed assembly
 - [ ] an assembly with culture information
 - [ ] an assembly with the name marked as important
 
-#### Q10.What happens when you concatenate two strings?
+#### Q10. What happens when you concatenate two strings?
 
 - [ ] You cannot concatenate strings in .NET.
 - [ ] The second string object is modified so it contains the concatenated strings.
 - [x] A third string object is created containing the concatenated strings.
 - [ ] The first string object is modified so it contains the concatenated strings.
 
-#### Q11.What is a delegate?
+#### Q11. What is a delegate?
 
 - [ ] A delegate is an object or collection initializer that adds flexibility, readability and maintainability in C#.
 - [x] A delegate in .NET is similar to a function pointer in C or C++. Using a delegate allows the programmer to encapsulate a reference to a method inside a delegate object.
 - [ ] A delegate is a collection initializer that adds flexibility, readability and maintainability in .NET.
 - [ ] A delegate is an extension method. Using a delegate allows the programmer to add flexibility, readability and maintainability in .NET.
 
-#### Q12.Which is a set of features that extends the query capabilities of the .NET language syntax by adding sets of new standard query operators that allow data manipulation, regardless of the data source?
+#### Q12. Which is a set of features that extends the query capabilities of the .NET language syntax by adding sets of new standard query operators that allow data manipulation, regardless of the data source?
 
 - [ ] XML
 - [ ] C#
 - [x] LINQ
 - [ ] XAML
 
-#### Q13.What is the single responsibility principle?
+#### Q13. What is the single responsibility principle?
 
 - [ ] Software entities should be open for extension, but closed for modification.
 - [ ] Entities must depend on abstractions, not on concrete implementations.
 - [ ] Objects in a program should be repleaceble with instances of their subtypes without altering the correctness of that programm.
 - [x] A class should have only a single responsibility - that is, only changes to one part of the software's specification should be able to affect the specification of the class.
 
-#### Q14.When should a developer use the .NET Standard class library project type?
+#### Q14. When should a developer use the .NET Standard class library project type?
 
 - [ ] when you want to increase the .NET API surface area your library can access, and allow only .NET Core apps to be compatible with your library
 - [x] when you want to increase the number of apps that are compatible with your library, and decrease the .NET API surface area your library can access
 - [ ] when you want to decrease speed but have more features
 - [ ] when you want to increase compilation speed and have fewer features
 
-#### Q15.What is the difference between a SDK (software development kit) and runtime in .NET Core?
+#### Q15. What is the difference between a SDK (software development kit) and runtime in .NET Core?
 
 - [ ] The SDK is the "virtual machine" that hosts and runs the application and abstracts all the interaction with the operating system; the runtime usually includes documentation and other help files.
 - [x] The runtime is the virtual machine that hosts and runs the application and abstracts all the interaction with the operating system; the SDK usually includes documentation and other help files.
@@ -114,28 +114,28 @@
 
 [reference link](https://en.wikipedia.org/wiki/Common_Type_System#:~:text=In%20Microsoft's%20.,languages%20to%20easily%20share%20information.)
 
-#### Q17.Assuming y is a value type, which is an example of boxing?
+#### Q17. Assuming y is a value type, which is an example of boxing?
 
 - [ ] y = (int)thisObject;
 - [ ] int y = 3;
 - [ ] y = (int)thisObject=;3;
 - [x] object thisObject = y;
 
-#### Q18.What is an abstract class in .NET?
+#### Q18. What is an abstract class in .NET?
 
 - [ ] An abstract class provides a partial implementation for functionality and some abstract or virtual members that must be implemented by the inheriting entities. It can declare fields too.
 - [ ] An abstract class allows developers to create new classes that reuse, extend, and modify the behavior defined in other classes.
 - [ ] An abstract class is responsible for keeping track of what is actually executing and where each executing thread is.
 - [x] An abstract class declares a contract or behavior that implementing classes require. It may declare only properties, methods, and events with no access modifiers. All the declared members must be implemented.
 
-#### Q19.What is the namespace for caching information in .NET?
+#### Q19. What is the namespace for caching information in .NET?
 
 - [ ] System.Data.Caching;
 - [ ] All.System.Caching;
 - [x] System.Runtime.Caching;
 - [ ] System.Compiler.Caching;
 
-#### Q20.What is an interface in .NET?
+#### Q20. What is an interface in .NET?
 
 - [ ] An interface provides a partial implementation for functionality and some abstract or virtual members that must be implemented by the inheriting entities. It can declare fields too.
 - [ ] An interface is responsible for keeping track of what is actually executing and where each executing thread is.
@@ -210,7 +210,7 @@
 - [ ] Construct an HTTP request URI and an HTTPS request URI.
 - [ ] Invoke the GetCurrentApplicationCallbackUri method and construct an HTTPS request URI.
 - [ ] Invoke the AuthenticateAsync and GetCurrentApplicationCallbackUri methods.
-- [ ] Invoke the AuthenticateAsync method and construct an HTTPS request URI. //The requestUri parameter must be a HTTPS address and
+- [x] Invoke the AuthenticateAsync method and construct an HTTPS request URI. //The requestUri parameter must be a HTTPS address and
       // You call the AuthenticateAsync method to
       // connect to the online identity provider and get an access token
 
@@ -263,7 +263,7 @@
 - [ ] CIL is used to convert a value type to an object type.
 - [ ] CIL is a compiled code library that Microsoft developed as an open specification. Developers use it for security, versioning, and deployment purposes.
 
-#### Q38. **\_\_\_** pattern works as a bridge between two incompatible interfaces? // wording in question is maybe changed?
+#### Q38. **\_** pattern works as a bridge between two incompatible interfaces? // wording in question is maybe changed?
 
 - [x] Adapter
 - [ ] Bridge
@@ -291,8 +291,7 @@
 - [ ] a series of related tasks or methods that together turn inputs into outputs
 - [ ] a program that is running on your computer
 
-[reference link]
-https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net-5.0
+[Reference link](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net-5.0)
 
 #### Q43. You want to add responsibilities to object dynamically. Which design pattern best fit this objective?
 
@@ -337,3 +336,38 @@ https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net
 - [ ] in the view
 - [x] in configuration files
 - [ ] in the database
+
+#### Q47. Why use design patterns?
+
+- [ ] design patterns make the code more efficient with memory usage
+- [ ] design patterns minimize the number of code lines when creating complex applications
+- [ ] design patterns tend to be more secure and prevent code from being hacked
+- [x] design patterns help you solve issues related to sofware development using a proven solution, and make communication between developers more efficient
+
+#### Q48. What is a task?
+
+- [ ] the basic unit to which an operating system allocates processor time
+- [ ] a program that is running on your compiler
+- [x] a single operation that does not return a value and that usually executes asynchronously
+- [ ] a series of related methods that together turn inputs into outputs
+
+#### Q49. Which choice is NOT a component of .NET Framework?
+
+- [ ] common language JIT
+- [x] .NET framework class library
+- [ ] common language runtime
+- [ ] side-by-side execution
+
+#### Q50. Which statement about the `this` keyword is _not_ true?
+
+- [ ] The `this` keyword lets a constructor call a different constructor in the same class.
+- [x] A constructor can use a base statement and a `this` statement if the base statement comes first.
+- [ ] A constructor can use one `this` statement at most.
+- [ ] If a constructor uses a `this` statement, its code is executed after the invoked constructor is executed.
+
+#### Q51. When should you use the .NET Core class library project type?
+
+- [x] when you want to increase the .NET API surface area your library can access, and allow only .NET Core apps to be compatible with your library
+- [ ] when you want to increase the number of apps that are compatible with your library, and decrease the .NET API surface area your library can access
+- [ ] when you want to decrease speed but have more features
+- [ ] when you want to increase compilation speed and have fewer features

@@ -2,9 +2,9 @@
 
 #### Q1. How does a matrix differ from a data frame?
 
-- [x] A matrix may contain numeric values only.
+- [ ] A matrix may contain numeric values only.
 - [ ] A matrix must not be singular.
-- [ ] A data frame may contain variables that have different modes.
+- [x] A data frame may contain variables that have different modes.
 - [ ] A data frame may contain variables of different lengths.
 
 #### Q2. What value does this statement return?
@@ -247,7 +247,7 @@ vbound<-cbind(v1,v2)
 - [ ] records where the first character is a C
 - [ ] any record with a value containing a C
 - [ ] TRUE or FALSE, depending on whether any character in ournames is C
-- [x] TRUE or FALSE values, depending on whether the first character in an ournames record is C
+- [x] TRUE and FALSE values, depending on whether the first character in an ournames record is C
 
 #### Q27. What is the value of names(v[4])?
 
@@ -288,3 +288,57 @@ VarA VarB VarA VarD
 - [ ] 9
 - [ ] 3
 - [x] 0
+
+#### Q30. What does R return in response to the final statement?
+
+```
+x<-5:8
+names(x)<-letters[5:8]
+x
+```
+
+- [ ] e f g h
+      "5" "6" "7" "8"
+- [ ] 5 6 7 8
+- [ ] e f g h
+- [x] e f g h
+      5 6 7 8
+
+#### Q31. How do you return "October" from x in this code?
+
+```
+x<-as.Date("2018-10-01")
+```
+
+- [ ] attr()
+- [x] months(x)
+- [ ] as.month(x)
+- [ ] month(x)
+
+#### Q32. How will R respond to the last line of this code?
+
+```
+fact<-factor(c("Rep","Dem","Dem","Rep"))
+fact
+[1] Rep Dem Dem Rep
+Levels: Rep Dem
+fact[2]<-"Ind"
+```
+
+- [ ] >
+- [ ] [,2]Ind
+- [x] invalid factor level, NA generated
+- [ ] Ind
+
+#### Q33. What does R return?
+
+```
+StartDate<- as.Date("2020/2/28")
+StopDate<- as.Date("2020/3/1")
+StopDate-StartDate
+```
+
+- [ ] "1970-01-02"
+- [ ] time difference of one day
+- [x] time difference of two days
+- [ ] error in x-y: nonnumeric argument to binary operator

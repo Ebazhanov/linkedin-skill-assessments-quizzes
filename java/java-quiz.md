@@ -7,7 +7,13 @@
 - [ ] awb
 - [ ] traw
 
-**Reasoning:** The substring method is accepting two arguments. The first argument being the index to start(includes that char at 2) and the second the index of the string to end the substring(excludes the char at 5). Strings in Java are like arrays of chars. Therefore the method will return "raw" as those are the chars in indexes 2,3, and 4. You can also take the ending index and subtract the beginning index from it, to determine how many chars will be included in the substring (5-2=3).
+**Reasoning:** The substring method is accepting two arguments.
+
+- The first argument being the index to start(includes that char at 2)
+- and the second the index of the string to end the substring(excludes the char at 5).
+- Strings in Java are like arrays of chars.
+- Therefore, the method will return "raw" as those are the chars in indexes 2,3, and 4.
+- You can also take the ending index and subtract the beginning index from it, to determine how many chars will be included in the substring (5-2=3).
 
 #### Q2. How can you achieve runtime polymorphism in Java?
 
@@ -25,16 +31,11 @@
 - [ ] `b1 || !b2`
 - [ ] `(i1 ^ i2) < 4`
 
-#### Q4. What can you use to create new instances in Java?
-
-- [x] constructor
-- [ ] another instance
-- [ ] field
-- [ ] private method
+#### Q4. <DUPLICATE OF Q34>
 
 #### Q5. What is the output of this code?
 
-```shell
+```java
 1: class Main {
 2:   public static void main (String[] args) {
 3:     int array[] = {1, 2, 3, 4};
@@ -113,13 +114,13 @@ class Main {
 ```java
 interface One {
     default void method() {
-        System.out.println(""One"");
+        System.out.println("One");
     }
 }
 
 interface Two {
     default void method () {
-        System.out.println(""One"");
+        System.out.println("One");
     }
 }
 ```
@@ -213,7 +214,7 @@ class Main {
 - [ ] It will throw an exception on line 5.
 - [x] "123"
 
-**Explanation:** The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class.
+**Explanation:** `The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class.`
 
 #### Q12. What is the result of this code?
 
@@ -293,12 +294,6 @@ class Main {
 - [ ] "world!!world"
 - [ ] "world!world!"
 
-```java
-String m = "Hello world!";
-String n = m.substring(6,12) + m.substring(12,6);
-System.out.println(n);
-```
-
 #### Q16. How do you write a foreach loop that will iterate over ArrayList\<Pencil\>pencilCase?
 
 - [x] `for (Pencil pencil : pencilCase) {}`
@@ -306,16 +301,9 @@ System.out.println(n);
 - [ ] `for (Pencil pencil : pencilCase.iterator()) {}`
 - [ ] `for (pencil in pencilCase) {}`
 
-#### Q17. Fill in the blanks?
+#### Q17. <DUPLICATE of Q30>
 
-- Object-oriented programming (OOP) is a programming language model that organizes software design around (objects), rather than (actions).
-
-#### Q18. What code would you use to tell if "schwifty" is of type String?
-
-- [ ] `"schwifty".getType() == String`
-- [ ] `"schwifty".getClass().getSimpleName() == "String"`
-- [ ] `"schwifty".getType().equals("String")`
-- [x] `"schwifty" instanceof String`
+#### Q18. <DUPICATE OF Q31>
 
 #### Q19. What does this code print?
 
@@ -335,7 +323,7 @@ System.out.print("apple".compareTo("banana"));
 - [x] `names.sort(List.DESCENDING)`
 - [ ] `names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())`
 
-#### Q21. By implementing encapsulation, you cannot directly access the class's \_\_\_ properties unless you are writing code inside the class itself.
+#### Q21. By implementing encapsulation, you cannot directly access the class's \_ properties unless you are writing code inside the class itself.
 
 - [x] private
 - [ ] protected
@@ -351,7 +339,7 @@ System.out.print("apple".compareTo("banana"));
 
 **Explanation**: LocalDate is newest class added in java 8
 
-#### Q23. Fill in the blank to create a piece of code that will tell wether int0 is divisible by 5:
+#### Q23. Fill in the blank to create a piece of code that will tell whether `int0` is divisible by `5`:
 
 `boolean isDivisibleBy5 = _____`
 
@@ -378,7 +366,7 @@ class Main {
 - [ ] 5 times
 - [ ] infinite number of times
 
-Reason : Observe the loop increment. It's not an increment, it's an assignment(post).
+**Explanation**: Observe the loop increment. It's not an increment, it's an assignment(post).
 
 #### Q25. The runtime system starts your program by calling which function first?
 
@@ -387,24 +375,22 @@ Reason : Observe the loop increment. It's not an increment, it's an assignment(p
 - [ ] hello
 - [x] main
 
-#### Q26. What is the result of this code?
+#### 26. What code would you use in Constructor A to call Constructor B?
 
 ```java
-try{
-    System.out.print("Hello World");
-}catch(Exception e){
-    System.out.println("e");
-}catch(ArithmeticException e){
-    System.out.println("e");
-}finally{
-    System.out.println("!")
-}
+public class Jedi {
+  /* Constructor A */
+  Jedi(String name, String species){}
+
+  /* Constructor B */
+  Jedi(String name, String species, boolean followsTheDarkSide){}
+  }
 ```
 
-- [ ] It will throw a runtime exception
-- [x] It will not compile
-- [ ] Hello World!
-- [ ] Hello World
+- [ ] Jedi(name, species, false)
+- [ ] new Jedi(name, species, false)
+- [x] this(name, species, false)
+- [ ] super(name, species, false)
 
 #### Q27. Which statement is **NOT** true?
 
@@ -452,7 +438,7 @@ class Main {
 - [ ] The code does not compile.
 - [ ] "ello"
 
-#### Q30. Object-oriented programming is a style of programming where you organize your program around \_**\_ rather than \_\_** and data rather than logic.
+#### Q30. Object-oriented programming is a style of programming where you organize your program around \_ rather than \_ and data rather than logic.
 
 - [ ] functions; actions
 - [x] objects; actions
@@ -491,13 +477,13 @@ class Main {
 
 ```java
 1: class Main {
-2: 		Object message(){
-3: 			return "Hello!";
-4: 		}
-5: 		public static void main(String[] args) {
-6: 			System.out.print(new Main().message());
-7: 			System.out.print(new Main2().message());
-8: 		}
+2: 	Object message(){
+3: 		return "Hello!";
+4: 	}
+5: 	public static void main(String[] args) {
+6: 		System.out.print(new Main().message());
+7: 		System.out.print(new Main2().message());
+8: 	}
 9: }
 10: class Main2 extends Main {
 11: 	String message(){
@@ -549,6 +535,8 @@ public static void badMethod() {
 - [ ] C and D
 - [x] A and D
 
+**Explanation**: `Error` is not inherited from `Exception`
+
 #### Q37. What is the output of this code?
 
 ```java
@@ -589,6 +577,8 @@ class Main {
 - [ ] The code does not compile.
 - [ ] [abc, 2, 10, 0]
 - [x] [0, 10, 2, abc]
+
+**Explanation**: The `java.util.Arrays.asList(T... a)` returns a fixed-size list backed by the specified array. (Changes to the returned list "write through" to the array.)
 
 #### Q39. What is the output of this code?
 
@@ -673,7 +663,7 @@ theList.forEach(System.out::println);
 - [ ] public isHealthy("avocado")
 - [ ] private String isHealthy(String food)
 
-#### Q43. Which are valid keywords in a Java module descriptor (module-infoJava)?
+#### Q43. Which are valid keywords in a Java module descriptor (module-info.java)?
 
 - [ ] provides, employs
 - [ ] imports, exports
@@ -687,7 +677,7 @@ theList.forEach(System.out::println);
 - [x] final
 - [ ] private
 
-#### Q45. How does the keyword `_volatile_` affect how a variable is handled?
+#### Q45. How does the keyword `volatile` affect how a variable is handled?
 
 - [ ] It will be read by only one thread at a time.
 - [ ] It will be stored on the hard drive.
@@ -776,7 +766,7 @@ public TheClass() {
 }
 ```
 
-- [ ] C
+- [x] C
 
 ```java
 public TheClass() {
@@ -784,7 +774,7 @@ public TheClass() {
 }
 ```
 
-- [x] D
+- [ ] D
 
 ```java
 private void setX(int x) {
@@ -794,6 +784,8 @@ public TheClass() {
     setX(77);
 }
 ```
+
+**Explanation:** `final` class members are allowed to be assigned only in two places: declaration and constructor
 
 #### Q52. How many times f will be printed?
 
@@ -880,11 +872,11 @@ public class Solution {
 public class TestReal {
     public static void main (String[] argv)
     {
-      double pi = 3.14159265;       //accuaracy upto 15 digits
-      float pi2 = 3.141F;                //accuracy upto 6-7 digits
+      double pi = 3.14159265;       //accuracy up to 15 digits
+      float pi2 = 3.141F;           //accuracy up to 6-7 digits
 
       System.out.println ("Pi=" + pi);
-      System.out.println ("Pi2" + pi2;
+      System.out.println ("Pi2=" + pi2);
     }
   }
 ```
@@ -963,6 +955,8 @@ try {
 - [ ] interface
 - [x] unsigned
 
+**Explanation:** `native` is a part of JNI interface
+
 #### Q65. Which operator would you use to find the remainder after division?
 
 - [x] `%`
@@ -1039,28 +1033,29 @@ groucyButton.addActionListener(new ActionListener() {
 - [x] Set object to null and call System.gc()
 - [ ] Set object to null and call Runtime.getRuntime().runFinalization()
 - [ ] There is no way to force an object to be garbage collected
-      [Reference](https://www.baeldung.com/java-hashcode)
 
-#### Q72. Java programmers commonly use design patterns. Some examples are the **\_\_**, which helps create instances of a class, the **\_\_**, which ensures that only one instance of a class can be created; and the **\_\_**, which allows for a group of algorithms to be interchangeable.
+[Reference](https://www.baeldung.com/java-hashcode)
+
+#### Q72. Java programmers commonly use design patterns. Some examples are the **\_**, which helps create instances of a class, the **\_**, which ensures that only one instance of a class can be created; and the **\_**, which allows for a group of algorithms to be interchangeable.
 
 - [x] static factory method; singleton; strategy pattern
 - [ ] strategy pattern; static factory method; singleton
 - [ ] creation pattern; singleton; prototype pattern
 - [ ] singleton; strategy pattern; static factory method
 
-#### Q73. Using Java's Reflection API, you can use \_**\_ to get the name of a class and \_\_** to retrieve an array of its methods.
+#### Q73. Using Java's Reflection API, you can use \_ to get the name of a class and \_ to retrieve an array of its methods.
 
 - [x] this.getClass().getSimpleName(); this.getClass().getDeclaredMethods()
 - [ ] this.getName(); this.getMethods()
 - [ ] Reflection.getName(this); Reflection.getMethods(this)
 - [ ] Reflection.getClass(this).getName(); Reflection.getClass(this).getMethods()
 
-#### Q74. What is a valid use of the hashCode() method?
+#### Q74. Which is not a valid lambda expression?
 
-- [ ] moving objects from a List to a HashMap
-- [x] deciding if two instances of a class are equal
-- [ ] enabling HashMap to find matches faster
-- [ ] encrypting user passwords
+- [ ] `a -> false;`
+- [ ] `(a) -> false;`
+- [x] `String a -> false;`
+- [ ] `(String a) -> false;`
 
 #### Q75. Which access modifier makes variables and methods visible only in the class where they are declared?
 
@@ -1188,10 +1183,12 @@ public class Main {
 7: }
 ```
 
-- [x] Change line 2 to `public static final String message`
+- [ ] Change line 2 to `public static final String message`
 - [ ] Change line 6 to `public void print2(){}`
 - [ ] Remove the body of the `print2` method and add a semicolon.
-- [ ] Remove the body of the `print` method.
+- [x] Remove the body of the `print` method.
+
+**Explanation**: Changing line 2 to `public static final String message` raises the error `message not initialized in the default constructor`
 
 #### Q87. What is the output of this code?
 
@@ -1233,7 +1230,7 @@ class Main {
 }
 ```
 
-- [ ] A runtime exception is thrown.
+- [x] A runtime exception is thrown.
 - [ ] "HelloWorld!"
 - [ ] "hello"
 - [ ] ????
@@ -1254,3 +1251,61 @@ public class Jedi {
 - [ ] new Jedi(name, species, false)
 - [x] this(name, species, false)
 - [ ] super(name, species, false)
+=======
+**Note:** This code won't compile, possibly broken code sample
+
+#### Q90. How would you use the TaxCalculator to determine the amount of tax on $50?
+
+```java
+class TaxCalculator {
+  static calculate(total) {
+    return total * .05;
+  }
+}
+```
+
+- [x] TaxCalculator.calculate(50);
+- [ ] new TaxCalculator.calculate(50);
+- [ ] calculate(50);
+- [ ] new TaxCalculator.calculate($50);
+
+**Note:** This code won't compile, broken code sample
+
+- [Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
+- [Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
+
+#### Q91. What is the value of myCharacter after line 3 is run?
+
+```java
+1: public class Main {
+2:   public static void main (String[] args) {
+3:     char myCharacter = "piper".chatAt(3);
+4:   }
+5: }
+```
+
+- [ ] p
+- [ ] i
+- [ ] r
+- [x] e
+
+#### Q92. What is the output of this code?
+```java
+class Main {
+    static int count = 0;
+    public static void main(String[] args) {
+      if(count < 3){
+          count++;
+          main(null);
+      }else{
+          return;
+      }
+      System.out.println("Hello World!");
+    }
+}
+```
+
+- [ ] it will run forever.
+- [x] it will print "Hello World!" three times.
+- [ ] it will not compile.
+- [ ] it will throw a runtime exception.

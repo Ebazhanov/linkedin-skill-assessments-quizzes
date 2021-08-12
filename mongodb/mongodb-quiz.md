@@ -28,12 +28,12 @@
 - [ ] fields
 - [ ] rows
 
-#### Q5. Given an ObjectId in \_id, how do you get the time it was created?
+#### Q5. Given an ObjectId in `_id`, how do you get the time it was created?
 
-- [ ] getDateTime(\_id)
-- [ ] \_id.createDate()
-- [x] \_id.getTimestamp()
-- [ ] \_id.getDateTime()
+- [ ] `getDateTime(_id)`
+- [ ] `_id.createDate()`
+- [x] `_id.getTimestamp()`
+- [ ] `_id.getDateTime()`
 
 #### Q6. Given a cursor named myCursor, which command returns a boolean value?
 
@@ -44,10 +44,10 @@
 
 #### Q7. Which command returns a specific document in the user's collection?
 
-- [x] db.users.find({\_id: 1})
-- [ ] db.users.seek({\_id: 1})
-- [ ] db.users.query({\_id: 1})
-- [ ] db.query.users({\_id: 1})
+- [x] `db.users.find({_id: 1})`
+- [ ] `db.users.seek({_id: 1})`
+- [ ] `db.users.query({_id: 1})`
+- [ ] `db.query.users({_id: 1})`
 
 #### Q8. To import a JSON array into Mongo, what flags are needed with MongoDBimport?
 
@@ -161,7 +161,7 @@
 - [x] You can't. Once set, the \_id field cannot be changed.
 - [ ] Use the updateOne() command instead.
 
-#### Q24. A compound index allows you to \_\_\_ ?
+#### Q24. A compound index allows you to \_ ?
 
 - [ ] Calculate interest quickly.
 - [ ] Accomplish nothing, since compound indexes aren't allowed in Mongo.
@@ -231,7 +231,7 @@
 - [ ] upload
 - [x] mongoimport
 
-#### Q34. In an MongoDB mapReduce command, the reduce function should \_\_\_\_.
+#### Q34. In an MongoDB mapReduce command, the reduce function should \_.
 
 - [ ] access the database
 - [ ] be called only when the key has a single value
@@ -242,7 +242,7 @@
 
 - [ ] the name field
 - [ ] the ObjectId field
-- [x] the \_id field
+- [x] the `_id` field
 - [ ] no field will have an index
 
 #### Q36. You have a collection of thousands of students. You'd like to return the second set of 20 documents from the sorted collection. What is the proper order in which to apply the operations?
@@ -289,8 +289,8 @@
 
 #### Q42. Which field is required of all MongoDB documents?
 
-- [x] \_id
-- [ ] \_name
+- [x] `_id`
+- [ ] `_name`
 - [ ] ObjectId
 - [ ] mongoDB is schema-less so no field is required
 
@@ -360,7 +360,7 @@
 #### Q52. Given a customer collection which includes fields for gender and city, which aggregate pipeline shows the number of female customers in each city? (_Alternative_: How can you view the execution performance statistics for a query?)
 
 - [x] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number: {$sum: 1}}}, {$sort :{number: -1}}])`
-- [ ] `db.members.find({$match: {gender: "Female"}}, {$group: {\_id: {city: "$city"}, number: {$sum: 1}}}.$sort ({number: -1})`
+- [ ] `db.members.find({$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number: {$sum: 1}}}.$sort ({number: -1})`
 - [ ] `db.members.find([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number: {$sum: 1}}}, {$sort :{number: -1}}])`
 - [ ] `db.members.aggregate([ {$match: {gender: "Female"}}, {$sort :{number: -1}}])`
 
@@ -368,7 +368,7 @@
 
 - [ ] wireTiger mode
 - [ ] executionStats mode
-- [ ] queryPlanner mode
+- [x] queryPlanner mode
 - [ ] allPlansExecution mode
 
 #### Q54. What is the correct query to find all of the people who have a home phone number defined?
@@ -408,7 +408,7 @@
 
 #### Q59. To remove a database and all of its records from MongoDB, what operator should you use?
 
-- [ ] `dropDatabase()`
+- [x] `dropDatabase()`
 - [ ] `removeAll()`
 - [ ] `clear()`
 - [ ] `deleteDatabase()`
@@ -418,9 +418,9 @@
 - [ ] `-db=null`
 - [ ] `--shell-only`
 - [ ] `--free`
-- [ ] `-nodb`
+- [x] `-nodb`
 
-#### Q61. How can you improve the appearance of the output JSON that contains the \_id?
+#### Q61. How can you improve the appearance of the output JSON that contains the `_id`?
 
 - [ ] `Use db.collection.set({$_id:pretty})`
 - [ ] `Create a second index`
@@ -429,7 +429,7 @@
 
 #### Q62. What happens to a Replica set oplog if it runs out of memory?
 
-- [ ] `The oplog will be saved on one of the secondary servers.`
+- [x] `The oplog will be saved on one of the secondary servers.`
 - [ ] `The oplog is capped collection and can't run out of memory`
 - [ ] `The MongoDB instance will fail`
 - [ ] `The oplog will stop recording logging information`
@@ -444,6 +444,20 @@
 #### Q64. How can you view the execution performance statistics for a query?
 
 - [ ] `db.performance.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id:{city:"$city"}, number: {$sum: 1}}}, {$sort : {number: -1}}])`
-- [ ] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number:{$sum:1}}}, {$sort: {number:-1}}]).explain("executionStats")`
+- [x] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number:{$sum:1}}}, {$sort: {number:-1}}]).explain("executionStats")`
 - [ ] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group:{_id: {city: "$city"}, number: {$sum: 1}}}, {$sort: {number: -1}}]).explain()`
 - [ ] `db.members.aggregate([ {$match: {gender: """Female"""}}, {$group: {_id: {city: """$city"""}, number: {$sum:1}}}, {$sort: {number: -1}}]).number()`
+
+#### Q65. From the MongoDB shell, how do you execute a JavaScript file named list.js?
+
+- [ ] node 'list.js'
+- [ ] exec('list.js)
+- [ ] run('list.js)
+- [x] load('list.js)
+
+#### Q66. Which MongoDB shell query will sort the customer's collection by name descending?
+
+- [ ] db.customers.sort({name: -1}.find({})
+- [ ] db.customers.sort({name: -1})
+- [x] db.customers.find({}).sort({name: -1})
+- [ ] db.customers.find({}).sort({name: 1})

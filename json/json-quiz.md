@@ -73,10 +73,10 @@
 
 `accountNum: '000605802'`
 
-- [x] "accountNum": "00060504"
-- [ ] accountNum: "00060504"
-- [ ] "accountNum": 00060504
-- [ ] accountNum: 00060504
+- [x] "accountNum": "000605802"
+- [ ] accountNum: "000605802"
+- [ ] "accountNum": 000605802
+- [ ] accountNum: 000605802
 
 #### Q7. What character do you specify before a JSON control character when you want to use that control characters as a literal part of a string?
 
@@ -471,7 +471,7 @@ Explanation: Scientific Notation is a valid JSON number. You can use `e` or `E`.
 }
 ```
 
-#### Q32. When building dynamic web applications using AJAX, developers originally used the \_\_\_\_ data format, which has since been replaced by JSON.
+#### Q32. When building dynamic web applications using AJAX, developers originally used the \_ data format, which has since been replaced by JSON.
 
 - [x] XML
 - [ ] GRAPHQL
@@ -748,3 +748,24 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [x] "
 - [ ] -
 - [ ] :
+
+#### Q66. Which data type is part of the JSON standard?
+
+- [ ] function
+- [ ] promise
+- [x] Boolean
+- [ ] map
+
+#### Q67. Which data type is not part of the JSON standard?
+
+- [ ] number
+- [ ] string
+- [ ] array
+- [x] date
+
+#### Q68. Which character separates keys from values?
+
+- [x] :
+- [ ] ->
+- [ ] ::
+- [ ] .

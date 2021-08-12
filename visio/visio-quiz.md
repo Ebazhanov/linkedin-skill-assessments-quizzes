@@ -55,7 +55,7 @@
 - [ ] Microsoft SQL Server database
 - [ ] Microsoft SharePoint Foundation list
 
-#### Q5. A rack diagram is an example of a \_\_\_, one in which the size of the shapes on the page is dependent on the size and scale of the page itself.
+#### Q5. A rack diagram is an example of a \_, one in which the size of the shapes on the page is dependent on the size and scale of the page itself.
 
 - [x] two-dimensional drawing
 - [ ] units drawing
@@ -289,3 +289,17 @@
 - [ ] Ctrl+W
 - [x] Ctrl+Shift+W
 - [ ] Esc
+
+#### Q33. What is the unique feature of rack equipment shapes that would lead you to think that the rack and the equipment shape have active connections points?
+
+- [x] They look like 2D shapes, yet behave like lines, dynamic connectors, and other one-dimensional shapes.
+- [ ] They look like 3D shapes, yet behave like lines, dynamic connectors, and other two-dimensional shapes.
+- [ ] They look like 2D shapes, yet behave like lines, dynamic connectors, and other three-dimensional shapes.
+- [ ] They look like 3D shapes, yet behave like lines, dynamic connectors, and other one-dimensional shapes.
+
+#### Q34. Which file format does not give you the choice of saving a subset of your drawing pages into the format you want?
+
+- [ ] .html
+- [x] .dwg
+- [ ] .xps
+- [ ] .pdf

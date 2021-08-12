@@ -9,7 +9,7 @@
 
 #### Q2. What value does this code return?
 
-```
+```scala
 val m1 = Map("a"->1,"b"->2,"c"->3)
 m1("a")
 ```
@@ -40,7 +40,7 @@ m1("a")
 - [ ] List
 - [x] Tuple
 
-#### Q6. After defining a function in the interpreter, Scala returns the following. What does the
+#### Q6. After defining a function in the interpreter, Scala returns the following. What does the `()` indicate?
 
 ```
 myfnc: ()Unit
@@ -58,11 +58,11 @@ myfnc: ()Unit
 - [x] floating point
 - [ ] long
 
-#### Q8. When you convert a map to a list using the toList method of the map, the result will be of which type?
+#### Q8. When you convert a map to a list using the `toList` method of the map, the result will be of which type?
 
 - [ ] `List[(String, String)]`
 - [ ] `List[(Array, Array)]`
-- [ ] `List[(Array, Array)]`
+- [ ] `List[(Collection, Collection)]`
 - [x] `List`
 
 #### Q9. What type of object does this code create?
@@ -81,21 +81,34 @@ val x = (1234, "Active")
 - [ ] AnyVal
 - [ ] AnyRef
 - [ ] Method
-- [x] Null NOT SURE
+- [x] Null
+
+**Reference**: [Null in Scala Standard library](https://www.scala-lang.org/api/current/scala/Null.html). The question is a bit incorrect - Null is a subtype of every type _except those of value classes_
 
 #### Q11. For the for-yield construct, is the scope separate between for-body and yield-body?
 
-- [x] Yes and no. It is different depending on the for construct and what it does. NOT SURE
+- [ ] Yes and no. It is different depending on the for construct and what it does.
 - [ ] Yes, because the for section does not expose its scope.
-- [ ] No, because for-yield shares the same scope, even though they are within separate curly braces.
+- [x] No, because for-yield shares the same scope, even though they are within separate curly braces.
 - [ ] Yes, because they are within different curly braces.
+
+**Example**: yield-body has access to the `e` variable from the for-body
+
+```scala
+val a = Array(1, 2, 3, 4, 5)
+for {
+     e <- a if e > 2
+} yield e
+```
 
 #### Q12. What is one way to implement pattern matching on methods?
 
 - [ ] using regex
 - [ ] using monads
-- [x] using string matching
+- [ ] using string matching
 - [ ] using case classes
+
+Note: ambiguous question, it's not clear what kind of [pattern matching](https://docs.scala-lang.org/tour/pattern-matching.html) is meant here.
 
 #### Q13. What is the value of z after executing this code?
 
@@ -121,7 +134,9 @@ val z = y::List('c')
 - [ ] `scala.util.ExceptionHandling`
 - [ ] `scala.Catch.Throw`
 - [ ] `scala.exception.TryFinally`
-- [ ] `scala.util.Try`
+- [x] `scala.util.Try`
+
+**Reference**: [scala.util.Try](https://www.scala-lang.org/api/current/scala/util/Try.html)
 
 #### Q16. What is the data type of y after this code is executed?
 
@@ -137,20 +152,30 @@ val y = (math floor 3.1415 * 2)
 #### Q17. When using pattern matching, which character matches on any object?
 
 - [ ] `%`
-- [ ] `\_`
+- [x] `_`
 - [ ] `^`
-- [x] `-`
+- [ ] `-`
+
+**Reference**: [Pattern Matching](https://docs.scala-lang.org/tour/pattern-matching.html)
 
 #### Q18. You have created an array using val. Can you change the value of any element of the array—and why or why not?
 
-- [ ] Yes, the reference to the array is immutable, so the location that the array points to is immutable. The values in the array are mutable.
+- [x] Yes, the reference to the array is immutable, so the location that the array points to is immutable. The values in the array are mutable.
 - [ ] The 0th element is immutable and cannot be modified. All other elements can be modified.
-- [x] Yes, val does not make arrays immutable.
+- [ ] Yes, val does not make arrays immutable.
 - [ ] No, val makes the array and values of the array immutable.
+
+**Explanation**:
+
+```scala
+val a1 = Array(1, 2, 3)
+a1{1} = 3 // OK
+a1 = Array(1, 3, 3) // error: reassignment to val
+```
 
 #### Q19. What is the output of this function?
 
-```
+```scala
 def main () {
      var a = 0
      for (a<-1 until 5){println(a)}
@@ -163,10 +188,12 @@ def main () {
 
 #### Q20. What do you call objects with immutable state?
 
-- [x] singletons
+- [ ] singletons
 - [ ] stationary objects
 - [ ] functional objects
 - [ ] fixed objects
+
+**Note:** singletons may have mutable state
 
 #### Q21. You have written a Scala script. How would you access command-line arguments in the script?
 
@@ -175,7 +202,7 @@ def main () {
 - [ ] use numbered variables with a _ prefix for example _ 1, _ 2, _ 3
 - [ ] use numbered variables with a $ prefix - for example $1, $2, $3
 
-#### Q22. What does this code return? val x = 3; if (x >2) x = 4 else x = x\*2
+#### Q22. What does this code return? `val x = 3; if (x > 2) x = 4 else x = x*2`
 
 - [ ] 4
 - [x] an error
@@ -195,7 +222,7 @@ def main () {
 
 - [ ] `%`
 - [ ] `&`
-- [ ] `\_`
+- [ ] `_`
 - [x] `-`
 
 #### Q25. What is called when a superclass has more than one subclass in Scala?
@@ -205,7 +232,7 @@ def main () {
 - [ ] multimode inheritance
 - [x] hierarchical inheritance
 
-#### Q26. One way to improve code reliability is to use **\_**, which will evaluate a condition and return an error if the conditions is violated.
+#### Q26. One way to improve code reliability is to use `__` , which will evaluate a condition and return an error if the condition is violated.
 
 - [ ] packages
 - [ ] polymorphisms
@@ -226,23 +253,25 @@ def main () {
 - [ ] redefining methods
 - [x] overriding methods
 
-#### Q29. What is an advantage of an immutable object?
+#### Q29. To denote a parameter that may be repeated, what should you place after the type?
 
-- [ ] Immutable objects use less memory than their mutable counterparts.
-- [ ] Immutable objects do not require error handling.
-- [ ] Immutable objects can be used in classes, mutable objects cannot.
-- [x] Immutable objects are threadsafe.
+- [ ] `_`
+- [x] `*`
+- [ ] `%`
+- [ ] `&`
+
+**Reference**: [Repeated Parameters in Scala](https://www.baeldung.com/scala/repeated-parameters)
 
 #### Q30. What is the code below equivalent to?
 
-```
+```scala
 myClass.foreach(println _)
 ```
 
-- [ ] myClass.foreach(println ())
-- [ ] myClass.foreach(print NIL)
-- [ ] myClass.loop(println ())
-- [x] myClass.foreach(x => println(x))
+- [ ] `myClass.foreach(println ())`
+- [ ] `myClass.foreach(print NIL)`
+- [ ] `myClass.loop(println ())`
+- [x] `myClass.foreach(x => println(x))`
 
 #### Q31. What is an advantage of an immutable object?
 
@@ -262,8 +291,10 @@ myClass.foreach(println _)
 
 - [ ] database driver
 - [ ] connection
-- [ ] prepared statement
+- [x] prepared statement
 - [ ] SQL view
+
+**Reference**: [PreparedStatement from Java](https://docs.oracle.com/javase/8/docs/api/java/sql/PreparedStatement.html) which is also used in Scala
 
 #### Q34. Which is _not_ a member of the collections hierarchy?
 
@@ -299,3 +330,63 @@ myClass.foreach(println _)
 - [ ] assertion
 - [x] trait
 - [ ] monad
+
+#### Q39. When do you need to explicitly state the return type in a function definition?
+
+- [ ] when the function has no side effects
+- [ ] when the function returns a Unit type
+- [x] when the function is recursive
+- [ ] when the function has side effects
+
+#### Q40. Why would you make a field private?
+
+- [ ] so only methods in the same file can access the field
+- [ ] so only methods in the same package can access the field
+- [x] so only methods in the same class could access the field
+- [ ] so only methods defined in a Java class can access the field
+
+#### Q41. What's the difference between `.equals` and `==`?
+
+- [ ] They do the exact same thing
+- [ ] `==` won't work on objects
+- [ ] `==` cannot be applied to `String`
+- [x] `==` is a wrapper of `.equals()` and checks for nulls
+
+[Source:](https://www.programmersought.com/article/3717957705/)
+
+#### Q42. What is denotes the intersection between two sets?
+
+- [ ] ||
+- [ ] &&
+- [x] &
+- [ ] %
+
+[Source:](https://docs.scala-lang.org/overviews/collections/sets.html)
+
+#### Q43. What's the best way to execute code in the background in a separate thread?
+
+- [ ] AltFuture
+- [ ] Future
+- [ ] AltProcess
+- [ ] AltThread
+
+#### Q44. What do you call a function defined in a block?
+
+- [ ] private function
+- [ ] block function
+- [ ] local function
+- [ ] method
+
+#### Q45. What do you call a Scala method that is parametrized by type as well as by value?
+
+- [ ] multimode method
+- [ ] polymorphic method
+- [ ] closure
+- [ ] collection method
+
+#### Q46. What type of exception is thrown when a precondition is violated?
+
+- [x] IllegalArgumentException
+- [ ] NumberFormatException
+- [ ] NullPointerExcepetion
+- [ ] MalformedParameterException

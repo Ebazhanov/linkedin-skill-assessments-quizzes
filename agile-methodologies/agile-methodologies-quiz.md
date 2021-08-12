@@ -138,7 +138,7 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [ ] A Kanban does not use a Definition of Done.
 - [ ] A Kanban shows the status of the work items.
 
-[(Source)](https://www.lucidchart.com/blog/kanban-vs-scrum#:~:text=Both%20boards%20are%20used%20to,can%20be%20more%20easily%20adapted.)
+[Source https://www.lucidchart.com/blog ....](https://www.lucidchart.com/blog/kanban-vs-scrum#:~:text=Both%20boards%20are%20used%20to,can%20be%20more%20easily%20adapted.)
 
 #### Q20. The team complains that "things have been falling through the cracks lately." What should you do?
 
@@ -213,9 +213,11 @@ It is suggested that high business value, high-risk items are worked on first. W
 #### Q30. Which strategy is preferred for development teams?
 
 - [ ] Optimize for most work done.
-- [x] Maximize output and maximize outcome.
-- [ ] Maximize outcome while minimizing output.
+- [ ] Maximize output and maximize outcome.
+- [x] Maximize outcome while minimizing output.
 - [ ] Optimize for resource utilization.
+
+`“…your job is to minimize output, and maximize outcome and impact.” - Jeff Patton`
 
 #### Q31. Which statement is true about the actor in a user story?
 
@@ -275,9 +277,9 @@ It is suggested that high business value, high-risk items are worked on first. W
 
 #### Q39. Which statement about estimating is not true?
 
-- [ ] Absolute estimating is more reliable than relative estimating.
+- [x] Absolute estimating is more reliable than relative estimating.
 - [ ] Relative estimating is more reliable than absolute estimating.
-- [x] In estimating, accuracy is more important than precision.
+- [ ] In estimating, accuracy is more important than precision.
 - [ ] In estimating, the effort is more important than the time required.
 
 #### Q40. Which ceremony should the Product Owner not attend?
@@ -392,7 +394,7 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [x] the task board
 - [ ] a highly visible display of key performance data
 
-#### Q56. According to the Agile Manifesto, your highest priority is to `**\_\_**`.
+#### Q56. According to the Agile Manifesto, your highest priority is to \_.
 
 - [ ] minimize change requests
 - [x] satisfy the customer
@@ -476,7 +478,7 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [ ] Next-Sprint Planning
 - [ ] Velocity Confirmation
 
-[(Source)](https://startinfinity.com/product-management-framework/scrum-sprint/sprint-review-vs-sprint-retrospective)
+[Source https://startinfinity.com/product-management-framework/scrum-sprin ...](https://startinfinity.com/product-management-framework/scrum-sprint/sprint-review-vs-sprint-retrospective)
 
 #### Q68. Which choice best describes an Agile Release Train (ART)?
 

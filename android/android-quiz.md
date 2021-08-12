@@ -28,7 +28,16 @@
 - [ ] Google Play Services is not installed on the deivce/emulator.
 - [ ] Battery optimization is turned on on the device.
 
-#### Q5. What is correct set of classes needed to implement a RecyclerView of items that displays a list of widgets vertically?
+#### Q5. What is the correct set of component classes needed to implement a RecyclerView of items that displays a list of widgets vertically?
+
+- [ ]
+
+```
+      RecycleView
+      RecyclerView.Adapter<T extends BaseAdapter>
+      RecyclerView.ViewHolder<T extends BaseViewHolder>
+      LinearLayoutManager
+```
 
 - [ ]
 
@@ -165,7 +174,9 @@
 - [ ] when calling finish()in the parent activity
 - [ ] when placing an app into the background by sitching to another app
 - [ ] When onStop() is called in the target activity
-- [ ] when calling finish() in the target activity
+- [x] when calling finish() in the target activity
+
+[For more information](https://developer.android.com/reference/android/app/Activity)
 
 #### Q12. You need to remove an Event based on it;s id from your API, Which code snippet defines that request in Retrofit?
 
@@ -222,7 +233,7 @@
 - [ ] root.getById(R.id.text_home)
 - [x] root.findViewById(R.id.text_home)
 
-#### Q18. IF the main thread is blocked for too long, the system displays the\_\_\_dialog?
+#### Q18. IF the main thread is blocked for too long, the system displays the \_ dialog?
 
 - [ ] Thread Not Responding
 - [ ] Application Paused
@@ -656,17 +667,21 @@ xml
 
 #### Q43. You need to upgrade to the latest version of the Android Gradle plugin. Which file should you modify?
 
-- [x] root_project_dir/app/build.gradle.
+- [ ] root_project_dir/app/build.gradle.
 - [ ] root_project_dir/settings.gradle.
-- [ ] root_project_dir/build.gradle.
+- [x] root_project_dir/build.gradle.
 - [ ] root_project_dir/app/gradle.properties.
+
+[reference](https://developer.android.com/studio/releases/gradle-plugin#updating-plugin)
 
 #### Q44. Why do developers often put app initialization code in the Application class?
 
-- [ ] The Application class is instantiated before any other class when the process for the application is created.
+- [x] The Application class is instantiated before any other class when the process for the application is created.
 - [ ] The Application class is instantiated after any permissions requests when the process for the application is created.
 - [ ] The Application class is created each time a new Activity is launched, making it ideal for initialization code.
 - [ ] The Application class is created each time a background service is called, making it ideal for initialization code.
+
+[reference](https://developer.android.com/reference/android/app/Application)
 
 #### Q45. What folder should you use for your app's launcher icons?
 
@@ -758,39 +773,29 @@ xml
     }
 
 - [ ] productionDebug.
-- [ ] developmentDebug.
+- [x] developmentDebug.
 - [ ] stagingDebug.
 - [ ] stagingRelease.
 
-#### Q49. What is not good way to reuse Android code?
+[Reference](https://developer.android.com/studio/build/build-variants#flavor-dimensions)
 
-- [ ] Break down UI layouts into common elements and use <include/> to include them in other layout XML files.
-- [ ] Prefer to build custom views or fragments over activities.
-- [ ] Use a common Gradle module shared by different Android projects.
-- [ ] Prefer to build activities instead of fragments.
-
-#### Q50. When should you use the androidTest directory to store your test classes?
+#### Q49. When should you use the androidTest directory to store your test classes?
 
 - [ ] when the tests consist only of unit tests.
 - [ ] when the number of tests to run is large(500+).
 - [ ] when the tests need to run on your local machine.
-- [ ] when the tests need to run on real or virtual devices.
+- [x] when the tests need to run on real or virtual devices.
 
-#### Q51. What is the benifit of using the @VisibleForTesting annotation?
+[Reference](https://developer.android.com/studio/test#test_types_and_location)
 
-- [ ] to denote that a class, method, or field is visible only in test code.
-- [ ] to denote that a class, method or field has it's visibility increased to make code less testable.
-- [x] to denote that a class, method, or field has it's visibility relaxed to make code testable.
-- [ ] to throw a run-time error if a class, method, or field which this annotation is accessed improperly.
-
-#### Q52. Given an APK named app-internal-debug.apk produced from the build process, which statement is likely to be true?
+#### Q50. Given an APK named app-internal-debug.apk produced from the build process, which statement is likely to be true?
 
 - [ ] This APK is created on a developer machine from the debug product flavor.
 - [ ] This APK is created from the internalDebug product flavor.
 - [ ] This APK created from the debug product flavor and internal build type.
 - [ ] This APK is created from the debug build type and internal product flavor.
 
-#### Q53. When attempting to build your project, what might the following error indicate?
+#### Q51. When attempting to build your project, what might the following error indicate?
 
 `Conversion to Dalvik format filed: Unable to execute dex: method ID not in [0, 0xffff]: 65536`
 
@@ -799,14 +804,14 @@ xml
 - [x] You have exceeded the total number of methods that can be referenced within a single DEX file.
 - [ ] You have a NullPointerException in your code.
 
-#### Q54. Which statement, in build.gradle file, correctly denotes that the corresponding module is an Android library module?
+#### Q52. Which statement, in build.gradle file, correctly denotes that the corresponding module is an Android library module?
 
 - [ ] apply plugin: 'com.module.library'
 - [x] apply plugin: 'com.android.library'
 - [ ] apply plugin: 'com.module.library'
 - [ ] include plugin: 'com.module.library'
 
-#### Q55. Given the following dimens.xml file, how would you define an ImageView with medium spacing at the bottom?
+#### Q53. Given the following dimens.xml file, how would you define an ImageView with medium spacing at the bottom?
 
 ```
 <?xml version=1.0 encoding="utf-8"?>
@@ -858,14 +863,14 @@ xml
    android:src=@drawable/map_pin />
 ```
 
-#### Q56. what is not a benefit of externalizing app resources such as image and string from a code?
+#### Q54. what is not a benefit of externalizing app resources such as image and string from a code?
 
 - [x] It allows Android to choose the appropriate resource based on the current configuration during runtime.
 - [ ] It allows you to have more performant applications because the code and resources are separated.
 - [ ] It allows you to provide a different Ul experience based on the user's language settings.
 - [ ] It allows you to provide a different Ul experience based on the user's device size.
 
-#### Q57. What is the chief purpose of line five in this code snippet?
+#### Q55. What is the chief purpose of line five in this code snippet?
 
 ```
 override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_post_create)

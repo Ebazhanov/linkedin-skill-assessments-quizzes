@@ -272,3 +272,40 @@
 - [ ] document template
 - [ ] versioning
 - [ ] audience targeting
+
+#### Q35. A SharePoint site document library has become disorganized with numerous folders. How can you disable folder creation without modifying any permissions?
+
+- [x]
+
+```
+1. Library Settings
+2. Advanced Settings
+```
+
+- [ ]
+
+```
+1. Site Settings
+2. Manage Site Features
+```
+
+- [ ]
+
+```
+1. Library Settings
+2. Audience Targeting Settings
+```
+
+- [ ]
+
+```
+1. Site Settings
+2. Site App Permissions
+```
+
+#### Q36. SharePoint lists and libraries have similarities. What differentiates a library from a list?
+
+- [ ] Unlike a library, each column in a list contains data.
+- [x] Unlike a list, each item in a library contains a file.
+- [ ] Unlike a library, each item in a list contains a document.
+- [ ] Unlike a list, each column in a library contains data.

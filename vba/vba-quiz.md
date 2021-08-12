@@ -13,10 +13,33 @@ Sub ShowVitals()
 End Sub
 ```
 
-- [ ] id=5 Age = 20 Weight= ID=6 Age = 25 Weight=130
-- [ ] id=5 Age = 20 Weight=0 ID=6 Age = 25 Weight=130
-- [ ] id=5 Age = 20 Weight=Null ID=6 Age = 25 Weight=130
-- [ ] id=5 Age = 20 ID=6 Age = 25 Weight=130
+- [ ]
+
+```
+ID=5 Age = 20 Weight=
+ID=6 Age = 25 Weight=130
+```
+
+- [x]
+
+```
+ID=5 Age = 20 Weight=0
+ID=6 Age = 25 Weight=130
+```
+
+- [ ]
+
+```
+ID=5 Age = 20 Weight=Null
+ID=6 Age = 25 Weight=130
+```
+
+- [ ]
+
+```
+ID=5 Age = 20
+ID=6 Age = 25 Weight=130
+```
 
 #### Q2. This code shows the first statement of CalledSub. Which calling statement will work properly?
 
@@ -25,7 +48,7 @@ End Sub
 - [ ] call Calledsub "smith",26
 - [ ] calledsub (surname="smith", Age = 26)
 - [ ] calledsub (Surname:="Smith", Age:=26)
-- [ ] calledsub "smith", 26
+- [x] calledsub "smith", 26
 
 #### Q3. What is the principal difference between a class and an object?
 
@@ -133,16 +156,11 @@ End Sub
 
 #### Q12. Which variable name is valid in VBA?
 
-- [x] \_MyVar
-- [ ] My_Var
-- [ ] My-Var
-- [ ] 1MyVar
+- [x] `_MyVar`
+- [ ] `My_Var`
+- [ ] `My-Var`
+- [ ] `1MyVar`
 
 [Reference link](https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/visual-basic-naming-rules)
 
-```
-Use the following rules when you name procedures, constants, variables, and arguments in a Visual Basic module:
-You must use a letter as the first character.
-You can't use a space, period (.), exclamation mark (!), or the characters @, &, $, # in the name.
-Name can't exceed 255 characters in length.
-```
+`Use the following rules when you name procedures, constants, variables, and arguments in a Visual Basic module: You must use a letter as the first character. You can't use a space, period (.), exclamation mark (!), or the characters @, &, $, # in the name. Name can't exceed 255 characters in length.`

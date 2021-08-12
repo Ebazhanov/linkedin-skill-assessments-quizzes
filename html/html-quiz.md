@@ -10,7 +10,7 @@
 #### Q2. What are the best examples of void elements?
 
 - [ ] `<link><meta><title>`
-- [x] `<wbr><base><source>`
+- [x] `<br><base><source>`
 - [ ] `<input><br><p>`
 - [ ] `<area><embed><strong>`
 
@@ -38,8 +38,8 @@
 #### Q6. When is the `<link>` tag used?
 
 - [ ] when linking style sheets, JavaScript, and icons for mobile apps
-- [ ] when linking style sheets, favicons, and preloading assets
-- [x] when linking style sheets and favicons
+- [x] when linking style sheets, favicons, and preloading assets
+- [ ] when linking one webpage to another
 - [ ] when linking style sheets, external URLs, and favicons
 
 #### Q7. The "value" attribute is associated with which set of tags?
@@ -494,7 +494,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] `<hgroup> <q> <wbr>`
 - [ ] `<b> <i> <u>`
 
-#### Q31. The `**\_\_**` tag is used for marking up a short code snippet, while the `**\_\_**` tag is used for marking up a longer block of code.
+#### Q31. The **\_** tag is used for marking up a short code snippet, while the **\_** tag is used for marking up a longer block of code.
 
 - [ ] `<kdb>`, `<pre>`
 - [ ] `<pre>`, `<code>`
@@ -508,7 +508,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] It visually labels from fields.
 - [x] It programmatically associates a text label with an interface element.
 
-#### Q33. To get a link to open in a new window or tab, use the `**\_\_**` attribute.
+#### Q33. To get a link to open in a new window or tab, use the **\_** attribute.
 
 - [x] `_blank`
 - [ ] `_self`
@@ -999,21 +999,14 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] `<blockquote>`
 - [ ] `<notation>`
 
-#### Q63. What is the root element of an HTML document?
-
-- [ ] `<!DOCTYPE html>`
-- [x] `<html>`
-- [ ] `<root>`
-- [ ] `<body>`
-
-#### Q64. What is the semantic meaning of the `<hr>` tag?
+#### Q63. What is the semantic meaning of the `<hr>` tag?
 
 - [ ] It draws a horizontal line.
 - [ ] This tag is deprecated and should not be used.
 - [ ] It designates a separation of sections within an `<article>`.
 - [x] It designates a topic shift within a section at the paragraph level.
 
-#### Q65. How will a video look displayed on a fully loaded webpage if the `<video>` tag is used and the **autoplay** attribute is not set?
+#### Q64. How will a video look displayed on a fully loaded webpage if the `<video>` tag is used and the **autoplay** attribute is not set?
 
 - [ ] It will display a random frame from a video, unless the **poster** attribute is set.
 - [x] It will display the first frame of the video, unless the **poster** attribute is set.
@@ -1022,7 +1015,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 [Reference (w3schools)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_video)
 
-#### Q66. What is the correct way to describe an empty element?
+#### Q65. What is the correct way to describe an empty element?
 
 - [ ] It has opening and closing tags but no child content.
 - [ ] It display nothing on a website.
@@ -1031,7 +1024,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 [Reference (MDN Web Docs)](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element)
 
-#### Q67. What is the purpose of async in this code?
+#### Q66. What is the purpose of async in this code?
 
 `<script async src="myscript.js"></script>`
 
@@ -1040,7 +1033,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [x] It runs the script when the script is ready.
 - [ ] It pauses the parsing of HTML code while the script runs.
 
-#### Q68. What does this code?
+#### Q67. What does this code?
 
 `<audio autoplay loop src="sound.mp3" type="audio/mpeg"></audio>`
 
@@ -1051,14 +1044,14 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 [Reference(MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
 
-#### Q69. What is the difference between the `<head>` and `<header>` tags?
+#### Q68. What is the difference between the `<head>` and `<header>` tags?
 
 - [ ] There is only one `<head>` tag per page, while there may be many `<header>` tags.
 - [ ] The `<head>` tag may contain CSS and Javascript links, while the `<header>` tag may contain headings and navigational links.
 - [x] all of these answers
 - [ ] The `<head>` tag contains meta information, while the `<header>` tag contains navigation, logos, and other page identifying content.
 
-#### Q70. In this code, what is the purpose of defer?
+#### Q69. In this code, what is the purpose of defer?
 
 `<script defer src="myscript.js"></script>`
 
@@ -1067,7 +1060,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] It runs the script when the script is ready.
 - [ ] It pauses the parsing of HTML code while the script runs.
 
-#### Q71. The code below contains some errors. Which choice corrects all of the errors?
+#### Q70. The code below contains some errors. Which choice corrects all of the errors?
 
 ```html
 <table>
@@ -1129,7 +1122,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 </table>
 ```
 
-#### Q72. Given the file and directory structure shown here, what is the correct element to place in file profit.html to link to info.html?
+#### Q71. Given the file and directory structure shown here, what is the correct element to place in file profit.html to link to info.html?
 
 ![Image of footer](images/ss-7.png?raw=true)
 
@@ -1138,7 +1131,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] `<a href="../../info.html">See Information </a>`
 - [ ] `<a href="info.html">See Information </a>`
 
-#### Q73. When should you use the `<article>` element?
+#### Q72. When should you use the `<article>` element?
 
 - [ ] For blog posts and other social media items
 - [ ] For the main content area of your website
@@ -1147,7 +1140,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 [Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
 
-#### Q74. Which list comprises three empty elements?
+#### Q73. Which list comprises three empty elements?
 
 - [ ]
 
@@ -1181,14 +1174,14 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 <source>
 ```
 
-#### Q75. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
+#### Q74. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
 
 - [x] `<a href="tel: 802-555-1212">Call me</a>`
 - [ ] `<a href="phone">802-555-1212</a>`
 - [ ] `<a href="tel">802-555-1212</a>`
 - [ ] `<a href="phone: 802-555-1212">Call me</a>`
 
-#### Q76. What is the purpose of the `class` attribute?
+#### Q75. What is the purpose of the `class` attribute?
 
 - [ ] Classes allow CSS to select specific elements on the page. You may list as many class names within the class attribute as you wish,
       separated by spaces.
@@ -1199,7 +1192,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 [Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class)
 
-#### Q77. Which choice is not a legal type attribute for the `<input>` tag?
+#### Q76. Which choice is not a legal type attribute for the `<input>` tag?
 
 - [ ] `<input type="color">`
 - [ ] `<input type="tel">`
@@ -1208,7 +1201,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 [Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)
 
-#### Q78. What is the most semantic way to mark up this sentence so that "happy talk must die" is rendered as an inline quote?
+#### Q77. What is the most semantic way to mark up this sentence so that "happy talk must die" is rendered as an inline quote?
 
 As Steve Krug once said, happy talk must die.
 
@@ -1216,3 +1209,184 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<p>`As Steve Krug once said, `<i>`happy talk must die.`</i>` `</p>`
 - [ ] `<p>`As Steve Krug once said, `<blockquote>`happy talk must die.`</blockquote>` `</p>`
 - [ ] `<p>`As Steve Krug once said, `<q>`happy talk must die.`</q>` `</p>`
+
+#### Q78. What is the most semantically accurate way to make up a main navigation bar, displayed in a horizontal direction?
+
+```markdown
+<p>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</p>
+```
+
+- [ ]
+
+```markdown
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+```
+
+- [ ]
+
+```markdown
+ <nav>
+    <ol>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+     </ol>
+  </nav>
+```
+
+- [x]
+
+```markdown
+ <nav>
+   <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="about.html">About</a></li>
+     <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+```
+
+#### Q79. Which choice is the best way to mark up this layout?
+
+![Image of footer](images/ss-8.png?raw=true)
+
+```markdown
+<p><strong>Mailing Address</strong></p>
+  <p><em>
+    6640 via Real <br>
+    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+  </em></p>
+</p>
+```
+
+- [ ]
+
+```markdown
+<h4>Mailing Address</h4>
+  <address>
+    6640 via Real <br>
+    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+  </address>
+```
+
+- [ ]
+
+```markdown
+<h4><strong>Mailing Address</strongh></h4>
+  <address><em>
+    6640 via Real <br>
+    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+  </em></address>
+```
+
+- [ ]
+
+```markdown
+<h4>Mailing Address</h4>
+  <p><em>
+    6640 via Real <br>
+    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+  </em></p>
+</p>
+```
+
+- [ ]
+
+#### Q80. What is the primary purpose of HTML?
+
+- [x] HTML structures the webpage, identifying its elements such as paragraphs, headings, and lists.
+- [ ] HTML structures and provides a rudimentary look to webpages.
+- [ ] HTML is responsible for the structure, styling, and interactivity of webpages.
+- [ ] HTML is responsible for the structure and styling of webpages.
+
+#### Q81. What is the correct way to describe an empty element, such as a line break tag?
+
+- [ ] It displays nothing on a website.
+- [ ] It has opening and closing tags but no child content.
+- [ ] It has child content but no closing tag.
+- [x] It has no child content and no closing tag.
+
+#### Q82. For the HTML code below, when will "Sample Text" display to the browser?
+
+```markdown
+<noscript>Sample Text</noscript>
+```
+
+- [ ] when there is no JavaScript used on this webpage
+- [x] when JavaScript is not supported by the browser or if JavaScript is disabled in the browser
+- [ ] when JavaScript is disabled in the web browser
+- [ ] when JavaScript is not supported by the web browser
+
+[Reference (MDN)](https://www.w3schools.com/tags/tag_noscript.asp)
+
+#### Q83.
+
+- [ ]
+
+```markdown
+<h4>Mailing Address</h4>
+<address>
+  6410 Via Real <br>
+  Carpinteria, CA 93013<br>
+  <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</address>
+```
+
+- [ ]
+
+```markdown
+<h4><strong>Mailing Address</h4>
+<address><em>
+  6410 Via Real <br>
+  Carpinteria, CA 93013<br>
+  <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</em></address>
+```
+
+- [ ]
+
+```markdown
+<h4>Mailing Address</h4>
+<p><em>
+  6410 Via Real <br>
+  Carpinteria, CA 93013<br>
+  <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</em></p>
+```
+
+- [ ]
+
+```markdown
+<p><strong>Mailing Address</strong></p>
+<p><em>
+  6410 Via Real <br>
+  Carpinteria, CA 93013<br>
+  <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</em></p>
+```
+
+#### Q84. How will this code render by default in most web browsers?
+
+```markdown
+<details>
+  <h4>Mixed Berry Tart.</h4>
+  <p4>Raspberries, blueberries, and strawberries on top of a creamy filling served in a crispy tart.</p4>
+</details>
+```
+
+- [ ] A
+      ![A](images/Q84-1.jpg)
+- [ ] B
+      ![B](images/Q84-2.jpg)
+- [ ] C
+      ![C](images/Q84-3.jpg)
+- [ ] D
+      ![D](images/Q84-4.jpg)

@@ -14,7 +14,7 @@
 ![Add stars](images/006.png?raw=true)
 
 - [ ] Select the Screen blending mode before you brush.
-- [ ] Select the circle and click the Draw Inside button on the toolbar before you brush.
+- [x] Select the circle and click the Draw Inside button on the toolbar before you brush.
 - [ ] Add a fixed spacing value in the Scatter Brush options.
 - [ ] Select the brush stroke and the circle and make a compound path.
 
@@ -45,7 +45,7 @@
 
 - [ ] Hold down the Option (Mac) or Alt (Windows) key and click the object you want to deselect.
 - [ ] Use the Lasso tool to deselect the unwanted object.
-- [ ] Shift-click the object you want to deselect
+- [x] Shift-click the object you want to deselect
 - [ ] Press Command+Shift+A (Mac) or Ctrl+Shift+A (Windows) and click the object you want to deselect.
 
 #### Q7. You need to change the fill color of all the info circles in the map below. The circles were not created from a symbol. Other than Global Edit, which command would help you accomplish this task efficiently?
@@ -61,7 +61,7 @@
 
 `A red lines spirals clockwise in, towards the center. Arrows along the line point in that direction.`
 
-- [ ] Select Object > Path > Reverse Path Direction.
+- [x] Select Object > Path > Reverse Path Direction.
 - [ ] Select Effect > 3D > Rotate.
 - [ ] Use the Flip Horizontal and Flip Vertical commands in the Transform panel menu.
 - [ ] Drag the path with the Reshape tool.
@@ -93,7 +93,7 @@
 
 - [ ] Switch to any other workspace, and then switch back to Essentials.
 - [ ] Quit Illustrator, press and hold Command+Shift+Option (Mac) or Ctrl+Shift+Alt (Windows), and relaunch Illustrator.
-- [ ] Choose Reset Essentials from the Workspace menu or the workspace switcher.
+- [x] Choose Reset Essentials from the Workspace menu or the workspace switcher.
 - [ ] Quit and relaunch Illustrator.
 
 #### Q13. Your boss likes the new logo you've designed but would like to see some variations using different color schemes. Which feature could you use to generate these variations quickly?
@@ -126,7 +126,7 @@
 
 #### Q17. You have just one object on your artboard. You want to change its fill color from black to yellow, so you open the Color Picker and select a yellow color. But when you click OK, the fill of the object changes to gray, not yellow. Why is this happening?
 
-- [ ] The color mode of the fill is set to Grayscale.
+- [x] The color mode of the fill is set to Grayscale.
 - [ ] The Luminosity blend mode is applied to the fill.
 - [ ] One of the Color Blindness options is chosen under Proof Setup in the View menu.
 - [ ] Overprint Preview is turned on in the Separations Preview panel.
@@ -141,7 +141,7 @@
 #### Q19. How could you quickly change all the hexagons to triangles in the image below?
 
 - [ ] In the Control panel, click the button to start editing similar shapes, then select Object > Path > Simplify.
-- [ ] In the Properties panel, click Start Global Edit and then use the Transform controls to reduce the Polygon Side Count to 3.
+- [x] In the Properties panel, click Start Global Edit and then use the Transform controls to reduce the Polygon Side Count to 3.
 - [ ] In the Properties panel, click Expand Shape. Then click Start Global Edit and use the Transform controls to reduce the Polygon Side Count to 3.
 - [ ] In the Control panel, click the button to start editing similar shapes, then select Object > Transform > Transform Each.
 
@@ -156,13 +156,13 @@
 
 - [ ] Select Small Gaps.
 - [ ] Select Close Gaps with Paths.
-- [ ] Select Large Gaps.
+- [x] Select Large Gaps.
 - [ ] Turn off Gap Detection.
 
 #### Q22. You often use brushes from the Pattern Arrows brush library. How can you make it so this library automatically opens when you start Illustrator?
 
 - [ ] Select Show Pattern Brushes from the Brushes panel menu.
-- [ ] Select Persistent from the library's panel menu.
+- [x] Select Persistent from the library's panel menu.
 - [ ] Open the library and save a custom workspace.
 - [ ] Select all the brushes in the Pattern Arrows brush library and choose Add to Brushes from the library's panel menu.
 
@@ -195,7 +195,7 @@
 
 - [ ] The Alana fonts are deactivated.
 - [ ] The Alana fonts are for web-only use.
-- [ ] The Alana fonts are currently being activated.
+- [x] The Alana fonts are currently being activated.
 - [ ] Not all the fonts in the Alana family are activated.
 
 #### Q27. What command would you apply to make objects beneath the selected artwork visible inside the circle?
@@ -204,7 +204,7 @@
 
 - [ ] Make Pattern
 - [ ] Make Live Paint Group
-- [ ] Make Compound Path
+- [x] Make Compound Path
 - [ ] Make Clipping Mask
 
 #### Q28. The Symbol Sprayer tool has been used to apply a number of symbol instances to an illustration. You would like to modify the appearance of some instances using graphic styles. How would this be achieved?
@@ -212,7 +212,7 @@
 - [ ] Select instances with the Group Selection tool and then choose the desired graphic style.
 - [ ] Symbol instances in a symbol set cannot be overridden.
 - [ ] Select instances with the Direct Selection tool and then choose the desired graphic style.
-- [ ] With the Symbol Styler tool, select a graphic style and paint the style onto symbol instances.
+- [x] With the Symbol Styler tool, select a graphic style and paint the style onto symbol instances.
 
 #### Q29. What happens when you click an existing anchor point with the Pen tool?
 
@@ -235,13 +235,13 @@
 ![Outline mode](images/008.png?raw=true)
 
 - [ ] It has been converted to outlines.
-- [ ] It is live text.
+- [x] It is live text.
 - [ ] It is a compound path.
 - [ ] It has a fill color of black.
 
 #### Q32. You would like the columns in a chart to cover the whole length of the category axis. What option would you choose?
 
-- [ ] In the Graph Type dialog, choose Category Axis and set the Tick Marks option to Full Width.
+- [x] In the Graph Type dialog, choose Category Axis and set the Tick Marks option to Full Width.
 - [ ] In the Graph Type dialog, under Graph Options, set the cluster width to 100 in the Options section.
 - [ ] In the first row of data, type 100% in each cell corresponding to the category columns.
 - [ ] Select the columns with the Direct Selection tool and use the Scale tool to modify the width.
@@ -276,7 +276,7 @@
 
 #### Q37. When using the Image Trace feature, which option has the most impact on the number of paths that are created in the tracing result?
 
-- [ ] Corners
+- [x] Corners
 - [ ] Noise
 - [ ] Paths
 - [ ] Colors
@@ -309,7 +309,7 @@
 - [ ] Placement Options
 - [ ] Edit Original
 - [ ] Update Link
-- [ ] Relink
+- [x] Relink
 
 #### Q42. The fill colors of several instances of a dynamic symbol have been modified. What is the fastest way to return the fill color in every instance to its original appearance?
 
@@ -331,7 +331,7 @@
 
 - [ ] Select Size Tile to Art in the Pattern Options dialog box.
 - [ ] Increase the number of copies of the flower used to make the pattern.
-- [ ] Reduce the width and height in the Pattern Options dialog box.
+- [x] Reduce the width and height in the Pattern Options dialog box.
 - [ ] Use the Overlap buttons in the Pattern Options dialog box.
 
 #### Q45. Why would you turn on the Ignore Artboards option in the Print dialog box?
@@ -360,14 +360,14 @@
 - [ ] Click the Edit Symbol button in the Control panel or Properties panel.
 - [ ] Edit the symbol instance name.
 - [ ] Double-click the instance with the Type tool.
-- [ ] Click the Break Link button in the Control panel or Properties panel.
+- [x] Click the Break Link button in the Control panel or Properties panel.
 
 #### Q49. Your colleague has asked you to provide the CSS code for an object in your document. What must you do to make Illustrator auto-generate the code for that particular object?
 
 - [ ] Drag the object into the Asset Export panel.
 - [ ] Select the object and choose Generate CSS from the CSS Properties panel.
 - [ ] Select the object and choose Copy Selected Style from the CSS Properties panel.
-- [ ] Give the object a name in the Layers panel.
+- [x] Give the object a name in the Layers panel.
 
 #### Q50. You have drawn objects on planes using the perspective grid, but now want to change the angles of the grid to new vanishing points and have the artwork update automatically. What option should be enabled to achieve this result?
 
@@ -378,7 +378,7 @@
 
 #### Q51. What happens when you assign a different color profile to an image?
 
-- [ ] The onscreen appearance stays the same, but the color values in the image will change.
+- [x] The onscreen appearance stays the same, but the color values in the image will change.
 - [ ] The onscreen appearance may change, but the color values in the image stay the same.
 - [ ] Neither the onscreen appearance nor the color values in the image will change. Only the metadata in File Info changes.
 - [ ] Both the onscreen appearance and the color values in the image will change
@@ -482,3 +482,19 @@
 - [x] V
 - [ ] S
 - [ ] T
+
+#### Q66. Why does the top point of this star appear different from the other points?
+
+![yellow star](images/010.png?raw=true)
+
+- [ ] The stroke has been outlined.
+- [ ] The stroke has a corner type of Bevel Join.
+- [x] The star is an open path with two overlapping points at the top.
+- [ ] The Limit value in the Stroke panel is less than the stroke width.
+
+#### Q67. When creating a new color swatch, how can you ensure that the appearance of objects colored with that swatch will update if you edit the swatch at a later time?
+
+- [ ] Give the swatch a custom name.
+- [x] Click **Global** in the **Swatch Options** dialog box.
+- [ ] Place the swatch in a color group.
+- [ ] Add the swatch to a Creative Cloud library.

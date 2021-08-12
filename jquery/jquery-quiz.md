@@ -179,7 +179,7 @@ $(this).animate({ top: '100', left: '100' }, 600, function () {
 - [x] `$('.feedback').addClass('success');`
 - [ ] `$('.feedback').css('.success');`
 
-#### Q8. Below is an example page snippet that includes a couple of messages in a list, and a code snippet that retrieves a few hundred messages from a API endpoints using AJAX. How might we add these items to the page snippet in a way that avoids performance problems with DOM insertions?
+#### Q8. The following page snippet includes a couple of messages in a list, and a code snippet that retrieves a few hundred messages from an API endpoint using AJAX. How can you add these new items to the .message-area--list element in the most performant way?
 
 ```html
 <div class="message-area">
@@ -188,19 +188,44 @@ $(this).animate({ top: '100', left: '100' }, 600, function () {
     <li>Existing message 2</li>
   </ul>
 </div>
+
+$.get('//example.com/api/v1/message').done(function (data) { var tonsOfItems = data.messages; // add
+all these messages to a large page });
 ```
 
+- [ ]
+
 ```js
-$.get('//example.com/api/v1/message').done(function (data) {
-  var tonsOfItems = data.messages;
-  // add all these messages to a large page
+tonsOfItems.map(function (item) {
+  $('.message-area--list').append('<li>' + item + '</li>');
 });
 ```
 
-- [x] `tonsOfItems.map(function(item) { $('.message-area--list').append('<li>'+item+'</li>'); });`
-- [ ] `var tonsOfListItems = tonsOfItems.map(function(item)) { return '<li>'+item+'</li>'; }); $('.message-area--list').append(tonsOfListItems.join(''));`
-- [ ] `Removing the event handlers with JavaScript will be slower than removing them $.each(tonsOfItems, function(idx, item) { $('<li>'+item+'</li>').appendTo($messageList); });`
-- [ ] `$.each(tonsOfItems, function(idx, item) { $('.message-area--list').append('<li>'+item+'</li>'); });`
+- [x]
+
+```js
+var tonsOfListItems = tonsOfItems.map(function (item) {
+  return '<li>' + item + '</li>';
+});
+$('.message-area--list').append(tonsOfListItems.join(''));
+```
+
+- [ ]
+
+```js
+CSS.$messageList = $('.message-area--list');
+$.each(tonsOfItems, function (idx, item) {
+  $('<li>' + item + '</li>').appendTo($messageList);
+});
+```
+
+- [ ]
+
+```js
+$.each(tonsOfItems, function (idx, item) {
+  $('.message-area--list').append('<li>' + item + '</li>');
+});
+```
 
 #### Q9. What is jQuery?
 
@@ -964,7 +989,7 @@ $('.item').parents('.navigation').css('font-weight', 'bold');
 
 - [ ] `$('#load-me').get('source.html#one');`
 - [ ] `$('#load-me').get('source.html #one');`
-- [ ] `$('#load-me').load('source.html #one');`
+- [x] `$('#load-me').load('source.html #one');`
 - [ ] `$('#load-me').load('source.html', '#one');`
 
 #### Q55. Given this HTML list and subsequent two lines of jQuery, what is the difference in the behavior of `.closest()` and `.parents()`?
@@ -1021,7 +1046,7 @@ function listResponder(evt) {
 ```
 
 - [ ] `$('.clickable-list).click(listResponder);`
-- [ ] `$('.clickable-list).on('click', 'li', listResponder);`
+- [x] `$('.clickable-list).on('click', 'li', listResponder);`
 - [ ] `$('.clickable-list).on('click, append', listResponder);`
 - [ ] `$('.clickable-list).each(function() { $(this).click(listResponder); });`
 
@@ -1030,7 +1055,11 @@ function listResponder(evt) {
 - [ ] `find() traverses only one level down, whereas children() selects anything inside the original element`
 - [ ] `$('p').find('a') finds all paragraphs inside links, whereas $('p').children('a') finds links within paragraph tags`
 - [ ] `.find() always searches the entire DOM tree, regardless of the original selection .children() searches only the immediate childern of an element`
-- [ ] `children() traverses only one level down, whereas find() selects anything inside the original element`
+- [x] `children() traverses only one level down, whereas find() selects anything inside the original element`
+
+[Source: https://api.jquery.com/find/](https://api.jquery.com/find/)
+
+**Explanation**:`Given a jQuery object that represents a set of DOM elements, the .find() method allows us to search through the descendants of these elements in the DOM tree and construct a new jQuery object from the matching elements. The .find() and .children() methods are similar, except that the latter only travels a single level down the DOM tree.`
 
 #### Q59. Consider the following markup, used to lay out three balls on the page, all hidden. How can you select the green ball, make it faded in over the course of three seconds, and log a console message when the animation has finished?
 
@@ -1133,4 +1162,118 @@ $('element-1').animate({ top: '+=100' }, {queue: 'custom'});
 $('element-2').animate({ top: '+=100' }, {queue: 'custom'});
 $('element-3').animate({ top: '+=100' }, {queue: 'custom'});
 $('custom').dequeue();
+```
+
+#### Q62. Given this checkbox, how can you determine whether a user has selected or cleared the checkbox? `<input type="checkbox" id="same-address" checked>`
+
+- [ ] by checking the value of `$('#same-address').val()`
+- [x] by checking the value of `$('#same-address').prop('checked')`
+- [ ] by checking the value of `$('#same-address').attr('checked')`
+- [ ] by checking the value of `$('#same-address').checked`
+
+#### Q63. In some projects, jQuery is not included as a file with an obvious version number (if it has been run through a minifier or other code bundler, for example). How can you detect programmatically what version of jQuery is active?In some projects, jQuery is not included as a file with an obvious version number (if it has been run through a minifier or other code bundler, for example). How can you detect programmatically what version of jQuery is active?
+
+- [ ] `jQuery.version()`
+- [ ] `jQuery.jquery`
+- [ ] `jQuery.prototype.version`
+- [x] `jQuery.fn.jquery`
+
+#### Q64. Given this snippet of HTML, how can you get the value of the text field using jQuery? Given this snippet of HTML, how can you get the value of the text field using jQuery? `<input type="text" class="form-control" id="firstName" placeholder="" value="" required="">`
+
+- [ ] `$('input[type=text]').val()`
+- [ ] `$('.form-control').val()`
+- [ ] `all of these answers`
+- [ ] `$('#firstName').val()`
+
+#### Q65. Which property of the jQuery event object references the DOM object that dispatched an event?Which property of the jQuery event object references the DOM object that dispatched an event?
+
+- [ ] target
+- [ ] self
+- [ ] source
+- [ ] object
+
+#### Q66. You want to write a plugin that creates a new traversal function—such as parent() and children()—and behaves like the ones jQuery includes out of the box. It needs to correctly modify the list of selections jQuery tracks internally, build up a list of additional items, and return the merged collection. What do you need to return on the last line of the function in order for this plugin to work correctly? You want to write a plugin that creates a new traversal function—such as parent() and children()—and behaves like the ones jQuery includes out of the box. It needs to correctly modify the list of selections jQuery tracks internally, build up a list of additional items, and return the merged collection. What do you need to return on the last line of the function in order for this plugin to work correctly?
+```
+$.fn.myTraverse = function() {
+   // ... setup
+
+   var additionalItems = [ /* some additional items for jQuery */ ];
+
+   return // return what?
+}
+```
+
+- [ ] `return this.append(additionalItems);return this.append(additionalItems);`
+- [ ] `return additionalItems.appendTo(this);return additionalItems.appendTo(this);`
+- [ ] `return this.pushStack(additionalItems);return this.pushStack(additionalItems);`
+- [ ] `return this.add(additionalItems);return this.add(additionalItems);`
+
+#### Q67. Given this snippet of HTML and jQuery code, what will the result look like? Given this snippet of HTML and jQuery code, what will the result look like?
+```html
+<ul class="items">
+   <li class="active">Item 1</li>
+   <li>Item 2</li>
+   <li>Item 3 <ul>
+      <li>Sub Item 1</li>
+      <li>Sub Item 2</li>
+   </ul></li>
+</ul>
+```
+
+`$('.items').find('.active').nextAll().addClass('after-active');`
+
+- [ ]
+```html
+<ul class="items">
+   <li class="active">Item 1</li>
+   <li class="after-active">Item 2</li>
+   <li class="after-active">Item 3
+      <ul>
+         <li>Sub Item 1</li>
+         <li>Sub Item 2</li>
+      </ul>
+   </li>
+</ul>
+```
+
+- [ ]
+```html
+<ul class="items">
+   <li class="active">Item 1</li>
+   <li class="after-active">Item 2</li>
+   <li class="after-active">Item 3
+      <ul class="after-active">
+         <li>Sub Item 1</li>
+         <li>Sub Item 2</li>
+      </ul>
+   </li>
+</ul>
+```
+
+- [ ] 
+```html
+<ul class="items">
+   <li class="active">Item 1</li>
+   <li class="after-active">Item 2</li>
+   <li class="after-active">Item 3
+      <ul>
+         <li class="after-active">Sub Item 1</li>
+         <li class="after-active">Sub Item 2</li>
+      </ul>
+   </li>
+</ul>
+```
+
+- [ ]
+```html
+<ul class="items">
+   <li class="active">Item 1</li>
+   <li class="after-active">Item 2</li>
+   <li class="after-active">Item 3
+      <ul class="after-active">
+         <li class="after-active">Sub Item 1</li>
+         <li class="after-active">Sub Item 2</li>
+      </ul>
+   </li>
+</ul>
 ```

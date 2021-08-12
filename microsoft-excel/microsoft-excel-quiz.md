@@ -67,12 +67,12 @@
 - [ ] 999.9,,
 - [ ] ###,###.0,
 
-#### Q10. When using Goal Seek, you can find a target result by varying \_\_\_ at most.
+#### Q10. When using Goal Seek, you can find a target result by varying \_ at most.
 
-- [x] three inputs
+- [ ] three inputs
 - [ ] four inputs
 - [ ] two inputs
-- [ ] one input
+- [x] one input
 
 #### Q11. In the image below, which option(s) can you select so that the appropriate field headers appear in cells A4 and B3 instead of the terms Row Labels and Column Labels, respectively?
 
@@ -144,14 +144,14 @@
 - [ ] The cell is comprised of 9 characters.
 - [ ] The number 9 appears once and only once within the cell.
 
-#### Q20. To ensure shapes and other objects are an equal left-to-right distance apart, select the shapes, click Page Layout > Align, and then click \_\_\_\_.
+#### Q20. To ensure shapes and other objects are an equal left-to-right distance apart, select the shapes, click Page Layout > Align, and then click \_.
 
 - [ ] Align Middle
 - [ ] Distribute Horizontally
 - [x] Distribute Vertically
 - [ ] Align Center
 
-#### Q21. An organization chart, which shows the hierarchy within a company or organization, is available as \_\_\_ that is included with Excel.
+#### Q21. An organization chart, which shows the hierarchy within a company or organization, is available as \_ that is included with Excel.
 
 - [ ] a 3D model
 - [x] SmartArt
@@ -248,7 +248,7 @@
 - [x] Sort the data in column D.
 - [ ] Sort the data in column E.
 
-#### Q34. When you sort a list of numerical value into ascending or descending order, the value in the middle of the list is the \_\_\_.
+#### Q34. When you sort a list of numerical value into ascending or descending order, the value in the middle of the list is the \_.
 
 - [ ] mode
 - [ ] modulus
@@ -292,7 +292,7 @@
 - [ ] a series of days identical to the initial date
 - [ ] a series of days exactly one year apart
 
-#### Q39. To discover how many cells in a range contain values that meet a single criterion, use the \_\_\_function.
+#### Q39. To discover how many cells in a range contain values that meet a single criterion, use the \_ function.
 
 - [ ] COUNT
 - [ ] SUMIFS
@@ -423,3 +423,234 @@
 - [ ] 43740.665218
 - [ ] 43740
 - [x] 665218
+
+#### Q57. Cell A2 contains the value 8 and cell B2 contains the value 9. What happens when cells A2 and B2 are merged and then unmerged?
+
+- [ ] Both values are lost.
+- [x] Cell A2 contains the value 8 and cell B2 is empty.
+- [ ] Cell A2 contains the value 8 and cell B2 contains the value 9.
+- [ ] Cell A2 contains the value 17 and cell B2 is empty.
+
+#### Q58. In the formula `=VLOOKUP(A1,D1:H30,3,FALSE)`, the lookup value (A1) is being looked for in **\_**.
+
+- [ ] column D
+- [x] columns D through H
+- [ ] column H
+- [ ] column F
+
+#### Q59. An .xlsx workbook is saved into .csv format. What is preserved in the new .csv file?
+
+- [x] cell values only
+- [ ] cell values and formats
+- [ ] cell values and formulas
+- [ ] cell value, formats, and formulas
+
+#### Q60. Which function, when entered into cell G7, allows you to determine the sum total of annual sles for market regions 18 and greater?
+
+![image](https://i.imgur.com/rZyGzER.png)
+
+- [ ] `=SUMIF(G2:G6,">17",F2:F6)`
+- [ ] `=SUM(G2:G6,">=18,F2:F6)`
+- [x] `=SUMIF(F2:F6,">=18",G2:G6)`
+- [ ] `=SUM(F2:F6,"18+",G2:G6)`
+
+#### Q61. Which function, when entered into cell F2 and then dragged to cell F6, returns the performance rating text (e.g., "Good", "Poor") for each representative?
+
+![image](https://i.imgur.com/Z6Kj8CE.png)
+
+- [x] `=RIGHT(E2,LEN(E2)-27)`
+- [ ] `=LEN(E2,MID(E2)-27)`
+- [ ] `=LEFT(E2,LEN(E2)-27)`
+- [ ] `=RIGHT(E2,MID(E2)-27)`
+
+#### Q62. What is `Colors[Inventory]` referring to here?
+
+`=SUMIFS(Colors[Inventory],Colors[Colors],"Orange")`
+
+- [ ] the Inventory worksheet in the Colors workbook
+- [ ] the Inventory column in the Colors table
+- [ ] the Colors worksheet in the Inventory workbook
+- [ ] the named range Colors[Inventory], which does not use Format as Table Feature
+
+#### Q63. Which VLOOKUP function, when entered into cell L2 and then dragged to cell L5, returns the average number of calls for the representative IDs listed in column J?
+
+![image](https://i.imgur.com/SAJTiQU.png)
+
+- [ ] `=VLOOKUP(A2,J2:L5,1,FALSE)`
+- [ ] `=VLOOKUP(J2,A$2:C$7,1,FALSE)`
+- [x] `=VLOOKUP(J2,A$2:C$7,3,FALSE)`
+- [ ] `=VLOOKUP(J2,A2:C7,3,FALSE)`
+
+`because we are interested in the value of the 3rd column of the table`
+
+#### Q64. Which formula calculates the total value of a single row of cells across a range of columns?
+
+- [ ] `=SUBTOTAL(C1:Y15)`
+- [ ] `=SUM(15L:15Z)`
+- [x] `=SUM(C15:Y15)`
+- [ ] `=SUM(C11:C35)`
+
+`the sum of columns C to Y for the same row 15`
+
+#### Q65. Which value is returned when you enter `=LEN(C3)` into cell F3?
+
+![image](https://i.imgur.com/DOUeapg.png)
+
+- [ ] 4
+- [x] 5
+- [ ] 3
+- [ ] 2
+
+#### Q66. How can you create the lower table from the top one when the tables are `not` linked?
+
+![image](https://i.imgur.com/2s1NJQP.png)
+
+- [ ] Select `Paste Special > Values.`
+- [x] Select `Paste Special > Transpose.`
+- [ ] Use the `TRANSPOSE` function
+- [ ] Click `Switch Rows & Columns`
+
+`because it needs to be transposed without creating a reference`
+
+#### Q67. Which function returns the number of characters in a text string in cell A1?
+
+- [ ] `=RIGHT(A1)-LEFT(A1)+1`
+- [x] `=LEN(A1)`
+- [ ] `=EXACT(A1)`
+- [ ] `=CHARS(A1)`
+
+#### Q68. Which formula, when entered into cell D2 and then dragged to cell D6, calculates the average total number of minutes spent on phone calls for each representative?
+
+![image](https://i.imgur.com/OPH8gt9.png)
+
+- [ ] `=B$2*C$2`
+- [ ] `=$C$2/$B$2`
+- [ ] `=C2/B2`
+- [x] `=B2*C2`
+
+#### Q69. The PivotTable below has one row field and two column fields. How can you pivot this table to show the column fields as subtotals of each value in the row field?
+
+![image](https://i.imgur.com/5owckbM.png)
+
+- [ ] On the PivotTable itself, drag each `Average` field into the row fields area.
+- [ ] Right-click a cel in the PivotTable and select `PivotTable Options > Classic PivotTable layout`.
+- [ ] In the `PivotTable Fields` pane, drag `Sum Values` from the `Columns` section to a location below the field in the `Rows` section.
+- [ ] In the `PivotTable Fields` pane, drag each field from the `Sum Values` section to the `Rows` section.
+
+### Q70. Which Excel feature allows you to hide rows or columns with an easily visible expand/collapse?
+
+![image](https://i.imgur.com/5RVF2Gd.png)
+
+- [x] grouping
+- [ ] filtering
+- [ ] hiding
+- [ ] cut and paste
+
+#### Q71. Monthly revenues of 2019 are entered in B2:M2, as shown below, To get year-to-date running total revenues, what formula should you enter in B3 and autofill through M3?
+
+![image](https://i.imgur.com/ZEz2A5x.png)
+
+- [ ] `=SUMIF($B$2:$M$2,"COLUMN($B$2:$M$2)<=COLUMN())")`
+- [x] `=SUM($B2:B2)`
+- [ ] `=SUM(OFFSET($A1,0,0,1,COLUMN()))`
+- [ ] `=B2+B3`
+
+`we are calculating the running total here`
+
+#### Q72. If a worksheet has the value 27 in cell B3, what value is returned by the `function =MOD(B3,6)`?
+
+- [ ] 4
+- [ ] 1
+- [ ] 5
+- [x] 3
+
+#### Q73. From which field list was the pivotTalble created?
+
+- [ ] rows:event, donor / values: Sum of amount
+- [ ] columns: event / row:donor / values: Sum of amount
+- [x] rows:donor, event / values: Sum of amount
+- [ ] filter: event / row:donor / values: Sum of amount
+
+#### Q74. In the worksheet shown below, cell C6 contains the `formula=VLOOKUP(A6,$F$2:$G$10,2,FALSE)`. What is the most likely reason that `#N/A` is returned in cell `C6` instead of mallory's `ID (2H54)`
+
+- [ ] The absolute/relative cell references in the formula are wrong
+- [ ] Cell A6 is not actualy text its a formula that need to be copied and pasted as a value
+- [ ] Column C in the lookup range is not sorted properly
+- [x] A trailing space probably exist in cell A6 or F7
+
+#### Q75. What is the difference between pressing the delete key and using the clear command in the Home tab's Editing group?
+
+- [ ] deletes removes the entire column or row. Clear removes the content from the column or row
+- [x] deletes removes formulas, values and hyperlinks. clear removes formulas, values, hyperlinks, formats, comments and notes
+- [ ] Delete removes the cell itself, shifting cells either up or to the left. Clear removes content and properties but does not muves cells
+- [ ] Delete removes formulas and values. clear removes formulas, values, hyperlinks, formats, comments and notes
+
+#### Q76. What is the intersection of a worksheet row and column?
+
+- [ ] cell
+- [x] selection
+- [ ] element
+- [ ] scalar
+
+#### Q77. In this PivotTable, the continuous variable weight is shown in the _Row_ field. Another continuous variable is in the _Sum Values_ field. It is important to reduce a long list of body weights to a smaller set of weight categories. How do you do this?
+
+![Excel-Q77](images/Q77.png?raw=true)
+
+- [ ] Use weight as a filter field as well as a row field in the PivotTable.
+- [ ] Use `IF()` to show weight by categories instead of by pounds.
+- [ ] Click the _Row Labels_ arrow and select _Group_.
+- [x] Right-click any row field value in the PivotTable and select _Group_.
+
+#### Q78. How can you drill down into a PivotTable to show details?
+
+- [ ] Select the cell into which you want to drill down, right-click, and select _Show Summary_.
+- [ ] Select the cell into which you want to drill down, right-click and select _Drill-down_.
+- [x] Select the cell into which you want to drill down and double-click.
+- [ ] Select the cell into which you want to drill down, right-click and select _Show Details > Summary Page_
+
+#### Q79. To ensure the VLOOKUP function returns the value of an exact match, what do you need to enter into the Range_lookup field?
+
+![Excel-Q79](images/Q79.png?raw=true)
+
+- [ ] 0
+- [ ] 1
+- [x] FALSE
+- [ ] TRUE
+
+#### Q80. Cell D2 contains the formula =B2-C2. What is the fastest way to copy that formula into cells D3:D501 (the bottom of the data set)?
+
+![Excel-Q80](images/Q80.png?raw=true)
+
+- [ ] Right-click D2 and select _Fill Down_.
+- [ ] Click D2's fill handle and drag it down to D501.
+- [ ] On the ribbon's _Data_ tab, select _Flash fill_.
+- [x] Double-click D2's fill handle.
+
+#### Q81. This data needs to be sorted by Group, then by Last Name, then by First Name. How do you accomplish this?
+
+![Excel-Q81](images/Q81.png?raw=true)
+
+- [ ]
+
+1. Rearrange the columns in this order: Group, Last Name, First Name.
+2. Right-click any of the headers.
+3. Select _Sort All_.
+
+- [ ]
+
+1. Select any cell in the dataset.
+2. In the _Data_ tab, click the _Sort_ button.
+3. Add two levels to the default level.
+4. Populate the _Sort-by_ fields in this order: Group, Last Name, First Name.
+
+- [x]
+
+1. Highlight the entire dataset.
+2. In the _Data_ tab, click the _Sort_ button. The headers appear.
+3. Drag the headers into this order: Group, Last Name, First Name.
+
+- [ ]
+
+1. Select a cell in the Group column, then sort.
+2. Select a cell in the Last Name column, then sort.
+3. Select a cell in the FIrst Name column, then sort.

@@ -78,10 +78,10 @@ let selected = pocket[1];
 let fruit = 'apple';
 ```
 
-- [ ] `let fuit = 'plum'`
-- [ ] `var fuit = 'plum'`
-- [ ] `const fuit = 'plum'`
-- [x] `fuit = 'plum'`
+- [ ] `let fruit = 'plum'`
+- [ ] `var fruit = 'plum'`
+- [ ] `const fruit = 'plum'`
+- [x] `fruit = 'plum'`
 
 #### Q10. What is the `<label>` element used for?
 
@@ -131,7 +131,7 @@ h1 {
 - [ ] date
 - [ ] password
 
-#### Q15. You have used `dispaly: none` in your stylesheet. Which users will be able to see or hear this content?
+#### Q15. You have used `display: none` in your stylesheet. Which users will be able to see or hear this content?
 
 - [ ] all users
 - [ ] users who can see the content on screen
@@ -365,9 +365,11 @@ const user = {
 #### Q38. Which choice does _not_ provide information on browser support for a particular CSS property?
 
 - [ ] the "Can I Use" website
-- [ ] the Web Platform Tests Suite
+- [x] the Web Platform Tests Suite
 - [ ] the CSS specification
 - [ ] MDN property pages
+
+[Web platform tests site](https://web-platform-tests.org/)
 
 #### Q39. You have a set of images that are slightly different sizes and aspect ratios. You don't mind if you crop off some of the image, but you want each image to completely fill a square box without being distorted. Which property and value would achieve this?
 
@@ -378,14 +380,76 @@ const user = {
 
 #### Q40. what does the CSS selector a[href$="org"] select?
 
-- [ ] all <a> tags whose href attribute begins with "org"
-- [ ] all <a> tags whose href attribute equals "org"
-- [x] all <a> tags whose href attribute ends with "org"
-- [ ] all <a> tags whose href attribute contains "org"
+- [ ] all \<a> tags whose href attribute begins with "org"
+- [ ] all \<a> tags whose href attribute equals "org"
+- [x] all \<a> tags whose href attribute ends with "org"
+- [ ] all \<a> tags whose href attribute contains "org"
 
-**#### Q41. Which choice <em>is not</em> of invoking strict mode in JavaScript?**
+#### Q41. Which choice <em>is not</em> of invoking strict mode in JavaScript?
 
 - [ ] it eliminates some JavaScript silent errors by changing them to throw errors.
 - [ ] it prohibits some syntax likely to be defined in future versions of ECMAScript.
-- [ ] it forces the writing of valid HTML and CSS.
+- [x] it forces the writing of valid HTML and CSS.
 - [ ] it fixes mistakes that make it difficult for JavaScript engines to perform optimizations.
+
+[MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
+
+#### Q42. In normal flow, some elements display as block elements default and others inline. which choice contains only block-level by default elements?\*\*
+
+- [ ] ul, li, a
+- [ ] p, b, h3
+- [ ] div, p, em
+- [x] div, main, h1
+
+#### Q43. Which line would you add to this code to add "Cosmos" to the list of currencies using JavaScript?
+
+```javascript
+var currencies = ['Bitcoin', 'Ethereum'];
+
+/* Missing line */
+console.log(currencies);
+```
+
+- [x] `currencies.push("Cosmos");`
+- [ ] `Array.append("Cosmos", currencies);`
+- [ ] `currencies.add("Cosmos");`
+- [ ] `currencies(2) = "Cosmos";`
+
+#### Q44. How would you change this code to make Vanilla selected by default?
+
+```javascript
+<input type="radio" value="strawberry">Strawberry
+<input type="radio" value="vanilla">Vanilla
+<input type="radio" value="chocolate">Chocolate
+```
+
+- [x] `<input type="radio" value="vanilla" checked>`
+- [ ] `<input type="radio" value="vanilla" check>`
+- [ ] `<input type="radio" value="vanilla" selected>`
+- [ ] `<input type="radio" value="vanilla" on>`
+
+#### Q45. **\_** moves an element completely out of the page's normal layout flow, like it is sitting on its own separate layer. From there, you can fix it in a position relative to the edges of the page's `<html>` element (or its nearest positioned ancestor element)?
+
+- [ ] Sticky positioning
+- [x] Absolute positioning
+- [ ] Relative positioning
+- [ ] Fixed positioning
+
+[Source: W3Schools](https://www.w3schools.com/css/css_positioning.asp)
+
+**position: absolute;**
+`An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.`
+
+#### Q46. You have created a box that has a height set with CSS. Which line of CSS would add scroll bars if the content is taller than the box, but leave no visible scroll bars if the content fits into the box?
+
+- [ ] .box { overflow: scroll; }
+- [ ] .box { overflow: scroll-x; }
+- [x] .box { overflow: auto; }
+- [ ] .box { overflow: none; }
+
+#### Q47. Which array method should you apply to run a function for every item within an array, returning an array of all items for which the function is true?
+
+- [ ] every()
+- [ ] map()
+- [ ] forEach()
+- [x] filter()

@@ -284,8 +284,10 @@ foreach(string employee in employeeQuery)
 
 - [ ] d
 - [ ] \a
-- [ ] \b
-- [x] \w
+- [x] \b
+- [ ] \w
+
+[Reference](https://www.regular-expressions.info/wordboundaries.html)
 
 #### Q33. To conform to the following interface, which of its members need to be implemented?
 
@@ -386,10 +388,10 @@ public static void Main(string[] args)
 
 `public class User {}`
 
-- [ ] mark the User class with the DeserializableAttribute
-- [ ] Declare it as public serializable class User {}
-- [x] Mark it with the SerializableAttribute // [Serializable] public class User {}
-- [ ] Declare it as private serializable class User{}
+- [ ] Mark the User class with the `DeserializableAttribute`.
+- [ ] Declare the class as `public serializable class User {}`.
+- [x] Mark the User class with the `SerializableAttribute` attribute.
+- [ ] Declare the class as `private serializable class User {}`.
 
 #### Q44. How would you write a delegate named ResultCallback with an int parameter named responseCode
 
@@ -509,3 +511,12 @@ public int Password
 - [ ] a custom variable type that can be used in abstract classes
 
 **Reference:** https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/
+
+#### Q56. What are the four keywords associated with exception handling in C#?
+
+- [ ] try, catch, valid, invalid
+- [ ] try, valid, finally, throw
+- [x] try, catch, finally, throw
+- [ ] finally, throw, valid, invalid
+
+**Reference:** [Tutorial Point](https://www.tutorialspoint.com/csharp/csharp_exception_handling.htm#:~:text=Exceptions%20provide%20a%20way%20to,catch%2C%20finally%2C%20and%20throw.)

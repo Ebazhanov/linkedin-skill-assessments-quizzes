@@ -416,7 +416,7 @@
 - [x] D
 - [ ] B
 
-#### Q53. Where do you click to adjust the blending mode for a Smart Filter?
+#### Q53. Where do you find natural media brushes?
 
 - [ ] Photoshop does not have natural media brushes.
 - [ ] In the **Brushes** panel, select a brush and then select **Convert to natural media**.

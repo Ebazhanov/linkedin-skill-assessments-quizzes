@@ -49,7 +49,7 @@ NSInteger i = str.integerValue;
 - [ ] 1,2
 - [ ] Nothing, since this code contains an error.
 
-#### Q5. Property defaults include `**\_\_\_**`?
+#### Q5. Property defaults include \_?
 
 - [x] atomic/strong
 - [ ] atomic/weak
@@ -181,7 +181,7 @@ NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding]
 - [ ] It is inline.
 - [ ] This code contains an error.
 
-#### Q19. Structs can have `**\_\_\_**`?
+#### Q19. Structs can have \_?
 
 - [ ] functions
 - [ ] initializers
@@ -279,7 +279,7 @@ foo(5);
 - [ ] Sets are ordered, unique values.
 - [ ] Sets can contain nils.
 
-#### Q29. Dot notation can be used for `**\_\_\_**`?
+#### Q29. Dot notation can be used for \_?
 
 - [ ] nothing, as they're never used in Objective-C
 - [ ] function calls only
@@ -358,3 +358,27 @@ foo(5);
 - [ ] strong
 - [ ] weak
 - [x] atomic
+
+#### Q36. What is wrong with this line of code?
+
+```
+int temp = 1==1;
+```
+
+- [ ] `temp` is a keyword.
+- [ ] 1==1 is invalid.
+- [ ] 1==1 evaluates to a Boolean.
+- [x] Nothing is wrong with it.
+
+#### Q37. What is special about the code within this block?
+
+```
+dispatch_async(dispatch_get_main_queue(), ^{
+// code
+});
+```
+
+- [x] It executes on the main queue.
+- [ ] It is the last code to run before the app goes inactive.
+- [ ] It executes on a background thread.
+- [ ] It is queued to execute in the background.

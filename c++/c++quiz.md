@@ -1087,10 +1087,10 @@ void std::mutex::lock(){
 
 #### Q62. Which STL class is the best fit for implementing a phonebook? Suppose each entry contains a name and a phone number, with no duplicates, and you want to have lookup by name.
 
-- [] std::priority_queue
-- [x] std::map
-- [] std::vector
-- [] std::list
+- [ ] `std::priority_queue`
+- [x] `std::map`
+- [ ] `std::vector`
+- [ ] `std::list`
 
 #### Q63. What is the main difference between these two Functions?
 

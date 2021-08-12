@@ -296,3 +296,44 @@ Note: Free trial doesn't have the organizations.
 - [ ] Specify a decryption key and version with the same name as the encryption key and version. The name key and that version must be enabled.
 - [ ] Specify the decryption key with the same name as the encryption key. The named key and that version must be enabled.
 - [ ] Specify a decryption key and version with the same name as the encryption key and version. At least one version of a key with that name must be enabled.
+
+#### Q43. You want to encrypt a Compute Engine. What do you need to do?
+
+- [x] Nothing. Images are encrypted by default with a Google-managed key.
+- [ ] Nothing. Images are encrypted by default with a customer-managed key.
+- [ ] Associate you image with a customer-managed key to encrypt it.
+- [ ] Associate you image with a Google-managed key to encrypt it.
+
+[Reference](https://cloud.google.com/compute/docs/disks/customer-supplied-encryption)
+
+#### Q44. You want to quickly evaluate Cloud Filestore. What are the steps, in order, to set up a test environment?
+
+- [ ]
+  ```
+  Create a Filestore instance.
+  Mount the fileshare from that instance on a client VM instance.
+  Create a Compute Instance VM to be the client.
+  Create a file on the mounted fileshare.
+  ```
+- [ ]
+  ```
+  Create a Filestore instance.
+  Mount the fileshare from that instance on a client VM instance.
+  Create a file on the mounted file share.
+  Create a Compute Instance VM to be the client.
+  ```
+- [x]
+  ```
+  Create a Compute Instance VM to be the client.
+  Create a Filestore instance.
+  Mount the file share from that instance on a client VM instance.
+  Create a file on the mounted fileshare.
+  ```
+- [ ]
+  ```
+  Create a Compute Instance VM to be the client.
+  Mount the fileshare from that instance on a client VM instance.
+  Create a file on the mounted file share.
+  ```
+
+[Reference](https://cloud.google.com/filestore/docs/quickstart-console)

@@ -319,6 +319,8 @@
 
 #### Q42. When working with objects in your drawings, you normally define their properties via their respective layers. However, you can define individual object properties with the Properties panel on the Home tab of the AutoCAD ribbon. Individual color and linetype can be defined there, along with what other typical object property?
 
+![q42](images/q42_autocad.png)
+
 - [ ] description
 - [x] plottable or not plottable
 - [ ] linetype scale
@@ -382,10 +384,10 @@
 
 #### Q51. When using the OFFSET command, you specify an offset distance and then select the object you want to offset. How do you then specify which side of the original object to offset?
 
-- [x] Use the Tab key to alternate which side you want to offset to.
-- [ ] Then press Enter (Windows) or Return (Mac) to confirm.
+- [ ] Use the Tab key to alternate which side you want to offset to. Then press Enter (Windows) or Return (Mac) to confirm.
+- [ ] Move the cursor to the appropriate side of the original object and the OFFSET command automatically offsets that side.
 - [ ] Right-click and use options on the shortcut menu.
-- [ ] Click to the side of the original object where you want the offset object to appear.
+- [x] Click to the side of the original object where you want the offset object to appear.
 
 #### Q52. When using the ELLIPSE command with the Axis, End, and Center methods, how many axes are needed to form an ellipse?
 
@@ -533,3 +535,35 @@
 - [ ] the Plot dialog boxt
 - [ ] batch plotting
 - [x] Page Setup Manager (Windows) or Page Setup (Mac)
+
+#### Q73. Using the Array command, you have the option to create an associative array. What does this mean?
+
+- [ ] When dimensioning an array, the dimensions displayed are associative.
+- [x] The arrayed objects becomes a single entity and, when selected, display as a single entity.
+- [ ] The arrayed objects become associated to the X and Y coordinates used for the array.
+- [ ] The array is associated to the linetype scale.
+
+#### Q74. When drawing a Start, Center, End arc, which key do you press to draw the arc in a clockwise direction?
+
+- [ ] C (clockwise)
+- [ ] Alt
+- [ ] D (direction)
+- [x] Ctrl
+
+#### Q75. When using the POLYGON command in AutoCAD, you can create an inscribed polygon and a circumscribed polygon. What other type of polygon is available?
+
+![q75](images/q75_autocad.png)
+
+- [ ] side polygon
+- [ ] polyline polygon
+- [ ] line polygon
+- [ ] edge polygon
+
+#### Q76. When using blocks in a drawing, a selected block displays only one grip: the insertion point. How would you get a block to display all of its associated grips?
+
+![q76](images/q76_autocad.png)
+
+- [ ] Change the GRIPBLOCK system variable to 1.
+- [ ] Select the block and change it in the Properties palette.
+- [ ] Change the GRIPBLOCK system variable to 0.
+- [ ] Select the block and change it in the right-click shortcut menu.

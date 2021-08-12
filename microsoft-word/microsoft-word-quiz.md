@@ -179,9 +179,7 @@ Read carefully. It's not about recovering, but only the last recent file!
 - [ ] Find and Replace
 - [x] AutoCorrect Options
 
-Explanation:
-
-The keyword here is creating a "shortcut" which is set with the Autocorrect Options by navigating to File -> Options -> Proofing -> AutoCorrect Options -> Replace text as you type.
+**Explanation:** The keyword here is creating a "shortcut" which is set with the Autocorrect Options by navigating to File -> Options -> Proofing -> AutoCorrect Options -> Replace text as you type.
 
 #### Q25. Your document contains two columns of content with a vertical line between the columns, as shown. From where can you delete the line?
 
@@ -192,9 +190,7 @@ The keyword here is creating a "shortcut" which is set with the Autocorrect Opti
 - [ ] Insert > Line > Vertical
 - [ ] Insert > Line > Remove
 
-Explanation:
-
-Layout -> Columns -> More columns -> Line between
+**Explanation:** Layout -> Columns -> More columns -> Line between
 
 #### Q26. When you crop an image in a document, what happens to the image and the overall document file size?
 
@@ -303,7 +299,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] B and C
 - [ ] A and D
 
-Hint:
+**Hint:**
 
 (TM) : Unregistered trademark symbol  
 (R): Registered trademark symbol
@@ -322,7 +318,7 @@ Hint:
 - [ ] column break
 - [x] page break
 
-#### Q41. You want to capture all the content and design elements in your current document, so you can use them as a starting point when creating new documents. To do so, save the current document as **\_\_\_**.
+#### Q41. You want to capture all the content and design elements in your current document, so you can use them as a starting point when creating new documents. To do so, save the current document as **\_**.
 
 - [x] a template file
 - [ ] a PDF
@@ -343,9 +339,7 @@ Hint:
 - [ ] Use the Section Break command.
 - [ ] Use the Split Cells command.
 
-Explanation:
-
-Tables Layout tab -> Merge group -> Split Table
+**Explanation:** Tables Layout tab -> Merge group -> Split Table
 
 #### Q44. What can you **NOT** create from a Word document?
 
@@ -354,9 +348,7 @@ Tables Layout tab -> Merge group -> Split Table
 - [x] a multipage website
 - [ ] a Word 2003 XML document
 
-Explanation:
-
-Each Word document can be saved as a Web Page.
+**Explanation:** Each Word document can be saved as a Web Page.
 
 #### Q45. How can you add a manual line break to a paragraph?
 
@@ -433,7 +425,7 @@ D. DropBox
 - [ ] A
 - [ ] A, B, C, D
 - [ ] A, B, C
-- [ ] A or B
+- [x] A or B
 
 #### Q55. Why is it important to use alternative text for objects in your document?
 
@@ -472,16 +464,19 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 #### Q58. When you insert a picture into a document, what happens to the picture?
 
 - [ ] Word stretches the photo to fill the page.
-- [ ] Word scales the image to the largest size possible to fit within the height or width of the page.
+- [x] Word scales the image to the largest size possible to fit within the height or width of the page.
 - [ ] Word converts the photo's file format.
 - [ ] Word analyzes and corrects the image for tone and color.
+
+[Reference link](https://support.microsoft.com/en-us/office/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344)
 
 #### Q59. When working with Track Changes, what is the difference between Simple Markup and all Markup?
 
 - [ ] Simple Markup shows the final version without inline markups; All Markups shows the final version with inline markups.
-- [ ] Simple Markup shows the markup versions by one selected author; All Markup shows the combined markup version of all authors.
+- [x] Simple Markup shows the markup versions by one selected author; All Markup shows the combined markup version of all authors.
 - [ ] Simple Markup shows the revisions of one selected author in the Review pane; All Markup shows the revisions of all authors with inline markups.
 - [ ] Simple Markup shows the final version with inline markups; All Markup shows the final version without inline markups.
+      [Reference link](https://support.microsoft.com/en-us/office/video-track-changes-and-show-markup-3faf8a07-26ed-4b76-b6a0-43cca013e6d3)
 
 #### Q60. You want to set a wider inside margin to accommodate binding a document where pages are printed on both sides. Which option should you choose in the Page Setup dialog box?
 
@@ -494,7 +489,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 
 - [ ] a 3D model
 - [ ] an equation
-- [ ] a sketch
+- [x] a sketch
 - [ ] a symbol
 
 #### Q62. You're finalizing a document that contains some high-resolution images. You want to reduce the picture size while ensuring image quality is adequate for online viewing. What is a best-practice approach?
@@ -514,3 +509,33 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [x] Document Inspector
 
 [Reference](https://support.microsoft.com/en-us/topic/remove-hidden-data-and-personal-information-by-inspecting-documents-presentations-or-workbooks-356b7b5d-77af-44fe-a07f-9aa4d085966f#:~:text=Click%20File%20%3E%20Info%20%3E%20Remove%20Personal,from%20the%20document%20check%20box.)
+
+#### Q64. What chart type cannot be used for more than one data series?
+
+- [x] Pie
+- [ ] Column
+- [ ] Line
+- [ ] Bar
+
+#### Q65. What is the difference between a footnote and an endnote?
+
+- [ ] An endnote always appears on the bottom of the same page that it references
+- [ ] Footnote use Arabic numerals and endnotes use letters.
+- [x] A footnote is placed at the bottom of the page, and an endnote is placed at the end of the document
+- [ ] A footnote is placed in teh page footer and an endnote is placed on a blank page at the end of the document
+
+#### Q66. In the image below, where do you click to hide comments when a document prints?
+
+![image](https://i.imgur.com/JjdzceL.png)
+
+- [ ] A
+- [x] B
+- [ ] C
+- [ ] D
+
+#### Q67. Which page orientation should you select to accommodate a wide chart or table?
+
+- [ ] Tall
+- [x] Portrait
+- [ ] Wide
+- [ ] Landscape

@@ -259,7 +259,7 @@
 - [ ] a document databse
 - [x] a graph database
 
-#### Q38. You are developing a model for a graph databse. Your data will be moved from a relatinal databse into Neo4j. Which of these transformations apply?
+#### Q38. You are developing a model for a graph database. Your data will be moved from a relational database into Neo4j. Which of these transformations apply?
 
 - [ ] Rows become labes: bales become nodes.
 - [ ] Tables become labels: rows become nodes.
@@ -399,3 +399,17 @@ MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 - [ ] A graph database
 - [ ] A key-value database
 - [ ] A columnstore database
+
+#### Q54. You need to create a data store for the catalog for your new ecommerce application. Your company is a startup, so the catalog schema may evolve. Which do you choose?
+
+- [ ] Neo4j
+- [ ] Redis
+- [ ] MySQL
+- [x] MongoDB
+
+#### Q55. You need to select a NoSQL database for heavy aggregate query workloads. Which type do you choose?
+
+- [ ] graph
+- [ ] key-value
+- [ ] document
+- [x] columnstore

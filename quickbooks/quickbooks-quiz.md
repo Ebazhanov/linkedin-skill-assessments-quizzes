@@ -12,7 +12,7 @@
 - [ ] rent
 - [ ] accounting fees
 - [ ] legal services
-- [ ] sales taxes
+- [x] sales taxes
 
 #### Q3. What is the easiest way to set up multiple companies, with the same owner, in QuickBooks?
 
@@ -321,3 +321,10 @@
 - [ ] Adds net profit to an Owner's or Shareholder's Equity account.
 - [ ] Adds net profit to Stockholder's Equity.
 - [ ] Adds net profit to Retained Earnings.
+
+#### Q47. Where does QuickBooks get the billable time and costs information when you invoice for time and costs?
+
+- [ ] from the billable costs uploaded from an Excel workbook
+- [ ] from the billable time entered on timesheets
+- [ ] from you manually entering the line items on the invoice
+- [x] from the billable time entered on timesheets and/or billable costs entered through checks and bills
