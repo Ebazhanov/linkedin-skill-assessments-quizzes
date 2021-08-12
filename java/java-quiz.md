@@ -1235,6 +1235,23 @@ class Main {
 - [ ] "hello"
 - [ ] ????
 
+### 90. What code would you use in Constructor A to call Constructor B?
+
+```java
+public class Jedi {
+  /* Constructor A */
+  Jedi(String name, String species){}
+  
+  /* Constructor B */
+  Jedi(String name, String species, boolean followsTheDarkSide){}
+  }
+```
+
+- [ ] Jedi(name, species, false)
+- [ ] new Jedi(name, species, false)
+- [x] this(name, species, false)
+- [ ] super(name, species, false)
+=======
 **Note:** This code won't compile, possibly broken code sample
 
 #### Q90. How would you use the TaxCalculator to determine the amount of tax on $50?

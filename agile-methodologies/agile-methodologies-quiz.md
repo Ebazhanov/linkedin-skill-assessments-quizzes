@@ -545,3 +545,10 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [ ] Embrace servant leadership.
 - [ ] Remove impediments
 - [x] Estimate story points.
+
+#### Q77. The team is complaining that they send request for clarification to the Product Owner, but these requests go unanswered. What action should you take?
+
+- [ ] If there is a question about story, tell the developers to use their best judgement, avoid delay, and discuss the issue in sprint review.
+- [ ] Send a note to the Product Owner saying the delays in completing the work will be their responsibility, not the team's.
+- [ ] Develop a service-level agree (SLA) that defines certain response times for different types of request and ask the Product Owner to sign off on it.
+- [x] Schedule a problem-solving session with the Product Owner and the other team members.
