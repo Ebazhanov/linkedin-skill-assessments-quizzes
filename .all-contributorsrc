@@ -4692,6 +4692,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "js-venus",
+      "name": "js-venus",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62536093?v=4",
+      "profile": "https://github.com/js-venus",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
