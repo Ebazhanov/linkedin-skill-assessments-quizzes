@@ -427,7 +427,7 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 
 - [ ] Cohesion. A solution is to show that each module has certain responsibilities and to use an anticohesive design pattern.
 - [ ] Encapsulation. A solution is to implement one of the SOLID principles to ensure the modules do not encapsulate with each other.
-- [ ] Coupling. A solution is to refactor the code to be loosely coupled by using inversion of control and dependency injection.
+- [x] Coupling. A solution is to refactor the code to be loosely coupled by using inversion of control and dependency injection.
 - [ ] Dependency. A solution is to implement polymorphism and abstraction to change and extract dependent elements of a module so that it functions on its own.
 
 #### Q58. **\_** describes an aggregation
