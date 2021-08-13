@@ -398,3 +398,12 @@
 - [x] `dcgpofix.exe`
 - [ ] `dcdiagfix.exe`
 - [ ] `ntdsutil.exe`
+
+#### Q53. Your JavaScript app hosted in Azure App Service needs to be able to make calls to a remote domain in another Azure region. Which App Service feature do you need to configure?
+
+- [x] `CORS`
+- [ ] `deployment slots`
+- [ ] `WebJobs`
+- [ ] `custom domains`
+
+As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-rest-api): The Answer should be CORS (Cross Origin Ressource Sharing)
