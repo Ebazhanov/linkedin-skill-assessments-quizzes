@@ -816,3 +816,73 @@ a = a^2;
 - [ ] built-in functions
 - [ ] functions within the current file
 - [ ] functions within the current directory
+
+#### Q54. Which choice is the correct syntax for declaring a function that returns the input value as the output?
+
+```
+function mystery_func(a) :
+    return a
+```
+
+- []
+
+```
+function b = mystery_func(a)
+    b = a;
+end
+```
+
+- [x]
+
+```
+def b = mystery_func(a)
+    b = a;
+end
+```
+
+- [ ]
+
+```
+function mystery_func(a)
+    b = a;
+    return b;
+end
+```
+
+[Reference](https://mathworks.com/help/matlab/ref/function.html)
+
+#### Q55. What is the state of a at the end of this code?
+
+```
+a = [1 2; 3 4];
+b = a(:,2);
+c = b + 3;
+a(1:2,1) = c;
+```
+
+```
+a =
+    6   3
+    7   4
+```
+- []
+```
+a =
+    5   2
+    7   4
+```
+- [x]
+```
+a =
+    5
+    7
+```
+- []
+```
+a =
+    6
+    7
+```
+- []
+
+[Reference](https://mathworks.com/company/newsletters/articles/matrix-indexing-in-matlab.html)
