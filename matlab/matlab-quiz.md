@@ -824,7 +824,7 @@ function mystery_func(a) :
     return a
 ```
 
-- []
+- [ ]
 
 ```
 function b = mystery_func(a)
@@ -867,7 +867,7 @@ a =
     6   3
     7   4
 ```
-- []
+- [ ]
 ```
 a =
     5   2
@@ -879,12 +879,12 @@ a =
     5
     7
 ```
-- []
+- [ ]
 ```
 a =
     6
     7
 ```
-- []
+- [ ]
 
 [Reference](https://mathworks.com/company/newsletters/articles/matrix-indexing-in-matlab.html)
