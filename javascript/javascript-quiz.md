@@ -897,3 +897,33 @@ const foo = {
 - [ ] Trailing commas are not allowed in JavaScript.
 - [ ] Functions cannot be declared as properties of objects.
 - [x] Nothing, there are no errors.
+
+#### Q83. What wil be logged to the console?
+
+```js
+console.log("I");
+setTimeout(() => {
+    console.log("love")
+}, 0);
+console.log("Javascript!");
+```
+
+- [x] 
+``` 
+I
+Javascript!
+love
+```
+- [ ] 
+```
+love
+I
+Javascript!
+```
+- [ ] The output may change with each execution of code and cannot be determined.
+- [ ]
+```
+I 
+love
+Javascript!
+```
