@@ -581,10 +581,10 @@ li:nth-child(2n + 3) {
 
 #### Q46. What is not a valid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
 
-- [x] padding: 10px 10px 0px 0px;
+- [ ] padding: 10px 10px 0px 0px;
 - [ ] padding: 10px 0px;
 - [ ] padding: 10px 0;
-- [ ] padding: 10px 0px 10px 0px;
+- [x] padding: 10px 0px 10px 0px;
 
 #### Q47. Is there an error in this code? If so, find the best description of the problem
 
