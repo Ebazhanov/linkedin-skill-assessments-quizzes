@@ -4742,6 +4742,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "idurar",
+      "name": "Salah Eddine Lalami",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50052356?v=4",
+      "profile": "https://dev.to/lalami",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
