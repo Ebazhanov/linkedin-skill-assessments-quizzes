@@ -340,8 +340,8 @@
 
 - [ ] `db.people.getName();`
 - [ ] `db.people.reIndex({names: 1});`
-- [x] `db.people.getIndexKeys();`
-- [ ] `db.people.getIndexes();`
+- [ ] `db.people.getIndexKeys();`
+- [x] `db.people.getIndexes();`
 
 #### Q50. You are going to do a series of updates to multiple records. You find setting the multi option of the update() command too tiresome. What should you do instead?
 
