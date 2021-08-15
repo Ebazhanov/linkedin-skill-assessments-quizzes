@@ -403,7 +403,7 @@
 
 - [ ] allows you to do a calculation on the results
 - [ ] allows you to run queries on the server
-- [ ] allows you to select which fields should be in the return data
+- [x] allows you to select which fields should be in the return data
 - [ ] allows you to format the results for a display
 
 #### Q59. To remove a database and all of its records from MongoDB, what operator should you use?
