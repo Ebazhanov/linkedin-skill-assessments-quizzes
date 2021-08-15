@@ -460,4 +460,4 @@
 - [ ] db.customers.sort({name: -1}.find({})
 - [ ] db.customers.sort({name: -1})
 - [x] db.customers.find({}).sort({name: -1})
-- [ ] db.customers.find({}).sort({name: 1})C
+- [ ] db.customers.find({}).sort({name: 1})
