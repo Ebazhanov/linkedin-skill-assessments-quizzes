@@ -283,8 +283,8 @@
 #### Q41. From the MongoDB shell, how do you create a new document in the customers collection?
 
 - [ ] `db.customers.add({name: "Bob"})`
-- [ ] `db.customers.save({name: "Bob"})`
-- [x] `db.customers.create({name: "Bob"})`
+- [x] `db.customers.save({name: "Bob"})`
+- [ ] `db.customers.create({name: "Bob"})`
 - [ ] `db.customers.new({name: "Bob"})`
 
 #### Q42. Which field is required of all MongoDB documents?
@@ -460,4 +460,4 @@
 - [ ] db.customers.sort({name: -1}.find({})
 - [ ] db.customers.sort({name: -1})
 - [x] db.customers.find({}).sort({name: -1})
-- [ ] db.customers.find({}).sort({name: 1})
+- [ ] db.customers.find({}).sort({name: 1})C
