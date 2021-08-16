@@ -124,7 +124,7 @@
 #### Q18. The Project windows search box can filter the display of assets with text commands. Which command displays only texture assets?
 
 - [ ] T:mesh
-- [ ] T:texture
+- [x] T:texture
 - [ ] T:mesh
 - [ ] Show textures
 
