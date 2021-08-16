@@ -283,8 +283,8 @@
 #### Q41. From the MongoDB shell, how do you create a new document in the customers collection?
 
 - [ ] `db.customers.add({name: "Bob"})`
-- [ ] `db.customers.save({name: "Bob"})`
-- [x] `db.customers.create({name: "Bob"})`
+- [x] `db.customers.save({name: "Bob"})`
+- [ ] `db.customers.create({name: "Bob"})`
 - [ ] `db.customers.new({name: "Bob"})`
 
 #### Q42. Which field is required of all MongoDB documents?
@@ -340,8 +340,8 @@
 
 - [ ] `db.people.getName();`
 - [ ] `db.people.reIndex({names: 1});`
-- [x] `db.people.getIndexKeys();`
-- [ ] `db.people.getIndexes();`
+- [ ] `db.people.getIndexKeys();`
+- [x] `db.people.getIndexes();`
 
 #### Q50. You are going to do a series of updates to multiple records. You find setting the multi option of the update() command too tiresome. What should you do instead?
 
@@ -403,7 +403,7 @@
 
 - [ ] allows you to do a calculation on the results
 - [ ] allows you to run queries on the server
-- [ ] allows you to select which fields should be in the return data
+- [x] allows you to select which fields should be in the return data
 - [ ] allows you to format the results for a display
 
 #### Q59. To remove a database and all of its records from MongoDB, what operator should you use?
