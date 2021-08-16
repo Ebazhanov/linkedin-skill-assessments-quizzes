@@ -1,9 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
 [![All Contributors](https://img.shields.io/badge/all_contributors-490-orange.svg?style=flat-square)](#contributors-)
-
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -252,7 +250,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/SarahTeoh"><img src="https://avatars0.githubusercontent.com/u/28722169?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Teoh Tze Chuin(サラ)</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=SarahTeoh" title="Code">💻</a> <a href="#design-SarahTeoh" title="Design">🎨</a></td>
     <td align="center"><a href="http://xybervenom.github.io"><img src="https://avatars2.githubusercontent.com/u/40491811?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jayant Jain</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=xybervenom" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ayushsahu1999"><img src="https://avatars0.githubusercontent.com/u/46241471?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ayush Sahu</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ayushsahu1999" title="Code">💻</a></td>
-    <td align="center"><a href="https://greenglow123.wordpress.com/"><img src="https://avatars1.githubusercontent.com/u/43813666?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hridya Krishna R</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=hridyakrishna" title="Code">💻</a></td>
+    <td align="center"><a href="https://greenglow123.wordpress.com/"><img src="https://avatars1.githubusercontent.com/u/43813666?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hridya Krishna R</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=hridyakrishna" title="Code">💻</a> <a href="#design-hridyakrishna" title="Design">🎨</a></td>
     <td align="center"><a href="http://rahbal.github.io"><img src="https://avatars3.githubusercontent.com/u/5176514?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rahul Bali</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=rahbal" title="Code">💻</a> <a href="#design-rahbal" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/DevHabit"><img src="https://avatars0.githubusercontent.com/u/3051782?v=4?s=100" width="100px;" alt=""/><br /><sub><b>S.ZHeng</b></sub></a><br /><a href="#design-DevHabit" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=DevHabit" title="Code">💻</a> <a href="#business-DevHabit" title="Business development">💼</a></td>
   </tr>
