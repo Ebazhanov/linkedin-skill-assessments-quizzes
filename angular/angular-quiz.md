@@ -643,7 +643,7 @@ export class BioComponent { }
 <app-user-card></app-user-card>
 ```
 
-- [ ]
+- [x]
 
 ```javascript
 <app-user-card>
