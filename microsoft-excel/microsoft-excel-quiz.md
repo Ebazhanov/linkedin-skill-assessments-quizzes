@@ -654,3 +654,67 @@
 1. Select a cell in the Group column, then sort.
 2. Select a cell in the Last Name column, then sort.
 3. Select a cell in the FIrst Name column, then sort.
+
+#### Q82. How can you use Format Painter to apply the format of a single source cell to several nonadjacent destination cells?
+
+- [ ]
+
+  1. Right-click the source cell.
+  2. Click the Format Painter.
+  3. Right-click each destination cell.
+  4. Press Esc.
+
+- [ ]
+
+  1. Ctrl-click (Windows) or Command-click (Mac) each destination cell to select it.
+  2. Click the Format Painter.
+  3. Click the source cell.
+
+- [ ]
+
+  1. Select the source cell.
+  2. Double-click the Format Painter.
+  3. Click each destination cell.
+  4. Press Esc.
+
+- [ ]
+
+  1. Select the source cell.
+  2. Right-click the Format Painter.
+  3. Click each destination cell.
+  4. Press Esc.
+
+#### Q83. Which is a valid Excel formula?
+
+- [ ] `=(A5+B5)*B7`
+- [ ] `=A3-7(B3:B5+4)`
+- [ ] `=(A5+B5)B7`
+- [ ] `=B3^[2*/3]`
+
+#### Q84. Columns D, E, and F are hidden in your worksheet. What is one way to unhide these columns?
+
+- [ ] Select column G, then right-click and select `Unhide`.
+- [ ] Select column C, then right-click and select `Unhide`.
+- [ ] On the Page Layout tab, in the `Rows` and `Columns` section, select `Unhide`.
+- [ ] Click and drag to select columns C and G, then right-click and select `Unhide`.
+
+#### Q85. Before publishing a document, you want to identify issues that may make it difficult for people with disabilities to read. Which feature should you use?
+
+- [ ] Check Accessibility
+- [ ] Check Compatibility
+- [ ] Protect Document
+- [ ] Inspect Document
+
+#### Q86. How do you remove the background of an inserted image?
+
+- [ ] Select the image and, on the `Picture Tools Format` tab, use the `Compress Picture` feature.
+- [ ] Select the image and, on the `Design` tab, use the `Format Background` feature.
+- [ ] On the `Drawing Tools Format` tab, select `Graphics Fill` > `Remove Background`.
+- [ ] Select the image and, on the `Picture Tools Format` tab, click the Remove Background button.
+
+#### Q87. You want to group your slides based on their content to better organize your presentation. How would you accomplish this?
+
+- [ ] Create an outline in the outline view and rearrange slides.
+- [ ] Add a table of contents slide and link the remaining slides to it.
+- [ ] Add sections and move the slides into the appropriate sections.
+- [ ] Create custom shows and add the slides into the shows.
