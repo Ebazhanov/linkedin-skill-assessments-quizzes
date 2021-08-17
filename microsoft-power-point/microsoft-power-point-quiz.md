@@ -358,16 +358,30 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [x] Review > Compare
 - [ ] Review > Show Comments
 
-#### Q46.How do you promote subbullets to top-level bullets?
+#### Q47. How do you promote subbullets to top-level bullets?
 
 - [x] Press Shift+Tab.
 - [ ] Right-click the bulleted text and select Promote.
 - [ ] Press the Esc key.
 - [ ] Press the Spacebar.
 
-#### Q46.What is the term used for the arrangement of elements on a slide, such as Title and Content?
+#### Q48. What is the term used for the arrangement of elements on a slide, such as Title and Content?
 
 - [ ] scheme
 - [x] layout
 - [ ] theme
 - [ ] design
+
+#### Q49. After you select the chart icon in a placeholder, what is the next step to create a chart?
+
+- [ ] Select the chart elements.
+- [ ] Select the chart type.
+- [ ] Select the chart data in Excel.
+- [ ] Select the chart style.
+
+#### Q50. How would you show a correlation between the amount of chocolate a city consumes and the number of crimes committed?
+
+- [ ] Use a bar chart.
+- [ ] Use a column chart.
+- [ ] Use a line chart.
+- [ ] Use a scatter chart.

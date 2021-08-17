@@ -539,3 +539,10 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [x] Portrait
 - [ ] Wide
 - [ ] Landscape
+
+#### Q68. What is the first step in sharing a document that is currently saved on your local hard drive?
+
+- [ ] Get a sharing link for the document.
+- [ ] Create a new document in OneDrive.
+- [ ] Upload the document to OneDrive.
+- [ ] Send an invitation to the document.
