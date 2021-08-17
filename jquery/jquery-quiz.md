@@ -1193,6 +1193,7 @@ $('custom').dequeue();
 - [ ] object
 
 #### Q66. You want to write a plugin that creates a new traversal function—such as parent() and children()—and behaves like the ones jQuery includes out of the box. It needs to correctly modify the list of selections jQuery tracks internally, build up a list of additional items, and return the merged collection. What do you need to return on the last line of the function in order for this plugin to work correctly? You want to write a plugin that creates a new traversal function—such as parent() and children()—and behaves like the ones jQuery includes out of the box. It needs to correctly modify the list of selections jQuery tracks internally, build up a list of additional items, and return the merged collection. What do you need to return on the last line of the function in order for this plugin to work correctly?
+
 ```
 $.fn.myTraverse = function() {
    // ... setup
@@ -1209,71 +1210,83 @@ $.fn.myTraverse = function() {
 - [ ] `return this.add(additionalItems);return this.add(additionalItems);`
 
 #### Q67. Given this snippet of HTML and jQuery code, what will the result look like? Given this snippet of HTML and jQuery code, what will the result look like?
+
 ```html
 <ul class="items">
-   <li class="active">Item 1</li>
-   <li>Item 2</li>
-   <li>Item 3 <ul>
+  <li class="active">Item 1</li>
+  <li>Item 2</li>
+  <li>
+    Item 3
+    <ul>
       <li>Sub Item 1</li>
       <li>Sub Item 2</li>
-   </ul></li>
+    </ul>
+  </li>
 </ul>
 ```
 
 `$('.items').find('.active').nextAll().addClass('after-active');`
 
 - [ ]
+
 ```html
 <ul class="items">
-   <li class="active">Item 1</li>
-   <li class="after-active">Item 2</li>
-   <li class="after-active">Item 3
-      <ul>
-         <li>Sub Item 1</li>
-         <li>Sub Item 2</li>
-      </ul>
-   </li>
+  <li class="active">Item 1</li>
+  <li class="after-active">Item 2</li>
+  <li class="after-active">
+    Item 3
+    <ul>
+      <li>Sub Item 1</li>
+      <li>Sub Item 2</li>
+    </ul>
+  </li>
 </ul>
 ```
 
 - [ ]
-```html
-<ul class="items">
-   <li class="active">Item 1</li>
-   <li class="after-active">Item 2</li>
-   <li class="after-active">Item 3
-      <ul class="after-active">
-         <li>Sub Item 1</li>
-         <li>Sub Item 2</li>
-      </ul>
-   </li>
-</ul>
-```
 
-- [ ] 
 ```html
 <ul class="items">
-   <li class="active">Item 1</li>
-   <li class="after-active">Item 2</li>
-   <li class="after-active">Item 3
-      <ul>
-         <li class="after-active">Sub Item 1</li>
-         <li class="after-active">Sub Item 2</li>
-      </ul>
-   </li>
+  <li class="active">Item 1</li>
+  <li class="after-active">Item 2</li>
+  <li class="after-active">
+    Item 3
+    <ul class="after-active">
+      <li>Sub Item 1</li>
+      <li>Sub Item 2</li>
+    </ul>
+  </li>
 </ul>
 ```
 
 - [ ]
+
 ```html
 <ul class="items">
-   <li class="active">Item 1</li>
-   <li class="after-active">Item 2</li>
-   <li class="after-active">Item 3
-      <ul class="after-active">
-         <li class="after-active">Sub Item 1</li>
-         <li class="after-active">Sub Item 2</li>
-      </ul>
-   </li>
+  <li class="active">Item 1</li>
+  <li class="after-active">Item 2</li>
+  <li class="after-active">
+    Item 3
+    <ul>
+      <li class="after-active">Sub Item 1</li>
+      <li class="after-active">Sub Item 2</li>
+    </ul>
+  </li>
+</ul>
+```
+
+- [ ]
+
+```html
+<ul class="items">
+  <li class="active">Item 1</li>
+  <li class="after-active">Item 2</li>
+  <li class="after-active">
+    Item 3
+    <ul class="after-active">
+      <li class="after-active">Sub Item 1</li>
+      <li class="after-active">Sub Item 2</li>
+    </ul>
+  </li>
 </ul>
 ```

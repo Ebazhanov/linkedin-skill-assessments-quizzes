@@ -867,24 +867,31 @@ a =
     6   3
     7   4
 ```
+
 - [ ]
+
 ```
 a =
     5   2
     7   4
 ```
+
 - [x]
+
 ```
 a =
     5
     7
 ```
+
 - [ ]
+
 ```
 a =
     6
     7
 ```
+
 - [ ]
 
 [Reference](https://mathworks.com/company/newsletters/articles/matrix-indexing-in-matlab.html)

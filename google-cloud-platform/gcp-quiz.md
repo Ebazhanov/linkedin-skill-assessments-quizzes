@@ -310,30 +310,38 @@ Note: Free trial doesn't have the organizations.
 
 - [ ]
   ```
-  Create a Filestore instance.
-  Mount the fileshare from that instance on a client VM instance.
-  Create a Compute Instance VM to be the client.
-  Create a file on the mounted fileshare.
+  1. Create a Filestore instance.
+  2. Mount the fileshare from that instance on a client VM instance.
+  3. Create a Compute Instance VM to be the client.
+  4. Create a file on the mounted fileshare.
   ```
 - [ ]
   ```
-  Create a Filestore instance.
-  Mount the fileshare from that instance on a client VM instance.
-  Create a file on the mounted file share.
-  Create a Compute Instance VM to be the client.
+  1. Create a Filestore instance.
+  2. Mount the fileshare from that instance on a client VM instance.
+  3. Create a file on the mounted file share.
+  4. Create a Compute Instance VM to be the client.
   ```
 - [x]
   ```
-  Create a Compute Instance VM to be the client.
-  Create a Filestore instance.
-  Mount the file share from that instance on a client VM instance.
-  Create a file on the mounted fileshare.
+  1. Create a Compute Instance VM to be the client.
+  2. Create a Filestore instance.
+  3. Mount the file share from that instance on a client VM instance.
+  4. Create a file on the mounted fileshare.
   ```
 - [ ]
   ```
-  Create a Compute Instance VM to be the client.
-  Mount the fileshare from that instance on a client VM instance.
-  Create a file on the mounted file share.
+  1. Create a Compute Instance VM to be the client.
+  2. Create a Cloud Filestore instance.
+  3. Mount the fileshare from that instance on a client VM instance.
+  4. Create a file on the mounted file share.
   ```
 
 [Reference](https://cloud.google.com/filestore/docs/quickstart-console)
+
+#### Q45. You need to optimize spending for always-on Compute Engine virtual machines of certain sizes and types-with minimum effort. What do you do?
+
+- [ ] Analyze machine usage to verify that machines will be on for more that 25% of the time, and verify that contained use discounts have been automatically applied to your bill.
+- [ ] Analyze machine usage to verify that machines will be on for more that 25% of the time, and verify that sustained use discounts have been automatically applied to your bill.
+- [ ] Analyze machine usage to verify that machines will be on for more than 25% of the time and purchase contained use discounts.
+- [ ] Analyze machine usage to verify that machines will be on for more than 25% of the time and purchase sustained use discounts.

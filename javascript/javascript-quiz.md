@@ -901,29 +901,34 @@ const foo = {
 #### Q83. What wil be logged to the console?
 
 ```js
-console.log("I");
+console.log('I');
 setTimeout(() => {
-    console.log("love")
+  console.log('love');
 }, 0);
-console.log("Javascript!");
+console.log('Javascript!');
 ```
 
-- [x] 
-``` 
+- [x]
+
+```
 I
 Javascript!
 love
 ```
-- [ ] 
+
+- [ ]
+
 ```
 love
 I
 Javascript!
 ```
+
 - [ ] The output may change with each execution of code and cannot be determined.
 - [ ]
+
 ```
-I 
+I
 love
 Javascript!
 ```
