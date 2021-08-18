@@ -443,3 +443,10 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] inline function
 - [ ] undefined function
 - [ ] private function
+
+#### Q60. Which choice is a benefit of using dependency injection?
+
+- [x] loose coupling
+- [ ] code reusability
+- [ ] lazy initialization
+- [ ] data abstraction
