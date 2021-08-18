@@ -498,3 +498,17 @@
 - [x] Click **Global** in the **Swatch Options** dialog box.
 - [ ] Place the swatch in a color group.
 - [ ] Add the swatch to a Creative Cloud library.
+
+#### Q68. Which statement is true about working in Isolation mode?
+
+- [ ] You can print and export individual objects by isolating them first.
+- [ ] All non-isolated objects cannot be selected or edited.
+- [ ] You cannot isolate more than one object at a time.
+- [ ] You can Shift-click non-isolated objects to make them editable.
+
+#### Q69. When saving a file in Adobe Illustrator (AI) format, which setting is essential to ensure that someone using Acrobat Reader can open and view the file?
+
+- [ ] Preserve Paths
+- [ ] Create PDF Compatible File
+- [ ] Include Linked Files
+- [ ] Use Compression

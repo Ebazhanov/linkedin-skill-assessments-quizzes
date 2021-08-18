@@ -422,3 +422,24 @@
 - [ ] In the **Brushes** panel, select a brush and then select **Convert to natural media**.
 - [x] In the **Brushes** panel, select **Legacy Brushes**.
 - [ ] in the **Tool Presents** panel.
+
+#### Q54. The option bar, which is normally above the canvas, is not visible. Where would you go to reopen it?
+
+- [ ] View > Show > Show Extra Options
+- [ ] Window > Tool Presets
+- [ ] Window > Options
+- [ ] Edit > Toolbar
+
+#### Q55. What would you use to create a vector path for the purpose of altering a letter or shape?
+
+- [ ] Pencil tool
+- [ ] Vanishing Point
+- [ ] Pen tool
+- [ ] Trace Contour filter
+
+#### Q56. How do you browse images on your hard drive using the companion application that is included with the Adobe Creative Cloud plans?
+
+- [ ] Click `File > Browse in Bridge`
+- [ ] Click `File > Browse in Lightroom Classic CC.`
+- [ ] Use the Creative Cloud application.
+- [ ] Click `File > Browse in Lightroom CC`.
