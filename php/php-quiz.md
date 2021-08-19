@@ -5,9 +5,9 @@
 `echo 76 <=> '76 trombones';`
 
 - [ ] 1
-- [ ] -1
+- [x] -1
 - [ ] a parser error
-- [x] 0
+- [ ] 0
 
 ##### Q2. Which is the most secure way to avoid storing a password in clear text in database?
 
