@@ -109,14 +109,14 @@
 
 - [ ] Git Staging
 - [ ] History
-- [ ] Synchronize
+- [x] Synchronize
 - [ ] Git Repositories
 
 #### Q17. What is included in your wqorkspace folder?
 
 - [ ] a hidden .metadata folder
 - [ ] a hidden .metadata folder and projects imported into the workspace only
-- [ ] only projects imported into the workspace
+- [x] only projects imported into the workspace
 - [ ] a hidden .metadata folder and projects created in the workspace
 
 #### Q18. What can you not do in the Variables view?
