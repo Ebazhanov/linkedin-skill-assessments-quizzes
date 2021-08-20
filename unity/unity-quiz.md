@@ -34,7 +34,7 @@
 
 - [ ] Gamma color space
 - [ ] Depth of field
-- [ ] Foreshortening
+- [x] Foreshortening
 - [ ] Bloom
 
 #### Q6. What is Cinemachine Virtual Camera used for?
@@ -54,7 +54,7 @@
 #### Q8. Cinemachine offers tools for building gameplay behaviours. Which component makes spline based paths for moving objects?
 
 - [ ] Cinemachine Target Group
-- [ ] Cinemachine Smooth Path
+- [x] Cinemachine Smooth Path
 - [ ] Cinemachine Free Look
 - [ ] Cinemachine Brain
 
@@ -63,7 +63,7 @@
 - [ ] Cubits
 - [ ] Feet
 - [ ] Inches
-- [ ] Meters
+- [x] Meters
 
 #### Q10. The Collaborate feature of Unity Teams empowers whom to do what?
 
@@ -206,7 +206,7 @@
 - [ ] Select Assets > import Package, and then import the Cross-Platform Input Asset Package
 - [ ] Select Windows > Asset Management > Version Control, and then enter an identifier in the Source field
 - [ ] Select File > Build Settings. Then from the Build dialog box, select Android or iOS, and select the Bundle Identifier from the Compression Method drop down menu.
-- [ ] Select Edit > Project Settings > Player from the menu, and then expand the Other Settings tab
+- [x] Select Edit > Project Settings > Player from the menu, and then expand the Other Settings tab
 
 #### Q30. Rigidbody components may be added to objects with colliders to make them affected by physical forces. What does the IsKinematic property achieve?
 
@@ -272,7 +272,7 @@
 - [ ] Virtual reality
 - [ ] Augmented reality
 - [ ] Motion capture
-- [ ] Photogrammetry
+- [x] Photogrammetry
 
 #### Q38. Humanoid character assets, like NPCs and the player character, feature on Avatar object. Which statement best describes its purpose?
 
