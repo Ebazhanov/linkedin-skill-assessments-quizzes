@@ -37,6 +37,8 @@
 - [x] Foreshortening
 - [ ] Bloom
 
+https://docs.unity3d.com/2019.3/Documentation/Manual/CamerasOverview.html
+
 #### Q6. What is Cinemachine Virtual Camera used for?
 
 - [ ] To override standard scene cameras with cinematic behaviours
@@ -64,6 +66,9 @@
 - [ ] Feet
 - [ ] Inches
 - [x] Meters
+
+Unity's default units are in meters (Unreal Engine too). If you keep this in mind and model with your units alined to meters, the lighting system will work minimal artifacting.
+https://docs.unity3d.com/2019.3/Documentation/Manual/BestPracticeMakingBelievableVisuals1.html
 
 #### Q10. The Collaborate feature of Unity Teams empowers whom to do what?
 
@@ -156,6 +161,8 @@
 - [ ] Serializable
 - [x] SerializedField
 
+https://docs.unity3d.com/ScriptReference/SerializeField.html
+
 #### Q23. What is a technique for optimizing Unity UI elements?
 
 - [ ] Group static UI elements on one canvas, and dynamic elements on a separate canvas
@@ -172,6 +179,9 @@
 - [ ] It inserts 20 pixels of margin on all edges around the variable inside the Object Inspector
 - [ ] It inserts 20 pixels of empty space above the variable inside the Object Inspector
 - [x] It inserts 20 pixels of empty space below the variable inside the Object Inspector
+
+This is a great way to customize your inspector without writing a new inspector script for it.
+https://docs.unity3d.com/ScriptReference/SpaceAttribute.html
 
 #### Q25. Every time you double-click a C# script file from the Project window, Unity prints the message below (or something very similar) to the console. What is a reasonable step in trying to solve this? Cannot start process because a file name has not been provided
 
@@ -273,6 +283,10 @@
 - [ ] Augmented reality
 - [ ] Motion capture
 - [x] Photogrammetry
+
+When you use photogrammetry to scan in models from the real world, and bring in those models into Unity (or any renderer), you will notice that the lighting information is baked into the texture. You can remove the baked in lighting information with various tools online, but even Unity themeless wrote a custom tool for just this; check it out!
+https://github.com/Unity-Technologies/DeLightingTool
+https://github.com/Unity-Technologies/DeLightingTool/blob/master/Assets/DeLightingTool/Documentation/De-LightingTool.pdf
 
 #### Q38. Humanoid character assets, like NPCs and the player character, feature on Avatar object. Which statement best describes its purpose?
 
