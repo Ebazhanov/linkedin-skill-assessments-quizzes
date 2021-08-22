@@ -400,7 +400,7 @@
 - [x] insert into cars (make, model, year) values ('Ford', 'Mustang', 2002),
       ('Mercedes', 'C', 2003)
 
-#### Q45. You need an exact copy of a table with all columns and indexes. How?
+#### Q45. You need to make an exact copy of a table, with all columns and indexes. How can you get all of the information needed to accomplish this?
 
 - [ ] create table
 - [ ] clone table
@@ -421,12 +421,12 @@
 - [ ] drop table customers;
 - [x] drop temporary table customers;
 
-#### Q48. you need to run a complex query with recursive subqueries but without creating a stored procedure or a function. Which command or clause do you use?
+#### Q48. You need to run a complex query with recursive subqueries, but without creating a stored procedure or a function. Which command or clause do you use?
 
-- [ ] collate
-- [x] union
-- [ ] full join
-- [ ] with
+- [ ] COLLATE
+- [x] UNION
+- [ ] FULL JOIN
+- [ ] WITH
 
 #### Q49. Which choice is not a processing algorithm for database views?
 
@@ -698,12 +698,12 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [x] TIMESTAMP and DATETIME are both stored without time zone.
 - [ ] TIMESTAMP is stored in UTC values, and DATETIME is stored in without time zone.
 
-#### Q77. What is the equivalent of mysqladmin reload command?
+#### Q77. What is the equivalent of the mysqladmin reload command?
 
-- [ ] mysqladmind flush-threads
-- [ ] mysqladmind flush-tables
-- [x] mysqladmind flush-privileges
-- [ ] mysqladmind flush-all
+- [ ] mysqladmin flush-threads
+- [ ] mysqladmin flush-tables
+- [x] mysqladmin flush-privileges
+- [ ] mysqladmin flush-all
 
 #### Q78. Explain the security aspectof stored procedures
 
