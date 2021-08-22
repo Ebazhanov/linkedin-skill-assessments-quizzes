@@ -86,7 +86,7 @@
 - [ ] An interstitial pop-up is treated the same as a soft 404
 - [ ] The pop-up will be ignored, and the content of the page will be indexed correctly
 
-#### Q10. You notice a particular product in an e-commerce storefront is no longer indexed despite no technical issues. What is a likely reason for this?
+#### Q10. You notice a particular product in an e-commerce storefront is no longer indexed, despite no technical issues. What is a likely reason for this?
 
 - [x] No title or meta description tags were provided
 - [ ] The Keywords is too competitive
@@ -110,9 +110,8 @@
 #### Q13. You have been asked to help a big e-commerce brand optimize their website for search engines. They currently have thousands of products listed on their website. What is your most appropriate first step?
 
 - [ ] Recommend that they add more products
-- [x] WOrd on compressing image files
+- [x] Work on compressing image files
 - [ ] 302 redirect all product pages to URL that contains target keywords
-- [ ] 302 redirect all product ages to a URL that contains target keywords
 - [ ] Register the business with a Google My Business account.
 
 #### Q14. What Does The Term &quot;Sandbox&quot; Mean In SEO?
@@ -245,7 +244,7 @@
 - [ ] src
 - [x] alt
 
-#### Q27. You are researching keywords for a client and creating list for an optimization plan. Which is not a recommended method of creating keyword lists?
+#### Q27. You are researching keywords for a client and creating list for an optimization plan. Which is *not* a recommended method of creating keyword lists?
 
 - [ ] synonyms and related words
 - [ ] queries about benefits, features, problems
@@ -351,7 +350,7 @@
 - [ ] suggested search terms
 - [ ] related search queries
 - [x] keywords that match the search query
-- [ ] words with a <b> tag assigned in their meta description
+- [ ] words with a `<b>` tag assigned in their meta description
 
 #### Q40. Which acronym is used to describe the page a user sees after submitting a search?
 
