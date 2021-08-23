@@ -781,3 +781,12 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [ ] SET
 - [x] BIT
 - [ ] CHAR
+
+#### Q82. This diagram shows what type of relationship between customers and cars?
+
+![mysql picture](images/mysql_q80.png)
+
+- [ ] one-to-many
+- [ ] parent-child
+- [ ] many-to-many
+- [ ] many-to-one
