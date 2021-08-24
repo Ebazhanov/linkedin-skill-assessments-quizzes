@@ -70,7 +70,7 @@ if ($email === false) {
 - [ ] GET is intended for changing the server state and it carries more data than POST.
 - [ ] GET is more secure than POST and should be used for sensitive information.
 
-##### Q8. The ** operator is useful for sorting operations. It compares two values and returns an integer less than, equal to, or greater than 0 depending on whether on whether the value on the ** is less than, equal to, or greater than the other.
+##### Q8. The ** operator is useful for sorting operations. It compares two values and returns an integer less than, equal to, or greater than 0 depending on whether the value on the ** is less than, equal to, or greater than the other.
 
 - [ ] greater-than; right
 - [x] spaceship; left
