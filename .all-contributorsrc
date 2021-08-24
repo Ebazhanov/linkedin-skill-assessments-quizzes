@@ -4832,6 +4832,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "uno-sebastian",
+      "name": "Seabass",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15133386?v=4",
+      "profile": "https://www.linkedin.com/in/unosebastian/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
