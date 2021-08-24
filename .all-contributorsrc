@@ -4802,6 +4802,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "Selanda",
+      "name": "Sel Embee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64166375?v=4",
+      "profile": "https://www.thehelpfulhacker.com/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
