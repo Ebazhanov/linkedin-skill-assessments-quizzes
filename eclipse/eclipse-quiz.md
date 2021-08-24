@@ -108,7 +108,7 @@
 #### Q16. What view, within the Team component, displays the commits related to a particular project or file?
 
 - [ ] Git Staging
-- [ ] History
+- [x] History
 - [ ] Synchronize
 - [ ] Git Repositories
 
@@ -117,39 +117,39 @@
 - [ ] a hidden .metadata folder
 - [ ] a hidden .metadata folder and projects imported into the workspace only
 - [ ] only projects imported into the workspace
-- [ ] a hidden .metadata folder and projects created in the workspace
+- [x] a hidden .metadata folder and projects created in the workspace
 
 #### Q18. What can you not do in the Variables view?
 
 - [ ] monitor variables that are outside the scope of the current stack frame
 - [ ] set a breakpoint to track a particular instance
 - [ ] inspect the values of an object's fields
-- [ ] edit the value of a variable while the debugger is running your app
+- [x] edit the value of a variable while the debugger is running your app
 
 #### Q19. What is not a method stub that Eclipse will create for you in the New JUnit Test Case window?
 
 - [ ] tearDown()
-- [ ] setUpClass()
+- [x] setUpClass()
 - [ ] tearDownAfterClass()
 - [ ] setUp()
 
 #### Q20. What does the Problems view show?
 
-- [ ] all of the answers
+- [x] all of the answers
 - [ ] warnings and errors
 - [ ] code that does not match your formatting settings
 - [ ] threads containing errors
 
 #### Q21. When switching workspaces, what is preserved?
 
-- [ ] all preferences
+- [x] all preferences
 - [ ] none of these answers
 - [ ] the current perspective
 - [ ] preferences for a language (e.g., Java)
 
 #### Q22. How can you set files to save automatically when launching an application?
 
-- [ ] Click Window (Eclipse) -> Preferences -> Run/Debug -> Launching, and then select Save required dirty editors before launching.
+- [x] Click Window (Eclipse) -> Preferences -> Run/Debug -> Launching, and then select Save required dirty editors before launching.
 - [ ] Click Window (Eclipse) -> Preferences -> Java -> Editor -> Save Actions
 - [ ] Click File -> Save All.
 - [ ] Change the project's run configuration.
