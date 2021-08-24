@@ -1201,7 +1201,7 @@ article > p { color: green; }
 </article>
 ```
 
-- [ ] Paragraph 1 will be blue. Paragraph 2 will be green.Paragraph 1 will be blue. Paragraph 2 will be green.
-- [ ] Both paragraphs will be green.Both paragraphs will be green.
-- [ ] Paragraph 1 will be green. Paragraph 2 will be blue. Paragraph 1 will be green. Paragraph 2 will be blue.
-- [ ] Both paragraphs will be blue.Both paragraphs will be blue.
+- [ ] Paragraph 1 will be blue. Paragraph 2 will be green.
+- [ ] Both paragraphs will be green.
+- [x] Paragraph 1 will be green. Paragraph 2 will be blue.
+- [ ] Both paragraphs will be blue.
