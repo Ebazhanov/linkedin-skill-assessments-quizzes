@@ -822,3 +822,17 @@ class Comp extends React.Component {
 - [ ] Component
 
 This question might be an updated version of Q37.
+
+#### Q73. When using a portal, what is the first argument?
+
+```javascript
+ReactDOM.createPortal(x, y)
+```
+
+- [ ] the current state
+- [x] the element to render
+- [ ] the App component
+- [ ] the page
+
+**Explanation:**
+From official docs: [Portals](https://reactjs.org/docs/portals.html)
