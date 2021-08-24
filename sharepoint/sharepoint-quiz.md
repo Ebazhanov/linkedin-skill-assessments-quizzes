@@ -77,7 +77,7 @@
 - [x] required
 - [ ] disabled
 
-#### Q12. Which cloud based tool can you use to add form responses to a SharePoint list?
+#### Q12. Which cloud-based tool can you use to add form responses to a SharePoint list?
 
 - [ ] Forms
 - [ ] InfoPath
@@ -133,7 +133,7 @@
 - [ ] Following Content
 - [x] Hold
 
-#### Q20. When you create a user in Office365 to which SharePoint permissions group is the user automatically added as a member?
+#### Q20. When you create a user in Office365, to which SharePoint permissions group is the user automatically added as a member?
 
 - [ ] Time Site members
 - [ ] Time Site visitors
@@ -194,7 +194,7 @@
 - [ ] The site does not allow for external content.
 - [ ] The user's permissions are not correct.
 - [ ] The SharePoint External System Events feature is not enabled.
-- [ ] SharePoint Business Connectivity Services need to be configured.
+- [x] SharePoint Business Connectivity Services need to be configured.
 
 #### Q29. You have implemented a workflow for a document from a template, and have outlined the steps taken to create the workflow. Which order of steps is correct?
 
