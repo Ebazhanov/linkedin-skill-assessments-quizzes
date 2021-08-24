@@ -1,9 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-496-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-497-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -741,6 +739,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Suvradippaul"><img src="https://avatars.githubusercontent.com/u/68487263?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Suvradip Paul</b></sub></a><br /><a href="#design-Suvradippaul" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Suvradippaul" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/sharique5"><img src="https://avatars.githubusercontent.com/u/56303273?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sharique</b></sub></a><br /><a href="#design-sharique5" title="Design">🎨</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/unosebastian/"><img src="https://avatars.githubusercontent.com/u/15133386?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Seabass</b></sub></a><br /><a href="#design-uno-sebastian" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=uno-sebastian" title="Code">💻</a></td>
+    <td align="center"><a href="http://www.behance.net/ytliusvn"><img src="https://avatars.githubusercontent.com/u/13102859?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Penny Liu</b></sub></a><br /><a href="#design-ytliuSVN" title="Design">🎨</a></td>
   </tr>
 </table>
 
