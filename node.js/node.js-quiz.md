@@ -101,7 +101,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 - [ ] node -trace-warnings
 - [ ] node index.js --no-warnings
 
-#### Q15. How can you use the promise API with a callback-based function like child_process.exec?
+#### Q15. How can you use the promise API with a callback-based function such as child_process.exec?
 
 - [ ] new Promise(child_process.exec())
 - [ ] util.promisify(child_process.exec())
@@ -144,10 +144,10 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 
 #### Q20. Which module variable holds the resolved absolute path of the current module file?
 
-- [ ] `_pathname`
-- [ ] `_location`
-- [ ] `_flder`
-- [x] `_filename`
+- [ ] `__pathname`
+- [ ] `__location`
+- [ ] `__flder`
+- [x] `__filename`
 
 #### 21. If the child_process module methods are in scope, what is a current way to execute the command ps -ef using a child process?
 
@@ -281,10 +281,10 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 #### Q37. What are the arguments passed to the module wrapper function?
 
-- [ ] exports, **filename, **dirname
-- [ ] exports, process, require, module, **filename, **dirname
-- [ ] exports, module, **filename, **dirname
-- [x] exports, require, module, **filename, **dirname
+- [ ] exports, __filename, __dirname
+- [ ] exports, process, require, module, __filename, __dirname
+- [ ] exports, module, __filename, __dirname
+- [x] exports, require, module, __filename, __dirname
 
 #### Q38. Which library provides Node.js with the event loop?
 
@@ -342,7 +342,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] run, edit, print, loop
 - [ ] read, extend, print, loop
 
-#### Q46. Which file does node-gyp use to read the build configuration of module ?
+#### Q46. Which file does node-gyp use to read the build configuration of a module?
 
 - [ ] .gyprc
 - [x] binding.gyp
@@ -420,7 +420,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 **Explanation:** _From official docs: [https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line](https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line)_
 
-#### Q56. Which choice is not a global object?
+#### Q56. Which choice is *not* a Node global object?
 
 - [ ] process
 - [ ] exports
@@ -472,3 +472,10 @@ console.log(person);
 - [ ] `{ name: 'Jane' }`
 - [ ] `{}`
 - [ ] `Jane`
+
+#### Q62. Is it possible to write tests in Node.js without an external library?
+
+- [x] yes, through the assert module
+- [ ] yes, through the debugger module
+- [ ] yes, through the console module
+- [ ] no
