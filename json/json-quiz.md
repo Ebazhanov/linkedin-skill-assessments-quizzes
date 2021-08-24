@@ -783,3 +783,19 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] Yes, object keys are always ordered alphabetically.
 - [ ] Yes, but only when the object is first parsed.
 - [ ] No, you can never assume object keys will be in order.
+
+#### Q71. With what character should object keys be enclosed?
+
+- [ ] *
+- [ ] #
+- [ ] ^
+- [ ] "
+
+#### Q72. What is the maximum number of key/value pairs that JSON supports?
+
+- [ ] 10,000
+- [ ] 1000
+- [ ] There is no defined limit.There is no defined limit.
+- [ ] 1 million
+
+
