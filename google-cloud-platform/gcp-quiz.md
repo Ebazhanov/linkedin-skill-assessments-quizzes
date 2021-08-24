@@ -56,7 +56,7 @@ Note: Free trial doesn't have the organizations.
 - [ ] Upload the notebook to Google Colaboratory. Set the hardware accelerator to use GPU.
 - [x] Create a notebook instance with TPU. Upload the notebook to the instance.
 - [ ] Create a notebook instance with GPU. Upload the notebook to the instance.
-- [ ] Upload the notebook to Google Colaboratory. Set the hardware accelerator yo use TPU.
+- [ ] Upload the notebook to Google Colaboratory. Set the hardware accelerator to use TPU.
 
 #### Q9. You need to configure a data retention policy for a Cloud Storage bucket to govern how long objects in the bucket must be retained. What feature do you enable?
 
@@ -120,13 +120,6 @@ Note: Free trial doesn't have the organizations.
 - [ ] MySQL and Oracle
 - [ ] Redis and PostgreSQL
 - [x] MySQL and PostgreSQL
-
-#### Q18. You want to try out a machine-learning TensorFlow example notebook with the fewest configuration steps on GCP. What do you do?
-
-- [ ] Create a notebook instance with TPU. Upload the notebook to the instance.
-- [x] Create a notebook instance with GPU. Upload the notebook to the instance.
-- [ ] Upload the notebook to Google Colaboratory. Set the hardware accelerator to use GPU.
-- [ ] Upload the notebook to Google Colaboratory. Set the hardware accelerator to use TPU.
 
 #### Q19. You want to quickly test a single Docker container image that will start a stateless HTTP service on GCP. Which service do you select to host your container image?
 
