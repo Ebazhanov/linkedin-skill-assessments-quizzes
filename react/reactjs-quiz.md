@@ -833,3 +833,6 @@ ReactDOM.createPortal(x, y)
 - [x] the element to render
 - [ ] the App component
 - [ ] the page
+
+**Explanation:**
+From official docs: [Portals](https://reactjs.org/docs/portals.html)
