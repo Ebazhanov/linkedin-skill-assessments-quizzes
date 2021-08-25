@@ -932,3 +932,15 @@ I
 love
 Javascript!
 ```
+#### Q84. What will this code log to the console?
+
+```js
+const foo = [1, 2, 3];
+const [n] = foo;
+console.log(n);
+```
+
+- [x] 1
+- [ ] undefined
+- [ ] NaN
+- [ ] Nothing--this is not proper JavaScript syntax and will throw an error.
