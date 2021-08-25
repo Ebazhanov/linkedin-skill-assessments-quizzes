@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-499-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-500-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -744,6 +744,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="http://www.jatinderbhola.com"><img src="https://avatars.githubusercontent.com/u/12767363?v=4?s=100" width="100px;" alt=""/><br /><sub><b>jatinder bhola</b></sub></a><br /><a href="#design-jatinderbhola" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=jatinderbhola" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/misterqbit"><img src="https://avatars.githubusercontent.com/u/53399858?v=4?s=100" width="100px;" alt=""/><br /><sub><b>misterqbit</b></sub></a><br /><a href="#design-misterqbit" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=misterqbit" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Daniel-VS9"><img src="https://avatars.githubusercontent.com/u/87687898?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daniel-VS9</b></sub></a><br /><a href="#design-Daniel-VS9" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Daniel-VS9" title="Code">💻</a></td>
   </tr>
 </table>
 
