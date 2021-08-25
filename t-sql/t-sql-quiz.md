@@ -363,9 +363,9 @@ FROM Students
       SET @Counter = @Counter +1;
     END;
 
-- [x] There is no END WHILE statement;
+- [ ] There is no END WHILE statement; 
 - [ ] The local varaible is not available to the WHILE block.
-- [ ] The query causes an infinite loop.
+- [x] The query causes an infinite loop.
 - [ ] "Counter" is an invalid variable name.
 
 #### Q36. Which is the right query to change the name of the Philosophy Pandas team to the Philosophy Parrots?
