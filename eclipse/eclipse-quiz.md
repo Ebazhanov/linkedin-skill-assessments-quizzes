@@ -52,9 +52,9 @@
 #### Q8. Why might you use the Open Type button?
 
 - [ ] to open a file by its name
-- [ ] to search the workbench for a class to open in an editor
+- [x] to search the workbench for a class to open in an editor
 - [ ] to find a string in a text file
-- [x] to find all places where a certain type is instantiated
+- [ ] to find all places where a certain type is instantiated
 
 #### Q9. In the JUnit view, what is the value in the parentheses after a previously run unit test?
 
