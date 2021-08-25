@@ -381,7 +381,7 @@ FROM Students
 
 `SELECT '123'+'123' AS Result;`
 
-- [x] error
+- [ ] error
 - [ ] '123''123'
-- [ ] 123123
+- [x] 123123
 - [ ] 246
