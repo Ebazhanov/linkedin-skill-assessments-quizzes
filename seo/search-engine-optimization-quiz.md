@@ -472,3 +472,18 @@
 - [ ] RDFa.org
 - [ ] schema.org
 - [ ] data-vocabulary.org
+
+#### Q54. According to Google, what type of content includes topics such as news, legal issues, financial advice, and medical information?
+
+- [ ] RSS
+- [ ] KYC
+- [x] YMYL
+- [ ] BDB
+
+#### Q55. When would it be necessary to 301 redirect every page on a site?
+
+- [ ] when parameters are used in URLs
+- [ ] when migrating from HTTP to HTTPS
+- [ ] when launching a new redesign
+- [x] when creating a new subdomain
+    
