@@ -13,3 +13,20 @@
 - [x] Plane Along Path
 - [ ] Plane at Angle
 - [ ] Plane Through Three Points
+
+#### Q3. Which tool measures the precise distance between two points, and creates dimensions that are parallel to the locations of objects?
+- [x] Aligned Dimension
+- [ ] Linear Dimension
+- [ ] Angular Dimension
+- [ ] Ordinate Dimension
+
+#### Q4. How many holes were used in the making of this object?
+![image](https://user-images.githubusercontent.com/31204774/130909206-ca109121-ea9b-451c-9099-57cb7724e5b8.png)
+- [x] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5
+- [ ] 6
+- [ ] 7
+- [ ] 8
