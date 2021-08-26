@@ -470,5 +470,5 @@
 
 - [ ] vocabulary.org
 - [ ] RDFa.org
-- [ ] schema.org
+- [x] schema.org
 - [ ] data-vocabulary.org
