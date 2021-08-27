@@ -944,3 +944,16 @@ console.log(n);
 - [ ] undefined
 - [ ] NaN
 - [ ] Nothing--this is not proper JavaScript syntax and will throw an error.
+
+#### Q85. How do you remove the property name from this object?
+
+```js
+const foo = {
+  name: "Albert"
+};
+```
+
+- [ ] delete name from foo;
+- [x] delete foo.name;
+- [ ] del foo.name;
+- [ ] remove foo.name;
