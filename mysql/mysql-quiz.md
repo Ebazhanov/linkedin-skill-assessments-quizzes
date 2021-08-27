@@ -787,6 +787,6 @@ WHERE MATCH(address) AGAINST ('street, drive');
 ![mysql picture](images/mysql_q80.png)
 
 - [ ] one-to-many
-- [ ] parent-child
+- [x] parent-child
 - [ ] many-to-many
 - [ ] many-to-one
