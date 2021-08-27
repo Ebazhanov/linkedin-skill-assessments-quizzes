@@ -787,6 +787,20 @@ WHERE MATCH(address) AGAINST ('street, drive');
 ![mysql picture](images/mysql_q80.png)
 
 - [ ] one-to-many
-- [ ] parent-child
+- [x] parent-child
 - [ ] many-to-many
 - [ ] many-to-one
+
+#### Q83. When a new student is added to a new database, you want new records to be created in the related tables such as Exam, Score and Attendance. How would you accomplish this?
+
+- [x] trigger
+- [ ] regular expression
+- [ ] view 
+- [ ] index
+
+#### Q84. A stored routine is a set of SQL statements stored on the server and takes form as either a procedure or a function. Which statement cannot be used inside stored routines?
+
+- [x] DECLARE
+- [ ] USE
+- [ ] SET 
+- [ ] SELECT
