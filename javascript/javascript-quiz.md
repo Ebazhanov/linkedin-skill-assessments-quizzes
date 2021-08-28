@@ -944,3 +944,13 @@ console.log(n);
 - [ ] undefined
 - [ ] NaN
 - [ ] Nothing--this is not proper JavaScript syntax and will throw an error.
+
+#### Q85. What is the difference between the map() and the forEach() methods on the Array prototype?
+
+- [ ] There is no difference.
+- [ ] The forEach() method returns a single output value, wheras the map() method performs operation on each value in the array. 
+- [x] The map() methods returns a new array with a transformation applied on each item in the original array, wheras the forEach() method iterates 
+      through an array with noreturn value. 
+- [ ] The forEach() methods returns a new array with a transformation applied on each item in the original array, wheras the map() method iterates 
+      through an array with noreturn value. 
+      
