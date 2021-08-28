@@ -1182,7 +1182,7 @@ $('custom').dequeue();
 
 - [ ] `$('input[type=text]').val()`
 - [ ] `$('.form-control').val()`
-- [ ] `all of these answers`
+- [x] `all of these answers`
 - [ ] `$('#firstName').val()`
 
 #### Q65. Which property of the jQuery event object references the DOM object that dispatched an event?Which property of the jQuery event object references the DOM object that dispatched an event?
