@@ -798,4 +798,9 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] There is no defined limit.There is no defined limit.
 - [ ] 1 million
 
+#### Q73. What two nonnumerical characters can numbers contain?
 
+- [x] dash and dot
+- [ ] dash and comma
+- [ ] comma and exclamation point
+- [ ] dot and comma
