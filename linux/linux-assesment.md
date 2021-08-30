@@ -411,3 +411,10 @@ find / -size -10K -exec ls -l {} \;
 - [ ] passwd
 - [ ] editsam
 - [ ] grouppass
+
+#### Q52. With most GNU commands, if an option is a word, what will it be preceded by?
+
+- [x] two dashes
+- [ ] a backslash
+- [ ] one dash
+- [ ] nothing
