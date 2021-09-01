@@ -411,3 +411,17 @@ find / -size -10K -exec ls -l {} \;
 - [ ] passwd
 - [ ] editsam
 - [ ] grouppass
+
+#### Q52. What would happen if you have a script file named script that takes a long time to complete, and you type `nohup ./script &` in the command line?
+
+- [ ] The script will remain running in the background even if you reboot the system.
+- [ ] The script will run in your terminal and you will not be able to do anything until it completes.
+- [x] The script will run in the background until you end the session.
+- [ ] The script will run in the background and will continue running even if you end the session.
+
+#### Q53. To elevate privileges using the `sudo` command, a user must _____.
+
+- [ ] enter the root user's password
+- [ ] enter their own password
+- [ ] enter the sudo user's password
+- [ ] change to the root group
