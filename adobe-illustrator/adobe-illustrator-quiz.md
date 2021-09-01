@@ -184,9 +184,9 @@
 
 #### Q25. You have drawn a five-pointed star in a design and want to change the inner radius. How would you achieve this?
 
-- [x] An Inner Radius of a Star cannot be modified and would have to be redrawn.
+- [ ] An Inner Radius of a Star cannot be modified and would have to be redrawn.
 - [ ] Use the Scale tool while holding down Option+Shift (Mac) or Alt+Shift (Windows).
-- [ ] Select the inner points, then use the Scale tool to uniformly change the radius.
+- [x] Select the inner points, then use the Scale tool to uniformly change the radius.
 - [ ] Double-click the Star tool and change the Inner Radius option.
 
 #### Q26. What is the meaning of the three dots on the cloud icon in the image below?
