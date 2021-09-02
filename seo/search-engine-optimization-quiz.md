@@ -487,3 +487,5 @@
 - [ ] when launching a new redesign
 - [x] when creating a new subdomain
     
+**Explanation:** From article: [Types of redirects](https://moz.com/learn/seo/redirection)
+    
