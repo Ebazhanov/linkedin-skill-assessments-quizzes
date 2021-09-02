@@ -470,7 +470,7 @@
 
 - [ ] vocabulary.org
 - [ ] RDFa.org
-- [ ] schema.org
+- [x] schema.org
 - [ ] data-vocabulary.org
 
 #### Q54. According to Google, what type of content includes topics such as news, legal issues, financial advice, and medical information?
