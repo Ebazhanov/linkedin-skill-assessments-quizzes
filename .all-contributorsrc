@@ -4942,6 +4942,16 @@
         "code",
         "design"
       ]
+    },
+    {
+      "login": "zyairelai",
+      "name": "Zyaire",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49854907?v=4",
+      "profile": "https://linktr.ee/zyairelai",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
