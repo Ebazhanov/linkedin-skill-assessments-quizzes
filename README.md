@@ -751,7 +751,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/hrishikeshps"><img src="https://avatars.githubusercontent.com/u/13060987?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hrishikeshps</b></sub></a><br /><a href="#design-hrishikeshps" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=hrishikeshps" title="Code">💻</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/sudface"><img src="https://avatars.githubusercontent.com/u/31204774?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sudarshan</b></sub></a><br /><a href="#design-sudface" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/sudface"><img src="https://avatars.githubusercontent.com/u/31204774?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sudarshan</b></sub></a><br /><a href="#design-sudface" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sudface" title="Code">💻</a></td>
   </tr>
 </table>
 
