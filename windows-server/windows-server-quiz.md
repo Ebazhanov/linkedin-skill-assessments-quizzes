@@ -376,4 +376,11 @@
 - [ ] Open mmc.exe
 - [ ] Run dcpromo.exe
 - [ ] Click Add Roles and Features.
-- [ ] Click the notification flag in the Server Manager windows.
+- [x] Click the notification flag in the Server Manager windows.
+
+#### Q52. You want to host two virtual machines on the same physical server. Their memory settings in Hyper-V are set to optimize the use of physical memory for each virtual machine. What makes this optimization possible?
+
+- [ ] dynamic memory
+- [ ] memory buffer
+- [x] virtual memory
+- [ ] ReadyBoost
