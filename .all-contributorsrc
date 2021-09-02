@@ -4981,6 +4981,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "pycoach",
+      "name": "pycoach",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62456278?v=4",
+      "profile": "https://github.com/pycoach",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

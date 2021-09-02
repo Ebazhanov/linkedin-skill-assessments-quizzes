@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-510-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-511-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -757,6 +757,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/omarbelkady"><img src="https://avatars.githubusercontent.com/u/31806568?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Omar Belkady</b></sub></a><br /><a href="#design-omarbelkady" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=omarbelkady" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/alexiismua"><img src="https://avatars.githubusercontent.com/u/89637502?v=4?s=100" width="100px;" alt=""/><br /><sub><b>alexiismua</b></sub></a><br /><a href="#design-alexiismua" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=alexiismua" title="Code">💻</a></td>
     <td align="center"><a href="https://eduardaalvess.github.io/portfolio/"><img src="https://avatars.githubusercontent.com/u/46230668?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eduarda Alves</b></sub></a><br /><a href="#design-eduardaalvess" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/pycoach"><img src="https://avatars.githubusercontent.com/u/62456278?v=4?s=100" width="100px;" alt=""/><br /><sub><b>pycoach</b></sub></a><br /><a href="#design-pycoach" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=pycoach" title="Code">💻</a></td>
   </tr>
 </table>
 
