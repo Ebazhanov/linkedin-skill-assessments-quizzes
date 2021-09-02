@@ -432,3 +432,12 @@ find / -size -10K -exec ls -l {} \;
 - [ ] enter their own password
 - [ ] enter the sudo user's password
 - [ ] change to the root group
+
+#### Q55. When would this system cron job run its task?
+
+0 22 * * 1-5
+
+- [ ] on the 22nd of every month from June to May
+- [x] at 10:00 PM Monday to Friday
+- [ ] every 22 minutes every day except weekends
+- [ ] from 1:00 AM to 5:00 AM on the 22nd of every month
