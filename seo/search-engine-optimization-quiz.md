@@ -244,7 +244,7 @@
 - [ ] src
 - [x] alt
 
-#### Q27. You are researching keywords for a client and creating list for an optimization plan. Which is *not* a recommended method of creating keyword lists?
+#### Q27. You are researching keywords for a client and creating list for an optimization plan. Which is _not_ a recommended method of creating keyword lists?
 
 - [ ] synonyms and related words
 - [ ] queries about benefits, features, problems
@@ -470,5 +470,23 @@
 
 - [ ] vocabulary.org
 - [ ] RDFa.org
-- [ ] schema.org
+- [x] schema.org
 - [ ] data-vocabulary.org
+
+#### Q54. According to Google, what type of content includes topics such as news, legal issues, financial advice, and medical information?
+
+- [ ] RSS
+- [ ] KYC
+- [x] YMYL
+- [ ] BDB
+
+**Explanation:** `Google describes YMYL (Your Money or Your Life) sites/pages as ones that could potentially impact a person’s happiness, health, financial stability, or safety.`
+
+#### Q55. When would it be necessary to 301 redirect every page on a site?
+
+- [ ] when parameters are used in URLs
+- [ ] when migrating from HTTP to HTTPS
+- [ ] when launching a new redesign
+- [x] when creating a new subdomain
+
+**Explanation:** From article: [Types of redirects](https://moz.com/learn/seo/redirection)

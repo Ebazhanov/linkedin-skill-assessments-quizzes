@@ -411,10 +411,10 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 
 #### Q55. What defines the catch block most accurately?
 
-- [x] The catch block that will be executed is the one that best matches the type of the exception thrown
-- [ ] Multiple catch blocks are not allowed with a single try.
-- [ ] Every catch block will run accordingly in a try.
-- [ ]
+- [x] The catch block that will be executed is the one that best matches the type of exception thrown.
+- [ ] Multiple catch blocks can never be associated with a single try block.
+- [ ] Multiple catch blocks are mandatory for each try block.
+- [ ] Multiple catch blocks will all be executed in the case of an exception.
 
 #### Q56. There are five classes. Class E is derived from class D, D from C, C from B, and B from A. Which class constructor(s) will be called first if the object of E or D is created?
 
