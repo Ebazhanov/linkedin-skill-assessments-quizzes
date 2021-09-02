@@ -890,3 +890,10 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [x] to make sure that the activity creates a new fragment each time it is restored from a previous state
 - [ ] to prevent the display of two fragments side by side in cases where the activity is restored from a previous state
 - [ ] to prevent the creation of overlapping fragments in cases where the activity is restored from a previous state
+
+#### Q56. Which component is not an entry point through which the system or a user can enter your app?
+
+- [ ] activity
+- [ ] content provider
+- [x] fragment
+- [ ] service
