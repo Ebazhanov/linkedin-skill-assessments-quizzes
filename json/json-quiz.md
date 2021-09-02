@@ -812,4 +812,9 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [x] no
 - [ ] yes
 
+#### Q75. What two nonnumerical characters can numbers contain?
 
+- [x] dash and dot
+- [ ] dash and comma
+- [ ] comma and exclamation point
+- [ ] dot and comma
