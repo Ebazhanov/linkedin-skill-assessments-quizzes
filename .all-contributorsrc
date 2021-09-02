@@ -4922,6 +4922,15 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "sudface",
+      "name": "Sudarshan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31204774?v=4",
+      "profile": "https://github.com/sudface",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
