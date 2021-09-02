@@ -411,3 +411,33 @@ find / -size -10K -exec ls -l {} \;
 - [ ] passwd
 - [ ] editsam
 - [ ] grouppass
+
+#### Q52. With most GNU commands, if an option is a word, what will it be preceded by?
+
+- [x] two dashes
+- [ ] a backslash
+- [ ] one dash
+- [ ] nothing
+
+#### Q53. What would happen if you have a script file named script that takes a long time to complete, and you type `nohup ./script &` in the command line?
+
+- [ ] The script will remain running in the background even if you reboot the system.
+- [ ] The script will run in your terminal and you will not be able to do anything until it completes.
+- [x] The script will run in the background until you end the session.
+- [ ] The script will run in the background and will continue running even if you end the session.
+
+#### Q54. To elevate privileges using the `sudo` command, a user must _____.
+
+- [ ] enter the root user's password
+- [ ] enter their own password
+- [ ] enter the sudo user's password
+- [ ] change to the root group
+
+#### Q55. When would this system cron job run its task?
+
+0 22 * * 1-5
+
+- [ ] on the 22nd of every month from June to May
+- [x] at 10:00 PM Monday to Friday
+- [ ] every 22 minutes every day except weekends
+- [ ] from 1:00 AM to 5:00 AM on the 22nd of every month
