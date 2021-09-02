@@ -181,7 +181,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 `Personal Hint: File Tab -> Options -> Advanced -> Image Size and Quality -> Do not compress images in file File Tab -> Options -> Advanced -> Print -> High quality `
 
-#### Q23. You have inserted a video on a slide and want the video to automaaticlly start 2 seconods after the associated slide appears. How can you accomplish this?
+#### Q23. You have inserted a video on a slide and want the video to automatically start 2 seconds after the associated slide appears. How can you accomplish this?
 
 - [ ] Use playback timings.
 - [x] Use animation timings.

@@ -798,4 +798,18 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] There is no defined limit.There is no defined limit.
 - [ ] 1 million
 
+#### Q73. What is the recommended term used to refer to multiple resources?
+
+- [ ] a swarm
+- [x] multiple resources
+- [ ] a collection
+- [ ] a group
+
+#### Q74. Does JSON support signed numbers?
+
+- [ ] yes, but only if they are enclosed in quotes
+- [ ] only with integers
+- [x] no
+- [ ] yes
+
 

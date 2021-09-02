@@ -198,3 +198,10 @@
 - [ ] Its power output can be varied to save electricity.
 - [x] Its cables are detachable.
 - [ ] It has dedicated power reserved for different computer components.
+
+#### Q23. Which program controls the Windows startip sequence?
+
+- [x] MSCONFIG
+- [ ] Task Manager
+- [ ] the Computer Management Console
+- [ ] the UEFI
