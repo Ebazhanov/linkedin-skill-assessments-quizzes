@@ -184,8 +184,8 @@ SELECT @UniqueID AS Result;
 
 - [ ] ALTER USER Sharon WITH DEFAULT_SCHEMA = Sales;
 - [ ] ALTER USER Sharon SET SCHEMA Sales;
-- [x] CREATE SCHEMA Sales SET OWNER Sharon;
-- [ ] CREATE SCHEMA Sales AUTHORIZATION Sharon;
+- [ ] CREATE SCHEMA Sales SET OWNER Sharon;
+- [x] CREATE SCHEMA Sales AUTHORIZATION Sharon;
 
 #### Q21. The result of a CROSS JOIN between a table with 4 rows, and one with 5 rows, will give with \_ rows.
 
@@ -315,7 +315,7 @@ FROM Students
 WHERE Grade = (SELECT MIN(Grade) FROM Student);
 ```
 
-- [x]
+- [ ]
 
 ```
 SELECT TOP(1) Grade
@@ -323,7 +323,7 @@ FROM Students
 ORDER BY Grade;
 ```
 
-- [ ]
+- [x]
 
 ```
 SELECT MIN(Grade)
