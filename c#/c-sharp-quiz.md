@@ -336,7 +336,7 @@ public interface INameble
 
 ```cs
 public delegate void AuthCallback(bool validUser);
-public static AuthCallback loginCallback : Login;
+public static AuthCallback loginCallback = Login;
 public static void Login()
 {
     Console.WriteLine("Valid user!");
@@ -350,7 +350,7 @@ public static void Main(string[] args)
 
 - [ ] Login successful...
 - [ ] Valid user!
-- [x] an error, because the method signature of Login doesn't match the delegate //It will throw an error because you cant apply Inheritance to methods that way.
+- [x] an error, because the method signature of Login doesn't match the delegate
 - [ ] Login successful... Valid user!
 
 #### Q39. How would you declare a sealed class named User?
