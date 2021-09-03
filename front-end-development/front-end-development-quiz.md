@@ -460,8 +460,13 @@ console.log(currencies);
 
 - [ ] Apply `float: left` to the second paragraph.
 - [ ] Apply `clear: right` to the floated item.
-- [ ] Apply `clear: left` to the second paragraph.
+- [x] Apply `clear: left` to the second paragraph.
 - [ ] Apply `clear: left` to the floated item.
+
+[Source: W3Schools](https://www.w3schools.com/css/css_float_clear.asp)
+
+**clear: left;**
+`When we use the float property, and we want the next element below (not on right or left), we will have to use the clear property. When clearing floats, you should match the clear to the float: If an element is floated to the left, then you should clear to the left. Your floated element will continue to float, but the cleared element will appear below it on the web page.`
 
 #### Q49. Which choice is not a result of invoking strict mode in JavaScript?
 
