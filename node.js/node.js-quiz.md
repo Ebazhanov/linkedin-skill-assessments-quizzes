@@ -468,8 +468,8 @@ const person = require('./person.js');
 console.log(person);
 ```
 
-- [x] `{'Jane'}`
-- [ ] `{ name: 'Jane' }`
+- [ ] `{'Jane'}`
+- [x] `{ name: 'Jane' }`
 - [ ] `{}`
 - [ ] `Jane`
 
