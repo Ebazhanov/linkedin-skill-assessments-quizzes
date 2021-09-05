@@ -1034,7 +1034,7 @@ groucyButton.addActionListener(new ActionListener() {
 - [ ] Set object to null and call Runtime.getRuntime().runFinalization()
 - [ ] There is no way to force an object to be garbage collected
 
-[Reference](https://www.baeldung.com/java-hashcode)
+[Reference](https://sematext.com/blog/java-garbage-collection/)
 
 #### Q72. Java programmers commonly use design patterns. Some examples are the **\_**, which helps create instances of a class, the **\_**, which ensures that only one instance of a class can be created; and the **\_**, which allows for a group of algorithms to be interchangeable.
 
