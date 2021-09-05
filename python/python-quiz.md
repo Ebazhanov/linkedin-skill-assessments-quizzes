@@ -65,12 +65,14 @@
 - [ ] O(n^2), also called quadratic time.
 - [x] O(1), also called constant time.
 
-#### Q10. What is the correct syntax for defining a class called Game?
+#### Q10. What is the correct syntax for defining a class called Game, if it inherits from a parent class called LogicGame?
 
-- [x] `class Game: pass`
-- [ ] `def Game(): pass`
-- [ ] `def Game: pass`
-- [ ] `class Game(): pass`
+- [x] `class Game(LogicGame): pass`
+- [ ] `def Game(LogicGame): pass`
+- [ ] `def Game.LogicGame(): pass`
+- [ ] `class Game.LogicGame(): pass`
+
+**Explanation:** `The parent class which is inherited is passed as an argument to the child class. Therefore, here the first option is the right answer.`
 
 #### Q11. What is the correct way to write a doctest?
 
