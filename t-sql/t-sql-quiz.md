@@ -187,6 +187,8 @@ SELECT @UniqueID AS Result;
 - [ ] CREATE SCHEMA Sales SET OWNER Sharon;
 - [x] CREATE SCHEMA Sales AUTHORIZATION Sharon;
 
+[Reference link](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-schema-transact-sql?view=sql-server-ver15)
+
 #### Q21. The result of a CROSS JOIN between a table with 4 rows, and one with 5 rows, will give with \_ rows.
 
 - [ ] 1024
@@ -337,6 +339,8 @@ ORDER BY Grade;
 SELECT MIN(Grade)
 FROM Students
 ```
+
+**Explanation:** `Column "Students.Grade" is invalid in the ORDER BY clause because it is not contained in either an aggregate function or the GROUP BY clause.`
 
 #### Q33. Given a table with the following structure, which query will not return the lowest grade earned by any student?
 
