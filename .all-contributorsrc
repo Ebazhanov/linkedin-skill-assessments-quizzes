@@ -5051,6 +5051,15 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "rogue-coder",
+      "name": "rogue-coder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5590629?v=4",
+      "profile": "https://github.com/rogue-coder",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
