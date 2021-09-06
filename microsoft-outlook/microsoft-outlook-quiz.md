@@ -483,11 +483,10 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Open your computer's Recycle Bin (Windows) or Trash (Mac).
 - [ ] Click the Undo button.
 
-
 #### Q67. You are viewing your calendar in work week view and see a thin horizonatal line running IEWING YOUR CALENDAR IN WORK WEEK VIEW AND SEE A THIN HORIZONTAL LINE RUNNING ACROSS ALL DAYS AT THE 2:30 P.M. POSITION. WHAT DOES THIS TELL YOU?
 
-
 #### Q68. You have a message in your Inbox that has a blue down arrow. What does it mean?
+
 - [ ] The message needs to finish downloading.
 - [x] The sender set the message priority to Low Priority.
 - [ ] A rule forwarded the message.
