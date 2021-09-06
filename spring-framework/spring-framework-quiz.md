@@ -524,3 +524,10 @@ class TestConfig2 {
       &emsp; SimpleDateFormat <br />
 - [ ] a NullPointerException stacktrace
 - [ ] a BeanDefinitionParsingException stacktrace
+
+#### Q55. What is the purpose of a web application context?
+
+- [ ] Configures a web application that is able to be deleted and re-created during runtime through hot swap. It adds a **recreateContext()** method and defines a root WebDaemon that must be bound to in the bootstrap process.
+- [ ] It configures a Spring application that is able to be modified on the fly during runtime through bytecode re-encoding. Also it adds an **updateContext()** method and defines a root WebServlet that must be bound to in the bootstrap process.
+- [ ] It provides configuration for a web application that is read-only while running. Also, it adds a **getServletContext()** method and defines an attribute name to which the root context must be bound in the bootstrap process.
+- [ ] It provides configuration for a Spring application that is updatable on the fly during runtime through bytecode weaving. Also it adds an **updateServletContext()** method and defines a root servlet that must be bound to in the bootstrap process.
