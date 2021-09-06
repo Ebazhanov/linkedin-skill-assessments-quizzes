@@ -786,10 +786,10 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 #### Q71. With what character should object keys be enclosed?
 
-- [ ] *
-- [ ] #
-- [ ] ^
-- [ ] "
+- [ ] `*`
+- [ ] `#`
+- [ ] `^`
+- [ ] `"`
 
 #### Q72. What is the maximum number of key/value pairs that JSON supports?
 

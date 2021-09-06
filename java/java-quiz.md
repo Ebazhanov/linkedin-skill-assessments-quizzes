@@ -1101,10 +1101,10 @@ public class Duck {
 
 #### Q79. Which operator is used to concatenate Strings in Java
 
-- [x] +
-- [ ] &
-- [ ] .
-- [ ] -
+- [x] `+`
+- [ ] `&`
+- [ ] `.`
+- [ ] `-`
 
 - [Reference](https://www.techiedelight.com/concatenate-two-strings-java/)
 
