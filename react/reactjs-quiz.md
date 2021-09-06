@@ -836,3 +836,14 @@ ReactDOM.createPortal(x, y);
 
 **Explanation:**
 From official docs: [Portals](https://reactjs.org/docs/portals.html)
+
+#### Q74. What is `setCount`?
+
+```javascript
+const [count, setCount] = useState(0);
+```
+
+- [ ] the initial state value
+- [ ] a variable
+- [ ] a state object
+- [ ] a function to update the state
