@@ -775,7 +775,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [ ] NUMERIC
 - [ ] DOUBLE
 
-#### Q81. Which choice is _not_ an available string type for a column?
+#### Q81. Which choice is `not` an available string type for a column?
 
 - [ ] ENUM
 - [ ] SET
@@ -790,3 +790,10 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [ ] parent-child
 - [ ] many-to-many
 - [ ] many-to-one
+
+#### Q82. A stored routine is a set of SQL statements stored on the server and takes from as either a procedure or a function. Which statement cannot be used inside stored routines?
+
+- [ ] SELECT
+- [ ] USE
+- [ ] SET
+- [ ] DECLARE
