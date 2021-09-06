@@ -512,3 +512,24 @@
 - [ ] Create PDF Compatible File
 - [ ] Include Linked Files
 - [ ] Use Compression
+
+#### Q70. Drop shadows in a printed document appear pixelated. Which feature can you use to fix this?
+
+- [ ] Appearance of Black
+- [ ] Document Setup
+- [x] Document Raster Effects Settings
+- [ ] Overprint Black
+
+#### Q71. Where can you find information about an image's author and copyright status?
+
+- [ ] the **Document Setup** dialog box
+- [ ] the **Document** Info panel
+- [ ] the **Attributes** panel
+- [x] the **File Info** dialog box
+
+#### Q72. What can happen if you don't add bleed to a print document?
+
+- [ ] Black strokes may appear thinner than expected.
+- [x] Blank areas may be visible at the edges of the print.
+- [ ] Areas of 100% black may print lighter than expected.
+- [ ] Blank areas may be visible where two inks are printed adjacent to each other.
