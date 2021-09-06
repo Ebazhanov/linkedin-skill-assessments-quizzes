@@ -426,7 +426,7 @@ private String val;
 public class Test implements InitializingBean {
      @Autowired
      ApplicationContext context;
-     
+
      private TestService service;
      public void setService(TestService service) {
           this.service = service;
@@ -447,7 +447,7 @@ class TestService {}
 - [ ] true package.TestService
 - [ ] false package.TestService
 
-#### Q50. To register a custom filter that applies only to certain URL patterns, you should remove the _____ annotation from the filter class and register a @Bean of type _____ in Spring @Configuration.
+#### Q50. To register a custom filter that applies only to certain URL patterns, you should remove the **\_** annotation from the filter class and register a @Bean of type **\_** in Spring @Configuration.
 
 - [ ] @RequestMapping; WebRequest
 - [ ] @Controller; URLFilter
@@ -455,25 +455,26 @@ class TestService {}
 - [ ] @Component; FilterRegistrationBean
 
 #### Q51. What is the correct term for each definition bellow?
+
 1. A predicate that matches join points.
 2. A point during the execution of a program, such as the execution of a method or the handling of an exception.
 3. An action taken by an aspect at a particular join point.
 
 - [ ] 1: Pointcut <br />
-&emsp; 2: Advice <br />
-&emsp; 3: Join point <br />
+      &emsp; 2: Advice <br />
+      &emsp; 3: Join point <br />
 
 - [ ] 1: Join point <br />
-&emsp; 2: Pointcut <br />
-&emsp; 3: Advice <br />
+      &emsp; 2: Pointcut <br />
+      &emsp; 3: Advice <br />
 
 - [ ] 1: Advice <br />
-&emsp; 2: Pointcut <br />
-&emsp; 3: Join point <br />
+      &emsp; 2: Pointcut <br />
+      &emsp; 3: Join point <br />
 
 - [ ] 1: Pointcut <br />
-&emsp; 2: Join point <br />
-&emsp; 3: Advice <br />
+      &emsp; 2: Join point <br />
+      &emsp; 3: Advice <br />
 
 #### Q52. How should passwords be stored?
 
@@ -498,7 +499,7 @@ class TestService {}
 public class Test implements InitializingBean {
      @Autowired
      ApplicationContext context;
-     
+
      @Autowired
      SimpleDateFormat formatter;
 
@@ -518,10 +519,8 @@ class TestConfig2 {
 ```
 
 - [ ] true <br />
-&emsp; class java.text.SimpleDateFormat <br />
+      &emsp; class java.text.SimpleDateFormat <br />
 - [ ] true <br />
-&emsp; SimpleDateFormat <br />
+      &emsp; SimpleDateFormat <br />
 - [ ] a NullPointerException stacktrace
 - [ ] a BeanDefinitionParsingException stacktrace
-
-

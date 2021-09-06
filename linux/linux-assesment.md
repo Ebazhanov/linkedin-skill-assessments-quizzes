@@ -426,7 +426,7 @@ find / -size -10K -exec ls -l {} \;
 - [x] The script will run in the background until you end the session.
 - [ ] The script will run in the background and will continue running even if you end the session.
 
-#### Q54. To elevate privileges using the `sudo` command, a user must _____.
+#### Q54. To elevate privileges using the `sudo` command, a user must **\_**.
 
 - [ ] enter the root user's password
 - [ ] enter their own password
@@ -435,7 +435,7 @@ find / -size -10K -exec ls -l {} \;
 
 #### Q55. When would this system cron job run its task?
 
-0 22 * * 1-5
+`0 22 * * 1-5`
 
 - [ ] on the 22nd of every month from June to May
 - [x] at 10:00 PM Monday to Friday

@@ -1123,10 +1123,7 @@ $(document).trigger('myCustomEvent');
 
 [Source: learn.jquery.com](https://learn.jquery.com/events/introduction-to-custom-events/)
 
-`Instead of focusing on the element that triggers an action, custom events put the spotlight on the element being acted upon. This brings a bevy of benefits, including:
-Behaviors of the target element can easily be triggered by different elements using the same code.
-Behaviors can be triggered across multiple, similar, target elements at once.
-Behaviors are more clearly associated with the target element in code, making code easier to read and maintain.`
+`Instead of focusing on the element that triggers an action, custom events put the spotlight on the element being acted upon. This brings a bevy of benefits, including: Behaviors of the target element can easily be triggered by different elements using the same code. Behaviors can be triggered across multiple, similar, target elements at once. Behaviors are more clearly associated with the target element in code, making code easier to read and maintain.`
 
 #### Q61. In the HTML and JavaScript below, the animations will all fire at once. How can you make them fire in sequence instead?
 

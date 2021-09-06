@@ -1213,7 +1213,7 @@ As Steve Krug once said, happy talk must die.
 [Source: W3Schools](https://www.w3schools.com/tags/tag_q.asp)
 
 **`<q>` tag**
-  `Most browsers will display q tags as inline elements with quotes`
+`Most browsers will display q tags as inline elements with quotes`
 
 #### Q78. What is the most semantically accurate way to make up a main navigation bar, displayed in a horizontal direction?
 

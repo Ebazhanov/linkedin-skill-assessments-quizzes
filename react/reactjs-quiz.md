@@ -826,7 +826,7 @@ This question might be an updated version of Q37.
 #### Q73. When using a portal, what is the first argument?
 
 ```javascript
-ReactDOM.createPortal(x, y)
+ReactDOM.createPortal(x, y);
 ```
 
 - [ ] the current state

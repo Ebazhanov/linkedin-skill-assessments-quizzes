@@ -367,7 +367,7 @@ FROM Students
       SET @Counter = @Counter +1;
     END;
 
-- [ ] There is no END WHILE statement; 
+- [ ] There is no END WHILE statement;
 - [ ] The local varaible is not available to the WHILE block.
 - [x] The query causes an infinite loop.
 - [ ] "Counter" is an invalid variable name.
