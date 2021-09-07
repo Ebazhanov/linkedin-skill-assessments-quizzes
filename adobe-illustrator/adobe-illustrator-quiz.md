@@ -541,12 +541,18 @@
 - [x] Turn off the **Print** option for the layer.
 - [ ] Lock the layer.
 
+**Explanation:**
+From Adobe Help Center: [Make artwork nonprintable](https://helpx.adobe.com/illustrator/using/setting-documents-printing.html)
+
 #### Q74. If you had to send a file to a colleague, how could you collect everything needed to work on it, including any non-Adobe fonts and linked images?
 
 - [ ] Select **Select All** and then **Save Selection**.
 - [ ] Use the **Save as Template** command.
 - [x] Use the **Package** command.
 - [ ] Select **Select All** and then click the **Add Content** button in the **Libraries** panel.
+
+**Explanation:**
+From Adobe Help Center: [Share artwork](https://helpx.adobe.com/illustrator/how-to/sharing-basics.html)
 
 #### Q75. When working with a two-point perspective grid, which setting in the **Define Perspective Grid** dialog box do you use to change the size of grid cells so you can draw and move objects with more precision?
 
