@@ -479,3 +479,24 @@ model=Planet
 - [x] It depends on how many results return by query.
 - [ ] It depends on cache.
 - [ ] line 2
+
+#### Q52. You are building a web application using a React front end and a Django back end. For what will you need to provision?\*\*
+
+- [ ] an NGINX web server
+- [ ] a NoSQL database
+- [ ] a larger hard drive
+- [ ] CORS middleware
+
+#### Q53. To expose an existing model via an API endpoint, what do you need to implement?\*\*
+
+- [ ] an HTTP request
+- [ ] a JSON object
+- [ ] a query
+- [ ] a serializer
+
+#### Q54. How would you stop Django from performing database table creation or deletion operations via migrations for a particular model?\*\*
+
+- [ ] Run the `migrate` command with `--exclude=[model_name]`.
+- [ ] Move the model definition from `models.py` into its own file.
+- [ ] Set `managed=False` inside the model.
+- [ ] Don't run the `migrate` command.
