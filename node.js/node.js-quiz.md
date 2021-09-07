@@ -431,7 +431,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 #### Q57. What is the correct way to pipe a readable stream and a writable stream?
 
-- [ ] readableStream.pipe(writableStream)
+- [x] readableStream.pipe(writableStream)
 - [ ] readableStream.on(pipe, writableStream)
 - [ ] writableStream.pipe(readableStream)
 - [ ] writableStream.on(pipe, readableStream)
