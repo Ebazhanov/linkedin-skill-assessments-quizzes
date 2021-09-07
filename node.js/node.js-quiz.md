@@ -281,10 +281,10 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 #### Q37. What are the arguments passed to the module wrapper function?
 
-- [ ] exports, __filename, __dirname
-- [ ] exports, process, require, module, __filename, __dirname
-- [ ] exports, module, __filename, __dirname
-- [x] exports, require, module, __filename, __dirname
+- [ ] `exports, __filename, __dirname`
+- [ ] `exports, process, require, module, __filename, __dirname`
+- [ ] `exports, module, __filename, __dirname`
+- [x] `exports, require, module, __filename, __dirname`
 
 #### Q38. Which library provides Node.js with the event loop?
 
@@ -420,7 +420,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 **Explanation:** _From official docs: [https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line](https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line)_
 
-#### Q56. Which choice is *not* a Node global object?
+#### Q56. Which choice is `not` a Node global object?
 
 - [ ] process
 - [ ] exports
@@ -468,8 +468,8 @@ const person = require('./person.js');
 console.log(person);
 ```
 
-- [x] `{'Jane'}`
-- [ ] `{ name: 'Jane' }`
+- [ ] `{'Jane'}`
+- [x] `{ name: 'Jane' }`
 - [ ] `{}`
 - [ ] `Jane`
 

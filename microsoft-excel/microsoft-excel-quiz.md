@@ -106,9 +106,9 @@
 
 #### Q15. Which function returns a reference to a cell (or cell range) that is a specified distance from a base cell?
 
-- [ ] OFFSET
+- [x] OFFSET
 - [ ] VLOOKUP
-- [x] INDEX
+- [ ] INDEX
 - [ ] MATCH
 
 #### Q16. You're working with columns whose width and font-size should not be changed. Yet the columns are too narrow to display all the text in each cell. What tool should you use to solve the problem?

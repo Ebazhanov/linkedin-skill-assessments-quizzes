@@ -184,8 +184,10 @@ SELECT @UniqueID AS Result;
 
 - [ ] ALTER USER Sharon WITH DEFAULT_SCHEMA = Sales;
 - [ ] ALTER USER Sharon SET SCHEMA Sales;
-- [x] CREATE SCHEMA Sales SET OWNER Sharon;
-- [ ] CREATE SCHEMA Sales AUTHORIZATION Sharon;
+- [ ] CREATE SCHEMA Sales SET OWNER Sharon;
+- [x] CREATE SCHEMA Sales AUTHORIZATION Sharon;
+
+[Reference link](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-schema-transact-sql?view=sql-server-ver15)
 
 #### Q21. The result of a CROSS JOIN between a table with 4 rows, and one with 5 rows, will give with \_ rows.
 
@@ -315,7 +317,7 @@ FROM Students
 WHERE Grade = (SELECT MIN(Grade) FROM Student);
 ```
 
-- [x]
+- [ ]
 
 ```
 SELECT TOP(1) Grade
@@ -323,7 +325,7 @@ FROM Students
 ORDER BY Grade;
 ```
 
-- [ ]
+- [x]
 
 ```
 SELECT MIN(Grade)
@@ -337,6 +339,8 @@ ORDER BY Grade;
 SELECT MIN(Grade)
 FROM Students
 ```
+
+**Explanation:** `Column "Students.Grade" is invalid in the ORDER BY clause because it is not contained in either an aggregate function or the GROUP BY clause.`
 
 #### Q33. Given a table with the following structure, which query will not return the lowest grade earned by any student?
 
@@ -363,7 +367,7 @@ FROM Students
       SET @Counter = @Counter +1;
     END;
 
-- [ ] There is no END WHILE statement; 
+- [ ] There is no END WHILE statement;
 - [ ] The local varaible is not available to the WHILE block.
 - [x] The query causes an infinite loop.
 - [ ] "Counter" is an invalid variable name.

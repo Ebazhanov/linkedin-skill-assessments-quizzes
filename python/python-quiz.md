@@ -65,12 +65,14 @@
 - [ ] O(n^2), also called quadratic time.
 - [x] O(1), also called constant time.
 
-#### Q10. What is the correct syntax for defining a class called Game?
+#### Q10. What is the correct syntax for defining a class called Game, if it inherits from a parent class called LogicGame?
 
-- [x] `class Game: pass`
-- [ ] `def Game(): pass`
-- [ ] `def Game: pass`
-- [ ] `class Game(): pass`
+- [x] `class Game(LogicGame): pass`
+- [ ] `def Game(LogicGame): pass`
+- [ ] `def Game.LogicGame(): pass`
+- [ ] `class Game.LogicGame(): pass`
+
+**Explanation:** `The parent class which is inherited is passed as an argument to the child class. Therefore, here the first option is the right answer.`
 
 #### Q11. What is the correct way to write a doctest?
 
@@ -262,14 +264,12 @@ Also see Question 85 for the same question with different answers.
 - [x] It executes one chunk of code if a condition is true, but a different chunk of code if the condition is false.
 - [ ] It tells the computer which chunk of code to run if the is enough memory to handle it, and which chunk of code to run if there is not enough memory to handle it.
 
-#### Q22. What built-in Python data type is commonly used to represent a queue?
+#### Q22. What built-in Python data type is best suited for implementing a queue?
 
-- [ ] `dictionary`
-- [ ] `set`
-- [ ] `None`
-- [x] `list`
-
-`You can only build a stack from scratch.`
+- [ ] dictionary
+- [ ] set
+- [ ] None. You can only build a queue from scratch.
+- [x] list
 
 #### Q23. What is the correct syntax for instantiating a new object of the type Game?
 

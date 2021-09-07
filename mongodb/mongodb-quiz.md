@@ -465,22 +465,20 @@
 #### Q67. Suppose you are using the mongoimport command to import personnel data and there is a unique index on the email field. What happens when there are duplicate emails in the import?
 
 - [ ] The import command aborts without importing any records.
-- [ ] The import command imports records upto but not including the record, and then aborts. 
+- [ ] The import command imports records upto but not including the record, and then aborts.
 - [ ] The import command doesn't import the bad document but does import the rest.
 - [x] The import command prompts you to correct the bad record.
 
 #### Q68. You have a collection with millions of documents. Each time you attempt to sort. MongoDB runs out of memory. What might help?
 
 - [ ] Use the purge operator before the sort.
-- [ ] Return the entire collection and sort on the client. 
+- [ ] Return the entire collection and sort on the client.
 - [ ] Pass the --more-memory option.
 - [x] Create an index on the field you are sorting.
 
 #### Q69. You need to be able to quickly find a word in a text field. What should you do?
 
 - [ ] Create a text index on the field and do a $text Query.
-- [ ] Create an single field index in descending order, and do a query for the word. 
+- [ ] Create an single field index in descending order, and do a query for the word.
 - [x] Do a $text query.
 - [ ] Create a $regex on the fields, and do a $regex query.
-
-

@@ -108,8 +108,8 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 #### Q15. You have sent several emails to a customer and have not received a response. What option do you set to know whether the customer receives your messages?
 
-- [ ] Delivery receipt
-- [ ] All of these answers
+- [x] Delivery receipt
+- [] All of these answers
 - [ ] Read receipt
 - [ ] Tracking
 
@@ -381,7 +381,7 @@ D. Because you cannot create a search folder for a subfolder
 #### Q52. You are inviting five members of your executive staff to an offsite retreat. You need to ensure that they do not share the invitation with others. What should you do before sending the email?
 
 - [ ] Include the text "No Forward" in the Bcc field.
-- [ ] Turn off the Allow Forwarding option.
+- [x] Turn off the Allow Forwarding option.
 - [ ] Prefix the email subject with "FWD OFF".
 - [ ] Turn on the No Forwarding option.
 
@@ -431,7 +431,7 @@ D. Because you cannot create a search folder for a subfolder
 
 - [ ] The Archive window opens.
 - [ ] Outlook schedule a reminder.
-- [ ] Outlook schedule a appointment.
+- [x] Outlook schedule a appointment.
 - [ ] The Work Week calendar view opens.
 
 #### Q60. In this image, what do you use to move between Mail, Calendar, People and Tasks?
@@ -444,7 +444,7 @@ D. Because you cannot create a search folder for a subfolder
 #### Q61. It is currently the week of April 23. You are viewing the week of May 21 in your Outlook calendar. You switch to email then back to the calendar. Which dates do the calendar display now?
 
 - [ ] the week of May 21
-- [ ] the month of April
+- [x] the month of April
 - [ ] the month of May
 - [ ] the week of April 23
 
@@ -482,3 +482,12 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Open the Deleted Items folder.
 - [ ] Open your computer's Recycle Bin (Windows) or Trash (Mac).
 - [ ] Click the Undo button.
+
+#### Q67. You are viewing your calendar in work week view and see a thin horizonatal line running IEWING YOUR CALENDAR IN WORK WEEK VIEW AND SEE A THIN HORIZONTAL LINE RUNNING ACROSS ALL DAYS AT THE 2:30 P.M. POSITION. WHAT DOES THIS TELL YOU?
+
+#### Q68. You have a message in your Inbox that has a blue down arrow. What does it mean?
+
+- [ ] The message needs to finish downloading.
+- [x] The sender set the message priority to Low Priority.
+- [ ] A rule forwarded the message.
+- [ ] The sender is not in your address list.

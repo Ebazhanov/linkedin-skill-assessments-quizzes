@@ -404,3 +404,130 @@ private String val;
 - [x] a unique String name
 - [ ] an auto-incremented Integer ID
 - [ ] an ID derived from its location in memory
+
+#### Q47. What is the difference between a JAR and a WAR distribution in Spring Boot?
+
+- [ ] Spring Boot can create a self-executable WAR file that runs without needing a servlet container. A JAR file has to be deployed to an existing web container such as Tomcat with seperate files for dependencies.
+- [ ] Spring Boot can create a JAR file that contains bytecode that interacts directly with the OS without needing a servlet container. A WAR file has to be deployed to an existing web container such as Tomcat with seperate files for dependencies.
+- [ ] The Spring Boot JAR file will be deployed to a Servlet container such as Tomcat on an existing running web server locally. The WAR file will be deployed to a cloud-based servlet container.
+- [ ] Spring Boot can create a self-executable JAR file that contains all the dependencies and an embedded Servlet container. A WAR file has to be deployed to an existing web container such as Tomcat.
+
+#### Q48. How does the transaction propagation setting impact the behavior of transactions?
+
+- [ ] It ensures that transactions that are commited to the database are propagated to all the shards of a clustered database system.
+- [ ] None of these answers is correct.
+- [ ] It guarantees that transactions that are submitted to the database cluster are propagated to all the nodes of a clustered database cloud.
+- [ ] It enforces that a logical transaction scope is created for each method that determines rollback-only status, with an outer transaction scope being logically independent from the inner transaction scope.
+
+#### Q49. What is printed when this code is run as a @SpringBootApplication?
+
+```java
+@Component
+public class Test implements InitializingBean {
+     @Autowired
+     ApplicationContext context;
+
+     private TestService service;
+     public void setService(TestService service) {
+          this.service = service;
+     }
+
+     @Override
+     public void afterPropertiesSet() throws Exception {
+          System.out.print(context.containsBean("testService") + " ");
+          System.out.println(service.getClass());
+     }
+}
+@Service
+class TestService {}
+```
+
+- [ ] a null pointer stacktrace
+- [ ] true null
+- [ ] true package.TestService
+- [ ] false package.TestService
+
+#### Q50. To register a custom filter that applies only to certain URL patterns, you should remove the **\_** annotation from the filter class and register a @Bean of type **\_** in Spring @Configuration.
+
+- [ ] @RequestMapping; WebRequest
+- [ ] @Controller; URLFilter
+- [ ] @WebFilter; ServletContextInitializer
+- [ ] @Component; FilterRegistrationBean
+
+#### Q51. What is the correct term for each definition bellow?
+
+1. A predicate that matches join points.
+2. A point during the execution of a program, such as the execution of a method or the handling of an exception.
+3. An action taken by an aspect at a particular join point.
+
+- [ ] 1: Pointcut <br />
+      &emsp; 2: Advice <br />
+      &emsp; 3: Join point <br />
+
+- [ ] 1: Join point <br />
+      &emsp; 2: Pointcut <br />
+      &emsp; 3: Advice <br />
+
+- [ ] 1: Advice <br />
+      &emsp; 2: Pointcut <br />
+      &emsp; 3: Join point <br />
+
+- [ ] 1: Pointcut <br />
+      &emsp; 2: Join point <br />
+      &emsp; 3: Advice <br />
+
+#### Q52. How should passwords be stored?
+
+- [ ] Passwords should be hashed using an adaptive one-way function such as bcrypt.
+- [ ] Passwords can be stored in a BASE64 encoded format if they are stored in a private database.
+- [ ] Passwords should be salted and hashed using the MD5 algorithm.
+- [ ] Passwords should be hashed using the SHA-1 algorithm, then salted to provide defence against rainbow table attacks.
+
+#### Q53. What methods does this Pointcut expression reference?
+
+**@target(com.linkedin.annotation.Loggable)**
+
+- [ ] any join point where the target object has a @Loggable annotation
+- [ ] any join point where the executing method has a @Loggable annotation
+- [ ] any method that implements Loggable
+- [ ] any method that extends Loggable
+
+#### Q54. What is printed when this code is run as a @SpringBootApplication?
+
+```java
+@Component
+public class Test implements InitializingBean {
+     @Autowired
+     ApplicationContext context;
+
+     @Autowired
+     SimpleDateFormat formatter;
+
+     @Override
+     public void afterPropertiesSet() throws Exception {
+          System.out.println(context.containsBean("formatter"));
+          System.out.println(formatter.getClass());
+     }
+}
+@Configuration
+class TestConfig2 {
+    @Bean
+    public final SimpleDateFormat formatter() {
+        return new SimpleDateFormat();
+    }
+}
+```
+
+- [ ] true <br />
+      &emsp; class java.text.SimpleDateFormat <br />
+- [ ] true <br />
+      &emsp; SimpleDateFormat <br />
+- [ ] a NullPointerException stacktrace
+- [ ] a BeanDefinitionParsingException stacktrace
+
+#### Q55. What is the purpose of a web application context?
+
+- [ ] Configures a web application that is able to be deleted and re-created during runtime through hot swap. It adds a **recreateContext()** method and defines a root WebDaemon that must be bound to in the bootstrap process.
+- [ ] It configures a Spring application that is able to be modified on the fly during runtime through bytecode re-encoding. Also it adds an **updateContext()** method and defines a root WebServlet that must be bound to in the bootstrap process.
+- [ ] It provides configuration for a web application that is read-only while running. Also, it adds a **getServletContext()** method and defines an attribute name to which the root context must be bound in the bootstrap process.
+- [ ] It provides configuration for a Spring application that is updatable on the fly during runtime through bytecode weaving. Also it adds an **updateServletContext()** method and defines a root servlet that must be bound to in the bootstrap process.

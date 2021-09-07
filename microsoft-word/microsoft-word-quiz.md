@@ -546,3 +546,10 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] Create a new document in OneDrive.
 - [ ] Upload the document to OneDrive.
 - [ ] Send an invitation to the document.
+
+#### Q69. You are working in another application and want to move text into a Word document. How can you do it?
+
+- [ ] Export the text from the other application as a Word document.
+- [ ] Use the Insert command and select the Word document.
+- [ ] Select the text and save it as Word document.
+- [ ] Use the Clipboard to copy and paste text into the Word document.
