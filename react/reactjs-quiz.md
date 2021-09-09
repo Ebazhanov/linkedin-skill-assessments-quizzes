@@ -848,5 +848,5 @@ const [count, setCount] = useState(0);
 - [ ] a state object
 - [x] a function to update the state
 
-**Explanation:**
+**Reference:**
 From official docs: [Hooks-State](https://reactjs.org/docs/hooks-state.html#:~:text=If%20we%20want%20to%20update%20the%20current)
