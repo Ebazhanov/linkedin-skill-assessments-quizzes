@@ -407,7 +407,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] It runs once per post in the database.
 - [ ] It runs once.
 - [ ] The Loop doesn't run in template files.
-- [ ] It runs once per fetched post.
+- [x] It runs once per fetched post.
 
 #### Q48. Which is NOT a suggested performance improvement for your WordPress website?
 
