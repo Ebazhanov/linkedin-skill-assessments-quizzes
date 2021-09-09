@@ -1160,7 +1160,7 @@ grid-template-columns: 2fr 1ffr;
 - [x] The first column is twice as wide as the second column and will fit proportionally within the grid container.
 - [ ] The first column is twice the height of the second column and will be as wide as the content.
 
-[Reference-MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns)
+- *[Reference-MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns)*
 
 #### Q92. Suppose you want to have a list of items (.item) displayed in a row and in reverse order using flexbox. What is the error in the CSS below?
 
