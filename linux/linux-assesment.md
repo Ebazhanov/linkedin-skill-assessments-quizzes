@@ -487,3 +487,12 @@ fi
 - [ ] The ls command will output the name of the file to the screen. Running ls in quiet mode will improve the code snippet.
 
 **Note:** Not confident about answer. If someone knows the exact answer please contribute in this repository and mark correct answer.
+
+#### Q60. Using a systemd-based distribution, you want to restrict the cron service from running either automatically or manually. Which command would you run?
+
+- [ ] systemctl disable crond
+- [ ] systemctl disallow crond
+- [ ] systemctl mask crond
+- [x] systemctl stop crond
+
+**Note:** Not confident about answer. If someone knows the exact answer please contribute in this repository and mark correct answer.
