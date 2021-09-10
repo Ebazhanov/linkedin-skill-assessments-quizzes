@@ -381,9 +381,11 @@
 #### Q55. Which file in the MongoDB directly holds the MongoDB daemon?
 
 - [ ] mongodb
-- [ ] mongo-daemon
+- [x] mongo-daemon
 - [ ] daemon
 - [ ] mongod
+
+*[Reference](https://hazimhassan.com/linkedin-mongodb-assessment-answers/#:~:text=Which%20file%20in%20the%20MongoDB%20directly%20holds%20the%20MongoDB%20daemon)*
 
 #### Q56. You have just secured your previously unsecured MongoDB server, but the server is still not requiring authentication. What is the best option?
 
@@ -394,10 +396,13 @@
 
 #### Q57. What is the most accurate statement regarding MongoDB and ad hoc queries?
 
-- [ ] MongoDB does not allow ad hoc queries; all queries require an index.
+- [x] MongoDB does not allow ad hoc queries; all queries require an index.
 - [ ] Ad hoc queries are allowed only in the paid version.
 - [ ] Ad hoc queries are allowed only through the ad hoc command.
 - [ ] MongoDB allows ad hoc queries.
+
+*[Reference-1](https://hazimhassan.com/linkedin-mongodb-assessment-answers/#:~:text=What%20is%20the%20most%20accurate%20statement%20regarding%20MongoDB%20and%20ad%20hoc%20queries)*
+*[Reference-2](https://quick-adviser.com/how-do-i-query-a-field-in-mongodb/#:~:text=Q57.-,What%20is%20the%20most%20accurate%20statement%20regarding%20MongoDB%20and%20ad%20hoc%20queries,-%3F%20MongoDB%20does%20not)*
 
 #### Q58. In MongoDB, what does a projection do?
 
@@ -424,8 +429,10 @@
 
 - [ ] `Use db.collection.set({$_id:pretty})`
 - [ ] `Create a second index`
-- [ ] `Use db.collection.format(numeric)`
+- [x] `Use db.collection.format(numeric)`
 - [ ] `Use $_id = value`
+
+*[Reference](https://hazimhassan.com/linkedin-mongodb-assessment-answers/#:~:text=How%20can%20you%20improve%20the%20appearance%20of%20the%20output%20JSON%20that%20contains%20the)*
 
 #### Q62. What happens to a Replica set oplog if it runs out of memory?
 
