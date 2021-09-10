@@ -205,3 +205,33 @@
 - [ ] Task Manager
 - [ ] the Computer Management Console
 - [ ] the UEFI
+
+#### Q24. Which type of power connector is this?
+
+![Q24](images/Q24.PNG)
+
+- [ ] Edison
+- [x] Molex
+- [ ] SATA
+- [ ] PCI
+
+#### Q25. What is the most important thing to do before opening a computer case?
+
+- [x] Turn off and unplug the computer.
+- [ ] Disconnect all of the cables.
+- [ ] Close your programs, sign out of your account, and turn off the computer.
+- [ ] Ground yourself.
+
+#### Q26. On a trackpad, what gesture commonly replaces "center mouse wheel" for things like scrolling through documents?
+
+- [ ] pinch outward
+- [ ] scroll with thumb instead
+- [x] two-finger swipe
+- [ ] force click and drag
+
+#### Q27. What is the name of the hardware that provides a computer with network access?
+
+- [ ] BIOS
+- [ ] RJ-45
+- [x] NIC
+- [ ] Router
