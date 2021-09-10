@@ -778,8 +778,6 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] to provide an archival solution for data warehousing
 - [ ] to provide a way for JavaScript to run other languages
 
-*Not confirmed may be C option. If someone knows exact answer please contribute in this repository and mark the correct answer.*
-
 #### Q70. Can you assume the order of keys in an object?
 
 - [x] No, but you can sort the keys with `JSON.sort()`.
