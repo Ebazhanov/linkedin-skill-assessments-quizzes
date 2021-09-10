@@ -383,7 +383,7 @@
 - [ ] mongodb
 - [ ] mongo-daemon
 - [ ] daemon
-- [ ] mongod
+- [x] mongod
 
 #### Q56. You have just secured your previously unsecured MongoDB server, but the server is still not requiring authentication. What is the best option?
 
@@ -397,7 +397,7 @@
 - [ ] MongoDB does not allow ad hoc queries; all queries require an index.
 - [ ] Ad hoc queries are allowed only in the paid version.
 - [ ] Ad hoc queries are allowed only through the ad hoc command.
-- [ ] MongoDB allows ad hoc queries.
+- [x] MongoDB allows ad hoc queries.
 
 #### Q58. In MongoDB, what does a projection do?
 
@@ -422,7 +422,10 @@
 
 #### Q61. How can you improve the appearance of the output JSON that contains the `_id`?
 
-- [ ] `Use db.collection.set({$_id:pretty})`
+- [x![WhatsApp Image 2021-09-11 at 02 15 49](https://user-images.githubusercontent.com/66520710/132917066-85f112b2-c745-4bcb-a5f1-615458155593.jpeg)
+![WhatsApp Image 2021-09-11 at 02 15 49 (1)](https://user-images.githubusercontent.com/66520710/132917069-af7ee052-f4de-4faf-a45f-04dc8c44bbdd.jpeg)
+![WhatsApp Image 2021-09-11 at 02 09 41](https://user-images.githubusercontent.com/66520710/132917071-e5dbe115-bb23-43aa-a65d-7333a9507f5a.jpeg)
+] `Use db.collection.set({$_id:pretty})`
 - [ ] `Create a second index`
 - [ ] `Use db.collection.format(numeric)`
 - [ ] `Use $_id = value`
