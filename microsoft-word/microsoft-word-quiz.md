@@ -366,21 +366,28 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Press Enter (Windows) or Return (Mac).
 - [x] Press Shift+Enter (Windows) or Shift+Return (Mac)
 
-#### Q47. You want to repeat an element (such as the date<9 on all pages of the document. Which options should you choose?
+#### Q47. You want to repeat an element (such as the date) on all pages of the document. Which options should you choose?
 
 - [x] Insert > Header & Footer
 - [ ] Insert > Text
 - [ ] Design > Header & Footer
 - [ ] View > Header & Footer
 
-#### Q48. A document has been shared with you from your colleague's OneDrive library. They have given only you editing access. What can you do with this document?
+#### Q48. You want to repeat an element (such as the date) at the bottom of all pages of a document. Which option should you choose?
+
+- [ ] Insert > Text
+- [ ] View > Header & Footer
+- [ ] Design > Footer
+- [x] Insert > Footer
+
+#### Q49. A document has been shared with you from your colleague's OneDrive library. They have given only you editing access. What can you do with this document?
 
 - [x] Share the document with others.
 - [ ] Assume ownership of the document.
 - [ ] Remove access from another user.
 - [ ] Coauthor the document with your colleague.
 
-#### Q49. In the image below, what do the red bars next to the text indicate?
+#### Q50. In the image below, what do the red bars next to the text indicate?
 
 ![image](images/002.png)
 
@@ -389,42 +396,42 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Comments were added to these areas.
 - [ ] none of these answers
 
-#### Q50. What formatting must you use to use both portrait and landscape pages in the same Word document?
+#### Q51. What formatting must you use to use both portrait and landscape pages in the same Word document?
 
 - [ ] templates
 - [ ] page
 - [ ] columns
 - [x] sections
 
-#### Q51. Which option does the Find and Replace feature **NOT** support?
+#### Q52. Which option does the Find and Replace feature **NOT** support?
 
 - [x] Match Punctuation
 - [ ] Replace All
 - [ ] Match Case
 - [ ] Whole Word Only
 
-#### Q52. What is the name of the text effect that displays a large capital letter at the beginning of a paragraph?
+#### Q53. What is the name of the text effect that displays a large capital letter at the beginning of a paragraph?
 
 - [ ] superscript
 - [x] drop cap
 - [ ] subscript
 - [ ] small caps
 
-#### Q53. You need to document a procedure. Which paragraph format is best to help readers follow the sequence of instructions?
+#### Q54. You need to document a procedure. Which paragraph format is best to help readers follow the sequence of instructions?
 
 - [ ] line numbers
 - [x] numbered list
 - [ ] columns
 - [ ] bulleted list
 
-#### Q54. How can you adjust which data in a table is used when creating a chart?
+#### Q55. How can you adjust which data in a table is used when creating a chart?
 
 - [ ] Click the Select Data button.
 - [ ] Click the Refresh Data button.
 - [ ] Click the Switch Row/Column button.
 - [x] Click the Edit Data button.
 
-#### Q55. You want to be able to edit your Word document simultaneously with other Word users in your organization. Which save location should you select in the Save As dialog box?
+#### Q56. You want to be able to edit your Word document simultaneously with other Word users in your organization. Which save location should you select in the Save As dialog box?
 
 A. OneDrive
 B. SharePoint document library
@@ -436,7 +443,7 @@ D. DropBox
 - [ ] A, B, C
 - [x] A or B
 
-#### Q56. Why is it important to use alternative text for objects in your document?
+#### Q57. Why is it important to use alternative text for objects in your document?
 
 - [ ] Adding alternative text to an object is one way to apply a caption to an object.
 - [ ] It allows you to display the text in a language other than the default language-for example, English to French, French to German.
@@ -445,7 +452,7 @@ D. DropBox
 
 [Reference](https://support.microsoft.com/en-us/office/add-alternative-text-to-a-shape-picture-chart-smartart-graphic-or-other-object-44989b2a-903c-4d9a-b742-6a75b451c669)
 
-#### Q57. What is a benefit of using sections in a Microsoft Word document?
+#### Q58. What is a benefit of using sections in a Microsoft Word document?
 
 - [ ] You can restrict printing for specific document sections.
 - [x] You can apply unique formatting to each section.
@@ -454,7 +461,7 @@ D. DropBox
 
 [Reference](https://support.microsoft.com/en-us/office/insert-delete-or-change-a-section-break-0eeae2d6-b906-42d3-a1bd-7e77ca8ea1f3)
 
-#### Q58. How can you tell if a colleague is coauthoring a document at the same time as you? (Select all that apply.)
+#### Q59. How can you tell if a colleague is coauthoring a document at the same time as you? (Select all that apply.)
 
 ```markdown
 A. Colleague's name appears in the Share panel.
@@ -470,7 +477,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 
 [Reference](https://support.microsoft.com/en-us/office/coauthor-documents-anywhere-ed0cf685-f619-4d54-9c42-a61c8795c87f)
 
-#### Q59. When you insert a picture into a document, what happens to the picture?
+#### Q60. When you insert a picture into a document, what happens to the picture?
 
 - [ ] Word stretches the photo to fill the page.
 - [x] Word scales the image to the largest size possible to fit within the height or width of the page.
@@ -479,7 +486,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 
 [Reference link](https://support.microsoft.com/en-us/office/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344)
 
-#### Q60. When working with Track Changes, what is the difference between Simple Markup and all Markup?
+#### Q61. When working with Track Changes, what is the difference between Simple Markup and all Markup?
 
 - [ ] Simple Markup shows the final version without inline markups; All Markups shows the final version with inline markups.
 - [x] Simple Markup shows the markup versions by one selected author; All Markup shows the combined markup version of all authors.
@@ -487,21 +494,21 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] Simple Markup shows the final version with inline markups; All Markup shows the final version without inline markups.
       [Reference link](https://support.microsoft.com/en-us/office/video-track-changes-and-show-markup-3faf8a07-26ed-4b76-b6a0-43cca013e6d3)
 
-#### Q61. You want to set a wider inside margin to accommodate binding a document where pages are printed on both sides. Which option should you choose in the Page Setup dialog box?
+#### Q62. You want to set a wider inside margin to accommodate binding a document where pages are printed on both sides. Which option should you choose in the Page Setup dialog box?
 
 - [x] Book Fold.
 - [ ] Mirror Margins
 - [ ] Duplex
 - [ ] Difference Odd & Even Pages
 
-#### Q62. Which object can you NOT insert into a Word document from the Insert tab?
+#### Q63. Which object can you NOT insert into a Word document from the Insert tab?
 
 - [ ] a 3D model
 - [ ] an equation
 - [x] a sketch
 - [ ] a symbol
 
-#### Q63. You're finalizing a document that contains some high-resolution images. You want to reduce the picture size while ensuring image quality is adequate for online viewing. What is a best-practice approach?
+#### Q64. You're finalizing a document that contains some high-resolution images. You want to reduce the picture size while ensuring image quality is adequate for online viewing. What is a best-practice approach?
 
 - [ ] Review the images and crop as needed. Compress the images. Save the document and then compress the entire document.
 - [ ] Replace the images with lower-resolution images. Save the document and then compress it.
@@ -510,7 +517,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 
 [Reference link](https://support.microsoft.com/en-us/topic/reduce-the-file-size-of-a-picture-in-microsoft-office-8db7211c-d958-457c-babd-194109eb9535)
 
-#### Q64. Before you send a document to an external client, you must remove personal information--including document author names, comments, and hidden text--from the doc. What tool can help you locate and clean up these details??
+#### Q65. Before you send a document to an external client, you must remove personal information--including document author names, comments, and hidden text--from the doc. What tool can help you locate and clean up these details??
 
 - [ ] Accessibility Checker
 - [ ] Check Compatibility
@@ -519,21 +526,21 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 
 [Reference](https://support.microsoft.com/en-us/topic/remove-hidden-data-and-personal-information-by-inspecting-documents-presentations-or-workbooks-356b7b5d-77af-44fe-a07f-9aa4d085966f#:~:text=Click%20File%20%3E%20Info%20%3E%20Remove%20Personal,from%20the%20document%20check%20box.)
 
-#### Q65. What chart type cannot be used for more than one data series?
+#### Q66. What chart type cannot be used for more than one data series?
 
 - [x] Pie
 - [ ] Column
 - [ ] Line
 - [ ] Bar
 
-#### Q66. What is the difference between a footnote and an endnote?
+#### Q67. What is the difference between a footnote and an endnote?
 
 - [ ] An endnote always appears on the bottom of the same page that it references
 - [ ] Footnote use Arabic numerals and endnotes use letters.
 - [x] A footnote is placed at the bottom of the page, and an endnote is placed at the end of the document
 - [ ] A footnote is placed in teh page footer and an endnote is placed on a blank page at the end of the document
 
-#### Q67. In the image below, where do you click to hide comments when a document prints?
+#### Q68. In the image below, where do you click to hide comments when a document prints?
 
 ![image](https://i.imgur.com/JjdzceL.png)
 
@@ -542,21 +549,21 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] C
 - [ ] D
 
-#### Q68. Which page orientation should you select to accommodate a wide chart or table?
+#### Q69. Which page orientation should you select to accommodate a wide chart or table?
 
 - [ ] Tall
 - [x] Portrait
 - [ ] Wide
 - [ ] Landscape
 
-#### Q69. What is the first step in sharing a document that is currently saved on your local hard drive?
+#### Q70. What is the first step in sharing a document that is currently saved on your local hard drive?
 
 - [ ] Get a sharing link for the document.
 - [ ] Create a new document in OneDrive.
 - [x] Upload the document to OneDrive.
 - [ ] Send an invitation to the document.
 
-#### Q70. You are working in another application and want to move text into a Word document. How can you do it?
+#### Q71. You are working in another application and want to move text into a Word document. How can you do it?
 
 - [ ] Export the text from the other application as a Word document.
 - [x] Use the Insert command and select the Word document.
