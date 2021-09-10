@@ -205,3 +205,10 @@
 - [ ] Task Manager
 - [ ] the Computer Management Console
 - [ ] the UEFI
+
+#### Q24. Angela ran a diagnostic that shows an ever-decreasing amount of memory in her computer. What could be the problem?
+
+- [ ] DRAM is failing.
+- [x] A program has a memory leak.
+- [ ] There is no problem. It's normal for available memory to decrease the longer you use the system.
+- [ ] Another user has signed into the system 
