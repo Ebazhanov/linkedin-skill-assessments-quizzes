@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-524-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-525-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -776,6 +776,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/tujinwei"><img src="https://avatars.githubusercontent.com/u/84245009?v=4?s=100" width="100px;" alt=""/><br /><sub><b>言葉之靈</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=tujinwei" title="Code">💻</a> <a href="#design-tujinwei" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/RJLABS"><img src="https://avatars.githubusercontent.com/u/42428311?v=4?s=100" width="100px;" alt=""/><br /><sub><b>RJLABS</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=RJLABS" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/brittney0522"><img src="https://avatars.githubusercontent.com/u/85816771?v=4?s=100" width="100px;" alt=""/><br /><sub><b>brittney0522</b></sub></a><br /><a href="#design-brittney0522" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=brittney0522" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/shamera82"><img src="https://avatars.githubusercontent.com/u/20187209?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sham</b></sub></a><br /><a href="#design-shamera82" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=shamera82" title="Code">💻</a></td>
   </tr>
 </table>
 
