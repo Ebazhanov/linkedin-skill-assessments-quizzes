@@ -164,3 +164,179 @@ End Sub
 [Reference link](https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/visual-basic-naming-rules)
 
 `Use the following rules when you name procedures, constants, variables, and arguments in a Visual Basic module: You must use a letter as the first character. You can't use a space, period (.), exclamation mark (!), or the characters @, &, $, # in the name. Name can't exceed 255 characters in length.`
+
+#### Q13. Which is a valid definition of a user-defined data type?
+
+- [x] 
+
+Type CBC
+    Name As String
+    Next As String
+End Type
+
+- [ ] 
+
+Type CBC
+    Name As String
+    _Next As String
+End Type
+
+- [ ] 
+
+Type CBC
+    Name As String
+    @Option As String
+End Type
+
+- [ ] 
+ 
+Type CBC
+    Name As String
+    %For As String
+End Type
+
+#### Q14. What is one way to duplicate a user form from one project into a different project?
+
+- [ ] 
+
+1. Save and close the project with the existing user form.
+2. Click Insert > File.
+3. Browse to the location of the existing project.
+4. Right-click it and select the user-form you want to duplicate.
+
+- [ ] 
+
+1. Open the existing user form in Desing Mode.
+2. Right-click the form and select Copy.
+3. Switch to the other project.
+4. Right-click Module and select Paste.
+
+- [ ] 
+
+1. In the Project Explorer, right-click the user form and select Copy.
+2. Switch to the new project.
+3. Right-click UserForms and select Paste.
+
+- [x] 
+ 
+1. Open the existing user form in Design Mode.
+2. Click File > Export File.
+3. Switch to the other project.
+4. Click File > Import File.
+ 
+#### Q15. The recording of a macro in Word is likely to be an incomplete record of the user's actions. Why?
+
+- [x] Word's Macro Recorder does not record actions initiated by keyboard shortcuts.
+- [ ] Word's Macro Recorder does not support Find & Replace edits.
+- [ ] Word's Macro Recorder does not record actions initiated by clicking a button on the Ribbon's Developer tab. 
+- [ ] Word's Macro Recorder does not record actions that inlove selection of text by pointing with the mouse pointer. 
+
+#### Q16. Which statement should precede a subroutuine's error handler?
+
+- [ ] End
+- [ ] Return
+- [x] Exit Sub
+- [ ] Stop
+
+#### Q17. How many values can MyArray hold?
+
+```
+Option Base 0
+Sub BuildArray()
+Dim MyArray(5) As Integer
+```
+
+- [ ] 0
+- [ ] 32,769
+- [ ] 5
+- [x] 6
+
+
+#### Q18. Which statement is true?
+
+- [ ] Set establishes a value in a class; Let returns a value from a class.
+- [ ] Let establishes a value in a class; Set returns a value from a class.
+- [x] Let establishes a value in a class; Get returns a value from a class.
+- [ ] Get establishes a value in a class; Set returns a value from a class.
+
+
+#### Q19. A declaration has scope, which has three levels. What are they?
+
+- [ ] Module, Project and Automation
+- [x] Procedure, Private Module and Public Module
+- [ ] Subroutine, Module and Project
+- [ ] Procedure, Project and Global
+
+
+#### Q20. There are two references that must be selected in the Visual Basic Editor in order for any Visual Basic code to run in Excel. What are these two references?
+
+- [ ] MS Excel object library and MS Office object library
+- [ ] VBA and MS Office object library
+- [x] VBA and Excel object library
+- [ ] MS Excel object library and OLE automation
+
+#### Q21. Which action will cause your project to reset its variables?
+
+- [ ] Edit the list of arguments of the current routine while in debug mode.
+- [x] Click End in a run-time error dialog.
+- [ ] Add an ActiveXcontrol to a worksheet.
+- [ ] all of these answers
+
+#### Q22. Which keyboard shortcut causes VBE to locate the declaration of a procedure?
+
+- [ ] Shift+F3
+- [ ] Alt+F (Windows) or Option+F (Mac)
+- [x] Shift+F2
+- [ ] Ctrl+F (Windows) or Command+F (Mac)
+
+#### Q23. When you define a new class of object, where do you assign a name to it?
+
+- [x] in the class module's name
+- [ ] in the class module's code
+- [ ] in a standard module's code
+- [ ] in a standard module's Properties
+
+#### Q24. How does a class module indicate that it uses a particular interface?
+
+- [ ] The interface itself is part of the class module.
+- [ ] by means of the Interface keyword and the name of the interface
+- [ ] by means of the Implements keyword and the name of the interface
+- [x] The name of the interface is passed as a parameter.
+
+#### Q25. What is needed for the contents of Module1 to be availble to other modules in a VBA project, but not to any other VBA project?
+
+- [x] Set Option Global at the top of Module1
+- [ ] Declare module-level variables as Private
+- [ ] Set Module Level Scope at the top of Module1
+- [ ] Set Option Private Module at the top of Module1
+
+#### Q26. When used with an array named MyArray, what is the preerred way to set beginning and ending values of a loop control variable?
+
+- [ ] For i = 0 To UBound(MyArray,1)
+- [ ] For i = 1 To UBound(MyArray,1)
+- [x] For i = LBound(MyArray,1) To UBound(MyArray,1)
+- [ ] It depends on whether Option Base 0 or Option Base 1 is in use.
+
+#### Q27. What is the value of Test3?
+
+```
+Enum TestEnum
+    Test1
+    Test2
+    Test3
+End Enum
+```
+
+- [ ] 0
+- [ ] 1
+- [ ] 3
+- [x] 2
+
+#### Q28. Which statement declares an array?
+
+- [ ] Dim MyArray() As Integer
+- [x] Dim MyArray() As Array
+- [ ] Dim MyArray As Integer
+- [ ] Dim MyArray As Array
+
+
