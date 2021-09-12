@@ -1,7 +1,9 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-522-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -20,7 +22,7 @@ if you want to meet each other or discuss quiz related problems join the `Discor
 
 | Linkedin-quiz-questions                                                      | Translation                                                                                                                                                                          |                 | Status        | Your resource for answers. In case you have doubts please contact this person or add him to review your PR. |
 | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------- | ------------- | ----------------------------------------------------------------------------------------------------------- |
-| [Accounting](accounting/accounting-quiz.md)                                  |                                                                                                                                                                                      | => 15 questions | => 0 answers  |                                                                                                             |
+| [Accounting](accounting/accounting-quiz.md)                                  |                                                                                                                                                                                      | => 15 questions | => 15 answers | [@tujinwei](https://github.com/tujinwei)                                                                    |
 | [Adobe-Acrobat](adobe-acrobat/adobe-acrobat-quiz.md)                         |                                                                                                                                                                                      | => 15 questions | => 0 answers  |                                                                                                             |
 | [Adobe-Illustrator](adobe-illustrator/adobe-illustrator-quiz.md)             |                                                                                                                                                                                      | => 51 questions | => 0 answers  |                                                                                                             |
 | [Adobe-InDesign](adobe-in-design/adobe-in-design-quiz.md)                    |                                                                                                                                                                                      | => 3 questions  | => 0 answers  |                                                                                                             |
