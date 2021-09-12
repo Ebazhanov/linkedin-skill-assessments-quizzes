@@ -779,7 +779,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/shamera82"><img src="https://avatars.githubusercontent.com/u/20187209?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sham</b></sub></a><br /><a href="#design-shamera82" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=shamera82" title="Code">💻</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/glgoose"><img src="https://avatars.githubusercontent.com/u/48956933?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Glenn Goossens</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=glgoose" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/glgoose"><img src="https://avatars.githubusercontent.com/u/48956933?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Glenn Goossens</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=glgoose" title="Code">💻</a> <a href="#design-glgoose" title="Design">🎨</a></td>
   </tr>
 </table>
 
