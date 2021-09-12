@@ -846,4 +846,4 @@ const [count, setCount] = useState(0);
 - [ ] the initial state value
 - [ ] a variable
 - [ ] a state object
-- [ ] a function to update the state
+- [x] a function to update the state
