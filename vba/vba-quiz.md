@@ -96,7 +96,7 @@ End Sub
 - [ ] 3
 - [ ] 0
 - [ ] 9
-- [ ] 6
+- [x] 6
 
 #### Q7. The Driver subroutine is declared by Sub Driver (Y). Which statement results in a compile error?
 
@@ -156,8 +156,8 @@ End Sub
 
 #### Q12. Which variable name is valid in VBA?
 
-- [x] `_MyVar`
-- [ ] `My_Var`
+- [ ] `_MyVar`
+- [x] `My_Var`
 - [ ] `My-Var`
 - [ ] `1MyVar`
 
