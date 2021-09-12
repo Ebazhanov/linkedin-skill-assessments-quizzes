@@ -5088,6 +5088,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "tujinwei",
+      "name": "言葉之靈",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84245009?v=4",
+      "profile": "https://github.com/tujinwei",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
