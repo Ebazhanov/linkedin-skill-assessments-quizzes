@@ -772,7 +772,7 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 #### Q69. What is the purpose of JSON?
 
-- [ ] to provide a simple way to serialize and deserialize data between different sources
+- [x] to provide a simple way to serialize and deserialize data between different sources
 - [ ] to provide a way to store data for machine learning
 - [ ] to provide an archival solution for data warehousing
 - [ ] to provide a way for JavaScript to run other languages
