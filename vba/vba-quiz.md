@@ -96,7 +96,7 @@ End Sub
 - [ ] 3
 - [ ] 0
 - [ ] 9
-- [ ] 6
+- [x] 6
 
 #### Q7. The Driver subroutine is declared by Sub Driver (Y). Which statement results in a compile error?
 
@@ -156,8 +156,8 @@ End Sub
 
 #### Q12. Which variable name is valid in VBA?
 
-- [x] `_MyVar`
-- [ ] `My_Var`
+- [ ] `_MyVar`
+- [x] `My_Var`
 - [ ] `My-Var`
 - [ ] `1MyVar`
 
@@ -226,10 +226,10 @@ End Type
  
 #### Q15. The recording of a macro in Word is likely to be an incomplete record of the user's actions. Why?
 
-- [x] Word's Macro Recorder does not record actions initiated by keyboard shortcuts.
+- [ ] Word's Macro Recorder does not record actions initiated by keyboard shortcuts.
 - [ ] Word's Macro Recorder does not support Find & Replace edits.
 - [ ] Word's Macro Recorder does not record actions initiated by clicking a button on the Ribbon's Developer tab. 
-- [ ] Word's Macro Recorder does not record actions that inlove selection of text by pointing with the mouse pointer. 
+- [x] Word's Macro Recorder does not record actions that inlove selection of text by pointing with the mouse pointer. 
 
 #### Q16. Which statement should precede a subroutuine's error handler?
 
@@ -291,10 +291,10 @@ Dim MyArray(5) As Integer
 
 #### Q23. When you define a new class of object, where do you assign a name to it?
 
-- [x] in the class module's name
+- [ ] in the class module's name
 - [ ] in the class module's code
 - [ ] in a standard module's code
-- [ ] in a standard module's Properties
+- [x] in a standard module's Properties
 
 #### Q24. How does a class module indicate that it uses a particular interface?
 
@@ -305,10 +305,10 @@ Dim MyArray(5) As Integer
 
 #### Q25. What is needed for the contents of Module1 to be availble to other modules in a VBA project, but not to any other VBA project?
 
-- [x] Set Option Global at the top of Module1
+- [ ] Set Option Global at the top of Module1
 - [ ] Declare module-level variables as Private
 - [ ] Set Module Level Scope at the top of Module1
-- [ ] Set Option Private Module at the top of Module1
+- [x] Set Option Private Module at the top of Module1
 
 #### Q26. When used with an array named MyArray, what is the preerred way to set beginning and ending values of a loop control variable?
 
