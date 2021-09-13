@@ -339,4 +339,161 @@ End Enum
 - [ ] Dim MyArray As Integer
 - [ ] Dim MyArray As Array
 
+#### Q29. To use VBA code to maintain a different VBA project, you can make use of VBA's extensibility. What is needed to enable extensibility?
 
+- [ ] Set Macro Security to Trust Access to the VBA Project Object Model
+- [ ] The project's workbook should be protected in the Ribbon's Review tab
+- [x] Include a reference to Microsoft VBA Extensibility 5.3
+- [ ] Include a reference to Microsoft VBA Extensibility 5.3 and set Macro Security to Trust Access to the VBA Project Object Model
+
+#### Q30. How do you add a user form to a VBA project?
+
+- [ ] 
+
+1. Select the project in the Project window of the Visual Basic Editor
+2. Click the Design Mode button and select Insert Mode
+
+- [ ] 
+
+1. Select the project in the Project window of the Visual Basic Editor
+2. Click the Toolbox button and select UserForm
+
+- [ ] 
+
+1. Select the project in the Project window of the Visual Basic Editor
+2. Right-click the Run menu and select Customize 
+
+- [x] 
+
+1. Select the project in the Project window of the Visual Basic Editor
+2. Click Insert > UserForm
+
+#### Q31. Explicit variable declaration is required. MyVar is declared at both the module and the procedure level. What is the value of MyVar after first AAA() and then BBB() are run?
+
+```
+Dim MyVar As String
+Sub AAA()
+Dim MyVar As String
+MyVar = "Procedure AAA Scope"
+End Sub
+Sub BBB()
+MyVar = "Procedure BBB Scope"
+End Sub
+```
+
+- [ ] MyVar equals "Procedure AAA Scope"
+- [ ] ISNULL(MyVar) is TRUE
+- [x] MyVar rquals "Procedure BBB Scope"
+- [ ] MyVar is NULL
+
+#### Q32. Which code block from class modules returns a compile error?
+
+- [ ] 
+```
+Public Property Get HDL() As Double
+HDL = pHDL
+End Property
+Public Property Let HDL(Value As Double)
+pHDL = Value
+End Property
+```
+
+- [ ] 
+```
+Property Get HDL() As Double
+HDL = Value
+End Property
+Property Let HDL(Value As Double)
+pHDL = Value
+End Property
+```
+
+- [ ] 
+```
+Public Property Get HDL() As Double
+HDL = Value
+End Property
+Public Property Let HDL(Value As Double)
+pHDL = Value
+End Property
+```
+
+- [x] 
+```
+Public Property Get HDL() As Single
+HDL = pHDL
+End Property
+Public Property Let HDL(Value As Double)
+pHDL = Value
+End Property
+```
+
+#### Q33. If VBA code declares FileCount as a constant rather than a variable, the code tends to run faster. Why is this?
+
+- [ ] The scope of constants is limited to the procedure that declares them
+- [ ] Constants are declared at compile time, but variables are declared at run time
+- [ ] Once declared in a project, the value of a constant cannot be changed. There is no need to look up the current value of FileCount when it is a constant.
+- [x] The Const declaraton specifies the most efficient type given the constant's value
+
+#### Q34. A VBA project must declare four classes. How many class modules are needed?
+
+- [ ] two (one for the properties and one for the methods)
+- [ ] one (each class is declared in the same module)
+- [ ] four (one for each class)
+- [x] as many as are required by the variable types that the objects return
+
+#### Q35. What does this code display?
+
+```
+Sub MakeErrors()
+Dim Y As Variant, Z As Variant
+On Error Resume Next
+Y = 1 / 0
+MsgBox "Y = " & Y
+On Error GoTo 0
+Z - (0 - 3) ^ 0.5
+MsgBox "Z = " & Z
+End Sub
+```
+
+- [ ] an error message
+- [ ] Y and Z
+- [x] Z = in a message box and then a subsequent errpr message
+- [ ] Y = in a message box and then a subsequent errpr message
+
+#### Q36. The VBA code block shown in the following four options runs when UserForm1's CommandButton1 button is clicked. Which block of code leaves UserFrom1 loaded but not visible until the FoundErrors function has checked it, and then enables processing to continue if no errors are found?
+
+- [ ] 
+```
+Private Sub CommandButton1_Click()
+If FoundErrors(Me) Then _
+Me.Show
+End Sub
+```
+
+- [ ] 
+```
+Private Sub CommandButton1_Click()
+If Not FoundErrors(UserForm1) Then _
+Unload UserForm1
+End Sub
+```
+
+- [x] <- not sure
+```
+Private Sub CommandButton1_Click()
+Me.Hide
+Do While FoundErrors(Me)
+Me.Show
+Loop
+End Sub
+```
+
+- [x] <- not sure
+```
+Private Sub CommandButton1_Click()
+Do While FoundErrors(UserForm1)
+UserForm1.show
+Loop
+End Sub
+```
