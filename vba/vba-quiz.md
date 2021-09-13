@@ -3,13 +3,13 @@
 #### Q1. Which two sets of values are printed by this function and sub?
 
 ```
-Function GetVitals(ID As Long, Age As Long, ptional Weight As Long) As String
+Function GetVitals(ID As Long, Age As Long, Optional Weight As Long) As String
     GetVitals="ID=" & ID &"Age=" & Age & "Weight=" & Weight
 End Function
 Sub ShowVitals()
     Dim ID As Long, Age As Long,Weight as Long
     Debug.Print GetVitals(ID:=5,Age:=20)
-    Debug.Print GetVitals(ID:=6,Age:=25,Weight:=130
+    Debug.Print GetVitals(ID:=6,Age:=25,Weight:=130)
 End Sub
 ```
 
@@ -93,10 +93,10 @@ Total = WorksheetFunction.Sum(TestArray)
 End Sub
 ```
 
-- [ ] 3
+- [x] 3
 - [ ] 0
 - [ ] 9
-- [x] 6
+- [ ] 6
 
 #### Q7. The Driver subroutine is declared by Sub Driver (Y). Which statement results in a compile error?
 
@@ -110,7 +110,7 @@ End Sub
 - [ ] Frame
 - [ ] multipage
 - [ ] TabStrip
-- [ ] ListBox
+- [x] ListBox
 
 #### Q9. Below is a function named SquareIt. Which version of the subroutine named Area results in a compile error?
 
@@ -141,7 +141,7 @@ End Sub
 #### Q10. EmailAddress() is an array. It is declared by Dim EmailAddress(10) As String, and option Base 1 is in effect. How many rows and columns are in EmailAddress()?
 
 - [ ] 10 rows and 10 columns
-- [ ] 10 rows and 1 column
+- [x] 10 rows and 1 column
 - [ ] 10 rows and 0 columns
 - [ ] 1 row and 10 columns
 
