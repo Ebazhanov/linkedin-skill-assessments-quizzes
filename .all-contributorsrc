@@ -5079,6 +5079,64 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "JoaoSousa00",
+      "name": "João Sousa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49438269?v=4",
+      "profile": "https://github.com/JoaoSousa00",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "tujinwei",
+      "name": "言葉之靈",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84245009?v=4",
+      "profile": "https://github.com/tujinwei",
+      "contributions": [
+        "code",
+        "design"
+      ]
+    },
+    {
+      "login": "RJLABS",
+      "name": "RJLABS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42428311?v=4",
+      "profile": "https://github.com/RJLABS",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "brittney0522",
+      "name": "brittney0522",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85816771?v=4",
+      "profile": "https://github.com/brittney0522",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "shamera82",
+      "name": "sham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20187209?v=4",
+      "profile": "https://github.com/shamera82",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "glgoose",
+      "name": "Glenn Goossens",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48956933?v=4",
+      "profile": "https://github.com/glgoose",
+      "contributions": [
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
