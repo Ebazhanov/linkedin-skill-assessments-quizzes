@@ -446,10 +446,10 @@ public static void Main(string[] args)
 
 #### Q40. What is the correct syntax for a new generic list of strings named contacts? (similar to Q26)
 
-- [X] ```var contacts = new List<string>();```
-- [ ] ```var contacts = new List(string);```
-- [ ] ```public List<string names> contacts = new List<string names>();```
-- [ ] ```public List(string names) contacts = new List(string names);```
+- [x] `var contacts = new List<string>();`
+- [ ] `var contacts = new List(string);`
+- [ ] `public List<string names> contacts = new List<string names>();`
+- [ ] `public List(string names) contacts = new List(string names);`
 
 **Reference** [Official documentation: List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1?view=net-5.0)
 
