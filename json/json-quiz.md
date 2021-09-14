@@ -567,7 +567,8 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] UPC: "043875"
 - [ ] "UPC": 043875
 - [ ] UPC: '043875'
-      **NONE OF THESE ARE CORRECT A CORRECT ANSWER WOULD LOOK LIKE `"UPC": "043875"`**
+
+**NONE OF THESE ARE CORRECT A CORRECT ANSWER WOULD LOOK LIKE `"UPC": "043875"`**
 
 #### Q44. Which data format is a JSON schema written in?
 
@@ -779,23 +780,25 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 #### Q70. Can you assume the order of keys in an object?
 
-- [ ] No, but you can sort the keys with `JSON.sort()`.
+- [x] No, but you can sort the keys with `JSON.sort()`.
 - [ ] Yes, object keys are always ordered alphabetically.
 - [ ] Yes, but only when the object is first parsed.
 - [ ] No, you can never assume object keys will be in order.
+
+*Not confident. If someone knows exact answer please contribute in this repository and mark the correct answer.*
 
 #### Q71. With what character should object keys be enclosed?
 
 - [ ] `*`
 - [ ] `#`
 - [ ] `^`
-- [ ] `"`
+- [x] `"`
 
 #### Q72. What is the maximum number of key/value pairs that JSON supports?
 
 - [ ] 10,000
 - [ ] 1000
-- [ ] There is no defined limit.There is no defined limit.
+- [x] There is no defined limit.
 - [ ] 1 million
 
 #### Q73. What is the recommended term used to refer to multiple resources?
