@@ -5157,6 +5157,15 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "verbality",
+      "name": "verbality",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20299932?v=4",
+      "profile": "https://github.com/verbality",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
