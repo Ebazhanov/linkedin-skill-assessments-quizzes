@@ -785,8 +785,6 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] Yes, but only when the object is first parsed.
 - [ ] No, you can never assume object keys will be in order.
 
-*Not confident. If someone knows exact answer please contribute in this repository and mark the correct answer.*
-
 #### Q71. With what character should object keys be enclosed?
 
 - [ ] `*`

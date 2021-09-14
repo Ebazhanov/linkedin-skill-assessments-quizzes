@@ -413,6 +413,7 @@
 **Explanation:** [Resource Naming](https://restfulapi.net/resource-naming/)
 
 #### Q56. Which REST constraint essentially prohibits the use of cookies?
+
 - [x] Stateless
 - [ ] Cacheable
 - [ ] Layered System

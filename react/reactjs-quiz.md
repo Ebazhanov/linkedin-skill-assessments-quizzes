@@ -726,17 +726,17 @@ class Greeting extends React.Component {
 - [ ] B
 
 ```javascript
-class Greeting extends React.Component { 
-  <h1>Hello {this.props.name}!</h1>; 
+class Greeting extends React.Component {
+  <h1>Hello {this.props.name}!</h1>;
 }
 ```
 
 - [x] C
 
 ```javascript
-class Greeting extends React.Component { 
+class Greeting extends React.Component {
   render() {
-      return <h1>Hello {this.props.name}!</h1>; 
+    return <h1>Hello {this.props.name}!</h1>;
   }
 }
 ```

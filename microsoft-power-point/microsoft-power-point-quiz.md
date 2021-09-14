@@ -379,8 +379,6 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [x] Select the chart data in Excel.
 - [ ] Select the chart style.
 
-*Not confident about answer. If someone knows exact answer please contribute in this repository and mark the correct answer.*
-
 #### Q51. How would you show a correlation between the amount of chocolate a city consumes and the number of crimes committed?
 
 - [ ] Use a bar chart.

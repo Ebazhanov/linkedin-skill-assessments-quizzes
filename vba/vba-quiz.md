@@ -167,69 +167,69 @@ End Sub
 
 #### Q13. Which is a valid definition of a user-defined data type?
 
-- [x] 
+- [x]
 
 Type CBC
-    Name As String
-    Next As String
+Name As String
+Next As String
 End Type
 
-- [ ] 
+- [ ]
 
 Type CBC
-    Name As String
-    _Next As String
+Name As String
+\_Next As String
 End Type
 
-- [ ] 
+- [ ]
 
 Type CBC
-    Name As String
-    @Option As String
+Name As String
+@Option As String
 End Type
 
-- [ ] 
- 
+- [ ]
+
 Type CBC
-    Name As String
-    %For As String
+Name As String
+%For As String
 End Type
 
 #### Q14. What is one way to duplicate a user form from one project into a different project?
 
-- [ ] 
+- [ ]
 
 1. Save and close the project with the existing user form.
 2. Click Insert > File.
 3. Browse to the location of the existing project.
 4. Right-click it and select the user-form you want to duplicate.
 
-- [ ] 
+- [ ]
 
 1. Open the existing user form in Desing Mode.
 2. Right-click the form and select Copy.
 3. Switch to the other project.
 4. Right-click Module and select Paste.
 
-- [ ] 
+- [ ]
 
 1. In the Project Explorer, right-click the user form and select Copy.
 2. Switch to the new project.
 3. Right-click UserForms and select Paste.
 
-- [x] 
- 
+- [x]
+
 1. Open the existing user form in Design Mode.
 2. Click File > Export File.
 3. Switch to the other project.
 4. Click File > Import File.
- 
+
 #### Q15. The recording of a macro in Word is likely to be an incomplete record of the user's actions. Why?
 
 - [ ] Word's Macro Recorder does not record actions initiated by keyboard shortcuts.
 - [ ] Word's Macro Recorder does not support Find & Replace edits.
-- [ ] Word's Macro Recorder does not record actions initiated by clicking a button on the Ribbon's Developer tab. 
-- [x] Word's Macro Recorder does not record actions that inlove selection of text by pointing with the mouse pointer. 
+- [ ] Word's Macro Recorder does not record actions initiated by clicking a button on the Ribbon's Developer tab.
+- [x] Word's Macro Recorder does not record actions that inlove selection of text by pointing with the mouse pointer.
 
 #### Q16. Which statement should precede a subroutuine's error handler?
 
@@ -251,7 +251,6 @@ Dim MyArray(5) As Integer
 - [ ] 5
 - [x] 6
 
-
 #### Q18. Which statement is true?
 
 - [ ] Set establishes a value in a class; Let returns a value from a class.
@@ -259,14 +258,12 @@ Dim MyArray(5) As Integer
 - [x] Let establishes a value in a class; Get returns a value from a class.
 - [ ] Get establishes a value in a class; Set returns a value from a class.
 
-
 #### Q19. A declaration has scope, which has three levels. What are they?
 
 - [ ] Module, Project and Automation
 - [x] Procedure, Private Module and Public Module
 - [ ] Subroutine, Module and Project
 - [ ] Procedure, Project and Global
-
 
 #### Q20. There are two references that must be selected in the Visual Basic Editor in order for any Visual Basic code to run in Excel. What are these two references?
 
@@ -348,22 +345,22 @@ End Enum
 
 #### Q30. How do you add a user form to a VBA project?
 
-- [ ] 
+- [ ]
 
 1. Select the project in the Project window of the Visual Basic Editor
 2. Click the Design Mode button and select Insert Mode
 
-- [ ] 
+- [ ]
 
 1. Select the project in the Project window of the Visual Basic Editor
 2. Click the Toolbox button and select UserForm
 
-- [ ] 
+- [ ]
 
 1. Select the project in the Project window of the Visual Basic Editor
-2. Right-click the Run menu and select Customize 
+2. Right-click the Run menu and select Customize
 
-- [x] 
+- [x]
 
 1. Select the project in the Project window of the Visual Basic Editor
 2. Click Insert > UserForm
@@ -388,7 +385,8 @@ End Sub
 
 #### Q32. Which code block from class modules returns a compile error?
 
-- [ ] 
+- [ ]
+
 ```
 Public Property Get HDL() As Double
 HDL = pHDL
@@ -398,7 +396,8 @@ pHDL = Value
 End Property
 ```
 
-- [ ] 
+- [ ]
+
 ```
 Property Get HDL() As Double
 HDL = Value
@@ -408,7 +407,8 @@ pHDL = Value
 End Property
 ```
 
-- [ ] 
+- [ ]
+
 ```
 Public Property Get HDL() As Double
 HDL = Value
@@ -418,7 +418,8 @@ pHDL = Value
 End Property
 ```
 
-- [x] 
+- [x]
+
 ```
 Public Property Get HDL() As Single
 HDL = pHDL
@@ -463,7 +464,8 @@ End Sub
 
 #### Q36. The VBA code block shown in the following four options runs when UserForm1's CommandButton1 button is clicked. Which block of code leaves UserFrom1 loaded but not visible until the FoundErrors function has checked it, and then enables processing to continue if no errors are found?
 
-- [ ] 
+- [ ]
+
 ```
 Private Sub CommandButton1_Click()
 If FoundErrors(Me) Then _
@@ -471,7 +473,8 @@ Me.Show
 End Sub
 ```
 
-- [ ] 
+- [ ]
+
 ```
 Private Sub CommandButton1_Click()
 If Not FoundErrors(UserForm1) Then _
@@ -480,6 +483,7 @@ End Sub
 ```
 
 - [x] <- not sure
+
 ```
 Private Sub CommandButton1_Click()
 Me.Hide
@@ -490,6 +494,7 @@ End Sub
 ```
 
 - [x] <- not sure
+
 ```
 Private Sub CommandButton1_Click()
 Do While FoundErrors(UserForm1)
@@ -497,4 +502,3 @@ UserForm1.show
 Loop
 End Sub
 ```
-
