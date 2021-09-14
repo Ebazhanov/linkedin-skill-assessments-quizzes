@@ -1,9 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-532-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-533-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -788,6 +786,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/defaltadmin"><img src="https://avatars.githubusercontent.com/u/46088950?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mohammed Siddiqui</b></sub></a><br /><a href="#design-defaltadmin" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=defaltadmin" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/AdamKaczor6250"><img src="https://avatars.githubusercontent.com/u/86492896?v=4?s=100" width="100px;" alt=""/><br /><sub><b>AdamKaczor6250</b></sub></a><br /><a href="#design-AdamKaczor6250" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=AdamKaczor6250" title="Code">💻</a></td>
     <td align="center"><a href="http://www.ramonmartineznieto.com/"><img src="https://avatars.githubusercontent.com/u/53094553?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ramón Martinez Nieto</b></sub></a><br /><a href="#design-RamonMartinezNieto" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=RamonMartinezNieto" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Beziu"><img src="https://avatars.githubusercontent.com/u/19675094?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Grzegorz Dziubak</b></sub></a><br /><a href="#design-Beziu" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Beziu" title="Code">💻</a></td>
   </tr>
 </table>
 
