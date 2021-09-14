@@ -5166,6 +5166,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "defaltadmin",
+      "name": "Mohammed Siddiqui",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46088950?v=4",
+      "profile": "https://github.com/defaltadmin",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
