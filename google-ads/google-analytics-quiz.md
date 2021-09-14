@@ -23,7 +23,7 @@
 
 #### Q4. You are running a campaign that will consist of 15 ads. What is the minimum number of ad groups that you can have as part of the campaign?
 
-- [ ] 1
+- [x] 1
 - [ ] 5
 - [ ] 3
 - [ ] 15
@@ -46,14 +46,14 @@
 
 - [ ] product extensions
 - [ ] sitelink extensions
-- [ ] message extensions
+- [x] message extensions
 - [ ] callout extensions
 
 #### Q8. Which choice is a best practice when designing a landing page for an ad campaign?
 
 - [ ] having lots of inbound links
 - [ ] using JavaScript
-- [ ] relevant content matching the ad
+- [x] relevant content matching the ad
 - [ ] enrolling in Ad Central
 
 #### Q9. Which choice has no impact on Quality Score?
@@ -61,7 +61,7 @@
 - [ ] ad relevance
 - [ ] expected clickthrough rate
 - [ ] landing page experience
-- [ ] max CPC bid
+- [x] max CPC bid
 
 #### Q10. Marcelina wants to know how many sales her Google Ads brought in. What should she set up?
 
