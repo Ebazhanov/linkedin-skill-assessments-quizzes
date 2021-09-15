@@ -792,7 +792,7 @@ xml
 
 - [ ] This APK is created on a developer machine from the debug product flavor.
 - [ ] This APK is created from the internalDebug product flavor.
-- [ ] This APK created from the debug product flavor and internal build type.
+- [x] This APK created from the debug product flavor and internal build type.
 - [ ] This APK is created from the debug build type and internal product flavor.
 
 #### Q51. When attempting to build your project, what might the following error indicate?
