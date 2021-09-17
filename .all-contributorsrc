@@ -5246,6 +5246,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "parker-stephens",
+      "name": "Parker Stephens",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12587967?v=4",
+      "profile": "https://links.parkercs.tech",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
