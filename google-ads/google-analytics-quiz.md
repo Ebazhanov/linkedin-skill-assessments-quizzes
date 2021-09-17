@@ -2,8 +2,8 @@
 
 #### Q1. Which ad component has three fields that allow 30 characters each?
 
-- [ ] the headline
-- [x] the description
+- [x] the headline
+- [ ] the description
 - [ ] the website URL
 - [ ] the call-to-action
 
@@ -44,7 +44,7 @@
 
 #### Q7. Which choice is `not` an option when configuring `ad` extensions?
 
-- [ ] product extensions
+- [x] product extensions
 - [ ] sitelink extensions
 - [x] message extensions
 - [ ] callout extensions
@@ -59,7 +59,7 @@
 #### Q9. Which choice has no impact on Quality Score?
 
 - [ ] ad relevance
-- [ ] expected clickthrough rate
+- [x] expected clickthrough rate
 - [ ] landing page experience
 - [x] max CPC bid
 
@@ -101,7 +101,7 @@
 #### Q15. Which ad rotation setting uses machine learning to prioritize ads based upon expected performance?
 
 - [ ] Rotate evenly
-- [ ] Optimize
+- [x] Optimize
 - [ ] Manual rotation
 - [ ] Rotate indefinitely
 
