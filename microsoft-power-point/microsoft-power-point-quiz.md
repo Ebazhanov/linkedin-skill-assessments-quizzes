@@ -304,7 +304,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 #### Q40. How can you format the entire contents of a text box?
 
-- [ ] Click the dashed/dotted border of the text box.
+- [x] Click the dashed/dotted border of the text box.
 - [ ] Right-click the text box and select Select All.
 - [ ] Click the Fond button on the Home tab.
 - [ ] Double-click any word in the text box.
@@ -344,42 +344,42 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [x] Custom Slide Show
 - [ ] Hide Slide
 
-#### Q45. When working with a mapchart, which options can be drawn?
+#### Q46. When working with a mapchart, which options can be drawn?
 
 - [ ] Postal code
 - [ ] State
 - [ ] Country
 - [x] All of these answers
 
-#### Q46.You receive feedback from two clients on your presentation. Each person sent you an edited file. What's the best way to review their changes?
+#### Q47. You receive feedback from two clients on your presentation. Each person sent you an edited file. What's the best way to review their changes?
 
 - [ ] Review > Accept
 - [ ] Review > Smart Lookup
 - [x] Review > Compare
 - [ ] Review > Show Comments
 
-#### Q47. How do you promote subbullets to top-level bullets?
+#### Q48. How do you promote subbullets to top-level bullets?
 
 - [x] Press Shift+Tab.
 - [ ] Right-click the bulleted text and select Promote.
 - [ ] Press the Esc key.
 - [ ] Press the Spacebar.
 
-#### Q48. What is the term used for the arrangement of elements on a slide, such as Title and Content?
+#### Q49. What is the term used for the arrangement of elements on a slide, such as Title and Content?
 
 - [ ] scheme
 - [x] layout
 - [ ] theme
 - [ ] design
 
-#### Q49. After you select the chart icon in a placeholder, what is the next step to create a chart?
+#### Q50. After you select the chart icon in a placeholder, what is the next step to create a chart?
 
 - [ ] Select the chart elements.
 - [ ] Select the chart type.
-- [ ] Select the chart data in Excel.
+- [x] Select the chart data in Excel.
 - [ ] Select the chart style.
 
-#### Q50. How would you show a correlation between the amount of chocolate a city consumes and the number of crimes committed?
+#### Q51. How would you show a correlation between the amount of chocolate a city consumes and the number of crimes committed?
 
 - [ ] Use a bar chart.
 - [ ] Use a column chart.

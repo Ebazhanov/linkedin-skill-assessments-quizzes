@@ -108,8 +108,8 @@
 
 - [ ] cropping images in the media library
 - [ ] injecting specialized scripts into the content area
-- [x] creating a site layout
-- [ ] creating and laying out content
+- [ ] creating a site layout
+- [x] creating and laying out content
 
 #### Q14. Which of the following file types is NOT involved in translating WordPress?
 
@@ -407,7 +407,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] It runs once per post in the database.
 - [ ] It runs once.
 - [ ] The Loop doesn't run in template files.
-- [ ] It runs once per fetched post.
+- [x] It runs once per fetched post.
 
 #### Q48. Which is NOT a suggested performance improvement for your WordPress website?
 
