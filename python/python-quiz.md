@@ -792,7 +792,6 @@ def calculate_sales_tax(subtotal):
 
 [explanation](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
 
-
 #### Q63. Why would you use `mixin`?
 
 - [ ] You use a `mixin` to force a function to accept an argument at runtime even if the argument wasn't included in the function's definition.
@@ -801,7 +800,6 @@ def calculate_sales_tax(subtotal):
 - [x] If you have many classes that all need to have the same functionality, you'd use a `mixin` to define that functionality.
 
 [explanation](https://www.youtube.com/watch?v=zVFLBfqV-q0)
-
 
 #### Q64. What is the runtime complexity of adding an item to a stack and removing an item from a stack?
 

@@ -391,7 +391,6 @@ myClass.foreach(println _)
 - [ ] NullPointerExcepetion
 - [ ] MalformedParameterException
 
-
 #### Q47. In scala what is precondition?
 
 - [ ] a constraint on where a method may be called from
@@ -400,6 +399,7 @@ myClass.foreach(println _)
 - [ ] a class of Boolean operators
 
 #### Q48. What would you change in this code to make it execute in parallel?
+
 ```
  val myNums = (1 to 500).toList
  list.map(_ + 1)
@@ -430,4 +430,3 @@ myClass.foreach(println _)
 - [ ] AltFuture
 - [ ] AltProcess
 - [x] Future
-
