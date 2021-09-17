@@ -185,8 +185,8 @@
 
 #### Q25. Which OAuth grant type can support a refresh token?
 
-- [ ] `Authorization Code Grant`
-- [x] `Client Credentials Grant`
+- [x] `Authorization Code Grant`
+- [ ] `Client Credentials Grant`
 - [ ] `Implicit Grant`
 - [ ] `Authentication Grant`
 
