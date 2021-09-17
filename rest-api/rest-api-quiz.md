@@ -251,7 +251,7 @@
 - [ ] Java, Javascript, and .NET
 - [ ] and you can support
 - [ ] PHP, Python, and Go
-- [ ] the languages that your target users use
+- [x] the languages that your target users use
 
 #### Q35. Which property would you use to include references to other resources in a JSON document?
 
@@ -411,3 +411,10 @@
 - [ ] /companies/{companyId}/employee/{employeeId}
 
 **Explanation:** [Resource Naming](https://restfulapi.net/resource-naming/)
+
+#### Q56. Which REST constraint essentially prohibits the use of cookies?
+
+- [x] Stateless
+- [ ] Cacheable
+- [ ] Layered System
+- [ ] Uniform Interface

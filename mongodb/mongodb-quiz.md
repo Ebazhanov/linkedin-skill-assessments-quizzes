@@ -381,7 +381,7 @@
 #### Q55. Which file in the MongoDB directly holds the MongoDB daemon?
 
 - [ ] mongodb
-- [ ] mongo-daemon
+- [x] mongo-daemon
 - [ ] daemon
 - [x] mongod
 
@@ -394,7 +394,7 @@
 
 #### Q57. What is the most accurate statement regarding MongoDB and ad hoc queries?
 
-- [ ] MongoDB does not allow ad hoc queries; all queries require an index.
+- [x] MongoDB does not allow ad hoc queries; all queries require an index.
 - [ ] Ad hoc queries are allowed only in the paid version.
 - [ ] Ad hoc queries are allowed only through the ad hoc command.
 - [x] MongoDB allows ad hoc queries.
@@ -422,12 +422,9 @@
 
 #### Q61. How can you improve the appearance of the output JSON that contains the `_id`?
 
-- [x![WhatsApp Image 2021-09-11 at 02 15 49](https://user-images.githubusercontent.com/66520710/132917066-85f112b2-c745-4bcb-a5f1-615458155593.jpeg)
-![WhatsApp Image 2021-09-11 at 02 15 49 (1)](https://user-images.githubusercontent.com/66520710/132917069-af7ee052-f4de-4faf-a45f-04dc8c44bbdd.jpeg)
-![WhatsApp Image 2021-09-11 at 02 09 41](https://user-images.githubusercontent.com/66520710/132917071-e5dbe115-bb23-43aa-a65d-7333a9507f5a.jpeg)
-] `Use db.collection.set({$_id:pretty})`
+- [ ] `Use db.collection.set({$_id:pretty})`
 - [ ] `Create a second index`
-- [ ] `Use db.collection.format(numeric)`
+- [x] `Use db.collection.format(numeric)`
 - [ ] `Use $_id = value`
 
 #### Q62. What happens to a Replica set oplog if it runs out of memory?
