@@ -897,3 +897,10 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] content provider
 - [x] fragment
 - [ ] service
+
+#### Q57. What should you use to display a large, scrolling list of elements?
+
+- [ ] ListView
+- [x] Recycler View
+- [ ] LinearLayout
+- [ ] Scrollview
