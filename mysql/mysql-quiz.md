@@ -802,5 +802,5 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 - [x] trigger
 - [ ] regular expression
-- [ ] view 
+- [ ] view
 - [ ] index

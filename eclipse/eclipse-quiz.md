@@ -190,7 +190,9 @@
 - [ ] Right-click the file in the Package Explorer and select Team > Showin History.
 
 #### Q28. In the image below, what does the circled button do?
+
 ![image Q28](https://github.com/Beziu/linkedin-skill-assessments-quizzes/blob/master/eclipse/images/Eclipse-Q28.jpg)
+
 - [ ] It links the Editor and Navigator, causing the Editor to switch to the file selected in the Package Explorer and vice versa.
 - [ ] It expands Libraries when you are in the Java perspective.
 - [ ] It minimizes the left view
