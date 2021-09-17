@@ -678,7 +678,7 @@ useEffect(() => {
 <Route path="/:id" />
 ```
 
-- [x]
+- [x] A
 
 ```javascript
 <Route path="/:id">
@@ -687,19 +687,19 @@ useEffect(() => {
 </Route>
 ```
 
-- [ ]
+- [ ] B
 
 ```javascript
 <Route path="/tid" about={Component} />
 ```
 
-- [ ]
+- [ ] C
 
 ```javascript
 <Route path="/:id" route={About} />
 ```
 
-- [ ]
+- [ ] D
 
 ```javascript
 <Route>
@@ -713,32 +713,42 @@ useEffect(() => {
 const Greeting ({ name }) > <h1>Hello {name}!</h1>;
 ```
 
-- [ ]
+- [ ] A
 
 ```javascript
 class Greeting extends React.Component {
   constructor() {
-    return <h1>Hello (this.props.name)!</h1>;
+    return <h1>Hello {this.props.name}!</h1>;
   }
 }
 ```
 
-- [x]
+- [ ] B
 
 ```javascript
-    class Greeting extends React.Component { <h1>Hello {this.props.name}!</h1>; }
+class Greeting extends React.Component {
+  <h1>Hello {this.props.name}!</h1>;
+}
 ```
 
-- [ ]
+- [x] C
 
 ```javascript
-   class Greeting extends React.Component { return <h1>Hello (this.props.name) 1</h1>; }
+class Greeting extends React.Component {
+  render() {
+    return <h1>Hello {this.props.name}!</h1>;
+  }
+}
 ```
 
-- [ ]
+- [ ] D
 
 ```javascript
-class Greeting extends React.Component ( render({ name }) {return <h1>Hello (name)} !</h1>;})
+class Greeting extends React.Component {
+  render({ name }) {
+    return <h1>Hello {name}!</h1>;
+  }
+}
 ```
 
 #### Q66. Give the code below, what does the second argument that is sent to the render function describe?
@@ -826,7 +836,7 @@ This question might be an updated version of Q37.
 #### Q73. When using a portal, what is the first argument?
 
 ```javascript
-ReactDOM.createPortal(x, y)
+ReactDOM.createPortal(x, y);
 ```
 
 - [ ] the current state
@@ -836,3 +846,17 @@ ReactDOM.createPortal(x, y)
 
 **Explanation:**
 From official docs: [Portals](https://reactjs.org/docs/portals.html)
+
+#### Q74. What is `setCount`?
+
+```javascript
+const [count, setCount] = useState(0);
+```
+
+- [ ] the initial state value
+- [ ] a variable
+- [ ] a state object
+- [x] a function to update the state
+
+**Reference:**
+From official docs: [Hooks-State](https://reactjs.org/docs/hooks-state.html#:~:text=If%20we%20want%20to%20update%20the%20current)

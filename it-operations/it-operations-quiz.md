@@ -198,3 +198,47 @@
 - [ ] Its power output can be varied to save electricity.
 - [x] Its cables are detachable.
 - [ ] It has dedicated power reserved for different computer components.
+
+#### Q23. Which program controls the Windows startip sequence?
+
+- [x] MSCONFIG
+- [ ] Task Manager
+- [ ] the Computer Management Console
+- [ ] the UEFI
+
+#### Q24. Angela ran a diagnostic that shows an ever-decreasing amount of memory in her computer. What could be the problem?
+
+- [ ] DRAM is failing.
+- [x] A program has a memory leak.
+- [ ] There is no problem. It's normal for available memory to decrease the longer you use the system.
+- [ ] Another user has signed into the system
+
+#### Q25. Which type of power connector is this?
+
+![Q24](images/Q24.PNG)
+
+- [ ] Edison
+- [x] Molex
+- [ ] SATA
+- [ ] PCI
+
+#### Q26. What is the most important thing to do before opening a computer case?
+
+- [x] Turn off and unplug the computer.
+- [ ] Disconnect all of the cables.
+- [ ] Close your programs, sign out of your account, and turn off the computer.
+- [ ] Ground yourself.
+
+#### Q27. On a trackpad, what gesture commonly replaces "center mouse wheel" for things like scrolling through documents?
+
+- [ ] pinch outward
+- [ ] scroll with thumb instead
+- [x] two-finger swipe
+- [ ] force click and drag
+
+#### Q28. What is the name of the hardware that provides a computer with network access?
+
+- [ ] BIOS
+- [ ] RJ-45
+- [x] NIC
+- [ ] Router

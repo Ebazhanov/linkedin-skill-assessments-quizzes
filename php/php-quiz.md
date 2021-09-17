@@ -628,3 +628,30 @@ isset($_POST['submit'])
 - [ ] `__FUNCTION__`
 - [ ] `__CLASS__`
 - [ ] `__TRAIT__`
+
+##### Q57. What below script will print?
+
+```php
+  if( 1 == true){
+        echo "1";
+  }
+
+  if( 1 === true){
+      echo "2";
+  }
+
+  if("php" == true){
+      echo "3";
+  }
+
+  if("php" === false){
+      echo "4";
+  }
+```
+
+- [ ] 134
+- [x] 13
+- [ ] 1
+- [ ] 123
+
+**Note:** `Prints 13, on PHP Version 7.3.28`

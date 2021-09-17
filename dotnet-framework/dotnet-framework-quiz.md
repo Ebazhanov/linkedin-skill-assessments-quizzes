@@ -205,14 +205,14 @@
 - [ ] Code contracts contain definitions for a group of related functionalities that a class or a struct can implement.
 - [ ] Code contracts contain data structures for a group of related functionalities that a class or a struct can implement.
 
-#### Q30. You must connect an app to an online identity provider using OAuth. For authentication, the app uses WebAuthenticationBroker object. You need to make sure the app registers with the provider. Which actions do you take?
+#### Q30. You must connect an app to an online identity provider using OAuth. For authentication, the app uses WebAuthenticationBroker object. You need to make sure the app registers with the provider. Which action do you take?
 
 - [ ] Construct an HTTP request URI and an HTTPS request URI.
 - [ ] Invoke the GetCurrentApplicationCallbackUri method and construct an HTTPS request URI.
 - [ ] Invoke the AuthenticateAsync and GetCurrentApplicationCallbackUri methods.
-- [x] Invoke the AuthenticateAsync method and construct an HTTPS request URI. //The requestUri parameter must be a HTTPS address and
-      // You call the AuthenticateAsync method to
-      // connect to the online identity provider and get an access token
+- [x] Invoke the AuthenticateAsync method and construct an HTTPS request URI.
+
+> The requestUri parameter must be a HTTPS address and you call the AuthenticateAsync method to connect to the online identity provider and get an access token
 
 #### Q31.You want to create a class of which only a single instance can exist. Which design pattern best fits this objective?
 

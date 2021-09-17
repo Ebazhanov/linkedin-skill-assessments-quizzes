@@ -108,8 +108,8 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 #### Q15. You have sent several emails to a customer and have not received a response. What option do you set to know whether the customer receives your messages?
 
-- [ ] Delivery receipt
-- [ ] All of these answers
+- [x] Delivery receipt
+- [] All of these answers
 - [ ] Read receipt
 - [ ] Tracking
 
@@ -381,7 +381,7 @@ D. Because you cannot create a search folder for a subfolder
 #### Q52. You are inviting five members of your executive staff to an offsite retreat. You need to ensure that they do not share the invitation with others. What should you do before sending the email?
 
 - [ ] Include the text "No Forward" in the Bcc field.
-- [ ] Turn off the Allow Forwarding option.
+- [x] Turn off the Allow Forwarding option.
 - [ ] Prefix the email subject with "FWD OFF".
 - [ ] Turn on the No Forwarding option.
 
@@ -431,7 +431,7 @@ D. Because you cannot create a search folder for a subfolder
 
 - [ ] The Archive window opens.
 - [ ] Outlook schedule a reminder.
-- [ ] Outlook schedule a appointment.
+- [x] Outlook schedule a appointment.
 - [ ] The Work Week calendar view opens.
 
 #### Q60. In this image, what do you use to move between Mail, Calendar, People and Tasks?
@@ -444,7 +444,7 @@ D. Because you cannot create a search folder for a subfolder
 #### Q61. It is currently the week of April 23. You are viewing the week of May 21 in your Outlook calendar. You switch to email then back to the calendar. Which dates do the calendar display now?
 
 - [ ] the week of May 21
-- [ ] the month of April
+- [x] the month of April
 - [ ] the month of May
 - [ ] the week of April 23
 
@@ -482,3 +482,82 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Open the Deleted Items folder.
 - [ ] Open your computer's Recycle Bin (Windows) or Trash (Mac).
 - [ ] Click the Undo button.
+
+#### Q67. You are viewing your calendar in work week view and see a thin horizonatal line running IEWING YOUR CALENDAR IN WORK WEEK VIEW AND SEE A THIN HORIZONTAL LINE RUNNING ACROSS ALL DAYS AT THE 2:30 P.M. POSITION. WHAT DOES THIS TELL YOU?
+
+#### Q68. You have a message in your Inbox that has a blue down arrow. What does it mean?
+
+- [ ] The message needs to finish downloading.
+- [x] The sender set the message priority to Low Priority.
+- [ ] A rule forwarded the message.
+- [ ] The sender is not in your address list.
+
+#### Q69. Which Outlook function allows you to filter your emails?
+
+- [ ] Find
+- [ ] Move
+- [ ] Tag
+- [ ] Quick Steps
+
+#### Q70.In Outlook, a rule is applied to
+
+- [ ] contacts
+- [ ] messages
+- [ ] tasks
+- [ ] meetings
+
+#### Q71.You want to change the default font used for new messages and in the Notes field in Calendar, Contacts, and Tasks. How do you do this?
+
+- [ ] Change the fonts used for mail in File > Options > Mail > Stationery and Fonts (Windows) or Outlook > Preferences > Fonts (Mac). The fonts used in the Notes field in Calendar, Contacts, and Tasks cannot be changed.
+- [ ] Click File > Options > General > Stationery and Fonts (Windows) or Outlook > Preferences > Composing (Mac).
+- [ ] Click File > Options > Mail > Stationery and Fonts (Windows) or Outlook > Preferences > Fonts (Mac).
+- [ ] Select the desired font in a new message. Outlook will use it for future messages and notes.
+
+#### Q72.What does the Groups section contain in Outlook?
+
+- [ ] Microsoft 365 Groups you are a member of
+- [ ] Microsoft 365 Groups across your company
+- [ ] Contact Groups across your company
+- [ ] Contact Groups you have created
+
+#### Q72. Why are some dates in your calendar shaded, as shown?
+
+- [ ] The calendar view is not displaying properly. Click Reset View to fix it.
+- [ ] When you add a category to an appointment, the category color is used as the background color.
+- [ ] You have an appointment that ends after midnight.
+- [ ] You have an all-day event marked as Busy, Out of Office, or Tentative.
+
+#### Q73. You are having difficulty reading an email due to the small text size. What is the easiest way to make this email more readable?
+
+- [ ] Change your computer's display and resolution settings.
+- [ ] Reply to the email, select all, and increase the font size.
+- [ ] Use the Zoom button.
+- [ ] Change the Message Preview option to the maximum 3 lines setting.
+
+#### Q74. You are sending an email to several people, and you want any responses to go to a colleague. How can you set this up?
+
+- [ ] Change the From field to your colleague's email address.
+- [ ] Forward the email to the colleague before anyone responds.
+- [ ] Click Delivery Options > Have Replies sent to.
+- [ ] Include the colleague's email address in the To field.
+
+#### Q75. The commands on which bar are available in all Outlook applications?
+
+- [ ] the Simplified Ribbon
+- [ ] To-Do Bar
+- [ ] Quick Access Toolbar
+- [ ] Navigation Bar
+
+#### Q76. To keep your Inbox folders organized and lean, where should you move old messages?
+
+- [ ] a subfolder
+- [ ] a compressed file
+- [ ] a file system folder
+- [ ] an archive
+
+#### Q77. What happens when you delete a folder that contains emails in Outlook?
+
+- [ ] The folder is emptied and then moved to Deleted Items.
+- [ ] You cannot delete a folder until its contents are deleted first.
+- [ ] The contents are moved to Deleted Items, and then the empty folder is moved to Deleted Items.
+- [ ] The folder and its contents are moved to Deleted Items at the same time.

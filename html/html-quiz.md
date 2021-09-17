@@ -494,7 +494,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] `<hgroup> <q> <wbr>`
 - [ ] `<b> <i> <u>`
 
-#### Q31. The **\_** tag is used for marking up a short code snippet, while the **\_** tag is used for marking up a longer block of code.
+#### Q31. The **\_** tag is used for marking up a short code snippet, while the **\_** tag is used for marking up a longer block of code
 
 - [ ] `<kdb>`, `<pre>`
 - [ ] `<pre>`, `<code>`
@@ -508,7 +508,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] It visually labels from fields.
 - [x] It programmatically associates a text label with an interface element.
 
-#### Q33. To get a link to open in a new window or tab, use the **\_** attribute.
+#### Q33. To get a link to open in a new window or tab, use the **\_** attribute
 
 - [x] `_blank`
 - [ ] `_self`
@@ -1208,7 +1208,12 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<p>`As Steve Krug once said, `<b>`happy talk must die.`</b>` `</p>`
 - [ ] `<p>`As Steve Krug once said, `<i>`happy talk must die.`</i>` `</p>`
 - [ ] `<p>`As Steve Krug once said, `<blockquote>`happy talk must die.`</blockquote>` `</p>`
-- [ ] `<p>`As Steve Krug once said, `<q>`happy talk must die.`</q>` `</p>`
+- [x] `<p>`As Steve Krug once said, `<q>`happy talk must die.`</q>` `</p>`
+
+[Source: W3Schools](https://www.w3schools.com/tags/tag_q.asp)
+
+**`<q>` tag**
+`Most browsers will display q tags as inline elements with quotes`
 
 #### Q78. What is the most semantically accurate way to make up a main navigation bar, displayed in a horizontal direction?
 
@@ -1258,77 +1263,6 @@ As Steve Krug once said, happy talk must die.
 
 ![Image of footer](images/ss-8.png?raw=true)
 
-```markdown
-<p><strong>Mailing Address</strong></p>
-  <p><em>
-    6640 via Real <br>
-    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
-  </em></p>
-</p>
-```
-
-- [ ]
-
-```markdown
-<h4>Mailing Address</h4>
-  <address>
-    6640 via Real <br>
-    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
-  </address>
-```
-
-- [ ]
-
-```markdown
-<h4><strong>Mailing Address</strongh></h4>
-  <address><em>
-    6640 via Real <br>
-    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
-  </em></address>
-```
-
-- [ ]
-
-```markdown
-<h4>Mailing Address</h4>
-  <p><em>
-    6640 via Real <br>
-    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
-  </em></p>
-</p>
-```
-
-- [ ]
-
-#### Q80. What is the primary purpose of HTML?
-
-- [x] HTML structures the webpage, identifying its elements such as paragraphs, headings, and lists.
-- [ ] HTML structures and provides a rudimentary look to webpages.
-- [ ] HTML is responsible for the structure, styling, and interactivity of webpages.
-- [ ] HTML is responsible for the structure and styling of webpages.
-
-#### Q81. What is the correct way to describe an empty element, such as a line break tag?
-
-- [ ] It displays nothing on a website.
-- [ ] It has opening and closing tags but no child content.
-- [ ] It has child content but no closing tag.
-- [x] It has no child content and no closing tag.
-
-#### Q82. For the HTML code below, when will "Sample Text" display to the browser?
-
-```markdown
-<noscript>Sample Text</noscript>
-```
-
-- [ ] when there is no JavaScript used on this webpage
-- [x] when JavaScript is not supported by the browser or if JavaScript is disabled in the browser
-- [ ] when JavaScript is disabled in the web browser
-- [ ] when JavaScript is not supported by the web browser
-
-[Reference (MDN)](https://www.w3schools.com/tags/tag_noscript.asp)
-
-#### Q83.
-
 - [ ]
 
 ```markdown
@@ -1340,7 +1274,7 @@ As Steve Krug once said, happy talk must die.
 </address>
 ```
 
-- [ ]
+- [x]
 
 ```markdown
 <h4><strong>Mailing Address</h4>
@@ -1373,7 +1307,38 @@ As Steve Krug once said, happy talk must die.
 </em></p>
 ```
 
-#### Q84. How will this code render by default in most web browsers?
+[Source: W3Schools](https://www.w3schools.com/tags/tag_address.asp)
+
+`The <address> tag defines the contact information for the author/owner of a document or an article. The contact information can be an email address, URL, physical address, phone number, social media handle, etc. The text in the <address> element usually renders in italic, and browsers will always add a line break before and after the <address> element.`
+
+#### Q80. What is the primary purpose of HTML?
+
+- [x] HTML structures the webpage, identifying its elements such as paragraphs, headings, and lists.
+- [ ] HTML structures and provides a rudimentary look to webpages.
+- [ ] HTML is responsible for the structure, styling, and interactivity of webpages.
+- [ ] HTML is responsible for the structure and styling of webpages.
+
+#### Q81. What is the correct way to describe an empty element, such as a line break tag?
+
+- [ ] It displays nothing on a website.
+- [ ] It has opening and closing tags but no child content.
+- [ ] It has child content but no closing tag.
+- [x] It has no child content and no closing tag.
+
+#### Q82. For the HTML code below, when will "Sample Text" display to the browser?
+
+```markdown
+<noscript>Sample Text</noscript>
+```
+
+- [ ] when there is no JavaScript used on this webpage
+- [x] when JavaScript is not supported by the browser or if JavaScript is disabled in the browser
+- [ ] when JavaScript is disabled in the web browser
+- [ ] when JavaScript is not supported by the web browser
+
+[Reference (MDN)](https://www.w3schools.com/tags/tag_noscript.asp)
+
+#### Q83. How will this code render by default in most web browsers?
 
 ```markdown
 <details>

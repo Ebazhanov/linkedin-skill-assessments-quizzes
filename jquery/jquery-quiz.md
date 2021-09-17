@@ -1071,9 +1071,9 @@ function listResponder(evt) {
 </div>
 ```
 
-- [ ]
+- [x]
 
-```
+```JavaScript
 $('.ball--green').fadeIn(3000, function(){
     console.log("Animation is done!");
 });
@@ -1081,7 +1081,7 @@ $('.ball--green').fadeIn(3000, function(){
 
 - [ ]
 
-```
+```JavaScript
 $('.ball--green').fade('in',3000).done(function(){
     console.log("Animation is done!");
 });
@@ -1089,21 +1089,25 @@ $('.ball--green').fade('in',3000).done(function(){
 
 - [ ]
 
-```
+```JavaScript
 $('.ball--green').fadeIn(3).console().log("Animation is done!");
 ```
 
 - [ ]
 
-```
+```JavaScript
 $('.ball--green').fadeIn("3s", function(){
     console.log("Animation is done!");
 });
 ```
 
-#### Q60. Why might you use custom events instead of shared helper functions? For example:
+[Source: jQuery Docs: fadeIn](https://api.jquery.com/fadeIn/)
 
-```
+`Durations are given in milliseconds; higher values indicate slower animations, not faster ones. The strings 'fast' and 'slow' can be supplied to indicate durations of 200 and 600 milliseconds, respectively. If any other string is supplied, or if the duration parameter is omitted, the default duration of 400 milliseconds is used.`
+
+#### Q60. Why might you use custom events instead of shared helper functions? For example
+
+```JavaScript
 $(document).on('myCustomEvent', function(){
     // act on my custom event
 });
@@ -1113,9 +1117,13 @@ $(document).trigger('myCustomEvent');
 ```
 
 - [ ] `Custom events are at least an order of magnitude faster than helper functions`
-- [ ] `Custom events can be listened for and acted upon across one or more scripts without needing to keep helper funtions in scope`
+- [x] `Custom events can be listened for and acted upon across one or more scripts without needing to keep helper funtions in scope`
 - [ ] `Handler functions for custom events are less likely to be mangled by minification and obfuscation build tools`
 - [ ] `It is easier to write documentation for custom events than it is for helper functions`
+
+[Source: learn.jquery.com](https://learn.jquery.com/events/introduction-to-custom-events/)
+
+`Instead of focusing on the element that triggers an action, custom events put the spotlight on the element being acted upon. This brings a bevy of benefits, including: Behaviors of the target element can easily be triggered by different elements using the same code. Behaviors can be triggered across multiple, similar, target elements at once. Behaviors are more clearly associated with the target element in code, making code easier to read and maintain.`
 
 #### Q61. In the HTML and JavaScript below, the animations will all fire at once. How can you make them fire in sequence instead?
 
@@ -1130,71 +1138,85 @@ $('#element-3').animate({ top: '+=100' });
 
 - [ ]
 
-```
-$('element-1').animate({ top: '+=100' })
+```JavaScript
+$('#element-1').animate({ top: '+=100' })
     .pushStack('#element-2')
     .animate({ top: '+=100' })
     .pushStack('#element-3').animate({ top: '+=100' })
 ```
 
-- [ ]
+- [x]
 
-```
-$('element-1').animate({ top: '+=100' }, function() {
-    $('element-2').animate({ top: '+=100' }, function() {
-        $('element-3').animate({ top: '+=100' });
+```JavaScript
+$('#element-1').animate({ top: '+=100' }, function() {
+    $('#element-2').animate({ top: '+=100' }, function() {
+        $('#element-3').animate({ top: '+=100' });
     })
 });
 ```
 
 - [ ]
 
-```
-$('element-1').animate({ top: '+=100' })
-    .add('element-2').animate({ top: '+=100' })
-    .add('element-3').animate({ top: '+=100' })
+```JavaScript
+$('#element-1').animate({ top: '+=100' })
+    .add('#element-2').animate({ top: '+=100' })
+    .add('#element-3').animate({ top: '+=100' })
 ```
 
 - [ ]
 
-```
-$('element-1').animate({ top: '+=100' }, {queue: 'custom'});
-$('element-2').animate({ top: '+=100' }, {queue: 'custom'});
-$('element-3').animate({ top: '+=100' }, {queue: 'custom'});
+```JavaScript
+$('#element-1').animate({ top: '+=100' }, {queue: 'custom'});
+$('#element-2').animate({ top: '+=100' }, {queue: 'custom'});
+$('#element-3').animate({ top: '+=100' }, {queue: 'custom'});
 $('custom').dequeue();
 ```
 
-#### Q62. Given this checkbox, how can you determine whether a user has selected or cleared the checkbox? `<input type="checkbox" id="same-address" checked>`
+[Source: jQuery Docs: animate](https://api.jquery.com/animate/)
+
+`the .animate() method can take in a function to call once the animation is complete, called once per matched element. Which is called the complete option for the animate method`
+
+#### Q62. Given this checkbox, how can you determine whether a user has selected or cleared the checkbox?
+
+`<input type="checkbox" id="same-address" checked>`
 
 - [ ] by checking the value of `$('#same-address').val()`
 - [x] by checking the value of `$('#same-address').prop('checked')`
 - [ ] by checking the value of `$('#same-address').attr('checked')`
 - [ ] by checking the value of `$('#same-address').checked`
 
-#### Q63. In some projects, jQuery is not included as a file with an obvious version number (if it has been run through a minifier or other code bundler, for example). How can you detect programmatically what version of jQuery is active?In some projects, jQuery is not included as a file with an obvious version number (if it has been run through a minifier or other code bundler, for example). How can you detect programmatically what version of jQuery is active?
+#### Q63. In some projects, jQuery is not included as a file with an obvious version number (if it has been run through a minifier or other code bundler, for example). How can you detect programmatically what version of jQuery is active?
 
 - [ ] `jQuery.version()`
 - [ ] `jQuery.jquery`
 - [ ] `jQuery.prototype.version`
 - [x] `jQuery.fn.jquery`
 
-#### Q64. Given this snippet of HTML, how can you get the value of the text field using jQuery? Given this snippet of HTML, how can you get the value of the text field using jQuery? `<input type="text" class="form-control" id="firstName" placeholder="" value="" required="">`
+#### Q64. Given this snippet of HTML, how can you get the value of the text field using jQuery?
+
+`<input type="text" class="form-control" id="firstName" placeholder="" value="" required="">`
 
 - [ ] `$('input[type=text]').val()`
 - [ ] `$('.form-control').val()`
-- [ ] `all of these answers`
+- [x] `all of these answers`
 - [ ] `$('#firstName').val()`
 
-#### Q65. Which property of the jQuery event object references the DOM object that dispatched an event?Which property of the jQuery event object references the DOM object that dispatched an event?
+`all the listed selectors will target the text field since it has a type=text, a class=form-control, and an id=firstName`
 
-- [ ] target
+#### Q65. Which property of the jQuery event object references the DOM object that dispatched an event?
+
+- [x] target
 - [ ] self
 - [ ] source
 - [ ] object
 
-#### Q66. You want to write a plugin that creates a new traversal function—such as parent() and children()—and behaves like the ones jQuery includes out of the box. It needs to correctly modify the list of selections jQuery tracks internally, build up a list of additional items, and return the merged collection. What do you need to return on the last line of the function in order for this plugin to work correctly? You want to write a plugin that creates a new traversal function—such as parent() and children()—and behaves like the ones jQuery includes out of the box. It needs to correctly modify the list of selections jQuery tracks internally, build up a list of additional items, and return the merged collection. What do you need to return on the last line of the function in order for this plugin to work correctly?
+[Source: jQuery Docs: event.target](https://api.jquery.com/event.target/)
 
-```
+`The target property can be the element that registered for the event or a descendant of it. It is often useful to compare event.target to this in order to determine if the event is being handled due to event bubbling.`
+
+#### Q66. You want to write a plugin that creates a new traversal function—such as parent() and children()—and behaves like the ones jQuery includes out of the box. It needs to correctly modify the list of selections jQuery tracks internally, build up a list of additional items, and return the merged collection. What do you need to return on the last line of the function in order for this plugin to work correctly?
+
+```JavaScript
 $.fn.myTraverse = function() {
    // ... setup
 
@@ -1204,12 +1226,18 @@ $.fn.myTraverse = function() {
 }
 ```
 
-- [ ] `return this.append(additionalItems);return this.append(additionalItems);`
-- [ ] `return additionalItems.appendTo(this);return additionalItems.appendTo(this);`
-- [ ] `return this.pushStack(additionalItems);return this.pushStack(additionalItems);`
-- [ ] `return this.add(additionalItems);return this.add(additionalItems);`
+- [ ] `return this.append(additionalItems);`
+- [ ] `return additionalItems.appendTo(this);`
+- [x] `return this.pushStack(additionalItems);`
+- [ ] `return this.add(additionalItems);`
 
-#### Q67. Given this snippet of HTML and jQuery code, what will the result look like? Given this snippet of HTML and jQuery code, what will the result look like?
+[Source: jQuery Docs](https://api.jquery.com/pushStack/)
+
+`When you call pushStack() off of the current collection, it will take the given collection and associate it to the current collection such that calling the end() method (after the plugin exits) will return the programmer to the current collection.`
+
+[Extra Reading: bennadel.com](https://www.bennadel.com/blog/1739-using-pushstack-in-jquery-plugins-to-create-new-collections.htm)
+
+#### Q67. Given this snippet of HTML and jQuery code, what will the result look like?
 
 ```html
 <ul class="items">
@@ -1227,7 +1255,7 @@ $.fn.myTraverse = function() {
 
 `$('.items').find('.active').nextAll().addClass('after-active');`
 
-- [ ]
+- [x]
 
 ```html
 <ul class="items">
@@ -1290,3 +1318,8 @@ $.fn.myTraverse = function() {
   </li>
 </ul>
 ```
+
+[Source: jQuery Docs](https://api.jquery.com/nextall/)
+
+**.nextAll([selector]) method**
+`Gets all following siblings of each element in the set of matched elements, optionally filtered by a selector.`

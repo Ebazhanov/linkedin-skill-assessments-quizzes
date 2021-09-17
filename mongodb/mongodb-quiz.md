@@ -381,9 +381,11 @@
 #### Q55. Which file in the MongoDB directly holds the MongoDB daemon?
 
 - [ ] mongodb
-- [ ] mongo-daemon
+- [x] mongo-daemon
 - [ ] daemon
-- [ ] mongod
+- [x] mongod
+
+[Reference](https://hazimhassan.com/linkedin-mongodb-assessment-answers/#:~:text=Which%20file%20in%20the%20MongoDB%20directly%20holds%20the%20MongoDB%20daemon)
 
 #### Q56. You have just secured your previously unsecured MongoDB server, but the server is still not requiring authentication. What is the best option?
 
@@ -394,10 +396,13 @@
 
 #### Q57. What is the most accurate statement regarding MongoDB and ad hoc queries?
 
-- [ ] MongoDB does not allow ad hoc queries; all queries require an index.
+- [x] MongoDB does not allow ad hoc queries; all queries require an index.
 - [ ] Ad hoc queries are allowed only in the paid version.
 - [ ] Ad hoc queries are allowed only through the ad hoc command.
-- [ ] MongoDB allows ad hoc queries.
+- [x] MongoDB allows ad hoc queries.
+
+[Reference-1](https://hazimhassan.com/linkedin-mongodb-assessment-answers/#:~:text=What%20is%20the%20most%20accurate%20statement%20regarding%20MongoDB%20and%20ad%20hoc%20queries)
+[Reference-2](https://quick-adviser.com/how-do-i-query-a-field-in-mongodb/#:~:text=Q57.-,What%20is%20the%20most%20accurate%20statement%20regarding%20MongoDB%20and%20ad%20hoc%20queries,-%3F%20MongoDB%20does%20not)
 
 #### Q58. In MongoDB, what does a projection do?
 
@@ -422,10 +427,15 @@
 
 #### Q61. How can you improve the appearance of the output JSON that contains the `_id`?
 
-- [ ] `Use db.collection.set({$_id:pretty})`
+- [x![WhatsApp Image 2021-09-11 at 02 15 49](https://user-images.githubusercontent.com/66520710/132916618-ff8ce9e3-9278-4d04-ba13-857f4f505cff.jpeg)
+  ![WhatsApp Image 2021-09-11 at 02 15 49 (1)](https://user-images.githubusercontent.com/66520710/132916625-4984e3d7-627d-4bfb-8ba7-a7bc6068a62d.jpeg)
+  ![WhatsApp Image 2021-09-11 at 02 09 41](https://user-images.githubusercontent.com/66520710/132916627-d18b0f22-d056-424a-b08f-fd1a9e35582e.jpeg)
+  ] `Use db.collection.set({$_id:pretty})`
 - [ ] `Create a second index`
-- [ ] `Use db.collection.format(numeric)`
+- [x] `Use db.collection.format(numeric)`
 - [ ] `Use $_id = value`
+
+[Reference](https://hazimhassan.com/linkedin-mongodb-assessment-answers/#:~:text=How%20can%20you%20improve%20the%20appearance%20of%20the%20output%20JSON%20that%20contains%20the)
 
 #### Q62. What happens to a Replica set oplog if it runs out of memory?
 
@@ -465,22 +475,20 @@
 #### Q67. Suppose you are using the mongoimport command to import personnel data and there is a unique index on the email field. What happens when there are duplicate emails in the import?
 
 - [ ] The import command aborts without importing any records.
-- [ ] The import command imports records upto but not including the record, and then aborts. 
+- [ ] The import command imports records upto but not including the record, and then aborts.
 - [ ] The import command doesn't import the bad document but does import the rest.
 - [x] The import command prompts you to correct the bad record.
 
 #### Q68. You have a collection with millions of documents. Each time you attempt to sort. MongoDB runs out of memory. What might help?
 
 - [ ] Use the purge operator before the sort.
-- [ ] Return the entire collection and sort on the client. 
+- [ ] Return the entire collection and sort on the client.
 - [ ] Pass the --more-memory option.
 - [x] Create an index on the field you are sorting.
 
 #### Q69. You need to be able to quickly find a word in a text field. What should you do?
 
 - [ ] Create a text index on the field and do a $text Query.
-- [ ] Create an single field index in descending order, and do a query for the word. 
+- [ ] Create an single field index in descending order, and do a query for the word.
 - [x] Do a $text query.
 - [ ] Create a $regex on the fields, and do a $regex query.
-
-

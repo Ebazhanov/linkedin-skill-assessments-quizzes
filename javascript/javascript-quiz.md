@@ -651,30 +651,14 @@ printA();
 - [x] forEach can be used only with an array, whereas for can be used with additional data types.
 - [ ] for loops can be nested; whereas forEach loops cannot.
 
-#### Q57. What will be logged to the console?
-
-```javascript
-'use strict';
-function logThis() {
-  this.desc = 'logger';
-  console.log(this);
-}
-new logThis();
-```
-
-- [ ] undefined
-- [ ] function
-- [ ] windows
-- [x] {desc: "logger"}
-
-#### Q58. Which choice is an incorrect way to define an arrow function that returns an empty object?
+#### Q57. Which choice is an incorrect way to define an arrow function that returns an empty object?
 
 - [ ] => ({})
 - [x] => {}
 - [ ] => { return {};}
 - [ ] => (({}))
 
-#### Q59. Why might you choose to make your code asynchronous?
+#### Q58. Why might you choose to make your code asynchronous?
 
 - [x] to start tasks that might take some time without blocking subsequent tasks from executing immediately
 - [ ] to ensure that tasks further down in your code are not initiated until earlier tasks have completed
@@ -683,77 +667,77 @@ new logThis();
 
 **EXPLANATION:** "to ensure that tasks further down in your code are not initiated until earlier tasks have completed" you use the normal (synchronous) flow where each command is executed sequentially. Asynchronous code allows you to break this sequence: start a long running function (AJAX call to an external service) and continue running the rest of the code in parallel.
 
-#### Q60. Which expression evaluates to true?
+#### Q59. Which expression evaluates to true?
 
 - [ ] `[3] == [3]`
 - [x] `3 == '3'`
 - [ ] `3 != '3'`
 - [ ] `3 === '3'`
 
-#### Q61. Which of these is a valid variable name?
+#### Q60. Which of these is a valid variable name?
 
 - [ ] 5thItem
 - [x] firstName
 - [ ] grand total
 - [ ] function
 
-#### Q62. Which method cancels event default behavior?
+#### Q61. Which method cancels event default behavior?
 
 - [ ] cancel()
 - [ ] stop()
 - [x] preventDefault()
 - [ ] prevent()
 
-#### Q63. Which method do you use to attach one DOM node to another?
+#### Q62. Which method do you use to attach one DOM node to another?
 
 - [ ] attachNode()
 - [ ] getNode()
 - [ ] querySelector()
 - [x] appendChild()
 
-#### Q64. Which statement is used to skip iteration of the loop?
+#### Q63. Which statement is used to skip iteration of the loop?
 
 - [ ] break
 - [ ] pass
 - [ ] skip
 - [x] continue
 
-#### Q65. Which choice is valid example for an arrow function?
+#### Q64. Which choice is valid example for an arrow function?
 
 - [x] (a,b) => c
 - [ ] a, b => {return c;}
 - [ ] a, b => c
 - [ ] { a, b } => c
 
-#### Q66. Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior?
+#### Q65. Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior?
 
 - [x] class
 - [ ] generator function
 - [ ] map
 - [ ] proxy
 
-#### Q67. How do you add a comment to JavaScript code?
+#### Q66. How do you add a comment to JavaScript code?
 
 - [ ] `! This is a comment`
 - [ ] `# This is a comment`
 - [ ] `\\ This is a comment`
 - [x] `// This is a comment`
 
-#### Q68. If you attempt to call a value as a function but the value is not a function, what kind of error would you get?
+#### Q67. If you attempt to call a value as a function but the value is not a function, what kind of error would you get?
 
 - [x] TypeError
 - [ ] SystemError
 - [ ] SyntaxError
 - [ ] LogicError
 
-#### Q69. Which method is called automatically when an object is initialized?
+#### Q68. Which method is called automatically when an object is initialized?
 
 - [ ] create()
 - [ ] new()
 - [x] constructor()
 - [ ] init()
 
-#### Q70. What is the result of running the statement shown?
+#### Q69. What is the result of running the statement shown?
 
 ```javascript
 let a = 5;
@@ -765,7 +749,7 @@ console.log(++a);
 - [x] 6
 - [ ] 5
 
-#### Q71. You've written the event listener shown below for a form button, but each time you click the button, the page reloads. Which statement would stop this from happening?
+#### Q70. You've written the event listener shown below for a form button, but each time you click the button, the page reloads. Which statement would stop this from happening?
 
 ```javascript
 button.addEventListener(
@@ -782,41 +766,41 @@ button.addEventListener(
 - [ ] button.blockReload();
 - [x] e.preventDefault();
 
-#### Q72. Which statement represents the starting code converted to an IIFE?
+#### Q71. Which statement represents the starting code converted to an IIFE?
 
 - [ ] `function() { console.log('lorem ipsum'); }()();`
 - [ ] `function() { console.log('lorem ipsum'); }();`
 - [x] `(function() { console.log('lorem ipsum'); })();`
 
-#### Q73. Which statement selects all img elements in the DOM tree?
+#### Q72. Which statement selects all img elements in the DOM tree?
 
 - [ ] `Document.querySelector('img')`
 - [ ] `Document.querySelectorAll('<img>')`
 - [x] `Document.querySelectorAll('img')`
 - [ ] `Document.querySelector('<img>')`
 
-#### Q74. Why would you choose an asynchronous structure for your code?
+#### Q73. Why would you choose an asynchronous structure for your code?
 
 - [ ] To use ES6 syntax
 - [x] To start tasks that might take some time without blocking subsequent tasks from executing immediately
 - [ ] To ensure that parsers enforce all JavaScript syntax rules when processing your code
 - [ ] To ensure that tasks further down in your code aren't initiated until earlier tasks have completed
 
-#### Q75. What is the HTTP verb to request the contents of an existing resource?
+#### Q74. What is the HTTP verb to request the contents of an existing resource?
 
 - [ ] DELETE
 - [x] GET
 - [ ] PATCH
 - [ ] POST
 
-#### Q76. Which event is fired on a text field within a form when a user tabs to it, or clicks or touches it?
+#### Q75. Which event is fired on a text field within a form when a user tabs to it, or clicks or touches it?
 
 - [x] focus
 - [ ] blur
 - [ ] hover
 - [ ] enter
 
-#### Q77. What is the result in the console of running this code?
+#### Q76. What is the result in the console of running this code?
 
 ```javascript
 function logThis() {
@@ -830,7 +814,7 @@ logThis();
 - [ ] Function.prototype
 - [x] window
 
-#### Q78. Which class-based component is equivalent to this function component?
+#### Q77. Which class-based component is equivalent to this function component?
 
 ```javascript
 const Greeting = ({ name }) => <h1>Hello {name}!</h1>;
@@ -841,7 +825,7 @@ const Greeting = ({ name }) => <h1>Hello {name}!</h1>;
 - [ ] `class Greeting extends React.Component { <h>Hello {this.props.name}!</h>; } }`
 - [ ] `class Greeting extends React.Component { render({ name }) { return <h1>Hello {name}!</h1>; } }`
 
-#### Q79. Which class-based lifecycle method would be called at the same time as this effect Hook?
+#### Q78. Which class-based lifecycle method would be called at the same time as this effect Hook?
 
 ```javascript
 useEffect(() => {
@@ -854,7 +838,7 @@ useEffect(() => {
 - [ ] render
 - [x] componentDidMount
 
-#### Q80. What is the output of this code?
+#### Q79. What is the output of this code?
 
 ```javascript
 var obj;
@@ -866,7 +850,7 @@ console.log(obj);
 - [x] undefined
 - [ ] null
 
-#### Q81. How would you use the TaxCalculator to determine the amount of tax on \$50?
+#### Q80. How would you use the TaxCalculator to determine the amount of tax on \$50?
 
 ```javascript
 class TaxCalculator {
@@ -881,7 +865,7 @@ class TaxCalculator {
 - [x] TaxCalculator.calculate(50);
 - [ ] new TaxCalculator().calculate(50);
 
-#### Q82. What is wrong with this code?
+#### Q81. What is wrong with this code?
 
 ```js
 const foo = {
@@ -898,7 +882,7 @@ const foo = {
 - [ ] Functions cannot be declared as properties of objects.
 - [x] Nothing, there are no errors.
 
-#### Q83. What wil be logged to the console?
+#### Q82. What wil be logged to the console?
 
 ```js
 console.log('I');
@@ -932,7 +916,8 @@ I
 love
 Javascript!
 ```
-#### Q84. What will this code log to the console?
+
+#### Q83. What will this code log to the console?
 
 ```js
 const foo = [1, 2, 3];
@@ -944,3 +929,23 @@ console.log(n);
 - [ ] undefined
 - [ ] NaN
 - [ ] Nothing--this is not proper JavaScript syntax and will throw an error.
+
+#### Q85. How do you remove the property name from this object?
+
+```js
+const foo = {
+  name: 'Albert',
+};
+```
+
+- [ ] delete name from foo;
+- [x] delete foo.name;
+- [ ] del foo.name;
+- [ ] remove foo.name;
+
+#### Q86. What is the difference between the map() and the forEach() methods on the Array prototype?
+
+- [ ] There is no difference.
+- [ ] The `forEach()` method returns a single output value, wheras the `map()` method performs operation on each value in the array.
+- [x] The map() methods returns a new array with a transformation applied on each item in the original array, wheras the `forEach()` method iterates through an array with noreturn value.
+- [ ] The `forEach()` methods returns a new array with a transformation applied on each item in the original array, wheras the `map()` method iterates through an array with noreturn value.

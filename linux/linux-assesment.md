@@ -411,3 +411,88 @@ find / -size -10K -exec ls -l {} \;
 - [ ] passwd
 - [ ] editsam
 - [ ] grouppass
+
+#### Q52. With most GNU commands, if an option is a word, what will it be preceded by?
+
+- [x] two dashes
+- [ ] a backslash
+- [ ] one dash
+- [ ] nothing
+
+#### Q53. What would happen if you have a script file named script that takes a long time to complete, and you type `nohup ./script &` in the command line?
+
+- [ ] The script will remain running in the background even if you reboot the system.
+- [ ] The script will run in your terminal and you will not be able to do anything until it completes.
+- [x] The script will run in the background until you end the session.
+- [ ] The script will run in the background and will continue running even if you end the session.
+
+#### Q54. To elevate privileges using the `sudo` command, a user must **\_**.
+
+- [ ] enter the root user's password
+- [x] enter their own password
+- [ ] enter the sudo user's password
+- [ ] change to the root group
+
+**Reference:**
+From docs: [A Cloud Guru's Blog](https://acloudguru.com/blog/engineering/linux-commands-for-beginners-sudo#:~:text=Sudo%20asks%20for%20your%20user%20password.%C2%A0%20Note%20that%20it%20is%20asking%20for%20your%20password%2C%20not%20the%20root%20password.)
+
+#### Q55. When would this system cron job run its task?
+
+`0 22 * * 1-5`
+
+- [ ] on the 22nd of every month from June to May
+- [x] at 10:00 PM Monday to Friday
+- [ ] every 22 minutes every day except weekends
+- [ ] from 1:00 AM to 5:00 AM on the 22nd of every month
+
+#### Q56. How does TCP Wrappers differ from a firewall?
+
+- [ ] Firewalls are only service specific, whereas TCP Wrappers can block all traffic.
+- [ ] TCP Wrappers works at the network layer, so it blocks traffic before the firewall even sees it.
+- [ ] Firewalls easily spawn commands to operate on connection data, whereas TCP Wrappers cannot.
+- [x] TCP Wrappers works at the application layer, so it can make access decisions on encrypted data.
+
+**Note:** TCP Wrapper works on Application Layer but answer is not too much confirmed.
+
+#### Q57. As root, you set execute permissions for user, group, and other on a directory. Now users can do what?
+
+- [ ] They can execute files in it.
+- [x] They can traverse it.
+- [ ] They can read files in it.
+- [ ] They can delete files in it.
+
+**Note:** Not confident about answer. If someone knows exact answer please contribute in this repository.
+
+#### Q58. What will this command print?
+
+`echo "Thu Jun 4 15:45:45 PDT 2020" | cut -f3 -d" "`
+
+- [ ] It will print nothing.
+- [ ] Thu Jun 4 15:45:45 PDT 2020
+- [ ] 0.6567708333333333
+- [x] 4
+
+#### Q59. How can you improve this code snippet?
+
+```
+if ls /etc/passwd &> /dev/null
+then
+    echo "exists"
+fi
+```
+
+- [ ] The code snippet cannot be improved, this is a valid way of checking for the existence of a file.
+- [ ] Use Bash's built-in `[[ ]]` test conditions instead of the ls command.
+- [x] The redirect to `/dev/null` will silence the return code invalidating the conditional. Removing the redirect will solve this.
+- [ ] The ls command will output the name of the file to the screen. Running ls in quiet mode will improve the code snippet.
+
+**Note:** Not confident about answer. If someone knows the exact answer please contribute in this repository and mark correct answer.
+
+#### Q60. Using a systemd-based distribution, you want to restrict the cron service from running either automatically or manually. Which command would you run?
+
+- [ ] systemctl disable crond
+- [ ] systemctl disallow crond
+- [ ] systemctl mask crond
+- [x] systemctl stop crond
+
+**Note:** Not confident about answer. If someone knows the exact answer please contribute in this repository and mark correct answer.

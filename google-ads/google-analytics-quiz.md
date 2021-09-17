@@ -3,7 +3,7 @@
 #### Q1. Which ad component has three fields that allow 30 characters each?
 
 - [ ] the headline
-- [ ] the description
+- [x] the description
 - [ ] the website URL
 - [ ] the call-to-action
 
@@ -19,18 +19,18 @@
 - [ ] ad Quality Score increase
 - [ ] reduction of landing page inbound links
 - [ ] reduction in daily budget
-- [ ] increased competition
+- [x] increased competition
 
 #### Q4. You are running a campaign that will consist of 15 ads. What is the minimum number of ad groups that you can have as part of the campaign?
 
-- [ ] 1
+- [x] 1
 - [ ] 5
 - [ ] 3
 - [ ] 15
 
 #### Q5. Braxton has his maximum bid set to $5. His competitor bids $3.95. How much will Braxton pay upon winning the auction?
 
-- [ ] $3.96
+- [x] $3.96
 - [ ] $3.95
 - [ ] $4
 - [ ] $5
@@ -46,14 +46,14 @@
 
 - [ ] product extensions
 - [ ] sitelink extensions
-- [ ] message extensions
+- [x] message extensions
 - [ ] callout extensions
 
 #### Q8. Which choice is a best practice when designing a landing page for an ad campaign?
 
 - [ ] having lots of inbound links
 - [ ] using JavaScript
-- [ ] relevant content matching the ad
+- [x] relevant content matching the ad
 - [ ] enrolling in Ad Central
 
 #### Q9. Which choice has no impact on Quality Score?
@@ -61,7 +61,7 @@
 - [ ] ad relevance
 - [ ] expected clickthrough rate
 - [ ] landing page experience
-- [ ] max CPC bid
+- [x] max CPC bid
 
 #### Q10. Marcelina wants to know how many sales her Google Ads brought in. What should she set up?
 
@@ -104,3 +104,87 @@
 - [ ] Optimize
 - [ ] Manual rotation
 - [ ] Rotate indefinitely
+
+#### Q16. Clara is running retargeted display ads, but does not want her audience to experience ad fatique. What should be configure?
+
+- [ ] ad scheduling
+- [ ] a frequency cap
+- [ ] an impression cap
+- [x] auto ad rotation
+
+#### Q17. If someone performs a search for "most comfortable chair", which ad description text would likely perform the best?
+
+- [ ] Don't be uncomfortable. Get a new chair. Try the LumbarPro today.
+- [x] Experience the most comfortable chair, with more than 1,000 five-star reviews.
+- [ ] Try the LumbarPro, a chair that has been reviewed as comfortable by more than 1,000 people.
+- [ ] Need a new chair? The LumbarPro is the highest rated chair. Try this chair, today.
+
+#### Q18. Why would you use callout extensions?
+
+- [ ] to share pricing on various business offerings
+- [x] to highlight key features and unique offers
+- [ ] to show reviews of your product or service
+- [ ] to add phone numbers to the ad
+
+#### Q19. You have a maximum CPC bid of $4 for the keyword **Coffee Mugs**. What tool could you use to determine the projected result of raising the bid to $4.50?
+
+- [x] CPC Optimizer
+- [ ] Bid Simulator
+- [ ] Google Analytics
+- [ ] Lighthouse
+
+#### Q20. Which keyword status is not valid?
+
+- [x] Geographically restricted
+- [ ] Under review
+- [ ] Paused
+- [ ] Eligible
+
+#### Q21. When reviewing a campaign, you notice that your cost per conversion on desktop is much lower than on mobile. How should you optimize the bidding strategy is you wanted to increase the overall number of campaign conversions?
+
+- [x] Increase the desktop bid adjustment for this campaign
+- [ ] Increase the ad frequency for the campaign
+- [ ] Decrease the desktop bid adjustment for the campaign
+- [ ] Increase both the desktop and mobile ad adjustments
+
+#### Q22. With Google's Active View technology, when is an impression of a display ad considered viewable?
+
+- [ ] when the user leaves the page the ad appears on
+- [ ] when any part of the ad is on-screen for 5 seconds
+- [ ] when the entire ad first appears on the screen
+- [x] when at least 50% of the ad is on-screen for at least 1 second
+
+#### Q23. Rhama wants to increase her bids for any customers that are within a selected radius of her storefront. What would you recommend she do?
+
+- [ ] Create a location bid adjustment
+- [ ] Use automated bidding
+- [x] Create an ad group with higher bids, targeted to that geographical region
+- [ ] Restrict the campaign to only the radius
+
+#### Q24. The standard approach to submitting product data to Google Ads is through the use of a product **\_**.
+
+- [ ] link
+- [ ] ad
+- [x] feed
+- [ ] extension
+
+#### Q25. In order to create a similat audience, you must provide Google Ads with **\_**.
+
+- [ ] a budget
+- [ ] a tracking pixel
+- [ ] all of these answers
+- [x] a seed list of users
+
+#### Q26. How do responsive search ads increase your likelihood of reaching more customers?
+
+- [ ] They provide multiple headline and description options, so ads automatically evolve based on performance.
+- [ ] Responsive search ads are mobile optimized
+- [x] All of these answers
+- [ ] Responsive reach ads receive preferential treatment in the google ads auction
+
+#### Q27. Sion is having a sale that will last three days. He wants his ad text to show how much time is remaining in the sale. Would would you recoment for Sion?
+
+- [ ] Use the sale extension and set the sale duration for each time zone.
+- [ ] Do not include the sale in the ad text, as this likley violated Google Ads editorial policies.
+- [x] Add a countdown customizer to the ad text.
+- [ ] Manually adjust the ad text as frequently as possible to reflect the time remaining

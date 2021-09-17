@@ -471,7 +471,7 @@ end
 - [ ] This is an invalid syntax to use to assign valuse to flash[:notice]
 - [ ] The previous value of flash[:notice] will not be cleared automatically
 
-#### Q42. Which statment about ActiveRecord models is true?
+#### Q42. Which statement about ActiveRecord models is true?
 
 - [ ] Each database column requres adding a matching attr_accessor declaration in the ActiveRecord model.
 - [ ] All attributes in an ActiveRecord model are read-only declared as writable using attr_accessible
