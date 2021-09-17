@@ -385,8 +385,6 @@
 - [ ] daemon
 - [x] mongod
 
-[Reference](https://hazimhassan.com/linkedin-mongodb-assessment-answers/#:~:text=Which%20file%20in%20the%20MongoDB%20directly%20holds%20the%20MongoDB%20daemon)
-
 #### Q56. You have just secured your previously unsecured MongoDB server, but the server is still not requiring authentication. What is the best option?
 
 - [x] Restart the `mongod` process.
@@ -400,9 +398,6 @@
 - [ ] Ad hoc queries are allowed only in the paid version.
 - [ ] Ad hoc queries are allowed only through the ad hoc command.
 - [x] MongoDB allows ad hoc queries.
-
-[Reference-1](https://hazimhassan.com/linkedin-mongodb-assessment-answers/#:~:text=What%20is%20the%20most%20accurate%20statement%20regarding%20MongoDB%20and%20ad%20hoc%20queries)
-[Reference-2](https://quick-adviser.com/how-do-i-query-a-field-in-mongodb/#:~:text=Q57.-,What%20is%20the%20most%20accurate%20statement%20regarding%20MongoDB%20and%20ad%20hoc%20queries,-%3F%20MongoDB%20does%20not)
 
 #### Q58. In MongoDB, what does a projection do?
 
@@ -427,15 +422,10 @@
 
 #### Q61. How can you improve the appearance of the output JSON that contains the `_id`?
 
-- [x![WhatsApp Image 2021-09-11 at 02 15 49](https://user-images.githubusercontent.com/66520710/132916618-ff8ce9e3-9278-4d04-ba13-857f4f505cff.jpeg)
-  ![WhatsApp Image 2021-09-11 at 02 15 49 (1)](https://user-images.githubusercontent.com/66520710/132916625-4984e3d7-627d-4bfb-8ba7-a7bc6068a62d.jpeg)
-  ![WhatsApp Image 2021-09-11 at 02 09 41](https://user-images.githubusercontent.com/66520710/132916627-d18b0f22-d056-424a-b08f-fd1a9e35582e.jpeg)
-  ] `Use db.collection.set({$_id:pretty})`
+- [ ] `Use db.collection.set({$_id:pretty})`
 - [ ] `Create a second index`
 - [x] `Use db.collection.format(numeric)`
 - [ ] `Use $_id = value`
-
-[Reference](https://hazimhassan.com/linkedin-mongodb-assessment-answers/#:~:text=How%20can%20you%20improve%20the%20appearance%20of%20the%20output%20JSON%20that%20contains%20the)
 
 #### Q62. What happens to a Replica set oplog if it runs out of memory?
 
