@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-534-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-535-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -790,6 +790,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/Beziu"><img src="https://avatars.githubusercontent.com/u/19675094?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Grzegorz Dziubak</b></sub></a><br /><a href="#design-Beziu" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Beziu" title="Code">💻</a></td>
     <td align="center"><a href="https://www.ayoubberdeddouch.com"><img src="https://avatars.githubusercontent.com/u/24941662?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ayoub BERDEDDOUCH</b></sub></a><br /><a href="#design-ayoub-berdeddouch" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ayoub-berdeddouch" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/nikola-fadv"><img src="https://avatars.githubusercontent.com/u/87002342?v=4?s=100" width="100px;" alt=""/><br /><sub><b>nikola-fadv</b></sub></a><br /><a href="#design-nikola-fadv" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=nikola-fadv" title="Code">💻</a></td>
   </tr>
 </table>
 
