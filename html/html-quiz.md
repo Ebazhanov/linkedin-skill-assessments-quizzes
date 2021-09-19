@@ -1355,3 +1355,10 @@ As Steve Krug once said, happy talk must die.
       ![C](images/Q84-3.jpg)
 - [ ] D
       ![D](images/Q84-4.jpg)
+
+#### Q84. Which choice is not a legal type attribute for the `<input>` tag?
+
+- [ ] `<input type="color">`
+- [ ] `<input type="week">`
+- [ ] `<input type="tel">`
+- [x] `<input type="num">`
