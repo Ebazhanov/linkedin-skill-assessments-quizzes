@@ -819,3 +819,24 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] dash and comma
 - [ ] comma and exclamation point
 - [ ] dot and comma
+
+#### Q76. What JavaScript method is used to load JSON data?
+
+- [ ] JSON.ingest()
+- [ ] JSON.convert()
+- [ ] JSON.read()
+- [x] JSON.parse()
+
+#### Q77. How are the values in an array separated?
+
+- [ ] with right arrows
+- [ ] with colons
+- [ ] with semicolons
+- [x] with commas
+
+#### Q78. What is the minimum number of values in an array?
+
+- [x] zero
+- [ ] one
+- [ ] two
+- [ ] three
