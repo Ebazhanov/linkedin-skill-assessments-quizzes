@@ -949,3 +949,23 @@ const foo = {
 - [ ] The `forEach()` method returns a single output value, wheras the `map()` method performs operation on each value in the array.
 - [x] The map() methods returns a new array with a transformation applied on each item in the original array, wheras the `forEach()` method iterates through an array with noreturn value.
 - [ ] The `forEach()` methods returns a new array with a transformation applied on each item in the original array, wheras the `map()` method iterates through an array with noreturn value.
+
+#### Q87. Which concept does this code illustrate?
+
+```js
+function makeAdder(x) {
+    return function (y) {
+        return x + y;
+    }
+}
+
+var addFive = makeAdder(5);
+console.log(addFive(3));
+```
+
+
+- [ ] overloading
+- [ ] closure
+- [ ] currying
+- [ ] overriding
+
