@@ -751,8 +751,7 @@
 
 #### Q92. How would you connect the slicer to both PivotTables?
 
-![image](https://user-images.githubusercontent.com/12587967/133915280-2b6f52a5-dbcb-4472-b718-5c3e473d720c.png)
-
+![PivotTable](images/Q92.png?raw=true)
 
 - [ ] You cannot use one slicer for two PivotTables.
 - [ ] Right-click the slicer and select Slicer Settings.
