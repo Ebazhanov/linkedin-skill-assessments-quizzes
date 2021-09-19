@@ -966,6 +966,26 @@ console.log(addFive(3));
 
 - [ ] overloading
 - [ ] closure
-- [ ] currying
+- [x] currying
 - [ ] overriding
 
+#### Q88. Which tag pair is used in HTML to embed JavaScript?
+
+- [ ] ```<script></script>```
+- [ ] ```<js></js>```
+- [ ] ```<javascript></javascript>```
+- [x] ```<code></code>```
+
+#### Q87. What would be the result in the console of running this code?
+
+```js
+for (var i = 0; i < 5; i++) {
+    console.log(i);
+}
+```
+
+
+- [x] 0 1 2 3 4
+- [ ] 0 1 2 3 4 5
+- [ ] 1 2 3 4
+- [ ] 1 2 3 4 5
