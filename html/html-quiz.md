@@ -1356,7 +1356,7 @@ As Steve Krug once said, happy talk must die.
 - [ ] D
       ![D](images/Q84-4.jpg)
 
-#### Q84. Which choice is not a legal type attribute for the `<input>` tag?
+#### Q87. Which choice is not a legal type attribute for the `<input>` tag?
 
 - [ ] `<input type="color">`
 - [ ] `<input type="week">`
