@@ -692,3 +692,11 @@ aws ecs create-service \
 - [ ] Application Load Balancer does not preserve the original source IP address. The analytics software needs to be configured to look at the 'X-Forwarded-For' HTTP request header for the correct source IP address.
 - [ ] Application Load Balencer has to be configured to retain the source IP address of the traffic it is forwarding. Create a policy that enables ProxyProtocol support and attach it to the ALB using the AWS CLI.
 - [ ] Configure the web server EC2 instances to only have private IP addresses. The public IP addresses of the instances are being recorded into the web server logs, bug only ALB should have a public interface and it will route traffic to instances via the private interface.
+
+
+#### Q76. What is *not* a default user of a common Linux instance launched from an AMI?
+
+- [ ] ubuntu
+- [ ] system-user
+- [ ] ec2-user
+- [ ] admin
