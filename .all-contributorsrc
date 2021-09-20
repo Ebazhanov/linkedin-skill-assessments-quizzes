@@ -5313,6 +5313,15 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "bekrozikoff",
+      "name": "Bek Rozikoff",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77227784?v=4",
+      "profile": "http://www.bekroz.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
