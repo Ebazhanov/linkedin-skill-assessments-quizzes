@@ -19,7 +19,7 @@
 - [ ] JPEG
 - [ ] TIFF
 - [ ] EPS
-- [ ] SVG
+- [*] SVG
 
 #### Q4. After you finish creating form fields for a complicated form, the client submits a new PDF, with color changes, a new logo, and minor text edits. What is the most efficient way to incorporate the new artwork?
 
@@ -38,7 +38,7 @@
 #### Q6. You would like to use Bookmarks to navigate a PDF, but the Bookmarks panel is not available. Why would that panel be unavailable?
 
 - [ ] The PDF does not contain any articles.
-- [ ] You are viewing the PDF in a web browser.
+- [*] You are viewing the PDF in a web browser.
 - [ ] The file creator did not give the article a title.
 - [ ] You are viewing the PDF in Adobe Reader.
 
@@ -46,7 +46,7 @@
 
 - [ ] Right-click in the toolbar and select Show Page Navigation Tools.
 - [ ] Right-click in the toolbar and select Show Page Display Tools.
-- [ ] Right-click in the toolbar and select Show Select & Zoom.
+- [*] Right-click in the toolbar and select Show Select & Zoom.
 - [ ] Right-click in the toolbar and select Customize Quick Tools.
 
 #### Q8. A person at a printing service provider is having difficulty printing a PDF due to font issues. Where can the person find out which fonts are used in the document?
@@ -89,20 +89,20 @@
 - [ ] GIF
 - [ ] JPEG
 - [ ] BMP
-- [ ] PSD
+- [*] PSD
 
 #### Q14. To ensure that users of older versions of Adobe Reader can fill and save forms, you chose File > Save As Other > Reader Extended PDF. Now you need to make further edits to the form. You have not applied any form security to the file, but you see an alert, “You cannot edit this file as a form due to its security settings.” What method can you use to edit the form?
 
 - [ ] File > Properties > Custom
 - [ ] File > Save a Copy
 - [ ] Preferences > Forms
-- [ ] File > Properties > Advanced
+- [*] File > Properties > Advanced
 
 #### Q15. Users submitted forms to you via email. Some files are .fdf (forms data format), and some files are .pdf documents. Which method will let you combine all the data into a .csv file?
 
 - [ ] Prepare Form > Fields
 - [ ] Prepare Form > Document Actions
-- [ ] Prepare Form > Document JavaScripts
+- [*] Prepare Form > Document JavaScripts
 - [ ] Prepare Form > More
 
 #### Q16. You turn around the files that you edit fairly quickly, and you edit many files. As a result, the long list of recent files in the Home view has become cumbersome. Where can you customize the number of recent files listed in the Home view?
