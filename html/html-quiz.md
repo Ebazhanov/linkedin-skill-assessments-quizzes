@@ -90,8 +90,7 @@
 
 ![Sample text](images/ss-2.png?raw=true)
 
-- [ ]
-
+- [ ] A
 ```html
 <details>
   <summary>Parmesan Deviled Eggs</summary>
@@ -101,7 +100,7 @@
 </details>
 ```
 
-- [ ]
+- [ ] B
 
 ```html
 <h4>▸ Parmesan Deviled Eggs</h4>
@@ -110,8 +109,7 @@
 </p>
 ```
 
-- [x]
-
+- [x] C
 ```html
 <details open>
   <summary>Parmesan Deviled Eggs</summary>
@@ -121,7 +119,7 @@
 </details>
 ```
 
-- [ ]
+- [ ] D
 
 ```html
 <details>
@@ -721,7 +719,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 ![Table](images/ss-1.png?raw=true 'table')
 
-- [ ]
+- [ ] A
 
 ```markdown
 <tr>
@@ -733,7 +731,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 </tr>
 ```
 
-- [ ]
+- [ ] B
 
 ```markdown
 <tr>
@@ -743,7 +741,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 </tr>
 ```
 
-- [x]
+- [x] C
 
 ```markdown
 <tr>
@@ -755,7 +753,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 </tr>
 ```
 
-- [ ]
+- [ ] D
 
 ```markdown
 <tr>
@@ -1263,7 +1261,7 @@ As Steve Krug once said, happy talk must die.
 
 ![Image of footer](images/ss-8.png?raw=true)
 
-- [ ]
+- [ ] A
 
 ```markdown
 <h4>Mailing Address</h4>
@@ -1274,7 +1272,7 @@ As Steve Krug once said, happy talk must die.
 </address>
 ```
 
-- [x]
+- [x] B
 
 ```markdown
 <h4><strong>Mailing Address</h4>
@@ -1285,7 +1283,7 @@ As Steve Krug once said, happy talk must die.
 </em></address>
 ```
 
-- [ ]
+- [ ] C
 
 ```markdown
 <h4>Mailing Address</h4>
@@ -1296,7 +1294,7 @@ As Steve Krug once said, happy talk must die.
 </em></p>
 ```
 
-- [ ]
+- [ ] D
 
 ```markdown
 <p><strong>Mailing Address</strong></p>
@@ -1355,3 +1353,33 @@ As Steve Krug once said, happy talk must die.
       ![C](images/Q84-3.jpg)
 - [ ] D
       ![D](images/Q84-4.jpg)
+
+#### Q84. In this code, what is _target_?
+
+- [x] an attribute
+- [ ] a tag
+- [ ] content
+- [ ] an element
+
+#### Q85. What is the difference between the `<svg>` and `<canvas>`?
+
+- [x] `<svg>` produces vector graphics, while `<canvas>` produces raster graphics.
+- [ ] `<svg>` integrates with JavaScript, while `<canvas>` does not.
+- [ ] `<svg>` produces raster graphics, while `<canvas>` produces vector graphics.
+- [ ] `<svg>` cannot be used as a background image, while `<canvas>` can be used as a background
+
+#### Q86. What is the difference between the *readonly* and *disabled* attributes for the ```<textarea>``` element?
+
+- [ ] *readonly* allows clicking in the ```<textarea>``` element. *disabled* prevents all interaction with the control.
+- [ ] *readonly* is invalid attribute for ```<textarea>```, while *disabled* is a valid attribute.
+- [ ] *disabled* allows clicking in the ```<textarea>``` element. *readonly* prevents all interaction with the control.
+- [ ] *disabled* is invalid attribute for ```<textarea>```, while *readonly* is a valid attribute.
+
+#### Q87. In this code, what is _target_?
+
+`<a target="_blank">...</a>`
+
+- [x] an attribute
+- [ ] a tag
+- [ ] content
+- [ ] an element

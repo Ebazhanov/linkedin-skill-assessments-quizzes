@@ -303,6 +303,9 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] to delegate coding responsibility more efficiently
 - [ ] to conserve memory
 - [x] to avoid writing duplicate code
+- [x] to separate class behavior from the more general
+
+_NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is it also true?
 
 #### Q40. In addition to attributes and behaviours, what quality must a class possess?
 
@@ -450,3 +453,17 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] code reusability
 - [ ] lazy initialization
 - [ ] data abstraction
+
+#### Q61. Are you reauired to return an object if it was passed by reference to a function, and why or why not?
+
+- [ ] Yes, the caller function needs to reflect the changes.
+- [ ] No, you should use a global variable instead.
+- [ ] No, changes will be automatically reflected in the calling function.
+- [ ] Yes, the object must be the same in the caller function.
+
+#### Q62. Why is inheritance ?
+
+- [ ] Yes, the caller function needs to reflect the changes.
+- [ ] No, you should use a global variable instead.
+- [ ] No, changes will be automatically reflected in the calling function.
+- [ ] Yes, the object must be the same in the caller function.
