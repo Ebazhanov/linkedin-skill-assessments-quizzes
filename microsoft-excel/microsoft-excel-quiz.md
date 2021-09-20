@@ -718,3 +718,42 @@
 - [ ] Add a table of contents slide and link the remaining slides to it.
 - [ ] Add sections and move the slides into the appropriate sections.
 - [ ] Create custom shows and add the slides into the shows.
+
+#### Q88. What is the result of the formula =4&3?
+
+- [x] 43
+- [ ] 12
+- [ ] #VALUE!
+- [ ] 7
+
+#### Q89. How do you remove everything (values, formatting, etc.) from a cell?
+
+- [ ] Select the cell. On the Home tab, click Clear.
+- [ ] Select the cell and press Delete.
+- [ ] Right-click the cell and select Delete.
+- [x] Select the cell. On the Home tab, click Clear > Clear All.
+
+#### Q90. What is Colors[Inventory] referring to here?
+
+=SUMIFS(Colors[Inventory],Colors[Colors],"Orange")
+
+- [ ] the Inventory worksheet in the Colors workbook.
+- [ ] the named range Colors[Inventory], which does not use the Format as Table feature.
+- [x] the Inventory column in the Colors table.
+- [ ] the Colors worksheet in the Inventory workbook.
+
+#### Q91. What is the difference between a workbook and a worksheet?
+
+- [x] An Excel file is a workbook. A workbook contains one or more worksheets.
+- [ ] Nothing-these two terms mean the same thing.
+- [ ] A workbook contains only data. A worksheet contains both data and formulas.
+- [ ] An Excel file is a worksheet. A worksheet contains one or more workbooks.
+
+#### Q92. How would you connect the slicer to both PivotTables?
+
+![PivotTable](images/Q92.png?raw=true)
+
+- [ ] You cannot use one slicer for two PivotTables.
+- [ ] Right-click the slicer and select Slicer Settings.
+- [ ] Merge the two PivotTables, right-click the merged PivotTable, and select Combine Slicer.
+- [ ] Right-click the slicer and select Report Connections, or click Report Connections on the Slicer tab.
