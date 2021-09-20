@@ -5293,6 +5293,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "Gwinbleind",
+      "name": "Gwinbleind",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52351166?v=4",
+      "profile": "https://github.com/Gwinbleind",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
