@@ -190,7 +190,7 @@ def main () {
 
 - [ ] singletons
 - [ ] stationary objects
-- [ ] functional objects
+- [x] functional objects
 - [ ] fixed objects
 
 **Note:** singletons may have mutable state
@@ -390,3 +390,43 @@ myClass.foreach(println _)
 - [ ] NumberFormatException
 - [ ] NullPointerExcepetion
 - [ ] MalformedParameterException
+
+#### Q47. In scala what is precondition?
+
+- [ ] a constraint on where a method may be called from
+- [ ] a constraint on values passed to a methode constructor
+- [x] a class of predifined error messages
+- [ ] a class of Boolean operators
+
+#### Q48. What would you change in this code to make it execute in parallel?
+
+```
+ val myNums = (1 to 500).toList
+ list.map(_ + 1)
+```
+
+- [x] Change **list.map** to **list.par.map.**
+- [ ] Change **toList** to **toListPar**
+- [ ] Change **val** to **val.par**
+- [ ] Change **toList** to **toParallelList**
+
+#### Q49. What is a free variable?
+
+- [x] a variable defined outside a function
+- [ ] a variable referenced in a function that is not assigned a value by that function
+- [ ] a variable that has a global scope
+- [ ] a variable defined in a class and available to all methods in that class
+
+#### Q50. What is the difference between .equals() and == ?
+
+- [x] **==** is wrapper of **.equals()** and checks for Nulls
+- [ ] They do the exact same thing.
+- [ ] == cannot be applied to String.
+- [ ] == won't work on objects
+
+#### Q51. What's the best way to execute code in the background in a separate thread?
+
+- [ ] AltThread
+- [ ] AltFuture
+- [ ] AltProcess
+- [x] Future

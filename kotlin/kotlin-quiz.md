@@ -735,3 +735,54 @@ fun main() {
 - [ ] Delegates.cancellable()
 - [ ] Delegates.observer()
 - [ ] Delegates.watcher()
+
+#### Q62. Which line of code shows how to call a Fibonacci function, bypass the first three elements, grab the next six, and sort the elements in descending order?
+
+- [ ] val sorted = fibonacci().skip(3).take(6).sortedDescending().toList()
+- [ ] val sorted = fibonacci().skip(3).take(6).sortedByDescending().toList()
+- [ ] val sorted = fibonacci().skip(3).limit(6).sortedByDescending().toList()
+- [ ] val sorted = fibonacci().drop(3).take(6).sortedDescending().toList()
+
+#### Q63. You have two arrays, a and b. Which line combines a and b as a list containing the contents of both?
+
+```val a = arrayOf(1, 2, 3)
+val b = arrayOf(100, 200, 3000)
+```
+
+- [ ] val c = list of (a, b)
+- [ ] val c = a + b
+- [ ] val c = listOf(a+b)
+- [ ] val c = listOf(*a, *b)
+
+#### Q64. This code is occasionally throwing a null pointer exception (NPE). How can you change the code so it never throws as NPE?
+
+```println("length of First Name = ${firstName!!.length}")
+```
+
+- [ ] Replace !!. with ?..
+- [ ] Replace !!. with ?:.
+- [ ] Surround the line with a try/catch block.
+- [ ] Replace !!. with ?.let.
+
+#### Q65. What is the execution order of init blocks and properties during initialization?
+
+- [ ] All of the properties are executed in order of appearance, and then the init blocks are executed.
+- [ ] The init blocks and properties are executed in the same order they appear in the code.
+- [ ] All of the init blocks are executed in order of appearance, and then the properties are executed.
+- [ ] The order of execution is not guaranteed, so code should be written accordingly.
+
+#### Q66. Both const and @JvmField create constants. What can @JvmField do that const cannot?
+
+```
+class Styles {
+  companion object {
+    const val COLOR = "Blue"
+      @JvmField val SIZE = "Really big"
+   }
+}
+```
+
+- [ ] const works only with strings and primitives. @JvmField does not have that restriction.
+- [ ] @JvmField works as a top-level variable, but const works only in a class.
+- [ ] @JvmField is compatible with Java, but const is not.
+- [ ] @JvmField is always inlined for faster code.

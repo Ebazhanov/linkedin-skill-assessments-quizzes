@@ -567,7 +567,8 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] UPC: "043875"
 - [ ] "UPC": 043875
 - [ ] UPC: '043875'
-      **NONE OF THESE ARE CORRECT A CORRECT ANSWER WOULD LOOK LIKE `"UPC": "043875"`**
+
+**NONE OF THESE ARE CORRECT A CORRECT ANSWER WOULD LOOK LIKE `"UPC": "043875"`**
 
 #### Q44. Which data format is a JSON schema written in?
 
@@ -772,14 +773,14 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 #### Q69. What is the purpose of JSON?
 
-- [ ] to provide a simple way to serialize and deserialize data between different sources
+- [x] to provide a simple way to serialize and deserialize data between different sources
 - [ ] to provide a way to store data for machine learning
 - [ ] to provide an archival solution for data warehousing
 - [ ] to provide a way for JavaScript to run other languages
 
 #### Q70. Can you assume the order of keys in an object?
 
-- [ ] No, but you can sort the keys with `JSON.sort()`.
+- [x] No, but you can sort the keys with `JSON.sort()`.
 - [ ] Yes, object keys are always ordered alphabetically.
 - [ ] Yes, but only when the object is first parsed.
 - [ ] No, you can never assume object keys will be in order.
@@ -789,13 +790,13 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] `*`
 - [ ] `#`
 - [ ] `^`
-- [ ] `"`
+- [x] `"`
 
 #### Q72. What is the maximum number of key/value pairs that JSON supports?
 
 - [ ] 10,000
 - [ ] 1000
-- [ ] There is no defined limit.There is no defined limit.
+- [x] There is no defined limit.
 - [ ] 1 million
 
 #### Q73. What is the recommended term used to refer to multiple resources?
@@ -818,3 +819,24 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] dash and comma
 - [ ] comma and exclamation point
 - [ ] dot and comma
+
+#### Q76. What JavaScript method is used to load JSON data?
+
+- [ ] JSON.ingest()
+- [ ] JSON.convert()
+- [ ] JSON.read()
+- [x] JSON.parse()
+
+#### Q77. How are the values in an array separated?
+
+- [ ] with right arrows
+- [ ] with colons
+- [ ] with semicolons
+- [x] with commas
+
+#### Q78. What is the minimum number of values in an array?
+
+- [x] zero
+- [ ] one
+- [ ] two
+- [ ] three

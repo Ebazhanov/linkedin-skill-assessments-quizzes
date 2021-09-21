@@ -342,3 +342,57 @@ StopDate-StartDate
 - [ ] time difference of one day
 - [x] time difference of two days
 - [ ] error in x-y: nonnumeric argument to binary operator
+
+#### Q34. What does the expression `mtrx * mtrx` do ?
+
+```
+> mtrx <- matrix( c(3,5,8,4), nrow= 2,ncol=2,byrow=TRUE)
+> newmat <- mtrx * mtrx
+```
+
+- [ ] it transpose **mtrx**
+- [ ] it premultiplies the current **netwmat** row by the **newmat** column.
+- [x] it returns the results of a matrix multiplication
+- [ ] It squares each cell in **mtrx**
+
+#### Q35. Which function in R combines differents values into a single object?
+
+- [ ] connect()
+- [ ] concat()
+- [ ] contact()
+- [x] c()
+
+#### Q36. Which file contains settings that R uses for all users of a given installation of R?
+
+- [ ] Rdefaults.site
+- [ ] Renviron.site
+- [x] Rprofile.site
+- [ ] Rstatus.site
+
+#### Q36. If **mdf** is a data frame, which statement is true ?
+
+- [x] **ncol(mdf)** equals **length(mdf)**.
+- [ ] The number of rows must equals the number of columns.
+- [ ] The legnth of any column in **mdf** may differ from any other column in **mdf**
+- [ ] All columns must have the same data type.
+
+#### Q37. A list can contain a list as an element. **MyList** has five columns, and the third column's item is a list of three items. How do you put all seven values in **MyList** into a single vector?
+
+- [ ] vector(MyList, length = 7)
+- [ ] coerce(MyList, nrows = 1)
+- [x] unlist(MyList)
+- [ ] coerce(MyList, nrows = 7)
+
+#### Q38. Which strings could be returned by the function ls(path = "^V")?
+
+- [ ] ANOVAData, anovadata
+- [x] VisitPCA, VarX
+- [ ] VisitPCA, varx
+- [ ] Xvar, Yvar
+
+#### Q39. Which strings could be returned by the function ls(path = "^V")?
+
+- [ ] ANOVAData, anovadata
+- [x] VisitPCA, VarX
+- [ ] VisitPCA, varx
+- [ ] Xvar, Yvar

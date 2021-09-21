@@ -181,14 +181,17 @@
 - [ ] `client-only`
 - [ ] `restricted`
 - [x] `private`
-      [reference](https://www.digitalocean.com/community/tutorials/web-caching-basics-terminology-http-headers-and-caching-strategies)
+ 
+[reference](https://www.digitalocean.com/community/tutorials/web-caching-basics-terminology-http-headers-and-caching-strategies)
 
 #### Q25. Which OAuth grant type can support a refresh token?
 
-- [ ] `Authorization Code Grant`
-- [x] `Client Credentials Grant`
+- [x] `Authorization Code Grant`
+- [ ] `Client Credentials Grant`
 - [ ] `Implicit Grant`
 - [ ] `Authentication Grant`
+
+[Reference:](https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.3)
 
 #### Q26. Using OAuth, what scope would you request for write access to the API?
 
@@ -251,7 +254,7 @@
 - [ ] Java, Javascript, and .NET
 - [ ] and you can support
 - [ ] PHP, Python, and Go
-- [ ] the languages that your target users use
+- [x] the languages that your target users use
 
 #### Q35. Which property would you use to include references to other resources in a JSON document?
 
@@ -411,3 +414,10 @@
 - [ ] /companies/{companyId}/employee/{employeeId}
 
 **Explanation:** [Resource Naming](https://restfulapi.net/resource-naming/)
+
+#### Q56. Which REST constraint essentially prohibits the use of cookies?
+
+- [x] Stateless
+- [ ] Cacheable
+- [ ] Layered System
+- [ ] Uniform Interface

@@ -110,7 +110,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 
 #### Q16. Which of the following is NOT a Node repl command?
 
-- [ ] .brake
+- [ ] .break
 - [x] .history
 - [ ] .editor
 - [ ] .save
@@ -473,7 +473,23 @@ console.log(person);
 - [ ] `{}`
 - [ ] `Jane`
 
-#### Q62. Is it possible to write tests in Node.js without an external library?
+#### Q62. What will this code log to the console?
+
+```
+// File: person.js
+exports = "John";
+
+// File: index.js
+const person = require('./person.js');
+console.log(person);
+```
+
+- [ ] `John`
+- [ ] `Undefined`
+- [ ] `{'John'}`
+- [x] `{}`
+
+#### Q63. Is it possible to write tests in Node.js without an external library?
 
 - [x] yes, through the assert module
 - [ ] yes, through the debugger module
@@ -482,7 +498,7 @@ console.log(person);
 
 **From the article:** [Making a Testing Framework in Node.js (Without any External Libraries)](https://www.sohamkamani.com/blog/javascript/making-a-node-js-test-runner/)
 
-#### Q63. Which assert module method is usually used to test the error-first argument in callbacks?
+#### Q64. Which assert module method is usually used to test the error-first argument in callbacks?
 
 - [ ] fail
 - [ ] doesNotThrow

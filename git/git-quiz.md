@@ -60,6 +60,7 @@ git merge --squash HEAD@{1}
 - [ ] The last 5 git versions you've installed
 
 #### Q7. Looking at the following commands, describe what is happening.
+#### Q7. Describe what is happening given these commands:
 
 ```bash
 git checkout feature-user-location

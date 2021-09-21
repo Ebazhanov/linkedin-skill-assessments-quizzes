@@ -781,6 +781,8 @@ def calculate_sales_tax(subtotal):
 - [x] You would get a RuntimeError: maximum recursion depth exceeded.
 - [ ] The function using recursion would return None.
 
+[explanation](https://www.python-course.eu/python3_recursive_functions.php#Definition-of-Recursion)
+
 #### Q62. What is the runtime complexity of searching for an item in a binary search tree?
 
 - [ ] The runtime for searching in a binary search tree is O(1) because each node acts as a key, similar to a dictionary.
@@ -788,12 +790,16 @@ def calculate_sales_tax(subtotal):
 - [x] The runtime for searching in a binary search tree is generally O(h), where h is the height of the tree.
 - [ ] The runtime for searching in a binary search tree is O(n) because every node in the tree must be visited.
 
+[explanation](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
+
 #### Q63. Why would you use `mixin`?
 
 - [ ] You use a `mixin` to force a function to accept an argument at runtime even if the argument wasn't included in the function's definition.
 - [ ] You use a `mixin` to allow a decorator to accept keyword arguments.
 - [ ] You use a `mixin` to make sure that a class's attributes and methods don't interfere with global variables and functions.
 - [x] If you have many classes that all need to have the same functionality, you'd use a `mixin` to define that functionality.
+
+[explanation](https://www.youtube.com/watch?v=zVFLBfqV-q0)
 
 #### Q64. What is the runtime complexity of adding an item to a stack and removing an item from a stack?
 
@@ -822,6 +828,8 @@ def calculate_sales_tax(subtotal):
 - [ ] The `with` keyword acts like a `for` loop, and lets you access each line in the file one by one.
 - [ ] There is no benefit to using the `with` keyword for opening a file in Python.
 - [x] When you open a file using the `with` keyword in Python, Python will make sure the file gets closed, even if an exception or error is thrown.
+
+[explanation](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
 
 #### Q68. Why would you use a virtual environment?
 
@@ -1054,3 +1062,53 @@ def __init__(attr1, attr2):
 ```
 
 **Explanation**: When instantiating a new object from a given class, the `__init__()` method will take both `attr1` and `attr2`, and set its values to their corresponding object attribute, that's why the need of using `self.attr1 = attr1` instead of `attr1 = attr1`.
+
+
+#### Q86. What would this recursive function print if it is called with no parameters?
+
+```python
+def count_recursive(n=1):
+    if n > 3:
+        return
+    print(n)
+
+count_recursive(n + 1)
+```
+
+- [ ]
+
+```python
+1
+1
+2
+2
+3
+3
+```
+
+- [ ]
+
+```python
+3
+2
+1
+```
+
+- [ ]
+
+```python
+3
+3
+2
+2
+1
+1
+```
+
+- [x]
+
+```python
+1
+2
+3
+```

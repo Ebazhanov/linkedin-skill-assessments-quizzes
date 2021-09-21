@@ -381,9 +381,9 @@
 #### Q55. Which file in the MongoDB directly holds the MongoDB daemon?
 
 - [ ] mongodb
-- [ ] mongo-daemon
+- [x] mongo-daemon
 - [ ] daemon
-- [ ] mongod
+- [x] mongod
 
 #### Q56. You have just secured your previously unsecured MongoDB server, but the server is still not requiring authentication. What is the best option?
 
@@ -394,10 +394,10 @@
 
 #### Q57. What is the most accurate statement regarding MongoDB and ad hoc queries?
 
-- [ ] MongoDB does not allow ad hoc queries; all queries require an index.
+- [x] MongoDB does not allow ad hoc queries; all queries require an index.
 - [ ] Ad hoc queries are allowed only in the paid version.
 - [ ] Ad hoc queries are allowed only through the ad hoc command.
-- [ ] MongoDB allows ad hoc queries.
+- [x] MongoDB allows ad hoc queries.
 
 #### Q58. In MongoDB, what does a projection do?
 
@@ -424,7 +424,7 @@
 
 - [ ] `Use db.collection.set({$_id:pretty})`
 - [ ] `Create a second index`
-- [ ] `Use db.collection.format(numeric)`
+- [x] `Use db.collection.format(numeric)`
 - [ ] `Use $_id = value`
 
 #### Q62. What happens to a Replica set oplog if it runs out of memory?
