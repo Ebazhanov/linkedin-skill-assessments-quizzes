@@ -371,3 +371,12 @@
 - [ ] when you want to increase the number of apps that are compatible with your library, and decrease the .NET API surface area your library can access
 - [ ] when you want to decrease speed but have more features
 - [ ] when you want to increase compilation speed and have fewer features
+
+#### Q52. Why would the .NET Framework use Normal-JIT (Just-in-Time)?
+
+- [ ] to compile complete source code into native code in a single compilation cycle during deployment of the application
+- [ ] to compile only the methods that are called at runtime and remove them from memory after execution
+- [ ] to compile only the methods that are called at runtime and them store them in cache for one minute
+- [x] to compile only methods called at runtime – which are compiled the first time the methods are called and then stored in a cache to be used for execution when the same methods are called again
+
+**Explanation**: [JIT (Just-In-Time) Compiler](https://www.c-sharpcorner.com/UploadFile/nipuntomar/jit-just-in-time-compiler/)
