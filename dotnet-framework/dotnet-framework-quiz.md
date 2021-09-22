@@ -398,3 +398,18 @@
 - [x] host an ASP.NET Code app inside of the IIS workes process, called the in-process hosting model, or forward web requests to a backend ASP.NET Core app running the Kestrel server, called the out-of-process hosting model
 
 **Explanation**: [ASP.NET Core Module](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-5.0)
+
+#### Q55. In the code below, what is the difference between RenderPartial and RenderAction?
+
+```cs
+@{
+  Html.RenderAction("Add");
+  Html.RenderPartial("Add");
+}
+```
+
+- [ ] RenderPartial will call an action method of the current controller and render a result inline. RenderAction will render the specified view inline without calling any action method.
+- [ ] RenderAction will call an action method of the current model and render a result inline. RenderPartial will render the specified view inline without calling any action method.
+- [ ] RenderAction will call an action method of the current controller and render a result inline. RenderPartial will render the specified view inline without calling any action method.
+- [ ] RenderPartial will call an action method of the current model and render a result inline. RenderAction will render the specified view inline without calling any action method.
+
