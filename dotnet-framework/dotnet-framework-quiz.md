@@ -380,3 +380,12 @@
 - [x] to compile only methods called at runtime – which are compiled the first time the methods are called and then stored in a cache to be used for execution when the same methods are called again
 
 **Explanation**: [JIT (Just-In-Time) Compiler](https://www.c-sharpcorner.com/UploadFile/nipuntomar/jit-just-in-time-compiler/)
+
+#### Q53. What is .NET?
+
+- [ ] .NET is a general-purpose programming language. The language has expanded significantly over time, and now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation.
+- [ ] .NET is a virtual machine that enables a computer to run programs written in several languages and compile programs to bytecode.
+- [ ] .NET is an interpreted, high-level, general-purpose programming language. Its language constructs an object-oriented approach aimed at helping programmers write clear, logical code for small and large-scale projects.
+- [x] .NET is a free, cross-platform, open-source developer platform for building many different types of applications with multiple languages, editors, and libraries for web, mobile, desktop, gaming, and IoT.
+
+**Explanation**: [What is .NET?](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet)
