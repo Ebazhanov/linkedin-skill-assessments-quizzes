@@ -389,3 +389,12 @@
 - [x] .NET is a free, cross-platform, open-source developer platform for building many different types of applications with multiple languages, editors, and libraries for web, mobile, desktop, gaming, and IoT.
 
 **Explanation**: [What is .NET?](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet)
+
+#### Q54. The ASP.NET Core Module is a native IIS module that plugs into the IIS pipeline to either ______.
+
+- [ ] host an ASP.NET Code app inside of the IIS worker process, called the out-of-process hosting model, or forward web requests to a backend ASP.NET Core app running the Kesrel server, called the in-process hosting model
+- [ ] create IIS code the server needs in a file with the extension required, or run the IIS server in a mode compatible for ASP.NET Core
+- [ ] package up your C# application and C# packages into .NET modules, or specify which of its packages should be visible to other .NET modules
+- [x] host an ASP.NET Code app inside of the IIS workes process, called the in-process hosting model, or forward web requests to a backend ASP.NET Core app running the Kestrel server, called the out-of-process hosting model
+
+**Explanation**: [ASP.NET Core Module](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-5.0)
