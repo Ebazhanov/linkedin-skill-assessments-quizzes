@@ -557,3 +557,12 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] Subscriber
 
 **Explanation**: [Summary of Roles](https://wordpress.org/support/article/roles-and-capabilities/#summary-of-roles)
+
+#### Q67. When should you edit core WordPress files?
+
+- [ ] when there is no plugin available to make a customization you need
+- [ ] when you need to add a custom page template
+- [ ] when you need to add a custom script to the header or footer of every page in a site
+- [x] You should never edit WordPress core.
+
+**Explanation**: It is not recommended to change WordPress core files other than wp-config.php. [Editing Files Offline](https://wordpress.org/support/article/editing-files/#editing-files-offline)
