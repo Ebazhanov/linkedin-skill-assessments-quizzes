@@ -421,3 +421,12 @@
 - [ ] Software entities should be open for extension, but closed for modification. 
 
 **Explanation**: [Liskov substitution principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
+
+#### Q57. What method do you use to explicitly kill a user's session?
+
+- [ ] Session.Timeout()
+- [x] Session.Abandon()
+- [ ] Session.KillAll()
+- [ ] Session.Remove()
+
+**Explanation**: [Session.Abandon Method](https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524310(v=vs.90))
