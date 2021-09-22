@@ -548,3 +548,12 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] infinite scroll
 - [ ] skip links
 - [ ] tabbed navigation
+
+#### Q66. What user role would you assign to someone so they can write and publish only their posts and no one else's?
+
+- [ ] Contributor
+- [x] Author
+- [ ] Editor
+- [ ] Subscriber
+
+**Explanation**: [Summary of Roles](https://wordpress.org/support/article/roles-and-capabilities/#summary-of-roles)
