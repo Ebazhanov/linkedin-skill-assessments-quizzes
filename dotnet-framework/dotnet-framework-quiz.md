@@ -430,3 +430,13 @@
 - [ ] Session.Remove()
 
 **Explanation**: [Session.Abandon Method](https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524310(v=vs.90))
+
+#### Q58 Which choice best describes the difference between globalization and localization?
+
+- [ ] Localization enables the .NET runtime to provide services to managed code so language compilers can emit metadata and references in your code. Globalization reverses this process.
+- [ ] Globalization enables the .NET runtime to provide services to managed code so language compilers can emit metadata and references in your code. Localization reverses this process.
+- [ ] Localization involves designing and developing a world-ready app that supports localized interfaces and regional data for users in multiple cultures. Globalization is the process of translating an application's resources into versions for each culture that the application will support.
+- [x] Globalization involves designing and developing a world-ready app that supports localized interfaces and regional data for users in multiple cultures. Localization is the process of translating an application's resources into versions for each culture that the application will support.
+
+**Explanation**: [Globalize and localize .NET applications](https://docs.microsoft.com/en-us/dotnet/core/extensions/globalization-and-localization)
+
