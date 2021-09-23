@@ -882,7 +882,7 @@ const foo = {
 - [ ] Functions cannot be declared as properties of objects.
 - [x] Nothing, there are no errors.
 
-#### Q82. What wil be logged to the console?
+#### Q82. What will be logged to the console?
 
 ```js
 console.log('I');
