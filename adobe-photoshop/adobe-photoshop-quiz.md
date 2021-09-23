@@ -425,7 +425,7 @@
 
 #### Q54. The option bar, which is normally above the canvas, is not visible. Where would you go to reopen it?
 
-- [ ] View > Show > Show Extra Options
+- [x] View > Show > Show Extra Options
 - [ ] Window > Tool Presets
 - [ ] Window > Options
 - [ ] Edit > Toolbar
