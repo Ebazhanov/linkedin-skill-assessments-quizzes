@@ -954,15 +954,14 @@ const foo = {
 
 ```js
 function makeAdder(x) {
-    return function (y) {
-        return x + y;
-    }
+  return function (y) {
+    return x + y;
+  };
 }
 
 var addFive = makeAdder(5);
 console.log(addFive(3));
 ```
-
 
 - [ ] overloading
 - [ ] closure
@@ -971,19 +970,18 @@ console.log(addFive(3));
 
 #### Q88. Which tag pair is used in HTML to embed JavaScript?
 
-- [ ] ```<script></script>```
-- [ ] ```<js></js>```
-- [ ] ```<javascript></javascript>```
-- [x] ```<code></code>```
+- [ ] `<script></script>`
+- [ ] `<js></js>`
+- [ ] `<javascript></javascript>`
+- [x] `<code></code>`
 
 #### Q87. What would be the result in the console of running this code?
 
 ```js
 for (var i = 0; i < 5; i++) {
-    console.log(i);
+  console.log(i);
 }
 ```
-
 
 - [x] 0 1 2 3 4
 - [ ] 0 1 2 3 4 5

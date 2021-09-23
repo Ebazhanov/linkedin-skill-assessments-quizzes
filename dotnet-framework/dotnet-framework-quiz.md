@@ -390,7 +390,7 @@
 
 **Explanation**: [What is .NET?](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet)
 
-#### Q54. The ASP.NET Core Module is a native IIS module that plugs into the IIS pipeline to either ______.
+#### Q54. The ASP.NET Core Module is a native IIS module that plugs into the IIS pipeline to either **\_**.
 
 - [ ] host an ASP.NET Code app inside of the IIS worker process, called the out-of-process hosting model, or forward web requests to a backend ASP.NET Core app running the Kesrel server, called the in-process hosting model
 - [ ] create IIS code the server needs in a file with the extension required, or run the IIS server in a mode compatible for ASP.NET Core
@@ -418,7 +418,7 @@
 - [ ] Many client-specific interfaces are better than one general-purpose interface.
 - [x] Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
 - [ ] A class should have only a single responsibility — that is, only changes to one part of the software's specification should be able to affect the specification of the class.
-- [ ] Software entities should be open for extension, but closed for modification. 
+- [ ] Software entities should be open for extension, but closed for modification.
 
 **Explanation**: [Liskov substitution principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
 
@@ -429,7 +429,7 @@
 - [ ] Session.KillAll()
 - [ ] Session.Remove()
 
-**Explanation**: [Session.Abandon Method](https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524310(v=vs.90))
+**Explanation**: [Session.Abandon Method](<https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524310(v=vs.90)>)
 
 #### Q58 Which choice best describes the difference between globalization and localization?
 
@@ -439,4 +439,3 @@
 - [x] Globalization involves designing and developing a world-ready app that supports localized interfaces and regional data for users in multiple cultures. Localization is the process of translating an application's resources into versions for each culture that the application will support.
 
 **Explanation**: [Globalize and localize .NET applications](https://docs.microsoft.com/en-us/dotnet/core/extensions/globalization-and-localization)
-

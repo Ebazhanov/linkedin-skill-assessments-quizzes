@@ -1063,7 +1063,6 @@ def __init__(attr1, attr2):
 
 **Explanation**: When instantiating a new object from a given class, the `__init__()` method will take both `attr1` and `attr2`, and set its values to their corresponding object attribute, that's why the need of using `self.attr1 = attr1` instead of `attr1 = attr1`.
 
-
 #### Q86. What would this recursive function print if it is called with no parameters?
 
 ```python

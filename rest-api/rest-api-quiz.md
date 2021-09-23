@@ -181,7 +181,7 @@
 - [ ] `client-only`
 - [ ] `restricted`
 - [x] `private`
- 
+
 [reference](https://www.digitalocean.com/community/tutorials/web-caching-basics-terminology-http-headers-and-caching-strategies)
 
 #### Q25. Which OAuth grant type can support a refresh token?

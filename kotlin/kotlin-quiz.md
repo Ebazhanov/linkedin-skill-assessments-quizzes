@@ -757,6 +757,7 @@ val b = arrayOf(100, 200, 3000)
 #### Q64. This code is occasionally throwing a null pointer exception (NPE). How can you change the code so it never throws as NPE?
 
 ```println("length of First Name = ${firstName!!.length}")
+
 ```
 
 - [ ] Replace !!. with ?..

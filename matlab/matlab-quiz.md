@@ -898,7 +898,7 @@ a =
 
 #### Q56. You've just plotted some data and want to change the color behind the lines you've plotted to black. Which code block will accomplish this?
 
-- [ ] `h_f = figure;  set(h_f,'Color', [0 0 0]);`
-- [x] `h_a = gca;     set(h_a,'Color', [0 0 0]);`
-- [ ] `h_a = axes;    set(h_a,'Color', [0 0 0]);`
-- [ ] `h_f = gcf;     set(h_a,'Color', [0 0 0]);`
+- [ ] `h_f = figure; set(h_f,'Color', [0 0 0]);`
+- [x] `h_a = gca; set(h_a,'Color', [0 0 0]);`
+- [ ] `h_a = axes; set(h_a,'Color', [0 0 0]);`
+- [ ] `h_f = gcf; set(h_a,'Color', [0 0 0]);`

@@ -693,13 +693,12 @@ aws ecs create-service \
 - [ ] Application Load Balencer has to be configured to retain the source IP address of the traffic it is forwarding. Create a policy that enables ProxyProtocol support and attach it to the ALB using the AWS CLI.
 - [ ] Configure the web server EC2 instances to only have private IP addresses. The public IP addresses of the instances are being recorded into the web server logs, bug only ALB should have a public interface and it will route traffic to instances via the private interface.
 
-#### Q76. What is *not* a default user of a common Linux instance launched from an AMI?
+#### Q76. What is `not` a default user of a common Linux instance launched from an AMI?
 
 - [ ] ubuntu
 - [ ] system-user
 - [ ] ec2-user
 - [ ] admin
-
 
 #### Q77. You have replicated the infrastructure that serves the backend API for your web application across regions to better serve your customers in the US and the EU. What is the best way to direct your web application at the nearest data center?
 

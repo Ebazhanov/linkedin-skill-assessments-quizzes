@@ -91,6 +91,7 @@
 ![Sample text](images/ss-2.png?raw=true)
 
 - [ ] A
+
 ```html
 <details>
   <summary>Parmesan Deviled Eggs</summary>
@@ -110,6 +111,7 @@
 ```
 
 - [x] C
+
 ```html
 <details open>
   <summary>Parmesan Deviled Eggs</summary>
@@ -1368,12 +1370,12 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<svg>` produces raster graphics, while `<canvas>` produces vector graphics.
 - [ ] `<svg>` cannot be used as a background image, while `<canvas>` can be used as a background
 
-#### Q86. What is the difference between the *readonly* and *disabled* attributes for the ```<textarea>``` element?
+#### Q86. What is the difference between the _readonly_ and _disabled_ attributes for the `<textarea>` element?
 
-- [ ] *readonly* allows clicking in the ```<textarea>``` element. *disabled* prevents all interaction with the control.
-- [ ] *readonly* is invalid attribute for ```<textarea>```, while *disabled* is a valid attribute.
-- [ ] *disabled* allows clicking in the ```<textarea>``` element. *readonly* prevents all interaction with the control.
-- [ ] *disabled* is invalid attribute for ```<textarea>```, while *readonly* is a valid attribute.
+- [ ] _readonly_ allows clicking in the `<textarea>` element. _disabled_ prevents all interaction with the control.
+- [ ] _readonly_ is invalid attribute for `<textarea>`, while _disabled_ is a valid attribute.
+- [ ] _disabled_ allows clicking in the `<textarea>` element. _readonly_ prevents all interaction with the control.
+- [ ] _disabled_ is invalid attribute for `<textarea>`, while _readonly_ is a valid attribute.
 
 #### Q87. In this code, what is _target_?
 
