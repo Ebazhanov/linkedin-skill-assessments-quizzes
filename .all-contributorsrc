@@ -5341,6 +5341,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "ehudbehar",
+      "name": "ehudbehar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25829515?v=4",
+      "profile": "https://github.com/ehudbehar",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
