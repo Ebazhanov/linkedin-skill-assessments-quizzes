@@ -81,7 +81,7 @@ https://docs.unity3d.com/2019.3/Documentation/Manual/BestPracticeMakingBelievabl
 
 - [ ] How the camera renders UI objects on top of the scene
 - [ ] How the camera renders transparent objects by default
-- [ ] How the camera renders its background on each frame
+- [x] How the camera renders its background on each frame
 - [ ] How the camera occludes background objects
 
 #### Q12. What is the OnAnimatorMove event on MonoBehaviour objects commonly used for?
@@ -89,14 +89,14 @@ https://docs.unity3d.com/2019.3/Documentation/Manual/BestPracticeMakingBelievabl
 - [ ] Detecting when an object moves
 - [ ] Updating a navigation agent in response to keyframe data
 - [ ] Replaying an animation when it has completed
-- [ ] Modifying the root motion of an animated object
+- [x] Modifying the root motion of an animated object
 
 #### Q13. Which MonoBehaviour method runs by default in Editor mode?
 
 - [ ] OnBecameInvisible
 - [ ] OnAnimatorMove
 - [ ] Reset
-- [ ] OnTriggerEnter
+- [x] OnTriggerEnter
 
 #### Q14. For the OnTriggerEnter function to invoke successfully on a collision between two objects, at least one must have which two components?
 
@@ -201,7 +201,7 @@ https://docs.unity3d.com/ScriptReference/SpaceAttribute.html
 
 - [ ] Sprites that are non animated
 - [ ] Sprites that appear together in game
-- [ ] Sprites using the same color palette
+- [x] Sprites using the same color palette
 - [ ] Sprites of the same dimensions
 
 #### Q28. You are making a game where you need to execute your own functions in response to critical animation events for a rigged character. Specifically, there are two events you must handle: when an animation state is entered and when it is exited in the Animator graph. Which class may be used to invoke your code when those two events happen?
