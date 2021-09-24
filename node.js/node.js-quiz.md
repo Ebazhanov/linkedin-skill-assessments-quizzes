@@ -110,7 +110,7 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 
 #### Q16. Which of the following is NOT a Node repl command?
 
-- [ ] .brake
+- [ ] .break
 - [x] .history
 - [ ] .editor
 - [ ] .save

@@ -2,7 +2,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-538-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-552-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -16,7 +16,7 @@ add explanation (`or reference link`) to your answers. That will help anyone to 
 
 if you want to meet each other or discuss quiz related problems join the `Discord` chat
 
-[![Join our Discord server!](https://invidget.switchblade.xyz/9wbjmHTgDa?theme=light)](https://discord.gg/9wbjmHTgDa)
+[![Join our Discord server!](https://invidget.switchblade.xyz/p6wZ82w8Qj?theme=light)](https://discord.gg/p6wZ82w8Qj)
 
 ### Table of Contents
 
@@ -796,6 +796,24 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://www.akarshagrawal.com"><img src="https://avatars.githubusercontent.com/u/23052143?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Akarsh Agrawal</b></sub></a><br /><a href="#design-akarshagrawal" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=akarshagrawal" title="Code">💻</a></td>
     <td align="center"><a href="https://mitramirshafiee.ir/"><img src="https://avatars.githubusercontent.com/u/53291220?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mitra Mirshafiee</b></sub></a><br /><a href="#design-mitramir55" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=mitramir55" title="Code">💻</a></td>
     <td align="center"><a href="https://links.parkercs.tech"><img src="https://avatars.githubusercontent.com/u/12587967?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Parker Stephens</b></sub></a><br /><a href="#design-parker-stephens" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=parker-stephens" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/alrenee99"><img src="https://avatars.githubusercontent.com/u/90872255?v=4?s=100" width="100px;" alt=""/><br /><sub><b>alrenee99</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=alrenee99" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/karuissobusy"><img src="https://avatars.githubusercontent.com/u/8011686?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Karthick Vankayala</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=karuissobusy" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/IrynaTsymbaliuk"><img src="https://avatars.githubusercontent.com/u/42023359?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Iryna </b></sub></a><br /><a href="#design-IrynaTsymbaliuk" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=IrynaTsymbaliuk" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/palanugrah"><img src="https://avatars.githubusercontent.com/u/39839393?v=4?s=100" width="100px;" alt=""/><br /><sub><b>palanugrah</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=palanugrah" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Gwinbleind"><img src="https://avatars.githubusercontent.com/u/52351166?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gwinbleind</b></sub></a><br /><a href="#design-Gwinbleind" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Gwinbleind" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Sevitte"><img src="https://avatars.githubusercontent.com/u/25014302?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Randy Bobandy</b></sub></a><br /><a href="#design-Sevitte" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Sevitte" title="Code">💻</a></td>
+    <td align="center"><a href="http://www.bekroz.com"><img src="https://avatars.githubusercontent.com/u/77227784?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bek Rozikoff</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=bekrozikoff" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/david-nguyen-2790aa140/"><img src="https://avatars.githubusercontent.com/u/54002653?v=4?s=100" width="100px;" alt=""/><br /><sub><b>davnguye</b></sub></a><br /><a href="#design-davnguye" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=davnguye" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Neel301"><img src="https://avatars.githubusercontent.com/u/57136375?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Neel Patel</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Neel301" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ehudbehar"><img src="https://avatars.githubusercontent.com/u/25829515?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ehudbehar</b></sub></a><br /><a href="#design-ehudbehar" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ehudbehar" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/nicholas-cod3r"><img src="https://avatars.githubusercontent.com/u/90457217?v=4?s=100" width="100px;" alt=""/><br /><sub><b>nicholas-cod3r</b></sub></a><br /><a href="#design-nicholas-cod3r" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=nicholas-cod3r" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/michaelfranki"><img src="https://avatars.githubusercontent.com/u/90117951?v=4?s=100" width="100px;" alt=""/><br /><sub><b>michaelfranki</b></sub></a><br /><a href="#design-michaelfranki" title="Design">🎨</a></td>
+    <td align="center"><a href="https://esteewhite.com"><img src="https://avatars.githubusercontent.com/u/64324417?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Esther White</b></sub></a><br /><a href="#design-esteecodes" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=esteecodes" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/prathmeshpb"><img src="https://avatars.githubusercontent.com/u/67878397?v=4?s=100" width="100px;" alt=""/><br /><sub><b>prathmeshpb</b></sub></a><br /><a href="#design-prathmeshpb" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=prathmeshpb" title="Code">💻</a></td>
   </tr>
 </table>
 

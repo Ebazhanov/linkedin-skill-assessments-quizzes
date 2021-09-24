@@ -1181,10 +1181,10 @@ grid-template-columns: 2fr 1ffr;
 
 #### Q93. Which choice is not a valid transition?
 
-- [x] `transition: margin 1000ms ease-in-out;transition: margin 1000ms ease-in-out;`
-- [ ] `transition: color 1.3s ease-in;transition: color 1.3s ease-in;`
-- [ ] `transition: position 400ms linear;transition: position 400ms linear;`
-- [ ] `transition: opacity 1s ease-in;transition: opacity 1s ease-in;`
+- [x] `transition: margin 1000ms ease-in-out;`
+- [ ] `transition: color 1.3s ease-in;`
+- [ ] `transition: position 400ms linear;`
+- [ ] `transition: opacity 1s ease-in;`
 
 #### Q94. In this example, what color will the paragraphs be and why? In this example, what color will the paragraphs be and why?
 

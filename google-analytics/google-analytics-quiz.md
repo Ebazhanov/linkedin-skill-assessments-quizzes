@@ -256,9 +256,9 @@
 #### Q36. What is a best practice after launching a major change to your home page?
 
 - [ ] Create a new filter.
-- [ ] Create an annotation.
+- [x] Create an annotation.
 - [ ] Create a new view.
-- [x] Create a new property.
+- [ ] Create a new property.
 
 #### Q37. You want to enable a destination goal for a URL that appends query string parameters with each submission—for example, `/thanks?uid=123`. Which match types would work?
 

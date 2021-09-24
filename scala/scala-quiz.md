@@ -190,7 +190,7 @@ def main () {
 
 - [ ] singletons
 - [ ] stationary objects
-- [ ] functional objects
+- [x] functional objects
 - [ ] fixed objects
 
 **Note:** singletons may have mutable state
