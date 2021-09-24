@@ -1128,19 +1128,23 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
 
 #### Q66. What would be the correct declaration of a default constructor for a class named Sprite?
 
-- [ ] 
+- [ ]
+
 ```public:
        Sprite();
 ```
+
 - [ ]
+
 ```private:
        void Sprite();
 ```
+
 - [ ] 
-``public:
-       void Sprite();
+```public:
+      void Sprite();
 ```
-- [ ] 
+- [ ]
 ```private:
        Sprite();
 ```
