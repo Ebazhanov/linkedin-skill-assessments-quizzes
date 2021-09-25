@@ -391,6 +391,7 @@ class X {
     return 42;
   }
 }
+var x = new X();
 ```
 
 - [ ] x.get('Y')
