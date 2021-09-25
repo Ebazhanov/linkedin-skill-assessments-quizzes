@@ -1140,11 +1140,14 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
        void Sprite();
 ```
 
-- [ ] 
+- [ ]
+
 ```public:
       void Sprite();
 ```
+
 - [ ]
+
 ```private:
        Sprite();
 ```

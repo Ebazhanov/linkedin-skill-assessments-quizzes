@@ -452,6 +452,7 @@ let diff = function (x, y) {
 - [x] False
 
 #### Q39. What is the name of a function whose execution can be suspended and resumed at a later point?
+
 #### Q39. What type of function can have its execution suspended and then resumed at a later point?
 
 - [x] Generator function
@@ -894,6 +895,7 @@ console.log('Javascript!');
 ```
 
 - [x]
+
 ```
 I
 Javascript!
@@ -901,6 +903,7 @@ love
 ```
 
 - [ ]
+
 ```
 love
 I
@@ -910,6 +913,7 @@ Javascript!
 - [ ] The output may change with each execution of code and cannot be determined.
 
 - [ ]
+
 ```
 I
 love
@@ -1014,14 +1018,16 @@ seconds.type = 'fruit';
 **Explanation:** https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
 #### Q91. What will be logged to the console?
+
 ```js
-"use strict";
+'use strict';
 function logThis() {
-  this.desc = "logger";
+  this.desc = 'logger';
   console.log(this);
 }
 new logThis();
 ```
+
 - [ ] window
 - [ ] undefined
 - [ ] function

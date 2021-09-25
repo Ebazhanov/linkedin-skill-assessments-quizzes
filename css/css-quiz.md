@@ -1234,7 +1234,7 @@ border-width: 1px;
 border-line: solid;
 border-color: red;
 
-#### Q96. Pseudo-classes are used to _____.
+#### Q96. Pseudo-classes are used to **\_**.
 
 - [x] style the state of the selected element
 - [ ] insert presentational content
