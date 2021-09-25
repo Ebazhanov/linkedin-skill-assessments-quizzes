@@ -1033,3 +1033,12 @@ new logThis();
 - [ ] undefined
 - [ ] function
 - [x] {desc: "logger"}
+
+#### Q92. Which statement is applicable to the defer attribute af the HTML <script> tag?
+
+- [ ] defer causes the script ta be loaded from the backup content delivery network (CDN).
+- [x] defer allows the browser ta continue processing the page while the script loads in the background.
+- [ ] defer blacks the browser from processing HTML below the tag until the script is completely loaded.
+- [ ] defer lazy loads the script, causing it to download only when it is called by another script on the page.
+
+**Explanation:** If the defer attribute is set, it specifies that the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing. [HTML <script> defer Attribute](https://www.w3schools.com/tags/att_script_defer.asp)
