@@ -1137,6 +1137,9 @@ np.ones([1,2,3,4,5])
 - [ ] Add the path to the file to the PYTHONPATH environment variable
 
 #### Q90. what will this command return?
+```python
+{x for x in range(100) if x%3 == 0}
+```
 - [x] a set of all the multiples of 3 less then 100
 - [ ] a set of all the number from 0 to 100 multiplied by 3
 - [ ] a list of all the multiples of 3 less then 100
