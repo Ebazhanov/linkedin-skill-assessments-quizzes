@@ -840,10 +840,12 @@ def calculate_sales_tax(subtotal):
 
 #### Q69. What is the correct way to run all the doctests in a given file from the command line?
 
-- [ ] python3 -m doctest <_filename_>
-- [x] python3 <_filename_>
+- [x] python3 -m doctest <_filename_>
+- [ ] python3 <_filename_>
 - [ ] python3 <_filename_> rundoctests
 - [ ] python3 doctest
+
+[Reference](https://youtu.be/P8qm0VAbbww?t=193)
 
 #### Q70. What is a lambda function ?
 
@@ -1111,3 +1113,17 @@ count_recursive(n + 1)
 2
 3
 ```
+
+#### Q87. What will this code fragment return?
+```python
+import numpy as np
+np.ones([1,2,3,4,5])
+```
+- [ ] It returns five diffrent square matrices filled with ones. The first is 1x1, the second 2x2, and so on to 5x5.
+- [ ] It returns a 5x5 matrix; each row will have the values 1,2,3,4,5.
+- [ ] It returns an array with the values 1,2,3,4,5.
+- [x] It returns a 5-dimensional array of size 1x2x3x4x5 filled with 1s.
+
+[Reference](https://www.geeksforgeeks.org/numpy-ones-python/)
+
+
