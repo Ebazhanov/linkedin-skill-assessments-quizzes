@@ -1111,3 +1111,53 @@ count_recursive(n + 1)
 2
 3
 ```
+#### Q87. In Python, when using sets, you use ___ to calculate the intersection between two sets and ___ to calculate the union.
+- [ ] `Intersect;union`
+- [ ] |; &
+- [x] &; |
+- [ ] &&; ||
+
+#### Q88. What will this code fragment return?
+
+```python
+import numpy as np
+np.ones([1,2,3,4,5])
+```
+- [ ] It returns a 5x5 matric; each row will have the values 1,2,3,4,5.
+- [ ] It returns an array with the values 1,2,3,4,5
+- [ ] It returns five different square matrices filled with ones. The first is 1x1, the second 2x2, and so on to 5x5
+- [x] It returns a 5-dimensional array of size 1x2x3x4x5 filled with 1s.
+
+[Reference](https://www.geeksforgeeks.org/numpy-ones-python/)
+
+#### Q89. You encounter a FileNotFoundException while using just the filename in the `open` function. What might be the easiest solution?
+- [ ] Make sure the file is on the system PATH
+- [ ] Create a symbolic link to allow better access to the file
+- [x] Copy the file to the same directory as where the script is running from
+- [ ] Add the path to the file to the PYTHONPATH environment variable
+
+#### Q90. what will this command return?
+```python
+{x for x in range(100) if x%3 == 0}
+```
+- [x] a set of all the multiples of 3 less then 100
+- [ ] a set of all the number from 0 to 100 multiplied by 3
+- [ ] a list of all the multiples of 3 less then 100
+- [ ] a set of all the multiples of 3 less then 100 excluding 0
+
+#### Q91. What does the // operator in Python 3 allow you to do?
+- [x] Perform integer division
+- [ ] Perform operations on exponents
+- [ ] Find the remainder of a division operation
+- [ ] Perform floating point division
+
+#### Q92. This code provides the ___ of the list of numbers
+```python
+num_list =[21,13,19,3,11,5,18]
+num_list.sort()
+num_list[len(num_list)//2]
+```
+- [ ] mean
+- [ ] mode
+- [x] median
+- [ ] average
