@@ -1,9 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-553-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-554-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -815,6 +813,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://esteewhite.com"><img src="https://avatars.githubusercontent.com/u/64324417?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Esther White</b></sub></a><br /><a href="#design-esteecodes" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=esteecodes" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/prathmeshpb"><img src="https://avatars.githubusercontent.com/u/67878397?v=4?s=100" width="100px;" alt=""/><br /><sub><b>prathmeshpb</b></sub></a><br /><a href="#design-prathmeshpb" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=prathmeshpb" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/victorwlin"><img src="https://avatars.githubusercontent.com/u/57220247?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Victor Lin</b></sub></a><br /><a href="#design-victorwlin" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=victorwlin" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/ChristineCYin"><img src="https://avatars.githubusercontent.com/u/28497315?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christine C. Yin</b></sub></a><br /><a href="#design-ChristineCYin" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ChristineCYin" title="Code">💻</a></td>
   </tr>
 </table>
 
