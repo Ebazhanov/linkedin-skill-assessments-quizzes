@@ -974,10 +974,10 @@ console.log(addFive(3));
 
 #### Q87. Which tag pair is used in HTML to embed JavaScript?
 
-- [ ] `<script></script>`
+- [x] `<script></script>`
 - [ ] `<js></js>`
 - [ ] `<javascript></javascript>`
-- [x] `<code></code>`
+- [ ] `<code></code>`
 
 #### Q88. What would be the result in the console of running this code?
 
