@@ -104,3 +104,73 @@
 - [x] a violation of assignment of responsibility
 - [ ] a violation of segregation of duties
 - [ ] a support process to avoid fraud
+
+#### Q16. A firm has $1,000 in debt and $3,000 in assets. What is the firm's debt-to-equity ratio?
+
+- [ ] 3
+- [ ] 2
+- [ ] 0.5
+- [x] 0.33
+
+#### Q17. An external auditor is required to be independent when performing
+
+- [ ] all attestation services
+- [ ] all professional services
+- [ ] all tax services
+- [ ] all consulting engagements
+
+#### Q18. Proper segregation of functional responsibilities calls for separation of
+
+- [ ] custody, payment, and recording
+- [ ] authorization, custody, and execution
+- [ ] authorization, custody, and recording
+- [ ] custody, execution, and payment
+
+#### Q19. What does the degree of operating leverage represent?
+
+- [ ] how much the value of capital assets will change in response to a change in sales
+- [ ] how much the operating income of a company will change in response to a change in sales
+- [ ] the valuation of assets to determine how much additional debt the company can borrow
+- [ ] how much the sales of a company will change in response to a change in operating income
+
+#### Q20. Which characteristic would concern an auditor about the risk of material misstatements arising from fraudulent financial reporting?
+
+- [ ] limited employee turnover within the accounting and finance department
+- [ ] management's disregard of regulations and regulatory authorities
+- [ ] regularly reported bank reconciliations, including deposits in transit
+- [ ] capital assets sold at a loss before being depreciated fully
+
+#### Q21. An employee who makes a sale, ships the goods, and bills the customer violates which control activity?
+
+- [ ] assignment of responsibility
+- [ ] audit verification
+- [ ] segregation of duties
+- [ ] review and reconciliation
+
+#### Q22. What trait distinguishes auditors from accountants?
+
+- [ ] The auditor can interpret accounting principles applicable to the country in which the client operates.
+- [ ] The auditor has extensive education beyond what is required for an accountant
+- [ ] The auditor can adapt to a rapidly changing profession.
+- [ ] The auditor has expertise in the gathering and interpretation of audit evidence.
+
+#### Q23. What is the purpose of an operational audit?
+
+- [ ] assessing the company's compliance with environmental laws and regulations
+- [ ] evaluating whether the organization is meeting the metrics set by management in order to achieve the goals and objectives set forth by the board of directors
+- [ ] assessing the organization's control mechanisms for overall efficiency and reliability
+- [ ] evaluating compliance with applicable laws, regulations, policies, and procedures
+
+#### Q24. Which statement is false?
+
+- [ ] The balanced scorecard aligns an organization's operational activities with its mission.
+- [ ] The balanced scorecard focuses on these four primary areas: financial, customer, internal process, and learning and growth.
+- [ ] The balanced scorecard measures, tracks, and reports on a balance of qualitative and financial data and metrics.
+- [ ] The balanced scorecard ensures the organization's profitability aligns with director compensation and dividend expectations.
+
+#### Q25. Which choice is not a component of internal control?
+
+- [ ] information and communication
+- [ ] risk mitigation
+- [ ] monitoring
+- [ ] control environment

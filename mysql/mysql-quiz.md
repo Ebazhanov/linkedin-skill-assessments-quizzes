@@ -37,7 +37,7 @@
 
 #### Q6. How can you create a stored procedure in MySQL?
 
-- [ ]
+- [ ] A
 
 ```
 1 CREATE PROCEDURE P () AS
@@ -45,7 +45,7 @@
 3 END;
 ```
 
-- [x]
+- [x] B
 
 ```
 1 CREATE PROCEDURE P ()
@@ -53,7 +53,7 @@
 3 END
 ```
 
-- [ ]
+- [ ] C
 
 ```
 1 CREATE PROCP
@@ -61,7 +61,7 @@
 3 END;
 ```
 
-- [ ]
+- [ ] D
 
 ```
 1 CREATE PROC P AS O
@@ -78,7 +78,7 @@
 
 #### Q8. Management has requested that you build an employee database. You start with the employee table. What is the correct syntax?
 
-- [ ]
+- [ ] A
 
 ```
     1 CREATE TABLE employee (
@@ -91,7 +91,7 @@
     8 );
 ```
 
-- [ ]
+- [ ] B
 
 ```
     1 CREATE TABLE employee (
@@ -104,7 +104,7 @@
     8 );
 ```
 
-- [ ]
+- [ ] C
 
 ```
     1 CREATE TABLE IF EXISTS employee (
@@ -117,7 +117,7 @@
     8 );
 ```
 
-- [x]
+- [x] D
 
 ```sql
     1 CREATE TABLE IF NOT EXISTS employee (
@@ -502,7 +502,7 @@
 3 ROWS IDENTIFIED BY `<car>`;
 ```
 
-- [ ]
+- [ ] A
 
 ```xml
 <car>
@@ -512,7 +512,7 @@
 </car>
 ```
 
-- [x]
+- [x] B
 
 ```xml
 <car name="make"> Dodge </car>
@@ -520,13 +520,13 @@
 <car name="year"> 2000 </car>
 ```
 
-- [ ]
+- [ ] C
 
 ```xml
 <car make="Ford" model="Mustang" year="2002/>
 ```
 
-- [ ]
+- [ ] D
 
 ```xml
 <car year="2010>
@@ -610,7 +610,7 @@ Table name: customers
 | A004 | Johnson | Jack | 312-312-3120 | 1111 Chicago Avenue | Chicago | IL | 60606 |
 | A005 | Lopez | Linda | 737-777-3333 | 123 Main Street | Austin | TX | 73344 |
 
-- [ ]
+- [ ] A
 
 ```
 SELECT *
@@ -618,7 +618,7 @@ FROM customers
 WHERE address MATCH 'Street' OR 'Drive';
 ```
 
-- [ ]
+- [ ] B
 
 ```
 SELECT *
@@ -626,7 +626,7 @@ FROM customers
 WHERE MATCH(address) IN ('street, drive');
 ```
 
-- [ ]
+- [ ] C
 
 ```
 SELECT *
@@ -634,7 +634,7 @@ FROM customers
 WHERE address MATCH 'Street' OR address MATCH 'Drive';
 ```
 
-- [x]
+- [x] D
 
 ```
 SELECT *
@@ -705,7 +705,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [x] mysqladmin flush-privileges
 - [ ] mysqladmin flush-all
 
-#### Q78. Explain the security aspectof stored procedures
+#### Q78. Explain the security aspect of stored procedures
 
 - [ ] Stored procedures are not secure, because they can be executed from the command line as the root user
 - [ ] Stored procedures are secure, because the owner of the stored procedure can decide to whom access is granted
@@ -714,7 +714,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 #### Q79. Management has requested that you build an employee database. You start with the employee table. What is the correct syntax?
 
-- [ ]
+- [ ] A
 
 ```sql
 1 CREATE TABLE employee (
@@ -727,7 +727,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 8 );
 ```
 
-- [ ]
+- [ ] B
 
 ```sql
 1 CREATE TABLE IF NOT EXISTS employee (
@@ -740,7 +740,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 8 );
 ```
 
-- [x]
+- [x] C
 
 ```sql
 1 CREATE TABLE employee (
@@ -753,7 +753,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 8 );
 ```
 
-- [ ]
+- [ ] D
 
 ```sql
 1 CREATE TABLE IF EXISTS employee (
@@ -804,3 +804,12 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [ ] regular expression
 - [ ] view
 - [ ] index
+
+#### Q85. In the diagram below, the ID fields are declared as type CHAR instead of INT . Which is NOT one of the possible reasons behind that decision?
+
+![mysql picture](images/mysql_q85.png)
+
+- [ ] The ID field needs to include letters and not just numbers.
+- [ ] You can have a consistent format across all of the tables that require ID fields.
+- [ ] The ID field needs to have leading 0s, which the INT data type would truncate.
+- [x] The `CHAR(10)` data type is more efficient and space-saving.

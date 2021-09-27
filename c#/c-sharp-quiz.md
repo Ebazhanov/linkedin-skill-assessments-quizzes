@@ -630,8 +630,8 @@ public int Password
 - [x] try, catch, finally, throw
 - [ ] finally, throw, valid, invalid
 
-**Reference:** [Tutorial Point](https://www.tutorialspoint.com/csharp/csharp_exception_handling.htm#:~:text=Exceptions%20provide%20a%20way%20to,catch%2C%20finally%2C%20and%20throw.)   
-    
+**Reference:** [Tutorial Point](https://www.tutorialspoint.com/csharp/csharp_exception_handling.htm#:~:text=Exceptions%20provide%20a%20way%20to,catch%2C%20finally%2C%20and%20throw.)
+
 #### Q57. What is the main difference between the is and as operators?
 
 - [ ] The is operator checks instance types, while the as operator checks the inherited type.
@@ -639,8 +639,8 @@ public int Password
 - [ ] The as operator checks object type, while the is operator attempts to cast an object to a specific type.
 - [x] The is operator checks object type, while the as operator attempts to cast an object to a specific type.
 
-**Reference:** [Pluralsight guide](https://www.pluralsight.com/guides/csharp-is-as-operators-is-expressions) 
-    
+**Reference:** [Pluralsight guide](https://www.pluralsight.com/guides/csharp-is-as-operators-is-expressions)
+
 #### Q58. What is the difference between finally and finalize blocks?
 
 - [ ] The finally block is called during the execution of a try and catch block, while the finalize method is called after garbage collection.
@@ -649,5 +649,3 @@ public int Password
 - [ ] The finalize block is called during the execution of a try and catch block, while the finally method is called after garbage collection.
 
 **Reference:** [C-sharpcorner](https://www.c-sharpcorner.com/forums/final-finally-and-finalize)
-
-
