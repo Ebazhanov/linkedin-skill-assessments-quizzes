@@ -461,7 +461,7 @@ From docs: [A Cloud Guru's Blog](https://acloudguru.com/blog/engineering/linux-c
 - [ ] They can read files in it.
 - [ ] They can delete files in it.
 
-**Note:** Not confident about answer. If someone knows exact answer please contribute in this repository.
+**Note:** This is correct because of the keyword "directory". More info at: https://www.tutorialspoint.com/unix/unix-file-permission.htm
 
 #### Q58. What will this command print?
 
