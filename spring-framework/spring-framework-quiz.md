@@ -487,7 +487,7 @@ class TestService {}
 
 **@target(com.linkedin.annotation.Loggable)**
 
-- [ ] any join point where the target object has a @Loggable annotation
+- [X] any join point where the target object has a @Loggable annotation
 - [ ] any join point where the executing method has a @Loggable annotation
 - [ ] any method that implements Loggable
 - [ ] any method that extends Loggable
@@ -531,3 +531,24 @@ class TestConfig2 {
 - [ ] It configures a Spring application that is able to be modified on the fly during runtime through bytecode re-encoding. Also it adds an **updateContext()** method and defines a root WebServlet that must be bound to in the bootstrap process.
 - [x] It provides configuration for a web application that is read-only while running. Also, it adds a **getServletContext()** method and defines an attribute name to which the root context must be bound in the bootstrap process.
 - [ ] It provides configuration for a Spring application that is updatable on the fly during runtime through bytecode weaving. Also it adds an **updateServletContext()** method and defines a root servlet that must be bound to in the bootstrap process.
+
+#### Q56. What is Spring AOP?
+
+- [ ] Aspect-Oriented Programming allows you to define different cross-cutting aspects that isolate beans to be available only in certain environments and profiles.
+- [ ] Aspect-Oriented Programming enables you to perform profiling, which lets you develop different cross-cutting JVM performance-tuning profiles for different aspects of your applications.
+- [X] Aspect-Oriented Programming enables the modularization of cross-cutting concerns so that repeated boilerplate logic, such as logging code, does not pollute business logic.
+- [ ] Aspect-Oriented Programming enables you to persist cross-cutting data across modularized shards of your database.
+
+#### Q57. Assuming username and password authentication is in place, what method on the Authentication object can be used to obtain the username?
+
+- [X] getPrincipal
+- [ ] getUsername
+- [ ] getUser
+- [ ] getDn
+
+#### Q58. Assuming no additional configuration is provided, what is the first selection criteria Spring uses to choose a bean when autowiring a property?
+
+- [ ] none of these answers
+- [ ] bean type
+- [ ] bean size
+- [X] bean name
