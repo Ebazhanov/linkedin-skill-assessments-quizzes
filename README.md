@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-556-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-557-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -818,6 +818,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/ChristineCYin"><img src="https://avatars.githubusercontent.com/u/28497315?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christine C. Yin</b></sub></a><br /><a href="#design-ChristineCYin" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ChristineCYin" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/GitLearner-begin"><img src="https://avatars.githubusercontent.com/u/80672067?v=4?s=100" width="100px;" alt=""/><br /><sub><b>GitLearner-begin</b></sub></a><br /><a href="#design-GitLearner-begin" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=GitLearner-begin" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/karapnaran"><img src="https://avatars.githubusercontent.com/u/36893642?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mesrop Andreasyan</b></sub></a><br /><a href="#design-karapnaran" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=karapnaran" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ngarcia610"><img src="https://avatars.githubusercontent.com/u/20814563?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nathan Garcia</b></sub></a><br /><a href="#design-ngarcia610" title="Design">🎨</a></td>
   </tr>
 </table>
 
