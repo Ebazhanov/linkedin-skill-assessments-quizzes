@@ -18,10 +18,12 @@
 
 ![Q3](images/Q3.jpg)
 
-- [ ] The selected text was not formatted using the style definition.
+- [x] The selected text was not formatted using the style definition.
 - [ ] The selected text is in overset text outside the boundaries of the current frame.
 - [ ] The style has been applied to two or more paragraphs.
 - [ ] The style has been added since the master styles were created.
+
+Ref. https://helpx.adobe.com/indesign/using/paragraph-character-styles.html
 
 #### Q4. You want to ensure that an image on your page is exactly 25% of its original size. How can you determine whether the image is set to the desired size?
 
