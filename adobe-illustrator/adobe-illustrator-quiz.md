@@ -571,4 +571,4 @@ From Adobe Help Center: [Share artwork](https://helpx.adobe.com/illustrator/how-
 - [ ] Align Stroke to Outside
 
 **Explanation:**
-From Youtube Channel: [Add Adobe Illustrator answer choice](https://www.youtube.com/watch?v=UCQb-JTRIm4&t=92s)
+From Youtube Channel: [How to Round End of Path (Line) in Illustrator](https://www.youtube.com/watch?v=UCQb-JTRIm4&t=92s)
