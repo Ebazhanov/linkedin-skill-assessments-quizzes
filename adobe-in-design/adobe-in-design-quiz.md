@@ -10,7 +10,7 @@
 #### Q2. Which panel allows you to add an arrowhead to the end of a line?
 
 - [ ] Effects
-- [ ] Stroke
+- [x] Stroke
 - [ ] Transform
 - [ ] Pathfinder
 
