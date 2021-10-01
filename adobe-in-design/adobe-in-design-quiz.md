@@ -7,6 +7,8 @@
 - [ ] to change the corners of a frame from corner to rounded
 - [ ] to change the fill and stroke of a text frame
 
+Ref. https://www.agitraining.com/adobe/indesign/tutorials/text-frame-options-in-indesign?page=4#:~:text=You%20can%20have%20InDesign%20determine,choosing%20Object%20%3E%20Text%20Frame%20Options.
+
 #### Q2. Which panel allows you to add an arrowhead to the end of a line?
 
 - [ ] Effects
