@@ -2,7 +2,7 @@
 
 #### Q1. What is one reason to click Object > Text Frame Options?
 
-- [ ] to change the number of columns in a text frame
+- [x] to change the number of columns in a text frame
 - [ ] to apply a drop shadow to the frame
 - [ ] to change the corners of a frame from corner to rounded
 - [ ] to change the fill and stroke of a text frame
