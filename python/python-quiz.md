@@ -20,7 +20,7 @@
 ```python
 if any([True, False, False, False]) == True:
     print('Yes, there is True')
->>>Yes, there is True
+>>> Yes, there is True
  ```
 
 #### Q3. What data structure does a binary tree degenerate to if it isn't balanced properly?
@@ -324,7 +324,14 @@ Also see Question 85 for the same question with different answers.
 - [ ] It converts a complex value type into simpler value types.
 - [ ] It creates a mapping between two different elements of different iterables.
 
-
+**Explanation:** -  The synax for `map()` function is `list(map(function,iterable)`. the simple area finder using map would be like this
+```python
+import math
+radius = [1,2,3]
+area = list(map(lambda x: round(math.pi*(x**2), 2), radius))
+area
+>>> [3.14, 12.57, 28.27]
+```
 
 #### Q25. If you don't explicitly return a value from a function, what happens?
 
@@ -443,6 +450,16 @@ return output
 - [ ] The `all()` function returns True if all the items in the list can be converted to strings. Otherwise, it returns False.
 - [ ] The `all()` function will return all the values in the list.
 - [x] The `all()` function returns True if all items in the list evaluate to True. Otherwise, it returns False.
+
+**Explaination** - `all()` returns true if all in the list are True, see example below
+```python
+test = [True,False,False,False]
+if all(test) is True:
+    print('Yeah all are True')
+else:
+    print('There is an imposter')
+>>> There is an imposter
+```
 
 #### Q33. What is the correct syntax for calling an instance method on a class named Game?
 
@@ -607,6 +624,8 @@ def sum(a, b):
     return a + b
 ```
 
+**Explanation:** Use """ to start and end the docstring and use >>> to represent the output. If you write this correctly you can also run the doctest using build-in doctest module
+
 #### Q40. Suppose a Game class inherits from two parent classes: BoardGame and LogicGame. Which statement is true about the methods of an object instantiated from the Game class?
 
 - [ ] When instantiating an object, the object doesn't inherit any of the parent class's methods.
@@ -620,6 +639,15 @@ def sum(a, b):
 - [ ] a generic object class with non-iterable named fields
 - [ ] a tuple subclass with non-iterable parameter fields
 - [x] a tuple subclass with iterable named fields
+
+**Example**
+```python
+import math
+radius = [1,2,3]
+area = list(map(lambda x: round(math.pi*(x**2), 2), radius))
+area
+>>> [3.14, 12.57, 28.27]
+```
 
 #### Q42. What symbol(s) do you use to assess equality between two elements?
 
@@ -652,12 +680,24 @@ fruit_info = {
 - [x] `True`
 - [ ] `None`
 
+**Explanation** - ` != ` is equivalent to **not equal to** in python
+
 #### Q45. What does a class's `init()` method do?
 
 - [ ] The `__init__` method makes classes aware of each other if more than one class is defined in a single code file.
 - [ ] The`__init__` method is included to preserve backwards compatibility from Python 3 to Python 2, but no longer needs to be used in Python 3.
 - [x] The `__init__` method is a constructor method that is called automatically whenever a new object is created from a class. It sets the initial state of a new object.
 - [ ] The `__init__` method initializes any imports you may have included at the top of your file.
+
+**Example:**
+```python
+class test:
+    def __init__(self):
+        print('I came here without your permission lol')
+        pass
+t1 = test()
+>>> 'I came here without your permission lol'
+```
 
 #### Q46. What is meant by the phrase "space complexity"?
 
@@ -689,6 +729,8 @@ fruit_info = {
 - [ ] `self` means that no other arguments are required to be passed into the method.
 - [x] `self` refers to the instance whose method was called.
 
+**Explanation:** - Try running the example of the Q45 without passing `self` argument inside the `__init__`, you'll understand the reason. You'll get the error like this `__init__() takes 0 positional arguments but 1 was given`, this means that something is going inside even if haven't specified, which is instance itself.
+
 #### Q50. What statement about the class methods is true?
 
 - [ ] A class method is a regular function that belongs to a class, but it must return None.
@@ -710,7 +752,7 @@ fruit_info = {
 - [ ] `func getMaxNum(list_of_nums): # body of function goes here`
 - [x] `def get_max_num(list_of_nums): # body of function goes here`
 
-[explanation](https://www.python.org/dev/peps/pep-0008/)
+[explanation for 52 & 53](https://www.python.org/dev/peps/pep-0008/)
 
 #### Q53. According to the PEP 8 coding style guidelines, how should constant values be named in Python?
 
@@ -725,6 +767,8 @@ fruit_info = {
 - [ ] A deque adds items to either or both sides, but only removes items from the top.
 - [x] A deque adds items at either or both ends, and remove items at either or both ends.
 - [ ] A deque adds items only to the top, but remove from either or both sides.
+
+**Explanation** - `deque` is used to create block chanin and in that there is *first in first out* approch, which means the last element to enter will be the first to leave.
 
 #### Q55. What is the correct syntax for creating a variable that is bound to a set?
 
@@ -855,6 +899,8 @@ def calculate_sales_tax(subtotal):
 - [x] a stacks adds items to the top and removes items from the top.
 - [ ] a stacks adds items to the top and removes items from anywhere in the stack.
 - [ ] a stacks adds items to either end and removes items from either end.
+
+**Explanation** Stack uses the *first in first out* approach
 
 #### Q66. What is a base case in a recursive function?
 
@@ -1070,6 +1116,14 @@ Updated version of Question 14.
 - [x] when you want some code to continue running as long as some condition is true
 - [ ] when you need to run two or more chunks of code at once within the same file
 
+**Simple Example**
+```python
+i = 1
+while i<6:
+    print('Countdown:',i)
+    i = i + 1
+```
+
 #### Q85. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?
 
 - [ ]
@@ -1183,6 +1237,8 @@ np.ones([1,2,3,4,5])
 - [x] Copy the file to the same directory as where the script is running from
 - [ ] Add the path to the file to the PYTHONPATH environment variable
 
+**Explanation** - `FileNotFoundException` occurs when python doesn't know where the file is or it isn't in the working directory. 
+
 #### Q90. what will this command return?
 
 ```python
@@ -1213,4 +1269,6 @@ num_list[len(num_list)//2]
 - [ ] mode
 - [x] median
 - [ ] average
+
+**Explanation** - median is simple the middle value of the list, and to get the middle value we have to parse the index of that number. `sort` will sort the list values in ascending order then we get the index of median by dividing the length of the list by 2. Index must be an integer therefore we used `//`. 
 
