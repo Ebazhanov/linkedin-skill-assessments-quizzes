@@ -44,9 +44,9 @@
 - [ ] data sink
 
 
-#### Q6. Packet sniffer is also called ______.
+#### Q6. Which option tests code while it is in operation?
 
-- [ ] SIEM
-- [ ] UTM
-- [x] protocol analyzer
-- [ ] data sink
+- [ ] code review
+- [ ] code analysis
+- [ ] static analysis
+- [x] dynamic analysis
