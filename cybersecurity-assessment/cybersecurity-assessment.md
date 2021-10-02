@@ -73,3 +73,17 @@
 - [ ] next generation firewall
 - [x] cloud access security broker (CASB)
 - [ ] intrusion detection system (IDS)
+
+#### Q10. Which option describes the best defense against collusion?
+
+- [ ] monitoring of normal employee system and data access patterns
+- [ ] applying system and application updates regularly
+- [ ] fault tolerant infrastructure and data redundancy
+- [ ] separation of duties and job rotation
+
+#### Q11. During a penetration test, you find a file containing hashed passwords for the system you are attempting to breach. Which type of attack is most likely to succeed in accessing the hashed passwords in a reasonable amount of time?
+
+- [ ] rainbow table attack
+- [ ] pass-the-hash attack
+- [ ] password spray attack
+- [x] brute force attack
