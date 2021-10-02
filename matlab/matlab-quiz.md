@@ -7,7 +7,7 @@
 - [ ] binomial
 - [x] uniform
 
-#### Q2. Based on the code below, c is the `\_` of a.
+#### Q2. Based on the code below, c is the \_ of a.
 
 ```
 a = rand(1, 11);
@@ -793,3 +793,182 @@ a = a^2;
 - [ ] 8
 - [ ] 17
 - [x] 9
+
+#### Q51.What is a difference between global variable and persistent variables?
+
+- [ ] Global variables have a higher performance overhead than persistent variables.
+- [ ] Global variables remain in memory after clear all; persistent variables do not.
+- [ ] Global variables can be used to cache data in memory; persistent variables cannot.
+- [x] Global variables are accessible outside the function scope; persistent variables are not.
+
+#### Q52. How is the random seed for MATLAB's random number generator first initializedin a MATLAB Session?
+
+- [ ] Seed is undefined until it is initialized by the user.
+- [ ] Seed is set to a value based on the current time when user first calls rand()
+- [ ] Seed is set to a value based on the current time on startup.
+- [x] Seed is set to a static default value on startup.
+
+[Reference](https://ch.mathworks.com/help/matlab/math/why-do-random-numbers-repeat-after-startup.html)
+
+#### Q53. At what will MATLAB look first for a called function?
+
+- [ ] functions on the path
+- [ ] built-in functions
+- [ ] functions within the current file
+- [ ] functions within the current directory
+
+#### Q54. Which choice is the correct syntax for declaring a function that returns the input value as the output?
+
+- [ ]
+
+```
+function mystery_func(a) :
+    return a
+```
+
+- [x]
+
+```
+function b = mystery_func(a)
+    b = a;
+end
+```
+
+- [ ]
+
+```
+def b = mystery_func(a)
+    b = a;
+end
+```
+
+- [ ]
+
+```
+function mystery_func(a)
+    b = a;
+    return b;
+end
+```
+
+[Reference](https://mathworks.com/help/matlab/ref/function.html)
+
+#### Q55. What is the state of a at the end of this code?
+
+```
+a = [1 2; 3 4];
+b = a(:,2);
+c = b + 3;
+a(1:2,1) = c;
+```
+
+```
+a =
+    6   3
+    7   4
+```
+
+- [ ]
+
+```
+a =
+    5   2
+    7   4
+```
+
+- [x]
+
+```
+a =
+    5
+    7
+```
+
+- [ ]
+
+```
+a =
+    6
+    7
+```
+
+- [ ]
+
+[Reference](https://mathworks.com/company/newsletters/articles/matrix-indexing-in-matlab.html)
+
+#### Q56. You've just plotted some data and want to change the color behind the lines you've plotted to black. Which code block will accomplish this?
+
+- [ ] `h_f = figure; set(h_f,'Color', [0 0 0]);`
+- [x] `h_a = gca; set(h_a,'Color', [0 0 0]);`
+- [ ] `h_a = axes; set(h_a,'Color', [0 0 0]);`
+- [ ] `h_f = gcf; set(h_a,'Color', [0 0 0]);`
+
+#### Q57. Which statement will return all the odd numbers from 1 to 9?
+
+- [ ] `2*[1:5]+1`
+- [x] `1:2:9`
+- [ ] `isodd(1:9)`
+- [ ] `1:odd:9`
+
+#### Q58. In MATLAB, the `imfilter` command performs a convolution operation between an image and a matrix. Suppose you have an image loaded in MATLAB into the variable `img` and you apply the following code. The original image appears slightly blurred because the convolution smoothed out the image (removed noise). Why do you think this happened?
+
+```
+h = ones(5,5)/25;
+imshow(imfilter(img,h));
+```
+
+- [ ] `h` is a Gaussian filter that adds to 1. Its intended effect is to highlight image edges.
+- [x] `h` is an averaging filter uniformly distributed that adds to 1. Its intended effect is to smooth out images (remove noise).
+- [ ] `h` is a Laplacian filter that adds up to 0. Its intended effect is to smooth out images (remove noise).
+- [ ] `imfilter` is a function that always blurs the images.
+
+#### Q59. What is the size of `b`?
+
+```
+a = [1 2 3];
+b = repmat(a,2,3);
+```
+
+- [ ] 1x3
+- [ ] 3x2
+- [ ] 2x3
+- [x] 2x9
+
+#### Q60. Which statement reverses vector `a`?
+
+```
+a = [ 1 2 3 4];
+```
+
+- [ ] reverse(a)
+- [x] a(end:- 1:1)
+- [ ] rev(a)
+- [ ] a(::-1)
+
+#### Q61. Which command will create a column vector with the values 7, 8, and 9?
+
+- [ ] `c = [7,8,9]`
+- [ ] `c = [7: 8: 9]`
+- [x] `c = [7; 8; 9]`
+- [ ] `c = [7 8 9]`
+
+#### Q62. What do you call in the **command** window to see all the variables in the workspace and their classes?
+
+- [ ] `who`
+- [ ] `vars`
+- [x] `whos`
+- [ ] `who all`
+
+#### Q63. You wrote a new function named `snap` in an m-file and when you call it, you're not getting the output you expect. You previously wrote a different function named `snap`, which you think might also be on the search path. Which command can you use to see if the old `snap` function is being called?
+
+- [x] which
+- [ ] who
+- [ ] lookfor
+- [ ] what
+
+#### Q64. What is a reason to save a MAT-file using the `-v7.3` flag?
+
+- [ ] to ensure backward compatibility
+- [ ] to avoid HDF5 overhead in MAT-file
+- [x] to include a variable greater that 2GB
+- [ ] to use compression by default

@@ -52,9 +52,9 @@
 #### Q8. Why might you use the Open Type button?
 
 - [ ] to open a file by its name
-- [ ] to search the workbench for a class to open in an editor
+- [x] to search the workbench for a class to open in an editor
 - [ ] to find a string in a text file
-- [x] to find all places where a certain type is instantiated
+- [ ] to find all places where a certain type is instantiated
 
 #### Q9. In the JUnit view, what is the value in the parentheses after a previously run unit test?
 
@@ -108,7 +108,7 @@
 #### Q16. What view, within the Team component, displays the commits related to a particular project or file?
 
 - [ ] Git Staging
-- [ ] History
+- [x] History
 - [ ] Synchronize
 - [ ] Git Repositories
 
@@ -117,39 +117,39 @@
 - [ ] a hidden .metadata folder
 - [ ] a hidden .metadata folder and projects imported into the workspace only
 - [ ] only projects imported into the workspace
-- [ ] a hidden .metadata folder and projects created in the workspace
+- [x] a hidden .metadata folder and projects created in the workspace
 
 #### Q18. What can you not do in the Variables view?
 
 - [ ] monitor variables that are outside the scope of the current stack frame
 - [ ] set a breakpoint to track a particular instance
 - [ ] inspect the values of an object's fields
-- [ ] edit the value of a variable while the debugger is running your app
+- [x] edit the value of a variable while the debugger is running your app
 
 #### Q19. What is not a method stub that Eclipse will create for you in the New JUnit Test Case window?
 
 - [ ] tearDown()
-- [ ] setUpClass()
+- [x] setUpClass()
 - [ ] tearDownAfterClass()
 - [ ] setUp()
 
 #### Q20. What does the Problems view show?
 
-- [ ] all of the answers
+- [x] all of the answers
 - [ ] warnings and errors
 - [ ] code that does not match your formatting settings
 - [ ] threads containing errors
 
 #### Q21. When switching workspaces, what is preserved?
 
-- [ ] all preferences
+- [x] all preferences
 - [ ] none of these answers
 - [ ] the current perspective
 - [ ] preferences for a language (e.g., Java)
 
 #### Q22. How can you set files to save automatically when launching an application?
 
-- [ ] Click Window (Eclipse) -> Preferences -> Run/Debug -> Launching, and then select Save required dirty editors before launching.
+- [x] Click Window (Eclipse) -> Preferences -> Run/Debug -> Launching, and then select Save required dirty editors before launching.
 - [ ] Click Window (Eclipse) -> Preferences -> Java -> Editor -> Save Actions
 - [ ] Click File -> Save All.
 - [ ] Change the project's run configuration.
@@ -167,3 +167,89 @@
 - [x] The select file is opened in the Editor in its state at the time of the revision.
 - [ ] The revision opens in a **Split Editor** window alongside the current local revision of the file.
 - [ ] A pop-up window showing details about the revision appears.
+
+#### Q25. What is the benefit of using perspectives?
+
+- [ ] to switch between preferences within a single workspace
+- [ ] to easily switch between different layouts of views in the Workbenchfor specific tasks
+- [ ] to manage the fact that some views work only in certain perspectives
+- [ ] to debug multiple applications at the same time
+
+#### Q26. When viewing an XML file in Eclipse, how can you view the file in a visual hierarchy (as opposed to code alone)?
+
+- [ ] You cannotdothisin Eclipse.
+- [ ] Select the Editor tab for the XML file and then click the Design tab at the bottom of the editor window.
+- [ ] Double-click the open tab in the Editor.
+- [ ] In the Package Explorer, right-click the file and select Open With > Desgign Editor.
+
+#### Q27. How can you viewall the commits for a single file?
+
+- [ ] Open the commit in the Git Staging view.
+- [ ] Open the commit in the Git Reflog view.
+- [ ] Double-click a commit in the History view.
+- [ ] Right-click the file in the Package Explorer and select Team > Showin History.
+
+#### Q28. In the image below, what does the circled button do?
+
+![image Q28](https://github.com/Beziu/linkedin-skill-assessments-quizzes/blob/master/eclipse/images/Eclipse-Q28.jpg)
+
+- [ ] It links the Editor and Navigator, causing the Editor to switch to the file selected in the Package Explorer and vice versa.
+- [ ] It expands Libraries when you are in the Java perspective.
+- [ ] It minimizes the left view
+- [ ] It collapses open folders in the Package Explorer view.
+
+#### Q29. Why might you create multiple debug configurations for the same project?
+
+- [ ] all of these answers
+- [ ] to debug using a different JRE
+- [ ] to customize environment variables
+- [ ] to customize arguments
+
+#### Q30. You are searching for code using the Search dialog, and no results appear. Whatis a likely cause?
+
+- [ ] all of these answers
+- [ ] The scope of the search is too narrow.
+- [ ] The type of search is not appropriate for the language of the code.
+- [ ] There is a typo in the search parameters.
+
+#### Q31. If you check out a branch in Eclipse and still see the old code, what is one possible problem?
+
+- [ ] Your project is not using source control.
+- [ ] Your internet connection is down.
+- [ ] Your Git passwordis incorrect.
+- [ ] You need to refresh your project.
+
+#### Q32. What is required to create a Git commit?
+
+- [ ] all of these answers
+- [ ] a local repository
+- [ ] staged changes
+- [ ] a commit message
+
+#### Q33. What can you do in the Eclipse Split Editor?
+
+- [ ] view the Design and Source tabs of one XML file at the same time
+- [ ] drag code from one Editor pane into another
+- [ ] split the editor either horizontally or vertically
+- [ ] all of these answers
+
+#### Q34. Why might you run the Project > Clean command?
+
+- [ ] to remedy an issue where the source code seemsaccurate, but Git is indicating a merge conflict
+- [ ] to remedy syntax errors within the source code, causing the project not to build
+- [ ] to discard any existing build state before building the project, which can remedy issues where the source code seems accurate yet fails to build
+- [ ] to recompile only the source code files that have changed since the last build, which can shorten the build time for long-running builds
+
+#### Q35. How can you terminate debugging in the Debug view?
+
+- [ ] Right-click an item in the stack trace and select Terminate/Disconnect All.
+- [ ] all of these answers
+- [ ] Right-click your application and select Terminate.
+- [ ] Right-click a thread and select Terminate and Remove.
+
+#### Q36. How do you connect to and debug a remote Java application/server?
+
+- [ ] Click Run > Debug As > Remote Application.
+- [ ] You cannot do this in Eclipse.
+- [ ] Create and run a configuration under Run > Debug Configurations > Remote Java Application.
+- [ ] Click Run > External Tools.

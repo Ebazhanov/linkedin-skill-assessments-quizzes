@@ -73,10 +73,10 @@
 
 `accountNum: '000605802'`
 
-- [x] "accountNum": "00060504"
-- [ ] accountNum: "00060504"
-- [ ] "accountNum": 00060504
-- [ ] accountNum: 00060504
+- [x] "accountNum": "000605802"
+- [ ] accountNum: "000605802"
+- [ ] "accountNum": 000605802
+- [ ] accountNum: 000605802
 
 #### Q7. What character do you specify before a JSON control character when you want to use that control characters as a literal part of a string?
 
@@ -471,7 +471,7 @@ Explanation: Scientific Notation is a valid JSON number. You can use `e` or `E`.
 }
 ```
 
-#### Q32. When building dynamic web applications using AJAX, developers originally used the \_\_\_\_ data format, which has since been replaced by JSON.
+#### Q32. When building dynamic web applications using AJAX, developers originally used the \_ data format, which has since been replaced by JSON.
 
 - [x] XML
 - [ ] GRAPHQL
@@ -567,7 +567,8 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] UPC: "043875"
 - [ ] "UPC": 043875
 - [ ] UPC: '043875'
-      **NONE OF THESE ARE CORRECT A CORRECT ANSWER WOULD LOOK LIKE `"UPC": "043875"`**
+
+**NONE OF THESE ARE CORRECT A CORRECT ANSWER WOULD LOOK LIKE `"UPC": "043875"`**
 
 #### Q44. Which data format is a JSON schema written in?
 
@@ -748,3 +749,101 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [x] "
 - [ ] -
 - [ ] :
+
+#### Q66. Which data type is part of the JSON standard?
+
+- [ ] function
+- [ ] promise
+- [x] Boolean
+- [ ] map
+
+#### Q67. Which data type is not part of the JSON standard?
+
+- [ ] number
+- [ ] string
+- [ ] array
+- [x] date
+
+#### Q68. Which character separates keys from values?
+
+- [x] :
+- [ ] ->
+- [ ] ::
+- [ ] .
+
+#### Q69. What is the purpose of JSON?
+
+- [x] to provide a simple way to serialize and deserialize data between different sources
+- [ ] to provide a way to store data for machine learning
+- [ ] to provide an archival solution for data warehousing
+- [ ] to provide a way for JavaScript to run other languages
+
+#### Q70. Can you assume the order of keys in an object?
+
+- [x] No, but you can sort the keys with `JSON.sort()`.
+- [ ] Yes, object keys are always ordered alphabetically.
+- [ ] Yes, but only when the object is first parsed.
+- [ ] No, you can never assume object keys will be in order.
+
+#### Q71. With what character should object keys be enclosed?
+
+- [ ] `*`
+- [ ] `#`
+- [ ] `^`
+- [x] `"`
+
+#### Q72. What is the maximum number of key/value pairs that JSON supports?
+
+- [ ] 10,000
+- [ ] 1000
+- [x] There is no defined limit.
+- [ ] 1 million
+
+#### Q73. What is the recommended term used to refer to multiple resources?
+
+- [ ] a swarm
+- [x] multiple resources
+- [ ] a collection
+- [ ] a group
+
+#### Q74. Does JSON support signed numbers?
+
+- [ ] yes, but only if they are enclosed in quotes
+- [ ] only with integers
+- [x] no
+- [ ] yes
+
+#### Q75. What two nonnumerical characters can numbers contain?
+
+- [x] dash and dot
+- [ ] dash and comma
+- [ ] comma and exclamation point
+- [ ] dot and comma
+
+#### Q76. What JavaScript method is used to load JSON data?
+
+- [ ] JSON.ingest()
+- [ ] JSON.convert()
+- [ ] JSON.read()
+- [x] JSON.parse()
+
+#### Q77. How are the values in an array separated?
+
+- [ ] with right arrows
+- [ ] with colons
+- [ ] with semicolons
+- [x] with commas
+
+#### Q78. What is the minimum number of values in an array?
+
+- [x] zero
+- [ ] one
+- [ ] two
+- [ ] three
+
+#### Q79. In JSON, a set of brackets ([]) is used to denote _____, whereas curly braces ({}) denote _____.
+
+- [x] arrays; objects
+- [ ] objects; functions  
+- [ ] arrays; functions
+- [ ] key/value pairs; arrays

@@ -12,7 +12,7 @@
 - [ ] metadata
 - [ ] Image settings
 - [ ] Edit settings
-- [ ] Develop settings
+- [x] Develop settings
 
 Note: I just use synchronization. After digging into settings I was able only to discover Settings -> Copy settings.
 

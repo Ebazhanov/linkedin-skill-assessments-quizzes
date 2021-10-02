@@ -13,7 +13,8 @@
 - [x] Arrange tools
 - [ ] Design Ideas feature
 - [ ] Picture tools
-      `In MS PP 2019 it's called "Drawing Tools". There is no such answer but there is a function called "Arrange"`
+
+`In MS PP 2019 it's called "Drawing Tools". There is no such answer but there is a function called "Arrange"`
 
 #### Q3. Which option must be enabled if you want to manipulate the playback of a video file during a presentation?
 
@@ -35,7 +36,8 @@
 - [ ] the Home tab
 - [x] the Print dialog box
 - [ ] the Share tab
-      `Should be in the printer window not in the options menu`
+
+`Should be in the printer window not in the options menu`
 
 #### Q6. Which tab is best for adding various types of objects to slides?
 
@@ -96,7 +98,8 @@ E. Distance
 - [ ] Advance slides manually
 - [ ] Advance slides automatically
 - [x] Loop continuously until 'Esc'
-      `Slide Show Tab -> Set Up Slide Show -> Show options -> Loop continuously until 'Esc'`
+
+`Slide Show Tab -> Set Up Slide Show -> Show options -> Loop continuously until 'Esc'`
 
 #### Q13. Which statement about the Compress Pictures command is true?
 
@@ -132,9 +135,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] none of these answers
 - [ ] Visible
 
-```
-If hidden is selected the courser stays hidden no matter what.
-```
+`If hidden is selected the courser stays hidden no matter what.`
 
 #### Q17. Which chart type is best suited for displaying annual financial data for a 10-year period?
 
@@ -178,12 +179,9 @@ If hidden is selected the courser stays hidden no matter what.
 - [x] Remove picture compression.
 - [ ] Change the printer property settings to print in a higher resolution.
 
-```Personal Hint:
-File Tab -> Options -> Advanced -> Image Size and Quality -> Do not compress images in file
-File Tab -> Options -> Advanced -> Print -> High quality
-```
+`Personal Hint: File Tab -> Options -> Advanced -> Image Size and Quality -> Do not compress images in file File Tab -> Options -> Advanced -> Print -> High quality `
 
-#### Q23. You have inserted a video on a slide and want the video to automaaticlly start 2 seconods after the associated slide appears. How can you accomplish this?
+#### Q23. You have inserted a video on a slide and want the video to automatically start 2 seconds after the associated slide appears. How can you accomplish this?
 
 - [ ] Use playback timings.
 - [x] Use animation timings.
@@ -253,9 +251,7 @@ File Tab -> Options -> Advanced -> Print -> High quality
 - [ ] Save the file as a POTX.
 - [ ] Save the file as a PPTX.
 
-```
-Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .pot).
-```
+`Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .pot).`
 
 #### Q33. You are creating an industrial presentation of a new software program and would like to include an image of your program. How can you use PowerPoint to do this?
 
@@ -308,7 +304,7 @@ Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .po
 
 #### Q40. How can you format the entire contents of a text box?
 
-- [ ] Click the dashed/dotted border of the text box.
+- [x] Click the dashed/dotted border of the text box.
 - [ ] Right-click the text box and select Select All.
 - [ ] Click the Fond button on the Home tab.
 - [ ] Double-click any word in the text box.
@@ -322,10 +318,10 @@ Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .po
 
 #### Q42. How would you ensure a consistent appearance and placement across your slides even though the content might be different?
 
-- [x] Use fonts.
+- [ ] Use fonts.
 - [ ] Use styles.
 - [ ] Use bullet points.
-- [ ] Use layouts.
+- [x] Use layouts.
 
 #### Q43. How can you add icons to SmartArt?
 
@@ -347,3 +343,45 @@ Personal Hint: There are multiple file suffixes for templates (.potx, .potm, .po
 - [ ] Rehearse Timings
 - [x] Custom Slide Show
 - [ ] Hide Slide
+
+#### Q46. When working with a mapchart, which options can be drawn?
+
+- [ ] Postal code
+- [ ] State
+- [ ] Country
+- [x] All of these answers
+
+#### Q47. You receive feedback from two clients on your presentation. Each person sent you an edited file. What's the best way to review their changes?
+
+- [ ] Review > Accept
+- [ ] Review > Smart Lookup
+- [x] Review > Compare
+- [ ] Review > Show Comments
+
+#### Q48. How do you promote subbullets to top-level bullets?
+
+- [x] Press Shift+Tab.
+- [ ] Right-click the bulleted text and select Promote.
+- [ ] Press the Esc key.
+- [ ] Press the Spacebar.
+
+#### Q49. What is the term used for the arrangement of elements on a slide, such as Title and Content?
+
+- [ ] scheme
+- [x] layout
+- [ ] theme
+- [ ] design
+
+#### Q50. After you select the chart icon in a placeholder, what is the next step to create a chart?
+
+- [ ] Select the chart elements.
+- [ ] Select the chart type.
+- [x] Select the chart data in Excel.
+- [ ] Select the chart style.
+
+#### Q51. How would you show a correlation between the amount of chocolate a city consumes and the number of crimes committed?
+
+- [ ] Use a bar chart.
+- [ ] Use a column chart.
+- [ ] Use a line chart.
+- [ ] Use a scatter chart.

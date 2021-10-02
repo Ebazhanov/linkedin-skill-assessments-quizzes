@@ -7,7 +7,7 @@
 - [ ] `associative`
 - [ ] `linked`
 
-#### Q2. Which URL pattern s recommended when working with one resource and a collection of resources?
+#### Q2. Which URL pattern is recommended when working with one resource and a collection of resources?
 
 - [ ] `/companies/{id} and/company`
 - [ ] `/company/{id} and/companies`
@@ -35,7 +35,7 @@
 - [ ] `OPTIONS`
 - [x] `CORS`
 
-#### Q6. APIs commonly use webhooks to `**\*\*\*\***\_\_\_\_**\*\*\*\***`.
+#### Q6. APIs commonly use webhooks to **\_**.
 
 - [x] `notify other systems of an event`
 - [ ] `catch error faster`
@@ -63,12 +63,16 @@
 - [ ] `WSDL`
 - [ ] `OAuth`
 
+**Explanation:** [OpenAPI Specification](https://swagger.io/specification/)
+
 #### Q10. Which HTTP verb is normally used to update or create a resource in an API?
 
 - [ ] `SUBMIT`
 - [ ] `WRITE`
 - [x] `POST`
 - [ ] `CREATE`
+
+**Explanation:** [HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
 #### Q11. What is one benefit of server-side caching in APIs?
 
@@ -84,6 +88,8 @@
 - [ ] `406 Not Acceptable`
 - [x] `405 Method Not Allowed`
 
+**Explanation:** [Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
+
 #### Q13. What is OpenID Connect?
 
 - [x] `an identify layer on top of OAuth 2.0`
@@ -91,12 +97,16 @@
 - [ ] `a modern replacement for API keys`
 - [ ] `an SSO competitor for OAuth 2.0`
 
+**Explanation:** [What is OpenID Connect?](https://openid.net/connect/)
+
 #### Q14. What is one benefit of GraphQl over REST approaches?
 
 - [x] `flexible querying/responses`
 - [ ] `more stable APIs`
 - [ ] `compatible with more gateways`
 - [ ] `more secure by default`
+
+**Explanation:** [GraphQL vs. REST](https://www.apollographql.com/blog/graphql/basics/graphql-vs-rest/)
 
 #### Q15. Which REST constraint specifies that there should be no shared context?
 
@@ -126,7 +136,9 @@
 - [x] `A token is scoped to the use case.`
 - [ ] `A token can be shared between systems.`
 
-#### Q19. The ability to execute the same API request over and over again without changing the resource's state is an example of \_\_\_.
+**Explanation:** [How to easily secure your APIs with API keys and OAuth](https://apifriends.com/api-security/api-keys-oauth/)
+
+#### Q19. The ability to execute the same API request over and over again without changing the resource's state is an example of \_.
 
 - [ ] `stateless architecture`
 - [x] `idempotency`
@@ -154,6 +166,8 @@
 - [ ] `claim`
 - [ ] `back channel`
 
+**Explanation:** [OAuth Scopes](https://oauth.net/2/scope/)
+
 #### Q23. What additional type of token would you see when using OpenID Connect?
 
 - [x] `ID token`
@@ -167,14 +181,17 @@
 - [ ] `client-only`
 - [ ] `restricted`
 - [x] `private`
-      [reference](https://www.digitalocean.com/community/tutorials/web-caching-basics-terminology-http-headers-and-caching-strategies)
+
+[reference](https://www.digitalocean.com/community/tutorials/web-caching-basics-terminology-http-headers-and-caching-strategies)
 
 #### Q25. Which OAuth grant type can support a refresh token?
 
-- [ ] `Authorization Code Grant`
-- [x] `Client Credentials Grant`
+- [x] `Authorization Code Grant`
+- [ ] `Client Credentials Grant`
 - [ ] `Implicit Grant`
 - [ ] `Authentication Grant`
+
+[Reference:](https://datatracker.ietf.org/doc/html/rfc6749#section-4.4.3)
 
 #### Q26. Using OAuth, what scope would you request for write access to the API?
 
@@ -185,10 +202,10 @@
 
 #### Q27. Which property would you use to include subresources directly into a JSON document?
 
-- [ ] `\_embedded`
+- [ ] `_embedded`
 - [ ] `resources`
 - [x] `subresources`
-- [ ] `\_links`
+- [ ] `_links`
 
 #### Q28. What is the best way to track SDK and version usage?
 
@@ -237,14 +254,14 @@
 - [ ] Java, Javascript, and .NET
 - [ ] and you can support
 - [ ] PHP, Python, and Go
-- [ ] the languages that your target users use
+- [x] the languages that your target users use
 
 #### Q35. Which property would you use to include references to other resources in a JSON document?
 
-- [x] resources
-- [ ] \_embedded
-- [ ] subresources
-- [ ] \_links
+- [x] `resources`
+- [ ] `_embedded`
+- [ ] `subresources`
+- [ ] `_links`
 
 #### Q36. What is OAuth?
 
@@ -266,6 +283,8 @@
 - [ ] to update an API configuration
 - [ ] to keep a web session active
 - [x] to retrieve an access token
+
+**Explanation:** [Understanding Refresh Tokens](https://auth0.com/learn/refresh-tokens/)
 
 #### Q39. What is Time to First Hello World?
 
@@ -309,7 +328,7 @@
 - [x] `authorization server`
 - [ ] `resource server`
 
-#### Q45. API traffic that is entirely internal to your organisation is normally called \_\_\_\_?
+#### Q45. API traffic that is entirely internal to your organization is normally called \_?
 
 - [ ] `inbound traffic`
 - [ ] `north-south traffic `
@@ -323,12 +342,14 @@
 - [ ] `Use the Content-Type header.`
 - [x] `Use the Accept header.`
 
-#### Q47. When a user attempts to access a record that is not their own, whitch HTTP response code is the most appropriate?
+#### Q47. When a user attempts to access a record that is not their own, which HTTP response code is the most appropriate?
 
 - [ ] `403`
 - [ ] `404`
 - [x] `401`
 - [ ] `405`
+
+**Explanation:** [Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
 
 #### Q48. Which is a benefit of using an API gateway?
 
@@ -337,7 +358,7 @@
 - [ ] `HTTP response codes`
 - [x] `rate limiting/throttling`
 
-#### Q49. API testing must be treated as **\_\_**?
+#### Q49. API testing must be treated as **\_**?
 
 - [ ] `red team testing`
 - [ ] `white box testing`
@@ -358,6 +379,8 @@
 - [ ] `Expires: 1 January 2020`
 - [ ] `Cache-Expires: max-age=60`
 
+**Explanation:** [Cache Control Header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
+
 #### Q52. What is the concept that allows an API client to explore an API via links embedded in payloads?
 
 - [ ] `hypermedia`
@@ -372,6 +395,8 @@
 - [ ] `204`
 - [ ] `202`
 
+**Explanation:** [Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
+
 #### Q54. Which is an example of Code on Demand?
 
 - [ ] AWS Lambda
@@ -379,9 +404,20 @@
 - [ ] Serverless
 - [x] JavaScript on a webpage
 
+**Explanation:** [Code on Demand](https://en.wikipedia.org/wiki/Code_on_demand)
+
 #### Q55. Which URL pattern should you follow for accessing a subresource attached to a specific resource?
 
 - [ ] /companies/employees/{companyId}/{employeeId}
 - [ ] /company/{companyId}/employees/{employeeId}
 - [x] /companies/{companyId}/employees/{employeeId}
 - [ ] /companies/{companyId}/employee/{employeeId}
+
+**Explanation:** [Resource Naming](https://restfulapi.net/resource-naming/)
+
+#### Q56. Which REST constraint essentially prohibits the use of cookies?
+
+- [x] Stateless
+- [ ] Cacheable
+- [ ] Layered System
+- [ ] Uniform Interface

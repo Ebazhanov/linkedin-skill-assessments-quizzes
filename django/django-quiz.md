@@ -455,3 +455,55 @@ model=Planet
 - [ ] Less Code
 - [ ] Fast Development
 - [x] Repeat Yourself
+
+#### Q50. What is the result of this template code?
+
+```
+{{"live long and prosper"|truncate:3}}
+```
+
+- [x] live long and ...
+- [ ] live long and
+- [ ] a compilation error
+- [ ] liv
+
+#### Q51. When does this code load data into memory?
+
+```
+1 sandwiches = Sandwich.objects.filter(is_vegan=True)
+2 for sandwich in sandwiches:
+3   print(sandwich.name + " - " + sandwich.spice_level)
+```
+
+- [ ] line 1
+- [x] It depends on how many results return by query.
+- [ ] It depends on cache.
+- [ ] line 2
+
+#### Q52. You are building a web application using a React front end and a Django back end. For what will you need to provision?\*\*
+
+- [ ] an NGINX web server
+- [ ] a NoSQL database
+- [ ] a larger hard drive
+- [ ] CORS middleware
+
+#### Q53. To expose an existing model via an API endpoint, what do you need to implement?\*\*
+
+- [ ] an HTTP request
+- [ ] a JSON object
+- [ ] a query
+- [ ] a serializer
+
+#### Q54. How would you stop Django from performing database table creation or deletion operations via migrations for a particular model?\*\*
+
+- [ ] Run the `migrate` command with `--exclude=[model_name]`.
+- [ ] Move the model definition from `models.py` into its own file.
+- [ ] Set `managed=False` inside the model.
+- [ ] Don't run the `migrate` command.
+
+#### Q55. what method can you use to check if form data has changed when using a form instance?
+
+- [x] has_changed()
+- [ ] its_changed()
+- [ ] has_updated()
+- [ ] None of This

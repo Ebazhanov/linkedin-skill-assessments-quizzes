@@ -138,7 +138,7 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [ ] A Kanban does not use a Definition of Done.
 - [ ] A Kanban shows the status of the work items.
 
-[(Source)](https://www.lucidchart.com/blog/kanban-vs-scrum#:~:text=Both%20boards%20are%20used%20to,can%20be%20more%20easily%20adapted.)
+[Source https://www.lucidchart.com/blog ....](https://www.lucidchart.com/blog/kanban-vs-scrum#:~:text=Both%20boards%20are%20used%20to,can%20be%20more%20easily%20adapted.)
 
 #### Q20. The team complains that "things have been falling through the cracks lately." What should you do?
 
@@ -394,7 +394,7 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [x] the task board
 - [ ] a highly visible display of key performance data
 
-#### Q56. According to the Agile Manifesto, your highest priority is to `**\_\_**`.
+#### Q56. According to the Agile Manifesto, your highest priority is to \_.
 
 - [ ] minimize change requests
 - [x] satisfy the customer
@@ -478,7 +478,7 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [ ] Next-Sprint Planning
 - [ ] Velocity Confirmation
 
-[(Source)](https://startinfinity.com/product-management-framework/scrum-sprint/sprint-review-vs-sprint-retrospective)
+[Source https://startinfinity.com/product-management-framework/scrum-sprin ...](https://startinfinity.com/product-management-framework/scrum-sprint/sprint-review-vs-sprint-retrospective)
 
 #### Q68. Which choice best describes an Agile Release Train (ART)?
 
@@ -545,3 +545,10 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [ ] Embrace servant leadership.
 - [ ] Remove impediments
 - [x] Estimate story points.
+
+#### Q77. The team is complaining that they send request for clarification to the Product Owner, but these requests go unanswered. What action should you take?
+
+- [ ] If there is a question about story, tell the developers to use their best judgement, avoid delay, and discuss the issue in sprint review.
+- [ ] Send a note to the Product Owner saying the delays in completing the work will be their responsibility, not the team's.
+- [ ] Develop a service-level agree (SLA) that defines certain response times for different types of request and ask the Product Owner to sign off on it.
+- [x] Schedule a problem-solving session with the Product Owner and the other team members.

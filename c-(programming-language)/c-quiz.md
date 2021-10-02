@@ -1,37 +1,44 @@
 ## C (Programming Language)
 
-##### Q1. Which Code sample will eventually cause the computer to run out of memory ?
+##### Q1. Which Code sample will eventually cause the computer to run out of memory?
 
-- [x] ````c
-          while(1)
-          {
-              char *smallString = (char *) malloc(10);
-          }
-          ```
-      ````
-- [ ] ````c
-          long long number = 1;
-          while(1)
-              number *= 2;
-          ```
-      ````
-- [ ] ````c
-          while(1)
-          {
-              char hugeString[1000000L];
-              memset(hugeString, 0, 1000000L);
-          }
-          ```
-      ````
-- [ ] ````c
-          while(1)
-          {
-              long *bigArray = (long *) malloc(sizeof(long) * 1000);
-              memset(bigArray, 1000000, 1000);
-              free(bigArray);
-          }
-          ```
-      ````
+- [x]
+
+```c
+while(1)
+{
+    char *smallString = (char *) malloc(10);
+}
+```
+
+- [ ]
+
+```c
+long long number = 1;
+    while(1)
+    number *= 2;
+```
+
+- [ ]
+
+```c
+while(1)
+{
+    char hugeString[1000000L];
+    memset(hugeString, 0, 1000000L);
+}
+```
+
+- [ ]
+
+```c
+while(1)
+{
+    long *bigArray = (long *) malloc(sizeof(long) * 1000);
+    memset(bigArray, 1000000, 1000);
+    free(bigArray);
+}
+```
 
 #### Q2. What will this code print on the screen?
 
@@ -57,16 +64,29 @@ main()
 }
 ```
 
-- [x] A is greater then B
-      C is fun!
-- [ ] A is greater then B
-      B is greater then A
-      C is fun!
+- [x]
 
-- [ ] A is greater then B
-      B is greater then A
+```
+A is greater then B
+C is fun!
+```
 
-- [ ] Northing is printed on Screen
+- [ ]
+
+```
+A is greater then B
+B is greater then A
+C is fun!
+```
+
+- [ ]
+
+```
+A is greater then B
+B is greater then A
+```
+
+- [ ] Nothing is printed on Screen
 
 #### Q3. What is the name for calling a function inside the same function?
 
@@ -125,34 +145,41 @@ struct s {
 
 #### Q8. Using a for loop, how could you write a C code to count down from 10 to 1 and display each number on its own line?
 
-- [ ] ````c
-          for (int i = 0; i>=0, i--){
-              printf("%d\n", i);
-          }//end of loop
-          ```
-      ````
-- [ ] ````c
-          int i;
-          for (i=1; i<=10; i++){
-              printf("%d", i);
-          }
-          ```
-      ````
-- [ ] ````c
-          int i = 10;
-          while (i>0){
-              printf("%d\n", i);
-              i--;
-          }
-          ```
-      ````
-- [x] ````c
-          int i;
-          for (i= 10; i>0; i--){
-              printf("%d\n", i);
-          }// end of loop
-          ```
-      ````
+- [ ]
+
+```c
+for (int i = 0; i>=0, i--){
+    printf("%d\n", i);
+}//end of loop
+```
+
+- [ ]
+
+```c
+int i;
+for (i=1; i<=10; i++){
+    printf("%d", i);
+}
+```
+
+- [ ]
+
+```c
+int i = 10;
+while (i>0){
+    printf("%d\n", i);
+    i--;
+}
+```
+
+- [x]
+
+```c
+int i;
+for (i= 10; i>0; i--){
+    printf("%d\n", i);
+}// end of loop
+```
 
 #### Q9. What is not one of the reserved words in standard C?
 
@@ -203,8 +230,8 @@ main(){
 }
 ```
 
-- [ ] The value of PI needs to be set to 3.141593, not 3.14
-- [x] The declaration of PI needs to say const, not constant.
+- [x] The value of PI needs to be set to 3.141593, not 3.14
+- [ ] The declaration of PI needs to say const, not constant.
 - [ ] The data type of PI needs to be float not int.
 - [ ] The printf statement needs to use PI, not pi.
 
@@ -313,33 +340,40 @@ char *string[20] = { "one", "two", "three"};
 
 #### Q26. Which program will compile and run without errors?
 
-- [ ] ````c
-          main() {
-              for(i=0; i<10; i++) ;
-          }
-          ```
-      ````
-- [x] ````c
-          main() {
-              int i=0;
-              for(; i<10; i++) ;
-          }
-          ```
-      ````
-- [ ] ````c
-          main() {
-              int i;
-              for(i=0; i<j; i++) ;
-          }
-          ```
-      ````
-- [ ] ````c
-          main() {
-              int i;
-              for (i= 10; i<10; i++)
-          }
-          ```
-      ````
+- [ ]
+
+```c
+main() {
+    for(i=0; i<10; i++) ;
+}
+```
+
+- [x]
+
+```c
+main() {
+int i=0;
+    for(; i<10; i++) ;
+}
+```
+
+- [ ]
+
+```c
+main() {
+    int i;
+    for(i=0; i<j; i++) ;
+}
+```
+
+- [ ]
+
+```c
+main() {
+int i;
+    for (i= 10; i<10; i++)
+}
+```
 
 #### Q27. What does this function call return?
 
@@ -395,3 +429,78 @@ int main() {
 - [ ] true (1) if str1 and str2 are the same, false (0) if str1 and str2 are not the same
 - [ ] true (1) if str1 and str2 are the same, NULL if str1 and str2 are not the same
 - [ ] 0 if str1 and str2 are the same, a negative number if str2 is less than str1, a positive number if str2 is greater than str1
+
+#### Q33. What is the output of this program?
+
+```c
+int a=10, b=20;
+int f1(a) { return(a*b); }
+main() {
+printf("%d", f1(5));
+}
+```
+
+- [x] 100
+- [ ] 200
+- [ ] 5
+- [ ] 50
+
+#### Q34. Which is _not_ a correct way to declare a string variable?
+
+- [ ] `char *string = "Hello World";`
+- [x] `char string = "Hello World";`
+- [ ] `char string[20] = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd'};`
+- [ ] `char string[] = "Hello World";`
+
+#### Q35. Which choice is an include guard for the header file mylib.h?
+
+- [ ] 
+```c
+#ifdef MYLIB_H
+#undef MYLIB_H
+
+// mylib.h content
+
+#endif /* MYLIB_H */
+```
+- [ ] 
+```c
+#ifndef MYLIB_H
+#define MYLIB_H
+
+// mylib.h content
+
+#endif /* MYLIB_H */
+```
+- [ ] 
+```c
+#define MYLIB_H
+#include "mylib.h"
+
+#undef MYLIB_H
+```
+- [ ] 
+```c
+#ifdef MYLIB_H
+#define MYLIB_H
+
+// mylib.h content
+
+#endif /* MYLIB_H */
+```
+#### Q36. How many times does the code inside the while loop get executed in this program?
+```c
+main(){
+ int x=1;
+ while(x++<100){
+    x*=x;
+    if(x<10) continue;
+    if(x>50) break
+ }
+}
+```
+
+- [ ] 100
+- [ ] 3
+- [ ] 5
+- [ ] 50

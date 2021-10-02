@@ -316,7 +316,7 @@ const Heading = () => {
 - [ ] with webpack
 - [ ] with code splitting
 
-#### Q34. All React components must act like `**\_\_**` with respect to their props.
+#### Q34. All React components must act like **\_** with respect to their props.
 
 - [ ] monads
 - [x] pure functions
@@ -401,9 +401,8 @@ class clock extends React.Component {
 - [ ] Remove the render method
 - [x] Capitalize `clock`
 
-<details><summary>Explanation</summary>
-<p>In JSX, lower-case tag names are considered to be HTML tags. Read [this article](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components)</p>
-</details>
+**Explanation:** In JSX, lower-case tag names are considered to be HTML tags.
+Read [this article](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components)
 
 #### Q43. Which Hook could be used to update the document's title?
 
@@ -434,7 +433,7 @@ function MyComponent(props) {
 - [ ] `useEffect(() => { setDone(true); }, [setDone]);`
 - [ ] `useEffect(() => { setDone(true); }, [done, setDone]);`
 
-#### Q46. What value of button will allow you to pass the name of the person to be hugged?
+#### Q46. Which of the following click event handlers will allow you to pass the name of the person to be hugged?
 
 ```javascript
 class Huggable extends React.Component {
@@ -450,10 +449,10 @@ class Huggable extends React.Component {
 }
 ```
 
-- [x] `<button onClick={(name) => this.hug(name)>Hug Button</button>`
+- [ ] `<button onClick={(name) => this.hug(name)}>Hug Button</button>`
 - [ ] `<button onClick={this.hug(e, name)}>Hug Button</button>`
 - [ ] `<button onClick={(e) => hug(e, name)}>Hug Button</button>`
-- [ ] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>`
+- [x] `<button onClick={() => this.hug(name)}>Hug Button</button>`
 
 #### Q47. Currently, `handleClick` is being called instead of passed as a reference. How do you fix this?
 
@@ -656,7 +655,7 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 ```
 
 - [ ] `Button A will not have access to the event object on click of the button`
-- [ ] `Button A will not fire the handler this.handleClick successfully`
+- [x] `Button A will not fire the handler this.handleClick successfully`
 - [ ] `There is no difference`
 - [ ] `Button B will not fire the handler this.handleClick successfully`
 
@@ -679,51 +678,34 @@ useEffect(() => {
 <Route path="/:id" />
 ```
 
-- [ ] ``````````javascript
-      (
-        <Route path="/:id">
-          {' '}
-          <About />
-        </Route>
-      )```
-                              ````
-                          `````;
-      ``````;
-      ```````
-              ````````
-          `````````;
-      ``````````
-- [ ] ``````````javascript
-      (<Route path="/tid" about={Component} />)```
-                              ````
-                          `````;
-      ``````;
-      ```````
-              ````````
-          `````````;
-      ``````````
-- [ ] ``````````javascript
-      (<Route path="/:id" route={About} />)```
-                              ````
-                          `````;
-      ``````;
-      ```````
-              ````````
-          `````````;
-      ``````````
-- [ ] ``````````javascript
-      (
-        <Route>
-          <About path="/:id" />
-        </Route>
-      )```
-                              ````
-                          `````;
-      ``````;
-      ```````
-              ````````
-          `````````;
-      ``````````
+- [x] A
+
+```javascript
+<Route path="/:id">
+  {' '}
+  <About />
+</Route>
+```
+
+- [ ] B
+
+```javascript
+<Route path="/tid" about={Component} />
+```
+
+- [ ] C
+
+```javascript
+<Route path="/:id" route={About} />
+```
+
+- [ ] D
+
+```javascript
+<Route>
+  <About path="/:id" />
+</Route>
+```
 
 #### Q65. Which class-based component is equivalent to this function component?
 
@@ -731,52 +713,43 @@ useEffect(() => {
 const Greeting ({ name }) > <h1>Hello {name}!</h1>;
 ```
 
-- [ ] ``````````javascript
-      class Greeting extends React.Component {
-        constructor() {
-          return <h1>Hello (this.props.name)!</h1>;
-        }
-      }
-      ```
-                              ````
-                          `````;
-      ``````;
-      ```````
-              ````````
-          `````````;
-      ``````````
-- [ ] ``````````javascript
-                                     class Greeting extends React.Component { <h1>Hello (this.props.name}!</h1>; }
-                                  ```
-                              ````
-                          `````
-                      ``````
-                  ```````
-              ````````
-          `````````
-      ``````````
-- [ ] ``````````javascript
-                                     class Greeting extends React.Component { return <h1>Hello (this.props.name) 1</h1>; }
-                                  ```
-                              ````
-                          `````
-                      ``````
-                  ```````
-              ````````
-          `````````
-      ``````````
-- [ ] ``````````javascript
-                                      class Greeting extends React.Component ( render({ name }) {
-                                        return <h1>Hello (name)} !</h1>;
-                                      })
-                                  ```
-                              ````
-                          `````
-                      ``````
-                  ```````
-              ````````
-          `````````
-      ``````````
+- [ ] A
+
+```javascript
+class Greeting extends React.Component {
+  constructor() {
+    return <h1>Hello {this.props.name}!</h1>;
+  }
+}
+```
+
+- [ ] B
+
+```javascript
+class Greeting extends React.Component {
+  <h1>Hello {this.props.name}!</h1>;
+}
+```
+
+- [x] C
+
+```javascript
+class Greeting extends React.Component {
+  render() {
+    return <h1>Hello {this.props.name}!</h1>;
+  }
+}
+```
+
+- [ ] D
+
+```javascript
+class Greeting extends React.Component {
+  render({ name }) {
+    return <h1>Hello {name}!</h1>;
+  }
+}
+```
 
 #### Q66. Give the code below, what does the second argument that is sent to the render function describe?
 
@@ -797,7 +770,7 @@ ReactDOM.render(
 - [ ] The link component allows the user to use the browser's `Back` button.
 - [ ] There is no difference--the `Link` component is just another name for the `<a>` tag.
 - [ ] The `<a>` tag will cause an error when used in React.
-- [ ] The `<a>` tag triggers a full page reload, while the `Link` component does not.
+- [x] The `<a>` tag triggers a full page reload, while the `Link` component does not.
 
 #### Q68. What is the first argument, `x`, that is sent to the `createElement` function?
 
@@ -826,10 +799,7 @@ useEffect(() => {
 #### Q70. Given the code below, what does the second argument that is sent to the render function describe?
 
 ```javascript
-ReactDOM.render(
-  <h1>Hi</h1>,
-  document.getElementById('root')
-);
+ReactDOM.render(<h1>Hi</h1>, document.getElementById('root'));
 ```
 
 - [x] where the React element should be added to the DOM
@@ -862,3 +832,31 @@ class Comp extends React.Component {
 - [ ] Component
 
 This question might be an updated version of Q37.
+
+#### Q73. When using a portal, what is the first argument?
+
+```javascript
+ReactDOM.createPortal(x, y);
+```
+
+- [ ] the current state
+- [x] the element to render
+- [ ] the App component
+- [ ] the page
+
+**Explanation:**
+From official docs: [Portals](https://reactjs.org/docs/portals.html)
+
+#### Q74. What is `setCount`?
+
+```javascript
+const [count, setCount] = useState(0);
+```
+
+- [ ] the initial state value
+- [ ] a variable
+- [ ] a state object
+- [x] a function to update the state
+
+**Reference:**
+From official docs: [Hooks-State](https://reactjs.org/docs/hooks-state.html#:~:text=If%20we%20want%20to%20update%20the%20current)

@@ -49,7 +49,7 @@ NSInteger i = str.integerValue;
 - [ ] 1,2
 - [ ] Nothing, since this code contains an error.
 
-#### Q5. Property defaults include `**\_\_\_**`?
+#### Q5. Property defaults include \_?
 
 - [x] atomic/strong
 - [ ] atomic/weak
@@ -181,7 +181,7 @@ NSLog(@"%@", [[NSString alloc] initWithData:data encoding:NSASCIIStringEncoding]
 - [ ] It is inline.
 - [ ] This code contains an error.
 
-#### Q19. Structs can have `**\_\_\_**`?
+#### Q19. Structs can have \_?
 
 - [ ] functions
 - [ ] initializers
@@ -279,7 +279,7 @@ foo(5);
 - [ ] Sets are ordered, unique values.
 - [ ] Sets can contain nils.
 
-#### Q29. Dot notation can be used for `**\_\_\_**`?
+#### Q29. Dot notation can be used for \_?
 
 - [ ] nothing, as they're never used in Objective-C
 - [ ] function calls only

@@ -7,7 +7,7 @@
 - [ ] ls -l
 - [x] blkid
 
-#### Q2. Linux file access control lists (ACLs) are \_\_\_.
+#### Q2. Linux file access control lists (ACLs) are \_.
 
 - [x] discretionary access control system permissions layered over standard Linux permissions
 - [ ] mandatory access control system permissions layered over standard Linux permissions
@@ -89,7 +89,7 @@ ps -e --format uid,pid,ppid,%cpu,cmd
 - [ ] !\*
 - [x] !ls
 
-#### Q12. The ssh-copy-id command copies \_\_\_ to the remote host.
+#### Q12. The ssh-copy-id command copies \_ to the remote host.
 
 - [ ] both private and public keys
 - [x] the ssh public key
@@ -216,7 +216,7 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 - [x] It has the SUID permission mode and is owned by root.
 - [ ] It is a system administration command.
 
-#### Q29. When a user deletes a file using the rm command, Linux will \_\_\_.
+#### Q29. When a user deletes a file using the rm command, Linux will \_.
 
 - [ ] always ask for confirmation
 - [ ] back up the file before it deletes the file
@@ -303,8 +303,8 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 
 - [ ] resolving the local name
 - [ ] blocking sites using iptables
-- [x] setting the hostname
-- [ ] configuring DNS name servers
+- [ ] setting the hostname
+- [x] configuring DNS name servers
 
 #### Q38. In an extended regular expression, you would use (pattern){3} to match three instances of the pattern. How would you match the same thing with an extended glob?
 
@@ -327,7 +327,7 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 - [ ] pam_krb5
 - [ ] kdb5_util
 
-#### Q41. To search from the current cursor position up to the beginning of the file using VIM, type **\_\_** and then the search criteria.
+#### Q41. To search from the current cursor position up to the beginning of the file using VIM, type \_ and then the search criteria.
 
 - [x] ?
 - [ ] \
@@ -354,3 +354,168 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 - [ ] It resizes the filesystem to match the volume group size.
 - [x] It does nothing.
 - [ ] It remounts the filesystem with the new size.
+
+#### Q45. What would this sed command do?
+
+```bash
+sed -E 's/[a-Z]{4}/($)/'  textfile.txt
+```
+
+- [ ] It would substitute the letter with an ampersand (&).
+- [ ] It would replace all letters in the textfile.txt file with ampersand (&).
+- [x] It would replace the first four letters with an ampersand (&).
+- [ ] It would place parentheses around the first four letters of each line of textfile.txt.
+
+#### Q46. With GNU tools such as GNU grep, awk, and sed, what is difference between regular expressions (BREs) and extended regular expressions (EREs)?
+
+- [ ] EREs support occurrence operators.
+- [x] Only the syntax differs.
+- [ ] EREs support alternation.
+- [ ] EREs can match groups.
+
+#### Q47. Which kernel module do you need to load to use interface bonding?
+
+- [x] bonding.
+- [ ] team.
+- [ ] netbond.
+- [ ] bond.
+
+#### Q48. What does this command string do?
+
+```bash
+find / -size -10K -exec ls -l {} \;
+```
+
+- [ ] It finds all files larger than 10k and long lists them using the ls command.
+- [ ] It finds all files of size 10k using ls -l and hands them off to the find command to display.
+- [ ] It finds all files in the / directory of size 10k and long lists them.
+- [x] It finds all files in the file system smaller than 10k and long lists them using the ls command.
+
+#### Q49. To change the priority of multiple swap partitions, which file would you edit?
+
+- [ ] /proc/swapiness
+- [x] /etc/fstab
+- [ ] /etc/mounts
+- [ ] /etc/swaps
+
+#### Q50. What would you type to list all systemd service unit files, whether they are enabled or not?
+
+- [ ] systemctl list-services.
+- [ ] chkconfig --list-all
+- [x] systemctl list-unit-files -at service
+- [ ] systemctl list-unit-files -t service
+
+#### Q51. You can set Linux group passwords using which command?
+
+- [x] gpasswd
+- [ ] passwd
+- [ ] editsam
+- [ ] grouppass
+
+#### Q52. With most GNU commands, if an option is a word, what will it be preceded by?
+
+- [x] two dashes
+- [ ] a backslash
+- [ ] one dash
+- [ ] nothing
+
+#### Q53. What would happen if you have a script file named script that takes a long time to complete, and you type `nohup ./script &` in the command line?
+
+- [ ] The script will remain running in the background even if you reboot the system.
+- [ ] The script will run in your terminal and you will not be able to do anything until it completes.
+- [x] The script will run in the background until you end the session.
+- [ ] The script will run in the background and will continue running even if you end the session.
+
+#### Q54. To elevate privileges using the `sudo` command, a user must **\_**.
+
+- [ ] enter the root user's password
+- [x] enter their own password
+- [ ] enter the sudo user's password
+- [ ] change to the root group
+
+**Reference:**
+From docs: [A Cloud Guru's Blog](https://acloudguru.com/blog/engineering/linux-commands-for-beginners-sudo#:~:text=Sudo%20asks%20for%20your%20user%20password.%C2%A0%20Note%20that%20it%20is%20asking%20for%20your%20password%2C%20not%20the%20root%20password.)
+
+#### Q55. When would this system cron job run its task?
+
+`0 22 * * 1-5`
+
+- [ ] on the 22nd of every month from June to May
+- [x] at 10:00 PM Monday to Friday
+- [ ] every 22 minutes every day except weekends
+- [ ] from 1:00 AM to 5:00 AM on the 22nd of every month
+
+#### Q56. How does TCP Wrappers differ from a firewall?
+
+- [ ] Firewalls are only service specific, whereas TCP Wrappers can block all traffic.
+- [ ] TCP Wrappers works at the network layer, so it blocks traffic before the firewall even sees it.
+- [ ] Firewalls easily spawn commands to operate on connection data, whereas TCP Wrappers cannot.
+- [x] TCP Wrappers works at the application layer, so it can make access decisions on encrypted data.
+
+**Note:** TCP Wrapper works on Application Layer but answer is not too much confirmed.
+
+#### Q57. As root, you set execute permissions for user, group, and other on a directory. Now users can do what?
+
+- [ ] They can execute files in it.
+- [x] They can traverse it.
+- [ ] They can read files in it.
+- [ ] They can delete files in it.
+
+**Note:** This is correct because of the keyword "directory". More info at: https://www.tutorialspoint.com/unix/unix-file-permission.htm
+
+#### Q58. What will this command print?
+
+`echo "Thu Jun 4 15:45:45 PDT 2020" | cut -f3 -d" "`
+
+- [ ] It will print nothing.
+- [ ] Thu Jun 4 15:45:45 PDT 2020
+- [ ] 0.6567708333333333
+- [x] 4
+
+#### Q59. How can you improve this code snippet?
+
+```
+if ls /etc/passwd &> /dev/null
+then
+    echo "exists"
+fi
+```
+
+- [ ] The code snippet cannot be improved, this is a valid way of checking for the existence of a file.
+- [ ] Use Bash's built-in `[[ ]]` test conditions instead of the ls command.
+- [x] The redirect to `/dev/null` will silence the return code invalidating the conditional. Removing the redirect will solve this.
+- [ ] The ls command will output the name of the file to the screen. Running ls in quiet mode will improve the code snippet.
+
+**Note:** Not confident about answer. If someone knows the exact answer please contribute in this repository and mark correct answer.
+
+#### Q60. Using a systemd-based distribution, you want to restrict the cron service from running either automatically or manually. Which command would you run?
+
+- [ ] systemctl disable crond
+- [ ] systemctl disallow crond
+- [ ] systemctl mask crond
+- [x] systemctl stop crond
+
+**Note:** Not confident about answer. If someone knows the exact answer please contribute in this repository and mark correct answer.
+
+#### Q61. What issue might a user have when they mount a filesystem by partition path such as /dev/sdal in the /etc/fstab file?
+
+- [ ] The device order may change on boot, resulting in a system that will not boot properly.
+- [ ] The user may run out of device letters.
+- [ ] There are no issues with referring to partitions by their partition path.
+- [ ] It is more difficult identifying mounted devices by partition path.
+
+#### Q62. Which option would you choose to force grep to use a basic regular expression (BRE)?
+
+- [x] grep -E
+- [ ] grep -B
+- [ ] grep -e
+- [ ] grep -G
+
+[Reference](https://linuxize.com/post/regular-expressions-in-grep/)
+
+#### Q63. An rsyslogd filter determines which items in a log file to act on. What is it made up of?
+
+- [ ] a facility and an action
+- [ ] a filter and an action
+- [ ] a facility and a priority
+- [ ] a filter and a priority

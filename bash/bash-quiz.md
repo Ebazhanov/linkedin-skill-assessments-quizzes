@@ -87,7 +87,7 @@ awk -F: '/user1/{print $1 "-" $3 "-" $6}' /etc/passwd
 - [ ] It will cause Bash to exit if local, declare, or typeset assignments return a nonzero status code.
 - [x] It will cause Bash to exit if a command, list of commands, compound command, or potentially a pipeline returns a nonzero status code.
 
-#### Q9. The `**\_\_**` keyword pauses the script to get input from standard input.
+#### Q9. The **\_** keyword pauses the script to get input from standard input.
 
 - [ ] get
 - [ ] argument
@@ -684,3 +684,10 @@ echo "${VAR//man/rolling}"
 - [ ] This old man came rolling
 - [x] This old rolling came rolling
 - [ ] This old came
+
+#### Q57. What statement would you use to print this in the console?
+
+- [ ] `echo "Shall we play a game? yes/\no"`
+- [ ] `echo "Shall we play a game\? yes\\no"`
+- [x] `echo "Shall we play a game? yes\\no"`
+- [ ] `echo "Shall we play a game? yes\no"`

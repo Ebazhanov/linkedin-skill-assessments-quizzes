@@ -2,17 +2,21 @@
 
 #### Q1. What is one reason to click Object > Text Frame Options?
 
-- [ ] to change the number of columns in a text frame
+- [x] to change the number of columns in a text frame
 - [ ] to apply a drop shadow to the frame
 - [ ] to change the corners of a frame from corner to rounded
 - [ ] to change the fill and stroke of a text frame
 
+Ref. https://www.agitraining.com/adobe/indesign/tutorials/text-frame-options-in-indesign?page=4#:~:text=You%20can%20have%20InDesign%20determine,choosing%20Object%20%3E%20Text%20Frame%20Options.
+
 #### Q2. Which panel allows you to add an arrowhead to the end of a line?
 
 - [ ] Effects
-- [ ] Stroke
+- [x] Stroke
 - [ ] Transform
 - [ ] Pathfinder
+
+Ref. https://helpx.adobe.com/indesign/using/applying-line-stroke-settings.html#:~:text=Create%20arrows%20using%20start%20and,the%20Start%20and%20End%20menus.
 
 #### Q3. In the image shown, what do you know about the Body Text paragraph style?
 

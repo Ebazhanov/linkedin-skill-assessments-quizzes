@@ -174,7 +174,9 @@
 - [ ] when calling finish()in the parent activity
 - [ ] when placing an app into the background by sitching to another app
 - [ ] When onStop() is called in the target activity
-- [ ] when calling finish() in the target activity
+- [x] when calling finish() in the target activity
+
+[For more information](https://developer.android.com/reference/android/app/Activity)
 
 #### Q12. You need to remove an Event based on it;s id from your API, Which code snippet defines that request in Retrofit?
 
@@ -231,7 +233,7 @@
 - [ ] root.getById(R.id.text_home)
 - [x] root.findViewById(R.id.text_home)
 
-#### Q18. IF the main thread is blocked for too long, the system displays the\_\_\_dialog?
+#### Q18. IF the main thread is blocked for too long, the system displays the \_ dialog?
 
 - [ ] Thread Not Responding
 - [ ] Application Paused
@@ -771,9 +773,11 @@ xml
     }
 
 - [ ] productionDebug.
-- [ ] developmentDebug.
+- [x] developmentDebug.
 - [ ] stagingDebug.
 - [ ] stagingRelease.
+
+[Reference](https://developer.android.com/studio/build/build-variants#flavor-dimensions)
 
 #### Q49. When should you use the androidTest directory to store your test classes?
 
@@ -781,14 +785,14 @@ xml
 - [ ] when the number of tests to run is large(500+).
 - [ ] when the tests need to run on your local machine.
 - [x] when the tests need to run on real or virtual devices.
-	
-[reference](https://developer.android.com/studio/test#test_types_and_location)
+
+[Reference](https://developer.android.com/studio/test#test_types_and_location)
 
 #### Q50. Given an APK named app-internal-debug.apk produced from the build process, which statement is likely to be true?
 
 - [ ] This APK is created on a developer machine from the debug product flavor.
 - [ ] This APK is created from the internalDebug product flavor.
-- [ ] This APK created from the debug product flavor and internal build type.
+- [x] This APK created from the debug product flavor and internal build type.
 - [ ] This APK is created from the debug build type and internal product flavor.
 
 #### Q51. When attempting to build your project, what might the following error indicate?
@@ -886,3 +890,34 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [x] to make sure that the activity creates a new fragment each time it is restored from a previous state
 - [ ] to prevent the display of two fragments side by side in cases where the activity is restored from a previous state
 - [ ] to prevent the creation of overlapping fragments in cases where the activity is restored from a previous state
+
+#### Q56. Which component is not an entry point through which the system or a user can enter your app?
+
+- [ ] activity
+- [ ] content provider
+- [x] fragment
+- [ ] service
+
+#### Q57. What should you use to display a large, scrolling list of elements?
+
+- [ ] ListView
+- [x] Recycler View
+- [ ] LinearLayout
+- [ ] Scrollview
+
+
+#### Q58. You have created an AboutActivity class that displays details about your app. Which code snippet allows you to launch your activity?
+
+- [ ] Intent(this, AboutActivity::class).also { intent ->
+   startService(intent)
+}
+- [ ] Intent(this, AboutActivity::class.java).also { intent ->
+   startActivity(intent)
+}
+
+- [ ] Intent(this, AboutActivity::class).also { intent ->
+   activity(intent)
+}
+- [x] Intent(this, AboutActivity::class).also { intent ->
+   startActivity(intent)
+}

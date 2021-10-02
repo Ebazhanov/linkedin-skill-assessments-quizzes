@@ -26,11 +26,11 @@
 
 #### Q3. What daily sales number does this DAX measure formula calculate?
 
-`CALCULATE(SUM([Sales]) ,DATESHTD([Date] ))`
+`CALCULATE(SUM([Sales]) ,DATESMTD([Date] ))`
 
-- [ ] running total sales in each month that starts over each month
+- [x] running total sales in each month that starts over each month
 - [ ] total sales for the entire month
-- [x] running total in entire year for the entire month
+- [ ] running total in entire year for the entire month
 - [ ] rolling average over 12 months of sales
 
 #### Q4. You are creating a report in Power BI Desktop and want to restrict the data to records where Country="Canada". To accomplish this, what do you need to create?
@@ -130,9 +130,9 @@
     D. data sources
 
 - [ ] B,C
-- [x] A, C, D
+- [ ] A, C, D
 - [ ] C,D
-- [ ] A, B, C
+- [x] A, B, C
 
 #### Q16. You want to delete a dataset but the Power BI service will not let you. What is the most likely cause?
 
@@ -191,93 +191,84 @@
 - [ ] bookmarks
 - [ ] slicers
 
-#### Q24. What daily sales number does this DAX measure formula calculate?
-
-`CALCULATE(SUM([Sales]) ,DATESHTD([Date] ))`
-
-- [ ] running total sales in each month that starts over each month
-- [ ] total sales for the entire month
-- [ ] running total in entire year for the entire month
-- [ ] rolling average over 12 months of sales
-
-#### Q25. What should you do to increase the readability of a report?
+#### Q24. What should you do to increase the readability of a report?
 
 - [x] all of these answers
 - [ ] Remove unnecessary field labels.
 - [ ] Select the most appropriate visualization.
 - [ ] Use borders.
 
-#### Q26. Which feature in the Power BI service is most useful when you need to create pages that present the same visualizations for different territories, salespeople, or teams?
+#### Q25. Which feature in the Power BI service is most useful when you need to create pages that present the same visualizations for different territories, salespeople, or teams?
 
 - [ ] landscape mode
 - [ ] none of these answers
 - [ ] Shrink to Fit
-- [ ] templates
+- [x] templates
 
-#### Q27. What should you use to highlight a specific visualization in a report?
+#### Q26. What should you use to highlight a specific visualization in a report?
 
-- [ ] Spotlight
+- [x] Spotlight
 - [ ] Highlight
 - [ ] Magnify
 - [ ] None of the answers
 
-#### Q28. What does My Workspace on powerbi.com include?
+#### Q27. What does My Workspace on powerbi.com include?
 
 - [ ] Visualizations and a fields list
 - [ ] Toolbars and preferences
 - [ ] Workbooks and visualizations
 - [x] Dashboards and reports
 
-#### Q29. You want to access the underlying data for a specific data point in a visualization. What should you choose?
+#### Q28. You want to access the underlying data for a specific data point in a visualization. What should you choose?
 
 - [ ] Drill up
 - [ ] Drill down
-- [ ] Expand to next level
+- [x] Expand to next level
 - [ ] Collapse
 
-#### Q30. You have a treemap visualization that groups by sales territory. To allow users to further analyze data for a specific territory, what filter should you apply?
+#### Q29. You have a treemap visualization that groups by sales territory. To allow users to further analyze data for a specific territory, what filter should you apply?
 
 - [ ] Visual level
 - [ ] Page level
 - [x] Drillthrough
 - [ ] Expand down
 
-#### Q31. Facebook, Twilio, GitHub, and MailChimp are all examples of Power BI **\_**.
+#### Q30. Facebook, Twilio, GitHub, and MailChimp are all examples of Power BI **\_**.
 
 - [x] online services
 - [ ] Wiki data sources
 - [ ] database data sources
 - [ ] File data sources
 
-#### Q32. When you use Publish to Web in the Power BI service, who can view your published content?
+#### Q31. When you use Publish to Web in the Power BI service, who can view your published content?
 
 - [ ] everyone in your environment
 - [ ] anyone on the internet
 - [x] everyone in your organization
 - [ ] only you
 
-#### Q33. The iterator functions SUMX and AVERAGEX are used to perform calculations **\_**.
+#### Q32. The iterator functions SUMX and AVERAGEX are used to perform calculations **\_**.
 
 - [ ] for Power BI mobile apps
 - [ ] in Power BI service rather than Power BI desktop
 - [x] in the context of a record
 - [ ] for very large datasets
 
-#### Q34. In Power BI Desktop Model view, what type of join will yield all results from Table 1 and any matching results from Table 2?
+#### Q33. In Power BI Desktop Model view, what type of join will yield all results from Table 1 and any matching results from Table 2?
 
 - [ ] Right Outer Join
 - [ ] Left Outer Join
 - [x] Left Inner Join
 - [ ] Right Inner Join
 
-#### Q35. What is NOT a built-in Power BI visual?
+#### Q34. What is NOT a built-in Power BI visual?
 
 - [x] Power KPI
 - [ ] funnel chart
 - [ ] waterfall chart
 - [ ] ArcGIS map
 
-#### Q36. You want to combine several CSV files into a single data file after you connect a folder. What must be true about these CSV data files? (Select all that apply.)
+#### Q35. You want to combine several CSV files into a single data file after you connect a folder. What must be true about these CSV data files? (Select all that apply.)
 
 A. They must be stored in the same folder.
 B. They must have the same schema.
@@ -289,58 +280,65 @@ D. They must have no duplicate data rows.
 - [ ] A, B, D
 - [ ] B, C, D
 
-#### Q37. If you delete a dateset in the Power BI service, what happens to the dashboards and reports supported by the dataset?
+#### Q36. If you delete a dateset in the Power BI service, what happens to the dashboards and reports supported by the dataset?
 
 - [ ] They will be stored as static dashboards and reports.
 - [x] They will be deleted.
 - [ ] They will be converted to image files.
 - [ ] Nothing—they will be unchanged.
 
-#### Q38. Which DAX function compares a column of values in Table A with a similar column in Table B, and returns the values the are not found in Table B?
+#### Q37. Which DAX function compares a column of values in Table A with a similar column in Table B, and returns the values the are not found in Table B?
 
 - [ ] COMPARE
 - [ ] FINDUNIQUE
 - [x] EXCEPT
 - [ ] SWITCH
 
-#### Q39. Your data model includes two related tables, Customers and Orders. To determine the number of customers that have placed orders, create a measure on the **\_** table using the **\_** function.
+#### Q38. Your data model includes two related tables, Customers and Orders. To determine the number of customers that have placed orders, create a measure on the **\_** table using the **\_** function.
 
 - [x] Orders; DISTINCTCOUNT
 - [ ] Customers; COUNT
 - [ ] Orders; COUNT
 - [ ] Customers; DISTINCTCOUNT
 
-#### Q40. Power BI works best with tables that are **\_**,
+#### Q39. Power BI works best with tables that are **\_**,
 
 - [ ] short and wide
 - [x] long and skinny
 - [ ] short and skinny
 - [ ] long and wide
 
-#### Q41. You have two columns of numerical data and want to create a visual to help determine if there is a relationship between them. What kind of chart is designed to do this?
+#### Q40. You have two columns of numerical data and want to create a visual to help determine if there is a relationship between them. What kind of chart is designed to do this?
 
 - [x] bar chart
 - [ ] bubble chart
 - [ ] line chart
 - [ ] scatter chart
 
-#### Q42. In the report editor, which task can you NOT accomplish using drag and drop?
+#### Q41. In the report editor, which task can you NOT accomplish using drag and drop?
 
 - [ ] Add more information to a visualization.
 - [x] All of these tasks can be done with drag and drop.
 - [ ] Create a new visualization.
 - [ ] Rearrange and resize visualizations.
 
-#### Q43. In general, what is the best way to shape your data for Power BI?
+#### Q42. In general, what is the best way to shape your data for Power BI?
 
 - [x] User a star schema.
 - [ ] Load all tables from the data source.
 - [ ] all of these answers
 - [ ] Include multiple objects in each data table.
 
-#### Q44. You can optionally include a filter in which DAX function?
+#### Q43. You can optionally include a filter in which DAX function?
 
 - [x] CALCULATE
 - [ ] SUM
 - [ ] PICARD
 - [ ] COMPARE
+
+#### Q44. Which feature is `not` in the Power BI Admin portal?
+
+- [ ] usage metrics
+- [ ] organization visuals
+- [x] Dashboard Manager
+- [ ] audit logs

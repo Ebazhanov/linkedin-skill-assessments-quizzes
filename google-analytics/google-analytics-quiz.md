@@ -146,7 +146,7 @@
 - [ ] users who converted
 - [ ] sessions with a >80% bounce rate
 - [ ] all multisession users
-- [ ] sessions with 0 goal completions
+- [x] sessions with 0 goal completions
 
 #### Q21. If you wanted to determine if a particular browser was resulting in a high bounce rate, what report could you look at?
 
@@ -220,6 +220,8 @@
 
 #### Q31. What is this report an example of?
 
+![Tree map](https://i.imgur.com/CJFjxxD.png)
+
 - [ ] cohort analysis
 - [ ] funnel visualization
 - [ ] user flow
@@ -256,9 +258,9 @@
 #### Q36. What is a best practice after launching a major change to your home page?
 
 - [ ] Create a new filter.
-- [ ] Create an annotation.
+- [x] Create an annotation.
 - [ ] Create a new view.
-- [x] Create a new property.
+- [ ] Create a new property.
 
 #### Q37. You want to enable a destination goal for a URL that appends query string parameters with each submission—for example, `/thanks?uid=123`. Which match types would work?
 
@@ -277,7 +279,7 @@
 #### Q39. Your website has a logged in experience for users. What do you implement to track individual engagement across multiple sessions and multiple devices?
 
 - [ ] Client- [ ] ID
-- [ ] User- [ ] ID
+- [x] User-ID
 - [ ] cross- [ ] domain tracking
 - [ ] session unification
 
@@ -313,7 +315,7 @@
 
 - [ ] dynamics
 - [ ] personas
-- [ ] audiences
+- [x] audiences
 - [ ] tags
 
 #### Q45. If you want to exclude traffic to your website from people on your company network, what do you create?
@@ -353,7 +355,7 @@
 
 #### Q50. Which feature would allow you to navigate between multiple reports while comparing the data collected for visitors in Los Angeles to the data for visitors in London?
 
-- [ ] segments
+- [x] segments
 - [ ] filters
 - [ ] views
 - [ ] dimensions
@@ -417,7 +419,7 @@
 #### Q59.If a user fills in a contact form and provides an email address, which report would contain that information?
 
 - [ ] Behavior > Events > Overview
-- [ ] Acquisition > Social > Form Submissions
+- [x] Acquisition > Social > Form Submissions
 - [ ] Acquisition > Social > Users Flow
 - [ ] No report contains this information.
 
@@ -454,18 +456,18 @@
 - [ ] Google Ads data sync
 - [ ] enhanced UTM tracking
 - [ ] Google Adsense data sync
-- [ ] Demographics and Interests reports
+- [x] Demographics and Interests reports
 
 #### Q65. Which choice is an example of a micro goal?
 
 - [ ] playing a video before signing up
 - [ ] buying a product after reading an email
 - [ ] filling out a contact form after reading a social post
-- [ ] signing up for an account after clicking an ad
+- [x] signing up for an account after clicking an ad
 
 #### Q65. What is the latest version of the analytics tracking tag?
 
-- [ ] gtag.js
+- [x] gtag.js
 - [ ] urchin.js
 - [ ] gaq.push and ga.js
 - [ ] analytics.js
@@ -483,3 +485,59 @@
 - [ ] Exit Pages
 - [x] Landing Pages
 - [ ] Channels
+
+#### Q68. You are tracking events of playback of video on the home page of a website. You want users who watch the video, but still leave the page with no additional pageviews or interactions, to still be included in the bounce rate calculation. What must be configured?
+
+- [x] non-interaction event
+- [ ] implicit event
+- [ ] advanced events
+- [ ] default event
+
+#### Q69. Which attribution model does Google Analytics apply by default for standard reports?
+
+- [ ] Linear
+- [ ] First Interaction
+- [ ] Last Interaction
+- [x] Last Non-Direct Click
+
+#### Q70. If you want to track one destination goal but have two URLs that could trigger the goal (for example,/thank-you and /checkout-complete), what approach can you use?
+
+- [ ] Create a content grouping, and then use the group as the destination.
+- [ ] Add the additional page as a funnel step.
+- [x] Use a regular expression when adding the goal destination.
+- [ ] That is not possible.
+
+#### Q71. If you created a calculated metric that returned a value of "80" with Time as the formatting type, how would it be represented in Google Analytics?
+
+- [ ] 0:01:20
+- [x] 80
+- [ ] 80:00:00
+- [ ] 1:20:00
+
+#### Q72. You want to compare the revenue, top products, and average order value between people who viewed three or more pages on your site, to those who viewed fewer. What do you do?
+
+- [ ] Create a custom report where Page Depth is >/3 or Page Depth is <3. Toggle on Revenue, Top Products, and Average Order Value as Dimensions.
+- [ ] View the Product Performance report and add Page Depth as a secondary dimension. Create a table filter for Page Depth greater than 3 and Page Depth less than 3.
+- [x] Create a custom segment where Page Depth is >/3 and another segment where Page Depth is <3. Apply both segments while on the Ecommerce Overview report.
+- [ ] View the Ecommerce Overview report and create a table filter where Page Depth is >/3 or Page Depth is <3.
+
+#### Q73. If you wanted to create a user-defined metric to measure Revenue per User, what would you use?
+
+- [ ] ecommerce metrics
+- [ ] custom dimensions
+- [x] calculated metrics
+- [ ] custom metrics
+
+#### Q74. You are managing analytics for a recipe website that has the following categories: Appetizers, Main Dishes, and Desserts. What do you create in order to compare aggregated data of all recipes in the Appetizer category vs. all recipes in the Desserts category? 
+
+- [ ] custom channels 
+- [ ] advanced filters 
+- [x] content grouping <= [not sure](https://support.google.com/analytics/answer/2853423?hl=en)  
+- [ ] custom segments 
+
+#### Q75. How would you add a secondary dimension to a report? 
+
+- [ ] from the Insights panel 
+- [ ] from the Secondary dimension menu 
+- [ ] all of these answers 
+- [ ] with a table filter 

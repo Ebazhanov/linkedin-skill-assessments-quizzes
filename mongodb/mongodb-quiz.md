@@ -28,12 +28,12 @@
 - [ ] fields
 - [ ] rows
 
-#### Q5. Given an ObjectId in \_id, how do you get the time it was created?
+#### Q5. Given an ObjectId in `_id`, how do you get the time it was created?
 
-- [ ] getDateTime(\_id)
-- [ ] \_id.createDate()
-- [x] \_id.getTimestamp()
-- [ ] \_id.getDateTime()
+- [ ] `getDateTime(_id)`
+- [ ] `_id.createDate()`
+- [x] `_id.getTimestamp()`
+- [ ] `_id.getDateTime()`
 
 #### Q6. Given a cursor named myCursor, which command returns a boolean value?
 
@@ -44,10 +44,10 @@
 
 #### Q7. Which command returns a specific document in the user's collection?
 
-- [x] db.users.find({\_id: 1})
-- [ ] db.users.seek({\_id: 1})
-- [ ] db.users.query({\_id: 1})
-- [ ] db.query.users({\_id: 1})
+- [x] `db.users.find({_id: 1})`
+- [ ] `db.users.seek({_id: 1})`
+- [ ] `db.users.query({_id: 1})`
+- [ ] `db.query.users({_id: 1})`
 
 #### Q8. To import a JSON array into Mongo, what flags are needed with MongoDBimport?
 
@@ -161,7 +161,7 @@
 - [x] You can't. Once set, the \_id field cannot be changed.
 - [ ] Use the updateOne() command instead.
 
-#### Q24. A compound index allows you to \_\_\_ ?
+#### Q24. A compound index allows you to \_ ?
 
 - [ ] Calculate interest quickly.
 - [ ] Accomplish nothing, since compound indexes aren't allowed in Mongo.
@@ -231,7 +231,7 @@
 - [ ] upload
 - [x] mongoimport
 
-#### Q34. In an MongoDB mapReduce command, the reduce function should \_\_\_\_.
+#### Q34. In an MongoDB mapReduce command, the reduce function should \_.
 
 - [ ] access the database
 - [ ] be called only when the key has a single value
@@ -242,7 +242,7 @@
 
 - [ ] the name field
 - [ ] the ObjectId field
-- [x] the \_id field
+- [x] the `_id` field
 - [ ] no field will have an index
 
 #### Q36. You have a collection of thousands of students. You'd like to return the second set of 20 documents from the sorted collection. What is the proper order in which to apply the operations?
@@ -283,14 +283,14 @@
 #### Q41. From the MongoDB shell, how do you create a new document in the customers collection?
 
 - [ ] `db.customers.add({name: "Bob"})`
-- [ ] `db.customers.save({name: "Bob"})`
-- [x] `db.customers.create({name: "Bob"})`
+- [x] `db.customers.save({name: "Bob"})`
+- [ ] `db.customers.create({name: "Bob"})`
 - [ ] `db.customers.new({name: "Bob"})`
 
 #### Q42. Which field is required of all MongoDB documents?
 
-- [x] \_id
-- [ ] \_name
+- [x] `_id`
+- [ ] `_name`
 - [ ] ObjectId
 - [ ] mongoDB is schema-less so no field is required
 
@@ -340,8 +340,8 @@
 
 - [ ] `db.people.getName();`
 - [ ] `db.people.reIndex({names: 1});`
-- [x] `db.people.getIndexKeys();`
-- [ ] `db.people.getIndexes();`
+- [ ] `db.people.getIndexKeys();`
+- [x] `db.people.getIndexes();`
 
 #### Q50. You are going to do a series of updates to multiple records. You find setting the multi option of the update() command too tiresome. What should you do instead?
 
@@ -360,7 +360,7 @@
 #### Q52. Given a customer collection which includes fields for gender and city, which aggregate pipeline shows the number of female customers in each city? (_Alternative_: How can you view the execution performance statistics for a query?)
 
 - [x] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number: {$sum: 1}}}, {$sort :{number: -1}}])`
-- [ ] `db.members.find({$match: {gender: "Female"}}, {$group: {\_id: {city: "$city"}, number: {$sum: 1}}}.$sort ({number: -1})`
+- [ ] `db.members.find({$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number: {$sum: 1}}}.$sort ({number: -1})`
 - [ ] `db.members.find([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number: {$sum: 1}}}, {$sort :{number: -1}}])`
 - [ ] `db.members.aggregate([ {$match: {gender: "Female"}}, {$sort :{number: -1}}])`
 
@@ -368,7 +368,7 @@
 
 - [ ] wireTiger mode
 - [ ] executionStats mode
-- [ ] queryPlanner mode
+- [x] queryPlanner mode
 - [ ] allPlansExecution mode
 
 #### Q54. What is the correct query to find all of the people who have a home phone number defined?
@@ -381,9 +381,9 @@
 #### Q55. Which file in the MongoDB directly holds the MongoDB daemon?
 
 - [ ] mongodb
-- [ ] mongo-daemon
+- [x] mongo-daemon
 - [ ] daemon
-- [ ] mongod
+- [x] mongod
 
 #### Q56. You have just secured your previously unsecured MongoDB server, but the server is still not requiring authentication. What is the best option?
 
@@ -394,21 +394,21 @@
 
 #### Q57. What is the most accurate statement regarding MongoDB and ad hoc queries?
 
-- [ ] MongoDB does not allow ad hoc queries; all queries require an index.
+- [x] MongoDB does not allow ad hoc queries; all queries require an index.
 - [ ] Ad hoc queries are allowed only in the paid version.
 - [ ] Ad hoc queries are allowed only through the ad hoc command.
-- [ ] MongoDB allows ad hoc queries.
+- [x] MongoDB allows ad hoc queries.
 
 #### Q58. In MongoDB, what does a projection do?
 
 - [ ] allows you to do a calculation on the results
 - [ ] allows you to run queries on the server
-- [ ] allows you to select which fields should be in the return data
+- [x] allows you to select which fields should be in the return data
 - [ ] allows you to format the results for a display
 
 #### Q59. To remove a database and all of its records from MongoDB, what operator should you use?
 
-- [ ] `dropDatabase()`
+- [x] `dropDatabase()`
 - [ ] `removeAll()`
 - [ ] `clear()`
 - [ ] `deleteDatabase()`
@@ -418,18 +418,18 @@
 - [ ] `-db=null`
 - [ ] `--shell-only`
 - [ ] `--free`
-- [ ] `-nodb`
+- [x] `-nodb`
 
-#### Q61. How can you improve the appearance of the output JSON that contains the \_id?
+#### Q61. How can you improve the appearance of the output JSON that contains the `_id`?
 
 - [ ] `Use db.collection.set({$_id:pretty})`
 - [ ] `Create a second index`
-- [ ] `Use db.collection.format(numeric)`
+- [x] `Use db.collection.format(numeric)`
 - [ ] `Use $_id = value`
 
 #### Q62. What happens to a Replica set oplog if it runs out of memory?
 
-- [ ] `The oplog will be saved on one of the secondary servers.`
+- [x] `The oplog will be saved on one of the secondary servers.`
 - [ ] `The oplog is capped collection and can't run out of memory`
 - [ ] `The MongoDB instance will fail`
 - [ ] `The oplog will stop recording logging information`
@@ -444,7 +444,7 @@
 #### Q64. How can you view the execution performance statistics for a query?
 
 - [ ] `db.performance.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id:{city:"$city"}, number: {$sum: 1}}}, {$sort : {number: -1}}])`
-- [ ] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number:{$sum:1}}}, {$sort: {number:-1}}]).explain("executionStats")`
+- [x] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group: {_id: {city: "$city"}, number:{$sum:1}}}, {$sort: {number:-1}}]).explain("executionStats")`
 - [ ] `db.members.aggregate([ {$match: {gender: "Female"}}, {$group:{_id: {city: "$city"}, number: {$sum: 1}}}, {$sort: {number: -1}}]).explain()`
 - [ ] `db.members.aggregate([ {$match: {gender: """Female"""}}, {$group: {_id: {city: """$city"""}, number: {$sum:1}}}, {$sort: {number: -1}}]).number()`
 
@@ -461,3 +461,24 @@
 - [ ] db.customers.sort({name: -1})
 - [x] db.customers.find({}).sort({name: -1})
 - [ ] db.customers.find({}).sort({name: 1})
+
+#### Q67. Suppose you are using the mongoimport command to import personnel data and there is a unique index on the email field. What happens when there are duplicate emails in the import?
+
+- [ ] The import command aborts without importing any records.
+- [ ] The import command imports records upto but not including the record, and then aborts.
+- [ ] The import command doesn't import the bad document but does import the rest.
+- [x] The import command prompts you to correct the bad record.
+
+#### Q68. You have a collection with millions of documents. Each time you attempt to sort. MongoDB runs out of memory. What might help?
+
+- [ ] Use the purge operator before the sort.
+- [ ] Return the entire collection and sort on the client.
+- [ ] Pass the --more-memory option.
+- [x] Create an index on the field you are sorting.
+
+#### Q69. You need to be able to quickly find a word in a text field. What should you do?
+
+- [ ] Create a text index on the field and do a $text Query.
+- [ ] Create an single field index in descending order, and do a query for the word.
+- [x] Do a $text query.
+- [ ] Create a $regex on the fields, and do a $regex query.

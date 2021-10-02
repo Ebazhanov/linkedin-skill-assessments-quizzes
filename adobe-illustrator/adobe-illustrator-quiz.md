@@ -184,9 +184,9 @@
 
 #### Q25. You have drawn a five-pointed star in a design and want to change the inner radius. How would you achieve this?
 
-- [x] An Inner Radius of a Star cannot be modified and would have to be redrawn.
+- [ ] An Inner Radius of a Star cannot be modified and would have to be redrawn.
 - [ ] Use the Scale tool while holding down Option+Shift (Mac) or Alt+Shift (Windows).
-- [ ] Select the inner points, then use the Scale tool to uniformly change the radius.
+- [x] Select the inner points, then use the Scale tool to uniformly change the radius.
 - [ ] Double-click the Star tool and change the Inner Radius option.
 
 #### Q26. What is the meaning of the three dots on the cloud icon in the image below?
@@ -498,3 +498,77 @@
 - [x] Click **Global** in the **Swatch Options** dialog box.
 - [ ] Place the swatch in a color group.
 - [ ] Add the swatch to a Creative Cloud library.
+
+#### Q68. Which statement is true about working in Isolation mode?
+
+- [ ] You can print and export individual objects by isolating them first.
+- [ ] All non-isolated objects cannot be selected or edited.
+- [ ] You cannot isolate more than one object at a time.
+- [ ] You can Shift-click non-isolated objects to make them editable.
+
+#### Q69. When saving a file in Adobe Illustrator (AI) format, which setting is essential to ensure that someone using Acrobat Reader can open and view the file?
+
+- [ ] Preserve Paths
+- [ ] Create PDF Compatible File
+- [ ] Include Linked Files
+- [ ] Use Compression
+
+#### Q70. Drop shadows in a printed document appear pixelated. Which feature can you use to fix this?
+
+- [ ] Appearance of Black
+- [ ] Document Setup
+- [x] Document Raster Effects Settings
+- [ ] Overprint Black
+
+#### Q71. Where can you find information about an image's author and copyright status?
+
+- [ ] the **Document Setup** dialog box
+- [ ] the **Document** Info panel
+- [ ] the **Attributes** panel
+- [x] the **File Info** dialog box
+
+#### Q72. What can happen if you don't add bleed to a print document?
+
+- [ ] Black strokes may appear thinner than expected.
+- [x] Blank areas may be visible at the edges of the print.
+- [ ] Areas of 100% black may print lighter than expected.
+- [ ] Blank areas may be visible where two inks are printed adjacent to each other.
+
+#### Q73. How can you ensure that objects on a specific layer remain visible on screen in Illustrator but never appear when the file is printed?
+
+- [ ] Make a clipping mask with the layer selected.
+- [ ] Drag the layer to the bottom of the **Layers** panel.
+- [x] Turn off the **Print** option for the layer.
+- [ ] Lock the layer.
+
+**Explanation:**
+From Adobe Help Center: [Make artwork nonprintable](https://helpx.adobe.com/illustrator/using/setting-documents-printing.html)
+
+#### Q74. If you had to send a file to a colleague, how could you collect everything needed to work on it, including any non-Adobe fonts and linked images?
+
+- [ ] Select **Select All** and then **Save Selection**.
+- [ ] Use the **Save as Template** command.
+- [x] Use the **Package** command.
+- [ ] Select **Select All** and then click the **Add Content** button in the **Libraries** panel.
+
+**Explanation:**
+From Adobe Help Center: [Share artwork](https://helpx.adobe.com/illustrator/how-to/sharing-basics.html)
+
+#### Q75. When working with a two-point perspective grid, which setting in the **Define Perspective Grid** dialog box do you use to change the size of grid cells so you can draw and move objects with more precision?
+
+- [ ] Scale
+- [ ] Viewing Distance
+- [ ] Viewing Angle
+- [ ] Gridling every
+
+#### Q76. Which option do you use to create the stroke shown below?
+
+<img width="400" alt="011" src="https://user-images.githubusercontent.com/13102859/135642887-d7dc854e-0eab-42cc-922e-1f3c04ce55c3.png">
+
+- [ ] Round Join
+- [ ] Projecting Cap
+- [x] Round Cap
+- [ ] Align Stroke to Outside
+
+**Explanation:**
+From Youtube Channel: [How to Round End of Path (Line) in Illustrator](https://www.youtube.com/watch?v=UCQb-JTRIm4&t=92s)

@@ -10,7 +10,7 @@
 #### Q2. What are the best examples of void elements?
 
 - [ ] `<link><meta><title>`
-- [x] `<wbr><base><source>`
+- [x] `<br><base><source>`
 - [ ] `<input><br><p>`
 - [ ] `<area><embed><strong>`
 
@@ -90,7 +90,7 @@
 
 ![Sample text](images/ss-2.png?raw=true)
 
-- [ ]
+- [ ] A
 
 ```html
 <details>
@@ -101,7 +101,7 @@
 </details>
 ```
 
-- [ ]
+- [ ] B
 
 ```html
 <h4>▸ Parmesan Deviled Eggs</h4>
@@ -110,7 +110,7 @@
 </p>
 ```
 
-- [x]
+- [x] C
 
 ```html
 <details open>
@@ -121,7 +121,7 @@
 </details>
 ```
 
-- [ ]
+- [ ] D
 
 ```html
 <details>
@@ -494,7 +494,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] `<hgroup> <q> <wbr>`
 - [ ] `<b> <i> <u>`
 
-#### Q31. The `**\_\_**` tag is used for marking up a short code snippet, while the `**\_\_**` tag is used for marking up a longer block of code.
+#### Q31. The **\_** tag is used for marking up a short code snippet, while the **\_** tag is used for marking up a longer block of code
 
 - [ ] `<kdb>`, `<pre>`
 - [ ] `<pre>`, `<code>`
@@ -508,7 +508,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] It visually labels from fields.
 - [x] It programmatically associates a text label with an interface element.
 
-#### Q33. To get a link to open in a new window or tab, use the `**\_\_**` attribute.
+#### Q33. To get a link to open in a new window or tab, use the **\_** attribute
 
 - [x] `_blank`
 - [ ] `_self`
@@ -721,7 +721,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 
 ![Table](images/ss-1.png?raw=true 'table')
 
-- [ ]
+- [ ] A
 
 ```markdown
 <tr>
@@ -733,7 +733,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 </tr>
 ```
 
-- [ ]
+- [ ] B
 
 ```markdown
 <tr>
@@ -743,7 +743,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 </tr>
 ```
 
-- [x]
+- [x] C
 
 ```markdown
 <tr>
@@ -755,7 +755,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 </tr>
 ```
 
-- [ ]
+- [ ] D
 
 ```markdown
 <tr>
@@ -1208,7 +1208,12 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<p>`As Steve Krug once said, `<b>`happy talk must die.`</b>` `</p>`
 - [ ] `<p>`As Steve Krug once said, `<i>`happy talk must die.`</i>` `</p>`
 - [ ] `<p>`As Steve Krug once said, `<blockquote>`happy talk must die.`</blockquote>` `</p>`
-- [ ] `<p>`As Steve Krug once said, `<q>`happy talk must die.`</q>` `</p>`
+- [x] `<p>`As Steve Krug once said, `<q>`happy talk must die.`</q>` `</p>`
+
+[Source: W3Schools](https://www.w3schools.com/tags/tag_q.asp)
+
+**`<q>` tag**
+`Most browsers will display q tags as inline elements with quotes`
 
 #### Q78. What is the most semantically accurate way to make up a main navigation bar, displayed in a horizontal direction?
 
@@ -1254,51 +1259,57 @@ As Steve Krug once said, happy talk must die.
   </nav>
 ```
 
-#### Q79. Which choice is the best way to mark up this loyout?
+#### Q79. Which choice is the best way to mark up this layout?
 
 ![Image of footer](images/ss-8.png?raw=true)
 
+- [ ] A
+
+```markdown
+<h4>Mailing Address</h4>
+<address>
+  6410 Via Real <br>
+  Carpinteria, CA 93013<br>
+  <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</address>
+```
+
+- [x] B
+
+```markdown
+<h4><strong>Mailing Address</h4>
+<address><em>
+  6410 Via Real <br>
+  Carpinteria, CA 93013<br>
+  <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</em></address>
+```
+
+- [ ] C
+
+```markdown
+<h4>Mailing Address</h4>
+<p><em>
+  6410 Via Real <br>
+  Carpinteria, CA 93013<br>
+  <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</em></p>
+```
+
+- [ ] D
+
 ```markdown
 <p><strong>Mailing Address</strong></p>
-  <p><em>
-    6640 via Real <br>
-    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
-  </em></p>
-</p>
+<p><em>
+  6410 Via Real <br>
+  Carpinteria, CA 93013<br>
+  <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</em></p>
 ```
 
-- [ ]
+[Source: W3Schools](https://www.w3schools.com/tags/tag_address.asp)
 
-```markdown
-<h4>Mailing Address</h4>
-  <address>
-    6640 via Real <br>
-    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
-  </address>
-```
-
-- [ ]
-
-```markdown
-<h4><strong>Mailing Address</strongh></h4>
-  <address><em>
-    6640 via Real <br>
-    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
-  </em></address>
-```
-
-- [ ]
-
-```markdown
-<h4>Mailing Address</h4>
-  <p><em>
-    6640 via Real <br>
-    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
-  </em></p>
-</p>
-```
-
-- [ ]
+`The <address> tag defines the contact information for the author/owner of a document or an article. The contact information can be an email address, URL, physical address, phone number, social media handle, etc. The text in the <address> element usually renders in italic, and browsers will always add a line break before and after the <address> element.`
 
 #### Q80. What is the primary purpose of HTML?
 
@@ -1306,3 +1317,71 @@ As Steve Krug once said, happy talk must die.
 - [ ] HTML structures and provides a rudimentary look to webpages.
 - [ ] HTML is responsible for the structure, styling, and interactivity of webpages.
 - [ ] HTML is responsible for the structure and styling of webpages.
+
+#### Q81. What is the correct way to describe an empty element, such as a line break tag?
+
+- [ ] It displays nothing on a website.
+- [ ] It has opening and closing tags but no child content.
+- [ ] It has child content but no closing tag.
+- [x] It has no child content and no closing tag.
+
+#### Q82. For the HTML code below, when will "Sample Text" display to the browser?
+
+```markdown
+<noscript>Sample Text</noscript>
+```
+
+- [ ] when there is no JavaScript used on this webpage
+- [x] when JavaScript is not supported by the browser or if JavaScript is disabled in the browser
+- [ ] when JavaScript is disabled in the web browser
+- [ ] when JavaScript is not supported by the web browser
+
+[Reference (MDN)](https://www.w3schools.com/tags/tag_noscript.asp)
+
+#### Q83. How will this code render by default in most web browsers?
+
+```markdown
+<details>
+  <h4>Mixed Berry Tart.</h4>
+  <p4>Raspberries, blueberries, and strawberries on top of a creamy filling served in a crispy tart.</p4>
+</details>
+```
+
+- [ ] A
+      ![A](images/Q84-1.jpg)
+- [x] B
+      ![B](images/Q84-2.jpg)
+- [ ] C
+      ![C](images/Q84-3.jpg)
+- [ ] D
+      ![D](images/Q84-4.jpg)
+
+#### Q84. In this code, what is _target_?
+
+- [x] an attribute
+- [ ] a tag
+- [ ] content
+- [ ] an element
+
+#### Q85. What is the difference between the `<svg>` and `<canvas>`?
+
+- [x] `<svg>` produces vector graphics, while `<canvas>` produces raster graphics.
+- [ ] `<svg>` integrates with JavaScript, while `<canvas>` does not.
+- [ ] `<svg>` produces raster graphics, while `<canvas>` produces vector graphics.
+- [ ] `<svg>` cannot be used as a background image, while `<canvas>` can be used as a background
+
+#### Q86. What is the difference between the _readonly_ and _disabled_ attributes for the `<textarea>` element?
+
+- [ ] _readonly_ allows clicking in the `<textarea>` element. _disabled_ prevents all interaction with the control.
+- [ ] _readonly_ is invalid attribute for `<textarea>`, while _disabled_ is a valid attribute.
+- [ ] _disabled_ allows clicking in the `<textarea>` element. _readonly_ prevents all interaction with the control.
+- [ ] _disabled_ is invalid attribute for `<textarea>`, while _readonly_ is a valid attribute.
+
+#### Q87. In this code, what is _target_?
+
+`<a target="_blank">...</a>`
+
+- [x] an attribute
+- [ ] a tag
+- [ ] content
+- [ ] an element

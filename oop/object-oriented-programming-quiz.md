@@ -191,7 +191,7 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] as many classes as required
 - [ ] at least two classes
 
-#### Q26. if an object is passed by reference, the changes made in the function are reflected \_\_\_\_.
+#### Q26. if an object is passed by reference, the changes made in the function are reflected \_.
 
 - [x] to the main object of the caller function, too
 - [ ] on the caller function object and also the called function object
@@ -303,6 +303,9 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] to delegate coding responsibility more efficiently
 - [ ] to conserve memory
 - [x] to avoid writing duplicate code
+- [x] to separate class behavior from the more general
+
+_NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is it also true?
 
 #### Q40. In addition to attributes and behaviours, what quality must a class possess?
 
@@ -388,7 +391,7 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] Attributes apply only to a specified object; behaviour apply to other linked objects.
 - [ ] Behaviours are vector quantities; attributes are scalars.
 
-#### Q52. The open/closed principle states that classes should be open for \_**\_ but closed for \_\_**.
+#### Q52. The open/closed principle states that classes should be open for \_ but closed for \_.
 
 - [ ] refactoring; duplication
 - [ ] modification; duplication
@@ -411,7 +414,56 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 
 #### Q55. What defines the catch block most accurately?
 
-- [x] The catch block that will be executed is the one that best matches the type of the exception thrown
-- [ ] Multiple catch blocks are not allowed with a single try.
-- [ ] Every catch block will run accordingly in a try.
-- [ ]
+- [x] The catch block that will be executed is the one that best matches the type of exception thrown.
+- [ ] Multiple catch blocks can never be associated with a single try block.
+- [ ] Multiple catch blocks are mandatory for each try block.
+- [ ] Multiple catch blocks will all be executed in the case of an exception.
+
+#### Q56. There are five classes. Class E is derived from class D, D from C, C from B, and B from A. Which class constructor(s) will be called first if the object of E or D is created?
+
+- [x] A
+- [ ] B
+- [ ] C
+- [ ] C and B
+
+#### Q57. You have modules that are dependent on each other. If you change one module, you have to make changes in the dependent modules. What term is used to describe this problem, and what is a potential solution?
+
+- [ ] Cohesion. A solution is to show that each module has certain responsibilities and to use an anticohesive design pattern.
+- [ ] Encapsulation. A solution is to implement one of the SOLID principles to ensure the modules do not encapsulate with each other.
+- [x] Coupling. A solution is to refactor the code to be loosely coupled by using inversion of control and dependency injection.
+- [ ] Dependency. A solution is to implement polymorphism and abstraction to change and extract dependent elements of a module so that it functions on its own.
+
+#### Q58. **\_** describes an aggregation
+
+- [ ] A class of resources
+- [ ] A group of methods
+- [x] A collection of objects
+- [ ] A list of children
+
+#### Q59. Which type of function can be used for polymorphism?
+
+- [x] virtual function
+- [ ] inline function
+- [ ] undefined function
+- [ ] private function
+
+#### Q60. Which choice is a benefit of using dependency injection?
+
+- [x] loose coupling
+- [ ] code reusability
+- [ ] lazy initialization
+- [ ] data abstraction
+
+#### Q61. Are you reauired to return an object if it was passed by reference to a function, and why or why not?
+
+- [ ] Yes, the caller function needs to reflect the changes.
+- [ ] No, you should use a global variable instead.
+- [ ] No, changes will be automatically reflected in the calling function.
+- [ ] Yes, the object must be the same in the caller function.
+
+#### Q62. Why is inheritance ?
+
+- [ ] Yes, the caller function needs to reflect the changes.
+- [ ] No, you should use a global variable instead.
+- [ ] No, changes will be automatically reflected in the calling function.
+- [ ] Yes, the object must be the same in the caller function.

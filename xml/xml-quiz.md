@@ -34,60 +34,55 @@
 ```
 
 - [ ] The `<car>` element can be extended with only one attribute
-- [ ] The `<car>` element can be extended with multiple attributes
-- [x] The `<car>` element have any attributes
-- [ ] The `<car>` element has child elements which can appear in order
+- [x] The `<car>` element can be extended with multiple attributes
+- [ ] The `<car>` element cannot have any attributes
+- [ ] The `<car>` element has child elements which can appear in any order
+
+**Reference**: [XSD The `<anyAttribute>` Element](https://www.w3schools.com/xml/schema_complex_anyattribute.asp)
 
 #### Q3. You are converting your HTML file into XHTML Strict. Which code snippet will validate without errors?
 
 - [ ]
-
-```xml
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head><title>XHTML Example</title></head>
-    <body bgcolor="#FFFFFF" >
-        <p>Content goes here ...</p>
-    </body>
-</html>
-```
-
+  ```xml
+  <html xmlns="http://www.w3.org/1999/xhtml">
+      <head><title>XHTML Example</title></head>
+      <body bgcolor="#FFFFFF" >
+          <p>Content goes here ...</p>
+      </body>
+  </html>
+  ```
 - [ ]
-
-```xml
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head><title>XHTML Example</title></head>
-    <body name="bodySection">
-        <p><b>Content goes here ...</b></p>
-    </body>
-</html>
-```
-
+  ```xml
+  <html xmlns="http://www.w3.org/1999/xhtml">
+      <head><title>XHTML Example</title></head>
+      <body name="bodySection">
+          <p><b>Content goes here ...</b></p>
+      </body>
+  </html>
+  ```
 - [ ]
-
-```xml
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head><title>XHTML Example</title></head>
-    <body color="#333333">
-        <p><i>Content goes here ...</i></p>
-    </body>
-</html>
-```
-
+  ```xml
+  <html xmlns="http://www.w3.org/1999/xhtml">
+      <head><title>XHTML Example</title></head>
+      <body color="#333333">
+          <p><i>Content goes here ...</i></p>
+      </body>
+  </html>
+  ```
 - [x]
-
-```xml
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head><title>XHTML Example</title></head>
-    <body id="bodySelection">
-        <p><strong>Content goes here ...</strong></p>
-    </body>
-</html>
-```
+  ```xml
+  <html xmlns="http://www.w3.org/1999/xhtml">
+      <head><title>XHTML Example</title></head>
+      <body id="bodySelection">
+          <p><strong>Content goes here ...</strong></p>
+      </body>
+  </html>
+  ```
 
 #### Q4. When working with Ajax applications, which is faster, XML or JSON?
 
 - [ ] XML, because it is extensible
-- [x] JSON, because it transfers data without waiting for a sever response
+- [x] JSON, because it transfers data without waiting for a server response
 - [ ] XML, because it supports namespaces
 - [ ] JSON, because it is already parsed into a JavaScript object
 
@@ -111,10 +106,12 @@
 
 #### Q7. Which XHTML syntax rule does NOT apply to XML?
 
-- [x] XHTML attribute values must be quoted
-- [ ] XHTML tags and attributes must be in lowercase
+- [ ] XHTML attribute values must be quoted
+- [x] XHTML tags and attributes must be in lowercase
 - [ ] XHTML elements must be properly nested within each other.
 - [ ] XHTML tags must have an equivalent closing tag.
+
+**Explanation**: XML Attributes values [must be quoted](https://www.w3schools.com/xml/xml_attributes.asp). Element names are [case-sensitive](https://www.w3schools.com/xml/xml_elements.asp) (and CamelCase is actually one of the naming styles).
 
 #### Q8. Which Ajax method is used to exchange data with a server, using a modern browser?
 
@@ -123,7 +120,7 @@
 - [ ] ActiveXObject
 - [ ] responseXML
 
-#### Q9. A markup language is a \_-readable language that \_ text so that the computer can \_ that text.
+#### Q9. A markup language is a **\_** -readable language that **\_** text so that the computer can **\_** that text.
 
 - [ ] processor; complies; process
 - [ ] system; stores; retrieve
@@ -209,13 +206,15 @@
 - [ ] XSLT
 - [ ] DOM
 - [ ] AJAX
-- [ ] XSD
+- [x] XSD
+
+`This question is about understanding the XML аfile contents. XSD is the correct one here - that's the schema document, which describes the XML.`
 
 #### Q21. In an XML DTD, attributes are declared with an ATTLIST declaration. You need to validate the color attribute for element `<car>` against a fixed list of values. Which is the correct declaration?
 
 - [ ] `<!ATTLIST car color (red|white|blue|black) black>`
 - [ ] `<!ATTLIST car color (red|white|blue|black) #REQUIRED>`
-- [ ] `<!ATTLIST car color (red|white|blue|black) #FIXED>`
+- [x] `<!ATTLIST car color (red|white|blue|black) #FIXED>`
 - [ ] `<!ATTLIST car color (red|white|blue|black)>`
 
 #### Q22. The main ways to control the display of XML documents are with Cascading Style Sheets (CSS) and Extensible Styles Language (XSL). What is an advantage of CSS over XSL?
@@ -223,7 +222,7 @@
 - [ ] CSS is a complete programming language with more powerful syntax.
 - [ ] With CSS, the same element can be processed multiple times.
 - [ ] CSS allows you to reformat data into completely new structures.
-- [ ] CSS is easier to learn, use, and maintain.
+- [x] CSS is easier to learn, use, and maintain.
 
 #### Q23. Which type of DTD declaration is this code an example of? `<!DOCTYPE abc SYSTEM "file/file.dtd">`
 
@@ -245,8 +244,10 @@
 
 - [ ] Frameset
 - [ ] Transitional
-- [ ] Basic
-- [x] Strict
+- [x] Basic
+- [ ] Strict
+
+**Explanation**: [XHTML - Doctypes](https://www.tutorialspoint.com/xhtml/xhtml_doctypes.htm)
 
 #### Q26. You are working with the following XML code snippet. You have this line in your XSLT code `xsl:value-of-select="//car/make"/>`. What does it display?
 
@@ -278,10 +279,10 @@
 
 - [ ] `format-number()`
 - [ ] `id()`
-- [x] `count()`
-- [ ] `position()`
+- [ ] `count()`
+- [x] `position()`
 
-[reference link:](https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/count)
+**Explanation**: [count()](https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/count) returns the total the number of nodes (3), while [position()](https://developer.mozilla.org/en-US/docs/Web/XPath/Functions/position) returns the 0-based index of each node.
 
 #### Q28. You are working with this XML code snippet from the XML document cars.xml. You need to return the information about the cars built after the year 2000, as an ordered list, starting with the most recent. What does your XQuery look like?
 
@@ -382,16 +383,20 @@
 ```
 
 - [ ] `/car[price>20000]/make/model`
-- [x] `/car[price>=20000 and @year>=2009]/make/model`
+- [ ] `/car[price>=20000 and @year>=2009]/make/model`
 - [ ] `//car[price>=20000 and @year>2008]/model`
 - [ ] `/cars/car[price>=20000 and year>2008]/model`
+
+NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Report the question.
 
 #### Q32. You are working with an XML document that uses an XML schema. How do you ensure that an attribute must be specified for its corresponding element?
 
 - [ ] Set the type attribute to `xs:required`.
-- [ ] Set the use attribute to `required`.
+- [x] Set the `use` attribute to `required`.
 - [ ] Set the minLength attribute to 1.
 - [ ] Set the minOccurs attribute to 1.
+
+**Reference**: [XSD Attributres](https://www.w3schools.com/xml/schema_simple_attributes.asp)
 
 #### Q33. You are working with the following XML code snippet. What do you need to include in your XSLT code to display `Mercedes, Cadillac, Ford`?
 
@@ -406,10 +411,16 @@
 </cars>
 ```
 
-- [x] `<xsl:sort select="make" />`
-- [ ] `<xsl:sort select="model" />`
+- [ ] `<xsl:sort select="make" />`
+- [x] `<xsl:sort select="model" />`
 - [ ] `<xsl:sort select="car" />`
 - [ ] `<xsl:sort select="price" />`
+
+**Explanation**: A trick question. The [`<xsl:sort>`](https://www.w3schools.com/xml/ref_xsl_el_sort.asp) will sort the output in ascending (alphabetical for strings) order by default. The `select` tells which tag to use for sorting.
+
+- If we use `select="make"` or `select="year"` we get the order `Cadillac, Ford, Mercedes`
+- If we use `select="price"` we get `Ford, Cadillac, Mercedes`
+- And finally with `select="model"` we get `Mercedes, Cadillac, Ford`
 
 #### Q34. What is the correct syntax for comments in XQuery?
 
@@ -425,14 +436,14 @@
 - [ ] EntityReference
 - [ ] DocumentFragment
 
-[reference link:](<https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ms766473(v=vs.85)>)
+[reference link:](https://www.w3schools.com/XML/dom_nodetype.asp)
 
 #### Q36. XHTML modules can be extended by adding elements, attributes, modifying content models, or some combination of these. What does a proper implementation of an XHTML module require?
 
 - [ ] The implementation of an XHTML module requires an extension module and a validation module that ensures that the XHTML is well formed and valid; otherwise the extended instances aren't formally XHTML.
 - [ ] The implementation of an XHTML module requires a definitions module and a constraint module that specifies syntax rules and uses the parameter entities declared in the definitions module.
 - [ ] The implementation of an XHTML module requires a qualified name module and a declaration module that holds the element, element attribute, and content model declarations.
-- [ ] The implementation of an XHTML module requires a namespace module that holds the element, element attribute, and content model declarations, and a parameter module that uses the entities declared in the namespace module.
+- [x] The implementation of an XHTML module requires a namespace module that holds the element, element attribute, and content model declarations, and a parameter module that uses the entities declared in the namespace module.
 
 #### Q37. The `<xsl:namespace-alias>` element is used to replace a namespace in the style sheet with a different namespace in the output. Which XSLT element needs to be its parent node?
 
@@ -463,10 +474,10 @@
 </cars>
 ```
 
-- [ ] Elements <make> and <model> are ancestors of <year>.
-- [ ] Elements <make> and <model> are children of <cars>.
-- [x] Elements <make> and <model> are siblings.
-- [ ] Elements <car> and <cars> are parents of <make> and <model>.
+- [ ] Elements `<make>` and `<model>` are ancestors of `<year>`.
+- [ ] Elements `<make>` and `<model>` are children of `<cars>`.
+- [x] Elements `<make>` and `<model>` are siblings.
+- [ ] Elements `<car>` and `<cars>` are parents of `<make>` and `<model>`.
 
 #### Q40. Which is a valid CSS section for this XML code snippet?
 

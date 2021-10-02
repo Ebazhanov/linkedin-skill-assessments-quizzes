@@ -51,7 +51,7 @@
 - [ ] DNS forward lookup zone
 - [ ] DNS reverse lookup zone
 
-#### Q8. Hyper-V \_\_\_\_ is a disaster recovery tool that replicates virtual machines from one Hyper-V host server to another in a Hyper-V Windows Server 2016 environment.
+#### Q8. Hyper-V \_ is a disaster recovery tool that replicates virtual machines from one Hyper-V host server to another in a Hyper-V Windows Server 2016 environment.
 
 - [ ] Manager
 - [x] Replica
@@ -363,3 +363,52 @@
 - [ ] Microsoft Management Console
 - [ ] Users and Groups
 - [ ] Computer Objects
+
+#### Q50. What is the Microsoft implementation of a RADIUS server?
+
+- [ ] IP address Management (IPAM) Server
+- [x] Network Policy Server (NPS)
+- [ ] Network Load Balancing
+- [ ] Web Server (IIS)
+
+#### Q51. After installing the active directory domain services role to your windows server 2016 OS, how do you promote the server to a domain controller using the GUI?
+
+- [ ] Open mmc.exe
+- [ ] Run dcpromo.exe
+- [ ] Click Add Roles and Features.
+- [x] Click the notification flag in the Server Manager windows.
+
+#### Q52. You want to host two virtual machines on the same physical server. Their memory settings in Hyper-V are set to optimize the use of physical memory for each virtual machine. What makes this optimization possible?
+
+- [ ] dynamic memory
+- [ ] memory buffer
+- [x] virtual memory
+- [ ] ReadyBoost
+
+#### Q53. In a two-tier hierarchy CA design, what is a common security best practice?
+
+- [ ] The issuing CA servers are placed in different geographical locations.
+- [ ] The intermediate or policy CA server is offline.
+- [ ] The root CA server is offline.
+- [ ] Only FIPS-compliant hardware security modules are used.
+
+#### Q54. Group policy objects are not being applied to domain controllers because the Default Domain Controllers and Default Domain group policies are corrupt. What can you run in a command prompt to recover them?
+
+- [ ] dcgpofix.exe
+- [ ] dcdiagfix.exe
+- [ ] ntdsutil.exe
+- [ ] dcpromo.exe
+
+#### Q55. You set up a storage area network that makes use of iSCSI storage. You then install the iSNS Server service feature on Windows Server 2012 R2. Why do you need this feature?
+
+- [ ] to set up storage Fibre Channels
+- [ ] to provide discovery services of iSCSI devices
+- [ ] to view information about host bus adapters
+- [ ] to manage RAID storage volumes
+
+#### Q56. A domain controller is a server running \_\_.
+
+- [ ] DFS
+- [ ] RDS
+- [ ] IIS
+- [ ] AD DS

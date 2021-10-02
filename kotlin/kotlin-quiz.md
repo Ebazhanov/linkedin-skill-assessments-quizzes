@@ -620,3 +620,170 @@ println(result)
 - [x] The sequence is infinite and lacks an intermediate operation to make it finite.
 - [ ] The expression should begin with generateSequence(0).
 - [ ] The it parameter should be replaced with this.
+
+#### Q53. An error is generated when you try to compile the following code. How should you change the call to printStudents to fix the error?
+
+```kotlin
+fun main() {
+    val students = arrayOf("Abel", "Bill", "Cindy", "Darla")
+    printStudents(students)
+}
+
+fun printStudents(vararg students: String) {
+    for(student in students) println(student)
+}
+```
+
+- [ ] printStudents(students.toList())
+- [ ] printStudents(students!!)
+- [x] printStudents(\*students)
+- [ ] printStudents(students[])
+
+#### Q54. Both y and z are immutable references pointing to fixed-size collections of the same four integers. Are there any differences?
+
+```kotlin
+val y = arrayOf(10, 20, 30, 40)
+val z = listOf(10, 20, 30, 40)
+```
+
+- [x] You can modify the contents of the elements in y but not z.
+- [ ] There are not any differences. y and z are a type alias of the same type.
+- [ ] You add more elements to z since it is a list.
+- [ ] You can modify the contents of the elements in z but not y.
+
+#### Q55. The code snippet compile and runs without issue, but does not wait for the coroutine to show the "there" message. Which line of code will cause the code to wait for the coroutine to finish before exiting?
+
+```kotlin
+fun main() = runBlocking {
+    val task = GlobalScope.launch {
+        delay(1000L)
+        println("there")
+    }
+    println("Hello,")
+}
+```
+
+- [ ] task.complete()
+- [ ] task.wait()
+- [x] task.join()
+- [ ] task.cancel()
+
+#### Q56. You would like to group a list of students by last name and get the total number of groups. Which line of code accomplishes this, assuming you have a list of the Student data class?
+
+```kotlin
+data class Student(val firstName: String, val lastName: String)
+```
+
+- [x] println(students.groupBy{ it.lastName.first() }.count())
+- [ ] println(students.groupBy{ it.lastName.first() }.fold().count())
+- [ ] println(students.groupingBy{ it.lastName.first() }.count())
+- [ ] println(students.groupingBy{ it.lastName.first() }.size())
+
+#### Q57. Class BB inherits from class AA. BB uses a different method to calculate the price. As shown, the code does not compile. What changes is needed to resolve the compilation error?
+
+```kotlin
+open class AA() {
+     var price: Int = 0
+        get() = field + 10
+}
+class BB() : AA() {
+     var price: Int = 0
+        get() = field + 20
+}
+```
+
+- [ ] You need to add a lateinit modifier to AA.price.
+- [ ] You simply need to add an override modifier to BB.price.
+- [x] You need to add an open modifier to AA.price and an override modifier to BB.price.
+- [ ] You need to add a public modifier to AA.price and a protected modifier to BB.price.
+
+#### Q58. What is the output of this code?
+
+```kotlin
+val quote = "The eagle has landed."
+println("The length of the quote is $quote.length")
+```
+
+- [ ] The length of the quote is The eagle has landed.
+- [ ] A compilation error is displayed.
+- [ ] The length of the quote is 21
+- [x] The length of the quote is The eagle has landed..length
+
+#### Q59. You have an unordered list of high scores. Which is the simple method to sort the highScores in descending order?
+
+```kotlin
+fun main() {
+    val highScores = listOf(4000, 2000, 10200, 12000, 9030)
+
+```
+
+- [ ] .sortedByDescending()
+- [ ] .descending()
+- [x] .sortedDescending()
+- [ ] .sort("DESC")
+
+#### Q60. Your class has a property name that gets assigned later. You do not want it to be a nullable type. Using a delegate, how should you declare it?
+
+- [x] lateinit var name: String
+- [ ] var name: String by lazy
+- [ ] var name: String by Delegates.notNull()
+- [ ] var name: String? = null
+
+#### Q61. You want to know each time a class property is updated. If the new value is not within range, you want to stop the update. Which code snippet shows a built-in delegated property that can accomplish this?
+
+- [x] Delegates.vetoable()
+- [ ] Delegates.cancellable()
+- [ ] Delegates.observer()
+- [ ] Delegates.watcher()
+
+#### Q62. Which line of code shows how to call a Fibonacci function, bypass the first three elements, grab the next six, and sort the elements in descending order?
+
+- [ ] val sorted = fibonacci().skip(3).take(6).sortedDescending().toList()
+- [ ] val sorted = fibonacci().skip(3).take(6).sortedByDescending().toList()
+- [ ] val sorted = fibonacci().skip(3).limit(6).sortedByDescending().toList()
+- [ ] val sorted = fibonacci().drop(3).take(6).sortedDescending().toList()
+
+#### Q63. You have two arrays, a and b. Which line combines a and b as a list containing the contents of both?
+
+```val a = arrayOf(1, 2, 3)
+val b = arrayOf(100, 200, 3000)
+```
+
+- [ ] val c = list of (a, b)
+- [ ] val c = a + b
+- [ ] val c = listOf(a+b)
+- [ ] val c = listOf(*a, *b)
+
+#### Q64. This code is occasionally throwing a null pointer exception (NPE). How can you change the code so it never throws as NPE?
+
+```println("length of First Name = ${firstName!!.length}")
+
+```
+
+- [ ] Replace !!. with ?..
+- [ ] Replace !!. with ?:.
+- [ ] Surround the line with a try/catch block.
+- [ ] Replace !!. with ?.let.
+
+#### Q65. What is the execution order of init blocks and properties during initialization?
+
+- [ ] All of the properties are executed in order of appearance, and then the init blocks are executed.
+- [ ] The init blocks and properties are executed in the same order they appear in the code.
+- [ ] All of the init blocks are executed in order of appearance, and then the properties are executed.
+- [ ] The order of execution is not guaranteed, so code should be written accordingly.
+
+#### Q66. Both const and @JvmField create constants. What can @JvmField do that const cannot?
+
+```
+class Styles {
+  companion object {
+    const val COLOR = "Blue"
+      @JvmField val SIZE = "Really big"
+   }
+}
+```
+
+- [ ] const works only with strings and primitives. @JvmField does not have that restriction.
+- [ ] @JvmField works as a top-level variable, but const works only in a class.
+- [ ] @JvmField is compatible with Java, but const is not.
+- [ ] @JvmField is always inlined for faster code.
