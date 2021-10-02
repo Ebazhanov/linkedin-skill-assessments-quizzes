@@ -50,3 +50,26 @@
 - [ ] code analysis
 - [ ] static analysis
 - [x] dynamic analysis
+
+
+#### Q7. Which option describes testing that individual software developers can conduct on their own code?
+
+- [ ] gray box testing
+- [ ] integration testing
+- [ ] white box testing
+- [x] unit testing
+
+#### Q8. In black box penetration testing, what information is provided to the tester about the target environment?
+
+- [x] none
+- [ ] limited details of server and network infrastructure
+- [ ] all information
+- [ ] limited details of server infrastructure
+
+
+#### Q9. Which security control can best protect against shadow IT by identifying and preventing use of unsanctioned cloud apps and services?
+
+- [ ] intrusion prevention system (IPS)
+- [ ] next generation firewall
+- [x] cloud access security broker (CASB)
+- [ ] intrusion detection system (IDS)
