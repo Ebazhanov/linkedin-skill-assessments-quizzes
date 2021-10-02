@@ -1,7 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-560-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-561-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -822,6 +822,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/commonsw04"><img src="https://avatars.githubusercontent.com/u/91599584?v=4?s=100" width="100px;" alt=""/><br /><sub><b>commonsw04</b></sub></a><br /><a href="#design-commonsw04" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=commonsw04" title="Code">💻</a></td>
     <td align="center"><a href="https://rashadtanjim.info"><img src="https://avatars.githubusercontent.com/u/47326039?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Md. Rashad Tanjim</b></sub></a><br /><a href="#design-RashadTanjim" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=RashadTanjim" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/alimalek71"><img src="https://avatars.githubusercontent.com/u/15885307?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ali Malek</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=alimalek71" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/PAODLT"><img src="https://avatars.githubusercontent.com/u/78404951?v=4?s=100" width="100px;" alt=""/><br /><sub><b>PAODLT</b></sub></a><br /><a href="#design-PAODLT" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=PAODLT" title="Code">💻</a></td>
   </tr>
 </table>
 
