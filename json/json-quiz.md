@@ -840,3 +840,10 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] one
 - [ ] two
 - [ ] three
+
+#### Q79. In JSON, a set of brackets ([]) is used to denote _____, whereas curly braces ({}) denote _____.
+
+- [x] arrays; objects
+- [ ] objects; functions  
+- [ ] arrays; functions
+- [ ] key/value pairs; arrays
