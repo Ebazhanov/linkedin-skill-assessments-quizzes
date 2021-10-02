@@ -91,7 +91,22 @@
 #### Q12. Which area is DMZ?
 ![image](https://user-images.githubusercontent.com/45083490/135709069-68011c48-7eaf-4635-bece-32fa1037b6c0.png)
 
-- [ ] rainbow table attack
-- [ ] pass-the-hash attack
-- [ ] password spray attack
-- [x] brute force attack
+- [ ] 4
+- [ ] 1
+- [ ] 2
+- [ ] 3
+
+#### Q13. You configure an encrypted USB drive for a user who needs to deliver a sensitive file at an in-person meeting. What type of encryption is typically used to encrypt the file?
+
+- [ ] file hash
+- [ ] asymmetric encryption
+- [ ] digital signature
+- [ ] symmetric encryption
+
+
+#### Q14. What is the difference between DRP and BCP
+
+- [x] DRP works to keep a business up and running despite a disaster. BCP works to restore the original business capabilities.
+- [ ] BCP works to keep a business up and running despite a disaster. DRP works to restore the original business capabilities.
+- [ ] BCP is part of DRP.
+- [ ] DRP is part of BCP.
