@@ -7,12 +7,21 @@
 - [ ] Abstract classes must inherit from concrete classes.
 - [x] An abstract class exists only so that other "concrete" classes can inherit from the abstract class.
 
+[reference](https://www.geeksforgeeks.org/abstract-classes-in-python/)
+
 #### Q2. What happens when you use the build-in function `any()` on a list?
 
 - [ ] The `any()` function will randomly return any item from the list.
 - [x] The `any()` function returns True if any item in the list evaluates to True. Otherwise, it returns False.
 - [ ] The `any()` function takes as arguments the list to check inside, and the item to check for. If "any" of the items in the list match the item to check for, the function returns True.
 - [ ] The `any()` function returns a Boolean value that answers the question "Are there any items in this list?"
+
+**example**
+```python
+if any([True, False, False, False]) == True:
+    print('Yes, there is True')
+>>>Yes, there is True
+ ```
 
 #### Q3. What data structure does a binary tree degenerate to if it isn't balanced properly?
 
@@ -28,12 +37,17 @@
 - [x] Static methods serve mostly as utility methods or helper methods, since they can't access or modify a class's state.
 - [ ] Static methods can access and modify the state of a class or an instance of a class.
 
+[reference](https://www.geeksforgeeks.org/class-method-vs-static-method-python)
+
 #### Q5. What are attributes?
 
 - [ ] Attributes are long-form version of an `if/else` statement, used when testing for equality between objects.
 - [x] Attributes are a way to hold data or describe a state for a class or an instance of a class.
 - [ ] Attributes are strings that describe characteristics of a class.
 - [ ] Function arguments are called "attributes" in the context of class methods and instance methods.
+
+**Explanation**
+Attributes defined under the class, arguments goes under the functions. arguments usually refer as parameter, whereas attributes are the constructor of the class or an instance of a class. 
 
 #### Q6. What is the term to describe this code?
 
@@ -50,6 +64,14 @@
 - [ ] `pop(my_list)`
 - [ ] `del(my_list)`
 - [x] `.pop()` method
+
+**example**
+```python
+my_list = [1,2,3]
+my_list.pop(0)
+my_list
+>>>[2,3]
+```
 
 #### Q8. What is one of the most common use of Python's sys library?
 
@@ -132,6 +154,8 @@ def sum(a, b):
     return a + b
 ```
 
+**explanation** - use ''' to start the doc and add output of the cell after >>>
+
 #### Q12. What built-in Python data type is commonly used to represent a stack?
 
 - [ ] `set`
@@ -167,6 +191,8 @@ return list(enumerate(college_years, 2019))
 - [x] `class Game(LogicGame): pass`
 - [ ] `def Game.LogicGame(): pass`
 
+`repeated but labels will be different`
+
 #### Q16. What is the purpose of the "self" keyword when defining or calling instance methods?
 
 - [ ] `self` means that no other arguments are required to be passed into the method.
@@ -174,12 +200,25 @@ return list(enumerate(college_years, 2019))
 - [x] `self` refers to the instance whose method was called.
 - [ ] `self` refers to the class that was inherited from to create the object using `self`.
 
+**Simple example**
+```python
+class my_secrets:
+    def __init__(self, password):
+        self.password = password
+        pass
+instance = my_secrets('1234')
+instance.password
+>>>'1234'
+```
+
 #### Q17. Which of these is NOT a characteristic of namedtuples?
 
 - [ ] You can assign a name to each of the `namedtuple` members and refer to them that way, similarly to how you would access keys in `dictionary`.
 - [ ] Each member of a namedtuple object can be indexed to directly, just like in a regular `tuple`.
 - [ ] `namedtuples` are just as memory efficient as regular `tuples`.
 - [x] No import is needed to use `namedtuples` because they are available in the standard library.
+
+**We need to import it using `from collections import namedtuple` **
 
 #### Q18. What is an instance method?
 
@@ -284,6 +323,8 @@ Also see Question 85 for the same question with different answers.
 - [x] It applies a function to each item in an iterable and returns the value of that function.
 - [ ] It converts a complex value type into simpler value types.
 - [ ] It creates a mapping between two different elements of different iterables.
+
+
 
 #### Q25. If you don't explicitly return a value from a function, what happens?
 
@@ -845,7 +886,7 @@ def calculate_sales_tax(subtotal):
 - [ ] python3 <_filename_> rundoctests
 - [ ] python3 doctest
 
-[Reference](https://youtu.be/P8qm0VAbbww?t=193)
+[tutorial video](https://www.youtube.com/watch?v=P8qm0VAbbww&t=180s)
 
 #### Q70. What is a lambda function ?
 
@@ -1114,16 +1155,62 @@ count_recursive(n + 1)
 3
 ```
 
-#### Q87. What will this code fragment return?
+#### Q87. In Python, when using sets, you use **_ to calculate the intersection between two sets and _** to calculate the union.
+
+- [ ] `Intersect;union`
+- [ ] |; &
+- [x] &; |
+- [ ] &&; ||
+
+#### Q88. What will this code fragment return?
+
 ```python
 import numpy as np
 np.ones([1,2,3,4,5])
 ```
-- [ ] It returns five diffrent square matrices filled with ones. The first is 1x1, the second 2x2, and so on to 5x5.
-- [ ] It returns a 5x5 matrix; each row will have the values 1,2,3,4,5.
-- [ ] It returns an array with the values 1,2,3,4,5.
+
+- [ ] It returns a 5x5 matric; each row will have the values 1,2,3,4,5.
+- [ ] It returns an array with the values 1,2,3,4,5
+- [ ] It returns five different square matrices filled with ones. The first is 1x1, the second 2x2, and so on to 5x5
 - [x] It returns a 5-dimensional array of size 1x2x3x4x5 filled with 1s.
 
 [Reference](https://www.geeksforgeeks.org/numpy-ones-python/)
 
+#### Q89. You encounter a FileNotFoundException while using just the filename in the `open` function. What might be the easiest solution?
+
+- [ ] Make sure the file is on the system PATH
+- [ ] Create a symbolic link to allow better access to the file
+- [x] Copy the file to the same directory as where the script is running from
+- [ ] Add the path to the file to the PYTHONPATH environment variable
+
+#### Q90. what will this command return?
+
+```python
+{x for x in range(100) if x%3 == 0}
+```
+
+- [x] a set of all the multiples of 3 less then 100
+- [ ] a set of all the number from 0 to 100 multiplied by 3
+- [ ] a list of all the multiples of 3 less then 100
+- [ ] a set of all the multiples of 3 less then 100 excluding 0
+
+#### Q91. What does the // operator in Python 3 allow you to do?
+
+- [x] Perform integer division
+- [ ] Perform operations on exponents
+- [ ] Find the remainder of a division operation
+- [ ] Perform floating point division
+
+#### Q92. This code provides the \_ of the list of numbers
+
+```python
+num_list =[21,13,19,3,11,5,18]
+num_list.sort()
+num_list[len(num_list)//2]
+```
+
+- [ ] mean
+- [ ] mode
+- [x] median
+- [ ] average
 
