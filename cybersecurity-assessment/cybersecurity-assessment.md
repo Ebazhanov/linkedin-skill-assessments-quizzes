@@ -87,3 +87,11 @@
 - [ ] pass-the-hash attack
 - [ ] password spray attack
 - [x] brute force attack
+
+#### Q12. Which area is DMZ?
+![image](https://user-images.githubusercontent.com/45083490/135709069-68011c48-7eaf-4635-bece-32fa1037b6c0.png)
+
+- [ ] rainbow table attack
+- [ ] pass-the-hash attack
+- [ ] password spray attack
+- [x] brute force attack
