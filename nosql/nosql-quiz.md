@@ -262,9 +262,9 @@
 #### Q38. You are developing a model for a graph database. Your data will be moved from a relational database into Neo4j. Which of these transformations apply?
 
 - [ ] Rows become labes: bales become nodes.
-- [ ] Tables become labels: rows become nodes.
+- [x] Tables become labels: rows become nodes.
 - [ ] Tables become collections: rows become items.
-- [x] Rows become collections: tables become items.
+- [ ] Rows become collections: tables become items.
 
 #### Q39. To index a field that holds an array value in MongoDB, which index type do you create?
 
