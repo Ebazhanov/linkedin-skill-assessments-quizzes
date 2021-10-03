@@ -384,3 +384,31 @@
 - [ ] memory buffer
 - [x] virtual memory
 - [ ] ReadyBoost
+
+#### Q53. In a two-tier hierarchy CA design, what is a common security best practice?
+
+- [ ] The issuing CA servers are placed in different geographical locations.
+- [ ] The intermediate or policy CA server is offline.
+- [ ] The root CA server is offline.
+- [ ] Only FIPS-compliant hardware security modules are used.
+
+#### Q54. Group policy objects are not being applied to domain controllers because the Default Domain Controllers and Default Domain group policies are corrupt. What can you run in a command prompt to recover them?
+
+- [ ] dcgpofix.exe
+- [ ] dcdiagfix.exe
+- [ ] ntdsutil.exe
+- [ ] dcpromo.exe
+
+#### Q55. You set up a storage area network that makes use of iSCSI storage. You then install the iSNS Server service feature on Windows Server 2012 R2. Why do you need this feature?
+
+- [ ] to set up storage Fibre Channels
+- [ ] to provide discovery services of iSCSI devices
+- [ ] to view information about host bus adapters
+- [ ] to manage RAID storage volumes
+
+#### Q56. A domain controller is a server running \_\_.
+
+- [ ] DFS
+- [ ] RDS
+- [ ] IIS
+- [ ] AD DS

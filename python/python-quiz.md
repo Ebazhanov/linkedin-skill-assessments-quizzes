@@ -1237,8 +1237,6 @@ np.ones([1,2,3,4,5])
 - [x] Copy the file to the same directory as where the script is running from
 - [ ] Add the path to the file to the PYTHONPATH environment variable
 
-**Explanation** - `FileNotFoundException` occurs when python doesn't know where the file is or it isn't in the working directory. 
-
 #### Q90. what will this command return?
 
 ```python
@@ -1269,6 +1267,3 @@ num_list[len(num_list)//2]
 - [ ] mode
 - [x] median
 - [ ] average
-
-**Explanation** - median is simple the middle value of the list, and to get the middle value we have to parse the index of that number. `sort` will sort the list values in ascending order then we get the index of median by dividing the length of the list by 2. Index must be an integer therefore we used `//`. 
-

@@ -344,8 +344,10 @@
 
 - [ ] to make sure AutoCAD works properly
 - [ ] to isolate all the blocks you are using in the current drawing
-- [x] to stop anyone seeing which AutoCAD palettes you are using
-- [ ] to automatically hide the palette content and display only the docked palette title bar
+- [ ] to stop anyone seeing which AutoCAD palettes you are using
+- [x] to automatically hide the palette content and display only the docked palette title bar
+
+[Source: LinkedIn practice mode](https://i.imgur.com/XRuI0hW.gif)
 
 #### Q46. The navigation bar is normally on by default and is located to the right-hand side of the drawing area. Which variable controls the display of the navigation bar, and to what value does it need to be set for the navigation bar to display on the screen?
 
@@ -557,7 +559,9 @@
 - [ ] side polygon
 - [ ] polyline polygon
 - [ ] line polygon
-- [ ] edge polygon
+- [x] edge polygon
+
+[Source: LinkedIn practice mode](https://i.imgur.com/MJJiIHs.png)
 
 #### Q76. When using blocks in a drawing, a selected block displays only one grip: the insertion point. How would you get a block to display all of its associated grips?
 
