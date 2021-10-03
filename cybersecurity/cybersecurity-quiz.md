@@ -99,3 +99,21 @@
 - [ ] BCP works to keep a business up and running despite a disaster. DRP works to restore the original business capabilities.
 - [ ] BCP is part of DRP.
 - [ ] DRP is part of BCP.
+
+#### Q15. Which aspect of cybersecurity do Distributed Denial of Service (DDoS) attacks affect the most?
+
+- [ ] non-repudiation
+- [ ] integrity 
+- [x] availability 
+- [ ] confidentiality 
+
+[Source: LinkedIn assessment practice mode](https://i.imgur.com/IeGShfi.png)
+
+#### Q16. You need to recommend a solution to automatically assess your cloud-hosted VMs against CIS benchmarks to identify deviations from security best practices. What type of solution should you recommend? 
+
+- [x] Cloud Security Posture Management (CSPM) 
+- [ ] Intrusion Detection and Prevention System (IDPS) 
+- [ ] Cloud Workload Protection Platforms (CWPP) 
+- [ ] Cloud Access Security Brokers (CASBs) 
+
+[Source: LinkedIn assessment practice mode](https://i.imgur.com/fsgkfoS.png)
