@@ -21,13 +21,6 @@
 - [ ] malware
 - [ ] buffer overflow
 
-#### Q3. Your organization recently implemented a unified messaging solution and VoIP phones on every desktop. You are responsible for researching the vulnerabilities of the VoIP system. Which type of attack are VoIP phones most vulnerable to experiencing?
-
-- [x] denial-of-service
-- [ ] brute force attacks
-- [ ] malware
-- [ ] buffer overflow
-
 #### Q4. Which security control cannot produce an active response to a security event?
 
 - [ ] cloud access security broker (CASB)
