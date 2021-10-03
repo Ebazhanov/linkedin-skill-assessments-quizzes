@@ -470,9 +470,7 @@ export class ToolsComponent {
 
 [Reference (angular.io)](https://angular.io/api/router/Router#navigate)
 
-#### Q33. When a service is provided for root and is also added to the provider's configuration for a lazy-loaded module, what instance of that service does the
-
-injector provide to constructors in the lazy-loaded module?
+#### Q33. When a service is provided for root and is also added to the provider's configuration for a lazy-loaded module, what instance of that service does the injector provide to constructors in the lazy-loaded module?
 
 - [ ] A new instance of that service is created when the module is lazy loaded.
 - [ ] Providing a service of the same type at a lazy-loaded module level is not allowed.
@@ -490,11 +488,13 @@ export class HighlightDirective {
 }
 ```
 
-- [ ] It is adding the CSS class named highlighted to any DOM element that has the appHighlight directive on it.
+- [x] It is adding the CSS class named highlighted to any DOM element that has the appHighlight directive on it.
 - [ ] HostBinding does not do anything on directives, only on components.
 - [ ] It is specifying if the host element gets the highlighted class added to its class attribute, then the directive class field highlight will get set to
       true; and if it is not added on the host it will get set to false.
 - [ ] It is creating an inline style on the host element with a CSS property named highlight set to true.
+
+[Reference (StackOverflow)](https://stackoverflow.com/a/46207423)
 
 #### Q35. In reactive forms, what Angular form class type is used on the native DOM <form> element to wire it up?
 
@@ -549,8 +549,10 @@ forms markup for the username field?
 
 - [ ] It renders the CSS exactly how you wrote it without any changes.
 - [ ] It makes use of shadow DOM markup and CSS.
-- [ ] It creates unique attributes for DOM elements and scopes the CSS selectors you write to those attribute ids.
+- [x] It creates unique attributes for DOM elements and scopes the CSS selectors you write to those attribute ids.
 - [ ] It renders all of the CSS rules you write as inline CSS on all of the DOM elements you use them on in the template.
+
+[Reference (Angular.io)](https://angular.io/guide/view-encapsulation#inspecting-generated-css)
 
 #### Q38. With the following TestBed setup, what can be used to access the rendered DOM for the UserCardComponent?
 
@@ -563,8 +565,12 @@ let fixture = TestBed.createComponent(UserCardComponent);
 
 - [ ] `fixture.componentTemplate`
 - [ ] `fixture.getComponentHtml()`
-- [ ] `fixture.nativeElement`
+- [x] `fixture.nativeElement`
 - [ ] `fixture.componentInstance.template `
+
+[Reference (StackOverflow)](https://stackoverflow.com/a/56504773)
+
+[Reference (Angular.io)](https://angular.io/guide/testing-components-basics#nativeelement)
 
 #### Q39. Given these two components, what will get rendered to the DOM based on the markup usage?
 
@@ -937,6 +943,8 @@ export class DataService { }
 ```
 
 - [ ] It registers a provider for the service that is available only at the root module level, not to any children modules.
-- [ ] It registers a provider for the service in the root application injector, making a single instance of it available throughout the application.
+- [x] It registers a provider for the service in the root application injector, making a single instance of it available throughout the application.
 - [ ] It makes it so the service can be injected only in the bootstrapped component for the application.
 - [ ] It sets up a compile time rule that allows you to put the service type only in the providers metadata property of the root NgModule.
+
+[Reference (Angular.io)](https://angular.io/guide/providers#providing-a-service)
