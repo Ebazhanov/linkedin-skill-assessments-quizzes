@@ -766,7 +766,6 @@ Which of the following options is correct ?
 - [ ] Use git checkout -b.
 - [ ] Run git stash branch <branch name>.
 
-
 #### Q94. You is the difference between git branch -d and git branch -D?
 
 - [ ] -D deletes the local branch, while -d deletes the branch regardless of push and merge status.

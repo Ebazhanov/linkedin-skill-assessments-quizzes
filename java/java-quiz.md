@@ -1344,6 +1344,7 @@ class Main {
 
 #### Q95. What is the output?
 
+```java
 import java.util.*;
 
 public class Main {
@@ -1354,14 +1355,15 @@ public class Main {
 		queue.add(3);
 		queue.add(2);
 		queue.add(1);
-	
+
 		while (queue.isEmpty() == false) {
 			System.out.printf("%d", queue.remove());
 		}
 	}
 }
+```
 
 - [ ] 1 3 2 4
 - [ ] 4 2 3 1
-- [X] 1 2 3 4
+- [x] 1 2 3 4
 - [ ] 4 3 2 1

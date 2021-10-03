@@ -905,19 +905,18 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] LinearLayout
 - [ ] Scrollview
 
-
 #### Q58. You have created an AboutActivity class that displays details about your app. Which code snippet allows you to launch your activity?
 
 - [ ] Intent(this, AboutActivity::class).also { intent ->
-   startService(intent)
-}
+      startService(intent)
+      }
 - [ ] Intent(this, AboutActivity::class.java).also { intent ->
-   startActivity(intent)
-}
+      startActivity(intent)
+      }
 
 - [ ] Intent(this, AboutActivity::class).also { intent ->
-   activity(intent)
-}
+      activity(intent)
+      }
 - [x] Intent(this, AboutActivity::class).also { intent ->
-   startActivity(intent)
-}
+      startActivity(intent)
+      }

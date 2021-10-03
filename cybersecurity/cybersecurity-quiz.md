@@ -5,7 +5,7 @@
 - [ ] Hybrid Cloud
 - [ ] Software as a Service (SaaS)
 - [x] Platform as a Service (PaaS)
-- [ ] Infrastructure as a Service  (IaaS)
+- [ ] Infrastructure as a Service (IaaS)
 
 #### Q2. Which option removes the risk of multitenancy in cloud computing?
 
@@ -28,14 +28,12 @@
 - [ ] intrusion detection system (IDS)
 - [ ] next generation firewall
 
-
-#### Q5. Packet sniffer is also called ______.
+#### Q5. Packet sniffer is also called **\_**.
 
 - [ ] SIEM
 - [ ] UTM
 - [x] protocol analyzer
 - [ ] data sink
-
 
 #### Q6. Which option tests code while it is in operation?
 
@@ -43,7 +41,6 @@
 - [ ] code analysis
 - [ ] static analysis
 - [x] dynamic analysis
-
 
 #### Q7. Which option describes testing that individual software developers can conduct on their own code?
 
@@ -58,7 +55,6 @@
 - [ ] limited details of server and network infrastructure
 - [ ] all information
 - [ ] limited details of server infrastructure
-
 
 #### Q9. Which security control can best protect against shadow IT by identifying and preventing use of unsanctioned cloud apps and services?
 
@@ -82,6 +78,7 @@
 - [x] brute force attack
 
 #### Q12. Which area is DMZ?
+
 ![image](https://user-images.githubusercontent.com/45083490/135709069-68011c48-7eaf-4635-bece-32fa1037b6c0.png)
 
 - [ ] 4
@@ -95,7 +92,6 @@
 - [ ] asymmetric encryption
 - [ ] digital signature
 - [ ] symmetric encryption
-
 
 #### Q14. What is the difference between DRP and BCP
 
