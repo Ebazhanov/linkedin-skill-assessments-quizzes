@@ -374,6 +374,8 @@ p {
 - [x] border-radius: 10px
 - [ ] corner-radius: 10px
 
+[Official doc:](https://www.w3schools.com/css/css3_borders.asp)
+
 #### Q27. In the following media query example, what conditions are being targeted?
 
 ```css
