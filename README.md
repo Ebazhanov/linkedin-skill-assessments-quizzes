@@ -10,11 +10,11 @@
 
 ### PLEASE
 
-add explanation (`or reference link`) to your answers. That will help anyone to better learn concepts they might not have a great understanding about.
+Add explanation (`or reference link`) to your answers. That will help anyone to better learn concepts they might not have a great understanding about.
 
 #### Announcement:
 
-if you want to meet each other or discuss quiz related problems join the `Discord` chat
+If you want to meet each other or discuss quiz related problems join the `Discord` chat
 
 [![Join our Discord server!](https://invidget.switchblade.xyz/p6wZ82w8Qj?theme=light)](https://discord.gg/p6wZ82w8Qj)
 
