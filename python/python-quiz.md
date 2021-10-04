@@ -17,11 +17,12 @@
 - [ ] The `any()` function returns a Boolean value that answers the question "Are there any items in this list?"
 
 **example**
+
 ```python
 if any([True, False, False, False]) == True:
     print('Yes, there is True')
 >>> Yes, there is True
- ```
+```
 
 #### Q3. What data structure does a binary tree degenerate to if it isn't balanced properly?
 
@@ -47,7 +48,7 @@ if any([True, False, False, False]) == True:
 - [ ] Function arguments are called "attributes" in the context of class methods and instance methods.
 
 **Explanation**
-Attributes defined under the class, arguments goes under the functions. arguments usually refer as parameter, whereas attributes are the constructor of the class or an instance of a class. 
+Attributes defined under the class, arguments goes under the functions. arguments usually refer as parameter, whereas attributes are the constructor of the class or an instance of a class.
 
 #### Q6. What is the term to describe this code?
 
@@ -66,6 +67,7 @@ Attributes defined under the class, arguments goes under the functions. argument
 - [x] `.pop()` method
 
 **example**
+
 ```python
 my_list = [1,2,3]
 my_list.pop(0)
@@ -201,6 +203,7 @@ return list(enumerate(college_years, 2019))
 - [ ] `self` refers to the class that was inherited from to create the object using `self`.
 
 **Simple example**
+
 ```python
 class my_secrets:
     def __init__(self, password):
@@ -324,7 +327,8 @@ Also see Question 85 for the same question with different answers.
 - [ ] It converts a complex value type into simpler value types.
 - [ ] It creates a mapping between two different elements of different iterables.
 
-**Explanation:** -  The synax for `map()` function is `list(map(function,iterable)`. the simple area finder using map would be like this
+**Explanation:** - The synax for `map()` function is `list(map(function,iterable)`. the simple area finder using map would be like this
+
 ```python
 import math
 radius = [1,2,3]
@@ -452,6 +456,7 @@ return output
 - [x] The `all()` function returns True if all items in the list evaluate to True. Otherwise, it returns False.
 
 **Explaination** - `all()` returns true if all in the list are True, see example below
+
 ```python
 test = [True,False,False,False]
 if all(test) is True:
@@ -641,6 +646,7 @@ def sum(a, b):
 - [x] a tuple subclass with iterable named fields
 
 **Example**
+
 ```python
 import math
 radius = [1,2,3]
@@ -680,7 +686,7 @@ fruit_info = {
 - [x] `True`
 - [ ] `None`
 
-**Explanation** - ` != ` is equivalent to **not equal to** in python
+**Explanation** - `!=` is equivalent to **not equal to** in python
 
 #### Q45. What does a class's `init()` method do?
 
@@ -690,6 +696,7 @@ fruit_info = {
 - [ ] The `__init__` method initializes any imports you may have included at the top of your file.
 
 **Example:**
+
 ```python
 class test:
     def __init__(self):
@@ -768,7 +775,7 @@ t1 = test()
 - [x] A deque adds items at either or both ends, and remove items at either or both ends.
 - [ ] A deque adds items only to the top, but remove from either or both sides.
 
-**Explanation** - `deque` is used to create block chanin and in that there is *first in first out* approch, which means the last element to enter will be the first to leave.
+**Explanation** - `deque` is used to create block chanin and in that there is _first in first out_ approch, which means the last element to enter will be the first to leave.
 
 #### Q55. What is the correct syntax for creating a variable that is bound to a set?
 
@@ -900,7 +907,7 @@ def calculate_sales_tax(subtotal):
 - [ ] a stacks adds items to the top and removes items from anywhere in the stack.
 - [ ] a stacks adds items to either end and removes items from either end.
 
-**Explanation** Stack uses the *first in first out* approach
+**Explanation** Stack uses the _first in first out_ approach
 
 #### Q66. What is a base case in a recursive function?
 
@@ -1117,6 +1124,7 @@ Updated version of Question 14.
 - [ ] when you need to run two or more chunks of code at once within the same file
 
 **Simple Example**
+
 ```python
 i = 1
 while i<6:
