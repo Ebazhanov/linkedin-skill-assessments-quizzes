@@ -465,7 +465,7 @@ printf("%d", f1(5));
 #endif /* MYLIB_H */
 ```
 
-- [ ]
+- [x]
 
 ```c
 #ifndef MYLIB_H
