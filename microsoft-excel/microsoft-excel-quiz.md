@@ -327,7 +327,7 @@
 - [ ] Move Chart
 - [ ] Switch Row/Column
 - [ ] Quick Layout
-- [ ] Change Chart Type
+- [x] Change Chart Type
 
 #### Q44. Cell A20 displays an orange background when its value is 5. Changing the value to 6 changes the background color to green. What type of formatting is applied to cell A20?
 
