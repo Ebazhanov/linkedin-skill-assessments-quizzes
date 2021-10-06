@@ -519,3 +519,10 @@ fi
 - [ ] a filter and an action
 - [ ] a facility and a priority
 - [ ] a filter and a priority
+
+#### Q64. Which choice is a Network Manager tool used to configure network connections from the GUI?
+
+- [ ] nmcli
+- [ ] ip
+- [ ] Onmtui
+- [x] nm-connection-editor

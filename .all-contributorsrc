@@ -5485,7 +5485,47 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/45140298?v=4",
       "profile": "http://www.nikhil27.com",
       "contributions": [
-        "design"
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "hyuckjin21",
+      "name": "hyuckjin21",
+      "avatar_url": "https://avatars.githubusercontent.com/u/831810?v=4",
+      "profile": "https://github.com/hyuckjin21",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Itashamodi",
+      "name": "Itasha Modi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58629614?v=4",
+      "profile": "https://github.com/Itashamodi",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Nikitha2309",
+      "name": "Nikitha Reddy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66035321?v=4",
+      "profile": "https://nikitha2309.github.io/Portfolio/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "MQ-xz",
+      "name": "Mahshooq Zubair",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51271771?v=4",
+      "profile": "https://mq-xz.github.io/",
+      "contributions": [
+        "design",
+        "code"
       ]
     }
   ],
