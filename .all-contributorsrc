@@ -5565,6 +5565,56 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "MattMarquise",
+      "name": "Matthew Marquise",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59939260?v=4",
+      "profile": "https://matthewmarquise.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "baronfac",
+      "name": "baronfac",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73475336?v=4",
+      "profile": "https://github.com/baronfac",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "AbhishekTilwar",
+      "name": "Abhishek Tilwar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63442418?v=4",
+      "profile": "https://linktr.ee/abhishektilwar",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "DavidsDvm",
+      "name": "DavidsDvm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33884578?v=4",
+      "profile": "https://davidsdvm.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "parikhparth23",
+      "name": "Parth Parikh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10181201?v=4",
+      "profile": "https://www.linkedin.com/in/parth-parikh-01098949",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

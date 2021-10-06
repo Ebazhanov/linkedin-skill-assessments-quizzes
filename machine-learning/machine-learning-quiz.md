@@ -627,3 +627,17 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] They would be grouped tightly together but far from the predicted.
 - [ ] They would be scattered around the predict outcome.
 - [x] They would be scattered far away from the predeicted outcome.
+
+#### Q83. Your machine learning system is using labeled examples to try to predict future data, compare that data to the predicted result, and then the model. What is the best description of this machine learning method?
+
+- [ ] unsupervised learning
+- [ ] semi-supervised learning
+- [ ] supervised learning
+- [ ] semi-reinforcement learning
+
+#### Q84. In the 1983 movie WarGames, the computer learns how to master the game of chess by playing against itself. What machine learning method was the computer using?
+
+- [ ] binary learning
+- [ ] supervised learning
+- [ ] unsupervised learning
+- [ ] reinforcement learning

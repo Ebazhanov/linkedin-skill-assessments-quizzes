@@ -312,11 +312,11 @@
 - [ ] Unlike a library, each item in a list contains a document.
 - [ ] Unlike a list, each column in a library contains data.
 
-#### Q37. To control library submissions in a SharePoint site, you need to implement approvals. Where do you find this setting? 
+#### Q37. To control library submissions in a SharePoint site, you need to implement approvals. Where do you find this setting?
 
-- [ ] document workflow settings 
-- [x] document versioning settings 
-- [ ] document audience targeting settings 
-- [ ] document validation settings 
+- [ ] document workflow settings
+- [x] document versioning settings
+- [ ] document audience targeting settings
+- [ ] document validation settings
 
 [Source: LinkedIn Assessment Practice mode](https://i.imgur.com/a7jcnsK.png)
