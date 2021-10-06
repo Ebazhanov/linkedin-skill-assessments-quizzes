@@ -1098,7 +1098,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 </table>
 ```
 
-- [X] C
+- [x] C
 
 ```HTML
 <table>
@@ -1166,7 +1166,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 <title>
 ```
 
-- [X] D
+- [x] D
 
 ```HTML
 <wbr>
@@ -1404,7 +1404,7 @@ As Steve Krug once said, happy talk must die.
 </button>
 ```
 
-- [X] C
+- [x] C
 
 ```HTML
 <button formaction="http://example.com/process">
@@ -1424,15 +1424,15 @@ As Steve Krug once said, happy talk must die.
 
 x<y&z>w
 
-- [ ] ```<p>x<y&z>w</p>```
+- [ ] `<p>x<y&z>w</p>`
 
-- [ ] ```<p>x\<y&z\>w</p>```
+- [ ] `<p>x\<y&z\>w</p>`
 
-- [ ] ```<p>x<<y&&z>>w```
+- [ ] `<p>x<<y&&z>>w`
 
-- [ ] ```<p>x<y&z>w</p>```
+- [ ] `<p>x<y&z>w</p>`
 
-``It's too strange question because all of that methods doesn't work. The good method is &amp, &lt, &gt using.``
+`It's too strange question because all of that methods doesn't work. The good method is &amp, &lt, &gt using.`
 
 #### Q90. What is wrong with this code snippet?
 

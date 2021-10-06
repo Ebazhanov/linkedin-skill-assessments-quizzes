@@ -1268,6 +1268,7 @@ section {
 - [ ] header > h1 {...}
 
 #### Q99. Which answer is an example of a type selector (also sometimes referred to as an element selector)?
+
 ```
 <style>
   ul {
@@ -1311,4 +1312,3 @@ section {
 - [ ] blackblack
 - [ ] orangeorange
 - [ ] redred
-

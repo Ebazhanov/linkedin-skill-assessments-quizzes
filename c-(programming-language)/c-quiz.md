@@ -467,7 +467,6 @@ printf("%d", f1(5));
 
 - [x]
 
-
 ```c
 #ifndef MYLIB_H
 #define MYLIB_H
@@ -511,7 +510,7 @@ main(){
 ```
 
 - [ ] 100
-- [X] 3
+- [x] 3
 - [ ] 5
 - [ ] 50
 
@@ -520,4 +519,4 @@ main(){
 - [ ] syntax-driven components
 - [ ] native interfaces
 - [ ] system objects
-- [X] function calls
+- [x] function calls
