@@ -662,14 +662,14 @@ aws ecs create-service \
  --service-name rest-api \
  --task-definition rest-api:1 \
  --desired-count 2 \
- --launch-type "FARGET" \
+ --launch-type "FARGATE" \
  --network-configuration \
  "awsvpcConfiguration={subnets=[subnet-0b29129ab],securityGroups=[sg-0b29129ab]}"
 ```
 
 - [ ] changes the security groups of the running **rest-api** task
-- [ ] creates a cluster called **production** and launches two containers into Farget with the **rest-api** task definition
-- [ ] launches two containers onto Farget into the existing **production** cluster using the **rest-api** task definition
+- [ ] creates a cluster called **production** and launches two containers into Fargate with the **rest-api** task definition
+- [x] launches two containers onto Fargate into the existing **production** cluster using the **rest-api** task definition
 - [ ] creates a service definition for the **rest-api** task; put two containers on the production cluster when launched **ecs-cli** up command
 
 #### Q73. You want to make your public API quickly accessible from all regions. What is the best way to do this?
