@@ -696,9 +696,11 @@ aws ecs create-service \
 #### Q76. What is `not` a default user of a common Linux instance launched from an AMI?
 
 - [ ] ubuntu
-- [ ] system-user
+- [x] system-user
 - [ ] ec2-user
 - [ ] admin
+
+[Reference](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connection-prereqs.html/)
 
 #### Q77. You have replicated the infrastructure that serves the backend API for your web application across regions to better serve your customers in the US and the EU. What is the best way to direct your web application at the nearest data center?
 
