@@ -569,3 +569,10 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [x] Use the Insert command and select the Word document.
 - [ ] Select the text and save it as Word document.
 - [ ] Use the Clipboard to copy and paste text into the Word document.
+
+#### Q72. What is typically created as the first page of a document and contains information such as the document title and author?
+
+- [x] cover page
+- [ ] master page
+- [ ] blank page
+- [ ] table of contents page
