@@ -72,10 +72,10 @@
 
 #### Q11. During a penetration test, you find a file containing hashed passwords for the system you are attempting to breach. Which type of attack is most likely to succeed in accessing the hashed passwords in a reasonable amount of time?
 
-- [ ] rainbow table attack
+- [x] rainbow table attack
 - [ ] pass-the-hash attack
 - [ ] password spray attack
-- [x] brute force attack
+- [ ] brute force attack
 
 #### Q12. Which area is DMZ?
 
