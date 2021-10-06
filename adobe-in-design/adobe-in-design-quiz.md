@@ -7,7 +7,7 @@
 - [ ] to change the corners of a frame from corner to rounded
 - [ ] to change the fill and stroke of a text frame
 
-Ref. https://www.agitraining.com/adobe/indesign/tutorials/text-frame-options-in-indesign?page=4#:~:text=You%20can%20have%20InDesign%20determine,choosing%20Object%20%3E%20Text%20Frame%20Options.
+[Ref.](https://www.agitraining.com/adobe/indesign/tutorials/text-frame-options-in-indesign?page=4#:~:text=You%20can%20have%20InDesign%20determine,choosing%20Object%20%3E%20Text%20Frame%20Options.)
 
 #### Q2. Which panel allows you to add an arrowhead to the end of a line?
 
@@ -16,8 +16,7 @@ Ref. https://www.agitraining.com/adobe/indesign/tutorials/text-frame-options-in-
 - [ ] Transform
 - [ ] Pathfinder
 
-Ref. https://helpx.adobe.com/in/indesign/using/applying-line-stroke-settings.html#:~:text=Use%20the%20Start%20and%20End,the%20Start%20and%20End%20menus.
-
+[Ref.](https://helpx.adobe.com/in/indesign/using/applying-line-stroke-settings.html#:~:text=Use%20the%20Start%20and%20End,the%20Start%20and%20End%20menus.)
 
 #### Q3. In the image shown, what do you know about the Body Text paragraph style?
 
@@ -28,7 +27,7 @@ Ref. https://helpx.adobe.com/in/indesign/using/applying-line-stroke-settings.htm
 - [ ] The style has been applied to two or more paragraphs.
 - [ ] The style has been added since the master styles were created.
 
-Ref. https://helpx.adobe.com/indesign/using/paragraph-character-styles.html
+[Ref.](https://helpx.adobe.com/indesign/using/paragraph-character-styles.html)
 
 #### Q4. You want to ensure that an image on your page is exactly 25% of its original size. How can you determine whether the image is set to the desired size?
 

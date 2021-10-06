@@ -528,16 +528,16 @@
 - [x] calculated metrics
 - [ ] custom metrics
 
-#### Q74. You are managing analytics for a recipe website that has the following categories: Appetizers, Main Dishes, and Desserts. What do you create in order to compare aggregated data of all recipes in the Appetizer category vs. all recipes in the Desserts category? 
+#### Q74. You are managing analytics for a recipe website that has the following categories: Appetizers, Main Dishes, and Desserts. What do you create in order to compare aggregated data of all recipes in the Appetizer category vs. all recipes in the Desserts category?
 
-- [ ] custom channels 
-- [ ] advanced filters 
-- [x] content grouping <= [not sure](https://support.google.com/analytics/answer/2853423?hl=en)  
-- [ ] custom segments 
+- [ ] custom channels
+- [ ] advanced filters
+- [x] content grouping <= [not sure](https://support.google.com/analytics/answer/2853423?hl=en)
+- [ ] custom segments
 
-#### Q75. How would you add a secondary dimension to a report? 
+#### Q75. How would you add a secondary dimension to a report?
 
-- [ ] from the Insights panel 
-- [ ] from the Secondary dimension menu 
-- [ ] all of these answers 
-- [ ] with a table filter 
+- [ ] from the Insights panel
+- [ ] from the Secondary dimension menu
+- [ ] all of these answers
+- [ ] with a table filter

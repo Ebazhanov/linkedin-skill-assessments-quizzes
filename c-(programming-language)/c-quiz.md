@@ -454,7 +454,8 @@ printf("%d", f1(5));
 
 #### Q35. Which choice is an include guard for the header file mylib.h?
 
-- [ ] 
+- [ ]
+
 ```c
 #ifdef MYLIB_H
 #undef MYLIB_H
@@ -463,7 +464,9 @@ printf("%d", f1(5));
 
 #endif /* MYLIB_H */
 ```
-- [ ] 
+
+- [ ]
+
 ```c
 #ifndef MYLIB_H
 #define MYLIB_H
@@ -472,14 +475,18 @@ printf("%d", f1(5));
 
 #endif /* MYLIB_H */
 ```
-- [ ] 
+
+- [ ]
+
 ```c
 #define MYLIB_H
 #include "mylib.h"
 
 #undef MYLIB_H
 ```
-- [ ] 
+
+- [ ]
+
 ```c
 #ifdef MYLIB_H
 #define MYLIB_H
@@ -488,7 +495,9 @@ printf("%d", f1(5));
 
 #endif /* MYLIB_H */
 ```
+
 #### Q36. How many times does the code inside the while loop get executed in this program?
+
 ```c
 main(){
  int x=1;

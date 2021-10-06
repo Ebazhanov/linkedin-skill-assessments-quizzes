@@ -487,7 +487,7 @@ class TestService {}
 
 **@target(com.linkedin.annotation.Loggable)**
 
-- [X] any join point where the target object has a @Loggable annotation
+- [x] any join point where the target object has a @Loggable annotation
 - [ ] any join point where the executing method has a @Loggable annotation
 - [ ] any method that implements Loggable
 - [ ] any method that extends Loggable
@@ -536,12 +536,12 @@ class TestConfig2 {
 
 - [ ] Aspect-Oriented Programming allows you to define different cross-cutting aspects that isolate beans to be available only in certain environments and profiles.
 - [ ] Aspect-Oriented Programming enables you to perform profiling, which lets you develop different cross-cutting JVM performance-tuning profiles for different aspects of your applications.
-- [X] Aspect-Oriented Programming enables the modularization of cross-cutting concerns so that repeated boilerplate logic, such as logging code, does not pollute business logic.
+- [x] Aspect-Oriented Programming enables the modularization of cross-cutting concerns so that repeated boilerplate logic, such as logging code, does not pollute business logic.
 - [ ] Aspect-Oriented Programming enables you to persist cross-cutting data across modularized shards of your database.
 
 #### Q57. Assuming username and password authentication is in place, what method on the Authentication object can be used to obtain the username?
 
-- [X] getPrincipal
+- [x] getPrincipal
 - [ ] getUsername
 - [ ] getUser
 - [ ] getDn
@@ -551,4 +551,4 @@ class TestConfig2 {
 - [ ] none of these answers
 - [ ] bean type
 - [ ] bean size
-- [X] bean name
+- [x] bean name
