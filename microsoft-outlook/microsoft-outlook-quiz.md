@@ -88,7 +88,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 #### Q12. What appears on your screen whenever a new email arrives?
 
 - [ ] an emoji
-- [ ] an alert
+- [x] an alert
 - [ ] a notice
 - [ ] a bell icon
 
@@ -104,12 +104,12 @@ C. Read receipts are expensive, so some organizations turn them off.
 - [ ] Filter
 - [ ] Junk Mail
 - [ ] The Delete Key
-- [ ] Clean Up Conversation
+- [x] Clean Up Conversation
 
 #### Q15. You have sent several emails to a customer and have not received a response. What option do you set to know whether the customer receives your messages?
 
 - [x] Delivery receipt
-- [] All of these answers
+- [ ] All of these answers
 - [ ] Read receipt
 - [ ] Tracking
 
