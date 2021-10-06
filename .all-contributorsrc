@@ -5565,6 +5565,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "MattMarquise",
+      "name": "Matthew Marquise",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59939260?v=4",
+      "profile": "https://matthewmarquise.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
