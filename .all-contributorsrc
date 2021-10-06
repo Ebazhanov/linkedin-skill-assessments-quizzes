@@ -5575,6 +5575,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "baronfac",
+      "name": "baronfac",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73475336?v=4",
+      "profile": "https://github.com/baronfac",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
