@@ -23,13 +23,13 @@
 ["red", "blue", "green"]
 ```
 
-- [x]
+- [_]
 
 ```json
 ["red", "blue", "green"]
 ```
 
-- [ ]
+- [X]
 
 ```json
 {
@@ -221,7 +221,7 @@
 - [ ] NaN
 - [x] null
 
-#### Q16. Which JavaScript method converts a Json to JavaScript value?
+#### Q16. Which JavaScript method converts JSON to a JavaScript value?
 
 - [x] JSON.parse()
 - [ ] JSON.stringify()
@@ -847,3 +847,10 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] objects; functions
 - [ ] arrays; functions
 - [ ] key/value pairs; arrays
+
+#### Q80. How does JSON represent truth, falsity and nullness?
+
+- [x] true, false, null
+- [ ] true, false
+- [ ] TRUE, FALSE, NULL
+- [ ] true, false, null
