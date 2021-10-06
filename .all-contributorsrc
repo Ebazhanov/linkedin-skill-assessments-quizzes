@@ -5527,6 +5527,15 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "das-jishu",
+      "name": "Subham Das",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60067940?v=4",
+      "profile": "https://www.linkedin.com/in/subham-das-profile/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
