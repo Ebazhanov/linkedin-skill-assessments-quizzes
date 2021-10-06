@@ -653,5 +653,3 @@ isset($_POST['submit'])
 - [x] 13
 - [ ] 1
 - [ ] 123
-
-**Note:** `Prints 13, on PHP Version 7.3.28`
