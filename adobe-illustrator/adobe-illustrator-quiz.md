@@ -560,3 +560,15 @@ From Adobe Help Center: [Share artwork](https://helpx.adobe.com/illustrator/how-
 - [ ] Viewing Distance
 - [ ] Viewing Angle
 - [ ] Gridling every
+
+#### Q76. Which option do you use to create the stroke shown below?
+
+<img width="400" alt="011" src="https://user-images.githubusercontent.com/13102859/135642887-d7dc854e-0eab-42cc-922e-1f3c04ce55c3.png">
+
+- [ ] Round Join
+- [ ] Projecting Cap
+- [x] Round Cap
+- [ ] Align Stroke to Outside
+
+**Explanation:**
+From Youtube Channel: [How to Round End of Path (Line) in Illustrator](https://www.youtube.com/watch?v=UCQb-JTRIm4&t=92s)

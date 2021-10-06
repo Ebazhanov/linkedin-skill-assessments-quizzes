@@ -439,3 +439,19 @@
 - [x] Globalization involves designing and developing a world-ready app that supports localized interfaces and regional data for users in multiple cultures. Localization is the process of translating an application's resources into versions for each culture that the application will support.
 
 **Explanation**: [Globalize and localize .NET applications](https://docs.microsoft.com/en-us/dotnet/core/extensions/globalization-and-localization)
+
+#### Q59. What does CIL stand for?
+
+- [ ] C# Interpreted Language
+- [x] Common Intermediate Language
+- [ ] Commonly Interpreted Language
+- [ ] C# Intermediate Language
+
+**Explanation**: [What is the full form of CIL?](https://ythi.net/abbreviations/english/what-does-cil-mean-what-is-the-full-form-of-cil/)
+
+#### Q60. Which choice best describes the difference between a namespace and an assembly?
+
+- [ ] Namespace contains code to form MSIL (Microsoft Intermediate Language). An assembly contains a set of unique names.
+- [ ] Namespace is the logical naming decided at design time by the developer. Scope for a particular type is defined at run time using an assembly.
+- [ ] A namespace has logical units that are physically grouped together. An assembly does not have any classification.
+- [ ] A namespace has logical units that are physically grouped together for assemblies. Assembly classes are available in your program and will be logically grouped.

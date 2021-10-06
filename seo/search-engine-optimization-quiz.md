@@ -490,3 +490,17 @@
 - [x] when creating a new subdomain
 
 **Explanation:** From article: [Types of redirects](https://moz.com/learn/seo/redirection)
+
+#### Q56. What would contribute to a low bounce rate?
+
+- [ ] Content does not match search intent.
+- [ ] Page returns 404 error.
+- [ ] Content reflects search intent.
+- [ ] URL uses parameters.
+
+#### Q57. What should be as consistent as possible across the web when developing a local SEO strategy?
+
+- [ ] backlinks
+- [ ] NAP
+- [ ] LRP
+- [ ] inbound links

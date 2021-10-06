@@ -374,6 +374,8 @@ p {
 - [x] border-radius: 10px
 - [ ] corner-radius: 10px
 
+[Official doc:](https://www.w3schools.com/css/css3_borders.asp)
+
 #### Q27. In the following media query example, what conditions are being targeted?
 
 ```css
@@ -1207,3 +1209,53 @@ article > p { color: green; }
 - [ ] Both paragraphs will be green.
 - [x] Paragraph 1 will be green. Paragraph 2 will be blue.
 - [ ] Both paragraphs will be blue.
+
+#### Q95. Review the declaration of border style shown below. What is the corresponding longhand syntax?
+
+```
+border: 1px solid red;
+```
+
+[ ]
+border-size: 1px;
+border-style: solid;
+border-color: red;
+
+[ ]
+border-size: 1px;
+border-type: solid;
+border-color: red;
+
+[x]
+border-width: 1px;
+border-style: solid;
+border-color: red;
+
+[ ]
+border-width: 1px;
+border-line: solid;
+border-color: red;
+
+#### Q96. Pseudo-classes are used to **\_**.
+
+- [x] style the state of the selected element
+- [ ] insert presentational content
+- [ ] style a specific part of the selected element
+- [ ] style the elements using class selectors
+
+#### Q97. In this example, what styles will be applied to which elements?
+
+```
+section {
+  color: gray;
+}
+<section>
+  <p>paragraph</p>
+  <a href="#">link</a>
+</section>
+```
+
+- [ ] The paragraph and link will be gray.
+- [ ] The background color of the section element will be gray.
+- [ ] The paragraph will be gray. The link will be the browser default, black.
+- [x] Only the paragraph will be gray.

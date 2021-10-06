@@ -461,7 +461,7 @@ From docs: [A Cloud Guru's Blog](https://acloudguru.com/blog/engineering/linux-c
 - [ ] They can read files in it.
 - [ ] They can delete files in it.
 
-**Note:** Not confident about answer. If someone knows exact answer please contribute in this repository.
+**Note:** This is correct because of the keyword "directory". More info at: https://www.tutorialspoint.com/unix/unix-file-permission.htm
 
 #### Q58. What will this command print?
 
@@ -496,3 +496,26 @@ fi
 - [x] systemctl stop crond
 
 **Note:** Not confident about answer. If someone knows the exact answer please contribute in this repository and mark correct answer.
+
+#### Q61. What issue might a user have when they mount a filesystem by partition path such as /dev/sdal in the /etc/fstab file?
+
+- [ ] The device order may change on boot, resulting in a system that will not boot properly.
+- [ ] The user may run out of device letters.
+- [ ] There are no issues with referring to partitions by their partition path.
+- [ ] It is more difficult identifying mounted devices by partition path.
+
+#### Q62. Which option would you choose to force grep to use a basic regular expression (BRE)?
+
+- [x] grep -E
+- [ ] grep -B
+- [ ] grep -e
+- [ ] grep -G
+
+[Reference](https://linuxize.com/post/regular-expressions-in-grep/)
+
+#### Q63. An rsyslogd filter determines which items in a log file to act on. What is it made up of?
+
+- [ ] a facility and an action
+- [ ] a filter and an action
+- [ ] a facility and a priority
+- [ ] a filter and a priority

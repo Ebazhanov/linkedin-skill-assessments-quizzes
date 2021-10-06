@@ -327,7 +327,7 @@
 - [ ] Move Chart
 - [ ] Switch Row/Column
 - [ ] Quick Layout
-- [ ] Change Chart Type
+- [x] Change Chart Type
 
 #### Q44. Cell A20 displays an orange background when its value is 5. Changing the value to 6 changes the background color to green. What type of formatting is applied to cell A20?
 
@@ -757,3 +757,61 @@
 - [ ] Right-click the slicer and select Slicer Settings.
 - [ ] Merge the two PivotTables, right-click the merged PivotTable, and select Combine Slicer.
 - [ ] Right-click the slicer and select Report Connections, or click Report Connections on the Slicer tab.
+
+#### Q93. Which formula contains a valid absolute reference?
+
+- [ ] `=B7*$G$3`
+- [ ] `=(B7)*G3`
+- [ ] `=B7*$[G3]`
+- [ ] `=B7$*G3`
+
+#### Q94. What happens if you use the **AutoSum** button in cell H4?
+
+![image](images/Q94.png)
+
+- [ ] AutoSum shows the total in the bottom-right of the page
+- [ ] AutoSum will total the numbers in cells B4:G8
+- [ ] AutoSum will total the numbers in cells B4:G4
+- [ ] AutoSum will return a **#VALUE!** error.
+
+#### Q95. To create this PivotTable, drag the _ field to the Rows area and the _ field to the Values area?
+
+![image](images/Q95.png)
+
+- [ ] Total Sales This Year; Total Sales This Year
+- [x] Total Sales This Year; Market Region
+- [ ] Representative ID Number; Total Sales This Year
+- [ ] Market Region; Total Sales This Year
+-
+
+#### Q96. Cell A1 contains the number 3. Which formula returns the text Apple?
+
+- [ ] `=SELECT(A1, "Banana", "Orange", "Apple", "Mango")`
+- [ ] `=CHOOSE(A1, "Banana", "Orange", "Apple", "Mango")`
+- [ ] `=CHOOSE(A1,"Banana","Orange","Apple","Mango")`
+- [ ] `=MATCH(A1,{"Banana","Orange","Apple","Mango"})`
+
+#### Q97. Which value is calculated when the formula **=AVERAGE(G2:G6)/AVERAGE(C2:C6)** is entered into cell H7?
+
+![image](images/Q97.png)
+
+- [ ] average number of minutes per call
+- [ ] average annual sales per minute
+- [ ] average number sales
+- [x] average annual sales per call
+
+#### Q98. How would you search an entire workbook with **Find & Select**?
+
+- [ ] On the **Home** tab, click **Find & Select > Find > Options** (Windows) or **Find & Select > Find** (Mac). Change the **Within** drop-down to **Workbook**.
+- [ ] On the **Home** tab, click **Find & Select > Find > Options** (Windows) or **Find & Select > Find** (Mac). Change the **Look in** drop-down to **Workbook**.
+- [ ] On the **Home** tab, click **Find & Select > Find > Options** (Windows) or **Find & Select > Find** (Mac). Change the **Search** drop-down to **All**.
+- [ ] You cannot search an entire workbook - you must search the worksheets individually.
+
+#### Q99. How do you create a heatmap in a table, such as this one, which is responsive to the values?
+
+![image](images/Q99.png)
+
+- [ ] map chart
+- [ ] color scales (within conditional formatting)
+- [ ] manual highlighting
+- [ ] data bars (within conditional formatting)

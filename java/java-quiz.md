@@ -1341,3 +1341,29 @@ class Main {
 - [x] contains unordred elements
 - [ ] contains unique elements
 - [ ] contains sorted elements
+
+#### Q95. What is the output?
+
+```java
+import java.util.*;
+
+public class Main {
+	public static void main(String[] args)
+	{
+		PriorityQueue<Integer> queue = new PriorityQueue<>();
+		queue.add(4);
+		queue.add(3);
+		queue.add(2);
+		queue.add(1);
+
+		while (queue.isEmpty() == false) {
+			System.out.printf("%d", queue.remove());
+		}
+	}
+}
+```
+
+- [ ] 1 3 2 4
+- [ ] 4 2 3 1
+- [x] 1 2 3 4
+- [ ] 4 3 2 1

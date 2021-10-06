@@ -1123,12 +1123,12 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
 
 - [ ] a preprocessor directive that prevents inconsistent behaviors in lines that contain the #ifdef, #ifndef, or #elif directives
 - [ ] a compiler option that prevents the user code from including additional libraries
-- [ ] a preprocessor statement that prevents a source file from being included more than once in a project
+- [x] a preprocessor statement that prevents a source file from being included more than once in a project
 - [ ] a library that adds safety features such as mutexes, watchdog timers, and assertions to the project
 
 #### Q66. What would be the correct declaration of a default constructor for a class named Sprite?
 
-- [ ]
+- [x]
 
 ```public:
        Sprite();
@@ -1140,11 +1140,14 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
        void Sprite();
 ```
 
-- [ ] 
+- [ ]
+
 ```public:
       void Sprite();
 ```
+
 - [ ]
+
 ```private:
        Sprite();
 ```
