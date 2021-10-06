@@ -17,6 +17,8 @@ export class UserDetailsComponent {
 - [ ] It makes the `<p>` tag in the template support content projection.
 - [ ] It makes the `<p>` tag visible in the final render. If the #bio was used in the template and the @ViewChild was not used in the class, then Angular would automatically hide the `<p>` tag that has #bio on it.
 
+[Reference (DigitalOcean - viewchild-access-component)](https://www.digitalocean.com/community/tutorials/angular-viewchild-access-component)
+
 #### Q2. What method is used to wire up a FormControl to a native DOM input element in reactive forms?
 
 - [ ] Add the string name given to the FormControl to an attribute named controls on the <form> element to indicate what fields it should include.
@@ -24,12 +26,16 @@ export class UserDetailsComponent {
 - [x] Use the formControlName directive and set the value equal to the string name given to the FormControl.
 - [ ] Use the string name given to the FormControl as the value for the DOM element id attribute.
 
+[Reference (Angular.io - Reactive Form Groups)](https://angular.io/guide/reactive-forms#creating-nested-form-groups)
+
 #### Q3. What is the difference between the `paramMap` and the `queryParamMap` on the `ActivatedRoute` class?
 
 - [ ] The paramMap is an object literal of the parameters in a route's URL path. The queryParamMap is an Observable of those same parameters.
 - [ ] The paramMap is an Observable that contains the parameter values that are part of a route's URL path. The queryParamMap is a method that takes in an array of keys and is used to find specific parameters in the paramMap.
 - [ ] paramMap is the legacy name from Angular 3. The new name is queryParamMap.
 - [x] Both are Observables containing values from the requested route's URL string. The paramMap contains the parameter values that are in the URL path and the queryParamMap contains the URL query parameters.
+
+[Reference (StackOverflow)](https://stackoverflow.com/a/49617621)
 
 #### Q4. Based on the following usage of the async pipe, and assuming the users class field is an Observable, how many subscriptions to the users Observable are being made?
 
@@ -46,6 +52,8 @@ export class UserDetailsComponent {
 - [ ] None. The template syntax is not correct.
 - [x] Three. There is one for each async pipe.
 - [ ] One. The async pipe caches Observables by type internally.
+
+[References (UltimateCourses)](https://ultimatecourses.com/blog/angular-ngfor-async-pipe)
 
 #### Q5. How can you use the HttpClient to send a POST request to an endpoint from within an addOrder function in this OrderService?
 
@@ -64,12 +72,17 @@ export class OrderService {
 - [ ] this.httpClient.post<Order>(this.orderUrl, order);
 - [x] this.httpClient.post<Order>(this.orderUrl, order).subscribe();
 
+
+[Reference (Angular.io - Sending data to server)](https://angular.io/guide/http#sending-data-to-a-server)
+
 #### Q6. What is the RouterModule.forRoot method used for?
 
 - [ ] Registering any providers that you intend to use in routed components.
 - [x] Registering route definitions at the root application level.
 - [ ] Indicating that Angular should cheer on your routes to be successful.
 - [ ] Declaring that you intend to use routing only at the root level.
+
+[Reference (O'REILLY)](https://www.oreilly.com/library/view/switching-to-angular/9781788620703/c9e90774-0e10-410b-bd20-d3e9e0b8d117.xhtml)
 
 #### Q7. Which DOM elements will this component metadata selector match on?
 
@@ -84,6 +97,8 @@ export class OrderService {
 - [ ] The first instance of `<app-user-card></app-user-card>`.
 - [x] All instances of `<app-user-card></app-user-card>`.
 - [ ] All instances of `<user-card></user-card>`.
+
+[Reference (Angular.io - Component Metadata)](https://angular.io/guide/architecture-components#component-metadata)
 
 #### Q8. What is the correct template syntax for using the built-in ngFor structural directive to render out a list of productNames?
 
@@ -121,12 +136,16 @@ export class OrderService {
 </ul>
 ```
 
+[Reference (Angular.io- Structural Directives)](https://angular.io/guide/built-in-directives#listing-items-with-ngfor)
+
 #### Q9. What are the two component decorator metadata properties used to set up CSS styles for a component?
 
 - [ ] viewEncapsulation and viewEncapsulationFiles.
 - [ ] There is only one and it is the property named css.
 - [ ] css and cssUrl.
 - [x] styles and styleUrls.
+
+[Reference (Angular.io - Component Styles)](https://angular.io/guide/component-styles)
 
 #### Q10. With the following component class, what template syntax would you use in the template to display the value of the title class field?
 
@@ -144,6 +163,8 @@ class TitleCardComponent {
 - [x] `{{ title }}`
 - [ ] `[title]`
 - [ ] A class field cannot be displayed in a template via the template syntax.
+
+[Reference (Angular.io - String Interpolation or Text Interpolation)](https://angular.io/guide/interpolation)
 
 #### Q11. What is the purpose of the valueChanges method on a FormControl?
 
