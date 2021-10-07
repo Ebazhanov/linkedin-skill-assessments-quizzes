@@ -284,7 +284,7 @@ git push -u origin master
 - [ ] Run git hotfix with the shortcut name.
 - [ ] Assign a shortcut or command using git options file.
 - [ ] Use the git custom-key command.
-- [x] Create an alias in the git config file.
+- [x] Create an alias usin the git config command.
 
 #### Q29. What is the status of the beta-notes.js file in the following output?
 
@@ -761,10 +761,12 @@ Which of the following options is correct ?
 
 #### Q93. You would like to restore some previously stashed work to a new branch. How can you do that?
 
-- [x] Use git branch <stash hash>.
+- [ ] Use git branch <stash hash>.
 - [ ] Add the stashed commits to the current commit, then create a new branch.
 - [ ] Use git checkout -b.
-- [ ] Run git stash branch <branch name>.
+- [x] Run git stash branch <branch name>.
+
+[reference here](https://stackoverflow.com/questions/6925099/git-stash-changes-apply-to-new-branch)
 
 #### Q94. You is the difference between git branch -d and git branch -D?
 
@@ -781,3 +783,12 @@ Which of the following options is correct ?
 - [ ] git stash show -p
 
 [reference here](https://stackoverflow.com/questions/10725729/see-whats-in-a-stash-without-applying-it)
+
+#### Q96. Which statement is true of the git push command?
+
+- [x] By default, a push doesn't send tags to the remote repository.
+- [ ] Only annotated tags are automatically pushed to the remote repository with a commit.
+- [ ] Tags are pushed to the remote repository with their respective commits.
+- [ ] Commits can be tagged only when they are created.
+
+[reference here](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
