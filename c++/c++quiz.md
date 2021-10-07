@@ -1151,3 +1151,14 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
 ```private:
        Sprite();
 ```
+#### Q66. What is the purpose of this line in a header file:
+
+```
+    #pragma once
+```
+
+- [ ] to restrict the use of its contents to only one source file
+- [ ] to tell the compiler that only one variable can be instantiated from the classes or types contained in this header file
+- [ ] to help the compiler finish faster by assuring that only one compiler pass is necessary for the code included in this header file
+- [x] to make the compiler parse that header file only once, even if it is included multiple times in the source
+
