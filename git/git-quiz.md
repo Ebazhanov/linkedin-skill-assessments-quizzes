@@ -773,13 +773,11 @@ Which of the following options is correct ?
 - [x] -d deletes the local branch, while -D deletes the local branch regardless of push and merge status.
 - [ ] -D deletes the current commit head, while -d deletes the entire branch.
 
-#### Q94. You stashed three sets of changes but cannot remember the conetnts of the first stash entry. What command would you use to see the details of the changes in the first
+#### Q95. You stashed three sets of changes but cannot remember the contents of the first stash entry. What command would you use to see the details of the changes in the first of the three stash entries?
 
-of the three stash enteies?
-
-- [ ] git stash show -p stash@{2}
+- [x] git stash show -p stash@{2}
 - [ ] git stash list
-- [x] git stash show -p stash@{1}
+- [ ] git stash show -p stash@{1}
 - [ ] git stash show -p
 
-  for reference: https://www.gitkraken.com/learn/git/git-stash
+[reference here](https://stackoverflow.com/questions/10725729/see-whats-in-a-stash-without-applying-it)
