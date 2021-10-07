@@ -1151,3 +1151,11 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
 ```private:
        Sprite();
 ```
+
+#### Q66. What is a variable of type double?
+
+- [ ] a 2-tuple
+- [ ] an integer number
+- [x] a floating point number
+- [ ] a string with more than 255 characters
+
