@@ -2,8 +2,8 @@
 
 #### Q1. Which ad component has three fields that allow 30 characters each?
 
-- [ ] the headline
-- [x] the description
+- [x] the headline
+- [ ] the description
 - [ ] the website URL
 - [ ] the call-to-action
 
@@ -23,7 +23,7 @@
 
 #### Q4. You are running a campaign that will consist of 15 ads. What is the minimum number of ad groups that you can have as part of the campaign?
 
-- [ ] 1
+- [x] 1
 - [ ] 5
 - [ ] 3
 - [ ] 15
@@ -44,24 +44,24 @@
 
 #### Q7. Which choice is `not` an option when configuring `ad` extensions?
 
-- [ ] product extensions
+- [x] product extensions
 - [ ] sitelink extensions
-- [ ] message extensions
+- [x] message extensions
 - [ ] callout extensions
 
 #### Q8. Which choice is a best practice when designing a landing page for an ad campaign?
 
 - [ ] having lots of inbound links
 - [ ] using JavaScript
-- [ ] relevant content matching the ad
+- [x] relevant content matching the ad
 - [ ] enrolling in Ad Central
 
 #### Q9. Which choice has no impact on Quality Score?
 
 - [ ] ad relevance
-- [ ] expected clickthrough rate
+- [x] expected clickthrough rate
 - [ ] landing page experience
-- [ ] max CPC bid
+- [x] max CPC bid
 
 #### Q10. Marcelina wants to know how many sales her Google Ads brought in. What should she set up?
 
@@ -101,7 +101,7 @@
 #### Q15. Which ad rotation setting uses machine learning to prioritize ads based upon expected performance?
 
 - [ ] Rotate evenly
-- [ ] Optimize
+- [x] Optimize
 - [ ] Manual rotation
 - [ ] Rotate indefinitely
 
@@ -188,3 +188,21 @@
 - [ ] Do not include the sale in the ad text, as this likley violated Google Ads editorial policies.
 - [x] Add a countdown customizer to the ad text.
 - [ ] Manually adjust the ad text as frequently as possible to reflect the time remaining
+
+#### Q28. Tabitha has a mobile application that is complementary to her website. She wants to make it known to potential customers, but driving app downloads is not her main goal. What would you recommend she configure on her Google Ads?
+
+- [x] app extension
+- [ ] Universal App campaign
+- [ ] Mobile App campaign
+- [ ] download extension
+
+[Source: LinkedIn Assessment Practice Mode](https://i.imgur.com/qlKN9SU.png)
+
+#### Q29. Which solution allows you to show ads in Google search results, only if the user has previously visited your website?
+
+- [ ] MDC
+- [ ] ECPC
+- [x] RLSA
+- [ ] Target ROAS
+
+[Source: LinkedIn Assessment Practice Mode](https://i.imgur.com/9FToRjW.png)

@@ -205,14 +205,14 @@
 - [ ] Code contracts contain definitions for a group of related functionalities that a class or a struct can implement.
 - [ ] Code contracts contain data structures for a group of related functionalities that a class or a struct can implement.
 
-#### Q30. You must connect an app to an online identity provider using OAuth. For authentication, the app uses WebAuthenticationBroker object. You need to make sure the app registers with the provider. Which actions do you take?
+#### Q30. You must connect an app to an online identity provider using OAuth. For authentication, the app uses WebAuthenticationBroker object. You need to make sure the app registers with the provider. Which action do you take?
 
 - [ ] Construct an HTTP request URI and an HTTPS request URI.
 - [ ] Invoke the GetCurrentApplicationCallbackUri method and construct an HTTPS request URI.
 - [ ] Invoke the AuthenticateAsync and GetCurrentApplicationCallbackUri methods.
-- [x] Invoke the AuthenticateAsync method and construct an HTTPS request URI. //The requestUri parameter must be a HTTPS address and
-      // You call the AuthenticateAsync method to
-      // connect to the online identity provider and get an access token
+- [x] Invoke the AuthenticateAsync method and construct an HTTPS request URI.
+
+> The requestUri parameter must be a HTTPS address and you call the AuthenticateAsync method to connect to the online identity provider and get an access token
 
 #### Q31.You want to create a class of which only a single instance can exist. Which design pattern best fits this objective?
 
@@ -371,3 +371,87 @@
 - [ ] when you want to increase the number of apps that are compatible with your library, and decrease the .NET API surface area your library can access
 - [ ] when you want to decrease speed but have more features
 - [ ] when you want to increase compilation speed and have fewer features
+
+#### Q52. Why would the .NET Framework use Normal-JIT (Just-in-Time)?
+
+- [ ] to compile complete source code into native code in a single compilation cycle during deployment of the application
+- [ ] to compile only the methods that are called at runtime and remove them from memory after execution
+- [ ] to compile only the methods that are called at runtime and them store them in cache for one minute
+- [x] to compile only methods called at runtime – which are compiled the first time the methods are called and then stored in a cache to be used for execution when the same methods are called again
+
+**Explanation**: [JIT (Just-In-Time) Compiler](https://www.c-sharpcorner.com/UploadFile/nipuntomar/jit-just-in-time-compiler/)
+
+#### Q53. What is .NET?
+
+- [ ] .NET is a general-purpose programming language. The language has expanded significantly over time, and now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation.
+- [ ] .NET is a virtual machine that enables a computer to run programs written in several languages and compile programs to bytecode.
+- [ ] .NET is an interpreted, high-level, general-purpose programming language. Its language constructs an object-oriented approach aimed at helping programmers write clear, logical code for small and large-scale projects.
+- [x] .NET is a free, cross-platform, open-source developer platform for building many different types of applications with multiple languages, editors, and libraries for web, mobile, desktop, gaming, and IoT.
+
+**Explanation**: [What is .NET?](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet)
+
+#### Q54. The ASP.NET Core Module is a native IIS module that plugs into the IIS pipeline to either **\_**.
+
+- [ ] host an ASP.NET Code app inside of the IIS worker process, called the out-of-process hosting model, or forward web requests to a backend ASP.NET Core app running the Kesrel server, called the in-process hosting model
+- [ ] create IIS code the server needs in a file with the extension required, or run the IIS server in a mode compatible for ASP.NET Core
+- [ ] package up your C# application and C# packages into .NET modules, or specify which of its packages should be visible to other .NET modules
+- [x] host an ASP.NET Code app inside of the IIS workes process, called the in-process hosting model, or forward web requests to a backend ASP.NET Core app running the Kestrel server, called the out-of-process hosting model
+
+**Explanation**: [ASP.NET Core Module](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-5.0)
+
+#### Q55. In the code below, what is the difference between RenderPartial and RenderAction?
+
+```cs
+@{
+  Html.RenderAction("Add");
+  Html.RenderPartial("Add");
+}
+```
+
+- [ ] RenderPartial will call an action method of the current controller and render a result inline. RenderAction will render the specified view inline without calling any action method.
+- [ ] RenderAction will call an action method of the current model and render a result inline. RenderPartial will render the specified view inline without calling any action method.
+- [ ] RenderAction will call an action method of the current controller and render a result inline. RenderPartial will render the specified view inline without calling any action method.
+- [ ] RenderPartial will call an action method of the current model and render a result inline. RenderAction will render the specified view inline without calling any action method.
+
+#### Q56. What is the Liskov substitution principle?
+
+- [ ] Many client-specific interfaces are better than one general-purpose interface.
+- [x] Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
+- [ ] A class should have only a single responsibility — that is, only changes to one part of the software's specification should be able to affect the specification of the class.
+- [ ] Software entities should be open for extension, but closed for modification.
+
+**Explanation**: [Liskov substitution principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
+
+#### Q57. What method do you use to explicitly kill a user's session?
+
+- [ ] Session.Timeout()
+- [x] Session.Abandon()
+- [ ] Session.KillAll()
+- [ ] Session.Remove()
+
+**Explanation**: [Session.Abandon Method](<https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524310(v=vs.90)>)
+
+#### Q58 Which choice best describes the difference between globalization and localization?
+
+- [ ] Localization enables the .NET runtime to provide services to managed code so language compilers can emit metadata and references in your code. Globalization reverses this process.
+- [ ] Globalization enables the .NET runtime to provide services to managed code so language compilers can emit metadata and references in your code. Localization reverses this process.
+- [ ] Localization involves designing and developing a world-ready app that supports localized interfaces and regional data for users in multiple cultures. Globalization is the process of translating an application's resources into versions for each culture that the application will support.
+- [x] Globalization involves designing and developing a world-ready app that supports localized interfaces and regional data for users in multiple cultures. Localization is the process of translating an application's resources into versions for each culture that the application will support.
+
+**Explanation**: [Globalize and localize .NET applications](https://docs.microsoft.com/en-us/dotnet/core/extensions/globalization-and-localization)
+
+#### Q59. What does CIL stand for?
+
+- [ ] C# Interpreted Language
+- [x] Common Intermediate Language
+- [ ] Commonly Interpreted Language
+- [ ] C# Intermediate Language
+
+**Explanation**: [What is the full form of CIL?](https://ythi.net/abbreviations/english/what-does-cil-mean-what-is-the-full-form-of-cil/)
+
+#### Q60. Which choice best describes the difference between a namespace and an assembly?
+
+- [ ] Namespace contains code to form MSIL (Microsoft Intermediate Language). An assembly contains a set of unique names.
+- [ ] Namespace is the logical naming decided at design time by the developer. Scope for a particular type is defined at run time using an assembly.
+- [ ] A namespace has logical units that are physically grouped together. An assembly does not have any classification.
+- [ ] A namespace has logical units that are physically grouped together for assemblies. Assembly classes are available in your program and will be logically grouped.

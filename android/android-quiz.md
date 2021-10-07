@@ -792,7 +792,7 @@ xml
 
 - [ ] This APK is created on a developer machine from the debug product flavor.
 - [ ] This APK is created from the internalDebug product flavor.
-- [ ] This APK created from the debug product flavor and internal build type.
+- [x] This APK created from the debug product flavor and internal build type.
 - [ ] This APK is created from the debug build type and internal product flavor.
 
 #### Q51. When attempting to build your project, what might the following error indicate?
@@ -897,3 +897,63 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] content provider
 - [x] fragment
 - [ ] service
+
+#### Q57. What should you use to display a large, scrolling list of elements?
+
+- [ ] ListView
+- [x] Recycler View
+- [ ] LinearLayout
+- [ ] Scrollview
+
+#### Q58. You have created an AboutActivity class that displays details about your app. Which code snippet allows you to launch your activity?
+
+- [ ] Intent(this, AboutActivity::class).also { intent ->
+      startService(intent)
+      }
+- [ ] Intent(this, AboutActivity::class.java).also { intent ->
+      startActivity(intent)
+      }
+
+- [ ] Intent(this, AboutActivity::class).also { intent ->
+      activity(intent)
+      }
+- [x] Intent(this, AboutActivity::class).also { intent ->
+      startActivity(intent)
+      }
+
+#### Q59. What is the use of AndroidManifest.xml file?
+
+- [ ] It describes the component ofthe application
+- [ ] It declares the minimum level of the android API that the application requires
+- [ ] It facilitates to provide a uinque name for the application by specifying package name
+- [x] All of the above
+
+#### Q60. Which attribute of the element <uses-sdk> is used to specify the minimum API Level required for the application to run?
+
+- [ ] android:targetSdkVersion
+- [x] android:minSdkVersion
+- [ ] android:maxSdkVersion
+- [ ] None of the above
+
+#### Q61. To shrink your code in release builds, what tool does Android Studio use?
+
+- [x] R8
+- [ ] ProGuard
+- [ ] Shrinker
+- [ ] D8
+
+[Reference](https://developer.android.com/studio/build/shrink-code)
+
+#### Q62. Which layout hierarchy is likely to be drawn the most quickly?
+
+- [ ] A
+![img](https://i.imgur.com/mT08jag.png)
+
+- [ ] B
+![img](https://i.imgur.com/rz9eKYc.png)
+
+- [ ] C
+![img](https://i.imgur.com/ETaHhaS.png)
+
+- [ ] D
+![img](https://i.imgur.com/1QBrTwR.png)

@@ -303,6 +303,9 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] to delegate coding responsibility more efficiently
 - [ ] to conserve memory
 - [x] to avoid writing duplicate code
+- [x] to separate class behavior from the more general
+
+_NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is it also true?
 
 #### Q40. In addition to attributes and behaviours, what quality must a class possess?
 
@@ -450,3 +453,33 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] code reusability
 - [ ] lazy initialization
 - [ ] data abstraction
+
+#### Q61. Are you reauired to return an object if it was passed by reference to a function, and why or why not?
+
+- [ ] Yes, the caller function needs to reflect the changes.
+- [ ] No, you should use a global variable instead.
+- [ ] No, changes will be automatically reflected in the calling function.
+- [ ] Yes, the object must be the same in the caller function.
+
+#### Q62. Why is inheritance ?
+
+- [ ] Yes, the caller function needs to reflect the changes.
+- [ ] No, you should use a global variable instead.
+- [ ] No, changes will be automatically reflected in the calling function.
+- [ ] Yes, the object must be the same in the caller function.
+
+#### Q63. What is the best example of a superclass and subclass relationship?
+
+- [x] car:toyota
+- [ ] ducks:pond
+- [ ] toes:feet
+- [ ] rock:stone
+
+[Source: LinkedIn assessment practice mode](https://i.imgur.com/xUCuxms.png)
+
+#### Q64. Which statements best describe the Gang of Four design patterns called Memento and Observer?
+
+- [ ] Memento notifies multiple classes of changes. Observer captures and restores an object's internal state.
+- [ ] Memento defers the exact steps of an algorithm to a subclass. Observer defines a new operation to a class without change.
+- [ ] Memento alters an object's behavior when its state changes. Observer encapsulates an algorithm inside a class.
+- [ ] Memento captures and restores an object's internal state. Observer notifies multiple classes of changes.

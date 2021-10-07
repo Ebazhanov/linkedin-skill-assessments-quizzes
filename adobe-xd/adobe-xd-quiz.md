@@ -5,6 +5,6 @@
 ![Q1](images/001.jpg)
 
 - [ ] in the `Components` panel
-- [ ] in the `Layers` panel
+- [x] in the `Layers` panel
 - [ ] in the `Property Inspector`
 - [ ] in Share mode

@@ -61,6 +61,8 @@ git merge --squash HEAD@{1}
 
 #### Q7. Looking at the following commands, describe what is happening.
 
+#### Q7. Describe what is happening given these commands:
+
 ```bash
 git checkout feature-user-location
 git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
@@ -759,10 +761,10 @@ Which of the following options is correct ?
 
 #### Q93. You would like to restore some previously stashed work to a new branch. How can you do that?
 
-- [x] Use `git branch <stash hash>`.
+- [x] Use git branch <stash hash>.
 - [ ] Add the stashed commits to the current commit, then create a new branch.
-- [ ] Use `git checkout -b`.
-- [ ] Run `git stash branch <branch name>`.
+- [ ] Use git checkout -b.
+- [ ] Run git stash branch <branch name>.
 
 #### Q94. You is the difference between git branch -d and git branch -D?
 
@@ -770,3 +772,14 @@ Which of the following options is correct ?
 - [ ] -d deletes the current commit head, while -D deletes the entire branch.
 - [x] -d deletes the local branch, while -D deletes the local branch regardless of push and merge status.
 - [ ] -D deletes the current commit head, while -d deletes the entire branch.
+
+#### Q94. You stashed three sets of changes but cannot remember the conetnts of the first stash entry. What command would you use to see the details of the changes in the first
+
+of the three stash enteies?
+
+- [ ] git stash show -p stash@{2}
+- [ ] git stash list
+- [x] git stash show -p stash@{1}
+- [ ] git stash show -p
+
+  for reference: https://www.gitkraken.com/learn/git/git-stash

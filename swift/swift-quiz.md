@@ -189,9 +189,9 @@ names.map { (s) -> String in
 }
 ```
 
-- [x] ["BEAR", "JOE", "CLARK"]
+- [ ] ["BEAR", "JOE", "CLARK"]
 - [ ] ["B", "J", "C"]
-- [ ] ["Bear", "Joe", "Clark"]
+- [x] ["Bear", "Joe", "Clark"]
 - [ ] This code contains an error.
 
 #### Q18. What describes this line of code?

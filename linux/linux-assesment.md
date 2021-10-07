@@ -429,9 +429,12 @@ find / -size -10K -exec ls -l {} \;
 #### Q54. To elevate privileges using the `sudo` command, a user must **\_**.
 
 - [ ] enter the root user's password
-- [ ] enter their own password
+- [x] enter their own password
 - [ ] enter the sudo user's password
 - [ ] change to the root group
+
+**Reference:**
+From docs: [A Cloud Guru's Blog](https://acloudguru.com/blog/engineering/linux-commands-for-beginners-sudo#:~:text=Sudo%20asks%20for%20your%20user%20password.%C2%A0%20Note%20that%20it%20is%20asking%20for%20your%20password%2C%20not%20the%20root%20password.)
 
 #### Q55. When would this system cron job run its task?
 
@@ -447,14 +450,18 @@ find / -size -10K -exec ls -l {} \;
 - [ ] Firewalls are only service specific, whereas TCP Wrappers can block all traffic.
 - [ ] TCP Wrappers works at the network layer, so it blocks traffic before the firewall even sees it.
 - [ ] Firewalls easily spawn commands to operate on connection data, whereas TCP Wrappers cannot.
-- [ ] TCP Wrappers works at the application layer, so it can make access decisions on encrypted data.
+- [x] TCP Wrappers works at the application layer, so it can make access decisions on encrypted data.
+
+**Note:** TCP Wrapper works on Application Layer but answer is not too much confirmed.
 
 #### Q57. As root, you set execute permissions for user, group, and other on a directory. Now users can do what?
 
 - [ ] They can execute files in it.
-- [ ] They can traverse it.
+- [x] They can traverse it.
 - [ ] They can read files in it.
 - [ ] They can delete files in it.
+
+**Note:** This is correct because of the keyword "directory". More info at: https://www.tutorialspoint.com/unix/unix-file-permission.htm
 
 #### Q58. What will this command print?
 
@@ -476,5 +483,46 @@ fi
 
 - [ ] The code snippet cannot be improved, this is a valid way of checking for the existence of a file.
 - [ ] Use Bash's built-in `[[ ]]` test conditions instead of the ls command.
-- [ ] The redirect to `/dev/null` will silence the return code invalidating the conditional. Removing the redirect will solve this.
+- [x] The redirect to `/dev/null` will silence the return code invalidating the conditional. Removing the redirect will solve this.
 - [ ] The ls command will output the name of the file to the screen. Running ls in quiet mode will improve the code snippet.
+
+**Note:** Not confident about answer. If someone knows the exact answer please contribute in this repository and mark correct answer.
+
+#### Q60. Using a systemd-based distribution, you want to restrict the cron service from running either automatically or manually. Which command would you run?
+
+- [ ] systemctl disable crond
+- [ ] systemctl disallow crond
+- [ ] systemctl mask crond
+- [x] systemctl stop crond
+
+**Note:** Not confident about answer. If someone knows the exact answer please contribute in this repository and mark correct answer.
+
+#### Q61. What issue might a user have when they mount a filesystem by partition path such as /dev/sdal in the /etc/fstab file?
+
+- [ ] The device order may change on boot, resulting in a system that will not boot properly.
+- [ ] The user may run out of device letters.
+- [ ] There are no issues with referring to partitions by their partition path.
+- [ ] It is more difficult identifying mounted devices by partition path.
+
+#### Q62. Which option would you choose to force grep to use a basic regular expression (BRE)?
+
+- [x] grep -E
+- [ ] grep -B
+- [ ] grep -e
+- [ ] grep -G
+
+[Reference](https://linuxize.com/post/regular-expressions-in-grep/)
+
+#### Q63. An rsyslogd filter determines which items in a log file to act on. What is it made up of?
+
+- [ ] a facility and an action
+- [ ] a filter and an action
+- [ ] a facility and a priority
+- [ ] a filter and a priority
+
+#### Q64. Which choice is a Network Manager tool used to configure network connections from the GUI?
+
+- [ ] nmcli
+- [ ] ip
+- [ ] Onmtui
+- [x] nm-connection-editor

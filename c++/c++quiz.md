@@ -1118,3 +1118,36 @@ int median(const my_array& a)
 - [ ] The argument is passed as a reference, so the Function receives a copy that can be modified without affecting the original variable.
 
 Note: This one is similar to Q6, but focuses on the `const` keyword.
+
+#### Q65. What is an include guard?
+
+- [ ] a preprocessor directive that prevents inconsistent behaviors in lines that contain the #ifdef, #ifndef, or #elif directives
+- [ ] a compiler option that prevents the user code from including additional libraries
+- [x] a preprocessor statement that prevents a source file from being included more than once in a project
+- [ ] a library that adds safety features such as mutexes, watchdog timers, and assertions to the project
+
+#### Q66. What would be the correct declaration of a default constructor for a class named Sprite?
+
+- [x]
+
+```public:
+       Sprite();
+```
+
+- [ ]
+
+```private:
+       void Sprite();
+```
+
+- [ ]
+
+```public:
+      void Sprite();
+```
+
+- [ ]
+
+```private:
+       Sprite();
+```

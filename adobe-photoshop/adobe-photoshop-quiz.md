@@ -242,9 +242,9 @@
 
 #### Q31. Which command makes it easier to adjust selected areas of color in two images in order to make them similar?
 
-- [ ] Match Color
+- [x] Match Color
 - [ ] Replace Color
-- [x] Hue/Saturation
+- [ ] Hue/Saturation
 - [ ] Levels
 
 #### Q32. If you scan a film or slide negative, which command turns it into a positive?
@@ -402,7 +402,7 @@
 
 ![What does the grayscale image in this figure show?](images/014.png?raw=true)
 
-- [ ] the edges affected by the Sharpen command as refined by the Masking slider
+- [x] the edges affected by the Sharpen command as refined by the Masking slider
 - [ ] the edges affected by the Sharpen command as refined by the Radius slider
 - [ ] the edges affected by the Sharpen command as refined by the Detail slider
 - [ ] the edges affected by the Sharpen command as refined by the Amount slider
@@ -425,7 +425,7 @@
 
 #### Q54. The option bar, which is normally above the canvas, is not visible. Where would you go to reopen it?
 
-- [ ] View > Show > Show Extra Options
+- [x] View > Show > Show Extra Options
 - [ ] Window > Tool Presets
 - [ ] Window > Options
 - [ ] Edit > Toolbar
@@ -434,12 +434,12 @@
 
 - [ ] Pencil tool
 - [ ] Vanishing Point
-- [ ] Pen tool
+- [x] Pen tool
 - [ ] Trace Contour filter
 
 #### Q56. How do you browse images on your hard drive using the companion application that is included with the Adobe Creative Cloud plans?
 
-- [ ] Click `File > Browse in Bridge`
+- [x] Click `File > Browse in Bridge`
 - [ ] Click `File > Browse in Lightroom Classic CC.`
 - [ ] Use the Creative Cloud application.
 - [ ] Click `File > Browse in Lightroom CC`.

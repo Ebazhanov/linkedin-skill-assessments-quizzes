@@ -220,6 +220,8 @@
 
 #### Q31. What is this report an example of?
 
+![Tree map](https://i.imgur.com/CJFjxxD.png)
+
 - [ ] cohort analysis
 - [ ] funnel visualization
 - [ ] user flow
@@ -256,9 +258,9 @@
 #### Q36. What is a best practice after launching a major change to your home page?
 
 - [ ] Create a new filter.
-- [ ] Create an annotation.
+- [x] Create an annotation.
 - [ ] Create a new view.
-- [x] Create a new property.
+- [ ] Create a new property.
 
 #### Q37. You want to enable a destination goal for a URL that appends query string parameters with each submission—for example, `/thanks?uid=123`. Which match types would work?
 
@@ -525,3 +527,17 @@
 - [ ] custom dimensions
 - [x] calculated metrics
 - [ ] custom metrics
+
+#### Q74. You are managing analytics for a recipe website that has the following categories: Appetizers, Main Dishes, and Desserts. What do you create in order to compare aggregated data of all recipes in the Appetizer category vs. all recipes in the Desserts category?
+
+- [ ] custom channels
+- [ ] advanced filters
+- [x] content grouping <= [not sure](https://support.google.com/analytics/answer/2853423?hl=en)
+- [ ] custom segments
+
+#### Q75. How would you add a secondary dimension to a report?
+
+- [ ] from the Insights panel
+- [ ] from the Secondary dimension menu
+- [ ] all of these answers
+- [ ] with a table filter

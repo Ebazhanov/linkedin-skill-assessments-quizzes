@@ -7,12 +7,22 @@
 - [ ] Abstract classes must inherit from concrete classes.
 - [x] An abstract class exists only so that other "concrete" classes can inherit from the abstract class.
 
+[reference](https://www.geeksforgeeks.org/abstract-classes-in-python/)
+
 #### Q2. What happens when you use the build-in function `any()` on a list?
 
 - [ ] The `any()` function will randomly return any item from the list.
 - [x] The `any()` function returns True if any item in the list evaluates to True. Otherwise, it returns False.
 - [ ] The `any()` function takes as arguments the list to check inside, and the item to check for. If "any" of the items in the list match the item to check for, the function returns True.
 - [ ] The `any()` function returns a Boolean value that answers the question "Are there any items in this list?"
+
+**example**
+
+```python
+if any([True, False, False, False]) == True:
+    print('Yes, there is True')
+>>> Yes, there is True
+```
 
 #### Q3. What data structure does a binary tree degenerate to if it isn't balanced properly?
 
@@ -28,12 +38,17 @@
 - [x] Static methods serve mostly as utility methods or helper methods, since they can't access or modify a class's state.
 - [ ] Static methods can access and modify the state of a class or an instance of a class.
 
+[reference](https://www.geeksforgeeks.org/class-method-vs-static-method-python)
+
 #### Q5. What are attributes?
 
 - [ ] Attributes are long-form version of an `if/else` statement, used when testing for equality between objects.
 - [x] Attributes are a way to hold data or describe a state for a class or an instance of a class.
 - [ ] Attributes are strings that describe characteristics of a class.
 - [ ] Function arguments are called "attributes" in the context of class methods and instance methods.
+
+**Explanation**
+Attributes defined under the class, arguments goes under the functions. arguments usually refer as parameter, whereas attributes are the constructor of the class or an instance of a class.
 
 #### Q6. What is the term to describe this code?
 
@@ -50,6 +65,15 @@
 - [ ] `pop(my_list)`
 - [ ] `del(my_list)`
 - [x] `.pop()` method
+
+**example**
+
+```python
+my_list = [1,2,3]
+my_list.pop(0)
+my_list
+>>>[2,3]
+```
 
 #### Q8. What is one of the most common use of Python's sys library?
 
@@ -132,6 +156,8 @@ def sum(a, b):
     return a + b
 ```
 
+**explanation** - use ''' to start the doc and add output of the cell after >>>
+
 #### Q12. What built-in Python data type is commonly used to represent a stack?
 
 - [ ] `set`
@@ -167,6 +193,8 @@ return list(enumerate(college_years, 2019))
 - [x] `class Game(LogicGame): pass`
 - [ ] `def Game.LogicGame(): pass`
 
+`repeated but labels will be different`
+
 #### Q16. What is the purpose of the "self" keyword when defining or calling instance methods?
 
 - [ ] `self` means that no other arguments are required to be passed into the method.
@@ -174,12 +202,26 @@ return list(enumerate(college_years, 2019))
 - [x] `self` refers to the instance whose method was called.
 - [ ] `self` refers to the class that was inherited from to create the object using `self`.
 
+**Simple example**
+
+```python
+class my_secrets:
+    def __init__(self, password):
+        self.password = password
+        pass
+instance = my_secrets('1234')
+instance.password
+>>>'1234'
+```
+
 #### Q17. Which of these is NOT a characteristic of namedtuples?
 
 - [ ] You can assign a name to each of the `namedtuple` members and refer to them that way, similarly to how you would access keys in `dictionary`.
 - [ ] Each member of a namedtuple object can be indexed to directly, just like in a regular `tuple`.
 - [ ] `namedtuples` are just as memory efficient as regular `tuples`.
 - [x] No import is needed to use `namedtuples` because they are available in the standard library.
+
+**We need to import it using `from collections import namedtuple` **
 
 #### Q18. What is an instance method?
 
@@ -284,6 +326,16 @@ Also see Question 85 for the same question with different answers.
 - [x] It applies a function to each item in an iterable and returns the value of that function.
 - [ ] It converts a complex value type into simpler value types.
 - [ ] It creates a mapping between two different elements of different iterables.
+
+**Explanation:** - The synax for `map()` function is `list(map(function,iterable)`. the simple area finder using map would be like this
+
+```python
+import math
+radius = [1,2,3]
+area = list(map(lambda x: round(math.pi*(x**2), 2), radius))
+area
+>>> [3.14, 12.57, 28.27]
+```
 
 #### Q25. If you don't explicitly return a value from a function, what happens?
 
@@ -402,6 +454,17 @@ return output
 - [ ] The `all()` function returns True if all the items in the list can be converted to strings. Otherwise, it returns False.
 - [ ] The `all()` function will return all the values in the list.
 - [x] The `all()` function returns True if all items in the list evaluate to True. Otherwise, it returns False.
+
+**Explaination** - `all()` returns true if all in the list are True, see example below
+
+```python
+test = [True,False,False,False]
+if all(test) is True:
+    print('Yeah all are True')
+else:
+    print('There is an imposter')
+>>> There is an imposter
+```
 
 #### Q33. What is the correct syntax for calling an instance method on a class named Game?
 
@@ -566,6 +629,8 @@ def sum(a, b):
     return a + b
 ```
 
+**Explanation:** Use """ to start and end the docstring and use >>> to represent the output. If you write this correctly you can also run the doctest using build-in doctest module
+
 #### Q40. Suppose a Game class inherits from two parent classes: BoardGame and LogicGame. Which statement is true about the methods of an object instantiated from the Game class?
 
 - [ ] When instantiating an object, the object doesn't inherit any of the parent class's methods.
@@ -579,6 +644,16 @@ def sum(a, b):
 - [ ] a generic object class with non-iterable named fields
 - [ ] a tuple subclass with non-iterable parameter fields
 - [x] a tuple subclass with iterable named fields
+
+**Example**
+
+```python
+import math
+radius = [1,2,3]
+area = list(map(lambda x: round(math.pi*(x**2), 2), radius))
+area
+>>> [3.14, 12.57, 28.27]
+```
 
 #### Q42. What symbol(s) do you use to assess equality between two elements?
 
@@ -611,12 +686,25 @@ fruit_info = {
 - [x] `True`
 - [ ] `None`
 
+**Explanation** - `!=` is equivalent to **not equal to** in python
+
 #### Q45. What does a class's `init()` method do?
 
 - [ ] The `__init__` method makes classes aware of each other if more than one class is defined in a single code file.
 - [ ] The`__init__` method is included to preserve backwards compatibility from Python 3 to Python 2, but no longer needs to be used in Python 3.
 - [x] The `__init__` method is a constructor method that is called automatically whenever a new object is created from a class. It sets the initial state of a new object.
 - [ ] The `__init__` method initializes any imports you may have included at the top of your file.
+
+**Example:**
+
+```python
+class test:
+    def __init__(self):
+        print('I came here without your permission lol')
+        pass
+t1 = test()
+>>> 'I came here without your permission lol'
+```
 
 #### Q46. What is meant by the phrase "space complexity"?
 
@@ -648,6 +736,8 @@ fruit_info = {
 - [ ] `self` means that no other arguments are required to be passed into the method.
 - [x] `self` refers to the instance whose method was called.
 
+**Explanation:** - Try running the example of the Q45 without passing `self` argument inside the `__init__`, you'll understand the reason. You'll get the error like this `__init__() takes 0 positional arguments but 1 was given`, this means that something is going inside even if haven't specified, which is instance itself.
+
 #### Q50. What statement about the class methods is true?
 
 - [ ] A class method is a regular function that belongs to a class, but it must return None.
@@ -669,7 +759,7 @@ fruit_info = {
 - [ ] `func getMaxNum(list_of_nums): # body of function goes here`
 - [x] `def get_max_num(list_of_nums): # body of function goes here`
 
-[explanation](https://www.python.org/dev/peps/pep-0008/)
+[explanation for 52 & 53](https://www.python.org/dev/peps/pep-0008/)
 
 #### Q53. According to the PEP 8 coding style guidelines, how should constant values be named in Python?
 
@@ -684,6 +774,8 @@ fruit_info = {
 - [ ] A deque adds items to either or both sides, but only removes items from the top.
 - [x] A deque adds items at either or both ends, and remove items at either or both ends.
 - [ ] A deque adds items only to the top, but remove from either or both sides.
+
+**Explanation** - `deque` is used to create block chanin and in that there is _first in first out_ approch, which means the last element to enter will be the first to leave.
 
 #### Q55. What is the correct syntax for creating a variable that is bound to a set?
 
@@ -781,6 +873,8 @@ def calculate_sales_tax(subtotal):
 - [x] You would get a RuntimeError: maximum recursion depth exceeded.
 - [ ] The function using recursion would return None.
 
+[explanation](https://www.python-course.eu/python3_recursive_functions.php#Definition-of-Recursion)
+
 #### Q62. What is the runtime complexity of searching for an item in a binary search tree?
 
 - [ ] The runtime for searching in a binary search tree is O(1) because each node acts as a key, similar to a dictionary.
@@ -788,12 +882,16 @@ def calculate_sales_tax(subtotal):
 - [x] The runtime for searching in a binary search tree is generally O(h), where h is the height of the tree.
 - [ ] The runtime for searching in a binary search tree is O(n) because every node in the tree must be visited.
 
+[explanation](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)
+
 #### Q63. Why would you use `mixin`?
 
 - [ ] You use a `mixin` to force a function to accept an argument at runtime even if the argument wasn't included in the function's definition.
 - [ ] You use a `mixin` to allow a decorator to accept keyword arguments.
 - [ ] You use a `mixin` to make sure that a class's attributes and methods don't interfere with global variables and functions.
 - [x] If you have many classes that all need to have the same functionality, you'd use a `mixin` to define that functionality.
+
+[explanation](https://www.youtube.com/watch?v=zVFLBfqV-q0)
 
 #### Q64. What is the runtime complexity of adding an item to a stack and removing an item from a stack?
 
@@ -809,6 +907,8 @@ def calculate_sales_tax(subtotal):
 - [ ] a stacks adds items to the top and removes items from anywhere in the stack.
 - [ ] a stacks adds items to either end and removes items from either end.
 
+**Explanation** Stack uses the _first in first out_ approach
+
 #### Q66. What is a base case in a recursive function?
 
 - [x] A base case is the condition that allows the algorithm to stop recursing. It is usually a problem that is small enough to solve directly.
@@ -823,6 +923,8 @@ def calculate_sales_tax(subtotal):
 - [ ] There is no benefit to using the `with` keyword for opening a file in Python.
 - [x] When you open a file using the `with` keyword in Python, Python will make sure the file gets closed, even if an exception or error is thrown.
 
+[explanation](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)
+
 #### Q68. Why would you use a virtual environment?
 
 - [x] Virtual environments create a "bubble" around your project so that any libraries or packages you install within it don't affect your entire machine.
@@ -832,10 +934,12 @@ def calculate_sales_tax(subtotal):
 
 #### Q69. What is the correct way to run all the doctests in a given file from the command line?
 
-- [ ] python3 -m doctest <_filename_>
-- [x] python3 <_filename_>
+- [x] python3 -m doctest <_filename_>
+- [ ] python3 <_filename_>
 - [ ] python3 <_filename_> rundoctests
 - [ ] python3 doctest
+
+[tutorial video](https://www.youtube.com/watch?v=P8qm0VAbbww&t=180s)
 
 #### Q70. What is a lambda function ?
 
@@ -1019,6 +1123,15 @@ Updated version of Question 14.
 - [x] when you want some code to continue running as long as some condition is true
 - [ ] when you need to run two or more chunks of code at once within the same file
 
+**Simple Example**
+
+```python
+i = 1
+while i<6:
+    print('Countdown:',i)
+    i = i + 1
+```
+
 #### Q85. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?
 
 - [ ]
@@ -1054,3 +1167,118 @@ def __init__(attr1, attr2):
 ```
 
 **Explanation**: When instantiating a new object from a given class, the `__init__()` method will take both `attr1` and `attr2`, and set its values to their corresponding object attribute, that's why the need of using `self.attr1 = attr1` instead of `attr1 = attr1`.
+
+#### Q86. What would this recursive function print if it is called with no parameters?
+
+```python
+def count_recursive(n=1):
+    if n > 3:
+        return
+    print(n)
+
+count_recursive(n + 1)
+```
+
+- [ ]
+
+```python
+1
+1
+2
+2
+3
+3
+```
+
+- [ ]
+
+```python
+3
+2
+1
+```
+
+- [ ]
+
+```python
+3
+3
+2
+2
+1
+1
+```
+
+- [x]
+
+```python
+1
+2
+3
+```
+
+#### Q87. In Python, when using sets, you use **_ to calculate the intersection between two sets and _** to calculate the union.
+
+- [ ] `Intersect;union`
+- [ ] |; &
+- [x] &; |
+- [ ] &&; ||
+
+#### Q88. What will this code fragment return?
+
+```python
+import numpy as np
+np.ones([1,2,3,4,5])
+```
+
+- [ ] It returns a 5x5 matric; each row will have the values 1,2,3,4,5.
+- [ ] It returns an array with the values 1,2,3,4,5
+- [ ] It returns five different square matrices filled with ones. The first is 1x1, the second 2x2, and so on to 5x5
+- [x] It returns a 5-dimensional array of size 1x2x3x4x5 filled with 1s.
+
+[Reference](https://www.geeksforgeeks.org/numpy-ones-python/)
+
+#### Q89. You encounter a FileNotFoundException while using just the filename in the `open` function. What might be the easiest solution?
+
+- [ ] Make sure the file is on the system PATH
+- [ ] Create a symbolic link to allow better access to the file
+- [x] Copy the file to the same directory as where the script is running from
+- [ ] Add the path to the file to the PYTHONPATH environment variable
+
+#### Q90. what will this command return?
+
+```python
+{x for x in range(100) if x%3 == 0}
+```
+
+- [x] a set of all the multiples of 3 less then 100
+- [ ] a set of all the number from 0 to 100 multiplied by 3
+- [ ] a list of all the multiples of 3 less then 100
+- [ ] a set of all the multiples of 3 less then 100 excluding 0
+
+#### Q91. What does the // operator in Python 3 allow you to do?
+
+- [x] Perform integer division
+- [ ] Perform operations on exponents
+- [ ] Find the remainder of a division operation
+- [ ] Perform floating point division
+
+#### Q92. This code provides the \_ of the list of numbers
+
+```python
+num_list =[21,13,19,3,11,5,18]
+num_list.sort()
+num_list[len(num_list)//2]
+```
+
+- [ ] mean
+- [ ] mode
+- [x] median
+- [ ] average
+
+#### Q93. Which statement about the class methods is true?
+
+- [ ] A class method holds all of the data for a particular class.
+- [x] A class method can modify the state of the class, but it cannot directly modify the state of an instance that inherits from that class.
+- [ ] A class method is a regular function that belongs to a class, but it must return None
+- [ ] A class method is similar to a regular function, but a class method does not take any arguments.

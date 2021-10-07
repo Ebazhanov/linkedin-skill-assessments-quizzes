@@ -37,7 +37,7 @@
 
 #### Q6. How can you create a stored procedure in MySQL?
 
-- [ ]
+- [ ] A
 
 ```
 1 CREATE PROCEDURE P () AS
@@ -45,7 +45,7 @@
 3 END;
 ```
 
-- [x]
+- [x] B
 
 ```
 1 CREATE PROCEDURE P ()
@@ -53,7 +53,7 @@
 3 END
 ```
 
-- [ ]
+- [ ] C
 
 ```
 1 CREATE PROCP
@@ -61,7 +61,7 @@
 3 END;
 ```
 
-- [ ]
+- [ ] D
 
 ```
 1 CREATE PROC P AS O
@@ -78,7 +78,7 @@
 
 #### Q8. Management has requested that you build an employee database. You start with the employee table. What is the correct syntax?
 
-- [ ]
+- [ ] A
 
 ```
     1 CREATE TABLE employee (
@@ -91,7 +91,7 @@
     8 );
 ```
 
-- [ ]
+- [ ] B
 
 ```
     1 CREATE TABLE employee (
@@ -104,7 +104,7 @@
     8 );
 ```
 
-- [ ]
+- [ ] C
 
 ```
     1 CREATE TABLE IF EXISTS employee (
@@ -117,7 +117,7 @@
     8 );
 ```
 
-- [x]
+- [x] D
 
 ```sql
     1 CREATE TABLE IF NOT EXISTS employee (
@@ -502,7 +502,7 @@
 3 ROWS IDENTIFIED BY `<car>`;
 ```
 
-- [ ]
+- [ ] A
 
 ```xml
 <car>
@@ -512,7 +512,7 @@
 </car>
 ```
 
-- [x]
+- [x] B
 
 ```xml
 <car name="make"> Dodge </car>
@@ -520,13 +520,13 @@
 <car name="year"> 2000 </car>
 ```
 
-- [ ]
+- [ ] C
 
 ```xml
 <car make="Ford" model="Mustang" year="2002/>
 ```
 
-- [ ]
+- [ ] D
 
 ```xml
 <car year="2010>
@@ -610,7 +610,7 @@ Table name: customers
 | A004 | Johnson | Jack | 312-312-3120 | 1111 Chicago Avenue | Chicago | IL | 60606 |
 | A005 | Lopez | Linda | 737-777-3333 | 123 Main Street | Austin | TX | 73344 |
 
-- [ ]
+- [ ] A
 
 ```
 SELECT *
@@ -618,7 +618,7 @@ FROM customers
 WHERE address MATCH 'Street' OR 'Drive';
 ```
 
-- [ ]
+- [ ] B
 
 ```
 SELECT *
@@ -626,7 +626,7 @@ FROM customers
 WHERE MATCH(address) IN ('street, drive');
 ```
 
-- [ ]
+- [ ] C
 
 ```
 SELECT *
@@ -634,7 +634,7 @@ FROM customers
 WHERE address MATCH 'Street' OR address MATCH 'Drive';
 ```
 
-- [x]
+- [x] D
 
 ```
 SELECT *
@@ -705,16 +705,16 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [x] mysqladmin flush-privileges
 - [ ] mysqladmin flush-all
 
-#### Q78. Explain the security aspectof stored procedures
+#### Q78. Explain the security aspect of stored procedures
 
 - [ ] Stored procedures are not secure, because they can be executed from the command line as the root user
 - [ ] Stored procedures are secure, because the owner of the stored procedure can decide to whom access is granted
-- [ ] Stored procedures are secure, because applications can be given access to stored procedures and not any underlying variables
+- [x] Stored procedures are secure, because applications can be given access to stored procedures and not any underlying variables
 - [ ] Stored procedures are not secure, because they can execute statements to drop tables or bulk delete data
 
 #### Q79. Management has requested that you build an employee database. You start with the employee table. What is the correct syntax?
 
-- [ ]
+- [ ] A
 
 ```sql
 1 CREATE TABLE employee (
@@ -727,7 +727,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 8 );
 ```
 
-- [ ]
+- [ ] B
 
 ```sql
 1 CREATE TABLE IF NOT EXISTS employee (
@@ -740,7 +740,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 8 );
 ```
 
-- [x]
+- [x] C
 
 ```sql
 1 CREATE TABLE employee (
@@ -753,7 +753,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 8 );
 ```
 
-- [ ]
+- [ ] D
 
 ```sql
 1 CREATE TABLE IF EXISTS employee (
@@ -786,14 +786,80 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 ![mysql picture](images/mysql_q80.png)
 
-- [x] one-to-many
-- [ ] parent-child
+- [ ] one-to-many
+- [x] parent-child
 - [ ] many-to-many
 - [ ] many-to-one
 
-#### Q82. A stored routine is a set of SQL statements stored on the server and takes from as either a procedure or a function. Which statement cannot be used inside stored routines?
+#### Q83. A stored routine is a set of SQL statements stored on the server and takes from as either a procedure or a function. Which statement cannot be used inside stored routines?
 
 - [ ] SELECT
 - [ ] USE
 - [ ] SET
-- [ ] DECLARE
+- [x] DECLARE
+
+#### Q84. When a new student is added to a new database, you want new records to be created in the related tables such as Exam, Score and Attendance. How would you accomplish this?
+
+- [x] trigger
+- [ ] regular expression
+- [ ] view
+- [ ] index
+
+#### Q85. In the diagram below, the ID fields are declared as type CHAR instead of INT . Which is NOT one of the possible reasons behind that decision?
+
+![mysql picture](images/mysql_q85.png)
+
+- [ ] The ID field needs to include letters and not just numbers.
+- [ ] You can have a consistent format across all of the tables that require ID fields.
+- [ ] The ID field needs to have leading 0s, which the INT data type would truncate.
+- [x] The `CHAR(10)` data type is more efficient and space-saving.
+
+#### Q86. Why would you use a common table expression (CTE)?
+
+- [ ] To define queries for later reuse for the duration of the current session
+- [x] To create temporary tables that can be used to pre-select often-used result sets.
+- [ ] To calculate a new single value from a result set and return it to the query parser.
+- [ ] To break down complex queries and allow reuse within a query.
+
+#### Q87. Which option modifier tells a program not to exit with an error if it does not recognize the option, but instead to issue a warning?
+
+- [ ] --verbose
+- [ ] --skip
+- [ ] --skip-error
+- [x] --loose
+
+#### Q88. You are working with the tables as shown in this diagram. You need to make sure that any record added to the purchases table consists of customerID, which already exists in the customer table, and a carID, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
+
+![mysql picture](images/mysql_q88.png)
+
+- [ ] IF EXISTS
+- [ ] BEFORE INSERT
+- [ ] CROSS JOIN
+- [x] AFTER INSERT
+
+#### Q89. What does this SQL statement return?
+
+```
+SELECT name FROM students WHERE name REGEXP '^to';
+```
+
+- [x] all names starting with "to," such as Tommy or Tony
+- [ ] all names with "to," such as Roberto and Tommy
+- [ ] all names without "to," such as Samantha or Kathryn
+- [ ] all names ending with "to," such as Roberto
+
+#### Q90. This diagram shows what type of relationship between customer and cars?
+
+![mysql picture](images/mysql_q90.png)
+
+- [ ] parent-child
+- [ ] many-to-one
+- [ ] one-to-many
+- [x] many-to-many
+
+#### Q91. You are managing a database with a table called "customers." You created a temporary table also called "customers" with which you are working for the duration of your session. You need to re-create the remporary table with different specifications. Which command do you need to run first?
+
+- [x] DROP TEMPORARY TABLE  customers;
+- [ ] CREATE TEMPORARY TABLE customers;
+- [ ] DROP TEMP TABLE customers;
+- [ ] DROP TABLE customers;

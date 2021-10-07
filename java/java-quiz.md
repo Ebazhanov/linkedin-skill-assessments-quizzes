@@ -1311,3 +1311,59 @@ class Main {
 - [x] it will print "Hello World!" three times.
 - [ ] it will not compile.
 - [ ] it will throw a runtime exception.
+
+#### Q93. What is the output of this code?
+
+```java
+ public class Main {
+    public static void main(String[] args) {
+      HashMap<String, Integer> pantry = new HashMap<>();
+
+      pantry.put(Apples", 3);
+      pantry.put("Oranges, 2);
+
+      int currentApples = pantry.get("Apples");
+      pantry.put("Apples", currentApples + 4);
+
+      System.out.println(pantry.get("Apples"));
+    }
+}
+```
+
+- [ ] 3
+- [ ] 4
+- [ ] 6
+- [x] 7
+
+#### Q94. Which characteristic does not apply to instances of java.util.HashSet=
+
+- [ ] uses hashcode of objects when inserted
+- [x] contains unordred elements
+- [ ] contains unique elements
+- [ ] contains sorted elements
+
+#### Q95. What is the output?
+
+```java
+import java.util.*;
+
+public class Main {
+	public static void main(String[] args)
+	{
+		PriorityQueue<Integer> queue = new PriorityQueue<>();
+		queue.add(4);
+		queue.add(3);
+		queue.add(2);
+		queue.add(1);
+
+		while (queue.isEmpty() == false) {
+			System.out.printf("%d", queue.remove());
+		}
+	}
+}
+```
+
+- [ ] 1 3 2 4
+- [ ] 4 2 3 1
+- [x] 1 2 3 4
+- [ ] 4 3 2 1

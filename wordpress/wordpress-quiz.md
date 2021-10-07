@@ -108,8 +108,8 @@
 
 - [ ] cropping images in the media library
 - [ ] injecting specialized scripts into the content area
-- [x] creating a site layout
-- [ ] creating and laying out content
+- [ ] creating a site layout
+- [x] creating and laying out content
 
 #### Q14. Which of the following file types is NOT involved in translating WordPress?
 
@@ -407,7 +407,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] It runs once per post in the database.
 - [ ] It runs once.
 - [ ] The Loop doesn't run in template files.
-- [ ] It runs once per fetched post.
+- [x] It runs once per fetched post.
 
 #### Q48. Which is NOT a suggested performance improvement for your WordPress website?
 
@@ -548,3 +548,21 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] infinite scroll
 - [ ] skip links
 - [ ] tabbed navigation
+
+#### Q66. What user role would you assign to someone so they can write and publish only their posts and no one else's?
+
+- [ ] Contributor
+- [x] Author
+- [ ] Editor
+- [ ] Subscriber
+
+**Explanation**: [Summary of Roles](https://wordpress.org/support/article/roles-and-capabilities/#summary-of-roles)
+
+#### Q67. When should you edit core WordPress files?
+
+- [ ] when there is no plugin available to make a customization you need
+- [ ] when you need to add a custom page template
+- [ ] when you need to add a custom script to the header or footer of every page in a site
+- [x] You should never edit WordPress core.
+
+**Explanation**: It is not recommended to change WordPress core files other than wp-config.php. [Editing Files Offline](https://wordpress.org/support/article/editing-files/#editing-files-offline)
