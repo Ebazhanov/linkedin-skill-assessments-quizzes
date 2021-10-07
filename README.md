@@ -1,8 +1,7 @@
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-577-orange.svg?style=flat-square)](#contributors-)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![All Contributors](https://img.shields.io/badge/all_contributors-578-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
@@ -848,6 +847,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/parth-parikh-01098949"><img src="https://avatars.githubusercontent.com/u/10181201?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Parth Parikh</b></sub></a><br /><a href="#design-parikhparth23" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=parikhparth23" title="Code">💻</a></td>
     <td align="center"><a href="https://hector.dev"><img src="https://avatars.githubusercontent.com/u/43639?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hector Castro</b></sub></a><br /><a href="#design-hectcastro" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=hectcastro" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/rikkyarisendi"><img src="https://avatars.githubusercontent.com/u/76026854?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rikky Arisendi</b></sub></a><br /><a href="#design-rikkyarisendi" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=rikkyarisendi" title="Code">💻</a></td>
+    <td align="center"><a href="http://tirmazi2.github.io"><img src="https://avatars.githubusercontent.com/u/41047197?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ali HamXa</b></sub></a><br /><a href="#design-tirmazi2" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=tirmazi2" title="Code">💻</a></td>
   </tr>
 </table>
 
