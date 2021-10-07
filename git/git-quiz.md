@@ -9,7 +9,7 @@
 
 #### Q2. What command lets you create a connection between a local and remote repository?
 
-- [x] git remote add new
+- [ ] git remote add new
 - [x] git remote add origin
 - [ ] git remote new origin
 - [ ] git remote origin
