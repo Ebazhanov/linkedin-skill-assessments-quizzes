@@ -741,7 +741,7 @@ fun main() {
 - [ ] val sorted = fibonacci().skip(3).take(6).sortedDescending().toList()
 - [ ] val sorted = fibonacci().skip(3).take(6).sortedByDescending().toList()
 - [ ] val sorted = fibonacci().skip(3).limit(6).sortedByDescending().toList()
-- [ ] val sorted = fibonacci().drop(3).take(6).sortedDescending().toList()
+- [X] val sorted = fibonacci().drop(3).take(6).sortedDescending().toList() ([reference](https://kotlinlang.org/docs/collection-parts.html#take-and-drop))
 
 #### Q63. You have two arrays, a and b. Which line combines a and b as a list containing the contents of both?
 
@@ -783,7 +783,58 @@ class Styles {
 }
 ```
 
-- [ ] const works only with strings and primitives. @JvmField does not have that restriction.
-- [ ] @JvmField works as a top-level variable, but const works only in a class.
-- [ ] @JvmField is compatible with Java, but const is not.
-- [ ] @JvmField is always inlined for faster code.
+- [X]const works only with strings and primitives. @JvmField does not have that restriction. ([reference](https://github.com/ythy/blog/issues/328))
+- [ ]@JvmField works as a top-level variable, but const works only in a class.
+- [ ]@JvmField is compatible with Java, but const is not.
+- [ ]@JvmField is always inlined for faster code.
+
+#### Q67. What are the two ways to make a coroutine's computation code cancellable? ([reference](https://kotlinlang.org/docs/cancellation-and-timeouts.html#timeout))
+
+- [X]Call the yield() function or check the isActive property.
+- [ ]Call the cancelled() function or check the isActive property.
+- [ ]Call the stillActive() function or check the isCancelled property.
+- [ ]Call the checkCancelled() function or check the isCancelled property.
+
+#### Q68. Given the code below, how can you write the line this.moveTo("LA") more concisely?
+
+```
+data class Student (val name: String, var location: String) { 
+  fun moveTo (newLoc: String) { location = newLoc }
+
+}
+
+fun main() {
+
+  Student ("Snow", "Cologne").run {
+
+  this.moveTo ("LA")
+
+}
+```
+- [ ] moveTo( "LA")
+- [X] ::moveTo("LA") ([reference](https://kotlinlang.org/docs/reflection.html#interoperability-with-java-reflection))
+- [ ] moveTo("LA")
+- [ ] it.moveTo("LA")
+
+#### Q69. For the Product class you are designing, you would like the price to be readable by anyone, but changeable only from within the class. Which property declaration implements your design?
+
+- [ ]
+```
+var price: Int = 0 
+  public get() 
+  private set
+```
+- [X] ([reference](https://kotlinlang.org/docs/properties.html#getters-and-setters))
+```
+var price: Int = 0 
+  private set
+```
+- [ ]
+```
+var price: Int = 0
+  val set
+```
+- [ ]
+``` 
+val price: Int=0 
+```

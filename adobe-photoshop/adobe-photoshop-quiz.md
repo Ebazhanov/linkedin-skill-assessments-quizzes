@@ -402,7 +402,7 @@
 
 ![What does the grayscale image in this figure show?](images/014.png?raw=true)
 
-- [ ] the edges affected by the Sharpen command as refined by the Masking slider
+- [x] the edges affected by the Sharpen command as refined by the Masking slider
 - [ ] the edges affected by the Sharpen command as refined by the Radius slider
 - [ ] the edges affected by the Sharpen command as refined by the Detail slider
 - [ ] the edges affected by the Sharpen command as refined by the Amount slider
@@ -434,12 +434,12 @@
 
 - [ ] Pencil tool
 - [ ] Vanishing Point
-- [ ] Pen tool
+- [x] Pen tool
 - [ ] Trace Contour filter
 
 #### Q56. How do you browse images on your hard drive using the companion application that is included with the Adobe Creative Cloud plans?
 
-- [ ] Click `File > Browse in Bridge`
+- [x] Click `File > Browse in Bridge`
 - [ ] Click `File > Browse in Lightroom Classic CC.`
 - [ ] Use the Creative Cloud application.
 - [ ] Click `File > Browse in Lightroom CC`.

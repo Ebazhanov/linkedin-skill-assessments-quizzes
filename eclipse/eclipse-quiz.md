@@ -221,7 +221,7 @@
 
 #### Q32. What is required to create a Git commit?
 
-- [ ] all of these answers
+- [x] all of these answers
 - [ ] a local repository
 - [ ] staged changes
 - [ ] a commit message
@@ -251,5 +251,5 @@
 
 - [ ] Click Run > Debug As > Remote Application.
 - [ ] You cannot do this in Eclipse.
-- [ ] Create and run a configuration under Run > Debug Configurations > Remote Java Application.
+- [x] Create and run a configuration under Run > Debug Configurations > Remote Java Application.
 - [ ] Click Run > External Tools.

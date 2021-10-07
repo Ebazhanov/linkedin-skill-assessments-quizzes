@@ -465,7 +465,7 @@ printf("%d", f1(5));
 #endif /* MYLIB_H */
 ```
 
-- [ ]
+- [x]
 
 ```c
 #ifndef MYLIB_H
@@ -510,6 +510,13 @@ main(){
 ```
 
 - [ ] 100
-- [ ] 3
+- [x] 3
 - [ ] 5
 - [ ] 50
+
+#### Q37. File input and output (I/O) in C is done through what?
+
+- [ ] syntax-driven components
+- [ ] native interfaces
+- [ ] system objects
+- [x] function calls

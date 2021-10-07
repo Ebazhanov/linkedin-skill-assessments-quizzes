@@ -467,3 +467,19 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 - [ ] No, you should use a global variable instead.
 - [ ] No, changes will be automatically reflected in the calling function.
 - [ ] Yes, the object must be the same in the caller function.
+
+#### Q63. What is the best example of a superclass and subclass relationship?
+
+- [x] car:toyota
+- [ ] ducks:pond
+- [ ] toes:feet
+- [ ] rock:stone
+
+[Source: LinkedIn assessment practice mode](https://i.imgur.com/xUCuxms.png)
+
+#### Q64. Which statements best describe the Gang of Four design patterns called Memento and Observer?
+
+- [ ] Memento notifies multiple classes of changes. Observer captures and restores an object's internal state.
+- [ ] Memento defers the exact steps of an algorithm to a subclass. Observer defines a new operation to a class without change.
+- [ ] Memento alters an object's behavior when its state changes. Observer encapsulates an algorithm inside a class.
+- [ ] Memento captures and restores an object's internal state. Observer notifies multiple classes of changes.

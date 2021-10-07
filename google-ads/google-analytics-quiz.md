@@ -188,3 +188,21 @@
 - [ ] Do not include the sale in the ad text, as this likley violated Google Ads editorial policies.
 - [x] Add a countdown customizer to the ad text.
 - [ ] Manually adjust the ad text as frequently as possible to reflect the time remaining
+
+#### Q28. Tabitha has a mobile application that is complementary to her website. She wants to make it known to potential customers, but driving app downloads is not her main goal. What would you recommend she configure on her Google Ads?
+
+- [x] app extension
+- [ ] Universal App campaign
+- [ ] Mobile App campaign
+- [ ] download extension
+
+[Source: LinkedIn Assessment Practice Mode](https://i.imgur.com/qlKN9SU.png)
+
+#### Q29. Which solution allows you to show ads in Google search results, only if the user has previously visited your website?
+
+- [ ] MDC
+- [ ] ECPC
+- [x] RLSA
+- [ ] Target ROAS
+
+[Source: LinkedIn Assessment Practice Mode](https://i.imgur.com/9FToRjW.png)

@@ -1259,3 +1259,56 @@ section {
 - [ ] The background color of the section element will be gray.
 - [ ] The paragraph will be gray. The link will be the browser default, black.
 - [x] Only the paragraph will be gray.
+
+#### Q98. Which answer is an example of a type selector (also sometimes referred to as an element selector)?
+
+- [ ] .header {...}
+- [ ] header {...}
+- [ ] #header {...}
+- [ ] header > h1 {...}
+
+#### Q99. Which answer is an example of a type selector (also sometimes referred to as an element selector)?
+
+```
+<style>
+  ul {
+    --color: red;
+  }
+
+  p {
+    color: var(--color);
+  }
+
+  a {
+    color: var(--color, orange);
+  }
+</style>
+<p>Paragraph</p>
+<ul>
+  <li> <a href="#">list item with a link</a> </li>
+  <li>list item</li>
+</ul>
+<style>
+  ul {
+    --color: red;
+  }
+
+  p {
+    color: var(--color);
+  }
+
+  a {
+    color: var(--color, orange);
+  }
+</style>
+<p>Paragraph</p>
+<ul>
+  <li> <a href="#">list item with a link</a> </li>
+  <li>list item</li>
+</ul>
+```
+
+- [ ] blueblue
+- [ ] blackblack
+- [ ] orangeorange
+- [ ] redred

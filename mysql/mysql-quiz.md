@@ -709,7 +709,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 - [ ] Stored procedures are not secure, because they can be executed from the command line as the root user
 - [ ] Stored procedures are secure, because the owner of the stored procedure can decide to whom access is granted
-- [ ] Stored procedures are secure, because applications can be given access to stored procedures and not any underlying variables
+- [x] Stored procedures are secure, because applications can be given access to stored procedures and not any underlying variables
 - [ ] Stored procedures are not secure, because they can execute statements to drop tables or bulk delete data
 
 #### Q79. Management has requested that you build an employee database. You start with the employee table. What is the correct syntax?
@@ -813,3 +813,53 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [ ] You can have a consistent format across all of the tables that require ID fields.
 - [ ] The ID field needs to have leading 0s, which the INT data type would truncate.
 - [x] The `CHAR(10)` data type is more efficient and space-saving.
+
+#### Q86. Why would you use a common table expression (CTE)?
+
+- [ ] To define queries for later reuse for the duration of the current session
+- [x] To create temporary tables that can be used to pre-select often-used result sets.
+- [ ] To calculate a new single value from a result set and return it to the query parser.
+- [ ] To break down complex queries and allow reuse within a query.
+
+#### Q87. Which option modifier tells a program not to exit with an error if it does not recognize the option, but instead to issue a warning?
+
+- [ ] --verbose
+- [ ] --skip
+- [ ] --skip-error
+- [x] --loose
+
+#### Q88. You are working with the tables as shown in this diagram. You need to make sure that any record added to the purchases table consists of customerID, which already exists in the customer table, and a carID, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
+
+![mysql picture](images/mysql_q88.png)
+
+- [ ] IF EXISTS
+- [ ] BEFORE INSERT
+- [ ] CROSS JOIN
+- [x] AFTER INSERT
+
+#### Q89. What does this SQL statement return?
+
+```
+SELECT name FROM students WHERE name REGEXP '^to';
+```
+
+- [x] all names starting with "to," such as Tommy or Tony
+- [ ] all names with "to," such as Roberto and Tommy
+- [ ] all names without "to," such as Samantha or Kathryn
+- [ ] all names ending with "to," such as Roberto
+
+#### Q90. This diagram shows what type of relationship between customer and cars?
+
+![mysql picture](images/mysql_q90.png)
+
+- [ ] parent-child
+- [ ] many-to-one
+- [ ] one-to-many
+- [x] many-to-many
+
+#### Q91. You are managing a database with a table called "customers." You created a temporary table also called "customers" with which you are working for the duration of your session. You need to re-create the remporary table with different specifications. Which command do you need to run first?
+
+- [x] DROP TEMPORARY TABLE  customers;
+- [ ] CREATE TEMPORARY TABLE customers;
+- [ ] DROP TEMP TABLE customers;
+- [ ] DROP TABLE customers;

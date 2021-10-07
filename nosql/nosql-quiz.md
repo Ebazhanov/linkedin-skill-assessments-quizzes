@@ -413,3 +413,10 @@ MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 - [ ] key-value
 - [ ] document
 - [x] columnstore
+
+#### Q56. You need to select a columnstore database that enforce built-in data types. You want to add indexes to improve performance for known workloads. Which do you choose?
+
+- [ ] Cassandra
+- [ ] Bigtable
+- [x] Redis
+- [ ] HBase
