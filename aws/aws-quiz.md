@@ -696,13 +696,17 @@ aws ecs create-service \
 #### Q76. What is `not` a default user of a common Linux instance launched from an AMI?
 
 - [ ] ubuntu
-- [ ] system-user
+- [x] system-user
 - [ ] ec2-user
 - [ ] admin
 
+[Reference](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connection-prereqs.html)
+
 #### Q77. You have replicated the infrastructure that serves the backend API for your web application across regions to better serve your customers in the US and the EU. What is the best way to direct your web application at the nearest data center?
 
-- [ ] Use Route 53 with geolocation lookups to direct traffic between the two regions.
+- [x] Use Route 53 with geolocation lookups to direct traffic between the two regions.
 - [ ] Create a WAF redirection rule that redirects traffic at the EU data center if the source IP comes from certain countries.
 - [ ] Purchase a country domain extension and direct your users to the correct site, such as example.com and example.co
 - [ ] Have your front-end application test the latency between each data center and use the data center that is responding the fastest.
+
+[Reference](https://aws.amazon.com/premiumsupport/knowledge-center/geolocation-routing-policy/)
