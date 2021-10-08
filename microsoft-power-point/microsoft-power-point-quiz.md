@@ -387,6 +387,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [x] Use a scatter chart.
 
 #### Q52. You want to use a morph transition between two slides. How do you set up the slides?
+
 - [ ] The two slides must have multiple objects in common with different names in the Selection pane
 - [x] The two slides must have at least one obiect in common that is in a different position on the second slide
 - [ ] The second slide must have different objects that are in the same position as the objects on the first slide
@@ -397,6 +398,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 [Reference 2](https://twist.learningguild.net/2019/03/morph-magic-for-incredible-effects-in-powerpoint-richard-goring/#:~:text=Morph%20recognizes%20any%20duplicate%20objects%20across%20two%20slides,make%20objects%20change%20size%2C%20or%20shape%2C%20or%20color.)
 
 #### Q53. Why would you use the Rehearse Timings command?
+
 - [ ] to adiust animation timings
 - [ ] to record your slide show
 - [ ] to remove transition timings
@@ -405,6 +407,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 [Reference](https://it.nmu.edu/docs/rehearsing-timings-powerpoint)
 
 #### Q54. How can you make an inserted picture look like it has been sketched or painted?
+
 - [ ] Apply a picture effect
 - [ ] Apply a draw effect
 - [x] Apply an artistic effect
@@ -413,6 +416,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 [Reference](https://edu.gcfglobal.org/en/powerpoint2010/formatting-pictures/1/)
 
 #### Q55. How can you modify your presentations entire set of colors with a single change?
+
 - [ ] Apply a color template
 - [ ] Customize a color fill
 - [ ] Apply a color palette
@@ -421,6 +425,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 [Reference](https://slidesgo.com/slidesgo-school/powerpoint-tutorials/how-to-change-colors-in-a-powerpoint-presentation)
 
 #### Q56. You want to print full-page slides to fill 8. 5-by-11-inch paper, but they appear too small in the preview. What is the best way to rectify this?
+
 - [ ] Change the slide size to standard
 - [ ] Repeatedly bump up the scale setting print option until it fills the page in the preview
 - [ ] Change the scale setting print option to 100%
@@ -429,6 +434,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 [Reference](https://www.rdpslides.com/pptfaq/FAQ00774_Printing_PowerPoint-_Slide_size_v-_Printer_Page_size.htm)
 
 #### Q57. You want to import a Word document as an outline into a Powerpoint presentation. How should you format the Word documents text that you want to be the slide content?
+
 - [ ] List 2
 - [ ] Content Style
 - [ ] Subtitle
@@ -436,8 +442,8 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 [Reference](https://support.microsoft.com/en-us/office/import-a-word-outline-into-powerpoint-a25f6e01-9a19-4c0d-a108-7f533e42dfe9)
 
-
 #### Q58. What is not reviewed when you check a slide shows accessibility?
+
 - [x] missing alt text
 - [ ] slide titles
 - [ ] grammar
@@ -448,6 +454,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 [Reference 2](https://webaim.org/resources/evaloffice/)
 
 #### Q59. What is the easiest way to change the appearance of a table?
+
 - [ ] Apply a graphic style
 - [x] Apply a table style
 - [ ] Right-click a table and select a new style
