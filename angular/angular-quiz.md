@@ -72,7 +72,6 @@ export class OrderService {
 - [ ] this.httpClient.post<Order>(this.orderUrl, order);
 - [x] this.httpClient.post<Order>(this.orderUrl, order).subscribe();
 
-
 [Reference (Angular.io - Sending data to server)](https://angular.io/guide/http#sending-data-to-a-server)
 
 #### Q6. What is the RouterModule.forRoot method used for?

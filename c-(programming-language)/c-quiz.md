@@ -520,3 +520,10 @@ main(){
 - [ ] native interfaces
 - [ ] system objects
 - [x] function calls
+
+#### Q38. Directives are translated by the?
+
+- [X] Pre-processor
+- [ ] Compiler
+- [ ] Linker
+- [ ] Editor

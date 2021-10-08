@@ -1400,7 +1400,8 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/646788?v=4",
       "profile": "https://github.com/alinooshabadi",
       "contributions": [
-        "design"
+        "design",
+        "code"
       ]
     },
     {
@@ -5611,6 +5612,56 @@
       "name": "Parth Parikh",
       "avatar_url": "https://avatars.githubusercontent.com/u/10181201?v=4",
       "profile": "https://www.linkedin.com/in/parth-parikh-01098949",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "hectcastro",
+      "name": "Hector Castro",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43639?v=4",
+      "profile": "https://hector.dev",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "rikkyarisendi",
+      "name": "Rikky Arisendi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76026854?v=4",
+      "profile": "https://github.com/rikkyarisendi",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "tirmazi2",
+      "name": "Ali HamXa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41047197?v=4",
+      "profile": "http://tirmazi2.github.io",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "frankwuzp",
+      "name": "Frank.wu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24557280?v=4",
+      "profile": "https://blog.wuzhiping.top",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "jatinkumar027",
+      "name": "Jatin Kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68382319?v=4",
+      "profile": "https://github.com/jatinkumar027",
       "contributions": [
         "design",
         "code"

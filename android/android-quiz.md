@@ -934,3 +934,26 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [x] android:minSdkVersion
 - [ ] android:maxSdkVersion
 - [ ] None of the above
+
+#### Q61. To shrink your code in release builds, what tool does Android Studio use?
+
+- [x] R8
+- [ ] ProGuard
+- [ ] Shrinker
+- [ ] D8
+
+[Reference](https://developer.android.com/studio/build/shrink-code)
+
+#### Q62. Which layout hierarchy is likely to be drawn the most quickly?
+
+- [ ] A
+      ![img](https://i.imgur.com/mT08jag.png)
+
+- [ ] B
+      ![img](https://i.imgur.com/rz9eKYc.png)
+
+- [ ] C
+      ![img](https://i.imgur.com/ETaHhaS.png)
+
+- [ ] D
+      ![img](https://i.imgur.com/1QBrTwR.png)

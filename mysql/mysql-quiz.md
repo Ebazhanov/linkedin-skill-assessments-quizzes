@@ -709,7 +709,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 - [ ] Stored procedures are not secure, because they can be executed from the command line as the root user
 - [ ] Stored procedures are secure, because the owner of the stored procedure can decide to whom access is granted
-- [ ] Stored procedures are secure, because applications can be given access to stored procedures and not any underlying variables
+- [x] Stored procedures are secure, because applications can be given access to stored procedures and not any underlying variables
 - [ ] Stored procedures are not secure, because they can execute statements to drop tables or bulk delete data
 
 #### Q79. Management has requested that you build an employee database. You start with the employee table. What is the correct syntax?
@@ -837,7 +837,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [ ] CROSS JOIN
 - [x] AFTER INSERT
 
-#### Q87. What does this SQL statement return?
+#### Q89. What does this SQL statement return?
 
 ```
 SELECT name FROM students WHERE name REGEXP '^to';
@@ -847,3 +847,19 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] all names with "to," such as Roberto and Tommy
 - [ ] all names without "to," such as Samantha or Kathryn
 - [ ] all names ending with "to," such as Roberto
+
+#### Q90. This diagram shows what type of relationship between customer and cars?
+
+![mysql picture](images/mysql_q90.png)
+
+- [ ] parent-child
+- [ ] many-to-one
+- [ ] one-to-many
+- [x] many-to-many
+
+#### Q91. You are managing a database with a table called "customers." You created a temporary table also called "customers" with which you are working for the duration of your session. You need to re-create the remporary table with different specifications. Which command do you need to run first?
+
+- [x] DROP TEMPORARY TABLE customers;
+- [ ] CREATE TEMPORARY TABLE customers;
+- [ ] DROP TEMP TABLE customers;
+- [ ] DROP TABLE customers;
