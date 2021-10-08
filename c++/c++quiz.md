@@ -1152,6 +1152,7 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
        Sprite();
 ```
 
+
 #### Q67. What is the purpose of this line in a header file?
 
 ```cpp
@@ -1164,3 +1165,12 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
 - [x] to make the compiler parse that header file only once, even if it is included multiple times in the source
 
 [reference here](https://en.cppreference.com/w/cpp/preprocessor/impl)
+
+#### Q68. What is a variable of type double?
+
+- [ ] a 2-tuple
+- [ ] an integer number
+- [x] a floating point number
+- [ ] a string with more than 255 characters
+
+[Reference](https://www.educba.com/c-plus-plus-double/)
