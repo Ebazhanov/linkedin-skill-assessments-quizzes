@@ -577,7 +577,7 @@ li:nth-child(2n + 3) {
 #### Q45. What is the difference between the margin and padding properties?
 
 - [ ] Margin adds space around and inside of an element; padding adds space only inside of an element.
-- [x] Margin adds space around an element; padding adds apace inside of an element.
+- [x] Margin adds space around an element; padding adds space inside of an element.
 - [ ] Margin adds a line around an element, padding adds space inside of an element.
 - [ ] Margin adds space inside of an element, padding adds space around an element.
 
