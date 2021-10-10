@@ -468,7 +468,6 @@ h2 + p {
 
 - [ ] Paragraphs 2 and 3 will be blue. The h2 and paragraph 2 will have a beige background.
 - [x] Paragraphs 2, and 3 will be blue, and paragraph 2 will have a beige background.
-- [x] Paragraphs 2 and 3 will be blue. Paragraph 2 will have a beige background.
 - [ ] Paragraph 2 will be blue. Paragraphs 2 and 3 will have a beige background.
 
 #### Q35. When using flexbox, the "justify-content" property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
