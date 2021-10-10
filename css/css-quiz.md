@@ -1126,7 +1126,7 @@ D. border-top-radius: 10px;
 #### Q89. Which property is used to create a drop shadow effect on an HTML element?
 
 ```css
-grid-template-columns: 2fr 1ffr;
+grid-template-columns: 2fr 1fr;
 ```
 
 - [ ] The first column is half the size of the container and the second column will absorb the remaining space.
