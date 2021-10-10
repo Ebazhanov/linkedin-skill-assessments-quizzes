@@ -686,7 +686,7 @@
 
 #### Q83. Which is a valid Excel formula?
 
-- [ ] `=(A5+B5)*B7`
+- [x] `=(A5+B5)*B7`
 - [ ] `=A3-7(B3:B5+4)`
 - [ ] `=(A5+B5)B7`
 - [ ] `=B3^[2*/3]`
@@ -760,7 +760,7 @@
 
 #### Q93. Which formula contains a valid absolute reference?
 
-- [ ] `=B7*$G$3`
+- [x] `=B7*$G$3`
 - [ ] `=(B7)*G3`
 - [ ] `=B7*$[G3]`
 - [ ] `=B7$*G3`
@@ -771,7 +771,7 @@
 
 - [ ] AutoSum shows the total in the bottom-right of the page
 - [ ] AutoSum will total the numbers in cells B4:G8
-- [ ] AutoSum will total the numbers in cells B4:G4
+- [x] AutoSum will total the numbers in cells B4:G4
 - [ ] AutoSum will return a **#VALUE!** error.
 
 #### Q95. To create this PivotTable, drag the _ field to the Rows area and the _ field to the Values area?
@@ -787,8 +787,8 @@
 #### Q96. Cell A1 contains the number 3. Which formula returns the text Apple?
 
 - [ ] `=SELECT(A1, "Banana", "Orange", "Apple", "Mango")`
-- [ ] `=CHOOSE(A1, "Banana", "Orange", "Apple", "Mango")`
-- [ ] `=CHOOSE(A1,"Banana","Orange","Apple","Mango")`
+- [x] `=CHOOSE(A1, "Banana", "Orange", "Apple", "Mango")`
+- [x] `=CHOOSE(A1,"Banana","Orange","Apple","Mango")`
 - [ ] `=MATCH(A1,{"Banana","Orange","Apple","Mango"})`
 
 #### Q97. Which value is calculated when the formula **=AVERAGE(G2:G6)/AVERAGE(C2:C6)** is entered into cell H7?
@@ -812,6 +812,6 @@
 ![image](images/Q99.png)
 
 - [ ] map chart
-- [ ] color scales (within conditional formatting)
+- [x] color scales (within conditional formatting)
 - [ ] manual highlighting
 - [ ] data bars (within conditional formatting)
