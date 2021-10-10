@@ -577,7 +577,7 @@ li:nth-child(2n + 3) {
 #### Q45. What is the difference between the margin and padding properties?
 
 - [ ] Margin adds space around and inside of an element; padding adds space only inside of an element.
-- [x] Margin adds space around an element; padding adds apace inside of an element.
+- [x] Margin adds space around an element; padding adds space inside of an element.
 - [ ] Margin adds a line around an element, padding adds space inside of an element.
 - [ ] Margin adds space inside of an element, padding adds space around an element.
 
@@ -1188,7 +1188,7 @@ grid-template-columns: 2fr 1ffr;
 - [ ] `transition: position 400ms linear;`
 - [ ] `transition: opacity 1s ease-in;`
 
-#### Q94. In this example, what color will the paragraphs be and why? In this example, what color will the paragraphs be and why?
+#### Q94. In this example, what color will the paragraphs be and why?
 
 ```
 article p { color: blue; }
