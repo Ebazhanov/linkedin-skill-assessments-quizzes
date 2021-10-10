@@ -1282,3 +1282,10 @@ num_list[len(num_list)//2]
 - [x] A class method can modify the state of the class, but it cannot directly modify the state of an instance that inherits from that class.
 - [ ] A class method is a regular function that belongs to a class, but it must return None
 - [ ] A class method is similar to a regular function, but a class method does not take any arguments.
+
+#### Q94. What file is imported to use dates in python?
+
+- [x] datetime
+- [ ] dateday
+- [ ] daytime
+- [ ] timedate
