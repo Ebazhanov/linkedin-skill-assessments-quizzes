@@ -198,8 +198,8 @@ a {
 #### Q14. What is the difference between the following line-height settings?
 
 ```css
-line-height: 20px
-line-height: 2
+line-height: 20px;
+line-height: 2;
 ```
 
 - [x] The value of 20px will set the line-height to 20px. The value of 2 will set the line-height to twice the size of the corresponding font-size value.
@@ -396,10 +396,10 @@ p {
 
 #### Q29. Which of the following is not a valid color value?
 
-- [ ] color: #000
-- [ ] color: rgb(0,0,0)
-- [ ] color: #000000
-- [x] color: 000000
+- [ ] color: `#000`
+- [ ] color: `rgb(0,0,0)`
+- [ ] color: `#000000`
+- [x] color: `000000`
 
 #### Q30. What is the vertical gap between the two elements below?
 
@@ -508,7 +508,10 @@ h2 + p {
 
 #### Q40. The values for the font-weight property can be keywords or numbers. For each numbered value below, what is the associated keyword?
 
-`font-weight: 400; font-weight: 700;`
+```css
+font-weight: 400; 
+font-weight: 700;
+```
 
 - [ ] bold; normal
 - [x] normal; bold
@@ -935,17 +938,25 @@ font-weight: bold;
 
 #### Q78. Using the following HTML and CSS example, what will equivalent pixel value be for .em and .rem elements?
 
+```css
+html {
+  font-size: 10px
+}
+body {
+  font-size: 2rem;
+}
+.rem {
+  font-size: 1.5rem;
+}
+.em {
+  font-size: 2em;
+}
 ```
-html {font-size: 10px}
-body {font-size: 2rem;}
-.rem {font-size: 1.5rem;}
-.em {font-size: 2em;}
-
+```html
 <body>
   <p class="rem"></p>
   <p class="em"></p>
 </body>
-
 ```
 
 - [ ] The .rem will be equivalent to 25px; the .em value will be 20px.
@@ -969,7 +980,7 @@ body {font-size: 2rem;}
 
 #### Q81. What is the effect of this style?
 
-```html
+```css
 background-position: 10% 50%;
 ```
 
@@ -980,7 +991,7 @@ background-position: 10% 50%;
 
 #### Q82. How will the grid items display?
 
-```html
+```css
 grid-template-columns: 2fr 1fr;
 ```
 
@@ -1162,9 +1173,13 @@ grid-template-columns: 2fr 1fr;
 
 #### Q92. In this example, what color will the paragraphs be and why?
 
-```
-article p { color: blue; }
-article > p { color: green; }
+```css
+article p { 
+  color: blue; 
+}
+article > p { 
+  color: green; 
+}
 ```
 
 ```html
@@ -1184,7 +1199,7 @@ article > p { color: green; }
 
 #### Q93. Review the declaration of border style shown below. What is the corresponding longhand syntax?
 
-```
+```css
 border: 1px solid red;
 ```
 
@@ -1217,10 +1232,12 @@ border-color: red;
 
 #### Q95. In this example, what styles will be applied to which elements?
 
-```
+```css
 section {
   color: gray;
 }
+```
+```html
 <section>
   <p>paragraph</p>
   <a href="#">link</a>
