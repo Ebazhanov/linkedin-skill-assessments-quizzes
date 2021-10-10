@@ -771,6 +771,8 @@ providers: [{ provide: 'Logger', useClass: Logger }];
 providers: [{ provide: 'Logger' }];
 ```
 
+References [StackOverflow](https://stackoverflow.com/a/37315355) | [TektutorialHub](https://www.tektutorialshub.com/angular/angular-injector-injectable-inject/) | [Angular.io - Dependency Injection In Action](https://angular.io/guide/dependency-injection-in-action#supply-a-custom-provider-with-inject) 
+
 #### Q42. Which choice best describes the following usage of the HttpClient . get method in the getsettings class method?
 
 ```javascript
@@ -820,8 +822,10 @@ const userService = TestBed.get(UserService);
 
 - [ ] A component uses a selector metadata property and a directive does not.
 - [ ] A directive can be used for adding custom events to the DOM and a component cannot.
-- [ ] A component has a template and a directive does not.
+- [x] A component has a template and a directive does not.
 - [ ] A directive can target only native DOM elements.
+
+[Reference (StackOverflow)](https://stackoverflow.com/a/34616190)
 
 #### Q46. What could you add to this directive class to allow the truncate length to be set during directive usage in markup?
 
@@ -837,10 +841,12 @@ export class TruncateDirective {
 <p [appTruncate]="10">Some very long text here</p>
 ```
 
-- [ ] `@Input() appTruncate: number;`
+- [x] `@Input() appTruncate: number;`
 - [ ] `@Output() appTruncate;`
 - [ ] `constructor(maxLength: number) { }`
 - [ ] `Nothing. The directive selector cannot be used to pass in values to the directive.`
+
+Reference [Angular.io](https://angular.io/guide/attribute-directives#passing-values-into-an-attribute-directive) | [StackOverflow](https://stackoverflow.com/a/46303049)
 
 #### Q47. How can you pass query parameters to this `HttpClient.get` request?
 
@@ -856,7 +862,7 @@ export class OrderService {
 
 - [ ] `return this.httpClient.get<Order[]>(this.ordersUrl, {'year': year})`
 - [ ] `return this.httpClient.get<Order[]>(this.ordersUrl, year)`
-- [ ]
+- [x]
 
 ```
 const options = {params: new HttpParams().set('year', year) };
@@ -871,6 +877,8 @@ getOrdersByYear(year: number): Observable<Order[]> {
 }
 ```
 
+Reference [StackOverflow](https://stackoverflow.com/a/34475594) | [TektutorialHub](https://www.tektutorialshub.com/angular/angular-pass-url-parameters-query-strings/#httpparams)
+
 #### Q48. Assuming the `DataService` has been registered in the providers for the application, which answer best describes what happens based on this component's constructor?
 
 ```
@@ -884,9 +892,11 @@ export class OrderHistoryComponent {
 ```
 
 - [ ] It is declaring that the `OrderHistoryComponent` will have its own version of a `DataService` and that it should never use any existing instances. The `DataService` would need to be instantiated within the class as a private field for this code to be complete and working.
-- [ ] When Angular creates a new instance of the `OrderHistoryComponent`, the injector will provide an instance of a `DataService` class to the component constructor's first argument. The constructor's `dataService` parameter will be used to set a private instance field with the same name on the instance.
+- [x] When Angular creates a new instance of the `OrderHistoryComponent`, the injector will provide an instance of a `DataService` class to the component constructor's first argument. The constructor's `dataService` parameter will be used to set a private instance field with the same name on the instance.
 - [ ] It provides a way to do component testing only; the constructor has no usage in the actual run of the Angular application.
 - [ ] It enables the custom element that the component targets to have a custom property named `dataService` that can be used to bind an existing `DataService` instance to.
+
+Reference [StackOverflow](https://stackoverflow.com/a/49755822) | [Angular.io - Dependency Injection](https://angular.io/guide/dependency-injection)
 
 #### Q49. Finish this markup using the `ngIf` directive to implement an else case that will display the text "User is not active":
 
@@ -920,13 +930,14 @@ export class OrderHistoryComponent {
 </ng-template>
 ```
 
-- [ ]
+- [x]
 
 ```angular2html
 <ng-template #inactive>
   <div>User is not active.</div>
 </ng-template>
 ```
+[Reference (Angular.io)](https://angular.io/api/common/NgIf)
 
 #### Q50. What is the correct syntax for a route definition to lazy load a feature module?
 
@@ -939,7 +950,7 @@ export class OrderHistoryComponent {
 }
 ```
 
-- [ ]
+- [x]
 
 ```
 {
@@ -965,7 +976,7 @@ export class OrderHistoryComponent {
     module: UsersModule
 }
 ```
-
+[Reference (Angular.io - Lazy Loading Modules)](https://angular.io/guide/lazy-loading-ngmodules)
 #### Q51. Describe how the validation is set up and configured in this reactive forms example:
 
 ```
@@ -986,7 +997,9 @@ export class UserFormControl implements OnInit {
 - [ ] The `FormControl` for `username` is getting configured to exclude three validators from the validators that it is allowed to use.
 - [ ] The `FormControl` for `username` is getting configured to allow three possible validators to be used: `required, maxLength`, and a custom one named `unique`. To enable these `validators`, a validator directive would need to be put on the form fields in the markup.
 - [ ] Validation cannot be set up this way in reactive forms.
-- [ ] The `FormControl` for `username` is getting configured with three validators: the `required` and `minLength` validators that come from Angular, and a custom validator function named `unique` that checks for the value not equal to the string `admin`.
+- [x] The `FormControl` for `username` is getting configured with three validators: the `required` and `minLength` validators that come from Angular, and a custom validator function named `unique` that checks for the value not equal to the string `admin`.
+
+Reference [Angular.io - Form Validation](https://angular.io/guide/form-validation) | [Angular University Blog](https://blog.angular-university.io/angular-custom-validators/)
 
 #### Q52. What does the Injectable decorator do on this service class?
 
