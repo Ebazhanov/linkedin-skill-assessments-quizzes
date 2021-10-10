@@ -310,6 +310,8 @@ export class TitleCardComponent {
 - [ ] `{ routedPath: 'user/:id', component: UserDetailComponent }`
 - [ ] `{ destination: new UserDetailComponent(), route: 'user/:id' }`
 
+[Reference (CodeCraft - Parameterised Routes)](https://codecraft.tv/courses/angular/routing/parameterised-routes/#_configuration)
+
 #### Q21. What are the HostListener decorators and the HostBinding decorator doing in this directive?
 
 ```javascript
@@ -336,6 +338,8 @@ export class CalloutDirective {
 - [ ] This is an incorrect use of HostListener and HostBinding. The HostListener and HostBinding decorators do not do anything on directives; they work only when used on components.
 - [ ] If the DOM element that this directive is placed on has the CSS property font-weight set on it, the mouseenter and mouseleave events will get raised.
 
+[Reference (DigitalOcean)](https://www.digitalocean.com/community/tutorials/angular-hostbinding-hostlistener)
+
 #### Q22. What Angular template syntax can you use on this template-driven form field to access the field value and check for validation within the template markup?
 
 ```html
@@ -348,6 +352,8 @@ export class CalloutDirective {
 - [ ] You can use a template reference variable for the HTML input element and then check the valid property off of that.
 - [ ] It is not possible to get access to the field value with template-driven forms. You must use reactive forms for that.
 
+[Reference (Angular.io -Show and hide validation error )](https://angular.io/guide/forms#show-and-hide-validation-error-messages) | [Medium](https://medium.com/@agoiabeladeyemi/template-driven-forms-in-angular-4a3a5ad960de)
+
 #### Q23. What is the value type that will be stored in the headerText template reference variable in this markup?
 
 ```html
@@ -359,16 +365,21 @@ export class CalloutDirective {
 - [ ] a header component class
 - [ ] the native DOM element type of HTMLHeadingElement
 
+[Reference (Pluralsight - Template reference variable)](https://www.pluralsight.com/guides/how-to-use-template-reference-variables-in-angular)
+
 #### Q24. What is the difference, if any, of the resulting code logic based on these two provider configurations?
 
 ```javascript
-[{ provide: FormattedLogger, useClass: Logger }][{ provide: FormattedLogger, useExisting: Logger }];
+[{ provide: FormattedLogger, useClass: Logger }]
+[{ provide: FormattedLogger, useExisting: Logger }];
 ```
 
 - [ ] They are the same. Both will result in a new instance of Logger that is bound to the FormattedLogger token.
 - [x] The useClass syntax tells the injector to make a new instance of Logger and bind that instance to the FormattedLogger token. The useExisting syntax refers to an already existing object instance declared as Logger.
 - [ ] Both of them are wrong. A strong type connot be used for useClass or useExisting.
 - [ ] They are the same. Both will result in the FormattedLogger token being an alias for the instance of Logger.
+
+Reference [(Angular.io - Dependency Providers)](https://angular.io/guide/dependency-injection-providers#defining-providers) | [ (TektutorialHub)](https://www.tektutorialshub.com/angular/angular-providers/)
 
 #### Q25. What is the purpose of the data property (seen in the example below) in a route configuration?
 
@@ -384,6 +395,8 @@ export class CalloutDirective {
 - [x] a way to include static, read-only data associated with the route that can be retrieved from the ActivatedRoute
 - [ ] a property on the route that can be used to load dynamic data for the route
 - [ ] an object that will get auto-injected into the routed component's constructor.
+
+Reference [TektutorialsHub](https://www.tektutorialshub.com/angular/angular-pass-data-to-route/#:~:text=Angular%20allows%20us%20to%20pass,of%20the%20history%20state%20object.) | [StackOverflow](https://stackoverflow.com/a/36835156)
 
 #### Q26. How does the built-in `ngIf` structural directive change the rendered DOM based on this template syntax?
 
@@ -421,6 +434,8 @@ platformBrowserDynamic().bootstrapModule(AppModule);
 - [ ] It provides a way to code the document structure of an Angular application. The @NgModule is a form of inline code commenting that gets ignored by the TypeScript compiler but will show up with special formatting in code editor applications.
 - [ ] It declares an Angular module named AppModule and makes it available for lazy loading throughout the application.
 - [x] It declares an Angular module named AppModule that contains a bootstrapped component named AppComponent. Then it registers that module with Angular, so the app can start up.
+
+[Reference (Angular.io - The basic NgModule)](https://angular.io/guide/ngmodules#the-basic-ngmodule)
 
 #### Q28. Which choice best describes what the _resolve_ property does in this route configuration?
 
@@ -583,6 +598,7 @@ forms markup for the username field?
       Username must be at least {{ userName.errors.minlength.requiredLength }} characters.
     </span>
 ```
+[Refrence (Codecraft)](https://codecraft.tv/courses/angular/forms/template-driven/)
 
 #### Q37. How does the emulated view encapsulation mode handle CSS for a component?
 
