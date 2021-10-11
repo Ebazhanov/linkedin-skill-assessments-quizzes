@@ -794,7 +794,7 @@ getSettings()
 - [ ] Every single call to the getSettings method will result in the Httpclient making three total get requests to the settingsUrl, which is not ideal because there will always be two extra calls that are not needed. The retry operator should not be used in this manner.
 - [x] When the result of the getSettings method is subscribed to, the HTTP GET call will be made; if it fails, it will be retried up to three times before it gives up and returns an error.
 
-[Reference(learnrxjs.io)](https://www.learnrxjs.io/learn-rxjs/operators/error_handling/retry)
+Reference [learnrxjs.io](https://www.learnrxjs.io/learn-rxjs/operators/error_handling/retry) | [dev.to](https://dev.to/gparlakov/how-does-rxjs-retry-work-412p)
 
 #### Q43. When a service requires some setup to initialize its default state through a method, how can you make sure that said method is invoked before the service gets injected anywhere?
 
