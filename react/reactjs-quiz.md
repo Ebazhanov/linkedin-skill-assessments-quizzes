@@ -860,3 +860,15 @@ const [count, setCount] = useState(0);
 
 **Reference:**
 From official docs: [Hooks-State](https://reactjs.org/docs/hooks-state.html#:~:text=If%20we%20want%20to%20update%20the%20current)
+
+#### Q75. What is the use of map function below?
+
+```javascript
+const database = [user1:{},user2:{},user3:{}];
+database.map((user)=><h1>user.data</h1>);
+```
+
+- [ ] gives a map of all the entries in database
+- [x] returns a heading tag for every entery in the database containing it's data
+- [ ] returns one heading tag for all the enteries in database
+- [ ] checks which entry in the databse is suitable for heading tag
