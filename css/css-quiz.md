@@ -198,8 +198,8 @@ a {
 #### Q14. What is the difference between the following line-height settings?
 
 ```css
-line-height: 20px
-line-height: 2
+line-height: 20px;
+line-height: 2;
 ```
 
 - [x] The value of 20px will set the line-height to 20px. The value of 2 will set the line-height to twice the size of the corresponding font-size value.
@@ -396,10 +396,10 @@ p {
 
 #### Q29. Which of the following is not a valid color value?
 
-- [ ] color: #000
-- [ ] color: rgb(0,0,0)
-- [ ] color: #000000
-- [x] color: 000000
+- [ ] color: `#000`
+- [ ] color: `rgb(0,0,0)`
+- [ ] color: `#000000`
+- [x] color: `000000`
 
 #### Q30. What is the vertical gap between the two elements below?
 
@@ -468,7 +468,6 @@ h2 + p {
 
 - [ ] Paragraphs 2 and 3 will be blue. The h2 and paragraph 2 will have a beige background.
 - [x] Paragraphs 2, and 3 will be blue, and paragraph 2 will have a beige background.
-- [x] Paragraphs 2 and 3 will be blue. Paragraph 2 will have a beige background.
 - [ ] Paragraph 2 will be blue. Paragraphs 2 and 3 will have a beige background.
 
 #### Q35. When using flexbox, the "justify-content" property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
@@ -508,7 +507,10 @@ h2 + p {
 
 #### Q40. The values for the font-weight property can be keywords or numbers. For each numbered value below, what is the associated keyword?
 
-`font-weight: 400; font-weight: 700;`
+```css
+font-weight: 400;
+font-weight: 700;
+```
 
 - [ ] bold; normal
 - [x] normal; bold
@@ -933,26 +935,28 @@ font-weight: bold;
 - [ ] by using a Google-specific CSS syntax that directly links to the desired font file
 - [ ] by using a standard font-face CSS definition sourcing a font file on Google's servers
 
-#### Q78. which choice is not a valid color?
+#### Q78. Using the following HTML and CSS example, what will equivalent pixel value be for .em and .rem elements?
 
-- [ ] color: `#000`;
-- [ ] color: `rgb(0,0,0)`;
-- [ ] color: `#000000`;
-- [x] color: `000000`;
-
-#### Q79. Using the following HTML and CSS example, what will equivalent pixel value be for .em and .rem elements?
-
+```css
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 2rem;
+}
+.rem {
+  font-size: 1.5rem;
+}
+.em {
+  font-size: 2em;
+}
 ```
-html {font-size: 10px}
-body {font-size: 2rem;}
-.rem {font-size: 1.5rem;}
-.em {font-size: 2em;}
 
+```html
 <body>
   <p class="rem"></p>
   <p class="em"></p>
 </body>
-
 ```
 
 - [ ] The .rem will be equivalent to 25px; the .em value will be 20px.
@@ -960,44 +964,23 @@ body {font-size: 2rem;}
 - [x] The .rem will be equivalent to 15px; the .em value will be 40px.
 - [ ] The .rem will be equivalent to 20px; the .em value will be 40px.
 
-#### Q80. In this example, according to cascading and specificity rules, what color will the link be?
-
-```
-.example {color: yellow;}
-ul li a {color: blue;}
-ul a {color: green;}
-a {color: red;}
-
-<ul>
-  <li><a href="#" class="example">link</a></li>
-  <li>list item</li>
-  <li>list item</li>
-</ul>
-
-```
-
-- [ ] blue
-- [ ] red
-- [x] yellow
-- [ ] green
-
-#### Q81. What property is used to adjust the space between text characters?
+#### Q79. What property is used to adjust the space between text characters?
 
 - [ ] `font-style`
 - [ ] `text-transform`
 - [ ] `font-variant`
 - [x] `letter-spacing`
 
-#### Q82. What is the correct syntax for changing the curse from an arrow to a pointing hand when it interacts with a named element?
+#### Q80. What is the correct syntax for changing the curse from an arrow to a pointing hand when it interacts with a named element?
 
 - [x] `.element {cursor: pointer;}`
 - [ ] `.element {cursor: hand;}`
 - [ ] `.element {cursor: move-hand;}`
 - [ ] `.element {cursor: pointer-hand;}`
 
-#### Q83. What is the effect of this style?
+#### Q81. What is the effect of this style?
 
-```html
+```css
 background-position: 10% 50%;
 ```
 
@@ -1006,9 +989,9 @@ background-position: 10% 50%;
 - [ ] The background image is placed 10% from the right and 50% from the bottom of its container
 - [ ] The background image is placed 10% from the top and 50% from the left of its container
 
-#### Q84. How will the grid items display?
+#### Q82. How will the grid items display?
 
-```html
+```css
 grid-template-columns: 2fr 1fr;
 ```
 
@@ -1017,7 +1000,7 @@ grid-template-columns: 2fr 1fr;
 - [x] The first column is twice as wide as the second column and will fit proportionally within the grid container
 - [ ] The first column is twice the width and height of the second column, and will fit proportionally within the grid container
 
-#### Q85. Which style rule would make the image 50% smaller during a hover?
+#### Q83. Which style rule would make the image 50% smaller during a hover?
 
 ```html
 <img id="photo" alt="" src="..." />
@@ -1028,7 +1011,7 @@ grid-template-columns: 2fr 1fr;
 - [ ] img#photo {hover-scale: 0.5;}
 - [ ] img#photo:hover {size: smaller;}
 
-#### Q86. Which CSS properties can you use to create a rounded corner on just the top-left and top-right corners of an element?
+#### Q84. Which CSS properties can you use to create a rounded corner on just the top-left and top-right corners of an element?
 
 ```css
 A. border-radius: 10px 10px 0 0;
@@ -1042,7 +1025,7 @@ D. border-top-radius: 10px;
 - [ ] B and C
 - [x] A and B
 
-#### Q87. Review the HTML example below. Then choose the list of selectors that select the \<p>, from lowest to highest specificity.
+#### Q85. Review the HTML example below. Then choose the list of selectors that select the \<p>, from lowest to highest specificity.
 
 ```html
 <section>
@@ -1118,14 +1101,14 @@ D. border-top-radius: 10px;
 }
 ```
 
-#### Q88. Which property is used to create a drop shadow effect on an HTML element?
+#### Q86. Which property is used to create a drop shadow effect on an HTML element?
 
 - [ ] element-shadow
 - [ ] outer-shadow
 - [ ] dropbox-shadow
 - [x] box-shadow
 
-#### Q89. What is the correct selector for targeting all text inputs that are not disabled?
+#### Q87. What is the correct selector for targeting all text inputs that are not disabled?
 
 - [x] `input[type="text"]:not([disabled]) {...}`
 - [ ] `input[type="text"]:not("disabled") {...}`
@@ -1139,7 +1122,7 @@ D. border-top-radius: 10px;
 - [Reference link attribute-selector](https://www.w3schools.com/css/css_attribute_selectors.asp)
 - [Reference link-:not()](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
 
-#### Q90. How can you create a semi-transparent background color?
+#### Q88. How can you create a semi-transparent background color?
 
 - [ ] background-color: hsl(0, 0, 0, 0.5);
 - [ ] background-color: rgbx(0, 0, 0, 0.5);
@@ -1151,10 +1134,10 @@ D. border-top-radius: 10px;
 
 - [Reference link-rgba](https://www.w3schools.com/cssref/func_rgba.asp)
 
-#### Q91. Which property is used to create a drop shadow effect on an HTML element?
+#### Q89. Which property is used to create a drop shadow effect on an HTML element?
 
 ```css
-grid-template-columns: 2fr 1ffr;
+grid-template-columns: 2fr 1fr;
 ```
 
 - [ ] The first column is half the size of the container and the second column will absorb the remaining space.
@@ -1164,7 +1147,7 @@ grid-template-columns: 2fr 1ffr;
 
 [Reference-MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns)
 
-#### Q92. Suppose you want to have a list of items (.item) displayed in a row and in reverse order using flexbox. What is the error in the CSS below?
+#### Q90. Suppose you want to have a list of items (.item) displayed in a row and in reverse order using flexbox. What is the error in the CSS below?
 
 ```css
 .container {
@@ -1181,18 +1164,22 @@ grid-template-columns: 2fr 1ffr;
 - [x] The flex-direction property should be declared in the container.
 - [ ] The display value should be flex-inline to display the items in a row.
 
-#### Q93. Which choice is not a valid transition?
+#### Q91. Which choice is not a valid transition?
 
 - [x] `transition: margin 1000ms ease-in-out;`
 - [ ] `transition: color 1.3s ease-in;`
 - [ ] `transition: position 400ms linear;`
 - [ ] `transition: opacity 1s ease-in;`
 
-#### Q94. In this example, what color will the paragraphs be and why?
+#### Q92. In this example, what color will the paragraphs be and why?
 
-```
-article p { color: blue; }
-article > p { color: green; }
+```css
+article p {
+  color: blue;
+}
+article > p {
+  color: green;
+}
 ```
 
 ```html
@@ -1210,9 +1197,9 @@ article > p { color: green; }
 - [x] Paragraph 1 will be green. Paragraph 2 will be blue.
 - [ ] Both paragraphs will be blue.
 
-#### Q95. Review the declaration of border style shown below. What is the corresponding longhand syntax?
+#### Q93. Review the declaration of border style shown below. What is the corresponding longhand syntax?
 
-```
+```css
 border: 1px solid red;
 ```
 
@@ -1236,19 +1223,22 @@ border-width: 1px;
 border-line: solid;
 border-color: red;
 
-#### Q96. Pseudo-classes are used to **\_**.
+#### Q94. Pseudo-classes are used to **\_**.
 
 - [x] style the state of the selected element
 - [ ] insert presentational content
 - [ ] style a specific part of the selected element
 - [ ] style the elements using class selectors
 
-#### Q97. In this example, what styles will be applied to which elements?
+#### Q95. In this example, what styles will be applied to which elements?
 
-```
+```css
 section {
   color: gray;
 }
+```
+
+```html
 <section>
   <p>paragraph</p>
   <a href="#">link</a>
@@ -1260,14 +1250,14 @@ section {
 - [ ] The paragraph will be gray. The link will be the browser default, black.
 - [x] Only the paragraph will be gray.
 
-#### Q98. Which answer is an example of a type selector (also sometimes referred to as an element selector)?
+#### Q96. Which answer is an example of a type selector (also sometimes referred to as an element selector)?
 
 - [ ] .header {...}
 - [ ] header {...}
 - [ ] #header {...}
 - [ ] header > h1 {...}
 
-#### Q99. Which answer is an example of a type selector (also sometimes referred to as an element selector)?
+#### Q97. Which answer is an example of a type selector (also sometimes referred to as an element selector)?
 
 ```
 <style>

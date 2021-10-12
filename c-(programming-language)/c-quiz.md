@@ -523,7 +523,7 @@ main(){
 
 #### Q38. Directives are translated by the?
 
-- [X] Pre-processor
+- [x] Pre-processor
 - [ ] Compiler
 - [ ] Linker
 - [ ] Editor
