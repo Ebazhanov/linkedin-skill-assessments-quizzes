@@ -18,7 +18,7 @@ Add explanation (`or reference link`) to your answers. That will help anyone to 
 
 If you want to meet each other or discuss quiz related problems join the `Discord` chat
 
-[![Join our Discord server!](https://invidget.switchblade.xyz/p6wZ82w8Qj?theme=light)](https://discord.gg/p6wZ82w8Qj)
+[![Join our Discord server!](https://invidget.switchblade.xyz/s4eAJD7sTQ?theme=light)](https://discord.gg/s4eAJD7sTQ)
 
 ### Table of Contents
 
