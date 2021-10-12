@@ -1448,3 +1448,24 @@ x<y&z>w
 - [ ] The `<label>` element is missing an **id** set to "address-input".
 
 - [x] The `<label>` element is missing a **for** attribute set to "address-input".
+
+#### Q91. What is the default method for form submission?
+
+- [x] GET
+- [ ] POST
+- [ ] PUT
+- [ ] SUBMIT
+
+#### Q92. Which is the most semantically correct markup for a side comment in small print?
+
+- [x] `<p>` Get 10% discount `<small>`not valid in France`</small></p>`
+- [ ] `<p>` Get 10% discount `<!--not valid in France--> </p>`
+- [ ] `<p>` Get 10% discount `<comment>`not valid in France`</comment></p>`
+- [ ] `<p>` Get 10% discount `<aside>`not valid in France`</aside></p>`
+
+#### Q93. Which choice will produce the spanish word <i>canción</i>?
+
+- [ ] `<p lang="es">canción</p>`
+- [x] `<p lang="es">canci&oacuten</p>`
+- [ ] `<p lang="es">cancio'n</p>`
+- [ ] `<p lang="es">canci'on</p>`
