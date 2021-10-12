@@ -172,7 +172,6 @@ class TitleCardComponent {
 - [ ] It returns a Boolean based on if the value of the control is different from the value with which it was initialized.
 - [x] It is an observable that emits every time the value of the control changes, so you can react to new values and make logic decisions at that time.
 
-
 [Reference (Angular.io - Displaying a from control value)](https://angular.io/guide/reactive-forms#displaying-a-form-control-value)
 
 #### Q12. What directive is used to link an `<a>` tag to routing?
@@ -370,8 +369,7 @@ export class CalloutDirective {
 #### Q24. What is the difference, if any, of the resulting code logic based on these two provider configurations?
 
 ```javascript
-[{ provide: FormattedLogger, useClass: Logger }]
-[{ provide: FormattedLogger, useExisting: Logger }];
+[{ provide: FormattedLogger, useClass: Logger }][{ provide: FormattedLogger, useExisting: Logger }];
 ```
 
 - [ ] They are the same. Both will result in a new instance of Logger that is bound to the FormattedLogger token.
@@ -598,6 +596,7 @@ forms markup for the username field?
       Username must be at least {{ userName.errors.minlength.requiredLength }} characters.
     </span>
 ```
+
 [Refrence (Codecraft)](https://codecraft.tv/courses/angular/forms/template-driven/)
 
 #### Q37. How does the emulated view encapsulation mode handle CSS for a component?
@@ -771,7 +770,7 @@ providers: [{ provide: 'Logger', useClass: Logger }];
 providers: [{ provide: 'Logger' }];
 ```
 
-References [StackOverflow](https://stackoverflow.com/a/37315355) | [TektutorialHub](https://www.tektutorialshub.com/angular/angular-injector-injectable-inject/) | [Angular.io - Dependency Injection In Action](https://angular.io/guide/dependency-injection-in-action#supply-a-custom-provider-with-inject) 
+References [StackOverflow](https://stackoverflow.com/a/37315355) | [TektutorialHub](https://www.tektutorialshub.com/angular/angular-injector-injectable-inject/) | [Angular.io - Dependency Injection In Action](https://angular.io/guide/dependency-injection-in-action#supply-a-custom-provider-with-inject)
 
 #### Q42. Which choice best describes the following usage of the HttpClient . get method in the getsettings class method?
 
@@ -939,6 +938,7 @@ Reference [StackOverflow](https://stackoverflow.com/a/49755822) | [Angular.io - 
   <div>User is not active.</div>
 </ng-template>
 ```
+
 [Reference (Angular.io)](https://angular.io/api/common/NgIf)
 
 #### Q50. What is the correct syntax for a route definition to lazy load a feature module?
@@ -978,7 +978,9 @@ Reference [StackOverflow](https://stackoverflow.com/a/49755822) | [Angular.io - 
     module: UsersModule
 }
 ```
+
 [Reference (Angular.io - Lazy Loading Modules)](https://angular.io/guide/lazy-loading-ngmodules)
+
 #### Q51. Describe how the validation is set up and configured in this reactive forms example:
 
 ```

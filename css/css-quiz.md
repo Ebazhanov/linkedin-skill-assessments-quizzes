@@ -508,7 +508,7 @@ h2 + p {
 #### Q40. The values for the font-weight property can be keywords or numbers. For each numbered value below, what is the associated keyword?
 
 ```css
-font-weight: 400; 
+font-weight: 400;
 font-weight: 700;
 ```
 
@@ -939,7 +939,7 @@ font-weight: bold;
 
 ```css
 html {
-  font-size: 10px
+  font-size: 10px;
 }
 body {
   font-size: 2rem;
@@ -951,6 +951,7 @@ body {
   font-size: 2em;
 }
 ```
+
 ```html
 <body>
   <p class="rem"></p>
@@ -1173,11 +1174,11 @@ grid-template-columns: 2fr 1fr;
 #### Q92. In this example, what color will the paragraphs be and why?
 
 ```css
-article p { 
-  color: blue; 
+article p {
+  color: blue;
 }
-article > p { 
-  color: green; 
+article > p {
+  color: green;
 }
 ```
 
@@ -1236,6 +1237,7 @@ section {
   color: gray;
 }
 ```
+
 ```html
 <section>
   <p>paragraph</p>
