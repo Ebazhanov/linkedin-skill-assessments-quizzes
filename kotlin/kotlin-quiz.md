@@ -741,7 +741,7 @@ fun main() {
 - [ ] val sorted = fibonacci().skip(3).take(6).sortedDescending().toList()
 - [ ] val sorted = fibonacci().skip(3).take(6).sortedByDescending().toList()
 - [ ] val sorted = fibonacci().skip(3).limit(6).sortedByDescending().toList()
-- [X] val sorted = fibonacci().drop(3).take(6).sortedDescending().toList() ([reference](https://kotlinlang.org/docs/collection-parts.html#take-and-drop))
+- [x] val sorted = fibonacci().drop(3).take(6).sortedDescending().toList() ([reference](https://kotlinlang.org/docs/collection-parts.html#take-and-drop))
 
 #### Q63. You have two arrays, a and b. Which line combines a and b as a list containing the contents of both?
 
@@ -798,7 +798,7 @@ class Styles {
 #### Q68. Given the code below, how can you write the line this.moveTo("LA") more concisely?
 
 ```
-data class Student (val name: String, var location: String) { 
+data class Student (val name: String, var location: String) {
   fun moveTo (newLoc: String) { location = newLoc }
 
 }
@@ -811,30 +811,38 @@ fun main() {
 
 }
 ```
+
 - [ ] moveTo( "LA")
-- [X] ::moveTo("LA") ([reference](https://kotlinlang.org/docs/reflection.html#interoperability-with-java-reflection))
+- [x] ::moveTo("LA") ([reference](https://kotlinlang.org/docs/reflection.html#interoperability-with-java-reflection))
 - [ ] moveTo("LA")
 - [ ] it.moveTo("LA")
 
 #### Q69. For the Product class you are designing, you would like the price to be readable by anyone, but changeable only from within the class. Which property declaration implements your design?
 
 - [ ]
+
 ```
-var price: Int = 0 
-  public get() 
+var price: Int = 0
+  public get()
   private set
 ```
-- [X] ([reference](https://kotlinlang.org/docs/properties.html#getters-and-setters))
+
+- [x] ([reference](https://kotlinlang.org/docs/properties.html#getters-and-setters))
+
 ```
-var price: Int = 0 
+var price: Int = 0
   private set
 ```
+
 - [ ]
+
 ```
 var price: Int = 0
   val set
 ```
+
 - [ ]
-``` 
-val price: Int=0 
+
+```
+val price: Int=0
 ```

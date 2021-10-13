@@ -859,7 +859,7 @@ SELECT name FROM students WHERE name REGEXP '^to';
 
 #### Q91. You are managing a database with a table called "customers." You created a temporary table also called "customers" with which you are working for the duration of your session. You need to re-create the remporary table with different specifications. Which command do you need to run first?
 
-- [x] DROP TEMPORARY TABLE  customers;
+- [x] DROP TEMPORARY TABLE customers;
 - [ ] CREATE TEMPORARY TABLE customers;
 - [ ] DROP TEMP TABLE customers;
 - [ ] DROP TABLE customers;

@@ -342,3 +342,10 @@ D. They must have no duplicate data rows.
 - [ ] organization visuals
 - [x] Dashboard Manager
 - [ ] audit logs
+
+#### Q45. You want to count the number of products in the Products data table. Which DAX function works best?
+
+- [ ] RECOUNT
+- [ ] COUNTUNIQUE
+- [x] COUNTX
+- [ ] COUNTROWS

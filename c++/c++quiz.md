@@ -1152,7 +1152,6 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
        Sprite();
 ```
 
-
 #### Q67. What is the purpose of this line in a header file?
 
 ```cpp
