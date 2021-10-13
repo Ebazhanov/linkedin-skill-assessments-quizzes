@@ -492,10 +492,11 @@ fi
 
 - [ ] systemctl disable crond
 - [ ] systemctl disallow crond
-- [ ] systemctl mask crond
-- [x] systemctl stop crond
+- [x] systemctl mask crond
+- [ ] systemctl stop crond
 
-**Note:** Not confident about answer. If someone knows the exact answer please contribute in this repository and mark correct answer.
+**Note:** This is the correct answer because "mask" will prohibits all kinds of activation of the unit, including manual activation.
+[Reference](https://www.commandlinux.com/man-page/man1/systemctl.1.html) : search "mask".
 
 #### Q61. What issue might a user have when they mount a filesystem by partition path such as /dev/sdal in the /etc/fstab file?
 
