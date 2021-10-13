@@ -1367,3 +1367,23 @@ public class Main {
 - [ ] 4 2 3 1
 - [x] 1 2 3 4
 - [ ] 4 3 2 1
+
+
+#### Q96. What will this code print, assuming it is inside the main method of a class?
+
+```System.out.println("hello my friends".split(" ")[0]);```
+
+- [ ] my
+- [ ] hellomyfriends
+- [x] hello
+- [ ] friends
+
+
+#### Q97. You have an instance of type Map<String, Integer> named instruments containing the following key-value pairs: guitar=1200, cello=3000, and drum=2000. If you add the new key-value pair cello=4500 to the Map using the put method, how many elements do you have in the Map when you call instruments.size()?
+
+```System.out.println("hello my friends".split(" ")[0]);```
+
+- [ ] 2
+- [ ] When calling the put method, Java will throw an exception
+- [ ] 4
+- [x] 3
