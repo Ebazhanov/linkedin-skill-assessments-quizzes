@@ -153,7 +153,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 - [ ] Sort the messages by size then filter by Has: Attachments
 - [ ] Sort the messages by sender
 - [ ] Sort the messages by Has: Attachments and then filter by Is: Large
-- [ ] Sort the messages by Has: Attachments and then by size
+- [x] Sort the messages by Has: Attachments and then by size
 
 #### Q22. What is not a built-in search filter for message folder?
 
@@ -173,7 +173,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 - [ ] Search based on sender then filter by Has Attachments
 - [ ] Search for "has:attachments" and then filter by Bonnie Bradford
-- [ ] All of these answers
+- [x] All of these answers
 - [ ] Enter "Bonnie Bradford attachment" in the search box
 
 #### Q25. Each category must have a unique \_
@@ -404,7 +404,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Right-click the meeting in the Calendar and select Reminders Window.
 - [ ] Close and reopen Outlook
 - [ ] On Windows, on the Home tab, click Schedule View. On Mac, click View > Switch to Other.
-- [ ] On Windows, on the View tab, click Reminders Window. On Mac, click Windows > Reminders.
+- [x] On Windows, on the View tab, click Reminders Window. On Mac, click Windows > Reminders.
 
 #### Q56. You received an email from someone and want to find other emails from this person. Witch method is not a way to see those emails across all folders?
 
@@ -418,7 +418,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Flag yourself as unavailable to specific coworkers.
 - [ ] Route all future emails from a user directly to the Deleted Items folder.
 - [ ] Skip all misspellings of a specific word.
-- [ ] Turn off all reminders and notifications.
+- [x] Turn off all reminders and notifications.
 
 #### Q58. When you flag an email for follow-up, you are assigning the email a(n) \_ .
 
@@ -467,7 +467,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Words found in the message itself.
 - [ ] Who sent the email.
 - [ ] Attachments.
-- [ ] Where the email was sent from.
+- [x] Where the email was sent from.
 
 #### Q65. You have 15 folders, one of each of your projects. How can you make your most frequently used folders more accessible?
 
@@ -479,7 +479,7 @@ D. Because you cannot create a search folder for a subfolder
 #### Q66. You accidentally delete an email from your inbox. How can you retrieve the deleted email?
 
 - [ ] You cannot retrieve a deleted email.
-- [ ] Open the Deleted Items folder.
+- [x] Open the Deleted Items folder.
 - [ ] Open your computer's Recycle Bin (Windows) or Trash (Mac).
 - [ ] Click the Undo button.
 
@@ -494,7 +494,7 @@ D. Because you cannot create a search folder for a subfolder
 
 #### Q69. Which Outlook function allows you to filter your emails?
 
-- [ ] Find
+- [x] Find
 - [ ] Move
 - [ ] Tag
 - [ ] Quick Steps
