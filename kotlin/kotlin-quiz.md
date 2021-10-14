@@ -847,7 +847,7 @@ var price: Int = 0
 val price: Int=0
 ```
 
-#### Q69. What will happen when you try to build and run this code snippet?
+#### Q70. What will happen when you try to build and run this code snippet?
 
 ```
 class SpecialFunction : () -> Unit {
