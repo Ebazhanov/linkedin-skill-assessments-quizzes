@@ -5726,6 +5726,36 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "mdnk889",
+      "name": "Nikhil Kumar Macharla",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22156445?v=4",
+      "profile": "https://github.com/mdnk889",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "dextermallo",
+      "name": "Dexter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29012607?v=4",
+      "profile": "https://dexter-chang.medium.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "AaronOS0",
+      "name": "Aaron",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57332988?v=4",
+      "profile": "https://aaronos0.github.io/about/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
