@@ -5746,6 +5746,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "AaronOS0",
+      "name": "Aaron",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57332988?v=4",
+      "profile": "https://aaronos0.github.io/about/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
