@@ -118,3 +118,10 @@
 - [ ] Select **Tools** > **Enhance Scans** > **Enhance Camera Image**.
 - [ ] Select **Tools** > **Enhance Scans** > **Enhance Scanned Document**.
 - [ ] Right-click the image and select **Add Image**.
+
+#### Q18. You receive a PDF of a manuscript to be printed as an on-demand book. The writer also sent a new, single-page PDF to be added to the manuscript as the book's cover. Where can you go to accomplish this ?
+
+- [ ] Tools > Compare Files
+- [x] Tools > Organize Pages
+- [ ] Tools > Edit PDF
+- [ ] Tools > Action Wizard
