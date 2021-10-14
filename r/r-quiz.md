@@ -396,3 +396,14 @@ StopDate-StartDate
 - [x] VisitPCA, VarX
 - [ ] VisitPCA, varx
 - [ ] Xvar, Yvar
+
+#### Q40. StDf is a data frame. Based on this knowledge, what does this statement return?
+
+```
+StDf[, -1]
+```
+
+- [ ] all but the first row and first column of StDf
+- [ ] all but the final column of StDf
+- [x] all but the first column of StDf
+- [ ] only the first column of StDf
