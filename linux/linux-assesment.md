@@ -495,7 +495,7 @@ fi
 - [x] systemctl mask crond
 - [ ] systemctl stop crond
 
-**Note:** This is the correct answer because "mask" will all kinds of activation of the unit, including manual activation.
+**Note:** This is the correct answer because "mask" prohibits all kinds of activation of the unit, including manual activation.
 [Reference](https://www.commandlinux.com/man-page/man1/systemctl.1.html) : search "mask".
 
 #### Q61. What issue might a user have when they mount a filesystem by partition path such as /dev/sdal in the /etc/fstab file?
