@@ -846,3 +846,22 @@ var price: Int = 0
 ```
 val price: Int=0
 ```
+
+#### Q69. What will happen when you try to build and run this code snippet?
+
+```
+class SpecialFunction : () -> Unit {
+    override fun invoke() {
+        println("Invoked from an instance.")
+    }
+}
+fun main() {
+    try { SpecialFunction()() } 
+    catch (ex: Exception) { println("An error occurred") } 
+class SpecialFunction : () -> Unit { override fun invoke() { println("Invoked from an instance.") } } fun main() { try { SpecialFunction()() } catch (ex: Exception) { println("An error occurred") } 
+```
+
+- [ ] The message "An error occurred" is displayed.The message "An error occurred" is displayed.
+- [ ] A compile error occurs. You cannot override the invoke() method.A compile error occurs. You cannot override the invoke() method.
+- [ ] The message "Invoked from an instance." is displayed.The message "Invoked from an instance." is displayed.
+- [ ] A syntax error occurs due to the line SpecialFunction()().A syntax error occurs due to the line SpecialFunction()().
