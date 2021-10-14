@@ -5706,6 +5706,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "teodorciripescu",
+      "name": "Teodor Ciripescu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13398878?v=4",
+      "profile": "https://github.com/teodorciripescu",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
