@@ -750,17 +750,17 @@ val b = arrayOf(100, 200, 3000)
 ```
 
 - [ ] val c = list of (a, b)
-- [ ] val c = a + b
+- [x] val c = a + b ([reference](https://www.techiedelight.com/join-two-lists-kotlin/))
 - [ ] val c = listOf(a+b)
 - [ ] val c = listOf(*a, *b)
 
 #### Q64. This code is occasionally throwing a null pointer exception (NPE). How can you change the code so it never throws as NPE?
 
-```println("length of First Name = ${firstName!!.length}")
-
+```
+println("length of First Name = ${firstName!!.length}")
 ```
 
-- [ ] Replace !!. with ?..
+- [x] Replace !!. with ?.. ([reference](https://kotlinlang.org/docs/null-safety.html#nullable-types-and-non-null-types))
 - [ ] Replace !!. with ?:.
 - [ ] Surround the line with a try/catch block.
 - [ ] Replace !!. with ?.let.
@@ -768,7 +768,7 @@ val b = arrayOf(100, 200, 3000)
 #### Q65. What is the execution order of init blocks and properties during initialization?
 
 - [ ] All of the properties are executed in order of appearance, and then the init blocks are executed.
-- [ ] The init blocks and properties are executed in the same order they appear in the code.
+- [x] The init blocks and properties are executed in the same order they appear in the code. ([reference](https://kotlinlang.org/docs/classes.html#constructors))
 - [ ] All of the init blocks are executed in order of appearance, and then the properties are executed.
 - [ ] The order of execution is not guaranteed, so code should be written accordingly.
 
@@ -783,17 +783,17 @@ class Styles {
 }
 ```
 
-- [X]const works only with strings and primitives. @JvmField does not have that restriction. ([reference](https://github.com/ythy/blog/issues/328))
-- [ ]@JvmField works as a top-level variable, but const works only in a class.
-- [ ]@JvmField is compatible with Java, but const is not.
-- [ ]@JvmField is always inlined for faster code.
+- [X] const works only with strings and primitives. @JvmField does not have that restriction. ([reference](https://github.com/ythy/blog/issues/328))
+- [ ] @JvmField works as a top-level variable, but const works only in a class.
+- [ ] @JvmField is compatible with Java, but const is not.
+- [ ] @JvmField is always inlined for faster code.
 
 #### Q67. What are the two ways to make a coroutine's computation code cancellable? ([reference](https://kotlinlang.org/docs/cancellation-and-timeouts.html#timeout))
 
-- [X]Call the yield() function or check the isActive property.
-- [ ]Call the cancelled() function or check the isActive property.
-- [ ]Call the stillActive() function or check the isCancelled property.
-- [ ]Call the checkCancelled() function or check the isCancelled property.
+- [X] Call the yield() function or check the isActive property.
+- [ ] Call the cancelled() function or check the isActive property.
+- [ ] Call the stillActive() function or check the isCancelled property.
+- [ ] Call the checkCancelled() function or check the isCancelled property.
 
 #### Q68. Given the code below, how can you write the line this.moveTo("LA") more concisely?
 
@@ -819,7 +819,7 @@ fun main() {
 
 #### Q69. For the Product class you are designing, you would like the price to be readable by anyone, but changeable only from within the class. Which property declaration implements your design?
 
-- [ ]
+- [ ] Option 1
 
 ```
 var price: Int = 0
@@ -827,22 +827,41 @@ var price: Int = 0
   private set
 ```
 
-- [x] ([reference](https://kotlinlang.org/docs/properties.html#getters-and-setters))
+- [x] Option 2 ([reference](https://kotlinlang.org/docs/properties.html#getters-and-setters))
 
 ```
 var price: Int = 0
   private set
 ```
 
-- [ ]
+- [ ] Option 3
 
 ```
 var price: Int = 0
   val set
 ```
 
-- [ ]
+- [ ] Option 4
 
 ```
 val price: Int=0
 ```
+
+#### Q70. What will happen when you try to build and run this code snippet?
+
+```
+class SpecialFunction : () -> Unit {
+    override fun invoke() {
+        println("Invoked from an instance.")
+    }
+}
+fun main() {
+    try { SpecialFunction()() } 
+    catch (ex: Exception) { println("An error occurred") } 
+class SpecialFunction : () -> Unit { override fun invoke() { println("Invoked from an instance.") } } fun main() { try { SpecialFunction()() } catch (ex: Exception) { println("An error occurred") } 
+```
+
+- [ ] The message "An error occurred" is displayed.The message "An error occurred" is displayed.
+- [ ] A compile error occurs. You cannot override the invoke() method.A compile error occurs. You cannot override the invoke() method.
+- [ ] The message "Invoked from an instance." is displayed.The message "Invoked from an instance." is displayed.
+- [ ] A syntax error occurs due to the line SpecialFunction()().A syntax error occurs due to the line SpecialFunction()().
