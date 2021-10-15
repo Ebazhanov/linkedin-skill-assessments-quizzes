@@ -7,12 +7,16 @@
 - [ ] the poll phase
 - [ ] the events queue
 
+**Explanation:** _From javascripttutorial: [reference](https://www.javascripttutorial.net/javascript-call-stack/#:~:text=If%20a%20function%20calls%20another,top%20of%20the%20call%20stack.)
+
 #### Q2. Which of the following is a core module in Node?
 
 - [ ] webpack
 - [x] crypto
 - [ ] request
 - [ ] chalk
+
+**Explanation:** _From flaviocopes docs: [reference](https://flaviocopes.com/node-core-modules/)
 
 #### Q3. Which of the following Buffer class methods returns an uninitialized buffer?
 
@@ -21,12 +25,16 @@
 - [ ] from
 - [ ] alloc
 
+**Explanation:** _From official docs: [reference](https://nodejs.org/dist/latest-v13.x/docs/api/buffer.html#buffer_class_method_buffer_allocunsafe_size)
+
 #### Q4. Which of the following modules is NOT a built-in module in Node?
 
 - [x] ftp
 - [ ] events
 - [ ] dgram
 - [ ] http2
+
+**Explanation:** _From flaviocopes docs: [reference](https://flaviocopes.com/node-core-modules/)
 
 #### Q5. Which fs module method can be used to read the content of a file without buffering it in memory?
 
@@ -35,7 +43,7 @@
 - [x] createReadStream
 - [ ] readFileSync
 
-**Explanation:** _From official docs: [https://nodejs.org/api/fs.html#fs_dir_read](https://nodejs.org/api/fs.html#fs_dir_read)
+**Explanation:** _From official docs: [reference](https://nodejs.org/api/fs.html#fs_dir_read)
 To minimize memory costs, when possible prefer streaming via fs.createReadStream()._
 
 #### Q6. Which of the following DNS module methods uses the underlying OS facilities and does not necessarily perform any network communication?
@@ -45,12 +53,16 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 - [ ] resolve4
 - [ ] reverse
 
+**Explanation:** _From official docs: [reference](https://nodejs.org/api/dns.html#dns_dns_lookup_hostname_options_callback)
+
 #### Q7. How do you check that a value is a date object in Node?
 
 - [x] util.types.isDate(value)
 - [ ] assert.isDate(value)
 - [ ] console.isDate(value)
 - [ ] util.date(value)
+
+**Explanation:** _From official docs: [reference](https://nodejs.org/api/util.html#util_util_types_isdate_value)
 
 #### Q8. Can you create an https web server with Node.js?
 
@@ -59,12 +71,16 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 - [ ] yes, through the path module
 - [ ] yes, with the http module
 
+**Explanation:** _From official docs: [reference](https://nodejs.dev/learn/making-http-requests-with-nodejs)
+
 #### Q9. What is the Api that is designed to insulate Addons from changes in the underlying JavaScript engine?
 
 - [ ] A-API
 - [ ] Z-API
 - [x] N-API
 - [ ] X-API
+
+**Explanation:** _From official docs: [reference](https://nodejs.org/api/n-api.html#n_api_node_api)
 
 #### Q10. Which CLI option can you use to debug a node script in Chrome DevTools?
 
@@ -73,12 +89,16 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 - [ ] --chrome
 - [ ] --debug
 
+**Explanation:** _From official docs: [reference](https://nodejs.org/en/docs/guides/debugging-getting-started/)
+
 #### Q11. How can you count the number of logical CPUs on the machine that is running Node?
 
 - [ ] node -p "process.cpus"
 - [ ] node -p "util.cpus().size"
 - [ ] node -p "process.os.cpus"
 - [x] node -p "os.cpus().length"
+
+**Explanation:** _From coderrocketfuel docs: [reference](https://coderrocketfuel.com/article/get-the-number-of-system-cpu-cores-using-node-js)
 
 #### Q12. Which of the following is a method on the console object?
 
@@ -87,12 +107,16 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 - [x] time
 - [ ] print
 
+**Explanation:** _From official docs: [reference](https://nodejs.org/api/console.html)
+
 #### Q13. Which object is used to manage the cache of required modules?
 
 - [ ] global.cache
 - [ ] module.cache
 - [ ] process.cache
 - [x] require.cache
+
+**Explanation:** _From official docs: [reference](https://nodejs.org/api/modules.html#modules_require_cache)
 
 #### Q14. What is the command to silence all process warnings?
 
@@ -101,6 +125,8 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 - [ ] node -trace-warnings
 - [ ] node index.js --no-warnings
 
+**Explanation:** _From official docs: [reference](https://nodejs.org/api/cli.html#cli_no_warnings)
+
 #### Q15. How can you use the promise API with a callback-based function such as child_process.exec?
 
 - [ ] new Promise(child_process.exec())
@@ -108,12 +134,16 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 - [x] util.promisify(child_process.exec)
 - [ ] new Promise(child_process.exec)
 
+**Explanation:** _From official docs: [reference](https://nodejs.org/api/child_process.html)
+
 #### Q16. Which of the following is NOT a Node repl command?
 
 - [ ] .break
 - [x] .history
 - [ ] .editor
 - [ ] .save
+
+**Explanation:** _From official docs: [reference](https://nodejs.org/api/repl.html#repl_commands_and_special_keys)
 
 #### Q17. Which statement is true when you run the code shown below?
 
@@ -123,6 +153,8 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 - [ ] A new VM instance is created and the two VM instances will be shared between the forked process and the parent process.
 - [x] The forked process will have its own VM instance.
 - [ ] The forked process shares the same VM thread with the parent process.
+
+**Explanation:** _From official docs: [reference](https://nodejs.org/api/child_process.html#child_process_child_process_fork_modulepath_args_options)
 
 #### Q18. If EventEmitter is in scope, which of the following lines of code will have an event emitter emitting a change event?
 
