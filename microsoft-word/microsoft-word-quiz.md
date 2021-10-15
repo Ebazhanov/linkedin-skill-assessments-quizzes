@@ -30,12 +30,12 @@
 
 #### Q5. You want to set a wider inside margin to accommodate binding a document where pages are printed in both sides. Which option should you choose in the Page Setup dialog box?
 
-- [ ] Book Fold.
+- [x] Book Fold.
 - [ ] Different Odd & Even Pages.
-- [x] Mirror Margins.
+- [ ] Mirror Margins.
 - [ ] Landscape.
 
-[Reference](https://support.microsoft.com/en-us/office/set-mirror-margins-for-facing-pages-460c38d0-fc9e-4a11-9f2f-7b48f61aa9c0)
+[Reference](https://support.microsoft.com/en-us/office/create-a-booklet-or-book-in-word-dfd94694-fa4f-4c71-a1c7-737c31539e4a)
 
 #### Q6. Which feature lets you place a ghosted logo or text behind the regular text on your document?
 
