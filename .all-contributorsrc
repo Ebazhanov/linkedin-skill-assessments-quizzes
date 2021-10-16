@@ -5828,6 +5828,15 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "mepirate",
+      "name": "mBlack",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35680699?v=4",
+      "profile": "https://github.com/mepirate",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
