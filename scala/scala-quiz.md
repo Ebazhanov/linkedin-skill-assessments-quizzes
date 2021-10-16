@@ -430,3 +430,15 @@ myClass.foreach(println _)
 - [ ] AltFuture
 - [ ] AltProcess
 - [x] Future
+
+
+#### Q53. What value does this code return?
+
+```scala
+x= List(1,2,4); x(1)?
+```
+
+- [ ] (1,2,4)
+- [ ] 1
+- [ ] Nil
+- [x] 2
