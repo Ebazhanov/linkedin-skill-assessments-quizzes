@@ -296,10 +296,10 @@ john=thomas
 echo ${!fname}
 ```
 
-- [ ] `john`
-- [x] `thomas`
-- [ ] `Syntax error`
-- [ ] `blank`
+- [ ] john
+- [x] thomas
+- [ ] Syntax error
+- [ ] blank
 
 #### Q30. What will be the output of this script?
 
@@ -310,14 +310,14 @@ echo ${!fname}
 - [x] `C` ![C](images/Q30/C.png)
 - [ ] `D` ![D](images/Q30/D.png)
 
-Here a text based version of Q.30:
+Here's a text based version of Q.30:
 
 ```bash
 ll
--rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30 .
--rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30 ..
--rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file1.txt
--rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file2.txt
+-rw-r--r-- 1 frankmolev staff 374   Jun 3 19:30 .
+-rw-r--r-- 1 frankmolev staff 1666  Jun 3 19:30 ..
+-rw-r--r-- 1 frankmolev staff 0     Jun 3 19:30 file1.txt
+-rw-r--r-- 1 frankmolev staff 0     Jun 3 19:30 file2.txt
 ..
 
 ll | sed -e 's,file,text,g'
@@ -327,37 +327,37 @@ ll | sed -e 's,file,text,g'
 - [ ] A
 
 ```
-  -rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30 .
-  -rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30 ..
-  -rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file1.file
-  -rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file2.file
+  -rw-r--r-- 1 frankmolev staff 374   Jun 3 19:30 .
+  -rw-r--r-- 1 frankmolev staff 1666  Jun 3 19:30 ..
+  -rw-r--r-- 1 frankmolev staff 0     Jun 3 19:30 file1.file
+  -rw-r--r-- 1 frankmolev staff 0     Jun 3 19:30 file2.file
   ..
 ```
 
 - [ ] B
 
 ```
-  -rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30 .
-  -rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30 ..
-  -rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file1.txt
-  -rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 file2.txt
+  -rw-r--r-- 1 frankmolev staff 374   Jun 3 19:30 .
+  -rw-r--r-- 1 frankmolev staff 1666  Jun 3 19:30 ..
+  -rw-r--r-- 1 frankmolev staff 0     Jun 3 19:30 file1.txt
+  -rw-r--r-- 1 frankmolev staff 0     Jun 3 19:30 file2.txt
   ..
 ```
 
 - [ ] C
 
 ```
-  -rw-r--r-- 1 frankmolev staff 68 Jun 3 19:30 .
-  -rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30 ..
+  -rw-r--r-- 1 frankmolev staff 68    Jun 3 19:30 .
+  -rw-r--r-- 1 frankmolev staff 1666  Jun 3 19:30 ..
 ```
 
 - [x] D
 
 ```
--rw-r--r-- 1 frankmolev staff 374 Jun 3 19:30 .
--rw-r--r-- 1 frankmolev staff 1666 Jun 3 19:30 ..
--rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 text1.txt
--rw-r--r-- 1 frankmolev staff 0 Jun 3 19:30 text.txt
+-rw-r--r-- 1 frankmolev staff 374     Jun 3 19:30 .
+-rw-r--r-- 1 frankmolev staff 1666    Jun 3 19:30 ..
+-rw-r--r-- 1 frankmolev staff 0       Jun 3 19:30 text1.txt
+-rw-r--r-- 1 frankmolev staff 0       Jun 3 19:30 text.txt
 ..
 ```
 
@@ -371,24 +371,24 @@ if [ $PET = dog ] ;then
 fi
 ```
 
-- [ ] `If the value of PET doesn't match dog, the script will return a nonzero status code.`
-- [ ] `There is nothing wrong with it. The condition checks the value of PET perfectly.`
-- [x] `It will fail if the user hits the Enter (Return) key without entering a pet name when prompted.`
-- [ ] `The then statement needs to be on a separate line.`
+- [ ] If the value of PET doesn't match dog, the script will return a nonzero status code.
+- [ ] There is nothing wrong with it. The condition checks the value of PET perfectly.
+- [x] It will fail if the user hits the Enter (Return) key without entering a pet name when prompted.
+- [ ] The then statement needs to be on a separate line.
 
 #### Q32. How can you gather history together for multiple terminals?
 
-- [ ] `It just works by default.`
+- [ ] It just works by default.
 - [ ] `history --shared`
 - [ ] `history --combined`
 - [x] `shopt -s histappend`
 
 #### Q33. What is the difference between the $@ and $\* variables?
 
-- [x] `$@ treats each quoted argument as a separate entity. $* treats the entire argument string as one entity.`
-- [ ] `$* treats each quoted argument as a separate entity. $@ treats the entire argument string as one entity.`
-- [ ] `$* is used to count the arguments passed to a script, $@ provides all arguments in one string.`
-- [ ] `$* is the wildcard that includes all arguments with word splitting, $@ holds the same data but in an array.`
+- [x] `$@` treats each quoted argument as a separate entity. `$*` treats the entire argument string as one entity.
+- [ ] `$*` treats each quoted argument as a separate entity. `$@` treats the entire argument string as one entity.
+- [ ] `$*` is used to count the arguments passed to a script, `$@` provides all arguments in one string.
+- [ ] `$*` is the wildcard that includes all arguments with word splitting, `$@` holds the same data but in an array.
 
 #### Q34. Which command is being run in this script to check if file.txt exists?
 
@@ -414,10 +414,10 @@ Linux=(${Linux[@]:0:$x} ${Linux[@]:$(($x + 1))})
 echo "${Linux[@]}"
 ```
 
-- [ ] `Debian Redhat Ubuntu Android Fedora Suse`
-- [ ] `Android`
-- [ ] `Fedora Suse`
-- [x] `Debian Redhat Ubuntu Fedora Suse`
+- [ ] Debian Redhat Ubuntu Android Fedora Suse
+- [ ] Android
+- [ ] Fedora Suse
+- [x] Debian Redhat Ubuntu Fedora Suse
 
 #### Q36. Which file allows you to save modifications to the shell environment across sessions?
 
@@ -434,10 +434,10 @@ total 0
 -rwx------+ 1 user1 user1 0 Oct 27 10:54 data.txt
 ```
 
-- [ ] `No, it's clear that user2 does not have read, write, and execute permissions.`
-- [x] `Yes, the + at the end of the 10-digit permission string signifies there's an access control list. This could possibly give user2 permissions not visible by ls -l.`
-- [ ] `It's possible that SELinux provides read, write, and execute permissions for user2 which are not visible with ls -l.`
-- [ ] `Yes, the + at the end of the 10-digit permission string signifies there's an extended attribute set. This could give user2 permissions to read, write, and execute data.txt.`
+- [ ] No, it's clear that user2 does not have read, write, and execute permissions.
+- [x] Yes, the `+` at the end of the 10-digit permission string signifies there's an access control list. This could possibly give user2 permissions not visible by `ls -l`.
+- [ ] It's possible that SELinux provides read, write, and execute permissions for user2 which are not visible with `ls -l`.
+- [ ] Yes, the `+` at the end of the 10-digit permission string signifies there's an extended attribute set. This could give user2 permissions to read, write, and execute data.txt.
 
 #### Q38. What does this script accomplish?
 
@@ -451,10 +451,10 @@ for (( i=0; $i < ${#ARRAY[@]}; i+=1 ));do
 done
 ```
 
-- [ ] `It sorts the associative array named ARRAY and stores the results in an indexed array named KEYS. It then uses this sorted array to loop through the associative array ARRAY.`
-- [x] `Using a C-style for loop, it loops through the associative array named ARRAY using the associative array's keys and outputs both the key and values for each item.`
-- [ ] `It creates an indexed array of the associative array named ARRAY. It then uses a C-style for loop and the indexed array to loop through all items in the associative array, outputting the key and value of each array item using the index number.`
-- [ ] `It creates an associative array named ARRAY, which it loops through using a C-style for loop and the index numbers of each item in the associative array's keys, outputting the value of each item.`
+- [ ] It sorts the associative array named ARRAY and stores the results in an indexed array named KEYS. It then uses this sorted array to loop through the associative array ARRAY.
+- [x] Using a C-style for loop, it loops through the associative array named ARRAY using the associative array's keys and outputs both the key and values for each item.
+- [ ] It creates an indexed array of the associative array named ARRAY. It then uses a C-style for loop and the indexed array to loop through all items in the associative array, outputting the key and value of each array item using the index number.
+- [ ] It creates an associative array named ARRAY, which it loops through using a C-style for loop and the index numbers of each item in the associative array's keys, outputting the value of each item.
 
 #### Q39. What file would match the code below?
 
@@ -462,7 +462,7 @@ done
 ls Hello[[.vertical-line.]]World
 ```
 
-- [ ] `Nothing, this is an invalid file glob.`
+- [ ] Nothing, this is an invalid file glob.
 - [ ] `Hello.vertical-line.World`
 - [ ] `Hello[[.vertical-line.]]World`
 - [x] `Hello|World`
@@ -473,10 +473,10 @@ ls Hello[[.vertical-line.]]World
 ls nonexistentfile | grep "No such file" > out.txt
 ```
 
-- [ ] `No such file`
-- [ ] `ls: cannot access nonexistentfile: No such file or directory`
-- [x] `Nothing, out.txt will be empty.`
-- [ ] `It will be the contents of nonexistentfile.`
+- [ ] No such file
+- [ ] ls: cannot access nonexistentfile: No such file or directory
+- [x] Nothing, out.txt will be empty.
+- [ ] It will be the contents of nonexistentfile.
 
 #### Q41. For the script to print "Is numeric" on screen, what would the user have to enter when prompted?
 
@@ -544,10 +544,10 @@ echo $greeting, everybody!
 
 #### Q47. Which statement checks whether the variable num is greater than five?
 
-- [ ] (( \$num -gt 5 ))
-- [ ] [[$num -lt 5]]
-- [x] (( \$num > 5 ))
-- [ ] \$num > 5
+- [ ] `(( \$num -gt 5 ))`
+- [ ] `[[$num -lt 5]]`
+- [x] `(( \$num > 5 ))`
+- [ ] `\$num > 5`
 
 #### Q48. Using Bash extended globbing, what will be the output of this command?
 
@@ -653,7 +653,6 @@ echo "\${VAR//man/rolling}"
 - [ ] This old man came man
 - [ ] This old man came rolling
 - [ ] This old came
-- [ ]
 
 #### Q54. The shell looks at the contents of a particular variable to identify which programs it can run. What is the name of this variable?
 
@@ -691,3 +690,68 @@ echo "${VAR//man/rolling}"
 - [ ] `echo "Shall we play a game\? yes\\no"`
 - [x] `echo "Shall we play a game? yes\\no"`
 - [ ] `echo "Shall we play a game? yes\no"`
+
+#### Q58. Given a directory with these seven files, what would remain after executing these commands?
+
+```bash
+archive.tar
+image1.gif
+image1.jpg
+image2.gif
+image2.jpg
+textfile1.txt
+textfile2.txt
+
+----------
+
+<code>shopt -s extglob
+rm !(*gif|*jpg)</code>
+```
+
+- [ ] a
+
+```bash
+archive.tar
+image1.gif
+image1.jpg
+image2.gif
+image2.jpg
+textfile1.txt
+textfile2.txt
+```
+
+- [ ] b
+
+```bash
+archive.tar
+textfile1.txt
+textfile2.txt
+```
+
+- [ ] c
+
+All of this files will be deleted
+
+- [x] d: 
+
+```bash
+image1.gif
+image1.jpg
+image2.gif
+image2.jpg
+```
+
+#### Q59. The code below seems to work and outputs "8 is greater than 5". However, what unexpected result will tell you it is not functioning properly?
+
+```bash
+#!/bin/bash
+var="8"
+if [ $var > 5 ]; then
+    echo "$var is greater than 5"
+fi
+```
+
+- [ ] There will be no unexpected results. This script works as is and the output will be "8 is greater than 5".
+- [ ] The comparison will not be able to handle floating-point numbers, as Bash only handles integers. So this example will output an error message if the value of $var is changed to "8.8".
+- [ ] There will be a file in the current directory named 5.
+- [ ] The variable $var is not quoted, which will lead to word splitting. This script will fail with a "unary operator expected" message if you change the value of

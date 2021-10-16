@@ -1042,3 +1042,17 @@ new logThis();
 - [ ] defer lazy loads the script, causing it to download only when it is called by another script on the page.
 
 **Explanation:** If the defer attribute is set, it specifies that the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing. [HTML <script> defer Attribute](https://www.w3schools.com/tags/att_script_defer.asp)
+
+#### Q93. What will this code print?
+
+```js
+let rainForests = ["Amazon","Borneo","Cerrado","Congo"];
+rainForests.splice(0,2);
+console.log(rainForests);
+```
+
+- [ ] `["Amazon","Borneo","Cerrado","Congo"]`
+- [x] `["Cerrado", "Congo"]`
+- [ ] `["Congo"]`
+- [ ] `["Amazon","Borneo"]`
+

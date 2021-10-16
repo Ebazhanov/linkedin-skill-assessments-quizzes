@@ -449,12 +449,12 @@ model=Planet
 - [ ] programmers
 - [ ] clients
 
-#### Q49. Which is not the part of Django Design Philosophies?
+#### Q49. Which is not part of Django's design philosophy?
 
 - [ ] Loose Coupling
 - [ ] Less Code
 - [ ] Fast Development
-- [x] Repeat Yourself
+- [x] Implicit over explicit
 
 #### Q50. What is the result of this template code?
 
@@ -507,3 +507,24 @@ model=Planet
 - [ ] its_changed()
 - [ ] has_updated()
 - [ ] None of This
+
+#### Q56. What is WSGI?
+
+- [x] a server
+- [ ] an interface specification
+- [ ] a Python module
+- [ ] a framework
+
+#### Q57. Which generic view should be used for displaying the tittles of all Django Reinhardt's songs?
+
+- [ ] DetailView
+- [ ] TittleView
+- [ ] SongView
+- [ ] ListView
+
+#### Q55. Which statement is most acurate, regarding using the default SQLite database on your local/development machine but Postgres in production
+
+- [x] There's less chance of introducing bugs since SQLite already works out the box
+- [ ] It's fine, you just need to keep both instances synchronized
+- [ ] It's a bad idea and could lead to issues down the road
+- [ ] It's the most efficient way to build a project
