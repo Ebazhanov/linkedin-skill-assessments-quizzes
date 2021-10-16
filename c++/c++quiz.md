@@ -1128,28 +1128,30 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
 
 #### Q66. What would be the correct declaration of a default constructor for a class named Sprite?
 
-- [x]
+- [x] 
+```cpp
+public:
+    Sprite();
+```
+- [ ] 
 
-```public:
-       Sprite();
+```cpp
+private:
+    void Sprite();
 ```
 
-- [ ]
+- [ ] 
 
-```private:
-       void Sprite();
+```cpp
+public:
+    void Sprite();
 ```
 
-- [ ]
+- [ ]  
 
-```public:
-      void Sprite();
-```
-
-- [ ]
-
-```private:
-       Sprite();
+```cpp
+private:
+    Sprite();
 ```
 
 #### Q67. What is the purpose of this line in a header file?
