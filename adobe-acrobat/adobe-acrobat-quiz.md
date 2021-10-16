@@ -125,3 +125,10 @@
 - [x] Tools > Organize Pages
 - [ ] Tools > Edit PDF
 - [ ] Tools > Action Wizard
+
+#### Q19. In the PDF form you are creating for a client, you are asked to create a drop-down field containing the list of states in the United States. The client requests that the field dispaly the instructional text "Select your state" as a default choice when the form is opened. How can you ensure that the instructional text is diaplyed by default in the drop-down field?
+
+- [x] Select the instructional text entry in the Dropdown Properties dialog box.
+- [ ] Choose commit Selected Value Immediately in the Dropdown Properties dialog box.
+- [ ] Choose Sort Items in the Dropdown Properties dialog box.
+- [ ] Choos Format Category > Special in the Dropdown Properties dialog box.
