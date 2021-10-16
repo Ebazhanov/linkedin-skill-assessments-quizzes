@@ -700,7 +700,7 @@
 
 #### Q85. Before publishing a document, you want to identify issues that may make it difficult for people with disabilities to read. Which feature should you use?
 
-- [ ] Check Accessibility
+- [X] Check Accessibility
 - [ ] Check Compatibility
 - [ ] Protect Document
 - [ ] Inspect Document
