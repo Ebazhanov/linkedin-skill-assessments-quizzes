@@ -815,3 +815,15 @@
 - [x] color scales (within conditional formatting)
 - [ ] manual highlighting
 - [ ] data bars (within conditional formatting)
+
+
+#### Q100. To split text across cells without using Merge & Center, click **Formt Cells**. The, on **Alignment** tab, click_____.
+
+- [x] Text control > Merge cells
+- [ ] Horizontal > Center across selection 
+- [ ] Vertical > Center across selection
+- [ ] Data tab > Text to columns
+
+
+
+
