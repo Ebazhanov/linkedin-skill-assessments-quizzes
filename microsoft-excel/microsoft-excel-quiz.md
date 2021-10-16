@@ -696,7 +696,7 @@
 - [ ] Select column G, then right-click and select `Unhide`.
 - [ ] Select column C, then right-click and select `Unhide`.
 - [ ] On the Page Layout tab, in the `Rows` and `Columns` section, select `Unhide`.
-- [ ] Click and drag to select columns C and G, then right-click and select `Unhide`.
+- [x] Click and drag to select columns C and G, then right-click and select `Unhide`.
 
 #### Q85. Before publishing a document, you want to identify issues that may make it difficult for people with disabilities to read. Which feature should you use?
 
