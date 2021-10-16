@@ -538,6 +538,6 @@
 #### Q75. How would you add a secondary dimension to a report?
 
 - [ ] from the Insights panel
-- [ ] from the Secondary dimension menu
+- [x] from the Secondary dimension menu
 - [ ] all of these answers
 - [ ] with a table filter

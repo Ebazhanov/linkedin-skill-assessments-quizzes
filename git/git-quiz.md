@@ -61,8 +61,6 @@ git merge --squash HEAD@{1}
 
 #### Q7. Looking at the following commands, describe what is happening.
 
-#### Q7. Describe what is happening given these commands:
-
 ```bash
 git checkout feature-user-location
 git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
@@ -74,7 +72,7 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [ ] A commit is being copied from the feature-user-location branch to the master branch
 - [ ] The branch is switched to the feature-user-location branch, and the specified commit is applied to the branch.
 
-**Explanation:** `Commits aren't copied when cherry picking, they are cherry picked. The changes introduced by the commit are applied and a new commit is then created. This allow us to get specific changes as if they were patches (in the GIT's book, this is actually called [Patching](https://git-scm.com/book/en/v2/Appendix-C:-Git-Commands-Patching "See this in the GIT's book")). As a new commit is created upon feature-user-location, HEAD also changes to match it. You can see this in `cat .git/HEAD`and`cat .git/refs/heads/feature-user-location`for this case. See`man git-cherry-pick` for details.`
+**Explanation:** Commits aren't copied when cherry picking, they are cherry picked. The changes introduced by the commit are applied and a new commit is then created. This allow us to get specific changes as if they were patches (in the GIT's book, this is actually called [Patching](https://git-scm.com/book/en/v2/Appendix-C:-Git-Commands-Patching "See this in the GIT's book")). As a new commit is created upon feature-user-location, HEAD also changes to match it. You can see this in `cat .git/HEAD` and `cat .git/refs/heads/feature-user-location` for this case. See `man git-cherry-pick` for details.
 
 **NOTE**: There are two versions of this question so far. The task is always "describe what is happening", the commands are always a `checkout` and a `cherry-pick`, and the correct answer is always the same.
 
@@ -192,29 +190,28 @@ modified: beta-notes.js
 
 #### Q20. What commands would you use to force an overwrite of your local files with the master branch?
 
-- [ ]
-  ```bash
-  git pull --all
+- [ ] ⠀
+  ```bash 
+  git pull --all 
   git reset --hard origin/master
   ```
-- [ ]
+- [ ] ⠀
   ```bash
   git pull -u origin master
   git reset --hard master
   ```
-- [ ]
+- [ ] ⠀
   ```bash
   git pull origin master
   git reset --hard origin/myCurrentBranch
   ```
-- [x]
-
+- [x] ⠀
   ```bash
   git fetch --all
   git reset --hard origin/master
   ```
 
-- `The command `pull`is`fetch`followed by either`merge`or`rebase`(in this case,`merge`). We don't want to merge. Merge would be an action to our **repository**. We just want to overwrite our **local files**.`
+- The command `pull` is `fetch` followed by either `merge` or `rebase` (in this case, `merge`). We don't want to merge. Merge would be an action to our **repository**. We just want to overwrite our **local files**.
 
 #### Q21. Which statement is true when you use the git add -A command?
 
@@ -768,7 +765,7 @@ Which of the following options is correct ?
 
 [reference here](https://stackoverflow.com/questions/6925099/git-stash-changes-apply-to-new-branch)
 
-#### Q94. You is the difference between git branch -d and git branch -D?
+#### Q94. What is the difference between git branch -d and git branch -D?
 
 - [ ] -D deletes the local branch, while -d deletes the branch regardless of push and merge status.
 - [ ] -d deletes the current commit head, while -D deletes the entire branch.
