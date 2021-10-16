@@ -1302,3 +1302,10 @@ section {
 - [ ] blackblack
 - [ ] orangeorange
 - [ ] redred
+
+#### Q98. Which choice is not a valid color value?
+
+- [ ] color: #000000;
+- [x] color: 000000;
+- [ ] color: rgb(0,0,0);
+- [ ] color: #000;
