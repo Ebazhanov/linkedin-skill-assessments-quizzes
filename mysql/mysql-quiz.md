@@ -863,3 +863,12 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] CREATE TEMPORARY TABLE customers;
 - [ ] DROP TEMP TABLE customers;
 - [ ] DROP TABLE customers;
+
+#### Q92. You are working with the tables as shown in the diagram. You need to generate the list of price totals for each make and model of car, with subtotals for each make, and the grand total of all prices. Which SQL clause do you use?
+
+![mysql picture](images/mysql_q92.png)
+
+- [ ] UNION
+- [ ] SHOW TOTALS
+- [ ] UNION ALL
+- [x] WITH ROLLUP
