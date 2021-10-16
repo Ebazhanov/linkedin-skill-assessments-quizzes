@@ -5848,6 +5848,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "seraph776",
+      "name": "Seraph",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72005563?v=4",
+      "profile": "https://github.com/seraph776",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
