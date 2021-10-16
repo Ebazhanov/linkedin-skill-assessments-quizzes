@@ -710,7 +710,7 @@
 - [ ] Select the image and, on the `Picture Tools Format` tab, use the `Compress Picture` feature.
 - [ ] Select the image and, on the `Design` tab, use the `Format Background` feature.
 - [ ] On the `Drawing Tools Format` tab, select `Graphics Fill` > `Remove Background`.
-- [ ] Select the image and, on the `Picture Tools Format` tab, click the Remove Background button.
+- [x] Select the image and, on the `Picture Tools Format` tab, click the Remove Background button.
 
 #### Q87. You want to group your slides based on their content to better organize your presentation. How would you accomplish this?
 
