@@ -866,6 +866,7 @@ fun main() {
 - [ ] A compile error occurs. You cannot override the `invoke()` method.
 
 #### Q71. Which statement declares a variable mileage whose value never changes and is inferred to be
+
 an integer?
 
 - [ ] `val mileage:Int = 566`
@@ -874,6 +875,7 @@ an integer?
 - [ ] `const int mileage = 566`
 
 #### Q72. You have two arrays, a and b. Which line combines a and b as a list containing the contents of
+
 both?
 
 ```kotlin

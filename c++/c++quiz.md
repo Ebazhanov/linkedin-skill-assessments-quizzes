@@ -1128,26 +1128,28 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
 
 #### Q66. What would be the correct declaration of a default constructor for a class named Sprite?
 
-- [x] 
+- [x]
+
 ```cpp
 public:
     Sprite();
 ```
-- [ ] 
+
+- [ ]
 
 ```cpp
 private:
     void Sprite();
 ```
 
-- [ ] 
+- [ ]
 
 ```cpp
 public:
     void Sprite();
 ```
 
-- [ ]  
+- [ ]
 
 ```cpp
 private:
@@ -1182,7 +1184,7 @@ private:
 bool is_even(int);
 ```
 
-- [x] bool is_even(float f); bool is_even(char *str);
+- [x] bool is_even(float f); bool is_even(char \*str);
 - [ ] bool is_even(float f); bool is_even(char str);
-- [ ] bool is_even_float(float f); bool is_even_str(char *str);
+- [ ] bool is_even_float(float f); bool is_even_str(char \*str);
 - [ ] float is_even(float f); char *is_even(char *str);

@@ -869,7 +869,7 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] Use object key index to access the value.
 - [x] Use bracket notation to access the value.
 
-### Q83. When parsing JSON, "caching" is a method used to ____.
+### Q83. When parsing JSON, "caching" is a method used to \_.
 
 - [ ] remove duplicate data from a server
 - [x] temporarily store data for faster access
