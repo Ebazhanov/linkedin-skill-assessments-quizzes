@@ -1094,7 +1094,20 @@ D. border-top-radius: 10px;
 
 - [Reference link-rgba](https://www.w3schools.com/cssref/func_rgba.asp)
 
-#### Q89. REMOVED (Duplicate of Q82)
+#### Q89. Using this HTML markup, how would you select only the headings contained within the `<header>` element?
+
+```html
+<header>
+  <hl>Heading 1</h1>
+  <h2>Heading 2</h2>
+</header>
+<h2>Heading 2</h2> 
+```
+
+- [x] `header h1, header h2 {...}`
+- [ ] `header h1 + header h2 {...}`
+- [ ] `header h1, h2 {...}`
+- [ ] `h1, h2 {...}`
 
 #### Q90. Suppose you want to have a list of items (.item) displayed in a row and in reverse order using flexbox. What is the error in the CSS below?
 
@@ -1210,3 +1223,35 @@ section {
 - [x] `header {...}`
 - [ ] `#header {...}`
 - [ ] `header > h1 {...}`
+
+#### Q97. What is the correct order for listing different link states in a website so those states display correctly on the page? 
+
+- [ ]
+  ```css
+  a
+  a:hover
+  ```
+- [ ]
+  ```css
+  :link 
+  :visited
+  :hover
+  :active
+  :focus 
+  ```
+- [ ]
+  ```css
+  :active
+  :focus
+  :hover
+  :link
+  :visited 
+  ```
+- [ ]
+  ```css
+  :link
+  :visited
+  :focus
+  :hover
+  :active 
+  ```
