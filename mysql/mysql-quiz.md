@@ -822,9 +822,16 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] UNION ALL
 - [x] WITH ROLLUP
 
-#### Q93. The left and right joins are also known as _.
+#### Q91. The left and right joins are also known as _.
 
 - [ ] Inner Join
 - [ ] Natural Join
 - [x] Outer Join
 - [ ] Cartesian Join
+
+#### Q92. What is the valid way to create a database view in MySQL?
+
+- [ ] `CREATE VIEW v1 SELECT * FROM t1 WHERE col1 > 10;`
+- [ ] `CREATE VIEW v1 AS BEGIN SELECT * FROM t1 END;`
+- [ ] `CREATE VIEW v1 BEGIN SELECT * FROM t1 END;`
+- [x] `CREATE VIEW v1 AS SELECT * FROM t1;`
