@@ -505,12 +505,9 @@
 - [ ] LRP
 - [ ] inbound links
 
-#### Q58.A user enters a search ___ to retrieve results from a search engine?
+#### Q58.A user enters a search \_ to retrieve results from a search engine?
+
 - [x] query
 - [ ] parser
-- [ ] bar 
+- [ ] bar
 - [ ] link
-
-
-
-

@@ -4,20 +4,21 @@
 
 - [x] They should share the same signatures, including parameter types and return types.
 - [ ] They should share the same parameter types but can return different types.
-- [ ] All functions should be the same type. 
-- [ ] The functions should not be a first class type. 
+- [ ] All functions should be the same type.
+- [ ] The functions should not be a first class type.
 
 Explanation: [User defined function types in Go (Golang)](https://golangbyexample.com/user-defined-function-type-go/)
 
 #### Q2. What does the `len()` function return if passed a UTF-8 encoded string?
-- [ ] the number of characters 
+
+- [ ] the number of characters
 - [x] the number of bytes
 - [ ] It does not accept string types.
-- [ ] the number of code points 
+- [ ] the number of code points
 
-Explanation: [Length of string in Go (Golang)](https://golangbyexample.com/length-of-string-golang/). 
+Explanation: [Length of string in Go (Golang)](https://golangbyexample.com/length-of-string-golang/).
 
-#### Q3. Which is *not* a valid loop construct in Go?
+#### Q3. Which is _not_ a valid loop construct in Go?
 
 - [x] `do { ... } while i < 5`
 - [ ] `for _,c := range "hello" { ... }`
@@ -54,7 +55,7 @@ const (
 
 Reference: [IOTA in Go (Golang)](https://golangbyexample.com/iota-in-golang/)
 
-#### Q6. Which is the *only* valid import statement in Go?
+#### Q6. Which is the _only_ valid import statement in Go?
 
 - [ ] `import "github/gin-gonic/gin"`
 - [ ] `import "https://github.com/gin-gonic/gin"`
@@ -63,7 +64,7 @@ Reference: [IOTA in Go (Golang)](https://golangbyexample.com/iota-in-golang/)
 
 Reference: [Import in GoLang](https://golangdocs.com/import-in-golang)
 
-#### Q7. What would happen if you attempted to compile and run this Go program? 
+#### Q7. What would happen if you attempted to compile and run this Go program?
 
 ```go
 package main
@@ -76,20 +77,20 @@ func main() {
 - [ ] It would not compile because `GlobalFlag` was never initialized.
 - [x] It would compile and print `[]`.
 - [ ] It would compile and print nothing because `"[" +nil+"]"` is also `nil`.
-- [ ] It would compile but then panic because `GlobalFlag` was never initialized. 
+- [ ] It would compile but then panic because `GlobalFlag` was never initialized.
 
-Explanation: most [variables](https://golangbyexample.com/variables-in-golang-complete-guide/) in Go has initial values. For string type it's an empty string. 
+Explanation: most [variables](https://golangbyexample.com/variables-in-golang-complete-guide/) in Go has initial values. For string type it's an empty string.
 
 Here is this program on [Go Playground](https://play.golang.org/p/TaRIzuD-nxC)
 
-#### Q8. From where is the variable `myVar` accessible if it is declared outside of any functions in a file in package `myPackage` located inside module `myModule`? 
+#### Q8. From where is the variable `myVar` accessible if it is declared outside of any functions in a file in package `myPackage` located inside module `myModule`?
 
 - [x] It can be accessed anywhere inside `myPackage`, not the rest of myModule.
 - [ ] It can be accessed by any application that imports `myModule`.
 - [ ] It can be accessed from anywhere in `myModule`.
 - [ ] It can be accessed by other packages in `myModule` as long as they import `myPackage`
 
-Explanation: to make the variable available outside of `myPackage` change the name to `MyVar`. 
+Explanation: to make the variable available outside of `myPackage` change the name to `MyVar`.
 See also an example of [Exported names](https://tour.golang.org/basics/3) in the Tour of Go.
 
 #### Q9. How do you tell `go test` to print out the tests it is running?
@@ -125,7 +126,7 @@ func main() {
 - [x] Make `X` and `Y` exported (upercase)
 - [ ] Use field tags
 
-Reference: [How to Parse JSON in Golang?](https://www.geeksforgeeks.org/how-to-parse-json-in-golang/) 
+Reference: [How to Parse JSON in Golang?](https://www.geeksforgeeks.org/how-to-parse-json-in-golang/)
 
 Fixed version on [Go Playground](https://play.golang.org/p/RdL6y3Zv8ke)
 
@@ -138,14 +139,14 @@ Fixed version on [Go Playground](https://play.golang.org/p/RdL6y3Zv8ke)
 
 Reference: [Mutex in GoLang](https://golangdocs.com/mutex-in-golang)
 
-#### Q12. What is an idiomatic way to pause execution of the current scope until an arbitrary number of goroutines have returned? 
+#### Q12. What is an idiomatic way to pause execution of the current scope until an arbitrary number of goroutines have returned?
 
-- [ ] Pass an `int` and `Mutex` to each and count when they return. 
+- [ ] Pass an `int` and `Mutex` to each and count when they return.
 - [ ] Loop over a `select` statement.
-- [ ] Sleep for a safe amount of time. 
+- [ ] Sleep for a safe amount of time.
 - [x] `sync.WaitGroup`
 
-Explanation: this is exactly what `sync.WaitGroup` is designed for - [Use sync.WaitGroup in Golang](https://nanxiao.me/en/use-sync-waitgroup-in-golang/) 
+Explanation: this is exactly what `sync.WaitGroup` is designed for - [Use sync.WaitGroup in Golang](https://nanxiao.me/en/use-sync-waitgroup-in-golang/)
 
 #### Q13. What is a side effect of using `time.After` in a `select` statement?
 
@@ -156,7 +157,7 @@ Explanation: this is exactly what `sync.WaitGroup` is designed for - [Use sync.W
 
 Note: it doesn't block `select` and does not block other channels.
 
-#### Q14. What is the select statement used for? 
+#### Q14. What is the select statement used for?
 
 - [ ] executing a function concurrently
 - [ ] executing a different case based on the type of a variable
@@ -172,6 +173,7 @@ func Add(a, b int) {
 ```
 
 - [ ] A
+
 ```go
 // Calculate a + b
 // - a: int
@@ -181,7 +183,9 @@ func Add(a, b int) {
   return a + b
 }
 ```
+
 - [ ] B
+
 ```go
 // Does a + b
 func Add(a, b int) {
@@ -190,6 +194,7 @@ func Add(a, b int) {
 ```
 
 - [x] C
+
 ```go
 // Add returns the sum of a and b
 func Add(a, b int) {
@@ -198,6 +203,7 @@ func Add(a, b int) {
 ```
 
 - [ ] D
+
 ```go
 // returns the sum of a and b
 func Add(a, b int) {
@@ -212,9 +218,9 @@ Explanation: documentation block should start with a function name
 - [ ] `myVal` must be an integer type, such as `int`, `int64`, `int32`, etc.
 - [ ] `myVal` must be able to be asserted as an `int`.
 - [x] `myVal` must be an interface.
-- [ ] `myVal` must be a numeric type, such as `float64` or `int64`. 
+- [ ] `myVal` must be a numeric type, such as `float64` or `int64`.
 
-Explanation: This kind of type casting (using `.(type)`) is used on interfaces only. 
+Explanation: This kind of type casting (using `.(type)`) is used on interfaces only.
 See [this example](https://tutorialedge.net/golang/snippets/type-casting-interface-to-string-go/) for instance.
 Primitive types are type-casted differently - [Type-casting in GoLang](https://golangdocs.com/type-casting-in-golang)
 

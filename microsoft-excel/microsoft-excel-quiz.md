@@ -700,7 +700,7 @@
 
 #### Q85. Before publishing a document, you want to identify issues that may make it difficult for people with disabilities to read. Which feature should you use?
 
-- [X] Check Accessibility
+- [x] Check Accessibility
 - [ ] Check Compatibility
 - [ ] Protect Document
 - [ ] Inspect Document
@@ -816,11 +816,10 @@
 - [ ] manual highlighting
 - [ ] data bars (within conditional formatting)
 
-
-#### Q100. To split text across cells without using Merge & Center, click **Formt Cells**. The, on **Alignment** tab, click_____.
+#### Q100. To split text across cells without using Merge & Center, click **Formt Cells**. The, on **Alignment** tab, click**\_**.
 
 - [x] Text control > Merge cells
-- [ ] Horizontal > Center across selection 
+- [ ] Horizontal > Center across selection
 - [ ] Vertical > Center across selection
 - [ ] Data tab > Text to columns
 
@@ -832,5 +831,3 @@
 - [ ] The columns aren't wide enough to show the full date.
 - [ ] The time are incorrectly formatted as dates.
 - [ ] The text is incorrectly formatted as dates.
-
-

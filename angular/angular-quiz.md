@@ -1043,7 +1043,7 @@ export const APP_SETTINGS = new Injection<AppSettings>('app.settings');
 	<input type="text" ngModel="firstName">
 	<input type="text" ngModel="lastName">
 	<button (click)="submit()">Save</button>
-</form>	
+</form>
 ```
 
 - [ ] submit(form.value)
