@@ -5858,6 +5858,36 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "c6z3h",
+      "name": "ZhiHong Chua",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29767694?v=4",
+      "profile": "https://github.com/c6z3h",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Amsal1",
+      "name": "Amsal Khan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45508550?v=4",
+      "profile": "https://github.com/Amsal1",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "raghav2404",
+      "name": "Raghav Rastogi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51928619?v=4",
+      "profile": "https://github.com/raghav2404",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

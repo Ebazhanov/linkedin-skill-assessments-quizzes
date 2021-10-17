@@ -517,9 +517,11 @@ fi
 #### Q63. An rsyslogd filter determines which items in a log file to act on. What is it made up of?
 
 - [ ] a facility and an action
-- [ ] a filter and an action
+- [x] a filter and an action
 - [ ] a facility and a priority
 - [ ] a filter and a priority
+
+[Reference](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/ch-viewing_and_managing_log_files)
 
 #### Q64. Which choice is a Network Manager tool used to configure network connections from the GUI?
 

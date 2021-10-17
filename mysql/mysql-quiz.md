@@ -828,3 +828,12 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] `CREATE VIEW v1 AS BEGIN SELECT * FROM t1 END;`
 - [ ] `CREATE VIEW v1 BEGIN SELECT * FROM t1 END;`
 - [x] `CREATE VIEW v1 AS SELECT * FROM t1;`
+
+[Reference:](https://www.sqlshack.com/create-view-sql-creating-views-in-sql-server/)
+
+#### Q92. The left and right joins are also known as _.
+
+- [ ] Inner Join
+- [ ] Natural Join
+- [x] Outer Join
+- [ ] Cartesian Join
