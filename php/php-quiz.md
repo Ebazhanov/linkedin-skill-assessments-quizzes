@@ -664,3 +664,44 @@ setcookie('login', $_REQUEST['username']. ','. md5($_REQUEST['username'].$secret
 - [ ] when items are placed in a cart
 - [ ] at first registration
 - [x] at evry login, for security
+
+##### Q58. A PHP "variable variable" takes the value of a variable and treats that as the name of a variable. For example, if `$var` is a variable then `$$var` is a variable variable whose name is the value of `$var`. Which script produces the output below, using variable variables? 
+
+```php
+Cat
+Dog
+Dog
+```
+
+- [ ] 
+  ```php
+  $name = "Cat";
+  $name = "Dog";
+  echo $name . "<br/>";
+  echo $$name . "<br/>";
+  echo $Dog;
+  ```
+- [ ] 
+  ```php
+  $name = "Cat";
+  $$name = "Dog";
+  echo $name . "<br/>";
+  echo $$name . "<br/>";
+  echo $Dog;
+  ```
+- [x] 
+  ```php
+  $name = "Cat";
+  $$name = "Dog";
+  echo $name . "<br/>";
+  echo $$name . "<br/>";
+  echo $Cat;
+  ```
+- [ ] 
+  ```php
+  $name = "Cat";
+  $$name = "Dog";
+  echo $name . "<br/>";
+  echo $name . "<br/>";
+  echo $Cat;
+  ```
