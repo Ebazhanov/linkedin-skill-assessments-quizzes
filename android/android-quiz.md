@@ -865,8 +865,8 @@ xml
 
 #### Q54. what is not a benefit of externalizing app resources such as image and string from a code?
 
-- [x] It allows Android to choose the appropriate resource based on the current configuration during runtime.
-- [ ] It allows you to have more performant applications because the code and resources are separated.
+- [ ] It allows Android to choose the appropriate resource based on the current configuration during runtime.
+- [x] It allows you to have more performant applications because the code and resources are separated.
 - [ ] It allows you to provide a different Ul experience based on the user's language settings.
 - [ ] It allows you to provide a different Ul experience based on the user's device size.
 
