@@ -872,3 +872,19 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] SHOW TOTALS
 - [ ] UNION ALL
 - [x] WITH ROLLUP
+
+#### Q93. What is the valid way to create a database view in MySQL?
+
+- [ ] 1 CREATE VIEW v1
+      2 SELECT * FROM t1
+      3 WHERE col1 &gt; 10;
+- [ ] 1 CREATE VIEW v1 AS
+      2 BEGIN
+      3   SELECT * FROM t1
+      4 END;
+- [ ] 1 CREATE VIEW v1
+      2 BEGIN
+      3   SELECT * FROM t1
+      4 END;
+- [x] 1 CREATE VIEW v1 AS
+      2 SELECT * FROM t1;
