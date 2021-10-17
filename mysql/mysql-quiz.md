@@ -813,11 +813,7 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] all names without "to," such as Samantha or Kathryn
 - [ ] all names ending with "to," such as Roberto
 
-#### Q90. REMOVED (Duplicate of Q82)
-
-#### Q91. REMOVED (Duplicate of Q47)
-
-#### Q92. You are working with the tables as shown in the diagram. You need to generate the list of price totals for each make and model of car, with subtotals for each make, and the grand total of all prices. Which SQL clause do you use?
+#### Q90. You are working with the tables as shown in the diagram. You need to generate the list of price totals for each make and model of car, with subtotals for each make, and the grand total of all prices. Which SQL clause do you use?
 
 ![mysql picture](images/mysql_q92.png)
 
@@ -825,4 +821,3 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] SHOW TOTALS
 - [ ] UNION ALL
 - [x] WITH ROLLUP
-
