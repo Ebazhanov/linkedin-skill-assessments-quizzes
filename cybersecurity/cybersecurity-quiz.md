@@ -232,7 +232,7 @@
 
 - [ ] `SELECT * FROM users WHERE username = " AND 1=1--'`
 - [ ] `SELECT * FROM users WHERE username = " AND 1!=1--'`
-- [ ] `SELECT * FROM users WHERE username = " OR 1=1--'`
+- [x] `SELECT * FROM users WHERE username = " OR 1=1--'`
 - [ ] `SELECT * FROM users WHERE username = " OR 1!=1--'`
 
 #### Q32. Which type of application can intercept sensitive information such as passwords on a network segment?
