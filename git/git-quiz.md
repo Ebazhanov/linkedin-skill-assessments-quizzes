@@ -191,8 +191,8 @@ modified: beta-notes.js
 #### Q20. What commands would you use to force an overwrite of your local files with the master branch?
 
 - [ ] ⠀
-  ```bash 
-  git pull --all 
+  ```bash
+  git pull --all
   git reset --hard origin/master
   ```
 - [ ] ⠀
@@ -206,6 +206,7 @@ modified: beta-notes.js
   git reset --hard origin/myCurrentBranch
   ```
 - [x] ⠀
+
   ```bash
   git fetch --all
   git reset --hard origin/master

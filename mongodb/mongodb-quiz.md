@@ -482,3 +482,12 @@
 - [ ] Create an single field index in descending order, and do a query for the word.
 - [x] Do a $text query.
 - [ ] Create a $regex on the fields, and do a $regex query.
+
+#### Q70. Which field is always included in a projection unless specifically excluded?
+
+- [ ] index
+- [ ] Name
+- [x] _id
+- [ ] row number
+
+[Reference](https://docs.mongodb.com/manual/reference/operator/aggregation/project/#definition)

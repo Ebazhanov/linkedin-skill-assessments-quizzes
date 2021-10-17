@@ -5846,7 +5846,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/78636768?v=4",
       "profile": "https://github.com/kalrayashwin",
       "contributions": [
-        "doc"
+        "doc",
+        "content"
       ]
     },
     {
@@ -5855,6 +5856,26 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/72005563?v=4",
       "profile": "https://github.com/seraph776",
       "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "c6z3h",
+      "name": "ZhiHong Chua",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29767694?v=4",
+      "profile": "https://github.com/c6z3h",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Amsal1",
+      "name": "Amsal Khan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45508550?v=4",
+      "profile": "https://github.com/Amsal1",
+      "contributions": [
+        "design",
         "code"
       ]
     }

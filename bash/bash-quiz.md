@@ -732,7 +732,7 @@ textfile2.txt
 
 All of this files will be deleted
 
-- [x] d: 
+- [x] d:
 
 ```bash
 image1.gif
