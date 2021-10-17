@@ -545,3 +545,10 @@ car#year {
   padding-top: 0.5em;
 }
 ```
+
+#### Q41. An XML document contains this code as part of the DTD: <!ELEMENT car (make, model?, year+, price*)>. What are the rules that need to be followed for each of the elements?
+
+- [ ] <make> is required, <model> is optional, <year> is optional, and <price> is optional.
+- [ ] <make> is required, <model> is required, <year> is optional, and <price> is optional.
+- [ ] <make> is required, <model> is required, <year> is required, and <price> is optional.
+- [x] <make> is required, <model> is optional, <year> is required, and <price> is optional.

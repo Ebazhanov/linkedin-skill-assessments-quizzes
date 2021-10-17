@@ -132,7 +132,9 @@
         "design",
         "code",
         "content",
-        "business"
+        "business",
+        "doc",
+        "data"
       ]
     },
     {
@@ -4276,7 +4278,8 @@
         "design",
         "code",
         "example",
-        "maintenance"
+        "maintenance",
+        "content"
       ]
     },
     {
@@ -5664,7 +5667,8 @@
       "profile": "https://github.com/jatinkumar027",
       "contributions": [
         "design",
-        "code"
+        "code",
+        "doc"
       ]
     },
     {
@@ -5824,6 +5828,33 @@
       "profile": "https://github.com/jaacko-torus",
       "contributions": [
         "design",
+        "code"
+      ]
+    },
+    {
+      "login": "mepirate",
+      "name": "mBlack",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35680699?v=4",
+      "profile": "https://github.com/mepirate",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "kalrayashwin",
+      "name": "kalrayashwin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78636768?v=4",
+      "profile": "https://github.com/kalrayashwin",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "seraph776",
+      "name": "Seraph",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72005563?v=4",
+      "profile": "https://github.com/seraph776",
+      "contributions": [
         "code"
       ]
     }
