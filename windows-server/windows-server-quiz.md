@@ -394,10 +394,12 @@
 
 #### Q54. Group policy objects are not being applied to domain controllers because the Default Domain Controllers and Default Domain group policies are corrupt. What can you run in a command prompt to recover them?
 
-- [ ] dcgpofix.exe
+- [x] dcgpofix.exe
 - [ ] dcdiagfix.exe
 - [ ] ntdsutil.exe
 - [ ] dcpromo.exe
+
+[Ref](https://www.sourceonetechnology.com/my-default-domain-policy-and-default-domain-controller-policy-are-broke/)
 
 #### Q55. You set up a storage area network that makes use of iSCSI storage. You then install the iSNS Server service feature on Windows Server 2012 R2. Why do you need this feature?
 
