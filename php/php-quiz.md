@@ -705,3 +705,10 @@ Dog
   echo $name . "<br/>";
   echo $Cat;
   ```
+
+##### Q59. Imagine a web application, built following a MVC architecture, that contains a quiz and a button to score it, When the user presses the Score button, which component should handle the request?
+
+- [ ] router
+- [x] controller
+- [ ] model
+- [ ] view
