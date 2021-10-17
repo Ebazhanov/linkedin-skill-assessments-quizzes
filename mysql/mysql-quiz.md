@@ -875,7 +875,7 @@ SELECT name FROM students WHERE name REGEXP '^to';
 
 #### Q93. What is the valid way to create a database view in MySQL?
 
-- [ ] CREATE VIEW v1 SELECT * FROM t1 WHERE col1 &gt; 10;
-- [ ] CREATE VIEW v1 AS BEGIN SELECT * FROM t1 END;
-- [ ] CREATE VIEW v1 BEGIN SELECT * FROM t1 END;
-- [x] CREATE VIEW v1 AS SELECT * FROM t1;
+- [ ] `CREATE VIEW v1 SELECT * FROM t1 WHERE col1 > 10;`
+- [ ] `CREATE VIEW v1 AS BEGIN SELECT * FROM t1 END;`
+- [ ] `CREATE VIEW v1 BEGIN SELECT * FROM t1 END;`
+- [x] `CREATE VIEW v1 AS SELECT * FROM t1;`
