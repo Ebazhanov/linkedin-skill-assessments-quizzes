@@ -824,6 +824,13 @@
 - [ ] Vertical > Center across selection
 - [ ] Data tab > Text to columns
 
+#### Q101. In the worksheet below, what do the symbols in rows 4, 6, 7, and 11 indicate?
 
+![image](images/Q101.png)
+
+- [ ] The dates are erroneous, such as October 39, 2015.
+- [ ] The columns aren't wide enough to show the full date.
+- [ ] The time are incorrectly formatted as dates.
+- [ ] The text is incorrectly formatted as dates.
 
 
