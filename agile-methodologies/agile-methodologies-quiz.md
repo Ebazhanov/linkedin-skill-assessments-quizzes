@@ -552,3 +552,10 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [ ] Send a note to the Product Owner saying the delays in completing the work will be their responsibility, not the team's.
 - [ ] Develop a service-level agree (SLA) that defines certain response times for different types of request and ask the Product Owner to sign off on it.
 - [x] Schedule a problem-solving session with the Product Owner and the other team members.
+
+#### Q78. Which choice is a pillar of Lean?
+
+- [ ] frequent delivery of working software
+- [ ] courage
+- [x] respect for people and courage
+- [ ] sustainable pace
