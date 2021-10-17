@@ -186,3 +186,67 @@
 - [ ] Data Loss Prevention (DLP)
 - [ ] Intrusion Detection and Prevention System (IDPS)
 - [ ] cloud access security broker (CASB)
+
+#### Q26. According to GDPR, a data ______ is the person about whom data is being collected?
+
+- [ ] controller
+- [ ] processor
+- [ ] object
+- [x] subject
+
+[Ref](https://gdpr-info.eu/art-4-gdpr/)
+
+#### Q27. Which attack exploits input validation vulnerabilities?
+
+- [ ] ARP spoofing
+- [ ] pharming attacks
+- [x] cross-site scripting (XSS)
+- [ ] DNS poisoning
+
+[Ref](https://www.whitehatsec.com/glossary/content/input-validation)
+
+#### Q28. You are a security analyst, and you receive a text message alerting you of a possible attack. Which security control is the _least_ likely to produce this type of alert?
+
+- [ ] IDS
+- [ ] SIEM
+- [ ] packet sniffer
+- [ ] IPS
+
+#### Q29. Which is _not_ a principle of zero trust security?
+
+- [ ] assume breach
+- [ ] use least priviledge access
+- [ ] verify explicitly
+- [ ] trust but verify
+
+#### Q30. Which act grants an authenticated party permission to perform an action or access a resource?
+
+- [ ] Role-Based Access Control (RBAC)
+- [x] authorization
+- [ ] Zero Trust Security
+- [ ] Single Sign-On
+
+[Ref](https://www.okta.com/identity-101/authentication-vs-authorization/)
+
+#### Q31. SQL injection inserts a code fragment that makes a database statement universally true, like ______.
+
+- [ ] `SELECT * FROM users WHERE username = " AND 1=1--'`
+- [ ] `SELECT * FROM users WHERE username = " AND 1!=1--'`
+- [ ] `SELECT * FROM users WHERE username = " OR 1=1--'`
+- [ ] `SELECT * FROM users WHERE username = " OR 1!=1--'`
+
+#### Q32. Which type of application can intercept sensitive information such as passwords on a network segment?
+
+- [ ] log server
+- [ ] network scanner
+- [ ] firewall
+- [ ] protocol analyzer
+
+#### Q33. Which type of security assessment requires access to source code?
+
+- [x] static analysis
+- [ ] black box testing
+- [ ] dynamic analysis
+- [ ] penetration testing
+
+[Ref](https://www.perforce.com/blog/sca/what-static-analysis)
