@@ -186,3 +186,52 @@
 - [ ] Data Loss Prevention (DLP)
 - [ ] Intrusion Detection and Prevention System (IDPS)
 - [ ] cloud access security broker (CASB)
+
+#### Q26. What act grants an authenticated party permission to perform an action or access a resource?
+
+- [ ] Zero Trust Security
+- [ ] Role-Based Access Control (RBAC)
+- [ ] authorization
+- [ ] Single Sign-On
+
+#### Q27. According to GDPR, a data _____ is the person about whom data is being collected.
+
+- [ ] processor
+- [ ] object
+- [ ] subject
+- [ ] controller
+
+#### Q28. Which type of application can intercept sensitive information such as passwords on a network segment?
+
+- [ ] protocol analyzer
+- [ ] firewal
+- [ ] log server
+- [ ] network scanner
+
+#### Q29. What provides a common language for describing security incidents in a structured and repeatable manner?
+
+- [ ] common weakness enumeration
+- [ ] common event format
+- [ ] common vulnerability scoring system
+- [ ] common vulnerabilities and exposures
+
+#### Q30. Two competing online retailers process credit card transactions for customers in countries on every continent. One organization is based in the United States. The other is based in the Netherlands. With which regulation must both countries comply while ensuring the security of these transactions?
+
+- [ ] Payment Card Industry Data Security Standard (PCI-DSS)
+- [ ] International Organization for Standardization and International Electrotechnical Commission (ISO/IEC 27018)
+- [ ] General Data Protection Regulation (GDPR)
+- [ ] Federal Information Security Management Act (FISMA)
+
+#### Q31. An attacker has discovered that they can deduce a sensitive piece of confidential information by analyzing multiple pieces of less sensitive public data. What type of security issue exists?
+
+- [ ] cross-origin resource sharing
+- [ ] inference
+- [ ] SQL injection
+- [ ] aggregation
+
+#### Q32. Which is not a principle of zero trust security?
+
+- [ ] use least privilege access
+- [ ] verify explicitly
+- [ ] trust but verify
+- [ ] assume breach
