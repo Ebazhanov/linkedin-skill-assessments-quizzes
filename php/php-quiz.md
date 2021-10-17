@@ -653,3 +653,14 @@ isset($_POST['submit'])
 - [x] 13
 - [ ] 1
 - [ ] 123
+
+##### Q57. When should this php script be used?
+```php
+$secret_word = 'if i ate spinach';
+setcookie('login', $_REQUEST['username']. ','. md5($_REQUEST['username'].$secret_word));
+```
+
+- [ ] when a user goes to pay for an item online
+- [ ] when items are placed in a cart
+- [ ] at first registration
+- [x] at evry login, for security
