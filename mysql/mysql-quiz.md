@@ -821,3 +821,10 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] SHOW TOTALS
 - [ ] UNION ALL
 - [x] WITH ROLLUP
+
+#### Q93. The left and right joins are also known as _.
+
+- [ ] Inner Join
+- [ ] Natural Join
+- [x] Outer Join
+- [ ] Cartesian Join

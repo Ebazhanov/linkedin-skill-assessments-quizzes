@@ -1385,3 +1385,9 @@ public class Main {
 - [ ] When calling the put method, Java will throw an exception
 - [ ] 4
 - [x] 3
+
+#### Q98. Which class acts as root class for Java Exception hierarchy?
+- [ ] Clonable
+- [x] Throwable
+- [ ] Object
+- [ ] Serializable
