@@ -266,4 +266,5 @@
 - [ ] black box testing
 - [ ] dynamic analysis
 - [ ] penetration testing
+
 [Ref](https://www.perforce.com/blog/sca/what-static-analysis)
