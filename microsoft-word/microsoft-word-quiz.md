@@ -494,12 +494,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] Simple Markup shows the final version with inline markups; All Markup shows the final version without inline markups.
       [Reference link](https://support.microsoft.com/en-us/office/video-track-changes-and-show-markup-3faf8a07-26ed-4b76-b6a0-43cca013e6d3)
 
-#### Q62. You want to set a wider inside margin to accommodate binding a document where pages are printed on both sides. Which option should you choose in the Page Setup dialog box?
-
-- [x] Book Fold.
-- [ ] Mirror Margins
-- [ ] Duplex
-- [ ] Difference Odd & Even Pages
+#### Q62. REMOVED (Duplicate of Q5)
 
 #### Q63. Which object can you NOT insert into a Word document from the Insert tab?
 

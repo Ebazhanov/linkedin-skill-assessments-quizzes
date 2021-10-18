@@ -727,7 +727,12 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [x] Stored procedures are secure, because applications can be given access to stored procedures and not any underlying variables
 - [ ] Stored procedures are not secure, because they can execute statements to drop tables or bulk delete data
 
-#### Q79. REMOVED (Duplicate of Q8)
+#### Q79. How would you retrieve data on all the customers where no phone number is stored?
+
+- [ ] `SELECT * FROM customers WHERE PhoneNumber = NULL;`
+- [ ] `SELECT * FROM customers WHERE PhoneNumber IS NOT VALID;`
+- [x] `SELECT * FROM customers WHERE PhoneNumber IS NULL;`
+- [ ] `SELECT * FROM customers WHERE PhoneNumber IS UNKNOWN;`
 
 
 #### Q80. In the diagram below, the price field is declared as type DECIMAL. What would be a more efficient declaration for this field?
@@ -821,3 +826,17 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] SHOW TOTALS
 - [ ] UNION ALL
 - [x] WITH ROLLUP
+
+#### Q91. The left and right joins are also known as _.
+
+- [ ] Inner Join
+- [ ] Natural Join
+- [x] Outer Join
+- [ ] Cartesian Join
+
+#### Q92. What is the valid way to create a database view in MySQL?
+
+- [ ] `CREATE VIEW v1 SELECT * FROM t1 WHERE col1 > 10;`
+- [ ] `CREATE VIEW v1 AS BEGIN SELECT * FROM t1 END;`
+- [ ] `CREATE VIEW v1 BEGIN SELECT * FROM t1 END;`
+- [x] `CREATE VIEW v1 AS SELECT * FROM t1;`
