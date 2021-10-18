@@ -191,15 +191,19 @@
 
 - [ ] Zero Trust Security
 - [ ] Role-Based Access Control (RBAC)
-- [ ] authorization
+- [x] authorization
 - [ ] Single Sign-On
+
+[Ref](https://www.okta.com/identity-101/authentication-vs-authorization/)
 
 #### Q27. According to GDPR, a data _____ is the person about whom data is being collected.
 
 - [ ] processor
 - [ ] object
-- [ ] subject
+- [x] subject
 - [ ] controller
+
+[Ref](https://gdpr-info.eu/art-4-gdpr/)
 
 #### Q28. Which type of application can intercept sensitive information such as passwords on a network segment?
 
@@ -235,3 +239,31 @@
 - [ ] verify explicitly
 - [ ] trust but verify
 - [ ] assume breach
+
+#### Q33. Which attack exploits input validation vulnerabilities?
+- [ ] ARP spoofing
+- [ ] pharming attacks
+- [x] cross-site scripting (XSS)
+- [ ] DNS poisoning
+
+[Ref](https://www.whitehatsec.com/glossary/content/input-validation)
+
+#### Q34. You are a security analyst, and you receive a text message alerting you of a possible attack. Which security control is the _least_ likely to produce this type of alert?
+- [ ] IDS
+- [ ] SIEM
+- [ ] packet sniffer
+- [ ] IPS
+
+#### Q35. SQL injection inserts a code fragment that makes a database statement universally true, like ______.
+
+- [ ] `SELECT * FROM users WHERE username = " AND 1=1--'`
+- [ ] `SELECT * FROM users WHERE username = " AND 1!=1--'`
+- [x] `SELECT * FROM users WHERE username = " OR 1=1--'`
+- [ ] `SELECT * FROM users WHERE username = " OR 1!=1--'`
+
+#### Q36. Which type of security assessment requires access to source code?
+- [x] static analysis
+- [ ] black box testing
+- [ ] dynamic analysis
+- [ ] penetration testing
+[Ref](https://www.perforce.com/blog/sca/what-static-analysis)
