@@ -5,7 +5,7 @@
 /autodesk-fusion-360/ @djayor
 /aws/ @jokerkeny
 /bash/ @D4RIO
-/c#/ @LiviuSosu @RamonMartinezNieto
+# won't work, needs renaming the dir to "c-sharp": /c#/ @LiviuSosu @RamonMartinezNieto
 /c-(programming-language)/ @makifay
 /front-end-development/ @vanekbr @ShankS3
 /go/ @ruslanbes
