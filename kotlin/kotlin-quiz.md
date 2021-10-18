@@ -865,18 +865,14 @@ fun main() {
 - [ ] The message "Invoked from an instance." is displayed.
 - [ ] A compile error occurs. You cannot override the `invoke()` method.
 
-#### Q71. Which statement declares a variable mileage whose value never changes and is inferred to be
-
-an integer?
+#### Q71. Which statement declares a variable mileage whose value never changes and is inferred to be an integer?
 
 - [ ] `val mileage:Int = 566`
 - [ ] `var mileage:Int = 566`
 - [ ] `val mileage = 566`
 - [ ] `const int mileage = 566`
 
-#### Q72. You have two arrays, a and b. Which line combines a and b as a list containing the contents of
-
-both?
+#### Q72. You have two arrays, a and b. Which line combines a and b as a list containing the contents of both?
 
 ```kotlin
 val a : array0f(1, 2, 3)
@@ -887,3 +883,21 @@ val b : array0f(166,266,366)
 - [ ] `val c = list0f(a, b)`
 - [ ] `val c = list0f(*a, *b)`
 - [ ] `val c = list0f(a+b)`
+
+#### Q73. What is the preferred way to create an immutable variable of type long?
+
+- [ ] `var longInt = 10L`
+- [ ] `const long longInt = 10`
+- [x] `val longInt = 10L`
+- [ ] `val longInt:Long = 10`
+
+#### Q74. Which line converts the binaryStr, whish contain only 0s and 1s, to an integer representing its decimal value?
+
+```kotlin
+val binaryStr = "00001111"
+```
+
+- [ ] `val myInt = toInt(binaryStr)`
+- [ ] `val myInt = binaryStr.toInt("0b")`
+- [ ] `val myInt = binaryStr.toInt()`
+- [x] `val myInt = binaryStr.toInt(2)`
