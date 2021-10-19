@@ -192,6 +192,7 @@
 - [ ] cloud access security broker (CASB)
 
 
+
 #### Q26. How many keys would be necessary to accomodate 100 users in an asymmetric cryptography system?
 - [x] 200
 - [ ] 400
@@ -238,3 +239,56 @@
 
 
 **Explaination**: An `Inference Attack` is a data mining technique performed by analyzing data in order to illegitimately gain knowledge about a subject or database. A subject's sensitive information can be considered as leaked if an adversary can infer its real value with a high confidence. **Source**: ([Wikipedia](https://en.wikipedia.org/wiki/Inference_attack)).
+
+#### Q31. What act grants an authenticated party permission to perform an action or access a resource?
+
+- [ ] Zero Trust Security
+- [ ] Role-Based Access Control (RBAC)
+- [x] authorization
+- [ ] Single Sign-On
+
+**Source** [Okata.com](https://www.okta.com/identity-101/authentication-vs-authorization/)
+
+#### Q32. According to GDPR, a data _____ is the person about whom data is being collected.
+
+- [ ] processor
+- [ ] object
+- [x] subject
+- [ ] controller
+
+**Source** [Intersoft Consulting](https://gdpr-info.eu/art-4-gdpr/)
+
+
+#### Q33. Which is not a principle of zero trust security?
+
+- [ ] use least privilege access
+- [ ] verify explicitly
+- [ ] trust but verify
+- [ ] assume breach
+
+#### Q34. Which attack exploits input validation vulnerabilities?
+- [ ] ARP spoofing
+- [ ] pharming attacks
+- [x] cross-site scripting (XSS)
+- [ ] DNS poisoning
+
+**Source** [White Hat Sec](https://www.whitehatsec.com/glossary/content/input-validation)
+
+#### Q35. You are a security analyst, and you receive a text message alerting you of a possible attack. Which security control is the _least_ likely to produce this type of alert?
+- [x] IDS
+- [ ] SIEM
+- [ ] packet sniffer
+- [ ] IPS
+
+#### Q36. SQL injection inserts a code fragment that makes a database statement universally true, like ______.
+
+- [ ] `SELECT * FROM users WHERE username = " AND 1=1--'`
+- [ ] `SELECT * FROM users WHERE username = " AND 1!=1--'`
+- [x] `SELECT * FROM users WHERE username = " OR 1=1--'`
+- [ ] `SELECT * FROM users WHERE username = " OR 1!=1--'`
+
+#### Q37. Which type of security assessment requires access to source code?
+- [x] static analysis
+- [ ] black box testing
+- [ ] dynamic analysis
+- [ ] penetration testing

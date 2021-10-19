@@ -1301,9 +1301,9 @@ num_list[len(num_list)//2]
 
 #### Q96. What does a class's init() method do?
 
-- [ ] The __init__ method makes classes aware of each other if more than one class is defined in a single code file.
-- [ ] The __init__ method is included to preserve backward compatibility from Python 3 to Python 2, but no longer needs to be used in Python 3.
-- [x] The __init__ method is a constructor method that is called automatically whenever a new object is created from a class. It sets the initial state of a new object.
-- [ ] The __init__ method initializes any imports you may have included at the top of your file.
+- [ ] The **init** method makes classes aware of each other if more than one class is defined in a single code file.
+- [ ] The **init** method is included to preserve backward compatibility from Python 3 to Python 2, but no longer needs to be used in Python 3.
+- [x] The **init** method is a constructor method that is called automatically whenever a new object is created from a class. It sets the initial state of a new object.
+- [ ] The **init** method initializes any imports you may have included at the top of your file.
 
 [reference here](https://stackoverflow.com/questions/625083/what-init-and-self-do-in-python)

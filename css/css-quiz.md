@@ -21,7 +21,7 @@ div a
 - [ ] a.title {...}
 - [ ] a=title {...}
 
-#### Q3. CSS grid and flexbox are now becoming a more popular way to create page layouts. However, floats are still commonly used, especially when working with an older code base, or it you need to support older browser version. What are two valid techniques used to clear floats?
+#### Q3. CSS grid and flexbox are now becoming a more popular way to create page layouts. However, floats are still commonly used, especially when working with an older code base, or if you need to support older browser version. What are two valid techniques used to clear floats?
 
 - [ ] Use the "clearfix hack" on the floated element and add a float to the parent element.
 - [ ] Use the overflow property on the floated element or the "clearfix hack" on either the floated or parent element.
@@ -30,39 +30,34 @@ div a
 
 #### Q4. What element(s) do the following selectors match to?
 
-`1) .nav {...}`
-`2) nav {...}`
-`3) #nav {...}`
-
-- [ ]
-
-```markdown
-1. An element with an ID of "nav"
-2. A nav element
-3. An element with a class of "nav"
+```css
+1) .nav {...}
+2) nav {...}
+3) #nav {...}
 ```
 
 - [ ]
-
-```markdown
-They all target the same nav element.
-```
-
+  ```markdown 
+  1. An element with an ID of "nav"
+  2. A nav element
+  3. An element with a class of "nav"
+  ```
+- [ ] 
+  ```markdown 
+  They all target the same nav element.
+  ```
 - [x]
-
-```markdown
-1. An element with an class of "nav"
-2. A nav element
-3. An element with a id of "nav"
-```
-
+  ```markdown
+  1. An element with an class of "nav"
+  2. A nav element
+  3. An element with a id of "nav"
+  ```
 - [ ]
-
-```markdown
-1. An element with an class of "nav"
-2. A nav element
-3. An div with a id of "nav"
-```
+  ```markdown
+  1. An element with an class of "nav"
+  2. A nav element
+  3. An div with a id of "nav"
+  ```
 
 #### Q5. When adding transparency styles, what is the difference between using the opacity property versus the background property with an `rgba()` value?
 
@@ -116,47 +111,42 @@ They all target the same nav element.
 
 #### Q11. In the shorthand example below, which individual background properties are represented?
 
-`background: blue url(image.jpg) no-repeat scroll 0px 0px;`
+```css
+background: blue url(image.jpg) no-repeat scroll 0px 0px;
+```
 
 - [x]
-
-```css
-background-color: blue;
-background-image: url(image.jpg);
-background-repeat: no-repeat;
-background-attachment: scroll;
-background-position: 0px 0px;
-```
-
+  ```css
+  background-color: blue;
+  background-image: url(image.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 0px 0px;
+  ```
 - [ ]
-
-```css
-background-color: blue;
-background-img: url(image.jpg);
-background-position: no-repeat;
-background-scroll: scroll;
-background-size: 0px 0px;
-```
-
+  ```css
+  background-color: blue;
+  background-img: url(image.jpg);
+  background-position: no-repeat;
+  background-scroll: scroll;
+  background-size: 0px 0px;
+  ```
 - [ ]
-
-```css
-background-color: blue;
-background-src: url(image.jpg);
-background-repeat: no-repeat;
-background-wrap: scroll;
-background-position: 0px 0px;
-```
-
+  ```css
+  background-color: blue;
+  background-src: url(image.jpg);
+  background-repeat: no-repeat;
+  background-wrap: scroll;
+  background-position: 0px 0px;
+  ```
 - [ ]
-
-```css
-background-color: blue;
-background-src: url(image.jpg);
-background-repeat: no-repeat;
-background-scroll: scroll;
-background-position: 0px 0px;
-```
+  ```css
+  background-color: blue;
+  background-src: url(image.jpg);
+  background-repeat: no-repeat;
+  background-scroll: scroll;
+  background-position: 0px 0px;
+  ```
 
 #### Q12. In the following example, according to cascading and specificity rules, what color will the link be?
 
@@ -229,41 +219,34 @@ section + p {
 - [ ] Paragraph one will be blue, paragraph two will be red.
 - [ ] Both paragraphs will be blue.
 - [x] Paragraphs one will be red, paragraph two will be blue.
-- [ ] Both paragraphs will be red.
+- [ ] Both paragraphs will be red. 
 
 #### Q16.What are three valid ways of adding CSS to an HTML page?
 
 - [ ]
-
-```markdown
-1. External; CSS is written in a separate file.
-2. Inline; CSS is added to the <head> of the HTML page.
-3. Internal; CSS is included within the HTML tags.
-```
-
+  ```markdown
+  1. External; CSS is written in a separate file.
+  2. Inline; CSS is added to the <head> of the HTML page.
+  3. Internal; CSS is included within the HTML tags.
+  ```
 - [ ]
-
-```markdown
-1. External; CSS is written in a separate file and is linked within the <header> element of the HTML file.
-2. Inline; CSS is added to the HTML tag.
-3. Internal; CSS is included within the <header> element of the HTML file.
-```
-
+  ```markdown
+  1. External; CSS is written in a separate file and is linked within the <header> element of the HTML file.
+  2. Inline; CSS is added to the HTML tag.
+  3. Internal; CSS is included within the <header> element of the HTML file.
+  ```
 - [ ]
-
-```markdown
-1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file.
-2. Internal; CSS is included within the <header> element of the HTML file.
-3. Inline; CSS is added to the HTML tag.
-```
-
+  ```markdown
+  1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file.
+  2. Internal; CSS is included within the <header> element of the HTML file.
+  3. Inline; CSS is added to the HTML tag.
+  ```
 - [x]
-
-```markdown
-1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file .
-2. Inline; CSS is added to the HTML tag.
-3. Internal; CSS is included within the <head> element of the HTML file.
-```
+  ```markdown
+  1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file.
+  2. Inline; CSS is added to the HTML tag.
+  3. Internal; CSS is included within the <head> element of the HTML file.
+  ```
 
 #### Q17. Which of the following is true of the SVG image format? (_Alternative_: Which statement about the SVG image format is true?)
 
@@ -329,36 +312,29 @@ p {
 ```
 
 - [ ]
-
-```markdown
-"p" is the selector
-"#000000" is the property
-"color" is the value
-```
-
+  ```markdown
+  "p" is the selector
+  "#000000" is the property
+  "color" is the value
+  ```
 - [x]
-
-```markdown
-"p" is the selector
-"color" is the property
-"#000000" is the value
-```
-
+  ```markdown
+  "p" is the selector
+  "color" is the property
+  "#000000" is the value
+  ```
 - [ ]
-
-```markdown
-"color" is the selector
-"#000000" is the property
-"#p" is the value
-```
-
+  ```markdown
+  "color" is the selector
+  "#000000" is the property
+  "#p" is the value
+  ```
 - [ ]
-
-```markdown
-"color" is the selector
-"p" is the property
-"#000000" is the value
-```
+  ```markdown
+  "color" is the selector
+  "p" is the property
+  "#000000" is the value
+  ```
 
 #### Q25. What is the rem unit based on?
 
@@ -394,12 +370,12 @@ p {
 - [ ] the top right corner of the element
 - [ ] the bottom left of the element
 
-#### Q29. Which of the following is not a valid color value?
+#### Q29. Which of the following is not a valid color value? (*Alternative:* Which choice is not a valid color value?)
 
-- [ ] color: `#000`
-- [ ] color: `rgb(0,0,0)`
-- [ ] color: `#000000`
-- [x] color: `000000`
+- [ ] `color: #000`
+- [ ] `color: rgb(0,0,0)`
+- [ ] `color: #000000`
+- [x] `color: 000000`
 
 #### Q30. What is the vertical gap between the two elements below?
 
@@ -429,22 +405,28 @@ p {
 
 #### Q33. The flex-direction property is used to specify the direction that flex items are displayed. What are the values used to specify the direction of the items in the following examples?
 
-- [x] Example 1: `flex-direction: row;`
-      Example 2: `flex-direction: row-reverse;`
-      Example 3: `flex-direction: column;`
-      Example 4: `flex-direction: column-reverse;`
-- [ ] Example 1: `flex-direction: row-reverse;`
-      Example 2: `flex-direction: row;`
-      Example 3: `flex-direction: column-reverse;`
-      Example 4: `flex-direction: column;`
-- [ ] Example 1: `flex-direction: row;`
-      Example 2: `flex-direction: row-reverse;`
-      Example 3: `flex-direction: column;`
-      Example 4: `flex-direction: reverse-column;`
-- [ ] Example 1: `flex-direction: column;`
-      Example 2: `flex-direction: column-reverse;`
-      Example 3: `flex-direction: row;`
-      Example 4: `flex-direction: row-reverse;`
+- [x]
+  - Example 1: `flex-direction: row;`
+  - Example 2: `flex-direction: row-reverse;`
+  - Example 3: `flex-direction: column;`
+  - Example 4: `flex-direction: column-reverse;`
+- [ ]
+  - Example 1: `flex-direction: row-reverse;`
+  - Example 2: `flex-direction: row;`
+  - Example 3: `flex-direction: column-reverse;`
+  - Example 4: `flex-direction: column;`
+- [ ]
+  - Example 1: `flex-direction: row;`
+  - Example 2: `flex-direction: row-reverse;`
+  - Example 3: `flex-direction: column;`
+  - Example 4: `flex-direction: reverse-column;`
+- [ ]
+  - Example 1: `flex-direction: column;`
+  - Example 2: `flex-direction: column-reverse;`
+  - Example 3: `flex-direction: row;`
+  - Example 4: `flex-direction: row-reverse;`
+
+Note: Examples seem to be missing.
 
 #### Q34. There are two sibling combinators that can be used to select elements contained within the same parent element; the general sibling combinator (~) and the adjacent sibling combinator (+). Referring to example below, which elements will the styles be applied to?
 
@@ -526,41 +508,36 @@ font-weight: 700;
 - [ ] 50px, 100px, 200px
 - [ ] 50px, 50px, 100px
 
+Note: an alternative for Q7.
+
 #### Q42. Using the :nth-child pseudo class, what would be the most efficient way to style every third item in a list, no matter how many items are present, starting with item 2?
 
 - [ ]
-
-```css
-li:nth-child(3 + 2n) {
-  margin: 0 5 px;
-}
-```
-
+  ```css
+  li:nth-child(3 + 2n) {
+    margin: 0 5 px;
+  }
+  ```
 - [x]
-
-```css
-li:nth-child(3n + 2) {
-  margin: 0 5 px;
-}
-```
-
+  ```css
+  li:nth-child(3n + 2) {
+    margin: 0 5 px;
+  }
+  ```
 - [ ]
-
-```css
-li:nth-child(2),
-li:nth-child(5),
-li:nth-child(8) {
-  margin: 0 5 px;
-}
-```
-
+  ```css
+  li:nth-child(2),
+  li:nth-child(5),
+  li:nth-child(8) {
+    margin: 0 5 px;
+  }
+  ```
 - [ ]
-
-```css
-li:nth-child(2n + 3) {
-  margin: 0 5 px;
-}
-```
+  ```css
+  li:nth-child(2n + 3) {
+    margin: 0 5 px;
+  }
+  ```
 
 #### Q43. Which selector would select only internal links within the current page?
 
@@ -631,6 +608,8 @@ li:nth-child(2n + 3) {
 - [ ] `a=title`
 - [ ] `a.title`
 
+Note: an alternative for Q2.
+
 #### Q51. Which code would you use to absolutely position an element of the logo class?
 
 - [x] `.logo { position: absolute; left: 100px; top: 150px; }`
@@ -699,36 +678,31 @@ p:first-child {
 #### Q57. When elements within a container overlap, the z-index property can be used to indicate how those items are stacked on top of each other. Which set of statements is true?
 
 - [x]
-
-```markdown
-1. Larger z-index values appear on top elements with a lower z-index value.
-2. Negative and positive number can be used.
-3. z-index can be used only on positioned elements.
-```
-
+  ```markdown
+  1. Larger z-index values appear on top elements with a lower z-index value.
+  2. Negative and positive number can be used.
+  3. z-index can be used only on positioned elements.
+  ```
 - [ ]
-
-```markdown
-1. Smaller z-index values appear on top of elements with a larger z-index value.
-2. Negative and positive numbers can be used.
-3. z-index can be used with or without positioned elements.
-```
-
+  ```markdown
+  1. Smaller z-index values appear on top of elements with a larger z-index value.
+  2. Negative and positive numbers can be used.
+  3. z-index can be used with or without positioned elements.
+  ```
 - [ ]
-
-```markdown
-1. Smaller z-index values appear on top of elements with a larger z-index value.
-2. Negative and positive number can be used.
-3. z-index must also be used with positioned elements.
-```
-
+  ```markdown
+  1. Smaller z-index values appear on top of elements with a larger z-index value.
+  2. Negative and positive number can be used.
+  3. z-index must also be used with positioned elements.
+  ```
 - [ ]
+  ```markdown
+  1. Larger z-index values appear on top of elements with a lower z-index value.
+  2. Only positive number can be used.
+  3. z-index must also be used with positioned elements.
+  ```
 
-```markdown
-1. Larger z-index values appear on top of elements with a lower z-index value.
-2. Only positive number can be used.
-3. z-index must also be used with positioned elements.
-```
+Note: an alternative for Q13.
 
 #### Q58. You have a large image that needs to fit into a 400 x 200 pixel area. What should you resize the image to if your users are using Retina displays?
 
@@ -788,48 +762,41 @@ padding: 10px 0; /* declaration C */
 #### Q65. Which CSS will cause your links to have a solid blue background that changes to semitransparent on hover?
 
 - [x]
-
-```css
-a:link {
-  background: #0000ff;
-}
-a:hover {
-  background: rgba(0, 0, 255, 0.5);
-}
-```
-
+  ```css
+  a:link {
+    background: #0000ff;
+  }
+  a:hover {
+    background: rgba(0, 0, 255, 0.5);
+  }
+  ```
 - [ ]
-
-```css
-a {
-  color: blue;
-}
-a:hover {
-  background: white;
-}
-```
-
+  ```css
+  a {
+    color: blue;
+  }
+  a:hover {
+    background: white;
+  }
+  ```
 - [ ]
-
-```css
-a:link {
-  background: blue;
-}
-a:hover {
-  color: rgba(0, 0, 255, 0.5);
-}
-```
-
+  ```css
+  a:link {
+    background: blue;
+  }
+  a:hover {
+    color: rgba(0, 0, 255, 0.5);
+  }
+  ```
 - [ ]
-
-```css
-a:hover {
-  background: rgba(blue, 50%);
-}
-a:link {
-  background: rgba(blue);
-}
-```
+  ```css
+  a:hover {
+    background: rgba(blue, 50%);
+  }
+  a:link {
+    background: rgba(blue);
+  }
+  ```
 
 #### Q66. Which CSS rule takes precedence over the others listed?
 
@@ -971,7 +938,7 @@ body {
 - [ ] `font-variant`
 - [x] `letter-spacing`
 
-#### Q80. What is the correct syntax for changing the curse from an arrow to a pointing hand when it interacts with a named element?
+#### Q80. What is the correct syntax for changing the cursor from an arrow to a pointing hand when it interacts with a named element?
 
 - [x] `.element {cursor: pointer;}`
 - [ ] `.element {cursor: hand;}`
@@ -1034,72 +1001,65 @@ D. border-top-radius: 10px;
 ```
 
 - [ ]
-
-```css
-1. section \* {
-  ...;
-}
-2. [class*='example'] {
-  ...;
-}
-3. p.example {
-  ...;
-}
-4. section p {
-  ...;
-}
-```
-
+  ```css
+  1. section \* {
+    ...;
+  }
+  2. [class*='example'] {
+    ...;
+  }
+  3. p.example {
+    ...;
+  }
+  4. section p {
+    ...;
+  }
+  ```
 - [ ]
-
-```css
-1. p {
-  ...;
-}
-2. p.example {
-  ...;
-}
-3. section p {
-  ...;
-}
-4. [class*='example'] {
-  ...;
-}
-```
-
+  ```css
+  1. p {
+    ...;
+  }
+  2. p.example {
+    ...;
+  }
+  3. section p {
+    ...;
+  }
+  4. [class*='example'] {
+    ...;
+  }
+  ```
 - [ ]
-
-```css
-1. p.example {
-  ...;
-}
-2. section p {
-  ...;
-}
-3. [class*='example'] {
-  ...;
-}
-4. section \* {
-  ...;
-}
-```
-
+  ```css
+  1. p.example {
+    ...;
+  }
+  2. section p {
+    ...;
+  }
+  3. [class*='example'] {
+    ...;
+  }
+  4. section \* {
+    ...;
+  }
+  ```
 - [x]
-
-```css
-1. p {
-  ...;
-}
-2. section p {
-  ...;
-}
-3. [class*='example'] {
-  ...;
-}
-4. p.example {
-  ...;
-}
-```
+  ```css
+  1. p {
+    ...;
+  }
+  2. section p {
+    ...;
+  }
+  3. [class*='example'] {
+    ...;
+  }
+  4. p.example {
+    ...;
+  }
+  ```
 
 #### Q86. Which property is used to create a drop shadow effect on an HTML element?
 
@@ -1117,7 +1077,7 @@ D. border-top-radius: 10px;
 
 **Explanation:**
 
-`input[type="text"] selects all the input with type text, and :not([disabled]) selects all the elements not having the attribute "disabled". Combining both only selects all the input elements with type attribte as "text" and not having "disabled" attribute.`
+`input[type="text"]` selects all the input with type text, and `:not([disabled])` selects all the elements not having the attribute "disabled". Combining both only selects all the input elements with type attribte as "text" and not having "disabled" attribute.`
 
 - [Reference link attribute-selector](https://www.w3schools.com/css/css_attribute_selectors.asp)
 - [Reference link-:not()](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
@@ -1130,22 +1090,24 @@ D. border-top-radius: 10px;
 - [ ] background-color: rgba(0, 0, 0, 1);
 
 **Explanation:**
-`rgba is a funtion in css. rgba stands for red, green, blue and alpha. The value of alpha can be between 0 and 1 both inclusive with 0 being fully transparent and 1 being fully opaque.`
+`rgba` is a funtion in css. rgba stands for red, green, blue and alpha. The value of alpha can be between 0 and 1 both inclusive with 0 being fully transparent and 1 being fully opaque.
 
 - [Reference link-rgba](https://www.w3schools.com/cssref/func_rgba.asp)
 
-#### Q89. Which property is used to create a drop shadow effect on an HTML element?
+#### Q89. Using this HTML markup, how would you select only the headings contained within the `<header>` element?
 
-```css
-grid-template-columns: 2fr 1fr;
+```html
+<header>
+  <hl>Heading 1</h1>
+  <h2>Heading 2</h2>
+</header>
+<h2>Heading 2</h2> 
 ```
 
-- [ ] The first column is half the size of the container and the second column will absorb the remaining space.
-- [ ] The first column is twice the width and height of the second column, and will fit proportionally within the grid container.
-- [x] The first column is twice as wide as the second column and will fit proportionally within the grid container.
-- [ ] The first column is twice the height of the second column and will be as wide as the content.
-
-[Reference-MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns)
+- [x] `header h1, header h2 {...}`
+- [ ] `header h1 + header h2 {...}`
+- [ ] `header h1, h2 {...}`
+- [ ] `h1, h2 {...}`
 
 #### Q90. Suppose you want to have a list of items (.item) displayed in a row and in reverse order using flexbox. What is the error in the CSS below?
 
@@ -1203,27 +1165,32 @@ article > p {
 border: 1px solid red;
 ```
 
-[ ]
-border-size: 1px;
-border-style: solid;
-border-color: red;
+- [ ]
+  ```css
+  border-size: 1px;
+  border-style: solid;
+  border-color: red;
+  ```
+- [ ]
+  ```css
+  border-size: 1px;
+  border-type: solid;
+  border-color: red;
+  ```
+- [x]
+  ```css
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+  ```
+- [ ]
+  ```css
+  border-width: 1px;
+  border-line: solid;
+  border-color: red;
+  ```
 
-[ ]
-border-size: 1px;
-border-type: solid;
-border-color: red;
-
-[x]
-border-width: 1px;
-border-style: solid;
-border-color: red;
-
-[ ]
-border-width: 1px;
-border-line: solid;
-border-color: red;
-
-#### Q94. Pseudo-classes are used to **\_**.
+#### Q94. Pseudo-classes are used to `_`.
 
 - [x] style the state of the selected element
 - [ ] insert presentational content
@@ -1252,60 +1219,39 @@ section {
 
 #### Q96. Which answer is an example of a type selector (also sometimes referred to as an element selector)?
 
-- [ ] .header {...}
-- [ ] header {...}
-- [ ] #header {...}
-- [ ] header > h1 {...}
+- [ ] `.header {...}`
+- [x] `header {...}`
+- [ ] `#header {...}`
+- [ ] `header > h1 {...}`
 
-#### Q97. Which answer is an example of a type selector (also sometimes referred to as an element selector)?
+#### Q97. What is the correct order for listing different link states in a website so those states display correctly on the page? 
 
-```
-<style>
-  ul {
-    --color: red;
-  }
-
-  p {
-    color: var(--color);
-  }
-
-  a {
-    color: var(--color, orange);
-  }
-</style>
-<p>Paragraph</p>
-<ul>
-  <li> <a href="#">list item with a link</a> </li>
-  <li>list item</li>
-</ul>
-<style>
-  ul {
-    --color: red;
-  }
-
-  p {
-    color: var(--color);
-  }
-
-  a {
-    color: var(--color, orange);
-  }
-</style>
-<p>Paragraph</p>
-<ul>
-  <li> <a href="#">list item with a link</a> </li>
-  <li>list item</li>
-</ul>
-```
-
-- [ ] blueblue
-- [ ] blackblack
-- [ ] orangeorange
-- [ ] redred
-
-#### Q98. Which choice is not a valid color value?
-
-- [ ] color: #000000;
-- [x] color: 000000;
-- [ ] color: rgb(0,0,0);
-- [ ] color: #000;
+- [ ]
+  ```css
+  a
+  a:hover
+  ```
+- [ ]
+  ```css
+  :link 
+  :visited
+  :hover
+  :active
+  :focus 
+  ```
+- [ ]
+  ```css
+  :active
+  :focus
+  :hover
+  :link
+  :visited 
+  ```
+- [ ]
+  ```css
+  :link
+  :visited
+  :focus
+  :hover
+  :active 
+  ```

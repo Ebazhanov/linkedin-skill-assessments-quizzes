@@ -1046,8 +1046,8 @@ new logThis();
 #### Q93. What will this code print?
 
 ```js
-let rainForests = ["Amazon","Borneo","Cerrado","Congo"];
-rainForests.splice(0,2);
+let rainForests = ['Amazon', 'Borneo', 'Cerrado', 'Congo'];
+rainForests.splice(0, 2);
 console.log(rainForests);
 ```
 
@@ -1055,4 +1055,3 @@ console.log(rainForests);
 - [x] `["Cerrado", "Congo"]`
 - [ ] `["Congo"]`
 - [ ] `["Amazon","Borneo"]`
-

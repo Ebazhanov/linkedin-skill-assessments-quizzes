@@ -732,7 +732,7 @@ textfile2.txt
 
 All of this files will be deleted
 
-- [x] d: 
+- [x] d:
 
 ```bash
 image1.gif
@@ -755,3 +755,12 @@ fi
 - [ ] The comparison will not be able to handle floating-point numbers, as Bash only handles integers. So this example will output an error message if the value of $var is changed to "8.8".
 - [ ] There will be a file in the current directory named 5.
 - [ ] The variable $var is not quoted, which will lead to word splitting. This script will fail with a "unary operator expected" message if you change the value of
+
+#### Q60. What is the result of this script?
+
+![question](images/Q60/question.png)
+
+- [ ] It removes the directory 'foo' and the files contained within it.
+- [ ] It removes all files except those in the current directory.
+- [x] It removes all files in the current directory.
+- [ ] It removes all files except those in the 'foo' directory.
