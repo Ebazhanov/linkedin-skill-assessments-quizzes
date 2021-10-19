@@ -251,7 +251,7 @@
 #### Q34. You are a security analyst, and you receive a text message alerting you of a possible attack. Which security control is the _least_ likely to produce this type of alert?
 - [ ] IDS
 - [ ] SIEM
-- [ ] packet sniffer
+- [x] packet sniffer
 - [ ] IPS
 
 #### Q35. SQL injection inserts a code fragment that makes a database statement universally true, like ______.
