@@ -229,7 +229,7 @@
 #### Q31. An attacker has discovered that they can deduce a sensitive piece of confidential information by analyzing multiple pieces of less sensitive public data. What type of security issue exists?
 
 - [ ] cross-origin resource sharing
-- [ ] inference
+- [x] inference
 - [ ] SQL injection
 - [ ] aggregation
 
