@@ -1257,9 +1257,9 @@ section {
   ```
 #### Q98. Which statement is not true?
 
-- [ ] `Specificity determines which CSS rule is applied by the browsers.`
-- [x] `When two selectors apply to the same element, the one with lower specificity wins.`
-- [ ] `The last rule defined overrides all previous rules and even conflicting rules.`
-- [ ] `Rules with more specific selectors have greater specificity.`
+- [ ] Specificity determines which CSS rule is applied by the browsers.
+- [x] When two selectors apply to the same element, the one with lower specificity wins.
+- [ ] The last rule defined overrides all previous rules and even conflicting rules.
+- [ ] Rules with more specific selectors have greater specificity.
 
 [Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
