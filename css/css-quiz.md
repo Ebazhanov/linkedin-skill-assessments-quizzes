@@ -1255,3 +1255,39 @@ section {
   :hover
   :active 
   ```
+#### Q98. Which selector is used to select the paragraph element that is a direct descendent of section?
+
+- [ ] `section * p`
+- [ ] `section + p`
+- [ ] `section ~ p`
+- [ ] `section > p`
+
+#### Q99. For this code, what is the font color of the hypertext link? 
+```css
+ul{
+--color : red;
+}
+p{
+color: var(--color);
+}
+a{
+color:var(--color,orange);
+}
+```
+
+```html
+<p>Paragraph</p>
+<ul>
+  <li>
+    <a href="#">list item a link </a>
+  </li>
+    <li>
+    list item
+  </li>
+</ul>
+```
+
+- [X] `red`
+- [ ] `orange`
+- [ ] `blue`
+- [ ] `black`
