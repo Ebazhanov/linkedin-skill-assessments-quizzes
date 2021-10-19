@@ -498,7 +498,7 @@ model=Planet
 
 - [ ] Run the `migrate` command with `--exclude=[model_name]`.
 - [ ] Move the model definition from `models.py` into its own file.
-- [ ] Set `managed=False` inside the model.
+- [x] Set `managed=False` inside the model.
 - [ ] Don't run the `migrate` command.
 
 #### Q55. what method can you use to check if form data has changed when using a form instance?
