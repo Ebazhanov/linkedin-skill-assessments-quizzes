@@ -215,10 +215,10 @@
 #### Q28. What provides a common language for describing security incidents in a structures and repeatable manner?
 - [ ] Common event format
 - [ ] common weakness enumeration
-- [ ] common vulnerabilties and exposures
-- [x] common vulnerability scoring system
+- [x ] common vulnerabilties and exposures
+- [ ] common vulnerability scoring system
 
-**Explaination**: The **Vocabulary for Event Recording and Incident Sharing** (`VERIS`) is a set of metrics designed to provide a common language for describing security incidents in a structured and repeatable manner.
+**Explaination**: The Common Vulnerabilities and Exposures (`CVE`) system provides a reference-method for publicly known information-security vulnerabilities and exposures.
 
 
 #### Q29. Which type of application can intercept sensative information such as passwoprds on a network segment?
@@ -278,9 +278,9 @@
 **Source** [White Hat Sec](https://www.whitehatsec.com/glossary/content/input-validation)
 
 #### Q35. You are a security analyst, and you receive a text message alerting you of a possible attack. Which security control is the _least_ likely to produce this type of alert?
-- [x] IDS
+- [ ] IDS
 - [ ] SIEM
-- [ ] packet sniffer
+- [x] packet sniffer
 - [ ] IPS
 
 #### Q36. SQL injection inserts a code fragment that makes a database statement universally true, like ______.
