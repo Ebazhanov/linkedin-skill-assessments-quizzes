@@ -492,7 +492,7 @@ model=Planet
 - [ ] an HTTP request
 - [ ] a JSON object
 - [ ] a query
-- [ ] a serializer
+- [x] a serializer
 
 #### Q54. How would you stop Django from performing database table creation or deletion operations via migrations for a particular model?\*\*
 
