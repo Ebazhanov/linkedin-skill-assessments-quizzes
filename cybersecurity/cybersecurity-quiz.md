@@ -263,8 +263,11 @@
 
 - [ ] use least privilege access
 - [ ] verify explicitly
-- [ ] trust but verify
+- [x] trust but verify
 - [ ] assume breach
+
+**Explaination**: zero trust assumes that the system will be breached and designs security as if there is no perimeter. Hence, don’t trust anything by default.
+**Source** [NIST](https://www.nist.gov/blogs/taking-measure/zero-trust-cybersecurity-never-trust-always-verify)
 
 #### Q34. Which attack exploits input validation vulnerabilities?
 - [ ] ARP spoofing
