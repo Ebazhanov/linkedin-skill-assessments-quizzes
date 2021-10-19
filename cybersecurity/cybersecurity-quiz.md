@@ -25,9 +25,10 @@
 
 - [ ] cloud access security broker (CASB)
 - [ ] intrusion prevention system (IPS)
-- [ ] intrusion detection system (IDS)
+- [x] intrusion detection system (IDS)
 - [ ] next generation firewall
 
+**Explaination**: An intrusion detection system (`IDS`) is a device or software application that monitors a network or systems for malicious activity or policy violations. **Source** [Quizlet](https://quizlet.com/217188159/cissp-practice-testschapter-7-security-operations-domain7-flash-cards/)
 #### Q5. Packet sniffer is also called **\_**.
 
 - [ ] SIEM
@@ -70,7 +71,7 @@
 - [ ] fault tolerant infrastructure and data redundancy
 - [x] separation of duties and job rotation
 
-[ref](https://security.stackexchange.com/a/114835/249930)
+**Source**: [Stack Exchange](https://security.stackexchange.com/a/114835/249930)
 
 #### Q11. During a penetration test, you find a file containing hashed passwords for the system you are attempting to breach. Which type of attack is most likely to succeed in accessing the hashed passwords in a reasonable amount of time?
 
@@ -79,7 +80,7 @@
 - [ ] password spray attack
 - [ ] brute force attack
 
-**Explanation**: A rainbow table attack is a more efficient and effective way of cracking many hashed passwords, whereas brute-forcing would take much longer and may not complete in a reasonable amount of time. [ref](https://www.professormesser.com/free-a-plus-training/220-1002/brute-force-attacks-3)
+**Explanation**: A rainbow table attack is a more efficient and effective way of cracking many hashed passwords, whereas brute-forcing would take much longer and may not complete in a reasonable amount of time. **Source** [Professor Messer](https://www.professormesser.com/free-a-plus-training/220-1002/brute-force-attacks-3).
 
 #### Q12. Which area is DMZ?
 
@@ -111,7 +112,7 @@
 - [x] availability
 - [ ] confidentiality
 
-[Source: LinkedIn assessment practice mode](https://i.imgur.com/IeGShfi.png)
+**Source**: [screenshot](https://i.imgur.com/IeGShfi.png) of LinkedIn assessment practice mode question.
 
 #### Q16. You need to recommend a solution to automatically assess your cloud-hosted VMs against CIS benchmarks to identify deviations from security best practices. What type of solution should you recommend?
 
@@ -120,7 +121,10 @@
 - [ ] Cloud Workload Protection Platforms (CWPP)
 - [ ] Cloud Access Security Brokers (CASBs)
 
-[Source: LinkedIn assessment practice mode](https://i.imgur.com/fsgkfoS.png)
+**Source**: [screenshot](https://i.imgur.com/fsgkfoS.png) of LinkedIn assessment practice mode question.
+
+
+
 
 #### Q17. \_\_\_\_ validates the integrity of data files.
 
@@ -186,3 +190,51 @@
 - [ ] Data Loss Prevention (DLP)
 - [ ] Intrusion Detection and Prevention System (IDPS)
 - [ ] cloud access security broker (CASB)
+
+
+#### Q26. How many keys would be necessary to accomodate 100 users in an asymmetric cryptography system?
+- [x] 200
+- [ ] 400
+- [ ] 100
+- [ ] 300 
+
+
+**Explaintion**: The formula for asymmetric encryption is `2n`; where `n`  is the number of communicating parties.
+
+#### Q27. Two cometeing online retailers process credit card transactions for customers in countries on every continent. One organization is based in the United States. The other is based in the Netherlands. With which regulation must both countries comply while ensuring the security of these transactions?
+
+- [ ] Federal Information Security Managment Act (FISMA)
+- [x] Payment Card Industry Data Security Standard (PCI-DSS)
+- [ ] General Data Protection Regulation (GDPR)
+- [ ] International Organization for Standardization and Internation Electronical Commission (ISO/IEC 27018)
+
+**Explaintion**: The Payment Card Industry Data Security Standard (`PCI DSS`) is the global card industry security standard that is **required of all entities** that store, process, or transmit cardholder data, including financial institutions, online retailers and service providers. **Source**:  ([PCI Security Overview](https://www.pcisecuritystandards.org/pci_security/standards_overview)).
+
+
+#### Q28. What provides a common language for describing security incidents in a structures and repeatable manner?
+- [ ] Common event format
+- [ ] common weakness enumeration
+- [ ] common vulnerabilties and exposures
+- [x] common vulnerability scoring system
+
+**Explaination**: The **Vocabulary for Event Recording and Incident Sharing** (`VERIS`) is a set of metrics designed to provide a common language for describing security incidents in a structured and repeatable manner.
+
+
+#### Q29. Which type of application can intercept sensative information such as passwoprds on a network segment?
+- [ ] log server
+- [ ] network scanner
+- [ ] firewall
+- [x] protocol analyzer
+
+**Explaination**: A `protocol analyzer` is a tool used to capture and analyze signals and data traffic over a communication channel. [WireShark](https://www.wireshark.org) is a protocol analyzer.
+
+
+#### Q30. An attacker has discovered that they can deduce a sensitive piece of confidential information by analyzing multiple pieces of less sensative public data.
+
+- [ ] aggregation
+- [x] inference
+- [ ] SQL injection
+- [ ] cross-origin resouce sharing
+
+
+**Explaination**: An `Inference Attack` is a data mining technique performed by analyzing data in order to illegitimately gain knowledge about a subject or database. A subject's sensitive information can be considered as leaked if an adversary can infer its real value with a high confidence. **Source**: ([Wikipedia](https://en.wikipedia.org/wiki/Inference_attack)).
