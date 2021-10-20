@@ -1197,7 +1197,7 @@ bool is_even(int);
 - [ ] It is a blank superclass intended for inheritance and polymorphism.
 - [ ] It is a skeleton source code for a class where the programmer has to fill in specific parts to define the data types and algorithms used.
 
-#### 71. Other than shifting bits to the left, what is the << oprator used for ?
+#### Q71. Other than shifting bits to the left, what is the << oprator used for ?
 - [ ] shifting characters to the left in a string.
 - [x] inserting characters into an output stream like std::cout.
 - [ ] comparing floating point numbers as less-than.
