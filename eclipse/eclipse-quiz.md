@@ -171,23 +171,25 @@
 #### Q25. What is the benefit of using perspectives?
 
 - [ ] to switch between preferences within a single workspace
-- [ ] to easily switch between different layouts of views in the Workbenchfor specific tasks
+- [x] to easily switch between different layouts of views in the Workbenchfor specific tasks
 - [ ] to manage the fact that some views work only in certain perspectives
 - [ ] to debug multiple applications at the same time
 
+[Reference](https://www.eclipse.org/articles/using-perspectives/PerspectiveArticle.html)
+
 #### Q26. When viewing an XML file in Eclipse, how can you view the file in a visual hierarchy (as opposed to code alone)?
 
-- [ ] You cannotdothisin Eclipse.
+- [ ] You cannot do this in Eclipse.
 - [ ] Select the Editor tab for the XML file and then click the Design tab at the bottom of the editor window.
 - [ ] Double-click the open tab in the Editor.
 - [ ] In the Package Explorer, right-click the file and select Open With > Desgign Editor.
 
-#### Q27. How can you viewall the commits for a single file?
+#### Q27. How can you view all the commits for a single file?
 
 - [ ] Open the commit in the Git Staging view.
 - [ ] Open the commit in the Git Reflog view.
 - [ ] Double-click a commit in the History view.
-- [ ] Right-click the file in the Package Explorer and select Team > Showin History.
+- [x] Right-click the file in the Package Explorer and select Team > Show in History.
 
 #### Q28. In the image below, what does the circled button do?
 
@@ -205,7 +207,7 @@
 - [ ] to customize environment variables
 - [ ] to customize arguments
 
-#### Q30. You are searching for code using the Search dialog, and no results appear. Whatis a likely cause?
+#### Q30. You are searching for code using the Search dialog, and no results appear. What is a likely cause?
 
 - [ ] all of these answers
 - [ ] The scope of the search is too narrow.
