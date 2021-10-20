@@ -1289,7 +1289,7 @@ color:var(--color,orange);
 </ul>
 ```
 
-- [X] `red`
-- [ ] `orange`
-- [ ] `blue`
-- [ ] `black`
+- [X] red
+- [ ] orange
+- [ ] blue
+- [ ] black
