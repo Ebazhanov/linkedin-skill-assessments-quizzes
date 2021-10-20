@@ -174,3 +174,17 @@
 - [ ] risk mitigation
 - [ ] monitoring
 - [ ] control environment
+
+#### Q26. What is the difference between the cost of an asset and the accumulated depreciation for that asset?
+
+- [ ] depreciation value
+- [ ] prepaid asset
+- [ ] depreciation expense
+- [x] book value
+
+#### Q27. A company budgeted 1,200 washers, but only 1,000 are produced. It costs $10 to produce a widget. What is the materials variance?
+
+- [x] 200
+- [ ] 2000
+- [ ] 350
+- [ ] 20

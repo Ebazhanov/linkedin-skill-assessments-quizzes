@@ -495,7 +495,7 @@
 
 - [ ] Content does not match search intent.
 - [ ] Page returns 404 error.
-- [ ] Content reflects search intent.
+- [x] Content reflects search intent.
 - [ ] URL uses parameters.
 
 #### Q57. What should be as consistent as possible across the web when developing a local SEO strategy?
@@ -504,3 +504,10 @@
 - [ ] NAP
 - [ ] LRP
 - [ ] inbound links
+
+#### Q58.A user enters a search \_ to retrieve results from a search engine?
+
+- [x] query
+- [ ] parser
+- [ ] bar
+- [ ] link

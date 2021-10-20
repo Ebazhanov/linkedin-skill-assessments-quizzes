@@ -696,11 +696,11 @@
 - [ ] Select column G, then right-click and select `Unhide`.
 - [ ] Select column C, then right-click and select `Unhide`.
 - [ ] On the Page Layout tab, in the `Rows` and `Columns` section, select `Unhide`.
-- [ ] Click and drag to select columns C and G, then right-click and select `Unhide`.
+- [x] Click and drag to select columns C and G, then right-click and select `Unhide`.
 
 #### Q85. Before publishing a document, you want to identify issues that may make it difficult for people with disabilities to read. Which feature should you use?
 
-- [ ] Check Accessibility
+- [x] Check Accessibility
 - [ ] Check Compatibility
 - [ ] Protect Document
 - [ ] Inspect Document
@@ -710,7 +710,7 @@
 - [ ] Select the image and, on the `Picture Tools Format` tab, use the `Compress Picture` feature.
 - [ ] Select the image and, on the `Design` tab, use the `Format Background` feature.
 - [ ] On the `Drawing Tools Format` tab, select `Graphics Fill` > `Remove Background`.
-- [ ] Select the image and, on the `Picture Tools Format` tab, click the Remove Background button.
+- [x] Select the image and, on the `Picture Tools Format` tab, click the Remove Background button.
 
 #### Q87. You want to group your slides based on their content to better organize your presentation. How would you accomplish this?
 
@@ -815,3 +815,19 @@
 - [x] color scales (within conditional formatting)
 - [ ] manual highlighting
 - [ ] data bars (within conditional formatting)
+
+#### Q100. To split text across cells without using Merge & Center, click **Formt Cells**. The, on **Alignment** tab, click**\_**.
+
+- [x] Text control > Merge cells
+- [ ] Horizontal > Center across selection
+- [ ] Vertical > Center across selection
+- [ ] Data tab > Text to columns
+
+#### Q101. In the worksheet below, what do the symbols in rows 4, 6, 7, and 11 indicate?
+
+![image](images/Q101.png)
+
+- [ ] The dates are erroneous, such as October 39, 2015.
+- [ ] The columns aren't wide enough to show the full date.
+- [ ] The time are incorrectly formatted as dates.
+- [ ] The text is incorrectly formatted as dates.

@@ -186,3 +186,85 @@
 - [ ] Data Loss Prevention (DLP)
 - [ ] Intrusion Detection and Prevention System (IDPS)
 - [ ] cloud access security broker (CASB)
+
+#### Q26. What act grants an authenticated party permission to perform an action or access a resource?
+
+- [ ] Zero Trust Security
+- [ ] Role-Based Access Control (RBAC)
+- [x] authorization
+- [ ] Single Sign-On
+
+[Ref](https://www.okta.com/identity-101/authentication-vs-authorization/)
+
+#### Q27. According to GDPR, a data _____ is the person about whom data is being collected.
+
+- [ ] processor
+- [ ] object
+- [x] subject
+- [ ] controller
+
+[Ref](https://gdpr-info.eu/art-4-gdpr/)
+
+#### Q28. Which type of application can intercept sensitive information such as passwords on a network segment?
+
+- [ ] protocol analyzer
+- [ ] firewal
+- [ ] log server
+- [ ] network scanner
+
+#### Q29. What provides a common language for describing security incidents in a structured and repeatable manner?
+
+- [ ] common weakness enumeration
+- [ ] common event format
+- [ ] common vulnerability scoring system
+- [ ] common vulnerabilities and exposures
+
+#### Q30. Two competing online retailers process credit card transactions for customers in countries on every continent. One organization is based in the United States. The other is based in the Netherlands. With which regulation must both countries comply while ensuring the security of these transactions?
+
+- [ ] Payment Card Industry Data Security Standard (PCI-DSS)
+- [ ] International Organization for Standardization and International Electrotechnical Commission (ISO/IEC 27018)
+- [ ] General Data Protection Regulation (GDPR)
+- [ ] Federal Information Security Management Act (FISMA)
+
+#### Q31. An attacker has discovered that they can deduce a sensitive piece of confidential information by analyzing multiple pieces of less sensitive public data. What type of security issue exists?
+
+- [ ] cross-origin resource sharing
+- [ ] inference
+- [ ] SQL injection
+- [ ] aggregation
+
+#### Q32. Which is not a principle of zero trust security?
+
+- [ ] use least privilege access
+- [ ] verify explicitly
+- [ ] trust but verify
+- [ ] assume breach
+
+#### Q33. Which attack exploits input validation vulnerabilities?
+- [ ] ARP spoofing
+- [ ] pharming attacks
+- [x] cross-site scripting (XSS)
+- [ ] DNS poisoning
+
+[Ref](https://www.whitehatsec.com/glossary/content/input-validation)
+
+#### Q34. You are a security analyst, and you receive a text message alerting you of a possible attack. Which security control is the _least_ likely to produce this type of alert?
+- [ ] IDS
+- [ ] SIEM
+- [x] packet sniffer
+- [ ] IPS
+
+#### Q35. SQL injection inserts a code fragment that makes a database statement universally true, like ______.
+
+- [ ] `SELECT * FROM users WHERE username = " AND 1=1--'`
+- [ ] `SELECT * FROM users WHERE username = " AND 1!=1--'`
+- [x] `SELECT * FROM users WHERE username = " OR 1=1--'`
+- [ ] `SELECT * FROM users WHERE username = " OR 1!=1--'`
+
+#### Q36. Which type of security assessment requires access to source code?
+- [x] static analysis
+- [ ] black box testing
+- [ ] dynamic analysis
+- [ ] penetration testing
+
+[Ref](https://www.perforce.com/blog/sca/what-static-analysis)

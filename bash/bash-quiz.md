@@ -690,3 +690,77 @@ echo "${VAR//man/rolling}"
 - [ ] `echo "Shall we play a game\? yes\\no"`
 - [x] `echo "Shall we play a game? yes\\no"`
 - [ ] `echo "Shall we play a game? yes\no"`
+
+#### Q58. Given a directory with these seven files, what would remain after executing these commands?
+
+```bash
+archive.tar
+image1.gif
+image1.jpg
+image2.gif
+image2.jpg
+textfile1.txt
+textfile2.txt
+
+----------
+
+<code>shopt -s extglob
+rm !(*gif|*jpg)</code>
+```
+
+- [ ] a
+
+```bash
+archive.tar
+image1.gif
+image1.jpg
+image2.gif
+image2.jpg
+textfile1.txt
+textfile2.txt
+```
+
+- [ ] b
+
+```bash
+archive.tar
+textfile1.txt
+textfile2.txt
+```
+
+- [ ] c
+
+All of this files will be deleted
+
+- [x] d:
+
+```bash
+image1.gif
+image1.jpg
+image2.gif
+image2.jpg
+```
+
+#### Q59. The code below seems to work and outputs "8 is greater than 5". However, what unexpected result will tell you it is not functioning properly?
+
+```bash
+#!/bin/bash
+var="8"
+if [ $var > 5 ]; then
+    echo "$var is greater than 5"
+fi
+```
+
+- [ ] There will be no unexpected results. This script works as is and the output will be "8 is greater than 5".
+- [ ] The comparison will not be able to handle floating-point numbers, as Bash only handles integers. So this example will output an error message if the value of $var is changed to "8.8".
+- [ ] There will be a file in the current directory named 5.
+- [ ] The variable $var is not quoted, which will lead to word splitting. This script will fail with a "unary operator expected" message if you change the value of
+
+#### Q60. What is the result of this script?
+
+![question](images/Q60/question.png)
+
+- [ ] It removes the directory 'foo' and the files contained within it.
+- [ ] It removes all files except those in the current directory.
+- [x] It removes all files in the current directory.
+- [ ] It removes all files except those in the 'foo' directory.

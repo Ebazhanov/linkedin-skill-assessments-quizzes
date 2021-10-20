@@ -88,7 +88,7 @@ fun main() {
 
 - [ ] While the code runs, it does not produce correct results
 - [ ] The integer is always a class
-- [ ] The compiler runs an implicit .toClass() method on the integer
+- [ ] The compiler runs an implicit `.toClass()` method on the integer
 - [x] The integer is autoboxed to a Kotlin Int class
 
 #### Q9. You have started a long-running coroutine whose job you have assigned to a variable named **task**. If the need arose, how could you abort the coroutine?
@@ -107,10 +107,9 @@ val task = launch {
 #### Q10. You are attempting to assign an integer variable to a long variable, but Kotlin compiler flags it as an error. Why?
 
 - [ ] You must wrap all implicit conversion in a try/catch block
-- [ ] You can only assign Long to an Int, not the other way around
-- [x] There is no implicit conversion from Int to Long
-      ([reference](https://kotlinlang.org/docs/basic-types.html#explicit-conversions))
-- [ ] All integers in Kotlin are of type Long
+- [ ] You can only assign `Long` to an `Int`, not the other way around
+- [x] There is no implicit conversion from `Int` to `Long` ([reference](https://kotlinlang.org/docs/basic-types.html#explicit-conversions))
+- [ ] All integers in Kotlin are of type `Long`
 
 #### Q11. You have written a snippet of code to display the results of the roll of a six-sided die. When the die displays from 3 to 6 inclusive, you want to display a special message. Using a Kotlin range, what code should you add?
 
@@ -130,10 +129,10 @@ when (die) {
 
 #### Q12. The function **typeChecker** receiver a parameter **obj** of type **Any**. Based upon the type of **obj**, it prints different messages for Int, String, Double, and Float types; if not any of the mentioned types, it prints "unknown type". What operator allows you to determine the type of an object?
 
-- [ ] instanceof
-- [x] is ([reference](https://kotlinlang.org/docs/typecasts.html#is-and-is-operators))
-- [ ] typeof
-- [ ] as
+- [ ] `instanceof`
+- [x] `is` ([reference](https://kotlinlang.org/docs/typecasts.html#is-and-is-operators))
+- [ ] `typeof`
+- [ ] `as`
 
 #### Q13. This code does not print any output to the console. What is wrong?
 
@@ -144,9 +143,9 @@ firstName?.let {
 ```
 
 - [ ] A null pointer exception is thrown
-- [x] firstName is equal to null ([reference](https://kotlinlang.org/docs/scope-functions.html#with))
-- [ ] firstName is equal to an empty string
-- [ ] firstName is equal to Boolean false
+- [x] `firstName` is equal to `null` ([reference](https://kotlinlang.org/docs/scope-functions.html#with))
+- [ ] `firstName` is equal to an empty string
+- [ ] `firstName` is equal to Boolean `false`
 
 #### Q14. You have a function simple() that is called frequently in your code. You place the inline prefix on the function. What effect does it have on the code?
 
@@ -226,10 +225,10 @@ val list2 = (80..100).toList().filter(_____)
 
 #### Q21. Your code need to try casting an object. If the cast is not possible, you do not want an exception generated, instead you want null to be assigned. Which operator can safely cast a value?
 
-- [x] as? ([reference](https://kotlinlang.org/docs/typecasts.html#safe-nullable-cast-operator))
-- [ ] ??
-- [ ] is
-- [ ] as
+- [x] `as?` ([reference](https://kotlinlang.org/docs/typecasts.html#safe-nullable-cast-operator))
+- [ ] `??`
+- [ ] `is`
+- [ ] `as`
 
 #### Q22. Kotlin will not compile this code snippet. What is wrong?
 
@@ -281,10 +280,10 @@ fun main(){
 }
 ```
 
-- [x] StatusError is an object, not a class and cannot be instantiated ([reference](https://kotlinlang.org/docs/object-declarations.html))
-- [ ] Only one instance of the class Status can be instantiated at a time
-- [ ] Status.Error must be declared as an immutable type
-- [ ] Status.Error is pribate to class and cannot be declared externally
+- [x] `StatusError` is an object, not a class and cannot be instantiated ([reference](https://kotlinlang.org/docs/object-declarations.html))
+- [ ] Only one instance of the class `Status` can be instantiated at a time
+- [ ] `Status.Error` must be declared as an immutable type
+- [ ] `Status.Error` is pribate to class and cannot be declared externally
 
 #### Q26. The code below is expected to display the numbers from 1 to 10, but it does not. Why?
 
@@ -295,9 +294,9 @@ val seq = sequence { yieldAll(1..20) }
 ```
 
 - [ ] You cannot assign a sequence to a variable
-- [x] To produce result, a sequence must have terminal operation. In this case, it needs a .toList() ([reference](https://kotlinlang.org/docs/sequences.html#sequence-operations))
-- [ ] The .filter{ it < 11 } should be .filter{ it > 11 }
-- [ ] The yieldAll(1..20) should be yieldAll(1..10)
+- [x] To produce result, a sequence must have terminal operation. In this case, it needs a `.toList()` ([reference](https://kotlinlang.org/docs/sequences.html#sequence-operations))
+- [ ] The `.filter{ it < 11 }` should be `.filter{ it > 11 }`
+- [ ] The `yieldAll(1..20)` should be `yieldAll(1..10)`
 
 #### Q27. What three methods does this class have?
 
@@ -326,7 +325,7 @@ abstract class Person(val name: String) {
 ```
 
 - [ ] The subclass must be marked sealed
-- [x] You must override the displayJob() method ([reference](https://kotlinlang.org/docs/inheritance.html))
+- [x] You must override the `displayJob()` method ([reference](https://kotlinlang.org/docs/inheritance.html))
 - [ ] You must mark the subclass as final
 - [ ] An abstract class cannot be extended, so you must change it to open
 
@@ -370,10 +369,10 @@ class UserService{
 
 #### Q34. Kotlin has two equality operators, == and ===. What is the difference?
 
-- [ ] == determines if two primitive types are identical. === determines if two objects are identical
-- [ ] == determines if two references point to the same object. === determines if two objects have the same value
-- [ ] == determines if two objects have the same value. === determines if two strings have the same value
-- [x] == determines if two objects have the same value. === determines if two references point to the same object ([reference](https://kotlinlang.org/docs/equality.html#structural-equality))
+- [ ] `==` determines if two primitive types are identical. `===` determines if two objects are identical
+- [ ] `==` determines if two references point to the same object. `===` determines if two objects have the same value
+- [ ] `==` determines if two objects have the same value. `===` determines if two strings have the same value
+- [x] `==` determines if two objects have the same value. `===` determines if two references point to the same object ([reference](https://kotlinlang.org/docs/equality.html#structural-equality))
 
 #### Q35. Which snippet correctly shows setting the variable max to whichever variable holds the greatest value, a or b, using idiomatic Kotlin?
 
@@ -404,9 +403,9 @@ class Detail {
 }
 ```
 
-- [ ] const is compatible with Java, but @JvmField is not
+- [ ] `const` is compatible with Java, but `@JvmField` is not
 - [x] The compiler will inline const so it is faster and more memory efficient ([reference](https://kotlinlang.org/docs/java-to-kotlin-interop.html#static-fields))
-- [ ] Virtually any type can be used with const but not @JvmField
+- [ ] Virtually any type can be used with const but not `@JvmField`
 - [ ] const can also be used with mutable types
 
 #### Q38. You have a when expression for all of the subclasses of the class Attribute. To satisfy the when, you must include an else clause. Unfortunately, whenever a new subclass is added, it returns unknown. You would prefer to remove the else clause so the compiler generates an error for unknown subtypes. What is one simple thing you can do to achieve this?
@@ -454,7 +453,7 @@ fun main(){
 
 - [ ] infix function must be marked public
 - [ ] In Kotlin, add is a keyword
-- [ ] Extension functions use it, not this, as the default parameter name
+- [ ] Extension functions use `it`, not `this`, as the default parameter name
 - [x] infix functions cannot have default values ([reference](https://kotlinlang.org/docs/functions.html#infix-notation))
 
 #### Q41. What is the correct way to initialize a nullable variable?
@@ -501,10 +500,10 @@ class Record{
 }
 ```
 
-- [ ] Since COLOR and SIZE are both immutable, they are identical internally
-- [ ] Both are immutable, but the use of the keyword const makes COLOR slower and less space efficient than SIZE
-- [ ] const makes COLOR faster, but not compatible with Java. Without const, SIZE is still compatible with Java
-- [x] Both are immutable, but the use of the keyword const makes COLOR faster and more space efficient than SIZE ([reference](https://kotlinlang.org/docs/properties.html#compile-time-constants))
+- [ ] Since `COLOR` and `SIZE` are both immutable, they are identical internally
+- [ ] Both are immutable, but the use of the keyword const makes `COLOR` slower and less space efficient than `SIZE`
+- [ ] const makes `COLOR` faster, but not compatible with Java. Without const, `SIZE` is still compatible with Java
+- [x] Both are immutable, but the use of the keyword const makes `COLOR` faster and more space efficient than `SIZE` ([reference](https://kotlinlang.org/docs/properties.html#compile-time-constants))
 
 #### Q45. Why does not this code snippet compile?
 
@@ -522,7 +521,7 @@ fun main() {
 - [x] Because name is a class parameter, not a property-it is unresolved `main()`.
 - [ ] In order to create an instance of a class, you need the keyword `new`
 - [ ] The reference to name needs to be scoped to the class, so it should be `this.name`
-- [ ] Classes cannot be immutable. You need to change var to val
+- [ ] Classes cannot be immutable. You need to change `var` to `val`
 
 #### Q46. The code below shows a typical way to show both index and value in many languages, including Kotlin. Which line of code shows a way to get both index and value more idiomatically?
 
@@ -541,10 +540,10 @@ for (value in 1..5){
 
 #### Q47. The Kotlin .. operator can be written as which function?
 
-- [ ] a.from(b)
-- [ ] a.range(b)
-- [x] a.rangeTo(b) ([reference](https://kotlinlang.org/docs/ranges.html))
-- [ ] a.to(b)
+- [ ] `a.from(b)`
+- [ ] `a.range(b)`
+- [x] `a.rangeTo(b)` ([reference](https://kotlinlang.org/docs/ranges.html))
+- [ ] `a.to(b)`
 
 #### Q48. How can you retrieve the value of the property codeName without referring to it by name or destructuring?
 
@@ -572,10 +571,10 @@ fun fibonacci() = sequence {
 }
 ```
 
-- [ ] with()
-- [x] yield() ([reference](https://kotlinlang.org/docs/sequences.html#from-chunks))
-- [ ] skip()
-- [ ] return()
+- [ ] `with()`
+- [x] `yield()` ([reference](https://kotlinlang.org/docs/sequences.html#from-chunks))
+- [ ] `skip()`
+- [ ] `return()`
 
 #### Q50. In this code snippet, why does the compiler not allow the value of y to change?
 
@@ -583,10 +582,10 @@ fun fibonacci() = sequence {
 for(y in 1..100) y+=2
 ```
 
-- [ ] y must be declared with var to be mutable
-- [x] y is an implicitly immutable value
-- [ ] y can change only in a while loop
-- [ ] In order to change y, it must be declared outside of the loop
+- [ ] `y` must be declared with `var` to be mutable
+- [x] `y` is an implicitly immutable value
+- [ ] `y` can change only in a while loop
+- [ ] In order to change `y`, it must be declared outside of the loop
 
 #### Q51. You have created a data class, Point, that holds two properties, x and y, representing a point on a grid. You want to use the hash symbol for subtraction on the Point class, but the code as shown will not compile. How can you fix it?
 
@@ -617,9 +616,9 @@ println(result)
 ```
 
 - [ ] The sequence lacks a terminal operation.
-- [x] The sequence is infinite and lacks an intermediate operation to make it finite.
-- [ ] The expression should begin with generateSequence(0).
-- [ ] The it parameter should be replaced with this.
+- [x] The sequence is infinite and lacks an intermediate operation to make `it` finite.
+- [ ] The expression should begin with `generateSequence(0)`.
+- [ ] The `it` parameter should be replaced with `this`.
 
 #### Q53. An error is generated when you try to compile the following code. How should you change the call to printStudents to fix the error?
 
@@ -634,10 +633,10 @@ fun printStudents(vararg students: String) {
 }
 ```
 
-- [ ] printStudents(students.toList())
-- [ ] printStudents(students!!)
-- [x] printStudents(\*students)
-- [ ] printStudents(students[])
+- [ ] `printStudents(students.toList())`
+- [ ] `printStudents(students!!)`
+- [x] `printStudents(\*students)`
+- [ ] `printStudents(students[])`
 
 #### Q54. Both y and z are immutable references pointing to fixed-size collections of the same four integers. Are there any differences?
 
@@ -646,10 +645,10 @@ val y = arrayOf(10, 20, 30, 40)
 val z = listOf(10, 20, 30, 40)
 ```
 
-- [x] You can modify the contents of the elements in y but not z.
-- [ ] There are not any differences. y and z are a type alias of the same type.
-- [ ] You add more elements to z since it is a list.
-- [ ] You can modify the contents of the elements in z but not y.
+- [x] You can modify the contents of the elements in `y` but not `z`.
+- [ ] There are not any differences. `y` and `z` are a type alias of the same type.
+- [ ] You add more elements to `z` since it is a list.
+- [ ] You can modify the contents of the elements in `z` but not `y`.
 
 #### Q55. The code snippet compile and runs without issue, but does not wait for the coroutine to show the "there" message. Which line of code will cause the code to wait for the coroutine to finish before exiting?
 
@@ -663,10 +662,10 @@ fun main() = runBlocking {
 }
 ```
 
-- [ ] task.complete()
-- [ ] task.wait()
-- [x] task.join()
-- [ ] task.cancel()
+- [ ] `task.complete()`
+- [ ] `task.wait()`
+- [x] `task.join()`
+- [ ] `task.cancel()`
 
 #### Q56. You would like to group a list of students by last name and get the total number of groups. Which line of code accomplishes this, assuming you have a list of the Student data class?
 
@@ -674,10 +673,10 @@ fun main() = runBlocking {
 data class Student(val firstName: String, val lastName: String)
 ```
 
-- [x] println(students.groupBy{ it.lastName.first() }.count())
-- [ ] println(students.groupBy{ it.lastName.first() }.fold().count())
-- [ ] println(students.groupingBy{ it.lastName.first() }.count())
-- [ ] println(students.groupingBy{ it.lastName.first() }.size())
+- [x] `println(students.groupBy{ it.lastName.first() }.count())`
+- [ ] `println(students.groupBy{ it.lastName.first() }.fold().count())`
+- [ ] `println(students.groupingBy{ it.lastName.first() }.count())`
+- [ ] `println(students.groupingBy{ it.lastName.first() }.size())`
 
 #### Q57. Class BB inherits from class AA. BB uses a different method to calculate the price. As shown, the code does not compile. What changes is needed to resolve the compilation error?
 
@@ -692,10 +691,10 @@ class BB() : AA() {
 }
 ```
 
-- [ ] You need to add a lateinit modifier to AA.price.
-- [ ] You simply need to add an override modifier to BB.price.
-- [x] You need to add an open modifier to AA.price and an override modifier to BB.price.
-- [ ] You need to add a public modifier to AA.price and a protected modifier to BB.price.
+- [ ] You need to add a lateinit modifier to `AA.price`.
+- [ ] You simply need to add an override modifier to `BB.price`.
+- [x] You need to add an open modifier to `AA.price` and an override modifier to `BB.price`.
+- [ ] You need to add a public modifier to `AA.price` and a protected modifier to `BB.price`.
 
 #### Q58. What is the output of this code?
 
@@ -706,75 +705,75 @@ println("The length of the quote is $quote.length")
 
 - [ ] The length of the quote is The eagle has landed.
 - [ ] A compilation error is displayed.
-- [ ] The length of the quote is 21
-- [x] The length of the quote is The eagle has landed..length
+- [ ] The length of the quote is `21`
+- [x] The length of the quote is `The eagle has landed..length`
 
 #### Q59. You have an unordered list of high scores. Which is the simple method to sort the highScores in descending order?
 
 ```kotlin
 fun main() {
     val highScores = listOf(4000, 2000, 10200, 12000, 9030)
-
 ```
 
-- [ ] .sortedByDescending()
-- [ ] .descending()
-- [x] .sortedDescending()
-- [ ] .sort("DESC")
+- [ ] `.sortedByDescending()`
+- [ ] `.descending()`
+- [x] `.sortedDescending()`
+- [ ] `.sort("DESC")`
 
 #### Q60. Your class has a property name that gets assigned later. You do not want it to be a nullable type. Using a delegate, how should you declare it?
 
-- [x] lateinit var name: String
-- [ ] var name: String by lazy
-- [ ] var name: String by Delegates.notNull()
-- [ ] var name: String? = null
+- [x] `lateinit var name: String`
+- [ ] `var name: String by lazy`
+- [ ] `var name: String by Delegates.notNull()`
+- [ ] `var name: String? = null`
 
 #### Q61. You want to know each time a class property is updated. If the new value is not within range, you want to stop the update. Which code snippet shows a built-in delegated property that can accomplish this?
 
-- [x] Delegates.vetoable()
-- [ ] Delegates.cancellable()
-- [ ] Delegates.observer()
-- [ ] Delegates.watcher()
+- [x] `Delegates.vetoable()`
+- [ ] `Delegates.cancellable()`
+- [ ] `Delegates.observer()`
+- [ ] `Delegates.watcher()`
 
 #### Q62. Which line of code shows how to call a Fibonacci function, bypass the first three elements, grab the next six, and sort the elements in descending order?
 
-- [ ] val sorted = fibonacci().skip(3).take(6).sortedDescending().toList()
-- [ ] val sorted = fibonacci().skip(3).take(6).sortedByDescending().toList()
-- [ ] val sorted = fibonacci().skip(3).limit(6).sortedByDescending().toList()
-- [x] val sorted = fibonacci().drop(3).take(6).sortedDescending().toList() ([reference](https://kotlinlang.org/docs/collection-parts.html#take-and-drop))
+- [ ] `val sorted = fibonacci().skip(3).take(6).sortedDescending().toList()`
+- [ ] `val sorted = fibonacci().skip(3).take(6).sortedByDescending().toList()`
+- [ ] `val sorted = fibonacci().skip(3).limit(6).sortedByDescending().toList()`
+- [x] `val sorted = fibonacci().drop(3).take(6).sortedDescending().toList()` ([reference](https://kotlinlang.org/docs/collection-parts.html#take-and-drop))
 
 #### Q63. You have two arrays, a and b. Which line combines a and b as a list containing the contents of both?
 
-```val a = arrayOf(1, 2, 3)
+```kotlin
+val a = arrayOf(1, 2, 3)
 val b = arrayOf(100, 200, 3000)
 ```
 
-- [ ] val c = list of (a, b)
-- [ ] val c = a + b
-- [ ] val c = listOf(a+b)
-- [ ] val c = listOf(*a, *b)
+- [ ] `val c = list of (a, b)`
+- [x] `val c = a + b` ([reference](https://www.techiedelight.com/join-two-lists-kotlin/))
+- [ ] `val c = listOf(a+b)`
+- [ ] `val c = listOf(*a, *b)`
 
 #### Q64. This code is occasionally throwing a null pointer exception (NPE). How can you change the code so it never throws as NPE?
 
-```println("length of First Name = ${firstName!!.length}")
-
+```kotlin
+println("length of First Name = ${firstName!!.length}")
 ```
 
-- [ ] Replace !!. with ?..
-- [ ] Replace !!. with ?:.
+- [x] Replace `!!.` with `?..` ([reference](https://kotlinlang.org/docs/null-safety.html#nullable-types-and-non-null-types))
+- [ ] Replace `!!.` with `?:.`
 - [ ] Surround the line with a try/catch block.
-- [ ] Replace !!. with ?.let.
+- [ ] Replace `!!.` with `?.let`.
 
 #### Q65. What is the execution order of init blocks and properties during initialization?
 
 - [ ] All of the properties are executed in order of appearance, and then the init blocks are executed.
-- [ ] The init blocks and properties are executed in the same order they appear in the code.
+- [x] The init blocks and properties are executed in the same order they appear in the code. ([reference](https://kotlinlang.org/docs/classes.html#constructors))
 - [ ] All of the init blocks are executed in order of appearance, and then the properties are executed.
 - [ ] The order of execution is not guaranteed, so code should be written accordingly.
 
 #### Q66. Both const and @JvmField create constants. What can @JvmField do that const cannot?
 
-```
+```kotlin
 class Styles {
   companion object {
     const val COLOR = "Blue"
@@ -783,21 +782,21 @@ class Styles {
 }
 ```
 
-- [X]const works only with strings and primitives. @JvmField does not have that restriction. ([reference](https://github.com/ythy/blog/issues/328))
-- [ ]@JvmField works as a top-level variable, but const works only in a class.
-- [ ]@JvmField is compatible with Java, but const is not.
-- [ ]@JvmField is always inlined for faster code.
+- [x] `const` works only with strings and primitives. `@JvmField` does not have that restriction. ([reference](https://github.com/ythy/blog/issues/328))
+- [ ] `@JvmField` works as a top-level variable, but `const` works only in a class.
+- [ ] `@JvmField` is compatible with Java, but `const` is not.
+- [ ] `@JvmField` is always inlined for faster code.
 
 #### Q67. What are the two ways to make a coroutine's computation code cancellable? ([reference](https://kotlinlang.org/docs/cancellation-and-timeouts.html#timeout))
 
-- [X]Call the yield() function or check the isActive property.
-- [ ]Call the cancelled() function or check the isActive property.
-- [ ]Call the stillActive() function or check the isCancelled property.
-- [ ]Call the checkCancelled() function or check the isCancelled property.
+- [x] Call the `yield()` function or check the `isActive` property.
+- [ ] Call the `cancelled()` function or check the `isActive` property.
+- [ ] Call the `stillActive()` function or check the `isCancelled` property.
+- [ ] Call the `checkCancelled()` function or check the `isCancelled` property.
 
 #### Q68. Given the code below, how can you write the line this.moveTo("LA") more concisely?
 
-```
+```kotlin
 data class Student (val name: String, var location: String) {
   fun moveTo (newLoc: String) { location = newLoc }
 
@@ -812,14 +811,14 @@ fun main() {
 }
 ```
 
-- [ ] moveTo( "LA")
-- [x] ::moveTo("LA") ([reference](https://kotlinlang.org/docs/reflection.html#interoperability-with-java-reflection))
-- [ ] moveTo("LA")
-- [ ] it.moveTo("LA")
+- [ ] `moveTo( "LA")`
+- [x] `::moveTo("LA")` ([reference](https://kotlinlang.org/docs/reflection.html#interoperability-with-java-reflection))
+- [ ] `moveTo("LA")`
+- [ ] `it.moveTo("LA")`
 
 #### Q69. For the Product class you are designing, you would like the price to be readable by anyone, but changeable only from within the class. Which property declaration implements your design?
 
-- [ ]
+- [ ] Option 1
 
 ```
 var price: Int = 0
@@ -827,22 +826,64 @@ var price: Int = 0
   private set
 ```
 
-- [x] ([reference](https://kotlinlang.org/docs/properties.html#getters-and-setters))
+- [x] Option 2 ([reference](https://kotlinlang.org/docs/properties.html#getters-and-setters))
 
 ```
 var price: Int = 0
   private set
 ```
 
-- [ ]
+- [ ] Option 3
 
 ```
 var price: Int = 0
   val set
 ```
 
-- [ ]
+- [ ] Option 4
 
 ```
 val price: Int=0
 ```
+
+#### Q70. What will happen when you try to build and run this code snippet?
+
+```kotlin
+class SpecialFunction : () -> Unit {
+  override fun invoke() {
+    println("Invoked from an instance.")
+  }
+}
+fun main() {
+  try { SpecialFunction()() }
+  catch (ex: Exception) { println("An error occurred") }
+}
+```
+
+- [ ] A syntax error occurs due to the line `SpecialFunction()()`.
+- [ ] The message "An Error occurred" is displayed.
+- [ ] The message "Invoked from an instance." is displayed.
+- [ ] A compile error occurs. You cannot override the `invoke()` method.
+
+#### Q71. Which statement declares a variable mileage whose value never changes and is inferred to be
+
+an integer?
+
+- [ ] `val mileage:Int = 566`
+- [ ] `var mileage:Int = 566`
+- [ ] `val mileage = 566`
+- [ ] `const int mileage = 566`
+
+#### Q72. You have two arrays, a and b. Which line combines a and b as a list containing the contents of
+
+both?
+
+```kotlin
+val a : array0f(1, 2, 3)
+val b : array0f(166,266,366)
+```
+
+- [ ] `val c = a + b`
+- [ ] `val c = list0f(a, b)`
+- [ ] `val c = list0f(*a, *b)`
+- [ ] `val c = list0f(a+b)`

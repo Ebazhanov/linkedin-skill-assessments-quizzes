@@ -324,3 +324,10 @@
 - [ ] 5
 - [ ] 3
 - [ ] 1
+
+#### Q44. You are working on a project schedule. You need two tasks to end at the same time so that your review team can do their work on both tasks. Which link type is appropriate?
+
+- [ ] Start-to-Start (SS)
+- [ ] Finish-to-Start (FS)
+- [ ] Start-to-Finish (SF)
+- [x] Finish-to-Finish (FF)

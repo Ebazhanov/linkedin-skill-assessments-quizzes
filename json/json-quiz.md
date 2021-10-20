@@ -854,3 +854,31 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] true, false
 - [ ] TRUE, FALSE, NULL
 - [ ] true, false, null
+
+### Q81. Which character _cannot_ be part of string data within JSON without additional formatting?
+
+- [ ] /
+- [x] "
+- [ ] :
+- [ ] \-
+
+### Q82. If an object key contains spaces, how can you access its value in JavaScript?
+
+- [ ] Remove spaces from the key before accessing the value.
+- [ ] Use dot notation to access the value.
+- [ ] Use object key index to access the value.
+- [x] Use bracket notation to access the value.
+
+### Q83. When parsing JSON, "caching" is a method used to \_.
+
+- [ ] remove duplicate data from a server
+- [x] temporarily store data for faster access
+- [ ] store excess information in chunks to be reviewed later
+- [ ] clog up a web browser with useless information
+
+### Q84. What is the only valid whitespace character within a string that does not require an escape character?
+
+- [ ] line break
+- [x] space
+- [ ] tab
+- [ ] return

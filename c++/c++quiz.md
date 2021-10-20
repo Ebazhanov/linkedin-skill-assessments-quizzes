@@ -1130,26 +1130,30 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
 
 - [x]
 
-```public:
-       Sprite();
+```cpp
+public:
+    Sprite();
 ```
 
 - [ ]
 
-```private:
-       void Sprite();
+```cpp
+private:
+    void Sprite();
 ```
 
 - [ ]
 
-```public:
-      void Sprite();
+```cpp
+public:
+    void Sprite();
 ```
 
 - [ ]
 
-```private:
-       Sprite();
+```cpp
+private:
+    Sprite();
 ```
 
 #### Q67. What is the purpose of this line in a header file?
@@ -1173,3 +1177,14 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
 - [ ] a string with more than 255 characters
 
 [Reference](https://www.educba.com/c-plus-plus-double/)
+
+#### Q69. Consider this function declaration of is_even, which takes in an integer and returns true if the argument is an even number and false otherwise. Which declarations are correct for overloaded versions of that function to support floating point numbers and string representations of numbers?
+
+```cpp
+bool is_even(int);
+```
+
+- [x] bool is_even(float f); bool is_even(char \*str);
+- [ ] bool is_even(float f); bool is_even(char str);
+- [ ] bool is_even_float(float f); bool is_even_str(char \*str);
+- [ ] float is_even(float f); char *is_even(char *str);

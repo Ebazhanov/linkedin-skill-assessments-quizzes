@@ -524,7 +524,7 @@ export class ToolsComponent {
 
 #### Q33. When a service is provided for root and is also added to the provider's configuration for a lazy-loaded module, what instance of that service does the injector provide to constructors in the lazy-loaded module?
 
-- [ ] A new instance of that service is created when the module is lazy loaded.
+- [x] A new instance of that service is created when the module is lazy loaded.
 - [ ] Providing a service of the same type at a lazy-loaded module level is not allowed.
 - [ ] If an instance of the service has not been created at the root level yet. it will create one there and then use it.
 - [ ] A single instance of that service is always instantiated at root and is the only one ever used, including within lazy modules.
@@ -645,7 +645,7 @@ export class BioComponent { }
 <app-card><app-bio>Been around for four years.</app-bio></app-card>
 ```
 
-- [ ]
+- [x]
 
 ```javascript
  <app-card>
@@ -750,7 +750,7 @@ constructor(@Inject('Logger') private logger) { }
 providers: [Logger];
 ```
 
-- [ ]
+- [x]
 
 ```javascript
 providers: [{ provide: 'Logger', useClass: Logger }];
@@ -798,7 +798,7 @@ Reference [learnrxjs.io](https://www.learnrxjs.io/learn-rxjs/operators/error_han
 #### Q43. When a service requires some setup to initialize its default state through a method, how can you make sure that said method is invoked before the service gets injected anywhere?
 
 - [ ] Put the logic of that service method into the service constructor instead.
-- [ ] Use a factory provider at the root AppModule level that depends on the service to call that service method.
+- [x] Use a factory provider at the root AppModule level that depends on the service to call that service method.
 - [ ] it is not possible to do it at application start; you can do it only at a component level.
 - [ ] Instantiate an instance of the service at the global level (window scope) and then call that method.
 
@@ -814,7 +814,7 @@ const userService = TestBed.get(UserService);
 
 - [ ] The TestBed is required anytime you want to make use of a spy object in a unit test for an Angular provider.
 - [ ] The TestBed is being used to test a component's view.
-- [ ] The TestBed scaffolds an NgModule with two providers and handles any dependeny injection. If any Angular class requests the DataService in its constructor, the TestBed will inject spy in that constructor.
+- [x] The TestBed scaffolds an NgModule with two providers and handles any dependeny injection. If any Angular class requests the DataService in its constructor, the TestBed will inject spy in that constructor.
 - [ ] The TestBed is configuring the test runner to tell it to only execute tests for the two providers listed in its providers array.
 - `All other tests be ignored, including tests that assert results against one of these providers and a non-defined provider.`
   `Although it will work when multiple providers in this configuration are asserted against in a single test.`
@@ -1020,3 +1020,49 @@ export class DataService { }
 - [ ] It sets up a compile time rule that allows you to put the service type only in the providers metadata property of the root NgModule.
 
 [Reference (Angular.io)](https://angular.io/guide/providers#providing-a-service)
+
+#### Q53. Describe the usage of this code
+
+```
+export interface AppSettings {
+	title: string;
+	version: number;
+}
+export const APP_SETTINGS = new Injection<AppSettings>('app.settings');
+```
+
+- [ ] The InjectionToken is adding an instance of the AppSettings to the root provider via the InjectionToken constructor call, making it automatically available to all NgModules, services and components throughout the Angular application without the need to inject it anywhere.
+- [ ] The InjectionToken is used to create a provider token for a non-class dependency. An Object literal can be provider as a value for the APP_SETTINGS dependency provider type that can then be injected into components, services, etc ..
+- [ ] The InjectionToken is used to create a dynamic decorator for the AppSettings that can be used on constructor parameters via an @AppSettings decorator.
+- [ ] This code has an error since you cannot use a TypeScript interface for the generic type on the InjectionToken
+
+#### Q54. For the following template-driven forms example, what argument can be passed to the submit method in the click event to submit the data for the form?
+
+```
+<form #form="ngForm">
+	<input type="text" ngModel="firstName">
+	<input type="text" ngModel="lastName">
+	<button (click)="submit()">Save</button>
+</form>
+```
+
+- [ ] submit(form.value)
+- [ ] submit($event)
+- [ ] submit(ngForm.value)
+- [ ] submit(FirstName, lastName)
+
+#### Q54. What is the purpose of the prelodingStrategy property configuration in this router code?
+
+```
+RouterModule.forRoot (
+	...
+	{
+	preloadingStrategy: PreloadAllModules
+	}
+)
+```
+
+- [ ] It enables the option to flag individual routes for preloading.
+- [ ] It preloads all dependencies for routes, creating instances of services when the app first starts up
+- [ ] It ensures all modules get built into a single app module bundle file.
+- [ ] It configures the router to immediately load all routes that have a loadChildren property(routes that are typcally loaded when requested)

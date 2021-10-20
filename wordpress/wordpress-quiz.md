@@ -442,7 +442,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 #### Q52. According to WordPress PHP coding standards for inline comments, how would you write a single-line comment in a PHP document?
 
 - [x] `// This is a single line comment`
-- [ ] /\* _ This is a single line comment._/
+- [ ] `/\* _ This is a single line comment._/`
 - [ ] `// This is a single line comment.`
 - [ ] `<!-- This is a single line comment -->`
 
@@ -496,14 +496,17 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 #### Q59 Review of the HTML on line1. The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting into the database. What is wrong with this PHP code?
 
-`<input type="text" id="title" name="title" />`
-
-`$title = $_POST[ 'title' ];`
+```
+<input type="text" id="title" name="title" />
+$title = $_POST[ 'title' ];
+```
 
 - [ ] The code sample does not use the GET method. It should be wrapped in the `get_post_field()` function and look like this `$title = get_post_field( $GET[ 'title' ] );`
-- [ ] The code sample doesnot use sanitize the form data. It should use the `sanitize_text_field()` function and look like this `$title = sanitize_text_field( $_POST[ 'title' ] );`
+- [x] The code sample does not use sanitize the form data. It should use the `sanitize_text_field()` function and look like this: `$title = sanitize_text_field( $_POST[ 'title' ] );`
 - [ ] There is no error. The code follows WordPress best practices.
 - [ ] The code sample does not allow for translation. It should use a translation function and look like this: `$title = __( $_POST[ 'title' ];`
+
+[Ref](https://hazimhassan.com/linkedin-wordpress-assessment-answers-2021/)
 
 #### Q60. Which software development principle, often used in WordPress, aims to reduce the repetition of code?
 
@@ -566,3 +569,58 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [x] You should never edit WordPress core.
 
 **Explanation**: It is not recommended to change WordPress core files other than wp-config.php. [Editing Files Offline](https://wordpress.org/support/article/editing-files/#editing-files-offline)
+
+#### Q68. Which Wordpress conditional would you use to determine if you were on a single page?
+
+- [ ] is_archive()
+- [ ] is_page()
+- [ ] is_page_template()
+- [x] is_single()
+
+[Ref](https://developer.wordpress.org/reference/functions/is_single/)
+
+#### Q69. Wordpress core and many plugins store data in the database in a special format as represented by the sample below. What format is this called?
+
+`a:2:{i:0;s:27:"ari-adminer/ari-adminer.php";i:1;s:30:"atomic-blocks/atomicblocks.php";}`
+
+- [ ] value
+- [x] serialized data
+- [ ] PHP array
+- [ ] text array
+
+[Ref](https://wpengine.com/support/wordpress-serialized-data/)
+
+#### Q70. What is this code sample an example of?
+
+```
+<?php
+if ( have_posts() ) : while ( have_posts() ) : the_post();
+        the_content();
+endwhile;
+else :
+        _e( 'Sorry, no posts matched your criteria.', 'textdomain' );
+endif;
+```
+
+- [ ] custom query
+- [ ] template tags
+- [ ] the Loop
+- [ ] nested loop
+
+#### Q71. Which of these are the minimum files required to make a child theme?
+
+- [ ] index.php functions.php
+- [ ] index.php style.css script.js
+- [ ] functions.php style.css script.js
+- [x] functions.php style.css
+
+[Ref](https://kinsta.com/blog/wordpress-child-theme/)
+
+#### Q72. You can harden your Wordpress site security by adding ______ to your wp-config.php file?
+
+- [ ] hashes and reCAPTCHA
+- [ ] database username and passwords
+- [ ] custom action hooks and filters
+- [x] unique keys and salts
+
+[Ref](https://www.malcare.com/blog/how-to-secure-your-wordpress-site-with-wp-config-php/)
