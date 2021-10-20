@@ -1260,7 +1260,9 @@ section {
 - [ ] `section * p`
 - [ ] `section + p`
 - [ ] `section ~ p`
-- [ ] `section > p`
+- [x] `section > p`
+
+Reference: [Child combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator)
 
 #### Q99. For this code, what is the font color of the hypertext link? 
 ```css
