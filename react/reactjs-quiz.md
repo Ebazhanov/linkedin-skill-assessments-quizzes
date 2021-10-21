@@ -880,7 +880,7 @@ const { name: firstName } = person;
 ```
 
 - [ ] It is creating a new object that contains the same name property as the person object.
-- [ ] It is assigning the value of the person object's firstName property to a constant called name.
+- [x] It is assigning the value of the person object's firstName property to a constant called name.
 - [ ] It is retrieving the value of person.name.firstName.
 - [ ] It is assigning the value of the person object's name property to a constant called firstName.
 
@@ -894,6 +894,6 @@ const MyComponent = ({ names }) => (
 ```
 
 - [ ] React components cannot be defined using functions.
-- [ ] React does not allow components to return mode than one element.
+- [x]  React does not allow components to return mode than one element.
 - [ ] The component needs to use the return keyword.
 - [ ] String literals must be surrounded by quotes.
