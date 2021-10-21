@@ -862,7 +862,7 @@ fun main() {
 
 - [ ] A syntax error occurs due to the line `SpecialFunction()()`.
 - [ ] The message "An Error occurred" is displayed.
-- [ ] The message "Invoked from an instance." is displayed.
+- [x] The message "Invoked from an instance." is displayed.
 - [ ] A compile error occurs. You cannot override the `invoke()` method.
 
 #### Q71. Which statement declares a variable mileage whose value never changes and is inferred to be an integer?
