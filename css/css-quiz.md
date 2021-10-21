@@ -1247,7 +1247,7 @@ section {
   :link
   :visited 
   ```
-- [ ]
+- [x]
   ```css
   :link
   :visited
@@ -1255,3 +1255,4 @@ section {
   :hover
   :active 
   ```
+[Reference](https://www.sitepoint.com/pseudo-classes-the-basics/)

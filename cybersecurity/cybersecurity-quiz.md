@@ -25,7 +25,7 @@
 
 - [ ] cloud access security broker (CASB)
 - [ ] intrusion prevention system (IPS)
-- [ ] intrusion detection system (IDS)
+- [x] intrusion detection system (IDS)
 - [ ] next generation firewall
 
 #### Q5. Packet sniffer is also called **\_**.
@@ -207,7 +207,7 @@
 
 #### Q28. Which type of application can intercept sensitive information such as passwords on a network segment?
 
-- [ ] protocol analyzer
+- [x] protocol analyzer
 - [ ] firewal
 - [ ] log server
 - [ ] network scanner
@@ -217,11 +217,11 @@
 - [ ] common weakness enumeration
 - [ ] common event format
 - [ ] common vulnerability scoring system
-- [ ] common vulnerabilities and exposures
+- [x] common vulnerabilities and exposures
 
 #### Q30. Two competing online retailers process credit card transactions for customers in countries on every continent. One organization is based in the United States. The other is based in the Netherlands. With which regulation must both countries comply while ensuring the security of these transactions?
 
-- [ ] Payment Card Industry Data Security Standard (PCI-DSS)
+- [x] Payment Card Industry Data Security Standard (PCI-DSS)
 - [ ] International Organization for Standardization and International Electrotechnical Commission (ISO/IEC 27018)
 - [ ] General Data Protection Regulation (GDPR)
 - [ ] Federal Information Security Management Act (FISMA)
@@ -229,7 +229,7 @@
 #### Q31. An attacker has discovered that they can deduce a sensitive piece of confidential information by analyzing multiple pieces of less sensitive public data. What type of security issue exists?
 
 - [ ] cross-origin resource sharing
-- [ ] inference
+- [x] inference
 - [ ] SQL injection
 - [ ] aggregation
 

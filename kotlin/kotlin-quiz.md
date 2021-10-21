@@ -883,3 +883,21 @@ val b : array0f(166,266,366)
 - [ ] `val c = list0f(a, b)`
 - [x] `val c = list0f(*a, *b)`
 - [ ] `val c = list0f(a+b)`
+
+#### Q73. What is the preferred way to create an immutable variable of type long?
+
+- [ ] `var longInt = 10L`
+- [ ] `const long longInt = 10`
+- [x] `val longInt = 10L`
+- [ ] `val longInt:Long = 10`
+
+#### Q74. Which line converts the binaryStr, whish contain only 0s and 1s, to an integer representing its decimal value?
+
+```kotlin
+val binaryStr = "00001111"
+```
+
+- [ ] `val myInt = toInt(binaryStr)`
+- [ ] `val myInt = binaryStr.toInt("0b")`
+- [ ] `val myInt = binaryStr.toInt()`
+- [x] `val myInt = binaryStr.toInt(2)`
