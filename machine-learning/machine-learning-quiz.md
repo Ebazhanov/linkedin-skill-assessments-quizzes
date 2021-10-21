@@ -632,12 +632,16 @@ Note: there are centres of clusters (C0, C1, C2).
 
 - [ ] unsupervised learning
 - [ ] semi-supervised learning
-- [ ] supervised learning
+- [x] supervised learning
 - [ ] semi-reinforcement learning
+
+[Reference](https://www.expert.ai/blog/machine-learning-definition/)
 
 #### Q84. In the 1983 movie WarGames, the computer learns how to master the game of chess by playing against itself. What machine learning method was the computer using?
 
 - [ ] binary learning
 - [ ] supervised learning
 - [ ] unsupervised learning
-- [ ] reinforcement learning
+- [x] reinforcement learning
+
+[Reference](https://venturebeat.com/2016/03/16/heres-what-alphagos-historic-win-means-for-the-enterprise/)
