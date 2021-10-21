@@ -31,9 +31,15 @@ div a
 #### Q4. What element(s) do the following selectors match to?
 
 ```css
-1) .nav {...}
-2) nav {...}
-3) #nav {...}
+1) .nav {
+  ...;
+}
+2) nav {
+  ...;
+}
+3) #nav {
+  ...;
+}
 ```
 
 - [ ]
@@ -43,9 +49,11 @@ div a
   3. An element with a class of "nav"
   ```
 - [ ] 
-  ```markdown 
-  They all target the same nav element.
+
+- ```markdown
+      They all target the same nav element.
   ```
+  
 - [x]
   ```markdown
   1. An element with an class of "nav"

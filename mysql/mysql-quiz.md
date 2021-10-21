@@ -408,7 +408,7 @@
 - [ ] insert into
 - [x] show create table
 
-Note that the question is about *getting* the data and not about the *duplicating* operation itself. And actually there is no need to run `SHOW CREATE TABLE` at all. [To duplicate the table](https://popsql.com/learn-sql/mysql/how-to-duplicate-a-table-in-mysql) structure you can `CREATE TABLE new_table LIKE original_table;`.
+Note that the question is about _getting_ the data and not about the _duplicating_ operation itself. And actually there is no need to run `SHOW CREATE TABLE` at all. [To duplicate the table](https://popsql.com/learn-sql/mysql/how-to-duplicate-a-table-in-mysql) structure you can `CREATE TABLE new_table LIKE original_table;`.
 
 #### Q46. you need to make your mysql system secure against attackers. What are you _not_ supposed to do?
 

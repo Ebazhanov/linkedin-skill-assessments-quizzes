@@ -14,13 +14,13 @@
   - Reset administrator password.
   - Set network name.
   - Set network password.
-  
+
 - [ ] 
 
   - Set network name.
   - Set network password.
   - Assign DNS servers.
-  
+
 - [ ]
 
   - Change administrator account name.
