@@ -894,6 +894,6 @@ const MyComponent = ({ names }) => (
 ```
 
 - [ ] React components cannot be defined using functions.
-- [ ] React does not allow components to return mode than one element.
+- [x] React does not allow components to return more than one element.
 - [ ] The component needs to use the return keyword.
 - [ ] String literals must be surrounded by quotes.
