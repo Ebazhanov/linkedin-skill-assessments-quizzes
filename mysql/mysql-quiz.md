@@ -453,7 +453,7 @@ Note: perror prints a description for a system error code or for a storage engin
 #### Q51. How can you list all columns for a given table?
 
 - [ ] SHOW table COLUMNS;
-- [x] SHOW COLUMNS FROM table; 
+- [x] SHOW COLUMNS FROM table;
 - [ ] LIST table COLUMNS;
 - [ ] SELECT COLUMNS FROM table;
 
@@ -603,9 +603,9 @@ Explanation: THe difference between 2 and 3 is that LEFT JOIN will return 1 row 
 - [ ] `SELECT city FROM json_data;`
 - [x] `SELECT city->>'$.name' city FROM json_data;`
 - [ ] `SELECT city.name city FROM json_data;`
-- [ ] `SELECT city->'$.name' city FROM json_data;` 
+- [ ] `SELECT city->'$.name' city FROM json_data;`
 
-Note: the last option  is valid too but the results will be enclosed with quotation marks
+Note: the last option is valid too but the results will be enclosed with quotation marks
 
 #### Q67. If you want to use MyISAM instead of InnoDB, which option do you need to specify in the CREATE TABLE statement?
 
@@ -734,7 +734,6 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [x] `SELECT * FROM customers WHERE PhoneNumber IS NULL;`
 - [ ] `SELECT * FROM customers WHERE PhoneNumber IS UNKNOWN;`
 
-
 #### Q80. In the diagram below, the price field is declared as type DECIMAL. What would be a more efficient declaration for this field?
 
 ![mysql picture](images/mysql_q80.png)
@@ -769,7 +768,7 @@ Explnation: BIT is not a string type
 - [ ] `SET`
 - [ ] `DECLARE`
 
-Explanation: Both `SET` and `DECLARE` are used to create variables. Reference: [MySQL STORED PROCEDURE Tutorial With Examples](https://www.softwaretestinghelp.com/mysql-stored-procedure/) 
+Explanation: Both `SET` and `DECLARE` are used to create variables. Reference: [MySQL STORED PROCEDURE Tutorial With Examples](https://www.softwaretestinghelp.com/mysql-stored-procedure/)
 
 #### Q84. When a new student is added to a new database, you want new records to be created in the related tables such as Exam, Score and Attendance. How would you accomplish this?
 
@@ -827,7 +826,7 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] UNION ALL
 - [x] WITH ROLLUP
 
-#### Q91. The left and right joins are also known as _.
+#### Q91. The left and right joins are also known as \_.
 
 - [ ] Inner Join
 - [ ] Natural Join

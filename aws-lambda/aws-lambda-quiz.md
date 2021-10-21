@@ -294,7 +294,6 @@
 - [ ] `never`
 - [x] `anytime via configuration`
 
-
 #### Q43. What is the relationship between SAM template and CloudFormation template files?
 
 - [x] SAM templates are a superset of CloudFormation templates. SAM templates include additional resource types.

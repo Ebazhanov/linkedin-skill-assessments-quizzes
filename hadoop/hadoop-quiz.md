@@ -361,8 +361,8 @@
 - [ ] library manager
 - [ ] lookup store
 - [ ] registry
-    
- ### Q52. To view the execution details of an Impala query plan, which function would you use ?
+
+### Q52. To view the execution details of an Impala query plan, which function would you use ?
 
 - [x] explain
 - [ ] query action

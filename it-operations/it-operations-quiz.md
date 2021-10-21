@@ -14,6 +14,7 @@
   - Reset administrator password.
   - Set network name.
   - Set network password.
+  
 - [ ] 
 
   - Set network name.
@@ -248,7 +249,7 @@
 - [x] NIC
 - [ ] Router
 
-#### Q24. Networking wire is referred to as _________
+#### Q24. Networking wire is referred to as **\_**
 
 - [x] CAT-5 or CAT-6 Ethernet cable
 - [ ] thin pair or twisted pair
@@ -262,7 +263,7 @@
 - [ ] Restart the computer.
 - [ ] Let Jen take over.
 
-#### Q26. A ______ allows you to plug computers into a central location to communicate on the same local area network.
+#### Q26. A **\_** allows you to plug computers into a central location to communicate on the same local area network.
 
 - [x] server
 - [ ] layer 2 switch
@@ -297,7 +298,7 @@
 - [ ] The site requires a login and password.
 - [ ] You can't tell because a website's security settings are not readily apparent in a browser window.
 
-#### Q31. The client/server model best represents ______.
+#### Q31. The client/server model best represents **\_**.
 
 - [x] multiple hosts interacting with a single computer
 - [ ] an application consisting of cooperating programs across the Internet

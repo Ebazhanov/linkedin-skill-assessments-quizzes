@@ -1189,15 +1189,15 @@ bool is_even(int);
 - [ ] bool is_even_float(float f); bool is_even_str(char \*str);
 - [ ] float is_even(float f); char *is_even(char *str);
 
-
 #### Q70. what is class template ?
 
-- [X] It is a class written with the generic programming paradigm, specifying behavior in terms of type parameters rather than specific types.
+- [x] It is a class written with the generic programming paradigm, specifying behavior in terms of type parameters rather than specific types.
 - [ ] It is a class that consists only of member variables, with no constructor, destructor, or member functions.
 - [ ] It is a blank superclass intended for inheritance and polymorphism.
 - [ ] It is a skeleton source code for a class where the programmer has to fill in specific parts to define the data types and algorithms used.
 
 #### Q71. Other than shifting bits to the left, what is the << oprator used for ?
+
 - [ ] shifting characters to the left in a string.
 - [x] inserting characters into an output stream like std::cout.
 - [ ] comparing floating point numbers as less-than.
