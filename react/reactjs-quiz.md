@@ -882,7 +882,7 @@ const { name: firstName } = person;
 - [ ] It is creating a new object that contains the same name property as the person object.
 - [ ] It is assigning the value of the person object's firstName property to a constant called name.
 - [ ] It is retrieving the value of person.name.firstName.
-- [ ] It is assigning the value of the person object's name property to a constant called firstName.
+- [x] It is assigning the value of the person object's name property to a constant called firstName.
 
 #### Q77. What is wrong with this code?
 
