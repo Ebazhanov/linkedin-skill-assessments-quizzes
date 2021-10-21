@@ -5941,6 +5941,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "0-Eclipse-0",
+      "name": "Eclipse",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14303543?v=4",
+      "profile": "http://mitre.org",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
