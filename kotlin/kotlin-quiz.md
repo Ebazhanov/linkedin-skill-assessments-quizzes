@@ -867,7 +867,7 @@ fun main() {
 
 #### Q71. Which statement declares a variable mileage whose value never changes and is inferred to be an integer?
 
-- [ ] `val mileage:Int = 566`
+- [x] `val mileage:Int = 566`
 - [ ] `var mileage:Int = 566`
 - [ ] `val mileage = 566`
 - [ ] `const int mileage = 566`
@@ -881,7 +881,7 @@ val b : array0f(166,266,366)
 
 - [ ] `val c = a + b`
 - [ ] `val c = list0f(a, b)`
-- [ ] `val c = list0f(*a, *b)`
+- [x] `val c = list0f(*a, *b)`
 - [ ] `val c = list0f(a+b)`
 
 #### Q73. What is the preferred way to create an immutable variable of type long?
