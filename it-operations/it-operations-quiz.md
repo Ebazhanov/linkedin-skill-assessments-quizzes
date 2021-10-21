@@ -10,7 +10,7 @@
   - Set network password.
 
 - [ ]
-- 
+
   - Reset administrator password.
   - Set network name.
   - Set network password.
