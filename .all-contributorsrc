@@ -5911,6 +5911,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "gorshco",
+      "name": "AG",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35520491?v=4",
+      "profile": "https://github.com/gorshco",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
