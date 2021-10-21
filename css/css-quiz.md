@@ -31,21 +31,29 @@ div a
 #### Q4. What element(s) do the following selectors match to?
 
 ```css
-1) .nav {...}
-2) nav {...}
-3) #nav {...}
+1) .nav {
+  ...;
+}
+2) nav {
+  ...;
+}
+3) #nav {
+  ...;
+}
 ```
 
 - [ ]
-  ```markdown 
+  ```markdown
   1. An element with an ID of "nav"
   2. A nav element
   3. An element with a class of "nav"
   ```
 - [ ] 
-  ```markdown 
-  They all target the same nav element.
+
+- ```markdown
+      They all target the same nav element.
   ```
+  
 - [x]
   ```markdown
   1. An element with an class of "nav"
@@ -219,7 +227,7 @@ section + p {
 - [ ] Paragraph one will be blue, paragraph two will be red.
 - [ ] Both paragraphs will be blue.
 - [x] Paragraphs one will be red, paragraph two will be blue.
-- [ ] Both paragraphs will be red. 
+- [ ] Both paragraphs will be red.
 
 #### Q16.What are three valid ways of adding CSS to an HTML page?
 
@@ -370,7 +378,7 @@ p {
 - [ ] the top right corner of the element
 - [ ] the bottom left of the element
 
-#### Q29. Which of the following is not a valid color value? (*Alternative:* Which choice is not a valid color value?)
+#### Q29. Which of the following is not a valid color value? (_Alternative:_ Which choice is not a valid color value?)
 
 - [ ] `color: #000`
 - [ ] `color: rgb(0,0,0)`
@@ -1101,7 +1109,7 @@ D. border-top-radius: 10px;
   <hl>Heading 1</h1>
   <h2>Heading 2</h2>
 </header>
-<h2>Heading 2</h2> 
+<h2>Heading 2</h2>
 ```
 
 - [x] `header h1, header h2 {...}`
@@ -1224,7 +1232,7 @@ section {
 - [ ] `#header {...}`
 - [ ] `header > h1 {...}`
 
-#### Q97. What is the correct order for listing different link states in a website so those states display correctly on the page? 
+#### Q97. What is the correct order for listing different link states in a website so those states display correctly on the page?
 
 - [ ]
   ```css
@@ -1233,11 +1241,11 @@ section {
   ```
 - [ ]
   ```css
-  :link 
+  :link
   :visited
   :hover
   :active
-  :focus 
+  :focus
   ```
 - [ ]
   ```css
@@ -1245,16 +1253,18 @@ section {
   :focus
   :hover
   :link
-  :visited 
+  :visited
   ```
-- [ ]
+- [x]
   ```css
   :link
   :visited
   :focus
   :hover
-  :active 
+  :active
   ```
+  [Reference](https://www.sitepoint.com/pseudo-classes-the-basics/)
+  
 #### Q98. Which statement is not true?
 
 - [ ] Specificity determines which CSS rule is applied by the browsers.
@@ -1262,4 +1272,4 @@ section {
 - [ ] The last rule defined overrides all previous rules and even conflicting rules.
 - [ ] Rules with more specific selectors have greater specificity.
 
-[Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+  [Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)

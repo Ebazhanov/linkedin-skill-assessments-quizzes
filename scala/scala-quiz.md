@@ -431,7 +431,6 @@ myClass.foreach(println _)
 - [ ] AltProcess
 - [x] Future
 
-
 #### Q53. What value does this code return?
 
 ```scala

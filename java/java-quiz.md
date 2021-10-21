@@ -1387,6 +1387,7 @@ public class Main {
 - [x] 3
 
 #### Q98. Which class acts as root class for Java Exception hierarchy?
+
 - [ ] Clonable
 - [x] Throwable
 - [ ] Object

@@ -552,3 +552,63 @@ class TestConfig2 {
 - [ ] bean type
 - [ ] bean size
 - [x] bean name
+
+### Q59. What is the result of calling the map controller method using the following HTTP request?
+
+```
+POST localhost:8080/map
+{"b" : "b", "d" : "d"}
+```
+
+```java
+@RestController
+public class SampleController {
+    @RequestMapping("/map")
+    public String map(@RequestBody SampleObject sampleObject) {
+        return sampleObject.getB() + sampleObject.getC();
+    }
+}
+```
+
+```java
+public class SampleObject {
+
+    String b;
+    String c;
+
+    public String getB() { return b; }
+
+    public void setB() { this.b = b; }
+
+    public String getC() { return c; }
+
+    public void setC() { this.c = c; }
+}
+```
+
+- [ ] An InvalidRequestBodyException is thrown at runtime.
+- [ ] A MissingPropertyException is thrown at runtime.
+- [x] The text "bnull" is returned in the response body.
+- [ ] The text "a" is returned in th response body.
+
+#### Q60. What effect does private static have on the object service below?
+
+```java
+@SpringBootApplication
+public class Question14 {
+    @Autowired
+    private static Service service;
+
+    public static void main(String[] args) {
+        SpringApplication.run(Question14.class, args);
+    }
+}
+
+@Component
+class Service {}
+```
+
+- [ ] The application will result in a compile error because you can't autowire a private variable.
+- [ ] The application will compile and run, and service will have its dependency correctly injected by Spring.
+- [x] The application will compile and run, but service will not be autowired because you cannot autowire a static class member.
+- [ ] The application will result in a compile error because you attempted to autowire a static variable.

@@ -5911,6 +5911,66 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "gorshco",
+      "name": "AG",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35520491?v=4",
+      "profile": "https://github.com/gorshco",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "shotgunner",
+      "name": "Mojtaba Kamyabi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3706505?v=4",
+      "profile": "https://stackoverflow.com/users/1033510/mojtaba-kamyabi",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "ahr9n",
+      "name": "Ahmad Abdulrahman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52632898?v=4",
+      "profile": "https://www.linkedin.com/in/ahmad-abdulrahmaan/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "0-Eclipse-0",
+      "name": "Eclipse",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14303543?v=4",
+      "profile": "http://mitre.org",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "anshuUnity",
+      "name": "Anshu Pal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64951054?v=4",
+      "profile": "https://techitutorials.com/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "denisqaa",
+      "name": "Denis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83408074?v=4",
+      "profile": "https://github.com/denisqaa",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
