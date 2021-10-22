@@ -164,7 +164,7 @@
 - [x] next generation firewall (NGFW)
 - [ ] Cloud App Security Broker (CASB)
 
-#### Q23. Which is _not_ a threat modelling methodology?
+#### Q23. Which is _not_ a threat modeling methodology?
 
 - [ ] TRIKE
 - [x] TOGAF
@@ -237,8 +237,10 @@
 
 - [ ] use least privilege access
 - [ ] verify explicitly
-- [ ] trust but verify
+- [x] trust but verify
 - [ ] assume breach
+
+[Ref](https://www.microsoft.com/en-us/security/business/zero-trust)
 
 #### Q33. Which attack exploits input validation vulnerabilities?
 
@@ -271,3 +273,10 @@
 - [ ] penetration testing
 
 [Ref](https://www.perforce.com/blog/sca/what-static-analysis)
+
+#### Q37. In response to an alert regarding a possible security incident, you are analyzing the logs for a web application. In the process, you see the following string, `./../../../var/secrets` What type of attack was most likely attempted against the application?
+
+- [ ] session hijacking
+- [ ] brute force
+- [ ] cross-site scripting
+- [x] directory traversal
