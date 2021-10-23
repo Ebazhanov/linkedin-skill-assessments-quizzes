@@ -1,3 +1,5 @@
+# [Earn CryptoForSpeed CFS tokens](https://sweepwidget.com/view/37077-r7ed60bx/iixvhj-37077) 4 days left
+
 ## Linkedin Quiz Answers, Skill Assessments Test
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
