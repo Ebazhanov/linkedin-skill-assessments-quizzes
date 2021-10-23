@@ -1,4 +1,4 @@
-# [Earn CryptoForSpeed CFS tokens](https://sweepwidget.com/view/37077-r7ed60bx/iixvhj-37077) 4 days left
+# [Play to Earn CryptoForSpeed CFS tokens](https://sweepwidget.com/view/37077-r7ed60bx/iixvhj-37077) 4 days left
 
 ## Linkedin Quiz Answers, Skill Assessments Test
 
