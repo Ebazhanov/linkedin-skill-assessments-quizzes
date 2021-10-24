@@ -5,7 +5,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-611-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-612-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -895,6 +895,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/denisqaa"><img src="https://avatars.githubusercontent.com/u/83408074?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Denis</b></sub></a><br /><a href="#design-denisqaa" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=denisqaa" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/sayinmehmet47"><img src="https://avatars.githubusercontent.com/u/75525090?v=4?s=100" width="100px;" alt=""/><br /><sub><b>mehmet sayin</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sayinmehmet47" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/WebExp0528"><img src="https://avatars.githubusercontent.com/u/46267354?v=4?s=100" width="100px;" alt=""/><br /><sub><b>WebDEV</b></sub></a><br /><a href="#design-WebExp0528" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=WebExp0528" title="Code">💻</a></td>
   </tr>
 </table>
 
