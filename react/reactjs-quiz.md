@@ -452,7 +452,7 @@ class Huggable extends React.Component {
 - [ ] `<button onClick={(name) => this.hug(name)}>Hug Button</button>`
 - [ ] `<button onClick={this.hug(e, name)}>Hug Button</button>`
 - [ ] `<button onClick={(e) => hug(e, name)}>Hug Button</button>`
-- [x] `<button onClick={() => this.hug(name)}>Hug Button</button>`
+- [ ] `<button onClick={(e) => this.hug(name,e)}>Hug Button</button>`
 
 #### Q47. Currently, `handleClick` is being called instead of passed as a reference. How do you fix this?
 
@@ -880,7 +880,7 @@ const { name: firstName } = person;
 ```
 
 - [ ] It is creating a new object that contains the same name property as the person object.
-- [ ] It is assigning the value of the person object's firstName property to a constant called name.
+- [x] It is assigning the value of the person object's firstName property to a constant called name.
 - [ ] It is retrieving the value of person.name.firstName.
 - [x] It is assigning the value of the person object's name property to a constant called firstName.
 
