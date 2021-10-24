@@ -362,7 +362,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] none of these answers
 - [ ] your People list
 - [ ] your Outlook Favorites
-- [ ] the global address book
+- [x] the global address book
 
 #### Q50. What do you call an appointment or meeting that happens on a regular basis?
 
