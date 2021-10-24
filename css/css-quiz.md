@@ -1263,9 +1263,49 @@ section {
   :hover
   :active
   ```
+  
+#### Q98. Which selector is used to select the paragraph element that is a direct descendent of section?
+
+- [ ] `section * p`
+- [ ] `section + p`
+- [ ] `section ~ p`
+- [x] `section > p`
+
+Reference: [Child combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator)
+
+#### Q99. For this code, what is the font color of the hypertext link? 
+```css
+ul{
+--color : red;
+}
+p{
+color: var(--color);
+}
+a{
+color:var(--color,orange);
+}
+```
+
+```html
+<p>Paragraph</p>
+<ul>
+  <li>
+    <a href="#">list item a link </a>
+  </li>
+    <li>
+    list item
+  </li>
+</ul>
+```
+
+- [X] red
+- [ ] orange
+- [ ] blue
+- [ ] black
+
   [Reference](https://www.sitepoint.com/pseudo-classes-the-basics/)
   
-#### Q98. Which statement is not true?
+#### Q100. Which statement is not true?
 
 - [ ] Specificity determines which CSS rule is applied by the browsers.
 - [x] When two selectors apply to the same element, the one with lower specificity wins.

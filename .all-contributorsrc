@@ -5859,7 +5859,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/72005563?v=4",
       "profile": "https://github.com/seraph776",
       "contributions": [
-        "code"
+        "code",
+        "design"
       ]
     },
     {
@@ -5967,6 +5968,45 @@
       "name": "Denis",
       "avatar_url": "https://avatars.githubusercontent.com/u/83408074?v=4",
       "profile": "https://github.com/denisqaa",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "sayinmehmet47",
+      "name": "mehmet sayin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75525090?v=4",
+      "profile": "https://github.com/sayinmehmet47",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "WebExp0528",
+      "name": "WebDEV",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46267354?v=4",
+      "profile": "https://github.com/WebExp0528",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "SamKomesarook",
+      "name": "Sam Komesarook",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47465976?v=4",
+      "profile": "https://github.com/SamKomesarook",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Cimihan123",
+      "name": "Kiran Ghimire",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47425314?v=4",
+      "profile": "https://github.com/Cimihan123",
       "contributions": [
         "design",
         "code"
