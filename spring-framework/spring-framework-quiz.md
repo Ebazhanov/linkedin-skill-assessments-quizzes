@@ -2,7 +2,7 @@
 
 #### Q1. How filters are used in Spring Web?
 
-- [x] Filters are called before a request hits the DispatcherServlet.They allow for interception-style, chained processing of web requests for security, timeouts, and other purposes.
+- [x] Filters are called before a request hits the DispatcherServlet. They allow for interception-style, chained processing of web requests for security, timeouts, and other purposes.
 - [ ] Filters are used with a checksum algorithm that will filter invalid bytes out of a byte stream request body and allow for processing of HTTP requests from the DispatcherRequestServlet.
 - [ ] Filters are used with a checksum algorithm that will filter invalid bytes out of an octet stream a multipart upload and allow for chained processing of WebDispatcherServlet requests.
 - [ ] Filters are used to validate request parameters out of the byte stream request body and allow for processing of requests from the DispatcherRequestServlet.
@@ -72,12 +72,12 @@ Reference: [HandlerInterceptors vs. Filters in Spring MVC](https://www.baeldung.
 - [ ] 1. init-method 2. afterPropertiesSet() 3. @PostConstruct
 - [ ] You cannot use these methods together-you must choose only one.
 
-#### Q11. What is the function of the @Transactional annotation at the class level?
+#### Q11. What is the function of the `@Transactional` annotation at the class level?
 
-- [ ] It's a transaction attribute configured by spring.security.transactions.xml config file that uses Spring's transaction implementation and validation code.
-- [ ] It's a transaction must actively validate by the bytecode of a transaction using Spring's TransactionBytecodeValidator class. Default Transaction behavior rolls back on validation exception but commits on proper validation
+- [ ] It's a transaction attribute configured by `spring.security.transactions.xml` config file that uses Spring's transaction implementation and validation code.
+- [ ] It's a transaction that must actively validate by the bytecode of a transaction using Spring's `TransactionBytecodeValidator` class. Default Transaction behavior rolls back on validation exception but commits on proper validation
 - [x] It creates a proxy that implements the same interface(s) as the annotated class, allowing Spring to inject behaviors before, after, or around method calls into the object being proxied.
-- [ ] It's a transaction that must be actively validated by Spring's TransactionValidator class using Spring's transaction validation code. Default Transaction behavior rolls back on validation exception.
+- [ ] It's a transaction that must be actively validated by Spring's `TransactionValidator` class using Spring's transaction validation code. Default Transaction behavior rolls back on validation exception.
 
 #### Q12. Which is a valid example of the output from this code (ignoring logging statements) ?
 
@@ -266,6 +266,8 @@ public class SampleController {
 - [x] It's the servlet filter proxy delegating to a filter bean specified in web.xml. All calls to the filter proxy will be delegated to that servlet filter bean.
 - [ ] It's the web servlet daemon filter proxy that delegates to a bean specified in spring.security.factories. All calls to the filter proxy that do not contain a proper route will return an error.
 
+Reference: [Overview and Need for DelegatingFilterProxy in Spring](https://www.baeldung.com/spring-delegating-filter-proxy)
+
 #### Q31. What value does Spring Boot Actuator provide?
 
 - [x] It helps monitor and manage a Spring Boot application by providing endpoints such as health checks, auditing, metrics gathering, and HTTP tracing.
@@ -273,12 +275,16 @@ public class SampleController {
 - [ ] It's a CLI that allows you to modify the configuration of a running Spring Boot application without the need for restarting or downtime.
 - [ ] It provides out-of-the-box functionality that integrates wiltr?third-party metrics platforms to automatically scale up and down the number of instances of the Spring Boot application.
 
+Reference: [Spring Boot Actuator](https://www.baeldung.com/spring-boot-actuators)
+
 #### Q32. What is the purpose of the @ContextConfiguration annotation in a JUnit Test?
 
 - [ ] It introspects the local machine and automatically provisions resources based on certain contextual configuration files.
 - [ ] It automatically generates comments for annotated classes on autowired dependencies to provide additional context about dependencies.
 - [x] It defines metadata at the class-level to determine how to load or configure an ApplicationContext in Spring integration tests.
 - [ ] It automatically generates JavaDocs for annotated classes to provide additional context about the purpose of the class.
+
+Reference: [@ContextConfiguration Example in Spring Test](https://www.concretepage.com/spring-5/contextconfiguration-example-spring-test)
 
 #### Q33. How are authentication and authorization different?
 
@@ -322,7 +328,7 @@ public class SampleController {
 - [ ] an encoded message and response between various shards of a database
 - [ ] an exchange or interaction between various worker nodes in a multithreaded environment
 
-#### Q39. Modularization of a concern that cuts across multiple classes is known as a(n)\_.
+#### Q39. Modularization of a concern that cuts across multiple classes is known as a(n)`____`.
 
 - [ ] multiclass
 - [x] aspect
@@ -400,6 +406,8 @@ private String val;
 - [ ] root.logger.level
 - [x] logging.level.root
 
+Reference: [Logging in Spring Boot](https://www.baeldung.com/spring-boot-logging)
+
 #### Q46. What is a Spring bean uniquely identified?
 
 - [ ] an autogenerated UUID
@@ -449,7 +457,9 @@ class TestService {}
 - [ ] true package.TestService
 - [ ] false package.TestService
 
-#### Q50. To register a custom filter that applies only to certain URL patterns, you should remove the **\_** annotation from the filter class and register a @Bean of type **\_** in Spring @Configuration.
+Explanation: missing `@Autowired` on `private TestService service` or on the setter
+
+#### Q50. To register a custom filter that applies only to certain URL patterns, you should remove the **\_** annotation from the filter class and register a @Bean of type `_` in Spring @Configuration.
 
 - [ ] @RequestMapping; WebRequest
 - [ ] @Controller; URLFilter
@@ -462,37 +472,50 @@ class TestService {}
 2. A point during the execution of a program, such as the execution of a method or the handling of an exception.
 3. An action taken by an aspect at a particular join point.
 
-- [ ] 1: Pointcut <br />
-      &emsp; 2: Advice <br />
-      &emsp; 3: Join point <br />
-
-- [ ] 1: Join point <br />
-      &emsp; 2: Pointcut <br />
-      &emsp; 3: Advice <br />
-
-- [ ] 1: Advice <br />
-      &emsp; 2: Pointcut <br />
-      &emsp; 3: Join point <br />
-
-- [x] 1: Pointcut <br />
-      &emsp; 2: Join point <br />
-      &emsp; 3: Advice <br />
+- [ ]
+     ```
+     1. Pointcut
+     2. Advice
+     3. Join point
+     ```
+- [ ]
+     ```
+     1. Join point
+     2. Pointcut
+     3. Advice
+     ```
+- [ ]
+     ```
+     1. Advice
+     2. Pointcut
+     3. Join point
+     ```
+- [x]
+     ```
+     1. Pointcut
+     2. Join point
+     3. Advice
+     ```
 
 #### Q52. How should passwords be stored?
 
-- [ ] Passwords should be hashed using an adaptive one-way function such as bcrypt.
+- [x] Passwords should be hashed using an adaptive one-way function such as bcrypt.
 - [ ] Passwords can be stored in a BASE64 encoded format if they are stored in a private database.
 - [ ] Passwords should be salted and hashed using the MD5 algorithm.
-- [x] Passwords should be hashed using the SHA-1 algorithm, then salted to provide defence against rainbow table attacks.
+- [ ] Passwords should be hashed using the SHA-1 algorithm, then salted to provide defence against rainbow table attacks.
+
+Explanation: sha-1 is not considered secure anymore: https://en.wikipedia.org/wiki/SHA-1#Attacks . With bcrypt you can select more complex hashes https://en.wikipedia.org/wiki/Bcrypt
 
 #### Q53. What methods does this Pointcut expression reference?
 
-**@target(com.linkedin.annotation.Loggable)**
+`@target(com.linkedin.annotation.Loggable)`
 
 - [x] any join point where the target object has a @Loggable annotation
 - [ ] any join point where the executing method has a @Loggable annotation
 - [ ] any method that implements Loggable
 - [ ] any method that extends Loggable
+
+Reference: [Difference between @target and @within (Spring AOP)](https://stackoverflow.com/questions/51124771/difference-between-target-and-within-spring-aop)
 
 #### Q54. What is printed when this code is run as a @SpringBootApplication?
 
@@ -526,6 +549,8 @@ class TestConfig2 {
       &emsp; SimpleDateFormat <br />
 - [ ] a NullPointerException stacktrace
 - [x] a BeanDefinitionParsingException stacktrace
+
+Explanation: `@Bean`-method in `@Configuration` must be overridable. Remove the `final` keyword to fix. 
 
 #### Q55. What is the purpose of a web application context?
 
@@ -614,3 +639,35 @@ class Service {}
 - [ ] The application will compile and run, and service will have its dependency correctly injected by Spring.
 - [x] The application will compile and run, but service will not be autowired because you cannot autowire a static class member.
 - [ ] The application will result in a compile error because you attempted to autowire a static variable.
+
+#### Q61. What is a security context? 
+
+- [x] The security context includes details of the principal currently using the app, which is stored by default in a `ThreadLocal` in an `Authentication` object.
+- [ ] The security context holds a list of all users and their encrypted passwords in memory and a list of resources that users are able to access. 
+- [ ] The security context includes information about safe network IDs and IP addresses that are able to access the system. 
+- [ ] The security context includes information about permissions on the local file system describing how local file resources can be accessed. 
+
+#### Q62. How might you map an incoming request to a controller method? 
+
+- [ ] Annotate a Controller class with `@Controller`. Then, using a specific naming convention for the methods, the `RequestMappingHandlerAdapter` will automatically configure your endpoints with the proper HTTP verb and URI. 
+- [ ] Register a controller as a bean. Then, using a specific naming convention for the methods, the `RequestMappingHandlerAdapter` will automatically configure your endpoints based on values from the YAML config file. 
+- [x] Annotate a controller method with `@RequestMapping`, or a HTTP verb-specific annotation with a String URI pattern parameter (and other params as needed), which is supported through a `RequestMappingHandlerMapping/Adapter`. 
+- [ ] Register a controller as a bean. Then, using a specific naming convention for the methods, the RequestMappingHandlerAdapter will automatically configure your endpoints based on values passed into the bean definition. 
+
+Reference: [Spring RequestMapping](https://www.baeldung.com/spring-requestmapping). Spring does not use naming conventions for web requests (unlike e.g. for the Data Repositories)
+
+#### Q63. What methods does the Pointcut expression below reference? 
+
+`execution(* setter*(..))`
+
+- [ ] any method with a name that contains the String "setter" with a single parameter 
+- [ ] any method with a name that begins with String "setter" with a single parameter 
+- [ ] any method with a name that begins with String "setter" 
+- [ ] any method with a name that contains the String "setter" 
+
+#### Q64. What pattern does Spring MVC implement to delegate request processing to controllers? 
+
+- [x] Front Controller 
+- [ ] Facade
+- [ ] Reactive Chain
+- [ ] Observer 
