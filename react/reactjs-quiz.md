@@ -869,6 +869,31 @@ database.map((user)=><h1>user.data</h1>);
 ```
 
 - [ ] gives a map of all the entries in database
-- [x] returns a heading tag for every entery in the database containing it's data
-- [ ] returns one heading tag for all the enteries in database
-- [ ] checks which entry in the databse is suitable for heading tag
+- [x] returns a heading tag for every entry in the database containing it's data
+- [ ] returns one heading tag for all the entries in database
+- [ ] checks which entry in the database is suitable for heading tag
+
+#### Q76. Describe what is happening in this code?
+
+```javascript
+const { name: firstName } = person;
+```
+
+- [ ] It is creating a new object that contains the same name property as the person object.
+- [ ] It is assigning the value of the person object's firstName property to a constant called name.
+- [ ] It is retrieving the value of person.name.firstName.
+- [x] It is assigning the value of the person object's name property to a constant called firstName.
+
+#### Q77. What is wrong with this code?
+
+```javascript
+const MyComponent = ({ names }) => (
+  <h1>Hello</h1>
+  <p>Hello again</p>
+);
+```
+
+- [ ] React components cannot be defined using functions.
+- [x] React does not allow components to return more than one element.
+- [ ] The component needs to use the return keyword.
+- [ ] String literals must be surrounded by quotes.

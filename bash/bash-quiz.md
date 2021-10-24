@@ -764,3 +764,10 @@ fi
 - [ ] It removes all files except those in the current directory.
 - [x] It removes all files in the current directory.
 - [ ] It removes all files except those in the 'foo' directory.
+
+#### Q61. Which one is true?
+
+- [x] SELinux policy rules are checked after DAC rules.
+- [ ] SELinux policy rules are checked before DAC rules
+- [ ] SELinux policy rules are never checked after DAC rules.
+- [ ] None of these

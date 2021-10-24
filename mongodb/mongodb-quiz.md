@@ -487,7 +487,7 @@
 
 - [ ] index
 - [ ] Name
-- [x] _id
+- [x] `_id`
 - [ ] row number
 
 [Reference](https://docs.mongodb.com/manual/reference/operator/aggregation/project/#definition)

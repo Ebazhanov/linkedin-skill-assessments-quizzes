@@ -616,7 +616,7 @@ endif;
 
 [Ref](https://kinsta.com/blog/wordpress-child-theme/)
 
-#### Q72. You can harden your Wordpress site security by adding ______ to your wp-config.php file?
+#### Q72. You can harden your Wordpress site security by adding **\_** to your wp-config.php file?
 
 - [ ] hashes and reCAPTCHA
 - [ ] database username and passwords

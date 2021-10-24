@@ -123,10 +123,7 @@
 
 **Source**: [screenshot](https://i.imgur.com/fsgkfoS.png) of LinkedIn assessment practice mode question.
 
-
-
-
-#### Q17. \_\_\_\_ validates the integrity of data files.
+#### Q17. \_ validates the integrity of data files.
 
 - [ ] Compression
 - [x] Hashing
@@ -199,7 +196,6 @@
 - [ ] 100
 - [ ] 300 
 
-
 **Explaintion**: The formula for asymmetric encryption is `2n`; where `n`  is the number of communicating parties.
 
 #### Q27. Two cometeing online retailers process credit card transactions for customers in countries on every continent. One organization is based in the United States. The other is based in the Netherlands. With which regulation must both countries comply while ensuring the security of these transactions?
@@ -211,17 +207,16 @@
 
 **Explaintion**: The Payment Card Industry Data Security Standard (`PCI DSS`) is the global card industry security standard that is **required of all entities** that store, process, or transmit cardholder data, including financial institutions, online retailers and service providers. **Source**:  ([PCI Security Overview](https://www.pcisecuritystandards.org/pci_security/standards_overview)).
 
-
 #### Q28. What provides a common language for describing security incidents in a structures and repeatable manner?
 - [ ] Common event format
 - [ ] common weakness enumeration
-- [x ] common vulnerabilties and exposures
+- [x] common vulnerabilties and exposures
 - [ ] common vulnerability scoring system
 
 **Explaination**: The Common Vulnerabilities and Exposures (`CVE`) system provides a reference-method for publicly known information-security vulnerabilities and exposures.
 
-
 #### Q29. Which type of application can intercept sensative information such as passwoprds on a network segment?
+
 - [ ] log server
 - [ ] network scanner
 - [ ] firewall
@@ -229,14 +224,12 @@
 
 **Explaination**: A `protocol analyzer` is a tool used to capture and analyze signals and data traffic over a communication channel. [WireShark](https://www.wireshark.org) is a protocol analyzer.
 
-
 #### Q30. An attacker has discovered that they can deduce a sensitive piece of confidential information by analyzing multiple pieces of less sensative public data.
 
 - [ ] aggregation
 - [x] inference
 - [ ] SQL injection
 - [ ] cross-origin resouce sharing
-
 
 **Explaination**: An `Inference Attack` is a data mining technique performed by analyzing data in order to illegitimately gain knowledge about a subject or database. A subject's sensitive information can be considered as leaked if an adversary can infer its real value with a high confidence. **Source**: ([Wikipedia](https://en.wikipedia.org/wiki/Inference_attack)).
 
@@ -249,7 +242,7 @@
 
 **Source** [Okata.com](https://www.okta.com/identity-101/authentication-vs-authorization/)
 
-#### Q32. According to GDPR, a data _____ is the person about whom data is being collected.
+#### Q32. According to GDPR, a data _ is the person about whom data is being collected.
 
 - [ ] processor
 - [ ] object
@@ -270,6 +263,7 @@
 **Source** [NIST](https://www.nist.gov/blogs/taking-measure/zero-trust-cybersecurity-never-trust-always-verify)
 
 #### Q34. Which attack exploits input validation vulnerabilities?
+
 - [ ] ARP spoofing
 - [ ] pharming attacks
 - [x] cross-site scripting (XSS)
@@ -278,12 +272,13 @@
 **Source** [White Hat Sec](https://www.whitehatsec.com/glossary/content/input-validation)
 
 #### Q35. You are a security analyst, and you receive a text message alerting you of a possible attack. Which security control is the _least_ likely to produce this type of alert?
+
 - [ ] IDS
 - [ ] SIEM
 - [x] packet sniffer
 - [ ] IPS
 
-#### Q36. SQL injection inserts a code fragment that makes a database statement universally true, like ______.
+#### Q35. SQL injection inserts a code fragment that makes a database statement universally true, like **\_**.
 
 - [ ] `SELECT * FROM users WHERE username = " AND 1=1--'`
 - [ ] `SELECT * FROM users WHERE username = " AND 1!=1--'`
@@ -291,6 +286,7 @@
 - [ ] `SELECT * FROM users WHERE username = " OR 1!=1--'`
 
 #### Q37. Which type of security assessment requires access to source code?
+
 - [x] static analysis
 - [ ] black box testing
 - [ ] dynamic analysis
