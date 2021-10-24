@@ -25,7 +25,7 @@
 
 - [ ] cloud access security broker (CASB)
 - [ ] intrusion prevention system (IPS)
-- [ ] intrusion detection system (IDS)
+- [x] intrusion detection system (IDS)
 - [ ] next generation firewall
 
 #### Q5. Packet sniffer is also called **\_**.
@@ -196,7 +196,7 @@
 
 [Ref](https://www.okta.com/identity-101/authentication-vs-authorization/)
 
-#### Q27. According to GDPR, a data _____ is the person about whom data is being collected.
+#### Q27. According to GDPR, a data **\_** is the person about whom data is being collected.
 
 - [ ] processor
 - [ ] object
@@ -207,7 +207,7 @@
 
 #### Q28. Which type of application can intercept sensitive information such as passwords on a network segment?
 
-- [ ] protocol analyzer
+- [x] protocol analyzer
 - [ ] firewal
 - [ ] log server
 - [ ] network scanner
@@ -217,11 +217,11 @@
 - [ ] common weakness enumeration
 - [ ] common event format
 - [ ] common vulnerability scoring system
-- [ ] common vulnerabilities and exposures
+- [x] common vulnerabilities and exposures
 
 #### Q30. Two competing online retailers process credit card transactions for customers in countries on every continent. One organization is based in the United States. The other is based in the Netherlands. With which regulation must both countries comply while ensuring the security of these transactions?
 
-- [ ] Payment Card Industry Data Security Standard (PCI-DSS)
+- [x] Payment Card Industry Data Security Standard (PCI-DSS)
 - [ ] International Organization for Standardization and International Electrotechnical Commission (ISO/IEC 27018)
 - [ ] General Data Protection Regulation (GDPR)
 - [ ] Federal Information Security Management Act (FISMA)
@@ -229,7 +229,7 @@
 #### Q31. An attacker has discovered that they can deduce a sensitive piece of confidential information by analyzing multiple pieces of less sensitive public data. What type of security issue exists?
 
 - [ ] cross-origin resource sharing
-- [ ] inference
+- [x] inference
 - [ ] SQL injection
 - [ ] aggregation
 
@@ -241,6 +241,7 @@
 - [ ] assume breach
 
 #### Q33. Which attack exploits input validation vulnerabilities?
+
 - [ ] ARP spoofing
 - [ ] pharming attacks
 - [x] cross-site scripting (XSS)
@@ -249,12 +250,13 @@
 [Ref](https://www.whitehatsec.com/glossary/content/input-validation)
 
 #### Q34. You are a security analyst, and you receive a text message alerting you of a possible attack. Which security control is the _least_ likely to produce this type of alert?
+
 - [ ] IDS
 - [ ] SIEM
-- [ ] packet sniffer
+- [x] packet sniffer
 - [ ] IPS
 
-#### Q35. SQL injection inserts a code fragment that makes a database statement universally true, like ______.
+#### Q35. SQL injection inserts a code fragment that makes a database statement universally true, like **\_\_**.
 
 - [ ] `SELECT * FROM users WHERE username = " AND 1=1--'`
 - [ ] `SELECT * FROM users WHERE username = " AND 1!=1--'`
@@ -262,6 +264,7 @@
 - [ ] `SELECT * FROM users WHERE username = " OR 1!=1--'`
 
 #### Q36. Which type of security assessment requires access to source code?
+
 - [x] static analysis
 - [ ] black box testing
 - [ ] dynamic analysis

@@ -10,13 +10,19 @@
   - Set network password.
 
 - [ ]
+
   - Reset administrator password.
   - Set network name.
   - Set network password.
-- [ ] - Set network name.
+
+- [ ] 
+
+  - Set network name.
   - Set network password.
   - Assign DNS servers.
+
 - [ ]
+
   - Change administrator account name.
   - Set network password.
   - Set network name.
@@ -242,3 +248,143 @@
 - [ ] RJ-45
 - [x] NIC
 - [ ] Router
+
+#### Q24. Networking wire is referred to as **\_**
+
+- [x] CAT-5 or CAT-6 Ethernet cable
+- [ ] thin pair or twisted pair
+- [ ] asynchronous digital (AD) cable
+- [ ] coax cable
+
+#### Q25. Miguel is working on the computer, and Jen needs to use it for a moment. What can Miguel do to provide for an easy transition?
+
+- [ ] Shut down the system.
+- [x] Sign out.
+- [ ] Restart the computer.
+- [ ] Let Jen take over.
+
+#### Q26. A **\_** allows you to plug computers into a central location to communicate on the same local area network.
+
+- [x] server
+- [ ] layer 2 switch
+- [ ] wireless access point
+- [ ] firewall
+
+#### Q27. After plugging in an external 3.5mm microphone, you stop hearing sound from the speakers. What is the most likely source of the problem?
+
+- [x] You have plugged the microphone into the 3.5mm audio output jack.
+- [ ] The sound is muted.
+- [ ] The sound card has crashed.
+- [ ] The computer has connected to a nearby Bluetooth headset.
+
+#### Q28. You think that the Internet is down. How can you know for certain?
+
+- [x] all of these answers.
+- [ ] You cannot reach any websites.
+- [ ] The power is out.
+- [ ] The lights on the modem are off.
+
+#### Q29. An application is unresponsive. How can you effectively close it down?
+
+- [ ] Restart the computer.
+- [ ] Sign out.
+- [ ] Wait or set the application aside until it quits eventually on its own.
+- [x] Use the Task Manager (Windows) or use Force Quit (Mac).
+
+#### Q30. How can you tell that the website you are visiting is sending and receiving data that has been encrypted?
+
+- [x] The URL is HTTPS.
+- [ ] You are using an incognito window.
+- [ ] The site requires a login and password.
+- [ ] You can't tell because a website's security settings are not readily apparent in a browser window.
+
+#### Q31. The client/server model best represents **\_**.
+
+- [x] multiple hosts interacting with a single computer
+- [ ] an application consisting of cooperating programs across the Internet
+- [ ] any program run by a user
+- [ ] a subscription service on the web
+
+#### Q32. The primary mass storage device is divided into two partitions. What would explain this arrangement?
+
+- [x] There is one partition for the operating system and a separate partition for user data.
+- [ ] All drives contain a second partition for the MBR (Master Boot Record).
+- [ ] The drive is partitioned to maintain compatibility with older versions of the operating system.
+- [ ] The system has two users who are each getting a partition.
+
+#### Q33. You are replacing a processor. How do you build the processor "sandwich", top-down?
+
+- [x] fan, paste, processor, socket
+- [ ] fan, processor, socket
+- [ ] fan, paste, processor, paste, socket
+- [ ] fan, processor, paste, socket
+
+#### Q34. The operating system tells you that a file is busy. What is the fastest way to attempt to make the file un-busy?
+
+- [ ] Run a disk-checking utility.
+- [x] Close open programs.
+- [ ] Restart the computer.
+- [ ] Review the output of the netstat utility to check for incoming connections to the file.
+
+#### Q35. What is the name of the hardware that provides a computer with network access?
+
+- [ ] BIOS
+- [ ] RJ-45
+- [x] router
+- [ ] NIC
+
+#### Q36. Which program controls the Windows startup sequence?
+
+- [x] MSCONFIG
+- [ ] the Computer Management Console
+- [ ] Task Manager
+- [ ] the UEFI
+
+#### Q37. Which service allows clients to work remotely and supplies the clients with an IP address on the same local area network as the offce?
+
+- [ ] DNS
+- [ ] FTP
+- [x] VPN
+- [ ] HTTP
+
+#### Q38. Al is about to update a software driver. What would be a wise thing to do first?
+
+- [x] Back up all files.
+- [ ] Save data and close programs.
+- [ ] Remove the older driver.
+- [ ] Sign out of the operating system.
+
+#### Q39. What is the process of moving data and programs from an old computer to a new one called?
+
+- [ ] migration
+- [ ] An official term does not exist, though it is colloquieally referred to as a "brain transplant."
+- [x] profile transfer
+- [ ] account cloning
+
+#### Q40. The local network is up, but the computers cannot access the Internet. Your Internet configuration includes a modem, gateway (router), and a switch as separate devices. What should you do?
+
+- [ ] Do nothing. Wait until service is restored.
+- [ ] Restart all computers on the network.
+- [ ] Restart the gateway (router).
+- [x] Restart the modem.
+
+#### Q41. You notice that a program crashes at a specific time. Which tool can you use in Windows to discover the cause?
+
+- [ ] Task Manager
+- [x] Event Viewer
+- [ ] Perfomance Monitor
+- [ ] Resource Monitor
+
+#### Q42. While planning a conference at a center in the mountains, you call ahead to ensure that it has broadband Internet access. Wich connection type would be an unsuitable choice?
+
+- [ ] DSL
+- [ ] fiber optic
+- [ ] cable
+- [x] dial-up
+
+#### Q43. On a trackpad, what gesture commonly replaces "center mouse wheel" for things like scrolling through documents?
+
+- [x] two-finger swipe
+- [ ] pinch outward
+- [ ] scroll with thumb instead
+- [ ] force click and drag

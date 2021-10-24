@@ -230,7 +230,7 @@ Note: Free trial doesn't have the organizations.
 
 - [ ] group
 - [ ] folder
-- [ ] project
+- [x] project
 - [ ] organization
 
 #### Q35. What is needed to access GCP APIs in your project?
