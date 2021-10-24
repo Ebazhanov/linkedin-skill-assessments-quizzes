@@ -48,12 +48,11 @@ div a
   2. A nav element
   3. An element with a class of "nav"
   ```
-- [ ] 
+- [ ]
 
 - ```markdown
       They all target the same nav element.
   ```
-  
 - [x]
   ```markdown
   1. An element with an class of "nav"
@@ -1263,7 +1262,7 @@ section {
   :hover
   :active
   ```
-  
+
 #### Q98. Which selector is used to select the paragraph element that is a direct descendent of section?
 
 - [ ] `section * p`
@@ -1273,16 +1272,17 @@ section {
 
 Reference: [Child combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator)
 
-#### Q99. For this code, what is the font color of the hypertext link? 
+#### Q99. For this code, what is the font color of the hypertext link?
+
 ```css
-ul{
---color : red;
+ul {
+  --color: red;
 }
-p{
-color: var(--color);
+p {
+  color: var(--color);
 }
-a{
-color:var(--color,orange);
+a {
+  color: var(--color, orange);
 }
 ```
 
@@ -1292,19 +1292,17 @@ color:var(--color,orange);
   <li>
     <a href="#">list item a link </a>
   </li>
-    <li>
-    list item
-  </li>
+  <li>list item</li>
 </ul>
 ```
 
-- [X] red
+- [x] red
 - [ ] orange
 - [ ] blue
 - [ ] black
 
   [Reference](https://www.sitepoint.com/pseudo-classes-the-basics/)
-  
+
 #### Q100. Which statement is not true?
 
 - [ ] Specificity determines which CSS rule is applied by the browsers.

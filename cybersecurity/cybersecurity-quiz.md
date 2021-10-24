@@ -29,6 +29,7 @@
 - [ ] next generation firewall
 
 **Explaination**: An intrusion detection system (`IDS`) is a device or software application that monitors a network or systems for malicious activity or policy violations. **Source** [Quizlet](https://quizlet.com/217188159/cissp-practice-testschapter-7-security-operations-domain7-flash-cards/)
+
 #### Q5. Packet sniffer is also called **\_**.
 
 - [ ] SIEM
@@ -188,15 +189,14 @@
 - [ ] Intrusion Detection and Prevention System (IDPS)
 - [ ] cloud access security broker (CASB)
 
-
-
 #### Q26. How many keys would be necessary to accomodate 100 users in an asymmetric cryptography system?
+
 - [x] 200
 - [ ] 400
 - [ ] 100
-- [ ] 300 
+- [ ] 300
 
-**Explaintion**: The formula for asymmetric encryption is `2n`; where `n`  is the number of communicating parties.
+**Explaintion**: The formula for asymmetric encryption is `2n`; where `n` is the number of communicating parties.
 
 #### Q27. Two cometeing online retailers process credit card transactions for customers in countries on every continent. One organization is based in the United States. The other is based in the Netherlands. With which regulation must both countries comply while ensuring the security of these transactions?
 
@@ -205,9 +205,10 @@
 - [ ] General Data Protection Regulation (GDPR)
 - [ ] International Organization for Standardization and Internation Electronical Commission (ISO/IEC 27018)
 
-**Explaintion**: The Payment Card Industry Data Security Standard (`PCI DSS`) is the global card industry security standard that is **required of all entities** that store, process, or transmit cardholder data, including financial institutions, online retailers and service providers. **Source**:  ([PCI Security Overview](https://www.pcisecuritystandards.org/pci_security/standards_overview)).
+**Explaintion**: The Payment Card Industry Data Security Standard (`PCI DSS`) is the global card industry security standard that is **required of all entities** that store, process, or transmit cardholder data, including financial institutions, online retailers and service providers. **Source**: ([PCI Security Overview](https://www.pcisecuritystandards.org/pci_security/standards_overview)).
 
 #### Q28. What provides a common language for describing security incidents in a structures and repeatable manner?
+
 - [ ] Common event format
 - [ ] common weakness enumeration
 - [x] common vulnerabilties and exposures
@@ -242,7 +243,7 @@
 
 **Source** [Okata.com](https://www.okta.com/identity-101/authentication-vs-authorization/)
 
-#### Q32. According to GDPR, a data _ is the person about whom data is being collected.
+#### Q32. According to GDPR, a data \_ is the person about whom data is being collected.
 
 - [ ] processor
 - [ ] object
@@ -250,7 +251,6 @@
 - [ ] controller
 
 **Source** [Intersoft Consulting](https://gdpr-info.eu/art-4-gdpr/)
-
 
 #### Q33. Which is not a principle of zero trust security?
 
