@@ -646,3 +646,10 @@ link_to('Link', {controller: 'products', action: 'index', page: 3})
 - [ ] match "products/index", to: "products#index", via: :get
 - [ ] root "products/index"
 - [ ] get "products/index"
+
+#### Q51. Given a table of blog_posts and a related table of comments (comments made on each blog post), which ActiveRecord query will retrieve all blog posts with comments created during @range?
+
+- [x] BlogPost.joins (:comments).where(comments: {created_at: @range})
+- [ ] BlogPost.where(['comments.created_at', @range])
+- [ ] BlogPost.preload ("comments.created_at").where(created_at: @range)
+- [ ] BlogPost.includes (:comments).where('comments.created_at' => @range)
