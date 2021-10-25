@@ -364,6 +364,8 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] your Outlook Favorites
 - [x] the global address book
 
+[official docs](https://support.microsoft.com/en-us/office/find-people-and-contacts-f868749b-31a4-4fba-a936-b778cbb8f1cb)
+
 #### Q50. What do you call an appointment or meeting that happens on a regular basis?
 
 - [ ] repeating
