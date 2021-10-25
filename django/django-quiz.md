@@ -520,7 +520,7 @@ model=Planet
 - [ ] DetailView
 - [ ] TittleView
 - [ ] SongView
-- [ ] ListView
+- [x] ListView
 
 #### Q55. Which statement is most acurate, regarding using the default SQLite database on your local/development machine but Postgres in production
 
