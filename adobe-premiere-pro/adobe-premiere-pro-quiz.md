@@ -142,10 +142,12 @@ E. Blur
 
 #### Q19. Which panel would you use to browse and import assets for maximum compatibility with Premiere Pro?
 
-- [x] Library
+- [ ] Library
 - [ ] Effects
 - [ ] Project
-- [ ] Media Browser
+- [x] Media Browser
+
+Reference : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-browser.html#:~:text=The%20Media%20Browser%20panel%20should,with%20fragmented%20media%20file%20types.&text=To%20import%20selected%20clips%20into,on%20them%20and%20choose%20Import.
 
 #### Q20. A transition is set to center aligned. What would be the result of dragging with the tool selected, to the right?
 
