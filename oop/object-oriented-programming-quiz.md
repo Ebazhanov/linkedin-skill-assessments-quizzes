@@ -482,4 +482,4 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 - [ ] Memento notifies multiple classes of changes. Observer captures and restores an object's internal state.
 - [ ] Memento defers the exact steps of an algorithm to a subclass. Observer defines a new operation to a class without change.
 - [ ] Memento alters an object's behavior when its state changes. Observer encapsulates an algorithm inside a class.
-- [ ] Memento captures and restores an object's internal state. Observer notifies multiple classes of changes.
+- [x] Memento captures and restores an object's internal state. Observer notifies multiple classes of changes.
