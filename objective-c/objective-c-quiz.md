@@ -382,3 +382,15 @@ dispatch_async(dispatch_get_main_queue(), ^{
 - [ ] It is the last code to run before the app goes inactive.
 - [ ] It executes on a background thread.
 - [ ] It is queued to execute in the background.
+
+#### Q38. How many items are in set1 after this code executes?
+
+```
+NSMutableSet *set1 = [NSMutableSet setWithObjects: @1,@2, @3, @4, @5, nil]; 
+[set1 add0bject:@3];
+```
+
+- [ ] zero
+- [ ] six
+- [ ] one
+- [x] five
