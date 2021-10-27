@@ -417,8 +417,8 @@ Reference: [Logging in Spring Boot](https://www.baeldung.com/spring-boot-logging
 
 #### Q47. What is the difference between a JAR and a WAR distribution in Spring Boot?
 
-- [ ] Spring Boot can create a self-executable WAR file that runs without needing a servlet container. A JAR file has to be deployed to an existing web container such as Tomcat with seperate files for dependencies.
-- [ ] Spring Boot can create a JAR file that contains bytecode that interacts directly with the OS without needing a servlet container. A WAR file has to be deployed to an existing web container such as Tomcat with seperate files for dependencies.
+- [ ] Spring Boot can create a self-executable WAR file that runs without needing a servlet container. A JAR file has to be deployed to an existing web container such as Tomcat with separate files for dependencies.
+- [ ] Spring Boot can create a JAR file that contains bytecode that interacts directly with the OS without needing a servlet container. A WAR file has to be deployed to an existing web container such as Tomcat with separate files for dependencies.
 - [ ] The Spring Boot JAR file will be deployed to a Servlet container such as Tomcat on an existing running web server locally. The WAR file will be deployed to a cloud-based servlet container.
 - [x] Spring Boot can create a self-executable JAR file that contains all the dependencies and an embedded Servlet container. A WAR file has to be deployed to an existing web container such as Tomcat.
 
