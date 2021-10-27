@@ -158,7 +158,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 #### Q22. What is not a built-in search filter for message folder?
 
 - [ ] Has Attachments
-- [ ] Sent to me as Bcc
+- [x] Sent to me as Bcc
 - [ ] Categorized
 - [ ] Not sent directly to me
 
