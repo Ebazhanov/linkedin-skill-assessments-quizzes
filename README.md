@@ -1,4 +1,4 @@
-# [Your ad could be here][Contact us for details]
+📌# [Your ad could be here][Contact us for details: @monkrus on Telegram]
 
 ## Linkedin Quiz Answers, Skill Assessments Test
 ## Us mentioned on    [Medium](https://medium.com/codex/4-github-repos-that-will-help-every-beginner-programmer-bc5c1417da05)     [YouTube](https://www.youtube.com/watch?v=XMJGSEvH044)
