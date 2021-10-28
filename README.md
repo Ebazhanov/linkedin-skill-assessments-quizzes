@@ -1,4 +1,4 @@
-# [Click  here to earn CryptoForSpeed CFS tokens:coin::coin::coin:](https://sweepwidget.com/view/37077-r7ed60bx/iixvhj-37077) 3 days left
+# [Your ad could be here][Contact us for details]
 
 ## Linkedin Quiz Answers, Skill Assessments Test
 ## Us mentioned on    [Medium](https://medium.com/codex/4-github-repos-that-will-help-every-beginner-programmer-bc5c1417da05)     [YouTube](https://www.youtube.com/watch?v=XMJGSEvH044)
