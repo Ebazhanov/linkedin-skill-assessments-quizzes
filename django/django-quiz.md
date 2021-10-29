@@ -528,3 +528,11 @@ model=Planet
 - [ ] It's fine, you just need to keep both instances synchronized
 - [ ] It's a bad idea and could lead to issues down the road
 - [ ] It's the most efficient way to build a project
+ 
+ #### Q56. Why might you want to write a custom model Manager?
+ 
+- [ ] to perform database queries
+- [ ] to set up a database for testing
+- [x] to modify the initial QuerySet that the Manager returns
+- [ ] to filter the results that a database query returns
+ 
