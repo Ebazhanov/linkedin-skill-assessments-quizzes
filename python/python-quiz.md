@@ -779,10 +779,10 @@ t1 = test()
 
 #### Q55. What is the correct syntax for creating a variable that is bound to a set?
 
-- [x] `myset = {0, 'apple', 3.5}`
-- [ ] `myset = to_set(0, 'apple', 3.5)`
-- [ ] `myset = (0, 'apple', 3.5).to_set()`
-- [ ] `myset = (0, 'apple', 3.5).set()`
+- [x] `my_set = {0, 'apple', 3.5}`
+- [ ] `my_set = to_set(0, 'apple', 3.5)`
+- [ ] `my_set = (0, 'apple', 3.5).to_set()`
+- [ ] `my_set = (0, 'apple', 3.5).set()`
 
 #### Q56. What is the correct syntax for defining an `__init__()` method that takes no parameters?
 
