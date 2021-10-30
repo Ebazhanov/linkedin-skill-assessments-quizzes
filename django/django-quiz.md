@@ -522,9 +522,17 @@ model=Planet
 - [ ] SongView
 - [x] ListView
 
-#### Q55. Which statement is most acurate, regarding using the default SQLite database on your local/development machine but Postgres in production
+#### Q58. Which statement is most acurate, regarding using the default SQLite database on your local/development machine but Postgres in production
 
 - [x] There's less chance of introducing bugs since SQLite already works out the box
 - [ ] It's fine, you just need to keep both instances synchronized
 - [ ] It's a bad idea and could lead to issues down the road
 - [ ] It's the most efficient way to build a project
+ 
+ #### Q59. Why might you want to write a custom model Manager?
+ 
+- [ ] to perform database queries
+- [ ] to set up a database for testing
+- [x] to modify the initial QuerySet that the Manager returns
+- [ ] to filter the results that a database query returns
+ 
