@@ -188,6 +188,8 @@ for (i= 10; i>0; i--){
 - [ ] register
 - [ ] typedef
 
+[Reference](https://www.ibm.com/docs/en/adfz/developer-for-zos/14.2.0?topic=programs-c-reserved-keywords)
+
 #### Q10. What does the program shown below return?
 
 ```c
@@ -269,6 +271,8 @@ main(){
 - [ ] dealloc()
 - [ ] release()
 - [x] free()
+
+[Reference](https://www.tutorialspoint.com/c_standard_library/c_function_free.htm)
 
 #### Q18. In C language what are the basic building blocks that are constructed together to write a program?
 
