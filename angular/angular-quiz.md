@@ -591,7 +591,7 @@ forms markup for the username field?
 - [x]
 
 ```javascript
-<input type="text" formControlName="username" #userName="ngModer>
+<input type="text" formControlName="username" #userName="ngModer">
     <span *ngIf="userName.errors.minlength"›
       Username must be at least {{ userName.errors.minlength.requiredLength }} characters.
     </span>
@@ -1065,4 +1065,36 @@ RouterModule.forRoot (
 - [ ] It enables the option to flag individual routes for preloading.
 - [ ] It preloads all dependencies for routes, creating instances of services when the app first starts up
 - [ ] It ensures all modules get built into a single app module bundle file.
-- [ ] It configures the router to immediately load all routes that have a loadChildren property(routes that are typcally loaded when requested)
+- [ ] It configures the router to immediately load all routes that have a loadChildren property(routes that are typically loaded when requested)
+
+#### Q55. What is an alternative way to write this markup to bind the value of the class field `userName` to the `h1` element title property?
+
+```html
+<h1 [title]="userName">Current user is {{ userName }}</h1>
+```
+
+- [ ] title="userName"
+- [ ] title="{{ userName }}"
+- [ ] title="{{ 'userName' }}"
+- [ ] The only way to do it is by using the square brackets.
+
+#### Q56. What is the `async` pipe doing in this example?
+
+```ts
+@Component({
+  selector: 'app-users',
+  template: '<div *ngFor="let user of users | async">{{ user.name }}</div>'
+})
+export class UsersComponent implements OnInit {
+  users;
+  constructor(private httpClient: HttpClient) { }
+  ngOnInit(): void {
+    this.users = this.httpClient.get<{ name: string }>('users');
+  }
+}
+```
+
+- [ ] It is doing nothing, since the async pipe cannot be used in an `ngFor` statement.
+- [ ] It is configuring the `ngFor` iteration to support multiple lists of users at the same time.
+- [ ] It is subscribing to the observable returned from the `HttpClient.get` method and unwrapping the returned value so it can be iterated over in the `ngFor`.
+- [ ] It is allowing all of the users in the `users` field to be rendered concurrently to the DOM.

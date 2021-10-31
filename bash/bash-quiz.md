@@ -764,3 +764,21 @@ fi
 - [ ] It removes all files except those in the current directory.
 - [x] It removes all files in the current directory.
 - [ ] It removes all files except those in the 'foo' directory.
+
+#### Q61. Which one is true?
+
+- [x] SELinux policy rules are checked after DAC rules.
+- [ ] SELinux policy rules are checked before DAC rules
+- [ ] SELinux policy rules are never checked after DAC rules.
+- [ ] None of these
+
+#### Q62. Which does the below command do?
+
+```bash
+w
+```
+
+- [ ] It doesn't display information about the users currently on the machine.
+- [x] It displays information about the users currently on the machine.
+- [ ] It displays information about the users currently on the another machine.
+- [ ] None of these

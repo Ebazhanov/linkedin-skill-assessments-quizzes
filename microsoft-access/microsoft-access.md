@@ -240,3 +240,17 @@ https://support.microsoft.com/en-us/office/iif-function-32436ecf-c629-48a3-9900-
 - [x] Row Source
 - [ ] Value List
 - [ ] Data Source
+
+#### Q29. What does the expression Now() evaluate to?
+
+- [ ] the current system date
+- [ ] the current system date, time, and time zone
+- [x] the current system date and time
+- [ ] the current system time
+
+#### Q30. Certain words have special meaning to Access, and you should avoid using them as table or field names. What are these words called?
+
+- [ ] discouraged terms
+- [x] reserved words
+- [ ] retired objects
+- [ ] system names
