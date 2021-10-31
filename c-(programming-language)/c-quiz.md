@@ -244,6 +244,9 @@ main(){
 - [x] main() { }
 - [ ] main() { ; }
 
+
+[Reference](https://www.beningo.com/150-the-wolrds-shortest-c-program/)
+
 #### Q14. What is optional in a function declaration?
 
 - [ ] data type of parameters
@@ -264,6 +267,8 @@ main(){
 - [ ] stack
 - [x] heap
 - [ ] data segment
+
+[Reference](http://www.it.uc3m.es/pbasanta/asng/course_notes/dynamic_memory_heap_en.html#:~:text=The%20dynamic%20memory%20that%20is,reads%20a%20set%20of%20words.)
 
 #### Q17. Which of the following do you use to deallocate memory?
 
