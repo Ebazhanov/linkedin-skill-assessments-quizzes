@@ -49,8 +49,7 @@ div a
   3. An element with a class of "nav"
   ```
 - [ ]
-
-- ```markdown
+  ```markdown
       They all target the same nav element.
   ```
 - [x]
