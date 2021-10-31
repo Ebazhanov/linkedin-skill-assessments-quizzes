@@ -495,32 +495,28 @@ echo "No, mail is not set";
 ```
 
 - [ ]
-
-```php
+  ```php
           $books = simplexml_load_string('books.xml');
           echo $books->book[0]->categories->category[1];
-```
+  ```
 
 - [x]
-
-```php
+  ```php
           $books = simplexml_load_file('books.xml');
           echo $books->book[0]->categories->category[1];
-```
+  ```
 
 - [ ]
-
-```php
+  ```php
           $books = SimpleXMLElement('books.xml');
           echo $books->book[0]->categories->category[1];
-```
+  ```
 
 - [ ]
-
-```php
+  ```php
           $books = SimpleXML('books.xml');
           echo $books->book[0]->categories->category[1];
-```
+  ```
 
 ##### Q46. When it comes to the value of a variable, what is the difference between NULL and empty?
 
@@ -675,7 +671,6 @@ Dog
 ```
 
 - [ ] 
-
   ```php
   $name = "Cat";
   $name = "Dog";
@@ -685,7 +680,6 @@ Dog
   ```
   
 - [ ] 
-
   ```php
   $name = "Cat";
   $$name = "Dog";
@@ -695,7 +689,6 @@ Dog
   ```
   
 - [x] 
-
   ```php
   $name = "Cat";
   $$name = "Dog";
@@ -705,7 +698,6 @@ Dog
   ```
   
 - [ ] 
-
   ```php
   $name = "Cat";
   $$name = "Dog";
