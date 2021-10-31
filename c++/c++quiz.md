@@ -1129,28 +1129,21 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
 #### Q66. What would be the correct declaration of a default constructor for a class named Sprite?
 
 - [x]
-
 ```cpp
 public:
     Sprite();
 ```
-
 - [ ]
-
 ```cpp
 private:
     void Sprite();
 ```
-
 - [ ]
-
 ```cpp
 public:
     void Sprite();
 ```
-
 - [ ]
-
 ```cpp
 private:
     Sprite();
