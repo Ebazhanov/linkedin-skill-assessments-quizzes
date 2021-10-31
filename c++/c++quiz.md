@@ -103,6 +103,8 @@ union {
 - [ ] `::`
 - [ ] `.`
 
+[Reference](https://www.tutorialspoint.com/operators-that-cannot-be-overloaded-in-cplusplus)
+
 #### Q9. Which of the following shows the contents of vector pointed by v1 and v2 after running this code?
 
 ```cpp
@@ -214,6 +216,8 @@ else
 - [ ] `y=if(x?a:b);`
 - [ ] `y=(x&a)?a:(x&b)?b:0;`
 - [x] `y=x?a:b;`
+
+[Reference](https://www.w3schools.com/cpp/cpp_conditions_shorthand.asp)
 
 #### Q16. What is the output of this code?
 
