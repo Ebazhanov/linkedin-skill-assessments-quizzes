@@ -499,19 +499,16 @@ echo "No, mail is not set";
   $books = simplexml_load_string('books.xml');
   echo $books->book[0]->categories->category[1];
   ```
-
 - [x]
   ```php
   $books = simplexml_load_file('books.xml');
   echo $books->book[0]->categories->category[1];
   ```
-
 - [ ]
   ```php
   $books = SimpleXMLElement('books.xml');
   echo $books->book[0]->categories->category[1];
   ```
-
 - [ ]
   ```php
   $books = SimpleXML('books.xml');
