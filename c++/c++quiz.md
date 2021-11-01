@@ -103,6 +103,8 @@ union {
 - [ ] `::`
 - [ ] `.`
 
+[Reference](https://www.tutorialspoint.com/operators-that-cannot-be-overloaded-in-cplusplus)
+
 #### Q9. Which of the following shows the contents of vector pointed by v1 and v2 after running this code?
 
 ```cpp
@@ -214,6 +216,8 @@ else
 - [ ] `y=if(x?a:b);`
 - [ ] `y=(x&a)?a:(x&b)?b:0;`
 - [x] `y=x?a:b;`
+
+[Reference](https://www.w3schools.com/cpp/cpp_conditions_shorthand.asp)
 
 #### Q16. What is the output of this code?
 
@@ -1188,6 +1192,8 @@ bool is_even(int);
 - [ ] It is a class that consists only of member variables, with no constructor, destructor, or member functions.
 - [ ] It is a blank superclass intended for inheritance and polymorphism.
 - [ ] It is a skeleton source code for a class where the programmer has to fill in specific parts to define the data types and algorithms used.
+
+[Reference](https://www.mygreatlearning.com/blog/templates-in-cpp/)
 
 #### Q71. Other than shifting bits to the left, what is the << oprator used for ?
 

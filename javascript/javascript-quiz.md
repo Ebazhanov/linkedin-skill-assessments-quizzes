@@ -1067,6 +1067,8 @@ const numbers=[1,2,3,4,5];
 - [ ] `const [one,two,three,four,five]=[numbers]`
 - [ ] `const {one,two,three,four,five}={numbers}`
 
+  <<<<<<< newjavascript                   
+                    
 #### Q95. 
 ```js
 const obj={
@@ -1086,3 +1088,5 @@ console.log(obj2.a,obj2.b)
 - [x] 0 2
 - [ ] undefined 2 
 - [ ] undefined 2 
+=======
+
