@@ -630,26 +630,26 @@
 
 ![Excel-Q81](images/Q81.png?raw=true)
 
-- [ ]
+- [ ] A
 
 1. Rearrange the columns in this order: Group, Last Name, First Name.
 2. Right-click any of the headers.
 3. Select _Sort All_.
 
-- [ ]
+- [ ] B
 
 1. Select any cell in the dataset.
 2. In the _Data_ tab, click the _Sort_ button.
 3. Add two levels to the default level.
 4. Populate the _Sort-by_ fields in this order: Group, Last Name, First Name.
 
-- [x]
+- [x] C
 
 1. Highlight the entire dataset.
 2. In the _Data_ tab, click the _Sort_ button. The headers appear.
 3. Drag the headers into this order: Group, Last Name, First Name.
 
-- [ ]
+- [ ] D
 
 1. Select a cell in the Group column, then sort.
 2. Select a cell in the Last Name column, then sort.
@@ -657,27 +657,27 @@
 
 #### Q82. How can you use Format Painter to apply the format of a single source cell to several nonadjacent destination cells?
 
-- [ ]
+- [ ] A
 
   1. Right-click the source cell.
   2. Click the Format Painter.
   3. Right-click each destination cell.
   4. Press Esc.
 
-- [ ]
+- [ ] B
 
   1. Ctrl-click (Windows) or Command-click (Mac) each destination cell to select it.
   2. Click the Format Painter.
   3. Click the source cell.
 
-- [ ]
+- [ ] C
 
   1. Select the source cell.
   2. Double-click the Format Painter.
   3. Click each destination cell.
   4. Press Esc.
 
-- [ ]
+- [ ] D
 
   1. Select the source cell.
   2. Right-click the Format Painter.
