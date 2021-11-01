@@ -508,20 +508,20 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 
 #### Q63. Your application performance management (APM) system can read the status of your CloudWatch monitors and perform scripted actions. When the CloudWatch metric StatusCheckFailed enters a failed state (a value of 1), you would like your APM to automatically repair the instance. Which script do you use?
 
-- [x]
+- [x] A
 
 ```
 aws ec2 stop-instances --instance-ids i-0b263919b6498b123
 aws ec2 start-instances --instance-ids i-0b263919b6498b123
 ```
 
-- [ ]
+- [ ] B
 
 ```
 aws ec2 reboot-instances --instance-ids i-0b263919b6498b123
 ```
 
-- [ ]
+- [ ] C
 
 ```
 aws ec2 reboot-instances --instance-ids i-0b263919b6498b123
@@ -529,7 +529,7 @@ wait 30
 aws ec2 start-instance --instance-ids i-0b263919b6498b123
 ```
 
-- [ ]
+- [ ] D
 
 ```
 aws ec2 reboot-instances --instance-ids i-0b263919b6498b123
