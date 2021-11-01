@@ -1066,3 +1066,24 @@ const numbers=[1,2,3,4,5];
 - [ ] `const {one,two,three,four,five}=numbers`
 - [ ] `const [one,two,three,four,five]=[numbers]`
 - [ ] `const {one,two,three,four,five}={numbers}`
+         
+#### Q95. 
+```js
+const obj={
+a:1,
+b:2,
+c:3
+}
+
+const obj2={
+...obj,
+a:0,
+}
+
+console.log(obj2.a,obj2.b)
+```
+- [ ] Nothing, it will throw an error
+- [x] 0 2
+- [ ] undefined 2 
+- [ ] undefined 2 
+
