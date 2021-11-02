@@ -79,7 +79,7 @@ func main() {
 - [ ] It would compile and print nothing because `"[" +nil+"]"` is also `nil`.
 - [ ] It would compile but then panic because `GlobalFlag` was never initialized.
 
-Explanation: most [variables](https://golangbyexample.com/variables-in-golang-complete-guide/) in Go has initial values. For string type it's an empty string.
+Explanation: most [variables](https://golangbyexample.com/variables-in-golang-complete-guide/) in Go have initial values. For string type, it's an empty string.
 
 Here is this program on [Go Playground](https://play.golang.org/p/TaRIzuD-nxC)
 
@@ -123,7 +123,7 @@ func main() {
 
 - [ ] use `json.Decoder`
 - [ ] Pass a pointer to `data`
-- [x] Make `X` and `Y` exported (upercase)
+- [x] Make `X` and `Y` exported (uppercase)
 - [ ] Use field tags
 
 Reference: [How to Parse JSON in Golang?](https://www.geeksforgeeks.org/how-to-parse-json-in-golang/)
@@ -303,7 +303,7 @@ Reference: [time#Time.Add](https://pkg.go.dev/time#Time.Add)
 
 Reference: [time#Time.Sub](https://pkg.go.dev/time#Time.Sub)
 
-#### Q24. What is a risk of using multiple field tags in a single struct?
+#### Q24. What is the risk of using multiple field tags in a single struct?
 
 - [ ] Every field must have all tags to compile.
 - [x] It tightly couples different layers of your application.
@@ -338,3 +338,32 @@ Relevant excerpt from the article:
 - [ ] Change the import path.
 - [x] Use a replace directive in go.mod.
 - [ ] Use a replace directory.
+
+#### Q28. If your current working directory is the top level of your project, which command will run all its test packages?
+
+- [ ] go test all
+- [ ] go run --all
+- [ ] go test .
+- [ ] go test ./...
+
+#### Q29. Which encodings can you put in a string?
+
+- [ ] any, it accepts arbitary bytes
+- [ ] any Unicode format
+- [ ] UTF-8 or ASCII
+- [ ] UTF-8
+
+#### Q30. How is the behavior of `t.Fatal` different inside a `t.Run`?
+
+ - [ ] There is no difference.
+ - [ ] t.Fatal does not crash the test harness, preserving output messages.
+ - [ ] t.Fatal stops execution of the subtest and continues with other test cases.
+ - [ ] t.Fatal stops all tests and contains extra information about the failed subtest.
+ 
+ #### Q31. What does `log.Fatal` do?
+ 
+ - [ ] It raises a panic.
+ - [ ] It prints the log and then raises a panic.
+ - [ ] It prints the log and then safely exits the program.
+ - [ ] It exits the program.
+ 
