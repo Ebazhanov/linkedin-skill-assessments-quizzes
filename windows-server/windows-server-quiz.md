@@ -414,3 +414,12 @@
 - [ ] RDS
 - [ ] IIS
 - [ ] AD DS
+
+#### Q57. You want to ensure there are redundant DHCP services avaliable for your network. What should you set up on your server to make this possible?
+
+- [ ] create new multicast scope
+- [ ] create new superscope
+- [ ] replicate failover scopes
+- [x] configure failover
+
+[ref](https://biztechmagazine.com/article/2013/03/4-solutions-ensuring-dhcp-availability)
