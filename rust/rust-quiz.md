@@ -14,6 +14,7 @@ str::thread::spawn(|| {
   println!("LinkedIn");
 });
 ```
+
 - [ ] a closure
 - [ ] a thread
 - [ ] a future
@@ -26,14 +27,14 @@ str::thread::spawn(|| {
 - [ ] boolean
 - [ ] tuple
 
-#### Q4. ______ cannot be destructured.
+#### Q4. **\_** cannot be destructured.
 
 - [ ] Traits
 - [ ] Tuples
 - [ ] Enums
 - [ ] Structs
 
-#### Q5. Which ```cargo``` command checks a program for error without creating a binary executable?
+#### Q5. Which `cargo` command checks a program for error without creating a binary executable?
 
 - [ ] cargo --version
 - [ ] cargo init

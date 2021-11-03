@@ -170,7 +170,7 @@
 - [ ] spline point
 - [ ] spline handle
 
-#### Q25.  You want to build a new part within an assembly to ensure in-context relations and dimensions. You also want to save out this part file as its own unique file. After navigating to the Assembly ribbon tab, what do you do next?
+#### Q25. You want to build a new part within an assembly to ensure in-context relations and dimensions. You also want to save out this part file as its own unique file. After navigating to the Assembly ribbon tab, what do you do next?
 
 - [ ] Under Insert Component, select Part to create a new in-context part. Right-click the new part and select isolate
 - [ ] Select Insert Component to create a new in-context part. Right-click te new part and select Save Part (in External File)

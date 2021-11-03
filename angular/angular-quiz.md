@@ -1083,11 +1083,11 @@ RouterModule.forRoot (
 ```ts
 @Component({
   selector: 'app-users',
-  template: '<div *ngFor="let user of users | async">{{ user.name }}</div>'
+  template: '<div *ngFor="let user of users | async">{{ user.name }}</div>',
 })
 export class UsersComponent implements OnInit {
   users;
-  constructor(private httpClient: HttpClient) { }
+  constructor(private httpClient: HttpClient) {}
   ngOnInit(): void {
     this.users = this.httpClient.get<{ name: string }>('users');
   }

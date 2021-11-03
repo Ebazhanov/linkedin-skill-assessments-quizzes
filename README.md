@@ -1,12 +1,15 @@
 ## 🚨[Your ad could be here]📌[Contact us for details by creating an issue]
 
 ## Linkedin Quiz Answers, Skill Assessments Test
-## Us mentioned on    [Medium](https://medium.com/codex/4-github-repos-that-will-help-every-beginner-programmer-bc5c1417da05)     [YouTube](https://www.youtube.com/watch?v=XMJGSEvH044)
+
+## Us mentioned on [Medium](https://medium.com/codex/4-github-repos-that-will-help-every-beginner-programmer-bc5c1417da05) [YouTube](https://www.youtube.com/watch?v=XMJGSEvH044)
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-624-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -88,7 +91,7 @@ If you want to meet each other or discuss quiz related problems join the `Discor
 | [React.js](react/reactjs-quiz.md) :rose:                                     |                                                                                                                                                                                      | => 74 questions | => 74 answers | [@RobTables](https://github.com/RobTables)                                                                  |
 | [REST API](rest-api/rest-api-quiz.md) :+1:                                   |                                                                                                                                                                                      | => 56 questions | => 56 answers |                                                                                                             |
 | [Ruby on Rails](ruby-on-rails/ruby-on-rails-quiz.md) :+1:                    |                                                                                                                                                                                      | => 24 questions | => 4 answers  | [@gudata](https://github.com/gudata)                                                                        |
-| [Rust](rust/rust-quiz.md)                      |                                                                                                                                                                                      | => 5 questions | => 5 answers  |                                                                   |
+| [Rust](rust/rust-quiz.md)                                                    |                                                                                                                                                                                      | => 5 questions  | => 5 answers  |                                                                                                             |
 | [Scala](scala/scala-quiz.md)                                                 |                                                                                                                                                                                      | => 25 questions | => 25 answers |                                                                                                             |
 | [Search Engine Optimization (SEO)](seo/search-engine-optimization-quiz.md)   |                                                                                                                                                                                      | => 29 questions | => 28 answers |                                                                                                             |
 | [SharePoint](sharepoint/sharepoint-quiz.md)                                  |                                                                                                                                                                                      | => 36 questions | => 29 answers |                                                                                                             |

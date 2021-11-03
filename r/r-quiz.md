@@ -278,7 +278,6 @@ Output: [1] 2 3 4
 
 ![image](https://user-images.githubusercontent.com/52632898/139964478-9806a163-76b2-4f99-97bc-c925fdf6e388.png)
 
-
 - [ ] 6
 - [ ] 9
 - [ ] 3
@@ -410,40 +409,48 @@ StDf[, -1]
 - [ ] Each is a type of complex vector.
 - [ ] Each is a type of raw vector.
 
-#### Q42. What does the ```MyMat[ ,3]``` subsetting operation return for this code?
+#### Q42. What does the `MyMat[ ,3]` subsetting operation return for this code?
 
 ```r
 MyMat = matrix(c(7, 9, 8, 6, 10, 12),nrow=2,ncol=3, byrow = TRUE)
 ```
-- [ ] 
+
+- [ ]
+
 ```
 [ ,3]
 [1, ] 8
 [2, ] 12
 ```
-- [ ] 
+
+- [ ]
+
 ```
 [1] 8 12
 ```
-- [ ] 
+
+- [ ]
+
 ```
 [1] 10 12
 ```
-- [ ] 
+
+- [ ]
+
 ```
 [ ,3]
 [1, ] 10
 [2, ] 12
 ```
 
-#### Q43. What does the function ```power.anova.test``` return?
+#### Q43. What does the function `power.anova.test` return?
 
 - [ ] the probability of making a Type I error
 - [ ] the probability of not making a Type II error
 - [ ] the probability of making a Type II error
 - [ ] the probability of not making a Type I error
 
-#### Q44. Review the statement below. What is the effect of ```covariate:factor``` on the analysis?
+#### Q44. Review the statement below. What is the effect of `covariate:factor` on the analysis?
 
 ```r
 result <- lm(outcome ~ covariate + factor + covariate:factor, data = testcoef)
@@ -467,4 +474,3 @@ result <- lm(outcome ~ covariate + factor + covariate:factor, data = testcoef)
 - [ ] integer
 - [ ] number
 - [ ] variant
-

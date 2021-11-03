@@ -239,7 +239,7 @@ Reference: [Channels](https://tour.golang.org/concurrency/2)
 
 - [ ] Check runtime.GOOS.
 - [ ] Add a // +build windows comment anywhere in the file.
-- [ ] Add a _ prefix to the file name.
+- [ ] Add a \_ prefix to the file name.
 - [x] Add a // +build windows comment at the top of the file.
 
 Reference: [How to use conditional compilation with the go build tool, Oct 2013](https://dave.cheney.net/2013/10/12/how-to-use-conditional-compilation-with-the-go-build-tool)
@@ -266,7 +266,7 @@ Reference: [net/http#Client.Post](https://pkg.go.dev/net/http#Client.Post)
 
 Reference: [Effective Go, Interface names](https://golang.org/doc/effective_go#interface-names)
 
-#### Q21. A `switch` statement _____ its own lexical block. Each `case` statement _____ an additional lexical block.
+#### Q21. A `switch` statement **\_** its own lexical block. Each `case` statement **\_** an additional lexical block.
 
 - [ ] does not create; creates
 - [ ] does not create; does not create
@@ -355,15 +355,14 @@ Relevant excerpt from the article:
 
 #### Q30. How is the behavior of `t.Fatal` different inside a `t.Run`?
 
- - [ ] There is no difference.
- - [ ] t.Fatal does not crash the test harness, preserving output messages.
- - [ ] t.Fatal stops execution of the subtest and continues with other test cases.
- - [ ] t.Fatal stops all tests and contains extra information about the failed subtest.
- 
- #### Q31. What does `log.Fatal` do?
- 
- - [ ] It raises a panic.
- - [ ] It prints the log and then raises a panic.
- - [ ] It prints the log and then safely exits the program.
- - [ ] It exits the program.
- 
+- [ ] There is no difference.
+- [ ] t.Fatal does not crash the test harness, preserving output messages.
+- [ ] t.Fatal stops execution of the subtest and continues with other test cases.
+- [ ] t.Fatal stops all tests and contains extra information about the failed subtest.
+
+#### Q31. What does `log.Fatal` do?
+
+- [ ] It raises a panic.
+- [ ] It prints the log and then raises a panic.
+- [ ] It prints the log and then safely exits the program.
+- [ ] It exits the program.
