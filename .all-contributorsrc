@@ -6104,6 +6104,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "staiton",
+      "name": "Gabriel França",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55883166?v=4",
+      "profile": "https://github.com/staiton",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
