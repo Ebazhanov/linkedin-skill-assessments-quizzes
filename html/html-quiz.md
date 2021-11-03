@@ -1469,3 +1469,9 @@ x<y&z>w
 - [x] `<p lang="es">canci&oacuten</p>`
 - [ ] `<p lang="es">cancio'n</p>`
 - [ ] `<p lang="es">canci'on</p>`
+
+#### Q94. What is the purpose of `<caption>`?
+- [ ] `<caption>` provides captions for `<audio>`,`<video>`,`<img>`, and `<table>`.
+- [x] `<caption>` provides captions to `<table>`.
+- [ ] `<caption>` provides captions for `<audio>`, `<video>`, and `<table>`.
+- [ ] `<caption>` provides captions for `<img>`, `<audio>`, and `<video>`.
