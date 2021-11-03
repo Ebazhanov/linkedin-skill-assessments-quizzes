@@ -1307,3 +1307,10 @@ num_list[len(num_list)//2]
 - [ ] The **init** method initializes any imports you may have included at the top of your file.
 
 [reference here](https://stackoverflow.com/questions/625083/what-init-and-self-do-in-python)
+
+#### Q33. What is the correct syntax for calling an instance method on a class named Game?
+
+- [x] my_game = Game(self) self.my_game.roll_dice()
+- [ ] my_game = Game() self.my_game.roll_dice()
+- [ ] my_game = Game() my_game.roll_dice()
+- [ ] my_game = Game(self) my_game.roll_dice(self)
