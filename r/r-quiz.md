@@ -73,7 +73,7 @@ xvect
 - [ ] attributes
 - [x] scalar
 
-#### Q10. In the image below, the data frame on lines 1 through 4 is names StDf. State and Capital are both factors. Which statement returns the results shown on lines 6 and 7?
+#### Q10. In the image below, the data frame on lines 1 through 4 is named StDf. State and Capital are both factors. Which statement returns the results shown on lines 6 and 7?
 
 ![Image](https://i.ibb.co/8DL1HCV/Captura-de-pantalla-2020-07-14-a-las-18-33-34.png)
 
@@ -96,7 +96,7 @@ xvect
 - [ ] history()
 - [x] history(max.show = 25)
 
-#### Q13. d.pizza is a data frame. It's column named temperature contains only numbers. If u extract temperature using the [] accessors, its class defaults to numeric. How can you access temperature so that it retains the class of data.frame?
+#### Q13. d.pizza is a data frame. It's a column named temperature contains only numbers. If you extract temperature using the [] accessors, its class defaults to numeric. How can you access temperature so that it retains the class of data.frame?
 
 ```
 > class( d.pizza[ , "temperature" ] )
@@ -144,7 +144,7 @@ c <- a < b
 
 #### Q17. How does a vector differ from a list?
 
-- [ ] Vectors are used only for numeric data, while list are useful for both numeric and string data.
+- [ ] Vectors are used only for numeric data, while lists are useful for both numeric and string data.
 - [ ] Vectors and lists are the same thing and can be used interchangeably.
 - [x] A vector contains items of a single data type, while a list can contain items of different data types.
 - [ ] Vectors are like arrays, while lists are like data frames.
@@ -276,13 +276,7 @@ Output: [1] 2 3 4
 
 #### Q29. Given DFMerged <- merge(DF1, DF2) and the image below, how manu rows are in DFMerged?
 
-```
-DF1(data frame 1): DF2(data frame 2):
-VarA VarB VarA VarD
-1 1 2 1 18 21
-2 4 5 2 19 22
-3 7 8 3 20 23
-```
+![image](https://user-images.githubusercontent.com/52632898/139964478-9806a163-76b2-4f99-97bc-c925fdf6e388.png)
 
 - [ ] 6
 - [ ] 9
@@ -355,7 +349,7 @@ StopDate-StartDate
 - [x] it returns the results of a matrix multiplication
 - [ ] It squares each cell in **mtrx**
 
-#### Q35. Which function in R combines differents values into a single object?
+#### Q35. Which function in R combines different values into a single object?
 
 - [ ] connect()
 - [ ] concat()
@@ -390,16 +384,9 @@ StopDate-StartDate
 - [ ] VisitPCA, varx
 - [ ] Xvar, Yvar
 
-#### Q39. Which strings could be returned by the function ls(path = "^V")?
+#### Q39. StDf is a data frame. Based on this knowledge, what does this statement return?
 
-- [ ] ANOVAData, anovadata
-- [x] VisitPCA, VarX
-- [ ] VisitPCA, varx
-- [ ] Xvar, Yvar
-
-#### Q40. StDf is a data frame. Based on this knowledge, what does this statement return?
-
-```
+```r
 StDf[, -1]
 ```
 
@@ -407,3 +394,83 @@ StDf[, -1]
 - [ ] all but the final column of StDf
 - [x] all but the first column of StDf
 - [ ] only the first column of StDf
+
+#### Q40. Which statement enables you to interactively open a single file?
+
+- [ ] file.list()
+- [ ] file.select()
+- [ ] file.choose()
+- [ ] file.open()
+
+#### Q41. How are these data types alike: logical, integer, numeric, and character?
+
+- [ ] Each is a type of data frame.
+- [ ] Each is a type of atomic vector.
+- [ ] Each is a type of complex vector.
+- [ ] Each is a type of raw vector.
+
+#### Q42. What does the `MyMat[ ,3]` subsetting operation return for this code?
+
+```r
+MyMat = matrix(c(7, 9, 8, 6, 10, 12),nrow=2,ncol=3, byrow = TRUE)
+```
+
+- [ ]
+
+```
+[ ,3]
+[1, ] 8
+[2, ] 12
+```
+
+- [ ]
+
+```
+[1] 8 12
+```
+
+- [ ]
+
+```
+[1] 10 12
+```
+
+- [ ]
+
+```
+[ ,3]
+[1, ] 10
+[2, ] 12
+```
+
+#### Q43. What does the function `power.anova.test` return?
+
+- [ ] the probability of making a Type I error
+- [ ] the probability of not making a Type II error
+- [ ] the probability of making a Type II error
+- [ ] the probability of not making a Type I error
+
+#### Q44. Review the statement below. What is the effect of `covariate:factor` on the analysis?
+
+```r
+result <- lm(outcome ~ covariate + factor + covariate:factor, data = testcoef)
+```
+
+- [ ] It forces the intercepts of the individual regressions to zero.
+- [ ] It calls for the effect of the covariate within each level of the factor.
+- [ ] It calls for the effect of each variable from covariate to factor in testcoef.
+- [ ] It forces the covariate to enter the equation before the factor levels.
+
+#### Q45. A variable whose type is numeric can contain which items?
+
+- [ ] integers and real values
+- [ ] integers, real, and raw values
+- [ ] real values only
+- [ ] integers, real, and logical values
+
+#### Q46. What is the legitimate name of a data class in R?
+
+- [ ] property
+- [ ] integer
+- [ ] number
+- [ ] variant

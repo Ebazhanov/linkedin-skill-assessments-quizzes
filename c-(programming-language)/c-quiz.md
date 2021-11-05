@@ -244,7 +244,6 @@ main(){
 - [x] main() { }
 - [ ] main() { ; }
 
-
 [Reference](https://www.beningo.com/150-the-wolrds-shortest-c-program/)
 
 #### Q14. What is optional in a function declaration?

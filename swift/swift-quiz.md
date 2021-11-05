@@ -6,7 +6,7 @@
 let val = (Double)6
 ```
 
-- [x] an error
+- [x] a syntax issue
 - [ ] typecasting
 - [ ] assignment
 - [ ] initialization
@@ -72,14 +72,14 @@ vals.sort { (s1, s2) -> Bool in
 #### Q7. What does this code print?
 
 ```swift
-typealias Thing = [String, Any]
+typealias Thing = [String:Any]
 var stuff: Thing
 print(type(of: stuff))
 ```
 
-- [ ] Dictionary<String, Any> (To print this than code in question has to be `typealias Thing = [String: Any]`)
+- [x] Dictionary<String, Any>
 - [ ] Dictionary
-- [x] ERROR (If code in question is really like that.)
+- [ ] ERROR
 - [ ] Thing
 
 #### Q8. What is the value of y?
@@ -744,7 +744,7 @@ print(s1)
 - [ ] raw values
 - [ ] custom values
 
-#### Q66. In the code below, AOM must be a(n) \_?
+#### Q66. In the code below, AOM must be a(n)?
 
 ```swift
 class AmP : MMM, AOM {
@@ -755,3 +755,14 @@ class AmP : MMM, AOM {
 - [x] protocol
 - [ ] enumeration
 - [ ] struct
+
+#### Q67. What is the value of numbers in the code below?
+
+```swift
+let numbers = [1,2,3,4,5,6].filter{ $0 % 2 == 0}
+```
+
+- [ ] [1,3,5]
+- [ ] []
+- [x] [2,4,6]
+- [ ] nil

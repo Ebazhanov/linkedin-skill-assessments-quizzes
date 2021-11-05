@@ -1134,17 +1134,17 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
 
 - [x]
   ```cpp
-	public:
+  public:
     		Sprite();
   ```
 - [ ]
   ```cpp
-	private:
+  private:
     		void Sprite();
   ```
 - [ ]
   ```cpp
-	public:
+  public:
     		void Sprite();
   ```
 - [ ]

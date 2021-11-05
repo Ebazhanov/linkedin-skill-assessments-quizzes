@@ -386,7 +386,7 @@ dispatch_async(dispatch_get_main_queue(), ^{
 #### Q38. How many items are in set1 after this code executes?
 
 ```
-NSMutableSet *set1 = [NSMutableSet setWithObjects: @1,@2, @3, @4, @5, nil]; 
+NSMutableSet *set1 = [NSMutableSet setWithObjects: @1,@2, @3, @4, @5, nil];
 [set1 add0bject:@3];
 ```
 
