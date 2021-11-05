@@ -229,7 +229,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 - [ ] Asking your supervisor to prioritize a list of tasks
 - [ ] Sending customers a three-question survey about a recent service experience
-- [ ] Asking your colleagues to choose their favorite lunch spot from a list
+- [x] Asking your colleagues to choose their favorite lunch spot from a list
 - [ ] All of these answers
 
 #### Q33. You created a meeting for next Tuesday at 2 PM, and several invitees have accepted. How do you change the meeting so it will begin at 1 PM and last for one hour?
@@ -248,13 +248,13 @@ C. Some people have already accepted, so you must cancel this meeting and create
 #### Q34. What permission allows your delegates to read, create, change, and delete items that they create, but not items that you created?
 
 - [ ] Reader
-- [ ] Author
+- [x] Author
 - [ ] Reviewer
 - [ ] Editor
 
 #### Q35. Why might you create an additional contacts folder?
 
-- [ ] To store contacts to share with colleagues
+- [x] To store contacts to share with colleagues
 - [ ] To avoid exceeding 500 contacts per folder limit
 - [ ] To make it faster to search for your contacts
 - [ ] All of these answers
@@ -285,7 +285,7 @@ C. Some people have already accepted, so you must cancel this meeting and create
 - [ ] To keep track of personal events in a work setting
 - [ ] To use a shared calendar with colleagues
 - [ ] To isolate meetings and important dates for a project team
-- [ ] To have a different view of your calendar
+- [x] To have a different view of your calendar
 
 #### Q40. Under what conditions can you successfully recall a message?
 
