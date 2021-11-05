@@ -1475,3 +1475,37 @@ x<y&z>w
 - [x] `<caption>` provides captions to `<table>`.
 - [ ] `<caption>` provides captions for `<audio>`, `<video>`, and `<table>`.
 - [ ] `<caption>` provides captions for `<img>`, `<audio>`, and `<video>`.
+
+#### Q95. The value attribute is associated with which set of tags <i>canción</i>?
+
+- [ ] A
+
+```HTML
+<li>
+<input>
+<option>
+```
+
+- [ ] B
+
+```HTML
+<input>
+<option>
+<textarea>
+```
+
+- [x] C
+
+```HTML
+<button>
+<input>
+<form>
+```
+
+- [ ] D
+
+```HTML
+<input>
+<label>
+<meter>
+```
