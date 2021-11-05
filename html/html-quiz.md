@@ -1478,7 +1478,7 @@ x<y&z>w
 
 #### Q95. The value attribute is associated with which set of tags ?
 
-- [ ] A
+- [x] A
 
 ```HTML
 <li>
@@ -1494,7 +1494,7 @@ x<y&z>w
 <textarea>
 ```
 
-- [x] C
+- [ ] C
 
 ```HTML
 <button>
