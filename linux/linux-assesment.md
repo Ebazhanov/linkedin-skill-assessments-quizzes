@@ -500,10 +500,12 @@ fi
 
 #### Q61. What issue might a user have when they mount a filesystem by partition path such as /dev/sdal in the /etc/fstab file?
 
-- [ ] The device order may change on boot, resulting in a system that will not boot properly.
+- [x] The device order may change on boot, resulting in a system that will not boot properly.
 - [ ] The user may run out of device letters.
 - [ ] There are no issues with referring to partitions by their partition path.
 - [ ] It is more difficult identifying mounted devices by partition path.
+
+isse letter drift problem, mentionned here https://access.redhat.com/discussions/6004221
 
 #### Q62. Which option would you choose to force grep to use a basic regular expression (BRE)?
 
