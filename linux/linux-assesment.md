@@ -529,3 +529,17 @@ fi
 - [ ] ip
 - [ ] Onmtui
 - [x] nm-connection-editor
+
+#### Q65. What will not happen if you run the make command without parameters? 
+
+- [x] It will clean up all previously generated binaries and perform a new build.
+- [ ] It will run rules of compilation and building.
+- [ ] It will look for a file called makefile in your current directory.
+- [ ] It will build only programs that need to be rebuilt.
+
+#### Q66. Most commands that support SELinux use which option to display SELinux security context? 
+
+- [ ] -S
+- [ ] --selinux
+- [ ] --MAC
+- [x] -Z    
