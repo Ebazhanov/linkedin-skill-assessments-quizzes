@@ -313,7 +313,7 @@
 - [ ] rootkit
 - [ ] Trojan horse
 
-#### Q41. Virtual Private Networks (VPNs) use ______ to create a secure connection between two networks.
+#### Q41. Virtual Private Networks (VPNs) use **\_** to create a secure connection between two networks.
 
 - [x] encryption
 - [ ] a metropolitan area network
@@ -376,7 +376,7 @@
 - [x] Cloud Access Security Brokers (CASBs)
 - [ ] Intrusion Detection and Prevention System (IDPS)
 
-#### Q50. Sharing account credentials violates the _______ aspect of access control.
+#### Q50. Sharing account credentials violates the **\_** aspect of access control.
 
 - [ ] identification
 - [x] authorization
