@@ -467,3 +467,44 @@ console.log(currencies);
 
 **clear: left;**
 `When we use the float property, and we want the next element below (not on right or left), we will have to use the clear property. When clearing floats, you should match the clear to the float: If an element is floated to the left, then you should clear to the left. Your floated element will continue to float, but the cleared element will appear below it on the web page.`
+
+#### Q49. You are designing a site and creating a navigation bar linking to the main sections. Which HTML element should you use to indicate that this is the main navigation?
+
+- [ ] \<ul>
+- [ ] \<main>
+- [x] \<nav>
+- [ ] \<navigation>
+
+[Source: W3Schools](https://www.w3schools.com/tags/tag_nav.asp)
+
+#### Q50. You want to create striped table rows using CSS without adding a class to any element. Which CSS would correctly apply the background color to every odd row in your table?
+
+- [ ] tr:nth-child(2n) { background-color: #ccc; }
+- [ ] tr:nth-child(2+1) { background-color: #ccc; }
+- [ ] tr:nth-child(2) { background-color: #ccc; }
+- [x] tr:nth-child(2n+1) { background-color: #ccc; }
+
+[Source: W3Schools](https://www.w3schools.com/cssref/sel_nth-child.asp)
+
+#### Q51. The flex property is often applied to flex items with a value of 1. Using flex: 1 is a shorthand - what does it unpack to?
+
+- [ ] flex: 0 0 100;
+- [ ] flex: 1 0 0;
+- [ ] flex: 0 0 auto;
+- [x] flex: 1 1 auto;
+
+[Source: stackoverflow](https://stackoverflow.com/questions/37386244/what-does-flex-1-mean)
+
+#### Q52. You discover that CSS is being loaded on a website using the following code. Why might a web developer have done this?
+
+```html
+   <link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+   <noscript><link rel="stylesheet" href="styles.css"></noscript>
+```
+
+- [ ] This is part of a stylesheet-switching script to load different themes for the site.
+- [ ] This will stop the CSS being loaded on slow data connections.
+- [x] The CSS is being loaded asynchronously in order to prevent render blocking.
+- [ ] This will stop the CSS being loaded for old browsers that do not support the techniques in use.
+
+[Source: stackoverflow](https://stackoverflow.com/questions/32759272/how-to-load-css-asynchronously)
