@@ -536,3 +536,10 @@ console.log(person);
 - [ ] doesNotThrow
 - [ ] deepStrictEqual
 - [x] ifError
+
+#### Q65. Which choice is not a method on the util module?
+
+- [ ] promisify
+- [x] asyncify
+- [ ] types
+- [ ] callbackify
