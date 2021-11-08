@@ -489,7 +489,9 @@ console.log(currencies);
 #### Q51. You discover that CSS is being loaded on a website using the following code. Why might a web developer have done this?
 `<link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="style.css"></noscript>`
 
-- [ ] The CSS is being loaded asynchronously in order to prevent render blocking.
+- [x] The CSS is being loaded asynchronously in order to prevent render blocking.
 - [ ] This will stop the CSS being loaded for old browsers that do not support the techniques in use.
 - [ ] This is part of a stylesheet-switching script to load different themes for the site.
 - [ ] This will stop the CCS being loaded on slow data connections.
+
+[Source: StackOverflow](https://stackoverflow.com/a/46750893)
