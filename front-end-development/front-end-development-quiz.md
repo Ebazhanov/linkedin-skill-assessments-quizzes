@@ -467,3 +467,29 @@ console.log(currencies);
 
 **clear: left;**
 `When we use the float property, and we want the next element below (not on right or left), we will have to use the clear property. When clearing floats, you should match the clear to the float: If an element is floated to the left, then you should clear to the left. Your floated element will continue to float, but the cleared element will appear below it on the web page.`
+
+#### Q49. You want to create striped table rows using CSS without adding a class to any element. Which CSS would correctly apply the background color to every odd row in your table?
+
+- [ ] `tr:nth-child(2) { background-color: #ccc; }`
+- [x] `tr:nth-child(2n+1) { background-color: #ccc; }`
+- [ ] `tr:nth-child(2+1) { background-color: #ccc; }`
+- [ ] `tr:nth-child(2n) { background-color: #ccc; }`
+
+[Source: W3Schools](https://www.w3schools.com/cssref/sel_nth-child.asp)
+
+#### Q50. You are designing a site and creating a navigation bar linking to the main sections. Which HTML element should you use to indicate that this is the main navigation?
+
+- [x] `<nav>`
+- [ ] `<navigation>`
+- [ ] `<main>`
+- [ ] `<ul>`
+
+[Source: W3Schools](https://www.w3schools.com/tags/tag_nav.asp)
+
+#### Q51. You discover that CSS is being loaded on a website using the following code. Why might a web developer have done this?
+`<link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="style.css"></noscript>`
+
+- [ ] The CSS is being loaded asynchronously in order to prevent render blocking.
+- [ ] This will stop the CSS being loaded for old browsers that do not support the techniques in use.
+- [ ] This is part of a stylesheet-switching script to load different themes for the site.
+- [ ] This will stop the CCS being loaded on slow data connections.
