@@ -6174,6 +6174,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "invidu",
+      "name": "invidu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92372186?v=4",
+      "profile": "https://github.com/invidu",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
