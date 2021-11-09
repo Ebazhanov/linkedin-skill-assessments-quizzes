@@ -188,3 +188,9 @@
 - [ ] 2000
 - [ ] 350
 - [ ] 20
+
+#### Q29. Who does an audit committee report to?
+- [x] external auditors
+- [ ] senior management
+- [ ] board of directors
+- [ ] union of employee representatives
