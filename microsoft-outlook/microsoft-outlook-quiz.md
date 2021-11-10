@@ -20,7 +20,7 @@
 
 - [ ] Click New Items > New Appointment.
 - [ ] Click Calendar > New Meeting, and then copy and paste information as needed.
-- [ ] with the email open, click Meeting on the Home ribbon or Message tab.
+- [x] with the email open, click Meeting on the Home ribbon or Message tab.
 - [ ] Click Reply All.
 
 #### Q4. You are running low on Outlook storage space. How might you address this problem?
