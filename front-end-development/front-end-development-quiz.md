@@ -495,3 +495,12 @@ console.log(currencies);
 - [ ] This will stop the CCS being loaded on slow data connections.
 
 [Source: StackOverflow](https://stackoverflow.com/a/46750893)
+
+#### Q52. The flex property is often applied to flex items with a value of 1. Using flex: 1 is a shorthand - what does it unpack to?
+
+- [ ] flex: 0 0 100;
+- [x] flex: 1 0 0;
+- [ ] flex: 0 0 auto;
+- [ ] flex: 1 1 auto;
+
+[Source: stackoverflow](https://stackoverflow.com/questions/37386244/what-does-flex-1-mean)
