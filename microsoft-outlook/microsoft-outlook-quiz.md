@@ -180,7 +180,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 - [ ] color
 - [ ] folder
-- [ ] name
+- [x] name
 - [ ] name and color
 
 #### Q26. Outlook autocompletes email addresses you have used previously, including addresses that you mistyped. How can you remove an incorrect autocomplete suggestion?
@@ -206,7 +206,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 #### Q29. You are viewing a date three months in the future, in Month view. You switch to check an email in the same window. When you switch back to the calendar, what will Outlook display?
 
-- [ ] the current month
+- [x] the current month
 - [ ] the Month view for a date three months in the future
 - [ ] the current date in Day view
 - [ ] the current date in Week view
@@ -487,6 +487,11 @@ D. Because you cannot create a search folder for a subfolder
 
 #### Q67. You are viewing your calendar in work week view and see a thin horizonatal line running IEWING YOUR CALENDAR IN WORK WEEK VIEW AND SEE A THIN HORIZONTAL LINE RUNNING ACROSS ALL DAYS AT THE 2:30 P.M. POSITION. WHAT DOES THIS TELL YOU?
 
+- [ ] Your next appointment is at 2:30 p.m.
+- [ ] You have a recurring appointment at 2:30 p.m.on each day of the week.
+- [ ] Your calendar is free from 2:30 p.m. on.
+- [x] The current time is 2:30 p.m.
+
 #### Q68. You have a message in your Inbox that has a blue down arrow. What does it mean?
 
 - [ ] The message needs to finish downloading.
@@ -555,11 +560,13 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] a subfolder
 - [ ] a compressed file
 - [ ] a file system folder
-- [ ] an archive
+- [x] an archive
+
+[Reference](https://www.extendoffice.com/documents/outlook/5238-outlook-move-items-older-than.html)
 
 #### Q77. What happens when you delete a folder that contains emails in Outlook?
 
 - [ ] The folder is emptied and then moved to Deleted Items.
 - [ ] You cannot delete a folder until its contents are deleted first.
 - [ ] The contents are moved to Deleted Items, and then the empty folder is moved to Deleted Items.
-- [ ] The folder and its contents are moved to Deleted Items at the same time.
+- [x] The folder and its contents are moved to Deleted Items at the same time.
