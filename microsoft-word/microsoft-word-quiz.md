@@ -167,7 +167,7 @@ File -> Open -> Recent -> Recover Unsaved Documents
 File -> Info -> Manage Document -> Recover Unsaved Documents  
 Read carefully. It's not about recovering, but only the last recent file!
 
-#### Q23. What can you **NOT** insert into a Word document from the Insert tab?
+#### Q23. Which object type can you *not* insert into a Word document from the **Insert** tab?
 
 - [x] a sketch
 - [ ] a symbol
