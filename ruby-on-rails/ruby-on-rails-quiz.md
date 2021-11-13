@@ -706,24 +706,31 @@ Order.limit(3).each { |order| puts order.line_items }
 #### Q56. Within a Rails model with a `cache_key` method, which code snippet will expire the cache whenever the model is updated?
 
 - [ ] A
+
 ```ruby
 after_update_commit do
 destroy
 end
 ```
+
 - [ ] B
+
 ```ruby
 after_destroy do
 Rails.cache.delete(cache_key)
 end
 ```
+
 - [ ] C
+
 ```ruby
 after_update_commit do
 Rails.cache.delete(cache_key)
 end
 ```
+
 - [x] D
+
 ```ruby
 after_update_commit do
 Rails.cache.destroy(cache_key)
@@ -762,22 +769,29 @@ end
 ```
 
 - [ ] A
+
 ```ruby
 rescue => e
   logger.info e
 end
 ```
+
 - [x] B
+
 ```ruby
 rescue_from ActiveRecord::RecordNotFound, with: :render_not_found_response
 ```
+
 - [ ] C
+
 ```ruby
 rescue ActiveRecord::RecordNotFound
   render json: { message: 'User not found' }, status: :not_found
 end
 ```
+
 - [ ] D
+
 ```ruby
 raise ActiveRecord::RecordNotFound
   render json: { message: 'User not found' }, status: :user_not_found

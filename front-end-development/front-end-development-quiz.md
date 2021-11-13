@@ -487,6 +487,7 @@ console.log(currencies);
 [Source: W3Schools](https://www.w3schools.com/tags/tag_nav.asp)
 
 #### Q51. You discover that CSS is being loaded on a website using the following code. Why might a web developer have done this?
+
 `<link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="style.css"></noscript>`
 
 - [x] The CSS is being loaded asynchronously in order to prevent render blocking.
