@@ -483,3 +483,10 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 - [ ] Memento defers the exact steps of an algorithm to a subclass. Observer defines a new operation to a class without change.
 - [ ] Memento alters an object's behavior when its state changes. Observer encapsulates an algorithm inside a class.
 - [x] Memento captures and restores an object's internal state. Observer notifies multiple classes of changes.
+
+#### Q65. What does the value (0.5,0.5,0.5) indicate in the class diagram specification position: Coordinate = (0.5,0.5,0.5)?
+
+- [ ] a default value of the Coordinate attribute
+- [ ] the size of the position array
+- [ ] an increment of the position attribute vlue
+- [x] a default value of the position attribute
