@@ -126,8 +126,8 @@
 
 - [ ] `application/json`
 - [ ] `application/json_version2`
-- [x] `text/html`
-- [ ] `application/vnd.myapp.v2+json`
+- [] `text/html`
+- [x] `application/vnd.myapp.v2+json`
 
 #### Q18. What is one benefit that OAuth provides over an API key approach?
 
