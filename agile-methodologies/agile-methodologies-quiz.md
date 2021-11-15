@@ -66,7 +66,7 @@
 - [ ] high-value and low-risk
 - [ ] low-value and low-risk
 
-It is suggested that high business value, high-risk items are worked on first. While that may seem counterintuitive, the earlier this work is done, the sooner the team will move to mitigate the issues and unknowns—leading to a higher quality product. If there's a failure, it will occur early and relatively inexpensively. [(Source)](https://agilescrumguide.com/blog/files/tag-product-backlog---business-value-and-risk.html)
+`It is suggested that high business value, high-risk items are worked on first. While that may seem counterintuitive, the earlier this work is done, the sooner the team will move to mitigate the issues and unknowns—leading to a higher quality product. If there's a failure, it will occur early and relatively inexpensively.` [(Source)](https://agilescrumguide.com/blog/files/tag-product-backlog---business-value-and-risk.html)
 
 #### Q10. In the Scaled Agile Framework, what is the role of Enablers?
 
@@ -124,21 +124,21 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [ ] risk velocity chart
 - [x] risk burndown graph
 
-#### Q18. The VP of engineering wants to start a Team Member of the Sprint Award to recognize a top performer in each group. What would you advise the VP?
+#### Q18. The VP of Engineering wants to start giving out a "Team Member of the Sprint" award to recognize a top performer in each group. What advice should you give this VP?
 
-- [ ] This is not a good idea unless there has been recent employee feedback that people feel underappreciated.
-- [ ] It is a good idea as long as a different person is recognized in each sprint.
-- [ ] It is a good idea because awards can motivate people to do their best.
-- [x] This is not a good idea because it can destroy the team unity that is essential to achieving high performance.
+- [ ] This is unhelpful unless there has been recent employee feedback indicating that people feel underappreciated.
+- [ ] This is a good idea as long as a different person is recognized in each sprint.
+- [ ] This is a good idea because awards can motivate people to do their best.
+- [x] This is unhelpful because it can destroy the team unity essential to achieving high performance.
 
 #### Q19. What is a difference between a team's task board and a Kanban?
 
-- [x] A Kanban has an explicit rule to limit WIP. (explicit rule applies to scrum team's task board: tasks cannot be added to the scrum board in the middle of a sprint)
+- [x] A Kanban has an explicit rule to limit WIP.
 - [ ] A Kanban shows the backlog of work.
 - [ ] A Kanban does not use a Definition of Done.
 - [ ] A Kanban shows the status of the work items.
 
-[Source https://www.lucidchart.com/blog ....](https://www.lucidchart.com/blog/kanban-vs-scrum#:~:text=Both%20boards%20are%20used%20to,can%20be%20more%20easily%20adapted.)
+`Explicit rule applies to scrum team's task board: tasks cannot be added to the scrum board in the middle of a sprint.` [(Source)](https://www.lucidchart.com/blog/kanban-vs-scrum#:~:text=Kanban%20vs%20scrum)
 
 #### Q20. The team complains that "things have been falling through the cracks lately." What should you do?
 
@@ -473,12 +473,13 @@ It is suggested that high business value, high-risk items are worked on first. W
 
 #### Q67. What is the name of the ceremony in which you inspect the work completed during the sprint?
 
-- [ ] Sprint Retrospective (reflect on the previous sprint, discuss what’s working well, what could be improved, and how to improve it to be more productive)
-- [x] Sprint Review (discuss what has been accomplished during the sprint and whether the sprint goal has been met)
+- [ ] Sprint Retrospective 
+- [x] Sprint Review
 - [ ] Next-Sprint Planning
 - [ ] Velocity Confirmation
 
-[Source https://startinfinity.com/product-management-framework/scrum-sprin ...](https://startinfinity.com/product-management-framework/scrum-sprint/sprint-review-vs-sprint-retrospective)
+`Sprint Retrospective: Reflect on the previous sprint, discuss what’s working well, what could be improved, and how to improve it to be more productive.`
+`Sprint Review: Discuss what has been accomplished during the sprint and whether the sprint goal has been met.` [(Source)](https://startinfinity.com/product-management-framework/scrum-sprint/sprint-review-vs-sprint-retrospective)
 
 #### Q68. Which choice best describes an Agile Release Train (ART)?
 
@@ -515,8 +516,7 @@ It is suggested that high business value, high-risk items are worked on first. W
 - [ ] The stakeholders are ready to discuss their requirements for story.
 - [ ] The team has completed sprint 0 and is ready to work.
 
-`Definition of Ready means that stories must be immediately actionable. The Team must be able to determine what needs to be done and the amount of work required to complete the User Story.`
-[(Source)](https://www.scruminc.com/definition-of-ready/#:~:text=Having%20a%20Definition%20of%20Ready,the%20User%20Story%20or%20PBI.)
+`Definition of Ready means that stories must be immediately actionable. The Team must be able to determine what needs to be done and the amount of work required to complete the User Story.` [(Source)](https://www.scruminc.com/definition-of-ready/)
 
 #### Q73. Which is NOT a principle of the Scaled Agile Framework?
 
@@ -555,9 +555,16 @@ It is suggested that high business value, high-risk items are worked on first. W
 
 #### Q78. Which choice is a pillar of Lean?
 
-- [ ] frequent delivery of working software
-- [x] respect for people and culture
-- [ ] courage
-- [ ] sustainable pace
+- [ ] Frequent delivery of working software
+- [x] Respect for people and culture
+- [ ] Courage
+- [ ] Sustainable pace
 
-Two pillars are (1) Continuous Improvement, and (2) Respect for People. [(Source)](https://www.planview.com/resources/guide/lean-principles-101/what-is-lean/#:~:text=The%20two%20pillars%20of%20Lean,becoming%20healthier%2C%20more%20productive%20systems.)
+`Two pillars are (1) Continuous Improvement, and (2) Respect for People.` [(Source)](https://www.planview.com/resources/guide/lean-principles-101/what-is-lean/#:~:text=The%20Pillars%20of%20Lean)
+
+#### Q79. Which statement best describes Agile, Lean, and Six Sigma?
+
+- [ ] They are strategies for delivering customer value.
+- [ ] They were pioneered by Toyota.
+- [ ] They are strategies for discovering what the customer wants.
+- [ ] They are derived from statistical process control.

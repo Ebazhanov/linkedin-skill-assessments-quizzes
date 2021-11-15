@@ -190,6 +190,7 @@
 - [ ] 20
 
 #### Q29. Who does an audit committee report to?
+
 - [x] external auditors
 - [ ] senior management
 - [ ] board of directors

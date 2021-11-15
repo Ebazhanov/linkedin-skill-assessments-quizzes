@@ -831,3 +831,12 @@
 - [ ] The columns aren't wide enough to show the full date.
 - [ ] The time are incorrectly formatted as dates.
 - [ ] The text is incorrectly formatted as dates.
+
+#### Q102. You are determining `%` growth by dividing Growth by Sales. Which Excel function would you use to avoid #DIV/0! errors?
+
+![image](images/Q102.png)
+
+- [x] IFERROR
+- [ ] ROUND
+- [ ] ISERROR
+- [ ] DIVIDE
