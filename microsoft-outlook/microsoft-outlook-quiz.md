@@ -115,7 +115,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 #### Q16. A message on your summary list appears with a paper clip icon and an arrow pointing to the left. What does this indicate?
 
-- [ ] The message has been replied to and contains an attachment
+- [x] The message has been replied to and contains an attachment
 - [ ] The message has been flagged and contains an attachment
 - [ ] None of these answers
 - [ ] The message has been forwarded and contains an attachment
@@ -136,7 +136,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 #### Q19. There are two types of Outlook rules. One is server-based rules, which run for Exchange Server. What are the other kind, which in part or in whole cannot run on Exchange Server, and when do the execute?
 
-- [ ] client-only rules; when Outlook is running
+- [x] client-only rules; when Outlook is running
 - [ ] Outlook-based rules; when Outlook is running
 - [ ] None of these answers
 - [ ] Outlook-only rules; when Outlook is offline
@@ -187,8 +187,10 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 - [ ] Search the autocomplete library, select the incorrect suggestion, and then click Delete
 - [ ] Close Outlook, reboot your computer, and restart Outlook
-- [ ] Wait until the suggestion appears again, then highlight it and press the Delete key
+- [x] Wait until the suggestion appears again, then highlight it and press the Delete key
 - [ ] Delete the corresponding contact
+
+[Reference](https://support.microsoft.com/en-us/office/manage-suggested-recipients-in-the-to-cc-and-bcc-boxes-with-auto-complete-dbe46e31-c098-4881-8cf7-66b037bce23e)
 
 #### Q27. What is the key difference between an appointment and a meeting?
 
@@ -214,7 +216,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 #### Q30. When you @mention a colleague in an email message, what does not happen?
 
 - [ ] Your colleague's name is highlighted in the message
-- [ ] The colleague is automatically added to the To line
+- [x] The colleague is automatically added to the To line
 - [ ] @ appears next to the message in your colleague's Inbox
 - [ ] @ appears next to the email in your Sent items folder (Sent folder in Outlook for Mac)
 
@@ -269,7 +271,7 @@ C. Some people have already accepted, so you must cancel this meeting and create
 #### Q37. When accepting a meeting invitation, what happens if you click "Do not send a response"?
 
 - [ ] Outlook will send an email to the meeting organizer on your behalf
-- [ ] The meeting organizer will not receive an email with your response, and your response will be recorded
+- [x] The meeting organizer will not receive an email with your response, and your response will be recorded
 - [ ] The meeting organizer will not receive an email with your response, and your response will not be recorded
 - [ ] None of these answers
 
@@ -278,7 +280,7 @@ C. Some people have already accepted, so you must cancel this meeting and create
 - [ ] You set time constraints for looking events
 - [ ] You automatically switch to list view
 - [ ] You change the time zone that your calendar uses
-- [ ] You change the number of hours visible on the grid
+- [x] You change the number of hours visible on the grid
 
 #### Q39. Which is not a good reason to create a new calendar?
 
@@ -289,10 +291,12 @@ C. Some people have already accepted, so you must cancel this meeting and create
 
 #### Q40. Under what conditions can you successfully recall a message?
 
-- [ ] Only when the recipient is also using Outlook
+- [x] Only when the recipient is also using Outlook
 - [ ] Only if the email is plain text without attachments
 - [ ] If the email si still in your outbox
 - [ ] If the email was sent within the past 24 hours
+
+[Reference](https://support.microsoft.com/en-us/office/recall-or-replace-an-email-message-that-you-sent-35027f88-d655-4554-b4f8-6c0729a723a0)
 
 #### Q41. What rule can you create in View Settings to color code messages from a particular senderm such as your manager?
 
