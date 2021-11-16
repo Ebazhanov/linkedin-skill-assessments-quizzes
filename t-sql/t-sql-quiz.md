@@ -389,3 +389,10 @@ FROM Students
 - [ ] '123''123'
 - [x] 123123
 - [ ] 246
+
+#### Q38. To combine the results of two or more SELECT statements, removing duplicates, which keyword can you use?
+
+- [] DEDUPE
+- [] SELECT
+- [x] MERGE
+- [] UNION
