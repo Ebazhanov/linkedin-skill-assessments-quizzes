@@ -129,7 +129,7 @@
 
 - [ ] Template tags prefaced with the \_ don't accept arguments.
 - [ ] Template tags prefaced with the \_ can be used directly within a template.
-- [ ] Template tags prefaced with the \_ display a value. Template tags prefaced with get_the return a value.
+- [x] Template tags prefaced with the \_ display a value. Template tags prefaced with get_the return a value.
 - [ ] Template tags prefaced with the \_ return a value. Template tags prefaced with get_the display a value.
 
 #### Q17. WP_Query is the WordPress query class that is used to fetch posts from the database. How would you create a new instance of this class?
