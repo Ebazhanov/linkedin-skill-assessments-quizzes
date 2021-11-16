@@ -360,7 +360,7 @@
 - [ ] RGB
 - [x] sRGB
 
-[Reference](https://helpx.adobe.com/photoshop/using/dodge-burn-image-areas.html)
+[Reference](https://helpx.adobe.com/ca/photoshop/using/color-settings.html#:~:text=sRGB%20is%20recommended%20when%20you,as%20their%20default%20color%20space.)
 
 #### Q47. Which option do you use with the Dodge and Burn tools to prevent unwanted color changes like those shown in the image?
 
@@ -370,6 +370,8 @@
 - [x] Protect Tones
 - [ ] Use Pressure for Size
 - [ ] Protect Colors
+
+[Reference](https://helpx.adobe.com/photoshop/using/dodge-burn-image-areas.html)
 
 #### Q48. Which command in the **Smart Objects** submenu would you see to save the original file for the selected layer?
 
