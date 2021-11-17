@@ -911,15 +911,12 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 #### Q59. Review the code below. How do you include subnavigation for Link 2 that includes a link?
 
 ```markdown
-<ul>
-  <li><!a href="#">Link 1</a></li>
-  <li><!a href="#">Link 2</a>
-    <ul>
-      <li><!a href="#">Link 2a</a></li>
-    </ul>
-  </li>
-  <li><!a href="#">Link 3</a></li>
-</ul>
+
+<nav><ul>
+  <li><a href="#">Link 1</a></li>
+  <li><a href="#">Link 2</a></li>
+  <li><a href="#">Link 3</a></li> 
+</ul></nav>
 ```
 
 - [ ] A
@@ -1510,3 +1507,19 @@ x<y&z>w
 <label>
 <meter>
 ```
+
+#### Q96. What is wrong with this code?
+
+`<img src="https://source.unsplash.com/random">`
+
+- [ ] `<img>` should be paired with a `<caption>` tag.
+- [x] The `<img>` element is missing an alt attribute.
+- [ ] `<img>` is not a valid HTML element. Instead, use `<image src="..."/>`.
+- [ ] `<img>` should be nested within a `<figure>` tag.
+
+#### Q97. The ______ tag is used for marking ub a short code snippet, while the ______ tag is used for marking up a longer
+
+- [ ] <code>; <pre>
+- [ ] <kbd>; <mark>
+- [x] <pre>; <code>
+- [ ] <kbd>; <pre>
