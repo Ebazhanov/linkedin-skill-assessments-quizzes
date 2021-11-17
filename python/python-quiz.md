@@ -1314,3 +1314,29 @@ num_list[len(num_list)//2]
 - [x] my_game = Game() self.my_game.roll_dice()
 - [ ] my_game = Game() my_game.roll_dice()
 - [ ] my_game = Game(self) my_game.roll_dice(self)
+
+#### Q98. What is the output of this code? (NumPy has been imported as np.)?
+'''
+a = np.array([1,2,3,4])
+print(a[[False, True, False, False]])
+'''
+- [ ] {0,2} 
+- [x] [2]
+- [ ] {2}
+- [ ] [0,2,0,0]
+
+#### Q99. Suppose you have a string variable defined as y=”stuff;thing;junk;”. What would be the output from this code?
+'''
+Z = y.split(‘;’)
+len(z)
+'''
+- [ ] 17
+- [x] 4
+- [ ] 0
+- [ ] 3
+explanation:
+y=”stuff;thing;junk”
+	len(z) ==> 3
+
+y=”stuff;thing;junk;”
+	len(z) ==> 4
