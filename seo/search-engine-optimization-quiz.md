@@ -501,7 +501,7 @@
 #### Q57. What should be as consistent as possible across the web when developing a local SEO strategy?
 
 - [ ] backlinks
-- [ ] NAP
+- [x] NAP
 - [ ] LRP
 - [ ] inbound links
 
