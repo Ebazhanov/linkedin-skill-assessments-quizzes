@@ -505,6 +505,10 @@
 - [ ] LRP
 - [ ] inbound links
 
+  [reference #1](https://support.google.com/business/answer/7091)
+
+  [reference #2](https://www.smartinsights.com/search-engine-optimisation-seo/how-to-adjust-your-nap-profile-for-local-seo/)
+
 #### Q58.A user enters a search \_ to retrieve results from a search engine?
 
 - [x] query
