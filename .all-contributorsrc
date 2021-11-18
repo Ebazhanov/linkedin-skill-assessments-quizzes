@@ -6303,6 +6303,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "MahmudJewel",
+      "name": "Jewel Mahmud",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35461355?v=4",
+      "profile": "https://mahmudjewel.herokuapp.com/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
