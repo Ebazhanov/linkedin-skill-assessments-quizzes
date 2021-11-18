@@ -388,3 +388,10 @@
 - [ ] pinch outward
 - [ ] scroll with thumb instead
 - [ ] force click and drag
+
+#### Q44. What is a fixed disk
+
+- [ ] mass storage that has ben repaired
+- [x] nonremovable mass storage
+- [ ] any internal mass storage device
+- [ ] any mass storage device that is not a SSD
