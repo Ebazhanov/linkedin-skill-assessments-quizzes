@@ -473,7 +473,7 @@
 
 #### Q67. What is the name of the ceremony in which you inspect the work completed during the sprint?
 
-- [ ] Sprint Retrospective 
+- [ ] Sprint Retrospective
 - [x] Sprint Review
 - [ ] Next-Sprint Planning
 - [ ] Velocity Confirmation

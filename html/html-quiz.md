@@ -911,7 +911,6 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 #### Q59. Review the code below. How do you include subnavigation for Link 2 that includes a link?
 
 ```markdown
-
 <nav><ul>
   <li><a href="#">Link 1</a></li>
   <li><a href="#">Link 2</a></li>
@@ -1517,7 +1516,7 @@ x<y&z>w
 - [ ] `<img>` is not a valid HTML element. Instead, use `<image src="..."/>`.
 - [ ] `<img>` should be nested within a `<figure>` tag.
 
-#### Q97. The ______ tag is used for marking ub a short code snippet, while the ______ tag is used for marking up a longer
+#### Q97. The **\_\_** tag is used for marking ub a short code snippet, while the **\_\_** tag is used for marking up a longer
 
 - [ ] <code>; <pre>
 - [ ] <kbd>; <mark>

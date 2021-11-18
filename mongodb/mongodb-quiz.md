@@ -281,6 +281,7 @@
 - [x] `db.vehicle.distinct("category").length`
 
 Note: count() works with find(...) but length works with distinct
+
 #### Q41. From the MongoDB shell, how do you create a new document in the customers collection?
 
 - [ ] `db.customers.add({name: "Bob"})`
