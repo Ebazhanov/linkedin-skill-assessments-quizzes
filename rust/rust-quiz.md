@@ -27,7 +27,7 @@ str::thread::spawn(|| {
 - [ ] boolean
 - [ ] tuple
 
-#### Q4. **\_** cannot be destructured.
+#### Q4. **\_______** cannot be destructured.
 
 - [ ] Traits
 - [ ] Tuples
@@ -40,3 +40,49 @@ str::thread::spawn(|| {
 - [ ] cargo init
 - [ ] cargo build
 - [ ] cargo check
+
+#### Q6. The term _box_ and related phrases such as _boxing a value_ are often used when relating to memory layout. What does _box_ refer to?
+
+- [ ] It's creating a pointer on the heap that points to a value on the stack.
+- [ ] It's creating a pointer on the stack that points to a value on the heap.
+- [ ] It's creating a memory guard around values to prevent illegal access.
+- [ ] It's an abstraction that refers to ownership. "Boxed" values are clearly labelled.
+
+#### Q7. What is an alternative way of writing `slice` that produces the same result?
+
+```rust
+...
+let s = String::form("hello");
+let slice = &s[0..2];
+```
+
+- [ ] let slice = &s[len + 2];
+- [ ] let slice = &s[len - 2];
+- [ ] let slice = &s.copy(0..2);
+- [ ] let slice = &s[..2];
+
+#### Q8. Using the `?` operator at the end of an expression is equivalent to **\_______**.
+
+- [ ] a match pattern that branches into True or False
+- [ ] calling ok_error()
+- [ ] calling panic!()
+- [ ] a match pattern that may result an early return 
+
+#### Q9. Which is valid syntax for defining an array of i32 values?
+
+- [ ] Array<i32>::with_capacity(10)
+- [ ] [i32]
+- [ ] Array<i32>::new(10)
+- [ ] [i32; 10]
+
+#### Q10. What syntax is required to take a mutable reference to T, when used within a function argument?
+
+```rust
+fn increment(i: T) {
+  // body elided
+}
+```
+- [ ] *mut T
+- [ ] mut ref T
+- [ ] mut &T
+- [ ] &mut T
