@@ -86,3 +86,10 @@ fn increment(i: T) {
 - [ ] mut ref T
 - [ ] mut &T
 - [ ] &mut T
+  
+#### Q11. The smart pointers Rc and Arc provide reference counting. What is the API for incrementing a reference count?
+
+- [ ] .add()
+- [ ] .incr()
+- [ ] .clone()
+- [ ] .increment()
