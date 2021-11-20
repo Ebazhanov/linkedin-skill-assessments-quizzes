@@ -86,3 +86,18 @@ fn increment(i: T) {
 - [ ] mut ref T
 - [ ] mut &T
 - [ ] &mut T
+
+#### Q11. The smart pointers Rc and Arc provide reference counting. What is the API for incrementing a reference count?
+
+- [ ] .add()
+- [ ] .incr()
+- [ ] .clone()
+- [ ] .increment()
+  
+#### Q12. What happens when an error occurs that is being handled by the question mark (?) operator?
+
+- [ ] The error is reported and execution continues.
+- [ ] An exception is raised. The effect(s) of the exception are defined by the error! macro.
+- [ ] The program panics immediately.
+- [ ] Rust attempts to convert the error to the local function's error type and return it as Result::Err. If that fails, the program panics.
+  
