@@ -671,3 +671,24 @@ Reference: [Spring RequestMapping](https://www.baeldung.com/spring-requestmappin
 - [ ] Facade
 - [ ] Reactive Chain
 - [ ] Observer
+
+#### Q65. What methods does this Pointcut expression?
+
+`within(com.linkedin.service..*)`
+
+- [ ] any join point only within the service package
+- [ ] This is not valid Pointcut expression
+- [ ] any method in a class that autowires a service bean
+- [X] any join point within the service package or one of its subpackages
+
+
+#### Q66. What is the output from invoking this Actuator endpoint in an unmodified Spring Boot application generated using Spring Intializr?
+
+`/shutdown`
+
+- [X] The request would fail because the endpoint is disabled by default.
+- [ ] The Spring Boot app would return a URL and a list of currently running processes, and ask you to confirm the shutdown command.
+- [ ] The Spring Boot app would return a URL to confirm the shutdown command.
+- [ ] The Spring Boot app would begin shutting down.
+
+Reason: By default, all the endpoints are enabled in Spring Boot Application except /shutdown; this is, naturally, part of the Actuator endpoints.
