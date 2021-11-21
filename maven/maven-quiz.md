@@ -362,7 +362,7 @@ mvn install
 - [ ] clean and install
 - [ ] validate, clean and deploy
 
-#### Q49. A compile-time dependency of a dependency for your project is often called a______ dependency.
+#### Q49. A compile-time dependency of a dependency for your project is often called **a\_** dependency.
 
 - [ ] Transitive
 - [ ] runtime

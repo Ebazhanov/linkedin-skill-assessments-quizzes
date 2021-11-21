@@ -27,7 +27,7 @@ str::thread::spawn(|| {
 - [ ] boolean
 - [ ] tuple
 
-#### Q4. **\_______** cannot be destructured.
+#### Q4. **\_** cannot be destructured.
 
 - [ ] Traits
 - [ ] Tuples
@@ -61,12 +61,12 @@ let slice = &s[0..2];
 - [ ] let slice = &s.copy(0..2);
 - [ ] let slice = &s[..2];
 
-#### Q8. Using the `?` operator at the end of an expression is equivalent to **\_______**.
+#### Q8. Using the `?` operator at the end of an expression is equivalent to **\_**.
 
 - [ ] a match pattern that branches into True or False
 - [ ] calling ok_error()
 - [ ] calling panic!()
-- [ ] a match pattern that may result an early return 
+- [ ] a match pattern that may result an early return
 
 #### Q9. Which is valid syntax for defining an array of i32 values?
 
@@ -82,7 +82,8 @@ fn increment(i: T) {
   // body elided
 }
 ```
-- [ ] *mut T
+
+- [ ] \*mut T
 - [ ] mut ref T
 - [ ] mut &T
 - [ ] &mut T
@@ -93,11 +94,10 @@ fn increment(i: T) {
 - [ ] .incr()
 - [ ] .clone()
 - [ ] .increment()
-  
+
 #### Q12. What happens when an error occurs that is being handled by the question mark (?) operator?
 
 - [ ] The error is reported and execution continues.
 - [ ] An exception is raised. The effect(s) of the exception are defined by the error! macro.
 - [ ] The program panics immediately.
 - [ ] Rust attempts to convert the error to the local function's error type and return it as Result::Err. If that fails, the program panics.
-  

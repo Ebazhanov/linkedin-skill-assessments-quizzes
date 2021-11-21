@@ -370,4 +370,3 @@ Note: Free trial doesn't have the organizations.
 - [ ] Cloud Run
 - [ ] Google Kubernetes Engine
 - [ ] Google Compute Engine
-
