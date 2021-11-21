@@ -356,3 +356,18 @@ Note: Free trial doesn't have the organizations.
 - [ ] Create an image
 
 [Source: LinkedIn Assessment Practice mode](https://i.imgur.com/9rNe5MV.png)
+
+#### Q48. You are implementing IAM roles for your organization following GCP best practice. Which statement best reflects this?
+
+- [ ] At minimum, you should have two levels of access: one for admins, one for users.
+- [ ] At minimum, you should have three levels of access: one for networking, one for security, one for developers.
+- [ ] At minimum, you should have three levels of access: one for admins, one for security, one for users.
+- [ ] At minimum, you should have two levels of access: one for networking, one for developers.
+
+#### Q49. You need to quickly build an application that logs all file uploads to a Cloud Storage bucket. Which service do you select?
+
+- [ ] Cloud Functions
+- [ ] Cloud Run
+- [ ] Google Kubernetes Engine
+- [ ] Google Compute Engine
+
