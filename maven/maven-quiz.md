@@ -340,3 +340,31 @@ mvn install
 - [x] Compile
 - [ ] Runtime
 - [ ] Build
+
+#### Q46. How many times is compiler:compile called when executing mvn clean compile test package?
+
+- [ ] one
+- [ ] two
+- [ ] none
+- [ ] three
+
+#### Q47. What is one of the advantages of using properties in Maven?
+
+- [ ] Properties provide a template for you to build Maven projects with a certain structure.
+- [ ] Properties allow you to inherit values from the parent POM in the child POM.
+- [x] You can avoid hard-coding values in multiple places.
+- [ ] Properties speed up your Maven build.
+
+#### Q48. What are the phases of the clean lifecycle?
+
+- [x] pre-clean,clean and post-clean
+- [ ] Compile, clean and install
+- [ ] clean and install
+- [ ] validate, clean and deploy
+
+#### Q49. A compile-time dependency of a dependency for your project is often called a______ dependency.
+
+- [ ] Transitive
+- [ ] runtime
+- [ ] provided
+- [ ] test
