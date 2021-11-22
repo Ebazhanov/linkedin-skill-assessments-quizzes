@@ -882,3 +882,10 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [x] space
 - [ ] tab
 - [ ] return
+
+### Q85. What technique can you use to safely encode very large numbers?
+
+- [x] Store the number as a string
+- [ ] Convert the number into an exponent.
+- [ ] Round the number to the nearest 10-digit number.
+- [ ] Split the number into smaller parts.
