@@ -707,8 +707,6 @@ Dog
 - [ ] model
 - [ ] view
 
-
-
 ##### Q60. Which script might be used to continue a user's search for music, across different webpages?
 
 - [ ] 
@@ -739,8 +737,7 @@ Dog
     3  $music = $_SESSION['music'];
     4 ?>
   ```
-
-
+  
 ##### Q61. Which PHP script finds the earliest and latest dates from an array?
 
 - [x] 
@@ -776,8 +773,6 @@ Dog
     5 ?>
   ```
 
-
-
 ##### Q62. What is the resulting output of this for statement?
 
   ```php
@@ -790,37 +785,31 @@ Dog
   ```
 
 - [x] 
-1 kilometers = 0.6214 miles.
-
-2 kilometers = 1.2428 miles.
-
+```
+1 kilometers = 0.6214 miles. 
+2 kilometers = 1.2428 miles. 
 3 kilometers = 1.8642 miles.
-
 4 kilometers = 2.4856 miles.
-
-5 kilometers = 3.107 miles.
+5 kilometers = 3.107 miles. 
+```
 
 - [ ] 
+```
 1 kilometers = 0.6214 miles.
-
 2 kilometers = 1.2428 miles.
-
 3 kilometers = 1.8642 miles
-
 4 kilometers = 2.4856 miles.
-
 5 kilometers = 3.107 miles.
-
 6 kilometers = 3.7284 miles.
+```
 
 - [ ] 
+```
 2 kilometers = 1.2428 miles.
-
 3 kilometers = 1.8642 miles.
-
 4 kilometers = 2.4856 miles.
-
 5 kilometers = 3.107 miles.
+```
 
-- [ ]  FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2
+- [ ] FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2
 
