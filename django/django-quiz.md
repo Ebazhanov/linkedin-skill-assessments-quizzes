@@ -583,6 +583,12 @@ model=Planet
 - [ ] request.FILES; BLOBField
 - [x] request.FILES; FileField
 - [ ] request.META.Files; CLOBField
+  
+#### Q66. What python module might be used to store the current state of a Django model in a file?
 
+- [x] pickle
+- [ ] struct
+- [ ] marshal
+- [ ] serialize
 
 
