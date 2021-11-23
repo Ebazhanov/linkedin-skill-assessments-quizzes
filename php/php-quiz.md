@@ -767,7 +767,7 @@ Dog
     4 echo "Earliest Date: ". ($dates)."\n";
     5 ?>
   ```
-- [] 
+- [ ] 
   ```php
     1 <?php
     2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
