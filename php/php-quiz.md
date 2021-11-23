@@ -774,42 +774,38 @@ Dog
   ```
 
 ##### Q62. What is the resulting output of this for statement?
-
-  ```php
-    1  $kilometers = 1;
-    2 for (;;) {
-    3    if ($kilometers > 5) break;
-    4       echo "$kilometers kilometers = ".$kilometers*0.62140. " miles. <br />";
-    5    $kilometers++;
-    6  }
-  ```
+```php
+1  $kilometers = 1;
+2 for (;;) {
+3    if ($kilometers > 5) break;
+4       echo "$kilometers kilometers = ".$kilometers*0.62140. " miles. <br />";
+5    $kilometers++;
+6  }
+```
 
 - [x] 
-    ```
-    1 kilometers = 0.6214 miles. 
-    2 kilometers = 1.2428 miles. 
+  ```php
+    1 kilometers = 0.6214 miles.
+    2 kilometers = 1.2428 miles.
     3 kilometers = 1.8642 miles.
     4 kilometers = 2.4856 miles.
-    5 kilometers = 3.107 miles. 
-    ```
-
+    5 kilometers = 3.107 miles.
+  ```
 - [ ] 
-    ```
+  ```php
     1 kilometers = 0.6214 miles.
     2 kilometers = 1.2428 miles.
     3 kilometers = 1.8642 miles
     4 kilometers = 2.4856 miles.
     5 kilometers = 3.107 miles.
     6 kilometers = 3.7284 miles.
-    ```
-
+  ``` 
 - [ ] 
-    ```
+  ```php
     2 kilometers = 1.2428 miles.
     3 kilometers = 1.8642 miles.
     4 kilometers = 2.4856 miles.
     5 kilometers = 3.107 miles.
-    ```
-
+  ```
 - [ ] FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2
 
