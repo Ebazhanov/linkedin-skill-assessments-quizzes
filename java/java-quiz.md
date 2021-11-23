@@ -1392,3 +1392,20 @@ public class Main {
 - [x] Throwable
 - [ ] Object
 - [ ] Serializable
+
+#### Q99. What is the output of this code?
+
+```java
+ class Main {
+    public static void main(String[] args) {
+      String message = "Hello world!";
+      String newMessage = message.substring(6, 12) + message.substring(12, 6)
+      System.out.println(newMessage);
+    }
+}
+```
+
+- [x] A runtime exception is thrown because the index 12 is out of range.
+- [ ] world!!world
+- [ ] world!world!
+- [ ] A runtime exception is thrown because you cannot add strings with a plus sign.
