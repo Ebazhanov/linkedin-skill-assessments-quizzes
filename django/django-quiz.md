@@ -535,3 +535,54 @@ model=Planet
 - [ ] to set up a database for testing
 - [x] to modify the initial QuerySet that the Manager returns
 - [ ] to filter the results that a database query returns
+
+#### Q60. In Django, what are used to customize the data that is sent to the templates?
+
+- [ ] models
+- [ ] views
+- [x] forms
+- [ ] serializers
+
+#### Q61. To complete the conditional, what should this block of code end with?
+
+```
+{% if sparles >= 50 %}
+  Lots of sparkles!
+{% elif sparkles == 42 %}
+  The answer to life, the universe, and everything!
+```
+- [ ] {% endif %}
+- [ ] Nothing else is needed.
+- [x] {% end%}
+- [ ] {% else %}
+
+#### Q62. You have inherited a Django project and need to get it running locally. It comes with a requirements.txt file containing all its dependencies. Which command should you use?
+
+- [ ] python install -r requirements.txt
+- [ ] django-admin startproject requirements.txt
+- [x] pip install Django
+- [ ] pip install -r requirements.txt
+
+#### Q63. When should you employ the POST method over the GET method for submitting data from a form?
+
+- [ ] when the data in the form may be sensitive
+- [ ] when you want the data to be cached
+- [x] when you want to use your browser to help with debugging
+- [ ] when efficiency is important
+
+#### Q64. What is a callable that takes a value and raises an error if the value fails to meet some criteria?
+
+- [ ] mediator
+- [ ] validator
+- [x] regular expression
+- [ ] deodorizer
+
+#### Q65. You are uploading a file to Django from a form and you want to save the received file as a field on a model object. You can simply assign the file object from___to a field of type____in the model.
+
+- [ ] request.META; FileField
+- [ ] request.FILES; BLOBField
+- [x] request.FILES; FileField
+- [ ] request.META.Files; CLOBField
+
+
+
