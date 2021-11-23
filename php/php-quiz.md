@@ -706,3 +706,106 @@ Dog
 - [x] controller
 - [ ] model
 - [ ] view
+
+##### Q60. Which script might be used to continue a user's search for music, across different webpages?
+
+- [ ] 
+  ```php
+    1 <?php
+    2 start_session();
+    3 $music = $_SESSION['music'];
+    4 ?>
+  ```
+- [ ] 
+  ```php
+    1 <?php
+    2    session_start();
+    3    $music = $SESSION['music'];
+    4 ?>
+  ``` 
+- [ ] 
+  ```php
+    1 <?php
+    2   start_session();
+    3   $music =$session['music'];
+    4 ?>
+  ```
+- [x] 
+  ```php
+    1 <?php
+    2  session_start();
+    3  $music = $_SESSION['music'];
+    4 ?>
+  ```
+  
+##### Q61. Which PHP script finds the earliest and latest dates from an array?
+
+- [x] 
+  ```php
+    1 <?php
+    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+    3 echo "Latest Date: ". max($dates)."\n";
+    4 echo "Earliest Date: ". min($dates)."\n";
+    5 ?>
+  ```
+- [ ] 
+  ```php
+    1 <?php
+    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+    3 echo "Latest Date: ". min($dates)."\n";
+    4 echo "Earliest Date: ". max($dates)."\n";
+    5 ?>
+  ``` 
+- [ ] 
+  ```php
+    1 <?php
+    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+    3 echo "Latest Date: ". ($dates)."\n";
+    4 echo "Earliest Date: ". ($dates)."\n";
+    5 ?>
+  ```
+- [ ] 
+  ```php
+    1 <?php
+    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+    3 echo "Latest Date: " max($dates)."\n";
+    4 echo "Earliest Date: " min($dates)."\n";
+    5 ?>
+  ```
+
+##### Q62. What is the resulting output of this for statement?
+```php
+1  $kilometers = 1;
+2 for (;;) {
+3    if ($kilometers > 5) break;
+4       echo "$kilometers kilometers = ".$kilometers*0.62140. " miles. <br />";
+5    $kilometers++;
+6  }
+```
+
+- [x] 
+  ```php
+    1 kilometers = 0.6214 miles.
+    2 kilometers = 1.2428 miles.
+    3 kilometers = 1.8642 miles.
+    4 kilometers = 2.4856 miles.
+    5 kilometers = 3.107 miles.
+  ```
+- [ ] 
+  ```php
+    1 kilometers = 0.6214 miles.
+    2 kilometers = 1.2428 miles.
+    3 kilometers = 1.8642 miles
+    4 kilometers = 2.4856 miles.
+    5 kilometers = 3.107 miles.
+    6 kilometers = 3.7284 miles.
+  ``` 
+- [ ] 
+  ```php
+    2 kilometers = 1.2428 miles.
+    3 kilometers = 1.8642 miles.
+    4 kilometers = 2.4856 miles.
+    5 kilometers = 3.107 miles.
+  ```
+- [ ] FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2
+
