@@ -739,3 +739,39 @@ Dog
     3  $music = $_SESSION['music'];
     4 ?>
   ```
+
+
+##### Q61. Which PHP script finds the earliest and latest dates from an array?
+
+- [x] 
+  ```php
+    1 <?php
+    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+    3 echo "Latest Date: ". max($dates)."\n";
+    4 echo "Earliest Date: ". min($dates)."\n";
+    5 ?>
+  ```
+- [ ] 
+  ```php
+    1 <?php
+    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+    3 echo "Latest Date: ". min($dates)."\n";
+    4 echo "Earliest Date: ". max($dates)."\n";
+    5 ?>
+  ``` 
+- [ ] 
+  ```php
+    1 <?php
+    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+    3 echo "Latest Date: ". ($dates)."\n";
+    4 echo "Earliest Date: ". ($dates)."\n";
+    5 ?>
+  ```
+- [] 
+  ```php
+    1 <?php
+    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+    3 echo "Latest Date: " max($dates)."\n";
+    4 echo "Earliest Date: " min($dates)."\n";
+    5 ?>
+  ```
