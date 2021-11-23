@@ -1089,3 +1089,36 @@ console.log(obj2.a, obj2.b);
 - [x] 0 2
 - [ ] undefined 2
 - [ ] undefined 2
+  
+#### Q96. What is the output of this code?
+
+```js
+let rainForests = ['Amazon', 'Borneo', 'Cerrado', 'Congo'];
+rainForests.splice(0, 2);
+console.log(rainForests);
+```
+
+- [ ] `["Amazon","Borneo","Cerrado","Congo"]`
+- [x] `["Cerrado", "Congo"]`
+- [ ] `["Congo"]`
+- [ ] `["Amazon","Borneo"]`
+
+#### Q97. What line is missing from this code?
+
+```js
+//Missing Line
+for(var i = 0; i < vowels.length; i++){
+   console.log(vowels[i]);
+   //Each letter printed on a separate line as follows;
+   //a
+   //e
+   //i
+   //o
+   //u
+}                               
+```
+
+- [ ] `let vowels = "aeiou".toArray();`
+- [ ] `let vowels = Array.of("aeiou");`
+- [ ] `let vowels = {"a", "e", "i", "o", "u"};`
+- [x] `let vowels = "aeiou";`
