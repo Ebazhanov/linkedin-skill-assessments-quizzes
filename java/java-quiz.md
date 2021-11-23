@@ -1409,3 +1409,10 @@ public class Main {
 - [ ] world!!world
 - [ ] world!world!
 - [ ] A runtime exception is thrown because you cannot add strings with a plus sign.
+
+#### Q100. Which class does not implement the java.util.Collection interface?
+
+- [x] java.util.Vector
+- [ ] java.util.ArrayList
+- [ ] java.util.HashSet
+- [ ] java.util.HashMap
