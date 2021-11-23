@@ -897,3 +897,14 @@ const MyComponent = ({ names }) => (
 - [x] React does not allow components to return more than one element.
 - [ ] The component needs to use the return keyword.
 - [ ] String literals must be surrounded by quotes.
+
+#### Q78. When using a portal, what is the second argument?
+
+```javascript
+ReactDOM.createPortal(x, y);
+```
+
+- [ ] the App component
+- [ ] the page
+- [ ] the current state
+- [x] the DOM element that exists outside of the parent component
