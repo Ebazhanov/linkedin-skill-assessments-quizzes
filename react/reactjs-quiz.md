@@ -908,3 +908,31 @@ ReactDOM.createPortal(x, y);
 - [ ] the page
 - [ ] the current state
 - [x] the DOM element that exists outside of the parent component
+
+#### Q79. Given this code, what will be printed in the <h1> tag?
+
+```javascript
+const MyComponent = ({ children }) => (
+  <h1>{children.length}</h1>
+);
+...
+<MyComponent>
+<p>Hello</p>
+<p>Goodbye</p>
+</MyComponent>
+```
+
+- [ ] It will produce an error saying "cannot read property "length" of undefined."
+- [ ] 1
+- [ ] undefined
+- [x] 2
+  
+### Q80. What is this pattern called?
+
+```javascript
+const [count, setCount] = useState(0);
+```
+- [ ] object destructuring
+- [x] array destructuring
+- [ ] spread operating
+- [ ] code pushing
