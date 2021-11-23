@@ -706,3 +706,36 @@ Dog
 - [x] controller
 - [ ] model
 - [ ] view
+
+
+
+##### Q60. Which script might be used to continue a user's search for music, across different webpages?
+
+- [ ] 
+  ```php
+    1 <?php
+    2 start_session();
+    3 $music = $_SESSION['music'];
+    4 ?>
+  ```
+- [ ] 
+  ```php
+    1 <?php
+    2    session_start();
+    3    $music = $SESSION['music'];
+    4 ?>
+  ``` 
+- [ ] 
+  ```php
+    1 <?php
+    2   start_session();
+    3   $music =$session['music'];
+    4 ?>
+  ```
+- [x] 
+  ```php
+    1 <?php
+    2  session_start();
+    3  $music = $_SESSION['music'];
+    4 ?>
+  ```
