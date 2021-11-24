@@ -399,13 +399,13 @@ StDf[, -1]
 
 - [ ] file.list()
 - [ ] file.select()
-- [ ] file.choose()
+- [x] file.choose()
 - [ ] file.open()
 
 #### Q41. How are these data types alike: logical, integer, numeric, and character?
 
 - [ ] Each is a type of data frame.
-- [ ] Each is a type of atomic vector.
+- [x] Each is a type of atomic vector.
 - [ ] Each is a type of complex vector.
 - [ ] Each is a type of raw vector.
 
@@ -423,7 +423,7 @@ MyMat = matrix(c(7, 9, 8, 6, 10, 12),nrow=2,ncol=3, byrow = TRUE)
 [2, ] 12
 ```
 
-- [ ]
+- [x]
 
 ```
 [1] 8 12
@@ -446,7 +446,7 @@ MyMat = matrix(c(7, 9, 8, 6, 10, 12),nrow=2,ncol=3, byrow = TRUE)
 #### Q43. What does the function `power.anova.test` return?
 
 - [ ] the probability of making a Type I error
-- [ ] the probability of not making a Type II error
+- [x] the probability of not making a Type II error
 - [ ] the probability of making a Type II error
 - [ ] the probability of not making a Type I error
 
@@ -465,12 +465,12 @@ result <- lm(outcome ~ covariate + factor + covariate:factor, data = testcoef)
 
 - [ ] integers and real values
 - [ ] integers, real, and raw values
-- [ ] real values only
+- [x] real values only
 - [ ] integers, real, and logical values
 
 #### Q46. What is the legitimate name of a data class in R?
 
 - [ ] property
-- [ ] integer
+- [x] integer
 - [ ] number
 - [ ] variant
