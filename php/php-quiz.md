@@ -774,6 +774,7 @@ Dog
   ```
 
 ##### Q62. What is the resulting output of this for statement?
+
 ```php
 1  $kilometers = 1;
 2 for (;;) {
@@ -808,4 +809,3 @@ Dog
     5 kilometers = 3.107 miles.
   ```
 - [ ] FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2
-

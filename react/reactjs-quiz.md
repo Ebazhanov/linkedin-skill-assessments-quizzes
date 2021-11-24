@@ -926,12 +926,13 @@ const MyComponent = ({ children }) => (
 - [ ] 1
 - [ ] undefined
 - [x] 2
-  
+
 ### Q80. What is this pattern called?
 
 ```javascript
 const [count, setCount] = useState(0);
 ```
+
 - [ ] object destructuring
 - [x] array destructuring
 - [ ] spread operating

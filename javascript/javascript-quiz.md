@@ -1089,7 +1089,7 @@ console.log(obj2.a, obj2.b);
 - [x] 0 2
 - [ ] undefined 2
 - [ ] undefined 2
-  
+
 #### Q96. What is the output of this code?
 
 ```js
@@ -1107,15 +1107,15 @@ console.log(rainForests);
 
 ```js
 //Missing Line
-for(var i = 0; i < vowels.length; i++){
-   console.log(vowels[i]);
-   //Each letter printed on a separate line as follows;
-   //a
-   //e
-   //i
-   //o
-   //u
-}                               
+for (var i = 0; i < vowels.length; i++) {
+  console.log(vowels[i]);
+  //Each letter printed on a separate line as follows;
+  //a
+  //e
+  //i
+  //o
+  //u
+}
 ```
 
 - [ ] `let vowels = "aeiou".toArray();`

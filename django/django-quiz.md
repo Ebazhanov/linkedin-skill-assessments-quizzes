@@ -545,12 +545,13 @@ model=Planet
 
 #### Q61. To complete the conditional, what should this block of code end with?
 
-```shell
-{% if sparles >= 50 %}
-  Lots of sparkles!
-{% elif sparkles == 42 %}
-  The answer to life, the universe, and everything!
-```
+    {% if sparles >= 50 %}
+      Lots of sparkles!
+    {% elif sparkles == 42 %}
+
+      The answer to life, the universe, and everything!
+
+
 - [x] {% endif %}
 - [ ] Nothing else is needed.
 - [ ] {% end%}
@@ -577,18 +578,16 @@ model=Planet
 - [ ] regular expression
 - [ ] deodorizer
 
-#### Q65. You are uploading a file to Django from a form and you want to save the received file as a field on a model object. You can simply assign the file object from___to a field of type____in the model.
+#### Q65. You are uploading a file to Django from a form and you want to save the received file as a field on a model object. You can simply assign the file object from**\_to a field of type\_**in the model.
 
 - [ ] request.META; FileField
 - [ ] request.FILES; BLOBField
 - [x] request.FILES; FileField
 - [ ] request.META.Files; CLOBField
-  
+
 #### Q66. What python module might be used to store the current state of a Django model in a file?
 
 - [x] pickle
 - [ ] struct
 - [ ] marshal
 - [ ] serialize
-
-
