@@ -546,7 +546,7 @@ model=Planet
 #### Q61. To complete the conditional, what should this block of code end with?
 
 ```shell
-{% if sparles >= 50 %}
+% if sparles >= 50 %
   Lots of sparkles!
 % elif sparkles == 42 %
   The answer to life, the universe, and everything!
@@ -554,8 +554,8 @@ model=Planet
 
 - [x] `% endif %`
 - [ ] Nothing else is needed.
-- [ ] `{% end%}`
-- [ ] `{% else %}`
+- [ ] `% end%`
+- [ ] `% else %`
 
 #### Q62. You have inherited a Django project and need to get it running locally. It comes with a requirements.txt file containing all its dependencies. Which command should you use?
 
