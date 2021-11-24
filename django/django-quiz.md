@@ -545,7 +545,7 @@ model=Planet
 
 #### Q61. To complete the conditional, what should this block of code end with?
 
-```
+```shell
 {% if sparles >= 50 %}
   Lots of sparkles!
 {% elif sparkles == 42 %}
