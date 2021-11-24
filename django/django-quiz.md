@@ -545,10 +545,17 @@ model=Planet
 
 #### Q61. To complete the conditional, what should this block of code end with?
 
-- [x] {% endif %}
+```shell
+{% if sparles >= 50 %}
+  Lots of sparkles!
+% elif sparkles == 42 %
+  The answer to life, the universe, and everything!
+```
+
+- [x] `% endif %`
 - [ ] Nothing else is needed.
-- [ ] {% end%}
-- [ ] {% else %}
+- [ ] `{% end%}`
+- [ ] `{% else %}`
 
 #### Q62. You have inherited a Django project and need to get it running locally. It comes with a requirements.txt file containing all its dependencies. Which command should you use?
 
@@ -571,7 +578,7 @@ model=Planet
 - [ ] regular expression
 - [ ] deodorizer
 
-#### Q65. You are uploading a file to Django from a form and you want to save the received file as a field on a model object. You can simply assign the file object from**\_to a field of type\_**in the model.
+#### Q65. You are uploading a file to Django from a form and you want to save the received file as a field on a model object. You can simply assign the file object from**\_to a field of type\_\_**in the model.
 
 - [ ] request.META; FileField
 - [ ] request.FILES; BLOBField
