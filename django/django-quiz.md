@@ -547,7 +547,7 @@ model=Planet
 
     {% if sparles >= 50 %}
       Lots of sparkles!
-    {% elif sparkles == 42 %}
+    {{% elif sparkles == 42 %}}
 
       The answer to life, the universe, and everything!
 
