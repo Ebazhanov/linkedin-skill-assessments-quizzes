@@ -545,13 +545,6 @@ model=Planet
 
 #### Q61. To complete the conditional, what should this block of code end with?
 
-    {% if sparles >= 50 %}
-      Lots of sparkles!
-    {percent pro elif sparkles == 42 percent}
-
-      The answer to life, the universe, and everything!
-
-
 - [x] {% endif %}
 - [ ] Nothing else is needed.
 - [ ] {% end%}
