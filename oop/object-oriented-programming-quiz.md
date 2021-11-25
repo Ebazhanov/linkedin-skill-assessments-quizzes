@@ -253,11 +253,11 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [x] method overloading, because it allows the creation of several methods with the same name, wich differ by the type of input via parameter
 - [ ] method overriding, because it display the same method name, different parameters, and same return type
 
-#### Q34. What is the purpose os static constructor?
+#### Q34. What is the purpose of static constructor?
 
-- [x] to initialize all the members with static value
+- [ ] to initialize all the members with static value
 - [ ] to delete the static members when not required
-- [ ] to initialize the static members of class
+- [x] to initialize the static members of class
 - [ ] to clear all the static members' initialized values
 
 #### Q35. What are CRC Cards?
