@@ -235,9 +235,9 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 
 #### Q32. When and how often is a static constructor called?
 
-- [ ] It is called initially when an object is created and called with every new object instance.
+- [x] It is called initially when an object is created and called with every new object instance.
 - [ ] It is called when an object is destroyed and only one time.
-- [x] It is called initially when an object is created and only one time.
+- [ ] It is called initially when an object is created and only one time.
 - [ ] It is created at time when the object is discarded.
 
 #### Q33. What does the code shown below demonstrate, and why?
