@@ -65,8 +65,8 @@
 
 #### Q9. Which code creates a new object from the Employee class?
 
-- [ ] Employee current Employee = Employee.Create();
-- [x] Employee current Employee = new Employee();
+- [ ] Employee currentEmployee = Employee.Create();
+- [x] Employee currentEmployee = new Employee();
 - [ ] Employee currentEmployee;
 - [ ] Employee currentEmployee = Employee.New();
 
