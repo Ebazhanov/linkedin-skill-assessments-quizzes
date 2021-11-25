@@ -235,9 +235,9 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 
 #### Q32. When and how often is a static constructor called?
 
-- [x] It is called initially when an object is created and called with every new object instance.
+- [ ] It is called initially when an object is created and called with every new object instance.
 - [ ] It is called when an object is destroyed and only one time.
-- [ ] It is called initially when an object is created and only one time.
+- [x] It is called initially when an object is created and only one time.
 - [ ] It is created at time when the object is discarded.
 
 #### Q33. What does the code shown below demonstrate, and why?
@@ -255,9 +255,9 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 
 #### Q34. What is the purpose of static constructor?
 
-- [ ] to initialize all the members with static value
+- [x] to initialize all the members with static value
 - [ ] to delete the static members when not required
-- [x] to initialize the static members of class
+- [ ] to initialize the static members of class
 - [ ] to clear all the static members' initialized values
 
 #### Q35. What are CRC Cards?
