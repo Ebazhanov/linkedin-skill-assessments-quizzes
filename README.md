@@ -951,7 +951,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/jobaile"><img src="https://avatars.githubusercontent.com/u/39835911?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Joanna Baile</b></sub></a><br /><a href="#design-jobaile" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=jobaile" title="Code">💻</a></td>
-    <td align="center"><a href="https://ahmed0saber.github.io/portfolio/portfolio"><img src="https://avatars.githubusercontent.com/u/64714761?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ahmed Saber</b></sub></a><br /><a href="#design-ahmed0saber" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ahmed0saber" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ahmed0saber"><img src="https://avatars.githubusercontent.com/u/64714761?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ahmed Saber</b></sub></a><br /><a href="#design-ahmed0saber" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ahmed0saber" title="Code">💻</a></td>
   </tr>
 </table>
 

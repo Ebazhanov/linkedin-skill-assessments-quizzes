@@ -432,10 +432,10 @@ echo "No, mail is not set";
 
 ##### Q43. Assuming that `$first_name` and `$family_name` are valid strings, which statement is invalid?
 
-- [ ] `echo $first_name. ' '. $familiy_name;`
-- [x] `print $first_name, ' ', $familiy_name;`
-- [ ] `print $first_name. ' '. $familiy_name;`
-- [ ] `echo $first_name, ' ', $familiy_name;`
+- [ ] `echo $first_name. ' '. $family_name;`
+- [x] `print $first_name, ' ', $family_name;`
+- [ ] `print $first_name. ' '. $family_name;`
+- [ ] `echo $first_name, ' ', $family_name;`
 
 ##### Q44. Which code snippet demonstrates encapsulation?
 
@@ -809,3 +809,11 @@ Dog
     5 kilometers = 3.107 miles.
   ```
 - [ ] FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2
+
+
+##### Q63. In PHP 7, What is the correct way to import multiple classes from namespace in a single declaration ?!
+
+- [x] use myApp\myNamespace\{ClassA, ClassB, ClassC};
+- [ ] use myApp\myNamespace\ClassA, ClassB, ClassC;
+- [ ] use myApp\myNamespace\[ClassA, ClassB, ClassC];
+- [ ] use myApp\myNamespace\(ClassA, ClassB, ClassC);
