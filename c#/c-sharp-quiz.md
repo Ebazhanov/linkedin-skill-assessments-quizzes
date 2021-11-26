@@ -256,12 +256,10 @@ foreach(string employee in employeeQuery)
 
 - [ ] The thread is destroyed and memory is freed up.
 - [ ] The thread runs in loop until the next assignment.
-- [x] The thread goes inactive in the background and waits for garbage collection.
-- [ ] The thread returns to the pool for reuse.
+- [ ] The thread goes inactive in the background and waits for garbage collection.
+- [x] The thread returns to the pool for reuse.
 
-**Reference** [Official documentation: ThreadPool Class](https://docs.microsoft.com/en-us/dotnet/api/system.threading.threadpool?view=net-5.0)
-
-**Reference** [Official documentation: Thread Class](https://docs.microsoft.com/en-us/dotnet/api/system.threading.thread?view=net-5.0)
+**Reference** [Official documentation: Thread pool characteristics](https://docs.microsoft.com/en-us/dotnet/standard/threading/the-managed-thread-pool#thread-pool-characteristics)
 
 #### Q23. Which choice represents a class that inherits behavior from a base class?
 
