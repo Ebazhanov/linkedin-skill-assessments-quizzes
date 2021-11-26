@@ -665,3 +665,10 @@ public int Password
 - [ ] public Exception InvalidResponse () -> Exception;
 
 **Reference:** [Official documentation: Exceptions](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/how-to-create-user-defined-exceptions)
+
+#### Q61. How would you write an enum variable called AppState with values for Offline, Loading, and Ready?
+
+- [ ] enum AppState = [Offline, Loading, Ready]
+- [ ] enum AppState {"Offline", "Loading", "Ready"}
+- [ ] enum AppState = {Offline, Loading, Ready}
+- [x] enum AppState {Offline, Loading, Ready}
