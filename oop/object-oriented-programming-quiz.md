@@ -483,5 +483,5 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 
 - [ ] a default value of the Coordinate attribute
 - [ ] the size of the position array
-- [ ] an increment of the position attribute vlue
+- [ ] an increment of the position attribute value
 - [x] a default value of the position attribute
