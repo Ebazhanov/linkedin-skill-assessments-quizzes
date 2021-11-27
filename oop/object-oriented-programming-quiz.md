@@ -65,8 +65,8 @@
 
 #### Q9. Which code creates a new object from the Employee class?
 
-- [ ] Employee current Employee = Employee.Create();
-- [x] Employee current Employee = new Employee();
+- [ ] Employee currentEmployee = Employee.Create();
+- [x] Employee currentEmployee = new Employee();
 - [ ] Employee currentEmployee;
 - [ ] Employee currentEmployee = Employee.New();
 
@@ -253,7 +253,7 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [x] method overloading, because it allows the creation of several methods with the same name, wich differ by the type of input via parameter
 - [ ] method overriding, because it display the same method name, different parameters, and same return type
 
-#### Q34. What is the purpose os static constructor?
+#### Q34. What is the purpose of static constructor?
 
 - [x] to initialize all the members with static value
 - [ ] to delete the static members when not required
@@ -263,7 +263,7 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 #### Q35. What are CRC Cards?
 
 - [ ] Code Responsibility Collection cards are a brainstorming tool used in the design of procedural software
-- [x] Class responsible collaboration cards are a brainstorming tool used in the design of oop software
+- [x] Class Responsibility collaboration cards are a brainstorming tool used in the design of oop software
 - [ ] Code Responsibility Correction cards are tools used for debugging
 - [ ] Code Responsibility Correction cards are tools for modeling
 
@@ -461,12 +461,7 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 - [x] No, changes will be automatically reflected in the calling function.
 - [ ] Yes, the object must be the same in the caller function.
 
-#### Q62. Why is inheritance ?
-
-- [ ] Yes, the caller function needs to reflect the changes.
-- [ ] No, you should use a global variable instead.
-- [ ] No, changes will be automatically reflected in the calling function.
-- [ ] Yes, the object must be the same in the caller function.
+#### Q62. Why is inheritance?
 
 #### Q63. What is the best example of a superclass and subclass relationship?
 
@@ -488,5 +483,5 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 
 - [ ] a default value of the Coordinate attribute
 - [ ] the size of the position array
-- [ ] an increment of the position attribute vlue
+- [ ] an increment of the position attribute value
 - [x] a default value of the position attribute
