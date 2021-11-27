@@ -543,3 +543,10 @@ console.log(person);
 - [x] asyncify
 - [ ] types
 - [ ] callbackify
+
+#### Q65. Which choice is not a subclass of the Error class?
+
+- [x] GlobalError
+- [ ] TypeError
+- [ ] RangeError
+- [ ] AssertionError
