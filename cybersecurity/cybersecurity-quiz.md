@@ -296,8 +296,13 @@
 
 - [ ] Autopsy
 - [ ] Snort
-- [ ] Nmap
-- [x] Wireshark
+- [x] Nmap
+- [ ] Wireshark
+
+nmap is a port scanner
+wireshark is a traffic analyzer
+snort is an IDS
+autopsy is for forensic analysis
 
 #### Q39. When implementing a data loss prevention (DLP) strategy, what is the first step in the process?
 
