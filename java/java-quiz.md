@@ -1416,3 +1416,10 @@ public class Main {
 - [ ] java.util.ArrayList
 - [ ] java.util.HashSet
 - [ ] java.util.HashMap
+
+#### Q101. You have a variable of named `employees` of type `List<Employee>` containing multiple entries. The `Employee` type has a method `getName()` that returns te employee name. Which statement properly extracts a list of employee names?
+
+- [ ] `employees.collect(employee -> employee.getName());`
+- [ ] `employees.filter(Employee::getName).collect(Collectors.toUnmodifiableList());`
+- [x] `employees.stream().map(Employee::getName).collect(Collectors.toList());`
+- [ ] `employees.stream().collect((e) -> e.getName());`
