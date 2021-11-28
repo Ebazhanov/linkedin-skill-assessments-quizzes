@@ -246,28 +246,28 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 
 #### Q33. Which choice will not print "Hello World" in the terminal?
 
-- [ ]
+- [ ] A
 
 ```bash
 myVar = 5
 [[ $myVar -lt 10 ]] && echo " Hello World"
 ```
 
-- [x]
+- [x] B
 
 ```bash
 myVar = 5
 [[ $myVar -lt 10 ]] || echo " Hello World"
 ```
 
-- [x]
+- [x] C
 
 ```bash
 myVar = 5
 [[ $myVar -gt 10 ]] && echo " Hello World"
 ```
 
-- [ ]
+- [ ] D
 
 ```bash
 myVar = 5
@@ -545,3 +545,17 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
 - [ ] --selinux
 - [ ] --MAC
 - [x] -Z
+
+#### Q67. What is the difference between the whoami and logname commands?
+
+- [ ] whoami and logname provide the same information.
+- [x] whoami tells who are you currently, and logname tells who you were when you logged in initially. 
+- [ ] logname specifies the name of the login log file, and whoami prints the logged in username.
+- [ ] whoami shows you who logged in as initially, and logname shows who are you currently.
+
+#### Q68. What is the command to create an associative array in Bash?
+
+- [ ] declare -a
+- [ ] aarray
+- [ ] array -a
+- [x] declare -A
