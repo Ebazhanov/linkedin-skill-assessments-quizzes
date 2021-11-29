@@ -101,3 +101,25 @@ fn increment(i: T) {
 - [ ] An exception is raised. The effect(s) of the exception are defined by the error! macro.
 - [ ] The program panics immediately.
 - [ ] Rust attempts to convert the error to the local function's error type and return it as Result::Err. If that fails, the program panics.
+
+#### Q13. Which comment syntax is not legal?
+
+- [ ] /*
+- [ ] #
+- [ ] //!
+- [ ] //
+  
+#### Q14. In matching patterns, values are ignored with _.
+
+- [ ] .ignore()
+- [ ] an underscore (_)
+- [ ] ..
+- [ ] skip
+  
+#### Q15. Defining a _ requires a lifetime parameter.
+
+- [ ] function that ends the lifetime of one of its arguments
+- [ ] struct that contains a reference to a value
+- [ ] function with a generic argument
+- [ ] struct that contains a reference to a boxed value
+  
