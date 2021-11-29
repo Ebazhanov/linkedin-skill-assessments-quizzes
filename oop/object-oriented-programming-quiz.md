@@ -485,3 +485,49 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 - [ ] the size of the position array
 - [ ] an increment of the position attribute value
 - [x] a default value of the position attribute
+
+#### Q66. What is the most accurate example of the Liskov substitution principle?
+
+- [ ]
+```
+public class Car{
+}
+public class FlyingCars extends Car{
+   public void fly(){}
+}
+public class Tesla FlyingCar{}
+public class Honda Car{}
+```
+- [ ]
+```
+public class Car{
+   public void fly(){}
+}
+public class Tesla extends Car{}
+public class Honda extends Car{}
+```
+- [ ]
+```
+public class Car{
+public void fly(){}
+}
+public class Tesla Car{}
+public class Honda Car{}
+```
+- [x]
+```
+public class Car{
+}
+public class FlyingCars extends Car{
+   public void fly(){}
+}
+public class Tesla extends FlyingCar{}
+public class Honda extends Car{}
+```
+
+#### Q67. What is the difference between a parameter and an argument?
+
+- [ ] An argument can have many values while a parameter can have only one value.
+- [ ] An argument is the variable used for input values in a method. A parameter is the specific input value passed to the method.
+- [x] A parameter is a variable in the declaration of a function. An argument is the value of this variable that gets passed to the function.
+- [ ] Parameters and arguments are the same
