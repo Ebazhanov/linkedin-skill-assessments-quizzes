@@ -649,3 +649,26 @@ public int Password
 - [ ] The finalize block is called during the execution of a try and catch block, while the finally method is called after garbage collection.
 
 **Reference:** [C-sharpcorner](https://www.c-sharpcorner.com/forums/final-finally-and-finalize)
+
+#### Q59. Your application has a value type called username that needs to be able to accept null values, but this is generating compile-time errors. How would you fix this in code?
+
+- [ ] Null<string> username = null;
+- [x] string? username = null;
+- [ ] Type<string>? username = null;
+- [ ] Optional<string> username = null;
+
+#### Q60. Which code snippet correctly declares a custom exception named InvalidResponse?
+
+- [ ] struct InvalidResponse: Exception {}
+- [x] class InvalidResponse: Exception {}
+- [ ] public Exception InvalidResponse = new Exception ();
+- [ ] public Exception InvalidResponse () -> Exception;
+
+**Reference:** [Official documentation: Exceptions](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/how-to-create-user-defined-exceptions)
+
+#### Q61. How would you write an enum variable called AppState with values for Offline, Loading, and Ready?
+
+- [ ] enum AppState = [Offline, Loading, Ready]
+- [ ] enum AppState {"Offline", "Loading", "Ready"}
+- [ ] enum AppState = {Offline, Loading, Ready}
+- [x] enum AppState {Offline, Loading, Ready}
