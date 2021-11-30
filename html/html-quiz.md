@@ -1516,9 +1516,13 @@ x<y&z>w
 - [ ] `<img>` is not a valid HTML element. Instead, use `<image src="..."/>`.
 - [ ] `<img>` should be nested within a `<figure>` tag.
 
-#### Q97. The **\_\_** tag is used for marking ub a short code snippet, while the **\_\_** tag is used for marking up a longer
+#### Q97. The **\_\_** tag is used for marking up a short code snippet, while the **\_\_** tag is used for marking up a longer code snippet.
 
-- [ ] <code>; <pre>
-- [ ] <kbd>; <mark>
-- [x] <pre>; <code>
-- [ ] <kbd>; <pre>
+- [x] `<code>`; `<pre>`
+- [ ] `<kbd>`; `<mark>`
+- [ ] `<pre>`; `<code>`
+- [ ] `<kbd>`; `<pre>`
+
+[Source: MDN Web Docs code](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
+
+[Source: MDN Web Docs pre](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)
