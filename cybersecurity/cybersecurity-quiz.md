@@ -299,7 +299,7 @@
 - [x] Nmap
 - [ ] Wireshark
 
-nmap is a port scanner
+nmap is a port scanner [https://en.wikipedia.org/wiki/Nmap](https://en.wikipedia.org/wiki/Nmap)
 wireshark is a traffic analyzer
 snort is an IDS
 autopsy is for forensic analysis
