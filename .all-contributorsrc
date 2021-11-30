@@ -6443,6 +6443,15 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "elulcao",
+      "name": "Daniel Carvallo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6373960?v=4",
+      "profile": "http://gist.github.com/elulcao",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
