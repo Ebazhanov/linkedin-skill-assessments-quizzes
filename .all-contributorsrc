@@ -6453,6 +6453,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "menaechmi",
+      "name": "menaechmi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18483935?v=4",
+      "profile": "https://github.com/menaechmi",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
