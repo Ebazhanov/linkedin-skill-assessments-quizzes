@@ -308,9 +308,9 @@
 
 #### Q40. Which malware changes an operating system and conceals its tracks?
 
-- [x] virus
+- [ ] virus
 - [ ] worm
-- [ ] rootkit
+- [x] rootkit
 - [ ] Trojan horse
 
 #### Q41. Virtual Private Networks (VPNs) use **\_** to create a secure connection between two networks.
