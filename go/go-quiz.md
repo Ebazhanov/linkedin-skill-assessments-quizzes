@@ -344,14 +344,28 @@ Relevant excerpt from the article:
 - [ ] go test all
 - [ ] go run --all
 - [ ] go test .
-- [ ] go test ./...
+- [x] go test ./...
+
+Reference: [Example of testing in Go (Golang)](https://pkg.go.dev/testing)
+
+Reference: [Example of cmd in Go (Golang)](https://pkg.go.dev/cmd/go)
+
+Relevant excerpt from the article:
+
+> _Relative patterns are also allowed, like "go test ./..." to test all subdirectories._
 
 #### Q29. Which encodings can you put in a string?
 
 - [ ] any, it accepts arbitary bytes
 - [ ] any Unicode format
 - [ ] UTF-8 or ASCII
-- [ ] UTF-8
+- [x] UTF-8
+
+Reference: [Example of encoding in Go (Golang)](https://pkg.go.dev/golang.org/x/text/encoding)
+
+Relevant excerpt from the article:
+
+> _Package encoding defines an interface for character encodings, such as Shift JIS and Windows 1252, that can convert to and from UTF-8._
 
 #### Q30. How is the behavior of `t.Fatal` different inside a `t.Run`?
 
@@ -364,5 +378,24 @@ Relevant excerpt from the article:
 
 - [ ] It raises a panic.
 - [ ] It prints the log and then raises a panic.
-- [ ] It prints the log and then safely exits the program.
+- [x] It prints the log and then safely exits the program.
 - [ ] It exits the program.
+
+Reference: [Example of func Fatal in Go (Golang)](https://pkg.go.dev/log#Fatal)
+
+Relevant excerpt from the article:
+
+> _Fatal is equivalent to Print() followed by a call to os.Exit(1)._
+
+#### Q32. Which is a valid Go time format literal?
+
+- [x] "2006-01-02"
+- [ ] "YYYY-mm-dd"
+- [ ] "y-mo-d"
+- [ ] "year-month-day"
+
+Reference: [Example of func Time in Go (Golang)](https://pkg.go.dev/time)
+
+Relevant excerpt from the article:
+
+> _Most programs can use one of the defined constants as the layout passed to Format or Parse. The rest of this comment can be ignored unless you are creating a custom layout string._

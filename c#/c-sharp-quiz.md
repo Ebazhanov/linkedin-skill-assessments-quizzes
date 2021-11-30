@@ -256,12 +256,10 @@ foreach(string employee in employeeQuery)
 
 - [ ] The thread is destroyed and memory is freed up.
 - [ ] The thread runs in loop until the next assignment.
-- [x] The thread goes inactive in the background and waits for garbage collection.
-- [ ] The thread returns to the pool for reuse.
+- [ ] The thread goes inactive in the background and waits for garbage collection.
+- [x] The thread returns to the pool for reuse.
 
-**Reference** [Official documentation: ThreadPool Class](https://docs.microsoft.com/en-us/dotnet/api/system.threading.threadpool?view=net-5.0)
-
-**Reference** [Official documentation: Thread Class](https://docs.microsoft.com/en-us/dotnet/api/system.threading.thread?view=net-5.0)
+**Reference** [Official documentation: Thread pool characteristics](https://docs.microsoft.com/en-us/dotnet/standard/threading/the-managed-thread-pool#thread-pool-characteristics)
 
 #### Q23. Which choice represents a class that inherits behavior from a base class?
 
@@ -649,3 +647,26 @@ public int Password
 - [ ] The finalize block is called during the execution of a try and catch block, while the finally method is called after garbage collection.
 
 **Reference:** [C-sharpcorner](https://www.c-sharpcorner.com/forums/final-finally-and-finalize)
+
+#### Q59. Your application has a value type called username that needs to be able to accept null values, but this is generating compile-time errors. How would you fix this in code?
+
+- [ ] Null<string> username = null;
+- [x] string? username = null;
+- [ ] Type<string>? username = null;
+- [ ] Optional<string> username = null;
+
+#### Q60. Which code snippet correctly declares a custom exception named InvalidResponse?
+
+- [ ] struct InvalidResponse: Exception {}
+- [x] class InvalidResponse: Exception {}
+- [ ] public Exception InvalidResponse = new Exception ();
+- [ ] public Exception InvalidResponse () -> Exception;
+
+**Reference:** [Official documentation: Exceptions](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/how-to-create-user-defined-exceptions)
+
+#### Q61. How would you write an enum variable called AppState with values for Offline, Loading, and Ready?
+
+- [ ] enum AppState = [Offline, Loading, Ready]
+- [ ] enum AppState {"Offline", "Loading", "Ready"}
+- [ ] enum AppState = {Offline, Loading, Ready}
+- [x] enum AppState {Offline, Loading, Ready}
