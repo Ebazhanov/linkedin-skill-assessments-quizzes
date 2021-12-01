@@ -48,10 +48,13 @@ https://docs.unity3d.com/2019.3/Documentation/Manual/CamerasOverview.html
 
 #### Q7. What does the Microphone class save captured audio data as?
 
-- [ ] An audio clip asset
+- [x] An audio clip asset
 - [ ] An MP3 file
 - [ ] A WAV file
 - [ ] An OGG file
+
+The Microphone class saves captured audio as an audio clip asset, which may then be stored as a OGG file.
+https://docs.unity3d.com/ScriptReference/Microphone.html
 
 #### Q8. Cinemachine offers tools for building gameplay behaviours. Which component makes spline based paths for moving objects?
 
