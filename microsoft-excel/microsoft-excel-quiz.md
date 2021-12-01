@@ -840,3 +840,19 @@
 - [ ] ROUND
 - [ ] ISERROR
 - [ ] DIVIDE
+
+#### Q103. You have a worksheet in Excel that will print as 10 pages. How can you ensure that the header row is printed at the top of each page?
+
+- [ ] Use Print Titles on the Page Layout tab.
+- [ ] Use Page Setup from the Backstage View.
+- [ ] Use Freeze Panes on the View tab.
+- [ ] Format your data as a table; the header prints automatically.
+
+#### Q104. Which value is returned when you enter this function into cell G2? ```=IF(SUM(F2:F6)>12,"Too Many Tardy Days","No Tardiness Issue")```
+
+![Shift Code](images/Q104.jpg)
+
+- [ ] Too Many Tardy Days
+- [ ] #NUM!
+- [ ] No Tardiness Issue
+- [ ] #REF!
