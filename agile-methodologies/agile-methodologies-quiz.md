@@ -568,3 +568,24 @@
 - [ ] They were pioneered by Toyota.
 - [ ] They are strategies for discovering what the customer wants.
 - [ ] They are derived from statistical process control.
+
+#### Q80. What is a user story?
+
+- [ ] A description of what an actor wants to do in order to accomplish a goal
+- [ ] A description of archetypal users so the developers can make the solution user-friendly
+- [ ] A report from the field about a user's experience with the product
+- [x] The Agile term for a requirement
+
+#### Q81. What is the expected output of a Planning Poker meeting?
+
+- [x] The stories were discussed and each had a story point estimate assigned.
+- [ ] The team gave feedback to the Product Owner about the acceptance criteria.
+- [ ] The team decided what stories should be developed within the same sprint.
+- [ ] The team made a preliminary plan for which stories will be completed in the next quarter.
+
+#### Q82. What is the definition of velocity?
+
+- [x] The number of story points delivered during a sprint
+- [ ] The average waiting time for a story on the sprint backlog
+- [ ] The average wait time for a story to move from the product backlog to the sprint backlog
+- [ ] The time it takes a developer to complete a story divided by its relative value
