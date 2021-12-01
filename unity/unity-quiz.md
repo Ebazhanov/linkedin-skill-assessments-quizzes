@@ -26,10 +26,12 @@
 #### Q4. Unity scenes may be saved entirely in the YAML format. Why might you do this?
 
 - [ ] To reduce scene file size
-- [ ] To externally parse a scene and its objects
+- [x] To externally parse a scene and its objects
 - [ ] To optimize scene loading and unloading
 - [ ] To improve platform compatibility
 
+>Also, the text data can be generated and parsed by tools, making it possible to create and analyze scenes automatically.
+https://docs.unity3d.com/2021.2/Documentation/Manual/TextSceneFormat.html
 #### Q5. Orthographic cameras remove which visual effect?
 
 - [ ] Gamma color space
@@ -45,8 +47,11 @@ https://pbr-book.org/3ed-2018/Camera_Models/Projective_Camera_Models#Orthographi
 
 - [ ] To override standard scene cameras with cinematic behaviours
 - [ ] To determine what cameras will see when arriving at specific locations
-- [ ] To create predefined camera presets to apply on standard cameras
+- [x] To create predefined camera presets to apply on standard cameras
 - [ ] To act as dummy cameras for fooling meshes into thinking they are being seen
+
+>Use the Aim, Body, and Noise properties to specify how the Virtual Camera animates position, rotation, and other properties. The Virtual Camera applies these settings to the Unity Camera when Cinemachine Brain or Timeline transfers control of the Unity camera to the Virtual Camera.
+https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineVirtualCamera.html
 
 #### Q7. What does the Microphone class save captured audio data as?
 
@@ -170,10 +175,13 @@ https://docs.unity3d.com/ScriptReference/SerializeField.html
 
 #### Q23. What is a technique for optimizing Unity UI elements?
 
-- [ ] Group static UI elements on one canvas, and dynamic elements on a separate canvas
+- [x] Group static UI elements on one canvas, and dynamic elements on a separate canvas
 - [ ] Position all canvas objects to the world origin
 - [ ] Group as many UI elements as possible onto only one canvas
 - [ ] Divide the screen into multiple canvas objects, each sized to a quarter of the screen size
+
+Every time an element on a canvas is updated, the whole canvas is redrawn. If elements are never being updated, keeping them on a single canvas is ideal.
+https://unity.com/how-to/unity-ui-optimization-tips
 
 #### Q24. What does the C# Space attribute used below achieved?
 
@@ -212,9 +220,12 @@ https://docs.unity3d.com/ScriptReference/SpaceAttribute.html
 #### Q28. You are making a game where you need to execute your own functions in response to critical animation events for a rigged character. Specifically, there are two events you must handle: when an animation state is entered and when it is exited in the Animator graph. Which class may be used to invoke your code when those two events happen?
 
 - [ ] AnimatorClipInfo
-- [ ] StateMachineBehaviour
+- [x] StateMachineBehaviour
 - [ ] AnimationInfo
 - [ ] AnimatorUtility
+
+```OnStateMachineEnter()``` and ```OnStateMachineExit()``` are the methods of the StateMachineBehavior class that handle this. AnimatorClipInfo displays information about the current clip being played, AnimatiorUtility deals with transform hierarchy, and AnimationInfo was removed in version 5.0.
+https://docs.unity3d.com/ScriptReference/StateMachineBehaviour.html
 
 #### Q29. How can you change the unique bundle identifier for a mobile build?
 
