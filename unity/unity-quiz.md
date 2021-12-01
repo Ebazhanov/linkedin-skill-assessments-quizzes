@@ -294,3 +294,163 @@ https://github.com/Unity-Technologies/DeLightingTool/blob/master/Assets/DeLighti
 - [x] Avatar facilitate animation retargeting across different humanoid characters
 - [ ] Avatar define IK data for animated characters
 - [ ] Avatars describe how textures map on deforming objects during animation
+
+#### Q39. You can perfectly align two mesh objects together at the vertices by using vertex snapping. How do you best access this tool?
+
+![Vertex](images/Q39.png?raw=true)
+
+- [ ] Select a mesh object and press the W key over the destination vertex
+- [ ] While holding down the C key, click and drag from the source to the destination mesh
+- [ ] Select **Edit > Enable Vertex Snap** from the menu, and then select your object
+- [x] While holding down the V key, click and drag your object from a corner vertex to its destination
+
+https://docs.unity3d.com/Manual/PositioningGameObjects.html#VtxSnapping
+
+#### Q40. Which statement best descibes the function Quaternion.Euler?
+
+- [ ] It prints a Quaternion to a string that shows its X, Y, and Z rotation in degrees
+- [ ] It converts a 3D orientation from Radiens to a Quaternion
+- [x] It converts a 3D orientation that is measured in degrees into a Quaternion
+- [ ] It converts a Quaternion into a Vector3 in which X, Y, and Z are measured in degrees
+
+Simplfying the math: Unity uses Quaternions internally to avoid Gimbal lock. 
+The Euler XYZ (Pitch, Yaw, and Roll) axises can lock up when two axies are aligned.
+Quaternion.Euler converts the Euler number provided to the internally used Quarternion, to prevent this problem.
+https://docs.unity3d.com/ScriptReference/Quaternion.Euler.html
+
+#### Q41. What does the Destroy function do?
+
+- [ ] It deactivates the specified game object immidiately
+- [x] It deletes the specified game object after the current update loop
+- [ ] It deletes the specified game object when the application terminates
+- [ ] It deletes the specified game object immidaitely
+
+>The object obj is destroyed immediately after the current Update loop, or t seconds from now if a time is specified.
+https://docs.unity3d.com/ScriptReference/Object.Destroy.html
+
+#### Q42. You can programmatically control audio effects, like Pitch and Reverb, from C# scripts using which feature of an Audio Mixer asset?
+
+- [ ] audio attenuation
+- [x] exposed parameters
+- [ ] ParamEQ
+- [ ] Audio Mixer groups
+
+Audio attenuation is about energy loss, commonly refered to as "gain". ParamEQ allows you to change the frequency of the audio - "pitch", with no C# support. Audio Mixer groups do allow you to control audio effects, but not through C#.
+Official Unity Tutorial: https://www.youtube.com/watch?v=9tqi1aXlcpE
+
+#### Q43. Multiple animations may be mixed together on a single character, selectively on different limbs. Which Mecanim feature supports this?
+
+- [ ] Mip Maps
+- [x] avatar masks
+- [ ] StateMachineBehaviour scripts
+- [ ] animation events
+
+Mip Maps are a technique that improves image quality and reduces rendering speed, at the cost of storage space, by including smaller copies of the image in the same file. Animation events allow you to call functions at points in the timeline. 
+https://docs.unity3d.com/Manual/class-AvatarMask.html
+
+#### Q44. What does the PlayableDirector component allow you to do?
+
+- [ ] run multiple functions on different game objects in parallel
+- [ ] switch between different scene cameras on demand
+- [x] control the playback of a timeline instance in the scene
+- [ ] record a gameplay session to a video file
+
+The PlayableDirector component stores the link between a Timeline instance and a Timeline Asset.
+https://docs.unity3d.com/2019.2/Documentation/Manual/class-PlayableDirector.html
+
+#### Q45. What does the Grid component do?
+
+- [ ] generate a grid sprite at world origin
+- [x] helps you move objects to fixed grid increments
+- [ ] reders and isometric grid in the scene during gameplay
+- [ ] generates a grid mesh at the world origin
+
+#### Q46. Timeline sequences can initiate code during an animation using which feature?
+
+ - [ ] EventSystem
+ - [x] markers
+ - [ ] signals
+ - [ ] packets
+
+EventSystem is not a timeline feature, neither are packets. Timeline signals are a subfeature of the markers, markers can directly initiate code, while a signal can only send the signal to a reciver.
+https://forum.unity.com/threads/new-in-2019-1-marker-customization.594712/ and https://blog.unity.com/technology/how-to-create-custom-timeline-markers
+
+#### Q47. Which code sample uses C# properties for creating the health functionality?
+
+- [ ] A
+```
+public class Health : MonoBehavior
+{
+    private float HealthPoints = 100f;
+    
+    public float GetHealth()
+    {
+        return HealthPoints;
+    }
+    
+    public void SetHealth(float Change)
+    {
+        HealthPoints += Change;
+        
+        if (HealthPoints <= 0)
+            Destroy(gameObject);
+     }
+}
+```
+- [ ] B
+```
+public class Health : MonoBehavior
+{
+    public UnityEvent OnHealthChanged;
+    
+    private float HealthPoints = 100f;
+    
+    public void SetHealth(float Change)
+    {
+        HealthPoints += Change;
+        OnHealthChanged.Invoke();
+    }
+    
+    public void Die()
+    {
+        Destroy(gameObject);
+    }
+}
+```
+- [x] C
+```
+public class Health : MonoBehavior
+{
+    public float HealthPoints
+    {
+        get { return _healthpoints; }
+        set
+        {
+            _healthpoints = value;
+            
+            if(_healthpoints <= 0 )
+            {
+                Destroy(gameObjects);
+            }
+        }
+    }
+    
+    private float _healthpoints = 100f;
+}
+```
+- [ ] D 
+```
+public class Health : MonoBehaviour
+{
+    public float HealthPoints = 100f;
+    
+    private void Update()
+    {
+        if (HealthPoints <- 0)
+            Destroy(gameObject);
+    }
+}
+```
+
+```get``` and ```set``` are the clear indicators that a C# property is being used.
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties
