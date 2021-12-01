@@ -489,7 +489,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Open your computer's Recycle Bin (Windows) or Trash (Mac).
 - [ ] Click the Undo button.
 
-#### Q67. You are viewing your calendar in work week view and see a thin horizonatal line running IEWING YOUR CALENDAR IN WORK WEEK VIEW AND SEE A THIN HORIZONTAL LINE RUNNING ACROSS ALL DAYS AT THE 2:30 P.M. POSITION. WHAT DOES THIS TELL YOU?
+#### Q67. You are viewing your calendar in Work Week view and see a thin horizontal line running across all days at the 2:30 p.m. position. What does this tell you?
 
 - [ ] Your next appointment is at 2:30 p.m.
 - [ ] You have a recurring appointment at 2:30 p.m.on each day of the week.
