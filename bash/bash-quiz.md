@@ -805,7 +805,7 @@ echo "$var" | sed _____
 
 #### Q65. How can you create a shared terminal in a Bash shell?
 
-- [ ] screen
-- [x] screen -X
+- [x] screen
+- [ ] screen -X
 - [ ] screen --shared
 - [ ] terminal -shared
