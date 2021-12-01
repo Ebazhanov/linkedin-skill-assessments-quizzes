@@ -843,10 +843,12 @@
 
 #### Q103. You have a worksheet in Excel that will print as 10 pages. How can you ensure that the header row is printed at the top of each page?
 
-- [ ] Use Print Titles on the Page Layout tab.
+- [x] Use Print Titles on the Page Layout tab.
 - [ ] Use Page Setup from the Backstage View.
 - [ ] Use Freeze Panes on the View tab.
 - [ ] Format your data as a table; the header prints automatically.
+
+https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-page-96719bd4-b93e-4237-8f97-d2cabb1b196a
 
 #### Q104. Which value is returned when you enter this function into cell G2? ```=IF(SUM(F2:F6)>12,"Too Many Tardy Days","No Tardiness Issue")```
 
@@ -854,5 +856,7 @@
 
 - [ ] Too Many Tardy Days
 - [ ] #NUM!
-- [ ] No Tardiness Issue
+- [x] No Tardiness Issue
 - [ ] #REF!
+
+0 + 0 + 3 + 6 + 3 = 12. The formula only dislays "Too Many Tardy Days" when it is more than 12.
