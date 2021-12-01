@@ -6152,7 +6152,8 @@
       "profile": "https://github.com/thibault-ketterer",
       "contributions": [
         "design",
-        "code"
+        "code",
+        "maintenance"
       ]
     },
     {
@@ -6450,6 +6451,16 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/6373960?v=4",
       "profile": "http://gist.github.com/elulcao",
       "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "menaechmi",
+      "name": "menaechmi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18483935?v=4",
+      "profile": "https://github.com/menaechmi",
+      "contributions": [
+        "design",
         "code"
       ]
     }

@@ -296,8 +296,13 @@
 
 - [ ] Autopsy
 - [ ] Snort
-- [ ] Nmap
-- [x] Wireshark
+- [x] Nmap
+- [ ] Wireshark
+
+nmap is a port scanner [https://en.wikipedia.org/wiki/Nmap](https://en.wikipedia.org/wiki/Nmap)
+wireshark is a traffic analyzer
+snort is an IDS
+autopsy is for forensic analysis
 
 #### Q39. When implementing a data loss prevention (DLP) strategy, what is the first step in the process?
 
@@ -308,9 +313,9 @@
 
 #### Q40. Which malware changes an operating system and conceals its tracks?
 
-- [x] virus
+- [ ] virus
 - [ ] worm
-- [ ] rootkit
+- [x] rootkit
 - [ ] Trojan horse
 
 #### Q41. Virtual Private Networks (VPNs) use **\_** to create a secure connection between two networks.

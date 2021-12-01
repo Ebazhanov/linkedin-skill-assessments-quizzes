@@ -1348,3 +1348,28 @@ y=”stuff;thing;junk”
 y=”stuff;thing;junk;”
 	len(z) ==> 4
 ```
+
+#### Q100. What is the output of this code?
+
+```
+num_list = [1,2,3,4,5]
+num_list.remove(2)
+print(num_list)
+```
+
+- [ ] [1,2,4,5]
+- [x] [1,3,4,5]
+- [ ] [3,4,5]
+- [ ] [1,2,3]
+
+explanation:
+
+```
+num_list = [1,2,3,4,5]
+
+num_list.pop(2)
+	[1,2,4,5]
+	
+num_list.remove(2)
+	[1,3,4,5]
+```
