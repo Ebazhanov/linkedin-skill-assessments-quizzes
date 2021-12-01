@@ -468,9 +468,12 @@
 `=SUMIFS(Colors[Inventory],Colors[Colors],"Orange")`
 
 - [ ] the Inventory worksheet in the Colors workbook
-- [ ] the Inventory column in the Colors table
+- [x] the Inventory column in the Colors table
 - [ ] the Colors worksheet in the Inventory workbook
 - [ ] the named range Colors[Inventory], which does not use Format as Table Feature
+
+Table[Column] can be used instead of cell references (C2:C7). 
+https://support.microsoft.com/en-us/office/using-structured-references-with-excel-tables-f5ed2452-2337-4f71-bed3-c8ae6d2b276e
 
 #### Q63. Which VLOOKUP function, when entered into cell L2 and then dragged to cell L5, returns the average number of calls for the representative IDs listed in column J?
 
@@ -533,7 +536,7 @@
 ![image](https://i.imgur.com/5owckbM.png)
 
 - [ ] On the PivotTable itself, drag each `Average` field into the row fields area.
-- [ ] Right-click a cel in the PivotTable and select `PivotTable Options > Classic PivotTable layout`.
+- [ ] Right-click a cell in the PivotTable and select `PivotTable Options > Classic PivotTable layout`.
 - [ ] In the `PivotTable Fields` pane, drag `Sum Values` from the `Columns` section to a location below the field in the `Rows` section.
 - [ ] In the `PivotTable Fields` pane, drag each field from the `Sum Values` section to the `Rows` section.
 
@@ -756,7 +759,9 @@
 - [ ] You cannot use one slicer for two PivotTables.
 - [ ] Right-click the slicer and select Slicer Settings.
 - [ ] Merge the two PivotTables, right-click the merged PivotTable, and select Combine Slicer.
-- [ ] Right-click the slicer and select Report Connections, or click Report Connections on the Slicer tab.
+- [x] Right-click the slicer and select Report Connections, or click Report Connections on the Slicer tab.
+
+https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-between-multiple-data-sets/
 
 #### Q93. Which formula contains a valid absolute reference?
 
@@ -828,7 +833,7 @@
 ![image](images/Q101.png)
 
 - [ ] The dates are erroneous, such as October 39, 2015.
-- [ ] The columns aren't wide enough to show the full date.
+- [x] The columns aren't wide enough to show the full date.
 - [ ] The time are incorrectly formatted as dates.
 - [ ] The text is incorrectly formatted as dates.
 
