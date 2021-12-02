@@ -560,9 +560,28 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
 - [ ] array -a
 - [x] declare -A
 
-#### Q69. What tool Should you use to replace a physical volum in LVM??
+#### Q69. What tool Should you use to replace a physical volum in LVM?
 
 - [ ] lvcopy
 - [ ] tar
 - [x] pvmove
 - [ ] cp
+
+#### Q70. What is the difference the `==` and `=~` comparison operators when used in BASH double square bracket `if` conditionals?
+
+- [ ] The `==` operator performs a string comparison; `=~` performs a regex comparison.
+- [x] The `==` operator performs a string comparison; `=~` performs a glob pattern comparison.
+- [ ] The `=~` operator performs a string comparison; `==` performs a regex comparison.
+- [ ] There is no `=~` operator in BASH `if` conditionals.
+
+#### Q71. What is the difference between these two lines of code?
+
+```shell
+   echo "data" | tee -a file.txt
+   echo "data" >> file.txt
+```
+
+- [ ] The first line will append the word `data` to file.txt and output it on the screen. The second line will append the word `data` only to file.txt.
+- [ ] They are the same.
+- [ ] The first line will append the word `data` to file.txt and there will be no output on the screen. The second line will output the word `data` on the screen and append it to `file.txt`
+- [ ] Both lines will overwrite file.txt with the word data.
