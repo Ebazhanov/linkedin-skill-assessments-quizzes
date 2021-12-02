@@ -394,3 +394,38 @@ autopsy is for forensic analysis
 - [ ] Certification
 - [ ] Reporting
 - [ ] Lessons Learned
+
+#### Q52. Which type of security assessment requires access to source code?
+
+- [ ] dynamic analysis
+- [x] static analysis
+- [ ] penetration testing
+- [ ] black box testing
+
+#### Q53. Which encryption type uses a public and private key pair for encrypting and decrypting data?
+
+- [x] asymmetric
+- [ ] symmetric
+- [ ] hashing
+- [ ] all of these answers
+
+#### Q54. You have just identified and mitigated an active malware attack on a user's computer, in which command and control was established. What is the next step in the process?
+
+- [ ] Reporting
+- [ ] Recovery
+- [ ] Eradiction / Remediation
+- [ ] Lessons Learned
+
+#### Q55. Which is *not* a principle of zero trust security?
+
+- [x] assume breach
+- [ ] verify explicitly
+- [ ] use least privilege access
+- [ ] trust but verify
+
+#### Q56. Which programming language is most susceptible to buffer overflow attacks?
+
+- [x] C
+- [ ] Java
+- [ ] Ruby
+- [ ] Python
