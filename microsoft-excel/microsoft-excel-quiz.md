@@ -401,7 +401,7 @@
 
 #### Q54. You want to add a column to the PivotTable below that shows a 5% bonus for each sales rep. That data does not exists in the original data table. How can you do this without adding more data to the table?
 
-![image](https://user-images.githubusercontent.com/8637045/113378635-7cc14700-9345-11eb-95fd-0f751af49317.png)
+![image](images/Q54.png)
 
 - [ ] Add a new PivotTable field.
 - [ ] Add a calculated item
@@ -410,7 +410,7 @@
 
 #### Q55. You need to determine the commission earned by each Sales rep, based on the Sales amount in B3:B50 and the Commission rate specified in cell A1. You want to enter a formula in C3 and copy it down to C50. Which formula should you use?
 
-![image](https://user-images.githubusercontent.com/8637045/113378769-cdd13b00-9345-11eb-81f4-b9567d53f26b.png)
+![image](images/Q55.png)
 
 - [ ] =A1\*$B3
 - [ ] =A1\*B3
@@ -447,7 +447,7 @@
 
 #### Q60. Which function, when entered into cell G7, allows you to determine the sum total of annual sles for market regions 18 and greater?
 
-![image](https://i.imgur.com/rZyGzER.png)
+![image](images/Q60.png)
 
 - [ ] `=SUMIF(G2:G6,">17",F2:F6)`
 - [ ] `=SUM(G2:G6,">=18,F2:F6)`
@@ -456,7 +456,7 @@
 
 #### Q61. Which function, when entered into cell F2 and then dragged to cell F6, returns the performance rating text (e.g., "Good", "Poor") for each representative?
 
-![image](https://i.imgur.com/Z6Kj8CE.png)
+![image](images/Q61.png)
 
 - [x] `=RIGHT(E2,LEN(E2)-27)`
 - [ ] `=LEN(E2,MID(E2)-27)`
@@ -477,7 +477,7 @@ https://support.microsoft.com/en-us/office/using-structured-references-with-exce
 
 #### Q63. Which VLOOKUP function, when entered into cell L2 and then dragged to cell L5, returns the average number of calls for the representative IDs listed in column J?
 
-![image](https://i.imgur.com/SAJTiQU.png)
+![image](images/Q63.png)
 
 - [ ] `=VLOOKUP(A2,J2:L5,1,FALSE)`
 - [ ] `=VLOOKUP(J2,A$2:C$7,1,FALSE)`
@@ -497,7 +497,7 @@ https://support.microsoft.com/en-us/office/using-structured-references-with-exce
 
 #### Q65. Which value is returned when you enter `=LEN(C3)` into cell F3?
 
-![image](https://i.imgur.com/DOUeapg.png)
+![image](images/Q65.png)
 
 - [ ] 4
 - [x] 5
@@ -506,7 +506,7 @@ https://support.microsoft.com/en-us/office/using-structured-references-with-exce
 
 #### Q66. How can you create the lower table from the top one when the tables are `not` linked?
 
-![image](https://i.imgur.com/2s1NJQP.png)
+![image](images/Q66.png)
 
 - [ ] Select `Paste Special > Values.`
 - [x] Select `Paste Special > Transpose.`
@@ -524,7 +524,7 @@ https://support.microsoft.com/en-us/office/using-structured-references-with-exce
 
 #### Q68. Which formula, when entered into cell D2 and then dragged to cell D6, calculates the average total number of minutes spent on phone calls for each representative?
 
-![image](https://i.imgur.com/OPH8gt9.png)
+![image](images/Q68.png)
 
 - [ ] `=B$2*C$2`
 - [ ] `=$C$2/$B$2`
@@ -533,7 +533,7 @@ https://support.microsoft.com/en-us/office/using-structured-references-with-exce
 
 #### Q69. The PivotTable below has one row field and two column fields. How can you pivot this table to show the column fields as subtotals of each value in the row field?
 
-![image](https://i.imgur.com/5owckbM.png)
+![image](images/Q69.png)
 
 - [ ] On the PivotTable itself, drag each `Average` field into the row fields area.
 - [ ] Right-click a cell in the PivotTable and select `PivotTable Options > Classic PivotTable layout`.
@@ -542,7 +542,7 @@ https://support.microsoft.com/en-us/office/using-structured-references-with-exce
 
 ### Q70. Which Excel feature allows you to hide rows or columns with an easily visible expand/collapse?
 
-![image](https://i.imgur.com/5RVF2Gd.png)
+![image](images/Q70.png)
 
 - [x] grouping
 - [ ] filtering
@@ -551,7 +551,7 @@ https://support.microsoft.com/en-us/office/using-structured-references-with-exce
 
 #### Q71. Monthly revenues of 2019 are entered in B2:M2, as shown below, To get year-to-date running total revenues, what formula should you enter in B3 and autofill through M3?
 
-![image](https://i.imgur.com/ZEz2A5x.png)
+![image](images/Q71.png)
 
 - [ ] `=SUMIF($B$2:$M$2,"COLUMN($B$2:$M$2)<=COLUMN())")`
 - [x] `=SUM($B2:B2)`
