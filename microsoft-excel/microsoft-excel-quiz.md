@@ -472,7 +472,7 @@
 - [ ] the Colors worksheet in the Inventory workbook
 - [ ] the named range Colors[Inventory], which does not use Format as Table Feature
 
-Table[Column] can be used instead of cell references (C2:C7). 
+Table[Column] can be used instead of cell references (C2:C7).
 https://support.microsoft.com/en-us/office/using-structured-references-with-excel-tables-f5ed2452-2337-4f71-bed3-c8ae6d2b276e
 
 #### Q63. Which VLOOKUP function, when entered into cell L2 and then dragged to cell L5, returns the average number of calls for the representative IDs listed in column J?
@@ -846,7 +846,7 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 
 https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-page-96719bd4-b93e-4237-8f97-d2cabb1b196a
 
-#### Q104. Which value is returned when you enter this function into cell G2? ```=IF(SUM(F2:F6)>12,"Too Many Tardy Days","No Tardiness Issue")```
+#### Q104. Which value is returned when you enter this function into cell G2? `=IF(SUM(F2:F6)>12,"Too Many Tardy Days","No Tardiness Issue")`
 
 ![Shift Code](images/Q104.jpg)
 

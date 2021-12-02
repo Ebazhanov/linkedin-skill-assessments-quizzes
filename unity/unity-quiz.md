@@ -30,8 +30,9 @@
 - [ ] To optimize scene loading and unloading
 - [ ] To improve platform compatibility
 
->Also, the text data can be generated and parsed by tools, making it possible to create and analyze scenes automatically.
-https://docs.unity3d.com/2021.2/Documentation/Manual/TextSceneFormat.html
+> Also, the text data can be generated and parsed by tools, making it possible to create and analyze scenes automatically.
+> https://docs.unity3d.com/2021.2/Documentation/Manual/TextSceneFormat.html
+
 #### Q5. Orthographic cameras remove which visual effect?
 
 - [ ] Gamma color space
@@ -39,7 +40,7 @@ https://docs.unity3d.com/2021.2/Documentation/Manual/TextSceneFormat.html
 - [x] Foreshortening
 - [ ] Bloom
 
-Gamma color space and bloom are related to graphics. Depth of field is related to objects bluring when at a certain distance from the camera. 
+Gamma color space and bloom are related to graphics. Depth of field is related to objects bluring when at a certain distance from the camera.
 https://docs.unity3d.com/2019.3/Documentation/Manual/CamerasOverview.html
 https://pbr-book.org/3ed-2018/Camera_Models/Projective_Camera_Models#OrthographicCamera
 
@@ -50,8 +51,8 @@ https://pbr-book.org/3ed-2018/Camera_Models/Projective_Camera_Models#Orthographi
 - [x] To create predefined camera presets to apply on standard cameras
 - [ ] To act as dummy cameras for fooling meshes into thinking they are being seen
 
->Use the Aim, Body, and Noise properties to specify how the Virtual Camera animates position, rotation, and other properties. The Virtual Camera applies these settings to the Unity Camera when Cinemachine Brain or Timeline transfers control of the Unity camera to the Virtual Camera.
-https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineVirtualCamera.html
+> Use the Aim, Body, and Noise properties to specify how the Virtual Camera animates position, rotation, and other properties. The Virtual Camera applies these settings to the Unity Camera when Cinemachine Brain or Timeline transfers control of the Unity camera to the Virtual Camera.
+> https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineVirtualCamera.html
 
 #### Q7. What does the Microphone class save captured audio data as?
 
@@ -224,7 +225,7 @@ https://docs.unity3d.com/ScriptReference/SpaceAttribute.html
 - [ ] AnimationInfo
 - [ ] AnimatorUtility
 
-```OnStateMachineEnter()``` and ```OnStateMachineExit()``` are the methods of the StateMachineBehavior class that handle this. AnimatorClipInfo displays information about the current clip being played, AnimatiorUtility deals with transform hierarchy, and AnimationInfo was removed in version 5.0.
+`OnStateMachineEnter()` and `OnStateMachineExit()` are the methods of the StateMachineBehavior class that handle this. AnimatorClipInfo displays information about the current clip being played, AnimatiorUtility deals with transform hierarchy, and AnimationInfo was removed in version 5.0.
 https://docs.unity3d.com/ScriptReference/StateMachineBehaviour.html
 
 #### Q29. How can you change the unique bundle identifier for a mobile build?
@@ -329,7 +330,7 @@ https://docs.unity3d.com/Manual/PositioningGameObjects.html#VtxSnapping
 - [x] It converts a 3D orientation that is measured in degrees into a Quaternion
 - [ ] It converts a Quaternion into a Vector3 in which X, Y, and Z are measured in degrees
 
-Simplfying the math: Unity uses Quaternions internally to avoid Gimbal lock. 
+Simplfying the math: Unity uses Quaternions internally to avoid Gimbal lock.
 The Euler XYZ (Pitch, Yaw, and Roll) axises can lock up when two axies are aligned.
 Quaternion.Euler converts the Euler number provided to the internally used Quarternion, to prevent this problem.
 https://docs.unity3d.com/ScriptReference/Quaternion.Euler.html
@@ -341,8 +342,8 @@ https://docs.unity3d.com/ScriptReference/Quaternion.Euler.html
 - [ ] It deletes the specified game object when the application terminates
 - [ ] It deletes the specified game object immidaitely
 
->The object obj is destroyed immediately after the current Update loop, or t seconds from now if a time is specified.
-https://docs.unity3d.com/ScriptReference/Object.Destroy.html
+> The object obj is destroyed immediately after the current Update loop, or t seconds from now if a time is specified.
+> https://docs.unity3d.com/ScriptReference/Object.Destroy.html
 
 #### Q42. You can programmatically control audio effects, like Pitch and Reverb, from C# scripts using which feature of an Audio Mixer asset?
 
@@ -361,7 +362,7 @@ Official Unity Tutorial: https://www.youtube.com/watch?v=9tqi1aXlcpE
 - [ ] StateMachineBehaviour scripts
 - [ ] animation events
 
-Mip Maps are a technique that improves image quality and reduces rendering speed, at the cost of storage space, by including smaller copies of the image in the same file. Animation events allow you to call functions at points in the timeline. 
+Mip Maps are a technique that improves image quality and reduces rendering speed, at the cost of storage space, by including smaller copies of the image in the same file. Animation events allow you to call functions at points in the timeline.
 https://docs.unity3d.com/Manual/class-AvatarMask.html
 
 #### Q44. What does the PlayableDirector component allow you to do?
@@ -383,10 +384,10 @@ https://docs.unity3d.com/2019.2/Documentation/Manual/class-PlayableDirector.html
 
 #### Q46. Timeline sequences can initiate code during an animation using which feature?
 
- - [ ] EventSystem
- - [x] markers
- - [ ] signals
- - [ ] packets
+- [ ] EventSystem
+- [x] markers
+- [ ] signals
+- [ ] packets
 
 EventSystem is not a timeline feature, neither are packets. Timeline signals are a subfeature of the markers, markers can directly initiate code, while a signal can only send the signal to a reciver.
 https://forum.unity.com/threads/new-in-2019-1-marker-customization.594712/ and https://blog.unity.com/technology/how-to-create-custom-timeline-markers
@@ -394,46 +395,51 @@ https://forum.unity.com/threads/new-in-2019-1-marker-customization.594712/ and h
 #### Q47. Which code sample uses C# properties for creating the health functionality?
 
 - [ ] A
+
 ```
 public class Health : MonoBehavior
 {
     private float HealthPoints = 100f;
-    
+
     public float GetHealth()
     {
         return HealthPoints;
     }
-    
+
     public void SetHealth(float Change)
     {
         HealthPoints += Change;
-        
+
         if (HealthPoints <= 0)
             Destroy(gameObject);
      }
 }
 ```
+
 - [ ] B
+
 ```
 public class Health : MonoBehavior
 {
     public UnityEvent OnHealthChanged;
-    
+
     private float HealthPoints = 100f;
-    
+
     public void SetHealth(float Change)
     {
         HealthPoints += Change;
         OnHealthChanged.Invoke();
     }
-    
+
     public void Die()
     {
         Destroy(gameObject);
     }
 }
 ```
+
 - [x] C
+
 ```
 public class Health : MonoBehavior
 {
@@ -443,23 +449,25 @@ public class Health : MonoBehavior
         set
         {
             _healthpoints = value;
-            
+
             if(_healthpoints <= 0 )
             {
                 Destroy(gameObjects);
             }
         }
     }
-    
+
     private float _healthpoints = 100f;
 }
 ```
-- [ ] D 
+
+- [ ] D
+
 ```
 public class Health : MonoBehaviour
 {
     public float HealthPoints = 100f;
-    
+
     private void Update()
     {
         if (HealthPoints <- 0)
@@ -468,5 +476,5 @@ public class Health : MonoBehaviour
 }
 ```
 
-```get``` and ```set``` are the clear indicators that a C# property is being used.
+`get` and `set` are the clear indicators that a C# property is being used.
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties

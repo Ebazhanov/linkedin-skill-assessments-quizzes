@@ -549,7 +549,7 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
 #### Q67. What is the difference between the whoami and logname commands?
 
 - [ ] whoami and logname provide the same information.
-- [x] whoami tells who are you currently, and logname tells who you were when you logged in initially. 
+- [x] whoami tells who are you currently, and logname tells who you were when you logged in initially.
 - [ ] logname specifies the name of the login log file, and whoami prints the logged in username.
 - [ ] whoami shows you who logged in as initially, and logname shows who are you currently.
 

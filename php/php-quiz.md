@@ -810,7 +810,6 @@ Dog
   ```
 - [ ] FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2
 
-
 ##### Q63. In PHP 7, What is the correct way to import multiple classes from namespace in a single declaration ?!
 
 - [x] use myApp\myNamespace\{ClassA, ClassB, ClassC};
