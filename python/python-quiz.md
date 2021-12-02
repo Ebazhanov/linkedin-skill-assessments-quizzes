@@ -1266,7 +1266,7 @@ np.ones([1,2,3,4,5])
 #### Q92. This code provides the \_ of the list of numbers
 
 ```python
-num_list =[21,13,19,3,11,5,18]
+num_list = [21,13,19,3,11,5,18]
 num_list.sort()
 num_list[len(num_list)//2]
 ```
@@ -1369,7 +1369,7 @@ num_list = [1,2,3,4,5]
 
 num_list.pop(2)
 	[1,2,4,5]
-	
+
 num_list.remove(2)
 	[1,3,4,5]
 ```

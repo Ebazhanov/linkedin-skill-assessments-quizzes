@@ -104,15 +104,15 @@ fn increment(i: T) {
 
 #### Q13. Which comment syntax is not legal?
 
-- [ ] /*
-- [ ] #
-- [ ] //!
-- [ ] //
-  
-#### Q14. In matching patterns, values are ignored with _.
+- [ ] `/*`
+- [ ] `#`
+- [ ] `//!`
+- [ ] `//`
 
-- [ ] .ignore()
-- [ ] an underscore (_)
+#### Q14. In matching patterns, values are ignored with \_.
+
+- [ ] `.ignore()`
+- [ ] `an underscore (_)`
 - [ ] ..
 - [ ] skip
   
@@ -122,4 +122,3 @@ fn increment(i: T) {
 - [ ] struct that contains a reference to a value
 - [ ] function with a generic argument
 - [ ] struct that contains a reference to a boxed value
-  

@@ -489,6 +489,7 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 #### Q66. What is the most accurate example of the Liskov substitution principle?
 
 - [ ]
+
 ```
 public class Car{
 }
@@ -498,7 +499,9 @@ public class FlyingCars extends Car{
 public class Tesla FlyingCar{}
 public class Honda Car{}
 ```
+
 - [ ]
+
 ```
 public class Car{
    public void fly(){}
@@ -506,7 +509,9 @@ public class Car{
 public class Tesla extends Car{}
 public class Honda extends Car{}
 ```
+
 - [ ]
+
 ```
 public class Car{
 public void fly(){}
@@ -514,7 +519,9 @@ public void fly(){}
 public class Tesla Car{}
 public class Honda Car{}
 ```
+
 - [x]
+
 ```
 public class Car{
 }

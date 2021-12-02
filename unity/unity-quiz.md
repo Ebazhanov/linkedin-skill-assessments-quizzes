@@ -26,9 +26,12 @@
 #### Q4. Unity scenes may be saved entirely in the YAML format. Why might you do this?
 
 - [ ] To reduce scene file size
-- [ ] To externally parse a scene and its objects
+- [x] To externally parse a scene and its objects
 - [ ] To optimize scene loading and unloading
 - [ ] To improve platform compatibility
+
+> Also, the text data can be generated and parsed by tools, making it possible to create and analyze scenes automatically.
+> https://docs.unity3d.com/2021.2/Documentation/Manual/TextSceneFormat.html
 
 #### Q5. Orthographic cameras remove which visual effect?
 
@@ -37,21 +40,29 @@
 - [x] Foreshortening
 - [ ] Bloom
 
+Gamma color space and bloom are related to graphics. Depth of field is related to objects bluring when at a certain distance from the camera.
 https://docs.unity3d.com/2019.3/Documentation/Manual/CamerasOverview.html
+https://pbr-book.org/3ed-2018/Camera_Models/Projective_Camera_Models#OrthographicCamera
 
 #### Q6. What is Cinemachine Virtual Camera used for?
 
 - [ ] To override standard scene cameras with cinematic behaviours
 - [ ] To determine what cameras will see when arriving at specific locations
-- [ ] To create predefined camera presets to apply on standard cameras
+- [x] To create predefined camera presets to apply on standard cameras
 - [ ] To act as dummy cameras for fooling meshes into thinking they are being seen
+
+> Use the Aim, Body, and Noise properties to specify how the Virtual Camera animates position, rotation, and other properties. The Virtual Camera applies these settings to the Unity Camera when Cinemachine Brain or Timeline transfers control of the Unity camera to the Virtual Camera.
+> https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineVirtualCamera.html
 
 #### Q7. What does the Microphone class save captured audio data as?
 
-- [ ] An audio clip asset
+- [x] An audio clip asset
 - [ ] An MP3 file
 - [ ] A WAV file
 - [ ] An OGG file
+
+The Microphone class saves captured audio as an audio clip asset, which may then be stored as a OGG file.
+https://docs.unity3d.com/ScriptReference/Microphone.html
 
 #### Q8. Cinemachine offers tools for building gameplay behaviours. Which component makes spline based paths for moving objects?
 
@@ -165,10 +176,13 @@ https://docs.unity3d.com/ScriptReference/SerializeField.html
 
 #### Q23. What is a technique for optimizing Unity UI elements?
 
-- [ ] Group static UI elements on one canvas, and dynamic elements on a separate canvas
+- [x] Group static UI elements on one canvas, and dynamic elements on a separate canvas
 - [ ] Position all canvas objects to the world origin
 - [ ] Group as many UI elements as possible onto only one canvas
 - [ ] Divide the screen into multiple canvas objects, each sized to a quarter of the screen size
+
+Every time an element on a canvas is updated, the whole canvas is redrawn. If elements are never being updated, keeping them on a single canvas is ideal.
+https://unity.com/how-to/unity-ui-optimization-tips
 
 #### Q24. What does the C# Space attribute used below achieved?
 
@@ -207,9 +221,12 @@ https://docs.unity3d.com/ScriptReference/SpaceAttribute.html
 #### Q28. You are making a game where you need to execute your own functions in response to critical animation events for a rigged character. Specifically, there are two events you must handle: when an animation state is entered and when it is exited in the Animator graph. Which class may be used to invoke your code when those two events happen?
 
 - [ ] AnimatorClipInfo
-- [ ] StateMachineBehaviour
+- [x] StateMachineBehaviour
 - [ ] AnimationInfo
 - [ ] AnimatorUtility
+
+`OnStateMachineEnter()` and `OnStateMachineExit()` are the methods of the StateMachineBehavior class that handle this. AnimatorClipInfo displays information about the current clip being played, AnimatiorUtility deals with transform hierarchy, and AnimationInfo was removed in version 5.0.
+https://docs.unity3d.com/ScriptReference/StateMachineBehaviour.html
 
 #### Q29. How can you change the unique bundle identifier for a mobile build?
 
@@ -294,3 +311,170 @@ https://github.com/Unity-Technologies/DeLightingTool/blob/master/Assets/DeLighti
 - [x] Avatar facilitate animation retargeting across different humanoid characters
 - [ ] Avatar define IK data for animated characters
 - [ ] Avatars describe how textures map on deforming objects during animation
+
+#### Q39. You can perfectly align two mesh objects together at the vertices by using vertex snapping. How do you best access this tool?
+
+![Vertex](images/Q39.png?raw=true)
+
+- [ ] Select a mesh object and press the W key over the destination vertex
+- [ ] While holding down the C key, click and drag from the source to the destination mesh
+- [ ] Select **Edit > Enable Vertex Snap** from the menu, and then select your object
+- [x] While holding down the V key, click and drag your object from a corner vertex to its destination
+
+https://docs.unity3d.com/Manual/PositioningGameObjects.html#VtxSnapping
+
+#### Q40. Which statement best descibes the function Quaternion.Euler?
+
+- [ ] It prints a Quaternion to a string that shows its X, Y, and Z rotation in degrees
+- [ ] It converts a 3D orientation from Radiens to a Quaternion
+- [x] It converts a 3D orientation that is measured in degrees into a Quaternion
+- [ ] It converts a Quaternion into a Vector3 in which X, Y, and Z are measured in degrees
+
+Simplfying the math: Unity uses Quaternions internally to avoid Gimbal lock.
+The Euler XYZ (Pitch, Yaw, and Roll) axises can lock up when two axies are aligned.
+Quaternion.Euler converts the Euler number provided to the internally used Quarternion, to prevent this problem.
+https://docs.unity3d.com/ScriptReference/Quaternion.Euler.html
+
+#### Q41. What does the Destroy function do?
+
+- [ ] It deactivates the specified game object immidiately
+- [x] It deletes the specified game object after the current update loop
+- [ ] It deletes the specified game object when the application terminates
+- [ ] It deletes the specified game object immidaitely
+
+> The object obj is destroyed immediately after the current Update loop, or t seconds from now if a time is specified.
+> https://docs.unity3d.com/ScriptReference/Object.Destroy.html
+
+#### Q42. You can programmatically control audio effects, like Pitch and Reverb, from C# scripts using which feature of an Audio Mixer asset?
+
+- [ ] audio attenuation
+- [x] exposed parameters
+- [ ] ParamEQ
+- [ ] Audio Mixer groups
+
+Audio attenuation is about energy loss, commonly refered to as "gain". ParamEQ allows you to change the frequency of the audio - "pitch", with no C# support. Audio Mixer groups do allow you to control audio effects, but not through C#.
+Official Unity Tutorial: https://www.youtube.com/watch?v=9tqi1aXlcpE
+
+#### Q43. Multiple animations may be mixed together on a single character, selectively on different limbs. Which Mecanim feature supports this?
+
+- [ ] Mip Maps
+- [x] avatar masks
+- [ ] StateMachineBehaviour scripts
+- [ ] animation events
+
+Mip Maps are a technique that improves image quality and reduces rendering speed, at the cost of storage space, by including smaller copies of the image in the same file. Animation events allow you to call functions at points in the timeline.
+https://docs.unity3d.com/Manual/class-AvatarMask.html
+
+#### Q44. What does the PlayableDirector component allow you to do?
+
+- [ ] run multiple functions on different game objects in parallel
+- [ ] switch between different scene cameras on demand
+- [x] control the playback of a timeline instance in the scene
+- [ ] record a gameplay session to a video file
+
+The PlayableDirector component stores the link between a Timeline instance and a Timeline Asset.
+https://docs.unity3d.com/2019.2/Documentation/Manual/class-PlayableDirector.html
+
+#### Q45. What does the Grid component do?
+
+- [ ] generate a grid sprite at world origin
+- [x] helps you move objects to fixed grid increments
+- [ ] reders and isometric grid in the scene during gameplay
+- [ ] generates a grid mesh at the world origin
+
+#### Q46. Timeline sequences can initiate code during an animation using which feature?
+
+- [ ] EventSystem
+- [x] markers
+- [ ] signals
+- [ ] packets
+
+EventSystem is not a timeline feature, neither are packets. Timeline signals are a subfeature of the markers, markers can directly initiate code, while a signal can only send the signal to a reciver.
+https://forum.unity.com/threads/new-in-2019-1-marker-customization.594712/ and https://blog.unity.com/technology/how-to-create-custom-timeline-markers
+
+#### Q47. Which code sample uses C# properties for creating the health functionality?
+
+- [ ] A
+
+```
+public class Health : MonoBehavior
+{
+    private float HealthPoints = 100f;
+
+    public float GetHealth()
+    {
+        return HealthPoints;
+    }
+
+    public void SetHealth(float Change)
+    {
+        HealthPoints += Change;
+
+        if (HealthPoints <= 0)
+            Destroy(gameObject);
+     }
+}
+```
+
+- [ ] B
+
+```
+public class Health : MonoBehavior
+{
+    public UnityEvent OnHealthChanged;
+
+    private float HealthPoints = 100f;
+
+    public void SetHealth(float Change)
+    {
+        HealthPoints += Change;
+        OnHealthChanged.Invoke();
+    }
+
+    public void Die()
+    {
+        Destroy(gameObject);
+    }
+}
+```
+
+- [x] C
+
+```
+public class Health : MonoBehavior
+{
+    public float HealthPoints
+    {
+        get { return _healthpoints; }
+        set
+        {
+            _healthpoints = value;
+
+            if(_healthpoints <= 0 )
+            {
+                Destroy(gameObjects);
+            }
+        }
+    }
+
+    private float _healthpoints = 100f;
+}
+```
+
+- [ ] D
+
+```
+public class Health : MonoBehaviour
+{
+    public float HealthPoints = 100f;
+
+    private void Update()
+    {
+        if (HealthPoints <- 0)
+            Destroy(gameObject);
+    }
+}
+```
+
+`get` and `set` are the clear indicators that a C# property is being used.
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties

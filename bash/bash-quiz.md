@@ -782,3 +782,31 @@ w
 - [x] It displays information about the users currently on the machine.
 - [ ] It displays information about the users currently on the another machine.
 - [ ] None of these
+
+#### Q63. Which sed options should you use to change the second-to-last instance of variable to rock so it would read:
+
+A constant is a variable that is a rock that isn't variable
+
+```bash
+var="A constant is a variable that is a variable that isn't variable"
+echo "$var" | sed _____
+```
+
+- [x] s/\(.*\)variable\(.*variable\)/\1rock\2/'
+- [ ] s/variable/rock/'
+- [ ] s/variable/rock/g'
+- [ ] s/(.*\)variable\(.*variable\)/\1rock\2/'
+
+#### Q64. To make a Bash script named script.sh executable, what should you run?
+
+- [ ] exec script.sh
+- [x] chmod +x script.sh
+- [ ] bash script.sh
+- [ ] source script.sh
+
+#### Q65. How can you create a shared terminal in a Bash shell?
+
+- [x] screen
+- [ ] screen -X
+- [ ] screen --shared
+- [ ] terminal -shared

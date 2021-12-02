@@ -401,7 +401,7 @@
 
 #### Q54. You want to add a column to the PivotTable below that shows a 5% bonus for each sales rep. That data does not exists in the original data table. How can you do this without adding more data to the table?
 
-![image](https://user-images.githubusercontent.com/8637045/113378635-7cc14700-9345-11eb-95fd-0f751af49317.png)
+![image](images/Q54.png)
 
 - [ ] Add a new PivotTable field.
 - [ ] Add a calculated item
@@ -410,7 +410,7 @@
 
 #### Q55. You need to determine the commission earned by each Sales rep, based on the Sales amount in B3:B50 and the Commission rate specified in cell A1. You want to enter a formula in C3 and copy it down to C50. Which formula should you use?
 
-![image](https://user-images.githubusercontent.com/8637045/113378769-cdd13b00-9345-11eb-81f4-b9567d53f26b.png)
+![image](images/Q55.png)
 
 - [ ] =A1\*$B3
 - [ ] =A1\*B3
@@ -447,7 +447,7 @@
 
 #### Q60. Which function, when entered into cell G7, allows you to determine the sum total of annual sles for market regions 18 and greater?
 
-![image](https://i.imgur.com/rZyGzER.png)
+![image](images/Q60.png)
 
 - [ ] `=SUMIF(G2:G6,">17",F2:F6)`
 - [ ] `=SUM(G2:G6,">=18,F2:F6)`
@@ -456,7 +456,7 @@
 
 #### Q61. Which function, when entered into cell F2 and then dragged to cell F6, returns the performance rating text (e.g., "Good", "Poor") for each representative?
 
-![image](https://i.imgur.com/Z6Kj8CE.png)
+![image](images/Q61.png)
 
 - [x] `=RIGHT(E2,LEN(E2)-27)`
 - [ ] `=LEN(E2,MID(E2)-27)`
@@ -468,13 +468,16 @@
 `=SUMIFS(Colors[Inventory],Colors[Colors],"Orange")`
 
 - [ ] the Inventory worksheet in the Colors workbook
-- [ ] the Inventory column in the Colors table
+- [x] the Inventory column in the Colors table
 - [ ] the Colors worksheet in the Inventory workbook
 - [ ] the named range Colors[Inventory], which does not use Format as Table Feature
 
+Table[Column] can be used instead of cell references (C2:C7).
+https://support.microsoft.com/en-us/office/using-structured-references-with-excel-tables-f5ed2452-2337-4f71-bed3-c8ae6d2b276e
+
 #### Q63. Which VLOOKUP function, when entered into cell L2 and then dragged to cell L5, returns the average number of calls for the representative IDs listed in column J?
 
-![image](https://i.imgur.com/SAJTiQU.png)
+![image](images/Q63.png)
 
 - [ ] `=VLOOKUP(A2,J2:L5,1,FALSE)`
 - [ ] `=VLOOKUP(J2,A$2:C$7,1,FALSE)`
@@ -494,7 +497,7 @@
 
 #### Q65. Which value is returned when you enter `=LEN(C3)` into cell F3?
 
-![image](https://i.imgur.com/DOUeapg.png)
+![image](images/Q65.png)
 
 - [ ] 4
 - [x] 5
@@ -503,7 +506,7 @@
 
 #### Q66. How can you create the lower table from the top one when the tables are `not` linked?
 
-![image](https://i.imgur.com/2s1NJQP.png)
+![image](images/Q66.png)
 
 - [ ] Select `Paste Special > Values.`
 - [x] Select `Paste Special > Transpose.`
@@ -521,7 +524,7 @@
 
 #### Q68. Which formula, when entered into cell D2 and then dragged to cell D6, calculates the average total number of minutes spent on phone calls for each representative?
 
-![image](https://i.imgur.com/OPH8gt9.png)
+![image](images/Q68.png)
 
 - [ ] `=B$2*C$2`
 - [ ] `=$C$2/$B$2`
@@ -530,16 +533,16 @@
 
 #### Q69. The PivotTable below has one row field and two column fields. How can you pivot this table to show the column fields as subtotals of each value in the row field?
 
-![image](https://i.imgur.com/5owckbM.png)
+![image](images/Q69.png)
 
 - [ ] On the PivotTable itself, drag each `Average` field into the row fields area.
-- [ ] Right-click a cel in the PivotTable and select `PivotTable Options > Classic PivotTable layout`.
+- [ ] Right-click a cell in the PivotTable and select `PivotTable Options > Classic PivotTable layout`.
 - [ ] In the `PivotTable Fields` pane, drag `Sum Values` from the `Columns` section to a location below the field in the `Rows` section.
 - [ ] In the `PivotTable Fields` pane, drag each field from the `Sum Values` section to the `Rows` section.
 
 ### Q70. Which Excel feature allows you to hide rows or columns with an easily visible expand/collapse?
 
-![image](https://i.imgur.com/5RVF2Gd.png)
+![image](images/Q70.png)
 
 - [x] grouping
 - [ ] filtering
@@ -548,7 +551,7 @@
 
 #### Q71. Monthly revenues of 2019 are entered in B2:M2, as shown below, To get year-to-date running total revenues, what formula should you enter in B3 and autofill through M3?
 
-![image](https://i.imgur.com/ZEz2A5x.png)
+![image](images/Q71.png)
 
 - [ ] `=SUMIF($B$2:$M$2,"COLUMN($B$2:$M$2)<=COLUMN())")`
 - [x] `=SUM($B2:B2)`
@@ -733,39 +736,32 @@
 - [ ] Right-click the cell and select Delete.
 - [x] Select the cell. On the Home tab, click Clear > Clear All.
 
-#### Q90. What is Colors[Inventory] referring to here?
-
-=SUMIFS(Colors[Inventory],Colors[Colors],"Orange")
-
-- [ ] the Inventory worksheet in the Colors workbook.
-- [ ] the named range Colors[Inventory], which does not use the Format as Table feature.
-- [x] the Inventory column in the Colors table.
-- [ ] the Colors worksheet in the Inventory workbook.
-
-#### Q91. What is the difference between a workbook and a worksheet?
+#### Q90. What is the difference between a workbook and a worksheet?
 
 - [x] An Excel file is a workbook. A workbook contains one or more worksheets.
 - [ ] Nothing-these two terms mean the same thing.
 - [ ] A workbook contains only data. A worksheet contains both data and formulas.
 - [ ] An Excel file is a worksheet. A worksheet contains one or more workbooks.
 
-#### Q92. How would you connect the slicer to both PivotTables?
+#### Q91. How would you connect the slicer to both PivotTables?
 
 ![PivotTable](images/Q92.png?raw=true)
 
 - [ ] You cannot use one slicer for two PivotTables.
 - [ ] Right-click the slicer and select Slicer Settings.
 - [ ] Merge the two PivotTables, right-click the merged PivotTable, and select Combine Slicer.
-- [ ] Right-click the slicer and select Report Connections, or click Report Connections on the Slicer tab.
+- [x] Right-click the slicer and select Report Connections, or click Report Connections on the Slicer tab.
 
-#### Q93. Which formula contains a valid absolute reference?
+https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-between-multiple-data-sets/
+
+#### Q92. Which formula contains a valid absolute reference?
 
 - [x] `=B7*$G$3`
 - [ ] `=(B7)*G3`
 - [ ] `=B7*$[G3]`
 - [ ] `=B7$*G3`
 
-#### Q94. What happens if you use the **AutoSum** button in cell H4?
+#### Q93. What happens if you use the **AutoSum** button in cell H4?
 
 ![image](images/Q94.png)
 
@@ -774,7 +770,7 @@
 - [x] AutoSum will total the numbers in cells B4:G4
 - [ ] AutoSum will return a **#VALUE!** error.
 
-#### Q95. To create this PivotTable, drag the _ field to the Rows area and the _ field to the Values area?
+#### Q94. To create this PivotTable, drag the _ field to the Rows area and the _ field to the Values area?
 
 ![image](images/Q95.png)
 
@@ -784,14 +780,14 @@
 - [ ] Market Region; Total Sales This Year
 -
 
-#### Q96. Cell A1 contains the number 3. Which formula returns the text Apple?
+#### Q95. Cell A1 contains the number 3. Which formula returns the text Apple?
 
 - [ ] `=SELECT(A1, "Banana", "Orange", "Apple", "Mango")`
 - [x] `=CHOOSE(A1, "Banana", "Orange", "Apple", "Mango")`
 - [x] `=CHOOSE(A1,"Banana","Orange","Apple","Mango")`
 - [ ] `=MATCH(A1,{"Banana","Orange","Apple","Mango"})`
 
-#### Q97. Which value is calculated when the formula **=AVERAGE(G2:G6)/AVERAGE(C2:C6)** is entered into cell H7?
+#### Q96. Which value is calculated when the formula **=AVERAGE(G2:G6)/AVERAGE(C2:C6)** is entered into cell H7?
 
 ![image](images/Q97.png)
 
@@ -800,14 +796,14 @@
 - [ ] average number sales
 - [x] average annual sales per call
 
-#### Q98. How would you search an entire workbook with **Find & Select**?
+#### Q97. How would you search an entire workbook with **Find & Select**?
 
 - [x] On the **Home** tab, click **Find & Select > Find > Options** (Windows) or **Find & Select > Find** (Mac). Change the **Within** drop-down to **Workbook**.
 - [ ] On the **Home** tab, click **Find & Select > Find > Options** (Windows) or **Find & Select > Find** (Mac). Change the **Look in** drop-down to **Workbook**.
 - [ ] On the **Home** tab, click **Find & Select > Find > Options** (Windows) or **Find & Select > Find** (Mac). Change the **Search** drop-down to **All**.
 - [ ] You cannot search an entire workbook - you must search the worksheets individually.
 
-#### Q99. How do you create a heatmap in a table, such as this one, which is responsive to the values?
+#### Q98. How do you create a heatmap in a table, such as this one, which is responsive to the values?
 
 ![image](images/Q99.png)
 
@@ -816,23 +812,23 @@
 - [ ] manual highlighting
 - [ ] data bars (within conditional formatting)
 
-#### Q100. To split text across cells without using Merge & Center, click **Formt Cells**. The, on **Alignment** tab, click**\_**.
+#### Q99. To split text across cells without using Merge & Center, click **Formt Cells**. The, on **Alignment** tab, click**\_**.
 
 - [x] Text control > Merge cells
 - [ ] Horizontal > Center across selection
 - [ ] Vertical > Center across selection
 - [ ] Data tab > Text to columns
 
-#### Q101. In the worksheet below, what do the symbols in rows 4, 6, 7, and 11 indicate?
+#### Q100. In the worksheet below, what do the symbols in rows 4, 6, 7, and 11 indicate?
 
 ![image](images/Q101.png)
 
 - [ ] The dates are erroneous, such as October 39, 2015.
-- [ ] The columns aren't wide enough to show the full date.
+- [x] The columns aren't wide enough to show the full date.
 - [ ] The time are incorrectly formatted as dates.
 - [ ] The text is incorrectly formatted as dates.
 
-#### Q102. You are determining `%` growth by dividing Growth by Sales. Which Excel function would you use to avoid #DIV/0! errors?
+#### Q101. You are determining `%` growth by dividing Growth by Sales. Which Excel function would you use to avoid #DIV/0! errors?
 
 ![image](images/Q102.png)
 
@@ -840,3 +836,23 @@
 - [ ] ROUND
 - [ ] ISERROR
 - [ ] DIVIDE
+
+#### Q103. You have a worksheet in Excel that will print as 10 pages. How can you ensure that the header row is printed at the top of each page?
+
+- [x] Use Print Titles on the Page Layout tab.
+- [ ] Use Page Setup from the Backstage View.
+- [ ] Use Freeze Panes on the View tab.
+- [ ] Format your data as a table; the header prints automatically.
+
+https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-page-96719bd4-b93e-4237-8f97-d2cabb1b196a
+
+#### Q104. Which value is returned when you enter this function into cell G2? `=IF(SUM(F2:F6)>12,"Too Many Tardy Days","No Tardiness Issue")`
+
+![Shift Code](images/Q104.jpg)
+
+- [ ] Too Many Tardy Days
+- [ ] #NUM!
+- [x] No Tardiness Issue
+- [ ] #REF!
+
+0 + 0 + 3 + 6 + 3 = 12. The formula only dislays "Too Many Tardy Days" when it is more than 12.
