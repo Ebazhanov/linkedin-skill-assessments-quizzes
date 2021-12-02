@@ -559,3 +559,10 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
 - [ ] aarray
 - [ ] array -a
 - [x] declare -A
+
+#### Q69. What tool Should you use to replace a physical volum in LVM??
+
+- [ ] lvcopy
+- [ ] tar
+- [x] pvmove
+- [ ] cp
