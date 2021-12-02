@@ -736,23 +736,14 @@ https://support.microsoft.com/en-us/office/using-structured-references-with-exce
 - [ ] Right-click the cell and select Delete.
 - [x] Select the cell. On the Home tab, click Clear > Clear All.
 
-#### Q90. What is Colors[Inventory] referring to here?
-
-=SUMIFS(Colors[Inventory],Colors[Colors],"Orange")
-
-- [ ] the Inventory worksheet in the Colors workbook.
-- [ ] the named range Colors[Inventory], which does not use the Format as Table feature.
-- [x] the Inventory column in the Colors table.
-- [ ] the Colors worksheet in the Inventory workbook.
-
-#### Q91. What is the difference between a workbook and a worksheet?
+#### Q90. What is the difference between a workbook and a worksheet?
 
 - [x] An Excel file is a workbook. A workbook contains one or more worksheets.
 - [ ] Nothing-these two terms mean the same thing.
 - [ ] A workbook contains only data. A worksheet contains both data and formulas.
 - [ ] An Excel file is a worksheet. A worksheet contains one or more workbooks.
 
-#### Q92. How would you connect the slicer to both PivotTables?
+#### Q91. How would you connect the slicer to both PivotTables?
 
 ![PivotTable](images/Q92.png?raw=true)
 
@@ -763,14 +754,14 @@ https://support.microsoft.com/en-us/office/using-structured-references-with-exce
 
 https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-between-multiple-data-sets/
 
-#### Q93. Which formula contains a valid absolute reference?
+#### Q92. Which formula contains a valid absolute reference?
 
 - [x] `=B7*$G$3`
 - [ ] `=(B7)*G3`
 - [ ] `=B7*$[G3]`
 - [ ] `=B7$*G3`
 
-#### Q94. What happens if you use the **AutoSum** button in cell H4?
+#### Q93. What happens if you use the **AutoSum** button in cell H4?
 
 ![image](images/Q94.png)
 
@@ -779,7 +770,7 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 - [x] AutoSum will total the numbers in cells B4:G4
 - [ ] AutoSum will return a **#VALUE!** error.
 
-#### Q95. To create this PivotTable, drag the _ field to the Rows area and the _ field to the Values area?
+#### Q94. To create this PivotTable, drag the _ field to the Rows area and the _ field to the Values area?
 
 ![image](images/Q95.png)
 
@@ -789,14 +780,14 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 - [ ] Market Region; Total Sales This Year
 -
 
-#### Q96. Cell A1 contains the number 3. Which formula returns the text Apple?
+#### Q95. Cell A1 contains the number 3. Which formula returns the text Apple?
 
 - [ ] `=SELECT(A1, "Banana", "Orange", "Apple", "Mango")`
 - [x] `=CHOOSE(A1, "Banana", "Orange", "Apple", "Mango")`
 - [x] `=CHOOSE(A1,"Banana","Orange","Apple","Mango")`
 - [ ] `=MATCH(A1,{"Banana","Orange","Apple","Mango"})`
 
-#### Q97. Which value is calculated when the formula **=AVERAGE(G2:G6)/AVERAGE(C2:C6)** is entered into cell H7?
+#### Q96. Which value is calculated when the formula **=AVERAGE(G2:G6)/AVERAGE(C2:C6)** is entered into cell H7?
 
 ![image](images/Q97.png)
 
@@ -805,14 +796,14 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 - [ ] average number sales
 - [x] average annual sales per call
 
-#### Q98. How would you search an entire workbook with **Find & Select**?
+#### Q97. How would you search an entire workbook with **Find & Select**?
 
 - [x] On the **Home** tab, click **Find & Select > Find > Options** (Windows) or **Find & Select > Find** (Mac). Change the **Within** drop-down to **Workbook**.
 - [ ] On the **Home** tab, click **Find & Select > Find > Options** (Windows) or **Find & Select > Find** (Mac). Change the **Look in** drop-down to **Workbook**.
 - [ ] On the **Home** tab, click **Find & Select > Find > Options** (Windows) or **Find & Select > Find** (Mac). Change the **Search** drop-down to **All**.
 - [ ] You cannot search an entire workbook - you must search the worksheets individually.
 
-#### Q99. How do you create a heatmap in a table, such as this one, which is responsive to the values?
+#### Q98. How do you create a heatmap in a table, such as this one, which is responsive to the values?
 
 ![image](images/Q99.png)
 
@@ -821,14 +812,14 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 - [ ] manual highlighting
 - [ ] data bars (within conditional formatting)
 
-#### Q100. To split text across cells without using Merge & Center, click **Formt Cells**. The, on **Alignment** tab, click**\_**.
+#### Q99. To split text across cells without using Merge & Center, click **Formt Cells**. The, on **Alignment** tab, click**\_**.
 
 - [x] Text control > Merge cells
 - [ ] Horizontal > Center across selection
 - [ ] Vertical > Center across selection
 - [ ] Data tab > Text to columns
 
-#### Q101. In the worksheet below, what do the symbols in rows 4, 6, 7, and 11 indicate?
+#### Q100. In the worksheet below, what do the symbols in rows 4, 6, 7, and 11 indicate?
 
 ![image](images/Q101.png)
 
@@ -837,7 +828,7 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 - [ ] The time are incorrectly formatted as dates.
 - [ ] The text is incorrectly formatted as dates.
 
-#### Q102. You are determining `%` growth by dividing Growth by Sales. Which Excel function would you use to avoid #DIV/0! errors?
+#### Q101. You are determining `%` growth by dividing Growth by Sales. Which Excel function would you use to avoid #DIV/0! errors?
 
 ![image](images/Q102.png)
 
