@@ -452,3 +452,5 @@
 - [x] Calculations
 - [ ] Multiply
 - [ ] Merge
+
+[Answer found at:](https://helpx.adobe.com/photoshop/using/channel-calculations.html)
