@@ -1347,10 +1347,12 @@ public class Main {
 
 #### Q100. Which class does not implement the java.util.Collection interface?
 
-- [x] java.util.Vector
+- [ ] java.util.Vector
 - [ ] java.util.ArrayList
 - [ ] java.util.HashSet
-- [ ] java.util.HashMap
+- [x] java.util.HashMap
+
+**Explanation**: HashMap class implements Map interface.
 
 #### Q101. You have a variable of named `employees` of type `List<Employee>` containing multiple entries. The `Employee` type has a method `getName()` that returns te employee name. Which statement properly extracts a list of employee names?
 
