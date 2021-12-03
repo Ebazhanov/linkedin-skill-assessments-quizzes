@@ -105,9 +105,11 @@ class Main {
 ```
 
 - [ ] It will show a stack trace with a runtime exception.
-- [x] "java.lang.Exception"
+- [ ] "java.lang.Exception"
 - [ ] It will run and throw an exception.
-- [ ] It will not compile.
+- [x] It will not compile.
+
+**Reasoning:** Will cause compilation error, Because `Exception` is an checked exception that needs to be handled using try/catch block or declared in the method in which it is throw.
 
 #### Q9. Which class can compile given these declarations?
 
