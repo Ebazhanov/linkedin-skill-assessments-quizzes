@@ -16,7 +16,7 @@ str::thread::spawn(|| {
 ```
 
 - [ ] a closure
-- [ ] a thread
+- [x] a thread
 - [ ] a future
 - [ ] a block
 
@@ -25,7 +25,7 @@ str::thread::spawn(|| {
 - [ ] integer
 - [ ] float
 - [ ] boolean
-- [ ] tuple
+- [x] tuple
 
 #### Q4. **\_** cannot be destructured.
 
@@ -39,12 +39,12 @@ str::thread::spawn(|| {
 - [ ] cargo --version
 - [ ] cargo init
 - [ ] cargo build
-- [ ] cargo check
+- [x] cargo check
 
 #### Q6. The term _box_ and related phrases such as _boxing a value_ are often used when relating to memory layout. What does _box_ refer to?
 
 - [ ] It's creating a pointer on the heap that points to a value on the stack.
-- [ ] It's creating a pointer on the stack that points to a value on the heap.
+- [x] It's creating a pointer on the stack that points to a value on the heap.
 - [ ] It's creating a memory guard around values to prevent illegal access.
 - [ ] It's an abstraction that refers to ownership. "Boxed" values are clearly labelled.
 
@@ -59,21 +59,21 @@ let slice = &s[0..2];
 - [ ] let slice = &s[len + 2];
 - [ ] let slice = &s[len - 2];
 - [ ] let slice = &s.copy(0..2);
-- [ ] let slice = &s[..2];
+- [x] let slice = &s[..2];
 
 #### Q8. Using the `?` operator at the end of an expression is equivalent to **\_**.
 
 - [ ] a match pattern that branches into True or False
 - [ ] calling ok_error()
 - [ ] calling panic!()
-- [ ] a match pattern that may result an early return
+- [x] a match pattern that may result an early return
 
 #### Q9. Which is valid syntax for defining an array of i32 values?
 
 - [ ] Array<i32>::with_capacity(10)
 - [ ] [i32]
 - [ ] Array<i32>::new(10)
-- [ ] [i32; 10]
+- [x] [i32; 10]
 
 #### Q10. What syntax is required to take a mutable reference to T, when used within a function argument?
 
@@ -86,7 +86,7 @@ fn increment(i: T) {
 - [ ] \*mut T
 - [ ] mut ref T
 - [ ] mut &T
-- [ ] &mut T
+- [x] &mut T
 
 #### Q11. The smart pointers Rc and Arc provide reference counting. What is the API for incrementing a reference count?
 
@@ -100,12 +100,12 @@ fn increment(i: T) {
 - [ ] The error is reported and execution continues.
 - [ ] An exception is raised. The effect(s) of the exception are defined by the error! macro.
 - [ ] The program panics immediately.
-- [ ] Rust attempts to convert the error to the local function's error type and return it as Result::Err. If that fails, the program panics.
+- [x] Rust attempts to convert the error to the local function's error type and return it as Result::Err. If that fails, the program panics.
 
 #### Q13. Which comment syntax is not legal?
 
 - [ ] `/*`
-- [ ] `#`
+- [x] `#`
 - [ ] `//!`
 - [ ] `//`
 
@@ -113,7 +113,7 @@ fn increment(i: T) {
 
 - [ ] `.ignore()`
 - [ ] `an underscore (_)`
-- [ ] ..
+- [x] ..
 - [ ] skip
   
 #### Q15. Defining a _ requires a lifetime parameter.
