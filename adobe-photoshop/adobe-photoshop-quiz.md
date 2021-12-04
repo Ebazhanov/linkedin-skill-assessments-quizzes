@@ -445,3 +445,12 @@
 - [ ] Click `File > Browse in Lightroom Classic CC.`
 - [ ] Use the Creative Cloud application.
 - [ ] Click `File > Browse in Lightroom CC`.
+
+#### Q57. Which command allows you to combine multiple channels into a new selection channel?
+
+- [ ] Flatten
+- [x] Calculations
+- [ ] Multiply
+- [ ] Merge
+
+[Answer found at:](https://helpx.adobe.com/photoshop/using/channel-calculations.html)

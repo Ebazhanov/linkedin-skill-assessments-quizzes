@@ -380,7 +380,7 @@ End Sub
 
 - [ ] MyVar equals "Procedure AAA Scope"
 - [ ] ISNULL(MyVar) is TRUE
-- [x] MyVar rquals "Procedure BBB Scope"
+- [x] MyVar equals "Procedure BBB Scope"
 - [ ] MyVar is NULL
 
 #### Q32. Which code block from class modules returns a compile error?

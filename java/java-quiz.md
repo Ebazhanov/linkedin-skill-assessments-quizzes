@@ -391,6 +391,7 @@ public class Jedi {
 - [ ] new Jedi(name, species, false)
 - [x] this(name, species, false)
 - [ ] super(name, species, false)
+  **Note:** This code won't compile, possibly broken code sample.
 
 #### Q27. Which statement is **NOT** true?
 
@@ -1237,24 +1238,6 @@ class Main {
 - [ ] "hello"
 - [ ] ????
 
-### 90. What code would you use in Constructor A to call Constructor B?
-
-```java
-public class Jedi {
-  /* Constructor A */
-  Jedi(String name, String species){}
-
-  /* Constructor B */
-  Jedi(String name, String species, boolean followsTheDarkSide){}
-  }
-```
-
-- [ ] Jedi(name, species, false)
-- [ ] new Jedi(name, species, false)
-- [x] this(name, species, false)
-- [ ] # super(name, species, false)
-  **Note:** This code won't compile, possibly broken code sample
-
 #### Q90. How would you use the TaxCalculator to determine the amount of tax on $50?
 
 ```java
@@ -1275,42 +1258,9 @@ class TaxCalculator {
 - [Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
 - [Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
 
-#### Q91. What is the value of myCharacter after line 3 is run?
+#### Q91. <DUPLICATE of Q81>
 
-```java
-1: public class Main {
-2:   public static void main (String[] args) {
-3:     char myCharacter = "piper".chatAt(3);
-4:   }
-5: }
-```
-
-- [ ] p
-- [ ] i
-- [ ] r
-- [x] e
-
-#### Q92. What is the output of this code?
-
-```java
-class Main {
-    static int count = 0;
-    public static void main(String[] args) {
-      if(count < 3){
-          count++;
-          main(null);
-      }else{
-          return;
-      }
-      System.out.println("Hello World!");
-    }
-}
-```
-
-- [ ] it will run forever.
-- [x] it will print "Hello World!" three times.
-- [ ] it will not compile.
-- [ ] it will throw a runtime exception.
+#### Q92. <DUPLICATE of Q37>
 
 #### Q93. What is the output of this code?
 
@@ -1319,8 +1269,8 @@ class Main {
     public static void main(String[] args) {
       HashMap<String, Integer> pantry = new HashMap<>();
 
-      pantry.put(Apples", 3);
-      pantry.put("Oranges, 2);
+      pantry.put("Apples", 3);
+      pantry.put("Oranges", 2);
 
       int currentApples = pantry.get("Apples");
       pantry.put("Apples", currentApples + 4);
@@ -1393,22 +1343,7 @@ public class Main {
 - [ ] Object
 - [ ] Serializable
 
-#### Q99. What is the output of this code?
-
-```java
- class Main {
-    public static void main(String[] args) {
-      String message = "Hello world!";
-      String newMessage = message.substring(6, 12) + message.substring(12, 6)
-      System.out.println(newMessage);
-    }
-}
-```
-
-- [x] A runtime exception is thrown because the index 12 is out of range.
-- [ ] world!!world
-- [ ] world!world!
-- [ ] A runtime exception is thrown because you cannot add strings with a plus sign.
+#### Q99. <DUPLICATE of Q15>
 
 #### Q100. Which class does not implement the java.util.Collection interface?
 
