@@ -154,8 +154,8 @@ SELECT @UniqueID AS Result;
     SELECT 'abc\
     def' AS Result;
 
-- [x] abc\def
-- [ ] abcdef
+- [ ] abc\def
+- [x] abcdef
 - [ ] error
 - [ ] abc def
 
@@ -355,8 +355,8 @@ FROM Students
 
 - [ ] You should create a DML trigger on the server.
 - [ ] You should create a DDL trigger on the database.
-- [ ] You should create a DML trigger on TableA.
-- [x] You should create a DML trigger on TableB.
+- [x] You should create a DML trigger on TableA.
+- [ ] You should create a DML trigger on TableB.
 
 #### Q35. What is the problem with this code?
 
@@ -383,12 +383,12 @@ FROM Students
 
 #### Q37. What is the result of this query?
 
-`SELECT '123'+'123' AS Result;`
+`SELECT 123+'123' AS Result;`
 
 - [ ] error
 - [ ] '123''123'
-- [x] 123123
-- [ ] 246
+- [ ] 123123
+- [x] 246
 
 #### Q38. To combine the results of two or more SELECT statements, removing duplicates, which keyword can you use?
 
