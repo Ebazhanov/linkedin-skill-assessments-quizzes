@@ -40,8 +40,8 @@
 #### Q6. You want to switch the scheduling mode for a project from scheduling from a start date to scheduling from a finish date. This action will change the default constraint from As Soon As Possible to As Late As Possible. Which dialog box should you use to make this change?
 
 - [ ] Resource Information
-- [ ] Project Information
-- [x] Task Information
+- [x] Project Information
+- [ ] Task Information
 - [ ] Change Working Time
 
 #### Q7. A project contains many elements. What is used to describe the sum of the work required?
