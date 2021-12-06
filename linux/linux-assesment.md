@@ -585,3 +585,14 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
 - [ ] They are the same.
 - [ ] The first line will append the word `data` to file.txt and there will be no output on the screen. The second line will output the word `data` on the screen and append it to `file.txt`
 - [ ] Both lines will overwrite file.txt with the word data.
+
+#### Q72. Using backreferences in a POSIX regular expression, which word would this pattern match?
+
+```shell
+(ss).*\1
+```
+
+- [ ] addressee
+- [x] possess
+- [ ] barrenness
+- [ ] successfully
