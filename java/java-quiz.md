@@ -241,7 +241,9 @@ class Main {
 - [ ] It will not compile because of line 2.
 - [ ] "World!"
 
-**Explanation:** Non-static method message() cannot be referenced from a static context.
+**Explanation:** Compilation error at line 10 because of final methods cannot be overridden, and here message() is a final method,
+                 and also note that Non-static method message() cannot be referenced from a static context.
+                  
 
 #### Q13. Given this code, which command will output "2"?
 
