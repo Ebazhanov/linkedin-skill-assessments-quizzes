@@ -501,6 +501,10 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 - [ ] `<kdb>`, `<mark>`
 - [x] `<code>`, `<pre>`
 
+[Source: MDN Web Docs code](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
+
+[Source: MDN Web Docs pre](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)
+
 #### Q32. What does the `<label>` tag do?
 
 - [ ] It labels webpages with important information.
@@ -1368,10 +1372,14 @@ As Steve Krug once said, happy talk must die.
 
 #### Q86. What is the difference between the _readonly_ and _disabled_ attributes for the `<textarea>` element?
 
-- [ ] _readonly_ allows clicking in the `<textarea>` element. _disabled_ prevents all interaction with the control.
+- [x] _readonly_ allows clicking in the `<textarea>` element. _disabled_ prevents all interaction with the control.
 - [ ] _readonly_ is invalid attribute for `<textarea>`, while _disabled_ is a valid attribute.
 - [ ] _disabled_ allows clicking in the `<textarea>` element. _readonly_ prevents all interaction with the control.
 - [ ] _disabled_ is invalid attribute for `<textarea>`, while _readonly_ is a valid attribute.
+
+[Source: readonly](https://www.w3schools.com/tags/att_readonly.asp)
+
+[Source: disabled](https://www.w3schools.com/tags/att_disabled.asp)
 
 #### Q87. In this code, what is _target_?
 
@@ -1515,14 +1523,3 @@ x<y&z>w
 - [x] The `<img>` element is missing an alt attribute.
 - [ ] `<img>` is not a valid HTML element. Instead, use `<image src="..."/>`.
 - [ ] `<img>` should be nested within a `<figure>` tag.
-
-#### Q97. The **\_\_** tag is used for marking up a short code snippet, while the **\_\_** tag is used for marking up a longer code snippet.
-
-- [x] `<code>`; `<pre>`
-- [ ] `<kbd>`; `<mark>`
-- [ ] `<pre>`; `<code>`
-- [ ] `<kbd>`; `<pre>`
-
-[Source: MDN Web Docs code](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
-
-[Source: MDN Web Docs pre](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)

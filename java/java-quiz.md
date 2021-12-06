@@ -241,7 +241,9 @@ class Main {
 - [ ] It will not compile because of line 2.
 - [ ] "World!"
 
-**Explanation:** Non-static method message() cannot be referenced from a static context.
+**Explanation:** Compilation error at line 10 because of final methods cannot be overridden, and here message() is a final method,
+                 and also note that Non-static method message() cannot be referenced from a static context.
+                  
 
 #### Q13. Given this code, which command will output "2"?
 
@@ -786,7 +788,7 @@ public TheClass() {
 }
 ```
 
-**Explanation:** `final` class members are allowed to be assigned only in two places: declaration and constructor
+**Explanation:** `final` class members are allowed to be assigned only in three places: declaration, constructor or an instance-initializer block.
 
 #### Q52. How many times f will be printed?
 
@@ -1347,10 +1349,12 @@ public class Main {
 
 #### Q100. Which class does not implement the java.util.Collection interface?
 
-- [x] java.util.Vector
+- [ ] java.util.Vector
 - [ ] java.util.ArrayList
 - [ ] java.util.HashSet
-- [ ] java.util.HashMap
+- [x] java.util.HashMap
+
+**Explanation**: HashMap class implements Map interface.
 
 #### Q101. You have a variable of named `employees` of type `List<Employee>` containing multiple entries. The `Employee` type has a method `getName()` that returns te employee name. Which statement properly extracts a list of employee names?
 
