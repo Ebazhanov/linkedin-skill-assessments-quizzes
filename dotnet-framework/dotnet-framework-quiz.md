@@ -51,10 +51,10 @@
 
 #### Q8.You want to include language elements in a program. Which design pattern best fits this objective?
 
-- [ ] Interpreter
+- [x] Interpreter <= correct
 - [ ] Command
 - [ ] Bridge
-- [x] Decorator
+- [ ] Decorator
 
 #### Q9. What makes a strong-named assembly?
 
@@ -123,10 +123,10 @@
 
 #### Q18. What is an abstract class in .NET?
 
-- [ ] An abstract class provides a partial implementation for functionality and some abstract or virtual members that must be implemented by the inheriting entities. It can declare fields too.
+- [x] An abstract class provides a partial implementation for functionality and some abstract or virtual members that must be implemented by the inheriting entities. It can declare fields too. <= Correct
 - [ ] An abstract class allows developers to create new classes that reuse, extend, and modify the behavior defined in other classes.
 - [ ] An abstract class is responsible for keeping track of what is actually executing and where each executing thread is.
-- [x] An abstract class declares a contract or behavior that implementing classes require. It may declare only properties, methods, and events with no access modifiers. All the declared members must be implemented.
+- [ ] An abstract class declares a contract or behavior that implementing classes require. It may declare only properties, methods, and events with no access modifiers. All the declared members must be implemented.
 
 #### Q19. What is the namespace for caching information in .NET?
 
