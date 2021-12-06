@@ -461,3 +461,24 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] Apply a cell style
 
 [Reference ](https://support.microsoft.com/en-us/office/change-the-look-of-a-table-a18cbaa8-e681-455f-a99f-a2378fe5ff06)
+
+#### Q60. Why would you use Outline view?
+
+- [ ] to quickly edit titles or bulleted text in the Slide pane
+- [ ] to view the comments on all slides
+- [ ] to add notes in the Slide pane
+- [ ] to change the font on all slides
+
+#### Q61. Before publishing a presentation, which option should you use to scan a presentation and look for issues that may make it difficult for someone with a visual impairment to read?
+
+- [ ] Protect Presentation
+- [ ] Inspect Document
+- [ ] Check Compatibility
+- [ ] Check Accessibility
+
+#### Q62. How can you filter the series and/or categories in a chart?
+
+- [ ] Edit the data to remove the data for the series or category.
+- [ ] Switch the rows and columns.
+- [ ] Use a filter so the data series or category does not display.
+- [ ] Change the chart type.

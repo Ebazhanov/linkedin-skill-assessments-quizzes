@@ -40,8 +40,8 @@
 #### Q6. You want to switch the scheduling mode for a project from scheduling from a start date to scheduling from a finish date. This action will change the default constraint from As Soon As Possible to As Late As Possible. Which dialog box should you use to make this change?
 
 - [ ] Resource Information
-- [ ] Project Information
-- [x] Task Information
+- [x] Project Information
+- [ ] Task Information
 - [ ] Change Working Time
 
 #### Q7. A project contains many elements. What is used to describe the sum of the work required?
@@ -104,8 +104,10 @@
 
 - [ ] It has changed to 10h.
 - [ ] It has changed to 6h.
-- [ ] It has changed to 125%.
-- [x] It has changed to 110%.
+- [x] It has changed to 125%.
+- [ ] It has changed to 110%.
+
+[reference link](https://support.microsoft.com/en-us/office/peak-task-field-a9947235-b552-4ae5-9f26-d58fdc1a27d3)
 
 #### Q16. What is another name for a work breakdown structure?
 
