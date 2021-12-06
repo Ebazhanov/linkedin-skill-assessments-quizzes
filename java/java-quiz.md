@@ -788,7 +788,7 @@ public TheClass() {
 }
 ```
 
-**Explanation:** `final` class members are allowed to be assigned only in two places: declaration and constructor
+**Explanation:** `final` class members are allowed to be assigned only in three places: declaration, constructor or an instance-initializer block.
 
 #### Q52. How many times f will be printed?
 
