@@ -578,3 +578,5 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] inspact document
 - [ ] check compatibility
 - [ ] protect document
+
+[Reference](https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f)
