@@ -571,3 +571,10 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] master page
 - [ ] blank page
 - [ ] table of contents page
+
+### Q73. before publishing a document you want to identify issues that may make it difficult for people with disabilities to read. which feature should you use?
+
+- [x] check Accessibility
+- [ ] inspact document
+- [ ] check compatibility
+- [ ] protect document
