@@ -816,3 +816,32 @@ Dog
 - [ ] use myApp\myNamespace\ClassA, ClassB, ClassC;
 - [ ] use myApp\myNamespace\[ClassA, ClassB, ClassC];
 - [ ] use myApp\myNamespace\(ClassA, ClassB, ClassC);
+
+##### Q64.Which is the most complete list of data types that PHP supports?
+
+- [x] string, integer, float, boolean, array, object, NULL, resource
+- [ ] string, integer, boolean, array, object, NULL, resource
+- [ ] string, integer, float, array, object, NULL, resource
+- [ ] string, integer, float, boolean, array, object, NULL
+
+[reference](https://www.w3schools.com/php/php_datatypes.asp)
+
+##### Q65. What type of computer language is PHP?
+
+- [x] server-side scripting language
+- [ ] compiled language
+- [ ] machine language
+- [ ] algorithmic language
+
+[reference](https://www.quora.com/Which-programming-language-is-used-to-create-PHP)
+
+
+##### Q66.Which superglobal variable holds information about headers, paths, and script locations?
+
+- [x] $_SERVER
+- [ ] $SERVER_VARIABLES
+- [ ] $_ENV
+- [ ] $GLOBALS
+
+[reference](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/php/php_superglobals.asp.html)
+
