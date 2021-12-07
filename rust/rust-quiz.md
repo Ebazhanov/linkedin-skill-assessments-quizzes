@@ -115,8 +115,8 @@ fn increment(i: T) {
 - [ ] `an underscore (_)`
 - [x] ..
 - [ ] skip
-  
-#### Q15. Defining a _ requires a lifetime parameter.
+
+#### Q15. Defining a \_ requires a lifetime parameter.
 
 - [ ] function that ends the lifetime of one of its arguments
 - [ ] struct that contains a reference to a value

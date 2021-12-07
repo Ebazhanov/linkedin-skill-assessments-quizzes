@@ -242,8 +242,7 @@ class Main {
 - [ ] "World!"
 
 **Explanation:** Compilation error at line 10 because of final methods cannot be overridden, and here message() is a final method,
-                 and also note that Non-static method message() cannot be referenced from a static context.
-                  
+and also note that Non-static method message() cannot be referenced from a static context.
 
 #### Q13. Given this code, which command will output "2"?
 
@@ -393,6 +392,7 @@ public class Jedi {
 - [ ] new Jedi(name, species, false)
 - [x] this(name, species, false)
 - [ ] super(name, species, false)
+
   **Note:** This code won't compile, possibly broken code sample.
 
 #### Q27. Which statement is **NOT** true?
