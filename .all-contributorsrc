@@ -6533,6 +6533,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "candideu",
+      "name": "Candide U",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55474996?v=4",
+      "profile": "https://github.com/candideu",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
