@@ -596,3 +596,10 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
 - [x] possess
 - [ ] barrenness
 - [ ] successfully
+
+### Q73. What is the purpose of a Mail Transport Agent (MTA)?
+
+- [ ] It transports the mail from user's computer to the mail server.
+- [ ] It accepts mail and adds it to the mail queue for further processing.
+- [ ] It stores the mail in a mail queue waiting for the MUA to download it.
+- [x] It transports mail from one mail server to another.
