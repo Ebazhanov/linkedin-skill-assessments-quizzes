@@ -182,8 +182,8 @@ return list(enumerate(college_years, 2019))
 #### Q14. How does `defaultdict` work?
 
 - [ ] `defaultdict` will automatically create a dictionary for you that has keys which are the integers 0-10.
-- [ ] `defaultdict` forces a dictionary to only accept keys that are of the types specified when you created the `defaultdict` (such as string or integers).
-- [x] If you try to access a key in a dictionary that doesn't exist, `defaultdict` will create a new key for you instead of throwing a `KeyError`.
+- [ ] `defaultdict` forces a dictionary to only accept keys that are of the data type specified when you created the `defaultdict` (such as strings or integers).
+- [x] If you try to read from a `defaultdict` with a nonexistent key, a new default key-value pair will be created for you instead of throwing a `KeyError`.
 - [ ] `defaultdict` stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.
 
 #### Q15. What is the correct syntax for defining a class called "Game", if it inherits from a parent class called "LogicGame"?
@@ -1373,3 +1373,9 @@ num_list.pop(2)
 num_list.remove(2)
 	[1,3,4,5]
 ```
+#### Q101. What is the correct syntax for creating an instance method?
+
+- [] def get_next_card(): # method body goes here
+- [] def self.get_next_card(): # method body goes here
+- [x] def get_next_card(self): # method body goes here
+- [] def self.get_next_card(self): # method body goes here
