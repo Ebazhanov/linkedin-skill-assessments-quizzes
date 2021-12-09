@@ -61,16 +61,20 @@
 #### Q9. Specifying two lines to be perpendicular to each other would be an example of what?
 
 - [ ] feature
-- [ ] relation
+- [x] relation
 - [ ] extrude
 - [ ] dimension
+
+[Solidworks: Sketch Relations](https://help.solidworks.com/2022/english/SolidWorks/sldworks/c_Description_of_Sketch_Relations.htm)
 
 #### Q10. You want to focus on a single component within your assembly and hide all the rest. How can you do this?
 
 - [ ] Right-click the component you want to focus on and select Change Transparency
 - [ ] Right-click the component you want to focus on and select Hide
-- [ ] Right-click the component you want to focus on and select Isolate
+- [x] Right-click the component you want to focus on and select Isolate
 - [ ] Right-click the component you want to focus on and select Suppress
+
+[Solidworks: Isolate](https://help.solidworks.com/2022/english/SolidWorks/sldworks/hidd_comp_isolate_dlg.htm?verRedirect=1)
 
 #### Q11. What will Save As do on an existing saved part?
 
