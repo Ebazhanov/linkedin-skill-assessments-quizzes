@@ -423,3 +423,19 @@
 - [ ] Cacheable
 - [ ] Layered System
 - [ ] Uniform Interface
+
+#### Q57. Which HTTP verb is used to delete a resource?
+
+- [ ] FLUSH
+- [x] DELETE
+- [ ] CLEAR
+- [ ] DESTROY
+
+#### Q58. Which verb is _not_ considered idempotent?
+
+- [ ] DELETE
+- [ ] GET
+- [ ] PUT
+- [x] POST
+
+**Explanation:** [Idempotency](https://restfulapi.net/idempotent-rest-apis/)
