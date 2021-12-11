@@ -635,7 +635,7 @@ fun printStudents(vararg students: String) {
 
 - [ ] `printStudents(students.toList())`
 - [ ] `printStudents(students!!)`
-- [x] `printStudents(\*students)`
+- [x] `printStudents(*students)`
 - [ ] `printStudents(students[])`
 
 #### Q54. Both y and z are immutable references pointing to fixed-size collections of the same four integers. Are there any differences?
