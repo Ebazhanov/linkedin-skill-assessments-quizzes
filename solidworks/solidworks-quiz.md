@@ -104,8 +104,10 @@
 
 - [ ] Freezing the features helps to show only the critical features of the model
 - [ ] Freezing the features helps to show the internal features of the model
-- [ ] Freezing the features helps to reduce the rebuild time and prevent unintentional changes to the model
+- [x] Freezing the features helps to reduce the rebuild time and prevent unintentional changes to the model
 - [ ] Freezing the features helps to show the external features of the model
+
+ [Reference](https://help.solidworks.com/2021/English/SolidWorks/sldworks/c_Feature_Freeze.htm)
 
 #### Q14. Which single features could you use to design a cube, a sphere, and a paperclip, respectively?
 
