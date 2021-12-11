@@ -86,7 +86,7 @@
 
 #### Q13. An auction has a normal bid of $.50 but there is an active bid adjustment of -20%. What is the final bid amount?
 
-- [ ] $0.40
+- [x] $0.40
 - [ ] $0.60
 - [ ] $0.04
 - [ ] $0.06

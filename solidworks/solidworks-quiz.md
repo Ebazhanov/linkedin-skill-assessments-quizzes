@@ -93,17 +93,21 @@
 
 #### Q12. You want to show a list of the raw materials, subassemblies, intermediate assemblies, subcomponents, and parts, and the quantities of each, needed to manufacture an end product. What would be useful to accomplish this?
 
-- [ ] bill of material
+- [x] bill of material
 - [ ] isometric view
 - [ ] exploded view
 - [ ] hole list
+
+[Reference](https://en.wikipedia.org/wiki/Bill_of_materials)
 
 #### Q13. Freezing a portion of a model can be used if you work with complex models with many features. Why
 
 - [ ] Freezing the features helps to show only the critical features of the model
 - [ ] Freezing the features helps to show the internal features of the model
-- [ ] Freezing the features helps to reduce the rebuild time and prevent unintentional changes to the model
+- [x] Freezing the features helps to reduce the rebuild time and prevent unintentional changes to the model
 - [ ] Freezing the features helps to show the external features of the model
+
+ [Reference](https://help.solidworks.com/2021/English/SolidWorks/sldworks/c_Feature_Freeze.htm)
 
 #### Q14. Which single features could you use to design a cube, a sphere, and a paperclip, respectively?
 
@@ -116,8 +120,10 @@
 
 - [ ] parallel
 - [ ] coindicent
-- [ ] equal
+- [x] equal
 - [ ] concentric
+
+[Reference](https://help.solidworks.com/2019/English/SolidWorks/sldworks/r_Types_of_Mates_SWassy.htm)
 
 #### Q16. How would you temporarily remove a feature from a model?
 
@@ -131,7 +137,9 @@
 - [ ] Use Assembly Visualization
 - [ ] Use a bill of materials
 - [ ] Use isometric view
-- [ ] Use exploded view
+- [X] Use exploded view
+
+[Reference](https://help.solidworks.com/2018/english/solidworks/sldworks/c_Exploded_Views_in_Assemblies.htm)
 
 #### Q18. How would you fix a Lofted Boss/Base feature that appears twisted?
 
@@ -150,28 +158,32 @@
 #### Q20. With injection molding, one common manufacturing requirement or preference is applying a taper or angle to faces to help with part removal from the mold. Which feature can help you meet this requirement?
 
 - [ ] Loft
-- [ ] Draft
+- [x] Draft
 - [ ] Wrap
 - [ ] Sweep
 
 #### Q21. You want to simplify a very large and complex assembly to improve performance while working within it. What should you use?
 
 - [ ] DFMXpress
-- [ ] SpeedPak
+- [X] SpeedPak
 - [ ] a flexible subassembly
 - [ ] Design Checker
+
+[reference](https://help.solidworks.com/2014/english/SolidWorks/sldworks/c_Improving_Large_Assembly_Performance_SWassy.htm
 
 #### Q22. If you are working with ISO standards, which projection method would you most likely be using?
 
 - [ ] second angle projection
 - [ ] fourth angle projection
-- [ ] first angle projection
+- [X] first angle projection
 - [ ] third angle projection
+
+[Reference](https://www.mcadcafe.com/nbc/articles/1/1551676/Which-standard-should-you-adopt-2D-Drawing-ISO-ASME)
 
 #### Q23. You have a single line within a sketch that you would like to split into three separate lines. How can you achieve this?
 
 - [ ] Use the Offset Entities tool
-- [ ] Use the Split Line tool
+- [X] Use the Split Line tool
 - [ ] Use the Split Entities tool
 - [ ] Use the Split tool
 
@@ -180,37 +192,47 @@
 - [ ] inflection point
 - [ ] control point
 - [ ] spline point
-- [ ] spline handle
+- [X] spline handle
+
+[Reference](https://www.cati.com/blog/2016/06/creating-splines-in-solidworks-made-easy/)
 
 #### Q25. You want to build a new part within an assembly to ensure in-context relations and dimensions. You also want to save out this part file as its own unique file. After navigating to the Assembly ribbon tab, what do you do next?
 
 - [ ] Under Insert Component, select Part to create a new in-context part. Right-click the new part and select isolate
 - [ ] Select Insert Component to create a new in-context part. Right-click te new part and select Save Part (in External File)
 - [ ] Under Insert Components, select New Part to create a new in-context part. Right-click the new part and select Save Selection
-- [ ] Under Insert Components, select New Part to create a new in-context part. Right-click the new part and select Save Part (in External File)
+- [X] Under Insert Components, select New Part to create a new in-context part. Right-click the new part and select Save Part (in External File)
+
+[Reference](https://help.solidworks.com/2018/english/SolidWorks/sldworks/t_Creating_a_Part_in_an_Assembly.htm)
 
 #### Q26. The ribbon bar at the top of your SOLIDWORKS screen has disappeared. How can you get it back?
 
 - [ ] Click View > Toolbars > CommandManager
 - [ ] Click View > Toolbars > FeatureManager
 - [ ] Click View > Toolbars > MotionManager
-- [ ] Click View > Toolbars > Task Pane
+- [X] Click View > Toolbars > Task Pane
+
+[reference](https://www.javelin-tech.com/blog/2017/02/solidworks-task-pane-missing/)
 
 #### Q27. Representing a three-dimensional object by a number of two-dimensional views is generally called
 
 - [ ] isometric projection
 - [ ] oblique projection
 - [ ] object projection
-- [ ] orthographic projection
+- [X] orthographic projection
+
+[Reference](https://www.britannica.com/technology/orthographic-projection-engineering)
 
 #### Q28. How can you rename a feature?
 
-- [ ] Select the feature name and press F2, or slow-double-click the feature name
+- [X] Select the feature name and press F2, or slow-double-click the feature name
 - [ ] Select the feature name and press F3 key, or right-click the feature name
 - [ ] Select the feature name and press F7, or quick-double-click the feature name
 - [ ] Select the feature name and press F5 key, or double-click the feature name
 
-#### Q29. When using the Fillet tool, what does the Tangent Propagation option do?
+[reference](http://support.ptc.com/help/creo/creo_pma/usascii/index.html#page/part_modeling/part_modeling/part_five_sub/To_Rename_a_Feature.html)
+
+#### Q29. When using the Fillet tool, what does the Tanget Propagation option do?
 
 - [ ] It creates a fillet that is tanget to the direction of view
 - [ ] It creates a fillet that varies in size, depending on lcoal tangency

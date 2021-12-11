@@ -213,6 +213,7 @@
 - [ ] root.find(R.id.text_home)
 
 #### Q15. Why do you use the AndroidJUnitRunner when running UI tests?
+Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
 
 - [x] The test runner facilitates loading your test package and the app under test onto a device or emulator, runs the test, and reports the results.
 - [ ] The test runner creating screenshots of each screen that displayed while tests are executed.
@@ -221,8 +222,8 @@
 
 #### Q16. What allows you to properly restore a user's state when an activity is restarted?
 
-- [x] the onSaveInstance()method
-- [ ] all of these answers
+- [ ] the onSaveInstance()method
+- [x] all of these answers [(Refrence)](https://developer.android.com/topic/libraries/architecture/saving-states)
 - [ ] persistent storage
 - [ ] ViewModel objects
 
@@ -253,8 +254,8 @@
 
 - [ ] Although screen pixel density varies, this does not impact the use of pixels to define sizes.
 - [ ] Large devices always have more pixels, so your UI elements will be e=affected if you define them with pixels.
-- [ ] The same number of pixels may correspond to different physical sizes, affecting the appearance of your UI elements.
-- [x] Different devices have different understanding of what a pixel is , affecting the appearance of your UI elements
+- [x] The same number of pixels may correspond to different physical sizes, affecting the appearance of your UI elements. [(Reference)](https://developer.android.com/training/multiscreen/screendensities#:~:text=The%20first%20pitfall%20you%20must,physical%20sizes%20on%20different%20devices.)
+- [ ] Different devices have different understanding of what a pixel is , affecting the appearance of your UI elements
 
 #### Q21. You need to get a list of devices that are attached to your computer with USB debugging enable. Which command would execute using the Android Debug Bridge?
 
