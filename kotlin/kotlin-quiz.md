@@ -518,10 +518,10 @@ fun main() {
 }
 ```
 
-- [x] Because name is a class parameter, not a property-it is unresolved `main()`.
+- [ ] Because name is a class parameter, not a property-it is unresolved `main()`.
 - [ ] In order to create an instance of a class, you need the keyword `new`
 - [ ] The reference to name needs to be scoped to the class, so it should be `this.name`
-- [ ] Classes cannot be immutable. You need to change `var` to `val`
+- [x] Classes cannot be immutable. You need to change `var` to `val`
 
 #### Q46. The code below shows a typical way to show both index and value in many languages, including Kotlin. Which line of code shows a way to get both index and value more idiomatically?
 
