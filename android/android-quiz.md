@@ -253,8 +253,8 @@
 
 - [ ] Although screen pixel density varies, this does not impact the use of pixels to define sizes.
 - [ ] Large devices always have more pixels, so your UI elements will be e=affected if you define them with pixels.
-- [ ] The same number of pixels may correspond to different physical sizes, affecting the appearance of your UI elements.
-- [x] Different devices have different understanding of what a pixel is , affecting the appearance of your UI elements
+- [x] The same number of pixels may correspond to different physical sizes, affecting the appearance of your UI elements. [(Reference)](https://developer.android.com/training/multiscreen/screendensities#:~:text=The%20first%20pitfall%20you%20must,physical%20sizes%20on%20different%20devices.)
+- [ ] Different devices have different understanding of what a pixel is , affecting the appearance of your UI elements
 
 #### Q21. You need to get a list of devices that are attached to your computer with USB debugging enable. Which command would execute using the Android Debug Bridge?
 
