@@ -210,7 +210,9 @@
 - [ ] Click View > Toolbars > CommandManager
 - [ ] Click View > Toolbars > FeatureManager
 - [ ] Click View > Toolbars > MotionManager
-- [ ] Click View > Toolbars > Task Pane
+- [X] Click View > Toolbars > Task Pane
+
+[reference](https://www.javelin-tech.com/blog/2017/02/solidworks-task-pane-missing/)
 
 #### Q27. Representing a three-dimensional object by a number of two-dimensional views is generally called
 
