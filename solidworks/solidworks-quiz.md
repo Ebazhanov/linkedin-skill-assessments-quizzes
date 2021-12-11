@@ -150,7 +150,7 @@
 #### Q20. With injection molding, one common manufacturing requirement or preference is applying a taper or angle to faces to help with part removal from the mold. Which feature can help you meet this requirement?
 
 - [ ] Loft
-- [ ] Draft
+- [x] Draft
 - [ ] Wrap
 - [ ] Sweep
 
