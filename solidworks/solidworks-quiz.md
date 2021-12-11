@@ -189,7 +189,7 @@
 - [ ] Under Insert Components, select New Part to create a new in-context part. Right-click the new part and select Save Selection
 - [ ] Under Insert Components, select New Part to create a new in-context part. Right-click the new part and select Save Part (in External File)
 
-#### Q26. The ribbon ar at the top of your SOLIDWORKS screen has disappeared. How can you get it back?
+#### Q26. The ribbon bar at the top of your SOLIDWORKS screen has disappeared. How can you get it back?
 
 - [ ] Click View > Toolbars > CommandManager
 - [ ] Click View > Toolbars > FeatureManager
@@ -210,7 +210,7 @@
 - [ ] Select the feature name and press F7, or quick-double-click the feature name
 - [ ] Select the feature name and press F5 key, or double-click the feature name
 
-#### Q29. When using the Fillet tool, what does the Tanget Propagation option do?
+#### Q29. When using the Fillet tool, what does the Tangent Propagation option do?
 
 - [ ] It creates a fillet that is tanget to the direction of view
 - [ ] It creates a fillet that varies in size, depending on lcoal tangency
@@ -219,10 +219,12 @@
 
 #### Q30. You notice that one of the subassemblies in your main assembly is rigid and does not have mobility it should. How can you resolve this issue?
 
-- [ ] Select the subassembly and then select **Make Subassembly Flexible** from the context menu
+- [X] Select the subassembly and then select **Make Subassembly Flexible** from the context menu
 - [ ] Select the subassembly and then select **Set Resolved from LightWeight** from the context menu
 - [ ] Select the subassembly and then select **Edit Assembly** from the context menu
 - [ ] Select the subassembly and then select **Make Independent** from the context menu
+
+[Reference](https://help.solidworks.com/2018/english/solidworks/sldworks/c_flexible_sub-assemblies.htm)
 
 #### Q31. You dimension an arc in a drawing and notice that the dimension is coming in as the radius value. You want to show the diameter value. To do this, first you click the dimension to open the dimension PropertyManager. What do you do next?
 
