@@ -615,8 +615,8 @@ val result = generateSequence(1) { it + 1 }.toList()
 println(result)
 ```
 
-- [ ] The sequence lacks a terminal operation.
-- [x] The sequence is infinite and lacks an intermediate operation to make `it` finite.
+- [x] The sequence lacks a terminal operation. ([reference](https://kotlinlang.org/docs/sequences.html#iterable)) 
+- [ ] The sequence is infinite and lacks an intermediate operation to make `it` finite.
 - [ ] The expression should begin with `generateSequence(0)`.
 - [ ] The `it` parameter should be replaced with `this`.
 
