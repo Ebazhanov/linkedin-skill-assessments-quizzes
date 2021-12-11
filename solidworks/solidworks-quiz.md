@@ -93,10 +93,12 @@
 
 #### Q12. You want to show a list of the raw materials, subassemblies, intermediate assemblies, subcomponents, and parts, and the quantities of each, needed to manufacture an end product. What would be useful to accomplish this?
 
-- [ ] bill of material
+- [x] bill of material
 - [ ] isometric view
 - [ ] exploded view
 - [ ] hole list
+
+[Reference](https://en.wikipedia.org/wiki/Bill_of_materials)
 
 #### Q13. Freezing a portion of a model can be used if you work with complex models with many features. Why
 
