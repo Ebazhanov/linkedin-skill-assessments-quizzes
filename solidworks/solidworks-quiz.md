@@ -175,8 +175,10 @@
 
 - [ ] second angle projection
 - [ ] fourth angle projection
-- [ ] first angle projection
+- [X] first angle projection
 - [ ] third angle projection
+
+[Reference](https://www.mcadcafe.com/nbc/articles/1/1551676/Which-standard-should-you-adopt-2D-Drawing-ISO-ASME)
 
 #### Q23. You have a single line within a sketch that you would like to split into three separate lines. How can you achieve this?
 
