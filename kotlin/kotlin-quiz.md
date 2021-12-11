@@ -759,7 +759,7 @@ val b = arrayOf(100, 200, 3000)
 println("length of First Name = ${firstName!!.length}")
 ```
 
-- [x] Replace `!!.` with `?..` ([reference](https://kotlinlang.org/docs/null-safety.html#nullable-types-and-non-null-types))
+- [x] Replace `!!.` with `?.` ([reference](https://kotlinlang.org/docs/null-safety.html#nullable-types-and-non-null-types))
 - [ ] Replace `!!.` with `?:.`
 - [ ] Surround the line with a try/catch block.
 - [ ] Replace `!!.` with `?.let`.
