@@ -36,8 +36,10 @@
 
 - [ ] Quick Snaps
 - [ ] Rebuild
-- [ ] Repair Sketch
+- [x] Repair Sketch
 - [ ] Show Error
+
+[reference](https://blogs.solidworks.com/tech/2016/12/solidworks-fix-sketch-repair-sketch.html)
 
 #### Q6. Which choice is an example of a skected feature?
 
