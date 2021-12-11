@@ -749,9 +749,9 @@ val b = arrayOf(100, 200, 3000)
 ```
 
 - [ ] `val c = list of (a, b)`
-- [x] `val c = a + b` ([reference](https://www.techiedelight.com/join-two-lists-kotlin/))
+- [ ] `val c = a + b` 
 - [ ] `val c = listOf(a+b)`
-- [ ] `val c = listOf(*a, *b)`
+- [x] `val c = listOf(*a, *b)` ([reference](https://www.techiedelight.com/join-two-lists-kotlin/)) (Similar to Q72)
 
 #### Q64. This code is occasionally throwing a null pointer exception (NPE). How can you change the code so it never throws as NPE?
 
@@ -875,14 +875,14 @@ fun main() {
 #### Q72. You have two arrays, a and b. Which line combines a and b as a list containing the contents of both?
 
 ```kotlin
-val a : array0f(1, 2, 3)
-val b : array0f(166,266,366)
+val a = array0f(1, 2, 3)
+val b = array0f(166,266,366)
 ```
 
 - [ ] `val c = a + b`
 - [ ] `val c = list0f(a, b)`
-- [x] `val c = list0f(*a, *b)`
-- [ ] `val c = list0f(a+b)`
+- [x] `val c = list0f(*a, *b)` ([reference](https://www.techiedelight.com/join-two-lists-kotlin/))
+- [ ] `val c = list0f(a+b)` 
 
 #### Q73. What is the preferred way to create an immutable variable of type long?
 
