@@ -811,9 +811,9 @@ fun main() {
 }
 ```
 
-- [ ] `moveTo( "LA")`
-- [x] `::moveTo("LA")` ([reference](https://kotlinlang.org/docs/reflection.html#interoperability-with-java-reflection))
-- [ ] `moveTo("LA")`
+- [x] `moveTo( "LA")`
+- [ ] `::moveTo("LA")` 
+- [x] `moveTo("LA")`
 - [ ] `it.moveTo("LA")`
 
 #### Q69. For the Product class you are designing, you would like the price to be readable by anyone, but changeable only from within the class. Which property declaration implements your design?
