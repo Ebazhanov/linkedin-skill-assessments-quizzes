@@ -219,7 +219,9 @@
 - [ ] isometric projection
 - [ ] oblique projection
 - [ ] object projection
-- [ ] orthographic projection
+- [X] orthographic projection
+
+[Reference](https://www.britannica.com/technology/orthographic-projection-engineering)
 
 #### Q28. How can you rename a feature?
 
