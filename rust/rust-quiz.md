@@ -92,9 +92,11 @@ fn increment(i: T) {
 
 - [ ] .add()
 - [ ] .incr()
-- [ ] .clone()
+- [X] .clone()
 - [ ] .increment()
 
+  [reference](https://doc.rust-lang.org/book/ch15-04-rc.html)
+  
 #### Q12. What happens when an error occurs that is being handled by the question mark (?) operator?
 
 - [ ] The error is reported and execution continues.
