@@ -867,9 +867,9 @@ fun main() {
 
 #### Q71. Which statement declares a variable mileage whose value never changes and is inferred to be an integer?
 
-- [x] `val mileage:Int = 566`
+- [ ] `val mileage:Int = 566`
 - [ ] `var mileage:Int = 566`
-- [ ] `val mileage = 566`
+- [x] `val mileage = 566` (Note: inferred)
 - [ ] `const int mileage = 566`
 
 #### Q72. You have two arrays, a and b. Which line combines a and b as a list containing the contents of both?
