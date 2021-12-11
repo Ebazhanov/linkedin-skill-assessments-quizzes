@@ -2,10 +2,12 @@
 
 #### Q1. Which file contains all the drawing document-specific information, such as specifications for units, drafting standard, font selections, etc?
 
-- [ ] SOLIDWORKS drawing template
+- [x] SOLIDWORKS drawing template
 - [ ] SOLIDWORKS composer file
 - [ ] SOLIDWORKS part file
 - [ ] SOLIDWORKS sheet format
+
+[Reference : drawing template](https://www.cati.com/blog/2017/07/tech-tip-the-difference-between-a-sheet-format-and-a-drawing-template-in-solidworks/#:~:text=The%20drawing%20template%20has%20the,pre%2Ddefined%20views%2C%20etc.)
 
 #### Q2. You need to design a steel spring with a pitch diameter of 3 inches, free length of 10 inches, and pitch of 1 inch. How would you accomplish this in SOLIDWORKS?
 
