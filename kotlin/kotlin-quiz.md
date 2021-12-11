@@ -603,9 +603,9 @@ fun main() {
 }
 ```
 
-- [x] You cannot; the hash symbol is not a valid operator.
+- [ ] You cannot; the hash symbol is not a valid operator.
 - [ ] You should replace the word hash with octothorpe, the actual name for the symbol.
-- [ ] You should use `minus` instead of hash, then type alias the minus symbol.
+- [x] You should use `minus` instead of hash, then type alias the minus symbol. // Note: How can you fix it?
 - [ ] You need to replace operator with the word `infix`.
 
 #### Q52. This code snippet compiles without error, but never prints the results when executed. What could be wrong?
