@@ -131,7 +131,9 @@
 - [ ] Use Assembly Visualization
 - [ ] Use a bill of materials
 - [ ] Use isometric view
-- [ ] Use exploded view
+- [X] Use exploded view
+
+[Reference](https://help.solidworks.com/2018/english/solidworks/sldworks/c_Exploded_Views_in_Assemblies.htm)
 
 #### Q18. How would you fix a Lofted Boss/Base feature that appears twisted?
 
