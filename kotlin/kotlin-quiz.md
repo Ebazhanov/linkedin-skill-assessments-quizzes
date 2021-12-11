@@ -673,7 +673,7 @@ fun main() = runBlocking {
 data class Student(val firstName: String, val lastName: String)
 ```
 
-- [x] `println(students.groupBy{ it.lastName.first() }.count())`
+- [x] `println(students.groupBy{ it.lastName }.count())`
 - [ ] `println(students.groupBy{ it.lastName.first() }.fold().count())`
 - [ ] `println(students.groupingBy{ it.lastName.first() }.count())`
 - [ ] `println(students.groupingBy{ it.lastName.first() }.size())`
