@@ -213,6 +213,7 @@
 - [ ] root.find(R.id.text_home)
 
 #### Q15. Why do you use the AndroidJUnitRunner when running UI tests?
+Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
 
 - [x] The test runner facilitates loading your test package and the app under test onto a device or emulator, runs the test, and reports the results.
 - [ ] The test runner creating screenshots of each screen that displayed while tests are executed.
