@@ -29,10 +29,12 @@ str::thread::spawn(|| {
 
 #### Q4. **\_** cannot be destructured.
 
-- [ ] Traits
+- [X] Traits
 - [ ] Tuples
 - [ ] Enums
 - [ ] Structs
+
+[reference](https://rust-lang.github.io/rfcs/2909-destructuring-assignment.html)
 
 #### Q5. Which `cargo` command checks a program for error without creating a binary executable?
 
