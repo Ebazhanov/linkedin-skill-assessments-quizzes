@@ -59,10 +59,12 @@
 
 #### Q8. Which reference geometry is NOT available in SOLIDWORKS?
 
-- [ ] sphere
+- [x] sphere
 - [ ] plane
 - [ ] point
 - [ ] axis
+
+[Reference](https://www.cati.com/blog/2020/02/solidworks-basics-of-reference-geometry-axis/)
 
 #### Q9. Specifying two lines to be perpendicular to each other would be an example of what?
 
