@@ -222,8 +222,8 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
 
 #### Q16. What allows you to properly restore a user's state when an activity is restarted?
 
-- [x] the onSaveInstance()method
-- [ ] all of these answers
+- [ ] the onSaveInstance()method
+- [x] all of these answers [(Refrence)](https://developer.android.com/topic/libraries/architecture/saving-states)
 - [ ] persistent storage
 - [ ] ViewModel objects
 
