@@ -416,7 +416,7 @@ autopsy is for forensic analysis
 - [ ] Eradiction / Remediation
 - [ ] Lessons Learned
 
-#### Q55. Which is *not* a principle of zero trust security?
+#### Q55. Which is _not_ a principle of zero trust security?
 
 - [x] assume breach
 - [ ] verify explicitly

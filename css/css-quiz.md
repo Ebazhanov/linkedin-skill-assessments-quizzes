@@ -397,7 +397,6 @@ p {
 
 [Reference MDN Webdocs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)
 
-
 #### Q31. When using the Flexbox method, what property and value is used to display flex items in a column?
 
 - [x] flex-flow: column; or flex-direction: column

@@ -23,22 +23,29 @@
 
 #### Q4. A client wants their site to be able to load "Rick & Morty" episodes by number or by title—e.g., shows/3/3 or shows/picklerick. Which URL pattern do you recommend?
 
-- [ ] 
+- [ ]
+
 ```
 url(r'shows/<int:season>/<int:episode>/', views.episode_number),
 url(r'shows/<slug:episode_name>/', views.episode_name)
 ```
-- [x] 
+
+- [x]
+
 ```
 path('shows/<int:season>/<int:episode>/', views.episode_number),
 path(r'shows/<slug:episode_name>/', views.episode_name)
 ```
-- [ ] 
+
+- [ ]
+
 ```
 path('shows/<int:season>/<int:episode>', views.episode_number),
 path(r'shows/<slug:episode_name>/', views.episode_number)
 ```
-- [ ] 
+
+- [ ]
+
 ```
 url(r'^show/(?P<season>[0-9]+)/(?P<episode>[0-9]+)/$', views.episode_number),
 url(r'^show/(?P<episode_name>[\w-]+)/', views.episode_name

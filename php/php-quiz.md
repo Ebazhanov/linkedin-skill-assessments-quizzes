@@ -835,13 +835,11 @@ Dog
 
 [reference](https://www.quora.com/Which-programming-language-is-used-to-create-PHP)
 
-
 ##### Q66.Which superglobal variable holds information about headers, paths, and script locations?
 
-- [x] $_SERVER
-- [ ] $SERVER_VARIABLES
-- [ ] $_ENV
-- [ ] $GLOBALS
+- [x] `$_SERVER`
+- [ ] `$SERVER_VARIABLES`
+- [ ] `$_ENV`
+- [ ] `$GLOBALS`
 
 [reference](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/php/php_superglobals.asp.html)
-

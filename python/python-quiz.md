@@ -1373,6 +1373,7 @@ num_list.pop(2)
 num_list.remove(2)
 	[1,3,4,5]
 ```
+
 #### Q101. What is the correct syntax for creating an instance method?
 
 - [] def get_next_card(): # method body goes here

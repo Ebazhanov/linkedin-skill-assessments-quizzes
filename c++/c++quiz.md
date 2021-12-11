@@ -196,7 +196,7 @@ auto x = 4000.22;
 - [ ] It specifies that x is a variable with automatic storage duration.
 - [ ] It specifies that more memory will be allocated for x in case it needs more space, avoiding loss of data due to overflow.
 
-#### Q14. A class template is a _____?
+#### Q14. A class template is a **\_**?
 
 - [x] class written with the generic programming paradigm, specifying behavior in terms of type parameter rather than specific type.
 - [ ] blank superclass intended for inheritance and polymorphism.
@@ -1214,7 +1214,7 @@ typedef struct{
 
 [Reference](https://en.cppreference.com/w/cpp/language/bit_field)
 
-#### Q72. Which choice is a reason to specify the type of a pointer instead of using `void *`, which works as a pointer ro any type? 
+#### Q72. Which choice is a reason to specify the type of a pointer instead of using `void *`, which works as a pointer ro any type?
 
 - [ ] The compiler needs the dara type to make sure that the pointer is not going to be used on illegal non-pointable types such as functions, labels, pointers, and reference.
 - [ ] `void *` does not work for any type. The language does not allow assigning anything other than `void` to a pointer to `void *`.
