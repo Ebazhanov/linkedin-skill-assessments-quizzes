@@ -157,9 +157,11 @@
 #### Q21. You want to simplify a very large and complex assembly to improve performance while working within it. What should you use?
 
 - [ ] DFMXpress
-- [ ] SpeedPak
+- [X] SpeedPak
 - [ ] a flexible subassembly
 - [ ] Design Checker
+
+[reference](https://help.solidworks.com/2014/english/SolidWorks/sldworks/c_Improving_Large_Assembly_Performance_SWassy.htm
 
 #### Q22. If you are working with ISO standards, which projection method would you most likely be using?
 
