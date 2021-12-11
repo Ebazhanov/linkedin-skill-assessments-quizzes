@@ -44,9 +44,11 @@
 #### Q6. Which choice is an example of a skected feature?
 
 - [ ] chamfer
-- [ ] extrusion
+- [x] extrusion
 - [ ] fillet
 - [ ] shell
+
+[Reference](https://help.solidworks.com/2016/English/SolidWorks/acadhelp/c_Feature_based_Models.htm)
 
 #### Q7. You want to make two circles have the same center point within a SOLIDWORKS sketch. How can you do this?
 
