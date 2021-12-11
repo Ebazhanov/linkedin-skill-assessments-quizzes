@@ -205,10 +205,12 @@
 
 #### Q28. How can you rename a feature?
 
-- [ ] Select the feature name and press F2, or slow-double-click the feature name
+- [X] Select the feature name and press F2, or slow-double-click the feature name
 - [ ] Select the feature name and press F3 key, or right-click the feature name
 - [ ] Select the feature name and press F7, or quick-double-click the feature name
 - [ ] Select the feature name and press F5 key, or double-click the feature name
+
+[reference](http://support.ptc.com/help/creo/creo_pma/usascii/index.html#page/part_modeling/part_modeling/part_five_sub/To_Rename_a_Feature.html)
 
 #### Q29. When using the Fillet tool, what does the Tanget Propagation option do?
 
