@@ -171,7 +171,7 @@
 #### Q23. You have a single line within a sketch that you would like to split into three separate lines. How can you achieve this?
 
 - [ ] Use the Offset Entities tool
-- [ ] Use the Split Line tool
+- [X] Use the Split Line tool
 - [ ] Use the Split Entities tool
 - [ ] Use the Split tool
 
@@ -187,7 +187,9 @@
 - [ ] Under Insert Component, select Part to create a new in-context part. Right-click the new part and select isolate
 - [ ] Select Insert Component to create a new in-context part. Right-click te new part and select Save Part (in External File)
 - [ ] Under Insert Components, select New Part to create a new in-context part. Right-click the new part and select Save Selection
-- [ ] Under Insert Components, select New Part to create a new in-context part. Right-click the new part and select Save Part (in External File)
+- [X] Under Insert Components, select New Part to create a new in-context part. Right-click the new part and select Save Part (in External File)
+
+[Reference](https://help.solidworks.com/2018/english/SolidWorks/sldworks/t_Creating_a_Part_in_an_Assembly.htm)
 
 #### Q26. The ribbon ar at the top of your SOLIDWORKS screen has disappeared. How can you get it back?
 
