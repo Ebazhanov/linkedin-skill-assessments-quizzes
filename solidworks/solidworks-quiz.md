@@ -188,7 +188,9 @@
 - [ ] inflection point
 - [ ] control point
 - [ ] spline point
-- [ ] spline handle
+- [X] spline handle
+
+[Reference](https://www.cati.com/blog/2016/06/creating-splines-in-solidworks-made-easy/)
 
 #### Q25. You want to build a new part within an assembly to ensure in-context relations and dimensions. You also want to save out this part file as its own unique file. After navigating to the Assembly ribbon tab, what do you do next?
 
