@@ -120,8 +120,10 @@
 
 - [ ] parallel
 - [ ] coindicent
-- [ ] equal
+- [x] equal
 - [ ] concentric
+
+[Reference](https://help.solidworks.com/2019/English/SolidWorks/sldworks/r_Types_of_Mates_SWassy.htm)
 
 #### Q16. How would you temporarily remove a feature from a model?
 
