@@ -911,16 +911,18 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] Intent(this, AboutActivity::class).also { intent ->
       startService(intent)
       }
-- [ ] Intent(this, AboutActivity::class.java).also { intent ->
+- [x] Intent(this, AboutActivity::class.java).also { intent ->
       startActivity(intent)
       }
 
 - [ ] Intent(this, AboutActivity::class).also { intent ->
       activity(intent)
       }
-- [x] Intent(this, AboutActivity::class).also { intent ->
+- [ ] Intent(this, AboutActivity::class).also { intent ->
       startActivity(intent)
       }
+Explanation: Intent(Context packageContext, Class<?> cls) 
+Notice: Class not KClass
 
 #### Q59. What is the use of AndroidManifest.xml file?
 
