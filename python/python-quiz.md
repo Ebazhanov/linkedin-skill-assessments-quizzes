@@ -1376,7 +1376,7 @@ num_list.remove(2)
 
 #### Q101. What is the correct syntax for creating an instance method?
 
-- [] def get_next_card(): # method body goes here
-- [] def self.get_next_card(): # method body goes here
+- [ ] def get_next_card(): # method body goes here
+- [ ] def self.get_next_card(): # method body goes here
 - [x] def get_next_card(self): # method body goes here
-- [] def self.get_next_card(self): # method body goes here
+- [ ] def self.get_next_card(self): # method body goes here
