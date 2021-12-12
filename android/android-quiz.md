@@ -720,7 +720,7 @@ xml
 	</rectangle>
 ```
 
-- [ ]
+- [x]
 
 ```
 xml
