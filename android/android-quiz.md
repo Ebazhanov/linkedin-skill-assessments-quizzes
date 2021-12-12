@@ -213,6 +213,7 @@
 - [ ] root.find(R.id.text_home)
 
 #### Q15. Why do you use the AndroidJUnitRunner when running UI tests?
+
 Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
 
 - [x] The test runner facilitates loading your test package and the app under test onto a device or emulator, runs the test, and reports the results.
@@ -921,8 +922,8 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] Intent(this, AboutActivity::class).also { intent ->
       startActivity(intent)
       }
-Explanation: Intent(Context packageContext, Class<?> cls) 
-Notice: Class not KClass
+      Explanation: Intent(Context packageContext, Class<?> cls)
+      Notice: Class not KClass
 
 #### Q59. What is the use of AndroidManifest.xml file?
 
@@ -944,7 +945,7 @@ Notice: Class not KClass
 - [ ] ProGuard
 - [ ] Shrinker
 - [ ] D8
-Explanation: When you build your project using Android Gradle plugin 3.4.0 or higher, the plugin no longer uses ProGuard to perform compile-time code optimization. Instead, the plugin works with the R8 compiler to handle
+      Explanation: When you build your project using Android Gradle plugin 3.4.0 or higher, the plugin no longer uses ProGuard to perform compile-time code optimization. Instead, the plugin works with the R8 compiler to handle
 
 [Reference](https://developer.android.com/studio/build/shrink-code)
 
