@@ -924,10 +924,10 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 
 #### Q59. What is the use of AndroidManifest.xml file?
 
-- [ ] It describes the component ofthe application
+- [x] It describes the component of the application
 - [ ] It declares the minimum level of the android API that the application requires
 - [ ] It facilitates to provide a uinque name for the application by specifying package name
-- [x] All of the above
+- [ ] All of the above
 
 #### Q60. Which attribute of the element <uses-sdk> is used to specify the minimum API Level required for the application to run?
 
