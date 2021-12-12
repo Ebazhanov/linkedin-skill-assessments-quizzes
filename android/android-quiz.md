@@ -656,8 +656,8 @@ xml
 
 - [ ] Use a common Gradle module shared by different Android projects.
 - [ ] Prefer to build custom views or fragments over activities.
-- [ ] Prefer to build activities instead of fragments.
-- [x] Break down UI layouts into common elements and use `<include/>` to include them in other layout XML files.
+- [x] Prefer to build activities instead of fragments.
+- [ ] Break down UI layouts into common elements and use `<include/>` to include them in other layout XML files.
 
 #### Q42. Which layout is best for large, complex hierarchies?
 
