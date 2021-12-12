@@ -205,7 +205,7 @@
 
 [Reference](https://help.solidworks.com/2018/english/SolidWorks/sldworks/t_Creating_a_Part_in_an_Assembly.htm)
 
-#### Q26. The ribbon ar at the top of your SOLIDWORKS screen has disappeared. How can you get it back?
+#### Q26. The ribbon bar at the top of your SOLIDWORKS screen has disappeared. How can you get it back?
 
 - [ ] Click View > Toolbars > CommandManager
 - [ ] Click View > Toolbars > FeatureManager
@@ -241,10 +241,12 @@
 
 #### Q30. You notice that one of the subassemblies in your main assembly is rigid and does not have mobility it should. How can you resolve this issue?
 
-- [ ] Select the subassembly and then select **Make Subassembly Flexible** from the context menu
+- [X] Select the subassembly and then select **Make Subassembly Flexible** from the context menu
 - [ ] Select the subassembly and then select **Set Resolved from LightWeight** from the context menu
 - [ ] Select the subassembly and then select **Edit Assembly** from the context menu
 - [ ] Select the subassembly and then select **Make Independent** from the context menu
+
+[Reference](https://help.solidworks.com/2018/english/solidworks/sldworks/c_flexible_sub-assemblies.htm)
 
 #### Q31. You dimension an arc in a drawing and notice that the dimension is coming in as the radius value. You want to show the diameter value. To do this, first you click the dimension to open the dimension PropertyManager. What do you do next?
 
