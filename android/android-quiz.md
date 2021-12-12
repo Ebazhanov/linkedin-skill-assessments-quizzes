@@ -489,7 +489,7 @@ buildTypes {
 - [ ] JPG
 - [ ] PNG
 - [ ] MPEG
-- [x] WebP
+- [x] WebP [(Reference)](https://developer.android.com/topic/performance/reduce-apk-size#:~:text=packJPG%20and%20guetzli.-,Use%20WebP%20file%20format,than%20either%20JPEG%20or%20PNG.)
 
 #### Q36. You have built code to make a network call and tested that it works in your development environment. However, when you publish it to the Play console, the networking call fails to work. What will _not_ help you troubleshoot this issue?
 
