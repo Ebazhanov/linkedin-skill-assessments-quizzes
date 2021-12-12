@@ -942,6 +942,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] ProGuard
 - [ ] Shrinker
 - [ ] D8
+Explanation: When you build your project using Android Gradle plugin 3.4.0 or higher, the plugin no longer uses ProGuard to perform compile-time code optimization. Instead, the plugin works with the R8 compiler to handle
 
 [Reference](https://developer.android.com/studio/build/shrink-code)
 
