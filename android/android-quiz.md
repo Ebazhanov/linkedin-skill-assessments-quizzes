@@ -656,8 +656,8 @@ xml
 
 - [ ] Use a common Gradle module shared by different Android projects.
 - [ ] Prefer to build custom views or fragments over activities.
-- [ ] Prefer to build activities instead of fragments.
-- [x] Break down UI layouts into common elements and use `<include/>` to include them in other layout XML files.
+- [x] Prefer to build activities instead of fragments.
+- [ ] Break down UI layouts into common elements and use `<include/>` to include them in other layout XML files.
 
 #### Q42. Which layout is best for large, complex hierarchies?
 
@@ -752,7 +752,7 @@ xml
 
 - [ ] View B is not horizontally constrained.
 - [ ] View C has too many constraints.
-- [ ] View B is not vertically constrained.
+- [x] View B is not vertically constrained.
 - [ ] View C is constrained to the parent.
 
 #### Q48. Given this code snippey from a build.gradle file, which choice is not a possible build variant?
@@ -793,8 +793,8 @@ xml
 
 - [ ] This APK is created on a developer machine from the debug product flavor.
 - [ ] This APK is created from the internalDebug product flavor.
-- [x] This APK created from the debug product flavor and internal build type.
-- [ ] This APK is created from the debug build type and internal product flavor.
+- [ ] This APK created from the debug product flavor and internal build type.
+- [x] This APK is created from the debug build type and internal product flavor.
 
 #### Q51. When attempting to build your project, what might the following error indicate?
 
@@ -947,7 +947,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 
 #### Q62. Which layout hierarchy is likely to be drawn the most quickly?
 
-- [ ] A
+- [x] A
       ![img](https://i.imgur.com/mT08jag.png)
 
 - [ ] B
