@@ -411,7 +411,7 @@ startActivity(dialerIntent)
 
 #### Q31. When should you store files in the `/assets` directory?
 
-- [x] when you need access to the original file names and file hierarchy
+- [x] when you need access to the original file names and file hierarchy [(Reference)](https://medium.com/mobile-app-development-publication/assets-or-resource-raw-folder-of-android-5bdc042570e0)
 - [ ] when you need access to the file with its `resource ID`, like `R.assets.filename`
 - [ ] when you have XML files that define tween animations
 - [ ] when you need to access the file in its raw form using `Resources.openRawResource()`
