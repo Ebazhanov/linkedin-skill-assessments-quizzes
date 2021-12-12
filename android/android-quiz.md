@@ -947,7 +947,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 
 #### Q62. Which layout hierarchy is likely to be drawn the most quickly?
 
-- [ ] A
+- [x] A
       ![img](https://i.imgur.com/mT08jag.png)
 
 - [ ] B
