@@ -361,9 +361,9 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
 `android.permission.ACCESS_NETWORK_STATE`
 
 - [ ] to monitor the location of the devices so that you don't attempt to make network calls when the user is stationary
-- [x] to request the ability to make network calls from your app
+- [ ] to request the ability to make network calls from your app
 - [ ] to monitor the network state of the device so that you can display an in-app banner to the user
-- [ ] to monitor the network state of the devices so that you don't attempt to make network calls when the network is unavailable
+- [x] to monitor the network state of the devices so that you don't attempt to make network calls when the network is unavailable
 
 #### Q29. Which image best corresponds to the following `LinearLayout`?
 
