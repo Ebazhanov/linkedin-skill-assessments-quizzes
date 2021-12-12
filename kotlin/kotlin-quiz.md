@@ -615,7 +615,7 @@ val result = generateSequence(1) { it + 1 }.toList()
 println(result)
 ```
 
-- [x] The sequence lacks a terminal operation. ([reference](https://kotlinlang.org/docs/sequences.html#iterable)) 
+- [x] The sequence lacks a terminal operation. ([reference](https://kotlinlang.org/docs/sequences.html#iterable))
 - [ ] The sequence is infinite and lacks an intermediate operation to make `it` finite.
 - [ ] The expression should begin with `generateSequence(0)`.
 - [ ] The `it` parameter should be replaced with `this`.
@@ -749,7 +749,7 @@ val b = arrayOf(100, 200, 3000)
 ```
 
 - [ ] `val c = list of (a, b)`
-- [ ] `val c = a + b` 
+- [ ] `val c = a + b`
 - [ ] `val c = listOf(a+b)`
 - [x] `val c = listOf(*a, *b)` ([reference](https://www.techiedelight.com/join-two-lists-kotlin/)) (Similar to Q72)
 
@@ -812,7 +812,7 @@ fun main() {
 ```
 
 - [x] `moveTo( "LA")`
-- [ ] `::moveTo("LA")` 
+- [ ] `::moveTo("LA")`
 - [x] `moveTo("LA")`
 - [ ] `it.moveTo("LA")`
 
@@ -862,7 +862,7 @@ fun main() {
 
 - [ ] A syntax error occurs due to the line `SpecialFunction()()`.
 - [ ] The message "An Error occurred" is displayed.
-- [x] The message "Invoked from an instance." is displayed.  // the second "()" is equals to .invoke() 
+- [x] The message "Invoked from an instance." is displayed. // the second "()" is equals to .invoke()
 - [ ] A compile error occurs. You cannot override the `invoke()` method.
 
 #### Q71. Which statement declares a variable mileage whose value never changes and is inferred to be an integer?
@@ -882,7 +882,7 @@ val b = array0f(166,266,366)
 - [ ] `val c = a + b`
 - [ ] `val c = list0f(a, b)`
 - [x] `val c = list0f(*a, *b)` ([reference](https://www.techiedelight.com/join-two-lists-kotlin/))
-- [ ] `val c = list0f(a+b)` 
+- [ ] `val c = list0f(a+b)`
 
 #### Q73. What is the preferred way to create an immutable variable of type long?
 

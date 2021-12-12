@@ -107,7 +107,7 @@
 - [x] Freezing the features helps to reduce the rebuild time and prevent unintentional changes to the model
 - [ ] Freezing the features helps to show the external features of the model
 
- [Reference](https://help.solidworks.com/2021/English/SolidWorks/sldworks/c_Feature_Freeze.htm)
+[Reference](https://help.solidworks.com/2021/English/SolidWorks/sldworks/c_Feature_Freeze.htm)
 
 #### Q14. Which single features could you use to design a cube, a sphere, and a paperclip, respectively?
 
@@ -137,7 +137,7 @@
 - [ ] Use Assembly Visualization
 - [ ] Use a bill of materials
 - [ ] Use isometric view
-- [X] Use exploded view
+- [x] Use exploded view
 
 [Reference](https://help.solidworks.com/2018/english/solidworks/sldworks/c_Exploded_Views_in_Assemblies.htm)
 
@@ -165,7 +165,7 @@
 #### Q21. You want to simplify a very large and complex assembly to improve performance while working within it. What should you use?
 
 - [ ] DFMXpress
-- [X] SpeedPak
+- [x] SpeedPak
 - [ ] a flexible subassembly
 - [ ] Design Checker
 
@@ -175,7 +175,7 @@
 
 - [ ] second angle projection
 - [ ] fourth angle projection
-- [X] first angle projection
+- [x] first angle projection
 - [ ] third angle projection
 
 [Reference](https://www.mcadcafe.com/nbc/articles/1/1551676/Which-standard-should-you-adopt-2D-Drawing-ISO-ASME)
@@ -183,7 +183,7 @@
 #### Q23. You have a single line within a sketch that you would like to split into three separate lines. How can you achieve this?
 
 - [ ] Use the Offset Entities tool
-- [X] Use the Split Line tool
+- [x] Use the Split Line tool
 - [ ] Use the Split Entities tool
 - [ ] Use the Split tool
 
@@ -192,7 +192,7 @@
 - [ ] inflection point
 - [ ] control point
 - [ ] spline point
-- [X] spline handle
+- [x] spline handle
 
 [Reference](https://www.cati.com/blog/2016/06/creating-splines-in-solidworks-made-easy/)
 
@@ -201,7 +201,7 @@
 - [ ] Under Insert Component, select Part to create a new in-context part. Right-click the new part and select isolate
 - [ ] Select Insert Component to create a new in-context part. Right-click te new part and select Save Part (in External File)
 - [ ] Under Insert Components, select New Part to create a new in-context part. Right-click the new part and select Save Selection
-- [X] Under Insert Components, select New Part to create a new in-context part. Right-click the new part and select Save Part (in External File)
+- [x] Under Insert Components, select New Part to create a new in-context part. Right-click the new part and select Save Part (in External File)
 
 [Reference](https://help.solidworks.com/2018/english/SolidWorks/sldworks/t_Creating_a_Part_in_an_Assembly.htm)
 
@@ -210,7 +210,7 @@
 - [ ] Click View > Toolbars > CommandManager
 - [ ] Click View > Toolbars > FeatureManager
 - [ ] Click View > Toolbars > MotionManager
-- [X] Click View > Toolbars > Task Pane
+- [x] Click View > Toolbars > Task Pane
 
 [reference](https://www.javelin-tech.com/blog/2017/02/solidworks-task-pane-missing/)
 
@@ -219,13 +219,13 @@
 - [ ] isometric projection
 - [ ] oblique projection
 - [ ] object projection
-- [X] orthographic projection
+- [x] orthographic projection
 
 [Reference](https://www.britannica.com/technology/orthographic-projection-engineering)
 
 #### Q28. How can you rename a feature?
 
-- [X] Select the feature name and press F2, or slow-double-click the feature name
+- [x] Select the feature name and press F2, or slow-double-click the feature name
 - [ ] Select the feature name and press F3 key, or right-click the feature name
 - [ ] Select the feature name and press F7, or quick-double-click the feature name
 - [ ] Select the feature name and press F5 key, or double-click the feature name
@@ -241,7 +241,7 @@
 
 #### Q30. You notice that one of the subassemblies in your main assembly is rigid and does not have mobility it should. How can you resolve this issue?
 
-- [X] Select the subassembly and then select **Make Subassembly Flexible** from the context menu
+- [x] Select the subassembly and then select **Make Subassembly Flexible** from the context menu
 - [ ] Select the subassembly and then select **Set Resolved from LightWeight** from the context menu
 - [ ] Select the subassembly and then select **Edit Assembly** from the context menu
 - [ ] Select the subassembly and then select **Make Independent** from the context menu
