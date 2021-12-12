@@ -752,7 +752,7 @@ xml
 
 - [ ] View B is not horizontally constrained.
 - [ ] View C has too many constraints.
-- [ ] View B is not vertically constrained.
+- [x] View B is not vertically constrained.
 - [ ] View C is constrained to the parent.
 
 #### Q48. Given this code snippey from a build.gradle file, which choice is not a possible build variant?
