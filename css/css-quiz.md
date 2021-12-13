@@ -1312,3 +1312,16 @@ a {
 - [ ] Rules with more specific selectors have greater specificity.
 
   [Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+
+#### Q106. Which choice will not set all links that include domain.com to pink?
+
+```css
+[ ] a[href$="domain.com"] {color: pink;}
+
+[x] a[href="*domain.com"] { color: pink; }
+
+[ ] a[href*="domain.com"] { color: rgb(255, 155, 155); } 
+
+[ ] a[href*="domain.com"] { color: pink;}
+```
+
