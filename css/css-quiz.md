@@ -1312,3 +1312,39 @@ a {
 - [ ] Rules with more specific selectors have greater specificity.
 
   [Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+
+### Q108. You want to add a background circle behind an icon. Which style declaration is correct?
+
+```css
+[ ] .glyphicon-bgcircle {
+    circle-radius: 50%;
+    margins: 50px;
+    background-color: #fdadc6;
+    color: rgba(255,255,255,1.00);
+    font-size: 24px;
+}
+
+[ ] glyphicon-bgcircle {
+    border-circle: 50%;
+    padding: 50px;
+    background-color: #fdadc6;
+    color: rgba(255,255,255,1.00);
+    font-size: 24px;
+}
+
+[x] .glyphicon-bgcircle {
+    border-radius: 50%;
+    padding: 50px;
+    background-color: #fdadc6;
+    color: rgba(255,255,255,1.00);
+    font-size: 24px;
+}
+
+[ ] .glyphicon-bgcircle {
+    radius-rounded: 50%;
+    margins: auto;
+    background-color: #fdadc6;
+    color: rgba(255,255,255,1.00);
+    font-size: 24px;
+}
+```
