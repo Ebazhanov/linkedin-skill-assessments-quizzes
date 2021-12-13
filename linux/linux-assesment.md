@@ -581,7 +581,7 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
    echo "data" >> file.txt
 ```
 
-- [ ] The first line will append the word `data` to file.txt and output it on the screen. The second line will append the word `data` only to file.txt.
+- [x] The first line will append the word `data` to file.txt and output it on the screen. The second line will append the word `data` only to file.txt.
 - [ ] They are the same.
 - [ ] The first line will append the word `data` to file.txt and there will be no output on the screen. The second line will output the word `data` on the screen and append it to `file.txt`
 - [ ] Both lines will overwrite file.txt with the word data.
