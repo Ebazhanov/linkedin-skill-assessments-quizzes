@@ -1313,7 +1313,7 @@ a {
 
   [Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
 
-#### Q2. What is the output of the margin value when used within this context, assuming that its containing element is larger than 800px?
+#### Q101. What is the output of the margin value when used within this context, assuming that its containing element is larger than 800px?
 
 ```css
 .example {
