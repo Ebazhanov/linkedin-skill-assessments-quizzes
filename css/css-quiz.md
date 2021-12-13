@@ -1312,3 +1312,14 @@ a {
 - [ ] Rules with more specific selectors have greater specificity.
 
   [Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+
+#### Q109. When using a font stack to declare the font family, in what order should the values appear?
+
+- [x] The first value is the first choice, followed by alternative options, ordered by preference. The last option should be a generic font.
+
+- [ ] The first value is the first choice. The order of the alternative options does not matter. It depends on what is available on the user's computer.
+
+- [ ] The first value is the first choice, and must be followed by at least one alternative option before adding the generic font.
+
+- [ ] The first value is the first choice, followed by a maximum of three alternatives.
+
