@@ -1312,3 +1312,32 @@ a {
 - [ ] Rules with more specific selectors have greater specificity.
 
   [Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+
+#### Q102. There are currently four viewport-percentage lengths that can be used to define the value relative to the viewport size: vw, vh, vmin, and vmax. If the current viewport size has a width of 800px and a height of 600px, what will these values be equivalent to in pixels?
+
+```css
+10vw = ?px
+10vh = ?px
+10vmin = ?px
+10vmax = ?px
+```
+
+- [x] 10vw = 80px
+      10vh = 60px
+      10vmin = 60px
+      10vmax = 80px
+
+- [ ] 10vw = 60px
+      10vh = 80px
+      10vmin = 80px
+      10vmax = 60px
+
+- [ ] 10vw = 8px
+      10vh = 6px
+      10vmin = 6px
+      10vmax = 8px
+
+- [ ] 10vw = 6px
+      10vh = 8px
+      10vmin = 8px
+      10vmax = 6px
