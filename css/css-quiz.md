@@ -1312,3 +1312,14 @@ a {
 - [ ] Rules with more specific selectors have greater specificity.
 
   [Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+
+
+#### Q105. Which five style features are associated with the box model?
+
+- [x] margin, padding, border, width, height
+
+- [ ] width, height, z-index, overflow, font size
+
+- [ ] margin, padding, font size, line height, border
+
+- [ ] font size, line height, letter spacing, width, height
