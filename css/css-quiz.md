@@ -1312,3 +1312,27 @@ a {
 - [ ] Rules with more specific selectors have greater specificity.
 
   [Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+
+#### Q103. Which element(s) will be blue?
+
+```css
+h2 ~ p {
+  color: blue;
+}
+```
+```html
+<section>
+  <p>P1</p>
+  <h2>H2</h2>
+  <p>P3</p>
+  <p>P4</p>
+</section>
+```
+
+- [ ] P3P3
+
+- [ ] P1P1
+
+- [ ] P1, P3, and P4P1, P3, and P4
+
+- [x] P3 and P4
