@@ -1312,3 +1312,15 @@ a {
 - [ ] Rules with more specific selectors have greater specificity.
 
   [Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+
+#### Q107. Which property and value pair could be used to apply a linear gradient effect?
+
+```css
+[x] background: linear-gradient(#648880, #293f50);
+
+[ ] background-image: linear(#648880, #293f50);
+
+[ ] background: gradient(linear, #648880, #293f50);
+
+[ ] background-color: linear-gradient(#648880, #293f50);
+```
