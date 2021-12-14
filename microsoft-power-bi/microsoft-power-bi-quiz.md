@@ -349,3 +349,29 @@ D. They must have no duplicate data rows.
 - [ ] COUNTUNIQUE
 - [x] COUNTX
 - [ ] COUNTROWS
+
+#### Q46. What is the recommended level of security for data extensions?
+
+- [ ] Allow any extension to load without warning
+- [ ] Prompt the user before load
+- [x] Allow only certified extensions to load
+- [ ] Load certified extensions and prompt the user for noncertified extension
+
+#### Q47. Power BI Q&A chooses the best visualization based on data type-for example, a ____ chart for date data and a ____ for state/province data.
+
+- [ ] columm; map
+- [ ] lin; map
+- [x] timeline; map
+- [ ] line; column
+
+#### Q48. What is true about paginated reports? (Select all that apply).
+
+A. They are formatted to fit well on a page.
+B. They shrink the report data to fit on a page.
+C. They truncate the report data to fit on a single page.
+D. They are both printable and shareable.
+
+- [ ] A, B, D
+- [ ] B or C, based on user choise
+- [ ] A, D
+- [ ] A, C, D
