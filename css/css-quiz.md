@@ -1312,3 +1312,20 @@ a {
 - [ ] Rules with more specific selectors have greater specificity.
 
   [Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+
+#### Q101. What is the output of the margin value when used within this context, assuming that its containing element is larger than 800px?
+
+```css
+.example {
+  width: 800px;
+  margin: 0 auto;
+}
+```
+
+- [ ] The example element will have 0 margin space around the whole element. The auto value will center align the element horizontally and vertically within its container.
+
+- [ ] The example element will have 0 margin space on the left and right. It will be sized automatically on the top and bottom, which will center align the element within its container.
+
+- [ ] The example element will have 0 margin space on the top and bottom. The margin will be sized automatically on the left and right, which may center align the element within its container.
+
+- [ ] The margin value is invalid because its missing a unit measurement after the 0.
