@@ -569,8 +569,8 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
 
 #### Q70. What is the difference the `==` and `=~` comparison operators when used in BASH double square bracket `if` conditionals?
 
-- [ ] The `==` operator performs a string comparison; `=~` performs a regex comparison.
-- [x] The `==` operator performs a string comparison; `=~` performs a glob pattern comparison.
+- [x] The `==` operator performs a string comparison; `=~` performs a regex comparison.
+- [ ] The `==` operator performs a string comparison; `=~` performs a glob pattern comparison.
 - [ ] The `=~` operator performs a string comparison; `==` performs a regex comparison.
 - [ ] There is no `=~` operator in BASH `if` conditionals.
 

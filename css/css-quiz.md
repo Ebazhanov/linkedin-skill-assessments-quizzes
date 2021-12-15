@@ -412,7 +412,7 @@ p {
 - [ ] important declarations in author stylesheets
 
 #### Q33. The flex-direction property is used to specify the direction that flex items are displayed. What are the values used to specify the direction of the items in the following examples?
-
+![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-1.png)
 - [x]
   - Example 1: `flex-direction: row;`
   - Example 2: `flex-direction: row-reverse;`
@@ -461,6 +461,8 @@ h2 + p {
 - [ ] Paragraph 2 will be blue. Paragraphs 2 and 3 will have a beige background.
 
 #### Q35. When using flexbox, the "justify-content" property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
+
+![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-2.png)
 
 - [x] justify-content: space-around;
 - [ ] justify-content: center;
@@ -1313,6 +1315,24 @@ a {
 
   [Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
 
+
+#### Q101. What is the output of the margin value when used within this context, assuming that its containing element is larger than 800px?
+
+```css
+.example {
+  width: 800px;
+  margin: 0 auto;
+}
+```
+
+- [ ] The example element will have 0 margin space around the whole element. The auto value will center align the element horizontally and vertically within its container.
+
+- [ ] The example element will have 0 margin space on the left and right. It will be sized automatically on the top and bottom, which will center align the element within its container.
+
+- [ ] The example element will have 0 margin space on the top and bottom. The margin will be sized automatically on the left and right, which may center align the element within its container.
+
+- [ ] The margin value is invalid because its missing a unit measurement after the 0.
+
 #### Q102. There are currently four viewport-percentage lengths that can be used to define the value relative to the viewport size: vw, vh, vmin, and vmax. If the current viewport size has a width of 800px and a height of 600px, what will these values be equivalent to in pixels?
 
 ```css
@@ -1341,3 +1361,5 @@ a {
       10vh = 8px
       10vmin = 8px
       10vmax = 6px
+=======
+
