@@ -462,6 +462,8 @@ h2 + p {
 
 #### Q35. When using flexbox, the "justify-content" property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
 
+![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-2.png)
+
 - [x] justify-content: space-around;
 - [ ] justify-content: center;
 - [ ] justify-content: auto;
