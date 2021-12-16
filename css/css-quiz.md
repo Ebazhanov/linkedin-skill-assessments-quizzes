@@ -412,7 +412,7 @@ p {
 - [ ] important declarations in author stylesheets
 
 #### Q33. The flex-direction property is used to specify the direction that flex items are displayed. What are the values used to specify the direction of the items in the following examples?
-
+![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-1.png)
 - [x]
   - Example 1: `flex-direction: row;`
   - Example 2: `flex-direction: row-reverse;`
@@ -461,6 +461,8 @@ h2 + p {
 - [ ] Paragraph 2 will be blue. Paragraphs 2 and 3 will have a beige background.
 
 #### Q35. When using flexbox, the "justify-content" property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
+
+![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-2.png)
 
 - [x] justify-content: space-around;
 - [ ] justify-content: center;
@@ -1302,7 +1304,7 @@ a {
 - [ ] blue
 - [ ] black
 
-  [Reference](https://www.sitepoint.com/pseudo-classes-the-basics/)
+[Reference](https://www.sitepoint.com/pseudo-classes-the-basics/)
 
 #### Q100. Which statement is not true?
 
@@ -1312,6 +1314,192 @@ a {
 - [ ] Rules with more specific selectors have greater specificity.
 
   [Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+
+#### Q101. What is the output of the margin value when used within this context, assuming that its containing element is larger than 800px?
+
+```css
+.example {
+  width: 800px;
+  margin: 0 auto;
+}
+```
+
+- [ ] The example element will have 0 margin space around the whole element. The auto value will center align the element horizontally and vertically within its container.
+
+- [ ] The example element will have 0 margin space on the left and right. It will be sized automatically on the top and bottom, which will center align the element within its container.
+
+- [ ] The example element will have 0 margin space on the top and bottom. The margin will be sized automatically on the left and right, which may center align the element within its container.
+
+- [ ] The margin value is invalid because its missing a unit measurement after the 0.
+
+#### Q102. There are currently four viewport-percentage lengths that can be used to define the value relative to the viewport size: vw, vh, vmin, and vmax. If the current viewport size has a width of 800px and a height of 600px, what will these values be equivalent to in pixels?
+
+```css
+10vw = ?px
+10vh = ?px
+10vmin = ?px
+10vmax = ?px
+```
+
+- [x] 10vw = 80px
+      10vh = 60px
+      10vmin = 60px
+      10vmax = 80px
+
+- [ ] 10vw = 60px
+      10vh = 80px
+      10vmin = 80px
+      10vmax = 60px
+
+- [ ] 10vw = 8px
+      10vh = 6px
+      10vmin = 6px
+      10vmax = 8px
+
+- [ ] 10vw = 6px
+      10vh = 8px
+      10vmin = 8px
+      10vmax = 6px
+
+
+#### Q103. Which element(s) will be blue?
+
+```css
+h2 ~ p {
+  color: blue;
+}
+```
+```html
+<section>
+  <p>P1</p>
+  <h2>H2</h2>
+  <p>P3</p>
+  <p>P4</p>
+</section>
+```
+
+- [ ] P3P3
+
+- [ ] P1P1
+
+- [ ] P1, P3, and P4P1, P3, and P4
+
+- [x] P3 and P4
+
+
+
+### Q104. Referring to the HTML markup and CSS example below, which element(s) will be targeted? 
+
+```css
+p:first-of-type:first-letter { color: red; }
+```
+```html
+<body>
+  <p>Paragraph 1.</p>
+  <p>Paragraph 2.</p>
+
+  <article>
+    <h1>Heading</h1>
+    <p>Paragraph 3.</p>
+    <p>paragraph 4.</p>
+  </article>
+
+  <section>
+    <p>Paragraph 5.</p>
+    <p>Paragraph 6.</p>
+  </section>
+</body>
+```
+
+- [ ] The first letter in all paragraphs will be red.
+
+- [ ] Only the first letter in paragraphs 1 and 5 will be red.
+
+- [x]  The first letter in paragraphs 1, 3, and 5 will be red.
+
+- [ ] Only the first letter in paragraph 1 will be red.Only 
+
+
+#### Q105. Which five style features are associated with the box model?
+
+- [x] margin, padding, border, width, height
+
+- [ ] width, height, z-index, overflow, font size
+
+- [ ] margin, padding, font size, line height, border
+
+- [ ] font size, line height, letter spacing, width, height
+
+#### Q106. Which choice will not set all links that include domain.com to pink?
+
+```css
+[ ] a[href$="domain.com"] {color: pink;}
+
+[x] a[href="*domain.com"] { color: pink; }
+
+[ ] a[href*="domain.com"] { color: rgb(255, 155, 155); } 
+
+[ ] a[href*="domain.com"] { color: pink;}
+```
+[Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+
+
+#### Q107. Which property and value pair could be used to apply a linear gradient effect?
+
+```css
+[x] background: linear-gradient(#648880, #293f50);
+
+[ ] background-image: linear(#648880, #293f50);
+
+[ ] background: gradient(linear, #648880, #293f50);
+
+[ ] background-color: linear-gradient(#648880, #293f50);
+```
+
+### Q108. You want to add a background circle behind an icon. Which style declaration is correct?
+
+```css
+[ ] .glyphicon-bgcircle {
+    circle-radius: 50%;
+    margins: 50px;
+    background-color: #fdadc6;
+    color: rgba(255,255,255,1.00);
+    font-size: 24px;
+}
+
+[ ] glyphicon-bgcircle {
+    border-circle: 50%;
+    padding: 50px;
+    background-color: #fdadc6;
+    color: rgba(255,255,255,1.00);
+    font-size: 24px;
+}
+
+[x] .glyphicon-bgcircle {
+    border-radius: 50%;
+    padding: 50px;
+    background-color: #fdadc6;
+    color: rgba(255,255,255,1.00);
+    font-size: 24px;
+}
+
+[ ] .glyphicon-bgcircle {
+    radius-rounded: 50%;
+    margins: auto;
+    background-color: #fdadc6;
+    color: rgba(255,255,255,1.00);
+    font-size: 24px;
+}
+```
+#### Q109. When using a font stack to declare the font family, in what order should the values appear?
+
+- [x] The first value is the first choice, followed by alternative options, ordered by preference. The last option should be a generic font.
+
+- [ ] The first value is the first choice. The order of the alternative options does not matter. It depends on what is available on the user's computer.
+
+- [ ] The first value is the first choice, and must be followed by at least one alternative option before adding the generic font.
+
+- [ ] The first value is the first choice, followed by a maximum of three alternatives.
 
 ### Q110. Which items are valid values for the font-size property?
 
@@ -1329,3 +1517,4 @@ D. font-size: 20px
 - [ ] A, C
 
 - [ ] A, B, C, D
+
