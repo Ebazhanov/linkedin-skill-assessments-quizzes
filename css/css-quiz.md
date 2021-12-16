@@ -1315,7 +1315,6 @@ a {
 
   [Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
 
-
 #### Q101. What is the output of the margin value when used within this context, assuming that its containing element is larger than 800px?
 
 ```css
@@ -1386,4 +1385,37 @@ h2 ~ p {
 - [ ] P1, P3, and P4P1, P3, and P4
 
 - [x] P3 and P4
+
+
+
+### Q104. Referring to the HTML markup and CSS example below, which element(s) will be targeted? 
+
+```css
+p:first-of-type:first-letter { color: red; }
+```
+```html
+<body>
+  <p>Paragraph 1.</p>
+  <p>Paragraph 2.</p>
+
+  <article>
+    <h1>Heading</h1>
+    <p>Paragraph 3.</p>
+    <p>paragraph 4.</p>
+  </article>
+
+  <section>
+    <p>Paragraph 5.</p>
+    <p>Paragraph 6.</p>
+  </section>
+</body>
+```
+
+- [ ] The first letter in all paragraphs will be red.
+
+- [ ] Only the first letter in paragraphs 1 and 5 will be red.
+
+- [x]  The first letter in paragraphs 1, 3, and 5 will be red.
+
+- [ ] Only the first letter in paragraph 1 will be red.Only 
 
