@@ -1518,3 +1518,16 @@ D. font-size: 20px
 
 - [ ] A, B, C, D
 
+
+#### Q111. In this image, the blue box and sample text are both contained within the same parent element. The blue box is floated on the left margin of the container. Why is it not contained with the container?
+
+![Sample text](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-3.png)
+
+- [ ] Floating the blue box increased its height.
+
+- [ ] Floating the blue box on the left also moves it down.
+
+- [ ] Floating the blue box actually shifts it to the right and down.
+
+- [ ] Floating the blue box took it out of document flow and the container is sized only to the sample text.
+
