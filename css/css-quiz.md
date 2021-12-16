@@ -1304,7 +1304,7 @@ a {
 - [ ] blue
 - [ ] black
 
-  [Reference](https://www.sitepoint.com/pseudo-classes-the-basics/)
+[Reference](https://www.sitepoint.com/pseudo-classes-the-basics/)
 
 #### Q100. Which statement is not true?
 
@@ -1313,7 +1313,7 @@ a {
 - [ ] The last rule defined overrides all previous rules and even conflicting rules.
 - [ ] Rules with more specific selectors have greater specificity.
 
-  [Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+[Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
 
 #### Q101. What is the output of the margin value when used within this context, assuming that its containing element is larger than 800px?
 
@@ -1419,3 +1419,13 @@ p:first-of-type:first-letter { color: red; }
 
 - [ ] Only the first letter in paragraph 1 will be red.Only 
 
+
+#### Q105. Which five style features are associated with the box model?
+
+- [x] margin, padding, border, width, height
+
+- [ ] width, height, z-index, overflow, font size
+
+- [ ] margin, padding, font size, line height, border
+
+- [ ] font size, line height, letter spacing, width, height
