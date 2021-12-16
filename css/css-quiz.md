@@ -1501,4 +1501,20 @@ p:first-of-type:first-letter { color: red; }
 
 - [ ] The first value is the first choice, followed by a maximum of three alternatives.
 
+### Q110. Which items are valid values for the font-size property?
+
+```css
+A. font-size: xsmall
+B. font-size: 50%
+C. font-size: 1em
+D. font-size: 20px
+```
+
+- [ ] C, D
+
+- [x] B, C, D
+
+- [ ] A, C
+
+- [ ] A, B, C, D
 
