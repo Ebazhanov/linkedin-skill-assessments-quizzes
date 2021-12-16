@@ -412,7 +412,9 @@ p {
 - [ ] important declarations in author stylesheets
 
 #### Q33. The flex-direction property is used to specify the direction that flex items are displayed. What are the values used to specify the direction of the items in the following examples?
+
 ![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-1.png)
+
 - [x]
   - Example 1: `flex-direction: row;`
   - Example 2: `flex-direction: row-reverse;`
@@ -1361,7 +1363,6 @@ a {
       10vmin = 8px
       10vmax = 6px
 
-
 #### Q103. Which element(s) will be blue?
 
 ```css
@@ -1369,6 +1370,7 @@ h2 ~ p {
   color: blue;
 }
 ```
+
 ```html
 <section>
   <p>P1</p>
@@ -1386,13 +1388,14 @@ h2 ~ p {
 
 - [x] P3 and P4
 
-
-
-### Q104. Referring to the HTML markup and CSS example below, which element(s) will be targeted? 
+### Q104. Referring to the HTML markup and CSS example below, which element(s) will be targeted?
 
 ```css
-p:first-of-type:first-letter { color: red; }
+p:first-of-type:first-letter {
+  color: red;
+}
 ```
+
 ```html
 <body>
   <p>Paragraph 1.</p>
@@ -1415,10 +1418,9 @@ p:first-of-type:first-letter { color: red; }
 
 - [ ] Only the first letter in paragraphs 1 and 5 will be red.
 
-- [x]  The first letter in paragraphs 1, 3, and 5 will be red.
+- [x] The first letter in paragraphs 1, 3, and 5 will be red.
 
-- [ ] Only the first letter in paragraph 1 will be red.Only 
-
+- [ ] Only the first letter in paragraph 1 will be red.Only
 
 #### Q105. Which five style features are associated with the box model?
 
@@ -1433,16 +1435,24 @@ p:first-of-type:first-letter { color: red; }
 #### Q106. Which choice will not set all links that include domain.com to pink?
 
 ```css
-[ ] a[href$="domain.com"] {color: pink;}
+[] a[href$='domain.com'] {
+  color: pink;
+}
 
-[x] a[href="*domain.com"] { color: pink; }
+[x] a[href='*domain.com'] {
+  color: pink;
+}
 
-[ ] a[href*="domain.com"] { color: rgb(255, 155, 155); } 
+[] a[href*='domain.com'] {
+  color: rgb(255, 155, 155);
+}
 
-[ ] a[href*="domain.com"] { color: pink;}
+[] a[href*='domain.com'] {
+  color: pink;
+}
 ```
-[Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
 
+[Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
 
 #### Q107. Which property and value pair could be used to apply a linear gradient effect?
 
@@ -1459,38 +1469,39 @@ p:first-of-type:first-letter { color: red; }
 ### Q108. You want to add a background circle behind an icon. Which style declaration is correct?
 
 ```css
-[ ] .glyphicon-bgcircle {
-    circle-radius: 50%;
-    margins: 50px;
-    background-color: #fdadc6;
-    color: rgba(255,255,255,1.00);
-    font-size: 24px;
+[] .glyphicon-bgcircle {
+  circle-radius: 50%;
+  margins: 50px;
+  background-color: #fdadc6;
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
 }
 
-[ ] glyphicon-bgcircle {
-    border-circle: 50%;
-    padding: 50px;
-    background-color: #fdadc6;
-    color: rgba(255,255,255,1.00);
-    font-size: 24px;
+[] glyphicon-bgcircle {
+  border-circle: 50%;
+  padding: 50px;
+  background-color: #fdadc6;
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
 }
 
 [x] .glyphicon-bgcircle {
-    border-radius: 50%;
-    padding: 50px;
-    background-color: #fdadc6;
-    color: rgba(255,255,255,1.00);
-    font-size: 24px;
+  border-radius: 50%;
+  padding: 50px;
+  background-color: #fdadc6;
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
 }
 
-[ ] .glyphicon-bgcircle {
-    radius-rounded: 50%;
-    margins: auto;
-    background-color: #fdadc6;
-    color: rgba(255,255,255,1.00);
-    font-size: 24px;
+[] .glyphicon-bgcircle {
+  radius-rounded: 50%;
+  margins: auto;
+  background-color: #fdadc6;
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
 }
 ```
+
 #### Q109. When using a font stack to declare the font family, in what order should the values appear?
 
 - [x] The first value is the first choice, followed by alternative options, ordered by preference. The last option should be a generic font.
@@ -1518,7 +1529,6 @@ D. font-size: 20px
 
 - [ ] A, B, C, D
 
-
 #### Q111. In this image, the blue box and sample text are both contained within the same parent element. The blue box is floated on the left margin of the container. Why is it not contained with the container?
 
 ![Sample text](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-3.png)
@@ -1530,4 +1540,3 @@ D. font-size: 20px
 - [ ] Floating the blue box actually shifts it to the right and down.
 
 - [ ] Floating the blue box took it out of document flow and the container is sized only to the sample text.
-
