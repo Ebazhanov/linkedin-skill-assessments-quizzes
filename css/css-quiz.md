@@ -1313,7 +1313,7 @@ a {
 - [ ] The last rule defined overrides all previous rules and even conflicting rules.
 - [ ] Rules with more specific selectors have greater specificity.
 
-[Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+  [Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
 
 #### Q101. What is the output of the margin value when used within this context, assuming that its containing element is larger than 800px?
 
@@ -1429,3 +1429,18 @@ p:first-of-type:first-letter { color: red; }
 - [ ] margin, padding, font size, line height, border
 
 - [ ] font size, line height, letter spacing, width, height
+
+#### Q106. Which choice will not set all links that include domain.com to pink?
+
+```css
+[ ] a[href$="domain.com"] {color: pink;}
+
+[x] a[href="*domain.com"] { color: pink; }
+
+[ ] a[href*="domain.com"] { color: rgb(255, 155, 155); } 
+
+[ ] a[href*="domain.com"] { color: pink;}
+```
+[Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+
+
