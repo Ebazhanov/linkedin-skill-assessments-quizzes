@@ -393,7 +393,7 @@ echo "No, mail is not set";
 } (correct)
 ```
 
-### Q29. What is the value of '$result' in this calculation?
+### Q39. What is the value of '$result' in this calculation?
 
 `$result = 25 % 6;`
 
@@ -401,3 +401,142 @@ echo "No, mail is not set";
 - [ ] 1.5
 - [ ] 4
 - [x] 1
+
+#### Q40. Describe what happens if you run this code in a testing environment: 
+
+`1   $capitals = ['UK' => 'London', 'France' => 'Paris'];`
+`2   echo "$capitals['france'] is the capital of France.";`
+
+- [ ] It displays: "Paris is the capital of France."
+- [ ] It displays: " is the capital of France."
+- [ ] It triggers a syntax error because the array keys on line 1 are in quotes.
+- [ ] It triggers a syntax error because the array key on line 2 is in quotes.
+#### Q41. DRY (Don't Repeat Yourself) is a principle of software development aimed at reducing repetition of software patterns. Which choice is not a way to write DRYer code with PHP?
+
+- [ ] inheritance
+- [ ] classes
+- [ ] namespacing
+- [ ] dependency injection
+
+#### Q42. Which code will return the IP address of the client?
+
+- [ ] `$HTTP_SERVER_VARS("REMOTE_IP")`
+- [ ] `$_SESSION["REMOTE_ADDR"];`
+- [ ] `$_SERVER["HTTP_X_FORWARDED_FOR"]`
+- [ ] `getenv("REMOTE_ADDR")`
+
+
+#### Q43. Your site must allow uploading of large files. What might you need to do?
+
+- [ ] Make sure the user has the proper permissions.
+- [ ] Keep a count of upload file sizes and log them.
+- [ ] Change the `upload_max_filesize` configuration parameter.
+- [ ] Be sure to use chunked transfer encoding.
+
+#### Q44. What is the output of this script?
+
+`1  $my_text = 'The quick grey [squirrel].';`
+`2  preg_match('#\[(.*?)\]#', $my_text, $match);`
+`3  print $match[1]."\n";`
+
+- [x] squirrel
+- [ ] The quick grey [squirrel].
+- [ ] [squirrel]
+- [ ] The quick grey squirrel.
+
+#### Q45. What is the output of this script?
+
+`$fruits = ['apple', 'orange', 'pear', 'mango', 'papaya'];`
+`$i = 0;`
+`echo $fruits[$i+=3];`
+
+- [x] mango
+- [ ] apple
+- [ ] a parse error 
+- [ ] pear
+
+#### Q46. What are some of the main types of errors in PHP?
+
+- [ ] notices, warnings, fatal
+- [ ] runtime, logical, compile
+- [ ] semantic, logical, syntax
+- [ ] warnings, syntax, compile
+
+#### Q47. What is the correct way to include the file gravy.php in the middle of HTML code?
+
+- [ ] `<!-- include file="gravy.php"; -->`
+- [ ] `<?php include gravy.php; ?>`
+- [ ] `<?php include "gravy.php"; ?>`
+- [ ] `<?php include file="gravy.php"; ?>`
+
+#### Q48. Which two functions can sanitize text and validate text formats?
+
+- [ ] `session_start()` and `filter_input()`
+- [ ] `filter_var()` and `filter_input()`
+- [ ] `preg_match()` and `strstr()`
+
+#### Q49. Why is it not recommended to make all of a class's variables public?
+
+- [ ] Doing so makes your code tightly coupled.
+- [ ] The attribute may be accessed only by the class that defines the member.
+- [ ] You will have no control over which values the attribute can take. Any external code will be able to change it without any constraint.
+- [ ] You can then access the attribute only within the class itself, and by inheriting and parent classes.
+
+#### Q50. You want to use wildcard characters when searching for records in a MySQL/MariaDB database using a PDO prepared statement. Which code should you use?
+
+- [ ] `$statement->bindValue(':name', '%' . $_GET['name'] . '%');`
+- [ ] `$statement->bindValue('%' . $_GET['name'] . '%', ':name');`
+- [ ] `$statement->bindParam(':name', '%' . $_GET['name'] . '%');`
+- [ ] `$statement->bindParam('%' . $_GET['name'] . '%', ':name');`
+
+#### Q51. Create an associative array using `$array1` as the keys and `$array2` as the values: 
+`$array1 = ['country', 'capital', 'language'];`
+`$array2 = ['France', 'Paris', 'French'];`
+
+- [x] `$array3 = array_merge($array1, $array2);`
+- [ ] `$array3 = array_union($array1, $array2);`
+- [ ] `$array3 = array_keys($array1, $array2);`
+- [ ] `$array3 = array_combine($array1, $array2);`
+
+#### Q52. Assume that `$r` is 255, and `$g` and `$b` are both 0. What is the correct code to output `"#ff0000"`?
+
+- [ ] `printf('#%2x%2x%2x', 255, 0, 0);`
+- [ ] `printf('#%2X%2X%2X', $r, 0, 0);`
+- [ ] `printf('#%x%x%x', 255, 0, 0);`
+- [x] `printf('#%02x%02x%02x', 255, 0, 0);`
+
+#### Q53. You want to find out what day Twelfth Night falls on after Christmas 2018. Which code should you use?
+
+- [ ] `$xmas = new DateTime('Dec 25, 2018');` 
+      `$twelfth_night = $xmas-&gt;add(new DateInterval('P12D'));`
+      `echo $twelfth_night-&gt;format('l');`
+- [ ] `$twelfth_night = strtotime('December 25, 2018 + 12 days');` 
+      `echo date('d', $twelfth_night);`
+
+- [ ] `$twelfth_night = strtotime('December 25, 2018 + 12 days');` 
+      `echo strftime('%d', $twelfth_night);`
+
+- [ ] `$xmas = new DateTime('Dec 25, 2018');` 
+      `$twelfth_night = $xmas->add(strtotime('12 days'));`
+      `echo $twelfth_night->format('D');`
+#### Q54. Which loop displays all numbers from 1 to 10 inclusive?
+
+- [ ] `$i = 1;`
+    `while ($i < 10) {`
+        `echo $i++ . '<br>';`
+    `}` 
+
+
+- [ ] `    $i = 0;`
+`    while ($i <= 10) {`
+`        echo $i++ . '<br>';`
+`    }`
+
+- [ ] `while ($i &lt;= 10) {`
+    `    echo ++$i . '&lt;br&gt;';`
+    `}`
+
+- [x] `$i = 0;`
+`while ($i < 10) {`
+`    echo ++$i . '<br>';`
+`}`
