@@ -7,6 +7,7 @@ fun main() {
   val highScores = listOf(4000, 2000, 10200, 12000, 9030)
 }
 ```
+Kotlin Playgorund : https://pl.kotl.in/bwzs-YWHL
 
 - [ ] `.withIndex()`
 - [ ] `.forEachIndexed()`
@@ -24,6 +25,7 @@ class Airplane(private val name: String) : Aircraft() {
   override fun getName(): String = name
 }
 ```
+Kotlin Playgorund : https://pl.kotl.in/pJhaSl0Nh
 
 - [ ] Classes are initialized in the same order they are in the file, therefore, Aircraft should appear after Airplane
 - [ ] The code needs to pass the parameter to the base class's primary constructor. Since it does not, it receives a null
@@ -52,6 +54,8 @@ fun add(a: Int, b: Int): Int {
   return a + b
 }
 ```
+
+Kotlin Playgorund : https://pl.kotl.in/XczAMAhFm
 
 - [ ] `println(add(5,10).invoke())`
 - [ ] `println(::add.invoke(5, 10))`
