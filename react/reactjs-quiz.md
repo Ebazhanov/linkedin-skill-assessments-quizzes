@@ -937,9 +937,9 @@ const [count, setCount] = useState(0);
 - [x] array destructuring
 - [ ] spread operating
 - [ ] code pushing
-  
+
 #### Q81. What is the first file loaded by the browser in a basic React project?
-  
+
 - [ ] src/App.js
 - [ ] src/index.js
 - [ ] public/manifest.json
@@ -948,21 +948,21 @@ const [count, setCount] = useState(0);
 #### Q82. The code below is rendering nothing, and there is an error that says "ReactDOM is not defined." How do you fix this issue?
 
 ```javascript
-import React from "react";
-import { render } from "react-dom";
-  
+import React from 'react';
+import { render } from 'react-dom';
+
 const element = <h1>Hi</h1>;
-  
-ReactDOM.render(element, document.getElementById("root"));
+
+ReactDOM.render(element, document.getElementById('root'));
 ```
 
 - [x] `render(element, document.getElementById("root"));`
 - [ ] `ReactDOM(element, document.getElementById("root"));`
 - [ ] `renderDOM(element, document.getElementById("root"));`
 - [ ] `DOM(element, document.getElementById("root"));`
-  
+
 #### Q83. In this component, how do you display whether the user was logged in or not?
-  
+
 ```javascript
 render() {
   const isLoggedIn = this.state.isLoggedIn;
@@ -973,13 +973,14 @@ render() {
   );
 }
 ```
+
 - [ ] `The user is loggedIn ? logged in : not logged in.`
 - [ ] Write a function to check the login status.
 - [ ] `The user is {isLoggedIn = "no"}.`
 - [x] `The user is {isLoggedIn ? "logged in." : "not logged in"}.`
-  
+
 #### Q84. You are rendering a list with React when this warning appears in the console: "Warning: Each child in a list should have a unique 'key' prop." How do you fix this issue?
-  
+
 - [ ] Pass the name of each item as its key.
 - [ ] Add a key prop with the same value to each item the list.
 - [ ] Clear the console warnings.

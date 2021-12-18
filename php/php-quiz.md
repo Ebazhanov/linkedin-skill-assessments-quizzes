@@ -844,16 +844,16 @@ Dog
 
 [reference](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/php/php_superglobals.asp.html)
 
+#### Q67. Describe what happens if you run this code in a testing environment:
 
-#### Q67. Describe what happens if you run this code in a testing environment: 
-
-`1   $capitals = ['UK' => 'London', 'France' => 'Paris'];`
-`2   echo "$capitals['france'] is the capital of France.";`
+`1 $capitals = ['UK' => 'London', 'France' => 'Paris'];`
+`2 echo "$capitals['france'] is the capital of France.";`
 
 - [ ] It displays: "Paris is the capital of France."
 - [ ] It displays: " is the capital of France."
 - [ ] It triggers a syntax error because the array keys on line 1 are in quotes.
 - [ ] It triggers a syntax error because the array key on line 2 is in quotes.
+
 #### Q68. DRY (Don't Repeat Yourself) is a principle of software development aimed at reducing repetition of software patterns. Which choice is not a way to write DRYer code with PHP?
 
 - [ ] inheritance
@@ -868,7 +868,6 @@ Dog
 - [ ] `$_SERVER["HTTP_X_FORWARDED_FOR"]`
 - [ ] `getenv("REMOTE_ADDR")`
 
-
 #### Q70. Your site must allow uploading of large files. What might you need to do?
 
 - [ ] Make sure the user has the proper permissions.
@@ -878,9 +877,9 @@ Dog
 
 #### Q71. What is the output of this script?
 
-`1  $my_text = 'The quick grey [squirrel].';`
-`2  preg_match('#\[(.*?)\]#', $my_text, $match);`
-`3  print $match[1]."\n";`
+`1 $my_text = 'The quick grey [squirrel].';`
+`2 preg_match('#\[(.*?)\]#', $my_text, $match);`
+`3 print $match[1]."\n";`
 
 - [x] squirrel
 - [ ] The quick grey [squirrel].
@@ -895,7 +894,7 @@ Dog
 
 - [x] mango
 - [ ] apple
-- [ ] a parse error 
+- [ ] a parse error
 - [ ] pear
 
 #### Q73. What are some of the main types of errors in PHP?
@@ -932,7 +931,8 @@ Dog
 - [ ] `$statement->bindParam(':name', '%' . $_GET['name'] . '%');`
 - [ ] `$statement->bindParam('%' . $_GET['name'] . '%', ':name');`
 
-#### Q78. Create an associative array using `$array1` as the keys and `$array2` as the values: 
+#### Q78. Create an associative array using `$array1` as the keys and `$array2` as the values:
+
 `$array1 = ['country', 'capital', 'language'];`
 `$array2 = ['France', 'Paris', 'French'];`
 
@@ -950,36 +950,36 @@ Dog
 
 #### Q80. You want to find out what day Twelfth Night falls on after Christmas 2018. Which code should you use?
 
-- [ ] `$xmas = new DateTime('Dec 25, 2018');` 
+- [ ] `$xmas = new DateTime('Dec 25, 2018');`
       `$twelfth_night = $xmas-&gt;add(new DateInterval('P12D'));`
       `echo $twelfth_night-&gt;format('l');`
-- [ ] `$twelfth_night = strtotime('December 25, 2018 + 12 days');` 
+- [ ] `$twelfth_night = strtotime('December 25, 2018 + 12 days');`
       `echo date('d', $twelfth_night);`
 
-- [ ] `$twelfth_night = strtotime('December 25, 2018 + 12 days');` 
+- [ ] `$twelfth_night = strtotime('December 25, 2018 + 12 days');`
       `echo strftime('%d', $twelfth_night);`
 
-- [ ] `$xmas = new DateTime('Dec 25, 2018');` 
+- [ ] `$xmas = new DateTime('Dec 25, 2018');`
       `$twelfth_night = $xmas->add(strtotime('12 days'));`
       `echo $twelfth_night->format('D');`
+
 #### Q81. Which loop displays all numbers from 1 to 10 inclusive?
 
 - [ ] `$i = 1;`
-    `while ($i < 10) {`
-        `echo $i++ . '<br>';`
-    `}` 
+      `while ($i < 10) {`
+      `echo $i++ . '<br>';`
+      `}`
 
-
-- [ ] `    $i = 0;`
-`    while ($i <= 10) {`
-`        echo $i++ . '<br>';`
-`    }`
+- [ ] ` $i = 0;`
+      ` while ($i <= 10) {`
+      ` echo $i++ . '<br>';`
+      ` }`
 
 - [ ] `while ($i &lt;= 10) {`
-    `    echo ++$i . '&lt;br&gt;';`
-    `}`
+      ` echo ++$i . '&lt;br&gt;';`
+      `}`
 
 - [x] `$i = 0;`
-`while ($i < 10) {`
-`    echo ++$i . '<br>';`
-`}`
+      `while ($i < 10) {`
+      ` echo ++$i . '<br>';`
+      `}`
