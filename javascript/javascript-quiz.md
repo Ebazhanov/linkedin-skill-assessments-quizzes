@@ -1122,3 +1122,121 @@ for (var i = 0; i < vowels.length; i++) {
 - [ ] `let vowels = Array.of("aeiou");`
 - [ ] `let vowels = {"a", "e", "i", "o", "u"};`
 - [x] `let vowels = "aeiou";`
+
+#### Q98. What will be logged to the console? 
+``` js
+const x = 6 % 2;
+const y = x ? 'One': 'Two';
+console.log(y); 
+```
+- [ ] undefined
+- [ ] One
+- [ ] true
+- [x] Two
+
+#### Q99. How would you access the word It from this multidimensional array? 
+
+`let matrix = [["You","Can"],["Do","It"],["!","!","!"]];`
+
+- [ ] `matrix[1[2]]`
+- [x] `matrix[1][1]`
+- [ ] `matrix[1,2]`
+- [ ] `matrix[1][2]`
+
+#### Q100. What does this code do? 
+
+``` js 
+const animals = ["Rabbit", "Dog", "Cat"];
+animals.unshift("Lizard"); 
+```
+
+- [x] It adds "Lizard" to the start of the animals array.
+- [ ] It adds "Lizard" to the end of the animals array.
+- [ ] It replaces "Rabbit" with "Lizard" in the animals array.
+- [ ] It replaces "Cat" with "Lizard" in the animals array.
+
+#### Q101. What is the output of this code? 
+
+``` js 
+let x = 6 + 3 + "3";
+console.log(x);  
+```
+
+- [x] 93
+- [ ] 12
+- [ ] 66
+- [ ] 633
+
+#### Q102. Which statement can take a single expression as input and then look through a number of choices until one that matches that value is found?
+
+- [ ] else
+- [ ] when
+- [ ] if
+- [x] switch
+
+#### Q103. Which statement can take a single expression as input and then look through a number of choices until one that matches that value is found?
+
+- [ ] else
+- [ ] when
+- [ ] if
+- [x] switch
+
+#### Q104. Which choice is a valid example of an arrow function, assuming c is defined in the outer scope?
+
+- [ ] `a, b => { return c; }`
+- [ ] `a, b => c`
+- [ ] `{ a, b } => c`
+- [ ] `(a,b) => c`
+
+#### Q105. Which method of a class is called to initialize an object of that class?
+
+- [ ] `create();`
+- [ ] `init();`
+- [ ] `constructor();`
+- [ ] `new();`
+
+#### Q106. Which statement correctly imports this code from some-file.js? 
+``` js
+//some-file.js
+export const printMe = str => console.log(str); 
+```
+
+- [ ] `import printMe from './some-file';`
+- [ ] `import { printMe } from './some-file';`
+- [ ] `import default as printMe from './some-file';`
+- [ ] `const printMe = import './some-file';`
+
+#### Q107. What will be the output of this code? 
+``` js
+const arr1 = [2, 4, 6];
+const arr2 = [3, 5, 7];
+
+console.log([...arr1, ...arr2]); 
+```
+
+- [ ] `[2, 3, 4, 5, 6, 7]`
+- [ ] `[3,5,7,2,4,6]`
+- [ ] `[3, 5, 7, 2, 4, 6]`
+- [ ] `[[2, 4, 6], [3, 5, 7]]`
+- [x] `[2, 4, 6, 3, 5, 7]`
+
+#### Q108. Which method call is chained to handle a successful response returned by `fetch()`?
+
+- [ ] `done()`
+- [ ] `then()`
+- [ ] `finally()`
+- [ ] `catch()`
+
+#### Q109. Which choice is not an array method?
+
+- [ ] `array.slice()`
+- [ ] `array.shift()`
+- [ ] `array.push()`
+- [x] `array.replace()`
+
+#### Q110. Which JavaScript loop ensures that at least a singular iteration will happen?
+
+- [x] do…while
+- [ ] forEach
+- [ ] while
+- [ ] for
