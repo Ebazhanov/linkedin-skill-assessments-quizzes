@@ -292,10 +292,11 @@ mvn install
 
 #### Q39. Why might you not want to include groupId and version elements in child POM files?
 
-- [x] all of these answers
-- [ ] dependencies
-- [ ] version
-- [ ] groupId
+- [ ] If you include these elements, an error will be thrown when you try to build the project.
+- [x] These elements are inherited from the parent POM file, and do not need to be repeated.
+- [ ] Child POM files should include definitions of only dependencies and plugins.
+- [ ] The values in the parent POM will be overridden by what is defined in the child POM.
+Source: [maven docs](https://maven.apache.org/guides/introduction/introduction-to-the-pom.html#the-solution)
 
 #### Q40. The settings.xml file that provides the user-specific settings for Maven is contained in which directory by default?
 
@@ -368,3 +369,31 @@ mvn install
 - [ ] runtime
 - [ ] provided
 - [ ] test
+
+#### Q50. For what purpose can plugins use the validate phase in the default lifecycle?
+- [ ] to check the parent POM file defines all of the child POM files
+- [x] to carry out checks before building the project
+- [ ] to ensure plugins defined in the POM file are in the correct order
+- [ ] to check the project structure is correct after building a project
+Source: [stackoverflow](https://stackoverflow.com/a/40601037) and [maven docs](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#a-build-lifecycle-is-made-up-of-phases)
+
+#### Q51. How do you check for unused dependencies in your project?
+- [ ] Run mvn clean and look at which plugins are not mentioned in the output.
+- [ ] You will need to do this manually.
+- [ ] Include the Maven dependency plugin in your POM file and run the unpack goal.
+- [x] Run the analyze goal of the dependency plugin.
+Source: [baeldung](https://www.baeldung.com/maven-unused-dependencies) and [stackoverflow](https://stackoverflow.com/a/1518661)
+
+#### Q52. Why is it best practice to avoid overriding the default directory structure?
+- [ ] Keeping the default structure reduces onboarding time, because developers recognize it.
+- [ ] Overriding the default structure is very complex.
+- [ ] Overriding the default structure will cause Maven to take longer to compile your code.
+- [x] all of these answers
+Source: [maven docs](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
+
+#### Q53. What is the main purpose of the install phase?
+- [ ] to compile the source code of the project
+- [x] to install all of the remote dependencies
+- [ ] to deploy the final project artifacts into a remote Maven repository
+- [ ] to copy the final project artifacts into the local Maven repository
+Source: [maven docs](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#a-build-lifecycle-is-made-up-of-phases)
