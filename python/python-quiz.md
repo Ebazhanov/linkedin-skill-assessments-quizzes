@@ -1380,3 +1380,18 @@ num_list.remove(2)
 - [ ] def self.get_next_card(): # method body goes here
 - [x] def get_next_card(self): # method body goes here
 - [ ] def self.get_next_card(self): # method body goes here
+
+#### Q102. Which mode is not a valid way to access a file from within a Python script?
+
+- [ ] write('w')
+- [ ] scan('s')
+- [x] append('a')
+- [ ] read('r')
+
+#### Q103. Which command will create a list from 10 down to 1? Example:
+[10,9,8,7,6,5,4,3,2,1]
+
+- [ ] reversed(list(range(1,11)))
+- [x] list(reversed(range(1,10)))
+- [ ] list(range(10,1,-1))
+- [ ] list(reversed(range(1,11)))
