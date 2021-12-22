@@ -979,7 +979,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/edosrecki"><img src="https://avatars.githubusercontent.com/u/26404168?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dinko Osrecki</b></sub></a><br /><a href="#design-edosrecki" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=edosrecki" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/DhiaDjobbi"><img src="https://avatars.githubusercontent.com/u/40583006?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dhia Djobbi</b></sub></a><br /><a href="#design-DhiaDjobbi" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=DhiaDjobbi" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/krokeen"><img src="https://avatars.githubusercontent.com/u/42272376?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mahmoud Galal</b></sub></a><br /><a href="#design-Mahmoudgalalz" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Mahmoudgalalz" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Mahmoudgalalz"><img src="https://avatars.githubusercontent.com/u/42272376?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mahmoud Galal</b></sub></a><br /><a href="#design-Mahmoudgalalz" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Mahmoudgalalz" title="Code">💻</a></td>
   </tr>
 </table>
 
