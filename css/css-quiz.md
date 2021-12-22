@@ -1330,9 +1330,11 @@ a {
 
 - [ ] The example element will have 0 margin space on the left and right. It will be sized automatically on the top and bottom, which will center align the element within its container.
 
-- [ ] The example element will have 0 margin space on the top and bottom. The margin will be sized automatically on the left and right, which may center align the element within its container.
+- [x] The example element will have 0 margin space on the top and bottom. The margin will be sized automatically on the left and right, which may center align the element within its container.
 
 - [ ] The margin value is invalid because its missing a unit measurement after the 0.
+
+[Source: SOW](https://stackoverflow.com/questions/3170772/what-does-auto-do-in-margin-0-auto)
 
 #### Q102. There are currently four viewport-percentage lengths that can be used to define the value relative to the viewport size: vw, vh, vmin, and vmax. If the current viewport size has a width of 800px and a height of 600px, what will these values be equivalent to in pixels?
 
@@ -1539,4 +1541,4 @@ D. font-size: 20px
 
 - [ ] Floating the blue box actually shifts it to the right and down.
 
-- [ ] Floating the blue box took it out of document flow and the container is sized only to the sample text.
+- [x] Floating the blue box took it out of document flow and the container is sized only to the sample text.
