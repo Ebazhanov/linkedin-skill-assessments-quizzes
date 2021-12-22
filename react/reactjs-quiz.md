@@ -985,3 +985,29 @@ render() {
 - [ ] Add a key prop with the same value to each item the list.
 - [ ] Clear the console warnings.
 - [x] When iterating over the list items, add a unique property to each list item.
+
+#### Q85. How would you generate the boilerplate code for a new app that you are building to collect underpants?
+
+- [ ] npm create-react-app collect-underpants
+- [ ] npx start-app collect-underpants
+- [ ] react new collect-underpants
+- [x] npx create-react-app collect-underpants
+
+#### Q86. Add the code that will fire the photon torpedoes when the button is clicked.
+
+```javascript
+class StarTrekkin extends React.Component {
+  firePhotonTorpedoes(e) {
+  console.log("pew pew");
+}
+render() {
+  return // Missing code
+ }
+}
+```
+
+- [ ] `<button onClick={firePhotonTorpedoes()}>Pew Pew</button>`
+- [ ] `<button onClick={firePhotonTorpedoes}>Pew Pew</button>`
+- [ ] `<button onClick={this.firePhotonTorpedoes()}>Pew Pew</button>`
+- [x] `<button onClick={this.firePhotonTorpedoes}>Pew Pew</button>`
+
