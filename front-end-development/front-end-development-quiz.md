@@ -514,3 +514,12 @@ console.log(currencies);
 - [ ] allowing the browser to ignore code it believes will perform badly
 
 [Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking)
+
+#### Q54. What is WebP?
+
+- [ ] a method of auditing performance that gives your site a score, which is then used for Google ranking
+- [x] a next-generation image format offering a smaller file size than equivalent PNG or JPEG images
+- [ ] a new font format that allows a single font to display at different styles and weights
+- [ ] a next-generation PDF format that offers a smaller file size and better accessibility than standard PDF documents
+
+[Source: Google Developers](https://developers.google.com/speed/webp)
