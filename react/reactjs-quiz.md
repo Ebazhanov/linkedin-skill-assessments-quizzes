@@ -993,6 +993,8 @@ render() {
 - [ ] react new collect-underpants
 - [x] npx create-react-app collect-underpants
 
+[Source: React Docs](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
+
 #### Q86. Add the code that will fire the photon torpedoes when the button is clicked.
 
 ```javascript
@@ -1011,3 +1013,4 @@ render() {
 - [ ] `<button onClick={this.firePhotonTorpedoes()}>Pew Pew</button>`
 - [x] `<button onClick={this.firePhotonTorpedoes}>Pew Pew</button>`
 
+[Source: React Docs](https://reactjs.org/docs/handling-events.html)
