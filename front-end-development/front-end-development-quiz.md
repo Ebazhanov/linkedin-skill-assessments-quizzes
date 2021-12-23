@@ -541,5 +541,3 @@ console.log(currencies);
 - [ ] when the user can see the webpage on the screen
 
 [Source: MDN Docs](https://web.dev/interactive/)
-
-
