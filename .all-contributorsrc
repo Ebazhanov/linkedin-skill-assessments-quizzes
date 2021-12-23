@@ -6623,6 +6623,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "minhla",
+      "name": "Anh Minh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23179654?v=4",
+      "profile": "https://github.com/minhla",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
