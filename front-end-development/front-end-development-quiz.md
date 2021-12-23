@@ -523,3 +523,21 @@ console.log(currencies);
 - [ ] a next-generation PDF format that offers a smaller file size and better accessibility than standard PDF documents
 
 [Source: Google Developers](https://developers.google.com/speed/webp)
+
+#### Q55. Your website uses CSS Grid Layout extensively, and a visitor who navigates using the keyboard tells you that they seem to jump erratically all over the screen when navigating. What is the most likely problem?
+
+- [ ] The visitor's browser does not have full support for CSS Grid Layout.
+- [x] Items have been positioned in such a way that they are in a different order to the source.
+- [ ] The browser has a keyboard navigation bug.
+- [ ] You need to add the tabindex attribute to elements.
+
+[Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/CSS_Grid_Layout_and_Accessibility)
+
+#### Q56. What is the definition of the phrase “Time to Interactive”?
+
+- [ ] when the browser displays the first bit of content from the DOM
+- [x] when the user can consistently interact with all of the page elements
+- [ ] when HTML has loaded, but not necessarily JavaScript, CSS, or images
+- [ ] when the user can see the webpage on the screen
+
+[Source: MDN Docs](https://web.dev/interactive/)
