@@ -1240,3 +1240,48 @@ console.log([...arr1, ...arr2]);
 - [ ] forEach
 - [ ] while
 - [ ] for
+
+#### Q111. What will be logged to the console?
+  
+  ```javascript
+  console.log(typeof "blueberry");
+  ```
+
+- [x] string
+- [ ] array
+- [ ] Boolean
+- [ ] object
+  
+#### Q112. What is the output that is printed when the div containing the text "Click Here" is clicked?
+  ```html
+  //HTML Markup
+  <div id="A">
+    <div id="B">
+      <div id="C">
+        Click Here
+      </div>
+    </div>
+  </div>
+  ```
+  ```javascript
+  //JavaScript
+  document.querySelectorAll("div").forEach(e => {
+    e.onclick = e => console.log(e.currentTarget.id);
+  });
+  ```
+
+- [x] C B A
+- [ ] A
+- [ ] C
+- [ ] A B C
+  
+#### Q113. Which code would you use to access the Irish flag?
+  ```javascript
+  var flagsJSON = '{ "countries" : [' +'{ "country":"Ireland" , "flag":"🇮🇪" },' +'{ "country":"Serbia" , "flag":"🇷🇸" },' +'{ "country":"Peru" , "flag":"🇵🇪" } ]}';
+  var flagDatabase = JSON.parse(flagsJSON);
+  ```
+
+- [x] flagDatabase.countries[0].flag
+- [ ] flagDatabase.countries[1].flag
+- [ ] flagsJSON.countries[0].flag
+- [ ] flagDatabase[1].flag
