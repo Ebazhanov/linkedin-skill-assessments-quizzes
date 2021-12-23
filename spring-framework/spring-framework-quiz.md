@@ -664,7 +664,7 @@ Reference: [Spring RequestMapping](https://www.baeldung.com/spring-requestmappin
 - [ ] any method with a name that begins with String "setter" with a single parameter
 - [x] any method with a name that begins with String "setter"
 - [ ] any method with a name that contains the String "setter"
-Source: [baeldung](https://www.baeldung.com/spring-aop-pointcut-tutorial#1-execution)
+      Source: [baeldung](https://www.baeldung.com/spring-aop-pointcut-tutorial#1-execution)
 
 #### Q64. What pattern does Spring MVC implement to delegate request processing to controllers?
 
@@ -694,8 +694,9 @@ Source: [baeldung](https://www.baeldung.com/spring-aop-pointcut-tutorial#1-execu
 Reason: By default, all the endpoints are enabled in Spring Boot Application except /shutdown; this is, naturally, part of the Actuator endpoints.
 
 #### Q67. How can you access the application context in a Spring integration test?
+
 - [ ] The context is present in a ThreadLocal so you can just call getSpringApplicationContextInstance() anywhere in a test to get the current context.
 - [ ] Test classes can implement the ApplicationContextAware interface or autowire the ApplicationContext.
 - [ ] The context is automatically injected in every test so you can just call getSpringApplicationContextInstance() anywhere in a test to get the current context.
 - [ ] You can just add the parameter Context context to any method so that the context is automatically wired in.
-Source: [spring(dot)io](https://spring.io/blog/2011/06/21/spring-3-1-m2-testing-with-configuration-classes-and-profiles#:~:text=By%20default%20the%20ApplicationContext%20is,%40Resource%20%2C%20or%20%40Inject%20.)
+      Source: [spring(dot)io](https://spring.io/blog/2011/06/21/spring-3-1-m2-testing-with-configuration-classes-and-profiles#:~:text=By%20default%20the%20ApplicationContext%20is,%40Resource%20%2C%20or%20%40Inject%20.)

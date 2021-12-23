@@ -1389,6 +1389,7 @@ num_list.remove(2)
 - [ ] read('r')
 
 #### Q103. Which command will create a list from 10 down to 1? Example:
+
 [10,9,8,7,6,5,4,3,2,1]
 
 - [ ] reversed(list(range(1,11)))

@@ -1123,18 +1123,20 @@ for (var i = 0; i < vowels.length; i++) {
 - [ ] `let vowels = {"a", "e", "i", "o", "u"};`
 - [x] `let vowels = "aeiou";`
 
-#### Q98. What will be logged to the console? 
-``` js
+#### Q98. What will be logged to the console?
+
+```js
 const x = 6 % 2;
-const y = x ? 'One': 'Two';
-console.log(y); 
+const y = x ? 'One' : 'Two';
+console.log(y);
 ```
+
 - [ ] undefined
 - [ ] One
 - [ ] true
 - [x] Two
 
-#### Q99. How would you access the word It from this multidimensional array? 
+#### Q99. How would you access the word It from this multidimensional array?
 
 `let matrix = [["You","Can"],["Do","It"],["!","!","!"]];`
 
@@ -1143,11 +1145,11 @@ console.log(y);
 - [ ] `matrix[1,2]`
 - [ ] `matrix[1][2]`
 
-#### Q100. What does this code do? 
+#### Q100. What does this code do?
 
-``` js 
-const animals = ["Rabbit", "Dog", "Cat"];
-animals.unshift("Lizard"); 
+```js
+const animals = ['Rabbit', 'Dog', 'Cat'];
+animals.unshift('Lizard');
 ```
 
 - [x] It adds "Lizard" to the start of the animals array.
@@ -1155,11 +1157,11 @@ animals.unshift("Lizard");
 - [ ] It replaces "Rabbit" with "Lizard" in the animals array.
 - [ ] It replaces "Cat" with "Lizard" in the animals array.
 
-#### Q101. What is the output of this code? 
+#### Q101. What is the output of this code?
 
-``` js 
-let x = 6 + 3 + "3";
-console.log(x);  
+```js
+let x = 6 + 3 + '3';
+console.log(x);
 ```
 
 - [x] 93
@@ -1195,10 +1197,11 @@ console.log(x);
 - [ ] `constructor();`
 - [ ] `new();`
 
-#### Q106. Which statement correctly imports this code from some-file.js? 
-``` js
+#### Q106. Which statement correctly imports this code from some-file.js?
+
+```js
 //some-file.js
-export const printMe = str => console.log(str); 
+export const printMe = (str) => console.log(str);
 ```
 
 - [ ] `import printMe from './some-file';`
@@ -1206,12 +1209,13 @@ export const printMe = str => console.log(str);
 - [ ] `import default as printMe from './some-file';`
 - [ ] `const printMe = import './some-file';`
 
-#### Q107. What will be the output of this code? 
-``` js
+#### Q107. What will be the output of this code?
+
+```js
 const arr1 = [2, 4, 6];
 const arr2 = [3, 5, 7];
 
-console.log([...arr1, ...arr2]); 
+console.log([...arr1, ...arr2]);
 ```
 
 - [ ] `[2, 3, 4, 5, 6, 7]`
@@ -1242,44 +1246,49 @@ console.log([...arr1, ...arr2]);
 - [ ] for
 
 #### Q111. What will be logged to the console?
-  
-  ```javascript
-  console.log(typeof "blueberry");
-  ```
+
+```javascript
+console.log(typeof 'blueberry');
+```
 
 - [x] string
 - [ ] array
 - [ ] Boolean
 - [ ] object
-  
+
 #### Q112. What is the output that is printed when the div containing the text "Click Here" is clicked?
-  ```html
-  //HTML Markup
-  <div id="A">
-    <div id="B">
-      <div id="C">
-        Click Here
-      </div>
-    </div>
+
+```html
+//HTML Markup
+<div id="A">
+  <div id="B">
+    <div id="C">Click Here</div>
   </div>
-  ```
-  ```javascript
-  //JavaScript
-  document.querySelectorAll("div").forEach(e => {
-    e.onclick = e => console.log(e.currentTarget.id);
-  });
-  ```
+</div>
+```
+
+```javascript
+//JavaScript
+document.querySelectorAll('div').forEach((e) => {
+  e.onclick = (e) => console.log(e.currentTarget.id);
+});
+```
 
 - [x] C B A
 - [ ] A
 - [ ] C
 - [ ] A B C
-  
+
 #### Q113. Which code would you use to access the Irish flag?
-  ```javascript
-  var flagsJSON = '{ "countries" : [' +'{ "country":"Ireland" , "flag":"🇮🇪" },' +'{ "country":"Serbia" , "flag":"🇷🇸" },' +'{ "country":"Peru" , "flag":"🇵🇪" } ]}';
-  var flagDatabase = JSON.parse(flagsJSON);
-  ```
+
+```javascript
+var flagsJSON =
+  '{ "countries" : [' +
+  '{ "country":"Ireland" , "flag":"🇮🇪" },' +
+  '{ "country":"Serbia" , "flag":"🇷🇸" },' +
+  '{ "country":"Peru" , "flag":"🇵🇪" } ]}';
+var flagDatabase = JSON.parse(flagsJSON);
+```
 
 - [x] flagDatabase.countries[0].flag
 - [ ] flagDatabase.countries[1].flag

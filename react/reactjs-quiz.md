@@ -1000,11 +1000,11 @@ render() {
 ```javascript
 class StarTrekkin extends React.Component {
   firePhotonTorpedoes(e) {
-  console.log("pew pew");
-}
-render() {
-  return // Missing code
- }
+    console.log('pew pew');
+  }
+  render() {
+    return; // Missing code
+  }
 }
 ```
 
