@@ -416,28 +416,21 @@ autopsy is for forensic analysis
 - [ ] Eradiction / Remediation
 - [ ] Lessons Learned
 
-#### Q55. Which is _not_ a principle of zero trust security?
-
-- [x] assume breach
-- [ ] verify explicitly
-- [ ] use least privilege access
-- [ ] trust but verify
-
-#### Q56. Which programming language is most susceptible to buffer overflow attacks?
+#### Q55. Which programming language is most susceptible to buffer overflow attacks?
 
 - [x] C
 - [ ] Java
 - [ ] Ruby
 - [ ] Python
 
-#### Q57. Which list correctly describes risk management techniques?
+#### Q56. Which list correctly describes risk management techniques?
 
 - [ ] risk acceptance, risk mitigation, risk containment, and risk qualification
 - [ ] risk avoidance, risk transference, risk containment, and risk quantification
 - [ ] risk avoidance, risk mitigation, risk containment, and risk acceptance
 - [x] risk avoidance, risk transference, risk mitigation, and risk acceptance
 
-### Q58. To implement encryption in transit, such as with the HTTPS protocol for secure web browsing, which type(s) of encryption is/are used?
+### Q57. To implement encryption in transit, such as with the HTTPS protocol for secure web browsing, which type(s) of encryption is/are used?
 
 - [ ] asymmetric
 - [x] both symmetric and asymmetric
