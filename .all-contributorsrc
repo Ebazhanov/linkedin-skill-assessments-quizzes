@@ -6643,6 +6643,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "petartodorov",
+      "name": "Petar Todorov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6433067?v=4",
+      "profile": "https://www.linkedin.com/in/petar-todorov-ph-d-13326949/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
