@@ -1405,10 +1405,10 @@ num_list.remove(2)
 
 [reference] (https://www.w3schools.com/python/python_tuples.asp)
 #### Q105. Which fragment of code will print exactly the same output as this fragment?
-'''
+```
 import math
 print(math.pow(2,10)) # prints 2 elevated to the 10th power
-'''
+```
 
 - [ ] print(2^10)
 - [x] print(2**10)
