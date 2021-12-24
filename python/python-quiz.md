@@ -1396,3 +1396,37 @@ num_list.remove(2)
 - [x] list(reversed(range(1,10)))
 - [ ] list(range(10,1,-1))
 - [ ] list(reversed(range(1,11)))
+
+#### Q104. Which syntax correctly creates a variable that is bound to a tuple?
+- [ ] my_tuple = [2, 'apple', 3.5]
+- [ ] my_tuple = [2, 'apple', 3.5].tuple()
+- [ ] my_tuple = tup(2, 'apple', 3.5)
+- [x] my_tuple = (2, 'apple', 3.5)
+
+[reference] (https://www.w3schools.com/python/python_tuples.asp)
+#### Q105. Which fragment of code will print exactly the same output as this fragment?
+'''
+import math
+print(math.pow(2,10)) # prints 2 elevated to the 10th power
+'''
+
+- [ ] print(2^10)
+- [x] print(2**10)
+- [ ] y = [x*2 for x in range(1,10)]
+      print(y)
+- [ ] y = 1
+      
+      for i in range(1,10):
+          y = y * 2
+    
+      print(y)
+
+[reference] (https://www.digitalocean.com/community/tutorials/how-to-do-math-in-python-3-with-operators#:~:text=The%20**%20operator%20in%20Python,multiplied%20by%20itself%203%20times.)
+
+#### Q106. Elements surrounded by [] are _____, {} are _____, and () are _____.
+- [ ] sets only; lists or dictionaries; tuples
+- [ ] lists; sets only; tuples
+- [ ] tuples; sets or lists; dictionaries
+- [x] lists; dictionaries or sets; tuples
+
+[reference] (https://www.geeksforgeeks.org/differences-and-applications-of-list-tuple-set-and-dictionary-in-python/)
