@@ -1396,3 +1396,39 @@ num_list.remove(2)
 - [x] list(reversed(range(1,10)))
 - [ ] list(range(10,1,-1))
 - [ ] list(reversed(range(1,11)))
+
+### Q1. What is the output of this code? (NumPy has been imported as np.)
+```
+table = np.array([
+    [1,3],
+    [2,4]])
+print(table.max(axis=1))
+```
+
+- [ ] `[2, 4]`
+- [X] `[3, 4]`
+- [ ] `[4]`
+- [ ] `[1,2]`
+
+[Reference](https://colab.research.google.com/drive/1PRGf7Wgcr_gQk7snnxxuc5rL9O1ky9Xg?usp=sharing
+
+### Q2. What will this code print?
+```
+number = 3
+print (f"The number is {number}")
+```
+
+- [X] `The number is 3`
+- [ ] `the number is 3`
+- [ ] `THE NUMBER IS 3`
+- [ ] It throws a TypeError because the integer must be cast to a string.
+
+[Reference](https://colab.research.google.com/drive/1PRGf7Wgcr_gQk7snnxxuc5rL9O1ky9Xg?usp=sharing
+
+### Q3. Which syntax correctly creates a variable that is bound to a tuple?
+- [ ] `my_tuple tup(2, 'apple', 3.5) %D`
+- [ ] `my_tuple [2, 'apple', 3.5].tuple() %D`
+- [X] `my_tuple = (2, 'apple', 3.5)`
+- [ ] `my_tuple = [2, 'apple', 3.5]`
+
+[Reference](https://beginnersbook.com/2018/02/python-tuple/)
