@@ -624,3 +624,50 @@ endif;
 - [x] unique keys and salts
 
 [Ref](https://www.malcare.com/blog/how-to-secure-your-wordpress-site-with-wp-config-php/)
+
+#### Q73. In the WordPress template hierarchy, which file could not be used to display an archive?
+- [ ] `archive.php`
+- [x] `index.php`
+- [ ] `page.php`
+- [ ] `category.php`
+ 
+[Reference](https://developer.wordpress.org/themes/basics/template-hierarchy/)
+
+#### Q74. Why can't you modify the query in a template page?
+- [ ] The query can only be run inside the Loop.
+- [x] You can modify the query in a template page if you use `pre_get_posts()`.
+- [ ] According to WordPress best practices, the query should only be modified in `functions.php`.
+- [ ] Due to execution order, the query has already run by the time a template is loaded.
+
+[Reference](https://webcraft.tools/how-to-modify-the-main-wordpress-query/)
+
+#### Q75. For the majority of modern themes, what is the standard method used to customize various details of site appearance and features, such as changing the site description or adding a logo and favicons?
+- [ ] WordPress settings
+- [x] Customizer
+- [ ] wp-config.php
+- [ ] Theme settings
+
+[Reference](https://wordpress.org/support/article/creating-a-favicon/)
+
+#### Q76. How would you write a text string containing "Hello World!" in a way that makes it possible for someone else to translate the string into a different language?
+- [ ] `apply_filters( 'Hello World!', 'mytextdomain' );`
+- [ ] `esc_html( 'Hello World!', 'mytextdomain' );`
+- [ ] `$string = "Hello World!";`
+- [x] `__( 'Hello World!', 'mytextdomain' );`
+
+[Reference](https://wordpress.stackexchange.com/questions/231685/how-to-get-a-translated-string-from-a-language-other-than-the-current-one)
+
+#### Q77. Which of these are best practices in accessibility?
+- [ ] Do not skip heading levels.
+- [ ] Be sure there is proper color contrast between background and text.
+- [ ] If an activity can be completed with a mouse, it must also be accessible by keyboard.
+- [x] all of these answers
+
+#### Q78. JavaScript variables can hold many data types. Which data type does the following variable represent?
+`var x = "16"`
+- [ ] Boolean
+- [ ] Number
+- [x] String
+- [ ] Object
+
+[Reference](https://www.w3schools.com/js/js_datatypes.asp)
