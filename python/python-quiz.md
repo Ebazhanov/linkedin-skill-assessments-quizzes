@@ -1410,7 +1410,7 @@ print(table.max(axis=1))
 - [ ] `[4]`
 - [ ] `[1,2]`
 
-[Reference](https://colab.research.google.com/drive/1PRGf7Wgcr_gQk7snnxxuc5rL9O1ky9Xg?usp=sharing
+[Reference](https://colab.research.google.com/drive/1PRGf7Wgcr_gQk7snnxxuc5rL9O1ky9Xg?usp=sharing)
 
 ### Q2. What will this code print?
 ```
@@ -1423,7 +1423,7 @@ print (f"The number is {number}")
 - [ ] `THE NUMBER IS 3`
 - [ ] It throws a TypeError because the integer must be cast to a string.
 
-[Reference](https://colab.research.google.com/drive/1PRGf7Wgcr_gQk7snnxxuc5rL9O1ky9Xg?usp=sharing
+[Reference](https://colab.research.google.com/drive/1PRGf7Wgcr_gQk7snnxxuc5rL9O1ky9Xg?usp=sharing)
 
 ### Q3. Which syntax correctly creates a variable that is bound to a tuple?
 - [ ] `my_tuple tup(2, 'apple', 3.5) %D`
