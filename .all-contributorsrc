@@ -6653,6 +6653,36 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "GalexyN",
+      "name": "Alexander Nguyen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66571090?v=4",
+      "profile": "https://github.com/GalexyN",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "DiscreteLogarithm",
+      "name": "Morteza Jalalvand",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1571075?v=4",
+      "profile": "https://github.com/DiscreteLogarithm",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "claudsonm",
+      "name": "Claudson Martins",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4139808?v=4",
+      "profile": "https://claudsonmartins.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

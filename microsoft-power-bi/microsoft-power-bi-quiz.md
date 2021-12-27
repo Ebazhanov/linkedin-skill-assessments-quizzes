@@ -310,10 +310,12 @@ D. They must have no duplicate data rows.
 
 #### Q40. You have two columns of numerical data and want to create a visual to help determine if there is a relationship between them. What kind of chart is designed to do this?
 
-- [x] bar chart
+- [ ] bar chart
 - [ ] bubble chart
 - [ ] line chart
-- [ ] scatter chart
+- [x] scatter chart
+
+**Explanation:** As both of the columns have numeric data, we will use a scatter chart and apply them in X-axis and Y-axis
 
 #### Q41. In the report editor, which task can you NOT accomplish using drag and drop?
 
