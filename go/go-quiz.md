@@ -296,8 +296,8 @@ Relevant excerpt from the article:
 
 - [ ] Time.Add() is for performing addition while Time.Sub() is for nesting timestamps.
 - [ ] Time.Add() always returns a later time while time.Sub always returns an earlier time.
-- [x] They are opposites. Time.Add(x) is the equivalent of Time.Sub(-x).
-- [ ] Time.Add() accepts a Duration parameter and returns a Time while Time.Sub() accepts a Time parameter and returns a Duration.
+- [ ] They are opposites. Time.Add(x) is the equivalent of Time.Sub(-x).
+- [x] Time.Add() accepts a Duration parameter and returns a Time while Time.Sub() accepts a Time parameter and returns a Duration.
 
 Reference: [time#Time.Add](https://pkg.go.dev/time#Time.Add)
 
