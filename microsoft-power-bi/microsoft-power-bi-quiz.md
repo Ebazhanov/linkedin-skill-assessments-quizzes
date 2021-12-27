@@ -315,6 +315,8 @@ D. They must have no duplicate data rows.
 - [ ] line chart
 - [x] scatter chart
 
+**Explanation:** As both of the columns have numeric data, we will use a scatter chart and apply them in X-axis and Y-axis
+
 #### Q41. In the report editor, which task can you NOT accomplish using drag and drop?
 
 - [ ] Add more information to a visualization.
