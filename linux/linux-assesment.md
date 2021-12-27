@@ -482,11 +482,9 @@ fi
 ```
 
 - [ ] The code snippet cannot be improved, this is a valid way of checking for the existence of a file.
-- [ ] Use Bash's built-in `[[ ]]` test conditions instead of the ls command.
-- [x] The redirect to `/dev/null` will silence the return code invalidating the conditional. Removing the redirect will solve this.
+- [x] Use Bash's built-in `[[ ]]` test conditions instead of the ls command.
+- [ ] The redirect to `/dev/null` will silence the return code invalidating the conditional. Removing the redirect will solve this.
 - [ ] The ls command will output the name of the file to the screen. Running ls in quiet mode will improve the code snippet.
-
-**Note:** Not confident about answer. If someone knows the exact answer please contribute in this repository and mark correct answer.
 
 #### Q60. Using a systemd-based distribution, you want to restrict the cron service from running either automatically or manually. Which command would you run?
 
@@ -509,12 +507,12 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
 
 #### Q62. Which option would you choose to force grep to use a basic regular expression (BRE)?
 
-- [x] grep -E
+- [ ] grep -E
 - [ ] grep -B
 - [ ] grep -e
-- [ ] grep -G
+- [x] grep -G
 
-[Reference](https://linuxize.com/post/regular-expressions-in-grep/)
+[Reference] Man page of grep command.
 
 #### Q63. An rsyslogd filter determines which items in a log file to act on. What is it made up of?
 
@@ -581,7 +579,7 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
    echo "data" >> file.txt
 ```
 
-- [ ] The first line will append the word `data` to file.txt and output it on the screen. The second line will append the word `data` only to file.txt.
+- [x] The first line will append the word `data` to file.txt and output it on the screen. The second line will append the word `data` only to file.txt.
 - [ ] They are the same.
 - [ ] The first line will append the word `data` to file.txt and there will be no output on the screen. The second line will output the word `data` on the screen and append it to `file.txt`
 - [ ] Both lines will overwrite file.txt with the word data.
