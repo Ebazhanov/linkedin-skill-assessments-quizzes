@@ -540,3 +540,68 @@ public class Honda extends Car{}
 - [ ] An argument is the variable used for input values in a method. A parameter is the specific input value passed to the method.
 - [x] A parameter is a variable in the declaration of a function. An argument is the value of this variable that gets passed to the function.
 - [ ] Parameters and arguments are the same
+
+#### Q68. What is the scope of a class nested inside another class?
+
+- [ ] Protected scope
+- [ ] Private scope
+- [ ] Global scope
+- [x] Depends on access specifier and inheritance used
+
+> Explanation: It depends on the access specifier and the type of inheritance used with the class, because if the class is inherited then the nested class can be used by subclass too, provided it’s not of private type.
+
+#### Q69. Methods and attributes that define an object are a kind of blueprint called what?
+
+- [ ] a collection
+- [ ] a variable
+- [x] a class
+- [ ] a procedure
+
+#### Q70. Assume single inheritance is used with classes A and B while A is the base class. Then assume classes C, D, and E, where C is a base class and D is derived from C, then E is derived from D. Class C is made to inherit from class B. Which type of inheritance is reflected?
+
+- [x] Multilevel
+- [ ] Hybrid
+- [ ] Single level
+- [ ] Multiple
+
+#### Q71. What is the main idea behind separation of concerns?
+
+- [x] All of these answers
+- [ ] Applications are decomposed into parts
+- [ ] Parts are defined with minimal overlap
+- [ ] Each part is responsible for a separate concern
+
+#### Q72. What is the purpose of the finally block?
+
+- [x] To always run the finally block of code when the try block exits
+- [ ] To run code when an exception has not occurred
+- [ ] To run the block if an exception occurred
+- [ ] To run code whenever garbage collection requires it
+
+#### Q73. Which choice is not an OOP language?
+
+- [ ] C#
+- [ ] Java
+- [x] C
+- [ ] Python
+
+#### Q74. What is the function of a finalizer or destructor?
+
+- [x] To relinquish resources that are no longer needed
+- [ ] To delete a variable name
+- [ ] To reset an attribute value
+- [ ] To hold space, even after an object is no longer being used
+
+#### Q75. An instance of which type of class cannot be created?
+
+- [ ] Protected class
+- [ ] Base class
+- [ ] Anonymous class
+- [x] Abstract class
+
+#### Q76. In the context of OOP, what is composition?
+
+- [ ] Composition is the act of one object passing to another object an operation to be performed on behalf of the initial object.
+- [x] Composition is a part/hole relationship where an object is composed of one or more other objects, each of which is considered a part of the whole.
+- [ ] Composition is a binding where the class/name association is not made until the object designated by the name is created at execution time
+- [ ] Composition is a process of collecting classes that provide a set of services for a particular domain
