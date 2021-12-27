@@ -1430,3 +1430,23 @@ print(math.pow(2,10)) # prints 2 elevated to the 10th power
 - [x] lists; dictionaries or sets; tuples
 
 [Reference](https://www.geeksforgeeks.org/differences-and-applications-of-list-tuple-set-and-dictionary-in-python/)
+
+#### Q107. Which mode is _not_ a valid way to access a file from within a Python script?
+- [ ] write('w')
+- [ ] scan('s')
+- [X] append('a')
+- [ ] read('r')
+
+[Reference](https://www.guru99.com/reading-and-writing-files-in-python.html)
+
+[Reference](https://www.w3schools.com/python/ref_list_append.asp)
+#### Q108. Which command will create a list from 10 down to 1? Example:
+```
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+```
+- [ ] reversed(list(range(1,11)))
+- [X] list(reversed(range(1,10)))
+- [ ] list(range(10, 1, -1))
+- [ ] list(reversed(range(1,11)))
+
+[Reference](https://www.programiz.com/python-programming/methods/built-in/reversed)
