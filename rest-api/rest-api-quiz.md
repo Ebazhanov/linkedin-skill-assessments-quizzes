@@ -21,7 +21,7 @@
 - [ ] `a permission`
 - [ ] `and integer`
 
-#### Q4. Which REST contraint specifies that knowledge and understanding obtained from one component of the API should be generally applicable elsewhere in the API?
+#### Q4. Which REST constraint specifies that knowledge and understanding obtained from one component of the API should be generally applicable elsewhere in the API?
 
 - [x] `Uniform Interface`
 - [ ] `Client-Server`
@@ -81,7 +81,7 @@
 - [ ] `It offers better security.`
 - [x] `It reduce load on servers.`
 
-#### Q12. Your API resource does no allow deletion, and a client application attempted to delete the resource. What HTTP respose code should you return?
+#### Q12. Your API resource does no allow deletion, and a client application attempted to delete the resource. What HTTP response code should you return?
 
 - [ ] `409 Conflict`
 - [ ] `400 Bad Request`
