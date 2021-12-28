@@ -395,20 +395,21 @@ D. They must have no duplicate data rows.
 - [ ] It substitutes a column chart
 
 #### Q52. Bookmarks capture the state of a page. What does this capture state include?
-A. sorting
-B. filtering
-C. current selection
-D. properties of visuals
+    A. sorting
+    B. filtering
+    C. current selection
+    D. properties of visuals
 - [ ] A, B
 - [ ] A, B, C
 - [ ] A, B, C, D
 - [ ] A, B, D
 
 #### Q53. Your company's national maintenance team is divided into 12 regions, and the Issues report they use is filtered by the user's region. What report modification would help technicians while using the mobile app on the road? (Select all that apply.)
-A. Add a geographic filter to City.
-B. Add a geographic filter to State.
-C. Add a geographic filter to Street Address.
-D. Add a geographic filter to Country.
+
+    A. Add a geographic filter to City.
+    B. Add a geographic filter to State.
+    C. Add a geographic filter to Street Address.
+    D. Add a geographic filter to Country.
 
 - [ ] A, B, D
 - [ ] A, B, C, D
@@ -416,10 +417,10 @@ D. Add a geographic filter to Country.
 - [ ] A, B
 
 #### Q54. What does the usage metric "Most Consumed Dashboards by Users" include? (Select all that apply.)
-A. the person who built the dashboard
-B. other people who share the dashboard
-C. users who consume the dashboard in a content pack
-D. individual user downloads of the dashboard
+    A. the person who built the dashboard
+    B. other people who share the dashboard
+    C. users who consume the dashboard in a content pack
+    D. individual user downloads of the dashboard
 - [ ] A, B, C, D
 - [ ] A, B, C
 - [ ] A, D
