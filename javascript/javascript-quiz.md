@@ -1018,7 +1018,7 @@ seconds.type = 'fruit';
 
 **Explanation:** https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
-#### Q91. What will be logged to the console?
+#### Q91. What will be logged to the console??
 
 ```js
 'use strict';
@@ -1034,14 +1034,14 @@ new logThis();
 - [ ] function
 - [x] {desc: "logger"}
 
-#### Q92. Which statement is applicable to the defer attribute af the HTML <script> tag?
+#### Q92. Which statement is applicable to the defer attribute of the HTML \<script\> tag?
 
 - [ ] defer causes the script ta be loaded from the backup content delivery network (CDN).
 - [x] defer allows the browser ta continue processing the page while the script loads in the background.
 - [ ] defer blacks the browser from processing HTML below the tag until the script is completely loaded.
 - [ ] defer lazy loads the script, causing it to download only when it is called by another script on the page.
 
-**Explanation:** If the defer attribute is set, it specifies that the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing. [HTML <script> defer Attribute](https://www.w3schools.com/tags/att_script_defer.asp)
+**Explanation:** If the defer attribute is set, it specifies that the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing. [HTML \<script\> defer Attribute](https://www.w3schools.com/tags/att_script_defer.asp)
 
 #### Q93. What will this code print?
 
@@ -1281,7 +1281,8 @@ document.querySelectorAll('div').forEach((e) => {
 
 #### Q113. Which code would you use to access the Irish flag?
 
-```javascript
+```
+javascript
 var flagsJSON =
   '{ "countries" : [' +
   '{ "country":"Ireland" , "flag":"🇮🇪" },' +
@@ -1294,3 +1295,55 @@ var flagDatabase = JSON.parse(flagsJSON);
 - [ ] flagDatabase.countries[1].flag
 - [ ] flagsJSON.countries[0].flag
 - [ ] flagDatabase[1].flag
+
+### Q114. Which statement prints "roar" to the console?
+```
+var sound = "grunt";
+var bear = { 
+  sound: "roar"
+  }; 
+function roar() {
+  console.log(this.sound);
+}
+```
+- [ ] `bear.bind(roar);`
+- [ ] `roar.bind(bear);`
+- [X] `roar.apply(bear);`
+- [ ] `bear[roar]();`
+
+[Reference Apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
+[Reference this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+[Reference bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
+### Q115. Which line could you add to this code to print "jaguar" to the console?
+```
+let animals = ["jaguar","eagle"];
+//Missing Line
+console.log(animals.pop()); //Prints jaguar
+```
+
+- [ ] `animals.filter(e => e === "jaguar");`
+- [ ] `animals.reverse();`
+- [ ] `animals.shift();`
+- [x] `animals.pop();`
+
+[Reference Javascript Array Reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
+### Q116. Which snippet could you add to this code to print "food" to the console?
+```
+class Animal {
+  static belly = [];
+  eat () { 
+    Animal.belly.push("food"); 
+    }
+}
+let a = new Animal();
+a.eat();
+console.log(/* Snippet Here */); //Prints food
+```
+ 
+- [ ] `a.prototype.belly[0]`
+- [ ] `Object.getPrototype0f (a).belly[0]`
+- [X] `Animal.belly[0]`
+- [ ] `a.belly[0]`
+  
+[Reference Javascript Class static Keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
+
