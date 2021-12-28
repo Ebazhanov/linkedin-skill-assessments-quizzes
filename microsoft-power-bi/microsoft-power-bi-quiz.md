@@ -351,3 +351,83 @@ D. They must have no duplicate data rows.
 - [ ] COUNTUNIQUE
 - [x] COUNTX
 - [ ] COUNTROWS
+
+#### Q46. You have just pinned a visualization to a new dashboard. Before you can add another visualization, what must you do?
+
+- [ ] Save it.
+- [ ] Name it.
+- [ ] Refresh it.
+- [ ] Publish it.
+
+#### Q47. You can create a live connection to ____ .
+
+- [ ] Dynamics 365
+- [ ] SharePoint
+- [x] all of these answers
+- [ ] SQL Server Analysis Services
+
+#### Q48. What is the purpose of this code?
+// ProductCount = COUNT(Products[ProductID])
+
+- [x] It is part of the documentation
+- [ ] It creates and formats a measure called ProductCount
+- [ ] It creates a measure called ProductCount
+- [ ] It calculates the value for an existing measure named ProductCount
+
+#### Q49. Your computer rental dataset includes columns for StartTime, EndTime, and PerHourRate. What two DAX functions could you use to calculate the total earned for rentals?
+
+- [ ] DATEDIFF and SUM
+- [x] DATEDIFF and SUMX
+- [ ] TIMEDIFF and SUM
+- [ ] TIMEDIFF and SUMX
+
+#### Q50. Which Q&A feature helps you ask questions and refine your visualization?
+
+- [ ] error dialogs
+- [ ] autocomplete
+- [ ] all of these answers
+- [ ] tooltips
+
+#### Q51. What does Power BI Desktop do when it cannot create a standard map visualization with the available data?
+- [ ] It sends the data to the Power BI service
+- [ ] It returns an error
+- [x] It sends the data to Bing
+- [ ] It substitutes a column chart
+
+#### Q52. Bookmarks capture the state of a page. What does this capture state include?
+    A. sorting
+    B. filtering
+    C. current selection
+    D. properties of visuals
+- [ ] A, B
+- [ ] A, B, C
+- [ ] A, B, C, D
+- [ ] A, B, D
+
+#### Q53. Your company's national maintenance team is divided into 12 regions, and the Issues report they use is filtered by the user's region. What report modification would help technicians while using the mobile app on the road? (Select all that apply.)
+
+    A. Add a geographic filter to City.
+    B. Add a geographic filter to State.
+    C. Add a geographic filter to Street Address.
+    D. Add a geographic filter to Country.
+
+- [ ] A, B, D
+- [ ] A, B, C, D
+- [ ] A, B, C
+- [ ] A, B
+
+#### Q54. What does the usage metric "Most Consumed Dashboards by Users" include? (Select all that apply.)
+    A. the person who built the dashboard
+    B. other people who share the dashboard
+    C. users who consume the dashboard in a content pack
+    D. individual user downloads of the dashboard
+- [ ] A, B, C, D
+- [ ] A, B, C
+- [ ] A, D
+- [ ] B, C, D
+
+#### Q55. How can you allow users to filter an entire report to display information for the last week, last two weeks, or last month?
+- [ ] Add a date field to the report filter area and set filtering to Relative date filtering.
+- [ ] all of these answers
+- [ ] Add a date field to the page filter area, set filtering to Relative date filtering and click Extend.
+- [ ] Add a slicer for a date field to the report. Click the upper right corner and select Relative.
