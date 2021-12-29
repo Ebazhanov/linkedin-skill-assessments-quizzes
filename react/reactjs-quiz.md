@@ -1014,3 +1014,60 @@ class StarTrekkin extends React.Component {
 - [x] `<button onClick={this.firePhotonTorpedoes}>Pew Pew</button>`
 
 [Source: React Docs](https://reactjs.org/docs/handling-events.html)
+
+#### Q87. What is the process of deciding whether an update is necessary?
+
+- [ ] shadow DOM
+- [ ] fiber
+- [x] reconciliation
+- [ ] setting state
+
+#### Q88. React is an open-source project but is maintained by which company?
+
+- [ ] Intuit
+- [ ] Twitter
+- [x] Facebook
+- [ ] Snapchat
+
+#### Q89. What command can you use to generate a React project?
+
+- [ ] react-starter
+- [x] create-react-app
+- [ ] react-gen
+- [ ] react-start
+
+#### Q90. What is the browser extension called that React developers use to debug applications?
+
+- [x] React Developer Tools
+- [ ] React Tooling Add-on
+- [ ] React Codewatch
+- [ ] React Debug
+
+#### Q91. Which tool is not part of Create React App?
+
+- [ ] React
+- [x] jQuery
+- [ ] webpack
+- [ ] ReactDOM
+
+#### Q92. What is the JavaScript syntax extension that is commonly used to create React elements?
+
+- [ ] HTML
+- [ ] JavaScriptX
+- [x] JSX
+- [ ] React JavaScript
+
+#### Q93. How might you check property types without using Flow or TypeScript?
+
+- [ ] Check Manually.
+- [ ] Use `prop-helper`.
+- [x] use `prop-types`.
+- [ ] user `checker-types`.
+
+#### Q94. How do you add an id of heading to the following h1 element? 
+`let dish = <h1>Mac and Cheese</h1>; `
+
+- [ ] `let dish = <h1 id={heading}>Mac and Cheese</h1>;`
+- [x] `let dish = <h1 id="heading">Mac and Cheese</h1>;`
+- [ ] `let dish = <h1 id:"heading">Mac and Cheese</h1>;`
+- [ ] `let dish = <h1 class="heading">Mac and Cheese</h1>;`
