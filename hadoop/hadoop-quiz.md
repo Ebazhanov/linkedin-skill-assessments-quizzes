@@ -368,3 +368,64 @@
 - [ ] query action
 - [ ] detail
 - [ ] query plan
+
+### Q53. Which feature is used to roll back a corrupted HDFS instance to a previously known good point in time?
+- [ ] partitioning
+- [ ] snapshot
+- [ ] replication
+- [ ] high availability
+
+### Q54. Hadoop Common is written in which language?
+- [ ] C++
+- [ ] C
+- [ ] Haskell
+- [x] Java
+
+### Q55. Which file system does Hadoop use for storage?
+- [ ] NAS
+- [ ] FAT
+- [x] HDFS
+- [ ] NFS
+
+### Q56. What kind of storage and processing does Hadoop support?
+- [ ] encrypted
+- [ ] verified
+- [x] distributed
+- [ ] remote
+
+### Q57. Hadoop Common consists of which components?
+- [ ] Spark and YARN
+- [ ] HDFS and MapReduce
+- [ ] HDFS and S3
+- [ ] Spark and MapReduce
+
+### Q58. Most Apache Hadoop committers' work is done at which commercial company?
+- [ ] Cloudera
+- [ ] Microsoft
+- [ ] Google
+- [ ] Amazon
+
+### Q59. To get information about Reducer job runs, which object should be added?
+- [ ] Reporter
+- [ ] IntReadable
+- [ ] IntWritable
+- [ ] Writer
+
+### Q60. After changing the default block size and restarting the cluster, to which data does the new size apply?
+- [ ] all data
+- [ ] no data
+- [ ] existing data
+- [ ] new data
+
+### Q61. Which statement should you add to improve the performance of the following query? 
+```
+SELECT
+  c.id,
+  c.name,
+  c.email_preferences.categories.surveys
+FROM customers c; 
+```
+- [ ] GROUP BY 
+- [ ] FILTER
+- [ ] SUB-SELECT
+- [ ] SORT
