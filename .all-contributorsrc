@@ -6683,6 +6683,36 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "mjcbsn22",
+      "name": "Matt Jacobson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5042070?v=4",
+      "profile": "https://github.com/mjcbsn22",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "rafabelokurows",
+      "name": "Rafael Belokurows",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55976107?v=4",
+      "profile": "https://github.com/rafabelokurows",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "tgamauf",
+      "name": " Thomas Gamauf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4630030?v=4",
+      "profile": "https://github.com/tgamauf",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
