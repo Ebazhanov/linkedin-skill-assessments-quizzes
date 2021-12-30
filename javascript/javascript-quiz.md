@@ -988,6 +988,8 @@ const foo = {
 - [ ] Functions cannot be declared as properties of objects.
 - [x] Nothing, there are no errors.
 
+[Reference functions in javascript](https://www.w3schools.com/js/js_functions.asp)
+[Refrence working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 #### Q82. What will be logged to the console?
 
 ```js
@@ -1024,6 +1026,7 @@ love
 Javascript!
 ```
 
+[Reference call stack in js](https://www.javascripttutorial.net/javascript-call-stack/)
 #### Q83. What will this code log to the console?
 
 ```js
@@ -1037,6 +1040,7 @@ console.log(n);
 - [ ] NaN
 - [ ] Nothing--this is not proper JavaScript syntax and will throw an error.
 
+[Reference array deconstruction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 #### Q84. How do you remove the property name from this object?
 
 ```js
@@ -1050,12 +1054,17 @@ const foo = {
 - [ ] del foo.name;
 - [ ] remove foo.name;
 
+[Refrence working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+
 #### Q85. What is the difference between the map() and the forEach() methods on the Array prototype?
 
 - [ ] There is no difference.
 - [ ] The `forEach()` method returns a single output value, wheras the `map()` method performs operation on each value in the array.
 - [x] The map() methods returns a new array with a transformation applied on each item in the original array, wheras the `forEach()` method iterates through an array with noreturn value.
 - [ ] The `forEach()` methods returns a new array with a transformation applied on each item in the original array, wheras the `map()` method iterates through an array with noreturn value.
+
+[Reference map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+[Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
 
 #### Q86. Which concept does this code illustrate?
 
@@ -1075,12 +1084,15 @@ console.log(addFive(3));
 - [x] currying
 - [ ] overriding
 
+[Refrence currying](https://javascript.info/currying-partials)
 #### Q87. Which tag pair is used in HTML to embed JavaScript?
 
 - [x] `<script></script>`
 - [ ] `<js></js>`
 - [ ] `<javascript></javascript>`
 - [ ] `<code></code>`
+
+[Reference add js to html file](https://www.w3schools.com/tags/tag_script.asp)
 
 #### Q88. What would be the result in the console of running this code?
 
@@ -1094,6 +1106,8 @@ for (var i = 0; i < 5; i++) {
 - [ ] 0 1 2 3 4 5
 - [ ] 1 2 3 4
 - [ ] 1 2 3 4 5
+
+[Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
 
 #### Q89. What is the value of dessert.type after executing this code?
 
