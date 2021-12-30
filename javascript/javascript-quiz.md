@@ -535,6 +535,8 @@ f2();
 - [ ] Date fields and methods are kept in units.
 - [x] Side effects are not allowed.
 
+[Reference functional programming](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-functional-programming-7f218c68b3a0)
+
 #### Q42. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?
 
 - [x] You are calling a method named reduce on an object that's declared but has no value.
@@ -553,12 +555,15 @@ f2();
 - [ ] 0
 - [ ] 1
 
+[Reference array prototype](https://www.w3schools.com/jsref/jsref_prototype_array.asp)
 #### Q44. Which choice is _not_ a unary operator?
 
 - [ ] typeof
 - [ ] delete
 - [x] instanceof
 - [ ] void
+
+[Reference js unary operators](https://www.digitalocean.com/community/tutorials/javascript-unary-operators-simple-and-useful#:~:text=A%20unary%20operation%20is%20an,therefore%20their%20functionality%20is%20guaranteed.)
 
 #### Q45. What type of scope does the end variable have in the code shown?
 
@@ -574,6 +579,8 @@ if (start === 1) {
 - [ ] global
 - [ ] function
 
+[Reference block vs function scope](https://josephcardillo.medium.com/the-difference-between-function-and-block-scope-in-javascript-4296b2322abe)
+
 #### Q46. What will the value of y be in this code:
 
 ```js
@@ -586,12 +593,15 @@ const y = x ? 'One' : 'Two';
 - [ ] TRUE
 - [x] Two
 
+[Reference ternary operator js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 #### Q47. Which keyword is used to create an error?
 
 - [x] throw
 - [ ] exception
 - [ ] catch
 - [ ] error
+
+[Reference throwing errors in js[(https://www.w3schools.com/jsref/jsref_throw.asp#:~:text=The%20throw%20statement%20throws%20(generates,to%20create%20a%20custom%20error.)]]
 
 #### Q48. What's one difference between the async and defer attributes of the HTML script tag?
 
@@ -600,6 +610,7 @@ const y = x ? 'One' : 'Two';
 - [ ] The defer attribute works only with promises.
 - [x] The defer attribute will asynchronously load the scripts in order.
 
+[Reference async vs defer](https://www.digitalocean.com/community/tutorials/html-defer-async#:~:text=%3E-,Async%20vs%20Defer,order%20as%20they%20are%20called.)
 #### Q49. The following program has a problem. What is it?
 
 ```js
@@ -612,6 +623,8 @@ var b = (a = 3) ? true : false;
 - [ ] You can't use a ternary in the right-hand side of an assignment operator.
 - [ ] The code is using the deprecated var keyword.
 
+[Reference ternary operator js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+
 #### Q50. Which statement references the DOM node created by the code shown?
 
 ```html
@@ -622,6 +635,8 @@ var b = (a = 3) ? true : false;
 - [x] `document.querySelector('.pull');`
 - [ ] `Document.querySelector('pull')`
 - [ ] `Document.querySelector('#pull')`
+
+[Reference query selector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 
 #### Q51. What value does this code return?
 
