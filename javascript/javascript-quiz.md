@@ -1294,6 +1294,7 @@ console.log(x);
 - [ ] 66
 - [ ] 633
 
+[Reference type coercion](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/)
 #### Q102. Which statement can take a single expression as input and then look through a number of choices until one that matches that value is found?
 
 - [ ] else
@@ -1301,13 +1302,25 @@ console.log(x);
 - [ ] if
 - [x] switch
 
-#### Q103. Which statement can take a single expression as input and then look through a number of choices until one that matches that value is found?
+[Reference switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+### Q103. Which statement prints "roar" to the console?
+```
+var sound = "grunt";
+var bear = { 
+  sound: "roar"
+  }; 
+function roar() {
+  console.log(this.sound);
+}
+```
+- [ ] `bear.bind(roar);`
+- [ ] `roar.bind(bear);`
+- [X] `roar.apply(bear);`
+- [ ] `bear[roar]();`
 
-- [ ] else
-- [ ] when
-- [ ] if
-- [x] switch
-
+[Reference Apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
+[Reference this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+[Reference bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
 #### Q104. Which choice is a valid example of an arrow function, assuming c is defined in the outer scope?
 
 - [ ] `a, b => { return c; }`
@@ -1316,13 +1329,25 @@ console.log(x);
 - [X] `(a,b) => c`
 
 [Reference arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
-#### Q105. Which method of a class is called to initialize an object of that class?
 
-- [ ] `create();`
-- [ ] `init();`
-- [ ] `constructor();`
-- [ ] `new();`
+#### Q105. Which code would you use to access the Irish flag?
 
+```
+javascript
+var flagsJSON =
+  '{ "countries" : [' +
+  '{ "country":"Ireland" , "flag":"🇮🇪" },' +
+  '{ "country":"Serbia" , "flag":"🇷🇸" },' +
+  '{ "country":"Peru" , "flag":"🇵🇪" } ]}';
+var flagDatabase = JSON.parse(flagsJSON);
+```
+
+- [x] flagDatabase.countries[0].flag
+- [ ] flagDatabase.countries[1].flag
+- [ ] flagsJSON.countries[0].flag
+- [ ] flagDatabase[1].flag
+
+[Refrence working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 #### Q106. Which statement correctly imports this code from some-file.js?
 
 ```js
@@ -1335,6 +1360,7 @@ export const printMe = (str) => console.log(str);
 - [ ] `import default as printMe from './some-file';`
 - [ ] `const printMe = import './some-file';`
 
+[Reference importing libraries in javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 #### Q107. What will be the output of this code?
 
 ```js
@@ -1350,13 +1376,16 @@ console.log([...arr1, ...arr2]);
 - [ ] `[[2, 4, 6], [3, 5, 7]]`
 - [x] `[2, 4, 6, 3, 5, 7]`
 
+[Reference spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+
 #### Q108. Which method call is chained to handle a successful response returned by `fetch()`?
 
 - [ ] `done()`
-- [ ] `then()`
+- [X] `then()`
 - [ ] `finally()`
 - [ ] `catch()`
 
+[Reference fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 #### Q109. Which choice is not an array method?
 
 - [ ] `array.slice()`
@@ -1364,6 +1393,7 @@ console.log([...arr1, ...arr2]);
 - [ ] `array.push()`
 - [x] `array.replace()`
 
+[Reference working with arrays](https://www.w3schools.com/js/js_arrays.asp)
 #### Q110. Which JavaScript loop ensures that at least a singular iteration will happen?
 
 - [x] do…while
@@ -1371,6 +1401,7 @@ console.log([...arr1, ...arr2]);
 - [ ] while
 - [ ] for
 
+[Reference loops in js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while)
 #### Q111. What will be logged to the console?
 
 ```javascript
@@ -1382,6 +1413,7 @@ console.log(typeof 'blueberry');
 - [ ] Boolean
 - [ ] object
 
+[Reference what is typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
 #### Q112. What is the output that is printed when the div containing the text "Click Here" is clicked?
 
 ```html
@@ -1405,40 +1437,5 @@ document.querySelectorAll('div').forEach((e) => {
 - [ ] C
 - [ ] A B C
 
-#### Q113. Which code would you use to access the Irish flag?
-
-```
-javascript
-var flagsJSON =
-  '{ "countries" : [' +
-  '{ "country":"Ireland" , "flag":"🇮🇪" },' +
-  '{ "country":"Serbia" , "flag":"🇷🇸" },' +
-  '{ "country":"Peru" , "flag":"🇵🇪" } ]}';
-var flagDatabase = JSON.parse(flagsJSON);
-```
-
-- [x] flagDatabase.countries[0].flag
-- [ ] flagDatabase.countries[1].flag
-- [ ] flagsJSON.countries[0].flag
-- [ ] flagDatabase[1].flag
-
-### Q114. Which statement prints "roar" to the console?
-```
-var sound = "grunt";
-var bear = { 
-  sound: "roar"
-  }; 
-function roar() {
-  console.log(this.sound);
-}
-```
-- [ ] `bear.bind(roar);`
-- [ ] `roar.bind(bear);`
-- [X] `roar.apply(bear);`
-- [ ] `bear[roar]();`
-
-[Reference Apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
-[Reference this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
-[Reference bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
-
-
+[Reference query selector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+[Reference events](https://developer.mozilla.org/en-US/docs/Web/Events)
