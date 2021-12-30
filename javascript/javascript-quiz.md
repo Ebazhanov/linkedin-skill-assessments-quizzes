@@ -412,6 +412,7 @@ dessert.type = 'pudding';
 - [ ] function
 - [x] array
 
+[Reference js reserved words](https://www.w3schools.com/js/js_reserved.asp)
 #### Q32. Which variable is an implicit parameter for every function in JavaScript?
 
 - [x] Arguments
@@ -419,6 +420,7 @@ dessert.type = 'pudding';
 - [ ] argsArray
 - [ ] argumentsList
 
+[Reference implicit js parameters for functions](https://www.codeproject.com/Tips/1221966/JavaScript-Functions-Implicit-Parameters)
 #### Q33. For the following class, how do you get the value of 42 from an instance of X?
 
 ```js
@@ -434,6 +436,8 @@ var x = new X();
 - [x] x.Y
 - [ ] x.Y()
 - [ ] x.get().Y
+
+[Reference getters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get)
 
 #### Q34. What is the result of running this code?
 
@@ -454,6 +458,7 @@ let diff = function (x, y) {
 - [ ] 30, -10
 - [ ] ReferenceError, -10
 
+[Reference accessing before initialization](https://stackoverflow.com/questions/56318460/cannot-access-variable-name-before-initialization)
 #### Q35. Why is it usually better to work with Objects instead of Arrays to store a collection of records?
 
 - [ ] Objects are more efficient in terms of storage.
@@ -462,7 +467,7 @@ let diff = function (x, y) {
 - [ ] Working with objects makes the code more readable.
 
 **Explanation:** Records in an object can be retrieved using their key which can be any given value (e.g. an employee ID, a city name, etc), whereas to retrieve a record from an array we need to know its index.
-
+[Reference efficiency of lookups](https://stackoverflow.com/questions/17295056/array-vs-object-efficiency-in-javascript)
 #### Q36. Which statement is true about the "async" attribute for the HTML script tag?
 
 - [ ] It can be used for both internal and external JavaScript code.
@@ -470,6 +475,7 @@ let diff = function (x, y) {
 - [ ] It can be used only for internal or external JavaScript code that exports a promise.
 - [x] It can be used only for external JavaScript code.
 
+[Reference async attribute for html](https://www.w3schools.com/tags/att_script_async.asp)
 #### Q37. How do you import the lodash library making it top-level Api available as the "\_" variable?
 
 - [x] `import _ from 'lodash';`
@@ -477,6 +483,7 @@ let diff = function (x, y) {
 - [ ] `import '_' from 'lodash;`
 - [ ] `import lodash as _ from 'lodash';`
 
+[Reference how to import library in js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 #### Q38. What does the following expression evaluate to?
 
 ```js
@@ -488,14 +495,16 @@ let diff = function (x, y) {
 - [ ] []
 - [x] False
 
-#### Q39. What is the name of a function whose execution can be suspended and resumed at a later point?
+[Reference arrays in js are objects](https://stackoverflow.com/questions/30820611/why-doesnt-equality-check-work-with-arrays)
 
-#### Q39. What type of function can have its execution suspended and then resumed at a later point?
+#### Q39. What is the name of a function whose execution can be suspended and resumed at a later point? What type of function can have its execution suspended and then resumed at a later point?
 
 - [x] Generator function
 - [ ] Arrow function
 - [ ] Async/ Await function
 - [ ] Promise function
+
+[Reference what are generators in nodejs](https://www.guru99.com/node-js-generators-compare-callbacks.html#:~:text=Generators%20are%20function%20executions%20that,resumed%20at%20a%20later%20point.)
 
 #### Q40. What will this code print?
 
@@ -518,6 +527,7 @@ f2();
 - [ ] Nothing - this code will throw an error.
 - [ ] undefined
 
+[Reference closures in js \/ nested functions](https://javascript.info/closure)
 #### Q41. Which statement is true about Functional Programming?
 
 - [ ] Every object in the program has to be a function.
