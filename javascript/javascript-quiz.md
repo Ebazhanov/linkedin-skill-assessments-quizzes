@@ -339,6 +339,7 @@ console.log(a.length);
 - [ ] You can access values in a Map without iterating over the whole collection.
 
 **Explanation:** `Map.prototype.size returns the number of elements in a Map, whereas Object does not have a built-in method to return its size.`
+[Reference map methods javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
 
 #### Q24. What is the value of dessert.type after executing this code?
 
@@ -352,12 +353,15 @@ dessert.type = 'pudding';
 - [x] pudding
 - [ ] undefined
 
+[Reference working with js objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 #### Q25. 0 && hi
 
 - [ ] ReferenceError
 - [ ] True
 - [x] 0
 - [ ] false
+
+[Reference boolean logic](https://ntgard.medium.com/https-medium-com-ntgard-boolean-logic-in-javascript-part-1-3371af974f19)
 
 #### Q26. Which of the following operators can be used to do a short-circuit evaluation?
 
@@ -366,6 +370,8 @@ dessert.type = 'pudding';
 - [ ] \==
 - [x] \|\|
 
+[Reference short circuit javascript](https://codeburst.io/javascript-what-is-short-circuit-evaluation-ff22b2f5608c)
+
 #### Q27. Which statement sets the Person constructor as the parent of the Student constructor in the prototype chain?
 
 - [ ] Student.parent = Person;
@@ -373,6 +379,7 @@ dessert.type = 'pudding';
 - [ ] Student.prototype = Person;
 - [ ] Student.prototype = Person();
 
+[Reference protoype object js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 #### Q28. Why would you include a "use strict" statement in a JavaScript file?
 
 - [ ] to tell parsers to interpret your JavaScript syntax loosely
@@ -380,6 +387,7 @@ dessert.type = 'pudding';
 - [ ] to instruct the browser to automatically fix any errors it finds in the code
 - [ ] to enable ES6 features in your code
 
+[Reference what is use strict in js](https://www.w3schools.com/js/js_strict.asp)
 #### Q29. Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?
 
 - [ ] all of them
@@ -387,12 +395,15 @@ dessert.type = 'pudding';
 - [x] var
 - [ ] let
 
+[Reference var vs let vs const in js](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
 #### Q30. Which of the following values is not a Boolean false?
 
 - [ ] Boolean(0)
 - [ ] Boolean("")
 - [ ] Boolean(NaN)
 - [x] Boolean("false")
+
+[Reference boolean of a string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 
 #### Q31. Which of the following is not a keyword in JavaScript?
 
