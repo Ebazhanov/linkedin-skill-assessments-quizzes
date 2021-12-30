@@ -200,6 +200,7 @@ console.log(bob.precip);
 - [ ] 'rain'
 - [x] 'snow'
 
+[Reference prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 #### Q12. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?
 
 - [ ] /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/
@@ -230,6 +231,7 @@ new logThis();
 - [x] {desc: "logger"}
 - [ ] function
 
+[Reference javascript classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 #### Q14. How would you reference the text 'avenue' in the code shown?
 
 ```js
@@ -240,6 +242,8 @@ let roadTypes = ['street', 'road', 'avenue', 'circle'];
 - [ ] roadTypes\[3\]
 - [ ] roadTypes.3
 - [x] roadTypes\[2\]
+
+[Reference accessing javascript arrays](https://www.w3schools.com/js/js_arrays.asp)
 
 #### Q15. What is the result of running this statement?
 
@@ -252,6 +256,7 @@ console.log(typeof 42);
 - [x] 'number'
 - [ ] 'integer'
 
+[Reference javascript data types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 #### Q16. Which property references the DOM object that dispatched an event?
 
 - [ ] self
@@ -259,6 +264,7 @@ console.log(typeof 42);
 - [x] target
 - [ ] source
 
+[Reference DOM events](https://www.w3schools.com/jsref/dom_obj_event.asp)
 #### Q17. You're adding error handling to the code shown. Which code would you include within the if statement to specify an error message?
 
 ```js
@@ -273,6 +279,7 @@ function addNumbers(x, y) {
 - [ ] error('One or both parameters are not numbers')
 - [x] throw('One or both parameters are not numbers')
 
+[Reference javascript throw](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
 #### Q18. Which method converts JSON data to a JavaScript object?
 
 - [ ] JSON.fromString();
@@ -280,6 +287,7 @@ function addNumbers(x, y) {
 - [ ] JSON.toObject()
 - [ ] JSON.stringify()
 
+[Reference convert json to javascript object](https://www.w3schools.com/js/js_json_parse.asp)
 #### Q19. When would you use a conditional statement?
 
 - [ ] When you want to reuse a set of statements multiple times.
@@ -287,6 +295,7 @@ function addNumbers(x, y) {
 - [ ] When you want to group data together.
 - [ ] When you want to loop through a group of statement.
 
+[Reference javascript conditionals](https://www.javascript.com/learn/conditionals)
 #### Q20. What would be the result in the console of running this code?
 
 ```js
@@ -300,6 +309,7 @@ for (var i = 0; i < 5; i++) {
 - [x] 01234
 - [ ] 012345
 
+[Reference javascript for loops](https://www.w3schools.com/js/js_loop_for.asp)
 #### Q21. Which Object method returns an iterable that can be used to iterate over the properties of an object?
 
 - [ ] Object.get()
@@ -307,6 +317,7 @@ for (var i = 0; i < 5; i++) {
 - [ ] Object.each()
 - [x] Object.keys()
 
+[Reference javascript object static methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#static_methods)
 #### Q22. What will be logged to the console?
 
 ```js
