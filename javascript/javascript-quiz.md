@@ -773,12 +773,16 @@ printA();
 - [ ] querySelector()
 - [x] appendChild()
 
+[Reference Node interface](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
+
 #### Q63. Which statement is used to skip iteration of the loop?
 
 - [ ] break
 - [ ] pass
 - [ ] skip
 - [x] continue
+
+[Reference break vs continue](https://www.w3schools.com/js/js_break.asp)
 
 #### Q64. Which choice is valid example for an arrow function?
 
@@ -787,12 +791,15 @@ printA();
 - [ ] a, b => c
 - [ ] { a, b } => c
 
+[Reference arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 #### Q65. Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior?
 
 - [x] class
 - [ ] generator function
 - [ ] map
 - [ ] proxy
+
+[Reference javascript classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
 #### Q66. How do you add a comment to JavaScript code?
 
@@ -801,6 +808,7 @@ printA();
 - [ ] `\\ This is a comment`
 - [x] `// This is a comment`
 
+[Reference comments in javascript](https://www.w3schools.com/js/js_comments.asp)
 #### Q67. If you attempt to call a value as a function but the value is not a function, what kind of error would you get?
 
 - [x] TypeError
@@ -808,12 +816,15 @@ printA();
 - [ ] SyntaxError
 - [ ] LogicError
 
+[Reference javascript errors](https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/error)
 #### Q68. Which method is called automatically when an object is initialized?
 
 - [ ] create()
 - [ ] new()
 - [x] constructor()
 - [ ] init()
+
+[Reference javascript constructors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor)
 
 #### Q69. What is the result of running the statement shown?
 
@@ -826,6 +837,8 @@ console.log(++a);
 - [ ] 10
 - [x] 6
 - [ ] 5
+
+[Reference ++x vs x++](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment)
 
 #### Q70. You've written the event listener shown below for a form button, but each time you click the button, the page reloads. Which statement would stop this from happening?
 
@@ -844,6 +857,7 @@ button.addEventListener(
 - [ ] button.blockReload();
 - [x] e.preventDefault();
 
+[Reference events in javascript](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 #### Q71. Which statement represents the starting code converted to an IIFE?
 
 - [ ] `function() { console.log('lorem ipsum'); }()();`
