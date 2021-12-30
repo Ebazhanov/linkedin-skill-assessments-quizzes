@@ -1151,6 +1151,7 @@ new logThis();
 - [ ] function
 - [x] {desc: "logger"}
 
+[Reference strict in javascript classes](https://www.w3schools.com/js/js_strict.asp)
 #### Q92. Which statement is applicable to the defer attribute of the HTML \<script\> tag?
 
 - [ ] defer causes the script ta be loaded from the backup content delivery network (CDN).
@@ -1173,6 +1174,8 @@ console.log(rainForests);
 - [ ] `["Congo"]`
 - [ ] `["Amazon","Borneo"]`
 
+[Reference array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
 #### Q94. Which missing line would allow you to create five variables(one,two,three,four,five) that correspond to their numerical values (1,2,3,4,5)?
 
 ```js
@@ -1185,6 +1188,7 @@ const numbers = [1, 2, 3, 4, 5];
 - [ ] `const [one,two,three,four,five]=[numbers]`
 - [ ] `const {one,two,three,four,five}={numbers}`
 
+[Reference array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 #### Q95.
 
 ```js
@@ -1207,19 +1211,20 @@ console.log(obj2.a, obj2.b);
 - [ ] undefined 2
 - [ ] undefined 2
 
-#### Q96. What is the output of this code?
-
-```js
-let rainForests = ['Amazon', 'Borneo', 'Cerrado', 'Congo'];
-rainForests.splice(0, 2);
-console.log(rainForests);
+[Reference spread syntax es6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+### Q96. Which line could you add to this code to print "jaguar" to the console?
+```
+let animals = ["jaguar","eagle"];
+//Missing Line
+console.log(animals.pop()); //Prints jaguar
 ```
 
-- [ ] `["Amazon","Borneo","Cerrado","Congo"]`
-- [x] `["Cerrado", "Congo"]`
-- [ ] `["Congo"]`
-- [ ] `["Amazon","Borneo"]`
+- [ ] `animals.filter(e => e === "jaguar");`
+- [ ] `animals.reverse();`
+- [ ] `animals.shift();`
+- [x] `animals.pop();`
 
+[Reference Javascript Array Reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
 #### Q97. What line is missing from this code?
 
 ```js
@@ -1240,6 +1245,7 @@ for (var i = 0; i < vowels.length; i++) {
 - [ ] `let vowels = {"a", "e", "i", "o", "u"};`
 - [x] `let vowels = "aeiou";`
 
+[Reference working with arrays](https://www.w3schools.com/js/js_arrays.asp)
 #### Q98. What will be logged to the console?
 
 ```js
@@ -1253,6 +1259,7 @@ console.log(y);
 - [ ] true
 - [x] Two
 
+[Reference ternary operator js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 #### Q99. How would you access the word It from this multidimensional array?
 
 `let matrix = [["You","Can"],["Do","It"],["!","!","!"]];`
@@ -1274,6 +1281,7 @@ animals.unshift('Lizard');
 - [ ] It replaces "Rabbit" with "Lizard" in the animals array.
 - [ ] It replaces "Cat" with "Lizard" in the animals array.
 
+[Reference working with arrays](https://www.w3schools.com/js/js_arrays.asp)
 #### Q101. What is the output of this code?
 
 ```js
@@ -1432,18 +1440,5 @@ function roar() {
 [Reference Apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
 [Reference this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 [Reference bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
-### Q115. Which line could you add to this code to print "jaguar" to the console?
-```
-let animals = ["jaguar","eagle"];
-//Missing Line
-console.log(animals.pop()); //Prints jaguar
-```
-
-- [ ] `animals.filter(e => e === "jaguar");`
-- [ ] `animals.reverse();`
-- [ ] `animals.shift();`
-- [x] `animals.pop();`
-
-[Reference Javascript Array Reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
 
 
