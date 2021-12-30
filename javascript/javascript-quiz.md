@@ -654,6 +654,8 @@ if (answer === false) {
 - [ ] false
 - [ ] 0
 
+[Reference javascript conditionals](https://www.javascript.com/learn/conditionals)
+
 #### Q52. What is the result in the console of running the code shown?
 
 ```js
@@ -670,6 +672,8 @@ console.log(end);
 - [x] ReferenceError
 - [ ] undefined
 
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+
 #### Q53. What will this code log in the console?
 
 ```js
@@ -685,12 +689,15 @@ console.log(sayHello.prototype);
 - [x] an object with a constructor property
 - [ ] an error message
 
+[Reference prototypes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 #### Q54. Which collection object allows unique value to be inserted only once?
 
 - [ ] Object
 - [x] Set
 - [ ] Array
 - [ ] Map
+
+[Reference javascript sets](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 
 #### Q55. What two values will this code print?
 
@@ -708,6 +715,8 @@ printA();
 - [x] `undefined` then `undefined`
 - [ ] `undefined` then `1`
 
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+
 #### Q56. How does the `forEach()` method differ from a `for` statement?
 
 - [ ] forEach allows you to specify your own iterator, whereas for does not.
@@ -715,6 +724,7 @@ printA();
 - [x] forEach can be used only with an array, whereas for can be used with additional data types.
 - [ ] for loops can be nested; whereas forEach loops cannot.
 
+[Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
 #### Q57. Which choice is an incorrect way to define an arrow function that returns an empty object?
 
 - [ ] => ({})
@@ -722,6 +732,7 @@ printA();
 - [ ] => { return {};}
 - [ ] => (({}))
 
+[Reference arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 #### Q58. Why might you choose to make your code asynchronous?
 
 - [x] to start tasks that might take some time without blocking subsequent tasks from executing immediately
@@ -738,6 +749,7 @@ printA();
 - [ ] `3 != '3'`
 - [ ] `3 === '3'`
 
+[Reference booleans](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
 #### Q60. Which of these is a valid variable name?
 
 - [ ] 5thItem
@@ -745,6 +757,7 @@ printA();
 - [ ] grand total
 - [ ] function
 
+[Reference coding conventions](https://www.w3schools.com/js/js_conventions.asp)
 #### Q61. Which method cancels event default behavior?
 
 - [ ] cancel()
@@ -752,6 +765,7 @@ printA();
 - [x] preventDefault()
 - [ ] prevent()
 
+[Reference javascript events](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
 #### Q62. Which method do you use to attach one DOM node to another?
 
 - [ ] attachNode()
@@ -1249,8 +1263,9 @@ console.log(x);
 - [ ] `a, b => { return c; }`
 - [ ] `a, b => c`
 - [ ] `{ a, b } => c`
-- [ ] `(a,b) => c`
+- [X] `(a,b) => c`
 
+[Reference arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 #### Q105. Which method of a class is called to initialize an object of that class?
 
 - [ ] `create();`
