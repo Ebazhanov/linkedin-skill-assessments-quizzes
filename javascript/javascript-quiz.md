@@ -864,6 +864,7 @@ button.addEventListener(
 - [ ] `function() { console.log('lorem ipsum'); }();`
 - [x] `(function() { console.log('lorem ipsum'); })();`
 
+[Reference what is an Immediately Invoked Function Expression](https://javascript.plainenglish.io/https-medium-com-javascript-in-plain-english-stop-feeling-iffy-about-using-an-iife-7b0292aba174)
 #### Q72. Which statement selects all img elements in the DOM tree?
 
 - [ ] `Document.querySelector('img')`
@@ -871,6 +872,7 @@ button.addEventListener(
 - [x] `Document.querySelectorAll('img')`
 - [ ] `Document.querySelector('<img>')`
 
+[Reference query selctor](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 #### Q73. Why would you choose an asynchronous structure for your code?
 
 - [ ] To use ES6 syntax
@@ -878,6 +880,7 @@ button.addEventListener(
 - [ ] To ensure that parsers enforce all JavaScript syntax rules when processing your code
 - [ ] To ensure that tasks further down in your code aren't initiated until earlier tasks have completed
 
+[Reference async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
 #### Q74. What is the HTTP verb to request the contents of an existing resource?
 
 - [ ] DELETE
@@ -885,12 +888,16 @@ button.addEventListener(
 - [ ] PATCH
 - [ ] POST
 
+[Reference http methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+
 #### Q75. Which event is fired on a text field within a form when a user tabs to it, or clicks or touches it?
 
 - [x] focus
 - [ ] blur
 - [ ] hover
 - [ ] enter
+
+[Reference javascript events](https://developer.mozilla.org/en-US/docs/Web/Events)
 
 #### Q76. What is the result in the console of running this code?
 
@@ -905,6 +912,8 @@ logThis();
 - [ ] undefined
 - [ ] Function.prototype
 - [x] window
+
+[Reference what is the javascript window](https://www.w3schools.com/js/js_window.asp)
 
 #### Q77. Which class-based component is equivalent to this function component?
 
@@ -930,6 +939,7 @@ useEffect(() => {
 - [ ] render
 - [x] componentDidMount
 
+[Reference react lifecycle methods](https://reactjs.org/docs/react-component.html)
 #### Q79. What is the output of this code?
 
 ```javascript
@@ -941,6 +951,8 @@ console.log(obj);
 - [ ] {}
 - [x] undefined
 - [ ] null
+
+[Refrence working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 
 #### Q80. How would you use the TaxCalculator to determine the amount of tax on \$50?
 
@@ -956,6 +968,8 @@ class TaxCalculator {
 - [ ] new TaxCalculator().calculate(\$50);
 - [x] TaxCalculator.calculate(50);
 - [ ] new TaxCalculator().calculate(50);
+
+[Reference functions in javascript](https://www.w3schools.com/js/js_functions.asp)
 
 #### Q81. What is wrong with this code?
 
