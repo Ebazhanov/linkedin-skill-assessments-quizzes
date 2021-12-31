@@ -359,7 +359,7 @@ D. They must have no duplicate data rows.
 - [ ] Refresh it.
 - [ ] Publish it.
 
-#### Q47. You can create a live connection to ____ .
+#### Q47. You can create a live connection to \_ .
 
 - [ ] Dynamics 365
 - [ ] SharePoint
@@ -367,6 +367,7 @@ D. They must have no duplicate data rows.
 - [ ] SQL Server Analysis Services
 
 #### Q48. What is the purpose of this code?
+
 // ProductCount = COUNT(Products[ProductID])
 
 - [x] It is part of the documentation
@@ -389,16 +390,19 @@ D. They must have no duplicate data rows.
 - [ ] tooltips
 
 #### Q51. What does Power BI Desktop do when it cannot create a standard map visualization with the available data?
+
 - [ ] It sends the data to the Power BI service
 - [ ] It returns an error
 - [x] It sends the data to Bing
 - [ ] It substitutes a column chart
 
 #### Q52. Bookmarks capture the state of a page. What does this capture state include?
+
     A. sorting
     B. filtering
     C. current selection
     D. properties of visuals
+
 - [ ] A, B
 - [ ] A, B, C
 - [ ] A, B, C, D
@@ -417,16 +421,19 @@ D. They must have no duplicate data rows.
 - [ ] A, B
 
 #### Q54. What does the usage metric "Most Consumed Dashboards by Users" include? (Select all that apply.)
+
     A. the person who built the dashboard
     B. other people who share the dashboard
     C. users who consume the dashboard in a content pack
     D. individual user downloads of the dashboard
+
 - [ ] A, B, C, D
 - [ ] A, B, C
 - [ ] A, D
 - [ ] B, C, D
 
 #### Q55. How can you allow users to filter an entire report to display information for the last week, last two weeks, or last month?
+
 - [ ] Add a date field to the report filter area and set filtering to Relative date filtering.
 - [ ] all of these answers
 - [ ] Add a date field to the page filter area, set filtering to Relative date filtering and click Extend.

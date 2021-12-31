@@ -288,7 +288,7 @@
 
 - [ ] smart dimensioning
 - [ ] angular running dimensioning
-- [X] ordinate dimensioning
+- [x] ordinate dimensioning
 - [ ] chain dimensioning
 
 #### Q36. In the image below, what types of hole are A1 and B1 respectively?

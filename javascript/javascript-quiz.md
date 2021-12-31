@@ -17,6 +17,7 @@
 - [ ] A forEach statement is generic, but a for statement can be used only with an array.
 
 [Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
+
 #### Q3. Review the code below. Which statement calls the addTax function and passes 50 as an argument? How would you use this function to find out how much tax should be paid on \$50?
 
 ```js
@@ -31,6 +32,7 @@ function addTax(total) {
 - [ ] addTax 50;
 
 [Reference functions in javascript](https://www.w3schools.com/js/js_functions.asp)
+
 #### Q4. Which statement is the correct way to create a variable called rate and assign it the value 100?
 
 - [x] let rate = 100;
@@ -39,6 +41,7 @@ function addTax(total) {
 - [ ] rate = 100;
 
 [Reference Javascript Assignment operators](https://www.w3schools.com/js/js_operators.asp)
+
 #### Q5. Which statement creates a new object using the Person constructor? Which statement creates a new Person object called "student"?
 
 - [x] var student = new Person();
@@ -47,6 +50,7 @@ function addTax(total) {
 - [ ] var student = construct Person();
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+
 #### Q6. When would the final statement in the code shown be logged to the console? When would 'results shown' be logged to the console?
 
 ```js
@@ -63,24 +67,26 @@ console.log('Results shown');
 - [x] immediately
 
 [Reference Javascript is synchronous and single threaded](https://stackoverflow.com/a/2035662/15067394)
+
 ### Q7. Which snippet could you add to this code to print "food" to the console?
+
 ```
 class Animal {
   static belly = [];
-  eat () { 
-    Animal.belly.push("food"); 
+  eat () {
+    Animal.belly.push("food");
     }
 }
 let a = new Animal();
 a.eat();
 console.log(/* Snippet Here */); //Prints food
 ```
- 
+
 - [ ] `a.prototype.belly[0]`
 - [ ] `Object.getPrototype0f (a).belly[0]`
-- [X] `Animal.belly[0]`
+- [x] `Animal.belly[0]`
 - [ ] `a.belly[0]`
-  
+
 [Reference Javascript Class static Keyword](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
 
 #### Q8. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?
@@ -139,6 +145,7 @@ for (var j = 1; j <= 4; j++) {
 
 [Reference setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
 [Reference immediately invoked anonymous functions](https://www.javascripttutorial.net/javascript-anonymous-functions/)
+
 #### Q9. How does a function create a closure?
 
 - [ ] It reloads the document whenever the value changes.
@@ -147,6 +154,7 @@ for (var j = 1; j <= 4; j++) {
 - [ ] It copies a local variable to the global scope.
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+
 #### Q10. Which statement creates a new function called discountPrice?
 
 - [x]
@@ -201,6 +209,7 @@ console.log(bob.precip);
 - [x] 'snow'
 
 [Reference prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+
 #### Q12. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?
 
 - [ ] /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/
@@ -232,6 +241,7 @@ new logThis();
 - [ ] function
 
 [Reference javascript classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+
 #### Q14. How would you reference the text 'avenue' in the code shown?
 
 ```js
@@ -257,6 +267,7 @@ console.log(typeof 42);
 - [ ] 'integer'
 
 [Reference javascript data types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+
 #### Q16. Which property references the DOM object that dispatched an event?
 
 - [ ] self
@@ -265,6 +276,7 @@ console.log(typeof 42);
 - [ ] source
 
 [Reference DOM events](https://www.w3schools.com/jsref/dom_obj_event.asp)
+
 #### Q17. You're adding error handling to the code shown. Which code would you include within the if statement to specify an error message?
 
 ```js
@@ -280,6 +292,7 @@ function addNumbers(x, y) {
 - [x] throw('One or both parameters are not numbers')
 
 [Reference javascript throw](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
+
 #### Q18. Which method converts JSON data to a JavaScript object?
 
 - [ ] JSON.fromString();
@@ -288,6 +301,7 @@ function addNumbers(x, y) {
 - [ ] JSON.stringify()
 
 [Reference convert json to javascript object](https://www.w3schools.com/js/js_json_parse.asp)
+
 #### Q19. When would you use a conditional statement?
 
 - [ ] When you want to reuse a set of statements multiple times.
@@ -296,6 +310,7 @@ function addNumbers(x, y) {
 - [ ] When you want to loop through a group of statement.
 
 [Reference javascript conditionals](https://www.javascript.com/learn/conditionals)
+
 #### Q20. What would be the result in the console of running this code?
 
 ```js
@@ -310,6 +325,7 @@ for (var i = 0; i < 5; i++) {
 - [ ] 012345
 
 [Reference javascript for loops](https://www.w3schools.com/js/js_loop_for.asp)
+
 #### Q21. Which Object method returns an iterable that can be used to iterate over the properties of an object?
 
 - [ ] Object.get()
@@ -318,6 +334,7 @@ for (var i = 0; i < 5; i++) {
 - [x] Object.keys()
 
 [Reference javascript object static methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#static_methods)
+
 #### Q22. What will be logged to the console?
 
 ```js
@@ -354,6 +371,7 @@ dessert.type = 'pudding';
 - [ ] undefined
 
 [Reference working with js objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+
 #### Q25. 0 && hi
 
 - [ ] ReferenceError
@@ -380,6 +398,7 @@ dessert.type = 'pudding';
 - [ ] Student.prototype = Person();
 
 [Reference protoype object js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+
 #### Q28. Why would you include a "use strict" statement in a JavaScript file?
 
 - [ ] to tell parsers to interpret your JavaScript syntax loosely
@@ -388,6 +407,7 @@ dessert.type = 'pudding';
 - [ ] to enable ES6 features in your code
 
 [Reference what is use strict in js](https://www.w3schools.com/js/js_strict.asp)
+
 #### Q29. Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?
 
 - [ ] all of them
@@ -396,6 +416,7 @@ dessert.type = 'pudding';
 - [ ] let
 
 [Reference var vs let vs const in js](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/)
+
 #### Q30. Which of the following values is not a Boolean false?
 
 - [ ] Boolean(0)
@@ -413,6 +434,7 @@ dessert.type = 'pudding';
 - [x] array
 
 [Reference js reserved words](https://www.w3schools.com/js/js_reserved.asp)
+
 #### Q32. Which variable is an implicit parameter for every function in JavaScript?
 
 - [x] Arguments
@@ -421,6 +443,7 @@ dessert.type = 'pudding';
 - [ ] argumentsList
 
 [Reference implicit js parameters for functions](https://www.codeproject.com/Tips/1221966/JavaScript-Functions-Implicit-Parameters)
+
 #### Q33. For the following class, how do you get the value of 42 from an instance of X?
 
 ```js
@@ -459,6 +482,7 @@ let diff = function (x, y) {
 - [ ] ReferenceError, -10
 
 [Reference accessing before initialization](https://stackoverflow.com/questions/56318460/cannot-access-variable-name-before-initialization)
+
 #### Q35. Why is it usually better to work with Objects instead of Arrays to store a collection of records?
 
 - [ ] Objects are more efficient in terms of storage.
@@ -468,6 +492,7 @@ let diff = function (x, y) {
 
 **Explanation:** Records in an object can be retrieved using their key which can be any given value (e.g. an employee ID, a city name, etc), whereas to retrieve a record from an array we need to know its index.
 [Reference efficiency of lookups](https://stackoverflow.com/questions/17295056/array-vs-object-efficiency-in-javascript)
+
 #### Q36. Which statement is true about the "async" attribute for the HTML script tag?
 
 - [ ] It can be used for both internal and external JavaScript code.
@@ -476,6 +501,7 @@ let diff = function (x, y) {
 - [x] It can be used only for external JavaScript code.
 
 [Reference async attribute for html](https://www.w3schools.com/tags/att_script_async.asp)
+
 #### Q37. How do you import the lodash library making it top-level Api available as the "\_" variable?
 
 - [x] `import _ from 'lodash';`
@@ -484,6 +510,7 @@ let diff = function (x, y) {
 - [ ] `import lodash as _ from 'lodash';`
 
 [Reference how to import library in js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
+
 #### Q38. What does the following expression evaluate to?
 
 ```js
@@ -528,6 +555,7 @@ f2();
 - [ ] undefined
 
 [Reference closures in js \/ nested functions](https://javascript.info/closure)
+
 #### Q41. Which statement is true about Functional Programming?
 
 - [ ] Every object in the program has to be a function.
@@ -556,6 +584,7 @@ f2();
 - [ ] 1
 
 [Reference array prototype](https://www.w3schools.com/jsref/jsref_prototype_array.asp)
+
 #### Q44. Which choice is _not_ a unary operator?
 
 - [ ] typeof
@@ -594,6 +623,7 @@ const y = x ? 'One' : 'Two';
 - [x] Two
 
 [Reference ternary operator js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+
 #### Q47. Which keyword is used to create an error?
 
 - [x] throw
@@ -611,6 +641,7 @@ const y = x ? 'One' : 'Two';
 - [x] The defer attribute will asynchronously load the scripts in order.
 
 [Reference async vs defer](https://www.digitalocean.com/community/tutorials/html-defer-async#:~:text=%3E-,Async%20vs%20Defer,order%20as%20they%20are%20called.)
+
 #### Q49. The following program has a problem. What is it?
 
 ```js
@@ -690,6 +721,7 @@ console.log(sayHello.prototype);
 - [ ] an error message
 
 [Reference prototypes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+
 #### Q54. Which collection object allows unique value to be inserted only once?
 
 - [ ] Object
@@ -725,6 +757,7 @@ printA();
 - [ ] for loops can be nested; whereas forEach loops cannot.
 
 [Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
+
 #### Q57. Which choice is an incorrect way to define an arrow function that returns an empty object?
 
 - [ ] => ({})
@@ -733,6 +766,7 @@ printA();
 - [ ] => (({}))
 
 [Reference arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
 #### Q58. Why might you choose to make your code asynchronous?
 
 - [x] to start tasks that might take some time without blocking subsequent tasks from executing immediately
@@ -750,6 +784,7 @@ printA();
 - [ ] `3 === '3'`
 
 [Reference booleans](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+
 #### Q60. Which of these is a valid variable name?
 
 - [ ] 5thItem
@@ -758,6 +793,7 @@ printA();
 - [ ] function
 
 [Reference coding conventions](https://www.w3schools.com/js/js_conventions.asp)
+
 #### Q61. Which method cancels event default behavior?
 
 - [ ] cancel()
@@ -766,6 +802,7 @@ printA();
 - [ ] prevent()
 
 [Reference javascript events](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
+
 #### Q62. Which method do you use to attach one DOM node to another?
 
 - [ ] attachNode()
@@ -792,6 +829,7 @@ printA();
 - [ ] { a, b } => c
 
 [Reference arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
 #### Q65. Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior?
 
 - [x] class
@@ -809,6 +847,7 @@ printA();
 - [x] `// This is a comment`
 
 [Reference comments in javascript](https://www.w3schools.com/js/js_comments.asp)
+
 #### Q67. If you attempt to call a value as a function but the value is not a function, what kind of error would you get?
 
 - [x] TypeError
@@ -817,6 +856,7 @@ printA();
 - [ ] LogicError
 
 [Reference javascript errors](https://developer.mozilla.org/en-US/docs/web/javascript/reference/global_objects/error)
+
 #### Q68. Which method is called automatically when an object is initialized?
 
 - [ ] create()
@@ -858,6 +898,7 @@ button.addEventListener(
 - [x] e.preventDefault();
 
 [Reference events in javascript](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
+
 #### Q71. Which statement represents the starting code converted to an IIFE?
 
 - [ ] `function() { console.log('lorem ipsum'); }()();`
@@ -865,6 +906,7 @@ button.addEventListener(
 - [x] `(function() { console.log('lorem ipsum'); })();`
 
 [Reference what is an Immediately Invoked Function Expression](https://javascript.plainenglish.io/https-medium-com-javascript-in-plain-english-stop-feeling-iffy-about-using-an-iife-7b0292aba174)
+
 #### Q72. Which statement selects all img elements in the DOM tree?
 
 - [ ] `Document.querySelector('img')`
@@ -873,6 +915,7 @@ button.addEventListener(
 - [ ] `Document.querySelector('<img>')`
 
 [Reference query selctor](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+
 #### Q73. Why would you choose an asynchronous structure for your code?
 
 - [ ] To use ES6 syntax
@@ -881,6 +924,7 @@ button.addEventListener(
 - [ ] To ensure that tasks further down in your code aren't initiated until earlier tasks have completed
 
 [Reference async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+
 #### Q74. What is the HTTP verb to request the contents of an existing resource?
 
 - [ ] DELETE
@@ -940,6 +984,7 @@ useEffect(() => {
 - [x] componentDidMount
 
 [Reference react lifecycle methods](https://reactjs.org/docs/react-component.html)
+
 #### Q79. What is the output of this code?
 
 ```javascript
@@ -990,6 +1035,7 @@ const foo = {
 
 [Reference functions in javascript](https://www.w3schools.com/js/js_functions.asp)
 [Refrence working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+
 #### Q82. What will be logged to the console?
 
 ```js
@@ -1027,6 +1073,7 @@ Javascript!
 ```
 
 [Reference call stack in js](https://www.javascripttutorial.net/javascript-call-stack/)
+
 #### Q83. What will this code log to the console?
 
 ```js
@@ -1041,6 +1088,7 @@ console.log(n);
 - [ ] Nothing--this is not proper JavaScript syntax and will throw an error.
 
 [Reference array deconstruction](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+
 #### Q84. How do you remove the property name from this object?
 
 ```js
@@ -1085,6 +1133,7 @@ console.log(addFive(3));
 - [ ] overriding
 
 [Refrence currying](https://javascript.info/currying-partials)
+
 #### Q87. Which tag pair is used in HTML to embed JavaScript?
 
 - [x] `<script></script>`
@@ -1152,6 +1201,7 @@ new logThis();
 - [x] {desc: "logger"}
 
 [Reference strict in javascript classes](https://www.w3schools.com/js/js_strict.asp)
+
 #### Q92. Which statement is applicable to the defer attribute of the HTML \<script\> tag?
 
 - [ ] defer causes the script ta be loaded from the backup content delivery network (CDN).
@@ -1189,6 +1239,7 @@ const numbers = [1, 2, 3, 4, 5];
 - [ ] `const {one,two,three,four,five}={numbers}`
 
 [Reference array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+
 #### Q95.
 
 ```js
@@ -1212,7 +1263,9 @@ console.log(obj2.a, obj2.b);
 - [ ] undefined 2
 
 [Reference spread syntax es6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+
 ### Q96. Which line could you add to this code to print "jaguar" to the console?
+
 ```
 let animals = ["jaguar","eagle"];
 //Missing Line
@@ -1225,6 +1278,7 @@ console.log(animals.pop()); //Prints jaguar
 - [x] `animals.pop();`
 
 [Reference Javascript Array Reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
+
 #### Q97. What line is missing from this code?
 
 ```js
@@ -1246,6 +1300,7 @@ for (var i = 0; i < vowels.length; i++) {
 - [x] `let vowels = "aeiou";`
 
 [Reference working with arrays](https://www.w3schools.com/js/js_arrays.asp)
+
 #### Q98. What will be logged to the console?
 
 ```js
@@ -1260,6 +1315,7 @@ console.log(y);
 - [x] Two
 
 [Reference ternary operator js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
+
 #### Q99. How would you access the word It from this multidimensional array?
 
 `let matrix = [["You","Can"],["Do","It"],["!","!","!"]];`
@@ -1282,6 +1338,7 @@ animals.unshift('Lizard');
 - [ ] It replaces "Cat" with "Lizard" in the animals array.
 
 [Reference working with arrays](https://www.w3schools.com/js/js_arrays.asp)
+
 #### Q101. What is the output of this code?
 
 ```js
@@ -1295,6 +1352,7 @@ console.log(x);
 - [ ] 633
 
 [Reference type coercion](https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/)
+
 #### Q102. Which statement can take a single expression as input and then look through a number of choices until one that matches that value is found?
 
 - [ ] else
@@ -1303,30 +1361,34 @@ console.log(x);
 - [x] switch
 
 [Reference switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+
 ### Q103. Which statement prints "roar" to the console?
+
 ```
 var sound = "grunt";
-var bear = { 
+var bear = {
   sound: "roar"
-  }; 
+  };
 function roar() {
   console.log(this.sound);
 }
 ```
+
 - [ ] `bear.bind(roar);`
 - [ ] `roar.bind(bear);`
-- [X] `roar.apply(bear);`
+- [x] `roar.apply(bear);`
 - [ ] `bear[roar]();`
 
 [Reference Apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
 [Reference this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 [Reference bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
+
 #### Q104. Which choice is a valid example of an arrow function, assuming c is defined in the outer scope?
 
 - [ ] `a, b => { return c; }`
 - [ ] `a, b => c`
 - [ ] `{ a, b } => c`
-- [X] `(a,b) => c`
+- [x] `(a,b) => c`
 
 [Reference arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
@@ -1348,6 +1410,7 @@ var flagDatabase = JSON.parse(flagsJSON);
 - [ ] flagDatabase[1].flag
 
 [Refrence working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+
 #### Q106. Which statement correctly imports this code from some-file.js?
 
 ```js
@@ -1361,6 +1424,7 @@ export const printMe = (str) => console.log(str);
 - [ ] `const printMe = import './some-file';`
 
 [Reference importing libraries in javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
+
 #### Q107. What will be the output of this code?
 
 ```js
@@ -1381,11 +1445,12 @@ console.log([...arr1, ...arr2]);
 #### Q108. Which method call is chained to handle a successful response returned by `fetch()`?
 
 - [ ] `done()`
-- [X] `then()`
+- [x] `then()`
 - [ ] `finally()`
 - [ ] `catch()`
 
 [Reference fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+
 #### Q109. Which choice is not an array method?
 
 - [ ] `array.slice()`
@@ -1394,6 +1459,7 @@ console.log([...arr1, ...arr2]);
 - [x] `array.replace()`
 
 [Reference working with arrays](https://www.w3schools.com/js/js_arrays.asp)
+
 #### Q110. Which JavaScript loop ensures that at least a singular iteration will happen?
 
 - [x] do…while
@@ -1402,6 +1468,7 @@ console.log([...arr1, ...arr2]);
 - [ ] for
 
 [Reference loops in js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while)
+
 #### Q111. What will be logged to the console?
 
 ```javascript
@@ -1414,6 +1481,7 @@ console.log(typeof 'blueberry');
 - [ ] object
 
 [Reference what is typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
+
 #### Q112. What is the output that is printed when the div containing the text "Click Here" is clicked?
 
 ```html
