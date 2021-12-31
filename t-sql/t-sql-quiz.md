@@ -394,7 +394,7 @@ FROM Students
 
 #### Q38. To combine the results of two or more SELECT statements, removing duplicates, which keyword can you use?
 
-- [] DEDUPE
-- [] SELECT
-- [x] MERGE
-- [] UNION
+- [ ] DEDUPE
+- [ ] SELECT
+- [ ] MERGE
+- [x] UNION
