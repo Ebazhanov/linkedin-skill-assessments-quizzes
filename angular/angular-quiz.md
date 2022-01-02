@@ -1096,5 +1096,5 @@ export class UsersComponent implements OnInit {
 
 - [ ] It is doing nothing, since the async pipe cannot be used in an `ngFor` statement.
 - [ ] It is configuring the `ngFor` iteration to support multiple lists of users at the same time.
-- [ ] It is subscribing to the observable returned from the `HttpClient.get` method and unwrapping the returned value so it can be iterated over in the `ngFor`.
+- [x] It is subscribing to the observable returned from the `HttpClient.get` method and unwrapping the returned value so it can be iterated over in the `ngFor`.
 - [ ] It is allowing all of the users in the `users` field to be rendered concurrently to the DOM.
