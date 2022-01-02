@@ -541,3 +541,21 @@ console.log(currencies);
 - [ ] when the user can see the webpage on the screen
 
 [Source: MDN Docs](https://web.dev/interactive/)
+
+#### Q57. What is yarn?
+
+- [ ] a JavaScript framework that is leaner than React
+- [ ] a JavaScript bundler
+- [ ] a testing framework
+- [x] a JavaScript package manager
+
+[Source: Yarn Docs](https://yarnpkg.com/)
+
+#### Q58. What is the name of the event that occurs when the mouse pointer hovers over an element?
+
+- [ ] load
+- [x] mouseover
+- [ ] hover
+- [ ] focus
+
+[Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseover_event)
