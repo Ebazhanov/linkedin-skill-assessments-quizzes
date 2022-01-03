@@ -1182,7 +1182,7 @@ seconds.type = 'fruit';
 - [ ] Different-Origin
 - [ ] Same-Origin
 
-**Explanation:** https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+[Reference Cross-Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
 #### Q91. What will be logged to the console??
 
