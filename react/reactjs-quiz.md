@@ -1064,7 +1064,8 @@ class StarTrekkin extends React.Component {
 - [x] use `prop-types`.
 - [ ] user `checker-types`.
 
-#### Q94. How do you add an id of heading to the following h1 element? 
+#### Q94. How do you add an id of heading to the following h1 element?
+
 `let dish = <h1>Mac and Cheese</h1>; `
 
 - [ ] `let dish = <h1 id={heading}>Mac and Cheese</h1>;`
