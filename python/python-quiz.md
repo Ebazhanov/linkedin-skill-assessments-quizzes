@@ -1491,8 +1491,8 @@ print (f"The number is {number}")
 ```
 
 - [ ] reversed(list(range(1,11)))
-- [x] list(reversed(range(1,10)))
+- [ ] list(reversed(range(1,10)))
 - [ ] list(range(10, 1, -1))
-- [ ] list(reversed(range(1,11)))
+- [x] list(reversed(range(1,11)))
 
 [Reference](https://www.programiz.com/python-programming/methods/built-in/reversed)
