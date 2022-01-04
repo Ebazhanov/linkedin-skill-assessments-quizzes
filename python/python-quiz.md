@@ -1496,3 +1496,10 @@ print (f"The number is {number}")
 - [ ] list(reversed(range(1,11)))
 
 [Reference](https://www.programiz.com/python-programming/methods/built-in/reversed)
+
+#### Q112. Suppose you have a variable named `vector` of type `np.array` with 10.000 elements. How can you turn `vector` into a variable named `matrix` with dimensions 100x100?: *[ANSWER NEEDED]*
+
+- [ ] matrix = matrix(vector,100,100)
+- [ ] matrix = vector.to_matrix(100,100)
+- [ ] matrix = (vector.shape = (100,100))
+- [?] matrix = vector.reshape(100,100)
