@@ -1393,9 +1393,9 @@ num_list.remove(2)
 [10,9,8,7,6,5,4,3,2,1]
 
 - [ ] reversed(list(range(1,11)))
-- [x] list(reversed(range(1,10)))
+- [ ] list(reversed(range(1,10)))
 - [ ] list(range(10,1,-1))
-- [ ] list(reversed(range(1,11)))
+- [x] list(reversed(range(1,11)))
 
 #### Q104. Which syntax correctly creates a variable that is bound to a tuple?
 
