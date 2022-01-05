@@ -6753,6 +6753,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "florianbuehler",
+      "name": "Florian Bühler",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77963076?v=4",
+      "profile": "https://github.com/florianbuehler",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
