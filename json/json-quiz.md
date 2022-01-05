@@ -889,3 +889,16 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] Convert the number into an exponent.
 - [ ] Round the number to the nearest 10-digit number.
 - [ ] Split the number into smaller parts.
+
+### Q86. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the data type?
+
+```json
+variance: -0.0823
+```
+
+- [ ] variance: "-0.0823"
+- [ ] variance: -0.0823
+- [x] "variance": "-0.0823"
+- [ ] "variance": "\-0.0823"
+
+[Reference data types in json](https://www.w3schools.com/js/js_json_datatypes.asp)
