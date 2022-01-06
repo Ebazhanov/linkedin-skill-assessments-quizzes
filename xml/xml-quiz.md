@@ -555,7 +555,7 @@ car#year {
 
 ### Q42. Which element in this XML code is not a good candidate for conversion into an attribute?
 
-``` xml
+```xml
 1 <superheroes>
 2 <name>Superman</name>
 3 <alias>Clark Kent</alias>
