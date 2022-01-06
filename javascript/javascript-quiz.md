@@ -631,7 +631,7 @@ const y = x ? 'One' : 'Two';
 - [ ] catch
 - [ ] error
 
-[Reference throwing errors in js[(https://www.w3schools.com/jsref/jsref_throw.asp#:~:text=The%20throw%20statement%20throws%20(generates,to%20create%20a%20custom%20error.)]]
+[Reference throwing errors in js](<https://www.w3schools.com/jsref/jsref_throw.asp#:~:text=The%20throw%20statement%20throws%20(generates,to%20create%20a%20custom%20error.)>)
 
 #### Q48. What's one difference between the async and defer attributes of the HTML script tag?
 
@@ -1182,7 +1182,7 @@ seconds.type = 'fruit';
 - [ ] Different-Origin
 - [ ] Same-Origin
 
-**Explanation:** https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+[Reference Cross-Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
 #### Q91. What will be logged to the console??
 

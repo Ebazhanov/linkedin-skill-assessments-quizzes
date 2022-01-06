@@ -6753,6 +6753,56 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "florianbuehler",
+      "name": "Florian Bühler",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77963076?v=4",
+      "profile": "https://github.com/florianbuehler",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Rb-wahid",
+      "name": "Raihan Bin Wahid",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41251289?v=4",
+      "profile": "http://linkedin.com/in/rb-wahid",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "MOHAMMED-NASSER22",
+      "name": "MOHAMMED NASSER",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53376993?v=4",
+      "profile": "https://www.linkedin.com/in/mohammed-nasser-913023204/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "fcagnola",
+      "name": "federico",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56833063?v=4",
+      "profile": "https://github.com/fcagnola",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "aviolante",
+      "name": "Andre Violante",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13370368?v=4",
+      "profile": "https://github.com/aviolante",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

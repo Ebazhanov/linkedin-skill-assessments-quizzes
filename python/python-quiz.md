@@ -1393,9 +1393,9 @@ num_list.remove(2)
 [10,9,8,7,6,5,4,3,2,1]
 
 - [ ] reversed(list(range(1,11)))
-- [x] list(reversed(range(1,10)))
+- [ ] list(reversed(range(1,10)))
 - [ ] list(range(10,1,-1))
-- [ ] list(reversed(range(1,11)))
+- [x] list(reversed(range(1,11)))
 
 #### Q104. Which syntax correctly creates a variable that is bound to a tuple?
 
@@ -1419,7 +1419,7 @@ print(math.pow(2,10)) # prints 2 elevated to the 10th power
       print(y)
 - [ ] y = 1
       for i in range(1,10):
-          y = y * 2
+      y = y \* 2
 
       print(y)
 
@@ -1491,8 +1491,15 @@ print (f"The number is {number}")
 ```
 
 - [ ] reversed(list(range(1,11)))
-- [x] list(reversed(range(1,10)))
+- [ ] list(reversed(range(1,10)))
 - [ ] list(range(10, 1, -1))
-- [ ] list(reversed(range(1,11)))
+- [x] list(reversed(range(1,11)))
 
 [Reference](https://www.programiz.com/python-programming/methods/built-in/reversed)
+
+#### Q112. Suppose you have a variable named `vector` of type `np.array` with 10.000 elements. How can you turn `vector` into a variable named `matrix` with dimensions 100x100?: _[ANSWER NEEDED]_
+
+- [ ] matrix = matrix(vector,100,100)
+- [ ] matrix = vector.to_matrix(100,100)
+- [ ] matrix = (vector.shape = (100,100))
+- [ ] matrix = vector.reshape(100,100)

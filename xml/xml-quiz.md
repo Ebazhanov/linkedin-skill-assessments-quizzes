@@ -552,3 +552,23 @@ car#year {
 - [ ] <make> is required, <model> is required, <year> is optional, and <price> is optional.
 - [ ] <make> is required, <model> is required, <year> is required, and <price> is optional.
 - [x] <make> is required, <model> is optional, <year> is required, and <price> is optional.
+
+### Q42. Which element in this XML code is not a good candidate for conversion into an attribute?
+
+```xml
+1 <superheroes>
+2 <name>Superman</name>
+3 <alias>Clark Kent</alias>
+4 <birthplace>Krypton</birthplace>
+5 <power>Flight</power>
+6 <power>X-Ray Vision</power>
+7 <power>Super Strength</power>
+8 </superheroes>
+```
+
+- [ ] `<birthplace>`
+- [ ] `<alias>`
+- [ ] `<name>`
+- [x] `<роwer>`
+
+[Reference best practices for xml attributes](https://www.geeksforgeeks.org/xml-attributes/)
