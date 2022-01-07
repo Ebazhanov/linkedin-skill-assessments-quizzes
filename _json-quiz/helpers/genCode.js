@@ -1,6 +1,8 @@
 const genCode = (question, i) => {
     let code;
     const splittedCode = question.split("```");
+
+    if (question.includes("(images")) return "image not support yet";
     if (splittedCode === 1) return null;
     if (splittedCode.length === 3) {
       return question.split("```")[1].split("\r\n").join("").includes("[x]")

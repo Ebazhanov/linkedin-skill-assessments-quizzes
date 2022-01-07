@@ -5,7 +5,7 @@ const genAns = require("./helpers/genAns");
 const genCode = require("./helpers/genCode");
 
 let totalQuestionsInsert=0;
-let totalQuestionsNotInsert=0;
+let totalQuestionsNotInserted=0;
 
 const filesToConvert = fs.readdirSync("../").filter((fileOrDir) => {
     const stats = fs.statSync(`../${fileOrDir}`)
@@ -22,7 +22,10 @@ filesToConvert.map((fileName) => {
     const query = genQuery(question);
     const code = genCode(question);
     const { options, correctAns } = genAns(question);
-    if (!options || !correctAns) return;
+    if (!options || !correctAns || code === "image not support yet") {
+        totalQuestionsNotInserted+=1
+        return
+    };
     return {
       query,
       code,
@@ -36,4 +39,4 @@ filesToConvert.map((fileName) => {
   fs.writeFileSync(`./questions/${fileName}.json`, JSON.stringify(questions));
 });
 
-console.log(`${totalQuestionsInsert} questions inserted`)
+console.log(`${totalQuestionsInsert} questions inserted \r\n ${totalQuestionsNotInserted} questions not inserted`)
