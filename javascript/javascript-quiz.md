@@ -1507,3 +1507,20 @@ document.querySelectorAll('div').forEach((e) => {
 
 [Reference query selector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 [Reference events](https://developer.mozilla.org/en-US/docs/Web/Events)
+
+#### Q113. What will this code log to the console?
+
+```js
+const myNumbers = [1, 2, 3, 4, 5, 6, 7];
+const myFunction = arr => {
+    return arr.map(x => x + 3).filter(x => x < 7);
+}
+console.log(myFunction(myNumbers));
+```
+
+- [ ] [4,5,6,7,8,9,10]
+- [ ] [4,5,6,7]
+- [ ] [1,2,3,4,5,6]
+- [x] [4,5,6]
+
+[Reference functions in javascript](https://www.w3schools.com/js/js_functions.asp)
