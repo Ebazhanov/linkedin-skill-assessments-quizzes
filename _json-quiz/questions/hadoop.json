@@ -1,1 +1,531 @@
-[{"query":" Q1. Partitioner controls the partitioning of what data?","options":[" final keys\r\n"," final values\r\n"," intermediate keys\r\n"," intermediate values\r\n\r\n"],"correctAns":3},{"query":" Q2. SQL Windowing functions are implemented in Hive using which keywords?","options":[" UNION DISTINCT, RANK\r\n"," OVER, RANK\r\n"," OVER, EXCEPT\r\n"," UNION DISTINCT, RANK\r\n\r\n"],"correctAns":2},{"query":" Q3. Rather than adding a Secondary Sort to a slow Reduce job, it is Hadoop best practice to perform which optimization?","options":[" Add a partitioned shuffle to the Map job.\r\n"," Add a partitioned shuffle to the Reduce job.\r\n"," Break the Reduce job into multiple, chained Reduce jobs.\r\n"," Break the Reduce job into multiple, chained Map jobs.\r\n\r\n"],"correctAns":2},{"query":" Q4. Hadoop Auth enforces authentication on protected resources. Once authentication has been established, it sets what type of authenticating cookie?","options":[" encrypted HTTP\r\n"," unsigned HTTP\r\n"," compressed HTTP\r\n"," signed HTTP\r\n\r\n"],"correctAns":4},{"query":" Q5. MapReduce jobs can be written in which language?","options":[" Java or Python\r\n"," SQL only\r\n"," SQL or Java\r\n"," Python or SQL\r\n\r\n"],"correctAns":1},{"query":" Q6. To perform local aggregation of the intermediate outputs, MapReduce users can optionally specify which object?","options":[" Reducer\r\n"," Combiner\r\n"," Mapper\r\n"," Counter\r\n\r\n"],"correctAns":2},{"query":" Q7. To verify job status, look for the value `___` in the `___`.","options":[" SUCCEEDED; syslog\r\n"," SUCCEEDED; stdout\r\n"," DONE; syslog\r\n"," DONE; stdout\r\n\r\n"],"correctAns":2},{"query":" Q8. Which line of code implements a Reducer method in MapReduce 2.0?","options":[" public void reduce(Text key, Iterator<IntWritable> values, Context context){…}\r\n"," public static void reduce(Text key, IntWritable[] values, Context context){…}\r\n"," public static void reduce(Text key, Iterator<IntWritable> values, Context context){…}\r\n"," public void reduce(Text key, IntWritable[] values, Context context){…}\r\n\r\n"],"correctAns":1},{"query":" Q9. To get the total number of mapped input records in a map job task, you should review the value of which counter?","options":[" FileInputFormatCounter\r\n"," FileSystemCounter\r\n"," JobCounter\r\n"," TaskCounter (NOT SURE)\r\n\r\n"],"correctAns":4},{"query":" Q10. Hadoop Core supports which CAP capabilities?","options":[" A, P\r\n"," C, A\r\n"," C, P\r\n"," C, A, P\r\n\r\n"],"correctAns":1},{"query":" Q11. What are the primary phases of a Reducer?","options":[" combine, map, and reduce\r\n"," shuffle, sort, and reduce\r\n"," reduce, sort, and combine\r\n"," map, sort, and combine\r\n\r\n"],"correctAns":2},{"query":" Q12. To set up Hadoop workflow with synchronization of data between jobs that process tasks both on disk and in memory, use the `___` service, which is `___`.","options":[" Oozie; open source\r\n"," Oozie; commercial software\r\n"," Zookeeper; commercial software\r\n"," Zookeeper; open source\r\n\r\n"],"correctAns":4},{"query":" Q13. For high availability, use multiple nodes of which type?","options":[" data\r\n"," name\r\n"," memory\r\n"," worker\r\n\r\n"],"correctAns":2},{"query":" Q14. DataNode supports which type of drives?","options":[" hot swappable\r\n"," cold swappable\r\n"," warm swappable\r\n"," non-swappable\r\n\r\n"],"correctAns":1},{"query":" Q15. Which method is used to implement Spark jobs?","options":[" on disk of all workers\r\n"," on disk of the master node\r\n"," in memory of the master node\r\n"," in memory of all workers\r\n\r\n"],"correctAns":4},{"query":" Q16. In a MapReduce job, where does the map() function run?","options":[" on the reducer nodes of the cluster\r\n"," on the data nodes of the cluster (NOT SURE)\r\n"," on the master node of the cluster\r\n"," on every node of the cluster\r\n\r\n"],"correctAns":2},{"query":" Q17. To reference a master file for lookups during Mapping, what type of cache should be used?","options":[" distributed cache\r\n"," local cache\r\n"," partitioned cache\r\n"," cluster cache\r\n\r\n"],"correctAns":1},{"query":" Q18. Skip bad records provides an option where a certain set of bad input records can be skipped when processing what type of data?","options":[" cache inputs\r\n"," reducer inputs\r\n"," intermediate values\r\n"," map inputs\r\n\r\n"],"correctAns":4},{"query":" Q19. Which command imports data to Hadoop from a MySQL database?","options":[" spark import --connect jdbc:mysql://mysql.example.com/spark --username spark --warehouse-dir user/hue/oozie/deployments/spark\r\n"," sqoop import --connect jdbc:mysql://mysql.example.com/sqoop --username sqoop --warehouse-dir user/hue/oozie/deployments/sqoop\r\n"," sqoop import --connect jdbc:mysql://mysql.example.com/sqoop --username sqoop --password sqoop --warehouse-dir user/hue/oozie/deployments/sqoop\r\n"," spark import --connect jdbc:mysql://mysql.example.com/spark --username spark --password spark --warehouse-dir user/hue/oozie/deployments/spark\r\n\r\n"],"correctAns":3},{"query":" Q20. In what form is Reducer output presented?","options":[" compressed (NOT SURE)\r\n"," sorted\r\n"," not sorted\r\n"," encrypted\r\n\r\n"],"correctAns":1},{"query":" Q21. Which library should be used to unit test MapReduce code?","options":[" JUnit\r\n"," XUnit\r\n"," MRUnit\r\n"," HadoopUnit\r\n\r\n"],"correctAns":3},{"query":" Q22. If you started the NameNode, then which kind of user must you be?","options":[" hadoop-user\r\n"," super-user\r\n"," node-user\r\n"," admin-user\r\n\r\n"],"correctAns":2},{"query":" Q23. State \\_ between the JVMs in a MapReduce job","options":[" can be configured to be shared\r\n"," is partially shared\r\n"," is shared\r\n"," is not shared (https://www.lynda.com/Hadoop-tutorials/Understanding-Java-virtual-machines-JVMs/191942/369545-4.html)\r\n\r\n"],"correctAns":4},{"query":" Q24. To create a MapReduce job, what should be coded first?","options":[" a static job() method\r\n"," a Job class and instance (NOT SURE)\r\n"," a job() method\r\n"," a static Job class\r\n\r\n"],"correctAns":2},{"query":" Q25. To connect Hadoop to AWS S3, which client should you use?","options":[" S3A\r\n"," S3N\r\n"," S3\r\n"," the EMR S3\r\n\r\n"],"correctAns":1},{"query":" Q26. HBase works with which type of schema enforcement?","options":[" schema on write\r\n"," no schema\r\n"," external schema\r\n"," schema on read\r\n\r\n"],"correctAns":4},{"query":" Q27. HDFS file are of what type?","options":[" read-write\r\n"," read-only\r\n"," write-only\r\n"," append-only\r\n\r\n"],"correctAns":4},{"query":" Q28. A distributed cache file path can originate from what location?","options":[" hdfs or top\r\n"," http\r\n"," hdfs or http\r\n"," hdfs\r\n\r\n"],"correctAns":3},{"query":" Q29. Which library should you use to perform ETL-type MapReduce jobs?","options":[" Hive\r\n"," Pig\r\n"," Impala\r\n"," Mahout\r\n\r\n"],"correctAns":2},{"query":" Q30. What is the output of the Reducer?","options":[" a relational table\r\n"," an update to the input file\r\n"," a single, combined list\r\n"," a set of <key, value> pairs\r\n\r\n`map function processes a certain key-value pair and emits a certain number of key-value pairs and the Reduce function processes values grouped by the same key and emits another set of key-value pairs as output.`\r\n\r\n"],"correctAns":4},null,{"query":" Q32. When implemented on a public cloud, with what does Hadoop processing interact?","options":[" files in object storage\r\n"," graph data in graph databases\r\n"," relational data in managed RDBMS systems\r\n"," JSON data in NoSQL databases\r\n\r\n"],"correctAns":1},{"query":" Q33. In the Hadoop system, what administrative mode is used for maintenance?","options":[" data mode\r\n"," safe mode\r\n"," single-user mode\r\n"," pseudo-distributed mode\r\n\r\n"],"correctAns":2},{"query":" Q34. In what format does RecordWriter write an output file?","options":[" <key, value> pairs\r\n"," keys\r\n"," values\r\n"," <value, key> pairs\r\n\r\n"],"correctAns":1},{"query":" Q35. To what does the Mapper map input key/value pairs?","options":[" an average of keys for values\r\n"," a sum of keys for values\r\n"," a set of intermediate key/value pairs\r\n"," a set of final key/value pairs\r\n\r\n"],"correctAns":3},{"query":" Q36. Which Hive query returns the first 1,000 values?","options":[" SELECT…WHERE value = 1000\r\n"," SELECT … LIMIT 1000\r\n"," SELECT TOP 1000 …\r\n"," SELECT MAX 1000…\r\n\r\n"],"correctAns":2},null,{"query":" Q38. Hadoop 2.x and later implement which service as the resource coordinator?","options":[" kubernetes\r\n"," JobManager\r\n"," JobTracker\r\n"," YARN\r\n\r\n"],"correctAns":4},{"query":" Q39. In MapReduce, **\\_** have \\_","options":[" tasks; jobs\r\n"," jobs; activities\r\n"," jobs; tasks\r\n"," activities; tasks\r\n\r\n"],"correctAns":3},{"query":" Q40. What type of software is Hadoop Common?","options":[" database\r\n"," distributed computing framework\r\n"," operating system\r\n"," productivity tool\r\n\r\n"],"correctAns":2},{"query":" Q41. If no reduction is desired, you should set the numbers of \\_ tasks to zero","options":[" combiner\r\n"," reduce\r\n"," mapper\r\n"," intermediate\r\n\r\n"],"correctAns":2},{"query":" Q42. MapReduce applications use which of these classes to report their statistics?","options":[" mapper\r\n"," reducer\r\n"," combiner\r\n"," counter\r\n\r\n"],"correctAns":4},{"query":" Q43. \\_ is the query language, and \\_ is storage for NoSQL on Hadoop","options":[" HDFS; HQL\r\n"," HQL; HBase\r\n"," HDFS; SQL\r\n"," SQL; HBase\r\n\r\n"],"correctAns":2},{"query":" Q44. MapReduce 1.0 \\_ YARN","options":[" does not include\r\n"," is the same thing as\r\n"," includes\r\n"," replaces\r\n\r\n"],"correctAns":1},{"query":" Q45. Which type of Hadoop node executes file system namespace operations like opening, closing, and renaming files and directories?","options":[" ControllerNode\r\n"," DataNode\r\n"," MetadataNode\r\n"," NameNode\r\n\r\n"],"correctAns":4},null,{"query":" Q47 Suppose you are trying to finish a Pig script that converts text in the input string to uppercase. What code is needed on line 2 below?","options":[" as (text:CHAR[]); upper_case = FOREACH data GENERATE org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);\r\n"," as (text:CHARARRAY); upper_case = FOREACH data GENERATE org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);\r\n"," as (text:CHAR[]); upper_case = FOREACH data org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);\r\n"," as (text:CHARARRAY); upper_case = FOREACH data org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);\r\n\r\n"],"correctAns":2},{"query":" Q48. In a MapReduce job, which phase runs after the Map phase completes?","options":[" Combiner\r\n"," Reducer\r\n"," Map2\r\n"," Shuffle and Sort\r\n\r\n"],"correctAns":1},{"query":" Q49. Where would you configure the size of a block in a Hadoop environment?","options":[" dfs.block.size in hdfs-site.xmls\r\n"," orc.write.variable.length.blocks in hive-default.xml\r\n"," mapreduce.job.ubertask.maxbytes in mapred-site.xml\r\n"," hdfs.block.size in hdfs-site.xml\r\n\r\n"],"correctAns":1},{"query":" Q50. Hadoop systems are **\\_** RDBMS systems.","options":[" replacements for\r\n"," not used with\r\n"," substitutes for\r\n"," additions for\r\n\r\n"],"correctAns":4},{"query":" Q51. Which object can be used to distribute jars or libraries for use in MapReduce tasks?","options":[" distributed cache\r\n"," library manager\r\n"," lookup store\r\n"," registry\r\n\r\n"],"correctAns":1},{"query":" Q52. To view the execution details of an Impala query plan, which function would you use ?","options":[" explain\r\n"," query action\r\n"," detail\r\n"," query plan\r\n\r\n"],"correctAns":1},null,{"query":" Q54. Hadoop Common is written in which language?","options":[" C++\r\n"," C\r\n"," Haskell\r\n"," Java\r\n\r\n"],"correctAns":4},{"query":" Q55. Which file system does Hadoop use for storage?","options":[" NAS\r\n"," FAT\r\n"," HDFS\r\n"," NFS\r\n\r\n"],"correctAns":3},{"query":" Q56. What kind of storage and processing does Hadoop support?","options":[" encrypted\r\n"," verified\r\n"," distributed\r\n"," remote\r\n\r\n"],"correctAns":3},null,null,null,null,null]
+[
+    {
+        "query": " Q1. Partitioner controls the partitioning of what data?",
+        "options": [
+            " final keys\r\n",
+            " final values\r\n",
+            " intermediate keys\r\n",
+            " intermediate values\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q2. SQL Windowing functions are implemented in Hive using which keywords?",
+        "options": [
+            " UNION DISTINCT, RANK\r\n",
+            " OVER, RANK\r\n",
+            " OVER, EXCEPT\r\n",
+            " UNION DISTINCT, RANK\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q3. Rather than adding a Secondary Sort to a slow Reduce job, it is Hadoop best practice to perform which optimization?",
+        "options": [
+            " Add a partitioned shuffle to the Map job.\r\n",
+            " Add a partitioned shuffle to the Reduce job.\r\n",
+            " Break the Reduce job into multiple, chained Reduce jobs.\r\n",
+            " Break the Reduce job into multiple, chained Map jobs.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q4. Hadoop Auth enforces authentication on protected resources. Once authentication has been established, it sets what type of authenticating cookie?",
+        "options": [
+            " encrypted HTTP\r\n",
+            " unsigned HTTP\r\n",
+            " compressed HTTP\r\n",
+            " signed HTTP\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q5. MapReduce jobs can be written in which language?",
+        "options": [
+            " Java or Python\r\n",
+            " SQL only\r\n",
+            " SQL or Java\r\n",
+            " Python or SQL\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q6. To perform local aggregation of the intermediate outputs, MapReduce users can optionally specify which object?",
+        "options": [
+            " Reducer\r\n",
+            " Combiner\r\n",
+            " Mapper\r\n",
+            " Counter\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q7. To verify job status, look for the value `___` in the `___`.",
+        "options": [
+            " SUCCEEDED; syslog\r\n",
+            " SUCCEEDED; stdout\r\n",
+            " DONE; syslog\r\n",
+            " DONE; stdout\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q8. Which line of code implements a Reducer method in MapReduce 2.0?",
+        "options": [
+            " public void reduce(Text key, Iterator<IntWritable> values, Context context){…}\r\n",
+            " public static void reduce(Text key, IntWritable[] values, Context context){…}\r\n",
+            " public static void reduce(Text key, Iterator<IntWritable> values, Context context){…}\r\n",
+            " public void reduce(Text key, IntWritable[] values, Context context){…}\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q9. To get the total number of mapped input records in a map job task, you should review the value of which counter?",
+        "options": [
+            " FileInputFormatCounter\r\n",
+            " FileSystemCounter\r\n",
+            " JobCounter\r\n",
+            " TaskCounter (NOT SURE)\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q10. Hadoop Core supports which CAP capabilities?",
+        "options": [
+            " A, P\r\n",
+            " C, A\r\n",
+            " C, P\r\n",
+            " C, A, P\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q11. What are the primary phases of a Reducer?",
+        "options": [
+            " combine, map, and reduce\r\n",
+            " shuffle, sort, and reduce\r\n",
+            " reduce, sort, and combine\r\n",
+            " map, sort, and combine\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q12. To set up Hadoop workflow with synchronization of data between jobs that process tasks both on disk and in memory, use the `___` service, which is `___`.",
+        "options": [
+            " Oozie; open source\r\n",
+            " Oozie; commercial software\r\n",
+            " Zookeeper; commercial software\r\n",
+            " Zookeeper; open source\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q13. For high availability, use multiple nodes of which type?",
+        "options": [
+            " data\r\n",
+            " name\r\n",
+            " memory\r\n",
+            " worker\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q14. DataNode supports which type of drives?",
+        "options": [
+            " hot swappable\r\n",
+            " cold swappable\r\n",
+            " warm swappable\r\n",
+            " non-swappable\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q15. Which method is used to implement Spark jobs?",
+        "options": [
+            " on disk of all workers\r\n",
+            " on disk of the master node\r\n",
+            " in memory of the master node\r\n",
+            " in memory of all workers\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q16. In a MapReduce job, where does the map() function run?",
+        "options": [
+            " on the reducer nodes of the cluster\r\n",
+            " on the data nodes of the cluster (NOT SURE)\r\n",
+            " on the master node of the cluster\r\n",
+            " on every node of the cluster\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q17. To reference a master file for lookups during Mapping, what type of cache should be used?",
+        "options": [
+            " distributed cache\r\n",
+            " local cache\r\n",
+            " partitioned cache\r\n",
+            " cluster cache\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q18. Skip bad records provides an option where a certain set of bad input records can be skipped when processing what type of data?",
+        "options": [
+            " cache inputs\r\n",
+            " reducer inputs\r\n",
+            " intermediate values\r\n",
+            " map inputs\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q19. Which command imports data to Hadoop from a MySQL database?",
+        "options": [
+            " spark import --connect jdbc:mysql://mysql.example.com/spark --username spark --warehouse-dir user/hue/oozie/deployments/spark\r\n",
+            " sqoop import --connect jdbc:mysql://mysql.example.com/sqoop --username sqoop --warehouse-dir user/hue/oozie/deployments/sqoop\r\n",
+            " sqoop import --connect jdbc:mysql://mysql.example.com/sqoop --username sqoop --password sqoop --warehouse-dir user/hue/oozie/deployments/sqoop\r\n",
+            " spark import --connect jdbc:mysql://mysql.example.com/spark --username spark --password spark --warehouse-dir user/hue/oozie/deployments/spark\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q20. In what form is Reducer output presented?",
+        "options": [
+            " compressed (NOT SURE)\r\n",
+            " sorted\r\n",
+            " not sorted\r\n",
+            " encrypted\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q21. Which library should be used to unit test MapReduce code?",
+        "options": [
+            " JUnit\r\n",
+            " XUnit\r\n",
+            " MRUnit\r\n",
+            " HadoopUnit\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q22. If you started the NameNode, then which kind of user must you be?",
+        "options": [
+            " hadoop-user\r\n",
+            " super-user\r\n",
+            " node-user\r\n",
+            " admin-user\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q23. State \\_ between the JVMs in a MapReduce job",
+        "options": [
+            " can be configured to be shared\r\n",
+            " is partially shared\r\n",
+            " is shared\r\n",
+            " is not shared (https://www.lynda.com/Hadoop-tutorials/Understanding-Java-virtual-machines-JVMs/191942/369545-4.html)\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q24. To create a MapReduce job, what should be coded first?",
+        "options": [
+            " a static job() method\r\n",
+            " a Job class and instance (NOT SURE)\r\n",
+            " a job() method\r\n",
+            " a static Job class\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q25. To connect Hadoop to AWS S3, which client should you use?",
+        "options": [
+            " S3A\r\n",
+            " S3N\r\n",
+            " S3\r\n",
+            " the EMR S3\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q26. HBase works with which type of schema enforcement?",
+        "options": [
+            " schema on write\r\n",
+            " no schema\r\n",
+            " external schema\r\n",
+            " schema on read\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q27. HDFS file are of what type?",
+        "options": [
+            " read-write\r\n",
+            " read-only\r\n",
+            " write-only\r\n",
+            " append-only\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q28. A distributed cache file path can originate from what location?",
+        "options": [
+            " hdfs or top\r\n",
+            " http\r\n",
+            " hdfs or http\r\n",
+            " hdfs\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q29. Which library should you use to perform ETL-type MapReduce jobs?",
+        "options": [
+            " Hive\r\n",
+            " Pig\r\n",
+            " Impala\r\n",
+            " Mahout\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q30. What is the output of the Reducer?",
+        "options": [
+            " a relational table\r\n",
+            " an update to the input file\r\n",
+            " a single, combined list\r\n",
+            " a set of <key, value> pairs\r\n\r\n`map function processes a certain key-value pair and emits a certain number of key-value pairs and the Reduce function processes values grouped by the same key and emits another set of key-value pairs as output.`\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    null,
+    {
+        "query": " Q32. When implemented on a public cloud, with what does Hadoop processing interact?",
+        "options": [
+            " files in object storage\r\n",
+            " graph data in graph databases\r\n",
+            " relational data in managed RDBMS systems\r\n",
+            " JSON data in NoSQL databases\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q33. In the Hadoop system, what administrative mode is used for maintenance?",
+        "options": [
+            " data mode\r\n",
+            " safe mode\r\n",
+            " single-user mode\r\n",
+            " pseudo-distributed mode\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q34. In what format does RecordWriter write an output file?",
+        "options": [
+            " <key, value> pairs\r\n",
+            " keys\r\n",
+            " values\r\n",
+            " <value, key> pairs\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q35. To what does the Mapper map input key/value pairs?",
+        "options": [
+            " an average of keys for values\r\n",
+            " a sum of keys for values\r\n",
+            " a set of intermediate key/value pairs\r\n",
+            " a set of final key/value pairs\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q36. Which Hive query returns the first 1,000 values?",
+        "options": [
+            " SELECT…WHERE value = 1000\r\n",
+            " SELECT … LIMIT 1000\r\n",
+            " SELECT TOP 1000 …\r\n",
+            " SELECT MAX 1000…\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    null,
+    {
+        "query": " Q38. Hadoop 2.x and later implement which service as the resource coordinator?",
+        "options": [
+            " kubernetes\r\n",
+            " JobManager\r\n",
+            " JobTracker\r\n",
+            " YARN\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q39. In MapReduce, **\\_** have \\_",
+        "options": [
+            " tasks; jobs\r\n",
+            " jobs; activities\r\n",
+            " jobs; tasks\r\n",
+            " activities; tasks\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q40. What type of software is Hadoop Common?",
+        "options": [
+            " database\r\n",
+            " distributed computing framework\r\n",
+            " operating system\r\n",
+            " productivity tool\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q41. If no reduction is desired, you should set the numbers of \\_ tasks to zero",
+        "options": [
+            " combiner\r\n",
+            " reduce\r\n",
+            " mapper\r\n",
+            " intermediate\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q42. MapReduce applications use which of these classes to report their statistics?",
+        "options": [
+            " mapper\r\n",
+            " reducer\r\n",
+            " combiner\r\n",
+            " counter\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q43. \\_ is the query language, and \\_ is storage for NoSQL on Hadoop",
+        "options": [
+            " HDFS; HQL\r\n",
+            " HQL; HBase\r\n",
+            " HDFS; SQL\r\n",
+            " SQL; HBase\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q44. MapReduce 1.0 \\_ YARN",
+        "options": [
+            " does not include\r\n",
+            " is the same thing as\r\n",
+            " includes\r\n",
+            " replaces\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q45. Which type of Hadoop node executes file system namespace operations like opening, closing, and renaming files and directories?",
+        "options": [
+            " ControllerNode\r\n",
+            " DataNode\r\n",
+            " MetadataNode\r\n",
+            " NameNode\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    null,
+    {
+        "query": " Q47 Suppose you are trying to finish a Pig script that converts text in the input string to uppercase. What code is needed on line 2 below?",
+        "options": [
+            " as (text:CHAR[]); upper_case = FOREACH data GENERATE org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);\r\n",
+            " as (text:CHARARRAY); upper_case = FOREACH data GENERATE org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);\r\n",
+            " as (text:CHAR[]); upper_case = FOREACH data org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);\r\n",
+            " as (text:CHARARRAY); upper_case = FOREACH data org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q48. In a MapReduce job, which phase runs after the Map phase completes?",
+        "options": [
+            " Combiner\r\n",
+            " Reducer\r\n",
+            " Map2\r\n",
+            " Shuffle and Sort\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q49. Where would you configure the size of a block in a Hadoop environment?",
+        "options": [
+            " dfs.block.size in hdfs-site.xmls\r\n",
+            " orc.write.variable.length.blocks in hive-default.xml\r\n",
+            " mapreduce.job.ubertask.maxbytes in mapred-site.xml\r\n",
+            " hdfs.block.size in hdfs-site.xml\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q50. Hadoop systems are **\\_** RDBMS systems.",
+        "options": [
+            " replacements for\r\n",
+            " not used with\r\n",
+            " substitutes for\r\n",
+            " additions for\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q51. Which object can be used to distribute jars or libraries for use in MapReduce tasks?",
+        "options": [
+            " distributed cache\r\n",
+            " library manager\r\n",
+            " lookup store\r\n",
+            " registry\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q52. To view the execution details of an Impala query plan, which function would you use ?",
+        "options": [
+            " explain\r\n",
+            " query action\r\n",
+            " detail\r\n",
+            " query plan\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    null,
+    {
+        "query": " Q54. Hadoop Common is written in which language?",
+        "options": [
+            " C++\r\n",
+            " C\r\n",
+            " Haskell\r\n",
+            " Java\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q55. Which file system does Hadoop use for storage?",
+        "options": [
+            " NAS\r\n",
+            " FAT\r\n",
+            " HDFS\r\n",
+            " NFS\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q56. What kind of storage and processing does Hadoop support?",
+        "options": [
+            " encrypted\r\n",
+            " verified\r\n",
+            " distributed\r\n",
+            " remote\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    null,
+    null,
+    null,
+    null,
+    null
+]

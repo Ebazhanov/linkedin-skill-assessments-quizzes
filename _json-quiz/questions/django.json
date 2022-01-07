@@ -1,1 +1,643 @@
-[{"query":" Q1. To cache your entire site for an application in Django, you add all except which of these settings?","options":[" django.middleware.common.CommonMiddleware\r\n"," django.middleware.cache.UpdateCacheMiddleware\r\n"," django.middleware.cache.FetchFromCacheMiddleware\r\n"," django.middleware.cache.AcceleratedCacheMiddleware\r\n\r\n"],"correctAns":4},{"query":" Q2. In which programming language is Django written?","options":[" C++\r\n"," Java\r\n"," Python\r\n"," Ruby\r\n\r\n"],"correctAns":3},{"query":" Q3. To automatically provide a value for a field, or to do validation that requires access to more than a single field, you should override the `___` method in the `___` class.","options":[" validate(); Model\r\n"," group(); Model\r\n"," validate(); Form\r\n"," clean(); Field\r\n\r\n"],"correctAns":4},{"query":" Q4. A client wants their site to be able to load \"Rick & Morty\" episodes by number or by title—e.g., shows/3/3 or shows/picklerick. Which URL pattern do you recommend?","code":null,"options":["\r\n\r\n```\r\nurl(r'shows/<int:season>/<int:episode>/', views.episode_number),\r\nurl(r'shows/<slug:episode_name>/', views.episode_name)\r\n```\r\n\r\n","\r\n\r\n```\r\npath('shows/<int:season>/<int:episode>/', views.episode_number),\r\npath(r'shows/<slug:episode_name>/', views.episode_name)\r\n```\r\n\r\n","\r\n\r\n```\r\npath('shows/<int:season>/<int:episode>', views.episode_number),\r\npath(r'shows/<slug:episode_name>/', views.episode_number)\r\n```\r\n\r\n","\r\n\r\n```\r\nurl(r'^show/(?P<season>[0-9]+)/(?P<episode>[0-9]+)/$', views.episode_number),\r\nurl(r'^show/(?P<episode_name>[\\w-]+)/', views.episode_name\r\n```\r\n\r\n"],"correctAns":2},{"query":" Q5. How do you determine at startup time if a piece of middleware should be used?","options":[" Raise MiddlewareNotUsed in the **init** function of your middleware.\r\n"," Implement the not_used method in your middleware class.\r\n"," List the middleware beneath an entry of django.middleware.IgnoredMiddleware.\r\n"," Write code to remove the middleware from the settings in [app]/**init**.py.\r\n\r\n"],"correctAns":1},{"query":" Q6. How do you turn off Django’s automatic HTML escaping for part of a web page?","options":[" Place that section between paragraph tags containing the autoescape=off switch.\r\n"," Wrap that section between { percentage mark autoescape off percentage mark} and {percentage mark endautoescape percentage mark} tags.\r\n"," Wrap that section between {percentage mark autoescapeoff percentage mark} and {percentage mark endautoescapeoff percentage mark} tags.\r\n"," You don't need to do anything—autoescaping is off by default.\r\n\r\n"],"correctAns":4},{"query":" Q7. Which step would NOT help you troubleshoot the error \"django-admin: command not found\"?","options":[" Check that the bin folder inside your Django directory is on your system path.\r\n"," Make sure you have activated the virtual environment you have set up containing Django.\r\n"," Check that you have installed Django.\r\n"," Make sure that you have created a Django project.\r\n\r\n"],"correctAns":4},{"query":" Q8. Every time a user is saved, their quiz_score needs to be recalculated. Where might be an ideal place to add this logic?","options":[" template\r\n"," model\r\n"," database\r\n"," view\r\n\r\n"],"correctAns":2},{"query":" Q9. What is the correct way to begin a class called \"Rainbow\" in Python?","options":[" Rainbow {}\r\n"," export Rainbow:\r\n"," class Rainbow:\r\n"," def Rainbow:\r\n\r\n"],"correctAns":3},{"query":" Q10. You have inherited a Django project and need to get it running locally. It comes with a requirements.txt file containing all its dependencies. Which command should you use?","options":[" django-admin startproject requirements.txt\r\n"," python install -r requirements.txt\r\n"," pip install -r requirements.txt\r\n"," pip install Django\r\n\r\n"],"correctAns":3},{"query":" Q11. Which best practice is NOT relevant to migrations?","options":[" To make sure that your migrations are up to date, you should run updatemigrations before running your tests.\r\n"," You should back up your production database before running a migration.\r\n"," Your migration code should be under source control.\r\n"," If a project has a lot of data, you should test against a staging copy before running the migration on production.\r\n\r\n"],"correctAns":1},{"query":" Q12. What will this URL pattern match? url(r'^\\$', views.hello)","options":[" a string beginning with the letter Ra string beginning with the letter R\r\n"," an empty string at the server root\r\n"," a string containing ^ and $a string containing ^ and $\r\n"," an empty string anywhere in the URLan empty string anywhere in the URL\r\n\r\n"],"correctAns":2},{"query":" Q13. What is the typical order of an HTTP request/response cycle in Django?","options":[" URL > view > template\r\n"," form > model > view\r\n"," template > view > model\r\n"," URL > template > view > model\r\n\r\n"],"correctAns":1},{"query":" Q14. Django's class-based generic views provide which classes that implement common web development tasks?","options":[" concrete\r\n"," thread-safe\r\n"," abstract\r\n"," dynamic\r\n\r\n"],"correctAns":3},{"query":" Q15. Which skills do you need to maintain a set of Django templates?","options":[" template syntax\r\n"," HTML and template syntax\r\n"," Python, HTML, and template syntax\r\n"," Python and template syntax\r\n\r\n"],"correctAns":2},{"query":" Q17. How would you define the relationship between a star and a constellation in a Django model?","code":null,"options":["\r\n\r\n```\r\nclass Star(models.Model):\r\nname = models.CharField(max_length=100)\r\nclass Constellation(models.Model):\r\nstars = models.ManyToManyField(Star)\r\n```\r\n\r\n","\r\n\r\n```\r\nclass Star(models.Model):\r\nconstellation = models.ForeignKey(Constellation, on_delete=models.CASCADE)\r\nclass Constellation(models.Model):\r\nstars = models.ForeignKey(Star, on_delete=models.CASCADE)\r\n```\r\n\r\n","\r\n\r\n```\r\nclass Star(models.Model):\r\nname = models.CharField(max_length=100)\r\nclass Constellation(models.Model):\r\nstars = models.OneToManyField(Star)\r\n```\r\n\r\n","\r\n\r\n```\r\nclass Star(models.Model):\r\nconstellation = models.ManyToManyField(Constellation)\r\nclass Constellation(models.Model):\r\nname = models.CharField(max_length=100)\r\n```\r\n\r\n"],"correctAns":1},{"query":" Q18. Which is NOT a valid step in configuring your Django 2.x instance to serve up static files such as images or CSS?","options":[" In your urls file, add a pattern that includes the name of your static directory.\r\n"," Create a directory named static inside your app directory.\r\n"," Create a directory named after the app under the static directory, and place static files inside.\r\n"," Use the template tag {percentage mark load static percentage mark}.\r\n\r\n"],"correctAns":1},{"query":" Q19. What is the correct way to make a variable available to all of your templates?","options":[" Set a session variable.\r\n"," Use a global variable.\r\n"," Add a dictionary to the template context.\r\n"," Use RequestContext.\r\n\r\n"],"correctAns":4},{"query":" Q20. Should you create a custom user model for new projects?","options":[" No. Using a custom user model could break the admin interface and some third-party apps.\r\n"," Yes. It is easier to make changes once it goes into production.\r\n"," No. Django's built-in models.User class has been tried and tested—no point in reinventing the wheel.\r\n"," Yes, as there is no other option.\r\n\r\n"],"correctAns":3},{"query":" Q21. You want to create a page that allows editing of two classes connected by a foreign key (e.g., a question and answer that reside in separate tables). What Django feature can you use?","options":[" actions\r\n"," admin\r\n"," mezcal\r\n"," inlines\r\n\r\n"],"correctAns":1},{"query":" Q22. Why are QuerySets considered \"lazy\"?","options":[" The results of a QuerySet are not ordered.\r\n"," QuerySets do not create any database activity until they are evaluated.\r\n"," QuerySets do not load objects into memory until they are needed.\r\n"," Using QuerySets, you cannot execute more complex queries.\r\n\r\n"],"correctAns":2},{"query":" Q23. You receive a `MultiValueDictKeyError` when trying to access a request parameter with the following code: request.GET['search_term']. Which solution will NOT help you in this scenario?","options":[" Switch to using POST instead of GET as the request method.\r\n"," Make sure the input field in your form is also named \"search_term\".\r\n"," Use MultiValueDict's GET method instead of hitting the dictionary directly like this: request.GET.get('search_term', '').\r\n"," Check if the search_term parameter is present in the request before attempting to access it.\r\n\r\n"],"correctAns":1},{"query":" Q24. Which function of Django's Form class will render a form's fields as a series of <p> tags?","options":[" show_fields()\r\n"," as_p()\r\n"," as_table()\r\n"," fields()\r\n\r\n"],"correctAns":2},{"query":" Q25. You have found a bug in Django and you want to submit a patch. Which is the correct procedure?","options":[" Fork the Django repository GitHub.\r\n"," Submit a pull request.\r\n"," all of these answers.\r\n"," Run Django's test suite.\r\n\r\n"],"correctAns":3},{"query":" Q26. Django supplies sensible default values for settings. In which Python module can you find these settings?","options":[" django.utils.default_settings.py\r\n"," django.utils.global_settings.py\r\n"," django.conf.default_settings.py\r\n"," django.conf.global_settings.py\r\n\r\n"],"correctAns":4},{"query":" Q27. Which variable name is best according to PEP 8 guidelines?","options":[" numFingers\r\n"," number-of-Fingers\r\n"," number_of_fingers\r\n"," finger_num\r\n\r\n"],"correctAns":3},{"query":" Q28. A project has accumulated 500 migrations. Which course of action would you pursue?","options":[" Manually merge your migration files to reduce the number\r\n"," Don't worry about the number\r\n"," Try to minimize the number of migrations\r\n"," Use squashmigrations to reduce the number\r\n\r\n"],"correctAns":4},{"query":" Q29. What does an F() object allow you when dealing with models?","options":[" perform db operations without fetching a model object\r\n"," define db transaction isolation levels\r\n"," use aggregate functions more easily\r\n"," build reusable QuerySets\r\n\r\n"],"correctAns":1},{"query":" Q30. Which is not a django filed type for integers?","options":[" SmallIntegerField\r\n"," NegativeIntegerField\r\n"," BigAutoField\r\n"," PositiveIntegerField\r\n\r\n"],"correctAns":2},{"query":" Q31. Which will show the currently installed version?","options":[" print (django.version)\r\n"," import django django.getVersion()\r\n"," import django django.get_version()\r\n"," python -c django --version\r\n\r\n"],"correctAns":3},{"query":" Q32. You should use the http method `___` to read data and `___` to update or create data","options":[" READ; WRITE\r\n"," GET; POST\r\n"," POST; GET\r\n"," GET; PATCH\r\n\r\n"],"correctAns":2},{"query":" Q33. When should you employ the POST method over GET for submitting data?","options":[" when efficiency is important\r\n"," when you want the data to be cached\r\n"," when you want to use your browser to help with debugging\r\n"," when the data in the form may be sensitive\r\n\r\n"],"correctAns":4},{"query":" Q34. When to use the Django sites framework?","options":[" if your single installation powers more than one site\r\n"," if you need to serve static as well as dynamic content\r\n"," if you want your app have a fully qualified domain name\r\n"," if you are expecting more than 10.000 users\r\n\r\n"],"correctAns":1},{"query":" Q35. Which infrastructure do you need:","options":[" inizialized array called validators\r\n"," a validators file containing a function called validate_spelling imported at the top of model\r\n"," a validators file containing a function called validate imported at the top of model\r\n"," spelling package imported at the top of model\r\n\r\n"],"correctAns":2},{"query":" Q36. What decorator is used to require that a view accepts only the get and head methods?","options":[" require_safe()\r\n"," require_put()\r\n"," require_post()\r\n"," require_get()\r\n\r\n"],"correctAns":1},{"query":" Q37. How would you define the relation between a book and an author - book has only one author.","code":"\r\nclass Author (models.model):\r\nbook=models.foreignkey(Book,on_delete=models.cascade)\r\nclass Book(models.model):\r\nname=models.charfield(max_length=100)\r\n","options":["\r\n\r\n```\r\nclass Author (models.model):\r\nbook=models.foreignkey(Book,on_delete=models.cascade)\r\nclass Book(models.model):\r\nname=models.charfield(max_length=100)\r\n```\r\n\r\n","\r\n\r\n```python\r\nclass Author (models.model):\r\nname=models.charfield(max_length=100)\r\nclass Book(models.model):\r\nauthor=models.foreignkey(Author,on_delete=models.cascade)\r\n```\r\n\r\n","\r\n\r\n```\r\nclass Author (models.model):\r\nname=models.charfield(max_length=100)\r\nclass Book(models.model):\r\nauthor=models.foreignkey(Author)\r\n```\r\n\r\n","\r\n\r\n```\r\nclass Author (models.model):\r\nname=models.charfield(max_length=100)\r\nclass Book(models.model):\r\nauthor=models.foreignkey(Author,on_delete=models.cascade)\r\n```\r\n\r\n","\r\n\r\n```\r\nclass Author (models.model):\r\nname=models.charfield(max_length=100)\r\nclass Book(models.model):\r\nauthor=Author.name\r\n```\r\n\r\n"],"correctAns":1},{"query":" Q38. What is a callable that takes a value and raises an error if the value fails?","options":[" validator\r\n"," deodorizer\r\n"," mediator\r\n"," regular expression\r\n\r\n"],"correctAns":1},{"query":" Q39. To secure an API endpoint, making it accessible to registered users only, you can replace the rest_framework.permissions.allowAny value in the default_permissions section of your settings.py to","options":[" rest_framework.permissions.IsAdminUser\r\n"," rest_framework.permissions.IsAuthenticated\r\n"," rest_framework.permissions.IsAuthorized\r\n"," rest_framework.permissions.IsRegistered\r\n\r\n"],"correctAns":2},{"query":" Q40. Which command would you use to apply a migration?","options":[" makemigration\r\n"," update_db\r\n"," applymigration\r\n"," migrate\r\n\r\n"],"correctAns":4},{"query":" Q41. Which type of class allows QuerySets and model instances to be converted to native Python data types for use in APIs?","options":[" objectwriters\r\n"," serializers\r\n"," picklers\r\n"," viewsets\r\n\r\n"],"correctAns":2},{"query":" Q42. How should the code end?","code":"\r\n{ percentage if spark >= 50 percentage }\r\nLots of spark\r\n{percentage elif spark == 42 percentage}\r\n","options":[" { percentage else percentage}\r\n"," {percentage endif percentage}\r\n"," Nothing needed\r\n"," {percentage end percentage}\r\n\r\n"],"correctAns":2},{"query":" Q43 Which code block will create a serializer?","code":"\r\nfrom rest_framework import serializers\r\nfrom .models import Planet\r\n","options":["\r\n\r\n```\r\nclass PlanetSerializer(serializers.ModelSerializer):\r\nclass Meta:\r\nmodel=Planet\r\nfields=('name','position', 'mass', 'rings')\r\n```\r\n\r\n","\r\n\r\n```\r\nfrom rest_framework import serializers\r\nfrom .models import Planet\r\nclass PlanetSerializer():\r\nclass Meta:\r\nfields=('name','position', 'mass', 'rings')\r\nmodel=Planet\r\n```\r\n\r\n","\r\n\r\n```\r\nfrom django.db import serializers\r\nfrom .models import Planet\r\nclass PlanetSerializer(serializers.ModelSerializer):\r\nfields=('name','position', 'mass', 'rings')\r\nmodel=Sandwich\r\n```\r\n\r\n","\r\n\r\n```\r\nfrom django.db import serializers\r\nfrom .models import Planet\r\nclass PlanetSerializer(serializers.ModelSerializer):\r\nclass Meta:\r\nfields=('name')\r\nmodel=Planet\r\n```\r\n\r\n"],"correctAns":1},{"query":" Q44 Which class allows you to automatically create a Serializer class with fields and validators that correspond to your model's fields?","options":[" ModelSerializer\r\n"," Model\r\n"," DataSerializer\r\n"," ModelToSerializer\r\n\r\n"],"correctAns":1},{"query":" Q45 Which command to access the built-in admin tool for the first time?","options":[" django-admin setup\r\n"," django-admin runserver\r\n"," python manage.py createuser\r\n"," python manage.py createsuperuser\r\n\r\n"],"correctAns":4},{"query":" Q46. Virtual environments are for managing dependencies. Which granularity works best?","options":[" you should set up a new virtualenv for each Django project\r\n"," They should not be used\r\n"," Use the same venv for all your Django work\r\n"," Use a new venv for each Django app\r\n\r\n"],"correctAns":1},{"query":" Q47. What executes various Django commands such as running a webserver or creating an app?","options":[" migrate.py\r\n"," wsgi.py\r\n"," manage.py\r\n"," runserver\r\n\r\n"],"correctAns":3},{"query":" Q48. What do Django best practice suggest should be \"fat\"?","options":[" models\r\n"," controllers\r\n"," programmers\r\n"," clients\r\n\r\n"],"correctAns":1},{"query":" Q49. Which is not part of Django's design philosophy?","options":[" Loose Coupling\r\n"," Less Code\r\n"," Fast Development\r\n"," Implicit over explicit\r\n\r\n"],"correctAns":4},{"query":" Q50. What is the result of this template code?","code":"\r\n{{\"live long and prosper\"|truncate:3}}\r\n","options":[" live long and ...\r\n"," live long and\r\n"," a compilation error\r\n"," liv\r\n\r\n"],"correctAns":1},{"query":" Q51. When does this code load data into memory?","code":"\r\n1 sandwiches = Sandwich.objects.filter(is_vegan=True)\r\n2 for sandwich in sandwiches:\r\n3   print(sandwich.name + \" - \" + sandwich.spice_level)\r\n","options":[" line 1\r\n"," It depends on how many results return by query.\r\n"," It depends on cache.\r\n"," line 2\r\n\r\n"],"correctAns":2},null,{"query":" Q53. To expose an existing model via an API endpoint, what do you need to implement?\\*\\*","options":[" an HTTP request\r\n"," a JSON object\r\n"," a query\r\n"," a serializer\r\n\r\n"],"correctAns":4},{"query":" Q54. How would you stop Django from performing database table creation or deletion operations via migrations for a particular model?\\*\\*","options":[" Run the `migrate` command with `--exclude=[model_name]`.\r\n"," Move the model definition from `models.py` into its own file.\r\n"," Set `managed=False` inside the model.\r\n"," Don't run the `migrate` command.\r\n\r\n"],"correctAns":3},{"query":" Q55. what method can you use to check if form data has changed when using a form instance?","options":[" has_changed()\r\n"," its_changed()\r\n"," has_updated()\r\n"," None of This\r\n\r\n"],"correctAns":1},{"query":" Q56. What is WSGI?","options":[" a server\r\n"," an interface specification\r\n"," a Python module\r\n"," a framework\r\n\r\n"],"correctAns":1},{"query":" Q57. Which generic view should be used for displaying the tittles of all Django Reinhardt's songs?","options":[" DetailView\r\n"," TittleView\r\n"," SongView\r\n"," ListView\r\n\r\n"],"correctAns":4},{"query":" Q58. Which statement is most acurate, regarding using the default SQLite database on your local/development machine but Postgres in production","options":[" There's less chance of introducing bugs since SQLite already works out the box\r\n"," It's fine, you just need to keep both instances synchronized\r\n"," It's a bad idea and could lead to issues down the road\r\n"," It's the most efficient way to build a project\r\n\r\n"],"correctAns":1},{"query":" Q59. Why might you want to write a custom model Manager?","options":[" to perform database queries\r\n"," to set up a database for testing\r\n"," to modify the initial QuerySet that the Manager returns\r\n"," to filter the results that a database query returns\r\n\r\n"],"correctAns":3},null,{"query":" Q61. To complete the conditional, what should this block of code end with?","code":"shell\r\n% if sparles >= 50 %\r\n  Lots of sparkles!\r\n% elif sparkles == 42 %\r\n  The answer to life, the universe, and everything!\r\n","options":[" `% endif %`\r\n"," Nothing else is needed.\r\n"," `% end%`\r\n"," `% else %`\r\n\r\n"],"correctAns":1},{"query":" Q62. You have inherited a Django project and need to get it running locally. It comes with a requirements.txt file containing all its dependencies. Which command should you use?","options":[" python install -r requirements.txt\r\n"," django-admin startproject requirements.txt\r\n"," pip install Django\r\n"," pip install -r requirements.txt\r\n\r\n"],"correctAns":4},{"query":" Q63. When should you employ the POST method over the GET method for submitting data from a form?","options":[" when the data in the form may be sensitive\r\n"," when you want the data to be cached\r\n"," when you want to use your browser to help with debugging\r\n"," when efficiency is important\r\n\r\n"],"correctAns":1},{"query":" Q64. What is a callable that takes a value and raises an error if the value fails to meet some criteria?","options":[" mediator\r\n"," validator\r\n"," regular expression\r\n"," deodorizer\r\n\r\n"],"correctAns":2},{"query":" Q65. You are uploading a file to Django from a form and you want to save the received file as a field on a model object. You can simply assign the file object from**\\_to a field of type\\_\\_**in the model.","options":[" request.META; FileField\r\n"," request.FILES; BLOBField\r\n"," request.FILES; FileField\r\n"," request.META.Files; CLOBField\r\n\r\n"],"correctAns":3},{"query":" Q66. What python module might be used to store the current state of a Django model in a file?","options":[" pickle\r\n"," struct\r\n"," marshal\r\n"," serialize\r\n"],"correctAns":1}]
+[
+    {
+        "query": " Q1. To cache your entire site for an application in Django, you add all except which of these settings?",
+        "options": [
+            " django.middleware.common.CommonMiddleware\r\n",
+            " django.middleware.cache.UpdateCacheMiddleware\r\n",
+            " django.middleware.cache.FetchFromCacheMiddleware\r\n",
+            " django.middleware.cache.AcceleratedCacheMiddleware\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q2. In which programming language is Django written?",
+        "options": [
+            " C++\r\n",
+            " Java\r\n",
+            " Python\r\n",
+            " Ruby\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q3. To automatically provide a value for a field, or to do validation that requires access to more than a single field, you should override the `___` method in the `___` class.",
+        "options": [
+            " validate(); Model\r\n",
+            " group(); Model\r\n",
+            " validate(); Form\r\n",
+            " clean(); Field\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q4. A client wants their site to be able to load \"Rick & Morty\" episodes by number or by title—e.g., shows/3/3 or shows/picklerick. Which URL pattern do you recommend?",
+        "code": null,
+        "options": [
+            "\r\n\r\n```\r\nurl(r'shows/<int:season>/<int:episode>/', views.episode_number),\r\nurl(r'shows/<slug:episode_name>/', views.episode_name)\r\n```\r\n\r\n",
+            "\r\n\r\n```\r\npath('shows/<int:season>/<int:episode>/', views.episode_number),\r\npath(r'shows/<slug:episode_name>/', views.episode_name)\r\n```\r\n\r\n",
+            "\r\n\r\n```\r\npath('shows/<int:season>/<int:episode>', views.episode_number),\r\npath(r'shows/<slug:episode_name>/', views.episode_number)\r\n```\r\n\r\n",
+            "\r\n\r\n```\r\nurl(r'^show/(?P<season>[0-9]+)/(?P<episode>[0-9]+)/$', views.episode_number),\r\nurl(r'^show/(?P<episode_name>[\\w-]+)/', views.episode_name\r\n```\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q5. How do you determine at startup time if a piece of middleware should be used?",
+        "options": [
+            " Raise MiddlewareNotUsed in the **init** function of your middleware.\r\n",
+            " Implement the not_used method in your middleware class.\r\n",
+            " List the middleware beneath an entry of django.middleware.IgnoredMiddleware.\r\n",
+            " Write code to remove the middleware from the settings in [app]/**init**.py.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q6. How do you turn off Django’s automatic HTML escaping for part of a web page?",
+        "options": [
+            " Place that section between paragraph tags containing the autoescape=off switch.\r\n",
+            " Wrap that section between { percentage mark autoescape off percentage mark} and {percentage mark endautoescape percentage mark} tags.\r\n",
+            " Wrap that section between {percentage mark autoescapeoff percentage mark} and {percentage mark endautoescapeoff percentage mark} tags.\r\n",
+            " You don't need to do anything—autoescaping is off by default.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q7. Which step would NOT help you troubleshoot the error \"django-admin: command not found\"?",
+        "options": [
+            " Check that the bin folder inside your Django directory is on your system path.\r\n",
+            " Make sure you have activated the virtual environment you have set up containing Django.\r\n",
+            " Check that you have installed Django.\r\n",
+            " Make sure that you have created a Django project.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q8. Every time a user is saved, their quiz_score needs to be recalculated. Where might be an ideal place to add this logic?",
+        "options": [
+            " template\r\n",
+            " model\r\n",
+            " database\r\n",
+            " view\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q9. What is the correct way to begin a class called \"Rainbow\" in Python?",
+        "options": [
+            " Rainbow {}\r\n",
+            " export Rainbow:\r\n",
+            " class Rainbow:\r\n",
+            " def Rainbow:\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q10. You have inherited a Django project and need to get it running locally. It comes with a requirements.txt file containing all its dependencies. Which command should you use?",
+        "options": [
+            " django-admin startproject requirements.txt\r\n",
+            " python install -r requirements.txt\r\n",
+            " pip install -r requirements.txt\r\n",
+            " pip install Django\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q11. Which best practice is NOT relevant to migrations?",
+        "options": [
+            " To make sure that your migrations are up to date, you should run updatemigrations before running your tests.\r\n",
+            " You should back up your production database before running a migration.\r\n",
+            " Your migration code should be under source control.\r\n",
+            " If a project has a lot of data, you should test against a staging copy before running the migration on production.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q12. What will this URL pattern match? url(r'^\\$', views.hello)",
+        "options": [
+            " a string beginning with the letter Ra string beginning with the letter R\r\n",
+            " an empty string at the server root\r\n",
+            " a string containing ^ and $a string containing ^ and $\r\n",
+            " an empty string anywhere in the URLan empty string anywhere in the URL\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q13. What is the typical order of an HTTP request/response cycle in Django?",
+        "options": [
+            " URL > view > template\r\n",
+            " form > model > view\r\n",
+            " template > view > model\r\n",
+            " URL > template > view > model\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q14. Django's class-based generic views provide which classes that implement common web development tasks?",
+        "options": [
+            " concrete\r\n",
+            " thread-safe\r\n",
+            " abstract\r\n",
+            " dynamic\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q15. Which skills do you need to maintain a set of Django templates?",
+        "options": [
+            " template syntax\r\n",
+            " HTML and template syntax\r\n",
+            " Python, HTML, and template syntax\r\n",
+            " Python and template syntax\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q17. How would you define the relationship between a star and a constellation in a Django model?",
+        "code": null,
+        "options": [
+            "\r\n\r\n```\r\nclass Star(models.Model):\r\nname = models.CharField(max_length=100)\r\nclass Constellation(models.Model):\r\nstars = models.ManyToManyField(Star)\r\n```\r\n\r\n",
+            "\r\n\r\n```\r\nclass Star(models.Model):\r\nconstellation = models.ForeignKey(Constellation, on_delete=models.CASCADE)\r\nclass Constellation(models.Model):\r\nstars = models.ForeignKey(Star, on_delete=models.CASCADE)\r\n```\r\n\r\n",
+            "\r\n\r\n```\r\nclass Star(models.Model):\r\nname = models.CharField(max_length=100)\r\nclass Constellation(models.Model):\r\nstars = models.OneToManyField(Star)\r\n```\r\n\r\n",
+            "\r\n\r\n```\r\nclass Star(models.Model):\r\nconstellation = models.ManyToManyField(Constellation)\r\nclass Constellation(models.Model):\r\nname = models.CharField(max_length=100)\r\n```\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q18. Which is NOT a valid step in configuring your Django 2.x instance to serve up static files such as images or CSS?",
+        "options": [
+            " In your urls file, add a pattern that includes the name of your static directory.\r\n",
+            " Create a directory named static inside your app directory.\r\n",
+            " Create a directory named after the app under the static directory, and place static files inside.\r\n",
+            " Use the template tag {percentage mark load static percentage mark}.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q19. What is the correct way to make a variable available to all of your templates?",
+        "options": [
+            " Set a session variable.\r\n",
+            " Use a global variable.\r\n",
+            " Add a dictionary to the template context.\r\n",
+            " Use RequestContext.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q20. Should you create a custom user model for new projects?",
+        "options": [
+            " No. Using a custom user model could break the admin interface and some third-party apps.\r\n",
+            " Yes. It is easier to make changes once it goes into production.\r\n",
+            " No. Django's built-in models.User class has been tried and tested—no point in reinventing the wheel.\r\n",
+            " Yes, as there is no other option.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q21. You want to create a page that allows editing of two classes connected by a foreign key (e.g., a question and answer that reside in separate tables). What Django feature can you use?",
+        "options": [
+            " actions\r\n",
+            " admin\r\n",
+            " mezcal\r\n",
+            " inlines\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q22. Why are QuerySets considered \"lazy\"?",
+        "options": [
+            " The results of a QuerySet are not ordered.\r\n",
+            " QuerySets do not create any database activity until they are evaluated.\r\n",
+            " QuerySets do not load objects into memory until they are needed.\r\n",
+            " Using QuerySets, you cannot execute more complex queries.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q23. You receive a `MultiValueDictKeyError` when trying to access a request parameter with the following code: request.GET['search_term']. Which solution will NOT help you in this scenario?",
+        "options": [
+            " Switch to using POST instead of GET as the request method.\r\n",
+            " Make sure the input field in your form is also named \"search_term\".\r\n",
+            " Use MultiValueDict's GET method instead of hitting the dictionary directly like this: request.GET.get('search_term', '').\r\n",
+            " Check if the search_term parameter is present in the request before attempting to access it.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q24. Which function of Django's Form class will render a form's fields as a series of <p> tags?",
+        "options": [
+            " show_fields()\r\n",
+            " as_p()\r\n",
+            " as_table()\r\n",
+            " fields()\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q25. You have found a bug in Django and you want to submit a patch. Which is the correct procedure?",
+        "options": [
+            " Fork the Django repository GitHub.\r\n",
+            " Submit a pull request.\r\n",
+            " all of these answers.\r\n",
+            " Run Django's test suite.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q26. Django supplies sensible default values for settings. In which Python module can you find these settings?",
+        "options": [
+            " django.utils.default_settings.py\r\n",
+            " django.utils.global_settings.py\r\n",
+            " django.conf.default_settings.py\r\n",
+            " django.conf.global_settings.py\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q27. Which variable name is best according to PEP 8 guidelines?",
+        "options": [
+            " numFingers\r\n",
+            " number-of-Fingers\r\n",
+            " number_of_fingers\r\n",
+            " finger_num\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q28. A project has accumulated 500 migrations. Which course of action would you pursue?",
+        "options": [
+            " Manually merge your migration files to reduce the number\r\n",
+            " Don't worry about the number\r\n",
+            " Try to minimize the number of migrations\r\n",
+            " Use squashmigrations to reduce the number\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q29. What does an F() object allow you when dealing with models?",
+        "options": [
+            " perform db operations without fetching a model object\r\n",
+            " define db transaction isolation levels\r\n",
+            " use aggregate functions more easily\r\n",
+            " build reusable QuerySets\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q30. Which is not a django filed type for integers?",
+        "options": [
+            " SmallIntegerField\r\n",
+            " NegativeIntegerField\r\n",
+            " BigAutoField\r\n",
+            " PositiveIntegerField\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q31. Which will show the currently installed version?",
+        "options": [
+            " print (django.version)\r\n",
+            " import django django.getVersion()\r\n",
+            " import django django.get_version()\r\n",
+            " python -c django --version\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q32. You should use the http method `___` to read data and `___` to update or create data",
+        "options": [
+            " READ; WRITE\r\n",
+            " GET; POST\r\n",
+            " POST; GET\r\n",
+            " GET; PATCH\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q33. When should you employ the POST method over GET for submitting data?",
+        "options": [
+            " when efficiency is important\r\n",
+            " when you want the data to be cached\r\n",
+            " when you want to use your browser to help with debugging\r\n",
+            " when the data in the form may be sensitive\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q34. When to use the Django sites framework?",
+        "options": [
+            " if your single installation powers more than one site\r\n",
+            " if you need to serve static as well as dynamic content\r\n",
+            " if you want your app have a fully qualified domain name\r\n",
+            " if you are expecting more than 10.000 users\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q35. Which infrastructure do you need:",
+        "options": [
+            " inizialized array called validators\r\n",
+            " a validators file containing a function called validate_spelling imported at the top of model\r\n",
+            " a validators file containing a function called validate imported at the top of model\r\n",
+            " spelling package imported at the top of model\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q36. What decorator is used to require that a view accepts only the get and head methods?",
+        "options": [
+            " require_safe()\r\n",
+            " require_put()\r\n",
+            " require_post()\r\n",
+            " require_get()\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q37. How would you define the relation between a book and an author - book has only one author.",
+        "code": "\r\nclass Author (models.model):\r\nbook=models.foreignkey(Book,on_delete=models.cascade)\r\nclass Book(models.model):\r\nname=models.charfield(max_length=100)\r\n",
+        "options": [
+            "\r\n\r\n```\r\nclass Author (models.model):\r\nbook=models.foreignkey(Book,on_delete=models.cascade)\r\nclass Book(models.model):\r\nname=models.charfield(max_length=100)\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\nclass Author (models.model):\r\nname=models.charfield(max_length=100)\r\nclass Book(models.model):\r\nauthor=models.foreignkey(Author,on_delete=models.cascade)\r\n```\r\n\r\n",
+            "\r\n\r\n```\r\nclass Author (models.model):\r\nname=models.charfield(max_length=100)\r\nclass Book(models.model):\r\nauthor=models.foreignkey(Author)\r\n```\r\n\r\n",
+            "\r\n\r\n```\r\nclass Author (models.model):\r\nname=models.charfield(max_length=100)\r\nclass Book(models.model):\r\nauthor=models.foreignkey(Author,on_delete=models.cascade)\r\n```\r\n\r\n",
+            "\r\n\r\n```\r\nclass Author (models.model):\r\nname=models.charfield(max_length=100)\r\nclass Book(models.model):\r\nauthor=Author.name\r\n```\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q38. What is a callable that takes a value and raises an error if the value fails?",
+        "options": [
+            " validator\r\n",
+            " deodorizer\r\n",
+            " mediator\r\n",
+            " regular expression\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q39. To secure an API endpoint, making it accessible to registered users only, you can replace the rest_framework.permissions.allowAny value in the default_permissions section of your settings.py to",
+        "options": [
+            " rest_framework.permissions.IsAdminUser\r\n",
+            " rest_framework.permissions.IsAuthenticated\r\n",
+            " rest_framework.permissions.IsAuthorized\r\n",
+            " rest_framework.permissions.IsRegistered\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q40. Which command would you use to apply a migration?",
+        "options": [
+            " makemigration\r\n",
+            " update_db\r\n",
+            " applymigration\r\n",
+            " migrate\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q41. Which type of class allows QuerySets and model instances to be converted to native Python data types for use in APIs?",
+        "options": [
+            " objectwriters\r\n",
+            " serializers\r\n",
+            " picklers\r\n",
+            " viewsets\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q42. How should the code end?",
+        "code": "\r\n{ percentage if spark >= 50 percentage }\r\nLots of spark\r\n{percentage elif spark == 42 percentage}\r\n",
+        "options": [
+            " { percentage else percentage}\r\n",
+            " {percentage endif percentage}\r\n",
+            " Nothing needed\r\n",
+            " {percentage end percentage}\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q43 Which code block will create a serializer?",
+        "code": "\r\nfrom rest_framework import serializers\r\nfrom .models import Planet\r\n",
+        "options": [
+            "\r\n\r\n```\r\nclass PlanetSerializer(serializers.ModelSerializer):\r\nclass Meta:\r\nmodel=Planet\r\nfields=('name','position', 'mass', 'rings')\r\n```\r\n\r\n",
+            "\r\n\r\n```\r\nfrom rest_framework import serializers\r\nfrom .models import Planet\r\nclass PlanetSerializer():\r\nclass Meta:\r\nfields=('name','position', 'mass', 'rings')\r\nmodel=Planet\r\n```\r\n\r\n",
+            "\r\n\r\n```\r\nfrom django.db import serializers\r\nfrom .models import Planet\r\nclass PlanetSerializer(serializers.ModelSerializer):\r\nfields=('name','position', 'mass', 'rings')\r\nmodel=Sandwich\r\n```\r\n\r\n",
+            "\r\n\r\n```\r\nfrom django.db import serializers\r\nfrom .models import Planet\r\nclass PlanetSerializer(serializers.ModelSerializer):\r\nclass Meta:\r\nfields=('name')\r\nmodel=Planet\r\n```\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q44 Which class allows you to automatically create a Serializer class with fields and validators that correspond to your model's fields?",
+        "options": [
+            " ModelSerializer\r\n",
+            " Model\r\n",
+            " DataSerializer\r\n",
+            " ModelToSerializer\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q45 Which command to access the built-in admin tool for the first time?",
+        "options": [
+            " django-admin setup\r\n",
+            " django-admin runserver\r\n",
+            " python manage.py createuser\r\n",
+            " python manage.py createsuperuser\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q46. Virtual environments are for managing dependencies. Which granularity works best?",
+        "options": [
+            " you should set up a new virtualenv for each Django project\r\n",
+            " They should not be used\r\n",
+            " Use the same venv for all your Django work\r\n",
+            " Use a new venv for each Django app\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q47. What executes various Django commands such as running a webserver or creating an app?",
+        "options": [
+            " migrate.py\r\n",
+            " wsgi.py\r\n",
+            " manage.py\r\n",
+            " runserver\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q48. What do Django best practice suggest should be \"fat\"?",
+        "options": [
+            " models\r\n",
+            " controllers\r\n",
+            " programmers\r\n",
+            " clients\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q49. Which is not part of Django's design philosophy?",
+        "options": [
+            " Loose Coupling\r\n",
+            " Less Code\r\n",
+            " Fast Development\r\n",
+            " Implicit over explicit\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q50. What is the result of this template code?",
+        "code": "\r\n{{\"live long and prosper\"|truncate:3}}\r\n",
+        "options": [
+            " live long and ...\r\n",
+            " live long and\r\n",
+            " a compilation error\r\n",
+            " liv\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q51. When does this code load data into memory?",
+        "code": "\r\n1 sandwiches = Sandwich.objects.filter(is_vegan=True)\r\n2 for sandwich in sandwiches:\r\n3   print(sandwich.name + \" - \" + sandwich.spice_level)\r\n",
+        "options": [
+            " line 1\r\n",
+            " It depends on how many results return by query.\r\n",
+            " It depends on cache.\r\n",
+            " line 2\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    null,
+    {
+        "query": " Q53. To expose an existing model via an API endpoint, what do you need to implement?\\*\\*",
+        "options": [
+            " an HTTP request\r\n",
+            " a JSON object\r\n",
+            " a query\r\n",
+            " a serializer\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q54. How would you stop Django from performing database table creation or deletion operations via migrations for a particular model?\\*\\*",
+        "options": [
+            " Run the `migrate` command with `--exclude=[model_name]`.\r\n",
+            " Move the model definition from `models.py` into its own file.\r\n",
+            " Set `managed=False` inside the model.\r\n",
+            " Don't run the `migrate` command.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q55. what method can you use to check if form data has changed when using a form instance?",
+        "options": [
+            " has_changed()\r\n",
+            " its_changed()\r\n",
+            " has_updated()\r\n",
+            " None of This\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q56. What is WSGI?",
+        "options": [
+            " a server\r\n",
+            " an interface specification\r\n",
+            " a Python module\r\n",
+            " a framework\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q57. Which generic view should be used for displaying the tittles of all Django Reinhardt's songs?",
+        "options": [
+            " DetailView\r\n",
+            " TittleView\r\n",
+            " SongView\r\n",
+            " ListView\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q58. Which statement is most acurate, regarding using the default SQLite database on your local/development machine but Postgres in production",
+        "options": [
+            " There's less chance of introducing bugs since SQLite already works out the box\r\n",
+            " It's fine, you just need to keep both instances synchronized\r\n",
+            " It's a bad idea and could lead to issues down the road\r\n",
+            " It's the most efficient way to build a project\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q59. Why might you want to write a custom model Manager?",
+        "options": [
+            " to perform database queries\r\n",
+            " to set up a database for testing\r\n",
+            " to modify the initial QuerySet that the Manager returns\r\n",
+            " to filter the results that a database query returns\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    null,
+    {
+        "query": " Q61. To complete the conditional, what should this block of code end with?",
+        "code": "shell\r\n% if sparles >= 50 %\r\n  Lots of sparkles!\r\n% elif sparkles == 42 %\r\n  The answer to life, the universe, and everything!\r\n",
+        "options": [
+            " `% endif %`\r\n",
+            " Nothing else is needed.\r\n",
+            " `% end%`\r\n",
+            " `% else %`\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q62. You have inherited a Django project and need to get it running locally. It comes with a requirements.txt file containing all its dependencies. Which command should you use?",
+        "options": [
+            " python install -r requirements.txt\r\n",
+            " django-admin startproject requirements.txt\r\n",
+            " pip install Django\r\n",
+            " pip install -r requirements.txt\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q63. When should you employ the POST method over the GET method for submitting data from a form?",
+        "options": [
+            " when the data in the form may be sensitive\r\n",
+            " when you want the data to be cached\r\n",
+            " when you want to use your browser to help with debugging\r\n",
+            " when efficiency is important\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q64. What is a callable that takes a value and raises an error if the value fails to meet some criteria?",
+        "options": [
+            " mediator\r\n",
+            " validator\r\n",
+            " regular expression\r\n",
+            " deodorizer\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q65. You are uploading a file to Django from a form and you want to save the received file as a field on a model object. You can simply assign the file object from**\\_to a field of type\\_\\_**in the model.",
+        "options": [
+            " request.META; FileField\r\n",
+            " request.FILES; BLOBField\r\n",
+            " request.FILES; FileField\r\n",
+            " request.META.Files; CLOBField\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q66. What python module might be used to store the current state of a Django model in a file?",
+        "options": [
+            " pickle\r\n",
+            " struct\r\n",
+            " marshal\r\n",
+            " serialize\r\n"
+        ],
+        "correctAns": 1
+    }
+]

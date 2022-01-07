@@ -1,1 +1,474 @@
-[{"query":" Q1. You are configuring a Wi-Fi base station using DHCP. Which items should you set or change?","options":["\r\n\r\n  - Reset administrator password.\r\n  - Set network name.\r\n  - Set network security.\r\n  - Set network password.\r\n\r\n","\r\n\r\n  - Reset administrator password.\r\n  - Set network name.\r\n  - Set network password.\r\n\r\n"," \r\n\r\n  - Set network name.\r\n  - Set network password.\r\n  - Assign DNS servers.\r\n\r\n","\r\n\r\n  - Change administrator account name.\r\n  - Set network password.\r\n  - Set network name.\r\n  - Assign DNS servers.\r\n\r\n"],"correctAns":1},{"query":" Q2. Can you connect a DisplayPort monitor to a USB-C port on your computer?","options":[" Yes. The DisplayPort cable plugs directly into the USB connector.\r\n"," Yes. An adapter or dongle may be required.\r\n"," No. While you can rig a connection, video quality will be poor.\r\n"," No. The two standards are incompatible.\r\n\r\n"],"correctAns":2},{"query":" Q3. What is the I/O panel?","options":[" the location where expansion cards can connect to peripherals\r\n"," a cluster of ports and connectors found on the back of the computer case\r\n"," the switches that turn on, sleep, and turn off the computer\r\n"," the portion of the motherboard where non-power cables connect\r\n\r\n"],"correctAns":2},{"query":" Q4. The computer consistently boots into Safe Mode. How would you address this issue?","options":[" Edit the Registry key that controls the boot sequence.\r\n"," Hold the Shift key as Windows boots.\r\n"," Check the MSCONFIG utility to ensure that Normal boot is selected.\r\n"," Fix the issue in Safe Mode that is causing the system to restart in this mode.\r\n\r\n"],"correctAns":4},{"query":" Q5. Which choice is not a typical adjustment found on a monitor?","options":[" resolution\r\n"," color temperature\r\n"," contrast\r\n"," brightness\r\n\r\n"],"correctAns":1},{"query":" Q6. Assuming that the gateway, modem, and switch are separate units, in what order should a small office or home office LAN be restarted?","options":[" The order is not important.\r\n","\r\n\r\n  1. Modem\r\n  2. Gateway\r\n  3. Switch\r\n\r\n","\r\n  1. Modem\r\n  2. Switch\r\n  3. Gateway\r\n"," 1. Gateway\r\n  2. Switch\r\n\r\n"],"correctAns":2},{"query":" Q7. A client needs to secure their cafe's wireless network, which is used only by employees. What is the best approach for a finite list of devices?","options":[" Limit access to specific MAC addresses.\r\n"," Do not broadcast the SSID.\r\n"," Apply a metered connection.\r\n"," Apply a password.\r\n\r\n"],"correctAns":1},{"query":" Q8. Which hardware port would not be found on a typical gateway?","options":[" WAN\r\n"," USB\r\n"," LAN\r\n"," uplink\r\n\r\n"],"correctAns":4},{"query":" Q9. The recent Windows update introduced some quirks in the system. How can you enter the Windows Recovery Environment to recover from the update?","options":[" Hold the Shift key when selecting the **Restart** command.\r\n"," Restart in Safe Mode where the Recovery item is located on the Start menu.\r\n"," Press the any key at the boot screen.\r\n"," Go to the Task Manager **Startup** tab.\r\n\r\n"],"correctAns":1},{"query":" Q10. Which components are typically found on the motherboard?","options":["\r\n  basic I/O\r\n  graphics\r\n  NIC\r\n  battery\r\n  expansion slots\r\n\r\n"," basic I/O\r\n      cooling\r\n      NIC\r\n      graphics\r\n      expansion slots\r\n"," basic I/O\r\n      graphics\r\n      NIC\r\n      mass storage\r\n      expansion slots\r\n","\r\n  basic I/O\r\n  graphics\r\n  NIC\r\n  power supply\r\n  expansion slots\r\n\r\n"],"correctAns":1},{"query":" Q11. What does the acronym RAID refer to?","options":[" Repeating Architecture for Internal Drives\r\n"," Recoverable Advanced Integration and Duplication\r\n"," Redundant Array of Independent Disks\r\n"," Replicated Array of Internal Devices\r\n\r\n"],"correctAns":3},null,{"query":" Q13. Your computer boots at very low resolution that cannot be increased through display settings. What is the most likely solution?","options":[" The connection between the display and the computer is loose.\r\n"," You need to reinstall the display drivers.\r\n"," You need to replace your monitor.\r\n"," Some of your RAM is failing.\r\n\r\n"],"correctAns":2},{"query":" Q14. To which choice can the wget program be considered similar?","options":[" tracert\r\n"," netstat\r\n"," ping\r\n"," cURL\r\n\r\n"],"correctAns":4},{"query":" Q15. Does an incognito window prevent websites from tracking your activity on the web?","options":[" No. Incognito mode only prevents the site from appearing in your browser history.\r\n"," Yes. Incognito mode encrypts data packets, making it difficult for websites to track your activity.\r\n"," No. Some websites track by ID, and if you sign into a site even in incognito, your activity is known.\r\n"," Yes. Incognito mode blocks all cookies and tracking IDs and suppresses browser history.\r\n\r\n"],"correctAns":3},{"query":" Q16. What must you confirm before performing a processor upgrade?","options":[" The new processor is compatible with the current motherboard.\r\n"," The new processor is the same type as the old.\r\n"," The new processor is compatible with the operating system.\r\n"," The new processor fits into the old processor's slot.\r\n\r\n"],"correctAns":1},{"query":" Q17. Which type of storage has the fastest data access speeds?","options":[" Secure Sockets Layer drive\r\n"," solid-state drive\r\n"," serial attached storage device\r\n"," SCSI drive\r\n\r\n"],"correctAns":2},{"query":" Q18. A Bluetooth peripheral is prompting for a passcode to complete the pairing/connection process. What is the peripheral, most likely?","options":[" keyboard\r\n"," all of these answers\r\n"," mouse\r\n"," headset\r\n\r\n"],"correctAns":2},{"query":" Q19. Walt's computer is several years old and he wants to ensure that the system works until he gets a replacement. What should he do first?","options":[" Run a file check daily.\r\n"," Obtain an extended warranty.\r\n"," Back up his data.\r\n"," Ensure that the system is protected against malware.\r\n\r\n"],"correctAns":3},{"query":" Q20. What is one difference between a drive and media?","options":[" The drive is where the data is stored and the media is the data itself.\r\n"," A drive is hardware that reads media.\r\n"," These are two terms for the same thing: storage.\r\n"," The terms apply only to removable storage, where the drive is the slot and the media is the thumb drive or media card inserted into the slot.\r\n\r\n"],"correctAns":1},{"query":" Q21. Mass storage inside a desktop computer case is usually found where?","options":[" in an expansion slot\r\n"," attached to the front of the case\r\n"," in a drive cage\r\n"," on the motherboard\r\n\r\n"],"correctAns":3},{"query":" Q22. Which statement about a modular power supply is true?","options":[" It is built from a cluster of smaller, easier-to-install power supplies.\r\n"," Its power output can be varied to save electricity.\r\n"," Its cables are detachable.\r\n"," It has dedicated power reserved for different computer components.\r\n\r\n"],"correctAns":3},{"query":" Q23. Which program controls the Windows startip sequence?","options":[" MSCONFIG\r\n"," Task Manager\r\n"," the Computer Management Console\r\n"," the UEFI\r\n\r\n"],"correctAns":1},{"query":" Q24. Angela ran a diagnostic that shows an ever-decreasing amount of memory in her computer. What could be the problem?","options":[" DRAM is failing.\r\n"," A program has a memory leak.\r\n"," There is no problem. It's normal for available memory to decrease the longer you use the system.\r\n"," Another user has signed into the system\r\n\r\n"],"correctAns":2},null,{"query":" Q26. What is the most important thing to do before opening a computer case?","options":[" Turn off and unplug the computer.\r\n"," Disconnect all of the cables.\r\n"," Close your programs, sign out of your account, and turn off the computer.\r\n"," Ground yourself.\r\n\r\n"],"correctAns":1},{"query":" Q27. On a trackpad, what gesture commonly replaces \"center mouse wheel\" for things like scrolling through documents?","options":[" pinch outward\r\n"," scroll with thumb instead\r\n"," two-finger swipe\r\n"," force click and drag\r\n\r\n"],"correctAns":3},{"query":" Q28. What is the name of the hardware that provides a computer with network access?","options":[" BIOS\r\n"," RJ-45\r\n"," NIC\r\n"," Router\r\n\r\n"],"correctAns":3},{"query":" Q24. Networking wire is referred to as **\\_**","options":[" CAT-5 or CAT-6 Ethernet cable\r\n"," thin pair or twisted pair\r\n"," asynchronous digital (AD) cable\r\n"," coax cable\r\n\r\n"],"correctAns":1},{"query":" Q25. Miguel is working on the computer, and Jen needs to use it for a moment. What can Miguel do to provide for an easy transition?","options":[" Shut down the system.\r\n"," Sign out.\r\n"," Restart the computer.\r\n"," Let Jen take over.\r\n\r\n"],"correctAns":2},{"query":" Q26. A **\\_** allows you to plug computers into a central location to communicate on the same local area network.","options":[" server\r\n"," layer 2 switch\r\n"," wireless access point\r\n"," firewall\r\n\r\n"],"correctAns":1},{"query":" Q27. After plugging in an external 3.5mm microphone, you stop hearing sound from the speakers. What is the most likely source of the problem?","options":[" You have plugged the microphone into the 3.5mm audio output jack.\r\n"," The sound is muted.\r\n"," The sound card has crashed.\r\n"," The computer has connected to a nearby Bluetooth headset.\r\n\r\n"],"correctAns":1},{"query":" Q28. You think that the Internet is down. How can you know for certain?","options":[" all of these answers.\r\n"," You cannot reach any websites.\r\n"," The power is out.\r\n"," The lights on the modem are off.\r\n\r\n"],"correctAns":1},{"query":" Q29. An application is unresponsive. How can you effectively close it down?","options":[" Restart the computer.\r\n"," Sign out.\r\n"," Wait or set the application aside until it quits eventually on its own.\r\n"," Use the Task Manager (Windows) or use Force Quit (Mac).\r\n\r\n"],"correctAns":4},{"query":" Q30. How can you tell that the website you are visiting is sending and receiving data that has been encrypted?","options":[" The URL is HTTPS.\r\n"," You are using an incognito window.\r\n"," The site requires a login and password.\r\n"," You can't tell because a website's security settings are not readily apparent in a browser window.\r\n\r\n"],"correctAns":1},{"query":" Q31. The client/server model best represents **\\_**.","options":[" multiple hosts interacting with a single computer\r\n"," an application consisting of cooperating programs across the Internet\r\n"," any program run by a user\r\n"," a subscription service on the web\r\n\r\n"],"correctAns":1},{"query":" Q32. The primary mass storage device is divided into two partitions. What would explain this arrangement?","options":[" There is one partition for the operating system and a separate partition for user data.\r\n"," All drives contain a second partition for the MBR (Master Boot Record).\r\n"," The drive is partitioned to maintain compatibility with older versions of the operating system.\r\n"," The system has two users who are each getting a partition.\r\n\r\n"],"correctAns":1},{"query":" Q33. You are replacing a processor. How do you build the processor \"sandwich\", top-down?","options":[" fan, paste, processor, socket\r\n"," fan, processor, socket\r\n"," fan, paste, processor, paste, socket\r\n"," fan, processor, paste, socket\r\n\r\n"],"correctAns":1},{"query":" Q34. The operating system tells you that a file is busy. What is the fastest way to attempt to make the file un-busy?","options":[" Run a disk-checking utility.\r\n"," Close open programs.\r\n"," Restart the computer.\r\n"," Review the output of the netstat utility to check for incoming connections to the file.\r\n\r\n"],"correctAns":2},{"query":" Q35. What is the name of the hardware that provides a computer with network access?","options":[" BIOS\r\n"," RJ-45\r\n"," router\r\n"," NIC\r\n\r\n"],"correctAns":3},{"query":" Q36. Which program controls the Windows startup sequence?","options":[" MSCONFIG\r\n"," the Computer Management Console\r\n"," Task Manager\r\n"," the UEFI\r\n\r\n"],"correctAns":1},{"query":" Q37. Which service allows clients to work remotely and supplies the clients with an IP address on the same local area network as the offce?","options":[" DNS\r\n"," FTP\r\n"," VPN\r\n"," HTTP\r\n\r\n"],"correctAns":3},{"query":" Q38. Al is about to update a software driver. What would be a wise thing to do first?","options":[" Back up all files.\r\n"," Save data and close programs.\r\n"," Remove the older driver.\r\n"," Sign out of the operating system.\r\n\r\n"],"correctAns":1},{"query":" Q39. What is the process of moving data and programs from an old computer to a new one called?","options":[" migration\r\n"," An official term does not exist, though it is colloquieally referred to as a \"brain transplant.\"\r\n"," profile transfer\r\n"," account cloning\r\n\r\n"],"correctAns":3},{"query":" Q40. The local network is up, but the computers cannot access the Internet. Your Internet configuration includes a modem, gateway (router), and a switch as separate devices. What should you do?","options":[" Do nothing. Wait until service is restored.\r\n"," Restart all computers on the network.\r\n"," Restart the gateway (router).\r\n"," Restart the modem.\r\n\r\n"],"correctAns":4},{"query":" Q41. You notice that a program crashes at a specific time. Which tool can you use in Windows to discover the cause?","options":[" Task Manager\r\n"," Event Viewer\r\n"," Perfomance Monitor\r\n"," Resource Monitor\r\n\r\n"],"correctAns":2},{"query":" Q42. While planning a conference at a center in the mountains, you call ahead to ensure that it has broadband Internet access. Wich connection type would be an unsuitable choice?","options":[" DSL\r\n"," fiber optic\r\n"," cable\r\n"," dial-up\r\n\r\n"],"correctAns":4},{"query":" Q43. On a trackpad, what gesture commonly replaces \"center mouse wheel\" for things like scrolling through documents?","options":[" two-finger swipe\r\n"," pinch outward\r\n"," scroll with thumb instead\r\n"," force click and drag\r\n\r\n"],"correctAns":1},{"query":" Q44. What is a fixed disk","options":[" mass storage that has ben repaired\r\n"," nonremovable mass storage\r\n"," any internal mass storage device\r\n"," any mass storage device that is not a SSD\r\n"],"correctAns":2}]
+[
+    {
+        "query": " Q1. You are configuring a Wi-Fi base station using DHCP. Which items should you set or change?",
+        "options": [
+            "\r\n\r\n  - Reset administrator password.\r\n  - Set network name.\r\n  - Set network security.\r\n  - Set network password.\r\n\r\n",
+            "\r\n\r\n  - Reset administrator password.\r\n  - Set network name.\r\n  - Set network password.\r\n\r\n",
+            " \r\n\r\n  - Set network name.\r\n  - Set network password.\r\n  - Assign DNS servers.\r\n\r\n",
+            "\r\n\r\n  - Change administrator account name.\r\n  - Set network password.\r\n  - Set network name.\r\n  - Assign DNS servers.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q2. Can you connect a DisplayPort monitor to a USB-C port on your computer?",
+        "options": [
+            " Yes. The DisplayPort cable plugs directly into the USB connector.\r\n",
+            " Yes. An adapter or dongle may be required.\r\n",
+            " No. While you can rig a connection, video quality will be poor.\r\n",
+            " No. The two standards are incompatible.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q3. What is the I/O panel?",
+        "options": [
+            " the location where expansion cards can connect to peripherals\r\n",
+            " a cluster of ports and connectors found on the back of the computer case\r\n",
+            " the switches that turn on, sleep, and turn off the computer\r\n",
+            " the portion of the motherboard where non-power cables connect\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q4. The computer consistently boots into Safe Mode. How would you address this issue?",
+        "options": [
+            " Edit the Registry key that controls the boot sequence.\r\n",
+            " Hold the Shift key as Windows boots.\r\n",
+            " Check the MSCONFIG utility to ensure that Normal boot is selected.\r\n",
+            " Fix the issue in Safe Mode that is causing the system to restart in this mode.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q5. Which choice is not a typical adjustment found on a monitor?",
+        "options": [
+            " resolution\r\n",
+            " color temperature\r\n",
+            " contrast\r\n",
+            " brightness\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q6. Assuming that the gateway, modem, and switch are separate units, in what order should a small office or home office LAN be restarted?",
+        "options": [
+            " The order is not important.\r\n",
+            "\r\n\r\n  1. Modem\r\n  2. Gateway\r\n  3. Switch\r\n\r\n",
+            "\r\n  1. Modem\r\n  2. Switch\r\n  3. Gateway\r\n",
+            " 1. Gateway\r\n  2. Switch\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q7. A client needs to secure their cafe's wireless network, which is used only by employees. What is the best approach for a finite list of devices?",
+        "options": [
+            " Limit access to specific MAC addresses.\r\n",
+            " Do not broadcast the SSID.\r\n",
+            " Apply a metered connection.\r\n",
+            " Apply a password.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q8. Which hardware port would not be found on a typical gateway?",
+        "options": [
+            " WAN\r\n",
+            " USB\r\n",
+            " LAN\r\n",
+            " uplink\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q9. The recent Windows update introduced some quirks in the system. How can you enter the Windows Recovery Environment to recover from the update?",
+        "options": [
+            " Hold the Shift key when selecting the **Restart** command.\r\n",
+            " Restart in Safe Mode where the Recovery item is located on the Start menu.\r\n",
+            " Press the any key at the boot screen.\r\n",
+            " Go to the Task Manager **Startup** tab.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q10. Which components are typically found on the motherboard?",
+        "options": [
+            "\r\n  basic I/O\r\n  graphics\r\n  NIC\r\n  battery\r\n  expansion slots\r\n\r\n",
+            " basic I/O\r\n      cooling\r\n      NIC\r\n      graphics\r\n      expansion slots\r\n",
+            " basic I/O\r\n      graphics\r\n      NIC\r\n      mass storage\r\n      expansion slots\r\n",
+            "\r\n  basic I/O\r\n  graphics\r\n  NIC\r\n  power supply\r\n  expansion slots\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q11. What does the acronym RAID refer to?",
+        "options": [
+            " Repeating Architecture for Internal Drives\r\n",
+            " Recoverable Advanced Integration and Duplication\r\n",
+            " Redundant Array of Independent Disks\r\n",
+            " Replicated Array of Internal Devices\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    null,
+    {
+        "query": " Q13. Your computer boots at very low resolution that cannot be increased through display settings. What is the most likely solution?",
+        "options": [
+            " The connection between the display and the computer is loose.\r\n",
+            " You need to reinstall the display drivers.\r\n",
+            " You need to replace your monitor.\r\n",
+            " Some of your RAM is failing.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q14. To which choice can the wget program be considered similar?",
+        "options": [
+            " tracert\r\n",
+            " netstat\r\n",
+            " ping\r\n",
+            " cURL\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q15. Does an incognito window prevent websites from tracking your activity on the web?",
+        "options": [
+            " No. Incognito mode only prevents the site from appearing in your browser history.\r\n",
+            " Yes. Incognito mode encrypts data packets, making it difficult for websites to track your activity.\r\n",
+            " No. Some websites track by ID, and if you sign into a site even in incognito, your activity is known.\r\n",
+            " Yes. Incognito mode blocks all cookies and tracking IDs and suppresses browser history.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q16. What must you confirm before performing a processor upgrade?",
+        "options": [
+            " The new processor is compatible with the current motherboard.\r\n",
+            " The new processor is the same type as the old.\r\n",
+            " The new processor is compatible with the operating system.\r\n",
+            " The new processor fits into the old processor's slot.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q17. Which type of storage has the fastest data access speeds?",
+        "options": [
+            " Secure Sockets Layer drive\r\n",
+            " solid-state drive\r\n",
+            " serial attached storage device\r\n",
+            " SCSI drive\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q18. A Bluetooth peripheral is prompting for a passcode to complete the pairing/connection process. What is the peripheral, most likely?",
+        "options": [
+            " keyboard\r\n",
+            " all of these answers\r\n",
+            " mouse\r\n",
+            " headset\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q19. Walt's computer is several years old and he wants to ensure that the system works until he gets a replacement. What should he do first?",
+        "options": [
+            " Run a file check daily.\r\n",
+            " Obtain an extended warranty.\r\n",
+            " Back up his data.\r\n",
+            " Ensure that the system is protected against malware.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q20. What is one difference between a drive and media?",
+        "options": [
+            " The drive is where the data is stored and the media is the data itself.\r\n",
+            " A drive is hardware that reads media.\r\n",
+            " These are two terms for the same thing: storage.\r\n",
+            " The terms apply only to removable storage, where the drive is the slot and the media is the thumb drive or media card inserted into the slot.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q21. Mass storage inside a desktop computer case is usually found where?",
+        "options": [
+            " in an expansion slot\r\n",
+            " attached to the front of the case\r\n",
+            " in a drive cage\r\n",
+            " on the motherboard\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q22. Which statement about a modular power supply is true?",
+        "options": [
+            " It is built from a cluster of smaller, easier-to-install power supplies.\r\n",
+            " Its power output can be varied to save electricity.\r\n",
+            " Its cables are detachable.\r\n",
+            " It has dedicated power reserved for different computer components.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q23. Which program controls the Windows startip sequence?",
+        "options": [
+            " MSCONFIG\r\n",
+            " Task Manager\r\n",
+            " the Computer Management Console\r\n",
+            " the UEFI\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q24. Angela ran a diagnostic that shows an ever-decreasing amount of memory in her computer. What could be the problem?",
+        "options": [
+            " DRAM is failing.\r\n",
+            " A program has a memory leak.\r\n",
+            " There is no problem. It's normal for available memory to decrease the longer you use the system.\r\n",
+            " Another user has signed into the system\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    null,
+    {
+        "query": " Q26. What is the most important thing to do before opening a computer case?",
+        "options": [
+            " Turn off and unplug the computer.\r\n",
+            " Disconnect all of the cables.\r\n",
+            " Close your programs, sign out of your account, and turn off the computer.\r\n",
+            " Ground yourself.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q27. On a trackpad, what gesture commonly replaces \"center mouse wheel\" for things like scrolling through documents?",
+        "options": [
+            " pinch outward\r\n",
+            " scroll with thumb instead\r\n",
+            " two-finger swipe\r\n",
+            " force click and drag\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q28. What is the name of the hardware that provides a computer with network access?",
+        "options": [
+            " BIOS\r\n",
+            " RJ-45\r\n",
+            " NIC\r\n",
+            " Router\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q24. Networking wire is referred to as **\\_**",
+        "options": [
+            " CAT-5 or CAT-6 Ethernet cable\r\n",
+            " thin pair or twisted pair\r\n",
+            " asynchronous digital (AD) cable\r\n",
+            " coax cable\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q25. Miguel is working on the computer, and Jen needs to use it for a moment. What can Miguel do to provide for an easy transition?",
+        "options": [
+            " Shut down the system.\r\n",
+            " Sign out.\r\n",
+            " Restart the computer.\r\n",
+            " Let Jen take over.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q26. A **\\_** allows you to plug computers into a central location to communicate on the same local area network.",
+        "options": [
+            " server\r\n",
+            " layer 2 switch\r\n",
+            " wireless access point\r\n",
+            " firewall\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q27. After plugging in an external 3.5mm microphone, you stop hearing sound from the speakers. What is the most likely source of the problem?",
+        "options": [
+            " You have plugged the microphone into the 3.5mm audio output jack.\r\n",
+            " The sound is muted.\r\n",
+            " The sound card has crashed.\r\n",
+            " The computer has connected to a nearby Bluetooth headset.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q28. You think that the Internet is down. How can you know for certain?",
+        "options": [
+            " all of these answers.\r\n",
+            " You cannot reach any websites.\r\n",
+            " The power is out.\r\n",
+            " The lights on the modem are off.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q29. An application is unresponsive. How can you effectively close it down?",
+        "options": [
+            " Restart the computer.\r\n",
+            " Sign out.\r\n",
+            " Wait or set the application aside until it quits eventually on its own.\r\n",
+            " Use the Task Manager (Windows) or use Force Quit (Mac).\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q30. How can you tell that the website you are visiting is sending and receiving data that has been encrypted?",
+        "options": [
+            " The URL is HTTPS.\r\n",
+            " You are using an incognito window.\r\n",
+            " The site requires a login and password.\r\n",
+            " You can't tell because a website's security settings are not readily apparent in a browser window.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q31. The client/server model best represents **\\_**.",
+        "options": [
+            " multiple hosts interacting with a single computer\r\n",
+            " an application consisting of cooperating programs across the Internet\r\n",
+            " any program run by a user\r\n",
+            " a subscription service on the web\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q32. The primary mass storage device is divided into two partitions. What would explain this arrangement?",
+        "options": [
+            " There is one partition for the operating system and a separate partition for user data.\r\n",
+            " All drives contain a second partition for the MBR (Master Boot Record).\r\n",
+            " The drive is partitioned to maintain compatibility with older versions of the operating system.\r\n",
+            " The system has two users who are each getting a partition.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q33. You are replacing a processor. How do you build the processor \"sandwich\", top-down?",
+        "options": [
+            " fan, paste, processor, socket\r\n",
+            " fan, processor, socket\r\n",
+            " fan, paste, processor, paste, socket\r\n",
+            " fan, processor, paste, socket\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q34. The operating system tells you that a file is busy. What is the fastest way to attempt to make the file un-busy?",
+        "options": [
+            " Run a disk-checking utility.\r\n",
+            " Close open programs.\r\n",
+            " Restart the computer.\r\n",
+            " Review the output of the netstat utility to check for incoming connections to the file.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q35. What is the name of the hardware that provides a computer with network access?",
+        "options": [
+            " BIOS\r\n",
+            " RJ-45\r\n",
+            " router\r\n",
+            " NIC\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q36. Which program controls the Windows startup sequence?",
+        "options": [
+            " MSCONFIG\r\n",
+            " the Computer Management Console\r\n",
+            " Task Manager\r\n",
+            " the UEFI\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q37. Which service allows clients to work remotely and supplies the clients with an IP address on the same local area network as the offce?",
+        "options": [
+            " DNS\r\n",
+            " FTP\r\n",
+            " VPN\r\n",
+            " HTTP\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q38. Al is about to update a software driver. What would be a wise thing to do first?",
+        "options": [
+            " Back up all files.\r\n",
+            " Save data and close programs.\r\n",
+            " Remove the older driver.\r\n",
+            " Sign out of the operating system.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q39. What is the process of moving data and programs from an old computer to a new one called?",
+        "options": [
+            " migration\r\n",
+            " An official term does not exist, though it is colloquieally referred to as a \"brain transplant.\"\r\n",
+            " profile transfer\r\n",
+            " account cloning\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q40. The local network is up, but the computers cannot access the Internet. Your Internet configuration includes a modem, gateway (router), and a switch as separate devices. What should you do?",
+        "options": [
+            " Do nothing. Wait until service is restored.\r\n",
+            " Restart all computers on the network.\r\n",
+            " Restart the gateway (router).\r\n",
+            " Restart the modem.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q41. You notice that a program crashes at a specific time. Which tool can you use in Windows to discover the cause?",
+        "options": [
+            " Task Manager\r\n",
+            " Event Viewer\r\n",
+            " Perfomance Monitor\r\n",
+            " Resource Monitor\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q42. While planning a conference at a center in the mountains, you call ahead to ensure that it has broadband Internet access. Wich connection type would be an unsuitable choice?",
+        "options": [
+            " DSL\r\n",
+            " fiber optic\r\n",
+            " cable\r\n",
+            " dial-up\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q43. On a trackpad, what gesture commonly replaces \"center mouse wheel\" for things like scrolling through documents?",
+        "options": [
+            " two-finger swipe\r\n",
+            " pinch outward\r\n",
+            " scroll with thumb instead\r\n",
+            " force click and drag\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q44. What is a fixed disk",
+        "options": [
+            " mass storage that has ben repaired\r\n",
+            " nonremovable mass storage\r\n",
+            " any internal mass storage device\r\n",
+            " any mass storage device that is not a SSD\r\n"
+        ],
+        "correctAns": 2
+    }
+]

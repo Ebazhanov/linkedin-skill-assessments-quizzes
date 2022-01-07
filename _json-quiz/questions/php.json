@@ -1,1 +1,743 @@
-[{"query":"","options":[" 1\r\n"," -1\r\n"," a parser error\r\n"," 0\r\n\r\n"],"correctAns":2},{"query":"","options":[" `$encrypted = shal($password);`\r\n"," `$encrypted = crypt($password, \\$salt);`\r\n"," `$encrypted = md5($password);`\r\n"," `$encrypted = password_hash($password, PASSWORD_DEFAULT);`\r\n\r\n"],"correctAns":4},{"query":"","code":"php\r\n$email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);\r\nif ($email === false) {\r\n    $emailErr = \"Please re-enter valid email\";\r\n}\r\n","options":[" It makes sure the email address is a good and functioning address\r\n"," It makes an email safe to input into a database\r\n"," It assigns an email to a variable and then removes all illegal characters from the \\$email variable\r\n"," It verifies that an email address is well formed.\r\n\r\n"],"correctAns":4},{"query":"","code":"\r\n1 <?php\r\n2       $count = 0;\r\n3       $_xval = 5;\r\n4       $_yval = 1.0;\r\n5       $some_string = \"Hello there!\";\r\n6       $some_string = \"How are you?\";\r\n7       $will i work = 6;\r\n8       $3blindmice = 3;\r\n9 ?>\r\n","options":[" Line 6 will cause an error because you can't reassign a new value to a variable that has already been set.\r\n"," Line 7 and 8 will cause an error. Line 7 has whitespace in $will i work and should be $will_i_work. Line 8 cannot start with a number befcause it is a variable.\r\n"," Line 5 will cause an error because some_string should be someString.\r\n"," Line 3 and 4 will cause an error because a variable cannot start with an underscore(\\_).\r\n\r\n"],"correctAns":2},{"query":"","options":[" ||\r\n"," &\r\n"," <=>\r\n"," &&\r\n\r\n"],"correctAns":4},{"query":"","options":[" &\r\n"," %\r\n"," \\_\r\n"," $\r\n\r\n"],"correctAns":4},{"query":"","options":[" GET is used with the HTTP protocol. POST is used with HTTPS.\r\n"," GET displays the submitted data as part of the URL. During POST, this information is not shown, as it's encoded in the request body.\r\n"," GET is intended for changing the server state and it carries more data than POST.\r\n"," GET is more secure than POST and should be used for sensitive information.\r\n\r\n"],"correctAns":2},{"query":"","options":[" greater-than; right\r\n"," spaceship; left\r\n"," equality; right\r\n"," comparison; left\r\n\r\n"],"correctAns":2},{"query":"","options":[" try, throw, catch, callable\r\n"," try, yield, catch, finally\r\n"," yield, throw, catch, finally\r\n"," try, throw, catch, finally\r\n\r\n"],"correctAns":4},{"query":"","options":[" 0\r\n"," NULL\r\n"," ''\r\n"," -1\r\n\r\n"],"correctAns":4},{"query":"","code":"php\r\n1 $string_name = \"testcookie\";\r\n2 $string_value = \"This is a test cookie\";\r\n3 $expiry_info = info()+259200;\r\n4 $string_domain = \"localhost.localdomain\";\r\n","options":[" The `$_REQUEST` is missing.\r\n"," The `$_COOKIES` array is missing.\r\n"," The cookie session is missing.\r\n"," The call to `setcookie()` is missing.\r\n\r\n"],"correctAns":4},{"query":"","options":[" 44\r\n"," 138\r\n"," 126\r\n"," 100\r\n\r\n"],"correctAns":4},{"query":"","options":[" It makes the dot metacharacter match anything, including newline characters.\r\n"," It makes the pattern match uppercase letters.\r\n"," Both the pattern and subject string are treated as UTF-8.\r\n"," It inverts the greediness of the quantifiers in the pattern so they are not greedy by default.\r\n\r\n"],"correctAns":3},{"query":"","options":[" `$dog = new Pet;`\r\n"," all of these answers\r\n"," `$horse = (new Pet);`\r\n"," `$cat = new Pet();`\r\n\r\n"],"correctAns":2},{"query":"","code":"php\r\n1 if (!$_SESSION['myusername'])\r\n2 {\r\n3   header('locaton: /login.php');\r\n4   exit;\r\n5 }\r\n","options":[" This script times out the session for myusername.\r\n"," Cookies are starting to be stored as a result of this script.\r\n"," This script validates the username and password.\r\n"," This script is on a page that requires the user to be logged in. It checks to see if the user has a valid session.\r\n\r\n"],"correctAns":4},{"query":"","options":[" all of these answers\r\n"," #This is a comment\r\n"," /_ This is a comment _/\r\n"," // This is a comment\r\n\r\n"],"correctAns":1},{"query":"","options":[" for\r\n"," do-while\r\n"," while\r\n"," foreach\r\n\r\n"],"correctAns":3},{"query":"","options":[" You would use it to stop a user from clicking the back button if they decide not to view as a result of a click.\r\n"," You would use this function if you have some important processing to do and you do not want to stop it, even if your users click Cancel.\r\n"," You would use this function if you wanted to abort the script for all logged-in users, not just the one who disconnected.\r\n"," You would use this function if you want a PHP script to run forever.\r\n\r\n"],"correctAns":2},{"query":"","code":null,"options":["\r\n  ```php\r\n  1 <?php\r\n  2 echo array_reduce([1, 2, 5, 10, 11], function ($item, $carry) {\r\n  3     $carry = $carry + $item;\r\n  4 });\r\n  5?>\r\n  ```\r\n","\r\n  ```php\r\n  1 <?php\r\n  2 echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) {\r\n  3     return $carry = $item + $item;\r\n  4 });\r\n  5?>\r\n  ```\r\n","\r\n  ```php\r\n  1 <?php\r\n  2 array_reduce([11 2, 5, 10, 11], function ($item, $carry) {\r\n  3     echo $carry + $item;\r\n  4 });\r\n  5?>\r\n  ```\r\n","\r\n  ```php\r\n  1 <?php\r\n  2 echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) {\r\n  3     return $carry += $item;\r\n  4 });\r\n  5?>\r\n  ```\r\n\r\n"],"correctAns":4},{"query":"","code":null,"options":["\r\n  ```php\r\n  1 class MyClass {\r\n  2 public function _construct()\r\n  3 {\r\n  4 echo 'Winter is almost over!'.\"\\n\";\r\n  5 }\r\n  6 }\r\n  7 \\$userclass = new MyClass;\r\n  ```\r\n","\r\n  ```php\r\n  1 class MyClass {\r\n  2 public function _construct()\r\n  3 {\r\n  4 echo 'Winter is almost over!..\"\\n\";\r\n  5 }\r\n  6 }\r\n  7 $userclass = new MyClass;\r\n  ```\r\n","\r\n  ```php\r\n  1 class MyClass {\r\n  2 public function _construct()\r\n  3 {\r\n  4 echo 'Winter is almost over!..\"\\n\";\r\n  5 }\r\n  6 }\r\n  7 \\$userclass = new MyClass;\r\n  ```\r\n","\r\n  ```php\r\n  1 class MyClass {\r\n  2 public function _construct()\r\n  3 {\r\n  4 echo 'Winter is almost over!'.\"n\";\r\n  5 }\r\n  6 }\r\n  7 $userclass = MyClass;\r\n  ```\r\n\r\n"],"correctAns":1},{"query":"","options":[" Make sure you have imported the file containing the function.\r\n"," Make sure you have spelled the function name correctly.\r\n"," all of these answers\r\n"," Make sure the function declaration is at an earlier point in the code than the function call.\r\n\r\n"],"correctAns":3},{"query":"","options":[" `/* Space: the final frontier */`\r\n"," `*/ Space: the final frontier /*`\r\n"," `#Space: the final frontier`\r\n"," `// Space: the final frontier`\r\n\r\n"],"correctAns":2},{"query":"","options":[" The browser would display nothing due to a syntax error.\r\n"," The browser would display an error, since there are no parentheses around the string.\r\n"," The browser would display `How much are the bananas?`\r\n"," The browser would display an error, since there is no semicolon at the end of the echo command.\r\n\r\n"],"correctAns":3},{"query":"","options":[" /\r\n"," %\r\n"," //\r\n"," DIV\r\n\r\n"],"correctAns":2},{"query":"","code":"php\r\nfunction process(...$vals) {\r\n        // do some processing\r\n }\r\n","options":[" It makes the function variadic, allowing it to accept as an argument an array containing an arbitrary number of values.\r\n"," It makes the function variadic, allowing it to accept an arbitrary number of arguments that are converted into an array inside the function.\r\n"," It temporarily disables the function while debugging other parts of the script.\r\n"," It's a placeholder like a TO DO reminder that automatically triggers a notice when you run a script before completing the function definition.\r\n\r\n"],"correctAns":2},{"query":"","options":[" `class Pegasus extends Horse {}`\r\n"," `class Alicorn imports Pegasus, Unicorn {}`\r\n"," `class Unicorn implements Horse {}`\r\n"," `class Horse inherits Unicorn {}`\r\n\r\n"],"correctAns":1},{"query":"","options":[" compare; doubles; triples\r\n"," compare; triples; doubles\r\n"," assign; triples; doubles\r\n"," assign; doubles; triples\r\n\r\n"],"correctAns":1},{"query":"","options":[" Add this code to the top of your script: `ini_set('display_errors',1);`\r\n"," check the server error logged\r\n"," all of these answers\r\n"," make sure you are not missing any semicolons\r\n\r\n"],"correctAns":3},{"query":"","code":"\r\nseasons=array(\r\n    1=>'spring',\r\n    2=>'summer',\r\n    3=>'autumn',\r\n    4=>'winter',\r\n);\r\n","options":["\r\n\r\n```\r\nseasons=array(\r\n    1=>'spring',\r\n    2=>'summer',\r\n    3=>'autumn',\r\n    4=>'winter',\r\n);\r\n```\r\n\r\n"," `$seasons=array(spring,summer,autumn,winter);`\r\n"," `$seasons=('spring','summer','autumn','winter');`\r\n"," `$seasons=['spring','summer','autumn','winter'];`\r\n\r\n"],"correctAns":3},{"query":"","options":[" private, public\r\n"," object,primitive\r\n"," non-static,static\r\n"," concrete,abstract\r\n\r\n"],"correctAns":3},{"query":"","code":"php\r\n$mathe=array('archi','euler','pythagoras');\r\narray_push($mathe,'hypatia');\r\narray_push($mathe,'fibonacci');\r\narray_pop($mathe);\r\necho array_pop($mathe);\r\necho sizeof($mathe);\r\n","options":[" euler3\r\n"," hypatia5\r\n"," hypatia3\r\n"," fibonacci4\r\n\r\n"],"correctAns":3},{"query":"","options":[" check if `fav_band` is included in the query string at the top of your browser\r\n"," all of the answers\r\n"," view the source of form and make sure there is an input field with the name 'fav_band'\r\n"," print everything that has been transmitted in the request: `print_r($_REQUEST);`\r\n\r\n"],"correctAns":2},{"query":"","options":[" all of the answers\r\n"," `print_r($cupcakes);`\r\n"," `var_dump($cupcakes);`\r\n"," `foreach($cupcakes as &$cupcake) echo $cupcake;`\r\n\r\n"],"correctAns":1},{"query":"","options":[" You are trying to modify a private value\r\n"," Semicolon missing\r\n"," Using a key on an array that does not exists\r\n"," Some html is being sent before a `header()` command that you are using for a redirect\r\n\r\n"],"correctAns":4},{"query":"","options":[" `else`\r\n"," `break`\r\n"," `return`\r\n"," `continue`\r\n\r\n"],"correctAns":4},{"query":"","options":[" there is an output '2 is an even number\r\n"," output '21 is an odd number'\r\n"," no output. Syntax error do to missing semicolon at the end\r\n"," no output due to % in \\$num%2!=0\r\n\r\n"],"correctAns":2},{"query":"","options":[" `php -h`\r\n"," `php info`\r\n"," `php -v`\r\n"," `php -m`\r\n\r\n"],"correctAns":4},null,{"query":"","options":[" 4.167\r\n"," 1.5\r\n"," 4\r\n"," 1\r\n\r\n"],"correctAns":4},{"query":"","options":[" The controller handles data passed to it by the view, and also passes data to the view. It interprets data sent by the view and disperses that data to the approrpiate models awaiting results to pass back to the view.\r\n"," The controller is a mechanism that allows you to create reusable code in languages such as PHP, where multiple inheritance is not supported.\r\n"," The controller presents content through the user interface, after communicating directly with the database.\r\n"," The controller handles specific tasks related to a specific area of functionality, handles business logic related to the results, and communicates directly with the database.\r\n\r\n"],"correctAns":1},{"query":"","options":[" Strings should always be wrapped in double quotes; and double quotes inside a string should be escaped by backslashes.\r\n"," All single and double quotes inside a string need to be escaped by backslashes to prevent a parse error.\r\n"," The opening and closing single quotes should be replaced by double quotes; and the apostrophe should be escaped by a backslash.\r\n"," The apostrophe needs to be escaped by a backslash to prevent it from being treated as the closing quote.\r\n\r\n"],"correctAns":4},{"query":"","options":[" NULL\r\n"," TRUE\r\n"," FALSE\r\n"," 0\r\n\r\n"],"correctAns":1},{"query":"","options":[" `echo $first_name. ' '. $family_name;`\r\n"," `print $first_name, ' ', $family_name;`\r\n"," `print $first_name. ' '. $family_name;`\r\n"," `echo $first_name, ' ', $family_name;`\r\n\r\n"],"correctAns":2},{"query":"","code":null,"options":["\r\n  ```php\r\n  class Cow extends Animal {\r\n      private $milk;\r\n  }\r\n  ```\r\n","\r\n  ```php\r\n  class Cow {\r\n      public $milk;\r\n  }\r\n  $daisy = new Cow();\r\n  $daisy->milk = \"creamy\";\r\n  ```\r\n","\r\n  ```php\r\n  class Cow {\r\n      public $milk;\r\n      function getMilk() {`\r\n          return $this->milk;\r\n      }\r\n  }\r\n  ```\r\n","\r\n  ```php\r\n  class Cow {\r\n      private $milk;\r\n      public function getMilk() {\r\n          return $this->milk;\r\n      }\r\n  }\r\n  ```\r\n\r\n"],"correctAns":4},{"query":"","code":"xml\r\n<books>\r\n    <book>\r\n        <title>A Tale of Two Cities</title>\r\n        <author>Charles Dickens</author>\r\n        <categories>\r\n            <category>Classics</category>\r\n            <category>Historical</category>\r\n        </categories>\r\n    </book>\r\n    <book>\r\n        <title>Then There Were None</title>\r\n        <author>Agatha Christies</author>\r\n        <categories>\r\n            <category>Mystery</category>\r\n        </categories>\r\n    </book>\r\n</books>\r\n","options":["\r\n  ```php\r\n  $books = simplexml_load_string('books.xml');\r\n  echo $books->book[0]->categories->category[1];\r\n  ```\r\n","\r\n  ```php\r\n  $books = simplexml_load_file('books.xml');\r\n  echo $books->book[0]->categories->category[1];\r\n  ```\r\n","\r\n  ```php\r\n  $books = SimpleXMLElement('books.xml');\r\n  echo $books->book[0]->categories->category[1];\r\n  ```\r\n","\r\n  ```php\r\n  $books = SimpleXML('books.xml');\r\n  echo $books->book[0]->categories->category[1];\r\n  ```\r\n\r\n"],"correctAns":2},{"query":"","options":[" NULL is a blank value; empty is the lack of a value.\r\n"," A NULL value has an allocated address in memory; empty does not.\r\n"," NULL referes to the lack of a value for an integer; empty refers to the lack of a value for a string.\r\n"," NULL is the lack of a value; empty is a blank value.\r\n\r\n"],"correctAns":4},{"query":"","code":"php\r\nfunction doStuff($haystack, $needle) {\r\n      $length = strlen($needle)\r\n      if (substr($haystack, 0, $length) == $needle)\r\n        return true;\r\n      else\r\n        return false;\r\n}\r\n","options":[" `equals`\r\n"," `endsWith`\r\n"," `startsWith`\r\n"," `contains`\r\n\r\n"],"correctAns":3},{"query":"","options":[" request; response\r\n"," response; request\r\n"," session; request\r\n"," request; session\r\n\r\n"],"correctAns":4},{"query":"","code":"php\r\nisset($_POST['submit'])\r\n","options":[" Make sure the input field displaying the button is named 'submit'\r\n"," Make sure you are not missing any semicolons\r\n"," Print everything in the session `print_r($_SESSION);`\r\n"," Look in the query string at the top of your browser to see if submit is assigned a value\r\n\r\n"],"correctAns":1},{"query":"","options":[" because coding standards often vary between developers and companies\r\n"," because coding standards are monitored for compliance across developers and companies\r\n"," because there are mandatory coding standards among developers and companies\r\n"," if using certain platforms, because the PSR's apply to those platforms only\r\n\r\n"],"correctAns":1},{"query":"","options":[" Getters and setters ensure that if a data member is declared private, then it can be accessed only within the same function, not by an outside class\r\n"," Getters and setters are utility functions within PHP that allow loading from, and saving to, a database\r\n"," Getters and setters encapsulate the fields of a class by making them acccessible only through its private methods, and keep the values themselves public\r\n"," Getters and setters are methods used to declare or obtain the values of variables, usually private ones\r\n\r\n"],"correctAns":4},{"query":" Q52. What are the recommended settings in the PHP configuration file, php.ini, for a testing environment?","code":null,"options":["\r\n  ```php\r\n  report_errors = E_ALL\r\n  display_errors = On\r\n  ```\r\n","\r\n  ```php\r\n  error_reporting = E_ALL\r\n  display_errors = On\r\n  ```\r\n","\r\n  ```php\r\n  error_reporting = E_ALL & ~E_NOTICE\r\n  display_errors = Off\r\n  ```\r\n","\r\n  ```php\r\n  error_reporting = E_ALL & ~E_NOTICE\r\n  display_errors = On\r\n  ```\r\n\r\n"],"correctAns":2},{"query":" Q53. Which PHP variable name is invalid?","options":[" `$Double`\r\n"," `$double`\r\n"," `$_2times`\r\n"," `$2times`\r\n\r\n"],"correctAns":4},{"query":" Q54. Which command will extract the domain suffix (\"com\") from the string `$string = \"https://cat-bounce.com\";`?","options":[" `sub($string, -3)`\r\n"," `substr($string, -3)`\r\n"," `substr($string, 3)`\r\n"," `$string.substr(-3)`\r\n\r\n"],"correctAns":2},{"query":" Q55. Where is PHP code executed?","options":[" in the client's browser\r\n"," in the virtual machine\r\n"," in the memory of the computer viewing the webpage\r\n"," on a web server\r\n\r\n"],"correctAns":4},{"query":" Q56. Which is not a valid magic constant?","options":[" `__RESOURCE__`\r\n"," `__FUNCTION__`\r\n"," `__CLASS__`\r\n"," `__TRAIT__`\r\n\r\n"],"correctAns":1},{"query":"","code":"php\r\n  if( 1 == true){\r\n        echo \"1\";\r\n  }\r\n\r\n  if( 1 === true){\r\n      echo \"2\";\r\n  }\r\n\r\n  if(\"php\" == true){\r\n      echo \"3\";\r\n  }\r\n\r\n  if(\"php\" === false){\r\n      echo \"4\";\r\n  }\r\n","options":[" 134\r\n"," 13\r\n"," 1\r\n"," 123\r\n\r\n"],"correctAns":2},{"query":"","code":"php\r\n$secret_word = 'if i ate spinach';\r\nsetcookie('login', $_REQUEST['username']. ','. md5($_REQUEST['username'].$secret_word));\r\n","options":[" when a user goes to pay for an item online\r\n"," when items are placed in a cart\r\n"," at first registration\r\n"," at every login, for security\r\n\r\n"],"correctAns":4},{"query":"","code":"php\r\nCat\r\nDog\r\nDog\r\n","options":[" \r\n  ```php\r\n  $name = \"Cat\";\r\n  $name = \"Dog\";\r\n  echo $name . \"<br/>\";\r\n  echo $$name . \"<br/>\";\r\n  echo $Dog;\r\n  ```\r\n"," \r\n  ```php\r\n  $name = \"Cat\";\r\n  $$name = \"Dog\";\r\n  echo $name . \"<br/>\";\r\n  echo $$name . \"<br/>\";\r\n  echo $Dog;\r\n  ``` \r\n"," \r\n  ```php\r\n  $name = \"Cat\";\r\n  $$name = \"Dog\";\r\n  echo $name . \"<br/>\";\r\n  echo $$name . \"<br/>\";\r\n  echo $Cat;\r\n  ```\r\n"," \r\n  ```php\r\n  $name = \"Cat\";\r\n  $$name = \"Dog\";\r\n  echo $name . \"<br/>\";\r\n  echo $name . \"<br/>\";\r\n  echo $Cat;\r\n  ```\r\n\r\n"],"correctAns":3},{"query":"","options":[" router\r\n"," controller\r\n"," model\r\n"," view\r\n\r\n"],"correctAns":2},{"query":"","code":null,"options":[" \r\n  ```php\r\n    1 <?php\r\n    2 start_session();\r\n    3 $music = $_SESSION['music'];\r\n    4 ?>\r\n  ```\r\n"," \r\n  ```php\r\n    1 <?php\r\n    2    session_start();\r\n    3    $music = $SESSION['music'];\r\n    4 ?>\r\n  ``` \r\n"," \r\n  ```php\r\n    1 <?php\r\n    2   start_session();\r\n    3   $music =$session['music'];\r\n    4 ?>\r\n  ```\r\n"," \r\n  ```php\r\n    1 <?php\r\n    2  session_start();\r\n    3  $music = $_SESSION['music'];\r\n    4 ?>\r\n  ```\r\n  \r\n"],"correctAns":4},{"query":"","code":null,"options":[" \r\n  ```php\r\n    1 <?php\r\n    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');\r\n    3 echo \"Latest Date: \". max($dates).\"\\n\";\r\n    4 echo \"Earliest Date: \". min($dates).\"\\n\";\r\n    5 ?>\r\n  ```\r\n"," \r\n  ```php\r\n    1 <?php\r\n    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');\r\n    3 echo \"Latest Date: \". min($dates).\"\\n\";\r\n    4 echo \"Earliest Date: \". max($dates).\"\\n\";\r\n    5 ?>\r\n  ``` \r\n"," \r\n  ```php\r\n    1 <?php\r\n    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');\r\n    3 echo \"Latest Date: \". ($dates).\"\\n\";\r\n    4 echo \"Earliest Date: \". ($dates).\"\\n\";\r\n    5 ?>\r\n  ```\r\n"," \r\n  ```php\r\n    1 <?php\r\n    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');\r\n    3 echo \"Latest Date: \" max($dates).\"\\n\";\r\n    4 echo \"Earliest Date: \" min($dates).\"\\n\";\r\n    5 ?>\r\n  ```\r\n\r\n"],"correctAns":1},{"query":"","code":null,"options":[" \r\n  ```php\r\n    1 kilometers = 0.6214 miles.\r\n    2 kilometers = 1.2428 miles.\r\n    3 kilometers = 1.8642 miles.\r\n    4 kilometers = 2.4856 miles.\r\n    5 kilometers = 3.107 miles.\r\n  ```\r\n"," \r\n  ```php\r\n    1 kilometers = 0.6214 miles.\r\n    2 kilometers = 1.2428 miles.\r\n    3 kilometers = 1.8642 miles\r\n    4 kilometers = 2.4856 miles.\r\n    5 kilometers = 3.107 miles.\r\n    6 kilometers = 3.7284 miles.\r\n  ``` \r\n"," \r\n  ```php\r\n    2 kilometers = 1.2428 miles.\r\n    3 kilometers = 1.8642 miles.\r\n    4 kilometers = 2.4856 miles.\r\n    5 kilometers = 3.107 miles.\r\n  ```\r\n"," FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2\r\n\r\n"],"correctAns":1},{"query":"","options":[" use myApp\\myNamespace\\{ClassA, ClassB, ClassC};\r\n"," use myApp\\myNamespace\\ClassA, ClassB, ClassC;\r\n"," use myApp\\myNamespace\\[ClassA, ClassB, ClassC];\r\n"," use myApp\\myNamespace\\(ClassA, ClassB, ClassC);\r\n\r\n"],"correctAns":1},{"query":"","options":[" string, integer, float, boolean, array, object, NULL, resource\r\n"," string, integer, boolean, array, object, NULL, resource\r\n"," string, integer, float, array, object, NULL, resource\r\n"," string, integer, float, boolean, array, object, NULL\r\n\r\n[reference](https://www.w3schools.com/php/php_datatypes.asp)\r\n\r\n"],"correctAns":1},{"query":"","options":[" server-side scripting language\r\n"," compiled language\r\n"," machine language\r\n"," algorithmic language\r\n\r\n[reference](https://www.quora.com/Which-programming-language-is-used-to-create-PHP)\r\n\r\n"],"correctAns":1},{"query":"","options":[" `$_SERVER`\r\n"," `$SERVER_VARIABLES`\r\n"," `$_ENV`\r\n"," `$GLOBALS`\r\n\r\n[reference](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/php/php_superglobals.asp.html)\r\n\r\n"],"correctAns":1},null,null,null,null,{"query":" Q71. What is the output of this script?","options":[" squirrel\r\n"," The quick grey [squirrel].\r\n"," [squirrel]\r\n"," The quick grey squirrel.\r\n\r\n"],"correctAns":1},{"query":" Q72. What is the output of this script?","options":[" mango\r\n"," apple\r\n"," a parse error\r\n"," pear\r\n\r\n"],"correctAns":1},null,null,null,null,null,{"query":" Q78. Create an associative array using `$array1` as the keys and `$array2` as the values:","options":[" `$array3 = array_merge($array1, $array2);`\r\n"," `$array3 = array_union($array1, $array2);`\r\n"," `$array3 = array_keys($array1, $array2);`\r\n"," `$array3 = array_combine($array1, $array2);`\r\n\r\n"],"correctAns":1},{"query":" Q79. Assume that `$r` is 255, and `$g` and `$b` are both 0. What is the correct code to output `\"","options":[" `printf('#%2x%2x%2x', 255, 0, 0);`\r\n"," `printf('#%2X%2X%2X', $r, 0, 0);`\r\n"," `printf('#%x%x%x', 255, 0, 0);`\r\n"," `printf('#%02x%02x%02x', 255, 0, 0);`\r\n\r\n"],"correctAns":4},null,{"query":" Q81. Which loop displays all numbers from 1 to 10 inclusive?","options":[" `$i = 1;`\r\n      `while ($i < 10) {`\r\n      `echo $i++ . '<br>';`\r\n      `}`\r\n\r\n"," ` $i = 0;`\r\n      ` while ($i <= 10) {`\r\n      ` echo $i++ . '<br>';`\r\n      ` }`\r\n\r\n"," `while ($i &lt;= 10) {`\r\n      ` echo ++$i . '&lt;br&gt;';`\r\n      `}`\r\n\r\n"," `$i = 0;`\r\n      `while ($i < 10) {`\r\n      ` echo ++$i . '<br>';`\r\n      `}`\r\n"],"correctAns":4}]
+[
+    {
+        "query": "",
+        "options": [
+            " 1\r\n",
+            " -1\r\n",
+            " a parser error\r\n",
+            " 0\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": "",
+        "options": [
+            " `$encrypted = shal($password);`\r\n",
+            " `$encrypted = crypt($password, \\$salt);`\r\n",
+            " `$encrypted = md5($password);`\r\n",
+            " `$encrypted = password_hash($password, PASSWORD_DEFAULT);`\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "code": "php\r\n$email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);\r\nif ($email === false) {\r\n    $emailErr = \"Please re-enter valid email\";\r\n}\r\n",
+        "options": [
+            " It makes sure the email address is a good and functioning address\r\n",
+            " It makes an email safe to input into a database\r\n",
+            " It assigns an email to a variable and then removes all illegal characters from the \\$email variable\r\n",
+            " It verifies that an email address is well formed.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "code": "\r\n1 <?php\r\n2       $count = 0;\r\n3       $_xval = 5;\r\n4       $_yval = 1.0;\r\n5       $some_string = \"Hello there!\";\r\n6       $some_string = \"How are you?\";\r\n7       $will i work = 6;\r\n8       $3blindmice = 3;\r\n9 ?>\r\n",
+        "options": [
+            " Line 6 will cause an error because you can't reassign a new value to a variable that has already been set.\r\n",
+            " Line 7 and 8 will cause an error. Line 7 has whitespace in $will i work and should be $will_i_work. Line 8 cannot start with a number befcause it is a variable.\r\n",
+            " Line 5 will cause an error because some_string should be someString.\r\n",
+            " Line 3 and 4 will cause an error because a variable cannot start with an underscore(\\_).\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": "",
+        "options": [
+            " ||\r\n",
+            " &\r\n",
+            " <=>\r\n",
+            " &&\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "options": [
+            " &\r\n",
+            " %\r\n",
+            " \\_\r\n",
+            " $\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "options": [
+            " GET is used with the HTTP protocol. POST is used with HTTPS.\r\n",
+            " GET displays the submitted data as part of the URL. During POST, this information is not shown, as it's encoded in the request body.\r\n",
+            " GET is intended for changing the server state and it carries more data than POST.\r\n",
+            " GET is more secure than POST and should be used for sensitive information.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": "",
+        "options": [
+            " greater-than; right\r\n",
+            " spaceship; left\r\n",
+            " equality; right\r\n",
+            " comparison; left\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": "",
+        "options": [
+            " try, throw, catch, callable\r\n",
+            " try, yield, catch, finally\r\n",
+            " yield, throw, catch, finally\r\n",
+            " try, throw, catch, finally\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "options": [
+            " 0\r\n",
+            " NULL\r\n",
+            " ''\r\n",
+            " -1\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "code": "php\r\n1 $string_name = \"testcookie\";\r\n2 $string_value = \"This is a test cookie\";\r\n3 $expiry_info = info()+259200;\r\n4 $string_domain = \"localhost.localdomain\";\r\n",
+        "options": [
+            " The `$_REQUEST` is missing.\r\n",
+            " The `$_COOKIES` array is missing.\r\n",
+            " The cookie session is missing.\r\n",
+            " The call to `setcookie()` is missing.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "options": [
+            " 44\r\n",
+            " 138\r\n",
+            " 126\r\n",
+            " 100\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "options": [
+            " It makes the dot metacharacter match anything, including newline characters.\r\n",
+            " It makes the pattern match uppercase letters.\r\n",
+            " Both the pattern and subject string are treated as UTF-8.\r\n",
+            " It inverts the greediness of the quantifiers in the pattern so they are not greedy by default.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": "",
+        "options": [
+            " `$dog = new Pet;`\r\n",
+            " all of these answers\r\n",
+            " `$horse = (new Pet);`\r\n",
+            " `$cat = new Pet();`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": "",
+        "code": "php\r\n1 if (!$_SESSION['myusername'])\r\n2 {\r\n3   header('locaton: /login.php');\r\n4   exit;\r\n5 }\r\n",
+        "options": [
+            " This script times out the session for myusername.\r\n",
+            " Cookies are starting to be stored as a result of this script.\r\n",
+            " This script validates the username and password.\r\n",
+            " This script is on a page that requires the user to be logged in. It checks to see if the user has a valid session.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "options": [
+            " all of these answers\r\n",
+            " #This is a comment\r\n",
+            " /_ This is a comment _/\r\n",
+            " // This is a comment\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": "",
+        "options": [
+            " for\r\n",
+            " do-while\r\n",
+            " while\r\n",
+            " foreach\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": "",
+        "options": [
+            " You would use it to stop a user from clicking the back button if they decide not to view as a result of a click.\r\n",
+            " You would use this function if you have some important processing to do and you do not want to stop it, even if your users click Cancel.\r\n",
+            " You would use this function if you wanted to abort the script for all logged-in users, not just the one who disconnected.\r\n",
+            " You would use this function if you want a PHP script to run forever.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": "",
+        "code": null,
+        "options": [
+            "\r\n  ```php\r\n  1 <?php\r\n  2 echo array_reduce([1, 2, 5, 10, 11], function ($item, $carry) {\r\n  3     $carry = $carry + $item;\r\n  4 });\r\n  5?>\r\n  ```\r\n",
+            "\r\n  ```php\r\n  1 <?php\r\n  2 echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) {\r\n  3     return $carry = $item + $item;\r\n  4 });\r\n  5?>\r\n  ```\r\n",
+            "\r\n  ```php\r\n  1 <?php\r\n  2 array_reduce([11 2, 5, 10, 11], function ($item, $carry) {\r\n  3     echo $carry + $item;\r\n  4 });\r\n  5?>\r\n  ```\r\n",
+            "\r\n  ```php\r\n  1 <?php\r\n  2 echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) {\r\n  3     return $carry += $item;\r\n  4 });\r\n  5?>\r\n  ```\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "code": null,
+        "options": [
+            "\r\n  ```php\r\n  1 class MyClass {\r\n  2 public function _construct()\r\n  3 {\r\n  4 echo 'Winter is almost over!'.\"\\n\";\r\n  5 }\r\n  6 }\r\n  7 \\$userclass = new MyClass;\r\n  ```\r\n",
+            "\r\n  ```php\r\n  1 class MyClass {\r\n  2 public function _construct()\r\n  3 {\r\n  4 echo 'Winter is almost over!..\"\\n\";\r\n  5 }\r\n  6 }\r\n  7 $userclass = new MyClass;\r\n  ```\r\n",
+            "\r\n  ```php\r\n  1 class MyClass {\r\n  2 public function _construct()\r\n  3 {\r\n  4 echo 'Winter is almost over!..\"\\n\";\r\n  5 }\r\n  6 }\r\n  7 \\$userclass = new MyClass;\r\n  ```\r\n",
+            "\r\n  ```php\r\n  1 class MyClass {\r\n  2 public function _construct()\r\n  3 {\r\n  4 echo 'Winter is almost over!'.\"n\";\r\n  5 }\r\n  6 }\r\n  7 $userclass = MyClass;\r\n  ```\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": "",
+        "options": [
+            " Make sure you have imported the file containing the function.\r\n",
+            " Make sure you have spelled the function name correctly.\r\n",
+            " all of these answers\r\n",
+            " Make sure the function declaration is at an earlier point in the code than the function call.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": "",
+        "options": [
+            " `/* Space: the final frontier */`\r\n",
+            " `*/ Space: the final frontier /*`\r\n",
+            " `#Space: the final frontier`\r\n",
+            " `// Space: the final frontier`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": "",
+        "options": [
+            " The browser would display nothing due to a syntax error.\r\n",
+            " The browser would display an error, since there are no parentheses around the string.\r\n",
+            " The browser would display `How much are the bananas?`\r\n",
+            " The browser would display an error, since there is no semicolon at the end of the echo command.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": "",
+        "options": [
+            " /\r\n",
+            " %\r\n",
+            " //\r\n",
+            " DIV\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": "",
+        "code": "php\r\nfunction process(...$vals) {\r\n        // do some processing\r\n }\r\n",
+        "options": [
+            " It makes the function variadic, allowing it to accept as an argument an array containing an arbitrary number of values.\r\n",
+            " It makes the function variadic, allowing it to accept an arbitrary number of arguments that are converted into an array inside the function.\r\n",
+            " It temporarily disables the function while debugging other parts of the script.\r\n",
+            " It's a placeholder like a TO DO reminder that automatically triggers a notice when you run a script before completing the function definition.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": "",
+        "options": [
+            " `class Pegasus extends Horse {}`\r\n",
+            " `class Alicorn imports Pegasus, Unicorn {}`\r\n",
+            " `class Unicorn implements Horse {}`\r\n",
+            " `class Horse inherits Unicorn {}`\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": "",
+        "options": [
+            " compare; doubles; triples\r\n",
+            " compare; triples; doubles\r\n",
+            " assign; triples; doubles\r\n",
+            " assign; doubles; triples\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": "",
+        "options": [
+            " Add this code to the top of your script: `ini_set('display_errors',1);`\r\n",
+            " check the server error logged\r\n",
+            " all of these answers\r\n",
+            " make sure you are not missing any semicolons\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": "",
+        "code": "\r\nseasons=array(\r\n    1=>'spring',\r\n    2=>'summer',\r\n    3=>'autumn',\r\n    4=>'winter',\r\n);\r\n",
+        "options": [
+            "\r\n\r\n```\r\nseasons=array(\r\n    1=>'spring',\r\n    2=>'summer',\r\n    3=>'autumn',\r\n    4=>'winter',\r\n);\r\n```\r\n\r\n",
+            " `$seasons=array(spring,summer,autumn,winter);`\r\n",
+            " `$seasons=('spring','summer','autumn','winter');`\r\n",
+            " `$seasons=['spring','summer','autumn','winter'];`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": "",
+        "options": [
+            " private, public\r\n",
+            " object,primitive\r\n",
+            " non-static,static\r\n",
+            " concrete,abstract\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": "",
+        "code": "php\r\n$mathe=array('archi','euler','pythagoras');\r\narray_push($mathe,'hypatia');\r\narray_push($mathe,'fibonacci');\r\narray_pop($mathe);\r\necho array_pop($mathe);\r\necho sizeof($mathe);\r\n",
+        "options": [
+            " euler3\r\n",
+            " hypatia5\r\n",
+            " hypatia3\r\n",
+            " fibonacci4\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": "",
+        "options": [
+            " check if `fav_band` is included in the query string at the top of your browser\r\n",
+            " all of the answers\r\n",
+            " view the source of form and make sure there is an input field with the name 'fav_band'\r\n",
+            " print everything that has been transmitted in the request: `print_r($_REQUEST);`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": "",
+        "options": [
+            " all of the answers\r\n",
+            " `print_r($cupcakes);`\r\n",
+            " `var_dump($cupcakes);`\r\n",
+            " `foreach($cupcakes as &$cupcake) echo $cupcake;`\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": "",
+        "options": [
+            " You are trying to modify a private value\r\n",
+            " Semicolon missing\r\n",
+            " Using a key on an array that does not exists\r\n",
+            " Some html is being sent before a `header()` command that you are using for a redirect\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "options": [
+            " `else`\r\n",
+            " `break`\r\n",
+            " `return`\r\n",
+            " `continue`\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "options": [
+            " there is an output '2 is an even number\r\n",
+            " output '21 is an odd number'\r\n",
+            " no output. Syntax error do to missing semicolon at the end\r\n",
+            " no output due to % in \\$num%2!=0\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": "",
+        "options": [
+            " `php -h`\r\n",
+            " `php info`\r\n",
+            " `php -v`\r\n",
+            " `php -m`\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    null,
+    {
+        "query": "",
+        "options": [
+            " 4.167\r\n",
+            " 1.5\r\n",
+            " 4\r\n",
+            " 1\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "options": [
+            " The controller handles data passed to it by the view, and also passes data to the view. It interprets data sent by the view and disperses that data to the approrpiate models awaiting results to pass back to the view.\r\n",
+            " The controller is a mechanism that allows you to create reusable code in languages such as PHP, where multiple inheritance is not supported.\r\n",
+            " The controller presents content through the user interface, after communicating directly with the database.\r\n",
+            " The controller handles specific tasks related to a specific area of functionality, handles business logic related to the results, and communicates directly with the database.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": "",
+        "options": [
+            " Strings should always be wrapped in double quotes; and double quotes inside a string should be escaped by backslashes.\r\n",
+            " All single and double quotes inside a string need to be escaped by backslashes to prevent a parse error.\r\n",
+            " The opening and closing single quotes should be replaced by double quotes; and the apostrophe should be escaped by a backslash.\r\n",
+            " The apostrophe needs to be escaped by a backslash to prevent it from being treated as the closing quote.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "options": [
+            " NULL\r\n",
+            " TRUE\r\n",
+            " FALSE\r\n",
+            " 0\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": "",
+        "options": [
+            " `echo $first_name. ' '. $family_name;`\r\n",
+            " `print $first_name, ' ', $family_name;`\r\n",
+            " `print $first_name. ' '. $family_name;`\r\n",
+            " `echo $first_name, ' ', $family_name;`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": "",
+        "code": null,
+        "options": [
+            "\r\n  ```php\r\n  class Cow extends Animal {\r\n      private $milk;\r\n  }\r\n  ```\r\n",
+            "\r\n  ```php\r\n  class Cow {\r\n      public $milk;\r\n  }\r\n  $daisy = new Cow();\r\n  $daisy->milk = \"creamy\";\r\n  ```\r\n",
+            "\r\n  ```php\r\n  class Cow {\r\n      public $milk;\r\n      function getMilk() {`\r\n          return $this->milk;\r\n      }\r\n  }\r\n  ```\r\n",
+            "\r\n  ```php\r\n  class Cow {\r\n      private $milk;\r\n      public function getMilk() {\r\n          return $this->milk;\r\n      }\r\n  }\r\n  ```\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "code": "xml\r\n<books>\r\n    <book>\r\n        <title>A Tale of Two Cities</title>\r\n        <author>Charles Dickens</author>\r\n        <categories>\r\n            <category>Classics</category>\r\n            <category>Historical</category>\r\n        </categories>\r\n    </book>\r\n    <book>\r\n        <title>Then There Were None</title>\r\n        <author>Agatha Christies</author>\r\n        <categories>\r\n            <category>Mystery</category>\r\n        </categories>\r\n    </book>\r\n</books>\r\n",
+        "options": [
+            "\r\n  ```php\r\n  $books = simplexml_load_string('books.xml');\r\n  echo $books->book[0]->categories->category[1];\r\n  ```\r\n",
+            "\r\n  ```php\r\n  $books = simplexml_load_file('books.xml');\r\n  echo $books->book[0]->categories->category[1];\r\n  ```\r\n",
+            "\r\n  ```php\r\n  $books = SimpleXMLElement('books.xml');\r\n  echo $books->book[0]->categories->category[1];\r\n  ```\r\n",
+            "\r\n  ```php\r\n  $books = SimpleXML('books.xml');\r\n  echo $books->book[0]->categories->category[1];\r\n  ```\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": "",
+        "options": [
+            " NULL is a blank value; empty is the lack of a value.\r\n",
+            " A NULL value has an allocated address in memory; empty does not.\r\n",
+            " NULL referes to the lack of a value for an integer; empty refers to the lack of a value for a string.\r\n",
+            " NULL is the lack of a value; empty is a blank value.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "code": "php\r\nfunction doStuff($haystack, $needle) {\r\n      $length = strlen($needle)\r\n      if (substr($haystack, 0, $length) == $needle)\r\n        return true;\r\n      else\r\n        return false;\r\n}\r\n",
+        "options": [
+            " `equals`\r\n",
+            " `endsWith`\r\n",
+            " `startsWith`\r\n",
+            " `contains`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": "",
+        "options": [
+            " request; response\r\n",
+            " response; request\r\n",
+            " session; request\r\n",
+            " request; session\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "code": "php\r\nisset($_POST['submit'])\r\n",
+        "options": [
+            " Make sure the input field displaying the button is named 'submit'\r\n",
+            " Make sure you are not missing any semicolons\r\n",
+            " Print everything in the session `print_r($_SESSION);`\r\n",
+            " Look in the query string at the top of your browser to see if submit is assigned a value\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": "",
+        "options": [
+            " because coding standards often vary between developers and companies\r\n",
+            " because coding standards are monitored for compliance across developers and companies\r\n",
+            " because there are mandatory coding standards among developers and companies\r\n",
+            " if using certain platforms, because the PSR's apply to those platforms only\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": "",
+        "options": [
+            " Getters and setters ensure that if a data member is declared private, then it can be accessed only within the same function, not by an outside class\r\n",
+            " Getters and setters are utility functions within PHP that allow loading from, and saving to, a database\r\n",
+            " Getters and setters encapsulate the fields of a class by making them acccessible only through its private methods, and keep the values themselves public\r\n",
+            " Getters and setters are methods used to declare or obtain the values of variables, usually private ones\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q52. What are the recommended settings in the PHP configuration file, php.ini, for a testing environment?",
+        "code": null,
+        "options": [
+            "\r\n  ```php\r\n  report_errors = E_ALL\r\n  display_errors = On\r\n  ```\r\n",
+            "\r\n  ```php\r\n  error_reporting = E_ALL\r\n  display_errors = On\r\n  ```\r\n",
+            "\r\n  ```php\r\n  error_reporting = E_ALL & ~E_NOTICE\r\n  display_errors = Off\r\n  ```\r\n",
+            "\r\n  ```php\r\n  error_reporting = E_ALL & ~E_NOTICE\r\n  display_errors = On\r\n  ```\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q53. Which PHP variable name is invalid?",
+        "options": [
+            " `$Double`\r\n",
+            " `$double`\r\n",
+            " `$_2times`\r\n",
+            " `$2times`\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q54. Which command will extract the domain suffix (\"com\") from the string `$string = \"https://cat-bounce.com\";`?",
+        "options": [
+            " `sub($string, -3)`\r\n",
+            " `substr($string, -3)`\r\n",
+            " `substr($string, 3)`\r\n",
+            " `$string.substr(-3)`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q55. Where is PHP code executed?",
+        "options": [
+            " in the client's browser\r\n",
+            " in the virtual machine\r\n",
+            " in the memory of the computer viewing the webpage\r\n",
+            " on a web server\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q56. Which is not a valid magic constant?",
+        "options": [
+            " `__RESOURCE__`\r\n",
+            " `__FUNCTION__`\r\n",
+            " `__CLASS__`\r\n",
+            " `__TRAIT__`\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": "",
+        "code": "php\r\n  if( 1 == true){\r\n        echo \"1\";\r\n  }\r\n\r\n  if( 1 === true){\r\n      echo \"2\";\r\n  }\r\n\r\n  if(\"php\" == true){\r\n      echo \"3\";\r\n  }\r\n\r\n  if(\"php\" === false){\r\n      echo \"4\";\r\n  }\r\n",
+        "options": [
+            " 134\r\n",
+            " 13\r\n",
+            " 1\r\n",
+            " 123\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": "",
+        "code": "php\r\n$secret_word = 'if i ate spinach';\r\nsetcookie('login', $_REQUEST['username']. ','. md5($_REQUEST['username'].$secret_word));\r\n",
+        "options": [
+            " when a user goes to pay for an item online\r\n",
+            " when items are placed in a cart\r\n",
+            " at first registration\r\n",
+            " at every login, for security\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "code": "php\r\nCat\r\nDog\r\nDog\r\n",
+        "options": [
+            " \r\n  ```php\r\n  $name = \"Cat\";\r\n  $name = \"Dog\";\r\n  echo $name . \"<br/>\";\r\n  echo $$name . \"<br/>\";\r\n  echo $Dog;\r\n  ```\r\n",
+            " \r\n  ```php\r\n  $name = \"Cat\";\r\n  $$name = \"Dog\";\r\n  echo $name . \"<br/>\";\r\n  echo $$name . \"<br/>\";\r\n  echo $Dog;\r\n  ``` \r\n",
+            " \r\n  ```php\r\n  $name = \"Cat\";\r\n  $$name = \"Dog\";\r\n  echo $name . \"<br/>\";\r\n  echo $$name . \"<br/>\";\r\n  echo $Cat;\r\n  ```\r\n",
+            " \r\n  ```php\r\n  $name = \"Cat\";\r\n  $$name = \"Dog\";\r\n  echo $name . \"<br/>\";\r\n  echo $name . \"<br/>\";\r\n  echo $Cat;\r\n  ```\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": "",
+        "options": [
+            " router\r\n",
+            " controller\r\n",
+            " model\r\n",
+            " view\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": "",
+        "code": null,
+        "options": [
+            " \r\n  ```php\r\n    1 <?php\r\n    2 start_session();\r\n    3 $music = $_SESSION['music'];\r\n    4 ?>\r\n  ```\r\n",
+            " \r\n  ```php\r\n    1 <?php\r\n    2    session_start();\r\n    3    $music = $SESSION['music'];\r\n    4 ?>\r\n  ``` \r\n",
+            " \r\n  ```php\r\n    1 <?php\r\n    2   start_session();\r\n    3   $music =$session['music'];\r\n    4 ?>\r\n  ```\r\n",
+            " \r\n  ```php\r\n    1 <?php\r\n    2  session_start();\r\n    3  $music = $_SESSION['music'];\r\n    4 ?>\r\n  ```\r\n  \r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": "",
+        "code": null,
+        "options": [
+            " \r\n  ```php\r\n    1 <?php\r\n    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');\r\n    3 echo \"Latest Date: \". max($dates).\"\\n\";\r\n    4 echo \"Earliest Date: \". min($dates).\"\\n\";\r\n    5 ?>\r\n  ```\r\n",
+            " \r\n  ```php\r\n    1 <?php\r\n    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');\r\n    3 echo \"Latest Date: \". min($dates).\"\\n\";\r\n    4 echo \"Earliest Date: \". max($dates).\"\\n\";\r\n    5 ?>\r\n  ``` \r\n",
+            " \r\n  ```php\r\n    1 <?php\r\n    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');\r\n    3 echo \"Latest Date: \". ($dates).\"\\n\";\r\n    4 echo \"Earliest Date: \". ($dates).\"\\n\";\r\n    5 ?>\r\n  ```\r\n",
+            " \r\n  ```php\r\n    1 <?php\r\n    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');\r\n    3 echo \"Latest Date: \" max($dates).\"\\n\";\r\n    4 echo \"Earliest Date: \" min($dates).\"\\n\";\r\n    5 ?>\r\n  ```\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": "",
+        "code": null,
+        "options": [
+            " \r\n  ```php\r\n    1 kilometers = 0.6214 miles.\r\n    2 kilometers = 1.2428 miles.\r\n    3 kilometers = 1.8642 miles.\r\n    4 kilometers = 2.4856 miles.\r\n    5 kilometers = 3.107 miles.\r\n  ```\r\n",
+            " \r\n  ```php\r\n    1 kilometers = 0.6214 miles.\r\n    2 kilometers = 1.2428 miles.\r\n    3 kilometers = 1.8642 miles\r\n    4 kilometers = 2.4856 miles.\r\n    5 kilometers = 3.107 miles.\r\n    6 kilometers = 3.7284 miles.\r\n  ``` \r\n",
+            " \r\n  ```php\r\n    2 kilometers = 1.2428 miles.\r\n    3 kilometers = 1.8642 miles.\r\n    4 kilometers = 2.4856 miles.\r\n    5 kilometers = 3.107 miles.\r\n  ```\r\n",
+            " FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": "",
+        "options": [
+            " use myApp\\myNamespace\\{ClassA, ClassB, ClassC};\r\n",
+            " use myApp\\myNamespace\\ClassA, ClassB, ClassC;\r\n",
+            " use myApp\\myNamespace\\[ClassA, ClassB, ClassC];\r\n",
+            " use myApp\\myNamespace\\(ClassA, ClassB, ClassC);\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": "",
+        "options": [
+            " string, integer, float, boolean, array, object, NULL, resource\r\n",
+            " string, integer, boolean, array, object, NULL, resource\r\n",
+            " string, integer, float, array, object, NULL, resource\r\n",
+            " string, integer, float, boolean, array, object, NULL\r\n\r\n[reference](https://www.w3schools.com/php/php_datatypes.asp)\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": "",
+        "options": [
+            " server-side scripting language\r\n",
+            " compiled language\r\n",
+            " machine language\r\n",
+            " algorithmic language\r\n\r\n[reference](https://www.quora.com/Which-programming-language-is-used-to-create-PHP)\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": "",
+        "options": [
+            " `$_SERVER`\r\n",
+            " `$SERVER_VARIABLES`\r\n",
+            " `$_ENV`\r\n",
+            " `$GLOBALS`\r\n\r\n[reference](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/php/php_superglobals.asp.html)\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    null,
+    null,
+    null,
+    null,
+    {
+        "query": " Q71. What is the output of this script?",
+        "options": [
+            " squirrel\r\n",
+            " The quick grey [squirrel].\r\n",
+            " [squirrel]\r\n",
+            " The quick grey squirrel.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q72. What is the output of this script?",
+        "options": [
+            " mango\r\n",
+            " apple\r\n",
+            " a parse error\r\n",
+            " pear\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+        "query": " Q78. Create an associative array using `$array1` as the keys and `$array2` as the values:",
+        "options": [
+            " `$array3 = array_merge($array1, $array2);`\r\n",
+            " `$array3 = array_union($array1, $array2);`\r\n",
+            " `$array3 = array_keys($array1, $array2);`\r\n",
+            " `$array3 = array_combine($array1, $array2);`\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q79. Assume that `$r` is 255, and `$g` and `$b` are both 0. What is the correct code to output `\"",
+        "options": [
+            " `printf('#%2x%2x%2x', 255, 0, 0);`\r\n",
+            " `printf('#%2X%2X%2X', $r, 0, 0);`\r\n",
+            " `printf('#%x%x%x', 255, 0, 0);`\r\n",
+            " `printf('#%02x%02x%02x', 255, 0, 0);`\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    null,
+    {
+        "query": " Q81. Which loop displays all numbers from 1 to 10 inclusive?",
+        "options": [
+            " `$i = 1;`\r\n      `while ($i < 10) {`\r\n      `echo $i++ . '<br>';`\r\n      `}`\r\n\r\n",
+            " ` $i = 0;`\r\n      ` while ($i <= 10) {`\r\n      ` echo $i++ . '<br>';`\r\n      ` }`\r\n\r\n",
+            " `while ($i &lt;= 10) {`\r\n      ` echo ++$i . '&lt;br&gt;';`\r\n      `}`\r\n\r\n",
+            " `$i = 0;`\r\n      `while ($i < 10) {`\r\n      ` echo ++$i . '<br>';`\r\n      `}`\r\n"
+        ],
+        "correctAns": 4
+    }
+]

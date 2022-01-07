@@ -1,1 +1,780 @@
-[{"query":" Q1. You are part of data science team that is working for a national fast-food chain. You create a simple report that shows trend: Customers who visit the store more often and buy smaller meals spend more than customers who visit less frequently and buy larger meals. What is the most likely diagram that your team created?","options":[" multiclass classification diagram\r\n"," linear regression and scatter plots\r\n"," pivot table\r\n"," K-means cluster diagram\r\n\r\n"],"correctAns":2},{"query":" Q2. You work for an organization that sells a spam filtering service to large companies. Your organization wants to transition its product to use machine learning. It currently a list Of 250,00 keywords. If a message contains more than few of these keywords, then it is identified as spam. What would be one advantage of transitioning to machine learning?","options":[" The product would look for new patterns in spam messages.\r\n"," The product could go through the keyword list much more quickly.\r\n"," The product could have a much longer keyword list.\r\n"," The product could find spam messages using far fewer keywords.\r\n\r\n"],"correctAns":4},{"query":" Q3. You work for a music streaming service and want to use supervised machine learning to classify music into different genres. Your service has collected thousands of songs in each genre, and you used this as your training data. Now you pull out a small random subset of all the songs in your service. What is this subset called?","options":[" data cluster\r\n"," Supervised set\r\n"," big data\r\n"," test data\r\n\r\n"],"correctAns":4},{"query":" Q4. In traditional computer programming, you input commands. What do you input with machine learning?","options":[" patterns\r\n"," programs\r\n"," rules\r\n"," data\r\n\r\n"],"correctAns":4},{"query":" Q5. Your company wants to predict whether existing automotive insurance customers are more likely to buy homeowners insurance. It created a model to better predict the best customers contact about homeowners insurance, and the model had a low variance but high bias. What does that say about the data model?","options":[" It was consistently wrong.\r\n"," It was inconsistently wrong.\r\n"," It was consistently right.\r\n"," It was equally right end wrong.\r\n\r\n"],"correctAns":1},{"query":" Q6. You want to identify global weather patterns that may have been affected by climate change. To do so, you want to use machine learning algorithms to find patterns that would otherwise be imperceptible to a human meteorologist. What is the place to start?","options":[" Find labeled data of sunny days so that the machine will learn to identify bad weather.\r\n"," Use unsupervised learning have the machine look for anomalies in a massive weather database.\r\n"," Create a training set of unusual patterns and ask the machine learning algorithms to classify them.\r\n"," Create a training set of normal weather and have the machine look for similar patterns.\r\n\r\n"],"correctAns":2},{"query":" Q7. You work in a data science team that wants to improve the accuracy of its K-nearest neighbor result by running on top of a naive Bayes result. What is this an example of?","options":[" regression\r\n"," boosting\r\n"," bagging\r\n"," stacking\r\n\r\n"],"correctAns":4},{"query":" Q8. `____` looks at the relationship between predictors and your outcome.","options":[" Regression analysis\r\n"," K-means clustering\r\n"," Big data\r\n"," Unsupervised learning\r\n\r\n"],"correctAns":1},{"query":" Q9. What is an example of a commercial application for a machine learning system?","options":[" a data entry system\r\n"," a data warehouse system\r\n"," a massive data repository\r\n"," a product recommendation system\r\n\r\n"],"correctAns":4},null,{"query":" Q11. You work for a power company that owns hundreds of thousands of electric meters. These meters are connected to the internet and transmit energy usage data in real-time. Your supervisor asks you to direct project to use machine learning to analyze this usage data. Why are machine learning algorithms ideal in this scenario?","options":[" The algorithms would help the meters access the internet.\r\n"," The algorithms will improve the wireless connectivity.\r\n"," The algorithms would help your organization see patterns of the data.\r\n"," By using machine learning algorithms, you are creating an IoT device.\r\n\r\n"],"correctAns":3},{"query":" Q12. To predict a quantity value. use `___`.","options":[" regression\r\n"," clustering\r\n"," classification\r\n"," dimensionality reduction\r\n\r\n"],"correctAns":1},{"query":" Q13. Why is naive Bayes called naive?","options":[" It naively assumes that you will have no data.\r\n"," It does not even try to create accurate predictions.\r\n"," It naively assumes that the predictors are independent from one another.\r\n"," It naively assumes that all the predictors depend on one another.\r\n\r\n"],"correctAns":3},null,{"query":" Q15. How is machine learning related to artificial intelligence?","options":[" Artificial intelligence focuses on classification, while machine learning is about clustering data.\r\n"," Machine learning is a type of artificial intelligence that relies on learning through data.\r\n"," Artificial intelligence is form of unsupervised machine learning.\r\n"," Machine learning and artificial intelligence are the same thing.\r\n\r\n"],"correctAns":2},{"query":" Q16. How do machine learning algorithms make more precise predictions?","options":[" The algorithms are typically run more powerful servers.\r\n"," The algorithms are better at seeing patterns in the data.\r\n"," Machine learning servers can host larger databases.\r\n"," The algorithms can run on unstructured data.\r\n\r\n"],"correctAns":2},{"query":" Q17. You work for an insurance company. Which machine learning project would add the most value for the company!","options":[" Create an artificial neural network that would host the company directory.\r\n"," Use machine learning to better predict risk.\r\n"," Create an algorithm that consolidates all of your Excel spreadsheets into one data lake.\r\n"," Use machine learning and big data to research salary requirements.\r\n\r\n"],"correctAns":2},null,{"query":" Q19. What is one reason not to use the same data for both your training set and your testing set?","options":[" You will almost certainly underfit the model.\r\n"," You will pick the wrong algorithm.\r\n"," You might not have enough data for both.\r\n"," You will almost certainly overfit the model.\r\n\r\n"],"correctAns":4},{"query":" Q20. Your university wants to use machine learning algorithms to help sort through incoming student applications. An administrator asks if the admissions decisions might be biased against any particular group, such as women. What would be the best answer?","options":[" Machine learning algorithms are based on math and statistics, and so by definition will be unbiased.\r\n"," There is no way to identify bias in the data.\r\n"," Machine learning algorithms are powerful enough to eliminate bias from the data.\r\n"," All human-created data is biased, and data scientists need to account for that.\r\n\r\n**Explanation**: While machine learning algorithms don't have bias, the data can have them.\r\n\r\n"],"correctAns":4},{"query":" Q21. What is stacking?","options":[" The predictions of one model become the inputs another.\r\n"," You use different versions of machine learning algorithms.\r\n"," You use several machine learning algorithms to boost your results.\r\n"," You stack your training set and testing set together.\r\n\r\n"],"correctAns":1},{"query":" Q22. You want to create a supervised machine learning system that identifies pictures of kittens on social media. To do this, you have collected more than 100,000 images of kittens. What is this collection of images called?","options":[" training data\r\n"," linear regression\r\n"," big data\r\n"," test data\r\n\r\n"],"correctAns":1},{"query":" Q23. You are working on a project that involves clustering together images of different dogs. You take image and identify it as your centroid image. What type machine learning algorithm are you using?","options":[" centroid reinforcement\r\n"," K-nearest neighbor\r\n"," binary classification\r\n"," K-means clustering\r\n\r\n**Explanation**: The problem explicitly states \"clustering\".\r\n\r\n"],"correctAns":4},{"query":" Q24. Your company wants you to build an internal email text prediction model to speed up the time that employees spend writing emails. What should you do?","options":[" Include training email data from all employees.\r\n"," Include training email data from new employees.\r\n"," Include training email data from seasoned employees.\r\n"," Include training email data from employees who write the majority of internal emails.\r\n\r\n"],"correctAns":1},{"query":" Q25. Your organization allows people to create online professional profiles. A key feature is the ability to create clusters of people who are professionally connected to one another. What type of machine learning method is used to create these clusters?","options":[" unsupervised machine learning\r\n"," binary classification\r\n"," supervised machine learning\r\n"," reinforcement learning\r\n\r\n"],"correctAns":1},null,{"query":" Q27. Random forest is modified and improved version of which earlier technique?","options":[" aggregated trees\r\n"," boosted trees\r\n"," bagged trees\r\n"," stacked trees\r\n\r\n"],"correctAns":3},{"query":" Q28. Self-organizing maps are specialized neural network for which type of machine learning?","options":[" semi-supervised learning\r\n"," supervised learning\r\n"," reinforcement learning\r\n"," unsupervised learning\r\n\r\n"],"correctAns":1},{"query":" Q29. Which statement about K-means clustering is true?","options":[" In K-means clustering, the initial centroids are sometimes randomly selected.\r\n"," K-means clustering is often used in supervised machine learning.\r\n"," The number of clusters are always randomly selected.\r\n"," To be accurate, you want your centroids outside of the cluster.\r\n\r\n"],"correctAns":1},{"query":" Q30. You created machine learning system that interacts with its environment and responds to errors and rewards. What type of machine learning system is it?","options":[" supervised learning\r\n"," semi-supervised learning\r\n"," reinforcement learning\r\n"," unsupervised learning\r\n\r\n"],"correctAns":3},{"query":" Q31. Your data science team must build a binary classifier, and the number one criterion is the fastest possible scoring at deployment. It may even be deployed in real time. Which technique will produce a model that will likely be fastest for the deployment team use to new cases?","options":[" random forest\r\n"," logistic regression\r\n"," KNN\r\n"," deep neural network\r\n\r\n"],"correctAns":2},{"query":" Q32. Your data science team wants to use the K-nearest neighbor classification algorithm. Someone on your team wants to use a K of 25. What are the challenges of this approach?","options":[" Higher K values will produce noisy data.\r\n"," Higher K values lower the bias but increase the variance.\r\n"," Higher K values need a larger training set.\r\n"," Higher K values lower the variance but increase the bias.\r\n\r\n"],"correctAns":4},{"query":" Q33. Your machine learning system is attempting to describe a hidden structure from unlabeled data. How would you describe this machine learning method?","options":[" supervised learning\r\n"," unsupervised learning\r\n"," reinforcement learning\r\n"," semi-unsupervised learning\r\n\r\n"],"correctAns":2},{"query":" Q34. You work for a large credit card processing company that wants to create targeted promotions for its customers. The data science team created a machine learning system that groups together customers who made similar purchases, and divides those customers based on customer loyalty. How would you describe this machine learning approach?","options":[" It uses unsupervised learning to cluster together transactions and unsupervised learning to classify the customers.\r\n"," It uses only unsupervised machine learning.\r\n"," It uses supervised learning to create clusters and unsupervised learning for classification.\r\n"," It uses reinforcement learning to classify the customers.\r\n\r\n"],"correctAns":1},{"query":" Q35. You are using K-nearest neighbor and you have a K of 1. What are you likely to see when you train the model?","options":[" high variance and low bias\r\n"," low bias and low variance\r\n"," low variance and high bias\r\n"," high bias and high variance\r\n\r\n"],"correctAns":1},{"query":" Q36. Are data model bias and variance a challenge with unsupervised learning?","options":[" No, data model bias and variance are only a challenge with reinforcement learning.\r\n"," Yes, data model bias is a challenge when the machine creates clusters.\r\n"," Yes, data model variance trains the unsupervised machine learning algorithm.\r\n"," No, data model bias and variance involve supervised learning.\r\n\r\n"],"correctAns":2},{"query":" Q37. Which choice is best for binary classification?","options":[" K-means\r\n"," Logistic regression\r\n"," Linear regression\r\n"," Principal Component Analysis (PCA)\r\n\r\n**Explanation:** Logistic regression is far better than linear regression at binary classification since it biases the result toward one extreme or the other. K-means clustering can be used for classification but is not as accurate in most scenarios.\r\n"],"correctAns":2},{"query":" Q38. With traditional programming, the programmer typically inputs commands. With machine learning, the programmer inputs","options":[" supervised learning\r\n"," data\r\n"," unsupervised learning\r\n"," algorithms\r\n\r\n**Explanation**: This one is pretty straight forward and a fundamental concept.\r\n"],"correctAns":2},{"query":" Q39. Why is it important for machine learning algorithms to have access to high-quality data?","options":[" It will take too long for programmers to scrub poor data.\r\n"," If the data is high quality, the algorithms will be easier to develop.\r\n"," Low-quality data requires much more processing power than high-quality data.\r\n"," If the data is low quality, you will get inaccurate results.\r\n\r\n"],"correctAns":4},{"query":" Q40. In K-nearest neighbor, the closer you are to neighbor, the more likely you are to","options":[" share common characteristics\r\n"," be part of the root node\r\n"," have a Euclidean connection\r\n"," be part of the same cluster\r\n\r\n"],"correctAns":1},{"query":" Q41. In the HBO show Silicon Valley, one of the characters creates a mobile application called Not Hot Dog. It works by having the user take a photograph of food with their mobile device. Then the app says whether the food is a hot dog. To create the app, the software developer uploaded hundreds of thousands of pictures of hot dogs. How would you describe this type of machine learning?","options":[" Reinforcement machine learning\r\n"," unsupervised machine learning\r\n"," supervised machine learning\r\n"," semi-supervised machine learning\r\n\r\n"],"correctAns":3},{"query":" Q42. You work for a large pharmaceutical company whose data science team wants to use unsupervised learning machine algorithms to help discover new drugs. What is an advantage to this approach?","options":[" You will be able to prioritize different classes of drugs, such as antibiotics.\r\n"," You can create a training set of drugs you would like to discover.\r\n"," The algorithms will cluster together drugs that have similar traits.\r\n"," Human experts can create classes of drugs to help guide discovery.\r\n\r\n**Explanation**: This one is similar to an example talked about in the Stanford Machine Learning course.\r\n"],"correctAns":3},{"query":" Q43. In 2015, Google created a machine learning system that could beat a human in the game of Go. This extremely complex game is thought to have more gameplay possibilities than there are atoms of the universe. The first version of the system won by observing hundreds of thousands of hours of human gameplay; the second version learned how to play by getting rewards while playing against itself. How would you describe this transition to different machine learning approaches?","options":[" The system went from supervised learning to reinforcement learning.\r\n"," The system evolved from supervised learning to unsupervised learning.\r\n"," The system evolved from unsupervised learnin9 to supervised learning.\r\n"," The system evolved from reinforcement learning to unsupervised learning.\r\n\r\n"],"correctAns":1},{"query":" Q44. The security company you work for is thinking about adding machine learning algorithms to their computer network threat detection appliance. What is one advantage of using machine learning?","options":[" It could better protect against undiscovered threats.\r\n"," It would very likely lower the hardware requirements.\r\n"," It would substantially shorten your development time.\r\n"," It would increase the speed of the appliance.\r\n\r\n"],"correctAns":1},{"query":" Q45. You work for a hospital that is tracking the community spread of a virus. The hospital created a smartwatch application that uploads body temperature data from hundreds of thousands of participants. What is the best technique to analyze the data?","options":[" Use reinforcement learning to reward the system when a new person participates.\r\n"," Use unsupervised machine learning to cluster together people based on patterns the machine discovers.\r\n"," Use Supervised machine learning to sort people by demographic data.\r\n"," Use Supervised machine learning to classify people by body temperature.\r\n\r\n"],"correctAns":4},{"query":" Q46. Many of the advances in machine learning have come from improved `___`.","options":[" statistics\r\n"," structured data\r\n"," availability\r\n"," algorithms\r\n\r\n"],"correctAns":4},null,{"query":" Q48. The supervisor asks to create a machine learning system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?","options":[" deep learning artificial neural network that relies on petabytes of data\r\n"," unsupervised machine learning system that clusters together the best candidates\r\n"," Not recommend machine learning for this project\r\n"," supervised machine learning system that classifies applicants into existing groups // we do not need to classify best candidates we just need to classify job applicants in to existing categories\r\n\r\n"],"correctAns":4},{"query":" Q49. Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?","options":[" regression analysis\r\n"," unsupervised learning\r\n"," high -variance modeling\r\n"," ensemble modeling\r\n\r\n"],"correctAns":4},{"query":" Q50. Your data science team wants to use machine learning to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised machine learning, what would you call this data set?","options":[" machine learning algorithm\r\n"," training set\r\n"," big data test set\r\n"," data cluster\r\n\r\n"],"correctAns":2},{"query":" Q51. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of fotos without them. What is the problem?","options":[" You are overfitting the model to the data\r\n"," You need a smaller training set\r\n"," You are underfitting the model to the data\r\n"," You need a larger training set\r\n\r\n"],"correctAns":3},{"query":" Q52. Your supervisor asks you to create a machine learning system that will help your human resources department classify jobs applicants into well-defined groups. What type of system are you more likely to recommend?","options":[" an unsupervised machine learning system that clusters together the best candidates.\r\n"," you would not recommend a machine learning system for this type of project.\r\n"," a deep learning artificial neural network that relies on petabytes of employment data.\r\n"," a supervised machine learning system that classifies applicants into existing groups.\r\n\r\n"],"correctAns":4},{"query":" Q53. You and your data science team have 1 TB of example data. What do you typically do with that data?","options":[" you use it as your training set.\r\n"," You label it big data.\r\n"," You split it into a training set and test set.\r\n"," You use it as your test set.\r\n\r\n"],"correctAns":2},{"query":" Q54. Your data science team is working on a machine learning product that can act as an artificial opponent in video games. The team is using a machine learning algorithm that focuses on rewards: If the machine does some things well, then it improves the quality of the outcome. How would you describe this type of machine learning algorithm?","options":[" semi-supervised machine learning\r\n"," supervised machine learning\r\n"," unsupervised machine learning\r\n"," reinforcement learning\r\n\r\n"],"correctAns":4},{"query":" Q55. The model will be trained with data in one single batch is known as ?","options":[" Batch learning\r\n"," Offline learning\r\n"," Both A and B\r\n"," None of the above\r\n\r\n"],"correctAns":3},{"query":" Q56. Which of the following is NOT supervised learning?","options":[" Decision Tree\r\n"," Linear Regression\r\n"," PCA\r\n"," Naive Bayesian\r\n\r\n"],"correctAns":3},{"query":" Q57. Suppose we would like to perform clustering on spatial data such as the geometrical locations of houses. We wish to produce clusters of many different sizes and shapes. Which of the following methods is the most appropriate?","options":[" Decision Trees\r\n"," K-means clustering\r\n"," Density-based clustering\r\n"," Model-based clustering\r\n\r\n"],"correctAns":3},{"query":" Q58. The error function most suited for gradient descent using logistic regression is","options":[" The entropy function.\r\n"," The squared error.\r\n"," The cross-entropy function.\r\n"," The number of mistakes.\r\n\r\n"],"correctAns":3},{"query":" Q59. Compared to the variance of the Maximum Likelihood Estimate (MLE), the variance of the Maximum A Posteriori (MAP) estimate is `___`","options":[" Higher\r\n"," same\r\n"," Lower\r\n"," it could be any of the above\r\n\r\n"],"correctAns":3},{"query":" Q60. `___` refers to a model that can neither model the training data nor generalize to new data.","options":[" good fitting\r\n"," overfitting\r\n"," underfitting\r\n"," all of the above\r\n\r\n"],"correctAns":3},null,{"query":" Q62. What does it mean to underfit your data model?","options":[" There is too little data in your training set.\r\n"," There is too much data in your training set.\r\n"," There is not a lot of variance but there is a high bias.\r\n"," Your model has low bias but high variance.\r\n\r\n  `Underfitted data models usually have high bias and low variance. Overfitted data models have low bias and high variance.`\r\n\r\n"],"correctAns":3},{"query":" Q63. Asian user complains that your company's facial recognition model does not properly identify their facial expressions. What should you do?","options":[" Include Asian faces in your test data and retrain your model.\r\n"," Retrain your model with updated hyperparameter values.\r\n"," Retrain your model with smaller batch sizes.\r\n"," Include Asian faces in your training data and retrain your model.\r\n\r\n  `The answer is self-explanatory: if Asian users are the only group of people making the complaint, then the training data should have more Asian faces.`\r\n\r\n"],"correctAns":4},{"query":" Q64. You work for a website that helps match people up for lunch dates. The website boasts that it uses more than 500 predictors to find customers the perfect date, but many costumers complain that they get very few matches. What is a likely problem with your model?","options":[" Your training set is too large.\r\n"," You are underfitting the model to the data.\r\n"," You are overfitting the model to the data.\r\n"," Your machine is creating inaccurate clusters.\r\n\r\n  **Explanation**: // This question is very similar to Q49 but involves a polar opposite scenario.\r\n\r\n  `that answer somewhat vague and unsettled. Small number of matchings does not necessarily implies that the model overfits, especially given 500 (!) independent variables. To me, it sounds more reasonable that the threshold (matching) criterion might be too tight, thus allowing only a small number of matching to occur. So a solution can be either softening the threshold criterion or increasing the number of candidates.`\r\n\r\n"],"correctAns":3},{"query":" Q65. (Mostly) whenever we see kernel visualizations online (or some other reference) we are actually seeing:","options":[" What kernels extract\r\n"," Feature Maps\r\n"," How kernels Look\r\n\r\n"],"correctAns":1},null,{"query":" Q67. The new dataset you have just scraped seems to exhibit lots of missing values. What action will help you minimizing that problem?","options":[" Wise fill-in of controlled random values\r\n"," Replace missing values with averaging across all samples\r\n"," Remove defective samples\r\n"," Imputation\r\n\r\n"],"correctAns":4},{"query":" Q68. Which of the following methods can use either as an unsupervised learning or as a dimensionality reduction technique?","options":[" SVM\r\n"," PCA\r\n"," LDA\r\n"," TSNE\r\n\r\n"],"correctAns":2},{"query":" Q69. What is the main motivation for using activation functions in ANN?","options":[" Capturing complex non-linear patterns\r\n"," Transforming continuous values into \"ON\" (1) or \"OFF\" (0) values\r\n"," Help avoiding the vanishing/exploding gradient problem\r\n"," Their ability to activate each neurons individually.\r\n\r\n"],"correctAns":1},{"query":" Q70. Which loss function would fit best in a categorical (discrete) supervised learning ?","options":[" kullback-leibler (KL) loss\r\n"," Binary Crossentropy\r\n"," Mean Squared Error (MSE)\r\n"," Any L2 loss\r\n\r\n"],"correctAns":2},null,{"query":" Q72. You create a decision tree to show whether someone decides to go to the beach. There are three factors in this decision: rainy, overcast, and sunny. What are these three factors called?","options":[" tree nodes\r\n"," predictors\r\n"," root nodes\r\n"," deciders\r\n\r\n`// these nodes decide whether the someone decides to go to beach or not, for example if its rainy people will mostly refrain from going to beach`\r\n\r\n"],"correctAns":2},{"query":" Q73. You need to quickly label thousands of images to train a model. What should you do?","options":[" Set up a cluster of machines to label the images\r\n"," Create a subset of the images and label then yourself\r\n"," Use naive Bayes to automatically generate labels.\r\n"," Hire people to manually label the images\r\n\r\n"],"correctAns":3},null,{"query":" Q75. Many of the advances in machine learning have come from improved?","options":[" structured data\r\n"," algorithms\r\n"," time\r\n"," computer scientists\r\n\r\n"],"correctAns":2},{"query":" Q76. You need to select a machine learning process to run a distributed neural network on a mobile application. Which would you choose?","options":[" Scikit-learn\r\n"," PyTorch\r\n"," Tensowflow Lite\r\n"," Tensorflow\r\n\r\n"],"correctAns":3},{"query":" Q77. Which choice is the best example of labeled data?","options":[" a spreadsheet\r\n"," 20,000 recorded voicemail messages\r\n"," 100,000 images of automobiles\r\n"," hundreds of gigabytes of audio files\r\n\r\n"],"correctAns":1},{"query":" Q78. In statistics, what is defined as the probability of a hypothesis test of finding an effect - if there is an effect to be found?","options":[" confidence\r\n"," alpha\r\n"," power\r\n"," significance\r\n\r\n"],"correctAns":3},{"query":" Q79. You want to create a machine learning algorithm to identify food recipes on the web. To do this, you create an algorithm that looks at different conditional probabilities. So if the post includes the word _flour_, it has a slightly stronger probability of being a recipe. If it contains both _flour_ and _sugar_, it even more likely a recipe. What type of algorithm are you using?","options":[" naive Bayes classifier\r\n"," K-nearest neighbor\r\n"," multiclass classification\r\n"," decision tree\r\n\r\n"],"correctAns":1},{"query":" Q80. What is lazy learning?","options":[" when the machine learning algorithms do most of the programming\r\n"," when you don't do any data scrubbing\r\n"," when the learning happens continuously\r\n"," when you run your computation in one big instance at the beginning\r\n\r\n"],"correctAns":3},{"query":" Q81. What is Q-learning reinforcement learning?","options":[" supervised machine learning with rewards\r\n"," a type of unsupervised learning that relies heavily on a well-established model\r\n"," a type of reinforcement learning where accuracy degrades over time\r\n"," a type of reinforcement learning that focuses on rewards\r\n\r\n**Explanation**:Q-learning is a model-free reinforcement learning algorithm.Q-learning is a values-based learning algorithm. Value based algorithms updates the value function based on an equation(particularly Bellman equation).\r\n"],"correctAns":4},{"query":" Q82. The data in your model has low bias and low variance. How would you expect the data points to be grouped together on the diagram?","options":[" They would be grouped tightly together in the predicted outcome.\r\n"," They would be grouped tightly together but far from the predicted.\r\n"," They would be scattered around the predict outcome.\r\n"," They would be scattered far away from the predicted outcome.\r\n\r\n"],"correctAns":1},{"query":" Q83. Your machine learning system is using labeled examples to try to predict future data, compare that data to the predicted result, and then the model. What is the best description of this machine learning method?","options":[" unsupervised learning\r\n"," semi-supervised learning\r\n"," supervised learning\r\n"," semi-reinforcement learning\r\n\r\n"],"correctAns":3},{"query":" Q84. In the 1983 movie WarGames, the computer learns how to master the game of chess by playing against itself. What machine learning method was the computer using?","options":[" binary learning\r\n"," supervised learning\r\n"," unsupervised learning\r\n"," reinforcement learning\r\n\r\n"],"correctAns":4},{"query":" Q85. You are working with your machine learning algorithm on something called class preditor probability. What algorithm are you most likely using?","options":[" multiclass binary classification\r\n"," naive Bayes\r\n"," unsupervised classification\r\n"," decision tree analysis\r\n\r\n`//You could use a naïve Bayes algorithm, to differentiate three classes of dog breeds — terrier, hound, and sport dogs. Each class has three predictors — hair length, height, and weight. The algorithm does something called class predictor probability.`\r\n\r\n"],"correctAns":2},{"query":" Q86. What is one of the most effective way to correct for underfitting your model to the data?","options":[" Create training clusters\r\n"," Remove predictors\r\n"," Use reinforcement learning\r\n"," Add more predictors\r\n"],"correctAns":4}]
+[
+    {
+        "query": " Q1. You are part of data science team that is working for a national fast-food chain. You create a simple report that shows trend: Customers who visit the store more often and buy smaller meals spend more than customers who visit less frequently and buy larger meals. What is the most likely diagram that your team created?",
+        "options": [
+            " multiclass classification diagram\r\n",
+            " linear regression and scatter plots\r\n",
+            " pivot table\r\n",
+            " K-means cluster diagram\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q2. You work for an organization that sells a spam filtering service to large companies. Your organization wants to transition its product to use machine learning. It currently a list Of 250,00 keywords. If a message contains more than few of these keywords, then it is identified as spam. What would be one advantage of transitioning to machine learning?",
+        "options": [
+            " The product would look for new patterns in spam messages.\r\n",
+            " The product could go through the keyword list much more quickly.\r\n",
+            " The product could have a much longer keyword list.\r\n",
+            " The product could find spam messages using far fewer keywords.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q3. You work for a music streaming service and want to use supervised machine learning to classify music into different genres. Your service has collected thousands of songs in each genre, and you used this as your training data. Now you pull out a small random subset of all the songs in your service. What is this subset called?",
+        "options": [
+            " data cluster\r\n",
+            " Supervised set\r\n",
+            " big data\r\n",
+            " test data\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q4. In traditional computer programming, you input commands. What do you input with machine learning?",
+        "options": [
+            " patterns\r\n",
+            " programs\r\n",
+            " rules\r\n",
+            " data\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q5. Your company wants to predict whether existing automotive insurance customers are more likely to buy homeowners insurance. It created a model to better predict the best customers contact about homeowners insurance, and the model had a low variance but high bias. What does that say about the data model?",
+        "options": [
+            " It was consistently wrong.\r\n",
+            " It was inconsistently wrong.\r\n",
+            " It was consistently right.\r\n",
+            " It was equally right end wrong.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q6. You want to identify global weather patterns that may have been affected by climate change. To do so, you want to use machine learning algorithms to find patterns that would otherwise be imperceptible to a human meteorologist. What is the place to start?",
+        "options": [
+            " Find labeled data of sunny days so that the machine will learn to identify bad weather.\r\n",
+            " Use unsupervised learning have the machine look for anomalies in a massive weather database.\r\n",
+            " Create a training set of unusual patterns and ask the machine learning algorithms to classify them.\r\n",
+            " Create a training set of normal weather and have the machine look for similar patterns.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q7. You work in a data science team that wants to improve the accuracy of its K-nearest neighbor result by running on top of a naive Bayes result. What is this an example of?",
+        "options": [
+            " regression\r\n",
+            " boosting\r\n",
+            " bagging\r\n",
+            " stacking\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q8. `____` looks at the relationship between predictors and your outcome.",
+        "options": [
+            " Regression analysis\r\n",
+            " K-means clustering\r\n",
+            " Big data\r\n",
+            " Unsupervised learning\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q9. What is an example of a commercial application for a machine learning system?",
+        "options": [
+            " a data entry system\r\n",
+            " a data warehouse system\r\n",
+            " a massive data repository\r\n",
+            " a product recommendation system\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    null,
+    {
+        "query": " Q11. You work for a power company that owns hundreds of thousands of electric meters. These meters are connected to the internet and transmit energy usage data in real-time. Your supervisor asks you to direct project to use machine learning to analyze this usage data. Why are machine learning algorithms ideal in this scenario?",
+        "options": [
+            " The algorithms would help the meters access the internet.\r\n",
+            " The algorithms will improve the wireless connectivity.\r\n",
+            " The algorithms would help your organization see patterns of the data.\r\n",
+            " By using machine learning algorithms, you are creating an IoT device.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q12. To predict a quantity value. use `___`.",
+        "options": [
+            " regression\r\n",
+            " clustering\r\n",
+            " classification\r\n",
+            " dimensionality reduction\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q13. Why is naive Bayes called naive?",
+        "options": [
+            " It naively assumes that you will have no data.\r\n",
+            " It does not even try to create accurate predictions.\r\n",
+            " It naively assumes that the predictors are independent from one another.\r\n",
+            " It naively assumes that all the predictors depend on one another.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    null,
+    {
+        "query": " Q15. How is machine learning related to artificial intelligence?",
+        "options": [
+            " Artificial intelligence focuses on classification, while machine learning is about clustering data.\r\n",
+            " Machine learning is a type of artificial intelligence that relies on learning through data.\r\n",
+            " Artificial intelligence is form of unsupervised machine learning.\r\n",
+            " Machine learning and artificial intelligence are the same thing.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q16. How do machine learning algorithms make more precise predictions?",
+        "options": [
+            " The algorithms are typically run more powerful servers.\r\n",
+            " The algorithms are better at seeing patterns in the data.\r\n",
+            " Machine learning servers can host larger databases.\r\n",
+            " The algorithms can run on unstructured data.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q17. You work for an insurance company. Which machine learning project would add the most value for the company!",
+        "options": [
+            " Create an artificial neural network that would host the company directory.\r\n",
+            " Use machine learning to better predict risk.\r\n",
+            " Create an algorithm that consolidates all of your Excel spreadsheets into one data lake.\r\n",
+            " Use machine learning and big data to research salary requirements.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    null,
+    {
+        "query": " Q19. What is one reason not to use the same data for both your training set and your testing set?",
+        "options": [
+            " You will almost certainly underfit the model.\r\n",
+            " You will pick the wrong algorithm.\r\n",
+            " You might not have enough data for both.\r\n",
+            " You will almost certainly overfit the model.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q20. Your university wants to use machine learning algorithms to help sort through incoming student applications. An administrator asks if the admissions decisions might be biased against any particular group, such as women. What would be the best answer?",
+        "options": [
+            " Machine learning algorithms are based on math and statistics, and so by definition will be unbiased.\r\n",
+            " There is no way to identify bias in the data.\r\n",
+            " Machine learning algorithms are powerful enough to eliminate bias from the data.\r\n",
+            " All human-created data is biased, and data scientists need to account for that.\r\n\r\n**Explanation**: While machine learning algorithms don't have bias, the data can have them.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q21. What is stacking?",
+        "options": [
+            " The predictions of one model become the inputs another.\r\n",
+            " You use different versions of machine learning algorithms.\r\n",
+            " You use several machine learning algorithms to boost your results.\r\n",
+            " You stack your training set and testing set together.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q22. You want to create a supervised machine learning system that identifies pictures of kittens on social media. To do this, you have collected more than 100,000 images of kittens. What is this collection of images called?",
+        "options": [
+            " training data\r\n",
+            " linear regression\r\n",
+            " big data\r\n",
+            " test data\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q23. You are working on a project that involves clustering together images of different dogs. You take image and identify it as your centroid image. What type machine learning algorithm are you using?",
+        "options": [
+            " centroid reinforcement\r\n",
+            " K-nearest neighbor\r\n",
+            " binary classification\r\n",
+            " K-means clustering\r\n\r\n**Explanation**: The problem explicitly states \"clustering\".\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q24. Your company wants you to build an internal email text prediction model to speed up the time that employees spend writing emails. What should you do?",
+        "options": [
+            " Include training email data from all employees.\r\n",
+            " Include training email data from new employees.\r\n",
+            " Include training email data from seasoned employees.\r\n",
+            " Include training email data from employees who write the majority of internal emails.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q25. Your organization allows people to create online professional profiles. A key feature is the ability to create clusters of people who are professionally connected to one another. What type of machine learning method is used to create these clusters?",
+        "options": [
+            " unsupervised machine learning\r\n",
+            " binary classification\r\n",
+            " supervised machine learning\r\n",
+            " reinforcement learning\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    null,
+    {
+        "query": " Q27. Random forest is modified and improved version of which earlier technique?",
+        "options": [
+            " aggregated trees\r\n",
+            " boosted trees\r\n",
+            " bagged trees\r\n",
+            " stacked trees\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q28. Self-organizing maps are specialized neural network for which type of machine learning?",
+        "options": [
+            " semi-supervised learning\r\n",
+            " supervised learning\r\n",
+            " reinforcement learning\r\n",
+            " unsupervised learning\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q29. Which statement about K-means clustering is true?",
+        "options": [
+            " In K-means clustering, the initial centroids are sometimes randomly selected.\r\n",
+            " K-means clustering is often used in supervised machine learning.\r\n",
+            " The number of clusters are always randomly selected.\r\n",
+            " To be accurate, you want your centroids outside of the cluster.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q30. You created machine learning system that interacts with its environment and responds to errors and rewards. What type of machine learning system is it?",
+        "options": [
+            " supervised learning\r\n",
+            " semi-supervised learning\r\n",
+            " reinforcement learning\r\n",
+            " unsupervised learning\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q31. Your data science team must build a binary classifier, and the number one criterion is the fastest possible scoring at deployment. It may even be deployed in real time. Which technique will produce a model that will likely be fastest for the deployment team use to new cases?",
+        "options": [
+            " random forest\r\n",
+            " logistic regression\r\n",
+            " KNN\r\n",
+            " deep neural network\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q32. Your data science team wants to use the K-nearest neighbor classification algorithm. Someone on your team wants to use a K of 25. What are the challenges of this approach?",
+        "options": [
+            " Higher K values will produce noisy data.\r\n",
+            " Higher K values lower the bias but increase the variance.\r\n",
+            " Higher K values need a larger training set.\r\n",
+            " Higher K values lower the variance but increase the bias.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q33. Your machine learning system is attempting to describe a hidden structure from unlabeled data. How would you describe this machine learning method?",
+        "options": [
+            " supervised learning\r\n",
+            " unsupervised learning\r\n",
+            " reinforcement learning\r\n",
+            " semi-unsupervised learning\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q34. You work for a large credit card processing company that wants to create targeted promotions for its customers. The data science team created a machine learning system that groups together customers who made similar purchases, and divides those customers based on customer loyalty. How would you describe this machine learning approach?",
+        "options": [
+            " It uses unsupervised learning to cluster together transactions and unsupervised learning to classify the customers.\r\n",
+            " It uses only unsupervised machine learning.\r\n",
+            " It uses supervised learning to create clusters and unsupervised learning for classification.\r\n",
+            " It uses reinforcement learning to classify the customers.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q35. You are using K-nearest neighbor and you have a K of 1. What are you likely to see when you train the model?",
+        "options": [
+            " high variance and low bias\r\n",
+            " low bias and low variance\r\n",
+            " low variance and high bias\r\n",
+            " high bias and high variance\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q36. Are data model bias and variance a challenge with unsupervised learning?",
+        "options": [
+            " No, data model bias and variance are only a challenge with reinforcement learning.\r\n",
+            " Yes, data model bias is a challenge when the machine creates clusters.\r\n",
+            " Yes, data model variance trains the unsupervised machine learning algorithm.\r\n",
+            " No, data model bias and variance involve supervised learning.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q37. Which choice is best for binary classification?",
+        "options": [
+            " K-means\r\n",
+            " Logistic regression\r\n",
+            " Linear regression\r\n",
+            " Principal Component Analysis (PCA)\r\n\r\n**Explanation:** Logistic regression is far better than linear regression at binary classification since it biases the result toward one extreme or the other. K-means clustering can be used for classification but is not as accurate in most scenarios.\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q38. With traditional programming, the programmer typically inputs commands. With machine learning, the programmer inputs",
+        "options": [
+            " supervised learning\r\n",
+            " data\r\n",
+            " unsupervised learning\r\n",
+            " algorithms\r\n\r\n**Explanation**: This one is pretty straight forward and a fundamental concept.\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q39. Why is it important for machine learning algorithms to have access to high-quality data?",
+        "options": [
+            " It will take too long for programmers to scrub poor data.\r\n",
+            " If the data is high quality, the algorithms will be easier to develop.\r\n",
+            " Low-quality data requires much more processing power than high-quality data.\r\n",
+            " If the data is low quality, you will get inaccurate results.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q40. In K-nearest neighbor, the closer you are to neighbor, the more likely you are to",
+        "options": [
+            " share common characteristics\r\n",
+            " be part of the root node\r\n",
+            " have a Euclidean connection\r\n",
+            " be part of the same cluster\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q41. In the HBO show Silicon Valley, one of the characters creates a mobile application called Not Hot Dog. It works by having the user take a photograph of food with their mobile device. Then the app says whether the food is a hot dog. To create the app, the software developer uploaded hundreds of thousands of pictures of hot dogs. How would you describe this type of machine learning?",
+        "options": [
+            " Reinforcement machine learning\r\n",
+            " unsupervised machine learning\r\n",
+            " supervised machine learning\r\n",
+            " semi-supervised machine learning\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q42. You work for a large pharmaceutical company whose data science team wants to use unsupervised learning machine algorithms to help discover new drugs. What is an advantage to this approach?",
+        "options": [
+            " You will be able to prioritize different classes of drugs, such as antibiotics.\r\n",
+            " You can create a training set of drugs you would like to discover.\r\n",
+            " The algorithms will cluster together drugs that have similar traits.\r\n",
+            " Human experts can create classes of drugs to help guide discovery.\r\n\r\n**Explanation**: This one is similar to an example talked about in the Stanford Machine Learning course.\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q43. In 2015, Google created a machine learning system that could beat a human in the game of Go. This extremely complex game is thought to have more gameplay possibilities than there are atoms of the universe. The first version of the system won by observing hundreds of thousands of hours of human gameplay; the second version learned how to play by getting rewards while playing against itself. How would you describe this transition to different machine learning approaches?",
+        "options": [
+            " The system went from supervised learning to reinforcement learning.\r\n",
+            " The system evolved from supervised learning to unsupervised learning.\r\n",
+            " The system evolved from unsupervised learnin9 to supervised learning.\r\n",
+            " The system evolved from reinforcement learning to unsupervised learning.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q44. The security company you work for is thinking about adding machine learning algorithms to their computer network threat detection appliance. What is one advantage of using machine learning?",
+        "options": [
+            " It could better protect against undiscovered threats.\r\n",
+            " It would very likely lower the hardware requirements.\r\n",
+            " It would substantially shorten your development time.\r\n",
+            " It would increase the speed of the appliance.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q45. You work for a hospital that is tracking the community spread of a virus. The hospital created a smartwatch application that uploads body temperature data from hundreds of thousands of participants. What is the best technique to analyze the data?",
+        "options": [
+            " Use reinforcement learning to reward the system when a new person participates.\r\n",
+            " Use unsupervised machine learning to cluster together people based on patterns the machine discovers.\r\n",
+            " Use Supervised machine learning to sort people by demographic data.\r\n",
+            " Use Supervised machine learning to classify people by body temperature.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q46. Many of the advances in machine learning have come from improved `___`.",
+        "options": [
+            " statistics\r\n",
+            " structured data\r\n",
+            " availability\r\n",
+            " algorithms\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    null,
+    {
+        "query": " Q48. The supervisor asks to create a machine learning system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?",
+        "options": [
+            " deep learning artificial neural network that relies on petabytes of data\r\n",
+            " unsupervised machine learning system that clusters together the best candidates\r\n",
+            " Not recommend machine learning for this project\r\n",
+            " supervised machine learning system that classifies applicants into existing groups // we do not need to classify best candidates we just need to classify job applicants in to existing categories\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q49. Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?",
+        "options": [
+            " regression analysis\r\n",
+            " unsupervised learning\r\n",
+            " high -variance modeling\r\n",
+            " ensemble modeling\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q50. Your data science team wants to use machine learning to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised machine learning, what would you call this data set?",
+        "options": [
+            " machine learning algorithm\r\n",
+            " training set\r\n",
+            " big data test set\r\n",
+            " data cluster\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q51. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of fotos without them. What is the problem?",
+        "options": [
+            " You are overfitting the model to the data\r\n",
+            " You need a smaller training set\r\n",
+            " You are underfitting the model to the data\r\n",
+            " You need a larger training set\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q52. Your supervisor asks you to create a machine learning system that will help your human resources department classify jobs applicants into well-defined groups. What type of system are you more likely to recommend?",
+        "options": [
+            " an unsupervised machine learning system that clusters together the best candidates.\r\n",
+            " you would not recommend a machine learning system for this type of project.\r\n",
+            " a deep learning artificial neural network that relies on petabytes of employment data.\r\n",
+            " a supervised machine learning system that classifies applicants into existing groups.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q53. You and your data science team have 1 TB of example data. What do you typically do with that data?",
+        "options": [
+            " you use it as your training set.\r\n",
+            " You label it big data.\r\n",
+            " You split it into a training set and test set.\r\n",
+            " You use it as your test set.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q54. Your data science team is working on a machine learning product that can act as an artificial opponent in video games. The team is using a machine learning algorithm that focuses on rewards: If the machine does some things well, then it improves the quality of the outcome. How would you describe this type of machine learning algorithm?",
+        "options": [
+            " semi-supervised machine learning\r\n",
+            " supervised machine learning\r\n",
+            " unsupervised machine learning\r\n",
+            " reinforcement learning\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q55. The model will be trained with data in one single batch is known as ?",
+        "options": [
+            " Batch learning\r\n",
+            " Offline learning\r\n",
+            " Both A and B\r\n",
+            " None of the above\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q56. Which of the following is NOT supervised learning?",
+        "options": [
+            " Decision Tree\r\n",
+            " Linear Regression\r\n",
+            " PCA\r\n",
+            " Naive Bayesian\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q57. Suppose we would like to perform clustering on spatial data such as the geometrical locations of houses. We wish to produce clusters of many different sizes and shapes. Which of the following methods is the most appropriate?",
+        "options": [
+            " Decision Trees\r\n",
+            " K-means clustering\r\n",
+            " Density-based clustering\r\n",
+            " Model-based clustering\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q58. The error function most suited for gradient descent using logistic regression is",
+        "options": [
+            " The entropy function.\r\n",
+            " The squared error.\r\n",
+            " The cross-entropy function.\r\n",
+            " The number of mistakes.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q59. Compared to the variance of the Maximum Likelihood Estimate (MLE), the variance of the Maximum A Posteriori (MAP) estimate is `___`",
+        "options": [
+            " Higher\r\n",
+            " same\r\n",
+            " Lower\r\n",
+            " it could be any of the above\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q60. `___` refers to a model that can neither model the training data nor generalize to new data.",
+        "options": [
+            " good fitting\r\n",
+            " overfitting\r\n",
+            " underfitting\r\n",
+            " all of the above\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    null,
+    {
+        "query": " Q62. What does it mean to underfit your data model?",
+        "options": [
+            " There is too little data in your training set.\r\n",
+            " There is too much data in your training set.\r\n",
+            " There is not a lot of variance but there is a high bias.\r\n",
+            " Your model has low bias but high variance.\r\n\r\n  `Underfitted data models usually have high bias and low variance. Overfitted data models have low bias and high variance.`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q63. Asian user complains that your company's facial recognition model does not properly identify their facial expressions. What should you do?",
+        "options": [
+            " Include Asian faces in your test data and retrain your model.\r\n",
+            " Retrain your model with updated hyperparameter values.\r\n",
+            " Retrain your model with smaller batch sizes.\r\n",
+            " Include Asian faces in your training data and retrain your model.\r\n\r\n  `The answer is self-explanatory: if Asian users are the only group of people making the complaint, then the training data should have more Asian faces.`\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q64. You work for a website that helps match people up for lunch dates. The website boasts that it uses more than 500 predictors to find customers the perfect date, but many costumers complain that they get very few matches. What is a likely problem with your model?",
+        "options": [
+            " Your training set is too large.\r\n",
+            " You are underfitting the model to the data.\r\n",
+            " You are overfitting the model to the data.\r\n",
+            " Your machine is creating inaccurate clusters.\r\n\r\n  **Explanation**: // This question is very similar to Q49 but involves a polar opposite scenario.\r\n\r\n  `that answer somewhat vague and unsettled. Small number of matchings does not necessarily implies that the model overfits, especially given 500 (!) independent variables. To me, it sounds more reasonable that the threshold (matching) criterion might be too tight, thus allowing only a small number of matching to occur. So a solution can be either softening the threshold criterion or increasing the number of candidates.`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q65. (Mostly) whenever we see kernel visualizations online (or some other reference) we are actually seeing:",
+        "options": [
+            " What kernels extract\r\n",
+            " Feature Maps\r\n",
+            " How kernels Look\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    null,
+    {
+        "query": " Q67. The new dataset you have just scraped seems to exhibit lots of missing values. What action will help you minimizing that problem?",
+        "options": [
+            " Wise fill-in of controlled random values\r\n",
+            " Replace missing values with averaging across all samples\r\n",
+            " Remove defective samples\r\n",
+            " Imputation\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q68. Which of the following methods can use either as an unsupervised learning or as a dimensionality reduction technique?",
+        "options": [
+            " SVM\r\n",
+            " PCA\r\n",
+            " LDA\r\n",
+            " TSNE\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q69. What is the main motivation for using activation functions in ANN?",
+        "options": [
+            " Capturing complex non-linear patterns\r\n",
+            " Transforming continuous values into \"ON\" (1) or \"OFF\" (0) values\r\n",
+            " Help avoiding the vanishing/exploding gradient problem\r\n",
+            " Their ability to activate each neurons individually.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q70. Which loss function would fit best in a categorical (discrete) supervised learning ?",
+        "options": [
+            " kullback-leibler (KL) loss\r\n",
+            " Binary Crossentropy\r\n",
+            " Mean Squared Error (MSE)\r\n",
+            " Any L2 loss\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    null,
+    {
+        "query": " Q72. You create a decision tree to show whether someone decides to go to the beach. There are three factors in this decision: rainy, overcast, and sunny. What are these three factors called?",
+        "options": [
+            " tree nodes\r\n",
+            " predictors\r\n",
+            " root nodes\r\n",
+            " deciders\r\n\r\n`// these nodes decide whether the someone decides to go to beach or not, for example if its rainy people will mostly refrain from going to beach`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q73. You need to quickly label thousands of images to train a model. What should you do?",
+        "options": [
+            " Set up a cluster of machines to label the images\r\n",
+            " Create a subset of the images and label then yourself\r\n",
+            " Use naive Bayes to automatically generate labels.\r\n",
+            " Hire people to manually label the images\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    null,
+    {
+        "query": " Q75. Many of the advances in machine learning have come from improved?",
+        "options": [
+            " structured data\r\n",
+            " algorithms\r\n",
+            " time\r\n",
+            " computer scientists\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q76. You need to select a machine learning process to run a distributed neural network on a mobile application. Which would you choose?",
+        "options": [
+            " Scikit-learn\r\n",
+            " PyTorch\r\n",
+            " Tensowflow Lite\r\n",
+            " Tensorflow\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q77. Which choice is the best example of labeled data?",
+        "options": [
+            " a spreadsheet\r\n",
+            " 20,000 recorded voicemail messages\r\n",
+            " 100,000 images of automobiles\r\n",
+            " hundreds of gigabytes of audio files\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q78. In statistics, what is defined as the probability of a hypothesis test of finding an effect - if there is an effect to be found?",
+        "options": [
+            " confidence\r\n",
+            " alpha\r\n",
+            " power\r\n",
+            " significance\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q79. You want to create a machine learning algorithm to identify food recipes on the web. To do this, you create an algorithm that looks at different conditional probabilities. So if the post includes the word _flour_, it has a slightly stronger probability of being a recipe. If it contains both _flour_ and _sugar_, it even more likely a recipe. What type of algorithm are you using?",
+        "options": [
+            " naive Bayes classifier\r\n",
+            " K-nearest neighbor\r\n",
+            " multiclass classification\r\n",
+            " decision tree\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q80. What is lazy learning?",
+        "options": [
+            " when the machine learning algorithms do most of the programming\r\n",
+            " when you don't do any data scrubbing\r\n",
+            " when the learning happens continuously\r\n",
+            " when you run your computation in one big instance at the beginning\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q81. What is Q-learning reinforcement learning?",
+        "options": [
+            " supervised machine learning with rewards\r\n",
+            " a type of unsupervised learning that relies heavily on a well-established model\r\n",
+            " a type of reinforcement learning where accuracy degrades over time\r\n",
+            " a type of reinforcement learning that focuses on rewards\r\n\r\n**Explanation**:Q-learning is a model-free reinforcement learning algorithm.Q-learning is a values-based learning algorithm. Value based algorithms updates the value function based on an equation(particularly Bellman equation).\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q82. The data in your model has low bias and low variance. How would you expect the data points to be grouped together on the diagram?",
+        "options": [
+            " They would be grouped tightly together in the predicted outcome.\r\n",
+            " They would be grouped tightly together but far from the predicted.\r\n",
+            " They would be scattered around the predict outcome.\r\n",
+            " They would be scattered far away from the predicted outcome.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q83. Your machine learning system is using labeled examples to try to predict future data, compare that data to the predicted result, and then the model. What is the best description of this machine learning method?",
+        "options": [
+            " unsupervised learning\r\n",
+            " semi-supervised learning\r\n",
+            " supervised learning\r\n",
+            " semi-reinforcement learning\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q84. In the 1983 movie WarGames, the computer learns how to master the game of chess by playing against itself. What machine learning method was the computer using?",
+        "options": [
+            " binary learning\r\n",
+            " supervised learning\r\n",
+            " unsupervised learning\r\n",
+            " reinforcement learning\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q85. You are working with your machine learning algorithm on something called class preditor probability. What algorithm are you most likely using?",
+        "options": [
+            " multiclass binary classification\r\n",
+            " naive Bayes\r\n",
+            " unsupervised classification\r\n",
+            " decision tree analysis\r\n\r\n`//You could use a naïve Bayes algorithm, to differentiate three classes of dog breeds — terrier, hound, and sport dogs. Each class has three predictors — hair length, height, and weight. The algorithm does something called class predictor probability.`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q86. What is one of the most effective way to correct for underfitting your model to the data?",
+        "options": [
+            " Create training clusters\r\n",
+            " Remove predictors\r\n",
+            " Use reinforcement learning\r\n",
+            " Add more predictors\r\n"
+        ],
+        "correctAns": 4
+    }
+]

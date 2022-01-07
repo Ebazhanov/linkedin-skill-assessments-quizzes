@@ -1,1 +1,786 @@
-[{"query":" Q1. What is an example of dynamic binding?","options":[" any method\r\n"," method overloading\r\n"," method overriding\r\n"," compiling\r\n\r\n"],"correctAns":3},{"query":" Q2. For which case would the use of a static attribute be appropriate?","options":[" the number of people in each house in a small neighborhood\r\n"," the lot size for each house in a small neighborhood\r\n"," the color of each house in a small neighborhood\r\n"," the weather conditions for each house in a small neighborhood\r\n\r\n"],"correctAns":4},{"query":" Q3.1 Why would you create an abstract class, if it can have no real instances?","options":[" to avoid redundant coding in children\r\n"," to explore a hypothetical class\r\n"," to prevent unwanted method implementation\r\n"," to reserve memory for an unspecified class type\r\n\r\n"],"correctAns":1},{"query":" Q3.2 Why would you create an abstract class, if it can have no real instances?","options":[" to have common behavior in derived classes\r\n"," to explore a hypothetical class\r\n"," to prevent unwanted method implementation\r\n"," to reserve memory for an unspecified class type\r\n\r\n"],"correctAns":1},{"query":" Q4. When does static binding happen?","options":[" only when you export\r\n"," both at compile time and runtime\r\n"," at compile time\r\n"," at runtime\r\n\r\n"],"correctAns":3},{"query":" Q5. What is the best reason to use a design pattern?","options":[" It will result in code that is more extensible and maintainable\r\n"," It will result in a more compact product.\r\n"," It will speed initial development.\r\n"," It will allow you to add that design pattern to your resume.\r\n\r\n"],"correctAns":1},{"query":" Q6. What is encapsulation?","options":[" defining classes by focusing on what is important for a purpose\r\n"," hiding the data and implementation details within a class\r\n"," making all methods private\r\n"," using words to define classes\r\n\r\n"],"correctAns":2},{"query":" Q7. What is an IS-A relationship?","options":[" It implies encapsulation.\r\n"," A superclass object has an IS-A relationship with its subclass.\r\n"," It implies a virtual method.\r\n"," A subclass object has an IS-A relationship with its superclass or interface\r\n\r\n"],"correctAns":4},{"query":" Q8. You want a method with behavior similar to a virtual method--it is meant to be overridden --expect that it does not have a method body. It just has a method signature. What kind of method should you use?","options":[" an abstract method\r\n"," a public internal method\r\n"," an internal method\r\n"," a protected internal method\r\n\r\n"],"correctAns":1},{"query":" Q9. Which code creates a new object from the Employee class?","options":[" Employee currentEmployee = Employee.Create();\r\n"," Employee currentEmployee = new Employee();\r\n"," Employee currentEmployee;\r\n"," Employee currentEmployee = Employee.New();\r\n\r\n"],"correctAns":2},{"query":" Q10. Which type of constructor cannot have a return type?","options":[" default\r\n"," copy\r\n"," parameterized\r\n"," Constructors do not have a return type\r\n\r\n"],"correctAns":4},{"query":" Q11.1 When is a constructor executed?","options":[" when an object is created from a class using the new keyword\r\n"," when an class is defined using the class keyword\r\n"," every time an object is referenced\r\n"," when an object is created from a class using the create keyword\r\n\r\n"],"correctAns":1},{"query":" Q11.2 When is a constructor executed?","options":[" when an object is created from a class\r\n"," when an class is defined using the class keyword\r\n"," every time an object is referenced\r\n"," when an object is created from a class using the create keyword\r\n\r\n"],"correctAns":1},{"query":" Q12. If a local class is defined in a function, what is true for an object of that class?","options":[" The object can be accessed, declared, and used locally in that function.\r\n"," The object must be declared inside any other function.\r\n"," The object is temporarily accessible outside the function.\r\n"," The object can call all the other class members anywhere in the program.\r\n\r\n"],"correctAns":1},{"query":" Q13. Which two blocks are used to handle and check errors?","options":[" do and check\r\n"," catching and trying\r\n"," try and catch\r\n"," do and while\r\n\r\n"],"correctAns":3},{"query":" Q14. Why would you implement composition using an id instead of a reference?","options":[" It makes it easier to save the entity.\r\n"," all of these answers\r\n"," It can make the entity retrieval more efficient\r\n"," It minimizes coupling.\r\n\r\n"],"correctAns":2},{"query":" Q15. Which statement best describes the method of inheritance in OOP?","options":[" Inheritance describes the ability to create new classes based on an existing class.\r\n"," Inheritance means that a group of related properties, methods, and other members are treated as a single unit or object.\r\n"," Inheritance forces a class to have a single responsibility from only one parent.\r\n"," Inheritance means that you will never have multiple classes that can be used interchangeably, even though each class implements the same properties or methods in different ways.\r\n\r\n"],"correctAns":1},{"query":" Q16 Which type of inheritance ,when done continuously, is similar to a tree structure?","options":[" multilevel\r\n"," hierarchical and multiple\r\n"," hierarchical\r\n"," multiple\r\n\r\n"],"correctAns":3},{"query":" Q17. Which statement is true?","options":[" A default parameter's constructor is not equivalent to the default constructor\r\n"," A default constructor is inherited from a parent class\r\n"," A default constructor can be called explicitly\r\n"," A default constructor cannot be defined by the coder\r\n\r\n"],"correctAns":1},{"query":" Q18. Which of the following is NOT an advantage of using getters and setters?","options":[" Getters and setters can speed up compilation.\r\n"," Getters and setters provide encapsulation of behavior.\r\n"," Getters and setters provide a debugging point for when a property changes at runtime.\r\n"," Getters and setters permit different access levels.\r\n\r\n"],"correctAns":1},{"query":" Q19. In context of OOP, what is association?","options":[" Association is a relationship where all objects have their own life cycle and there is no owner.\r\n"," Association is the process where model elements cooperate to provide higher-level behavior.\r\n"," Association is whole/part relationship where one object is composed of one or more other objects, each of which is considered a part of the whole.\r\n"," Association is where all objects have their own life cycle, but there is ownerhip, and child objects can not belong to another parent object.\r\n\r\n"],"correctAns":1},{"query":" Q20. How are user stories different from use cases?","options":[" User Stories are shorter and less detailed.\r\n"," User stories are more accurate.\r\n"," User stories are more detailed and structured.\r\n"," User storised are more anecdotal and personal.\r\n\r\n"],"correctAns":1},{"query":" Q21. Which type of inheritance must be used so that the resultant is hybrid?","options":[" multiple\r\n"," any type of inheritance\r\n"," multilevel\r\n"," hierarchical\r\n\r\n_NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inheritances\r\n\r\n"],"correctAns":4},{"query":" Q22. A language that does not support polymorphism but supports classes is considered what?","options":[" an object-based language\r\n"," a class-based language\r\n"," a procedure-oriented language\r\n"," if classes are supported, polymorphism will be supported\r\n\r\n"],"correctAns":1},{"query":" Q23. If two classes combine some private data members and provides public member functions to access and manipulate those data members. Where is abstraction used?","options":[" Abstraction is using a private access specifier for data members\r\n"," Abstraction is using public member functions to access and manipulate the data members\r\n"," Abstraction is using the class concept with both data members and member functions\r\n"," There is insufficient information to decide where abstraction is being used.\r\n\r\n"],"correctAns":2},{"query":" Q24. What are the five Creational Design patterns by the Gang of Four ?","options":[" Observer, State, Strategy, Template Method, and Visitor.\r\n"," Composite, Visitor, State, Prototype, and Singleton.\r\n"," Composite, Builder, Factory Method, Prototype, and Singleton.\r\n"," Abstract Factory, Builder, Factory Method, Prototype, and Singleton.\r\n\r\n"],"correctAns":4},{"query":" Q25. In multilevel inheritance, one class inherits how many classes?","options":[" one class only\r\n"," two classes\r\n"," as many classes as required\r\n"," at least two classes\r\n\r\n"],"correctAns":1},{"query":" Q26. if an object is passed by reference, the changes made in the function are reflected \\_.","options":[" to the main object of the caller function, too\r\n"," on the caller function object and also the called function object\r\n"," on the copy of the object that is made during the pass\r\n"," only in the local scope of the called function\r\n\r\n"],"correctAns":1},{"query":" Q27. What is a method?","options":[" a set of instructions designed to perform a frequently used operation within a program and return no values\r\n"," the exact same thing as a function and subroutine\r\n"," a set of variables that can change over time\r\n"," a procedure associated with data and behaviour\r\n\r\n"],"correctAns":2},{"query":" Q28. A mobile phone is made up of components such as a motherboard, camera, and sensors. The motherboard represents all the functions of a phone, the display shows the display only, and the phone is represented as a whole. Which of the following has the highest level of abstraction?","options":[" camera\r\n"," display\r\n"," motherboard\r\n"," mobile phone\r\n\r\n"],"correctAns":4},{"query":" Q29. Which class has the highest degree of abstraction in a multilevel inheritance relationship of five levels?","options":[" the class at the third level\r\n"," the class at the first level\r\n"," All have the same degree of abstraction.\r\n"," the class at the second level\r\n\r\n"],"correctAns":2},{"query":" Q30. Which is NOT one of the basic types of inheritance?","options":[" multilevel inheritance\r\n"," double inheritance\r\n"," single inheritance\r\n"," hierarchical inheritance\r\n\r\n"],"correctAns":2},{"query":" Q31. Why is code duplication so insidious?","options":[" The duplication uses unnecessary space.\r\n"," One has to maintain all the duplicates.\r\n"," Duplication can cause intellectual property concerns.\r\n"," Duplication is easy to hide.\r\n\r\n"],"correctAns":2},{"query":" Q32. When and how often is a static constructor called?","options":[" It is called initially when an object is created and called with every new object instance.\r\n"," It is called when an object is destroyed and only one time.\r\n"," It is called initially when an object is created and only one time.\r\n"," It is created at time when the object is discarded.\r\n\r\n"],"correctAns":3},{"query":" Q33. What does the code shown below demonstrate, and why?","code":"cpp\r\n   static void Multiply(int num1, int num2) {};\r\n   static void Multiply(double num1, double num2, double num3) {};\r\n   static void Multiply(float num1, float num2) {};\r\n","options":[" polymorphism, because each method can perform different task\r\n"," method overriding, because it display the same method name, different or same parameters, and same return type\r\n"," method overloading, because it allows the creation of several methods with the same name, wich differ by the type of input via parameter\r\n"," method overriding, because it display the same method name, different parameters, and same return type\r\n\r\n"],"correctAns":3},{"query":" Q34. What is the purpose of static constructor?","options":[" to initialize all the members with static value\r\n"," to delete the static members when not required\r\n"," to initialize the static members of class\r\n"," to clear all the static members' initialized values\r\n\r\n"],"correctAns":1},{"query":" Q35. What are CRC Cards?","options":[" Code Responsibility Collection cards are a brainstorming tool used in the design of procedural software\r\n"," Class Responsibility collaboration cards are a brainstorming tool used in the design of oop software\r\n"," Code Responsibility Correction cards are tools used for debugging\r\n"," Code Responsibility Correction cards are tools for modeling\r\n\r\n[reference link](https://en.wikipedia.org/wiki/Class-responsibility-collaboration_card)\r\n\r\n"],"correctAns":2},{"query":" Q36.1 How are contents of a composition different from those of aggregation?","options":[" if one element of an aggregation is dereferenced, all its elements are eligible for garbage collection\r\n"," if a composition dies, the contents die\r\n"," the contents of a composition are all siblings\r\n"," an aggregation contains only abstract classes\r\n\r\n"],"correctAns":2},{"query":" Q36.2 Which statement about compositions and aggregations is true?","options":[" if one element of an aggregation is dereferenced, all its elements are eligible for garbage collection\r\n"," if a composition dies, the contents die\r\n"," the contents of a composition are all siblings\r\n"," an aggregation contains only abstract classes\r\n\r\n"],"correctAns":2},{"query":" Q37. What is the result of using more abstraction?","options":[" it can increase code vulnerability\r\n"," it can make code unsafe\r\n"," it can limit code readability\r\n"," it can be safer for coding\r\n\r\n"],"correctAns":3},{"query":" Q38. Which is false for a member function of a class?","options":[" Member functions can be defined only inside or outside the class body.\r\n"," Member functions can be made to be friends of another class.\r\n"," Member functions do not need to be declared inside the class definition.\r\n"," All member functions need to be defined.\r\n\r\n"],"correctAns":3},{"query":" Q39. Why is inheritance used when creating a new class?","options":[" to protect attributes from unwanted changes\r\n"," to delegate coding responsibility more efficiently\r\n"," to conserve memory\r\n"," to avoid writing duplicate code\r\n"," to separate class behavior from the more general\r\n\r\n_NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is it also true?\r\n\r\n"],"correctAns":5},{"query":" Q40. In addition to attributes and behaviours, what quality must a class possess?","options":[" a name\r\n"," a state\r\n"," a color\r\n"," an object\r\n\r\n"],"correctAns":1},{"query":" Q41. Which type of function among the following shows polymorphism?","options":[" inline function\r\n"," undefined function\r\n"," virtual function\r\n"," class member function\r\n\r\n"],"correctAns":3},{"query":" Q42. Which words in the following list are candidates for objects: trumpet, clean, enrage, leaf, tree, collapse, active, and lively?","options":[" leaf and tree\r\n"," clean, enrage, and collapse\r\n"," clean, active, and lively\r\n"," leaf, tree, and trumpet\r\n\r\n"],"correctAns":4},{"query":" Q43. What best describes what object-oriented programming does?","options":[" It focuses on objects that interact cleanly with one another.\r\n"," It programs exclusively to interfaces.\r\n"," It programs exclusively to classes.\r\n"," It creates one class for all business logic.\r\n\r\n"],"correctAns":1},{"query":" Q44. Can abstract classes be used in multilevel inheritance?","options":[" No, abstract classes can be used only in single-level inheritance since they must be immediately implemented.\r\n"," yes, always\r\n"," yes, but with only one abstract class\r\n"," No, abstract classes do not have constructors.\r\n\r\n"],"correctAns":2},{"query":" Q45. What type of inheritance may lead to the diamond problem?","options":[" single level\r\n"," multilevel\r\n"," hierarchical\r\n"," multiple\r\n\r\n"],"correctAns":4},{"query":" Q46. What is the relationship between abstraction and encapsulation?","options":[" Abstraction is about making relevant information visible, while encapsulation enables a programmer to implement the desired level of abstraction.\r\n"," Abstraction and encapsulation are essentially the same.\r\n"," Abstraction and encapsulation are unrelated.\r\n"," Encapsulation is about making relevant information visible, while abstraction enables a programmer to implement the desired level of encapsulation.\r\n\r\n"],"correctAns":1},{"query":" Q47. Which of these keywords are access specifiers?","options":[" abstract and public\r\n"," public and private\r\n"," this and final\r\n"," final and abstract\r\n\r\n"],"correctAns":2},{"query":" Q48. What is a reference to an object?","options":[" It is the address of variable only -- not the method of an object.\r\n"," It is a shallow pointer that contains address of an object.\r\n"," It is the physical address of an object.\r\n"," It is the address where the variables and methods of an object are stored.\r\n\r\n"],"correctAns":4},{"query":" Q49. Why is unit testing harder in OOP than functional programming?","options":[" Objects may maintain internal state, which is not easily accessible by the tests.\r\n"," The quality of unit testing frameworks for functional languages is better.\r\n"," OOP promotes code reuse, which means that your tests have to consider more use cases.\r\n"," Object-oriented languages tend to rely on frameworks such as Spring or Hibernate, which make them difficult to test.\r\n\r\n"],"correctAns":1},{"query":" Q50. What is the function of a user diagram?","options":[" It connects actors to use cases.\r\n"," It links actors to roles played in all use cases.\r\n"," It lists all actors for each use case.\r\n"," It minimizes the number of actors required.\r\n\r\n"],"correctAns":2},{"query":" Q51. How do object behaviour and attributes differ?","options":[" Behaviour describe dynamic properties; attributes are static.\r\n"," Attributes describe a state; behaviours describe a change.\r\n"," Attributes apply only to a specified object; behaviour apply to other linked objects.\r\n"," Behaviours are vector quantities; attributes are scalars.\r\n\r\n"],"correctAns":2},{"query":" Q52. The open/closed principle states that classes should be open for \\_ but closed for \\_.","options":[" refactoring; duplication\r\n"," modification; duplication\r\n"," extension; modification\r\n"," reuse; encapsulation\r\n\r\n"],"correctAns":3},{"query":" Q53. Why would you override a method of a base class?","options":[" to define a method that must be implemented in a derived class\r\n"," to define a custom implementation of an inherited member\r\n"," to define a method that must be implemented in a superclass only\r\n"," to define a class that can be inherited from\r\n\r\n"],"correctAns":2},{"query":" Q54. What is a copy constructor?","options":[" It is a unique constructor for creating a new object as a copy of an object that already exists. There will always be only one copy constructor that can be either defined by the user or the system.\r\n"," It is a constructor that duplicates itself when requested on demand.\r\n"," It is a common constructor for preventing the creation of a new object as a copy of an object that already exists. There will always be multiple standard constructors that can be either defined by the user or the system.\r\n"," It is a constructor that duplicates itself on its own, based on memory available.\r\n\r\n"],"correctAns":1},{"query":" Q55. What defines the catch block most accurately?","options":[" The catch block that will be executed is the one that best matches the type of exception thrown.\r\n"," Multiple catch blocks can never be associated with a single try block.\r\n"," Multiple catch blocks are mandatory for each try block.\r\n"," Multiple catch blocks will all be executed in the case of an exception.\r\n\r\n"],"correctAns":1},{"query":" Q56. There are five classes. Class E is derived from class D, D from C, C from B, and B from A. Which class constructor(s) will be called first if the object of E or D is created?","options":[" A\r\n"," B\r\n"," C\r\n"," C and B\r\n\r\n"],"correctAns":1},{"query":" Q57. You have modules that are dependent on each other. If you change one module, you have to make changes in the dependent modules. What term is used to describe this problem, and what is a potential solution?","options":[" Cohesion. A solution is to show that each module has certain responsibilities and to use an anticohesive design pattern.\r\n"," Encapsulation. A solution is to implement one of the SOLID principles to ensure the modules do not encapsulate with each other.\r\n"," Coupling. A solution is to refactor the code to be loosely coupled by using inversion of control and dependency injection.\r\n"," Dependency. A solution is to implement polymorphism and abstraction to change and extract dependent elements of a module so that it functions on its own.\r\n\r\n"],"correctAns":3},{"query":" Q58. **\\_** describes an aggregation","options":[" A class of resources\r\n"," A group of methods\r\n"," A collection of objects\r\n"," A list of children\r\n\r\n"],"correctAns":3},{"query":" Q59. Which type of function can be used for polymorphism?","options":[" virtual function\r\n"," inline function\r\n"," undefined function\r\n"," private function\r\n\r\n"],"correctAns":1},{"query":" Q60. Which choice is a benefit of using dependency injection?","options":[" loose coupling\r\n"," code reusability\r\n"," lazy initialization\r\n"," data abstraction\r\n\r\n"],"correctAns":1},{"query":" Q61. Are you required to return an object if it was passed by reference to a function, and why or why not?","options":[" Yes, the caller function needs to reflect the changes.\r\n"," No, you should use a global variable instead.\r\n"," No, changes will be automatically reflected in the calling function.\r\n"," Yes, the object must be the same in the caller function.\r\n\r\n"],"correctAns":3},null,{"query":" Q63. What is the best example of a superclass and subclass relationship?","options":[" car:toyota\r\n"," ducks:pond\r\n"," toes:feet\r\n"," rock:stone\r\n\r\n"],"correctAns":1},{"query":" Q64. Which statements best describe the Gang of Four design patterns called Memento and Observer?","options":[" Memento notifies multiple classes of changes. Observer captures and restores an object's internal state.\r\n"," Memento defers the exact steps of an algorithm to a subclass. Observer defines a new operation to a class without change.\r\n"," Memento alters an object's behavior when its state changes. Observer encapsulates an algorithm inside a class.\r\n"," Memento captures and restores an object's internal state. Observer notifies multiple classes of changes.\r\n\r\n"],"correctAns":4},{"query":" Q65. What does the value (0.5,0.5,0.5) indicate in the class diagram specification position: Coordinate = (0.5,0.5,0.5)?","options":[" a default value of the Coordinate attribute\r\n"," the size of the position array\r\n"," an increment of the position attribute value\r\n"," a default value of the position attribute\r\n\r\n"],"correctAns":4},{"query":" Q66. What is the most accurate example of the Liskov substitution principle?","code":null,"options":["\r\n\r\n```\r\npublic class Car{\r\n}\r\npublic class FlyingCars extends Car{\r\n   public void fly(){}\r\n}\r\npublic class Tesla FlyingCar{}\r\npublic class Honda Car{}\r\n```\r\n\r\n","\r\n\r\n```\r\npublic class Car{\r\n   public void fly(){}\r\n}\r\npublic class Tesla extends Car{}\r\npublic class Honda extends Car{}\r\n```\r\n\r\n","\r\n\r\n```\r\npublic class Car{\r\npublic void fly(){}\r\n}\r\npublic class Tesla Car{}\r\npublic class Honda Car{}\r\n```\r\n\r\n","\r\n\r\n```\r\npublic class Car{\r\n}\r\npublic class FlyingCars extends Car{\r\n   public void fly(){}\r\n}\r\npublic class Tesla extends FlyingCar{}\r\npublic class Honda extends Car{}\r\n```\r\n\r\n[reference link](https://stackoverflow.com/a/44913313/1573267)\r\n\r\n"],"correctAns":4},{"query":" Q67. What is the difference between a parameter and an argument?","options":[" An argument can have many values while a parameter can have only one value.\r\n"," An argument is the variable used for input values in a method. A parameter is the specific input value passed to the method.\r\n"," A parameter is a variable in the declaration of a function. An argument is the value of this variable that gets passed to the function.\r\n"," Parameters and arguments are the same\r\n\r\n"],"correctAns":3},{"query":" Q68. What is the scope of a class nested inside another class?","options":[" Protected scope\r\n"," Private scope\r\n"," Global scope\r\n"," Depends on access specifier and inheritance used\r\n\r\n> Explanation: It depends on the access specifier and the type of inheritance used with the class, because if the class is inherited then the nested class can be used by subclass too, provided it’s not of private type.\r\n\r\n"],"correctAns":4},{"query":" Q69. Methods and attributes that define an object are a kind of blueprint called what?","options":[" a collection\r\n"," a variable\r\n"," a class\r\n"," a procedure\r\n\r\n"],"correctAns":3},{"query":" Q70. Assume single inheritance is used with classes A and B while A is the base class. Then assume classes C, D, and E, where C is a base class and D is derived from C, then E is derived from D. Class C is made to inherit from class B. Which type of inheritance is reflected?","options":[" Multilevel\r\n"," Hybrid\r\n"," Single level\r\n"," Multiple\r\n\r\n"],"correctAns":1},{"query":" Q71. What is the main idea behind separation of concerns?","options":[" All of these answers\r\n"," Applications are decomposed into parts\r\n"," Parts are defined with minimal overlap\r\n"," Each part is responsible for a separate concern\r\n\r\n"],"correctAns":1},{"query":" Q72. What is the purpose of the finally block?","options":[" To always run the finally block of code when the try block exits\r\n"," To run code when an exception has not occurred\r\n"," To run the block if an exception occurred\r\n"," To run code whenever garbage collection requires it\r\n\r\n"],"correctAns":1},{"query":" Q73. Which choice is not an OOP language?","options":[" C#\r\n"," Java\r\n"," C\r\n"," Python\r\n\r\n"],"correctAns":3},{"query":" Q74. What is the function of a finalizer or destructor?","options":[" To relinquish resources that are no longer needed\r\n"," To delete a variable name\r\n"," To reset an attribute value\r\n"," To hold space, even after an object is no longer being used\r\n\r\n"],"correctAns":1},{"query":" Q75. An instance of which type of class cannot be created?","options":[" Protected class\r\n"," Base class\r\n"," Anonymous class\r\n"," Abstract class\r\n\r\n"],"correctAns":4},{"query":" Q76. In the context of OOP, what is composition?","options":[" Composition is the act of one object passing to another object an operation to be performed on behalf of the initial object.\r\n"," Composition is a part/hole relationship where an object is composed of one or more other objects, each of which is considered a part of the whole.\r\n"," Composition is a binding where the class/name association is not made until the object designated by the name is created at execution time\r\n"," Composition is a process of collecting classes that provide a set of services for a particular domain\r\n"],"correctAns":2}]
+[
+    {
+        "query": " Q1. What is an example of dynamic binding?",
+        "options": [
+            " any method\r\n",
+            " method overloading\r\n",
+            " method overriding\r\n",
+            " compiling\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q2. For which case would the use of a static attribute be appropriate?",
+        "options": [
+            " the number of people in each house in a small neighborhood\r\n",
+            " the lot size for each house in a small neighborhood\r\n",
+            " the color of each house in a small neighborhood\r\n",
+            " the weather conditions for each house in a small neighborhood\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q3.1 Why would you create an abstract class, if it can have no real instances?",
+        "options": [
+            " to avoid redundant coding in children\r\n",
+            " to explore a hypothetical class\r\n",
+            " to prevent unwanted method implementation\r\n",
+            " to reserve memory for an unspecified class type\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q3.2 Why would you create an abstract class, if it can have no real instances?",
+        "options": [
+            " to have common behavior in derived classes\r\n",
+            " to explore a hypothetical class\r\n",
+            " to prevent unwanted method implementation\r\n",
+            " to reserve memory for an unspecified class type\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q4. When does static binding happen?",
+        "options": [
+            " only when you export\r\n",
+            " both at compile time and runtime\r\n",
+            " at compile time\r\n",
+            " at runtime\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q5. What is the best reason to use a design pattern?",
+        "options": [
+            " It will result in code that is more extensible and maintainable\r\n",
+            " It will result in a more compact product.\r\n",
+            " It will speed initial development.\r\n",
+            " It will allow you to add that design pattern to your resume.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q6. What is encapsulation?",
+        "options": [
+            " defining classes by focusing on what is important for a purpose\r\n",
+            " hiding the data and implementation details within a class\r\n",
+            " making all methods private\r\n",
+            " using words to define classes\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q7. What is an IS-A relationship?",
+        "options": [
+            " It implies encapsulation.\r\n",
+            " A superclass object has an IS-A relationship with its subclass.\r\n",
+            " It implies a virtual method.\r\n",
+            " A subclass object has an IS-A relationship with its superclass or interface\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q8. You want a method with behavior similar to a virtual method--it is meant to be overridden --expect that it does not have a method body. It just has a method signature. What kind of method should you use?",
+        "options": [
+            " an abstract method\r\n",
+            " a public internal method\r\n",
+            " an internal method\r\n",
+            " a protected internal method\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q9. Which code creates a new object from the Employee class?",
+        "options": [
+            " Employee currentEmployee = Employee.Create();\r\n",
+            " Employee currentEmployee = new Employee();\r\n",
+            " Employee currentEmployee;\r\n",
+            " Employee currentEmployee = Employee.New();\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q10. Which type of constructor cannot have a return type?",
+        "options": [
+            " default\r\n",
+            " copy\r\n",
+            " parameterized\r\n",
+            " Constructors do not have a return type\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q11.1 When is a constructor executed?",
+        "options": [
+            " when an object is created from a class using the new keyword\r\n",
+            " when an class is defined using the class keyword\r\n",
+            " every time an object is referenced\r\n",
+            " when an object is created from a class using the create keyword\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q11.2 When is a constructor executed?",
+        "options": [
+            " when an object is created from a class\r\n",
+            " when an class is defined using the class keyword\r\n",
+            " every time an object is referenced\r\n",
+            " when an object is created from a class using the create keyword\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q12. If a local class is defined in a function, what is true for an object of that class?",
+        "options": [
+            " The object can be accessed, declared, and used locally in that function.\r\n",
+            " The object must be declared inside any other function.\r\n",
+            " The object is temporarily accessible outside the function.\r\n",
+            " The object can call all the other class members anywhere in the program.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q13. Which two blocks are used to handle and check errors?",
+        "options": [
+            " do and check\r\n",
+            " catching and trying\r\n",
+            " try and catch\r\n",
+            " do and while\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q14. Why would you implement composition using an id instead of a reference?",
+        "options": [
+            " It makes it easier to save the entity.\r\n",
+            " all of these answers\r\n",
+            " It can make the entity retrieval more efficient\r\n",
+            " It minimizes coupling.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q15. Which statement best describes the method of inheritance in OOP?",
+        "options": [
+            " Inheritance describes the ability to create new classes based on an existing class.\r\n",
+            " Inheritance means that a group of related properties, methods, and other members are treated as a single unit or object.\r\n",
+            " Inheritance forces a class to have a single responsibility from only one parent.\r\n",
+            " Inheritance means that you will never have multiple classes that can be used interchangeably, even though each class implements the same properties or methods in different ways.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q16 Which type of inheritance ,when done continuously, is similar to a tree structure?",
+        "options": [
+            " multilevel\r\n",
+            " hierarchical and multiple\r\n",
+            " hierarchical\r\n",
+            " multiple\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q17. Which statement is true?",
+        "options": [
+            " A default parameter's constructor is not equivalent to the default constructor\r\n",
+            " A default constructor is inherited from a parent class\r\n",
+            " A default constructor can be called explicitly\r\n",
+            " A default constructor cannot be defined by the coder\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q18. Which of the following is NOT an advantage of using getters and setters?",
+        "options": [
+            " Getters and setters can speed up compilation.\r\n",
+            " Getters and setters provide encapsulation of behavior.\r\n",
+            " Getters and setters provide a debugging point for when a property changes at runtime.\r\n",
+            " Getters and setters permit different access levels.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q19. In context of OOP, what is association?",
+        "options": [
+            " Association is a relationship where all objects have their own life cycle and there is no owner.\r\n",
+            " Association is the process where model elements cooperate to provide higher-level behavior.\r\n",
+            " Association is whole/part relationship where one object is composed of one or more other objects, each of which is considered a part of the whole.\r\n",
+            " Association is where all objects have their own life cycle, but there is ownerhip, and child objects can not belong to another parent object.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q20. How are user stories different from use cases?",
+        "options": [
+            " User Stories are shorter and less detailed.\r\n",
+            " User stories are more accurate.\r\n",
+            " User stories are more detailed and structured.\r\n",
+            " User storised are more anecdotal and personal.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q21. Which type of inheritance must be used so that the resultant is hybrid?",
+        "options": [
+            " multiple\r\n",
+            " any type of inheritance\r\n",
+            " multilevel\r\n",
+            " hierarchical\r\n\r\n_NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inheritances\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q22. A language that does not support polymorphism but supports classes is considered what?",
+        "options": [
+            " an object-based language\r\n",
+            " a class-based language\r\n",
+            " a procedure-oriented language\r\n",
+            " if classes are supported, polymorphism will be supported\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q23. If two classes combine some private data members and provides public member functions to access and manipulate those data members. Where is abstraction used?",
+        "options": [
+            " Abstraction is using a private access specifier for data members\r\n",
+            " Abstraction is using public member functions to access and manipulate the data members\r\n",
+            " Abstraction is using the class concept with both data members and member functions\r\n",
+            " There is insufficient information to decide where abstraction is being used.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q24. What are the five Creational Design patterns by the Gang of Four ?",
+        "options": [
+            " Observer, State, Strategy, Template Method, and Visitor.\r\n",
+            " Composite, Visitor, State, Prototype, and Singleton.\r\n",
+            " Composite, Builder, Factory Method, Prototype, and Singleton.\r\n",
+            " Abstract Factory, Builder, Factory Method, Prototype, and Singleton.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q25. In multilevel inheritance, one class inherits how many classes?",
+        "options": [
+            " one class only\r\n",
+            " two classes\r\n",
+            " as many classes as required\r\n",
+            " at least two classes\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q26. if an object is passed by reference, the changes made in the function are reflected \\_.",
+        "options": [
+            " to the main object of the caller function, too\r\n",
+            " on the caller function object and also the called function object\r\n",
+            " on the copy of the object that is made during the pass\r\n",
+            " only in the local scope of the called function\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q27. What is a method?",
+        "options": [
+            " a set of instructions designed to perform a frequently used operation within a program and return no values\r\n",
+            " the exact same thing as a function and subroutine\r\n",
+            " a set of variables that can change over time\r\n",
+            " a procedure associated with data and behaviour\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q28. A mobile phone is made up of components such as a motherboard, camera, and sensors. The motherboard represents all the functions of a phone, the display shows the display only, and the phone is represented as a whole. Which of the following has the highest level of abstraction?",
+        "options": [
+            " camera\r\n",
+            " display\r\n",
+            " motherboard\r\n",
+            " mobile phone\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q29. Which class has the highest degree of abstraction in a multilevel inheritance relationship of five levels?",
+        "options": [
+            " the class at the third level\r\n",
+            " the class at the first level\r\n",
+            " All have the same degree of abstraction.\r\n",
+            " the class at the second level\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q30. Which is NOT one of the basic types of inheritance?",
+        "options": [
+            " multilevel inheritance\r\n",
+            " double inheritance\r\n",
+            " single inheritance\r\n",
+            " hierarchical inheritance\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q31. Why is code duplication so insidious?",
+        "options": [
+            " The duplication uses unnecessary space.\r\n",
+            " One has to maintain all the duplicates.\r\n",
+            " Duplication can cause intellectual property concerns.\r\n",
+            " Duplication is easy to hide.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q32. When and how often is a static constructor called?",
+        "options": [
+            " It is called initially when an object is created and called with every new object instance.\r\n",
+            " It is called when an object is destroyed and only one time.\r\n",
+            " It is called initially when an object is created and only one time.\r\n",
+            " It is created at time when the object is discarded.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q33. What does the code shown below demonstrate, and why?",
+        "code": "cpp\r\n   static void Multiply(int num1, int num2) {};\r\n   static void Multiply(double num1, double num2, double num3) {};\r\n   static void Multiply(float num1, float num2) {};\r\n",
+        "options": [
+            " polymorphism, because each method can perform different task\r\n",
+            " method overriding, because it display the same method name, different or same parameters, and same return type\r\n",
+            " method overloading, because it allows the creation of several methods with the same name, wich differ by the type of input via parameter\r\n",
+            " method overriding, because it display the same method name, different parameters, and same return type\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q34. What is the purpose of static constructor?",
+        "options": [
+            " to initialize all the members with static value\r\n",
+            " to delete the static members when not required\r\n",
+            " to initialize the static members of class\r\n",
+            " to clear all the static members' initialized values\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q35. What are CRC Cards?",
+        "options": [
+            " Code Responsibility Collection cards are a brainstorming tool used in the design of procedural software\r\n",
+            " Class Responsibility collaboration cards are a brainstorming tool used in the design of oop software\r\n",
+            " Code Responsibility Correction cards are tools used for debugging\r\n",
+            " Code Responsibility Correction cards are tools for modeling\r\n\r\n[reference link](https://en.wikipedia.org/wiki/Class-responsibility-collaboration_card)\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q36.1 How are contents of a composition different from those of aggregation?",
+        "options": [
+            " if one element of an aggregation is dereferenced, all its elements are eligible for garbage collection\r\n",
+            " if a composition dies, the contents die\r\n",
+            " the contents of a composition are all siblings\r\n",
+            " an aggregation contains only abstract classes\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q36.2 Which statement about compositions and aggregations is true?",
+        "options": [
+            " if one element of an aggregation is dereferenced, all its elements are eligible for garbage collection\r\n",
+            " if a composition dies, the contents die\r\n",
+            " the contents of a composition are all siblings\r\n",
+            " an aggregation contains only abstract classes\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q37. What is the result of using more abstraction?",
+        "options": [
+            " it can increase code vulnerability\r\n",
+            " it can make code unsafe\r\n",
+            " it can limit code readability\r\n",
+            " it can be safer for coding\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q38. Which is false for a member function of a class?",
+        "options": [
+            " Member functions can be defined only inside or outside the class body.\r\n",
+            " Member functions can be made to be friends of another class.\r\n",
+            " Member functions do not need to be declared inside the class definition.\r\n",
+            " All member functions need to be defined.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q39. Why is inheritance used when creating a new class?",
+        "options": [
+            " to protect attributes from unwanted changes\r\n",
+            " to delegate coding responsibility more efficiently\r\n",
+            " to conserve memory\r\n",
+            " to avoid writing duplicate code\r\n",
+            " to separate class behavior from the more general\r\n\r\n_NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is it also true?\r\n\r\n"
+        ],
+        "correctAns": 5
+    },
+    {
+        "query": " Q40. In addition to attributes and behaviours, what quality must a class possess?",
+        "options": [
+            " a name\r\n",
+            " a state\r\n",
+            " a color\r\n",
+            " an object\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q41. Which type of function among the following shows polymorphism?",
+        "options": [
+            " inline function\r\n",
+            " undefined function\r\n",
+            " virtual function\r\n",
+            " class member function\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q42. Which words in the following list are candidates for objects: trumpet, clean, enrage, leaf, tree, collapse, active, and lively?",
+        "options": [
+            " leaf and tree\r\n",
+            " clean, enrage, and collapse\r\n",
+            " clean, active, and lively\r\n",
+            " leaf, tree, and trumpet\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q43. What best describes what object-oriented programming does?",
+        "options": [
+            " It focuses on objects that interact cleanly with one another.\r\n",
+            " It programs exclusively to interfaces.\r\n",
+            " It programs exclusively to classes.\r\n",
+            " It creates one class for all business logic.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q44. Can abstract classes be used in multilevel inheritance?",
+        "options": [
+            " No, abstract classes can be used only in single-level inheritance since they must be immediately implemented.\r\n",
+            " yes, always\r\n",
+            " yes, but with only one abstract class\r\n",
+            " No, abstract classes do not have constructors.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q45. What type of inheritance may lead to the diamond problem?",
+        "options": [
+            " single level\r\n",
+            " multilevel\r\n",
+            " hierarchical\r\n",
+            " multiple\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q46. What is the relationship between abstraction and encapsulation?",
+        "options": [
+            " Abstraction is about making relevant information visible, while encapsulation enables a programmer to implement the desired level of abstraction.\r\n",
+            " Abstraction and encapsulation are essentially the same.\r\n",
+            " Abstraction and encapsulation are unrelated.\r\n",
+            " Encapsulation is about making relevant information visible, while abstraction enables a programmer to implement the desired level of encapsulation.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q47. Which of these keywords are access specifiers?",
+        "options": [
+            " abstract and public\r\n",
+            " public and private\r\n",
+            " this and final\r\n",
+            " final and abstract\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q48. What is a reference to an object?",
+        "options": [
+            " It is the address of variable only -- not the method of an object.\r\n",
+            " It is a shallow pointer that contains address of an object.\r\n",
+            " It is the physical address of an object.\r\n",
+            " It is the address where the variables and methods of an object are stored.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q49. Why is unit testing harder in OOP than functional programming?",
+        "options": [
+            " Objects may maintain internal state, which is not easily accessible by the tests.\r\n",
+            " The quality of unit testing frameworks for functional languages is better.\r\n",
+            " OOP promotes code reuse, which means that your tests have to consider more use cases.\r\n",
+            " Object-oriented languages tend to rely on frameworks such as Spring or Hibernate, which make them difficult to test.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q50. What is the function of a user diagram?",
+        "options": [
+            " It connects actors to use cases.\r\n",
+            " It links actors to roles played in all use cases.\r\n",
+            " It lists all actors for each use case.\r\n",
+            " It minimizes the number of actors required.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q51. How do object behaviour and attributes differ?",
+        "options": [
+            " Behaviour describe dynamic properties; attributes are static.\r\n",
+            " Attributes describe a state; behaviours describe a change.\r\n",
+            " Attributes apply only to a specified object; behaviour apply to other linked objects.\r\n",
+            " Behaviours are vector quantities; attributes are scalars.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q52. The open/closed principle states that classes should be open for \\_ but closed for \\_.",
+        "options": [
+            " refactoring; duplication\r\n",
+            " modification; duplication\r\n",
+            " extension; modification\r\n",
+            " reuse; encapsulation\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q53. Why would you override a method of a base class?",
+        "options": [
+            " to define a method that must be implemented in a derived class\r\n",
+            " to define a custom implementation of an inherited member\r\n",
+            " to define a method that must be implemented in a superclass only\r\n",
+            " to define a class that can be inherited from\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q54. What is a copy constructor?",
+        "options": [
+            " It is a unique constructor for creating a new object as a copy of an object that already exists. There will always be only one copy constructor that can be either defined by the user or the system.\r\n",
+            " It is a constructor that duplicates itself when requested on demand.\r\n",
+            " It is a common constructor for preventing the creation of a new object as a copy of an object that already exists. There will always be multiple standard constructors that can be either defined by the user or the system.\r\n",
+            " It is a constructor that duplicates itself on its own, based on memory available.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q55. What defines the catch block most accurately?",
+        "options": [
+            " The catch block that will be executed is the one that best matches the type of exception thrown.\r\n",
+            " Multiple catch blocks can never be associated with a single try block.\r\n",
+            " Multiple catch blocks are mandatory for each try block.\r\n",
+            " Multiple catch blocks will all be executed in the case of an exception.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q56. There are five classes. Class E is derived from class D, D from C, C from B, and B from A. Which class constructor(s) will be called first if the object of E or D is created?",
+        "options": [
+            " A\r\n",
+            " B\r\n",
+            " C\r\n",
+            " C and B\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q57. You have modules that are dependent on each other. If you change one module, you have to make changes in the dependent modules. What term is used to describe this problem, and what is a potential solution?",
+        "options": [
+            " Cohesion. A solution is to show that each module has certain responsibilities and to use an anticohesive design pattern.\r\n",
+            " Encapsulation. A solution is to implement one of the SOLID principles to ensure the modules do not encapsulate with each other.\r\n",
+            " Coupling. A solution is to refactor the code to be loosely coupled by using inversion of control and dependency injection.\r\n",
+            " Dependency. A solution is to implement polymorphism and abstraction to change and extract dependent elements of a module so that it functions on its own.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q58. **\\_** describes an aggregation",
+        "options": [
+            " A class of resources\r\n",
+            " A group of methods\r\n",
+            " A collection of objects\r\n",
+            " A list of children\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q59. Which type of function can be used for polymorphism?",
+        "options": [
+            " virtual function\r\n",
+            " inline function\r\n",
+            " undefined function\r\n",
+            " private function\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q60. Which choice is a benefit of using dependency injection?",
+        "options": [
+            " loose coupling\r\n",
+            " code reusability\r\n",
+            " lazy initialization\r\n",
+            " data abstraction\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q61. Are you required to return an object if it was passed by reference to a function, and why or why not?",
+        "options": [
+            " Yes, the caller function needs to reflect the changes.\r\n",
+            " No, you should use a global variable instead.\r\n",
+            " No, changes will be automatically reflected in the calling function.\r\n",
+            " Yes, the object must be the same in the caller function.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    null,
+    {
+        "query": " Q63. What is the best example of a superclass and subclass relationship?",
+        "options": [
+            " car:toyota\r\n",
+            " ducks:pond\r\n",
+            " toes:feet\r\n",
+            " rock:stone\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q64. Which statements best describe the Gang of Four design patterns called Memento and Observer?",
+        "options": [
+            " Memento notifies multiple classes of changes. Observer captures and restores an object's internal state.\r\n",
+            " Memento defers the exact steps of an algorithm to a subclass. Observer defines a new operation to a class without change.\r\n",
+            " Memento alters an object's behavior when its state changes. Observer encapsulates an algorithm inside a class.\r\n",
+            " Memento captures and restores an object's internal state. Observer notifies multiple classes of changes.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q65. What does the value (0.5,0.5,0.5) indicate in the class diagram specification position: Coordinate = (0.5,0.5,0.5)?",
+        "options": [
+            " a default value of the Coordinate attribute\r\n",
+            " the size of the position array\r\n",
+            " an increment of the position attribute value\r\n",
+            " a default value of the position attribute\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q66. What is the most accurate example of the Liskov substitution principle?",
+        "code": null,
+        "options": [
+            "\r\n\r\n```\r\npublic class Car{\r\n}\r\npublic class FlyingCars extends Car{\r\n   public void fly(){}\r\n}\r\npublic class Tesla FlyingCar{}\r\npublic class Honda Car{}\r\n```\r\n\r\n",
+            "\r\n\r\n```\r\npublic class Car{\r\n   public void fly(){}\r\n}\r\npublic class Tesla extends Car{}\r\npublic class Honda extends Car{}\r\n```\r\n\r\n",
+            "\r\n\r\n```\r\npublic class Car{\r\npublic void fly(){}\r\n}\r\npublic class Tesla Car{}\r\npublic class Honda Car{}\r\n```\r\n\r\n",
+            "\r\n\r\n```\r\npublic class Car{\r\n}\r\npublic class FlyingCars extends Car{\r\n   public void fly(){}\r\n}\r\npublic class Tesla extends FlyingCar{}\r\npublic class Honda extends Car{}\r\n```\r\n\r\n[reference link](https://stackoverflow.com/a/44913313/1573267)\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q67. What is the difference between a parameter and an argument?",
+        "options": [
+            " An argument can have many values while a parameter can have only one value.\r\n",
+            " An argument is the variable used for input values in a method. A parameter is the specific input value passed to the method.\r\n",
+            " A parameter is a variable in the declaration of a function. An argument is the value of this variable that gets passed to the function.\r\n",
+            " Parameters and arguments are the same\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q68. What is the scope of a class nested inside another class?",
+        "options": [
+            " Protected scope\r\n",
+            " Private scope\r\n",
+            " Global scope\r\n",
+            " Depends on access specifier and inheritance used\r\n\r\n> Explanation: It depends on the access specifier and the type of inheritance used with the class, because if the class is inherited then the nested class can be used by subclass too, provided it’s not of private type.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q69. Methods and attributes that define an object are a kind of blueprint called what?",
+        "options": [
+            " a collection\r\n",
+            " a variable\r\n",
+            " a class\r\n",
+            " a procedure\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q70. Assume single inheritance is used with classes A and B while A is the base class. Then assume classes C, D, and E, where C is a base class and D is derived from C, then E is derived from D. Class C is made to inherit from class B. Which type of inheritance is reflected?",
+        "options": [
+            " Multilevel\r\n",
+            " Hybrid\r\n",
+            " Single level\r\n",
+            " Multiple\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q71. What is the main idea behind separation of concerns?",
+        "options": [
+            " All of these answers\r\n",
+            " Applications are decomposed into parts\r\n",
+            " Parts are defined with minimal overlap\r\n",
+            " Each part is responsible for a separate concern\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q72. What is the purpose of the finally block?",
+        "options": [
+            " To always run the finally block of code when the try block exits\r\n",
+            " To run code when an exception has not occurred\r\n",
+            " To run the block if an exception occurred\r\n",
+            " To run code whenever garbage collection requires it\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q73. Which choice is not an OOP language?",
+        "options": [
+            " C#\r\n",
+            " Java\r\n",
+            " C\r\n",
+            " Python\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q74. What is the function of a finalizer or destructor?",
+        "options": [
+            " To relinquish resources that are no longer needed\r\n",
+            " To delete a variable name\r\n",
+            " To reset an attribute value\r\n",
+            " To hold space, even after an object is no longer being used\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q75. An instance of which type of class cannot be created?",
+        "options": [
+            " Protected class\r\n",
+            " Base class\r\n",
+            " Anonymous class\r\n",
+            " Abstract class\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q76. In the context of OOP, what is composition?",
+        "options": [
+            " Composition is the act of one object passing to another object an operation to be performed on behalf of the initial object.\r\n",
+            " Composition is a part/hole relationship where an object is composed of one or more other objects, each of which is considered a part of the whole.\r\n",
+            " Composition is a binding where the class/name association is not made until the object designated by the name is created at execution time\r\n",
+            " Composition is a process of collecting classes that provide a set of services for a particular domain\r\n"
+        ],
+        "correctAns": 2
+    }
+]

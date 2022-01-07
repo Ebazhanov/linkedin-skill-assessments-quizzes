@@ -1,1 +1,1037 @@
-[{"query":" Q1. What is an abstract class?","options":[" An abstract class is the name for any class from which you can instantiate an object.\r\n"," Abstract classes must be redefined any time an object is instantiated from them.\r\n"," Abstract classes must inherit from concrete classes.\r\n"," An abstract class exists only so that other \"concrete\" classes can inherit from the abstract class.\r\n\r\n[reference](https://www.geeksforgeeks.org/abstract-classes-in-python/)\r\n\r\n"],"correctAns":4},null,{"query":" Q3. What data structure does a binary tree degenerate to if it isn't balanced properly?","options":[" linked list\r\n"," queue\r\n"," set\r\n"," OrderedDict\r\n\r\n"],"correctAns":1},{"query":" Q4. What statement about static methods is true?","options":[" Static methods are called static because they always return `None`.\r\n"," Static methods can be bound to either a class or an instance of a class.\r\n"," Static methods serve mostly as utility methods or helper methods, since they can't access or modify a class's state.\r\n"," Static methods can access and modify the state of a class or an instance of a class.\r\n\r\n[reference](https://www.geeksforgeeks.org/class-method-vs-static-method-python)\r\n\r\n"],"correctAns":3},{"query":" Q5. What are attributes?","options":[" Attributes are long-form version of an `if/else` statement, used when testing for equality between objects.\r\n"," Attributes are a way to hold data or describe a state for a class or an instance of a class.\r\n"," Attributes are strings that describe characteristics of a class.\r\n"," Function arguments are called \"attributes\" in the context of class methods and instance methods.\r\n\r\n**Explanation**\r\nAttributes defined under the class, arguments goes under the functions. arguments usually refer as parameter, whereas attributes are the constructor of the class or an instance of a class.\r\n\r\n"],"correctAns":2},{"query":" Q6. What is the term to describe this code?","options":[" `tuple assignment`\r\n"," `tuple unpacking`\r\n"," `tuple matching`\r\n"," `tuple duplication`\r\n\r\n"],"correctAns":2},null,{"query":" Q8. What is one of the most common use of Python's sys library?","options":[" to capture command-line arguments given at a file's runtime\r\n"," to connect various systems, such as connecting a web front end, an API service, a database, and a mobile app\r\n"," to take a snapshot of all the packages and libraries in your virtual environment\r\n"," to scan the health of your Python ecosystem while inside a virtual environment\r\n\r\n"],"correctAns":1},{"query":" Q9. What is the runtime of accessing a value in a dictionary by using its key?","options":[" O(n), also called linear time.\r\n"," O(log n), also called logarithmic time.\r\n"," O(n^2), also called quadratic time.\r\n"," O(1), also called constant time.\r\n\r\n"],"correctAns":4},{"query":" Q10. What is the correct syntax for defining a class called Game, if it inherits from a parent class called LogicGame?","options":[" `class Game(LogicGame): pass`\r\n"," `def Game(LogicGame): pass`\r\n"," `def Game.LogicGame(): pass`\r\n"," `class Game.LogicGame(): pass`\r\n\r\n**Explanation:** `The parent class which is inherited is passed as an argument to the child class. Therefore, here the first option is the right answer.`\r\n\r\n"],"correctAns":1},null,null,null,{"query":" Q12. What built-in Python data type is commonly used to represent a stack?","options":[" `set`\r\n"," `list`\r\n"," `None`\r\n"," `dictionary`\r\n\r\n`. You can only build a stack from scratch.`\r\n\r\n"],"correctAns":2},{"query":" Q13. What would this expression return?","code":"python\r\ncollege_years = ['Freshman', 'Sophomore', 'Junior', 'Senior']\r\nreturn list(enumerate(college_years, 2019))\r\n","options":[" `[('Freshman', 2019), ('Sophomore', 2020), ('Junior', 2021), ('Senior', 2022)]`\r\n"," `[(2019, 2020, 2021, 2022), ('Freshman', 'Sophomore', 'Junior', 'Senior')]`\r\n"," `[('Freshman', 'Sophomore', 'Junior', 'Senior'), (2019, 2020, 2021, 2022)]`\r\n"," `[(2019, 'Freshman'), (2020, 'Sophomore'), (2021, 'Junior'), (2022, 'Senior')]`\r\n\r\n"],"correctAns":4},{"query":" Q14. How does `defaultdict` work?","options":[" `defaultdict` will automatically create a dictionary for you that has keys which are the integers 0-10.\r\n"," `defaultdict` forces a dictionary to only accept keys that are of the data type specified when you created the `defaultdict` (such as strings or integers).\r\n"," If you try to read from a `defaultdict` with a nonexistent key, a new default key-value pair will be created for you instead of throwing a `KeyError`.\r\n"," `defaultdict` stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.\r\n\r\n"],"correctAns":3},{"query":" Q15. What is the correct syntax for defining a class called \"Game\", if it inherits from a parent class called \"LogicGame\"?","options":[" `class Game.LogicGame(): pass`\r\n"," `def Game(LogicGame): pass`\r\n"," `class Game(LogicGame): pass`\r\n"," `def Game.LogicGame(): pass`\r\n\r\n`repeated but labels will be different`\r\n\r\n"],"correctAns":3},null,{"query":" Q17. Which of these is NOT a characteristic of namedtuples?","options":[" You can assign a name to each of the `namedtuple` members and refer to them that way, similarly to how you would access keys in `dictionary`.\r\n"," Each member of a namedtuple object can be indexed to directly, just like in a regular `tuple`.\r\n"," `namedtuples` are just as memory efficient as regular `tuples`.\r\n"," No import is needed to use `namedtuples` because they are available in the standard library.\r\n\r\n**We need to import it using `from collections import namedtuple` **\r\n\r\n"],"correctAns":4},{"query":" Q18. What is an instance method?","options":[" Instance methods can modify the state of an instance or the state of its parent class.\r\n"," Instance methods hold data related to the instance.\r\n"," An instance method is any class method that doesn't take any arguments.\r\n"," An instance method is a regular function that belongs to a class, but it must return `None`.\r\n\r\n"],"correctAns":1},{"query":" Q19. Which choice is the most syntactically correct example of the conditional branching?","code":null,"options":["\r\n\r\n```python\r\nnum_people = 5\r\n\r\nif num_people > 10:\r\n    print(\"There is a lot of people in the pool.\")\r\nelif num_people > 4;\r\n    print(\"There are some people in the pool.\")\r\nelif num_people > 0;\r\n    print(\"There are a few people in the pool.\")\r\nelse:\r\n    print(\"There is no one in the pool.\")\r\n```\r\n\r\n","\r\n\r\n```python\r\nnum_people = 5\r\n\r\nif num_people > 10:\r\n    print(\"There is a lot of people in the pool.\")\r\nif num_people > 4:\r\n    print(\"There are some people in the pool.\")\r\nif num_people > 0:\r\n    print(\"There are a few people in the pool.\")\r\nelse:\r\n    print(\"There is no one in the pool.\")\r\n```\r\n\r\n","\r\n\r\n```python\r\nnum_people = 5\r\n\r\nif num_people > 10:\r\n    print(\"There is a lot of people in the pool.\")\r\nelif num_people > 4:\r\n    print(\"There are some people in the pool.\")\r\nelif num_people > 0:\r\n    print(\"There are a few people in the pool.\")\r\nelse:\r\n    print(\"There is no one in the pool.\")\r\n```\r\n\r\n","\r\n\r\n```python\r\nif num_people > 10;\r\n    print(\"There is a lot of people in the pool.\")\r\nif num_people > 4:\r\n    print(\"There are some people in the pool.\")\r\nif num_people > 0:\r\n    print(\"There are a few people in the pool.\")\r\nelse:\r\n    print(\"There is no one in the pool.\")\r\n```\r\n\r\nAlso see Question 85 for the same question with different answers.\r\n\r\n"],"correctAns":3},{"query":" Q20. Which statement does NOT describe the object-oriented programming concept of encapsulation?","options":[" It protects the data from outside interference.\r\n"," A parent class is encapsulated and no data from the parent class passes on to the child class.\r\n"," It keeps data and the methods that can manipulate that data in one place.\r\n"," It only allows the data to be changed by methods.\r\n\r\n"],"correctAns":4},{"query":" Q21. What is the purpose of an if/else statement?","options":[" It tells the computer which chunk of code to run if the instructions you coded are incorrect.\r\n"," It runs one chunk of code if all the imports were successful, and another chunk of code if the imports were not successful.\r\n"," It executes one chunk of code if a condition is true, but a different chunk of code if the condition is false.\r\n"," It tells the computer which chunk of code to run if the is enough memory to handle it, and which chunk of code to run if there is not enough memory to handle it.\r\n\r\n"],"correctAns":3},{"query":" Q22. What built-in Python data type is best suited for implementing a queue?","options":[" dictionary\r\n"," set\r\n"," None. You can only build a queue from scratch.\r\n"," list\r\n\r\n"],"correctAns":4},{"query":" Q23. What is the correct syntax for instantiating a new object of the type Game?","options":[" `my_game = class.Game()`\r\n"," `my_game = class(Game)`\r\n"," `my_game = Game()`\r\n"," `my_game = Game.create()`\r\n\r\n"],"correctAns":3},null,{"query":" Q25. If you don't explicitly return a value from a function, what happens?","options":[" The function will return a RuntimeError if you don't return a value.\r\n"," If the return keyword is absent, the function will return `None`.\r\n"," If the return keyword is absent, the function will return `True`.\r\n"," The function will enter an infinite loop because it won't know when to stop executing its code.\r\n\r\n"],"correctAns":2},{"query":" Q26. What is the purpose of the `pass` statement in Python?","options":[" It is used to skip the `yield` statement of a generator and return a value of None.\r\n"," It is a null operation used mainly as a placeholder in functions, classes, etc.\r\n"," It is used to pass control from one statement block to another.\r\n"," It is used to skip the rest of a `while` or `for loop` and return to the start of the loop.\r\n\r\n"],"correctAns":2},{"query":" Q27. What is the term used to describe items that may be passed into a function?","options":[" arguments\r\n"," paradigms\r\n"," attributes\r\n"," decorators\r\n\r\n"],"correctAns":1},{"query":" Q28. Which collection type is used to associate values with unique keys?","options":[" `slot`\r\n"," `dictionary`\r\n"," `queue`\r\n"," `sorted list`\r\n\r\n"],"correctAns":2},{"query":" Q29. When does a for loop stop iterating?","options":[" when it encounters an infinite loop\r\n"," when it encounters an if/else statement that contains a break keyword\r\n"," when it has assessed each item in the iterable it is working on or a break keyword is encountered\r\n"," when the runtime for the loop exceeds O(n^2)\r\n\r\n"],"correctAns":3},{"query":" Q30. Assuming the node is in a singly linked list, what is the runtime complexity of searching for a specific node within a singly linked list?","options":[" The runtime is O(n) because in the worst case, the node you are searching for is the last node, and every node in the linked list must be visited.\r\n"," The runtime is O(nk), with n representing the number of nodes and k representing the amount of time it takes to access each node in memory.\r\n"," The runtime cannot be determined unless you know how many nodes are in the singly linked list.\r\n"," The runtime is O(1) because you can index directly to a node in a singly linked list.\r\n\r\n"],"correctAns":1},{"query":" Q31. Given the following three list, how would you create a new list that matches the desired output printed below?","code":"python\r\nfruits = ['Apples', 'Oranges', 'Bananas']\r\nquantities = [5, 3, 4]\r\nprices = [1.50, 2.25, 0.89]\r\n\r\n#Desired output\r\n[('Apples', 5, 1.50),\r\n('Oranges', 3, 2.25),\r\n('Bananas', 4, 0.89)]\r\n","options":["\r\n\r\n```python\r\noutput = []\r\n\r\nfruit_tuple_0 = (first[0], quantities[0], price[0])\r\noutput.append(fruit_tuple)\r\n\r\nfruit_tuple_1 = (first[1], quantities[1], price[1])\r\noutput.append(fruit_tuple)\r\n\r\nfruit_tuple_2 = (first[2], quantities[2], price[2])\r\noutput.append(fruit_tuple)\r\n\r\nreturn output\r\n```\r\n\r\n","\r\n\r\n```python\r\ni = 0\r\noutput = []\r\nfor fruit in fruits:\r\n    temp_qty = quantities[i]\r\n    temp_price = prices[i]\r\n    output.append((fruit, temp_qty, temp_price))\r\n    i += 1\r\nreturn output\r\n```\r\n\r\n","\r\n\r\n```python\r\ngroceries = zip(fruits, quantities, prices)\r\nreturn groceries\r\n\r\n>>> [\r\n('Apples', 5, 1.50),\r\n('Oranges', 3, 2.25),\r\n('Bananas', 4, 0.89)\r\n]\r\n```\r\n\r\n","\r\n\r\n```python\r\ni = 0\r\noutput = []\r\nfor fruit in fruits:\r\n    for qty in quantities:\r\n        for price in prices:\r\n            output.append((fruit, qty, price))\r\n    i += 1\r\nreturn output\r\n```\r\n\r\n"],"correctAns":2},null,{"query":" Q33. What is the correct syntax for calling an instance method on a class named Game?","code":null,"options":["\r\n\r\n```python\r\n>>> dice = Game()\r\n>>> dice.roll()\r\n```\r\n\r\n","\r\n\r\n```python\r\n>>> dice = Game(self)\r\n>>> dice.roll(self)\r\n```\r\n\r\n","\r\n\r\n```python\r\n>>> dice = Game()\r\n>>> dice.roll(self)\r\n```\r\n\r\n","\r\n\r\n```python\r\n>>> dice = Game(self)\r\n>>> dice.roll()\r\n```\r\n\r\n"],"correctAns":1},{"query":" Q34. What is the algorithmic paradigm of quick sort?","options":[" backtracking\r\n"," dynamic programming\r\n"," decrease and conquer\r\n"," divide and conquer\r\n\r\n"],"correctAns":4},{"query":" Q35. What is runtime complexity of the list's built-in `.append()` method?","options":[" O(1), also called constant time\r\n"," O(log n), also called logarithmic time\r\n"," O(n^2), also called quadratic time\r\n"," O(n), also called linear time\r\n\r\n"],"correctAns":1},{"query":" Q36. What is key difference between a `set` and a `list`?","options":[" A set is an ordered collection unique items. A list is an unordered collection of non-unique items.\r\n"," Elements can be retrieved from a list but they cannot be retrieved from a set.\r\n"," A set is an ordered collection of non-unique items. A list is an unordered collection of unique items.\r\n"," A set is an unordered collection unique items. A list is an ordered collection of non-unique items.\r\n\r\n"],"correctAns":4},{"query":" Q37. What is the definition of abstraction as applied to object-oriented Python?","options":[" Abstraction means that a different style of code can be used, since many details are already known to the program behind the scenes.\r\n"," Abstraction means the implementation is hidden from the user, and only the relevant data or information is shown.\r\n"," Abstraction means that the data and the functionality of a class are combined into one entity.\r\n"," Abstraction means that a class can inherit from more than one parent class.\r\n\r\n"],"correctAns":2},{"query":" Q38. What does this function print?","code":"python\r\ndef print_alpha_nums(abc_list, num_list):\r\n    for char in abc_list:\r\n        for num in num_list:\r\n            print(char, num)\r\n    return\r\n\r\nprint_alpha_nums(['a', 'b', 'c'], [1, 2, 3])\r\n","options":["\r\n\r\n```python\r\na 1\r\na 2\r\na 3\r\nb 1\r\nb 2\r\nb 3\r\nc 1\r\nc 2\r\nc 3\r\n```\r\n\r\n","\r\n\r\n```python\r\n['a', 'b', 'c'], [1, 2, 3]\r\n```\r\n\r\n","\r\n\r\n```python\r\naaa\r\nbbb\r\nccc\r\n111\r\n222\r\n333\r\n```\r\n\r\n","\r\n\r\n```python\r\na 1 2 3\r\nb 1 2 3\r\nc 1 2 3\r\n```\r\n\r\n"],"correctAns":1},{"query":" Q39. Correct representation of doctest for function in Python","code":null,"options":["\r\n\r\n```python\r\ndef sum(a, b):\r\n    # a = 1\r\n    # b = 2\r\n    # sum(a, b) = 3\r\n\r\n    return a + b\r\n```\r\n\r\n","\r\n\r\n```python\r\ndef sum(a, b):\r\n    \"\"\"\r\n    a = 1\r\n    b = 2\r\n    sum(a, b) = 3\r\n    \"\"\"\r\n\r\n    return a + b\r\n```\r\n\r\n","\r\n\r\n```python\r\ndef sum(a, b):\r\n    \"\"\"\r\n    >>> a = 1\r\n    >>> b = 2\r\n    >>> sum(a, b)\r\n    3\r\n    \"\"\"\r\n\r\n    return a + b\r\n```\r\n\r\n","\r\n\r\n```python\r\ndef sum(a, b):\r\n    '''\r\n    a = 1\r\n    b = 2\r\n    sum(a, b) = 3\r\n    '''\r\n    return a + b\r\n```\r\n\r\n**Explanation:** Use \"\"\" to start and end the docstring and use >>> to represent the output. If you write this correctly you can also run the doctest using build-in doctest module\r\n\r\n"],"correctAns":3},{"query":" Q40. Suppose a Game class inherits from two parent classes: BoardGame and LogicGame. Which statement is true about the methods of an object instantiated from the Game class?","options":[" When instantiating an object, the object doesn't inherit any of the parent class's methods.\r\n"," When instantiating an object, the object will inherit the methods of whichever parent class has more methods.\r\n"," When instantiating an object, the programmer must specify which parent class to inherit methods from.\r\n"," An instance of the Game class will inherit whatever methods the BoardGame and LogicGame classes have.\r\n\r\n"],"correctAns":4},null,{"query":" Q42. What symbol(s) do you use to assess equality between two elements?","options":[" `&&`\r\n"," `=`\r\n"," `==`\r\n"," `||`\r\n\r\n"],"correctAns":3},{"query":" Q43. Review the code below. What is the correct syntax for changing the price to 1.5?","code":"python\r\nfruit_info = {\r\n  'fruit': 'apple',\r\n  'count': 2,\r\n  'price': 3.5\r\n}\r\n","options":[" `fruit_info ['price'] = 1.5`\r\n"," `my_list [3.5] = 1.5`\r\n"," `1.5 = fruit_info ['price]`\r\n"," `my_list['price'] == 1.5`\r\n\r\n"],"correctAns":1},{"query":" Q44. What value would be returned by this check for equality?","options":[" `yes`\r\n"," `False`\r\n"," `True`\r\n"," `None`\r\n\r\n**Explanation** - `!=` is equivalent to **not equal to** in python\r\n\r\n"],"correctAns":3},null,{"query":" Q46. What is meant by the phrase \"space complexity\"?","options":[" `How many microprocessors it would take to run your code in less than one second`\r\n"," `How many lines of code are in your code file`\r\n"," `The amount of space taken up in memory as a function of the input size`\r\n"," `How many copies of the code file could fit in 1 GB of memory`\r\n\r\n"],"correctAns":3},{"query":" Q47. What is the correct syntax for creating a variable that is bound to a dictionary?","options":[" `fruit_info = {'fruit': 'apple', 'count': 2, 'price': 3.5}`\r\n"," `fruit_info =('fruit': 'apple', 'count': 2,'price': 3.5 ).dict()`\r\n"," `fruit_info = ['fruit': 'apple', 'count': 2,'price': 3.5 ].dict()`\r\n"," `fruit_info = to_dict('fruit': 'apple', 'count': 2, 'price': 3.5)`\r\n\r\n"],"correctAns":1},{"query":" Q48. What is the proper way to write a list comprehension that represents all the keys in this dictionary?","options":[" `fruit_names = [x in fruits.keys() for x]`\r\n"," `fruit_names = for x in fruits.keys() *`\r\n"," `fruit_names = [x for x in fruits.keys()]`\r\n"," `fruit_names = x for x in fruits.keys()`\r\n\r\n"],"correctAns":3},{"query":" Q49. What is the purpose of the `self` keyword when defining or calling methods on an instance of an object?","options":[" `self` refers to the class that was inherited from to create the object using `self`.\r\n"," There is no real purpose for the `self` method. It's just legacy computer science jargon that Python keeps to stay consistent with other programming languages.\r\n"," `self` means that no other arguments are required to be passed into the method.\r\n"," `self` refers to the instance whose method was called.\r\n\r\n**Explanation:** - Try running the example of the Q45 without passing `self` argument inside the `__init__`, you'll understand the reason. You'll get the error like this `__init__() takes 0 positional arguments but 1 was given`, this means that something is going inside even if haven't specified, which is instance itself.\r\n\r\n"],"correctAns":4},{"query":" Q50. What statement about the class methods is true?","options":[" A class method is a regular function that belongs to a class, but it must return None.\r\n"," A class method can modify the state of the class, but they can't directly modify the state of an instance that inherits from that class.\r\n"," A class method is similar to a regular function, but a class method doesn't take any arguments.\r\n"," A class method hold all of the data for a particular class.\r\n\r\n"],"correctAns":2},{"query":" Q51. What does it mean for a function to have linear runtime?","options":[" You did not use very many advanced computer programming concepts in your code.\r\n"," The difficulty level your code is written at is not that high.\r\n"," It will take your program less than half a second to run.\r\n"," The amount of time it takes the function to complete grows linearly as the input size increases.\r\n\r\n"],"correctAns":4},{"query":" Q52. What is the proper way to define a function?","options":[" `def getMaxNum(list_of_nums): # body of function goes here`\r\n"," `func get_max_num(list_of_nums): # body of function goes here`\r\n"," `func getMaxNum(list_of_nums): # body of function goes here`\r\n"," `def get_max_num(list_of_nums): # body of function goes here`\r\n\r\n[explanation for 52 & 53](https://www.python.org/dev/peps/pep-0008/)\r\n\r\n"],"correctAns":4},{"query":" Q53. According to the PEP 8 coding style guidelines, how should constant values be named in Python?","options":[" in camel case without using underscores to separate words -- e.g. `maxValue = 255`\r\n"," in lowercase with underscores to separate words -- e.g. `max_value = 255`\r\n"," in all caps with underscores separating words -- e.g. `MAX_VALUE = 255`\r\n"," in mixed case without using underscores to separate words -- e.g. `MaxValue = 255`\r\n\r\n"],"correctAns":3},{"query":" Q54. Describe the functionality of a deque.","options":[" A deque adds items to one side and remove items from the other side.\r\n"," A deque adds items to either or both sides, but only removes items from the top.\r\n"," A deque adds items at either or both ends, and remove items at either or both ends.\r\n"," A deque adds items only to the top, but remove from either or both sides.\r\n\r\n**Explanation** - `deque` is used to create block chanin and in that there is _first in first out_ approch, which means the last element to enter will be the first to leave.\r\n\r\n"],"correctAns":3},{"query":" Q55. What is the correct syntax for creating a variable that is bound to a set?","options":[" `my_set = {0, 'apple', 3.5}`\r\n"," `my_set = to_set(0, 'apple', 3.5)`\r\n"," `my_set = (0, 'apple', 3.5).to_set()`\r\n"," `my_set = (0, 'apple', 3.5).set()`\r\n\r\n"],"correctAns":1},{"query":" Q56. What is the correct syntax for defining an `__init__()` method that takes no parameters?","code":null,"options":["\r\n\r\n```python\r\nclass __init__(self):\r\n    pass\r\n```\r\n\r\n","\r\n\r\n```python\r\ndef __init__():\r\n    pass\r\n```\r\n\r\n","\r\n\r\n```python\r\nclass __init__():\r\n    pass\r\n```\r\n\r\n","\r\n\r\n```python\r\ndef __init__(self):\r\n    pass\r\n```\r\n\r\n"],"correctAns":4},{"query":" Q57. Which of the following is TRUE About how numeric data would be organised in a binary Search tree?","options":[" For any given Node in a binary Search Tree, the child node to the left is less than the value of the given node and the child node to its right is greater than the given node.\r\n"," Binary Search Tree cannot be used to organize and search through numeric data, given the complication that arise with very deep trees.\r\n"," The top node of the binary search tree would be an arbitrary number. All the nodes to the left of the top node need to be less than the top node's number, but they don't need to ordered in any particular way.\r\n"," The smallest numeric value would go in the top most node. The next highest number would go in its left child node, the the next highest number after that would go in its right child node. This pattern would continue until all numeric values were in their own node.\r\n\r\n"],"correctAns":1},{"query":" Q58. Why would you use a decorator?","options":[" A decorator is similar to a class and should be used if you are doing functional programming instead of object oriented programming.\r\n"," A decorator is a visual indicator to someone reading your code that a portion of your code is critical and should not be changed.\r\n"," You use the decorator to alter the functionality of a function without having to modify the functions code.\r\n"," An import statement is preceded by a decorator, python knows to import the most recent version of whatever package or library is being imported.\r\n\r\n"],"correctAns":3},{"query":" Q59. When would you use a for loop?","options":[" Only in some situations, as loops are used only for certain type of programming.\r\n"," When you need to check every element in an iterable of known length.\r\n"," When you want to minimize the use of strings in your code.\r\n"," When you want to run code in one file for a function in another file.\r\n\r\n"],"correctAns":2},{"query":" Q60. What is the most self-descriptive way to define a function that calculates sales tax on a purchase?","code":null,"options":["\r\n\r\n```python\r\ndef tax(my_float):\r\n    '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''\r\n    pass\r\n```\r\n\r\n","\r\n\r\n```python\r\ndef tx(amt):\r\n    '''Gets the tax on an amount.'''\r\n```\r\n\r\n","\r\n\r\n```python\r\ndef sales_tax(amount):\r\n    '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''\r\n```\r\n\r\n","\r\n\r\n```python\r\ndef calculate_sales_tax(subtotal):\r\n    pass\r\n```\r\n\r\n"],"correctAns":4},{"query":" Q61. What would happen if you did not alter the state of the element that an algorithm is operating on recursively?","options":[" You do not have to alter the state of the element the algorithm is recursing on.\r\n"," You would eventually get a KeyError when the recursive portion of the code ran out of items to recurse on.\r\n"," You would get a RuntimeError: maximum recursion depth exceeded.\r\n"," The function using recursion would return None.\r\n\r\n[explanation](https://www.python-course.eu/python3_recursive_functions.php#Definition-of-Recursion)\r\n\r\n"],"correctAns":3},{"query":" Q62. What is the runtime complexity of searching for an item in a binary search tree?","options":[" The runtime for searching in a binary search tree is O(1) because each node acts as a key, similar to a dictionary.\r\n"," The runtime for searching in a binary search tree is O(n!) because every node must be compared to every other node.\r\n"," The runtime for searching in a binary search tree is generally O(h), where h is the height of the tree.\r\n"," The runtime for searching in a binary search tree is O(n) because every node in the tree must be visited.\r\n\r\n[explanation](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)\r\n\r\n"],"correctAns":3},{"query":" Q63. Why would you use `mixin`?","options":[" You use a `mixin` to force a function to accept an argument at runtime even if the argument wasn't included in the function's definition.\r\n"," You use a `mixin` to allow a decorator to accept keyword arguments.\r\n"," You use a `mixin` to make sure that a class's attributes and methods don't interfere with global variables and functions.\r\n"," If you have many classes that all need to have the same functionality, you'd use a `mixin` to define that functionality.\r\n\r\n[explanation](https://www.youtube.com/watch?v=zVFLBfqV-q0)\r\n\r\n"],"correctAns":4},{"query":" Q64. What is the runtime complexity of adding an item to a stack and removing an item from a stack?","options":[" Add items to a stack in O(1) time and remove items from a stack on O(n) time.\r\n"," Add items to a stack in O(1) time and remove items from a stack in O(1) time.\r\n"," Add items to a stack in O(n) time and remove items from a stack on O(1) time.\r\n"," Add items to a stack in O(n) time and remove items from a stack on O(n) time.\r\n\r\n"],"correctAns":2},{"query":" Q65. Which statement accurately describes how items are added to and removed from a stack?","options":[" a stacks adds items to one side and removes items from the other side.\r\n"," a stacks adds items to the top and removes items from the top.\r\n"," a stacks adds items to the top and removes items from anywhere in the stack.\r\n"," a stacks adds items to either end and removes items from either end.\r\n\r\n**Explanation** Stack uses the _first in first out_ approach\r\n\r\n"],"correctAns":2},{"query":" Q66. What is a base case in a recursive function?","options":[" A base case is the condition that allows the algorithm to stop recursing. It is usually a problem that is small enough to solve directly.\r\n"," The base case is summary of the overall problem that needs to be solved.\r\n"," The base case is passed in as an argument to a function whose body makes use of recursion.\r\n"," The base case is similar to a base class, in that it can be inherited by another object.\r\n\r\n"],"correctAns":1},{"query":" Q67. Why is it considered good practice to open a file from within a Python script by using the `with` keyword?","options":[" The `with` keyword lets you choose which application to open the file in.\r\n"," The `with` keyword acts like a `for` loop, and lets you access each line in the file one by one.\r\n"," There is no benefit to using the `with` keyword for opening a file in Python.\r\n"," When you open a file using the `with` keyword in Python, Python will make sure the file gets closed, even if an exception or error is thrown.\r\n\r\n[explanation](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)\r\n\r\n"],"correctAns":4},{"query":" Q68. Why would you use a virtual environment?","options":[" Virtual environments create a \"bubble\" around your project so that any libraries or packages you install within it don't affect your entire machine.\r\n"," Teams with remote employees use virtual environments so they can share code, do code reviews, and collaborate remotely.\r\n"," Virtual environments were common in Python 2 because they augmented missing features in the language. Virtual environments are not necessary in Python 3 due to advancements in the language.\r\n"," Virtual environments are tied to your GitHub or Bitbucket account, allowing you to access any of your repos virtually from any machine.\r\n\r\n"],"correctAns":1},{"query":" Q69. What is the correct way to run all the doctests in a given file from the command line?","options":[" python3 -m doctest <_filename_>\r\n"," python3 <_filename_>\r\n"," python3 <_filename_> rundoctests\r\n"," python3 doctest\r\n\r\n[tutorial video](https://www.youtube.com/watch?v=P8qm0VAbbww&t=180s)\r\n\r\n"],"correctAns":1},{"query":" Q70. What is a lambda function ?","options":[" any function that makes use of scientific or mathematical constants, often represented by Greek letters in academic writing\r\n"," a function that get executed when decorators are used\r\n"," any function whose definition is contained within five lines of code or fewer\r\n"," a small, anonymous function that can take any number of arguments but has only expression to evaluate\r\n\r\n"],"correctAns":4},{"query":" Q71. What is the primary difference between lists and tuples?","options":[" You can access a specifc element in a list by indexing to its position, but you cannot access a specific element in a tuple unless you iterate through the tuple\r\n"," Lists are mutable, meaning you can change the data that is inside them at any time. Tuples are immutable, meaning you cannot change the data that is inside them once you have created the tuple.\r\n"," Lists are immutable, meaning you cannot change the data that is inside them once you have created the list. Tuples are mutable, meaning you can change the data that is inside them at any time.\r\n"," Lists can hold several data types inside them at once, but tuples can only hold the same data type if multiple elements are present.\r\n\r\n"],"correctAns":2},{"query":" Q72. Which statement about static method is true?","options":[" Static methods can be bound to either a class or an instance of a class.\r\n"," Static methods can access and modify the state of a class or an instance of a class.\r\n"," Static methods serve mostly as utility or helper methods, since they cannot access or modify a class's state.\r\n"," Static methods are called static because they always return None.\r\n\r\n"],"correctAns":3},{"query":" Q73. What does a generator return?","options":[" None\r\n"," An iterable object\r\n"," A linked list data structure from a non-empty list\r\n"," All the keys of the given dictionary\r\n\r\n"],"correctAns":2},{"query":" Q74. What is the difference between class attributes and instance attributes?","options":[" Instance attributes can be changed, but class attributes cannot be changed\r\n"," Class attributes are shared by all instances of the class. Instance attributes may be unique to just that instance\r\n"," There is no difference between class attributes and instance attributes\r\n"," Class attributes belong just to the class, not to instance of that class. Instance attributes are shared among all instances of a class\r\n\r\n"],"correctAns":2},{"query":" Q75. What is the correct syntax of creating an instance method?","code":null,"options":["\r\n\r\n```python\r\ndef get_next_card():\r\n  # method body goes here\r\n```\r\n\r\n","\r\n\r\n```python\r\ndef get_next_card(self):\r\n  # method body goes here\r\n```\r\n\r\n","\r\n\r\n```python\r\ndef self.get_next_card():\r\n  # method body goes here\r\n```\r\n\r\n","\r\n\r\n```python\r\ndef self.get_next_card(self):\r\n  # method body goes here\r\n```\r\n\r\n"],"correctAns":2},{"query":" Q76. What is the correct way to call a function?","options":[" get_max_num([57, 99, 31, 18])\r\n"," call.(get_max_num)\r\n"," def get_max_num([57, 99, 31, 18])\r\n"," call.get_max_num([57, 99, 31, 18])\r\n\r\n"],"correctAns":1},{"query":" Q77. How is comment created?","options":[" `-- This is a comment`\r\n"," `# This is a comment`\r\n"," `/_ This is a comment _\\`\r\n"," `// This is a comment`\r\n\r\n"],"correctAns":2},{"query":" Q78. What is the correct syntax for replacing the string apple in the list with the string orange?","options":[" orange = my_list[1]\r\n"," my_list[1] = 'orange'\r\n"," my_list['orange'] = 1\r\n"," my_list[1] == orange\r\n\r\n"],"correctAns":2},{"query":" Q79. What will happen if you use a while loop and forget to include logic that eventually causes the while loop to stop?","options":[" Nothing will happen; your computer knows when to stop running the code in the while loop.\r\n"," You will get a KeyError.\r\n"," Your code will get stuck in an infinite loop.\r\n"," You will get a WhileLoopError.\r\n\r\n"],"correctAns":3},{"query":" Q80. Describe the functionality of a queue?","options":[" A queue adds items to either end and removes items from either end.\r\n"," A queue adds items to the top and removes items from the top.\r\n"," A queue adds items to the top, and removes items from anywhere in, a list.\r\n"," A queue adds items to the top and removes items from anywhere in the queue.\r\n\r\n"],"correctAns":1},{"query":" Q81. Which choice is the most syntactically correct example of the conditional branching?","code":null,"options":["\r\n\r\n```python\r\nnum_people = 5\r\n\r\nif num_people > 10:\r\n    print(\"There is a lot of people in the pool.\")\r\nelif num_people > 4:\r\n    print(\"There are some people in the pool.\")\r\nelse:\r\n    print(\"There is no one in the pool.\")\r\n```\r\n\r\n","\r\n\r\n```python\r\nnum_people = 5\r\n\r\nif num_people > 10:\r\n    print(\"There is a lot of people in the pool.\")\r\nif num_people > 4:\r\n    print(\"There are some people in the pool.\")\r\nelse:\r\n    print(\"There is no one in the pool.\")\r\n```\r\n\r\n","\r\n\r\n```python\r\nnum_people = 5\r\n\r\nif num_people > 10;\r\n    print(\"There is a lot of people in the pool.\")\r\nelif num_people > 4;\r\n    print(\"There are some people in the pool.\")\r\nelse;\r\n    print(\"There is no one in the pool.\")\r\n```\r\n\r\n","\r\n\r\n```python\r\nif num_people > 10;\r\n    print(\"There is a lot of people in the pool.\")\r\nif num_people > 4;\r\n    print(\"There are some people in the pool.\")\r\nelse;\r\n    print(\"There is no one in the pool.\")\r\n```\r\n\r\nThis question seems to be an updated version of Question 19.\r\n\r\n"],"correctAns":1},{"query":" Q82. How does `defaultdict` work?","options":[" `defaultdict` will automatically create a dictionary for you that has keys which are the integers 0-10.\r\n"," `defaultdict` forces a dictionary to only accept keys that are of the types specified when you created the `defaultdict` (such as strings or integers).\r\n"," If you try to read from a `defaultdict` with a nonexistent key, a new default key-value pair will be created for you instead of throwing a `KeyError`.\r\n"," `defaultdict` stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.\r\n\r\nUpdated version of Question 14.\r\n\r\n"],"correctAns":3},{"query":" Q83. What is the correct syntax for adding a key called `variety` to the `fruit_info` dictionary that has a value of `Red Delicious`?","options":[" `fruit_info['variety'] == 'Red Delicious'`\r\n"," `fruit_info['variety'] = 'Red Delicious'`\r\n"," `red_delicious = fruit_info['variety']`\r\n"," `red_delicious == fruit_info['variety']`\r\n\r\n"],"correctAns":2},null,{"query":" Q85. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?","code":null,"options":["\r\n\r\n```python\r\ndef __init__(self, attr1, attr2):\r\n    attr1 = attr1\r\n    attr2 = attr2\r\n```\r\n\r\n","\r\n\r\n```python\r\ndef __init__(attr1, attr2):\r\n    attr1 = attr1\r\n    attr2 = attr2\r\n```\r\n\r\n","\r\n\r\n```python\r\ndef __init__(self, attr1, attr2):\r\n    self.attr1 = attr1\r\n    self.attr2 = attr2\r\n```\r\n\r\n","\r\n\r\n```python\r\ndef __init__(attr1, attr2):\r\n    self.attr1 = attr1\r\n    self.attr2 = attr2\r\n```\r\n\r\n**Explanation**: When instantiating a new object from a given class, the `__init__()` method will take both `attr1` and `attr2`, and set its values to their corresponding object attribute, that's why the need of using `self.attr1 = attr1` instead of `attr1 = attr1`.\r\n\r\n"],"correctAns":3},{"query":" Q86. What would this recursive function print if it is called with no parameters?","code":"python\r\ndef count_recursive(n=1):\r\n    if n > 3:\r\n        return\r\n    print(n)\r\n\r\ncount_recursive(n + 1)\r\n","options":["\r\n\r\n```python\r\n1\r\n1\r\n2\r\n2\r\n3\r\n3\r\n```\r\n\r\n","\r\n\r\n```python\r\n3\r\n2\r\n1\r\n```\r\n\r\n","\r\n\r\n```python\r\n3\r\n3\r\n2\r\n2\r\n1\r\n1\r\n```\r\n\r\n","\r\n\r\n```python\r\n1\r\n2\r\n3\r\n```\r\n\r\n"],"correctAns":4},{"query":" Q87. In Python, when using sets, you use **_ to calculate the intersection between two sets and _** to calculate the union.","options":[" `Intersect;union`\r\n"," |; &\r\n"," &; |\r\n"," &&; ||\r\n\r\n"],"correctAns":3},{"query":" Q88. What will this code fragment return?","code":"python\r\nimport numpy as np\r\nnp.ones([1,2,3,4,5])\r\n","options":[" It returns a 5x5 matric; each row will have the values 1,2,3,4,5.\r\n"," It returns an array with the values 1,2,3,4,5\r\n"," It returns five different square matrices filled with ones. The first is 1x1, the second 2x2, and so on to 5x5\r\n"," It returns a 5-dimensional array of size 1x2x3x4x5 filled with 1s.\r\n\r\n"],"correctAns":4},{"query":" Q89. You encounter a FileNotFoundException while using just the filename in the `open` function. What might be the easiest solution?","options":[" Make sure the file is on the system PATH\r\n"," Create a symbolic link to allow better access to the file\r\n"," Copy the file to the same directory as where the script is running from\r\n"," Add the path to the file to the PYTHONPATH environment variable\r\n\r\n"],"correctAns":3},{"query":" Q90. what will this command return?","code":"python\r\n{x for x in range(100) if x%3 == 0}\r\n","options":[" a set of all the multiples of 3 less then 100\r\n"," a set of all the number from 0 to 100 multiplied by 3\r\n"," a list of all the multiples of 3 less then 100\r\n"," a set of all the multiples of 3 less then 100 excluding 0\r\n\r\n"],"correctAns":1},{"query":" Q91. What does the // operator in Python 3 allow you to do?","options":[" Perform integer division\r\n"," Perform operations on exponents\r\n"," Find the remainder of a division operation\r\n"," Perform floating point division\r\n\r\n"],"correctAns":1},{"query":" Q92. This code provides the \\_ of the list of numbers","code":"python\r\nnum_list = [21,13,19,3,11,5,18]\r\nnum_list.sort()\r\nnum_list[len(num_list)//2]\r\n","options":[" mean\r\n"," mode\r\n"," median\r\n"," average\r\n\r\n"],"correctAns":3},{"query":" Q93. Which statement about the class methods is true?","options":[" A class method holds all of the data for a particular class.\r\n"," A class method can modify the state of the class, but it cannot directly modify the state of an instance that inherits from that class.\r\n"," A class method is a regular function that belongs to a class, but it must return None\r\n"," A class method is similar to a regular function, but a class method does not take any arguments.\r\n\r\n"],"correctAns":2},{"query":" Q94. What file is imported to use dates in python?","options":[" datetime\r\n"," dateday\r\n"," daytime\r\n"," timedate\r\n\r\n"],"correctAns":1},{"query":" Q95. What is the correct syntax for defining a class called Game?","options":[" def Game(): pass\r\n"," def Game: pass\r\n"," class Game: pass\r\n"," class Game(): pass\r\n\r\n[reference here](https://docs.python.org/3/tutorial/classes.html)\r\n\r\n"],"correctAns":3},{"query":" Q96. What does a class's init() method do?","options":[" The **init** method makes classes aware of each other if more than one class is defined in a single code file.\r\n"," The **init** method is included to preserve backward compatibility from Python 3 to Python 2, but no longer needs to be used in Python 3.\r\n"," The **init** method is a constructor method that is called automatically whenever a new object is created from a class. It sets the initial state of a new object.\r\n"," The **init** method initializes any imports you may have included at the top of your file.\r\n\r\n[reference here](https://stackoverflow.com/questions/625083/what-init-and-self-do-in-python)\r\n\r\n"],"correctAns":3},{"query":" Q97. What is the correct syntax for calling an instance method on a class named Game?","options":[" my_game = Game(self) self.my_game.roll_dice()\r\n"," my_game = Game() self.my_game.roll_dice()\r\n"," my_game = Game() my_game.roll_dice()\r\n"," my_game = Game(self) my_game.roll_dice(self)\r\n\r\n"],"correctAns":2},{"query":" Q98. What is the output of this code? (NumPy has been imported as np.)?","code":"\r\na = np.array([1,2,3,4])\r\nprint(a[[False, True, False, False]])\r\n","options":[" {0,2}\r\n"," [2]\r\n"," {2}\r\n"," [0,2,0,0]\r\n\r\n"],"correctAns":2},null,null,{"query":" Q101. What is the correct syntax for creating an instance method?","options":[" def get_next_card(): # method body goes here\r\n"," def self.get_next_card(): # method body goes here\r\n"," def get_next_card(self): # method body goes here\r\n"," def self.get_next_card(self): # method body goes here\r\n\r\n"],"correctAns":3},{"query":" Q102. Which mode is not a valid way to access a file from within a Python script?","options":[" write('w')\r\n"," scan('s')\r\n"," append('a')\r\n"," read('r')\r\n\r\n"],"correctAns":3},{"query":" Q103. Which command will create a list from 10 down to 1? Example:","options":[" reversed(list(range(1,11)))\r\n"," list(reversed(range(1,10)))\r\n"," list(range(10,1,-1))\r\n"," list(reversed(range(1,11)))\r\n\r\n"],"correctAns":4},{"query":" Q104. Which syntax correctly creates a variable that is bound to a tuple?","options":[" my_tuple = [2, 'apple', 3.5]\r\n"," my_tuple = [2, 'apple', 3.5].tuple()\r\n"," my_tuple = tup(2, 'apple', 3.5)\r\n"," my_tuple = (2, 'apple', 3.5)\r\n\r\n"],"correctAns":4},{"query":" Q105. Which fragment of code will print exactly the same output as this fragment?","code":"\r\nimport math\r\nprint(math.pow(2,10)) # prints 2 elevated to the 10th power\r\n","options":[" print(2^10)\r\n"," print(2\\*\\*10)\r\n"," y = [x*2 for x in range(1,10)]\r\n      print(y)\r\n"," y = 1\r\n      for i in range(1,10):\r\n      y = y \\* 2\r\n\r\n      print(y)\r\n\r\n"],"correctAns":2},{"query":" Q106. Elements surrounded by [] are **\\_**, {} are **\\_**, and () are **\\_**.","options":[" sets only; lists or dictionaries; tuples\r\n"," lists; sets only; tuples\r\n"," tuples; sets or lists; dictionaries\r\n"," lists; dictionaries or sets; tuples\r\n\r\n"],"correctAns":4},{"query":" Q107. What is the output of this code? (NumPy has been imported as np.)","code":"\r\ntable = np.array([\r\n    [1,3],\r\n    [2,4]])\r\nprint(table.max(axis=1))\r\n","options":[" `[2, 4]`\r\n"," `[3, 4]`\r\n"," `[4]`\r\n"," `[1,2]`\r\n\r\n"],"correctAns":2},{"query":" Q108. What will this code print?","code":"\r\nnumber = 3\r\nprint (f\"The number is {number}\")\r\n","options":[" `The number is 3`\r\n"," `the number is 3`\r\n"," `THE NUMBER IS 3`\r\n"," It throws a TypeError because the integer must be cast to a string.\r\n\r\n"],"correctAns":1},{"query":" Q109. Which syntax correctly creates a variable that is bound to a tuple?","options":[" `my_tuple tup(2, 'apple', 3.5) %D`\r\n"," `my_tuple [2, 'apple', 3.5].tuple() %D`\r\n"," `my_tuple = (2, 'apple', 3.5)`\r\n"," `my_tuple = [2, 'apple', 3.5]`\r\n\r\n"],"correctAns":3},{"query":" Q110. Which mode is _not_ a valid way to access a file from within a Python script?","options":[" write('w')\r\n"," scan('s')\r\n"," append('a')\r\n"," read('r')\r\n\r\n"],"correctAns":3},{"query":" Q111. Which command will create a list from 10 down to 1? Example:","code":"\r\n[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]\r\n","options":[" reversed(list(range(1,11)))\r\n"," list(reversed(range(1,10)))\r\n"," list(range(10, 1, -1))\r\n"," list(reversed(range(1,11)))\r\n\r\n"],"correctAns":4},null]
+[
+    {
+        "query": " Q1. What is an abstract class?",
+        "options": [
+            " An abstract class is the name for any class from which you can instantiate an object.\r\n",
+            " Abstract classes must be redefined any time an object is instantiated from them.\r\n",
+            " Abstract classes must inherit from concrete classes.\r\n",
+            " An abstract class exists only so that other \"concrete\" classes can inherit from the abstract class.\r\n\r\n[reference](https://www.geeksforgeeks.org/abstract-classes-in-python/)\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    null,
+    {
+        "query": " Q3. What data structure does a binary tree degenerate to if it isn't balanced properly?",
+        "options": [
+            " linked list\r\n",
+            " queue\r\n",
+            " set\r\n",
+            " OrderedDict\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q4. What statement about static methods is true?",
+        "options": [
+            " Static methods are called static because they always return `None`.\r\n",
+            " Static methods can be bound to either a class or an instance of a class.\r\n",
+            " Static methods serve mostly as utility methods or helper methods, since they can't access or modify a class's state.\r\n",
+            " Static methods can access and modify the state of a class or an instance of a class.\r\n\r\n[reference](https://www.geeksforgeeks.org/class-method-vs-static-method-python)\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q5. What are attributes?",
+        "options": [
+            " Attributes are long-form version of an `if/else` statement, used when testing for equality between objects.\r\n",
+            " Attributes are a way to hold data or describe a state for a class or an instance of a class.\r\n",
+            " Attributes are strings that describe characteristics of a class.\r\n",
+            " Function arguments are called \"attributes\" in the context of class methods and instance methods.\r\n\r\n**Explanation**\r\nAttributes defined under the class, arguments goes under the functions. arguments usually refer as parameter, whereas attributes are the constructor of the class or an instance of a class.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q6. What is the term to describe this code?",
+        "options": [
+            " `tuple assignment`\r\n",
+            " `tuple unpacking`\r\n",
+            " `tuple matching`\r\n",
+            " `tuple duplication`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    null,
+    {
+        "query": " Q8. What is one of the most common use of Python's sys library?",
+        "options": [
+            " to capture command-line arguments given at a file's runtime\r\n",
+            " to connect various systems, such as connecting a web front end, an API service, a database, and a mobile app\r\n",
+            " to take a snapshot of all the packages and libraries in your virtual environment\r\n",
+            " to scan the health of your Python ecosystem while inside a virtual environment\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q9. What is the runtime of accessing a value in a dictionary by using its key?",
+        "options": [
+            " O(n), also called linear time.\r\n",
+            " O(log n), also called logarithmic time.\r\n",
+            " O(n^2), also called quadratic time.\r\n",
+            " O(1), also called constant time.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q10. What is the correct syntax for defining a class called Game, if it inherits from a parent class called LogicGame?",
+        "options": [
+            " `class Game(LogicGame): pass`\r\n",
+            " `def Game(LogicGame): pass`\r\n",
+            " `def Game.LogicGame(): pass`\r\n",
+            " `class Game.LogicGame(): pass`\r\n\r\n**Explanation:** `The parent class which is inherited is passed as an argument to the child class. Therefore, here the first option is the right answer.`\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    null,
+    null,
+    null,
+    {
+        "query": " Q12. What built-in Python data type is commonly used to represent a stack?",
+        "options": [
+            " `set`\r\n",
+            " `list`\r\n",
+            " `None`\r\n",
+            " `dictionary`\r\n\r\n`. You can only build a stack from scratch.`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q13. What would this expression return?",
+        "code": "python\r\ncollege_years = ['Freshman', 'Sophomore', 'Junior', 'Senior']\r\nreturn list(enumerate(college_years, 2019))\r\n",
+        "options": [
+            " `[('Freshman', 2019), ('Sophomore', 2020), ('Junior', 2021), ('Senior', 2022)]`\r\n",
+            " `[(2019, 2020, 2021, 2022), ('Freshman', 'Sophomore', 'Junior', 'Senior')]`\r\n",
+            " `[('Freshman', 'Sophomore', 'Junior', 'Senior'), (2019, 2020, 2021, 2022)]`\r\n",
+            " `[(2019, 'Freshman'), (2020, 'Sophomore'), (2021, 'Junior'), (2022, 'Senior')]`\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q14. How does `defaultdict` work?",
+        "options": [
+            " `defaultdict` will automatically create a dictionary for you that has keys which are the integers 0-10.\r\n",
+            " `defaultdict` forces a dictionary to only accept keys that are of the data type specified when you created the `defaultdict` (such as strings or integers).\r\n",
+            " If you try to read from a `defaultdict` with a nonexistent key, a new default key-value pair will be created for you instead of throwing a `KeyError`.\r\n",
+            " `defaultdict` stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q15. What is the correct syntax for defining a class called \"Game\", if it inherits from a parent class called \"LogicGame\"?",
+        "options": [
+            " `class Game.LogicGame(): pass`\r\n",
+            " `def Game(LogicGame): pass`\r\n",
+            " `class Game(LogicGame): pass`\r\n",
+            " `def Game.LogicGame(): pass`\r\n\r\n`repeated but labels will be different`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    null,
+    {
+        "query": " Q17. Which of these is NOT a characteristic of namedtuples?",
+        "options": [
+            " You can assign a name to each of the `namedtuple` members and refer to them that way, similarly to how you would access keys in `dictionary`.\r\n",
+            " Each member of a namedtuple object can be indexed to directly, just like in a regular `tuple`.\r\n",
+            " `namedtuples` are just as memory efficient as regular `tuples`.\r\n",
+            " No import is needed to use `namedtuples` because they are available in the standard library.\r\n\r\n**We need to import it using `from collections import namedtuple` **\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q18. What is an instance method?",
+        "options": [
+            " Instance methods can modify the state of an instance or the state of its parent class.\r\n",
+            " Instance methods hold data related to the instance.\r\n",
+            " An instance method is any class method that doesn't take any arguments.\r\n",
+            " An instance method is a regular function that belongs to a class, but it must return `None`.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q19. Which choice is the most syntactically correct example of the conditional branching?",
+        "code": null,
+        "options": [
+            "\r\n\r\n```python\r\nnum_people = 5\r\n\r\nif num_people > 10:\r\n    print(\"There is a lot of people in the pool.\")\r\nelif num_people > 4;\r\n    print(\"There are some people in the pool.\")\r\nelif num_people > 0;\r\n    print(\"There are a few people in the pool.\")\r\nelse:\r\n    print(\"There is no one in the pool.\")\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\nnum_people = 5\r\n\r\nif num_people > 10:\r\n    print(\"There is a lot of people in the pool.\")\r\nif num_people > 4:\r\n    print(\"There are some people in the pool.\")\r\nif num_people > 0:\r\n    print(\"There are a few people in the pool.\")\r\nelse:\r\n    print(\"There is no one in the pool.\")\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\nnum_people = 5\r\n\r\nif num_people > 10:\r\n    print(\"There is a lot of people in the pool.\")\r\nelif num_people > 4:\r\n    print(\"There are some people in the pool.\")\r\nelif num_people > 0:\r\n    print(\"There are a few people in the pool.\")\r\nelse:\r\n    print(\"There is no one in the pool.\")\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\nif num_people > 10;\r\n    print(\"There is a lot of people in the pool.\")\r\nif num_people > 4:\r\n    print(\"There are some people in the pool.\")\r\nif num_people > 0:\r\n    print(\"There are a few people in the pool.\")\r\nelse:\r\n    print(\"There is no one in the pool.\")\r\n```\r\n\r\nAlso see Question 85 for the same question with different answers.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q20. Which statement does NOT describe the object-oriented programming concept of encapsulation?",
+        "options": [
+            " It protects the data from outside interference.\r\n",
+            " A parent class is encapsulated and no data from the parent class passes on to the child class.\r\n",
+            " It keeps data and the methods that can manipulate that data in one place.\r\n",
+            " It only allows the data to be changed by methods.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q21. What is the purpose of an if/else statement?",
+        "options": [
+            " It tells the computer which chunk of code to run if the instructions you coded are incorrect.\r\n",
+            " It runs one chunk of code if all the imports were successful, and another chunk of code if the imports were not successful.\r\n",
+            " It executes one chunk of code if a condition is true, but a different chunk of code if the condition is false.\r\n",
+            " It tells the computer which chunk of code to run if the is enough memory to handle it, and which chunk of code to run if there is not enough memory to handle it.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q22. What built-in Python data type is best suited for implementing a queue?",
+        "options": [
+            " dictionary\r\n",
+            " set\r\n",
+            " None. You can only build a queue from scratch.\r\n",
+            " list\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q23. What is the correct syntax for instantiating a new object of the type Game?",
+        "options": [
+            " `my_game = class.Game()`\r\n",
+            " `my_game = class(Game)`\r\n",
+            " `my_game = Game()`\r\n",
+            " `my_game = Game.create()`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    null,
+    {
+        "query": " Q25. If you don't explicitly return a value from a function, what happens?",
+        "options": [
+            " The function will return a RuntimeError if you don't return a value.\r\n",
+            " If the return keyword is absent, the function will return `None`.\r\n",
+            " If the return keyword is absent, the function will return `True`.\r\n",
+            " The function will enter an infinite loop because it won't know when to stop executing its code.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q26. What is the purpose of the `pass` statement in Python?",
+        "options": [
+            " It is used to skip the `yield` statement of a generator and return a value of None.\r\n",
+            " It is a null operation used mainly as a placeholder in functions, classes, etc.\r\n",
+            " It is used to pass control from one statement block to another.\r\n",
+            " It is used to skip the rest of a `while` or `for loop` and return to the start of the loop.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q27. What is the term used to describe items that may be passed into a function?",
+        "options": [
+            " arguments\r\n",
+            " paradigms\r\n",
+            " attributes\r\n",
+            " decorators\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q28. Which collection type is used to associate values with unique keys?",
+        "options": [
+            " `slot`\r\n",
+            " `dictionary`\r\n",
+            " `queue`\r\n",
+            " `sorted list`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q29. When does a for loop stop iterating?",
+        "options": [
+            " when it encounters an infinite loop\r\n",
+            " when it encounters an if/else statement that contains a break keyword\r\n",
+            " when it has assessed each item in the iterable it is working on or a break keyword is encountered\r\n",
+            " when the runtime for the loop exceeds O(n^2)\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q30. Assuming the node is in a singly linked list, what is the runtime complexity of searching for a specific node within a singly linked list?",
+        "options": [
+            " The runtime is O(n) because in the worst case, the node you are searching for is the last node, and every node in the linked list must be visited.\r\n",
+            " The runtime is O(nk), with n representing the number of nodes and k representing the amount of time it takes to access each node in memory.\r\n",
+            " The runtime cannot be determined unless you know how many nodes are in the singly linked list.\r\n",
+            " The runtime is O(1) because you can index directly to a node in a singly linked list.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q31. Given the following three list, how would you create a new list that matches the desired output printed below?",
+        "code": "python\r\nfruits = ['Apples', 'Oranges', 'Bananas']\r\nquantities = [5, 3, 4]\r\nprices = [1.50, 2.25, 0.89]\r\n\r\n#Desired output\r\n[('Apples', 5, 1.50),\r\n('Oranges', 3, 2.25),\r\n('Bananas', 4, 0.89)]\r\n",
+        "options": [
+            "\r\n\r\n```python\r\noutput = []\r\n\r\nfruit_tuple_0 = (first[0], quantities[0], price[0])\r\noutput.append(fruit_tuple)\r\n\r\nfruit_tuple_1 = (first[1], quantities[1], price[1])\r\noutput.append(fruit_tuple)\r\n\r\nfruit_tuple_2 = (first[2], quantities[2], price[2])\r\noutput.append(fruit_tuple)\r\n\r\nreturn output\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\ni = 0\r\noutput = []\r\nfor fruit in fruits:\r\n    temp_qty = quantities[i]\r\n    temp_price = prices[i]\r\n    output.append((fruit, temp_qty, temp_price))\r\n    i += 1\r\nreturn output\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\ngroceries = zip(fruits, quantities, prices)\r\nreturn groceries\r\n\r\n>>> [\r\n('Apples', 5, 1.50),\r\n('Oranges', 3, 2.25),\r\n('Bananas', 4, 0.89)\r\n]\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\ni = 0\r\noutput = []\r\nfor fruit in fruits:\r\n    for qty in quantities:\r\n        for price in prices:\r\n            output.append((fruit, qty, price))\r\n    i += 1\r\nreturn output\r\n```\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    null,
+    {
+        "query": " Q33. What is the correct syntax for calling an instance method on a class named Game?",
+        "code": null,
+        "options": [
+            "\r\n\r\n```python\r\n>>> dice = Game()\r\n>>> dice.roll()\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\n>>> dice = Game(self)\r\n>>> dice.roll(self)\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\n>>> dice = Game()\r\n>>> dice.roll(self)\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\n>>> dice = Game(self)\r\n>>> dice.roll()\r\n```\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q34. What is the algorithmic paradigm of quick sort?",
+        "options": [
+            " backtracking\r\n",
+            " dynamic programming\r\n",
+            " decrease and conquer\r\n",
+            " divide and conquer\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q35. What is runtime complexity of the list's built-in `.append()` method?",
+        "options": [
+            " O(1), also called constant time\r\n",
+            " O(log n), also called logarithmic time\r\n",
+            " O(n^2), also called quadratic time\r\n",
+            " O(n), also called linear time\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q36. What is key difference between a `set` and a `list`?",
+        "options": [
+            " A set is an ordered collection unique items. A list is an unordered collection of non-unique items.\r\n",
+            " Elements can be retrieved from a list but they cannot be retrieved from a set.\r\n",
+            " A set is an ordered collection of non-unique items. A list is an unordered collection of unique items.\r\n",
+            " A set is an unordered collection unique items. A list is an ordered collection of non-unique items.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q37. What is the definition of abstraction as applied to object-oriented Python?",
+        "options": [
+            " Abstraction means that a different style of code can be used, since many details are already known to the program behind the scenes.\r\n",
+            " Abstraction means the implementation is hidden from the user, and only the relevant data or information is shown.\r\n",
+            " Abstraction means that the data and the functionality of a class are combined into one entity.\r\n",
+            " Abstraction means that a class can inherit from more than one parent class.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q38. What does this function print?",
+        "code": "python\r\ndef print_alpha_nums(abc_list, num_list):\r\n    for char in abc_list:\r\n        for num in num_list:\r\n            print(char, num)\r\n    return\r\n\r\nprint_alpha_nums(['a', 'b', 'c'], [1, 2, 3])\r\n",
+        "options": [
+            "\r\n\r\n```python\r\na 1\r\na 2\r\na 3\r\nb 1\r\nb 2\r\nb 3\r\nc 1\r\nc 2\r\nc 3\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\n['a', 'b', 'c'], [1, 2, 3]\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\naaa\r\nbbb\r\nccc\r\n111\r\n222\r\n333\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\na 1 2 3\r\nb 1 2 3\r\nc 1 2 3\r\n```\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q39. Correct representation of doctest for function in Python",
+        "code": null,
+        "options": [
+            "\r\n\r\n```python\r\ndef sum(a, b):\r\n    # a = 1\r\n    # b = 2\r\n    # sum(a, b) = 3\r\n\r\n    return a + b\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\ndef sum(a, b):\r\n    \"\"\"\r\n    a = 1\r\n    b = 2\r\n    sum(a, b) = 3\r\n    \"\"\"\r\n\r\n    return a + b\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\ndef sum(a, b):\r\n    \"\"\"\r\n    >>> a = 1\r\n    >>> b = 2\r\n    >>> sum(a, b)\r\n    3\r\n    \"\"\"\r\n\r\n    return a + b\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\ndef sum(a, b):\r\n    '''\r\n    a = 1\r\n    b = 2\r\n    sum(a, b) = 3\r\n    '''\r\n    return a + b\r\n```\r\n\r\n**Explanation:** Use \"\"\" to start and end the docstring and use >>> to represent the output. If you write this correctly you can also run the doctest using build-in doctest module\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q40. Suppose a Game class inherits from two parent classes: BoardGame and LogicGame. Which statement is true about the methods of an object instantiated from the Game class?",
+        "options": [
+            " When instantiating an object, the object doesn't inherit any of the parent class's methods.\r\n",
+            " When instantiating an object, the object will inherit the methods of whichever parent class has more methods.\r\n",
+            " When instantiating an object, the programmer must specify which parent class to inherit methods from.\r\n",
+            " An instance of the Game class will inherit whatever methods the BoardGame and LogicGame classes have.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    null,
+    {
+        "query": " Q42. What symbol(s) do you use to assess equality between two elements?",
+        "options": [
+            " `&&`\r\n",
+            " `=`\r\n",
+            " `==`\r\n",
+            " `||`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q43. Review the code below. What is the correct syntax for changing the price to 1.5?",
+        "code": "python\r\nfruit_info = {\r\n  'fruit': 'apple',\r\n  'count': 2,\r\n  'price': 3.5\r\n}\r\n",
+        "options": [
+            " `fruit_info ['price'] = 1.5`\r\n",
+            " `my_list [3.5] = 1.5`\r\n",
+            " `1.5 = fruit_info ['price]`\r\n",
+            " `my_list['price'] == 1.5`\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q44. What value would be returned by this check for equality?",
+        "options": [
+            " `yes`\r\n",
+            " `False`\r\n",
+            " `True`\r\n",
+            " `None`\r\n\r\n**Explanation** - `!=` is equivalent to **not equal to** in python\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    null,
+    {
+        "query": " Q46. What is meant by the phrase \"space complexity\"?",
+        "options": [
+            " `How many microprocessors it would take to run your code in less than one second`\r\n",
+            " `How many lines of code are in your code file`\r\n",
+            " `The amount of space taken up in memory as a function of the input size`\r\n",
+            " `How many copies of the code file could fit in 1 GB of memory`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q47. What is the correct syntax for creating a variable that is bound to a dictionary?",
+        "options": [
+            " `fruit_info = {'fruit': 'apple', 'count': 2, 'price': 3.5}`\r\n",
+            " `fruit_info =('fruit': 'apple', 'count': 2,'price': 3.5 ).dict()`\r\n",
+            " `fruit_info = ['fruit': 'apple', 'count': 2,'price': 3.5 ].dict()`\r\n",
+            " `fruit_info = to_dict('fruit': 'apple', 'count': 2, 'price': 3.5)`\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q48. What is the proper way to write a list comprehension that represents all the keys in this dictionary?",
+        "options": [
+            " `fruit_names = [x in fruits.keys() for x]`\r\n",
+            " `fruit_names = for x in fruits.keys() *`\r\n",
+            " `fruit_names = [x for x in fruits.keys()]`\r\n",
+            " `fruit_names = x for x in fruits.keys()`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q49. What is the purpose of the `self` keyword when defining or calling methods on an instance of an object?",
+        "options": [
+            " `self` refers to the class that was inherited from to create the object using `self`.\r\n",
+            " There is no real purpose for the `self` method. It's just legacy computer science jargon that Python keeps to stay consistent with other programming languages.\r\n",
+            " `self` means that no other arguments are required to be passed into the method.\r\n",
+            " `self` refers to the instance whose method was called.\r\n\r\n**Explanation:** - Try running the example of the Q45 without passing `self` argument inside the `__init__`, you'll understand the reason. You'll get the error like this `__init__() takes 0 positional arguments but 1 was given`, this means that something is going inside even if haven't specified, which is instance itself.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q50. What statement about the class methods is true?",
+        "options": [
+            " A class method is a regular function that belongs to a class, but it must return None.\r\n",
+            " A class method can modify the state of the class, but they can't directly modify the state of an instance that inherits from that class.\r\n",
+            " A class method is similar to a regular function, but a class method doesn't take any arguments.\r\n",
+            " A class method hold all of the data for a particular class.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q51. What does it mean for a function to have linear runtime?",
+        "options": [
+            " You did not use very many advanced computer programming concepts in your code.\r\n",
+            " The difficulty level your code is written at is not that high.\r\n",
+            " It will take your program less than half a second to run.\r\n",
+            " The amount of time it takes the function to complete grows linearly as the input size increases.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q52. What is the proper way to define a function?",
+        "options": [
+            " `def getMaxNum(list_of_nums): # body of function goes here`\r\n",
+            " `func get_max_num(list_of_nums): # body of function goes here`\r\n",
+            " `func getMaxNum(list_of_nums): # body of function goes here`\r\n",
+            " `def get_max_num(list_of_nums): # body of function goes here`\r\n\r\n[explanation for 52 & 53](https://www.python.org/dev/peps/pep-0008/)\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q53. According to the PEP 8 coding style guidelines, how should constant values be named in Python?",
+        "options": [
+            " in camel case without using underscores to separate words -- e.g. `maxValue = 255`\r\n",
+            " in lowercase with underscores to separate words -- e.g. `max_value = 255`\r\n",
+            " in all caps with underscores separating words -- e.g. `MAX_VALUE = 255`\r\n",
+            " in mixed case without using underscores to separate words -- e.g. `MaxValue = 255`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q54. Describe the functionality of a deque.",
+        "options": [
+            " A deque adds items to one side and remove items from the other side.\r\n",
+            " A deque adds items to either or both sides, but only removes items from the top.\r\n",
+            " A deque adds items at either or both ends, and remove items at either or both ends.\r\n",
+            " A deque adds items only to the top, but remove from either or both sides.\r\n\r\n**Explanation** - `deque` is used to create block chanin and in that there is _first in first out_ approch, which means the last element to enter will be the first to leave.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q55. What is the correct syntax for creating a variable that is bound to a set?",
+        "options": [
+            " `my_set = {0, 'apple', 3.5}`\r\n",
+            " `my_set = to_set(0, 'apple', 3.5)`\r\n",
+            " `my_set = (0, 'apple', 3.5).to_set()`\r\n",
+            " `my_set = (0, 'apple', 3.5).set()`\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q56. What is the correct syntax for defining an `__init__()` method that takes no parameters?",
+        "code": null,
+        "options": [
+            "\r\n\r\n```python\r\nclass __init__(self):\r\n    pass\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\ndef __init__():\r\n    pass\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\nclass __init__():\r\n    pass\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\ndef __init__(self):\r\n    pass\r\n```\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q57. Which of the following is TRUE About how numeric data would be organised in a binary Search tree?",
+        "options": [
+            " For any given Node in a binary Search Tree, the child node to the left is less than the value of the given node and the child node to its right is greater than the given node.\r\n",
+            " Binary Search Tree cannot be used to organize and search through numeric data, given the complication that arise with very deep trees.\r\n",
+            " The top node of the binary search tree would be an arbitrary number. All the nodes to the left of the top node need to be less than the top node's number, but they don't need to ordered in any particular way.\r\n",
+            " The smallest numeric value would go in the top most node. The next highest number would go in its left child node, the the next highest number after that would go in its right child node. This pattern would continue until all numeric values were in their own node.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q58. Why would you use a decorator?",
+        "options": [
+            " A decorator is similar to a class and should be used if you are doing functional programming instead of object oriented programming.\r\n",
+            " A decorator is a visual indicator to someone reading your code that a portion of your code is critical and should not be changed.\r\n",
+            " You use the decorator to alter the functionality of a function without having to modify the functions code.\r\n",
+            " An import statement is preceded by a decorator, python knows to import the most recent version of whatever package or library is being imported.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q59. When would you use a for loop?",
+        "options": [
+            " Only in some situations, as loops are used only for certain type of programming.\r\n",
+            " When you need to check every element in an iterable of known length.\r\n",
+            " When you want to minimize the use of strings in your code.\r\n",
+            " When you want to run code in one file for a function in another file.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q60. What is the most self-descriptive way to define a function that calculates sales tax on a purchase?",
+        "code": null,
+        "options": [
+            "\r\n\r\n```python\r\ndef tax(my_float):\r\n    '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''\r\n    pass\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\ndef tx(amt):\r\n    '''Gets the tax on an amount.'''\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\ndef sales_tax(amount):\r\n    '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\ndef calculate_sales_tax(subtotal):\r\n    pass\r\n```\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q61. What would happen if you did not alter the state of the element that an algorithm is operating on recursively?",
+        "options": [
+            " You do not have to alter the state of the element the algorithm is recursing on.\r\n",
+            " You would eventually get a KeyError when the recursive portion of the code ran out of items to recurse on.\r\n",
+            " You would get a RuntimeError: maximum recursion depth exceeded.\r\n",
+            " The function using recursion would return None.\r\n\r\n[explanation](https://www.python-course.eu/python3_recursive_functions.php#Definition-of-Recursion)\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q62. What is the runtime complexity of searching for an item in a binary search tree?",
+        "options": [
+            " The runtime for searching in a binary search tree is O(1) because each node acts as a key, similar to a dictionary.\r\n",
+            " The runtime for searching in a binary search tree is O(n!) because every node must be compared to every other node.\r\n",
+            " The runtime for searching in a binary search tree is generally O(h), where h is the height of the tree.\r\n",
+            " The runtime for searching in a binary search tree is O(n) because every node in the tree must be visited.\r\n\r\n[explanation](https://www.geeksforgeeks.org/binary-search-tree-data-structure/)\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q63. Why would you use `mixin`?",
+        "options": [
+            " You use a `mixin` to force a function to accept an argument at runtime even if the argument wasn't included in the function's definition.\r\n",
+            " You use a `mixin` to allow a decorator to accept keyword arguments.\r\n",
+            " You use a `mixin` to make sure that a class's attributes and methods don't interfere with global variables and functions.\r\n",
+            " If you have many classes that all need to have the same functionality, you'd use a `mixin` to define that functionality.\r\n\r\n[explanation](https://www.youtube.com/watch?v=zVFLBfqV-q0)\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q64. What is the runtime complexity of adding an item to a stack and removing an item from a stack?",
+        "options": [
+            " Add items to a stack in O(1) time and remove items from a stack on O(n) time.\r\n",
+            " Add items to a stack in O(1) time and remove items from a stack in O(1) time.\r\n",
+            " Add items to a stack in O(n) time and remove items from a stack on O(1) time.\r\n",
+            " Add items to a stack in O(n) time and remove items from a stack on O(n) time.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q65. Which statement accurately describes how items are added to and removed from a stack?",
+        "options": [
+            " a stacks adds items to one side and removes items from the other side.\r\n",
+            " a stacks adds items to the top and removes items from the top.\r\n",
+            " a stacks adds items to the top and removes items from anywhere in the stack.\r\n",
+            " a stacks adds items to either end and removes items from either end.\r\n\r\n**Explanation** Stack uses the _first in first out_ approach\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q66. What is a base case in a recursive function?",
+        "options": [
+            " A base case is the condition that allows the algorithm to stop recursing. It is usually a problem that is small enough to solve directly.\r\n",
+            " The base case is summary of the overall problem that needs to be solved.\r\n",
+            " The base case is passed in as an argument to a function whose body makes use of recursion.\r\n",
+            " The base case is similar to a base class, in that it can be inherited by another object.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q67. Why is it considered good practice to open a file from within a Python script by using the `with` keyword?",
+        "options": [
+            " The `with` keyword lets you choose which application to open the file in.\r\n",
+            " The `with` keyword acts like a `for` loop, and lets you access each line in the file one by one.\r\n",
+            " There is no benefit to using the `with` keyword for opening a file in Python.\r\n",
+            " When you open a file using the `with` keyword in Python, Python will make sure the file gets closed, even if an exception or error is thrown.\r\n\r\n[explanation](https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files)\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q68. Why would you use a virtual environment?",
+        "options": [
+            " Virtual environments create a \"bubble\" around your project so that any libraries or packages you install within it don't affect your entire machine.\r\n",
+            " Teams with remote employees use virtual environments so they can share code, do code reviews, and collaborate remotely.\r\n",
+            " Virtual environments were common in Python 2 because they augmented missing features in the language. Virtual environments are not necessary in Python 3 due to advancements in the language.\r\n",
+            " Virtual environments are tied to your GitHub or Bitbucket account, allowing you to access any of your repos virtually from any machine.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q69. What is the correct way to run all the doctests in a given file from the command line?",
+        "options": [
+            " python3 -m doctest <_filename_>\r\n",
+            " python3 <_filename_>\r\n",
+            " python3 <_filename_> rundoctests\r\n",
+            " python3 doctest\r\n\r\n[tutorial video](https://www.youtube.com/watch?v=P8qm0VAbbww&t=180s)\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q70. What is a lambda function ?",
+        "options": [
+            " any function that makes use of scientific or mathematical constants, often represented by Greek letters in academic writing\r\n",
+            " a function that get executed when decorators are used\r\n",
+            " any function whose definition is contained within five lines of code or fewer\r\n",
+            " a small, anonymous function that can take any number of arguments but has only expression to evaluate\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q71. What is the primary difference between lists and tuples?",
+        "options": [
+            " You can access a specifc element in a list by indexing to its position, but you cannot access a specific element in a tuple unless you iterate through the tuple\r\n",
+            " Lists are mutable, meaning you can change the data that is inside them at any time. Tuples are immutable, meaning you cannot change the data that is inside them once you have created the tuple.\r\n",
+            " Lists are immutable, meaning you cannot change the data that is inside them once you have created the list. Tuples are mutable, meaning you can change the data that is inside them at any time.\r\n",
+            " Lists can hold several data types inside them at once, but tuples can only hold the same data type if multiple elements are present.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q72. Which statement about static method is true?",
+        "options": [
+            " Static methods can be bound to either a class or an instance of a class.\r\n",
+            " Static methods can access and modify the state of a class or an instance of a class.\r\n",
+            " Static methods serve mostly as utility or helper methods, since they cannot access or modify a class's state.\r\n",
+            " Static methods are called static because they always return None.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q73. What does a generator return?",
+        "options": [
+            " None\r\n",
+            " An iterable object\r\n",
+            " A linked list data structure from a non-empty list\r\n",
+            " All the keys of the given dictionary\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q74. What is the difference between class attributes and instance attributes?",
+        "options": [
+            " Instance attributes can be changed, but class attributes cannot be changed\r\n",
+            " Class attributes are shared by all instances of the class. Instance attributes may be unique to just that instance\r\n",
+            " There is no difference between class attributes and instance attributes\r\n",
+            " Class attributes belong just to the class, not to instance of that class. Instance attributes are shared among all instances of a class\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q75. What is the correct syntax of creating an instance method?",
+        "code": null,
+        "options": [
+            "\r\n\r\n```python\r\ndef get_next_card():\r\n  # method body goes here\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\ndef get_next_card(self):\r\n  # method body goes here\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\ndef self.get_next_card():\r\n  # method body goes here\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\ndef self.get_next_card(self):\r\n  # method body goes here\r\n```\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q76. What is the correct way to call a function?",
+        "options": [
+            " get_max_num([57, 99, 31, 18])\r\n",
+            " call.(get_max_num)\r\n",
+            " def get_max_num([57, 99, 31, 18])\r\n",
+            " call.get_max_num([57, 99, 31, 18])\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q77. How is comment created?",
+        "options": [
+            " `-- This is a comment`\r\n",
+            " `# This is a comment`\r\n",
+            " `/_ This is a comment _\\`\r\n",
+            " `// This is a comment`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q78. What is the correct syntax for replacing the string apple in the list with the string orange?",
+        "options": [
+            " orange = my_list[1]\r\n",
+            " my_list[1] = 'orange'\r\n",
+            " my_list['orange'] = 1\r\n",
+            " my_list[1] == orange\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q79. What will happen if you use a while loop and forget to include logic that eventually causes the while loop to stop?",
+        "options": [
+            " Nothing will happen; your computer knows when to stop running the code in the while loop.\r\n",
+            " You will get a KeyError.\r\n",
+            " Your code will get stuck in an infinite loop.\r\n",
+            " You will get a WhileLoopError.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q80. Describe the functionality of a queue?",
+        "options": [
+            " A queue adds items to either end and removes items from either end.\r\n",
+            " A queue adds items to the top and removes items from the top.\r\n",
+            " A queue adds items to the top, and removes items from anywhere in, a list.\r\n",
+            " A queue adds items to the top and removes items from anywhere in the queue.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q81. Which choice is the most syntactically correct example of the conditional branching?",
+        "code": null,
+        "options": [
+            "\r\n\r\n```python\r\nnum_people = 5\r\n\r\nif num_people > 10:\r\n    print(\"There is a lot of people in the pool.\")\r\nelif num_people > 4:\r\n    print(\"There are some people in the pool.\")\r\nelse:\r\n    print(\"There is no one in the pool.\")\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\nnum_people = 5\r\n\r\nif num_people > 10:\r\n    print(\"There is a lot of people in the pool.\")\r\nif num_people > 4:\r\n    print(\"There are some people in the pool.\")\r\nelse:\r\n    print(\"There is no one in the pool.\")\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\nnum_people = 5\r\n\r\nif num_people > 10;\r\n    print(\"There is a lot of people in the pool.\")\r\nelif num_people > 4;\r\n    print(\"There are some people in the pool.\")\r\nelse;\r\n    print(\"There is no one in the pool.\")\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\nif num_people > 10;\r\n    print(\"There is a lot of people in the pool.\")\r\nif num_people > 4;\r\n    print(\"There are some people in the pool.\")\r\nelse;\r\n    print(\"There is no one in the pool.\")\r\n```\r\n\r\nThis question seems to be an updated version of Question 19.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q82. How does `defaultdict` work?",
+        "options": [
+            " `defaultdict` will automatically create a dictionary for you that has keys which are the integers 0-10.\r\n",
+            " `defaultdict` forces a dictionary to only accept keys that are of the types specified when you created the `defaultdict` (such as strings or integers).\r\n",
+            " If you try to read from a `defaultdict` with a nonexistent key, a new default key-value pair will be created for you instead of throwing a `KeyError`.\r\n",
+            " `defaultdict` stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.\r\n\r\nUpdated version of Question 14.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q83. What is the correct syntax for adding a key called `variety` to the `fruit_info` dictionary that has a value of `Red Delicious`?",
+        "options": [
+            " `fruit_info['variety'] == 'Red Delicious'`\r\n",
+            " `fruit_info['variety'] = 'Red Delicious'`\r\n",
+            " `red_delicious = fruit_info['variety']`\r\n",
+            " `red_delicious == fruit_info['variety']`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    null,
+    {
+        "query": " Q85. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?",
+        "code": null,
+        "options": [
+            "\r\n\r\n```python\r\ndef __init__(self, attr1, attr2):\r\n    attr1 = attr1\r\n    attr2 = attr2\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\ndef __init__(attr1, attr2):\r\n    attr1 = attr1\r\n    attr2 = attr2\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\ndef __init__(self, attr1, attr2):\r\n    self.attr1 = attr1\r\n    self.attr2 = attr2\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\ndef __init__(attr1, attr2):\r\n    self.attr1 = attr1\r\n    self.attr2 = attr2\r\n```\r\n\r\n**Explanation**: When instantiating a new object from a given class, the `__init__()` method will take both `attr1` and `attr2`, and set its values to their corresponding object attribute, that's why the need of using `self.attr1 = attr1` instead of `attr1 = attr1`.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q86. What would this recursive function print if it is called with no parameters?",
+        "code": "python\r\ndef count_recursive(n=1):\r\n    if n > 3:\r\n        return\r\n    print(n)\r\n\r\ncount_recursive(n + 1)\r\n",
+        "options": [
+            "\r\n\r\n```python\r\n1\r\n1\r\n2\r\n2\r\n3\r\n3\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\n3\r\n2\r\n1\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\n3\r\n3\r\n2\r\n2\r\n1\r\n1\r\n```\r\n\r\n",
+            "\r\n\r\n```python\r\n1\r\n2\r\n3\r\n```\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q87. In Python, when using sets, you use **_ to calculate the intersection between two sets and _** to calculate the union.",
+        "options": [
+            " `Intersect;union`\r\n",
+            " |; &\r\n",
+            " &; |\r\n",
+            " &&; ||\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q88. What will this code fragment return?",
+        "code": "python\r\nimport numpy as np\r\nnp.ones([1,2,3,4,5])\r\n",
+        "options": [
+            " It returns a 5x5 matric; each row will have the values 1,2,3,4,5.\r\n",
+            " It returns an array with the values 1,2,3,4,5\r\n",
+            " It returns five different square matrices filled with ones. The first is 1x1, the second 2x2, and so on to 5x5\r\n",
+            " It returns a 5-dimensional array of size 1x2x3x4x5 filled with 1s.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q89. You encounter a FileNotFoundException while using just the filename in the `open` function. What might be the easiest solution?",
+        "options": [
+            " Make sure the file is on the system PATH\r\n",
+            " Create a symbolic link to allow better access to the file\r\n",
+            " Copy the file to the same directory as where the script is running from\r\n",
+            " Add the path to the file to the PYTHONPATH environment variable\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q90. what will this command return?",
+        "code": "python\r\n{x for x in range(100) if x%3 == 0}\r\n",
+        "options": [
+            " a set of all the multiples of 3 less then 100\r\n",
+            " a set of all the number from 0 to 100 multiplied by 3\r\n",
+            " a list of all the multiples of 3 less then 100\r\n",
+            " a set of all the multiples of 3 less then 100 excluding 0\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q91. What does the // operator in Python 3 allow you to do?",
+        "options": [
+            " Perform integer division\r\n",
+            " Perform operations on exponents\r\n",
+            " Find the remainder of a division operation\r\n",
+            " Perform floating point division\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q92. This code provides the \\_ of the list of numbers",
+        "code": "python\r\nnum_list = [21,13,19,3,11,5,18]\r\nnum_list.sort()\r\nnum_list[len(num_list)//2]\r\n",
+        "options": [
+            " mean\r\n",
+            " mode\r\n",
+            " median\r\n",
+            " average\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q93. Which statement about the class methods is true?",
+        "options": [
+            " A class method holds all of the data for a particular class.\r\n",
+            " A class method can modify the state of the class, but it cannot directly modify the state of an instance that inherits from that class.\r\n",
+            " A class method is a regular function that belongs to a class, but it must return None\r\n",
+            " A class method is similar to a regular function, but a class method does not take any arguments.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q94. What file is imported to use dates in python?",
+        "options": [
+            " datetime\r\n",
+            " dateday\r\n",
+            " daytime\r\n",
+            " timedate\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q95. What is the correct syntax for defining a class called Game?",
+        "options": [
+            " def Game(): pass\r\n",
+            " def Game: pass\r\n",
+            " class Game: pass\r\n",
+            " class Game(): pass\r\n\r\n[reference here](https://docs.python.org/3/tutorial/classes.html)\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q96. What does a class's init() method do?",
+        "options": [
+            " The **init** method makes classes aware of each other if more than one class is defined in a single code file.\r\n",
+            " The **init** method is included to preserve backward compatibility from Python 3 to Python 2, but no longer needs to be used in Python 3.\r\n",
+            " The **init** method is a constructor method that is called automatically whenever a new object is created from a class. It sets the initial state of a new object.\r\n",
+            " The **init** method initializes any imports you may have included at the top of your file.\r\n\r\n[reference here](https://stackoverflow.com/questions/625083/what-init-and-self-do-in-python)\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q97. What is the correct syntax for calling an instance method on a class named Game?",
+        "options": [
+            " my_game = Game(self) self.my_game.roll_dice()\r\n",
+            " my_game = Game() self.my_game.roll_dice()\r\n",
+            " my_game = Game() my_game.roll_dice()\r\n",
+            " my_game = Game(self) my_game.roll_dice(self)\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q98. What is the output of this code? (NumPy has been imported as np.)?",
+        "code": "\r\na = np.array([1,2,3,4])\r\nprint(a[[False, True, False, False]])\r\n",
+        "options": [
+            " {0,2}\r\n",
+            " [2]\r\n",
+            " {2}\r\n",
+            " [0,2,0,0]\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    null,
+    null,
+    {
+        "query": " Q101. What is the correct syntax for creating an instance method?",
+        "options": [
+            " def get_next_card(): # method body goes here\r\n",
+            " def self.get_next_card(): # method body goes here\r\n",
+            " def get_next_card(self): # method body goes here\r\n",
+            " def self.get_next_card(self): # method body goes here\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q102. Which mode is not a valid way to access a file from within a Python script?",
+        "options": [
+            " write('w')\r\n",
+            " scan('s')\r\n",
+            " append('a')\r\n",
+            " read('r')\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q103. Which command will create a list from 10 down to 1? Example:",
+        "options": [
+            " reversed(list(range(1,11)))\r\n",
+            " list(reversed(range(1,10)))\r\n",
+            " list(range(10,1,-1))\r\n",
+            " list(reversed(range(1,11)))\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q104. Which syntax correctly creates a variable that is bound to a tuple?",
+        "options": [
+            " my_tuple = [2, 'apple', 3.5]\r\n",
+            " my_tuple = [2, 'apple', 3.5].tuple()\r\n",
+            " my_tuple = tup(2, 'apple', 3.5)\r\n",
+            " my_tuple = (2, 'apple', 3.5)\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q105. Which fragment of code will print exactly the same output as this fragment?",
+        "code": "\r\nimport math\r\nprint(math.pow(2,10)) # prints 2 elevated to the 10th power\r\n",
+        "options": [
+            " print(2^10)\r\n",
+            " print(2\\*\\*10)\r\n",
+            " y = [x*2 for x in range(1,10)]\r\n      print(y)\r\n",
+            " y = 1\r\n      for i in range(1,10):\r\n      y = y \\* 2\r\n\r\n      print(y)\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q106. Elements surrounded by [] are **\\_**, {} are **\\_**, and () are **\\_**.",
+        "options": [
+            " sets only; lists or dictionaries; tuples\r\n",
+            " lists; sets only; tuples\r\n",
+            " tuples; sets or lists; dictionaries\r\n",
+            " lists; dictionaries or sets; tuples\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q107. What is the output of this code? (NumPy has been imported as np.)",
+        "code": "\r\ntable = np.array([\r\n    [1,3],\r\n    [2,4]])\r\nprint(table.max(axis=1))\r\n",
+        "options": [
+            " `[2, 4]`\r\n",
+            " `[3, 4]`\r\n",
+            " `[4]`\r\n",
+            " `[1,2]`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q108. What will this code print?",
+        "code": "\r\nnumber = 3\r\nprint (f\"The number is {number}\")\r\n",
+        "options": [
+            " `The number is 3`\r\n",
+            " `the number is 3`\r\n",
+            " `THE NUMBER IS 3`\r\n",
+            " It throws a TypeError because the integer must be cast to a string.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q109. Which syntax correctly creates a variable that is bound to a tuple?",
+        "options": [
+            " `my_tuple tup(2, 'apple', 3.5) %D`\r\n",
+            " `my_tuple [2, 'apple', 3.5].tuple() %D`\r\n",
+            " `my_tuple = (2, 'apple', 3.5)`\r\n",
+            " `my_tuple = [2, 'apple', 3.5]`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q110. Which mode is _not_ a valid way to access a file from within a Python script?",
+        "options": [
+            " write('w')\r\n",
+            " scan('s')\r\n",
+            " append('a')\r\n",
+            " read('r')\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q111. Which command will create a list from 10 down to 1? Example:",
+        "code": "\r\n[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]\r\n",
+        "options": [
+            " reversed(list(range(1,11)))\r\n",
+            " list(reversed(range(1,10)))\r\n",
+            " list(range(10, 1, -1))\r\n",
+            " list(reversed(range(1,11)))\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    null
+]

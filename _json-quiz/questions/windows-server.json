@@ -1,1 +1,500 @@
-[null,{"query":" Q2. You support an IT infrastructure for an organization that has physical locations and WAN connections from the main office to each branch. You are designing a network where users at all locations have access to shared files, both online and offline. Which Windows technology is best for your design?","options":[" Data Deduplication\r\n"," BranchCache\r\n"," DFS Replication\r\n"," File and Storage Services\r\n\r\n"],"correctAns":2},{"query":" Q3. Which type ot DNS record is most commonly used in a forward lookup zone to resolve a host name to a specific IP address?","options":[" an MX record\r\n"," an A record\r\n"," an RTP record\r\n"," a TXT record\r\n\r\n"],"correctAns":2},{"query":" Q4. What can you perform to free up space on a Windows Server 2012 R2 C: drive?","options":[" a disk migration\r\n"," a disk cleanup\r\n"," a disk consolidation\r\n"," a disk defragmentation\r\n\r\n"],"correctAns":2},{"query":" Q5. A Windows Server 2012 R2 VM is available to use. You created an XML file that includes all the server roles and features you require for a file server. The XML tile is stored at the root of the D: drive. What PowerShell command do you run to configure the server?","options":[" `Install-WindowsServices -ConfigurationFilePath d:\\PowerShellConfig.xml`\r\n"," `Install-WindowsFeature -ConfigurationFilePath d:\\root\\PowerShellConfigFile.xml`\r\n"," `Install-WindowsRole -ConfigurationFilePath d:\\FileServerConfig.xml`\r\n"," `Install-WindowsFeature -ConfigurationFiIePath d:\\FileServerConfig.xml`\r\n\r\n"],"correctAns":4},{"query":" Q6. When configuring a CA which role service provides a web interface for users to easily request and renew certificates?","options":[" Network Device Enrollment Service\r\n"," Certification Authority Web Enrollment\r\n"," Online Responder\r\n"," Certificate Enrollment Policy Web Service\r\n\r\n"],"correctAns":2},{"query":" Q7. Two companies with different names and domains are merging. What do you set up to ensure that name resolution requests are forwarded directly to the other company's authoritative server?","options":[" DNS conditional forwarder\r\n"," DNS secondary zone\r\n"," DNS forward lookup zone\r\n"," DNS reverse lookup zone\r\n\r\n"],"correctAns":2},{"query":" Q8. Hyper-V \\_ is a disaster recovery tool that replicates virtual machines from one Hyper-V host server to another in a Hyper-V Windows Server 2016 environment.","options":[" Manager\r\n"," Replica\r\n"," Backup\r\n"," Data Protection Manager\r\n\r\n"],"correctAns":2},null,{"query":" Q10. You have installed the Remote Desktop Services role. Which remote desktop mode comes with two built-in licenses?","options":[" RDA Administration Mode\r\n"," RDS Session Mode\r\n"," RDS User Mode\r\n"," RDA Application Mode\r\n\r\n"],"correctAns":2},{"query":" Q11. How would you link a unique users policy made for the Human Resources Department users in your domain?","options":[" Link the GPO to the Human Resources OU.\r\n"," Link the GPO to the Default Domain Policy.\r\n"," Link the GPO to the domain root\r\n"," Link the GPO to the Computers OU.\r\n\r\n"],"correctAns":4},{"query":" Q12. You've deployed a Server Core installation of Windows Server 2016. Which is NOT a way to update the server?","options":[" Configure the server to use a WSUS server with Group Policy.\r\n"," Run the following command: `Net stop wuauserv %systemroot%\\system32\\Cscript scregedit.wsf /AU 4 Net start wuauserv`.\r\n"," Run the following command: `Wusa <updatename>.msu /quiet`.\r\n"," Install the WSUS server role.\r\n\r\n"],"correctAns":1},{"query":" Q13. When deploying a Windows Server as a print server, which role needs to be installed?","options":[" Print Services\r\n"," File Services\r\n"," Print and Document Services\r\n"," Print Server\r\n\r\n"],"correctAns":3},{"query":" Q14. Which type of DNS record is NOT specifically associated with an AD domain controller?","options":[" LDAP\r\n"," Kerberos\r\n"," GC\r\n"," PTR\r\n\r\n"],"correctAns":3},{"query":" Q15. Your Hyper-V server has two physical disks installed, Disk 1 is a C: drive that hosts the Windows system files, and disk 2 is a D: drive that has no data. You need to connect the D: drive to a newly created VM using a pass-through disk configuration. What is true about the D: drive?","options":[" The physical disk must be in a RAID 6 configuration.\r\n"," The physical disk must be reformatted.\r\n"," The physical disk must be offline.\r\n"," The physical disk must use iSCSI.\r\n\r\n"],"correctAns":3},{"query":" Q16. Which Windows Server technology enables replication of volumes between servers or clusters for disaster recovery?","options":[" Storage Replica\r\n"," Storage Spaces Direct\r\n"," Stretch Cluster\r\n"," Storage Spaces\r\n\r\n"],"correctAns":1},{"query":" Q17. You are setting up new branch that has 50 client computers, all of which have been joined to the existing Active Directory domain. You deployed a DHCP server and were able to log in with your domain admin credentials, however the local clients are not receiving IP addresses. What is the cause of this issue?","options":[" The DHCP server is not part of the DHCP Servers OU in AD.\r\n"," The DHCP server has not been authorized.\r\n"," Your domain admin account is not part of the local computer's Administrators group.\r\n"," The DHCP server is not part of the AD domain.\r\n\r\n"],"correctAns":2},{"query":" Q18. You want to verify that a DHCP server has been authorized use in Active Directory. Which cmdlet do you run in Windows PowerShell?","options":[" Add-DhcpServerInDC\r\n"," Get-DhcpServerInDC\r\n"," Get-WindowsFeature DHCP\r\n"," Instä11-WindowsFeature DHCP\r\n\r\n"],"correctAns":2},{"query":" Q19. You log in to the domain controller to manage some user and computer accounts in Active Directory (AS) and you cannot find the AD tools. To resolve this using the Add Roles and Features Wizard, which feature would you install without any unnecessary services?","options":[" Hyper-V Management Tools\r\n"," Remove Server Administration Tools\r\n"," Active Directory Rights Management Services\r\n"," AD DS and AD LDS Tools\r\n\r\n"],"correctAns":4},{"query":" Q20. You deploy Windows Server 2012 R2 server as a VPN server and must configure new firewall rules for workstation connections. Which command do you use to configure the new rules with the least amount of effort?","options":[" Use dism.exe from the command prompt.\r\n"," Use dsadd.exe from the command prompt.\r\n"," Use the New-NetFirewallRule command in PowerShell.\r\n"," use the Enable-NetFirewallRule in PowerShell.\r\n\r\n"],"correctAns":3},{"query":" Q21. A basic DHCP server can provide clients with an IP address, subnet mask, default gateway, DNS IP address. and what other IP address?","options":[" file server\r\n"," WINS server\r\n"," WSUS\r\n"," proxy server\r\n\r\n"],"correctAns":2},{"query":" Q22. When setting up a disaster recovery plan for your Hyper-V virtual machines in a System Center Virtual Machine Manager (VMM) cloud, what happens during the initial replication?","options":[" A Hyper-V VM snapshot is taken.\r\n"," Delta replication begins.\r\n"," Delta disk changes are logged and merged with the parent disk.\r\n"," Virtual hard disks on the VM are replicated to the secondary site.\r\n\r\n"],"correctAns":2},{"query":" Q23. You want to secure your Windows server so the built-in web browser can navigate only to sites listed in Internet Explorer's 'trusted sites' list. How can you configure this security capability?","options":[" Go to the Manager and enable IE Enhanced Security Configuration.\r\n"," Go to Internet Explorer's Internet Options end add unauthorized website URLs te the 'restricted sites' list.\r\n"," Go to Internet Explorer's Internet Options and add authorized website URLs to the 'trusted sites' list.\r\n"," Go to the Control Panel and enable user Account Control.\r\n\r\n"],"correctAns":3},{"query":" Q24. After adding a network printer to the Windows print server, you try to add the printer to a Windows 8 desktop client. While typing the network path to the new printer, you are unable to find it. Why is the new network printer unavailable for selection?","options":[" You did not add the printer drivers to the print server.\r\n"," You did not select the Share the Printer check box.\r\n"," You need to re-add the printer to the Print Management console.\r\n"," The printer lost connection to the network.\r\n\r\n"],"correctAns":2},{"query":" Q25. You built a container image on Nano Server. The container image has multiple layers, including a custom application built for your company, and your development team pushed the image to your Azure image registry. What happens if you attempt to pull that image to a new server with previously downloaded OS images?","options":[" Your custom layers will be pulled from your Azure registry and you will receive an notifying you of the missing base image.\r\n"," You will receive an notifying you of the missing base image and you will not be allowed to pull the image.\r\n"," All layers will be downloaded from your Azure registry.\r\n"," The base OS image layers will automatically be pulled from Microsoft's registry at Docker Hub, and your custom layers will be pulled from your Azure registry.\r\n\r\n"],"correctAns":2},{"query":" Q26. You need to configure your DHCP server to deny certain client MAC addresses receiving an IP address. Where do you configure this setting?","options":[" Filters folder\r\n"," Policies folder\r\n"," Scope Default folder\r\n"," Scope Options folder\r\n\r\n"],"correctAns":2},{"query":" Q27. Where can you go to restore deleted objects in Active Directory without the use of Microsoft PowerShell or ldp.exe?","options":[" Active Directory Administrative Center\r\n"," Active Directory Domains and Trusts\r\n"," Active Directory and Computers\r\n"," Active Directory Sites and Services\r\n\r\n"],"correctAns":1},{"query":" Q28. You have a running Active Directory Certificate Services (AD CS) server and need to back up the certificate databases and private keys. How do you accomplish this?","options":[" Use the certutil.exe command.\r\n"," Schedule a full backup of the server.\r\n"," Perform a direct copy of database files and private keys to a file share.\r\n"," Schedule an incremental backup of the server.\r\n\r\n"],"correctAns":1},{"query":" Q29. You must configure set of three DNS IP addresses to be given to clients that receive IP configuration from your DHCP server. The DNS IP will apply to all DHCP created on the server. Where on your DHCP do you configure this setting?","options":[" Server Options\r\n"," Scope Options\r\n"," Scope Clients\r\n"," Policies\r\n\r\n"],"correctAns":4},{"query":" Q30. You are working toward managing cross-forest certificate enrollment deployment and need to copy objects in the source forest to the target forest. How do you keep the source and target forest synchronized?","options":[" storage replication\r\n"," pkisync.ps1\r\n"," site replication\r\n"," certificate templates\r\n\r\n"],"correctAns":2},{"query":" Q31. A company IIS server will host the corporate site, which is accessible only by company computers. You need to configure this website to SSL. You obtain certificate to install on the server. Into which certificate store should you import the server's certificate?","options":[" Trusted Root Certification Authorities under Local Computer\r\n"," Trusted Root Certification Authorities under Current User\r\n"," Personal under Local Computer\r\n"," Client Authentication Computer\r\n\r\n"],"correctAns":3},null,{"query":" Q33. A domain GPO must apply to users based on the location of the computer to which they are logging in. You set up this ability by using which group policy feature?","options":[" inheritance\r\n"," administrative\r\n"," loopback\r\n"," filter\r\n\r\n"],"correctAns":2},{"query":" Q34. You are planning to install a SAN that will utilize iSCSI storage. You want to provide automatic discovery, management and configuration of iSCSI devices. After running the Get-WindowsFeature \\* PowerShell command, which should you install?","options":[" Network Load Balancing\r\n"," EnhancedStorage\r\n"," iSNS\r\n"," Multipath IO\r\n\r\n"],"correctAns":3},null,{"query":" Q36. When installing the AD DS server role, which will NOT be installed as part of the requited features and services for AD DS to run?","options":[" DFS Replication\r\n"," DFS Namespaces\r\n"," Active Directory Lightweight Directory Services\r\n"," File Replication services\r\n\r\n"],"correctAns":3},{"query":" Q37. Which is NOT a reason to deploy a DHCP super scope in your network?","options":[" The current address pool is almost depleted and more clients will added.\r\n"," Clients will be migrated to a new scope in a phased approach.\r\n"," More than one DHCP server wants to manage separate logical IP networks on the same physical network segment.\r\n"," A proven failover option is required so clients are always connected.\r\n\r\n"],"correctAns":2},{"query":" Q38. You prestaged a computer in Active Directory in a domain controller at company headquarters. After 30 minutes, that new computer object is still not available at the branch office domain What should you run from prompt to get a summary of the AD replication status in your domain from the perspective of all domain controllers?","options":[" `repadmin /replsum`\r\n"," `repadmin /showrepl *`\r\n"," `ntdsutil.exe`\r\n"," `repadmin /queue`\r\n\r\n"],"correctAns":2},{"query":" Q39. You currently have a DHCP server issuing addresses to clients. Which task should you perform first to set up your DHCP server to dynamically issue addresses to clients on the network?","options":[" Add IPv6 scope.\r\n"," Configure an IPv6 address for the interface on the DHCP server.\r\n"," Set up Windows client configuration.\r\n"," Install the DHCPv6 server role.\r\n\r\n"],"correctAns":2},{"query":" Q40. In the Add Roles and Features Wizard window, you are unable to remove Active Directory domain Services—the check box is greyed out. How can you remove AC DS from a Windows Server 2012 R2?","options":[" Click Next and review the Features section.\r\n"," Click Previous choose a different server.\r\n"," Click Cancel and restart the server.\r\n"," Click Cancel and open the Remove Roles and Features Wizard.\r\n\r\n"],"correctAns":4},null,{"query":" Q42. The first ot root server in a PKI must have the Active Directory Certificate Services installed running which role service?","options":[" Certification Authority Web Enrollment\r\n"," Certificate Authority\r\n"," Network Device Enrollment Service\r\n"," Online Responder\r\n\r\n"],"correctAns":1},{"query":" Q43. You have shared folder on your FILESVR01 server. You want to be notified vie email when files are saved in the folder. How do you automate this task?","options":[" Use Storage Reports.\r\n"," Use File Management Tasks.\r\n"," Use Quota Management.\r\n"," Use File Screen Management.\r\n\r\n"],"correctAns":1},{"query":" Q44. What you use to implement a secure hardware store for your CA keys?","options":[" storage area network\r\n"," network attached storage\r\n"," hardware security module\r\n"," encrypted hard drive\r\n\r\n"],"correctAns":3},{"query":" Q45. You are deploying a highly available file server using a Hyper-V cluster configuration. After creating the cluster, why must you add d disk as a cluster shared volume (CSV)?","options":[" to provide nodes in cluster independent VMs slot age location\r\n"," to implement fault tolerance zero downtime for the VM\r\n"," to protect data from loss\r\n"," to prevent nodes in a cluster from accessing a storage location\r\n\r\n"],"correctAns":2},{"query":" Q46. When setting up a new RADIUS client, what piece of information verifies a secure and trusted connection with the RADIUS server?","options":[" shared secret\r\n"," hash key\r\n"," vendor name availability\r\n"," authentication methods\r\n\r\n"],"correctAns":1},{"query":" Q47. You run a script to encrypt a client computer's hard drive with BitLocker and back up the recovery password to Active Directory. When researching the computer object's properties, you cannot find the BitLocker recovery password. What may be the cause?","options":[" BitLocker Drive Encryption Administration Utilities are not installed on the client computer.\r\n"," BitLocker Drive Encryption Administration Utilities are not installed on the domain controller.\r\n"," BitLocker Drive Encryption Tools are not installed on the domain controller.\r\n"," BitLocker Drive Encryption Tools are not installed on the client computer.\r\n\r\n"],"correctAns":1},{"query":" Q48. After running the PowerShell cmdlet Add-WindowsFeature Adcs-Cert-Authority -IncludeManagementTool on a Windows Server 2016 server, which command will make it a Root Certificate Authority (CA)?","options":[" Install-CertificationAuthority\r\n"," Install-CertificationAuthority -CAType RootCA\r\n"," Install-AdcsCertificationAuthority -CAType EnterpriseRootCA\r\n"," Install-AdcsCertificationAuthority -CAType RootCA\r\n\r\n"],"correctAns":3},{"query":" Q49. A set of computer and user settings can be applied to multiple clients and servers in a domain through the use of `___`.","options":[" Group Policy Objects\r\n"," Microsoft Management Console\r\n"," Users and Groups\r\n"," Computer Objects\r\n\r\n"],"correctAns":1},{"query":" Q50. What is the Microsoft implementation of a RADIUS server?","options":[" IP address Management (IPAM) Server\r\n"," Network Policy Server (NPS)\r\n"," Network Load Balancing\r\n"," Web Server (IIS)\r\n\r\n"],"correctAns":2},{"query":" Q51. After installing the active directory domain services role to your windows server 2016 OS, how do you promote the server to a domain controller using the GUI?","options":[" Open mmc.exe\r\n"," Run dcpromo.exe\r\n"," Click Add Roles and Features.\r\n"," Click the notification flag in the Server Manager windows.\r\n\r\n"],"correctAns":4},{"query":" Q52. You want to host two virtual machines on the same physical server. Their memory settings in Hyper-V are set to optimize the use of physical memory for each virtual machine. What makes this optimization possible?","options":[" dynamic memory\r\n"," memory buffer\r\n"," virtual memory\r\n"," ReadyBoost\r\n\r\n"],"correctAns":3},null,{"query":" Q54. Group policy objects are not being applied to domain controllers because the Default Domain Controllers and Default Domain group policies are corrupt. What can you run in a command prompt to recover them?","options":[" dcgpofix.exe\r\n"," dcdiagfix.exe\r\n"," ntdsutil.exe\r\n"," dcpromo.exe\r\n\r\n"],"correctAns":1},null,null,{"query":" Q57. You want to ensure there are redundant DHCP services avaliable for your network. What should you set up on your server to make this possible?","options":[" create new multicast scope\r\n"," create new superscope\r\n"," replicate failover scopes\r\n"," configure failover\r\n\r\n[ref](https://biztechmagazine.com/article/2013/03/4-solutions-ensuring-dhcp-availability)\r\n"],"correctAns":4}]
+[
+    null,
+    {
+        "query": " Q2. You support an IT infrastructure for an organization that has physical locations and WAN connections from the main office to each branch. You are designing a network where users at all locations have access to shared files, both online and offline. Which Windows technology is best for your design?",
+        "options": [
+            " Data Deduplication\r\n",
+            " BranchCache\r\n",
+            " DFS Replication\r\n",
+            " File and Storage Services\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q3. Which type ot DNS record is most commonly used in a forward lookup zone to resolve a host name to a specific IP address?",
+        "options": [
+            " an MX record\r\n",
+            " an A record\r\n",
+            " an RTP record\r\n",
+            " a TXT record\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q4. What can you perform to free up space on a Windows Server 2012 R2 C: drive?",
+        "options": [
+            " a disk migration\r\n",
+            " a disk cleanup\r\n",
+            " a disk consolidation\r\n",
+            " a disk defragmentation\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q5. A Windows Server 2012 R2 VM is available to use. You created an XML file that includes all the server roles and features you require for a file server. The XML tile is stored at the root of the D: drive. What PowerShell command do you run to configure the server?",
+        "options": [
+            " `Install-WindowsServices -ConfigurationFilePath d:\\PowerShellConfig.xml`\r\n",
+            " `Install-WindowsFeature -ConfigurationFilePath d:\\root\\PowerShellConfigFile.xml`\r\n",
+            " `Install-WindowsRole -ConfigurationFilePath d:\\FileServerConfig.xml`\r\n",
+            " `Install-WindowsFeature -ConfigurationFiIePath d:\\FileServerConfig.xml`\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q6. When configuring a CA which role service provides a web interface for users to easily request and renew certificates?",
+        "options": [
+            " Network Device Enrollment Service\r\n",
+            " Certification Authority Web Enrollment\r\n",
+            " Online Responder\r\n",
+            " Certificate Enrollment Policy Web Service\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q7. Two companies with different names and domains are merging. What do you set up to ensure that name resolution requests are forwarded directly to the other company's authoritative server?",
+        "options": [
+            " DNS conditional forwarder\r\n",
+            " DNS secondary zone\r\n",
+            " DNS forward lookup zone\r\n",
+            " DNS reverse lookup zone\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q8. Hyper-V \\_ is a disaster recovery tool that replicates virtual machines from one Hyper-V host server to another in a Hyper-V Windows Server 2016 environment.",
+        "options": [
+            " Manager\r\n",
+            " Replica\r\n",
+            " Backup\r\n",
+            " Data Protection Manager\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    null,
+    {
+        "query": " Q10. You have installed the Remote Desktop Services role. Which remote desktop mode comes with two built-in licenses?",
+        "options": [
+            " RDA Administration Mode\r\n",
+            " RDS Session Mode\r\n",
+            " RDS User Mode\r\n",
+            " RDA Application Mode\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q11. How would you link a unique users policy made for the Human Resources Department users in your domain?",
+        "options": [
+            " Link the GPO to the Human Resources OU.\r\n",
+            " Link the GPO to the Default Domain Policy.\r\n",
+            " Link the GPO to the domain root\r\n",
+            " Link the GPO to the Computers OU.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q12. You've deployed a Server Core installation of Windows Server 2016. Which is NOT a way to update the server?",
+        "options": [
+            " Configure the server to use a WSUS server with Group Policy.\r\n",
+            " Run the following command: `Net stop wuauserv %systemroot%\\system32\\Cscript scregedit.wsf /AU 4 Net start wuauserv`.\r\n",
+            " Run the following command: `Wusa <updatename>.msu /quiet`.\r\n",
+            " Install the WSUS server role.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q13. When deploying a Windows Server as a print server, which role needs to be installed?",
+        "options": [
+            " Print Services\r\n",
+            " File Services\r\n",
+            " Print and Document Services\r\n",
+            " Print Server\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q14. Which type of DNS record is NOT specifically associated with an AD domain controller?",
+        "options": [
+            " LDAP\r\n",
+            " Kerberos\r\n",
+            " GC\r\n",
+            " PTR\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q15. Your Hyper-V server has two physical disks installed, Disk 1 is a C: drive that hosts the Windows system files, and disk 2 is a D: drive that has no data. You need to connect the D: drive to a newly created VM using a pass-through disk configuration. What is true about the D: drive?",
+        "options": [
+            " The physical disk must be in a RAID 6 configuration.\r\n",
+            " The physical disk must be reformatted.\r\n",
+            " The physical disk must be offline.\r\n",
+            " The physical disk must use iSCSI.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q16. Which Windows Server technology enables replication of volumes between servers or clusters for disaster recovery?",
+        "options": [
+            " Storage Replica\r\n",
+            " Storage Spaces Direct\r\n",
+            " Stretch Cluster\r\n",
+            " Storage Spaces\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q17. You are setting up new branch that has 50 client computers, all of which have been joined to the existing Active Directory domain. You deployed a DHCP server and were able to log in with your domain admin credentials, however the local clients are not receiving IP addresses. What is the cause of this issue?",
+        "options": [
+            " The DHCP server is not part of the DHCP Servers OU in AD.\r\n",
+            " The DHCP server has not been authorized.\r\n",
+            " Your domain admin account is not part of the local computer's Administrators group.\r\n",
+            " The DHCP server is not part of the AD domain.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q18. You want to verify that a DHCP server has been authorized use in Active Directory. Which cmdlet do you run in Windows PowerShell?",
+        "options": [
+            " Add-DhcpServerInDC\r\n",
+            " Get-DhcpServerInDC\r\n",
+            " Get-WindowsFeature DHCP\r\n",
+            " Instä11-WindowsFeature DHCP\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q19. You log in to the domain controller to manage some user and computer accounts in Active Directory (AS) and you cannot find the AD tools. To resolve this using the Add Roles and Features Wizard, which feature would you install without any unnecessary services?",
+        "options": [
+            " Hyper-V Management Tools\r\n",
+            " Remove Server Administration Tools\r\n",
+            " Active Directory Rights Management Services\r\n",
+            " AD DS and AD LDS Tools\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q20. You deploy Windows Server 2012 R2 server as a VPN server and must configure new firewall rules for workstation connections. Which command do you use to configure the new rules with the least amount of effort?",
+        "options": [
+            " Use dism.exe from the command prompt.\r\n",
+            " Use dsadd.exe from the command prompt.\r\n",
+            " Use the New-NetFirewallRule command in PowerShell.\r\n",
+            " use the Enable-NetFirewallRule in PowerShell.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q21. A basic DHCP server can provide clients with an IP address, subnet mask, default gateway, DNS IP address. and what other IP address?",
+        "options": [
+            " file server\r\n",
+            " WINS server\r\n",
+            " WSUS\r\n",
+            " proxy server\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q22. When setting up a disaster recovery plan for your Hyper-V virtual machines in a System Center Virtual Machine Manager (VMM) cloud, what happens during the initial replication?",
+        "options": [
+            " A Hyper-V VM snapshot is taken.\r\n",
+            " Delta replication begins.\r\n",
+            " Delta disk changes are logged and merged with the parent disk.\r\n",
+            " Virtual hard disks on the VM are replicated to the secondary site.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q23. You want to secure your Windows server so the built-in web browser can navigate only to sites listed in Internet Explorer's 'trusted sites' list. How can you configure this security capability?",
+        "options": [
+            " Go to the Manager and enable IE Enhanced Security Configuration.\r\n",
+            " Go to Internet Explorer's Internet Options end add unauthorized website URLs te the 'restricted sites' list.\r\n",
+            " Go to Internet Explorer's Internet Options and add authorized website URLs to the 'trusted sites' list.\r\n",
+            " Go to the Control Panel and enable user Account Control.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q24. After adding a network printer to the Windows print server, you try to add the printer to a Windows 8 desktop client. While typing the network path to the new printer, you are unable to find it. Why is the new network printer unavailable for selection?",
+        "options": [
+            " You did not add the printer drivers to the print server.\r\n",
+            " You did not select the Share the Printer check box.\r\n",
+            " You need to re-add the printer to the Print Management console.\r\n",
+            " The printer lost connection to the network.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q25. You built a container image on Nano Server. The container image has multiple layers, including a custom application built for your company, and your development team pushed the image to your Azure image registry. What happens if you attempt to pull that image to a new server with previously downloaded OS images?",
+        "options": [
+            " Your custom layers will be pulled from your Azure registry and you will receive an notifying you of the missing base image.\r\n",
+            " You will receive an notifying you of the missing base image and you will not be allowed to pull the image.\r\n",
+            " All layers will be downloaded from your Azure registry.\r\n",
+            " The base OS image layers will automatically be pulled from Microsoft's registry at Docker Hub, and your custom layers will be pulled from your Azure registry.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q26. You need to configure your DHCP server to deny certain client MAC addresses receiving an IP address. Where do you configure this setting?",
+        "options": [
+            " Filters folder\r\n",
+            " Policies folder\r\n",
+            " Scope Default folder\r\n",
+            " Scope Options folder\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q27. Where can you go to restore deleted objects in Active Directory without the use of Microsoft PowerShell or ldp.exe?",
+        "options": [
+            " Active Directory Administrative Center\r\n",
+            " Active Directory Domains and Trusts\r\n",
+            " Active Directory and Computers\r\n",
+            " Active Directory Sites and Services\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q28. You have a running Active Directory Certificate Services (AD CS) server and need to back up the certificate databases and private keys. How do you accomplish this?",
+        "options": [
+            " Use the certutil.exe command.\r\n",
+            " Schedule a full backup of the server.\r\n",
+            " Perform a direct copy of database files and private keys to a file share.\r\n",
+            " Schedule an incremental backup of the server.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q29. You must configure set of three DNS IP addresses to be given to clients that receive IP configuration from your DHCP server. The DNS IP will apply to all DHCP created on the server. Where on your DHCP do you configure this setting?",
+        "options": [
+            " Server Options\r\n",
+            " Scope Options\r\n",
+            " Scope Clients\r\n",
+            " Policies\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q30. You are working toward managing cross-forest certificate enrollment deployment and need to copy objects in the source forest to the target forest. How do you keep the source and target forest synchronized?",
+        "options": [
+            " storage replication\r\n",
+            " pkisync.ps1\r\n",
+            " site replication\r\n",
+            " certificate templates\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q31. A company IIS server will host the corporate site, which is accessible only by company computers. You need to configure this website to SSL. You obtain certificate to install on the server. Into which certificate store should you import the server's certificate?",
+        "options": [
+            " Trusted Root Certification Authorities under Local Computer\r\n",
+            " Trusted Root Certification Authorities under Current User\r\n",
+            " Personal under Local Computer\r\n",
+            " Client Authentication Computer\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    null,
+    {
+        "query": " Q33. A domain GPO must apply to users based on the location of the computer to which they are logging in. You set up this ability by using which group policy feature?",
+        "options": [
+            " inheritance\r\n",
+            " administrative\r\n",
+            " loopback\r\n",
+            " filter\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q34. You are planning to install a SAN that will utilize iSCSI storage. You want to provide automatic discovery, management and configuration of iSCSI devices. After running the Get-WindowsFeature \\* PowerShell command, which should you install?",
+        "options": [
+            " Network Load Balancing\r\n",
+            " EnhancedStorage\r\n",
+            " iSNS\r\n",
+            " Multipath IO\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    null,
+    {
+        "query": " Q36. When installing the AD DS server role, which will NOT be installed as part of the requited features and services for AD DS to run?",
+        "options": [
+            " DFS Replication\r\n",
+            " DFS Namespaces\r\n",
+            " Active Directory Lightweight Directory Services\r\n",
+            " File Replication services\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q37. Which is NOT a reason to deploy a DHCP super scope in your network?",
+        "options": [
+            " The current address pool is almost depleted and more clients will added.\r\n",
+            " Clients will be migrated to a new scope in a phased approach.\r\n",
+            " More than one DHCP server wants to manage separate logical IP networks on the same physical network segment.\r\n",
+            " A proven failover option is required so clients are always connected.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q38. You prestaged a computer in Active Directory in a domain controller at company headquarters. After 30 minutes, that new computer object is still not available at the branch office domain What should you run from prompt to get a summary of the AD replication status in your domain from the perspective of all domain controllers?",
+        "options": [
+            " `repadmin /replsum`\r\n",
+            " `repadmin /showrepl *`\r\n",
+            " `ntdsutil.exe`\r\n",
+            " `repadmin /queue`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q39. You currently have a DHCP server issuing addresses to clients. Which task should you perform first to set up your DHCP server to dynamically issue addresses to clients on the network?",
+        "options": [
+            " Add IPv6 scope.\r\n",
+            " Configure an IPv6 address for the interface on the DHCP server.\r\n",
+            " Set up Windows client configuration.\r\n",
+            " Install the DHCPv6 server role.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q40. In the Add Roles and Features Wizard window, you are unable to remove Active Directory domain Services—the check box is greyed out. How can you remove AC DS from a Windows Server 2012 R2?",
+        "options": [
+            " Click Next and review the Features section.\r\n",
+            " Click Previous choose a different server.\r\n",
+            " Click Cancel and restart the server.\r\n",
+            " Click Cancel and open the Remove Roles and Features Wizard.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    null,
+    {
+        "query": " Q42. The first ot root server in a PKI must have the Active Directory Certificate Services installed running which role service?",
+        "options": [
+            " Certification Authority Web Enrollment\r\n",
+            " Certificate Authority\r\n",
+            " Network Device Enrollment Service\r\n",
+            " Online Responder\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q43. You have shared folder on your FILESVR01 server. You want to be notified vie email when files are saved in the folder. How do you automate this task?",
+        "options": [
+            " Use Storage Reports.\r\n",
+            " Use File Management Tasks.\r\n",
+            " Use Quota Management.\r\n",
+            " Use File Screen Management.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q44. What you use to implement a secure hardware store for your CA keys?",
+        "options": [
+            " storage area network\r\n",
+            " network attached storage\r\n",
+            " hardware security module\r\n",
+            " encrypted hard drive\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q45. You are deploying a highly available file server using a Hyper-V cluster configuration. After creating the cluster, why must you add d disk as a cluster shared volume (CSV)?",
+        "options": [
+            " to provide nodes in cluster independent VMs slot age location\r\n",
+            " to implement fault tolerance zero downtime for the VM\r\n",
+            " to protect data from loss\r\n",
+            " to prevent nodes in a cluster from accessing a storage location\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q46. When setting up a new RADIUS client, what piece of information verifies a secure and trusted connection with the RADIUS server?",
+        "options": [
+            " shared secret\r\n",
+            " hash key\r\n",
+            " vendor name availability\r\n",
+            " authentication methods\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q47. You run a script to encrypt a client computer's hard drive with BitLocker and back up the recovery password to Active Directory. When researching the computer object's properties, you cannot find the BitLocker recovery password. What may be the cause?",
+        "options": [
+            " BitLocker Drive Encryption Administration Utilities are not installed on the client computer.\r\n",
+            " BitLocker Drive Encryption Administration Utilities are not installed on the domain controller.\r\n",
+            " BitLocker Drive Encryption Tools are not installed on the domain controller.\r\n",
+            " BitLocker Drive Encryption Tools are not installed on the client computer.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q48. After running the PowerShell cmdlet Add-WindowsFeature Adcs-Cert-Authority -IncludeManagementTool on a Windows Server 2016 server, which command will make it a Root Certificate Authority (CA)?",
+        "options": [
+            " Install-CertificationAuthority\r\n",
+            " Install-CertificationAuthority -CAType RootCA\r\n",
+            " Install-AdcsCertificationAuthority -CAType EnterpriseRootCA\r\n",
+            " Install-AdcsCertificationAuthority -CAType RootCA\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q49. A set of computer and user settings can be applied to multiple clients and servers in a domain through the use of `___`.",
+        "options": [
+            " Group Policy Objects\r\n",
+            " Microsoft Management Console\r\n",
+            " Users and Groups\r\n",
+            " Computer Objects\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q50. What is the Microsoft implementation of a RADIUS server?",
+        "options": [
+            " IP address Management (IPAM) Server\r\n",
+            " Network Policy Server (NPS)\r\n",
+            " Network Load Balancing\r\n",
+            " Web Server (IIS)\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q51. After installing the active directory domain services role to your windows server 2016 OS, how do you promote the server to a domain controller using the GUI?",
+        "options": [
+            " Open mmc.exe\r\n",
+            " Run dcpromo.exe\r\n",
+            " Click Add Roles and Features.\r\n",
+            " Click the notification flag in the Server Manager windows.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q52. You want to host two virtual machines on the same physical server. Their memory settings in Hyper-V are set to optimize the use of physical memory for each virtual machine. What makes this optimization possible?",
+        "options": [
+            " dynamic memory\r\n",
+            " memory buffer\r\n",
+            " virtual memory\r\n",
+            " ReadyBoost\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    null,
+    {
+        "query": " Q54. Group policy objects are not being applied to domain controllers because the Default Domain Controllers and Default Domain group policies are corrupt. What can you run in a command prompt to recover them?",
+        "options": [
+            " dcgpofix.exe\r\n",
+            " dcdiagfix.exe\r\n",
+            " ntdsutil.exe\r\n",
+            " dcpromo.exe\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    null,
+    null,
+    {
+        "query": " Q57. You want to ensure there are redundant DHCP services avaliable for your network. What should you set up on your server to make this possible?",
+        "options": [
+            " create new multicast scope\r\n",
+            " create new superscope\r\n",
+            " replicate failover scopes\r\n",
+            " configure failover\r\n\r\n[ref](https://biztechmagazine.com/article/2013/03/4-solutions-ensuring-dhcp-availability)\r\n"
+        ],
+        "correctAns": 4
+    }
+]

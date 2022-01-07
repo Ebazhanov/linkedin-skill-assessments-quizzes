@@ -1,1 +1,1166 @@
-[{"query":" Q1. Which operator returns true if the two compared values are not equal?","options":[" `<>`\r\n"," `~`\r\n"," `==!`\r\n"," `!==`\r\n\r\n"],"correctAns":4},{"query":" Q2. How is a forEach statement different from a for statement?","options":[" Only a for statement uses a callback function.\r\n"," A for statement is generic, but a forEach statement can be used only with an array.\r\n"," Only a forEach statement lets you specify your own iterator.\r\n"," A forEach statement is generic, but a for statement can be used only with an array.\r\n\r\n"],"correctAns":2},{"query":" Q3. Review the code below. Which statement calls the addTax function and passes 50 as an argument? How would you use this function to find out how much tax should be paid on \\$50?","code":"js\r\nfunction addTax(total) {\r\n  return total * 1.05;\r\n}\r\n","options":[" addTax = 50;\r\n"," return addTax 50;\r\n"," addTax(50);\r\n"," addTax 50;\r\n\r\n"],"correctAns":3},{"query":" Q4. Which statement is the correct way to create a variable called rate and assign it the value 100?","options":[" let rate = 100;\r\n"," let 100 = rate;\r\n"," 100 = let rate;\r\n"," rate = 100;\r\n\r\n"],"correctAns":1},{"query":" Q5. Which statement creates a new object using the Person constructor? Which statement creates a new Person object called \"student\"?","options":[" var student = new Person();\r\n"," var student = construct Person;\r\n"," var student = Person();\r\n"," var student = construct Person();\r\n\r\n"],"correctAns":1},{"query":" Q6. When would the final statement in the code shown be logged to the console? When would 'results shown' be logged to the console?","code":"js\r\nlet modal = document.querySelector('#result');\r\nsetTimeout(function(){\r\n    modal.classList.remove('hidden);\r\n}, 10000);\r\nconsole.log('Results shown');\r\n","options":[" after 10 second\r\n"," after results are received from the HTTP request\r\n"," after 10000 seconds\r\n"," immediately\r\n\r\n"],"correctAns":4},{"query":" Q7. Which snippet could you add to this code to print \"food\" to the console?","code":"\r\nclass Animal {\r\n  static belly = [];\r\n  eat () {\r\n    Animal.belly.push(\"food\");\r\n    }\r\n}\r\nlet a = new Animal();\r\na.eat();\r\nconsole.log(/* Snippet Here */); //Prints food\r\n","options":[" `a.prototype.belly[0]`\r\n"," `Object.getPrototype0f (a).belly[0]`\r\n"," `Animal.belly[0]`\r\n"," `a.belly[0]`\r\n\r\n"],"correctAns":3},{"query":" Q8. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?","code":"js\r\nfor (var i = 1; i <= 4; i++) {\r\n  setTimeout(function () {\r\n    console.log(i);\r\n  }, i * 10000);\r\n}\r\n","options":["\r\n\r\n```javascript\r\nfor (var i = 1; i <= 4; i++) {\r\n  (function (i) {\r\n    setTimeout(function () {\r\n      console.log(j);\r\n    }, j * 1000);\r\n  })(j);\r\n}\r\n```\r\n\r\n","\r\n\r\n```javascript\r\nwhile (var i=1; i<=4; i++) {\r\n  setTimeout(function() {\r\n    console.log(i);\r\n    }, i*1000);\r\n}\r\n```\r\n\r\n","\r\n\r\n```javascript\r\nfor (var i = 1; i <= 4; i++) {\r\n  (function (j) {\r\n    setTimeout(function () {\r\n      console.log(j);\r\n    }, j * 1000);\r\n  })(i);\r\n}\r\n```\r\n\r\n","\r\n\r\n```javascript\r\nfor (var j = 1; j <= 4; j++) {\r\n  setTimeout(function () {\r\n    console.log(j);\r\n  }, j * 1000);\r\n}\r\n```\r\n\r\n"],"correctAns":3},{"query":" Q9. How does a function create a closure?","options":[" It reloads the document whenever the value changes.\r\n"," It returns a reference to a variable in its parent scope.\r\n"," It completes execution without returning.\r\n"," It copies a local variable to the global scope.\r\n\r\n"],"correctAns":2},{"query":" Q10. Which statement creates a new function called discountPrice?","code":null,"options":["\r\n\r\n```js\r\nlet discountPrice = function (price) {\r\n  return price * 0.85;\r\n};\r\n```\r\n\r\n","\r\n\r\n```js\r\nlet discountPrice(price) {\r\n  return price * 0.85;\r\n};\r\n```\r\n\r\n","\r\n\r\n```js\r\nlet function = discountPrice(price) {\r\n  return price * 0.85;\r\n};\r\n```\r\n\r\n","\r\n\r\n```js\r\ndiscountPrice = function (price) {\r\n  return price * 0.85;\r\n};\r\n```\r\n\r\n"],"correctAns":1},{"query":" Q11. What is the result in the console of running the code shown?","code":"js\r\nvar Storm = function () {};\r\nStorm.prototype.precip = 'rain';\r\nvar WinterStorm = function () {};\r\nWinterStorm.prototype = new Storm();\r\nWinterStorm.prototype.precip = 'snow';\r\nvar bob = new WinterStorm();\r\nconsole.log(bob.precip);\r\n","options":[" Storm()\r\n"," undefined\r\n"," 'rain'\r\n"," 'snow'\r\n\r\n"],"correctAns":4},{"query":" Q12. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?","options":[" /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/\r\n"," /\\d\\d:\\d\\d:\\d\\d/\r\n"," /[0-9]+:[0-9]+:[0-9]+/\r\n"," / : : /\r\n\r\nNOTE: The first three are all partially correct and will match digits, but the **second option is the most correct** because it will **only** match **2 digit** time values (12:00:32). The first option would have worked if the repitions range looked like `[0-9]{2}`, however because of the **comma** `[0-9]{2,}` it will select 2 **or more** digits (120:000:321). The third option will any range of time digits, single _and_ multiple (meaning `1:2:3` will also match).\r\n\r\n**More resources:**\r\n\r\n- [Repeating characters](https://regexone.com/lesson/repeating_characters)\r\n- [Kleene operators](https://regexone.com/lesson/kleene_operators)\r\n\r\n"],"correctAns":2},{"query":" Q13. What is the result in the console of running this code?","code":"js\r\n'use strict';\r\nfunction logThis() {\r\n  this.desc = 'logger';\r\n  console.log(this);\r\n}\r\nnew logThis();\r\n","options":[" undefined\r\n"," window\r\n"," {desc: \"logger\"}\r\n"," function\r\n\r\n"],"correctAns":3},{"query":" Q14. How would you reference the text 'avenue' in the code shown?","code":"js\r\nlet roadTypes = ['street', 'road', 'avenue', 'circle'];\r\n","options":[" roadTypes.2\r\n"," roadTypes\\[3\\]\r\n"," roadTypes.3\r\n"," roadTypes\\[2\\]\r\n\r\n"],"correctAns":4},{"query":" Q15. What is the result of running this statement?","code":"javascript\r\nconsole.log(typeof 42);\r\n","options":[" 'float'\r\n"," 'value'\r\n"," 'number'\r\n"," 'integer'\r\n\r\n"],"correctAns":3},{"query":" Q16. Which property references the DOM object that dispatched an event?","options":[" self\r\n"," object\r\n"," target\r\n"," source\r\n\r\n"],"correctAns":3},{"query":" Q17. You're adding error handling to the code shown. Which code would you include within the if statement to specify an error message?","code":"js\r\nfunction addNumbers(x, y) {\r\n  if (isNaN(x) || isNaN(y)) {\r\n  }\r\n}\r\n","options":[" exception('One or both parameters are not numbers')\r\n"," catch('One or both parameters are not numbers')\r\n"," error('One or both parameters are not numbers')\r\n"," throw('One or both parameters are not numbers')\r\n\r\n"],"correctAns":4},{"query":" Q18. Which method converts JSON data to a JavaScript object?","options":[" JSON.fromString();\r\n"," JSON.parse()\r\n"," JSON.toObject()\r\n"," JSON.stringify()\r\n\r\n"],"correctAns":2},{"query":" Q19. When would you use a conditional statement?","options":[" When you want to reuse a set of statements multiple times.\r\n"," When you want your code to choose between multiple options.\r\n"," When you want to group data together.\r\n"," When you want to loop through a group of statement.\r\n\r\n"],"correctAns":2},{"query":" Q20. What would be the result in the console of running this code?","code":"js\r\nfor (var i = 0; i < 5; i++) {\r\n  console.log(i);\r\n}\r\n","options":[" 12345\r\n"," 1234\r\n"," 01234\r\n"," 012345\r\n\r\n"],"correctAns":3},{"query":" Q21. Which Object method returns an iterable that can be used to iterate over the properties of an object?","options":[" Object.get()\r\n"," Object.loop()\r\n"," Object.each()\r\n"," Object.keys()\r\n\r\n"],"correctAns":4},{"query":" Q22. What will be logged to the console?","code":"js\r\nvar a = ['dog', 'cat', 'hen'];\r\na[100] = 'fox';\r\nconsole.log(a.length);\r\n","options":[" 101\r\n"," 3\r\n"," 4\r\n"," 100\r\n\r\n"],"correctAns":1},{"query":" Q23. What is one difference between collections created with Map and collections created with Object?","options":[" You can iterate over values in a Map in their insertion order.\r\n"," You can count the records in a Map with a single method call.\r\n"," Keys in Maps can be strings.\r\n"," You can access values in a Map without iterating over the whole collection.\r\n\r\n**Explanation:** `Map.prototype.size returns the number of elements in a Map, whereas Object does not have a built-in method to return its size.`\r\n"],"correctAns":2},{"query":" Q24. What is the value of dessert.type after executing this code?","code":"js\r\nconst dessert = { type: 'pie' };\r\ndessert.type = 'pudding';\r\n","options":[" pie\r\n"," The code will throw an error.\r\n"," pudding\r\n"," undefined\r\n\r\n"],"correctAns":3},{"query":" Q25. 0 && hi","options":[" ReferenceError\r\n"," True\r\n"," 0\r\n"," false\r\n\r\n"],"correctAns":3},{"query":" Q26. Which of the following operators can be used to do a short-circuit evaluation?","options":[" \\++\r\n"," \\--\r\n"," \\==\r\n"," \\|\\|\r\n\r\n"],"correctAns":4},{"query":" Q27. Which statement sets the Person constructor as the parent of the Student constructor in the prototype chain?","options":[" Student.parent = Person;\r\n"," Student.prototype = new Person();\r\n"," Student.prototype = Person;\r\n"," Student.prototype = Person();\r\n\r\n"],"correctAns":2},{"query":" Q28. Why would you include a \"use strict\" statement in a JavaScript file?","options":[" to tell parsers to interpret your JavaScript syntax loosely\r\n"," to tell parsers to enforce all JavaScript syntax rules when processing your code\r\n"," to instruct the browser to automatically fix any errors it finds in the code\r\n"," to enable ES6 features in your code\r\n\r\n"],"correctAns":2},{"query":" Q29. Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?","options":[" all of them\r\n"," const\r\n"," var\r\n"," let\r\n\r\n"],"correctAns":3},{"query":" Q30. Which of the following values is not a Boolean false?","options":[" Boolean(0)\r\n"," Boolean(\"\")\r\n"," Boolean(NaN)\r\n"," Boolean(\"false\")\r\n\r\n"],"correctAns":4},{"query":" Q31. Which of the following is not a keyword in JavaScript?","options":[" this\r\n"," catch\r\n"," function\r\n"," array\r\n\r\n"],"correctAns":4},{"query":" Q32. Which variable is an implicit parameter for every function in JavaScript?","options":[" Arguments\r\n"," args\r\n"," argsArray\r\n"," argumentsList\r\n\r\n"],"correctAns":1},{"query":" Q33. For the following class, how do you get the value of 42 from an instance of X?","code":"js\r\nclass X {\r\n  get Y() {\r\n    return 42;\r\n  }\r\n}\r\nvar x = new X();\r\n","options":[" x.get('Y')\r\n"," x.Y\r\n"," x.Y()\r\n"," x.get().Y\r\n\r\n"],"correctAns":2},{"query":" Q34. What is the result of running this code?","code":"js\r\nsum(10, 20);\r\ndiff(10, 20);\r\nfunction sum(x, y) {\r\n  return x + y;\r\n}\r\n\r\nlet diff = function (x, y) {\r\n  return x - y;\r\n};\r\n","options":[" 30, ReferenceError, 30, -10\r\n"," 30, ReferenceError\r\n"," 30, -10\r\n"," ReferenceError, -10\r\n\r\n"],"correctAns":2},{"query":" Q35. Why is it usually better to work with Objects instead of Arrays to store a collection of records?","options":[" Objects are more efficient in terms of storage.\r\n"," Adding a record to an object is significantly faster than pushing a record into an array.\r\n"," Most operations involve looking up a record, and objects can do that better than arrays.\r\n"," Working with objects makes the code more readable.\r\n\r\n**Explanation:** Records in an object can be retrieved using their key which can be any given value (e.g. an employee ID, a city name, etc), whereas to retrieve a record from an array we need to know its index.\r\n"],"correctAns":3},{"query":" Q36. Which statement is true about the \"async\" attribute for the HTML script tag?","options":[" It can be used for both internal and external JavaScript code.\r\n"," It can be used only for internal JavaScript code.\r\n"," It can be used only for internal or external JavaScript code that exports a promise.\r\n"," It can be used only for external JavaScript code.\r\n\r\n"],"correctAns":4},{"query":" Q37. How do you import the lodash library making it top-level Api available as the \"\\_\" variable?","options":[" `import _ from 'lodash';`\r\n"," `import 'lodash' as _;`\r\n"," `import '_' from 'lodash;`\r\n"," `import lodash as _ from 'lodash';`\r\n\r\n"],"correctAns":1},{"query":" Q38. What does the following expression evaluate to?","code":"js\r\n[] == [];\r\n","options":[" True\r\n"," undefined\r\n"," []\r\n"," False\r\n\r\n"],"correctAns":4},{"query":" Q39. What is the name of a function whose execution can be suspended and resumed at a later point? What type of function can have its execution suspended and then resumed at a later point?","options":[" Generator function\r\n"," Arrow function\r\n"," Async/ Await function\r\n"," Promise function\r\n\r\n"],"correctAns":1},{"query":" Q40. What will this code print?","code":"js\r\nvar v = 1;\r\nvar f1 = function () {\r\n  console.log(v);\r\n};\r\n\r\nvar f2 = function () {\r\n  var v = 2;\r\n  f1();\r\n};\r\n\r\nf2();\r\n","options":[" 2\r\n"," 1\r\n"," Nothing - this code will throw an error.\r\n"," undefined\r\n\r\n"],"correctAns":2},{"query":" Q41. Which statement is true about Functional Programming?","options":[" Every object in the program has to be a function.\r\n"," Code is grouped with the state it modifies.\r\n"," Date fields and methods are kept in units.\r\n"," Side effects are not allowed.\r\n\r\n"],"correctAns":4},{"query":" Q42. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?","options":[" You are calling a method named reduce on an object that's declared but has no value.\r\n"," You are calling a method named reduce on an object that does not exist.\r\n"," You are calling a method named reduce on an empty array.\r\n"," You are calling a method named reduce on an object that's has a null value.\r\n\r\n**Explanation**: `You cannot invoke reduce on undefined object... It will throw (yourObject is not Defined...)`\r\n\r\n"],"correctAns":1},{"query":" Q43. How many prototype objects are in the chain for the following array?","options":[" 3\r\n"," 2\r\n"," 0\r\n"," 1\r\n\r\n"],"correctAns":2},{"query":" Q44. Which choice is _not_ a unary operator?","options":[" typeof\r\n"," delete\r\n"," instanceof\r\n"," void\r\n\r\n"],"correctAns":3},{"query":" Q45. What type of scope does the end variable have in the code shown?","code":"javascript\r\nvar start = 1;\r\nif (start === 1) {\r\n  let end = 2;\r\n}\r\n","options":[" conditional\r\n"," block\r\n"," global\r\n"," function\r\n\r\n"],"correctAns":2},{"query":" Q46. What will the value of y be in this code:","code":"js\r\nconst x = 6 % 2;\r\nconst y = x ? 'One' : 'Two';\r\n","options":[" One\r\n"," undefined\r\n"," TRUE\r\n"," Two\r\n\r\n"],"correctAns":4},{"query":" Q47. Which keyword is used to create an error?","options":[" throw\r\n"," exception\r\n"," catch\r\n"," error\r\n\r\n"],"correctAns":1},{"query":" Q48. What's one difference between the async and defer attributes of the HTML script tag?","options":[" The defer attribute can work synchronously.\r\n"," The defer attribute works only with generators.\r\n"," The defer attribute works only with promises.\r\n"," The defer attribute will asynchronously load the scripts in order.\r\n\r\n"],"correctAns":4},{"query":" Q49. The following program has a problem. What is it?","code":"js\r\nvar a;\r\nvar b = (a = 3) ? true : false;\r\n","options":[" The condition in the ternary is using the assignment operator.\r\n"," You can't define a variable without initializing it.\r\n"," You can't use a ternary in the right-hand side of an assignment operator.\r\n"," The code is using the deprecated var keyword.\r\n\r\n"],"correctAns":1},{"query":" Q50. Which statement references the DOM node created by the code shown?","code":"html\r\n<p class=\"pull\">lorem ipsum</p>\r\n","options":[" `Document.querySelector('class.pull')`\r\n"," `document.querySelector('.pull');`\r\n"," `Document.querySelector('pull')`\r\n"," `Document.querySelector('#pull')`\r\n\r\n"],"correctAns":2},{"query":" Q51. What value does this code return?","code":"js\r\nlet answer = true;\r\nif (answer === false) {\r\n  return 0;\r\n} else {\r\n  return 10;\r\n}\r\n","options":[" 10\r\n"," true\r\n"," false\r\n"," 0\r\n\r\n"],"correctAns":1},{"query":" Q52. What is the result in the console of running the code shown?","code":"js\r\nvar start = 1;\r\nfunction setEnd() {\r\n  var end = 10;\r\n}\r\nsetEnd();\r\nconsole.log(end);\r\n","options":[" 10\r\n"," 0\r\n"," ReferenceError\r\n"," undefined\r\n\r\n"],"correctAns":3},{"query":" Q53. What will this code log in the console?","code":"js\r\nfunction sayHello() {\r\n  console.log('hello');\r\n}\r\n\r\nconsole.log(sayHello.prototype);\r\n","options":[" undefined\r\n"," \"hello\"\r\n"," an object with a constructor property\r\n"," an error message\r\n\r\n"],"correctAns":3},{"query":" Q54. Which collection object allows unique value to be inserted only once?","options":[" Object\r\n"," Set\r\n"," Array\r\n"," Map\r\n\r\n"],"correctAns":2},{"query":" Q55. What two values will this code print?","code":"js\r\nfunction printA() {\r\n  console.log(answer);\r\n  var answer = 1;\r\n}\r\nprintA();\r\nprintA();\r\n","options":[" `1` then `1`\r\n"," `1` then `undefined`\r\n"," `undefined` then `undefined`\r\n"," `undefined` then `1`\r\n\r\n"],"correctAns":3},{"query":" Q56. How does the `forEach()` method differ from a `for` statement?","options":[" forEach allows you to specify your own iterator, whereas for does not.\r\n"," forEach can be used only with strings, whereas for can be used with additional data types.\r\n"," forEach can be used only with an array, whereas for can be used with additional data types.\r\n"," for loops can be nested; whereas forEach loops cannot.\r\n\r\n"],"correctAns":3},{"query":" Q57. Which choice is an incorrect way to define an arrow function that returns an empty object?","options":[" => ({})\r\n"," => {}\r\n"," => { return {};}\r\n"," => (({}))\r\n\r\n"],"correctAns":2},{"query":" Q58. Why might you choose to make your code asynchronous?","options":[" to start tasks that might take some time without blocking subsequent tasks from executing immediately\r\n"," to ensure that tasks further down in your code are not initiated until earlier tasks have completed\r\n"," to make your code faster\r\n"," to ensure that the call stack maintains a LIFO (Last in, First Out) structure\r\n\r\n**EXPLANATION:** \"to ensure that tasks further down in your code are not initiated until earlier tasks have completed\" you use the normal (synchronous) flow where each command is executed sequentially. Asynchronous code allows you to break this sequence: start a long running function (AJAX call to an external service) and continue running the rest of the code in parallel.\r\n\r\n"],"correctAns":1},{"query":" Q59. Which expression evaluates to true?","options":[" `[3] == [3]`\r\n"," `3 == '3'`\r\n"," `3 != '3'`\r\n"," `3 === '3'`\r\n\r\n"],"correctAns":2},{"query":" Q60. Which of these is a valid variable name?","options":[" 5thItem\r\n"," firstName\r\n"," grand total\r\n"," function\r\n\r\n"],"correctAns":2},{"query":" Q61. Which method cancels event default behavior?","options":[" cancel()\r\n"," stop()\r\n"," preventDefault()\r\n"," prevent()\r\n\r\n"],"correctAns":3},{"query":" Q62. Which method do you use to attach one DOM node to another?","options":[" attachNode()\r\n"," getNode()\r\n"," querySelector()\r\n"," appendChild()\r\n\r\n"],"correctAns":4},{"query":" Q63. Which statement is used to skip iteration of the loop?","options":[" break\r\n"," pass\r\n"," skip\r\n"," continue\r\n\r\n"],"correctAns":4},{"query":" Q64. Which choice is valid example for an arrow function?","options":[" (a,b) => c\r\n"," a, b => {return c;}\r\n"," a, b => c\r\n"," { a, b } => c\r\n\r\n"],"correctAns":1},{"query":" Q65. Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior?","options":[" class\r\n"," generator function\r\n"," map\r\n"," proxy\r\n\r\n"],"correctAns":1},{"query":" Q66. How do you add a comment to JavaScript code?","options":[" `! This is a comment`\r\n"," `# This is a comment`\r\n"," `\\\\ This is a comment`\r\n"," `// This is a comment`\r\n\r\n"],"correctAns":4},{"query":" Q67. If you attempt to call a value as a function but the value is not a function, what kind of error would you get?","options":[" TypeError\r\n"," SystemError\r\n"," SyntaxError\r\n"," LogicError\r\n\r\n"],"correctAns":1},{"query":" Q68. Which method is called automatically when an object is initialized?","options":[" create()\r\n"," new()\r\n"," constructor()\r\n"," init()\r\n\r\n"],"correctAns":3},{"query":" Q69. What is the result of running the statement shown?","code":"javascript\r\nlet a = 5;\r\nconsole.log(++a);\r\n","options":[" 4\r\n"," 10\r\n"," 6\r\n"," 5\r\n\r\n"],"correctAns":3},{"query":" Q70. You've written the event listener shown below for a form button, but each time you click the button, the page reloads. Which statement would stop this from happening?","code":"javascript\r\nbutton.addEventListener(\r\n  'click',\r\n  function (e) {\r\n    button.className = 'clicked';\r\n  },\r\n  false,\r\n);\r\n","options":[" e.blockReload();\r\n"," button.preventDefault();\r\n"," button.blockReload();\r\n"," e.preventDefault();\r\n\r\n"],"correctAns":4},{"query":" Q71. Which statement represents the starting code converted to an IIFE?","options":[" `function() { console.log('lorem ipsum'); }()();`\r\n"," `function() { console.log('lorem ipsum'); }();`\r\n"," `(function() { console.log('lorem ipsum'); })();`\r\n\r\n"],"correctAns":3},{"query":" Q72. Which statement selects all img elements in the DOM tree?","options":[" `Document.querySelector('img')`\r\n"," `Document.querySelectorAll('<img>')`\r\n"," `Document.querySelectorAll('img')`\r\n"," `Document.querySelector('<img>')`\r\n\r\n"],"correctAns":3},{"query":" Q73. Why would you choose an asynchronous structure for your code?","options":[" To use ES6 syntax\r\n"," To start tasks that might take some time without blocking subsequent tasks from executing immediately\r\n"," To ensure that parsers enforce all JavaScript syntax rules when processing your code\r\n"," To ensure that tasks further down in your code aren't initiated until earlier tasks have completed\r\n\r\n"],"correctAns":2},{"query":" Q74. What is the HTTP verb to request the contents of an existing resource?","options":[" DELETE\r\n"," GET\r\n"," PATCH\r\n"," POST\r\n\r\n"],"correctAns":2},{"query":" Q75. Which event is fired on a text field within a form when a user tabs to it, or clicks or touches it?","options":[" focus\r\n"," blur\r\n"," hover\r\n"," enter\r\n\r\n"],"correctAns":1},{"query":" Q76. What is the result in the console of running this code?","code":"javascript\r\nfunction logThis() {\r\n  console.log(this);\r\n}\r\nlogThis();\r\n","options":[" function\r\n"," undefined\r\n"," Function.prototype\r\n"," window\r\n\r\n"],"correctAns":4},{"query":" Q77. Which class-based component is equivalent to this function component?","code":"javascript\r\nconst Greeting = ({ name }) => <h1>Hello {name}!</h1>;\r\n","options":[" `class Greeting extends React.Component { render() { return <h1>Hello {this.props.name}!</h1>; } }`\r\n"," `class Greeting extends React.Component { constructor() { return <h1>Hello {this.props.name}!</h1>; } }`\r\n"," `class Greeting extends React.Component { <h>Hello {this.props.name}!</h>; } }`\r\n"," `class Greeting extends React.Component { render({ name }) { return <h1>Hello {name}!</h1>; } }`\r\n\r\n"],"correctAns":1},{"query":" Q78. Which class-based lifecycle method would be called at the same time as this effect Hook?","code":"javascript\r\nuseEffect(() => {\r\n  // do things\r\n}, []);\r\n","options":[" componentWillUnmount\r\n"," componentDidUpdate\r\n"," render\r\n"," componentDidMount\r\n\r\n"],"correctAns":4},{"query":" Q79. What is the output of this code?","code":"javascript\r\nvar obj;\r\nconsole.log(obj);\r\n","options":[" ReferenceError: obj is not defined\r\n"," {}\r\n"," undefined\r\n"," null\r\n\r\n"],"correctAns":3},{"query":" Q80. How would you use the TaxCalculator to determine the amount of tax on \\$50?","code":"javascript\r\nclass TaxCalculator {\r\n  static calculate(total) {\r\n    return total * 0.05;\r\n  }\r\n}\r\n","options":[" calculate(50);\r\n"," new TaxCalculator().calculate(\\$50);\r\n"," TaxCalculator.calculate(50);\r\n"," new TaxCalculator().calculate(50);\r\n\r\n"],"correctAns":3},{"query":" Q81. What is wrong with this code?","code":"js\r\nconst foo = {\r\n  bar() {\r\n    console.log('Hello, world!');\r\n  },\r\n  name: 'Albert',\r\n  age: 26,\r\n};\r\n","options":[" The function bar needs to be defined as a key/value pair.\r\n"," Trailing commas are not allowed in JavaScript.\r\n"," Functions cannot be declared as properties of objects.\r\n"," Nothing, there are no errors.\r\n\r\n"],"correctAns":4},{"query":" Q82. What will be logged to the console?","code":null,"options":["\r\n\r\n```\r\nI\r\nJavascript!\r\nlove\r\n```\r\n\r\n","\r\n\r\n```\r\nlove\r\nI\r\nJavascript!\r\n```\r\n\r\n"," The output may change with each execution of code and cannot be determined.\r\n\r\n","\r\n\r\n```\r\nI\r\nlove\r\nJavascript!\r\n```\r\n\r\n"],"correctAns":1},{"query":" Q83. What will this code log to the console?","code":"js\r\nconst foo = [1, 2, 3];\r\nconst [n] = foo;\r\nconsole.log(n);\r\n","options":[" 1\r\n"," undefined\r\n"," NaN\r\n"," Nothing--this is not proper JavaScript syntax and will throw an error.\r\n\r\n"],"correctAns":1},{"query":" Q84. How do you remove the property name from this object?","code":"js\r\nconst foo = {\r\n  name: 'Albert',\r\n};\r\n","options":[" delete name from foo;\r\n"," delete foo.name;\r\n"," del foo.name;\r\n"," remove foo.name;\r\n\r\n"],"correctAns":2},{"query":" Q85. What is the difference between the map() and the forEach() methods on the Array prototype?","options":[" There is no difference.\r\n"," The `forEach()` method returns a single output value, wheras the `map()` method performs operation on each value in the array.\r\n"," The map() methods returns a new array with a transformation applied on each item in the original array, wheras the `forEach()` method iterates through an array with noreturn value.\r\n"," The `forEach()` methods returns a new array with a transformation applied on each item in the original array, wheras the `map()` method iterates through an array with noreturn value.\r\n\r\n"],"correctAns":3},{"query":" Q86. Which concept does this code illustrate?","code":"js\r\nfunction makeAdder(x) {\r\n  return function (y) {\r\n    return x + y;\r\n  };\r\n}\r\n\r\nvar addFive = makeAdder(5);\r\nconsole.log(addFive(3));\r\n","options":[" overloading\r\n"," closure\r\n"," currying\r\n"," overriding\r\n\r\n"],"correctAns":3},{"query":" Q87. Which tag pair is used in HTML to embed JavaScript?","options":[" `<script></script>`\r\n"," `<js></js>`\r\n"," `<javascript></javascript>`\r\n"," `<code></code>`\r\n\r\n"],"correctAns":1},{"query":" Q88. What would be the result in the console of running this code?","code":"js\r\nfor (var i = 0; i < 5; i++) {\r\n  console.log(i);\r\n}\r\n","options":[" 0 1 2 3 4\r\n"," 0 1 2 3 4 5\r\n"," 1 2 3 4\r\n"," 1 2 3 4 5\r\n\r\n"],"correctAns":1},{"query":" Q89. What is the value of dessert.type after executing this code?","code":"js\r\nconst dessert = { type: 'pie' };\r\ndessert.type = 'pudding';\r\n\r\nconst seconds = dessert;\r\nseconds.type = 'fruit';\r\n","options":[" pie\r\n"," fruit\r\n"," undefined\r\n"," pudding\r\n\r\n**Explanation:** `Assigning a variable (such as seconds) to an object (such as dessert) does not create a new object. The seconds variable merely becomes a reference for the dessert object. Any changes made to seconds will also reflect in dessert.`\r\n\r\n"],"correctAns":2},{"query":" Q90. If your app receives data from a third-party API, which HTTP response header must the server specify to allow exceptions to the same-origin policy?","options":[" Security-Mode\r\n"," Access-Control-Allow-Origin\r\n"," Different-Origin\r\n"," Same-Origin\r\n\r\n"],"correctAns":2},{"query":" Q91. What will be logged to the console??","code":"js\r\n'use strict';\r\nfunction logThis() {\r\n  this.desc = 'logger';\r\n  console.log(this);\r\n}\r\nnew logThis();\r\n","options":[" window\r\n"," undefined\r\n"," function\r\n"," {desc: \"logger\"}\r\n\r\n"],"correctAns":4},{"query":" Q92. Which statement is applicable to the defer attribute of the HTML \\<script\\> tag?","options":[" defer causes the script ta be loaded from the backup content delivery network (CDN).\r\n"," defer allows the browser ta continue processing the page while the script loads in the background.\r\n"," defer blacks the browser from processing HTML below the tag until the script is completely loaded.\r\n"," defer lazy loads the script, causing it to download only when it is called by another script on the page.\r\n\r\n**Explanation:** If the defer attribute is set, it specifies that the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing. [HTML \\<script\\> defer Attribute](https://www.w3schools.com/tags/att_script_defer.asp)\r\n\r\n"],"correctAns":2},{"query":" Q93. What will this code print?","code":"js\r\nlet rainForests = ['Amazon', 'Borneo', 'Cerrado', 'Congo'];\r\nrainForests.splice(0, 2);\r\nconsole.log(rainForests);\r\n","options":[" `[\"Amazon\",\"Borneo\",\"Cerrado\",\"Congo\"]`\r\n"," `[\"Cerrado\", \"Congo\"]`\r\n"," `[\"Congo\"]`\r\n"," `[\"Amazon\",\"Borneo\"]`\r\n\r\n"],"correctAns":2},{"query":" Q94. Which missing line would allow you to create five variables(one,two,three,four,five) that correspond to their numerical values (1,2,3,4,5)?","code":"js\r\nconst numbers = [1, 2, 3, 4, 5];\r\n//MISSING LINE\r\n","options":[" `const [one,two,three,four,five]=numbers`\r\n"," `const {one,two,three,four,five}=numbers`\r\n"," `const [one,two,three,four,five]=[numbers]`\r\n"," `const {one,two,three,four,five}={numbers}`\r\n\r\n"],"correctAns":1},{"query":" Q95.","code":"js\r\nconst obj = {\r\n  a: 1,\r\n  b: 2,\r\n  c: 3,\r\n};\r\n\r\nconst obj2 = {\r\n  ...obj,\r\n  a: 0,\r\n};\r\n\r\nconsole.log(obj2.a, obj2.b);\r\n","options":[" Nothing, it will throw an error\r\n"," 0 2\r\n"," undefined 2\r\n"," undefined 2\r\n\r\n"],"correctAns":2},{"query":" Q96. Which line could you add to this code to print \"jaguar\" to the console?","code":"\r\nlet animals = [\"jaguar\",\"eagle\"];\r\n//Missing Line\r\nconsole.log(animals.pop()); //Prints jaguar\r\n","options":[" `animals.filter(e => e === \"jaguar\");`\r\n"," `animals.reverse();`\r\n"," `animals.shift();`\r\n"," `animals.pop();`\r\n\r\n"],"correctAns":4},{"query":" Q97. What line is missing from this code?","code":"js\r\n//Missing Line\r\nfor (var i = 0; i < vowels.length; i++) {\r\n  console.log(vowels[i]);\r\n  //Each letter printed on a separate line as follows;\r\n  //a\r\n  //e\r\n  //i\r\n  //o\r\n  //u\r\n}\r\n","options":[" `let vowels = \"aeiou\".toArray();`\r\n"," `let vowels = Array.of(\"aeiou\");`\r\n"," `let vowels = {\"a\", \"e\", \"i\", \"o\", \"u\"};`\r\n"," `let vowels = \"aeiou\";`\r\n\r\n"],"correctAns":4},{"query":" Q98. What will be logged to the console?","code":"js\r\nconst x = 6 % 2;\r\nconst y = x ? 'One' : 'Two';\r\nconsole.log(y);\r\n","options":[" undefined\r\n"," One\r\n"," true\r\n"," Two\r\n\r\n"],"correctAns":4},{"query":" Q99. How would you access the word It from this multidimensional array?","options":[" `matrix[1[2]]`\r\n"," `matrix[1][1]`\r\n"," `matrix[1,2]`\r\n"," `matrix[1][2]`\r\n\r\n"],"correctAns":2},{"query":" Q100. What does this code do?","code":"js\r\nconst animals = ['Rabbit', 'Dog', 'Cat'];\r\nanimals.unshift('Lizard');\r\n","options":[" It adds \"Lizard\" to the start of the animals array.\r\n"," It adds \"Lizard\" to the end of the animals array.\r\n"," It replaces \"Rabbit\" with \"Lizard\" in the animals array.\r\n"," It replaces \"Cat\" with \"Lizard\" in the animals array.\r\n\r\n"],"correctAns":1},{"query":" Q101. What is the output of this code?","code":"js\r\nlet x = 6 + 3 + '3';\r\nconsole.log(x);\r\n","options":[" 93\r\n"," 12\r\n"," 66\r\n"," 633\r\n\r\n"],"correctAns":1},{"query":" Q102. Which statement can take a single expression as input and then look through a number of choices until one that matches that value is found?","options":[" else\r\n"," when\r\n"," if\r\n"," switch\r\n\r\n"],"correctAns":4},{"query":" Q103. Which statement prints \"roar\" to the console?","code":"\r\nvar sound = \"grunt\";\r\nvar bear = {\r\n  sound: \"roar\"\r\n  };\r\nfunction roar() {\r\n  console.log(this.sound);\r\n}\r\n","options":[" `bear.bind(roar);`\r\n"," `roar.bind(bear);`\r\n"," `roar.apply(bear);`\r\n"," `bear[roar]();`\r\n\r\n"],"correctAns":3},{"query":" Q104. Which choice is a valid example of an arrow function, assuming c is defined in the outer scope?","options":[" `a, b => { return c; }`\r\n"," `a, b => c`\r\n"," `{ a, b } => c`\r\n"," `(a,b) => c`\r\n\r\n"],"correctAns":4},{"query":" Q105. Which code would you use to access the Irish flag?","code":"\r\njavascript\r\nvar flagsJSON =\r\n  '{ \"countries\" : [' +\r\n  '{ \"country\":\"Ireland\" , \"flag\":\"🇮🇪\" },' +\r\n  '{ \"country\":\"Serbia\" , \"flag\":\"🇷🇸\" },' +\r\n  '{ \"country\":\"Peru\" , \"flag\":\"🇵🇪\" } ]}';\r\nvar flagDatabase = JSON.parse(flagsJSON);\r\n","options":[" flagDatabase.countries[0].flag\r\n"," flagDatabase.countries[1].flag\r\n"," flagsJSON.countries[0].flag\r\n"," flagDatabase[1].flag\r\n\r\n"],"correctAns":1},null,{"query":" Q107. What will be the output of this code?","code":"js\r\nconst arr1 = [2, 4, 6];\r\nconst arr2 = [3, 5, 7];\r\n\r\nconsole.log([...arr1, ...arr2]);\r\n","options":[" `[2, 3, 4, 5, 6, 7]`\r\n"," `[3,5,7,2,4,6]`\r\n"," `[3, 5, 7, 2, 4, 6]`\r\n"," `[[2, 4, 6], [3, 5, 7]]`\r\n"," `[2, 4, 6, 3, 5, 7]`\r\n\r\n"],"correctAns":5},{"query":" Q108. Which method call is chained to handle a successful response returned by `fetch()`?","options":[" `done()`\r\n"," `then()`\r\n"," `finally()`\r\n"," `catch()`\r\n\r\n"],"correctAns":2},{"query":" Q109. Which choice is not an array method?","options":[" `array.slice()`\r\n"," `array.shift()`\r\n"," `array.push()`\r\n"," `array.replace()`\r\n\r\n"],"correctAns":4},{"query":" Q110. Which JavaScript loop ensures that at least a singular iteration will happen?","options":[" do…while\r\n"," forEach\r\n"," while\r\n"," for\r\n\r\n"],"correctAns":1},{"query":" Q111. What will be logged to the console?","code":"javascript\r\nconsole.log(typeof 'blueberry');\r\n","options":[" string\r\n"," array\r\n"," Boolean\r\n"," object\r\n\r\n"],"correctAns":1},{"query":" Q112. What is the output that is printed when the div containing the text \"Click Here\" is clicked?","code":"html\r\n//HTML Markup\r\n<div id=\"A\">\r\n  <div id=\"B\">\r\n    <div id=\"C\">Click Here</div>\r\n  </div>\r\n</div>\r\n\r\n\r\njavascript\r\n//JavaScript\r\ndocument.querySelectorAll('div').forEach((e) => {\r\n  e.onclick = (e) => console.log(e.currentTarget.id);\r\n});\r\n","options":[" C B A\r\n"," A\r\n"," C\r\n"," A B C\r\n\r\n"],"correctAns":1}]
+[
+    {
+        "query": " Q1. Which operator returns true if the two compared values are not equal?",
+        "options": [
+            " `<>`\r\n",
+            " `~`\r\n",
+            " `==!`\r\n",
+            " `!==`\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q2. How is a forEach statement different from a for statement?",
+        "options": [
+            " Only a for statement uses a callback function.\r\n",
+            " A for statement is generic, but a forEach statement can be used only with an array.\r\n",
+            " Only a forEach statement lets you specify your own iterator.\r\n",
+            " A forEach statement is generic, but a for statement can be used only with an array.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q3. Review the code below. Which statement calls the addTax function and passes 50 as an argument? How would you use this function to find out how much tax should be paid on \\$50?",
+        "code": "js\r\nfunction addTax(total) {\r\n  return total * 1.05;\r\n}\r\n",
+        "options": [
+            " addTax = 50;\r\n",
+            " return addTax 50;\r\n",
+            " addTax(50);\r\n",
+            " addTax 50;\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q4. Which statement is the correct way to create a variable called rate and assign it the value 100?",
+        "options": [
+            " let rate = 100;\r\n",
+            " let 100 = rate;\r\n",
+            " 100 = let rate;\r\n",
+            " rate = 100;\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q5. Which statement creates a new object using the Person constructor? Which statement creates a new Person object called \"student\"?",
+        "options": [
+            " var student = new Person();\r\n",
+            " var student = construct Person;\r\n",
+            " var student = Person();\r\n",
+            " var student = construct Person();\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q6. When would the final statement in the code shown be logged to the console? When would 'results shown' be logged to the console?",
+        "code": "js\r\nlet modal = document.querySelector('#result');\r\nsetTimeout(function(){\r\n    modal.classList.remove('hidden);\r\n}, 10000);\r\nconsole.log('Results shown');\r\n",
+        "options": [
+            " after 10 second\r\n",
+            " after results are received from the HTTP request\r\n",
+            " after 10000 seconds\r\n",
+            " immediately\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q7. Which snippet could you add to this code to print \"food\" to the console?",
+        "code": "\r\nclass Animal {\r\n  static belly = [];\r\n  eat () {\r\n    Animal.belly.push(\"food\");\r\n    }\r\n}\r\nlet a = new Animal();\r\na.eat();\r\nconsole.log(/* Snippet Here */); //Prints food\r\n",
+        "options": [
+            " `a.prototype.belly[0]`\r\n",
+            " `Object.getPrototype0f (a).belly[0]`\r\n",
+            " `Animal.belly[0]`\r\n",
+            " `a.belly[0]`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q8. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?",
+        "code": "js\r\nfor (var i = 1; i <= 4; i++) {\r\n  setTimeout(function () {\r\n    console.log(i);\r\n  }, i * 10000);\r\n}\r\n",
+        "options": [
+            "\r\n\r\n```javascript\r\nfor (var i = 1; i <= 4; i++) {\r\n  (function (i) {\r\n    setTimeout(function () {\r\n      console.log(j);\r\n    }, j * 1000);\r\n  })(j);\r\n}\r\n```\r\n\r\n",
+            "\r\n\r\n```javascript\r\nwhile (var i=1; i<=4; i++) {\r\n  setTimeout(function() {\r\n    console.log(i);\r\n    }, i*1000);\r\n}\r\n```\r\n\r\n",
+            "\r\n\r\n```javascript\r\nfor (var i = 1; i <= 4; i++) {\r\n  (function (j) {\r\n    setTimeout(function () {\r\n      console.log(j);\r\n    }, j * 1000);\r\n  })(i);\r\n}\r\n```\r\n\r\n",
+            "\r\n\r\n```javascript\r\nfor (var j = 1; j <= 4; j++) {\r\n  setTimeout(function () {\r\n    console.log(j);\r\n  }, j * 1000);\r\n}\r\n```\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q9. How does a function create a closure?",
+        "options": [
+            " It reloads the document whenever the value changes.\r\n",
+            " It returns a reference to a variable in its parent scope.\r\n",
+            " It completes execution without returning.\r\n",
+            " It copies a local variable to the global scope.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q10. Which statement creates a new function called discountPrice?",
+        "code": null,
+        "options": [
+            "\r\n\r\n```js\r\nlet discountPrice = function (price) {\r\n  return price * 0.85;\r\n};\r\n```\r\n\r\n",
+            "\r\n\r\n```js\r\nlet discountPrice(price) {\r\n  return price * 0.85;\r\n};\r\n```\r\n\r\n",
+            "\r\n\r\n```js\r\nlet function = discountPrice(price) {\r\n  return price * 0.85;\r\n};\r\n```\r\n\r\n",
+            "\r\n\r\n```js\r\ndiscountPrice = function (price) {\r\n  return price * 0.85;\r\n};\r\n```\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q11. What is the result in the console of running the code shown?",
+        "code": "js\r\nvar Storm = function () {};\r\nStorm.prototype.precip = 'rain';\r\nvar WinterStorm = function () {};\r\nWinterStorm.prototype = new Storm();\r\nWinterStorm.prototype.precip = 'snow';\r\nvar bob = new WinterStorm();\r\nconsole.log(bob.precip);\r\n",
+        "options": [
+            " Storm()\r\n",
+            " undefined\r\n",
+            " 'rain'\r\n",
+            " 'snow'\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q12. You need to match a time value such as 12:00:32. Which of the following regular expressions would work for your code?",
+        "options": [
+            " /[0-9]{2,}:[0-9]{2,}:[0-9]{2,}/\r\n",
+            " /\\d\\d:\\d\\d:\\d\\d/\r\n",
+            " /[0-9]+:[0-9]+:[0-9]+/\r\n",
+            " / : : /\r\n\r\nNOTE: The first three are all partially correct and will match digits, but the **second option is the most correct** because it will **only** match **2 digit** time values (12:00:32). The first option would have worked if the repitions range looked like `[0-9]{2}`, however because of the **comma** `[0-9]{2,}` it will select 2 **or more** digits (120:000:321). The third option will any range of time digits, single _and_ multiple (meaning `1:2:3` will also match).\r\n\r\n**More resources:**\r\n\r\n- [Repeating characters](https://regexone.com/lesson/repeating_characters)\r\n- [Kleene operators](https://regexone.com/lesson/kleene_operators)\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q13. What is the result in the console of running this code?",
+        "code": "js\r\n'use strict';\r\nfunction logThis() {\r\n  this.desc = 'logger';\r\n  console.log(this);\r\n}\r\nnew logThis();\r\n",
+        "options": [
+            " undefined\r\n",
+            " window\r\n",
+            " {desc: \"logger\"}\r\n",
+            " function\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q14. How would you reference the text 'avenue' in the code shown?",
+        "code": "js\r\nlet roadTypes = ['street', 'road', 'avenue', 'circle'];\r\n",
+        "options": [
+            " roadTypes.2\r\n",
+            " roadTypes\\[3\\]\r\n",
+            " roadTypes.3\r\n",
+            " roadTypes\\[2\\]\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q15. What is the result of running this statement?",
+        "code": "javascript\r\nconsole.log(typeof 42);\r\n",
+        "options": [
+            " 'float'\r\n",
+            " 'value'\r\n",
+            " 'number'\r\n",
+            " 'integer'\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q16. Which property references the DOM object that dispatched an event?",
+        "options": [
+            " self\r\n",
+            " object\r\n",
+            " target\r\n",
+            " source\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q17. You're adding error handling to the code shown. Which code would you include within the if statement to specify an error message?",
+        "code": "js\r\nfunction addNumbers(x, y) {\r\n  if (isNaN(x) || isNaN(y)) {\r\n  }\r\n}\r\n",
+        "options": [
+            " exception('One or both parameters are not numbers')\r\n",
+            " catch('One or both parameters are not numbers')\r\n",
+            " error('One or both parameters are not numbers')\r\n",
+            " throw('One or both parameters are not numbers')\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q18. Which method converts JSON data to a JavaScript object?",
+        "options": [
+            " JSON.fromString();\r\n",
+            " JSON.parse()\r\n",
+            " JSON.toObject()\r\n",
+            " JSON.stringify()\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q19. When would you use a conditional statement?",
+        "options": [
+            " When you want to reuse a set of statements multiple times.\r\n",
+            " When you want your code to choose between multiple options.\r\n",
+            " When you want to group data together.\r\n",
+            " When you want to loop through a group of statement.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q20. What would be the result in the console of running this code?",
+        "code": "js\r\nfor (var i = 0; i < 5; i++) {\r\n  console.log(i);\r\n}\r\n",
+        "options": [
+            " 12345\r\n",
+            " 1234\r\n",
+            " 01234\r\n",
+            " 012345\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q21. Which Object method returns an iterable that can be used to iterate over the properties of an object?",
+        "options": [
+            " Object.get()\r\n",
+            " Object.loop()\r\n",
+            " Object.each()\r\n",
+            " Object.keys()\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q22. What will be logged to the console?",
+        "code": "js\r\nvar a = ['dog', 'cat', 'hen'];\r\na[100] = 'fox';\r\nconsole.log(a.length);\r\n",
+        "options": [
+            " 101\r\n",
+            " 3\r\n",
+            " 4\r\n",
+            " 100\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q23. What is one difference between collections created with Map and collections created with Object?",
+        "options": [
+            " You can iterate over values in a Map in their insertion order.\r\n",
+            " You can count the records in a Map with a single method call.\r\n",
+            " Keys in Maps can be strings.\r\n",
+            " You can access values in a Map without iterating over the whole collection.\r\n\r\n**Explanation:** `Map.prototype.size returns the number of elements in a Map, whereas Object does not have a built-in method to return its size.`\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q24. What is the value of dessert.type after executing this code?",
+        "code": "js\r\nconst dessert = { type: 'pie' };\r\ndessert.type = 'pudding';\r\n",
+        "options": [
+            " pie\r\n",
+            " The code will throw an error.\r\n",
+            " pudding\r\n",
+            " undefined\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q25. 0 && hi",
+        "options": [
+            " ReferenceError\r\n",
+            " True\r\n",
+            " 0\r\n",
+            " false\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q26. Which of the following operators can be used to do a short-circuit evaluation?",
+        "options": [
+            " \\++\r\n",
+            " \\--\r\n",
+            " \\==\r\n",
+            " \\|\\|\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q27. Which statement sets the Person constructor as the parent of the Student constructor in the prototype chain?",
+        "options": [
+            " Student.parent = Person;\r\n",
+            " Student.prototype = new Person();\r\n",
+            " Student.prototype = Person;\r\n",
+            " Student.prototype = Person();\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q28. Why would you include a \"use strict\" statement in a JavaScript file?",
+        "options": [
+            " to tell parsers to interpret your JavaScript syntax loosely\r\n",
+            " to tell parsers to enforce all JavaScript syntax rules when processing your code\r\n",
+            " to instruct the browser to automatically fix any errors it finds in the code\r\n",
+            " to enable ES6 features in your code\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q29. Which Variable-defining keyword allows its variable to be accessed (as undefined) before the line that defines it?",
+        "options": [
+            " all of them\r\n",
+            " const\r\n",
+            " var\r\n",
+            " let\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q30. Which of the following values is not a Boolean false?",
+        "options": [
+            " Boolean(0)\r\n",
+            " Boolean(\"\")\r\n",
+            " Boolean(NaN)\r\n",
+            " Boolean(\"false\")\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q31. Which of the following is not a keyword in JavaScript?",
+        "options": [
+            " this\r\n",
+            " catch\r\n",
+            " function\r\n",
+            " array\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q32. Which variable is an implicit parameter for every function in JavaScript?",
+        "options": [
+            " Arguments\r\n",
+            " args\r\n",
+            " argsArray\r\n",
+            " argumentsList\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q33. For the following class, how do you get the value of 42 from an instance of X?",
+        "code": "js\r\nclass X {\r\n  get Y() {\r\n    return 42;\r\n  }\r\n}\r\nvar x = new X();\r\n",
+        "options": [
+            " x.get('Y')\r\n",
+            " x.Y\r\n",
+            " x.Y()\r\n",
+            " x.get().Y\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q34. What is the result of running this code?",
+        "code": "js\r\nsum(10, 20);\r\ndiff(10, 20);\r\nfunction sum(x, y) {\r\n  return x + y;\r\n}\r\n\r\nlet diff = function (x, y) {\r\n  return x - y;\r\n};\r\n",
+        "options": [
+            " 30, ReferenceError, 30, -10\r\n",
+            " 30, ReferenceError\r\n",
+            " 30, -10\r\n",
+            " ReferenceError, -10\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q35. Why is it usually better to work with Objects instead of Arrays to store a collection of records?",
+        "options": [
+            " Objects are more efficient in terms of storage.\r\n",
+            " Adding a record to an object is significantly faster than pushing a record into an array.\r\n",
+            " Most operations involve looking up a record, and objects can do that better than arrays.\r\n",
+            " Working with objects makes the code more readable.\r\n\r\n**Explanation:** Records in an object can be retrieved using their key which can be any given value (e.g. an employee ID, a city name, etc), whereas to retrieve a record from an array we need to know its index.\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q36. Which statement is true about the \"async\" attribute for the HTML script tag?",
+        "options": [
+            " It can be used for both internal and external JavaScript code.\r\n",
+            " It can be used only for internal JavaScript code.\r\n",
+            " It can be used only for internal or external JavaScript code that exports a promise.\r\n",
+            " It can be used only for external JavaScript code.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q37. How do you import the lodash library making it top-level Api available as the \"\\_\" variable?",
+        "options": [
+            " `import _ from 'lodash';`\r\n",
+            " `import 'lodash' as _;`\r\n",
+            " `import '_' from 'lodash;`\r\n",
+            " `import lodash as _ from 'lodash';`\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q38. What does the following expression evaluate to?",
+        "code": "js\r\n[] == [];\r\n",
+        "options": [
+            " True\r\n",
+            " undefined\r\n",
+            " []\r\n",
+            " False\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q39. What is the name of a function whose execution can be suspended and resumed at a later point? What type of function can have its execution suspended and then resumed at a later point?",
+        "options": [
+            " Generator function\r\n",
+            " Arrow function\r\n",
+            " Async/ Await function\r\n",
+            " Promise function\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q40. What will this code print?",
+        "code": "js\r\nvar v = 1;\r\nvar f1 = function () {\r\n  console.log(v);\r\n};\r\n\r\nvar f2 = function () {\r\n  var v = 2;\r\n  f1();\r\n};\r\n\r\nf2();\r\n",
+        "options": [
+            " 2\r\n",
+            " 1\r\n",
+            " Nothing - this code will throw an error.\r\n",
+            " undefined\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q41. Which statement is true about Functional Programming?",
+        "options": [
+            " Every object in the program has to be a function.\r\n",
+            " Code is grouped with the state it modifies.\r\n",
+            " Date fields and methods are kept in units.\r\n",
+            " Side effects are not allowed.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q42. Your code is producing the error: TypeError: Cannot read property 'reduce' of undefined. What does that mean?",
+        "options": [
+            " You are calling a method named reduce on an object that's declared but has no value.\r\n",
+            " You are calling a method named reduce on an object that does not exist.\r\n",
+            " You are calling a method named reduce on an empty array.\r\n",
+            " You are calling a method named reduce on an object that's has a null value.\r\n\r\n**Explanation**: `You cannot invoke reduce on undefined object... It will throw (yourObject is not Defined...)`\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q43. How many prototype objects are in the chain for the following array?",
+        "options": [
+            " 3\r\n",
+            " 2\r\n",
+            " 0\r\n",
+            " 1\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q44. Which choice is _not_ a unary operator?",
+        "options": [
+            " typeof\r\n",
+            " delete\r\n",
+            " instanceof\r\n",
+            " void\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q45. What type of scope does the end variable have in the code shown?",
+        "code": "javascript\r\nvar start = 1;\r\nif (start === 1) {\r\n  let end = 2;\r\n}\r\n",
+        "options": [
+            " conditional\r\n",
+            " block\r\n",
+            " global\r\n",
+            " function\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q46. What will the value of y be in this code:",
+        "code": "js\r\nconst x = 6 % 2;\r\nconst y = x ? 'One' : 'Two';\r\n",
+        "options": [
+            " One\r\n",
+            " undefined\r\n",
+            " TRUE\r\n",
+            " Two\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q47. Which keyword is used to create an error?",
+        "options": [
+            " throw\r\n",
+            " exception\r\n",
+            " catch\r\n",
+            " error\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q48. What's one difference between the async and defer attributes of the HTML script tag?",
+        "options": [
+            " The defer attribute can work synchronously.\r\n",
+            " The defer attribute works only with generators.\r\n",
+            " The defer attribute works only with promises.\r\n",
+            " The defer attribute will asynchronously load the scripts in order.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q49. The following program has a problem. What is it?",
+        "code": "js\r\nvar a;\r\nvar b = (a = 3) ? true : false;\r\n",
+        "options": [
+            " The condition in the ternary is using the assignment operator.\r\n",
+            " You can't define a variable without initializing it.\r\n",
+            " You can't use a ternary in the right-hand side of an assignment operator.\r\n",
+            " The code is using the deprecated var keyword.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q50. Which statement references the DOM node created by the code shown?",
+        "code": "html\r\n<p class=\"pull\">lorem ipsum</p>\r\n",
+        "options": [
+            " `Document.querySelector('class.pull')`\r\n",
+            " `document.querySelector('.pull');`\r\n",
+            " `Document.querySelector('pull')`\r\n",
+            " `Document.querySelector('#pull')`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q51. What value does this code return?",
+        "code": "js\r\nlet answer = true;\r\nif (answer === false) {\r\n  return 0;\r\n} else {\r\n  return 10;\r\n}\r\n",
+        "options": [
+            " 10\r\n",
+            " true\r\n",
+            " false\r\n",
+            " 0\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q52. What is the result in the console of running the code shown?",
+        "code": "js\r\nvar start = 1;\r\nfunction setEnd() {\r\n  var end = 10;\r\n}\r\nsetEnd();\r\nconsole.log(end);\r\n",
+        "options": [
+            " 10\r\n",
+            " 0\r\n",
+            " ReferenceError\r\n",
+            " undefined\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q53. What will this code log in the console?",
+        "code": "js\r\nfunction sayHello() {\r\n  console.log('hello');\r\n}\r\n\r\nconsole.log(sayHello.prototype);\r\n",
+        "options": [
+            " undefined\r\n",
+            " \"hello\"\r\n",
+            " an object with a constructor property\r\n",
+            " an error message\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q54. Which collection object allows unique value to be inserted only once?",
+        "options": [
+            " Object\r\n",
+            " Set\r\n",
+            " Array\r\n",
+            " Map\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q55. What two values will this code print?",
+        "code": "js\r\nfunction printA() {\r\n  console.log(answer);\r\n  var answer = 1;\r\n}\r\nprintA();\r\nprintA();\r\n",
+        "options": [
+            " `1` then `1`\r\n",
+            " `1` then `undefined`\r\n",
+            " `undefined` then `undefined`\r\n",
+            " `undefined` then `1`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q56. How does the `forEach()` method differ from a `for` statement?",
+        "options": [
+            " forEach allows you to specify your own iterator, whereas for does not.\r\n",
+            " forEach can be used only with strings, whereas for can be used with additional data types.\r\n",
+            " forEach can be used only with an array, whereas for can be used with additional data types.\r\n",
+            " for loops can be nested; whereas forEach loops cannot.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q57. Which choice is an incorrect way to define an arrow function that returns an empty object?",
+        "options": [
+            " => ({})\r\n",
+            " => {}\r\n",
+            " => { return {};}\r\n",
+            " => (({}))\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q58. Why might you choose to make your code asynchronous?",
+        "options": [
+            " to start tasks that might take some time without blocking subsequent tasks from executing immediately\r\n",
+            " to ensure that tasks further down in your code are not initiated until earlier tasks have completed\r\n",
+            " to make your code faster\r\n",
+            " to ensure that the call stack maintains a LIFO (Last in, First Out) structure\r\n\r\n**EXPLANATION:** \"to ensure that tasks further down in your code are not initiated until earlier tasks have completed\" you use the normal (synchronous) flow where each command is executed sequentially. Asynchronous code allows you to break this sequence: start a long running function (AJAX call to an external service) and continue running the rest of the code in parallel.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q59. Which expression evaluates to true?",
+        "options": [
+            " `[3] == [3]`\r\n",
+            " `3 == '3'`\r\n",
+            " `3 != '3'`\r\n",
+            " `3 === '3'`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q60. Which of these is a valid variable name?",
+        "options": [
+            " 5thItem\r\n",
+            " firstName\r\n",
+            " grand total\r\n",
+            " function\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q61. Which method cancels event default behavior?",
+        "options": [
+            " cancel()\r\n",
+            " stop()\r\n",
+            " preventDefault()\r\n",
+            " prevent()\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q62. Which method do you use to attach one DOM node to another?",
+        "options": [
+            " attachNode()\r\n",
+            " getNode()\r\n",
+            " querySelector()\r\n",
+            " appendChild()\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q63. Which statement is used to skip iteration of the loop?",
+        "options": [
+            " break\r\n",
+            " pass\r\n",
+            " skip\r\n",
+            " continue\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q64. Which choice is valid example for an arrow function?",
+        "options": [
+            " (a,b) => c\r\n",
+            " a, b => {return c;}\r\n",
+            " a, b => c\r\n",
+            " { a, b } => c\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q65. Which concept is defined as a template that can be used to generate different objects that share some shape and/or behavior?",
+        "options": [
+            " class\r\n",
+            " generator function\r\n",
+            " map\r\n",
+            " proxy\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q66. How do you add a comment to JavaScript code?",
+        "options": [
+            " `! This is a comment`\r\n",
+            " `# This is a comment`\r\n",
+            " `\\\\ This is a comment`\r\n",
+            " `// This is a comment`\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q67. If you attempt to call a value as a function but the value is not a function, what kind of error would you get?",
+        "options": [
+            " TypeError\r\n",
+            " SystemError\r\n",
+            " SyntaxError\r\n",
+            " LogicError\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q68. Which method is called automatically when an object is initialized?",
+        "options": [
+            " create()\r\n",
+            " new()\r\n",
+            " constructor()\r\n",
+            " init()\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q69. What is the result of running the statement shown?",
+        "code": "javascript\r\nlet a = 5;\r\nconsole.log(++a);\r\n",
+        "options": [
+            " 4\r\n",
+            " 10\r\n",
+            " 6\r\n",
+            " 5\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q70. You've written the event listener shown below for a form button, but each time you click the button, the page reloads. Which statement would stop this from happening?",
+        "code": "javascript\r\nbutton.addEventListener(\r\n  'click',\r\n  function (e) {\r\n    button.className = 'clicked';\r\n  },\r\n  false,\r\n);\r\n",
+        "options": [
+            " e.blockReload();\r\n",
+            " button.preventDefault();\r\n",
+            " button.blockReload();\r\n",
+            " e.preventDefault();\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q71. Which statement represents the starting code converted to an IIFE?",
+        "options": [
+            " `function() { console.log('lorem ipsum'); }()();`\r\n",
+            " `function() { console.log('lorem ipsum'); }();`\r\n",
+            " `(function() { console.log('lorem ipsum'); })();`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q72. Which statement selects all img elements in the DOM tree?",
+        "options": [
+            " `Document.querySelector('img')`\r\n",
+            " `Document.querySelectorAll('<img>')`\r\n",
+            " `Document.querySelectorAll('img')`\r\n",
+            " `Document.querySelector('<img>')`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q73. Why would you choose an asynchronous structure for your code?",
+        "options": [
+            " To use ES6 syntax\r\n",
+            " To start tasks that might take some time without blocking subsequent tasks from executing immediately\r\n",
+            " To ensure that parsers enforce all JavaScript syntax rules when processing your code\r\n",
+            " To ensure that tasks further down in your code aren't initiated until earlier tasks have completed\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q74. What is the HTTP verb to request the contents of an existing resource?",
+        "options": [
+            " DELETE\r\n",
+            " GET\r\n",
+            " PATCH\r\n",
+            " POST\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q75. Which event is fired on a text field within a form when a user tabs to it, or clicks or touches it?",
+        "options": [
+            " focus\r\n",
+            " blur\r\n",
+            " hover\r\n",
+            " enter\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q76. What is the result in the console of running this code?",
+        "code": "javascript\r\nfunction logThis() {\r\n  console.log(this);\r\n}\r\nlogThis();\r\n",
+        "options": [
+            " function\r\n",
+            " undefined\r\n",
+            " Function.prototype\r\n",
+            " window\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q77. Which class-based component is equivalent to this function component?",
+        "code": "javascript\r\nconst Greeting = ({ name }) => <h1>Hello {name}!</h1>;\r\n",
+        "options": [
+            " `class Greeting extends React.Component { render() { return <h1>Hello {this.props.name}!</h1>; } }`\r\n",
+            " `class Greeting extends React.Component { constructor() { return <h1>Hello {this.props.name}!</h1>; } }`\r\n",
+            " `class Greeting extends React.Component { <h>Hello {this.props.name}!</h>; } }`\r\n",
+            " `class Greeting extends React.Component { render({ name }) { return <h1>Hello {name}!</h1>; } }`\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q78. Which class-based lifecycle method would be called at the same time as this effect Hook?",
+        "code": "javascript\r\nuseEffect(() => {\r\n  // do things\r\n}, []);\r\n",
+        "options": [
+            " componentWillUnmount\r\n",
+            " componentDidUpdate\r\n",
+            " render\r\n",
+            " componentDidMount\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q79. What is the output of this code?",
+        "code": "javascript\r\nvar obj;\r\nconsole.log(obj);\r\n",
+        "options": [
+            " ReferenceError: obj is not defined\r\n",
+            " {}\r\n",
+            " undefined\r\n",
+            " null\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q80. How would you use the TaxCalculator to determine the amount of tax on \\$50?",
+        "code": "javascript\r\nclass TaxCalculator {\r\n  static calculate(total) {\r\n    return total * 0.05;\r\n  }\r\n}\r\n",
+        "options": [
+            " calculate(50);\r\n",
+            " new TaxCalculator().calculate(\\$50);\r\n",
+            " TaxCalculator.calculate(50);\r\n",
+            " new TaxCalculator().calculate(50);\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q81. What is wrong with this code?",
+        "code": "js\r\nconst foo = {\r\n  bar() {\r\n    console.log('Hello, world!');\r\n  },\r\n  name: 'Albert',\r\n  age: 26,\r\n};\r\n",
+        "options": [
+            " The function bar needs to be defined as a key/value pair.\r\n",
+            " Trailing commas are not allowed in JavaScript.\r\n",
+            " Functions cannot be declared as properties of objects.\r\n",
+            " Nothing, there are no errors.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q82. What will be logged to the console?",
+        "code": null,
+        "options": [
+            "\r\n\r\n```\r\nI\r\nJavascript!\r\nlove\r\n```\r\n\r\n",
+            "\r\n\r\n```\r\nlove\r\nI\r\nJavascript!\r\n```\r\n\r\n",
+            " The output may change with each execution of code and cannot be determined.\r\n\r\n",
+            "\r\n\r\n```\r\nI\r\nlove\r\nJavascript!\r\n```\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q83. What will this code log to the console?",
+        "code": "js\r\nconst foo = [1, 2, 3];\r\nconst [n] = foo;\r\nconsole.log(n);\r\n",
+        "options": [
+            " 1\r\n",
+            " undefined\r\n",
+            " NaN\r\n",
+            " Nothing--this is not proper JavaScript syntax and will throw an error.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q84. How do you remove the property name from this object?",
+        "code": "js\r\nconst foo = {\r\n  name: 'Albert',\r\n};\r\n",
+        "options": [
+            " delete name from foo;\r\n",
+            " delete foo.name;\r\n",
+            " del foo.name;\r\n",
+            " remove foo.name;\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q85. What is the difference between the map() and the forEach() methods on the Array prototype?",
+        "options": [
+            " There is no difference.\r\n",
+            " The `forEach()` method returns a single output value, wheras the `map()` method performs operation on each value in the array.\r\n",
+            " The map() methods returns a new array with a transformation applied on each item in the original array, wheras the `forEach()` method iterates through an array with noreturn value.\r\n",
+            " The `forEach()` methods returns a new array with a transformation applied on each item in the original array, wheras the `map()` method iterates through an array with noreturn value.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q86. Which concept does this code illustrate?",
+        "code": "js\r\nfunction makeAdder(x) {\r\n  return function (y) {\r\n    return x + y;\r\n  };\r\n}\r\n\r\nvar addFive = makeAdder(5);\r\nconsole.log(addFive(3));\r\n",
+        "options": [
+            " overloading\r\n",
+            " closure\r\n",
+            " currying\r\n",
+            " overriding\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q87. Which tag pair is used in HTML to embed JavaScript?",
+        "options": [
+            " `<script></script>`\r\n",
+            " `<js></js>`\r\n",
+            " `<javascript></javascript>`\r\n",
+            " `<code></code>`\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q88. What would be the result in the console of running this code?",
+        "code": "js\r\nfor (var i = 0; i < 5; i++) {\r\n  console.log(i);\r\n}\r\n",
+        "options": [
+            " 0 1 2 3 4\r\n",
+            " 0 1 2 3 4 5\r\n",
+            " 1 2 3 4\r\n",
+            " 1 2 3 4 5\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q89. What is the value of dessert.type after executing this code?",
+        "code": "js\r\nconst dessert = { type: 'pie' };\r\ndessert.type = 'pudding';\r\n\r\nconst seconds = dessert;\r\nseconds.type = 'fruit';\r\n",
+        "options": [
+            " pie\r\n",
+            " fruit\r\n",
+            " undefined\r\n",
+            " pudding\r\n\r\n**Explanation:** `Assigning a variable (such as seconds) to an object (such as dessert) does not create a new object. The seconds variable merely becomes a reference for the dessert object. Any changes made to seconds will also reflect in dessert.`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q90. If your app receives data from a third-party API, which HTTP response header must the server specify to allow exceptions to the same-origin policy?",
+        "options": [
+            " Security-Mode\r\n",
+            " Access-Control-Allow-Origin\r\n",
+            " Different-Origin\r\n",
+            " Same-Origin\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q91. What will be logged to the console??",
+        "code": "js\r\n'use strict';\r\nfunction logThis() {\r\n  this.desc = 'logger';\r\n  console.log(this);\r\n}\r\nnew logThis();\r\n",
+        "options": [
+            " window\r\n",
+            " undefined\r\n",
+            " function\r\n",
+            " {desc: \"logger\"}\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q92. Which statement is applicable to the defer attribute of the HTML \\<script\\> tag?",
+        "options": [
+            " defer causes the script ta be loaded from the backup content delivery network (CDN).\r\n",
+            " defer allows the browser ta continue processing the page while the script loads in the background.\r\n",
+            " defer blacks the browser from processing HTML below the tag until the script is completely loaded.\r\n",
+            " defer lazy loads the script, causing it to download only when it is called by another script on the page.\r\n\r\n**Explanation:** If the defer attribute is set, it specifies that the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing. [HTML \\<script\\> defer Attribute](https://www.w3schools.com/tags/att_script_defer.asp)\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q93. What will this code print?",
+        "code": "js\r\nlet rainForests = ['Amazon', 'Borneo', 'Cerrado', 'Congo'];\r\nrainForests.splice(0, 2);\r\nconsole.log(rainForests);\r\n",
+        "options": [
+            " `[\"Amazon\",\"Borneo\",\"Cerrado\",\"Congo\"]`\r\n",
+            " `[\"Cerrado\", \"Congo\"]`\r\n",
+            " `[\"Congo\"]`\r\n",
+            " `[\"Amazon\",\"Borneo\"]`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q94. Which missing line would allow you to create five variables(one,two,three,four,five) that correspond to their numerical values (1,2,3,4,5)?",
+        "code": "js\r\nconst numbers = [1, 2, 3, 4, 5];\r\n//MISSING LINE\r\n",
+        "options": [
+            " `const [one,two,three,four,five]=numbers`\r\n",
+            " `const {one,two,three,four,five}=numbers`\r\n",
+            " `const [one,two,three,four,five]=[numbers]`\r\n",
+            " `const {one,two,three,four,five}={numbers}`\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q95.",
+        "code": "js\r\nconst obj = {\r\n  a: 1,\r\n  b: 2,\r\n  c: 3,\r\n};\r\n\r\nconst obj2 = {\r\n  ...obj,\r\n  a: 0,\r\n};\r\n\r\nconsole.log(obj2.a, obj2.b);\r\n",
+        "options": [
+            " Nothing, it will throw an error\r\n",
+            " 0 2\r\n",
+            " undefined 2\r\n",
+            " undefined 2\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q96. Which line could you add to this code to print \"jaguar\" to the console?",
+        "code": "\r\nlet animals = [\"jaguar\",\"eagle\"];\r\n//Missing Line\r\nconsole.log(animals.pop()); //Prints jaguar\r\n",
+        "options": [
+            " `animals.filter(e => e === \"jaguar\");`\r\n",
+            " `animals.reverse();`\r\n",
+            " `animals.shift();`\r\n",
+            " `animals.pop();`\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q97. What line is missing from this code?",
+        "code": "js\r\n//Missing Line\r\nfor (var i = 0; i < vowels.length; i++) {\r\n  console.log(vowels[i]);\r\n  //Each letter printed on a separate line as follows;\r\n  //a\r\n  //e\r\n  //i\r\n  //o\r\n  //u\r\n}\r\n",
+        "options": [
+            " `let vowels = \"aeiou\".toArray();`\r\n",
+            " `let vowels = Array.of(\"aeiou\");`\r\n",
+            " `let vowels = {\"a\", \"e\", \"i\", \"o\", \"u\"};`\r\n",
+            " `let vowels = \"aeiou\";`\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q98. What will be logged to the console?",
+        "code": "js\r\nconst x = 6 % 2;\r\nconst y = x ? 'One' : 'Two';\r\nconsole.log(y);\r\n",
+        "options": [
+            " undefined\r\n",
+            " One\r\n",
+            " true\r\n",
+            " Two\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q99. How would you access the word It from this multidimensional array?",
+        "options": [
+            " `matrix[1[2]]`\r\n",
+            " `matrix[1][1]`\r\n",
+            " `matrix[1,2]`\r\n",
+            " `matrix[1][2]`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q100. What does this code do?",
+        "code": "js\r\nconst animals = ['Rabbit', 'Dog', 'Cat'];\r\nanimals.unshift('Lizard');\r\n",
+        "options": [
+            " It adds \"Lizard\" to the start of the animals array.\r\n",
+            " It adds \"Lizard\" to the end of the animals array.\r\n",
+            " It replaces \"Rabbit\" with \"Lizard\" in the animals array.\r\n",
+            " It replaces \"Cat\" with \"Lizard\" in the animals array.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q101. What is the output of this code?",
+        "code": "js\r\nlet x = 6 + 3 + '3';\r\nconsole.log(x);\r\n",
+        "options": [
+            " 93\r\n",
+            " 12\r\n",
+            " 66\r\n",
+            " 633\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q102. Which statement can take a single expression as input and then look through a number of choices until one that matches that value is found?",
+        "options": [
+            " else\r\n",
+            " when\r\n",
+            " if\r\n",
+            " switch\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q103. Which statement prints \"roar\" to the console?",
+        "code": "\r\nvar sound = \"grunt\";\r\nvar bear = {\r\n  sound: \"roar\"\r\n  };\r\nfunction roar() {\r\n  console.log(this.sound);\r\n}\r\n",
+        "options": [
+            " `bear.bind(roar);`\r\n",
+            " `roar.bind(bear);`\r\n",
+            " `roar.apply(bear);`\r\n",
+            " `bear[roar]();`\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q104. Which choice is a valid example of an arrow function, assuming c is defined in the outer scope?",
+        "options": [
+            " `a, b => { return c; }`\r\n",
+            " `a, b => c`\r\n",
+            " `{ a, b } => c`\r\n",
+            " `(a,b) => c`\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q105. Which code would you use to access the Irish flag?",
+        "code": "\r\njavascript\r\nvar flagsJSON =\r\n  '{ \"countries\" : [' +\r\n  '{ \"country\":\"Ireland\" , \"flag\":\"🇮🇪\" },' +\r\n  '{ \"country\":\"Serbia\" , \"flag\":\"🇷🇸\" },' +\r\n  '{ \"country\":\"Peru\" , \"flag\":\"🇵🇪\" } ]}';\r\nvar flagDatabase = JSON.parse(flagsJSON);\r\n",
+        "options": [
+            " flagDatabase.countries[0].flag\r\n",
+            " flagDatabase.countries[1].flag\r\n",
+            " flagsJSON.countries[0].flag\r\n",
+            " flagDatabase[1].flag\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    null,
+    {
+        "query": " Q107. What will be the output of this code?",
+        "code": "js\r\nconst arr1 = [2, 4, 6];\r\nconst arr2 = [3, 5, 7];\r\n\r\nconsole.log([...arr1, ...arr2]);\r\n",
+        "options": [
+            " `[2, 3, 4, 5, 6, 7]`\r\n",
+            " `[3,5,7,2,4,6]`\r\n",
+            " `[3, 5, 7, 2, 4, 6]`\r\n",
+            " `[[2, 4, 6], [3, 5, 7]]`\r\n",
+            " `[2, 4, 6, 3, 5, 7]`\r\n\r\n"
+        ],
+        "correctAns": 5
+    },
+    {
+        "query": " Q108. Which method call is chained to handle a successful response returned by `fetch()`?",
+        "options": [
+            " `done()`\r\n",
+            " `then()`\r\n",
+            " `finally()`\r\n",
+            " `catch()`\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q109. Which choice is not an array method?",
+        "options": [
+            " `array.slice()`\r\n",
+            " `array.shift()`\r\n",
+            " `array.push()`\r\n",
+            " `array.replace()`\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q110. Which JavaScript loop ensures that at least a singular iteration will happen?",
+        "options": [
+            " do…while\r\n",
+            " forEach\r\n",
+            " while\r\n",
+            " for\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q111. What will be logged to the console?",
+        "code": "javascript\r\nconsole.log(typeof 'blueberry');\r\n",
+        "options": [
+            " string\r\n",
+            " array\r\n",
+            " Boolean\r\n",
+            " object\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q112. What is the output that is printed when the div containing the text \"Click Here\" is clicked?",
+        "code": "html\r\n//HTML Markup\r\n<div id=\"A\">\r\n  <div id=\"B\">\r\n    <div id=\"C\">Click Here</div>\r\n  </div>\r\n</div>\r\n\r\n\r\njavascript\r\n//JavaScript\r\ndocument.querySelectorAll('div').forEach((e) => {\r\n  e.onclick = (e) => console.log(e.currentTarget.id);\r\n});\r\n",
+        "options": [
+            " C B A\r\n",
+            " A\r\n",
+            " C\r\n",
+            " A B C\r\n\r\n"
+        ],
+        "correctAns": 1
+    }
+]

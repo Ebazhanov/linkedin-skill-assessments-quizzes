@@ -1,1 +1,743 @@
-[{"query":" Q1. To mount a drive by its ID, what command would you use first to retrieve it?","options":[" df -h\r\n"," listid\r\n"," ls -l\r\n"," blkid\r\n\r\n"],"correctAns":4},{"query":" Q2. Linux file access control lists (ACLs) are \\_.","options":[" discretionary access control system permissions layered over standard Linux permissions\r\n"," mandatory access control system permissions layered over standard Linux permissions\r\n"," a type of firewall for Linux\r\n"," the same as standard Linux permissions\r\n\r\n"],"correctAns":1},{"query":" Q3. When using iproute2, how do you show routing information for an IPv6 network?","options":[" route -ipv6\r\n"," route\r\n"," ip -6 route show\r\n"," ip route show\r\n\r\n"],"correctAns":3},{"query":" Q4. What does this command string do?","code":"bash\r\nfind / -size +10M -exec ls -l {} ;\r\n","options":[" It finds all files using ls -l and hands them off to the find command to display.\r\n"," It finds all files older than 10 minutes and long lists them using the ls command.\r\n"," It finds all files larger than 10 MB and long lists them using the ls command.\r\n"," It uses the ls command to find all files in the filesystem matching the {} wildcard.\r\n\r\n"],"correctAns":3},{"query":" Q5. What would this locate command show?","code":"bash\r\nlocate --regexp '^/usr.*pixmaps.*jpg$'\r\n","options":[" all files in a directory named pixmaps\r\n"," all files ending in \".jpg\"\r\n"," all file paths that start with \"/usr\", include the word \"pixmaps\", and end with \".jpg\"\r\n"," all file paths that include \"/usr/pixmaps\" and end with \".jpg\"\r\n\r\n"],"correctAns":3},{"query":" Q6. Which command allows you to do packet analysis from the command line?","options":[" wireshark\r\n"," ethtool\r\n"," netstat\r\n"," tcpdump\r\n\r\n"],"correctAns":4},{"query":" Q7. Which command will tell you how long a system has been running?","options":[" log\r\n"," uptime\r\n"," runtime\r\n"," access\r\n\r\n"],"correctAns":2},{"query":" Q8. How would you describe PCP (Performance Co-Pilot)?","options":[" It is an application testing suite used to profile programming code.\r\n"," It is a local command used for monitoring local system resources in real time.\r\n"," It is a set of tools, services, and libraries for gathering and analyzing performance measures.\r\n"," It is a tool designed to change system configuration for purposes of optimization.\r\n\r\n"],"correctAns":3},{"query":" Q9. You want to resolve a long list of DNS names using dig. What should you do?","options":[" Create a text file including all names and use the -f option of dig.\r\n"," Type in each query manually.\r\n"," Write a shell script to send multiple dig queries to the DNS server.\r\n"," Save the DNS names in an SQL database and process it with dig.\r\n\r\n"],"correctAns":1},{"query":" Q10. What would this command output?","code":"\r\nps -e --format uid,pid,ppid,%cpu,cmd\r\n","options":[" the user ID, process ID, parent process ID, CPU usage, and command name of a process\r\n"," the user ID, group ID, parent process ID, CPU usage, and command name of a process\r\n"," the UUID, process ID, parent process ID, CPU usage, and command name of a process\r\n"," all of these answers\r\n\r\n"],"correctAns":1},{"query":" Q11. Which command in Bash executes the last line in the shell history that starts with ls?","options":[" !\r\n"," !!\r\n"," !\\*\r\n"," !ls\r\n\r\n"],"correctAns":4},{"query":" Q12. The ssh-copy-id command copies \\_ to the remote host.","options":[" both private and public keys\r\n"," the ssh public key\r\n"," the ssh private key\r\n"," a fingerprint file\r\n\r\n"],"correctAns":2},{"query":" Q13. What command is used to determine the amount of disk usage for a directory?","options":[" find\r\n"," fdisk\r\n"," du\r\n"," df\r\n\r\n"],"correctAns":3},{"query":" Q14. A backup drive was created using dd to make a bit-for-bit copy. When the drive is inserted into an iSCSI target before it is booted up, the data appears to be missing. What happened?","options":[" The backup drive is corrupted and needs to be re-created.\r\n"," When the backup drive was duplicated, the label was as well. When booted, the system mounted the old duplicated drive by its identical label.\r\n"," There is a conflict between the physical location of the backup drive and the original drive.\r\n"," The backup process went wrong, and the old drive was duplicated over the original drive.\r\n\r\n"],"correctAns":2},{"query":" Q15. What is the key difference between a redirect (>) and piping to the tee command?","options":[" The tee command sends output only to STDOUT and STDERR.\r\n"," A redirect sends output to STDOUT and a file, whereas a tee sends output only to STDOUT.\r\n"," Nothing, they are the same.\r\n"," The tee command sends output to STDOUT and a file, whereas a redirect sends output only to a file.\r\n\r\n"],"correctAns":4},{"query":" Q16. What does the /etc/nsswitch.conf file manage?","options":[" priority of one DNS server over another\r\n"," per network interface DNS server configuration\r\n"," alternative DNS services\r\n"," sources for name service information\r\n\r\n"],"correctAns":4},{"query":" Q17. Assume the variable myNumber holds a string consisting of 10 digits. What will this command output?","code":"bash\r\necho \\$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'\r\n","options":[" It will only match digits—and since the string has only digits, the command will output the same number without changes.\r\n"," It will output the same 10-digit number, but every digit will be inside parentheses.\r\n"," It will output the entire 10-digit number inside parentheses.\r\n"," It will output the same 10-digit number, but the first 3 digits will be inside parentheses.\r\n\r\n"],"correctAns":4},{"query":" Q18. Packages can be downloaded but not installed with yum or dnf by specifying which option?","options":[" None of these answers. yum does not support downloading packages without installing them.\r\n"," --downloaddir\r\n"," -d\r\n"," --downloadonly\r\n\r\n"],"correctAns":4},{"query":" Q19. What character class is equal to this set?","options":[" [[:alnum:]]\r\n"," [[:digit:]]\r\n"," [[:alpha:]]\r\n"," [[:num:]]\r\n\r\n"],"correctAns":2},{"query":" Q20. When archiving files, which command will preserve all file attributes including ACLs and SELinux security context?","options":[" zip\r\n"," tar\r\n"," archive\r\n"," gzip\r\n\r\n"],"correctAns":2},{"query":" Q21. In a systemd-based OS, you can change the system hostname by editing /etc/hostname manually and then doing what?","options":[" Restart dhcpd.\r\n"," Run /etc/hostname.\r\n"," Nothing, the system notices automatically.\r\n"," Notify systemd to update it by restarting the systemd-hostnamed service.\r\n\r\n"],"correctAns":3},{"query":" Q22. What command would you use to resize an LVM volume group to include an additional physical volume?","options":[" vgadd\r\n"," vgresize\r\n"," vgappend\r\n"," vgextend\r\n\r\n"],"correctAns":4},{"query":" Q23. When would this system cron job run its task?","options":[" every minute of the hour\r\n"," every hour of every day\r\n"," every day at 1:00 AM\r\n"," only on Mondays\r\n\r\n"],"correctAns":3},{"query":" Q24. ifconfig has been deprecated. What command is now recommended for changing IP addresses in the live config?","options":[" netconf\r\n"," ipconfig\r\n"," ipman\r\n"," ip\r\n\r\n"],"correctAns":4},{"query":" Q25. You are managing an Apache web server on a system using SELinux. By default it cannot read personal webpages in users' home directories. What SELinux boolean would you set to allow this?","options":[" apache_enable_homedirs\r\n"," httpd_enable_userdirs\r\n"," httpd_enable_homedirs\r\n"," httpd_enable_userhome_dirs\r\n\r\n"],"correctAns":3},{"query":" Q26. Why doesn't passwd -l keep a user from logging in via other methods?","options":[" The passwd command is not used for locking passwords.\r\n"," There is no password -l option.\r\n"," It locks only the password, not the account, so users can still authenticate with keys or other methods.\r\n"," It does lock the account, keeping users from logging in even if they are using other authentication methods.\r\n\r\n"],"correctAns":3},{"query":" Q27. In the Bash shell, what is the difference between piping into | and piping into |&?","options":[" Piping into | pipes both stdout and stderr. Piping into |& pipes only stderr.\r\n"," Piping into | pipes stdout. Piping into |& pipes stdout and stderr.\r\n"," Piping into | pipes both stdout and stderr. Piping into |& pipes only stdout.\r\n"," Piping into | pipes stdout. Piping into |& pipes all open file descriptors.\r\n\r\n"],"correctAns":2},{"query":" Q28. Why is the passwd command able to modify the /etc/passwd file?","options":[" The kernel identifies it as one of the names of extended commands.\r\n"," It has the same name as the file it modifies.\r\n"," It has the SUID permission mode and is owned by root.\r\n"," It is a system administration command.\r\n\r\n"],"correctAns":3},{"query":" Q29. When a user deletes a file using the rm command, Linux will \\_.","options":[" always ask for confirmation\r\n"," back up the file before it deletes the file\r\n"," ask for confirmation if configured to do so\r\n"," never ask for confirmation\r\n\r\n"],"correctAns":3},{"query":" Q30. What is a major advantage of using Logical Volume Management (LVM)?","options":[" Access to a drive is faster than with standard partitions.\r\n"," Volumes can be resized smaller without unmounting them.\r\n"," Repairing filesystem errors is easier than with standard partitions.\r\n"," Volumes can be resized even if the free space is not contiguous.\r\n\r\n"],"correctAns":4},{"query":" Q31. What is one major difference between brace expansion and globs?","options":[" Globs create a list; brace expansion matches pattern.\r\n"," Brace expansion requires files to exist; globs do not.\r\n"," Brace expansion creates a list; globs match the list of pathnames.\r\n"," Globs get processes first and brace expansion later.\r\n\r\n"],"correctAns":3},{"query":" Q32. To remove all ACLs from a directory , use setfacl with which options?","options":[" -d\r\n"," -k\r\n"," -b\r\n"," -x\r\n\r\n"],"correctAns":3},{"query":" Q33. Which choice will not print \"Hello World\" in the terminal?","code":null,"options":[" A\r\n\r\n```bash\r\nmyVar = 5\r\n[[ $myVar -lt 10 ]] && echo \" Hello World\"\r\n```\r\n\r\n"," B\r\n\r\n```bash\r\nmyVar = 5\r\n[[ $myVar -lt 10 ]] || echo \" Hello World\"\r\n```\r\n\r\n"," C\r\n\r\n```bash\r\nmyVar = 5\r\n[[ $myVar -gt 10 ]] && echo \" Hello World\"\r\n```\r\n\r\n"," D\r\n\r\n```bash\r\nmyVar = 5\r\n[[ $myVar -gt 10 ]] || echo \" Hello World\"\r\n```\r\n\r\n"],"correctAns":3},{"query":" Q34. What is not inherited by child process?","options":[" shell aliases\r\n"," userid\r\n"," environmental variables\r\n"," scheduling priority\r\n\r\n"],"correctAns":1},{"query":" Q35. What NFS option allows the root user to access NFS shares as the root user?","options":[" no_admin_squash\r\n"," no_root_squash\r\n"," allow_root_access\r\n"," all_squash\r\n\r\n"],"correctAns":3},{"query":" Q36. You send an email to a remote client using the following syntax. What will be in the body of the email?","code":"bash\r\ndate | mail -s \"This is a remote test\" user1@rhhost1.localnet.com\r\n","options":[" \"This is a remote test\"\r\n"," the date, the time, and the words \"This is a remote test\"\r\n"," The email subject shows \"This is a remote test\" but the body of the email will be empty.\r\n"," the current date and time\r\n\r\n"],"correctAns":4},{"query":" Q37. What is the /etc/hosts file used for?","options":[" resolving the local name\r\n"," blocking sites using iptables\r\n"," setting the hostname\r\n"," configuring DNS name servers\r\n\r\n"],"correctAns":4},{"query":" Q38. In an extended regular expression, you would use (pattern){3} to match three instances of the pattern. How would you match the same thing with an extended glob?","options":[" 3(pattern)\r\n"," {0,3}(pattern}\r\n"," Occurrence quantifiers are not supported in Bash's version of extended globs, so this is not possible.\r\n"," {3}(pattern})\r\n\r\n"],"correctAns":3},{"query":" Q39. When configuring a Samba share, how would the engineering group be specified in the smb.conf?","options":[" Samba uses Linux operating system groups from the /etc/group file; just specify the group name.\r\n"," It would be preceded by a percent sign (%), such as %engineers.\r\n"," Use the group name by itself; Samba checks for its existence.\r\n"," It would be preceded by an @ symbol, such as @engineering.\r\n\r\n"],"correctAns":4},{"query":" Q40. To configure the Kerberos client, which command should you use to import the keytab file?","options":[" krb5-workstation\r\n"," ktutil\r\n"," pam_krb5\r\n"," kdb5_util\r\n\r\n"],"correctAns":2},{"query":" Q41. To search from the current cursor position up to the beginning of the file using VIM, type \\_ and then the search criteria.","options":[" ?\r\n"," \\\r\n"," /\r\n"," /search\r\n\r\n"],"correctAns":1},{"query":" Q42. What is the job of the NetworkManager daemon?","options":[" It is a graphical tool that manages network connections, including bonding and wireless networks.\r\n"," It is a security service that manages user access control of local network-aware services.\r\n"," It attempts to keep an active network connection available at all times.\r\n"," It is a command-line tool that manages network connections.\r\n\r\n"],"correctAns":4},{"query":" Q43. Why might would you use the usermod command ?","options":[" to log out a user\r\n"," to lock a user's account\r\n"," to change global user account settings\r\n"," to set a user's password\r\n\r\n"],"correctAns":3},{"query":" Q44. Extending an LVM volume group does what to the formatted filesystem?","options":[" It prepares the filesystem for use by defragmenting it.\r\n"," It resizes the filesystem to match the volume group size.\r\n"," It does nothing.\r\n"," It remounts the filesystem with the new size.\r\n\r\n"],"correctAns":3},{"query":" Q45. What would this sed command do?","code":"bash\r\nsed -E 's/[a-Z]{4}/($)/'  textfile.txt\r\n","options":[" It would substitute the letter with an ampersand (&).\r\n"," It would replace all letters in the textfile.txt file with ampersand (&).\r\n"," It would replace the first four letters with an ampersand (&).\r\n"," It would place parentheses around the first four letters of each line of textfile.txt.\r\n\r\n"],"correctAns":3},{"query":" Q46. With GNU tools such as GNU grep, awk, and sed, what is difference between regular expressions (BREs) and extended regular expressions (EREs)?","options":[" EREs support occurrence operators.\r\n"," Only the syntax differs.\r\n"," EREs support alternation.\r\n"," EREs can match groups.\r\n\r\n"],"correctAns":2},{"query":" Q47. Which kernel module do you need to load to use interface bonding?","options":[" bonding.\r\n"," team.\r\n"," netbond.\r\n"," bond.\r\n\r\n"],"correctAns":1},{"query":" Q48. What does this command string do?","code":"bash\r\nfind / -size -10K -exec ls -l {} \\;\r\n","options":[" It finds all files larger than 10k and long lists them using the ls command.\r\n"," It finds all files of size 10k using ls -l and hands them off to the find command to display.\r\n"," It finds all files in the / directory of size 10k and long lists them.\r\n"," It finds all files in the file system smaller than 10k and long lists them using the ls command.\r\n\r\n"],"correctAns":4},{"query":" Q49. To change the priority of multiple swap partitions, which file would you edit?","options":[" /proc/swapiness\r\n"," /etc/fstab\r\n"," /etc/mounts\r\n"," /etc/swaps\r\n\r\n"],"correctAns":2},{"query":" Q50. What would you type to list all systemd service unit files, whether they are enabled or not?","options":[" systemctl list-services.\r\n"," chkconfig --list-all\r\n"," systemctl list-unit-files -at service\r\n"," systemctl list-unit-files -t service\r\n\r\n"],"correctAns":3},{"query":" Q51. You can set Linux group passwords using which command?","options":[" gpasswd\r\n"," passwd\r\n"," editsam\r\n"," grouppass\r\n\r\n"],"correctAns":1},{"query":" Q52. With most GNU commands, if an option is a word, what will it be preceded by?","options":[" two dashes\r\n"," a backslash\r\n"," one dash\r\n"," nothing\r\n\r\n"],"correctAns":1},{"query":" Q53. What would happen if you have a script file named script that takes a long time to complete, and you type `nohup ./script &` in the command line?","options":[" The script will remain running in the background even if you reboot the system.\r\n"," The script will run in your terminal and you will not be able to do anything until it completes.\r\n"," The script will run in the background until you end the session.\r\n"," The script will run in the background and will continue running even if you end the session.\r\n\r\n"],"correctAns":3},{"query":" Q54. To elevate privileges using the `sudo` command, a user must **\\_**.","options":[" enter the root user's password\r\n"," enter their own password\r\n"," enter the sudo user's password\r\n"," change to the root group\r\n\r\n**Reference:**\r\nFrom docs: [A Cloud Guru's Blog](https://acloudguru.com/blog/engineering/linux-commands-for-beginners-sudo#:~:text=Sudo%20asks%20for%20your%20user%20password.%C2%A0%20Note%20that%20it%20is%20asking%20for%20your%20password%2C%20not%20the%20root%20password.)\r\n\r\n"],"correctAns":2},{"query":" Q55. When would this system cron job run its task?","options":[" on the 22nd of every month from June to May\r\n"," at 10:00 PM Monday to Friday\r\n"," every 22 minutes every day except weekends\r\n"," from 1:00 AM to 5:00 AM on the 22nd of every month\r\n\r\n"],"correctAns":2},{"query":" Q56. How does TCP Wrappers differ from a firewall?","options":[" Firewalls are only service specific, whereas TCP Wrappers can block all traffic.\r\n"," TCP Wrappers works at the network layer, so it blocks traffic before the firewall even sees it.\r\n"," Firewalls easily spawn commands to operate on connection data, whereas TCP Wrappers cannot.\r\n"," TCP Wrappers works at the application layer, so it can make access decisions on encrypted data.\r\n\r\n**Note:** TCP Wrapper works on Application Layer but answer is not too much confirmed.\r\n\r\n"],"correctAns":4},{"query":" Q57. As root, you set execute permissions for user, group, and other on a directory. Now users can do what?","options":[" They can execute files in it.\r\n"," They can traverse it.\r\n"," They can read files in it.\r\n"," They can delete files in it.\r\n\r\n**Note:** This is correct because of the keyword \"directory\". More info at: https://www.tutorialspoint.com/unix/unix-file-permission.htm\r\n\r\n"],"correctAns":2},{"query":" Q58. What will this command print?","options":[" It will print nothing.\r\n"," Thu Jun 4 15:45:45 PDT 2020\r\n"," 0.6567708333333333\r\n"," 4\r\n\r\n"],"correctAns":4},{"query":" Q59. How can you improve this code snippet?","code":"\r\nif ls /etc/passwd &> /dev/null\r\nthen\r\n    echo \"exists\"\r\nfi\r\n","options":[" The code snippet cannot be improved, this is a valid way of checking for the existence of a file.\r\n"," Use Bash's built-in `[[ ]]` test conditions instead of the ls command.\r\n"," The redirect to `/dev/null` will silence the return code invalidating the conditional. Removing the redirect will solve this.\r\n"," The ls command will output the name of the file to the screen. Running ls in quiet mode will improve the code snippet.\r\n\r\n"],"correctAns":2},{"query":" Q60. Using a systemd-based distribution, you want to restrict the cron service from running either automatically or manually. Which command would you run?","options":[" systemctl disable crond\r\n"," systemctl disallow crond\r\n"," systemctl mask crond\r\n"," systemctl stop crond\r\n\r\n**Note:** This is the correct answer because \"mask\" prohibits all kinds of activation of the unit, including manual activation.\r\n"],"correctAns":3},{"query":" Q61. What issue might a user have when they mount a filesystem by partition path such as /dev/sdal in the /etc/fstab file?","options":[" The device order may change on boot, resulting in a system that will not boot properly.\r\n"," The user may run out of device letters.\r\n"," There are no issues with referring to partitions by their partition path.\r\n"," It is more difficult identifying mounted devices by partition path.\r\n\r\nisse letter drift problem, mentionned here https://access.redhat.com/discussions/6004221\r\n\r\n"],"correctAns":1},{"query":" Q62. Which option would you choose to force grep to use a basic regular expression (BRE)?","options":[" grep -E\r\n"," grep -B\r\n"," grep -e\r\n"," grep -G\r\n\r\n"],"correctAns":4},{"query":" Q63. An rsyslogd filter determines which items in a log file to act on. What is it made up of?","options":[" a facility and an action\r\n"," a filter and an action\r\n"," a facility and a priority\r\n"," a filter and a priority\r\n\r\n"],"correctAns":2},{"query":" Q64. Which choice is a Network Manager tool used to configure network connections from the GUI?","options":[" nmcli\r\n"," ip\r\n"," Onmtui\r\n"," nm-connection-editor\r\n\r\n"],"correctAns":4},{"query":" Q65. What will not happen if you run the make command without parameters?","options":[" It will clean up all previously generated binaries and perform a new build.\r\n"," It will run rules of compilation and building.\r\n"," It will look for a file called makefile in your current directory.\r\n"," It will build only programs that need to be rebuilt.\r\n\r\n"],"correctAns":1},{"query":" Q66. Most commands that support SELinux use which option to display SELinux security context?","options":[" -S\r\n"," --selinux\r\n"," --MAC\r\n"," -Z\r\n\r\n"],"correctAns":4},{"query":" Q67. What is the difference between the whoami and logname commands?","options":[" whoami and logname provide the same information.\r\n"," whoami tells who are you currently, and logname tells who you were when you logged in initially.\r\n"," logname specifies the name of the login log file, and whoami prints the logged in username.\r\n"," whoami shows you who logged in as initially, and logname shows who are you currently.\r\n\r\n"],"correctAns":2},{"query":" Q68. What is the command to create an associative array in Bash?","options":[" declare -a\r\n"," aarray\r\n"," array -a\r\n"," declare -A\r\n\r\n"],"correctAns":4},{"query":" Q69. What tool Should you use to replace a physical volum in LVM?","options":[" lvcopy\r\n"," tar\r\n"," pvmove\r\n"," cp\r\n\r\n"],"correctAns":3},{"query":" Q70. What is the difference the `==` and `=~` comparison operators when used in BASH double square bracket `if` conditionals?","options":[" The `==` operator performs a string comparison; `=~` performs a regex comparison.\r\n"," The `==` operator performs a string comparison; `=~` performs a glob pattern comparison.\r\n"," The `=~` operator performs a string comparison; `==` performs a regex comparison.\r\n"," There is no `=~` operator in BASH `if` conditionals.\r\n\r\n"],"correctAns":1},{"query":" Q71. What is the difference between these two lines of code?","code":"shell\r\n   echo \"data\" | tee -a file.txt\r\n   echo \"data\" >> file.txt\r\n","options":[" The first line will append the word `data` to file.txt and output it on the screen. The second line will append the word `data` only to file.txt.\r\n"," They are the same.\r\n"," The first line will append the word `data` to file.txt and there will be no output on the screen. The second line will output the word `data` on the screen and append it to `file.txt`\r\n"," Both lines will overwrite file.txt with the word data.\r\n\r\n"],"correctAns":1},{"query":" Q72. Using backreferences in a POSIX regular expression, which word would this pattern match?","code":"shell\r\n(ss).*\\1\r\n","options":[" addressee\r\n"," possess\r\n"," barrenness\r\n"," successfully\r\n\r\n"],"correctAns":2},{"query":" Q73. What is the purpose of a Mail Transport Agent (MTA)?","options":[" It transports the mail from user's computer to the mail server.\r\n"," It accepts mail and adds it to the mail queue for further processing.\r\n"," It stores the mail in a mail queue waiting for the MUA to download it.\r\n"," It transports mail from one mail server to another.\r\n"],"correctAns":4}]
+[
+    {
+        "query": " Q1. To mount a drive by its ID, what command would you use first to retrieve it?",
+        "options": [
+            " df -h\r\n",
+            " listid\r\n",
+            " ls -l\r\n",
+            " blkid\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q2. Linux file access control lists (ACLs) are \\_.",
+        "options": [
+            " discretionary access control system permissions layered over standard Linux permissions\r\n",
+            " mandatory access control system permissions layered over standard Linux permissions\r\n",
+            " a type of firewall for Linux\r\n",
+            " the same as standard Linux permissions\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q3. When using iproute2, how do you show routing information for an IPv6 network?",
+        "options": [
+            " route -ipv6\r\n",
+            " route\r\n",
+            " ip -6 route show\r\n",
+            " ip route show\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q4. What does this command string do?",
+        "code": "bash\r\nfind / -size +10M -exec ls -l {} ;\r\n",
+        "options": [
+            " It finds all files using ls -l and hands them off to the find command to display.\r\n",
+            " It finds all files older than 10 minutes and long lists them using the ls command.\r\n",
+            " It finds all files larger than 10 MB and long lists them using the ls command.\r\n",
+            " It uses the ls command to find all files in the filesystem matching the {} wildcard.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q5. What would this locate command show?",
+        "code": "bash\r\nlocate --regexp '^/usr.*pixmaps.*jpg$'\r\n",
+        "options": [
+            " all files in a directory named pixmaps\r\n",
+            " all files ending in \".jpg\"\r\n",
+            " all file paths that start with \"/usr\", include the word \"pixmaps\", and end with \".jpg\"\r\n",
+            " all file paths that include \"/usr/pixmaps\" and end with \".jpg\"\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q6. Which command allows you to do packet analysis from the command line?",
+        "options": [
+            " wireshark\r\n",
+            " ethtool\r\n",
+            " netstat\r\n",
+            " tcpdump\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q7. Which command will tell you how long a system has been running?",
+        "options": [
+            " log\r\n",
+            " uptime\r\n",
+            " runtime\r\n",
+            " access\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q8. How would you describe PCP (Performance Co-Pilot)?",
+        "options": [
+            " It is an application testing suite used to profile programming code.\r\n",
+            " It is a local command used for monitoring local system resources in real time.\r\n",
+            " It is a set of tools, services, and libraries for gathering and analyzing performance measures.\r\n",
+            " It is a tool designed to change system configuration for purposes of optimization.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q9. You want to resolve a long list of DNS names using dig. What should you do?",
+        "options": [
+            " Create a text file including all names and use the -f option of dig.\r\n",
+            " Type in each query manually.\r\n",
+            " Write a shell script to send multiple dig queries to the DNS server.\r\n",
+            " Save the DNS names in an SQL database and process it with dig.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q10. What would this command output?",
+        "code": "\r\nps -e --format uid,pid,ppid,%cpu,cmd\r\n",
+        "options": [
+            " the user ID, process ID, parent process ID, CPU usage, and command name of a process\r\n",
+            " the user ID, group ID, parent process ID, CPU usage, and command name of a process\r\n",
+            " the UUID, process ID, parent process ID, CPU usage, and command name of a process\r\n",
+            " all of these answers\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q11. Which command in Bash executes the last line in the shell history that starts with ls?",
+        "options": [
+            " !\r\n",
+            " !!\r\n",
+            " !\\*\r\n",
+            " !ls\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q12. The ssh-copy-id command copies \\_ to the remote host.",
+        "options": [
+            " both private and public keys\r\n",
+            " the ssh public key\r\n",
+            " the ssh private key\r\n",
+            " a fingerprint file\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q13. What command is used to determine the amount of disk usage for a directory?",
+        "options": [
+            " find\r\n",
+            " fdisk\r\n",
+            " du\r\n",
+            " df\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q14. A backup drive was created using dd to make a bit-for-bit copy. When the drive is inserted into an iSCSI target before it is booted up, the data appears to be missing. What happened?",
+        "options": [
+            " The backup drive is corrupted and needs to be re-created.\r\n",
+            " When the backup drive was duplicated, the label was as well. When booted, the system mounted the old duplicated drive by its identical label.\r\n",
+            " There is a conflict between the physical location of the backup drive and the original drive.\r\n",
+            " The backup process went wrong, and the old drive was duplicated over the original drive.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q15. What is the key difference between a redirect (>) and piping to the tee command?",
+        "options": [
+            " The tee command sends output only to STDOUT and STDERR.\r\n",
+            " A redirect sends output to STDOUT and a file, whereas a tee sends output only to STDOUT.\r\n",
+            " Nothing, they are the same.\r\n",
+            " The tee command sends output to STDOUT and a file, whereas a redirect sends output only to a file.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q16. What does the /etc/nsswitch.conf file manage?",
+        "options": [
+            " priority of one DNS server over another\r\n",
+            " per network interface DNS server configuration\r\n",
+            " alternative DNS services\r\n",
+            " sources for name service information\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q17. Assume the variable myNumber holds a string consisting of 10 digits. What will this command output?",
+        "code": "bash\r\necho \\$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'\r\n",
+        "options": [
+            " It will only match digits—and since the string has only digits, the command will output the same number without changes.\r\n",
+            " It will output the same 10-digit number, but every digit will be inside parentheses.\r\n",
+            " It will output the entire 10-digit number inside parentheses.\r\n",
+            " It will output the same 10-digit number, but the first 3 digits will be inside parentheses.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q18. Packages can be downloaded but not installed with yum or dnf by specifying which option?",
+        "options": [
+            " None of these answers. yum does not support downloading packages without installing them.\r\n",
+            " --downloaddir\r\n",
+            " -d\r\n",
+            " --downloadonly\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q19. What character class is equal to this set?",
+        "options": [
+            " [[:alnum:]]\r\n",
+            " [[:digit:]]\r\n",
+            " [[:alpha:]]\r\n",
+            " [[:num:]]\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q20. When archiving files, which command will preserve all file attributes including ACLs and SELinux security context?",
+        "options": [
+            " zip\r\n",
+            " tar\r\n",
+            " archive\r\n",
+            " gzip\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q21. In a systemd-based OS, you can change the system hostname by editing /etc/hostname manually and then doing what?",
+        "options": [
+            " Restart dhcpd.\r\n",
+            " Run /etc/hostname.\r\n",
+            " Nothing, the system notices automatically.\r\n",
+            " Notify systemd to update it by restarting the systemd-hostnamed service.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q22. What command would you use to resize an LVM volume group to include an additional physical volume?",
+        "options": [
+            " vgadd\r\n",
+            " vgresize\r\n",
+            " vgappend\r\n",
+            " vgextend\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q23. When would this system cron job run its task?",
+        "options": [
+            " every minute of the hour\r\n",
+            " every hour of every day\r\n",
+            " every day at 1:00 AM\r\n",
+            " only on Mondays\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q24. ifconfig has been deprecated. What command is now recommended for changing IP addresses in the live config?",
+        "options": [
+            " netconf\r\n",
+            " ipconfig\r\n",
+            " ipman\r\n",
+            " ip\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q25. You are managing an Apache web server on a system using SELinux. By default it cannot read personal webpages in users' home directories. What SELinux boolean would you set to allow this?",
+        "options": [
+            " apache_enable_homedirs\r\n",
+            " httpd_enable_userdirs\r\n",
+            " httpd_enable_homedirs\r\n",
+            " httpd_enable_userhome_dirs\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q26. Why doesn't passwd -l keep a user from logging in via other methods?",
+        "options": [
+            " The passwd command is not used for locking passwords.\r\n",
+            " There is no password -l option.\r\n",
+            " It locks only the password, not the account, so users can still authenticate with keys or other methods.\r\n",
+            " It does lock the account, keeping users from logging in even if they are using other authentication methods.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q27. In the Bash shell, what is the difference between piping into | and piping into |&?",
+        "options": [
+            " Piping into | pipes both stdout and stderr. Piping into |& pipes only stderr.\r\n",
+            " Piping into | pipes stdout. Piping into |& pipes stdout and stderr.\r\n",
+            " Piping into | pipes both stdout and stderr. Piping into |& pipes only stdout.\r\n",
+            " Piping into | pipes stdout. Piping into |& pipes all open file descriptors.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q28. Why is the passwd command able to modify the /etc/passwd file?",
+        "options": [
+            " The kernel identifies it as one of the names of extended commands.\r\n",
+            " It has the same name as the file it modifies.\r\n",
+            " It has the SUID permission mode and is owned by root.\r\n",
+            " It is a system administration command.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q29. When a user deletes a file using the rm command, Linux will \\_.",
+        "options": [
+            " always ask for confirmation\r\n",
+            " back up the file before it deletes the file\r\n",
+            " ask for confirmation if configured to do so\r\n",
+            " never ask for confirmation\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q30. What is a major advantage of using Logical Volume Management (LVM)?",
+        "options": [
+            " Access to a drive is faster than with standard partitions.\r\n",
+            " Volumes can be resized smaller without unmounting them.\r\n",
+            " Repairing filesystem errors is easier than with standard partitions.\r\n",
+            " Volumes can be resized even if the free space is not contiguous.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q31. What is one major difference between brace expansion and globs?",
+        "options": [
+            " Globs create a list; brace expansion matches pattern.\r\n",
+            " Brace expansion requires files to exist; globs do not.\r\n",
+            " Brace expansion creates a list; globs match the list of pathnames.\r\n",
+            " Globs get processes first and brace expansion later.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q32. To remove all ACLs from a directory , use setfacl with which options?",
+        "options": [
+            " -d\r\n",
+            " -k\r\n",
+            " -b\r\n",
+            " -x\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q33. Which choice will not print \"Hello World\" in the terminal?",
+        "code": null,
+        "options": [
+            " A\r\n\r\n```bash\r\nmyVar = 5\r\n[[ $myVar -lt 10 ]] && echo \" Hello World\"\r\n```\r\n\r\n",
+            " B\r\n\r\n```bash\r\nmyVar = 5\r\n[[ $myVar -lt 10 ]] || echo \" Hello World\"\r\n```\r\n\r\n",
+            " C\r\n\r\n```bash\r\nmyVar = 5\r\n[[ $myVar -gt 10 ]] && echo \" Hello World\"\r\n```\r\n\r\n",
+            " D\r\n\r\n```bash\r\nmyVar = 5\r\n[[ $myVar -gt 10 ]] || echo \" Hello World\"\r\n```\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q34. What is not inherited by child process?",
+        "options": [
+            " shell aliases\r\n",
+            " userid\r\n",
+            " environmental variables\r\n",
+            " scheduling priority\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q35. What NFS option allows the root user to access NFS shares as the root user?",
+        "options": [
+            " no_admin_squash\r\n",
+            " no_root_squash\r\n",
+            " allow_root_access\r\n",
+            " all_squash\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q36. You send an email to a remote client using the following syntax. What will be in the body of the email?",
+        "code": "bash\r\ndate | mail -s \"This is a remote test\" user1@rhhost1.localnet.com\r\n",
+        "options": [
+            " \"This is a remote test\"\r\n",
+            " the date, the time, and the words \"This is a remote test\"\r\n",
+            " The email subject shows \"This is a remote test\" but the body of the email will be empty.\r\n",
+            " the current date and time\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q37. What is the /etc/hosts file used for?",
+        "options": [
+            " resolving the local name\r\n",
+            " blocking sites using iptables\r\n",
+            " setting the hostname\r\n",
+            " configuring DNS name servers\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q38. In an extended regular expression, you would use (pattern){3} to match three instances of the pattern. How would you match the same thing with an extended glob?",
+        "options": [
+            " 3(pattern)\r\n",
+            " {0,3}(pattern}\r\n",
+            " Occurrence quantifiers are not supported in Bash's version of extended globs, so this is not possible.\r\n",
+            " {3}(pattern})\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q39. When configuring a Samba share, how would the engineering group be specified in the smb.conf?",
+        "options": [
+            " Samba uses Linux operating system groups from the /etc/group file; just specify the group name.\r\n",
+            " It would be preceded by a percent sign (%), such as %engineers.\r\n",
+            " Use the group name by itself; Samba checks for its existence.\r\n",
+            " It would be preceded by an @ symbol, such as @engineering.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q40. To configure the Kerberos client, which command should you use to import the keytab file?",
+        "options": [
+            " krb5-workstation\r\n",
+            " ktutil\r\n",
+            " pam_krb5\r\n",
+            " kdb5_util\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q41. To search from the current cursor position up to the beginning of the file using VIM, type \\_ and then the search criteria.",
+        "options": [
+            " ?\r\n",
+            " \\\r\n",
+            " /\r\n",
+            " /search\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q42. What is the job of the NetworkManager daemon?",
+        "options": [
+            " It is a graphical tool that manages network connections, including bonding and wireless networks.\r\n",
+            " It is a security service that manages user access control of local network-aware services.\r\n",
+            " It attempts to keep an active network connection available at all times.\r\n",
+            " It is a command-line tool that manages network connections.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q43. Why might would you use the usermod command ?",
+        "options": [
+            " to log out a user\r\n",
+            " to lock a user's account\r\n",
+            " to change global user account settings\r\n",
+            " to set a user's password\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q44. Extending an LVM volume group does what to the formatted filesystem?",
+        "options": [
+            " It prepares the filesystem for use by defragmenting it.\r\n",
+            " It resizes the filesystem to match the volume group size.\r\n",
+            " It does nothing.\r\n",
+            " It remounts the filesystem with the new size.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q45. What would this sed command do?",
+        "code": "bash\r\nsed -E 's/[a-Z]{4}/($)/'  textfile.txt\r\n",
+        "options": [
+            " It would substitute the letter with an ampersand (&).\r\n",
+            " It would replace all letters in the textfile.txt file with ampersand (&).\r\n",
+            " It would replace the first four letters with an ampersand (&).\r\n",
+            " It would place parentheses around the first four letters of each line of textfile.txt.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q46. With GNU tools such as GNU grep, awk, and sed, what is difference between regular expressions (BREs) and extended regular expressions (EREs)?",
+        "options": [
+            " EREs support occurrence operators.\r\n",
+            " Only the syntax differs.\r\n",
+            " EREs support alternation.\r\n",
+            " EREs can match groups.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q47. Which kernel module do you need to load to use interface bonding?",
+        "options": [
+            " bonding.\r\n",
+            " team.\r\n",
+            " netbond.\r\n",
+            " bond.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q48. What does this command string do?",
+        "code": "bash\r\nfind / -size -10K -exec ls -l {} \\;\r\n",
+        "options": [
+            " It finds all files larger than 10k and long lists them using the ls command.\r\n",
+            " It finds all files of size 10k using ls -l and hands them off to the find command to display.\r\n",
+            " It finds all files in the / directory of size 10k and long lists them.\r\n",
+            " It finds all files in the file system smaller than 10k and long lists them using the ls command.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q49. To change the priority of multiple swap partitions, which file would you edit?",
+        "options": [
+            " /proc/swapiness\r\n",
+            " /etc/fstab\r\n",
+            " /etc/mounts\r\n",
+            " /etc/swaps\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q50. What would you type to list all systemd service unit files, whether they are enabled or not?",
+        "options": [
+            " systemctl list-services.\r\n",
+            " chkconfig --list-all\r\n",
+            " systemctl list-unit-files -at service\r\n",
+            " systemctl list-unit-files -t service\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q51. You can set Linux group passwords using which command?",
+        "options": [
+            " gpasswd\r\n",
+            " passwd\r\n",
+            " editsam\r\n",
+            " grouppass\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q52. With most GNU commands, if an option is a word, what will it be preceded by?",
+        "options": [
+            " two dashes\r\n",
+            " a backslash\r\n",
+            " one dash\r\n",
+            " nothing\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q53. What would happen if you have a script file named script that takes a long time to complete, and you type `nohup ./script &` in the command line?",
+        "options": [
+            " The script will remain running in the background even if you reboot the system.\r\n",
+            " The script will run in your terminal and you will not be able to do anything until it completes.\r\n",
+            " The script will run in the background until you end the session.\r\n",
+            " The script will run in the background and will continue running even if you end the session.\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q54. To elevate privileges using the `sudo` command, a user must **\\_**.",
+        "options": [
+            " enter the root user's password\r\n",
+            " enter their own password\r\n",
+            " enter the sudo user's password\r\n",
+            " change to the root group\r\n\r\n**Reference:**\r\nFrom docs: [A Cloud Guru's Blog](https://acloudguru.com/blog/engineering/linux-commands-for-beginners-sudo#:~:text=Sudo%20asks%20for%20your%20user%20password.%C2%A0%20Note%20that%20it%20is%20asking%20for%20your%20password%2C%20not%20the%20root%20password.)\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q55. When would this system cron job run its task?",
+        "options": [
+            " on the 22nd of every month from June to May\r\n",
+            " at 10:00 PM Monday to Friday\r\n",
+            " every 22 minutes every day except weekends\r\n",
+            " from 1:00 AM to 5:00 AM on the 22nd of every month\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q56. How does TCP Wrappers differ from a firewall?",
+        "options": [
+            " Firewalls are only service specific, whereas TCP Wrappers can block all traffic.\r\n",
+            " TCP Wrappers works at the network layer, so it blocks traffic before the firewall even sees it.\r\n",
+            " Firewalls easily spawn commands to operate on connection data, whereas TCP Wrappers cannot.\r\n",
+            " TCP Wrappers works at the application layer, so it can make access decisions on encrypted data.\r\n\r\n**Note:** TCP Wrapper works on Application Layer but answer is not too much confirmed.\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q57. As root, you set execute permissions for user, group, and other on a directory. Now users can do what?",
+        "options": [
+            " They can execute files in it.\r\n",
+            " They can traverse it.\r\n",
+            " They can read files in it.\r\n",
+            " They can delete files in it.\r\n\r\n**Note:** This is correct because of the keyword \"directory\". More info at: https://www.tutorialspoint.com/unix/unix-file-permission.htm\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q58. What will this command print?",
+        "options": [
+            " It will print nothing.\r\n",
+            " Thu Jun 4 15:45:45 PDT 2020\r\n",
+            " 0.6567708333333333\r\n",
+            " 4\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q59. How can you improve this code snippet?",
+        "code": "\r\nif ls /etc/passwd &> /dev/null\r\nthen\r\n    echo \"exists\"\r\nfi\r\n",
+        "options": [
+            " The code snippet cannot be improved, this is a valid way of checking for the existence of a file.\r\n",
+            " Use Bash's built-in `[[ ]]` test conditions instead of the ls command.\r\n",
+            " The redirect to `/dev/null` will silence the return code invalidating the conditional. Removing the redirect will solve this.\r\n",
+            " The ls command will output the name of the file to the screen. Running ls in quiet mode will improve the code snippet.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q60. Using a systemd-based distribution, you want to restrict the cron service from running either automatically or manually. Which command would you run?",
+        "options": [
+            " systemctl disable crond\r\n",
+            " systemctl disallow crond\r\n",
+            " systemctl mask crond\r\n",
+            " systemctl stop crond\r\n\r\n**Note:** This is the correct answer because \"mask\" prohibits all kinds of activation of the unit, including manual activation.\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q61. What issue might a user have when they mount a filesystem by partition path such as /dev/sdal in the /etc/fstab file?",
+        "options": [
+            " The device order may change on boot, resulting in a system that will not boot properly.\r\n",
+            " The user may run out of device letters.\r\n",
+            " There are no issues with referring to partitions by their partition path.\r\n",
+            " It is more difficult identifying mounted devices by partition path.\r\n\r\nisse letter drift problem, mentionned here https://access.redhat.com/discussions/6004221\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q62. Which option would you choose to force grep to use a basic regular expression (BRE)?",
+        "options": [
+            " grep -E\r\n",
+            " grep -B\r\n",
+            " grep -e\r\n",
+            " grep -G\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q63. An rsyslogd filter determines which items in a log file to act on. What is it made up of?",
+        "options": [
+            " a facility and an action\r\n",
+            " a filter and an action\r\n",
+            " a facility and a priority\r\n",
+            " a filter and a priority\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q64. Which choice is a Network Manager tool used to configure network connections from the GUI?",
+        "options": [
+            " nmcli\r\n",
+            " ip\r\n",
+            " Onmtui\r\n",
+            " nm-connection-editor\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q65. What will not happen if you run the make command without parameters?",
+        "options": [
+            " It will clean up all previously generated binaries and perform a new build.\r\n",
+            " It will run rules of compilation and building.\r\n",
+            " It will look for a file called makefile in your current directory.\r\n",
+            " It will build only programs that need to be rebuilt.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q66. Most commands that support SELinux use which option to display SELinux security context?",
+        "options": [
+            " -S\r\n",
+            " --selinux\r\n",
+            " --MAC\r\n",
+            " -Z\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q67. What is the difference between the whoami and logname commands?",
+        "options": [
+            " whoami and logname provide the same information.\r\n",
+            " whoami tells who are you currently, and logname tells who you were when you logged in initially.\r\n",
+            " logname specifies the name of the login log file, and whoami prints the logged in username.\r\n",
+            " whoami shows you who logged in as initially, and logname shows who are you currently.\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q68. What is the command to create an associative array in Bash?",
+        "options": [
+            " declare -a\r\n",
+            " aarray\r\n",
+            " array -a\r\n",
+            " declare -A\r\n\r\n"
+        ],
+        "correctAns": 4
+    },
+    {
+        "query": " Q69. What tool Should you use to replace a physical volum in LVM?",
+        "options": [
+            " lvcopy\r\n",
+            " tar\r\n",
+            " pvmove\r\n",
+            " cp\r\n\r\n"
+        ],
+        "correctAns": 3
+    },
+    {
+        "query": " Q70. What is the difference the `==` and `=~` comparison operators when used in BASH double square bracket `if` conditionals?",
+        "options": [
+            " The `==` operator performs a string comparison; `=~` performs a regex comparison.\r\n",
+            " The `==` operator performs a string comparison; `=~` performs a glob pattern comparison.\r\n",
+            " The `=~` operator performs a string comparison; `==` performs a regex comparison.\r\n",
+            " There is no `=~` operator in BASH `if` conditionals.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q71. What is the difference between these two lines of code?",
+        "code": "shell\r\n   echo \"data\" | tee -a file.txt\r\n   echo \"data\" >> file.txt\r\n",
+        "options": [
+            " The first line will append the word `data` to file.txt and output it on the screen. The second line will append the word `data` only to file.txt.\r\n",
+            " They are the same.\r\n",
+            " The first line will append the word `data` to file.txt and there will be no output on the screen. The second line will output the word `data` on the screen and append it to `file.txt`\r\n",
+            " Both lines will overwrite file.txt with the word data.\r\n\r\n"
+        ],
+        "correctAns": 1
+    },
+    {
+        "query": " Q72. Using backreferences in a POSIX regular expression, which word would this pattern match?",
+        "code": "shell\r\n(ss).*\\1\r\n",
+        "options": [
+            " addressee\r\n",
+            " possess\r\n",
+            " barrenness\r\n",
+            " successfully\r\n\r\n"
+        ],
+        "correctAns": 2
+    },
+    {
+        "query": " Q73. What is the purpose of a Mail Transport Agent (MTA)?",
+        "options": [
+            " It transports the mail from user's computer to the mail server.\r\n",
+            " It accepts mail and adds it to the mail queue for further processing.\r\n",
+            " It stores the mail in a mail queue waiting for the MUA to download it.\r\n",
+            " It transports mail from one mail server to another.\r\n"
+        ],
+        "correctAns": 4
+    }
+]
