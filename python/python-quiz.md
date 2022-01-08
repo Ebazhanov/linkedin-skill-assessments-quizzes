@@ -1502,4 +1502,14 @@ print (f"The number is {number}")
 - [ ] matrix = matrix(vector,100,100)
 - [ ] matrix = vector.to_matrix(100,100)
 - [ ] matrix = (vector.shape = (100,100))
-- [ ] matrix = vector.reshape(100,100)
+- [x] matrix = vector.reshape(100,100)
+
+**example**
+
+```python
+import numpy as np 
+vector = np.random.rand(10000)
+matrix = a.reshape(100, 100)
+print(matrix.shape)
+(100, 100)
+```
