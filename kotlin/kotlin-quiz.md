@@ -901,3 +901,10 @@ val binaryStr = "00001111"
 - [ ] `val myInt = binaryStr.toInt("0b")`
 - [ ] `val myInt = binaryStr.toInt()`
 - [x] `val myInt = binaryStr.toInt(2)`
+
+#### Q75. In a Kotlin program, which lines can be marked with a label
+
+- [ ] `Any program line can be marked with a label`
+- [ ] `Any statement can be marked with a label`
+- [x] `Any expression can be marked with a lable`
+- [ ] `Only the beginning of loops can be marked with a label`
