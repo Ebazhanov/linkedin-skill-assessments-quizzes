@@ -6813,6 +6813,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "griessej",
+      "name": "Jan Grießer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29068686?v=4",
+      "profile": "https://www.imtek.uni-freiburg.de/professuren/simulation/simulation",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
