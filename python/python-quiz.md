@@ -1507,7 +1507,7 @@ print (f"The number is {number}")
 **example**
 
 ```python
-import numpy as np 
+import numpy as np
 vector = np.random.rand(10000)
 matrix = a.reshape(100, 100)
 print(matrix.shape)
