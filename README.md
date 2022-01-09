@@ -12,15 +12,19 @@
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
 
-### PLEASE
+#### PLEASE 🙏
 
 Add explanation (`or reference link`) to your answers. That will help anyone to better learn concepts they might not have a great understanding about.
 
-#### Announcement:
+#### Announcement 🎉:
 
-If you want to meet each other or discuss quiz related problems join the `Discord` chat
+1. If you want to meet each other or discuss quiz related problems join the `Discord` chat
 
 [![Join our Discord server!](https://invidget.switchblade.xyz/NKCyjjw3MW?theme=light)](https://discord.gg/NKCyjjw3MW)
+
+2. Playground before taking quiz https://linkthein.vercel.app/ :fire:
+
+source code is here https://github.com/linkedin-faq
 
 ### Table of Contents
 
