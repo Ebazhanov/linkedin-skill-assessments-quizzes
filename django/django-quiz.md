@@ -562,7 +562,7 @@ model=Planet
 #### Q60. In Django, what are used to customize the data that is sent to the templates?
 
 - [ ] models
-- [ ] views
+- [x] views
 - [ ] forms
 - [ ] serializers
 
