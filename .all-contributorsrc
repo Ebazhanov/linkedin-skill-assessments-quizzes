@@ -6833,6 +6833,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "jezmck",
+      "name": "Jez McKean",
+      "avatar_url": "https://avatars.githubusercontent.com/u/89996?v=4",
+      "profile": "http://jezmck.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
