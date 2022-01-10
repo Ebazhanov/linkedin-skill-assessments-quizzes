@@ -906,5 +906,13 @@ val binaryStr = "00001111"
 
 - [ ] `Any program line can be marked with a label`
 - [ ] `Any statement can be marked with a label`
-- [x] `Any expression can be marked with a lable`
+- [x] `Any expression can be marked with a lable` ([reference](https://agrawalsuneet.github.io/blogs/label-reference-in-kotlin/))
 - [ ] `Only the beginning of loops can be marked with a label`
+
+
+#### Q76. All classes in Kotlin inherit from which superclass?
+
+- [ ] `Default`
+- [ ] `Super`
+- [x] `Any` ([reference](https://kotlinlang.org/docs/inheritance.html))
+- [ ] `Object`
