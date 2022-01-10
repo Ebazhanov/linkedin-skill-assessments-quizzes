@@ -540,7 +540,7 @@ console.log(currencies);
 - [ ] when HTML has loaded, but not necessarily JavaScript, CSS, or images
 - [ ] when the user can see the webpage on the screen
 
-[Source: MDN Docs](https://web.dev/interactive/)
+[Source: Web.dev](https://web.dev/interactive/)
 
 #### Q57. What is yarn?
 
