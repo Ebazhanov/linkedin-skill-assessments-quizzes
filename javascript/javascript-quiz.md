@@ -1531,8 +1531,8 @@ console.log(myFunction(myNumbers));
 let rainForestAcres = 10;
 let animals = 0;
 
-while(rainForestAcres < 13 || animals <= 2){
-  rainForestAcres++
+while (rainForestAcres < 13 || animals <= 2) {
+  rainForestAcres++;
   animals += 2;
 }
 
@@ -1549,33 +1549,40 @@ console.log(animals);
 #### Q115. Which snippet could you add to this code to print "YOU GOT THIS" to the console?
 
 ```js
-let cipherText = [..."YZOGUT QGMORTZ MTRHTILS"];
-let plainText = "";
+let cipherText = [...'YZOGUT QGMORTZ MTRHTILS'];
+let plainText = '';
 
 /* Missing Snippet */
 
 console.log(plainText); //Prints YOU GOT THIS
 ```
 
-- [ ] ```js
-for (let key of cipherText.keys()) {
-    plainText += key % 2 === 0 ? key : " ";
-}```
+- [ ] ````js
+      for (let key of cipherText.keys()) {
+          plainText += key % 2 === 0 ? key : " ";
+      }```
 
-- [ ] ```js
-for (let [index, value] of cipherText.entries()) {
-    plainText += (index % 2 !== 0) ? value : "";
-}```
+      ````
 
-- [x] ```js
-for (let [index, value] of cipherText.entries()) {
-    plainText += (index % 2 === 0) ? value : "";
-}```
+- [ ] ````js
+      for (let [index, value] of cipherText.entries()) {
+          plainText += (index % 2 !== 0) ? value : "";
+      }```
 
-- [ ] ```js
-for (let value of cipherText) {
-    plainText += value;
-}```
+      ````
+
+- [x] ````js
+      for (let [index, value] of cipherText.entries()) {
+          plainText += (index % 2 === 0) ? value : "";
+      }```
+
+      ````
+
+- [ ] ````js
+      for (let value of cipherText) {
+          plainText += value;
+      }```
+      ````
 
 [Reference MDN JavaScript Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 [Reference MDN JavaScript Array entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
