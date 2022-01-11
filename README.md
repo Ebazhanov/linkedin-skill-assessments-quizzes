@@ -22,7 +22,10 @@ Add explanation (`or reference link`) to your answers. That will help anyone to 
 
 [![Join our Discord server!](https://invidget.switchblade.xyz/NKCyjjw3MW?theme=light)](https://discord.gg/NKCyjjw3MW)
 
-2. Playground before taking quiz https://linkthein.vercel.app/ :fire:
+2. Playground before taking quiz 
+> :one: https://linkthein.vercel.app/
+> 
+> :two: https://linkedin-faq.github.io/md2practice/
 
 source code is here https://github.com/linkedin-faq
 
