@@ -935,3 +935,16 @@ fun sort(list: List<T>): List <T> {
 - [ ] final means that this is the only file that can use the class.
 - [x] final means that you cannot extend the class.([reference](https://kotlinlang.org/docs/inheritance.html )) 
 - [ ] final classes cannot be used in the finally section of a try/catch block.
+
+#### Q79. You have created an array to hold three strings. When you run the code bellow, the compiler displays an error. Why does the code fail?
+
+```
+val names = arrayOf<String>(3)
+names[3]= "Delta"
+
+```
+
+- [x] Arrays use zero-based indexes. The value 3 is outside of the array's bounds
+- [ ] You accessed the element with an index but should have used.set().
+- [ ] You declared the array with val but should have used var
+- [ ] You cannot changes the value of an element of an array. You should have used a mutable list.
