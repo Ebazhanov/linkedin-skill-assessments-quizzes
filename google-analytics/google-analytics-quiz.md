@@ -541,3 +541,24 @@
 - [x] from the Secondary dimension menu
 - [ ] all of these answers
 - [ ] with a table filter
+
+### Q76. You operate a website that has a three-step sign-up process. However, each step of the sign-up process loads at the same URL. If you wanted to assign a unique URL to each step and track it within Google Analytics as a pageview, what would you do?
+
+- [ ] Use virtual pageviews.
+- [ ] Configure a campaign URL.
+- [ ] Use the preview tag.
+- [x] Use event tracking.
+
+### Q77. It is a best practice to always have one of what kind of view?
+
+- [ ] property
+- [ ] custom
+- [ ] segmented
+- [x] unfiltered
+
+### Q78. You send an email including a link to your website without any UTM parameters. A visitor clicks that link from a secured (https) email platform such as Gmail. What source is shown for that traffic?
+
+- [ ] Email
+- [x] Referral
+- [ ] (other)
+- [ ] Direct
