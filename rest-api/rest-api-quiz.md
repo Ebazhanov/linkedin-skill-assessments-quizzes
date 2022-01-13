@@ -439,3 +439,9 @@
 - [x] POST
 
 **Explanation:** [Idempotency](https://restfulapi.net/idempotent-rest-apis/)
+
+#### Q59. Which REST constraint specifies that each request should stand on its own and not have a specific required order?
+- [x] Uniform Interface
+- [ ] Cacheable
+- [ ] Stateless
+- [ ] Client-Server
