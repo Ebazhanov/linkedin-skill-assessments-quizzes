@@ -1557,32 +1557,37 @@ let plainText = '';
 console.log(plainText); //Prints YOU GOT THIS
 ```
 
-- [ ] ````js
-      for (let key of cipherText.keys()) {
-          plainText += key % 2 === 0 ? key : " ";
-      }```
+- [ ]
 
-      ````
+```js
+for (let key of cipherText.keys()) {
+  plainText += key % 2 === 0 ? key : ' ';
+}
+```
 
-- [ ] ````js
-      for (let [index, value] of cipherText.entries()) {
-          plainText += (index % 2 !== 0) ? value : "";
-      }```
+- [ ]
 
-      ````
+```js
+for (let [index, value] of cipherText.entries()) {
+  plainText += index % 2 !== 0 ? value : '';
+}
+```
 
-- [x] ````js
-      for (let [index, value] of cipherText.entries()) {
-          plainText += (index % 2 === 0) ? value : "";
-      }```
+- [x]
 
-      ````
+```js
+for (let [index, value] of cipherText.entries()) {
+  plainText += index % 2 === 0 ? value : '';
+}
+```
 
-- [ ] ````js
-      for (let value of cipherText) {
-          plainText += value;
-      }```
-      ````
+- [ ]
+
+```js
+for (let value of cipherText) {
+  plainText += value;
+}
+```
 
 [Reference MDN JavaScript Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 [Reference MDN JavaScript Array entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)

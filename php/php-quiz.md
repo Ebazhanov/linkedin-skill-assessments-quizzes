@@ -675,6 +675,7 @@ Dog
   echo $$name . "<br/>";
   echo $Dog;
   ```
+  
 - [ ] 
   ```php
   $name = "Cat";
@@ -683,6 +684,7 @@ Dog
   echo $$name . "<br/>";
   echo $Dog;
   ``` 
+  
 - [x] 
   ```php
   $name = "Cat";
@@ -691,6 +693,7 @@ Dog
   echo $$name . "<br/>";
   echo $Cat;
   ```
+  
 - [ ] 
   ```php
   $name = "Cat";
@@ -716,6 +719,7 @@ Dog
     3 $music = $_SESSION['music'];
     4 ?>
   ```
+  
 - [ ] 
   ```php
     1 <?php
@@ -723,6 +727,7 @@ Dog
     3    $music = $SESSION['music'];
     4 ?>
   ``` 
+  
 - [ ] 
   ```php
     1 <?php
@@ -730,6 +735,7 @@ Dog
     3   $music =$session['music'];
     4 ?>
   ```
+  
 - [x] 
   ```php
     1 <?php
@@ -748,6 +754,7 @@ Dog
     4 echo "Earliest Date: ". min($dates)."\n";
     5 ?>
   ```
+  
 - [ ] 
   ```php
     1 <?php
@@ -756,6 +763,7 @@ Dog
     4 echo "Earliest Date: ". max($dates)."\n";
     5 ?>
   ``` 
+  
 - [ ] 
   ```php
     1 <?php
@@ -764,6 +772,7 @@ Dog
     4 echo "Earliest Date: ". ($dates)."\n";
     5 ?>
   ```
+  
 - [ ] 
   ```php
     1 <?php
@@ -792,6 +801,7 @@ Dog
     4 kilometers = 2.4856 miles.
     5 kilometers = 3.107 miles.
   ```
+  
 - [ ] 
   ```php
     1 kilometers = 0.6214 miles.
@@ -801,6 +811,7 @@ Dog
     5 kilometers = 3.107 miles.
     6 kilometers = 3.7284 miles.
   ``` 
+  
 - [ ] 
   ```php
     2 kilometers = 1.2428 miles.
@@ -808,6 +819,7 @@ Dog
     4 kilometers = 2.4856 miles.
     5 kilometers = 3.107 miles.
   ```
+  
 - [ ] FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2
 
 ##### Q63. In PHP 7, What is the correct way to import multiple classes from namespace in a single declaration ?!
