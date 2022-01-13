@@ -605,3 +605,38 @@ public class Honda extends Car{}
 - [x] Composition is a part/hole relationship where an object is composed of one or more other objects, each of which is considered a part of the whole.
 - [ ] Composition is a binding where the class/name association is not made until the object designated by the name is created at execution time
 - [ ] Composition is a process of collecting classes that provide a set of services for a particular domain
+
+#### Q77. Static polymorphism uses method ___ ?
+
+- [ ] overloading
+- [ ] inheritance
+- [ ] abstaction
+- [ ] overriding
+
+#### Q78. What does a concrete class not have?
+
+- [ ] parents
+- [x] pure virtual functions
+- [ ] attributes
+- [ ] purposes
+
+#### Q79. How does dynamic typing complicate troubleshooting?
+
+- [ ] It can be difficult to identify variables that are incorrectly types
+- [ ] The dynamic variables can assume only limited values
+- [ ] Storage is fixed for dynamic variables
+- [ ] Static variables are more flexible than dynamic variables
+
+#### Q80. What is the difference between early binding and late binding?
+
+- [ ] Early binding is when a variable is assigned a value when a scope is created. Late binding is when a variable is assigned a value after a scope is exited
+- [ ] Early binding is when a variable is assigned a value when the program starts. Late binding is when a variable is assigned after the program is running
+- [ ] There is no difference. In both cases, variables are assigned values when a program has completed startup and is running
+- [x] Early binding is when a variable is assigned its value at compile time. Late binding is when a variable is assigned a value at run time
+
+#### Q81. What is the difference between an interface and an abstract class?
+
+- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from more than one abstract class but can only implement one interface
+- [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interface
+- [ ] Abstract classes can contain code or data. Interface do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces
+- [ ] Abstract classes can contain code or data. Interface do not contain code or data. A class can inherit from more than one abstract class but can only implement one interface
