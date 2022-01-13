@@ -399,3 +399,62 @@ Reference: [Example of func Time in Go (Golang)](https://pkg.go.dev/time)
 Relevant excerpt from the article:
 
 > _Most programs can use one of the defined constants as the layout passed to Format or Parse. The rest of this comment can be ignored unless you are creating a custom layout string._
+
+#### Q33. How should you log an error (err)
+
+- [ ] ```log.Error(err)```
+- [ ] ```log.Printf("error: %v", err)```
+- [ ] ```log.Printf(log.ERROR, err)```
+- [ ] ```log.Print("error: %v", err)```
+
+#### Q34. How does a ```sync.Mutex``` block while it is locked?
+
+- [ ] any other call to lock that Mutex
+- [ ] all goroutines
+- [ ] any writes to the variable it is locking
+- [ ] any reads or writes of the variable is it locking
+
+#### Q35. Which file names will the ```go test``` command recognize as test files?
+
+- [ ] any that starts with ```test```
+- [ ] any files that include the word ```test```
+- [ ] only files in the root directory that end in ```_test.go```
+- [ ] any that ends in ```_test.go```
+
+#### Q36. What will be the output of this code?
+```
+ch := make(chan int)
+ch <- 7
+val := <-ch
+fmt.Printl(val)
+```
+
+- [ ] 0
+- [ ] It will deadlock
+- [ ] It will not compile
+- [ ] 2.718
+
+#### Q37. What will be the output of this program?
+```
+ch := make(chan int)
+close(ch)
+val := <-ch
+fmt.Printl(val)
+```
+
+- [ ] It will deadlock
+- [ ] It will panic
+- [ ] 0
+- [ ] NaN
+
+#### Q38. What will be printed in this code?
+```
+var stocks map[string]float64 // stock -> price
+price := stocks["MSFT"]
+fmt.println("%f\n", price)
+```
+
+- [ ] 0
+- [ ] 0.000000
+- [ ] The code will panic
+- [ ] NaN
