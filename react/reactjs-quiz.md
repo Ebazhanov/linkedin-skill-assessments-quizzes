@@ -1072,3 +1072,23 @@ class StarTrekkin extends React.Component {
 - [x] `let dish = <h1 id="heading">Mac and Cheese</h1>;`
 - [ ] `let dish = <h1 id:"heading">Mac and Cheese</h1>;`
 - [ ] `let dish = <h1 class="heading">Mac and Cheese</h1>;`
+
+#### Q95. What value of button will allow you to pass the name of the person to be hugged?
+
+```
+class Huggable extends React.Component {
+  hug(id) {
+    console.log("hugging " + id);
+  }
+  render() {
+    let name = "kitteh";
+    let button = // Missing code
+    return button;
+  }
+}
+```
+
+- [ ] ```<button onClick={(name) => this.hub(name)}>Hug Button```
+- [ ] ```<button onClick={this.hug(e, name)}>Hug Button```
+- [ ] ```<button onClick={(e) => this.hug(name, e)}>Hug Button```
+- [ ] ```<button onClick={(e) => this.hug(name, e)}>Hug Button```
