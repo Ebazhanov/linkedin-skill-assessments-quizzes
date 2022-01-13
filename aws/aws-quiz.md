@@ -717,3 +717,19 @@ aws ecs create-service \
 - [x] Use Auto Scaling groups to create more front-end servers when the CloudWatch metrics for CPU usage on a single instance rise above 80% for five minutes.
 
 [Reference](https://aws.amazon.com/ec2/autoscaling/)
+
+#### Q79. How do you connect via SSH to a Linux EC2 instance with an EBS volume if you lost your key pair?
+
+- [ ] Stop the instance and create an AMI image. Launch the image using a new key pair.
+- [ ] Contact AWS support. A support specialist can remotely restore access to your instance and send you a new key pair.
+- [ ] You can not connect to this EC2 instance. The key pair is displayed only one time. If you lose it, you have lost all access to this instance. Connect the EBS volume to another instance to recover your files.
+- [ ] Attach the EBS volume to a temporary instance launched with a new key pair, and overwrite ~/.ssh.authorized_keys using the same file from the new instance.
+
+#### Q80. Your on-premise data center (172.16.128.0/24) is already connected to your AWS VPC (10.0.0.0/16) by a customer gateway. You wish to connect another data center for a company you just acquired (172.16.130.0/24) to your VPC as shown in the image. What is the best way to create this link?
+
+![image](images/Q80.png)
+
+- [ ] Establish a connection between your two data centers and connect the second data center to the first through a private tunnel. Traffic will flow from the second data center and then through the first data, and then into AWS.
+- [ ] Create a second customer gateway and configure your VPN client at your second data center to connect to the virtual private gateway.
+- [x] Create a second virtual private gateway (VPG) and attach it to the VPC. Create a customer gateway for the new virtual private gateway and use your VPN client at your second data center to establish a connection to the VPG.
+- [ ] You can not have more than one customer gateway per VPC, so the proposed solution will not work. Create a second VPC with a virtual private gateway and a customer gateway. Bridge the two VPCs using VPC peering.
