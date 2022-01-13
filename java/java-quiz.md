@@ -1331,7 +1331,6 @@ public class Main {
 
 #### Q97. You have an instance of type Map<String, Integer> named instruments containing the following key-value pairs: guitar=1200, cello=3000, and drum=2000. If you add the new key-value pair cello=4500 to the Map using the put method, how many elements do you have in the Map when you call instruments.size()?
 
-`System.out.println("hello my friends".split(" ")[0]);`
 
 - [ ] 2
 - [ ] When calling the put method, Java will throw an exception
