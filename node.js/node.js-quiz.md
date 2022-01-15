@@ -544,9 +544,16 @@ console.log(person);
 - [ ] types
 - [ ] callbackify
 
-#### Q65. Which choice is not a subclass of the Error class?
+#### Q66. Which choice is not a subclass of the Error class?
 
 - [x] GlobalError
 - [ ] TypeError
 - [ ] RangeError
 - [ ] AssertionError
+
+#### Q67. What is Node built on?
+
+- [ ] Python
+- [x] V8 JavaScript engine
+- [ ] PHP
+- [ ] c
