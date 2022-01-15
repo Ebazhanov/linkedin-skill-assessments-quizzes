@@ -426,11 +426,11 @@ Relevant excerpt from the article:
 ch := make(chan int)
 ch <- 7
 val := <-ch
-fmt.Printl(val)
+fmt.Println(val)
 ```
 
 - [ ] 0
-- [ ] It will deadlock
+- [x] It will deadlock
 - [ ] It will not compile
 - [ ] 2.718
 
@@ -439,22 +439,22 @@ fmt.Printl(val)
 ch := make(chan int)
 close(ch)
 val := <-ch
-fmt.Printl(val)
+fmt.Println(val)
 ```
 
 - [ ] It will deadlock
 - [ ] It will panic
-- [ ] 0
+- [x] 0
 - [ ] NaN
 
 #### Q38. What will be printed in this code?
 ```
 var stocks map[string]float64 // stock -> price
 price := stocks["MSFT"]
-fmt.println("%f\n", price)
+fmt.Println("%f\n", price)
 ```
 
-- [ ] 0
+- [x] 0
 - [ ] 0.000000
 - [ ] The code will panic
 - [ ] NaN
