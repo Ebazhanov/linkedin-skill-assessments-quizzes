@@ -608,7 +608,7 @@ public class Honda extends Car{}
 
 #### Q77. Static polymorphism uses method ___ ?
 
-- [ ] overloading
+- [x] overloading
 - [ ] inheritance
 - [ ] abstaction
 - [ ] overriding
@@ -622,7 +622,7 @@ public class Honda extends Car{}
 
 #### Q79. How does dynamic typing complicate troubleshooting?
 
-- [ ] It can be difficult to identify variables that are incorrectly types
+- [x] It can be difficult to identify variables that are incorrectly typed
 - [ ] The dynamic variables can assume only limited values
 - [ ] Storage is fixed for dynamic variables
 - [ ] Static variables are more flexible than dynamic variables
@@ -638,5 +638,5 @@ public class Honda extends Car{}
 
 - [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from more than one abstract class but can only implement one interface
 - [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interface
-- [ ] Abstract classes can contain code or data. Interface do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces
+- [x] Abstract classes can contain code or data. Interface do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces
 - [ ] Abstract classes can contain code or data. Interface do not contain code or data. A class can inherit from more than one abstract class but can only implement one interface
