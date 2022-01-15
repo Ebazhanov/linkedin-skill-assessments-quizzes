@@ -27,7 +27,7 @@ Add explanation (`or reference link`) to your answers. That will help anyone to 
    >
    > :two: https://linkedin-faq.github.io/md2practice/
 
-source code is here https://github.com/linkedin-faq
+want to contribute? here is the source code https://github.com/linkedin-faq
 
 ### Table of Contents
 
