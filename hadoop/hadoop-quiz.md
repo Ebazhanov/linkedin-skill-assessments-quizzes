@@ -259,7 +259,7 @@
 - [ ] one
 - [ ] zero
 - [ ] shared
-- [ ] two or more
+- [x] two or more (https://data-flair.training/blogs/hadoop-high-availability-tutorial)
 
 ### Q38. Hadoop 2.x and later implement which service as the resource coordinator?
 
