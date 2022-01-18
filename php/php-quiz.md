@@ -966,18 +966,20 @@ Dog
 
 #### Q80. You want to find out what day Twelfth Night falls on after Christmas 2018. Which code should you use?
 
-- [x] `$xmas = new DateTime('Dec 25, 2018');`
+- [ ] `$xmas = new DateTime('Dec 25, 2018');`
       `$twelfth_night = $xmas->add(new DateInterval('P12D'));`
       `echo $twelfth_night->format('l');`
 - [ ] `$twelfth_night = strtotime('December 25, 2018 + 12 days');`
       `echo date('d', $twelfth_night);`
 
-- [ ] `$twelfth_night = strtotime('December 25, 2018 + 12 days');`
+- [x] `$twelfth_night = strtotime('December 25, 2018 + 12 days');`
       `echo strftime('%d', $twelfth_night);`
 
 - [ ] `$xmas = new DateTime('Dec 25, 2018');`
       `$twelfth_night = $xmas->add(strtotime('12 days'));`
       `echo $twelfth_night->format('D');`
+      
+*** 1 seems correct, but the question asks for "day", not day of the week. January 6, 2018 is a Saturday anyway, so that's wrong.***
 
 #### Q81. Which loop displays all numbers from 1 to 10 inclusive?
 
