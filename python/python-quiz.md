@@ -193,7 +193,7 @@ return list(enumerate(college_years, 2019))
 - [x] `class Game(LogicGame): pass`
 - [ ] `def Game.LogicGame(): pass`
 
-`repeated but labels will be different`
+*Duplicate of question 10.*
 
 #### Q16. What is the purpose of the "self" keyword when defining or calling instance methods?
 
@@ -1026,6 +1026,9 @@ def self.get_next_card(self):
 - [ ] `// This is a comment`
 
 #### Q78. What is the correct syntax for replacing the string apple in the list with the string orange?
+```
+my_list = ['kiwi', 'apple', 'banana']
+```
 
 - [ ] orange = my_list[1]
 - [x] my_list[1] = 'orange'
@@ -1175,8 +1178,8 @@ def count_recursive(n=1):
     if n > 3:
         return
     print(n)
-
-count_recursive(n + 1)
+    
+    count_recursive(n + 1)
 ```
 
 - [ ]
@@ -1282,6 +1285,8 @@ num_list[len(num_list)//2]
 - [x] A class method can modify the state of the class, but it cannot directly modify the state of an instance that inherits from that class.
 - [ ] A class method is a regular function that belongs to a class, but it must return None
 - [ ] A class method is similar to a regular function, but a class method does not take any arguments.
+
+*Duplicate version of Question 50.*
 
 #### Q94. What file is imported to use dates in python?
 
@@ -1413,15 +1418,26 @@ import math
 print(math.pow(2,10)) # prints 2 elevated to the 10th power
 ```
 
-- [ ] print(2^10)
-- [x] print(2\*\*10)
-- [ ] y = [x*2 for x in range(1,10)]
-      print(y)
-- [ ] y = 1
-      for i in range(1,10):
-      y = y \* 2
-
-      print(y)
+- [ ] 
+```
+print(2^10)
+```
+- [x] 
+```
+print(2**10)
+```
+- [ ] 
+```
+y = [x*2 for x in range(1,10)]
+print(y)
+```
+- [ ]
+```
+y = 1
+for i in range(1,10): 
+    y = y * 2
+print(y)
+```
 
 [Reference](https://www.digitalocean.com/community/tutorials/how-to-do-math-in-python-3-with-operators#:~:text=The%20**%20operator%20in%20Python,multiplied%20by%20itself%203%20times.)
 
@@ -1513,3 +1529,9 @@ matrix = a.reshape(100, 100)
 print(matrix.shape)
 (100, 100)
 ```
+
+#### Q113. NumPy allows you to multiply two arrays without a for loop. This is an example of _.
+- [x] vectorization
+- [ ] attributions
+- [ ] accelaration
+- [ ] functional programming
