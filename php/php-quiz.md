@@ -9,6 +9,8 @@
 - [ ] a parser error
 - [x] 0
 
+***Both sides of the "spaceship" are equal, so the answer is 0. PHP will convert '76 trombones' to 76 in this context, as the string starts with '76'. Try it!***
+
 ##### Q2. Which is the most secure way to avoid storing a password in clear text in database?
 
 - [ ] `$encrypted = shal($password);`
