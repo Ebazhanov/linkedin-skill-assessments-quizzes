@@ -979,7 +979,7 @@ Dog
       `$twelfth_night = $xmas->add(strtotime('12 days'));`
       `echo $twelfth_night->format('D');`
       
-*** 1 seems correct, but the question asks for "day", not day of the week. January 6, 2018 is a Saturday anyway, so that's wrong.***
+***1 seems correct, but the question asks for "day", not day of the week. Twelfth Night is the "06" day of January, 2019.***
 
 #### Q81. Which loop displays all numbers from 1 to 10 inclusive?
 
