@@ -537,8 +537,10 @@ https://support.microsoft.com/en-us/office/using-structured-references-with-exce
 
 - [ ] On the PivotTable itself, drag each `Average` field into the row fields area.
 - [ ] Right-click a cell in the PivotTable and select `PivotTable Options > Classic PivotTable layout`.
-- [ ] In the `PivotTable Fields` pane, drag `Sum Values` from the `Columns` section to a location below the field in the `Rows` section.
+- [x] In the `PivotTable Fields` pane, drag `Sum Values` from the `Columns` section to a location below the field in the `Rows` section.
 - [ ] In the `PivotTable Fields` pane, drag each field from the `Sum Values` section to the `Rows` section.
+
+https://devexpress.github.io/dotnet-eud/interface-elements-for-desktop/articles/spreadsheet/pivot-tables/group-items-in-a-pivot-table.html
 
 ### Q70. Which Excel feature allows you to hide rows or columns with an easily visible expand/collapse?
 
@@ -590,8 +592,8 @@ https://support.microsoft.com/en-us/office/using-structured-references-with-exce
 
 #### Q76. What is the intersection of a worksheet row and column?
 
-- [ ] cell
-- [x] selection
+- [x] cell
+- [ ] selection
 - [ ] element
 - [ ] scalar
 
@@ -775,9 +777,9 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 ![image](images/Q95.png)
 
 - [ ] Total Sales This Year; Total Sales This Year
-- [x] Total Sales This Year; Market Region
+- [ ] Total Sales This Year; Market Region
 - [ ] Representative ID Number; Total Sales This Year
-- [ ] Market Region; Total Sales This Year
+- [x] Market Region; Total Sales This Year
 -
 
 #### Q95. Cell A1 contains the number 3. Which formula returns the text Apple?
