@@ -873,3 +873,18 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] Cells A2:D2 are the source of an error in the formula in cell C4.
 - [x] Cells A2:D2 are precedents of the formula in cell C4.
 - [ ] Cells A2:D2 are dependents of the formula in cell C4.
+
+#### Q107. What is the name given to the numbers in or above each bar in a column chart, as shown?
+
+![image](images/Q107.png)
+
+- [ ] data table
+- [ ] data numbers
+- [x] data labels
+- [ ] data values
+
+#### Q108. Which chart type provides the best visual display of the releationship between two numeric variables?
+- [ ] radar chart
+- [ ] box and whisker chart
+- [x] XY scatter chart
+- [ ] combo chart
