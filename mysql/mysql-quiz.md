@@ -851,3 +851,9 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] `UNCOMMIT`
 - [ ] `ROLLBACK`
 - [ ] `REVERSE
+
+#### Q95. What function finds the current time or date in MySQL?
+- [ ] DATE()
+- [ ] GETDATE()
+- [x] CURDATE()
+- [ ] CURRENT()
