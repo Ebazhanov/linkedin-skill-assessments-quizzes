@@ -1290,9 +1290,9 @@ class TaxCalculator {
 #### Q94. Which characteristic does not apply to instances of java.util.HashSet=
 
 - [ ] uses hashcode of objects when inserted
-- [x] contains unordred elements
+- [ ] contains unordred elements
 - [ ] contains unique elements
-- [ ] contains sorted elements
+- [x] contains sorted elements
 
 #### Q95. What is the output?
 
