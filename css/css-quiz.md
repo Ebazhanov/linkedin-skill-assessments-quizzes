@@ -1542,3 +1542,143 @@ D. font-size: 20px
 - [ ] Floating the blue box actually shifts it to the right and down.
 
 - [x] Floating the blue box took it out of document flow and the container is sized only to the sample text.
+
+
+** Q4/15**
+
+Given this code, which CSS declaration of .overlay will span the entire width and height of its container? Given this code, which CSS declaration of .overlay will span the entire width and height of its container?
+
+**&lt;style&gt; .container { position: relative; height: 200px; width: 200px; border: 1px solid black; } &lt;/style&gt; &lt;div class="container"&gt; &lt;div class="overlay"&gt;&lt;/div&gt; &lt;/div&gt; &lt;style&gt; .container { position: relative; height: 200px; width: 200px; border: 1px solid black; } &lt;/style&gt;**
+
+**.overlay { position: static; top: 200px; bottom: 200px; right: 200px; left: 200px; background-color: rgba(0, 0, 0, 0.5); }**
+
+**.overlay { position: absolute; top: 200px; bottom: 200px; right: 200px; left: 200px; background-color: rgba(0, 0, 0, 0.5); }**
+
+**.overlay { position: static; top: 0; bottom: 0; right: 0; left: 0; background-color: rgba(0, 0, 0, 0.5); }**
+
+**.overlay { position: absolute; top: 0; bottom: 0; right: 0; left: 0; background-color: rgba(0, 0, 0, 0.5); }**
+
+
+
+** Q5/15**
+
+Which missing line of code would place the text on top of the image? Which missing line of code would place the text on top of the image?
+
+**&lt;div class="container"&gt; &lt;img src="grumpy-cat.gif" /&gt; &lt;p&gt;The z-index property is cool!&lt;/p&gt; &lt;/div&gt; img { position: absolute; left: 0px; top: 0px; // Missing line }** **&lt;div class="container"&gt; &lt;img src="grumpy-cat.gif" /&gt; &lt;p&gt;The z-index property is cool!&lt;/p&gt; &lt;/div&gt; img { position: absolute; left: 0px; top: 0px; // Missing line }**
+
+z-index: 1;z-index: 1;
+
+z-index: -1;z-index: -1;
+
+z-index: 0;z-index: 0;
+
+z-index: true;z-index: true;
+
+
+
+** Q7/15**
+
+To make the font size of an element one size smaller than the font size of the element's container, which style property would you apply?To make the font size of an element one size smaller than the font size of the element's container, which style property would you apply?
+
+font-size: reduce;
+
+font-size: 8px;
+
+font-size: -1em;
+
+font-size: smaller;
+
+
+
+** Q8/15**
+
+Given this markup, which selector would result in the text being highlighted in yellow? 
+
+**&lt;span class="highlight"&gt;#BLM&lt;/span&gt;**
+
+**.highlight { background-color: yellow; }**
+
+**#highlight { background-color: yellow; }**
+
+**.highlight { color: yellow; }**
+
+**#highlight { color: yellow; }**
+
+** Q9/15**
+
+To prevent a background image from tiling in any direction, which style property would you apply?
+
+background-repeat: no-repeat;
+
+background-repeat: fixed;
+
+background-repeat: none;
+
+background-tile: none;
+
+
+
+** Q10/15**
+
+To rotate an object 30 degrees counterclockwise, which style property would you apply?
+
+transform: rotate(-30deg);
+
+transform: rotate(30deg);
+
+rotate: 30deg;
+
+spin: 30deg;
+
+Which style rule would you apply to set the background image to display the contents of the wood.png file?
+
+background-image: file(wood.png);
+
+background-image: url(wood.png);
+
+background-image: wood.png;
+
+image: wood.png
+
+** Q12/15**
+-----------
+
+What style rule would set the font color of only paragraph two to blue? 
+
+**&lt;section&gt; &lt;p&gt;paragraph one&lt;/p&gt; &lt;/section&gt; &lt;p&gt;paragraph two&lt;/p&gt;** 
+
+section > p {color: blue;}
+
+p {color: blue;}
+
+section + p {color: blue;}
+
+p + section {color: blue;}
+
+** Q13/15**
+
+You want to move an element up 100px. Which CSS property would you use? 
+
+transform: translateX(-100px)
+
+transform: translateY(-100px)
+
+transform: translateY(100px)
+
+transform: translateX(100px)
+
+** Q14/15**
+
+Which style will horizontally center the inner &lt;div&gt; within the outer &lt;div&gt;? 
+
+**&lt;div id="outer"&gt; &lt;div id="inner"&gt;Center Me!&lt;/div&gt; &lt;/div&gt; &lt;div id="outer"&gt;**
+
+**#inner { width: 50%; } #outer { width: 100%; }**
+
+**#inner{ left: 0; right: 0; position: center; }**
+
+**#inner { text-align: center; }**
+
+**#inner { width: 50%; margin: 0 auto; }**
+
+
