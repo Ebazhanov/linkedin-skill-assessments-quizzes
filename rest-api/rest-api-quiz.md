@@ -445,3 +445,9 @@
 - [ ] Cacheable
 - [ ] Stateless
 - [ ] Client-Server
+
+#### Q60. When you get a 429 code, what should you do next?
+- [ ] Check you JSON structure.
+- [ ] Check the API uptime status.
+- [x] Slow down your requests.
+- [ ] Check you API key.
