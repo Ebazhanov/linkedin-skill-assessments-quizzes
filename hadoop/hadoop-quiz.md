@@ -439,3 +439,40 @@ FROM customers c;
 - [ ] FILTER
 - [ ] SUB-SELECT
 - [ ] SORT
+
+### Q62. What custom object should you implement to reduce IO in MapReduce?
+ 
+ - [ ] Comparator
+ - [ ] Mapper
+ - [ ] Combiner
+ - [ ] Reducer
+ 
+### Q63. You can optimize Hive queries using which method?
+ 
+ - [ ] secondary indices
+ - [ ] summary statistics
+ - [ ] column-based statistics
+ - [ ] a primary key index
+ 
+ 
+### Q64. If you are processing a single action on each input, what type of job should you create?
+ 
+ - [ ] partition-only
+ - [ ] map-only
+ - [ ] reduce-only
+ - [ ] combine-only
+  
+### Q65. The simplest possible MapReduce job optimization is to perform which of these actions?
+ 
+ - [ ] Add more master nodes.
+ - [ ] Implement optimized InputSplits.
+ - [ ] Add more DataNodes.
+ - [ ] Implement a custom Mapper.
+ 
+ ### Q66. When you implement a custom Writable, you must also define which of these object? 
+  
+  - [ ] a sort policy
+  - [ ] a combiner policy
+  - [ ] a compression policy
+  - [ ] a filter policy
+  
