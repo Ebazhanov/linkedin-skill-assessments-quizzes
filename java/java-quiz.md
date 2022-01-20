@@ -1361,3 +1361,40 @@ public class Main {
 - [ ] `employees.filter(Employee::getName).collect(Collectors.toUnmodifiableList());`
 - [x] `employees.stream().map(Employee::getName).collect(Collectors.toList());`
 - [ ] `employees.stream().collect((e) -> e.getName());`
+
+#### Q102. What is the correct return type for the `processFunction` method:
+```
+____ processFunction(Integer number, Function<Integer, String> lambda) {
+    return lambda.apply(number);
+}
+```
+- [ ] Function<Integer, String>
+- [ ] Integer
+- [x] String
+- [ ] Consumer
+
+#### Q103. This code does not compile. What needs to be changed so that it does?
+```
+public enum Direction {
+    EAST("E"),
+    WEST("W"),
+    NORTH("N"),
+    SOUTH("S");
+
+    private final String shortCode;
+
+    public String getShortCode() {
+        return shortCode;
+    }
+}
+```
+- [x] Add a constructor that accepts a `String` parameter and assigns it to the field `shortCode`.
+- [ ] Remove the `final` keyword for the field `shortCode`.
+- [ ] All enums need to be defined on a single line of code.
+- [ ] Add a setter method for the field `shortCode`.
+
+#### Q104. Which language feature ensures that objects implementing the `AutoCloseable` interface are closed when it completes?
+- [ ] try-catch-finally
+- [ ] try-finally-close
+- [x] try-with-resources
+- [ ] try-catch-close
