@@ -640,3 +640,10 @@ public class Honda extends Car{}
 - [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interface
 - [x] Abstract classes can contain code or data. Interface do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces
 - [ ] Abstract classes can contain code or data. Interface do not contain code or data. A class can inherit from more than one abstract class but can only implement one interface
+
+#### Q82. What parameters are required to be passed to a class constructor?
+
+- [ ] reference to subclass
+- [ ] reference to base class
+- [ ] reference to this pointer
+- [x] none
