@@ -1290,9 +1290,13 @@ class TaxCalculator {
 #### Q94. Which characteristic does not apply to instances of java.util.HashSet=
 
 - [ ] uses hashcode of objects when inserted
-- [x] contains unordred elements
+- [ ] contains unordred elements
 - [ ] contains unique elements
-- [ ] contains sorted elements
+- [x] contains sorted elements
+
+`HashSet makes no guarantees as to the iteration order of the set; in particular, it does not guarantee that the order will remain constant over time.`
+
+[Reference](ttps://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)
 
 #### Q95. What is the output?
 
