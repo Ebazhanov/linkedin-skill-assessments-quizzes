@@ -601,3 +601,24 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
 - [ ] It accepts mail and adds it to the mail queue for further processing.
 - [ ] It stores the mail in a mail queue waiting for the MUA to download it.
 - [x] It transports mail from one mail server to another.
+
+### Q74. What do you need to do before you can perform SSH passwordless logins?
+
+- [ ] Genetare RSA or DSA key pairs using ssh-keygen.
+- [ ] Change the remote user's password.
+- [ ] Create a local SSL certificate.
+- [ ] Change the remote SSH configure to allow it.
+
+### Q75. When installing a downloaded package on the RedHat-based distribution manual using RPM, what may you have to do first?
+
+- [ ] Compile the package source code.
+- [ ] Download all dependencies and install them before installing the desired package.
+- [ ] Agree to an end-user license agreement.
+- [ ] provide the --resolve option so RPM resolves all packages dependency.
+
+### Q76. With GNU tools such as a GNU grep, awk, and sed, what is the difference between basic regular expressions (BREs) and extended regular expressions (EREs)?
+
+- [ ] EREs can match the groups.
+- [ ] EREs support occurrence operators.
+- [ ] ERE's support alternation.
+- [ ] only the syntax differs.
