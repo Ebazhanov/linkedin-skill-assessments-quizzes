@@ -1294,6 +1294,10 @@ class TaxCalculator {
 - [ ] contains unique elements
 - [x] contains sorted elements
 
+`HashSet makes no guarantees as to the iteration order of the set; in particular, it does not guarantee that the order will remain constant over time.`
+
+[Reference](ttps://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)
+
 #### Q95. What is the output?
 
 ```java
