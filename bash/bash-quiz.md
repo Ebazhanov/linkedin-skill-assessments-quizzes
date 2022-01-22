@@ -810,3 +810,10 @@ echo "$var" | sed _____
 - [ ] screen -X
 - [ ] screen --shared
 - [ ] terminal -shared
+
+#### Q66. Wich operator sends the output of ls to a file for later use??
+
+- [ ] ls < filelist.txt
+- [ ] ls ¦ filelist.txt
+- [x] ls > filelist.txt
+- [ ] ls - filelist.txt
