@@ -643,7 +643,12 @@ public class Honda extends Car{}
 
 #### Q82. What parameters are required to be passed to a class constructor?
 
-- [ ] reference to subclass
-- [ ] reference to base class
-- [ ] reference to this pointer
-- [x] none
+- [ ] reference to subclass // Here they haven't mentioned any specific language so let's consider all languages.
+- [ ] reference to base class // References to subclass are never required as you can simply Initialize subclass & use their object.
+- [ ] reference to this pointer // References to the base class are not required in Java, Javascript & Python
+- [x] none // While Python & Javascript may require passing this or self in the constructor, It is not passed in Java constructor.
+
+
+
+
+
