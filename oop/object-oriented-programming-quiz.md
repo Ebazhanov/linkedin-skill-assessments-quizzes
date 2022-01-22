@@ -640,3 +640,16 @@ public class Honda extends Car{}
 - [ ] Interfaces can contain code or data. Abstract classes do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interface
 - [x] Abstract classes can contain code or data. Interface do not contain code or data. A class can inherit from only one abstract class but can implement an unlimited number of interfaces
 - [ ] Abstract classes can contain code or data. Interface do not contain code or data. A class can inherit from more than one abstract class but can only implement one interface
+
+#### Q82. What parameters are required to be passed to a class constructor?
+
+// Here they haven't mentioned any specific language so let's consider all languages.
+- [ ] reference to subclass // References to subclass are never required as you can simply Initialize subclass & use their object.
+- [ ] reference to base class // References to the base class are not required in Java, Javascript & Python
+- [ ] reference to this pointer // While Python & Javascript may require passing this or self in the constructor, It is not passed in Java constructor.
+- [x] none // Above 3 are incorrect so "none" is the answer
+
+
+
+
+
