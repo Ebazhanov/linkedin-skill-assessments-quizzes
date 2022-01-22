@@ -446,7 +446,7 @@
 - [x] Stateless
 - [ ] Client-Server
 
-**Explanation:** [Idempotency](https://restfulapi.net/rest-architectural-constraints/)
+**Explanation:** [REST Architectural Constraints](https://restfulapi.net/rest-architectural-constraints/)
 
 #### Q60. When you get a 429 code, what should you do next?
 - [ ] Check you JSON structure.
