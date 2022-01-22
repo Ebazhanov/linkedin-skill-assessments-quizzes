@@ -441,10 +441,12 @@
 **Explanation:** [Idempotency](https://restfulapi.net/idempotent-rest-apis/)
 
 #### Q59. Which REST constraint specifies that each request should stand on its own and not have a specific required order?
-- [x] Uniform Interface
+- [ ] Uniform Interface
 - [ ] Cacheable
-- [ ] Stateless
+- [x] Stateless
 - [ ] Client-Server
+
+**Explanation:** [Idempotency](https://restfulapi.net/rest-architectural-constraints/)
 
 #### Q60. When you get a 429 code, what should you do next?
 - [ ] Check you JSON structure.
