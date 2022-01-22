@@ -458,3 +458,18 @@ fmt.Println("%f\n", price)
 - [ ] 0.000000
 - [ ] The code will panic
 - [ ] NaN
+
+#### Q39. What is the common way to have several executables in your project?
+
+- [ ] Have a cmd directory and a directory per executable inside it.
+- [ ] Comment out main.
+- [ ] Use build tags.
+- [x] Have a pkg directory and a directory per executable inside it.
+
+#### Q40. How is the behavior of ```t.Fatal``` different inside a ```t.Run``` ?
+
+- [ ] ```t.Fatal``` does not crash the test harness, preserving output messages.
+- [x] ```t.Fatal``` stops all tests and contains extra information about the failed sub test.
+- [ ] ```t.Fatal``` stops execution of the subtest and continues with other test cases.
+- [ ] There is no difference.
+
