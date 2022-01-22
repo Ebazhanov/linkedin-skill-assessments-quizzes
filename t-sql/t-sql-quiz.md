@@ -206,6 +206,8 @@ SELECT @UniqueID AS Result;
 - [ ] `WHERE SerialNumer LIKE '%10"_"3'`
 - [ ] `WHERE SerialNumer LIKE '%10[_]3'`
 
+`The underscore will match any single character so you must bracket it to match a literal _, otherwise you could potentially return a serial number ending in '1013', for example.`
+
 #### Q23. When no join type between multiple tables in a query's FROM clause is specified, what type of join is assumed?
 
 - [x] INNER
@@ -392,7 +394,7 @@ FROM Students
 
 #### Q38. To combine the results of two or more SELECT statements, removing duplicates, which keyword can you use?
 
-- [] DEDUPE
-- [] SELECT
-- [x] MERGE
-- [] UNION
+- [ ] DEDUPE
+- [ ] SELECT
+- [ ] MERGE
+- [x] UNION

@@ -29,10 +29,12 @@ str::thread::spawn(|| {
 
 #### Q4. **\_** cannot be destructured.
 
-- [ ] Traits
+- [x] Traits
 - [ ] Tuples
 - [ ] Enums
 - [ ] Structs
+
+[reference](https://rust-lang.github.io/rfcs/2909-destructuring-assignment.html)
 
 #### Q5. Which `cargo` command checks a program for error without creating a binary executable?
 
@@ -92,8 +94,10 @@ fn increment(i: T) {
 
 - [ ] .add()
 - [ ] .incr()
-- [ ] .clone()
+- [x] .clone()
 - [ ] .increment()
+
+  [reference](https://doc.rust-lang.org/book/ch15-04-rc.html)
 
 #### Q12. What happens when an error occurs that is being handled by the question mark (?) operator?
 
@@ -115,8 +119,8 @@ fn increment(i: T) {
 - [ ] `an underscore (_)`
 - [x] ..
 - [ ] skip
-  
-#### Q15. Defining a _ requires a lifetime parameter.
+
+#### Q15. Defining a \_ requires a lifetime parameter.
 
 - [ ] function that ends the lifetime of one of its arguments
 - [ ] struct that contains a reference to a value

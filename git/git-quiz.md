@@ -225,7 +225,7 @@ modified: beta-notes.js
 
 - [ ] use git show refs/push-notifications
 - [ ] use git show push-notifications
-- [ ] use git show head/refs/push-notifications
+- [ ] use git show heads/refs/push-notifications
 - [x] use git show refs/head/push-notifications
 
 [Reference](https://geedew.com/fixing-git-branch-and-tag-name-collision/)
@@ -790,3 +790,21 @@ Which of the following options is correct ?
 - [ ] Commits can be tagged only when they are created.
 
 [reference here](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+
+#### Q97. How would you delete a remote branch in your repository?
+
+- [ ] Use `git --delete <branch_name>`.
+- [ ] Use `git push <remote_name> --d <branch_name>`.
+- [ ] Use `git push <remote_name> --D`.
+- [x] Use `git push <remote_name> --delete <branch_name>`.
+
+[reference here](https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely)
+
+#### Q98. What is the default setting of `git reflog` when no subcommands are specified?
+
+- [ ] delete
+- [ ] expire
+- [x] show
+- [ ] update
+
+[reference here](https://git-scm.com/docs/git-reflog)

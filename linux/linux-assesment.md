@@ -482,11 +482,9 @@ fi
 ```
 
 - [ ] The code snippet cannot be improved, this is a valid way of checking for the existence of a file.
-- [ ] Use Bash's built-in `[[ ]]` test conditions instead of the ls command.
-- [x] The redirect to `/dev/null` will silence the return code invalidating the conditional. Removing the redirect will solve this.
+- [x] Use Bash's built-in `[[ ]]` test conditions instead of the ls command.
+- [ ] The redirect to `/dev/null` will silence the return code invalidating the conditional. Removing the redirect will solve this.
 - [ ] The ls command will output the name of the file to the screen. Running ls in quiet mode will improve the code snippet.
-
-**Note:** Not confident about answer. If someone knows the exact answer please contribute in this repository and mark correct answer.
 
 #### Q60. Using a systemd-based distribution, you want to restrict the cron service from running either automatically or manually. Which command would you run?
 
@@ -509,12 +507,12 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
 
 #### Q62. Which option would you choose to force grep to use a basic regular expression (BRE)?
 
-- [x] grep -E
+- [ ] grep -E
 - [ ] grep -B
 - [ ] grep -e
-- [ ] grep -G
+- [x] grep -G
 
-[Reference](https://linuxize.com/post/regular-expressions-in-grep/)
+[Reference] Man page of grep command.
 
 #### Q63. An rsyslogd filter determines which items in a log file to act on. What is it made up of?
 
@@ -569,8 +567,8 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
 
 #### Q70. What is the difference the `==` and `=~` comparison operators when used in BASH double square bracket `if` conditionals?
 
-- [ ] The `==` operator performs a string comparison; `=~` performs a regex comparison.
-- [x] The `==` operator performs a string comparison; `=~` performs a glob pattern comparison.
+- [x] The `==` operator performs a string comparison; `=~` performs a regex comparison.
+- [ ] The `==` operator performs a string comparison; `=~` performs a glob pattern comparison.
 - [ ] The `=~` operator performs a string comparison; `==` performs a regex comparison.
 - [ ] There is no `=~` operator in BASH `if` conditionals.
 
@@ -581,7 +579,46 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
    echo "data" >> file.txt
 ```
 
-- [ ] The first line will append the word `data` to file.txt and output it on the screen. The second line will append the word `data` only to file.txt.
+- [x] The first line will append the word `data` to file.txt and output it on the screen. The second line will append the word `data` only to file.txt.
 - [ ] They are the same.
 - [ ] The first line will append the word `data` to file.txt and there will be no output on the screen. The second line will output the word `data` on the screen and append it to `file.txt`
 - [ ] Both lines will overwrite file.txt with the word data.
+
+#### Q72. Using backreferences in a POSIX regular expression, which word would this pattern match?
+
+```shell
+(ss).*\1
+```
+
+- [ ] addressee
+- [x] possess
+- [ ] barrenness
+- [ ] successfully
+
+### Q73. What is the purpose of a Mail Transport Agent (MTA)?
+
+- [ ] It transports the mail from user's computer to the mail server.
+- [ ] It accepts mail and adds it to the mail queue for further processing.
+- [ ] It stores the mail in a mail queue waiting for the MUA to download it.
+- [x] It transports mail from one mail server to another.
+
+### Q74. What do you need to do before you can perform SSH passwordless logins?
+
+- [ ] Genetare RSA or DSA key pairs using ssh-keygen.
+- [ ] Change the remote user's password.
+- [ ] Create a local SSL certificate.
+- [ ] Change the remote SSH configure to allow it.
+
+### Q75. When installing a downloaded package on the RedHat-based distribution manual using RPM, what may you have to do first?
+
+- [ ] Compile the package source code.
+- [ ] Download all dependencies and install them before installing the desired package.
+- [ ] Agree to an end-user license agreement.
+- [ ] provide the --resolve option so RPM resolves all packages dependency.
+
+### Q76. With GNU tools such as a GNU grep, awk, and sed, what is the difference between basic regular expressions (BREs) and extended regular expressions (EREs)?
+
+- [ ] EREs can match the groups.
+- [ ] EREs support occurrence operators.
+- [ ] ERE's support alternation.
+- [ ] only the syntax differs.

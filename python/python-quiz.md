@@ -182,8 +182,8 @@ return list(enumerate(college_years, 2019))
 #### Q14. How does `defaultdict` work?
 
 - [ ] `defaultdict` will automatically create a dictionary for you that has keys which are the integers 0-10.
-- [ ] `defaultdict` forces a dictionary to only accept keys that are of the types specified when you created the `defaultdict` (such as string or integers).
-- [x] If you try to access a key in a dictionary that doesn't exist, `defaultdict` will create a new key for you instead of throwing a `KeyError`.
+- [ ] `defaultdict` forces a dictionary to only accept keys that are of the data type specified when you created the `defaultdict` (such as strings or integers).
+- [x] If you try to read from a `defaultdict` with a nonexistent key, a new default key-value pair will be created for you instead of throwing a `KeyError`.
 - [ ] `defaultdict` stores a copy of a dictionary in memory that you can default to if the original gets unintentionally modified.
 
 #### Q15. What is the correct syntax for defining a class called "Game", if it inherits from a parent class called "LogicGame"?
@@ -193,7 +193,7 @@ return list(enumerate(college_years, 2019))
 - [x] `class Game(LogicGame): pass`
 - [ ] `def Game.LogicGame(): pass`
 
-`repeated but labels will be different`
+*Duplicate of question 10.*
 
 #### Q16. What is the purpose of the "self" keyword when defining or calling instance methods?
 
@@ -1026,6 +1026,9 @@ def self.get_next_card(self):
 - [ ] `// This is a comment`
 
 #### Q78. What is the correct syntax for replacing the string apple in the list with the string orange?
+```
+my_list = ['kiwi', 'apple', 'banana']
+```
 
 - [ ] orange = my_list[1]
 - [x] my_list[1] = 'orange'
@@ -1175,8 +1178,8 @@ def count_recursive(n=1):
     if n > 3:
         return
     print(n)
-
-count_recursive(n + 1)
+    
+    count_recursive(n + 1)
 ```
 
 - [ ]
@@ -1283,6 +1286,8 @@ num_list[len(num_list)//2]
 - [ ] A class method is a regular function that belongs to a class, but it must return None
 - [ ] A class method is similar to a regular function, but a class method does not take any arguments.
 
+*Duplicate version of Question 50.*
+
 #### Q94. What file is imported to use dates in python?
 
 - [x] datetime
@@ -1373,3 +1378,160 @@ num_list.pop(2)
 num_list.remove(2)
 	[1,3,4,5]
 ```
+
+#### Q101. What is the correct syntax for creating an instance method?
+
+- [ ] def get_next_card(): # method body goes here
+- [ ] def self.get_next_card(): # method body goes here
+- [x] def get_next_card(self): # method body goes here
+- [ ] def self.get_next_card(self): # method body goes here
+
+#### Q102. Which mode is not a valid way to access a file from within a Python script?
+
+- [ ] write('w')
+- [ ] scan('s')
+- [x] append('a')
+- [ ] read('r')
+
+#### Q103. Which command will create a list from 10 down to 1? Example:
+
+[10,9,8,7,6,5,4,3,2,1]
+
+- [ ] reversed(list(range(1,11)))
+- [ ] list(reversed(range(1,10)))
+- [ ] list(range(10,1,-1))
+- [x] list(reversed(range(1,11)))
+
+#### Q104. Which syntax correctly creates a variable that is bound to a tuple?
+
+- [ ] my_tuple = [2, 'apple', 3.5]
+- [ ] my_tuple = [2, 'apple', 3.5].tuple()
+- [ ] my_tuple = tup(2, 'apple', 3.5)
+- [x] my_tuple = (2, 'apple', 3.5)
+
+[Reference](https://www.w3schools.com/python/python_tuples.asp)
+
+#### Q105. Which fragment of code will print exactly the same output as this fragment?
+
+```
+import math
+print(math.pow(2,10)) # prints 2 elevated to the 10th power
+```
+
+- [ ] 
+```
+print(2^10)
+```
+- [x] 
+```
+print(2**10)
+```
+- [ ] 
+```
+y = [x*2 for x in range(1,10)]
+print(y)
+```
+- [ ]
+```
+y = 1
+for i in range(1,10): 
+    y = y * 2
+print(y)
+```
+
+[Reference](https://www.digitalocean.com/community/tutorials/how-to-do-math-in-python-3-with-operators#:~:text=The%20**%20operator%20in%20Python,multiplied%20by%20itself%203%20times.)
+
+#### Q106. Elements surrounded by [] are **\_**, {} are **\_**, and () are **\_**.
+
+- [ ] sets only; lists or dictionaries; tuples
+- [ ] lists; sets only; tuples
+- [ ] tuples; sets or lists; dictionaries
+- [x] lists; dictionaries or sets; tuples
+
+[Reference](https://www.geeksforgeeks.org/differences-and-applications-of-list-tuple-set-and-dictionary-in-python/)
+
+#### Q107. What is the output of this code? (NumPy has been imported as np.)
+
+```
+table = np.array([
+    [1,3],
+    [2,4]])
+print(table.max(axis=1))
+```
+
+- [ ] `[2, 4]`
+- [x] `[3, 4]`
+- [ ] `[4]`
+- [ ] `[1,2]`
+
+[Reference](https://colab.research.google.com/drive/1PRGf7Wgcr_gQk7snnxxuc5rL9O1ky9Xg?usp=sharing)
+
+#### Q108. What will this code print?
+
+```
+number = 3
+print (f"The number is {number}")
+```
+
+- [x] `The number is 3`
+- [ ] `the number is 3`
+- [ ] `THE NUMBER IS 3`
+- [ ] It throws a TypeError because the integer must be cast to a string.
+
+[Reference](https://colab.research.google.com/drive/1PRGf7Wgcr_gQk7snnxxuc5rL9O1ky9Xg?usp=sharing)
+
+#### Q109. Which syntax correctly creates a variable that is bound to a tuple?
+
+- [ ] `my_tuple tup(2, 'apple', 3.5) %D`
+- [ ] `my_tuple [2, 'apple', 3.5].tuple() %D`
+- [x] `my_tuple = (2, 'apple', 3.5)`
+- [ ] `my_tuple = [2, 'apple', 3.5]`
+
+[Reference](https://beginnersbook.com/2018/02/python-tuple/)
+
+#### Q110. Which mode is _not_ a valid way to access a file from within a Python script?
+
+- [ ] write('w')
+- [ ] scan('s')
+- [x] append('a')
+- [ ] read('r')
+
+[Reference](https://www.guru99.com/reading-and-writing-files-in-python.html)
+
+[Reference](https://www.w3schools.com/python/ref_list_append.asp)
+
+#### Q111. Which command will create a list from 10 down to 1? Example:
+
+```
+[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+```
+
+- [ ] reversed(list(range(1,11)))
+- [ ] list(reversed(range(1,10)))
+- [ ] list(range(10, 1, -1))
+- [x] list(reversed(range(1,11)))
+
+[Reference](https://www.programiz.com/python-programming/methods/built-in/reversed)
+
+#### Q112. Suppose you have a variable named `vector` of type `np.array` with 10.000 elements. How can you turn `vector` into a variable named `matrix` with dimensions 100x100?: _[ANSWER NEEDED]_
+
+- [ ] matrix = matrix(vector,100,100)
+- [ ] matrix = vector.to_matrix(100,100)
+- [ ] matrix = (vector.shape = (100,100))
+- [x] matrix = vector.reshape(100,100)
+
+**example**
+
+```python
+import numpy as np
+vector = np.random.rand(10000)
+matrix = a.reshape(100, 100)
+print(matrix.shape)
+(100, 100)
+```
+
+#### Q113. NumPy allows you to multiply two arrays without a for loop. This is an example of _.
+- [x] vectorization
+- [ ] attributions
+- [ ] accelaration
+- [ ] functional programming

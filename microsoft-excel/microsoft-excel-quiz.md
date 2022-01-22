@@ -537,8 +537,10 @@ https://support.microsoft.com/en-us/office/using-structured-references-with-exce
 
 - [ ] On the PivotTable itself, drag each `Average` field into the row fields area.
 - [ ] Right-click a cell in the PivotTable and select `PivotTable Options > Classic PivotTable layout`.
-- [ ] In the `PivotTable Fields` pane, drag `Sum Values` from the `Columns` section to a location below the field in the `Rows` section.
+- [x] In the `PivotTable Fields` pane, drag `Sum Values` from the `Columns` section to a location below the field in the `Rows` section.
 - [ ] In the `PivotTable Fields` pane, drag each field from the `Sum Values` section to the `Rows` section.
+
+https://devexpress.github.io/dotnet-eud/interface-elements-for-desktop/articles/spreadsheet/pivot-tables/group-items-in-a-pivot-table.html
 
 ### Q70. Which Excel feature allows you to hide rows or columns with an easily visible expand/collapse?
 
@@ -590,8 +592,8 @@ https://support.microsoft.com/en-us/office/using-structured-references-with-exce
 
 #### Q76. What is the intersection of a worksheet row and column?
 
-- [ ] cell
-- [x] selection
+- [x] cell
+- [ ] selection
 - [ ] element
 - [ ] scalar
 
@@ -775,9 +777,9 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 ![image](images/Q95.png)
 
 - [ ] Total Sales This Year; Total Sales This Year
-- [x] Total Sales This Year; Market Region
+- [ ] Total Sales This Year; Market Region
 - [ ] Representative ID Number; Total Sales This Year
-- [ ] Market Region; Total Sales This Year
+- [x] Market Region; Total Sales This Year
 -
 
 #### Q95. Cell A1 contains the number 3. Which formula returns the text Apple?
@@ -856,3 +858,33 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] #REF!
 
 0 + 0 + 3 + 6 + 3 = 12. The formula only dislays "Too Many Tardy Days" when it is more than 12.
+
+#### Q105. What ribbon command on the Home tab can you use to change a cell's fill color automatically, based on the value of the cell?
+- [x] Conditional Formatting
+- [ ] Format
+- [ ] Cell Styles
+- [ ] Fill
+
+#### Q106. In this worksheet, how are cells A2:D2 related to cell C4?
+
+![image](images/Q106.png)
+
+- [ ] Cells A2:D2 are comments relating to the formula in cell C4.
+- [ ] Cells A2:D2 are the source of an error in the formula in cell C4.
+- [x] Cells A2:D2 are precedents of the formula in cell C4.
+- [ ] Cells A2:D2 are dependents of the formula in cell C4.
+
+#### Q107. What is the name given to the numbers in or above each bar in a column chart, as shown?
+
+![image](images/Q107.png)
+
+- [ ] data table
+- [ ] data numbers
+- [x] data labels
+- [ ] data values
+
+#### Q108. Which chart type provides the best visual display of the releationship between two numeric variables?
+- [ ] radar chart
+- [ ] box and whisker chart
+- [x] XY scatter chart
+- [ ] combo chart

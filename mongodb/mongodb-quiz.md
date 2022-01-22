@@ -493,3 +493,42 @@ Note: count() works with find(...) but length works with distinct
 - [ ] row number
 
 [Reference](https://docs.mongodb.com/manual/reference/operator/aggregation/project/#definition)
+
+#### Q71. After installing MongoDB on your machine, what must you do before launching Mongo?
+
+- [ ] Create a user account.
+- [ ] Register online.
+- [ ] Create a data directory.
+- [x] Establish security credentials.
+      Source: [mongodb site](https://docs.mongodb.com/manual/tutorial/verify-mongodb-packages/#verify-integrity-of-mongodb-packages)
+
+#### Q72. How does a --jsonArray file need to be structured?
+
+- [x] as a properly formatted JSON array
+- [ ] as YAML
+- [ ] as plain text
+- [ ] as a BSON object
+      Source: [Section blog](https://www.section.io/engineering-education/handling-json-in-mongodb/)
+
+### Q73. From the MongoDB shell, how do you display all of a database's memory usage?
+
+- [ ] db.size()
+- [ ] db.info()
+- [ ] db.memory()
+- [ ] db.stats()
+
+### Q74. How do you create a new MongoDB user?
+
+- [x] db.createUser({})
+- [ ] db.insert({user: 1})
+- [ ] db.customers.newUser({})
+- [ ] db.newUser({})
+      Reference: [MongoDB documentation](https://docs.mongodb.com/manual/tutorial/create-users/)
+
+### Q75. What is the internal data structure of a MongoDB document?
+
+- [x] JSON (JavaScript Object Notation)
+- [ ] BSON (Binary JSON)
+- [ ] ORM (object relational mode)
+- [ ] MBF (MongoDB binary format)
+      Reference: [MongoDB documentation](https://docs.mongodb.com/guides/server/introduction/)

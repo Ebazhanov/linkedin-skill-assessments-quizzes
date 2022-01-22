@@ -376,9 +376,9 @@ class UserService{
 
 #### Q35. Which snippet correctly shows setting the variable max to whichever variable holds the greatest value, a or b, using idiomatic Kotlin?
 
-- [ ] `val max3 = a.max(b)`
+- [x] `val max3 = a.max(b)` (Extension Function is One of the idiomatic Solutions in Kotlin)
 - [ ] `val max = a > b ? a : b`
-- [x] `val max = if (a > b) a else b`
+- [ ] `val max = if (a > b) a else b`
 - [ ] `if (a > b) max = a else max = b`
 
 #### Q36. You have an enum class Signal that represents the state of a network connection. You want to print the position number of the SENDING enum. Which line of code does that?
@@ -518,10 +518,10 @@ fun main() {
 }
 ```
 
-- [x] Because name is a class parameter, not a property-it is unresolved `main()`.
+- [ ] Because name is a class parameter, not a property-it is unresolved `main()`.
 - [ ] In order to create an instance of a class, you need the keyword `new`
 - [ ] The reference to name needs to be scoped to the class, so it should be `this.name`
-- [ ] Classes cannot be immutable. You need to change `var` to `val`
+- [x] Classes cannot be immutable. You need to change `var` to `val`
 
 #### Q46. The code below shows a typical way to show both index and value in many languages, including Kotlin. Which line of code shows a way to get both index and value more idiomatically?
 
@@ -603,9 +603,9 @@ fun main() {
 }
 ```
 
-- [x] You cannot; the hash symbol is not a valid operator.
+- [ ] You cannot; the hash symbol is not a valid operator.
 - [ ] You should replace the word hash with octothorpe, the actual name for the symbol.
-- [ ] You should use `minus` instead of hash, then type alias the minus symbol.
+- [x] You should use `minus` instead of hash, then type alias the minus symbol. // Note: How can you fix it?
 - [ ] You need to replace operator with the word `infix`.
 
 #### Q52. This code snippet compiles without error, but never prints the results when executed. What could be wrong?
@@ -615,8 +615,8 @@ val result = generateSequence(1) { it + 1 }.toList()
 println(result)
 ```
 
-- [ ] The sequence lacks a terminal operation.
-- [x] The sequence is infinite and lacks an intermediate operation to make `it` finite.
+- [x] The sequence lacks a terminal operation. ([reference](https://kotlinlang.org/docs/sequences.html#iterable))
+- [ ] The sequence is infinite and lacks an intermediate operation to make `it` finite.
 - [ ] The expression should begin with `generateSequence(0)`.
 - [ ] The `it` parameter should be replaced with `this`.
 
@@ -635,7 +635,7 @@ fun printStudents(vararg students: String) {
 
 - [ ] `printStudents(students.toList())`
 - [ ] `printStudents(students!!)`
-- [x] `printStudents(\*students)`
+- [x] `printStudents(*students)`
 - [ ] `printStudents(students[])`
 
 #### Q54. Both y and z are immutable references pointing to fixed-size collections of the same four integers. Are there any differences?
@@ -673,7 +673,7 @@ fun main() = runBlocking {
 data class Student(val firstName: String, val lastName: String)
 ```
 
-- [x] `println(students.groupBy{ it.lastName.first() }.count())`
+- [x] `println(students.groupBy{ it.lastName }.count())`
 - [ ] `println(students.groupBy{ it.lastName.first() }.fold().count())`
 - [ ] `println(students.groupingBy{ it.lastName.first() }.count())`
 - [ ] `println(students.groupingBy{ it.lastName.first() }.size())`
@@ -722,9 +722,9 @@ fun main() {
 
 #### Q60. Your class has a property name that gets assigned later. You do not want it to be a nullable type. Using a delegate, how should you declare it?
 
-- [x] `lateinit var name: String`
+- [ ] `lateinit var name: String` // lateinit is modifier not delegate
 - [ ] `var name: String by lazy`
-- [ ] `var name: String by Delegates.notNull()`
+- [x] `var name: String by Delegates.notNull()`
 - [ ] `var name: String? = null`
 
 #### Q61. You want to know each time a class property is updated. If the new value is not within range, you want to stop the update. Which code snippet shows a built-in delegated property that can accomplish this?
@@ -749,9 +749,9 @@ val b = arrayOf(100, 200, 3000)
 ```
 
 - [ ] `val c = list of (a, b)`
-- [x] `val c = a + b` ([reference](https://www.techiedelight.com/join-two-lists-kotlin/))
+- [ ] `val c = a + b`
 - [ ] `val c = listOf(a+b)`
-- [ ] `val c = listOf(*a, *b)`
+- [x] `val c = listOf(*a, *b)` ([reference](https://www.techiedelight.com/join-two-lists-kotlin/)) (Similar to Q72)
 
 #### Q64. This code is occasionally throwing a null pointer exception (NPE). How can you change the code so it never throws as NPE?
 
@@ -759,7 +759,7 @@ val b = arrayOf(100, 200, 3000)
 println("length of First Name = ${firstName!!.length}")
 ```
 
-- [x] Replace `!!.` with `?..` ([reference](https://kotlinlang.org/docs/null-safety.html#nullable-types-and-non-null-types))
+- [x] Replace `!!.` with `?.` ([reference](https://kotlinlang.org/docs/null-safety.html#nullable-types-and-non-null-types))
 - [ ] Replace `!!.` with `?:.`
 - [ ] Surround the line with a try/catch block.
 - [ ] Replace `!!.` with `?.let`.
@@ -811,9 +811,9 @@ fun main() {
 }
 ```
 
-- [ ] `moveTo( "LA")`
-- [x] `::moveTo("LA")` ([reference](https://kotlinlang.org/docs/reflection.html#interoperability-with-java-reflection))
-- [ ] `moveTo("LA")`
+- [x] `moveTo( "LA")`
+- [ ] `::moveTo("LA")`
+- [x] `moveTo("LA")`
 - [ ] `it.moveTo("LA")`
 
 #### Q69. For the Product class you are designing, you would like the price to be readable by anyone, but changeable only from within the class. Which property declaration implements your design?
@@ -862,26 +862,26 @@ fun main() {
 
 - [ ] A syntax error occurs due to the line `SpecialFunction()()`.
 - [ ] The message "An Error occurred" is displayed.
-- [x] The message "Invoked from an instance." is displayed.
+- [x] The message "Invoked from an instance." is displayed. // the second "()" is equals to .invoke()
 - [ ] A compile error occurs. You cannot override the `invoke()` method.
 
 #### Q71. Which statement declares a variable mileage whose value never changes and is inferred to be an integer?
 
-- [x] `val mileage:Int = 566`
+- [ ] `val mileage:Int = 566`
 - [ ] `var mileage:Int = 566`
-- [ ] `val mileage = 566`
+- [x] `val mileage = 566` (Note: inferred)
 - [ ] `const int mileage = 566`
 
 #### Q72. You have two arrays, a and b. Which line combines a and b as a list containing the contents of both?
 
 ```kotlin
-val a : array0f(1, 2, 3)
-val b : array0f(166,266,366)
+val a = array0f(1, 2, 3)
+val b = array0f(166,266,366)
 ```
 
 - [ ] `val c = a + b`
 - [ ] `val c = list0f(a, b)`
-- [x] `val c = list0f(*a, *b)`
+- [x] `val c = list0f(*a, *b)` ([reference](https://www.techiedelight.com/join-two-lists-kotlin/))
 - [ ] `val c = list0f(a+b)`
 
 #### Q73. What is the preferred way to create an immutable variable of type long?
@@ -901,3 +901,50 @@ val binaryStr = "00001111"
 - [ ] `val myInt = binaryStr.toInt("0b")`
 - [ ] `val myInt = binaryStr.toInt()`
 - [x] `val myInt = binaryStr.toInt(2)`
+
+#### Q75. In a Kotlin program, which lines can be marked with a label
+
+- [ ] `Any program line can be marked with a label`
+- [ ] `Any statement can be marked with a label`
+- [x] `Any expression can be marked with a lable` ([reference](https://agrawalsuneet.github.io/blogs/label-reference-in-kotlin/))
+- [ ] `Only the beginning of loops can be marked with a label`
+
+#### Q76. All classes in Kotlin inherit from which superclass?
+
+- [ ] `Default`
+- [ ] `Super`
+- [x] `Any` ([reference](https://kotlinlang.org/docs/inheritance.html))
+- [ ] `Object`
+
+#### Q77. You have written a function, sort(), that should accept only collections that implement the `Comparable` interface. How can you restrict the function?
+
+```kotlin
+fun sort(list: List<T>): List <T> {
+    return list.sorted()
+}
+```
+
+- [ ] `Add <T -> Comparable<T>> between the `fun` keyword and the function name`
+- [ ] `Add Comparable<T> between the `fun` keyword and the function name`
+- [x] `Add <T : Comparable<T>> between the `fun` keyword and the function name` ([reference](https://kotlinlang.org/docs/generics.html#generic-functions))
+- [ ] `Add <T where Comparable<T>> between the `fun` keyword and the function name`
+
+#### Q78. Kotlin classes are final by default. What does final mean?
+
+- [ ] final means that you cannot use interfaces with this class.
+- [ ] final means that this is the only file that can use the class.
+- [x] final means that you cannot extend the class.([reference](https://kotlinlang.org/docs/inheritance.html))
+- [ ] final classes cannot be used in the finally section of a try/catch block.
+
+#### Q79. You have created an array to hold three strings. When you run the code bellow, the compiler displays an error. Why does the code fail?
+
+```
+val names = arrayOf<String>(3)
+names[3]= "Delta"
+
+```
+
+- [x] Arrays use zero-based indexes. The value 3 is outside of the array's bounds
+- [ ] You accessed the element with an index but should have used.set().
+- [ ] You declared the array with val but should have used var
+- [ ] You cannot changes the value of an element of an array. You should have used a mutable list.

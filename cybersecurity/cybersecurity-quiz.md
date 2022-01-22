@@ -166,7 +166,7 @@
 - [x] next generation firewall (NGFW)
 - [ ] Cloud App Security Broker (CASB)
 
-#### Q23. Which is _not_ a threat modelling methodology?
+#### Q23. Which is _not_ a threat modeling methodology?
 
 - [ ] TRIKE
 - [x] TOGAF
@@ -198,7 +198,7 @@
 
 **Explaintion**: The formula for asymmetric encryption is `2n`; where `n` is the number of communicating parties.
 
-#### Q27. Two cometeing online retailers process credit card transactions for customers in countries on every continent. One organization is based in the United States. The other is based in the Netherlands. With which regulation must both countries comply while ensuring the security of these transactions?
+#### Q27. Two competing online retailers process credit card transactions for customers in countries on every continent. One organization is based in the United States. The other is based in the Netherlands. With which regulation must both countries comply while ensuring the security of these transactions?
 
 - [ ] Federal Information Security Managment Act (FISMA)
 - [x] Payment Card Industry Data Security Standard (PCI-DSS)
@@ -416,16 +416,23 @@ autopsy is for forensic analysis
 - [ ] Eradiction / Remediation
 - [ ] Lessons Learned
 
-#### Q55. Which is *not* a principle of zero trust security?
-
-- [x] assume breach
-- [ ] verify explicitly
-- [ ] use least privilege access
-- [ ] trust but verify
-
-#### Q56. Which programming language is most susceptible to buffer overflow attacks?
+#### Q55. Which programming language is most susceptible to buffer overflow attacks?
 
 - [x] C
 - [ ] Java
 - [ ] Ruby
 - [ ] Python
+
+#### Q56. Which list correctly describes risk management techniques?
+
+- [ ] risk acceptance, risk mitigation, risk containment, and risk qualification
+- [ ] risk avoidance, risk transference, risk containment, and risk quantification
+- [ ] risk avoidance, risk mitigation, risk containment, and risk acceptance
+- [x] risk avoidance, risk transference, risk mitigation, and risk acceptance
+
+### Q57. To implement encryption in transit, such as with the HTTPS protocol for secure web browsing, which type(s) of encryption is/are used?
+
+- [ ] asymmetric
+- [x] both symmetric and asymmetric
+- [ ] neither symmetric or asymmetric
+- [ ] symmetric

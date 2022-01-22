@@ -259,7 +259,7 @@
 - [ ] one
 - [ ] zero
 - [ ] shared
-- [ ] two or more
+- [x] two or more (https://data-flair.training/blogs/hadoop-high-availability-tutorial)
 
 ### Q38. Hadoop 2.x and later implement which service as the resource coordinator?
 
@@ -368,3 +368,111 @@
 - [ ] query action
 - [ ] detail
 - [ ] query plan
+
+### Q53. Which feature is used to roll back a corrupted HDFS instance to a previously known good point in time?
+
+- [ ] partitioning
+- [x] snapshot [Reference](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html#:~:text=is%20not%20supported.-,Snapshots,known%20good%20point%20in%20time.)
+- [ ] replication
+- [ ] high availability
+
+### Q54. Hadoop Common is written in which language?
+
+- [ ] C++
+- [ ] C
+- [ ] Haskell
+- [x] Java
+
+### Q55. Which file system does Hadoop use for storage?
+
+- [ ] NAS
+- [ ] FAT
+- [x] HDFS
+- [ ] NFS
+
+### Q56. What kind of storage and processing does Hadoop support?
+
+- [ ] encrypted
+- [ ] verified
+- [x] distributed
+- [ ] remote
+
+### Q57. Hadoop Common consists of which components?
+
+- [ ] Spark and YARN
+- [ ] HDFS and MapReduce
+- [ ] HDFS and S3
+- [ ] Spark and MapReduce
+
+### Q58. Most Apache Hadoop committers' work is done at which commercial company?
+
+- [ ] Cloudera
+- [ ] Microsoft
+- [ ] Google
+- [ ] Amazon
+
+### Q59. To get information about Reducer job runs, which object should be added?
+
+- [ ] Reporter
+- [ ] IntReadable
+- [ ] IntWritable
+- [ ] Writer
+
+### Q60. After changing the default block size and restarting the cluster, to which data does the new size apply?
+
+- [ ] all data
+- [ ] no data
+- [ ] existing data
+- [ ] new data
+
+### Q61. Which statement should you add to improve the performance of the following query?
+
+```
+SELECT
+  c.id,
+  c.name,
+  c.email_preferences.categories.surveys
+FROM customers c;
+```
+
+- [ ] GROUP BY
+- [ ] FILTER
+- [ ] SUB-SELECT
+- [ ] SORT
+
+### Q62. What custom object should you implement to reduce IO in MapReduce?
+ 
+ - [ ] Comparator
+ - [ ] Mapper
+ - [ ] Combiner
+ - [ ] Reducer
+ 
+### Q63. You can optimize Hive queries using which method?
+ 
+ - [ ] secondary indices
+ - [ ] summary statistics
+ - [ ] column-based statistics
+ - [ ] a primary key index
+ 
+ 
+### Q64. If you are processing a single action on each input, what type of job should you create?
+ 
+ - [ ] partition-only
+ - [ ] map-only
+ - [ ] reduce-only
+ - [ ] combine-only
+  
+### Q65. The simplest possible MapReduce job optimization is to perform which of these actions?
+ 
+ - [ ] Add more master nodes.
+ - [ ] Implement optimized InputSplits.
+ - [ ] Add more DataNodes.
+ - [ ] Implement a custom Mapper.
+ 
+ ### Q66. When you implement a custom Writable, you must also define which of these object? 
+  
+  - [ ] a sort policy
+  - [ ] a combiner policy
+  - [ ] a compression policy
+  - [ ] a filter policy
+  

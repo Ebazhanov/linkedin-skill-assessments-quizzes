@@ -167,7 +167,7 @@ File -> Open -> Recent -> Recover Unsaved Documents
 File -> Info -> Manage Document -> Recover Unsaved Documents  
 Read carefully. It's not about recovering, but only the last recent file!
 
-#### Q23. Which object type can you *not* insert into a Word document from the **Insert** tab?
+#### Q23. Which object type can you _not_ insert into a Word document from the **Insert** tab?
 
 - [x] a sketch
 - [ ] a symbol
@@ -571,3 +571,12 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] master page
 - [ ] blank page
 - [ ] table of contents page
+
+### Q73. before publishing a document you want to identify issues that may make it difficult for people with disabilities to read. which feature should you use?
+
+- [x] check Accessibility
+- [ ] inspact document
+- [ ] check compatibility
+- [ ] protect document
+
+[Reference](https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f)

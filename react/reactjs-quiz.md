@@ -909,7 +909,7 @@ ReactDOM.createPortal(x, y);
 - [ ] the current state
 - [x] the DOM element that exists outside of the parent component
 
-#### Q79. Given this code, what will be printed in the <h1> tag?
+#### Q79. Given this code, what will be printed in the `<h1>` tag?
 
 ```javascript
 const MyComponent = ({ children }) => (
@@ -927,7 +927,7 @@ const MyComponent = ({ children }) => (
 - [ ] undefined
 - [x] 2
 
-### Q80. What is this pattern called?
+#### Q80. What is this pattern called?
 
 ```javascript
 const [count, setCount] = useState(0);
@@ -937,3 +937,158 @@ const [count, setCount] = useState(0);
 - [x] array destructuring
 - [ ] spread operating
 - [ ] code pushing
+
+#### Q81. What is the first file loaded by the browser in a basic React project?
+
+- [ ] src/App.js
+- [ ] src/index.js
+- [ ] public/manifest.json
+- [x] public/index.html
+
+#### Q82. The code below is rendering nothing, and there is an error that says "ReactDOM is not defined." How do you fix this issue?
+
+```javascript
+import React from 'react';
+import { render } from 'react-dom';
+
+const element = <h1>Hi</h1>;
+
+ReactDOM.render(element, document.getElementById('root'));
+```
+
+- [x] `render(element, document.getElementById("root"));`
+- [ ] `ReactDOM(element, document.getElementById("root"));`
+- [ ] `renderDOM(element, document.getElementById("root"));`
+- [ ] `DOM(element, document.getElementById("root"));`
+
+#### Q83. In this component, how do you display whether the user was logged in or not?
+
+```javascript
+render() {
+  const isLoggedIn = this.state.isLoggedIn;
+  return (
+    <div>
+      The user is:
+    </div>
+  );
+}
+```
+
+- [ ] `The user is loggedIn ? logged in : not logged in.`
+- [ ] Write a function to check the login status.
+- [ ] `The user is {isLoggedIn = "no"}.`
+- [x] `The user is {isLoggedIn ? "logged in." : "not logged in"}.`
+
+#### Q84. You are rendering a list with React when this warning appears in the console: "Warning: Each child in a list should have a unique 'key' prop." How do you fix this issue?
+
+- [ ] Pass the name of each item as its key.
+- [ ] Add a key prop with the same value to each item the list.
+- [ ] Clear the console warnings.
+- [x] When iterating over the list items, add a unique property to each list item.
+
+#### Q85. How would you generate the boilerplate code for a new app that you are building to collect underpants?
+
+- [ ] npm create-react-app collect-underpants
+- [ ] npx start-app collect-underpants
+- [ ] react new collect-underpants
+- [x] npx create-react-app collect-underpants
+
+[Source: React Docs](https://reactjs.org/docs/create-a-new-react-app.html#create-react-app)
+
+#### Q86. Add the code that will fire the photon torpedoes when the button is clicked.
+
+```javascript
+class StarTrekkin extends React.Component {
+  firePhotonTorpedoes(e) {
+    console.log('pew pew');
+  }
+  render() {
+    return; // Missing code
+  }
+}
+```
+
+- [ ] `<button onClick={firePhotonTorpedoes()}>Pew Pew</button>`
+- [ ] `<button onClick={firePhotonTorpedoes}>Pew Pew</button>`
+- [ ] `<button onClick={this.firePhotonTorpedoes()}>Pew Pew</button>`
+- [x] `<button onClick={this.firePhotonTorpedoes}>Pew Pew</button>`
+
+[Source: React Docs](https://reactjs.org/docs/handling-events.html)
+
+#### Q87. What is the process of deciding whether an update is necessary?
+
+- [ ] shadow DOM
+- [ ] fiber
+- [x] reconciliation
+- [ ] setting state
+
+#### Q88. React is an open-source project but is maintained by which company?
+
+- [ ] Intuit
+- [ ] Twitter
+- [x] Facebook
+- [ ] Snapchat
+
+#### Q89. What command can you use to generate a React project?
+
+- [ ] react-starter
+- [x] create-react-app
+- [ ] react-gen
+- [ ] react-start
+
+#### Q90. What is the browser extension called that React developers use to debug applications?
+
+- [x] React Developer Tools
+- [ ] React Tooling Add-on
+- [ ] React Codewatch
+- [ ] React Debug
+
+#### Q91. Which tool is not part of Create React App?
+
+- [ ] React
+- [x] jQuery
+- [ ] webpack
+- [ ] ReactDOM
+
+#### Q92. What is the JavaScript syntax extension that is commonly used to create React elements?
+
+- [ ] HTML
+- [ ] JavaScriptX
+- [x] JSX
+- [ ] React JavaScript
+
+#### Q93. How might you check property types without using Flow or TypeScript?
+
+- [ ] Check Manually.
+- [ ] Use `prop-helper`.
+- [x] use `prop-types`.
+- [ ] user `checker-types`.
+
+#### Q94. How do you add an id of heading to the following h1 element?
+
+`let dish = <h1>Mac and Cheese</h1>; `
+
+- [ ] `let dish = <h1 id={heading}>Mac and Cheese</h1>;`
+- [x] `let dish = <h1 id="heading">Mac and Cheese</h1>;`
+- [ ] `let dish = <h1 id:"heading">Mac and Cheese</h1>;`
+- [ ] `let dish = <h1 class="heading">Mac and Cheese</h1>;`
+
+#### Q95. What value of button will allow you to pass the name of the person to be hugged?
+
+```
+class Huggable extends React.Component {
+  hug(id) {
+    console.log("hugging " + id);
+  }
+  render() {
+    let name = "kitteh";
+    let button = // Missing code
+    return button;
+  }
+}
+```
+
+- [ ] ```<button onClick={(name) => this.hub(name)}>Hug Button```
+- [ ] ```<button onClick={this.hug(e, name)}>Hug Button```
+- [ ] ```<button onClick={(e) => this.hug(name, e)}>Hug Button```
+- [ ] ```<button onClick={(e) => this.hug(name, e)}>Hug Button```

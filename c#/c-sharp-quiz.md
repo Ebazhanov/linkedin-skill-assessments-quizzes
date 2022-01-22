@@ -670,3 +670,5 @@ public int Password
 - [ ] enum AppState {"Offline", "Loading", "Ready"}
 - [ ] enum AppState = {Offline, Loading, Ready}
 - [x] enum AppState {Offline, Loading, Ready}
+
+  **Reference:** [Official documentation: Enum](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/enum)

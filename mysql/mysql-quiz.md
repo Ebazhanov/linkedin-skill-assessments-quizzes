@@ -839,3 +839,21 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] `CREATE VIEW v1 AS BEGIN SELECT * FROM t1 END;`
 - [ ] `CREATE VIEW v1 BEGIN SELECT * FROM t1 END;`
 - [x] `CREATE VIEW v1 AS SELECT * FROM t1;`
+
+#### Q93. How are permissions implemented in MySQL?
+- [ ] encrypted algorithms
+- [ ] access control lists
+- [ ] user settings
+- [ ] administrator schema
+
+#### Q94. Inside a transaction, several operations need to be performed. What would you do if an exception happens during that transaction?
+- [ ] `UNDO`
+- [ ] `UNCOMMIT`
+- [ ] `ROLLBACK`
+- [ ] `REVERSE
+
+#### Q95. What function finds the current time or date in MySQL?
+- [ ] DATE()
+- [ ] GETDATE()
+- [x] CURDATE()
+- [ ] CURRENT()

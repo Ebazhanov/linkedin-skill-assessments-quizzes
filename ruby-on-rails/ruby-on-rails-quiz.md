@@ -689,7 +689,7 @@ Order.limit(3).each { |order| puts order.line_items }
 - [ ] This query will result in the 1 query issue. Three orders will result in one query.
 - [ ] There are no issues with this query, and you are correctly limiting the number of Order models that will be loaded.
 
-#### Q54. Which choice is an *incorrect* way to render a partial?
+#### Q54. Which choice is an _incorrect_ way to render a partial?
 
 - [ ] `<%= render(:partial => 'shared/product') %>`
 - [ ] `<%= render('shared/product', :collection => @products) %>`

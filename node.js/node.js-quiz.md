@@ -438,8 +438,8 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 - [ ] const numInstances = cluster.instances().length;
 - [ ] const numInstances = cluster.instances();
-- [ ] const numInstances = require('os').cpus().length;
-- [x] const numInstances = process.cpus().length;
+- [x] const numInstances = require('os').cpus().length;
+- [ ] const numInstances = process.cpus().length;
 
 **Explanation:** _From official docs: [https://nodejs.org/api/cluster.html#cluster_cluster](https://nodejs.org/api/cluster.html#cluster_cluster)_
 
@@ -544,9 +544,16 @@ console.log(person);
 - [ ] types
 - [ ] callbackify
 
-#### Q65. Which choice is not a subclass of the Error class?
+#### Q66. Which choice is not a subclass of the Error class?
 
 - [x] GlobalError
 - [ ] TypeError
 - [ ] RangeError
 - [ ] AssertionError
+
+#### Q67. What is Node built on?
+
+- [ ] Python
+- [x] V8 JavaScript engine
+- [ ] PHP
+- [ ] c

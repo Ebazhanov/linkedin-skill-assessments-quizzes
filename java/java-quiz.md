@@ -242,8 +242,7 @@ class Main {
 - [ ] "World!"
 
 **Explanation:** Compilation error at line 10 because of final methods cannot be overridden, and here message() is a final method,
-                 and also note that Non-static method message() cannot be referenced from a static context.
-                  
+and also note that Non-static method message() cannot be referenced from a static context.
 
 #### Q13. Given this code, which command will output "2"?
 
@@ -393,6 +392,7 @@ public class Jedi {
 - [ ] new Jedi(name, species, false)
 - [x] this(name, species, false)
 - [ ] super(name, species, false)
+
   **Note:** This code won't compile, possibly broken code sample.
 
 #### Q27. Which statement is **NOT** true?
@@ -1290,9 +1290,13 @@ class TaxCalculator {
 #### Q94. Which characteristic does not apply to instances of java.util.HashSet=
 
 - [ ] uses hashcode of objects when inserted
-- [x] contains unordred elements
+- [ ] contains unordred elements
 - [ ] contains unique elements
-- [ ] contains sorted elements
+- [x] contains sorted elements
+
+`HashSet makes no guarantees as to the iteration order of the set; in particular, it does not guarantee that the order will remain constant over time.`
+
+[Reference](ttps://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)
 
 #### Q95. What is the output?
 
@@ -1331,7 +1335,6 @@ public class Main {
 
 #### Q97. You have an instance of type Map<String, Integer> named instruments containing the following key-value pairs: guitar=1200, cello=3000, and drum=2000. If you add the new key-value pair cello=4500 to the Map using the put method, how many elements do you have in the Map when you call instruments.size()?
 
-`System.out.println("hello my friends".split(" ")[0]);`
 
 - [ ] 2
 - [ ] When calling the put method, Java will throw an exception
@@ -1362,3 +1365,40 @@ public class Main {
 - [ ] `employees.filter(Employee::getName).collect(Collectors.toUnmodifiableList());`
 - [x] `employees.stream().map(Employee::getName).collect(Collectors.toList());`
 - [ ] `employees.stream().collect((e) -> e.getName());`
+
+#### Q102. What is the correct return type for the `processFunction` method:
+```
+____ processFunction(Integer number, Function<Integer, String> lambda) {
+    return lambda.apply(number);
+}
+```
+- [ ] Function<Integer, String>
+- [ ] Integer
+- [x] String
+- [ ] Consumer
+
+#### Q103. This code does not compile. What needs to be changed so that it does?
+```
+public enum Direction {
+    EAST("E"),
+    WEST("W"),
+    NORTH("N"),
+    SOUTH("S");
+
+    private final String shortCode;
+
+    public String getShortCode() {
+        return shortCode;
+    }
+}
+```
+- [x] Add a constructor that accepts a `String` parameter and assigns it to the field `shortCode`.
+- [ ] Remove the `final` keyword for the field `shortCode`.
+- [ ] All enums need to be defined on a single line of code.
+- [ ] Add a setter method for the field `shortCode`.
+
+#### Q104. Which language feature ensures that objects implementing the `AutoCloseable` interface are closed when it completes?
+- [ ] try-catch-finally
+- [ ] try-finally-close
+- [x] try-with-resources
+- [ ] try-catch-close

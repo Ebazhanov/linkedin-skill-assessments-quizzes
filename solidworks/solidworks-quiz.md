@@ -2,10 +2,12 @@
 
 #### Q1. Which file contains all the drawing document-specific information, such as specifications for units, drafting standard, font selections, etc?
 
-- [ ] SOLIDWORKS drawing template
+- [x] SOLIDWORKS drawing template
 - [ ] SOLIDWORKS composer file
 - [ ] SOLIDWORKS part file
 - [ ] SOLIDWORKS sheet format
+
+[Reference : drawing template](https://www.cati.com/blog/2017/07/tech-tip-the-difference-between-a-sheet-format-and-a-drawing-template-in-solidworks/#:~:text=The%20drawing%20template%20has%20the,pre%2Ddefined%20views%2C%20etc.)
 
 #### Q2. You need to design a steel spring with a pitch diameter of 3 inches, free length of 10 inches, and pitch of 1 inch. How would you accomplish this in SOLIDWORKS?
 
@@ -34,15 +36,19 @@
 
 - [ ] Quick Snaps
 - [ ] Rebuild
-- [ ] Repair Sketch
+- [x] Repair Sketch
 - [ ] Show Error
+
+[reference](https://blogs.solidworks.com/tech/2016/12/solidworks-fix-sketch-repair-sketch.html)
 
 #### Q6. Which choice is an example of a skected feature?
 
 - [ ] chamfer
-- [ ] extrusion
+- [x] extrusion
 - [ ] fillet
 - [ ] shell
+
+[Reference](https://help.solidworks.com/2016/English/SolidWorks/acadhelp/c_Feature_based_Models.htm)
 
 #### Q7. You want to make two circles have the same center point within a SOLIDWORKS sketch. How can you do this?
 
@@ -53,24 +59,30 @@
 
 #### Q8. Which reference geometry is NOT available in SOLIDWORKS?
 
-- [ ] sphere
+- [x] sphere
 - [ ] plane
 - [ ] point
 - [ ] axis
 
+[Reference](https://www.cati.com/blog/2020/02/solidworks-basics-of-reference-geometry-axis/)
+
 #### Q9. Specifying two lines to be perpendicular to each other would be an example of what?
 
 - [ ] feature
-- [ ] relation
+- [x] relation
 - [ ] extrude
 - [ ] dimension
+
+[Solidworks: Sketch Relations](https://help.solidworks.com/2022/english/SolidWorks/sldworks/c_Description_of_Sketch_Relations.htm)
 
 #### Q10. You want to focus on a single component within your assembly and hide all the rest. How can you do this?
 
 - [ ] Right-click the component you want to focus on and select Change Transparency
 - [ ] Right-click the component you want to focus on and select Hide
-- [ ] Right-click the component you want to focus on and select Isolate
+- [x] Right-click the component you want to focus on and select Isolate
 - [ ] Right-click the component you want to focus on and select Suppress
+
+[Solidworks: Isolate](https://help.solidworks.com/2022/english/SolidWorks/sldworks/hidd_comp_isolate_dlg.htm?verRedirect=1)
 
 #### Q11. What will Save As do on an existing saved part?
 
@@ -81,17 +93,21 @@
 
 #### Q12. You want to show a list of the raw materials, subassemblies, intermediate assemblies, subcomponents, and parts, and the quantities of each, needed to manufacture an end product. What would be useful to accomplish this?
 
-- [ ] bill of material
+- [x] bill of material
 - [ ] isometric view
 - [ ] exploded view
 - [ ] hole list
+
+[Reference](https://en.wikipedia.org/wiki/Bill_of_materials)
 
 #### Q13. Freezing a portion of a model can be used if you work with complex models with many features. Why
 
 - [ ] Freezing the features helps to show only the critical features of the model
 - [ ] Freezing the features helps to show the internal features of the model
-- [ ] Freezing the features helps to reduce the rebuild time and prevent unintentional changes to the model
+- [x] Freezing the features helps to reduce the rebuild time and prevent unintentional changes to the model
 - [ ] Freezing the features helps to show the external features of the model
+
+[Reference](https://help.solidworks.com/2021/English/SolidWorks/sldworks/c_Feature_Freeze.htm)
 
 #### Q14. Which single features could you use to design a cube, a sphere, and a paperclip, respectively?
 
@@ -104,8 +120,10 @@
 
 - [ ] parallel
 - [ ] coindicent
-- [ ] equal
+- [x] equal
 - [ ] concentric
+
+[Reference](https://help.solidworks.com/2019/English/SolidWorks/sldworks/r_Types_of_Mates_SWassy.htm)
 
 #### Q16. How would you temporarily remove a feature from a model?
 
@@ -119,7 +137,9 @@
 - [ ] Use Assembly Visualization
 - [ ] Use a bill of materials
 - [ ] Use isometric view
-- [ ] Use exploded view
+- [x] Use exploded view
+
+[Reference](https://help.solidworks.com/2018/english/solidworks/sldworks/c_Exploded_Views_in_Assemblies.htm)
 
 #### Q18. How would you fix a Lofted Boss/Base feature that appears twisted?
 
@@ -138,28 +158,32 @@
 #### Q20. With injection molding, one common manufacturing requirement or preference is applying a taper or angle to faces to help with part removal from the mold. Which feature can help you meet this requirement?
 
 - [ ] Loft
-- [ ] Draft
+- [x] Draft
 - [ ] Wrap
 - [ ] Sweep
 
 #### Q21. You want to simplify a very large and complex assembly to improve performance while working within it. What should you use?
 
 - [ ] DFMXpress
-- [ ] SpeedPak
+- [x] SpeedPak
 - [ ] a flexible subassembly
 - [ ] Design Checker
+
+[reference](https://help.solidworks.com/2014/english/SolidWorks/sldworks/c_Improving_Large_Assembly_Performance_SWassy.htm
 
 #### Q22. If you are working with ISO standards, which projection method would you most likely be using?
 
 - [ ] second angle projection
 - [ ] fourth angle projection
-- [ ] first angle projection
+- [x] first angle projection
 - [ ] third angle projection
+
+[Reference](https://www.mcadcafe.com/nbc/articles/1/1551676/Which-standard-should-you-adopt-2D-Drawing-ISO-ASME)
 
 #### Q23. You have a single line within a sketch that you would like to split into three separate lines. How can you achieve this?
 
 - [ ] Use the Offset Entities tool
-- [ ] Use the Split Line tool
+- [x] Use the Split Line tool
 - [ ] Use the Split Entities tool
 - [ ] Use the Split tool
 
@@ -168,35 +192,45 @@
 - [ ] inflection point
 - [ ] control point
 - [ ] spline point
-- [ ] spline handle
+- [x] spline handle
+
+[Reference](https://www.cati.com/blog/2016/06/creating-splines-in-solidworks-made-easy/)
 
 #### Q25. You want to build a new part within an assembly to ensure in-context relations and dimensions. You also want to save out this part file as its own unique file. After navigating to the Assembly ribbon tab, what do you do next?
 
 - [ ] Under Insert Component, select Part to create a new in-context part. Right-click the new part and select isolate
 - [ ] Select Insert Component to create a new in-context part. Right-click te new part and select Save Part (in External File)
 - [ ] Under Insert Components, select New Part to create a new in-context part. Right-click the new part and select Save Selection
-- [ ] Under Insert Components, select New Part to create a new in-context part. Right-click the new part and select Save Part (in External File)
+- [x] Under Insert Components, select New Part to create a new in-context part. Right-click the new part and select Save Part (in External File)
 
-#### Q26. The ribbon ar at the top of your SOLIDWORKS screen has disappeared. How can you get it back?
+[Reference](https://help.solidworks.com/2018/english/SolidWorks/sldworks/t_Creating_a_Part_in_an_Assembly.htm)
+
+#### Q26. The ribbon bar at the top of your SOLIDWORKS screen has disappeared. How can you get it back?
 
 - [ ] Click View > Toolbars > CommandManager
 - [ ] Click View > Toolbars > FeatureManager
 - [ ] Click View > Toolbars > MotionManager
-- [ ] Click View > Toolbars > Task Pane
+- [x] Click View > Toolbars > Task Pane
+
+[reference](https://www.javelin-tech.com/blog/2017/02/solidworks-task-pane-missing/)
 
 #### Q27. Representing a three-dimensional object by a number of two-dimensional views is generally called
 
 - [ ] isometric projection
 - [ ] oblique projection
 - [ ] object projection
-- [ ] orthographic projection
+- [x] orthographic projection
+
+[Reference](https://www.britannica.com/technology/orthographic-projection-engineering)
 
 #### Q28. How can you rename a feature?
 
-- [ ] Select the feature name and press F2, or slow-double-click the feature name
+- [x] Select the feature name and press F2, or slow-double-click the feature name
 - [ ] Select the feature name and press F3 key, or right-click the feature name
 - [ ] Select the feature name and press F7, or quick-double-click the feature name
 - [ ] Select the feature name and press F5 key, or double-click the feature name
+
+[reference](http://support.ptc.com/help/creo/creo_pma/usascii/index.html#page/part_modeling/part_modeling/part_five_sub/To_Rename_a_Feature.html)
 
 #### Q29. When using the Fillet tool, what does the Tanget Propagation option do?
 
@@ -207,10 +241,12 @@
 
 #### Q30. You notice that one of the subassemblies in your main assembly is rigid and does not have mobility it should. How can you resolve this issue?
 
-- [ ] Select the subassembly and then select **Make Subassembly Flexible** from the context menu
+- [x] Select the subassembly and then select **Make Subassembly Flexible** from the context menu
 - [ ] Select the subassembly and then select **Set Resolved from LightWeight** from the context menu
 - [ ] Select the subassembly and then select **Edit Assembly** from the context menu
 - [ ] Select the subassembly and then select **Make Independent** from the context menu
+
+[Reference](https://help.solidworks.com/2018/english/solidworks/sldworks/c_flexible_sub-assemblies.htm)
 
 #### Q31. You dimension an arc in a drawing and notice that the dimension is coming in as the radius value. You want to show the diameter value. To do this, first you click the dimension to open the dimension PropertyManager. What do you do next?
 
@@ -252,7 +288,7 @@
 
 - [ ] smart dimensioning
 - [ ] angular running dimensioning
-- [ ] ordinate dimensioning
+- [x] ordinate dimensioning
 - [ ] chain dimensioning
 
 #### Q36. In the image below, what types of hole are A1 and B1 respectively?

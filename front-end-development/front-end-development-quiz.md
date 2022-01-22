@@ -514,3 +514,48 @@ console.log(currencies);
 - [ ] allowing the browser to ignore code it believes will perform badly
 
 [Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking)
+
+#### Q54. What is WebP?
+
+- [ ] a method of auditing performance that gives your site a score, which is then used for Google ranking
+- [x] a next-generation image format offering a smaller file size than equivalent PNG or JPEG images
+- [ ] a new font format that allows a single font to display at different styles and weights
+- [ ] a next-generation PDF format that offers a smaller file size and better accessibility than standard PDF documents
+
+[Source: Google Developers](https://developers.google.com/speed/webp)
+
+#### Q55. Your website uses CSS Grid Layout extensively, and a visitor who navigates using the keyboard tells you that they seem to jump erratically all over the screen when navigating. What is the most likely problem?
+
+- [ ] The visitor's browser does not have full support for CSS Grid Layout.
+- [x] Items have been positioned in such a way that they are in a different order to the source.
+- [ ] The browser has a keyboard navigation bug.
+- [ ] You need to add the tabindex attribute to elements.
+
+[Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/CSS_Grid_Layout_and_Accessibility)
+
+#### Q56. What is the definition of the phrase “Time to Interactive”?
+
+- [ ] when the browser displays the first bit of content from the DOM
+- [x] when the user can consistently interact with all of the page elements
+- [ ] when HTML has loaded, but not necessarily JavaScript, CSS, or images
+- [ ] when the user can see the webpage on the screen
+
+[Source: Web.dev](https://web.dev/interactive/)
+
+#### Q57. What is yarn?
+
+- [ ] a JavaScript framework that is leaner than React
+- [ ] a JavaScript bundler
+- [ ] a testing framework
+- [x] a JavaScript package manager
+
+[Source: Yarn Docs](https://yarnpkg.com/)
+
+#### Q58. What is the name of the event that occurs when the mouse pointer hovers over an element?
+
+- [ ] load
+- [x] mouseover
+- [ ] hover
+- [ ] focus
+
+[Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseover_event)
