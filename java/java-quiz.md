@@ -951,7 +951,7 @@ try {
 - [ ] Hello World!
 - [ ] It will throw runtime exception
 
-#### Q64. What is not a java keyword
+#### Q64. Which is not a java keyword
 
 - [ ] finally
 - [ ] native
