@@ -1294,9 +1294,9 @@ class TaxCalculator {
 - [ ] contains unique elements
 - [x] contains sorted elements
 
-`HashSet makes no guarantees as to the iteration order of the set; in particular, it does not guarantee that the order will remain constant over time.`
+**Explanation**: HashSet makes no guarantees as to the iteration order of the set; in particular, it does not guarantee that the order will remain constant over time.
 
-[Reference](ttps://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)
+[Reference](https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)
 
 #### Q95. What is the output?
 
@@ -1402,3 +1402,36 @@ public enum Direction {
 - [ ] try-finally-close
 - [x] try-with-resources
 - [ ] try-catch-close
+
+#### Q105. What code should go in line 3?
+```java
+class Main {
+    public static void main(String[] args) {
+
+        array[0] = new int[]{1, 2, 3};
+        array[1] = new int[]{4, 5, 6};
+        array[2] = new int[]{7, 8, 9};
+        for (int i = 0; i < 3; i++)
+            System.out.print(array[i][1]); //prints 258
+    }
+}
+```
+- [ ] `int[][] array = new int[][];`
+- [x] `int[][] array = new int[3][3];`
+- [ ] `int[][] array = new int[2][2];`
+- [ ] `int[][] array = [][];`
+
+#### Q106. Is this an example of method overloading or overriding?
+```java
+class Car {
+    public void accelerate() {}
+}
+class Lambo extends Car {
+    public void accelerate(int speedLimit) {}
+    public void accelerate() {}
+}
+```
+- [ ] neither
+- [x] both
+- [ ] overloading
+- [ ] overriding
