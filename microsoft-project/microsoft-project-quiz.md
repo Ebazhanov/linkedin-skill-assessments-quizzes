@@ -61,9 +61,11 @@
 #### Q9. You are troubleshooting a schedule on someone else's computer The schedule has 10,000 tasks. When a change is made to a task's duration on a Fixed Units task, the start and finish dates do not change. change highlighting does not appear, and the Gantt Chart bat does not update. What is the cause of this issue?
 
 - [ ] Inserted projects are calculated like summary tasks is selected.
-- [x] Calculate multiple critical paths is not selected.
+- [ ] Calculate multiple critical paths is not selected.
 - [ ] One of the Com add-ins is not selected.
-- [ ] Calculate project after each edit is set to Off.
+- [x] Calculate project after each edit is set to Off.
+
+`The hint being "The schedule has 10,000 tasks" and the fact that the Gantt Chart does not update.`
 
 #### Q10. You would like to understand which tasks are critical and which are not. When looking at the Gantt chart, how are these tasks identified by default?
 
