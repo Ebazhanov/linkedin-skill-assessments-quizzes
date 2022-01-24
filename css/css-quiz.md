@@ -1656,7 +1656,6 @@ img {
 
 #### Q115. Given this markup, which selector would result in the text being highlighted in yellow?
 
-- [ ] 
 ```js 
 <span class="highlight">#BLM</span>
 ```
