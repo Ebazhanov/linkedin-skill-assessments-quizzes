@@ -125,10 +125,12 @@
 
 #### Q18. You are preparing a meal comprising a main dish and multiple side dishes. You want the finish of the main dish to drive the finish of the side dishes. The main dish will start before and take longer than the side dishes. You need to create a link from the main dish to each of the side dishes. Which link type is appropriate?
 
-- [x] Start-to-Finish (SF)
-- [ ] Finish-to-Finish(FF)
+- [ ] Start-to-Finish (SF)
+- [x] Finish-to-Finish(FF)
 - [ ] Finish-to-Start (FS)
 - [ ] Start-to-Start (SS)
+
+**Reasoning:** the problem states that the finish of the secondary dishes should be the same with the finish of the main course. The main course takes longer to complete than the secondary dishes. If we set Start-to-Finish, the secondary dishes will begin after the main dish is complete and this is not what the problem stated.
 
 #### Q19. A resource is overallocated in a project. This resource is responsible for two tasks that are to happen at the same time. The first of these tasks is on the critical path. Which solution should you use to remedy the overallocation?
 
