@@ -160,7 +160,7 @@
 - [ ] Hit: Download // Event: Sample Tone // Content: Music
 - [ ] Category: Music // Action: Download // Label: Sample Tone
 - [ ] Category: Download // Event: Music // Label: Sample Tone
-- [ ] Hit: Music // Event: Download //Content: Sample Tone
+- [x] Hit: Music // Event: Download //Content: Sample Tone
 
 #### Q23. You want to classify people who join your newsletter with a custom dimension for "Newsletter Subscribers." What is the appropriate scope to apply to this custom dimension?
 
@@ -542,23 +542,37 @@
 - [ ] all of these answers
 - [ ] with a table filter
 
-### Q76. You operate a website that has a three-step sign-up process. However, each step of the sign-up process loads at the same URL. If you wanted to assign a unique URL to each step and track it within Google Analytics as a pageview, what would you do?
+#### Q76. You operate a website that has a three-step sign-up process. However, each step of the sign-up process loads at the same URL. If you wanted to assign a unique URL to each step and track it within Google Analytics as a pageview, what would you do?
 
 - [ ] Use virtual pageviews.
 - [ ] Configure a campaign URL.
 - [ ] Use the preview tag.
 - [x] Use event tracking.
 
-### Q77. It is a best practice to always have one of what kind of view?
+#### Q77. It is a best practice to always have one of what kind of view?
 
 - [ ] property
 - [ ] custom
 - [ ] segmented
 - [x] unfiltered
 
-### Q78. You send an email including a link to your website without any UTM parameters. A visitor clicks that link from a secured (https) email platform such as Gmail. What source is shown for that traffic?
+#### Q78. You send an email including a link to your website without any UTM parameters. A visitor clicks that link from a secured (https) email platform such as Gmail. What source is shown for that traffic?
 
 - [ ] Email
 - [x] Referral
 - [ ] (other)
 - [ ] Direct
+
+#### Q79. Which type of goal allows you to specifiy a funnel?
+
+- [ ] Destination 
+- [ ] Duration
+- [ ] Pages/Screens per Session 
+- [ ] Event
+
+#### Q80. What is an interaction that causes data to be sent to Analytics?
+
+- [ ] dimension
+- [ ] metric
+- [x] hit
+- [ ] tag
