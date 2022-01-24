@@ -438,3 +438,45 @@ D. They must have no duplicate data rows.
 - [ ] all of these answers
 - [ ] Add a date field to the page filter area, set filtering to Relative date filtering and click Extend.
 - [ ] Add a slicer for a date field to the report. Click the upper right corner and select Relative.
+
+#### Q56. A group admin for an app workspace cannot _______ in their workspace.
+- [ ] remove users from the group
+- [ ] manage group membership
+- [ ] add users to the group
+- [x] remove users from Power BI
+
+#### Q57. In general, you should not add DAX calculated columns to your data moder if you are able to do what?
+- [x] all of these answers
+- [ ] Create the columns in Power Query during data load
+- [ ] Create a measure instead
+- [ ] Have it added to the data source
+
+#### Q58. In the Power BI service, accessing a dataset for an uploaded Power BI file allows you what capabilities?
+- [ ] the ability to see all of the dataset only in Power BI cloud services, but not in Power BI Desktop
+- [x] front-end access to all data queries within this source without the ability to make back-end changes
+- [ ] connections to all the data queries and the ability to make ETL modifications to existing data
+- [ ] the option to select a single query from within the dataset and build new ETL processes form it
+
+#### Q59. What is the recommended level of security for data extensions?
+- [ ] Prompt the user before load
+- [ ] Allow any extension to load without warning
+- [x] Allow only certified extensions to load
+- [ ] Load certified extensions and prompt the user for noncertified extensions
+
+#### Q60. Your data model includes a Members data table and ten other tables, including these the lookup tables with unique IDs: City, State, and Country. How can you improve your data model for Power BI?
+
+    A. Combine City, State, and Country into one lookup table
+    B. Move City, State, and Country to the Member table
+    C. Combine City and State into one lookup table and remove the Country table
+    D. Leave the model as it is.
+
+- [ ] A or C
+- [x] A
+- [ ] D
+- [ ] A or B
+
+#### Q61. Before you can use a custom visualization from the Power BI Marketplace, you need to ________ in, then ______ it to your Power BI account.
+- [ ] download; upload
+- [x] purchase; import
+- [ ] purchase; upload
+- [ ] upload; download
