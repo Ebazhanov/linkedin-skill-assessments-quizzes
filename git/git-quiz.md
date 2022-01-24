@@ -226,7 +226,7 @@ modified: beta-notes.js
 - [ ] use git show refs/push-notifications
 - [ ] use git show push-notifications
 - [ ] use git show heads/refs/push-notifications
-- [x] use git show refs/head/push-notifications
+- [x] use git show refs/heads/push-notifications
 
 [Reference](https://geedew.com/fixing-git-branch-and-tag-name-collision/)
 
