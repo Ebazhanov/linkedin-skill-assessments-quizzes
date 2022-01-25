@@ -166,8 +166,8 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 - [ ] Double click the meeting to open its form, and then change the start time and close it
 - [ ] None of these answers
-- [ ] Open the calendar in Day, Week, or Work Week view and drag the start time to 12 PM
-- [x] You must create a separate appointment for yourself from 12 PM to 1 PM
+- [x] Open the calendar in Day, Week, or Work Week view and drag the start time to 12 PM
+- [ ] You must create a separate appointment for yourself from 12 PM to 1 PM
 
 #### Q24. What is the fastest way to find a message sent by Bonnie Bradford that includes an attachment?
 
@@ -335,7 +335,7 @@ D. Because you cannot create a search folder for a subfolder
 
 #### Q45. While using Focused Inbox, you notice that Outlook sometimes puts important messages from a specific customer on th Another tab. How do you fix this for future messages?
 
-- [ ] Right-click a message that was incorrectly organized and click Move to Focused.
+- [x] Right-click a message that was incorrectly organized and click Move to Focused.
 - [ ] Right-click a message that was incorrectly organized and click Always Move to Focused.
 - [ ] Close the Outlook application and relaunch.
 - [ ] Locate that customer in the People Hub and select the Focused check box.
@@ -356,7 +356,7 @@ D. Because you cannot create a search folder for a subfolder
 
 #### Q48. For efficiency, how should you save a search that you run frequently?
 
-- [ ] as a search folder (Smart Folder on Mac)
+- [x] as a search folder (Smart Folder on Mac)
 - [ ] none of these answers
 - [ ] as a column
 - [ ] as a criteria set
@@ -417,7 +417,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Highlight the email in the viewing pane and sort by From,
 - [ ] Enter the person's email address into the search box.
 - [ ] On the Folder tab, click New Search Folder and select Mail from specific people.
-- [ ] Right-click the email and select Find Related > Messages from sender.
+- [x] Right-click the email and select Find Related > Messages from sender.
 
 #### Q57. What does the ignore button allow you to do?
 
@@ -574,3 +574,17 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] You cannot delete a folder until its contents are deleted first.
 - [ ] The contents are moved to Deleted Items, and then the empty folder is moved to Deleted Items.
 - [x] The folder and its contents are moved to Deleted Items at the same time.
+
+#### Q78. You have been tasked with inviting 75 people to an event. You do not need to track whether or not they intend to attend. To save time, what should you do?
+
+- [ ] Add all recipients to the Bcc Field.
+- [ ] Turn off Request Responses under Response Options.
+- [ ] Use mail merge to send the invitations.
+- [ ] Add "NRR (no response required)" to the subject line
+
+#### Q79. What would be the best way to have emails sent directly to you in your Inbox, but hide emails for later review when you are in the Cc line?
+
+- [x] Create a Ccd folder, and then create a rule to move all messages where you are on the Cc line to that folder.
+- [ ] Create a rule to move all messages where you are in the Cc line to the Deleted items folder.
+- [ ] Turn on Focused Inbox.
+- [ ] Create a rule to apply conditional formatting to all messages where you are in the Cc line.

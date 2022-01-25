@@ -61,9 +61,11 @@
 #### Q9. You are troubleshooting a schedule on someone else's computer The schedule has 10,000 tasks. When a change is made to a task's duration on a Fixed Units task, the start and finish dates do not change. change highlighting does not appear, and the Gantt Chart bat does not update. What is the cause of this issue?
 
 - [ ] Inserted projects are calculated like summary tasks is selected.
-- [x] Calculate multiple critical paths is not selected.
+- [ ] Calculate multiple critical paths is not selected.
 - [ ] One of the Com add-ins is not selected.
-- [ ] Calculate project after each edit is set to Off.
+- [x] Calculate project after each edit is set to Off.
+
+`The hint being "The schedule has 10,000 tasks" and the fact that the Gantt Chart does not update.`
 
 #### Q10. You would like to understand which tasks are critical and which are not. When looking at the Gantt chart, how are these tasks identified by default?
 
@@ -125,10 +127,12 @@
 
 #### Q18. You are preparing a meal comprising a main dish and multiple side dishes. You want the finish of the main dish to drive the finish of the side dishes. The main dish will start before and take longer than the side dishes. You need to create a link from the main dish to each of the side dishes. Which link type is appropriate?
 
-- [x] Start-to-Finish (SF)
-- [ ] Finish-to-Finish(FF)
+- [ ] Start-to-Finish (SF)
+- [x] Finish-to-Finish(FF)
 - [ ] Finish-to-Start (FS)
 - [ ] Start-to-Start (SS)
+
+**Reasoning:** the problem states that the finish of the secondary dishes should be the same with the finish of the main course. The main course takes longer to complete than the secondary dishes. If we set Start-to-Finish, the secondary dishes will begin after the main dish is complete and this is not what the problem stated.
 
 #### Q19. A resource is overallocated in a project. This resource is responsible for two tasks that are to happen at the same time. The first of these tasks is on the critical path. Which solution should you use to remedy the overallocation?
 

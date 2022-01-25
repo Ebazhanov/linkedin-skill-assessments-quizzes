@@ -1088,7 +1088,7 @@ class Huggable extends React.Component {
 }
 ```
 
-- [ ] ```<button onClick={(name) => this.hub(name)}>Hug Button```
-- [ ] ```<button onClick={this.hug(e, name)}>Hug Button```
-- [ ] ```<button onClick={(e) => this.hug(name, e)}>Hug Button```
-- [ ] ```<button onClick={(e) => this.hug(name, e)}>Hug Button```
+- [ ] `<button onClick={(name) => this.hub(name)}>Hug Button`
+- [ ] `<button onClick={this.hug(e, name)}>Hug Button`
+- [ ] `<button onClick={(e) => this.hug(name, e)}>Hug Button`
+- [ ] `<button onClick={(e) => this.hug(name, e)}>Hug Button`
