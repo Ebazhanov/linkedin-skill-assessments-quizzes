@@ -588,4 +588,3 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Create a rule to move all messages where you are in the Cc line to the Deleted items folder.
 - [ ] Turn on Focused Inbox.
 - [ ] Create a rule to apply conditional formatting to all messages where you are in the Cc line.
-

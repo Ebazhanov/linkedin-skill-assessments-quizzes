@@ -1591,7 +1591,6 @@ D. font-size: 20px
 }
 ```
 
-
 - [ ]
 ```css
 .overlay {
@@ -1619,8 +1618,12 @@ D. font-size: 20px
 #### Q113. Which missing line of code would place the text on top of the image? Which missing line of code would place the text on top of the image?
 
 ```js
-<div class="container"><img src="grumpy-cat.gif" /><p>The z-index property is cool!</p></div>
+<div class="container">
+  <img src="grumpy-cat.gif" />
+  <p>The z-index property is cool!</p>
+</div>
 ```
+
 ```css
 img {
   position: absolute;
@@ -1629,8 +1632,12 @@ img {
   // Missing line
 }
 ```
+
 ```js
-<div class="container"><img src="grumpy-cat.gif" /><p>The z-index property is cool!</p></div>
+<div class="container">
+  <img src="grumpy-cat.gif" />
+  <p>The z-index property is cool!</p>
+</div>
 ```
 
 ```css
@@ -1656,55 +1663,66 @@ img {
 
 #### Q115. Given this markup, which selector would result in the text being highlighted in yellow?
 
-```js 
+```js
 <span class="highlight">#BLM</span>
 ```
 
-- [ ] 
+- [ ]
+
 ```css
 .highlight {
-	background-color: yellow;
+  background-color: yellow;
 }
 ```
 
-- [ ] 
+- [ ]
+
 ```css
 #highlight {
-	background-color: yellow;
+  background-color: yellow;
 }
 ```
 
-- [ ] 
+- [ ]
+
 ```css
 .highlight {
-	color: yellow;
+  color: yellow;
 }
 ```
 
-- [ ] 
+- [ ]
+
 ```css
 #highlight {
-	color: yellow;
+  color: yellow;
 }
 ```
 
 #### Q116. To prevent a background image from tiling in any direction, which style property would you apply?
 
-- [ ] 
+- [ ]
+
 ```css
-    background-repeat: no-repeat;
+background-repeat: no-repeat;
 ```
-- [ ] 
+
+- [ ]
+
 ```css
-    background-repeat: fixed;
+background-repeat: fixed;
 ```
-- [ ] 
+
+- [ ]
+
 ```css
-    background-repeat: none;
+background-repeat: none;
 ```
-- [ ] 
+
+- [ ]
+
 ```css
-    background-tile: none;
+background-tile: none;
 ```
 
 #### Q117. To rotate an object 30 degrees counterclockwise, which style property would you apply?
@@ -1727,28 +1745,35 @@ img {
 <section><p>paragraph one</p></section><p>paragraph two</p>
 ```
 
-- [ ] 
+- [ ]
+
 ```css
-section>p {
-	color: blue;
+section > p {
+  color: blue;
 }
 ```
+
 - [ ]
+
 ```css
 p {
-	color: blue;
+  color: blue;
 }
 ```
+
 - [ ]
+
 ```css
-section+p {
-	color: blue;
+section + p {
+  color: blue;
 }
 ```
+
 - [ ]
+
 ```css
-p+section {
-	color: blue;
+p + section {
+  color: blue;
 }
 ```
 
@@ -1766,35 +1791,40 @@ p+section {
 ```
 
 - [ ]
+
 ```css
 #inner {
-	width: 50%;
+  width: 50%;
 }
 
 #outer {
-	width: 100%;
-}
-```
-
-- [ ] 
-```css
-#inner {
-	left: 0;
-	right: 0;
-	position: center;
+  width: 100%;
 }
 ```
 
 - [ ]
+
 ```css
 #inner {
-	text-align: center;
+  left: 0;
+  right: 0;
+  position: center;
 }
 ```
+
 - [ ]
+
 ```css
 #inner {
-	width: 50%;
-	margin: 0 auto;
+  text-align: center;
+}
+```
+
+- [ ]
+
+```css
+#inner {
+  width: 50%;
+  margin: 0 auto;
 }
 ```

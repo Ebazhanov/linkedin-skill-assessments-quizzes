@@ -1335,7 +1335,6 @@ public class Main {
 
 #### Q97. You have an instance of type Map<String, Integer> named instruments containing the following key-value pairs: guitar=1200, cello=3000, and drum=2000. If you add the new key-value pair cello=4500 to the Map using the put method, how many elements do you have in the Map when you call instruments.size()?
 
-
 - [ ] 2
 - [ ] When calling the put method, Java will throw an exception
 - [ ] 4
@@ -1367,17 +1366,20 @@ public class Main {
 - [ ] `employees.stream().collect((e) -> e.getName());`
 
 #### Q102. What is the correct return type for the `processFunction` method:
+
 ```
 ____ processFunction(Integer number, Function<Integer, String> lambda) {
     return lambda.apply(number);
 }
 ```
+
 - [ ] Function<Integer, String>
 - [ ] Integer
 - [x] String
 - [ ] Consumer
 
 #### Q103. This code does not compile. What needs to be changed so that it does?
+
 ```
 public enum Direction {
     EAST("E"),
@@ -1392,18 +1394,21 @@ public enum Direction {
     }
 }
 ```
+
 - [x] Add a constructor that accepts a `String` parameter and assigns it to the field `shortCode`.
 - [ ] Remove the `final` keyword for the field `shortCode`.
 - [ ] All enums need to be defined on a single line of code.
 - [ ] Add a setter method for the field `shortCode`.
 
 #### Q104. Which language feature ensures that objects implementing the `AutoCloseable` interface are closed when it completes?
+
 - [ ] try-catch-finally
 - [ ] try-finally-close
 - [x] try-with-resources
 - [ ] try-catch-close
 
 #### Q105. What code should go in line 3?
+
 ```java
 class Main {
     public static void main(String[] args) {
@@ -1416,12 +1421,14 @@ class Main {
     }
 }
 ```
+
 - [ ] `int[][] array = new int[][];`
 - [x] `int[][] array = new int[3][3];`
 - [ ] `int[][] array = new int[2][2];`
 - [ ] `int[][] array = [][];`
 
 #### Q106. Is this an example of method overloading or overriding?
+
 ```java
 class Car {
     public void accelerate() {}
@@ -1431,6 +1438,7 @@ class Lambo extends Car {
     public void accelerate() {}
 }
 ```
+
 - [ ] neither
 - [x] both
 - [ ] overloading

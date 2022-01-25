@@ -143,7 +143,8 @@ fn main() {
 }
 ```
 
-- [ ] 
+- [ ]
+
 ```rust
 for c in text.chars() {
     if let Some(count) = &mut counts.get(&c) {
@@ -153,21 +154,27 @@ for c in text.chars() {
     };
 }
 ```
-- [x] 
+
+- [x]
+
 ```rust
 for c in text.chars() {
     let count = counts.entry(c).or_insert(0);
     *count += 1;
 }
 ```
-- [ ] 
+
+- [ ]
+
 ```rust
 for c in text.chars() {
     let count = counts.entry(c);
     *count += 1;
 }
 ```
-- [ ] 
+
+- [ ]
+
 ```rust
 for c in text.chars() {
     counts.entry(c).or_insert(0).map(|x| x + 1);
@@ -175,7 +182,6 @@ for c in text.chars() {
 ```
 
 [reference](https://doc.rust-lang.org/std/collections/hash_map/struct.HashMap.html#method.entry)
-
 
 #### Q17. Which fragment does not incur memory allocations while writing to a "file" (represented by a Vec<u8>)?
 
@@ -190,7 +196,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let c = '🧀';
 
     // replace this line
-    
+
     println!("{:?}", v);
 
     Ok(())
@@ -198,20 +204,27 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 ```
 
 - [x]
+
 ```rust
 write!(&mut v, "{}{}{}", a, b, c)?;
 ```
+
 - [ ]
+
 ```rust
 v.write(a)?;
 v.write(b)?;
 v.write(c)?;
 ```
+
 - [ ]
+
 ```rust
 v.write(a, b, c)?;
 ```
+
 - [ ]
+
 ```rust
 v.write_all(a.as_bytes())?;
 v.write_all(&b.to_string().as_bytes())?;
@@ -220,7 +233,6 @@ c.encode_utf8(&mut v);
 
 [Answered in rust user forum](https://users.rust-lang.org/t/formatting-and-writing-to-a-file-without-malloc-or-locks/52295/9)
 [reference](https://doc.rust-lang.org/std/macro.write.html)
-
 
 #### Q18. Does the `main` function compile? If so, why? If not, what do you need to change?
 
@@ -265,7 +277,7 @@ fn main() {
 
 [ref from stack overflow](https://stackoverflow.com/questions/41413336/do-all-primitive-types-implement-the-copy-trait)
 
-#### Q23. Why does this code *not* compile?
+#### Q23. Why does this code _not_ compile?
 
 ```rust
 fn returns_closure() -> dyn Fn(i32) -> i32 {
@@ -289,7 +301,7 @@ fn returns_closure() -> dyn Fn(i32) -> i32 {
 
 [Rust book reference](https://doc.rust-lang.org/book/ch16-03-shared-state.html?highlight=arc%3CT%3E#atomic-reference-counting-with-arct)
 
-#### Q25. Which types are *not* allowed within an enum variant's body?
+#### Q25. Which types are _not_ allowed within an enum variant's body?
 
 - [ ] zero-sized types
 - [ ] structs
