@@ -334,3 +334,60 @@ fn main() {
 - [ ] `Mutex<Rc<T>>`
 
 [Rust book reference](https://doc.rust-lang.org/book/ch16-03-shared-state.html#atomic-reference-counting-with-arct)
+
+#### Q28. Which idiom can be used to concatenate the strings `a`, `b`, `c`?
+
+```rust
+let a = "a".to_string();
+let b = "b".to_string();
+let c = "c".to_string();
+```
+
+- [ ] `String::from(a,b,c)`
+- [x] `format!("{}{}{}", a, b, c)`
+- [ ] `concat(a,b,c)`
+- [ ] `a + b + c`
+
+#### Q29. In this function. what level of access is provided to the variable `a`?
+
+```rust
+use std::fmt::Debug;
+
+fn report<T:Debug>(a: &T) {
+    eprintln!("info: {:?}", a);
+}
+```
+
+- [ ] print
+- [x] read-only
+- [ ] read/write
+- [ ] debug
+
+#### Q30. Which choice is _not_ valid loop syntax?
+
+- [ ] `loop`
+- [ ] `for`
+- [ ] `while`
+- [x] `do`
+
+#### Q31. How do you construct a value of `Status` that is initialized to `Waiting`?
+
+```rust
+enum Status {
+    Waiting,
+    Busy,
+    Error(String),
+}
+```
+
+- [ ] `let s = Enum::new(Status::Waiting);`
+- [ ] `let s = new Status::Waiting;`
+- [x] `let s = Status::Waiting;`
+- [ ] `let s = Status::new(Waiting);`
+
+#### Q32. Which statement about enums is false?
+
+- [ ] Enums are useful in matching patterns.
+- [ ] Option is an enum type.
+- [ ] Enum variants can have different types with associated data.
+- [x] the term *enum* is short for *enummap*
