@@ -6984,6 +6984,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "BobbyByrne",
+      "name": "Bobby Byrne",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7388850?v=4",
+      "profile": "https://github.com/BobbyByrne",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
