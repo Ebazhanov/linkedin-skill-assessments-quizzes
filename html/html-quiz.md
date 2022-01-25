@@ -345,10 +345,12 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </picture>
 ```
 
-- [ ] It displays image1.jpg at 1000px and higher, image2.jpg at 750-999px, and image3.jpg at 749px and lower.
+- [x] It displays image1.jpg at 1000px and higher, image2.jpg at 750-999px, and image3.jpg at 749px and lower.
 - [ ] It displays image1.jps at 1000px and higher and image2.jpg at 750-999px, image3.jpg is a default in case `<picture>` is not supported.
-- [x] It displays image1.jpg at 1000px and higher and image2.jpg at 750px and higher, image3.jpg is a default in case `<picture>` is not supported.
+- [ ] It displays image1.jpg at 1000px and higher and image2.jpg at 750px and higher, image3.jpg is a default in case `<picture>` is not supported.
 - [ ] It displays image1.jpg, image2.jpg and image3.jpg at 1000px and higher.
+
+[Source: HTML &lt;picture> Tag](https://www.w3schools.com/tags/tag_picture.asp)
 
 #### Q26. What code will produce this table?
 
