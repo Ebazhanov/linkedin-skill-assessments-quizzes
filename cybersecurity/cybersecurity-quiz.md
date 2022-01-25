@@ -430,9 +430,86 @@ autopsy is for forensic analysis
 - [ ] risk avoidance, risk mitigation, risk containment, and risk acceptance
 - [x] risk avoidance, risk transference, risk mitigation, and risk acceptance
 
-### Q57. To implement encryption in transit, such as with the HTTPS protocol for secure web browsing, which type(s) of encryption is/are used?
+#### Q57. To implement encryption in transit, such as with the HTTPS protocol for secure web browsing, which type(s) of encryption is/are used?
 
 - [ ] asymmetric
 - [x] both symmetric and asymmetric
 - [ ] neither symmetric or asymmetric
 - [ ] symmetric
+
+#### Q58. Which type of program uses Windows Hooks to capture keystrokes typed by the user, hides in the process list, and can compromise their system as well as their online access codes and password?
+
+- [ ] trojan
+- [ ] keystroke collector
+- [ ] typethief
+- [x] keylogger 
+
+#### Q59. How does randsomware affect a victim's files?
+
+- [ ] by destroying them
+- [x] by encrypting them
+- [ ] by stealing them
+- [ ] by selling them 
+
+#### Q60. Your computer has been infected, and is sending out traffic to a targeted system upon receiving a command from a botmaster. What condition is your computer currently in?
+
+- [ ] It has become a money mule.
+- [x] It has become a zombie.
+- [ ] It has become a bastion host.
+- [ ] It has become a botnet.
+
+#### Q61. You choose a cybersecurity framework for your financial organization that implements an effective and auditable set of governance and management processes for IT. Which framework are you choosing?
+
+- [ ] C2M2
+- [x] NIST SP 800-37
+- [ ] ISO/IEC 27001
+- [ ] COBIT
+
+#### Q62. NIST issued a revision to SP 800-37 in December 2018. It provides a disciplined, structured, and flexible process for managing security and privacy risk. Which type of document is SP 800-37??
+
+- [x] a risk management framework
+- [ ] a guide to risk assessments
+- [ ] a guideline for vulnerability testing 
+- [ ] a step-by-step guide for performing business impact analyses
+- 
+#### Q63. The most notorious military-grade advanced persistent threat was deployed in 2010, and targeted centrifuges in Iran. What was this APT call?
+
+- [ ] duqu
+- [ ] agent BTZ
+- [x] stuxnet
+- [ ] flame
+
+#### Q64. Where would you record risks that have been identified and their details, such as their ID and name, classification of information, and the risk owner?
+
+- [ ] in the risk assessment documentation
+- [x] in the risk register
+- [ ] in the business impact ledger
+- [ ] in the Orange Book
+
+#### Q65. To prevent an incident from overwhelming resources, _ is necessary.
+
+- [ ] disconnection from the network
+- [x] early containment
+- [ ] continuation of monitoring for other incidents
+- [ ] eradication of the issues
+
+#### Q66. FUD is expensive and often causes high drama over low risk. Which computer chip exploits were reported by CNN as needing to be completely replaced, but were later fixed with firmware updates?
+
+- [ ] fire and ice exploits
+- [x] meltdown and spectre exploits
+- [ ] Intel and STMicro CPU exploits
+- [ ] super microboard and Apple iPhone exploits
+
+#### Q67. The ASD Top Four are application whitelisting, patching of applications, patching of operating systems, and limiting administrative privileges. What percent of breaches do these account for?
+
+- [ ] 40 percent
+- [ ] 60 percent
+- [x] 85 percent
+- [ ] 100 percent
+
+#### Q68. You are working in the security operations center analyzing traffic on your network. You detect what you believe to be a port scan. What does this mean?
+
+- [ ] This could be a specific program being run by your accounting department.
+- [ ] This is an in-progress attack and should be reported immediately
+- [ ] This is normal operation for your business.
+- [x] This could be a precursor to an attack.
