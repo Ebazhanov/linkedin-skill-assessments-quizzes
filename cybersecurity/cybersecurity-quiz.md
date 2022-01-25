@@ -442,14 +442,14 @@ autopsy is for forensic analysis
 - [ ] trojan
 - [ ] keystroke collector
 - [ ] typethief
-- [x] keylogger 
+- [x] keylogger
 
 #### Q59. How does randsomware affect a victim's files?
 
 - [ ] by destroying them
 - [x] by encrypting them
 - [ ] by stealing them
-- [ ] by selling them 
+- [ ] by selling them
 
 #### Q60. Your computer has been infected, and is sending out traffic to a targeted system upon receiving a command from a botmaster. What condition is your computer currently in?
 
@@ -469,9 +469,10 @@ autopsy is for forensic analysis
 
 - [x] a risk management framework
 - [ ] a guide to risk assessments
-- [ ] a guideline for vulnerability testing 
+- [ ] a guideline for vulnerability testing
 - [ ] a step-by-step guide for performing business impact analyses
-- 
+-
+
 #### Q63. The most notorious military-grade advanced persistent threat was deployed in 2010, and targeted centrifuges in Iran. What was this APT call?
 
 - [ ] duqu
@@ -486,7 +487,7 @@ autopsy is for forensic analysis
 - [ ] in the business impact ledger
 - [ ] in the Orange Book
 
-#### Q65. To prevent an incident from overwhelming resources, _ is necessary.
+#### Q65. To prevent an incident from overwhelming resources, \_ is necessary.
 
 - [ ] disconnection from the network
 - [x] early containment
