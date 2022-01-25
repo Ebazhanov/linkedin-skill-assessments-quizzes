@@ -196,6 +196,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let c = '🧀';
 
     // replace this line
+
     println!("{:?}", v);
 
     Ok(())
@@ -300,7 +301,7 @@ fn returns_closure() -> dyn Fn(i32) -> i32 {
 
 [Rust book reference](https://doc.rust-lang.org/book/ch16-03-shared-state.html?highlight=arc%3CT%3E#atomic-reference-counting-with-arct)
 
-#### Q25. Which types are *not* allowed within an enum variant's body?
+#### Q25. Which types are _not_ allowed within an enum variant's body?
 
 - [ ] zero-sized types
 - [ ] structs
