@@ -374,3 +374,30 @@ Note: Free trial doesn't have the organizations.
 - [ ] Google Compute Engine
 
 [Reference](https://cloud.google.com/functions#all-features)
+
+#### Q50. You need to answer the question "How long does it take my application to handle a given request?" What do you do?
+
+- [ ] Configure Stackdriver Error Reporting.
+- [ ] Configure Stackdriver Profiler.
+- [x] Configure Stackdriver Trace.
+- [ ] Configure Stackdriver Debug.
+
+[Reference](https://stackoverflow.com/questions/69434714/how-to-use-stackdriver-on-gcp-to-get-how-long-does-it-take-to-process-a-request)
+
+#### Q51. You want to select a fully managed, serverless platform for developing and hosting web applications at scale on GCP. Which service should you choose?
+
+- [x] Google App Engine.
+- [ ] Cloud Functions.
+- [ ] Google Kubernetes Engine.
+- [ ] Google Compute Engine.
+
+#### Q52. You have a set of exploratory queries that you want to run as inexpensively as possible in BigQuery. What should you do?
+
+- [ ] Set the job priority for each query to Batch and expect to see query results immediately.
+- [x] Set the job priority for each query to Interactive and expect to see query results immediately.
+- [ ] Set the job priority for each query to Batch and expect to see query results within 24 hours.
+- [ ] Set the job priority for each query to Batch and expect to see query results within 24 hours.
+
+Explanation: *BigQuery offers a choice of two pricing models for runnig queries: on-demand (you are charged for the number of bytes processes by each query) and flat-rate (you purchase slots - dedicated processing capacity).* If the exploratory queries are one-off, running in Interactive mode using on-demand pricing seems to be the optimal answer.
+
+[Reference](https://cloud.google.com/bigquery/pricing)
