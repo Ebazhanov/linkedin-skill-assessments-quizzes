@@ -307,3 +307,10 @@
 - [ ] `CloudEdge`
 - [x] `CloudFront`
 - [ ] `CloudStack`
+
+#### Q45. What programming language does AWS Lambda support?
+
+- [ ] `custom`
+- [x] `all of these answers`
+- [ ] `Java`
+- [ ] `Ruby`
