@@ -398,6 +398,6 @@ Note: Free trial doesn't have the organizations.
 - [ ] Set the job priority for each query to Batch and expect to see query results within 24 hours.
 - [ ] Set the job priority for each query to Batch and expect to see query results within 24 hours.
 
-Explanation: *BigQuery offers a choice of two pricing models for runnig queries: on-demand (you are charged for the number of bytes processes by each query) and flat-rate (you purchase slots - dedicated processing capacity).* If the exploratory queries are one-off, running in Interactive mode using on-demand pricing seems to be the optimal answer.
+Explanation: _BigQuery offers a choice of two pricing models for runnig queries: on-demand (you are charged for the number of bytes processes by each query) and flat-rate (you purchase slots - dedicated processing capacity)._ If the exploratory queries are one-off, running in Interactive mode using on-demand pricing seems to be the optimal answer.
 
 [Reference](https://cloud.google.com/bigquery/pricing)

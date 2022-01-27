@@ -390,4 +390,4 @@ enum Status {
 - [ ] Enums are useful in matching patterns.
 - [ ] Option is an enum type.
 - [ ] Enum variants can have different types with associated data.
-- [x] the term *enum* is short for *enummap*
+- [x] the term _enum_ is short for _enummap_
