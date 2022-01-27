@@ -589,3 +589,18 @@ struct a {
 - [ ] LILO
 - [ ] LOLI
 
+#### Q43. What does this program display?
+
+```c
+main(){
+    char *p = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    int i;
+    for (i=0;i<5;i++) *p++; *p++;
+    printf("%c",*p++);
+}
+```
+
+- [ ] K
+- [ ] M
+- [ ] H
+- [x] G
