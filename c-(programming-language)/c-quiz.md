@@ -549,3 +549,35 @@ main(){
 - [ ] static
 - [x] library
 - [ ] system
+
+#### Q41. You have written a function that you want to include as a member of structure a. How is such as structure member defiened?
+
+- [x]
+
+```c
+struct a {
+    void *f1;
+};
+```
+
+- [ ]
+
+```c
+struct a {
+    void (*f1)();
+};
+```
+- [ ]
+
+```c
+struct a {
+    *(void *f1)();
+};
+```
+- [ ]
+
+```c
+struct a {
+    void *f1();
+};
+```
