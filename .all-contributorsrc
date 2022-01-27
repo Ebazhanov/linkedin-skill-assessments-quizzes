@@ -6994,6 +6994,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Pirci",
+      "name": "Pirci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43238947?v=4",
+      "profile": "https://emre-pirci.netlify.app/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
