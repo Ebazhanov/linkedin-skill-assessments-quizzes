@@ -530,18 +530,16 @@
 - [ ] Google Tag Manager
 - [x] Google My Business
 
-#### Q.61 Your client is ready to start a blog. but has read that they should put the blog on a subdomain instead of subdirectory in order to create more external links to  their website. How would you advise  your client about this strategy?
+#### Q.61 Your client is ready to start a blog. but has read that they should put the blog on a subdomain instead of subdirectory in order to create more external links to their website. How would you advise your client about this strategy?
 
 - [ ] Not only should the blog be on a subdomain, but each of the major navigation areas should be on separate subdomains in order to increase the number and value of the links into the primary domain.
 - [x] It is best to have the blog on a subdirectory and build links to primary domain.
 - [ ] It is an advisable choice as it will enable interlinking between the domains and increase the number of links.
 - [ ] The blog should be on a separate URL to avouud building too many links between the same domain or IP.
 
-#### Q.62 Blog author pages, each with only one sentence about the author, are at risk of being flagged as _____ content.
+#### Q.62 Blog author pages, each with only one sentence about the author, are at risk of being flagged as **\_** content.
 
 - [ ] non-indexable
 - [ ] irrelevant
 - [ ] biased
 - [x] thin
-
-

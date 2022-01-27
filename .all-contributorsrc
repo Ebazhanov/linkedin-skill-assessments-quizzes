@@ -6954,6 +6954,46 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "deshayk",
+      "name": "DeShay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70130858?v=4",
+      "profile": "https://medium.com/@deshayk",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Jay206-Programmer",
+      "name": "Jay206-Programmer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62549240?v=4",
+      "profile": "https://github.com/Jay206-Programmer",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "elenderg",
+      "name": "Elender",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1089556?v=4",
+      "profile": "http://fb.com/elenderg",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "BobbyByrne",
+      "name": "Bobby Byrne",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7388850?v=4",
+      "profile": "https://github.com/BobbyByrne",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
