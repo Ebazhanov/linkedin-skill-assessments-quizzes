@@ -542,3 +542,10 @@ main(){
 - [ ] for...in
 - [ ] repeat...until
 - [ ] do...until
+
+#### Q40. By default, C Functions are what type of functions?
+
+- [ ] global
+- [ ] static
+- [x] library
+- [ ] system
