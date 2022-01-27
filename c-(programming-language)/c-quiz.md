@@ -581,3 +581,11 @@ struct a {
     void *f1();
 };
 ```
+
+#### Q42. A Stack data structure allows all data operations at one end only, making it what kind of an implementation?
+
+- [ ] FIFO
+- [x] LIFO
+- [ ] LILO
+- [ ] LOLI
+
