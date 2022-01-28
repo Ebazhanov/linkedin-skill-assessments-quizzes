@@ -1526,7 +1526,19 @@ x<y&z>w
 - [ ] `<img>` is not a valid HTML element. Instead, use `<image src="..."/>`.
 - [ ] `<img>` should be nested within a `<figure>` tag.
 
-#### Q97. Which choice is the best way to code three choices within a form so that the user can select multiple items?
+
+#### Q97. Which choice is the most semantically correct markup for specifying the first definition of a term?
+
+- [ ]  <p>The <dl>focal length</dl> of a lens gives the distance from the lens to the image sensor.</p>
+- [x]  <p>The <dfn>focal length<dfn> of a lens gives the distance from the lens to the image sensor.</p>
+- [ ]  <p>The <dt>focal length</dt> of a lens gives the distance from the lens to the image sensor.</p>
+- [ ]  <p>The <dd>focal length</dd> of a lens gives the distance from the lens to the image sensor.</p>
+
+`The <dfn> HTML element is used to indicate the term being defined within the context of a definition phrase or sentence. The <p> element, the <dt>/<dd> pairing, or the <section> element which is the nearest ancestor of the <dfn> is considered to be the definition of the term.` 
+  
+ [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn)
+
+#### Q98. Which choice is the best way to code three choices within a form so that the user can select multiple items?
 
 - [ ] <input type="radio" name="example"> Choice 1 <br/>
       <input type="radio" name="example"> Choice 2 <br/>
@@ -1544,7 +1556,6 @@ x<y&z>w
       <label><input type="radio" name="example"> Choice 2</label><br/>
       <label><input type="radio" name="example"> Choice 3</label>
 
-`<input> elements of type checkbox are rendered by default as boxes that are checked (ticked) when activated, like you might see in an official government paper form. The exact appearance depends upon the operating system configuration under which the browser is running. Generally this is a square but it may have rounded corners.` [(Source)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
-
-
-
+`<input> elements of type checkbox are rendered by default as boxes that are checked (ticked) when activated, like you might see in an official government paper form. The exact appearance depends upon the operating system configuration under which the browser is running. Generally this is a square but it may have rounded corners.`
+  
+ [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
