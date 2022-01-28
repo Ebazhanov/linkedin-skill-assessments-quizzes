@@ -1526,11 +1526,11 @@ x<y&z>w
 - [ ] `<img>` is not a valid HTML element. Instead, use `<image src="..."/>`.
 - [ ] `<img>` should be nested within a `<figure>` tag.
 
-#### Q98. Which choice is the most semantically correct markup for specifying the first definition of a term?
+### Q98. Which choice is the most semantically correct markup for specifying the first definition of a term?
 
-- [ ] <p>The <dl>focal length</dl> of a lens gives the distance from the lens to the image sensor.</p>
-- [x] <p>The <dfn>focal length<dfn> of a lens gives the distance from the lens to the image sensor.</p>
-- [ ] <p>The <dt>focal length</dt> of a lens gives the distance from the lens to the image sensor.</p>
-- [ ] <p>The <dd>focal length</dd> of a lens gives the distance from the lens to the image sensor.</p>
+- [ ]  <p>The <dl>focal length</dl> of a lens gives the distance from the lens to the image sensor.</p>
+- [x]  <p>The <dfn>focal length<dfn> of a lens gives the distance from the lens to the image sensor.</p>
+- [ ]  <p>The <dt>focal length</dt> of a lens gives the distance from the lens to the image sensor.</p>
+- [ ]  <p>The <dd>focal length</dd> of a lens gives the distance from the lens to the image sensor.</p>
 
 `The <dfn> HTML element is used to indicate the term being defined within the context of a definition phrase or sentence. The <p> element, the <dt>/<dd> pairing, or the <section> element which is the nearest ancestor of the <dfn> is considered to be the definition of the term.` [(Source)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn)
