@@ -920,7 +920,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 <nav><ul>
   <li><a href="#">Link 1</a></li>
   <li><a href="#">Link 2</a></li>
-  <li><a href="#">Link 3</a></li> 
+  <li><a href="#">Link 3</a></li>
 </ul></nav>
 ```
 
@@ -933,7 +933,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
     <ul>
       <li><a href="#">Link 2a</a></li>
     </ul>
-  <li><a href="#">Link 3</a></li> 
+  <li><a href="#">Link 3</a></li>
 </ul></nav>
 ```
 
@@ -1525,3 +1525,26 @@ x<y&z>w
 - [x] The `<img>` element is missing an alt attribute.
 - [ ] `<img>` is not a valid HTML element. Instead, use `<image src="..."/>`.
 - [ ] `<img>` should be nested within a `<figure>` tag.
+
+#### Q97. Which choice is the best way to code three choices within a form so that the user can select multiple items?
+
+- [ ] <input type="radio" name="example"> Choice 1 <br/>
+      <input type="radio" name="example"> Choice 2 <br/>
+      <input type="radio" name="example"> Choice 3
+
+- [x] <input type="checkbox" name="example"> Choice 1 <br/>
+      <input type="checkbox" name="example"> Choice 2 <br/>
+      <input type="checkbox" name="example"> Choice 3
+
+- [ ] <label><input type="checkbox" name="example"> Choice 1</label><br/>
+      <label><input type="checkbox" name="example"> Choice 2</label><br/>
+      <label><input type="checkbox" name="example"> Choice 3</label>
+
+- [ ] <label><input type="radio" name="example"> Choice 1</label><br/>
+      <label><input type="radio" name="example"> Choice 2</label><br/>
+      <label><input type="radio" name="example"> Choice 3</label>
+
+`<input> elements of type checkbox are rendered by default as boxes that are checked (ticked) when activated, like you might see in an official government paper form. The exact appearance depends upon the operating system configuration under which the browser is running. Generally this is a square but it may have rounded corners.` [(Source)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
+
+
+
