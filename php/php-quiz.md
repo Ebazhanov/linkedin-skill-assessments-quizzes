@@ -9,7 +9,7 @@
 - [ ] a parser error
 - [x] 0
 
-***Both sides of the "spaceship" are equal, so the answer is 0. PHP will convert '76 trombones' to 76 in this context, as the string starts with '76'. Try it!***
+**_Both sides of the "spaceship" are equal, so the answer is 0. PHP will convert '76 trombones' to 76 in this context, as the string starts with '76'. Try it!_**
 
 ##### Q2. Which is the most secure way to avoid storing a password in clear text in database?
 
@@ -669,41 +669,34 @@ Dog
 Dog
 ```
 
-- [ ] 
-  ```php
-  $name = "Cat";
-  $name = "Dog";
-  echo $name . "<br/>";
-  echo $$name . "<br/>";
-  echo $Dog;
-  ```
-  
-- [ ] 
-  ```php
-  $name = "Cat";
-  $$name = "Dog";
-  echo $name . "<br/>";
-  echo $$name . "<br/>";
-  echo $Dog;
-  ``` 
-  
-- [x] 
-  ```php
-  $name = "Cat";
-  $$name = "Dog";
-  echo $name . "<br/>";
-  echo $$name . "<br/>";
-  echo $Cat;
-  ```
-  
-- [ ] 
-  ```php
-  $name = "Cat";
-  $$name = "Dog";
-  echo $name . "<br/>";
-  echo $name . "<br/>";
-  echo $Cat;
-  ```
+- [ ] ```php
+      $name = "Cat";
+      $name = "Dog";
+      echo $name . "<br/>";
+      echo $$name . "<br/>";
+      echo $Dog;
+      ```
+- [ ] ```php
+      $name = "Cat";
+      $$name = "Dog";
+      echo $name . "<br/>";
+      echo $$name . "<br/>";
+      echo $Dog;
+      ```
+- [x] ```php
+      $name = "Cat";
+      $$name = "Dog";
+      echo $name . "<br/>";
+      echo $$name . "<br/>";
+      echo $Cat;
+      ```
+- [ ] ```php
+      $name = "Cat";
+      $$name = "Dog";
+      echo $name . "<br/>";
+      echo $name . "<br/>";
+      echo $Cat;
+      ```
 
 ##### Q59. Imagine a web application, built following a MVC architecture, that contains a quiz and a button to score it, When the user presses the Score button, which component should handle the request?
 
@@ -714,75 +707,61 @@ Dog
 
 ##### Q60. Which script might be used to continue a user's search for music, across different webpages?
 
-- [ ] 
-  ```php
-    1 <?php
-    2 start_session();
-    3 $music = $_SESSION['music'];
-    4 ?>
-  ```
-  
-- [ ] 
-  ```php
-    1 <?php
-    2    session_start();
-    3    $music = $SESSION['music'];
-    4 ?>
-  ``` 
-  
-- [ ] 
-  ```php
-    1 <?php
-    2   start_session();
-    3   $music =$session['music'];
-    4 ?>
-  ```
-  
-- [x] 
-  ```php
-    1 <?php
-    2  session_start();
-    3  $music = $_SESSION['music'];
-    4 ?>
-  ```
-  
+- [ ] ```php
+        1 <?php
+        2 start_session();
+        3 $music = $_SESSION['music'];
+        4 ?>
+      ```
+- [ ] ```php
+        1 <?php
+        2    session_start();
+        3    $music = $SESSION['music'];
+        4 ?>
+      ```
+- [ ] ```php
+        1 <?php
+        2   start_session();
+        3   $music =$session['music'];
+        4 ?>
+      ```
+- [x] ```php
+        1 <?php
+        2  session_start();
+        3  $music = $_SESSION['music'];
+        4 ?>
+      ```
+
 ##### Q61. Which PHP script finds the earliest and latest dates from an array?
 
-- [x] 
-  ```php
-    1 <?php
-    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
-    3 echo "Latest Date: ". max($dates)."\n";
-    4 echo "Earliest Date: ". min($dates)."\n";
-    5 ?>
-  ```
-  
-- [ ] 
-  ```php
-    1 <?php
-    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
-    3 echo "Latest Date: ". min($dates)."\n";
-    4 echo "Earliest Date: ". max($dates)."\n";
-    5 ?>
-  ``` 
-  
-- [ ] 
-  ```php
-    1 <?php
-    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
-    3 echo "Latest Date: ". ($dates)."\n";
-    4 echo "Earliest Date: ". ($dates)."\n";
-    5 ?>
-  ```
-  
-- [ ] 
-  ```php
-    1 <?php
-    2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
-    3 echo "Latest Date: " max($dates)."\n";
-    4 echo "Earliest Date: " min($dates)."\n";
-    5 ?>
-  ```
+- [x] ```php
+        1 <?php
+        2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+        3 echo "Latest Date: ". max($dates)."\n";
+        4 echo "Earliest Date: ". min($dates)."\n";
+        5 ?>
+      ```
+- [ ] ```php
+        1 <?php
+        2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+        3 echo "Latest Date: ". min($dates)."\n";
+        4 echo "Earliest Date: ". max($dates)."\n";
+        5 ?>
+      ```
+- [ ] ```php
+        1 <?php
+        2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+        3 echo "Latest Date: ". ($dates)."\n";
+        4 echo "Earliest Date: ". ($dates)."\n";
+        5 ?>
+      ```
+- [ ] ```php
+        1 <?php
+        2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+        3 echo "Latest Date: " max($dates)."\n";
+        4 echo "Earliest Date: " min($dates)."\n";
+        5 ?>
+      ```
 
 ##### Q62. What is the resulting output of this for statement?
 
@@ -795,33 +774,27 @@ Dog
 6  }
 ```
 
-- [x] 
-  ```php
-    1 kilometers = 0.6214 miles.
-    2 kilometers = 1.2428 miles.
-    3 kilometers = 1.8642 miles.
-    4 kilometers = 2.4856 miles.
-    5 kilometers = 3.107 miles.
-  ```
-  
-- [ ] 
-  ```php
-    1 kilometers = 0.6214 miles.
-    2 kilometers = 1.2428 miles.
-    3 kilometers = 1.8642 miles
-    4 kilometers = 2.4856 miles.
-    5 kilometers = 3.107 miles.
-    6 kilometers = 3.7284 miles.
-  ``` 
-  
-- [ ] 
-  ```php
-    2 kilometers = 1.2428 miles.
-    3 kilometers = 1.8642 miles.
-    4 kilometers = 2.4856 miles.
-    5 kilometers = 3.107 miles.
-  ```
-  
+- [x] ```php
+        1 kilometers = 0.6214 miles.
+        2 kilometers = 1.2428 miles.
+        3 kilometers = 1.8642 miles.
+        4 kilometers = 2.4856 miles.
+        5 kilometers = 3.107 miles.
+      ```
+- [ ] ```php
+        1 kilometers = 0.6214 miles.
+        2 kilometers = 1.2428 miles.
+        3 kilometers = 1.8642 miles
+        4 kilometers = 2.4856 miles.
+        5 kilometers = 3.107 miles.
+        6 kilometers = 3.7284 miles.
+      ```
+- [ ] ```php
+        2 kilometers = 1.2428 miles.
+        3 kilometers = 1.8642 miles.
+        4 kilometers = 2.4856 miles.
+        5 kilometers = 3.107 miles.
+      ```
 - [ ] FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2
 
 ##### Q63. In PHP 7, What is the correct way to import multiple classes from namespace in a single declaration ?!
@@ -868,7 +841,7 @@ Dog
 - [ ] It triggers a syntax error because the array keys on line 1 are in quotes.
 - [x] It triggers a syntax error because the array key on line 2 is in quotes.
 
-***Also, 'france' key must be capitalized!***
+**_Also, 'france' key must be capitalized!_**
 
 #### Q68. DRY (Don't Repeat Yourself) is a principle of software development aimed at reducing repetition of software patterns. Which choice is not a way to write DRYer code with PHP?
 
@@ -884,7 +857,7 @@ Dog
 - [ ] `$_SERVER["HTTP_X_FORWARDED_FOR"]`
 - [x] `getenv("REMOTE_ADDR")`
 
-***Both 2 and 4 are correct!***
+**_Both 2 and 4 are correct!_**
 
 #### Q70. Your site must allow uploading of large files. What might you need to do?
 
@@ -980,8 +953,8 @@ Dog
 - [ ] `$xmas = new DateTime('Dec 25, 2018');`
       `$twelfth_night = $xmas->add(strtotime('12 days'));`
       `echo $twelfth_night->format('D');`
-      
-***1 seems correct, but the question asks for "day", not day of the week. Twelfth Night is the "06" day of January, 2019.***
+
+**_1 seems correct, but the question asks for "day", not day of the week. Twelfth Night is the "06" day of January, 2019._**
 
 #### Q81. Which loop displays all numbers from 1 to 10 inclusive?
 
