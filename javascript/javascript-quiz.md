@@ -1592,3 +1592,14 @@ for (let value of cipherText) {
 [Reference MDN JavaScript Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 [Reference MDN JavaScript Array entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
 [Reference MDN JavaScript Remainder/Modulo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder)
+
+#### Q116. What will this code log to the console?
+
+const foo = [1, 2, 3];
+const [n] = foo;
+console.log(n);
+
+- [ ] undefined
+- [ ] 1
+- [ ] NaN
+- [ ] Nothing. This is not proper JavaScript syntax and will throw an error.

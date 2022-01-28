@@ -572,3 +572,10 @@ car#year {
 - [x] `<роwer>`
 
 [Reference best practices for xml attributes](https://www.geeksforgeeks.org/xml-attributes/)
+
+### Q43. What does the Document Type Definition (DTD) define?
+
+- [ ] structure
+- [ ] entities
+- [x] elements
+- [ ] attributes
