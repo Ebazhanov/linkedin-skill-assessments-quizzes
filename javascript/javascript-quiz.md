@@ -1593,6 +1593,7 @@ for (let value of cipherText) {
 [Reference MDN JavaScript Array entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
 [Reference MDN JavaScript Remainder/Modulo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder)
 
+<<<<<<< HEAD
 #### Q116. What will this code log to the console?
 
 const foo = [1, 2, 3];
@@ -1603,3 +1604,17 @@ console.log(n);
 - [ ] 1
 - [ ] NaN
 - [ ] Nothing. This is not proper JavaScript syntax and will throw an error.
+=======
+#### Q116. Which Pokemon will be logged to the console?
+
+var pokedex = ["Snorlax", "Jigglypuff", "Charmander", "Squirtle"];
+pokedex.pop();
+console.log(pokedex.pop());
+
+- [ ] Charmander
+- [ ] Jigglypuff
+- [ ] Snorlax
+- [x] Squirtle
+
+`The pop() method removes the last element from an array and returns that element. This method changes the length of the array.` [(Source)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+>>>>>>> 8c6d7aebd8db72942728371dd12be5567ff109ca

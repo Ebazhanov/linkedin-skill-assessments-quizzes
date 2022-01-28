@@ -6994,6 +6994,56 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Pirci",
+      "name": "Pirci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43238947?v=4",
+      "profile": "https://emre-pirci.netlify.app/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "engr-hasanuzzaman",
+      "name": "Hasanuzzaman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6083519?v=4",
+      "profile": "https://github.com/engr-hasanuzzaman",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "joshykautz",
+      "name": "Josh Kautz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17554471?v=4",
+      "profile": "https://www.joshkautz.com/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "brofar",
+      "name": "Brofar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5051187?v=4",
+      "profile": "https://otafest.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Mina-Karam",
+      "name": "Mina Karam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38835380?v=4",
+      "profile": "https://www.facebook.com/minakaram.me/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

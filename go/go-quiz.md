@@ -475,3 +475,9 @@ fmt.Println("%f\n", price)
 - [x] `t.Fatal` stops all tests and contains extra information about the failed sub test.
 - [ ] `t.Fatal` stops execution of the subtest and continues with other test cases.
 - [ ] There is no difference.
+
+#### Q41. How can you compile main.go to an executable that will run on OSX arm64 ?
+- [ ] Set GOOS to **arm64** and GOARCH to **darwin**.
+- [ ] Set GOOS to **osx** and GOARCH to **arm64**.
+- [ ] Set GOOS to **arm64** and GOARCH to **osx**.
+- [ ] Set GOOS to **darwin** and GOARCH to **arm64**.

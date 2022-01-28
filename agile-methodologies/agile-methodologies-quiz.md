@@ -589,3 +589,12 @@
 - [ ] The average waiting time for a story on the sprint backlog
 - [ ] The average wait time for a story to move from the product backlog to the sprint backlog
 - [ ] The time it takes a developer to complete a story divided by its relative value
+
+#### Q83. What is most important for a successful Product Owner to understand?
+
+- [ ] The budget for the product.
+- [ ] The underlying technology of the product.
+- [ ] The development team's strengths and weaknesses.
+- [x] The business context for the product.
+
+`A Scrum Team has 3 roles -  Product Owner, Scrum Master and Developers. All 3 roles generate Value in their own contexts; however, it is the Product Owner who maximizes the Value from a product or business context.` [(Source)](https://premieragile.com/how-does-a-product-owner-measure-value)

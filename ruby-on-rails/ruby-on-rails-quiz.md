@@ -185,9 +185,9 @@ end
 
 #### Q22. How do you add Ruby code inside Rails views and have its result outputted in the HTML file?
 
-- [x] Create an embedded Ruby file (.html.erb) and surround the Ruby code with `<% %>`.
+- [ ] Create an embedded Ruby file (.html.erb) and surround the Ruby code with `<% %>`.
 - [ ] Insert Ruby code inside standard HTML files and surround it with `<% %>`. The web server will handle the rest.
-- [ ] Create an embedded Ruby file (.html.erb) and surround the Ruby code with `<%= %>`.
+- [x] Create an embedded Ruby file (.html.erb) and surround the Ruby code with `<%= %>`. [Reference](https://guides.rubyonrails.org/action_view_overview.html#erb)
 - [ ] Put the code in an .rb file and include it in a `<link>` tag of an HTML file.
 
 #### Q23. How would you render a view using a different layout in an ERB HTML view?
@@ -378,8 +378,8 @@ before_destroy :notify_admin_users, if: ->(model) { model.is_admin }
 
 - [ ] `Product.where("name = " << @keyword)`
 - [ ] `Product.where("name = " + h(@keyword))`
-- [ ] `Product.where("name = ?", @keyword)`
-- [x] `Product.where("name = #{@keyword}")`
+- [x] `Product.where("name = ?", @keyword)` [Reference](https://guides.rubyonrails.org/active_record_querying.html#pure-string-conditions)
+- [ ] `Product.where("name = #{@keyword}")`
 
 #### Q39. You made a spelling mistake while creating a table for bank accounts. Which code would you expect to see in a migration to fix the error?
 

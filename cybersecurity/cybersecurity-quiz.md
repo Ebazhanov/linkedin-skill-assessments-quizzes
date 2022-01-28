@@ -514,3 +514,100 @@ autopsy is for forensic analysis
 - [ ] This is an in-progress attack and should be reported immediately
 - [ ] This is normal operation for your business.
 - [x] This could be a precursor to an attack.
+
+#### Q69. How often is the ISF Standard of Good Practice updated?
+
+- [x] annual
+- [ ] biannually
+- [ ] bimonthly
+- [ ] monthly
+
+#### Q70. Your incident response team is unable to contain an incident because they lack authority to take action without management approval. Which critical step in the preparation phase did your team skip?
+
+- [ ] From an incident response committee to oversee any incidents that may occur.
+- [x] Get preauthorized to take unilateral action and make or direct emergency changes.
+- [ ] Bring management in as leadership on the incident response team.
+- [ ] Assign a head of the emergency response team who has the correct authority
+
+#### Q71. NIST SP 800-53 is one of two important control frameworks used in cybersecurity. What is the other one?
+
+- [ ] ISO 27001
+- [ ] NIST SP 800-54
+- [x] ISO 27002
+- [ ] NIST SP 751-51
+
+#### Q72. Which organization, established by NIST in 1990, runs workshops to foster coordination in incident prevention, stimulate rapid reaction to incidents, and allow experts to share information?
+
+- [x] Forum of Incident Response and Security Teams
+- [ ] Crest UK Response Teams
+- [ ] Community of Computer Incident Response Teams
+- [ ] NIST Special Publication 800-61 Response Teams
+
+#### Q73. You have implemented controls to mitigate the threats, vulnerabilities, and impact to your business. Which type of risk is left over?
+
+- [ ] inherent risk
+- [x] residual risk
+- [ ] applied risk
+- [ ] leftover risk
+
+#### Q74. There are four possible treatments once an assessment has identified a risk. Which risk treatment implements controls to reduce risk?
+
+- [x] risk mitigation
+- [ ] risk acceptance
+- [ ] risk avoidance
+- [ ] risk transfer
+
+#### Q75. Which security control scheme do vendors often submit their products to for evaluation, to provide an independent view of product assurance?
+
+- [x] common criteria
+- [ ] risk management certification board
+- [ ] OWASP security evaluation
+- [ ] ISO 27000
+
+#### Q76. Which organization has published the most comprehensive set of controls in its security guideline for the Internet of Things?
+
+- [ ] IoT ISACA
+- [x] IoT Security Foundation
+- [ ] OWASP
+- [ ] GSMA
+
+#### Q77. Which main reference coupled with the Cloud Security Alliance Guidance comprise the Security Guidance for Critical Areas of Focus in Cloud Computing?
+
+- [ ] ISO 27001
+- [ ] ISO 27017
+- [ ] cloud security guidelines
+- [x] cloud controls matrix
+
+#### Q78. What are the essential characteristics of the reference monitor?
+
+- [ ] It is versatile, accurate, and operates at a very high speed.
+- [x] It is tamper-proof, can always be invoked, and must be small enough to test.
+- [ ] It is restricted, confidential, and top secret
+
+#### Q79. According to NIST, what is the first action required to take advantage of the cybersecurity framework?
+
+- [x] Identify the key business outcomes.
+- [ ] Understand the threats and vulnerabilities.
+- [ ] Conduct a risk assessment.
+- [ ] Analyze and prioritize gaps to create the action plan.
+
+#### Q80. You are implementing a cybersecurity program in your organization and want to use the "de facto standard" cybersecurity framework. Which option would you choose?
+
+- [ ] the ISACA Cypersecurity Framework
+- [ ] the COBIT Cypersecurity Framework
+- [ ] the ISC2 Cypersecurity Framework
+- [x] the NIST Cypersecurity Framework
+
+#### Q81. In 2014, 4,278 IP addresses of zombie computers were used to flood a business with over one million packets per minute for about one hour. What is this type of attack called?
+
+- [ ] a salami attack
+- [ ] a DoS (Denial of Service) attack
+- [x] a DDoS (Distributed Denial of Service) attack
+- [ ] a botnet attack
+
+#### Q82. The regulatory requirements for notifications of data breaches, particularly the European General Data Protection Regulations, have had what sort of effect on business?
+
+- [x] an increased business liability in the event of a data breach
+- [ ] an increased consumer liability in the event of a data breach
+- [ ] a decreased consumer liability in the event of a data breach
+- [ ] a decreased business liability in the event of a data breach
