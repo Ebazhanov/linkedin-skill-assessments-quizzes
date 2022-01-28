@@ -7014,6 +7014,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "joshykautz",
+      "name": "Josh Kautz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17554471?v=4",
+      "profile": "https://www.joshkautz.com/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
