@@ -696,7 +696,7 @@ Reason: By default, all the endpoints are enabled in Spring Boot Application exc
 #### Q67. How can you access the application context in a Spring integration test?
 
 - [ ] The context is present in a ThreadLocal so you can just call getSpringApplicationContextInstance() anywhere in a test to get the current context.
-- [ ] Test classes can implement the ApplicationContextAware interface or autowire the ApplicationContext.
+- [x] Test classes can implement the ApplicationContextAware interface or autowire the ApplicationContext.
 - [ ] The context is automatically injected in every test so you can just call getSpringApplicationContextInstance() anywhere in a test to get the current context.
 - [ ] You can just add the parameter Context context to any method so that the context is automatically wired in.
       Source: [spring(dot)io](https://spring.io/blog/2011/06/21/spring-3-1-m2-testing-with-configuration-classes-and-profiles#:~:text=By%20default%20the%20ApplicationContext%20is,%40Resource%20%2C%20or%20%40Inject%20.)
