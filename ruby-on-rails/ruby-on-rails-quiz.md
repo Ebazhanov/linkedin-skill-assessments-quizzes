@@ -378,8 +378,8 @@ before_destroy :notify_admin_users, if: ->(model) { model.is_admin }
 
 - [ ] `Product.where("name = " << @keyword)`
 - [ ] `Product.where("name = " + h(@keyword))`
-- [ ] `Product.where("name = ?", @keyword)`
-- [x] `Product.where("name = #{@keyword}")`
+- [x] `Product.where("name = ?", @keyword)` [Reference](https://guides.rubyonrails.org/active_record_querying.html#pure-string-conditions)
+- [ ] `Product.where("name = #{@keyword}")`
 
 #### Q39. You made a spelling mistake while creating a table for bank accounts. Which code would you expect to see in a migration to fix the error?
 
