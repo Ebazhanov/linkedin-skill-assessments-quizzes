@@ -7,9 +7,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-712-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-717-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1036,6 +1034,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Jay206-Programmer"><img src="https://avatars.githubusercontent.com/u/62549240?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jay206-Programmer</b></sub></a><br /><a href="#design-Jay206-Programmer" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Jay206-Programmer" title="Code">💻</a></td>
     <td align="center"><a href="http://fb.com/elenderg"><img src="https://avatars.githubusercontent.com/u/1089556?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Elender</b></sub></a><br /><a href="#design-elenderg" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=elenderg" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/BobbyByrne"><img src="https://avatars.githubusercontent.com/u/7388850?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bobby Byrne</b></sub></a><br /><a href="#design-BobbyByrne" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=BobbyByrne" title="Code">💻</a></td>
+    <td align="center"><a href="https://emre-pirci.netlify.app/"><img src="https://avatars.githubusercontent.com/u/43238947?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pirci</b></sub></a><br /><a href="#design-Pirci" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Pirci" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/engr-hasanuzzaman"><img src="https://avatars.githubusercontent.com/u/6083519?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hasanuzzaman</b></sub></a><br /><a href="#design-engr-hasanuzzaman" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=engr-hasanuzzaman" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://www.joshkautz.com/"><img src="https://avatars.githubusercontent.com/u/17554471?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Josh Kautz</b></sub></a><br /><a href="#design-joshykautz" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=joshykautz" title="Code">💻</a></td>
+    <td align="center"><a href="https://otafest.com"><img src="https://avatars.githubusercontent.com/u/5051187?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brofar</b></sub></a><br /><a href="#design-brofar" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=brofar" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.facebook.com/minakaram.me/"><img src="https://avatars.githubusercontent.com/u/38835380?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mina Karam</b></sub></a><br /><a href="#design-Mina-Karam" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Mina-Karam" title="Code">💻</a></td>
   </tr>
 </table>
 
