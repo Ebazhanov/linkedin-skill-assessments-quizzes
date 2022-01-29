@@ -611,3 +611,17 @@ autopsy is for forensic analysis
 - [ ] an increased consumer liability in the event of a data breach
 - [ ] a decreased consumer liability in the event of a data breach
 - [ ] a decreased business liability in the event of a data breach
+
+#### Q83. How many keys would be necessary to accommodate 100 users in an asymmetric cryptography system?
+ 
+ - [ ] 400
+ - [ ] 300
+ - [ ] 100
+ - [x] 200
+
+#### Q84. Which compliance framework governs requirements for the U.S. healthcare industry? 
+
+ - [ ] FedRAMP
+ - [ ] GDPR
+ - [ ] PCI-DSS
+ - [x] HIPAA
