@@ -7105,6 +7105,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Panoskontos",
+      "name": "Panagiotis Kontos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65974766?v=4",
+      "profile": "https://panagiotiskontos.netlify.app/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
