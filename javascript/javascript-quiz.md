@@ -1598,9 +1598,9 @@ var pokedex = ["Snorlax", "Jigglypuff", "Charmander", "Squirtle"];
 pokedex.pop();
 console.log(pokedex.pop());
 
--   [ ] Charmander
+-   [x] Charmander
 -   [ ] Jigglypuff
 -   [ ] Snorlax
--   [x] Squirtle
+-   [ ] Squirtle
 
 `The pop() method removes the last element from an array and returns that element. This method changes the length of the array.` [(Source)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
