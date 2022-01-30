@@ -1544,3 +1544,11 @@ print(matrix.shape)
 - [ ] attributions
 - [ ] accelaration
 - [ ] functional programming
+
+#### Q114. What built-in Python data type can be used as a hash table?
+
+- [ ] `set`
+- [ ] `list`
+- [ ] `tuple`
+- [x] `dictionary`
+
