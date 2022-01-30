@@ -1552,3 +1552,10 @@ print(matrix.shape)
 - [ ] `tuple`
 - [x] `dictionary`
 
+#### Q115. Which Python function allows you to execute Linux shell commands in Python?
+
+- [ ] `sys.exc_info()`
+- [x] `os.system()`
+- [ ] `os.getcwd()`
+- [ ] `sys.executable`
+
