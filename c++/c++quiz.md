@@ -1239,4 +1239,6 @@ int main(){
 - [ ] The main function is supposed to have a void return type.
 - [ ] `std::cin` and `std::cout` are invalid. The correct names for the character input and output streams are `cin` and `cout`.
 - [ ] The address of `str` is supposed to be used. That is `&str` instead of `str`.
-- [ ] The input operator flow is inverted. it should start from `std::cin` and then flow (>>) into `str`.
+- [ x ] The input operator flow is inverted. it should start from `std::cin` and then flow (>>) into `str`.
+
+Besides semicolon errors
