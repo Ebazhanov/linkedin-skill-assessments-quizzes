@@ -595,28 +595,69 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
 - [ ] barrenness
 - [ ] successfully
 
-### Q73. What is the purpose of a Mail Transport Agent (MTA)?
+#### Q73. To run CGI scripts with Apache, you need to _____.
+
+- [ ] compile the script with a CGI compiler
+- [ ] make the script executable
+- [x] make the script executable and set the ```httpd_enable_cgi``` SELinux boolean
+- [ ] change the ownership of the script to Apache
+
+[reference here](https://selinuxproject.org/page/ApacheRecipes#Allow_the_Apache_HTTP_Server_to_run_CGI_scripts)
+
+#### Q74. To permanently add NAT to the default zone using firewalld, you would use which command string?
+
+- [ ] ```firewall-cmd --permanent --add-nat```
+- [x] ```firewall-cmd --permanent --add-masquerade```
+- [ ] ```firewall-cmd --zone=default --add-nat```
+- [ ] ```firewall-cmd --zone=default --add-masquerade```
+
+[reference here](https://www.rootusers.com/how-to-use-firewalld-rich-rules-and-zones-for-filtering-and-nat)
+
+#### Q75. What is the difference between using ```=``` and ```==``` in a BASH double square bracket ```if``` conditional?
+
+```
+if [[ $FILE == $GLOB ]] ;then
+
+```
+
+- [ ] The single equal sign (```=```) is an assignment operator; the double equal sign (```==```) checks equality.
+- [x] There is no difference.
+- [ ] The single equal sign (```=```) checks equality; the double equal sign (```==```) checks string equality.
+- [ ] The double equal sign (```==```) is an assignment operator; the single equal sign (```=```) checks equality.
+
+[reference here](https://stackoverflow.com/a/12948608)
+
+#### 76. ```journald``` differs from traditional logging services such as ```rsyslogd``` and ```syslogd``` because its logs are _____ by default.
+
+- [ ] stored remotely
+- [ ] text
+- [x] persistent
+- [ ] not persistent
+
+[reference here](https://sematext.com/blog/journald-logging-tutorial/#toc-journald-storage-4)
+
+### Q77. What is the purpose of a Mail Transport Agent (MTA)?
 
 - [ ] It transports the mail from user's computer to the mail server.
 - [ ] It accepts mail and adds it to the mail queue for further processing.
 - [ ] It stores the mail in a mail queue waiting for the MUA to download it.
 - [x] It transports mail from one mail server to another.
 
-### Q74. What do you need to do before you can perform SSH passwordless logins?
+### Q78. What do you need to do before you can perform SSH passwordless logins?
 
 - [ ] Genetare RSA or DSA key pairs using ssh-keygen.
 - [ ] Change the remote user's password.
 - [ ] Create a local SSL certificate.
 - [ ] Change the remote SSH configure to allow it.
 
-### Q75. When installing a downloaded package on the RedHat-based distribution manual using RPM, what may you have to do first?
+### Q79. When installing a downloaded package on the RedHat-based distribution manual using RPM, what may you have to do first?
 
 - [ ] Compile the package source code.
 - [ ] Download all dependencies and install them before installing the desired package.
 - [ ] Agree to an end-user license agreement.
 - [ ] provide the --resolve option so RPM resolves all packages dependency.
 
-### Q76. With GNU tools such as a GNU grep, awk, and sed, what is the difference between basic regular expressions (BREs) and extended regular expressions (EREs)?
+### Q80. With GNU tools such as a GNU grep, awk, and sed, what is the difference between basic regular expressions (BREs) and extended regular expressions (EREs)?
 
 - [ ] EREs can match the groups.
 - [ ] EREs support occurrence operators.
