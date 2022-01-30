@@ -244,7 +244,7 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 - [x] -b
 - [ ] -x
 
-#### Q33. Which choice will not print "Hello World" in the terminal?
+#### Q33. Which choice will *not* print "Hello World" in the terminal?
 
 - [ ] A
 
@@ -260,11 +260,11 @@ myVar = 5
 [[ $myVar -lt 10 ]] || echo " Hello World"
 ```
 
-- [x] C
+- [ ] C
 
 ```bash
 myVar = 5
-[[ $myVar -gt 10 ]] && echo " Hello World"
+[[ ! $myVar -gt 10 ]] && echo " Hello World"
 ```
 
 - [ ] D
