@@ -1663,7 +1663,7 @@ img {
 - [ ] `font-size: reduce;`
 - [ ] `font-size: 8px;`
 - [ ] `font-size: -1em;`
-- [ ] `font-size: smaller;`
+- [x] `font-size: smaller;`
 
 #### Q115. Given this markup, which selector would result in the text being highlighted in yellow?
 
@@ -1687,7 +1687,7 @@ img {
 }
 ```
 
-- [ ]
+- [x]
 
 ```css
 .highlight {
@@ -1784,7 +1784,7 @@ p + section {
 #### Q120. You want to move an element up 100px. Which CSS property would you use?
 
 - [ ] `transform: translateX(-100px)`
-- [ ] `transform: translateY(-100px)`
+- [x] `transform: translateY(-100px)`
 - [ ] `transform: translateY(100px)`
 - [ ] `transform: translateX(100px)`
 
@@ -1824,7 +1824,7 @@ p + section {
 }
 ```
 
-- [ ]
+- [x]
 
 ```css
 #inner {
