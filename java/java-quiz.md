@@ -1443,3 +1443,227 @@ class Lambo extends Car {
 - [x] both
 - [ ] overloading
 - [ ] overriding
+
+####Q107. Which choice is the best data type for working with money in Java?
+
+- [ ] float
+- [ ] String
+- [ ] double
+- [x] BigDecimal
+
+####Q108. Which statement about constructors is not ture?
+
+- [ ] A class can have multiple constructors with a different parameter list.
+- [ ] You can call another constructor with `this` or `super`.
+- [ ] A constructor does not define a return value.
+- [x] Every class must explicitly define a constructor without parameters.
+
+####Q109. What language feature allows types to be parameters on classes, interfaces, and methods in order to reuse the same code for different data types?
+
+- [ ] Regular Expressions
+- [ ] Reflection
+- [x] Generics
+- [ ] Concurrency
+
+####Q110. What will be printed?
+```java
+public class Berries{
+
+    String berry = "blue";
+
+    public static void main( String[] args ) {
+        new Berries().juicy( "straw" );
+    }
+    void juicy(String berry){
+        this.berry = "rasp";
+        System.out.println(berry + "berry");
+    }
+}
+```
+- [ ] raspberry
+- [x] strawberry
+- [ ] blueberry
+- [ ] rasp
+
+####Q111. What is the value of `forestCount` after this code executes?
+
+```java
+Map<String, Integer> forestSpecies = new HashMap<>();
+
+forestSpecies.put("Amazon", 30000);
+forestSpecies.put("Congo", 10000);
+forestSpecies.put("Daintree", 15000);
+forestSpecies.put("Amazon", 40000);
+
+int forestCount = forestSpecies.size();
+```
+
+- [x] 3
+- [ ] 4
+- [ ] 2
+- [ ] When calling the put method, Java will throw an exception
+
+####Q112. What is a problem with this code?
+
+```java
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+
+class Main {
+
+    public static void main( String[] args ) {
+        List<String> list = new ArrayList<String>( Arrays.asList( "a", "b", "c" ) );
+        for( String value :list ){
+            if( value.equals( "a" ) ) {
+                list.remove( value );
+            }
+        }
+        System.out.println(list); // outputs [b,c]
+    }
+}
+```
+
+- [ ] String should be compared using == method instead of equals.
+- [x] Modifying a collection while iterating through it can throw a ConcurrentModificationException.
+- [ ] The List interface does not allow an argument of type String to be passed to the remove method.
+- [ ] ArrayList does not implement the List interface.
+
+####Q113. How do you convert this method into a lambda expression?
+
+```java
+public int square(int x){
+    return x * x;
+}
+```
+
+- [ ] `Function<Integer, Integer> squareLambda = (int x) -> { x * x };`
+- [ ] `Function<Integer, Integer> squareLambda = () -> { return x * x };`
+- [x] `Function<Integer, Integer> squareLambda = x -> x * x;`
+- [ ] `Function<Integer, Integer> squareLambda = x -> return x * x;`
+
+####Q114. Which choice is a valid implementation of this interface?
+
+```java
+interface MyInterface {
+    int foo(int x);
+}
+```
+
+- [ ] A
+```java
+public class MyClass implements MyInterface {
+    // ....
+    public void foo(int x){
+        System.out.println(x);
+    }
+}
+```
+- [ ] B
+```java
+public class MyClass implements MyInterface {
+    // ....
+    public double foo(int x){
+        return x * 100;
+    }
+}
+```
+- [x] C
+```java
+public class MyClass implements MyInterface {
+    // ....
+    public int foo(int x){
+        return x * 100;
+    }
+}
+```
+- [ ] D
+```java
+public class MyClass implements MyInterface {
+    // ....
+    public int foo(){
+        return 100;
+    }
+}
+```
+
+####Q115. What is the result of this program?
+
+```java
+interface Foo{
+    int x = 10;
+}
+
+public class Main{
+
+    public static void main( String[] args ) {
+        Foo.x = 20;
+        System.out.println(Foo.x);
+    }
+}
+```
+
+- [ ] 10
+- [ ] 20
+- [ ] null
+- [x] An error will occur when compiling.
+
+####Q116. Which statement must be inserted on line 1 to print the value true?
+
+```
+1:
+2: Optional<String> opt = Optional.of(val);
+3: System.out.println(opt.isPresent());
+```
+
+- [ ] `Integer val = 15;`
+- [x] `String val = "Sam";`
+- [ ] `String val = null;`
+- [ ] `Optional<String> val = Optional.empty();`
+
+####Q117. What will this code print, assuming it is inside the main method of a class?
+
+```java
+System.out.println(true && false || true);
+System.out.println(false || false && true);
+```
+
+- [ ] false </br> true
+- [ ] true </br> true
+- [x] true </br> false
+- [ ] false </br> false
+
+####Q118. What will this code print?
+
+```java
+List<String> list1 = new ArrayList<>(); 
+list1.add( "One" ); 
+list1.add( "Two" ); 
+list1.add( "Three" ); 
+
+List<String> list2 = new ArrayList<>();
+list2.add( "Two" );
+        
+list1.remove( list2 ); 
+System.out.println(list1);
+```
+
+- [ ] `[Two]`
+- [ ] `[One, Two, Three]`
+- [x] `[One, Three]`
+- [ ] `Two`
+
+####Q119. Which code checks whether the characters in two Strings,named `time` and `money`, are the same?
+
+- [ ] `if(time <> money){}`
+- [x] `if(time.equals(money)){}`
+- [ ] `if(time == money){}`
+- [ ] `if(time = money){}`
+
+####Q120. An ______ is a serious issue thrown by the JVM that the JVM is unlikely to recover from. An ______ is an unexpected event that an application may be able to deal with in order to continue execution.
+
+- [ ] exception,assertion
+- [ ] AbnormalException, AccidentalException
+- [x] error, exception
+- [ ] exception, error
