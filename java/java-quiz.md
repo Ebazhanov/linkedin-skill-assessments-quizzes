@@ -1667,3 +1667,16 @@ System.out.println(list1);
 - [ ] AbnormalException, AccidentalException
 - [x] error, exception
 - [ ] exception, error
+
+####Q121. Which keyword would not be allowed here?
+
+```java
+class Unicorn {
+    _____ Unicorn(){}
+}
+```
+
+- [x] static
+- [ ] protected
+- [ ] public
+- [ ] void
