@@ -1562,21 +1562,21 @@ x<y&z>w
 
 #### Q99. How would you mark up a piece of ASCII art (an emotion) in an accessible way?
 
-- [x] <pre role="emotion" aria-label="ASCII emotion of a shrug">¯\_(ツ)_/¯</pre>
+- [x] `<pre role="emotion" aria-label="ASCII emotion of a shrug">¯\_(ツ)_/¯</pre>`
 
-- [ ] <pre role="img" aria-label="ASCII emotion of a shrug">¯\_(ツ)_/¯</pre>
+- [ ] `<pre role="img" aria-label="ASCII emotion of a shrug">¯\_(ツ)_/¯</pre>`
 
-- [ ] <dfn title="ASCII emotion of a shrug">¯\_(ツ)_/¯</dfn>
+- [ ] `<dfn title="ASCII emotion of a shrug">¯\_(ツ)_/¯</dfn>`
 
-- [ ] <label for="art">ASCII emotion of a shrug</label><pre role="img" id="art">¯\_(ツ)_/¯</pre>
+- [ ] `<label for="art">ASCII emotion of a shrug</label><pre role="img" id="art">¯\_(ツ)_/¯</pre>`
 
 #### Q100. Which example is a standard way in HTML5 for adding author metadata to a page?
 
-- [ ] <metadata name="author" content="Author Name">
+- [ ] `<metadata name="author" content="Author Name">`
 
-- [ ] <meta name="author">Author Name</meta>
+- [ ] `<meta name="author">Author Name</meta>`
 
-- [ ] <meta name="creator" content="Author Name">
+- [ ] `<meta name="creator" content="Author Name">`
 
-- [x] <meta name="author" content="Author Name">
+- [x] `<meta name="author" content="Author Name">`
 
