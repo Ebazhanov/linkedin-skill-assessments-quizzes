@@ -1570,3 +1570,13 @@ x<y&z>w
 
 - [ ] <label for="art">ASCII emotion of a shrug</label><pre role="img" id="art">¯\_(ツ)_/¯</pre>
 
+#### Q100. Which example is a standard way in HTML5 for adding author metadata to a page?
+
+- [ ] <metadata name="author" content="Author Name">
+
+- [ ] <meta name="author">Author Name</meta>
+
+- [ ] <meta name="creator" content="Author Name">
+
+- [x] <meta name="author" content="Author Name">
+
