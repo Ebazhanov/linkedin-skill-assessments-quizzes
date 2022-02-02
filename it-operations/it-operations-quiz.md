@@ -395,3 +395,21 @@
 - [x] nonremovable mass storage
 - [ ] any internal mass storage device
 - [ ] any mass storage device that is not a SSD
+
+#### Q45. What are the long-term and short-term categories of storage in a computer?
+
+- [x] memory and permanent (drive) storage
+- [ ] SSD and HDD
+- [ ] RAM and ROM
+- [ ] standard memory and cache memory
+
+[Reference](https://pediaa.com/difference-between-short-term-and-long-term-memory/)
+
+#### Q46. What is referred to by SSID
+
+- [x] Service Set Identifier, a wireless network's name
+- [ ] an older security protocol for Wi-Fi networks
+- [ ] the server-side ID used to identify devices on a network
+- [ ] the MAC address broadcast for a wireless network
+
+[Reference](https://techterms.com/definition/ssid)

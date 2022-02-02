@@ -542,3 +542,65 @@ main(){
 - [ ] for...in
 - [ ] repeat...until
 - [ ] do...until
+
+#### Q40. By default, C Functions are what type of functions?
+
+- [ ] global
+- [ ] static
+- [x] library
+- [ ] system
+
+#### Q41. You have written a function that you want to include as a member of structure a. How is such as structure member defiened?
+
+- [x]
+
+```c
+struct a {
+    void *f1;
+};
+```
+
+- [ ]
+
+```c
+struct a {
+    void (*f1)();
+};
+```
+- [ ]
+
+```c
+struct a {
+    *(void *f1)();
+};
+```
+- [ ]
+
+```c
+struct a {
+    void *f1();
+};
+```
+
+#### Q42. A Stack data structure allows all data operations at one end only, making it what kind of an implementation?
+
+- [ ] FIFO
+- [x] LIFO
+- [ ] LILO
+- [ ] LOLI
+
+#### Q43. What does this program display?
+
+```c
+main(){
+    char *p = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    int i;
+    for (i=0;i<5;i++) *p++; *p++;
+    printf("%c",*p++);
+}
+```
+
+- [ ] K
+- [ ] M
+- [ ] H
+- [x] G

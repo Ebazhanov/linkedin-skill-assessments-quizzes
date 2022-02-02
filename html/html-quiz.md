@@ -345,10 +345,12 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </picture>
 ```
 
-- [ ] It displays image1.jpg at 1000px and higher, image2.jpg at 750-999px, and image3.jpg at 749px and lower.
+- [x] It displays image1.jpg at 1000px and higher, image2.jpg at 750-999px, and image3.jpg at 749px and lower.
 - [ ] It displays image1.jps at 1000px and higher and image2.jpg at 750-999px, image3.jpg is a default in case `<picture>` is not supported.
-- [x] It displays image1.jpg at 1000px and higher and image2.jpg at 750px and higher, image3.jpg is a default in case `<picture>` is not supported.
+- [ ] It displays image1.jpg at 1000px and higher and image2.jpg at 750px and higher, image3.jpg is a default in case `<picture>` is not supported.
 - [ ] It displays image1.jpg, image2.jpg and image3.jpg at 1000px and higher.
+
+[Source: HTML &lt;picture> Tag](https://www.w3schools.com/tags/tag_picture.asp)
 
 #### Q26. What code will produce this table?
 
@@ -918,7 +920,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
 <nav><ul>
   <li><a href="#">Link 1</a></li>
   <li><a href="#">Link 2</a></li>
-  <li><a href="#">Link 3</a></li> 
+  <li><a href="#">Link 3</a></li>
 </ul></nav>
 ```
 
@@ -931,7 +933,7 @@ From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HT
     <ul>
       <li><a href="#">Link 2a</a></li>
     </ul>
-  <li><a href="#">Link 3</a></li> 
+  <li><a href="#">Link 3</a></li>
 </ul></nav>
 ```
 
@@ -1523,3 +1525,58 @@ x<y&z>w
 - [x] The `<img>` element is missing an alt attribute.
 - [ ] `<img>` is not a valid HTML element. Instead, use `<image src="..."/>`.
 - [ ] `<img>` should be nested within a `<figure>` tag.
+
+
+#### Q97. Which choice is the most semantically correct markup for specifying the first definition of a term?
+
+- [ ]  <p>The <dl>focal length</dl> of a lens gives the distance from the lens to the image sensor.</p>
+- [x]  <p>The <dfn>focal length<dfn> of a lens gives the distance from the lens to the image sensor.</p>
+- [ ]  <p>The <dt>focal length</dt> of a lens gives the distance from the lens to the image sensor.</p>
+- [ ]  <p>The <dd>focal length</dd> of a lens gives the distance from the lens to the image sensor.</p>
+
+`The <dfn> HTML element is used to indicate the term being defined within the context of a definition phrase or sentence. The <p> element, the <dt>/<dd> pairing, or the <section> element which is the nearest ancestor of the <dfn> is considered to be the definition of the term.` 
+  
+ [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn)
+
+#### Q98. Which choice is the best way to code three choices within a form so that the user can select multiple items?
+
+- [ ] <input type="radio" name="example"> Choice 1 <br/>
+      <input type="radio" name="example"> Choice 2 <br/>
+      <input type="radio" name="example"> Choice 3
+
+- [x] <input type="checkbox" name="example"> Choice 1 <br/>
+      <input type="checkbox" name="example"> Choice 2 <br/>
+      <input type="checkbox" name="example"> Choice 3
+
+- [ ] <label><input type="checkbox" name="example"> Choice 1</label><br/>
+      <label><input type="checkbox" name="example"> Choice 2</label><br/>
+      <label><input type="checkbox" name="example"> Choice 3</label>
+
+- [ ] <label><input type="radio" name="example"> Choice 1</label><br/>
+      <label><input type="radio" name="example"> Choice 2</label><br/>
+      <label><input type="radio" name="example"> Choice 3</label>
+
+`<input> elements of type checkbox are rendered by default as boxes that are checked (ticked) when activated, like you might see in an official government paper form. The exact appearance depends upon the operating system configuration under which the browser is running. Generally this is a square but it may have rounded corners.`
+  
+ [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
+
+#### Q99. How would you mark up a piece of ASCII art (an emotion) in an accessible way?
+
+- [x] `<pre role="emotion" aria-label="ASCII emotion of a shrug">¯\_(ツ)_/¯</pre>`
+
+- [ ] `<pre role="img" aria-label="ASCII emotion of a shrug">¯\_(ツ)_/¯</pre>`
+
+- [ ] `<dfn title="ASCII emotion of a shrug">¯\_(ツ)_/¯</dfn>`
+
+- [ ] `<label for="art">ASCII emotion of a shrug</label><pre role="img" id="art">¯\_(ツ)_/¯</pre>`
+
+#### Q100. Which example is a standard way in HTML5 for adding author metadata to a page?
+
+- [ ] `<metadata name="author" content="Author Name">`
+
+- [ ] `<meta name="author">Author Name</meta>`
+
+- [ ] `<meta name="creator" content="Author Name">`
+
+- [x] `<meta name="author" content="Author Name">`
+

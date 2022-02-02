@@ -1542,3 +1542,293 @@ D. font-size: 20px
 - [ ] Floating the blue box actually shifts it to the right and down.
 
 - [x] Floating the blue box took it out of document flow and the container is sized only to the sample text.
+
+#### Q112. Given this code, which CSS declaration of .overlay will span the entire width and height of its container? Given this code, which CSS declaration of .overlay will span the entire width and height of its container?
+
+```css
+<style>
+.container {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+</style>
+  <div class="container"><div class="overlay"></div></div><style>
+
+ .container {
+   position: relative;
+   height: 200px;
+   width: 200px;
+   border: 1px solid black;
+ }
+
+</style>
+```
+
+- [ ]
+
+```css
+.overlay {
+  position: static;
+  top: 200px;
+  bottom: 200px;
+  right: 200px;
+  left: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+```
+
+- [ ]
+
+```css
+.overlay {
+  position: absolute;
+  top: 200px;
+  bottom: 200px;
+  right: 200px;
+  left: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+```
+
+- [ ]
+
+```css
+.overlay {
+  position: static;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+```
+
+- [ ]
+
+```css
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+```
+
+#### Q113. Which missing line of code would place the text on top of the image? Which missing line of code would place the text on top of the image?
+
+```js
+<div class="container">
+  <img src="grumpy-cat.gif" />
+  <p>The z-index property is cool!</p>
+</div>
+```
+
+```css
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  // Missing line
+}
+```
+
+```js
+<div class="container">
+  <img src="grumpy-cat.gif" />
+  <p>The z-index property is cool!</p>
+</div>
+```
+
+```css
+img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  // Missing line
+}
+```
+
+- [ ] `z-index: 1;z-index: 1;`
+- [ ] `z-index: -1;z-index: -1;`
+- [ ] `z-index: 0;z-index: 0;`
+- [ ] `z-index: true;z-index: true;`
+
+#### Q114. To make the font size of an element one size smaller than the font size of the element's container, which style property would you apply? To make the font size of an element one size smaller than the font size of the element's container, which style property would you apply?
+
+- [ ] `font-size: reduce;`
+- [ ] `font-size: 8px;`
+- [ ] `font-size: -1em;`
+- [x] `font-size: smaller;`
+
+#### Q115. Given this markup, which selector would result in the text being highlighted in yellow?
+
+```js
+<span class="highlight">#BLM</span>
+```
+
+- [ ]
+
+```css
+.highlight {
+  background-color: yellow;
+}
+```
+
+- [ ]
+
+```css
+#highlight {
+  background-color: yellow;
+}
+```
+
+- [x]
+
+```css
+.highlight {
+  color: yellow;
+}
+```
+
+- [ ]
+
+```css
+#highlight {
+  color: yellow;
+}
+```
+
+#### Q116. To prevent a background image from tiling in any direction, which style property would you apply?
+
+- [X]
+
+```css
+background-repeat: no-repeat;
+```
+
+- [ ]
+
+```css
+background-repeat: fixed;
+```
+
+- [ ]
+
+```css
+background-repeat: none;
+```
+
+- [ ]
+
+```css
+background-tile: none;
+```
+
+#### Q117. To rotate an object 30 degrees counterclockwise, which style property would you apply?
+
+- [X] `transform: rotate(-30deg);`
+- [ ] `transform: rotate(30deg);`
+- [ ] `rotate: 30deg;`
+- [ ] `spin: 30deg;`
+
+#### Q118. Which style rule would you apply to set the background image to display the contents of the wood.png file?
+
+- [ ] `background-image: file(wood.png);`
+- [X] `background-image: url(wood.png);`
+- [ ] `background-image: wood.png;`
+- [ ] `image: wood.png`
+
+#### Q119. What style rule would set the font color of only paragraph two to blue?
+
+```js
+<section><p>paragraph one</p></section><p>paragraph two</p>
+```
+
+- [ ]
+
+```css
+section > p {
+  color: blue;
+}
+```
+
+- [ ]
+
+```css
+p {
+  color: blue;
+}
+```
+
+- [ ]
+
+```css
+section + p {
+  color: blue;
+}
+```
+
+- [ ]
+
+```css
+p + section {
+  color: blue;
+}
+```
+
+#### Q120. You want to move an element up 100px. Which CSS property would you use?
+
+- [ ] `transform: translateX(-100px)`
+- [x] `transform: translateY(-100px)`
+- [ ] `transform: translateY(100px)`
+- [ ] `transform: translateX(100px)`
+
+#### Q121. Which style will horizontally center the inner &lt;div&gt; within the outer &lt;div&gt;?
+
+```js
+<div id="outer"><div id="inner">Center Me!</div></div><div id="outer">
+```
+
+- [ ]
+
+```css
+#inner {
+  width: 50%;
+}
+
+#outer {
+  width: 100%;
+}
+```
+
+- [ ]
+
+```css
+#inner {
+  left: 0;
+  right: 0;
+  position: center;
+}
+```
+
+- [ ]
+
+```css
+#inner {
+  text-align: center;
+}
+```
+
+- [x]
+
+```css
+#inner {
+  width: 50%;
+  margin: 0 auto;
+}
+```

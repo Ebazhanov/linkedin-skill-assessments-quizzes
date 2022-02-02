@@ -226,7 +226,7 @@ modified: beta-notes.js
 - [ ] use git show refs/push-notifications
 - [ ] use git show push-notifications
 - [ ] use git show heads/refs/push-notifications
-- [x] use git show refs/head/push-notifications
+- [x] use git show refs/heads/push-notifications
 
 [Reference](https://geedew.com/fixing-git-branch-and-tag-name-collision/)
 
@@ -808,3 +808,12 @@ Which of the following options is correct ?
 - [ ] update
 
 [reference here](https://git-scm.com/docs/git-reflog)
+
+#### Q99. How does the ```-p``` option change the behavior of the ```git add``` command
+  
+- [ ] It causes tracked files in the parent directory to be included in the staged files.
+- [x] It allows developers to interactively choose which changes to tracked files are staged and outputs the differences for review.
+- [ ] It automatically pushes changes to the corresponding branch on the remote repository.
+- [ ] It allows developers to interactively choose which files are committed and outputs the differences for review.
+  
+[reference here](https://git-scm.com/docs/git-add#Documentation/git-add.txt--p)

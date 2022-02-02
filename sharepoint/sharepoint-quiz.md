@@ -200,7 +200,7 @@
 
 #### Q29. You have implemented a workflow for a document from a template, and have outlined the steps taken to create the workflow. Which order of steps is correct?
 
-- [ ] A
+- [x] A
 
 ```markdown
 1. Select the document in SharePoint.
@@ -250,7 +250,7 @@
 #### Q31. How can you stop users from editing list items that other members created?
 
 - [ ] In the list's advanced settings, under Create and edit access, select Create and edit all items.
-- [ ] In the list's advanced settings, under Create and edit access, select Create items and edit items that were created by the user.
+- [x] In the list's advanced settings, under Create and edit access, select Create items and edit items that were created by the user.
 - [ ] In the list's advanced settings, under Create and edit access, select None.
 - [ ] In the list's advanced settings, under Create and edit access, select Create items that were created by the user.
 
@@ -258,7 +258,7 @@
 
 - [ ] by site levels
 - [ ] by sites
-- [ ] by groups
+- [x] by groups
 - [ ] by users
 
 #### Q33. A user wants to be notified when a certain file changes. What can achieve this?
@@ -318,5 +318,26 @@
 - [x] document versioning settings
 - [ ] document audience targeting settings
 - [ ] document validation settings
+
+#### Q.38. Which SharePoint feature is an example of a prebuilt application?
+
+- [ ] plan
+- [x] site
+- [ ] survey
+- [ ] page
+
+#### 39. You would like a SharePoint subsite to have a mailbox. While researching configuration options, which statement do you find to be true?
+
+- [ ] a subsite can have a single mailbox
+- [x] a susite cannot have a mailbox
+- [ ] a subsite canhave any number of mailboxes
+- [ ] a subsite can have a shared mailbox with the parent site
+
+#### 40. A user needs to access a business intelligence reporting dashboard within a SharePoint site. Currently they do not have permission to view any content. Which group can provide the appropriate permissions?
+
+- [x] Team Site Members
+- [ ] Team Site Visitors
+- [ ] Excel Serices Viewers
+- [ ] Everyone except external users
 
 [Source: LinkedIn Assessment Practice mode](https://i.imgur.com/a7jcnsK.png)

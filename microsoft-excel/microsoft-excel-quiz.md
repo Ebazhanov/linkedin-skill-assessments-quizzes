@@ -860,6 +860,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 0 + 0 + 3 + 6 + 3 = 12. The formula only dislays "Too Many Tardy Days" when it is more than 12.
 
 #### Q105. What ribbon command on the Home tab can you use to change a cell's fill color automatically, based on the value of the cell?
+
 - [x] Conditional Formatting
 - [ ] Format
 - [ ] Cell Styles
@@ -884,7 +885,15 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] data values
 
 #### Q108. Which chart type provides the best visual display of the releationship between two numeric variables?
+
 - [ ] radar chart
 - [ ] box and whisker chart
 - [x] XY scatter chart
 - [ ] combo chart
+
+#### Q109. To ensure that a collection of shapes are evenly spaced apart from left to right, select the shapes, click Page Layout > Align, and then click ______.
+
+- [x] Distribute Horizontally
+- [ ] Align Center
+- [ ] Distribute Vertically
+- [ ] Align Middle

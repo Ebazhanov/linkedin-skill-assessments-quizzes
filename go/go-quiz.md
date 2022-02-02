@@ -372,7 +372,7 @@ Relevant excerpt from the article:
 - [ ] There is no difference.
 - [ ] t.Fatal does not crash the test harness, preserving output messages.
 - [ ] t.Fatal stops execution of the subtest and continues with other test cases.
-- [ ] t.Fatal stops all tests and contains extra information about the failed subtest.
+- [x] t.Fatal stops all tests and contains extra information about the failed subtest.
 
 #### Q31. What does `log.Fatal` do?
 
@@ -402,26 +402,27 @@ Relevant excerpt from the article:
 
 #### Q33. How should you log an error (err)
 
-- [ ] ```log.Error(err)```
-- [ ] ```log.Printf("error: %v", err)```
-- [ ] ```log.Printf(log.ERROR, err)```
-- [ ] ```log.Print("error: %v", err)```
+- [x] `log.Error(err)`
+- [ ] `log.Printf("error: %v", err)`
+- [ ] `log.Printf(log.ERROR, err)`
+- [ ] `log.Print("error: %v", err)`
 
-#### Q34. How does a ```sync.Mutex``` block while it is locked?
+#### Q34. How does a `sync.Mutex` block while it is locked?
 
-- [ ] any other call to lock that Mutex
+- [x] any other call to lock that Mutex
 - [ ] all goroutines
 - [ ] any writes to the variable it is locking
 - [ ] any reads or writes of the variable is it locking
 
-#### Q35. Which file names will the ```go test``` command recognize as test files?
+#### Q35. Which file names will the `go test` command recognize as test files?
 
-- [ ] any that starts with ```test```
-- [ ] any files that include the word ```test```
-- [ ] only files in the root directory that end in ```_test.go```
-- [ ] any that ends in ```_test.go```
+- [ ] any that starts with `test`
+- [ ] any files that include the word `test`
+- [ ] only files in the root directory that end in `_test.go`
+- [x] any that ends in `_test.go`
 
 #### Q36. What will be the output of this code?
+
 ```
 ch := make(chan int)
 ch <- 7
@@ -435,6 +436,7 @@ fmt.Println(val)
 - [ ] 2.718
 
 #### Q37. What will be the output of this program?
+
 ```
 ch := make(chan int)
 close(ch)
@@ -448,6 +450,7 @@ fmt.Println(val)
 - [ ] NaN
 
 #### Q38. What will be printed in this code?
+
 ```
 var stocks map[string]float64 // stock -> price
 price := stocks["MSFT"]
@@ -466,10 +469,15 @@ fmt.Println("%f\n", price)
 - [ ] Use build tags.
 - [x] Have a pkg directory and a directory per executable inside it.
 
-#### Q40. How is the behavior of ```t.Fatal``` different inside a ```t.Run``` ?
+#### Q40. How is the behavior of `t.Fatal` different inside a `t.Run` ?
 
-- [ ] ```t.Fatal``` does not crash the test harness, preserving output messages.
-- [x] ```t.Fatal``` stops all tests and contains extra information about the failed sub test.
-- [ ] ```t.Fatal``` stops execution of the subtest and continues with other test cases.
+- [ ] `t.Fatal` does not crash the test harness, preserving output messages.
+- [x] `t.Fatal` stops all tests and contains extra information about the failed sub test.
+- [ ] `t.Fatal` stops execution of the subtest and continues with other test cases.
 - [ ] There is no difference.
 
+#### Q41. How can you compile main.go to an executable that will run on OSX arm64 ?
+- [ ] Set GOOS to **arm64** and GOARCH to **darwin**.
+- [ ] Set GOOS to **osx** and GOARCH to **arm64**.
+- [ ] Set GOOS to **arm64** and GOARCH to **osx**.
+- [ ] Set GOOS to **darwin** and GOARCH to **arm64**.

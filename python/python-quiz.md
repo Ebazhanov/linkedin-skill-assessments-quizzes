@@ -193,7 +193,7 @@ return list(enumerate(college_years, 2019))
 - [x] `class Game(LogicGame): pass`
 - [ ] `def Game.LogicGame(): pass`
 
-*Duplicate of question 10.*
+_Duplicate of question 10._
 
 #### Q16. What is the purpose of the "self" keyword when defining or calling instance methods?
 
@@ -907,7 +907,7 @@ def calculate_sales_tax(subtotal):
 - [ ] a stacks adds items to the top and removes items from anywhere in the stack.
 - [ ] a stacks adds items to either end and removes items from either end.
 
-**Explanation** Stack uses the _first in first out_ approach
+**Explanation** Stack uses the _last in first out_ approach
 
 #### Q66. What is a base case in a recursive function?
 
@@ -1026,6 +1026,7 @@ def self.get_next_card(self):
 - [ ] `// This is a comment`
 
 #### Q78. What is the correct syntax for replacing the string apple in the list with the string orange?
+
 ```
 my_list = ['kiwi', 'apple', 'banana']
 ```
@@ -1178,7 +1179,7 @@ def count_recursive(n=1):
     if n > 3:
         return
     print(n)
-    
+
     count_recursive(n + 1)
 ```
 
@@ -1286,7 +1287,7 @@ num_list[len(num_list)//2]
 - [ ] A class method is a regular function that belongs to a class, but it must return None
 - [ ] A class method is similar to a regular function, but a class method does not take any arguments.
 
-*Duplicate version of Question 50.*
+_Duplicate version of Question 50._
 
 #### Q94. What file is imported to use dates in python?
 
@@ -1418,23 +1419,30 @@ import math
 print(math.pow(2,10)) # prints 2 elevated to the 10th power
 ```
 
-- [ ] 
+- [ ]
+
 ```
 print(2^10)
 ```
-- [x] 
+
+- [x]
+
 ```
 print(2**10)
 ```
-- [ ] 
+
+- [ ]
+
 ```
 y = [x*2 for x in range(1,10)]
 print(y)
 ```
+
 - [ ]
+
 ```
 y = 1
-for i in range(1,10): 
+for i in range(1,10):
     y = y * 2
 print(y)
 ```
@@ -1530,8 +1538,70 @@ print(matrix.shape)
 (100, 100)
 ```
 
-#### Q113. NumPy allows you to multiply two arrays without a for loop. This is an example of _.
+#### Q113. NumPy allows you to multiply two arrays without a for loop. This is an example of \_.
+
 - [x] vectorization
 - [ ] attributions
 - [ ] accelaration
 - [ ] functional programming
+
+#### Q114. What built-in Python data type can be used as a hash table?
+
+- [ ] `set`
+- [ ] `list`
+- [ ] `tuple`
+- [x] `dictionary`
+
+#### Q115. Which Python function allows you to execute Linux shell commands in Python?
+
+- [ ] `sys.exc_info()`
+- [x] `os.system()`
+- [ ] `os.getcwd()`
+- [ ] `sys.executable`
+
+#### Q116. Suppose you have the following code snippet and want to extract a list with only the letters. Which fragment of code will _not_ achieve that goal?
+
+```
+my_dictionary = {
+    'A': 1,
+    'B': 2,
+    'C': 3,
+    'D': 4,
+    'E': 5
+}
+```
+
+- [x]
+
+```
+letters = []
+
+for letter in my_dictionary.values():
+    letters.append(letter)
+```
+
+- [ ]
+
+```
+letters = my_dictionary.keys()
+```
+
+- [ ]
+
+```
+letters = [letter for (letter, number) in my_dictionary.items()]
+```
+
+- [ ]
+
+```
+letters4 = list(my_dictionary)
+```
+**Explanation:** The first one (the correct option) returns the list of the values (the letters). The rest of the options return a list of the keys.
+
+#### Q117. THen an array is large, NumPy will not print the entire array when given the built-in `print` function. What function can you use within NumPy to force it to print the entire array?
+
+- [ ] `set_printparams`
+- [x] `set_printoptions`
+- [ ] `set_fullprint`
+- [ ] `setp_printwhole`
