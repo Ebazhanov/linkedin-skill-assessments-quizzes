@@ -1418,7 +1418,7 @@ export const printMe = (str) => console.log(str);
 ```
 
 -   [ ] `import printMe from './some-file';`
--   [ ] `import { printMe } from './some-file';`
+-   [X] `import { printMe } from './some-file';`
 -   [ ] `import default as printMe from './some-file';`
 -   [ ] `const printMe = import './some-file';`
 
