@@ -15,10 +15,12 @@ str::thread::spawn(|| {
 });
 ```
 
-- [ ] a closure
-- [x] a thread
+- [x] a closure
+- [ ] a thread
 - [ ] a future
 - [ ] a block
+
+[reference](https://doc.rust-lang.org/book/ch13-01-closures.html#refactoring-with-closures-to-store-code)
 
 #### Q3. Which choice is not a scalar data type?
 
