@@ -1559,3 +1559,24 @@ x<y&z>w
 `<input> elements of type checkbox are rendered by default as boxes that are checked (ticked) when activated, like you might see in an official government paper form. The exact appearance depends upon the operating system configuration under which the browser is running. Generally this is a square but it may have rounded corners.`
   
  [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
+
+#### Q99. How would you mark up a piece of ASCII art (an emotion) in an accessible way?
+
+- [x] `<pre role="emotion" aria-label="ASCII emotion of a shrug">¯\_(ツ)_/¯</pre>`
+
+- [ ] `<pre role="img" aria-label="ASCII emotion of a shrug">¯\_(ツ)_/¯</pre>`
+
+- [ ] `<dfn title="ASCII emotion of a shrug">¯\_(ツ)_/¯</dfn>`
+
+- [ ] `<label for="art">ASCII emotion of a shrug</label><pre role="img" id="art">¯\_(ツ)_/¯</pre>`
+
+#### Q100. Which example is a standard way in HTML5 for adding author metadata to a page?
+
+- [ ] `<metadata name="author" content="Author Name">`
+
+- [ ] `<meta name="author">Author Name</meta>`
+
+- [ ] `<meta name="creator" content="Author Name">`
+
+- [x] `<meta name="author" content="Author Name">`
+
