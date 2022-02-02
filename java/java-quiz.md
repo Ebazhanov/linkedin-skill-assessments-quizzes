@@ -1667,3 +1667,23 @@ System.out.println(list1);
 - [ ] AbnormalException, AccidentalException
 - [x] error, exception
 - [ ] exception, error
+
+####Q121. Which OOP concept is this code an example of?
+
+```java
+List[] myLists = {
+    new ArrayList<>(),
+    new LinkedList<>(),
+    new Stack<>(),
+    new Vector<>(),
+};
+
+for (List list : myLists){
+    list.clear();
+}
+```
+
+- [ ] composition
+- [ ] generics
+- [ ] polymorphisem
+- [ ] encapsulation
