@@ -7135,6 +7135,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "nyksy",
+      "name": "Juho Nykänen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71010049?v=4",
+      "profile": "https://www.linkedin.com/in/juho-nykanen-cs/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
