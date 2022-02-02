@@ -1444,28 +1444,28 @@ class Lambo extends Car {
 - [ ] overloading
 - [ ] overriding
 
-####Q107. Which choice is the best data type for working with money in Java?
+#### Q107. Which choice is the best data type for working with money in Java?
 
 - [ ] float
 - [ ] String
 - [ ] double
 - [x] BigDecimal
 
-####Q108. Which statement about constructors is not ture?
+#### Q108. Which statement about constructors is not ture?
 
 - [ ] A class can have multiple constructors with a different parameter list.
 - [ ] You can call another constructor with `this` or `super`.
 - [ ] A constructor does not define a return value.
 - [x] Every class must explicitly define a constructor without parameters.
 
-####Q109. What language feature allows types to be parameters on classes, interfaces, and methods in order to reuse the same code for different data types?
+#### Q109. What language feature allows types to be parameters on classes, interfaces, and methods in order to reuse the same code for different data types?
 
 - [ ] Regular Expressions
 - [ ] Reflection
 - [x] Generics
 - [ ] Concurrency
 
-####Q110. What will be printed?
+#### Q110. What will be printed?
 ```java
 public class Berries{
 
@@ -1485,7 +1485,7 @@ public class Berries{
 - [ ] blueberry
 - [ ] rasp
 
-####Q111. What is the value of `forestCount` after this code executes?
+#### Q111. What is the value of `forestCount` after this code executes?
 
 ```java
 Map<String, Integer> forestSpecies = new HashMap<>();
@@ -1503,7 +1503,7 @@ int forestCount = forestSpecies.size();
 - [ ] 2
 - [ ] When calling the put method, Java will throw an exception
 
-####Q112. What is a problem with this code?
+#### Q112. What is a problem with this code?
 
 ```java
 import java.util.ArrayList;
@@ -1530,7 +1530,7 @@ class Main {
 - [ ] The List interface does not allow an argument of type String to be passed to the remove method.
 - [ ] ArrayList does not implement the List interface.
 
-####Q113. How do you convert this method into a lambda expression?
+#### Q113. How do you convert this method into a lambda expression?
 
 ```java
 public int square(int x){
@@ -1543,7 +1543,7 @@ public int square(int x){
 - [x] `Function<Integer, Integer> squareLambda = x -> x * x;`
 - [ ] `Function<Integer, Integer> squareLambda = x -> return x * x;`
 
-####Q114. Which choice is a valid implementation of this interface?
+#### Q114. Which choice is a valid implementation of this interface?
 
 ```java
 interface MyInterface {
@@ -1588,7 +1588,7 @@ public class MyClass implements MyInterface {
 }
 ```
 
-####Q115. What is the result of this program?
+#### Q115. What is the result of this program?
 
 ```java
 interface Foo{
@@ -1609,7 +1609,7 @@ public class Main{
 - [ ] null
 - [x] An error will occur when compiling.
 
-####Q116. Which statement must be inserted on line 1 to print the value true?
+#### Q116. Which statement must be inserted on line 1 to print the value true?
 
 ```
 1:
@@ -1622,7 +1622,7 @@ public class Main{
 - [ ] `String val = null;`
 - [ ] `Optional<String> val = Optional.empty();`
 
-####Q117. What will this code print, assuming it is inside the main method of a class?
+#### Q117. What will this code print, assuming it is inside the main method of a class?
 
 ```java
 System.out.println(true && false || true);
@@ -1634,7 +1634,7 @@ System.out.println(false || false && true);
 - [x] true </br> false
 - [ ] false </br> false
 
-####Q118. What will this code print?
+#### Q118. What will this code print?
 
 ```java
 List<String> list1 = new ArrayList<>(); 
@@ -1654,21 +1654,21 @@ System.out.println(list1);
 - [x] `[One, Three]`
 - [ ] `Two`
 
-####Q119. Which code checks whether the characters in two Strings,named `time` and `money`, are the same?
+#### Q119. Which code checks whether the characters in two Strings,named `time` and `money`, are the same?
 
 - [ ] `if(time <> money){}`
 - [x] `if(time.equals(money)){}`
 - [ ] `if(time == money){}`
 - [ ] `if(time = money){}`
 
-####Q120. An ______ is a serious issue thrown by the JVM that the JVM is unlikely to recover from. An ______ is an unexpected event that an application may be able to deal with in order to continue execution.
+#### Q120. An ______ is a serious issue thrown by the JVM that the JVM is unlikely to recover from. An ______ is an unexpected event that an application may be able to deal with in order to continue execution.
 
 - [ ] exception,assertion
 - [ ] AbnormalException, AccidentalException
 - [x] error, exception
 - [ ] exception, error
 
-####Q121. Which keyword would not be allowed here?
+#### Q121. Which keyword would not be allowed here?
 
 ```java
 class Unicorn {
@@ -1680,3 +1680,23 @@ class Unicorn {
 - [ ] protected
 - [ ] public
 - [ ] void
+
+#### Q122. Which OOP concept is this code an example of?
+
+```java
+List[] myLists = {
+    new ArrayList<>(),
+    new LinkedList<>(),
+    new Stack<>(),
+    new Vector<>(),
+};
+
+for (List list : myLists){
+    list.clear();
+}
+```
+
+- [ ] composition
+- [ ] generics
+- [ ] polymorphisem
+- [ ] encapsulation
