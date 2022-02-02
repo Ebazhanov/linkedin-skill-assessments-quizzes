@@ -341,7 +341,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 - [ ] Template tags prefaced with the\_ can be used directly within a template. Template tags prefaced with get_the are generally reserved for partial templates.
 - [ ] Template tags prefaced with the\_ return a value. Template tags prefaced with get_the display a value.
-- [ ] Template tags prefaced with the\_ display a value. Template tags prefaced with get_the return a value.
+- [x] Template tags prefaced with the\_ display a value. Template tags prefaced with get_the return a value.
 - [ ] Template tags prefaced with the\_ don't accept arguments. Template tags prefaced with get_the do accept arguments.
 
 #### Q42. How can you add a custom script that needs to run only on the contact page of a site? The slug of the page is contact.
