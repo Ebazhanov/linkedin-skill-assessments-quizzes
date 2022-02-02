@@ -598,3 +598,38 @@
 - [x] The business context for the product.
 
 `A Scrum Team has 3 roles -  Product Owner, Scrum Master and Developers. All 3 roles generate Value in their own contexts; however, it is the Product Owner who maximizes the Value from a product or business context.` [(Source)](https://premieragile.com/how-does-a-product-owner-measure-value)
+
+#### Q84. Which statement about the Agile Manifesto is true?
+
+- [ ] It was written via crowdsourcing and its authors are unknown.
+- [x] It has been translated into dozens of languages and used around the world.
+- [ ] It was written in 2001 and is obsolete.
+- [ ] It was first published as part of Jim Highsmith's doctoral thesis.
+
+#### Q85. The team is not going to complete its Spring Commitment. As the Team Facilitator, what should you do?
+
+- [ ] Ask the PO to extend the sprint.
+- [ ] Advise the PO as soon as possible.
+- [ ] Report this at the Sprint Review.
+- [ ] Point out the reasons why and collaborate on solutions.
+
+#### Q86. When a user story is further decomposed, what are the elements called?
+
+- [ ] technical tasks
+- [ ] actors and actions
+- [x] Who, What, Why
+- [ ] threads
+
+#### Q87. What does collective ownership mean?
+
+- [ ] Every member of the team can make changes to any part of the code as necessary.
+- [ ] If someone is at fault, then the whole team is at fault.
+- [x] The team shares equally in the profits that the product generates.
+- [ ] The team, not the individuals, receive performance evaluations.
+
+#### Q88. According to the Agile Manifesto, how often should developers and business people work together?
+
+- [ ] as often as needed
+- [ ] biweekly
+- [x] daily
+- [ ] weekly
