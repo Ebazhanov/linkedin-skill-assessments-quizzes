@@ -671,7 +671,36 @@ Note: there are centres of clusters (C0, C1, C2).
 
 #### Q87.Your data science team is often criticized for creating reports that are boring or too obvious. What could you do to help improve the team?
 
-- [ ] Suggest that the team is probably underfitting the model to the data.
+- [x] Suggest that the team is probably underfitting the model to the data.
 - [ ] Suggest that unsupervised learning will lead to more interesting results.
 - [ ] Make sure that they are picking the correct machine learning algorithms.
 - [ ] Encourage the team to ask more interesting questions.
+
+
+#### Q88. What is the difference between unstructured and structured data?
+
+- [ ] Unstructured data is always text.
+- [ ] Unstructured data is much easier to store.
+- [x] Structured data has clearly defined data types.
+- [ ] Sturctured data is much more popular.
+
+#### Q89. You work for a startup that is trying to develop a software tool that will scan the internet for pictures of people using specific tools. The chief executive is very interested in using machine learning algorithms. What would you recommend as the best place to start?
+
+- [ ] Using an unsupervised machine learning algorithm to cluster together all the photographs.
+- [ ] Crate a data lake with an unsupervised machine learning algorithm.
+- [ ] Use a combination of unsupervised and supervised machine learning to create machine-defined data clusters.
+- [x] Use supervised machine learning to classify photographs based on a predetermined training set.
+
+#### Q90. In supervised machine learning, data scientist often have the challenge of balancing between underfitting or overfitting their data model. They often have to adjust the training set to make better predictions. What is this balance called?
+
+- [ ] the under/over challenge
+- [ ] balance between clustering classification
+- [x] bias-variance trade-off
+- [ ] the multiclass training set challenge
+
+#### Q91. What is conditional probability?
+
+- [ ] the probability that doing one thing has an impact on another thing
+- [ ] the probability that certain conditions are met
+- [ ] the probability that, based on certain conditions, something will always be incorrect
+- [ ] the probability of something being the correct answer
