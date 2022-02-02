@@ -907,7 +907,7 @@ def calculate_sales_tax(subtotal):
 - [ ] a stacks adds items to the top and removes items from anywhere in the stack.
 - [ ] a stacks adds items to either end and removes items from either end.
 
-**Explanation** Stack uses the _first in first out_ approach
+**Explanation** Stack uses the _last in first out_ approach
 
 #### Q66. What is a base case in a recursive function?
 
