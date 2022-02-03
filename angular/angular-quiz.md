@@ -1074,7 +1074,7 @@ RouterModule.forRoot (
 ```
 
 - [ ] title="userName"
-- [ ] title="{{ userName }}"
+- [x] title="{{ userName }}"
 - [ ] title="{{ 'userName' }}"
 - [ ] The only way to do it is by using the square brackets.
 
