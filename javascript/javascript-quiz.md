@@ -1604,3 +1604,22 @@ console.log(pokedex.pop());
 -   [ ] Squirtle
 
 `The pop() method removes the last element from an array and returns that element. This method changes the length of the array.` [(Source)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+
+#### Q117. Which snippet allows the `acresOfRainForest` variable to increase?
+
+```js
+let conservation = true;
+let deforestation = false;
+let acresOfRainForest = 100;
+
+if(/* Snippet goes here */){
+    ++acresOfRainForest;
+}
+```
+
+-   [ ] `!deforestation && !conservation`
+-   [ ] `deforestation && conservation || deforestation`
+-   [x] `conservation && !deforestation`
+-   [ ] `!conservation || deforestation`
+
+ [if...else statements reference](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#if...else_statements)
