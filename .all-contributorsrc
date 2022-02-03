@@ -7215,6 +7215,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "gordonpn",
+      "name": "Gordon Pham-Nguyen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4203037?v=4",
+      "profile": "http://gordon-pn.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -7,7 +7,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-734-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-735-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1062,6 +1062,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://mario-sanz.netlify.app/"><img src="https://avatars.githubusercontent.com/u/72298127?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mario Sanz</b></sub></a><br /><a href="#design-mario-sanz" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=mario-sanz" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/CrabCrabCrabCrab"><img src="https://avatars.githubusercontent.com/u/98830497?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Crab^4</b></sub></a><br /><a href="#design-CrabCrabCrabCrab" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=CrabCrabCrabCrab" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/pablocuestamorer/"><img src="https://avatars.githubusercontent.com/u/43066595?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pablo</b></sub></a><br /><a href="#design-PabloCuestaMorer" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=PabloCuestaMorer" title="Code">💻</a></td>
+    <td align="center"><a href="http://gordon-pn.com"><img src="https://avatars.githubusercontent.com/u/4203037?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gordon Pham-Nguyen</b></sub></a><br /><a href="#design-gordonpn" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=gordonpn" title="Code">💻</a></td>
   </tr>
 </table>
 
