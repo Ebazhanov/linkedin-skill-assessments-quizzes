@@ -354,7 +354,7 @@
 
 #### Q40. Which acronym is used to describe the page a user sees after submitting a search?
 
-- [x] SERT (Search Engine Results Page)
+- [x] SERP (Search Engine Results Page)
 - [ ] INDX
 - [ ] PARS
 - [ ] SEM

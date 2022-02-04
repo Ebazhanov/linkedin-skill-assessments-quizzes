@@ -1663,7 +1663,7 @@ img {
 - [ ] `font-size: reduce;`
 - [ ] `font-size: 8px;`
 - [ ] `font-size: -1em;`
-- [ ] `font-size: smaller;`
+- [x] `font-size: smaller;`
 
 #### Q115. Given this markup, which selector would result in the text being highlighted in yellow?
 
@@ -1687,7 +1687,7 @@ img {
 }
 ```
 
-- [ ]
+- [x]
 
 ```css
 .highlight {
@@ -1705,7 +1705,7 @@ img {
 
 #### Q116. To prevent a background image from tiling in any direction, which style property would you apply?
 
-- [ ]
+- [X]
 
 ```css
 background-repeat: no-repeat;
@@ -1731,7 +1731,7 @@ background-tile: none;
 
 #### Q117. To rotate an object 30 degrees counterclockwise, which style property would you apply?
 
-- [ ] `transform: rotate(-30deg);`
+- [X] `transform: rotate(-30deg);`
 - [ ] `transform: rotate(30deg);`
 - [ ] `rotate: 30deg;`
 - [ ] `spin: 30deg;`
@@ -1739,7 +1739,7 @@ background-tile: none;
 #### Q118. Which style rule would you apply to set the background image to display the contents of the wood.png file?
 
 - [ ] `background-image: file(wood.png);`
-- [ ] `background-image: url(wood.png);`
+- [X] `background-image: url(wood.png);`
 - [ ] `background-image: wood.png;`
 - [ ] `image: wood.png`
 
@@ -1784,7 +1784,7 @@ p + section {
 #### Q120. You want to move an element up 100px. Which CSS property would you use?
 
 - [ ] `transform: translateX(-100px)`
-- [ ] `transform: translateY(-100px)`
+- [x] `transform: translateY(-100px)`
 - [ ] `transform: translateY(100px)`
 - [ ] `transform: translateX(100px)`
 
@@ -1824,7 +1824,7 @@ p + section {
 }
 ```
 
-- [ ]
+- [x]
 
 ```css
 #inner {

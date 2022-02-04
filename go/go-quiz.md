@@ -372,7 +372,7 @@ Relevant excerpt from the article:
 - [ ] There is no difference.
 - [ ] t.Fatal does not crash the test harness, preserving output messages.
 - [ ] t.Fatal stops execution of the subtest and continues with other test cases.
-- [ ] t.Fatal stops all tests and contains extra information about the failed subtest.
+- [x] t.Fatal stops all tests and contains extra information about the failed subtest.
 
 #### Q31. What does `log.Fatal` do?
 
@@ -402,14 +402,14 @@ Relevant excerpt from the article:
 
 #### Q33. How should you log an error (err)
 
-- [ ] `log.Error(err)`
+- [x] `log.Error(err)`
 - [ ] `log.Printf("error: %v", err)`
 - [ ] `log.Printf(log.ERROR, err)`
 - [ ] `log.Print("error: %v", err)`
 
 #### Q34. How does a `sync.Mutex` block while it is locked?
 
-- [ ] any other call to lock that Mutex
+- [x] any other call to lock that Mutex
 - [ ] all goroutines
 - [ ] any writes to the variable it is locking
 - [ ] any reads or writes of the variable is it locking
@@ -419,7 +419,7 @@ Relevant excerpt from the article:
 - [ ] any that starts with `test`
 - [ ] any files that include the word `test`
 - [ ] only files in the root directory that end in `_test.go`
-- [ ] any that ends in `_test.go`
+- [x] any that ends in `_test.go`
 
 #### Q36. What will be the output of this code?
 

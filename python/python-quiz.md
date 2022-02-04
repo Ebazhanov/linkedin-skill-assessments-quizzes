@@ -907,7 +907,7 @@ def calculate_sales_tax(subtotal):
 - [ ] a stacks adds items to the top and removes items from anywhere in the stack.
 - [ ] a stacks adds items to either end and removes items from either end.
 
-**Explanation** Stack uses the _first in first out_ approach
+**Explanation** Stack uses the _last in first out_ approach
 
 #### Q66. What is a base case in a recursive function?
 
@@ -1544,3 +1544,64 @@ print(matrix.shape)
 - [ ] attributions
 - [ ] accelaration
 - [ ] functional programming
+
+#### Q114. What built-in Python data type can be used as a hash table?
+
+- [ ] `set`
+- [ ] `list`
+- [ ] `tuple`
+- [x] `dictionary`
+
+#### Q115. Which Python function allows you to execute Linux shell commands in Python?
+
+- [ ] `sys.exc_info()`
+- [x] `os.system()`
+- [ ] `os.getcwd()`
+- [ ] `sys.executable`
+
+#### Q116. Suppose you have the following code snippet and want to extract a list with only the letters. Which fragment of code will _not_ achieve that goal?
+
+```
+my_dictionary = {
+    'A': 1,
+    'B': 2,
+    'C': 3,
+    'D': 4,
+    'E': 5
+}
+```
+
+- [x]
+
+```
+letters = []
+
+for letter in my_dictionary.values():
+    letters.append(letter)
+```
+
+- [ ]
+
+```
+letters = my_dictionary.keys()
+```
+
+- [ ]
+
+```
+letters = [letter for (letter, number) in my_dictionary.items()]
+```
+
+- [ ]
+
+```
+letters4 = list(my_dictionary)
+```
+**Explanation:** The first one (the correct option) returns the list of the values (the letters). The rest of the options return a list of the keys.
+
+#### Q117. THen an array is large, NumPy will not print the entire array when given the built-in `print` function. What function can you use within NumPy to force it to print the entire array?
+
+- [ ] `set_printparams`
+- [x] `set_printoptions`
+- [ ] `set_fullprint`
+- [ ] `setp_printwhole`
