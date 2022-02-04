@@ -402,10 +402,12 @@ Relevant excerpt from the article:
 
 #### Q33. How should you log an error (err)
 
-- [x] `log.Error(err)`
-- [ ] `log.Printf("error: %v", err)`
+- [ ] `log.Error(err)`
+- [x] `log.Printf("error: %v", err)`
 - [ ] `log.Printf(log.ERROR, err)`
 - [ ] `log.Print("error: %v", err)`
+
+Explanation: There is defined neither log.ERROR, nor log.Error() in [log package](https://pkg.go.dev/log); log.Print() arguments are handled in the manner of fmt.Print(); log.Printf() arguments are handled in the manner of fmt.Printf(). 
 
 #### Q34. How does a `sync.Mutex` block while it is locked?
 
