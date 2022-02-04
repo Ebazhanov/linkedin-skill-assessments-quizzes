@@ -1592,7 +1592,19 @@ for (let value of cipherText) {
 [Reference MDN JavaScript Array entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
 [Reference MDN JavaScript Remainder/Modulo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder)
 
-#### Q116. Which Pokemon will be logged to the console?
+
+#### Q116. What will this code log to the console?
+
+const foo = [1, 2, 3];
+const [n] = foo;
+console.log(n);
+
+- [ ] undefined
+- [ ] 1
+- [ ] NaN
+- [ ] Nothing. This is not proper JavaScript syntax and will throw an error.
+
+#### Q117. Which Pokemon will be logged to the console?
 
 var pokedex = ["Snorlax", "Jigglypuff", "Charmander", "Squirtle"];
 pokedex.pop();
@@ -1605,7 +1617,7 @@ console.log(pokedex.pop());
 
 `The pop() method removes the last element from an array and returns that element. This method changes the length of the array.` [(Source)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
 
-#### Q117. Which snippet allows the `acresOfRainForest` variable to increase?
+#### Q118. Which snippet allows the `acresOfRainForest` variable to increase?
 
 ```js
 let conservation = true;
