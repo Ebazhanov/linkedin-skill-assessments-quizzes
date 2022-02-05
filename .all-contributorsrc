@@ -7245,6 +7245,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Imolai",
+      "name": "Gábor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38439709?v=4",
+      "profile": "https://github.com/Imolai",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
