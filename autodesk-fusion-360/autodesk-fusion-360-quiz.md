@@ -39,7 +39,7 @@
 - [ ] frictionless
 - [ ] prescribed displacement
 - [ ] pin
-- [X] fixed
+- [x] fixed
 
 #### Q6. In the CAM workspace, which strategy removes a part's interior cavity?
 
@@ -64,7 +64,7 @@
 
 #### Q9. Which hole type automatically enters a diameter value based on the type of fastener it will accomodate?
 
-- [X] Clearance
+- [x] Clearance
 - [ ] Simple
 - [ ] Drilled
 - [ ] Through
@@ -79,7 +79,7 @@
 #### Q11. What is required to invite other people into your project folder?
 
 - [ ] a name
-- [X] an email address
+- [x] an email address
 - [ ] an IP address
 - [ ] a phone number
 
@@ -94,12 +94,12 @@
 
 - [ ] slider
 - [ ] revolute
-- [X] planar
+- [x] planar
 - [ ] pin-slot
 
 #### Q14. Which view shows a drawing part at an enlarged scale?
 
-- [X] detail view
+- [x] detail view
 - [ ] section view
 - [ ] base view
 - [ ] projected view
@@ -107,7 +107,7 @@
 #### Q15. Which file type is not a drawing output?
 
 - [ ] DWG file
-- [X] CSV file
+- [x] CSV file
 - [ ] STEP file
 - [ ] PDF file
 
@@ -120,7 +120,7 @@
 
 #### Q17. What translator converts the screen toolpath into language the CNC machine understands?
 
-- [X] a post processor
+- [x] a post processor
 - [ ] G-code
 - [ ] NC-code
 - [ ] a code processor

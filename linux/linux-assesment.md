@@ -244,7 +244,7 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 - [x] -b
 - [ ] -x
 
-#### Q33. Which choice will *not* print "Hello World" in the terminal?
+#### Q33. Which choice will _not_ print "Hello World" in the terminal?
 
 - [ ] A
 
@@ -595,39 +595,39 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
 - [ ] barrenness
 - [ ] successfully
 
-#### Q73. To run CGI scripts with Apache, you need to _____.
+#### Q73. To run CGI scripts with Apache, you need to **\_**.
 
 - [ ] compile the script with a CGI compiler
 - [ ] make the script executable
-- [x] make the script executable and set the ```httpd_enable_cgi``` SELinux boolean
+- [x] make the script executable and set the `httpd_enable_cgi` SELinux boolean
 - [ ] change the ownership of the script to Apache
 
 [reference here](https://selinuxproject.org/page/ApacheRecipes#Allow_the_Apache_HTTP_Server_to_run_CGI_scripts)
 
 #### Q74. To permanently add NAT to the default zone using firewalld, you would use which command string?
 
-- [ ] ```firewall-cmd --permanent --add-nat```
-- [x] ```firewall-cmd --permanent --add-masquerade```
-- [ ] ```firewall-cmd --zone=default --add-nat```
-- [ ] ```firewall-cmd --zone=default --add-masquerade```
+- [ ] `firewall-cmd --permanent --add-nat`
+- [x] `firewall-cmd --permanent --add-masquerade`
+- [ ] `firewall-cmd --zone=default --add-nat`
+- [ ] `firewall-cmd --zone=default --add-masquerade`
 
 [reference here](https://www.rootusers.com/how-to-use-firewalld-rich-rules-and-zones-for-filtering-and-nat)
 
-#### Q75. What is the difference between using ```=``` and ```==``` in a BASH double square bracket ```if``` conditional?
+#### Q75. What is the difference between using `=` and `==` in a BASH double square bracket `if` conditional?
 
 ```
 if [[ $FILE == $GLOB ]] ;then
 
 ```
 
-- [ ] The single equal sign (```=```) is an assignment operator; the double equal sign (```==```) checks equality.
+- [ ] The single equal sign (`=`) is an assignment operator; the double equal sign (`==`) checks equality.
 - [x] There is no difference.
-- [ ] The single equal sign (```=```) checks equality; the double equal sign (```==```) checks string equality.
-- [ ] The double equal sign (```==```) is an assignment operator; the single equal sign (```=```) checks equality.
+- [ ] The single equal sign (`=`) checks equality; the double equal sign (`==`) checks string equality.
+- [ ] The double equal sign (`==`) is an assignment operator; the single equal sign (`=`) checks equality.
 
 [reference here](https://stackoverflow.com/a/12948608)
 
-#### 76. ```journald``` differs from traditional logging services such as ```rsyslogd``` and ```syslogd``` because its logs are _____ by default.
+#### 76. `journald` differs from traditional logging services such as `rsyslogd` and `syslogd` because its logs are **\_** by default.
 
 - [ ] stored remotely
 - [ ] text

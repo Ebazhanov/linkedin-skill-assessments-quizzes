@@ -676,7 +676,6 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] Make sure that they are picking the correct machine learning algorithms.
 - [ ] Encourage the team to ask more interesting questions.
 
-
 #### Q88. What is the difference between unstructured and structured data?
 
 - [ ] Unstructured data is always text.

@@ -1731,7 +1731,7 @@ background-tile: none;
 
 #### Q117. To rotate an object 30 degrees counterclockwise, which style property would you apply?
 
-- [X] `transform: rotate(-30deg);`
+- [x] `transform: rotate(-30deg);`
 - [ ] `transform: rotate(30deg);`
 - [ ] `rotate: 30deg;`
 - [ ] `spin: 30deg;`
@@ -1739,7 +1739,7 @@ background-tile: none;
 #### Q118. Which style rule would you apply to set the background image to display the contents of the wood.png file?
 
 - [ ] `background-image: file(wood.png);`
-- [X] `background-image: url(wood.png);`
+- [x] `background-image: url(wood.png);`
 - [ ] `background-image: wood.png;`
 - [ ] `image: wood.png`
 

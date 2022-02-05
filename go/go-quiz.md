@@ -374,14 +374,14 @@ Relevant excerpt from the article:
 - [x] t.Fatal stops execution of the subtest and continues with other test cases.
 - [ ] t.Fatal stops all tests and contains extra information about the failed subtest.
 
-Reference: https://go.dev/play/p/gtne3iRL9AX
+[Reference:](https://go.dev/play/p/gtne3iRL9AX)
 
 Explanation:  
 Fatal is equivalent to Log followed by FailNow.  
 Log formats its arguments using default formatting, analogous to Println, and records the text in the error log.  
 FailNow marks the function as having failed and stops its execution by calling runtime.Goexit (which then runs all deferred calls in the current goroutine). Execution will continue at the next test or benchmark. FailNow must be called from the goroutine running the test or benchmark function, not from other goroutines created during the test. Calling FailNow does not stop those other goroutines.  
 Run runs f as a subtest of t called name. It runs f in a separate goroutine and blocks until f returns or calls t.Parallel to become a parallel test. Run reports whether f succeeded (or at least did not fail before calling t.Parallel).  
-Run may be called simultaneously from multiple goroutines, but all such calls must return before the outer test function for t returns.  
+Run may be called simultaneously from multiple goroutines, but all such calls must return before the outer test function for t returns.
 
 #### Q31. What does `log.Fatal` do?
 
@@ -416,7 +416,7 @@ Relevant excerpt from the article:
 - [ ] `log.Printf(log.ERROR, err)`
 - [ ] `log.Print("error: %v", err)`
 
-Explanation: There is defined neither log.ERROR, nor log.Error() in [log package](https://pkg.go.dev/log); log.Print() arguments are handled in the manner of fmt.Print(); log.Printf() arguments are handled in the manner of fmt.Printf(). 
+Explanation: There is defined neither log.ERROR, nor log.Error() in [log package](https://pkg.go.dev/log); log.Print() arguments are handled in the manner of fmt.Print(); log.Printf() arguments are handled in the manner of fmt.Printf().
 
 #### Q34. How does a `sync.Mutex` block while it is locked?
 
@@ -481,6 +481,7 @@ fmt.Println("%f\n", price)
 - [x] Have a pkg directory and a directory per executable inside it.
 
 #### Q40. How can you compile main.go to an executable that will run on OSX arm64 ?
+
 - [ ] Set GOOS to **arm64** and GOARCH to **darwin**.
 - [ ] Set GOOS to **osx** and GOARCH to **arm64**.
 - [ ] Set GOOS to **arm64** and GOARCH to **osx**.

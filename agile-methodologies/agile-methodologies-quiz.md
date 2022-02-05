@@ -597,7 +597,7 @@
 - [ ] The development team's strengths and weaknesses.
 - [x] The business context for the product.
 
-`A Scrum Team has 3 roles -  Product Owner, Scrum Master and Developers. All 3 roles generate Value in their own contexts; however, it is the Product Owner who maximizes the Value from a product or business context.` [(Source)](https://premieragile.com/how-does-a-product-owner-measure-value)
+`A Scrum Team has 3 roles - Product Owner, Scrum Master and Developers. All 3 roles generate Value in their own contexts; however, it is the Product Owner who maximizes the Value from a product or business context.` [(Source)](https://premieragile.com/how-does-a-product-owner-measure-value)
 
 #### Q84. Which statement about the Agile Manifesto is true?
 

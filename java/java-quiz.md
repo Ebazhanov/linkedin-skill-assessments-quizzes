@@ -1466,6 +1466,7 @@ class Lambo extends Car {
 - [ ] Concurrency
 
 #### Q110. What will be printed?
+
 ```java
 public class Berries{
 
@@ -1480,6 +1481,7 @@ public class Berries{
     }
 }
 ```
+
 - [ ] raspberry
 - [x] strawberry
 - [ ] blueberry
@@ -1552,6 +1554,7 @@ interface MyInterface {
 ```
 
 - [ ] A
+
 ```java
 public class MyClass implements MyInterface {
     // ....
@@ -1560,7 +1563,9 @@ public class MyClass implements MyInterface {
     }
 }
 ```
+
 - [ ] B
+
 ```java
 public class MyClass implements MyInterface {
     // ....
@@ -1569,7 +1574,9 @@ public class MyClass implements MyInterface {
     }
 }
 ```
+
 - [x] C
+
 ```java
 public class MyClass implements MyInterface {
     // ....
@@ -1578,7 +1585,9 @@ public class MyClass implements MyInterface {
     }
 }
 ```
+
 - [ ] D
+
 ```java
 public class MyClass implements MyInterface {
     // ....
@@ -1637,15 +1646,15 @@ System.out.println(false || false && true);
 #### Q118. What will this code print?
 
 ```java
-List<String> list1 = new ArrayList<>(); 
-list1.add( "One" ); 
-list1.add( "Two" ); 
-list1.add( "Three" ); 
+List<String> list1 = new ArrayList<>();
+list1.add( "One" );
+list1.add( "Two" );
+list1.add( "Three" );
 
 List<String> list2 = new ArrayList<>();
 list2.add( "Two" );
-        
-list1.remove( list2 ); 
+
+list1.remove( list2 );
 System.out.println(list1);
 ```
 
@@ -1661,7 +1670,7 @@ System.out.println(list1);
 - [ ] `if(time == money){}`
 - [ ] `if(time = money){}`
 
-#### Q120. An ______ is a serious issue thrown by the JVM that the JVM is unlikely to recover from. An ______ is an unexpected event that an application may be able to deal with in order to continue execution.
+#### Q120. An **\_\_** is a serious issue thrown by the JVM that the JVM is unlikely to recover from. An **\_\_** is an unexpected event that an application may be able to deal with in order to continue execution.
 
 - [ ] exception,assertion
 - [ ] AbnormalException, AccidentalException

@@ -891,7 +891,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] XY scatter chart
 - [ ] combo chart
 
-#### Q109. To ensure that a collection of shapes are evenly spaced apart from left to right, select the shapes, click Page Layout > Align, and then click ______.
+#### Q109. To ensure that a collection of shapes are evenly spaced apart from left to right, select the shapes, click Page Layout > Align, and then click **\_\_**.
 
 - [x] Distribute Horizontally
 - [ ] Align Center

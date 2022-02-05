@@ -679,7 +679,7 @@ endif;
 
 [Reference](https://www.w3schools.com/js/js_datatypes.asp)
 
-#### Q79. You would use a post instead of a page when the content is _____.
+#### Q79. You would use a post instead of a page when the content is **\_**.
 
 - [ ] for a top-level menu item
 - [ ] nested (has a parent/child relationship with another piece of content)
