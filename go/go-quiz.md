@@ -475,10 +475,10 @@ fmt.Println("%f\n", price)
 
 #### Q39. What is the common way to have several executables in your project?
 
-- [ ] Have a cmd directory and a directory per executable inside it.
+- [x] Have a cmd directory and a directory per executable inside it.
 - [ ] Comment out main.
 - [ ] Use build tags.
-- [x] Have a pkg directory and a directory per executable inside it.
+- [] Have a pkg directory and a directory per executable inside it.
 
 #### Q40. How can you compile main.go to an executable that will run on OSX arm64 ?
 
