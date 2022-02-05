@@ -481,3 +481,5 @@ fmt.Println("%f\n", price)
 - [ ] Set GOOS to **osx** and GOARCH to **arm64**.
 - [ ] Set GOOS to **arm64** and GOARCH to **osx**.
 - [x] Set GOOS to **darwin** and GOARCH to **arm64**.
+
+(documentation)[https://pkg.go.dev/cmd/go#hdr-Build_constraints]
