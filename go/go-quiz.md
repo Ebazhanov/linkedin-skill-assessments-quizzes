@@ -481,7 +481,9 @@ fmt.Println("%f\n", price)
 - [ ] Have a pkg directory and a directory per executable inside it.
 
 [stackoverflow](https://stackoverflow.com/questions/9985559/organizing-a-multiple-file-go-project/51942843#51942843)
+
 [medium](https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091)
+
 [medium](https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2)
 
 #### Q40. How can you compile main.go to an executable that will run on OSX arm64 ?
