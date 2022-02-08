@@ -1559,12 +1559,12 @@ x<y&z>w
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
 
-#### Q99. How would you mark up a piece of ASCII art (an emotion) in an accessible way?
+#### Q99. How would you mark up a piece of ASCII art (an emoticon) in an accessible way?
 
-- [x] `<pre role="emotion" aria-label="ASCII emotion of a shrug">¯\_(ツ)_/¯</pre>`
-- [ ] `<pre role="img" aria-label="ASCII emotion of a shrug">¯\_(ツ)_/¯</pre>`
-- [ ] `<dfn title="ASCII emotion of a shrug">¯\_(ツ)_/¯</dfn>`
-- [ ] `<label for="art">ASCII emotion of a shrug</label><pre role="img" id="art">¯\_(ツ)_/¯</pre>`
+- [x] `<pre role="emoticon" aria-label="ASCII emoticon of a shrug">¯\_(ツ)_/¯</pre>`
+- [ ] `<pre role="img" aria-label="ASCII emoticon of a shrug">¯\_(ツ)_/¯</pre>`
+- [ ] `<dfn title="ASCII emoticon of a shrug">¯\_(ツ)_/¯</dfn>`
+- [ ] `<label for="art">ASCII emoticon of a shrug</label><pre role="img" id="art">¯\_(ツ)_/¯</pre>`
 
 #### Q100. Which example is a standard way in HTML5 for adding author metadata to a page?
 
@@ -1572,3 +1572,66 @@ x<y&z>w
 - [ ] `<meta name="author">Author Name</meta>`
 - [ ] `<meta name="creator" content="Author Name">`
 - [x] `<meta name="author" content="Author Name">`
+
+#### Q101. Given the following requirements, select the correct `input` configuration: An `input` that allows the user to select from a range of integer values between 0 and 100 (inclusive) in increments of 5.
+
+- [ ] `<input type="range" min="0" max="100" by="5" />`
+- [x] `<input type="range" min="0" max="100" step="5" />`
+- [ ] `<input type="number" min="0" max="100" step="5" />`
+- [ ] `<input type="number" min="0" max="100" by="5" />`
+
+`<input> elements of type range let the user specify a numeric value which must be no less than a given value, and no more than another given value. The step attribute is a number that specifies the granularity that the value must adhere to.`
+
+[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input/range)
+
+#### Q102. Which choice is valid markup for a `<head>` element?
+
+- [ ] `<head class="Page Section Information" id="head"><title>Page Title</title></head>`
+- [ ] `<head><title>Page Title</title> <img src="favicon.icon" alt=""></head>`
+- [X] `<head><title>Page Title</title> <data value="email">email@example.com</data></head>`
+- [ ] `<head><title>Page Title</title><address>email@example.com</address></head>`
+
+`The <head> HTML element contains machine-readable information (metadata) about the document, like its title.The <data> tag is used to add a machine-readable translation of a given content.`
+[Source 1](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)/
+[Source 2](https://www.w3schools.com/tags/tag_data.asp)
+
+#### Q103. You need to add comments to the company blog. What is the most semantic markup for a list of comments?
+
+- [X] A
+```HTML
+<aside>
+  <h3>Comments</h3>
+  <article> First comment.</article>
+  <article> Second comment.</article>
+</aside>
+```
+
+- [ ] B
+```HTML
+<div aria="dpub-comments">
+  <h3>Comments</h3>
+  <div aria="dpub-comment"> First comment.</div>
+  <div aria="dpub-comment"> Second comment.</div>
+</div>
+```
+
+- [ ] C
+```HTML
+<aside>
+  <h3>Comments</h3>
+  <aside> First comment.</aside>
+  <aside> Second comment.</aside>
+</aside>
+```
+
+- [ ] D
+
+```HTML
+<div typeof="comments">
+  <h3>Comments</h3>
+  <div typeof="comment"> First comment.</div>
+  <div typeof="comment"> Second comment.</div>
+</div>
+```
+`The <article> HTML element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Example:a user-submitted comment.`
+[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
