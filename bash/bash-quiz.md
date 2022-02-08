@@ -542,7 +542,7 @@ echo $greeting, everybody!
 - [ ] a parameter
 - [x] a vairable
 
-#### Q47. Which statement checks whether the variable num is five?
+#### Q47. Which statement checks whether the variable num greater than five?
 
 - [ ] `(( \$num -gt 5 ))`
 - [ ] `[[$num -lt 5]]`
