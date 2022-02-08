@@ -572,11 +572,32 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] blank page
 - [ ] table of contents page
 
-### Q73. before publishing a document you want to identify issues that may make it difficult for people with disabilities to read. which feature should you use?
+#### Q73. Before publishing a document you want to identify issues that may make it difficult for people with disabilities to read. which feature should you use?
 
 - [x] check Accessibility
-- [ ] inspact document
+- [ ] inspect document
 - [ ] check compatibility
 - [ ] protect document
 
 [Reference](https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f)
+
+#### Q74. After selecting the entire document, what is the quickest way to find out how many paragraphs there are in your current Word document?
+
+- [ ] From the start of the document, hold down the Ctrl (Windows) or Command (Mac) key, and press the Down Arrow key repeatedly, counting each paragraph as you go.
+- [ ] Click File > Properties > Content to display file information, including the number of paragraphs.
+- [ ] On the status bar, select Word Count to display file information, including the number of paragraphs.
+- [ ] Click File > Info > Inspect Document to display file information, including the number of paragraphs.
+
+#### Q75. You want to be able to read one page in your document while editing another page in the same document. What's the most efficient way to do this with only one monitor?
+
+- [x] On the View tab of the ribbon, click Split.
+- [ ] Save a duplicate copy of your document, then view both documents side by side.
+- [ ] On the Insert tab of the ribbon, create a bookmark for the location that you want to read.
+- [ ] On the View tab of the ribbon, click New Window.
+
+#### Q76. What is the purpose of adding alternative text (alt text) to an image in your document?
+
+- [ ] Alt text improves accessibility in your document.
+- [x] all of these answers
+- [ ] Alt text describes what appears in the image.
+- [ ] Screen readers read the text aloud for users with visual impairments.

@@ -7,7 +7,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-741-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-743-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1071,6 +1071,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/karolinabodis"><img src="https://avatars.githubusercontent.com/u/78912800?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lina</b></sub></a><br /><a href="#design-karolinabodis" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=karolinabodis" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/hrwatts"><img src="https://avatars.githubusercontent.com/u/34659182?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Harrison Watts</b></sub></a><br /><a href="#design-hrwatts" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=hrwatts" title="Code">💻</a></td>
     <td align="center"><a href="https://www.petricko.dev"><img src="https://avatars.githubusercontent.com/u/56165587?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mario Petričko</b></sub></a><br /><a href="#design-Maracko" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Maracko" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Ben8120"><img src="https://avatars.githubusercontent.com/u/81163948?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ben8120</b></sub></a><br /><a href="#design-Ben8120" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Ben8120" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Giovannapls"><img src="https://avatars.githubusercontent.com/u/37786977?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Giovanna</b></sub></a><br /><a href="#design-Giovannapls" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Giovannapls" title="Code">💻</a></td>
   </tr>
 </table>
 
