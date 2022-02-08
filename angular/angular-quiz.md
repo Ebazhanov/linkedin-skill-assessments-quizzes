@@ -1046,7 +1046,7 @@ export const APP_SETTINGS = new Injection<AppSettings>('app.settings');
 </form>
 ```
 
-- [ ] submit(form.value)
+- [x] submit(form.value)
 - [ ] submit($event)
 - [ ] submit(ngForm.value)
 - [ ] submit(FirstName, lastName)
