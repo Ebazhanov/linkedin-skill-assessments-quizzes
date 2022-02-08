@@ -1599,7 +1599,7 @@ const [n] = foo;
 console.log(n);
 
 - [ ] undefined
-- [ ] 1
+- [X] 1
 - [ ] NaN
 - [ ] Nothing. This is not proper JavaScript syntax and will throw an error.
 
@@ -1634,3 +1634,17 @@ if(/* Snippet goes here */){
 - [ ] `!conservation || deforestation`
 
 [if...else statements reference](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#if...else_statements)
+
+#### Q119. Which statement can be used to select the element from the DOM containing the text "The LinkedIn Learning library has great JavaScript courses" from this markup?
+
+```html
+<h1 class="content">LinkedIn Learning</h1>
+	<div class="content">
+		<span class="content">The LinkedIn Learning library has great JavaScript courses!</span>
+	</div>
+```
+
+	- [ ] document.querySelector("div.content")
+	- [X] document.querySelector("span.content")
+	- [ ] document.querySelector(".content")
+	- [ ] document.querySelector("div.span")
