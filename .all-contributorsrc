@@ -7345,6 +7345,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "MichaelWalker-git",
+      "name": "Michael Walker",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11032490?v=4",
+      "profile": "https://michaelwalker-git.github.io/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
