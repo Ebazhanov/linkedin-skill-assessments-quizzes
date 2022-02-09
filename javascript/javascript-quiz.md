@@ -1599,7 +1599,7 @@ const [n] = foo;
 console.log(n);
 
 - [ ] undefined
-- [X] 1
+- [x] 1
 - [ ] NaN
 - [ ] Nothing. This is not proper JavaScript syntax and will throw an error.
 
@@ -1639,12 +1639,12 @@ if(/* Snippet goes here */){
 
 ```html
 <h1 class="content">LinkedIn Learning</h1>
-	<div class="content">
-		<span class="content">The LinkedIn Learning library has great JavaScript courses!</span>
-	</div>
+<div class="content">
+  <span class="content">The LinkedIn Learning library has great JavaScript courses!</span>
+</div>
 ```
 
-	- [ ] document.querySelector("div.content")
-	- [X] document.querySelector("span.content")
-	- [ ] document.querySelector(".content")
-	- [ ] document.querySelector("div.span")
+    - [ ] document.querySelector("div.content")
+    - [X] document.querySelector("span.content")
+    - [ ] document.querySelector(".content")
+    - [ ] document.querySelector("div.span")

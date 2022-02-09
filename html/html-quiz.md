@@ -1588,7 +1588,7 @@ x<y&z>w
 
 - [ ] `<head class="Page Section Information" id="head"><title>Page Title</title></head>`
 - [ ] `<head><title>Page Title</title> <img src="favicon.icon" alt=""></head>`
-- [X] `<head><title>Page Title</title> <data value="email">email@example.com</data></head>`
+- [x] `<head><title>Page Title</title> <data value="email">email@example.com</data></head>`
 - [ ] `<head><title>Page Title</title><address>email@example.com</address></head>`
 
 `The <head> HTML element contains machine-readable information (metadata) about the document, like its title.The <data> tag is used to add a machine-readable translation of a given content.`
@@ -1597,7 +1597,8 @@ x<y&z>w
 
 #### Q103. You need to add comments to the company blog. What is the most semantic markup for a list of comments?
 
-- [X] A
+- [x] A
+
 ```HTML
 <aside>
   <h3>Comments</h3>
@@ -1607,6 +1608,7 @@ x<y&z>w
 ```
 
 - [ ] B
+
 ```HTML
 <div aria="dpub-comments">
   <h3>Comments</h3>
@@ -1616,6 +1618,7 @@ x<y&z>w
 ```
 
 - [ ] C
+
 ```HTML
 <aside>
   <h3>Comments</h3>
@@ -1633,5 +1636,6 @@ x<y&z>w
   <div typeof="comment"> Second comment.</div>
 </div>
 ```
+
 `The <article> HTML element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Example:a user-submitted comment.`
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)

@@ -830,12 +830,14 @@ echo "$var" | sed _____
 - [ ] sh command1; command2
 - [ ] { command1; command2; }
 - [ ] (( command1; command2 ))
-- [x] command1; command2 ) 
+- [x] command1; command2 )
 
 #### Q69. What are the results of the command with a user named jon?
-```bash 
+
+```bash
 echo 'Hello, $(whoami)!'
 ```
+
 - [ ] Hello, $(jon)!
 - [ ] Hello, jon!
 - [x] Hello, $(whoami)!

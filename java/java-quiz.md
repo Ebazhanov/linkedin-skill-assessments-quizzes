@@ -1715,17 +1715,17 @@ for (List list : myLists){
 #### Q123. What does this code print?
 
 ```java
-String a = "bikini"; 
-String b = new String("bikini"); 
-String c = new String("bikini"); 
-      
-System.out.println(a == b); 
+String a = "bikini";
+String b = new String("bikini");
+String c = new String("bikini");
+
+System.out.println(a == b);
 System.out.println(b == c);
 ```
 
 - [ ] true; false
 - [x] false; false
 - [ ] false; true
-- [ ] true; true 
+- [ ] true; true
 
 **Explanation:** `== operator` compares the object reference. `String a = "bikini"; String b = "bikini";` would result in True. Here new creates a new object, so false. Use `equals() method` to compare the content.
