@@ -564,3 +564,12 @@ console.log(person);
 - [ ] As the application code runs asynchronously within a single thread, the execution will block, accepting no more requests until the operation is completed.
 - [ ] As Node.js is asynchronous, this is handled by a threadpool and the performance will not notably degrade.
 - [ ] The current thread will block until the executon is completed and the operating system will spawn new threads to handle incoming requests. This can exhaust the number of allowed threads (255) and degrade performance over time.
+
+
+#### Q69. What is used for parsing and running Javascript in Node.js?
+
+- [ ] EventLoop
+- [ ] Libuv
+- [x] Google V8
+- [ ] Express.js
+
