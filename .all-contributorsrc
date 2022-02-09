@@ -7335,6 +7335,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "itware",
+      "name": "itware",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11639683?v=4",
+      "profile": "https://github.com/itware",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
