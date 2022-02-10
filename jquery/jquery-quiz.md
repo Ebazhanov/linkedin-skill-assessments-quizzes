@@ -964,9 +964,9 @@ $('.item').parents('.navigation').css('font-weight', 'bold');
 
 #### Q53. How can you ensure that some code executes only when a class `active` appears on an element?
 
-- [x] `$('.element').attr('class', 'active')`
+- [ ] `$('.element').attr('class', 'active')`
 - [ ] `$('.element').with('.active')`
-- [ ] `$('.element').hasClass('active')`
+- [x] `$('.element').hasClass('active')`
 - [ ] `$('.active').then()`
 
 #### Q54. jQuery has a main function for handling AJAX, and several shorthand function including `load()` that make calling that main function easier. Given this HTML snippet, how can you insert only the second snippet from the source.html file (`div#one`) into the `#load-me` div on-demand via AJAX?
@@ -1045,10 +1045,10 @@ function listResponder(evt) {
 }
 ```
 
-- [ ] `$('.clickable-list).click(listResponder);`
-- [x] `$('.clickable-list).on('click', 'li', listResponder);`
-- [ ] `$('.clickable-list).on('click, append', listResponder);`
-- [ ] `$('.clickable-list).each(function() { $(this).click(listResponder); });`
+- [ ] `$('.clickable-list').click(listResponder);`
+- [x] `$('.clickable-list').on('click', 'li', listResponder);`
+- [ ] `$('.clickable-list').on('click, append', listResponder);`
+- [ ] `$('.clickable-list').each(function() { $(this).click(listResponder); });`
 
 #### Q58. What is the difference between $('p').find('a') and $('p').children('a')?
 
@@ -1117,7 +1117,7 @@ $(document).trigger('myCustomEvent');
 ```
 
 - [ ] `Custom events are at least an order of magnitude faster than helper functions`
-- [x] `Custom events can be listened for and acted upon across one or more scripts without needing to keep helper funtions in scope`
+- [x] `Custom events can be listened for and acted upon across one or more scripts without needing to keep helper functions in scope`
 - [ ] `Handler functions for custom events are less likely to be mangled by minification and obfuscation build tools`
 - [ ] `It is easier to write documentation for custom events than it is for helper functions`
 
