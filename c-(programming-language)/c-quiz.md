@@ -606,3 +606,177 @@ main(){
 - [ ] M
 - [ ] H
 - [x] G
+
+#### Q44. Describe the relationship between lvalue and rvalue.
+
+- [ ] An lvalue may appear only on the left-hand side of an assignment; an rvalue may appear only on the right-hand side.
+- [ ] An lvalue may appear only on the left-hand side of an assignment; an rvalue may appear on either the left-hand or right-hand side.
+- [ ] An lvaue and an rvalue may appear on either left-hand or right-hand side of an assignment.
+- [x] An lvalue may appear on the left-hand or right-hand side of an assignment; an rvalue may appear only on the right-hand side.
+
+#### Q45. Which operator is used to access the address of a variable?
+
+- [ ] %
+- [ ] **
+- [ ] *
+- [x] &
+
+#### Q46. Which add function properly returns the updated value of result?
+
+- [x]
+
+```c
+void add (int a, int b, int *result)
+{
+    *result = a+b;
+}
+
+main()
+{
+    int a = 10;
+    int b = 20;
+    int result = 0;
+    
+    add(a,b,&result);
+}
+```
+
+- [ ]
+
+```c
+void add (int a, int b, int result)
+{
+    result = a+b;
+}
+
+main()
+{
+    int a = 10;
+    int b = 20;
+    int result = 0;
+    
+    add(a,b,result);
+}
+```
+
+- [ ]
+
+```c
+void add (int a, int b, int *result)
+{
+    result = a+b;
+}
+
+main()
+{
+    int a = 10;
+    int b = 20;
+    int result = 0;
+    
+    add(a,b,result);
+}
+```
+
+- [ ]
+
+```c
+void add (int *a, int *b, int *result)
+{
+    result = a+b;
+}
+
+main()
+{
+    int a = 10;
+    int b = 20;
+    int result = 0;
+    
+    add(*a,*b,*result);
+}
+```
+
+#### Q47. Consider the number of the Fibonacci series below 100: 0,1,1,2,3,5,8,13,21,34,55,89. Which piece of code outputs the sequence?
+
+- [ ]
+
+```c
+void fibonacci(int a, int b)
+{
+    int c = a+b;
+    
+    if(a>100)
+       return;
+       
+    printf("%d", a);
+    
+    fibonacci(a,b);
+}
+
+int main()
+{
+    fibonacci(0,1);
+}
+```
+
+- [ ]
+
+```c
+void fibonacci(int a, int b)
+{
+    int c = a+b;
+    
+    if(a>100)
+       return;
+       
+    printf("%d", b);
+    
+    fibonacci(a,c);
+}
+
+int main()
+{
+    fibonacci(0,1);
+}
+```
+
+- [x]
+
+```c
+void fibonacci(int a, int b)
+{
+    int c = a+b;
+    
+    if(a>100)
+       return;
+       
+    printf("%d", a);
+    
+    fibonacci(b,c);
+}
+
+int main()
+{
+    fibonacci(0,1);
+}
+```
+
+- [ ]
+
+```c
+void fibonacci(int a, int b)
+{
+    int c = a+b;
+    
+    if(a>100)
+       return;
+       
+    printf("%d", c);
+    
+    fibonacci(b,c);
+}
+
+int main()
+{
+    fibonacci(0,1);
+}
+```
