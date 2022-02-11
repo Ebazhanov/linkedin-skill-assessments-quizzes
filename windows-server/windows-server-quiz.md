@@ -244,8 +244,8 @@
 #### Q33. A domain GPO must apply to users based on the location of the computer to which they are logging in. You set up this ability by using which group policy feature?
 
 - [ ] inheritance
-- [x] administrative
-- [ ] loopback
+- [ ] administrative
+- [x] loopback
 - [ ] filter
 
 #### Q34. You are planning to install a SAN that will utilize iSCSI storage. You want to provide automatic discovery, management and configuration of iSCSI devices. After running the Get-WindowsFeature \* PowerShell command, which should you install?
