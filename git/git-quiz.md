@@ -817,3 +817,12 @@ Which of the following options is correct ?
 - [ ] It allows developers to interactively choose which files are committed and outputs the differences for review.
 
 [reference here](https://git-scm.com/docs/git-add#Documentation/git-add.txt--p)
+
+#### Q100. After checking out a specific commit, you receive a warning message indicating You are in 'detached HEAD' state. What is Git warning you of?
+  
+- [x] You are not working on the most recent commit of a branch.
+- [ ] A teammate has flagged the code with an issue.
+- [ ] The commit does not have a parent.
+- [ ] The branch has not been pushed to the remote repository.
+  
+[reference here](https://www.git-tower.com/learn/git/faq/detached-head-when-checkout-commit)
