@@ -409,7 +409,10 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [x] process
 - [ ] child_process
 
-**Explanation:** _process is an global object and act like a bridge, the others aren't (please see https://nodejs.org/api/globals.html or https://nodejs.org/api/process.html#process_process)._
+**Explanation:** \_process is an global object and act like a bridge, the others aren't
+
+1. [source](https://nodejs.org/api/globals.html)
+2. [source](https://nodejs.org/api/process.html#process_process)
 
 #### Q51. Which statement is true about Node.js and threads?
 

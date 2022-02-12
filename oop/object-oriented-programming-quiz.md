@@ -610,7 +610,7 @@ public class Honda extends Car{}
 
 - [x] overloading
 - [ ] inheritance
-- [ ] abstaction
+- [ ] abstraction
 - [ ] overriding
 
 #### Q78. What does a concrete class not have?
@@ -643,7 +643,7 @@ public class Honda extends Car{}
 
 #### Q82. What parameters are required to be passed to a class constructor?
 
-// Here they haven't mentioned any specific language so let's consider all languages.
+`Here they haven't mentioned any specific language so let's consider all languages.`
 
 - [ ] reference to subclass // References to subclass are never required as you can simply Initialize subclass & use their object.
 - [ ] reference to base class // References to the base class are not required in Java, Javascript & Python

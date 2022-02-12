@@ -59,7 +59,8 @@
 - [ ] slide titles
 - [ ] missing alt text
 - [x] grammar
-      [Source](https://support.microsoft.com/en-us/office/rules-for-the-accessibility-checker-651e08f2-0fc3-4e10-aaca-74b4a67101c1?ns=powerpnt&version=16&ui=en-us&rs=en-us&ad=us)
+
+[Source](https://support.microsoft.com/en-us/office/rules-for-the-accessibility-checker-651e08f2-0fc3-4e10-aaca-74b4a67101c1?ns=powerpnt&version=16&ui=en-us&rs=en-us&ad=us)
 
 #### Q9. How can you change the appearance of a table in one click?
 
@@ -393,9 +394,8 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] The second slide must have different objects that are in the same position as the objects on the first slide
 - [ ] The two slides must have at least one obiect in common that is in the same position on the second slide
 
-[Reference 1](https://support.microsoft.com/en-us/office/use-the-morph-transition-in-powerpoint-8dd1c7b2-b935-44f5-a74c-741d8d9244ea#:~:text=The%20Morph%20transition%20allows%20you%20to%20animate%20smooth,of%20things%E2%80%94text%2C%20shapes%2C%20pictures%2C%20SmartArt%20graphics%2C%20and%20WordArt.)
-
-[Reference 2](https://twist.learningguild.net/2019/03/morph-magic-for-incredible-effects-in-powerpoint-richard-goring/#:~:text=Morph%20recognizes%20any%20duplicate%20objects%20across%20two%20slides,make%20objects%20change%20size%2C%20or%20shape%2C%20or%20color.)
+1. [Reference](https://support.microsoft.com/en-us/office/use-the-morph-transition-in-powerpoint-8dd1c7b2-b935-44f5-a74c-741d8d9244ea#:~:text=The%20Morph%20transition%20allows%20you%20to%20animate%20smooth,of%20things%E2%80%94text%2C%20shapes%2C%20pictures%2C%20SmartArt%20graphics%2C%20and%20WordArt.)
+2. [Reference](https://twist.learningguild.net/2019/03/morph-magic-for-incredible-effects-in-powerpoint-richard-goring/#:~:text=Morph%20recognizes%20any%20duplicate%20objects%20across%20two%20slides,make%20objects%20change%20size%2C%20or%20shape%2C%20or%20color.)
 
 #### Q53. Why would you use the Rehearse Timings command?
 
@@ -449,9 +449,8 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] grammar
 - [ ] reading order
 
-[Reference 1](https://support.microsoft.com/en-us/office/rules-for-the-accessibility-checker-651e08f2-0fc3-4e10-aaca-74b4a67101c1)
-
-[Reference 2](https://webaim.org/resources/evaloffice/)
+1. [Reference](https://support.microsoft.com/en-us/office/rules-for-the-accessibility-checker-651e08f2-0fc3-4e10-aaca-74b4a67101c1)
+2. [Reference](https://webaim.org/resources/evaloffice/)
 
 #### Q59. What is the easiest way to change the appearance of a table?
 

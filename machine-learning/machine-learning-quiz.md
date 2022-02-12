@@ -474,7 +474,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] Retrain your model with smaller batch sizes.
 - [x] Include Asian faces in your training data and retrain your model.
 
-  `The answer is self-explanatory: if Asian users are the only group of people making the complaint, then the training data should have more Asian faces.`
+`The answer is self-explanatory: if Asian users are the only group of people making the complaint, then the training data should have more Asian faces.`
 
 #### Q64. You work for a website that helps match people up for lunch dates. The website boasts that it uses more than 500 predictors to find customers the perfect date, but many costumers complain that they get very few matches. What is a likely problem with your model?
 
@@ -483,9 +483,9 @@ Note: there are centres of clusters (C0, C1, C2).
 - [x] You are overfitting the model to the data.
 - [ ] Your machine is creating inaccurate clusters.
 
-  **Explanation**: // This question is very similar to Q49 but involves a polar opposite scenario.
+**Explanation**: // This question is very similar to Q49 but involves a polar opposite scenario.
 
-  `that answer somewhat vague and unsettled. Small number of matchings does not necessarily implies that the model overfits, especially given 500 (!) independent variables. To me, it sounds more reasonable that the threshold (matching) criterion might be too tight, thus allowing only a small number of matching to occur. So a solution can be either softening the threshold criterion or increasing the number of candidates.`
+`that answer somewhat vague and unsettled. Small number of matchings does not necessarily implies that the model overfits, especially given 500 (!) independent variables. To me, it sounds more reasonable that the threshold (matching) criterion might be too tight, thus allowing only a small number of matching to occur. So a solution can be either softening the threshold criterion or increasing the number of candidates.`
 
 #### Q65. (Mostly) whenever we see kernel visualizations online (or some other reference) we are actually seeing:
 

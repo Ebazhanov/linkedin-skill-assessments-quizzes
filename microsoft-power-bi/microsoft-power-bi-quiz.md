@@ -95,9 +95,11 @@
     D. Reorder the steps.
 
 - [ ] B, C, D
-- [x] A, B, C, D [proof link](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview)
+- [x] A, B, C, D
 - [ ] A, B, D
 - [ ] A, B, C
+
+[proof link](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview)
 
 #### Q12. After you enter text in the #### Q&A box or O&A visual, Power BI will `\_` your data to create a list of appropriate visualizations.
 
@@ -109,11 +111,12 @@
 #### Q13. You just deleted a dashboard in the Power BI service and want to get it back. What should you do?
 
 - [x] Press Ctrl+Z.
-      [proof link1](https://docs.microsoft.com/en-us/power-bi/visuals/service-tips-and-tricks-for-color-formatting)
-      [link2](https://www.edureka.co/community/26060/how-do-i-undo-something-in-power-bi)
 - [ ] Select Undo from the toolbar.
 - [ ] You cannot undo the deletion of a dashboard.
 - [ ] Recover it from the Recycle Bin.
+
+1. [proof link1](https://docs.microsoft.com/en-us/power-bi/visuals/service-tips-and-tricks-for-color-formatting)
+2. [link2](https://www.edureka.co/community/26060/how-do-i-undo-something-in-power-bi)
 
 #### Q14. You have a sales data source and want to relate the tables. The table that contains sales transactions is a **\_** table that contains product information is a \_ table .
 
@@ -151,10 +154,11 @@
 #### Q18. Formatting options within a visualization depend on what?
 
 - [x] the visualization you are formatting
-      [proof link](https://docs.microsoft.com/en-us/power-bi/visuals/service-getting-started-with-color-formatting-and-axis-properties)
 - [ ] the editor you use
 - [ ] the visualization group
 - [ ] your permissions
+
+[proof link](https://docs.microsoft.com/en-us/power-bi/visuals/service-getting-started-with-color-formatting-and-axis-properties)
 
 #### Q19. What tool can you use in Power BI Desktop to reduce data?
 
@@ -368,7 +372,7 @@ D. They must have no duplicate data rows.
 
 #### Q48. What is the purpose of this code?
 
-// ProductCount = COUNT(Products[ProductID])
+`ProductCount = COUNT(Products[ProductID])`
 
 - [x] It is part of the documentation
 - [ ] It creates and formats a measure called ProductCount
