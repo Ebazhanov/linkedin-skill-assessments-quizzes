@@ -1102,7 +1102,7 @@ public class Duck {
 - [ ] `.`
 - [ ] `-`
 
-- [Reference](https://www.techiedelight.com/concatenate-two-strings-java/)
+[Reference](https://www.techiedelight.com/concatenate-two-strings-java/)
 
 #### Q78. How many times does this loop print "exterminate"?
 
@@ -1250,9 +1250,9 @@ class TaxCalculator {
 
 **Note:** This code won't compile, broken code sample
 
-- [Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
+[Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
 
-- [Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
+[Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
 
 #### Q89. What is the output of this code?
 

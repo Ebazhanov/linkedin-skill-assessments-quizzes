@@ -334,17 +334,17 @@ main() {
 char *string[20] = { "one", "two", "three"};
 ```
 
-- [ ] printf("%c", string[1][2]);
-- [x] printf("%s", string[1][2]);
-- [ ] printf("%s", string[1]);
-- [ ] printf(string[1]);
+- [ ] `printf("%c", string[1][2]);`
+- [x] `printf("%s", string[1][2]);`
+- [ ] `printf("%s", string[1]);`
+- [ ] `printf(string[1]);`
 
 #### Q25. What is the expression player->name equivalent to?
 
-- [ ] player.name
-- [x] (\*player).name
-- [ ] \*player.name
-- [ ] player.\*name
+- [ ] `player.name`
+- [x] `(\*player).name`
+- [ ] `\*player.name`
+- [ ] `player.\*name`
 
 #### Q26. Which program will compile and run without errors?
 

@@ -532,8 +532,10 @@
 
 - [ ] custom channels
 - [ ] advanced filters
-- [x] content grouping <= [not sure](https://support.google.com/analytics/answer/2853423?hl=en)
+- [x] content grouping
 - [ ] custom segments
+
+[answer](https://support.google.com/analytics/answer/2853423?hl=en)
 
 #### Q75. How would you add a secondary dimension to a report?
 

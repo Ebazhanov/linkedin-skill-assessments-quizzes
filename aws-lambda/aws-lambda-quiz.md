@@ -147,7 +147,7 @@
 - [ ] `aws:demo;aws:demo`
 - [ ] `aws:demo;aws:DEMO`
 
-#### Q22. Outbound connections from Lambdas must be `___`\_.
+#### Q22. Outbound connections from Lambdas must be `_`.
 
 - [ ] `neither of these answers`
 - [ ] `UDP/IP`

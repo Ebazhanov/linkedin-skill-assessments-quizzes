@@ -436,7 +436,8 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 - [ ] It designates a shift of topic at the section level.
 
 This is a confusing question and there can be an arguments for both the second and the third options being correct.
-From [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HTML `<hr>` element represents a thematic break between paragraph-level elements. Historically, this has been presented as a horizontal rule or line. While it may still be displayed as a horizontal rule in visual browsers, this element is now defined in semantic terms, rather than presentational terms, so if you wish to draw a horizontal line, you should do so using appropriate CSS.
+
+[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr): The HTML `<hr>` element represents a thematic break between paragraph-level elements. Historically, this has been presented as a horizontal rule or line. While it may still be displayed as a horizontal rule in visual browsers, this element is now defined in semantic terms, rather than presentational terms, so if you wish to draw a horizontal line, you should do so using appropriate CSS.
 
 #### Q28. What should fill the two blanks in the HTML code below?
 
