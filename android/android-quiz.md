@@ -962,3 +962,12 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 
 - [ ] D
       ![img](https://i.imgur.com/1QBrTwR.png)
+
+#### Q63. What is the current recommended way to handle long-running background tasks?
+
+- [x] WorkManager
+- [ ] AsyncTask
+- [ ] IntentService
+- [ ] Thread
+
+[Reference](https://developer.android.com/guide/background)

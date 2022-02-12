@@ -616,10 +616,10 @@ main(){
 
 #### Q45. Which operator is used to access the address of a variable?
 
-- [ ] %
-- [ ] **
-- [ ] *
-- [x] &
+- [ ] `%`
+- [ ] `**`
+- [ ] `*`
+- [x] `&`
 
 #### Q46. Which add function properly returns the updated value of result?
 
@@ -636,7 +636,7 @@ main()
     int a = 10;
     int b = 20;
     int result = 0;
-    
+
     add(a,b,&result);
 }
 ```
@@ -654,7 +654,7 @@ main()
     int a = 10;
     int b = 20;
     int result = 0;
-    
+
     add(a,b,result);
 }
 ```
@@ -672,7 +672,7 @@ main()
     int a = 10;
     int b = 20;
     int result = 0;
-    
+
     add(a,b,result);
 }
 ```
@@ -690,7 +690,7 @@ main()
     int a = 10;
     int b = 20;
     int result = 0;
-    
+
     add(*a,*b,*result);
 }
 ```
@@ -703,12 +703,12 @@ main()
 void fibonacci(int a, int b)
 {
     int c = a+b;
-    
+
     if(a>100)
        return;
-       
+
     printf("%d", a);
-    
+
     fibonacci(a,b);
 }
 
@@ -724,12 +724,12 @@ int main()
 void fibonacci(int a, int b)
 {
     int c = a+b;
-    
+
     if(a>100)
        return;
-       
+
     printf("%d", b);
-    
+
     fibonacci(a,c);
 }
 
@@ -745,12 +745,12 @@ int main()
 void fibonacci(int a, int b)
 {
     int c = a+b;
-    
+
     if(a>100)
        return;
-       
+
     printf("%d", a);
-    
+
     fibonacci(b,c);
 }
 
@@ -766,12 +766,12 @@ int main()
 void fibonacci(int a, int b)
 {
     int c = a+b;
-    
+
     if(a>100)
        return;
-       
+
     printf("%d", c);
-    
+
     fibonacci(b,c);
 }
 

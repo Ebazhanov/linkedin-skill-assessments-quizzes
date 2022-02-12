@@ -512,14 +512,14 @@ Note: count() works with find(...) but length works with distinct
 
 [Section blog](https://www.section.io/engineering-education/handling-json-in-mongodb/)
 
-### Q73. From the MongoDB shell, how do you display all of a database's memory usage?
+#### Q73. From the MongoDB shell, how do you display all of a database's memory usage?
 
 - [ ] db.size()
 - [ ] db.info()
 - [ ] db.memory()
 - [ ] db.stats()
 
-### Q74. How do you create a new MongoDB user?
+#### Q74. How do you create a new MongoDB user?
 
 - [x] db.createUser({})
 - [ ] db.insert({user: 1})
@@ -528,7 +528,7 @@ Note: count() works with find(...) but length works with distinct
 
 [MongoDB documentation](https://docs.mongodb.com/manual/tutorial/create-users/)
 
-### Q75. What is the internal data structure of a MongoDB document?
+#### Q75. What is the internal data structure of a MongoDB document?
 
 - [x] JSON (JavaScript Object Notation)
 - [ ] BSON (Binary JSON)
@@ -537,7 +537,7 @@ Note: count() works with find(...) but length works with distinct
 
 [MongoDB documentation](https://docs.mongodb.com/guides/server/introduction/)
 
-### Q76. Which projection shows only the FirstName and lastName fields of a document in the customers collection?
+#### Q76. Which projection shows only the FirstName and lastName fields of a document in the customers collection?
 
 - [ ] `db.customers.find({}, {firstName: 1, lastName: 1})`
 - [x] `db.customers.find({}, {_id:0, firstName: 1, lastName: 1})`
