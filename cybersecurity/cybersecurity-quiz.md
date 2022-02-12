@@ -124,7 +124,7 @@
 
 **Source**: [screenshot](https://i.imgur.com/fsgkfoS.png) of LinkedIn assessment practice mode question.
 
-#### Q17. \_ validates the integrity of data files.
+#### Q17. **\_** validates the integrity of data files.
 
 - [ ] Compression
 - [x] Hashing
@@ -223,7 +223,8 @@
 - [ ] firewall
 - [x] protocol analyzer
 
-**Explaination**: A `protocol analyzer` is a tool used to capture and analyze signals and data traffic over a communication channel. [WireShark](https://www.wireshark.org) is a protocol analyzer.
+**Explaination**: A `protocol analyzer` is a tool used to capture and analyze signals and data traffic over a communication channel. 
+[WireShark](https://www.wireshark.org) is a protocol analyzer.
 
 #### Q30. An attacker has discovered that they can deduce a sensitive piece of confidential information by analyzing multiple pieces of less sensative public data.
 
@@ -618,3 +619,44 @@ autopsy is for forensic analysis
 - [ ] GDPR
 - [ ] PCI-DSS
 - [x] HIPAA
+
+#### Q84. Your organization services customer orders with a custom ordering system developed in-house. You are responsible for recommending a cloud model to meet the following requirements:?
+
+- [ ] Control of security required for regulatory compliance
+- [ ] Legacy application and database support
+- [ ] Scalability to meet seasonal increases in demand
+- [ ]
+
+#### Q85. What is the difference between DevOps and DevSecOps?
+
+- [ ] DevSecOps requires the inclusion of cybersecurity engineers in the CI/CD process of DevOps.
+- [ ] DevSecOps slows down the CI/CD process of DevOps.
+- [ ] DevSecOps places security controls in the CI/CD process of DevOps.
+- [ ] DevSecOps lets cybersecurity engineers dictate the CI/CD process of DevOps.
+
+#### Q86. When does static application security testing require access to source code?
+
+- [ ] always
+- [ ] only when assessing regulatory compliance
+- [ ] only if following the Agile model
+- [ ] never
+
+#### Q87. Your organization service customer orders with a custom ordering system developed in-hose. You are responsible for recommending a cloud model to meet the following requirements:
+
+- Control of security required for regulatory compliance
+- Legacy application and dtatbase support
+- Scalability to meet seasonal increases in demand
+
+Which cloud model is the best option for these requirements?
+
+- [ ] government cloud 
+- [ ] public cloud 
+- [ ] hybrid cloud
+- [ ] private cloud
+
+#### Q88. You have just conducted a port scan of a network. There is no well-known port active. How do you find a webserver running on a host, which uses a random port number?
+
+- [ ] Give up on the current target network and move on to the next one.
+- [ ] Switch to another network scanning tool. Resort to more resource-intensive probing, like launching random attacks to all open ports.
+- [ ] Turn on the stealth mode in your network scanning tool. Check whether you missed any other active ports associated with web servers.
+- [ ] Turn on additional options in your network scanning tool to further investigate the details (type and version) of applications running on the rest of the active ports.
