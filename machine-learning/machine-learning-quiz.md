@@ -699,7 +699,7 @@ Note: there are centres of clusters (C0, C1, C2).
 
 #### Q91. What is conditional probability?
 
-- [ ] the probability that doing one thing has an impact on another thing
+- [x] the probability that doing one thing has an impact on another thing
 - [ ] the probability that certain conditions are met
 - [ ] the probability that, based on certain conditions, something will always be incorrect
 - [ ] the probability of something being the correct answer
