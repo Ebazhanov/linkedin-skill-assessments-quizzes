@@ -56,8 +56,7 @@
 - [ ] to visualize queue length
 - [ ] to fulfill a commitment to quality
 
-`Weighted Shortest Job First (WSJF) is a prioritization model used to sequence jobs (eg., Features, Capabilities, and Epics) to produce the maximum economic benefit. In a flow-based system, priorities are updated continuously to provide the best economic outcomes. Job sequencing, rather than individual job return on investment, produces the best result. To that end, WSJF is used to prioritize backlogs by calculating the relative CoD and job size (a proxy for the duration).`
-[(Source)](https://www.scaledagileframework.com/wsjf/)
+[Source](https://www.scaledagileframework.com/wsjf/) `Weighted Shortest Job First (WSJF) is a prioritization model used to sequence jobs (eg., Features, Capabilities, and Epics) to produce the maximum economic benefit. In a flow-based system, priorities are updated continuously to provide the best economic outcomes. Job sequencing, rather than individual job return on investment, produces the best result. To that end, WSJF is used to prioritize backlogs by calculating the relative CoD and job size (a proxy for the duration).`
 
 #### Q9. You have classified the features in your backlog according to risk and value. Which features should the development team work on first?
 
@@ -66,7 +65,7 @@
 - [ ] high-value and low-risk
 - [ ] low-value and low-risk
 
-`It is suggested that high business value, high-risk items are worked on first. While that may seem counterintuitive, the earlier this work is done, the sooner the team will move to mitigate the issues and unknowns—leading to a higher quality product. If there's a failure, it will occur early and relatively inexpensively.` [(Source)](https://agilescrumguide.com/blog/files/tag-product-backlog---business-value-and-risk.html)
+[Source](https://agilescrumguide.com/blog/files/tag-product-backlog---business-value-and-risk.html) `It is suggested that high business value, high-risk items are worked on first. While that may seem counterintuitive, the earlier this work is done, the sooner the team will move to mitigate the issues and unknowns—leading to a higher quality product. If there's a failure, it will occur early and relatively inexpensively.`
 
 #### Q10. In the Scaled Agile Framework, what is the role of Enablers?
 
@@ -138,7 +137,7 @@
 - [ ] A Kanban does not use a Definition of Done.
 - [ ] A Kanban shows the status of the work items.
 
-`Explicit rule applies to scrum team's task board: tasks cannot be added to the scrum board in the middle of a sprint.` [(Source)](https://www.lucidchart.com/blog/kanban-vs-scrum#:~:text=Kanban%20vs%20scrum)
+[Source](https://www.lucidchart.com/blog/kanban-vs-scrum#:~:text=Kanban%20vs%20scrum) `Explicit rule applies to scrum team's task board: tasks cannot be added to the scrum board in the middle of a sprint.`
 
 #### Q20. The team complains that "things have been falling through the cracks lately." What should you do?
 
@@ -479,7 +478,7 @@
 - [ ] Velocity Confirmation
 
 `Sprint Retrospective: Reflect on the previous sprint, discuss what’s working well, what could be improved, and how to improve it to be more productive.`
-`Sprint Review: Discuss what has been accomplished during the sprint and whether the sprint goal has been met.` [(Source)](https://startinfinity.com/product-management-framework/scrum-sprint/sprint-review-vs-sprint-retrospective)
+[Source](https://startinfinity.com/product-management-framework/scrum-sprint/sprint-review-vs-sprint-retrospective) `Sprint Review: Discuss what has been accomplished during the sprint and whether the sprint goal has been met.`
 
 #### Q68. Which choice best describes an Agile Release Train (ART)?
 
@@ -516,7 +515,7 @@
 - [ ] The stakeholders are ready to discuss their requirements for story.
 - [ ] The team has completed sprint 0 and is ready to work.
 
-`Definition of Ready means that stories must be immediately actionable. The Team must be able to determine what needs to be done and the amount of work required to complete the User Story.` [(Source)](https://www.scruminc.com/definition-of-ready/)
+[Source](https://www.scruminc.com/definition-of-ready/) `Definition of Ready means that stories must be immediately actionable. The Team must be able to determine what needs to be done and the amount of work required to complete the User Story.`
 
 #### Q73. Which is NOT a principle of the Scaled Agile Framework?
 
@@ -560,7 +559,7 @@
 - [ ] Courage
 - [ ] Sustainable pace
 
-`Two pillars are (1) Continuous Improvement, and (2) Respect for People.` [(Source)](https://www.planview.com/resources/guide/lean-principles-101/what-is-lean/#:~:text=The%20Pillars%20of%20Lean)
+[Source](https://www.planview.com/resources/guide/lean-principles-101/what-is-lean/#:~:text=The%20Pillars%20of%20Lean) `Two pillars are (1) Continuous Improvement, and (2) Respect for People.`
 
 #### Q79. Which statement best describes Agile, Lean, and Six Sigma?
 
@@ -597,7 +596,7 @@
 - [ ] The development team's strengths and weaknesses.
 - [x] The business context for the product.
 
-`A Scrum Team has 3 roles - Product Owner, Scrum Master and Developers. All 3 roles generate Value in their own contexts; however, it is the Product Owner who maximizes the Value from a product or business context.` [(Source)](https://premieragile.com/how-does-a-product-owner-measure-value)
+[Source](https://premieragile.com/how-does-a-product-owner-measure-value) `A Scrum Team has 3 roles - Product Owner, Scrum Master and Developers. All 3 roles generate Value in their own contexts; however, it is the Product Owner who maximizes the Value from a product or business context.`
 
 #### Q84. Which statement about the Agile Manifesto is true?
 

@@ -541,8 +541,7 @@
 - [x] Turn off the **Print** option for the layer.
 - [ ] Lock the layer.
 
-**Explanation:**
-From Adobe Help Center: [Make artwork nonprintable](https://helpx.adobe.com/illustrator/using/setting-documents-printing.html)
+[Make artwork nonprintable](https://helpx.adobe.com/illustrator/using/setting-documents-printing.html)
 
 #### Q74. If you had to send a file to a colleague, how could you collect everything needed to work on it, including any non-Adobe fonts and linked images?
 
@@ -551,8 +550,7 @@ From Adobe Help Center: [Make artwork nonprintable](https://helpx.adobe.com/illu
 - [x] Use the **Package** command.
 - [ ] Select **Select All** and then click the **Add Content** button in the **Libraries** panel.
 
-**Explanation:**
-From Adobe Help Center: [Share artwork](https://helpx.adobe.com/illustrator/how-to/sharing-basics.html)
+[Share artwork](https://helpx.adobe.com/illustrator/how-to/sharing-basics.html)
 
 #### Q75. When working with a two-point perspective grid, which setting in the **Define Perspective Grid** dialog box do you use to change the size of grid cells so you can draw and move objects with more precision?
 
@@ -563,12 +561,11 @@ From Adobe Help Center: [Share artwork](https://helpx.adobe.com/illustrator/how-
 
 #### Q76. Which option do you use to create the stroke shown below?
 
-<img width="400" alt="011" src="https://user-images.githubusercontent.com/13102859/135642887-d7dc854e-0eab-42cc-922e-1f3c04ce55c3.png">
+`<img width="400" alt="011" src="https://user-images.githubusercontent.com/13102859/135642887-d7dc854e-0eab-42cc-922e-1f3c04ce55c3.png">`
 
 - [ ] Round Join
 - [ ] Projecting Cap
 - [x] Round Cap
 - [ ] Align Stroke to Outside
 
-**Explanation:**
-From Youtube Channel: [How to Round End of Path (Line) in Illustrator](https://www.youtube.com/watch?v=UCQb-JTRIm4&t=92s)
+[How to Round End of Path (Line) in Illustrator](https://www.youtube.com/watch?v=UCQb-JTRIm4&t=92s)
