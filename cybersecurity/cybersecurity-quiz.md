@@ -223,7 +223,7 @@
 - [ ] firewall
 - [x] protocol analyzer
 
-**Explaination**: A `protocol analyzer` is a tool used to capture and analyze signals and data traffic over a communication channel. 
+**Explaination**: A `protocol analyzer` is a tool used to capture and analyze signals and data traffic over a communication channel.
 [WireShark](https://www.wireshark.org) is a protocol analyzer.
 
 #### Q30. An attacker has discovered that they can deduce a sensitive piece of confidential information by analyzing multiple pieces of less sensative public data.
@@ -649,8 +649,8 @@ autopsy is for forensic analysis
 
 Which cloud model is the best option for these requirements?
 
-- [ ] government cloud 
-- [ ] public cloud 
+- [ ] government cloud
+- [ ] public cloud
 - [ ] hybrid cloud
 - [ ] private cloud
 

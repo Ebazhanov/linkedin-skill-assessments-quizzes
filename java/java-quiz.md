@@ -1723,7 +1723,7 @@ System.out.println(b == c);
 ```java
 class Main {
 	public static void main(String[] args) {
-		
+
 		List<string> list = new ArrayList<String>(Arrays.asList("a","b","c"));
 
 		for (String value : list) {

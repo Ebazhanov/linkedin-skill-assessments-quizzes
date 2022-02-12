@@ -617,4 +617,3 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] Draw tools were used in these areas.
 - [ ] Track Changes has been disabled.
 - [ ] Comments were added to these areas.
-
