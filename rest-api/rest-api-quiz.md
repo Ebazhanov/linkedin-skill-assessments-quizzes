@@ -63,7 +63,7 @@
 - [ ] `WSDL`
 - [ ] `OAuth`
 
-**Explanation:** [OpenAPI Specification](https://swagger.io/specification/)
+[OpenAPI Specification](https://swagger.io/specification/)
 
 #### Q10. Which HTTP verb is normally used to update or create a resource in an API?
 
@@ -72,7 +72,7 @@
 - [x] `POST`
 - [ ] `CREATE`
 
-**Explanation:** [HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+[HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 
 #### Q11. What is one benefit of server-side caching in APIs?
 
@@ -88,7 +88,7 @@
 - [ ] `406 Not Acceptable`
 - [x] `405 Method Not Allowed`
 
-**Explanation:** [Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
+[Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
 
 #### Q13. What is OpenID Connect?
 
@@ -97,7 +97,7 @@
 - [ ] `a modern replacement for API keys`
 - [ ] `an SSO competitor for OAuth 2.0`
 
-**Explanation:** [What is OpenID Connect?](https://openid.net/connect/)
+[What is OpenID Connect?](https://openid.net/connect/)
 
 #### Q14. What is one benefit of GraphQl over REST approaches?
 
@@ -106,7 +106,7 @@
 - [ ] `compatible with more gateways`
 - [ ] `more secure by default`
 
-**Explanation:** [GraphQL vs. REST](https://www.apollographql.com/blog/graphql/basics/graphql-vs-rest/)
+[GraphQL vs. REST](https://www.apollographql.com/blog/graphql/basics/graphql-vs-rest/)
 
 #### Q15. Which REST constraint specifies that there should be no shared context?
 
@@ -138,7 +138,7 @@
 - [x] `A token is scoped to the use case.`
 - [ ] `A token can be shared between systems.`
 
-**Explanation:** [How to easily secure your APIs with API keys and OAuth](https://apifriends.com/api-security/api-keys-oauth/)
+[How to easily secure your APIs with API keys and OAuth](https://apifriends.com/api-security/api-keys-oauth/)
 
 #### Q19. The ability to execute the same API request over and over again without changing the resource's state is an example of \_.
 
@@ -168,7 +168,7 @@
 - [ ] `claim`
 - [ ] `back channel`
 
-**Explanation:** [OAuth Scopes](https://oauth.net/2/scope/)
+[OAuth Scopes](https://oauth.net/2/scope/)
 
 #### Q23. What additional type of token would you see when using OpenID Connect?
 
@@ -286,7 +286,7 @@
 - [ ] to keep a web session active
 - [x] to retrieve an access token
 
-**Explanation:** [Understanding Refresh Tokens](https://auth0.com/learn/refresh-tokens/)
+[Understanding Refresh Tokens](https://auth0.com/learn/refresh-tokens/)
 
 #### Q39. What is Time to First Hello World?
 
@@ -351,7 +351,7 @@
 - [x] `401`
 - [ ] `405`
 
-**Explanation:** [Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
+[Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
 
 #### Q48. Which is a benefit of using an API gateway?
 
@@ -381,7 +381,7 @@
 - [ ] `Expires: 1 January 2020`
 - [ ] `Cache-Expires: max-age=60`
 
-**Explanation:** [Cache Control Header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
+[Cache Control Header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
 
 #### Q52. What is the concept that allows an API client to explore an API via links embedded in payloads?
 
@@ -397,7 +397,7 @@
 - [ ] `204`
 - [ ] `202`
 
-**Explanation:** [Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
+[Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
 
 #### Q54. Which is an example of Code on Demand?
 
@@ -406,7 +406,7 @@
 - [ ] Serverless
 - [x] JavaScript on a webpage
 
-**Explanation:** [Code on Demand](https://en.wikipedia.org/wiki/Code_on_demand)
+[Code on Demand](https://en.wikipedia.org/wiki/Code_on_demand)
 
 #### Q55. Which URL pattern should you follow for accessing a subresource attached to a specific resource?
 
@@ -415,7 +415,7 @@
 - [x] /companies/{companyId}/employees/{employeeId}
 - [ ] /companies/{companyId}/employee/{employeeId}
 
-**Explanation:** [Resource Naming](https://restfulapi.net/resource-naming/)
+[Resource Naming](https://restfulapi.net/resource-naming/)
 
 #### Q56. Which REST constraint essentially prohibits the use of cookies?
 
@@ -438,7 +438,7 @@
 - [ ] PUT
 - [x] POST
 
-**Explanation:** [Idempotency](https://restfulapi.net/idempotent-rest-apis/)
+[Idempotency](https://restfulapi.net/idempotent-rest-apis/)
 
 #### Q59. Which REST constraint specifies that each request should stand on its own and not have a specific required order?
 
@@ -447,7 +447,7 @@
 - [x] Stateless
 - [ ] Client-Server
 
-**Explanation:** [REST Architectural Constraints](https://restfulapi.net/rest-architectural-constraints/)
+[REST Architectural Constraints](https://restfulapi.net/rest-architectural-constraints/)
 
 #### Q60. When you get a 429 code, what should you do next?
 
@@ -455,3 +455,10 @@
 - [ ] Check the API uptime status.
 - [x] Slow down your requests.
 - [ ] Check you API key.
+
+#### Q61. When exploring record sets, what is the best approach for pagination?
+
+- [ ] date-based filtering
+- [x] next/previous cursors
+- [ ] page size and filters
+- [ ] database IDs
