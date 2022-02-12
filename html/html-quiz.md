@@ -1428,14 +1428,11 @@ As Steve Krug once said, happy talk must die.
 
 #### Q89. Which is the best markup to produce this text?
 
-x<y&z>w
+`x<y&z>w`
 
 - [ ] `<p>x<y&z>w</p>`
-
 - [ ] `<p>x\<y&z\>w</p>`
-
 - [ ] `<p>x<<y&&z>>w`
-
 - [ ] `<p>x<y&z>w</p>`
 
 `It's too strange question because all of that methods doesn't work. The good method is &amp, &lt, &gt using.`
@@ -1448,11 +1445,8 @@ x<y&z>w
 ```
 
 - [ ] The `<label>` and `<input>` should be nested inside of a `<fieldset>` element.
-
 - [ ] **"address"** is not a valid value for the attribute **name** on an `<input>` element.
-
 - [ ] The `<label>` element is missing an **id** set to "address-input".
-
 - [x] The `<label>` element is missing a **for** attribute set to "address-input".
 
 #### Q91. What is the default method for form submission?
