@@ -7345,6 +7345,46 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "MichaelWalker-git",
+      "name": "Michael Walker",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11032490?v=4",
+      "profile": "https://michaelwalker-git.github.io/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "tomjacobchirayil",
+      "name": "Tom Jacob Chirayil",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49261263?v=4",
+      "profile": "https://github.com/tomjacobchirayil",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "i-sachinkumar",
+      "name": "Sachin Kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81405044?v=4",
+      "profile": "http://www.linkedin.com/in/ikrsachin",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "adi-ray",
+      "name": "adi-ray",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96347576?v=4",
+      "profile": "https://github.com/adi-ray",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
