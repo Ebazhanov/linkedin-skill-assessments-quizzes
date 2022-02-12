@@ -144,12 +144,12 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 
 #### Q19. What character class is equal to this set?
 
-[0-9]
+`[0-9]`
 
-- [ ] [[:alnum:]]
-- [x] [[:digit:]]
-- [ ] [[:alpha:]]
-- [ ] [[:num:]]
+- [ ] `[[:alnum:]]`
+- [x] `[[:digit:]]`
+- [ ] `[[:alpha:]]`
+- [ ] `[[:num:]]`
 
 #### Q20. When archiving files, which command will preserve all file attributes including ACLs and SELinux security context?
 
@@ -174,7 +174,7 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 
 #### Q23. When would this system cron job run its task?
 
-0 1 \* \* \*
+`0 1 \* \* \*`
 
 - [ ] every minute of the hour
 - [ ] every hour of every day
@@ -329,10 +329,10 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 
 #### Q41. To search from the current cursor position up to the beginning of the file using VIM, type \_ and then the search criteria.
 
-- [x] ?
-- [ ] \
-- [ ] /
-- [ ] /search
+- [x] `?`
+- [ ] `\`
+- [ ] `/`
+- [ ] `/search`
 
 #### Q42. What is the job of the NetworkManager daemon?
 
@@ -433,8 +433,7 @@ find / -size -10K -exec ls -l {} \;
 - [ ] enter the sudo user's password
 - [ ] change to the root group
 
-**Reference:**
-From docs: [A Cloud Guru's Blog](https://acloudguru.com/blog/engineering/linux-commands-for-beginners-sudo#:~:text=Sudo%20asks%20for%20your%20user%20password.%C2%A0%20Note%20that%20it%20is%20asking%20for%20your%20password%2C%20not%20the%20root%20password.)
+[A Cloud Guru's Blog](https://acloudguru.com/blog/engineering/linux-commands-for-beginners-sudo#:~:text=Sudo%20asks%20for%20your%20user%20password.%C2%A0%20Note%20that%20it%20is%20asking%20for%20your%20password%2C%20not%20the%20root%20password.)
 
 #### Q55. When would this system cron job run its task?
 
@@ -503,7 +502,7 @@ fi
 - [ ] There are no issues with referring to partitions by their partition path.
 - [ ] It is more difficult identifying mounted devices by partition path.
 
-isse letter drift problem, mentionned here https://access.redhat.com/discussions/6004221
+[Reference](https://access.redhat.com/discussions/6004221)
 
 #### Q62. Which option would you choose to force grep to use a basic regular expression (BRE)?
 
@@ -512,7 +511,7 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
 - [ ] grep -e
 - [x] grep -G
 
-[Reference] Man page of grep command.
+**Explanation**: Man page of grep command.
 
 #### Q63. An rsyslogd filter determines which items in a log file to act on. What is it made up of?
 
@@ -663,3 +662,10 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] EREs support occurrence operators.
 - [ ] ERE's support alternation.
 - [ ] only the syntax differs.
+
+### Q81. What is the difference between reading the list of disk partitions from `/proc/partitions` and getting it using `fdisk -l`?
+
+- [ ] `/proc/partitions` represents the disk partition table more accurately than `fdisk -l`
+- [ ] `/proc/partitions` shows only mounted drives. `fdisk -l` shows all drivers.
+- [ ] There is no difference between the two, and both lists contain the same data.
+- [ ] `/proc/partitions` is the kernel's list of partitions held in ram. `fdisk -l` reads the partition table from the drive itself.
