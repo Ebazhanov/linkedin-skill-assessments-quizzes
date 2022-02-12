@@ -196,13 +196,9 @@
 - [ ] Mobile App campaign
 - [ ] download extension
 
-[Source: LinkedIn Assessment Practice Mode](https://i.imgur.com/qlKN9SU.png)
-
 #### Q29. Which solution allows you to show ads in Google search results, only if the user has previously visited your website?
 
 - [ ] MDC
 - [ ] ECPC
 - [x] RLSA
 - [ ] Target ROAS
-
-[Source: LinkedIn Assessment Practice Mode](https://i.imgur.com/9FToRjW.png)

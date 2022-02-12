@@ -233,8 +233,8 @@ v.write_all(&b.to_string().as_bytes())?;
 c.encode_utf8(&mut v);
 ```
 
-[Answered in rust user forum](https://users.rust-lang.org/t/formatting-and-writing-to-a-file-without-malloc-or-locks/52295/9)
-[reference](https://doc.rust-lang.org/std/macro.write.html)
+1. [Answered in rust user forum](https://users.rust-lang.org/t/formatting-and-writing-to-a-file-without-malloc-or-locks/52295/9)
+2. [reference](https://doc.rust-lang.org/std/macro.write.html)
 
 #### Q18. Does the `main` function compile? If so, why? If not, what do you need to change?
 

@@ -470,8 +470,6 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 - [ ] toes:feet
 - [ ] rock:stone
 
-[Source: LinkedIn assessment practice mode](https://i.imgur.com/xUCuxms.png)
-
 #### Q64. Which statements best describe the Gang of Four design patterns called Memento and Observer?
 
 - [ ] Memento notifies multiple classes of changes. Observer captures and restores an object's internal state.

@@ -117,16 +117,12 @@ A rainbow table attack is a more efficient and effective way of cracking many ha
 - [x] availability
 - [ ] confidentiality
 
-[screenshot](https://i.imgur.com/IeGShfi.png) of LinkedIn assessment practice mode question.
-
 #### Q16. You need to recommend a solution to automatically assess your cloud-hosted VMs against CIS benchmarks to identify deviations from security best practices. What type of solution should you recommend?
 
 - [x] Cloud Security Posture Management (CSPM)
 - [ ] Intrusion Detection and Prevention System (IDPS)
 - [ ] Cloud Workload Protection Platforms (CWPP)
 - [ ] Cloud Access Security Brokers (CASBs)
-
-[screenshot](https://i.imgur.com/fsgkfoS.png) of LinkedIn assessment practice mode question.
 
 #### Q17. **\_** validates the integrity of data files.
 

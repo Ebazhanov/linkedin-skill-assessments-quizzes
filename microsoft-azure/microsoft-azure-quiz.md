@@ -415,8 +415,6 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 - [ ] asynchronous
 - [x] in
 
-[Source: LinkedIn practice mode](https://i.imgur.com/tn3RrVW.png)
-
 #### Q55. You are selecting a cloud messaging solution for your multimedia news app. The app routes news items to the appropriate services for processing and delivery to subscribers. Requirements for the solution are as follows: Events should be routed to the appropriate service to process event; events must be routed to multiple services when necessary; and only relevant events should be routed to a service for processing. Which solution should you use?
 
 - [ ] Event Grid
