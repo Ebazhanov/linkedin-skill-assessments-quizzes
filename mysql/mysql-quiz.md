@@ -860,3 +860,19 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] GETDATE()
 - [x] CURDATE()
 - [ ] CURRENT()
+
+#### Q96. What is the correct usage of ENUM in MySQL?
+
+- [ ] `Create table size (ENUM ('Small','Medium','Large'));`
+- [ ] `Create table ENUM (name ('Small','Medium','Large'));`
+- [ ] `Create table size (name: ENUM['Small','Medium','Large']);`
+- [x] `Create table size (name ENUM('Small','Medium','Large'));`
+
+#### Q97. You are working with the tables as shown in this diagram. You need to make sure that any record added to the purchases table consists of a customerID, which already exists in the customers table, and a carID, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
+
+![mysql picture](images/mysql_q92.png)
+
+- [ ] `IF EXISTS`
+- [ ] `AFTER INSERT`
+- [ ] `BEFORE INSERT`
+- [ ] `CROSS JOIN`
