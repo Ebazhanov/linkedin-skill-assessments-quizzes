@@ -26,9 +26,7 @@ have a great understanding about.
 [![Join our Discord server!](https://invidget.switchblade.xyz/NKCyjjw3MW?theme=light)](https://discord.gg/NKCyjjw3MW)
 
 2. Playground before taking quiz
-   > :one: https://linkthein.vercel.app/
-   >
-   > :two: https://linkedin-faq.github.io/md2practice/
+   > https://linkedin-faq.github.io/md2practice/
 
 want to contribute? here is the source code https://github.com/linkedin-faq
 
