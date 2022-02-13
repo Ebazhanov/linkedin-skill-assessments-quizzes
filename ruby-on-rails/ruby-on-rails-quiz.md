@@ -123,7 +123,7 @@ end
 - [ ] `model.errors = This address is invalid`
 - [ ] `errors(model, :address) << "This address is invalid"`
 - [ ] `display_error_for(model, :address, "This address is invalid")`
-- [x] `model.errors[:address] << "This address is invalid"` 
+- [x] `model.errors[:address] << "This address is invalid"`
 
 [Custom Validator](https://guides.rubyonrails.org/v5.2/active_record_validations.html#custom-validators)
 
@@ -168,7 +168,7 @@ end
 
 - [ ] `build`
 - [ ] `new`
-- [x] `create` 
+- [x] `create`
 - [ ] `save`
 
 [Reference](https://medium.com/@de.usmanusa/difference-between-create-new-and-save-methods-in-activerecord-ea135085a08c)
@@ -178,7 +178,7 @@ end
 - [ ] `CoffeeOrders`
 - [ ] `Coffee_Orders`
 - [ ] `Coffee_Order`
-- [x] `CoffeeOrder` 
+- [x] `CoffeeOrder`
 
 [Reference](https://guides.rubyonrails.org/active_record_basics.html#naming-conventions)
 
@@ -193,7 +193,7 @@ end
 
 - [ ] Create an embedded Ruby file (.html.erb) and surround the Ruby code with `<% %>`.
 - [ ] Insert Ruby code inside standard HTML files and surround it with `<% %>`. The web server will handle the rest.
-- [x] Create an embedded Ruby file (.html.erb) and surround the Ruby code with `<%= %>`. 
+- [x] Create an embedded Ruby file (.html.erb) and surround the Ruby code with `<%= %>`.
 - [ ] Put the code in an .rb file and include it in a `<link>` tag of an HTML file.
 
 [Reference](https://guides.rubyonrails.org/action_view_overview.html#erb)
@@ -202,7 +202,7 @@ end
 
 - [ ] `<% render 'view_mobile' %>`
 - [ ] `<% render 'view', use_layout: 'mobile' %>`
-- [x] `<% render 'view', layout: 'mobile' %>` 
+- [x] `<% render 'view', layout: 'mobile' %>`
 - [ ] `<% render_with_layout 'view', 'mobile' %>`
 
 [Reference](https://stackoverflow.com/a/19277971)
@@ -288,7 +288,7 @@ end
 
 - [ ] app/static
 - [ ] app/images
-- [x] app/assets 
+- [x] app/assets
 - [ ] app/views
 
 [Reference: RoR folder structure](https://images.app.goo.gl/CfKZPEQcGExfSx5C6)
@@ -324,7 +324,7 @@ end
 #### Q31. What is a popular alternative template language for generating views in a Rails app that is focused on simple abstracted markup?
 
 - [ ] Mustache
-- [x] Haml 
+- [x] Haml
 - [ ] Liquid
 - [ ] Tilt
 
@@ -354,7 +354,7 @@ end
 
 - [ ] `csrf_protection`
 - [ ] `csrf_helper`
-- [x] `csrf_meta_tags` 
+- [x] `csrf_meta_tags`
 - [ ] `csrf`
 
 [Reference](https://api.rubyonrails.org/classes/ActionView/Helpers/CsrfHelper.html)
@@ -394,7 +394,7 @@ before_destroy :notify_admin_users, if: ->(model) { model.is_admin }
 
 - [ ] `Product.where("name = " << @keyword)`
 - [ ] `Product.where("name = " + h(@keyword))`
-- [x] `Product.where("name = ?", @keyword)` 
+- [x] `Product.where("name = ?", @keyword)`
 - [ ] `Product.where("name = #{@keyword}")`
 
 [Reference](https://guides.rubyonrails.org/active_record_querying.html#pure-string-conditions)

@@ -31,7 +31,7 @@
 - [ ] To improve platform compatibility
 
 > Also, the text data can be generated and parsed by tools, making it possible to create and analyze scenes automatically.
-> https://docs.unity3d.com/2021.2/Documentation/Manual/TextSceneFormat.html
+> [Reference](https://docs.unity3d.com/2021.2/Documentation/Manual/TextSceneFormat.html)
 
 #### Q5. Orthographic cameras remove which visual effect?
 
@@ -41,8 +41,9 @@
 - [ ] Bloom
 
 Gamma color space and bloom are related to graphics. Depth of field is related to objects bluring when at a certain distance from the camera.
-https://docs.unity3d.com/2019.3/Documentation/Manual/CamerasOverview.html
-https://pbr-book.org/3ed-2018/Camera_Models/Projective_Camera_Models#OrthographicCamera
+
+1. [Reference](https://docs.unity3d.com/2019.3/Documentation/Manual/CamerasOverview.html)
+2. [Reference](https://pbr-book.org/3ed-2018/Camera_Models/Projective_Camera_Models#OrthographicCamera)
 
 #### Q6. What is Cinemachine Virtual Camera used for?
 
@@ -52,7 +53,7 @@ https://pbr-book.org/3ed-2018/Camera_Models/Projective_Camera_Models#Orthographi
 - [ ] To act as dummy cameras for fooling meshes into thinking they are being seen
 
 > Use the Aim, Body, and Noise properties to specify how the Virtual Camera animates position, rotation, and other properties. The Virtual Camera applies these settings to the Unity Camera when Cinemachine Brain or Timeline transfers control of the Unity camera to the Virtual Camera.
-> https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineVirtualCamera.html
+> [Reference](https://docs.unity3d.com/Packages/com.unity.cinemachine@2.9/manual/CinemachineVirtualCamera.html)
 
 #### Q7. What does the Microphone class save captured audio data as?
 
@@ -62,7 +63,7 @@ https://pbr-book.org/3ed-2018/Camera_Models/Projective_Camera_Models#Orthographi
 - [ ] An OGG file
 
 The Microphone class saves captured audio as an audio clip asset, which may then be stored as a OGG file.
-https://docs.unity3d.com/ScriptReference/Microphone.html
+[Reference](https://docs.unity3d.com/ScriptReference/Microphone.html)
 
 #### Q8. Cinemachine offers tools for building gameplay behaviours. Which component makes spline based paths for moving objects?
 
@@ -79,7 +80,7 @@ https://docs.unity3d.com/ScriptReference/Microphone.html
 - [x] Meters
 
 Unity's default units are in meters (Unreal Engine too). If you keep this in mind and model with your units alined to meters, the lighting system will work minimal artifacting.
-https://docs.unity3d.com/2019.3/Documentation/Manual/BestPracticeMakingBelievableVisuals1.html
+[Reference](https://docs.unity3d.com/2019.3/Documentation/Manual/BestPracticeMakingBelievableVisuals1.html)
 
 #### Q10. The Collaborate feature of Unity Teams empowers whom to do what?
 
@@ -172,7 +173,7 @@ https://docs.unity3d.com/2019.3/Documentation/Manual/BestPracticeMakingBelievabl
 - [ ] Serializable
 - [x] SerializedField
 
-https://docs.unity3d.com/ScriptReference/SerializeField.html
+[Reference](https://docs.unity3d.com/ScriptReference/SerializeField.html)
 
 #### Q23. What is a technique for optimizing Unity UI elements?
 
@@ -182,7 +183,7 @@ https://docs.unity3d.com/ScriptReference/SerializeField.html
 - [ ] Divide the screen into multiple canvas objects, each sized to a quarter of the screen size
 
 Every time an element on a canvas is updated, the whole canvas is redrawn. If elements are never being updated, keeping them on a single canvas is ideal.
-https://unity.com/how-to/unity-ui-optimization-tips
+[Reference](https://unity.com/how-to/unity-ui-optimization-tips)
 
 #### Q24. What does the C# Space attribute used below achieved?
 
@@ -195,7 +196,7 @@ https://unity.com/how-to/unity-ui-optimization-tips
 - [x] It inserts 20 pixels of empty space below the variable inside the Object Inspector
 
 This is a great way to customize your inspector without writing a new inspector script for it.
-https://docs.unity3d.com/ScriptReference/SpaceAttribute.html
+[Reference](https://docs.unity3d.com/ScriptReference/SpaceAttribute.html)
 
 #### Q25. Every time you double-click a C# script file from the Project window, Unity prints the message below (or something very similar) to the console. What is a reasonable step in trying to solve this? Cannot start process because a file name has not been provided
 
@@ -226,7 +227,7 @@ https://docs.unity3d.com/ScriptReference/SpaceAttribute.html
 - [ ] AnimatorUtility
 
 `OnStateMachineEnter()` and `OnStateMachineExit()` are the methods of the StateMachineBehavior class that handle this. AnimatorClipInfo displays information about the current clip being played, AnimatiorUtility deals with transform hierarchy, and AnimationInfo was removed in version 5.0.
-https://docs.unity3d.com/ScriptReference/StateMachineBehaviour.html
+[Reference](https://docs.unity3d.com/ScriptReference/StateMachineBehaviour.html)
 
 #### Q29. How can you change the unique bundle identifier for a mobile build?
 
@@ -301,9 +302,10 @@ https://docs.unity3d.com/ScriptReference/StateMachineBehaviour.html
 - [ ] Motion capture
 - [x] Photogrammetry
 
-When you use photogrammetry to scan in models from the real world, and bring in those models into Unity (or any renderer), you will notice that the lighting information is baked into the texture. You can remove the baked in lighting information with various tools online, but even Unity themeless wrote a custom tool for just this; check it out!
-https://github.com/Unity-Technologies/DeLightingTool
-https://github.com/Unity-Technologies/DeLightingTool/blob/master/Assets/DeLightingTool/Documentation/De-LightingTool.pdf
+`When you use photogrammetry to scan in models from the real world, and bring in those models into Unity (or any renderer), you will notice that the lighting information is baked into the texture. You can remove the baked in lighting information with various tools online, but even Unity themeless wrote a custom tool for just this; check it out!`
+
+1. [Reference](https://github.com/Unity-Technologies/DeLightingTool)
+2. [Reference](https://github.com/Unity-Technologies/DeLightingTool/blob/master/Assets/DeLightingTool/Documentation/De-LightingTool.pdf)
 
 #### Q38. Humanoid character assets, like NPCs and the player character, feature on Avatar object. Which statement best describes its purpose?
 
@@ -321,7 +323,7 @@ https://github.com/Unity-Technologies/DeLightingTool/blob/master/Assets/DeLighti
 - [ ] Select **Edit > Enable Vertex Snap** from the menu, and then select your object
 - [x] While holding down the V key, click and drag your object from a corner vertex to its destination
 
-https://docs.unity3d.com/Manual/PositioningGameObjects.html#VtxSnapping
+[Reference](https://docs.unity3d.com/Manual/PositioningGameObjects.html#VtxSnapping)
 
 #### Q40. Which statement best descibes the function Quaternion.Euler?
 
@@ -333,7 +335,7 @@ https://docs.unity3d.com/Manual/PositioningGameObjects.html#VtxSnapping
 Simplfying the math: Unity uses Quaternions internally to avoid Gimbal lock.
 The Euler XYZ (Pitch, Yaw, and Roll) axises can lock up when two axies are aligned.
 Quaternion.Euler converts the Euler number provided to the internally used Quarternion, to prevent this problem.
-https://docs.unity3d.com/ScriptReference/Quaternion.Euler.html
+[Reference](https://docs.unity3d.com/ScriptReference/Quaternion.Euler.html)
 
 #### Q41. What does the Destroy function do?
 
@@ -343,7 +345,7 @@ https://docs.unity3d.com/ScriptReference/Quaternion.Euler.html
 - [ ] It deletes the specified game object immidaitely
 
 > The object obj is destroyed immediately after the current Update loop, or t seconds from now if a time is specified.
-> https://docs.unity3d.com/ScriptReference/Object.Destroy.html
+> [Reference](https://docs.unity3d.com/ScriptReference/Object.Destroy.html)
 
 #### Q42. You can programmatically control audio effects, like Pitch and Reverb, from C# scripts using which feature of an Audio Mixer asset?
 
@@ -353,7 +355,7 @@ https://docs.unity3d.com/ScriptReference/Quaternion.Euler.html
 - [ ] Audio Mixer groups
 
 Audio attenuation is about energy loss, commonly refered to as "gain". ParamEQ allows you to change the frequency of the audio - "pitch", with no C# support. Audio Mixer groups do allow you to control audio effects, but not through C#.
-Official Unity Tutorial: https://www.youtube.com/watch?v=9tqi1aXlcpE
+[Official Unity Tutorial:](https://www.youtube.com/watch?v=9tqi1aXlcpE)
 
 #### Q43. Multiple animations may be mixed together on a single character, selectively on different limbs. Which Mecanim feature supports this?
 
@@ -363,7 +365,7 @@ Official Unity Tutorial: https://www.youtube.com/watch?v=9tqi1aXlcpE
 - [ ] animation events
 
 Mip Maps are a technique that improves image quality and reduces rendering speed, at the cost of storage space, by including smaller copies of the image in the same file. Animation events allow you to call functions at points in the timeline.
-https://docs.unity3d.com/Manual/class-AvatarMask.html
+[Reference](https://docs.unity3d.com/Manual/class-AvatarMask.html)
 
 #### Q44. What does the PlayableDirector component allow you to do?
 
@@ -373,7 +375,7 @@ https://docs.unity3d.com/Manual/class-AvatarMask.html
 - [ ] record a gameplay session to a video file
 
 The PlayableDirector component stores the link between a Timeline instance and a Timeline Asset.
-https://docs.unity3d.com/2019.2/Documentation/Manual/class-PlayableDirector.html
+[Reference](https://docs.unity3d.com/2019.2/Documentation/Manual/class-PlayableDirector.html)
 
 #### Q45. What does the Grid component do?
 
@@ -390,7 +392,9 @@ https://docs.unity3d.com/2019.2/Documentation/Manual/class-PlayableDirector.html
 - [ ] packets
 
 EventSystem is not a timeline feature, neither are packets. Timeline signals are a subfeature of the markers, markers can directly initiate code, while a signal can only send the signal to a reciver.
-https://forum.unity.com/threads/new-in-2019-1-marker-customization.594712/ and https://blog.unity.com/technology/how-to-create-custom-timeline-markers
+
+1. [Reference](https://forum.unity.com/threads/new-in-2019-1-marker-customization.594712)
+2. [Reference](https://blog.unity.com/technology/how-to-create-custom-timeline-markers)
 
 #### Q47. Which code sample uses C# properties for creating the health functionality?
 
@@ -477,4 +481,4 @@ public class Health : MonoBehaviour
 ```
 
 `get` and `set` are the clear indicators that a C# property is being used.
-https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties
+[Reference](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties)

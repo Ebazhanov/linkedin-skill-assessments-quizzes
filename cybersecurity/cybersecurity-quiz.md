@@ -665,8 +665,7 @@ Which cloud model is the best option for these requirements?
 - [ ] Turn on the stealth mode in your network scanning tool. Check whether you missed any other active ports associated with web servers.
 - [ ] Turn on additional options in your network scanning tool to further investigate the details (type and version) of applications running on the rest of the active ports.
 
-
-#### Q89. Executives in your organization exchange emails with external business partners when negotiating valuable business contracts. To ensure that these communications are legally defensible, the security team has recommended that a digital signature be added to these message. 
+#### Q89. Executives in your organization exchange emails with external business partners when negotiating valuable business contracts. To ensure that these communications are legally defensible, the security team has recommended that a digital signature be added to these message.
 
 What are the primary goals of the digital signature in this scenario? (Choose the best answer.)
 
