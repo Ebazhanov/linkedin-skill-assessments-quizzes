@@ -351,7 +351,7 @@ const user = {
 - [x] It will tell the browser that a connection will be made to another origin and to start getting ready as soon as possible.
 - [ ] It will tell the browser that a resource is needed, and that it should start getting fetched as soon as possible.
 
-[Reference (web.dev)](https://web.dev/preconnect-and-dns-prefetch/)
+[web.dev](https://web.dev/preconnect-and-dns-prefetch/)
 
 #### Q37. Which choice is _not_ a render blocking resource?
 
@@ -360,7 +360,7 @@ const user = {
 - [ ] CSS
 - [ ] JavaScript
 
-[Reference (blog.logrocket)](https://blog.logrocket.com/5-tricks-to-eliminate-render-blocking-resources/)
+[blog.logrocket](https://blog.logrocket.com/5-tricks-to-eliminate-render-blocking-resources/)
 
 #### Q38. Which choice does _not_ provide information on browser support for a particular CSS property?
 

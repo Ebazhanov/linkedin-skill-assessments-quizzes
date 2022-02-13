@@ -753,7 +753,7 @@ fi
 
 - [ ] There will be no unexpected results. This script works as is and the output will be "8 is greater than 5".
 - [ ] The comparison will not be able to handle floating-point numbers, as Bash only handles integers. So this example will output an error message if the value of $var is changed to "8.8".
-- [ ] There will be a file in the current directory named 5.
+- [x] There will be a file in the current directory named 5.
 - [ ] The variable $var is not quoted, which will lead to word splitting. This script will fail with a "unary operator expected" message if you change the value of
 
 #### Q60. What is the result of this script?
@@ -817,3 +817,28 @@ echo "$var" | sed _____
 - [ ] ls ¦ filelist.txt
 - [x] ls > filelist.txt
 - [ ] ls - filelist.txt
+
+#### Q67. When comparing items with case, what statement indicates an end to the evaluation block?
+
+- [ ] stop
+- [x] esac
+- [ ] done
+- [ ] exit
+
+#### Q68. To run a group of commands without spawning a subshell, which syntax would you use?
+
+- [ ] sh command1; command2
+- [ ] { command1; command2; }
+- [ ] (( command1; command2 ))
+- [x] command1; command2 )
+
+#### Q69. What are the results of the command with a user named jon?
+
+```bash
+echo 'Hello, $(whoami)!'
+```
+
+- [ ] Hello, $(jon)!
+- [ ] Hello, jon!
+- [x] Hello, $(whoami)!
+- [ ] Hello, whoami!

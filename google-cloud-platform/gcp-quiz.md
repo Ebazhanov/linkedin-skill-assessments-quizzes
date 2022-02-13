@@ -348,16 +348,12 @@ Note: Free trial doesn't have the organizations.
 - [ ] Cloud Spanner
 - [x] BigQuery
 
-[Source: LinkedIn Assessment Practice mode](https://i.imgur.com/mOCQVug.png)
-
 #### Q47. How can you quickly back up a persistent disk on Compute Engine?
 
 - [x] Take a snapshot
 - [ ] Create an instance group
 - [ ] Create an instance template
 - [ ] Create an image
-
-[Source: LinkedIn Assessment Practice mode](https://i.imgur.com/9rNe5MV.png)
 
 #### Q48. You are implementing IAM roles for your organization following GCP best practice. Which statement best reflects this?
 

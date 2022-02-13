@@ -473,7 +473,7 @@
 - [ ] the named range Colors[Inventory], which does not use Format as Table Feature
 
 Table[Column] can be used instead of cell references (C2:C7).
-https://support.microsoft.com/en-us/office/using-structured-references-with-excel-tables-f5ed2452-2337-4f71-bed3-c8ae6d2b276e
+[Reference](https://support.microsoft.com/en-us/office/using-structured-references-with-excel-tables-f5ed2452-2337-4f71-bed3-c8ae6d2b276e)
 
 #### Q63. Which VLOOKUP function, when entered into cell L2 and then dragged to cell L5, returns the average number of calls for the representative IDs listed in column J?
 
@@ -540,7 +540,7 @@ https://support.microsoft.com/en-us/office/using-structured-references-with-exce
 - [x] In the `PivotTable Fields` pane, drag `Sum Values` from the `Columns` section to a location below the field in the `Rows` section.
 - [ ] In the `PivotTable Fields` pane, drag each field from the `Sum Values` section to the `Rows` section.
 
-https://devexpress.github.io/dotnet-eud/interface-elements-for-desktop/articles/spreadsheet/pivot-tables/group-items-in-a-pivot-table.html
+[Reference](https://devexpress.github.io/dotnet-eud/interface-elements-for-desktop/articles/spreadsheet/pivot-tables/group-items-in-a-pivot-table.html)
 
 ### Q70. Which Excel feature allows you to hide rows or columns with an easily visible expand/collapse?
 

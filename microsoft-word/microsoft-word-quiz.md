@@ -585,7 +585,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 
 - [ ] From the start of the document, hold down the Ctrl (Windows) or Command (Mac) key, and press the Down Arrow key repeatedly, counting each paragraph as you go.
 - [ ] Click File > Properties > Content to display file information, including the number of paragraphs.
-- [ ] On the status bar, select Word Count to display file information, including the number of paragraphs.
+- [x] On the status bar, select Word Count to display file information, including the number of paragraphs.
 - [ ] Click File > Info > Inspect Document to display file information, including the number of paragraphs.
 
 #### Q75. You want to be able to read one page in your document while editing another page in the same document. What's the most efficient way to do this with only one monitor?
@@ -601,3 +601,19 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [x] all of these answers
 - [ ] Alt text describes what appears in the image.
 - [ ] Screen readers read the text aloud for users with visual impairments.
+
+#### Q77. You are inserting several images in a document and need to include descriptive information about them. Numbering the images will also make it easier to reference them in the associated document text. Which command can help you set this up?
+
+- [ ] Insert Footnote
+- [ ] Insert Citation
+- [x] Insert Caption
+- [ ] Insert Table of Figures
+
+#### Q78. In this image, what do the red lines next to the text indicate?
+
+![image](https://i.imgur.com/JUbaoyO.png)
+
+- [x] Changes were made to these areas.
+- [ ] Draw tools were used in these areas.
+- [ ] Track Changes has been disabled.
+- [ ] Comments were added to these areas.

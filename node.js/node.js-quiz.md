@@ -409,7 +409,10 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [x] process
 - [ ] child_process
 
-**Explanation:** _process is an global object and act like a bridge, the others aren't (please see https://nodejs.org/api/globals.html or https://nodejs.org/api/process.html#process_process)._
+**Explanation:** \_process is an global object and act like a bridge, the others aren't
+
+1. [source](https://nodejs.org/api/globals.html)
+2. [source](https://nodejs.org/api/process.html#process_process)
 
 #### Q51. Which statement is true about Node.js and threads?
 
@@ -564,3 +567,10 @@ console.log(person);
 - [ ] As the application code runs asynchronously within a single thread, the execution will block, accepting no more requests until the operation is completed.
 - [ ] As Node.js is asynchronous, this is handled by a threadpool and the performance will not notably degrade.
 - [ ] The current thread will block until the executon is completed and the operating system will spawn new threads to handle incoming requests. This can exhaust the number of allowed threads (255) and degrade performance over time.
+
+#### Q69. What is used for parsing and running Javascript in Node.js?
+
+- [ ] EventLoop
+- [ ] Libuv
+- [x] Google V8
+- [ ] Express.js

@@ -294,8 +294,6 @@
 - [ ] any QuickBooks report
 - [x] a predesigned report that shows more detail about the data you are currently viewing on screen
 
-[Source: LinkedIn assessment practice mode](https://i.imgur.com/dj6DeZk.png)
-
 #### Q43. After paying a bill in the Pay Bills screen, QuickBooks automatically creates a journal entry behind the scenes that will do what?
 
 - [ ] Debit Cash and credit Accounts Payable.

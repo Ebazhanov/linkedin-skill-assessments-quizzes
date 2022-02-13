@@ -23,7 +23,7 @@
 - [ ] service principal and a secret
 - [x] shared access key
 
-**Reference:** [Azure Key Vault Developer's Guide](https://docs.microsoft.com/en-us/azure/key-vault/general/developers-guide#authenticate-to-key-vault-in-code) lists 3 available methods. The _shared access key_ does not exist in Azure at all, the closest term is _shared access signature (SAS)_ but it's used to access Azure Storage only.
+[Azure Key Vault Developer's Guide](https://docs.microsoft.com/en-us/azure/key-vault/general/developers-guide#authenticate-to-key-vault-in-code) lists 3 available methods. The _shared access key_ does not exist in Azure at all, the closest term is _shared access signature (SAS)_ but it's used to access Azure Storage only.
 
 #### Q4. You added a persistent volume claim to your apps YAML manifest. When you attempt to deploy to an existing AKS cluster there is no persistent volume available. What should you do?
 
@@ -53,7 +53,7 @@
 - [ ] Shared key
 - [ ] Certificate
 
-**Explanation:** [Shared access signature](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview) exists exactly for the purpose of giving a temporary access. Azure AD user account is not temporary so it needs to be managed. Creating/revoking Certificates for temporary access is just too much hassle.
+[Shared access signature](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview) exists exactly for the purpose of giving a temporary access. Azure AD user account is not temporary so it needs to be managed. Creating/revoking Certificates for temporary access is just too much hassle.
 
 #### Q8. The Kineteco web app runs in an Azure Kubernetes Service. You need to monitor feature use and user navigation paths to identify where improvements are needed. What should you do?
 
@@ -62,7 +62,7 @@
 - [ ] Install the App Insights on AKS nodes
 - [ ] Add instrumentation to your app to send usage analytics with Application Insights.
 
-**Notes:** Needs to be clarified. The [Container Monitoring doc](https://docs.microsoft.com/en-us/azure/azure-monitor/containers/containers) explicitly mentions that it's not for AKS. 3 and 4 look right
+[Container Monitoring doc](https://docs.microsoft.com/en-us/azure/azure-monitor/containers/containers) explicitly mentions that it's not for AKS. 3 and 4 look right
 
 #### Q9. Which choice is not a valid trigger for an Azure functions?
 
@@ -129,7 +129,7 @@
 - [ ] REST API
 - [ ] Server Message Block(SMB)
 
-**Reference:** [What is Azure Files?](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-introduction) page mentions the supported protocols.
+[What is Azure Files?](https://docs.microsoft.com/en-us/azure/storage/files/storage-files-introduction) page mentions the supported protocols.
 
 #### Q18. You are writing an app for a sales team. You need to implement security in SQL Server to ensure that sales representatives see customer financial information only for customers whom they manage. Your app must make this transparent to the user. Which SQL data security option should you choose?
 
@@ -414,8 +414,6 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 - [ ] out
 - [ ] asynchronous
 - [x] in
-
-[Source: LinkedIn practice mode](https://i.imgur.com/tn3RrVW.png)
 
 #### Q55. You are selecting a cloud messaging solution for your multimedia news app. The app routes news items to the appropriate services for processing and delivery to subscribers. Requirements for the solution are as follows: Events should be routed to the appropriate service to process event; events must be routed to multiple services when necessary; and only relevant events should be routed to a service for processing. Which solution should you use?
 

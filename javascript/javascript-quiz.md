@@ -143,8 +143,8 @@ for (var j = 1; j <= 4; j++) {
 }
 ```
 
-[Reference setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
-[Reference immediately invoked anonymous functions](https://www.javascripttutorial.net/javascript-anonymous-functions/)
+1. [Reference setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
+2. [Reference immediately invoked anonymous functions](https://www.javascripttutorial.net/javascript-anonymous-functions/)
 
 #### Q9. How does a function create a closure?
 
@@ -221,8 +221,8 @@ NOTE: The first three are all partially correct and will match digits, but the *
 
 **More resources:**
 
-- [Repeating characters](https://regexone.com/lesson/repeating_characters)
-- [Kleene operators](https://regexone.com/lesson/kleene_operators)
+1. [Repeating characters](https://regexone.com/lesson/repeating_characters)
+2. [Kleene operators](https://regexone.com/lesson/kleene_operators)
 
 #### Q13. What is the result in the console of running this code?
 
@@ -1033,8 +1033,8 @@ const foo = {
 - [ ] Functions cannot be declared as properties of objects.
 - [x] Nothing, there are no errors.
 
-[Reference functions in javascript](https://www.w3schools.com/js/js_functions.asp)
-[Reference working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+1. [Reference functions in javascript](https://www.w3schools.com/js/js_functions.asp)
+2. [Reference working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 
 #### Q82. What will be logged to the console?
 
@@ -1111,8 +1111,8 @@ const foo = {
 - [x] The map() methods returns a new array with a transformation applied on each item in the original array, wheras the `forEach()` method iterates through an array with noreturn value.
 - [ ] The `forEach()` methods returns a new array with a transformation applied on each item in the original array, wheras the `map()` method iterates through an array with noreturn value.
 
-[Reference map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
-[Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
+1. [Reference map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+2. [Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
 
 #### Q86. Which concept does this code illustrate?
 
@@ -1379,9 +1379,9 @@ function roar() {
 - [x] `roar.apply(bear);`
 - [ ] `bear[roar]();`
 
-[Reference Apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
-[Reference this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
-[Reference bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
+1. [Reference Apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)
+2. [Reference this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+3. [Reference bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
 
 #### Q104. Which choice is a valid example of an arrow function, assuming c is defined in the outer scope?
 
@@ -1504,8 +1504,8 @@ document.querySelectorAll('div').forEach((e) => {
 - [ ] C
 - [ ] A B C
 
-[Reference query selector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
-[Reference events](https://developer.mozilla.org/en-US/docs/Web/Events)
+1. [Reference query selector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
+2. [Reference events](https://developer.mozilla.org/en-US/docs/Web/Events)
 
 #### Q113. What will this code log to the console?
 
@@ -1588,26 +1588,30 @@ for (let value of cipherText) {
 }
 ```
 
-[Reference MDN JavaScript Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
-[Reference MDN JavaScript Array entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
-[Reference MDN JavaScript Remainder/Modulo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder)
+1. [Reference MDN JavaScript Destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+2. [Reference MDN JavaScript Array entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries)
+3. [Reference MDN JavaScript Remainder/Modulo](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder)
 
 #### Q116. What will this code log to the console?
 
+```js
 const foo = [1, 2, 3];
 const [n] = foo;
 console.log(n);
+```
 
 - [ ] undefined
-- [ ] 1
+- [x] 1
 - [ ] NaN
 - [ ] Nothing. This is not proper JavaScript syntax and will throw an error.
 
 #### Q117. Which Pokemon will be logged to the console?
 
-var pokedex = ["Snorlax", "Jigglypuff", "Charmander", "Squirtle"];
+```js
+var pokedex = ['Snorlax', 'Jigglypuff', 'Charmander', 'Squirtle'];
 pokedex.pop();
 console.log(pokedex.pop());
+```
 
 - [x] Charmander
 - [ ] Jigglypuff
@@ -1634,3 +1638,17 @@ if(/* Snippet goes here */){
 - [ ] `!conservation || deforestation`
 
 [if...else statements reference](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals#if...else_statements)
+
+#### Q119. Which statement can be used to select the element from the DOM containing the text "The LinkedIn Learning library has great JavaScript courses" from this markup?
+
+```html
+<h1 class="content">LinkedIn Learning</h1>
+<div class="content">
+  <span class="content">The LinkedIn Learning library has great JavaScript courses!</span>
+</div>
+```
+
+- [ ] document.querySelector("div.content")
+- [x] document.querySelector("span.content")
+- [ ] document.querySelector(".content")
+- [ ] document.querySelector("div.span")

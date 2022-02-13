@@ -23,13 +23,13 @@
 ["red", "blue", "green"]
 ```
 
-- [_]
+- [ ]
 
 ```json
 ["red", "blue", "green"]
 ```
 
-- [X]
+- [x]
 
 ```json
 {
@@ -307,10 +307,10 @@
 
 #### Q22. Which is an invalid JSON value?
 
-- [ ] "'|=(_)(X 72(_)|\/||\*'"
-- [ ] "|=(_)(X 72(_)|\/||\*"
-- [ ] "|=(_)(X\" \"72(_)|\/||\*"
-- [x] "\s(_)(X 72(_)|\/||\*"
+- [ ] `"'|=(_)(X 72(_)|\/||\*'"`
+- [ ] `"|=(_)(X 72(_)|\/||\*"`
+- [ ] `"|=(_)(X\" \"72(_)|\/||\*"`
+- [x] `"\s(_)(X 72(_)|\/||\*"`
 
 #### Q23. How do you encode a date in JSON?
 
@@ -394,7 +394,7 @@ null
 - [ ] `constant: 6.022E23`
 - [ ] `constant: "6.022E23"`
 
-Explanation: Scientific Notation is a valid JSON number. You can use `e` or `E`. [(Reference)](https://json-schema.org/understanding-json-schema/reference/numeric.html)
+[Reference](https://json-schema.org/understanding-json-schema/reference/numeric.html) **Explanation**: Scientific Notation is a valid JSON number. You can use `e` or `E`.
 
 #### Q29. Which element is added to the DOM to create a JSON-P request?
 

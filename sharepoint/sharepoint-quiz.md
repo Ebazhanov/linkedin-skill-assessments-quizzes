@@ -56,8 +56,6 @@
 - [ ] versioning
 - [x] folder-assigned metadata
 
-[Source: LinkedIn Assessment Practice mode](https://i.imgur.com/HYcFMby.png)
-
 #### Q9. In a SharePoint online subscription, where is a user's identity managed?
 
 - [ ] Windows Server
@@ -339,5 +337,3 @@
 - [ ] Team Site Visitors
 - [ ] Excel Serices Viewers
 - [ ] Everyone except external users
-
-[Source: LinkedIn Assessment Practice mode](https://i.imgur.com/a7jcnsK.png)

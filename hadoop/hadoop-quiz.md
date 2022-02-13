@@ -372,9 +372,11 @@
 ### Q53. Which feature is used to roll back a corrupted HDFS instance to a previously known good point in time?
 
 - [ ] partitioning
-- [x] snapshot [Reference](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html#:~:text=is%20not%20supported.-,Snapshots,known%20good%20point%20in%20time.)
+- [x] snapshot
 - [ ] replication
 - [ ] high availability
+
+[Reference](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html#:~:text=is%20not%20supported.-,Snapshots,known%20good%20point%20in%20time.)
 
 ### Q54. Hadoop Common is written in which language?
 

@@ -161,7 +161,7 @@
 - [ ] MongoDB
 - [ ] Bigtable
 
-#### Q24. Which statement is prefered Cypher code for Neo4j?
+#### Q24. Which statement is preferred Cypher code for Neo4j?
 
 - [ ] MATCH (:Person)-->(:Card)-->(:Company) RETURN count(vehicle)
 - [ ] Match (:Person)-->(:Car):(vehicle:Car)-->(:Company) RETURN count(vehicle)
