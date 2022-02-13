@@ -664,3 +664,20 @@ Which cloud model is the best option for these requirements?
 - [ ] Switch to another network scanning tool. Resort to more resource-intensive probing, like launching random attacks to all open ports.
 - [ ] Turn on the stealth mode in your network scanning tool. Check whether you missed any other active ports associated with web servers.
 - [ ] Turn on additional options in your network scanning tool to further investigate the details (type and version) of applications running on the rest of the active ports.
+
+
+#### Q89. Executives in your organization exchange emails with external business partners when negotiating valuable business contracts. To ensure that these communications are legally defensible, the security team has recommended that a digital signature be added to these message. 
+
+What are the primary goals of the digital signature in this scenario? (Choose the best answer.)
+
+- [x] integrity and non-repudiation
+- [ ] privacy and non-repudiation
+- [ ] privacy and confidentiality
+- [ ] integrity and privacy
+
+#### Q90. Which option is a mechanism to ensure non-repudiation?
+
+- [ ] MD5
+- [ ] Caesar cipher
+- [ ] symmetric-key encryption
+- [ ] asymmetric-key encryption
