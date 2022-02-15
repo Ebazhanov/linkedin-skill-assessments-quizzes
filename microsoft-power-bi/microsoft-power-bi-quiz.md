@@ -489,3 +489,17 @@ D. They must have no duplicate data rows.
 - [x] purchase; import
 - [ ] purchase; upload
 - [ ] upload; download
+
+#### Q62. You have two Excel spreadsheets with data from separate reporting units. Both spreadsheets have the same column names. What Power Query Editor feature can you use to create a unified dataset?
+
+- [ ] Unify
+- [x] Append
+- [ ] Merge
+- [ ] Group
+
+#### Q63. Power BI Q&A chooses the best visualization based on data type - for example, a __ chart for date data and a __ for state/province data.
+
+- [ ] column; map
+- [ ] line; map
+- [x] timeline; map
+- [ ] line; column
