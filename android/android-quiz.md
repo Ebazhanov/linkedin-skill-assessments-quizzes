@@ -979,7 +979,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 #### Q64. You need to provide your users with certain features of your app on-demand or as instant experiences through Google Play. Which type of module should you create?
 
 - [ ] library module
-- [ ] dynamic feature module
+- [x] dynamic feature module
 - [ ] Android app module
 - [ ] Google Cloud module
 
