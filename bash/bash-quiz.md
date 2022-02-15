@@ -842,3 +842,17 @@ echo 'Hello, $(whoami)!'
 - [ ] Hello, jon!
 - [x] Hello, $(whoami)!
 - [ ] Hello, whoami!
+
+#### Q70. How can you copy a directory to another system with compression?
+
+- [ ] tar -ssh user@192.158.1.1 /bin/newfile
+- [x] tar cvzf - /wwwdata | ssh root@192.168.1.201 "dd of=/backup/wwwdata.tar.gz"
+- [ ] You can't compress the stream
+- [ ] scp -r directory user@192.168.1.1:/tmp
+
+#### Q71. To assign the command `ls -lah` to the shortcut command `lh`, what command should you use?
+
+- [x] alias lh='ls -lah'
+- [ ] link lh='ls -lah'
+- [ ] alias 'ls -lah'=lh
+- [ ] lh | ls -lah

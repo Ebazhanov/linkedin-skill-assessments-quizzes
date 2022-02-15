@@ -1652,3 +1652,32 @@ if(/* Snippet goes here */){
 - [x] document.querySelector("span.content")
 - [ ] document.querySelector(".content")
 - [ ] document.querySelector("div.span")
+
+#### Q120. Which value is not falsey?
+
+- [x] `[]`
+- [ ] `undefined`
+- [ ] `0`
+- [ ] `null`
+
+[Falsy - MDN Web Docs Glossary: Definitions of Web-related terms | MDN](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
+
+#### Q121. What line of code causes this code segment to throw an error?
+
+```js
+const lion = 1;
+let tiger = 2;
+var bear;
+
+++lion
+bear += lion + tiger;
+tiger++;
+```
+
+- [x] `line 5, because lion cannot be reassigned a value`
+- [ ] `line 6, because the += operator cannot be used with the undefined variable bear`
+- [ ] `line 5, because the prefix (++) operator does not exist in JavaScript`
+- [ ] `line 3, because the variable bear is left undefined`
+
+1. [const - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
+2. [TypeError: invalid assignment to const "x" - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_const_assignment)

@@ -1500,3 +1500,12 @@ letters4 = list(my_dictionary)
 - [x] `set_printoptions`
 - [ ] `set_fullprint`
 - [ ] `setp_printwhole`
+
+#### Q112. When would you use a try/except block in code?
+
+- [x] You use `try/except` blocks when you want to run some code, but need a way to execute different code if an exception is raised.
+- [ ] You use `try/except` blocks inside of unit tests so that the unit testes will always pass.
+- [ ] You use `try/except` blocks so that you can demonstrate to your code reviewers that you tried a new approach, but if the new approach is not what they were looking for, they can leave comments under the `except` keyword.
+- [ ] You use `try/except` blocks so that none of your functions or methods return `None`.
+      
+[Reference](https://runestone.academy/ns/books/published/fopp/Exceptions/using-exceptions.html#:~:text=The%20reason%20to%20use%20try,you're%20writing%20the%20code)
