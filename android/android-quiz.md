@@ -18,7 +18,7 @@
 
 - [ ] Set breakpoints and then step through the code line by line
 - [ ] Use the profiler tools in Android Studio to detect anomalies CPU, and network usage.
-- [x] Add a Thread.sleep()call before you start the new activity.
+- [x] Add a Thread.sleep() call before you start the new activity.
 - [ ] inspect the logs in Logcat.
 
 #### Q4. Why might push notifications stop working?
@@ -975,3 +975,17 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] Thread
 
 [Reference](https://developer.android.com/guide/background)
+
+#### Q64. You need to provide your users with certain features of your app on-demand or as instant experiences through Google Play. Which type of module should you create?
+
+- [ ] library module
+- [ ] dynamic feature module
+- [ ] Android app module
+- [ ] Google Cloud module
+
+#### Q65. Which approach is not recommended for providing a useful offline state in your app?
+
+- [ ] caching data
+- [ ] storing data locally
+- [ ] queuing outbound requests to action when connectivity has been lost
+- [ ] always notifying users that connectivity has been lost
