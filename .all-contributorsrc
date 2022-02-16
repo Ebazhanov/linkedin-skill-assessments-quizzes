@@ -7445,6 +7445,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Cyphersphinx",
+      "name": "Michael Reyes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33814760?v=4",
+      "profile": "https://github.com/Cyphersphinx",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
