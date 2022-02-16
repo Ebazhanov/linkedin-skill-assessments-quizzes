@@ -983,6 +983,9 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] Android app module
 - [ ] Google Cloud module
 
+1. [Reference](https://youtu.be/QdfStuj-MuA?t=86)
+2. [Reference](https://developer.android.com/guide/playcore/feature-delivery/on-demand)
+
 #### Q65. Which approach is not recommended for providing a useful offline state in your app?
 
 - [ ] caching data
