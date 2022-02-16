@@ -875,4 +875,4 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] `IF EXISTS`
 - [ ] `AFTER INSERT`
 - [ ] `BEFORE INSERT`
-- [ ] `CROSS JOIN`
+- [x] `CROSS JOIN`
