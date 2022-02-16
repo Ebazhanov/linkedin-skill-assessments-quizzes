@@ -872,7 +872,7 @@ SELECT name FROM students WHERE name REGEXP '^to';
 
 ![mysql picture](images/mysql_q92.png)
 
-- [ ] `IF EXISTS`
+- [x] `IF EXISTS`
 - [ ] `AFTER INSERT`
 - [ ] `BEFORE INSERT`
-- [x] `CROSS JOIN`
+- [ ] `CROSS JOIN`
