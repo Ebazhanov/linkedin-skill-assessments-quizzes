@@ -979,9 +979,12 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 #### Q64. You need to provide your users with certain features of your app on-demand or as instant experiences through Google Play. Which type of module should you create?
 
 - [ ] library module
-- [ ] dynamic feature module
+- [x] dynamic feature module
 - [ ] Android app module
 - [ ] Google Cloud module
+
+1. [Reference](https://youtu.be/QdfStuj-MuA?t=86)
+2. [Reference](https://developer.android.com/guide/playcore/feature-delivery/on-demand)
 
 #### Q65. Which approach is not recommended for providing a useful offline state in your app?
 
