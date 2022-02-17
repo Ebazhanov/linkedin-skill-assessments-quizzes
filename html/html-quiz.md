@@ -1711,3 +1711,70 @@ As Steve Krug once said, happy talk must die.
 ```
 
 `formaction — The URL that processes the information submitted by the button. Overrides the action attribute of the button's form owner. Does nothing if there is no form owner.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formaction)
+
+
+#### Q109. Which description is coded correctly?
+
+- [ ] A
+
+```HTML
+<dl>
+  <dt>Server</dt>
+  <dd>Software used to serve webpages, like Apache.</dd>
+  <dd> Hardware used to provide data to other computers.</dd>
+  <!-- Other terms and descriptions -->
+</dl>
+```
+
+- [ ] B
+
+```HTML
+<dt>
+  <dl>Server</dl>
+  <dd>Software used to serve webpages, like Apache.</dd>
+  <dd> Hardware used to provide data to other computers.</dd>
+  <!-- Other terms and descriptions -->
+</dt>
+```
+
+- [ ] C
+
+```HTML
+<dl>
+  <dt>Server</dt>
+  <dd>Software used to serve webpages, like Apache.</dd>
+  <dt> Hardware used to provide data to other computers.</dt>
+  <!-- Other terms and descriptions -->
+</dl>
+```
+
+- [ ] D
+
+```HTML
+<dl>
+  <dd>Server</dd>
+  <dt>Software used to serve webpages, like Apache.</dt>
+  <dt> Hardware used to provide data to other computers.</dt>
+  <!-- Other terms and descriptions -->
+</dl>
+```
+
+#### Q110. What is wrong with this code?
+
+```HTML
+<ul>
+  <h2>Espresso Drinks</h2>
+  <li>Espresso</li>
+  <li>Latte</li>
+  <li>Cappuccino</li>
+  <li>Mocha</li>
+</ul>
+```
+- [ ] Nothing is wrong.
+- [ ] `<ul>` cannot contain a heading element as a direct child.
+- [ ] An `<h1>` should be used here instead of an `<h2>` tag.
+- [ ] Only `<ol>` allows direct descendants to contain elements other than an `<li>`, so use an `<ol>` here instead.
+
+
+
+
