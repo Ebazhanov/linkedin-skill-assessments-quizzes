@@ -669,3 +669,11 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] `/proc/partitions` shows only mounted drives. `fdisk -l` shows all drivers.
 - [ ] There is no difference between the two, and both lists contain the same data.
 - [ ] `/proc/partitions` is the kernel's list of partitions held in ram. `fdisk -l` reads the partition table from the drive itself.
+
+### Q82. What would be in out.txt?
+    cat < in.txt > out.txt
+
+- [x] the content of in.txt.
+- [ ] the output from the command line.
+- [ ] Nothing, because you cannot redirect from a file (in.txt) to another file (out.txt). You can redirect only from a command to a file.
+- [ ] Nothing, The redirect will create a new empty file, but there will not be any output from the cat command to redirect.
