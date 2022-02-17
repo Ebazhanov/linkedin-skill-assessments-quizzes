@@ -455,3 +455,24 @@
 - [ ] Namespace is the logical naming decided at design time by the developer. Scope for a particular type is defined at run time using an assembly.
 - [ ] A namespace has logical units that are physically grouped together. An assembly does not have any classification.
 - [ ] A namespace has logical units that are physically grouped together for assemblies. Assembly classes are available in your program and will be logically grouped.
+
+#### Q61. What is a tuple?
+
+- [ ] A data structure that has a specific number and sequence of elements
+- [ ] An object to store multiple variables of the same type in an array data structure
+- [ ] A group of classes designed specifically for grouping together objects and performing tasks on them
+- [ ] An array whose elements are jagged
+
+#### Q62. What does IL stand for?
+
+- [x] Intermediate Language
+- [ ] Intelligent Language
+- [ ] Intelligent Linq
+- [ ] Interpreted Language
+
+#### Q63. You want to create an instance of several families of classes. Which design pattern best fits this objective?
+
+- [ ] Decorator
+- [ ] Singleton
+- [x] Abstract Factory
+- [ ] Bridge
