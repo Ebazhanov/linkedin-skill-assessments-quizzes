@@ -577,3 +577,12 @@ console.log(currencies);
 - [ ] React
 
 [Source: Laravel](https://laravel.com/)
+
+#### Q61. What does setting `aria-live=polite` on a live region achieve?
+
+- [ ] The screen reader will not notify the user of changes to live regions.
+- [x] The screen reader will wait until there is a pause to announce changes.
+- [ ] The screen reader will announce all changes immediately.
+- [ ] The screen reader will use a polite voice when announcing changes.
+
+[Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-live)

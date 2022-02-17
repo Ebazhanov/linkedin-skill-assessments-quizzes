@@ -1809,3 +1809,31 @@ p + section {
   margin: 0 auto;
 }
 ```
+
+#### Q122. Which corner will the puppy be in when these CSS rules are applied?
+
+```css
+.pen {
+  height: 100px;
+  width: 100px;
+  border: 2px dashed brown;
+  position: relative;
+}
+
+#puppy {
+  position: absolute;
+  right: 80px;
+  bottom: 0px;
+}
+```
+
+```html
+  <div class="pen">
+    <span id="puppy">🐶</span>
+  </div>
+```
+
+- [ ] top-right corner
+- [ ] bottom-right corner
+- [ ] top-left corner
+- [x] bottom-left corner

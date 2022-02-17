@@ -1681,3 +1681,19 @@ tiger++;
 
 1. [const - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const)
 2. [TypeError: invalid assignment to const "x" - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Invalid_const_assignment)
+
+#### Q122. What will be the value of `result` after running this code?
+
+```js
+const person = { name: "Dave", age: 40, hairColor: "blue" };
+const result = Object.keys(person).map(x => x.toUpperCase());
+```
+
+- [ ] It will throw a TypeError.
+- [ ] `["Name", "Age", "HairColor"]`
+- [ ] `["DAVE", 40, "BLUE"]`
+- [x] `["NAME", "AGE", "HAIRCOLOR"]`
+
+1. [Object.keys() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
+2. [Array.prototype.map() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+3. [String.prototype.toUpperCase() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
