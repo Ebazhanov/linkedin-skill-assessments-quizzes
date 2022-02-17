@@ -1710,4 +1710,50 @@ As Steve Krug once said, happy talk must die.
 </button>
 ```
 
+#### Q109. Which description is coded correctly?
+
+- [ ] A
+
+```HTML
+<dl>
+  <dt>Server</dt>
+  <dd>Software used to serve webpages, like Apache.</dd>
+  <dd> Hardware used to provide data to other computers.</dd>
+  <!-- Other terms and descriptions -->
+</dl>
+```
+
+- [ ] B
+
+```HTML
+<dt>
+  <dl>Server</dl>
+  <dd>Software used to serve webpages, like Apache.</dd>
+  <dd> Hardware used to provide data to other computers.</dd>
+  <!-- Other terms and descriptions -->
+</dt>
+```
+
+- [ ] C
+
+```HTML
+<dl>
+  <dt>Server</dt>
+  <dd>Software used to serve webpages, like Apache.</dd>
+  <dt> Hardware used to provide data to other computers.</dt>
+  <!-- Other terms and descriptions -->
+</dl>
+```
+
+- [ ] D
+
+```HTML
+<dl>
+  <dd>Server</dd>
+  <dt>Software used to serve webpages, like Apache.</dt>
+  <dt> Hardware used to provide data to other computers.</dt>
+  <!-- Other terms and descriptions -->
+</dl>
+```
+
 `formaction — The URL that processes the information submitted by the button. Overrides the action attribute of the button's form owner. Does nothing if there is no form owner.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formaction)
