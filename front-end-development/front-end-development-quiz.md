@@ -568,3 +568,12 @@ console.log(currencies);
 - [ ] It is a script that runs to add vendor prefixes to modern CSS.
 
 [Source: Polyfill](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill)
+
+#### Q60. Which choice is _not_ a JavaScript framework?
+
+- [ ] Angular
+- [x] Laravel
+- [ ] Vue
+- [ ] React
+
+[Source: Laravel](https://laravel.com/)
