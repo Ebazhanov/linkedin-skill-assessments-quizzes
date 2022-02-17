@@ -639,3 +639,10 @@
 - [x] test-driven development
 - [ ] unit testing
 - [ ] test then code
+
+#### Q90. The team is not going to complete its Sprint Commitment. As the Team Facilitator, what should you do?
+
+- [ ] Ask the PO to extend the sprint.
+- [ ] Report this at the Sprint Review.
+- [ ] Point out the reasons why and collaborate on solutions.
+- [ ] Advise the PO as soon as possible.
