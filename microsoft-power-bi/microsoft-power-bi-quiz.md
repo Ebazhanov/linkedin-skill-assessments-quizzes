@@ -359,7 +359,7 @@ D. They must have no duplicate data rows.
 #### Q46. You have just pinned a visualization to a new dashboard. Before you can add another visualization, what must you do?
 
 - [ ] Save it.
-- [ ] Name it.
+- [x] Name it.
 - [ ] Refresh it.
 - [ ] Publish it.
 
@@ -389,7 +389,7 @@ D. They must have no duplicate data rows.
 #### Q50. Which Q&A feature helps you ask questions and refine your visualization?
 
 - [ ] error dialogs
-- [ ] autocomplete
+- [x] autocomplete
 - [ ] all of these answers
 - [ ] tooltips
 
@@ -409,7 +409,7 @@ D. They must have no duplicate data rows.
 
 - [ ] A, B
 - [ ] A, B, C
-- [ ] A, B, C, D
+- [x] A, B, C, D
 - [ ] A, B, D
 
 #### Q53. Your company's national maintenance team is divided into 12 regions, and the Issues report they use is filtered by the user's region. What report modification would help technicians while using the mobile app on the road? (Select all that apply.)
@@ -432,7 +432,7 @@ D. They must have no duplicate data rows.
     D. individual user downloads of the dashboard
 
 - [ ] A, B, C, D
-- [ ] A, B, C
+- [x] A, B, C
 - [ ] A, D
 - [ ] B, C, D
 
@@ -503,3 +503,10 @@ D. They must have no duplicate data rows.
 - [ ] line; map
 - [x] timeline; map
 - [ ] line; column
+
+#### Q64. In Power BI, what is the most important difference between tables related in a star schema and in a snowflake schema?
+
+- [ ] A snowflake schema cannot be modeled in Power BI.
+- [ ] A snowflake schema can be modeled only in Power BI service.
+- [x] A snowflake schema is much less efficient for Power BI.
+- [ ] A snowflake schema has more levels of lookup tables. 
