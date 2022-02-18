@@ -510,3 +510,14 @@ D. They must have no duplicate data rows.
 - [ ] A snowflake schema can be modeled only in Power BI service.
 - [x] A snowflake schema is much less efficient for Power BI.
 - [ ] A snowflake schema has more levels of lookup tables. 
+
+#### Q65. What are benefits of modifying your Excel data source in the Power Query Editor rather than in Excel?
+    A. You can track the changes you make.
+    B. It is less error prone than manual editing.
+    C. It will not affect other users of the spreadsheet.
+    D. It "locks down" the spreadsheet columns in Excel.
+
+- [x] A, B, C
+- [ ] A, B, C, D
+- [ ] A, C, D
+- [ ] B, D
