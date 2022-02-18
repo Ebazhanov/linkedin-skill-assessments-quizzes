@@ -902,3 +902,47 @@ variance: -0.0823
 - [ ] "variance": "\-0.0823"
 
 [Reference data types in json](https://www.w3schools.com/js/js_json_datatypes.asp)
+
+### Q87. Based on the JSON object shown, which JavaScript code would you use to find out what is in this vehicle's glove box while assigning the glove box contents to a new variable?
+
+```js
+myVehicleContents = {
+  "van": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+    },
+    "exterior": {
+      "trunk": "jack"
+    }
+  }
+}
+```
+
+- [ ] A
+
+```js
+myVehicleContents.van.inside["glove box"] = gloveBoxContents;
+```
+
+- [x] B
+
+```js
+var gloveBoxContents = myVehicleContents.van.inside["glove box"];
+gloveBoxContents;
+```
+
+- [ ] C
+
+```js
+var gloveBoxContents = myVehicleContents.van.glove box.contents;
+gloveBoxContents;
+```
+
+- [ ] D
+
+```js
+myVehicleContents.van.inside["inside"] = gloveBoxContents;
+```
+
+[Source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)

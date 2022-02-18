@@ -835,3 +835,25 @@ Which of the following options is correct ?
 - [ ] Execute `git checkout -b <branchname>`.
 
 [Reference](https://stackoverflow.com/questions/1992364/git-recover-deleted-remote-branch)
+
+#### Q102. After checking your Git status, you get the following output, which shows the file beta-notes.js in the commit but also unstaged. How can this situation occur?
+
+```bash
+Changes to be committed:
+ (use "git reset HEAD <file>..." to unstage)
+
+  modified: beta-notes.js
+
+Changes not staged for commit:
+ (use "git add <file>..." to update what will be committed)
+ (use "git checkout -- <file>..." to discard changes in working directory)
+
+  modified: beta-notes.js
+```
+
+- [ ] There were two copies of beta-notes.js but one was deleted.
+- [ ] There are two tracked copies of beta-notes.js but one was removed from the commit.
+- [ ] Two copies of beta-notes.js were created, but only one is being tracked.
+- [x] beta-notes.js was staged, then modified afterwards, creating two different versions of the file.
+
+[Reference](https://stackoverflow.com/questions/24837841/can-a-file-be-both-staged-and-unstaged-in-git)
