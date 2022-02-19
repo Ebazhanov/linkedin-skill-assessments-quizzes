@@ -1516,3 +1516,10 @@ letters4 = list(my_dictionary)
 - [ ] `because of the end keyword at the end of the for loop`
 - [ ] `because of the block is surrounded by brackets ({})`
 - [ ] `because of the blank space at the end of the body of the for loop`
+
+#### Q114. What Python mechanism is best suited for telling a user they are using a deprecated function
+
+- [ ] sys.stdout
+- [ ] traceback
+- [x] warnings
+- [ ] exceptions
