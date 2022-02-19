@@ -7,7 +7,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-765-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-766-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1102,6 +1102,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://mahesh9340.netlify.app/"><img src="https://avatars.githubusercontent.com/u/53929423?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mahesh Dattatraya Babar</b></sub></a><br /><a href="#design-maheshdbabar9340" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=maheshdbabar9340" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/zihang-jin-a38b6417b/"><img src="https://avatars.githubusercontent.com/u/47680904?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jin Zihang</b></sub></a><br /><a href="#design-JinZihang" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=JinZihang" title="Code">💻</a></td>
+    <td align="center"><a href="https://developer.aylanetworks.com/"><img src="https://avatars.githubusercontent.com/u/627740?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bikramjit Ganguly</b></sub></a><br /><a href="#design-bganguly" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=bganguly" title="Code">💻</a></td>
   </tr>
 </table>
 
