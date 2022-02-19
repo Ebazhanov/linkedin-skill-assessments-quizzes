@@ -946,3 +946,10 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 ```
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+
+### Q88. What characters are used to define an object?
+
+- [ ] ||
+- [x] {}
+- [ ] ()
+- [ ] []
