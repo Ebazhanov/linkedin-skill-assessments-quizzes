@@ -1724,7 +1724,7 @@ System.out.println(b == c);
 class Main {
 	public static void main(String[] args) {
 
-		List<string> list = new ArrayList<String>(Arrays.asList("a","b","c"));
+		List<String> list = new ArrayList<String>(Arrays.asList("a","b","c"));
 
 		for (String value : list) {
 			if (value.equals("a")){
@@ -1740,4 +1740,4 @@ class Main {
 - [ ] ArrayList does not implement the `List` interface.
 - [ ] The `List` interface does not allow an argument of type String to be passed to the remove method.
 - [ ] Strings should be compared using `==` instead of `equals`.
-- [ ] Modifying a collection while iterating through it can throw a ConcurrentModificationException
+- [x] Modifying a collection while iterating through it can throw a ConcurrentModificationException
