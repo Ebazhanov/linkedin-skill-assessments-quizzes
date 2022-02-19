@@ -976,3 +976,12 @@ Dog
       `while ($i < 10) {`
       ` echo ++$i . '<br/>';`
       `}`
+
+#### Q82. Which are types of control structures in PHP?
+
+- [x] `break`, `continue`, `do-while`, `exception`, `for`, `foreach`, `if`, `switch`, `throw`, `while`
+- [ ] `values`, `operators`, `expressions`, `keywords`, `comments`
+- [ ] `for`, `foreach`, `if`, `else`, `else if`, `switch`, `tries`, `throws`, `while`
+- [ ] `if-then-else`, `do-while`, `for-each`, `go-to`, `stop-when`
+
+[reference](https://www.php.net/manual/en/language.control-structures.php)

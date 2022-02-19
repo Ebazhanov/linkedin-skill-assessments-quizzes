@@ -1509,3 +1509,10 @@ letters4 = list(my_dictionary)
 - [ ] You use `try/except` blocks so that none of your functions or methods return `None`.
       
 [Reference](https://runestone.academy/ns/books/published/fopp/Exceptions/using-exceptions.html#:~:text=The%20reason%20to%20use%20try,you're%20writing%20the%20code)
+
+#### Q113. In Python, how can the compiler identify the inner block of a for loop?
+
+- [x] `because of the level of indentation after the for loop`
+- [ ] `because of the end keyword at the end of the for loop`
+- [ ] `because of the block is surrounded by brackets ({})`
+- [ ] `because of the blank space at the end of the body of the for loop`

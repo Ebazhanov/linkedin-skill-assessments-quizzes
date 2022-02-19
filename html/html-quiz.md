@@ -1634,3 +1634,147 @@ As Steve Krug once said, happy talk must die.
 
 `The <article> HTML element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Example:a user-submitted comment.`
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
+
+#### Q104. To make something editable by the user, you need to set the _____ attribute to _____.
+
+- [ ] `access`; allow
+- [ ] `designMode`; true
+- [x] `contenteditable`; true
+- [ ] `contenteditable`; yes
+
+`The contenteditable global attribute is an enumerated attribute indicating if the element should be editable by the user. If so, the browser modifies its widget to allow editing. The attribute must take one of the following values: true or an empty string, which indicates that the element is editable; false, which indicates that the element is not editable.`
+[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable)
+
+#### Q105. Which choice is the standard way to include a value in a form without making it visible to or editable by the user?
+
+- [ ] `<input type="invisible" name="important" value="information">`
+- [ ] `<input type="text" style="display: none;" name="important" value="information">`
+- [x] `<input type="hidden" name="important" value="information">`
+- [ ] `<input type="text" hidden name="important" value="information">`
+
+`<input> elements of type hidden let web developers include data that cannot be seen or modified by users when a form is submitted. For example, the ID of the content that is currently being ordered or edited, or a unique security token. Hidden inputs are completely invisible in the rendered page, and there is no way to make it visible in the page's content.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden)
+
+#### Q106. What is the semantic way to add an identifying title to a table?
+
+- [ ] `<table><label>Heading</label>...</table>`
+- [ ] `<table><title>Heading</title>...</table>`
+- [ ] `<table><legend>Heading</legend>...</table>`
+- [x] `<table><caption>Heading</caption>...</table>`
+
+`The <caption> HTML element specifies the caption (or title) of a table.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption)
+
+#### Q107. Which image file referenced in this `img` element's `srcset` attribute should a browser on a small mobile phone load?
+
+```html
+<img srcset="medium.jpg 320w, large.jpg 1280w" src="small.jpg" alt="Our favorite image" sizes="(min-width: 1200px) 640px, 100vw">
+```
+
+- [ ] small.jpg
+- [ ] medium.jpg
+- [ ] none of them
+- [x] large.jpg
+
+`The browser will: 1. Look at its device width. 2. Work out which media condition in the sizes list is the first one to be true. 3. Look at the slot size given to that media query. 4. Load the image referenced in the srcset list that has the same size as the slot or, if there isn't one, the first image that is bigger than the chosen slot size.` [Source](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+
+#### Q108. What is the correct way to add a submit URL to a `button` element?
+
+- [x] A
+
+```HTML
+<button formaction="http://example.com/process">
+  Process daata
+</button>
+```
+
+- [ ] B
+
+```HTML
+<button method="http://example.com/process">
+  Process daata
+</button>
+```
+
+- [ ] C
+
+```HTML
+<button action="http://example.com/process">
+  Process daata
+</button>
+```
+
+- [ ] D
+
+```HTML
+<button submit="http://example.com/process">
+  Process daata
+</button>
+```
+
+`formaction — The URL that processes the information submitted by the button. Overrides the action attribute of the button's form owner. Does nothing if there is no form owner.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formaction)
+
+
+#### Q109. Which description is coded correctly?
+
+- [ ] A
+
+```HTML
+<dl>
+  <dt>Server</dt>
+  <dd>Software used to serve webpages, like Apache.</dd>
+  <dd> Hardware used to provide data to other computers.</dd>
+  <!-- Other terms and descriptions -->
+</dl>
+```
+
+- [ ] B
+
+```HTML
+<dt>
+  <dl>Server</dl>
+  <dd>Software used to serve webpages, like Apache.</dd>
+  <dd> Hardware used to provide data to other computers.</dd>
+  <!-- Other terms and descriptions -->
+</dt>
+```
+
+- [ ] C
+
+```HTML
+<dl>
+  <dt>Server</dt>
+  <dd>Software used to serve webpages, like Apache.</dd>
+  <dt> Hardware used to provide data to other computers.</dt>
+  <!-- Other terms and descriptions -->
+</dl>
+```
+
+- [ ] D
+
+```HTML
+<dl>
+  <dd>Server</dd>
+  <dt>Software used to serve webpages, like Apache.</dt>
+  <dt> Hardware used to provide data to other computers.</dt>
+  <!-- Other terms and descriptions -->
+</dl>
+```
+
+#### Q110. What is wrong with this code?
+
+```HTML
+<ul>
+  <h2>Espresso Drinks</h2>
+  <li>Espresso</li>
+  <li>Latte</li>
+  <li>Cappuccino</li>
+  <li>Mocha</li>
+</ul>
+```
+- [ ] Nothing is wrong.
+- [ ] `<ul>` cannot contain a heading element as a direct child.
+- [ ] An `<h1>` should be used here instead of an `<h2>` tag.
+- [ ] Only `<ol>` allows direct descendants to contain elements other than an `<li>`, so use an `<ol>` here instead.
+
+
+
+
