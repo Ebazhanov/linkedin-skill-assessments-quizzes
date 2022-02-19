@@ -1669,7 +1669,7 @@ const lion = 1;
 let tiger = 2;
 var bear;
 
-++lion
+++lion;
 bear += lion + tiger;
 tiger++;
 ```
@@ -1685,8 +1685,8 @@ tiger++;
 #### Q122. What will be the value of `result` after running this code?
 
 ```js
-const person = { name: "Dave", age: 40, hairColor: "blue" };
-const result = Object.keys(person).map(x => x.toUpperCase());
+const person = { name: 'Dave', age: 40, hairColor: 'blue' };
+const result = Object.keys(person).map((x) => x.toUpperCase());
 ```
 
 - [ ] It will throw a TypeError.

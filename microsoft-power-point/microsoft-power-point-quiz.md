@@ -540,7 +540,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] Change both presentations to the same theme before copying and pasting.
 - [ ] Select **Picture** when pasting the slides.
 
-#### Q71. What happens when you press the Esc key while playing a **From Current Slide** or **From Beginning** slide show? 
+#### Q71. What happens when you press the Esc key while playing a **From Current Slide** or **From Beginning** slide show?
 
 - [ ] The current slide is temporary hidden.
 - [x] The slide show ends and you return to your previous view.

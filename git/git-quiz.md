@@ -826,7 +826,7 @@ Which of the following options is correct ?
 - [ ] The branch has not been pushed to the remote repository.
 
 [reference here](https://www.git-tower.com/learn/git/faq/detached-head-when-checkout-commit)
-  
+
 #### Q101. After accidentally deleting a branch in your local repository, how can you recover it?
 
 - [ ] It cannot be recovered.

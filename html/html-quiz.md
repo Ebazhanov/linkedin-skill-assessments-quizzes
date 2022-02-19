@@ -1635,7 +1635,7 @@ As Steve Krug once said, happy talk must die.
 `The <article> HTML element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Example:a user-submitted comment.`
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
 
-#### Q104. To make something editable by the user, you need to set the _____ attribute to _____.
+#### Q104. To make something editable by the user, you need to set the **\_** attribute to **\_**.
 
 - [ ] `access`; allow
 - [ ] `designMode`; true
@@ -1666,7 +1666,12 @@ As Steve Krug once said, happy talk must die.
 #### Q107. Which image file referenced in this `img` element's `srcset` attribute should a browser on a small mobile phone load?
 
 ```html
-<img srcset="medium.jpg 320w, large.jpg 1280w" src="small.jpg" alt="Our favorite image" sizes="(min-width: 1200px) 640px, 100vw">
+<img
+  srcset="medium.jpg 320w, large.jpg 1280w"
+  src="small.jpg"
+  alt="Our favorite image"
+  sizes="(min-width: 1200px) 640px, 100vw"
+/>
 ```
 
 - [ ] small.jpg
@@ -1711,7 +1716,6 @@ As Steve Krug once said, happy talk must die.
 ```
 
 `formaction — The URL that processes the information submitted by the button. Overrides the action attribute of the button's form owner. Does nothing if there is no form owner.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formaction)
-
 
 #### Q109. Which description is coded correctly?
 
@@ -1770,11 +1774,8 @@ As Steve Krug once said, happy talk must die.
   <li>Mocha</li>
 </ul>
 ```
+
 - [ ] Nothing is wrong.
 - [ ] `<ul>` cannot contain a heading element as a direct child.
 - [ ] An `<h1>` should be used here instead of an `<h2>` tag.
 - [ ] Only `<ol>` allows direct descendants to contain elements other than an `<li>`, so use an `<ol>` here instead.
-
-
-
-

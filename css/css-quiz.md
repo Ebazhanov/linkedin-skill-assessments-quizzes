@@ -1828,9 +1828,9 @@ p + section {
 ```
 
 ```html
-  <div class="pen">
-    <span id="puppy">🐶</span>
-  </div>
+<div class="pen">
+  <span id="puppy">🐶</span>
+</div>
 ```
 
 - [ ] top-right corner

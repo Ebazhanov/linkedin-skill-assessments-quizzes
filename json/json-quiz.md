@@ -907,28 +907,28 @@ variance: -0.0823
 
 ```js
 myVehicleContents = {
-  "van": {
-    "inside": {
-      "glove box": "maps",
-      "passenger seat": "crumbs"
+  van: {
+    inside: {
+      'glove box': 'maps',
+      'passenger seat': 'crumbs',
     },
-    "exterior": {
-      "trunk": "jack"
-    }
-  }
-}
+    exterior: {
+      trunk: 'jack',
+    },
+  },
+};
 ```
 
 - [ ] A
 
 ```js
-myVehicleContents.van.inside["glove box"] = gloveBoxContents;
+myVehicleContents.van.inside['glove box'] = gloveBoxContents;
 ```
 
 - [x] B
 
 ```js
-var gloveBoxContents = myVehicleContents.van.inside["glove box"];
+var gloveBoxContents = myVehicleContents.van.inside['glove box'];
 gloveBoxContents;
 ```
 
@@ -942,7 +942,7 @@ gloveBoxContents;
 - [ ] D
 
 ```js
-myVehicleContents.van.inside["inside"] = gloveBoxContents;
+myVehicleContents.van.inside['inside'] = gloveBoxContents;
 ```
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)

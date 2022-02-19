@@ -671,6 +671,7 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] `/proc/partitions` is the kernel's list of partitions held in ram. `fdisk -l` reads the partition table from the drive itself.
 
 ### Q82. What would be in out.txt?
+
     cat < in.txt > out.txt
 
 - [x] the content of in.txt.

@@ -497,7 +497,7 @@ D. They must have no duplicate data rows.
 - [ ] Merge
 - [ ] Group
 
-#### Q63. Power BI Q&A chooses the best visualization based on data type - for example, a __ chart for date data and a __ for state/province data.
+#### Q63. Power BI Q&A chooses the best visualization based on data type - for example, a ** chart for date data and a ** for state/province data.
 
 - [ ] column; map
 - [ ] line; map
@@ -509,9 +509,10 @@ D. They must have no duplicate data rows.
 - [ ] A snowflake schema cannot be modeled in Power BI.
 - [ ] A snowflake schema can be modeled only in Power BI service.
 - [x] A snowflake schema is much less efficient for Power BI.
-- [ ] A snowflake schema has more levels of lookup tables. 
+- [ ] A snowflake schema has more levels of lookup tables.
 
 #### Q65. What are benefits of modifying your Excel data source in the Power Query Editor rather than in Excel?
+
     A. You can track the changes you make.
     B. It is less error prone than manual editing.
     C. It will not affect other users of the spreadsheet.
