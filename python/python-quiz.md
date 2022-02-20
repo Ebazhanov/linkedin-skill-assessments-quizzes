@@ -1402,20 +1402,7 @@ print (f"The number is {number}")
 
 [Reference](https://www.w3schools.com/python/ref_list_append.asp)
 
-#### Q105. Which command will create a list from 10 down to 1? Example:
-
-```
-[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-```
-
-- [ ] reversed(list(range(1,11)))
-- [ ] list(reversed(range(1,10)))
-- [ ] list(range(10, 1, -1))
-- [x] list(reversed(range(1,11)))
-
-[Reference](https://www.programiz.com/python-programming/methods/built-in/reversed)
-
-#### Q106. Suppose you have a variable named `vector` of type `np.array` with 10.000 elements. How can you turn `vector` into a variable named `matrix` with dimensions 100x100?: _[ANSWER NEEDED]_
+#### Q105. Suppose you have a variable named `vector` of type `np.array` with 10.000 elements. How can you turn `vector` into a variable named `matrix` with dimensions 100x100?: _[ANSWER NEEDED]_
 
 - [ ] matrix = matrix(vector,100,100)
 - [ ] matrix = vector.to_matrix(100,100)
@@ -1432,28 +1419,28 @@ print(matrix.shape)
 (100, 100)
 ```
 
-#### Q107. NumPy allows you to multiply two arrays without a for loop. This is an example of \_.
+#### Q106. NumPy allows you to multiply two arrays without a for loop. This is an example of \_.
 
 - [x] vectorization
 - [ ] attributions
 - [ ] accelaration
 - [ ] functional programming
 
-#### Q108. What built-in Python data type can be used as a hash table?
+#### Q107. What built-in Python data type can be used as a hash table?
 
 - [ ] `set`
 - [ ] `list`
 - [ ] `tuple`
 - [x] `dictionary`
 
-#### Q109. Which Python function allows you to execute Linux shell commands in Python?
+#### Q108. Which Python function allows you to execute Linux shell commands in Python?
 
 - [ ] `sys.exc_info()`
 - [x] `os.system()`
 - [ ] `os.getcwd()`
 - [ ] `sys.executable`
 
-#### Q110. Suppose you have the following code snippet and want to extract a list with only the letters. Which fragment of code will _not_ achieve that goal?
+#### Q109. Suppose you have the following code snippet and want to extract a list with only the letters. Which fragment of code will _not_ achieve that goal?
 
 ```
 my_dictionary = {
@@ -1494,14 +1481,14 @@ letters4 = list(my_dictionary)
 
 **Explanation:** The first one (the correct option) returns the list of the values (the letters). The rest of the options return a list of the keys.
 
-#### Q111. THen an array is large, NumPy will not print the entire array when given the built-in `print` function. What function can you use within NumPy to force it to print the entire array?
+#### Q110. When an array is large, NumPy will not print the entire array when given the built-in `print` function. What function can you use within NumPy to force it to print the entire array?
 
 - [ ] `set_printparams`
 - [x] `set_printoptions`
 - [ ] `set_fullprint`
 - [ ] `setp_printwhole`
 
-#### Q112. When would you use a try/except block in code?
+#### Q111. When would you use a try/except block in code?
 
 - [x] You use `try/except` blocks when you want to run some code, but need a way to execute different code if an exception is raised.
 - [ ] You use `try/except` blocks inside of unit tests so that the unit testes will always pass.
@@ -1510,14 +1497,14 @@ letters4 = list(my_dictionary)
 
 [Reference](https://runestone.academy/ns/books/published/fopp/Exceptions/using-exceptions.html#:~:text=The%20reason%20to%20use%20try,you're%20writing%20the%20code)
 
-#### Q113. In Python, how can the compiler identify the inner block of a for loop?
+#### Q112. In Python, how can the compiler identify the inner block of a for loop?
 
 - [x] `because of the level of indentation after the for loop`
 - [ ] `because of the end keyword at the end of the for loop`
 - [ ] `because of the block is surrounded by brackets ({})`
 - [ ] `because of the blank space at the end of the body of the for loop`
 
-#### Q114. What Python mechanism is best suited for telling a user they are using a deprecated function
+#### Q113. What Python mechanism is best suited for telling a user they are using a deprecated function
 
 - [ ] sys.stdout
 - [ ] traceback
