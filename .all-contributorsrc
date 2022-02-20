@@ -7535,6 +7535,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "QuestionableGuise",
+      "name": "QuestionableGuise",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97465731?v=4",
+      "profile": "https://github.com/QuestionableGuise",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
