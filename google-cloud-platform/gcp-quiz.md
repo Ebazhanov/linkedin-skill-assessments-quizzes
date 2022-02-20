@@ -398,10 +398,9 @@ Explanation: _BigQuery offers a choice of two pricing models for runnig queries:
 
 [Reference](https://cloud.google.com/bigquery/pricing)
 
-#### Q53. How do you run a Docker container image on a Google Compute Engine virtual machine? 
+#### Q53. How do you run a Docker container image on a Google Compute Engine virtual machine?
 
-- [ ] Create a VM instance, and then SSH into the instance and install Kubernetes tools. 
-- [ ] Create a VM instance, and then SSH into the instance and install Docker tools. 
-- [ ] Create a VM instance and, in the web UI, select Allow HTTP traffic. 
-- [ ] Create a VM instance and, in the web Ul, select Deploy a container image to this instance. 
-
+- [ ] Create a VM instance, and then SSH into the instance and install Kubernetes tools.
+- [ ] Create a VM instance, and then SSH into the instance and install Docker tools.
+- [ ] Create a VM instance and, in the web UI, select Allow HTTP traffic.
+- [ ] Create a VM instance and, in the web Ul, select Deploy a container image to this instance.

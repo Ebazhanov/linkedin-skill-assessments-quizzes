@@ -70,7 +70,7 @@
 
 #### Q9. Consider the Power BI extract, transform, and load process (ETL). During this process, data is read and then
 
-- [x] stored in S#### QL Server
+- [x] stored in SQL Server
 - [ ] written to an OLAP cube
 - [ ] assigned a data type
 - [ ] sorted by primary key

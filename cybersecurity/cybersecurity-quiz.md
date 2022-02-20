@@ -647,9 +647,9 @@ autopsy is for forensic analysis
 
 #### Q87. Your organization service customer orders with a custom ordering system developed in-hose. You are responsible for recommending a cloud model to meet the following requirements:
 
-- Control of security required for regulatory compliance
-- Legacy application and dtatbase support
-- Scalability to meet seasonal increases in demand
+    Control of security required for regulatory compliance
+    Legacy application and database support
+    Scalability to meet seasonal increases in demand
 
 Which cloud model is the best option for these requirements?
 
