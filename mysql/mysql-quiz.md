@@ -804,9 +804,7 @@ Explanation: CTEs do not create temporary tables, they only work within a signle
 
 Reference: [4.2.2.4 Program Option Modifiers](https://dev.mysql.com/doc/refman/8.0/en/option-modifiers.html)
 
-#### Q88. REMOVED (Duplicate of Q43)
-
-#### Q89. What does this SQL statement return?
+#### Q88. What does this SQL statement return?
 
 ```
 SELECT name FROM students WHERE name REGEXP '^to';
@@ -817,7 +815,7 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] all names without "to," such as Samantha or Kathryn
 - [ ] all names ending with "to," such as Roberto
 
-#### Q90. You are working with the tables as shown in the diagram. You need to generate the list of price totals for each make and model of car, with subtotals for each make, and the grand total of all prices. Which SQL clause do you use?
+#### Q89. You are working with the tables as shown in the diagram. You need to generate the list of price totals for each make and model of car, with subtotals for each make, and the grand total of all prices. Which SQL clause do you use?
 
 ![mysql picture](images/mysql_q92.png)
 
@@ -826,49 +824,49 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] UNION ALL
 - [x] WITH ROLLUP
 
-#### Q91. The left and right joins are also known as \_.
+#### Q90. The left and right joins are also known as \_.
 
 - [ ] Inner Join
 - [ ] Natural Join
 - [x] Outer Join
 - [ ] Cartesian Join
 
-#### Q92. What is the valid way to create a database view in MySQL?
+#### Q91. What is the valid way to create a database view in MySQL?
 
 - [ ] `CREATE VIEW v1 SELECT * FROM t1 WHERE col1 > 10;`
 - [ ] `CREATE VIEW v1 AS BEGIN SELECT * FROM t1 END;`
 - [ ] `CREATE VIEW v1 BEGIN SELECT * FROM t1 END;`
 - [x] `CREATE VIEW v1 AS SELECT * FROM t1;`
 
-#### Q93. How are permissions implemented in MySQL?
+#### Q92. How are permissions implemented in MySQL?
 
 - [ ] encrypted algorithms
 - [ ] access control lists
 - [x] user settings
 - [ ] administrator schema
 
-#### Q94. Inside a transaction, several operations need to be performed. What would you do if an exception happens during that transaction?
+#### Q93. Inside a transaction, several operations need to be performed. What would you do if an exception happens during that transaction?
 
 - [ ] `UNDO`
 - [ ] `UNCOMMIT`
 - [x] `ROLLBACK`
 - [ ] `REVERSE
 
-#### Q95. What function finds the current time or date in MySQL?
+#### Q94. What function finds the current time or date in MySQL?
 
 - [ ] DATE()
 - [ ] GETDATE()
 - [x] CURDATE()
 - [ ] CURRENT()
 
-#### Q96. What is the correct usage of ENUM in MySQL?
+#### Q95. What is the correct usage of ENUM in MySQL?
 
 - [ ] `Create table size (ENUM ('Small','Medium','Large'));`
 - [ ] `Create table ENUM (name ('Small','Medium','Large'));`
 - [ ] `Create table size (name: ENUM['Small','Medium','Large']);`
 - [x] `Create table size (name ENUM('Small','Medium','Large'));`
 
-#### Q97. You are working with the tables as shown in this diagram. You need to make sure that any record added to the purchases table consists of a customerID, which already exists in the customers table, and a carID, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
+#### Q96. You are working with the tables as shown in this diagram. You need to make sure that any record added to the purchases table consists of a customerID, which already exists in the customers table, and a carID, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
 
 ![mysql picture](images/mysql_q92.png)
 
