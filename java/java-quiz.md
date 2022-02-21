@@ -1741,3 +1741,12 @@ class Main {
 - [ ] The `List` interface does not allow an argument of type String to be passed to the remove method.
 - [ ] Strings should be compared using `==` instead of `equals`.
 - [x] Modifying a collection while iterating through it can throw a ConcurrentModificationException
+
+#### Q120. What keyword is added to a method declaration to ensure that two threads do not simultaneously execute it on the same object instance?
+
+- [ ] native
+- [ ] volatile
+- [x] synchronized
+- [ ] lock
+
+[Java Documentation: Synchronized methods](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html)
