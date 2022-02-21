@@ -686,6 +686,8 @@ echo "${VAR//man/rolling}"
 
 #### Q57. What statement would you use to print this in the console?
 
+```Shall we play a game? yes\no```
+
 - [ ] `echo "Shall we play a game? yes/\no"`
 - [ ] `echo "Shall we play a game\? yes\\no"`
 - [x] `echo "Shall we play a game? yes\\no"`
