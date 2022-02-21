@@ -702,3 +702,26 @@ Reason: By default, all the endpoints are enabled in Spring Boot Application exc
 - [ ] You can just add the parameter Context context to any method so that the context is automatically wired in.
 
 [spring(dot)io](https://spring.io/blog/2011/06/21/spring-3-1-m2-testing-with-configuration-classes-and-profiles#:~:text=By%20default%20the%20ApplicationContext%20is,%40Resource%20%2C%20or%20%40Inject%20.)
+
+#### Q68. What interface can be specified as a parameter in a controller method signature to handle file uploads?
+
+- [ ] FilePath
+- [x] MultipartFile
+- [ ] File
+- [ ] MvcFile
+
+
+#### Q69. What is the purpose of this endpoint?
+
+```java
+@GetMapping("api/v1/domain/resource/{id}")
+public Pojo getPojo(@PathVariable("id") String id) {
+  return testService.getPojo(id);
+}
+```
+
+- [ ] This endpoint is designed to delete an object of the typetype Pojo with the passed in path variable
+- [x] This endpoint is designed to return JSON mapped to the object type Pojo with the passed in id.
+- [ ] This endpoint returns the path variable that describes the Pojo's location within the container.
+- [ ] This endpoint is designed to update an existing resource of the object type Pojo with the passed in id.
+
