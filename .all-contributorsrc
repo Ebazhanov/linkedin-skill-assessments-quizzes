@@ -7555,6 +7555,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "rochadev",
+      "name": "Bruno Rocha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30984260?v=4",
+      "profile": "http://rochadev.tk",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
