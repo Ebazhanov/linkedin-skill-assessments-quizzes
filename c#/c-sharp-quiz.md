@@ -672,3 +672,14 @@ public int Password
 - [x] enum AppState {Offline, Loading, Ready}
 
 [Official documentation: Enum](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/enum)
+
+#### Q62. What is the main difference between a value type and a reference type?
+
+- [ ] A value type can be any primitive type, while reference types must be type-agnostic.
+- [ ] A value type refers to another value, while a reference type refers to a value in memory.
+- [x] A value type stores an actual value, while a reference type is a pointer to a value.
+- [ ] A value type is available only at runtime, while a reference type is available only at compile time.
+
+[Official documentation: Value types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-types)
+
+[Official documentation: Reference types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types)

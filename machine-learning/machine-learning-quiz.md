@@ -703,3 +703,12 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] the probability that certain conditions are met
 - [ ] the probability that, based on certain conditions, something will always be incorrect
 - [ ] the probability of something being the correct answer
+
+#### Q92. Naive Bayes looks at each _____ predictor and creates a probability that belongs in each class.
+
+- [ ] conditional
+- [ ] multiclass
+- [x] independent
+- [ ] binary
+
+[Reference](https://towardsdatascience.com/all-about-naive-bayes-8e13cef044cf)
