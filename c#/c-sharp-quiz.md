@@ -690,10 +690,14 @@ public int Password
 - [x] The `break` keyword literally breaks out of a control flow statement, while `continue` ignores the rest of the control statement or iteration and starts the next one.
 - [ ] The `break` keyword literally breaks out of the current control flow code and stops it dead, while `continue` keeps executing the code after an exception is thrown.
 - [ ] The `break` keyword jumps out of an iteration and then proceeds with the rest of the control flow code, while `continue` stops the executing code dead.
-    
+
+[Official documentation: Jump statements](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/statements/jump-statements)
+
 #### Q64. Which code snippet correctly declares a variable names userId with a public `get` and private `set`?
 
 - [ ] `public int userID <get, set>;`
 - [ ] `public int userID [get, private set];`
 - [x] `public int userID { get; private set; }`
 - [ ] `public int userID = { public get, private set};`
+
+[Official documentation: Properties](https://docs.microsoft.com/en-us/dotnet/csharp/properties)
