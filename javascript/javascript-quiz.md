@@ -1697,3 +1697,38 @@ const result = Object.keys(person).map((x) => x.toUpperCase());
 1. [Object.keys() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
 2. [Array.prototype.map() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 3. [String.prototype.toUpperCase() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
+
+#### Q123. What will be logged to the console?
+
+```js
+console.log("I");
+
+setTimeout(() => {
+  console.log("love")
+}, 0);
+
+console.log("JavaScript!");
+```
+
+- [x] The output may change with each execution of the code and cannot be determined.
+- [ ]
+  ```txt
+  I
+  love
+  JavaScript!
+  ```
+- [ ]
+  ```txt
+  I
+  JavaScript!
+  love
+  ```
+- [ ]
+  ```txt
+  love
+  I
+  JavaScript!
+  ```
+
+[MDN Web Docs: `setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
+- If the `delay` parameter is omitted, a value of 0 is used, meaning execute "immediately", or more accurately, the next event cycle. Note that in either case, the actual delay may be longer than intended; see [Reasons for delays longer than specified](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout#reasons_for_delays_longer_than_specified) below.
