@@ -686,7 +686,7 @@ public int Password
 
 #### Q63. What is the difference between the `break` and `continue` keywords?
 
-- [ ] The `break` keyword is used to break out of multiple iteration statements, while `continue` can only break out of break out of code blocks that have single iterations.
+- [ ] The `break` keyword is used to break out of multiple iteration statements, while `continue` can only break out of code blocks that have single iterations.
 - [x] The `break` keyword literally breaks out of a control flow statement, while `continue` ignores the rest of the control statement or iteration and starts the next one.
 - [ ] The `break` keyword literally breaks out of the current control flow code and stops it dead, while `continue` keeps executing the code after an exception is thrown.
 - [ ] The `break` keyword jumps out of an iteration and then proceeds with the rest of the control flow code, while `continue` stops the executing code dead.
