@@ -7575,6 +7575,16 @@
         "code",
         "content"
       ]
+    },
+    {
+      "login": "crucian-afk",
+      "name": "crucian-afk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80586085?v=4",
+      "profile": "https://github.com/crucian-afk",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
