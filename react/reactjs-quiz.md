@@ -1125,3 +1125,15 @@ function Dish() {
 - [x] parent component
 - [ ] nested component
 - [ ] sibling component
+
+
+#### Q99. What pattern is being used in this code block
+
+````
+const {tree, lake } = nature;
+````
+
+- [ ] fucntion defaults
+- [x] array destructuring
+- [ ] destructuring assignement
+- [ ] PRPL pattern
