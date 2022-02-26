@@ -678,3 +678,10 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] the output from the command line.
 - [ ] Nothing, because you cannot redirect from a file (in.txt) to another file (out.txt). You can redirect only from a command to a file.
 - [ ] Nothing, The redirect will create a new empty file, but there will not be any output from the cat command to redirect.
+
+### Q83. Using alternation in a POSIX-extended regular expression, which numbers would this pattern match?
+
+- [x] 0-99 and 200-299
+- [ ] 0-99
+- [ ] 200-299
+- [ ] 0-299
