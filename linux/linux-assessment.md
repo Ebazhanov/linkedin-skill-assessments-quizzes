@@ -681,6 +681,10 @@ if [[ $FILE == $GLOB ]] ;then
 
 ### Q83. Using alternation in a POSIX-extended regular expression, which numbers would this pattern match?
 
+```
+^(([0-9][0-9]?)|(2[0-9][0-9]))$
+```
+
 - [x] 0-99 and 200-299
 - [ ] 0-99
 - [ ] 200-299
