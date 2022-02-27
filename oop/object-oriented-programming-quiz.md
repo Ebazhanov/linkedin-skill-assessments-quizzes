@@ -647,3 +647,10 @@ public class Honda extends Car{}
 - [ ] reference to base class // References to the base class are not required in Java, Javascript & Python
 - [ ] reference to this pointer // While Python & Javascript may require passing this or self in the constructor, It is not passed in Java constructor.
 - [x] none // Above 3 are incorrect so "none" is the answer
+
+#### Q83. What are the four principles of object-oriented programming?
+
+- [ ] manipulation, encapsulation, inheritance, and dependency inversion
+- [ ] dependency inversion, open/closed principle, encapsulation, and inheritance
+- [ ] interface segregation, abstraction, dependency inversion, and inheritance
+- [x] abstraction, encapsulation, inheritance, and polymorphism
