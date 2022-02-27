@@ -1510,3 +1510,10 @@ letters4 = list(my_dictionary)
 - [ ] traceback
 - [x] warnings
 - [ ] exceptions
+
+#### Q114. Given a list defined as numbers = [1,2,3,4] , what is the value of numbers[-2]?
+
+- [ ] 1
+- [ ] 2
+- [x] 3
+- [ ] An IndexError exception is thrown.
