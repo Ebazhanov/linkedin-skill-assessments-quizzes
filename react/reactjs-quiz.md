@@ -1090,8 +1090,8 @@ class Huggable extends React.Component {
 
 - [ ] `<button onClick={(name) => this.hug(name)}>Hug Button</button>;`
 - [ ] `<button onClick={this.hug(e, name)}>Hug Button</button>;`
-- [ ] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>;`
-- [ ] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>;`
+- [ ] `<button onClick={(e) => hug(name, e)}>Hug Button</button>;`
+- [x] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>;`
 
 #### Q96. What syntax do you use to create a component in React?
 
@@ -1107,7 +1107,7 @@ class Huggable extends React.Component {
 - [ ] onBlur
 - [ ] onPress
 - [ ] defaultValue
-- [ ] disabled
+- [x] disabled
 
 #### Q98. In this function, which is the best way to describe the Dish component?
 
@@ -1125,3 +1125,17 @@ function Dish() {
 - [x] parent component
 - [ ] nested component
 - [ ] sibling component
+
+#### Q99. When using webpack, why would you need to use a loader?
+
+- [ ] to load the website into everyone's phone
+- [x] to load external data
+- [ ] to preprocess files
+- [ ] to put together physical file folders
+
+#### Q100. Why is it a good idea to pass a function to setState instead of an object?
+
+- [ ] setState is asynchoronous and might result in out sync values
+- [ ] it automatically updates a component
+- [x] it makes sure that the object is not mutated
+- [ ] it provides better encapsulation
