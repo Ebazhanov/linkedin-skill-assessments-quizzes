@@ -1240,3 +1240,41 @@ int main(){
 - [ ] `std::cin` and `std::cout` are invalid. The correct names for the character input and output streams are `cin` and `cout`.
 - [ ] The address of `str` is supposed to be used. That is `&str` instead of `str`.
 - [x] The input operator flow is inverted. it should start from `std::cin` and then flow (>>) into `str`.
+
+#### Q74. What is this expression equivalent to?
+
+```cpp
+A->B
+```
+
+- [ ] `*(A.B)`
+- [ ] `B=A`
+- [x] `(*A).B`
+- [ ] `&A.B`
+
+#### Q75. Which statement is true when declaring the member variable `count` as static?
+
+```cpp
+class my_class{
+    public: static int count;
+};
+```
+
+- [ ] All objects that try to access their count member variable actually refer to the only class-bound static count variable.
+- [ ] The variable is allocated only once, regardless of how many objects are instantiated, because it is bound to the class itself, not its instances.
+- [ ] The variable existd when no objects of the class have been defined, so it can be modified at any point in the source code.
+- [x] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
+
+#### Q76. When placed in a valid execution context, which statement will dynamically allocate memory from the heap for an integer of value 11?
+
+- [ ] `int anInt = new int(11);`
+- [ ] `int* anInt = new int[11];`
+- [ ] `int anInt = new int[11];`
+- [x] `int* anInt = new int(11);`
+
+#### Q77. Which choice best describes the type `long`?
+
+- [x] an integer number of at least 32 bits
+- [ ] a string with more than 255 characters
+- [ ] a pointer
+- [ ] a 64-bit floating point number
