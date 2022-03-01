@@ -7,7 +7,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-771-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-778-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -30,7 +30,7 @@ want to contribute? here is the source code https://github.com/linkedin-faq
 
 ### Table of Contents
 
-| Linkedin-quiz-questions                                                      | Questions | Answers | Your resource for answers. In case you have doubts please contact this person or add him to review your PR.                                          | Translation                                                                                                                                                                          |
+| Linkedin-quiz-questions                                                      | Questions | Answers | Your resource for answers. In case you have doubts please contact this person or add them to review your PR.                                          | Translation                                                                                                                                                                          |
 |------------------------------------------------------------------------------|-----------|---------|------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Accounting](accounting/accounting-quiz.md)                                  | 31        | 21      | [@tujinwei](https://github.com/tujinwei)                                                                                                             |                                                                                                                                                                                      |
 | [Adobe-Acrobat](adobe-acrobat/adobe-acrobat-quiz.md)                         | 19        | 19      |                                                                                                                                                      |                                                                                                                                                                                      |
@@ -1111,6 +1111,15 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/crucian-afk"><img src="https://avatars.githubusercontent.com/u/80586085?v=4?s=100" width="100px;" alt=""/><br /><sub><b>crucian-afk</b></sub></a><br /><a href="#design-crucian-afk" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=crucian-afk" title="Code">💻</a></td>
+    <td align="center"><a href="https://gainzstation.one/"><img src="https://avatars.githubusercontent.com/u/85804886?v=4?s=100" width="100px;" alt=""/><br /><sub><b>0xgainz</b></sub></a><br /><a href="#design-0xgainz" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=0xgainz" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/weirdfsh"><img src="https://avatars.githubusercontent.com/u/100484340?v=4?s=100" width="100px;" alt=""/><br /><sub><b>weirdfsh</b></sub></a><br /><a href="#design-weirdfsh" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=weirdfsh" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/valanm22"><img src="https://avatars.githubusercontent.com/u/84893551?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Valan Baptist Mathuranayagam</b></sub></a><br /><a href="#design-valanm22" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=valanm22" title="Code">💻</a></td>
+    <td align="center"><a href="https://paulkaefer.com"><img src="https://avatars.githubusercontent.com/u/2408155?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Paul Kaefer</b></sub></a><br /><a href="#design-paulkaefer" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=paulkaefer" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/GarlicWang"><img src="https://avatars.githubusercontent.com/u/59409501?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yu-Hsiang Wang</b></sub></a><br /><a href="#design-GarlicWang" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=GarlicWang" title="Code">💻</a></td>
+    <td align="center"><a href="https://MrAdib.com"><img src="https://avatars.githubusercontent.com/u/8861284?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Javad Adib</b></sub></a><br /><a href="#design-MrJavadAdib" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=MrJavadAdib" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/davidliu0930"><img src="https://avatars.githubusercontent.com/u/58803314?v=4?s=100" width="100px;" alt=""/><br /><sub><b>davidliu0930</b></sub></a><br /><a href="#design-davidliu0930" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=davidliu0930" title="Code">💻</a></td>
   </tr>
 </table>
 

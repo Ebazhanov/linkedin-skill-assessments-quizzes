@@ -780,3 +780,19 @@ int main()
     fibonacci(0,1);
 }
 ```
+
+#### Q48. Which is *not* a storage class specifier?
+
+- [x] `intern`
+- [ ] `extern`
+- [ ] `register`
+- [ ] `static`
+
+[Reference](https://en.cppreference.com/w/cpp/language/storage_duration)
+
+#### Q49. Which line of code, after execution, results in `i` having the value of 1?
+
+- [ ] `for(i=1; i<=1; i++);`
+- [ ] `for(i=1; i=10; i++);`
+- [x] `for(i=1; i==10; i++);`
+- [ ] `for(i=10; i>=1; i--);`

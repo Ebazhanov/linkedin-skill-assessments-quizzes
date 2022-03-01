@@ -897,3 +897,10 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] Align Center
 - [ ] Distribute Vertically
 - [ ] Align Middle
+
+### Q110. A file extension of .xlsm indicates what type of workbook?
+
+- [x] macro-enabled workbook
+- [ ] XML-standard workbook
+- [ ] Excel 2003 workbook
+- [ ] workbook where macros are not allowed
