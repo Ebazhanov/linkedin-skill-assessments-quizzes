@@ -610,6 +610,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] Insert Table of Figures
 
 #### Q78. In this image, what do the red lines next to the text indicate?
+Duplicated with Q50.
 
 ![image](https://i.imgur.com/JUbaoyO.png)
 
