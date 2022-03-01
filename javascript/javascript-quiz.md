@@ -524,7 +524,7 @@ let diff = function (x, y) {
 
 [Reference arrays in js are objects](https://stackoverflow.com/questions/30820611/why-doesnt-equality-check-work-with-arrays)
 
-#### Q39. What is the name of a function whose execution can be suspended and resumed at a later point? What type of function can have its execution suspended and then resumed at a later point?
+#### Q39. What type of function can have its execution suspended and then resumed at a later point?
 
 - [x] Generator function
 - [ ] Arrow function
@@ -1366,9 +1366,7 @@ console.log(x);
 
 ```js
 var sound = 'grunt';
-var bear = {
-  sound: 'roar',
-};
+var bear = { sound: 'roar'};
 function roar() {
   console.log(this.sound);
 }
@@ -1732,3 +1730,12 @@ console.log("JavaScript!");
 
 [MDN Web Docs: `setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
 - If the `delay` parameter is omitted, a value of 0 is used, meaning execute "immediately", or more accurately, the next event cycle. Note that in either case, the actual delay may be longer than intended; see [Reasons for delays longer than specified](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout#reasons_for_delays_longer_than_specified) below.
+
+#### Q124. Which language feature is used as a template for creating objects?
+
+- [x] class
+- [ ] generator function
+- [ ] proxy
+- [ ] map
+
+[Reference javascript classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
