@@ -498,6 +498,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 
 #### Q63. Which object can you NOT insert into a Word document from the Insert tab?
 
+
 - [ ] a 3D model
 - [ ] an equation
 - [x] a sketch
