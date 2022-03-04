@@ -985,3 +985,10 @@ Dog
 - [ ] `if-then-else`, `do-while`, `for-each`, `go-to`, `stop-when`
 
 [reference](https://www.php.net/manual/en/language.control-structures.php)
+
+#### Q83. Which function can you use in error handling to stop the execution of a script and is equivalent to `exit()`?
+
+- [ ] throw
+- [ ] break
+- [x] die
+- [ ] return
