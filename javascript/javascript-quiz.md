@@ -1073,7 +1073,7 @@ Javascript!
 ```
 
 
-***Reference*** https://developer.mozilla.org/en-US/docs/Web/API/setTimeout#description especially see the 'late timeouts' section.
+**Reference** https://developer.mozilla.org/en-US/docs/Web/API/setTimeout#description especially see the 'late timeouts' section.
 
 #### Q83. What will this code log to the console?
 
