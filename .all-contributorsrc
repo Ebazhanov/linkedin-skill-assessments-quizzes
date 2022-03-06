@@ -7674,7 +7674,8 @@
       "contributions": [
         "design",
         "code",
-        "content"
+        "content",
+        "bug"
       ]
     }
   ],
