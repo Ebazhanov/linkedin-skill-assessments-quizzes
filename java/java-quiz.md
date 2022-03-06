@@ -1647,8 +1647,8 @@ System.out.println(list1);
 ```
 
 - [ ] `[Two]`
-- [ ] `[One, Two, Three]`
-- [x] `[One, Three]`
+- [x] `[One, Two, Three]`
+- [ ] `[One, Three]`
 - [ ] `Two`
 
 #### Q114. Which code checks whether the characters in two Strings,named `time` and `money`, are the same?
