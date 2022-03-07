@@ -904,3 +904,17 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] XML-standard workbook
 - [ ] Excel 2003 workbook
 - [ ] workbook where macros are not allowed
+
+### Q111. A colleague shared an Excel file with you, and you want to display a worksheet that is hidden in it. How can you do that?
+
+- [x] Right-click any worksheet tab and select Unhide.
+- [ ] On the View tab, click New Window.
+- [ ] On the Home tab, click Unhide.
+- [ ] On the Review tab click Unhide Sheet.
+
+### Q112. How do you remove only the conditional formatting from a cell and leave all other formatting intact?
+
+- [ ] This is not possible-you can remove only all formatting from a cell.
+- [x] Select the cell. On the Home tab, click Conditional Formatting > Clear Rules > Clear Rules from Selected Cells.
+- [ ] Right-click the cell and select Delete Conditional Formatting.
+- [ ] Right-click the cell and select Remove Conditional Formatting.
