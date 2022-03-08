@@ -1114,7 +1114,7 @@ From official docs: https://reactjs.org/tutorial/tutorial.html#making-an-interac
 
 #### Q98. In this function, which is the best way to describe the Dish component?
 
-````
+```
 function Dish() {
   return (
     <>
@@ -1123,7 +1123,8 @@ function Dish() {
     </>
   );
 }
-````
+```
+
 - [ ] child component
 - [x] parent component
 - [ ] nested component

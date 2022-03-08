@@ -781,7 +781,7 @@ int main()
 }
 ```
 
-#### Q48. Which is *not* a storage class specifier?
+#### Q48. Which is _not_ a storage class specifier?
 
 - [x] `intern`
 - [ ] `extern`

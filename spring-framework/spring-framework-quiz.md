@@ -710,7 +710,6 @@ Reason: By default, all the endpoints are enabled in Spring Boot Application exc
 - [ ] File
 - [ ] MvcFile
 
-
 #### Q69. What is the purpose of this endpoint?
 
 ```java

@@ -1072,8 +1072,7 @@ love
 Javascript!
 ```
 
-
-**Reference** 
+**Reference**
 https://developer.mozilla.org/en-US/docs/Web/API/setTimeout#reasons_for_delays_longer_than_specified especially see the 'late timeouts' section.
 
 #### Q83. What will this code log to the console?
@@ -1368,7 +1367,7 @@ console.log(x);
 
 ```js
 var sound = 'grunt';
-var bear = { sound: 'roar'};
+var bear = { sound: 'roar' };
 function roar() {
   console.log(this.sound);
 }

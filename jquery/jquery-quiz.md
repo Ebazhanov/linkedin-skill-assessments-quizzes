@@ -1329,33 +1329,39 @@ $.fn.myTraverse = function() {
 - [ ]
 
 ```js
-$('#element').on('animationend', function() {
-  console.log('Finally, everything is done!')
+$('#element').on('animationend', function () {
+  console.log('Finally, everything is done!');
 });
 ```
 
 - [ ]
 
 ```js
-$('#element').on('promise').then(function() {
-  console.log('Finally, everything is done!')
-});
+$('#element')
+  .on('promise')
+  .then(function () {
+    console.log('Finally, everything is done!');
+  });
 ```
 
 - [ ]
 
 ```js
-$('#element').promise().catch(function() {
-  console.log('Finally, everything is done!')
-});
+$('#element')
+  .promise()
+  .catch(function () {
+    console.log('Finally, everything is done!');
+  });
 ```
 
 - [ ]
 
 ```js
-$('#element').promise().then(function() {
-  console.log('Finally, everything is done!')
-});
+$('#element')
+  .promise()
+  .then(function () {
+    console.log('Finally, everything is done!');
+  });
 ```
 
 [Source: HTMLElement: animationend event | MDN ](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationend_event)
