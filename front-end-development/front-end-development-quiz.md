@@ -586,3 +586,17 @@ console.log(currencies);
 - [ ] The screen reader will use a polite voice when announcing changes.
 
 [Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-live)
+
+#### Q62. Review the CSS below. What color would you expect the background color of the element with a class of .box to be?
+
+```css
+.box {
+	background-color: blue;
+	background: url(images/star.png) no-repeat left top;
+}
+```
+
+- [ ] black
+- [ ] blue
+- [x] transparent
+- [ ] white
