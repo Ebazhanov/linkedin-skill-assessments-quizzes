@@ -16,16 +16,17 @@
 
 #### Q3. What is the Access string operator that joins or concatenates text strings together?
 
-- [x] &
-- [ ] !
-- [ ] #
-- [ ] -
+- [x] `&`
+- [ ] `!`
+- [ ] `#`
+- [ ] `-`
 
-[\_Caveat:](https://support.microsoft.com/en-us/office/string-functions-and-how-to-use-them-965efa84-7009-4603-9765-2eb4a099ec72) - "In a desktop database, you can also use the ampersand operator (&) for concatentation. In an Access app, you must use the plus sign (+)."\_
+[Caveat:](https://support.microsoft.com/en-us/office/string-functions-and-how-to-use-them-965efa84-7009-4603-9765-2eb4a099ec72)
+"In a desktop database, you can also use the ampersand operator (&) for concatentation. In an Access app, you must use the plus sign (+)."\_
 
 #### Q4. The relationship field in this table has been created with what feature?
 
-<p align="center"><img src="./images/question_4.png"></p>
+`<p align="center"><img src="./images/question_4.png"></p>`
 
 - [x] lookup
 - [ ] reference integrity
@@ -55,7 +56,7 @@
 - [ ] General Number
 - [ ] Fixed
 
-[Reference)[https://support.microsoft.com/en-us/office/format-a-number-or-currency-field-e48f2312-67f0-4921-aca0-15d36b7f9c3b#bkmk_examples_predefined]
+[Reference](https://support.microsoft.com/en-us/office/format-a-number-or-currency-field-e48f2312-67f0-4921-aca0-15d36b7f9c3b#bkmk_examples_predefined)
 
 #### Q8. In Access Option > Current Database, what does turning off the Allow Full Menus option do?
 
@@ -149,8 +150,8 @@ https://support.microsoft.com/en-us/office/iif-function-32436ecf-c629-48a3-9900-
 - [ ] left; left
 - [ ] right; right
 
-[Text:](https://support.microsoft.com/en-us/office/format-a-text-field-a5e5bcde-85da-4c7a-8164-1fe286636668)
-[Numerical:](https://support.microsoft.com/en-us/office/format-a-number-or-currency-field-e48f2312-67f0-4921-aca0-15d36b7f9c3b)
+1. [Text:](https://support.microsoft.com/en-us/office/format-a-text-field-a5e5bcde-85da-4c7a-8164-1fe286636668)
+2. [Numerical:](https://support.microsoft.com/en-us/office/format-a-number-or-currency-field-e48f2312-67f0-4921-aca0-15d36b7f9c3b)
 
 #### Q18. Which data type is a modern replacement for the OLE Object data type?
 

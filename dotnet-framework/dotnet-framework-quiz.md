@@ -379,7 +379,7 @@
 - [ ] to compile only the methods that are called at runtime and them store them in cache for one minute
 - [x] to compile only methods called at runtime – which are compiled the first time the methods are called and then stored in a cache to be used for execution when the same methods are called again
 
-**Explanation**: [JIT (Just-In-Time) Compiler](https://www.c-sharpcorner.com/UploadFile/nipuntomar/jit-just-in-time-compiler/)
+[JIT (Just-In-Time) Compiler](https://www.c-sharpcorner.com/UploadFile/nipuntomar/jit-just-in-time-compiler/)
 
 #### Q53. What is .NET?
 
@@ -388,7 +388,7 @@
 - [ ] .NET is an interpreted, high-level, general-purpose programming language. Its language constructs an object-oriented approach aimed at helping programmers write clear, logical code for small and large-scale projects.
 - [x] .NET is a free, cross-platform, open-source developer platform for building many different types of applications with multiple languages, editors, and libraries for web, mobile, desktop, gaming, and IoT.
 
-**Explanation**: [What is .NET?](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet)
+[What is .NET?](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet)
 
 #### Q54. The ASP.NET Core Module is a native IIS module that plugs into the IIS pipeline to either **\_**.
 
@@ -397,7 +397,7 @@
 - [ ] package up your C# application and C# packages into .NET modules, or specify which of its packages should be visible to other .NET modules
 - [x] host an ASP.NET Code app inside of the IIS workes process, called the in-process hosting model, or forward web requests to a backend ASP.NET Core app running the Kestrel server, called the out-of-process hosting model
 
-**Explanation**: [ASP.NET Core Module](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-5.0)
+[ASP.NET Core Module](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-5.0)
 
 #### Q55. In the code below, what is the difference between RenderPartial and RenderAction?
 
@@ -420,7 +420,7 @@
 - [ ] A class should have only a single responsibility — that is, only changes to one part of the software's specification should be able to affect the specification of the class.
 - [ ] Software entities should be open for extension, but closed for modification.
 
-**Explanation**: [Liskov substitution principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
+[Liskov substitution principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
 
 #### Q57. What method do you use to explicitly kill a user's session?
 
@@ -429,7 +429,7 @@
 - [ ] Session.KillAll()
 - [ ] Session.Remove()
 
-**Explanation**: [Session.Abandon Method](<https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524310(v=vs.90)>)
+[Session.Abandon Method](<https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524310(v=vs.90)>)
 
 #### Q58 Which choice best describes the difference between globalization and localization?
 
@@ -438,7 +438,7 @@
 - [ ] Localization involves designing and developing a world-ready app that supports localized interfaces and regional data for users in multiple cultures. Globalization is the process of translating an application's resources into versions for each culture that the application will support.
 - [x] Globalization involves designing and developing a world-ready app that supports localized interfaces and regional data for users in multiple cultures. Localization is the process of translating an application's resources into versions for each culture that the application will support.
 
-**Explanation**: [Globalize and localize .NET applications](https://docs.microsoft.com/en-us/dotnet/core/extensions/globalization-and-localization)
+[Globalize and localize .NET applications](https://docs.microsoft.com/en-us/dotnet/core/extensions/globalization-and-localization)
 
 #### Q59. What does CIL stand for?
 
@@ -447,7 +447,7 @@
 - [ ] Commonly Interpreted Language
 - [ ] C# Intermediate Language
 
-**Explanation**: [What is the full form of CIL?](https://ythi.net/abbreviations/english/what-does-cil-mean-what-is-the-full-form-of-cil/)
+[What is the full form of CIL?](https://ythi.net/abbreviations/english/what-does-cil-mean-what-is-the-full-form-of-cil/)
 
 #### Q60. Which choice best describes the difference between a namespace and an assembly?
 
@@ -455,3 +455,24 @@
 - [ ] Namespace is the logical naming decided at design time by the developer. Scope for a particular type is defined at run time using an assembly.
 - [ ] A namespace has logical units that are physically grouped together. An assembly does not have any classification.
 - [ ] A namespace has logical units that are physically grouped together for assemblies. Assembly classes are available in your program and will be logically grouped.
+
+#### Q61. What is a tuple?
+
+- [ ] A data structure that has a specific number and sequence of elements
+- [ ] An object to store multiple variables of the same type in an array data structure
+- [ ] A group of classes designed specifically for grouping together objects and performing tasks on them
+- [ ] An array whose elements are jagged
+
+#### Q62. What does IL stand for?
+
+- [x] Intermediate Language
+- [ ] Intelligent Language
+- [ ] Intelligent Linq
+- [ ] Interpreted Language
+
+#### Q63. You want to create an instance of several families of classes. Which design pattern best fits this objective?
+
+- [ ] Decorator
+- [ ] Singleton
+- [x] Abstract Factory
+- [ ] Bridge

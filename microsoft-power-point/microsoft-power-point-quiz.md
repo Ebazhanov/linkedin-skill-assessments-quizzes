@@ -59,7 +59,8 @@
 - [ ] slide titles
 - [ ] missing alt text
 - [x] grammar
-      [Source](https://support.microsoft.com/en-us/office/rules-for-the-accessibility-checker-651e08f2-0fc3-4e10-aaca-74b4a67101c1?ns=powerpnt&version=16&ui=en-us&rs=en-us&ad=us)
+
+[Source](https://support.microsoft.com/en-us/office/rules-for-the-accessibility-checker-651e08f2-0fc3-4e10-aaca-74b4a67101c1?ns=powerpnt&version=16&ui=en-us&rs=en-us&ad=us)
 
 #### Q9. How can you change the appearance of a table in one click?
 
@@ -393,9 +394,8 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] The second slide must have different objects that are in the same position as the objects on the first slide
 - [ ] The two slides must have at least one obiect in common that is in the same position on the second slide
 
-[Reference 1](https://support.microsoft.com/en-us/office/use-the-morph-transition-in-powerpoint-8dd1c7b2-b935-44f5-a74c-741d8d9244ea#:~:text=The%20Morph%20transition%20allows%20you%20to%20animate%20smooth,of%20things%E2%80%94text%2C%20shapes%2C%20pictures%2C%20SmartArt%20graphics%2C%20and%20WordArt.)
-
-[Reference 2](https://twist.learningguild.net/2019/03/morph-magic-for-incredible-effects-in-powerpoint-richard-goring/#:~:text=Morph%20recognizes%20any%20duplicate%20objects%20across%20two%20slides,make%20objects%20change%20size%2C%20or%20shape%2C%20or%20color.)
+1. [Reference](https://support.microsoft.com/en-us/office/use-the-morph-transition-in-powerpoint-8dd1c7b2-b935-44f5-a74c-741d8d9244ea#:~:text=The%20Morph%20transition%20allows%20you%20to%20animate%20smooth,of%20things%E2%80%94text%2C%20shapes%2C%20pictures%2C%20SmartArt%20graphics%2C%20and%20WordArt.)
+2. [Reference](https://twist.learningguild.net/2019/03/morph-magic-for-incredible-effects-in-powerpoint-richard-goring/#:~:text=Morph%20recognizes%20any%20duplicate%20objects%20across%20two%20slides,make%20objects%20change%20size%2C%20or%20shape%2C%20or%20color.)
 
 #### Q53. Why would you use the Rehearse Timings command?
 
@@ -449,9 +449,8 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] grammar
 - [ ] reading order
 
-[Reference 1](https://support.microsoft.com/en-us/office/rules-for-the-accessibility-checker-651e08f2-0fc3-4e10-aaca-74b4a67101c1)
-
-[Reference 2](https://webaim.org/resources/evaloffice/)
+1. [Reference](https://support.microsoft.com/en-us/office/rules-for-the-accessibility-checker-651e08f2-0fc3-4e10-aaca-74b4a67101c1)
+2. [Reference](https://webaim.org/resources/evaloffice/)
 
 #### Q59. What is the easiest way to change the appearance of a table?
 
@@ -482,3 +481,68 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] Switch the rows and columns.
 - [ ] Use a filter so the data series or category does not display.
 - [ ] Change the chart type.
+
+#### Q63. You have an object that needs to follow a specific motion path - including curves, straight lines, and loops - on the slide. Which animation gives the capability to draw this?
+
+- [ ] Loops
+- [ ] Arc
+- [ ] Turns
+- [x] Custom Path.
+
+#### Q64. When you add encryption to a PowerPoint presentation, what does it do?
+
+- [ ] scrambles the text so it is unreadable when opened.
+- [ ] shares the file in cloud-based platform.
+- [x] protects the file with a password.
+- [ ] requires the user to log in to their Office 365 account.
+
+#### Q65. Which type of shape allows you to add text that can be moved around, formatted with styles and effects, or grouped with other objects?
+
+- [ ] screenshot
+- [x] text box.
+- [ ] icon
+- [ ] 3D model
+
+#### Q66. You need to apply a special effect that will display as the presentation moves from one slide to the next slide. Which should you apply?
+
+- [ ] theme
+- [x] transition
+- [ ] animation
+- [ ] design ideas
+
+#### Q67. Which option can be used to import selected slides from a previously created presentation into a new presention without manually copying and pasting them?
+
+- [ ] Slide Zoom
+- [x] Reuse Slide
+- [ ] Slides from Outline
+- [ ] Add Section
+
+#### Q68. The picture on the left is the original image. The image on the right is smaller, but the flowers are the same size and part of the picture has been removed. What method was used to format this picture?
+
+![image](https://user-images.githubusercontent.com/33814760/154321708-f9d81898-9c39-4495-87c9-861197a67bad.png)
+
+- [ ] changing the width and height with aspect ration locked
+- [ ] drapping a corner sizing handle
+- [ ] using the **Crop to Shape** tool
+- [ ] using the **Crop** tool
+
+#### Q69. Which view allows you to see additional information on a second monitor when delivering a presentation?
+
+- [ ] Normal
+- [x] Presenter View
+- [ ] Slide Sorter
+- [ ] Reading
+
+#### Q70. You are copying and pasting slides from another presentation into your presentation. How will you ensure the new slides are consistent in appearance with your existing slides?
+
+- [ ] Select **Keep Source Formatting** when pasting the slides.
+- [x] Select **Use Destination Theme** when pasting the slides.
+- [ ] Change both presentations to the same theme before copying and pasting.
+- [ ] Select **Picture** when pasting the slides.
+
+#### Q71. What happens when you press the Esc key while playing a **From Current Slide** or **From Beginning** slide show?
+
+- [ ] The current slide is temporary hidden.
+- [x] The slide show ends and you return to your previous view.
+- [ ] The next slide appears.
+- [ ] Nothing happens.

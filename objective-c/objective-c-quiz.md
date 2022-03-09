@@ -394,3 +394,26 @@ NSMutableSet *set1 = [NSMutableSet setWithObjects: @1,@2, @3, @4, @5, nil];
 - [ ] six
 - [ ] one
 - [x] five
+
+#### Q39. What is wrong with this code?
+
+```
+NSDictionary *d1 = @[@"v1", @4, @"v2", @5.6, @"v3"];
+NSlog(@"d1: %@", d1);
+```
+
+- [ ] NSDictionary cannot be printed this way.
+- [x] The last key is missing a value.
+- [ ] Dictionaries cannot have mixed types as values.
+- [ ] d1 is assigned an NSArray of values.
+
+#### Q40. What is the initial value of the property `val`?
+
+```
+@property (nonatomic, readonly) int val;
+```
+
+- [ ] 8
+- [ ] nil
+- [ ] -1
+- [ ] undefined

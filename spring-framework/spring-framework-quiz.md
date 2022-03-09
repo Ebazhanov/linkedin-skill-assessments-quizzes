@@ -7,7 +7,7 @@
 - [ ] Filters are used with a checksum algorithm that will filter invalid bytes out of an octet stream a multipart upload and allow for chained processing of WebDispatcherServlet requests.
 - [ ] Filters are used to validate request parameters out of the byte stream request body and allow for processing of requests from the DispatcherRequestServlet.
 
-Reference: [HandlerInterceptors vs. Filters in Spring MVC](https://www.baeldung.com/spring-mvc-handlerinterceptor-vs-filter). Also there is no such thing as DispatcherRequestServlet in Spring.
+[HandlerInterceptors vs. Filters in Spring MVC](https://www.baeldung.com/spring-mvc-handlerinterceptor-vs-filter). Also there is no such thing as DispatcherRequestServlet in Spring.
 
 #### Q2. How is a resource defined in the context of a REST service?
 
@@ -266,7 +266,7 @@ public class SampleController {
 - [x] It's the servlet filter proxy delegating to a filter bean specified in web.xml. All calls to the filter proxy will be delegated to that servlet filter bean.
 - [ ] It's the web servlet daemon filter proxy that delegates to a bean specified in spring.security.factories. All calls to the filter proxy that do not contain a proper route will return an error.
 
-Reference: [Overview and Need for DelegatingFilterProxy in Spring](https://www.baeldung.com/spring-delegating-filter-proxy)
+[Overview and Need for DelegatingFilterProxy in Spring](https://www.baeldung.com/spring-delegating-filter-proxy)
 
 #### Q31. What value does Spring Boot Actuator provide?
 
@@ -275,7 +275,7 @@ Reference: [Overview and Need for DelegatingFilterProxy in Spring](https://www.b
 - [ ] It's a CLI that allows you to modify the configuration of a running Spring Boot application without the need for restarting or downtime.
 - [ ] It provides out-of-the-box functionality that integrates wiltr?third-party metrics platforms to automatically scale up and down the number of instances of the Spring Boot application.
 
-Reference: [Spring Boot Actuator](https://www.baeldung.com/spring-boot-actuators)
+[Spring Boot Actuator](https://www.baeldung.com/spring-boot-actuators)
 
 #### Q32. What is the purpose of the @ContextConfiguration annotation in a JUnit Test?
 
@@ -284,7 +284,7 @@ Reference: [Spring Boot Actuator](https://www.baeldung.com/spring-boot-actuators
 - [x] It defines metadata at the class-level to determine how to load or configure an ApplicationContext in Spring integration tests.
 - [ ] It automatically generates JavaDocs for annotated classes to provide additional context about the purpose of the class.
 
-Reference: [@ContextConfiguration Example in Spring Test](https://www.concretepage.com/spring-5/contextconfiguration-example-spring-test)
+[@ContextConfiguration Example in Spring Test](https://www.concretepage.com/spring-5/contextconfiguration-example-spring-test)
 
 #### Q33. How are authentication and authorization different?
 
@@ -406,7 +406,7 @@ private String val;
 - [ ] root.logger.level
 - [x] logging.level.root
 
-Reference: [Logging in Spring Boot](https://www.baeldung.com/spring-boot-logging)
+[Logging in Spring Boot](https://www.baeldung.com/spring-boot-logging)
 
 #### Q46. What is a Spring bean uniquely identified?
 
@@ -515,7 +515,7 @@ Explanation: sha-1 is not considered secure anymore: https://en.wikipedia.org/wi
 - [ ] any method that implements Loggable
 - [ ] any method that extends Loggable
 
-Reference: [Difference between @target and @within (Spring AOP)](https://stackoverflow.com/questions/51124771/difference-between-target-and-within-spring-aop)
+[Difference between @target and @within (Spring AOP)](https://stackoverflow.com/questions/51124771/difference-between-target-and-within-spring-aop)
 
 #### Q54. What is printed when this code is run as a @SpringBootApplication?
 
@@ -654,7 +654,7 @@ class Service {}
 - [x] Annotate a controller method with `@RequestMapping`, or a HTTP verb-specific annotation with a String URI pattern parameter (and other params as needed), which is supported through a `RequestMappingHandlerMapping/Adapter`.
 - [ ] Register a controller as a bean. Then, using a specific naming convention for the methods, the RequestMappingHandlerAdapter will automatically configure your endpoints based on values passed into the bean definition.
 
-Reference: [Spring RequestMapping](https://www.baeldung.com/spring-requestmapping). Spring does not use naming conventions for web requests (unlike e.g. for the Data Repositories)
+[Spring RequestMapping](https://www.baeldung.com/spring-requestmapping). Spring does not use naming conventions for web requests (unlike e.g. for the Data Repositories)
 
 #### Q63. What methods does the Pointcut expression below reference?
 
@@ -664,7 +664,8 @@ Reference: [Spring RequestMapping](https://www.baeldung.com/spring-requestmappin
 - [ ] any method with a name that begins with String "setter" with a single parameter
 - [x] any method with a name that begins with String "setter"
 - [ ] any method with a name that contains the String "setter"
-      Source: [baeldung](https://www.baeldung.com/spring-aop-pointcut-tutorial#1-execution)
+
+[baeldung](https://www.baeldung.com/spring-aop-pointcut-tutorial#1-execution)
 
 #### Q64. What pattern does Spring MVC implement to delegate request processing to controllers?
 
@@ -699,4 +700,33 @@ Reason: By default, all the endpoints are enabled in Spring Boot Application exc
 - [x] Test classes can implement the ApplicationContextAware interface or autowire the ApplicationContext.
 - [ ] The context is automatically injected in every test so you can just call getSpringApplicationContextInstance() anywhere in a test to get the current context.
 - [ ] You can just add the parameter Context context to any method so that the context is automatically wired in.
-      Source: [spring(dot)io](https://spring.io/blog/2011/06/21/spring-3-1-m2-testing-with-configuration-classes-and-profiles#:~:text=By%20default%20the%20ApplicationContext%20is,%40Resource%20%2C%20or%20%40Inject%20.)
+
+[spring(dot)io](https://spring.io/blog/2011/06/21/spring-3-1-m2-testing-with-configuration-classes-and-profiles#:~:text=By%20default%20the%20ApplicationContext%20is,%40Resource%20%2C%20or%20%40Inject%20.)
+
+#### Q68. What interface can be specified as a parameter in a controller method signature to handle file uploads?
+
+- [ ] FilePath
+- [x] MultipartFile
+- [ ] File
+- [ ] MvcFile
+
+#### Q69. What is the purpose of this endpoint?
+
+```java
+@GetMapping("api/v1/domain/resource/{id}")
+public Pojo getPojo(@PathVariable("id") String id) {
+  return testService.getPojo(id);
+}
+```
+
+- [ ] This endpoint is designed to delete an object of the typetype Pojo with the passed in path variable
+- [x] This endpoint is designed to return JSON mapped to the object type Pojo with the passed in id.
+- [ ] This endpoint returns the path variable that describes the Pojo's location within the container.
+- [ ] This endpoint is designed to update an existing resource of the object type Pojo with the passed in id.
+
+#### Q70. What property can be used to set the active Spring profiles
+
+- [ ] active.profile
+- [ ] active.spring.profiles
+- [x] spring.profiles.active
+- [ ] profiles

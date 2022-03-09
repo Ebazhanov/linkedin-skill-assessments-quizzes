@@ -23,13 +23,13 @@
 ["red", "blue", "green"]
 ```
 
-- [_]
+- [ ]
 
 ```json
 ["red", "blue", "green"]
 ```
 
-- [X]
+- [x]
 
 ```json
 {
@@ -307,10 +307,10 @@
 
 #### Q22. Which is an invalid JSON value?
 
-- [ ] "'|=(_)(X 72(_)|\/||\*'"
-- [ ] "|=(_)(X 72(_)|\/||\*"
-- [ ] "|=(_)(X\" \"72(_)|\/||\*"
-- [x] "\s(_)(X 72(_)|\/||\*"
+- [ ] `"'|=(_)(X 72(_)|\/||\*'"`
+- [ ] `"|=(_)(X 72(_)|\/||\*"`
+- [ ] `"|=(_)(X\" \"72(_)|\/||\*"`
+- [x] `"\s(_)(X 72(_)|\/||\*"`
 
 #### Q23. How do you encode a date in JSON?
 
@@ -394,7 +394,7 @@ null
 - [ ] `constant: 6.022E23`
 - [ ] `constant: "6.022E23"`
 
-Explanation: Scientific Notation is a valid JSON number. You can use `e` or `E`. [(Reference)](https://json-schema.org/understanding-json-schema/reference/numeric.html)
+[Reference](https://json-schema.org/understanding-json-schema/reference/numeric.html) **Explanation**: Scientific Notation is a valid JSON number. You can use `e` or `E`.
 
 #### Q29. Which element is added to the DOM to create a JSON-P request?
 
@@ -902,3 +902,54 @@ variance: -0.0823
 - [ ] "variance": "\-0.0823"
 
 [Reference data types in json](https://www.w3schools.com/js/js_json_datatypes.asp)
+
+### Q87. Based on the JSON object shown, which JavaScript code would you use to find out what is in this vehicle's glove box while assigning the glove box contents to a new variable?
+
+```js
+myVehicleContents = {
+  van: {
+    inside: {
+      'glove box': 'maps',
+      'passenger seat': 'crumbs',
+    },
+    exterior: {
+      trunk: 'jack',
+    },
+  },
+};
+```
+
+- [ ] A
+
+```js
+myVehicleContents.van.inside['glove box'] = gloveBoxContents;
+```
+
+- [x] B
+
+```js
+var gloveBoxContents = myVehicleContents.van.inside['glove box'];
+gloveBoxContents;
+```
+
+- [ ] C
+
+```js
+var gloveBoxContents = myVehicleContents.van.glove box.contents;
+gloveBoxContents;
+```
+
+- [ ] D
+
+```js
+myVehicleContents.van.inside['inside'] = gloveBoxContents;
+```
+
+[Source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+
+### Q88. What characters are used to define an object?
+
+- [ ] ||
+- [x] {}
+- [ ] ()
+- [ ] []

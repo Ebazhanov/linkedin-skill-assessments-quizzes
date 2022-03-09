@@ -470,8 +470,6 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 - [ ] toes:feet
 - [ ] rock:stone
 
-[Source: LinkedIn assessment practice mode](https://i.imgur.com/xUCuxms.png)
-
 #### Q64. Which statements best describe the Gang of Four design patterns called Memento and Observer?
 
 - [ ] Memento notifies multiple classes of changes. Observer captures and restores an object's internal state.
@@ -610,7 +608,7 @@ public class Honda extends Car{}
 
 - [x] overloading
 - [ ] inheritance
-- [ ] abstaction
+- [ ] abstraction
 - [ ] overriding
 
 #### Q78. What does a concrete class not have?
@@ -643,9 +641,16 @@ public class Honda extends Car{}
 
 #### Q82. What parameters are required to be passed to a class constructor?
 
-// Here they haven't mentioned any specific language so let's consider all languages.
+`Here they haven't mentioned any specific language so let's consider all languages.`
 
 - [ ] reference to subclass // References to subclass are never required as you can simply Initialize subclass & use their object.
 - [ ] reference to base class // References to the base class are not required in Java, Javascript & Python
 - [ ] reference to this pointer // While Python & Javascript may require passing this or self in the constructor, It is not passed in Java constructor.
 - [x] none // Above 3 are incorrect so "none" is the answer
+
+#### Q83. What are the four principles of object-oriented programming?
+
+- [ ] manipulation, encapsulation, inheritance, and dependency inversion
+- [ ] dependency inversion, open/closed principle, encapsulation, and inheritance
+- [ ] interface segregation, abstraction, dependency inversion, and inheritance
+- [x] abstraction, encapsulation, inheritance, and polymorphism

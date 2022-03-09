@@ -16,10 +16,10 @@ div a
 
 #### Q2. Using an attribute selector, how would you select an `<a>` element with a "title" attribute?
 
-- [x] a[title]{...}
-- [ ] a > title {...}
-- [ ] a.title {...}
-- [ ] a=title {...}
+- [x] `a[title]{...}`
+- [ ] `a > title {...}`
+- [ ] `a.title {...}`
+- [ ] `a=title {...}`
 
 #### Q3. CSS grid and flexbox are now becoming a more popular way to create page layouts. However, floats are still commonly used, especially when working with an older code base, or if you need to support older browser version. What are two valid techniques used to clear floats?
 
@@ -1087,12 +1087,11 @@ D. border-top-radius: 10px;
 - [ ] `input[type*="text"]:not([disabled="disabled"]) {...}`
 - [ ] `input[type="text"]:not([type="disabled"]) {...}`
 
-**Explanation:**
-
 `input[type="text"]` selects all the input with type text, and `:not([disabled])` selects all the elements not having the attribute "disabled". Combining both only selects all the input elements with type attribte as "text" and not having "disabled" attribute.`
 
-- [Reference link attribute-selector](https://www.w3schools.com/css/css_attribute_selectors.asp)
-- [Reference link-:not()](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
+[Reference link attribute-selector](https://www.w3schools.com/css/css_attribute_selectors.asp)
+
+[Reference link-:not()](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
 
 #### Q88. How can you create a semi-transparent background color?
 
@@ -1101,10 +1100,9 @@ D. border-top-radius: 10px;
 - [x] background-color: rgba(0, 0, 0, 0.5);
 - [ ] background-color: rgba(0, 0, 0, 1);
 
-**Explanation:**
 `rgba` is a funtion in css. rgba stands for red, green, blue and alpha. The value of alpha can be between 0 and 1 both inclusive with 0 being fully transparent and 1 being fully opaque.
 
-- [Reference link-rgba](https://www.w3schools.com/cssref/func_rgba.asp)
+[Reference link-rgba](https://www.w3schools.com/cssref/func_rgba.asp)
 
 #### Q89. Using this HTML markup, how would you select only the headings contained within the `<header>` element?
 
@@ -1275,7 +1273,7 @@ section {
 - [ ] `section ~ p`
 - [x] `section > p`
 
-Reference: [Child combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator)
+[Child combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator)
 
 #### Q99. For this code, what is the font color of the hypertext link?
 
@@ -1315,7 +1313,7 @@ a {
 - [ ] The last rule defined overrides all previous rules and even conflicting rules.
 - [ ] Rules with more specific selectors have greater specificity.
 
-  [Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+[Reference](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
 
 #### Q101. What is the output of the margin value when used within this context, assuming that its containing element is larger than 800px?
 
@@ -1383,11 +1381,8 @@ h2 ~ p {
 ```
 
 - [ ] P3P3
-
 - [ ] P1P1
-
 - [ ] P1, P3, and P4P1, P3, and P4
-
 - [x] P3 and P4
 
 ### Q104. Referring to the HTML markup and CSS example below, which element(s) will be targeted?
@@ -1417,21 +1412,15 @@ p:first-of-type:first-letter {
 ```
 
 - [ ] The first letter in all paragraphs will be red.
-
 - [ ] Only the first letter in paragraphs 1 and 5 will be red.
-
 - [x] The first letter in paragraphs 1, 3, and 5 will be red.
-
 - [ ] Only the first letter in paragraph 1 will be red.Only
 
 #### Q105. Which five style features are associated with the box model?
 
 - [x] margin, padding, border, width, height
-
 - [ ] width, height, z-index, overflow, font size
-
 - [ ] margin, padding, font size, line height, border
-
 - [ ] font size, line height, letter spacing, width, height
 
 #### Q106. Which choice will not set all links that include domain.com to pink?
@@ -1459,13 +1448,10 @@ p:first-of-type:first-letter {
 #### Q107. Which property and value pair could be used to apply a linear gradient effect?
 
 ```css
-[x] background: linear-gradient(#648880, #293f50);
-
-[ ] background-image: linear(#648880, #293f50);
-
-[ ] background: gradient(linear, #648880, #293f50);
-
-[ ] background-color: linear-gradient(#648880, #293f50);
+[x] `background: linear-gradient(#648880, #293f50);`
+[ ] `background-image: linear(#648880, #293f50);`
+[ ] `background: gradient(linear, #648880, #293f50);`
+[ ] `background-color: linear-gradient(#648880, #293f50);`
 ```
 
 ### Q108. You want to add a background circle behind an icon. Which style declaration is correct?
@@ -1507,11 +1493,8 @@ p:first-of-type:first-letter {
 #### Q109. When using a font stack to declare the font family, in what order should the values appear?
 
 - [x] The first value is the first choice, followed by alternative options, ordered by preference. The last option should be a generic font.
-
 - [ ] The first value is the first choice. The order of the alternative options does not matter. It depends on what is available on the user's computer.
-
 - [ ] The first value is the first choice, and must be followed by at least one alternative option before adding the generic font.
-
 - [ ] The first value is the first choice, followed by a maximum of three alternatives.
 
 ### Q110. Which items are valid values for the font-size property?
@@ -1524,11 +1507,8 @@ D. font-size: 20px
 ```
 
 - [ ] C, D
-
 - [x] B, C, D
-
 - [ ] A, C
-
 - [ ] A, B, C, D
 
 #### Q111. In this image, the blue box and sample text are both contained within the same parent element. The blue box is floated on the left margin of the container. Why is it not contained with the container?
@@ -1536,11 +1516,8 @@ D. font-size: 20px
 ![Sample text](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-3.png)
 
 - [ ] Floating the blue box increased its height.
-
 - [ ] Floating the blue box on the left also moves it down.
-
 - [ ] Floating the blue box actually shifts it to the right and down.
-
 - [x] Floating the blue box took it out of document flow and the container is sized only to the sample text.
 
 #### Q112. Given this code, which CSS declaration of .overlay will span the entire width and height of its container? Given this code, which CSS declaration of .overlay will span the entire width and height of its container?
@@ -1658,7 +1635,7 @@ img {
 - [ ] `z-index: 0;z-index: 0;`
 - [ ] `z-index: true;z-index: true;`
 
-#### Q114. To make the font size of an element one size smaller than the font size of the element's container, which style property would you apply? To make the font size of an element one size smaller than the font size of the element's container, which style property would you apply?
+#### Q114. To make the font size of an element one size smaller than the font size of the element's container, which style property would you apply?
 
 - [ ] `font-size: reduce;`
 - [ ] `font-size: 8px;`
@@ -1731,7 +1708,7 @@ background-tile: none;
 
 #### Q117. To rotate an object 30 degrees counterclockwise, which style property would you apply?
 
-- [X] `transform: rotate(-30deg);`
+- [x] `transform: rotate(-30deg);`
 - [ ] `transform: rotate(30deg);`
 - [ ] `rotate: 30deg;`
 - [ ] `spin: 30deg;`
@@ -1739,7 +1716,7 @@ background-tile: none;
 #### Q118. Which style rule would you apply to set the background image to display the contents of the wood.png file?
 
 - [ ] `background-image: file(wood.png);`
-- [X] `background-image: url(wood.png);`
+- [x] `background-image: url(wood.png);`
 - [ ] `background-image: wood.png;`
 - [ ] `image: wood.png`
 
@@ -1791,7 +1768,9 @@ p + section {
 #### Q121. Which style will horizontally center the inner &lt;div&gt; within the outer &lt;div&gt;?
 
 ```js
-<div id="outer"><div id="inner">Center Me!</div></div><div id="outer">
+<div id="outer">
+  <div id="inner">Center Me!</div>
+</div>
 ```
 
 - [ ]
@@ -1832,3 +1811,31 @@ p + section {
   margin: 0 auto;
 }
 ```
+
+#### Q122. Which corner will the puppy be in when these CSS rules are applied?
+
+```css
+.pen {
+  height: 100px;
+  width: 100px;
+  border: 2px dashed brown;
+  position: relative;
+}
+
+#puppy {
+  position: absolute;
+  right: 80px;
+  bottom: 0px;
+}
+```
+
+```html
+<div class="pen">
+  <span id="puppy">🐶</span>
+</div>
+```
+
+- [ ] top-right corner
+- [ ] bottom-right corner
+- [ ] top-left corner
+- [x] bottom-left corner

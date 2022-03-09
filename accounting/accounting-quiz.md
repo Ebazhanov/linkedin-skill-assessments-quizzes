@@ -171,7 +171,7 @@
 #### Q25. Which choice is not a component of internal control?
 
 - [ ] information and communication
-- [ ] risk mitigation
+- [x] risk mitigation
 - [ ] monitoring
 - [ ] control environment
 
@@ -196,16 +196,16 @@
 - [ ] board of directors
 - [ ] union of employee representatives
 
-### Q30. A business purchased office equipment by issuing aone-year note payable. The entire amount of the note is due at the end of one year. How do you record this transaction?
+#### Q30. A business purchased office equipment by issuing aone-year note payable. The entire amount of the note is due at the end of one year. How do you record this transaction?
 
 - [ ] Debt asset, credit equity
 - [ ] Debt liablity, credit asset.
 - [ ] Debit asset, credit liability
 - [ ] Debit equity, credit asset.
 
-### Q31. Which section of a financial annual report describes the corporation's accounting methods? 
+#### Q31. Which section of a financial annual report describes the corporation's accounting methods?
 
-- [ ] Notes to the financial statements 
+- [x] Notes to the financial statements
 - [ ] An auditor's report
 - [ ] Listing of the stockholders
 - [ ] Management discussion and analysis

@@ -83,7 +83,7 @@ val x = (1234, "Active")
 - [ ] Method
 - [x] Null
 
-**Reference**: [Null in Scala Standard library](https://www.scala-lang.org/api/current/scala/Null.html). The question is a bit incorrect - Null is a subtype of every type _except those of value classes_
+[Null in Scala Standard library](https://www.scala-lang.org/api/current/scala/Null.html). The question is a bit incorrect - Null is a subtype of every type _except those of value classes_
 
 #### Q11. For the for-yield construct, is the scope separate between for-body and yield-body?
 
@@ -136,7 +136,7 @@ val z = y::List('c')
 - [ ] `scala.exception.TryFinally`
 - [x] `scala.util.Try`
 
-**Reference**: [scala.util.Try](https://www.scala-lang.org/api/current/scala/util/Try.html)
+[scala.util.Try](https://www.scala-lang.org/api/current/scala/util/Try.html)
 
 #### Q16. What is the data type of y after this code is executed?
 
@@ -156,7 +156,7 @@ val y = (math floor 3.1415 * 2)
 - [ ] `^`
 - [ ] `-`
 
-**Reference**: [Pattern Matching](https://docs.scala-lang.org/tour/pattern-matching.html)
+[Pattern Matching](https://docs.scala-lang.org/tour/pattern-matching.html)
 
 #### Q18. You have created an array using val. Can you change the value of any element of the array—and why or why not?
 
@@ -260,7 +260,7 @@ def main () {
 - [ ] `%`
 - [ ] `&`
 
-**Reference**: [Repeated Parameters in Scala](https://www.baeldung.com/scala/repeated-parameters)
+[Repeated Parameters in Scala](https://www.baeldung.com/scala/repeated-parameters)
 
 #### Q30. What is the code below equivalent to?
 
@@ -294,7 +294,7 @@ myClass.foreach(println _)
 - [x] prepared statement
 - [ ] SQL view
 
-**Reference**: [PreparedStatement from Java](https://docs.oracle.com/javase/8/docs/api/java/sql/PreparedStatement.html) which is also used in Scala
+[PreparedStatement from Java](https://docs.oracle.com/javase/8/docs/api/java/sql/PreparedStatement.html) which is also used in Scala
 
 #### Q34. Which is _not_ a member of the collections hierarchy?
 

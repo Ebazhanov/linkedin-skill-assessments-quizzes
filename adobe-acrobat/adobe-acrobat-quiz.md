@@ -67,7 +67,7 @@
 
 - [ ] More Options
 - [ ] Document and Markups
-- [?] Advanced > Output
+- [x] Advanced > Output
 - [ ] Document and Stamps
 
 #### Q11. In an effort to clean up a PDF form, you wish to align the top edges of a row of five fields. You used the Select tool (black arrow) to drag around the fields to select them all. You want to align all the fields to the top edge of the fifth field. How can you do that?
@@ -131,4 +131,4 @@
 - [x] Select the instructional text entry in the Dropdown Properties dialog box.
 - [ ] Choose commit Selected Value Immediately in the Dropdown Properties dialog box.
 - [ ] Choose Sort Items in the Dropdown Properties dialog box.
-- [ ] Choos Format Category > Special in the Dropdown Properties dialog box.
+- [ ] Choose Format Category > Special in the Dropdown Properties dialog box.

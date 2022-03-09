@@ -500,7 +500,8 @@ Note: count() works with find(...) but length works with distinct
 - [ ] Register online.
 - [ ] Create a data directory.
 - [x] Establish security credentials.
-      Source: [mongodb site](https://docs.mongodb.com/manual/tutorial/verify-mongodb-packages/#verify-integrity-of-mongodb-packages)
+
+[mongodb site](https://docs.mongodb.com/manual/tutorial/verify-mongodb-packages/#verify-integrity-of-mongodb-packages)
 
 #### Q72. How does a --jsonArray file need to be structured?
 
@@ -508,27 +509,37 @@ Note: count() works with find(...) but length works with distinct
 - [ ] as YAML
 - [ ] as plain text
 - [ ] as a BSON object
-      Source: [Section blog](https://www.section.io/engineering-education/handling-json-in-mongodb/)
 
-### Q73. From the MongoDB shell, how do you display all of a database's memory usage?
+[Section blog](https://www.section.io/engineering-education/handling-json-in-mongodb/)
+
+#### Q73. From the MongoDB shell, how do you display all of a database's memory usage?
 
 - [ ] db.size()
 - [ ] db.info()
 - [ ] db.memory()
 - [ ] db.stats()
 
-### Q74. How do you create a new MongoDB user?
+#### Q74. How do you create a new MongoDB user?
 
 - [x] db.createUser({})
 - [ ] db.insert({user: 1})
 - [ ] db.customers.newUser({})
 - [ ] db.newUser({})
-      Reference: [MongoDB documentation](https://docs.mongodb.com/manual/tutorial/create-users/)
 
-### Q75. What is the internal data structure of a MongoDB document?
+[MongoDB documentation](https://docs.mongodb.com/manual/tutorial/create-users/)
+
+#### Q75. What is the internal data structure of a MongoDB document?
 
 - [x] JSON (JavaScript Object Notation)
 - [ ] BSON (Binary JSON)
 - [ ] ORM (object relational mode)
 - [ ] MBF (MongoDB binary format)
-      Reference: [MongoDB documentation](https://docs.mongodb.com/guides/server/introduction/)
+
+[MongoDB documentation](https://docs.mongodb.com/guides/server/introduction/)
+
+#### Q76. Which projection shows only the FirstName and lastName fields of a document in the customers collection?
+
+- [ ] `db.customers.find({}, {firstName: 1, lastName: 1})`
+- [x] `db.customers.find({}, {_id:0, firstName: 1, lastName: 1})`
+- [ ] `db.customers.find({_id: 0, year: 1, maek: 1, model: 1})`
+- [ ] `db.customers.find({}).project({firstName: 1, lastName: 1})`

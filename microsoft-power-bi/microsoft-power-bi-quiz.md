@@ -70,7 +70,7 @@
 
 #### Q9. Consider the Power BI extract, transform, and load process (ETL). During this process, data is read and then
 
-- [x] stored in S#### QL Server
+- [x] stored in SQL Server
 - [ ] written to an OLAP cube
 - [ ] assigned a data type
 - [ ] sorted by primary key
@@ -95,9 +95,11 @@
     D. Reorder the steps.
 
 - [ ] B, C, D
-- [x] A, B, C, D [proof link](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview)
+- [x] A, B, C, D
 - [ ] A, B, D
 - [ ] A, B, C
+
+[proof link](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview)
 
 #### Q12. After you enter text in the #### Q&A box or O&A visual, Power BI will `\_` your data to create a list of appropriate visualizations.
 
@@ -109,11 +111,12 @@
 #### Q13. You just deleted a dashboard in the Power BI service and want to get it back. What should you do?
 
 - [x] Press Ctrl+Z.
-      [proof link1](https://docs.microsoft.com/en-us/power-bi/visuals/service-tips-and-tricks-for-color-formatting)
-      [link2](https://www.edureka.co/community/26060/how-do-i-undo-something-in-power-bi)
 - [ ] Select Undo from the toolbar.
 - [ ] You cannot undo the deletion of a dashboard.
 - [ ] Recover it from the Recycle Bin.
+
+1. [proof link1](https://docs.microsoft.com/en-us/power-bi/visuals/service-tips-and-tricks-for-color-formatting)
+2. [link2](https://www.edureka.co/community/26060/how-do-i-undo-something-in-power-bi)
 
 #### Q14. You have a sales data source and want to relate the tables. The table that contains sales transactions is a **\_** table that contains product information is a \_ table .
 
@@ -151,10 +154,11 @@
 #### Q18. Formatting options within a visualization depend on what?
 
 - [x] the visualization you are formatting
-      [proof link](https://docs.microsoft.com/en-us/power-bi/visuals/service-getting-started-with-color-formatting-and-axis-properties)
 - [ ] the editor you use
 - [ ] the visualization group
 - [ ] your permissions
+
+[proof link](https://docs.microsoft.com/en-us/power-bi/visuals/service-getting-started-with-color-formatting-and-axis-properties)
 
 #### Q19. What tool can you use in Power BI Desktop to reduce data?
 
@@ -355,7 +359,7 @@ D. They must have no duplicate data rows.
 #### Q46. You have just pinned a visualization to a new dashboard. Before you can add another visualization, what must you do?
 
 - [ ] Save it.
-- [ ] Name it.
+- [x] Name it.
 - [ ] Refresh it.
 - [ ] Publish it.
 
@@ -368,7 +372,7 @@ D. They must have no duplicate data rows.
 
 #### Q48. What is the purpose of this code?
 
-// ProductCount = COUNT(Products[ProductID])
+`ProductCount = COUNT(Products[ProductID])`
 
 - [x] It is part of the documentation
 - [ ] It creates and formats a measure called ProductCount
@@ -385,7 +389,7 @@ D. They must have no duplicate data rows.
 #### Q50. Which Q&A feature helps you ask questions and refine your visualization?
 
 - [ ] error dialogs
-- [ ] autocomplete
+- [x] autocomplete
 - [ ] all of these answers
 - [ ] tooltips
 
@@ -405,7 +409,7 @@ D. They must have no duplicate data rows.
 
 - [ ] A, B
 - [ ] A, B, C
-- [ ] A, B, C, D
+- [x] A, B, C, D
 - [ ] A, B, D
 
 #### Q53. Your company's national maintenance team is divided into 12 regions, and the Issues report they use is filtered by the user's region. What report modification would help technicians while using the mobile app on the road? (Select all that apply.)
@@ -428,7 +432,7 @@ D. They must have no duplicate data rows.
     D. individual user downloads of the dashboard
 
 - [ ] A, B, C, D
-- [ ] A, B, C
+- [x] A, B, C
 - [ ] A, D
 - [ ] B, C, D
 
@@ -485,3 +489,36 @@ D. They must have no duplicate data rows.
 - [x] purchase; import
 - [ ] purchase; upload
 - [ ] upload; download
+
+#### Q62. You have two Excel spreadsheets with data from separate reporting units. Both spreadsheets have the same column names. What Power Query Editor feature can you use to create a unified dataset?
+
+- [ ] Unify
+- [x] Append
+- [ ] Merge
+- [ ] Group
+
+#### Q63. Power BI Q&A chooses the best visualization based on data type - for example, a ** chart for date data and a ** for state/province data.
+
+- [ ] column; map
+- [ ] line; map
+- [x] timeline; map
+- [ ] line; column
+
+#### Q64. In Power BI, what is the most important difference between tables related in a star schema and in a snowflake schema?
+
+- [ ] A snowflake schema cannot be modeled in Power BI.
+- [ ] A snowflake schema can be modeled only in Power BI service.
+- [x] A snowflake schema is much less efficient for Power BI.
+- [ ] A snowflake schema has more levels of lookup tables.
+
+#### Q65. What are benefits of modifying your Excel data source in the Power Query Editor rather than in Excel?
+
+    A. You can track the changes you make.
+    B. It is less error prone than manual editing.
+    C. It will not affect other users of the spreadsheet.
+    D. It "locks down" the spreadsheet columns in Excel.
+
+- [x] A, B, C
+- [ ] A, B, C, D
+- [ ] A, C, D
+- [ ] B, D

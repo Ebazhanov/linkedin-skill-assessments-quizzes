@@ -18,7 +18,7 @@
 
 - [ ] Set breakpoints and then step through the code line by line
 - [ ] Use the profiler tools in Android Studio to detect anomalies CPU, and network usage.
-- [x] Add a Thread.sleep()call before you start the new activity.
+- [x] Add a Thread.sleep() call before you start the new activity.
 - [ ] inspect the logs in Logcat.
 
 #### Q4. Why might push notifications stop working?
@@ -224,9 +224,11 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
 #### Q16. What allows you to properly restore a user's state when an activity is restarted?
 
 - [ ] the onSaveInstance()method
-- [x] all of these answers [(Refrence)](https://developer.android.com/topic/libraries/architecture/saving-states)
+- [x] all of these answers
 - [ ] persistent storage
 - [ ] ViewModel objects
+
+[Refrence](https://developer.android.com/topic/libraries/architecture/saving-states)
 
 #### Q17. Given the definition below. how would you get access a TextView with an ID of text_home contained in thr layout file of a Fragment class?
 
@@ -255,8 +257,10 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
 
 - [ ] Although screen pixel density varies, this does not impact the use of pixels to define sizes.
 - [ ] Large devices always have more pixels, so your UI elements will be e=affected if you define them with pixels.
-- [x] The same number of pixels may correspond to different physical sizes, affecting the appearance of your UI elements. [(Reference)](https://developer.android.com/training/multiscreen/screendensities#:~:text=The%20first%20pitfall%20you%20must,physical%20sizes%20on%20different%20devices.)
+- [x] The same number of pixels may correspond to different physical sizes, affecting the appearance of your UI elements.
 - [ ] Different devices have different understanding of what a pixel is , affecting the appearance of your UI elements
+
+[Reference](https://developer.android.com/training/multiscreen/screendensities#:~:text=The%20first%20pitfall%20you%20must,physical%20sizes%20on%20different%20devices.)
 
 #### Q21. You need to get a list of devices that are attached to your computer with USB debugging enable. Which command would execute using the Android Debug Bridge?
 
@@ -962,3 +966,29 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 
 - [ ] D
       ![img](https://i.imgur.com/1QBrTwR.png)
+
+#### Q63. What is the current recommended way to handle long-running background tasks?
+
+- [x] WorkManager
+- [ ] AsyncTask
+- [ ] IntentService
+- [ ] Thread
+
+[Reference](https://developer.android.com/guide/background)
+
+#### Q64. You need to provide your users with certain features of your app on-demand or as instant experiences through Google Play. Which type of module should you create?
+
+- [ ] library module
+- [x] dynamic feature module
+- [ ] Android app module
+- [ ] Google Cloud module
+
+1. [Reference](https://youtu.be/QdfStuj-MuA?t=86)
+2. [Reference](https://developer.android.com/guide/playcore/feature-delivery/on-demand)
+
+#### Q65. Which approach is not recommended for providing a useful offline state in your app?
+
+- [ ] caching data
+- [ ] storing data locally
+- [ ] queuing outbound requests to action when connectivity has been lost
+- [ ] always notifying users that connectivity has been lost

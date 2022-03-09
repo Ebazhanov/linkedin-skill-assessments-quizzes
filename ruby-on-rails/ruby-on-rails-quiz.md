@@ -123,7 +123,9 @@ end
 - [ ] `model.errors = This address is invalid`
 - [ ] `errors(model, :address) << "This address is invalid"`
 - [ ] `display_error_for(model, :address, "This address is invalid")`
-- [x] `model.errors[:address] << "This address is invalid"` [Reference: Custom Validator](https://guides.rubyonrails.org/v5.2/active_record_validations.html#custom-validators)
+- [x] `model.errors[:address] << "This address is invalid"`
+
+[Custom Validator](https://guides.rubyonrails.org/v5.2/active_record_validations.html#custom-validators)
 
 #### Q15. Given the URL helper `product_path(@product)`, which statement would be expected to be _false_?
 
@@ -166,15 +168,19 @@ end
 
 - [ ] `build`
 - [ ] `new`
-- [x] `create` [Reference](https://medium.com/@de.usmanusa/difference-between-create-new-and-save-methods-in-activerecord-ea135085a08c)
+- [x] `create`
 - [ ] `save`
+
+[Reference](https://medium.com/@de.usmanusa/difference-between-create-new-and-save-methods-in-activerecord-ea135085a08c)
 
 #### Q20. You are using an existing database that has a table named `coffee_orders`. What would the ActiveRecord model be named in order to use that table?
 
 - [ ] `CoffeeOrders`
 - [ ] `Coffee_Orders`
 - [ ] `Coffee_Order`
-- [x] `CoffeeOrder` [Reference](https://guides.rubyonrails.org/active_record_basics.html#naming-conventions)
+- [x] `CoffeeOrder`
+
+[Reference](https://guides.rubyonrails.org/active_record_basics.html#naming-conventions)
 
 #### Q21. In ActiveRecord, what is the difference between the `has_many` and `has_many :through` associations?
 
@@ -187,15 +193,19 @@ end
 
 - [ ] Create an embedded Ruby file (.html.erb) and surround the Ruby code with `<% %>`.
 - [ ] Insert Ruby code inside standard HTML files and surround it with `<% %>`. The web server will handle the rest.
-- [x] Create an embedded Ruby file (.html.erb) and surround the Ruby code with `<%= %>`. [Reference](https://guides.rubyonrails.org/action_view_overview.html#erb)
+- [x] Create an embedded Ruby file (.html.erb) and surround the Ruby code with `<%= %>`.
 - [ ] Put the code in an .rb file and include it in a `<link>` tag of an HTML file.
+
+[Reference](https://guides.rubyonrails.org/action_view_overview.html#erb)
 
 #### Q23. How would you render a view using a different layout in an ERB HTML view?
 
 - [ ] `<% render 'view_mobile' %>`
 - [ ] `<% render 'view', use_layout: 'mobile' %>`
-- [x] `<% render 'view', layout: 'mobile' %>` [Reference](https://stackoverflow.com/a/19277971)
+- [x] `<% render 'view', layout: 'mobile' %>`
 - [ ] `<% render_with_layout 'view', 'mobile' %>`
+
+[Reference](https://stackoverflow.com/a/19277971)
 
 #### Q24. Given this controller code, which choice describes the expected behavior if parameters are submitted to the update action that includes values for the product's name, style, color, and price?
 
@@ -278,8 +288,10 @@ end
 
 - [ ] app/static
 - [ ] app/images
-- [x] app/assets [Reference: RoR folder structure](https://images.app.goo.gl/CfKZPEQcGExfSx5C6)
+- [x] app/assets
 - [ ] app/views
+
+[Reference: RoR folder structure](https://images.app.goo.gl/CfKZPEQcGExfSx5C6)
 
 #### Q27. If the Rails asset pipeline is being used to serve JavaScript files, how would you include a link to one of those JavaScript files in a view?
 
@@ -312,9 +324,11 @@ end
 #### Q31. What is a popular alternative template language for generating views in a Rails app that is focused on simple abstracted markup?
 
 - [ ] Mustache
-- [x] Haml [Reference](https://medium.com/@bretcameron/so-you-think-you-know-html-7813c03f8ff6)
+- [x] Haml
 - [ ] Liquid
 - [ ] Tilt
+
+[Reference](https://medium.com/@bretcameron/so-you-think-you-know-html-7813c03f8ff6)
 
 #### Q32. When Ruby methods add an exclamation point at the end of their name (such as `sort!`), what does it typically indicate?
 
@@ -340,8 +354,10 @@ end
 
 - [ ] `csrf_protection`
 - [ ] `csrf_helper`
-- [x] `csrf_meta_tags` [Reference](https://api.rubyonrails.org/classes/ActionView/Helpers/CsrfHelper.html)
+- [x] `csrf_meta_tags`
 - [ ] `csrf`
+
+[Reference](https://api.rubyonrails.org/classes/ActionView/Helpers/CsrfHelper.html)
 
 #### Q35. In the model `User` you have the code shown below. When saving the model and `model.is_admin` is set to true, which callback will be called?
 
@@ -378,8 +394,10 @@ before_destroy :notify_admin_users, if: ->(model) { model.is_admin }
 
 - [ ] `Product.where("name = " << @keyword)`
 - [ ] `Product.where("name = " + h(@keyword))`
-- [x] `Product.where("name = ?", @keyword)` [Reference](https://guides.rubyonrails.org/active_record_querying.html#pure-string-conditions)
+- [x] `Product.where("name = ?", @keyword)`
 - [ ] `Product.where("name = #{@keyword}")`
+
+[Reference](https://guides.rubyonrails.org/active_record_querying.html#pure-string-conditions)
 
 #### Q39. You made a spelling mistake while creating a table for bank accounts. Which code would you expect to see in a migration to fix the error?
 

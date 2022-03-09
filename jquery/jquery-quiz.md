@@ -964,9 +964,9 @@ $('.item').parents('.navigation').css('font-weight', 'bold');
 
 #### Q53. How can you ensure that some code executes only when a class `active` appears on an element?
 
-- [x] `$('.element').attr('class', 'active')`
+- [ ] `$('.element').attr('class', 'active')`
 - [ ] `$('.element').with('.active')`
-- [ ] `$('.element').hasClass('active')`
+- [x] `$('.element').hasClass('active')`
 - [ ] `$('.active').then()`
 
 #### Q54. jQuery has a main function for handling AJAX, and several shorthand function including `load()` that make calling that main function easier. Given this HTML snippet, how can you insert only the second snippet from the source.html file (`div#one`) into the `#load-me` div on-demand via AJAX?
@@ -1045,10 +1045,10 @@ function listResponder(evt) {
 }
 ```
 
-- [ ] `$('.clickable-list).click(listResponder);`
-- [x] `$('.clickable-list).on('click', 'li', listResponder);`
-- [ ] `$('.clickable-list).on('click, append', listResponder);`
-- [ ] `$('.clickable-list).each(function() { $(this).click(listResponder); });`
+- [ ] `$('.clickable-list').click(listResponder);`
+- [x] `$('.clickable-list').on('click', 'li', listResponder);`
+- [ ] `$('.clickable-list').on('click, append', listResponder);`
+- [ ] `$('.clickable-list').each(function() { $(this).click(listResponder); });`
 
 #### Q58. What is the difference between $('p').find('a') and $('p').children('a')?
 
@@ -1117,7 +1117,7 @@ $(document).trigger('myCustomEvent');
 ```
 
 - [ ] `Custom events are at least an order of magnitude faster than helper functions`
-- [x] `Custom events can be listened for and acted upon across one or more scripts without needing to keep helper funtions in scope`
+- [x] `Custom events can be listened for and acted upon across one or more scripts without needing to keep helper functions in scope`
 - [ ] `Handler functions for custom events are less likely to be mangled by minification and obfuscation build tools`
 - [ ] `It is easier to write documentation for custom events than it is for helper functions`
 
@@ -1323,3 +1323,98 @@ $.fn.myTraverse = function() {
 
 **.nextAll([selector]) method**
 `Gets all following siblings of each element in the set of matched elements, optionally filtered by a selector.`
+
+#### Q68. You have an element with a series of code (not CSS) animations applied to it that could be triggered by code you control, or other code elsewhere (such as plugins). How can you fire some code when all those animations have completed?
+
+- [ ]
+
+```js
+$('#element').on('animationend', function () {
+  console.log('Finally, everything is done!');
+});
+```
+
+- [ ]
+
+```js
+$('#element')
+  .on('promise')
+  .then(function () {
+    console.log('Finally, everything is done!');
+  });
+```
+
+- [ ]
+
+```js
+$('#element')
+  .promise()
+  .catch(function () {
+    console.log('Finally, everything is done!');
+  });
+```
+
+- [ ]
+
+```js
+$('#element')
+  .promise()
+  .then(function () {
+    console.log('Finally, everything is done!');
+  });
+```
+
+[Source: HTMLElement: animationend event | MDN ](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationend_event)
+
+[Example: Stackoverflow](https://stackoverflow.com/questions/49580666/check-if-an-css-animation-is-completed-with-jquery-or-js)
+
+#### Q69. HTML5 data attributes allow you to create valid custom attributes to store arbitrary data within DOM elements. jQuery has an API to interface with custom data such as the series of quotes below. How can you mark the second quote as your favorite?
+
+```html
+<div class="quotes">
+  <blockquote data-favorite="false">A quote</blockquote>
+  <blockquote data-favorite="false">A favorite quote</blockquote>
+  <blockquote data-favorite="false">A quote</blockquote>
+  <blockquote data-favorite="false">A quote</blockquote>
+</div>
+```
+
+- [ ] `$('blockquote'):second().attr('favorite', true);`
+- [x] `$('blockquote:nth-child(2)').data('favorite', true);`
+- [ ] `$('blockquote').second().data('favorite', true);`
+- [ ] `$('blockquote:nth-child(2)').attr('favorite', true);`
+
+[Source: .data() | jQuery API Documentation](https://api.jquery.com/data/)
+
+[Source: :nth-child() | MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
+
+#### Q70. jQuery can create event handlers that execute exactly once. How is this done?
+
+- [ ] `$('button').click(function() { console.log('this will only happen once'); }, false);`
+- [ ] `$('button').on('click', function() { console.log('this will only happen once'); }).off('click');`
+- [ ] `$('button').once('click', function() { console.log('this will only happen once'); });`
+- [x] `$('button').one('click', function() { console.log('this will only happen once'); });`
+
+[Source: .one() | jQuery API Documentation](https://api.jquery.com/one/)
+
+#### Q71. You want to implement the behavior of an effect like `slideDown()` manually using `animate()`. What is one critical point you need to remember?
+
+- [ ] `slideDown()` requires animating the background color; doing so with `animate()` requires the jQuery Color plugin.
+- [x] `slideDown()` includes toggling visibility automatically. `animate()` does not automatically set any properties.
+- [ ] `slideDown()` requires the element to have a height set in pixels. `animate()` does not.
+- [ ] Effects created with `animate()` must be run over at least 100 milliseconds, where `slideDown()` can run as quickly as 50ms.
+
+[Source: .slideDown() | jQuery API Documentation](https://api.jquery.com/slidedown/)
+
+[Source: .animate() | jQuery API Documentation](https://api.jquery.com/animate/)\
+
+#### Q72. What is the main difference between the `contents()` and `children()` functions?
+
+- [ ] They both return the content of selected nodes, but `children()` also includes text and comment nodes.
+- [ ] The `contents()` function only includes text nodes of the selected elements.
+- [ ] The `children()` function only includes text nodes of the selected elements.
+- [x] They both return the content of selected nodes, but `contents()` also includes text and comment nodes.
+
+[Source: .children() | jQuery API Documentation](https://api.jquery.com/children/)
+
+[Source: .contents() | jQuery API Documentation](https://api.jquery.com/contents/)

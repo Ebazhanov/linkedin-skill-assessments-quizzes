@@ -377,8 +377,8 @@ modified: beta-notes.js
 - [x] 2
 - [ ] 4
 
-- **Explanation:** `In Git, there are two main ways to integrate changes from one branch into another: the merge and the rebase.`
-- [Reference link](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
+[Reference link](https://git-scm.com/book/en/v2/Git-Branching-Rebasing)
+`In Git, there are two main ways to integrate changes from one branch into another: the merge and the rebase.`
 
 #### Q41. Which user should be created first during setting up of SSH?
 
@@ -809,11 +809,51 @@ Which of the following options is correct ?
 
 [reference here](https://git-scm.com/docs/git-reflog)
 
-#### Q99. How does the ```-p``` option change the behavior of the ```git add``` command
-  
+#### Q99. How does the `-p` option change the behavior of the `git add` command
+
 - [ ] It causes tracked files in the parent directory to be included in the staged files.
 - [x] It allows developers to interactively choose which changes to tracked files are staged and outputs the differences for review.
 - [ ] It automatically pushes changes to the corresponding branch on the remote repository.
 - [ ] It allows developers to interactively choose which files are committed and outputs the differences for review.
-  
+
 [reference here](https://git-scm.com/docs/git-add#Documentation/git-add.txt--p)
+
+#### Q100. After checking out a specific commit, you receive a warning message indicating You are in 'detached HEAD' state. What is Git warning you of?
+
+- [x] You are not working on the most recent commit of a branch.
+- [ ] A teammate has flagged the code with an issue.
+- [ ] The commit does not have a parent.
+- [ ] The branch has not been pushed to the remote repository.
+
+[reference here](https://www.git-tower.com/learn/git/faq/detached-head-when-checkout-commit)
+
+#### Q101. After accidentally deleting a branch in your local repository, how can you recover it?
+
+- [ ] It cannot be recovered.
+- [ ] Find the hash of the branch with the `log` command, then execute `git checkout -b <branchname> <hash>`.
+- [x] Find the hash of the branch with the `reflog` command, then execute `git checkout -b <branchname> <hash>`.
+- [ ] Execute `git checkout -b <branchname>`.
+
+[Reference](https://stackoverflow.com/questions/1992364/git-recover-deleted-remote-branch)
+
+#### Q102. After checking your Git status, you get the following output, which shows the file beta-notes.js in the commit but also unstaged. How can this situation occur?
+
+```bash
+Changes to be committed:
+ (use "git reset HEAD <file>..." to unstage)
+
+  modified: beta-notes.js
+
+Changes not staged for commit:
+ (use "git add <file>..." to update what will be committed)
+ (use "git checkout -- <file>..." to discard changes in working directory)
+
+  modified: beta-notes.js
+```
+
+- [ ] There were two copies of beta-notes.js but one was deleted.
+- [ ] There are two tracked copies of beta-notes.js but one was removed from the commit.
+- [ ] Two copies of beta-notes.js were created, but only one is being tracked.
+- [x] beta-notes.js was staged, then modified afterwards, creating two different versions of the file.
+
+[Reference](https://stackoverflow.com/questions/24837841/can-a-file-be-both-staged-and-unstaged-in-git)

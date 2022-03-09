@@ -475,61 +475,78 @@ result <- lm(outcome ~ covariate + factor + covariate:factor, data = testcoef)
 - [ ] number
 - [ ] variant
 
-#### Q47. How do you extract the values above the main diagonal from a square matrix named ```Rmat```?
-- [x] ```Rmat[upper.tri(Rmat)]```
-- [ ] ```upper.triangular(Rmat)```
-- [ ] ```upper.tri(Rmat)```
-- [ ] ```upper.diag(Rmat)```
+#### Q47. How do you extract the values above the main diagonal from a square matrix named `Rmat`?
 
-#### Q48. ```x``` is a vector of type integer, as shown on line 1 below. What is the type of the result returned by the statement > median(x)?
-```x <- c(12L, 6L, 10L, 8L, 15L, 14L, 19L, 18L, 23L, 59L)```
+- [x] `Rmat[upper.tri(Rmat)]`
+- [ ] `upper.triangular(Rmat)`
+- [ ] `upper.tri(Rmat)`
+- [ ] `upper.diag(Rmat)`
+
+#### Q48. `x` is a vector of type integer, as shown on line 1 below. What is the type of the result returned by the statement > median(x)?
+
+`x <- c(12L, 6L, 10L, 8L, 15L, 14L, 19L, 18L, 23L, 59L)`
+
 - [ ] numeric
 - [ ] integer
 - [ ] single
 - [x] double
 
-#### Q49. A list named ```a``` is created using the statement below. Which choice returns TRUE?
-```a <- list("10", TRUE, 5.6)```
+#### Q49. A list named `a` is created using the statement below. Which choice returns TRUE?
+
+`a <- list("10", TRUE, 5.6)`
+
 - [x] is.list(a[1])
 - [ ] is.numeric(a[1])
 - [ ] is.logical(a[1])
 - [ ] is.character(a[1])
 
-#### Q50. How do you return "October" from ```x``` in this code?
-```x <- as.Date("2018-10-01")```
+#### Q50. How do you return "October" from `x` in this code?
+
+`x <- as.Date("2018-10-01")`
+
 - [ ] as.month(x)
 - [x] months(x)
 - [ ] month(x)
 - [ ] attr(x)
 
-### Q51. How do you obtain the row numbers in a data frame named ```pizza``` for which the value of ```pizza$delivery_min``` is greater than or equal to 30?
-- [ ] 
+### Q51. How do you obtain the row numbers in a data frame named `pizza` for which the value of `pizza$delivery_min` is greater than or equal to 30?
+
+- [ ]
+
 ```
 late_delivery <- pizza$delivery_min >= 30
 index_late <- index(late_delivery)
 index_late
 ```
-- [ ] 
+
+- [ ]
+
 ```
 late_delivery <- pizza$delivery_min >= 30
 rownum_late <- rownum(late_delivery)
 rownum_late
 ```
-- [x] 
+
+- [x]
+
 ```
 late_delivery <- pizza$delivery_min >= 30
 which_late <- which(late_delivery)
 which_late
 ```
-- [x] 
+
+- [x]
+
 ```
 late_delivery <- pizza$delivery_min >= 30
 late <- pizaa$late_delivery
 pizza$late
 ```
 
-#### Q52. Which function returns ```[1] TRUE FALSE TRUE```?
-```indat <- c("Ash Rd","Ash Cir","Ash St")```
+#### Q52. Which function returns `[1] TRUE FALSE TRUE`?
+
+`indat <- c("Ash Rd","Ash Cir","Ash St")`
+
 - [ ] grepl("[Rd|Ave|Dr|St]", indat)
 - [x] grepl("Rd|Ave|Dr|St", indat)
 - [ ] grepl("Rd,Ave,Dr,St", indat)

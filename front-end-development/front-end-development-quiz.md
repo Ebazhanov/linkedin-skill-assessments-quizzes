@@ -351,7 +351,7 @@ const user = {
 - [x] It will tell the browser that a connection will be made to another origin and to start getting ready as soon as possible.
 - [ ] It will tell the browser that a resource is needed, and that it should start getting fetched as soon as possible.
 
-[Reference (web.dev)](https://web.dev/preconnect-and-dns-prefetch/)
+[web.dev](https://web.dev/preconnect-and-dns-prefetch/)
 
 #### Q37. Which choice is _not_ a render blocking resource?
 
@@ -360,7 +360,7 @@ const user = {
 - [ ] CSS
 - [ ] JavaScript
 
-[Reference (blog.logrocket)](https://blog.logrocket.com/5-tricks-to-eliminate-render-blocking-resources/)
+[blog.logrocket](https://blog.logrocket.com/5-tricks-to-eliminate-render-blocking-resources/)
 
 #### Q38. Which choice does _not_ provide information on browser support for a particular CSS property?
 
@@ -568,3 +568,21 @@ console.log(currencies);
 - [ ] It is a script that runs to add vendor prefixes to modern CSS.
 
 [Source: Polyfill](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill)
+
+#### Q60. Which choice is _not_ a JavaScript framework?
+
+- [ ] Angular
+- [x] Laravel
+- [ ] Vue
+- [ ] React
+
+[Source: Laravel](https://laravel.com/)
+
+#### Q61. What does setting `aria-live=polite` on a live region achieve?
+
+- [ ] The screen reader will not notify the user of changes to live regions.
+- [x] The screen reader will wait until there is a pause to announce changes.
+- [ ] The screen reader will announce all changes immediately.
+- [ ] The screen reader will use a polite voice when announcing changes.
+
+[Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-live)

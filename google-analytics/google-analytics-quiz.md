@@ -465,112 +465,114 @@
 - [ ] filling out a contact form after reading a social post
 - [x] signing up for an account after clicking an ad
 
-#### Q65. What is the latest version of the analytics tracking tag?
+#### Q66. What is the latest version of the analytics tracking tag?
 
 - [x] gtag.js
 - [ ] urchin.js
 - [ ] gaq.push and ga.js
 - [ ] analytics.js
 
-#### Q66. What is an example of a dimension?
+#### Q67. What is an example of a dimension?
 
 - [ ] Sessions
 - [ ] Bounce Rate
 - [ ] Conversions
 - [x] Source/Medium
 
-#### Q67. Which report displays the page a visitor arrived on?
+#### Q68. Which report displays the page a visitor arrived on?
 
 - [ ] Behavior Flow
 - [ ] Exit Pages
 - [x] Landing Pages
 - [ ] Channels
 
-#### Q68. You are tracking events of playback of video on the home page of a website. You want users who watch the video, but still leave the page with no additional pageviews or interactions, to still be included in the bounce rate calculation. What must be configured?
+#### Q69. You are tracking events of playback of video on the home page of a website. You want users who watch the video, but still leave the page with no additional pageviews or interactions, to still be included in the bounce rate calculation. What must be configured?
 
 - [x] non-interaction event
 - [ ] implicit event
 - [ ] advanced events
 - [ ] default event
 
-#### Q69. Which attribution model does Google Analytics apply by default for standard reports?
+#### Q70. Which attribution model does Google Analytics apply by default for standard reports?
 
 - [ ] Linear
 - [ ] First Interaction
 - [ ] Last Interaction
 - [x] Last Non-Direct Click
 
-#### Q70. If you want to track one destination goal but have two URLs that could trigger the goal (for example,/thank-you and /checkout-complete), what approach can you use?
+#### Q71. If you want to track one destination goal but have two URLs that could trigger the goal (for example,/thank-you and /checkout-complete), what approach can you use?
 
 - [ ] Create a content grouping, and then use the group as the destination.
 - [ ] Add the additional page as a funnel step.
 - [x] Use a regular expression when adding the goal destination.
 - [ ] That is not possible.
 
-#### Q71. If you created a calculated metric that returned a value of "80" with Time as the formatting type, how would it be represented in Google Analytics?
+#### Q72. If you created a calculated metric that returned a value of "80" with Time as the formatting type, how would it be represented in Google Analytics?
 
 - [ ] 0:01:20
 - [x] 80
 - [ ] 80:00:00
 - [ ] 1:20:00
 
-#### Q72. You want to compare the revenue, top products, and average order value between people who viewed three or more pages on your site, to those who viewed fewer. What do you do?
+#### Q73. You want to compare the revenue, top products, and average order value between people who viewed three or more pages on your site, to those who viewed fewer. What do you do?
 
 - [ ] Create a custom report where Page Depth is >/3 or Page Depth is <3. Toggle on Revenue, Top Products, and Average Order Value as Dimensions.
 - [ ] View the Product Performance report and add Page Depth as a secondary dimension. Create a table filter for Page Depth greater than 3 and Page Depth less than 3.
 - [x] Create a custom segment where Page Depth is >/3 and another segment where Page Depth is <3. Apply both segments while on the Ecommerce Overview report.
 - [ ] View the Ecommerce Overview report and create a table filter where Page Depth is >/3 or Page Depth is <3.
 
-#### Q73. If you wanted to create a user-defined metric to measure Revenue per User, what would you use?
+#### Q74. If you wanted to create a user-defined metric to measure Revenue per User, what would you use?
 
 - [ ] ecommerce metrics
 - [ ] custom dimensions
 - [x] calculated metrics
 - [ ] custom metrics
 
-#### Q74. You are managing analytics for a recipe website that has the following categories: Appetizers, Main Dishes, and Desserts. What do you create in order to compare aggregated data of all recipes in the Appetizer category vs. all recipes in the Desserts category?
+#### Q75. You are managing analytics for a recipe website that has the following categories: Appetizers, Main Dishes, and Desserts. What do you create in order to compare aggregated data of all recipes in the Appetizer category vs. all recipes in the Desserts category?
 
 - [ ] custom channels
 - [ ] advanced filters
-- [x] content grouping <= [not sure](https://support.google.com/analytics/answer/2853423?hl=en)
+- [x] content grouping
 - [ ] custom segments
 
-#### Q75. How would you add a secondary dimension to a report?
+[answer](https://support.google.com/analytics/answer/2853423?hl=en)
+
+#### Q76. How would you add a secondary dimension to a report?
 
 - [ ] from the Insights panel
 - [x] from the Secondary dimension menu
 - [ ] all of these answers
 - [ ] with a table filter
 
-#### Q76. You operate a website that has a three-step sign-up process. However, each step of the sign-up process loads at the same URL. If you wanted to assign a unique URL to each step and track it within Google Analytics as a pageview, what would you do?
+#### Q77. You operate a website that has a three-step sign-up process. However, each step of the sign-up process loads at the same URL. If you wanted to assign a unique URL to each step and track it within Google Analytics as a pageview, what would you do?
 
 - [ ] Use virtual pageviews.
 - [ ] Configure a campaign URL.
 - [ ] Use the preview tag.
 - [x] Use event tracking.
 
-#### Q77. It is a best practice to always have one of what kind of view?
+#### Q78. It is a best practice to always have one of what kind of view?
 
 - [ ] property
 - [ ] custom
 - [ ] segmented
 - [x] unfiltered
 
-#### Q78. You send an email including a link to your website without any UTM parameters. A visitor clicks that link from a secured (https) email platform such as Gmail. What source is shown for that traffic?
+#### Q79. You send an email including a link to your website without any UTM parameters. A visitor clicks that link from a secured (https) email platform such as Gmail. What source is shown for that traffic?
 
 - [ ] Email
 - [x] Referral
 - [ ] (other)
 - [ ] Direct
 
-#### Q79. Which type of goal allows you to specifiy a funnel?
+#### Q80. Which type of goal allows you to specifiy a funnel?
 
 - [ ] Destination
 - [ ] Duration
 - [ ] Pages/Screens per Session
 - [ ] Event
 
-#### Q80. What is an interaction that causes data to be sent to Analytics?
+#### Q82. What is an interaction that causes data to be sent to Analytics?
 
 - [ ] dimension
 - [ ] metric

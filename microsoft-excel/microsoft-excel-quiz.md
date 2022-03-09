@@ -473,7 +473,7 @@
 - [ ] the named range Colors[Inventory], which does not use Format as Table Feature
 
 Table[Column] can be used instead of cell references (C2:C7).
-https://support.microsoft.com/en-us/office/using-structured-references-with-excel-tables-f5ed2452-2337-4f71-bed3-c8ae6d2b276e
+[Reference](https://support.microsoft.com/en-us/office/using-structured-references-with-excel-tables-f5ed2452-2337-4f71-bed3-c8ae6d2b276e)
 
 #### Q63. Which VLOOKUP function, when entered into cell L2 and then dragged to cell L5, returns the average number of calls for the representative IDs listed in column J?
 
@@ -540,7 +540,7 @@ https://support.microsoft.com/en-us/office/using-structured-references-with-exce
 - [x] In the `PivotTable Fields` pane, drag `Sum Values` from the `Columns` section to a location below the field in the `Rows` section.
 - [ ] In the `PivotTable Fields` pane, drag each field from the `Sum Values` section to the `Rows` section.
 
-https://devexpress.github.io/dotnet-eud/interface-elements-for-desktop/articles/spreadsheet/pivot-tables/group-items-in-a-pivot-table.html
+[Reference](https://devexpress.github.io/dotnet-eud/interface-elements-for-desktop/articles/spreadsheet/pivot-tables/group-items-in-a-pivot-table.html)
 
 ### Q70. Which Excel feature allows you to hide rows or columns with an easily visible expand/collapse?
 
@@ -675,7 +675,7 @@ https://devexpress.github.io/dotnet-eud/interface-elements-for-desktop/articles/
   2. Click the Format Painter.
   3. Click the source cell.
 
-- [ ] C
+- [x] C
 
   1. Select the source cell.
   2. Double-click the Format Painter.
@@ -891,9 +891,38 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] XY scatter chart
 - [ ] combo chart
 
-#### Q109. To ensure that a collection of shapes are evenly spaced apart from left to right, select the shapes, click Page Layout > Align, and then click ______.
+#### Q109. To ensure that a collection of shapes are evenly spaced apart from left to right, select the shapes, click Page Layout > Align, and then click **\_\_**.
 
 - [x] Distribute Horizontally
 - [ ] Align Center
 - [ ] Distribute Vertically
 - [ ] Align Middle
+
+### Q110. A file extension of .xlsm indicates what type of workbook?
+
+- [x] macro-enabled workbook
+- [ ] XML-standard workbook
+- [ ] Excel 2003 workbook
+- [ ] workbook where macros are not allowed
+
+### Q111. A colleague shared an Excel file with you, and you want to display a worksheet that is hidden in it. How can you do that?
+
+- [x] Right-click any worksheet tab and select Unhide.
+- [ ] On the View tab, click New Window.
+- [ ] On the Home tab, click Unhide.
+- [ ] On the Review tab click Unhide Sheet.
+
+### Q112. How do you remove only the conditional formatting from a cell and leave all other formatting intact?
+
+- [ ] This is not possible-you can remove only all formatting from a cell.
+- [x] Select the cell. On the Home tab, click Conditional Formatting > Clear Rules > Clear Rules from Selected Cells.
+- [ ] Right-click the cell and select Delete Conditional Formatting.
+- [ ] Right-click the cell and select Remove Conditional Formatting.
+
+
+### Q113. If a range name is used in a formula and the name is deleted, what happens to the formula?
+
+- [ ] The formula display a warning but the actual cell address is substituted for the deleted name.
+- [ ] The formula becomes invalid and displays a #NAME? error.
+- [ ] The actual cell addresses replace the original range name in the formula.
+- [ ] The formula becomes invalid and displays a #N/A error

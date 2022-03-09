@@ -144,12 +144,12 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 
 #### Q19. What character class is equal to this set?
 
-[0-9]
+`[0-9]`
 
-- [ ] [[:alnum:]]
-- [x] [[:digit:]]
-- [ ] [[:alpha:]]
-- [ ] [[:num:]]
+- [ ] `[[:alnum:]]`
+- [x] `[[:digit:]]`
+- [ ] `[[:alpha:]]`
+- [ ] `[[:num:]]`
 
 #### Q20. When archiving files, which command will preserve all file attributes including ACLs and SELinux security context?
 
@@ -174,7 +174,7 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 
 #### Q23. When would this system cron job run its task?
 
-0 1 \* \* \*
+`0 1 \* \* \*`
 
 - [ ] every minute of the hour
 - [ ] every hour of every day
@@ -244,7 +244,7 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 - [x] -b
 - [ ] -x
 
-#### Q33. Which choice will *not* print "Hello World" in the terminal?
+#### Q33. Which choice will _not_ print "Hello World" in the terminal?
 
 - [ ] A
 
@@ -329,10 +329,10 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 
 #### Q41. To search from the current cursor position up to the beginning of the file using VIM, type \_ and then the search criteria.
 
-- [x] ?
-- [ ] \
-- [ ] /
-- [ ] /search
+- [x] `?`
+- [ ] `\`
+- [ ] `/`
+- [ ] `/search`
 
 #### Q42. What is the job of the NetworkManager daemon?
 
@@ -433,8 +433,7 @@ find / -size -10K -exec ls -l {} \;
 - [ ] enter the sudo user's password
 - [ ] change to the root group
 
-**Reference:**
-From docs: [A Cloud Guru's Blog](https://acloudguru.com/blog/engineering/linux-commands-for-beginners-sudo#:~:text=Sudo%20asks%20for%20your%20user%20password.%C2%A0%20Note%20that%20it%20is%20asking%20for%20your%20password%2C%20not%20the%20root%20password.)
+[A Cloud Guru's Blog](https://acloudguru.com/blog/engineering/linux-commands-for-beginners-sudo#:~:text=Sudo%20asks%20for%20your%20user%20password.%C2%A0%20Note%20that%20it%20is%20asking%20for%20your%20password%2C%20not%20the%20root%20password.)
 
 #### Q55. When would this system cron job run its task?
 
@@ -503,7 +502,7 @@ fi
 - [ ] There are no issues with referring to partitions by their partition path.
 - [ ] It is more difficult identifying mounted devices by partition path.
 
-isse letter drift problem, mentionned here https://access.redhat.com/discussions/6004221
+[Reference](https://access.redhat.com/discussions/6004221)
 
 #### Q62. Which option would you choose to force grep to use a basic regular expression (BRE)?
 
@@ -512,7 +511,7 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
 - [ ] grep -e
 - [x] grep -G
 
-[Reference] Man page of grep command.
+**Explanation**: Man page of grep command.
 
 #### Q63. An rsyslogd filter determines which items in a log file to act on. What is it made up of?
 
@@ -595,39 +594,39 @@ isse letter drift problem, mentionned here https://access.redhat.com/discussions
 - [ ] barrenness
 - [ ] successfully
 
-#### Q73. To run CGI scripts with Apache, you need to _____.
+#### Q73. To run CGI scripts with Apache, you need to **\_**.
 
 - [ ] compile the script with a CGI compiler
 - [ ] make the script executable
-- [x] make the script executable and set the ```httpd_enable_cgi``` SELinux boolean
+- [x] make the script executable and set the `httpd_enable_cgi` SELinux boolean
 - [ ] change the ownership of the script to Apache
 
 [reference here](https://selinuxproject.org/page/ApacheRecipes#Allow_the_Apache_HTTP_Server_to_run_CGI_scripts)
 
 #### Q74. To permanently add NAT to the default zone using firewalld, you would use which command string?
 
-- [ ] ```firewall-cmd --permanent --add-nat```
-- [x] ```firewall-cmd --permanent --add-masquerade```
-- [ ] ```firewall-cmd --zone=default --add-nat```
-- [ ] ```firewall-cmd --zone=default --add-masquerade```
+- [ ] `firewall-cmd --permanent --add-nat`
+- [x] `firewall-cmd --permanent --add-masquerade`
+- [ ] `firewall-cmd --zone=default --add-nat`
+- [ ] `firewall-cmd --zone=default --add-masquerade`
 
 [reference here](https://www.rootusers.com/how-to-use-firewalld-rich-rules-and-zones-for-filtering-and-nat)
 
-#### Q75. What is the difference between using ```=``` and ```==``` in a BASH double square bracket ```if``` conditional?
+#### Q75. What is the difference between using `=` and `==` in a BASH double square bracket `if` conditional?
 
 ```
 if [[ $FILE == $GLOB ]] ;then
 
 ```
 
-- [ ] The single equal sign (```=```) is an assignment operator; the double equal sign (```==```) checks equality.
+- [ ] The single equal sign (`=`) is an assignment operator; the double equal sign (`==`) checks equality.
 - [x] There is no difference.
-- [ ] The single equal sign (```=```) checks equality; the double equal sign (```==```) checks string equality.
-- [ ] The double equal sign (```==```) is an assignment operator; the single equal sign (```=```) checks equality.
+- [ ] The single equal sign (`=`) checks equality; the double equal sign (`==`) checks string equality.
+- [ ] The double equal sign (`==`) is an assignment operator; the single equal sign (`=`) checks equality.
 
 [reference here](https://stackoverflow.com/a/12948608)
 
-#### 76. ```journald``` differs from traditional logging services such as ```rsyslogd``` and ```syslogd``` because its logs are _____ by default.
+#### 76. `journald` differs from traditional logging services such as `rsyslogd` and `syslogd` because its logs are **\_** by default.
 
 - [ ] stored remotely
 - [ ] text
@@ -663,3 +662,30 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] EREs support occurrence operators.
 - [ ] ERE's support alternation.
 - [ ] only the syntax differs.
+
+### Q81. What is the difference between reading the list of disk partitions from `/proc/partitions` and getting it using `fdisk -l`?
+
+- [ ] `/proc/partitions` represents the disk partition table more accurately than `fdisk -l`
+- [ ] `/proc/partitions` shows only mounted drives. `fdisk -l` shows all drivers.
+- [ ] There is no difference between the two, and both lists contain the same data.
+- [ ] `/proc/partitions` is the kernel's list of partitions held in ram. `fdisk -l` reads the partition table from the drive itself.
+
+### Q82. What would be in out.txt?
+
+    cat < in.txt > out.txt
+
+- [x] the content of in.txt.
+- [ ] the output from the command line.
+- [ ] Nothing, because you cannot redirect from a file (in.txt) to another file (out.txt). You can redirect only from a command to a file.
+- [ ] Nothing, The redirect will create a new empty file, but there will not be any output from the cat command to redirect.
+
+### Q83. Using alternation in a POSIX-extended regular expression, which numbers would this pattern match?
+
+```
+^(([0-9][0-9]?)|(2[0-9][0-9]))$
+```
+
+- [x] 0-99 and 200-299
+- [ ] 0-99
+- [ ] 200-299
+- [ ] 0-299
