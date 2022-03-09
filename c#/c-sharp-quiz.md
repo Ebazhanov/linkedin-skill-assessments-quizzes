@@ -710,6 +710,8 @@ public int Password
 - [ ] `Virtual methods cannot have default implementation.`
 
 [Official documentation: virtual](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/virtual)
+[c-sharpcorner: Virtual Method in C#](https://www.c-sharpcorner.com/UploadFile/3d39b4/virtual-method-in-C-Sharp/)
+    
     
 #### Q66. What is likely to happen if you have multiple threads accessing the same resource in your program?
 
