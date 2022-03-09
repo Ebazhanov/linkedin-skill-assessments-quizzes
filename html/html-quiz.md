@@ -1779,3 +1779,10 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<ul>` cannot contain a heading element as a direct child.
 - [ ] An `<h1>` should be used here instead of an `<h2>` tag.
 - [ ] Only `<ol>` allows direct descendants to contain elements other than an `<li>`, so use an `<ol>` here instead.
+
+#### Q111. A designer gave you CSS code that should run only when the device rendering the page is in dark mode. How would you embed that code?
+
+- [ ] `<style media="light-mode: false">/* CSS code */</style>`
+- [ ] `<style media="color-mode: dark">/* CSS code */</style>`
+- [x] `<style media="prefers-color-scheme: dark">/* CSS code */</style>`
+- [ ] `<style media="color-scheme: dark">/* CSS code */</style>`

@@ -1647,8 +1647,8 @@ System.out.println(list1);
 ```
 
 - [ ] `[Two]`
-- [ ] `[One, Two, Three]`
-- [x] `[One, Three]`
+- [x] `[One, Two, Three]`
+- [ ] `[One, Three]`
 - [ ] `Two`
 
 #### Q114. Which code checks whether the characters in two Strings,named `time` and `money`, are the same?
@@ -1718,31 +1718,7 @@ System.out.println(b == c);
 
 **Explanation:** `== operator` compares the object reference. `String a = "bikini"; String b = "bikini";` would result in True. Here new creates a new object, so false. Use `equals() method` to compare the content.
 
-#### Q119. Which is the problem with this code?
-
-```java
-class Main {
-	public static void main(String[] args) {
-
-		List<String> list = new ArrayList<String>(Arrays.asList("a","b","c"));
-
-		for (String value : list) {
-			if (value.equals("a")){
-				list.remove(value);
-			}
-		}
-
-		System.out.println(list); //outputs [b,c]
-	}
-}
-```
-
-- [ ] ArrayList does not implement the `List` interface.
-- [ ] The `List` interface does not allow an argument of type String to be passed to the remove method.
-- [ ] Strings should be compared using `==` instead of `equals`.
-- [x] Modifying a collection while iterating through it can throw a ConcurrentModificationException
-
-#### Q120. What keyword is added to a method declaration to ensure that two threads do not simultaneously execute it on the same object instance?
+#### Q119. What keyword is added to a method declaration to ensure that two threads do not simultaneously execute it on the same object instance?
 
 - [ ] native
 - [ ] volatile

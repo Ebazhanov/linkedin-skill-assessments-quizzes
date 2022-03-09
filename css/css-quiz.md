@@ -1768,7 +1768,9 @@ p + section {
 #### Q121. Which style will horizontally center the inner &lt;div&gt; within the outer &lt;div&gt;?
 
 ```js
-<div id="outer"><div id="inner">Center Me!</div></div><div id="outer">
+<div id="outer">
+  <div id="inner">Center Me!</div>
+</div>
 ```
 
 - [ ]

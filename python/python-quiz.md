@@ -1461,23 +1461,9 @@ for letter in my_dictionary.values():
     letters.append(letter)
 ```
 
-- [ ]
-
-```
-letters = my_dictionary.keys()
-```
-
-- [ ]
-
-```
-letters = [letter for (letter, number) in my_dictionary.items()]
-```
-
-- [ ]
-
-```
-letters4 = list(my_dictionary)
-```
+- [ ] `letters = my_dictionary.keys()`
+- [ ] `letters = [letter for (letter, number) in my_dictionary.items()]`
+- [ ] `letters4 = list(my_dictionary)`
 
 **Explanation:** The first one (the correct option) returns the list of the values (the letters). The rest of the options return a list of the keys.
 
@@ -1510,3 +1496,18 @@ letters4 = list(my_dictionary)
 - [ ] traceback
 - [x] warnings
 - [ ] exceptions
+
+#### Q114. What will be the value of x after running this code?
+
+```python
+x = {1,2,3,4,5}
+x.add(5)
+x.add(6)
+```
+
+- [ ] `{1, 2, 3, 4, 5, 5, 6}`
+- [ ] `{5, 6, 1, 2, 3, 4, 5, 6}`
+- [ ] `{6, 1, 2, 3, 4, 5}`
+- [x] `{1, 2, 3, 4, 5, 6}`
+
+**Explanation:** The `.add()` method adds the element to the set only if it doesnt exist.

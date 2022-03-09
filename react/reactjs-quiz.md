@@ -1081,17 +1081,20 @@ class Huggable extends React.Component {
     console.log("hugging " + id);
   }
   render() {
-    let name = "kitteh";
+    let name = "kitten";
     let button = // Missing code
     return button;
   }
 }
 ```
 
-- [ ] `<button onClick={(name) => this.hug(name)}>Hug Button</button>;`
+- [x] `<button onClick={(name) => this.hug(name)}>Hug Button</button>;`
 - [ ] `<button onClick={this.hug(e, name)}>Hug Button</button>;`
 - [ ] `<button onClick={(e) => hug(name, e)}>Hug Button</button>;`
-- [x] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>;`
+- [ ] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>;`
+
+**Explanation:**
+From official docs: https://reactjs.org/tutorial/tutorial.html#making-an-interactive-component
 
 #### Q96. What syntax do you use to create a component in React?
 
@@ -1111,7 +1114,7 @@ class Huggable extends React.Component {
 
 #### Q98. In this function, which is the best way to describe the Dish component?
 
-````
+```
 function Dish() {
   return (
     <>
@@ -1120,7 +1123,8 @@ function Dish() {
     </>
   );
 }
-````
+```
+
 - [ ] child component
 - [x] parent component
 - [ ] nested component

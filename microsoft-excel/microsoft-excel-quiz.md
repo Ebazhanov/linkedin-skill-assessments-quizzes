@@ -675,7 +675,7 @@ Table[Column] can be used instead of cell references (C2:C7).
   2. Click the Format Painter.
   3. Click the source cell.
 
-- [ ] C
+- [x] C
 
   1. Select the source cell.
   2. Double-click the Format Painter.
@@ -904,3 +904,25 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] XML-standard workbook
 - [ ] Excel 2003 workbook
 - [ ] workbook where macros are not allowed
+
+### Q111. A colleague shared an Excel file with you, and you want to display a worksheet that is hidden in it. How can you do that?
+
+- [x] Right-click any worksheet tab and select Unhide.
+- [ ] On the View tab, click New Window.
+- [ ] On the Home tab, click Unhide.
+- [ ] On the Review tab click Unhide Sheet.
+
+### Q112. How do you remove only the conditional formatting from a cell and leave all other formatting intact?
+
+- [ ] This is not possible-you can remove only all formatting from a cell.
+- [x] Select the cell. On the Home tab, click Conditional Formatting > Clear Rules > Clear Rules from Selected Cells.
+- [ ] Right-click the cell and select Delete Conditional Formatting.
+- [ ] Right-click the cell and select Remove Conditional Formatting.
+
+
+### Q113. If a range name is used in a formula and the name is deleted, what happens to the formula?
+
+- [ ] The formula display a warning but the actual cell address is substituted for the deleted name.
+- [ ] The formula becomes invalid and displays a #NAME? error.
+- [ ] The actual cell addresses replace the original range name in the formula.
+- [ ] The formula becomes invalid and displays a #N/A error

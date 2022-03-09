@@ -7655,6 +7655,58 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Achilleasein",
+      "name": "Achilleas John Yfantis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6341668?v=4",
+      "profile": "https://achilleasein.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "OmkarShivadekar",
+      "name": "Omkar Shivadekar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30948641?v=4",
+      "profile": "https://github.com/OmkarShivadekar",
+      "contributions": [
+        "design",
+        "code",
+        "content",
+        "bug"
+      ]
+    },
+    {
+      "login": "toantd90",
+      "name": "ToanTran",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4978810?v=4",
+      "profile": "https://github.com/toantd90",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "gautamnaik1994",
+      "name": "Gautam Naik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2787787?v=4",
+      "profile": "https://www.gautamnaik.com/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "marcondercin",
+      "name": "Marc",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23724126?v=4",
+      "profile": "https://marcondercin.github.io",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
