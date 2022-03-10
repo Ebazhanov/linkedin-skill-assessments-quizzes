@@ -372,6 +372,9 @@ class Clock extends React.Component {
 - [ ] It automatically updates a component.
 - [x] `setState` is asynchronous and might result in out of sync values.
 
+**Explanation:** Because `this.props` and `this.state` may be updated asynchronously, you should not rely on their values for calculating the next state. 
+Read [this article](https://medium.com/@wisecobbler/using-a-function-in-setstate-instead-of-an-object-1f5cfd6e55d1)
+
 #### Q40. What package contains the render() function that renders a React element tree to the DOM?
 
 - [ ] `React`
@@ -1088,13 +1091,13 @@ class Huggable extends React.Component {
 }
 ```
 
-- [x] `<button onClick={(name) => this.hug(name)}>Hug Button</button>;`
+- [ ] `<button onClick={(name) => this.hug(name)}>Hug Button</button>;`
 - [ ] `<button onClick={this.hug(e, name)}>Hug Button</button>;`
 - [ ] `<button onClick={(e) => hug(name, e)}>Hug Button</button>;`
-- [ ] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>;`
+- [x] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>;`
 
 **Explanation:**
-From official docs: https://reactjs.org/tutorial/tutorial.html#making-an-interactive-component
+This question test knowledge of react class components. You need to use `this` in order to call methods declared inside class components.
 
 #### Q96. What syntax do you use to create a component in React?
 
@@ -1129,17 +1132,3 @@ function Dish() {
 - [x] parent component
 - [ ] nested component
 - [ ] sibling component
-
-#### Q99. When using webpack, why would you need to use a loader?
-
-- [ ] to load the website into everyone's phone
-- [x] to load external data
-- [ ] to preprocess files
-- [ ] to put together physical file folders
-
-#### Q100. Why is it a good idea to pass a function to setState instead of an object?
-
-- [ ] setState is asynchoronous and might result in out sync values
-- [ ] it automatically updates a component
-- [x] it makes sure that the object is not mutated
-- [ ] it provides better encapsulation
