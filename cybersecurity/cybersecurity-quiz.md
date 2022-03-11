@@ -420,7 +420,8 @@ autopsy is for forensic analysis
 - [ ] Recovery
 - [x] Eradiction / Remediation
 - [ ] Lessons Learned
-Explanation: Pages 29 to 31 -> https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-83r1.pdf
+
+[Explanation: Pages 29 to 31 ->](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-83r1.pdf)
 
 #### Q55. Which programming language is most susceptible to buffer overflow attacks?
 
@@ -645,7 +646,8 @@ Explanation: Pages 29 to 31 -> https://nvlpubs.nist.gov/nistpubs/specialpublicat
 - [ ] only when assessing regulatory compliance
 - [ ] only if following the Agile model
 - [ ] never
-Explanation: https://www.synopsys.com/glossary/what-is-sast.html
+
+[Explanation:](https://www.synopsys.com/glossary/what-is-sast.html)
 
 #### Q87. Your organization service customer orders with a custom ordering system developed in-hose. You are responsible for recommending a cloud model to meet the following requirements:
 
@@ -682,7 +684,8 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 - [ ] Caesar cipher
 - [ ] symmetric-key encryption
 - [x] asymmetric-key encryption
-Explanation: -> https://medium.com/geekoffee/ensuring-integrity-authenticity-and-non-repudiation-in-data-transmission-using-node-js-af73c2404153
+
+[Explanation:](https://medium.com/geekoffee/ensuring-integrity-authenticity-and-non-repudiation-in-data-transmission-using-node-js-af73c2404153)
 
 #### Q91. Which software development lifecycle approach is most compatible with DevSecOps?
 
