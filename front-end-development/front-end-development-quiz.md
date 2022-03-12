@@ -600,3 +600,12 @@ console.log(currencies);
 - [ ] blue
 - [x] transparent
 - [ ] white
+
+
+#### Q63. Which CSS property and value would correctly remove the bullets from a list item?
+
+- [ ] ```list-tem: none```
+- [ ] ```bullets: hidden```
+- [x] ```list-style-type: none```
+- [ ] ```list-bullet: none```
+
