@@ -372,7 +372,7 @@ class Clock extends React.Component {
 - [ ] It automatically updates a component.
 - [x] `setState` is asynchronous and might result in out of sync values.
 
-**Explanation:** Because `this.props` and `this.state` may be updated asynchronously, you should not rely on their values for calculating the next state. 
+**Explanation:** Because `this.props` and `this.state` may be updated asynchronously, you should not rely on their values for calculating the next state.
 Read [this article](https://medium.com/@wisecobbler/using-a-function-in-setstate-instead-of-an-object-1f5cfd6e55d1)
 
 #### Q40. What package contains the render() function that renders a React element tree to the DOM?

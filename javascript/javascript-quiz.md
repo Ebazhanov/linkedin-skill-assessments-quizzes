@@ -1697,7 +1697,6 @@ const result = Object.keys(person).map((x) => x.toUpperCase());
 2. [Array.prototype.map() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 3. [String.prototype.toUpperCase() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
 
-
 #### Q123. Which snippet could you insert to this code to print "swim" to the console?
 
 ```js
@@ -1719,7 +1718,7 @@ if(/* Insert Snippet Here */){
 #### Q124. What is the output of this code?
 
 ```js
-class RainForest{
+class RainForest {
   static minimumRainFall = 60;
 }
 

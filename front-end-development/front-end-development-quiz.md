@@ -591,8 +591,8 @@ console.log(currencies);
 
 ```css
 .box {
-	background-color: blue;
-	background: url(images/star.png) no-repeat left top;
+  background-color: blue;
+  background: url(images/star.png) no-repeat left top;
 }
 ```
 
@@ -601,11 +601,9 @@ console.log(currencies);
 - [x] transparent
 - [ ] white
 
-
 #### Q63. Which CSS property and value would correctly remove the bullets from a list item?
 
-- [ ] ```list-tem: none```
-- [ ] ```bullets: hidden```
-- [x] ```list-style-type: none```
-- [ ] ```list-bullet: none```
-
+- [ ] `list-tem: none`
+- [ ] `bullets: hidden`
+- [x] `list-style-type: none`
+- [ ] `list-bullet: none`

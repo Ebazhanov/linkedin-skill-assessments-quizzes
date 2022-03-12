@@ -919,7 +919,6 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] Right-click the cell and select Delete Conditional Formatting.
 - [ ] Right-click the cell and select Remove Conditional Formatting.
 
-
 ### Q113. If a range name is used in a formula and the name is deleted, what happens to the formula?
 
 - [ ] The formula display a warning but the actual cell address is substituted for the deleted name.
