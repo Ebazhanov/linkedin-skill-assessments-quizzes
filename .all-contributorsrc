@@ -7727,6 +7727,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "aleksey00",
+      "name": "Aleksey Khoroshilov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/56565199?v=4",
+      "profile": "https://www.xyz-media.com/avocado",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
