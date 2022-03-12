@@ -173,7 +173,7 @@ h1 {
 - [ ] Font sizes are relative to the base font size of the operating system.
 - [x] Font sizes are relative to the root em unit used in the HTML element.
 
-#### Q21. Which HTML element represents either a scalar value within a known range a fractional value?
+#### Q21. Which HTML element represents either a scalar value within a known range OR a fractional value?
 
 - [x] `<meter>`
 - [ ] `<range>`
