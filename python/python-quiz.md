@@ -1511,3 +1511,11 @@ x.add(6)
 - [x] `{1, 2, 3, 4, 5, 6}`
 
 **Explanation:** The `.add()` method adds the element to the set only if it doesnt exist.
+
+#### Q115. If you do not explicitly return a value from a function, what happens?
+
+- [ ] The function will enter an infinite loop because it will not know when to stop executing its code.
+- [ ] If `return` keyword is absent, the function will return `True`.
+- [x] If `return` keyword is absent, the function will return `None`.
+- [ ] The function will return a `RuntimeError` if you do not return a value.
+
