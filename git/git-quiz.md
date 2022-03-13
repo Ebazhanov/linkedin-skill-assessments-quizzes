@@ -857,3 +857,10 @@ Changes not staged for commit:
 - [x] beta-notes.js was staged, then modified afterwards, creating two different versions of the file.
 
 [Reference](https://stackoverflow.com/questions/24837841/can-a-file-be-both-staged-and-unstaged-in-git)
+
+#### Q103. How would you display a histogram showing inserts, deletion, and modifications per file for a specific commit along with its general commit information?
+
+- [ ] Use git stat.
+- [ ] Use git debug --prettyprint.
+- [ ] Query the remote repository with the commit hash.
+- [ ] Use git show <commit> --stat.

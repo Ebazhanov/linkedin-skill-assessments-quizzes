@@ -689,3 +689,10 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] 0-99
 - [ ] 200-299
 - [ ] 0-299
+
+### Q84. Typing `systemctl enable crond` does what to the crond service?
+
+- [ ] Starts the crond service now.
+- [ ] Allows user to start the crond service.
+- [ ] Unmasks the crond service.
+- [x] Ensures that the crond service starts automatically on bootup.
