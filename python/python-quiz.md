@@ -1518,4 +1518,3 @@ x.add(6)
 - [ ] If `return` keyword is absent, the function will return `True`.
 - [x] If `return` keyword is absent, the function will return `None`.
 - [ ] The function will return a `RuntimeError` if you do not return a value.
-

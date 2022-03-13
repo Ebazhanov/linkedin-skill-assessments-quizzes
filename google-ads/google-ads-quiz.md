@@ -217,14 +217,14 @@
 - [ ] They allow you to integrate your data with third-party platforms such as Google Analytics
 - [ ] They reduce the overall cost of your campaigns
 
-#### Q32. In a text ad, the display URL is made up of the domain from your final URL and up to two _______.
+#### Q32. In a text ad, the display URL is made up of the domain from your final URL and up to two **\_\_\_**.
 
 - [ ] descriptions
 - [ ] paths
 - [ ] keywords
 - [ ] tracking tags
 
-#### Q33. Within the Display Network, locations where your ad can appear are referred to as _______.
+#### Q33. Within the Display Network, locations where your ad can appear are referred to as **\_\_\_**.
 
 - [ ] ad slots
 - [ ] placements
@@ -287,7 +287,7 @@
 - [ ] keywords > campaign > ads
 - [ ] ad group > campaign > ads
 
-#### Q42. If you continuously search for your own advertisement using Google, just to confirm that it appears, it is very likely that you will inflate your _____ and decrease your _____.
+#### Q42. If you continuously search for your own advertisement using Google, just to confirm that it appears, it is very likely that you will inflate your **\_** and decrease your **\_**.
 
 - [ ] impressions; clickthrough rate
 - [ ] conversions; ROI
