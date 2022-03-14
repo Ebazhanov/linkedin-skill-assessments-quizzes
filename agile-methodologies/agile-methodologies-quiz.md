@@ -519,10 +519,12 @@
 
 #### Q73. Which is NOT a principle of the Scaled Agile Framework?
 
-- [ ] Centralize decision-making
+- [x] Centralize decision-making
 - [ ] Apply systems thinking
 - [ ] Take an economic view
-- [x] Unlock the intrinsic motivation of knowledge workers
+- [ ] Unlock the intrinsic motivation of knowledge workers
+
+[Source: Underlying principles of SAFe](https://en.wikipedia.org/wiki/Scaled_agile_framework#Underlying_principles_of_SAFe)
 
 #### Q74. Which statement concerning small, frequent releases of software is true?
 
