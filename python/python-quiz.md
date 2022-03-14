@@ -1394,8 +1394,8 @@ print (f"The number is {number}")
 #### Q104. Which mode is not a valid way to access a file from within a Python script?
 
 - [ ] write('w')
-- [ ] scan('s')
-- [x] append('a')
+- [x] scan('s')
+- [ ] append('a')
 - [ ] read('r')
 
 [Reference](https://docs.python.org/3/library/functions.html#open)
