@@ -418,8 +418,10 @@ autopsy is for forensic analysis
 
 - [ ] Reporting
 - [ ] Recovery
-- [ ] Eradiction / Remediation
+- [x] Eradiction / Remediation
 - [ ] Lessons Learned
+
+[Explanation: Pages 29 to 31 ->](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-83r1.pdf)
 
 #### Q55. Which programming language is most susceptible to buffer overflow attacks?
 
@@ -640,10 +642,12 @@ autopsy is for forensic analysis
 
 #### Q86. When does static application security testing require access to source code?
 
-- [ ] always
+- [x] always
 - [ ] only when assessing regulatory compliance
 - [ ] only if following the Agile model
 - [ ] never
+
+[Explanation:](https://www.synopsys.com/glossary/what-is-sast.html)
 
 #### Q87. Your organization service customer orders with a custom ordering system developed in-hose. You are responsible for recommending a cloud model to meet the following requirements:
 
@@ -679,4 +683,13 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 - [ ] MD5
 - [ ] Caesar cipher
 - [ ] symmetric-key encryption
-- [ ] asymmetric-key encryption
+- [x] asymmetric-key encryption
+
+[Explanation:](https://medium.com/geekoffee/ensuring-integrity-authenticity-and-non-repudiation-in-data-transmission-using-node-js-af73c2404153)
+
+#### Q91. Which software development lifecycle approach is most compatible with DevSecOps?
+
+- [x] Agile
+- [ ] Model-Driven Development
+- [ ] Waterfall
+- [ ] Model-Driven Architecture

@@ -1720,7 +1720,7 @@ if(/* Insert Snippet Here */){
 #### Q124. What is the output of this code?
 
 ```js
-class RainForest{
+class RainForest {
   static minimumRainFall = 60;
 }
 

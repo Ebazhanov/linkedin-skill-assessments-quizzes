@@ -409,7 +409,6 @@ mvn install
 
 [maven docs](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#a-build-lifecycle-is-made-up-of-phases)
 
-
 #### Q54. How do you skip the tests when running a mvn package command?
 
 - [ ] Use -Dtest=skip
@@ -418,6 +417,7 @@ mvn install
 - [ ] Use a plugin that can be configured to skip tests
 
 #### Q55. Below is a section of a settings.xml file. How can you use the path to the app home in your POM file?
+
 ```
 <profiles>
     <profile>
