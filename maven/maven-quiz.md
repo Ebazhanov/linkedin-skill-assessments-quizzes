@@ -408,3 +408,38 @@ mvn install
 - [ ] to copy the final project artifacts into the local Maven repository
 
 [maven docs](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#a-build-lifecycle-is-made-up-of-phases)
+
+#### Q54. How do you skip the tests when running a mvn package command?
+
+- [ ] Use -Dtest=skip
+- [x] Use -DskipTests=true
+- [ ] Use -Dtests=pass
+- [ ] Use a plugin that can be configured to skip tests
+
+#### Q55. Below is a section of a settings.xml file. How can you use the path to the app home in your POM file?
+
+```
+<profiles>
+    <profile>
+        <id>set=app-home</id>
+        <properties>maven-people-plugin</artifactId>
+            <application-home>/path/to/application</application-home>
+        </properties>
+    </profile>
+</profiles>
+<activeProfiles>
+    <activeProfile>set-app-home</activeProfile>
+</activeProfiles>
+```
+
+- [ ] ${activeProfile}
+- [x] ${application-home}
+- [ ] ${set-app-home}
+- [ ] ${/path/to/application}
+
+#### Q55. What is the default value of the warSourceDirectory configuration property of the Maven WAR Plugin?
+
+- [ ] /src/main/webapp
+- [ ] /src/main/war
+- [x] /src/main/WEB-INF
+- [ ] /src/web

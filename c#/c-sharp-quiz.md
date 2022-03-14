@@ -701,3 +701,21 @@ public int Password
 - [ ] `public int userID = { public get, private set};`
 
 [Official documentation: Properties](https://docs.microsoft.com/en-us/dotnet/csharp/properties)
+
+#### Q65. What is true about virtual methods?
+
+- [ ] `Overriding virtual methods in a derived class is mandatory.`
+- [ ] `Overriding virtual methods in a derived class is not possible.`
+- [x] `Virtual methods always need a default implementation.`
+- [ ] `Virtual methods cannot have default implementation.`
+
+[Official documentation: virtual](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/virtual)
+
+[c-sharpcorner: Virtual Method in C#](https://www.c-sharpcorner.com/UploadFile/3d39b4/virtual-method-in-C-Sharp/)
+
+#### Q66. What is likely to happen if you have multiple threads accessing the same resource in your program?
+
+- [ ] `resource overload`
+- [ ] `thread jumping`
+- [ ] `deadlock and race conditions`
+- [ ] `nothing, since this is what threading is for`

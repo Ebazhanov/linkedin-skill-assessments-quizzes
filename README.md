@@ -8,7 +8,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-782-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-791-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -1127,6 +1127,16 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/toantd90"><img src="https://avatars.githubusercontent.com/u/4978810?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ToanTran</b></sub></a><br /><a href="#design-toantd90" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=toantd90" title="Code">💻</a></td>
     <td align="center"><a href="https://www.gautamnaik.com/"><img src="https://avatars.githubusercontent.com/u/2787787?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gautam Naik</b></sub></a><br /><a href="#design-gautamnaik1994" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=gautamnaik1994" title="Code">💻</a></td>
     <td align="center"><a href="https://marcondercin.github.io"><img src="https://avatars.githubusercontent.com/u/23724126?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Marc</b></sub></a><br /><a href="#design-marcondercin" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=marcondercin" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/twix20"><img src="https://avatars.githubusercontent.com/u/9865224?v=4?s=100" width="100px;" alt=""/><br /><sub><b>twix20</b></sub></a><br /><a href="#design-twix20" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=twix20" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Knightwalker"><img src="https://avatars.githubusercontent.com/u/37214263?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kristian S.</b></sub></a><br /><a href="#design-Knightwalker" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Knightwalker" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.xyz-media.com/avocado"><img src="https://avatars.githubusercontent.com/u/56565199?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aleksey Khoroshilov</b></sub></a><br /><a href="#design-aleksey00" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=aleksey00" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/arjunsrsr"><img src="https://avatars.githubusercontent.com/u/100687528?v=4?s=100" width="100px;" alt=""/><br /><sub><b>arjunsrsr</b></sub></a><br /><a href="#design-arjunsrsr" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=arjunsrsr" title="Code">💻</a></td>
+    <td align="center"><a href="https://haydher.com/"><img src="https://avatars.githubusercontent.com/u/70679209?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ali Haider</b></sub></a><br /><a href="#design-haydher" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=haydher" title="Code">💻</a></td>
+    <td align="center"><a href="http://tdring.com"><img src="https://avatars.githubusercontent.com/u/7061293?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Trisha Dring</b></sub></a><br /><a href="#design-Trishadring" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Trishadring" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/marzulo"><img src="https://avatars.githubusercontent.com/u/37627420?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andre Marzulo</b></sub></a><br /><a href="#design-marzulo" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=marzulo" title="Code">💻</a></td>
+    <td align="center"><a href="https://krish512.com"><img src="https://avatars.githubusercontent.com/u/6457418?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Krishna Modi</b></sub></a><br /><a href="#design-krish512" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=krish512" title="Code">💻</a></td>
   </tr>
 </table>
 
@@ -1141,3 +1151,9 @@ Contributions of any kind welcome!
 ## Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/Ebazhanov/linkedin-quiz-assessments.svg)](https://starchart.cc/Ebazhanov/linkedin-quiz-assessments)
+
+## Visualisation of this repository by Gource
+
+[https://www.youtube.com/watch?v=24cZVytc5D4](https://www.youtube.com/watch?v=24cZVytc5D4)
+
+![gource](gource.gif)

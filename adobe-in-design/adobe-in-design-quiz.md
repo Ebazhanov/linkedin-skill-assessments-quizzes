@@ -57,7 +57,6 @@
 - [ ] to adjust text size automatically to fill the frame
 - [x] to create running headers that include chapter names
 
-
 #### Q8. You want to place 4 of a multipage PDF into an InDesign document. What should you do?
 
 - [x] In the **Place** dialog box, select **Show Import Options**.
@@ -73,6 +72,7 @@
 - [ ] Objects on master page A cannot be selected or changed.
 
 #### Q10. In the image shown, the text is on a path. You want to move the text farther to the right along the path. How can you accomplish this?
+
 ![Q10](images/q10.png)
 
 - [ ] Drag the blue square D.
@@ -95,6 +95,7 @@
 - [x] You can click a point to delete it.
 
 #### Q13. What is one reason you might want to use the Span Columns feature?
+
 - [x] You have a bullet list of six items that you want to split into two columns in the middle of a text frame.
 - [ ] You are changing the number of columns on a page and want to ensure the text flows properly.
 - [ ] You want a line or top shaded borded to span across the top of a multicolumn frame.

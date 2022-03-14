@@ -173,7 +173,7 @@ h1 {
 - [ ] Font sizes are relative to the base font size of the operating system.
 - [x] Font sizes are relative to the root em unit used in the HTML element.
 
-#### Q21. Which HTML element represents either a scalar value within a known range a fractional value?
+#### Q21. Which HTML element represents either a scalar value within a known range OR a fractional value?
 
 - [x] `<meter>`
 - [ ] `<range>`
@@ -586,3 +586,73 @@ console.log(currencies);
 - [ ] The screen reader will use a polite voice when announcing changes.
 
 [Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-live)
+
+#### Q62. Review the CSS below. What color would you expect the background color of the element with a class of .box to be?
+
+```css
+.box {
+  background-color: blue;
+  background: url(images/star.png) no-repeat left top;
+}
+```
+
+- [ ] black
+- [ ] blue
+- [x] transparent
+- [ ] white
+
+#### Q63. Which CSS property and value would correctly remove the bullets from a list item?
+
+- [ ] ```list-tem: none```
+- [ ] ```bullets: hidden```
+- [x] ```list-style-type: none```
+- [ ] ```list-bullet: none```
+
+#### Q64. Which code example would center `.box` inside `.container`?
+
+![A](images/Q64.png)
+
+```hmtl
+<div class="container">
+    <div class="box">what a lovely box, very centered
+    </div>
+</div>
+
+```
+
+- [ ] A
+  
+  ```css
+  .container { 
+    display: flex;
+    align-items: center;
+  }
+  ```
+
+- [x] B
+
+  ```css
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ```
+  
+- [ ] C
+
+  ```css
+  .box {
+     align-items: center;
+     justify-content: center;
+  }
+  ```
+
+- [ ] D
+
+  ```css
+  .container {
+    display: flex;
+    align: center;
+  }
+  ```

@@ -1696,3 +1696,49 @@ const result = Object.keys(person).map((x) => x.toUpperCase());
 1. [Object.keys() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
 2. [Array.prototype.map() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 3. [String.prototype.toUpperCase() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
+
+#### Q123. Which snippet could you insert to this code to print "swim" to the console?
+
+```js
+let animals = ["eagle", "osprey", "salmon"];
+let key = animal => animal === "salmon";
+
+if(/* Insert Snippet Here */){
+  console.log("swim");
+}
+```
+
+- [ ] `animals.every(key)`
+- [ ] `animals.some(key).length === 1`
+- [ ] `animals.filter(key) === true`
+- [x] `animals.some(key)`
+
+[Array.prototype.some | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
+
+#### Q124. What is the output of this code?
+
+```js
+class RainForest {
+  static minimumRainFall = 60;
+}
+
+let congo = new RainForest();
+RainForest.minimumRainFall = 80;
+console.log(congo.minimumRainFall);
+```
+
+- [x] `undefined`
+- [ ] `None of these answers, as static is not a feature in Javascript.`
+- [ ] `60`
+- [ ] `80`
+
+[Classes static | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static)
+
+#### Q125. How can you attempt to access the property a.b on obj without throwing an error if a is undefined? let obj = {};
+
+- [ ] `obj?.a.b`
+- [x] `obj.a?.b`
+- [ ] `obj[a][b]`
+- [ ] `obj.?a.?b`
+
+[Optional chaining (?.) | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
