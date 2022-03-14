@@ -1225,8 +1225,8 @@ num_list[len(num_list)//2]
 #### Q93. What is the correct syntax for calling an instance method on a class named Game?
 
 - [ ] my_game = Game(self) self.my_game.roll_dice()
-- [x] my_game = Game() self.my_game.roll_dice()
-- [ ] my_game = Game() my_game.roll_dice()
+- [ ] my_game = Game() self.my_game.roll_dice()
+- [x] my_game = Game() my_game.roll_dice()
 - [ ] my_game = Game(self) my_game.roll_dice(self)
 
 #### Q94. What is the output of this code? (NumPy has been imported as np.)?
