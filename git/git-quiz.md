@@ -863,4 +863,6 @@ Changes not staged for commit:
 - [ ] Use git stat.
 - [ ] Use git debug --prettyprint.
 - [ ] Query the remote repository with the commit hash.
-- [ ] Use git show <commit> --stat.
+- [x] Use git show <commit> --stat.
+
+[Reference](https://git-scm.com/docs/git-show#Documentation/git-show.txt---statltwidthgtltname-widthgtltcountgt)
