@@ -7787,6 +7787,26 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "yli110-stat697",
+      "name": "Rosemary Li",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42564519?v=4",
+      "profile": "https://github.com/yli110-stat697",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Aweller95",
+      "name": "Alex Weller",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46358583?v=4",
+      "profile": "https://github.com/Aweller95",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
