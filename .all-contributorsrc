@@ -7827,6 +7827,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "NobertBrett",
+      "name": "Norbert Brett",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60483492?v=4",
+      "profile": "https://norbert-brett.netlify.app",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
