@@ -1713,6 +1713,8 @@ background-tile: none;
 - [ ] `rotate: 30deg;`
 - [ ] `spin: 30deg;`
 
+[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate())
+
 #### Q118. Which style rule would you apply to set the background image to display the contents of the wood.png file?
 
 - [ ] `background-image: file(wood.png);`
@@ -1839,3 +1841,33 @@ p + section {
 - [ ] bottom-right corner
 - [ ] top-left corner
 - [x] bottom-left corner
+
+#### Q123. Which choice uses the correct syntax for adding a hover pseudo class to <a> element ?
+  
+- [x] `a:hover {...}`
+- [ ] `a :hover {...}`
+- [ ] `a.hover {...}`
+- [ ] `a hover {...}`
+  
+ [Reference](https://stackoverflow.com/questions/1935820/set-ahover-based-on-class)
+ 
+ #### Q124. Which missing code will give "Cellar Door" a shadow?
+  
+```css
+  <style>
+    #cellar-door {
+      box-shadow: 3px 5px 10px #000;
+    }
+  </style>
+  
+  <h1 _____> Cellar Door</h1>
+```
+- [x] `class="text-shadow"`
+- [ ] `id="cellar-door`
+- [ ] `id="text-shadow"`
+- [ ] `class="cellar-door"`
+  
+[Reference](https://www.w3schools.com/html/html_classes.asp)
+  
+  
+  
