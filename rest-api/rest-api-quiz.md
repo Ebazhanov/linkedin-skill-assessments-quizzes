@@ -466,6 +466,6 @@
 #### Q62. What is not a method for API authentication or authorization?
 
 - [ ] OAuth
-- [ ] biometrics
+- [x] biometrics
 - [ ] API Keys
 - [ ] username and password
