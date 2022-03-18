@@ -1726,3 +1726,75 @@ System.out.println(b == c);
 - [ ] lock
 
 [Java Documentation: Synchronized methods](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html)
+
+#### Q120. Which is a valid type for this lambda function?
+
+```java
+_____ oddOrEven = x -> {
+    return x % 2 == 0 ? "even" : "odd";
+};
+```
+
+- [ ] `Function<Integer, Boolean>`
+- [ ] `Function<String>`
+- [X] `Function<Integer, String>`
+- [ ] `Function<Integer>`
+
+[Explaination](https://github.com/0nyr/java/tree/main/examples/lambda_function), [Reference](https://www.geeksforgeeks.org/function-interface-in-java-with-examples/)
+
+#### Q121. What is displayed when this code is compiled and executed?
+
+```java
+import java.util.HashMap;
+
+public class Main {
+    public static void main(String[] args) {
+        HashMap<String, Integer> pantry = new HashMap<>();
+
+        pantry.put("Apples", 3);
+        pantry.put("Oranges", 2);
+
+        int currentApples = pantry.get("Apples");
+        pantry.put("Apples", currentApples + 4);
+
+        System.out.println(pantry.get("Apples"));
+    }
+}
+```
+
+- [ ] 6
+- [ ] 3
+- [ ] 4
+- [X] 7
+
+[Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/what_is_displayed_0)
+
+#### Q122. What variable type should be declared for capitalize?
+
+```shell
+List<String> songTitles = Arrays.asList("humble", "element", "dna");
+_______ capitalize = (str) -> str.toUpperCase();
+songTitles.stream().map(capitalize).forEach(System.out::println);
+```
+
+- [X] `Function<String, String>`
+- [ ] `Stream<String>`
+- [ ] `String<String, String>`
+- [ ] `Map<String, String>`
+
+[Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/what_variable_type_0), [Reference](https://www.geeksforgeeks.org/function-interface-in-java-with-examples/)
+
+#### Q123. Which is the correct return type for the processFunction method?
+
+```java
+_____ processFunction(Integer number, Function<Integer, String> lambda) {
+        return lambda.apply(number);
+    }
+```
+
+- [ ] `Integer`
+- [X] `String`
+- [ ] `Consumer`
+- [ ] `Function<Integer, String>`
+
+[Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/which_return_type_0)
