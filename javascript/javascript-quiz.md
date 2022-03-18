@@ -1748,3 +1748,37 @@ let obj = {};
 - [ ] `obj.?a.?b`
 
 [Reference Optional chaining (?.)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
+
+#### Q126. What happens when you run this code?
+
+```js
+if (true) {
+  var x = 5;
+  const y = 6;
+  let z = 7;
+}
+console.log(x + y + z);
+```
+
+- [ ] It will throw a `ReferenceError` about `x`.
+- [ ] It will print `18`.
+- [ ] It will print `undefined`.
+- [x] It will throw a `ReferenceError` about `y`.
+
+[Reference let statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+
+#### Q127. What does this code print to the console?
+
+```js
+const x = [1,2];
+const y = [5,7];
+const z = [...x, ...y];
+console.log(z)
+```
+
+- [x] `[1,2,5,7]`
+- [ ] `[[1, 2], [5, 7]]`
+- [ ] `[2,7]`
+- [ ] `[2,1,7,5]`
+
+[Reference spread syntax (...)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
