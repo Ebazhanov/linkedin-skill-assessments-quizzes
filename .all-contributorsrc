@@ -7837,6 +7837,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "rocsogd",
+      "name": "rocsogd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101685468?v=4",
+      "profile": "https://github.com/rocsogd",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
