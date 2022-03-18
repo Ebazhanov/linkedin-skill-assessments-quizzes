@@ -170,11 +170,11 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 - [ ] a procedure-oriented language
 - [ ] if classes are supported, polymorphism will be supported
 
-#### Q23. If two classes combine some private data members and provides public member functions to access and manipulate those data members. Where is abstraction used?
+#### Q23. Two classes combine private data members and provide public member functions to access and manipulate those data members. Where is abstraction used?
 
-- [ ] Abstraction is using a private access specifier for data members
-- [x] Abstraction is using public member functions to access and manipulate the data members
-- [ ] Abstraction is using the class concept with both data members and member functions
+- [ ] Abstraction is using a private access specifier for the data members.
+- [x] Abstraction is using public member functions to access and manipulate the data members.
+- [ ] Abstraction is using the class concept with both data members and member functions.
 - [ ] There is insufficient information to decide where abstraction is being used.
 
 #### Q24. What are the five Creational Design patterns by the Gang of Four ?
