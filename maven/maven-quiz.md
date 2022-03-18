@@ -283,7 +283,7 @@ mvn install
 - [ ] Maven will include only the App class when it compiles the source code.
 - [ ] Maven will add an empty main method to the App class.
 
-#### Q38. Suppose you are packaging a Maven project and see the following error "[WARNING] Using platform encoding (CP1252 actually) to copy filtered resources, i.e. build platform dependent!" What do you add to your POM file to set platform encoding to ensure your build is not platform dependet ?
+#### Q38. Suppose you are packaging a Maven project and see the following error: “[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!” What do you add to your POM file to set the platform encoding to ensure your build is not platform dependent?
 
 - [ ] <project.build.resources>
 - [ ] <maven.compiler.source>
