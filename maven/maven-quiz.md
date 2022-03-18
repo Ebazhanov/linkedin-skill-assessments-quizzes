@@ -437,9 +437,16 @@ mvn install
 - [ ] ${set-app-home}
 - [ ] ${/path/to/application}
 
-#### Q55. What is the default value of the warSourceDirectory configuration property of the Maven WAR Plugin?
+#### Q56. What is the default value of the warSourceDirectory configuration property of the Maven WAR Plugin?
 
 - [ ] /src/main/webapp
 - [ ] /src/main/war
 - [x] /src/main/WEB-INF
 - [ ] /src/web
+
+#### Q57. When building a Maven Archetype, where do you put your prototype files?
+
+- [ ] src/main/template
+- [ ] src/main/archetype
+- [x] src/main/resources/archetype-resources
+- [ ] src/main/java
