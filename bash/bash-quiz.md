@@ -858,3 +858,10 @@ echo 'Hello, $(whoami)!'
 - [ ] link lh='ls -lah'
 - [ ] alias 'ls -lah'=lh
 - [ ] lh | ls -lah
+
+#### Q72. Which statement will print all of the fully qualified .cvs files in the home directory or subdirectories while not displaying any errors?
+
+- [ ] find $USER_DIR -name "*.csv" 2>/dev/null
+- [ ] find $HOME -name "*.csv" 1>/dev/null
+- [x] find $HOME -name "*.csv" 2>/dev/null
+- [ ] find HOME -name "*.csv" 1>/dev/null

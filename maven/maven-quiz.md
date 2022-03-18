@@ -283,7 +283,7 @@ mvn install
 - [ ] Maven will include only the App class when it compiles the source code.
 - [ ] Maven will add an empty main method to the App class.
 
-#### Q38. Suppose you are packaging a Maven project and see the following error "[WARNING] Using platform encoding (CP1252 actually) to copy filtered resources, i.e. build platform dependent!" What do you add to your POM file to set platform encoding to ensure your build is not platform dependet ?
+#### Q38. Suppose you are packaging a Maven project and see the following error: “[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!” What do you add to your POM file to set the platform encoding to ensure your build is not platform dependent?
 
 - [ ] <project.build.resources>
 - [ ] <maven.compiler.source>
@@ -437,9 +437,16 @@ mvn install
 - [ ] ${set-app-home}
 - [ ] ${/path/to/application}
 
-#### Q55. What is the default value of the warSourceDirectory configuration property of the Maven WAR Plugin?
+#### Q56. What is the default value of the warSourceDirectory configuration property of the Maven WAR Plugin?
 
 - [ ] /src/main/webapp
 - [ ] /src/main/war
 - [x] /src/main/WEB-INF
 - [ ] /src/web
+
+#### Q57. When building a Maven Archetype, where do you put your prototype files?
+
+- [ ] src/main/template
+- [ ] src/main/archetype
+- [x] src/main/resources/archetype-resources
+- [ ] src/main/java

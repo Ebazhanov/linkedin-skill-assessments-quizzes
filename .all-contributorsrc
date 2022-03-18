@@ -7837,6 +7837,46 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "rocsogd",
+      "name": "rocsogd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101685468?v=4",
+      "profile": "https://github.com/rocsogd",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "0nyr",
+      "name": "0nyr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47721040?v=4",
+      "profile": "https://onyr.net",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "rkevx21",
+      "name": "rethkevin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7960937?v=4",
+      "profile": "https://github.com/rkevx21",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "RickHeadle",
+      "name": "RickHeadle",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48429967?v=4",
+      "profile": "http://-",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
