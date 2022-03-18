@@ -1770,10 +1770,10 @@ console.log(x + y + z);
 #### Q127. What does this code print to the console?
 
 ```js
-const x = [1,2];
-const y = [5,7];
+const x = [1, 2];
+const y = [5, 7];
 const z = [...x, ...y];
-console.log(z)
+console.log(z);
 ```
 
 - [x] `[1,2,5,7]`
