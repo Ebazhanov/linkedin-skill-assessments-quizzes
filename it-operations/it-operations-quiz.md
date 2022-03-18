@@ -484,3 +484,10 @@
 - [x] Run a thorough scan to validate the results.
 - [ ] Quarantine the file.
 
+
+#### Q57. What are the best tools to use for cleaning a computer?
+
+- [ ] Handheld vaccume cleaner, air can, soft flashlight.
+- [ ] air can, microfiber cloth, alcohol wipes, flashlight.
+- [x] handheld vaccum cleaner, ammonia, alcohol, microfiber cloth.
+- [ ] air can, screwdriver, soft cloth, household cleaner.
