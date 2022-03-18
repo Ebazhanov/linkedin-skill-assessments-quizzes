@@ -1274,7 +1274,7 @@ console.log(animals.pop()); //Prints jaguar
 ```
 
 - [ ] `animals.filter(e => e === "jaguar");`
-- [ ] `animals.reverse();`
+- [x] `animals.reverse();`
 - [ ] `animals.shift();`
 - [x] `animals.pop();`
 
