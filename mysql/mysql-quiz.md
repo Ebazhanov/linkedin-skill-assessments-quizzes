@@ -874,3 +874,10 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] `AFTER INSERT`
 - [ ] `BEFORE INSERT`
 - [ ] `CROSS JOIN`
+
+#### Q97. The mysqldump command cannot generate output in ______.
+
+- [x] JSON
+- [ ] CSV
+- [ ] XML
+- [ ] TXT
