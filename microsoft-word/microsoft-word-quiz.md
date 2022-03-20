@@ -622,26 +622,30 @@ Duplicated with Q50.
 - [ ] Track Changes has been disabled.
 - [ ] Comments were added to these areas.
 
-#### Q79. You want an image to move with the surrounding text as you make changes to the document. Which option should you select?  
-- [ ] In Line with Text  
-- [x] With Text Wrapping  
-- [ ] Behind Text  
-- [ ] Through  
-  
-#### Q80. You want to place a triangle shape on your page. Where do you find the shape?  
-- [ ] On the Insert tab, click SmartArt.  
-- [ ] On the Insert tab, click Shapes and look in the Rectangles & Triangles section.  
-- [ ] On the Insert tab, click Icons.  
-- [x] On the Insert tab, click Shapes and look in the Basic Shapes section.  
-  
-#### Q81. When printing multiple copies of a document, which option groups consecutive pages together, making them easier to distribute?  
-- [x] Collated   
-- [ ] Print One-Sided  
-- [ ] Uncollated  
-- [ ] Print on Both Sides  
+#### Q79. You want an image to move with the surrounding text as you make changes to the document. Which option should you select?
 
-#### Q82. You are sharing your computer screen to collaborate on a document. Which view should you use to minimize the ribbon and give your document the most screen space?  
-- [x] Read Mode (Windows) or Focus (Mac)  
-- [ ] Draft view  
-- [ ] Web Layout view  
+- [ ] In Line with Text
+- [x] With Text Wrapping
+- [ ] Behind Text
+- [ ] Through
+
+#### Q80. You want to place a triangle shape on your page. Where do you find the shape?
+
+- [ ] On the Insert tab, click SmartArt.
+- [ ] On the Insert tab, click Shapes and look in the Rectangles & Triangles section.
+- [ ] On the Insert tab, click Icons.
+- [x] On the Insert tab, click Shapes and look in the Basic Shapes section.
+
+#### Q81. When printing multiple copies of a document, which option groups consecutive pages together, making them easier to distribute?
+
+- [x] Collated
+- [ ] Print One-Sided
+- [ ] Uncollated
+- [ ] Print on Both Sides
+
+#### Q82. You are sharing your computer screen to collaborate on a document. Which view should you use to minimize the ribbon and give your document the most screen space?
+
+- [x] Read Mode (Windows) or Focus (Mac)
+- [ ] Draft view
+- [ ] Web Layout view
 - [ ] Outline view

@@ -1532,7 +1532,7 @@ fruit_info = {
 - [ ] `my_keys = fruit_info.to_keys()`
 - [ ] `my_keys = fruit_info.all_keys()`
 - [ ] `my_keys = fruit_info.keys`
-- [X] `my_keys = fruit_info.keys()`
+- [x] `my_keys = fruit_info.keys()`
 
 #### Q117. What is wrong with this function definition?
 
@@ -1543,30 +1543,37 @@ def be_friendly(greet = "How are you!", name):
 
 - [ ] `name` is a reserved word.
 - [ ] Underscores are not allowed in function names.
-- [X] A non-default argument follows a default argument.
+- [x] A non-default argument follows a default argument.
 - [ ] There is nothing wrong with this function definition.
 
 #### Q118. Given that NumPy is imported as `np`, which choice will return `True`?
 
-- [X] 
+- [x]
+
 ```python
 a = np.zeros([3,4])
 b = a.copy()
 np.array_equal(a,b)
 ```
-- [ ] 
+
+- [ ]
+
 ```python
 a = np.empty([3,4])
 b = np.empty([3,4])
 np.array_equal(a,b)
 ```
-- [ ] 
+
+- [ ]
+
 ```python
 a = np.zeros([3,4])
 b = np.zeros([4,3])
 np.array_equal(a,b)
 ```
-- [ ] 
+
+- [ ]
+
 ```python
 a = np.array([1, np.nan])
 np.array_equal(a,a)
