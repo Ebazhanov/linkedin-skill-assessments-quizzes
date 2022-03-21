@@ -649,3 +649,17 @@ Duplicated with Q50.
 - [ ] Draft view
 - [ ] Web Layout view
 - [ ] Outline view
+
+#### Q83. You want a different header and footer to appear on alternating pages. Which option should you choose?
+
+- [x] Different Odd & Even Pages
+- [ ] Insert Alt Header/Footer
+- [ ] Display on Odd Pages Only
+- [ ] Different First Page
+
+#### Q84. When you start a new, blank document, you usually end up changing the font to Arial 11.5 point. How can you make these settings the default for this and all future new documents?
+
+- [ ] Open any document, change your font settings, and save as a template.
+- [ ] Create a macro that will change all fonts to Arial 11.5 point.
+- [ ] In a new, blank document, from the Font dialog box, make your changes and set as default for All documents based on the Normal template.
+- [ ] In a new, blank document, make your font changes and then save your document as a template.
