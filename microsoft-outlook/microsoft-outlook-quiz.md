@@ -542,7 +542,7 @@ D. Because you cannot create a search folder for a subfolder
 
 - [ ] Change your computer's display and resolution settings.
 - [ ] Reply to the email, select all, and increase the font size.
-- [ ] Use the Zoom button.
+- [x] Use the Zoom button.
 - [ ] Change the Message Preview option to the maximum 3 lines setting.
 
 #### Q74. You are sending an email to several people, and you want any responses to go to a colleague. How can you set this up?
@@ -641,3 +641,37 @@ C. Some people have already accepted, so you must cancel this meeting and create
 - [ ] Drafts
 - [ ] Archive
 - [ ] Sent Items
+
+#### Q87. You have been tasked with inviting 75 people to an event. You do not need to track whether or not they intend to attend. to save time, what should you do?
+
+- [ ] Use mail merge to send the invitations.
+- [x] Turn off Request Responses under Response Options.
+- [ ] Add "NRR (no response required)" to the subject line.
+- [ ] Add all recipients to the Bcc field.
+
+#### Q88. You opened an email message and Outlook is not displaying the included pictures. Why is this?
+
+- [ ] Outlook automatically converts email to HTML.
+- [ ] Outlook can display only pictures stored in JPG format.
+- [x] Pictures need to be downloaded
+- [ ] Outlook cannot show pictures in emails.
+
+#### Q89. What does the Work Offline (Windows) or Online/Offline toggle (Mac) do?
+
+- [ ] It stops incoming emails but allows outgoing emails.
+- [ ] It allows incoming emails but stops outgoing emails.
+- [ ] It disconnects the computer from the network.
+- [x] It disconnects Outlook from the server to stop incoming and outgoing emails.
+
+#### Q90. Which feature tags a person in an email thread and sends them a flagged message?
+
+- [ ] Permissions
+- [ ] Mail Tips
+- [x] Mentions
+- [ ] Share
+
+#### Q91. You want to share a file with collegues via email. Why is it a benefit to embed a link to the file in your email, rather than attach the actual file?
+- [ ] It takes up less space in their mailboxes.
+- [ ] It takes up less space in your mailbox.
+- [ ] It allows better version control of the file..
+- [ ] all of these answers
