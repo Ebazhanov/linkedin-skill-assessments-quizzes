@@ -1578,3 +1578,51 @@ np.array_equal(a,b)
 a = np.array([1, np.nan])
 np.array_equal(a,a)
 ```
+
+#### Q119. How do you add a comment to existing Python script?
+
+- [ ] `// This is a comment`
+- [x] `# This is a comment`
+- [ ] `-- This is a comment`
+- [ ] `/* This is a comment *\`
+
+#### Q120. In this code fragment, what will the values of c and d be equivalent to?
+
+```python
+import numpy as np
+a = np.array([1,2,3])
+b = np.array([4,5,6])
+c = a*b
+d = np.dot(a,b)
+```
+
+- [ ] A
+```python
+c = [ a[1] * b[1], a[2] * b[2], a[3] * b[3] ]
+d = sum(c)
+```
+- [ ] B
+```python
+c = a[0] * b[0], a[1] * b[1], a[2] * b[2]
+
+d = [ a[0] * b[0], a[1] * b[1], a[2] * b[2] ]
+```
+- [ ] C
+```python
+c = [ a[0] * b[0], a[1] * b[1], a[2] * b[2] ]
+
+d = sum(a) + sum(b)
+```
+- [x] D
+```python
+c = [ a[0] * b[0], a[1] * b[1], a[2] * b[2] ]
+
+d = sum(c)
+```
+
+#### Q121. What two functions within the NumPy library could you use to solve a system of linear equations?
+
+- [x] `linalg.eig() and .matmul()`
+- [ ] `linalg.inv() and .dot()`
+- [ ] `linalg.det() and .dot()`
+- [ ] `linalg.inv() and .eye()`
