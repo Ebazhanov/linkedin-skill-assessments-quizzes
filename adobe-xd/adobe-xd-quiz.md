@@ -11,7 +11,7 @@
 
 #### Q2. In this figure, which value represents the bottom margin of the layout grid?
 
-![Q2](images/002.jpeg)
+![Q2](images/002.jpg)
 
 - [ ] 30
 - [x] 20
@@ -20,7 +20,7 @@
 
 #### Q3. What does clicking the circled icon enable you to do?
 
-![Q3](images/003.jpeg)
+![Q3](images/003.jpg)
 
 - [ ] Change the trigger.
 - [ ] Choose a destination.
@@ -76,7 +76,7 @@
 - [ ] Select each object and paste the interaction.
 - [ ] Marquee the objects and paste the interaction.
 
-#### 11. Device preview requires a ___
+#### 11. Device preview requires a \_
 
 - [ ] mobile device with NFC
 - [ ] bluetooth connection
@@ -92,7 +92,7 @@
 
 #### 13. What does this wire attached to a component indicate?
 
-![Q13](images/004.jpeg)
+![Q13](images/004.jpg)
 
 - [ ] destination.
 - [x] interaction.
@@ -101,7 +101,7 @@
 
 #### 14. What happens when you click this circled icon in the design preview?
 
-![Q14](images/005.jpeg)
+![Q14](images/005.jpg)
 
 - [ ] The preview switches to the artboard view.
 - [ ] The preview switches to user flow.
@@ -121,8 +121,3 @@
 - [ ] Enable the fonts in your computer's fonts settings.
 - [ ] Adobe fonts are automatically reactivated through the Creative Cloud.
 - [ ] Relink the fonts to your Creative Cloud library.
-
-![002](https://user-images.githubusercontent.com/60483492/159371955-b9c34319-b59b-4d74-afb1-d6161ad70ea5.jpeg)
-![003](https://user-images.githubusercontent.com/60483492/159371957-07df589c-959c-4471-a126-12fb3ce32594.jpeg)
-![004](https://user-images.githubusercontent.com/60483492/159371958-e0da3335-abe3-41b1-ba1e-44476ebd5089.jpeg)
-![005](https://user-images.githubusercontent.com/60483492/159371960-474715dd-af9e-46a5-a29a-52ea840ea1e7.jpeg)

@@ -873,4 +873,3 @@ Changes not staged for commit:
 - [ ] Repository managers provide an enhanced command-line tool that is used to manage multiple local repositories.
 - [ ] Repository managers provide an online service for hosting Git repositories that include collaboration features such as pull requests, issue tracking, and peer reviews.
 - [ ] Repository managers distribute repositories across multiple locations on a user's workstation, providing redundant storage that allows for quick backup and recovery.
-  

@@ -926,7 +926,8 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] The actual cell addresses replace the original range name in the formula.
 - [ ] The formula becomes invalid and displays a #N/A error
 
-### Q114. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select _____.
+### Q114. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select **\_**.
+
 - [ ] Insert Column
 - [ ] Paste Special
 - [ ] Insert Column Left
@@ -941,7 +942,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 ### Q116. Given the image below, what happens if you type "P" in cell A6?
 
-   ![image](https://user-images.githubusercontent.com/1056999/159387628-9f960f22-9b50-4764-b4d9-31b5914b164a.png)
+![image](https://user-images.githubusercontent.com/1056999/159387628-9f960f22-9b50-4764-b4d9-31b5914b164a.png)
 
 - [ ] The letter "P" appears.
 - [x] The word "Perez" appears and the active cell remains in Edit mode.
@@ -957,7 +958,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 ### Q118. How can you see the data in column E?
 
-   ![image](https://user-images.githubusercontent.com/1056999/159387970-6ff9d57c-adb2-452b-83af-66d9f3fdc908.png)
+![image](https://user-images.githubusercontent.com/1056999/159387970-6ff9d57c-adb2-452b-83af-66d9f3fdc908.png)
 
 - [ ] Close the workbook without saving and reopen it.
 - [ ] Turn off conditional formatting.
@@ -966,7 +967,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 ### Q119. In the worksheet below, a table called Projects extends from cell A1 to D10. Cell D1 contains the text Status. Cell E12 contains the formula =Projects[@Status]. What does this formula return?
 
-   ![image](https://user-images.githubusercontent.com/1056999/159388193-743a1393-d61f-47b1-a4ae-346f36fb3160.png)
+![image](https://user-images.githubusercontent.com/1056999/159388193-743a1393-d61f-47b1-a4ae-346f36fb3160.png)
 
 - [ ] #VALUE!
 - [ ] a blank cell
@@ -975,7 +976,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 ### Q120. Which Excel feature allows you to select all cells in the column with inconsistent formulas compared to the rest of the column?
 
-   ![image](https://user-images.githubusercontent.com/1056999/159388456-054ba0ae-c595-4aaa-8d38-351f726885ca.png)
+![image](https://user-images.githubusercontent.com/1056999/159388456-054ba0ae-c595-4aaa-8d38-351f726885ca.png)
 
 - [x] On the Home tab, click Go To > Special > Column differences.
 - [ ] On the Formulas tab, click Trace precedents.

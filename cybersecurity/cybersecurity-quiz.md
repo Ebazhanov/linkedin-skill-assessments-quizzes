@@ -701,4 +701,4 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 - [x] defense-in-depth
 - [ ] least privilege
 
-[Explanation:](https://en.wikipedia.org/wiki/Defense_in_depth_(computing))
+[Explanation:](<https://en.wikipedia.org/wiki/Defense_in_depth_(computing)>)
