@@ -603,10 +603,10 @@ console.log(currencies);
 
 #### Q63. Which CSS property and value would correctly remove the bullets from a list item?
 
-- [ ] ```list-tem: none```
-- [ ] ```bullets: hidden```
-- [x] ```list-style-type: none```
-- [ ] ```list-bullet: none```
+- [ ] `list-tem: none`
+- [ ] `bullets: hidden`
+- [x] `list-style-type: none`
+- [ ] `list-bullet: none`
 
 #### Q64. Which code example would center `.box` inside `.container`?
 
@@ -621,9 +621,9 @@ console.log(currencies);
 ```
 
 - [ ] A
-  
+
   ```css
-  .container { 
+  .container {
     display: flex;
     align-items: center;
   }
@@ -638,13 +638,13 @@ console.log(currencies);
     justify-content: center;
   }
   ```
-  
+
 - [ ] C
 
   ```css
   .box {
-     align-items: center;
-     justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   ```
 

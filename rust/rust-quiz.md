@@ -393,3 +393,10 @@ enum Status {
 - [ ] Option is an enum type.
 - [ ] Enum variants can have different types with associated data.
 - [x] the term _enum_ is short for _enummap_
+
+#### Q33. What does an underscore (\_) indicate when used as pattern?
+
+- [x] It matches everything.
+- [ ] It matches underscores.
+- [ ] It matches any value that has a length of 1.
+- [ ] It matches nothing.

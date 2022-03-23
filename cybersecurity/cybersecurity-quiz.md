@@ -693,3 +693,12 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 - [ ] Model-Driven Development
 - [ ] Waterfall
 - [ ] Model-Driven Architecture
+
+#### Q92. Which information security principle states that organizations should defend systems against any particular attack using several independent methods?
+
+- [ ] separation of duties
+- [ ] privileged account management (PAM)
+- [x] defense-in-depth
+- [ ] least privilege
+
+[Explanation:](<https://en.wikipedia.org/wiki/Defense_in_depth_(computing)>)

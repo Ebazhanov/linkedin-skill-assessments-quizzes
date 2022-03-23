@@ -333,8 +333,8 @@ Note: count() works with find(...) but length works with distinct
 
 #### Q48. By default, applications direct their read operations to which member of the replica set?
 
-- [ ] primary
-- [x] arbiter
+- [x] primary
+- [ ] arbiter
 - [ ] secondary
 - [ ] backup
 
