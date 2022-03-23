@@ -1798,3 +1798,16 @@ _____ processFunction(Integer number, Function<Integer, String> lambda) {
 - [ ] `Function<Integer, String>`
 
 [Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/which_return_type_0)
+
+#### Q124. What function could you use to replace slashes for dashes in a list of dates?
+
+```java
+List<String> dates = new ArrayList<String>();
+// missing code
+dates.replaceAll(replaceSlashes);
+```
+
+- [ ] `UnaryOperator<String> replaceSlashes = date -> date.replace("/", "-");`
+- [ ] `Function<String, String> replaceSlashes = dates -> dates.replace("-", "/");`
+- [ ] `Map<String, String> replaceSlashes = dates.replace("/", "-");`
+- [ ] `Consumer<Date> replaceSlashes = date -> date.replace("/", "-");`
