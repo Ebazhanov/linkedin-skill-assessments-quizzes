@@ -866,3 +866,19 @@ Changes not staged for commit:
 - [x] Use git show <commit> --stat.
 
 [Reference](https://git-scm.com/docs/git-show#Documentation/git-show.txt---statltwidthgtltname-widthgtltcountgt)
+  
+### Q104. What features do repository managers such as GitHub provide beyond Git?
+- [ ] Repository managers are proprietary versions of Git that do not include enhanced features.
+- [ ] Repository managers provide an enhanced command-line tool that is used to manage multiple local repositories.
+- [x] Repository managers provide an online service for hosting Git repositories that include collaboration features such as pull requests, issue tracking, and peer reviews.
+- [ ] Repository managers distribute repositories across multiple locations on a user's workstation, providing redundant storage that allows for quick backup and recovery.
+  
+[reference](https://www.theserverside.com/video/Git-vs-GitHub-What-is-the-difference-between-them) 
+  
+### Q105. What command finds the HEAD of the current branch?
+- [ ] `git head --verify`
+- [ ] `git log --head`
+- [ ] `git hash --head`
+- [x] `git show-ref --head`
+
+[reference](https://git-scm.com/docs/git-show-ref)
