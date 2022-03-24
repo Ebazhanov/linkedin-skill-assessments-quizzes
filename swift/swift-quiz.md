@@ -772,6 +772,7 @@ let numbers = [1,2,3,4,5,6].filter{ $0 % 2 == 0}
 ```swift
 let vals = ["a", 1, "Hi"]
 ```
+
 - [ ] Array(char)
 - [x] [Any]
 - [ ] Array<char>
