@@ -648,3 +648,10 @@
 - [ ] Report this at the Sprint Review.
 - [ ] Point out the reasons why and collaborate on solutions.
 - [ ] Advise the PO as soon as possible.
+
+#### Q91. What is the term for a team member who is "T-skilled"?
+
+- [ ] cross-functional
+- [ ] jack-of-all-trades
+- [ ] apprentice developer
+- [ ] generalizing specialist
