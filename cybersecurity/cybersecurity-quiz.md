@@ -205,7 +205,7 @@ A rainbow table attack is a more efficient and effective way of cracking many ha
 - [ ] General Data Protection Regulation (GDPR)
 - [ ] International Organization for Standardization and Internation Electronical Commission (ISO/IEC 27018)
 
-**Explaintion**: The Payment Card Industry Data Security Standard (`PCI DSS`) is the global card industry security standard that is **required of all entities** that store, process, or transmit cardholder data, including financial institutions, online retailers and service providers.
+**Explanation**: The Payment Card Industry Data Security Standard (`PCI DSS`) is the global card industry security standard that is **required of all entities** that store, process, or transmit cardholder data, including financial institutions, online retailers and service providers.
 
 [PCI Security Overview](https://www.pcisecuritystandards.org/pci_security/standards_overview)
 
@@ -236,7 +236,7 @@ A rainbow table attack is a more efficient and effective way of cracking many ha
 - [ ] SQL injection
 - [ ] cross-origin resouce sharing
 
-**Explaination**: An `Inference Attack` is a data mining technique performed by analyzing data in order to illegitimately gain knowledge about a subject or database. A subject's sensitive information can be considered as leaked if an adversary can infer its real value with a high confidence. **Source**: ([Wikipedia](https://en.wikipedia.org/wiki/Inference_attack)).
+**Explanation**: An `Inference Attack` is a data mining technique performed by analyzing data in order to illegitimately gain knowledge about a subject or database. A subject's sensitive information can be considered as leaked if an adversary can infer its real value with a high confidence. **Source**: ([Wikipedia](https://en.wikipedia.org/wiki/Inference_attack)).
 
 #### Q31. What act grants an authenticated party permission to perform an action or access a resource?
 
@@ -263,7 +263,7 @@ A rainbow table attack is a more efficient and effective way of cracking many ha
 - [x] trust but verify
 - [ ] assume breach
 
-**Explaination**: zero trust assumes that the system will be breached and designs security as if there is no perimeter. Hence, don’t trust anything by default.
+**Explanation**: zero trust assumes that the system will be breached and designs security as if there is no perimeter. Hence, don’t trust anything by default.
 
 [NIST](https://www.nist.gov/blogs/taking-measure/zero-trust-cybersecurity-never-trust-always-verify)
 
@@ -451,7 +451,7 @@ autopsy is for forensic analysis
 - [ ] typethief
 - [x] keylogger
 
-#### Q59. How does randsomware affect a victim's files?
+#### Q59. How does ransomware affect a victim's files?
 
 - [ ] by destroying them
 - [x] by encrypting them
@@ -478,7 +478,6 @@ autopsy is for forensic analysis
 - [ ] a guide to risk assessments
 - [ ] a guideline for vulnerability testing
 - [ ] a step-by-step guide for performing business impact analyses
--
 
 #### Q63. The most notorious military-grade advanced persistent threat was deployed in 2010, and targeted centrifuges in Iran. What was this APT call?
 
@@ -557,6 +556,8 @@ autopsy is for forensic analysis
 - [ ] applied risk
 - [ ] leftover risk
 
+[Explanation](https://www.sans.org/brochure/course/information-security-risk-management/226)
+
 #### Q74. There are four possible treatments once an assessment has identified a risk. Which risk treatment implements controls to reduce risk?
 
 - [x] risk mitigation
@@ -566,7 +567,7 @@ autopsy is for forensic analysis
 
 #### Q75. Which security control scheme do vendors often submit their products to for evaluation, to provide an independent view of product assurance?
 
-- [x] common criteria
+- [x] Common Criteria
 - [ ] risk management certification board
 - [ ] OWASP security evaluation
 - [ ] ISO 27000
@@ -582,8 +583,10 @@ autopsy is for forensic analysis
 
 - [ ] ISO 27001
 - [ ] ISO 27017
-- [ ] cloud security guidelines
-- [x] cloud controls matrix
+- [ ] Cloud Security Guidelines
+- [x] Cloud Controls Matrix
+
+[Explanation](https://www.cybersaint.io/blog/six-steps-of-the-nist-risk-management-framework)
 
 #### Q78. What are the essential characteristics of the reference monitor?
 
@@ -597,6 +600,8 @@ autopsy is for forensic analysis
 - [ ] Understand the threats and vulnerabilities.
 - [ ] Conduct a risk assessment.
 - [ ] Analyze and prioritize gaps to create the action plan.
+
+[Explanation](https://www.cybersaint.io/blog/six-steps-of-the-nist-risk-management-framework)
 
 #### Q80. You are implementing a cybersecurity program in your organization and want to use the "de facto standard" cybersecurity framework. Which option would you choose?
 
@@ -612,6 +617,8 @@ autopsy is for forensic analysis
 - [x] a DDoS (Distributed Denial of Service) attack
 - [ ] a botnet attack
 
+[Explanation](https://www.forbes.com/sites/parmyolson/2014/11/20/the-largest-cyber-attack-in-history-has-been-hitting-hong-kong-sites/?sh=56e071cd38f6)
+
 #### Q82. The regulatory requirements for notifications of data breaches, particularly the European General Data Protection Regulations, have had what sort of effect on business?
 
 - [x] an increased business liability in the event of a data breach
@@ -626,19 +633,18 @@ autopsy is for forensic analysis
 - [ ] PCI-DSS
 - [x] HIPAA
 
-#### Q84. Your organization services customer orders with a custom ordering system developed in-house. You are responsible for recommending a cloud model to meet the following requirements:?
+[Explanation](https://online.maryville.edu/blog/5-important-regulations-in-united-states-healthcare/)
 
-- [ ] Control of security required for regulatory compliance
-- [ ] Legacy application and database support
-- [ ] Scalability to meet seasonal increases in demand
-- [ ]
+#### Q84. Duplicate
 
 #### Q85. What is the difference between DevOps and DevSecOps?
 
-- [ ] DevSecOps requires the inclusion of cybersecurity engineers in the CI/CD process of DevOps.
+- [x] DevSecOps requires the inclusion of cybersecurity engineers in the CI/CD process of DevOps.
 - [ ] DevSecOps slows down the CI/CD process of DevOps.
 - [ ] DevSecOps places security controls in the CI/CD process of DevOps.
 - [ ] DevSecOps lets cybersecurity engineers dictate the CI/CD process of DevOps.
+
+[Explanation](https://www.linkedin.com/learning/devops-foundations-devsecops/introduction-to-devsecops)
 
 #### Q86. When does static application security testing require access to source code?
 
@@ -659,7 +665,7 @@ Which cloud model is the best option for these requirements?
 
 - [ ] government cloud
 - [ ] public cloud
-- [ ] hybrid cloud
+- [x] hybrid cloud
 - [ ] private cloud
 
 #### Q88. You have just conducted a port scan of a network. There is no well-known port active. How do you find a webserver running on a host, which uses a random port number?
@@ -667,7 +673,7 @@ Which cloud model is the best option for these requirements?
 - [ ] Give up on the current target network and move on to the next one.
 - [ ] Switch to another network scanning tool. Resort to more resource-intensive probing, like launching random attacks to all open ports.
 - [ ] Turn on the stealth mode in your network scanning tool. Check whether you missed any other active ports associated with web servers.
-- [ ] Turn on additional options in your network scanning tool to further investigate the details (type and version) of applications running on the rest of the active ports.
+- [x] Turn on additional options in your network scanning tool to further investigate the details (type and version) of applications running on the rest of the active ports.
 
 #### Q89. Executives in your organization exchange emails with external business partners when negotiating valuable business contracts. To ensure that these communications are legally defensible, the security team has recommended that a digital signature be added to these message.
 
