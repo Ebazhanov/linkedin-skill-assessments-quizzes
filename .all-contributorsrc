@@ -8007,6 +8007,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "pmcghen",
+      "name": "Pat McGhen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5630588?v=4",
+      "profile": "https://mcghen.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
