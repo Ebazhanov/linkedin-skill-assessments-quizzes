@@ -484,11 +484,11 @@ public static void Main(string[] args)
 
 [Official documentation: SerializableAttribute Class](https://docs.microsoft.com/en-us/dotnet/api/system.serializableattribute?view=net-5.0)
 
-#### Q44. How would you write a delegate named ResultCallback with an int parameter named responseCode
+#### Q44. How would you write a delegate named ResultCallback with an int parameter named responseCode?
 
-- [ ] public delegate ResultCallback(int responseCode)
+- [ ] public delegate ResultCallback(int responseCode);
 - [ ] public delegate void ResultCallback<(int) responseCode>;
-- [ ] public void delegate ResultCallback<int responseCode>;
+- [ ] public void delegate ResultCallback\<int responseCode\>;
 - [x] public delegate void ResultCallback(int responseCode);
 
 [Official documentation: Delegates](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/)
