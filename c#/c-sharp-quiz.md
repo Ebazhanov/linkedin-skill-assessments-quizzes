@@ -435,10 +435,10 @@ public static void Main(string[] args)
 
 #### Q39. How would you declare a sealed class named User?
 
-- [ ] public class User
+- [ ] public class User {}
 - [ ] abstract User {}
-- [x] sealed class User
-- [ ] private sealed class User
+- [x] sealed class User {}
+- [ ] private sealed class User {}
 
 [Official documentation: Abstract and Sealed Classes and Class Members](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/abstract-and-sealed-classes-and-class-members)
 
