@@ -17,17 +17,17 @@
 The command is git remote add. The new added connection can be named origin or new. The only constraints, although it is not documented AFAIK, is that the connection name needs to be acceptable to git-check-ref-format, and it cannot be repeated.
 If the LinkedIn assessment asks this and you can choose just one option, then leave feedback.
 
-#### Q3. Describe what the following git commands do to the commit history.
+#### Q3. Describe what these Git commands do to the commit history:
 
 ```bash
 git reset --hard HEAD~5
 git merge --squash HEAD@{1}
 ```
 
-- [ ] Reset the HEAD to the 5th commit in the repo, then merges to the master branch
-- [x] Reset the commit branch back before the last 5 commits, then squashes them into a single commit
-- [ ] Delete the last 5 commits
-- [ ] Merges the last 5 commits into a new branch
+- [ ] They reset the HEAD to the fifth commit in the repo, then merge to the master branch.
+- [x] The current branch's HEAD is reset back five commits, then prior commits are squashed into a single commit.
+- [ ] They delete the last five commits.
+- [ ] They merge the last five commits into a new branch.
 
 **Explanation:**
 
@@ -759,10 +759,10 @@ Which of the following options is correct ?
 
 #### Q93. You would like to restore some previously stashed work to a new branch. How can you do that?
 
-- [ ] Use git branch <stash hash>.
+- [ ] Use `git branch <stash hash>`.
 - [ ] Add the stashed commits to the current commit, then create a new branch.
-- [ ] Use git checkout -b.
-- [x] Run git stash branch <branch name>.
+- [ ] Use `git checkout -b`.
+- [x] Run `git stash branch <branch name>`.
 
 [reference here](https://stackoverflow.com/questions/6925099/git-stash-changes-apply-to-new-branch)
 
@@ -860,12 +860,13 @@ Changes not staged for commit:
 
 #### Q103. How would you display a histogram showing inserts, deletion, and modifications per file for a specific commit along with its general commit information?
 
-- [ ] Use git stat.
-- [ ] Use git debug --prettyprint.
+- [ ] Use `git stat`.
+- [ ] Use `git debug --prettyprint`.
 - [ ] Query the remote repository with the commit hash.
-- [x] Use git show <commit> --stat.
+- [x] Use `git show <commit> --stat`.
 
 [Reference](https://git-scm.com/docs/git-show#Documentation/git-show.txt---statltwidthgtltname-widthgtltcountgt)
+
   
 ### Q104. What features do repository managers such as GitHub provide beyond Git?
 - [ ] Repository managers are proprietary versions of Git that do not include enhanced features.
@@ -882,3 +883,11 @@ Changes not staged for commit:
 - [x] `git show-ref --head`
 
 [reference](https://git-scm.com/docs/git-show-ref)
+
+
+#### Q104. What features do repository managers such as GitHub provide beyond Git?
+
+- [ ] Repository managers are proprietary versions of Git that do not include enhanced features.
+- [ ] Repository managers provide an enhanced command-line tool that is used to manage multiple local repositories.
+- [ ] Repository managers provide an online service for hosting Git repositories that include collaboration features such as pull requests, issue tracking, and peer reviews.
+- [ ] Repository managers distribute repositories across multiple locations on a user's workstation, providing redundant storage that allows for quick backup and recovery.

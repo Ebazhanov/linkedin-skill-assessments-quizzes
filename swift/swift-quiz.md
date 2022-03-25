@@ -766,3 +766,14 @@ let numbers = [1,2,3,4,5,6].filter{ $0 % 2 == 0}
 - [ ] []
 - [x] [2,4,6]
 - [ ] nil
+
+### Q68. What is the type of `vals` in this code?
+
+```swift
+let vals = ["a", 1, "Hi"]
+```
+
+- [ ] Array(char)
+- [x] [Any]
+- [ ] Array<char>
+- [ ] [Generic]

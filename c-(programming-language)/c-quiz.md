@@ -796,3 +796,18 @@ int main()
 - [ ] `for(i=1; i=10; i++);`
 - [x] `for(i=1; i==10; i++);`
 - [ ] `for(i=10; i>=1; i--);`
+
+#### Q50. What is the value of variable c at the end of this program?
+
+```
+1 main() {
+2   int a, b, c;
+3   a=10; b=50;
+4   c=a * b % a;
+5 }
+```
+
+- [ ] 50
+- [ ] 5
+- [x] 0
+- [ ] 500

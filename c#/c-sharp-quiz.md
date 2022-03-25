@@ -693,12 +693,12 @@ public int Password
 
 [Official documentation: Jump statements](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/statements/jump-statements)
 
-#### Q64. Which code snippet correctly declares a variable names userId with a public `get` and private `set`?
+#### Q64. Which code snippet correctly declares a variable named userId with a public `get` and private `set`?
 
 - [ ] `public int userID <get, set>;`
 - [ ] `public int userID [get, private set];`
 - [x] `public int userID { get; private set; }`
-- [ ] `public int userID = { public get, private set};`
+- [ ] `public int userID = { public get, private set };`
 
 [Official documentation: Properties](https://docs.microsoft.com/en-us/dotnet/csharp/properties)
 
@@ -729,7 +729,7 @@ public int Password
 
 #### Q68. Do you need to declare an out variable before you use it?
 
-- [ ] `No, you can declare it the parameter list.`
+- [x] `No, you can declare it the parameter list.`
 - [x] `Out variables are no longer part of C#.`
 - [ ] `You must declare it if it is a primitive type.`
 - [ ] `Yes.`

@@ -1786,3 +1786,53 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<style media="color-mode: dark">/* CSS code */</style>`
 - [x] `<style media="prefers-color-scheme: dark">/* CSS code */</style>`
 - [ ] `<style media="color-scheme: dark">/* CSS code */</style>`
+
+#### Q112. How would you mark up a header for a table row?
+
+- [ ] A
+
+```HTML
+<table>
+  <thead scope="row"><th row="1">Header</th></thead>
+  <tr>
+    <td>10</td>
+    <td>18</td>
+  </tr>
+</table>
+```
+
+- [ ] B
+
+```HTML
+<table>
+  <tr>
+  <th scope="row">Header</th>
+    <td>10</td>
+    <td>18</td>
+  </tr>
+</table>
+```
+
+- [ ] C
+
+```HTML
+<table>
+  <tr>
+    <thead scope="row">Header</thead>
+    <td>10</td>
+    <td>18</td>
+  </tr>
+</table>
+```
+
+- [ ] D
+
+```HTML
+<table>
+  <tr>
+    <th>Header</th>
+    <td>10</td>
+    <td>18</td>
+  </tr>
+</table>
+```

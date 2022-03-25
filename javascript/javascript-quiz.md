@@ -55,8 +55,8 @@ function addTax(total) {
 
 ```js
 let modal = document.querySelector('#result');
-setTimeout(function(){
-    modal.classList.remove('hidden);
+setTimeout(function () {
+  modal.classList.remove('hidden');
 }, 10000);
 console.log('Results shown');
 ```
@@ -1782,3 +1782,17 @@ console.log(z);
 - [ ] `[2,1,7,5]`
 
 [Reference spread syntax (...)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+
+#### Q128. Given this code, which statement will evaluate to false?
+
+```js
+const a = { x: 1 };
+const b = { x: 1 };
+```
+
+  - [ ] `a['x'] === b['x']`
+  - [ ] `a != b`
+  - [x] `a === b`
+  - [ ] `a.x === b.x`
+
+[Reference](http://adripofjavascript.com/blog/drips/object-equality-in-javascript.html)
