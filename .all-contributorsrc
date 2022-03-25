@@ -8028,6 +8028,16 @@
         "content",
         "data"
       ]
+    },
+    {
+      "login": "BigAl",
+      "name": "Alan Chalmers",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5790906?v=4",
+      "profile": "https://github.com/BigAl",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
