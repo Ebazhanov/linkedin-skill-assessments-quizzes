@@ -759,10 +759,10 @@ Which of the following options is correct ?
 
 #### Q93. You would like to restore some previously stashed work to a new branch. How can you do that?
 
-- [ ] Use git branch <stash hash>.
+- [ ] Use `git branch <stash hash>`.
 - [ ] Add the stashed commits to the current commit, then create a new branch.
-- [ ] Use git checkout -b.
-- [x] Run git stash branch <branch name>.
+- [ ] Use `git checkout -b`.
+- [x] Run `git stash branch <branch name>`.
 
 [reference here](https://stackoverflow.com/questions/6925099/git-stash-changes-apply-to-new-branch)
 
