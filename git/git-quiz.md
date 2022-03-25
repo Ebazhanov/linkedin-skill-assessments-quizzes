@@ -17,17 +17,17 @@
 The command is git remote add. The new added connection can be named origin or new. The only constraints, although it is not documented AFAIK, is that the connection name needs to be acceptable to git-check-ref-format, and it cannot be repeated.
 If the LinkedIn assessment asks this and you can choose just one option, then leave feedback.
 
-#### Q3. Describe what the following git commands do to the commit history.
+#### Q3. Describe what these Git commands do to the commit history:
 
 ```bash
 git reset --hard HEAD~5
 git merge --squash HEAD@{1}
 ```
 
-- [ ] Reset the HEAD to the 5th commit in the repo, then merges to the master branch
-- [x] Reset the commit branch back before the last 5 commits, then squashes them into a single commit
-- [ ] Delete the last 5 commits
-- [ ] Merges the last 5 commits into a new branch
+- [ ] They reset the HEAD to the fifth commit in the repo, then merge to the master branch.
+- [x] The current branch's HEAD is reset back five commits, then prior commits are squashed into a single commit.
+- [ ] They delete the last five commits.
+- [ ] They merge the last five commits into a new branch.
 
 **Explanation:**
 
