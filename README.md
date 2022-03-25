@@ -7,7 +7,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-814-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-815-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1166,6 +1166,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/jtoledo3970"><img src="https://avatars.githubusercontent.com/u/11856952?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jose Toledo</b></sub></a><br /><a href="#design-jtoledo3970" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=jtoledo3970" title="Code">💻</a></td>
     <td align="center"><a href="https://mcghen.com"><img src="https://avatars.githubusercontent.com/u/5630588?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pat McGhen</b></sub></a><br /><a href="#design-pmcghen" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=pmcghen" title="Code">💻</a></td>
+    <td align="center"><a href="http://eiko-wagenknecht.de"><img src="https://avatars.githubusercontent.com/u/1475672?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eiko Wagenknecht</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=eikowagenknecht" title="Code">💻</a></td>
   </tr>
 </table>
 
