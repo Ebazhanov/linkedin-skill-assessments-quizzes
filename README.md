@@ -1166,7 +1166,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/jtoledo3970"><img src="https://avatars.githubusercontent.com/u/11856952?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jose Toledo</b></sub></a><br /><a href="#design-jtoledo3970" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=jtoledo3970" title="Code">💻</a></td>
     <td align="center"><a href="https://mcghen.com"><img src="https://avatars.githubusercontent.com/u/5630588?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pat McGhen</b></sub></a><br /><a href="#design-pmcghen" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=pmcghen" title="Code">💻</a></td>
-    <td align="center"><a href="http://eiko-wagenknecht.de"><img src="https://avatars.githubusercontent.com/u/1475672?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eiko Wagenknecht</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=eikowagenknecht" title="Code">💻</a></td>
+    <td align="center"><a href="http://eiko-wagenknecht.de"><img src="https://avatars.githubusercontent.com/u/1475672?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eiko Wagenknecht</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=eikowagenknecht" title="Code">💻</a> <a href="#content-eikowagenknecht" title="Content">🖋</a></td>
   </tr>
 </table>
 
