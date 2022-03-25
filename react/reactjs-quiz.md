@@ -1148,3 +1148,28 @@ function Dish() {
 - [ ] You are using Create React App.
 
 [Reference](https://teamtreehouse.com/community/hey-why-the-logo-of-react-developer-tools-appears-in-red)
+
+#### Q101. How would you modify the constructor to fix this erroe: "ReferenceError: Must call super constructor in derived class before accessing 'this'..."?
+
+```
+class TransIsBeautiful extends React.Component {
+  constructor(props){
+  // Missing line
+  console.log(this) ;
+  }
+  ...
+}
+```
+
+- [ ] render(props);
+- [x] super(props);
+- [ ] super(this);
+- [ ] this.super();
+
+
+#### Q102. Which language can you not use with React?
+
+- [x] Swift.
+- [ ] JSX.
+- [ ] Javascipt.
+- [ ] TypeScript.
