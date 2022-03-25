@@ -8038,6 +8038,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "tarpagad",
+      "name": "Jean Didier",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32228204?v=4",
+      "profile": "https://mjwebservices.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
