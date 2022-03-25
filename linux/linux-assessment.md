@@ -696,3 +696,10 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] Allows user to start the crond service.
 - [ ] Unmasks the crond service.
 - [x] Ensures that the crond service starts automatically on bootup.
+
+### Q85. Which of these features is missing from the Bash Language?
+
+- [ ] associative arrays.
+- [ ] extened regular expressions.
+- [ ] debug traps.
+- [x] object orientation.
