@@ -1125,3 +1125,51 @@ function Dish() {
 - [x] parent component
 - [ ] nested component
 - [ ] sibling component
+
+#### Q98. When does the componentDidMount function fire?
+
+- [x] right after the component is added to the DOM
+- [ ] before the component is added to the DOM
+- [ ] right after the component is updated
+- [ ] right after an API call
+
+#### Q99. What might you use webpack for?
+
+- [ ] to fetch remote dependencies used by your app
+- [x] to split your app into smaller chunks that can be more easily loaded by the browser
+- [ ] to format your code so that it is more readable
+- [ ] to ensure your app is not vulnerable to code injection
+
+#### Q100. When using the React Developer Tools Chrome extension, what does it mean if the React icon is red?
+
+- [x] You are using the development build of React.
+- [ ] You are using the production build of React.
+- [ ] You are using webpack.
+- [ ] You are using Create React App.
+
+[Reference](https://teamtreehouse.com/community/hey-why-the-logo-of-react-developer-tools-appears-in-red)
+
+#### Q101. How would you modify the constructor to fix this erroe: "ReferenceError: Must call super constructor in derived class before accessing 'this'..."?
+
+```
+class TransIsBeautiful extends React.Component {
+  constructor(props){
+  // Missing line
+  console.log(this) ;
+  }
+  ...
+}
+```
+
+- [ ] render(props);
+- [x] super(props);
+- [ ] super(this);
+- [ ] this.super();
+
+
+#### Q102. Which language can you not use with React?
+
+- [x] Swift.
+- [ ] JSX.
+- [ ] Javascipt.
+- [ ] TypeScript.

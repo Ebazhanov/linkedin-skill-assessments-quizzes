@@ -435,10 +435,10 @@ public static void Main(string[] args)
 
 #### Q39. How would you declare a sealed class named User?
 
-- [ ] public class User
+- [ ] public class User {}
 - [ ] abstract User {}
-- [x] sealed class User
-- [ ] private sealed class User
+- [x] sealed class User {}
+- [ ] private sealed class User {}
 
 [Official documentation: Abstract and Sealed Classes and Class Members](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/abstract-and-sealed-classes-and-class-members)
 
@@ -484,11 +484,11 @@ public static void Main(string[] args)
 
 [Official documentation: SerializableAttribute Class](https://docs.microsoft.com/en-us/dotnet/api/system.serializableattribute?view=net-5.0)
 
-#### Q44. How would you write a delegate named ResultCallback with an int parameter named responseCode
+#### Q44. How would you write a delegate named ResultCallback with an int parameter named responseCode?
 
-- [ ] public delegate ResultCallback(int responseCode)
+- [ ] public delegate ResultCallback(int responseCode);
 - [ ] public delegate void ResultCallback<(int) responseCode>;
-- [ ] public void delegate ResultCallback<int responseCode>;
+- [ ] public void delegate ResultCallback\<int responseCode\>;
 - [x] public delegate void ResultCallback(int responseCode);
 
 [Official documentation: Delegates](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/)
@@ -693,12 +693,12 @@ public int Password
 
 [Official documentation: Jump statements](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/statements/jump-statements)
 
-#### Q64. Which code snippet correctly declares a variable names userId with a public `get` and private `set`?
+#### Q64. Which code snippet correctly declares a variable named userId with a public `get` and private `set`?
 
 - [ ] `public int userID <get, set>;`
 - [ ] `public int userID [get, private set];`
 - [x] `public int userID { get; private set; }`
-- [ ] `public int userID = { public get, private set};`
+- [ ] `public int userID = { public get, private set };`
 
 [Official documentation: Properties](https://docs.microsoft.com/en-us/dotnet/csharp/properties)
 
@@ -719,3 +719,17 @@ public int Password
 - [ ] `thread jumping`
 - [ ] `deadlock and race conditions`
 - [ ] `nothing, since this is what threading is for`
+
+#### Q67. How do you indicate that a string might be null?
+
+- [ ] `A string cannot be nullable.`
+- [x] `string? myVariable`
+- [ ] `string myVariable = null`
+- [ ] `string(null) myVariable`
+
+#### Q68. Do you need to declare an out variable before you use it?
+
+- [x] `No, you can declare it the parameter list.`
+- [ ] `Out variables are no longer part of C#.`
+- [ ] `You must declare it if it is a primitive type.`
+- [ ] `Yes.`

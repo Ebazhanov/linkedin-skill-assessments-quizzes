@@ -658,7 +658,7 @@ t1 = test()
 - [ ] `self` means that no other arguments are required to be passed into the method.
 - [x] `self` refers to the instance whose method was called.
 
-**Explanation:** - Try running the example of the Q45 without passing `self` argument inside the `__init__`, you'll understand the reason. You'll get the error like this `__init__() takes 0 positional arguments but 1 was given`, this means that something is going inside even if haven't specified, which is instance itself.
+**Explanation:** - Try running the example of the Q42 without passing `self` argument inside the `__init__`, you'll understand the reason. You'll get the error like this `__init__() takes 0 positional arguments but 1 was given`, this means that something is going inside even if haven't specified, which is instance itself.
 
 #### Q47. What statement about the class methods is true?
 
@@ -1518,3 +1518,118 @@ x.add(6)
 - [ ] If `return` keyword is absent, the function will return `True`.
 - [x] If `return` keyword is absent, the function will return `None`.
 - [ ] The function will return a `RuntimeError` if you do not return a value.
+
+#### Q116. How would you access and store all of the keys in this dictionary at once?
+
+```python
+fruit_info = {
+    'fruit': 'apple',
+    'count': 2,
+    'price': 3.5
+}
+```
+
+- [ ] `my_keys = fruit_info.to_keys()`
+- [ ] `my_keys = fruit_info.all_keys()`
+- [ ] `my_keys = fruit_info.keys`
+- [x] `my_keys = fruit_info.keys()`
+
+#### Q117. What is wrong with this function definition?
+
+```python
+def be_friendly(greet = "How are you!", name):
+    pass
+```
+
+- [ ] `name` is a reserved word.
+- [ ] Underscores are not allowed in function names.
+- [x] A non-default argument follows a default argument.
+- [ ] There is nothing wrong with this function definition.
+
+#### Q118. Given that NumPy is imported as `np`, which choice will return `True`?
+
+- [x]
+
+```python
+a = np.zeros([3,4])
+b = a.copy()
+np.array_equal(a,b)
+```
+
+- [ ]
+
+```python
+a = np.empty([3,4])
+b = np.empty([3,4])
+np.array_equal(a,b)
+```
+
+- [ ]
+
+```python
+a = np.zeros([3,4])
+b = np.zeros([4,3])
+np.array_equal(a,b)
+```
+
+- [ ]
+
+```python
+a = np.array([1, np.nan])
+np.array_equal(a,a)
+```
+
+#### Q119. How do you add a comment to existing Python script?
+
+- [ ] `// This is a comment`
+- [x] `# This is a comment`
+- [ ] `-- This is a comment`
+- [ ] `/* This is a comment *\`
+
+#### Q120. In this code fragment, what will the values of c and d be equivalent to?
+
+```python
+import numpy as np
+a = np.array([1,2,3])
+b = np.array([4,5,6])
+c = a*b
+d = np.dot(a,b)
+```
+
+- [ ] A
+
+```python
+c = [ a[1] * b[1], a[2] * b[2], a[3] * b[3] ]
+d = sum(c)
+```
+
+- [ ] B
+
+```python
+c = a[0] * b[0], a[1] * b[1], a[2] * b[2]
+
+d = [ a[0] * b[0], a[1] * b[1], a[2] * b[2] ]
+```
+
+- [ ] C
+
+```python
+c = [ a[0] * b[0], a[1] * b[1], a[2] * b[2] ]
+
+d = sum(a) + sum(b)
+```
+
+- [x] D
+
+```python
+c = [ a[0] * b[0], a[1] * b[1], a[2] * b[2] ]
+
+d = sum(c)
+```
+
+#### Q121. What two functions within the NumPy library could you use to solve a system of linear equations?
+
+- [x] `linalg.eig() and .matmul()`
+- [ ] `linalg.inv() and .dot()`
+- [ ] `linalg.det() and .dot()`
+- [ ] `linalg.inv() and .eye()`
