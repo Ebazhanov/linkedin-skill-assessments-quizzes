@@ -733,3 +733,30 @@ aws ecs create-service \
 - [ ] Create a second customer gateway and configure your VPN client at your second data center to connect to the virtual private gateway.
 - [x] Create a second virtual private gateway (VPG) and attach it to the VPC. Create a customer gateway for the new virtual private gateway and use your VPN client at your second data center to establish a connection to the VPG.
 - [ ] You can not have more than one customer gateway per VPC, so the proposed solution will not work. Create a second VPC with a virtual private gateway and a customer gateway. Bridge the two VPCs using VPC peering.
+
+#### Q81. You are migrating a 200 GB database from an on-premise SQL Server to RDS for SQL Server. The database needs to have minimal downtime during the migration. What is the best practice for migrating this database?
+
+- [ ] Close all existing connections to the SQL Server database and use Database Migration Service to transfer the data to RDS.
+- [x] Use Database Migration Service to replicate the database to RDS and keep it in sync during the migration. repoint your applications to use the new RDS endpoint.
+- [ ] Detach the SQL Server database during the migration. Take a backup of the database and use SQ with Accelerated Transfer to upload the backups to S3. Restore the backups to the RDS instance.
+- [ ] Use the Import and Export wizard within SQL Server Enterprise Manager to create an export task and export the tables to the RDS instance.
+
+[Reference](https://aws.amazon.com/dms/)
+
+#### Q82. You have enabled Multi-Factor Authentication (MFA) for your AWS root account and you lost your MFA device. What do you need to do to recover access to your account?
+
+- [ ] You cannot recover access to your AWS root account. Contact AWS support.
+- [x] An email will be sent to the email address on file to verify ownership of the account. You will then need to provide the phone number on the account.
+- [ ] An email will be sent to the email address on file. After clicking in the link in your email, provide one of the MFA recovery codes that were created when MFA was enabled.
+- [ ] Use the AWS CLI with the root account access token to disable MFA on the root account. Then use the CLI to set a new password on the root account.
+
+[Reference](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_lost-or-broken.html)
+
+#### Q83. How do you assign an Elastic IP to several EC2 instances?
+
+- [ ] In the VPC dashboard, click Elastic IPs. Select the Elastic IP and click Associate Address. Select each EC2 instance you wish to assign this address to.
+- [ ] In the EC2 dashboard, click on EC2 instance. Under Actions, select networking > Manage IP Addresses. click to add a new IP address and type in the address of the Elastic IP. Repeat the process for each EC2 instance you want to assign this Elastic IP to.
+- [ ] Use the AWS CLI and pass in several '--instance-id' options to hte aws ec2 assosiate-address command.
+- [x] An elastic IP cannot be assigned to multiple EC2 instances. It can only be assosiated to a single EC2 instance.
+
+[Reference](https://stackoverflow.com/questions/54742522/assign-multiple-ec2-instances-to-one-elastic-ip)
