@@ -44,7 +44,7 @@
 #### Q6. How do you stop guides from snapping to objects on the artboard?
 
 - [ ] Press Option (Mac) or Alt (Windows) when dragging the guide.
-- [ ] Press Command (Mac) or Ctrl (Windows) when dragging the guide.
+- [х] Press Command (Mac) or Ctrl (Windows) when dragging the guide.
 - [ ] Press the Shift key when dragging the guide.
 - [ ] Drag the guide to its location on the artboard.
 
@@ -103,7 +103,7 @@
 
 ![Q14](images/005.jpg)
 
-- [ ] The preview switches to the artboard view.
+- [x] The preview switches to the artboard view.
 - [ ] The preview switches to user flow.
 - [ ] The preview switches to the developer view.
 - [ ] The artboard properties are displayed
