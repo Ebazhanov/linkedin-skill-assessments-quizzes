@@ -1641,6 +1641,8 @@ d = sum(c)
 - [ ] `my_list = [2, 'apple', 3.5].to_list()`
 - [ ] `my_list = to_list(2, 'apple', 3.5)`
 
+[Reference](https://www.tutorialspoint.com/python/python_lists.htm)
+
 #### Q123. This code provides the _____ of the list of numbers.
 
 ```python
@@ -1653,6 +1655,8 @@ num_list[len(num_list) // 2]
 - [ ] average
 - [ ] mean
 - [x] median
+
+**Explanation:** The median is the value separating the higher half from the lower half of a data sample. Here it is 13.
 
 #### Q124. What are the two main data structures in the Pandas library?
 
@@ -1680,4 +1684,3 @@ num_list[len(num_list) // 2]
 - [x] string
 
 [Reference](https://www.tutorialspoint.com/python_text_processing/python_string_immutability.htm)
-
