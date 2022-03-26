@@ -314,3 +314,28 @@
 - [x] `all of these answers`
 - [ ] `Java`
 - [ ] `Ruby`
+
+#### Q46. You need to setup a mechanism to put controls in place to notify you when you have a spike in Lambda concurrency. What should you do?
+
+- [ ] Deploy a CloudTrail alarm that notifies you when function metrics exceed your threshold. Create an AWS budget to monitor costs.
+- [x] Deploy a CloudWatch alarm that notifies you when function metrics exceed your threshold. Create an AWS budget to monitor costs.
+- [ ] Deploy a CloudWatch alarm that notifies you when function metrics exceed your threshold. Create an AWS CostMonitor to monitor costs.
+- [ ] Deploy a CloudTrail alarm that notifies you when function metrics exceed your threshold. Create an AWS CostMonitor to monitor costs.
+
+#### Q47. You want to minimize cold start time for your Lambda. What do you do?
+
+- [ ] Add extra code to check if the transient cache, or the /tmp directory, has the data that you stored.
+- [ ] Add extra code to check if the permanent cache, or the /cache directory, has the data that you stored.
+- [ ] Do nothing. AWS minimizes cols start time by default.
+- [ ] Create a warm-up Lambda that calls your Lambda every minute
+
+[Reference](https://aws.amazon.com/blogs/compute/new-for-aws-lambda-predictable-start-up-times-with-provisioned-concurrency/ 
+
+#### Q48. When is Lambda code stored encrypted?
+
+- [x] at rest
+- [ ] at runtime
+- [ ] at deployment
+- [ ] non of these answers
+
+[Reference](https://docs.aws.amazon.com/whitepapers/latest/security-overview-aws-lambda/lambda-functions-and-layers.html)
