@@ -653,7 +653,7 @@ console.log(currencies);
     align: center;
   }
   ```
-
+  
   #### Q65. CSS Logical Properties and Values now have wide-ranging support in browsers. If you wanted to use the logical version of `width`, which property name would you choose?
 
 - [ ] `block-width`
@@ -662,5 +662,3 @@ console.log(currencies);
 - [ ] `block-size`
 
 [Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties/Sizing)
-
-
