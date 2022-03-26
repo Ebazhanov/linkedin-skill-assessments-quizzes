@@ -1633,3 +1633,51 @@ d = sum(c)
 - [ ] `linalg.inv() and .dot()`
 - [ ] `linalg.det() and .dot()`
 - [ ] `linalg.inv() and .eye()`
+
+#### Q122. What is the correct syntax for creating a vaiable that is bound to a list?
+
+- [ ] `my_list = (2, 'apple', 3.5)`
+- [x] `my_list = [2, 'apple', 3.5]`
+- [ ] `my_list = [2, 'apple', 3.5].to_list()`
+- [ ] `my_list = to_list(2, 'apple', 3.5)`
+
+#### Q123. This code provides the _____ of the list of numbers.
+
+```python
+num_list = [21, 13, 19, 3, 11, 5, 18]
+num_list.sort()
+num_list[len(num_list) // 2]
+```
+
+- [ ] mode
+- [ ] average
+- [ ] mean
+- [x] median
+
+#### Q124. What are the two main data structures in the Pandas library?
+
+- [ ] Arrays and DataFrames
+- [ ] Series and Matrixes
+- [ ] Matrixes and DataFrames
+- [x] Series and DataFrames
+
+[Reference](https://pandas.pydata.org/docs/user_guide/dsintro.html)
+
+#### Q125. Suppose you have a variale named `vector` of type np.array with 10,000 elements. How can you turn `vector` into a variable named `matrix` with dimensions 100x100?
+
+- [ ] `matrix = (vector.shape = (100,100))`
+- [ ] `matrix = vector.to_matrix(100,100)`
+- [ ] `matrix = matrix(vector,100,100)`
+- [x] `matrix = vector.reshape(100, 100)`
+
+[Reference](https://www.w3schools.com/python/numpy/numpy_array_reshape.asp)
+
+#### Q126. Which choice is an immutable data type?
+
+- [ ] dictionnary
+- [ ] list
+- [ ] set
+- [x] string
+
+[Reference](https://www.tutorialspoint.com/python_text_processing/python_string_immutability.htm)
+
