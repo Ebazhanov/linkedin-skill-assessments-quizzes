@@ -437,10 +437,10 @@
 
 #### Q50. Which security tool can be doubled up to offer additional protection without being redundant?
 
-- [ ]  account protection
-- [ ]  firewall
-- [ ]  antivirus
-- [x]  backup
+- [ ] account protection
+- [ ] firewall
+- [ ] antivirus
+- [x] backup
 
 #### Q51. The mouse pointer is behaving erratically. What should you do first?
 
@@ -472,7 +472,7 @@
 
 #### Q55. Which is an example of a phishing attach?
 
-- [ ] Yousef sees an onscreen notification indicating that an operating system is pending  and instructing him to click a link to continue.
+- [ ] Yousef sees an onscreen notification indicating that an operating system is pending and instructing him to click a link to continue.
 - [ ] After visiting a website, Carla notices that her computer is running slowly.
 - [x] Bob receives an email from his bank, asking him to click a link to verify his account.
 - [ ] Ellen's email inbox is flooded with unwanted advertising.
@@ -483,7 +483,6 @@
 - [ ] Remove the file.
 - [x] Run a thorough scan to validate the results.
 - [ ] Quarantine the file.
-
 
 #### Q57. What are the best tools to use for cleaning a computer?
 

@@ -410,14 +410,14 @@ enum Status {
 
 [Reference](https://doc.rust-lang.org/stable/std/cell/struct.UnsafeCell.html)
 
-#### Q35. Generics are useful when you _____.
+#### Q35. Generics are useful when you **\_**.
 
 - [ ] need to reduce code duplication by concretizing vales and restricting paramaters in functions
 - [x] need to reduce code duplication by abstarting vales further, such as in function paramters
 - [ ] need a supertait
 - [ ] are not sure if you need a specific kind of trait
 
-#### Q36. _____ cannot be destructed.
+#### Q36. **\_** cannot be destructed.
 
 - [x] Traits
 - [ ] Enums

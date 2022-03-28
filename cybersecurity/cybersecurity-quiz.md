@@ -709,7 +709,6 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 
 [Explanation:](<https://en.wikipedia.org/wiki/Defense_in_depth_(computing)>)
 
-
 #### Q93. Which option describes a core principle of DevSecOps?
 
 - [x] Testing and release should be 100% automated

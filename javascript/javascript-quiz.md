@@ -1790,9 +1790,9 @@ const a = { x: 1 };
 const b = { x: 1 };
 ```
 
-  - [ ] `a['x'] === b['x']`
-  - [ ] `a != b`
-  - [x] `a === b`
-  - [ ] `a.x === b.x`
+- [ ] `a['x'] === b['x']`
+- [ ] `a != b`
+- [x] `a === b`
+- [ ] `a.x === b.x`
 
 [Reference](http://adripofjavascript.com/blog/drips/object-equality-in-javascript.html)

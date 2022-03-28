@@ -1643,7 +1643,7 @@ d = sum(c)
 
 [Reference](https://www.tutorialspoint.com/python/python_lists.htm)
 
-#### Q123. This code provides the _____ of the list of numbers.
+#### Q123. This code provides the **\_** of the list of numbers.
 
 ```python
 num_list = [21, 13, 19, 3, 11, 5, 18]

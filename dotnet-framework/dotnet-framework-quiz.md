@@ -477,7 +477,7 @@
 - [x] Abstract Factory
 - [ ] Bridge
 
-#### Q64. Which statement about a read-only variable is *not* true?
+#### Q64. Which statement about a read-only variable is _not_ true?
 
 - [ ] It can be either static or an instance memeber.
 - [ ] At run time, its value is evaluated.
