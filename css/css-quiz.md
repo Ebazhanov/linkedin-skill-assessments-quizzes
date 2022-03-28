@@ -1861,3 +1861,9 @@ p + section {
 - [ ] `class="cellar-door"`
 
 [Reference](https://www.w3schools.com/html/html_classes.asp)
+
+#### Q125. Which choice would give a block element rounded corners?
+- [ ] `corner-radius: 10px;`
+- [ ] `border-corner: 10px;`
+- [ ] `corner-curve: 10px;`
+- [x] `border-radius: 10px;`
