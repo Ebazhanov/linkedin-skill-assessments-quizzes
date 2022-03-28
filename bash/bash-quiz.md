@@ -865,3 +865,10 @@ echo 'Hello, $(whoami)!'
 - [ ] find $HOME -name "\*.csv" 1>/dev/null
 - [x] find $HOME -name "\*.csv" 2>/dev/null
 - [ ] find HOME -name "\*.csv" 1>/dev/null
+
+#### Q73. In Bash, what does a # at the end of the default prompt string indicate?
+
+- [x] that the user is acting as root
+- [ ] that the current working directory is the root of the file system
+- [ ] that there are updates for the system available
+- [ ] that the user is unprivileged
