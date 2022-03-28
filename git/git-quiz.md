@@ -867,8 +867,7 @@ Changes not staged for commit:
 
 [Reference](https://git-scm.com/docs/git-show#Documentation/git-show.txt---statltwidthgtltname-widthgtltcountgt)
 
-  
-### Q104. What features do repository managers such as GitHub provide beyond Git?
+#### Q104. What features do repository managers such as GitHub provide beyond Git?
 - [ ] Repository managers are proprietary versions of Git that do not include enhanced features.
 - [ ] Repository managers provide an enhanced command-line tool that is used to manage multiple local repositories.
 - [x] Repository managers provide an online service for hosting Git repositories that include collaboration features such as pull requests, issue tracking, and peer reviews.
@@ -876,7 +875,7 @@ Changes not staged for commit:
   
 [reference](https://www.theserverside.com/video/Git-vs-GitHub-What-is-the-difference-between-them) 
   
-### Q105. What command finds the HEAD of the current branch?
+#### Q105. What command finds the HEAD of the current branch?
 - [ ] `git head --verify`
 - [ ] `git log --head`
 - [ ] `git hash --head`
@@ -884,10 +883,14 @@ Changes not staged for commit:
 
 [reference](https://git-scm.com/docs/git-show-ref)
 
+#### Q106. When Git Workflows contain a long-running branch, what purpose does the long-running branch serve?
+- [ ] Long-running branches store unstable code until it os peer reviewed for integration into a feature branch.
+- [ ] Long-running branches correspond to agile sprints and are used to store related to features developed in the sprint.
+- [ ] Long-running branches contain code related to expiremental feature development that is merged into short-lived branches such as master.
+- [x] Long-running branches correspond to different stages of development and are allways open for topic/feature branches to be pulled into.
 
-#### Q104. What features do repository managers such as GitHub provide beyond Git?
-
-- [ ] Repository managers are proprietary versions of Git that do not include enhanced features.
-- [ ] Repository managers provide an enhanced command-line tool that is used to manage multiple local repositories.
-- [ ] Repository managers provide an online service for hosting Git repositories that include collaboration features such as pull requests, issue tracking, and peer reviews.
-- [ ] Repository managers distribute repositories across multiple locations on a user's workstation, providing redundant storage that allows for quick backup and recovery.
+#### Q107. What command takes changes from the master branch on the remote repository orgin and merges then to the local checked-out branch?
+- [ ] `git commit -u origin`
+- [ ] `git checkout origin`
+- [x] `git pull origin master`
+- [ ] `git push origin master`
