@@ -1684,3 +1684,46 @@ num_list[len(num_list) // 2]
 - [x] string
 
 [Reference](https://www.tutorialspoint.com/python_text_processing/python_string_immutability.htm)
+
+### Q127. What is the output of this code?
+
+```
+def myFunction(country = "France"):
+    print("Hello, I am from", country)
+
+myFunction("Spain")
+myFunction("")
+myFunction()
+```
+
+- [ ]
+
+```
+Hello, I am from Spain
+Hello, I am from 
+Hello, I am from 
+```
+
+- [ ]
+
+```
+Hello, I am from France
+Hello, I am from France
+Hello, I am from France
+```
+
+- [x]
+
+```
+Hello, I am from Spain
+Hello, I am from 
+Hello, I am from France
+```
+
+- [ ]
+
+```
+Hello, I am from Spain
+Hello, I am from France
+Hello, I am from France
+```
