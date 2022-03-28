@@ -708,3 +708,11 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 - [ ] least privilege
 
 [Explanation:](<https://en.wikipedia.org/wiki/Defense_in_depth_(computing)>)
+
+
+#### Q93. Which option describes a core principle of DevSecOps?
+
+- [x] Testing and release should be 100% automated
+- [ ] Role separation is the key to software security
+- [ ] Final responsibility for security rests with the architect of the application
+- [ ] Everyone in the process is reponsible for security
