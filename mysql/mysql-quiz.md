@@ -886,7 +886,7 @@ SELECT name FROM students WHERE name REGEXP '^to';
 
 ![mysql picture](images/mysql_q98.png)
 
-- [ ]
+- [ ] A
 
 ```
 SELECT cars.*, purchases.date
@@ -894,7 +894,7 @@ FROM cars RIGHT JOIN purchases
 ON cars.ID = purchases.carID;
 ```
 
-- [ ]
+- [ ] B
 
 ```
 SELECT cars.*, purchases.date
@@ -902,7 +902,7 @@ FROM cars INNER JOIN purchases
 ON cars.ID = purchases.carID;
 ```
 
-- [ ]
+- [ ] C
 
 ```
 SELECT cars.*, purchases.date
@@ -910,7 +910,7 @@ FROM cars JOIN purchases
 ON cars.ID = purchases.carID;
 ```
 
-- [X]
+- [x] D
 
 ```
 SELECT cars.*, purchases.date FROM cars LEFT JOIN purchases ON cars.ID = purchases.carID;
