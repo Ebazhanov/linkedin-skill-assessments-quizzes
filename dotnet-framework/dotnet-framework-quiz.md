@@ -476,3 +476,38 @@
 - [ ] Singleton
 - [x] Abstract Factory
 - [ ] Bridge
+
+#### Q64. Which statement about a read-only variable is *not* true?
+
+- [ ] It can be either static or an instance memeber.
+- [ ] At run time, its value is evaluated.
+- [ ] It can be initialized in either the constructor or the declaration.
+- [x] It can be initialized at declaration only.
+
+#### Q65. What is the interface segregation principle?
+
+- [x] Many client-specific interfaces are better than one general-purpose interface.
+- [ ] Software entities should be open for extension, but closed for modification.
+- [ ] A class should have only a single responsibility - that is, only changes to one part of the software's specification should be able to affect the specification of the class.
+- [ ] Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
+
+#### Q66. Which choice is a set of features that extends the query capabilities of the .NET language syntax by adding sets of new standard query operators that allow data manipulation, regardless of the data source?
+
+- [ ] XAML
+- [ ] C#
+- [ ] XML
+- [x] LINQ
+
+#### Q67. Why would the .NET Framework use Econo-JIT (Just-inTime)?
+
+- [ ] to compile only the methods that are called at run time and then store them in cache for one minute
+- [ ] to compile only methods called at run time - which are compiled the first time the methods are called and then stored in cache to be used for execution when the same methods are called again
+- [ ] to compile complete source code into native code in a single compilation cycle during deployment of the application
+- [x] to compile only the methods that are called at run time and remove them from memory after execution
+
+#### Q68. What is the difference between a heap and a stack?
+
+- [x] The stack contains stored value types; the heap contains stored reference types.
+- [ ] The heap is stored value types; the stack is stored reference types.
+- [ ] The heap is stored object types; the stack is stored class types.
+- [ ] The stack is stored object types; the heap is stored class types.
