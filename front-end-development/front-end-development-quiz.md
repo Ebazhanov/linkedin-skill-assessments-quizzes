@@ -610,14 +610,11 @@ console.log(currencies);
 
 #### Q64. Which code example would center `.box` inside `.container`?
 
-![A](images/Q64.png)
-
 ```hmtl
 <div class="container">
     <div class="box">what a lovely box, very centered
     </div>
 </div>
-
 ```
 
 - [ ] A
@@ -656,3 +653,12 @@ console.log(currencies);
     align: center;
   }
   ```
+
+  #### Q65. CSS Logical Properties and Values now have wide-ranging support in browsers. If you wanted to use the logical version of `width`, which property name would you choose?
+
+- [ ] `block-width`
+- [x] `inline-size`
+- [ ] `inline-width`
+- [ ] `block-size`
+
+[Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties/Sizing)

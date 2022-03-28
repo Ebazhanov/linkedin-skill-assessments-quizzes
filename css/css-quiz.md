@@ -555,8 +555,8 @@ Note: an alternative for Q7.
 
 - [ ] `a[href="#"] {...}`
 - [ ] `a[href~="#"]`
-- [ ] `a[href^="#"]`
-- [x] `a[href="#"]`
+- [x] `a[href^="#"]`
+- [ ] `a[href="#"]`
 
 #### Q44. What is not true about class selectors?
 
@@ -1520,7 +1520,7 @@ D. font-size: 20px
 - [ ] Floating the blue box actually shifts it to the right and down.
 - [x] Floating the blue box took it out of document flow and the container is sized only to the sample text.
 
-#### Q112. Given this code, which CSS declaration of .overlay will span the entire width and height of its container? Given this code, which CSS declaration of .overlay will span the entire width and height of its container?
+#### Q112. Given this code, which CSS declaration of .overlay will span the entire width and height of its container?
 
 ```css
 <style>
@@ -1530,18 +1530,8 @@ D. font-size: 20px
   width: 200px;
   border: 1px solid black;
 }
-
 </style>
-  <div class="container"><div class="overlay"></div></div><style>
-
- .container {
-   position: relative;
-   height: 200px;
-   width: 200px;
-   border: 1px solid black;
- }
-
-</style>
+<div class="container"><div class="overlay"></div></div>
 ```
 
 - [ ]
@@ -1583,7 +1573,7 @@ D. font-size: 20px
 }
 ```
 
-- [ ]
+- [x]
 
 ```css
 .overlay {
@@ -1744,7 +1734,7 @@ p {
 }
 ```
 
-- [ ]
+- [x]
 
 ```css
 section + p {
@@ -1759,6 +1749,8 @@ p + section {
   color: blue;
 }
 ```
+
+[Reference](https://www.w3schools.com/cssref/sel_element_pluss.asp)
 
 #### Q120. You want to move an element up 100px. Which CSS property would you use?
 
@@ -1869,3 +1861,10 @@ p + section {
 - [ ] `class="cellar-door"`
 
 [Reference](https://www.w3schools.com/html/html_classes.asp)
+
+#### Q125. Which choice would give a block element rounded corners?
+
+- [ ] `corner-radius: 10px;`
+- [ ] `border-corner: 10px;`
+- [ ] `corner-curve: 10px;`
+- [x] `border-radius: 10px;`

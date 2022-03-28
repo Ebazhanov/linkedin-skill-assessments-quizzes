@@ -1166,7 +1166,6 @@ class TransIsBeautiful extends React.Component {
 - [ ] super(this);
 - [ ] this.super();
 
-
 #### Q102. Which language can you not use with React?
 
 - [x] Swift.

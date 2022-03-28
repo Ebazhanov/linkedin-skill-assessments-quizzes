@@ -449,30 +449,31 @@
 - [x] The root CA server is offline.
 - [ ] Only FIPS-compliant hardware security modules are used.
 
+[reference](<https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn786436(v=ws.11)>)
 
-[reference](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn786436(v=ws.11))
+#### Q58. Windows Server 2012 R2 server has two network adapters. You are required to configure load balancing on a pair of network adapters. Which management console would you use to accomplish this task?
 
- 
-#### Q58. Windows Server 2012 R2 server has two network adapters. You are required to configure load balancing on a pair of network adapters. Which  management console would you use to accomplish this task?  
-- [ ] the Terminal Services Manager console  
-- [ ] the Group Manager console  
-- [ ] the Remote Desktop Manager console  
-- [x] the Server Manager console  
+- [ ] the Terminal Services Manager console
+- [ ] the Group Manager console
+- [ ] the Remote Desktop Manager console
+- [x] the Server Manager console
 
 [reference](https://wiki.unify.com/wiki/How_to_configure_NLB_for_Windows_Server)
 
-#### Q59. You set up a storage area network that makes use of iSCSI storage. You then install the iSNS Server service feature on Windows Server 2012 R2. Why do  you need this feature?  
-- [x] to provide discovery services of iSCSI devices  
-- [ ] to view information about host bus adapters  
-- [ ] to manage RAID storage volumes  
-- [ ] to set up storage Fibre Channels  
+#### Q59. You set up a storage area network that makes use of iSCSI storage. You then install the iSNS Server service feature on Windows Server 2012 R2. Why do you need this feature?
+
+- [x] to provide discovery services of iSCSI devices
+- [ ] to view information about host bus adapters
+- [ ] to manage RAID storage volumes
+- [ ] to set up storage Fibre Channels
 
 [reference](https://thesolving.com/storage/how-to-install-and-configure-a-isns-server-on-windows-2012-r2/#)
 
-#### Q60. What type of CAs must be domain members and are typically online to issue certificates or certificate policies?  
-- [x] Enterprise  
-- [ ] Root  
-- [ ] Client  
+#### Q60. What type of CAs must be domain members and are typically online to issue certificates or certificate policies?
+
+- [x] Enterprise
+- [ ] Root
+- [ ] Client
 
 [reference](<https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn786436(v=ws.11)>)
 
@@ -503,11 +504,11 @@
 
 [reference](https://itfreetraining.com/lesson/catypes/)
 
+#### Q61. Using Storage Pools under Files and Storage Services, you configure a mixture of SSD (solid state disk) and HDD (hard disk drive) for tiered storage by creating what?
 
-#### Q61. Using Storage Pools under Files and Storage Services, you configure a mixture of SSD (solid state disk) and HDD (hard disk drive) for tiered storage by creating what?  
-- [ ] multitenancy volumes  
-- [ ] storage pools  
-- [ ] parity volumes  
+- [ ] multitenancy volumes
+- [ ] storage pools
+- [ ] parity volumes
 
 #### Q61. Using Storage Pools under Files and Storage Services, you configure a mixture of SSD (solid state disk) and HDD (hard disk drive) for tiered storage by creating what?
 
