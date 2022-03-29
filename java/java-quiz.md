@@ -1846,3 +1846,5 @@ public class CurrentDateRunnable implements Runnable {
 - [ ] `new Thread(new CurrentDateRunnable()).join();`
 - [ ] `new CurrentDateRunnable().run();`
 - [ ] `new CurrentDateRunnable().start();`
+
+[Reference](https://www.w3schools.com/java/java_threads.asp)
