@@ -655,3 +655,24 @@
 - [ ] jack-of-all-trades
 - [ ] apprentice developer
 - [ ] generalizing specialist
+
+### Q92. Which statement is _not_ true about pair programming?
+
+- [ ] It has been discredited because it is too expensive.
+- [x] In pair programming, two developers share one computer and take turns at the keyboard.
+- [ ] It is a great way to teach someone who is new to the team.
+- [ ] The code produced by two  developers who are collaborating is typically higher quality than if they were working alone.
+
+## Q93. People with  fixed mindset ____ .
+
+- [x] have better focus and longer attention spans
+- [ ] are more goal oriented
+- [ ] tend to be more resilient
+- [ ] are more afraid of failure
+
+### Q94. How can you impove interaction between team members?
+
+- [x] Move people's workstations around in the team room to create new social possibilities.
+- [ ] Ask the team if they would like to do something recreational together and offer to organize it.
+- [ ] Tell the team that you see this as a problem and ask them to solve it.
+- [ ] Since no one has come to you with a complaint, assume that the limited interaction works for everyone.
