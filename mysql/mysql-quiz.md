@@ -881,3 +881,37 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] CSV
 - [ ] XML
 - [ ] TXT
+
+#### Q98. You are working with the tables as shown in this diagram. You need to generate the list of all cars, whether or not they had been sold, with the purchase date of the cars that were sold. Which statement accomplishes that?
+
+![mysql picture](images/mysql_q98.png)
+
+- [ ] A
+
+```
+SELECT cars.*, purchases.date
+FROM cars RIGHT JOIN purchases
+ON cars.ID = purchases.carID;
+```
+
+- [ ] B
+
+```
+SELECT cars.*, purchases.date
+FROM cars INNER JOIN purchases
+ON cars.ID = purchases.carID;
+```
+
+- [ ] C
+
+```
+SELECT cars.*, purchases.date
+FROM cars JOIN purchases
+ON cars.ID = purchases.carID;
+```
+
+- [x] D
+
+```
+SELECT cars.*, purchases.date FROM cars LEFT JOIN purchases ON cars.ID = purchases.carID;
+```
