@@ -1177,6 +1177,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.aloneonthebeach.ga/"><img src="https://avatars.githubusercontent.com/u/48977375?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nandha</b></sub></a><br /><a href="#design-nandha46" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=nandha46" title="Code">💻</a></td>
     <td align="center"><a href="https://referal.ir/vahid.mafi"><img src="https://avatars.githubusercontent.com/u/70995302?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vahid Mafi</b></sub></a><br /><a href="#design-vahidmafi" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=vahidmafi" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/AkshayAshokCode"><img src="https://avatars.githubusercontent.com/u/63944420?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Akshay Ashok</b></sub></a><br /><a href="#design-AkshayAshokCode" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=AkshayAshokCode" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
