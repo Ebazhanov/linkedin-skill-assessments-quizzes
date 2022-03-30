@@ -654,7 +654,7 @@ console.log(currencies);
   }
   ```
 
-  #### Q65. CSS Logical Properties and Values now have wide-ranging support in browsers. If you wanted to use the logical version of `width`, which property name would you choose?
+#### Q65. CSS Logical Properties and Values now have wide-ranging support in browsers. If you wanted to use the logical version of `width`, which property name would you choose?
 
 - [ ] `block-width`
 - [x] `inline-size`
@@ -663,7 +663,7 @@ console.log(currencies);
 
 [Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties/Sizing)
 
-  #### Q66. Which color value will create a background color that is semitransparent?
+#### Q66. Which color value will create a background color that is semitransparent?
 
 - [ ] `rgb(18, 138, 125)`
 - [ ] `#128a7d`
