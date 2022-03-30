@@ -662,3 +662,10 @@ console.log(currencies);
 - [ ] `block-size`
 
 [Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties/Sizing)
+
+  #### Q66. Which color value will create a background color that is semitransparent?
+
+- [ ] `rgb(18, 138, 125)`
+- [ ] `#128a7d`
+- [x] `rgba(18, 138, 125,.5)`
+- [ ] `hsl(174, 77%, 31%)`
