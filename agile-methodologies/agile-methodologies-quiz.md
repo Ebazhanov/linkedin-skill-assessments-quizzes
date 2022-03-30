@@ -661,9 +661,9 @@
 - [ ] It has been discredited because it is too expensive.
 - [x] In pair programming, two developers share one computer and take turns at the keyboard.
 - [ ] It is a great way to teach someone who is new to the team.
-- [ ] The code produced by two  developers who are collaborating is typically higher quality than if they were working alone.
+- [ ] The code produced by two developers who are collaborating is typically higher quality than if they were working alone.
 
-## Q93. People with  fixed mindset ____ .
+## Q93. People with fixed mindset \_ .
 
 - [x] have better focus and longer attention spans
 - [ ] are more goal oriented

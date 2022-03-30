@@ -1800,7 +1800,7 @@ const b = { x: 1 };
 #### Q129. What will this code log to the console?
 
 ```js
-console.log(typeof(41.1));
+console.log(typeof 41.1);
 ```
 
 - [ ] `Nothing. It resuults in a ReferenceError.`
@@ -1818,8 +1818,8 @@ scores.push(1, 2);
 scores.pop();
 scores.push(3, 4);
 scores.pop();
-score = scores.reduce((a, b) => a + b)
-console.log(score)
+score = scores.reduce((a, b) => a + b);
+console.log(score);
 ```
 
 - [ ] `3`
@@ -1835,15 +1835,15 @@ console.log(score)
 
 ```js
 let bear = {
-  sound: "roar",
-  roar(){
-    console.log(this.sound)
-  }
-}
+  sound: 'roar',
+  roar() {
+    console.log(this.sound);
+  },
+};
 
-bear.sound = "grunt"
-let bearSound = bear.roar
-bearSound()
+bear.sound = 'grunt';
+let bearSound = bear.roar;
+bearSound();
 ```
 
 - [ ] `Nothing is printed to the console.`
