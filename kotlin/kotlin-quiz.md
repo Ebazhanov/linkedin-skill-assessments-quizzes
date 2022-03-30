@@ -1033,3 +1033,28 @@ names[3]= "Delta"
 - [ ] You accessed the element with an index but should have used.set().
 - [ ] You declared the array with val but should have used var
 - [ ] You cannot changes the value of an element of an array. You should have used a mutable list.
+
+#### Q79. If a class has one or more secondary constructors, what must each of them do?
+
+- [ ] Each secondary constructor must call super().
+- [ ] Each secondary constructor must call base().
+- [ ] Each secondary constructor must directly or indirectly delegate to the primary.
+- [ ] Each secondary constructor must have the same name as the class.
+
+#### Q80. When you can omit constructor keyword from the primary constructor?
+
+- [ ] It can be omitted only if an init block is defined.
+- [ ] It can be omitted anytime; it is not mandatory.
+- [ ] It can be omitted if secondary constructors are defined.
+- [x] It can be omitted when the primary constructor does not have any modifiers or annotations.
+
+[reference](https://www.baeldung.com/kotlin/constructors#:~:text=In%20some%20cases%2C%20we%20can,default%20parameters%20in%20the%20constructors.)
+
+#### Q81. How many different kinds of constructors are available for kotlin classes?
+
+- [x] two.
+- [ ] none.
+- [ ] four.
+- [ ] one.
+
+[reference](https://www.programiz.com/kotlin-programming/constructors#:~:text=In%20Kotlin%2C%20there%20are%20two,to%20put%20additional%20initialization%20logic)

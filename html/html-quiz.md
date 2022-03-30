@@ -997,10 +997,12 @@ This is a confusing question and there can be an arguments for both the second a
 
 `Steve Kruz Said: "He will Win"`
 
-- [ ] `<q>`
-- [x] `<quote>`
+- [x] `<q>`
+- [ ] `<quote>`
 - [ ] `<blockquote>`
 - [ ] `<notation>`
+
+[Reference (w3schools)](https://www.w3schools.com/html/html_quotation_elements.asp)
 
 #### Q63. What is the semantic meaning of the `<hr>` tag?
 

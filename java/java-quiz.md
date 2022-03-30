@@ -1811,3 +1811,40 @@ dates.replaceAll(replaceSlashes);
 - [ ] `Function<String, String> replaceSlashes = dates -> dates.replace("-", "/");`
 - [ ] `Map<String, String> replaceSlashes = dates.replace("/", "-");`
 - [ ] `Consumer<Date> replaceSlashes = date -> date.replace("/", "-");`
+
+#### Q125. From which class do all other classes implicitly extend?
+
+- [x] `Object`
+- [ ] `Main`
+- [ ] `Java`
+- [ ] `Class`
+
+[Explanation](https://stackoverflow.com/questions/17187218/default-class-that-is-extended-by-all-classes-in-java)
+
+#### Q126. How do you create and run a Thread for this class?
+
+```java
+import java.util.date;
+
+public class CurrentDateRunnable implements Runnable {
+    @Override
+    public void run () {
+        while (true) {
+            System.out.println("Current date: " + new Date());
+
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+}
+```
+
+- [x] `Thread thread = new Thread(new CurrentDateRunnable()); thread.start();`
+- [ ] `new Thread(new CurrentDateRunnable()).join();`
+- [ ] `new CurrentDateRunnable().run();`
+- [ ] `new CurrentDateRunnable().start();`
+
+[Reference](https://www.w3schools.com/java/java_threads.asp)

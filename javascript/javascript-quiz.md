@@ -1796,3 +1796,59 @@ const b = { x: 1 };
 - [ ] `a.x === b.x`
 
 [Reference](http://adripofjavascript.com/blog/drips/object-equality-in-javascript.html)
+
+#### Q129. What will this code log to the console?
+
+```js
+console.log(typeof(41.1));
+```
+
+- [ ] `Nothing. It resuults in a ReferenceError.`
+- [ ] `decimal`
+- [ ] `float`
+- [x] `number`
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#basic_usage)
+
+#### Q130. What is the output of this code?
+
+```js
+let scores = [];
+scores.push(1, 2);
+scores.pop();
+scores.push(3, 4);
+scores.pop();
+score = scores.reduce((a, b) => a + b)
+console.log(score)
+```
+
+- [ ] `3`
+- [x] `4`
+- [ ] `6`
+- [ ] `7`
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+
+#### Q131. What does this code print to the console?
+
+```js
+let bear = {
+  sound: "roar",
+  roar(){
+    console.log(this.sound)
+  }
+}
+
+bear.sound = "grunt"
+let bearSound = bear.roar
+bearSound()
+```
+
+- [ ] `Nothing is printed to the console.`
+- [ ] `grunt`
+- [x] `undefined`
+- [ ] `roar`
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
