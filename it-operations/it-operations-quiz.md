@@ -490,3 +490,32 @@
 - [ ] air can, microfiber cloth, alcohol wipes, flashlight.
 - [x] handheld vaccum cleaner, ammonia, alcohol, microfiber cloth.
 - [ ] air can, screwdriver, soft cloth, household cleaner.
+
+#### Q58. A computer power supply is measured in _.
+
+- [x] watts
+- [ ] hertz
+- [ ] amperes
+- [ ] volts
+
+
+#### Q59. If you had a 255.255.255.0 subnet mask, how many usable IP addresses would you have for hosts?
+
+- [ ] 24
+- [ ] 255
+- [x] 254
+- [ ] 256
+
+#### Q60. Tania was told to address an issue in the UEFI. How is it accessed?
+
+- [ ] by using the System Configuration Utility (MSCONFIG)
+- [x] from the BIOS
+- [ ] from the computer's startup menu
+- [ ] on the network
+
+#### Q61. What is the technical reason why you must properly eject media?
+
+- [x] File I/O is buffered. If you remove the media before the buffer is cleared, files remain open and potentially corrupt.
+- [ ] The Storage Inventory Manager (SIM) can lose its drive references, which may corrupt other storage in the system.
+- [ ] The drive must receive the eject signal and turn itself off, dropping the DTR signal and indicating the media is safe to remove.
+- [ ] The computer must stop the 5-volt signal to media, otherwise the drive may short.
