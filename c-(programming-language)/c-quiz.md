@@ -813,6 +813,7 @@ int main()
 - [ ] 500
 
 ### Q51. What is _not_ one of the basic data types in C
+
 - [ ] long double
 - [ ] unsigned char
 - [x] array

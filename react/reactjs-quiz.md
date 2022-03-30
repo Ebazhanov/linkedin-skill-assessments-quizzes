@@ -1174,6 +1174,7 @@ class TransIsBeautiful extends React.Component {
 - [ ] TypeScript.
 
 #### Q103. This code is part of an app that collects Pokemon. How would you print the list of the ones collected so far?
+
 ```javascript
 constructor(props) {
     super(props);
@@ -1191,9 +1192,10 @@ constructor(props) {
 [Reference](https://www.digitalocean.com/community/tutorials/how-to-manage-state-on-react-class-components#step-3-setting-state-from-a-static-value)
 
 #### Q104. What would be the result of running this code?
+
 ```javascript
 function add(x = 1, y = 2) {
-    return x + y;
+  return x + y;
 }
 
 add();

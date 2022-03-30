@@ -1700,8 +1700,8 @@ myFunction()
 
 ```
 Hello, I am from Spain
-Hello, I am from 
-Hello, I am from 
+Hello, I am from
+Hello, I am from
 ```
 
 - [ ]
@@ -1716,7 +1716,7 @@ Hello, I am from France
 
 ```
 Hello, I am from Spain
-Hello, I am from 
+Hello, I am from
 Hello, I am from France
 ```
 
