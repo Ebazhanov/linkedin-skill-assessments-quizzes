@@ -1727,3 +1727,11 @@ Hello, I am from Spain
 Hello, I am from France
 Hello, I am from France
 ```
+#### Q128. Choose the option below for which instance of the class cannot be created
+
+- [ ] Anonymous Class
+- [ ] Parent Class
+- [ ] Nested Class
+- [x] Abstract Class
+
+[Reference](https://www.scaler.com/topics/python/data-abstraction-in-python/)
