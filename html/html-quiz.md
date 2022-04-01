@@ -1222,6 +1222,8 @@ As Steve Krug once said, happy talk must die.
 
 #### Q78. What is the most semantically accurate way to make up a main navigation bar, displayed in a horizontal direction?
 
+- [ ] A
+
 ```markdown
 <p>
   <a href="index.html">Home</a>
@@ -1230,7 +1232,7 @@ As Steve Krug once said, happy talk must die.
 </p>
 ```
 
-- [ ] A
+- [ ] B
 
 ```markdown
 <nav>
@@ -1240,7 +1242,7 @@ As Steve Krug once said, happy talk must die.
 </nav>
 ```
 
-- [ ] B
+- [ ] C
 
 ```markdown
  <nav>
@@ -1252,7 +1254,7 @@ As Steve Krug once said, happy talk must die.
   </nav>
 ```
 
-- [x] C
+- [x] D
 
 ```markdown
  <nav>
@@ -1721,7 +1723,7 @@ As Steve Krug once said, happy talk must die.
 
 #### Q109. Which description is coded correctly?
 
-- [ ] A
+- [x] A
 
 ```HTML
 <dl>
@@ -1765,6 +1767,9 @@ As Steve Krug once said, happy talk must die.
 </dl>
 ```
 
+[Source 1](https://html.spec.whatwg.org/multipage/grouping-content.html#the-dl-element)
+[Source 2](https://www.w3schools.com/tags/tag_dl.asp)
+
 #### Q110. What is wrong with this code?
 
 ```HTML
@@ -1778,9 +1783,11 @@ As Steve Krug once said, happy talk must die.
 ```
 
 - [ ] Nothing is wrong.
-- [ ] `<ul>` cannot contain a heading element as a direct child.
+- [x] `<ul>` cannot contain a heading element as a direct child.
 - [ ] An `<h1>` should be used here instead of an `<h2>` tag.
 - [ ] Only `<ol>` allows direct descendants to contain elements other than an `<li>`, so use an `<ol>` here instead.
+
+`ul content model only accepts "Zero or more li and script-supporting elements".` [Source](https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element)
 
 #### Q111. A designer gave you CSS code that should run only when the device rendering the page is in dark mode. How would you embed that code?
 
