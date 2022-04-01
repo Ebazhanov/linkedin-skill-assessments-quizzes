@@ -8138,6 +8138,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "ZeitounCorp",
+      "name": "Lenny Zeitoun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30462059?v=4",
+      "profile": "https://zeitouncorporate.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
