@@ -196,7 +196,7 @@ A rainbow table attack is a more efficient and effective way of cracking many ha
 - [ ] 100
 - [ ] 300
 
-**Explaintion**: The formula for asymmetric encryption is `2n`; where `n` is the number of communicating parties.
+**Explanation**: The formula for asymmetric encryption is `2n`; where `n` is the number of communicating parties.
 
 #### Q27. Two competing online retailers process credit card transactions for customers in countries on every continent. One organization is based in the United States. The other is based in the Netherlands. With which regulation must both countries comply while ensuring the security of these transactions?
 
