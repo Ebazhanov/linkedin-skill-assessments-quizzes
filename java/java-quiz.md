@@ -1848,3 +1848,17 @@ public class CurrentDateRunnable implements Runnable {
 - [ ] `new CurrentDateRunnable().start();`
 
 [Reference](https://www.w3schools.com/java/java_threads.asp)
+
+#### Q127. What keyword would _not_ be allowed here?
+
+```java
+class Unicorn {
+
+    ______ Unicorn(){}
+}
+```
+
+- [ ] `public`
+- [ ] `void`
+- [x] `static`
+- [ ] `protected`
