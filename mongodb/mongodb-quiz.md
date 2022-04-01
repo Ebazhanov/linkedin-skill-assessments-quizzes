@@ -543,3 +543,12 @@ Note: count() works with find(...) but length works with distinct
 - [x] `db.customers.find({}, {_id:0, firstName: 1, lastName: 1})`
 - [ ] `db.customers.find({_id: 0, year: 1, maek: 1, model: 1})`
 - [ ] `db.customers.find({}).project({firstName: 1, lastName: 1})`
+
+#### Q77. Documents in mongodb are atomic at the ___ level
+
+- [ ] database
+- [ ] field
+- [ ] no
+- [x] document
+
+[MongoDB reference](https://www.mongodb.com/docs/manual/core/write-operations-atomicity/#:~:text=In%20MongoDB%2C%20a%20write%20operation,documents%20within%20a%20single%20document.)
