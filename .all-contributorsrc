@@ -8158,6 +8158,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "TroyBTC",
+      "name": "TroyBTC",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78566687?v=4",
+      "profile": "https://github.com/TroyBTC",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
