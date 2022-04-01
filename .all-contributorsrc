@@ -8128,6 +8128,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Estyms",
+      "name": "Evann Regnault",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20794848?v=4",
+      "profile": "http://regnaultevann.xyz",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
