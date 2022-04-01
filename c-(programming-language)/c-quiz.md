@@ -840,19 +840,19 @@ int main()
 - [ ] It returns FALSE for lowercase letters of the alphabet.
 - [x] It converts an uppercase letter of the alphabet to lowercase.
 
-#### Q55. Void pointer *vptr* is assigned the address of float variable *g*. What is a valid way to dereference *vptr* to assign its pointed value to a float variable named *f* later in the program?
+#### Q55. Void pointer _vptr_ is assigned the address of float variable _g_. What is a valid way to dereference _vptr_ to assign its pointed value to a float variable named _f_ later in the program?
 
 ```c
 float g;
 void *vptr=&g;
 ```
 
-- [ ] f=(float *)vptr;
-- [x] f=*(float *)vptr;
-- [ ] f=*(float)vptr;
-- [ ] f=(float)*vptr;
+- [ ] f=(float \*)vptr;
+- [x] f=_(float _)vptr;
+- [ ] f=\*(float)vptr;
+- [ ] f=(float)\*vptr;
 
-#### Q56. Using a *for* loop, how would you write C code to count down from 10 to 1 and display each number on its own line?
+#### Q56. Using a _for_ loop, how would you write C code to count down from 10 to 1 and display each number on its own line?
 
 - [ ]
 

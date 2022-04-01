@@ -733,23 +733,23 @@ public int Password
 - [ ] `Out variables are no longer part of C#.`
 - [ ] `You must declare it if it is a primitive type.`
 - [ ] `Yes.`
-      
+
 #### Q69. How would you access the last two people in an array named People?
 
 - [x] `People[..^2]`
 - [ ] `You cannot do this in C#.`
 - [ ] `People[..^3]`
 - [ ] `People[^2]`
-    
+
 [Official Documentation: Ranges](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-8.0/ranges)
-    
+
 #### Q70. When can anonymous types be created?
 
 - [x] `at compile time`
 - [ ] `after runtime`
 - [ ] `at runtime`
 - [ ] `after compile time`
-    
+
 [C-sharpcorner: Anonymous Types](https://www.c-sharpcorner.com/UploadFile/ff2f08/anonymous-types-in-C-Sharp/)
 
 #### Q71. What is true about thread multitasking?
@@ -758,5 +758,5 @@ public int Password
 - [ ] `Thread multitasking allows code to be executed only when handling a user event.`
 - [ ] `Thread multitasking blocks code from being executed simultaneously to guard memory.`
 - [ ] `Thread multitasking adds single-threaded code blocks together.`
-    
+
 [Official Documentation: Threads](https://docs.microsoft.com/en-us/dotnet/standard/threading/threads-and-threading)

@@ -544,7 +544,7 @@ Note: count() works with find(...) but length works with distinct
 - [ ] `db.customers.find({_id: 0, year: 1, maek: 1, model: 1})`
 - [ ] `db.customers.find({}).project({firstName: 1, lastName: 1})`
 
-#### Q77. Documents in mongodb are atomic at the ___ level
+#### Q77. Documents in mongodb are atomic at the \_\_\_ level
 
 - [ ] database
 - [ ] field
