@@ -8148,6 +8148,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "edenb-dev",
+      "name": "Eden Boaron",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70844165?v=4",
+      "profile": "https://github.com/edenb-dev",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
