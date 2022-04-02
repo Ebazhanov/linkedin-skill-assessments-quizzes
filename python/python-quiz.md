@@ -1736,3 +1736,13 @@ Hello, I am from France
 - [x] Abstract Class
 
 [Reference](https://www.scaler.com/topics/python/data-abstraction-in-python/)
+
+
+#### Q129. Using Pandas, we load a data set from Kaggle, as structured in the image below. Which command will return the total number of survivors?
+
+![Q129](Q129.png)
+
+- [ ] `sum(titanic['Survived'])`
+- [ ] `[x for x in titanic['Survived'] if x == 1]`
+- [ ] `len(titanic["Survived"])`
+- [ ] `sum(titanic['Survived']==0)`
