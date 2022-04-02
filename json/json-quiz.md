@@ -953,3 +953,11 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 - [x] {}
 - [ ] ()
 - [ ] []
+
+
+#### Q89. The JSON structure features nested objects and arrays. Sometimes the data containing these features exists in relational databases. How is the relational structure different that JSON?
+
+- [ ] It has a flat architecture.
+- [ ] It has a rewritable structure.
+- [ ] It has an array-only structure.
+- [ ] It has a table structure.
