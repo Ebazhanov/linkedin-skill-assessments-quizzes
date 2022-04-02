@@ -1737,7 +1737,6 @@ Hello, I am from France
 
 [Reference](https://www.scaler.com/topics/python/data-abstraction-in-python/)
 
-
 #### Q129. Using Pandas, we load a data set from Kaggle, as structured in the image below. Which command will return the total number of survivors?
 
 ![Q129](Q129.png)
