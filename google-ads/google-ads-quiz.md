@@ -224,7 +224,7 @@
 - [ ] keywords
 - [ ] tracking tags
 
-#### Q33. Within the Display Network, locations where your ad can appear are referred to as **\_\_\_**.
+#### Q33. Within the Display Network, locations where your ad can appear are referred to as **\_**.
 
 - [ ] ad slots
 - [ ] placements

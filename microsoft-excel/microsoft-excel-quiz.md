@@ -905,42 +905,35 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] Excel 2003 workbook
 - [ ] workbook where macros are not allowed
 
-### Q111. A colleague shared an Excel file with you, and you want to display a worksheet that is hidden in it. How can you do that?
-
-- [x] Right-click any worksheet tab and select Unhide.
-- [ ] On the View tab, click New Window.
-- [ ] On the Home tab, click Unhide.
-- [ ] On the Review tab click Unhide Sheet.
-
-### Q112. How do you remove only the conditional formatting from a cell and leave all other formatting intact?
+### Q111. How do you remove only the conditional formatting from a cell and leave all other formatting intact?
 
 - [ ] This is not possible-you can remove only all formatting from a cell.
 - [x] Select the cell. On the Home tab, click Conditional Formatting > Clear Rules > Clear Rules from Selected Cells.
 - [ ] Right-click the cell and select Delete Conditional Formatting.
 - [ ] Right-click the cell and select Remove Conditional Formatting.
 
-### Q113. If a range name is used in a formula and the name is deleted, what happens to the formula?
+### Q112. If a range name is used in a formula and the name is deleted, what happens to the formula?
 
 - [ ] The formula display a warning but the actual cell address is substituted for the deleted name.
 - [ ] The formula becomes invalid and displays a #NAME? error.
 - [ ] The actual cell addresses replace the original range name in the formula.
 - [ ] The formula becomes invalid and displays a #N/A error
 
-### Q114. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select **\_**.
+### Q113. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select **\_**.
 
 - [ ] Insert Column
 - [ ] Paste Special
 - [ ] Insert Column Left
 - [x] Insert
 
-### Q115. You want to restric the values entered in a cell to a speified set, such as Hop, Skip, Jump. Which type of data validation should you use?
+### Q114. You want to restric the values entered in a cell to a speified set, such as Hop, Skip, Jump. Which type of data validation should you use?
 
 - [ ] input range
 - [x] list
 - [ ] custom
 - [ ] database
 
-### Q116. Given the image below, what happens if you type "P" in cell A6?
+### Q115. Given the image below, what happens if you type "P" in cell A6?
 
 ![image](https://user-images.githubusercontent.com/1056999/159387628-9f960f22-9b50-4764-b4d9-31b5914b164a.png)
 
@@ -949,14 +942,14 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] A pop-up list appears with the previous four names.
 - [ ] The word "Perez" appears and immediately the active cell moves down.
 
-### Q117. You want to find the second-largest invoice in a column containing all the invoices in a given month. What function would you use?
+### Q116. You want to find the second-largest invoice in a column containing all the invoices in a given month. What function would you use?
 
 - [ ] NEXT
 - [ ] MAX
 - [x] LARGE
 - [ ] MATCH
 
-### Q118. How can you see the data in column E?
+### Q117. How can you see the data in column E?
 
 ![image](https://user-images.githubusercontent.com/1056999/159387970-6ff9d57c-adb2-452b-83af-66d9f3fdc908.png)
 
@@ -965,7 +958,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] On the Home tab of the ribbon, select Fit to Column.
 - [ ] Expand the width of its column.
 
-### Q119. In the worksheet below, a table called Projects extends from cell A1 to D10. Cell D1 contains the text Status. Cell E12 contains the formula =Projects[@Status]. What does this formula return?
+### Q118. In the worksheet below, a table called Projects extends from cell A1 to D10. Cell D1 contains the text Status. Cell E12 contains the formula =Projects[@Status]. What does this formula return?
 
 ![image](https://user-images.githubusercontent.com/1056999/159388193-743a1393-d61f-47b1-a4ae-346f36fb3160.png)
 
@@ -974,7 +967,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] #REF!
 - [ ] 0
 
-### Q120. Which Excel feature allows you to select all cells in the column with inconsistent formulas compared to the rest of the column?
+### Q119. Which Excel feature allows you to select all cells in the column with inconsistent formulas compared to the rest of the column?
 
 ![image](https://user-images.githubusercontent.com/1056999/159388456-054ba0ae-c595-4aaa-8d38-351f726885ca.png)
 
@@ -983,7 +976,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] On the Formulas tab, click Trace errors.
 - [ ] On the Formulas tab, click show formulas
 
-### Q121. You want to restrict the values entered in a cell to a specified set, such as hop, skip, jump. Which type of data validation should you use??
+### Q120. You want to restrict the values entered in a cell to a specified set, such as hop, skip, jump. Which type of data validation should you use??
 
 - [ ] database.
 - [x] list.

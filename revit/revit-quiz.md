@@ -49,7 +49,7 @@
 - [ ] On the **View** tab, click **New Window**.
 - [ ] On the **Review** tab, click **Unhide Sheet**.
 - [ ] On the **Home** tab, click **Unhide**.
-- [ ] Right-click any worksheet tab and select **Unhide**.
+- [x] Right-click any worksheet tab and select **Unhide**.
 
 #### Q8. When sketching a roof by footprint, which option allows an edge of the sketch to be sloped in the final roof?
 
