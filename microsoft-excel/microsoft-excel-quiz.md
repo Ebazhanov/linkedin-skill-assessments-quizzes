@@ -982,3 +982,12 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] On the Formulas tab, click Trace precedents.
 - [ ] On the Formulas tab, click Trace errors.
 - [ ] On the Formulas tab, click show formulas
+
+### Q121. You want to restrict the values entered in a cell to a specified set, such as hop, skip, jump. Which type of data validation should you use??
+
+- [ ] database.
+- [x] list.
+- [ ] input range.
+- [ ] custom
+
+[reference](https://www.extendoffice.com/documents/excel/3830-excel-only-allow-certain-values.html)
