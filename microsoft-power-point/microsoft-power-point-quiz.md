@@ -524,7 +524,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] changing the width and height with aspect ration locked
 - [ ] drapping a corner sizing handle
 - [ ] using the **Crop to Shape** tool
-- [ ] using the **Crop** tool
+- [x] using the **Crop** tool
 
 #### Q69. Which view allows you to see additional information on a second monitor when delivering a presentation?
 
@@ -546,3 +546,48 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [x] The slide show ends and you return to your previous view.
 - [ ] The next slide appears.
 - [ ] Nothing happens.
+
+#### Q72. When you save a presentation with a .potx file extension, which type of Powerpoint file is created?
+
+- [ ] macro-eanbled presentation
+- [x] template
+- [ ] show
+- [ ] theme
+
+[Reference](https://docs.fileformat.com/presentation/potx/)
+
+#### Q73. You are presenting with two monitors. Which view displays a preview of next slide and speaker notes on the second monitor?
+
+- [x] Presenter view
+- [ ] Master view
+- [ ] Normal view
+- [ ] Reading view
+
+[Reference](https://support.microsoft.com/en-us/office/use-presenter-view-in-powerpoint-fe7638e4-76fb-4349-8d81-5eb6679f49d7#:~:text=PowerPoint%20Presenter%20View%20shows%20you,Select)
+
+#### Q74. Which effect can a presenter use to add motion to an object on a slide?
+
+- [ ] Add-in
+- [ ] Zoom
+- [x] Animation
+- [ ] Transition
+
+[Reference](https://support.microsoft.com/en-us/office/animate-text-or-objects-305a1c94-83b1-4778-8df5-fcf7a9b7b7c6)
+
+#### Q75. What do the labels introduction and ProjectByMonth indicates?
+[image]()
+- [ ] links to next slide
+- [ ] hidden slides
+- [x] section names
+- [ ] layouts
+
+[Reference](https://support.microsoft.com/en-us/office/organize-your-powerpoint-slides-into-sections-de4bf162-e9cc-4f58-b64a-7ab09443b9f8#:~:text=Right%2Dclick%20between%20slides%20and,next%20to%20the%20section%20name.)
+
+#### Q76. When you copy data from an Excel worksheet into a slide to create a table, which Paste option will allow you to edit the table data in Excel?
+
+- [ ] Keep Formatting
+- [x] Embed
+- [ ] Keep Text Only
+- [ ] Picture
+
+[Reference](https://support.microsoft.com/en-us/office/insert-excel-data-in-powerpoint-19767daf-672c-43bc-bda1-330b242c57c9)
