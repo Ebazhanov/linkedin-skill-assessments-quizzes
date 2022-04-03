@@ -673,15 +673,8 @@ if [[ $FILE == $GLOB ]] ;then
 
 - [ ] `/proc/partitions` represents the disk partition table more accurately than `fdisk -l`
 - [ ] `/proc/partitions` shows only mounted drives. `fdisk -l` shows all drivers.
-- [X] There is no difference between the two, and both lists contain the same data.
-- [ ] `/proc/partitions` is the kernel's list of partitions held in ram. `fdisk -l` reads the partition table from the drive itself.
-
-**Explanation:** From fdisk's manpage on linux:
-
-```
--l, --list
-        List the partition tables for the specified devices and then exit.  If no devices are given, those mentioned in /proc/partitions (if that file exists) are used.
-```
+- [ ] There is no difference between the two, and both lists contain the same data.
+- [x] `/proc/partitions` is the kernel's list of partitions held in ram. `fdisk -l` reads the partition table from the drive itself.
 
 ### Q82. What would be in out.txt?
 
