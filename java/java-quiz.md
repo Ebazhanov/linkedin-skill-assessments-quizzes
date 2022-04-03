@@ -1807,10 +1807,12 @@ List<String> dates = new ArrayList<String>();
 dates.replaceAll(replaceSlashes);
 ```
 
-- [ ] `UnaryOperator<String> replaceSlashes = date -> date.replace("/", "-");`
+- [x] `UnaryOperator<String> replaceSlashes = date -> date.replace("/", "-");`
 - [ ] `Function<String, String> replaceSlashes = dates -> dates.replace("-", "/");`
 - [ ] `Map<String, String> replaceSlashes = dates.replace("/", "-");`
 - [ ] `Consumer<Date> replaceSlashes = date -> date.replace("/", "-");`
+
+**Explanation:** `replaceAll` method for any List<T> only accepts UnaryOperatot<T> to pass every single element into it then put the result into the List<T> again.
 
 #### Q125. From which class do all other classes implicitly extend?
 
