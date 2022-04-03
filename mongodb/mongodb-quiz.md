@@ -552,3 +552,30 @@ Note: count() works with find(...) but length works with distinct
 - [x] document
 
 [MongoDB reference](https://www.mongodb.com/docs/manual/core/write-operations-atomicity/#:~:text=In%20MongoDB%2C%20a%20write%20operation,documents%20within%20a%20single%20document.)
+
+#### Q78. What should the priority of a member be in order to prevent it from becoming the primary in replica set?
+
+- [ ] 1
+- [ ] null
+- [x] 0
+- [ ] -1
+
+[MongoDB reference](https://www.mongodb.com/docs/manual/tutorial/configure-secondary-only-replica-set-member/#assign-priority-value-of-0)
+
+#### Q79. You need to add an index to the large name collection in your production database. You do not want to have disruption of service for your users and you can't afford to have a team to do the work during after hours. What should you do?
+
+- [ ] Use the reIndex() command to add the index quickly.
+- [x] Use the createIndex() command with the option background = true.
+- [ ] Use the createIndex() command.
+- [ ] Use the createIndex() command with the option parallel = true.
+
+[MongoDB reference](https://www.mongodb.com/docs/v4.0/reference/method/db.collection.createIndex/#options)
+
+#### Q80. When using aggregation $convert. which is not a parameter?
+
+- [ ] input
+- [x] output
+- [ ] to
+- [ ] onError
+
+[MongoDB reference](https://www.mongodb.com/docs/manual/reference/operator/aggregation/convert/#definition)
