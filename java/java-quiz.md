@@ -1812,7 +1812,7 @@ dates.replaceAll(replaceSlashes);
 - [ ] `Map<String, String> replaceSlashes = dates.replace("/", "-");`
 - [ ] `Consumer<Date> replaceSlashes = date -> date.replace("/", "-");`
 
-**Explanation:** `replaceAll` method for any List<T> only accepts UnaryOperatot<T> to pass every single element into it then put the result into the List<T> again.
+**Explanation:** `replaceAll` method for any List<T> only accepts UnaryOperator<T> to pass every single element into it then put the result into the List<T> again.
 
 #### Q125. From which class do all other classes implicitly extend?
 
