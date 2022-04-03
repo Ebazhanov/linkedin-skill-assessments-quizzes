@@ -644,31 +644,37 @@ if [[ $FILE == $GLOB ]] ;then
 
 ### Q78. What do you need to do before you can perform SSH passwordless logins?
 
-- [ ] Genetare RSA or DSA key pairs using ssh-keygen.
+- [X] Generate RSA or DSA key pairs using ssh-keygen.
 - [ ] Change the remote user's password.
 - [ ] Create a local SSL certificate.
 - [ ] Change the remote SSH configure to allow it.
 
+[Reference](https://phoenixnap.com/kb/setup-passwordless-ssh)
+
 ### Q79. When installing a downloaded package on the RedHat-based distribution manual using RPM, what may you have to do first?
 
 - [ ] Compile the package source code.
-- [ ] Download all dependencies and install them before installing the desired package.
+- [X] Download all dependencies and install them before installing the desired package.
 - [ ] Agree to an end-user license agreement.
 - [ ] provide the --resolve option so RPM resolves all packages dependency.
+
+**[Explanation:](https://access.redhat.com/discussions/2026743)** Rpm is not meant to resolve dependencies. It checks whether required software (versions) are installed and fails when software is missing and when the wrong version of software is installed.
 
 ### Q80. With GNU tools such as a GNU grep, awk, and sed, what is the difference between basic regular expressions (BREs) and extended regular expressions (EREs)?
 
 - [ ] EREs can match the groups.
 - [ ] EREs support occurrence operators.
 - [ ] ERE's support alternation.
-- [ ] only the syntax differs.
+- [X] only the syntax differs.
+
+[Reference](https://www.gnu.org/software/sed/manual/html_node/BRE-vs-ERE.html)
 
 ### Q81. What is the difference between reading the list of disk partitions from `/proc/partitions` and getting it using `fdisk -l`?
 
 - [ ] `/proc/partitions` represents the disk partition table more accurately than `fdisk -l`
 - [ ] `/proc/partitions` shows only mounted drives. `fdisk -l` shows all drivers.
 - [ ] There is no difference between the two, and both lists contain the same data.
-- [ ] `/proc/partitions` is the kernel's list of partitions held in ram. `fdisk -l` reads the partition table from the drive itself.
+- [x] `/proc/partitions` is the kernel's list of partitions held in ram. `fdisk -l` reads the partition table from the drive itself.
 
 ### Q82. What would be in out.txt?
 
