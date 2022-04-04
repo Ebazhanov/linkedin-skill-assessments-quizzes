@@ -8208,6 +8208,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Bazina",
+      "name": "Youssef Bazina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60438793?v=4",
+      "profile": "https://github.com/Bazina",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
