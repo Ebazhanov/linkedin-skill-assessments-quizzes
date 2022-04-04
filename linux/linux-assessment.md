@@ -644,7 +644,7 @@ if [[ $FILE == $GLOB ]] ;then
 
 ### Q78. What do you need to do before you can perform SSH passwordless logins?
 
-- [X] Generate RSA or DSA key pairs using ssh-keygen.
+- [x] Generate RSA or DSA key pairs using ssh-keygen.
 - [ ] Change the remote user's password.
 - [ ] Create a local SSL certificate.
 - [ ] Change the remote SSH configure to allow it.
@@ -654,7 +654,7 @@ if [[ $FILE == $GLOB ]] ;then
 ### Q79. When installing a downloaded package on the RedHat-based distribution manual using RPM, what may you have to do first?
 
 - [ ] Compile the package source code.
-- [X] Download all dependencies and install them before installing the desired package.
+- [x] Download all dependencies and install them before installing the desired package.
 - [ ] Agree to an end-user license agreement.
 - [ ] provide the --resolve option so RPM resolves all packages dependency.
 
@@ -665,7 +665,7 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] EREs can match the groups.
 - [ ] EREs support occurrence operators.
 - [ ] ERE's support alternation.
-- [X] only the syntax differs.
+- [x] only the syntax differs.
 
 [Reference](https://www.gnu.org/software/sed/manual/html_node/BRE-vs-ERE.html)
 

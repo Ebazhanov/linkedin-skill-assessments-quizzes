@@ -575,7 +575,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 [Reference](https://support.microsoft.com/en-us/office/animate-text-or-objects-305a1c94-83b1-4778-8df5-fcf7a9b7b7c6)
 
 #### Q75. What do the labels introduction and ProjectByMonth indicates?
-[image]()
+
 - [ ] links to next slide
 - [ ] hidden slides
 - [x] section names
