@@ -933,6 +933,8 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] custom
 - [ ] database
 
+[reference](https://www.extendoffice.com/documents/excel/3830-excel-only-allow-certain-values.html)
+
 ### Q115. Given the image below, what happens if you type "P" in cell A6?
 
 ![image](https://user-images.githubusercontent.com/1056999/159387628-9f960f22-9b50-4764-b4d9-31b5914b164a.png)
@@ -976,11 +978,33 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] On the Formulas tab, click Trace errors.
 - [ ] On the Formulas tab, click show formulas
 
-### Q120. You want to restrict the values entered in a cell to a specified set, such as hop, skip, jump. Which type of data validation should you use??
+### Q120. What is one way to center text in a cell?
+- [ ] Right-click the cell and select **Center** (Windows) or **Center Text** (Mac).
+- [ ] Seletct the cell and, on the **View** tab in the **Cells** section, click **Alignment** and select **Center** (Windows) or **Center Text** (Mac).
+- [x] Select the cell and, on the **Home** tab in the **Alignment** section, click **Center** (Windows) or **Center Text** (Mac).
+- [ ] Change the width of the cell until the **text** is centered.
 
-- [ ] database.
-- [x] list.
-- [ ] input range.
-- [ ] custom
+ [Reference](https://support.microsoft.com/en-us/office/align-text-in-a-cell-b2489a1f-6c89-45b7-9562-bbc287aa71ea)
+ 
+ ### Q121. Cell D1 contains the value 7.877. You want cell D1 to display the value as 7.9 but keep the original number in calculations. How can yu=ou accomplish this?
+- [ ] Click the **Decrease Decimal** button once.
+- [x] Click the **Decrease Decimal** button twice.
+- [ ] Use the ROUND() function.
+- [ ] In the **Cells** group on the **Home** tab, click **Format > Format Cells**. Then click the **Alignment** tab and select **Right Indent**.
 
-[reference](https://www.extendoffice.com/documents/excel/3830-excel-only-allow-certain-values.html)
+[Reference](https://support.microsoft.com/en-us/office/round-a-number-to-the-decimal-places-i-want-49b936f9-6904-425d-aa98-02ffb7f9a17b)
+
+### Q122. Given the image below, what happens if you type "P"in cell A6?
+![image](https://user-images.githubusercontent.com/35125965/161691848-4c888572-c649-457c-b7a0-58c64947ff7f.png)
+- [ ] The word "Perez" appears and immediately the active cell moves down.
+- [x] The word "Perez" appears and the active cell remains in Edit mode.
+- [ ] A pop-up list appears with the previous four names.
+- [ ] The letter "P" appears.
+
+### Q123. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select _____.
+- [ ] Insert Column
+- [ ] Paste Special
+- [x] Insert
+- [ ] Insert Column Left
+
+ [Reference](https://support.microsoft.com/en-us/office/insert-or-delete-rows-and-columns-6f40e6e4-85af-45e0-b39d-65dd504a3246#:~:text=To%20insert%20a%20single%20column,and%20then%20select%20Insert%20Columns.)
