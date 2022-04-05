@@ -915,10 +915,11 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 ### Q112. If a range name is used in a formula and the name is deleted, what happens to the formula?
 
 - [ ] The formula display a warning but the actual cell address is substituted for the deleted name.
-- [ ] The formula becomes invalid and displays a #NAME? error.
+- [x] The formula becomes invalid and displays a #NAME? error.
 - [ ] The actual cell addresses replace the original range name in the formula.
 - [ ] The formula becomes invalid and displays a #N/A error
 
+[Reference](https://bettersolutions.com/excel/named-ranges/name-manager-deleting.htm#:~:text=If%20you%20delete%20a%20named,named%20ranges%20will%20become%20invalid.)
 ### Q113. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select **\_**.
 
 - [ ] Insert Column
