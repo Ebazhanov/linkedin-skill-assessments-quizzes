@@ -1207,3 +1207,12 @@ add();
 - [ ] undefined
 
 ![image](https://user-images.githubusercontent.com/62549240/160531605-bf8790d5-5eb9-4291-a9bd-4232f2fd7b6e.png)
+
+#### Q105. Why might you use a React.ref?
+
+- [ ] to refer to another JS file
+- [ ] to bind the function
+- [ ] to call a function
+- [x] to directly access the DOM node
+
+[Reference](https://reactjs.org/docs/refs-and-the-dom.html)
