@@ -434,8 +434,8 @@ echo "No, mail is not set";
 
 ##### Q43. Assuming that `$first_name` and `$family_name` are valid strings, which statement is invalid?
 
-- [ ] `echo $first_name. ' '. $family_name;`
-- [x] `print $first_name, ' ', $family_name;`
+- [x] `echo $first_name. ' '. $family_name;`
+- [ ] `print $first_name, ' ', $family_name;`
 - [ ] `print $first_name. ' '. $family_name;`
 - [ ] `echo $first_name, ' ', $family_name;`
 
@@ -624,6 +624,8 @@ isset($_POST['submit'])
 - [ ] `__CLASS__`
 - [ ] `__TRAIT__`
 
+[Reference](https://www.php.net/manual/en/language.constants.magic.php)
+
 ##### Q57. What below script will print?
 
 ```php
@@ -669,34 +671,38 @@ Dog
 Dog
 ```
 
-- [ ] ```php
+- [ ] 
+```php
       $name = "Cat";
       $name = "Dog";
       echo $name . "<br/>";
       echo $$name . "<br/>";
       echo $Dog;
-      ```
-- [ ] ```php
+  ```
+- [ ] 
+```php
       $name = "Cat";
       $$name = "Dog";
       echo $name . "<br/>";
       echo $$name . "<br/>";
       echo $Dog;
-      ```
-- [x] ```php
+```
+- [x]
+```php
       $name = "Cat";
       $$name = "Dog";
       echo $name . "<br/>";
       echo $$name . "<br/>";
       echo $Cat;
-      ```
-- [ ] ```php
+```
+- [ ]
+```php
       $name = "Cat";
       $$name = "Dog";
       echo $name . "<br/>";
       echo $name . "<br/>";
       echo $Cat;
-      ```
+```
 
 ##### Q59. Imagine a web application, built following a MVC architecture, that contains a quiz and a button to score it, When the user presses the Score button, which component should handle the request?
 
@@ -707,94 +713,105 @@ Dog
 
 ##### Q60. Which script might be used to continue a user's search for music, across different webpages?
 
-- [ ] ```php
-        1 <?php
-        2 start_session();
-        3 $music = $_SESSION['music'];
-        4 ?>
-      ```
-- [ ] ```php
-        1 <?php
-        2    session_start();
-        3    $music = $SESSION['music'];
-        4 ?>
-      ```
-- [ ] ```php
-        1 <?php
-        2   start_session();
-        3   $music =$session['music'];
-        4 ?>
-      ```
-- [x] ```php
-        1 <?php
-        2  session_start();
-        3  $music = $_SESSION['music'];
-        4 ?>
-      ```
+- [ ] 
+```php
+        <?php
+           start_session();
+           $music = $_SESSION['music'];
+        ?>
+```
+- [ ] 
+```php
+        <?php
+           session_start();
+           $music = $SESSION['music'];
+        ?>
+```
+- [ ] 
+```php
+        <?php
+           start_session();
+           $music =$session['music'];
+        ?>
+```
+- [x] 
+```php
+        <?php
+           session_start();
+           $music = $_SESSION['music'];
+        ?>
+```
 
 ##### Q61. Which PHP script finds the earliest and latest dates from an array?
 
-- [x] ```php
-        1 <?php
-        2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
-        3 echo "Latest Date: ". max($dates)."\n";
-        4 echo "Earliest Date: ". min($dates)."\n";
-        5 ?>
-      ```
-- [ ] ```php
-        1 <?php
-        2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
-        3 echo "Latest Date: ". min($dates)."\n";
-        4 echo "Earliest Date: ". max($dates)."\n";
-        5 ?>
-      ```
-- [ ] ```php
-        1 <?php
-        2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
-        3 echo "Latest Date: ". ($dates)."\n";
-        4 echo "Earliest Date: ". ($dates)."\n";
-        5 ?>
-      ```
-- [ ] ```php
-        1 <?php
-        2 $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
-        3 echo "Latest Date: " max($dates)."\n";
-        4 echo "Earliest Date: " min($dates)."\n";
-        5 ?>
-      ```
+- [x] 
+```php
+        <?php
+        $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+        echo "Latest Date: ". max($dates)."\n";
+        echo "Earliest Date: ". min($dates)."\n";
+        ?>
+```
+- [ ] 
+```php
+        <?php
+        $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+        echo "Latest Date: ". min($dates)."\n";
+        echo "Earliest Date: ". max($dates)."\n";
+        ?>
+```
+- [ ] 
+```php
+        <?php
+        $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+        echo "Latest Date: ". ($dates)."\n";
+        echo "Earliest Date: ". ($dates)."\n";
+        ?>
+```
+- [ ] 
+```php
+        <?php
+        $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+        echo "Latest Date: " max($dates)."\n";
+        echo "Earliest Date: " min($dates)."\n";
+        ?>
+```
 
 ##### Q62. What is the resulting output of this for statement?
 
 ```php
-1  $kilometers = 1;
-2 for (;;) {
-3    if ($kilometers > 5) break;
-4       echo "$kilometers kilometers = ".$kilometers*0.62140. " miles. <br />";
-5    $kilometers++;
-6  }
+$kilometers = 1;
+for (;;) {
+    if ($kilometers > 5) break;
+       echo "$kilometers kilometers = ".$kilometers*0.62140. " miles. <br />";
+    $kilometers++;
+}
 ```
 
-- [x] ```php
-        1 kilometers = 0.6214 miles.
-        2 kilometers = 1.2428 miles.
-        3 kilometers = 1.8642 miles.
-        4 kilometers = 2.4856 miles.
-        5 kilometers = 3.107 miles.
-      ```
-- [ ] ```php
-        1 kilometers = 0.6214 miles.
-        2 kilometers = 1.2428 miles.
-        3 kilometers = 1.8642 miles
-        4 kilometers = 2.4856 miles.
-        5 kilometers = 3.107 miles.
-        6 kilometers = 3.7284 miles.
-      ```
-- [ ] ```php
-        2 kilometers = 1.2428 miles.
-        3 kilometers = 1.8642 miles.
-        4 kilometers = 2.4856 miles.
-        5 kilometers = 3.107 miles.
-      ```
+- [x] 
+```
+        kilometers = 0.6214 miles.
+        kilometers = 1.2428 miles.
+        kilometers = 1.8642 miles.
+        kilometers = 2.4856 miles.
+        kilometers = 3.107 miles.
+```
+- [ ] 
+```
+        kilometers = 0.6214 miles.
+        kilometers = 1.2428 miles.
+        kilometers = 1.8642 miles
+        kilometers = 2.4856 miles.
+        kilometers = 3.107 miles.
+        kilometers = 3.7284 miles.
+```
+- [ ] 
+```
+        kilometers = 1.2428 miles.
+        kilometers = 1.8642 miles.
+        kilometers = 2.4856 miles.
+        kilometers = 3.107 miles.
+```
 - [ ] FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2
 
 ##### Q63. In PHP 7, What is the correct way to import multiple classes from namespace in a single declaration ?!
@@ -833,9 +850,10 @@ Dog
 
 #### Q67. Describe what happens if you run this code in a testing environment:
 
-`1 $capitals = ['UK' => 'London', 'France' => 'Paris'];`
-`2 echo "$capitals['france'] is the capital of France.";`
-
+```php
+$capitals = ['UK' => 'London', 'France' => 'Paris'];
+echo "$capitals['france'] is the capital of France.";
+```
 - [ ] It displays: "Paris is the capital of France."
 - [ ] It displays: " is the capital of France."
 - [ ] It triggers a syntax error because the array keys on line 1 are in quotes.
@@ -868,9 +886,11 @@ Dog
 
 #### Q71. What is the output of this script?
 
-`1 $my_text = 'The quick grey [squirrel].';`
-`2 preg_match('#\[(.*?)\]#', $my_text, $match);`
-`3 print $match[1]."\n";`
+```php
+$my_text = 'The quick grey [squirrel].';
+preg_match('#\[(.*?)\]#', $my_text, $match);
+print $match[1]."\n";
+```
 
 - [x] squirrel
 - [ ] The quick grey [squirrel].
