@@ -898,3 +898,22 @@ Changes not staged for commit:
 - [ ] `git checkout origin`
 - [x] `git pull origin master`
 - [ ] `git push origin master`
+
+#### Q108. While pushing changes to a remote repository, you receive the following message. How do you resolve this issue?
+
+```bash
+error: failed to push some refs to 'https://github.com/myrepo/simple.git'
+hint: Updates were rejected because the remote contains work that you do not hint: not have locally.
+```
+
+- [ ] Use the --atomic option with the push command.
+- [x] Execute a pull, then resolve any merge conflicts and execute another push.
+- [ ] Execute a fetch, then execute another push.
+- [ ] Use the --force option with the push command.
+
+#### Q109. What does the -p option add to the output of the `git log` command?
+
+- [ ] It adds patch output that shows the differences introduced in each commit.
+- [ ] It adds patch output that shows a summary fisting modified files.
+- [ ] It adds padding to the output and displays a histogram showing the number of lines changed in each commit.
+- [ ] It adds the full commit message and notes associated with each commit.
