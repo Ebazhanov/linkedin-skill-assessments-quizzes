@@ -763,9 +763,7 @@ aws ecs create-service \
 
 #### Q84. You created a VPC that has a public subnet and a private subnet. A web server was placed in the public subnet and a database server was placed in the private subnet. The web server is able to connect to the database server; however, the database server at 10.0.1.2 is unable to get software updates. What is the cause of this issue?
 
-- [x] There is no NAT gateway for the private subnet, so the database server has no routes that give it public internet access to download software
-updates.
+- [x] There is no NAT gateway for the private subnet, so the database server has no routes that give it public internet access to download software updates.
 - [ ] The database server needs to be assigned a public address from the pool, or assigned an Elastic IP similar to the instance 10.0.0.2.
-- [ ] The router is not configured properly on the VPC. Add a route to route table for the VPC that routes all traffic for 0.0.0.0/0 to the ID of the
-internet gateway.
+- [ ] The router is not configured properly on the VPC. Add a route to route table for the VPC that routes all traffic for 0.0.0.0/0 to the ID of the internet gateway.
 - [ ] There is no egress-only internet gateway attached to the private subnet of the VPC.

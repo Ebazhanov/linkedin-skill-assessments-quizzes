@@ -482,7 +482,7 @@ Unload UserForm1
 End Sub
 ```
 
-- [x] 
+- [x]
 
 ```
 Private Sub CommandButton1_Click()
@@ -493,7 +493,7 @@ Loop
 End Sub
 ```
 
-- [ ] 
+- [ ]
 
 ```
 Private Sub CommandButton1_Click()
