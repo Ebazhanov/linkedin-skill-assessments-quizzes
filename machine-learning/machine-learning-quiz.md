@@ -356,6 +356,15 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] multiclass classification
 - [x] k-nearest neighbour
 
+#### Q48. Naive Bayes looks at each **\_** predictor and creates a probability that belongs in each class.
+
+- [ ] conditional
+- [ ] multiclass
+- [x] independent
+- [ ] binary
+
+[Reference](https://towardsdatascience.com/all-about-naive-bayes-8e13cef044cf)
+
 #### Q49. Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?
 
 - [ ] regression analysis
@@ -696,12 +705,3 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] the probability that certain conditions are met
 - [ ] the probability that, based on certain conditions, something will always be incorrect
 - [ ] the probability of something being the correct answer
-
-#### Q92. Naive Bayes looks at each **\_** predictor and creates a probability that belongs in each class.
-
-- [ ] conditional
-- [ ] multiclass
-- [x] independent
-- [ ] binary
-
-[Reference](https://towardsdatascience.com/all-about-naive-bayes-8e13cef044cf)
