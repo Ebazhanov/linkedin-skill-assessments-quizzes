@@ -883,3 +883,27 @@ for (int i=1; i<=10; i++)
 for (int i=10; i>=0; i--)
     printf("%d\n", i);
 ```
+
+
+#### Q57. You need  to determinate if a string variable is a substring of another string. Which standard C library function do you use?
+
+- [x] strstr(str1, str2);
+- [ ] substring(str1, str2);
+- [ ] strspn(str1, str2);
+- [ ] substr(str1, str2);
+
+
+#### Q58. How are static fuctions different from global functions?
+
+- [ ] Static functions must be declared in a separate header file.
+- [ ] Static functions always return the same value.
+- [x] Static functions can be accessed only in the file where they are declared.
+- [ ] Static functions must be declared in advance of being defined.
+
+
+#### Q58. How are static fuctions different from global functions?
+
+- [ ] unsigned  long
+- [ ] a pointer
+- [x] time_t
+- [ ] The time(0 function doesn't return a value.
