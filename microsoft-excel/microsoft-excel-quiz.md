@@ -1015,3 +1015,21 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] Insert Column Left
 
 [Reference](https://support.microsoft.com/en-us/office/insert-or-delete-rows-and-columns-6f40e6e4-85af-45e0-b39d-65dd504a3246#:~:text=To%20insert%20a%20single%20column,and%20then%20select%20Insert%20Columns.)
+
+#### Q124. Your transactions data set contains more than 10,000 rows. Some rows contain the same transaction. How would you remove the rows containing the identical transactions?
+
+- [ ] Filter the relevant column, right-click the column head, and select **Remove Duplicates**.
+- [ ] This is possible only with Power Query.
+- [x] With your cursors in the data range, on **Data** tab click **Remove Duplicates**.
+- [ ] This is possible only using formulas.
+
+[Reference](https://support.microsoft.com/en-us/office/filter-for-unique-values-or-remove-duplicate-values-ccf664b0-81d6-449b-bbe1-8daaec1e83c2)
+
+#### Q125. A colleague shared an excel file with you, and you want to display a worksheet that is hidden in it. How you can do that?
+
+- [ ] On the **Home** tab, click **Unhide**.
+- [ ] On the **Review** tab, click **Unhide Sheet**.
+- [ ] On the **View** tab, click **New Window**.
+- [x] Right-click on any worksheet tab and select **Unhide**
+
+[Reference](https://support.microsoft.com/en-us/office/hide-or-unhide-worksheets-69f2701a-21f5-4186-87d7-341a8cf53344)
