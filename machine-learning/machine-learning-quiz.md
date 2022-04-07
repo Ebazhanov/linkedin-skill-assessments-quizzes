@@ -356,13 +356,6 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] multiclass classification
 - [x] k-nearest neighbour
 
-#### Q48. The supervisor asks to create a machine learning system that will help your hr dep. classify job applicants into well-defined groups.What type of system are more likely to recommend?
-
-- [ ] deep learning artificial neural network that relies on petabytes of data
-- [ ] unsupervised machine learning system that clusters together the best candidates
-- [ ] Not recommend machine learning for this project
-- [x] supervised machine learning system that classifies applicants into existing groups // we do not need to classify best candidates we just need to classify job applicants in to existing categories
-
 #### Q49. Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?
 
 - [ ] regression analysis
@@ -377,7 +370,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] big data test set
 - [ ] data cluster
 
-#### Q51. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of fotos without them. What is the problem?
+#### Q51. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of photos without them. What is the problem?
 
 - [ ] You are overfitting the model to the data
 - [ ] You need a smaller training set
