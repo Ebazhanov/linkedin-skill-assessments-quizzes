@@ -493,3 +493,19 @@ fmt.Println("%f\n", price)
 - [x] Set GOOS to **darwin** and GOARCH to **arm64**.
 
 [documentation](https://pkg.go.dev/cmd/go#hdr-Build_constraints)
+
+#### Q41. What is the correct syntax ta start a goroutine that will `print Hello Gopher!`?
+
+- [ ] `go(fmt.Println("Hello Gopher!"))`
+- [ ] `go func() { fmt.Println("Hello Gopher!") }`
+- [ ] `go fmt.Println("Hello Gopher!")`
+- [ ] `Go fmt.Println("Hello Gopher!")`
+
+#### Q42. If you iterate over a map in a for range loop, in which order will the key:value pairs be accessed?
+
+- [x] in pseudo-random order that cannot be predicted
+- [ ] in reverse order of how they were added, last in first out
+- [ ] sorted by key in ascending order
+- [ ] in the order they were added, first in first out
+
+[Reference](https://go.dev/ref/spec#:~:text=The%20iteration%20order%20over%20maps%20is%20not%20specified)

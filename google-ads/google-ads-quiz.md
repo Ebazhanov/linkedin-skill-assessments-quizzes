@@ -293,3 +293,26 @@
 - [ ] conversions; ROI
 - [ ] clickthrough rate; impressions
 - [ ] ROI; conversions
+
+#### Q43. Which report would most accurately show how far away users are when clicking your ads in relation to the location of your business?
+
+- [ ] dimension report
+- [ ] geographic report
+- [x] distance report
+- [ ] user location report
+
+[Reference](https://support.google.com/google-ads/answer/2453994)
+
+#### Q44. If your average daily budge is $20, what is the maximum amount Google Ads may charge you on a single day?
+
+- [ ] $22
+- [ ] $20
+- [ ] $40
+- [ ] $36
+
+#### Q45. Ursula owns a yoga studio in New York City (NYC). A customer performs several searches in the following order: "yoga studio near me", "best yoga NYC", "yoga free trial NYC". What attribution model would assign 100% of the credit for the conversion to _yoga free trial NYC_?
+
+- [ ] last position
+- [ ] last search
+- [ ] linear
+- [ ] last click

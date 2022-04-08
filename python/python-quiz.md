@@ -1745,3 +1745,36 @@ Hello, I am from France
 - [ ] `[x for x in titanic['Survived'] if x == 1]`
 - [ ] `len(titanic["Survived"])`
 - [ ] `sum(titanic['Survived']==0)`
+
+#### Q130. How would you create a list of tuples matching these lists of characters and actors?
+
+```python
+characters = ["Iron Man", "Spider Man", "Captain America"]
+actors = ["Downey", "Holland", "Evans"]
+
+# example output : [("IronMan", "Downey"), ("Spider Man", "Holland"), ("Captain America", "Evans")]
+```
+
+- [ ] `[(x,y)] for x in characters for y in actors]`
+- [ ] `zip(characters, actors)`
+- [ ] 
+
+```
+d = {}
+
+for x in range(1,len(characters)):
+    d[x] = actors [x]
+```
+
+- [ ] `{x:y for x in characters for y in actors}`
+
+#### Q131. What will this statement return?
+
+```python
+{x : x*x for x in range(1,100)}
+```
+
+- [ ] a dictionary with x as a key, and x squared as its value; from 1 to 100
+- [ ] a dictionary with x as a key, and x squared as its value; from 1 to 99
+- [ ] a set of tuples, consisting of (x,x squared); from 1 to 99
+- [ ] a list with all numbers squared from 1 to 99
