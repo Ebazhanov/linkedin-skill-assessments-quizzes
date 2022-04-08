@@ -919,3 +919,49 @@ filec.txt
 ```
 
 The caret (`^`) symbol here negates matches inside the bracket. [Reference](https://tldp.org/LDP/abs/html/globbingref.html)
+
+#### Q75. What is the output of this command sequence?
+
+```bash
+cat <<EOF
+------------------------
+   This is line 1.
+   This is line 2.
+   This is line 3.
+------------------------
+EOF
+```
+
+- [ ] A
+
+```bash
+This is line 1.
+This is line 2.
+This is line 3.
+```
+
+- [ ] B
+
+```bash
+------------------------This is line 1.This is line 2.This is line 3.------------------------
+```
+
+- [x] C
+
+```bash
+------------------------
+   This is line 1.
+   This is line 2.
+   This is line 3.
+------------------------
+```
+
+- [ ] D
+
+```bash
+------------------------
+This is line 1.
+This is line 2.
+This is line 3.
+------------------------
+```
