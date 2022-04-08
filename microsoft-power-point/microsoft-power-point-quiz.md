@@ -601,14 +601,14 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 #### Q78. In a presentation about voter turnout, you are illustrating various data with charts. Which type of information would you present in a pie chart?
 
-- [ ] the decline of voter turnout by county 
-- [ ] trends in voter turnout over the part 10 years 
-- [ ] what percentage of the whole population voted 
+- [ ] the decline of voter turnout by county
+- [ ] trends in voter turnout over the part 10 years
+- [ ] what percentage of the whole population voted
 - [ ] how many people voted in various geographic regions on a map
 
 #### Q79. A few lines of text are overflowing the placeholder on your slide. How can you fix it on your slide?
 
-![Q79](Q79.png "Q79")
+![Q79](Q79.png)
 
 - [ ] Delete the overflowing text.
 - [ ] Select **Stop Fitting Text to This Placeholder**.
