@@ -1095,10 +1095,10 @@ D. border-top-radius: 10px;
 
 #### Q88. How can you create a semi-transparent background color?
 
-- [ ] background-color: hsl(0, 0, 0, 0.5);
-- [ ] background-color: rgbx(0, 0, 0, 0.5);
-- [x] background-color: rgba(0, 0, 0, 0.5);
-- [ ] background-color: rgba(0, 0, 0, 1);
+- [ ] `background-color: hsl(0, 0, 0, 0.5);`
+- [ ] `background-color: rgbx(0, 0, 0, 0.5);`
+- [x] `background-color: rgba(0, 0, 0, 0.5);`
+- [ ] `background-color: rgba(0, 0, 0, 1);`
 
 `rgba` is a funtion in css. rgba stands for red, green, blue and alpha. The value of alpha can be between 0 and 1 both inclusive with 0 being fully transparent and 1 being fully opaque.
 
