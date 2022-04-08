@@ -872,3 +872,50 @@ echo 'Hello, $(whoami)!'
 - [ ] that the current working directory is the root of the file system
 - [ ] that there are updates for the system available
 - [ ] that the user is unprivileged
+
+#### Q74. What will be the output of this command?
+
+```bash
+$ ls -l
+file10.txt
+file1.txt
+fileabc.txt
+filea.txt
+fileb.txt
+filec.txt
+$ ls -l file[^abc]*.txt
+```
+
+- [x] A
+
+```bash
+file1.txt
+file10.txt
+```
+
+- [ ] B
+
+```bash
+file10.txt
+file1.txt
+fileabc.txt
+filea.txt
+fileb.txt
+filec.txt
+```
+
+- [ ] C
+
+```bash
+fileabc.txt filea.txt fileb.txt filec.txt
+```
+
+- [ ] D
+
+```bash
+filea.txt
+fileb.txt
+filec.txt
+```
+
+The caret (`^`) symbol here negates matches inside the bracket. [Reference](https://tldp.org/LDP/abs/html/globbingref.html)
