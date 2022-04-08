@@ -706,8 +706,8 @@ textfile2.txt
 
 ----------
 
-<code>shopt -s extglob
-rm !(*gif|*jpg)</code>
+`shopt -s extglob
+rm !(*gif|*jpg)`
 ```
 
 - [ ] a
