@@ -508,11 +508,11 @@ This is a confusing question and there can be an arguments for both the second a
 
 [Source: MDN Web Docs pre](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)
 
-#### Q32. What does the `<label>` tag do?
+#### Q32. What does the `<label>` element do?
 
 - [ ] It labels webpages with important information.
-- [ ] It visually associates a text label with an interface element.
-- [ ] It visually labels from fields.
+- [ ] It creates an ID for a corresponding input element.
+- [ ] It overrides the name attribute's value on a child input element.
 - [x] It programmatically associates a text label with an interface element.
 
 #### Q33. To get a link to open in a new window or tab, use the **\_** attribute
