@@ -928,7 +928,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] Insert Column Left
 - [x] Insert
 
-#### Q114. You want to restric the values entered in a cell to a speified set, such as Hop, Skip, Jump. Which type of data validation should you use?
+#### Q114. You want to restrict the values entered in a cell to a specified set, such as Hop, Skip, Jump. Which type of data validation should you use?
 
 - [ ] input range
 - [x] list

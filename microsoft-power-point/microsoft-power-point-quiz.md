@@ -591,3 +591,26 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] Picture
 
 [Reference](https://support.microsoft.com/en-us/office/insert-excel-data-in-powerpoint-19767daf-672c-43bc-bda1-330b242c57c9)
+
+#### Q77. You created a photo album with transitions and want to send it to friends, but the file size is too large for email. How can you use one command to fix this?
+
+- [ ] Click **Export** in Backstage view and embed the presentation in an email.
+- [ ] Compress all the pictures to the **Email (96 ppi) resolution**.
+- [ ] Use the Share feature in Backstage view and petty email to automatically compress the pictures.
+- [ ] Use the Share feature in Backstage view to create a pdf to send as an attachment.
+
+#### Q78. In a presentation about voter turnout, you are illustrating various data with charts. Which type of information would you present in a pie chart?
+
+- [ ] the decline of voter turnout by county 
+- [ ] trends in voter turnout over the part 10 years 
+- [ ] what percentage of the whole population voted 
+- [ ] how many people voted in various geographic regions on a map
+
+#### Q79. A few lines of text are overflowing the placeholder on your slide. How can you fix it on your slide?
+
+![Q79](Q79.png "Q79")
+
+- [ ] Delete the overflowing text.
+- [ ] Select **Stop Fitting Text to This Placeholder**.
+- [x] Select **Autofit Text to Placeholder**.
+- [ ] Click **Collapse**.
