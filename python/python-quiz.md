@@ -610,12 +610,12 @@ fruit_info = {
 
 **Explanation** - `!=` is equivalent to **not equal to** in python
 
-#### Q42. What does a class's `init()` method do?
+#### Q42. What does a class's `__init__()` method do?
 
-- [ ] The `__init__` method makes classes aware of each other if more than one class is defined in a single code file.
-- [ ] The`__init__` method is included to preserve backwards compatibility from Python 3 to Python 2, but no longer needs to be used in Python 3.
-- [x] The `__init__` method is a constructor method that is called automatically whenever a new object is created from a class. It sets the initial state of a new object.
-- [ ] The `__init__` method initializes any imports you may have included at the top of your file.
+- [ ] It makes classes aware of each other if more than one class is defined in a single code file.
+- [ ] It is included to preserve backwards compatibility from Python 3 to Python 2, but no longer needs to be used in Python 3.
+- [x] It is a method that acts as a constructor and is called automatically whenever a new object is created from a class. It sets the initial state of a new object.
+- [ ] It initializes any imports you may have included at the top of your file.
 
 **Example:**
 
