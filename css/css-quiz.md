@@ -1586,7 +1586,7 @@ D. font-size: 20px
 }
 ```
 
-#### Q113. Which missing line of code would place the text on top of the image? Which missing line of code would place the text on top of the image?
+#### Q113. Which missing line of code would place the text on top of the image?
 
 ```js
 <div class="container">
@@ -1604,26 +1604,10 @@ img {
 }
 ```
 
-```js
-<div class="container">
-  <img src="grumpy-cat.gif" />
-  <p>The z-index property is cool!</p>
-</div>
-```
-
-```css
-img {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  // Missing line
-}
-```
-
-- [ ] `z-index: 1;z-index: 1;`
-- [ ] `z-index: -1;z-index: -1;`
-- [ ] `z-index: 0;z-index: 0;`
-- [ ] `z-index: true;z-index: true;`
+- [ ] `z-index: 1;`
+- [x] `z-index: -1;`
+- [ ] `z-index: 0;`
+- [ ] `z-index: true;`
 
 #### Q114. To make the font size of an element one size smaller than the font size of the element's container, which style property would you apply?
 
