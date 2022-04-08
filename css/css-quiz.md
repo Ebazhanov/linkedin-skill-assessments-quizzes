@@ -1707,8 +1707,8 @@ background-tile: none;
 
 #### Q118. Which style rule would you apply to set the background image to display the contents of the wood.png file?
 
-- [ ] `background-image: file(wood.png);`
-- [x] `background-image: url(wood.png);`
+- [ ] `background-image: file('wood.png');`
+- [x] `background-image: url('wood.png');`
 - [ ] `background-image: wood.png;`
 - [ ] `image: wood.png`
 
