@@ -1270,7 +1270,7 @@ As Steve Krug once said, happy talk must die.
 
 ![Image of footer](images/ss-8.png?raw=true)
 
-- [ ] A
+- [x] A
 
 ```markdown
 <h4>Mailing Address</h4>
@@ -1281,7 +1281,7 @@ As Steve Krug once said, happy talk must die.
 </address>
 ```
 
-- [x] B
+- [ ] B
 
 ```markdown
 <h4><strong>Mailing Address</h4>
