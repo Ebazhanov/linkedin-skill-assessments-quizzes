@@ -1181,10 +1181,10 @@ This is a confusing question and there can be an arguments for both the second a
 
 #### Q74. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
 
-- [x] `<a href="tel: 802-555-1212">Call me</a>`
+- [x] `<a href="tel:802-555-1212">Call me</a>`
 - [ ] `<a href="phone">802-555-1212</a>`
 - [ ] `<a href="tel">802-555-1212</a>`
-- [ ] `<a href="phone: 802-555-1212">Call me</a>`
+- [ ] `<a href="phone:802-555-1212">Call me</a>`
 
 #### Q75. What is the purpose of the `class` attribute?
 
