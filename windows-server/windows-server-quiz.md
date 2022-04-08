@@ -535,3 +535,10 @@
 - [ ] backup
 - [ ] warm
 - [ ] cold
+
+#### Q65. You currently have a Windows Server 2008 R2 print server named PRT01. You deploy a Windows Server 2012 R2 print server named PRT02. How do you begin the migration process?
+
+- [ ] Run the `printbrm -b` command on PRT02
+- [ ] Run the `printbrm -b` command on PRT01
+- [ ] Run the `printbrm -r` command on PRT01
+- [ ] Run the `printbrm -q` command on PRT02
