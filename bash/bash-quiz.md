@@ -965,3 +965,22 @@ This is line 2.
 This is line 3.
 ------------------------
 ```
+
+#### Q76. What would be in out.txt?
+
+```bash
+#!/bin/bash
+
+echo 123446789 > out. txt
+exec 3<> out. txt
+read -n 4 <&3
+echo -n 5 >&3
+exec 3>&-
+```
+
+- [ ] 123446789
+- [ ] the hyphen symbol (-)
+- [x] 123456789
+- [ ] the number 5, which is written to the file using echo
+
+See [I/O Redirection](https://tldp.org/LDP/abs/html/io-redirection.html)
