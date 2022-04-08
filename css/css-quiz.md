@@ -349,12 +349,12 @@ p {
 - [ ] The rem unit is relative to the font-size of the containing (parent) element.
 - [x] The rem unit is relative to the font-size of the root element of the page.
 
-#### Q26.Which of these would give a block element rounded corners?
+#### Q26. Which choice would give a block element rounded corners?
 
-- [ ] corner-curve: 10px
-- [ ] border-corner: 10px
-- [x] border-radius: 10px
-- [ ] corner-radius: 10px
+- [ ] `corner-radius: 10px;`
+- [ ] `border-corner: 10px;`
+- [ ] `corner-curve: 10px;`
+- [x] `border-radius: 10px;`
 
 [Official doc:](https://www.w3schools.com/css/css3_borders.asp)
 
@@ -1861,10 +1861,3 @@ p + section {
 - [ ] `class="cellar-door"`
 
 [Reference](https://www.w3schools.com/html/html_classes.asp)
-
-#### Q125. Which choice would give a block element rounded corners?
-
-- [ ] `corner-radius: 10px;`
-- [ ] `border-corner: 10px;`
-- [ ] `corner-curve: 10px;`
-- [x] `border-radius: 10px;`
