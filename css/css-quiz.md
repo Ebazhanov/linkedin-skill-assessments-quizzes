@@ -1385,7 +1385,7 @@ h2 ~ p {
 - [ ] P1, P3, and P4P1, P3, and P4
 - [x] P3 and P4
 
-### Q104. Referring to the HTML markup and CSS example below, which element(s) will be targeted?
+#### Q104. Referring to the HTML markup and CSS example below, which element(s) will be targeted?
 
 ```css
 p:first-of-type:first-letter {
@@ -1454,7 +1454,7 @@ p:first-of-type:first-letter {
 [ ] `background-color: linear-gradient(#648880, #293f50);`
 ```
 
-### Q108. You want to add a background circle behind an icon. Which style declaration is correct?
+#### Q108. You want to add a background circle behind an icon. Which style declaration is correct?
 
 ```css
 [] .glyphicon-bgcircle {
@@ -1497,7 +1497,7 @@ p:first-of-type:first-letter {
 - [ ] The first value is the first choice, and must be followed by at least one alternative option before adding the generic font.
 - [ ] The first value is the first choice, followed by a maximum of three alternatives.
 
-### Q110. Which items are valid values for the font-size property?
+#### Q110. Which items are valid values for the font-size property?
 
 ```css
 A. font-size: xsmall
