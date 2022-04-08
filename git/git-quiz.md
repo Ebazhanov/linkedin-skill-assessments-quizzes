@@ -917,3 +917,66 @@ hint: Updates were rejected because the remote contains work that you do not hin
 - [ ] It adds patch output that shows a summary fisting modified files.
 - [ ] It adds padding to the output and displays a histogram showing the number of lines changed in each commit.
 - [ ] It adds the full commit message and notes associated with each commit.
+
+#### Q110. What is the staging area or index?
+
+- [ ] an area that stores commits prior to them being pushed to the remote repository
+- [ ] an area containing stash entries that can applied to the working files
+- [ ] an area where changes from a branch in the remote repository are stored before they are applied to a local branch
+- [ ] an area that stores information about changes that will be included in the next commit
+
+#### Q111. What command would you use to stage changes to the index strictly for properties files in the current directory?
+
+- [x] git add *.properties
+- [ ] git add %.properties
+- [ ] git add .properties
+- [ ] git add properties
+
+#### Q112. What are untracked files?
+
+- [ ] files in the local repository that have not been merged into the master branch
+- [ ] staged files that Git does not know about because the have not been committed
+- [x] files in the working directory that Git does not know about because the have not been staged or committed
+- [ ] files in the remote repository that Git does not know about because they have not been tagged
+
+#### Q113. What command takes changes from the master branch on the remote repository origin and merges them to the local checked-out branch?
+
+- [ ] git checkout origin
+- [ ] git commit -u origin
+- [x] git pull origin master
+- [ ] git push origin master
+
+#### Q114. What type of Git hook could be used to validate that a commit message contains a ticket number?
+
+- [ ] pre-commit
+- [x] commit-msg
+- [ ] applypatch-msg
+- [ ] prepare-commit-msg
+
+#### Q115. What is the difference between git stash pop and git stash apply?
+
+- [ ] git stash pop pushes the topmost commit to the current branch, while git stash apply caches the last commit in the current branch.
+- [x] git stash pop applies the topmost entry in the stash to the working files and removes it from the stash, while git stash apply applies the topmost entry in the stash to the working files but leaves it in the stash.
+- [ ] git stash pop merges the topmost commit to the current branch, while git stash apply merges the last commit in the current branch.
+- [ ] git stash pop applies the topmost entry in the stash to the working files but leaves it in the stash, while git stash apply applies the topmost entry in the stash to the working files and removes it from the stash.
+
+#### Q116. After making some major changes to your code, you are a little nervous about committing. What command would you use to review the commit prior to making it?
+
+- [ ] git commit --verify
+- [ ] git notes show
+- [ ] git commit preview
+- [x] git commit --dry-run
+
+#### Q117. How would you create a custom shortcut or command across your git environment?
+
+- [ ] Run git hotfix with the shortcut name.
+- [ ] Assign a shortcut or command using git options file.
+- [ ] Use the git custom-key command.
+- [x] Create an alias usin the git config command.
+
+#### Q118. What statement best describes Git's concept of HEAD?
+
+- [ ] a pointer to the most recently changed file in the stage/index
+- [ ] a pointer to the master branch
+- [ ] a pointer to the most recent commit in the currently checked-out branch
+- [ ] a pointer to where the repository is stored in memory

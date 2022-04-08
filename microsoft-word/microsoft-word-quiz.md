@@ -512,7 +512,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 
 [Reference link](https://support.microsoft.com/en-us/topic/reduce-the-file-size-of-a-picture-in-microsoft-office-8db7211c-d958-457c-babd-194109eb9535)
 
-#### Q65. Before you send a document to an external client, you must remove personal information--including document author names, comments, and hidden text--from the doc. What tool can help you locate and clean up these details??
+#### Q65. Before you send a document to an external client, you must remove personal information--including document author names, comments, and hidden text--from the doc. What tool can help you locate and clean up these details?
 
 - [ ] Accessibility Checker
 - [ ] Check Compatibility

@@ -472,7 +472,7 @@ autopsy is for forensic analysis
 - [ ] ISO/IEC 27001
 - [ ] COBIT
 
-#### Q62. NIST issued a revision to SP 800-37 in December 2018. It provides a disciplined, structured, and flexible process for managing security and privacy risk. Which type of document is SP 800-37??
+#### Q62. NIST issued a revision to SP 800-37 in December 2018. It provides a disciplined, structured, and flexible process for managing security and privacy risk. Which type of document is SP 800-37?
 
 - [x] a risk management framework
 - [ ] a guide to risk assessments
