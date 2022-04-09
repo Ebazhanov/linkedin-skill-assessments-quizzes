@@ -636,7 +636,7 @@ model=Planet
 - [x] reverse()
 - [ ] resolve()
 
-  #### Q69. Which is Fictional HTTP request method?
+#### Q69. Which is Fictional HTTP request method?
 
 - [ ] POST
 - [ ] PUT
