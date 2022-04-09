@@ -1415,3 +1415,49 @@ $('#element')
 
 1. [Source: .children() | jQuery API Documentation](https://api.jquery.com/children/)
 2. [Source: .contents() | jQuery API Documentation](https://api.jquery.com/contents/)
+
+#### Q73. If you JavaScript project involves a lot of DOM manipulation, but no AJAX or animation, which version of jQuery should you use?
+
+- [ ] jQuery 3 compressed
+- [ ] jQuery 3 slim
+- [ ] jQuery 2
+- [x] None of these - jQuery requires AJAX
+
+#### Q74. The `.ready()` function is one of the most basic parts of jQuery, but jQuery also provides a mechanism for executing code when both one or more Promises have resolved and the DOM is ready. Which code snippet accomplishes this?
+
+[ ] - A
+```js
+$(function({
+    getData : $.get('http://httpbin.org/get'),
+    delayedData : $.get('http://httpbin.org/delay/3')
+})  {
+    //DOM is ready, getData and delayedData are available
+});
+```
+[ ] - B
+```js
+$(
+    $.get('http://httpbin.org/get'),
+    $.get('http://httpbin.org/delay/3')
+ ).then(function(getData, delayedData)  {
+    //DOM is ready, getData and delayedData are available
+});
+```
+[ ] - C
+```js
+$.when(
+    $.get('http://httpbin.org/get'),
+    $.get('http://httpbin.org/delay/3')
+ ).then(function(getData, delayedData)  {
+    //DOM is ready, getData and delayedData are available
+});
+```
+[x] - D
+```js
+$.ready(
+    $.get('http://httpbin.org/get'),
+    $.get('http://httpbin.org/delay/3')
+ ).then(function(getData, delayedData)  {
+    //DOM is ready, getData and delayedData are available
+});
+```
