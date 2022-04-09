@@ -519,7 +519,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 #### Q68. The picture on the left is the original image. The image on the right is smaller, but the flowers are the same size and part of the picture has been removed. What method was used to format this picture?
 
-![image](https://user-images.githubusercontent.com/33814760/154321708-f9d81898-9c39-4495-87c9-861197a67bad.png)
+![images](images/Q68.png)
 
 - [ ] changing the width and height with aspect ration locked
 - [ ] drapping a corner sizing handle
@@ -547,7 +547,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] The next slide appears.
 - [ ] Nothing happens.
 
-#### Q72. When you save a presentation with a .potx file extension, which type of Powerpoint file is created?
+#### Q72. When you save a presentation with a `.potx` file extension, which type of Powerpoint file is created?
 
 - [ ] macro-eanbled presentation
 - [x] template
@@ -608,9 +608,32 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 #### Q79. A few lines of text are overflowing the placeholder on your slide. How can you fix it on your slide?
 
-![Q79](Q79.png)
+![Q79](images/Q79.png)
 
 - [ ] Delete the overflowing text.
 - [ ] Select **Stop Fitting Text to This Placeholder**.
 - [x] Select **Autofit Text to Placeholder**.
 - [ ] Click **Collapse**.
+
+#### Q80. If you want to create an organizational chart that illustrates the reporting relationships within the organization, which SmartArt category would you use?
+
+- [x] Hierarchy
+- [ ] Matrix
+- [ ] Pyramid
+- [ ] Relationship
+
+#### Q81. What do the labels Introduction and ProjectsByMonth indicate?
+
+![Q81](images/Q81.png)
+
+- [x] selection names
+- [ ] layouts
+- [ ] hidden slides
+- [ ] links to the next slide
+
+#### Q82. There are objects and text hidden behind an image on your slide. With the image selected, what could you adjust to make the objects and text appear "through" the image?
+
+- [ ] Compress Picture
+- [ ] Transparency
+- [ ] Corrections
+- [ ] Artistic Effects
