@@ -8288,6 +8288,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "KAUTH",
+      "name": "KAUTH",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15343142?v=4",
+      "profile": "https://github.com/KAUTH",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
