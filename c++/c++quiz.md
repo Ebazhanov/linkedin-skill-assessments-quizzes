@@ -1287,3 +1287,14 @@ class my_class{
 - [ ] `namespace`
 
 [Reference](https://en.cppreference.com/w/c/language/struct)
+
+#### Q79. Given these records in a map, how will you update the value for the key "Sinead" to 22?
+
+```
+std::map<std::string, int> marks {{"Sinead", 9}, {"Alex", 8}, {"Emilie", 7}, };
+```
+
+- [x] `marks["Sinead"] = 22`
+- [ ] `marks["Sinead"].22`
+- [ ] `marks["Sinead"] -> 22`
+- [ ] `marks["Sinead"].value = 22`
