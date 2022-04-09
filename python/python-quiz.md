@@ -1781,7 +1781,7 @@ for x in range(1,len(characters)):
 
 #### Q132. Jaccard Similarity is a formula that tells you how similar two sets are. It is defined as the cardinality of the intersection divided by the cardinality of the union. Which choice is an accurate implementation in Python?
 
-<img src="http://www.sciweavers.org/tex2img.php?eq=J%28A%2CB%29%20%3D%20%7B%7B%7CA%20%5Ccap%20B%7C%7D%5Cover%7B%7CA%20%5Ccup%20B%7C%7D%7D&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="J(A,B) = {{|A \cap B|}\over{|A \cup B|}}" width="131" height="46" />
+![Q132](images/Q132.png)
 
 - [ ] `def jaccard(a, b): return len (a | b) / len (a & b)`
 - [x] `def jaccard(a, b): return len (a & b) / len (a | b)`
