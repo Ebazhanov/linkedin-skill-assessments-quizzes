@@ -927,10 +927,10 @@ hint: Updates were rejected because the remote contains work that you do not hin
 
 #### Q111. What command would you use to stage changes to the index strictly for properties files in the current directory?
 
-- [x] git add *.properties
-- [ ] git add %.properties
-- [ ] git add .properties
-- [ ] git add properties
+- [x] `git add *.properties`
+- [ ] `git add %.properties`
+- [ ] `git add .properties`
+- [ ] `git add properties`
 
 #### Q112. What are untracked files?
 
