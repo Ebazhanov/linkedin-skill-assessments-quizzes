@@ -1839,8 +1839,8 @@ p + section {
   <h1 _____> Cellar Door</h1>
 ```
 
-- [x] `class="text-shadow"`
-- [ ] `id="cellar-door`
+- [ ] `class="text-shadow"`
+- [x] `id="cellar-door"`
 - [ ] `id="text-shadow"`
 - [ ] `class="cellar-door"`
 
