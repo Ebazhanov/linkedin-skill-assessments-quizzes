@@ -709,3 +709,10 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] extened regular expressions.
 - [ ] debug traps.
 - [x] object orientation.
+
+### Q86. What is the first step to integrate extended globs into your command-line workflow?
+
+- [ ] Nothing, extended globs are already integrated into the shell and turned on automatically.
+- [x] Make extended globs persistent by adding `shopt -s extglob` to a shell startup file.
+- [ ] Type `shopt -s extglob` into a shell one time to set the option on permanently.
+- [ ] Make extended globs persistent by adding `shopt +s extglob` to a shell startup file.
