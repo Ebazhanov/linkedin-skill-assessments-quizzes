@@ -1291,7 +1291,7 @@ class my_class{
 #### Q79. Given these records in a map, how will you update the value for the key "Sinead" to 22?
 
 ```
-std::map<std::string, int> marks {{"Sinead", 9}, {"Alex", 8}, {"Emilie", 7} };
+{%  std::map<std::string, int> marks {{"Sinead", 9}, {"Alex", 8}, {"Emilie", 7} }; %}
 ```
 
 - [x] `marks["Sinead"] = 22`
