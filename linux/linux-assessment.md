@@ -723,3 +723,10 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] They work only on files.
 - [ ] They provide inheritance for group ownership.
 - [ ] They grant access to the directory on which they are set.
+
+#### Q88. The object that `systemd` uses to manage services is called a \_ file.
+
+- [x] unit
+- [ ] service
+- [ ] single
+- [ ] process
