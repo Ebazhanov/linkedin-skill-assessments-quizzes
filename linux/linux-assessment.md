@@ -716,3 +716,10 @@ if [[ $FILE == $GLOB ]] ;then
 - [x] Make extended globs persistent by adding `shopt -s extglob` to a shell startup file.
 - [ ] Type `shopt -s extglob` into a shell one time to set the option on permanently.
 - [ ] Make extended globs persistent by adding `shopt +s extglob` to a shell startup file.
+
+#### Q87. Which statement about default ACLs is true?
+
+- [ ] They provide inheritance for user and group permissions.
+- [ ] They work only on files.
+- [ ] They provide inheritance for group ownership.
+- [ ] They grant access to the directory on which they are set.
