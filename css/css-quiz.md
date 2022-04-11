@@ -1834,13 +1834,16 @@ p + section {
     #cellar-door {
       box-shadow: 3px 5px 10px #000;
     }
+    .text-shadow {
+      text-shadow: 3px 5px 10px #000;
+    }
   </style>
 
   <h1 _____> Cellar Door</h1>
 ```
 
 - [x] `class="text-shadow"`
-- [ ] `id="cellar-door`
+- [ ] `id="cellar-door"`
 - [ ] `id="text-shadow"`
 - [ ] `class="cellar-door"`
 
