@@ -568,10 +568,10 @@ git checkout -b beta-test
 
 #### Q67. After modifying some existing files in a repository, you decide to discard the changes. What command can you use?
 
-- [ ] git restore
+- [x] git restore
 - [ ] git undo
 - [ ] git clean
-- [x] git checkout
+- [ ] git checkout
 
 #### Q68. After starting to merge a feature branch into your master branch, you encounter a merge conflict and decide you do not want to perform the merge. How can you stop the merge and restore to the pre-merge state?
 
