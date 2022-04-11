@@ -635,9 +635,7 @@ autopsy is for forensic analysis
 
 [Explanation](https://online.maryville.edu/blog/5-important-regulations-in-united-states-healthcare/)
 
-#### Q84. Duplicate
-
-#### Q85. What is the difference between DevOps and DevSecOps?
+#### Q84. What is the difference between DevOps and DevSecOps?
 
 - [x] DevSecOps requires the inclusion of cybersecurity engineers in the CI/CD process of DevOps.
 - [ ] DevSecOps slows down the CI/CD process of DevOps.
@@ -646,7 +644,7 @@ autopsy is for forensic analysis
 
 [Explanation](https://www.linkedin.com/learning/devops-foundations-devsecops/introduction-to-devsecops)
 
-#### Q86. When does static application security testing require access to source code?
+#### Q85. When does static application security testing require access to source code?
 
 - [x] always
 - [ ] only when assessing regulatory compliance
@@ -655,7 +653,7 @@ autopsy is for forensic analysis
 
 [Explanation:](https://www.synopsys.com/glossary/what-is-sast.html)
 
-#### Q87. Your organization service customer orders with a custom ordering system developed in-hose. You are responsible for recommending a cloud model to meet the following requirements:
+#### Q86. Your organization service customer orders with a custom ordering system developed in-hose. You are responsible for recommending a cloud model to meet the following requirements:
 
     Control of security required for regulatory compliance
     Legacy application and database support
@@ -668,14 +666,14 @@ Which cloud model is the best option for these requirements?
 - [x] hybrid cloud
 - [ ] private cloud
 
-#### Q88. You have just conducted a port scan of a network. There is no well-known port active. How do you find a webserver running on a host, which uses a random port number?
+#### Q87. You have just conducted a port scan of a network. There is no well-known port active. How do you find a webserver running on a host, which uses a random port number?
 
 - [ ] Give up on the current target network and move on to the next one.
 - [ ] Switch to another network scanning tool. Resort to more resource-intensive probing, like launching random attacks to all open ports.
 - [ ] Turn on the stealth mode in your network scanning tool. Check whether you missed any other active ports associated with web servers.
 - [x] Turn on additional options in your network scanning tool to further investigate the details (type and version) of applications running on the rest of the active ports.
 
-#### Q89. Executives in your organization exchange emails with external business partners when negotiating valuable business contracts. To ensure that these communications are legally defensible, the security team has recommended that a digital signature be added to these message.
+#### Q88. Executives in your organization exchange emails with external business partners when negotiating valuable business contracts. To ensure that these communications are legally defensible, the security team has recommended that a digital signature be added to these message.
 
 What are the primary goals of the digital signature in this scenario? (Choose the best answer.)
 
@@ -684,7 +682,7 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 - [ ] privacy and confidentiality
 - [ ] integrity and privacy
 
-#### Q90. Which option is a mechanism to ensure non-repudiation?
+#### Q89. Which option is a mechanism to ensure non-repudiation?
 
 - [ ] MD5
 - [ ] Caesar cipher
@@ -693,14 +691,14 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 
 [Explanation:](https://medium.com/geekoffee/ensuring-integrity-authenticity-and-non-repudiation-in-data-transmission-using-node-js-af73c2404153)
 
-#### Q91. Which software development lifecycle approach is most compatible with DevSecOps?
+#### Q90. Which software development lifecycle approach is most compatible with DevSecOps?
 
 - [x] Agile
 - [ ] Model-Driven Development
 - [ ] Waterfall
 - [ ] Model-Driven Architecture
 
-#### Q92. Which information security principle states that organizations should defend systems against any particular attack using several independent methods?
+#### Q91. Which information security principle states that organizations should defend systems against any particular attack using several independent methods?
 
 - [ ] separation of duties
 - [ ] privileged account management (PAM)
@@ -709,30 +707,65 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 
 [Explanation:](https://en.wikipedia.org/wiki/Defense_in_depth_(computing))
 
-#### Q93. Which option describes a core principle of DevSecOps?
+#### Q92. Which option describes a core principle of DevSecOps?
 
 - [x] Testing and release should be 100% automated
 - [ ] Role separation is the key to software security
 - [ ] Final responsibility for security rests with the architect of the application
 - [ ] Everyone in the process is responsible for security
 
-#### Q94. You need to implement a solution to protect internet-facing applications from common attacks like XSSm CSRF, and SQL injection. Which option is best suited to the task?
+#### Q93. You need to implement a solution to protect internet-facing applications from common attacks like XSSm CSRF, and SQL injection. Which option is best suited to the task?
 
 - [ ] Security Information Event Management (SIEM)
 - [ ] an Instruction Detection and Prevention System (IDPS) appliance
 - [ ] a web application firewall (WAF)
 - [ ] a stateful packet inspection firewall
 
-#### Q95. Which phase of the incident response process happens immediately following identification?
+#### Q94. Which phase of the incident response process happens immediately following identification?
 
 - [ ] Eradication / Remediation
-- [ ] Reporting 
+- [x] Reporting 
 - [ ] Containment / Mitigation
 - [ ] Recovery
 
-#### Q96. How can a data retention policy reduce your organization's legal liability?
+#### Q95. How can a data retention policy reduce your organization's legal liability?
 
 - [ ] by reducing DLP licensing costs
 - [ ] by ensuring that data is not retained beyond its necessary retention date
 - [ ] by destroying data that may implicate company executives in dishonest behavior
 - [ ] by reducing cost associated with data storage and protection
+
+#### Q96. You believe a recent service outage due to a denial-of-service attack from a disgruntled inside source. What is the name for the malicious act this employee has committed?
+
+- [ ] espionage
+- [x] sabotage  (not too much sure)
+- [ ] fraud
+- [ ] confidentiality breach
+
+#### Q97. Which option is a framework widely utilized by organizations in the development of security governance standards?
+
+- [ ] Software Capability Maturity Model (SW-CMM)
+- [x] Control Objectives for Information and Related Technologies (COBIT)   (not too much sure)
+- [ ] The Open Group Architecture Framework (TOGAF)
+- [ ] Software Development Life Cycle (SDLC)
+
+#### Q98. There are connection-oriented and connectionless protocols in networking. What do web browsers use to ensure the integrity of the data it sends and receives?
+
+- [ ] UDP that is connection-oriented
+- [x] TCP that is connection-oriented   (not too much sure)
+- [ ] UDP that is connectionless
+- [ ] TCP that is connectionless
+
+#### Q99. Which type of attack targets vulnerabilities associated with translating MAC addresses into IP addresses in computer networking?
+
+- [ ] DNS poisoning
+- [ ] CRL trapping
+- [x] ARP spoofing
+- [ ] DDoS
+
+#### Q100. You are part of of an incident response team at your company. While sifting through log files collected by a SIEM, you discover some suspicious log entries that you want to investigate further. Which type of the following best refers to those recorded activities demanding additional scrutiny?
+
+- [ ] attack
+- [ ] information
+- [ ] threat
+- [ ] event
