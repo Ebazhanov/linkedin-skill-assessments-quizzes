@@ -522,3 +522,97 @@ D. They must have no duplicate data rows.
 - [ ] A, B, C, D
 - [ ] A, C, D
 - [ ] B, D
+
+#### Q66. Your report is based on imported data from Excel. What is a valid reason to use a slicer rather than a report-lever filter?
+
+    A. A slicer makes it easier for users to filter
+    B. Users should be able to see both filtered and nonfiltered values.
+
+- [ ] A and B
+- [ ] B and C
+- [ ] A and C
+- [ ] There is no reason to use a slicer rather than a report-level filter.
+
+#### Q67. Within Power BI, how can a report be created?
+
+- [ ] directly from a dataset
+- [ ] starting with an existing report and editing it
+- [x] using an existing report
+- [ ] all of these answers
+
+#### Q68. In the Power BI service, filters are applied in what view?
+
+- [ ] Filter
+- [ ] Editing
+- [ ] Reading
+- [ ] Query
+
+#### Q69. What are the first steps you take to connect to an Access database data source in Power BI?
+
+- [ ] You cannot to an Access database from Power BI.
+- [ ] Click **Reports > Database > Connect** in Power BI Desktop
+- [ ] Click **Get Data > Database > Access Database > Connect** in Power BI Service
+- [ ] Click **Get Data > Database > Access Database > Connect** in Power BI Desktop
+
+#### Q70. What can you use Power BI for?
+
+- [ ] all of these answers
+- [ ] to create visualizations
+- [ ] to model data
+- [ ] to generate reports
+
+#### Q71. What is the primary purpose of the Relationship view in Power BI Desktop?
+
+- [ ] to transform data
+- [ ] to add members to your team or group
+- [ ] to grant permission to view a specific table
+- [ ] to relate tables
+
+#### Q72. What do you call a visualization that has the single purpose of filtering other visuals in the view?
+
+- [ ] waterfall
+- [ ] none of these answers
+- [ ] ArcGIS visual
+- [ ] slicer
+
+#### Q73. To share a dashboard and your comments from a mobile device, \_ the dashboard.
+
+- [ ] comment and share
+- [ ] annotate and share
+- [ ] publish
+- [ ] team share
+
+#### Q74. In the Power Query Editor, you have selected multiple columns. How do you set them all to the Whole Number data type?
+
+- [ ] Click **Data Type Any** and select **Whole Number**.
+- [ ] Select **Group By** and select **Whole Number**.
+- [ ] Right-click the primary key and select **Whole Number**.
+- [ ] Right-click any column and select **Format Data**
+
+#### Q75. When will links to a web-published report stop working?
+
+- [x] approximately one hour after the report is deleted
+- [ ] approximately one month after the report is deleted
+- [ ] never
+- [ ] approximately one week after the report is deleted
+
+#### Q76. What are the first steps to connect to a data table on Wikipedia from Power BI Desktop?
+
+- [ ] **Get Data > OData feed > Web URL**
+- [ ] **Get Data > Web > Enter Web URL**
+- [ ] **Get Data > Web Table > Enter Web URL**
+- [ ] **Get Data > Data Source > Enter Web URL**
+
+#### Q77. In the Power Query Editor, what command do you use to remove a symbol `-` for example, a `#` that appears in every data now of the selected column?
+
+- [ ] **Transform > Replace Values**
+- [x] **Transform > Remove Text**
+- [ ] **Transform > Remove Values**
+- [ ] **Transform > Replace Errors**
+
+#### Q78. Which type of visualization is best when you want to compare proportions in a large volume of data with multiple categories and subcategories?
+
+- [ ] donut chart
+- [ ] gauge chart
+- [x] treemap
+- [ ] waterfall

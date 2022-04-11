@@ -335,7 +335,7 @@ printNullness(JSON.parse('{ "lemmings": [] }'));
 printNullness(JSON.parse('{ "lemmings": null }'));
 printNullness(JSON.parse('{ "lemmings": "null" }'));
 
-function printNullness() {
+function printNullness(testMe) {
   if (testMe.lemmings == null) console.log('null');
   else console.log('not null');
 }
@@ -514,8 +514,10 @@ null
 
 - [ ] trailing commas
 - [ ] trailing decimals
-- [ ] whitespace
-- [x] leading zeroes
+- [x] whitespace
+- [ ] leading zeroes
+
+[Reference](https://www.geeksforgeeks.org/what-is-the-difference-between-yaml-and-json/)
 
 #### Q37. When you need to set the value of a key in JSON to be blank, what is the correct syntax for the empty value?
 
@@ -958,5 +960,5 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 
 - [ ] It has a flat architecture.
 - [ ] It has a rewritable structure.
-- [ ] It has an array-only structure.
+- [x] It has an array-only structure.
 - [ ] It has a table structure.

@@ -898,42 +898,46 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] Distribute Vertically
 - [ ] Align Middle
 
-### Q110. A file extension of .xlsm indicates what type of workbook?
+#### Q110. A file extension of .xlsm indicates what type of workbook?
 
 - [x] macro-enabled workbook
 - [ ] XML-standard workbook
 - [ ] Excel 2003 workbook
 - [ ] workbook where macros are not allowed
 
-### Q111. How do you remove only the conditional formatting from a cell and leave all other formatting intact?
+#### Q111. How do you remove only the conditional formatting from a cell and leave all other formatting intact?
 
 - [ ] This is not possible-you can remove only all formatting from a cell.
 - [x] Select the cell. On the Home tab, click Conditional Formatting > Clear Rules > Clear Rules from Selected Cells.
 - [ ] Right-click the cell and select Delete Conditional Formatting.
 - [ ] Right-click the cell and select Remove Conditional Formatting.
 
-### Q112. If a range name is used in a formula and the name is deleted, what happens to the formula?
+#### Q112. If a range name is used in a formula and the name is deleted, what happens to the formula?
 
 - [ ] The formula display a warning but the actual cell address is substituted for the deleted name.
-- [ ] The formula becomes invalid and displays a #NAME? error.
+- [x] The formula becomes invalid and displays a #NAME? error.
 - [ ] The actual cell addresses replace the original range name in the formula.
 - [ ] The formula becomes invalid and displays a #N/A error
 
-### Q113. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select **\_**.
+[Reference](https://bettersolutions.com/excel/named-ranges/name-manager-deleting.htm#:~:text=If%20you%20delete%20a%20named,named%20ranges%20will%20become%20invalid.)
+
+#### Q113. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select **\_**.
 
 - [ ] Insert Column
 - [ ] Paste Special
 - [ ] Insert Column Left
 - [x] Insert
 
-### Q114. You want to restric the values entered in a cell to a speified set, such as Hop, Skip, Jump. Which type of data validation should you use?
+#### Q114. You want to restrict the values entered in a cell to a specified set, such as Hop, Skip, Jump. Which type of data validation should you use?
 
 - [ ] input range
 - [x] list
 - [ ] custom
 - [ ] database
 
-### Q115. Given the image below, what happens if you type "P" in cell A6?
+[reference](https://www.extendoffice.com/documents/excel/3830-excel-only-allow-certain-values.html)
+
+#### Q115. Given the image below, what happens if you type "P" in cell A6?
 
 ![image](https://user-images.githubusercontent.com/1056999/159387628-9f960f22-9b50-4764-b4d9-31b5914b164a.png)
 
@@ -942,14 +946,14 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] A pop-up list appears with the previous four names.
 - [ ] The word "Perez" appears and immediately the active cell moves down.
 
-### Q116. You want to find the second-largest invoice in a column containing all the invoices in a given month. What function would you use?
+#### Q116. You want to find the second-largest invoice in a column containing all the invoices in a given month. What function would you use?
 
 - [ ] NEXT
 - [ ] MAX
 - [x] LARGE
 - [ ] MATCH
 
-### Q117. How can you see the data in column E?
+#### Q117. How can you see the data in column E?
 
 ![image](https://user-images.githubusercontent.com/1056999/159387970-6ff9d57c-adb2-452b-83af-66d9f3fdc908.png)
 
@@ -958,7 +962,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] On the Home tab of the ribbon, select Fit to Column.
 - [ ] Expand the width of its column.
 
-### Q118. In the worksheet below, a table called Projects extends from cell A1 to D10. Cell D1 contains the text Status. Cell E12 contains the formula =Projects[@Status]. What does this formula return?
+#### Q118. In the worksheet below, a table called Projects extends from cell A1 to D10. Cell D1 contains the text Status. Cell E12 contains the formula =Projects[@Status]. What does this formula return?
 
 ![image](https://user-images.githubusercontent.com/1056999/159388193-743a1393-d61f-47b1-a4ae-346f36fb3160.png)
 
@@ -967,7 +971,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] #REF!
 - [ ] 0
 
-### Q119. Which Excel feature allows you to select all cells in the column with inconsistent formulas compared to the rest of the column?
+#### Q119. Which Excel feature allows you to select all cells in the column with inconsistent formulas compared to the rest of the column?
 
 ![image](https://user-images.githubusercontent.com/1056999/159388456-054ba0ae-c595-4aaa-8d38-351f726885ca.png)
 
@@ -976,11 +980,56 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] On the Formulas tab, click Trace errors.
 - [ ] On the Formulas tab, click show formulas
 
-### Q120. You want to restrict the values entered in a cell to a specified set, such as hop, skip, jump. Which type of data validation should you use??
+#### Q120. What is one way to center text in a cell?
 
-- [ ] database.
-- [x] list.
-- [ ] input range.
-- [ ] custom
+- [ ] Right-click the cell and select **Center** (Windows) or **Center Text** (Mac).
+- [ ] Seletct the cell and, on the **View** tab in the **Cells** section, click **Alignment** and select **Center** (Windows) or **Center Text** (Mac).
+- [x] Select the cell and, on the **Home** tab in the **Alignment** section, click **Center** (Windows) or **Center Text** (Mac).
+- [ ] Change the width of the cell until the **text** is centered.
 
-[reference](https://www.extendoffice.com/documents/excel/3830-excel-only-allow-certain-values.html)
+[Reference](https://support.microsoft.com/en-us/office/align-text-in-a-cell-b2489a1f-6c89-45b7-9562-bbc287aa71ea)
+
+#### Q121. Cell D1 contains the value 7.877. You want cell D1 to display the value as 7.9 but keep the original number in calculations. How can yu=ou accomplish this?
+
+- [ ] Click the **Decrease Decimal** button once.
+- [x] Click the **Decrease Decimal** button twice.
+- [ ] Use the ROUND() function.
+- [ ] In the **Cells** group on the **Home** tab, click **Format > Format Cells**. Then click the **Alignment** tab and select **Right Indent**.
+
+[Reference](https://support.microsoft.com/en-us/office/round-a-number-to-the-decimal-places-i-want-49b936f9-6904-425d-aa98-02ffb7f9a17b)
+
+#### Q122. Given the image below, what happens if you type "P"in cell A6?
+
+![image](https://user-images.githubusercontent.com/35125965/161691848-4c888572-c649-457c-b7a0-58c64947ff7f.png)
+
+- [ ] The word "Perez" appears and immediately the active cell moves down.
+- [x] The word "Perez" appears and the active cell remains in Edit mode.
+- [ ] A pop-up list appears with the previous four names.
+- [ ] The letter "P" appears.
+
+#### Q123. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select **\_**.
+
+- [ ] Insert Column
+- [ ] Paste Special
+- [x] Insert
+- [ ] Insert Column Left
+
+[Reference](https://support.microsoft.com/en-us/office/insert-or-delete-rows-and-columns-6f40e6e4-85af-45e0-b39d-65dd504a3246#:~:text=To%20insert%20a%20single%20column,and%20then%20select%20Insert%20Columns.)
+
+#### Q124. Your transactions data set contains more than 10,000 rows. Some rows contain the same transaction. How would you remove the rows containing the identical transactions?
+
+- [ ] Filter the relevant column, right-click the column head, and select **Remove Duplicates**.
+- [ ] This is possible only with Power Query.
+- [x] With your cursors in the data range, on **Data** tab click **Remove Duplicates**.
+- [ ] This is possible only using formulas.
+
+[Reference](https://support.microsoft.com/en-us/office/filter-for-unique-values-or-remove-duplicate-values-ccf664b0-81d6-449b-bbe1-8daaec1e83c2)
+
+#### Q125. A colleague shared an excel file with you, and you want to display a worksheet that is hidden in it. How you can do that?
+
+- [ ] On the **Home** tab, click **Unhide**.
+- [ ] On the **Review** tab, click **Unhide Sheet**.
+- [ ] On the **View** tab, click **New Window**.
+- [x] Right-click on any worksheet tab and select **Unhide**
+
+[Reference](https://support.microsoft.com/en-us/office/hide-or-unhide-worksheets-69f2701a-21f5-4186-87d7-341a8cf53344)

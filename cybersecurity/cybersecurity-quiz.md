@@ -472,7 +472,7 @@ autopsy is for forensic analysis
 - [ ] ISO/IEC 27001
 - [ ] COBIT
 
-#### Q62. NIST issued a revision to SP 800-37 in December 2018. It provides a disciplined, structured, and flexible process for managing security and privacy risk. Which type of document is SP 800-37??
+#### Q62. NIST issued a revision to SP 800-37 in December 2018. It provides a disciplined, structured, and flexible process for managing security and privacy risk. Which type of document is SP 800-37?
 
 - [x] a risk management framework
 - [ ] a guide to risk assessments
@@ -707,11 +707,32 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 - [x] defense-in-depth
 - [ ] least privilege
 
-[Explanation:](<https://en.wikipedia.org/wiki/Defense_in_depth_(computing)>)
+[Explanation:](https://en.wikipedia.org/wiki/Defense_in_depth_(computing))
 
 #### Q93. Which option describes a core principle of DevSecOps?
 
 - [x] Testing and release should be 100% automated
 - [ ] Role separation is the key to software security
 - [ ] Final responsibility for security rests with the architect of the application
-- [ ] Everyone in the process is reponsible for security
+- [ ] Everyone in the process is responsible for security
+
+#### Q94. You need to implement a solution to protect internet-facing applications from common attacks like XSSm CSRF, and SQL injection. Which option is best suited to the task?
+
+- [ ] Security Information Event Management (SIEM)
+- [ ] an Instruction Detection and Prevention System (IDPS) appliance
+- [ ] a web application firewall (WAF)
+- [ ] a stateful packet inspection firewall
+
+#### Q95. Which phase of the incident response process happens immediately following identification?
+
+- [ ] Eradication / Remediation
+- [ ] Reporting 
+- [ ] Containment / Mitigation
+- [ ] Recovery
+
+#### Q96. How can a data retention policy reduce your organization's legal liability?
+
+- [ ] by reducing DLP licensing costs
+- [ ] by ensuring that data is not retained beyond its necessary retention date
+- [ ] by destroying data that may implicate company executives in dishonest behavior
+- [ ] by reducing cost associated with data storage and protection

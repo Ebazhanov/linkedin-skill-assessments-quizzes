@@ -635,3 +635,10 @@ model=Planet
 - [ ] redirect()
 - [x] reverse()
 - [ ] resolve()
+
+#### Q69. Which is Fictional HTTP request method?
+
+- [ ] POST
+- [ ] PUT
+- [x] PAUSE
+- [ ] PATCH
