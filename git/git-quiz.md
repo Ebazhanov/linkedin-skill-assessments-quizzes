@@ -914,7 +914,7 @@ hint: Updates were rejected because the remote contains work that you do not hin
 #### Q109. What does the -p option add to the output of the `git log` command?
 
 - [ ] It adds patch output that shows the differences introduced in each commit.
-- [ ] It adds patch output that shows a summary fisting modified files.
+- [x] It adds patch output that shows a summary listing modified files.
 - [ ] It adds padding to the output and displays a histogram showing the number of lines changed in each commit.
 - [ ] It adds the full commit message and notes associated with each commit.
 
@@ -923,7 +923,7 @@ hint: Updates were rejected because the remote contains work that you do not hin
 - [ ] an area that stores commits prior to them being pushed to the remote repository
 - [ ] an area containing stash entries that can applied to the working files
 - [ ] an area where changes from a branch in the remote repository are stored before they are applied to a local branch
-- [ ] an area that stores information about changes that will be included in the next commit
+- [x] an area that stores information about changes that will be included in the next commit
 
 #### Q111. What command would you use to stage changes to the index strictly for properties files in the current directory?
 
@@ -978,5 +978,5 @@ hint: Updates were rejected because the remote contains work that you do not hin
 
 - [ ] a pointer to the most recently changed file in the stage/index
 - [ ] a pointer to the master branch
-- [ ] a pointer to the most recent commit in the currently checked-out branch
+- [x] a pointer to the most recent commit in the currently checked-out branch
 - [ ] a pointer to where the repository is stored in memory
