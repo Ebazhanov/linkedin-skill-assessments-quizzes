@@ -329,3 +329,98 @@
 - [ ] Yes, you can extrude it using the Selected Contours option
 - [ ] No, the sketch is an open contour and this cannot be extruded
 - [x] Yes, you can extrude it using the Thin Feature option
+
+#### Q39. Why is it useful to suppress a feature?
+
+- [ ] Suppressing changes the color of a feature. This is useful to help easily distinguish between different features.
+- [x] Suppressing removes a feature from a model, but does not delete it. This is useful if you need that feature back in
+the future.
+- [ ] Suppressing removes a feature from a model forever. This is useful if you no longer need that feature.
+- [ ] Suppressing makes a feature transparent. This is useful if you ever need to see through a feature when modeling.
+
+#### Q40. Which choice is not a standard view orientation in SOLIDWORKS?
+
+- [ ] back
+- [x] down
+- [ ] right
+- [ ] front
+
+#### Q41. What type of view is used to show a portion of some parent view, usually at an enlarged scale?
+
+- [x] detail view
+- [ ] auxiliary view
+- [ ] break view
+- [ ] section view
+
+#### Q42. How can you create relationships between parts within an assembly?
+
+- [x] Use mates.
+- [ ] Use constraints.
+- [ ] Use relations.
+- [ ] Use dimensions.
+
+#### Q43. What is required to create a solid using the Swept Boss/Base tool?
+
+- [x] a profile and a path
+- [ ] a sketch and an axis of revolution
+- [ ] atleast two profiles
+- [ ] a sketch
+
+#### Q44. Which statement best describes the term "parametric modeling"?
+
+- [ ] This type of modeling is often compared to working with modeling clay.
+- [x] The dimensions and relations used to create a feature are captured and stored in the model.
+- [ ] You can simply push and pull the geometry until you arrive at the shape you require.
+- [ ] Dimensions and relations are not captured or stored within the model.
+
+#### Q45. What is required to create a solid using the Extruded Boss/Base tool?
+
+- [ ] at least two profiles
+- [ ] a sketch and an axis of revolution
+- [x] a sketch
+- [ ] a profile and a path
+
+#### Q46. Which choice is an example of an applied feature?
+
+- [ ] extrusion
+- [ ] revolve
+- [x] fillet
+- [ ] sweep
+
+#### Q47. How can you change the size of a toolbox screw in an assembly?
+
+- [x] Right-click the component and select Edit Toolbox Component.
+- [ ] Toolbox part sizes cannot be changed once added. You have to delete the screw and then readd one of the correct size.
+- [ ] Edit the screw part and add a scale feature using only the required axes.
+- [ ] Open the screw part, then manually adjust the dimensions and save as a copy.
+
+#### Q48. Which choice is not a standard 3D view in SOLIDWORKS?
+
+- [ ] dimetric
+- [ ] trimetric
+- [ ] isometric
+- [x] oblique
+
+#### Q49. You are designing a robotic arm assembly. You want the first link of the arm to be able to rotate about the base, but only a total of 270 degrees from the start point and no further. How would you achieve this?
+
+- [ ] Use an Angle mate.
+- [ ] Use a Mechanical mate.
+- [x] Use a Limit Angle mate
+- [ ] Use a Gear mate.
+
+#### Q50. How can you reattach a broken reference in a derived split part?
+
+- [ ] Right-click the filename at the top of the FeatureManager design tree and select Relink Stock Part.
+- [ ] Once derived part references are broken, they cannot be readded. Consider resplitting the part.
+- [ ] Locate the child part using SOLIDWORKS Explorer and select Relink Parent.
+- [x] Edit the stock feature at the start of the FeatureManager design tree, then adjust the Defining Stock Part option.
+
+[Reference](https://help.solidworks.com/2022/English/SolidWorks/sldworks/HIDD_FEAT_EDIT_SPLIT_FEAT_BODY.htm)
+
+#### Q51. You have designed a plastic part that you want to split and save in two separate unique parts. You use the Split tool to split the part in half and create the two bodies. What do you do next?
+
+- [ ] Navigate to the Solid Bodies folder, right-click the body name, and select Isolate to save to a new file. Repeat for
+the other body.
+- [ ] Within the Split tool, select Consume Bodies.
+- [ ] Within the Split tool, select Save as New Files.
+- [x] Within the Split tool, click File, double-click the body name, type a name for the new part, and click Save.
