@@ -229,7 +229,7 @@ A rainbow table attack is a more efficient and effective way of cracking many ha
 
 [WireShark](https://www.wireshark.org) is a protocol analyzer.
 
-#### Q30. An attacker has discovered that they can deduce a sensitive piece of confidential information by analyzing multiple pieces of less sensative public data.
+#### Q30. An attacker has discovered that they can deduce a sensitive piece of confidential information by analyzing multiple pieces of less sensitive public data. What type of security issue exists?
 
 - [ ] aggregation
 - [x] inference
@@ -400,21 +400,14 @@ autopsy is for forensic analysis
 - [ ] Reporting
 - [ ] Lessons Learned
 
-#### Q52. Which type of security assessment requires access to source code?
-
-- [ ] dynamic analysis
-- [x] static analysis
-- [ ] penetration testing
-- [ ] black box testing
-
-#### Q53. Which encryption type uses a public and private key pair for encrypting and decrypting data?
+#### Q52. Which encryption type uses a public and private key pair for encrypting and decrypting data?
 
 - [x] asymmetric
 - [ ] symmetric
 - [ ] hashing
 - [ ] all of these answers
 
-#### Q54. You have just identified and mitigated an active malware attack on a user's computer, in which command and control was established. What is the next step in the process?
+#### Q53. You have just identified and mitigated an active malware attack on a user's computer, in which command and control was established. What is the next step in the process?
 
 - [ ] Reporting
 - [ ] Recovery
@@ -423,133 +416,133 @@ autopsy is for forensic analysis
 
 [Explanation: Pages 29 to 31 ->](https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-83r1.pdf)
 
-#### Q55. Which programming language is most susceptible to buffer overflow attacks?
+#### Q54. Which programming language is most susceptible to buffer overflow attacks?
 
 - [x] C
 - [ ] Java
 - [ ] Ruby
 - [ ] Python
 
-#### Q56. Which list correctly describes risk management techniques?
+#### Q55. Which list correctly describes risk management techniques?
 
 - [ ] risk acceptance, risk mitigation, risk containment, and risk qualification
 - [ ] risk avoidance, risk transference, risk containment, and risk quantification
 - [ ] risk avoidance, risk mitigation, risk containment, and risk acceptance
 - [x] risk avoidance, risk transference, risk mitigation, and risk acceptance
 
-#### Q57. To implement encryption in transit, such as with the HTTPS protocol for secure web browsing, which type(s) of encryption is/are used?
+#### Q56. To implement encryption in transit, such as with the HTTPS protocol for secure web browsing, which type(s) of encryption is/are used?
 
 - [ ] asymmetric
 - [x] both symmetric and asymmetric
 - [ ] neither symmetric or asymmetric
 - [ ] symmetric
 
-#### Q58. Which type of program uses Windows Hooks to capture keystrokes typed by the user, hides in the process list, and can compromise their system as well as their online access codes and password?
+#### Q57. Which type of program uses Windows Hooks to capture keystrokes typed by the user, hides in the process list, and can compromise their system as well as their online access codes and password?
 
 - [ ] trojan
 - [ ] keystroke collector
 - [ ] typethief
 - [x] keylogger
 
-#### Q59. How does ransomware affect a victim's files?
+#### Q58. How does ransomware affect a victim's files?
 
 - [ ] by destroying them
 - [x] by encrypting them
 - [ ] by stealing them
 - [ ] by selling them
 
-#### Q60. Your computer has been infected, and is sending out traffic to a targeted system upon receiving a command from a botmaster. What condition is your computer currently in?
+#### Q59. Your computer has been infected, and is sending out traffic to a targeted system upon receiving a command from a botmaster. What condition is your computer currently in?
 
 - [ ] It has become a money mule.
 - [x] It has become a zombie.
 - [ ] It has become a bastion host.
 - [ ] It has become a botnet.
 
-#### Q61. You choose a cybersecurity framework for your financial organization that implements an effective and auditable set of governance and management processes for IT. Which framework are you choosing?
+#### Q60. You choose a cybersecurity framework for your financial organization that implements an effective and auditable set of governance and management processes for IT. Which framework are you choosing?
 
 - [ ] C2M2
 - [x] NIST SP 800-37
 - [ ] ISO/IEC 27001
 - [ ] COBIT
 
-#### Q62. NIST issued a revision to SP 800-37 in December 2018. It provides a disciplined, structured, and flexible process for managing security and privacy risk. Which type of document is SP 800-37?
+#### Q61. NIST issued a revision to SP 800-37 in December 2018. It provides a disciplined, structured, and flexible process for managing security and privacy risk. Which type of document is SP 800-37?
 
 - [x] a risk management framework
 - [ ] a guide to risk assessments
 - [ ] a guideline for vulnerability testing
 - [ ] a step-by-step guide for performing business impact analyses
 
-#### Q63. The most notorious military-grade advanced persistent threat was deployed in 2010, and targeted centrifuges in Iran. What was this APT call?
+#### Q62. The most notorious military-grade advanced persistent threat was deployed in 2010, and targeted centrifuges in Iran. What was this APT call?
 
 - [ ] duqu
 - [ ] agent BTZ
 - [x] stuxnet
 - [ ] flame
 
-#### Q64. Where would you record risks that have been identified and their details, such as their ID and name, classification of information, and the risk owner?
+#### Q63. Where would you record risks that have been identified and their details, such as their ID and name, classification of information, and the risk owner?
 
 - [ ] in the risk assessment documentation
 - [x] in the risk register
 - [ ] in the business impact ledger
 - [ ] in the Orange Book
 
-#### Q65. To prevent an incident from overwhelming resources, \_ is necessary.
+#### Q64. To prevent an incident from overwhelming resources, \_ is necessary.
 
 - [ ] disconnection from the network
 - [x] early containment
 - [ ] continuation of monitoring for other incidents
 - [ ] eradication of the issues
 
-#### Q66. FUD is expensive and often causes high drama over low risk. Which computer chip exploits were reported by CNN as needing to be completely replaced, but were later fixed with firmware updates?
+#### Q65. FUD is expensive and often causes high drama over low risk. Which computer chip exploits were reported by CNN as needing to be completely replaced, but were later fixed with firmware updates?
 
 - [ ] fire and ice exploits
 - [x] meltdown and spectre exploits
 - [ ] Intel and STMicro CPU exploits
 - [ ] super microboard and Apple iPhone exploits
 
-#### Q67. The ASD Top Four are application whitelisting, patching of applications, patching of operating systems, and limiting administrative privileges. What percent of breaches do these account for?
+#### Q66. The ASD Top Four are application whitelisting, patching of applications, patching of operating systems, and limiting administrative privileges. What percent of breaches do these account for?
 
 - [ ] 40 percent
 - [ ] 60 percent
 - [x] 85 percent
 - [ ] 100 percent
 
-#### Q68. You are working in the security operations center analyzing traffic on your network. You detect what you believe to be a port scan. What does this mean?
+#### Q67. You are working in the security operations center analyzing traffic on your network. You detect what you believe to be a port scan. What does this mean?
 
 - [ ] This could be a specific program being run by your accounting department.
 - [ ] This is an in-progress attack and should be reported immediately
 - [ ] This is normal operation for your business.
 - [x] This could be a precursor to an attack.
 
-#### Q69. How often is the ISF Standard of Good Practice updated?
+#### Q68. How often is the ISF Standard of Good Practice updated?
 
 - [x] annual
 - [ ] biannually
 - [ ] bimonthly
 - [ ] monthly
 
-#### Q70. Your incident response team is unable to contain an incident because they lack authority to take action without management approval. Which critical step in the preparation phase did your team skip?
+#### Q69. Your incident response team is unable to contain an incident because they lack authority to take action without management approval. Which critical step in the preparation phase did your team skip?
 
 - [ ] From an incident response committee to oversee any incidents that may occur.
 - [x] Get preauthorized to take unilateral action and make or direct emergency changes.
 - [ ] Bring management in as leadership on the incident response team.
 - [ ] Assign a head of the emergency response team who has the correct authority
 
-#### Q71. NIST SP 800-53 is one of two important control frameworks used in cybersecurity. What is the other one?
+#### Q70. NIST SP 800-53 is one of two important control frameworks used in cybersecurity. What is the other one?
 
 - [ ] ISO 27001
 - [ ] NIST SP 800-54
 - [x] ISO 27002
 - [ ] NIST SP 751-51
 
-#### Q72. Which organization, established by NIST in 1990, runs workshops to foster coordination in incident prevention, stimulate rapid reaction to incidents, and allow experts to share information?
+#### Q71. Which organization, established by NIST in 1990, runs workshops to foster coordination in incident prevention, stimulate rapid reaction to incidents, and allow experts to share information?
 
 - [x] Forum of Incident Response and Security Teams
 - [ ] Crest UK Response Teams
 - [ ] Community of Computer Incident Response Teams
 - [ ] NIST Special Publication 800-61 Response Teams
 
-#### Q73. You have implemented controls to mitigate the threats, vulnerabilities, and impact to your business. Which type of risk is left over?
+#### Q72. You have implemented controls to mitigate the threats, vulnerabilities, and impact to your business. Which type of risk is left over?
 
 - [ ] inherent risk
 - [x] residual risk
@@ -558,28 +551,28 @@ autopsy is for forensic analysis
 
 [Explanation](https://www.sans.org/brochure/course/information-security-risk-management/226)
 
-#### Q74. There are four possible treatments once an assessment has identified a risk. Which risk treatment implements controls to reduce risk?
+#### Q73. There are four possible treatments once an assessment has identified a risk. Which risk treatment implements controls to reduce risk?
 
 - [x] risk mitigation
 - [ ] risk acceptance
 - [ ] risk avoidance
 - [ ] risk transfer
 
-#### Q75. Which security control scheme do vendors often submit their products to for evaluation, to provide an independent view of product assurance?
+#### Q74. Which security control scheme do vendors often submit their products to for evaluation, to provide an independent view of product assurance?
 
 - [x] Common Criteria
 - [ ] risk management certification board
 - [ ] OWASP security evaluation
 - [ ] ISO 27000
 
-#### Q76. Which organization has published the most comprehensive set of controls in its security guideline for the Internet of Things?
+#### Q75. Which organization has published the most comprehensive set of controls in its security guideline for the Internet of Things?
 
 - [ ] IoT ISACA
 - [x] IoT Security Foundation
 - [ ] OWASP
 - [ ] GSMA
 
-#### Q77. Which main reference coupled with the Cloud Security Alliance Guidance comprise the Security Guidance for Critical Areas of Focus in Cloud Computing?
+#### Q76. Which main reference coupled with the Cloud Security Alliance Guidance comprise the Security Guidance for Critical Areas of Focus in Cloud Computing?
 
 - [ ] ISO 27001
 - [ ] ISO 27017
@@ -588,13 +581,13 @@ autopsy is for forensic analysis
 
 [Explanation](https://www.cybersaint.io/blog/six-steps-of-the-nist-risk-management-framework)
 
-#### Q78. What are the essential characteristics of the reference monitor?
+#### Q77. What are the essential characteristics of the reference monitor?
 
 - [ ] It is versatile, accurate, and operates at a very high speed.
 - [x] It is tamper-proof, can always be invoked, and must be small enough to test.
 - [ ] It is restricted, confidential, and top secret
 
-#### Q79. According to NIST, what is the first action required to take advantage of the cybersecurity framework?
+#### Q78. According to NIST, what is the first action required to take advantage of the cybersecurity framework?
 
 - [x] Identify the key business outcomes.
 - [ ] Understand the threats and vulnerabilities.
@@ -603,14 +596,14 @@ autopsy is for forensic analysis
 
 [Explanation](https://www.cybersaint.io/blog/six-steps-of-the-nist-risk-management-framework)
 
-#### Q80. You are implementing a cybersecurity program in your organization and want to use the "de facto standard" cybersecurity framework. Which option would you choose?
+#### Q79. You are implementing a cybersecurity program in your organization and want to use the "de facto standard" cybersecurity framework. Which option would you choose?
 
 - [ ] the ISACA Cypersecurity Framework
 - [ ] the COBIT Cypersecurity Framework
 - [ ] the ISC2 Cypersecurity Framework
 - [x] the NIST Cypersecurity Framework
 
-#### Q81. In 2014, 4,278 IP addresses of zombie computers were used to flood a business with over one million packets per minute for about one hour. What is this type of attack called?
+#### Q80. In 2014, 4,278 IP addresses of zombie computers were used to flood a business with over one million packets per minute for about one hour. What is this type of attack called?
 
 - [ ] a salami attack
 - [ ] a DoS (Denial of Service) attack
@@ -619,14 +612,14 @@ autopsy is for forensic analysis
 
 [Explanation](https://www.forbes.com/sites/parmyolson/2014/11/20/the-largest-cyber-attack-in-history-has-been-hitting-hong-kong-sites/?sh=56e071cd38f6)
 
-#### Q82. The regulatory requirements for notifications of data breaches, particularly the European General Data Protection Regulations, have had what sort of effect on business?
+#### Q81. The regulatory requirements for notifications of data breaches, particularly the European General Data Protection Regulations, have had what sort of effect on business?
 
 - [x] an increased business liability in the event of a data breach
 - [ ] an increased consumer liability in the event of a data breach
 - [ ] a decreased consumer liability in the event of a data breach
 - [ ] a decreased business liability in the event of a data breach
 
-#### Q83. Which compliance framework governs requirements for the U.S. healthcare industry?
+#### Q82. Which compliance framework governs requirements for the U.S. healthcare industry?
 
 - [ ] FedRAMP
 - [ ] GDPR
@@ -635,9 +628,7 @@ autopsy is for forensic analysis
 
 [Explanation](https://online.maryville.edu/blog/5-important-regulations-in-united-states-healthcare/)
 
-#### Q84. Duplicate
-
-#### Q85. What is the difference between DevOps and DevSecOps?
+#### Q83. What is the difference between DevOps and DevSecOps?
 
 - [x] DevSecOps requires the inclusion of cybersecurity engineers in the CI/CD process of DevOps.
 - [ ] DevSecOps slows down the CI/CD process of DevOps.
@@ -646,7 +637,7 @@ autopsy is for forensic analysis
 
 [Explanation](https://www.linkedin.com/learning/devops-foundations-devsecops/introduction-to-devsecops)
 
-#### Q86. When does static application security testing require access to source code?
+#### Q84. When does static application security testing require access to source code?
 
 - [x] always
 - [ ] only when assessing regulatory compliance
@@ -655,7 +646,7 @@ autopsy is for forensic analysis
 
 [Explanation:](https://www.synopsys.com/glossary/what-is-sast.html)
 
-#### Q87. Your organization service customer orders with a custom ordering system developed in-hose. You are responsible for recommending a cloud model to meet the following requirements:
+#### Q85. Your organization service customer orders with a custom ordering system developed in-hose. You are responsible for recommending a cloud model to meet the following requirements:
 
     Control of security required for regulatory compliance
     Legacy application and database support
@@ -668,14 +659,14 @@ Which cloud model is the best option for these requirements?
 - [x] hybrid cloud
 - [ ] private cloud
 
-#### Q88. You have just conducted a port scan of a network. There is no well-known port active. How do you find a webserver running on a host, which uses a random port number?
+#### Q86. You have just conducted a port scan of a network. There is no well-known port active. How do you find a webserver running on a host, which uses a random port number?
 
 - [ ] Give up on the current target network and move on to the next one.
 - [ ] Switch to another network scanning tool. Resort to more resource-intensive probing, like launching random attacks to all open ports.
 - [ ] Turn on the stealth mode in your network scanning tool. Check whether you missed any other active ports associated with web servers.
 - [x] Turn on additional options in your network scanning tool to further investigate the details (type and version) of applications running on the rest of the active ports.
 
-#### Q89. Executives in your organization exchange emails with external business partners when negotiating valuable business contracts. To ensure that these communications are legally defensible, the security team has recommended that a digital signature be added to these message.
+#### Q87. Executives in your organization exchange emails with external business partners when negotiating valuable business contracts. To ensure that these communications are legally defensible, the security team has recommended that a digital signature be added to these message.
 
 What are the primary goals of the digital signature in this scenario? (Choose the best answer.)
 
@@ -684,7 +675,7 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 - [ ] privacy and confidentiality
 - [ ] integrity and privacy
 
-#### Q90. Which option is a mechanism to ensure non-repudiation?
+#### Q88. Which option is a mechanism to ensure non-repudiation?
 
 - [ ] MD5
 - [ ] Caesar cipher
@@ -693,14 +684,14 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 
 [Explanation:](https://medium.com/geekoffee/ensuring-integrity-authenticity-and-non-repudiation-in-data-transmission-using-node-js-af73c2404153)
 
-#### Q91. Which software development lifecycle approach is most compatible with DevSecOps?
+#### Q89. Which software development lifecycle approach is most compatible with DevSecOps?
 
 - [x] Agile
 - [ ] Model-Driven Development
 - [ ] Waterfall
 - [ ] Model-Driven Architecture
 
-#### Q92. Which information security principle states that organizations should defend systems against any particular attack using several independent methods?
+#### Q90. Which information security principle states that organizations should defend systems against any particular attack using several independent methods?
 
 - [ ] separation of duties
 - [ ] privileged account management (PAM)
@@ -709,30 +700,80 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 
 [Explanation:](https://en.wikipedia.org/wiki/Defense_in_depth_(computing))
 
-#### Q93. Which option describes a core principle of DevSecOps?
+#### Q91. Which option describes a core principle of DevSecOps?
 
 - [x] Testing and release should be 100% automated
 - [ ] Role separation is the key to software security
 - [ ] Final responsibility for security rests with the architect of the application
 - [ ] Everyone in the process is responsible for security
 
-#### Q94. You need to implement a solution to protect internet-facing applications from common attacks like XSSm CSRF, and SQL injection. Which option is best suited to the task?
+#### Q92. You need to implement a solution to protect internet-facing applications from common attacks like XSSm CSRF, and SQL injection. Which option is best suited to the task?
 
 - [ ] Security Information Event Management (SIEM)
 - [ ] an Instruction Detection and Prevention System (IDPS) appliance
 - [ ] a web application firewall (WAF)
 - [ ] a stateful packet inspection firewall
 
-#### Q95. Which phase of the incident response process happens immediately following identification?
+#### Q93. Which phase of the incident response process happens immediately following identification?
 
 - [ ] Eradication / Remediation
-- [ ] Reporting 
+- [x] Reporting 
 - [ ] Containment / Mitigation
 - [ ] Recovery
 
-#### Q96. How can a data retention policy reduce your organization's legal liability?
+#### Q94. How can a data retention policy reduce your organization's legal liability?
 
 - [ ] by reducing DLP licensing costs
 - [ ] by ensuring that data is not retained beyond its necessary retention date
 - [ ] by destroying data that may implicate company executives in dishonest behavior
 - [ ] by reducing cost associated with data storage and protection
+
+#### Q95. You believe a recent service outage due to a denial-of-service attack from a disgruntled inside source. What is the name for the malicious act this employee has committed?
+
+- [ ] espionage
+- [x] sabotage  (not too much sure)
+- [ ] fraud
+- [ ] confidentiality breach
+
+#### Q96. Which option is a framework widely utilized by organizations in the development of security governance standards?
+
+- [ ] Software Capability Maturity Model (SW-CMM)
+- [x] Control Objectives for Information and Related Technologies (COBIT)   (not too much sure)
+- [ ] The Open Group Architecture Framework (TOGAF)
+- [ ] Software Development Life Cycle (SDLC)
+
+#### Q97. There are connection-oriented and connectionless protocols in networking. What do web browsers use to ensure the integrity of the data it sends and receives?
+
+- [ ] UDP that is connection-oriented
+- [x] TCP that is connection-oriented   (not too much sure)
+- [ ] UDP that is connectionless
+- [ ] TCP that is connectionless
+
+#### Q98. Which type of attack targets vulnerabilities associated with translating MAC addresses into IP addresses in computer networking?
+
+- [ ] DNS poisoning
+- [ ] CRL trapping
+- [x] ARP spoofing
+- [ ] DDoS
+
+#### Q99. You are part of of an incident response team at your company. While sifting through log files collected by a SIEM, you discover some suspicious log entries that you want to investigate further. Which type of the following best refers to those recorded activities demanding additional scrutiny?
+
+- [ ] attack
+- [ ] information
+- [ ] threat
+- [ ] event
+
+#### Q100. You need to implement a solution to protect internet-facing applications from common attacks like XSS, CSRF, and SQL injection. Which option is best suited to the task?
+
+- [ ] a stateful packet inspection firewall
+- [ ] a web application firewall (WAF)
+- [ ] an Intrusion Detection and Prevention System (IDPS) appliance
+- [ ] Security Information Event Management (SIEM)
+
+#### Q101. You are responsible for forensic investigations in your organization.You have been tasked with investigating a compromised virtual application server. Becase a revenue generating application runs on the server, the server needs to be returned to service as quickly as possible.
+What is the next step you should take to best fulfill your responsibilities and meet the needs of the business?
+
+- [ ] Restore the server from backup immediately.
+- [ ] Take the server offline until your investigation is complete.
+- [ ] Take a snapshot of the compromised virtual server for your investigation.
+- [ ] Restart the server. Remediate the issue after business hours.
