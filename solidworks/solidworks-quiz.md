@@ -424,3 +424,45 @@ the other body.
 - [ ] Within the Split tool, select Consume Bodies.
 - [ ] Within the Split tool, select Save as New Files.
 - [x] Within the Split tool, click File, double-click the body name, type a name for the new part, and click Save.
+
+#### Q52. What is required to create a new 2D sketch?
+
+- [ ] any existing geometry
+- [ ] any existing plane or curved face
+- [x] any existing plane or planar face
+- [ ] any planar or curved surface
+
+#### Q53. You want to enlarge your current design by 3%. What tool would you use?
+
+- [ ] Extrude
+- [ ] Loft
+- [x] Scale
+- [ ] Truncate
+
+#### Q54. Earlier within your part design, you created a sketch. Now you want to make a copy of this sketch to use on a different plane or face. You want to ensure that the two sketches will always be the same, so that if you modify the original sketch, the new sketch is updated to reflect the same changes. How can you achieve this?
+
+- [ ] Copy and paste the original sketch.
+- [ ] Copy and paste the original sketch using Paste Special.
+- [ ] Create a composite sketch.
+- [x] Create a derived sketch.
+
+#### Q55. When creating sketches, small boxes show up next to the sketch lines. What are these boxes called?
+
+- [ ] check boxes
+- [ ] locks
+- [ ] statuses
+- [x] relations
+
+#### Q56. You notice your sketch is blue. How can you make your sketch fully defined?
+
+- [ ] Add in any additional required features.
+- [x] Add in the additional dimensions or relations.
+- [ ] Nothing, the sketch is already fully defined.
+- [ ] Remove any additional dimensions or relations.
+
+#### Q57. Which sketch relation can you NOT apply to a rectangle?
+
+- [ ] coincident
+- [ ] collinear
+- [x] concentric
+- [ ] fix
