@@ -249,7 +249,7 @@ instance.password
 - [ ] It converts a complex value type into simpler value types.
 - [ ] It creates a mapping between two different elements of different iterables.
 
-**Explanation:** - The synax for `map()` function is `list(map(function,iterable))`. the simple area finder using map would be like this
+**Explanation:** - The synax for `map()` function is `list(map(function,iterable))`. The simple area finder using map would be like this
 
 ```python
 import math
@@ -314,7 +314,7 @@ prices = [1.50, 2.25, 0.89]
 ('Bananas', 4, 0.89)]
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 output = []
@@ -331,7 +331,7 @@ output.append(fruit_tuple)
 return output
 ```
 
-- [x]
+- [x] <br>
 
 ```python
 i = 0
@@ -344,7 +344,7 @@ for fruit in fruits:
 return output
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 groceries = zip(fruits, quantities, prices)
@@ -357,7 +357,7 @@ return groceries
 ]
 ```
 
-- [ ]
+- [ ]  <br>
 
 ```python
 i = 0
@@ -392,28 +392,28 @@ else:
 
 _(Answer format may vary. Game and roll (or dice_roll) should each be called with no parameters.)_
 
-- [x]
+- [x] <br>
 
 ```python
 >>> dice = Game()
 >>> dice.roll()
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 >>> dice = Game(self)
 >>> dice.roll(self)
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 >>> dice = Game()
 >>> dice.roll(self)
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 >>> dice = Game(self)
@@ -460,7 +460,7 @@ def print_alpha_nums(abc_list, num_list):
 print_alpha_nums(['a', 'b', 'c'], [1, 2, 3])
 ```
 
-- [x]
+- [x] <br>
 
 ```python
 a 1
@@ -474,13 +474,13 @@ c 2
 c 3
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 ['a', 'b', 'c'], [1, 2, 3]
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 aaa
@@ -491,7 +491,7 @@ ccc
 333
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 a 1 2 3
@@ -499,9 +499,9 @@ b 1 2 3
 c 1 2 3
 ```
 
-#### Q36. Correct representation of doctest for function in Python
+#### Q36. Pick correct representation of doctest for function in Python.
 
-- [ ]
+- [ ] <br>
 
 ```python
 def sum(a, b):
@@ -512,7 +512,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def sum(a, b):
@@ -525,7 +525,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [x]
+- [x] <br>
 
 ```python
 def sum(a, b):
@@ -539,7 +539,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def sum(a, b):
@@ -551,7 +551,7 @@ def sum(a, b):
     return a + b
 ```
 
-**Explanation:** Use """ to start and end the docstring and use >>> to represent the output. If you write this correctly you can also run the doctest using build-in doctest module
+**Explanation:** Use `"""` to start and end the docstring and use `>>>` to represent the output. If you write this correctly you can also run the doctest using build-in doctest module
 
 #### Q37. Suppose a Game class inherits from two parent classes: BoardGame and LogicGame. Which statement is true about the methods of an object instantiated from the Game class?
 
@@ -708,28 +708,28 @@ t1 = test()
 
 #### Q53. What is the correct syntax for defining an `__init__()` method that takes no parameters?
 
-- [ ]
+- [ ] <br>
 
 ```python
 class __init__(self):
     pass
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def __init__():
     pass
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 class __init__():
     pass
 ```
 
-- [x]
+- [x] <br>
 
 ```python
 def __init__(self):
@@ -759,7 +759,7 @@ def __init__(self):
 
 #### Q57. What is the most self-descriptive way to define a function that calculates sales tax on a purchase?
 
-- [ ]
+- [ ] <br>
 
 ```python
 def tax(my_float):
@@ -767,21 +767,21 @@ def tax(my_float):
     pass
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def tx(amt):
     '''Gets the tax on an amount.'''
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def sales_tax(amount):
     '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
 ```
 
-- [x]
+- [x] <br>
 
 ```python
 def calculate_sales_tax(subtotal):
@@ -904,28 +904,28 @@ def calculate_sales_tax(subtotal):
 
 #### Q72. What is the correct syntax of creating an instance method?
 
-- [ ]
+- [ ] <br>
 
 ```python
 def get_next_card():
   # method body goes here
 ```
 
-- [x]
+- [x] <br>
 
 ```python
 def get_next_card(self):
   # method body goes here
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def self.get_next_card():
   # method body goes here
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def self.get_next_card(self):
@@ -973,7 +973,7 @@ my_list = ['kiwi', 'apple', 'banana']
 
 #### Q78. Which choice is the most syntactically correct example of the conditional branching?
 
-- [x]
+- [x] <br>
 
 ```python
 num_people = 5
@@ -986,7 +986,7 @@ else:
     print("There is no one in the pool.")
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 num_people = 5
@@ -999,7 +999,7 @@ else:
     print("There is no one in the pool.")
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 num_people = 5
@@ -1012,7 +1012,7 @@ else;
     print("There is no one in the pool.")
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 if num_people > 10;
@@ -1055,7 +1055,7 @@ while i<6:
 
 #### Q82. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?
 
-- [ ]
+- [ ] <br>
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1063,7 +1063,7 @@ def __init__(self, attr1, attr2):
     attr2 = attr2
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def __init__(attr1, attr2):
@@ -1071,7 +1071,7 @@ def __init__(attr1, attr2):
     attr2 = attr2
 ```
 
-- [x]
+- [x] <br>
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1079,7 +1079,7 @@ def __init__(self, attr1, attr2):
     self.attr2 = attr2
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def __init__(attr1, attr2):
@@ -1100,7 +1100,7 @@ def count_recursive(n=1):
     count_recursive(n + 1)
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 1
@@ -1111,7 +1111,7 @@ def count_recursive(n=1):
 3
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 3
@@ -1119,7 +1119,7 @@ def count_recursive(n=1):
 1
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 3
@@ -1130,7 +1130,7 @@ def count_recursive(n=1):
 1
 ```
 
-- [x]
+- [x] <br>
 
 ```python
 1
@@ -1236,15 +1236,15 @@ a = np.array([1,2,3,4])
 print(a[[False, True, False, False]])
 ```
 
-- [ ] {0,2}
-- [x] [2]
-- [ ] {2}
-- [ ] [0,2,0,0]
+- [ ] `{0,2}`
+- [x] `[2]`
+- [ ] `{2}`
+- [ ] `[0,2,0,0]`
 
 #### Q95. Suppose you have a string variable defined as y=”stuff;thing;junk;”. What would be the output from this code?
 
 ```python
-Z = y.split(‘;’)
+z = y.split(‘;’)
 len(z)
 ```
 
@@ -1271,21 +1271,21 @@ num_list.remove(2)
 print(num_list)
 ```
 
-- [ ] [1,2,4,5]
-- [x] [1,3,4,5]
-- [ ] [3,4,5]
-- [ ] [1,2,3]
+- [ ] `[1,2,4,5]`
+- [x] `[1,3,4,5]`
+- [ ] `[3,4,5]`
+- [ ] `[1,2,3]`
 
 **Explanation**:
 
 ```python
 num_list = [1,2,3,4,5]
 
-num_list.pop(2)
-	[1,2,4,5]
+num_list.pop(3)
+>>> [1,2,4,5]
 
 num_list.remove(2)
-	[1,3,4,5]
+>>> [1,3,4,5]
 ```
 
 #### Q97. What is the correct syntax for creating an instance method?
@@ -1297,12 +1297,12 @@ num_list.remove(2)
 
 #### Q98. Which command will create a list from 10 down to 1? Example:
 
-[10,9,8,7,6,5,4,3,2,1]
+`[10,9,8,7,6,5,4,3,2,1]`
 
-- [ ] reversed(list(range(1,11)))
-- [ ] list(reversed(range(1,10)))
-- [ ] list(range(10,1,-1))
-- [x] list(reversed(range(1,11)))
+- [ ] `reversed(list(range(1,11)))`
+- [ ] `list(reversed(range(1,10)))`
+- [ ] `list(range(10,1,-1))`
+- [x] `list(reversed(range(1,11)))`
 
 [Reference](https://www.w3schools.com/python/python_tuples.asp)
 
@@ -1313,26 +1313,26 @@ import math
 print(math.pow(2,10)) # prints 2 elevated to the 10th power
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 print(2^10)
 ```
 
-- [x]
+- [x] <br>
 
 ```python
 print(2**10)
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 y = [x*2 for x in range(1,10)]
 print(y)
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 y = 1
@@ -1393,10 +1393,10 @@ print (f"The number is {number}")
 
 #### Q104. Which mode is not a valid way to access a file from within a Python script?
 
-- [ ] write('w')
-- [x] scan('s')
-- [ ] append('a')
-- [ ] read('r')
+- [ ] `write('w')`
+- [x] `scan('s')`
+- [ ] `append('a')`
+- [ ] `read('r')`
 
 [Reference](https://docs.python.org/3/library/functions.html#open)
 
@@ -1404,10 +1404,10 @@ print (f"The number is {number}")
 
 #### Q105. Suppose you have a variable named `vector` of type `np.array` with 10.000 elements. How can you turn `vector` into a variable named `matrix` with dimensions 100x100?: _[ANSWER NEEDED]_
 
-- [ ] matrix = matrix(vector,100,100)
-- [ ] matrix = vector.to_matrix(100,100)
-- [ ] matrix = (vector.shape = (100,100))
-- [x] matrix = vector.reshape(100,100)
+- [ ] `matrix = matrix(vector,100,100)`
+- [ ] `matrix = vector.to_matrix(100,100)`
+- [ ] `matrix = (vector.shape = (100,100))`
+- [x] `matrix = vector.reshape(100,100)`
 
 **Example**
 
@@ -1416,7 +1416,7 @@ import numpy as np
 vector = np.random.rand(10000)
 matrix = a.reshape(100, 100)
 print(matrix.shape)
-(100, 100)
+>>> (100, 100)
 ```
 
 #### Q106. NumPy allows you to multiply two arrays without a for loop. This is an example of \_.
@@ -1452,7 +1452,7 @@ my_dictionary = {
 }
 ```
 
-- [x]
+- [x] <br>
 
 ```python
 letters = []
@@ -1548,7 +1548,7 @@ def be_friendly(greet = "How are you!", name):
 
 #### Q118. Given that NumPy is imported as `np`, which choice will return `True`?
 
-- [x]
+- [x] <br>
 
 ```python
 a = np.zeros([3,4])
@@ -1556,7 +1556,7 @@ b = a.copy()
 np.array_equal(a,b)
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 a = np.empty([3,4])
@@ -1564,7 +1564,7 @@ b = np.empty([3,4])
 np.array_equal(a,b)
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 a = np.zeros([3,4])
@@ -1572,7 +1572,7 @@ b = np.zeros([4,3])
 np.array_equal(a,b)
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 a = np.array([1, np.nan])
@@ -1696,7 +1696,7 @@ myFunction("")
 myFunction()
 ```
 
-- [ ]
+- [ ] <br>
 
 ```
 Hello, I am from Spain
@@ -1704,7 +1704,7 @@ Hello, I am from
 Hello, I am from
 ```
 
-- [ ]
+- [ ] <br>
 
 ```
 Hello, I am from France
@@ -1712,7 +1712,7 @@ Hello, I am from France
 Hello, I am from France
 ```
 
-- [x]
+- [x] <br>
 
 ```
 Hello, I am from Spain
@@ -1720,7 +1720,7 @@ Hello, I am from
 Hello, I am from France
 ```
 
-- [ ]
+- [ ] <br>
 
 ```
 Hello, I am from Spain
@@ -1757,7 +1757,7 @@ actors = ["Downey", "Holland", "Evans"]
 
 - [ ] `[(x,y)] for x in characters for y in actors]`
 - [ ] `zip(characters, actors)`
-- [ ]
+- [ ] <br>
 
 ```python
 d = {}
