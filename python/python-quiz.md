@@ -1511,7 +1511,7 @@ x.add(6)
 - [ ] `{6, 1, 2, 3, 4, 5}`
 - [x] `{1, 2, 3, 4, 5, 6}`
 
-**Explanation:** The `.add()` method adds the element to the set only if it doesnt exist.
+**Explanation:** The `.add()` method adds the element to the set only if it doesn't exist.
 
 #### Q115. If you do not explicitly return a value from a function, what happens?
 
@@ -1746,6 +1746,9 @@ Hello, I am from France
 - [ ] `[x for x in titanic['Survived'] if x == 1]`
 - [ ] `len(titanic["Survived"])`
 - [ ] `sum(titanic['Survived']==0)`
+
+**Explanation:** The `titanic['Survived']` returns a `pandas.Series` object, which contains the `Survived` column of the `DataFrame`.
+Adding the values of this column (i.e. `sum(titanic['Survived'])`) returns the total number of survivors since a survivor is represented by a 1 and a loss by 0.  
 
 #### Q130. How would you create a list of tuples matching these lists of characters and actors?
 
