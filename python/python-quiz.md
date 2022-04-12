@@ -377,7 +377,7 @@ return output
 - [ ] The `all()` function will return all the values in the list.
 - [x] The `all()` function returns True if all items in the list evaluate to True. Otherwise, it returns False.
 
-**Explaination** - `all()` returns true if all in the list are True, see example below
+**Explanation** - `all()` returns true if all in the list are True, see example below
 
 ```python
 test = [True,False,False,False]
@@ -948,7 +948,7 @@ def self.get_next_card(self):
 
 #### Q75. What is the correct syntax for replacing the string apple in the list with the string orange?
 
-```
+```python
 my_list = ['kiwi', 'apple', 'banana']
 ```
 
@@ -1231,7 +1231,7 @@ num_list[len(num_list)//2]
 
 #### Q94. What is the output of this code? (NumPy has been imported as np.)?
 
-```
+```python
 a = np.array([1,2,3,4])
 print(a[[False, True, False, False]])
 ```
@@ -1243,7 +1243,7 @@ print(a[[False, True, False, False]])
 
 #### Q95. Suppose you have a string variable defined as y=”stuff;thing;junk;”. What would be the output from this code?
 
-```
+```python
 Z = y.split(‘;’)
 len(z)
 ```
@@ -1265,7 +1265,7 @@ y=”stuff;thing;junk;”
 
 #### Q96. What is the output of this code?
 
-```
+```python
 num_list = [1,2,3,4,5]
 num_list.remove(2)
 print(num_list)
@@ -1278,7 +1278,7 @@ print(num_list)
 
 **Explanation**:
 
-```
+```python
 num_list = [1,2,3,4,5]
 
 num_list.pop(2)
@@ -1308,33 +1308,33 @@ num_list.remove(2)
 
 #### Q99. Which fragment of code will print exactly the same output as this fragment?
 
-```
+```python
 import math
 print(math.pow(2,10)) # prints 2 elevated to the 10th power
 ```
 
 - [ ]
 
-```
+```python
 print(2^10)
 ```
 
 - [x]
 
-```
+```python
 print(2**10)
 ```
 
 - [ ]
 
-```
+```python
 y = [x*2 for x in range(1,10)]
 print(y)
 ```
 
 - [ ]
 
-```
+```python
 y = 1
 for i in range(1,10):
     y = y * 2
@@ -1354,7 +1354,7 @@ print(y)
 
 #### Q101. What is the output of this code? (NumPy has been imported as np.)
 
-```
+```python
 table = np.array([
     [1,3],
     [2,4]])
@@ -1370,7 +1370,7 @@ print(table.max(axis=1))
 
 #### Q102. What will this code print?
 
-```
+```python
 number = 3
 print (f"The number is {number}")
 ```
@@ -1442,7 +1442,7 @@ print(matrix.shape)
 
 #### Q109. Suppose you have the following code snippet and want to extract a list with only the letters. Which fragment of code will _not_ achieve that goal?
 
-```
+```python
 my_dictionary = {
     'A': 1,
     'B': 2,
@@ -1454,7 +1454,7 @@ my_dictionary = {
 
 - [x]
 
-```
+```python
 letters = []
 
 for letter in my_dictionary.values():
@@ -1687,7 +1687,7 @@ num_list[len(num_list) // 2]
 
 ### Q127. What is the output of this code?
 
-```
+```python
 def myFunction(country = "France"):
     print("Hello, I am from", country)
 
@@ -1759,11 +1759,11 @@ actors = ["Downey", "Holland", "Evans"]
 - [ ] `zip(characters, actors)`
 - [ ]
 
-```
+```python
 d = {}
 
 for x in range(1,len(characters)):
-    d[x] = actors [x]
+    d[x] = actors[x]
 ```
 
 - [ ] `{x:y for x in characters for y in actors}`
