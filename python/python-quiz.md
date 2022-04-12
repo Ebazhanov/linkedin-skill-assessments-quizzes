@@ -1789,3 +1789,10 @@ for x in range(1,len(characters)):
 - [ ] `def jaccard(a, b): return a.intersection(b) / a.union(b)`
 
 [Reference](https://docs.python.org/3/tutorial/datastructures.html?highlight=set#sets.)
+
+#### Q133. Which choice is not a native numerical type in Python?
+
+- [ ] Long
+- [ ] Int
+- [ ] Float
+- [x] Double
