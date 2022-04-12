@@ -21,7 +21,7 @@
 ```python
 if any([True, False, False, False]) == True:
     print('Yes, there is True')
->>> Yes, there is True
+>>> 'Yes, there is True'
 ```
 
 #### Q3. What data structure does a binary tree degenerate to if it isn't balanced properly?
@@ -156,7 +156,7 @@ def sum(a, b):
     return a + b
 ```
 
-**explanation** - use ''' to start the doc and add output of the cell after >>>
+**Explanation** - use `'''` to start the doc and add output of the cell after `>>>`
 
 #### Q12. What built-in Python data type is commonly used to represent a stack?
 
@@ -164,8 +164,7 @@ def sum(a, b):
 - [x] `list`
 - [ ] `None`
 - [ ] `dictionary`
-
-`. You can only build a stack from scratch.`
+- [ ] `You can only build a stack from scratch.`
 
 #### Q13. What would this expression return?
 
@@ -385,7 +384,7 @@ if all(test) is True:
     print('Yeah all are True')
 else:
     print('There is an imposter')
->>> There is an imposter
+>>> 'There is an imposter'
 ```
 
 #### Q30. What is the correct syntax for calling an instance method on a class named Game?
@@ -872,11 +871,13 @@ def calculate_sales_tax(subtotal):
 
 [Reference](https://www.guru99.com/python-lambda-function.html)
 
-**Explanation:** `the lambda notation is basically an anonymous function that can take any number of arguments with only single expression (i.e, cannot be overloaded). It has been introducted in other programming languages, such as C++ and Java. The lambda notation allows programmers to "bypass" function declaration.`
+**Explanation:**
+
+> The lambda notation is basically an anonymous function that can take any number of arguments with only single expression (i.e, cannot be overloaded). It has been introducted in other programming languages, such as C++ and Java. The lambda notation allows programmers to "bypass" function declaration.
 
 #### Q68. What is the primary difference between lists and tuples?
 
-- [ ] You can access a specifc element in a list by indexing to its position, but you cannot access a specific element in a tuple unless you iterate through the tuple
+- [ ] You can access a specific element in a list by indexing to its position, but you cannot access a specific element in a tuple unless you iterate through the tuple
 - [x] Lists are mutable, meaning you can change the data that is inside them at any time. Tuples are immutable, meaning you cannot change the data that is inside them once you have created the tuple.
 - [ ] Lists are immutable, meaning you cannot change the data that is inside them once you have created the list. Tuples are mutable, meaning you can change the data that is inside them at any time.
 - [ ] Lists can hold several data types inside them at once, but tuples can only hold the same data type if multiple elements are present.
@@ -934,10 +935,10 @@ def self.get_next_card(self):
 
 #### Q73. What is the correct way to call a function?
 
-- [x] get_max_num([57, 99, 31, 18])
-- [ ] call.(get_max_num)
-- [ ] def get_max_num([57, 99, 31, 18])
-- [ ] call.get_max_num([57, 99, 31, 18])
+- [x] `get_max_num([57, 99, 31, 18])`
+- [ ] `call.(get_max_num)`
+- [ ] `def get_max_num([57, 99, 31, 18])`
+- [ ] `call.get_max_num([57, 99, 31, 18])`
 
 #### Q74. How is comment created?
 
@@ -1138,12 +1139,12 @@ def count_recursive(n=1):
 3
 ```
 
-#### Q84. In Python, when using sets, you use **_ to calculate the intersection between two sets and _** to calculate the union.
+#### Q84. In Python, when using sets, you use **_** to calculate the intersection between two sets and **_** to calculate the union.
 
-- [ ] `Intersect;union`
-- [ ] |; &
-- [x] &; |
-- [ ] &&; ||
+- [ ] `Intersect`; `union`
+- [ ] `|`; `&`
+- [x] `&`; `|`
+- [ ] `&&`; `||`
 
 #### Q85. What will this code fragment return?
 
@@ -1206,10 +1207,10 @@ num_list[len(num_list)//2]
 
 #### Q91. What is the correct syntax for defining a class called Game?
 
-- [ ] def Game(): pass
-- [ ] def Game: pass
-- [x] class Game: pass
-- [ ] class Game(): pass
+- [ ] `def Game(): pass`
+- [ ] `def Game: pass`
+- [x] `class Game: pass`
+- [ ] `class Game(): pass`
 
 [reference here](https://docs.python.org/3/tutorial/classes.html)
 
@@ -1224,10 +1225,10 @@ num_list[len(num_list)//2]
 
 #### Q93. What is the correct syntax for calling an instance method on a class named Game?
 
-- [ ] my_game = Game(self) self.my_game.roll_dice()
-- [ ] my_game = Game() self.my_game.roll_dice()
-- [x] my_game = Game() my_game.roll_dice()
-- [ ] my_game = Game(self) my_game.roll_dice(self)
+- [ ] `my_game = Game(self) self.my_game.roll_dice()`
+- [ ] `my_game = Game() self.my_game.roll_dice()`
+- [x] `my_game = Game() my_game.roll_dice()`
+- [ ] `my_game = Game(self) my_game.roll_dice(self)`
 
 #### Q94. What is the output of this code? (NumPy has been imported as np.)?
 
@@ -1343,7 +1344,7 @@ print(y)
 
 [Reference](https://www.digitalocean.com/community/tutorials/how-to-do-math-in-python-3-with-operators#:~:text=The%20**%20operator%20in%20Python,multiplied%20by%20itself%203%20times.)
 
-#### Q100. Elements surrounded by [] are **\_**, {} are **\_**, and () are **\_**.
+#### Q100. Elements surrounded by `[]` are **\_**, `{}` are **\_**, and `()` are **\_**.
 
 - [ ] sets only; lists or dictionaries; tuples
 - [ ] lists; sets only; tuples
