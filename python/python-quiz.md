@@ -1741,7 +1741,7 @@ Hello, I am from France
 
 ![Q129](images/Q129.png)
 
-- [ ] `sum(titanic['Survived'])`
+- [x] `sum(titanic['Survived'])`
 - [ ] `[x for x in titanic['Survived'] if x == 1]`
 - [ ] `len(titanic["Survived"])`
 - [ ] `sum(titanic['Survived']==0)`
@@ -1756,13 +1756,13 @@ actors = ["Downey", "Holland", "Evans"]
 ```
 
 - [ ] `[(x,y)] for x in characters for y in actors]`
-- [ ] `zip(characters, actors)`
+- [x] `list(zip(characters, actors))`
 - [ ] <br>
 
 ```python
 d = {}
 
-for x in range(1,len(characters)):
+for x in range(1, len(characters)):
     d[x] = actors[x]
 ```
 
@@ -1775,8 +1775,8 @@ for x in range(1,len(characters)):
 ```
 
 - [ ] a dictionary with x as a key, and x squared as its value; from 1 to 100
-- [ ] a dictionary with x as a key, and x squared as its value; from 1 to 99
-- [ ] a set of tuples, consisting of (x,x squared); from 1 to 99
+- [x] a dictionary with x as a key, and x squared as its value; from 1 to 99
+- [ ] a set of tuples, consisting of (x, x squared); from 1 to 99
 - [ ] a list with all numbers squared from 1 to 99
 
 #### Q132. Jaccard Similarity is a formula that tells you how similar two sets are. It is defined as the cardinality of the intersection divided by the cardinality of the union. Which choice is an accurate implementation in Python?
