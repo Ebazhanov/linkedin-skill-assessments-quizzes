@@ -249,7 +249,7 @@ instance.password
 - [ ] It converts a complex value type into simpler value types.
 - [ ] It creates a mapping between two different elements of different iterables.
 
-**Explanation:** - The synax for `map()` function is `list(map(function,iterable)`. the simple area finder using map would be like this
+**Explanation:** - The synax for `map()` function is `list(map(function,iterable))`. the simple area finder using map would be like this
 
 ```python
 import math
