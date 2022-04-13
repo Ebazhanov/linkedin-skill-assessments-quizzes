@@ -214,7 +214,7 @@ class Main {
 
 **Explanation:** The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class, because The import statements of the form:
 
-```import packageName.subPackage.*```
+`import packageName.subPackage.*`
 
 is [Type-Import-on-Demand Declarations](https://docs.oracle.com/javase/specs/jls/se7/html/jls-7.html#jls-7.5.2), which [never causes any other declaration to be shadowed](https://docs.oracle.com/javase/specs/jls/se7/html/jls-6.html#jls-6.4.1).
 
@@ -1882,6 +1882,7 @@ for (Integer x : numbers) {
 ```
 
 - [ ] A
+
 ```java
 int total = numbers.stream()
                         .transform(x -> x * x)
@@ -1889,21 +1890,70 @@ int total = numbers.stream()
                         .sum ();
 ```
 
-- [ ] B 
+- [ ] B
+
 ```java
 int total = numbers.stream()
                         .filter(x -> x % 2 == 0)
                         .collect(Collectors.toInt());
-```    
+```
 
 - [ ] C
+
 ```java
 int total = numbers.stream()
                         .mapToInt (x -> {if (x % 2 == 0) return x * x;})
                         .sum();
-```                        
+```
 
 - [x] D
+
+```java
+int total = numbers.stream()
+                        .filter(x -> x % 2 == 0)
+                        .mapToInt(x -> x * x)
+                        .sum();
+```
+
+#### Q128. Which expression is a functional equivalent?
+
+```java
+List<Integer> numbers = List.of(1,2,3,4);
+int total = 0;
+
+for (Integer x : numbers) {
+    if (x % 2 == 0)
+    total += x * x;
+}
+```
+
+- [ ] A
+
+```java
+int total = numbers.stream()
+                        .transform(x -> x * x)
+                        .filter(x -> x % 2 == 0)
+                        .sum ();
+```
+
+- [ ] B
+
+```java
+int total = numbers.stream()
+                        .filter(x -> x % 2 == 0)
+                        .collect(Collectors.toInt());
+```
+
+- [ ] C
+
+```java
+int total = numbers.stream()
+                        .mapToInt (x -> {if (x % 2 == 0) return x * x;})
+                        .sum();
+```
+
+- [x] D
+
 ```java
 int total = numbers.stream()
                         .filter(x -> x % 2 == 0)

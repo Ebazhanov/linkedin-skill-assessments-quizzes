@@ -1139,7 +1139,7 @@ def count_recursive(n=1):
 3
 ```
 
-#### Q84. In Python, when using sets, you use **_** to calculate the intersection between two sets and **_** to calculate the union.
+#### Q84. In Python, when using sets, you use **\_** to calculate the intersection between two sets and **\_** to calculate the union.
 
 - [ ] `Intersect`; `union`
 - [ ] `|`; `&`
@@ -1748,7 +1748,7 @@ Hello, I am from France
 - [ ] `sum(titanic['Survived']==0)`
 
 **Explanation:** The `titanic['Survived']` returns a `pandas.Series` object, which contains the `Survived` column of the `DataFrame`.
-Adding the values of this column (i.e. `sum(titanic['Survived'])`) returns the total number of survivors since a survivor is represented by a 1 and a loss by 0.  
+Adding the values of this column (i.e. `sum(titanic['Survived'])`) returns the total number of survivors since a survivor is represented by a 1 and a loss by 0.
 
 #### Q130. How would you create a list of tuples matching these lists of characters and actors?
 

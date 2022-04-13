@@ -581,4 +581,3 @@
 - [ ] Hold down CTRL (Windows) or Command (Mac) and select the four items.
 - [ ] Simply select them.
 - [ ] Hold down Shift and select the four items.
-

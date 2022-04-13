@@ -333,8 +333,7 @@
 #### Q39. Why is it useful to suppress a feature?
 
 - [ ] Suppressing changes the color of a feature. This is useful to help easily distinguish between different features.
-- [x] Suppressing removes a feature from a model, but does not delete it. This is useful if you need that feature back in
-the future.
+- [x] Suppressing removes a feature from a model, but does not delete it. This is useful if you need that feature back in the future.
 - [ ] Suppressing removes a feature from a model forever. This is useful if you no longer need that feature.
 - [ ] Suppressing makes a feature transparent. This is useful if you ever need to see through a feature when modeling.
 
@@ -419,8 +418,7 @@ the future.
 
 #### Q51. You have designed a plastic part that you want to split and save in two separate unique parts. You use the Split tool to split the part in half and create the two bodies. What do you do next?
 
-- [ ] Navigate to the Solid Bodies folder, right-click the body name, and select Isolate to save to a new file. Repeat for
-the other body.
+- [ ] Navigate to the Solid Bodies folder, right-click the body name, and select Isolate to save to a new file. Repeat for the other body.
 - [ ] Within the Split tool, select Consume Bodies.
 - [ ] Within the Split tool, select Save as New Files.
 - [x] Within the Split tool, click File, double-click the body name, type a name for the new part, and click Save.
