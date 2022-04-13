@@ -212,7 +212,11 @@ class Main {
 - [ ] It will throw an exception on line 5.
 - [x] "123"
 
-**Explanation:** `The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class.`
+**Explanation:** The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class, because The import statements of the form:
+
+```import packageName.subPackage.*```
+
+is [Type-Import-on-Demand Declarations](https://docs.oracle.com/javase/specs/jls/se7/html/jls-7.html#jls-7.5.2), which [never causes any other declaration to be shadowed](https://docs.oracle.com/javase/specs/jls/se7/html/jls-6.html#jls-6.4.1).
 
 #### Q11. What is the result of this code?
 
