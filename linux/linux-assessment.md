@@ -719,7 +719,7 @@ if [[ $FILE == $GLOB ]] ;then
 
 #### Q87. Which statement about default ACLs is true?
 
-- [ ] They provide inheritance for user and group permissions.
+- [x] They provide inheritance for user and group permissions.
 - [ ] They work only on files.
 - [ ] They provide inheritance for group ownership.
 - [ ] They grant access to the directory on which they are set.
