@@ -1033,3 +1033,11 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] Right-click on any worksheet tab and select **Unhide**
 
 [Reference](https://support.microsoft.com/en-us/office/hide-or-unhide-worksheets-69f2701a-21f5-4186-87d7-341a8cf53344)
+
+#### Q125. You have a column of dog breeds that are in all capital letters. What function would you use to convert those dog breeds so that only the first letter of each word is capitalized?
+
+- [ ] Sentence
+- [ ] Upper
+- [ ] Titlecase
+- [ ] Proper
+
