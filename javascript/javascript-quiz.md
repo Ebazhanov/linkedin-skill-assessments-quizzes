@@ -1207,7 +1207,7 @@ new logThis();
 
 - [ ] defer causes the script to be loaded from the backup content delivery network (CDN).
 - [x] defer allows the browser to continue processing the page while the script loads in the background.
-- [ ] defer blacks the browser from processing HTML below the tag until the script is completely loaded.
+- [ ] defer blocks the browser from processing HTML below the tag until the script is completely loaded.
 - [ ] defer lazy loads the script, causing it to download only when it is called by another script on the page.
 
 **Explanation:** If the defer attribute is set, it specifies that the script is downloaded in parallel to parsing the page, and executed after the page has finished parsing. [HTML \<script\> defer Attribute](https://www.w3schools.com/tags/att_script_defer.asp)
