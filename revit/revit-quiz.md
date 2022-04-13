@@ -67,7 +67,7 @@
 
 #### Q10. When working with design option, what _cannot_ be placed in the option sets?
 
-- [ ] hosted components
+- [x] hosted components
 - [ ] in-place models
 - [ ] detail items
 - [ ] system families
@@ -75,7 +75,7 @@
 #### Q11. In a legend view, where would you find the drop-down list of the families - such as doors, windows, and other components - you want to use as legend components?
 
 - [ ] contextual **Modify** tab on the ribbon
-- [ ] Options Bar
+- [x] Options Bar
 - [ ] right-click menu
 - [ ] Type Selector
 
@@ -83,7 +83,7 @@
 
 - [ ] detail lines
 - [ ] construction lines
-- [ ] reference planes
+- [x] reference planes
 - [ ] reference lines
 
 #### Q13. What items stay the same size no matter the scale of the view?
@@ -96,6 +96,6 @@
 #### Q14. When hard-copy printing, what **Print** dialog option allows you to specify that you want sheet 100 of 100 sheets to be at the bottom of the pile, so that sheet 1 of 100 is on the top of the pile?
 
 - [ ] Sort Sheets Descending Order
-- [ ] Reverse Print Order
+- [x] Reverse Print Order
 - [ ] Last Sheet to Bottom
 - [ ] Set Sheets to Plot in Reverse
