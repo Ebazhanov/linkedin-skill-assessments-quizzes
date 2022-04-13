@@ -8332,6 +8332,16 @@
       "contributions": [
         "business"
       ]
+    },
+    {
+      "login": "rezazzr",
+      "name": "Reza Davari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29124068?v=4",
+      "profile": "https://davari.io/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
