@@ -7,7 +7,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-845-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-846-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1206,6 +1206,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/hari-kiran-vusirikala/"><img src="https://avatars.githubusercontent.com/u/25457325?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hari Kiran Vusirikala</b></sub></a><br /><a href="#design-harikiranvusirikala" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=harikiranvusirikala" title="Code">💻</a></td>
     <td align="center"><a href="https://rickdevelops.github.io/personal/"><img src="https://avatars.githubusercontent.com/u/31971312?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sounak Dey</b></sub></a><br /><a href="#design-rickdevelops" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=rickdevelops" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ziasistani"><img src="https://avatars.githubusercontent.com/u/4399507?v=4?s=100" width="100px;" alt=""/><br /><sub><b>zia</b></sub></a><br /><a href="#business-ziasistani" title="Business development">💼</a></td>
+    <td align="center"><a href="https://davari.io/"><img src="https://avatars.githubusercontent.com/u/29124068?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Reza Davari</b></sub></a><br /><a href="#design-rezazzr" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=rezazzr" title="Code">💻</a></td>
   </tr>
 </table>
 
