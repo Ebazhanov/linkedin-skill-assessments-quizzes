@@ -980,3 +980,10 @@ hint: Updates were rejected because the remote contains work that you do not hin
 - [ ] a pointer to the master branch
 - [x] a pointer to the most recent commit in the currently checked-out branch
 - [ ] a pointer to where the repository is stored in memory
+
+#### Q119. After staging changes to several files, you realize the changes to the confin.properties file are incorrect, and need to be removed from the stage and working directory. What command can you use to remove the staged changes to the file?
+
+- [ ] git reset HEAD^ -- config.properties
+- [x] git rm config.properties
+- [ ] git rf config.properties
+- [ ] git checkout HEAD -- config.properties
