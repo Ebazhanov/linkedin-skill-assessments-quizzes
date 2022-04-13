@@ -1864,3 +1864,45 @@ class Unicorn {
 - [ ] `void`
 - [x] `static`
 - [ ] `protected`
+
+#### Q128. Which expression is a functional equivalent?
+
+```java
+List<Integer> numbers = List.of(1,2,3,4);
+int total = 0;
+
+for (Integer x : numbers) {
+    if (x % 2 == 0)
+    total += x * x;
+}
+```
+
+- [ ] A
+```java
+int total = numbers.stream()
+                        .transform(x -> x * x)
+                        .filter(x -> x % 2 == 0)
+                        .sum ();
+```
+
+- [ ] B 
+```java
+int total = numbers.stream()
+                        .filter(x -> x % 2 == 0)
+                        .collect(Collectors.toInt());
+```    
+
+- [ ] C
+```java
+int total = numbers.stream()
+                        .mapToInt (x -> {if (x % 2 == 0) return x * x;})
+                        .sum();
+```                        
+
+- [x] D
+```java
+int total = numbers.stream()
+                        .filter(x -> x % 2 == 0)
+                        .mapToInt(x -> x * x)
+                        .sum();
+```
