@@ -669,3 +669,17 @@ console.log(currencies);
 - [ ] `#128a7d`
 - [x] `rgba(18, 138, 125,.5)`
 - [ ] `hsl(174, 77%, 31%)`
+
+#### Q67. In a grid layout, which property will create gaps between the rows in the grid?
+
+- [ ] `row-gap`
+- [ ] `rowgap`
+- [ ] `gutter`
+- [ ] `row-gutter`
+
+#### Q68. You are creating a responsive design, but when you view your site on a smaller screen, you notice that images are causing a horizontal scroll bar. How can you solve this problem without stretching any images out of shap?
+
+- [ ] `Set object-fit: contain on the images.`
+- [ ] `Set rize: true on the images.`
+- [ ] `Set max-wdith: 100% on the images.`
+- [ ] `Set width: 100% on the images.`
