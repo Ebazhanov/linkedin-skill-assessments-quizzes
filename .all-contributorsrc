@@ -8411,6 +8411,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "hungqng",
+      "name": "Hung Nguyen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97866339?v=4",
+      "profile": "https://leetcode.com/hungqn04/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
