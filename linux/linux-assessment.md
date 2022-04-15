@@ -724,6 +724,8 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] They provide inheritance for group ownership.
 - [ ] They grant access to the directory on which they are set.
 
+[reference:](https://www.redhat.com/sysadmin/linux-access-control-lists#setting-an-acl)
+
 #### Q88. The object that `systemd` uses to manage services is called a \_ file.
 
 - [x] unit
