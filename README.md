@@ -7,7 +7,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-852-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-853-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1215,6 +1215,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Nabstar3"><img src="https://avatars.githubusercontent.com/u/47038774?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nabstar3</b></sub></a><br /><a href="#design-Nabstar3" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Nabstar3" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/MateuszGolda"><img src="https://avatars.githubusercontent.com/u/58918524?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mateusz</b></sub></a><br /><a href="#design-MateuszGolda" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=MateuszGolda" title="Code">💻</a></td>
     <td align="center"><a href="http://yunus_emre3497[at]hotmail.com"><img src="https://avatars.githubusercontent.com/u/34275999?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yunus Emre Emik</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=yunusemreemik" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/sinhadotabhinav"><img src="https://avatars.githubusercontent.com/u/10262343?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abhinav Sinha</b></sub></a><br /><a href="#design-sinhadotabhinav" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sinhadotabhinav" title="Code">💻</a></td>
   </tr>
 </table>
 
