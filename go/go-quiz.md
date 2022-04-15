@@ -509,3 +509,10 @@ fmt.Println("%f\n", price)
 - [ ] in the order they were added, first in first out
 
 [Reference](https://go.dev/ref/spec#:~:text=The%20iteration%20order%20over%20maps%20is%20not%20specified)
+
+#### Q43. What is an idiomatic way to customize the representation of a custom struct in a formatted string?
+
+- [ ] There is no customizing the string representation of a type.
+- [ ] Build it in pieces each time by calling individual fields.
+- [ ] Implement a method `String()` string
+- [ ] Create a wrapper function that accepts your type and outputs a string.
