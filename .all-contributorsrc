@@ -8392,6 +8392,25 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "yunusemreemik",
+      "name": "Yunus Emre Emik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34275999?v=4",
+      "profile": "http://yunus_emre3497[at]hotmail.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "sinhadotabhinav",
+      "name": "Abhinav Sinha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10262343?v=4",
+      "profile": "https://github.com/sinhadotabhinav",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

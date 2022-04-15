@@ -677,9 +677,25 @@ console.log(currencies);
 - [ ] `gutter`
 - [ ] `row-gutter`
 
-#### Q68. You are creating a responsive design, but when you view your site on a smaller screen, you notice that images are causing a horizontal scroll bar. How can you solve this problem without stretching any images out of shap?
+#### Q68. You are creating a responsive design, but when you view your site on a smaller screen, you notice that images are causing a horizontal scroll bar. How can you solve this problem without stretching any images out of shape?
 
-- [ ] `Set object-fit: contain on the images.`
-- [ ] `Set rize: true on the images.`
-- [ ] `Set max-wdith: 100% on the images.`
-- [ ] `Set width: 100% on the images.`
+- [ ] Set `object-fit: contain` on the images.
+- [x] Set `max-width: 100%` on the images.
+- [ ] Set `width: 100%` on the images.
+- [ ] Set `resize: true` on the images.
+
+#### Q69. The CSS box model describes how the parts of a CSS box fit together and the size of the box. What is the actual width of the following box's visible part under the standard box model?
+
+```css
+box {
+  width: 200px;
+  padding: 10px;
+  margin: 0 15px;
+  border: 2px 5px;
+}
+```
+
+- [ ] 230px
+- [x] 220px
+- [ ] 200px
+- [ ] 260px
