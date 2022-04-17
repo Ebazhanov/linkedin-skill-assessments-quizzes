@@ -58,19 +58,24 @@
 
 #### Q6. Assuming that the gateway, modem, and switch are separate units, in what order should a small office or home office LAN be restarted?
 
-- [ ] The order is not important.
-- [x]
+- [x] A
 
   1. Modem
   2. Gateway
   3. Switch
 
-- [ ]
+- [ ] B
+
   1. Modem
   2. Switch
   3. Gateway
-- [ ] 1. Gateway
+
+- [ ] C
+
+  1. Gateway
   2. Switch
+
+- [ ] The order is not important.
 
 #### Q7. A client needs to secure their cafe's wireless network, which is used only by employees. What is the best approach for a finite list of devices?
 
