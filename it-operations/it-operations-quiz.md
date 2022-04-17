@@ -519,3 +519,10 @@
 - [ ] The Storage Inventory Manager (SIM) can lose its drive references, which may corrupt other storage in the system.
 - [ ] The drive must receive the eject signal and turn itself off, dropping the DTR signal and indicating the media is safe to remove.
 - [ ] The computer must stop the 5-volt signal to media, otherwise the drive may short.
+
+#### Q62. Which part of the network assigns an IP address?
+
+- [ ] the modem using TCP/IP protocol
+- [x] the gateway/router using DHCP
+- [ ] the device's NIC based on the MAC address
+- [ ] IP addresses are always assigned manually
