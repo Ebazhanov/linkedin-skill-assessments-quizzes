@@ -2,26 +2,26 @@
 
 #### Q1. You are configuring a Wi-Fi base station using DHCP. Which items should you set or change?
 
-- [x]
+- [x] A
 
   - Reset administrator password.
   - Set network name.
   - Set network security.
   - Set network password.
 
-- [ ]
+- [ ] B
 
   - Reset administrator password.
   - Set network name.
   - Set network password.
 
-- [ ] 
+- [ ] C
 
   - Set network name.
   - Set network password.
   - Assign DNS servers.
 
-- [ ]
+- [ ] D
 
   - Change administrator account name.
   - Set network password.
