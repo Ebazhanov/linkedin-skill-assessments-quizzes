@@ -463,9 +463,16 @@
 - [ ] page size and filters
 - [ ] database IDs
 
-#### Q62. What is not a method for API authentication or authorization?
+#### Q62. What is _not_ a method for API authentication or authorization?
 
 - [ ] OAuth
 - [x] biometrics
 - [ ] API Keys
 - [ ] username and password
+
+#### Q63. Which HTTP response code usually means the requested work is still processing and may or may not result in an error later?
+
+- [ ] 200 OK
+- [ ] 204 No Content
+- [ ] 201 Created
+- [x] 202 Accepted

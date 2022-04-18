@@ -435,10 +435,10 @@ public static void Main(string[] args)
 
 #### Q39. How would you declare a sealed class named User?
 
-- [ ] public class User
+- [ ] public class User {}
 - [ ] abstract User {}
-- [x] sealed class User
-- [ ] private sealed class User
+- [x] sealed class User {}
+- [ ] private sealed class User {}
 
 [Official documentation: Abstract and Sealed Classes and Class Members](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/abstract-and-sealed-classes-and-class-members)
 
@@ -484,11 +484,11 @@ public static void Main(string[] args)
 
 [Official documentation: SerializableAttribute Class](https://docs.microsoft.com/en-us/dotnet/api/system.serializableattribute?view=net-5.0)
 
-#### Q44. How would you write a delegate named ResultCallback with an int parameter named responseCode
+#### Q44. How would you write a delegate named ResultCallback with an int parameter named responseCode?
 
-- [ ] public delegate ResultCallback(int responseCode)
+- [ ] public delegate ResultCallback(int responseCode);
 - [ ] public delegate void ResultCallback<(int) responseCode>;
-- [ ] public void delegate ResultCallback<int responseCode>;
+- [ ] public void delegate ResultCallback\<int responseCode\>;
 - [x] public delegate void ResultCallback(int responseCode);
 
 [Official documentation: Delegates](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/)
@@ -693,12 +693,12 @@ public int Password
 
 [Official documentation: Jump statements](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/statements/jump-statements)
 
-#### Q64. Which code snippet correctly declares a variable names userId with a public `get` and private `set`?
+#### Q64. Which code snippet correctly declares a variable named userId with a public `get` and private `set`?
 
 - [ ] `public int userID <get, set>;`
 - [ ] `public int userID [get, private set];`
 - [x] `public int userID { get; private set; }`
-- [ ] `public int userID = { public get, private set};`
+- [ ] `public int userID = { public get, private set };`
 
 [Official documentation: Properties](https://docs.microsoft.com/en-us/dotnet/csharp/properties)
 
@@ -729,7 +729,34 @@ public int Password
 
 #### Q68. Do you need to declare an out variable before you use it?
 
-- [ ] `No, you can declare it the parameter list.`
-- [x] `Out variables are no longer part of C#.`
+- [x] `No, you can declare it the parameter list.`
+- [ ] `Out variables are no longer part of C#.`
 - [ ] `You must declare it if it is a primitive type.`
 - [ ] `Yes.`
+
+#### Q69. How would you access the last two people in an array named People?
+
+- [x] `People[..^2]`
+- [ ] `You cannot do this in C#.`
+- [ ] `People[..^3]`
+- [ ] `People[^2]`
+
+[Official Documentation: Ranges](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-8.0/ranges)
+
+#### Q70. When can anonymous types be created?
+
+- [x] `at compile time`
+- [ ] `after runtime`
+- [ ] `at runtime`
+- [ ] `after compile time`
+
+[C-sharpcorner: Anonymous Types](https://www.c-sharpcorner.com/UploadFile/ff2f08/anonymous-types-in-C-Sharp/)
+
+#### Q71. What is true about thread multitasking?
+
+- [x] `Thread multitasking allows code to be executed concurrently`
+- [ ] `Thread multitasking allows code to be executed only when handling a user event.`
+- [ ] `Thread multitasking blocks code from being executed simultaneously to guard memory.`
+- [ ] `Thread multitasking adds single-threaded code blocks together.`
+
+[Official Documentation: Threads](https://docs.microsoft.com/en-us/dotnet/standard/threading/threads-and-threading)

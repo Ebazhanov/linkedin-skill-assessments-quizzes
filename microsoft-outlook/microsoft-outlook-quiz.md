@@ -333,7 +333,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] user; new messages and replies
 - [ ] user; new messages and replies or forwards
 
-#### Q45. While using Focused Inbox, you notice that Outlook sometimes puts important messages from a specific customer on th Another tab. How do you fix this for future messages?
+#### Q45. While using Focused Inbox, you notice that Outlook sometimes puts important messages from a specific customer on the other tab. How do you fix this for future messages?
 
 - [x] Right-click a message that was incorrectly organized and click Move to Focused.
 - [ ] Right-click a message that was incorrectly organized and click Always Move to Focused.
@@ -361,7 +361,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] as a column
 - [ ] as a criteria set
 
-#### Q49. When you compose and email and click the To or Cc button, where does Outlook search first?
+#### Q49. When you compose an email and click the To or Cc button, where does Outlook search first?
 
 - [ ] none of these answers
 - [ ] your People list
@@ -542,7 +542,7 @@ D. Because you cannot create a search folder for a subfolder
 
 - [ ] Change your computer's display and resolution settings.
 - [ ] Reply to the email, select all, and increase the font size.
-- [ ] Use the Zoom button.
+- [x] Use the Zoom button.
 - [ ] Change the Message Preview option to the maximum 3 lines setting.
 
 #### Q74. You are sending an email to several people, and you want any responses to go to a colleague. How can you set this up?
@@ -582,9 +582,144 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] Use mail merge to send the invitations.
 - [ ] Add "NRR (no response required)" to the subject line
 
-#### Q79. What would be the best way to have emails sent directly to you in your Inbox, but hide emails for later review when you are in the Cc line?
+#### Q79. You are organizing your Outlookfolders. For all emails that are sent directly to you, they should appear in your inbox. For all emails on which you are cc'd, they should be automatically hidden for later review. What is the best way to accomplish these goals?
 
-- [x] Create a Ccd folder, and then create a rule to move all messages where you are on the Cc line to that folder.
+- [x] Create a Ccd folder, and then create a rule to move all messages where you are on the cc line to that folder.
 - [ ] Create a rule to move all messages where you are in the Cc line to the Deleted items folder.
 - [ ] Turn on Focused Inbox.
 - [ ] Create a rule to apply conditional formatting to all messages where you are in the Cc line.
+
+##### Q80. You created a meeting for next Tuesday at 2 p.m., and several invitees have accepted. How do you change the meeting so it will begin at 1 p.m.?
+
+A. Open the calendar in Day, Week, or Work Week view. Drag the start time to 1 p.m. and send an update.  
+B. Double-click the meeting to open it, change the start time to 1 p.m., and send an update.  
+C. Some people have already accepted, so you must cancel this meeting and create a new meeting.
+
+- [ ] A or B
+- [x] B
+- [ ] C
+- [ ] А
+
+##### Q81. Which is not valid search criteria when searching for messages in your Inbox?
+
+- [ ] attachments
+- [ ] words found in the message itself
+- [ ] who sent the email
+- [x] what geographic location the email was sent from
+
+##### Q82. You copied several paragraphs of text to the clipboard and want to paste this text into the body of a new task. What is the most efficient way to do this?
+
+- [ ] Click the Task icon and then press Ctrl+V (Windows) or Command+V (Mac).
+- [x] Open a task form using Ctrl+Shift+K (Windows) or Command+Shift+K (Mac), click in the body, and then press Ctrl+V (Windows) or Command+V (Mac).
+- [ ] Click the Task icon and, on the Home tab, click New from Clipboard.
+- [ ] Click the Task icon and, on the Insert tab, click New Items > More Items > Paste Special.
+
+##### Q83. What is a key difference between flagging a message for follow-up and creating a task from the item?
+
+- [ ] A task will sync with Microsoft To-Do; a flagged email will not.
+- [x] You can set a reminder for a task, but not for a flagged item.
+- [ ] A task can be assigned to another person while a flagged item cannot be delegated.
+- [ ] The flagged message appears only in the Inbox folder; the task appears in the To-Do bar and task list.
+
+##### Q84. What allows Outlook to automatically flag, forward, move, tag, and respond to email messages?
+
+- [x] Rules
+- [ ] Quick Parts
+- [ ] Categorize
+- [ ] Quick Steps
+
+##### Q85. What is the easiest way to add the contact of someone who sent you an email?
+
+- [ ] Copy and paste their email address into a new contact form.
+- [x] Right-click the sender's name in the message and select Add to Outlook Contacts (Windows) or Open Outlook contacts (Mac).
+- [ ] Double-click the sender's email address in the message and select Add to Outlook Contacts (Windows) or Open Outlook contacts (Mac).
+- [ ] # Open the email and press Ctrl+Q (Windows) or Command+Q (Mac).
+- [ ] Create a rule to apply conditional formatting to all messages where you are in the cc line.
+
+#### Q80. You created a meeting for next Tuesday at 2 p.m., and several invitees have accepted. How do you change the meeting so it will begin at 1 p.m.?
+
+A. Open the calendar in Day, Week, or Work Week view. Drag the start time to 1 p.m. and send an update.  
+B. Double-click the meeting to open it, change the start time to 1 p.m., and send an update.  
+C. Some people have already accepted, so you must cancel this meeting and create a new meeting.
+
+- [ ] A or B
+- [x] B
+- [ ] C
+- [ ] А
+
+#### Q81. Which is not valid search criteria when searching for messages in your Inbox?
+
+- [ ] attachments
+- [ ] words found in the message itself
+- [ ] who sent the email
+- [x] what geographic location the email was sent from
+
+#### Q82. You copied several paragraphs of text to the clipboard and want to paste this text into the body of a new task. What is the most efficient way to do this?
+
+- [ ] Click the Task icon and then press Ctrl+V (Windows) or Command+V (Mac).
+- [x] Open a task form using Ctrl+Shift+K (Windows) or Command+Shift+K (Mac), click in the body, and then press Ctrl+V (Windows) or Command+V (Mac).
+- [ ] Click the Task icon and, on the Home tab, click New from Clipboard.
+- [ ] Click the Task icon and, on the Insert tab, click New Items > More Items > Paste Special.
+
+#### Q83. What is a key difference between flagging a message for follow-up and creating a task from the item?
+
+- [ ] A task will sync with Microsoft To-Do; a flagged email will not.
+- [x] You can set a reminder for a task, but not for a flagged item.
+- [ ] A task can be assigned to another person while a flagged item cannot be delegated.
+- [ ] The flagged message appears only in the Inbox folder; the task appears in the To-Do bar and task list.
+
+#### Q84. What allows Outlook to automatically flag, forward, move, tag, and respond to email messages?
+
+- [x] Rules
+- [ ] Quick Parts
+- [ ] Categorize
+- [ ] Quick Steps
+
+#### Q85. What is the easiest way to add the contact of someone who sent you an email?
+
+- [ ] Copy and paste their email address into a new contact form.
+- [x] Right-click the sender's name in the message and select Add to Outlook Contacts (Windows) or Open Outlook contacts (Mac).
+- [ ] Double-click the sender's email address in the message and select Add to Outlook Contacts (Windows) or Open Outlook contacts (Mac).
+- [ ] Open the email and press Ctrl+Q (Windows) or Command+Q (Mac).
+
+#### Q86. You type an email and click Send, but your internet connection is currently unavailable. Where does Outlook store the unsent email?
+
+- [x] Outbox
+- [ ] Drafts
+- [ ] Archive
+- [ ] Sent Items
+
+#### Q87. You have been tasked with inviting 75 people to an event. You do not need to track whether or not they intend to attend. to save time, what should you do?
+
+- [ ] Use mail merge to send the invitations.
+- [x] Turn off Request Responses under Response Options.
+- [ ] Add "NRR (no response required)" to the subject line.
+- [ ] Add all recipients to the Bcc field.
+
+#### Q88. You opened an email message and Outlook is not displaying the included pictures. Why is this?
+
+- [ ] Outlook automatically converts email to HTML.
+- [ ] Outlook can display only pictures stored in JPG format.
+- [x] Pictures need to be downloaded
+- [ ] Outlook cannot show pictures in emails.
+
+#### Q89. What does the Work Offline (Windows) or Online/Offline toggle (Mac) do?
+
+- [ ] It stops incoming emails but allows outgoing emails.
+- [ ] It allows incoming emails but stops outgoing emails.
+- [ ] It disconnects the computer from the network.
+- [x] It disconnects Outlook from the server to stop incoming and outgoing emails.
+
+#### Q90. Which feature tags a person in an email thread and sends them a flagged message?
+
+- [ ] Permissions
+- [ ] Mail Tips
+- [x] Mentions
+- [ ] Share
+
+#### Q91. You want to share a file with collegues via email. Why is it a benefit to embed a link to the file in your email, rather than attach the actual file?
+
+- [ ] It takes up less space in their mailboxes.
+- [ ] It takes up less space in your mailbox.
+- [ ] It allows better version control of the file..
+- [x] all of these answers

@@ -574,3 +574,26 @@ console.log(person);
 - [ ] Libuv
 - [x] Google V8
 - [ ] Express.js
+
+#### Q70. What is the importance of having good practices around status code in your response?
+
+- [ ] It indicates success or failure to the client and helps with testing.
+- [ ] It is not important to have good practices regarding status codes
+- [ ] Response codes are the only way you can tell what is happening on the server.
+- [x] It contains information about the current performance of the server.
+
+#### Q71. How can ECMAScript modules be used natively in Node?
+
+- [x] ECMAScript modules cannot be used natively in Node.
+- [ ] ECMAScript modules can be used natively in Node with the .mjs file extension
+- [ ] ECMAScript modules can be used natively in Node only by using a compiler like Babel.
+- [ ] ECMAScript modules can be used natively in Node only by using a bundle like webpack.
+
+#### Q72. When exploring the Node documentation's features, what are the stability ratings?
+
+- [x] They are an indication of the stability of Nodejs modules and usage recommendations.
+- [ ] They tell if a feature is ES6 compliant.
+- [ ] They are a Node command to validate stability of your code.
+- [ ] They tell if a feature is LTS (Long Term Supported).
+
+[Reference](https://nodejs.org/api/documentation.html)

@@ -1364,9 +1364,8 @@ $('#element')
   });
 ```
 
-[Source: HTMLElement: animationend event | MDN ](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationend_event)
-
-[Example: Stackoverflow](https://stackoverflow.com/questions/49580666/check-if-an-css-animation-is-completed-with-jquery-or-js)
+1. [Source: HTMLElement: animationend event | MDN ](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationend_event)
+2. [Example: Stackoverflow](https://stackoverflow.com/questions/49580666/check-if-an-css-animation-is-completed-with-jquery-or-js)
 
 #### Q69. HTML5 data attributes allow you to create valid custom attributes to store arbitrary data within DOM elements. jQuery has an API to interface with custom data such as the series of quotes below. How can you mark the second quote as your favorite?
 
@@ -1384,9 +1383,8 @@ $('#element')
 - [ ] `$('blockquote').second().data('favorite', true);`
 - [ ] `$('blockquote:nth-child(2)').attr('favorite', true);`
 
-[Source: .data() | jQuery API Documentation](https://api.jquery.com/data/)
-
-[Source: :nth-child() | MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
+1. [Source: .data() | jQuery API Documentation](https://api.jquery.com/data/)
+2. [Source: :nth-child() | MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
 
 #### Q70. jQuery can create event handlers that execute exactly once. How is this done?
 
@@ -1415,6 +1413,58 @@ $('#element')
 - [ ] The `children()` function only includes text nodes of the selected elements.
 - [x] They both return the content of selected nodes, but `contents()` also includes text and comment nodes.
 
-[Source: .children() | jQuery API Documentation](https://api.jquery.com/children/)
+1. [Source: .children() | jQuery API Documentation](https://api.jquery.com/children/)
+2. [Source: .contents() | jQuery API Documentation](https://api.jquery.com/contents/)
 
-[Source: .contents() | jQuery API Documentation](https://api.jquery.com/contents/)
+#### Q73. If you JavaScript project involves a lot of DOM manipulation, but no AJAX or animation, which version of jQuery should you use?
+
+- [ ] jQuery 3 compressed
+- [ ] jQuery 3 slim
+- [ ] jQuery 2
+- [x] None of these - jQuery requires AJAX
+
+#### Q74. The `.ready()` function is one of the most basic parts of jQuery, but jQuery also provides a mechanism for executing code when both one or more Promises have resolved and the DOM is ready. Which code snippet accomplishes this?
+
+[ ] - A
+
+```js
+$(function({
+    getData : $.get('http://httpbin.org/get'),
+    delayedData : $.get('http://httpbin.org/delay/3')
+})  {
+    //DOM is ready, getData and delayedData are available
+});
+```
+
+[ ] - B
+
+```js
+$(
+    $.get('http://httpbin.org/get'),
+    $.get('http://httpbin.org/delay/3')
+ ).then(function(getData, delayedData)  {
+    //DOM is ready, getData and delayedData are available
+});
+```
+
+[ ] - C
+
+```js
+$.when(
+    $.get('http://httpbin.org/get'),
+    $.get('http://httpbin.org/delay/3')
+ ).then(function(getData, delayedData)  {
+    //DOM is ready, getData and delayedData are available
+});
+```
+
+[x] - D
+
+```js
+$.ready(
+    $.get('http://httpbin.org/get'),
+    $.get('http://httpbin.org/delay/3')
+ ).then(function(getData, delayedData)  {
+    //DOM is ready, getData and delayedData are available
+});
+```

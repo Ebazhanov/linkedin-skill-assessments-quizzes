@@ -706,8 +706,8 @@ textfile2.txt
 
 ----------
 
-<code>shopt -s extglob
-rm !(*gif|*jpg)</code>
+`shopt -s extglob
+rm !(*gif|*jpg)`
 ```
 
 - [ ] a
@@ -813,7 +813,7 @@ echo "$var" | sed _____
 - [ ] screen --shared
 - [ ] terminal -shared
 
-#### Q66. Wich operator sends the output of ls to a file for later use??
+#### Q66. Wich operator sends the output of ls to a file for later use?
 
 - [ ] ls < filelist.txt
 - [ ] ls ¦ filelist.txt
@@ -865,3 +865,122 @@ echo 'Hello, $(whoami)!'
 - [ ] find $HOME -name "\*.csv" 1>/dev/null
 - [x] find $HOME -name "\*.csv" 2>/dev/null
 - [ ] find HOME -name "\*.csv" 1>/dev/null
+
+#### Q73. In Bash, what does a # at the end of the default prompt string indicate?
+
+- [x] that the user is acting as root
+- [ ] that the current working directory is the root of the file system
+- [ ] that there are updates for the system available
+- [ ] that the user is unprivileged
+
+#### Q74. What will be the output of this command?
+
+```bash
+$ ls -l
+file10.txt
+file1.txt
+fileabc.txt
+filea.txt
+fileb.txt
+filec.txt
+$ ls -l file[^abc]*.txt
+```
+
+- [x] A
+
+```bash
+file1.txt
+file10.txt
+```
+
+- [ ] B
+
+```bash
+file10.txt
+file1.txt
+fileabc.txt
+filea.txt
+fileb.txt
+filec.txt
+```
+
+- [ ] C
+
+```bash
+fileabc.txt filea.txt fileb.txt filec.txt
+```
+
+- [ ] D
+
+```bash
+filea.txt
+fileb.txt
+filec.txt
+```
+
+The caret (`^`) symbol here negates matches inside the bracket. [Reference](https://tldp.org/LDP/abs/html/globbingref.html)
+
+#### Q75. What is the output of this command sequence?
+
+```bash
+cat <<EOF
+------------------------
+   This is line 1.
+   This is line 2.
+   This is line 3.
+------------------------
+EOF
+```
+
+- [ ] A
+
+```bash
+This is line 1.
+This is line 2.
+This is line 3.
+```
+
+- [ ] B
+
+```bash
+------------------------This is line 1.This is line 2.This is line 3.------------------------
+```
+
+- [x] C
+
+```bash
+------------------------
+   This is line 1.
+   This is line 2.
+   This is line 3.
+------------------------
+```
+
+- [ ] D
+
+```bash
+------------------------
+This is line 1.
+This is line 2.
+This is line 3.
+------------------------
+```
+
+#### Q76. What would be in out.txt?
+
+```bash
+#!/bin/bash
+
+echo 123446789 > out. txt
+exec 3<> out. txt
+read -n 4 <&3
+echo -n 5 >&3
+exec 3>&-
+```
+
+- [ ] 123446789
+- [ ] the hyphen symbol (-)
+- [x] 123456789
+- [ ] the number 5, which is written to the file using echo
+
+See [I/O Redirection](https://tldp.org/LDP/abs/html/io-redirection.html)

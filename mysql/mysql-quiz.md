@@ -80,54 +80,54 @@
 
 - [ ] A
 
-```
-    1 CREATE TABLE employee (
-    2 employee ID char(10),
-    3 firstName varchar(50),
-    4 lastName varchar(50),
-    5 phone varchar(20),
-    6 address varchar(50),
-    7 PRIMARY KEY ON employeeID
-    8 );
+```sql
+    CREATE TABLE employee (
+    employeeID char(10),
+    firstName varchar(50),
+    lastName varchar(50),
+    phone varchar(20),
+    address varchar(50),
+    PRIMARY KEY ON employeeID
+    );
 ```
 
 - [ ] B
 
-```
-    1 CREATE TABLE employee (
-    2 employee ID char(10),
-    3 firstName varchar(50),
-    4 lastName varchar(50),
-    5 phone varchar(20),
-    6 address varchar(50),
-    7 PRIMARY KEY employeeID
-    8 );
+```sql
+    CREATE TABLE employee (
+    employeeID char(10),
+    firstName varchar(50),
+    lastName varchar(50),
+    phone varchar(20),
+    address varchar(50),
+    PRIMARY KEY employeeID
+    );
 ```
 
 - [ ] C
 
-```
-    1 CREATE TABLE IF EXISTS employee (
-    2 employee ID char(10),
-    3 firstName varchar(50),
-    4 lastName varchar(50),
-    5 phone varchar(20),
-    6 address varchar(50),
-    7 PRIMARY KEY (employeeID)
-    8 );
+```sql
+    CREATE TABLE IF EXISTS employee (
+    employeeID char(10),
+    firstName varchar(50),
+    lastName varchar(50),
+    phone varchar(20),
+    address varchar(50),
+    PRIMARY KEY (employeeID)
+    );
 ```
 
 - [x] D
 
 ```sql
-    1 CREATE TABLE IF NOT EXISTS employee (
-    2 employee ID char(10),
-    3 firstName varchar(50),
-    4 lastName varchar(50),
-    5 phone varchar(20),
-    6 address varchar(50),
-    7 PRIMARY KEY (employeeID)
-    8 );
+    CREATE TABLE IF NOT EXISTS employee (
+    employeeID char(10),
+    firstName varchar(50),
+    lastName varchar(50),
+    phone varchar(20),
+    address varchar(50),
+    PRIMARY KEY (employeeID)
+    );
 ```
 
 #### Q9. You are working with the tables as shown in this diagram. You need to generate the list of customers who purchased certain car models. Which SQL clause do you use?
@@ -215,7 +215,7 @@
 
 #### Q20. Which choice is NOT a statement you would use to filter data?
 
-- [x] GROUP_BY
+- [x] GROUP BY
 - [ ] WHERE
 - [ ] LIMIT
 - [ ] LIKE
@@ -319,6 +319,8 @@
 - [ ] WITH HEADERS
 - [x] UNION
 - [ ] WITH COLUMNS
+
+[Sample](https://stackoverflow.com/questions/5941809/include-headers-when-using-select-into-outfile)
 
 #### Q35. One form of backup, replication, enables you to maintain identical data on multiple servers, as a \_ configuration.
 
@@ -439,6 +441,8 @@ This is exactly what [WITH clause](https://dev.mysql.com/doc/refman/8.0/en/with.
 - [x] updatable
 - [ ] temptable
 - [ ] undefined
+
+[Reference](https://dev.mysql.com/doc/refman/8.0/en/view-algorithms.html)
 
 #### Q50. What is the MySQL `perror` command-line utility used for?
 
@@ -673,10 +677,10 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 #### Q71. Which choice is _not_ a valid model for a stored procedure parameter?
 
-- [x] INOUT
+- [ ] INOUT
 - [ ] IN
 - [ ] OUT
-- [ ] IN OUT
+- [x] IN OUT
 
 #### Q72. What is the advantage of using a temporary table instead of a heap table?
 
@@ -841,8 +845,8 @@ SELECT name FROM students WHERE name REGEXP '^to';
 #### Q92. How are permissions implemented in MySQL?
 
 - [ ] encrypted algorithms
-- [ ] access control lists
-- [x] user settings
+- [x] access control lists
+- [ ] user settings
 - [ ] administrator schema
 
 #### Q93. Inside a transaction, several operations need to be performed. What would you do if an exception happens during that transaction?
@@ -850,7 +854,7 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] `UNDO`
 - [ ] `UNCOMMIT`
 - [x] `ROLLBACK`
-- [ ] `REVERSE
+- [ ] `REVERSE`
 
 #### Q94. What function finds the current time or date in MySQL?
 
@@ -875,9 +879,43 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] `BEFORE INSERT`
 - [ ] `CROSS JOIN`
 
-#### Q97. The mysqldump command cannot generate output in ______.
+#### Q97. The mysqldump command cannot generate output in **\_**.
 
 - [x] JSON
 - [ ] CSV
 - [ ] XML
 - [ ] TXT
+
+#### Q98. You are working with the tables as shown in this diagram. You need to generate the list of all cars, whether or not they had been sold, with the purchase date of the cars that were sold. Which statement accomplishes that?
+
+![mysql picture](images/mysql_q98.png)
+
+- [ ] A
+
+```
+SELECT cars.*, purchases.date
+FROM cars RIGHT JOIN purchases
+ON cars.ID = purchases.carID;
+```
+
+- [ ] B
+
+```
+SELECT cars.*, purchases.date
+FROM cars INNER JOIN purchases
+ON cars.ID = purchases.carID;
+```
+
+- [ ] C
+
+```
+SELECT cars.*, purchases.date
+FROM cars JOIN purchases
+ON cars.ID = purchases.carID;
+```
+
+- [x] D
+
+```
+SELECT cars.*, purchases.date FROM cars LEFT JOIN purchases ON cars.ID = purchases.carID;
+```

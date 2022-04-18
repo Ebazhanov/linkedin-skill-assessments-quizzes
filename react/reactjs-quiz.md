@@ -1148,3 +1148,71 @@ function Dish() {
 - [ ] You are using Create React App.
 
 [Reference](https://teamtreehouse.com/community/hey-why-the-logo-of-react-developer-tools-appears-in-red)
+
+#### Q101. How would you modify the constructor to fix this erroe: "ReferenceError: Must call super constructor in derived class before accessing 'this'..."?
+
+```
+class TransIsBeautiful extends React.Component {
+  constructor(props){
+  // Missing line
+  console.log(this) ;
+  }
+  ...
+}
+```
+
+- [ ] render(props);
+- [x] super(props);
+- [ ] super(this);
+- [ ] this.super();
+
+#### Q102. Which language can you not use with React?
+
+- [x] Swift.
+- [ ] JSX.
+- [ ] Javascipt.
+- [ ] TypeScript.
+
+#### Q103. This code is part of an app that collects Pokemon. How would you print the list of the ones collected so far?
+
+```javascript
+constructor(props) {
+    super(props);
+    this.state = {
+        pokeDex: []
+    };
+}
+```
+
+- [ ] console.log(props.pokeDex);
+- [ ] console.log(this.props.pokeDex);
+- [ ] console.log(pokeDex);
+- [x] console.log(this.state.pokeDex);
+
+[Reference](https://www.digitalocean.com/community/tutorials/how-to-manage-state-on-react-class-components#step-3-setting-state-from-a-static-value)
+
+#### Q104. What would be the result of running this code?
+
+```javascript
+function add(x = 1, y = 2) {
+  return x + y;
+}
+
+add();
+```
+
+- [ ] null
+- [x] 3
+- [ ] 0
+- [ ] undefined
+
+![image](https://user-images.githubusercontent.com/62549240/160531605-bf8790d5-5eb9-4291-a9bd-4232f2fd7b6e.png)
+
+#### Q105. Why might you use a React.ref?
+
+- [ ] to refer to another JS file
+- [ ] to bind the function
+- [ ] to call a function
+- [x] to directly access the DOM node
+
+[Reference](https://reactjs.org/docs/refs-and-the-dom.html)
