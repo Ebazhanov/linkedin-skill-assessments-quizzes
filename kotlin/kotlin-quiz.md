@@ -32,7 +32,7 @@ class Airplane(private val name: String) : Aircraft() {
 - [x] Abstract function always returns null
 - [ ] A superclass is initialized before its subclass. Therefore, name has not been set before it is rendered
 
-#### Q3. Kotlin interfaces ad abstract classes are very similar. What is one thing abstract class can do that interfaces cannot?
+#### Q3. Kotlin interfaces and abstract classes are very similar. What is one thing abstract class can do that interfaces cannot?
 
 - [ ] Only abstract classes are inheritable by subclasses
 - [ ] Only abstract classes can inherit from multiple superclasses
@@ -220,7 +220,7 @@ println(set.count())
 - [ ] `println(b?.length ?? 0)`
 - [ ] `println(b == null? 0: b.length)`
 
-#### Q18. In the file main.kt, you ae filtering a list of integers and want to use an already existing function, removeBadValues. What is the proper way to invoke the function from filter in the line below?
+#### Q18. In the file main.kt, you are filtering a list of integers and want to use an already existing function, removeBadValues. What is the proper way to invoke the function from filter in the line below?
 
 ```kotlin
 val list2 = (80..100).toList().filter(_____)
