@@ -1468,3 +1468,73 @@ $.ready(
     //DOM is ready, getData and delayedData are available
 });
 ```
+
+#### Q75. You want to take an element and any event handlers that go with it out of the DOM to do some work—without the changes affecting the rest of the page—and then move it somewhere else in the DOM, like right after the opening tag. What should go on the first line of this code snippet?
+
+```js
+// what goes here?
+// ... do some other hidden work on $example
+$example.prependTo(document.body);
+```
+
+- [ ] `var $example = $('#example').remove();`
+- [ ] `var $example = $('#example').clone();`
+- [x] `var $example = $('#example').detach();`
+- [ ] `var $example = $('#example').addBack().empty();`
+
+https://api.jquery.com/detach/
+
+#### Q76. Review the HTML below. You want to select the first item in the list and fade it out, then select the subsequent items up to (but not including) the active item, and fade them out halfway. How can you set up a single chain to do this?
+
+```html
+<ul class="items">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+  <li class="active">Item 4</li>
+  <li>Item 5</li>
+  <li>Item 6</li>
+</ul>
+```
+- [x] A
+
+```js
+$('.items > li')
+  .first().fadeOut()
+  .nextUntil('.active').fadeTo('fast', 0.5);
+```
+
+- [ ] B
+
+```js
+$('.items')
+  .children(':first-child').fadeOut()
+  .filter('.active').fadeTo('fast', 0.5);
+```
+
+- [ ] C
+
+```js
+$('.items > li')
+  .first().fadeOut()
+  .nextAll('.active').fadeOut(50);
+```
+
+- [ ] D
+
+```js
+$('.items')
+  .find('li:first-child').fadeOut()
+  .next('.active').fadeTo('fast', 0.5);
+```
+
+1. https://api.jquery.com/fadeTo/
+2. https://api.jquery.com/fadeOut/
+3. https://api.jquery.com/nextUntil/
+
+#### Q77. What is a particular performance concern when dealing with event handlers, and how can you cope with it?
+
+- [ ] Finding which element an event occurred on is expensive. Assign most events to document.body and use .is() to act on the element of interest.
+- [x] Some events, such as mousemove and scroll, happen a lot on a typical page. Debounce or throttle their handlers to make sure the handlers are not called more than you actually need.
+- [ ] Listening for an event that does not exist can create serious memory leaks. Be careful to spell event names correctly to avoid consuming too much memory.
+- [ ] DOM elements with an ID wil fire events more efficiently than with classes. Always use IDs instead of classes where possible.
