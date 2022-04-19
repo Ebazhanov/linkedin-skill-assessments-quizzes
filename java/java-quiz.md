@@ -1915,48 +1915,12 @@ int total = numbers.stream()
                         .sum();
 ```
 
-#### Q128. Which expression is a functional equivalent?
+**Explanation:** The given code in the question will give you the output 20 as total
 
-```java
-List<Integer> numbers = List.of(1,2,3,4);
-int total = 0;
-
-for (Integer x : numbers) {
-    if (x % 2 == 0)
-    total += x * x;
-}
 ```
-
-- [ ] A
-
-```java
-int total = numbers.stream()
-                        .transform(x -> x * x)
-                        .filter(x -> x % 2 == 0)
-                        .sum ();
-```
-
-- [ ] B
-
-```java
-int total = numbers.stream()
-                        .filter(x -> x % 2 == 0)
-                        .collect(Collectors.toInt());
-```
-
-- [ ] C
-
-```java
-int total = numbers.stream()
-                        .mapToInt (x -> {if (x % 2 == 0) return x * x;})
-                        .sum();
-```
-
-- [x] D
-
-```java
-int total = numbers.stream()
-                        .filter(x -> x % 2 == 0)
-                        .mapToInt(x -> x * x)
-                        .sum();
+numbers                         // Input `List<Integer>` > [1, 2, 3, 4] <br>
+    .stream()                   // Converts input into `Stream<Integer>` <br>
+    .filter(x -> x % 2 == 0)    // Filter even numbers and return `Stream<Integer>` > [2, 4] <br>
+    .mapToInt(x -> x * x)       // Square the number, converts `Integer` to an `int`, and returns `IntStream` > [4, 16] <br>
+    .sum()                      // Returns the sum as `int` > 20
 ```
