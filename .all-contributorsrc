@@ -8439,6 +8439,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "mikolajgawronski",
+      "name": "Mikołaj Gawroński",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54740661?v=4",
+      "profile": "https://github.com/mikolajgawronski",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
