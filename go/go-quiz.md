@@ -130,7 +130,7 @@ func main() {
 
 [Go Playground](https://play.golang.org/p/RdL6y3Zv8ke)
 
-#### Q11. What does a `sync.Mutex` block white it is locked?
+#### Q11. What does a `sync.Mutex` block while it is locked?
 
 - [ ] all goroutines
 - [x] any other call to lock that `Mutex`
