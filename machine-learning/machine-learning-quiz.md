@@ -653,7 +653,7 @@ Note: there are centres of clusters (C0, C1, C2).
 
 [Reference](https://venturebeat.com/2016/03/16/heres-what-alphagos-historic-win-means-for-the-enterprise/)
 
-#### Q85. You are working with your machine learning algorithm on something called class preditor probability. What algorithm are you most likely using?
+#### Q85. You are working with your machine learning algorithm on something called class predictor probability. What algorithm are you most likely using?
 
 - [ ] multiclass binary classification
 - [x] naive Bayes
@@ -705,3 +705,10 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] the probability that certain conditions are met
 - [ ] the probability that, based on certain conditions, something will always be incorrect
 - [ ] the probability of something being the correct answer
+
+#### Q92. K-means clustering is what type of machine learning algorithm?
+
+- [ ] reinforcement
+- [ ] supervised
+- [x] unsupervised
+- [ ] classification
