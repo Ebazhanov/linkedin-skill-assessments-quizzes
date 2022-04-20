@@ -712,3 +712,10 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] supervised
 - [x] unsupervised
 - [ ] classification
+
+#### Q93. What is ensemble modeling?
+
+- [ ] when you create an ensemble of your training and test data set
+- [ ] when you create an ensemble of different servers to run the algorithms
+- [ ] when you find the one best algorithm for your ensemble
+- [x] when you use several ensembles of machine learning algorithms
