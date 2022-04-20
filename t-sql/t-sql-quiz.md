@@ -406,3 +406,18 @@ GROUP BY Grade;
 - [ ] SELECT
 - [ ] MERGE
 - [x] UNION
+
+#### Q39. You run this series of statements. What is the final result?
+```sql
+CREATE TABLE MyTable (MyValue int);
+INSERT INTO MyTable VALUES (1);
+WHILE (SELECT MyValue FROM MyTable) < 5
+BEGIN
+	UPDATE My Table SET MyValue = MyValue + 1;
+END;
+SELECT MyValue AS Result FROM MyTable;
+```
+- [ ] 5
+- [ ] error
+- [ ] 1
+- [ ] 6
