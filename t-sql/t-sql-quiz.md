@@ -483,3 +483,17 @@ CREATE TABLE Publishers (
 - [ ] `ALTER TABLE Warehouse.Inventory TRANSFER Products.Inventory;`
 - [ ] `ALTER TABLE Warehouse.Inventory ADD SCHEMA Products;`
 - [ ] `ALTER SCHEMA Warehouse ADD TABLE Inventory;`
+
+#### Q43. Which option—when placed in the blank space—establishes the PersonlD column as the primary key for the table with a nonclustered index?
+```sql
+CREATE TABLE People (
+	PersonID int NOT NULL,
+	PersonName nvarchar(50),
+_______
+);
+```
+
+- [ ] `INDEX ON PersonID (PRIMARY KEY PK_People)`
+- [ ] `ADD NONCLUSTERED PRIMARY KEY CONSTRAINT PK_People ON PersonID`
+- [ ] `CONSTRAINT PK_People PRIMARY KEY NONCLUSTERED (PersonID)`
+- [ ] `PRIMARY KEY CONSTRAINT (PersonID) NONCLUSTERED INDEX`
