@@ -257,16 +257,18 @@ select * from students;
   studentid firstname lastname
   1 null mark twain
 
-#### Q27. Which Query returns all student names with the highest grade?
+#### Q27. Given a table with the following structure, which query returns all student names with the highest grade?
 
 ```tsql
-create table students( studentname varchar(50), grade int);
+CREATE TABLE Students (
+StudentName varchar(50),
+Grade int );
 ```
 
-- [ ] `select studentname from students where grade=max(grade);`
-- [ ] `select top(1) studentname from students order by grade;`
-- [x] `select top(1) with ties studentname from students order by grade desc;`
-- [ ] `select studentname,max(grade) from students order by grade desc;`
+- [ ] `SELECT StudentName FROM Students WHERE Grade = MAX(Grade);`
+- [ ] `SELECT TOP(1) StudentName FROM Students ORDER BY Grade;`
+- [x] `SELECT TOP(1) WITH TIES StudentName FROM Students ORDER BY Grade DESC;`
+- [ ] `SELECT StudentName, MAX(Grade) FROM Students ORDER BY Grade DESC;`
 
 > `top(1)` with ties will take the highest grade and all other students with the same grade (because they are order by grade) and matches the highest grade.
 
