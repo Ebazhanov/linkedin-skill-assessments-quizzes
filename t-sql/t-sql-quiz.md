@@ -504,3 +504,9 @@ _______
 - [ ] ```SELECT TOP(1) RAND(first_name, last_name) FROM Student;```
 - [ ] ```SELECT TOP(1) first_name, last_name FROM Student;```
 - [ ] ```SELECT TOP(1) first_name, last_name FROM RAND(Student);```
+
+#### Q45. You need to create a simple database backup in the server's `Z:\Backups` directory. Which query should you use?
+- [ ] ```BACKUP MyDatabase TO LOCATION = 'Z:\Backups\MyDatabase.bak';```
+- [ ] ```CREATE BACKUP (DATABASE = 'MyDatabase' TO DISK = 'Z:\Backups\MyDatabase. bak');```
+- [ ] ```BACKUP DATABASE MyDatabase ON 'Z:\Backups\MyDatabase.bak';```
+- [x] ```BACKUP DATABASE MyDatabase TO DISK = 'z:\Backups\MyDatabase.bak';```
