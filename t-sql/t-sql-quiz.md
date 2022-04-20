@@ -352,7 +352,7 @@ GROUP BY Grade;
 ```
 **Explanation:** `Grouping will return a list of all grades grouped by grade. The prompt wants just one returned row.`
 
-#### Q33. Given a table with the following structure, which query will not return the lowest grade earned by any student?
+#### Q33.
 
 ![T-SQL-Q33](images/Q33.jpg)
 
