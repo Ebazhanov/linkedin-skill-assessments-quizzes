@@ -148,10 +148,10 @@
 
 #### Q11. What is the product of the database designing phase?
 
-- [ ] system definition
-- [x] logical model
-- [ ] physical model
-- [ ] normalized database
+- [ ] a list of entities, their relationship, constraints, data types, and cardinalities
+- [ ] a list of entities, their relationship, and constraints
+- [ ] all tables and their names, which are needed to implement the logical model
+- [ ] all tables, columns, data types, indexes and their relationship
 
 `Logical, physical and normalized are all products of the designing phase in this order.`
 
