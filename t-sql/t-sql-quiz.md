@@ -463,3 +463,9 @@ CREATE TABLE Publishers (
 	ADD CONSTRAINT FK_Publishers_PublisherID
 	FOREIGN KEY (PublisherID)
 	REFERENCES Books (PublisherID) CASCADE DELETE
+
+#### Q42. Your database currently has a table called Inventory in the Warehouse schema. You need to move the table to the Products schema. Which query accomplishes this goal?
+- [x] `ALTER SCHEMA Products TRANSFER Warehouse.Inventory;`
+- [ ] `ALTER TABLE Warehouse.Inventory TRANSFER Products.Inventory;`
+- [ ] `ALTER TABLE Warehouse.Inventory ADD SCHEMA Products;`
+- [ ] `ALTER SCHEMA Warehouse ADD TABLE Inventory;`
