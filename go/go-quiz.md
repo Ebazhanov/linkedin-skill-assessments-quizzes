@@ -498,8 +498,10 @@ fmt.Println("%f\n", price)
 
 - [ ] `go(fmt.Println("Hello Gopher!"))`
 - [ ] `go func() { fmt.Println("Hello Gopher!") }`
-- [ ] `go fmt.Println("Hello Gopher!")`
+- [x] `go fmt.Println("Hello Gopher!")`
 - [ ] `Go fmt.Println("Hello Gopher!")`
+
+[Example of start a goroutine](https://go.dev/play/p/KGgnAWpZMrS)
 
 #### Q42. If you iterate over a map in a for range loop, in which order will the key:value pairs be accessed?
 
@@ -514,5 +516,7 @@ fmt.Println("%f\n", price)
 
 - [ ] There is no customizing the string representation of a type.
 - [ ] Build it in pieces each time by calling individual fields.
-- [ ] Implement a method `String()` string
+- [x] Implement a method `String()` string
 - [ ] Create a wrapper function that accepts your type and outputs a string.
+
+[Reference](https://go.dev/doc/effective_go#printing)
