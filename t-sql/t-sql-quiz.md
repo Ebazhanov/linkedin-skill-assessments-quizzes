@@ -327,14 +327,6 @@ FROM Students
 ORDER BY Grade;
 ```
 
-- [x]
-
-```
-SELECT MIN(Grade)
-FROM Students
-ORDER BY Grade;
-```
-
 - [ ]
 
 ```
@@ -342,7 +334,23 @@ SELECT MIN(Grade)
 FROM Students
 ```
 
+- [x]
+
+```
+SELECT MIN(Grade)
+FROM Students
+ORDER BY Grade;
+```
 **Explanation:** `Column "Students.Grade" is invalid in the ORDER BY clause because it is not contained in either an aggregate function or the GROUP BY clause.`
+
+- [x]
+
+```
+SELECT MIN(Grade)
+FROM Students
+GROUP BY Grade;
+```
+**Explanation:** `Grouping will return a list of all grades grouped by grade. The prompt wants just one returned row.`
 
 #### Q33. Given a table with the following structure, which query will not return the lowest grade earned by any student?
 
