@@ -497,3 +497,10 @@ _______
 - [ ] `ADD NONCLUSTERED PRIMARY KEY CONSTRAINT PK_People ON PersonID`
 - [ ] `CONSTRAINT PK_People PRIMARY KEY NONCLUSTERED (PersonID)`
 - [ ] `PRIMARY KEY CONSTRAINT (PersonID) NONCLUSTERED INDEX`
+
+#### Q44. Which statement could you use to select a random student from this table?
+![T-SQL-Q36](images/Q36.jpg)
+- [x] ```SELECT TOP(1) first_name, last_name FROM Students ORDER BY NEWID();```
+- [ ] ```SELECT TOP(1) RAND(first_name, last_name) FROM Student;```
+- [ ] ```SELECT TOP(1) first_name, last_name FROM Student;```
+- [ ] ```SELECT TOP(1) first_name, last_name FROM RAND(Student);```
