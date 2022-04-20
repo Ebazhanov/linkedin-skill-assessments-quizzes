@@ -16,7 +16,7 @@
 
 #### Q3. What is the result of this series of statements?
 
-```
+```tsql
 BEGIN TRY
 SELECT 'Foo' AS Result;
 END TRY
@@ -32,17 +32,17 @@ END CATCH
 
 #### Q4. Given these two tables, which query generates a listing showing student names and the department office location where you could reach each student?
 
-- [ ] SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students, Departments;
-- [x] SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students JOIN Departments ON Students.department = Departments.department;
-- [ ] SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students JOIN Departments;
+- [ ] `SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students, Departments;`
+- [x] `SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students JOIN Departments ON Students.department = Departments.department;`
+- [ ] `SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students JOIN Departments;`
 - [ ] SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students ON Students.department = Departments.department;
 
 #### Q5. What is an example of a DDL command in SQL?
 
-- [ ] TRUNCATE TABLE
-- [ ] DELETE
-- [ ] MERGE
-- [x] DROP
+- [ ] `TRUNCATE TABLE`
+- [ ] `DELETE`
+- [ ] `MERGE`
+- [x] `DROP`
 
 #### Q6. Given the Games table pictured, which query generates the results shown?
 
@@ -65,7 +65,7 @@ END CATCH
 
 #### Q7. Which answer is a possible result of the sequence of commands below?
 
-```
+```tsql
 DECLARE @UniqueID uniqueidentifier = NEWID();
 SELECT @UniqueID AS Result;
 ```
@@ -91,23 +91,25 @@ SELECT @UniqueID AS Result;
 
 #### Q9. You need to write a query that returns all Employees that have a LastName starting with the letter A. Which WHERE clause should you use to fill in the blank in this query?
 
-- [ ] WHERE LastName = A\*
-- [ ] WHERE LastName = LIKE '%A%'
-- [x] WHERE LastName LIKE 'A%'
-- [ ] WHERE LastName IN ('A\*')
+- [ ] `WHERE LastName = A\*`
+- [ ] `WHERE LastName = LIKE '%A%'`
+- [x] `WHERE LastName LIKE 'A%'`
+- [ ] `WHERE LastName IN ('A\*')`
 
 #### Q10. Which query shows the first name, department, and team of all students with the two lowest points?
 
-- [ ] SELECT LIMIT(2) first_name, department, team FROM Students ORDER BY points ASC;
-- [ ] SELECT TOP(2) first_name, deprtment, team FROM Students ORDER BY points DESC;
-- [x] SELECT TOP(2) WITH TIES first_name, department, team FROM Students ORDER BY points;
-- [ ] SELECT BOTTOM(2) first_name, department, team FROM Students ORDER BY points ASC;
+- [ ] `SELECT LIMIT(2) first_name, department, team FROM Students ORDER BY points ASC;`
+- [ ] `SELECT TOP(2) first_name, deprtment, team FROM Students ORDER BY points DESC;`
+- [x] `SELECT TOP(2) WITH TIES first_name, department, team FROM Students ORDER BY points;`
+- [ ] `SELECT BOTTOM(2) first_name, department, team FROM Students ORDER BY points ASC;`
 
-`the picture of table is important here and there it can be seen that there are only two value with min points. Secondly, the previous answer was wrong because order by DESC will put highest points into the beginning of result list and TOP(2) will take first two highest points, and we need the lowest points.`
+> the picture of table is important here and there it can be seen that there are only two value with min points. Secondly, the previous answer was wrong because order by `DESC` will put highest points into the beginning of result list and `TOP(2)` will take first two highest points, and we need the lowest points.
 
 #### Q11. What is the result of this statement?
 
-`SELECT FLOOR(-1234.321)`
+```tsql
+SELECT FLOOR(-1234.321)
+```
 
 - [ ] -1234.3
 - [ ] -1234
@@ -116,10 +118,10 @@ SELECT @UniqueID AS Result;
 
 #### Q12. Which is the best approach to update the last name of the student Donette Figgins to Smith
 
-- [ ] UPDATE Students SET last_name = 'Smith' WHERE email = 'dfiggins@rouxacademy.com';
-- [ ] UPDATE Students SET last_name = 'Figgins' WHERE email = 'dfiggins@rouxacademy.com';
-- [ ] UPDATE Students SET last_name = 'Figgins' WHERE last_name = 'Smith' AND first-name = 'Donette';
-- [x] UPDATE Students SET last_name = 'Smith' WHERE last_name = 'Figgins' AND first-name = 'Donette';
+- [ ] `UPDATE Students SET last_name = 'Smith' WHERE email = 'dfiggins@rouxacademy.com';`
+- [ ] `UPDATE Students SET last_name = 'Figgins' WHERE email = 'dfiggins@rouxacademy.com';`
+- [ ] `UPDATE Students SET last_name = 'Figgins' WHERE last_name = 'Smith' AND first-name = 'Donette';`
+- [x] `UPDATE Students SET last_name = 'Smith' WHERE last_name = 'Figgins' AND first-name = 'Donette';`
 
 #### Q13. Which of these data types is an approximate numeric?
 
@@ -130,10 +132,10 @@ SELECT @UniqueID AS Result;
 
 #### Q14. You need to remove all data from a table name Products. Which query fully logs the removal of each record?
 
-- [ ] TRUNCATE FROM Products \*;
-- [x] DELETE FROM Products;
-- [ ] DELETE \* FROM Products;
-- [ ] TRUNCATE TABLE Products;
+- [ ] `TRUNCATE FROM Products \*;`
+- [x] `DELETE FROM Products;`
+- [ ] `DELETE \* FROM Products;`
+- [ ] `TRUNCATE TABLE Products;`
 
 #### Q15. What is the result of the following query? SELECT 1 / 2 AS Result;
 
@@ -150,9 +152,10 @@ SELECT @UniqueID AS Result;
 - [ ] bigint
 
 #### Q17. What is the result of this query?
-
-    SELECT 'abc\
-    def' AS Result;
+```tsql
+SELECT 'abc\
+def' AS Result;
+```
 
 - [ ] abc\def
 - [x] abcdef
@@ -161,19 +164,20 @@ SELECT @UniqueID AS Result;
 
 #### Q18. To select a random student from the table, which statement could you use?
 
-- [x] SELECT TOP(1) first_name, last_name FROM Students ORDER BY NEWID();
-- [ ] SELECT TOP(1) RAND(first_name, last_name) FROM Student;
-- [ ] SELECT TOP(1) first_name, last_name FROM Student;
-- [ ] SELECT TOP(1) first_name, last_name FROM RAND(Student);
+- [x] `SELECT TOP(1) first_name, last_name FROM Students ORDER BY NEWID();`
+- [ ] `SELECT TOP(1) RAND(first_name, last_name) FROM Student;`
+- [ ] `SELECT TOP(1) first_name, last_name FROM Student;`
+- [ ] `SELECT TOP(1) first_name, last_name FROM RAND(Student);`
 
 [https://www.petefreitag.com/item/466.cfm](https://www.petefreitag.com/item/466.cfm)
 
 #### Q19. What result is returned after executing the following commands?
-
-    DECLARE @MyVariable int;
-    SET @MyVariable = 1;
-    GO
-    SELECT @MyVariable;
+```tsql
+DECLARE @MyVariable int;
+SET @MyVariable = 1;
+GO
+SELECT @MyVariable;
+```
 
 - [x] error
 - [ ] 1
@@ -182,10 +186,10 @@ SELECT @UniqueID AS Result;
 
 #### Q20. Which statement creates a new database schema named Sales and establish Sharon as the owner?
 
-- [ ] ALTER USER Sharon WITH DEFAULT_SCHEMA = Sales;
-- [ ] ALTER USER Sharon SET SCHEMA Sales;
-- [ ] CREATE SCHEMA Sales SET OWNER Sharon;
-- [x] CREATE SCHEMA Sales AUTHORIZATION Sharon;
+- [ ] `ALTER USER Sharon WITH DEFAULT_SCHEMA = Sales;`
+- [ ] `ALTER USER Sharon SET SCHEMA Sales;`
+- [ ] `CREATE SCHEMA Sales SET OWNER Sharon;`
+- [x] `CREATE SCHEMA Sales AUTHORIZATION Sharon;`
 
 [Reference link](https://docs.microsoft.com/en-us/sql/t-sql/statements/create-schema-transact-sql?view=sql-server-ver15)
 
@@ -197,9 +201,10 @@ SELECT @UniqueID AS Result;
 - [ ] 9
 
 #### Q22. You need to write a query that returns all products that have a SerialNumber ending with "10_3". Which WHERE clause should you use to fill in the blank in this query?
-
-    SELECT ProductID, ProductName, SerialNumber
-    FROM Products______ ;
+```tsql
+SELECT ProductID, ProductName, SerialNumber
+FROM Products______ ;
+```
 
 - [x] `WHERE SerialNumer LIKE '%10_3'`
 - [ ] `WHERE SerialNumer LIKE ('%10'+'_'+'3')`
@@ -210,10 +215,10 @@ SELECT @UniqueID AS Result;
 
 #### Q23. When no join type between multiple tables in a query's FROM clause is specified, what type of join is assumed?
 
-- [x] INNER
-- [ ] RIGHT
-- [ ] LEFT
-- [ ] FULL
+- [x] `INNER`
+- [ ] `RIGHT`
+- [ ] `LEFT`
+- [ ] `FULL`
 
 #### Q24. How many bytes of storage does the int data type consume?
 
@@ -253,25 +258,29 @@ SELECT @UniqueID AS Result;
 
 #### Q27. Which Query returns all student names with the highest grade?
 
-`create table students( studentname varchar(50), grade int);`
+```tsql
+create table students( studentname varchar(50), grade int);
+```
 
-- [ ] select studentname from students where grade=max(grade);
-- [ ] select top(1) studentname from students order by grade;
-- [x] select top(1) with ties studentname from students order by grade desc;
-- [ ] select studentname,max(grade) from students order by grade desc;
+- [ ] `select studentname from students where grade=max(grade);`
+- [ ] `select top(1) studentname from students order by grade;`
+- [x] `select top(1) with ties studentname from students order by grade desc;`
+- [ ] `select studentname,max(grade) from students order by grade desc;`
 
-`top(1) with ties will take the highest grade and all other students with the same grade (because they are order by grade) and matches the highest grade.`
+> `top(1)` with ties will take the highest grade and all other students with the same grade (because they are order by grade) and matches the highest grade.
 
 #### Q28. What role does "inventory" play?
 
-`select bookid, boooktitle, bookauthor,quantityonhand from inventory.books;`
+```tsql
+select bookid, boooktitle, bookauthor,quantityonhand from inventory.books;
+```
 
 - [ ] you only want to see results from books currently in inventory
 - [x] it instructs the query engine to find the books table in the inventory schema
 - [ ] it instructs the query engine to find the books table in the inventory database
 - [ ] it instructs the query engine to join the books table to the inventory schema
 
-`select * from dbo.books here dbo is a schema and the inventory is also schema; if we'd like to specify a database we should use db_name.schema_name.table_name`
+> `select * from dbo.books` here `dbo` is a schema and the inventory is also schema. If we'd like to specify a database we should use `db_name.schema_name.table_name`
 
 #### Q29. What is the result of an INNER JOIN between table1 and table2?
 
@@ -282,14 +291,14 @@ SELECT @UniqueID AS Result;
 
 #### Q30. To remove all of the content from the Students table but keep the schema, which statement should you use?
 
-- [x] TRUNCATE TABLE Students;
-- [ ] TRUNCATE \* FROM Students;
-- [ ] DROP TABLE Students;
-- [ ] REMOVE \* FROM Students;
+- [x] `TRUNCATE TABLE Students;`
+- [ ] `TRUNCATE \* FROM Students;`
+- [ ] `DROP TABLE Students;`
+- [ ] `REMOVE \* FROM Students;`
 
 #### Q31. Review the CREATE TABLE statement below. Which option, when placed in the blank space, ensures that the BookISBN column will not contain any duplicate values?
 
-```
+```tsql
 CREATE TABLE Books (
     BookID int PRIMARY KEY,
     BookISBN char(13) NOT NULL _____,
@@ -304,7 +313,7 @@ CREATE TABLE Books (
 
 #### Q32. Given a table with the following structure, which query will not return the lowest grade earned by any student?
 
-```
+```tsql
 CREATE TABLE Students (
     StudentName varchar(50),
     Grade int
@@ -313,7 +322,7 @@ CREATE TABLE Students (
 
 - [ ]
 
-```
+```tsql
 SELECT StudentName
 FROM Students
 WHERE Grade = (SELECT MIN(Grade) FROM Student);
@@ -321,7 +330,7 @@ WHERE Grade = (SELECT MIN(Grade) FROM Student);
 
 - [ ]
 
-```
+```tsql
 SELECT TOP(1) Grade
 FROM Students
 ORDER BY Grade;
@@ -329,14 +338,14 @@ ORDER BY Grade;
 
 - [ ]
 
-```
+```tsql
 SELECT MIN(Grade)
 FROM Students
 ```
 
 - [x]
 
-```
+```tsql
 SELECT MIN(Grade)
 FROM Students
 ORDER BY Grade;
@@ -345,7 +354,7 @@ ORDER BY Grade;
 
 - [x]
 
-```
+```tsql
 SELECT MIN(Grade)
 FROM Students
 GROUP BY Grade;
@@ -386,14 +395,16 @@ GROUP BY Grade;
 
 ![T-SQL-Q36](images/Q36.jpg)
 
-- [x] UPDATES Students SET team = 'Philosophy Parrots' WHERE team = 'Philosophy Pandas';
-- [ ] UPDATES Students SET team = `Philosophy Parrots` WHERE team = `Philosophy Pandas`;
-- [ ] UPDATES Students SET team = "Philosophy Parrots" WHERE team = "Philosophy Pandas";
-- [ ] UPDATES Students SET team = Philosophy Parrots WHERE team = Philosophy Pandas;
+- [x] `UPDATES Students SET team = 'Philosophy Parrots' WHERE team = 'Philosophy Pandas';`
+- [ ] `UPDATES Students SET team = \`Philosophy Parrots` WHERE team = \`Philosophy Pandas`;`
+- [ ] `UPDATES Students SET team = "Philosophy Parrots" WHERE team = "Philosophy Pandas";`
+- [ ] `UPDATES Students SET team = Philosophy Parrots WHERE team = Philosophy Pandas;`
 
 #### Q37. What is the result of this query?
 
-`SELECT 123+'123' AS Result;`
+```tsql
+SELECT 123+'123' AS Result;
+```
 
 - [ ] error
 - [ ] '123''123'
@@ -408,7 +419,7 @@ GROUP BY Grade;
 - [x] UNION
 
 #### Q39. You run this series of statements. What is the final result?
-```sql
+```tsql
 CREATE TABLE MyTable (MyValue int);
 INSERT INTO MyTable VALUES (1);
 WHILE (SELECT MyValue FROM MyTable) < 5
@@ -423,7 +434,7 @@ SELECT MyValue AS Result FROM MyTable;
 - [ ] 6
 
 #### Q40. Is there an error with this query? If so, which statement best describes the problem?
-```sql
+```tsql
 SELECT OrderID, SUM(LineTotal) AS SubTotal
 FROM Sales
 WHERE SUM(LineTotal) > 1000
@@ -436,7 +447,7 @@ ORDER BY OrderID;
 - [ ] Yes, the `WHERE` clause should use the `SubTotal` alias.
 
 #### Q41. You created the two tables below. Later, you decide that you want the database to remove all books from the Books table if the related publisher is deleted from the Publishers table. What command should you run?
-```sql
+```tsql
 CREATE TABLE Books (
 	BookID int PRIMARY KEY,
 	BookTitle nvarchar(100) NOT NULL,
