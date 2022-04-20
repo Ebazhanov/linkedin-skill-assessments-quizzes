@@ -134,7 +134,7 @@ SELECT FLOOR(-1234.321)
 - [ ] `DELETE * FROM Products;`
 - [ ] `TRUNCATE TABLE Products;`
 
-#### Q15. What is the result of the following query? 
+#### Q15. What is the result of this query? 
 ```tsql
 SELECT 1 / 2 AS Result;
 ```
