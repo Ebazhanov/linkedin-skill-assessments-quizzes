@@ -434,3 +434,32 @@ ORDER BY OrderID;
 - [ ] Yes, you cannot `GROUP BY` and `ORDER BY` the same field.
 - [ ] No, there is nothing wrong with this query.
 - [ ] Yes, the `WHERE` clause should use the `SubTotal` alias.
+
+#### Q41. You created the two tables below. Later, you decide that you want the database to remove all books from the Books table if the related publisher is deleted from the Publishers table. What command should you run?
+```sql
+CREATE TABLE Books (
+	BookID int PRIMARY KEY,
+	BookTitle nvarchar(100) NOT NULL,
+	PublisherID int NOT NULL
+);
+CREATE TABLE Publishers (
+	PublisherID int PRIMARY KEY,
+	PublisherName nvarchar(50)
+);
+```
+- [ ] ALTER TABLE Books
+	ADD CONSTRAINT FK Books_PublisherID
+	FOREIGN KEY (PublisherID)
+	REFERENCES Publishers (PublisherID) ON UPDATE SET NULL
+- [ ] ALTER TABLE Books
+	ADD CONSTRAINT FK Books_PublisherID
+	FOREIGN KEY (PublisherID)
+	REFERENCES Publishers (PublisherID) ON DELETE CASCADE
+- [ ] ALTER TABLE Books
+	ADD CONSTRAINT FK_Books_PublisherID
+	FOREIGN KEY (PublisherID)
+	REFERENCES Publishers (PublisherID)
+- [ ] ALTER TABLE Publishers
+	ADD CONSTRAINT FK_Publishers_PublisherID
+	FOREIGN KEY (PublisherID)
+	REFERENCES Books (PublisherID) CASCADE DELETE
