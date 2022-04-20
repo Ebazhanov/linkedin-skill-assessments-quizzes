@@ -421,3 +421,16 @@ SELECT MyValue AS Result FROM MyTable;
 - [ ] error
 - [ ] 1
 - [ ] 6
+
+#### Q40. Is there an error with this query? If so, which statement best describes the problem?
+```sql
+SELECT OrderID, SUM(LineTotal) AS SubTotal
+FROM Sales
+WHERE SUM(LineTotal) > 1000
+GROUP BY OrderID
+ORDER BY OrderID;
+```
+- [ ] Yes, a `WHERE` clause cannot be used with an aggregate function.
+- [ ] Yes, you cannot `GROUP BY` and `ORDER BY` the same field.
+- [ ] No, there is nothing wrong with this query.
+- [ ] Yes, the `WHERE` clause should use the `SubTotal` alias.
