@@ -663,3 +663,17 @@ Duplicated with Q50.
 - [ ] Create a macro that will change all fonts to Arial 11.5 point.
 - [ ] In a new, blank document, from the Font dialog box, make your changes and set as default for All documents based on the Normal template.
 - [ ] In a new, blank document, make your font changes and then save your document as a template.
+
+#### Q85. You inserted a picture into a brochure, and you want to cut down on the background to focus only on the main part of the image. How can you accomplish this?
+
+- [ ] Right-click the picture and select **Crop**.
+- [ ] In **Picture Tools**, select **Remove Background**.
+- [ ] In **Picture Tools**, select **Picture Effects**.
+- [ ] Right-click the picture and select **Size and Position**.
+
+#### Q86. The form you are creating includes a field where users can either pick from a list of choices you provide, or type in a different entry. Which control type should you use?
+
+- [ ] SmartArt
+- [ ] drop-down list
+- [x] combo box
+- [ ] check box
