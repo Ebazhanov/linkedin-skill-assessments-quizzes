@@ -1007,6 +1007,14 @@ print $match[1]."\n";
 
 [reference](https://www.php.net/manual/en/language.control-structures.php)
 
+
+#### Q83. Which function can you use in error handling to stop the execution of a script and is equivalent to `exit()`?
+
+- [ ] throw
+- [ ] break
+- [x] die
+- [ ] return
+=======
 #### Q83. Which function can you use in error handling to stop the execution of a script and is equivalent to exit()?
 - [x] `die`
 - [ ] `return`
@@ -1036,3 +1044,4 @@ for($x = 0; $x < $arrlength; $x++){
 - [ ] It saves a lot of work of using getters methods to access the values of objects.
 - [x] It allows you to call an object and see its components as a string.
 - [ ] It is automatically called when you use echo or print.
+
