@@ -489,7 +489,7 @@
 - [ ] when launching a new redesign
 - [ ] when creating a new subdomain
 
-**Explanation:** From article: [Types of redirects](https://moz.com/learn/seo/redirection)
+**Explanation:** From article: [301 Redirects for SEO](https://ahrefs.com/blog/301-redirects/) (2020)
 
 #### Q56. What would contribute to a low bounce rate?
 
