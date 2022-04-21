@@ -380,14 +380,16 @@
 - [ ] load data local infile (also correct but only if the file is from the client)
 - [ ] extended insert statement
 
-#### Q43. See tables in the diagram. Make sure that any record added to the purchase table consists of a customerId, which exists in the customer table and a carId, which exists in the car table. You decide to use a trigger to do the validation. Which one?
+#### Q43. You are working with the tables as shown in this diagram. You need to make sure that any record added to the purchases table consists of a customerID, which already exists in the customers table, and a carID, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
 
 ![mysql Q43](images/mysql_q43.jpg)
 
-- [ ] after insert
-- [ ] if exists (invalid not a trigger; IF function + EXISTS clause)
-- [x] before insert
-- [ ] cross join (valid for a check but not a trigger)
+- [ ] `AFTER INSERT`
+- [x] `BEFORE INSERT`
+- [ ] `CROSS JOIN`
+- [ ] `IF EXISTS`
+
+`IF EXISTS` and `CROSS JOIN` are not valid for a trigger.
 
 #### Q44. Which is the correct syntax of an extended insert statement?
 
@@ -870,23 +872,14 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] `Create table size (name: ENUM['Small','Medium','Large']);`
 - [x] `Create table size (name ENUM('Small','Medium','Large'));`
 
-#### Q96. You are working with the tables as shown in this diagram. You need to make sure that any record added to the purchases table consists of a customerID, which already exists in the customers table, and a carID, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
-
-![mysql picture](images/mysql_q92.png)
-
-- [x] `IF EXISTS`
-- [ ] `AFTER INSERT`
-- [ ] `BEFORE INSERT`
-- [ ] `CROSS JOIN`
-
-#### Q97. The mysqldump command cannot generate output in **\_**.
+#### Q96. The mysqldump command cannot generate output in **\_**.
 
 - [x] JSON
 - [ ] CSV
 - [ ] XML
 - [ ] TXT
 
-#### Q98. You are working with the tables as shown in this diagram. You need to generate the list of all cars, whether or not they had been sold, with the purchase date of the cars that were sold. Which statement accomplishes that?
+#### Q97. You are working with the tables as shown in this diagram. You need to generate the list of all cars, whether or not they had been sold, with the purchase date of the cars that were sold. Which statement accomplishes that?
 
 ![mysql picture](images/mysql_q98.png)
 
