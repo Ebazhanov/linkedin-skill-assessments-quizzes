@@ -460,7 +460,7 @@
 - [ ] Make a selection and click **Image > Crop**.
 - [x] Clear the **Deleted Cropped Pixels** check box.
 - [ ] Click **Image > Trim** and select **Transparent Pixels**.
-- [ ]Select the **Delete Cropped Pixels** check box.
+- [ ] Select the **Delete Cropped Pixels** check box.
 
 #### Q59. Which step is the most effective at making one image show through another to emulate a traditional double-exposure from film photography effect?
 
