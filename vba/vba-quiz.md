@@ -459,8 +459,8 @@ End Sub
 
 - [ ] an error message
 - [ ] Y and Z
-- [x] Z = in a message box and then a subsequent errpr message
-- [ ] Y = in a message box and then a subsequent errpr message
+- [x] Z = in a message box and then a subsequent error message
+- [ ] Y = in a message box and then a subsequent error message
 
 #### Q36. The VBA code block shown in the following four options runs when UserForm1's CommandButton1 button is clicked. Which block of code leaves UserFrom1 loaded but not visible until the FoundErrors function has checked it, and then enables processing to continue if no errors are found?
 
@@ -482,7 +482,7 @@ Unload UserForm1
 End Sub
 ```
 
-- [x] <- not sure
+- [x]
 
 ```
 Private Sub CommandButton1_Click()
@@ -493,7 +493,7 @@ Loop
 End Sub
 ```
 
-- [x] <- not sure
+- [ ]
 
 ```
 Private Sub CommandButton1_Click()
@@ -502,3 +502,5 @@ UserForm1.show
 Loop
 End Sub
 ```
+
+> The first requirement is to make UserForm1 loaded but not visible, therefore we need Me.Hide, **Me** in here referring to UserForm1

@@ -512,7 +512,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 
 [Reference link](https://support.microsoft.com/en-us/topic/reduce-the-file-size-of-a-picture-in-microsoft-office-8db7211c-d958-457c-babd-194109eb9535)
 
-#### Q65. Before you send a document to an external client, you must remove personal information--including document author names, comments, and hidden text--from the doc. What tool can help you locate and clean up these details??
+#### Q65. Before you send a document to an external client, you must remove personal information--including document author names, comments, and hidden text--from the doc. What tool can help you locate and clean up these details?
 
 - [ ] Accessibility Checker
 - [ ] Check Compatibility
@@ -529,7 +529,8 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] Bar
 
 #### Q67. What is the difference between a footnote and an endnote?
-Duplicated with Q33. 
+
+Duplicated with Q33.
 
 - [ ] An endnote always appears on the bottom of the same page that it references
 - [ ] Footnote use Arabic numerals and endnotes use letters.
@@ -611,6 +612,7 @@ Duplicated with Q33.
 - [ ] Insert Table of Figures
 
 #### Q78. In this image, what do the red lines next to the text indicate?
+
 Duplicated with Q50.
 
 ![image](https://i.imgur.com/JUbaoyO.png)
@@ -619,3 +621,59 @@ Duplicated with Q50.
 - [ ] Draw tools were used in these areas.
 - [ ] Track Changes has been disabled.
 - [ ] Comments were added to these areas.
+
+#### Q79. You want an image to move with the surrounding text as you make changes to the document. Which option should you select?
+
+- [ ] In Line with Text
+- [x] With Text Wrapping
+- [ ] Behind Text
+- [ ] Through
+
+#### Q80. You want to place a triangle shape on your page. Where do you find the shape?
+
+- [ ] On the Insert tab, click SmartArt.
+- [ ] On the Insert tab, click Shapes and look in the Rectangles & Triangles section.
+- [ ] On the Insert tab, click Icons.
+- [x] On the Insert tab, click Shapes and look in the Basic Shapes section.
+
+#### Q81. When printing multiple copies of a document, which option groups consecutive pages together, making them easier to distribute?
+
+- [x] Collated
+- [ ] Print One-Sided
+- [ ] Uncollated
+- [ ] Print on Both Sides
+
+#### Q82. You are sharing your computer screen to collaborate on a document. Which view should you use to minimize the ribbon and give your document the most screen space?
+
+- [x] Read Mode (Windows) or Focus (Mac)
+- [ ] Draft view
+- [ ] Web Layout view
+- [ ] Outline view
+
+#### Q83. You want a different header and footer to appear on alternating pages. Which option should you choose?
+
+- [x] Different Odd & Even Pages
+- [ ] Insert Alt Header/Footer
+- [ ] Display on Odd Pages Only
+- [ ] Different First Page
+
+#### Q84. When you start a new, blank document, you usually end up changing the font to Arial 11.5 point. How can you make these settings the default for this and all future new documents?
+
+- [ ] Open any document, change your font settings, and save as a template.
+- [ ] Create a macro that will change all fonts to Arial 11.5 point.
+- [ ] In a new, blank document, from the Font dialog box, make your changes and set as default for All documents based on the Normal template.
+- [ ] In a new, blank document, make your font changes and then save your document as a template.
+
+#### Q85. You inserted a picture into a brochure, and you want to cut down on the background to focus only on the main part of the image. How can you accomplish this?
+
+- [ ] Right-click the picture and select **Crop**.
+- [ ] In **Picture Tools**, select **Remove Background**.
+- [ ] In **Picture Tools**, select **Picture Effects**.
+- [ ] Right-click the picture and select **Size and Position**.
+
+#### Q86. The form you are creating includes a field where users can either pick from a list of choices you provide, or type in a different entry. Which control type should you use?
+
+- [ ] SmartArt
+- [ ] drop-down list
+- [x] combo box
+- [ ] check box

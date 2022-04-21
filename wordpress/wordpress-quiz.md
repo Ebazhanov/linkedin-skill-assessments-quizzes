@@ -435,7 +435,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 #### Q51. You can harden your WordPress site security by adding `__` to your wp-config.php file?
 
 - [ ] database usernames and passwords
-- [ ] unique keys and salts
+- [x] unique keys and salts
 - [ ] accessibility
 - [ ] documentation
 
@@ -448,7 +448,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 #### Q53. If you have pretty permalinks enabled on a WordPress site, the REST API index is exposed by appending what to the end of the site URL? (for example, http://example.com/answer/) Note that the index provides information regarding which routes are available for that particular WordPress install.
 
-- [ ] `http://example.com/wp-json/`
+- [x] `http://example.com/wp-json/`
 - [ ] `http://example.com/wp-admin/`
 - [ ] `http://example.com/wp-rest/`
 - [ ] `http://example.com/wp-rest-api/`
@@ -604,7 +604,7 @@ endif;
 
 - [ ] custom query
 - [ ] template tags
-- [ ] the Loop
+- [x] the Loop
 - [ ] nested loop
 
 #### Q71. Which of these are the minimum files required to make a child theme?

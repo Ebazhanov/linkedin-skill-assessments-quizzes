@@ -283,7 +283,7 @@ mvn install
 - [ ] Maven will include only the App class when it compiles the source code.
 - [ ] Maven will add an empty main method to the App class.
 
-#### Q38. Suppose you are packaging a Maven project and see the following error "[WARNING] Using platform encoding (CP1252 actually) to copy filtered resources, i.e. build platform dependent!" What do you add to your POM file to set platform encoding to ensure your build is not platform dependet ?
+#### Q38. Suppose you are packaging a Maven project and see the following error: “[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!” What do you add to your POM file to set the platform encoding to ensure your build is not platform dependent?
 
 - [ ] <project.build.resources>
 - [ ] <maven.compiler.source>
@@ -408,3 +408,45 @@ mvn install
 - [ ] to copy the final project artifacts into the local Maven repository
 
 [maven docs](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#a-build-lifecycle-is-made-up-of-phases)
+
+#### Q54. How do you skip the tests when running a mvn package command?
+
+- [ ] Use -Dtest=skip
+- [x] Use -DskipTests=true
+- [ ] Use -Dtests=pass
+- [ ] Use a plugin that can be configured to skip tests
+
+#### Q55. Below is a section of a settings.xml file. How can you use the path to the app home in your POM file?
+
+```
+<profiles>
+    <profile>
+        <id>set=app-home</id>
+        <properties>maven-people-plugin</artifactId>
+            <application-home>/path/to/application</application-home>
+        </properties>
+    </profile>
+</profiles>
+<activeProfiles>
+    <activeProfile>set-app-home</activeProfile>
+</activeProfiles>
+```
+
+- [ ] ${activeProfile}
+- [x] ${application-home}
+- [ ] ${set-app-home}
+- [ ] ${/path/to/application}
+
+#### Q56. What is the default value of the warSourceDirectory configuration property of the Maven WAR Plugin?
+
+- [ ] /src/main/webapp
+- [ ] /src/main/war
+- [x] /src/main/WEB-INF
+- [ ] /src/web
+
+#### Q57. When building a Maven Archetype, where do you put your prototype files?
+
+- [ ] src/main/template
+- [ ] src/main/archetype
+- [x] src/main/resources/archetype-resources
+- [ ] src/main/java

@@ -1115,3 +1115,19 @@ export class UsersComponent implements OnInit {
 - [ ] It is configuring the `ngFor` iteration to support multiple lists of users at the same time.
 - [x] It is subscribing to the observable returned from the `HttpClient.get` method and unwrapping the returned value so it can be iterated over in the `ngFor`.
 - [ ] It is allowing all of the users in the `users` field to be rendered concurrently to the DOM.
+
+#### Q57. How would you make use of this directive in markup based on its selector value
+
+```ts
+@Directive({
+	selector: '[appTruncate]'
+})
+export class TruncateDirective{
+	. . .
+}
+```
+
+- [ ] `html <p data-directive="appTruncate">Some long text </p> `
+- [x] `html <p appTruncate>Some long text</p> `
+- [ ] `html <p app-truncate>Some long text</p> `
+- [ ] `html <app-truncate>Some long text</app-truncate> `

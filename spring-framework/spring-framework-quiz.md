@@ -710,7 +710,6 @@ Reason: By default, all the endpoints are enabled in Spring Boot Application exc
 - [ ] File
 - [ ] MvcFile
 
-
 #### Q69. What is the purpose of this endpoint?
 
 ```java
@@ -725,3 +724,9 @@ public Pojo getPojo(@PathVariable("id") String id) {
 - [ ] This endpoint returns the path variable that describes the Pojo's location within the container.
 - [ ] This endpoint is designed to update an existing resource of the object type Pojo with the passed in id.
 
+#### Q70. What property can be used to set the active Spring profiles
+
+- [ ] active.profile
+- [ ] active.spring.profiles
+- [x] spring.profiles.active
+- [ ] profiles

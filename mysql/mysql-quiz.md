@@ -80,54 +80,54 @@
 
 - [ ] A
 
-```
-    1 CREATE TABLE employee (
-    2 employee ID char(10),
-    3 firstName varchar(50),
-    4 lastName varchar(50),
-    5 phone varchar(20),
-    6 address varchar(50),
-    7 PRIMARY KEY ON employeeID
-    8 );
+```sql
+    CREATE TABLE employee (
+    employeeID char(10),
+    firstName varchar(50),
+    lastName varchar(50),
+    phone varchar(20),
+    address varchar(50),
+    PRIMARY KEY ON employeeID
+    );
 ```
 
 - [ ] B
 
-```
-    1 CREATE TABLE employee (
-    2 employee ID char(10),
-    3 firstName varchar(50),
-    4 lastName varchar(50),
-    5 phone varchar(20),
-    6 address varchar(50),
-    7 PRIMARY KEY employeeID
-    8 );
+```sql
+    CREATE TABLE employee (
+    employeeID char(10),
+    firstName varchar(50),
+    lastName varchar(50),
+    phone varchar(20),
+    address varchar(50),
+    PRIMARY KEY employeeID
+    );
 ```
 
 - [ ] C
 
-```
-    1 CREATE TABLE IF EXISTS employee (
-    2 employee ID char(10),
-    3 firstName varchar(50),
-    4 lastName varchar(50),
-    5 phone varchar(20),
-    6 address varchar(50),
-    7 PRIMARY KEY (employeeID)
-    8 );
+```sql
+    CREATE TABLE IF EXISTS employee (
+    employeeID char(10),
+    firstName varchar(50),
+    lastName varchar(50),
+    phone varchar(20),
+    address varchar(50),
+    PRIMARY KEY (employeeID)
+    );
 ```
 
 - [x] D
 
 ```sql
-    1 CREATE TABLE IF NOT EXISTS employee (
-    2 employee ID char(10),
-    3 firstName varchar(50),
-    4 lastName varchar(50),
-    5 phone varchar(20),
-    6 address varchar(50),
-    7 PRIMARY KEY (employeeID)
-    8 );
+    CREATE TABLE IF NOT EXISTS employee (
+    employeeID char(10),
+    firstName varchar(50),
+    lastName varchar(50),
+    phone varchar(20),
+    address varchar(50),
+    PRIMARY KEY (employeeID)
+    );
 ```
 
 #### Q9. You are working with the tables as shown in this diagram. You need to generate the list of customers who purchased certain car models. Which SQL clause do you use?
@@ -148,10 +148,10 @@
 
 #### Q11. What is the product of the database designing phase?
 
-- [ ] system definition
-- [x] logical model
-- [ ] physical model
-- [ ] normalized database
+- [ ] a list of entities, their relationship, constraints, data types, and cardinalities
+- [ ] a list of entities, their relationship, and constraints
+- [ ] all tables and their names, which are needed to implement the logical model
+- [ ] all tables, columns, data types, indexes and their relationship
 
 `Logical, physical and normalized are all products of the designing phase in this order.`
 
@@ -215,7 +215,7 @@
 
 #### Q20. Which choice is NOT a statement you would use to filter data?
 
-- [x] GROUP_BY
+- [x] GROUP BY
 - [ ] WHERE
 - [ ] LIMIT
 - [ ] LIKE
@@ -320,6 +320,8 @@
 - [x] UNION
 - [ ] WITH COLUMNS
 
+[Sample](https://stackoverflow.com/questions/5941809/include-headers-when-using-select-into-outfile)
+
 #### Q35. One form of backup, replication, enables you to maintain identical data on multiple servers, as a \_ configuration.
 
 - [ ] remote-local
@@ -378,14 +380,16 @@
 - [ ] load data local infile (also correct but only if the file is from the client)
 - [ ] extended insert statement
 
-#### Q43. See tables in the diagram. Make sure that any record added to the purchase table consists of a customerId, which exists in the customer table and a carId, which exists in the car table. You decide to use a trigger to do the validation. Which one?
+#### Q43. You are working with the tables as shown in this diagram. You need to make sure that any record added to the purchases table consists of a customerID, which already exists in the customers table, and a carID, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
 
 ![mysql Q43](images/mysql_q43.jpg)
 
-- [ ] after insert
-- [ ] if exists (invalid not a trigger; IF function + EXISTS clause)
-- [x] before insert
-- [ ] cross join (valid for a check but not a trigger)
+- [ ] `AFTER INSERT`
+- [x] `BEFORE INSERT`
+- [ ] `CROSS JOIN`
+- [ ] `IF EXISTS`
+
+`IF EXISTS` and `CROSS JOIN` are not valid for a trigger.
 
 #### Q44. Which is the correct syntax of an extended insert statement?
 
@@ -439,6 +443,8 @@ This is exactly what [WITH clause](https://dev.mysql.com/doc/refman/8.0/en/with.
 - [x] updatable
 - [ ] temptable
 - [ ] undefined
+
+[Reference](https://dev.mysql.com/doc/refman/8.0/en/view-algorithms.html)
 
 #### Q50. What is the MySQL `perror` command-line utility used for?
 
@@ -673,10 +679,10 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 #### Q71. Which choice is _not_ a valid model for a stored procedure parameter?
 
-- [x] INOUT
+- [ ] INOUT
 - [ ] IN
 - [ ] OUT
-- [ ] IN OUT
+- [x] IN OUT
 
 #### Q72. What is the advantage of using a temporary table instead of a heap table?
 
@@ -841,8 +847,8 @@ SELECT name FROM students WHERE name REGEXP '^to';
 #### Q92. How are permissions implemented in MySQL?
 
 - [ ] encrypted algorithms
-- [ ] access control lists
-- [x] user settings
+- [x] access control lists
+- [ ] user settings
 - [ ] administrator schema
 
 #### Q93. Inside a transaction, several operations need to be performed. What would you do if an exception happens during that transaction?
@@ -850,7 +856,7 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] `UNDO`
 - [ ] `UNCOMMIT`
 - [x] `ROLLBACK`
-- [ ] `REVERSE
+- [ ] `REVERSE`
 
 #### Q94. What function finds the current time or date in MySQL?
 
@@ -866,11 +872,92 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] `Create table size (name: ENUM['Small','Medium','Large']);`
 - [x] `Create table size (name ENUM('Small','Medium','Large'));`
 
-#### Q96. You are working with the tables as shown in this diagram. You need to make sure that any record added to the purchases table consists of a customerID, which already exists in the customers table, and a carID, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
+#### Q96. The mysqldump command cannot generate output in **\_**.
 
-![mysql picture](images/mysql_q92.png)
+- [x] JSON
+- [ ] CSV
+- [ ] XML
+- [ ] TXT
 
-- [x] `IF EXISTS`
-- [ ] `AFTER INSERT`
-- [ ] `BEFORE INSERT`
-- [ ] `CROSS JOIN`
+#### Q97. You are working with the tables as shown in this diagram. You need to generate the list of all cars, whether or not they had been sold, with the purchase date of the cars that were sold. Which statement accomplishes that?
+
+![mysql picture](images/mysql_q98.png)
+
+- [ ] A
+
+```
+SELECT cars.*, purchases.date
+FROM cars RIGHT JOIN purchases
+ON cars.ID = purchases.carID;
+```
+
+- [ ] B
+
+```
+SELECT cars.*, purchases.date
+FROM cars INNER JOIN purchases
+ON cars.ID = purchases.carID;
+```
+
+- [ ] C
+
+```
+SELECT cars.*, purchases.date
+FROM cars JOIN purchases
+ON cars.ID = purchases.carID;
+```
+
+- [x] D
+
+```
+SELECT cars.*, purchases.date FROM cars LEFT JOIN purchases ON cars.ID = purchases.carID;
+```
+
+#### Q98. Which code snippet from a stored procedure should be rewritten as a CASE statement?
+
+- [ ] A
+
+```
+    IF var1 THEN SET varA = var1;
+    ELSEIF var2 THEN SET varA = var2;
+    ELSEIF var3 THEN SET varA = var3;
+    ELSE SET varA = var4;
+    END IF;
+```
+
+- [ ] B
+
+```
+    IF var1 = var2 THEN SET varA = var1;
+    ELSEIF var2 = var3 THEN SET varA = var2;
+    ELSEIF var3 = var4 THEN SET varA = var3;
+    ELSE SET varA = var4;
+    END IF;
+```
+
+- [ ] C
+
+```
+    IF var1 = 1 THEN SET varA = var1;
+    ELSEIF var2 = 2 THEN SET varA = var2;
+    ELSEIF var3 = 3 THEN SET varA = var3;
+    ELSE SET varA = var4;
+    END IF;
+```
+
+- [X] D
+
+```
+    IF var1 = 1 THEN SET varA = var1;
+    ELSEIF var1 = 2 THEN SET varA = var2;
+    ELSEIF var1 = 3 THEN SET varA = var3;
+    ELSE SET varA = var4;
+    END IF;
+```
+
+#### Q99. Why would you use stored functions?
+
+- [ ] for formulas and business rules that you want to apply to columns in an SQL query
+- [X] for formulas and business rules that should be applied on a specific trigger event like on inserts
+- [ ] to automatically modify the data of a table based on a query
+- [ ] for reusing recurring queries

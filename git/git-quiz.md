@@ -17,17 +17,17 @@
 The command is git remote add. The new added connection can be named origin or new. The only constraints, although it is not documented AFAIK, is that the connection name needs to be acceptable to git-check-ref-format, and it cannot be repeated.
 If the LinkedIn assessment asks this and you can choose just one option, then leave feedback.
 
-#### Q3. Describe what the following git commands do to the commit history.
+#### Q3. Describe what these Git commands do to the commit history:
 
 ```bash
 git reset --hard HEAD~5
 git merge --squash HEAD@{1}
 ```
 
-- [ ] Reset the HEAD to the 5th commit in the repo, then merges to the master branch
-- [x] Reset the commit branch back before the last 5 commits, then squashes them into a single commit
-- [ ] Delete the last 5 commits
-- [ ] Merges the last 5 commits into a new branch
+- [ ] They reset the HEAD to the fifth commit in the repo, then merge to the master branch.
+- [x] The current branch's HEAD is reset back five commits, then prior commits are squashed into a single commit.
+- [ ] They delete the last five commits.
+- [ ] They merge the last five commits into a new branch.
 
 **Explanation:**
 
@@ -568,10 +568,10 @@ git checkout -b beta-test
 
 #### Q67. After modifying some existing files in a repository, you decide to discard the changes. What command can you use?
 
-- [ ] git restore
+- [x] git restore
 - [ ] git undo
 - [ ] git clean
-- [x] git checkout
+- [ ] git checkout
 
 #### Q68. After starting to merge a feature branch into your master branch, you encounter a merge conflict and decide you do not want to perform the merge. How can you stop the merge and restore to the pre-merge state?
 
@@ -759,10 +759,10 @@ Which of the following options is correct ?
 
 #### Q93. You would like to restore some previously stashed work to a new branch. How can you do that?
 
-- [ ] Use git branch <stash hash>.
+- [ ] Use `git branch <stash hash>`.
 - [ ] Add the stashed commits to the current commit, then create a new branch.
-- [ ] Use git checkout -b.
-- [x] Run git stash branch <branch name>.
+- [ ] Use `git checkout -b`.
+- [x] Run `git stash branch <branch name>`.
 
 [reference here](https://stackoverflow.com/questions/6925099/git-stash-changes-apply-to-new-branch)
 
@@ -857,3 +857,133 @@ Changes not staged for commit:
 - [x] beta-notes.js was staged, then modified afterwards, creating two different versions of the file.
 
 [Reference](https://stackoverflow.com/questions/24837841/can-a-file-be-both-staged-and-unstaged-in-git)
+
+#### Q103. How would you display a histogram showing inserts, deletion, and modifications per file for a specific commit along with its general commit information?
+
+- [ ] Use `git stat`.
+- [ ] Use `git debug --prettyprint`.
+- [ ] Query the remote repository with the commit hash.
+- [x] Use `git show <commit> --stat`.
+
+[Reference](https://git-scm.com/docs/git-show#Documentation/git-show.txt---statltwidthgtltname-widthgtltcountgt)
+
+#### Q104. What features do repository managers such as GitHub provide beyond Git?
+
+- [ ] Repository managers are proprietary versions of Git that do not include enhanced features.
+- [ ] Repository managers provide an enhanced command-line tool that is used to manage multiple local repositories.
+- [x] Repository managers provide an online service for hosting Git repositories that include collaboration features such as pull requests, issue tracking, and peer reviews.
+- [ ] Repository managers distribute repositories across multiple locations on a user's workstation, providing redundant storage that allows for quick backup and recovery.
+
+[reference](https://www.theserverside.com/video/Git-vs-GitHub-What-is-the-difference-between-them)
+
+#### Q105. What command finds the HEAD of the current branch?
+
+- [ ] `git head --verify`
+- [ ] `git log --head`
+- [ ] `git hash --head`
+- [x] `git show-ref --head`
+
+[reference](https://git-scm.com/docs/git-show-ref)
+
+#### Q106. When Git Workflows contain a long-running branch, what purpose does the long-running branch serve?
+
+- [ ] Long-running branches store unstable code until it os peer reviewed for integration into a feature branch.
+- [ ] Long-running branches correspond to agile sprints and are used to store related to features developed in the sprint.
+- [ ] Long-running branches contain code related to expiremental feature development that is merged into short-lived branches such as master.
+- [x] Long-running branches correspond to different stages of development and are allways open for topic/feature branches to be pulled into.
+
+#### Q107. What command takes changes from the master branch on the remote repository orgin and merges then to the local checked-out branch?
+
+- [ ] `git commit -u origin`
+- [ ] `git checkout origin`
+- [x] `git pull origin master`
+- [ ] `git push origin master`
+
+#### Q108. While pushing changes to a remote repository, you receive the following message. How do you resolve this issue?
+
+```bash
+error: failed to push some refs to 'https://github.com/myrepo/simple.git'
+hint: Updates were rejected because the remote contains work that you do not hint: not have locally.
+```
+
+- [ ] Use the --atomic option with the push command.
+- [x] Execute a pull, then resolve any merge conflicts and execute another push.
+- [ ] Execute a fetch, then execute another push.
+- [ ] Use the --force option with the push command.
+
+#### Q109. What does the -p option add to the output of the `git log` command?
+
+- [ ] It adds patch output that shows the differences introduced in each commit.
+- [x] It adds patch output that shows a summary listing modified files.
+- [ ] It adds padding to the output and displays a histogram showing the number of lines changed in each commit.
+- [ ] It adds the full commit message and notes associated with each commit.
+
+#### Q110. What is the staging area or index?
+
+- [ ] an area that stores commits prior to them being pushed to the remote repository
+- [ ] an area containing stash entries that can applied to the working files
+- [ ] an area where changes from a branch in the remote repository are stored before they are applied to a local branch
+- [x] an area that stores information about changes that will be included in the next commit
+
+#### Q111. What command would you use to stage changes to the index strictly for properties files in the current directory?
+
+- [x] `git add *.properties`
+- [ ] `git add %.properties`
+- [ ] `git add .properties`
+- [ ] `git add properties`
+
+#### Q112. What are untracked files?
+
+- [ ] files in the local repository that have not been merged into the master branch
+- [ ] staged files that Git does not know about because the have not been committed
+- [x] files in the working directory that Git does not know about because the have not been staged or committed
+- [ ] files in the remote repository that Git does not know about because they have not been tagged
+
+#### Q113. What command takes changes from the master branch on the remote repository origin and merges them to the local checked-out branch?
+
+- [ ] git checkout origin
+- [ ] git commit -u origin
+- [x] git pull origin master
+- [ ] git push origin master
+
+#### Q114. What type of Git hook could be used to validate that a commit message contains a ticket number?
+
+- [ ] pre-commit
+- [x] commit-msg
+- [ ] applypatch-msg
+- [ ] prepare-commit-msg
+
+#### Q115. What is the difference between git stash pop and git stash apply?
+
+- [ ] git stash pop pushes the topmost commit to the current branch, while git stash apply caches the last commit in the current branch.
+- [x] git stash pop applies the topmost entry in the stash to the working files and removes it from the stash, while git stash apply applies the topmost entry in the stash to the working files but leaves it in the stash.
+- [ ] git stash pop merges the topmost commit to the current branch, while git stash apply merges the last commit in the current branch.
+- [ ] git stash pop applies the topmost entry in the stash to the working files but leaves it in the stash, while git stash apply applies the topmost entry in the stash to the working files and removes it from the stash.
+
+#### Q116. After making some major changes to your code, you are a little nervous about committing. What command would you use to review the commit prior to making it?
+
+- [ ] git commit --verify
+- [ ] git notes show
+- [ ] git commit preview
+- [x] git commit --dry-run
+
+#### Q117. How would you create a custom shortcut or command across your git environment?
+
+- [ ] Run git hotfix with the shortcut name.
+- [ ] Assign a shortcut or command using git options file.
+- [ ] Use the git custom-key command.
+- [x] Create an alias usin the git config command.
+
+#### Q118. What statement best describes Git's concept of HEAD?
+
+- [ ] a pointer to the most recently changed file in the stage/index
+- [ ] a pointer to the master branch
+- [x] a pointer to the most recent commit in the currently checked-out branch
+- [ ] a pointer to where the repository is stored in memory
+
+#### Q119. After staging changes to several files, you realize the changes to the confin.properties file are incorrect, and need to be removed from the stage and working directory. What command can you use to remove the staged changes to the file?
+
+- [ ] git reset HEAD^ -- config.properties
+- [x] git rm config.properties
+- [ ] git rf config.properties
+- [ ] git checkout HEAD -- config.properties

@@ -1278,3 +1278,21 @@ class my_class{
 - [ ] a string with more than 255 characters
 - [ ] a pointer
 - [ ] a 64-bit floating point number
+
+#### Q78. Which of the following types has the closest functionality to a class?
+
+- [x] `struct`
+- [ ] `union`
+- [ ] `enum`
+- [ ] `namespace`
+
+[Reference](https://en.cppreference.com/w/c/language/struct)
+
+#### Q79. Given these records in a map, how will you update the value for the key "Sinead" to 22?
+
+![image](images/Q79.png)
+
+- [x] `marks["Sinead"] = 22`
+- [ ] `marks["Sinead"].22`
+- [ ] `marks["Sinead"] -> 22`
+- [ ] `marks["Sinead"].value = 22`

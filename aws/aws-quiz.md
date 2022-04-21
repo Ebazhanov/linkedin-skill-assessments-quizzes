@@ -543,7 +543,7 @@ aws ec2 start-instances --instance-ids i-0b263919b6498b123
       Add another rule that allows for SSH access from a secured source, such as a single IP or a range of managed IP addresses.
 - [ ] There is nothing wrong with this security group rule. Assuming that sg-269afc5e is applied to other resources that are properly
       secured, this rule allows all traffic to pass through that is also assigned security group sg-269afc5e.
-- [ ] ?> All traffic on all ports are allowed into this instance. This exposes the instance to all public internet traffic and
+- [ ] All traffic on all ports are allowed into this instance. This exposes the instance to all public internet traffic and
       overwrites the incoming HTTP rule.
 
 #### Q65. You have a VPC that has a public and private subnet. There is a NAT gateway in the public subnet that allows instances in the private subnet to access the internet without having public exposure outside of the VPC. What should the routing tables be for the private subnet?
@@ -585,9 +585,7 @@ Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
 - [ ] AWS Audit and Compliance Tool
 - [ ] GuardDuty
 
-#### Q67. You have an application that generates long-running reports, stores them in an S3 bucket, and then emails the user who requested
-
-the report with a link to download it. What is the best practice for storing the report data in S3?
+#### Q67. You have an application that generates long-running reports, stores them in an S3 bucket, and then emails the user who requested the report with a link to download it. What is the best practice for storing the report data in S3?
 
 - [ ] Create a public S3 bucket. When your application creates the report object in S3, generate two randomly generated long
       folder names and place the file within the deepest subfolder. Set the retention policy on the object to one hour and email this link to
@@ -609,9 +607,7 @@ the report with a link to download it. What is the best practice for storing the
 - [ ] clicks and deliveries
 - [ ] sending volume over the past 15 minutes and over one day to watch for billing spikes
 
-#### Q69. You are going to host an application that uses a MySQL database. Which database should you select if you don't want to manage
-
-scaling or database administration tasks?
+#### Q69. You are going to host an application that uses a MySQL database. Which database should you select if you don't want to manage scaling or database administration tasks?
 
 - [ ] Launch an AMI image from the marketplace containing a preconfigured MySQL server.
 - [x] Aurora
@@ -709,7 +705,7 @@ aws ecs create-service \
 
 [Reference](https://aws.amazon.com/premiumsupport/knowledge-center/geolocation-routing-policy/)
 
-#### Q78. You have recently launched your new web product and are expecting 1.000 new users each month. However, you have just received word from the CEO that your product will be featured at an upcoming conference covered by several media outlets, and this could lead to 20,000 new users over the next week. How do you plan for a sudden increase in traffic?
+#### Q78. You have recently launched your new web product and are expecting 1,000 new users each month. However, you have just received word from the CEO that your product will be featured at an upcoming conference covered by several media outlets, and this could lead to 20,000 new users over the next week. How do you plan for a sudden increase in traffic?
 
 - [ ] Replicate your infrastructure across two regions. You will harden the application to a regional failure and you will double your capacity.
 - [ ] Take an AMI image of a front-end server to save your configuration and then add more servers to your cluster pror to the conference. Remove the servers from the cluster after the spike from the conference.
@@ -723,7 +719,9 @@ aws ecs create-service \
 - [ ] Stop the instance and create an AMI image. Launch the image using a new key pair.
 - [ ] Contact AWS support. A support specialist can remotely restore access to your instance and send you a new key pair.
 - [ ] You can not connect to this EC2 instance. The key pair is displayed only one time. If you lose it, you have lost all access to this instance. Connect the EBS volume to another instance to recover your files.
-- [ ] Attach the EBS volume to a temporary instance launched with a new key pair, and overwrite ~/.ssh.authorized_keys using the same file from the new instance.
+- [x] Attach the EBS volume to a temporary instance launched with a new key pair, and overwrite ~/.ssh.authorized_keys using the same file from the new instance.
+
+[Reference](https://medium.com/the-10x-dev/how-to-recover-access-login-to-your-aws-instance-after-losing-your-pem-keypair-file-e0d31bae2da4)
 
 #### Q80. Your on-premise data center (172.16.128.0/24) is already connected to your AWS VPC (10.0.0.0/16) by a customer gateway. You wish to connect another data center for a company you just acquired (172.16.130.0/24) to your VPC as shown in the image. What is the best way to create this link?
 
@@ -733,3 +731,44 @@ aws ecs create-service \
 - [ ] Create a second customer gateway and configure your VPN client at your second data center to connect to the virtual private gateway.
 - [x] Create a second virtual private gateway (VPG) and attach it to the VPC. Create a customer gateway for the new virtual private gateway and use your VPN client at your second data center to establish a connection to the VPG.
 - [ ] You can not have more than one customer gateway per VPC, so the proposed solution will not work. Create a second VPC with a virtual private gateway and a customer gateway. Bridge the two VPCs using VPC peering.
+
+#### Q81. You are migrating a 200 GB database from an on-premise SQL Server to RDS for SQL Server. The database needs to have minimal downtime during the migration. What is the best practice for migrating this database?
+
+- [ ] Close all existing connections to the SQL Server database and use Database Migration Service to transfer the data to RDS.
+- [x] Use Database Migration Service to replicate the database to RDS and keep it in sync during the migration. Repoint your applications to use the new RDS endpoint.
+- [ ] Detach the SQL Server database during the migration. Take a backup of the database and use SQ with Accelerated Transfer to upload the backups to S3. Restore the backups to the RDS instance.
+- [ ] Use the Import and Export wizard within SQL Server Enterprise Manager to create an export task and export the tables to the RDS instance.
+
+[Reference](https://aws.amazon.com/dms/)
+
+#### Q82. You have enabled Multi-Factor Authentication (MFA) for your AWS root account and you lost your MFA device. What do you need to do to recover access to your account?
+
+- [ ] You cannot recover access to your AWS root account. Contact AWS support.
+- [x] An email will be sent to the email address on file to verify ownership of the account. You will then need to provide the phone number on the account.
+- [ ] An email will be sent to the email address on file. After clicking in the link in your email, provide one of the MFA recovery codes that were created when MFA was enabled.
+- [ ] Use the AWS CLI with the root account access token to disable MFA on the root account. Then use the CLI to set a new password on the root account.
+
+[Reference](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_lost-or-broken.html)
+
+#### Q83. How do you assign an Elastic IP to several EC2 instances?
+
+- [ ] In the VPC dashboard, click Elastic IPs. Select the Elastic IP and click Associate Address. Select each EC2 instance you wish to assign this address to.
+- [ ] In the EC2 dashboard, click on EC2 instance. Under Actions, select networking > Manage IP Addresses. click to add a new IP address and type in the address of the Elastic IP. Repeat the process for each EC2 instance you want to assign this Elastic IP to.
+- [ ] Use the AWS CLI and pass in several '--instance-id' options to hte aws ec2 assosiate-address command.
+- [x] An elastic IP cannot be assigned to multiple EC2 instances. It can only be assosiated to a single EC2 instance.
+
+[Reference](https://stackoverflow.com/questions/54742522/assign-multiple-ec2-instances-to-one-elastic-ip)
+
+#### Q84. You created a VPC that has a public subnet and a private subnet. A web server was placed in the public subnet and a database server was placed in the private subnet. The web server is able to connect to the database server; however, the database server at 10.0.1.2 is unable to get software updates. What is the cause of this issue?
+
+- [x] There is no NAT gateway for the private subnet, so the database server has no routes that give it public internet access to download software updates.
+- [ ] The database server needs to be assigned a public address from the pool, or assigned an Elastic IP similar to the instance 10.0.0.2.
+- [ ] The router is not configured properly on the VPC. Add a route to route table for the VPC that routes all traffic for 0.0.0.0/0 to the ID of the internet gateway.
+- [ ] There is no egress-only internet gateway attached to the private subnet of the VPC.
+
+#### Q85. Benefit of using S3 Glacier?
+
+- [ ] access time
+- [ ] store for small duration
+- [x] cost
+- [ ] cross-region
