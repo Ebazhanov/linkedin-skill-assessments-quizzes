@@ -42,9 +42,10 @@
 #### Q6. You are developing a release strategy for several related software components. You need to reference variable groups and secure files across multiple build and release pipelines. What is the most efficient way to store and reference these assets from the pipeline?
 
 - [ ] Add the assets to a git repository
-- [x] Add the assets in Key Vault
+- [ ] Add the assets in Key Vault
 - [ ] Add the assets to an encrypted volume
-- [ ] Add the assets to a library
+- [x] Add the assets to a library
+[Ref](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/?view=azure-devops)
 
 #### Q7. You need to grant full access for an app to a temporary Azure storage account. Configuring access should require minimum effort. Which option should you use?
 
