@@ -1800,3 +1800,14 @@ for x in range(1, len(characters)):
 - [ ] Int
 - [ ] Float
 - [x] Double
+
+### Q134. What will be the output of this code?
+
+```python
+[1,2,3] * 3
+```
+- [ ] [3,2,3]
+- [x] [1, 2, 3, 1, 2, 3, 1, 2, 3]
+- [ ] You will get a type error.
+- [ ] [3,6,9]
+
