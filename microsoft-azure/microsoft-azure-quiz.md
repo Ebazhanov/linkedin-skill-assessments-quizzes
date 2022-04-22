@@ -84,6 +84,8 @@
 - [ ] Notification Hub
 - [x] Event Grid
 
+[Ref](https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services)
+
 #### Q11. You need to populate a newly created SQL database from your release pipeline in Azure DevOps. The solution should minimize deployment time and efforts. Which approach should you use?
 
 - [x] Populate from a BACPAC file.
