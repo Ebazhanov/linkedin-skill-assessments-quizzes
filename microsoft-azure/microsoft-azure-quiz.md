@@ -7,6 +7,8 @@
 - [x] `bash az ad app create -display-name $appName \ ...`
 - [ ] `bash az ad app permission ass -display-name $appName \ ...`
 
+[Ref](https://docs.microsoft.com/en-us/cli/azure/ad/app?view=azure-cli-latest)
+
 #### Q2. You need to deliver a mobile push notification feature for the Kineteco Retail app, hosted in Azure App Service. The solution should minimize cost, complexity, and development effort. Which option should you choose?
 
 - [x] Notification Hub
