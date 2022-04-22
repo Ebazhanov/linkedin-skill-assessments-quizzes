@@ -485,11 +485,11 @@
 #### Q55. When would it be necessary to 301 redirect every page on a site?
 
 - [ ] when parameters are used in URLs
-- [ ] when migrating from HTTP to HTTPS
+- [x] when migrating from HTTP to HTTPS
 - [ ] when launching a new redesign
-- [x] when creating a new subdomain
+- [ ] when creating a new subdomain
 
-**Explanation:** From article: [Types of redirects](https://moz.com/learn/seo/redirection)
+**Explanation:** From article: [301 Redirects for SEO](https://ahrefs.com/blog/301-redirects/) (2020)
 
 #### Q56. What would contribute to a low bounce rate?
 

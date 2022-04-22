@@ -5155,7 +5155,9 @@
       "profile": "https://www.linkedin.com/in/CS4Usama",
       "contributions": [
         "design",
-        "code"
+        "code",
+        "content",
+        "business"
       ]
     },
     {
@@ -8097,7 +8099,8 @@
       "contributions": [
         "design",
         "code",
-        "data"
+        "data",
+        "content"
       ]
     },
     {
@@ -8287,7 +8290,8 @@
       "contributions": [
         "design",
         "code",
-        "example"
+        "example",
+        "business"
       ]
     },
     {
@@ -8315,6 +8319,202 @@
       "name": "Sounak Dey",
       "avatar_url": "https://avatars.githubusercontent.com/u/31971312?v=4",
       "profile": "https://rickdevelops.github.io/personal/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "ziasistani",
+      "name": "zia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4399507?v=4",
+      "profile": "https://github.com/ziasistani",
+      "contributions": [
+        "business"
+      ]
+    },
+    {
+      "login": "rezazzr",
+      "name": "Reza Davari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29124068?v=4",
+      "profile": "https://davari.io/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "AkshayAjaykumar",
+      "name": "AkshayAjaykumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103431695?v=4",
+      "profile": "https://github.com/AkshayAjaykumar",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "x24870",
+      "name": "x24870",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8668432?v=4",
+      "profile": "http://www.pyknote.xyz/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "phonethantzaw",
+      "name": "Ko Phone",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11054762?v=4",
+      "profile": "https://github.com/phonethantzaw",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Nabstar3",
+      "name": "Nabstar3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47038774?v=4",
+      "profile": "https://github.com/Nabstar3",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "MateuszGolda",
+      "name": "Mateusz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58918524?v=4",
+      "profile": "https://github.com/MateuszGolda",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "yunusemreemik",
+      "name": "Yunus Emre Emik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34275999?v=4",
+      "profile": "http://yunus_emre3497[at]hotmail.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "sinhadotabhinav",
+      "name": "Abhinav Sinha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10262343?v=4",
+      "profile": "https://github.com/sinhadotabhinav",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "hungqng",
+      "name": "Hung Nguyen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97866339?v=4",
+      "profile": "https://leetcode.com/hungqn04/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Maselino",
+      "name": "Maselino",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16258349?v=4",
+      "profile": "https://github.com/Maselino",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Shuktika15",
+      "name": "Shuktika Mahanty",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53374048?v=4",
+      "profile": "https://github.com/Shuktika15",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "mikolajgawronski",
+      "name": "Mikołaj Gawroński",
+      "avatar_url": "https://avatars.githubusercontent.com/u/54740661?v=4",
+      "profile": "https://github.com/mikolajgawronski",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Husseinhj",
+      "name": "Hussein Habibi Juybari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27139702?v=4",
+      "profile": "https://github.com/Husseinhj",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Sean-McArthur",
+      "name": "Sean-McArthur",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103604658?v=4",
+      "profile": "https://github.com/Sean-McArthur",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "BenVlodgi",
+      "name": "Benjamin Thomas Blodgett",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1462374?v=4",
+      "profile": "https://benvlodgi.github.io/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Chuanlong-Zang",
+      "name": "Chuanlong-Zang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/75363411?v=4",
+      "profile": "http://zang.chuanlong@outlook.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "wolfkin",
+      "name": "julian",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6678474?v=4",
+      "profile": "http://about.me/wolfkin",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "franisrael",
+      "name": "francisco",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12844601?v=4",
+      "profile": "https://github.com/franisrael",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "aalihhiader9211",
+      "name": "aalihhiader9211",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50293007?v=4",
+      "profile": "https://github.com/aalihhiader9211",
       "contributions": [
         "design",
         "code"

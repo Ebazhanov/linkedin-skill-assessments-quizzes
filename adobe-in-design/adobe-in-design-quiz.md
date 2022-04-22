@@ -100,3 +100,51 @@
 - [ ] You are changing the number of columns on a page and want to ensure the text flows properly.
 - [ ] You want a line or top shaded borded to span across the top of a multicolumn frame.
 - [ ] You have a heading that you want to span across two threaded text frames
+
+#### Q14. Which statement about tables is true?
+
+- [ ] Tables are always anchored in a story in a text frame.
+- [ ] To edit text in a table, you should first click **Table>Convert Table to Text**
+- [ ] Tables must contain more than one cell.
+- [ ] Tables cannot be anchored in a story in a text frame
+
+#### Q15. Which feature would you use to create the effect shown, where the grouped circles blend with each other but not the object behind them?
+
+![Q15](images/Q15.png)
+
+- [ ] Global Light
+- [ ] the Screen blending mode
+- [ ] Isolate Blending
+- [ ] Knockout Group
+
+#### Q16. In the image shown, what do the colored frame edges indicate?
+
+![Q16](images/Q16.png)
+
+- [ ] which layer each object is on
+- [ ] which master page each object is on
+- [ ] which object style is applied to the frame
+- [ ] that the red frame is locked
+
+#### Q17. To resize any frame and its contents and maintain the proportions of both, which key or keys must you press while dragging from a corner handle?
+
+- [ ] Ctrl (Windows) or Command (Mac)
+- [ ] Alt+Shift (Windows) or Option+Shift (Mac)
+- [ ] Ctrl+Shift (Windows) or Command+Shift (Mac)
+- [ ] Alt+Spacebar (Windows) or Options+Spacebar (Mac)
+
+#### Q18. In the image shown, what can you infer about how this document will print?
+
+![Q18](images/Q18.png)
+
+- [ ] The page wil be scaled to fit the paper.
+- [ ] All document layers will be visible
+- [ ] Some of the InDesign page will be cropped off.
+- [ ] The master page P is applied to the document pages.
+
+#### Q19. After you click a color in the **Gradient** panel to select it, how can you set its color to a swatch in the **Swatches** panel?
+
+- [ ] Double-click the swatch.
+- [ ] Option-click (Mac) or Alt-click (Windows) the swatch.
+- [ ] You cannot apply a color swatch to a color stop in the **Gradient** panel.
+- [ ] Drag the color stop over the color in the **Swatches** panel.

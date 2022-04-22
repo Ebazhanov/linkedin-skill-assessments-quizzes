@@ -2,26 +2,26 @@
 
 #### Q1. You are configuring a Wi-Fi base station using DHCP. Which items should you set or change?
 
-- [x]
+- [x] A
 
   - Reset administrator password.
   - Set network name.
   - Set network security.
   - Set network password.
 
-- [ ]
+- [ ] B
 
   - Reset administrator password.
   - Set network name.
   - Set network password.
 
-- [ ] 
+- [ ] C
 
   - Set network name.
   - Set network password.
   - Assign DNS servers.
 
-- [ ]
+- [ ] D
 
   - Change administrator account name.
   - Set network password.
@@ -58,19 +58,24 @@
 
 #### Q6. Assuming that the gateway, modem, and switch are separate units, in what order should a small office or home office LAN be restarted?
 
-- [ ] The order is not important.
-- [x]
+- [x] A
 
   1. Modem
   2. Gateway
   3. Switch
 
-- [ ]
+- [ ] B
+
   1. Modem
   2. Switch
   3. Gateway
-- [ ] 1. Gateway
+
+- [ ] C
+
+  1. Gateway
   2. Switch
+
+- [ ] The order is not important.
 
 #### Q7. A client needs to secure their cafe's wireless network, which is used only by employees. What is the best approach for a finite list of devices?
 
@@ -519,3 +524,10 @@
 - [ ] The Storage Inventory Manager (SIM) can lose its drive references, which may corrupt other storage in the system.
 - [ ] The drive must receive the eject signal and turn itself off, dropping the DTR signal and indicating the media is safe to remove.
 - [ ] The computer must stop the 5-volt signal to media, otherwise the drive may short.
+
+#### Q62. Which part of the network assigns an IP address?
+
+- [ ] the modem using TCP/IP protocol
+- [x] the gateway/router using DHCP
+- [ ] the device's NIC based on the MAC address
+- [ ] IP addresses are always assigned manually

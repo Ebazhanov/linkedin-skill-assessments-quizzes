@@ -719,10 +719,12 @@ if [[ $FILE == $GLOB ]] ;then
 
 #### Q87. Which statement about default ACLs is true?
 
-- [ ] They provide inheritance for user and group permissions.
+- [x] They provide inheritance for user and group permissions.
 - [ ] They work only on files.
 - [ ] They provide inheritance for group ownership.
 - [ ] They grant access to the directory on which they are set.
+
+[reference:](https://www.redhat.com/sysadmin/linux-access-control-lists#setting-an-acl)
 
 #### Q88. The object that `systemd` uses to manage services is called a \_ file.
 

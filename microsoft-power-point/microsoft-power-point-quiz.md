@@ -574,16 +574,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 [Reference](https://support.microsoft.com/en-us/office/animate-text-or-objects-305a1c94-83b1-4778-8df5-fcf7a9b7b7c6)
 
-#### Q75. What do the labels introduction and ProjectByMonth indicates?
-
-- [ ] links to next slide
-- [ ] hidden slides
-- [x] section names
-- [ ] layouts
-
-[Reference](https://support.microsoft.com/en-us/office/organize-your-powerpoint-slides-into-sections-de4bf162-e9cc-4f58-b64a-7ab09443b9f8#:~:text=Right%2Dclick%20between%20slides%20and,next%20to%20the%20section%20name.)
-
-#### Q76. When you copy data from an Excel worksheet into a slide to create a table, which Paste option will allow you to edit the table data in Excel?
+#### Q75. When you copy data from an Excel worksheet into a slide to create a table, which Paste option will allow you to edit the table data in Excel?
 
 - [ ] Keep Formatting
 - [x] Embed
@@ -592,21 +583,21 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 [Reference](https://support.microsoft.com/en-us/office/insert-excel-data-in-powerpoint-19767daf-672c-43bc-bda1-330b242c57c9)
 
-#### Q77. You created a photo album with transitions and want to send it to friends, but the file size is too large for email. How can you use one command to fix this?
+#### Q76. You created a photo album with transitions and want to send it to friends, but the file size is too large for email. How can you use one command to fix this?
 
 - [ ] Click **Export** in Backstage view and embed the presentation in an email.
 - [ ] Compress all the pictures to the **Email (96 ppi) resolution**.
 - [ ] Use the Share feature in Backstage view and petty email to automatically compress the pictures.
 - [ ] Use the Share feature in Backstage view to create a pdf to send as an attachment.
 
-#### Q78. In a presentation about voter turnout, you are illustrating various data with charts. Which type of information would you present in a pie chart?
+#### Q77. In a presentation about voter turnout, you are illustrating various data with charts. Which type of information would you present in a pie chart?
 
 - [ ] the decline of voter turnout by county
 - [ ] trends in voter turnout over the part 10 years
 - [ ] what percentage of the whole population voted
 - [ ] how many people voted in various geographic regions on a map
 
-#### Q79. A few lines of text are overflowing the placeholder on your slide. How can you fix it on your slide?
+#### Q78. A few lines of text are overflowing the placeholder on your slide. How can you fix it on your slide?
 
 ![Q79](images/Q79.png)
 
@@ -615,14 +606,14 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [x] Select **Autofit Text to Placeholder**.
 - [ ] Click **Collapse**.
 
-#### Q80. If you want to create an organizational chart that illustrates the reporting relationships within the organization, which SmartArt category would you use?
+#### Q79. If you want to create an organizational chart that illustrates the reporting relationships within the organization, which SmartArt category would you use?
 
 - [x] Hierarchy
 - [ ] Matrix
 - [ ] Pyramid
 - [ ] Relationship
 
-#### Q81. What do the labels Introduction and ProjectsByMonth indicate?
+#### Q80. What do the labels Introduction and ProjectsByMonth indicate?
 
 ![Q81](images/Q81.png)
 
@@ -631,7 +622,9 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] hidden slides
 - [ ] links to the next slide
 
-#### Q82. There are objects and text hidden behind an image on your slide. With the image selected, what could you adjust to make the objects and text appear "through" the image?
+[Reference](https://support.microsoft.com/en-us/office/organize-your-powerpoint-slides-into-sections-de4bf162-e9cc-4f58-b64a-7ab09443b9f8#:~:text=Right%2Dclick%20between%20slides%20and,next%20to%20the%20section%20name.)
+
+#### Q81. There are objects and text hidden behind an image on your slide. With the image selected, what could you adjust to make the objects and text appear "through" the image?
 
 - [ ] Compress Picture
 - [ ] Transparency

@@ -10,6 +10,7 @@
 - [x] 0
 
 **_Both sides of the "spaceship" are equal, so the answer is 0. PHP will convert '76 trombones' to 76 in this context, as the string starts with '76'. Try it!_**
+**_For php 8.0 and forward the answer is [x] -1, for previous versions the answer is [x] 0._**
 
 ##### Q2. Which is the most secure way to avoid storing a password in clear text in database?
 
@@ -1005,3 +1006,42 @@ print $match[1]."\n";
 - [ ] `if-then-else`, `do-while`, `for-each`, `go-to`, `stop-when`
 
 [reference](https://www.php.net/manual/en/language.control-structures.php)
+
+
+#### Q83. Which function can you use in error handling to stop the execution of a script and is equivalent to `exit()`?
+
+- [ ] throw
+- [ ] break
+- [x] die
+- [ ] return
+=======
+#### Q83. Which function can you use in error handling to stop the execution of a script and is equivalent to exit()?
+- [x] `die`
+- [ ] `return`
+- [ ] `throw`
+- [ ] `break`
+
+#### Q84. Is the output of this code in descending order, shown vertically, and with spaces between numbers? And what is the output?
+
+```php
+$numbers = array(4,6,2,22,11);
+sort($numbers);
+$arrlength = count($numbers);
+for($x = 0; $x < $arrlength; $x++){
+    echo $numbers[$x];
+    echo "<br />";
+    }
+```
+
+- [ ] This does not meet all the criteria because the resulting numbers will be "2461122", which is in no particular order.
+- [ ] This meets the criteria because the <br /> is present and sort() lists in descending order
+- [x] This does not meet all the criteria because the sort() function sorts an indexed array in ascending order. Thus this code will display "2 4 6 11 22" shown vertically, but the numbers are spaced.
+- [ ] does not meet all the criteria because the echo simply result in showing the array numbers in the order shown within the $numbers array, which is ascending
+
+#### Q85. Which is not true of the __toString() in PHP?
+
+- [ ] It saves a lot of work of using setters methods to access the values of objects.
+- [ ] It saves a lot of work of using getters methods to access the values of objects.
+- [x] It allows you to call an object and see its components as a string.
+- [ ] It is automatically called when you use echo or print.
+
