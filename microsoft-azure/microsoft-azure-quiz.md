@@ -55,8 +55,6 @@
 - [ ] Shared key
 - [ ] Certificate
 
-[Ref](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview)
-
 [Shared access signature](https://docs.microsoft.com/en-us/azure/storage/common/storage-sas-overview) exists exactly for the purpose of giving a temporary access. Azure AD user account is not temporary so it needs to be managed. Creating/revoking Certificates for temporary access is just too much hassle.
 
 #### Q8. The Kineteco web app runs in an Azure Kubernetes Service. You need to monitor feature use and user navigation paths to identify where improvements are needed. What should you do?
