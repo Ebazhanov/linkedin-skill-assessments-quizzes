@@ -45,6 +45,7 @@
 - [ ] Add the assets in Key Vault
 - [ ] Add the assets to an encrypted volume
 - [x] Add the assets to a library
+
 [Ref](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/?view=azure-devops)
 
 #### Q7. You need to grant full access for an app to a temporary Azure storage account. Configuring access should require minimum effort. Which option should you use?
