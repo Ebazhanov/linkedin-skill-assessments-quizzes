@@ -1241,7 +1241,7 @@ const numbers = [1, 2, 3, 4, 5];
 
 [Reference array destructuring](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 
-#### Q95.
+#### Q95. What will this code print?
 
 ```js
 const obj = {
