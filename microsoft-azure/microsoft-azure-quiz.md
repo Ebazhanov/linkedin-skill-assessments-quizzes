@@ -72,8 +72,10 @@
 
 - [ ] based on a time (schedule)
 - [ ] another Azure service (cosmos, service bus)
-- [ ] threshold alert in Azure App insights
-- [x] third party services (GitHub)
+- [x] threshold alert in Azure App insights
+- [ ] third party services (GitHub)
+
+[Ref](https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings?tabs=csharp)
 
 #### Q10. Which messaging service enables an event-driven programming model?
 
