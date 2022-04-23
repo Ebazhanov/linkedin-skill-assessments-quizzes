@@ -358,7 +358,7 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 #### Q45. What would this sed command do?
 
 ```bash
-sed -E 's/[a-Z]{4}/($)/'  textfile.txt
+sed -E 's/[a-Z]{4}/(&)/'  textfile.txt
 ```
 
 - [ ] It would substitute the letter with an ampersand (&).
