@@ -10,6 +10,7 @@
 - [x] 0
 
 **_Both sides of the "spaceship" are equal, so the answer is 0. PHP will convert '76 trombones' to 76 in this context, as the string starts with '76'. Try it!_**
+**_For php 8.0 and forward the answer is [x] -1, for previous versions the answer is [x] 0._**
 
 ##### Q2. Which is the most secure way to avoid storing a password in clear text in database?
 
@@ -1006,6 +1007,14 @@ print $match[1]."\n";
 
 [reference](https://www.php.net/manual/en/language.control-structures.php)
 
+
+#### Q83. Which function can you use in error handling to stop the execution of a script and is equivalent to `exit()`?
+
+- [ ] throw
+- [ ] break
+- [x] die
+- [ ] return
+=======
 #### Q83. Which function can you use in error handling to stop the execution of a script and is equivalent to exit()?
 - [x] `die`
 - [ ] `return`
@@ -1035,3 +1044,4 @@ for($x = 0; $x < $arrlength; $x++){
 - [ ] It saves a lot of work of using getters methods to access the values of objects.
 - [x] It allows you to call an object and see its components as a string.
 - [ ] It is automatically called when you use echo or print.
+

@@ -712,3 +712,17 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] supervised
 - [x] unsupervised
 - [ ] classification
+
+#### Q93. What is ensemble modeling?
+
+- [ ] when you create an ensemble of your training and test data set
+- [ ] when you create an ensemble of different servers to run the algorithms
+- [ ] when you find the one best algorithm for your ensemble
+- [x] when you use several ensembles of machine learning algorithms
+
+#### Q94. What is the best definition for bias in your data model?
+
+- [ ] Bias is when your predicted values are scattered.
+- [x] Bias is the gap between your predicted value and the outcome.
+- [ ] Bias is when your data is wrong for differnet reasons.
+- [ ] Bias is when your values are always off by the same percentage. 
