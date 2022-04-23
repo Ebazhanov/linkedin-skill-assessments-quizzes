@@ -124,3 +124,17 @@
 - [ ] G-code
 - [ ] NC-code
 - [ ] a code processor
+
+#### Q18. Which pattern tool copies objects around a selected axis?
+
+- [ ] Rectangular Pattern
+- [ ] Pattern on Path
+- [ ] Mirror Plane
+- [ ] Circular Pattern
+
+#### Q19. What is the initial view placed in a drawing called?
+
+- [x] base view
+- [ ] detail view
+- [ ] section view
+- [ ] main view
