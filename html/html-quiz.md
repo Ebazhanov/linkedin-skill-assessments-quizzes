@@ -617,7 +617,7 @@ This is a confusing question and there can be an arguments for both the second a
 - [ ] device
 - [x] media
 
-#### Q38. What is semantically correct way to mark up this layout?
+#### Q38. What is the semantically correct way to mark up this layout?
 
 ![quote](images/ss-5.png?raw=true)
 
