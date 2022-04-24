@@ -7,6 +7,8 @@
 - [x] `bash az ad app create -display-name $appName \ ...`
 - [ ] `bash az ad app permission ass -display-name $appName \ ...`
 
+[Ref](https://docs.microsoft.com/en-us/cli/azure/ad/app?view=azure-cli-latest)
+
 #### Q2. You need to deliver a mobile push notification feature for the Kineteco Retail app, hosted in Azure App Service. The solution should minimize cost, complexity, and development effort. Which option should you choose?
 
 - [x] Notification Hub
@@ -42,9 +44,11 @@
 #### Q6. You are developing a release strategy for several related software components. You need to reference variable groups and secure files across multiple build and release pipelines. What is the most efficient way to store and reference these assets from the pipeline?
 
 - [ ] Add the assets to a git repository
-- [x] Add the assets in Key Vault
+- [ ] Add the assets in Key Vault
 - [ ] Add the assets to an encrypted volume
-- [ ] Add the assets to a library
+- [x] Add the assets to a library
+
+[Ref](https://docs.microsoft.com/en-us/azure/devops/pipelines/library/?view=azure-devops)
 
 #### Q7. You need to grant full access for an app to a temporary Azure storage account. Configuring access should require minimum effort. Which option should you use?
 
@@ -68,8 +72,10 @@
 
 - [ ] based on a time (schedule)
 - [ ] another Azure service (cosmos, service bus)
-- [ ] threshold alert in Azure App insights
-- [x] third party services (GitHub)
+- [x] threshold alert in Azure App insights
+- [ ] third party services (GitHub)
+
+[Ref](https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings?tabs=csharp)
 
 #### Q10. Which messaging service enables an event-driven programming model?
 
@@ -77,6 +83,8 @@
 - [ ] Event Hub
 - [ ] Notification Hub
 - [x] Event Grid
+
+[Ref](https://docs.microsoft.com/en-us/azure/event-grid/compare-messaging-services)
 
 #### Q11. You need to populate a newly created SQL database from your release pipeline in Azure DevOps. The solution should minimize deployment time and efforts. Which approach should you use?
 
