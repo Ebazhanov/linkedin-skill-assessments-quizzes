@@ -32,10 +32,10 @@ END CATCH
 
 #### Q4. Given these two tables, which query generates a listing showing student names and the department office location where you could reach each student?
 
-- [ ] ```SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students, Departments;```
-- [x] ```SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students JOIN Departments ON Students.department = Departments.department;```
-- [ ] ```SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students JOIN Departments;```
-- [ ] ```SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students ON Students.department = Departments.department;```
+- [ ] `SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students, Departments;`
+- [x] `SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students JOIN Departments ON Students.department = Departments.department;`
+- [ ] `SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students JOIN Departments;`
+- [ ] `SELECT Students.first_name, Students.last_name, Departments.office_location FROM Students ON Students.department = Departments.department;`
 
 #### Q5. What is an example of a DDL command in SQL?
 
@@ -46,28 +46,42 @@ END CATCH
 
 #### Q6. Given the Games table pictured, which query generates the results shown?
 
-- [ ] ```SELECT GameType, MaxPlayers, count(*) AS NumberOfGames
-      FROM Games
-      GROUP BY MaxPlayers, GameType
-      ORDER BY MaxPlayers, GameType;```
-- [x] ```SELECT GameType, MaxPlayers, count(*) AS NumberOfGames
-      FROM Games
-      GROUP BY GameType, MaxPlayers
-      ORDER BY GameType;```
-- [ ] ```SELECT GameType, count(Players) AS MaxPlayers, NumberOfGames
-      FROM Games
-      GROUP BY GameType, MaxPlayers
-      ORDER BY GameType;```
-- [ ] ```SELECT GameType, MaxPlayers, count(*) AS NumberOfGames
-      FROM Games
-      GROUP BY GameType
-      ORDER BY MaxPlayers;```
+- [ ] 
+```tsql
+  SELECT GameType, MaxPlayers, count(*) AS NumberOfGames
+  FROM Games
+  GROUP BY MaxPlayers, GameType
+  ORDER BY MaxPlayers, GameType;
+```
+
+- [x]
+```tsql
+  SELECT GameType, MaxPlayers, count(*) AS NumberOfGames
+  FROM Games
+  GROUP BY GameType, MaxPlayers
+  ORDER BY GameType;
+```
+- [ ]
+```tsql
+  SELECT GameType, count(Players) AS MaxPlayers, NumberOfGames
+  FROM Games
+  GROUP BY GameType, MaxPlayers
+  ORDER BY GameType;
+```
+
+- [ ] 
+```tsql 
+  SELECT GameType, MaxPlayers, count(*) AS NumberOfGames
+  FROM Games
+  GROUP BY GameType
+  ORDER BY MaxPlayers;
+```
 
 #### Q7. Which answer is a possible result of the sequence of commands below?
 
 ```tsql
-DECLARE @UniqueID uniqueidentifier = NEWID();
-SELECT @UniqueID AS Result;
+  DECLARE @UniqueID uniqueidentifier = NEWID();
+  SELECT @UniqueID AS Result;
 ```
 
 - [ ] 1
@@ -134,7 +148,8 @@ SELECT FLOOR(-1234.321)
 - [ ] `DELETE * FROM Products;`
 - [ ] `TRUNCATE TABLE Products;`
 
-#### Q15. What is the result of this query? 
+#### Q15. What is the result of this query?
+
 ```tsql
 SELECT 1 / 2 AS Result;
 ```
@@ -152,6 +167,7 @@ SELECT 1 / 2 AS Result;
 - [ ] `bigint`
 
 #### Q17. What is the result of this query?
+
 ```tsql
 SELECT 'abc\
 def' AS Result;
@@ -172,6 +188,7 @@ def' AS Result;
 [https://www.petefreitag.com/item/466.cfm](https://www.petefreitag.com/item/466.cfm)
 
 #### Q19. What result is returned after executing the following commands?
+
 ```tsql
 DECLARE @MyVariable int;
 SET @MyVariable = 1;
@@ -201,6 +218,7 @@ SELECT @MyVariable;
 - [ ] 9
 
 #### Q22. You need to write a query that returns all products that have a SerialNumber ending with "10_3". Which `WHERE` clause should you use to fill in the blank in this query?
+
 ```tsql
 SELECT ProductID, ProductName, SerialNumber
 FROM Products______ ;
@@ -235,6 +253,7 @@ FROM Products______ ;
 - [x] that all records from the rightmost table are represented in the result, even if there are no corresponding records in the left table
 
 #### Q26. You execute the following three queries. What is the result?
+
 ```tsql
 Create table students(id int identity(1000,1), firstname varchar(20),
 lastname varchar(30));
@@ -353,6 +372,7 @@ SELECT MIN(Grade)
 FROM Students
 ORDER BY Grade;
 ```
+
 > **Explanation:** Column `Students.Grade` is invalid in the `ORDER BY` clause because it is not contained in either an aggregate function or the `GROUP BY` clause.
 
 - [x]
@@ -362,16 +382,17 @@ SELECT MIN(Grade)
 FROM Students
 GROUP BY Grade;
 ```
+
 > **Explanation:** Grouping will return a list of all grades grouped by grade. The prompt wants just one returned row.
 
 #### Q33.
 
 ![T-SQL-Q33](images/Q33.jpg)
 
-- [ ] ```UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id='56295';```
-- [ ] ```UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id='56295';```
-- [ ] ```UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id=56295;```
-- [x] ```UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id=56295;```
+- [ ] `UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id='56295';`
+- [ ] `UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id='56295';`
+- [ ] `UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id=56295;`
+- [x] `UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id=56295;`
 
 #### Q34. You would like to have a record added to a TableB every time a record is modified in TableA. What technique should you look at implementing?
 
@@ -381,6 +402,7 @@ GROUP BY Grade;
 - [ ] You should create a DML trigger on TableB.
 
 #### Q35. What is the problem with this code?
+
 ```tsql
 DECLARE @Counter int;
 SET @Counter = 1;
@@ -399,12 +421,13 @@ END;
 
 ![T-SQL-Q36](images/Q36.jpg)
 
-- [x] ```UPDATES Students SET team = 'Philosophy Parrots' WHERE team = 'Philosophy Pandas';```
-- [ ] ```UPDATES Students SET team = `Philosophy Parrots` WHERE team = `Philosophy Pandas`;```
-- [ ] ```UPDATES Students SET team = "Philosophy Parrots" WHERE team = "Philosophy Pandas";```
-- [ ] ```UPDATES Students SET team = Philosophy Parrots WHERE team = Philosophy Pandas;```
+- [x] `UPDATES Students SET team = 'Philosophy Parrots' WHERE team = 'Philosophy Pandas';`
+- [ ] `UPDATES Students SET team = `Philosophy Parrots` WHERE team = `Philosophy Pandas`;`
+- [ ] `UPDATES Students SET team = "Philosophy Parrots" WHERE team = "Philosophy Pandas";`
+- [ ] `UPDATES Students SET team = Philosophy Parrots WHERE team = Philosophy Pandas;`
 
 #### Q37. What is the result of this query?
+
 ```tsql
 SELECT 123+'123' AS Result;
 ```
@@ -422,6 +445,7 @@ SELECT 123+'123' AS Result;
 - [x] UNION
 
 #### Q39. You run this series of statements. What is the final result?
+
 ```tsql
 CREATE TABLE MyTable (MyValue int);
 INSERT INTO MyTable VALUES (1);
@@ -431,12 +455,14 @@ BEGIN
 END;
 SELECT MyValue AS Result FROM MyTable;
 ```
+
 - [ ] 5
 - [ ] error
 - [ ] 1
 - [ ] 6
 
 #### Q40. Is there an error with this query? If so, which statement best describes the problem?
+
 ```tsql
 SELECT OrderID, SUM(LineTotal) AS SubTotal
 FROM Sales
@@ -444,12 +470,14 @@ WHERE SUM(LineTotal) > 1000
 GROUP BY OrderID
 ORDER BY OrderID;
 ```
+
 - [ ] Yes, a `WHERE` clause cannot be used with an aggregate function.
 - [ ] Yes, you cannot `GROUP BY` and `ORDER BY` the same field.
 - [ ] No, there is nothing wrong with this query.
 - [ ] Yes, the `WHERE` clause should use the `SubTotal` alias.
 
 #### Q41. You created the two tables below. Later, you decide that you want the database to remove all books from the Books table if the related publisher is deleted from the Publishers table. What command should you run?
+
 ```tsql
 CREATE TABLE Books (
 	BookID int PRIMARY KEY,
@@ -479,12 +507,14 @@ CREATE TABLE Publishers (
 	REFERENCES Books (PublisherID) CASCADE DELETE```
 
 #### Q42. Your database currently has a table called Inventory in the Warehouse schema. You need to move the table to the Products schema. Which query accomplishes this goal?
+
 - [x] `ALTER SCHEMA Products TRANSFER Warehouse.Inventory;`
 - [ ] `ALTER TABLE Warehouse.Inventory TRANSFER Products.Inventory;`
 - [ ] `ALTER TABLE Warehouse.Inventory ADD SCHEMA Products;`
 - [ ] `ALTER SCHEMA Warehouse ADD TABLE Inventory;`
 
 #### Q43. Which option—when placed in the blank space—establishes the PersonlD column as the primary key for the table with a nonclustered index?
+
 ```sql
 CREATE TABLE People (
 	PersonID int NOT NULL,
@@ -499,14 +529,17 @@ _______
 - [ ] `PRIMARY KEY CONSTRAINT (PersonID) NONCLUSTERED INDEX`
 
 #### Q44. Which statement could you use to select a random student from this table?
+
 ![T-SQL-Q36](images/Q36.jpg)
-- [x] ```SELECT TOP(1) first_name, last_name FROM Students ORDER BY NEWID();```
-- [ ] ```SELECT TOP(1) RAND(first_name, last_name) FROM Student;```
-- [ ] ```SELECT TOP(1) first_name, last_name FROM Student;```
-- [ ] ```SELECT TOP(1) first_name, last_name FROM RAND(Student);```
+
+- [x] `SELECT TOP(1) first_name, last_name FROM Students ORDER BY NEWID();`
+- [ ] `SELECT TOP(1) RAND(first_name, last_name) FROM Student;`
+- [ ] `SELECT TOP(1) first_name, last_name FROM Student;`
+- [ ] `SELECT TOP(1) first_name, last_name FROM RAND(Student);`
 
 #### Q45. You need to create a simple database backup in the server's `Z:\Backups` directory. Which query should you use?
-- [ ] ```BACKUP MyDatabase TO LOCATION = 'Z:\Backups\MyDatabase.bak';```
-- [ ] ```CREATE BACKUP (DATABASE = 'MyDatabase' TO DISK = 'Z:\Backups\MyDatabase. bak');```
-- [ ] ```BACKUP DATABASE MyDatabase ON 'Z:\Backups\MyDatabase.bak';```
-- [x] ```BACKUP DATABASE MyDatabase TO DISK = 'z:\Backups\MyDatabase.bak';```
+
+- [ ] `BACKUP MyDatabase TO LOCATION = 'Z:\Backups\MyDatabase.bak';`
+- [ ] `CREATE BACKUP (DATABASE = 'MyDatabase' TO DISK = 'Z:\Backups\MyDatabase. bak');`
+- [ ] `BACKUP DATABASE MyDatabase ON 'Z:\Backups\MyDatabase.bak';`
+- [x] `BACKUP DATABASE MyDatabase TO DISK = 'z:\Backups\MyDatabase.bak';`

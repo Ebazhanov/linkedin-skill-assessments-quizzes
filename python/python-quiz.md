@@ -1806,8 +1806,15 @@ for x in range(1, len(characters)):
 ```python
 [1,2,3] * 3
 ```
-- [ ] [3,2,3]
-- [x] [1, 2, 3, 1, 2, 3, 1, 2, 3]
-- [ ] You will get a type error.
-- [ ] [3,6,9]
 
+- [ ] `[3,2,3]`
+- [x] `[1, 2, 3, 1, 2, 3, 1, 2, 3]`
+- [ ] You will get a type error.
+- [ ] `[3,6,9]`
+
+#### Q135. Given a list defined as numbers = `[1,2,3,4]`, what is the value of `numbers[-2]`?
+
+- [ ] 1
+- [x] 3
+- [ ] 2
+- [ ] An IndexError exception is thrown.

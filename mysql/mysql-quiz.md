@@ -945,7 +945,7 @@ SELECT cars.*, purchases.date FROM cars LEFT JOIN purchases ON cars.ID = purchas
     END IF;
 ```
 
-- [X] D
+- [x] D
 
 ```
     IF var1 = 1 THEN SET varA = var1;
@@ -958,6 +958,6 @@ SELECT cars.*, purchases.date FROM cars LEFT JOIN purchases ON cars.ID = purchas
 #### Q99. Why would you use stored functions?
 
 - [ ] for formulas and business rules that you want to apply to columns in an SQL query
-- [X] for formulas and business rules that should be applied on a specific trigger event like on inserts
+- [x] for formulas and business rules that should be applied on a specific trigger event like on inserts
 - [ ] to automatically modify the data of a table based on a query
 - [ ] for reusing recurring queries

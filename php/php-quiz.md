@@ -672,15 +672,18 @@ Dog
 Dog
 ```
 
-- [ ] 
+- [ ]
+
 ```php
       $name = "Cat";
       $name = "Dog";
       echo $name . "<br/>";
       echo $$name . "<br/>";
       echo $Dog;
-  ```
-- [ ] 
+```
+
+- [ ]
+
 ```php
       $name = "Cat";
       $$name = "Dog";
@@ -688,7 +691,9 @@ Dog
       echo $$name . "<br/>";
       echo $Dog;
 ```
+
 - [x]
+
 ```php
       $name = "Cat";
       $$name = "Dog";
@@ -696,7 +701,9 @@ Dog
       echo $$name . "<br/>";
       echo $Cat;
 ```
+
 - [ ]
+
 ```php
       $name = "Cat";
       $$name = "Dog";
@@ -714,28 +721,35 @@ Dog
 
 ##### Q60. Which script might be used to continue a user's search for music, across different webpages?
 
-- [ ] 
+- [ ]
+
 ```php
         <?php
            start_session();
            $music = $_SESSION['music'];
         ?>
 ```
-- [ ] 
+
+- [ ]
+
 ```php
         <?php
            session_start();
            $music = $SESSION['music'];
         ?>
 ```
-- [ ] 
+
+- [ ]
+
 ```php
         <?php
            start_session();
            $music =$session['music'];
         ?>
 ```
-- [x] 
+
+- [x]
+
 ```php
         <?php
            session_start();
@@ -745,7 +759,8 @@ Dog
 
 ##### Q61. Which PHP script finds the earliest and latest dates from an array?
 
-- [x] 
+- [x]
+
 ```php
         <?php
         $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
@@ -753,7 +768,9 @@ Dog
         echo "Earliest Date: ". min($dates)."\n";
         ?>
 ```
-- [ ] 
+
+- [ ]
+
 ```php
         <?php
         $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
@@ -761,7 +778,9 @@ Dog
         echo "Earliest Date: ". max($dates)."\n";
         ?>
 ```
-- [ ] 
+
+- [ ]
+
 ```php
         <?php
         $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
@@ -769,7 +788,9 @@ Dog
         echo "Earliest Date: ". ($dates)."\n";
         ?>
 ```
-- [ ] 
+
+- [ ]
+
 ```php
         <?php
         $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
@@ -789,7 +810,8 @@ for (;;) {
 }
 ```
 
-- [x] 
+- [x]
+
 ```
         kilometers = 0.6214 miles.
         kilometers = 1.2428 miles.
@@ -797,7 +819,9 @@ for (;;) {
         kilometers = 2.4856 miles.
         kilometers = 3.107 miles.
 ```
-- [ ] 
+
+- [ ]
+
 ```
         kilometers = 0.6214 miles.
         kilometers = 1.2428 miles.
@@ -806,13 +830,16 @@ for (;;) {
         kilometers = 3.107 miles.
         kilometers = 3.7284 miles.
 ```
-- [ ] 
+
+- [ ]
+
 ```
         kilometers = 1.2428 miles.
         kilometers = 1.8642 miles.
         kilometers = 2.4856 miles.
         kilometers = 3.107 miles.
 ```
+
 - [ ] FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2
 
 ##### Q63. In PHP 7, What is the correct way to import multiple classes from namespace in a single declaration ?!
@@ -855,6 +882,7 @@ for (;;) {
 $capitals = ['UK' => 'London', 'France' => 'Paris'];
 echo "$capitals['france'] is the capital of France.";
 ```
+
 - [ ] It displays: "Paris is the capital of France."
 - [ ] It displays: " is the capital of France."
 - [ ] It triggers a syntax error because the array keys on line 1 are in quotes.
@@ -1007,15 +1035,15 @@ print $match[1]."\n";
 
 [reference](https://www.php.net/manual/en/language.control-structures.php)
 
-
 #### Q83. Which function can you use in error handling to stop the execution of a script and is equivalent to `exit()`?
 
 - [ ] throw
 - [ ] break
 - [x] die
 - [ ] return
-=======
+
 #### Q83. Which function can you use in error handling to stop the execution of a script and is equivalent to exit()?
+
 - [x] `die`
 - [ ] `return`
 - [ ] `throw`
@@ -1038,10 +1066,9 @@ for($x = 0; $x < $arrlength; $x++){
 - [x] This does not meet all the criteria because the sort() function sorts an indexed array in ascending order. Thus this code will display "2 4 6 11 22" shown vertically, but the numbers are spaced.
 - [ ] does not meet all the criteria because the echo simply result in showing the array numbers in the order shown within the $numbers array, which is ascending
 
-#### Q85. Which is not true of the __toString() in PHP?
+#### Q85. Which is not true of the `toString()` in PHP?
 
 - [ ] It saves a lot of work of using setters methods to access the values of objects.
 - [ ] It saves a lot of work of using getters methods to access the values of objects.
 - [x] It allows you to call an object and see its components as a string.
 - [ ] It is automatically called when you use echo or print.
-

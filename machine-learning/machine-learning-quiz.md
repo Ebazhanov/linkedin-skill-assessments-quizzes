@@ -725,4 +725,4 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] Bias is when your predicted values are scattered.
 - [x] Bias is the gap between your predicted value and the outcome.
 - [ ] Bias is when your data is wrong for differnet reasons.
-- [ ] Bias is when your values are always off by the same percentage. 
+- [ ] Bias is when your values are always off by the same percentage.

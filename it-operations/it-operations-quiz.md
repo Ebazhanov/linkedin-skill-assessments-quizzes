@@ -496,13 +496,12 @@
 - [x] handheld vaccum cleaner, ammonia, alcohol, microfiber cloth.
 - [ ] air can, screwdriver, soft cloth, household cleaner.
 
-#### Q58. A computer power supply is measured in _.
+#### Q58. A computer power supply is measured in \_.
 
 - [x] watts
 - [ ] hertz
 - [ ] amperes
 - [ ] volts
-
 
 #### Q59. If you had a 255.255.255.0 subnet mask, how many usable IP addresses would you have for hosts?
 

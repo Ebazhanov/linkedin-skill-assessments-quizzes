@@ -308,27 +308,28 @@
 - [ ] `var primes = Tuple.Make(2, 3, 5, 7, 11, 13, 17, 19);`
 
 #### Q45. How can you recieve form data without a model binder in a controller action?
+
 > Note: The differences are `IFormResult`/`IActionResult` and `Forms`/`Form`
 
 - [ ] public IFormResult ReceivedDataByRequest()
       {
-            string theName = Request.Forms["theName"];
-            return View();
+      string theName = Request.Forms["theName"];
+      return View();
       }
 - [ ] public IActionResult ReceivedDataByRequest()
       {
-            string theName = Request.Forms["theName"];
-            return View();
+      string theName = Request.Forms["theName"];
+      return View();
       }
 - [ ] public IFormResult ReceivedDataByRequest()
       {
-            string theName = Request.Form["theName"];
-            return View();
+      string theName = Request.Form["theName"];
+      return View();
       }
 - [x] public IActionResult ReceivedDataByRequest()
       {
-            string theName = Request.Form["theName"];
-            return View();
+      string theName = Request.Form["theName"];
+      return View();
       }
 
 #### Q46. Where should you store connection string information?
@@ -521,9 +522,10 @@
 - [ ] by calling [`GC.WaitForPendingFinalizers()`](https://docs.microsoft.com/en-us/dotnet/api/system.gc.waitforpendingfinalizers)
 
 #### Q70. What does JIT do in .Net?
+
 - [ ] JIT is used for deployment, versioning, and security.
 - [x] JIT translates the IL code to an assembly code and uses the CPU architecture of the target machine to execute a .NET application.
 - [ ] JIT compiles to C# code using .NET environment properties.
-- [ ] JIT is used for deployment, versioning, and security, and forces the computer's processor to execute the native machine code. 
+- [ ] JIT is used for deployment, versioning, and security, and forces the computer's processor to execute the native machine code.
 
 Reference: [Compilation by the JIT compiler](https://docs.microsoft.com/en-us/dotnet/standard/managed-execution-process#compilation-by-the-jit-compiler)
