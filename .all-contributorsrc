@@ -8551,6 +8551,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "etorobot",
+      "name": "etorobot",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43525385?v=4",
+      "profile": "https://github.com/etorobot",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
