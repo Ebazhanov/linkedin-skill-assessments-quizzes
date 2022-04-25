@@ -983,10 +983,11 @@ val binaryStr = "00001111"
 
 - [ ] `Any program line can be marked with a label`
 - [ ] `Any statement can be marked with a label`
-- [x] `Any expression can be marked with a lable`
+- [x] `Any expression can be marked with a label`
 - [ ] `Only the beginning of loops can be marked with a label`
 
-[reference](https://agrawalsuneet.github.io/blogs/label-reference-in-kotlin/)
+[article](https://agrawalsuneet.github.io/blogs/label-reference-in-kotlin/) - 
+[reference](https://kotlinlang.org/docs/returns.html#return-to-labels)
 
 #### Q75. All classes in Kotlin inherit from which superclass?
 
@@ -1038,8 +1039,10 @@ names[3]= "Delta"
 
 - [ ] Each secondary constructor must call super().
 - [ ] Each secondary constructor must call base().
-- [ ] Each secondary constructor must directly or indirectly delegate to the primary.
+- [x] Each secondary constructor must directly or indirectly delegate to the primary.
 - [ ] Each secondary constructor must have the same name as the class.
+
+[reference](https://kotlinlang.org/docs/classes.html#secondary-constructors)
 
 #### Q80. When you can omit constructor keyword from the primary constructor?
 
@@ -1048,7 +1051,7 @@ names[3]= "Delta"
 - [ ] It can be omitted if secondary constructors are defined.
 - [x] It can be omitted when the primary constructor does not have any modifiers or annotations.
 
-[reference](https://www.baeldung.com/kotlin/constructors#:~:text=In%20some%20cases%2C%20we%20can,default%20parameters%20in%20the%20constructors.)
+[article](https://www.baeldung.com/kotlin/constructors#:~:text=In%20some%20cases%2C%20we%20can,default%20parameters%20in%20the%20constructors.) - [reference](https://kotlinlang.org/docs/classes.html#constructors)
 
 #### Q81. How many different kinds of constructors are available for kotlin classes?
 
