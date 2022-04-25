@@ -900,9 +900,9 @@ fun main() {
 }
 ```
 
-- [x] `moveTo( "LA")`
-- [ ] `::moveTo("LA")`
 - [x] `moveTo("LA")`
+- [ ] `::moveTo("LA")`
+- [ ] `_.moveTo("LA")`
 - [ ] `it.moveTo("LA")`
 
 #### Q69. For the Product class you are designing, you would like the price to be readable by anyone, but changeable only from within the class. Which property declaration implements your design?
@@ -1061,3 +1061,31 @@ names[3]= "Delta"
 - [ ] one.
 
 [reference](https://www.programiz.com/kotlin-programming/constructors#:~:text=In%20Kotlin%2C%20there%20are%20two,to%20put%20additional%20initialization%20logic)
+
+#### Q82. What is the default visibility modifier in Kotlin?
+
+- [ ] protected
+- [ ] private
+- [ ] internal
+- [x] public
+
+[reference](https://kotlinlang.org/docs/visibility-modifiers.html)
+
+
+#### Q83. The code below compiles and executes without issue, but is not idiomatic kotlin. What is a better way to impelement the `printlln()`?
+
+```kotlin
+fun main() {
+  val name: String = "Amos"
+  val grade: Float = 95.5f
+  println("My name is " + name + ". I score " + grade + " points on the last coding quiz.")
+}
+```
+
+- [ ] Use `new printf()`.
+- [ ] Use `string.format` instead.
+- [ ] Use `string append` instead.
+- [x] Use string templates instead.
+
+[reference](https://kotlinlang.org/docs/basic-syntax.html#string-templates)
+
