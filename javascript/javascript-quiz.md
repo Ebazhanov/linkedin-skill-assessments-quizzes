@@ -1852,3 +1852,22 @@ bearSound();
 - [ ] `roar`
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+
+#### Q132. What is the output of this code?
+
+```js
+var cat = {name: "Athena"}
+
+function swap(feline){
+  feline.name = "Wild";
+  feline = {name: "Tabby"};
+}
+
+swap(cat);
+console.log(cat.name);
+```
+
+- [ ] undefined
+- [x] Wild
+- [ ] Tabby
+- [ ] Athena
