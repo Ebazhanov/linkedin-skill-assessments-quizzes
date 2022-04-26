@@ -1818,3 +1818,10 @@ for x in range(1, len(characters)):
 - [x] 3
 - [ ] 2
 - [ ] An IndexError exception is thrown.
+
+#### Q136. Which statement about strings in Python is true?
+
+- [x] Strings can be enclosed by double quotes (") or single quotes (').
+- [ ] Strings can only be enclosed in single quotes (').
+- [ ] Single character strings must be enclosed in single quotes ('), and the rest must be enclosed in double quotes (").
+- [ ] Strings can only be enclosed in double quotes (").
