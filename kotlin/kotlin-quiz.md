@@ -986,8 +986,8 @@ val binaryStr = "00001111"
 - [x] `Any expression can be marked with a label`
 - [ ] `Only the beginning of loops can be marked with a label`
 
-[article](https://agrawalsuneet.github.io/blogs/label-reference-in-kotlin/) - 
-[reference](https://kotlinlang.org/docs/returns.html#return-to-labels)
+1. [article](https://agrawalsuneet.github.io/blogs/label-reference-in-kotlin/) -
+2. [reference](https://kotlinlang.org/docs/returns.html#return-to-labels)
 
 #### Q75. All classes in Kotlin inherit from which superclass?
 
@@ -1071,7 +1071,6 @@ names[3]= "Delta"
 
 [reference](https://kotlinlang.org/docs/visibility-modifiers.html)
 
-
 #### Q83. The code below compiles and executes without issue, but is not idiomatic kotlin. What is a better way to impelement the `printlln()`?
 
 ```kotlin
@@ -1088,4 +1087,3 @@ fun main() {
 - [x] Use string templates instead.
 
 [reference](https://kotlinlang.org/docs/basic-syntax.html#string-templates)
-

@@ -1856,11 +1856,11 @@ bearSound();
 #### Q132. What is the output of this code?
 
 ```js
-var cat = {name: "Athena"}
+var cat = { name: 'Athena' };
 
-function swap(feline){
-  feline.name = "Wild";
-  feline = {name: "Tabby"};
+function swap(feline) {
+  feline.name = 'Wild';
+  feline = { name: 'Tabby' };
 }
 
 swap(cat);
