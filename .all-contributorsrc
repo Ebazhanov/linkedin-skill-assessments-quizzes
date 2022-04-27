@@ -8581,6 +8581,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "nicholasquisler",
+      "name": "Nicholas Quisler",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99000057?v=4",
+      "profile": "https://github.com/nicholasquisler",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
