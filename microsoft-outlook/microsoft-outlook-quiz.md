@@ -166,8 +166,8 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 - [ ] Double click the meeting to open its form, and then change the start time and close it
 - [ ] None of these answers
-- [x] Open the calendar in Day, Week, or Work Week view and drag the start time to 12 PM
-- [ ] You must create a separate appointment for yourself from 12 PM to 1 PM
+- [ ] Open the calendar in Day, Week, or Work Week view and drag the start time to 12 PM
+- [x] You must create a separate appointment for yourself from 12 PM to 1 PM
 
 #### Q24. What is the fastest way to find a message sent by Bonnie Bradford that includes an attachment?
 
