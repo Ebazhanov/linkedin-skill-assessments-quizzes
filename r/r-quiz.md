@@ -457,9 +457,21 @@ result <- lm(outcome ~ covariate + factor + covariate:factor, data = testcoef)
 ```
 
 - [ ] It forces the intercepts of the individual regressions to zero.
-- [ ] It calls for the effect of the covariate within each level of the factor.
+- [x] It calls for the effect of the covariate **within each level of the factor**.
 - [ ] It calls for the effect of each variable from covariate to factor in testcoef.
 - [ ] It forces the covariate to enter the equation before the factor levels.
+
+```r
+# Example call to demonstrate.  `Species` is a Factor.  Petal.Length, Petal.Width are numeric.
+# see `help(formula)` for more details on the formula specification.  `:` is "effect modification" or "interaction"
+
+> summary(lm(Petal.Length ~ Petal.Width + Species + Petal.Width:Species, data = iris))
+...
+Petal.Width:Speciesversicolor   1.3228     0.5552   2.382   0.0185 *  
+Petal.Width:Speciesvirginica    0.1008     0.5248   0.192   0.8480   
+...
+```
+
 
 #### Q45. A variable whose type is numeric can contain which items?
 
