@@ -8591,6 +8591,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Poulios",
+      "name": "Evang Poul",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46890409?v=4",
+      "profile": "https://github.com/Poulios",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
