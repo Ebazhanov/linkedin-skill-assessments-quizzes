@@ -967,21 +967,14 @@ hint: Updates were rejected because the remote contains work that you do not hin
 - [ ] git commit preview
 - [x] git commit --dry-run
 
-#### Q117. How would you create a custom shortcut or command across your git environment?
-
-- [ ] Run git hotfix with the shortcut name.
-- [ ] Assign a shortcut or command using git options file.
-- [ ] Use the git custom-key command.
-- [x] Create an alias usin the git config command.
-
-#### Q118. What statement best describes Git's concept of HEAD?
+#### Q117. What statement best describes Git's concept of HEAD?
 
 - [ ] a pointer to the most recently changed file in the stage/index
 - [ ] a pointer to the master branch
 - [x] a pointer to the most recent commit in the currently checked-out branch
 - [ ] a pointer to where the repository is stored in memory
 
-#### Q119. After staging changes to several files, you realize the changes to the confin.properties file are incorrect, and need to be removed from the stage and working directory. What command can you use to remove the staged changes to the file?
+#### Q118. After staging changes to several files, you realize the changes to the confin.properties file are incorrect, and need to be removed from the stage and working directory. What command can you use to remove the staged changes to the file?
 
 - [ ] git reset HEAD^ -- config.properties
 - [x] git rm config.properties
