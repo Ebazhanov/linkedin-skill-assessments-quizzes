@@ -8601,6 +8601,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "gregglind",
+      "name": "Gregg Lind",
+      "avatar_url": "https://avatars.githubusercontent.com/u/163983?v=4",
+      "profile": "http://writeonly.wordpress.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
