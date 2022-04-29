@@ -346,8 +346,21 @@ StopDate-StartDate
 
 - [ ] it transpose **mtrx**
 - [ ] it premultiplies the current **netwmat** row by the **newmat** column.
-- [x] it returns the results of a matrix multiplication
-- [ ] It squares each cell in **mtrx**
+- [ ] it returns the results of a matrix multiplication
+- [x] It squares each cell in **mtrx**
+
+```r
+> newmat
+     [,1] [,2]
+[1,]    9   25
+[2,]   64   16
+
+# The `%*%` operator gives matrix multiplication
+> mtrx %*% mtrx
+     [,1] [,2]
+[1,]   49   35
+[2,]   56   56
+```
 
 #### Q35. Which function in R combines different values into a single object?
 
