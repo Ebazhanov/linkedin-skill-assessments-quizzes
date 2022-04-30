@@ -961,3 +961,19 @@ SELECT cars.*, purchases.date FROM cars LEFT JOIN purchases ON cars.ID = purchas
 - [x] for formulas and business rules that should be applied on a specific trigger event like on inserts
 - [ ] to automatically modify the data of a table based on a query
 - [ ] for reusing recurring queries
+
+#### Q100. What steps do you need to take to normalize the table from this diagram?
+
+Table name: superheroes
+| name | alias | power1 | power2 | power3 |
+| ---- | ----- | ------ | ------ | ------ |
+| Superman | Clark Kent | Flight | X-Ray Vision | Super Strength |
+| Wonder Woman | Diana Prince | Force Fields | Reflexes | Telepathy |
+| Spider-man | Peter Parker | Walcrawling | Web-making | Enhanced Senses |
+| Aquaman | Arthur Curry | Underwater Breathing | Enhanced Sight | Stamina |
+| Hulk | Bruce Banner | Super Strength | Radiation Immunity | Invulnerability |
+
+- [x] Create another table to serve as a lookup for powers with fields for code and description, as well as a junction table with superhero names and power codes.
+- [ ] Add a column to this table to serve as a record identifier, and make it the primary key.
+- [ ] Extend this table to have additional columns "power4," "power5," and so on, to allow additional powers for each superhero.
+- [ ] Convert this table to have column called "power," and add one record for each superhero-power combination, for a total of 15 records in this example.
