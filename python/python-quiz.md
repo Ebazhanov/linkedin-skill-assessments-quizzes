@@ -1825,3 +1825,16 @@ for x in range(1, len(characters)):
 - [ ] Strings can only be enclosed in single quotes (').
 - [ ] Single character strings must be enclosed in single quotes ('), and the rest must be enclosed in double quotes (").
 - [ ] Strings can only be enclosed in double quotes (").
+
+#### Q137. What is the correct syntax for replacing the string apple in the list with the string orange?
+
+```python
+my_list = [2, 'apple', 3.5]
+```
+
+- [ ] `orange = my_list[1]`
+- [x] `my_list[1] = 'orange'`
+- [ ] `my_list['orange'] = 1`
+- [ ] `my_list[1] == orange`
+
+**Similar as Q75**
