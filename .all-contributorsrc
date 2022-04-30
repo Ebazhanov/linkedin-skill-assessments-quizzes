@@ -8611,6 +8611,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "sudocipher",
+      "name": "Deepak Kumar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32899560?v=4",
+      "profile": "https://github.com/sudocipher",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
