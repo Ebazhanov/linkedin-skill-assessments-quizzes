@@ -619,7 +619,7 @@ model=Planet
 
 - [ ] ALLOWED_HOSTS; settings.py
 - [ ] APPS; manage.py
-- [ ] INSTALLED_APPS; settings.py
+- [x] INSTALLED_APPS; settings.py
 - [ ] TEMPLATES; urls.py
 
 #### Q67. Which is not third-party package commonly used for authentication?
@@ -627,11 +627,18 @@ model=Planet
 - [ ] django-guardian
 - [ ] django-rest-auth
 - [ ] authtoken
-- [ ] django-rest-framework-jwt
+- [x] django-rest-framework-jwt
 
 #### Q68. Which function in the django.urls package can help you avoid hardcoding URLS by generating a URL given the name of a view?
 
 - [ ] get_script_prefix()
 - [ ] redirect()
-- [ ] reverse()
+- [x] reverse()
 - [ ] resolve()
+
+#### Q69. Which is Fictional HTTP request method?
+
+- [ ] POST
+- [ ] PUT
+- [x] PAUSE
+- [ ] PATCH

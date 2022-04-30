@@ -17,7 +17,7 @@
 #### Q3. What is Kestrel?
 
 - [ ] an iOS web server initially that was later designed to work with .NET Core
-- [x] a cross-platform web server ASP.NET Core that is included by default in ASP.NET Core project templates\*\* <= Correct
+- [x] a cross-platform web server ASP.NET Core that is included by default in ASP.NET Core project templates\*\*
 - [ ] a cross-platform, open-source web server that starts up web APIs
 - [ ] a free and open-source cross-platform web server software that can communicate with IIS
 
@@ -44,10 +44,10 @@
 
 #### Q7. Which code do you use if you want to trigger a garbage collection in .NET?
 
-- [ ] Garbage.CleanUp();
-- [ ] System.GC.Clear();
-- [x] System.GC.Collect();
-- [ ] Garbage.Collect();
+- [ ] `Garbage.CleanUp();`
+- [ ] `System.GC.Clear();`
+- [x] `System.GC.Collect();`
+- [ ] `Garbage.Collect();`
 
 #### Q8.You want to include language elements in a program. Which design pattern best fits this objective?
 
@@ -123,7 +123,7 @@
 
 #### Q18. What is an abstract class in .NET?
 
-- [x] An abstract class provides a partial implementation for functionality and some abstract or virtual members that must be implemented by the inheriting entities. It can declare fields too. <= Correct
+- [x] An abstract class provides a partial implementation for functionality and some abstract or virtual members that must be implemented by the inheriting entities. It can declare fields too.
 - [ ] An abstract class allows developers to create new classes that reuse, extend, and modify the behavior defined in other classes.
 - [ ] An abstract class is responsible for keeping track of what is actually executing and where each executing thread is.
 - [ ] An abstract class declares a contract or behavior that implementing classes require. It may declare only properties, methods, and events with no access modifiers. All the declared members must be implemented.
@@ -151,7 +151,7 @@
 
 #### Q22. Which is NOT true about lambda statements?
 
-- [x] A statement lambda cannot return a value. <= Correct
+- [x] A statement lambda cannot return a value.
 - [ ] If a statement lambda has a return value, it has to use a return statement.
 - [ ] A statement lambda requires using curly braces.
 - [ ] A statement lambda can have more than one statement.
@@ -226,7 +226,7 @@
 - [ ] Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
 - [ ] A class should have only a single responsibility—that is, only changes to one part of the software's specification should be able to affect the specification of the class.
 - [ ] Software entities should be open for extension, but closed for modification.
-- [x] Entities must depend on abstractions, not on concrete implementations. <= Correct
+- [x] Entities must depend on abstractions, not on concrete implementations.
 
 #### Q33.What is a namespace?
 
@@ -302,12 +302,14 @@
 
 #### Q44. Which choice creates an 8-tuple containing prime numbers that are less than 20?
 
-- [x] var primes = Tuple.Create(2, 3, 5, 7, 11, 13, 17, 19);
-- [ ] var primes = Tuple.Create(2, 3, 5, 7, 11, 13, 17, 21);
-- [ ] var primes = Tuple.Make(2, 3, 5, 7, 11, 13, 17, 20);
-- [ ] var primes = Tuple.Make(2, 3, 5, 7, 11, 13, 17, 19);
+- [x] `var primes = Tuple.Create(2, 3, 5, 7, 11, 13, 17, 19);`
+- [ ] `var primes = Tuple.Create(2, 3, 5, 7, 11, 13, 17, 21);`
+- [ ] `var primes = Tuple.Make(2, 3, 5, 7, 11, 13, 17, 20);`
+- [ ] `var primes = Tuple.Make(2, 3, 5, 7, 11, 13, 17, 19);`
 
 #### Q45. How can you recieve form data without a model binder in a controller action?
+
+> Note: The differences are `IFormResult`/`IActionResult` and `Forms`/`Form`
 
 - [ ] public IFormResult ReceivedDataByRequest()
       {
@@ -424,10 +426,10 @@
 
 #### Q57. What method do you use to explicitly kill a user's session?
 
-- [ ] Session.Timeout()
-- [x] Session.Abandon()
-- [ ] Session.KillAll()
-- [ ] Session.Remove()
+- [ ] `Session.Timeout()`
+- [x] `Session.Abandon()`
+- [ ] `Session.KillAll()`
+- [ ] `Session.Remove()`
 
 [Session.Abandon Method](<https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524310(v=vs.90)>)
 
@@ -511,3 +513,19 @@
 - [ ] The heap is stored value types; the stack is stored reference types.
 - [ ] The heap is stored object types; the stack is stored class types.
 - [ ] The stack is stored object types; the heap is stored class types.
+
+#### Q69. How do you make sure that the garbage collector is done running when you call `GC.Collect()`?
+
+- [ ] There is no way to find this out.
+- [ ] You cannot. [`GC.Collect()`](https://docs.microsoft.com/en-us/dotnet/api/system.gc.collect) is a blocking method, and will return only once the garbage collector is done running.
+- [ ] by calling [`GC.WaitForFullGCComplete()`](https://docs.microsoft.com/en-us/dotnet/api/system.gc.waitforfullgccomplete)
+- [ ] by calling [`GC.WaitForPendingFinalizers()`](https://docs.microsoft.com/en-us/dotnet/api/system.gc.waitforpendingfinalizers)
+
+#### Q70. What does JIT do in .Net?
+
+- [ ] JIT is used for deployment, versioning, and security.
+- [x] JIT translates the IL code to an assembly code and uses the CPU architecture of the target machine to execute a .NET application.
+- [ ] JIT compiles to C# code using .NET environment properties.
+- [ ] JIT is used for deployment, versioning, and security, and forces the computer's processor to execute the native machine code.
+
+Reference: [Compilation by the JIT compiler](https://docs.microsoft.com/en-us/dotnet/standard/managed-execution-process#compilation-by-the-jit-compiler)

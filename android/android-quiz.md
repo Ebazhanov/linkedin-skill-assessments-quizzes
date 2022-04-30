@@ -992,3 +992,10 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] storing data locally
 - [ ] queuing outbound requests to action when connectivity has been lost
 - [ ] always notifying users that connectivity has been lost
+
+#### Q66. If you need your app code to inspect information about the current build, which class should you use?
+
+- [x] `BuildConfig`
+- [ ] `BuildInfo`
+- [ ] `ConfigParams`
+- [ ] `ConfigInfo`

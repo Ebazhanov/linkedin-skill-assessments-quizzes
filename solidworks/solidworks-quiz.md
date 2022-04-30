@@ -53,7 +53,7 @@
 #### Q7. You want to make two circles have the same center point within a SOLIDWORKS sketch. How can you do this?
 
 - [ ] Add a tangent relation between the circles
-- [ ] Add a concentric relation between the circles
+- [x] Add a concentric relation between the circles
 - [ ] Add a horizontal relation between the circles
 - [ ] Add an equal relation between the circles
 
@@ -87,9 +87,11 @@
 #### Q11. What will Save As do on an existing saved part?
 
 - [ ] It will delete the original part and save the current part with a new name
-- [ ] It will keep the original part and save the current path with a new name
+- [x] It will keep the original part and save the current path with a new name
 - [ ] It will save both the original part and the new part in the current state
 - [ ] It will rename the original part
+
+[Reference](https://help.solidworks.com/2022/English/SolidWorks/sldworks/AFX_HIDD_FILESAVE.htm)
 
 #### Q12. You want to show a list of the raw materials, subassemblies, intermediate assemblies, subcomponents, and parts, and the quantities of each, needed to manufacture an end product. What would be useful to accomplish this?
 
@@ -113,7 +115,7 @@
 
 - [ ] Revolved Boss/Base, Shell, and Sweep
 - [ ] Shell, Revolved Boss/Base, and Extruded Boss/Base
-- [ ] Extruded Boss/Base, Revolved Boss/Base, and Sweep
+- [x] Extruded Boss/Base, Revolved Boss/Base, and Sweep
 - [ ] Draft, Extruded Boss/Base, and Shell
 
 #### Q15. Which choice is NOT a standard mate within SOLIDWORKS?
@@ -127,10 +129,12 @@
 
 #### Q16. How would you temporarily remove a feature from a model?
 
-- [ ] Click the feature in the FeatureManager design tree or graphics area, then select Surpress
+- [x] Click the feature in the FeatureManager design tree or graphics area, then select Suppress
 - [ ] Drag the feature to the Suppression folder, located at the top of the FeatureManager design tree
 - [ ] You cannot remove features temporarily-you can only delete them completely
-- [ ] Drag the feature to the bottom of the FeatureManager design tree, then drag the Supression bar above it
+- [ ] Drag the feature to the bottom of the FeatureManager design tree, then drag the Suppression bar above it
+
+[Reference](https://help.solidworks.com/2022/English/SolidWorks/sldworks/c_Suppress_and_Unsuppress_Features.htm)
 
 #### Q17. You want to show an assembly's components spread out and positioned to show how they fit together when assembled. How do you accomplish this?
 
@@ -143,17 +147,19 @@
 
 #### Q18. How would you fix a Lofted Boss/Base feature that appears twisted?
 
-- [ ] Drag the loft connectors to the correct position, or use guide curves
+- [x] Drag the loft connectors to the correct position, or use guide curves
 - [ ] Reduce the spacing between the loft profiles, then scale the loft body as required
 - [ ] Loft shapes are driven entirely by the loft profiles, adjust the skecthes to remove any ambiguity in the loft path
 - [ ] Ensure that the Twist Along Path option is not selected
 
+[Reference](https://help.solidworks.com/2022/English/SolidWorks/sldworks/c_Recommendations_Lofts_Guide_Curves.htm)
+
 #### Q19. When creating a sweep feature, you receive this error: "Cannot get to a point on the path to start with. For an open path, the path must intersect with the section plane." How can you fix this?
 
-- [ ] Ensure that the path skecth touches the profile skecth at some point
+- [x] Ensure that the path sketch touches the profile sketch at some point
 - [ ] Select the Path Merge option within the sweep feature
 - [ ] Select the Path Intersection option within the sweep feature
-- [ ] Edit the path skecth and reduce any areas of tight curvature
+- [ ] Edit the path sketch and reduce any areas of tight curvature
 
 #### Q20. With injection molding, one common manufacturing requirement or preference is applying a taper or angle to faces to help with part removal from the mold. Which feature can help you meet this requirement?
 
@@ -237,7 +243,9 @@
 - [ ] It creates a fillet that is tanget to the direction of view
 - [ ] It creates a fillet that varies in size, depending on lcoal tangency
 - [ ] It creates a constant-size fillet around all selections
-- [ ] It extends the fillet to all faces that are tangent to the selected face
+- [x] It extends the fillet to all faces that are tangent to the selected face
+
+[Reference](https://help.solidworks.com/2022/english/swconnected/swdotworks/c_example_tangent_propagation.htm)
 
 #### Q30. You notice that one of the subassemblies in your main assembly is rigid and does not have mobility it should. How can you resolve this issue?
 
@@ -250,7 +258,7 @@
 
 #### Q31. You dimension an arc in a drawing and notice that the dimension is coming in as the radius value. You want to show the diameter value. To do this, first you click the dimension to open the dimension PropertyManager. What do you do next?
 
-- [ ] On the **Leaders** tab, select **Diameter**
+- [x] On the **Leaders** tab, select **Diameter**
 - [ ] On the **Other** tab, select **Diameter**
 - [ ] On the **Value** tab, and select **Diameter**
 - [ ] On the **Value** tab, seect **Override Value**
@@ -259,8 +267,8 @@
 
 ![solidworks image](images/solidworks_q32.png)
 
-- [ ] The parent is Base Feature; the children are Slot Cutout, Skect3, CBORE Hole, and Fillet2
-- [ ] The parent is Vertical Boss; the childre are Base Feature, Slot Cutout, Sketc3, CBORE Hole, and Fillet2
+- [x] The parent is Base Feature; the children are Slot Cutout, Sketch3, CBORE Hole, and Fillet2
+- [ ] The parent is Vertical Boss; the childre are Base Feature, Slot Cutout, Sketch3, CBORE Hole, and Fillet2
 - [ ] The parent is Base Feature; the children are Vertical Boss, Slot Cutout, Sketch3, CBORE Holde, and Fillet2
 - [ ] The parents are Vertical Boss and Base Feature; the children are Slot Cutout, Sketch3, CBORE Hole, and Fillet2
 
@@ -270,17 +278,21 @@
 
 - [ ] BASE
 - [ ] LINK 3
-- [ ] LINK 5
+- [x] LINK 5
 - [ ] LINK 1
+
+[Reference](https://help.solidworks.com/2022/English/SolidWorks/sldworks/t_Fixing_the_Position_of_a_Component.htm)
 
 #### Q34. What is this image an example of?
 
 ![solidworks image](images/solidworks_q34.png)
 
-- [ ] a hole table
+- [x] a hole table
 - [ ] a revision table
 - [ ] a tolerance table
 - [ ] a punch table
+
+[Reference](https://help.solidworks.com/2022/English/SolidWorks/sldworks/c_hole_tables.htm)
 
 #### Q35. What type of dimensioning is shown here?
 
@@ -296,7 +308,7 @@
 ![solidworks image](images/solidworks_q36.png)
 
 - [ ] countersink and counterbore
-- [ ] counterbore and countersink
+- [x] counterbore and countersink
 - [ ] standard and threaded/tapped
 - [ ] threaded/tapped and standard
 
@@ -304,7 +316,7 @@
 
 ![solidworks image](images/solidworks_q37.png)
 
-- [ ] an open contour sketch
+- [x] an open contour sketch
 - [ ] a multi-contour or intersecting sketch
 - [ ] a triple contour sketch
 - [ ] a closed contour sketch
@@ -316,4 +328,139 @@
 - [ ] Yes, you can extrude it using the standard extrude boss option
 - [ ] Yes, you can extrude it using the Selected Contours option
 - [ ] No, the sketch is an open contour and this cannot be extruded
-- [ ] Yes, you can extrude it using the Thin Feature option
+- [x] Yes, you can extrude it using the Thin Feature option
+
+#### Q39. Why is it useful to suppress a feature?
+
+- [ ] Suppressing changes the color of a feature. This is useful to help easily distinguish between different features.
+- [x] Suppressing removes a feature from a model, but does not delete it. This is useful if you need that feature back in the future.
+- [ ] Suppressing removes a feature from a model forever. This is useful if you no longer need that feature.
+- [ ] Suppressing makes a feature transparent. This is useful if you ever need to see through a feature when modeling.
+
+#### Q40. Which choice is not a standard view orientation in SOLIDWORKS?
+
+- [ ] back
+- [x] down
+- [ ] right
+- [ ] front
+
+#### Q41. What type of view is used to show a portion of some parent view, usually at an enlarged scale?
+
+- [x] detail view
+- [ ] auxiliary view
+- [ ] break view
+- [ ] section view
+
+#### Q42. How can you create relationships between parts within an assembly?
+
+- [x] Use mates.
+- [ ] Use constraints.
+- [ ] Use relations.
+- [ ] Use dimensions.
+
+#### Q43. What is required to create a solid using the Swept Boss/Base tool?
+
+- [x] a profile and a path
+- [ ] a sketch and an axis of revolution
+- [ ] atleast two profiles
+- [ ] a sketch
+
+#### Q44. Which statement best describes the term "parametric modeling"?
+
+- [ ] This type of modeling is often compared to working with modeling clay.
+- [x] The dimensions and relations used to create a feature are captured and stored in the model.
+- [ ] You can simply push and pull the geometry until you arrive at the shape you require.
+- [ ] Dimensions and relations are not captured or stored within the model.
+
+#### Q45. What is required to create a solid using the Extruded Boss/Base tool?
+
+- [ ] at least two profiles
+- [ ] a sketch and an axis of revolution
+- [x] a sketch
+- [ ] a profile and a path
+
+#### Q46. Which choice is an example of an applied feature?
+
+- [ ] extrusion
+- [ ] revolve
+- [x] fillet
+- [ ] sweep
+
+#### Q47. How can you change the size of a toolbox screw in an assembly?
+
+- [x] Right-click the component and select Edit Toolbox Component.
+- [ ] Toolbox part sizes cannot be changed once added. You have to delete the screw and then readd one of the correct size.
+- [ ] Edit the screw part and add a scale feature using only the required axes.
+- [ ] Open the screw part, then manually adjust the dimensions and save as a copy.
+
+#### Q48. Which choice is not a standard 3D view in SOLIDWORKS?
+
+- [ ] dimetric
+- [ ] trimetric
+- [ ] isometric
+- [x] oblique
+
+#### Q49. You are designing a robotic arm assembly. You want the first link of the arm to be able to rotate about the base, but only a total of 270 degrees from the start point and no further. How would you achieve this?
+
+- [ ] Use an Angle mate.
+- [ ] Use a Mechanical mate.
+- [x] Use a Limit Angle mate
+- [ ] Use a Gear mate.
+
+#### Q50. How can you reattach a broken reference in a derived split part?
+
+- [ ] Right-click the filename at the top of the FeatureManager design tree and select Relink Stock Part.
+- [ ] Once derived part references are broken, they cannot be readded. Consider resplitting the part.
+- [ ] Locate the child part using SOLIDWORKS Explorer and select Relink Parent.
+- [x] Edit the stock feature at the start of the FeatureManager design tree, then adjust the Defining Stock Part option.
+
+[Reference](https://help.solidworks.com/2022/English/SolidWorks/sldworks/HIDD_FEAT_EDIT_SPLIT_FEAT_BODY.htm)
+
+#### Q51. You have designed a plastic part that you want to split and save in two separate unique parts. You use the Split tool to split the part in half and create the two bodies. What do you do next?
+
+- [ ] Navigate to the Solid Bodies folder, right-click the body name, and select Isolate to save to a new file. Repeat for the other body.
+- [ ] Within the Split tool, select Consume Bodies.
+- [ ] Within the Split tool, select Save as New Files.
+- [x] Within the Split tool, click File, double-click the body name, type a name for the new part, and click Save.
+
+#### Q52. What is required to create a new 2D sketch?
+
+- [ ] any existing geometry
+- [ ] any existing plane or curved face
+- [x] any existing plane or planar face
+- [ ] any planar or curved surface
+
+#### Q53. You want to enlarge your current design by 3%. What tool would you use?
+
+- [ ] Extrude
+- [ ] Loft
+- [x] Scale
+- [ ] Truncate
+
+#### Q54. Earlier within your part design, you created a sketch. Now you want to make a copy of this sketch to use on a different plane or face. You want to ensure that the two sketches will always be the same, so that if you modify the original sketch, the new sketch is updated to reflect the same changes. How can you achieve this?
+
+- [ ] Copy and paste the original sketch.
+- [ ] Copy and paste the original sketch using Paste Special.
+- [ ] Create a composite sketch.
+- [x] Create a derived sketch.
+
+#### Q55. When creating sketches, small boxes show up next to the sketch lines. What are these boxes called?
+
+- [ ] check boxes
+- [ ] locks
+- [ ] statuses
+- [x] relations
+
+#### Q56. You notice your sketch is blue. How can you make your sketch fully defined?
+
+- [ ] Add in any additional required features.
+- [x] Add in the additional dimensions or relations.
+- [ ] Nothing, the sketch is already fully defined.
+- [ ] Remove any additional dimensions or relations.
+
+#### Q57. Which sketch relation can you NOT apply to a rectangle?
+
+- [ ] coincident
+- [ ] collinear
+- [x] concentric
+- [ ] fix

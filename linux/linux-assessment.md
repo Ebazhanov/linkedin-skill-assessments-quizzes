@@ -358,7 +358,7 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 #### Q45. What would this sed command do?
 
 ```bash
-sed -E 's/[a-Z]{4}/($)/'  textfile.txt
+sed -E 's/[a-Z]{4}/(&)/'  textfile.txt
 ```
 
 - [ ] It would substitute the letter with an ampersand (&).
@@ -626,7 +626,7 @@ if [[ $FILE == $GLOB ]] ;then
 
 [reference here](https://stackoverflow.com/a/12948608)
 
-#### 76. `journald` differs from traditional logging services such as `rsyslogd` and `syslogd` because its logs are **\_** by default.
+#### Q76. `journald` differs from traditional logging services such as `rsyslogd` and `syslogd` because its logs are **\_** by default.
 
 - [ ] stored remotely
 - [ ] text
@@ -635,42 +635,48 @@ if [[ $FILE == $GLOB ]] ;then
 
 [reference here](https://sematext.com/blog/journald-logging-tutorial/#toc-journald-storage-4)
 
-### Q77. What is the purpose of a Mail Transport Agent (MTA)?
+#### Q77. What is the purpose of a Mail Transport Agent (MTA)?
 
 - [ ] It transports the mail from user's computer to the mail server.
 - [ ] It accepts mail and adds it to the mail queue for further processing.
 - [ ] It stores the mail in a mail queue waiting for the MUA to download it.
 - [x] It transports mail from one mail server to another.
 
-### Q78. What do you need to do before you can perform SSH passwordless logins?
+#### Q78. What do you need to do before you can perform SSH passwordless logins?
 
-- [ ] Genetare RSA or DSA key pairs using ssh-keygen.
+- [x] Generate RSA or DSA key pairs using ssh-keygen.
 - [ ] Change the remote user's password.
 - [ ] Create a local SSL certificate.
 - [ ] Change the remote SSH configure to allow it.
 
-### Q79. When installing a downloaded package on the RedHat-based distribution manual using RPM, what may you have to do first?
+[Reference](https://phoenixnap.com/kb/setup-passwordless-ssh)
+
+#### Q79. When installing a downloaded package on the RedHat-based distribution manual using RPM, what may you have to do first?
 
 - [ ] Compile the package source code.
-- [ ] Download all dependencies and install them before installing the desired package.
+- [x] Download all dependencies and install them before installing the desired package.
 - [ ] Agree to an end-user license agreement.
 - [ ] provide the --resolve option so RPM resolves all packages dependency.
 
-### Q80. With GNU tools such as a GNU grep, awk, and sed, what is the difference between basic regular expressions (BREs) and extended regular expressions (EREs)?
+**[Explanation:](https://access.redhat.com/discussions/2026743)** Rpm is not meant to resolve dependencies. It checks whether required software (versions) are installed and fails when software is missing and when the wrong version of software is installed.
+
+#### Q80. With GNU tools such as a GNU grep, awk, and sed, what is the difference between basic regular expressions (BREs) and extended regular expressions (EREs)?
 
 - [ ] EREs can match the groups.
 - [ ] EREs support occurrence operators.
 - [ ] ERE's support alternation.
-- [ ] only the syntax differs.
+- [x] only the syntax differs.
 
-### Q81. What is the difference between reading the list of disk partitions from `/proc/partitions` and getting it using `fdisk -l`?
+[Reference](https://www.gnu.org/software/sed/manual/html_node/BRE-vs-ERE.html)
+
+#### Q81. What is the difference between reading the list of disk partitions from `/proc/partitions` and getting it using `fdisk -l`?
 
 - [ ] `/proc/partitions` represents the disk partition table more accurately than `fdisk -l`
 - [ ] `/proc/partitions` shows only mounted drives. `fdisk -l` shows all drivers.
 - [ ] There is no difference between the two, and both lists contain the same data.
-- [ ] `/proc/partitions` is the kernel's list of partitions held in ram. `fdisk -l` reads the partition table from the drive itself.
+- [x] `/proc/partitions` is the kernel's list of partitions held in ram. `fdisk -l` reads the partition table from the drive itself.
 
-### Q82. What would be in out.txt?
+#### Q82. What would be in out.txt?
 
     cat < in.txt > out.txt
 
@@ -679,7 +685,7 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] Nothing, because you cannot redirect from a file (in.txt) to another file (out.txt). You can redirect only from a command to a file.
 - [ ] Nothing, The redirect will create a new empty file, but there will not be any output from the cat command to redirect.
 
-### Q83. Using alternation in a POSIX-extended regular expression, which numbers would this pattern match?
+#### Q83. Using alternation in a POSIX-extended regular expression, which numbers would this pattern match?
 
 ```
 ^(([0-9][0-9]?)|(2[0-9][0-9]))$
@@ -690,16 +696,39 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] 200-299
 - [ ] 0-299
 
-### Q84. Typing `systemctl enable crond` does what to the crond service?
+#### Q84. Typing `systemctl enable crond` does what to the crond service?
 
 - [ ] Starts the crond service now.
 - [ ] Allows user to start the crond service.
 - [ ] Unmasks the crond service.
 - [x] Ensures that the crond service starts automatically on bootup.
 
-### Q85. Which of these features is missing from the Bash Language?
+#### Q85. Which of these features is missing from the Bash Language?
 
 - [ ] associative arrays.
 - [ ] extened regular expressions.
 - [ ] debug traps.
 - [x] object orientation.
+
+#### Q86. What is the first step to integrate extended globs into your command-line workflow?
+
+- [ ] Nothing, extended globs are already integrated into the shell and turned on automatically.
+- [x] Make extended globs persistent by adding `shopt -s extglob` to a shell startup file.
+- [ ] Type `shopt -s extglob` into a shell one time to set the option on permanently.
+- [ ] Make extended globs persistent by adding `shopt +s extglob` to a shell startup file.
+
+#### Q87. Which statement about default ACLs is true?
+
+- [x] They provide inheritance for user and group permissions.
+- [ ] They work only on files.
+- [ ] They provide inheritance for group ownership.
+- [ ] They grant access to the directory on which they are set.
+
+[reference:](https://www.redhat.com/sysadmin/linux-access-control-lists#setting-an-acl)
+
+#### Q88. The object that `systemd` uses to manage services is called a \_ file.
+
+- [x] unit
+- [ ] service
+- [ ] single
+- [ ] process

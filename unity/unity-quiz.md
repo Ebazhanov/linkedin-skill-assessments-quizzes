@@ -192,8 +192,8 @@ Every time an element on a canvas is updated, the whole canvas is redrawn. If el
 
 - [ ] It inserts 20 space characters as a default value into the string variable below
 - [ ] It inserts 20 pixels of margin on all edges around the variable inside the Object Inspector
-- [ ] It inserts 20 pixels of empty space above the variable inside the Object Inspector
-- [x] It inserts 20 pixels of empty space below the variable inside the Object Inspector
+- [x] It inserts 20 pixels of empty space above the variable inside the Object Inspector
+- [ ] It inserts 20 pixels of empty space below the variable inside the Object Inspector
 
 This is a great way to customize your inspector without writing a new inspector script for it.
 [Reference](https://docs.unity3d.com/ScriptReference/SpaceAttribute.html)

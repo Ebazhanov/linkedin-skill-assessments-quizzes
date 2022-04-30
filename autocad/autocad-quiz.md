@@ -567,3 +567,17 @@
 - [ ] Select the block and change it in the Properties palette.
 - [ ] Change the GRIPBLOCK system variable to 0.
 - [ ] Select the block and change it in the right-click shortcut menu.
+
+#### Q77. You create a layer to show an object's hidden lines, which should be dashed. Which layer property controls if the lines are continuous or dashed?
+
+- [ ] Linesize
+- [ ] Linestyle
+- [ ] Lineweight
+- [ ] Linetype
+
+#### Q74. You selected multiple items and four of the items where not supposed to be selected. How do you deselect them?
+
+- [ ] Hold down Alt (Windows) or Option (Mac) and select the four items.
+- [ ] Hold down CTRL (Windows) or Command (Mac) and select the four items.
+- [ ] Simply select them.
+- [ ] Hold down Shift and select the four items.

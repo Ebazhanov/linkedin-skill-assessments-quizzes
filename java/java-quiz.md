@@ -212,7 +212,11 @@ class Main {
 - [ ] It will throw an exception on line 5.
 - [x] "123"
 
-**Explanation:** `The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class.`
+**Explanation:** The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class, because The import statements of the form:
+
+`import packageName.subPackage.*`
+
+is [Type-Import-on-Demand Declarations](https://docs.oracle.com/javase/specs/jls/se7/html/jls-7.html#jls-7.5.2), which [never causes any other declaration to be shadowed](https://docs.oracle.com/javase/specs/jls/se7/html/jls-6.html#jls-6.4.1).
 
 #### Q11. What is the result of this code?
 
@@ -1807,10 +1811,12 @@ List<String> dates = new ArrayList<String>();
 dates.replaceAll(replaceSlashes);
 ```
 
-- [ ] `UnaryOperator<String> replaceSlashes = date -> date.replace("/", "-");`
+- [x] `UnaryOperator<String> replaceSlashes = date -> date.replace("/", "-");`
 - [ ] `Function<String, String> replaceSlashes = dates -> dates.replace("-", "/");`
 - [ ] `Map<String, String> replaceSlashes = dates.replace("/", "-");`
 - [ ] `Consumer<Date> replaceSlashes = date -> date.replace("/", "-");`
+
+**Explanation:** `replaceAll` method for any List<T> only accepts UnaryOperator<T> to pass every single element into it then put the result into the List<T> again.
 
 #### Q125. From which class do all other classes implicitly extend?
 
@@ -1848,3 +1854,73 @@ public class CurrentDateRunnable implements Runnable {
 - [ ] `new CurrentDateRunnable().start();`
 
 [Reference](https://www.w3schools.com/java/java_threads.asp)
+
+#### Q127. What keyword would _not_ be allowed here?
+
+```java
+class Unicorn {
+
+    ______ Unicorn(){}
+}
+```
+
+- [ ] `public`
+- [ ] `void`
+- [x] `static`
+- [ ] `protected`
+
+#### Q128. Which expression is a functional equivalent?
+
+```java
+List<Integer> numbers = List.of(1,2,3,4);
+int total = 0;
+
+for (Integer x : numbers) {
+    if (x % 2 == 0)
+    total += x * x;
+}
+```
+
+- [ ] A
+
+```java
+int total = numbers.stream()
+                        .transform(x -> x * x)
+                        .filter(x -> x % 2 == 0)
+                        .sum ();
+```
+
+- [ ] B
+
+```java
+int total = numbers.stream()
+                        .filter(x -> x % 2 == 0)
+                        .collect(Collectors.toInt());
+```
+
+- [ ] C
+
+```java
+int total = numbers.stream()
+                        .mapToInt (x -> {if (x % 2 == 0) return x * x;})
+                        .sum();
+```
+
+- [x] D
+
+```java
+int total = numbers.stream()
+                        .filter(x -> x % 2 == 0)
+                        .mapToInt(x -> x * x)
+                        .sum();
+```
+
+**Explanation:** The given code in the question will give you the output 20 as total
+
+```
+numbers                         // Input `List<Integer>` > [1, 2, 3, 4] <br>
+    .stream()                   // Converts input into `Stream<Integer>` <br>
+    .filter(x -> x % 2 == 0)    // Filter even numbers and return `Stream<Integer>` > [2, 4] <br>
+    .mapToInt(x -> x * x)       // Square the number, converts `Integer` to an `int`, and returns `IntStream` > [4, 16] <br>
+    .sum()                      // Returns the sum as `int` > 20
+```

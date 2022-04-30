@@ -132,3 +132,70 @@
 - [ ] Choose commit Selected Value Immediately in the Dropdown Properties dialog box.
 - [ ] Choose Sort Items in the Dropdown Properties dialog box.
 - [ ] Choose Format Category > Special in the Dropdown Properties dialog box.
+
+#### Q20. To streamline index creation for a collection of academic documents, which option would result in a smaller index and thus faster searching for the user?
+
+- [ ] Structure Tags
+- [ ] XMP Fields
+- [ ] Custom Properties
+- [x] Stop Words
+
+[Reference](https://helpx.adobe.com/experience-manager/kb/Stopwordlist.html)
+
+#### Q21. You create a PDF portfolio, and you would like to add encryption, without having to deal with each individual file. To encrypt a complete portfolio with a certificate, to verify via digital signature, where would you go to start?
+
+- [ ] **Tools > Protect**
+- [ ] **Tools > Certificates**
+- [ ] **View > Portfolio Cover Sheet**
+- [x] **Tools > Action Wizard**
+
+#### Q22. You must prepare a PDF to meet the accessibility requirements of Section 508 compliance for a government agency. You have determined that there are some problems with the file which prevent it from passing accessibility tests. Where would you go to quickly to those issues and make the PDF accessible?
+
+- [ ] Tools > Edit PDF
+- [ ] Tools > Accessibility
+- [x] Tools > Action Wizard
+- [ ] Tools > PDF Standards
+
+[Reference](https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html)
+
+#### Q23. In a fillable form, you would like the user to be able to enter their own text in a multi-choice form field, if none of the existing choices in the form field are suitable. Which type of form field would provide this option?
+
+- [ ] a list box field
+- [ ] a multi-line text field
+- [ ] a drop-down field
+- [ ] a text field with rich text formatting
+
+#### Q23. A client sent a PDF to be included as a page in a book you are designing. The client misspelled several words in the PDF. The PDF is a scan of text. What can you do to fix the misspelled words?
+
+- [ ] **Tools > Organize Pages**
+- [ ] **Tools > Accessibility**
+- [ ] **Took > Edit PDF**
+- [ ] **File > Export to > Microsoft Word**
+
+#### Q24. You would like to convert a layered Visio file to PDF. However, that option is not available. How can you control the conversion of Visio layers to layers in the exported PDF?
+
+- [ ] Click **Create Layer Set**.
+- [ ] Click **Add Layers**.
+- [ ] Deselect the **Convert All Pages in Drawing** option.
+- [ ] Select **Retain Some Layers in the Selected Page**.
+
+#### Q25. A small section of a 28-page PDF has been updated with new image and given to you as a 3-page PDF. You have both PDFs open in Acrobat. Before you update the 28-page file with the new pages, you need to verify that the text is unchanged. What is the best way to do this?
+
+- [ ] From the 28-page PDF, extract and save the three pages as a new PDF. For each of the two three-page PDFs, choose **File > Export to > Text (Plain).**
+- [ ] Arrange the two PDFs in side-by-side windows in Acrobat. Scroll to the first page of the section in the larger PDF, and compare the visually, line by line.
+- [ ] Go to **View > Compare Files** and choose **Text Only**. Then, in Settings, edit the **Compare Page Range** field of the larger document so that it is the same three-page range. Then click **Compare**.
+- [ ] Select the original text in the 3-page section of the 28-page PDF and copy it to the clipboard. Then, paste it into the new 3-page PDF, replacing all of it text.
+
+#### Q26. You need to send multiple documents to a potential client, and you would like to add security to all of the documents at once. What is the easiest method?
+
+- [ ] Portfolio
+- [ ] LiveCycle Rights Management
+- [ ] Security Envelope
+- [ ] Email Review
+
+#### Q27. In a fillable form, you would like the user to be able to enter their own text in a multi-choice form field, if none of the existing choices in the form field are suitable. Which type of form field would provide this option?
+
+- [ ] a text field with rich text formatting
+- [ ] a multi-line text field
+- [ ] a drop-down field
+- [ ] a list box field

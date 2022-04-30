@@ -588,3 +588,12 @@ console.log(person);
 - [ ] ECMAScript modules can be used natively in Node with the .mjs file extension
 - [ ] ECMAScript modules can be used natively in Node only by using a compiler like Babel.
 - [ ] ECMAScript modules can be used natively in Node only by using a bundle like webpack.
+
+#### Q72. When exploring the Node documentation's features, what are the stability ratings?
+
+- [x] They are an indication of the stability of Nodejs modules and usage recommendations.
+- [ ] They tell if a feature is ES6 compliant.
+- [ ] They are a Node command to validate stability of your code.
+- [ ] They tell if a feature is LTS (Long Term Supported).
+
+[Reference](https://nodejs.org/api/documentation.html)

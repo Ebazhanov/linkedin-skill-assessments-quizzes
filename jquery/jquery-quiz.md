@@ -41,7 +41,7 @@ $('button').click(function () {
 `https://example.com/json-api/students`  
 `https://example.com/json-api/classes`
 
-- [ ]
+- [ ] A
 
 ```js
 $.get(
@@ -52,7 +52,7 @@ $.get(
 );
 ```
 
-- [ ]
+- [ ] B
 
 ```js
 $.when(
@@ -63,7 +63,7 @@ $.when(
 });
 ```
 
-- [ ]
+- [ ] C
 
 ```js
 $.bind(
@@ -74,7 +74,7 @@ $.bind(
 });
 ```
 
-- [x]
+- [x] D
 
 ```js
 $.ajax('https://example.com/json-api/students', {
@@ -117,7 +117,7 @@ $('#ball').click(function () {
 });
 ```
 
-- [x]
+- [x] A
 
 ```js
 $(this).animate(
@@ -131,7 +131,7 @@ $(this).animate(
 );
 ```
 
-- [ ]
+- [ ] B
 
 ```js
 $(this).animate({ top: '-=100', left: '-=100' }, 600, function () {
@@ -139,7 +139,7 @@ $(this).animate({ top: '-=100', left: '-=100' }, 600, function () {
 });
 ```
 
-- [ ]
+- [ ] C
 
 ```js
 $(this).animate(
@@ -153,7 +153,7 @@ $(this).animate(
 );
 ```
 
-- [ ]
+- [ ] D
 
 ```js
 $(this).animate({ top: '100', left: '100' }, 600, function () {
@@ -193,7 +193,7 @@ $.get('//example.com/api/v1/message').done(function (data) { var tonsOfItems = d
 all these messages to a large page });
 ```
 
-- [ ]
+- [ ] A
 
 ```js
 tonsOfItems.map(function (item) {
@@ -201,7 +201,7 @@ tonsOfItems.map(function (item) {
 });
 ```
 
-- [x]
+- [x] B
 
 ```js
 var tonsOfListItems = tonsOfItems.map(function (item) {
@@ -210,7 +210,7 @@ var tonsOfListItems = tonsOfItems.map(function (item) {
 $('.message-area--list').append(tonsOfListItems.join(''));
 ```
 
-- [ ]
+- [ ] C
 
 ```js
 CSS.$messageList = $('.message-area--list');
@@ -219,7 +219,7 @@ $.each(tonsOfItems, function (idx, item) {
 });
 ```
 
-- [ ]
+- [ ] D
 
 ```js
 $.each(tonsOfItems, function (idx, item) {
@@ -347,7 +347,7 @@ $.each(tonsOfItems, function (idx, item) {
 
 #### Q19. jQuery's AJAX functions return objects that implement the Promise API. As a result, you can chain promises and avoid nested callbacks. What does that look like?
 
-- [x]
+- [x] A
 
 ```js
 $.get('hhttp://httpbin.org/delay/2')
@@ -360,7 +360,7 @@ $.get('hhttp://httpbin.org/delay/2')
   });
 ```
 
-- [ ]
+- [ ] B
 
 ```js
 $.get('hhttp://httpbin.org/delay/2')
@@ -373,7 +373,7 @@ $.get('hhttp://httpbin.org/delay/2')
   });
 ```
 
-- [ ]
+- [ ] C
 
 ```js
 $.get('hhttp://httpbin.org/delay/2', function (response1) {
@@ -385,7 +385,7 @@ $.get('hhttp://httpbin.org/delay/2', function (response1) {
 });
 ```
 
-- [ ]
+- [ ] D
 
 ```js
 $.get('hhttp://httpbin.org/delay/2')
@@ -406,7 +406,7 @@ $('#ball').click(function () {
 });
 ```
 
-- [ ]
+- [ ] A
 
 ```js
 $(this).animate(
@@ -427,7 +427,7 @@ $(this).animate(
 );
 ```
 
-- [x]
+- [x] B
 
 ```js
 $(this).animate(
@@ -450,7 +450,7 @@ $(this).animate(
 );
 ```
 
-- [ ]
+- [ ] C
 
 ```js
 $(this).animate(
@@ -471,7 +471,7 @@ $(this).animate(
 );
 ```
 
-- [ ]
+- [ ] D
 
 ```js
 $(this).animate(
@@ -506,7 +506,7 @@ $(this).animate(
 $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red');
 ```
 
-- [ ]
+- [ ] A
 
 ```html
 <div class="wrapper" style="border: 2px solid red;">
@@ -516,7 +516,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 </div>
 ```
 
-- [x]
+- [x] B
 
 ```html
 <div class="wrapper">
@@ -526,7 +526,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 </div>
 ```
 
-- [ ]
+- [ ] C
 
 ```html
 <div id="container" style="border: 2px solid red;">
@@ -536,7 +536,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 </div>
 ```
 
-- [ ]
+- [ ] D
 
 ```html
 <div id="container">
@@ -633,25 +633,25 @@ $(document).customPlugin();
 </ul>
 ```
 
-- [ ]
+- [ ] A
 
 ```js
 $('.menu-first > li').eq(0).css('font-weight', 'bold').eq(1).css('font-style', 'oblique');
 ```
 
-- [ ]
+- [ ] B
 
 ```js
 $('.menu-first > li').first().css('font-weight', 'bold').after().css('font-style', 'oblique');
 ```
 
-- [ ]
+- [ ] C
 
 ```js
 $('.menu-first > li').first().css('font-weight', 'bold').second().css('font-style', 'oblique');
 ```
 
-- [x]
+- [x] D
 
 ```js
 $('.menu-first > li').eq(0).css('font-weight', 'bold').next().css('font-style', 'oblique');
@@ -720,13 +720,13 @@ $('#sidebar').click(function (evt) {
 <div id="elements"></div>
 ```
 
-- [ ]
+- [ ] A
 
 ```js
 $('#elements').append($('<p class="appended">As an HTML string</p>'));
 ```
 
-- [ ]
+- [ ] B
 
 ```js
 var p = document.createElement('p');
@@ -735,13 +735,13 @@ p.appendChild(text);
 $('#elements').append(p);
 ```
 
-- [x]
+- [x] C
 
 ```js
 $('#elements').append(<p class="appended">As a JSX object</p>);
 ```
 
-- [ ]
+- [ ] D
 
 ```js
 $('#elements').append(
@@ -1071,7 +1071,7 @@ function listResponder(evt) {
 </div>
 ```
 
-- [x]
+- [x] A
 
 ```JavaScript
 $('.ball--green').fadeIn(3000, function(){
@@ -1079,7 +1079,7 @@ $('.ball--green').fadeIn(3000, function(){
 });
 ```
 
-- [ ]
+- [ ] B
 
 ```JavaScript
 $('.ball--green').fade('in',3000).done(function(){
@@ -1087,13 +1087,13 @@ $('.ball--green').fade('in',3000).done(function(){
 });
 ```
 
-- [ ]
+- [ ] C
 
 ```JavaScript
 $('.ball--green').fadeIn(3).console().log("Animation is done!");
 ```
 
-- [ ]
+- [ ] D
 
 ```JavaScript
 $('.ball--green').fadeIn("3s", function(){
@@ -1136,7 +1136,7 @@ $('#element-1').animate({ top: '+=100' }); $('#element-2').animate({ top: '+=100
 $('#element-3').animate({ top: '+=100' });
 ```
 
-- [ ]
+- [ ] A
 
 ```JavaScript
 $('#element-1').animate({ top: '+=100' })
@@ -1145,7 +1145,7 @@ $('#element-1').animate({ top: '+=100' })
     .pushStack('#element-3').animate({ top: '+=100' })
 ```
 
-- [x]
+- [x] B
 
 ```JavaScript
 $('#element-1').animate({ top: '+=100' }, function() {
@@ -1155,7 +1155,7 @@ $('#element-1').animate({ top: '+=100' }, function() {
 });
 ```
 
-- [ ]
+- [ ] C
 
 ```JavaScript
 $('#element-1').animate({ top: '+=100' })
@@ -1163,7 +1163,7 @@ $('#element-1').animate({ top: '+=100' })
     .add('#element-3').animate({ top: '+=100' })
 ```
 
-- [ ]
+- [ ] D
 
 ```JavaScript
 $('#element-1').animate({ top: '+=100' }, {queue: 'custom'});
@@ -1255,7 +1255,7 @@ $.fn.myTraverse = function() {
 
 `$('.items').find('.active').nextAll().addClass('after-active');`
 
-- [x]
+- [x] A
 
 ```html
 <ul class="items">
@@ -1271,7 +1271,7 @@ $.fn.myTraverse = function() {
 </ul>
 ```
 
-- [ ]
+- [ ] B
 
 ```html
 <ul class="items">
@@ -1287,7 +1287,7 @@ $.fn.myTraverse = function() {
 </ul>
 ```
 
-- [ ]
+- [ ] C
 
 ```html
 <ul class="items">
@@ -1303,7 +1303,7 @@ $.fn.myTraverse = function() {
 </ul>
 ```
 
-- [ ]
+- [ ] D
 
 ```html
 <ul class="items">
@@ -1326,7 +1326,7 @@ $.fn.myTraverse = function() {
 
 #### Q68. You have an element with a series of code (not CSS) animations applied to it that could be triggered by code you control, or other code elsewhere (such as plugins). How can you fire some code when all those animations have completed?
 
-- [ ]
+- [ ] A
 
 ```js
 $('#element').on('animationend', function () {
@@ -1334,7 +1334,7 @@ $('#element').on('animationend', function () {
 });
 ```
 
-- [ ]
+- [ ] B
 
 ```js
 $('#element')
@@ -1344,7 +1344,7 @@ $('#element')
   });
 ```
 
-- [ ]
+- [ ] C
 
 ```js
 $('#element')
@@ -1354,7 +1354,7 @@ $('#element')
   });
 ```
 
-- [ ]
+- [ ] D
 
 ```js
 $('#element')
@@ -1364,9 +1364,8 @@ $('#element')
   });
 ```
 
-[Source: HTMLElement: animationend event | MDN ](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationend_event)
-
-[Example: Stackoverflow](https://stackoverflow.com/questions/49580666/check-if-an-css-animation-is-completed-with-jquery-or-js)
+1. [Source: HTMLElement: animationend event | MDN ](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationend_event)
+2. [Example: Stackoverflow](https://stackoverflow.com/questions/49580666/check-if-an-css-animation-is-completed-with-jquery-or-js)
 
 #### Q69. HTML5 data attributes allow you to create valid custom attributes to store arbitrary data within DOM elements. jQuery has an API to interface with custom data such as the series of quotes below. How can you mark the second quote as your favorite?
 
@@ -1384,9 +1383,8 @@ $('#element')
 - [ ] `$('blockquote').second().data('favorite', true);`
 - [ ] `$('blockquote:nth-child(2)').attr('favorite', true);`
 
-[Source: .data() | jQuery API Documentation](https://api.jquery.com/data/)
-
-[Source: :nth-child() | MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
+1. [Source: .data() | jQuery API Documentation](https://api.jquery.com/data/)
+2. [Source: :nth-child() | MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
 
 #### Q70. jQuery can create event handlers that execute exactly once. How is this done?
 
@@ -1415,6 +1413,129 @@ $('#element')
 - [ ] The `children()` function only includes text nodes of the selected elements.
 - [x] They both return the content of selected nodes, but `contents()` also includes text and comment nodes.
 
-[Source: .children() | jQuery API Documentation](https://api.jquery.com/children/)
+1. [Source: .children() | jQuery API Documentation](https://api.jquery.com/children/)
+2. [Source: .contents() | jQuery API Documentation](https://api.jquery.com/contents/)
 
-[Source: .contents() | jQuery API Documentation](https://api.jquery.com/contents/)
+#### Q73. If you JavaScript project involves a lot of DOM manipulation, but no AJAX or animation, which version of jQuery should you use?
+
+- [ ] jQuery 3 compressed
+- [ ] jQuery 3 slim
+- [ ] jQuery 2
+- [x] None of these - jQuery requires AJAX
+
+#### Q74. The `.ready()` function is one of the most basic parts of jQuery, but jQuery also provides a mechanism for executing code when both one or more Promises have resolved and the DOM is ready. Which code snippet accomplishes this?
+
+- [ ] A
+
+```js
+$(function({
+    getData : $.get('http://httpbin.org/get'),
+    delayedData : $.get('http://httpbin.org/delay/3')
+})  {
+    //DOM is ready, getData and delayedData are available
+});
+```
+
+- [ ] B
+
+```js
+$(
+    $.get('http://httpbin.org/get'),
+    $.get('http://httpbin.org/delay/3')
+ ).then(function(getData, delayedData)  {
+    //DOM is ready, getData and delayedData are available
+});
+```
+
+- [ ] C
+
+```js
+$.when(
+    $.get('http://httpbin.org/get'),
+    $.get('http://httpbin.org/delay/3')
+ ).then(function(getData, delayedData)  {
+    //DOM is ready, getData and delayedData are available
+});
+```
+
+- [x] D
+
+```js
+$.ready(
+    $.get('http://httpbin.org/get'),
+    $.get('http://httpbin.org/delay/3')
+ ).then(function(getData, delayedData)  {
+    //DOM is ready, getData and delayedData are available
+});
+```
+
+#### Q75. You want to take an element and any event handlers that go with it out of the DOM to do some work—without the changes affecting the rest of the page—and then move it somewhere else in the DOM, like right after the opening tag. What should go on the first line of this code snippet?
+
+```js
+// what goes here?
+// ... do some other hidden work on $example
+$example.prependTo(document.body);
+```
+
+- [ ] `var $example = $('#example').remove();`
+- [ ] `var $example = $('#example').clone();`
+- [x] `var $example = $('#example').detach();`
+- [ ] `var $example = $('#example').addBack().empty();`
+
+https://api.jquery.com/detach/
+
+#### Q76. Review the HTML below. You want to select the first item in the list and fade it out, then select the subsequent items up to (but not including) the active item, and fade them out halfway. How can you set up a single chain to do this?
+
+```html
+<ul class="items">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+  <li class="active">Item 4</li>
+  <li>Item 5</li>
+  <li>Item 6</li>
+</ul>
+```
+
+- [x] A
+
+```js
+$('.items > li')
+  .first().fadeOut()
+  .nextUntil('.active').fadeTo('fast', 0.5);
+```
+
+- [ ] B
+
+```js
+$('.items')
+  .children(':first-child').fadeOut()
+  .filter('.active').fadeTo('fast', 0.5);
+```
+
+- [ ] C
+
+```js
+$('.items > li')
+  .first().fadeOut()
+  .nextAll('.active').fadeOut(50);
+```
+
+- [ ] D
+
+```js
+$('.items')
+  .find('li:first-child').fadeOut()
+  .next('.active').fadeTo('fast', 0.5);
+```
+
+1. https://api.jquery.com/fadeTo/
+2. https://api.jquery.com/fadeOut/
+3. https://api.jquery.com/nextUntil/
+
+#### Q77. What is a particular performance concern when dealing with event handlers, and how can you cope with it?
+
+- [ ] Finding which element an event occurred on is expensive. Assign most events to document.body and use .is() to act on the element of interest.
+- [x] Some events, such as mousemove and scroll, happen a lot on a typical page. Debounce or throttle their handlers to make sure the handlers are not called more than you actually need.
+- [ ] Listening for an event that does not exist can create serious memory leaks. Be careful to spell event names correctly to avoid consuming too much memory.
+- [ ] DOM elements with an ID wil fire events more efficiently than with classes. Always use IDs instead of classes where possible.

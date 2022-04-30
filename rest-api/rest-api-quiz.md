@@ -463,7 +463,7 @@
 - [ ] page size and filters
 - [ ] database IDs
 
-#### Q62. What is not a method for API authentication or authorization?
+#### Q62. What is _not_ a method for API authentication or authorization?
 
 - [ ] OAuth
 - [x] biometrics

@@ -476,3 +476,10 @@ FROM customers c;
 - [ ] a combiner policy
 - [ ] a compression policy
 - [ ] a filter policy
+
+#### Q67. To copy a file into the Hadoop file system, what command should you use?
+
+- [ ] hadoop fs -copy <fromDir> <toDir>
+- [ ] hadoop fs -copy <toDir> <fromDir>
+- [x] hadoop fs -copyFromLocal <fromDir> <toDir>
+- [ ] hadoop fs -copyFromLocal <toDir> <fromDir>

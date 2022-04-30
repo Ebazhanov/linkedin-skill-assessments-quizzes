@@ -112,7 +112,7 @@ public class Test implements InitializingBean {
      @Autowired
      ApplicationContext context;
      @Autowired
-     static SimpleDateFormt formatter;
+     static SimpleDateFormat formatter;
 
      @Override
      public void afterPropertiesSet() throws Exception {

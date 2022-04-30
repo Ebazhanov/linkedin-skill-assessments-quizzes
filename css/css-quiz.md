@@ -349,12 +349,12 @@ p {
 - [ ] The rem unit is relative to the font-size of the containing (parent) element.
 - [x] The rem unit is relative to the font-size of the root element of the page.
 
-#### Q26.Which of these would give a block element rounded corners?
+#### Q26. Which choice would give a block element rounded corners?
 
-- [ ] corner-curve: 10px
-- [ ] border-corner: 10px
-- [x] border-radius: 10px
-- [ ] corner-radius: 10px
+- [ ] `corner-radius: 10px;`
+- [ ] `border-corner: 10px;`
+- [ ] `corner-curve: 10px;`
+- [x] `border-radius: 10px;`
 
 [Official doc:](https://www.w3schools.com/css/css3_borders.asp)
 
@@ -1095,10 +1095,10 @@ D. border-top-radius: 10px;
 
 #### Q88. How can you create a semi-transparent background color?
 
-- [ ] background-color: hsl(0, 0, 0, 0.5);
-- [ ] background-color: rgbx(0, 0, 0, 0.5);
-- [x] background-color: rgba(0, 0, 0, 0.5);
-- [ ] background-color: rgba(0, 0, 0, 1);
+- [ ] `background-color: hsl(0, 0, 0, 0.5);`
+- [ ] `background-color: rgbx(0, 0, 0, 0.5);`
+- [x] `background-color: rgba(0, 0, 0, 0.5);`
+- [ ] `background-color: rgba(0, 0, 0, 1);`
 
 `rgba` is a funtion in css. rgba stands for red, green, blue and alpha. The value of alpha can be between 0 and 1 both inclusive with 0 being fully transparent and 1 being fully opaque.
 
@@ -1385,7 +1385,7 @@ h2 ~ p {
 - [ ] P1, P3, and P4P1, P3, and P4
 - [x] P3 and P4
 
-### Q104. Referring to the HTML markup and CSS example below, which element(s) will be targeted?
+#### Q104. Referring to the HTML markup and CSS example below, which element(s) will be targeted?
 
 ```css
 p:first-of-type:first-letter {
@@ -1454,7 +1454,7 @@ p:first-of-type:first-letter {
 [ ] `background-color: linear-gradient(#648880, #293f50);`
 ```
 
-### Q108. You want to add a background circle behind an icon. Which style declaration is correct?
+#### Q108. You want to add a background circle behind an icon. Which style declaration is correct?
 
 ```css
 [] .glyphicon-bgcircle {
@@ -1497,7 +1497,7 @@ p:first-of-type:first-letter {
 - [ ] The first value is the first choice, and must be followed by at least one alternative option before adding the generic font.
 - [ ] The first value is the first choice, followed by a maximum of three alternatives.
 
-### Q110. Which items are valid values for the font-size property?
+#### Q110. Which items are valid values for the font-size property?
 
 ```css
 A. font-size: xsmall
@@ -1586,7 +1586,7 @@ D. font-size: 20px
 }
 ```
 
-#### Q113. Which missing line of code would place the text on top of the image? Which missing line of code would place the text on top of the image?
+#### Q113. Which missing line of code would place the text on top of the image?
 
 ```js
 <div class="container">
@@ -1604,26 +1604,10 @@ img {
 }
 ```
 
-```js
-<div class="container">
-  <img src="grumpy-cat.gif" />
-  <p>The z-index property is cool!</p>
-</div>
-```
-
-```css
-img {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  // Missing line
-}
-```
-
-- [ ] `z-index: 1;z-index: 1;`
-- [ ] `z-index: -1;z-index: -1;`
-- [ ] `z-index: 0;z-index: 0;`
-- [ ] `z-index: true;z-index: true;`
+- [ ] `z-index: 1;`
+- [x] `z-index: -1;`
+- [ ] `z-index: 0;`
+- [ ] `z-index: true;`
 
 #### Q114. To make the font size of an element one size smaller than the font size of the element's container, which style property would you apply?
 
@@ -1707,8 +1691,8 @@ background-tile: none;
 
 #### Q118. Which style rule would you apply to set the background image to display the contents of the wood.png file?
 
-- [ ] `background-image: file(wood.png);`
-- [x] `background-image: url(wood.png);`
+- [ ] `background-image: file('wood.png');`
+- [x] `background-image: url('wood.png');`
 - [ ] `background-image: wood.png;`
 - [ ] `image: wood.png`
 
@@ -1850,21 +1834,17 @@ p + section {
     #cellar-door {
       box-shadow: 3px 5px 10px #000;
     }
+    .text-shadow {
+      text-shadow: 3px 5px 10px #000;
+    }
   </style>
 
   <h1 _____> Cellar Door</h1>
 ```
 
 - [x] `class="text-shadow"`
-- [ ] `id="cellar-door`
+- [ ] `id="cellar-door"`
 - [ ] `id="text-shadow"`
 - [ ] `class="cellar-door"`
 
 [Reference](https://www.w3schools.com/html/html_classes.asp)
-
-#### Q125. Which choice would give a block element rounded corners?
-
-- [ ] `corner-radius: 10px;`
-- [ ] `border-corner: 10px;`
-- [ ] `corner-curve: 10px;`
-- [x] `border-radius: 10px;`

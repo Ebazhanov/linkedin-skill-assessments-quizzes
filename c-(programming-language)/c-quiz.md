@@ -818,3 +818,68 @@ int main()
 - [ ] unsigned char
 - [x] array
 - [ ] float
+
+### Q52. What is the member access operator for a structure?
+
+- [ ] ,
+- [ ] []
+- [x] .
+- [ ] :
+
+#### Q53. What standard data type provides the smallest storage size and can be used in computations?
+
+- [x] char
+- [ ] float
+- [ ] int
+- [ ] short
+
+#### Q54. what does the ctype tolower() function do?
+
+- [ ] It returns TRUE for lowercase letters of the alphabet.
+- [ ] It ensures that text output uses only ASCII values (0 through 127).
+- [ ] It returns FALSE for lowercase letters of the alphabet.
+- [x] It converts an uppercase letter of the alphabet to lowercase.
+
+#### Q55. Void pointer _vptr_ is assigned the address of float variable _g_. What is a valid way to dereference _vptr_ to assign its pointed value to a float variable named _f_ later in the program?
+
+```c
+float g;
+void *vptr=&g;
+```
+
+- [ ] f=(float \*)vptr;
+- [x] f=_(float _)vptr;
+- [ ] f=\*(float)vptr;
+- [ ] f=(float)\*vptr;
+
+#### Q56. Using a _for_ loop, how would you write C code to count down from 10 to 1 and display each number on its own line?
+
+- [ ]
+
+```c
+for(int i=10;1>0;) {
+    printf("%d\n", i);
+    i--;
+}
+```
+
+- [x]
+
+```c
+for (int i=10; i>0; i--)
+    printf("%d\n", i);
+```
+
+- [ ]
+
+```c
+for (int i=1; i<=10; i++)
+    printf("%d", i);
+```
+
+- [ ]
+
+```c
+for (int i=10; i>=0; i--)
+    printf("%d\n", i);
+```

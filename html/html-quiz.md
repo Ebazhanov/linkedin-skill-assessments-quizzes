@@ -508,11 +508,11 @@ This is a confusing question and there can be an arguments for both the second a
 
 [Source: MDN Web Docs pre](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)
 
-#### Q32. What does the `<label>` tag do?
+#### Q32. What does the `<label>` element do?
 
 - [ ] It labels webpages with important information.
-- [ ] It visually associates a text label with an interface element.
-- [ ] It visually labels from fields.
+- [ ] It creates an ID for a corresponding input element.
+- [ ] It overrides the name attribute's value on a child input element.
 - [x] It programmatically associates a text label with an interface element.
 
 #### Q33. To get a link to open in a new window or tab, use the **\_** attribute
@@ -617,7 +617,7 @@ This is a confusing question and there can be an arguments for both the second a
 - [ ] device
 - [x] media
 
-#### Q38. What is semantically correct way to mark up this layout?
+#### Q38. What is the semantically correct way to mark up this layout?
 
 ![quote](images/ss-5.png?raw=true)
 
@@ -1181,10 +1181,10 @@ This is a confusing question and there can be an arguments for both the second a
 
 #### Q74. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
 
-- [x] `<a href="tel: 802-555-1212">Call me</a>`
+- [x] `<a href="tel:802-555-1212">Call me</a>`
 - [ ] `<a href="phone">802-555-1212</a>`
 - [ ] `<a href="tel">802-555-1212</a>`
-- [ ] `<a href="phone: 802-555-1212">Call me</a>`
+- [ ] `<a href="phone:802-555-1212">Call me</a>`
 
 #### Q75. What is the purpose of the `class` attribute?
 
@@ -1222,6 +1222,8 @@ As Steve Krug once said, happy talk must die.
 
 #### Q78. What is the most semantically accurate way to make up a main navigation bar, displayed in a horizontal direction?
 
+- [ ] A
+
 ```markdown
 <p>
   <a href="index.html">Home</a>
@@ -1230,7 +1232,7 @@ As Steve Krug once said, happy talk must die.
 </p>
 ```
 
-- [ ] A
+- [ ] B
 
 ```markdown
 <nav>
@@ -1240,7 +1242,7 @@ As Steve Krug once said, happy talk must die.
 </nav>
 ```
 
-- [ ] B
+- [ ] C
 
 ```markdown
  <nav>
@@ -1252,7 +1254,7 @@ As Steve Krug once said, happy talk must die.
   </nav>
 ```
 
-- [x] C
+- [x] D
 
 ```markdown
  <nav>
@@ -1268,7 +1270,7 @@ As Steve Krug once said, happy talk must die.
 
 ![Image of footer](images/ss-8.png?raw=true)
 
-- [ ] A
+- [x] A
 
 ```markdown
 <h4>Mailing Address</h4>
@@ -1279,7 +1281,7 @@ As Steve Krug once said, happy talk must die.
 </address>
 ```
 
-- [x] B
+- [ ] B
 
 ```markdown
 <h4><strong>Mailing Address</h4>
@@ -1395,13 +1397,13 @@ As Steve Krug once said, happy talk must die.
 - [ ] content
 - [ ] an element
 
-#### Q88. What is the correct way to add a submit URL to a button element?
+#### Q88. What is the correct way to add a submit URL to a `button` element?
 
 - [ ] A
 
 ```HTML
 <button submit="http://example.com/process">
-      Process data
+  Process data
 </button>
 ```
 
@@ -1409,7 +1411,7 @@ As Steve Krug once said, happy talk must die.
 
 ```HTML
 <button action="http://example.com/process">
-      Process data
+  Process data
 </button>
 ```
 
@@ -1417,7 +1419,7 @@ As Steve Krug once said, happy talk must die.
 
 ```HTML
 <button formaction="http://example.com/process">
-      Process data
+  Process data
 </button>
 ```
 
@@ -1425,18 +1427,22 @@ As Steve Krug once said, happy talk must die.
 
 ```HTML
 <button method="http://example.com/process">
-      Process data
+  Process data
 </button>
 ```
+
+`formaction — The URL that processes the information submitted by the button. Overrides the action attribute of the button's form owner. Does nothing if there is no form owner.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formaction)
 
 #### Q89. Which is the best markup to produce this text?
 
 `x<y&z>w`
 
 - [ ] `<p>x<y&z>w</p>`
-- [ ] `<p>x\<y&z\>w</p>`
+- [x] `<p>x\<y&z\>w</p>`
 - [ ] `<p>x<<y&&z>>w`
 - [ ] `<p>x<y&z>w</p>`
+
+`This question has an issue, however this answer will count as correct`
 
 `It's too strange question because all of that methods doesn't work. The good method is &amp, &lt, &gt using.`
 
@@ -1683,45 +1689,9 @@ As Steve Krug once said, happy talk must die.
 
 `The browser will: 1. Look at its device width. 2. Work out which media condition in the sizes list is the first one to be true. 3. Look at the slot size given to that media query. 4. Load the image referenced in the srcset list that has the same size as the slot or, if there isn't one, the first image that is bigger than the chosen slot size.` [Source](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
-#### Q108. What is the correct way to add a submit URL to a `button` element?
+#### Q108. Which description is coded correctly?
 
 - [x] A
-
-```HTML
-<button formaction="http://example.com/process">
-  Process daata
-</button>
-```
-
-- [ ] B
-
-```HTML
-<button method="http://example.com/process">
-  Process daata
-</button>
-```
-
-- [ ] C
-
-```HTML
-<button action="http://example.com/process">
-  Process daata
-</button>
-```
-
-- [ ] D
-
-```HTML
-<button submit="http://example.com/process">
-  Process daata
-</button>
-```
-
-`formaction — The URL that processes the information submitted by the button. Overrides the action attribute of the button's form owner. Does nothing if there is no form owner.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formaction)
-
-#### Q109. Which description is coded correctly?
-
-- [ ] A
 
 ```HTML
 <dl>
@@ -1765,7 +1735,10 @@ As Steve Krug once said, happy talk must die.
 </dl>
 ```
 
-#### Q110. What is wrong with this code?
+[Source 1](https://html.spec.whatwg.org/multipage/grouping-content.html#the-dl-element)
+[Source 2](https://www.w3schools.com/tags/tag_dl.asp)
+
+#### Q109. What is wrong with this code?
 
 ```HTML
 <ul>
@@ -1778,20 +1751,22 @@ As Steve Krug once said, happy talk must die.
 ```
 
 - [ ] Nothing is wrong.
-- [ ] `<ul>` cannot contain a heading element as a direct child.
+- [x] `<ul>` cannot contain a heading element as a direct child.
 - [ ] An `<h1>` should be used here instead of an `<h2>` tag.
 - [ ] Only `<ol>` allows direct descendants to contain elements other than an `<li>`, so use an `<ol>` here instead.
 
-#### Q111. A designer gave you CSS code that should run only when the device rendering the page is in dark mode. How would you embed that code?
+`ul content model only accepts "Zero or more li and script-supporting elements".` [Source](https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element)
+
+#### Q110. A designer gave you CSS code that should run only when the device rendering the page is in dark mode. How would you embed that code?
 
 - [ ] `<style media="light-mode: false">/* CSS code */</style>`
 - [ ] `<style media="color-mode: dark">/* CSS code */</style>`
 - [x] `<style media="prefers-color-scheme: dark">/* CSS code */</style>`
 - [ ] `<style media="color-scheme: dark">/* CSS code */</style>`
 
-#### Q112. How would you mark up a header for a table row?
+#### Q111. How would you mark up a header for a table row?
 
-- [ ] A
+- [x] A
 
 ```HTML
 <table>
