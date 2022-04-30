@@ -761,7 +761,7 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 - [ ] attack
 - [ ] information
 - [ ] threat
-- [ ] event
+- [x] event
 
 #### Q100. You need to implement a solution to protect internet-facing applications from common attacks like XSS, CSRF, and SQL injection. Which option is best suited to the task?
 
@@ -776,5 +776,5 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 - [ ] Restore the server from backup immediately.
 - [ ] Take the server offline until your investigation is complete.
-- [ ] Take a snapshot of the compromised virtual server for your investigation.
+- [x] Take a snapshot of the compromised virtual server for your investigation.
 - [ ] Restart the server. Remediate the issue after business hours.
