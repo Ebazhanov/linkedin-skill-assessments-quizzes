@@ -7,7 +7,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-874-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-875-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1243,6 +1243,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Poulios"><img src="https://avatars.githubusercontent.com/u/46890409?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Evang Poul</b></sub></a><br /><a href="#design-Poulios" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Poulios" title="Code">💻</a></td>
     <td align="center"><a href="http://writeonly.wordpress.com"><img src="https://avatars.githubusercontent.com/u/163983?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Gregg Lind</b></sub></a><br /><a href="#design-gregglind" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=gregglind" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/sudocipher"><img src="https://avatars.githubusercontent.com/u/32899560?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Deepak Kumar</b></sub></a><br /><a href="#design-sudocipher" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sudocipher" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/CallumIO"><img src="https://avatars.githubusercontent.com/u/16057677?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Callum Leslie</b></sub></a><br /><a href="#design-CallumIO" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=CallumIO" title="Code">💻</a></td>
   </tr>
 </table>
 
