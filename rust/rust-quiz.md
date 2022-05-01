@@ -423,3 +423,10 @@ enum Status {
 - [ ] Enums
 - [ ] Tuples
 - [ ] Structs
+
+#### Q37. How do you create a Rust project on the command-line?
+
+- [x] cargo new
+- [ ] rustup init
+- [ ] cargo start
+- [ ] rust new-project
