@@ -676,3 +676,26 @@
 - [ ] Ask the team if they would like to do something recreational together and offer to organize it.
 - [ ] Tell the team that you see this as a problem and ask them to solve it.
 - [ ] Since no one has come to you with a complaint, assume that the limited interaction works for everyone.
+
+#### Q95. What is the expected outcome of the daily stand-up meeting?
+
+- [ ] updated status on all of the work
+- [ ] team alignment on its plan for the day
+- [ ] a list of impediments and priorities
+- [ ] a report to the Product Owner of stories ready to be accepted
+
+#### Q96. What is the name of the technique in which a story includes an input, a translation of input to output, and an output?
+
+- [ ] input-output processing
+- [ ] ITIOO story format
+- [ ] thin vertical slice
+- [ ] structured coding
+
+#### Q97. What is the term for a team member who is "T-shaped"?
+
+- [x] cross-functional
+- [ ] jack-of-all-trades
+- [ ] generalizing specialist
+- [ ] apprentice developer
+
+[Source](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of “T-shaped” people. This can also be described as a cross-functionality.`
