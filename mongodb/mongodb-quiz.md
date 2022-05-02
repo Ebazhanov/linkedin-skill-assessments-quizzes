@@ -579,3 +579,12 @@ Note: count() works with find(...) but length works with distinct
 - [ ] onError
 
 [MongoDB reference](https://www.mongodb.com/docs/manual/reference/operator/aggregation/convert/#definition)
+
+#### Q81. All tag values in tag sets must be ___.
+
+- [ ] JSON
+- [ ] integers
+- [x] strings
+- [ ] XML
+
+[MongoDB reference](https://www.mongodb.com/docs/manual/core/read-preference-tags/)
