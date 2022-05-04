@@ -466,11 +466,11 @@ fmt.Println(val)
 ```
 var stocks map[string]float64 // stock -> price
 price := stocks["MSFT"]
-fmt.Println("%f\n", price)
+fmt.Printf("%f\n", price)
 ```
 
-- [x] 0
-- [ ] 0.000000
+- [ ] 0
+- [x] 0.000000
 - [ ] The code will panic
 - [ ] NaN
 
