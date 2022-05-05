@@ -596,6 +596,8 @@ console.log(person);
 - [ ] They are a Node command to validate stability of your code.
 - [ ] They tell if a feature is LTS (Long Term Supported).
 
+[Reference](https://nodejs.org/api/documentation.html)
+
 #### Q73. Which of the following DNS module methods uses the underlying OS facilities and does not necessarily perform any network communication?
 
 - [x] lookup
@@ -609,5 +611,3 @@ console.log(person);
 - [ ] chalk
 - [ ] webpack
 - [ ] request
-
-[Reference](https://nodejs.org/api/documentation.html)
