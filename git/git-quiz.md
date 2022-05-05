@@ -980,3 +980,10 @@ hint: Updates were rejected because the remote contains work that you do not hin
 - [x] git rm config.properties
 - [ ] git rf config.properties
 - [ ] git checkout HEAD -- config.properties
+
+#### Q119. After a recent release with a stack trace, an issue is create that indicates the problem is with a newly added configuration property named MaxConnections. What command can find all commits that add or remove the string MaxConnections?
+
+- [ ] - git grep -a "MaxConnections"
+- [ ] - git log --search-string "MaxConnections"
+- [x] - git log -S "MaxConnections"
+- [ ] - git commit --with "MaxConnections"
