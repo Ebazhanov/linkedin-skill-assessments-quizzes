@@ -597,3 +597,10 @@ console.log(person);
 - [ ] They tell if a feature is LTS (Long Term Supported).
 
 [Reference](https://nodejs.org/api/documentation.html)
+
+### Q73. Which choice is a core module in Node?
+
+- [ ] webpack
+- [ ] chalk
+- [x] crypto
+- [ ] request
