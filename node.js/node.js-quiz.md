@@ -598,9 +598,16 @@ console.log(person);
 
 [Reference](https://nodejs.org/api/documentation.html)
 
-### Q73. Which choice is a core module in Node?
+#### Q73. Which of the following DNS module methods uses the underlying OS facilities and does not necessarily perform any network communication?
 
-- [ ] webpack
-- [ ] chalk
+- [x] lookup
+- [ ] resolve
+- [ ] reverse
+- [ ] resolve4
+
+#### Q74. Which coice is a core module in Node?
+
 - [x] crypto
+- [ ] chalk
+- [ ] webpack
 - [ ] request
