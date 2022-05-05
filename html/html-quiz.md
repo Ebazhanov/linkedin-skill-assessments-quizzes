@@ -1038,16 +1038,17 @@ This is a confusing question and there can be an arguments for both the second a
 - [x] It runs the script when the script is ready.
 - [ ] It pauses the parsing of HTML code while the script runs.
 
-#### Q67. What does this code?
+#### Q67. What does this code do on a page you are visiting for the first time?
 
 `<audio autoplay loop src="sound.mp3" type="audio/mpeg"></audio>`
 
-- [ ] When the **play** button is pressed, the browser plays the sounds over and over again until the user stops it.
+- [ ] When the **Play** button is pressed, the browser plays the sound over and over again until the user stops it.
 - [ ] The browser plays the sound once automatically in the background. The user has no control over the sound.
 - [ ] The browser plays the sound automatically and continuously in the background. The user may stop the sound at any tune.
-- [x] The browser plays the sound automatically and continuously in the background. The user has no control over the sound.
+- [x] It does nothing. Modern browsers require some form of interaction before they let a page autoplat with audio.
 
-[Reference(MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
+References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio),
+[(MDN) autoplay](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
 
 #### Q68. What is the difference between the `<head>` and `<header>` tags?
 
