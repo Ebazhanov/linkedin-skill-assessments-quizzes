@@ -480,11 +480,10 @@ result <- lm(outcome ~ covariate + factor + covariate:factor, data = testcoef)
 
 > summary(lm(Petal.Length ~ Petal.Width + Species + Petal.Width:Species, data = iris))
 ...
-Petal.Width:Speciesversicolor   1.3228     0.5552   2.382   0.0185 *  
-Petal.Width:Speciesvirginica    0.1008     0.5248   0.192   0.8480   
+Petal.Width:Speciesversicolor   1.3228     0.5552   2.382   0.0185 *
+Petal.Width:Speciesvirginica    0.1008     0.5248   0.192   0.8480
 ...
 ```
-
 
 #### Q45. A variable whose type is numeric can contain which items?
 
