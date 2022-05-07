@@ -38,9 +38,9 @@
 #### Q6. What is the Product Owner's role in deciding the priority of work in the sprint backlog?
 
 - [ ] None—the Scrum Master should prioritize the work in the sprint backlog.
-- [ ] The PO should prioritize the items in the sprint backlog.
+- [x] The PO should prioritize the items in the sprint backlog.
 - [ ] The developers prioritize work unless they cannot complete it, in which case the PO should prioritize the remaining work.
-- [x] None—the developers should prioritize the work in the sprint backlog.
+- [ ] None—the developers should prioritize the work in the sprint backlog.
 
 #### Q7. The Scaled Agile Framework advocates that, if you measure only one thing, what should you measure?
 
