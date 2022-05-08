@@ -984,3 +984,10 @@ exec 3>&-
 - [ ] the number 5, which is written to the file using echo
 
 See [I/O Redirection](https://tldp.org/LDP/abs/html/io-redirection.html)
+
+#### Q77. Which variable contains the process ID (PID) of the script while it's running?
+
+- [ ] $ID
+- [ ] $#
+- [ ] $@
+- [x] $$
