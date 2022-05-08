@@ -2,26 +2,26 @@
 
 #### Q1. You are configuring a Wi-Fi base station using DHCP. Which items should you set or change?
 
-- [x]
+- [x] A
 
   - Reset administrator password.
   - Set network name.
   - Set network security.
   - Set network password.
 
-- [ ]
+- [ ] B
 
   - Reset administrator password.
   - Set network name.
   - Set network password.
 
-- [ ] 
+- [ ] C
 
   - Set network name.
   - Set network password.
   - Assign DNS servers.
 
-- [ ]
+- [ ] D
 
   - Change administrator account name.
   - Set network password.
@@ -58,19 +58,24 @@
 
 #### Q6. Assuming that the gateway, modem, and switch are separate units, in what order should a small office or home office LAN be restarted?
 
-- [ ] The order is not important.
-- [x]
+- [x] A
 
   1. Modem
   2. Gateway
   3. Switch
 
-- [ ]
+- [ ] B
+
   1. Modem
   2. Switch
   3. Gateway
-- [ ] 1. Gateway
+
+- [ ] C
+
+  1. Gateway
   2. Switch
+
+- [ ] The order is not important.
 
 #### Q7. A client needs to secure their cafe's wireless network, which is used only by employees. What is the best approach for a finite list of devices?
 
@@ -413,3 +418,115 @@
 - [ ] the MAC address broadcast for a wireless network
 
 [Reference](https://techterms.com/definition/ssid)
+
+#### Q47. Which is the standard color coding for audio jacks?
+
+- [ ] Gray: microphone / Black: speakers
+- [ ] Red: microphone / Green: speakers
+- [ ] Green: microphone / Pink: speakers
+- [x] Green: speakers / Pink: microphone
+
+#### Q48. Which key asssists limited keyboard layouts (such as on a laptop) with accessing the full range of keys?
+
+- [x] Alt (Windows) or Option (Mac)
+- [ ] Meta
+- [ ] Fn
+- [ ] Shift
+
+#### Q49. You power up your computer and it starts in Safe Mode. What should you do?
+
+- [x] Restart the computer
+- [ ] Work as you normally do until the problem is resolved
+- [ ] Reconfigure the startup sequence so that the system starts again normally
+- [ ] Determine the cause and address the issue
+
+#### Q50. Which security tool can be doubled up to offer additional protection without being redundant?
+
+- [ ] account protection
+- [ ] firewall
+- [ ] antivirus
+- [x] backup
+
+#### Q51. The mouse pointer is behaving erratically. What should you do first?
+
+- [ ] Use the keyboard instead
+- [ ] Restart the computer
+- [x] Clean the mouse, specifically its optical sensor, and ensure that you are using it on the proper surface
+- [ ] Disassemble the mouse to look for loose parts or corrosion
+
+#### Q52. How many wire pairs are in a CAT-5 cable?
+
+- [ ] 8
+- [x] 4
+- [ ] 5
+- [ ] 16
+
+#### Q53. What is the difference between a USB hub and a powered USB hub?
+
+- [x] The powered hub has a power supply and is suitable for running powered peripherals.
+- [ ] A powered USB hub is found on the computer case; all other hubs are non-powered.
+- [ ] The powered hub supplies 12V of power, whereas the standard hub only 5V.
+- [ ] Powered hubs are external to the computer case.
+
+#### Q54. Which user has the smartest approach to online security?
+
+- [ ] Jarred uses a unique password for each site.
+- [ ] Jen uses the same password on each site, but with two-factor authentication.
+- [x] Jason uses a unique password for each site along with two-factor authentication.
+- [ ] Jackie uses the same password on each site, but with a different user name.
+
+#### Q55. Which is an example of a phishing attach?
+
+- [ ] Yousef sees an onscreen notification indicating that an operating system is pending and instructing him to click a link to continue.
+- [ ] After visiting a website, Carla notices that her computer is running slowly.
+- [x] Bob receives an email from his bank, asking him to click a link to verify his account.
+- [ ] Ellen's email inbox is flooded with unwanted advertising.
+
+#### Q56. You receive a malware warning regarding a specific file. Which approach should you take to ensure you do not have false positive?
+
+- [ ] Restart in Safe Mode to remove the file.
+- [ ] Remove the file.
+- [x] Run a thorough scan to validate the results.
+- [ ] Quarantine the file.
+
+#### Q57. What are the best tools to use for cleaning a computer?
+
+- [ ] Handheld vaccume cleaner, air can, soft flashlight.
+- [ ] air can, microfiber cloth, alcohol wipes, flashlight.
+- [x] handheld vaccum cleaner, ammonia, alcohol, microfiber cloth.
+- [ ] air can, screwdriver, soft cloth, household cleaner.
+
+#### Q58. A computer power supply is measured in \_.
+
+- [x] watts
+- [ ] hertz
+- [ ] amperes
+- [ ] volts
+
+#### Q59. If you had a 255.255.255.0 subnet mask, how many usable IP addresses would you have for hosts?
+
+- [ ] 24
+- [ ] 255
+- [x] 254
+- [ ] 256
+
+#### Q60. Tania was told to address an issue in the UEFI. How is it accessed?
+
+- [ ] by using the System Configuration Utility (MSCONFIG)
+- [x] from the BIOS
+- [ ] from the computer's startup menu
+- [ ] on the network
+
+#### Q61. What is the technical reason why you must properly eject media?
+
+- [x] File I/O is buffered. If you remove the media before the buffer is cleared, files remain open and potentially corrupt.
+- [ ] The Storage Inventory Manager (SIM) can lose its drive references, which may corrupt other storage in the system.
+- [ ] The drive must receive the eject signal and turn itself off, dropping the DTR signal and indicating the media is safe to remove.
+- [ ] The computer must stop the 5-volt signal to media, otherwise the drive may short.
+
+#### Q62. Which part of the network assigns an IP address?
+
+- [ ] the modem using TCP/IP protocol
+- [x] the gateway/router using DHCP
+- [ ] the device's NIC based on the MAC address
+- [ ] IP addresses are always assigned manually

@@ -420,3 +420,17 @@ MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 - [ ] Bigtable
 - [x] Redis
 - [ ] HBase
+
+#### Q57. In DynamoDB, the partition key and sort key are also known as which type of attributes?
+
+- [ ] range, hash
+- [ ] primary, range
+- [x] hash, range
+- [ ] range, secondary
+
+#### Q58. What is a popular, open-source key-value store database?
+
+- [ ] MongoDB
+- [x] Redis
+- [ ] MySQL
+- [ ] Cassandra

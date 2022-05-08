@@ -21,7 +21,7 @@
 ```python
 if any([True, False, False, False]) == True:
     print('Yes, there is True')
->>> Yes, there is True
+>>> 'Yes, there is True'
 ```
 
 #### Q3. What data structure does a binary tree degenerate to if it isn't balanced properly?
@@ -156,7 +156,7 @@ def sum(a, b):
     return a + b
 ```
 
-**explanation** - use ''' to start the doc and add output of the cell after >>>
+**Explanation** - use `'''` to start the doc and add output of the cell after `>>>`
 
 #### Q12. What built-in Python data type is commonly used to represent a stack?
 
@@ -164,8 +164,7 @@ def sum(a, b):
 - [x] `list`
 - [ ] `None`
 - [ ] `dictionary`
-
-`. You can only build a stack from scratch.`
+- [ ] `You can only build a stack from scratch.`
 
 #### Q13. What would this expression return?
 
@@ -249,7 +248,7 @@ instance.password
 - [ ] It converts a complex value type into simpler value types.
 - [ ] It creates a mapping between two different elements of different iterables.
 
-**Explanation:** - The synax for `map()` function is `list(map(function,iterable)`. the simple area finder using map would be like this
+**Explanation:** - The synax for `map()` function is `list(map(function,iterable))`. The simple area finder using map would be like this
 
 ```python
 import math
@@ -314,7 +313,7 @@ prices = [1.50, 2.25, 0.89]
 ('Bananas', 4, 0.89)]
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 output = []
@@ -331,7 +330,7 @@ output.append(fruit_tuple)
 return output
 ```
 
-- [x]
+- [x] <br>
 
 ```python
 i = 0
@@ -344,7 +343,7 @@ for fruit in fruits:
 return output
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 groceries = zip(fruits, quantities, prices)
@@ -357,7 +356,7 @@ return groceries
 ]
 ```
 
-- [ ]
+- [ ]  <br>
 
 ```python
 i = 0
@@ -377,7 +376,7 @@ return output
 - [ ] The `all()` function will return all the values in the list.
 - [x] The `all()` function returns True if all items in the list evaluate to True. Otherwise, it returns False.
 
-**Explaination** - `all()` returns true if all in the list are True, see example below
+**Explanation** - `all()` returns true if all in the list are True, see example below
 
 ```python
 test = [True,False,False,False]
@@ -385,35 +384,35 @@ if all(test) is True:
     print('Yeah all are True')
 else:
     print('There is an imposter')
->>> There is an imposter
+>>> 'There is an imposter'
 ```
 
 #### Q30. What is the correct syntax for calling an instance method on a class named Game?
 
 _(Answer format may vary. Game and roll (or dice_roll) should each be called with no parameters.)_
 
-- [x]
+- [x] <br>
 
 ```python
 >>> dice = Game()
 >>> dice.roll()
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 >>> dice = Game(self)
 >>> dice.roll(self)
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 >>> dice = Game()
 >>> dice.roll(self)
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 >>> dice = Game(self)
@@ -460,7 +459,7 @@ def print_alpha_nums(abc_list, num_list):
 print_alpha_nums(['a', 'b', 'c'], [1, 2, 3])
 ```
 
-- [x]
+- [x] <br>
 
 ```python
 a 1
@@ -474,13 +473,13 @@ c 2
 c 3
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 ['a', 'b', 'c'], [1, 2, 3]
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 aaa
@@ -491,7 +490,7 @@ ccc
 333
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 a 1 2 3
@@ -499,9 +498,9 @@ b 1 2 3
 c 1 2 3
 ```
 
-#### Q36. Correct representation of doctest for function in Python
+#### Q36. Pick correct representation of doctest for function in Python.
 
-- [ ]
+- [ ] <br>
 
 ```python
 def sum(a, b):
@@ -512,7 +511,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def sum(a, b):
@@ -525,7 +524,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [x]
+- [x] <br>
 
 ```python
 def sum(a, b):
@@ -539,7 +538,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def sum(a, b):
@@ -551,7 +550,7 @@ def sum(a, b):
     return a + b
 ```
 
-**Explanation:** Use """ to start and end the docstring and use >>> to represent the output. If you write this correctly you can also run the doctest using build-in doctest module
+**Explanation:** Use `"""` to start and end the docstring and use `>>>` to represent the output. If you write this correctly you can also run the doctest using build-in doctest module
 
 #### Q37. Suppose a Game class inherits from two parent classes: BoardGame and LogicGame. Which statement is true about the methods of an object instantiated from the Game class?
 
@@ -610,12 +609,12 @@ fruit_info = {
 
 **Explanation** - `!=` is equivalent to **not equal to** in python
 
-#### Q42. What does a class's `init()` method do?
+#### Q42. What does a class's `__init__()` method do?
 
-- [ ] The `__init__` method makes classes aware of each other if more than one class is defined in a single code file.
-- [ ] The`__init__` method is included to preserve backwards compatibility from Python 3 to Python 2, but no longer needs to be used in Python 3.
-- [x] The `__init__` method is a constructor method that is called automatically whenever a new object is created from a class. It sets the initial state of a new object.
-- [ ] The `__init__` method initializes any imports you may have included at the top of your file.
+- [ ] It makes classes aware of each other if more than one class is defined in a single code file.
+- [ ] It is included to preserve backwards compatibility from Python 3 to Python 2, but no longer needs to be used in Python 3.
+- [x] It is a method that acts as a constructor and is called automatically whenever a new object is created from a class. It sets the initial state of a new object.
+- [ ] It initializes any imports you may have included at the top of your file.
 
 **Example:**
 
@@ -658,7 +657,7 @@ t1 = test()
 - [ ] `self` means that no other arguments are required to be passed into the method.
 - [x] `self` refers to the instance whose method was called.
 
-**Explanation:** - Try running the example of the Q45 without passing `self` argument inside the `__init__`, you'll understand the reason. You'll get the error like this `__init__() takes 0 positional arguments but 1 was given`, this means that something is going inside even if haven't specified, which is instance itself.
+**Explanation:** - Try running the example of the Q42 without passing `self` argument inside the `__init__`, you'll understand the reason. You'll get the error like this `__init__() takes 0 positional arguments but 1 was given`, this means that something is going inside even if haven't specified, which is instance itself.
 
 #### Q47. What statement about the class methods is true?
 
@@ -708,28 +707,28 @@ t1 = test()
 
 #### Q53. What is the correct syntax for defining an `__init__()` method that takes no parameters?
 
-- [ ]
+- [ ] <br>
 
 ```python
 class __init__(self):
     pass
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def __init__():
     pass
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 class __init__():
     pass
 ```
 
-- [x]
+- [x] <br>
 
 ```python
 def __init__(self):
@@ -759,7 +758,7 @@ def __init__(self):
 
 #### Q57. What is the most self-descriptive way to define a function that calculates sales tax on a purchase?
 
-- [ ]
+- [ ] <br>
 
 ```python
 def tax(my_float):
@@ -767,21 +766,21 @@ def tax(my_float):
     pass
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def tx(amt):
     '''Gets the tax on an amount.'''
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def sales_tax(amount):
     '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
 ```
 
-- [x]
+- [x] <br>
 
 ```python
 def calculate_sales_tax(subtotal):
@@ -872,11 +871,13 @@ def calculate_sales_tax(subtotal):
 
 [Reference](https://www.guru99.com/python-lambda-function.html)
 
-**Explanation:** `the lambda notation is basically an anonymous function that can take any number of arguments with only single expression (i.e, cannot be overloaded). It has been introducted in other programming languages, such as C++ and Java. The lambda notation allows programmers to "bypass" function declaration.`
+**Explanation:**
+
+> The lambda notation is basically an anonymous function that can take any number of arguments with only single expression (i.e, cannot be overloaded). It has been introducted in other programming languages, such as C++ and Java. The lambda notation allows programmers to "bypass" function declaration.
 
 #### Q68. What is the primary difference between lists and tuples?
 
-- [ ] You can access a specifc element in a list by indexing to its position, but you cannot access a specific element in a tuple unless you iterate through the tuple
+- [ ] You can access a specific element in a list by indexing to its position, but you cannot access a specific element in a tuple unless you iterate through the tuple
 - [x] Lists are mutable, meaning you can change the data that is inside them at any time. Tuples are immutable, meaning you cannot change the data that is inside them once you have created the tuple.
 - [ ] Lists are immutable, meaning you cannot change the data that is inside them once you have created the list. Tuples are mutable, meaning you can change the data that is inside them at any time.
 - [ ] Lists can hold several data types inside them at once, but tuples can only hold the same data type if multiple elements are present.
@@ -904,28 +905,28 @@ def calculate_sales_tax(subtotal):
 
 #### Q72. What is the correct syntax of creating an instance method?
 
-- [ ]
+- [ ] <br>
 
 ```python
 def get_next_card():
   # method body goes here
 ```
 
-- [x]
+- [x] <br>
 
 ```python
 def get_next_card(self):
   # method body goes here
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def self.get_next_card():
   # method body goes here
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def self.get_next_card(self):
@@ -934,10 +935,10 @@ def self.get_next_card(self):
 
 #### Q73. What is the correct way to call a function?
 
-- [x] get_max_num([57, 99, 31, 18])
-- [ ] call.(get_max_num)
-- [ ] def get_max_num([57, 99, 31, 18])
-- [ ] call.get_max_num([57, 99, 31, 18])
+- [x] `get_max_num([57, 99, 31, 18])`
+- [ ] `call.(get_max_num)`
+- [ ] `def get_max_num([57, 99, 31, 18])`
+- [ ] `call.get_max_num([57, 99, 31, 18])`
 
 #### Q74. How is comment created?
 
@@ -948,7 +949,7 @@ def self.get_next_card(self):
 
 #### Q75. What is the correct syntax for replacing the string apple in the list with the string orange?
 
-```
+```python
 my_list = ['kiwi', 'apple', 'banana']
 ```
 
@@ -973,7 +974,7 @@ my_list = ['kiwi', 'apple', 'banana']
 
 #### Q78. Which choice is the most syntactically correct example of the conditional branching?
 
-- [x]
+- [x] <br>
 
 ```python
 num_people = 5
@@ -986,7 +987,7 @@ else:
     print("There is no one in the pool.")
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 num_people = 5
@@ -999,7 +1000,7 @@ else:
     print("There is no one in the pool.")
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 num_people = 5
@@ -1012,7 +1013,7 @@ else;
     print("There is no one in the pool.")
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 if num_people > 10;
@@ -1055,7 +1056,7 @@ while i<6:
 
 #### Q82. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?
 
-- [ ]
+- [ ] <br>
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1063,7 +1064,7 @@ def __init__(self, attr1, attr2):
     attr2 = attr2
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def __init__(attr1, attr2):
@@ -1071,7 +1072,7 @@ def __init__(attr1, attr2):
     attr2 = attr2
 ```
 
-- [x]
+- [x] <br>
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1079,7 +1080,7 @@ def __init__(self, attr1, attr2):
     self.attr2 = attr2
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def __init__(attr1, attr2):
@@ -1100,7 +1101,7 @@ def count_recursive(n=1):
     count_recursive(n + 1)
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 1
@@ -1111,7 +1112,7 @@ def count_recursive(n=1):
 3
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 3
@@ -1119,7 +1120,7 @@ def count_recursive(n=1):
 1
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 3
@@ -1130,7 +1131,7 @@ def count_recursive(n=1):
 1
 ```
 
-- [x]
+- [x] <br>
 
 ```python
 1
@@ -1138,12 +1139,12 @@ def count_recursive(n=1):
 3
 ```
 
-#### Q84. In Python, when using sets, you use **_ to calculate the intersection between two sets and _** to calculate the union.
+#### Q84. In Python, when using sets, you use **\_** to calculate the intersection between two sets and **\_** to calculate the union.
 
-- [ ] `Intersect;union`
-- [ ] |; &
-- [x] &; |
-- [ ] &&; ||
+- [ ] `Intersect`; `union`
+- [ ] `|`; `&`
+- [x] `&`; `|`
+- [ ] `&&`; `||`
 
 #### Q85. What will this code fragment return?
 
@@ -1206,10 +1207,10 @@ num_list[len(num_list)//2]
 
 #### Q91. What is the correct syntax for defining a class called Game?
 
-- [ ] def Game(): pass
-- [ ] def Game: pass
-- [x] class Game: pass
-- [ ] class Game(): pass
+- [ ] `def Game(): pass`
+- [ ] `def Game: pass`
+- [x] `class Game: pass`
+- [ ] `class Game(): pass`
 
 [reference here](https://docs.python.org/3/tutorial/classes.html)
 
@@ -1224,27 +1225,27 @@ num_list[len(num_list)//2]
 
 #### Q93. What is the correct syntax for calling an instance method on a class named Game?
 
-- [ ] my_game = Game(self) self.my_game.roll_dice()
-- [x] my_game = Game() self.my_game.roll_dice()
-- [ ] my_game = Game() my_game.roll_dice()
-- [ ] my_game = Game(self) my_game.roll_dice(self)
+- [ ] `my_game = Game(self) self.my_game.roll_dice()`
+- [ ] `my_game = Game() self.my_game.roll_dice()`
+- [x] `my_game = Game() my_game.roll_dice()`
+- [ ] `my_game = Game(self) my_game.roll_dice(self)`
 
 #### Q94. What is the output of this code? (NumPy has been imported as np.)?
 
-```
+```python
 a = np.array([1,2,3,4])
 print(a[[False, True, False, False]])
 ```
 
-- [ ] {0,2}
-- [x] [2]
-- [ ] {2}
-- [ ] [0,2,0,0]
+- [ ] `{0,2}`
+- [x] `[2]`
+- [ ] `{2}`
+- [ ] `[0,2,0,0]`
 
 #### Q95. Suppose you have a string variable defined as y=”stuff;thing;junk;”. What would be the output from this code?
 
-```
-Z = y.split(‘;’)
+```python
+z = y.split(‘;’)
 len(z)
 ```
 
@@ -1265,27 +1266,27 @@ y=”stuff;thing;junk;”
 
 #### Q96. What is the output of this code?
 
-```
+```python
 num_list = [1,2,3,4,5]
 num_list.remove(2)
 print(num_list)
 ```
 
-- [ ] [1,2,4,5]
-- [x] [1,3,4,5]
-- [ ] [3,4,5]
-- [ ] [1,2,3]
+- [ ] `[1,2,4,5]`
+- [x] `[1,3,4,5]`
+- [ ] `[3,4,5]`
+- [ ] `[1,2,3]`
 
 **Explanation**:
 
-```
+```python
 num_list = [1,2,3,4,5]
 
-num_list.pop(2)
-	[1,2,4,5]
+num_list.pop(3)
+>>> [1,2,4,5]
 
 num_list.remove(2)
-	[1,3,4,5]
+>>> [1,3,4,5]
 ```
 
 #### Q97. What is the correct syntax for creating an instance method?
@@ -1297,44 +1298,44 @@ num_list.remove(2)
 
 #### Q98. Which command will create a list from 10 down to 1? Example:
 
-[10,9,8,7,6,5,4,3,2,1]
+`[10,9,8,7,6,5,4,3,2,1]`
 
-- [ ] reversed(list(range(1,11)))
-- [ ] list(reversed(range(1,10)))
-- [ ] list(range(10,1,-1))
-- [x] list(reversed(range(1,11)))
+- [ ] `reversed(list(range(1,11)))`
+- [ ] `list(reversed(range(1,10)))`
+- [ ] `list(range(10,1,-1))`
+- [x] `list(reversed(range(1,11)))`
 
 [Reference](https://www.w3schools.com/python/python_tuples.asp)
 
 #### Q99. Which fragment of code will print exactly the same output as this fragment?
 
-```
+```python
 import math
 print(math.pow(2,10)) # prints 2 elevated to the 10th power
 ```
 
-- [ ]
+- [ ] <br>
 
-```
+```python
 print(2^10)
 ```
 
-- [x]
+- [x] <br>
 
-```
+```python
 print(2**10)
 ```
 
-- [ ]
+- [ ] <br>
 
-```
+```python
 y = [x*2 for x in range(1,10)]
 print(y)
 ```
 
-- [ ]
+- [ ] <br>
 
-```
+```python
 y = 1
 for i in range(1,10):
     y = y * 2
@@ -1343,7 +1344,7 @@ print(y)
 
 [Reference](https://www.digitalocean.com/community/tutorials/how-to-do-math-in-python-3-with-operators#:~:text=The%20**%20operator%20in%20Python,multiplied%20by%20itself%203%20times.)
 
-#### Q100. Elements surrounded by [] are **\_**, {} are **\_**, and () are **\_**.
+#### Q100. Elements surrounded by `[]` are **\_**, `{}` are **\_**, and `()` are **\_**.
 
 - [ ] sets only; lists or dictionaries; tuples
 - [ ] lists; sets only; tuples
@@ -1354,7 +1355,7 @@ print(y)
 
 #### Q101. What is the output of this code? (NumPy has been imported as np.)
 
-```
+```python
 table = np.array([
     [1,3],
     [2,4]])
@@ -1370,7 +1371,7 @@ print(table.max(axis=1))
 
 #### Q102. What will this code print?
 
-```
+```python
 number = 3
 print (f"The number is {number}")
 ```
@@ -1393,10 +1394,10 @@ print (f"The number is {number}")
 
 #### Q104. Which mode is not a valid way to access a file from within a Python script?
 
-- [ ] write('w')
-- [ ] scan('s')
-- [x] append('a')
-- [ ] read('r')
+- [ ] `write('w')`
+- [x] `scan('s')`
+- [ ] `append('a')`
+- [ ] `read('r')`
 
 [Reference](https://docs.python.org/3/library/functions.html#open)
 
@@ -1404,10 +1405,10 @@ print (f"The number is {number}")
 
 #### Q105. Suppose you have a variable named `vector` of type `np.array` with 10.000 elements. How can you turn `vector` into a variable named `matrix` with dimensions 100x100?: _[ANSWER NEEDED]_
 
-- [ ] matrix = matrix(vector,100,100)
-- [ ] matrix = vector.to_matrix(100,100)
-- [ ] matrix = (vector.shape = (100,100))
-- [x] matrix = vector.reshape(100,100)
+- [ ] `matrix = matrix(vector,100,100)`
+- [ ] `matrix = vector.to_matrix(100,100)`
+- [ ] `matrix = (vector.shape = (100,100))`
+- [x] `matrix = vector.reshape(100,100)`
 
 **Example**
 
@@ -1416,7 +1417,7 @@ import numpy as np
 vector = np.random.rand(10000)
 matrix = a.reshape(100, 100)
 print(matrix.shape)
-(100, 100)
+>>> (100, 100)
 ```
 
 #### Q106. NumPy allows you to multiply two arrays without a for loop. This is an example of \_.
@@ -1442,7 +1443,7 @@ print(matrix.shape)
 
 #### Q109. Suppose you have the following code snippet and want to extract a list with only the letters. Which fragment of code will _not_ achieve that goal?
 
-```
+```python
 my_dictionary = {
     'A': 1,
     'B': 2,
@@ -1452,9 +1453,9 @@ my_dictionary = {
 }
 ```
 
-- [x]
+- [x] <br>
 
-```
+```python
 letters = []
 
 for letter in my_dictionary.values():
@@ -1510,4 +1511,317 @@ x.add(6)
 - [ ] `{6, 1, 2, 3, 4, 5}`
 - [x] `{1, 2, 3, 4, 5, 6}`
 
-**Explanation:** The `.add()` method adds the element to the set only if it doesnt exist.
+**Explanation:** The `.add()` method adds the element to the set only if it doesn't exist.
+
+#### Q115. If you do not explicitly return a value from a function, what happens?
+
+- [ ] The function will enter an infinite loop because it will not know when to stop executing its code.
+- [ ] If `return` keyword is absent, the function will return `True`.
+- [x] If `return` keyword is absent, the function will return `None`.
+- [ ] The function will return a `RuntimeError` if you do not return a value.
+
+#### Q116. How would you access and store all of the keys in this dictionary at once?
+
+```python
+fruit_info = {
+    'fruit': 'apple',
+    'count': 2,
+    'price': 3.5
+}
+```
+
+- [ ] `my_keys = fruit_info.to_keys()`
+- [ ] `my_keys = fruit_info.all_keys()`
+- [ ] `my_keys = fruit_info.keys`
+- [x] `my_keys = fruit_info.keys()`
+
+#### Q117. What is wrong with this function definition?
+
+```python
+def be_friendly(greet = "How are you!", name):
+    pass
+```
+
+- [ ] `name` is a reserved word.
+- [ ] Underscores are not allowed in function names.
+- [x] A non-default argument follows a default argument.
+- [ ] There is nothing wrong with this function definition.
+
+#### Q118. Given that NumPy is imported as `np`, which choice will return `True`?
+
+- [x] <br>
+
+```python
+a = np.zeros([3,4])
+b = a.copy()
+np.array_equal(a,b)
+```
+
+- [ ] <br>
+
+```python
+a = np.empty([3,4])
+b = np.empty([3,4])
+np.array_equal(a,b)
+```
+
+- [ ] <br>
+
+```python
+a = np.zeros([3,4])
+b = np.zeros([4,3])
+np.array_equal(a,b)
+```
+
+- [ ] <br>
+
+```python
+a = np.array([1, np.nan])
+np.array_equal(a,a)
+```
+
+#### Q119. How do you add a comment to existing Python script?
+
+- [ ] `// This is a comment`
+- [x] `# This is a comment`
+- [ ] `-- This is a comment`
+- [ ] `/* This is a comment *\`
+
+#### Q120. In this code fragment, what will the values of c and d be equivalent to?
+
+```python
+import numpy as np
+a = np.array([1,2,3])
+b = np.array([4,5,6])
+c = a*b
+d = np.dot(a,b)
+```
+
+- [ ] A
+
+```python
+c = [ a[1] * b[1], a[2] * b[2], a[3] * b[3] ]
+d = sum(c)
+```
+
+- [ ] B
+
+```python
+c = a[0] * b[0], a[1] * b[1], a[2] * b[2]
+
+d = [ a[0] * b[0], a[1] * b[1], a[2] * b[2] ]
+```
+
+- [ ] C
+
+```python
+c = [ a[0] * b[0], a[1] * b[1], a[2] * b[2] ]
+
+d = sum(a) + sum(b)
+```
+
+- [x] D
+
+```python
+c = [ a[0] * b[0], a[1] * b[1], a[2] * b[2] ]
+
+d = sum(c)
+```
+
+#### Q121. What two functions within the NumPy library could you use to solve a system of linear equations?
+
+- [x] `linalg.eig() and .matmul()`
+- [ ] `linalg.inv() and .dot()`
+- [ ] `linalg.det() and .dot()`
+- [ ] `linalg.inv() and .eye()`
+
+#### Q122. What is the correct syntax for creating a vaiable that is bound to a list?
+
+- [ ] `my_list = (2, 'apple', 3.5)`
+- [x] `my_list = [2, 'apple', 3.5]`
+- [ ] `my_list = [2, 'apple', 3.5].to_list()`
+- [ ] `my_list = to_list(2, 'apple', 3.5)`
+
+[Reference](https://www.tutorialspoint.com/python/python_lists.htm)
+
+#### Q123. This code provides the **\_** of the list of numbers.
+
+```python
+num_list = [21, 13, 19, 3, 11, 5, 18]
+num_list.sort()
+num_list[len(num_list) // 2]
+```
+
+- [ ] mode
+- [ ] average
+- [ ] mean
+- [x] median
+
+**Explanation:** The median is the value separating the higher half from the lower half of a data sample. Here it is 13.
+
+#### Q124. What are the two main data structures in the Pandas library?
+
+- [ ] Arrays and DataFrames
+- [ ] Series and Matrixes
+- [ ] Matrixes and DataFrames
+- [x] Series and DataFrames
+
+[Reference](https://pandas.pydata.org/docs/user_guide/dsintro.html)
+
+#### Q125. Suppose you have a variale named `vector` of type np.array with 10,000 elements. How can you turn `vector` into a variable named `matrix` with dimensions 100x100?
+
+- [ ] `matrix = (vector.shape = (100,100))`
+- [ ] `matrix = vector.to_matrix(100,100)`
+- [ ] `matrix = matrix(vector,100,100)`
+- [x] `matrix = vector.reshape(100, 100)`
+
+[Reference](https://www.w3schools.com/python/numpy/numpy_array_reshape.asp)
+
+#### Q126. Which choice is an immutable data type?
+
+- [ ] dictionnary
+- [ ] list
+- [ ] set
+- [x] string
+
+[Reference](https://www.tutorialspoint.com/python_text_processing/python_string_immutability.htm)
+
+### Q127. What is the output of this code?
+
+```python
+def myFunction(country = "France"):
+    print("Hello, I am from", country)
+
+myFunction("Spain")
+myFunction("")
+myFunction()
+```
+
+- [ ] <br>
+
+```
+Hello, I am from Spain
+Hello, I am from
+Hello, I am from
+```
+
+- [ ] <br>
+
+```
+Hello, I am from France
+Hello, I am from France
+Hello, I am from France
+```
+
+- [x] <br>
+
+```
+Hello, I am from Spain
+Hello, I am from
+Hello, I am from France
+```
+
+- [ ] <br>
+
+```
+Hello, I am from Spain
+Hello, I am from France
+Hello, I am from France
+```
+
+#### Q128. Choose the option below for which instance of the class cannot be created
+
+- [ ] Anonymous Class
+- [ ] Parent Class
+- [ ] Nested Class
+- [x] Abstract Class
+
+[Reference](https://www.scaler.com/topics/python/data-abstraction-in-python/)
+
+#### Q129. Using Pandas, we load a data set from Kaggle, as structured in the image below. Which command will return the total number of survivors?
+
+![Q129](images/Q129.png)
+
+- [x] `sum(titanic['Survived'])`
+- [ ] `[x for x in titanic['Survived'] if x == 1]`
+- [ ] `len(titanic["Survived"])`
+- [ ] `sum(titanic['Survived']==0)`
+
+**Explanation:** The `titanic['Survived']` returns a `pandas.Series` object, which contains the `Survived` column of the `DataFrame`.
+Adding the values of this column (i.e. `sum(titanic['Survived'])`) returns the total number of survivors since a survivor is represented by a 1 and a loss by 0.
+
+#### Q130. How would you create a list of tuples matching these lists of characters and actors?
+
+```python
+characters = ["Iron Man", "Spider Man", "Captain America"]
+actors = ["Downey", "Holland", "Evans"]
+
+# example output : [("IronMan", "Downey"), ("Spider Man", "Holland"), ("Captain America", "Evans")]
+```
+
+- [ ] `[(x,y)] for x in characters for y in actors]`
+- [x] `list(zip(characters, actors))`
+- [ ] <br>
+
+```python
+d = {}
+
+for x in range(1, len(characters)):
+    d[x] = actors[x]
+```
+
+- [ ] `{x:y for x in characters for y in actors}`
+
+#### Q131. What will this statement return?
+
+```python
+{x : x*x for x in range(1,100)}
+```
+
+- [ ] a dictionary with x as a key, and x squared as its value; from 1 to 100
+- [x] a dictionary with x as a key, and x squared as its value; from 1 to 99
+- [ ] a set of tuples, consisting of (x, x squared); from 1 to 99
+- [ ] a list with all numbers squared from 1 to 99
+
+#### Q132. Jaccard Similarity is a formula that tells you how similar two sets are. It is defined as the cardinality of the intersection divided by the cardinality of the union. Which choice is an accurate implementation in Python?
+
+![Q132](images/Q132.png)
+
+- [ ] `def jaccard(a, b): return len (a | b) / len (a & b)`
+- [x] `def jaccard(a, b): return len (a & b) / len (a | b)`
+- [ ] `def jaccard(a, b): return len (a && b) / len (a || b)`
+- [ ] `def jaccard(a, b): return a.intersection(b) / a.union(b)`
+
+[Reference](https://docs.python.org/3/tutorial/datastructures.html?highlight=set#sets.)
+
+#### Q133. Which choice is not a native numerical type in Python?
+
+- [ ] Long
+- [ ] Int
+- [ ] Float
+- [x] Double
+
+### Q134. What will be the output of this code?
+
+```python
+[1,2,3] * 3
+```
+
+- [ ] `[3,2,3]`
+- [x] `[1, 2, 3, 1, 2, 3, 1, 2, 3]`
+- [ ] You will get a type error.
+- [ ] `[3,6,9]`
+
+#### Q135. Given a list defined as numbers = `[1,2,3,4]`, what is the value of `numbers[-2]`?
+
+- [ ] 1
+- [x] 3
+- [ ] 2
+- [ ] An IndexError exception is thrown.
+
+#### Q136. Which statement about strings in Python is true?
+
+- [x] Strings can be enclosed by double quotes (") or single quotes (').
+- [ ] Strings can only be enclosed in single quotes (').
+- [ ] Single character strings must be enclosed in single quotes ('), and the rest must be enclosed in double quotes (").
+- [ ] Strings can only be enclosed in double quotes (").

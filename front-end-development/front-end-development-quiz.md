@@ -173,7 +173,7 @@ h1 {
 - [ ] Font sizes are relative to the base font size of the operating system.
 - [x] Font sizes are relative to the root em unit used in the HTML element.
 
-#### Q21. Which HTML element represents either a scalar value within a known range a fractional value?
+#### Q21. Which HTML element represents either a scalar value within a known range OR a fractional value?
 
 - [x] `<meter>`
 - [ ] `<range>`
@@ -591,8 +591,8 @@ console.log(currencies);
 
 ```css
 .box {
-	background-color: blue;
-	background: url(images/star.png) no-repeat left top;
+  background-color: blue;
+  background: url(images/star.png) no-repeat left top;
 }
 ```
 
@@ -600,3 +600,102 @@ console.log(currencies);
 - [ ] blue
 - [x] transparent
 - [ ] white
+
+#### Q63. Which CSS property and value would correctly remove the bullets from a list item?
+
+- [ ] `list-tem: none`
+- [ ] `bullets: hidden`
+- [x] `list-style-type: none`
+- [ ] `list-bullet: none`
+
+#### Q64. Which code example would center `.box` inside `.container`?
+
+```hmtl
+<div class="container">
+    <div class="box">what a lovely box, very centered
+    </div>
+</div>
+```
+
+- [ ] A
+
+  ```css
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  ```
+
+- [x] B
+
+  ```css
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ```
+
+- [ ] C
+
+  ```css
+  .box {
+    align-items: center;
+    justify-content: center;
+  }
+  ```
+
+- [ ] D
+
+  ```css
+  .container {
+    display: flex;
+    align: center;
+  }
+  ```
+
+#### Q65. CSS Logical Properties and Values now have wide-ranging support in browsers. If you wanted to use the logical version of `width`, which property name would you choose?
+
+- [ ] `block-width`
+- [x] `inline-size`
+- [ ] `inline-width`
+- [ ] `block-size`
+
+[Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties/Sizing)
+
+#### Q66. Which color value will create a background color that is semitransparent?
+
+- [ ] `rgb(18, 138, 125)`
+- [ ] `#128a7d`
+- [x] `rgba(18, 138, 125,.5)`
+- [ ] `hsl(174, 77%, 31%)`
+
+#### Q67. In a grid layout, which property will create gaps between the rows in the grid?
+
+- [ ] `row-gap`
+- [ ] `rowgap`
+- [ ] `gutter`
+- [ ] `row-gutter`
+
+#### Q68. You are creating a responsive design, but when you view your site on a smaller screen, you notice that images are causing a horizontal scroll bar. How can you solve this problem without stretching any images out of shape?
+
+- [ ] Set `object-fit: contain` on the images.
+- [x] Set `max-width: 100%` on the images.
+- [ ] Set `width: 100%` on the images.
+- [ ] Set `resize: true` on the images.
+
+#### Q69. The CSS box model describes how the parts of a CSS box fit together and the size of the box. What is the actual width of the following box's visible part under the standard box model?
+
+```css
+box {
+  width: 200px;
+  padding: 10px;
+  margin: 0 15px;
+  border: 2px 5px;
+}
+```
+
+- [ ] 230px
+- [x] 220px
+- [ ] 200px
+- [ ] 260px

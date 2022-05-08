@@ -130,7 +130,7 @@ func main() {
 
 [Go Playground](https://play.golang.org/p/RdL6y3Zv8ke)
 
-#### Q11. What does a `sync.Mutex` block white it is locked?
+#### Q11. What does a `sync.Mutex` block while it is locked?
 
 - [ ] all goroutines
 - [x] any other call to lock that `Mutex`
@@ -466,11 +466,11 @@ fmt.Println(val)
 ```
 var stocks map[string]float64 // stock -> price
 price := stocks["MSFT"]
-fmt.Println("%f\n", price)
+fmt.Printf("%f\n", price)
 ```
 
-- [x] 0
-- [ ] 0.000000
+- [ ] 0
+- [x] 0.000000
 - [ ] The code will panic
 - [ ] NaN
 
@@ -493,3 +493,30 @@ fmt.Println("%f\n", price)
 - [x] Set GOOS to **darwin** and GOARCH to **arm64**.
 
 [documentation](https://pkg.go.dev/cmd/go#hdr-Build_constraints)
+
+#### Q41. What is the correct syntax ta start a goroutine that will `print Hello Gopher!`?
+
+- [ ] `go(fmt.Println("Hello Gopher!"))`
+- [ ] `go func() { fmt.Println("Hello Gopher!") }`
+- [x] `go fmt.Println("Hello Gopher!")`
+- [ ] `Go fmt.Println("Hello Gopher!")`
+
+[Example of start a goroutine](https://go.dev/play/p/KGgnAWpZMrS)
+
+#### Q42. If you iterate over a map in a for range loop, in which order will the key:value pairs be accessed?
+
+- [x] in pseudo-random order that cannot be predicted
+- [ ] in reverse order of how they were added, last in first out
+- [ ] sorted by key in ascending order
+- [ ] in the order they were added, first in first out
+
+[Reference](https://go.dev/ref/spec#:~:text=The%20iteration%20order%20over%20maps%20is%20not%20specified)
+
+#### Q43. What is an idiomatic way to customize the representation of a custom struct in a formatted string?
+
+- [ ] There is no customizing the string representation of a type.
+- [ ] Build it in pieces each time by calling individual fields.
+- [x] Implement a method `String()` string
+- [ ] Create a wrapper function that accepts your type and outputs a string.
+
+[Reference](https://go.dev/doc/effective_go#printing)

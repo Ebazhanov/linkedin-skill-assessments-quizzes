@@ -212,7 +212,11 @@ class Main {
 - [ ] It will throw an exception on line 5.
 - [x] "123"
 
-**Explanation:** `The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class.`
+**Explanation:** The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class, because The import statements of the form:
+
+`import packageName.subPackage.*`
+
+is [Type-Import-on-Demand Declarations](https://docs.oracle.com/javase/specs/jls/se7/html/jls-7.html#jls-7.5.2), which [never causes any other declaration to be shadowed](https://docs.oracle.com/javase/specs/jls/se7/html/jls-6.html#jls-6.4.1).
 
 #### Q11. What is the result of this code?
 
@@ -1726,3 +1730,197 @@ System.out.println(b == c);
 - [ ] lock
 
 [Java Documentation: Synchronized methods](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html)
+
+#### Q120. Which is a valid type for this lambda function?
+
+```java
+_____ oddOrEven = x -> {
+    return x % 2 == 0 ? "even" : "odd";
+};
+```
+
+- [ ] `Function<Integer, Boolean>`
+- [ ] `Function<String>`
+- [x] `Function<Integer, String>`
+- [ ] `Function<Integer>`
+
+[Explaination](https://github.com/0nyr/java/tree/main/examples/lambda_function), [Reference](https://www.geeksforgeeks.org/function-interface-in-java-with-examples/)
+
+#### Q121. What is displayed when this code is compiled and executed?
+
+```java
+import java.util.HashMap;
+
+public class Main {
+    public static void main(String[] args) {
+        HashMap<String, Integer> pantry = new HashMap<>();
+
+        pantry.put("Apples", 3);
+        pantry.put("Oranges", 2);
+
+        int currentApples = pantry.get("Apples");
+        pantry.put("Apples", currentApples + 4);
+
+        System.out.println(pantry.get("Apples"));
+    }
+}
+```
+
+- [ ] 6
+- [ ] 3
+- [ ] 4
+- [x] 7
+
+[Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/what_is_displayed_0)
+
+#### Q122. What variable type should be declared for capitalize?
+
+```shell
+List<String> songTitles = Arrays.asList("humble", "element", "dna");
+_______ capitalize = (str) -> str.toUpperCase();
+songTitles.stream().map(capitalize).forEach(System.out::println);
+```
+
+- [x] `Function<String, String>`
+- [ ] `Stream<String>`
+- [ ] `String<String, String>`
+- [ ] `Map<String, String>`
+
+[Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/what_variable_type_0), [Reference](https://www.geeksforgeeks.org/function-interface-in-java-with-examples/)
+
+#### Q123. Which is the correct return type for the processFunction method?
+
+```java
+_____ processFunction(Integer number, Function<Integer, String> lambda) {
+        return lambda.apply(number);
+    }
+```
+
+- [ ] `Integer`
+- [x] `String`
+- [ ] `Consumer`
+- [ ] `Function<Integer, String>`
+
+[Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/which_return_type_0)
+
+#### Q124. What function could you use to replace slashes for dashes in a list of dates?
+
+```java
+List<String> dates = new ArrayList<String>();
+// missing code
+dates.replaceAll(replaceSlashes);
+```
+
+- [x] `UnaryOperator<String> replaceSlashes = date -> date.replace("/", "-");`
+- [ ] `Function<String, String> replaceSlashes = dates -> dates.replace("-", "/");`
+- [ ] `Map<String, String> replaceSlashes = dates.replace("/", "-");`
+- [ ] `Consumer<Date> replaceSlashes = date -> date.replace("/", "-");`
+
+**Explanation:** `replaceAll` method for any List<T> only accepts UnaryOperator<T> to pass every single element into it then put the result into the List<T> again.
+
+#### Q125. From which class do all other classes implicitly extend?
+
+- [x] `Object`
+- [ ] `Main`
+- [ ] `Java`
+- [ ] `Class`
+
+[Explanation](https://stackoverflow.com/questions/17187218/default-class-that-is-extended-by-all-classes-in-java)
+
+#### Q126. How do you create and run a Thread for this class?
+
+```java
+import java.util.date;
+
+public class CurrentDateRunnable implements Runnable {
+    @Override
+    public void run () {
+        while (true) {
+            System.out.println("Current date: " + new Date());
+
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
+}
+```
+
+- [x] `Thread thread = new Thread(new CurrentDateRunnable()); thread.start();`
+- [ ] `new Thread(new CurrentDateRunnable()).join();`
+- [ ] `new CurrentDateRunnable().run();`
+- [ ] `new CurrentDateRunnable().start();`
+
+[Reference](https://www.w3schools.com/java/java_threads.asp)
+
+#### Q127. What keyword would _not_ be allowed here?
+
+```java
+class Unicorn {
+
+    ______ Unicorn(){}
+}
+```
+
+- [ ] `public`
+- [ ] `void`
+- [x] `static`
+- [ ] `protected`
+
+#### Q128. Which expression is a functional equivalent?
+
+```java
+List<Integer> numbers = List.of(1,2,3,4);
+int total = 0;
+
+for (Integer x : numbers) {
+    if (x % 2 == 0)
+    total += x * x;
+}
+```
+
+- [ ] A
+
+```java
+int total = numbers.stream()
+                        .transform(x -> x * x)
+                        .filter(x -> x % 2 == 0)
+                        .sum ();
+```
+
+- [ ] B
+
+```java
+int total = numbers.stream()
+                        .filter(x -> x % 2 == 0)
+                        .collect(Collectors.toInt());
+```
+
+- [ ] C
+
+```java
+int total = numbers.stream()
+                        .mapToInt (x -> {if (x % 2 == 0) return x * x;})
+                        .sum();
+```
+
+- [x] D
+
+```java
+int total = numbers.stream()
+                        .filter(x -> x % 2 == 0)
+                        .mapToInt(x -> x * x)
+                        .sum();
+```
+
+**Explanation:** The given code in the question will give you the output 20 as total
+
+```
+numbers                         // Input `List<Integer>` > [1, 2, 3, 4] <br>
+    .stream()                   // Converts input into `Stream<Integer>` <br>
+    .filter(x -> x % 2 == 0)    // Filter even numbers and return `Stream<Integer>` > [2, 4] <br>
+    .mapToInt(x -> x * x)       // Square the number, converts `Integer` to an `int`, and returns `IntStream` > [4, 16] <br>
+    .sum()                      // Returns the sum as `int` > 20
+```

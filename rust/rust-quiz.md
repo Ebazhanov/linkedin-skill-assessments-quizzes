@@ -393,3 +393,40 @@ enum Status {
 - [ ] Option is an enum type.
 - [ ] Enum variants can have different types with associated data.
 - [x] the term _enum_ is short for _enummap_
+
+#### Q33. What does an underscore (\_) indicate when used as pattern?
+
+- [x] It matches everything.
+- [ ] It matches underscores.
+- [ ] It matches any value that has a length of 1.
+- [ ] It matches nothing.
+
+#### Q34. What is a safe operation on a `std::cell:UnsafeCell<T>`?
+
+- [ ] A `&mut T` reference is allowed. However it may not cpexists with any other references. and may be created only in single-threaded code.
+- [ ] `UnsafeCell<T>` provides thread-safety. Therefore, creating `&T` references from multiple threads is safe.
+- [x] The only safe operation is the `.get()` method, which returns only a raw pointer.
+- [ ] Non. `UnsafeCell<T>` only allows code that would otherwise need unsafe blocks to be written in safe code.
+
+[Reference](https://doc.rust-lang.org/stable/std/cell/struct.UnsafeCell.html)
+
+#### Q35. Generics are useful when you **\_**.
+
+- [ ] need to reduce code duplication by concretizing values and restricting parameters in functions
+- [x] need to reduce code duplication by abstracting values further, such as in function parameters
+- [ ] need a supertrait
+- [ ] are not sure if you need a specific kind of trait
+
+#### Q36. **\_** cannot be destructed.
+
+- [x] Traits
+- [ ] Enums
+- [ ] Tuples
+- [ ] Structs
+
+#### Q37. How do you create a Rust project on the command-line?
+
+- [x] cargo new
+- [ ] rustup init
+- [ ] cargo start
+- [ ] rust new-project

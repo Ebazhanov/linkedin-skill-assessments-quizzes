@@ -766,3 +766,39 @@ let numbers = [1,2,3,4,5,6].filter{ $0 % 2 == 0}
 - [ ] []
 - [x] [2,4,6]
 - [ ] nil
+
+#### Q68. What is the type of `vals` in this code?
+
+```swift
+let vals = ["a", 1, "Hi"]
+```
+
+- [ ] Array(char)
+- [x] [Any]
+- [ ] Array<char>
+- [ ] [Generic]
+
+#### Q69. How can you extract val to `x` in tuple `vt`
+
+```swift
+let vt = (name: "ABC", val: 5)
+```
+
+- [ ] let x = vt.1
+- [x] all of these answers
+- [ ] let x = vt.val
+- [ ] let (`_`, x) = vt
+
+#### Q70. What is wrong with this code?
+
+```swift
+class Person {
+    var name: String
+    var address: String
+}
+```
+
+- [ ] var `name`is not formatted correctly.
+- [x] `Person` has no initialisers.
+- [ ] 'Person` has no base class.
+- [ ] `address` is a keyword.

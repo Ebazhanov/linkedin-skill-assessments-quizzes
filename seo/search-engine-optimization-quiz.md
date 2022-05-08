@@ -485,11 +485,11 @@
 #### Q55. When would it be necessary to 301 redirect every page on a site?
 
 - [ ] when parameters are used in URLs
-- [ ] when migrating from HTTP to HTTPS
+- [x] when migrating from HTTP to HTTPS
 - [ ] when launching a new redesign
-- [x] when creating a new subdomain
+- [ ] when creating a new subdomain
 
-**Explanation:** From article: [Types of redirects](https://moz.com/learn/seo/redirection)
+**Explanation:** From article: [301 Redirects for SEO](https://ahrefs.com/blog/301-redirects/) (2020)
 
 #### Q56. What would contribute to a low bounce rate?
 
@@ -515,30 +515,44 @@
 - [ ] bar
 - [ ] link
 
-#### Q.59 The search query "How to make donuts without yeast" is an example of what?
+#### Q59 The search query "How to make donuts without yeast" is an example of what?
 
 - [ ] fresh keyword
 - [ ] operative keyword
 - [ ] short-tail keyword
 - [x] long-tail keyword
 
-#### Q.60 What tool enables companies to display extra information within the natural search results without the need of any structured data?
+#### Q60 What tool enables companies to display extra information within the natural search results without the need of any structured data?
 
 - [ ] Google Input Tools
 - [ ] structured data testing tool
 - [ ] Google Tag Manager
 - [x] Google My Business
 
-#### Q.61 Your client is ready to start a blog. but has read that they should put the blog on a subdomain instead of subdirectory in order to create more external links to their website. How would you advise your client about this strategy?
+#### Q61 Your client is ready to start a blog. but has read that they should put the blog on a subdomain instead of subdirectory in order to create more external links to their website. How would you advise your client about this strategy?
 
 - [ ] Not only should the blog be on a subdomain, but each of the major navigation areas should be on separate subdomains in order to increase the number and value of the links into the primary domain.
 - [x] It is best to have the blog on a subdirectory and build links to primary domain.
 - [ ] It is an advisable choice as it will enable interlinking between the domains and increase the number of links.
 - [ ] The blog should be on a separate URL to avouud building too many links between the same domain or IP.
 
-#### Q.62 Blog author pages, each with only one sentence about the author, are at risk of being flagged as **\_** content.
+#### Q62 Blog author pages, each with only one sentence about the author, are at risk of being flagged as **\_** content.
 
 - [ ] non-indexable
 - [ ] irrelevant
 - [ ] biased
 - [x] thin
+
+#### Q63 What is a common benefit to long-tail keywords?
+
+- [ ] They are less competitive, and may have higher conversion rates.
+- [ ] Long-tail keywords are no longer relevant in today's SEO landscape.
+- [ ] They are less grandular, so you capture broader searches.
+- [ ] They are more competitive, but drive significantly more traffic.
+
+#### Q64 You have been asked to help a big e-commerce brand optimize their website for search engines. They currently have thousands of products listed on their website. What is your most appropriate first step?
+
+- [ ] Set campaign goals.
+- [ ] Conduct a technical audit.
+- [ ] Conduct a backlink audit.
+- [ ] Determine keyword strategy.

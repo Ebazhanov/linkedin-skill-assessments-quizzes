@@ -27,7 +27,7 @@
 
 #### Q4. Which action closes a path when you are actively drawing with the Pen tool?
 
-- [ ] clicking or dragging the first point in the path
+- [x] clicking or dragging the first point in the path
 - [ ] choosing Object > Path > Join
 - [ ] pressing Return (Mac) or Enter (Windows)
 - [ ] switching to a different tool

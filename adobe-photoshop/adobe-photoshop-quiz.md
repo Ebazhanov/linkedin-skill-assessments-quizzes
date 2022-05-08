@@ -454,3 +454,38 @@
 - [ ] Merge
 
 [Answer found at:](https://helpx.adobe.com/photoshop/using/channel-calculations.html)
+
+#### Q58. How do you nondestructively crop an image without permanently discarding pixels?
+
+- [ ] Make a selection and click **Image > Crop**.
+- [x] Clear the **Deleted Cropped Pixels** check box.
+- [ ] Click **Image > Trim** and select **Transparent Pixels**.
+- [ ] Select the **Delete Cropped Pixels** check box.
+
+#### Q59. Which step is the most effective at making one image show through another to emulate a traditional double-exposure from film photography effect?
+
+- [ ] Apply the Multiply blend mode to the bottom image.
+- [ ] Apply the Screen blend mode to the top image.
+- [ ] Apply the Hue blend mode to the top imagee.
+- [ ] Apply the Saturation blend mode to the top image.
+
+#### Q60. Which special layer type applies nondestructive color corrections to all of the layers below it?
+
+- [ ] layer company
+- [ ] fill layer
+- [ ] adjustment Layer
+- [ ] layer Mask
+
+#### Q61. Why can you nondestructively scale a smart object?
+
+- [ ] It converts the image from a raster image to a vector infographics
+- [ ] It uses Adobe Sensei technology to reconstruct pixels that have been interpolated.
+- [ ] It references an image in a separate file that retains its resolutions.
+- [ ] It uses a layer mask for nondestructive editing.
+
+#### Q62. Which **Select and Mask** workspace tool allows you to select fine hairs?
+
+- [ ] Brush
+- [ ] Object Selection
+- [ ] Refine Edge
+- [ ] Quick selection
