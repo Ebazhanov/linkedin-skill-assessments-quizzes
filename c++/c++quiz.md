@@ -1296,3 +1296,27 @@ class my_class{
 - [ ] `marks["Sinead"].22`
 - [ ] `marks["Sinead"] -> 22`
 - [ ] `marks["Sinead"].value = 22`
+
+#### Q80. Why can the std::sort receive a function object as one of its parameters?
+
+- [ ] `The std::sort function is a template. The programmer is free to enter the sorting algorithm in a function object as an argument.`
+- [ ] `Actually, std::sort takes only one argument, which is the container to be sorted.`
+- [ ] `std::sort operates on a template container. The compiler does not know how to relationally compare the values it contains, so a function must be provided to do the comparison.`
+- [ ] `std::sort will use the parameter function as an error handler. The function will be called if an error occurs.`
+
+#### Q81. What will happen when you execute this code snippet?
+
+```
+#include <iostream>
+
+int main() {
+float a = 5.51;
+int b = static_cast<int>(a);
+std::cout << b;
+}
+```
+
+- [ ] `6 will be printed on standard output, with no compilation warnings generated.`
+- [ ] `5 will be printed on standard output, with no compilation warnings generated.`
+- [ ] `6 will be printed on standard output, with compilation warnings generated.`
+- [ ] `5 will be printed on standard output, with compilation warnings generated.`
