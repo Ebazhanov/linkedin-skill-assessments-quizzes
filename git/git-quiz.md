@@ -608,7 +608,7 @@ git checkout -b beta-test
 - [x] Trunk-Based Development
 - [ ] GitHub flow
 
-#### Q73. Which option on the git log command allows you to limit output to commits made after certain data?
+#### Q73. Which option on the git log command allows you to limit output to commits made after certain date?
 
 - [x] `--since`
 - [ ] `--sinceWhen`
