@@ -1216,3 +1216,16 @@ add();
 - [x] to directly access the DOM node
 
 [Reference](https://reactjs.org/docs/refs-and-the-dom.html)
+
+#### Q106. What pattern is being used in this code?
+
+```javascript
+const {tree,lake} = nature;
+```
+
+- [ ] function defaults
+- [ ] array destructuring
+- [ ] PRPL pattern
+- [x] destructuring assignment
+
+[Reference](https://javascript.info/destructuring-assignment)
