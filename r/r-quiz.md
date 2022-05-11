@@ -533,7 +533,7 @@ Petal.Width:Speciesvirginica    0.1008     0.5248   0.192   0.8480
 - [ ] month(x)
 - [ ] attr(x)
 
-### Q51. How do you obtain the row numbers in a data frame named `pizza` for which the value of `pizza$delivery_min` is greater than or equal to 30?
+#### Q51. How do you obtain the row numbers in a data frame named `pizza` for which the value of `pizza$delivery_min` is greater than or equal to 30?
 
 - [ ]
 

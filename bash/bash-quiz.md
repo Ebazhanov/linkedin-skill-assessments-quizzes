@@ -522,7 +522,7 @@ mysql < file.sql > out.txt
 - [ ] `bash for i in $ls; do ... done`
 - [ ] `bash for $ls; do ... done`
 
-#### Q45 When executing a command and passing the output of that command to another command, which character allows you to chain these commands together?
+#### Q45. When executing a command and passing the output of that command to another command, which character allows you to chain these commands together?
 
 - [x] |
 - [ ] ->

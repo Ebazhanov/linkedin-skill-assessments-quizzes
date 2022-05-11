@@ -364,7 +364,7 @@
 - [ ] documents cannot be validated when stored in json columns
 - [ ] cannot be normalized
 
-#### Q41.Which statement is true for the diagram below
+#### Q41. Which statement is true for the diagram below
 
 ![mysql Q41](images/mysql_q41.jpg)
 
@@ -373,7 +373,7 @@
 - [x] customerid is the foreign key for customers.id
 - [ ] customerid is the primary key for purchases
 
-#### Q42.Which statement can you use to load data from a file into the table?
+#### Q42. Which statement can you use to load data from a file into the table?
 
 - [ ] cat file|mysql
 - [x] load data infile (correct if the file is already on the server)

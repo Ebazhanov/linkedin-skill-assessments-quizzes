@@ -389,7 +389,7 @@ Lots of spark
 - [ ] Nothing needed
 - [ ] {percentage end percentage}
 
-#### Q43 Which code block will create a serializer?
+#### Q43. Which code block will create a serializer?
 
 ```
 from rest_framework import serializers
@@ -437,14 +437,14 @@ fields=('name')
 model=Planet
 ```
 
-#### Q44 Which class allows you to automatically create a Serializer class with fields and validators that correspond to your model's fields?
+#### Q44. Which class allows you to automatically create a Serializer class with fields and validators that correspond to your model's fields?
 
 - [x] ModelSerializer
 - [ ] Model
 - [ ] DataSerializer
 - [ ] ModelToSerializer
 
-#### Q45 Which command to access the built-in admin tool for the first time?
+#### Q45. Which command to access the built-in admin tool for the first time?
 
 - [ ] django-admin setup
 - [ ] django-admin runserver

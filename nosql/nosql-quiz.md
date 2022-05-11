@@ -56,7 +56,7 @@
 - [ ] Values.
 - [x] Keys.
 
-#### Q9.You need to change the shard key of an existing MongoDB collection. What do you do?
+#### Q9. You need to change the shard key of an existing MongoDB collection. What do you do?
 
 - [ ] Dump the collection data, drop the collection, create a new collection and shard key, import the data.
 - [ ] Add second shard key and drop the first shard key.
@@ -393,7 +393,7 @@ MATCH (c:Company {name: 'Neo4j'}) RETURN c;MATCH (p:Person) WHERE p.name = 'Jenn
 MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 ```
 
-### Q53. You need to create a scalable database that supports immutable writes. What do you use?
+#### Q53. You need to create a scalable database that supports immutable writes. What do you use?
 
 - [x] A ledger database
 - [ ] A graph database

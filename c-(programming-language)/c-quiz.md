@@ -1,6 +1,6 @@
 ## C (Programming Language)
 
-##### Q1. Which Code sample will eventually cause the computer to run out of memory?
+#### Q1. Which Code sample will eventually cause the computer to run out of memory?
 
 - [x]
 
@@ -812,14 +812,14 @@ int main()
 - [x] 0
 - [ ] 500
 
-### Q51. What is _not_ one of the basic data types in C
+#### Q51. What is _not_ one of the basic data types in C
 
 - [ ] long double
 - [ ] unsigned char
 - [x] array
 - [ ] float
 
-### Q52. What is the member access operator for a structure?
+#### Q52. What is the member access operator for a structure?
 
 - [ ] ,
 - [ ] []

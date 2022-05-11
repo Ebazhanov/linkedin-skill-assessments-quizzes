@@ -68,7 +68,7 @@ console.log('Results shown');
 
 [Reference Javascript is synchronous and single threaded](https://stackoverflow.com/a/2035662/15067394)
 
-### Q7. Which snippet could you add to this code to print "food" to the console?
+#### Q7. Which snippet could you add to this code to print "food" to the console?
 
 ```javascript
 class Animal {

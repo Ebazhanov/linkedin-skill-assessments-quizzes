@@ -1,4 +1,4 @@
-# Kotlin
+## Kotlin
 
 #### Q1. You would like to print each score on its own line with its cardinal position. Without using **var** or **val**, which method allows iteration with both the value and its position?
 
@@ -184,7 +184,7 @@ fun main() {
 
 [reference](https://discuss.kotlinlang.org/t/inlining-tiny-methods/17084)
 
-#### Q15.How do you fill in the blank below to display all of the even numbers from 1 to 10 with least amount of code?
+#### Q15. How do you fill in the blank below to display all of the even numbers from 1 to 10 with least amount of code?
 
 ```kotlin
 for (_____) {

@@ -7,7 +7,7 @@
 - [ ] It displays a single post.
 - [x] all of these answers
 
-#### Q2.Who owns the trademark for WordPress and WordCamp names and logos?
+#### Q2. Who owns the trademark for WordPress and WordCamp names and logos?
 
 - [x] WordPress Foundation (The WordPress Foundation owns and oversees the trademarks for the WordPress and WordCamp names and logos.)
 - [ ] WordPress.com
@@ -494,7 +494,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] the software is free to use
 - [ ] the software is free to modify
 
-#### Q59 Review of the HTML on line1. The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting into the database. What is wrong with this PHP code?
+#### Q59. Review of the HTML on line1. The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting into the database. What is wrong with this PHP code?
 
 ```
 <input type="text" id="title" name="title" />

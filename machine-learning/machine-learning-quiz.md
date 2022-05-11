@@ -671,7 +671,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] Use reinforcement learning
 - [x] Add more predictors
 
-#### Q87.Your data science team is often criticized for creating reports that are boring or too obvious. What could you do to help improve the team?
+#### Q87. Your data science team is often criticized for creating reports that are boring or too obvious. What could you do to help improve the team?
 
 - [x] Suggest that the team is probably underfitting the model to the data.
 - [ ] Suggest that unsupervised learning will lead to more interesting results.
