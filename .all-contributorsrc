@@ -8721,6 +8721,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "tix123",
+      "name": "Sean Chen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52285592?v=4",
+      "profile": "https://github.com/tix123",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
