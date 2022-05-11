@@ -908,7 +908,7 @@ This is a confusing question and there can be an arguments for both the second a
 - [ ] Use the `<pre>` tag to make the line spacing look exactly like you want.
 - [ ] Separate the lines with the `<br>` tag.
 
-#### Q58.What does the `<wbr>` tag do?
+#### Q58. What does the `<wbr>` tag do?
 
 - [ ] It requires the browser to wrap the current line at that point.
 - [ ] It breaks a word into two pieces, using a hyphen to connect the words.

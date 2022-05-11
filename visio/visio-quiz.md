@@ -304,7 +304,7 @@
 - [ ] .xps
 - [ ] .pdf
 
-#### Q35.Which of the following is a type of shape data list from which users can select an entry or can enter a new value?
+#### Q35. Which of the following is a type of shape data list from which users can select an entry or can enter a new value?
 
 - [ ] Visio list
 - [ ] list

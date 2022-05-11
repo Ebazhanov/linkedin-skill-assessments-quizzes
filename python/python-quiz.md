@@ -1686,7 +1686,7 @@ num_list[len(num_list) // 2]
 
 [Reference](https://www.tutorialspoint.com/python_text_processing/python_string_immutability.htm)
 
-### Q127. What is the output of this code?
+#### Q127. What is the output of this code?
 
 ```python
 def myFunction(country = "France"):
@@ -1801,7 +1801,7 @@ for x in range(1, len(characters)):
 - [ ] Float
 - [x] Double
 
-### Q134. What will be the output of this code?
+#### Q134. What will be the output of this code?
 
 ```python
 [1,2,3] * 3

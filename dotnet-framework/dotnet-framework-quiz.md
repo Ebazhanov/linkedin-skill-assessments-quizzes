@@ -49,7 +49,7 @@
 - [x] `System.GC.Collect();`
 - [ ] `Garbage.Collect();`
 
-#### Q8.You want to include language elements in a program. Which design pattern best fits this objective?
+#### Q8. You want to include language elements in a program. Which design pattern best fits this objective?
 
 - [x] Interpreter <= correct
 - [ ] Command
@@ -214,49 +214,49 @@
 
 > The requestUri parameter must be a HTTPS address and you call the AuthenticateAsync method to connect to the online identity provider and get an access token
 
-#### Q31.You want to create a class of which only a single instance can exist. Which design pattern best fits this objective?
+#### Q31. You want to create a class of which only a single instance can exist. Which design pattern best fits this objective?
 
 - [ ] Adapter
 - [x] Singleton
 - [ ] Bridge
 - [ ] Decorator
 
-#### Q32.What is the dependency inversion principle?
+#### Q32. What is the dependency inversion principle?
 
 - [ ] Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
 - [ ] A class should have only a single responsibility—that is, only changes to one part of the software's specification should be able to affect the specification of the class.
 - [ ] Software entities should be open for extension, but closed for modification.
 - [x] Entities must depend on abstractions, not on concrete implementations.
 
-#### Q33.What is a namespace?
+#### Q33. What is a namespace?
 
 - [ ] a group of generic collections—in a logical hierarchy by function—that enable you to access the core functionality you need in your applications
 - [ ] a group of methods—in a logical hierarchy by class—that enable you to access the core functionality you need in .NET
 - [ ] a group of assemblies—in a logical hierarchy by function—that enable you to access the core functionality you need in your applications
 - [x] a group of classes, structures, interfaces, enumerations, and delegates—organized in a logical hierarchy by function that enable you to access the core functionality you need in your applications
 
-#### Q34.Which of the following selects an anonymous type?
+#### Q34. Which of the following selects an anonymous type?
 
 - [x] select new { a.Country, a.Region }
 - [ ] select a
 - [ ] select a.Country, a.Region
 - [ ] select { a.Country, a.Region }
 
-#### Q35.Which is NOT true about a constant variable?
+#### Q35. Which is NOT true about a constant variable?
 
 - [ ] At compile time, the value is evaluated.
 - [ ] Only at declaration can it be initialized.
 - [x] At runtime, its value is evaluated.
 - [ ] It cannot be static.
 
-#### Q36.What is the purpose of CLR?
+#### Q36. What is the purpose of CLR?
 
 - [ ] CLR performs various operations such as security checks, spell checks, assembly loading, and thread management. It provides a secure execution environment for the internet.
 - [ ] CLR sets the rules developers must use for the components that are interlanguage compatible. CLR is reusable across all the .NET-compliant languages.
 - [ ] CLR is a compiler that converts Intermediate Language to a native code.
 - [x] CLR performs various operations such as memory management, security checks, assembly loading, and thread management. It also provides a secure execution environment for applications.
 
-#### Q37.What is CIL?
+#### Q37. What is CIL?
 
 - [x] Formerly known as MSIL, CIL is a programming language that NET developers use. It represents the lowest possible level for a language that humans can still read.
 - [ ] CIL is an object-oriented programming language that is a partially compiled code that .NET developers will then compile to native machine code.
@@ -433,7 +433,7 @@
 
 [Session.Abandon Method](<https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524310(v=vs.90)>)
 
-#### Q58 Which choice best describes the difference between globalization and localization?
+#### Q58. Which choice best describes the difference between globalization and localization?
 
 - [ ] Localization enables the .NET runtime to provide services to managed code so language compilers can emit metadata and references in your code. Globalization reverses this process.
 - [ ] Globalization enables the .NET runtime to provide services to managed code so language compilers can emit metadata and references in your code. Localization reverses this process.

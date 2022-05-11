@@ -1223,7 +1223,7 @@ typedef struct{
 
 [Reference](https://stackoverflow.com/questions/9802585/why-is-the-data-type-needed-in-pointer-declarations)
 
-### Q73. What is wrong with this piece of code?
+#### Q73. What is wrong with this piece of code?
 
 ```cpp
 #include <iostream>
