@@ -1884,7 +1884,7 @@ func(null);
 - [ ] null no arg
 - [ ] no arg no arg
 - [ ] null null
-- [ ] no arg null
+- [x] no arg null
 
 #### Q134. What will this code print to the console?
 
@@ -1901,4 +1901,4 @@ test();
 - [ ] a is 1
 - [ ] a is undefined
 - [ ] It won't print anything.
-- [ ] a is 2
+- [x] a is 2
