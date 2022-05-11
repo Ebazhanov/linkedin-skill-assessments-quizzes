@@ -8731,6 +8731,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "herbertmilhomme",
+      "name": "Herbert Milhomme",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15901670?v=4",
+      "profile": "http://www.herbertmilhomme.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
