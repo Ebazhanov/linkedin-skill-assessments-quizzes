@@ -883,3 +883,12 @@ for (int i=1; i<=10; i++)
 for (int i=10; i>=0; i--)
     printf("%d\n", i);
 ```
+
+#### Q56. The dynamic memory allocation functions are defined in which system header file ?
+
+- [ ] stdio.h
+- [x] stdlib.h
+- [ ] limits.h
+- [ ] stddef.h
+
+[Reference](https://devdocs.io/c/memory)
