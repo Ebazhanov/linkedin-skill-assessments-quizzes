@@ -250,7 +250,7 @@ name = models.CharField(max_length=100)
 - [ ] use aggregate functions more easily
 - [ ] build reusable QuerySets
 
-#### Q30. Which is not a django filed type for integers?
+#### Q30. Which is not a Django filed type for integers?
 
 - [ ] SmallIntegerField
 - [x] NegativeIntegerField
@@ -545,7 +545,7 @@ model=Planet
 - [ ] SongView
 - [x] ListView
 
-#### Q58. Which statement is most acurate, regarding using the default SQLite database on your local/development machine but Postgres in production
+#### Q58. Which statement is most accurate, regarding using the default SQLite database on your local/development machine but Postgres in production
 
 - [x] There's less chance of introducing bugs since SQLite already works out the box
 - [ ] It's fine, you just need to keep both instances synchronized
@@ -622,7 +622,7 @@ model=Planet
 - [x] INSTALLED_APPS; settings.py
 - [ ] TEMPLATES; urls.py
 
-#### Q67. Which is not third-party package commonly used for authentication?
+#### Q67. Which is not a third-party package commonly used for authentication?
 
 - [ ] django-guardian
 - [ ] django-rest-auth
