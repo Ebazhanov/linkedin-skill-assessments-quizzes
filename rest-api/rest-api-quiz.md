@@ -2,8 +2,8 @@
 
 #### Q1. What type of relationship is defined as one resource existing only if another parent resource exist-for example, pages in a book?
 
-- [x] `Partial`
-- [ ] `dependent`
+- [ ] `Partial`
+- [x] `dependent`
 - [ ] `associative`
 - [ ] `linked`
 
@@ -218,9 +218,9 @@
 
 #### Q29. Which REST constraint allows for the presence of caching, routing, and other systems between the client and server?
 
-- [ ] `Layered System`
+- [x] `Layered System`
 - [ ] `Stateless`
-- [x] `Client-Server`
+- [ ] `Client-Server`
 - [ ] `Cacheable`
 
 #### Q30. Which content is best to include in your documentation?
