@@ -1317,6 +1317,6 @@ std::cout << b;
 ```
 
 - [ ] `6 will be printed on standard output, with no compilation warnings generated.`
-- [ ] `5 will be printed on standard output, with no compilation warnings generated.`
+- [x] `5 will be printed on standard output, with no compilation warnings generated.`
 - [ ] `6 will be printed on standard output, with compilation warnings generated.`
 - [ ] `5 will be printed on standard output, with compilation warnings generated.`
