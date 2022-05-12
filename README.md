@@ -1265,6 +1265,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="http://ozh.org/"><img src="https://avatars.githubusercontent.com/u/223647?v=4?s=100" width="100px;" alt=""/><br /><sub><b>྅༻ Ǭɀħ ༄༆ཉ</b></sub></a><br /><a href="#design-ozh" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ozh" title="Code">💻</a></td>
+    <td align="center"><a href="http://pratik088.github.io/me"><img src="https://avatars.githubusercontent.com/u/24887870?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Pratik Solanki</b></sub></a><br /><a href="#design-pratik088" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=pratik088" title="Code">💻</a></td>
   </tr>
 </table>
 

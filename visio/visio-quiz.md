@@ -310,3 +310,10 @@
 - [ ] list
 - [x] variable list
 - [ ] fixed list
+
+#### Q35. Which is not one of the seven properties in the Layer Properties dialog box?
+
+- [x] Lock
+- [ ] Group
+- [ ] Active
+- [ ] Color
