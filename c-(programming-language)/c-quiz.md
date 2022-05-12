@@ -269,7 +269,7 @@ main(){
 
 [Reference](http://www.it.uc3m.es/pbasanta/asng/course_notes/dynamic_memory_heap_en.html#:~:text=The%20dynamic%20memory%20that%20is,reads%20a%20set%20of%20words.)
 
-#### Q17. Which of the following do you use to deallocate memory?
+#### Q17. Which function do you use to deallocate memory?
 
 - [ ] dalloc()
 - [ ] dealloc()
@@ -303,7 +303,7 @@ main(){
 
 - [ ] Objects; Structure
 - [ ] Variables; Declaration
-- [x] Data types; Memory location
+- [x] Data types; Memory space
 - [ ] Arrays; Header file
 
 #### Q22. What is the output of this program?
@@ -883,3 +883,12 @@ for (int i=1; i<=10; i++)
 for (int i=10; i>=0; i--)
     printf("%d\n", i);
 ```
+
+#### Q56. The dynamic memory allocation functions are defined in which system header file ?
+
+- [ ] stdio.h
+- [x] stdlib.h
+- [ ] limits.h
+- [ ] stddef.h
+
+[Reference](https://devdocs.io/c/memory)
