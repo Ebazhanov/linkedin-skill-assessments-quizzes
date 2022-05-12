@@ -664,8 +664,9 @@ Duplicated with Q50.
 - [ ] Open any document, change your font settings, and save as a template.
 - [ ] Create a macro that will change all fonts to Arial 11.5 point.
 - [x] In a new, blank document, from the Font dialog box, make your changes and set as default for All documents based on the Normal template.
-<!-- https://support.microsoft.com/en-us/office/change-the-default-font-in-word-2f50603b-9886-47e4-a483-48ac5ab80163 -->
 - [ ] In a new, blank document, make your font changes and then save your document as a template.
+
+[Reference](https://support.microsoft.com/en-us/office/change-the-default-font-in-word-2f50603b-9886-47e4-a483-48ac5ab80163)
 
 #### Q85. You inserted a picture into a brochure, and you want to cut down on the background to focus only on the main part of the image. How can you accomplish this?
 
