@@ -1814,3 +1814,82 @@ As Steve Krug once said, happy talk must die.
   </tr>
 </table>
 ```
+
+#### Q112. Which description list is coded correctly?
+
+- [ ] A
+
+```HTML
+<dl>
+  <dd>Server</dd> 
+  <dt>Software used to serve webpages, like Apache.</dt> 
+  <dt>Hardware used to provide data to other computers.</dt> 
+  <!-- Other terms and descriptions --> 
+</dl>
+```
+
+- [ ] B
+
+```HTML
+<dl>
+  <dt>Server</dt>
+  <dd>Software used to serve webpages, like Apache.</dd>
+  <dd>Hardware used to provide data to other computers.</dd> 
+  <!-- Other terms and descriptions --> 
+</dl>
+```
+
+- [ ] C
+
+```HTML
+<dt>
+  <dl>Server</dl>
+  <dd>Software used to serve webpages, like Apache.</dd> 
+  <dd>Hardware used to provide data to other computers.</dd>
+  <!-- Other terms and descriptions -->
+</dt>
+```
+
+- [ ] D
+
+```HTML
+<dl>
+  <dt>Server</dt>
+  <dd>Software used to serve webpages, like Apache.</dd>
+  <dt>Hardware used to provide data to other computers.</dt>
+  <!-- Other terms and descriptions --> 
+</dl>
+```
+  
+#### Q113. What is the best semantic markup for this sentence? On July 21, 1969, Neil Armstrong said, "That's one small step for man, one giant leap for mankind.
+  
+- [x] A
+
+```HTML
+  <p>On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11/a11.step.html">That's one small step for man, one giant leap for mankind.</q></p>
+```
+
+- [ ] B
+
+```HTML
+<p>On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11/a11.step.html">That's one small step for man, one giant leap for mankind.</q></p>
+```
+
+- [ ] C
+
+```HTML
+<p>On July 21, 1969, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11/a11.step.html">"That's one small step for man, one giant leap for mankind."</q></p>
+```
+
+- [ ] D
+
+```HTML
+<p>On July 21, 1969, Neil Armstrong said, <q>"That's one small step for man, one giant leap for mankind."</q></p>
+```
+
+#### Q114. The value attribute is associated with which set of tags?
+
+- [ ] `<button> <input> <form>`
+- [x] `<li> <input> <option>`
+- [ ] `<input> <label> <meter>`
+- [ ] `<input> <option> <textarea>`
