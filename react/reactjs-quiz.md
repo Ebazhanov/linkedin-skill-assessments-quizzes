@@ -1220,7 +1220,7 @@ add();
 #### Q106. What pattern is being used in this code?
 
 ```javascript
-const {tree,lake} = nature;
+const { tree, lake } = nature;
 ```
 
 - [ ] function defaults

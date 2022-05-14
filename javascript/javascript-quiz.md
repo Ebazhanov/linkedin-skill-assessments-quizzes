@@ -1876,7 +1876,9 @@ console.log(cat.name);
 
 ```js
 var thing;
-let func = (str = 'no arg') => {console.log(str);}
+let func = (str = 'no arg') => {
+  console.log(str);
+};
 func(thing);
 func(null);
 ```
@@ -1891,7 +1893,7 @@ func(null);
 ```js
 const myFunc = () => {
   const a = 2;
-  return () => console.log("a is " + a);
+  return () => console.log('a is ' + a);
 };
 const a = 1;
 const test = myFunc();
@@ -1909,8 +1911,8 @@ test();
 const myFunc = (num1, num2 = 2, num3 = 2) => {
   return num1 + num2 + num3;
 };
-let values = [1,5];
-const test = myFunc(2,...values);
+let values = [1, 5];
+const test = myFunc(2, ...values);
 console.log(test);
 ```
 

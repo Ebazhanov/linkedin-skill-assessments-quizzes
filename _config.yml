@@ -4,5 +4,5 @@ markdown: kramdown
 # Preserve double and triple dashes
 kramdown:
   typographic_symbols:
-    mdash: "---"
-    ndash: "--"
+    mdash: '---'
+    ndash: '--'

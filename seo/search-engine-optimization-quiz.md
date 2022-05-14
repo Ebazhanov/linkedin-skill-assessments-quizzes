@@ -545,7 +545,7 @@
 
 #### Q63. What is a common benefit to long-tail keywords?
 
-- [X] They are less competitive, and may have higher conversion rates.
+- [x] They are less competitive, and may have higher conversion rates.
 - [ ] Long-tail keywords are no longer relevant in today's SEO landscape.
 - [ ] They are less grandular, so you capture broader searches.
 - [ ] They are more competitive, but drive significantly more traffic.
@@ -556,15 +556,15 @@
 - [ ] Conduct a technical audit.
 - [ ] Conduct a backlink audit.
 - [ ] Determine keyword strategy.
-    
+
 #### Q65. You are optimizing a large e-commerce website. Which strategy will likely yield the most organic traffic?
 
-- [ ] Launch a Smart Shopping Campaign in Google Ads. 
-- [ ] Optimize the home page of your website. 
-- [ ] Optimize each product page with a unique product-specific keyword. 
+- [ ] Launch a Smart Shopping Campaign in Google Ads.
+- [ ] Optimize the home page of your website.
+- [ ] Optimize each product page with a unique product-specific keyword.
 - [ ] Optimize your product category pages.
 
-#### Q66. Google's Search Quality Evaluator Guidelines describe that experts should write content, especially YMYL content. This is one of the principles seen in the commonly used acronym__
+#### Q66. Google's Search Quality Evaluator Guidelines describe that experts should write content, especially YMYL content. This is one of the principles seen in the commonly used acronym\_\_
 
 - [ ] LEAF
 - [ ] FAT
@@ -574,31 +574,34 @@
 #### Q67. Why might using a subdirectory in place of a subdomain be beneficial?
 
 - [ ] Using a subdirectory is never preferable to using a subdomain.
-- [ ] The subdirectory will allow for keyword dilution. 
-- [ ] The subdirectory will benefit from the backlinks the domain has acquired. 
-- [ ] The subdirectory is better for the end user experience. 
+- [ ] The subdirectory will allow for keyword dilution.
+- [ ] The subdirectory will benefit from the backlinks the domain has acquired.
+- [ ] The subdirectory is better for the end user experience.
 
 #### Q68. You notice a website is serving different HMTL to a search engine than to a human user. What is this an example of?
+
 - [ ] sneaky redirect
 - [ ] splicing
 - [ ] cloaking
 - [ ] spam injection
-    
-#### Q69. Google Search Quality Evaluator Guidelines describe that experts should write content, especially YMYL content. This is one of the principles seen in the Commonly used acronym ___ 
+
+#### Q69. Google Search Quality Evaluator Guidelines describe that experts should write content, especially YMYL content. This is one of the principles seen in the Commonly used acronym \_\_\_
+
 - [ ] LEAH
 - [ ] EAT
 - [ ] TRUSTED
 - [ ] ACE
-    
+
 #### Q70. What is the best way to provide a search engine with crawl instructions?
+
 - [ ] Use the <crawl> tag.
 - [ ] Use the search engine's Remove URL tool.
 - [ ] Use a robots.txt file.
 - [ ] Use structured data
 
-    
 #### Q71. All byline dates for articles are suddenly no longer visible on a website's listing within Google Search. Assuming no changes have been made to the site programming or content, what is the most likely cause?
-- [ ] The site has been delisted from Google Search. 
-- [ ] The site kept updating the date to make the content appear fresh, without changing the content. 
-- [ ] The articles have aged more than 365 days without any significant updates to the content or the site. 
+
+- [ ] The site has been delisted from Google Search.
+- [ ] The site kept updating the date to make the content appear fresh, without changing the content.
+- [ ] The articles have aged more than 365 days without any significant updates to the content or the site.
 - [ ] A Google News sitemap was not provided within 30 days of setting up a Publisher Center account

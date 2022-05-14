@@ -15,6 +15,7 @@
 - [x] Always Open Read-Only.
 
 #### Q3. You are finalizing a two-page memo. Rather than having Word decide where page 1 ends, you want the next paragraph to begin on the top of page 2. How do you achieve this?
+
 #### Q3. You are finalizing a two-page document. Rather than having Word decide where page 1 ends, you want the next paragraph to begin on the top of page 2. How do you achieve this?
 
 - [ ] Change the bottom margin to your current location.
@@ -60,6 +61,7 @@
 - [ ] Mark as favorite.
 
 #### Q9. If you want to add a caption to a table, where should you look?
+
 #### Q9. You want to add a caption to a table. Which tab contains this option?
 
 - [ ] Insert tab.

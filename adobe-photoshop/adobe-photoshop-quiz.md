@@ -531,4 +531,3 @@
 - [ ] Image Size
 - [ ] Canvas Size
 - [ ] Apply Image
-

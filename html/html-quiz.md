@@ -1821,10 +1821,10 @@ As Steve Krug once said, happy talk must die.
 
 ```HTML
 <dl>
-  <dd>Server</dd> 
-  <dt>Software used to serve webpages, like Apache.</dt> 
-  <dt>Hardware used to provide data to other computers.</dt> 
-  <!-- Other terms and descriptions --> 
+  <dd>Server</dd>
+  <dt>Software used to serve webpages, like Apache.</dt>
+  <dt>Hardware used to provide data to other computers.</dt>
+  <!-- Other terms and descriptions -->
 </dl>
 ```
 
@@ -1834,8 +1834,8 @@ As Steve Krug once said, happy talk must die.
 <dl>
   <dt>Server</dt>
   <dd>Software used to serve webpages, like Apache.</dd>
-  <dd>Hardware used to provide data to other computers.</dd> 
-  <!-- Other terms and descriptions --> 
+  <dd>Hardware used to provide data to other computers.</dd>
+  <!-- Other terms and descriptions -->
 </dl>
 ```
 
@@ -1844,7 +1844,7 @@ As Steve Krug once said, happy talk must die.
 ```HTML
 <dt>
   <dl>Server</dl>
-  <dd>Software used to serve webpages, like Apache.</dd> 
+  <dd>Software used to serve webpages, like Apache.</dd>
   <dd>Hardware used to provide data to other computers.</dd>
   <!-- Other terms and descriptions -->
 </dt>
@@ -1857,12 +1857,12 @@ As Steve Krug once said, happy talk must die.
   <dt>Server</dt>
   <dd>Software used to serve webpages, like Apache.</dd>
   <dt>Hardware used to provide data to other computers.</dt>
-  <!-- Other terms and descriptions --> 
+  <!-- Other terms and descriptions -->
 </dl>
 ```
-  
+
 #### Q113. What is the best semantic markup for this sentence? On July 21, 1969, Neil Armstrong said, "That's one small step for man, one giant leap for mankind.
-  
+
 - [x] A
 
 ```HTML

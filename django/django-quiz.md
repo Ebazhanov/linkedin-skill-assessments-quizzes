@@ -642,7 +642,7 @@ model=Planet
 - [ ] PUT
 - [x] PAUSE
 - [ ] PATCH
-  
+
 #### Q70. Which is not a Django field type for holding integers?
 
 - [x] NegativeIntegerField
