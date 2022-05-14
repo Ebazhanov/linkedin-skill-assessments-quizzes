@@ -489,3 +489,46 @@
 - [ ] Object Selection
 - [ ] Refine Edge
 - [ ] Quick selection
+
+#### Q63. What is the difference between the Lasso tool and the Polygonal Lasso tool?
+
+- [ ] You can draw a free-form selection with the Lasso tool, but you must make Bezier curves with the Polygonal Lasso tool.
+- [ ] The Lasso tool makes free-form selections. The Polygonal Lasso tool makes a selection with a series of connected line segments.
+- [ ] You can draw a free-form selection with the Lasso tool. You click and drag with the Polygonal Lasso tool to create Rectangular Marquee selections.
+- [ ] The Lass tool can select anything, including enclosed portions of raster images or shapes, but the Polygonal Lasso tool can select only shapes.
+
+#### Q64. What is the outcome if you make a selection and then add an adjustment layer?
+
+- [ ] The adjustment layer contains a vector mask that applies the adjustment only to the unselected pixels.
+- [ ] The adjustment layer contains a layer mask that applies the adjustment only to the selected pixels.
+- [ ] The adjustment layer contains a layer mask that applies the adjustment only to the unselected pixels.
+- [ ] The adjustment layer contains a vector mask that applies the adjustment only to the selected pixels.
+
+#### Q65. Which filter is useful for removing lens distortion from JPEG photos based on lens-specific settings?
+
+- [ ] Adaptive Wide Angle
+- [ ] Lens Blur
+- [ ] Lens Correction
+- [ ] Spherize
+
+#### Q66. What image mode do professional offset printers usually use?
+
+- [ ] RGB
+- [ ] Bitmap
+- [ ] CMYK
+- [ ] Lab Color
+
+#### Q67. How can you remove a single ruler guide while leaving others in place?
+
+- [ ] Click the guide with the Selection tool, then select **Edit > Clear**.
+- [ ] Select **View > Clear Guides**.
+- [ ] Double-click the point where the guide touches the ruler.
+- [ ] Drag the guide back to the ruler.
+
+#### Q68. If you want to change the resolution of an image using the **Pixels per Inch setting**, which command do you use?
+
+- [ ] Calculations
+- [ ] Image Size
+- [ ] Canvas Size
+- [ ] Apply Image
+
