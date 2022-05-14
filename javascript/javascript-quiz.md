@@ -1902,3 +1902,19 @@ test();
 - [ ] a is undefined
 - [ ] It won't print anything.
 - [x] a is 2
+
+#### Q135. What will this code print to the console?
+
+```js
+const myFunc = (num1, num2 = 2, num3 = 2) => {
+  return num1 + num2 + num3;
+};
+let values = [1,5];
+const test = myFunc(2,...values);
+console.log(test);
+```
+
+- [x] 8
+- [ ] 6
+- [ ] 2
+- [ ] 12
