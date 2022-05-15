@@ -578,3 +578,10 @@
 - [ ] metric
 - [x] hit
 - [ ] tag
+
+#### Q83. What are the four scope types?
+
+- [ ] Visitors, Visits, Events, and Products
+- [ ] Visitors, Visits, Actions, and Catalog
+- [x] Users, Sessions, Hits, and Products
+- [ ] Users, Sessions, Actions, and Catalog
