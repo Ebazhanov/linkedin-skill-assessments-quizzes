@@ -426,7 +426,7 @@ Explanation: _BigQuery offers a choice of two pricing models for runnig queries:
 - [ ] Cloud Dataproc
 - [ ] Compute Engine
 
-#### Q57.You want to encrypt a Compute Engine image. What do you need to do ?
+#### Q57. You want to encrypt a Compute Engine image. What do you need to do ?
 
 - [ ] Nothing. Images are encrypted by default with a Google - managed key.
 - [ ] Associate your image with the default Google-managed key to encrypt it.
