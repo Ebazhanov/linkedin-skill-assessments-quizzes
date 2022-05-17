@@ -740,3 +740,19 @@ Note: there are centres of clusters (C0, C1, C2).
 - [x] for supervised machine learning binary classification challenges 
 - [ ] to find thd best data cluster
 - [ ] to determine "Q" in Q-learning reinforcement learning
+
+#### Q97. An organisation that owns dozens of shopping malls wants to create a machine learning product that will use facial recognition to identify customers. What is the main challenge of developing such a model?
+
+- [ ] most machine learning models are not designed for video
+- [x] it might be unethical for the business to identify people without their consent
+- [ ] it will be difficult to decide between supervised and unsupervised learning
+- [ ] the image in the video would not be high quality enough to identify individuals
+
+
+#### Q98. Someone in your datascience team recommends that you use a decision tree, naive bayes, and k-nearest neighbor, all at the same time, on the same training data and average the results. What is this an example of?
+
+- [ ] high variance 
+- [ ] unsupervised learning
+- [ ] regression analysis
+- [x] ensemble modeling
+
