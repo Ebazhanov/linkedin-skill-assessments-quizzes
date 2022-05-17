@@ -726,3 +726,17 @@ Note: there are centres of clusters (C0, C1, C2).
 - [x] Bias is the gap between your predicted value and the outcome.
 - [ ] Bias is when your data is wrong for differnet reasons.
 - [ ] Bias is when your values are always off by the same percentage.
+
+#### Q95. Which project might be best suited for supervised machine learning?
+
+- [ ] data scrubbing
+- [x] predicting a risk score
+- [ ] tax filing software
+- [ ] spreadsheet consolidation
+
+#### Q96. When is a decision tree most commonly used?
+
+- [ ] with big data products
+- [x] for supervised machine learning binary classification challenges 
+- [ ] to find thd best data cluster
+- [ ] to determine "Q" in Q-learning reinforcement learning
