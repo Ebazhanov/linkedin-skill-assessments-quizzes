@@ -425,3 +425,14 @@ Explanation: _BigQuery offers a choice of two pricing models for runnig queries:
 - [ ] Google Kubernetes Engine
 - [ ] Cloud Dataproc
 - [ ] Compute Engine
+
+#### Q57.You want to encrypt a Compute Engine image. What do you need to do ?
+
+- [ ] Nothing. Images are encrypted by default with a Google - managed key.
+- [ ] Associate your image with the default Google-managed key to encrypt it.
+- [ ] Nothing. Images are encrypted by default with a customer-managed key.
+- [x] Associate your image with a customer-managed key to encrypt it.
+
+Explanation: Google does not store your keys on its servers and cannot access your protected data unless you provide the key. This also means that if you forget or lose your key, there is no way for Google to recover the key or to recover any data encrypted with the lost key.
+
+[Reference](https://cloud.google.com/compute/docs/disks/customer-supplied-encryption)
