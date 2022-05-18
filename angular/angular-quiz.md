@@ -694,7 +694,7 @@ export class BioComponent { }
 ```javascript
 @Component({
    selector: 'app-user-card',
-   template: '<app-title-card></app-title-card><p>3enny Smith</p>'
+   template: '<app-title-card></app-title-card><p>Jenny Smith</p>'
 })
 
 @Component({
@@ -713,7 +713,7 @@ export class BioComponent { }
   <app-title-card>
     <h1>User Data</h1>
   </app-title-card>
-  <p>genny Smith</p>
+  <p>Jenny Smith</p>
 </app-user-card>
 ```
 
