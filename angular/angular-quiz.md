@@ -1068,7 +1068,7 @@ export const APP_SETTINGS = new Injection<AppSettings>('app.settings');
 - [ ] submit(ngForm.value)
 - [ ] submit(FirstName, lastName)
 
-#### Q54. What is the purpose of the prelodingStrategy property configuration in this router code?
+#### Q55. What is the purpose of the prelodingStrategy property configuration in this router code?
 
 ```
 RouterModule.forRoot (
@@ -1084,7 +1084,7 @@ RouterModule.forRoot (
 - [ ] It ensures all modules get built into a single app module bundle file.
 - [ ] It configures the router to immediately load all routes that have a loadChildren property(routes that are typically loaded when requested)
 
-#### Q55. What is an alternative way to write this markup to bind the value of the class field `userName` to the `h1` element title property?
+#### Q56. What is an alternative way to write this markup to bind the value of the class field `userName` to the `h1` element title property?
 
 ```html
 <h1 [title]="userName">Current user is {{ userName }}</h1>
@@ -1095,7 +1095,7 @@ RouterModule.forRoot (
 - [ ] title="{{ 'userName' }}"
 - [ ] The only way to do it is by using the square brackets.
 
-#### Q56. What is the `async` pipe doing in this example?
+#### Q57. What is the `async` pipe doing in this example?
 
 ```ts
 @Component({
@@ -1116,7 +1116,7 @@ export class UsersComponent implements OnInit {
 - [x] It is subscribing to the observable returned from the `HttpClient.get` method and unwrapping the returned value so it can be iterated over in the `ngFor`.
 - [ ] It is allowing all of the users in the `users` field to be rendered concurrently to the DOM.
 
-#### Q57. How would you make use of this directive in markup based on its selector value
+#### Q58. How would you make use of this directive in markup based on its selector value
 
 ```ts
 @Directive({
