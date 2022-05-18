@@ -977,3 +977,26 @@ Table name: superheroes
 - [ ] Add a column to this table to serve as a record identifier, and make it the primary key.
 - [ ] Extend this table to have additional columns "power4," "power5," and so on, to allow additional powers for each superhero.
 - [ ] Convert this table to have column called "power," and add one record for each superhero-power combination, for a total of 15 records in this example.
+
+#### Q101. What is valid way to create a database view in MySQL?What is valid way to create a database view in MySQL?
+
+- [ ] 1 CREATE VIEW v1 2 SELECT * FROM t1 3 WHERE col1 &gt; 10; 
+- [ ] 1 CREATE VIEW v1 2 BEGIN 3 SELECT * FROM t1 4 END 
+- [ ] 1 CREATE VIEW v1 AS 2 SELECT * FROM t1; 
+- [ ] 1 CREATE VIEW v1 AS 2 BEGIN 3 SELECT * FROM t1 4 END; 
+    
+#### Q102. A table Item has a Boolean field endOfLife and a field makeYear of type YEAR(4). How can you set the Boolean to true for all Items that have been made before 2019?A table Item has a Boolean field endOfLife and a field makeYear of type YEAR(4). How can you set the Boolean to true for all Items that have been made before 2019?
+	
+- [ ] UPSERT Item SET endOfLife = true WHERE makeYear < 2019UPSERT Item SET endOfLife = true WHERE makeYear < 2019 
+- [ ] CHANGE Item SET endOfLife = true WHERE makeYear < 2019CHANGE Item SET endOfLife = true WHERE makeYear < 2019 
+- [ ] ALTER Item SET endOfLife = true WHERE makeYear < 2019ALTER Item SET endOfLife = true WHERE makeYear < 2019 
+- [ ] UPDATE Item SET endOfLife = true WHERE makeYear < 2019
+
+#### Q103. Which choice is an example of an aggregate function?Which choice is an example of an aggregate function?
+- [ ] NOW()NOW() 
+- [ ] MID()MID() 
+- [ ] FORMAT()FORMAT() 
+- [x] COUNT()
+
+[Reference](https://www.sqltutorial.org/sql-aggregate-functions/)
+
