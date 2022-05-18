@@ -542,7 +542,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 [Reference](https://devexpress.github.io/dotnet-eud/interface-elements-for-desktop/articles/spreadsheet/pivot-tables/group-items-in-a-pivot-table.html)
 
-### Q70. Which Excel feature allows you to hide rows or columns with an easily visible expand/collapse?
+#### Q70. Which Excel feature allows you to hide rows or columns with an easily visible expand/collapse?
 
 ![image](images/Q70.png)
 

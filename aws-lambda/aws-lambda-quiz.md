@@ -339,3 +339,10 @@
 - [ ] non of these answers
 
 [Reference](https://docs.aws.amazon.com/whitepapers/latest/security-overview-aws-lambda/lambda-functions-and-layers.html)
+
+#### Q49. When you use a resource-based policy to give a service, resource, or account access to your function, how can you apply the scope of that permission??
+
+- [ ] at the function levelat the function level
+- [ ] at the alias or function levelat the alias or function level
+- [ ] at the version, alias, or function levelat the version, alias, or function level
+- [ ] at the version or function level

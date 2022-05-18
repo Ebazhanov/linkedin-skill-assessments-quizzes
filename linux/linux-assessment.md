@@ -732,3 +732,28 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] service
 - [ ] single
 - [ ] process
+
+#### Q89. What tool should you use to replace a physical volume in LVM?What tool should you use to replace a physical volume in LVM?
+
+- [ ] cpcp
+- [ ] pvmovepvmove
+- [ ] tartar
+- [ ] lvcopy
+
+#### Q90. What is the difference between the apt remove and apt autoremove commands?What is the difference between the apt remove and apt autoremove commands?
+
+- [ ] The apt remove command is a link to apt autoremove, so there are no differences. The apt remove command is a link to apt autoremove, so there are no differences.
+- [x] Both uninstall software. The apt autoremove command also uninstalls the dependencies.Both uninstall software. The apt autoremove command also uninstalls the dependencies.
+- [ ] Both uninstall software. The apt remove command also uninstalls the dependencies.Both uninstall software. The apt remove command also uninstalls the dependencies.
+- [ ] The apt autoremove command is a system service that routinely removes unused software packages.
+
+[reference:] https://dannyda.com/2021/08/19/whats-the-difference-between-apt-remove-and-apt-autoremove-what-is-apt-purge-when-to-use-debian-ubuntu-kali-linux-etc/
+
+#### Q91. You want to extract the contents from an rpm package. Which command do you use?You want to extract the contents from an rpm package. Which command do you use?
+
+- [ ] rpm --updaterpm --update
+- [ ] rpm -ivh --forcerpm -ivh --force
+- [ ] rpm --reinstallrpm --reinstall
+- [x] rpm2cpio
+
+[reference:](https://stackoverflow.com/questions/18787375/how-do-i-extract-the-contents-of-an-rpm)

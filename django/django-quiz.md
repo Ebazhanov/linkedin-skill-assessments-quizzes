@@ -23,28 +23,28 @@
 
 #### Q4. A client wants their site to be able to load "Rick & Morty" episodes by number or by title—e.g., shows/3/3 or shows/picklerick. Which URL pattern do you recommend?
 
-- [ ]
+- [ ] <span>
 
 ```
 url(r'shows/<int:season>/<int:episode>/', views.episode_number),
 url(r'shows/<slug:episode_name>/', views.episode_name)
 ```
 
-- [x]
+- [x] <span>
 
 ```
 path('shows/<int:season>/<int:episode>/', views.episode_number),
 path(r'shows/<slug:episode_name>/', views.episode_name)
 ```
 
-- [ ]
+- [ ] <span>
 
 ```
 path('shows/<int:season>/<int:episode>', views.episode_number),
 path(r'shows/<slug:episode_name>/', views.episode_number)
 ```
 
-- [ ]
+- [ ] <span>
 
 ```
 url(r'^show/(?P<season>[0-9]+)/(?P<episode>[0-9]+)/$', views.episode_number),
@@ -130,7 +130,7 @@ url(r'^show/(?P<episode_name>[\w-]+)/', views.episode_name
 
 #### Q17. How would you define the relationship between a star and a constellation in a Django model?
 
-- [x]
+- [x] <span>
 
 ```
 class Star(models.Model):
@@ -139,7 +139,7 @@ class Constellation(models.Model):
 stars = models.ManyToManyField(Star)
 ```
 
-- [ ]
+- [ ] <span>
 
 ```
 class Star(models.Model):
@@ -148,7 +148,7 @@ class Constellation(models.Model):
 stars = models.ForeignKey(Star, on_delete=models.CASCADE)
 ```
 
-- [ ]
+- [ ] <span>
 
 ```
 class Star(models.Model):
@@ -157,7 +157,7 @@ class Constellation(models.Model):
 stars = models.OneToManyField(Star)
 ```
 
-- [ ]
+- [ ] <span>
 
 ```
 class Star(models.Model):
@@ -250,7 +250,7 @@ name = models.CharField(max_length=100)
 - [ ] use aggregate functions more easily
 - [ ] build reusable QuerySets
 
-#### Q30. Which is not a django filed type for integers?
+#### Q30. Which is not a Django filed type for integers?
 
 - [ ] SmallIntegerField
 - [x] NegativeIntegerField
@@ -303,7 +303,7 @@ name = models.CharField(max_length=100)
 
 #### Q37. How would you define the relation between a book and an author - book has only one author.
 
-- [ ]
+- [ ] <span>
 
 ```
 class Author (models.model):
@@ -312,7 +312,7 @@ class Book(models.model):
 name=models.charfield(max_length=100)
 ```
 
-- [x]
+- [x] <span>
 
 ```python
 class Author (models.model):
@@ -321,7 +321,7 @@ class Book(models.model):
 author=models.foreignkey(Author,on_delete=models.cascade)
 ```
 
-- [ ]
+- [ ] <span>
 
 ```
 class Author (models.model):
@@ -330,7 +330,7 @@ class Book(models.model):
 author=models.foreignkey(Author)
 ```
 
-- [ ]
+- [ ] <span>
 
 ```
 class Author (models.model):
@@ -339,7 +339,7 @@ class Book(models.model):
 author=models.foreignkey(Author,on_delete=models.cascade)
 ```
 
-- [ ]
+- [ ] <span>
 
 ```
 class Author (models.model):
@@ -389,14 +389,14 @@ Lots of spark
 - [ ] Nothing needed
 - [ ] {percentage end percentage}
 
-#### Q43 Which code block will create a serializer?
+#### Q43. Which code block will create a serializer?
 
 ```
 from rest_framework import serializers
 from .models import Planet
 ```
 
-- [x]
+- [x] <span>
 
 ```
 class PlanetSerializer(serializers.ModelSerializer):
@@ -405,7 +405,7 @@ model=Planet
 fields=('name','position', 'mass', 'rings')
 ```
 
-- [ ]
+- [ ] <span>
 
 ```
 from rest_framework import serializers
@@ -416,7 +416,7 @@ fields=('name','position', 'mass', 'rings')
 model=Planet
 ```
 
-- [ ]
+- [ ] <span>
 
 ```
 from django.db import serializers
@@ -426,7 +426,7 @@ fields=('name','position', 'mass', 'rings')
 model=Sandwich
 ```
 
-- [ ]
+- [ ] <span>
 
 ```
 from django.db import serializers
@@ -437,14 +437,14 @@ fields=('name')
 model=Planet
 ```
 
-#### Q44 Which class allows you to automatically create a Serializer class with fields and validators that correspond to your model's fields?
+#### Q44. Which class allows you to automatically create a Serializer class with fields and validators that correspond to your model's fields?
 
 - [x] ModelSerializer
 - [ ] Model
 - [ ] DataSerializer
 - [ ] ModelToSerializer
 
-#### Q45 Which command to access the built-in admin tool for the first time?
+#### Q45. Which command to access the built-in admin tool for the first time?
 
 - [ ] django-admin setup
 - [ ] django-admin runserver
@@ -545,7 +545,7 @@ model=Planet
 - [ ] SongView
 - [x] ListView
 
-#### Q58. Which statement is most acurate, regarding using the default SQLite database on your local/development machine but Postgres in production
+#### Q58. Which statement is most accurate, regarding using the default SQLite database on your local/development machine but Postgres in production
 
 - [x] There's less chance of introducing bugs since SQLite already works out the box
 - [ ] It's fine, you just need to keep both instances synchronized
@@ -622,7 +622,7 @@ model=Planet
 - [x] INSTALLED_APPS; settings.py
 - [ ] TEMPLATES; urls.py
 
-#### Q67. Which is not third-party package commonly used for authentication?
+#### Q67. Which is not a third-party package commonly used for authentication?
 
 - [ ] django-guardian
 - [ ] django-rest-auth
@@ -642,3 +642,10 @@ model=Planet
 - [ ] PUT
 - [x] PAUSE
 - [ ] PATCH
+
+#### Q70. Which is not a Django field type for holding integers?
+
+- [x] NegativeIntegerField
+- [ ] SmallIntegerField
+- [ ] PositiveIntegerField
+- [ ] BigAutoField

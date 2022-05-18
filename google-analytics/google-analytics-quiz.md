@@ -416,14 +416,14 @@
 - [ ] the view number
 - [ ] It is random.
 
-#### Q59.If a user fills in a contact form and provides an email address, which report would contain that information?
+#### Q59. If a user fills in a contact form and provides an email address, which report would contain that information?
 
 - [ ] Behavior > Events > Overview
 - [x] Acquisition > Social > Form Submissions
 - [ ] Acquisition > Social > Users Flow
 - [ ] No report contains this information.
 
-#### Q60.If you want to quickly see what days and times were most popular for visiting your site, what do you do?
+#### Q60. If you want to quickly see what days and times were most popular for visiting your site, what do you do?
 
 - [ ] Go to Home > Users by time of day (Widget)
 - [x] Go to the report at Audience > Cohort Analysis and toggle By Day.
@@ -578,3 +578,10 @@
 - [ ] metric
 - [x] hit
 - [ ] tag
+
+#### Q83. What are the four scope types?
+
+- [ ] Visitors, Visits, Events, and Products
+- [ ] Visitors, Visits, Actions, and Catalog
+- [x] Users, Sessions, Hits, and Products
+- [ ] Users, Sessions, Actions, and Catalog

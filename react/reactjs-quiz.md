@@ -90,21 +90,21 @@ console.log(animal);
 - [ ] Mouse
 - [ ] undefined
 
-#### 10. What is the name of the tool used to take JSX and turn it into createElement calls?
+#### Q10. What is the name of the tool used to take JSX and turn it into createElement calls?
 
 - [ ] JSX Editor
 - [ ] ReactDOM
 - [ ] Browser Buddy
 - [x] Babel
 
-#### 11. Why might you use useReducer over useState in a React component?
+#### Q11. Why might you use useReducer over useState in a React component?
 
 - [ ] when you want to replace Redux
 - [x] when you need to manage more complex state in an app
 - [ ] when you want to improve performance
 - [ ] when you want to break your production app
 
-#### 12. Which props from the props object is available to the component with the following syntax?
+#### Q12. Which props from the props object is available to the component with the following syntax?
 
 ```javascript
 <Message {...props} />
@@ -115,7 +115,7 @@ console.log(animal);
 - [ ] child props
 - [ ] any that have changed
 
-#### 13. Consider the following code from React Router. What do you call :id in the path prop?
+#### Q13. Consider the following code from React Router. What do you call :id in the path prop?
 
 ```javascript
 <Route path="/:id" />
@@ -126,7 +126,7 @@ console.log(animal);
 - [ ] This is a route splitter
 - [ ] This is a route link
 
-#### 14. If you created a component called Dish and rendered it to the DOM, what type of element would be rendered?
+#### Q14. If you created a component called Dish and rendered it to the DOM, what type of element would be rendered?
 
 ```javascript
 function Dish() {
@@ -141,7 +141,7 @@ ReactDOM.render(<Dish />, document.getElementById('root'));
 - [ ] component
 - [x] `h1`
 
-#### 15. What does this React element look like given the following function? (Alternative: Given the following code, what does this React element look like?)
+#### Q15. What does this React element look like given the following function? (Alternative: Given the following code, what does this React element look like?)
 
 ```javascript
 React.createElement('h1', null, "What's happening?");
@@ -152,7 +152,7 @@ React.createElement('h1', null, "What's happening?");
 - [ ] `<h1 id="component">What's happening?</h1>`
 - [ ] `<h1 id="element">What's happening?</h1>`
 
-#### 16. What property do you need to add to the Suspense component in order to display a spinner or loading state?
+#### Q16. What property do you need to add to the Suspense component in order to display a spinner or loading state?
 
 ```javascript
 function MyComponent() {
@@ -171,7 +171,7 @@ function MyComponent() {
 - [x] fallback
 - [ ] spinner
 
-#### 17. What do you call the message wrapped in curly braces below?
+#### Q17. What do you call the message wrapped in curly braces below?
 
 ```javascript
 const message = 'Hi there';
@@ -183,21 +183,21 @@ const element = <p>{message}</p>;
 - [x] a JS expression
 - [ ] a JSX wrapper
 
-#### 18. What can you use to handle code splitting?
+#### Q18. What can you use to handle code splitting?
 
 - [ ] `React.memo`
 - [ ] `React.split`
 - [x] `React.lazy`
 - [ ] `React.fallback`
 
-#### 19. When do you use `useLayoutEffect`?
+#### Q19. When do you use `useLayoutEffect`?
 
 - [ ] to optimize for all devices
 - [ ] to complete the update
 - [ ] to change the layout of the screen
 - [x] when you need the browser to paint before the effect runs
 
-#### 20. What is the difference between the click behaviors of these two buttons (assuming that this.handleClick is bound correctly)?
+#### Q20. What is the difference between the click behaviors of these two buttons (assuming that this.handleClick is bound correctly)?
 
 ```javascript
 A. <button onClick={this.handleClick}>Click Me</button>
@@ -209,7 +209,7 @@ B. <button onClick={event => this.handleClick(event)}>Click Me</button>
 - [ ] Button A will not fire the handler this.handleClick successfully.
 - [x] There is no difference.
 
-#### 21. How do you destructure the properties that are sent to the Dish component?
+#### Q21. How do you destructure the properties that are sent to the Dish component?
 
 ```javascript
 function Dish(props) {
@@ -226,56 +226,56 @@ function Dish(props) {
 - [ ] `function Dish(props) { return <h1>{name} {cookingTime}</h1>; }`
 - [ ] `function Dish(...props) { return <h1>{name} {cookingTime}</h1>; }`
 
-#### 22. When might you use `React.PureComponent`?
+#### Q22. When might you use `React.PureComponent`?
 
 - [ ] when you do not want your component to have props
 - [ ] when you have sibling components that need to be compared
 - [x] when you want a default implementation of `shouldComponentUpdate()`
 - [ ] when you do not want your component to have state
 
-#### 23. Why is it important to avoid copying the values of props into a component's state where possible?
+#### Q23. Why is it important to avoid copying the values of props into a component's state where possible?
 
 - [ ] because you should never mutate state
 - [ ] because `getDerivedStateFromProps()` is an unsafe method to use
 - [x] because you want to allow a component to update in response to changes in the props
 - [ ] because you want to allow data to flow back up to the parent
 
-#### 24. What is the children prop?
+#### Q24. What is the children prop?
 
 - [ ] a property that adds child components to state
 - [x] a property that lets you pass components as data to other components
 - [ ] a property that lets you set an array as a property
 - [ ] a property that lets you pass data to child elements
 
-#### 25. Which attribute do you use to replace innerHTML in the browser DOM?
+#### Q25. Which attribute do you use to replace innerHTML in the browser DOM?
 
 - [ ] injectHTML
 - [x] dangerouslySetInnerHTML
 - [ ] weirdSetInnerHTML
 - [ ] strangeHTML
 
-#### 26. Which of these terms commonly describe React applications?
+#### Q26. Which of these terms commonly describe React applications?
 
 - [x] declarative
 - [ ] integrated
 - [ ] closed
 - [ ] imperative
 
-#### 27. When using webpack, why would you need to use a loader?
+#### Q27. When using webpack, why would you need to use a loader?
 
 - [ ] to put together physical file folders
 - [x] to preprocess files
 - [ ] to load external data
 - [ ] to load the website into everyone's phone
 
-#### 28. A representation of a user interface that is kept in memory and is synced with the "real" DOM is called what?
+#### Q28. A representation of a user interface that is kept in memory and is synced with the "real" DOM is called what?
 
 - [x] virtual DOM
 - [ ] DOM
 - [ ] virtual elements
 - [ ] shadow DOM
 
-#### 29. You have written the following code but nothing is rendering. How do you fix this problem?
+#### Q29. You have written the following code but nothing is rendering. How do you fix this problem?
 
 ```javascript
 const Heading = () => {
@@ -636,14 +636,14 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 - [x] grey
 - [ ] white
 
-#### Q60.Which library does the fetch() function come from?
+#### Q60. Which library does the fetch() function come from?
 
 - [ ] `FetchJS`
 - [ ] `ReactDOM`
 - [x] `No library. fetch() is supported by most browsers.`
 - [ ] `React`
 
-#### Q61.What is the difference between the click behaviors of these two buttons(assuming that this.handleClick is bound correctly)
+#### Q61. What is the difference between the click behaviors of these two buttons(assuming that this.handleClick is bound correctly)
 
 ```javascript
   A. <button onClick=this.handleClick>Click Me</button>
@@ -655,7 +655,7 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 - [ ] `There is no difference`
 - [ ] `Button B will not fire the handler this.handleClick successfully`
 
-#### Q62.What will happen when this useEffect Hook is executed, assuming name is not already equal to John?
+#### Q62. What will happen when this useEffect Hook is executed, assuming name is not already equal to John?
 
 ```javascript
 useEffect(() => {
@@ -1216,3 +1216,16 @@ add();
 - [x] to directly access the DOM node
 
 [Reference](https://reactjs.org/docs/refs-and-the-dom.html)
+
+#### Q106. What pattern is being used in this code?
+
+```javascript
+const { tree, lake } = nature;
+```
+
+- [ ] function defaults
+- [ ] array destructuring
+- [ ] PRPL pattern
+- [x] destructuring assignment
+
+[Reference](https://javascript.info/destructuring-assignment)

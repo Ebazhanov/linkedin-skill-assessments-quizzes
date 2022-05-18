@@ -68,7 +68,7 @@ console.log('Results shown');
 
 [Reference Javascript is synchronous and single threaded](https://stackoverflow.com/a/2035662/15067394)
 
-### Q7. Which snippet could you add to this code to print "food" to the console?
+#### Q7. Which snippet could you add to this code to print "food" to the console?
 
 ```javascript
 class Animal {
@@ -1871,3 +1871,52 @@ console.log(cat.name);
 - [x] Wild
 - [ ] Tabby
 - [ ] Athena
+
+#### Q133. What will this code output to the log?
+
+```js
+var thing;
+let func = (str = 'no arg') => {
+  console.log(str);
+};
+func(thing);
+func(null);
+```
+
+- [ ] null no arg
+- [ ] no arg no arg
+- [ ] null null
+- [x] no arg null
+
+#### Q134. What will this code print to the console?
+
+```js
+const myFunc = () => {
+  const a = 2;
+  return () => console.log('a is ' + a);
+};
+const a = 1;
+const test = myFunc();
+test();
+```
+
+- [ ] a is 1
+- [ ] a is undefined
+- [ ] It won't print anything.
+- [x] a is 2
+
+#### Q135. What will this code print to the console?
+
+```js
+const myFunc = (num1, num2 = 2, num3 = 2) => {
+  return num1 + num2 + num3;
+};
+let values = [1, 5];
+const test = myFunc(2, ...values);
+console.log(test);
+```
+
+- [x] 8
+- [ ] 6
+- [ ] 2
+- [ ] 12

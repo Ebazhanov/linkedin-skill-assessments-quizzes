@@ -445,7 +445,7 @@
 - [x] semantic analysis
 - [ ] knowledge graphs
 
-#### Q50 A webpage has this tag: `<title>Brad's Bagels: How to Bake a Bagel</title>`. However, the Google search result for this page displays this title: _Brad's Bagels: Baking Bagels in the Oven_. What is a likely explanation?
+#### Q50. A webpage has this tag: `<title>Brad's Bagels: How to Bake a Bagel</title>`. However, the Google search result for this page displays this title: _Brad's Bagels: Baking Bagels in the Oven_. What is a likely explanation?
 
 - [ ] The title tag was placed within the <HEAD> section of the webpage, but not before the meta content tags, so Google cannot identify the actual title.
 - [ ] The page is using structured data to define an alternative title object, which allows the search engine to pick a preferable version.
@@ -508,51 +508,100 @@
 1. [reference](https://support.google.com/business/answer/7091)
 2. [reference #2](https://www.smartinsights.com/search-engine-optimisation-seo/how-to-adjust-your-nap-profile-for-local-seo/)
 
-#### Q58.A user enters a search \_ to retrieve results from a search engine?
+#### Q58. A user enters a search \_ to retrieve results from a search engine?
 
 - [x] query
 - [ ] parser
 - [ ] bar
 - [ ] link
 
-#### Q59 The search query "How to make donuts without yeast" is an example of what?
+#### Q59. The search query "How to make donuts without yeast" is an example of what?
 
 - [ ] fresh keyword
 - [ ] operative keyword
 - [ ] short-tail keyword
 - [x] long-tail keyword
 
-#### Q60 What tool enables companies to display extra information within the natural search results without the need of any structured data?
+#### Q60. What tool enables companies to display extra information within the natural search results without the need of any structured data?
 
 - [ ] Google Input Tools
 - [ ] structured data testing tool
 - [ ] Google Tag Manager
 - [x] Google My Business
 
-#### Q61 Your client is ready to start a blog. but has read that they should put the blog on a subdomain instead of subdirectory in order to create more external links to their website. How would you advise your client about this strategy?
+#### Q61. Your client is ready to start a blog. but has read that they should put the blog on a subdomain instead of subdirectory in order to create more external links to their website. How would you advise your client about this strategy?
 
 - [ ] Not only should the blog be on a subdomain, but each of the major navigation areas should be on separate subdomains in order to increase the number and value of the links into the primary domain.
 - [x] It is best to have the blog on a subdirectory and build links to primary domain.
 - [ ] It is an advisable choice as it will enable interlinking between the domains and increase the number of links.
 - [ ] The blog should be on a separate URL to avouud building too many links between the same domain or IP.
 
-#### Q62 Blog author pages, each with only one sentence about the author, are at risk of being flagged as **\_** content.
+#### Q62. Blog author pages, each with only one sentence about the author, are at risk of being flagged as **\_** content.
 
 - [ ] non-indexable
 - [ ] irrelevant
 - [ ] biased
 - [x] thin
 
-#### Q63 What is a common benefit to long-tail keywords?
+#### Q63. What is a common benefit to long-tail keywords?
 
-- [ ] They are less competitive, and may have higher conversion rates.
+- [x] They are less competitive, and may have higher conversion rates.
 - [ ] Long-tail keywords are no longer relevant in today's SEO landscape.
 - [ ] They are less grandular, so you capture broader searches.
 - [ ] They are more competitive, but drive significantly more traffic.
 
-#### Q64 You have been asked to help a big e-commerce brand optimize their website for search engines. They currently have thousands of products listed on their website. What is your most appropriate first step?
+#### Q64. You have been asked to help a big e-commerce brand optimize their website for search engines. They currently have thousands of products listed on their website. What is your most appropriate first step?
 
 - [ ] Set campaign goals.
 - [ ] Conduct a technical audit.
 - [ ] Conduct a backlink audit.
 - [ ] Determine keyword strategy.
+
+#### Q65. You are optimizing a large e-commerce website. Which strategy will likely yield the most organic traffic?
+
+- [ ] Launch a Smart Shopping Campaign in Google Ads.
+- [ ] Optimize the home page of your website.
+- [ ] Optimize each product page with a unique product-specific keyword.
+- [ ] Optimize your product category pages.
+
+#### Q66. Google's Search Quality Evaluator Guidelines describe that experts should write content, especially YMYL content. This is one of the principles seen in the commonly used acronym\_\_
+
+- [ ] LEAF
+- [ ] FAT
+- [ ] TRUSTED
+- [ ] ACE
+
+#### Q67. Why might using a subdirectory in place of a subdomain be beneficial?
+
+- [ ] Using a subdirectory is never preferable to using a subdomain.
+- [ ] The subdirectory will allow for keyword dilution.
+- [ ] The subdirectory will benefit from the backlinks the domain has acquired.
+- [ ] The subdirectory is better for the end user experience.
+
+#### Q68. You notice a website is serving different HMTL to a search engine than to a human user. What is this an example of?
+
+- [ ] sneaky redirect
+- [ ] splicing
+- [ ] cloaking
+- [ ] spam injection
+
+#### Q69. Google Search Quality Evaluator Guidelines describe that experts should write content, especially YMYL content. This is one of the principles seen in the Commonly used acronym \_\_\_
+
+- [ ] LEAH
+- [ ] EAT
+- [ ] TRUSTED
+- [ ] ACE
+
+#### Q70. What is the best way to provide a search engine with crawl instructions?
+
+- [ ] Use the <crawl> tag.
+- [ ] Use the search engine's Remove URL tool.
+- [ ] Use a robots.txt file.
+- [ ] Use structured data
+
+#### Q71. All byline dates for articles are suddenly no longer visible on a website's listing within Google Search. Assuming no changes have been made to the site programming or content, what is the most likely cause?
+
+- [ ] The site has been delisted from Google Search.
+- [ ] The site kept updating the date to make the content appear fresh, without changing the content.
+- [ ] The articles have aged more than 365 days without any significant updates to the content or the site.
+- [ ] A Google News sitemap was not provided within 30 days of setting up a Publisher Center account

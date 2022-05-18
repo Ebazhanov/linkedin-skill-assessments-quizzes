@@ -1,0 +1,8 @@
+# Build settings
+markdown: kramdown
+
+# Preserve double and triple dashes
+kramdown:
+  typographic_symbols:
+    mdash: '---'
+    ndash: '--'

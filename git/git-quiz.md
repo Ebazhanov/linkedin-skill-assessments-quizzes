@@ -608,7 +608,7 @@ git checkout -b beta-test
 - [x] Trunk-Based Development
 - [ ] GitHub flow
 
-#### Q73. Which option on the git log command allows you to limit output to commits made after certain data?
+#### Q73. Which option on the git log command allows you to limit output to commits made after certain date?
 
 - [x] `--since`
 - [ ] `--sinceWhen`
@@ -980,3 +980,10 @@ hint: Updates were rejected because the remote contains work that you do not hin
 - [x] git rm config.properties
 - [ ] git rf config.properties
 - [ ] git checkout HEAD -- config.properties
+
+#### Q119. After a recent release with a stack trace, an issue is create that indicates the problem is with a newly added configuration property named MaxConnections. What command can find all commits that add or remove the string MaxConnections?
+
+- [ ] - git grep -a "MaxConnections"
+- [ ] - git log --search-string "MaxConnections"
+- [x] - git log -S "MaxConnections"
+- [ ] - git commit --with "MaxConnections"
