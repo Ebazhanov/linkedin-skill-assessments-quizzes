@@ -1,8 +1,5 @@
-<a href='https://ko-fi.com/C0C31OAG4' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi2.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-
-## Linkedin Quiz Answers, Skill Assessments Test
-
-## Us mentioned on [Medium](https://medium.com/codex/4-github-repos-that-will-help-every-beginner-programmer-bc5c1417da05) [YouTube](https://www.youtube.com/watch?v=XMJGSEvH044)
+Comfortable view [link](https://github1s.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/HEAD/adobe-photoshop/adobe-photoshop-quiz.md)
+-----
 
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
