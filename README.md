@@ -1,6 +1,3 @@
-Comfortable view [link](https://github1s.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/HEAD/adobe-photoshop/adobe-photoshop-quiz.md)
------
-
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -26,6 +23,12 @@ have a great understanding about.
    > https://linkedin-faq.github.io/md2practice/
 
 want to contribute? here is the source code https://github.com/linkedin-faq
+
+
+Comfortable view [here](https://github1s.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/HEAD/adobe-photoshop/adobe-photoshop-quiz.md)
+--
+![Alt text](https://monosnap.com/image/mLe4p9mXeAyiBfIQFMed8eLzZedHMJ)
+
 
 ### Table of Contents
 
