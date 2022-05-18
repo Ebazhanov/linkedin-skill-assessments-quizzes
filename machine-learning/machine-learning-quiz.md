@@ -737,7 +737,7 @@ Note: there are centres of clusters (C0, C1, C2).
 #### Q96. When is a decision tree most commonly used?
 
 - [ ] with big data products
-- [x] for supervised machine learning binary classification challenges 
+- [x] for supervised machine learning binary classification challenges
 - [ ] to find thd best data cluster
 - [ ] to determine "Q" in Q-learning reinforcement learning
 
@@ -748,11 +748,9 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] it will be difficult to decide between supervised and unsupervised learning
 - [ ] the image in the video would not be high quality enough to identify individuals
 
-
 #### Q98. Someone in your datascience team recommends that you use a decision tree, naive bayes, and k-nearest neighbor, all at the same time, on the same training data and average the results. What is this an example of?
 
-- [ ] high variance 
+- [ ] high variance
 - [ ] unsupervised learning
 - [ ] regression analysis
 - [x] ensemble modeling
-
