@@ -788,7 +788,7 @@ export class SettingsService {
 
 getSettings()
 {
-    return this.httpClient.get <Settings> (this.settingsUrl)
+    return this.httpClient.get<Settings>(this.settingsUrl)
         .pipe(
             retry(3)
         );
