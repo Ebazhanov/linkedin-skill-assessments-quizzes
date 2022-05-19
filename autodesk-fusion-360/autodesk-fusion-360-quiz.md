@@ -190,6 +190,8 @@
 
 #### Q28. How many sketches are required to create this object?
 
+![image](https://github.com/101br03k/linkedin-skill-assessments-quizzes/blob/patch-4/autodesk-fusion-360/images/001.png)
+
 - [X] two 
 - [ ] three 
 - [ ] none 
