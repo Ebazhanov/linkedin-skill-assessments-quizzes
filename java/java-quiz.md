@@ -1746,34 +1746,7 @@ _____ oddOrEven = x -> {
 
 [Explaination](https://github.com/0nyr/java/tree/main/examples/lambda_function), [Reference](https://www.geeksforgeeks.org/function-interface-in-java-with-examples/)
 
-#### Q121. What is displayed when this code is compiled and executed?
-
-```java
-import java.util.HashMap;
-
-public class Main {
-    public static void main(String[] args) {
-        HashMap<String, Integer> pantry = new HashMap<>();
-
-        pantry.put("Apples", 3);
-        pantry.put("Oranges", 2);
-
-        int currentApples = pantry.get("Apples");
-        pantry.put("Apples", currentApples + 4);
-
-        System.out.println(pantry.get("Apples"));
-    }
-}
-```
-
-- [ ] 6
-- [ ] 3
-- [ ] 4
-- [x] 7
-
-[Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/what_is_displayed_0)
-
-#### Q122. What variable type should be declared for capitalize?
+#### Q121. What variable type should be declared for capitalize?
 
 ```shell
 List<String> songTitles = Arrays.asList("humble", "element", "dna");
@@ -1788,7 +1761,7 @@ songTitles.stream().map(capitalize).forEach(System.out::println);
 
 [Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/what_variable_type_0), [Reference](https://www.geeksforgeeks.org/function-interface-in-java-with-examples/)
 
-#### Q123. Which is the correct return type for the processFunction method?
+#### Q122. Which is the correct return type for the processFunction method?
 
 ```java
 _____ processFunction(Integer number, Function<Integer, String> lambda) {
@@ -1803,7 +1776,7 @@ _____ processFunction(Integer number, Function<Integer, String> lambda) {
 
 [Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/which_return_type_0)
 
-#### Q124. What function could you use to replace slashes for dashes in a list of dates?
+#### Q123. What function could you use to replace slashes for dashes in a list of dates?
 
 ```java
 List<String> dates = new ArrayList<String>();
@@ -1818,7 +1791,7 @@ dates.replaceAll(replaceSlashes);
 
 **Explanation:** `replaceAll` method for any List<T> only accepts UnaryOperator<T> to pass every single element into it then put the result into the List<T> again.
 
-#### Q125. From which class do all other classes implicitly extend?
+#### Q124. From which class do all other classes implicitly extend?
 
 - [x] `Object`
 - [ ] `Main`
@@ -1827,7 +1800,7 @@ dates.replaceAll(replaceSlashes);
 
 [Explanation](https://stackoverflow.com/questions/17187218/default-class-that-is-extended-by-all-classes-in-java)
 
-#### Q126. How do you create and run a Thread for this class?
+#### Q125. How do you create and run a Thread for this class?
 
 ```java
 import java.util.date;
@@ -1855,7 +1828,7 @@ public class CurrentDateRunnable implements Runnable {
 
 [Reference](https://www.w3schools.com/java/java_threads.asp)
 
-#### Q127. What keyword would _not_ be allowed here?
+#### Q126. What keyword would _not_ be allowed here?
 
 ```java
 class Unicorn {
@@ -1869,7 +1842,7 @@ class Unicorn {
 - [x] `static`
 - [ ] `protected`
 
-#### Q128. Which expression is a functional equivalent?
+#### Q127. Which expression is a functional equivalent?
 
 ```java
 List<Integer> numbers = List.of(1,2,3,4);
