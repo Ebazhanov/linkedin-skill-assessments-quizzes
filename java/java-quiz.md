@@ -1761,22 +1761,7 @@ songTitles.stream().map(capitalize).forEach(System.out::println);
 
 [Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/what_variable_type_0), [Reference](https://www.geeksforgeeks.org/function-interface-in-java-with-examples/)
 
-#### Q122. Which is the correct return type for the processFunction method?
-
-```java
-_____ processFunction(Integer number, Function<Integer, String> lambda) {
-        return lambda.apply(number);
-    }
-```
-
-- [ ] `Integer`
-- [x] `String`
-- [ ] `Consumer`
-- [ ] `Function<Integer, String>`
-
-[Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/which_return_type_0)
-
-#### Q123. What function could you use to replace slashes for dashes in a list of dates?
+#### Q122. What function could you use to replace slashes for dashes in a list of dates?
 
 ```java
 List<String> dates = new ArrayList<String>();
@@ -1791,7 +1776,7 @@ dates.replaceAll(replaceSlashes);
 
 **Explanation:** `replaceAll` method for any List<T> only accepts UnaryOperator<T> to pass every single element into it then put the result into the List<T> again.
 
-#### Q124. From which class do all other classes implicitly extend?
+#### Q123. From which class do all other classes implicitly extend?
 
 - [x] `Object`
 - [ ] `Main`
@@ -1800,7 +1785,7 @@ dates.replaceAll(replaceSlashes);
 
 [Explanation](https://stackoverflow.com/questions/17187218/default-class-that-is-extended-by-all-classes-in-java)
 
-#### Q125. How do you create and run a Thread for this class?
+#### Q124. How do you create and run a Thread for this class?
 
 ```java
 import java.util.date;
@@ -1828,7 +1813,7 @@ public class CurrentDateRunnable implements Runnable {
 
 [Reference](https://www.w3schools.com/java/java_threads.asp)
 
-#### Q126. What keyword would _not_ be allowed here?
+#### Q125. What keyword would _not_ be allowed here?
 
 ```java
 class Unicorn {
@@ -1842,7 +1827,7 @@ class Unicorn {
 - [x] `static`
 - [ ] `protected`
 
-#### Q127. Which expression is a functional equivalent?
+#### Q126. Which expression is a functional equivalent?
 
 ```java
 List<Integer> numbers = List.of(1,2,3,4);
