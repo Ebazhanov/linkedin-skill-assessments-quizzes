@@ -564,12 +564,14 @@
 - [ ] Optimize each product page with a unique product-specific keyword.
 - [ ] Optimize your product category pages.
 
-#### Q66. Google's Search Quality Evaluator Guidelines describe that experts should write content, especially YMYL content. This is one of the principles seen in the commonly used acronym\_\_
+#### Q66. Google search quality Evaluator Guidelines Describe that experts should write content,especially YMYL content. This is one of the principles seen in the commonly used acronym_______.
 
-- [ ] LEAF
-- [ ] FAT
-- [ ] TRUSTED
-- [ ] ACE
+- [ ] A.C.E 
+- [ ] L-E-A-F
+- [ ] T.R.U.S.T.E.D
+- [x] E-A-T
+
+[Reference](https://moz.com/blog/google-e-a-t)
 
 #### Q67. Why might using a subdirectory in place of a subdomain be beneficial?
 
@@ -585,21 +587,14 @@
 - [ ] cloaking
 - [ ] spam injection
 
-#### Q69. Google Search Quality Evaluator Guidelines describe that experts should write content, especially YMYL content. This is one of the principles seen in the Commonly used acronym \_\_\_
-
-- [ ] LEAH
-- [ ] EAT
-- [ ] TRUSTED
-- [ ] ACE
-
-#### Q70. What is the best way to provide a search engine with crawl instructions?
+#### Q69. What is the best way to provide a search engine with crawl instructions?
 
 - [ ] Use the <crawl> tag.
 - [ ] Use the search engine's Remove URL tool.
-- [ ] Use a robots.txt file.
+- [x] Use a robots.txt file.
 - [ ] Use structured data
 
-#### Q71. All byline dates for articles are suddenly no longer visible on a website's listing within Google Search. Assuming no changes have been made to the site programming or content, what is the most likely cause?
+#### Q70. All byline dates for articles are suddenly no longer visible on a website's listing within Google Search. Assuming no changes have been made to the site programming or content, what is the most likely cause?
 
 - [ ] The site has been delisted from Google Search.
 - [ ] The site kept updating the date to make the content appear fresh, without changing the content.
