@@ -23,7 +23,7 @@ have a great understanding about.
 want to contribute? here is the source code https://github.com/linkedin-faq
 
 
-Open in VScode view [here](https://github1s.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/HEAD/adobe-photoshop/adobe-photoshop-quiz.md) :point_left:
+Open in VScode view [here](https://github1s.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/HEAD/adobe-photoshop/adobe-photoshop-quiz.md) 🔥
 --
 ![Alt text](https://monosnap.com/image/mLe4p9mXeAyiBfIQFMed8eLzZedHMJ)
 
