@@ -694,7 +694,7 @@ export class BioComponent { }
 ```javascript
 @Component({
    selector: 'app-user-card',
-   template: '<app-title-card></app-title-card><p>3enny Smith</p>'
+   template: '<app-title-card></app-title-card><p>Jenny Smith</p>'
 })
 
 @Component({
@@ -713,7 +713,7 @@ export class BioComponent { }
   <app-title-card>
     <h1>User Data</h1>
   </app-title-card>
-  <p>genny Smith</p>
+  <p>Jenny Smith</p>
 </app-user-card>
 ```
 
@@ -779,7 +779,7 @@ providers: [{ provide: 'Logger' }];
 
 [Angular.io - Dependency Injection In Action](https://angular.io/guide/dependency-injection-in-action#supply-a-custom-provider-with-inject)
 
-#### Q42. Which choice best describes the following usage of the HttpClient . get method in the getsettings class method?
+#### Q42. Which choice best describes the following usage of the HttpClient.get method in the getsettings class method?
 
 ```javascript
 export class SettingsService {
@@ -788,7 +788,7 @@ export class SettingsService {
 
 getSettings()
 {
-    return this.httpClient.get < Settings > (this.settingsUrl)
+    return this.httpClient.get<Settings>(this.settingsUrl)
         .pipe(
             retry(3)
         );
@@ -823,7 +823,7 @@ const userService = TestBed.get(UserService);
 
 - [ ] The TestBed is required anytime you want to make use of a spy object in a unit test for an Angular provider.
 - [ ] The TestBed is being used to test a component's view.
-- [x] The TestBed scaffolds an NgModule with two providers and handles any dependeny injection. If any Angular class requests the DataService in its constructor, the TestBed will inject spy in that constructor.
+- [x] The TestBed scaffolds an NgModule with two providers and handles any dependency injection. If any Angular class requests the DataService in its constructor, the TestBed will inject spy in that constructor.
 - [ ] The TestBed is configuring the test runner to tell it to only execute tests for the two providers listed in its providers array.
 - `All other tests be ignored, including tests that assert results against one of these providers and a non-defined provider.`
   `Although it will work when multiple providers in this configuration are asserted against in a single test.`
@@ -1068,7 +1068,7 @@ export const APP_SETTINGS = new Injection<AppSettings>('app.settings');
 - [ ] submit(ngForm.value)
 - [ ] submit(FirstName, lastName)
 
-#### Q54. What is the purpose of the prelodingStrategy property configuration in this router code?
+#### Q55. What is the purpose of the prelodingStrategy property configuration in this router code?
 
 ```
 RouterModule.forRoot (
@@ -1084,7 +1084,7 @@ RouterModule.forRoot (
 - [ ] It ensures all modules get built into a single app module bundle file.
 - [ ] It configures the router to immediately load all routes that have a loadChildren property(routes that are typically loaded when requested)
 
-#### Q55. What is an alternative way to write this markup to bind the value of the class field `userName` to the `h1` element title property?
+#### Q56. What is an alternative way to write this markup to bind the value of the class field `userName` to the `h1` element title property?
 
 ```html
 <h1 [title]="userName">Current user is {{ userName }}</h1>
@@ -1095,7 +1095,7 @@ RouterModule.forRoot (
 - [ ] title="{{ 'userName' }}"
 - [ ] The only way to do it is by using the square brackets.
 
-#### Q56. What is the `async` pipe doing in this example?
+#### Q57. What is the `async` pipe doing in this example?
 
 ```ts
 @Component({
@@ -1116,7 +1116,7 @@ export class UsersComponent implements OnInit {
 - [x] It is subscribing to the observable returned from the `HttpClient.get` method and unwrapping the returned value so it can be iterated over in the `ngFor`.
 - [ ] It is allowing all of the users in the `users` field to be rendered concurrently to the DOM.
 
-#### Q57. How would you make use of this directive in markup based on its selector value
+#### Q58. How would you make use of this directive in markup based on its selector value
 
 ```ts
 @Directive({
