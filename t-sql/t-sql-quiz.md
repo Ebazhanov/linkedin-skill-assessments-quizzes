@@ -540,7 +540,7 @@ _______
 - [ ] `INDEX ON PersonID (PRIMARY KEY PK_People)`
 - [ ] `ADD NONCLUSTERED PRIMARY KEY CONSTRAINT PK_People ON PersonID`
 - [ ] `CONSTRAINT PK_People PRIMARY KEY NONCLUSTERED (PersonID)`
-- [ ] `PRIMARY KEY CONSTRAINT (PersonID) NONCLUSTERED INDEX`
+- [x] `PRIMARY KEY CONSTRAINT (PersonID) NONCLUSTERED INDEX`
 
 #### Q44. Which statement could you use to select a random student from this table?
 
@@ -557,3 +557,26 @@ _______
 - [ ] `CREATE BACKUP (DATABASE = 'MyDatabase' TO DISK = 'Z:\Backups\MyDatabase. bak');`
 - [ ] `BACKUP DATABASE MyDatabase ON 'Z:\Backups\MyDatabase.bak';`
 - [x] `BACKUP DATABASE MyDatabase TO DISK = 'z:\Backups\MyDatabase.bak';`
+
+
+#### Q46. Suppose you want to have the name of a transaction called myTransaction recorded in the transaction log. Which statement represents the best way to accomplish this?
+
+- [ ] `BEGIN TRAN myTransaction BEGIN LOG;BEGIN TRAN myTransaction BEGIN LOG;`
+- [ ] `BEGIN TRAN myTransaction WITH LOG;BEGIN TRAN myTransaction WITH LOG;`
+- [ ] `BEGIN TRAN myTransaction WITH MARK;BEGIN TRAN myTransaction WITH MARK;`
+- [ ] `BEGIN TRAN WITH MARK myTransaction;BEGIN TRAN WITH MARK myTransaction;`
+
+#### Q47. Though not currently a requirement, what will a future release of SQL Server require of all SQL statements?Though not currently a requirement, what will a future release of SQL Server require of all SQL statements?
+
+- [x] `All statements must end with a semicolon.`
+- [ ] `All statements must operate on a table of data.`
+- [ ] `All statements must always be written in uppercase letters.`
+- [ ] `All statements must include more than one variable.`
+ 
+#### Q48. Which is the best approach to update the last name and email address of a student with ID 56295? 
+
+- [ ] `UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id='56295';`
+- [x] `UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id=56295;`
+- [ ] `UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id=56295;`
+- [ ] `UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id='56295';`
+

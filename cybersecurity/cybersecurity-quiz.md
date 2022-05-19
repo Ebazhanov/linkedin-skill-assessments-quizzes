@@ -778,3 +778,28 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] Take the server offline until your investigation is complete.
 - [x] Take a snapshot of the compromised virtual server for your investigation.
 - [ ] Restart the server. Remediate the issue after business hours.
+
+#### Q102. Site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space **\_**.Site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space **\_**.
+
+- [ ] 192.168.0.1/24192.168.0.1/24
+- [ ] 192.168.0.3/24192.168.0.3/24
+- [ ] 10.10.0.0/2410.10.0.0/24
+- [ ] 192.168.0.2/24
+
+#### Q103. You are researching probable threats to your company’s internet-facing web applications. Which organization should you reference as an authoritative source for information on web-based attack vectors?You are researching probable threats to your company’s internet-facing web applications. Which organization should you reference as an authoritative source for information on web-based attack vectors?
+
+- [ ] EC-Council
+- [ ] ISACAISACA
+- [ ] NISTNIST
+- [x] OWASP
+
+[Explanation:](https://www.imperva.com/learn/application-security/application-security/)
+
+#### Q104. Which action is most likely to simplify security staff training, improve integration between security components, and reduce risk to the business? (Choose the best answer.)Which action is most likely to simplify security staff training, improve integration between security components, and reduce risk to the business? (Choose the best answer.)
+
+- [ ] adopting a "best-in-suite" approach to securityadopting a "best-in-suite" approach to security
+- [x] adopting a "trust but verify" approach to securityadopting a "trust but verify" approach to security
+- [ ] adopting a "best-of-breed" approach to securityadopting a "best-of-breed" approach to security
+- [ ] adopting a "defense-in-depth" approach to security
+
+[Explanation:](https://www.law.com/njlawjournal/2021/12/03/zero-trust-security-moving-from-trust-but-verify-to-never-trust-always-verify/?slreturn=20220417191235)
