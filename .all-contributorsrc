@@ -8941,6 +8941,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "spencerstith",
+      "name": "Spencer Stith",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42558850?v=4",
+      "profile": "https://github.com/spencerstith",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
