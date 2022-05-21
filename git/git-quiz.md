@@ -736,7 +736,7 @@ Which of the following options is correct ?
 - [ ] `git push --assert`
 - [x] `git push --force-with-lease`
 
-#### Q90. What is the difference between `git fetch` amd `git pull`
+#### Q90. What is the difference between `git fetch` and `git pull`
 
 - [ ] `git fetch` creates a new branch off the master branch, while `git pull` creates a new branch off the local repository's master branch.
 - [ ] `git pull` downloads new data from a remote repository without integrating it into local files, while `git fetch` updates the current HEAD branch with the latest changes from the remote server.
