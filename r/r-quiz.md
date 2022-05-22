@@ -346,8 +346,21 @@ StopDate-StartDate
 
 - [ ] it transpose **mtrx**
 - [ ] it premultiplies the current **netwmat** row by the **newmat** column.
-- [x] it returns the results of a matrix multiplication
-- [ ] It squares each cell in **mtrx**
+- [ ] it returns the results of a matrix multiplication
+- [x] It squares each cell in **mtrx**
+
+```r
+> newmat
+     [,1] [,2]
+[1,]    9   25
+[2,]   64   16
+
+# The `%*%` operator gives matrix multiplication
+> mtrx %*% mtrx
+     [,1] [,2]
+[1,]   49   35
+[2,]   56   56
+```
 
 #### Q35. Which function in R combines different values into a single object?
 
@@ -457,9 +470,20 @@ result <- lm(outcome ~ covariate + factor + covariate:factor, data = testcoef)
 ```
 
 - [ ] It forces the intercepts of the individual regressions to zero.
-- [ ] It calls for the effect of the covariate within each level of the factor.
+- [x] It calls for the effect of the covariate **within each level of the factor**.
 - [ ] It calls for the effect of each variable from covariate to factor in testcoef.
 - [ ] It forces the covariate to enter the equation before the factor levels.
+
+```r
+# Example call to demonstrate.  `Species` is a Factor.  Petal.Length, Petal.Width are numeric.
+# see `help(formula)` for more details on the formula specification.  `:` is "effect modification" or "interaction"
+
+> summary(lm(Petal.Length ~ Petal.Width + Species + Petal.Width:Species, data = iris))
+...
+Petal.Width:Speciesversicolor   1.3228     0.5552   2.382   0.0185 *
+Petal.Width:Speciesvirginica    0.1008     0.5248   0.192   0.8480
+...
+```
 
 #### Q45. A variable whose type is numeric can contain which items?
 
@@ -509,7 +533,7 @@ result <- lm(outcome ~ covariate + factor + covariate:factor, data = testcoef)
 - [ ] month(x)
 - [ ] attr(x)
 
-### Q51. How do you obtain the row numbers in a data frame named `pizza` for which the value of `pizza$delivery_min` is greater than or equal to 30?
+#### Q51. How do you obtain the row numbers in a data frame named `pizza` for which the value of `pizza$delivery_min` is greater than or equal to 30?
 
 - [ ]
 

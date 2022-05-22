@@ -157,7 +157,7 @@
 #### Q23. What is the purpose of an operational audit?
 
 - [ ] assessing the company's compliance with environmental laws and regulations
-- [ ] evaluating whether the organization is meeting the metrics set by management in order to achieve the goals and objectives set forth by the board of directors
+- [x] evaluating whether the organization is meeting the metrics set by management in order to achieve the goals and objectives set forth by the board of directors
 - [ ] assessing the organization's control mechanisms for overall efficiency and reliability
 - [ ] evaluating compliance with applicable laws, regulations, policies, and procedures
 
@@ -209,3 +209,15 @@
 - [ ] An auditor's report
 - [ ] Listing of the stockholders
 - [ ] Management discussion and analysis
+
+#### Q32. What does "independence" mean in auditing?
+- [ ] being an advocate for all clientsbeing an advocate for all clients
+- [ ] not being dependent on a client's feenot being dependent on a client's fee
+- [ ] having only indirect financial interests in the auditeehaving only indirect financial interests in the auditee
+- [ ] taking an unbiased viewpoint
+
+#### Q33. What would cause a bank to increase a depositor's account?
+- [ ] collecting a note receivable
+- [ ] paying a note payable
+- [ ] NSF checks
+- [ ] service changes

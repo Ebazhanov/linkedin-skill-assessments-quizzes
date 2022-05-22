@@ -403,4 +403,36 @@ Explanation: _BigQuery offers a choice of two pricing models for runnig queries:
 - [ ] Create a VM instance, and then SSH into the instance and install Kubernetes tools.
 - [ ] Create a VM instance, and then SSH into the instance and install Docker tools.
 - [ ] Create a VM instance and, in the web UI, select Allow HTTP traffic.
-- [ ] Create a VM instance and, in the web Ul, select Deploy a container image to this instance.
+- [x] Create a VM instance and, in the web Ul, select Deploy a container image to this instance.
+
+#### Q54. To configure a GCP Organization, which item should you create first?To configure a GCP Organization, which item should you create first?
+
+- [x] Admin account
+- [ ] Super Admin account
+- [ ] multi-factor authentication
+- [ ] recovery password
+
+#### Q55. Which container(s) does Google Kubernetes Engine support?Which container(s) does Google Kubernetes Engine support?
+
+- [ ] Docker or Singularity
+- [ ] Docker, Singularity, or containerd
+- [ ] Singularity only
+- [x] Docker only
+
+#### Q56. Cloud Genomics enables pipelines to run on top of which GCP service?Cloud Genomics enables pipelines to run on top of which GCP service?
+
+- [x] Cloud Dataflow
+- [ ] Google Kubernetes Engine
+- [ ] Cloud Dataproc
+- [ ] Compute Engine
+
+#### Q57. You want to encrypt a Compute Engine image. What do you need to do ?
+
+- [ ] Nothing. Images are encrypted by default with a Google - managed key.
+- [ ] Associate your image with the default Google-managed key to encrypt it.
+- [ ] Nothing. Images are encrypted by default with a customer-managed key.
+- [x] Associate your image with a customer-managed key to encrypt it.
+
+Explanation: Google does not store your keys on its servers and cannot access your protected data unless you provide the key. This also means that if you forget or lose your key, there is no way for Google to recover the key or to recover any data encrypted with the lost key.
+
+[Reference](https://cloud.google.com/compute/docs/disks/customer-supplied-encryption)

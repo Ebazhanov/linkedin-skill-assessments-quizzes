@@ -7,7 +7,7 @@
 - [ ] It displays a single post.
 - [x] all of these answers
 
-#### Q2.Who owns the trademark for WordPress and WordCamp names and logos?
+#### Q2. Who owns the trademark for WordPress and WordCamp names and logos?
 
 - [x] WordPress Foundation (The WordPress Foundation owns and oversees the trademarks for the WordPress and WordCamp names and logos.)
 - [ ] WordPress.com
@@ -494,7 +494,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] the software is free to use
 - [ ] the software is free to modify
 
-#### Q59 Review of the HTML on line1. The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting into the database. What is wrong with this PHP code?
+#### Q59. Review of the HTML on line1. The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting into the database. What is wrong with this PHP code?
 
 ```
 <input type="text" id="title" name="title" />
@@ -692,3 +692,31 @@ endif;
 - [ ] widgets
 - [ ] layout
 - [x] shortcodes
+
+#### Q81. What service is used to manage user profile photos across any WordPress site?
+
+- [x] Gravatar
+- [ ] WordPress.org
+- [ ] None. Just upload a profile photo from your site user account.
+- [ ] Profile Photo plugin
+
+#### Q82. Which is not a benefit of DRY code?
+
+- [ ] The code can be reused.
+- [x] The code is less abstracted.
+- [ ] The code is easier to read.
+- [ ] The code is easier to maintain.
+
+#### Q83. Which of these does not impact your site speed?
+
+- [ ] caching
+- [ ] your web host
+- [x] inactive plugins
+- [ ] content delivery network (CDN)
+
+#### Q84. Where do you configure global settings for comments on your WordPress site?
+
+- [ ] Tools screen
+- [ ] wp-config.php
+- [ ] cPanel
+- [x] Discussion Settings

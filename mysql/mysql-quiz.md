@@ -148,10 +148,10 @@
 
 #### Q11. What is the product of the database designing phase?
 
-- [ ] system definition
-- [x] logical model
-- [ ] physical model
-- [ ] normalized database
+- [ ] a list of entities, their relationship, constraints, data types, and cardinalities
+- [ ] a list of entities, their relationship, and constraints
+- [ ] all tables and their names, which are needed to implement the logical model
+- [ ] all tables, columns, data types, indexes and their relationship
 
 `Logical, physical and normalized are all products of the designing phase in this order.`
 
@@ -364,7 +364,7 @@
 - [ ] documents cannot be validated when stored in json columns
 - [ ] cannot be normalized
 
-#### Q41.Which statement is true for the diagram below
+#### Q41. Which statement is true for the diagram below
 
 ![mysql Q41](images/mysql_q41.jpg)
 
@@ -373,21 +373,23 @@
 - [x] customerid is the foreign key for customers.id
 - [ ] customerid is the primary key for purchases
 
-#### Q42.Which statement can you use to load data from a file into the table?
+#### Q42. Which statement can you use to load data from a file into the table?
 
 - [ ] cat file|mysql
 - [x] load data infile (correct if the file is already on the server)
 - [ ] load data local infile (also correct but only if the file is from the client)
 - [ ] extended insert statement
 
-#### Q43. See tables in the diagram. Make sure that any record added to the purchase table consists of a customerId, which exists in the customer table and a carId, which exists in the car table. You decide to use a trigger to do the validation. Which one?
+#### Q43. You are working with the tables as shown in this diagram. You need to make sure that any record added to the purchases table consists of a customerID, which already exists in the customers table, and a carID, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
 
 ![mysql Q43](images/mysql_q43.jpg)
 
-- [ ] after insert
-- [ ] if exists (invalid not a trigger; IF function + EXISTS clause)
-- [x] before insert
-- [ ] cross join (valid for a check but not a trigger)
+- [ ] `AFTER INSERT`
+- [x] `BEFORE INSERT`
+- [ ] `CROSS JOIN`
+- [ ] `IF EXISTS`
+
+`IF EXISTS` and `CROSS JOIN` are not valid for a trigger.
 
 #### Q44. Which is the correct syntax of an extended insert statement?
 
@@ -870,23 +872,14 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] `Create table size (name: ENUM['Small','Medium','Large']);`
 - [x] `Create table size (name ENUM('Small','Medium','Large'));`
 
-#### Q96. You are working with the tables as shown in this diagram. You need to make sure that any record added to the purchases table consists of a customerID, which already exists in the customers table, and a carID, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
-
-![mysql picture](images/mysql_q92.png)
-
-- [x] `IF EXISTS`
-- [ ] `AFTER INSERT`
-- [ ] `BEFORE INSERT`
-- [ ] `CROSS JOIN`
-
-#### Q97. The mysqldump command cannot generate output in **\_**.
+#### Q96. The mysqldump command cannot generate output in **\_**.
 
 - [x] JSON
 - [ ] CSV
 - [ ] XML
 - [ ] TXT
 
-#### Q98. You are working with the tables as shown in this diagram. You need to generate the list of all cars, whether or not they had been sold, with the purchase date of the cars that were sold. Which statement accomplishes that?
+#### Q97. You are working with the tables as shown in this diagram. You need to generate the list of all cars, whether or not they had been sold, with the purchase date of the cars that were sold. Which statement accomplishes that?
 
 ![mysql picture](images/mysql_q98.png)
 
@@ -952,7 +945,7 @@ SELECT cars.*, purchases.date FROM cars LEFT JOIN purchases ON cars.ID = purchas
     END IF;
 ```
 
-- [X] D
+- [x] D
 
 ```
     IF var1 = 1 THEN SET varA = var1;
@@ -965,6 +958,45 @@ SELECT cars.*, purchases.date FROM cars LEFT JOIN purchases ON cars.ID = purchas
 #### Q99. Why would you use stored functions?
 
 - [ ] for formulas and business rules that you want to apply to columns in an SQL query
-- [X] for formulas and business rules that should be applied on a specific trigger event like on inserts
+- [x] for formulas and business rules that should be applied on a specific trigger event like on inserts
 - [ ] to automatically modify the data of a table based on a query
 - [ ] for reusing recurring queries
+
+#### Q100. What steps do you need to take to normalize the table from this diagram?
+
+Table name: superheroes
+| name | alias | power1 | power2 | power3 |
+| ---- | ----- | ------ | ------ | ------ |
+| Superman | Clark Kent | Flight | X-Ray Vision | Super Strength |
+| Wonder Woman | Diana Prince | Force Fields | Reflexes | Telepathy |
+| Spider-man | Peter Parker | Walcrawling | Web-making | Enhanced Senses |
+| Aquaman | Arthur Curry | Underwater Breathing | Enhanced Sight | Stamina |
+| Hulk | Bruce Banner | Super Strength | Radiation Immunity | Invulnerability |
+
+- [x] Create another table to serve as a lookup for powers with fields for code and description, as well as a junction table with superhero names and power codes.
+- [ ] Add a column to this table to serve as a record identifier, and make it the primary key.
+- [ ] Extend this table to have additional columns "power4," "power5," and so on, to allow additional powers for each superhero.
+- [ ] Convert this table to have column called "power," and add one record for each superhero-power combination, for a total of 15 records in this example.
+
+#### Q101. What is valid way to create a database view in MySQL?
+
+- [ ] 1 CREATE VIEW v1 2 SELECT \* FROM t1 3 WHERE col1 &gt; 10;
+- [ ] 1 CREATE VIEW v1 2 BEGIN 3 SELECT \* FROM t1 4 END
+- [ ] 1 CREATE VIEW v1 AS 2 SELECT \* FROM t1;
+- [ ] 1 CREATE VIEW v1 AS 2 BEGIN 3 SELECT \* FROM t1 4 END;
+
+#### Q102. A table Item has a Boolean field endOfLife and a field makeYear of type YEAR(4). How can you set the Boolean to true for all Items that have been made before 2019?A table Item has a Boolean field endOfLife and a field makeYear of type YEAR(4). How can you set the Boolean to true for all Items that have been made before 2019?
+
+- [ ] UPSERT Item SET endOfLife = true WHERE makeYear < 2019UPSERT Item SET endOfLife = true WHERE makeYear < 2019
+- [ ] CHANGE Item SET endOfLife = true WHERE makeYear < 2019CHANGE Item SET endOfLife = true WHERE makeYear < 2019
+- [ ] ALTER Item SET endOfLife = true WHERE makeYear < 2019ALTER Item SET endOfLife = true WHERE makeYear < 2019
+- [ ] UPDATE Item SET endOfLife = true WHERE makeYear < 2019
+
+#### Q103. Which choice is an example of an aggregate function?Which choice is an example of an aggregate function?
+
+- [ ] NOW()NOW()
+- [ ] MID()MID()
+- [ ] FORMAT()FORMAT()
+- [x] COUNT()
+
+[Reference](https://www.sqltutorial.org/sql-aggregate-functions/)

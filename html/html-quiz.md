@@ -617,7 +617,7 @@ This is a confusing question and there can be an arguments for both the second a
 - [ ] device
 - [x] media
 
-#### Q38. What is semantically correct way to mark up this layout?
+#### Q38. What is the semantically correct way to mark up this layout?
 
 ![quote](images/ss-5.png?raw=true)
 
@@ -908,7 +908,7 @@ This is a confusing question and there can be an arguments for both the second a
 - [ ] Use the `<pre>` tag to make the line spacing look exactly like you want.
 - [ ] Separate the lines with the `<br>` tag.
 
-#### Q58.What does the `<wbr>` tag do?
+#### Q58. What does the `<wbr>` tag do?
 
 - [ ] It requires the browser to wrap the current line at that point.
 - [ ] It breaks a word into two pieces, using a hyphen to connect the words.
@@ -1038,16 +1038,17 @@ This is a confusing question and there can be an arguments for both the second a
 - [x] It runs the script when the script is ready.
 - [ ] It pauses the parsing of HTML code while the script runs.
 
-#### Q67. What does this code?
+#### Q67. What does this code do on a page you are visiting for the first time?
 
 `<audio autoplay loop src="sound.mp3" type="audio/mpeg"></audio>`
 
-- [ ] When the **play** button is pressed, the browser plays the sounds over and over again until the user stops it.
+- [ ] When the **Play** button is pressed, the browser plays the sound over and over again until the user stops it.
 - [ ] The browser plays the sound once automatically in the background. The user has no control over the sound.
 - [ ] The browser plays the sound automatically and continuously in the background. The user may stop the sound at any tune.
-- [x] The browser plays the sound automatically and continuously in the background. The user has no control over the sound.
+- [x] It does nothing. Modern browsers require some form of interaction before they let a page autoplat with audio.
 
-[Reference(MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
+References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio),
+[(MDN) autoplay](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
 
 #### Q68. What is the difference between the `<head>` and `<header>` tags?
 
@@ -1813,3 +1814,82 @@ As Steve Krug once said, happy talk must die.
   </tr>
 </table>
 ```
+
+#### Q112. Which description list is coded correctly?
+
+- [ ] A
+
+```HTML
+<dl>
+  <dd>Server</dd>
+  <dt>Software used to serve webpages, like Apache.</dt>
+  <dt>Hardware used to provide data to other computers.</dt>
+  <!-- Other terms and descriptions -->
+</dl>
+```
+
+- [ ] B
+
+```HTML
+<dl>
+  <dt>Server</dt>
+  <dd>Software used to serve webpages, like Apache.</dd>
+  <dd>Hardware used to provide data to other computers.</dd>
+  <!-- Other terms and descriptions -->
+</dl>
+```
+
+- [ ] C
+
+```HTML
+<dt>
+  <dl>Server</dl>
+  <dd>Software used to serve webpages, like Apache.</dd>
+  <dd>Hardware used to provide data to other computers.</dd>
+  <!-- Other terms and descriptions -->
+</dt>
+```
+
+- [ ] D
+
+```HTML
+<dl>
+  <dt>Server</dt>
+  <dd>Software used to serve webpages, like Apache.</dd>
+  <dt>Hardware used to provide data to other computers.</dt>
+  <!-- Other terms and descriptions -->
+</dl>
+```
+
+#### Q113. What is the best semantic markup for this sentence? On July 21, 1969, Neil Armstrong said, "That's one small step for man, one giant leap for mankind.
+
+- [x] A
+
+```HTML
+  <p>On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11/a11.step.html">That's one small step for man, one giant leap for mankind.</q></p>
+```
+
+- [ ] B
+
+```HTML
+<p>On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11/a11.step.html">That's one small step for man, one giant leap for mankind.</q></p>
+```
+
+- [ ] C
+
+```HTML
+<p>On July 21, 1969, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11/a11.step.html">"That's one small step for man, one giant leap for mankind."</q></p>
+```
+
+- [ ] D
+
+```HTML
+<p>On July 21, 1969, Neil Armstrong said, <q>"That's one small step for man, one giant leap for mankind."</q></p>
+```
+
+#### Q114. The value attribute is associated with which set of tags?
+
+- [ ] `<button> <input> <form>`
+- [x] `<li> <input> <option>`
+- [ ] `<input> <label> <meter>`
+- [ ] `<input> <option> <textarea>`

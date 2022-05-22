@@ -112,7 +112,7 @@ public class Test implements InitializingBean {
      @Autowired
      ApplicationContext context;
      @Autowired
-     static SimpleDateFormt formatter;
+     static SimpleDateFormat formatter;
 
      @Override
      public void afterPropertiesSet() throws Exception {
@@ -580,7 +580,7 @@ Explanation: `@Bean`-method in `@Configuration` must be overridable. Remove the 
 - [ ] bean size
 - [x] bean name
 
-### Q59. What is the result of calling the map controller method using the following HTTP request?
+#### Q59. What is the result of calling the map controller method using the following HTTP request?
 
 ```
 POST localhost:8080/map

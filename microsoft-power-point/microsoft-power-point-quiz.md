@@ -473,7 +473,9 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] Protect Presentation
 - [ ] Inspect Document
 - [ ] Check Compatibility
-- [ ] Check Accessibility
+- [x] Check Accessibility
+
+[Reference](https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25#bkmk_testwin)
 
 #### Q62. How can you filter the series and/or categories in a chart?
 
@@ -630,3 +632,24 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] Transparency
 - [ ] Corrections
 - [ ] Artistic Effects
+
+#### Q82. How can you create a new presentation that includes prebuild layouts, colors, fonts, background styles, and content?
+
+- [ ] Use a theme.
+- [ ] Use a design.
+- [ ] Use a template.
+- [ ] Use a style.
+
+#### Q83. How can you reorder the levels of shapes in a SmartArt diagram?
+
+- [ ] Promote or demote the shapes.
+- [ ] Move the shapes up and down.
+- [ ] Change shapes from left to right.
+- [ ] Retype the text.
+
+#### Q84. When you insert a new slide in a presentation, where is it placed in relation to the exsisting slides?
+
+- [ ] as the first slide.
+- [ ] before the current slide.
+- [ ] at the end of the exsisting slide.
+- [x] after the currently selected slide.

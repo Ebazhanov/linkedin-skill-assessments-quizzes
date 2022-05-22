@@ -1686,7 +1686,7 @@ num_list[len(num_list) // 2]
 
 [Reference](https://www.tutorialspoint.com/python_text_processing/python_string_immutability.htm)
 
-### Q127. What is the output of this code?
+#### Q127. What is the output of this code?
 
 ```python
 def myFunction(country = "France"):
@@ -1800,3 +1800,28 @@ for x in range(1, len(characters)):
 - [ ] Int
 - [ ] Float
 - [x] Double
+
+#### Q134. What will be the output of this code?
+
+```python
+[1,2,3] * 3
+```
+
+- [ ] `[3,2,3]`
+- [x] `[1, 2, 3, 1, 2, 3, 1, 2, 3]`
+- [ ] You will get a type error.
+- [ ] `[3,6,9]`
+
+#### Q135. Given a list defined as numbers = `[1,2,3,4]`, what is the value of `numbers[-2]`?
+
+- [ ] 1
+- [x] 3
+- [ ] 2
+- [ ] An IndexError exception is thrown.
+
+#### Q136. Which statement about strings in Python is true?
+
+- [x] Strings can be enclosed by double quotes (") or single quotes (').
+- [ ] Strings can only be enclosed in single quotes (').
+- [ ] Single character strings must be enclosed in single quotes ('), and the rest must be enclosed in double quotes (").
+- [ ] Strings can only be enclosed in double quotes (").

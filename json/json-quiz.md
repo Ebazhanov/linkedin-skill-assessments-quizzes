@@ -733,8 +733,8 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 #### Q63. What characters are used to enclose an array?
 
-- [x] []
-- [ ] {}
+- [ ] []
+- [x] {}
 - [ ] ""
 - [ ] ()
 
@@ -857,42 +857,42 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] TRUE, FALSE, NULL
 - [ ] true, false, null
 
-### Q81. Which character _cannot_ be part of string data within JSON without additional formatting?
+#### Q81. Which character _cannot_ be part of string data within JSON without additional formatting?
 
 - [ ] /
 - [x] "
 - [ ] :
 - [ ] \-
 
-### Q82. If an object key contains spaces, how can you access its value in JavaScript?
+#### Q82. If an object key contains spaces, how can you access its value in JavaScript?
 
 - [ ] Remove spaces from the key before accessing the value.
 - [ ] Use dot notation to access the value.
 - [ ] Use object key index to access the value.
 - [x] Use bracket notation to access the value.
 
-### Q83. When parsing JSON, "caching" is a method used to \_.
+#### Q83. When parsing JSON, "caching" is a method used to \_.
 
 - [ ] remove duplicate data from a server
 - [x] temporarily store data for faster access
 - [ ] store excess information in chunks to be reviewed later
 - [ ] clog up a web browser with useless information
 
-### Q84. What is the only valid whitespace character within a string that does not require an escape character?
+#### Q84. What is the only valid whitespace character within a string that does not require an escape character?
 
 - [ ] line break
 - [x] space
 - [ ] tab
 - [ ] return
 
-### Q85. What technique can you use to safely encode very large numbers?
+#### Q85. What technique can you use to safely encode very large numbers?
 
 - [x] Store the number as a string
 - [ ] Convert the number into an exponent.
 - [ ] Round the number to the nearest 10-digit number.
 - [ ] Split the number into smaller parts.
 
-### Q86. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the data type?
+#### Q86. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the data type?
 
 ```json
 variance: -0.0823
@@ -905,7 +905,7 @@ variance: -0.0823
 
 [Reference data types in json](https://www.w3schools.com/js/js_json_datatypes.asp)
 
-### Q87. Based on the JSON object shown, which JavaScript code would you use to find out what is in this vehicle's glove box while assigning the glove box contents to a new variable?
+#### Q87. Based on the JSON object shown, which JavaScript code would you use to find out what is in this vehicle's glove box while assigning the glove box contents to a new variable?
 
 ```js
 myVehicleContents = {
@@ -949,7 +949,7 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 
-### Q88. What characters are used to define an object?
+#### Q88. What characters are used to define an object?
 
 - [ ] ||
 - [x] {}

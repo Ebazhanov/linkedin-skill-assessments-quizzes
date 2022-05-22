@@ -794,7 +794,7 @@ a = a^2;
 - [ ] 17
 - [x] 9
 
-#### Q51.What is a difference between global variable and persistent variables?
+#### Q51. What is a difference between global variable and persistent variables?
 
 - [ ] Global variables have a higher performance overhead than persistent variables.
 - [ ] Global variables remain in memory after clear all; persistent variables do not.

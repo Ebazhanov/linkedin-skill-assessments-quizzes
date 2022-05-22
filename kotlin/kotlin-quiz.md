@@ -1,4 +1,4 @@
-# Kotlin
+## Kotlin
 
 #### Q1. You would like to print each score on its own line with its cardinal position. Without using **var** or **val**, which method allows iteration with both the value and its position?
 
@@ -184,7 +184,7 @@ fun main() {
 
 [reference](https://discuss.kotlinlang.org/t/inlining-tiny-methods/17084)
 
-#### Q15.How do you fill in the blank below to display all of the even numbers from 1 to 10 with least amount of code?
+#### Q15. How do you fill in the blank below to display all of the even numbers from 1 to 10 with least amount of code?
 
 ```kotlin
 for (_____) {
@@ -900,9 +900,9 @@ fun main() {
 }
 ```
 
-- [x] `moveTo( "LA")`
-- [ ] `::moveTo("LA")`
 - [x] `moveTo("LA")`
+- [ ] `::moveTo("LA")`
+- [ ] `_.moveTo("LA")`
 - [ ] `it.moveTo("LA")`
 
 #### Q69. For the Product class you are designing, you would like the price to be readable by anyone, but changeable only from within the class. Which property declaration implements your design?
@@ -983,10 +983,11 @@ val binaryStr = "00001111"
 
 - [ ] `Any program line can be marked with a label`
 - [ ] `Any statement can be marked with a label`
-- [x] `Any expression can be marked with a lable`
+- [x] `Any expression can be marked with a label`
 - [ ] `Only the beginning of loops can be marked with a label`
 
-[reference](https://agrawalsuneet.github.io/blogs/label-reference-in-kotlin/)
+1. [article](https://agrawalsuneet.github.io/blogs/label-reference-in-kotlin/) -
+2. [reference](https://kotlinlang.org/docs/returns.html#return-to-labels)
 
 #### Q75. All classes in Kotlin inherit from which superclass?
 
@@ -1038,8 +1039,10 @@ names[3]= "Delta"
 
 - [ ] Each secondary constructor must call super().
 - [ ] Each secondary constructor must call base().
-- [ ] Each secondary constructor must directly or indirectly delegate to the primary.
+- [x] Each secondary constructor must directly or indirectly delegate to the primary.
 - [ ] Each secondary constructor must have the same name as the class.
+
+[reference](https://kotlinlang.org/docs/classes.html#secondary-constructors)
 
 #### Q80. When you can omit constructor keyword from the primary constructor?
 
@@ -1048,7 +1051,7 @@ names[3]= "Delta"
 - [ ] It can be omitted if secondary constructors are defined.
 - [x] It can be omitted when the primary constructor does not have any modifiers or annotations.
 
-[reference](https://www.baeldung.com/kotlin/constructors#:~:text=In%20some%20cases%2C%20we%20can,default%20parameters%20in%20the%20constructors.)
+[article](https://www.baeldung.com/kotlin/constructors#:~:text=In%20some%20cases%2C%20we%20can,default%20parameters%20in%20the%20constructors.) - [reference](https://kotlinlang.org/docs/classes.html#constructors)
 
 #### Q81. How many different kinds of constructors are available for kotlin classes?
 
@@ -1058,3 +1061,29 @@ names[3]= "Delta"
 - [ ] one.
 
 [reference](https://www.programiz.com/kotlin-programming/constructors#:~:text=In%20Kotlin%2C%20there%20are%20two,to%20put%20additional%20initialization%20logic)
+
+#### Q82. What is the default visibility modifier in Kotlin?
+
+- [ ] protected
+- [ ] private
+- [ ] internal
+- [x] public
+
+[reference](https://kotlinlang.org/docs/visibility-modifiers.html)
+
+#### Q83. The code below compiles and executes without issue, but is not idiomatic kotlin. What is a better way to impelement the `printlln()`?
+
+```kotlin
+fun main() {
+  val name: String = "Amos"
+  val grade: Float = 95.5f
+  println("My name is " + name + ". I score " + grade + " points on the last coding quiz.")
+}
+```
+
+- [ ] Use `new printf()`.
+- [ ] Use `string.format` instead.
+- [ ] Use `string append` instead.
+- [x] Use string templates instead.
+
+[reference](https://kotlinlang.org/docs/basic-syntax.html#string-templates)

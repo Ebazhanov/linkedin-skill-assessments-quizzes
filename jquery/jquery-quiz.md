@@ -1496,6 +1496,7 @@ https://api.jquery.com/detach/
   <li>Item 6</li>
 </ul>
 ```
+
 - [x] A
 
 ```js

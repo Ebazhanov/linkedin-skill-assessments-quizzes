@@ -16,6 +16,8 @@
 
 #### Q3. You are finalizing a two-page memo. Rather than having Word decide where page 1 ends, you want the next paragraph to begin on the top of page 2. How do you achieve this?
 
+#### Q3. You are finalizing a two-page document. Rather than having Word decide where page 1 ends, you want the next paragraph to begin on the top of page 2. How do you achieve this?
+
 - [ ] Change the bottom margin to your current location.
 - [x] Insert a page break.
 - [ ] Press Shift + Enter (Shift + Return).
@@ -59,6 +61,8 @@
 - [ ] Mark as favorite.
 
 #### Q9. If you want to add a caption to a table, where should you look?
+
+#### Q9. You want to add a caption to a table. Which tab contains this option?
 
 - [ ] Insert tab.
 - [ ] Design tab.
@@ -574,7 +578,7 @@ Duplicated with Q33.
 - [ ] blank page
 - [ ] table of contents page
 
-#### Q73. Before publishing a document you want to identify issues that may make it difficult for people with disabilities to read. which feature should you use?
+#### Q73. Before publishing a document, you want to identify issues that may make it difficult for people with disabilities to read. which feature should you use?
 
 - [x] check Accessibility
 - [ ] inspect document
@@ -661,5 +665,21 @@ Duplicated with Q50.
 
 - [ ] Open any document, change your font settings, and save as a template.
 - [ ] Create a macro that will change all fonts to Arial 11.5 point.
-- [ ] In a new, blank document, from the Font dialog box, make your changes and set as default for All documents based on the Normal template.
+- [x] In a new, blank document, from the Font dialog box, make your changes and set as default for All documents based on the Normal template.
 - [ ] In a new, blank document, make your font changes and then save your document as a template.
+
+[Reference](https://support.microsoft.com/en-us/office/change-the-default-font-in-word-2f50603b-9886-47e4-a483-48ac5ab80163)
+
+#### Q85. You inserted a picture into a brochure, and you want to cut down on the background to focus only on the main part of the image. How can you accomplish this?
+
+- [ ] Right-click the picture and select **Crop**.
+- [ ] In **Picture Tools**, select **Remove Background**.
+- [ ] In **Picture Tools**, select **Picture Effects**.
+- [ ] Right-click the picture and select **Size and Position**.
+
+#### Q86. The form you are creating includes a field where users can either pick from a list of choices you provide, or type in a different entry. Which control type should you use?
+
+- [ ] SmartArt
+- [ ] drop-down list
+- [x] combo box
+- [ ] check box

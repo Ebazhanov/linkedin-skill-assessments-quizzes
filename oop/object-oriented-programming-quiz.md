@@ -14,14 +14,14 @@
 - [ ] the color of each house in a small neighborhood
 - [x] the weather conditions for each house in a small neighborhood
 
-#### Q3.1 Why would you create an abstract class, if it can have no real instances?
+#### Q3. 1 Why would you create an abstract class, if it can have no real instances?
 
 - [x] to avoid redundant coding in children
 - [ ] to explore a hypothetical class
 - [ ] to prevent unwanted method implementation
 - [ ] to reserve memory for an unspecified class type
 
-#### Q3.2 Why would you create an abstract class, if it can have no real instances?
+#### Q3. 2 Why would you create an abstract class, if it can have no real instances?
 
 - [x] to have common behavior in derived classes
 - [ ] to explore a hypothetical class
@@ -77,14 +77,14 @@
 - [ ] parameterized
 - [x] Constructors do not have a return type
 
-#### Q11.1 When is a constructor executed?
+#### Q11. 1 When is a constructor executed?
 
 - [x] when an object is created from a class using the new keyword
 - [ ] when an class is defined using the class keyword
 - [ ] every time an object is referenced
 - [ ] when an object is created from a class using the create keyword
 
-#### Q11.2 When is a constructor executed?
+#### Q11. 2 When is a constructor executed?
 
 - [x] when an object is created from a class
 - [ ] when an class is defined using the class keyword
@@ -119,7 +119,7 @@
 - [ ] Inheritance forces a class to have a single responsibility from only one parent.
 - [ ] Inheritance means that you will never have multiple classes that can be used interchangeably, even though each class implements the same properties or methods in different ways.
 
-#### Q16 Which type of inheritance ,when done continuously, is similar to a tree structure?
+#### Q16. Which type of inheritance ,when done continuously, is similar to a tree structure?
 
 - [ ] multilevel
 - [ ] hierarchical and multiple
@@ -269,14 +269,14 @@ _NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inherit
 
 [reference link](https://en.wikipedia.org/wiki/Class-responsibility-collaboration_card)
 
-#### Q36.1 How are contents of a composition different from those of aggregation?
+#### Q36. 1 How are contents of a composition different from those of aggregation?
 
 - [ ] if one element of an aggregation is dereferenced, all its elements are eligible for garbage collection
 - [x] if a composition dies, the contents die
 - [ ] the contents of a composition are all siblings
 - [ ] an aggregation contains only abstract classes
 
-#### Q36.2 Which statement about compositions and aggregations is true?
+#### Q36. 2 Which statement about compositions and aggregations is true?
 
 - [ ] if one element of an aggregation is dereferenced, all its elements are eligible for garbage collection
 - [x] if a composition dies, the contents die

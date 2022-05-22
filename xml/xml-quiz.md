@@ -553,7 +553,7 @@ car#year {
 - [ ] <make> is required, <model> is required, <year> is required, and <price> is optional.
 - [x] <make> is required, <model> is optional, <year> is required, and <price> is optional.
 
-### Q42. Which element in this XML code is not a good candidate for conversion into an attribute?
+#### Q42. Which element in this XML code is not a good candidate for conversion into an attribute?
 
 ```xml
 1 <superheroes>
@@ -573,7 +573,7 @@ car#year {
 
 [Reference best practices for xml attributes](https://www.geeksforgeeks.org/xml-attributes/)
 
-### Q43. What does the Document Type Definition (DTD) define?
+#### Q43. What does the Document Type Definition (DTD) define?
 
 - [ ] structure
 - [ ] entities
