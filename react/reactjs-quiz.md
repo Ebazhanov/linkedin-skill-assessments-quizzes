@@ -706,7 +706,7 @@ useEffect(() => {
 #### Q64. Which class-based component is equivalent to this function component?
 
 ```javascript
-const Greeting ({ name }) > <h1>Hello {name}!</h1>;
+const Greeting = ({ name }) => <h1>Hello {name}!</h1>;
 ```
 
 - [ ] A
