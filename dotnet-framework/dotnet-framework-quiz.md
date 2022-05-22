@@ -511,3 +511,6 @@
 - [ ] The heap is stored value types; the stack is stored reference types.
 - [ ] The heap is stored object types; the stack is stored class types.
 - [ ] The stack is stored object types; the heap is stored class types.
+
+#### Q69. What is open closed principle?
+- [x] software entities should be open for extension, but closed for modification.
