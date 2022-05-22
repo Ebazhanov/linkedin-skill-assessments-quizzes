@@ -1,9 +1,6 @@
 package duplicates;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 
 /**
@@ -14,8 +11,9 @@ public class Assessment {
 
     private File file;
     private ArrayList<Question> questions;
-    private String heading, subheading;
-    private int duplicates = 0;
+    String heading, subheading;
+    ArrayList<Question> dupQuestions;
+    int dupCount, renumCount;
 
     Assessment(File file) {
         this.file = file;
@@ -37,22 +35,24 @@ public class Assessment {
      */
     ArrayList<ArrayList<String>> generateBlocks(File file) {
         ArrayList<ArrayList<String>> blocks = new ArrayList<>();
+        int lineNumber = 0;
         try {
             BufferedReader reader = new BufferedReader(new FileReader(file));
             String line;
             // Block will hold one entire question. It will act like the `peek` variable of a normal parser.
             ArrayList<String> currentBlock = new ArrayList<>();
             while ((line = reader.readLine()) != null) {
+                lineNumber++;
                 // If this line starts with "## ", then it is the heading of a new file.
                 // If this line starts with "> ", then it is a subheading
                 // Let's store that separately.
-                if ((line.startsWith("## ") || line.startsWith("\uFEFF")) && heading == null) {  // FEFF is a byte order mark that some Microsoft editors place at the beginning of the file.
+                if ((line.startsWith("## ") || line.startsWith("\uFEFF")) && lineNumber == 1) {  // FEFF is a byte order mark that some Microsoft editors place at the beginning of the file.
                     int space = line.indexOf(' ');
                     heading = line.substring(space + 1);
                     // Heading is followed by a blank line, so skip it.
                     reader.readLine();
                     continue;
-                } else if (line.startsWith("> ") && subheading == null) {
+                } else if (line.startsWith("> ") && lineNumber == 2) {
                     subheading = line;
                     reader.readLine();
                     continue;
@@ -103,17 +103,50 @@ public class Assessment {
     }
 
     void findDuplicates() {
+        dupQuestions = new ArrayList<>();
         System.out.println("---- Finding duplicates in " + heading + " ----");
         for (int i = 0; i < questions.size(); i++) {
             for (int j = i + 1; j < questions.size(); j++) {
                 double similarity = Distance.similarity(questions.get(i).prompt(), questions.get(j).prompt());
                 if (similarity > 0.8) {
-                    System.out.println("FOUND SIMILARITY");
+                    System.out.println("-- VERSION 1 --");
                     System.out.println(questions.get(i));
+                    System.out.println("-- VERSION 2 --");
                     System.out.println(questions.get(j));
-                    System.out.println(similarity);
+                    System.out.printf("There is a %%%5.2f similarity. Are they duplicates? (y/n)\n", similarity * 100);
+                    boolean isDuplicate = Driver.IN.nextLine().charAt(0) == 'y';
+                    if (isDuplicate) {
+                        dupQuestions.add(questions.get(i).number() > questions.get(j).number() ? questions.get(i) : questions.get(j));
+                    }
+                    System.out.println("\n\n\n");
                 }
             }
+        }
+        dupCount += dupQuestions.size();
+        for (Question question : dupQuestions) {
+            questions.remove(question);
+        }
+    }
+
+    void writeFile() {
+        int index = 1;
+        try {
+            BufferedWriter writer = new BufferedWriter(new FileWriter(file));
+            writer.write("## " + heading + '\n');
+            if (subheading != null) {
+                writer.write(subheading + '\n');
+            }
+            for (Question question : questions) {
+                if (question.number() != index) {
+                    renumCount++;
+                }
+                writer.write("#### Q" + index++ + ". " + question.prompt() + '\n');
+                writer.write(question.answer() + '\n');
+            }
+            writer.flush();
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
