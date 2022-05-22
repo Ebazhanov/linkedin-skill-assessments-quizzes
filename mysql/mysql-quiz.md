@@ -978,7 +978,7 @@ Table name: superheroes
 - [ ] Extend this table to have additional columns "power4," "power5," and so on, to allow additional powers for each superhero.
 - [ ] Convert this table to have column called "power," and add one record for each superhero-power combination, for a total of 15 records in this example.
 
-#### Q101. What is valid way to create a database view in MySQL?What is valid way to create a database view in MySQL?
+#### Q101. What is valid way to create a database view in MySQL?
 
 - [ ] 1 CREATE VIEW v1 2 SELECT \* FROM t1 3 WHERE col1 &gt; 10;
 - [ ] 1 CREATE VIEW v1 2 BEGIN 3 SELECT \* FROM t1 4 END
