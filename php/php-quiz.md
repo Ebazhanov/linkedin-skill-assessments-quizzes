@@ -401,6 +401,8 @@ echo "No, mail is not set";
 } (correct)
 ```
 
+- [ ] ...
+
 #### Q39. What is the value of `$result` in this calculation?
 
 `$result = 25 % 6;`

@@ -549,7 +549,7 @@ ROWS IDENTIFIED BY `<car>`;
 </car>
 ```
 
-#### Q59. You are loading data into a table. Which command can you use to make sure that all data is inserted and duplicated rows are discarded?
+#### Q59. You are loading data into a table. Which command can you use to make sure that all data is inserted and duplicates rows are discarded?
 
 - [x] `INSERT IGNORE`
 - [ ] `INSERT UNIQUE`

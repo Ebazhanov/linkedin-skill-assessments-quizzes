@@ -14,8 +14,6 @@
 - [ ] Encrypt with Password.
 - [x] Always Open Read-Only.
 
-#### Q3. You are finalizing a two-page memo. Rather than having Word decide where page 1 ends, you want the next paragraph to begin on the top of page 2. How do you achieve this?
-
 #### Q3. You are finalizing a two-page document. Rather than having Word decide where page 1 ends, you want the next paragraph to begin on the top of page 2. How do you achieve this?
 
 - [ ] Change the bottom margin to your current location.
@@ -59,8 +57,6 @@
 - [ ] Add to chooser.
 - [x] Pin to list.
 - [ ] Mark as favorite.
-
-#### Q9. If you want to add a caption to a table, where should you look?
 
 #### Q9. You want to add a caption to a table. Which tab contains this option?
 
@@ -492,13 +488,24 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 
 #### Q61. When working with Track Changes, what is the difference between Simple Markup and all Markup?
 
-- [ ] Simple Markup shows the final version without inline markups; All Markups shows the final version with inline markups.
-- [x] Simple Markup shows the markup versions by one selected author; All Markup shows the combined markup version of all authors.
-- [ ] Simple Markup shows the revisions of one selected author in the Review pane; All Markup shows the revisions of all authors with inline markups.
-- [ ] Simple Markup shows the final version with inline markups; All Markup shows the final version without inline markups.
-      [Reference link](https://support.microsoft.com/en-us/office/video-track-changes-and-show-markup-3faf8a07-26ed-4b76-b6a0-43cca013e6d3)
+- [ ] Simple Markup shows the final version without inline markups; All Markups shows the final version with inline
+  markups.
+- [x] Simple Markup shows the markup versions by one selected author; All Markup shows the combined markup version of
+  all authors.
+- [ ] Simple Markup shows the revisions of one selected author in the Review pane; All Markup shows the revisions of all
+  authors with inline markups.
+- [ ] Simple Markup shows the final version with inline markups; All Markup shows the final version without inline
+  markups.
+  [Reference link](https://support.microsoft.com/en-us/office/video-track-changes-and-show-markup-3faf8a07-26ed-4b76-b6a0-43cca013e6d3)
 
-#### Q62. REMOVED (Duplicate of Q5)
+#### Q62. You want to set a wider inside margin to accommodate binding a document where pages are printed in both sides. Which option should you choose in the Page Setup dialog box?
+
+- [x] Book Fold.
+- [ ] Different Odd & Even Pages.
+- [ ] Mirror Margins.
+- [ ] Landscape.
+
+[Reference](https://support.microsoft.com/en-us/office/create-a-booklet-or-book-in-word-dfd94694-fa4f-4c71-a1c7-737c31539e4a)
 
 #### Q63. Which object can you NOT insert into a Word document from the Insert tab?
 

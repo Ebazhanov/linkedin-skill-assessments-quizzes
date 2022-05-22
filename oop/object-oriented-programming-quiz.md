@@ -463,6 +463,8 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 
 #### Q62. Why is inheritance?
 
+- [ ] ...
+
 #### Q63. What is the best example of a superclass and subclass relationship?
 
 - [x] car:toyota
