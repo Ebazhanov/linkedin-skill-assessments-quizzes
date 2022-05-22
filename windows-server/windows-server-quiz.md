@@ -1,4 +1,4 @@
-﻿## Windows Server
+## Windows Server
 
 #### Q1. You need to create a file share for your company that must be accessible from all branch offices and its share path must have the name Work Share. Which server role do you install?
 
@@ -387,7 +387,7 @@
 
 #### Q53. In a two-tier hierarchy CA design, what is a common security best practice?
 
-- [ ] The issuing CA servers are placed in different geographical locations.
+- [x] The issuing CA servers are placed in different geographical locations.
 - [ ] The intermediate or policy CA server is offline.
 - [ ] The root CA server is offline.
 - [ ] Only FIPS-compliant hardware security modules are used.
@@ -539,6 +539,20 @@
 #### Q65. You currently have a Windows Server 2008 R2 print server named PRT01. You deploy a Windows Server 2012 R2 print server named PRT02. How do you begin the migration process?
 
 - [ ] Run the `printbrm -b` command on PRT02
-- [ ] Run the `printbrm -b` command on PRT01
+- [x] Run the `printbrm -b` command on PRT01
 - [ ] Run the `printbrm -r` command on PRT01
 - [ ] Run the `printbrm -q` command on PRT02
+
+#### Q66. Your organization wants to design a disaster recovery plan with two geographical sites. The two sites must be up in an active/active configuration, and some or all services should be able to failover seamlessly. Which Storage Replica configuration would you setup with your Windows Server 2016 systems?
+
+- [ ] Cluster-to-Cluster
+- [x] Server-to-Server
+- [ ] Storage Replica is incompatible.
+- [ ] Stretch Cluster
+
+#### Q67. You are working toward managing a cross-forest certificate enrollment deployment and need to copy objects in the source forest to the target forest. How do you keep the source and target forst synchonized?
+
+- [ ] certificate templates
+- [x] site replication
+- [ ] pkysync.ps1
+- [ ] storage replication
