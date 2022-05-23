@@ -13,26 +13,7 @@ public class Driver {
             assessment.findDuplicates();
             assessment.writeFile();
         }
-        printReport(assessments);
-    }
-
-    static void printReport(ArrayList<Assessment> assessments) {
-        String decoration = "+" + "-".repeat(75) + "+" + "-".repeat(12) + "+" + "-".repeat(12) + "+";
-        long duplicates = 0;
-        long renumbered = 0;
-        System.out.println("Finished finding duplicates!");
-        System.out.println("----- Report -----");
-        System.out.println(decoration);
-        System.out.printf("| %-73s | %10s | %10s |\n", "File", "Duplicates", "Renumbered");
-        System.out.println(decoration);
-        for (Assessment a : assessments) {
-            System.out.printf("| %-73s | %10d | %10d |\n", a.heading, a.dupCount, a.renumCount);
-            duplicates += a.dupCount;
-            renumbered += a.renumCount;
-        }
-        System.out.println(decoration);
-        System.out.printf("| %-73s | %10d | %10d |\n", "Total", duplicates, renumbered);
-        System.out.println(decoration);
+        Report.getInstance().finish();
     }
 
     static ArrayList<Assessment> loadAssessments() {

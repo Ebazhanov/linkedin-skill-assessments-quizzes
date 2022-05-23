@@ -118,7 +118,7 @@ public class Assessment {
                     boolean isDuplicate = answer.charAt(0) == 'y';
                     if (isDuplicate) {
                         // User has the option of choosing which to delete if there is a duplicate, and the number will come after y.
-                        int num = -1;
+                        int num;
                         if (answer.length() != 1) {
                             num = Integer.parseInt(answer.substring(1));
                             if (questions.get(i).number() == num) {
@@ -160,6 +160,7 @@ public class Assessment {
             }
             writer.flush();
             writer.close();
+            Report.getInstance().add(this);
         } catch (IOException e) {
             e.printStackTrace();
         }
