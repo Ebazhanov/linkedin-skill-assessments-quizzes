@@ -733,8 +733,8 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 #### Q63. What characters are used to enclose an array?
 
-- [x] []
-- [ ] {}
+- [ ] []
+- [x] {}
 - [ ] ""
 - [ ] ()
 

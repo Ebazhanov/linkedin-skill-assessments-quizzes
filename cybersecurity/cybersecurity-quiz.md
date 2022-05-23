@@ -776,7 +776,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 \_**.Site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space **
 \_**.
 
-- [ ] 192.168.0.1/24192.168.0.1/24
+- [x] 192.168.0.1/24192.168.0.1/24
 - [ ] 192.168.0.3/24192.168.0.3/24
 - [ ] 10.10.0.0/2410.10.0.0/24
 - [ ] 192.168.0.2/24

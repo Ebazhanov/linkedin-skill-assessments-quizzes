@@ -292,10 +292,12 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 #### Q34. Which special object is an instance of EventEmitter?Which special object is an instance of null?
 
-- [ ] process
+- [x] process
 - [ ] Buffer
 - [ ] root
-- [x] require
+- [ ] require
+
+[Reference](https://nodejs.org/docs/latest-v16.x/api/process.html)
 
 #### Q35. What is the command to get a list of available commands for Node.js?What is the command to get a list of available commands for Node.js?
 

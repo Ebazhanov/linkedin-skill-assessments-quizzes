@@ -531,10 +531,12 @@ Brad's Bagels: Baking Bagels in the Oven_. What is a likely explanation?
 
 #### Q64. Google's Search Quality Evaluator Guidelines describe that experts should write content, especially YMYL content. This is one of the principles seen in the commonly used acronym\_\_
 
-- [ ] LEAF
-- [ ] FAT
-- [ ] TRUSTED
-- [ ] ACE
+- [ ] A.C.E 
+- [ ] L-E-A-F
+- [ ] T.R.U.S.T.E.D
+- [x] E-A-T
+
+[Reference](https://moz.com/blog/google-e-a-t)
 
 #### Q65. Why might using a subdirectory in place of a subdomain be beneficial?
 
@@ -547,6 +549,6 @@ Brad's Bagels: Baking Bagels in the Oven_. What is a likely explanation?
 
 - [ ] Use the <crawl> tag.
 - [ ] Use the search engine's Remove URL tool.
-- [ ] Use a robots.txt file.
+- [x] Use a robots.txt file.
 - [ ] Use structured data
 

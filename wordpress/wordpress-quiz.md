@@ -650,3 +650,31 @@ endif;
 - [ ] widgets
 - [ ] layout
 - [x] shortcodes
+
+#### Q81. What service is used to manage user profile photos across any WordPress site?
+
+- [x] Gravatar
+- [ ] WordPress.org
+- [ ] None. Just upload a profile photo from your site user account.
+- [ ] Profile Photo plugin
+
+#### Q82. Which is not a benefit of DRY code?
+
+- [ ] The code can be reused.
+- [x] The code is less abstracted.
+- [ ] The code is easier to read.
+- [ ] The code is easier to maintain.
+
+#### Q83. Which of these does not impact your site speed?
+
+- [ ] caching
+- [ ] your web host
+- [x] inactive plugins
+- [ ] content delivery network (CDN)
+
+#### Q84. Where do you configure global settings for comments on your WordPress site?
+
+- [ ] Tools screen
+- [ ] wp-config.php
+- [ ] cPanel
+- [x] Discussion Settings
