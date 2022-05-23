@@ -24,6 +24,7 @@ public class Report {
             writer = new BufferedWriter(new FileWriter("./report.txt"));
             writer.write(decoration);
             writer.write(String.format("| %-73s | %10s | %10s |\n", "File", "Duplicates", "Renumbered"));
+            writer.write(decoration);
             writer.flush();
         } catch (IOException e) {
             e.printStackTrace();

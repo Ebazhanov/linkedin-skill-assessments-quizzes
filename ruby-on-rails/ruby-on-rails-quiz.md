@@ -390,16 +390,7 @@ before_destroy :notify_admin_users, if: ->(model) { model.is_admin }
 - [x] `<=>`
 - [ ] `||`
 
-#### Q38. Which ActiveRecord query prevents SQL injection?
-
-- [ ] `Product.where("name = " << @keyword)`
-- [ ] `Product.where("name = " + h(@keyword))`
-- [x] `Product.where("name = ?", @keyword)`
-- [ ] `Product.where("name = #{@keyword}")`
-
-[Reference](https://guides.rubyonrails.org/active_record_querying.html#pure-string-conditions)
-
-#### Q39. You made a spelling mistake while creating a table for bank accounts. Which code would you expect to see in a migration to fix the error?
+#### Q38. You made a spelling mistake while creating a table for bank accounts. Which code would you expect to see in a migration to fix the error?
 
 - [x] A
 
@@ -442,7 +433,7 @@ class OopsIDidItAgain < ActiveRecord::Migration
 end
 ```
 
-#### Q40. Which HTML is closes to what this code would output?
+#### Q39. Which HTML is closes to what this code would output?
 
 ```
 <% check_box(:post, :visible) %>
@@ -473,7 +464,7 @@ end
 <input type="checkbox" name="post[visible]" value="1" />
 ```
 
-#### Q41. There is a bug in this code. The logout message is not appearing on the login template. What is the cause?
+#### Q40. There is a bug in this code. The logout message is not appearing on the login template. What is the cause?
 
 ```
 class AccessController < ActionController::Base
@@ -489,14 +480,14 @@ end
 - [ ] This is an invalid syntax to use to assign valuse to flash[:notice]
 - [ ] The previous value of flash[:notice] will not be cleared automatically
 
-#### Q42. Which statement about ActiveRecord models is true?
+#### Q41. Which statement about ActiveRecord models is true?
 
 - [ ] Each database column requres adding a matching attr_accessor declaration in the ActiveRecord model.
 - [ ] All attributes in an ActiveRecord model are read-only declared as writable using attr_accessible
 - [x] An instance of an ActiveRecord model will have attributes that match the columns in a corresponding database table.
 - [ ] ActiveRecord models can have only attributes that have a matching database column
 
-#### Q43. What is the correct way to assign a value to the session?
+#### Q42. What is the correct way to assign a value to the session?
 
 - [ ] A
 

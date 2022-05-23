@@ -147,9 +147,9 @@ public class Assessment {
         int index = 1;
         try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(file));
-            writer.write("## " + heading + '\n');
+            writer.write("## " + heading + "\n\n");
             if (subheading != null) {
-                writer.write(subheading + '\n');
+                writer.write(subheading + "\n\n");
             }
             for (Question question : questions) {
                 if (question.number() != index) {

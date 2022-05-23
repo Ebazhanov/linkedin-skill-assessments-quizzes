@@ -270,21 +270,21 @@
 - [ ] Singleton
 - [ ] Builder
 
-#### Q40. Why would you use ahead-of-time (AOT) compilation?
+#### Q39. Why would you use ahead-of-time (AOT) compilation?
 
 - [x] You can deliver a faster startup time, especially in big applications where much code executes on startup.
 - [ ] You have a slow processor.
 - [ ] You have little memory and disk space
 - [ ] The JIT compiler does not have to do a lot of disk I/O actions, which are quite expensive.
 
-#### Q41. Which statement describes a Dispose method?
+#### Q40. Which statement describes a Dispose method?
 
 - [ ] It defines an execution environment for program code and manages the CLR
 - [x] It belongs to the IDisposable interface and is used to free resources, such as network connection and files.
 - [ ] It is partially method-compiled code library for use in deployment, versioning, and security.
 - [ ] It is used for encapsulation of collections tied to functions of a class and object.
 
-#### Q42. What is a thread?
+#### Q41. What is a thread?
 
 - [x] A single operation that does not return a value and that usually executes asynchronously
 - [ ] the basic unit to which an operating system allocate processor time
@@ -293,21 +293,21 @@
 
 [Reference link](https://docs.microsoft.com/en-us/dotnet/api/system.threading.tasks.task?view=net-5.0)
 
-#### Q43. You want to add responsibilities to object dynamically. Which design pattern best fit this objective?
+#### Q42. You want to add responsibilities to object dynamically. Which design pattern best fit this objective?
 
 - [x] Decorator
 - [ ] Bridge
 - [ ] Singleton
 - [ ] Facade
 
-#### Q44. Which choice creates an 8-tuple containing prime numbers that are less than 20?
+#### Q43. Which choice creates an 8-tuple containing prime numbers that are less than 20?
 
 - [x] `var primes = Tuple.Create(2, 3, 5, 7, 11, 13, 17, 19);`
 - [ ] `var primes = Tuple.Create(2, 3, 5, 7, 11, 13, 17, 21);`
 - [ ] `var primes = Tuple.Make(2, 3, 5, 7, 11, 13, 17, 20);`
 - [ ] `var primes = Tuple.Make(2, 3, 5, 7, 11, 13, 17, 19);`
 
-#### Q45. How can you recieve form data without a model binder in a controller action?
+#### Q44. How can you recieve form data without a model binder in a controller action?
 
 > Note: The differences are `IFormResult`/`IActionResult` and `Forms`/`Form`
 
@@ -332,49 +332,49 @@
       return View();
       }
 
-#### Q46. Where should you store connection string information?
+#### Q45. Where should you store connection string information?
 
 - [ ] in any file within the namespace of the program
 - [ ] in the view
 - [x] in configuration files
 - [ ] in the database
 
-#### Q47. Why use design patterns?
+#### Q46. Why use design patterns?
 
 - [ ] design patterns make the code more efficient with memory usage
 - [ ] design patterns minimize the number of code lines when creating complex applications
 - [ ] design patterns tend to be more secure and prevent code from being hacked
 - [x] design patterns help you solve issues related to sofware development using a proven solution, and make communication between developers more efficient
 
-#### Q48. What is a task?
+#### Q47. What is a task?
 
 - [ ] the basic unit to which an operating system allocates processor time
 - [ ] a program that is running on your compiler
 - [x] a single operation that does not return a value and that usually executes asynchronously
 - [ ] a series of related methods that together turn inputs into outputs
 
-#### Q49. Which choice is NOT a component of .NET Framework?
+#### Q48. Which choice is NOT a component of .NET Framework?
 
 - [ ] common language JIT
 - [x] .NET framework class library
 - [ ] common language runtime
 - [ ] side-by-side execution
 
-#### Q50. Which statement about the `this` keyword is _not_ true?
+#### Q49. Which statement about the `this` keyword is _not_ true?
 
 - [ ] The `this` keyword lets a constructor call a different constructor in the same class.
 - [x] A constructor can use a base statement and a `this` statement if the base statement comes first.
 - [ ] A constructor can use one `this` statement at most.
 - [ ] If a constructor uses a `this` statement, its code is executed after the invoked constructor is executed.
 
-#### Q51. When should you use the .NET Core class library project type?
+#### Q50. When should you use the .NET Core class library project type?
 
 - [x] when you want to increase the .NET API surface area your library can access, and allow only .NET Core apps to be compatible with your library
 - [ ] when you want to increase the number of apps that are compatible with your library, and decrease the .NET API surface area your library can access
 - [ ] when you want to decrease speed but have more features
 - [ ] when you want to increase compilation speed and have fewer features
 
-#### Q52. Why would the .NET Framework use Normal-JIT (Just-in-Time)?
+#### Q51. Why would the .NET Framework use Normal-JIT (Just-in-Time)?
 
 - [ ] to compile complete source code into native code in a single compilation cycle during deployment of the application
 - [ ] to compile only the methods that are called at runtime and remove them from memory after execution
@@ -383,7 +383,7 @@
 
 [JIT (Just-In-Time) Compiler](https://www.c-sharpcorner.com/UploadFile/nipuntomar/jit-just-in-time-compiler/)
 
-#### Q53. What is .NET?
+#### Q52. What is .NET?
 
 - [ ] .NET is a general-purpose programming language. The language has expanded significantly over time, and now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation.
 - [ ] .NET is a virtual machine that enables a computer to run programs written in several languages and compile programs to bytecode.
@@ -392,7 +392,7 @@
 
 [What is .NET?](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet)
 
-#### Q54. The ASP.NET Core Module is a native IIS module that plugs into the IIS pipeline to either **\_**.
+#### Q53. The ASP.NET Core Module is a native IIS module that plugs into the IIS pipeline to either **\_**.
 
 - [ ] host an ASP.NET Code app inside of the IIS worker process, called the out-of-process hosting model, or forward web requests to a backend ASP.NET Core app running the Kesrel server, called the in-process hosting model
 - [ ] create IIS code the server needs in a file with the extension required, or run the IIS server in a mode compatible for ASP.NET Core
@@ -401,7 +401,7 @@
 
 [ASP.NET Core Module](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/aspnet-core-module?view=aspnetcore-5.0)
 
-#### Q55. In the code below, what is the difference between RenderPartial and RenderAction?
+#### Q54. In the code below, what is the difference between RenderPartial and RenderAction?
 
 ```cs
 @{
@@ -415,7 +415,7 @@
 - [ ] RenderAction will call an action method of the current controller and render a result inline. RenderPartial will render the specified view inline without calling any action method.
 - [ ] RenderPartial will call an action method of the current model and render a result inline. RenderAction will render the specified view inline without calling any action method.
 
-#### Q56. What is the Liskov substitution principle?
+#### Q55. What is the Liskov substitution principle?
 
 - [ ] Many client-specific interfaces are better than one general-purpose interface.
 - [x] Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
@@ -424,7 +424,7 @@
 
 [Liskov substitution principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
 
-#### Q57. What method do you use to explicitly kill a user's session?
+#### Q56. What method do you use to explicitly kill a user's session?
 
 - [ ] `Session.Timeout()`
 - [x] `Session.Abandon()`
@@ -433,7 +433,7 @@
 
 [Session.Abandon Method](<https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms524310(v=vs.90)>)
 
-#### Q58. Which choice best describes the difference between globalization and localization?
+#### Q57. Which choice best describes the difference between globalization and localization?
 
 - [ ] Localization enables the .NET runtime to provide services to managed code so language compilers can emit metadata and references in your code. Globalization reverses this process.
 - [ ] Globalization enables the .NET runtime to provide services to managed code so language compilers can emit metadata and references in your code. Localization reverses this process.
@@ -442,7 +442,7 @@
 
 [Globalize and localize .NET applications](https://docs.microsoft.com/en-us/dotnet/core/extensions/globalization-and-localization)
 
-#### Q59. What does CIL stand for?
+#### Q58. What does CIL stand for?
 
 - [ ] C# Interpreted Language
 - [x] Common Intermediate Language
@@ -451,77 +451,70 @@
 
 [What is the full form of CIL?](https://ythi.net/abbreviations/english/what-does-cil-mean-what-is-the-full-form-of-cil/)
 
-#### Q60. Which choice best describes the difference between a namespace and an assembly?
+#### Q59. Which choice best describes the difference between a namespace and an assembly?
 
 - [ ] Namespace contains code to form MSIL (Microsoft Intermediate Language). An assembly contains a set of unique names.
 - [ ] Namespace is the logical naming decided at design time by the developer. Scope for a particular type is defined at run time using an assembly.
 - [ ] A namespace has logical units that are physically grouped together. An assembly does not have any classification.
 - [ ] A namespace has logical units that are physically grouped together for assemblies. Assembly classes are available in your program and will be logically grouped.
 
-#### Q61. What is a tuple?
+#### Q60. What is a tuple?
 
 - [ ] A data structure that has a specific number and sequence of elements
 - [ ] An object to store multiple variables of the same type in an array data structure
 - [ ] A group of classes designed specifically for grouping together objects and performing tasks on them
 - [ ] An array whose elements are jagged
 
-#### Q62. What does IL stand for?
+#### Q61. What does IL stand for?
 
 - [x] Intermediate Language
 - [ ] Intelligent Language
 - [ ] Intelligent Linq
 - [ ] Interpreted Language
 
-#### Q63. You want to create an instance of several families of classes. Which design pattern best fits this objective?
+#### Q62. You want to create an instance of several families of classes. Which design pattern best fits this objective?
 
 - [ ] Decorator
 - [ ] Singleton
 - [x] Abstract Factory
 - [ ] Bridge
 
-#### Q64. Which statement about a read-only variable is _not_ true?
+#### Q63. Which statement about a read-only variable is _not_ true?
 
 - [ ] It can be either static or an instance memeber.
 - [ ] At run time, its value is evaluated.
 - [ ] It can be initialized in either the constructor or the declaration.
 - [x] It can be initialized at declaration only.
 
-#### Q65. What is the interface segregation principle?
+#### Q64. What is the interface segregation principle?
 
 - [x] Many client-specific interfaces are better than one general-purpose interface.
 - [ ] Software entities should be open for extension, but closed for modification.
 - [ ] A class should have only a single responsibility - that is, only changes to one part of the software's specification should be able to affect the specification of the class.
 - [ ] Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
 
-#### Q66. Which choice is a set of features that extends the query capabilities of the .NET language syntax by adding sets of new standard query operators that allow data manipulation, regardless of the data source?
-
-- [ ] XAML
-- [ ] C#
-- [ ] XML
-- [x] LINQ
-
-#### Q67. Why would the .NET Framework use Econo-JIT (Just-inTime)?
+#### Q65. Why would the .NET Framework use Econo-JIT (Just-inTime)?
 
 - [ ] to compile only the methods that are called at run time and then store them in cache for one minute
 - [ ] to compile only methods called at run time - which are compiled the first time the methods are called and then stored in cache to be used for execution when the same methods are called again
 - [ ] to compile complete source code into native code in a single compilation cycle during deployment of the application
 - [x] to compile only the methods that are called at run time and remove them from memory after execution
 
-#### Q68. What is the difference between a heap and a stack?
+#### Q66. What is the difference between a heap and a stack?
 
 - [x] The stack contains stored value types; the heap contains stored reference types.
 - [ ] The heap is stored value types; the stack is stored reference types.
 - [ ] The heap is stored object types; the stack is stored class types.
 - [ ] The stack is stored object types; the heap is stored class types.
 
-#### Q69. How do you make sure that the garbage collector is done running when you call `GC.Collect()`?
+#### Q67. How do you make sure that the garbage collector is done running when you call `GC.Collect()`?
 
 - [ ] There is no way to find this out.
 - [ ] You cannot. [`GC.Collect()`](https://docs.microsoft.com/en-us/dotnet/api/system.gc.collect) is a blocking method, and will return only once the garbage collector is done running.
 - [ ] by calling [`GC.WaitForFullGCComplete()`](https://docs.microsoft.com/en-us/dotnet/api/system.gc.waitforfullgccomplete)
 - [ ] by calling [`GC.WaitForPendingFinalizers()`](https://docs.microsoft.com/en-us/dotnet/api/system.gc.waitforpendingfinalizers)
 
-#### Q70. What does JIT do in .Net?
+#### Q68. What does JIT do in .Net?
 
 - [ ] JIT is used for deployment, versioning, and security.
 - [x] JIT translates the IL code to an assembly code and uses the CPU architecture of the target machine to execute a .NET application.

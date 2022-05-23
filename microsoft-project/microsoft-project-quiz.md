@@ -1,4 +1,4 @@
-﻿## Microsoft Project
+## Microsoft Project
 
 #### Q1. Where can you set fixed duration, effort driven, and manually scheduled?
 

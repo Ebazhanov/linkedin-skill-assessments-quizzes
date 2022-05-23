@@ -313,14 +313,7 @@
 - [ ] OR(B3>15,B3<20)
 - [ ] AND(B3>15, B3<20)
 
-#### Q42. Which format setting does not change the background appearance of a cell?
-
-- [ ] Fill color
-- [x] Font Color
-- [ ] Pattern Style
-- [ ] Cell Style
-
-#### Q43. The charts below are based on the data in cells A3:G5. The chart on the right was created by copying the one on the left. Which ribbon button was clicked to change the layout of the chart on the right?
+#### Q42. The charts below are based on the data in cells A3:G5. The chart on the right was created by copying the one on the left. Which ribbon button was clicked to change the layout of the chart on the right?
 
 ![Charts](images/002.png?raw=true)
 
@@ -329,77 +322,70 @@
 - [ ] Quick Layout
 - [x] Change Chart Type
 
-#### Q44. Cell A20 displays an orange background when its value is 5. Changing the value to 6 changes the background color to green. What type of formatting is applied to cell A20?
+#### Q43. Cell A20 displays an orange background when its value is 5. Changing the value to 6 changes the background color to green. What type of formatting is applied to cell A20?
 
 - [ ] Value Formatting
 - [ ] Cell Style Formatting
 - [x] Conditional Formatting
 - [ ] Tabular format
 
-#### Q45. What does this formula do? `=Sum(Sheet1:Sheet4!D18)`
+#### Q44. What does this formula do? `=Sum(Sheet1:Sheet4!D18)`
 
 - [ ] It adds data from cell D18 of Sheet1 and cell D18 of Sheet4
 - [ ] It adds data from cell A1 of Sheet1 and cell D18 of sheet4
 - [ ] It adds all data in the range A1:D18 in Sheet1, Sheet2, Sheet3 and Sheet4
 - [x] It adds data from all D18 cells in Sheet1, Sheet2, Sheet3 and Sheet4
 
-#### Q46. What is the term for an expression that is entered into a worksheet cell and begins with an equal sign?
+#### Q45. What is the term for an expression that is entered into a worksheet cell and begins with an equal sign?
 
 - [ ] function
 - [ ] argument
 - [x] formula
 - [ ] contents
 
-#### Q47. How does the appearance of an array formula differ from that of a standard formula?
+#### Q46. How does the appearance of an array formula differ from that of a standard formula?
 
 - [ ] In a worksheet cell, array formulas have a small blue triangle in the cell's upper-right corner.
 - [ ] A heavy border appears around the range that is occupied by the array formula.
 - [x] In the formula bar, an array formula appears surrounded by curly brackets.
 - [ ] When a cell that contains an array formula is selected, range finders appear on the worksheet around the formula's precedent cells.
 
-#### Q48. In a worksheet, column A contains employee last names, column B contains their middle initials (if any), and column C contains their first names. Which tool can combine the last names, initials, and first names in column D without using a worksheet formula?
+#### Q47. In a worksheet, column A contains employee last names, column B contains their middle initials (if any), and column C contains their first names. Which tool can combine the last names, initials, and first names in column D without using a worksheet formula?
 
 - [x] Concatenation
 - [ ] Columns to Text
 - [ ] Flash Fill
 - [ ] AutoFill
 
-#### Q49. Which formula returns the value in cell A10 of the worksheet named Budget Variances?
+#### Q48. Which formula returns the value in cell A10 of the worksheet named Budget Variances?
 
 - [x] ='Budget Variances'!A10
 - [ ] ='Budget Variances!A10'
 - [ ] ="BudgetVariances!A10"
 - [ ] ="BudgetVariances"!A10
 
-#### Q50. Which function returns the leftmost five characters in cell A1?
+#### Q49. Which function returns the leftmost five characters in cell A1?
 
 - [ ] =FIND(A1,1,5)
 - [ ] =SEARCH(A1,5)
 - [x] =LEFT(A1,5)
 - [ ] =A1-RIGHT(A1,LEN(A1)-5)
 
-#### Q51. Which function returns TRUE if cell A1 contains a text value?
+#### Q50. Which function returns TRUE if cell A1 contains a text value?
 
 - [ ] =ISALPHA(A1)
 - [ ] =ISCHAR(A1)
 - [ ] =ISSTRING(A1)
 - [x] =ISTEXT(A1)
 
-#### Q52. Which of these functions returns the largest value among all values within the range H2:H30?
-
-- [ ] =UPPER(H2:30,1)
-- [ ] =MAXIMUM(H2:H30)
-- [x] =MAX(H2:H30)
-- [ ] =LARGE(H2:H30,29)
-
-#### Q53. You select cell A1, hover the pointer over the cell border to reveal the move icon, then drag the cell to a new location. Which ribbon commands achieve the same result?
+#### Q51. You select cell A1, hover the pointer over the cell border to reveal the move icon, then drag the cell to a new location. Which ribbon commands achieve the same result?
 
 - [ ] Cut and Fill
 - [x] Cut and Paste
 - [ ] Copy and Transpose
 - [ ] Copy and Paste
 
-#### Q54. You want to add a column to the PivotTable below that shows a 5% bonus for each sales rep. That data does not exists in the original data table. How can you do this without adding more data to the table?
+#### Q52. You want to add a column to the PivotTable below that shows a 5% bonus for each sales rep. That data does not exists in the original data table. How can you do this without adding more data to the table?
 
 ![image](images/Q54.png)
 
@@ -408,7 +394,7 @@
 - [ ] Add a new Summarize Value By field.
 - [x] Add a calculated field.
 
-#### Q55. You need to determine the commission earned by each Sales rep, based on the Sales amount in B3:B50 and the Commission rate specified in cell A1. You want to enter a formula in C3 and copy it down to C50. Which formula should you use?
+#### Q53. You need to determine the commission earned by each Sales rep, based on the Sales amount in B3:B50 and the Commission rate specified in cell A1. You want to enter a formula in C3 and copy it down to C50. Which formula should you use?
 
 ![image](images/Q55.png)
 
@@ -417,35 +403,35 @@
 - [x] =$A$1\*B3
 - [ ] =$A1\*B3
 
-#### Q56. The NOW() function returns the current date and time as 43740.665218. Which part of this value indicates the time?
+#### Q54. The NOW() function returns the current date and time as 43740.665218. Which part of this value indicates the time?
 
 - [ ] 6652
 - [ ] 43740.665218
 - [ ] 43740
 - [x] 665218
 
-#### Q57. Cell A2 contains the value 8 and cell B2 contains the value 9. What happens when cells A2 and B2 are merged and then unmerged?
+#### Q55. Cell A2 contains the value 8 and cell B2 contains the value 9. What happens when cells A2 and B2 are merged and then unmerged?
 
 - [ ] Both values are lost.
 - [x] Cell A2 contains the value 8 and cell B2 is empty.
 - [ ] Cell A2 contains the value 8 and cell B2 contains the value 9.
 - [ ] Cell A2 contains the value 17 and cell B2 is empty.
 
-#### Q58. In the formula `=VLOOKUP(A1,D1:H30,3,FALSE)`, the lookup value (A1) is being looked for in **\_**.
+#### Q56. In the formula `=VLOOKUP(A1,D1:H30,3,FALSE)`, the lookup value (A1) is being looked for in **\_**.
 
 - [ ] column D
 - [x] columns D through H
 - [ ] column H
 - [ ] column F
 
-#### Q59. An .xlsx workbook is saved into .csv format. What is preserved in the new .csv file?
+#### Q57. An .xlsx workbook is saved into .csv format. What is preserved in the new .csv file?
 
 - [x] cell values only
 - [ ] cell values and formats
 - [ ] cell values and formulas
 - [ ] cell value, formats, and formulas
 
-#### Q60. Which function, when entered into cell G7, allows you to determine the sum total of annual sles for market regions 18 and greater?
+#### Q58. Which function, when entered into cell G7, allows you to determine the sum total of annual sles for market regions 18 and greater?
 
 ![image](images/Q60.png)
 
@@ -454,7 +440,7 @@
 - [x] `=SUMIF(F2:F6,">=18",G2:G6)`
 - [ ] `=SUM(F2:F6,"18+",G2:G6)`
 
-#### Q61. Which function, when entered into cell F2 and then dragged to cell F6, returns the performance rating text (e.g., "Good", "Poor") for each representative?
+#### Q59. Which function, when entered into cell F2 and then dragged to cell F6, returns the performance rating text (e.g., "Good", "Poor") for each representative?
 
 ![image](images/Q61.png)
 
@@ -463,7 +449,7 @@
 - [ ] `=LEFT(E2,LEN(E2)-27)`
 - [ ] `=RIGHT(E2,MID(E2)-27)`
 
-#### Q62. What is `Colors[Inventory]` referring to here?
+#### Q60. What is `Colors[Inventory]` referring to here?
 
 `=SUMIFS(Colors[Inventory],Colors[Colors],"Orange")`
 
@@ -475,7 +461,7 @@
 Table[Column] can be used instead of cell references (C2:C7).
 [Reference](https://support.microsoft.com/en-us/office/using-structured-references-with-excel-tables-f5ed2452-2337-4f71-bed3-c8ae6d2b276e)
 
-#### Q63. Which VLOOKUP function, when entered into cell L2 and then dragged to cell L5, returns the average number of calls for the representative IDs listed in column J?
+#### Q61. Which VLOOKUP function, when entered into cell L2 and then dragged to cell L5, returns the average number of calls for the representative IDs listed in column J?
 
 ![image](images/Q63.png)
 
@@ -486,7 +472,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 `because we are interested in the value of the 3rd column of the table`
 
-#### Q64. Which formula calculates the total value of a single row of cells across a range of columns?
+#### Q62. Which formula calculates the total value of a single row of cells across a range of columns?
 
 - [ ] `=SUBTOTAL(C1:Y15)`
 - [ ] `=SUM(15L:15Z)`
@@ -495,7 +481,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 `the sum of columns C to Y for the same row 15`
 
-#### Q65. Which value is returned when you enter `=LEN(C3)` into cell F3?
+#### Q63. Which value is returned when you enter `=LEN(C3)` into cell F3?
 
 ![image](images/Q65.png)
 
@@ -504,7 +490,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 - [ ] 3
 - [ ] 2
 
-#### Q66. How can you create the lower table from the top one when the tables are `not` linked?
+#### Q64. How can you create the lower table from the top one when the tables are `not` linked?
 
 ![image](images/Q66.png)
 
@@ -515,14 +501,14 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 `because it needs to be transposed without creating a reference`
 
-#### Q67. Which function returns the number of characters in a text string in cell A1?
+#### Q65. Which function returns the number of characters in a text string in cell A1?
 
 - [ ] `=RIGHT(A1)-LEFT(A1)+1`
 - [x] `=LEN(A1)`
 - [ ] `=EXACT(A1)`
 - [ ] `=CHARS(A1)`
 
-#### Q68. Which formula, when entered into cell D2 and then dragged to cell D6, calculates the average total number of minutes spent on phone calls for each representative?
+#### Q66. Which formula, when entered into cell D2 and then dragged to cell D6, calculates the average total number of minutes spent on phone calls for each representative?
 
 ![image](images/Q68.png)
 
@@ -531,7 +517,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 - [ ] `=C2/B2`
 - [x] `=B2*C2`
 
-#### Q69. The PivotTable below has one row field and two column fields. How can you pivot this table to show the column fields as subtotals of each value in the row field?
+#### Q67. The PivotTable below has one row field and two column fields. How can you pivot this table to show the column fields as subtotals of each value in the row field?
 
 ![image](images/Q69.png)
 
@@ -542,7 +528,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 [Reference](https://devexpress.github.io/dotnet-eud/interface-elements-for-desktop/articles/spreadsheet/pivot-tables/group-items-in-a-pivot-table.html)
 
-#### Q70. Which Excel feature allows you to hide rows or columns with an easily visible expand/collapse?
+#### Q68. Which Excel feature allows you to hide rows or columns with an easily visible expand/collapse?
 
 ![image](images/Q70.png)
 
@@ -551,7 +537,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 - [ ] hiding
 - [ ] cut and paste
 
-#### Q71. Monthly revenues of 2019 are entered in B2:M2, as shown below, To get year-to-date running total revenues, what formula should you enter in B3 and autofill through M3?
+#### Q69. Monthly revenues of 2019 are entered in B2:M2, as shown below, To get year-to-date running total revenues, what formula should you enter in B3 and autofill through M3?
 
 ![image](images/Q71.png)
 
@@ -562,42 +548,37 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 `we are calculating the running total here`
 
-#### Q72. If a worksheet has the value 27 in cell B3, what value is returned by the `function =MOD(B3,6)`?
-
-- [ ] 4
-- [ ] 1
-- [ ] 5
-- [x] 3
-
-#### Q73. From which field list was the pivotTalble created?
+#### Q70. From which field list was the pivotTalble created?
 
 - [ ] rows:event, donor / values: Sum of amount
 - [ ] columns: event / row:donor / values: Sum of amount
 - [x] rows:donor, event / values: Sum of amount
 - [ ] filter: event / row:donor / values: Sum of amount
 
-#### Q74. In the worksheet shown below, cell C6 contains the `formula=VLOOKUP(A6,$F$2:$G$10,2,FALSE)`. What is the most likely reason that `#N/A` is returned in cell `C6` instead of mallory's `ID (2H54)`
+#### Q71. In the worksheet shown below, cell C6 contains the `formula=VLOOKUP(A6,$F$2:$G$10,2,FALSE)`. What is the most likely reason that `#N/A` is returned in cell `C6` instead of mallory's `ID (2H54)`
 
 - [ ] The absolute/relative cell references in the formula are wrong
 - [ ] Cell A6 is not actualy text its a formula that need to be copied and pasted as a value
 - [ ] Column C in the lookup range is not sorted properly
 - [x] A trailing space probably exist in cell A6 or F7
 
-#### Q75. What is the difference between pressing the delete key and using the clear command in the Home tab's Editing group?
+#### Q72. What is the difference between pressing the delete key and using the clear command in the Home tab's Editing group?
 
 - [ ] deletes removes the entire column or row. Clear removes the content from the column or row
 - [x] deletes removes formulas, values and hyperlinks. clear removes formulas, values, hyperlinks, formats, comments and notes
 - [ ] Delete removes the cell itself, shifting cells either up or to the left. Clear removes content and properties but does not muves cells
 - [ ] Delete removes formulas and values. clear removes formulas, values, hyperlinks, formats, comments and notes
 
-#### Q76. What is the intersection of a worksheet row and column?
+#### Q73. What is the intersection of a worksheet row and column?
 
 - [x] cell
 - [ ] selection
 - [ ] element
 - [ ] scalar
 
-#### Q77. In this PivotTable, the continuous variable weight is shown in the _Row_ field. Another continuous variable is in the _Sum Values_ field. It is important to reduce a long list of body weights to a smaller set of weight categories. How do you do this?
+#### Q74. In this PivotTable, the continuous variable weight is shown in the _
+Row_ field. Another continuous variable is in the _Sum
+Values_ field. It is important to reduce a long list of body weights to a smaller set of weight categories. How do you do this?
 
 ![Excel-Q77](images/Q77.png?raw=true)
 
@@ -606,14 +587,14 @@ Table[Column] can be used instead of cell references (C2:C7).
 - [ ] Click the _Row Labels_ arrow and select _Group_.
 - [x] Right-click any row field value in the PivotTable and select _Group_.
 
-#### Q78. How can you drill down into a PivotTable to show details?
+#### Q75. How can you drill down into a PivotTable to show details?
 
 - [ ] Select the cell into which you want to drill down, right-click, and select _Show Summary_.
 - [ ] Select the cell into which you want to drill down, right-click and select _Drill-down_.
 - [x] Select the cell into which you want to drill down and double-click.
 - [ ] Select the cell into which you want to drill down, right-click and select _Show Details > Summary Page_
 
-#### Q79. To ensure the VLOOKUP function returns the value of an exact match, what do you need to enter into the Range_lookup field?
+#### Q76. To ensure the VLOOKUP function returns the value of an exact match, what do you need to enter into the Range_lookup field?
 
 ![Excel-Q79](images/Q79.png?raw=true)
 
@@ -622,7 +603,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 - [x] FALSE
 - [ ] TRUE
 
-#### Q80. Cell D2 contains the formula =B2-C2. What is the fastest way to copy that formula into cells D3:D501 (the bottom of the data set)?
+#### Q77. Cell D2 contains the formula =B2-C2. What is the fastest way to copy that formula into cells D3:D501 (the bottom of the data set)?
 
 ![Excel-Q80](images/Q80.png?raw=true)
 
@@ -631,7 +612,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 - [ ] On the ribbon's _Data_ tab, select _Flash fill_.
 - [x] Double-click D2's fill handle.
 
-#### Q81. This data needs to be sorted by Group, then by Last Name, then by First Name. How do you accomplish this?
+#### Q78. This data needs to be sorted by Group, then by Last Name, then by First Name. How do you accomplish this?
 
 ![Excel-Q81](images/Q81.png?raw=true)
 
@@ -660,7 +641,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 2. Select a cell in the Last Name column, then sort.
 3. Select a cell in the FIrst Name column, then sort.
 
-#### Q82. How can you use Format Painter to apply the format of a single source cell to several nonadjacent destination cells?
+#### Q79. How can you use Format Painter to apply the format of a single source cell to several nonadjacent destination cells?
 
 - [ ] A
 
@@ -689,63 +670,63 @@ Table[Column] can be used instead of cell references (C2:C7).
   3. Click each destination cell.
   4. Press Esc.
 
-#### Q83. Which is a valid Excel formula?
+#### Q80. Which is a valid Excel formula?
 
 - [x] `=(A5+B5)*B7`
 - [ ] `=A3-7(B3:B5+4)`
 - [ ] `=(A5+B5)B7`
 - [ ] `=B3^[2*/3]`
 
-#### Q84. Columns D, E, and F are hidden in your worksheet. What is one way to unhide these columns?
+#### Q81. Columns D, E, and F are hidden in your worksheet. What is one way to unhide these columns?
 
 - [ ] Select column G, then right-click and select `Unhide`.
 - [ ] Select column C, then right-click and select `Unhide`.
 - [ ] On the Page Layout tab, in the `Rows` and `Columns` section, select `Unhide`.
 - [x] Click and drag to select columns C and G, then right-click and select `Unhide`.
 
-#### Q85. Before publishing a document, you want to identify issues that may make it difficult for people with disabilities to read. Which feature should you use?
+#### Q82. Before publishing a document, you want to identify issues that may make it difficult for people with disabilities to read. Which feature should you use?
 
 - [x] Check Accessibility
 - [ ] Check Compatibility
 - [ ] Protect Document
 - [ ] Inspect Document
 
-#### Q86. How do you remove the background of an inserted image?
+#### Q83. How do you remove the background of an inserted image?
 
 - [ ] Select the image and, on the `Picture Tools Format` tab, use the `Compress Picture` feature.
 - [ ] Select the image and, on the `Design` tab, use the `Format Background` feature.
 - [ ] On the `Drawing Tools Format` tab, select `Graphics Fill` > `Remove Background`.
 - [x] Select the image and, on the `Picture Tools Format` tab, click the Remove Background button.
 
-#### Q87. You want to group your slides based on their content to better organize your presentation. How would you accomplish this?
+#### Q84. You want to group your slides based on their content to better organize your presentation. How would you accomplish this?
 
 - [ ] Create an outline in the outline view and rearrange slides.
 - [ ] Add a table of contents slide and link the remaining slides to it.
 - [ ] Add sections and move the slides into the appropriate sections.
 - [ ] Create custom shows and add the slides into the shows.
 
-#### Q88. What is the result of the formula =4&3?
+#### Q85. What is the result of the formula =4&3?
 
 - [x] 43
 - [ ] 12
 - [ ] #VALUE!
 - [ ] 7
 
-#### Q89. How do you remove everything (values, formatting, etc.) from a cell?
+#### Q86. How do you remove everything (values, formatting, etc.) from a cell?
 
 - [ ] Select the cell. On the Home tab, click Clear.
 - [ ] Select the cell and press Delete.
 - [ ] Right-click the cell and select Delete.
 - [x] Select the cell. On the Home tab, click Clear > Clear All.
 
-#### Q90. What is the difference between a workbook and a worksheet?
+#### Q87. What is the difference between a workbook and a worksheet?
 
 - [x] An Excel file is a workbook. A workbook contains one or more worksheets.
 - [ ] Nothing-these two terms mean the same thing.
 - [ ] A workbook contains only data. A worksheet contains both data and formulas.
 - [ ] An Excel file is a worksheet. A worksheet contains one or more workbooks.
 
-#### Q91. How would you connect the slicer to both PivotTables?
+#### Q88. How would you connect the slicer to both PivotTables?
 
 ![PivotTable](images/Q92.png?raw=true)
 
@@ -756,14 +737,14 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-between-multiple-data-sets/
 
-#### Q92. Which formula contains a valid absolute reference?
+#### Q89. Which formula contains a valid absolute reference?
 
 - [x] `=B7*$G$3`
 - [ ] `=(B7)*G3`
 - [ ] `=B7*$[G3]`
 - [ ] `=B7$*G3`
 
-#### Q93. What happens if you use the **AutoSum** button in cell H4?
+#### Q90. What happens if you use the **AutoSum** button in cell H4?
 
 ![image](images/Q94.png)
 
@@ -772,7 +753,7 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 - [x] AutoSum will total the numbers in cells B4:G4
 - [ ] AutoSum will return a **#VALUE!** error.
 
-#### Q94. To create this PivotTable, drag the _ field to the Rows area and the _ field to the Values area?
+#### Q91. To create this PivotTable, drag the _ field to the Rows area and the _ field to the Values area?
 
 ![image](images/Q95.png)
 
@@ -782,14 +763,14 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 - [x] Market Region; Total Sales This Year
 -
 
-#### Q95. Cell A1 contains the number 3. Which formula returns the text Apple?
+#### Q92. Cell A1 contains the number 3. Which formula returns the text Apple?
 
 - [ ] `=SELECT(A1, "Banana", "Orange", "Apple", "Mango")`
 - [x] `=CHOOSE(A1, "Banana", "Orange", "Apple", "Mango")`
 - [x] `=CHOOSE(A1,"Banana","Orange","Apple","Mango")`
 - [ ] `=MATCH(A1,{"Banana","Orange","Apple","Mango"})`
 
-#### Q96. Which value is calculated when the formula **=AVERAGE(G2:G6)/AVERAGE(C2:C6)** is entered into cell H7?
+#### Q93. Which value is calculated when the formula **=AVERAGE(G2:G6)/AVERAGE(C2:C6)** is entered into cell H7?
 
 ![image](images/Q97.png)
 
@@ -798,14 +779,14 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 - [ ] average number sales
 - [x] average annual sales per call
 
-#### Q97. How would you search an entire workbook with **Find & Select**?
+#### Q94. How would you search an entire workbook with **Find & Select**?
 
 - [x] On the **Home** tab, click **Find & Select > Find > Options** (Windows) or **Find & Select > Find** (Mac). Change the **Within** drop-down to **Workbook**.
 - [ ] On the **Home** tab, click **Find & Select > Find > Options** (Windows) or **Find & Select > Find** (Mac). Change the **Look in** drop-down to **Workbook**.
 - [ ] On the **Home** tab, click **Find & Select > Find > Options** (Windows) or **Find & Select > Find** (Mac). Change the **Search** drop-down to **All**.
 - [ ] You cannot search an entire workbook - you must search the worksheets individually.
 
-#### Q98. How do you create a heatmap in a table, such as this one, which is responsive to the values?
+#### Q95. How do you create a heatmap in a table, such as this one, which is responsive to the values?
 
 ![image](images/Q99.png)
 
@@ -814,14 +795,15 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 - [ ] manual highlighting
 - [ ] data bars (within conditional formatting)
 
-#### Q99. To split text across cells without using Merge & Center, click **Formt Cells**. The, on **Alignment** tab, click**\_**.
+#### Q96. To split text across cells without using Merge & Center, click **Formt Cells**. The, on **
+Alignment** tab, click**\_**.
 
 - [x] Text control > Merge cells
 - [ ] Horizontal > Center across selection
 - [ ] Vertical > Center across selection
 - [ ] Data tab > Text to columns
 
-#### Q100. In the worksheet below, what do the symbols in rows 4, 6, 7, and 11 indicate?
+#### Q97. In the worksheet below, what do the symbols in rows 4, 6, 7, and 11 indicate?
 
 ![image](images/Q101.png)
 
@@ -830,7 +812,7 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 - [ ] The time are incorrectly formatted as dates.
 - [ ] The text is incorrectly formatted as dates.
 
-#### Q101. You are determining `%` growth by dividing Growth by Sales. Which Excel function would you use to avoid #DIV/0! errors?
+#### Q98. You are determining `%` growth by dividing Growth by Sales. Which Excel function would you use to avoid #DIV/0! errors?
 
 ![image](images/Q102.png)
 
@@ -839,7 +821,7 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 - [ ] ISERROR
 - [ ] DIVIDE
 
-#### Q103. You have a worksheet in Excel that will print as 10 pages. How can you ensure that the header row is printed at the top of each page?
+#### Q99. You have a worksheet in Excel that will print as 10 pages. How can you ensure that the header row is printed at the top of each page?
 
 - [x] Use Print Titles on the Page Layout tab.
 - [ ] Use Page Setup from the Backstage View.
@@ -848,7 +830,7 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 
 https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-page-96719bd4-b93e-4237-8f97-d2cabb1b196a
 
-#### Q104. Which value is returned when you enter this function into cell G2? `=IF(SUM(F2:F6)>12,"Too Many Tardy Days","No Tardiness Issue")`
+#### Q100. Which value is returned when you enter this function into cell G2? `=IF(SUM(F2:F6)>12,"Too Many Tardy Days","No Tardiness Issue")`
 
 ![Shift Code](images/Q104.jpg)
 
@@ -859,14 +841,14 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 0 + 0 + 3 + 6 + 3 = 12. The formula only dislays "Too Many Tardy Days" when it is more than 12.
 
-#### Q105. What ribbon command on the Home tab can you use to change a cell's fill color automatically, based on the value of the cell?
+#### Q101. What ribbon command on the Home tab can you use to change a cell's fill color automatically, based on the value of the cell?
 
 - [x] Conditional Formatting
 - [ ] Format
 - [ ] Cell Styles
 - [ ] Fill
 
-#### Q106. In this worksheet, how are cells A2:D2 related to cell C4?
+#### Q102. In this worksheet, how are cells A2:D2 related to cell C4?
 
 ![image](images/Q106.png)
 
@@ -875,7 +857,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] Cells A2:D2 are precedents of the formula in cell C4.
 - [ ] Cells A2:D2 are dependents of the formula in cell C4.
 
-#### Q107. What is the name given to the numbers in or above each bar in a column chart, as shown?
+#### Q103. What is the name given to the numbers in or above each bar in a column chart, as shown?
 
 ![image](images/Q107.png)
 
@@ -884,35 +866,36 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] data labels
 - [ ] data values
 
-#### Q108. Which chart type provides the best visual display of the releationship between two numeric variables?
+#### Q104. Which chart type provides the best visual display of the releationship between two numeric variables?
 
 - [ ] radar chart
 - [ ] box and whisker chart
 - [x] XY scatter chart
 - [ ] combo chart
 
-#### Q109. To ensure that a collection of shapes are evenly spaced apart from left to right, select the shapes, click Page Layout > Align, and then click **\_\_**.
+#### Q105. To ensure that a collection of shapes are evenly spaced apart from left to right, select the shapes, click Page Layout > Align, and then click **
+\_\_**.
 
 - [x] Distribute Horizontally
 - [ ] Align Center
 - [ ] Distribute Vertically
 - [ ] Align Middle
 
-#### Q110. A file extension of .xlsm indicates what type of workbook?
+#### Q106. A file extension of .xlsm indicates what type of workbook?
 
 - [x] macro-enabled workbook
 - [ ] XML-standard workbook
 - [ ] Excel 2003 workbook
 - [ ] workbook where macros are not allowed
 
-#### Q111. How do you remove only the conditional formatting from a cell and leave all other formatting intact?
+#### Q107. How do you remove only the conditional formatting from a cell and leave all other formatting intact?
 
 - [ ] This is not possible-you can remove only all formatting from a cell.
 - [x] Select the cell. On the Home tab, click Conditional Formatting > Clear Rules > Clear Rules from Selected Cells.
 - [ ] Right-click the cell and select Delete Conditional Formatting.
 - [ ] Right-click the cell and select Remove Conditional Formatting.
 
-#### Q112. If a range name is used in a formula and the name is deleted, what happens to the formula?
+#### Q108. If a range name is used in a formula and the name is deleted, what happens to the formula?
 
 - [ ] The formula display a warning but the actual cell address is substituted for the deleted name.
 - [x] The formula becomes invalid and displays a #NAME? error.
@@ -921,14 +904,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://bettersolutions.com/excel/named-ranges/name-manager-deleting.htm#:~:text=If%20you%20delete%20a%20named,named%20ranges%20will%20become%20invalid.)
 
-#### Q113. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select **\_**.
-
-- [ ] Insert Column
-- [ ] Paste Special
-- [ ] Insert Column Left
-- [x] Insert
-
-#### Q114. You want to restrict the values entered in a cell to a specified set, such as Hop, Skip, Jump. Which type of data validation should you use?
+#### Q109. You want to restrict the values entered in a cell to a specified set, such as Hop, Skip, Jump. Which type of data validation should you use?
 
 - [ ] input range
 - [x] list
@@ -937,7 +913,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [reference](https://www.extendoffice.com/documents/excel/3830-excel-only-allow-certain-values.html)
 
-#### Q115. Given the image below, what happens if you type "P" in cell A6?
+#### Q110. Given the image below, what happens if you type "P" in cell A6?
 
 ![image](https://user-images.githubusercontent.com/1056999/159387628-9f960f22-9b50-4764-b4d9-31b5914b164a.png)
 
@@ -946,14 +922,14 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] A pop-up list appears with the previous four names.
 - [ ] The word "Perez" appears and immediately the active cell moves down.
 
-#### Q116. You want to find the second-largest invoice in a column containing all the invoices in a given month. What function would you use?
+#### Q111. You want to find the second-largest invoice in a column containing all the invoices in a given month. What function would you use?
 
 - [ ] NEXT
 - [ ] MAX
 - [x] LARGE
 - [ ] MATCH
 
-#### Q117. How can you see the data in column E?
+#### Q112. How can you see the data in column E?
 
 ![image](https://user-images.githubusercontent.com/1056999/159387970-6ff9d57c-adb2-452b-83af-66d9f3fdc908.png)
 
@@ -962,7 +938,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] On the Home tab of the ribbon, select Fit to Column.
 - [ ] Expand the width of its column.
 
-#### Q118. In the worksheet below, a table called Projects extends from cell A1 to D10. Cell D1 contains the text Status. Cell E12 contains the formula =Projects[@Status]. What does this formula return?
+#### Q113. In the worksheet below, a table called Projects extends from cell A1 to D10. Cell D1 contains the text Status. Cell E12 contains the formula =Projects[@Status]. What does this formula return?
 
 ![image](https://user-images.githubusercontent.com/1056999/159388193-743a1393-d61f-47b1-a4ae-346f36fb3160.png)
 
@@ -971,7 +947,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] #REF!
 - [ ] 0
 
-#### Q119. Which Excel feature allows you to select all cells in the column with inconsistent formulas compared to the rest of the column?
+#### Q114. Which Excel feature allows you to select all cells in the column with inconsistent formulas compared to the rest of the column?
 
 ![image](https://user-images.githubusercontent.com/1056999/159388456-054ba0ae-c595-4aaa-8d38-351f726885ca.png)
 
@@ -980,7 +956,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] On the Formulas tab, click Trace errors.
 - [ ] On the Formulas tab, click show formulas
 
-#### Q120. What is one way to center text in a cell?
+#### Q115. What is one way to center text in a cell?
 
 - [ ] Right-click the cell and select **Center** (Windows) or **Center Text** (Mac).
 - [ ] Seletct the cell and, on the **View** tab in the **Cells** section, click **Alignment** and select **Center** (Windows) or **Center Text** (Mac).
@@ -989,7 +965,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://support.microsoft.com/en-us/office/align-text-in-a-cell-b2489a1f-6c89-45b7-9562-bbc287aa71ea)
 
-#### Q121. Cell D1 contains the value 7.877. You want cell D1 to display the value as 7.9 but keep the original number in calculations. How can yu=ou accomplish this?
+#### Q116. Cell D1 contains the value 7.877. You want cell D1 to display the value as 7.9 but keep the original number in calculations. How can yu=ou accomplish this?
 
 - [ ] Click the **Decrease Decimal** button once.
 - [x] Click the **Decrease Decimal** button twice.
@@ -998,7 +974,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://support.microsoft.com/en-us/office/round-a-number-to-the-decimal-places-i-want-49b936f9-6904-425d-aa98-02ffb7f9a17b)
 
-#### Q122. Given the image below, what happens if you type "P"in cell A6?
+#### Q117. Given the image below, what happens if you type "P"in cell A6?
 
 ![image](https://user-images.githubusercontent.com/35125965/161691848-4c888572-c649-457c-b7a0-58c64947ff7f.png)
 
@@ -1007,7 +983,8 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] A pop-up list appears with the previous four names.
 - [ ] The letter "P" appears.
 
-#### Q123. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select **\_**.
+#### Q118. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select **
+\_**.
 
 - [ ] Insert Column
 - [ ] Paste Special
@@ -1016,7 +993,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://support.microsoft.com/en-us/office/insert-or-delete-rows-and-columns-6f40e6e4-85af-45e0-b39d-65dd504a3246#:~:text=To%20insert%20a%20single%20column,and%20then%20select%20Insert%20Columns.)
 
-#### Q124. Your transactions data set contains more than 10,000 rows. Some rows contain the same transaction. How would you remove the rows containing the identical transactions?
+#### Q119. Your transactions data set contains more than 10,000 rows. Some rows contain the same transaction. How would you remove the rows containing the identical transactions?
 
 - [ ] Filter the relevant column, right-click the column head, and select **Remove Duplicates**.
 - [ ] This is possible only with Power Query.
@@ -1025,7 +1002,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://support.microsoft.com/en-us/office/filter-for-unique-values-or-remove-duplicate-values-ccf664b0-81d6-449b-bbe1-8daaec1e83c2)
 
-#### Q125. A colleague shared an excel file with you, and you want to display a worksheet that is hidden in it. How you can do that?
+#### Q120. A colleague shared an excel file with you, and you want to display a worksheet that is hidden in it. How you can do that?
 
 - [ ] On the **Home** tab, click **Unhide**.
 - [ ] On the **Review** tab, click **Unhide Sheet**.
@@ -1034,7 +1011,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://support.microsoft.com/en-us/office/hide-or-unhide-worksheets-69f2701a-21f5-4186-87d7-341a8cf53344)
 
-#### Q125. You have a column of dog breeds that are in all capital letters. What function would you use to convert those dog breeds so that only the first letter of each word is capitalized?
+#### Q121. You have a column of dog breeds that are in all capital letters. What function would you use to convert those dog breeds so that only the first letter of each word is capitalized?
 
 - [ ] Sentence
 - [ ] Upper

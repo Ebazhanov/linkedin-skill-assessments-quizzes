@@ -189,21 +189,21 @@
 - [ ] 350
 - [ ] 20
 
-#### Q29. Who does an audit committee report to?
+#### Q28. Who does an audit committee report to?
 
 - [x] external auditors
 - [ ] senior management
 - [ ] board of directors
 - [ ] union of employee representatives
 
-#### Q30. A business purchased office equipment by issuing aone-year note payable. The entire amount of the note is due at the end of one year. How do you record this transaction?
+#### Q29. A business purchased office equipment by issuing aone-year note payable. The entire amount of the note is due at the end of one year. How do you record this transaction?
 
 - [ ] Debt asset, credit equity
 - [ ] Debt liablity, credit asset.
 - [ ] Debit asset, credit liability
 - [ ] Debit equity, credit asset.
 
-#### Q31. Which section of a financial annual report describes the corporation's accounting methods?
+#### Q30. Which section of a financial annual report describes the corporation's accounting methods?
 
 - [x] Notes to the financial statements
 - [ ] An auditor's report

@@ -171,16 +171,3 @@
 - [ ] Set an output file name and location from the Output To menu.
 - [ ] Adjust the composition settings.
 
-#### Q25. What type of light never casts a shadow in a 3D scene?
-
-- [ ] Parallel
-- [ ] Ambient
-- [ ] Point
-- [ ] Spot
-
-#### Q26. Where do you change the shutter angle for the motion blur in a composition?
-
-- [ ] on the Basic tab of the Composition Settings dialog box
-- [ ] on the Advanced tab of the Composition Settings dialog box
-- [ ] on the 3D Renderer tab of the Composition Settings dialog box
-- [ ] in the File > Project Settings dialog box

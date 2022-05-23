@@ -654,7 +654,7 @@ isset($_POST['submit'])
 - [ ] 1
 - [ ] 123
 
-#### Q57. When should this php script be used?
+#### Q58. When should this php script be used?
 
 ```php
 $secret_word = 'if i ate spinach';
@@ -666,7 +666,7 @@ setcookie('login', $_REQUEST['username']. ','. md5($_REQUEST['username'].$secret
 - [ ] at first registration
 - [x] at every login, for security
 
-#### Q58. A PHP "variable variable" takes the value of a variable and treats that as the name of a variable. For example, if `$var` is a variable then `$$var` is a variable variable whose name is the value of `$var`. Which script produces the output below, using variable variables?
+#### Q59. A PHP "variable variable" takes the value of a variable and treats that as the name of a variable. For example, if `$var` is a variable then `$$var` is a variable variable whose name is the value of `$var`. Which script produces the output below, using variable variables?
 
 ```php
 Cat
@@ -714,14 +714,14 @@ Dog
       echo $Cat;
 ```
 
-#### Q59. Imagine a web application, built following a MVC architecture, that contains a quiz and a button to score it, When the user presses the Score button, which component should handle the request?
+#### Q60. Imagine a web application, built following a MVC architecture, that contains a quiz and a button to score it, When the user presses the Score button, which component should handle the request?
 
 - [ ] router
 - [x] controller
 - [ ] model
 - [ ] view
 
-#### Q60. Which script might be used to continue a user's search for music, across different webpages?
+#### Q61. Which script might be used to continue a user's search for music, across different webpages?
 
 - [ ]
 
@@ -759,7 +759,7 @@ Dog
         ?>
 ```
 
-#### Q61. Which PHP script finds the earliest and latest dates from an array?
+#### Q62. Which PHP script finds the earliest and latest dates from an array?
 
 - [x]
 
@@ -801,7 +801,7 @@ Dog
         ?>
 ```
 
-#### Q62. What is the resulting output of this for statement?
+#### Q63. What is the resulting output of this for statement?
 
 ```php
 $kilometers = 1;
@@ -844,14 +844,14 @@ for (;;) {
 
 - [ ] FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2
 
-#### Q63. In PHP 7, What is the correct way to import multiple classes from namespace in a single declaration ?!
+#### Q64. In PHP 7, What is the correct way to import multiple classes from namespace in a single declaration ?!
 
 - [x] use myApp\myNamespace\{ClassA, ClassB, ClassC};
 - [ ] use myApp\myNamespace\ClassA, ClassB, ClassC;
 - [ ] use myApp\myNamespace\[ClassA, ClassB, ClassC];
 - [ ] use myApp\myNamespace\(ClassA, ClassB, ClassC);
 
-#### Q64. Which is the most complete list of data types that PHP supports?
+#### Q65. Which is the most complete list of data types that PHP supports?
 
 - [x] string, integer, float, boolean, array, object, NULL, resource
 - [ ] string, integer, boolean, array, object, NULL, resource
@@ -860,7 +860,7 @@ for (;;) {
 
 [reference](https://www.w3schools.com/php/php_datatypes.asp)
 
-#### Q65. What type of computer language is PHP?
+#### Q66. What type of computer language is PHP?
 
 - [x] server-side scripting language
 - [ ] compiled language
@@ -869,7 +869,7 @@ for (;;) {
 
 [reference](https://www.quora.com/Which-programming-language-is-used-to-create-PHP)
 
-#### Q66. Which superglobal variable holds information about headers, paths, and script locations?
+#### Q67. Which superglobal variable holds information about headers, paths, and script locations?
 
 - [x] `$_SERVER`
 - [ ] `$SERVER_VARIABLES`
@@ -878,7 +878,7 @@ for (;;) {
 
 [reference](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/php/php_superglobals.asp.html)
 
-#### Q67. Describe what happens if you run this code in a testing environment:
+#### Q68. Describe what happens if you run this code in a testing environment:
 
 ```php
 $capitals = ['UK' => 'London', 'France' => 'Paris'];
@@ -892,14 +892,14 @@ echo "$capitals['france'] is the capital of France.";
 
 **_Also, 'france' key must be capitalized!_**
 
-#### Q68. DRY (Don't Repeat Yourself) is a principle of software development aimed at reducing repetition of software patterns. Which choice is not a way to write DRYer code with PHP?
+#### Q69. DRY (Don't Repeat Yourself) is a principle of software development aimed at reducing repetition of software patterns. Which choice is not a way to write DRYer code with PHP?
 
 - [ ] inheritance
 - [ ] classes
 - [x] namespacing
 - [ ] dependency injection
 
-#### Q69. Which code will return the IP address of the client?
+#### Q70. Which code will return the IP address of the client?
 
 - [ ] `$HTTP_SERVER_VARS("REMOTE_IP")`
 - [x] `$_SESSION["REMOTE_ADDR"];`
@@ -908,14 +908,14 @@ echo "$capitals['france'] is the capital of France.";
 
 **_Both 2 and 4 are correct!_**
 
-#### Q70. Your site must allow uploading of large files. What might you need to do?
+#### Q71. Your site must allow uploading of large files. What might you need to do?
 
 - [ ] Make sure the user has the proper permissions.
 - [ ] Keep a count of upload file sizes and log them.
 - [x] Change the `upload_max_filesize` configuration parameter.
 - [ ] Be sure to use chunked transfer encoding.
 
-#### Q71. What is the output of this script?
+#### Q72. What is the output of this script?
 
 ```php
 $my_text = 'The quick grey [squirrel].';
@@ -928,7 +928,7 @@ print $match[1]."\n";
 - [ ] [squirrel]
 - [ ] The quick grey squirrel.
 
-#### Q72. What is the output of this script?
+#### Q73. What is the output of this script?
 
 `$fruits = ['apple', 'orange', 'pear', 'mango', 'papaya'];`
 `$i = 0;`
@@ -939,41 +939,41 @@ print $match[1]."\n";
 - [ ] a parse error
 - [ ] pear
 
-#### Q73. What are some of the main types of errors in PHP?
+#### Q74. What are some of the main types of errors in PHP?
 
 - [x] notices, warnings, fatal
 - [ ] runtime, logical, compile
 - [ ] semantic, logical, syntax
 - [ ] warnings, syntax, compile
 
-#### Q74. What is the correct way to include the file gravy.php in the middle of HTML code?
+#### Q75. What is the correct way to include the file gravy.php in the middle of HTML code?
 
 - [ ] `<!-- include file="gravy.php"; -->`
 - [ ] `<?php include gravy.php; ?>`
 - [x] `<?php include "gravy.php"; ?>`
 - [ ] `<?php include file="gravy.php"; ?>`
 
-#### Q75. Which two functions can sanitize text and validate text formats?
+#### Q76. Which two functions can sanitize text and validate text formats?
 
 - [ ] `session_start()` and `filter_input()`
 - [x] `filter_var()` and `filter_input()`
 - [ ] `preg_match()` and `strstr()`
 
-#### Q76. Why is it not recommended to make all of a class's variables public?
+#### Q77. Why is it not recommended to make all of a class's variables public?
 
 - [ ] Doing so makes your code tightly coupled.
 - [ ] The attribute may be accessed only by the class that defines the member.
 - [x] You will have no control over which values the attribute can take. Any external code will be able to change it without any constraint.
 - [ ] You can then access the attribute only within the class itself, and by inheriting and parent classes.
 
-#### Q77. You want to use wildcard characters when searching for records in a MySQL/MariaDB database using a PDO prepared statement. Which code should you use?
+#### Q78. You want to use wildcard characters when searching for records in a MySQL/MariaDB database using a PDO prepared statement. Which code should you use?
 
 - [x] `$statement->bindValue(':name', '%' . $_GET['name'] . '%');`
 - [ ] `$statement->bindValue('%' . $_GET['name'] . '%', ':name');`
 - [ ] `$statement->bindParam(':name', '%' . $_GET['name'] . '%');`
 - [ ] `$statement->bindParam('%' . $_GET['name'] . '%', ':name');`
 
-#### Q78. Create an associative array using `$array1` as the keys and `$array2` as the values:
+#### Q79. Create an associative array using `$array1` as the keys and `$array2` as the values:
 
 `$array1 = ['country', 'capital', 'language'];`
 `$array2 = ['France', 'Paris', 'French'];`
@@ -983,14 +983,14 @@ print $match[1]."\n";
 - [ ] `$array3 = array_keys($array1, $array2);`
 - [x] `$array3 = array_combine($array1, $array2);`
 
-#### Q79. Assume that `$r` is 255, and `$g` and `$b` are both 0. What is the correct code to output `"#ff0000"`?
+#### Q80. Assume that `$r` is 255, and `$g` and `$b` are both 0. What is the correct code to output `"#ff0000"`?
 
 - [ ] `printf('#%2x%2x%2x', 255, 0, 0);`
 - [ ] `printf('#%2X%2X%2X', $r, 0, 0);`
 - [ ] `printf('#%x%x%x', 255, 0, 0);`
 - [x] `printf('#%02x%02x%02x', 255, 0, 0);`
 
-#### Q80. You want to find out what day Twelfth Night falls on after Christmas 2018. Which code should you use?
+#### Q81. You want to find out what day Twelfth Night falls on after Christmas 2018. Which code should you use?
 
 - [ ] `$xmas = new DateTime('Dec 25, 2018');`
       `$twelfth_night = $xmas->add(new DateInterval('P12D'));`
@@ -1007,7 +1007,7 @@ print $match[1]."\n";
 
 **_1 seems correct, but the question asks for "day", not day of the week. Twelfth Night is the "06" day of January, 2019._**
 
-#### Q81. Which loop displays all numbers from 1 to 10 inclusive?
+#### Q82. Which loop displays all numbers from 1 to 10 inclusive?
 
 - [ ] `$i = 1;`
       `while ($i < 10) {`
@@ -1028,7 +1028,7 @@ print $match[1]."\n";
       ` echo ++$i . '<br/>';`
       `}`
 
-#### Q82. Which are types of control structures in PHP?
+#### Q83. Which are types of control structures in PHP?
 
 - [x] `break`, `continue`, `do-while`, `exception`, `for`, `foreach`, `if`, `switch`, `throw`, `while`
 - [ ] `values`, `operators`, `expressions`, `keywords`, `comments`
@@ -1037,21 +1037,14 @@ print $match[1]."\n";
 
 [reference](https://www.php.net/manual/en/language.control-structures.php)
 
-#### Q83. Which function can you use in error handling to stop the execution of a script and is equivalent to `exit()`?
-
-- [ ] throw
-- [ ] break
-- [x] die
-- [ ] return
-
-#### Q83. Which function can you use in error handling to stop the execution of a script and is equivalent to exit()?
+#### Q84. Which function can you use in error handling to stop the execution of a script and is equivalent to exit()?
 
 - [x] `die`
 - [ ] `return`
 - [ ] `throw`
 - [ ] `break`
 
-#### Q84. Is the output of this code in descending order, shown vertically, and with spaces between numbers? And what is the output?
+#### Q85. Is the output of this code in descending order, shown vertically, and with spaces between numbers? And what is the output?
 
 ```php
 $numbers = array(4,6,2,22,11);
@@ -1068,7 +1061,7 @@ for($x = 0; $x < $arrlength; $x++){
 - [x] This does not meet all the criteria because the sort() function sorts an indexed array in ascending order. Thus this code will display "2 4 6 11 22" shown vertically, but the numbers are spaced.
 - [ ] does not meet all the criteria because the echo simply result in showing the array numbers in the order shown within the $numbers array, which is ascending
 
-#### Q85. Which is not true of the `toString()` in PHP?
+#### Q86. Which is not true of the `toString()` in PHP?
 
 - [ ] It saves a lot of work of using setters methods to access the values of objects.
 - [ ] It saves a lot of work of using getters methods to access the values of objects.

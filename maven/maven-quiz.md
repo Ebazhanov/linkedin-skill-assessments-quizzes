@@ -258,14 +258,7 @@ mvn install
 - [ ] It removes unused dependencies in your project
 - [ ] It builds your project
 
-#### Q36. If you want to utilize a locally develop JAR file in another project and that JAR file has not been deployed to either the Maven central repository or your own locally sourced mirror repository, what Maven goal do you need to execute on the locally developed JAR project?
-
-- [x] install
-- [ ] test
-- [ ] compile
-- [ ] package
-
-#### Q37. Bellow is a definition of the Maven JAR Plugin, where the main class is set to com.palmer.bethan.App. What is the effect of this?
+#### Q36. Bellow is a definition of the Maven JAR Plugin, where the main class is set to com.palmer.bethan.App. What is the effect of this?
 
 ```
 <configuration>
@@ -283,14 +276,14 @@ mvn install
 - [ ] Maven will include only the App class when it compiles the source code.
 - [ ] Maven will add an empty main method to the App class.
 
-#### Q38. Suppose you are packaging a Maven project and see the following error: “[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!” What do you add to your POM file to set the platform encoding to ensure your build is not platform dependent?
+#### Q37. Suppose you are packaging a Maven project and see the following error: “[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!” What do you add to your POM file to set the platform encoding to ensure your build is not platform dependent?
 
 - [ ] <project.build.resources>
 - [ ] <maven.compiler.source>
 - [x] <project.build.sourceEncoding>
 - [ ] <project.compiler.encoding>
 
-#### Q39. Why might you not want to include groupId and version elements in child POM files?
+#### Q38. Why might you not want to include groupId and version elements in child POM files?
 
 - [ ] If you include these elements, an error will be thrown when you try to build the project.
 - [x] These elements are inherited from the parent POM file, and do not need to be repeated.
@@ -299,28 +292,29 @@ mvn install
 
 [maven docs](https://maven.apache.org/guides/introduction/introduction-to-the-pom.html#the-solution)
 
-#### Q40. The settings.xml file that provides the user-specific settings for Maven is contained in which directory by default?
+#### Q39. The settings.xml file that provides the user-specific settings for Maven is contained in which directory by default?
 
 - [ ] `${maven.home}/${user.name}/settings.xml`
 - [x] `${user.home}/.m2/settings.xml`
 - [ ] `${maven.home}/conf/settings.xml`
 - [ ] `${user.home}/maven/settings.xml`
 
-#### Q41. Suppose you are using Maven in a corporate environment and, to save bandwidth, you want to prevent the need for large numbers of developers to download the same dependency from the internet. What do you do to limit this?
+#### Q40. Suppose you are using Maven in a corporate environment and, to save bandwidth, you want to prevent the need for large numbers of developers to download the same dependency from the internet. What do you do to limit this?
 
 - [x] Create an internal corporate repository to store copies of the necessary artifacts.
 - [ ] It is not possible to do this.
 - [ ] When defining the dependency, set the scope to provided.
 - [ ] Each developer should define the dependency in the POM file in the local copy of the project.
 
-#### Q42. In multimodule projects, what do child POMs inherit from the parent POM?
+#### Q41. In multimodule projects, what do child POMs inherit from the parent POM?
 
 - [x] all of these answers
 - [ ] dependencies
 - [ ] groupId
 - [ ] version
 
-#### Q43. Below is a report generated for a multimodule project with the Checkstyle Plugin. Why might the highlighted links to the two child projects _not_ work?
+#### Q42. Below is a report generated for a multimodule project with the Checkstyle Plugin. Why might the highlighted links to the two child projects _
+not_ work?
 
 ![q43](q43.png)
 
@@ -329,49 +323,49 @@ mvn install
 - [ ] All links in Checkstyle reports must be specified in the plugin definition.
 - [ ] Checkstyle reports for child modules have to be behind a firewall.
 
-#### Q44. Which build plugin allows you to create a "fat" JAR file that contains all of the dependencies in the final JAR file?
+#### Q43. Which build plugin allows you to create a "fat" JAR file that contains all of the dependencies in the final JAR file?
 
 - [ ] Fatjar
 - [x] Shade
 - [ ] Dependency
 - [ ] Package
 
-#### Q45. What is the default scope for Maven dependencies?
+#### Q44. What is the default scope for Maven dependencies?
 
 - [ ] Test
 - [x] Compile
 - [ ] Runtime
 - [ ] Build
 
-#### Q46. How many times is compiler:compile called when executing mvn clean compile test package?
+#### Q45. How many times is compiler:compile called when executing mvn clean compile test package?
 
 - [ ] one
 - [ ] two
 - [ ] none
 - [ ] three
 
-#### Q47. What is one of the advantages of using properties in Maven?
+#### Q46. What is one of the advantages of using properties in Maven?
 
 - [ ] Properties provide a template for you to build Maven projects with a certain structure.
 - [ ] Properties allow you to inherit values from the parent POM in the child POM.
 - [x] You can avoid hard-coding values in multiple places.
 - [ ] Properties speed up your Maven build.
 
-#### Q48. What are the phases of the clean lifecycle?
+#### Q47. What are the phases of the clean lifecycle?
 
 - [x] pre-clean,clean and post-clean
 - [ ] Compile, clean and install
 - [ ] clean and install
 - [ ] validate, clean and deploy
 
-#### Q49. A compile-time dependency of a dependency for your project is often called **a\_** dependency.
+#### Q48. A compile-time dependency of a dependency for your project is often called **a\_** dependency.
 
 - [ ] Transitive
 - [ ] runtime
 - [ ] provided
 - [ ] test
 
-#### Q50. For what purpose can plugins use the validate phase in the default lifecycle?
+#### Q49. For what purpose can plugins use the validate phase in the default lifecycle?
 
 - [ ] to check the parent POM file defines all of the child POM files
 - [x] to carry out checks before building the project
@@ -381,7 +375,7 @@ mvn install
 1. [stackoverflow](https://stackoverflow.com/a/40601037)
 2. [maven docs](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#a-build-lifecycle-is-made-up-of-phases)
 
-#### Q51. How do you check for unused dependencies in your project?
+#### Q50. How do you check for unused dependencies in your project?
 
 - [ ] Run mvn clean and look at which plugins are not mentioned in the output.
 - [ ] You will need to do this manually.
@@ -391,7 +385,7 @@ mvn install
 1. [baeldung](https://www.baeldung.com/maven-unused-dependencies)
 2. [stackoverflow](https://stackoverflow.com/a/1518661)
 
-#### Q52. Why is it best practice to avoid overriding the default directory structure?
+#### Q51. Why is it best practice to avoid overriding the default directory structure?
 
 - [ ] Keeping the default structure reduces onboarding time, because developers recognize it.
 - [ ] Overriding the default structure is very complex.
@@ -400,7 +394,7 @@ mvn install
 
 [maven docs](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html)
 
-#### Q53. What is the main purpose of the install phase?
+#### Q52. What is the main purpose of the install phase?
 
 - [ ] to compile the source code of the project
 - [x] to install all of the remote dependencies
@@ -409,14 +403,14 @@ mvn install
 
 [maven docs](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html#a-build-lifecycle-is-made-up-of-phases)
 
-#### Q54. How do you skip the tests when running a mvn package command?
+#### Q53. How do you skip the tests when running a mvn package command?
 
 - [ ] Use -Dtest=skip
 - [x] Use -DskipTests=true
 - [ ] Use -Dtests=pass
 - [ ] Use a plugin that can be configured to skip tests
 
-#### Q55. Below is a section of a settings.xml file. How can you use the path to the app home in your POM file?
+#### Q54. Below is a section of a settings.xml file. How can you use the path to the app home in your POM file?
 
 ```
 <profiles>
@@ -437,14 +431,14 @@ mvn install
 - [ ] ${set-app-home}
 - [ ] ${/path/to/application}
 
-#### Q56. What is the default value of the warSourceDirectory configuration property of the Maven WAR Plugin?
+#### Q55. What is the default value of the warSourceDirectory configuration property of the Maven WAR Plugin?
 
 - [ ] /src/main/webapp
 - [ ] /src/main/war
 - [x] /src/main/WEB-INF
 - [ ] /src/web
 
-#### Q57. When building a Maven Archetype, where do you put your prototype files?
+#### Q56. When building a Maven Archetype, where do you put your prototype files?
 
 - [ ] src/main/template
 - [ ] src/main/archetype
