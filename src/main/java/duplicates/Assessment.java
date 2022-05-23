@@ -113,10 +113,25 @@ public class Assessment {
                     System.out.println(questions.get(i));
                     System.out.println("-- VERSION 2 --");
                     System.out.println(questions.get(j));
-                    System.out.printf("There is a %%%5.2f similarity. Are they duplicates? (y/n)\n", similarity * 100);
-                    boolean isDuplicate = Driver.IN.nextLine().charAt(0) == 'y';
+                    System.out.printf("There is a %%%5.2f similarity. Are they duplicates? (y<optional: number>/n) \n", similarity * 100);
+                    String answer = Driver.IN.nextLine();
+                    boolean isDuplicate = answer.charAt(0) == 'y';
                     if (isDuplicate) {
-                        dupQuestions.add(questions.get(i).number() > questions.get(j).number() ? questions.get(i) : questions.get(j));
+                        // User has the option of choosing which to delete if there is a duplicate, and the number will come after y.
+                        int num = -1;
+                        if (answer.length() != 1) {
+                            num = Integer.parseInt(answer.substring(1));
+                            if (questions.get(i).number() == num) {
+                                dupQuestions.add(questions.get(i));
+                            } else if (questions.get(j).number() == num) {
+                                dupQuestions.add(questions.get(j));
+                            } else {
+                                //TODO This needs to ask for the number again. For now, aborting process will cancel answers to current file but previous files are saved.
+                                System.err.println("That number is not valid! Removing largest number");
+                            }
+                        } else {
+                            dupQuestions.add(questions.get(i).number() > questions.get(j).number() ? questions.get(i) : questions.get(j));
+                        }
                     }
                     System.out.println("\n\n\n");
                 }
