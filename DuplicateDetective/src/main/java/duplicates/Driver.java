@@ -16,6 +16,11 @@ public class Driver {
         Report.getInstance().finish();
     }
 
+    /**
+     * Loads all quiz files and sends them to their own {@link Assessment} class.
+     *
+     * @return Quiz files represented by {@link Assessment} objects
+     */
     static ArrayList<Assessment> loadAssessments() {
         ArrayList<Assessment> assessments = new ArrayList<>();
         // The search begins in the root directory, which contains a lot of directories, which then contain the quiz markdown files.

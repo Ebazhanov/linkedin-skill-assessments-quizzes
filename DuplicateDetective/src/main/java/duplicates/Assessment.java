@@ -102,6 +102,18 @@ public class Assessment {
         return new Question(number, prompt.toString(), answers);
     }
 
+    /**
+     * This method loops through all questions and checks it against all other questions,
+     * using the methods in {@link Distance} to determine how similar they are.
+     * When it finds a question that is over 80% similar, it will ask the user if they are in fact duplicates.
+     * The user can then input 'y' or 'n' to answer.
+     * If the user sees that they are duplicates but one is better than the other,
+     * they can input the number they wish to delete immediately after 'y', eg "y87".
+     * If no number is entered, the question with the highest number is chosen to reduce the number of questions to be renumbered.
+     * <p>
+     * When the user indicates a duplicate, the question chosen to be deleted is added to an array.
+     * At the end, these questions are removed from the main array of questions.
+     */
     void findDuplicates() {
         dupQuestions = new ArrayList<>();
         System.out.println("---- Finding duplicates in " + heading + " ----");
@@ -143,6 +155,12 @@ public class Assessment {
         }
     }
 
+    /**
+     * This method uses the current information from the main array of questions to rewrite the file.
+     * This also uses a counter to number the questions,
+     * rather than the original numbering since missing questions disrupts the original ordering.
+     * This also removes other numbering errors that exist in the original file.
+     */
     void writeFile() {
         int index = 1;
         try {
