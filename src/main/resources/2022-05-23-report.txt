@@ -1,0 +1,87 @@
++---------------------------------------------------------------------------+------------+------------+
+| File                                                                      | Duplicates | Renumbered |
++---------------------------------------------------------------------------+------------+------------+
+| AutoCAD                                                                   |          1 |         66 |
+| C (Programming Language)                                                  |          1 |          0 |
+| Accounting                                                                |          0 |          3 |
+| Unity (Animation, Asset Management, C# Scripting, Gameplay, Programming)  |          0 |          0 |
+| Adobe InDesign                                                            |          0 |          0 |
+| Microsoft Power BI                                                        |          0 |          0 |
+| Front-end Development                                                     |          0 |          0 |
+| Revit                                                                     |          0 |          0 |
+| C++                                                                       |          3 |         17 |
+| C++                                                                       |          0 |          0 |
+| Google Analytics                                                          |          3 |         54 |
+| Adobe Acrobat                                                             |          1 |          4 |
+| Cybersecurity Assessment                                                  |          1 |          5 |
+| IT Operations                                                             |          2 |         37 |
+| Adobe Lightroom                                                           |          0 |          0 |
+| Go (Programming Language)                                                 |          1 |          9 |
+| Eclipse                                                                   |          0 |          0 |
+| WordPress                                                                 |          6 |         39 |
+| Python (Programming Language)                                             |          6 |         62 |
+| CSS                                                                       |          0 |          0 |
+| SOLIDWORKS                                                                |          0 |          0 |
+| Adobe XD                                                                  |          0 |          0 |
+| Ruby on Rails                                                             |          1 |          5 |
+| Google Ads                                                                |          2 |         14 |
+| Maven                                                                     |          1 |         21 |
+| C#                                                                        |          2 |         30 |
+| Rust (Programming Language)                                               |          1 |          1 |
+| Adobe Photoshop                                                           |          0 |          0 |
+| jQuery                                                                    |          1 |         28 |
+| Visual Basic for Applications (VBA)                                       |          0 |          0 |
+| R (Programming Language)                                                  |          1 |         14 |
+| Object-Oriented Programming (OOP)                                         |          0 |         83 |
+| Angular                                                                   |          0 |          0 |
+| QuickBooks                                                                |          1 |         29 |
+| Java                                                                      |          3 |         37 |
+| AWS Lambda                                                                |          0 |          0 |
+| HTML                                                                      |          3 |        104 |
+| Kotlin                                                                    |          0 |          0 |
+| .NET Framework                                                            |          1 |         30 |
+| PHP                                                                       |          1 |         29 |
+| MongoDB                                                                   |          0 |          0 |
+| Visio                                                                     |          0 |          1 |
+| XML                                                                       |          0 |          0 |
+| Bash                                                                      |          2 |         21 |
+| Microsoft Project                                                         |          0 |          0 |
+| Microsoft Azure                                                           |          1 |         47 |
+| Microsoft PowerPoint                                                      |          2 |         34 |
+| Microsoft Word                                                            |          2 |         23 |
+| Adobe Premiere Pro                                                        |          0 |          0 |
+| Node.js                                                                   |          1 |          1 |
+| JSON                                                                      |          4 |         20 |
+| Spring Framework                                                          |          0 |          0 |
+| Agile Methodologies                                                       |          3 |         21 |
+| Scala                                                                     |          2 |          8 |
+| Swift                                                                     |          2 |          1 |
+| Hadoop                                                                    |          0 |          0 |
+| MATLAB                                                                    |          0 |          0 |
+| Linux                                                                     |          1 |         45 |
+| Google Cloud Platform (GCP)                                               |          0 |         38 |
+| Android                                                                   |          0 |          0 |
+| MySQL                                                                     |          1 |         92 |
+| Microsoft Access Assessment                                               |          0 |          0 |
+| Transact-SQL (T-SQL)                                                      |          0 |          0 |
+| SharePoint                                                                |          0 |          0 |
+| Autodesk Fusion 360                                                       |          0 |          0 |
+| Amazon Web Services (AWS)                                                 |          0 |         24 |
+| JavaScript                                                                |          2 |         46 |
+| Search Engine Optimization (SEO)                                          |          6 |         23 |
+| Machine Learning                                                          |          2 |         22 |
+| Adobe Illustrator                                                         |          0 |          0 |
+| NoSQL                                                                     |          5 |         47 |
+| Microsoft Excel                                                           |          0 |          0 |
+| Microsoft Excel                                                           |          4 |         80 |
+| Django                                                                    |          2 |         53 |
+| React.js                                                                  |          6 |         66 |
+| After Effects                                                             |          2 |          0 |
+| Objective-C                                                               |          0 |          0 |
+| Windows Server                                                            |          7 |         54 |
+| Git                                                                       |          1 |         17 |
+| REST APIs                                                                 |          0 |          0 |
+| Microsoft Outlook                                                         |         12 |         58 |
++---------------------------------------------------------------------------+------------+------------+
+| Total                                                                     |        113 |       1563 |
++---------------------------------------------------------------------------+------------+------------+
