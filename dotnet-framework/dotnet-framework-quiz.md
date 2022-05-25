@@ -514,14 +514,18 @@
 - [ ] The heap is stored object types; the stack is stored class types.
 - [ ] The stack is stored object types; the heap is stored class types.
 
-#### Q69. How do you make sure that the garbage collector is done running when you call `GC.Collect()`?
+#### Q69. What is open closed principle?
+- [x] software entities should be open for extension, but closed for modification.
+
+
+#### Q70. How do you make sure that the garbage collector is done running when you call `GC.Collect()`?
 
 - [ ] There is no way to find this out.
 - [ ] You cannot. [`GC.Collect()`](https://docs.microsoft.com/en-us/dotnet/api/system.gc.collect) is a blocking method, and will return only once the garbage collector is done running.
 - [ ] by calling [`GC.WaitForFullGCComplete()`](https://docs.microsoft.com/en-us/dotnet/api/system.gc.waitforfullgccomplete)
 - [ ] by calling [`GC.WaitForPendingFinalizers()`](https://docs.microsoft.com/en-us/dotnet/api/system.gc.waitforpendingfinalizers)
 
-#### Q70. What does JIT do in .Net?
+#### Q71. What does JIT do in .Net?
 
 - [ ] JIT is used for deployment, versioning, and security.
 - [x] JIT translates the IL code to an assembly code and uses the CPU architecture of the target machine to execute a .NET application.
