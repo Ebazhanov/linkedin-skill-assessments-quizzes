@@ -852,38 +852,6 @@ void *vptr=&g;
 - [ ] f=\*(float)vptr;
 - [ ] f=(float)\*vptr;
 
-#### Q56. Using a _for_ loop, how would you write C code to count down from 10 to 1 and display each number on its own line?
-
-- [ ]
-
-```c
-for(int i=10;1>0;) {
-    printf("%d\n", i);
-    i--;
-}
-```
-
-- [x]
-
-```c
-for (int i=10; i>0; i--)
-    printf("%d\n", i);
-```
-
-- [ ]
-
-```c
-for (int i=1; i<=10; i++)
-    printf("%d", i);
-```
-
-- [ ]
-
-```c
-for (int i=10; i>=0; i--)
-    printf("%d\n", i);
-```
-
 #### Q56. The dynamic memory allocation functions are defined in which system header file ?
 
 - [ ] stdio.h

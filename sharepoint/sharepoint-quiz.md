@@ -317,7 +317,7 @@
 - [ ] document audience targeting settings
 - [ ] document validation settings
 
-#### Q.38. Which SharePoint feature is an example of a prebuilt application?
+#### Q38. Which SharePoint feature is an example of a prebuilt application?
 
 - [ ] plan
 - [x] site

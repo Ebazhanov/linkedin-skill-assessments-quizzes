@@ -106,9 +106,10 @@ ps -e --format uid,pid,ppid,%cpu,cmd
 #### Q14. A backup drive was created using dd to make a bit-for-bit copy. When the drive is inserted into an iSCSI target before it is booted up, the data appears to be missing. What happened?
 
 - [ ] The backup drive is corrupted and needs to be re-created.
-- [x] When the backup drive was duplicated, the label was as well. When booted, the system mounted the old duplicated drive by its identical label.
+- [x] When the backup drive was duplicates, the label was as well. When booted, the system mounted the old duplicates
+  drive by its identical label.
 - [ ] There is a conflict between the physical location of the backup drive and the original drive.
-- [ ] The backup process went wrong, and the old drive was duplicated over the original drive.
+- [ ] The backup process went wrong, and the old drive was duplicates over the original drive.
 
 #### Q15. What is the key difference between a redirect (>) and piping to the tee command?
 
@@ -366,21 +367,14 @@ sed -E 's/[a-Z]{4}/(&)/'  textfile.txt
 - [x] It would replace the first four letters with an ampersand (&).
 - [ ] It would place parentheses around the first four letters of each line of textfile.txt.
 
-#### Q46. With GNU tools such as GNU grep, awk, and sed, what is difference between regular expressions (BREs) and extended regular expressions (EREs)?
-
-- [ ] EREs support occurrence operators.
-- [x] Only the syntax differs.
-- [ ] EREs support alternation.
-- [ ] EREs can match groups.
-
-#### Q47. Which kernel module do you need to load to use interface bonding?
+#### Q46. Which kernel module do you need to load to use interface bonding?
 
 - [x] bonding.
 - [ ] team.
 - [ ] netbond.
 - [ ] bond.
 
-#### Q48. What does this command string do?
+#### Q47. What does this command string do?
 
 ```bash
 find / -size -10K -exec ls -l {} \;
@@ -391,42 +385,42 @@ find / -size -10K -exec ls -l {} \;
 - [ ] It finds all files in the / directory of size 10k and long lists them.
 - [x] It finds all files in the file system smaller than 10k and long lists them using the ls command.
 
-#### Q49. To change the priority of multiple swap partitions, which file would you edit?
+#### Q48. To change the priority of multiple swap partitions, which file would you edit?
 
 - [ ] /proc/swapiness
 - [x] /etc/fstab
 - [ ] /etc/mounts
 - [ ] /etc/swaps
 
-#### Q50. What would you type to list all systemd service unit files, whether they are enabled or not?
+#### Q49. What would you type to list all systemd service unit files, whether they are enabled or not?
 
 - [ ] systemctl list-services.
 - [ ] chkconfig --list-all
 - [x] systemctl list-unit-files -at service
 - [ ] systemctl list-unit-files -t service
 
-#### Q51. You can set Linux group passwords using which command?
+#### Q50. You can set Linux group passwords using which command?
 
 - [x] gpasswd
 - [ ] passwd
 - [ ] editsam
 - [ ] grouppass
 
-#### Q52. With most GNU commands, if an option is a word, what will it be preceded by?
+#### Q51. With most GNU commands, if an option is a word, what will it be preceded by?
 
 - [x] two dashes
 - [ ] a backslash
 - [ ] one dash
 - [ ] nothing
 
-#### Q53. What would happen if you have a script file named script that takes a long time to complete, and you type `nohup ./script &` in the command line?
+#### Q52. What would happen if you have a script file named script that takes a long time to complete, and you type `nohup ./script &` in the command line?
 
 - [ ] The script will remain running in the background even if you reboot the system.
 - [ ] The script will run in your terminal and you will not be able to do anything until it completes.
 - [x] The script will run in the background until you end the session.
 - [ ] The script will run in the background and will continue running even if you end the session.
 
-#### Q54. To elevate privileges using the `sudo` command, a user must **\_**.
+#### Q53. To elevate privileges using the `sudo` command, a user must **\_**.
 
 - [ ] enter the root user's password
 - [x] enter their own password
@@ -435,7 +429,7 @@ find / -size -10K -exec ls -l {} \;
 
 [A Cloud Guru's Blog](https://acloudguru.com/blog/engineering/linux-commands-for-beginners-sudo#:~:text=Sudo%20asks%20for%20your%20user%20password.%C2%A0%20Note%20that%20it%20is%20asking%20for%20your%20password%2C%20not%20the%20root%20password.)
 
-#### Q55. When would this system cron job run its task?
+#### Q54. When would this system cron job run its task?
 
 `0 22 * * 1-5`
 
@@ -444,7 +438,7 @@ find / -size -10K -exec ls -l {} \;
 - [ ] every 22 minutes every day except weekends
 - [ ] from 1:00 AM to 5:00 AM on the 22nd of every month
 
-#### Q56. How does TCP Wrappers differ from a firewall?
+#### Q55. How does TCP Wrappers differ from a firewall?
 
 - [ ] Firewalls are only service specific, whereas TCP Wrappers can block all traffic.
 - [ ] TCP Wrappers works at the network layer, so it blocks traffic before the firewall even sees it.
@@ -453,7 +447,7 @@ find / -size -10K -exec ls -l {} \;
 
 **Note:** TCP Wrapper works on Application Layer but answer is not too much confirmed.
 
-#### Q57. As root, you set execute permissions for user, group, and other on a directory. Now users can do what?
+#### Q56. As root, you set execute permissions for user, group, and other on a directory. Now users can do what?
 
 - [ ] They can execute files in it.
 - [x] They can traverse it.
@@ -462,7 +456,7 @@ find / -size -10K -exec ls -l {} \;
 
 **Note:** This is correct because of the keyword "directory". More info at: https://www.tutorialspoint.com/unix/unix-file-permission.htm
 
-#### Q58. What will this command print?
+#### Q57. What will this command print?
 
 `echo "Thu Jun 4 15:45:45 PDT 2020" | cut -f3 -d" "`
 
@@ -471,7 +465,7 @@ find / -size -10K -exec ls -l {} \;
 - [ ] 0.6567708333333333
 - [x] 4
 
-#### Q59. How can you improve this code snippet?
+#### Q58. How can you improve this code snippet?
 
 ```
 if ls /etc/passwd &> /dev/null
@@ -485,7 +479,7 @@ fi
 - [ ] The redirect to `/dev/null` will silence the return code invalidating the conditional. Removing the redirect will solve this.
 - [ ] The ls command will output the name of the file to the screen. Running ls in quiet mode will improve the code snippet.
 
-#### Q60. Using a systemd-based distribution, you want to restrict the cron service from running either automatically or manually. Which command would you run?
+#### Q59. Using a systemd-based distribution, you want to restrict the cron service from running either automatically or manually. Which command would you run?
 
 - [ ] systemctl disable crond
 - [ ] systemctl disallow crond
@@ -495,7 +489,7 @@ fi
 **Note:** This is the correct answer because "mask" prohibits all kinds of activation of the unit, including manual activation.
 [Reference](https://www.commandlinux.com/man-page/man1/systemctl.1.html) : search "mask".
 
-#### Q61. What issue might a user have when they mount a filesystem by partition path such as /dev/sdal in the /etc/fstab file?
+#### Q60. What issue might a user have when they mount a filesystem by partition path such as /dev/sdal in the /etc/fstab file?
 
 - [x] The device order may change on boot, resulting in a system that will not boot properly.
 - [ ] The user may run out of device letters.
@@ -504,7 +498,7 @@ fi
 
 [Reference](https://access.redhat.com/discussions/6004221)
 
-#### Q62. Which option would you choose to force grep to use a basic regular expression (BRE)?
+#### Q61. Which option would you choose to force grep to use a basic regular expression (BRE)?
 
 - [ ] grep -E
 - [ ] grep -B
@@ -513,7 +507,7 @@ fi
 
 **Explanation**: Man page of grep command.
 
-#### Q63. An rsyslogd filter determines which items in a log file to act on. What is it made up of?
+#### Q62. An rsyslogd filter determines which items in a log file to act on. What is it made up of?
 
 - [ ] a facility and an action
 - [x] a filter and an action
@@ -522,56 +516,56 @@ fi
 
 [Reference](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/ch-viewing_and_managing_log_files)
 
-#### Q64. Which choice is a Network Manager tool used to configure network connections from the GUI?
+#### Q63. Which choice is a Network Manager tool used to configure network connections from the GUI?
 
 - [ ] nmcli
 - [ ] ip
 - [ ] Onmtui
 - [x] nm-connection-editor
 
-#### Q65. What will not happen if you run the make command without parameters?
+#### Q64. What will not happen if you run the make command without parameters?
 
 - [x] It will clean up all previously generated binaries and perform a new build.
 - [ ] It will run rules of compilation and building.
 - [ ] It will look for a file called makefile in your current directory.
 - [ ] It will build only programs that need to be rebuilt.
 
-#### Q66. Most commands that support SELinux use which option to display SELinux security context?
+#### Q65. Most commands that support SELinux use which option to display SELinux security context?
 
 - [ ] -S
 - [ ] --selinux
 - [ ] --MAC
 - [x] -Z
 
-#### Q67. What is the difference between the whoami and logname commands?
+#### Q66. What is the difference between the whoami and logname commands?
 
 - [ ] whoami and logname provide the same information.
 - [x] whoami tells who are you currently, and logname tells who you were when you logged in initially.
 - [ ] logname specifies the name of the login log file, and whoami prints the logged in username.
 - [ ] whoami shows you who logged in as initially, and logname shows who are you currently.
 
-#### Q68. What is the command to create an associative array in Bash?
+#### Q67. What is the command to create an associative array in Bash?
 
 - [ ] declare -a
 - [ ] aarray
 - [ ] array -a
 - [x] declare -A
 
-#### Q69. What tool Should you use to replace a physical volum in LVM?
+#### Q68. What tool Should you use to replace a physical volum in LVM?
 
 - [ ] lvcopy
 - [ ] tar
 - [x] pvmove
 - [ ] cp
 
-#### Q70. What is the difference the `==` and `=~` comparison operators when used in BASH double square bracket `if` conditionals?
+#### Q69. What is the difference the `==` and `=~` comparison operators when used in BASH double square bracket `if` conditionals?
 
 - [x] The `==` operator performs a string comparison; `=~` performs a regex comparison.
 - [ ] The `==` operator performs a string comparison; `=~` performs a glob pattern comparison.
 - [ ] The `=~` operator performs a string comparison; `==` performs a regex comparison.
 - [ ] There is no `=~` operator in BASH `if` conditionals.
 
-#### Q71. What is the difference between these two lines of code?
+#### Q70. What is the difference between these two lines of code?
 
 ```shell
    echo "data" | tee -a file.txt
@@ -583,7 +577,7 @@ fi
 - [ ] The first line will append the word `data` to file.txt and there will be no output on the screen. The second line will output the word `data` on the screen and append it to `file.txt`
 - [ ] Both lines will overwrite file.txt with the word data.
 
-#### Q72. Using backreferences in a POSIX regular expression, which word would this pattern match?
+#### Q71. Using backreferences in a POSIX regular expression, which word would this pattern match?
 
 ```shell
 (ss).*\1
@@ -594,7 +588,7 @@ fi
 - [ ] barrenness
 - [ ] successfully
 
-#### Q73. To run CGI scripts with Apache, you need to **\_**.
+#### Q72. To run CGI scripts with Apache, you need to **\_**.
 
 - [ ] compile the script with a CGI compiler
 - [ ] make the script executable
@@ -603,7 +597,7 @@ fi
 
 [reference here](https://selinuxproject.org/page/ApacheRecipes#Allow_the_Apache_HTTP_Server_to_run_CGI_scripts)
 
-#### Q74. To permanently add NAT to the default zone using firewalld, you would use which command string?
+#### Q73. To permanently add NAT to the default zone using firewalld, you would use which command string?
 
 - [ ] `firewall-cmd --permanent --add-nat`
 - [x] `firewall-cmd --permanent --add-masquerade`
@@ -612,7 +606,7 @@ fi
 
 [reference here](https://www.rootusers.com/how-to-use-firewalld-rich-rules-and-zones-for-filtering-and-nat)
 
-#### Q75. What is the difference between using `=` and `==` in a BASH double square bracket `if` conditional?
+#### Q74. What is the difference between using `=` and `==` in a BASH double square bracket `if` conditional?
 
 ```
 if [[ $FILE == $GLOB ]] ;then
@@ -626,7 +620,8 @@ if [[ $FILE == $GLOB ]] ;then
 
 [reference here](https://stackoverflow.com/a/12948608)
 
-#### Q76. `journald` differs from traditional logging services such as `rsyslogd` and `syslogd` because its logs are **\_** by default.
+#### Q75. `journald` differs from traditional logging services such as `rsyslogd` and `syslogd` because its logs are **
+\_** by default.
 
 - [ ] stored remotely
 - [ ] text
@@ -635,14 +630,14 @@ if [[ $FILE == $GLOB ]] ;then
 
 [reference here](https://sematext.com/blog/journald-logging-tutorial/#toc-journald-storage-4)
 
-#### Q77. What is the purpose of a Mail Transport Agent (MTA)?
+#### Q76. What is the purpose of a Mail Transport Agent (MTA)?
 
 - [ ] It transports the mail from user's computer to the mail server.
 - [ ] It accepts mail and adds it to the mail queue for further processing.
 - [ ] It stores the mail in a mail queue waiting for the MUA to download it.
 - [x] It transports mail from one mail server to another.
 
-#### Q78. What do you need to do before you can perform SSH passwordless logins?
+#### Q77. What do you need to do before you can perform SSH passwordless logins?
 
 - [x] Generate RSA or DSA key pairs using ssh-keygen.
 - [ ] Change the remote user's password.
@@ -651,7 +646,7 @@ if [[ $FILE == $GLOB ]] ;then
 
 [Reference](https://phoenixnap.com/kb/setup-passwordless-ssh)
 
-#### Q79. When installing a downloaded package on the RedHat-based distribution manual using RPM, what may you have to do first?
+#### Q78. When installing a downloaded package on the RedHat-based distribution manual using RPM, what may you have to do first?
 
 - [ ] Compile the package source code.
 - [x] Download all dependencies and install them before installing the desired package.
@@ -660,7 +655,7 @@ if [[ $FILE == $GLOB ]] ;then
 
 **[Explanation:](https://access.redhat.com/discussions/2026743)** Rpm is not meant to resolve dependencies. It checks whether required software (versions) are installed and fails when software is missing and when the wrong version of software is installed.
 
-#### Q80. With GNU tools such as a GNU grep, awk, and sed, what is the difference between basic regular expressions (BREs) and extended regular expressions (EREs)?
+#### Q79. With GNU tools such as a GNU grep, awk, and sed, what is the difference between basic regular expressions (BREs) and extended regular expressions (EREs)?
 
 - [ ] EREs can match the groups.
 - [ ] EREs support occurrence operators.
@@ -669,14 +664,14 @@ if [[ $FILE == $GLOB ]] ;then
 
 [Reference](https://www.gnu.org/software/sed/manual/html_node/BRE-vs-ERE.html)
 
-#### Q81. What is the difference between reading the list of disk partitions from `/proc/partitions` and getting it using `fdisk -l`?
+#### Q80. What is the difference between reading the list of disk partitions from `/proc/partitions` and getting it using `fdisk -l`?
 
 - [ ] `/proc/partitions` represents the disk partition table more accurately than `fdisk -l`
 - [ ] `/proc/partitions` shows only mounted drives. `fdisk -l` shows all drivers.
 - [ ] There is no difference between the two, and both lists contain the same data.
 - [x] `/proc/partitions` is the kernel's list of partitions held in ram. `fdisk -l` reads the partition table from the drive itself.
 
-#### Q82. What would be in out.txt?
+#### Q81. What would be in out.txt?
 
     cat < in.txt > out.txt
 
@@ -685,7 +680,7 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] Nothing, because you cannot redirect from a file (in.txt) to another file (out.txt). You can redirect only from a command to a file.
 - [ ] Nothing, The redirect will create a new empty file, but there will not be any output from the cat command to redirect.
 
-#### Q83. Using alternation in a POSIX-extended regular expression, which numbers would this pattern match?
+#### Q82. Using alternation in a POSIX-extended regular expression, which numbers would this pattern match?
 
 ```
 ^(([0-9][0-9]?)|(2[0-9][0-9]))$
@@ -696,28 +691,28 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] 200-299
 - [ ] 0-299
 
-#### Q84. Typing `systemctl enable crond` does what to the crond service?
+#### Q83. Typing `systemctl enable crond` does what to the crond service?
 
 - [ ] Starts the crond service now.
 - [ ] Allows user to start the crond service.
 - [ ] Unmasks the crond service.
 - [x] Ensures that the crond service starts automatically on bootup.
 
-#### Q85. Which of these features is missing from the Bash Language?
+#### Q84. Which of these features is missing from the Bash Language?
 
 - [ ] associative arrays.
 - [ ] extened regular expressions.
 - [ ] debug traps.
 - [x] object orientation.
 
-#### Q86. What is the first step to integrate extended globs into your command-line workflow?
+#### Q85. What is the first step to integrate extended globs into your command-line workflow?
 
 - [ ] Nothing, extended globs are already integrated into the shell and turned on automatically.
 - [x] Make extended globs persistent by adding `shopt -s extglob` to a shell startup file.
 - [ ] Type `shopt -s extglob` into a shell one time to set the option on permanently.
 - [ ] Make extended globs persistent by adding `shopt +s extglob` to a shell startup file.
 
-#### Q87. Which statement about default ACLs is true?
+#### Q86. Which statement about default ACLs is true?
 
 - [x] They provide inheritance for user and group permissions.
 - [ ] They work only on files.
@@ -726,21 +721,21 @@ if [[ $FILE == $GLOB ]] ;then
 
 [reference:](https://www.redhat.com/sysadmin/linux-access-control-lists#setting-an-acl)
 
-#### Q88. The object that `systemd` uses to manage services is called a \_ file.
+#### Q87. The object that `systemd` uses to manage services is called a \_ file.
 
 - [x] unit
 - [ ] service
 - [ ] single
 - [ ] process
 
-#### Q89. What tool should you use to replace a physical volume in LVM?What tool should you use to replace a physical volume in LVM?
+#### Q88. What tool should you use to replace a physical volume in LVM?What tool should you use to replace a physical volume in LVM?
 
 - [ ] cpcp
 - [ ] pvmovepvmove
 - [ ] tartar
 - [ ] lvcopy
 
-#### Q90. What is the difference between the apt remove and apt autoremove commands?What is the difference between the apt remove and apt autoremove commands?
+#### Q89. What is the difference between the apt remove and apt autoremove commands?What is the difference between the apt remove and apt autoremove commands?
 
 - [ ] The apt remove command is a link to apt autoremove, so there are no differences. The apt remove command is a link to apt autoremove, so there are no differences.
 - [x] Both uninstall software. The apt autoremove command also uninstalls the dependencies.Both uninstall software. The apt autoremove command also uninstalls the dependencies.
@@ -749,7 +744,7 @@ if [[ $FILE == $GLOB ]] ;then
 
 [reference:] https://dannyda.com/2021/08/19/whats-the-difference-between-apt-remove-and-apt-autoremove-what-is-apt-purge-when-to-use-debian-ubuntu-kali-linux-etc/
 
-#### Q91. You want to extract the contents from an rpm package. Which command do you use?You want to extract the contents from an rpm package. Which command do you use?
+#### Q90. You want to extract the contents from an rpm package. Which command do you use?You want to extract the contents from an rpm package. Which command do you use?
 
 - [ ] rpm --updaterpm --update
 - [ ] rpm -ivh --forcerpm -ivh --force

@@ -1,7 +1,6 @@
 ## Revit
 
 > Topics: Colors and Effects, Documents, Interactive, Objects/Graphics/Images, Text
-
 #### Q1. What is it called when a tag with a leader has a drag control where the leader touches the element?
 
 - [ ] Attached End

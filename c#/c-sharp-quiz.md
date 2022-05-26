@@ -442,16 +442,7 @@ public static void Main(string[] args)
 
 [Official documentation: Abstract and Sealed Classes and Class Members](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/abstract-and-sealed-classes-and-class-members)
 
-#### Q40. What is the correct syntax for a new generic list of strings named contacts? (similar to Q26)
-
-- [x] `var contacts = new List<string>();`
-- [ ] `var contacts = new List(string);`
-- [ ] `public List<string names> contacts = new List<string names>();`
-- [ ] `public List(string names) contacts = new List(string names);`
-
-[Official documentation: List<T>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1?view=net-5.0)
-
-#### Q41. What is the difference between non-static and static classes?
+#### Q40. What is the difference between non-static and static classes?
 
 - [x] non-static classes need to be initialized before use, while static classes do not
 - [ ] non-static classes are accessible only from an interface while static classes are accessible from anywhere
@@ -462,7 +453,7 @@ public static void Main(string[] args)
 
 [Official documentation: Static Constructors](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-constructors)
 
-#### Q42. Which characteristic prevents this code from compiling?
+#### Q41. Which characteristic prevents this code from compiling?
 
 `public int age="28"`
 
@@ -473,7 +464,7 @@ public static void Main(string[] args)
 
 [c-sharpcorner: Type Safety in .NET](https://www.c-sharpcorner.com/UploadFile/vikie4u/type-safety-in-net/)
 
-#### Q43. How would you serialize this class?
+#### Q42. How would you serialize this class?
 
 `public class User {}`
 
@@ -484,7 +475,7 @@ public static void Main(string[] args)
 
 [Official documentation: SerializableAttribute Class](https://docs.microsoft.com/en-us/dotnet/api/system.serializableattribute?view=net-5.0)
 
-#### Q44. How would you write a delegate named ResultCallback with an int parameter named responseCode?
+#### Q43. How would you write a delegate named ResultCallback with an int parameter named responseCode?
 
 - [ ] public delegate ResultCallback(int responseCode);
 - [ ] public delegate void ResultCallback<(int) responseCode>;
@@ -493,7 +484,7 @@ public static void Main(string[] args)
 
 [Official documentation: Delegates](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/)
 
-#### Q45. What is the difference between a static and non-static method?
+#### Q44. What is the difference between a static and non-static method?
 
 - [ ] non-static methods always need to have a void return type
 - [ ] non-static methods do not have access to static member variables
@@ -502,7 +493,7 @@ public static void Main(string[] args)
 
 [Official documentation: Static Members](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members#static-members)
 
-#### Q46. What is the correct way to write an event named apiResult based on a delegate named ResultCallback?
+#### Q45. What is the correct way to write an event named apiResult based on a delegate named ResultCallback?
 
 - [ ] public void event ResultCallback apiResult;
 - [ ] public event ResultCallback(() -> apiResult);
@@ -511,7 +502,7 @@ public static void Main(string[] args)
 
 [Official documentation: Introduction to events](https://docs.microsoft.com/en-us/dotnet/csharp/events-overview)
 
-#### Q47. When will the code inside finally block be executed in a try-catch statement?
+#### Q46. When will the code inside finally block be executed in a try-catch statement?
 
 - [ ] if there is an error, it won't execute at all
 - [ ] between the try and catch blocks
@@ -520,14 +511,14 @@ public static void Main(string[] args)
 
 [Official documentation: try-catch](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/try-catch)
 
-#### Q48. What method correctly extends the string class?
+#### Q47. What method correctly extends the string class?
 
 - [x] public static string IsvalidName(this string i, string value) {}
 - [ ] public static void IsvalidName(this string i, string value) {}
 - [ ] public string IsvalidName(this string i, string value) {}
 - [ ] public void IsvalidName(this string i, string value) {}
 
-#### Q49. How are C# classses limited?
+#### Q48. How are C# classses limited?
 
 - [x] They do not support multiple inheritance.
 - [ ] They support multiple inheritance.
@@ -536,7 +527,7 @@ public static void Main(string[] args)
 
 [Official documentation: Class inheritance](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/classes#class-inheritance)
 
-#### Q50. What function do namespaces perform?
+#### Q49. What function do namespaces perform?
 
 - [ ] Namespaces calculate code coverage at runtime.
 - [ ] Namespaces compile application code together at compile time.
@@ -545,7 +536,7 @@ public static void Main(string[] args)
 
 [Official documentation: namespace](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/namespace)
 
-#### Q51. What is the correct way to write a public property with a private backing field?
+#### Q50. What is the correct way to write a public property with a private backing field?
 
 - [ ]
 
@@ -585,7 +576,7 @@ public int Password
 
 [Official documentation: Using Properties](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/using-properties)
 
-#### Q52. What is a thread pool?
+#### Q51. What is a thread pool?
 
 - [ ] a collection of synchronous methods created during initialization that cannot be reused
 - [x] a collection of threads created during initialization that can be reused
@@ -594,16 +585,7 @@ public int Password
 
 [Official documentation: ThreadPool Class](https://docs.microsoft.com/en-us/dotnet/api/system.threading.threadpool?view=net-5.0)
 
-#### Q53. What is the most accurate description of a regular expression?
-
-- [ ] A regular expressions allows a variable to be passed by reference
-- [ ] A regular expression allows a class to conform to the Equatable protocol
-- [ ] A regular expression is a C# tool used to parse HTML
-- [x] A regular expression is a special text string for describing a search pattern
-
-[Official documentation: Regular Expression Language - Quick Reference](https://docs.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-language-quick-reference)
-
-#### Q54. When an object in C# is serialized, what is it converted to?
+#### Q52. When an object in C# is serialized, what is it converted to?
 
 - [ ] XML
 - [ ] JSON
@@ -612,7 +594,7 @@ public int Password
 
 [Official documentation: Serialization](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/serialization/)
 
-#### Q55. What is a delegate
+#### Q53. What is a delegate
 
 - [ ] a variable that holds a reference to a value type and its content
 - [ ] a specific value type that can be used only in callback methods
@@ -621,7 +603,7 @@ public int Password
 
 [Official documentation: Delegates](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/)
 
-#### Q56. What are the four keywords associated with exception handling in C#?
+#### Q54. What are the four keywords associated with exception handling in C#?
 
 - [ ] try, catch, valid, invalid
 - [ ] try, valid, finally, throw
@@ -630,7 +612,7 @@ public int Password
 
 [Tutorial Point](https://www.tutorialspoint.com/csharp/csharp_exception_handling.htm#:~:text=Exceptions%20provide%20a%20way%20to,catch%2C%20finally%2C%20and%20throw.)
 
-#### Q57. What is the main difference between the is and as operators?
+#### Q55. What is the main difference between the is and as operators?
 
 - [ ] The is operator checks instance types, while the as operator checks the inherited type.
 - [ ] The is operator checks primitive data types, while the as operator checks the object type.
@@ -639,7 +621,7 @@ public int Password
 
 [Pluralsight guide](https://www.pluralsight.com/guides/csharp-is-as-operators-is-expressions)
 
-#### Q58. What is the difference between finally and finalize blocks?
+#### Q56. What is the difference between finally and finalize blocks?
 
 - [ ] The finally block is called during the execution of a try and catch block, while the finalize method is called after garbage collection.
 - [x] The finally block is called after the execution of a try and catch block, while the finalize method is called just before garbage collection.
@@ -648,14 +630,14 @@ public int Password
 
 [C-sharpcorner](https://www.c-sharpcorner.com/forums/final-finally-and-finalize)
 
-#### Q59. Your application has a value type called username that needs to be able to accept null values, but this is generating compile-time errors. How would you fix this in code?
+#### Q57. Your application has a value type called username that needs to be able to accept null values, but this is generating compile-time errors. How would you fix this in code?
 
 - [ ] Null<string> username = null;
 - [x] string? username = null;
 - [ ] Type<string>? username = null;
 - [ ] Optional<string> username = null;
 
-#### Q60. Which code snippet correctly declares a custom exception named InvalidResponse?
+#### Q58. Which code snippet correctly declares a custom exception named InvalidResponse?
 
 - [ ] struct InvalidResponse: Exception {}
 - [x] class InvalidResponse: Exception {}
@@ -664,7 +646,7 @@ public int Password
 
 [Official documentation: Exceptions](https://docs.microsoft.com/en-us/dotnet/standard/exceptions/how-to-create-user-defined-exceptions)
 
-#### Q61. How would you write an enum variable called AppState with values for Offline, Loading, and Ready?
+#### Q59. How would you write an enum variable called AppState with values for Offline, Loading, and Ready?
 
 - [ ] enum AppState = [Offline, Loading, Ready]
 - [ ] enum AppState {"Offline", "Loading", "Ready"}
@@ -673,7 +655,7 @@ public int Password
 
 [Official documentation: Enum](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/enum)
 
-#### Q62. What is the main difference between a value type and a reference type?
+#### Q60. What is the main difference between a value type and a reference type?
 
 - [ ] A value type can be any primitive type, while reference types must be type-agnostic.
 - [ ] A value type refers to another value, while a reference type refers to a value in memory.
@@ -684,7 +666,7 @@ public int Password
 
 [Official documentation: Reference types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types)
 
-#### Q63. What is the difference between the `break` and `continue` keywords?
+#### Q61. What is the difference between the `break` and `continue` keywords?
 
 - [ ] The `break` keyword is used to break out of multiple iteration statements, while `continue` can only break out of code blocks that have single iterations.
 - [x] The `break` keyword literally breaks out of a control flow statement, while `continue` ignores the rest of the control statement or iteration and starts the next one.
@@ -693,7 +675,7 @@ public int Password
 
 [Official documentation: Jump statements](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/statements/jump-statements)
 
-#### Q64. Which code snippet correctly declares a variable named userId with a public `get` and private `set`?
+#### Q62. Which code snippet correctly declares a variable named userId with a public `get` and private `set`?
 
 - [ ] `public int userID <get, set>;`
 - [ ] `public int userID [get, private set];`
@@ -702,7 +684,7 @@ public int Password
 
 [Official documentation: Properties](https://docs.microsoft.com/en-us/dotnet/csharp/properties)
 
-#### Q65. What is true about virtual methods?
+#### Q63. What is true about virtual methods?
 
 - [ ] `Overriding virtual methods in a derived class is mandatory.`
 - [ ] `Overriding virtual methods in a derived class is not possible.`
@@ -713,28 +695,28 @@ public int Password
 
 [c-sharpcorner: Virtual Method in C#](https://www.c-sharpcorner.com/UploadFile/3d39b4/virtual-method-in-C-Sharp/)
 
-#### Q66. What is likely to happen if you have multiple threads accessing the same resource in your program?
+#### Q64. What is likely to happen if you have multiple threads accessing the same resource in your program?
 
 - [ ] `resource overload`
 - [ ] `thread jumping`
 - [ ] `deadlock and race conditions`
 - [ ] `nothing, since this is what threading is for`
 
-#### Q67. How do you indicate that a string might be null?
+#### Q65. How do you indicate that a string might be null?
 
 - [ ] `A string cannot be nullable.`
 - [x] `string? myVariable`
 - [ ] `string myVariable = null`
 - [ ] `string(null) myVariable`
 
-#### Q68. Do you need to declare an out variable before you use it?
+#### Q66. Do you need to declare an out variable before you use it?
 
 - [x] `No, you can declare it the parameter list.`
 - [ ] `Out variables are no longer part of C#.`
 - [ ] `You must declare it if it is a primitive type.`
 - [ ] `Yes.`
 
-#### Q69. How would you access the last two people in an array named People?
+#### Q67. How would you access the last two people in an array named People?
 
 - [x] `People[..^2]`
 - [ ] `You cannot do this in C#.`
@@ -743,7 +725,7 @@ public int Password
 
 [Official Documentation: Ranges](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-8.0/ranges)
 
-#### Q70. When can anonymous types be created?
+#### Q68. When can anonymous types be created?
 
 - [x] `at compile time`
 - [ ] `after runtime`
@@ -752,7 +734,7 @@ public int Password
 
 [C-sharpcorner: Anonymous Types](https://www.c-sharpcorner.com/UploadFile/ff2f08/anonymous-types-in-C-Sharp/)
 
-#### Q71. What is true about thread multitasking?
+#### Q69. What is true about thread multitasking?
 
 - [x] `Thread multitasking allows code to be executed concurrently`
 - [ ] `Thread multitasking allows code to be executed only when handling a user event.`
