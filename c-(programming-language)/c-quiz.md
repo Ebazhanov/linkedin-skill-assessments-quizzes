@@ -873,4 +873,35 @@ void *vptr=&g;
 - [ ] Static functions always return the same value.
 - [x] Static functions can be accessed only in the file where they are declared.
 
+#### Q59. Which code example creates the string "Hello Mars" in storage buffer `hello`.
+
+- [ ] 
+```c
+    char hello[25];
+    strcpy(hello, "Hello ");
+    strcpy(hello, "Mars");
+```
+- [x] 
+```c
+    char hello[25];
+    char *p;
+    strcpy(hello, "Hello World");
+    p = hello;
+    p +=6;
+    strcpy(p, "Mars");
+```
+- [ ] 
+```c
+    char *hello;
+    strcpy(hello, "Hello World");
+    hello+=6;
+    strcpy(hello, "Mars");
+```
+- [ ] 
+```c
+    char hello[25];
+    strcpy(hello, "Hello World");
+    strcpy(*hello[6], "Mars");
+```
+
 [Reference](https://devdocs.io/c/memory)
