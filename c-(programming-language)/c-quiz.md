@@ -859,4 +859,11 @@ void *vptr=&g;
 - [ ] limits.h
 - [ ] stddef.h
 
+#### Q57. A function is a set of ________.
+
+- [ ] declarations
+- [x] statements
+- [ ] variables
+- [ ] objects
+
 [Reference](https://devdocs.io/c/memory)
