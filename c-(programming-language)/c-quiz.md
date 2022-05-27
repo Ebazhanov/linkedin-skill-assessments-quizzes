@@ -848,7 +848,7 @@ void *vptr=&g;
 ```
 
 - [ ] f=(float \*)vptr;
-- [x] f=_(float _)vptr;
+- [x] f=\*(float \*)vptr;
 - [ ] f=\*(float)vptr;
 - [ ] f=(float)\*vptr;
 
