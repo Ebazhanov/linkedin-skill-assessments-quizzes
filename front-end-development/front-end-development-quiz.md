@@ -672,7 +672,7 @@ console.log(currencies);
 
 #### Q67. In a grid layout, which property will create gaps between the rows in the grid?
 
-- [ ] `row-gap`
+- [x] `row-gap`
 - [ ] `rowgap`
 - [ ] `gutter`
 - [ ] `row-gutter`
