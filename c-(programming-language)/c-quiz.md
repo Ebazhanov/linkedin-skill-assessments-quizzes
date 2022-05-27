@@ -866,4 +866,11 @@ void *vptr=&g;
 - [ ] variables
 - [ ] objects
 
+#### Q58. How are static functions different from global functions?
+
+- [ ] Static functions must be declared in advance of being defined.
+- [ ] Static functions must be declared is a separate header file.
+- [ ] Static functions always return the same value.
+- [x] Static functions can be accessed only in the file where they are declared.
+
 [Reference](https://devdocs.io/c/memory)
