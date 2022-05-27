@@ -253,7 +253,7 @@ main(){
 - [x] parameter names
 - [ ] number of parameters
 
-#### Q15. C treats all devices, such as the display and the keyboard, as files. Which files opens automatically when a program executes?
+#### Q15. C treats all devices, such as the display and the keyboard, as files. Which file opens automatically when a program executes?
 
 - [x] stdout
 - [ ] stdio.h
