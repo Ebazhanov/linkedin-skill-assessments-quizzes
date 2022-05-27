@@ -319,10 +319,10 @@ for (var i = 0; i < 5; i++) {
 }
 ```
 
-- [ ] 12345
-- [ ] 1234
-- [x] 01234
-- [ ] 012345
+- [ ] 1 2 3 4 5
+- [ ] 1 2 3 4
+- [x] 0 1 2 3 4
+- [ ] 0 1 2 3 4 5
 
 [Reference javascript for loops](https://www.w3schools.com/js/js_loop_for.asp)
 
