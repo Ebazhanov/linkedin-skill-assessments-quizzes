@@ -136,12 +136,12 @@ struct s {
 - [ ] a stack
 - [ ] a binary tree
 
-#### Q7. A C header file is a file with extension .h that contains function declarations and macro definitons to be shared between several source files. Header files are listed using the preprocessing directive #include, and can have one of the following formats: #include &lt;fileA&gt; or #include "fileB". What is the difference between these two formats?
+#### Q7. Header files are listed using the preprocessing directive #include, and can have one of the following formats: #include &lt;fileA&gt; or #include "fileB". What is the difference between these two formats?
 
-- [ ] The preprocessor will try to locate the fileA in same directory as the source file, and the fileB in a predetermined directory path.
-- [ ] The preprocessor will try to locate the fileA in the fixed system directory. It will try to locate fileB in the directory path designated by the -l option added to the command line while compiling the source code.
-- [ ] The file using fileA syntax must be system files, of unlimited number. fileB must be a user file at a maximun of one per source file.
-- [x] The preprocessor will try to locate the fileA in a predetermined directory path. It will try to locate fileB in the same directory as the source file along with a custom directory path.
+- [ ] The preprocessor will try to locate fileA in same directory as the source file, and the fileB in a predetermined directory path.
+- [ ] The preprocessor will try to locate fileA in the fixed system directory. It will try to locate fileB in the directory path designated by the -I option added to the command line while compiling the source code.
+- [ ] The file using the fileA syntax must be system files, of unlimited number; fileB must be a user file at a maximun of one per source file.
+- [x] The preprocessor will try to locate fileA in a predetermined directory path. It will try to locate fileB in the same directory as the source file along with a custom directory path.
 
 #### Q8. Using a for loop, how could you write a C code to count down from 10 to 1 and display each number on its own line?
 
