@@ -408,8 +408,7 @@
 - [x] semantic analysis
 - [ ] knowledge graphs
 
-#### Q48. A webpage has this tag: `<title>Brad's Bagels: How to Bake a Bagel</title>`. However, the Google search result for this page displays this title: _
-Brad's Bagels: Baking Bagels in the Oven_. What is a likely explanation?
+#### Q48. A webpage has this tag: `<title>Brad's Bagels: How to Bake a Bagel</title>`. However, the Google search result for this page displays this title: \_Brad's Bagels: Baking Bagels in the Oven\_. What is a likely explanation?
 
 - [ ] The title tag was placed within the <HEAD> section of the webpage, but not before the meta content tags, so Google cannot identify the actual title.
 - [ ] The page is using structured data to define an alternative title object, which allows the search engine to pick a preferable version.
@@ -500,8 +499,7 @@ Brad's Bagels: Baking Bagels in the Oven_. What is a likely explanation?
 - [ ] It is an advisable choice as it will enable interlinking between the domains and increase the number of links.
 - [ ] The blog should be on a separate URL to avouud building too many links between the same domain or IP.
 
-#### Q60. Blog author pages, each with only one sentence about the author, are at risk of being flagged as **
-\_** content.
+#### Q60. Blog author pages, each with only one sentence about the author, are at risk of being flagged as **\_** content.
 
 - [ ] non-indexable
 - [ ] irrelevant
@@ -531,7 +529,7 @@ Brad's Bagels: Baking Bagels in the Oven_. What is a likely explanation?
 
 #### Q64. Google's Search Quality Evaluator Guidelines describe that experts should write content, especially YMYL content. This is one of the principles seen in the commonly used acronym\_\_
 
-- [ ] A.C.E 
+- [ ] A.C.E
 - [ ] L-E-A-F
 - [ ] T.R.U.S.T.E.D
 - [x] E-A-T
@@ -551,4 +549,3 @@ Brad's Bagels: Baking Bagels in the Oven_. What is a likely explanation?
 - [ ] Use the search engine's Remove URL tool.
 - [x] Use a robots.txt file.
 - [ ] Use structured data
-

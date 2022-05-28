@@ -106,8 +106,7 @@ ps -e --format uid,pid,ppid,%cpu,cmd
 #### Q14. A backup drive was created using dd to make a bit-for-bit copy. When the drive is inserted into an iSCSI target before it is booted up, the data appears to be missing. What happened?
 
 - [ ] The backup drive is corrupted and needs to be re-created.
-- [x] When the backup drive was duplicates, the label was as well. When booted, the system mounted the old duplicates
-  drive by its identical label.
+- [x] When the backup drive was duplicates, the label was as well. When booted, the system mounted the old duplicates drive by its identical label.
 - [ ] There is a conflict between the physical location of the backup drive and the original drive.
 - [ ] The backup process went wrong, and the old drive was duplicates over the original drive.
 
@@ -620,8 +619,7 @@ if [[ $FILE == $GLOB ]] ;then
 
 [reference here](https://stackoverflow.com/a/12948608)
 
-#### Q75. `journald` differs from traditional logging services such as `rsyslogd` and `syslogd` because its logs are **
-\_** by default.
+#### Q75. `journald` differs from traditional logging services such as `rsyslogd` and `syslogd` because its logs are **\_** by default.
 
 - [ ] stored remotely
 - [ ] text

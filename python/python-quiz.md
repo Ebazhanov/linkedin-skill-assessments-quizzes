@@ -1132,8 +1132,7 @@ def count_recursive(n=1):
 3
 ```
 
-#### Q83. In Python, when using sets, you use **\_** to calculate the intersection between two sets and **
-\_** to calculate the union.
+#### Q83. In Python, when using sets, you use **\_** to calculate the intersection between two sets and **\_** to calculate the union.
 
 - [ ] `Intersect`; `union`
 - [ ] `|`; `&`
@@ -1389,8 +1388,7 @@ print (f"The number is {number}")
 - [ ] `os.getcwd()`
 - [ ] `sys.executable`
 
-#### Q104. Suppose you have the following code snippet and want to extract a list with only the letters. Which fragment of code will _
-not_ achieve that goal?
+#### Q104. Suppose you have the following code snippet and want to extract a list with only the letters. Which fragment of code will \_not\_ achieve that goal?
 
 ```python
 my_dictionary = {

@@ -595,9 +595,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [x] power
 - [ ] significance
 
-#### Q78. You want to create a machine learning algorithm to identify food recipes on the web. To do this, you create an algorithm that looks at different conditional probabilities. So if the post includes the word _
-flour_, it has a slightly stronger probability of being a recipe. If it contains both _flour_ and _
-sugar_, it even more likely a recipe. What type of algorithm are you using?
+#### Q78. You want to create a machine learning algorithm to identify food recipes on the web. To do this, you create an algorithm that looks at different conditional probabilities. So if the post includes the word **flour**, it has a slightly stronger probability of being a recipe. If it contains both **flour** and _sugar_, it even more likely a recipe. What type of algorithm are you using?
 
 - [x] naive Bayes classifier
 - [ ] K-nearest neighbor
@@ -619,7 +617,7 @@ sugar_, it even more likely a recipe. What type of algorithm are you using?
 - [x] a type of reinforcement learning that focuses on rewards
 
 **Explanation**:Q-learning is a model-free reinforcement learning algorithm.Q-learning is a values-based learning algorithm. Value based algorithms updates the value function based on an equation(particularly Bellman equation).
-[Reference](<https://towardsdatascience.com/a-beginners-guide-to-q-learning-c3e2a30a653c#:~:text=Q%2Dlearning%20is%20a%20model,equation(particularly%20Bellman%20equation).&text=Means%20it%20learns%20the%20value,independently%20of%20the%20agent's%20actions.>)
+[Reference](https://towardsdatascience.com/a-beginners-guide-to-q-learning-c3e2a30a653c#:~:text=Q%2Dlearning%20is%20a%20model,equation(particularly%20Bellman%20equation).&text=Means%20it%20learns%20the%20value,independently%20of%20the%20agent's%20actions.)
 
 #### Q81. The data in your model has low bias and low variance. How would you expect the data points to be grouped together on the diagram?
 
@@ -742,4 +740,3 @@ sugar_, it even more likely a recipe. What type of algorithm are you using?
 - [x] it might be unethical for the business to identify people without their consent
 - [ ] it will be difficult to decide between supervised and unsupervised learning
 - [ ] the image in the video would not be high quality enough to identify individuals
-

@@ -1131,7 +1131,7 @@ export class TruncateDirective{
 - [x] `html <p appTruncate>Some long text</p> `
 - [ ] `html <p app-truncate>Some long text</p> `
 - [ ] `html <app-truncate>Some long text</app-truncate> `
-	
+
 #### Q59. What lifecycle hook can be used on a component to monitor all changes to @Input values on that component?
 
 - [ ] ngOnInit

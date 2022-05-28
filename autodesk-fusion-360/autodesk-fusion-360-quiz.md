@@ -140,59 +140,67 @@
 - [ ] main view
 
 #### Q20. Which command performs Boolean operations between solid bodies?
-- [ ] Draft 
-- [ ] Press 
-- [ ] Pull 
-- [X] Combine 
+
+- [ ] Draft
+- [ ] Press
+- [ ] Pull
+- [x] Combine
 - [ ] Scale
 
 #### Q21. In the CAM workspace, which strategy removes a part's interior cavity?
-- [ ] 2D Contour 
-- [ ] 2D Pocket 
-- [ ] Slot 
+
+- [ ] 2D Contour
+- [ ] 2D Pocket
+- [ ] Slot
 - [ ] Bore
 
 #### Q22. What does the Zebra Analysis tool do?
-- [X] It checks a body's continuity. 
-- [ ] It splits bodies apart. 
-- [ ] It fixes bodies. 
+
+- [x] It checks a body's continuity.
+- [ ] It splits bodies apart.
+- [ ] It fixes bodies.
 - [ ] It applies a metal render.
 
 #### Q23. You want to set up studies to test your design and see how it performs under various loads and conditions. Which workspace do you use?
-- [ ] Animation 
-- [ ] Mesh 
-- [X] Simulation 
+
+- [ ] Animation
+- [ ] Mesh
+- [x] Simulation
 - [ ] Render
 
 #### Q24. Which type of fillet applies two or more radius values to a selected edge?
-- [ ] G2 
-- [X] Variable Radius 
-- [ ] Chord Length 
+
+- [ ] G2
+- [x] Variable Radius
+- [ ] Chord Length
 - [ ] Smooth
 
 #### Q25. Which tool analyzes a T-spline body and corrects it?
-- [ ] Repair Body 
-- [ ] Convert 
-- [ ] Enable Better Performance 
+
+- [ ] Repair Body
+- [ ] Convert
+- [ ] Enable Better Performance
 - [ ] Make Uniform
 
 #### Q26. Which pattern tool creates copies of objects in one or two directions?
-- [ ] Pattern on Path 
-- [ ] Mirror Plane 
-- [ ] Rectangular Pattern 
+
+- [ ] Pattern on Path
+- [ ] Mirror Plane
+- [ ] Rectangular Pattern
 - [ ] Circular Pattern
 
 #### Q27. Which command shows the movement of the joint only, and does not take into account other grounded joints or any external effects on the joint?
-- [ ] Suppress 
-- [ ] Animate Model 
-- [ ] Drive Joints 
+
+- [ ] Suppress
+- [ ] Animate Model
+- [ ] Drive Joints
 - [ ] Animate Joint
 
 #### Q28. How many sketches are required to create this object?
 
 ![image](https://github.com/101br03k/linkedin-skill-assessments-quizzes/blob/patch-4/autodesk-fusion-360/images/001.png)
 
-- [X] two 
-- [ ] three 
-- [ ] none 
+- [x] two
+- [ ] three
+- [ ] none
 - [ ] one

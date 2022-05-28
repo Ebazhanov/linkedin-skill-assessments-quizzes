@@ -313,8 +313,7 @@ mvn install
 - [ ] groupId
 - [ ] version
 
-#### Q42. Below is a report generated for a multimodule project with the Checkstyle Plugin. Why might the highlighted links to the two child projects _
-not_ work?
+#### Q42. Below is a report generated for a multimodule project with the Checkstyle Plugin. Why might the highlighted links to the two child projects _not_ work?
 
 ![q43](q43.png)
 

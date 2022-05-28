@@ -170,4 +170,3 @@
 - [ ] Set an output file name from the Render To menu.
 - [ ] Set an output file name and location from the Output To menu.
 - [ ] Adjust the composition settings.
-

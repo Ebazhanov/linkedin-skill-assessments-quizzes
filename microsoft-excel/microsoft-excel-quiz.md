@@ -576,9 +576,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 - [ ] element
 - [ ] scalar
 
-#### Q74. In this PivotTable, the continuous variable weight is shown in the _
-Row_ field. Another continuous variable is in the _Sum
-Values_ field. It is important to reduce a long list of body weights to a smaller set of weight categories. How do you do this?
+#### Q74. In this PivotTable, the continuous variable weight is shown in the **Row** field. Another continuous variable is in the **Sum** Values field. It is important to reduce a long list of body weights to a smaller set of weight categories. How do you do this?
 
 ![Excel-Q77](images/Q77.png?raw=true)
 
@@ -795,8 +793,9 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 - [ ] manual highlighting
 - [ ] data bars (within conditional formatting)
 
-#### Q96. To split text across cells without using Merge & Center, click **Formt Cells**. The, on **
-Alignment** tab, click**\_**.
+#### Q96. To split text across cells without using Merge & Center, click **Formt Cells**. The, on \*\*
+
+Alignment** tab, click**\_\*\*.
 
 - [x] Text control > Merge cells
 - [ ] Horizontal > Center across selection
@@ -866,15 +865,14 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] data labels
 - [ ] data values
 
-#### Q104. Which chart type provides the best visual display of the releationship between two numeric variables?
+#### Q104. Which chart type provides the best visual display of the relationship between two numeric variables?
 
 - [ ] radar chart
 - [ ] box and whisker chart
 - [x] XY scatter chart
 - [ ] combo chart
 
-#### Q105. To ensure that a collection of shapes are evenly spaced apart from left to right, select the shapes, click Page Layout > Align, and then click **
-\_\_**.
+#### Q105. To ensure that a collection of shapes are evenly spaced apart from left to right, select the shapes, click Page Layout > Align, and then click **\_**.
 
 - [x] Distribute Horizontally
 - [ ] Align Center
@@ -983,8 +981,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] A pop-up list appears with the previous four names.
 - [ ] The letter "P" appears.
 
-#### Q118. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select **
-\_**.
+#### Q118. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select **\_**.
 
 - [ ] Insert Column
 - [ ] Paste Special

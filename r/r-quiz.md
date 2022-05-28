@@ -383,9 +383,7 @@ StopDate-StartDate
 - [ ] The legnth of any column in **mdf** may differ from any other column in **mdf**
 - [ ] All columns must have the same data type.
 
-#### Q38. A list can contain a list as an element. **
-MyList** has five columns, and the third column's item is a list of three items. How do you put all seven values in **
-MyList** into a single vector?
+#### Q38. A list can contain a list as an element. **MyList** has five columns, and the third column's item is a list of three items. How do you put all seven values in **MyList** into a single vector?
 
 - [ ] vector(MyList, length = 7)
 - [ ] coerce(MyList, nrows = 1)

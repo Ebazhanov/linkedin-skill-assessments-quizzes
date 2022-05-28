@@ -859,7 +859,7 @@ void *vptr=&g;
 - [ ] limits.h
 - [ ] stddef.h
 
-#### Q57. A function is a set of ________.
+#### Q57. A function is a set of **\_**.
 
 - [ ] declarations
 - [x] statements
@@ -875,13 +875,16 @@ void *vptr=&g;
 
 #### Q59. Which code example creates the string "Hello Mars" in storage buffer `hello`.
 
-- [ ] 
+- [ ]
+
 ```c
     char hello[25];
     strcpy(hello, "Hello ");
     strcpy(hello, "Mars");
 ```
-- [x] 
+
+- [x]
+
 ```c
     char hello[25];
     char *p;
@@ -890,14 +893,18 @@ void *vptr=&g;
     p +=6;
     strcpy(p, "Mars");
 ```
-- [ ] 
+
+- [ ]
+
 ```c
     char *hello;
     strcpy(hello, "Hello World");
     hello+=6;
     strcpy(hello, "Mars");
 ```
-- [ ] 
+
+- [ ]
+
 ```c
     char hello[25];
     strcpy(hello, "Hello World");
