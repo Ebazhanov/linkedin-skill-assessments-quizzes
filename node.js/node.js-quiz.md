@@ -598,14 +598,7 @@ console.log(person);
 - [ ] They are a Node command to validate stability of your code.
 - [ ] They tell if a feature is LTS (Long Term Supported).
 
-#### Q73. Which of the following DNS module methods uses the underlying OS facilities and does not necessarily perform any network communication?
-
-- [x] lookup
-- [ ] resolve
-- [ ] reverse
-- [ ] resolve4
-
-#### Q74. Which coice is a core module in Node?
+#### Q73. Which coice is a core module in Node?
 
 - [x] crypto
 - [ ] chalk

@@ -499,14 +499,14 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 - [ ] creates a highly available database cluster that will host your database cluster in at least two regions
 - [ ] creates another database instance in another region and keeps a hot standby active to failover to during regional failures
 
-#### Q62. What is the best EC2 instance class for a server that continuously has a heavy CPU load?
+#### Q63. What is the best EC2 instance class for a server that continuously has a heavy CPU load?
 
 - [x] C5
 - [ ] T2
 - [ ] R5
 - [ ] H1
 
-#### Q63. Your application performance management (APM) system can read the status of your CloudWatch monitors and perform scripted actions. When the CloudWatch metric StatusCheckFailed enters a failed state (a value of 1), you would like your APM to automatically repair the instance. Which script do you use?
+#### Q64. Your application performance management (APM) system can read the status of your CloudWatch monitors and perform scripted actions. When the CloudWatch metric StatusCheckFailed enters a failed state (a value of 1), you would like your APM to automatically repair the instance. Which script do you use?
 
 - [x] A
 
@@ -536,7 +536,7 @@ aws ec2 reboot-instances --instance-ids i-0b263919b6498b123
 aws ec2 start-instances --instance-ids i-0b263919b6498b123
 ```
 
-#### Q64. What is wrong with the third incoming security group rule, which allows all traffic from sg-269afc5e to go to an Ubuntu EC2 instance configured as a web server?
+#### Q65. What is wrong with the third incoming security group rule, which allows all traffic from sg-269afc5e to go to an Ubuntu EC2 instance configured as a web server?
 
 - [ ] All traffic on all ports is being denied into this instance, which overwrites the HTTP rule and makes it redundant.
 - [x] The instance was launched with the default security group, but there is no way for an administrator to SSH into the instance.
@@ -546,7 +546,7 @@ aws ec2 start-instances --instance-ids i-0b263919b6498b123
 - [ ] All traffic on all ports are allowed into this instance. This exposes the instance to all public internet traffic and
       overwrites the incoming HTTP rule.
 
-#### Q65. You have a VPC that has a public and private subnet. There is a NAT gateway in the public subnet that allows instances in the private subnet to access the internet without having public exposure outside of the VPC. What should the routing tables be for the private subnet?
+#### Q66. You have a VPC that has a public and private subnet. There is a NAT gateway in the public subnet that allows instances in the private subnet to access the internet without having public exposure outside of the VPC. What should the routing tables be for the private subnet?
 
 ![image](images/003.png)
 
@@ -578,14 +578,14 @@ Destination 1: 10.0.0.0/16, Target 1: vpc-12bd09ac2;
 Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
 ```
 
-#### Q66. To comply with auditing requirements of some compliance standards, which AWS tool can be enabled to maintain an audit log of access and changes to your AWS infrastructure?
+#### Q67. To comply with auditing requirements of some compliance standards, which AWS tool can be enabled to maintain an audit log of access and changes to your AWS infrastructure?
 
 - [x] CloudTrail
 - [ ] CloudWatch
 - [ ] AWS Audit and Compliance Tool
 - [ ] GuardDuty
 
-#### Q67. You have an application that generates long-running reports, stores them in an S3 bucket, and then emails the user who requested the report with a link to download it. What is the best practice for storing the report data in S3?
+#### Q68. You have an application that generates long-running reports, stores them in an S3 bucket, and then emails the user who requested the report with a link to download it. What is the best practice for storing the report data in S3?
 
 - [ ] Create a public S3 bucket. When your application creates the report object in S3, generate two randomly generated long
       folder names and place the file within the deepest subfolder. Set the retention policy on the object to one hour and email this link to
@@ -600,21 +600,21 @@ Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
       session or force the user to log in. Set the report object in S3 to public. Show the user a "Download" button in the browser that links
       to the public object.
 
-#### Q68. When sending a large volume of email through SES, what is the most important set of metrics to monitor?
+#### Q69. When sending a large volume of email through SES, what is the most important set of metrics to monitor?
 
 - [x] your complaint and bounce rates
 - [ ] opens and clicks
 - [ ] clicks and deliveries
 - [ ] sending volume over the past 15 minutes and over one day to watch for billing spikes
 
-#### Q69. You are going to host an application that uses a MySQL database. Which database should you select if you don't want to manage scaling or database administration tasks?
+#### Q70. You are going to host an application that uses a MySQL database. Which database should you select if you don't want to manage scaling or database administration tasks?
 
 - [ ] Launch an AMI image from the marketplace containing a preconfigured MySQL server.
 - [x] Aurora
 - [ ] RDS for MySQL
 - [ ] Redshift
 
-#### Q70. A form in web application is sending sign-up data to "http://example.com/signup/new?source=web" and this data needs to be handled by an ECS service behind Application Load Balancer (ALB). Which ALB rule will route this request?
+#### Q71. A form in web application is sending sign-up data to "http://example.com/signup/new?source=web" and this data needs to be handled by an ECS service behind Application Load Balancer (ALB). Which ALB rule will route this request?
 
 ![image](images/004.png)
 
@@ -641,14 +641,14 @@ Then
 - [ ] C ...One more with POST
 - [x] D ...Only one with Get
 
-#### Q71. Which AWS service can host the web application server for a WordPress site?
+#### Q72. Which AWS service can host the web application server for a WordPress site?
 
 - [ ] S3
 - [x] Elastic BeanStalk
 - [ ] ElasticCache
 - [ ] CloudFront
 
-#### Q72. What does the following AWS CLI `create-service` command for ECS do?
+#### Q73. What does the following AWS CLI `create-service` command for ECS do?
 
 ```
 aws ecs create-service \
@@ -666,28 +666,28 @@ aws ecs create-service \
 - [x] launches two containers onto Fargate into the existing **production** cluster using the **rest-api** task definition
 - [ ] creates a service definition for the **rest-api** task; put two containers on the production cluster when launched **ecs-cli** up command
 
-#### Q73. You want to make your public API quickly accessible from all regions. What is the best way to do this?
+#### Q74. You want to make your public API quickly accessible from all regions. What is the best way to do this?
 
 - [ ] Create a single API gateway endpoint in a central region.
 - [ ] Create a private API gateway endpoint for each region.
 - [ ] Create a regional API gateway endpoint for each region.
 - [x] Create edge-optimized API gateway endpoints and deploy them to a CloudFront network.
 
-#### Q74. What type of data solution should you use for data coming from nonrelational and relational data from IoT devices, websites, mobile apps, etc.?
+#### Q75. What type of data solution should you use for data coming from nonrelational and relational data from IoT devices, websites, mobile apps, etc.?
 
 - [ ] Amazon DynamoDB
 - [x] AWS Lake Formation
 - [ ] Amazon Redshift
 - [ ] Amazon Aurora
 
-#### Q75. You have an analytics suite that produces reports about the usage patterns of your web application. After completing your migration to AWS and using Application Load Balancer to balance the load across your web application, your marketing department noticed that location-based reports on the web traffic only show traffic originating from a single location. What is the problem?
+#### Q76. You have an analytics suite that produces reports about the usage patterns of your web application. After completing your migration to AWS and using Application Load Balancer to balance the load across your web application, your marketing department noticed that location-based reports on the web traffic only show traffic originating from a single location. What is the problem?
 
 - [ ] Use a Classic Load Balancer, not Application Load Balancer.
 - [x] Application Load Balancer does not preserve the original source IP address. The analytics software needs to be configured to look at the 'X-Forwarded-For' HTTP request header for the correct source IP address.
 - [ ] Application Load Balencer has to be configured to retain the source IP address of the traffic it is forwarding. Create a policy that enables ProxyProtocol support and attach it to the ALB using the AWS CLI.
 - [ ] Configure the web server EC2 instances to only have private IP addresses. The public IP addresses of the instances are being recorded into the web server logs, bug only ALB should have a public interface and it will route traffic to instances via the private interface.
 
-#### Q76. What is `not` a default user of a common Linux instance launched from an AMI?
+#### Q77. What is `not` a default user of a common Linux instance launched from an AMI?
 
 - [ ] ubuntu
 - [x] system-user
@@ -696,7 +696,7 @@ aws ecs create-service \
 
 [Reference](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/connection-prereqs.html)
 
-#### Q77. You have replicated the infrastructure that serves the backend API for your web application across regions to better serve your customers in the US and the EU. What is the best way to direct your web application at the nearest data center?
+#### Q78. You have replicated the infrastructure that serves the backend API for your web application across regions to better serve your customers in the US and the EU. What is the best way to direct your web application at the nearest data center?
 
 - [x] Use Route 53 with geolocation lookups to direct traffic between the two regions.
 - [ ] Create a WAF redirection rule that redirects traffic at the EU data center if the source IP comes from certain countries.
@@ -705,7 +705,7 @@ aws ecs create-service \
 
 [Reference](https://aws.amazon.com/premiumsupport/knowledge-center/geolocation-routing-policy/)
 
-#### Q78. You have recently launched your new web product and are expecting 1,000 new users each month. However, you have just received word from the CEO that your product will be featured at an upcoming conference covered by several media outlets, and this could lead to 20,000 new users over the next week. How do you plan for a sudden increase in traffic?
+#### Q79. You have recently launched your new web product and are expecting 1,000 new users each month. However, you have just received word from the CEO that your product will be featured at an upcoming conference covered by several media outlets, and this could lead to 20,000 new users over the next week. How do you plan for a sudden increase in traffic?
 
 - [ ] Replicate your infrastructure across two regions. You will harden the application to a regional failure and you will double your capacity.
 - [ ] Take an AMI image of a front-end server to save your configuration and then add more servers to your cluster pror to the conference. Remove the servers from the cluster after the spike from the conference.
@@ -714,7 +714,7 @@ aws ecs create-service \
 
 [Reference](https://aws.amazon.com/ec2/autoscaling/)
 
-#### Q79. How do you connect via SSH to a Linux EC2 instance with an EBS volume if you lost your key pair?
+#### Q80. How do you connect via SSH to a Linux EC2 instance with an EBS volume if you lost your key pair?
 
 - [ ] Stop the instance and create an AMI image. Launch the image using a new key pair.
 - [ ] Contact AWS support. A support specialist can remotely restore access to your instance and send you a new key pair.
@@ -723,7 +723,7 @@ aws ecs create-service \
 
 [Reference](https://medium.com/the-10x-dev/how-to-recover-access-login-to-your-aws-instance-after-losing-your-pem-keypair-file-e0d31bae2da4)
 
-#### Q80. Your on-premise data center (172.16.128.0/24) is already connected to your AWS VPC (10.0.0.0/16) by a customer gateway. You wish to connect another data center for a company you just acquired (172.16.130.0/24) to your VPC as shown in the image. What is the best way to create this link?
+#### Q81. Your on-premise data center (172.16.128.0/24) is already connected to your AWS VPC (10.0.0.0/16) by a customer gateway. You wish to connect another data center for a company you just acquired (172.16.130.0/24) to your VPC as shown in the image. What is the best way to create this link?
 
 ![image](images/Q80.png)
 
@@ -732,7 +732,7 @@ aws ecs create-service \
 - [x] Create a second virtual private gateway (VPG) and attach it to the VPC. Create a customer gateway for the new virtual private gateway and use your VPN client at your second data center to establish a connection to the VPG.
 - [ ] You can not have more than one customer gateway per VPC, so the proposed solution will not work. Create a second VPC with a virtual private gateway and a customer gateway. Bridge the two VPCs using VPC peering.
 
-#### Q81. You are migrating a 200 GB database from an on-premise SQL Server to RDS for SQL Server. The database needs to have minimal downtime during the migration. What is the best practice for migrating this database?
+#### Q82. You are migrating a 200 GB database from an on-premise SQL Server to RDS for SQL Server. The database needs to have minimal downtime during the migration. What is the best practice for migrating this database?
 
 - [ ] Close all existing connections to the SQL Server database and use Database Migration Service to transfer the data to RDS.
 - [x] Use Database Migration Service to replicate the database to RDS and keep it in sync during the migration. Repoint your applications to use the new RDS endpoint.
@@ -741,7 +741,7 @@ aws ecs create-service \
 
 [Reference](https://aws.amazon.com/dms/)
 
-#### Q82. You have enabled Multi-Factor Authentication (MFA) for your AWS root account and you lost your MFA device. What do you need to do to recover access to your account?
+#### Q83. You have enabled Multi-Factor Authentication (MFA) for your AWS root account and you lost your MFA device. What do you need to do to recover access to your account?
 
 - [ ] You cannot recover access to your AWS root account. Contact AWS support.
 - [x] An email will be sent to the email address on file to verify ownership of the account. You will then need to provide the phone number on the account.
@@ -750,7 +750,7 @@ aws ecs create-service \
 
 [Reference](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_lost-or-broken.html)
 
-#### Q83. How do you assign an Elastic IP to several EC2 instances?
+#### Q84. How do you assign an Elastic IP to several EC2 instances?
 
 - [ ] In the VPC dashboard, click Elastic IPs. Select the Elastic IP and click Associate Address. Select each EC2 instance you wish to assign this address to.
 - [ ] In the EC2 dashboard, click on EC2 instance. Under Actions, select networking > Manage IP Addresses. click to add a new IP address and type in the address of the Elastic IP. Repeat the process for each EC2 instance you want to assign this Elastic IP to.
@@ -759,14 +759,14 @@ aws ecs create-service \
 
 [Reference](https://stackoverflow.com/questions/54742522/assign-multiple-ec2-instances-to-one-elastic-ip)
 
-#### Q84. You created a VPC that has a public subnet and a private subnet. A web server was placed in the public subnet and a database server was placed in the private subnet. The web server is able to connect to the database server; however, the database server at 10.0.1.2 is unable to get software updates. What is the cause of this issue?
+#### Q85. You created a VPC that has a public subnet and a private subnet. A web server was placed in the public subnet and a database server was placed in the private subnet. The web server is able to connect to the database server; however, the database server at 10.0.1.2 is unable to get software updates. What is the cause of this issue?
 
 - [x] There is no NAT gateway for the private subnet, so the database server has no routes that give it public internet access to download software updates.
 - [ ] The database server needs to be assigned a public address from the pool, or assigned an Elastic IP similar to the instance 10.0.0.2.
 - [ ] The router is not configured properly on the VPC. Add a route to route table for the VPC that routes all traffic for 0.0.0.0/0 to the ID of the internet gateway.
 - [ ] There is no egress-only internet gateway attached to the private subnet of the VPC.
 
-#### Q85. Benefit of using S3 Glacier?
+#### Q86. Benefit of using S3 Glacier?
 
 - [ ] access time
 - [ ] store for small duration

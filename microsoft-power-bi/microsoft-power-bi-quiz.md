@@ -1,4 +1,4 @@
-﻿### Microsoft Power BI
+## Microsoft Power BI
 
 #### Q1. A dataset that includes \_ can be used to create a map visualization. (Select all that apply.)
 

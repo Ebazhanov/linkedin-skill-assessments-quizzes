@@ -661,30 +661,7 @@ echo "\${VAR//man/rolling}"
 - [ ] $PROGRAM
 - [ ] $PATHS
 
-#### Q55. What does this command sequence do?
-
-```bash
-cat >notes -
-```
-
-- [ ] It creates an empty file called "notes" and then exits.
-- [x] It accepts text from the standard input and places it in the "notes" file.
-- [ ] It appends text to an existing file called "notes."
-- [ ] It outputs the contents of the "notes" file to the screen, and then deletes it.
-
-#### Q56. What is the output of this code?
-
-```bash
-VAR="This old man came rolling"
-echo "${VAR//man/rolling}"
-```
-
-- [ ] This old man came man
-- [ ] This old man came rolling
-- [x] This old rolling came rolling
-- [ ] This old came
-
-#### Q57. What statement would you use to print this in the console?
+#### Q55. What statement would you use to print this in the console?
 
 `Shall we play a game? yes\no`
 
@@ -693,7 +670,7 @@ echo "${VAR//man/rolling}"
 - [x] `echo "Shall we play a game? yes\\no"`
 - [ ] `echo "Shall we play a game? yes\no"`
 
-#### Q58. Given a directory with these seven files, what would remain after executing these commands?
+#### Q56. Given a directory with these seven files, what would remain after executing these commands?
 
 ```bash
 archive.tar
@@ -743,7 +720,7 @@ image2.gif
 image2.jpg
 ```
 
-#### Q59. The code below seems to work and outputs "8 is greater than 5". However, what unexpected result will tell you it is not functioning properly?
+#### Q57. The code below seems to work and outputs "8 is greater than 5". However, what unexpected result will tell you it is not functioning properly?
 
 ```bash
 #!/bin/bash
@@ -758,7 +735,7 @@ fi
 - [x] There will be a file in the current directory named 5.
 - [ ] The variable $var is not quoted, which will lead to word splitting. This script will fail with a "unary operator expected" message if you change the value of
 
-#### Q60. What is the result of this script?
+#### Q58. What is the result of this script?
 
 ![question](images/Q60/question.png)
 
@@ -767,14 +744,14 @@ fi
 - [x] It removes all files in the current directory.
 - [ ] It removes all files except those in the 'foo' directory.
 
-#### Q61. Which one is true?
+#### Q59. Which one is true?
 
 - [x] SELinux policy rules are checked after DAC rules.
 - [ ] SELinux policy rules are checked before DAC rules
 - [ ] SELinux policy rules are never checked after DAC rules.
 - [ ] None of these
 
-#### Q62. Which does the below command do?
+#### Q60. Which does the below command do?
 
 ```bash
 w
@@ -785,7 +762,7 @@ w
 - [ ] It displays information about the users currently on the another machine.
 - [ ] None of these
 
-#### Q63. Which sed options should you use to change the second-to-last instance of variable to rock so it would read:
+#### Q61. Which sed options should you use to change the second-to-last instance of variable to rock so it would read:
 
 A constant is a variable that is a rock that isn't variable
 
@@ -799,42 +776,42 @@ echo "$var" | sed _____
 - [ ] s/variable/rock/g'
 - [ ] s/(.*\)variable\(.*variable\)/\1rock\2/'
 
-#### Q64. To make a Bash script named script.sh executable, what should you run?
+#### Q62. To make a Bash script named script.sh executable, what should you run?
 
 - [ ] exec script.sh
 - [x] chmod +x script.sh
 - [ ] bash script.sh
 - [ ] source script.sh
 
-#### Q65. How can you create a shared terminal in a Bash shell?
+#### Q63. How can you create a shared terminal in a Bash shell?
 
 - [x] screen
 - [ ] screen -X
 - [ ] screen --shared
 - [ ] terminal -shared
 
-#### Q66. Wich operator sends the output of ls to a file for later use?
+#### Q64. Wich operator sends the output of ls to a file for later use?
 
 - [ ] ls < filelist.txt
 - [ ] ls ¦ filelist.txt
 - [x] ls > filelist.txt
 - [ ] ls - filelist.txt
 
-#### Q67. When comparing items with case, what statement indicates an end to the evaluation block?
+#### Q65. When comparing items with case, what statement indicates an end to the evaluation block?
 
 - [ ] stop
 - [x] esac
 - [ ] done
 - [ ] exit
 
-#### Q68. To run a group of commands without spawning a subshell, which syntax would you use?
+#### Q66. To run a group of commands without spawning a subshell, which syntax would you use?
 
 - [ ] sh command1; command2
 - [ ] { command1; command2; }
 - [ ] (( command1; command2 ))
 - [x] command1; command2 )
 
-#### Q69. What are the results of the command with a user named jon?
+#### Q67. What are the results of the command with a user named jon?
 
 ```bash
 echo 'Hello, $(whoami)!'
@@ -845,35 +822,35 @@ echo 'Hello, $(whoami)!'
 - [x] Hello, $(whoami)!
 - [ ] Hello, whoami!
 
-#### Q70. How can you copy a directory to another system with compression?
+#### Q68. How can you copy a directory to another system with compression?
 
 - [ ] tar -ssh user@192.158.1.1 /bin/newfile
 - [x] tar cvzf - /wwwdata | ssh root@192.168.1.201 "dd of=/backup/wwwdata.tar.gz"
 - [ ] You can't compress the stream
 - [ ] scp -r directory user@192.168.1.1:/tmp
 
-#### Q71. To assign the command `ls -lah` to the shortcut command `lh`, what command should you use?
+#### Q69. To assign the command `ls -lah` to the shortcut command `lh`, what command should you use?
 
 - [x] alias lh='ls -lah'
 - [ ] link lh='ls -lah'
 - [ ] alias 'ls -lah'=lh
 - [ ] lh | ls -lah
 
-#### Q72. Which statement will print all of the fully qualified .cvs files in the home directory or subdirectories while not displaying any errors?
+#### Q70. Which statement will print all of the fully qualified .cvs files in the home directory or subdirectories while not displaying any errors?
 
 - [ ] find $USER_DIR -name "\*.csv" 2>/dev/null
 - [ ] find $HOME -name "\*.csv" 1>/dev/null
 - [x] find $HOME -name "\*.csv" 2>/dev/null
 - [ ] find HOME -name "\*.csv" 1>/dev/null
 
-#### Q73. In Bash, what does a # at the end of the default prompt string indicate?
+#### Q71. In Bash, what does a # at the end of the default prompt string indicate?
 
 - [x] that the user is acting as root
 - [ ] that the current working directory is the root of the file system
 - [ ] that there are updates for the system available
 - [ ] that the user is unprivileged
 
-#### Q74. What will be the output of this command?
+#### Q72. What will be the output of this command?
 
 ```bash
 $ ls -l
@@ -920,7 +897,7 @@ filec.txt
 
 The caret (`^`) symbol here negates matches inside the bracket. [Reference](https://tldp.org/LDP/abs/html/globbingref.html)
 
-#### Q75. What is the output of this command sequence?
+#### Q73. What is the output of this command sequence?
 
 ```bash
 cat <<EOF
@@ -966,7 +943,7 @@ This is line 3.
 ------------------------
 ```
 
-#### Q76. What would be in out.txt?
+#### Q74. What would be in out.txt?
 
 ```bash
 #!/bin/bash
@@ -985,7 +962,7 @@ exec 3>&-
 
 See [I/O Redirection](https://tldp.org/LDP/abs/html/io-redirection.html)
 
-#### Q77. Which variable contains the process ID (PID) of the script while it's running?
+#### Q75. Which variable contains the process ID (PID) of the script while it's running?
 
 - [ ] $ID
 - [ ] $#

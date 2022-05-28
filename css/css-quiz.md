@@ -1425,20 +1425,34 @@ p:first-of-type:first-letter {
 
 #### Q106. Which choice will not set all links that include domain.com to pink?
 
+- [ ] A
+
 ```css
-[] a[href$='domain.com'] {
+a[href$='domain.com'] {
   color: pink;
 }
+```
 
-[x] a[href='*domain.com'] {
+- [x] B
+
+```css
+a[href='*domain.com'] {
   color: pink;
 }
+```
 
-[] a[href*='domain.com'] {
+- [ ] C
+
+```css
+a[href*='domain.com'] {
   color: rgb(255, 155, 155);
 }
+```
 
-[] a[href*='domain.com'] {
+- [ ] D
+
+```css
+a[href*='domain.com'] {
   color: pink;
 }
 ```
@@ -1447,41 +1461,53 @@ p:first-of-type:first-letter {
 
 #### Q107. Which property and value pair could be used to apply a linear gradient effect?
 
-```css
-[x] `background: linear-gradient(#648880, #293f50);`
-[ ] `background-image: linear(#648880, #293f50);`
-[ ] `background: gradient(linear, #648880, #293f50);`
-[ ] `background-color: linear-gradient(#648880, #293f50);`
-```
+- [x] ```css background: linear-gradient(#648880, #293f50);```
+- [ ] ```css background-image: linear(#648880, #293f50);```
+- [ ] ```css background: gradient(linear, #648880, #293f50);```
+- [ ] ```css background-color: linear-gradient(#648880, #293f50);```
 
 #### Q108. You want to add a background circle behind an icon. Which style declaration is correct?
 
+- [ ] A
+
 ```css
-[] .glyphicon-bgcircle {
+.glyphicon-bgcircle {
   circle-radius: 50%;
   margins: 50px;
   background-color: #fdadc6;
   color: rgba(255, 255, 255, 1);
   font-size: 24px;
 }
+```
 
-[] glyphicon-bgcircle {
+- [ ] B
+
+```css
+glyphicon-bgcircle {
   border-circle: 50%;
   padding: 50px;
   background-color: #fdadc6;
   color: rgba(255, 255, 255, 1);
   font-size: 24px;
 }
+```
 
-[x] .glyphicon-bgcircle {
+- [x] C
+
+```css
+.glyphicon-bgcircle {
   border-radius: 50%;
   padding: 50px;
   background-color: #fdadc6;
   color: rgba(255, 255, 255, 1);
   font-size: 24px;
 }
+```
 
-[] .glyphicon-bgcircle {
+- [ ] D
+
+```css
+.glyphicon-bgcircle {
   radius-rounded: 50%;
   margins: auto;
   background-color: #fdadc6;
@@ -1534,7 +1560,7 @@ D. font-size: 20px
 <div class="container"><div class="overlay"></div></div>
 ```
 
-- [ ]
+- [ ] A
 
 ```css
 .overlay {
@@ -1547,7 +1573,7 @@ D. font-size: 20px
 }
 ```
 
-- [ ]
+- [ ] B
 
 ```css
 .overlay {
@@ -1560,7 +1586,7 @@ D. font-size: 20px
 }
 ```
 
-- [ ]
+- [ ] C
 
 ```css
 .overlay {
@@ -1573,7 +1599,7 @@ D. font-size: 20px
 }
 ```
 
-- [x]
+- [x] D
 
 ```css
 .overlay {
@@ -1622,7 +1648,7 @@ img {
 <span class="highlight">#BLM</span>
 ```
 
-- [ ]
+- [ ] A
 
 ```css
 .highlight {
@@ -1630,7 +1656,7 @@ img {
 }
 ```
 
-- [ ]
+- [ ] B
 
 ```css
 #highlight {
@@ -1638,7 +1664,7 @@ img {
 }
 ```
 
-- [x]
+- [x] C
 
 ```css
 .highlight {
@@ -1646,7 +1672,7 @@ img {
 }
 ```
 
-- [ ]
+- [ ] D
 
 ```css
 #highlight {
@@ -1656,25 +1682,25 @@ img {
 
 #### Q116. To prevent a background image from tiling in any direction, which style property would you apply?
 
-- [X]
+- [X] A
 
 ```css
 background-repeat: no-repeat;
 ```
 
-- [ ]
+- [ ] B
 
 ```css
 background-repeat: fixed;
 ```
 
-- [ ]
+- [ ] C
 
 ```css
 background-repeat: none;
 ```
 
-- [ ]
+- [ ] D
 
 ```css
 background-tile: none;

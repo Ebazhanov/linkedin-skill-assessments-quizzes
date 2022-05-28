@@ -394,7 +394,7 @@ GROUP BY Grade;
 
 > **Explanation:** Grouping will return a list of all grades grouped by grade. The prompt wants just one returned row.
 
-#### Q33.
+#### Q33. Refer to the figure below.
 
 ![T-SQL-Q33](images/Q33.jpg)
 

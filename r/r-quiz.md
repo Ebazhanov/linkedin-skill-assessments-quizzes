@@ -376,28 +376,30 @@ StopDate-StartDate
 - [x] Rprofile.site
 - [ ] Rstatus.site
 
-#### Q36. If **mdf** is a data frame, which statement is true ?
+#### Q37. If **mdf** is a data frame, which statement is true ?
 
 - [x] **ncol(mdf)** equals **length(mdf)**.
 - [ ] The number of rows must equals the number of columns.
 - [ ] The legnth of any column in **mdf** may differ from any other column in **mdf**
 - [ ] All columns must have the same data type.
 
-#### Q37. A list can contain a list as an element. **MyList** has five columns, and the third column's item is a list of three items. How do you put all seven values in **MyList** into a single vector?
+#### Q38. A list can contain a list as an element. **
+MyList** has five columns, and the third column's item is a list of three items. How do you put all seven values in **
+MyList** into a single vector?
 
 - [ ] vector(MyList, length = 7)
 - [ ] coerce(MyList, nrows = 1)
 - [x] unlist(MyList)
 - [ ] coerce(MyList, nrows = 7)
 
-#### Q38. Which strings could be returned by the function ls(path = "^V")?
+#### Q39. Which strings could be returned by the function ls(path = "^V")?
 
 - [ ] ANOVAData, anovadata
 - [x] VisitPCA, VarX
 - [ ] VisitPCA, varx
 - [ ] Xvar, Yvar
 
-#### Q39. StDf is a data frame. Based on this knowledge, what does this statement return?
+#### Q40. StDf is a data frame. Based on this knowledge, what does this statement return?
 
 ```r
 StDf[, -1]
@@ -408,21 +410,21 @@ StDf[, -1]
 - [x] all but the first column of StDf
 - [ ] only the first column of StDf
 
-#### Q40. Which statement enables you to interactively open a single file?
+#### Q41. Which statement enables you to interactively open a single file?
 
 - [ ] file.list()
 - [ ] file.select()
 - [x] file.choose()
 - [ ] file.open()
 
-#### Q41. How are these data types alike: logical, integer, numeric, and character?
+#### Q42. How are these data types alike: logical, integer, numeric, and character?
 
 - [ ] Each is a type of data frame.
 - [x] Each is a type of atomic vector.
 - [ ] Each is a type of complex vector.
 - [ ] Each is a type of raw vector.
 
-#### Q42. What does the `MyMat[ ,3]` subsetting operation return for this code?
+#### Q43. What does the `MyMat[ ,3]` subsetting operation return for this code?
 
 ```r
 MyMat = matrix(c(7, 9, 8, 6, 10, 12),nrow=2,ncol=3, byrow = TRUE)
@@ -456,14 +458,14 @@ MyMat = matrix(c(7, 9, 8, 6, 10, 12),nrow=2,ncol=3, byrow = TRUE)
 [2, ] 12
 ```
 
-#### Q43. What does the function `power.anova.test` return?
+#### Q44. What does the function `power.anova.test` return?
 
 - [ ] the probability of making a Type I error
 - [x] the probability of not making a Type II error
 - [ ] the probability of making a Type II error
 - [ ] the probability of not making a Type I error
 
-#### Q44. Review the statement below. What is the effect of `covariate:factor` on the analysis?
+#### Q45. Review the statement below. What is the effect of `covariate:factor` on the analysis?
 
 ```r
 result <- lm(outcome ~ covariate + factor + covariate:factor, data = testcoef)
@@ -485,28 +487,28 @@ Petal.Width:Speciesvirginica    0.1008     0.5248   0.192   0.8480
 ...
 ```
 
-#### Q45. A variable whose type is numeric can contain which items?
+#### Q46. A variable whose type is numeric can contain which items?
 
 - [ ] integers and real values
 - [ ] integers, real, and raw values
 - [x] real values only
 - [ ] integers, real, and logical values
 
-#### Q46. What is the legitimate name of a data class in R?
+#### Q47. What is the legitimate name of a data class in R?
 
 - [ ] property
 - [x] integer
 - [ ] number
 - [ ] variant
 
-#### Q47. How do you extract the values above the main diagonal from a square matrix named `Rmat`?
+#### Q48. How do you extract the values above the main diagonal from a square matrix named `Rmat`?
 
 - [x] `Rmat[upper.tri(Rmat)]`
 - [ ] `upper.triangular(Rmat)`
 - [ ] `upper.tri(Rmat)`
 - [ ] `upper.diag(Rmat)`
 
-#### Q48. `x` is a vector of type integer, as shown on line 1 below. What is the type of the result returned by the statement > median(x)?
+#### Q49. `x` is a vector of type integer, as shown on line 1 below. What is the type of the result returned by the statement > median(x)?
 
 `x <- c(12L, 6L, 10L, 8L, 15L, 14L, 19L, 18L, 23L, 59L)`
 
@@ -515,7 +517,7 @@ Petal.Width:Speciesvirginica    0.1008     0.5248   0.192   0.8480
 - [ ] single
 - [x] double
 
-#### Q49. A list named `a` is created using the statement below. Which choice returns TRUE?
+#### Q50. A list named `a` is created using the statement below. Which choice returns TRUE?
 
 `a <- list("10", TRUE, 5.6)`
 
@@ -523,15 +525,6 @@ Petal.Width:Speciesvirginica    0.1008     0.5248   0.192   0.8480
 - [ ] is.numeric(a[1])
 - [ ] is.logical(a[1])
 - [ ] is.character(a[1])
-
-#### Q50. How do you return "October" from `x` in this code?
-
-`x <- as.Date("2018-10-01")`
-
-- [ ] as.month(x)
-- [x] months(x)
-- [ ] month(x)
-- [ ] attr(x)
 
 #### Q51. How do you obtain the row numbers in a data frame named `pizza` for which the value of `pizza$delivery_min` is greater than or equal to 30?
 

@@ -283,7 +283,7 @@ A rainbow table attack is a more efficient and effective way of cracking many ha
 - [x] packet sniffer
 - [ ] IPS
 
-#### Q35. SQL injection inserts a code fragment that makes a database statement universally true, like **\_**.
+#### Q36. SQL injection inserts a code fragment that makes a database statement universally true, like **\_**.
 
 - [ ] `SELECT * FROM users WHERE username = " AND 1=1--'`
 - [ ] `SELECT * FROM users WHERE username = " AND 1!=1--'`
@@ -763,14 +763,7 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 - [ ] threat
 - [x] event
 
-#### Q100. You need to implement a solution to protect internet-facing applications from common attacks like XSS, CSRF, and SQL injection. Which option is best suited to the task?
-
-- [ ] a stateful packet inspection firewall
-- [ ] a web application firewall (WAF)
-- [ ] an Intrusion Detection and Prevention System (IDPS) appliance
-- [ ] Security Information Event Management (SIEM)
-
-#### Q101. You are responsible for forensic investigations in your organization.You have been tasked with investigating a compromised virtual application server. Becase a revenue generating application runs on the server, the server needs to be returned to service as quickly as possible.
+#### Q100. You are responsible for forensic investigations in your organization.You have been tasked with investigating a compromised virtual application server. Becase a revenue generating application runs on the server, the server needs to be returned to service as quickly as possible.
 
 What is the next step you should take to best fulfill your responsibilities and meet the needs of the business?
 
@@ -779,14 +772,16 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [x] Take a snapshot of the compromised virtual server for your investigation.
 - [ ] Restart the server. Remediate the issue after business hours.
 
-#### Q102. Site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space **\_**.Site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space **\_**.
+#### Q101. Site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space **
+\_**.Site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space **
+\_**.
 
 - [x] 192.168.0.1/24192.168.0.1/24
 - [ ] 192.168.0.3/24192.168.0.3/24
 - [ ] 10.10.0.0/2410.10.0.0/24
 - [ ] 192.168.0.2/24
 
-#### Q103. You are researching probable threats to your company’s internet-facing web applications. Which organization should you reference as an authoritative source for information on web-based attack vectors?You are researching probable threats to your company’s internet-facing web applications. Which organization should you reference as an authoritative source for information on web-based attack vectors?
+#### Q102. You are researching probable threats to your company’s internet-facing web applications. Which organization should you reference as an authoritative source for information on web-based attack vectors?You are researching probable threats to your company’s internet-facing web applications. Which organization should you reference as an authoritative source for information on web-based attack vectors?
 
 - [ ] EC-Council
 - [ ] ISACAISACA
@@ -795,7 +790,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 [Explanation:](https://www.imperva.com/learn/application-security/application-security/)
 
-#### Q104. Which action is most likely to simplify security staff training, improve integration between security components, and reduce risk to the business? (Choose the best answer.)Which action is most likely to simplify security staff training, improve integration between security components, and reduce risk to the business? (Choose the best answer.)
+#### Q103. Which action is most likely to simplify security staff training, improve integration between security components, and reduce risk to the business? (Choose the best answer.)Which action is most likely to simplify security staff training, improve integration between security components, and reduce risk to the business? (Choose the best answer.)
 
 - [ ] adopting a "best-in-suite" approach to securityadopting a "best-in-suite" approach to security
 - [x] adopting a "trust but verify" approach to securityadopting a "trust but verify" approach to security
