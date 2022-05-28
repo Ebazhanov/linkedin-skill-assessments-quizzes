@@ -136,12 +136,12 @@ struct s {
 - [ ] a stack
 - [ ] a binary tree
 
-#### Q7. A C header file is a file with extension .h that contains function declarations and macro definitons to be shared between several source files. Header files are listed using the preprocessing directive #include, and can have one of the following formats: #include &lt;fileA&gt; or #include "fileB". What is the difference between these two formats?
+#### Q7. Header files are listed using the preprocessing directive #include, and can have one of the following formats: #include &lt;fileA&gt; or #include "fileB". What is the difference between these two formats?
 
-- [ ] The preprocessor will try to locate the fileA in same directory as the source file, and the fileB in a predetermined directory path.
-- [ ] The preprocessor will try to locate the fileA in the fixed system directory. It will try to locate fileB in the directory path designated by the -l option added to the command line while compiling the source code.
-- [ ] The file using fileA syntax must be system files, of unlimited number. fileB must be a user file at a maximun of one per source file.
-- [x] The preprocessor will try to locate the fileA in a predetermined directory path. It will try to locate fileB in the same directory as the source file along with a custom directory path.
+- [ ] The preprocessor will try to locate fileA in same directory as the source file, and the fileB in a predetermined directory path.
+- [ ] The preprocessor will try to locate fileA in the fixed system directory. It will try to locate fileB in the directory path designated by the -I option added to the command line while compiling the source code.
+- [ ] The file using the fileA syntax must be system files, of unlimited number; fileB must be a user file at a maximun of one per source file.
+- [x] The preprocessor will try to locate fileA in a predetermined directory path. It will try to locate fileB in the same directory as the source file along with a custom directory path.
 
 #### Q8. Using a for loop, how could you write a C code to count down from 10 to 1 and display each number on its own line?
 
@@ -253,7 +253,7 @@ main(){
 - [x] parameter names
 - [ ] number of parameters
 
-#### Q15. C treats all devices, such as the display and the keyboard, as files. Which files opens automatically when a program executes?
+#### Q15. C treats all devices, such as the display and the keyboard, as files. Which file opens automatically when a program executes?
 
 - [x] stdout
 - [ ] stdio.h
@@ -292,7 +292,7 @@ main(){
 - [x] during the declaration of the variable
 - [ ] during the definition of the variable
 
-#### Q20. By default c uses the call by value method to pass arguments to functions. How can you invoke the call by reference method?
+#### Q20. C uses the call by value method to pass arguments to functions. How can you invoke the call by reference method?
 
 - [x] by using pointers
 - [ ] by declaring functions separately from defining them
@@ -848,7 +848,7 @@ void *vptr=&g;
 ```
 
 - [ ] f=(float \*)vptr;
-- [x] f=_(float _)vptr;
+- [x] f=\*(float \*)vptr;
 - [ ] f=\*(float)vptr;
 - [ ] f=(float)\*vptr;
 
@@ -858,5 +858,50 @@ void *vptr=&g;
 - [x] stdlib.h
 - [ ] limits.h
 - [ ] stddef.h
+
+#### Q57. A function is a set of ________.
+
+- [ ] declarations
+- [x] statements
+- [ ] variables
+- [ ] objects
+
+#### Q58. How are static functions different from global functions?
+
+- [ ] Static functions must be declared in advance of being defined.
+- [ ] Static functions must be declared is a separate header file.
+- [ ] Static functions always return the same value.
+- [x] Static functions can be accessed only in the file where they are declared.
+
+#### Q59. Which code example creates the string "Hello Mars" in storage buffer `hello`.
+
+- [ ] 
+```c
+    char hello[25];
+    strcpy(hello, "Hello ");
+    strcpy(hello, "Mars");
+```
+- [x] 
+```c
+    char hello[25];
+    char *p;
+    strcpy(hello, "Hello World");
+    p = hello;
+    p +=6;
+    strcpy(p, "Mars");
+```
+- [ ] 
+```c
+    char *hello;
+    strcpy(hello, "Hello World");
+    hello+=6;
+    strcpy(hello, "Mars");
+```
+- [ ] 
+```c
+    char hello[25];
+    strcpy(hello, "Hello World");
+    strcpy(*hello[6], "Mars");
+```
 
 [Reference](https://devdocs.io/c/memory)
