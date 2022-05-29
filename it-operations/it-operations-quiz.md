@@ -254,154 +254,140 @@
 - [x] NIC
 - [ ] Router
 
-#### Q24. Networking wire is referred to as **\_**
+#### Q29. Networking wire is referred to as **\_**
 
 - [x] CAT-5 or CAT-6 Ethernet cable
 - [ ] thin pair or twisted pair
 - [ ] asynchronous digital (AD) cable
 - [ ] coax cable
 
-#### Q25. Miguel is working on the computer, and Jen needs to use it for a moment. What can Miguel do to provide for an easy transition?
+#### Q30. Miguel is working on the computer, and Jen needs to use it for a moment. What can Miguel do to provide for an easy transition?
 
 - [ ] Shut down the system.
 - [x] Sign out.
 - [ ] Restart the computer.
 - [ ] Let Jen take over.
 
-#### Q26. A **\_** allows you to plug computers into a central location to communicate on the same local area network.
+#### Q31. A **\_** allows you to plug computers into a central location to communicate on the same local area network.
 
 - [x] server
 - [ ] layer 2 switch
 - [ ] wireless access point
 - [ ] firewall
 
-#### Q27. After plugging in an external 3.5mm microphone, you stop hearing sound from the speakers. What is the most likely source of the problem?
+#### Q32. After plugging in an external 3.5mm microphone, you stop hearing sound from the speakers. What is the most likely source of the problem?
 
 - [x] You have plugged the microphone into the 3.5mm audio output jack.
 - [ ] The sound is muted.
 - [ ] The sound card has crashed.
 - [ ] The computer has connected to a nearby Bluetooth headset.
 
-#### Q28. You think that the Internet is down. How can you know for certain?
+#### Q33. You think that the Internet is down. How can you know for certain?
 
 - [x] all of these answers.
 - [ ] You cannot reach any websites.
 - [ ] The power is out.
 - [ ] The lights on the modem are off.
 
-#### Q29. An application is unresponsive. How can you effectively close it down?
+#### Q34. An application is unresponsive. How can you effectively close it down?
 
 - [ ] Restart the computer.
 - [ ] Sign out.
 - [ ] Wait or set the application aside until it quits eventually on its own.
 - [x] Use the Task Manager (Windows) or use Force Quit (Mac).
 
-#### Q30. How can you tell that the website you are visiting is sending and receiving data that has been encrypted?
+#### Q35. How can you tell that the website you are visiting is sending and receiving data that has been encrypted?
 
 - [x] The URL is HTTPS.
 - [ ] You are using an incognito window.
 - [ ] The site requires a login and password.
 - [ ] You can't tell because a website's security settings are not readily apparent in a browser window.
 
-#### Q31. The client/server model best represents **\_**.
+#### Q36. The client/server model best represents **\_**.
 
 - [x] multiple hosts interacting with a single computer
 - [ ] an application consisting of cooperating programs across the Internet
 - [ ] any program run by a user
 - [ ] a subscription service on the web
 
-#### Q32. The primary mass storage device is divided into two partitions. What would explain this arrangement?
+#### Q37. The primary mass storage device is divided into two partitions. What would explain this arrangement?
 
 - [x] There is one partition for the operating system and a separate partition for user data.
 - [ ] All drives contain a second partition for the MBR (Master Boot Record).
 - [ ] The drive is partitioned to maintain compatibility with older versions of the operating system.
 - [ ] The system has two users who are each getting a partition.
 
-#### Q33. You are replacing a processor. How do you build the processor "sandwich", top-down?
+#### Q38. You are replacing a processor. How do you build the processor "sandwich", top-down?
 
 - [x] fan, paste, processor, socket
 - [ ] fan, processor, socket
 - [ ] fan, paste, processor, paste, socket
 - [ ] fan, processor, paste, socket
 
-#### Q34. The operating system tells you that a file is busy. What is the fastest way to attempt to make the file un-busy?
+#### Q39. The operating system tells you that a file is busy. What is the fastest way to attempt to make the file un-busy?
 
 - [ ] Run a disk-checking utility.
 - [x] Close open programs.
 - [ ] Restart the computer.
 - [ ] Review the output of the netstat utility to check for incoming connections to the file.
 
-#### Q35. What is the name of the hardware that provides a computer with network access?
+#### Q40. What is the name of the hardware that provides a computer with network access?
 
 - [ ] BIOS
 - [ ] RJ-45
 - [x] router
 - [ ] NIC
 
-#### Q36. Which program controls the Windows startup sequence?
-
-- [x] MSCONFIG
-- [ ] the Computer Management Console
-- [ ] Task Manager
-- [ ] the UEFI
-
-#### Q37. Which service allows clients to work remotely and supplies the clients with an IP address on the same local area network as the offce?
+#### Q41. Which service allows clients to work remotely and supplies the clients with an IP address on the same local area network as the offce?
 
 - [ ] DNS
 - [ ] FTP
 - [x] VPN
 - [ ] HTTP
 
-#### Q38. Al is about to update a software driver. What would be a wise thing to do first?
+#### Q42. Al is about to update a software driver. What would be a wise thing to do first?
 
 - [x] Back up all files.
 - [ ] Save data and close programs.
 - [ ] Remove the older driver.
 - [ ] Sign out of the operating system.
 
-#### Q39. What is the process of moving data and programs from an old computer to a new one called?
+#### Q43. What is the process of moving data and programs from an old computer to a new one called?
 
 - [ ] migration
 - [ ] An official term does not exist, though it is colloquieally referred to as a "brain transplant."
 - [x] profile transfer
 - [ ] account cloning
 
-#### Q40. The local network is up, but the computers cannot access the Internet. Your Internet configuration includes a modem, gateway (router), and a switch as separate devices. What should you do?
+#### Q44. The local network is up, but the computers cannot access the Internet. Your Internet configuration includes a modem, gateway (router), and a switch as separate devices. What should you do?
 
 - [ ] Do nothing. Wait until service is restored.
 - [ ] Restart all computers on the network.
 - [ ] Restart the gateway (router).
 - [x] Restart the modem.
 
-#### Q41. You notice that a program crashes at a specific time. Which tool can you use in Windows to discover the cause?
+#### Q45. You notice that a program crashes at a specific time. Which tool can you use in Windows to discover the cause?
 
 - [ ] Task Manager
 - [x] Event Viewer
 - [ ] Perfomance Monitor
 - [ ] Resource Monitor
 
-#### Q42. While planning a conference at a center in the mountains, you call ahead to ensure that it has broadband Internet access. Wich connection type would be an unsuitable choice?
+#### Q46. While planning a conference at a center in the mountains, you call ahead to ensure that it has broadband Internet access. Wich connection type would be an unsuitable choice?
 
 - [ ] DSL
 - [ ] fiber optic
 - [ ] cable
 - [x] dial-up
 
-#### Q43. On a trackpad, what gesture commonly replaces "center mouse wheel" for things like scrolling through documents?
-
-- [x] two-finger swipe
-- [ ] pinch outward
-- [ ] scroll with thumb instead
-- [ ] force click and drag
-
-#### Q44. What is a fixed disk
+#### Q47. What is a fixed disk
 
 - [ ] mass storage that has ben repaired
 - [x] nonremovable mass storage
 - [ ] any internal mass storage device
 - [ ] any mass storage device that is not a SSD
 
-#### Q45. What are the long-term and short-term categories of storage in a computer?
+#### Q48. What are the long-term and short-term categories of storage in a computer?
 
 - [x] memory and permanent (drive) storage
 - [ ] SSD and HDD
@@ -410,7 +396,7 @@
 
 [Reference](https://pediaa.com/difference-between-short-term-and-long-term-memory/)
 
-#### Q46. What is referred to by SSID
+#### Q49. What is referred to by SSID
 
 - [x] Service Set Identifier, a wireless network's name
 - [ ] an older security protocol for Wi-Fi networks
@@ -419,112 +405,112 @@
 
 [Reference](https://techterms.com/definition/ssid)
 
-#### Q47. Which is the standard color coding for audio jacks?
+#### Q50. Which is the standard color coding for audio jacks?
 
 - [ ] Gray: microphone / Black: speakers
 - [ ] Red: microphone / Green: speakers
 - [ ] Green: microphone / Pink: speakers
 - [x] Green: speakers / Pink: microphone
 
-#### Q48. Which key asssists limited keyboard layouts (such as on a laptop) with accessing the full range of keys?
+#### Q51. Which key asssists limited keyboard layouts (such as on a laptop) with accessing the full range of keys?
 
 - [x] Alt (Windows) or Option (Mac)
 - [ ] Meta
 - [ ] Fn
 - [ ] Shift
 
-#### Q49. You power up your computer and it starts in Safe Mode. What should you do?
+#### Q52. You power up your computer and it starts in Safe Mode. What should you do?
 
 - [x] Restart the computer
 - [ ] Work as you normally do until the problem is resolved
 - [ ] Reconfigure the startup sequence so that the system starts again normally
 - [ ] Determine the cause and address the issue
 
-#### Q50. Which security tool can be doubled up to offer additional protection without being redundant?
+#### Q53. Which security tool can be doubled up to offer additional protection without being redundant?
 
 - [ ] account protection
 - [ ] firewall
 - [ ] antivirus
 - [x] backup
 
-#### Q51. The mouse pointer is behaving erratically. What should you do first?
+#### Q54. The mouse pointer is behaving erratically. What should you do first?
 
 - [ ] Use the keyboard instead
 - [ ] Restart the computer
 - [x] Clean the mouse, specifically its optical sensor, and ensure that you are using it on the proper surface
 - [ ] Disassemble the mouse to look for loose parts or corrosion
 
-#### Q52. How many wire pairs are in a CAT-5 cable?
+#### Q55. How many wire pairs are in a CAT-5 cable?
 
 - [ ] 8
 - [x] 4
 - [ ] 5
 - [ ] 16
 
-#### Q53. What is the difference between a USB hub and a powered USB hub?
+#### Q56. What is the difference between a USB hub and a powered USB hub?
 
 - [x] The powered hub has a power supply and is suitable for running powered peripherals.
 - [ ] A powered USB hub is found on the computer case; all other hubs are non-powered.
 - [ ] The powered hub supplies 12V of power, whereas the standard hub only 5V.
 - [ ] Powered hubs are external to the computer case.
 
-#### Q54. Which user has the smartest approach to online security?
+#### Q57. Which user has the smartest approach to online security?
 
 - [ ] Jarred uses a unique password for each site.
 - [ ] Jen uses the same password on each site, but with two-factor authentication.
 - [x] Jason uses a unique password for each site along with two-factor authentication.
 - [ ] Jackie uses the same password on each site, but with a different user name.
 
-#### Q55. Which is an example of a phishing attach?
+#### Q58. Which is an example of a phishing attach?
 
 - [ ] Yousef sees an onscreen notification indicating that an operating system is pending and instructing him to click a link to continue.
 - [ ] After visiting a website, Carla notices that her computer is running slowly.
 - [x] Bob receives an email from his bank, asking him to click a link to verify his account.
 - [ ] Ellen's email inbox is flooded with unwanted advertising.
 
-#### Q56. You receive a malware warning regarding a specific file. Which approach should you take to ensure you do not have false positive?
+#### Q59. You receive a malware warning regarding a specific file. Which approach should you take to ensure you do not have false positive?
 
 - [ ] Restart in Safe Mode to remove the file.
 - [ ] Remove the file.
 - [x] Run a thorough scan to validate the results.
 - [ ] Quarantine the file.
 
-#### Q57. What are the best tools to use for cleaning a computer?
+#### Q60. What are the best tools to use for cleaning a computer?
 
 - [ ] Handheld vaccume cleaner, air can, soft flashlight.
 - [ ] air can, microfiber cloth, alcohol wipes, flashlight.
 - [x] handheld vaccum cleaner, ammonia, alcohol, microfiber cloth.
 - [ ] air can, screwdriver, soft cloth, household cleaner.
 
-#### Q58. A computer power supply is measured in \_.
+#### Q61. A computer power supply is measured in \_.
 
 - [x] watts
 - [ ] hertz
 - [ ] amperes
 - [ ] volts
 
-#### Q59. If you had a 255.255.255.0 subnet mask, how many usable IP addresses would you have for hosts?
+#### Q62. If you had a 255.255.255.0 subnet mask, how many usable IP addresses would you have for hosts?
 
 - [ ] 24
 - [ ] 255
 - [x] 254
 - [ ] 256
 
-#### Q60. Tania was told to address an issue in the UEFI. How is it accessed?
+#### Q63. Tania was told to address an issue in the UEFI. How is it accessed?
 
 - [ ] by using the System Configuration Utility (MSCONFIG)
 - [x] from the BIOS
 - [ ] from the computer's startup menu
 - [ ] on the network
 
-#### Q61. What is the technical reason why you must properly eject media?
+#### Q64. What is the technical reason why you must properly eject media?
 
 - [x] File I/O is buffered. If you remove the media before the buffer is cleared, files remain open and potentially corrupt.
 - [ ] The Storage Inventory Manager (SIM) can lose its drive references, which may corrupt other storage in the system.
 - [ ] The drive must receive the eject signal and turn itself off, dropping the DTR signal and indicating the media is safe to remove.
 - [ ] The computer must stop the 5-volt signal to media, otherwise the drive may short.
 
-#### Q62. Which part of the network assigns an IP address?
+#### Q65. Which part of the network assigns an IP address?
 
 - [ ] the modem using TCP/IP protocol
 - [x] the gateway/router using DHCP

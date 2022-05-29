@@ -417,14 +417,7 @@ enum Status {
 - [ ] need a supertrait
 - [ ] are not sure if you need a specific kind of trait
 
-#### Q36. **\_** cannot be destructed.
-
-- [x] Traits
-- [ ] Enums
-- [ ] Tuples
-- [ ] Structs
-
-#### Q37. How do you create a Rust project on the command-line?
+#### Q36. How do you create a Rust project on the command-line?
 
 - [x] cargo new
 - [ ] rustup init

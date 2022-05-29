@@ -1,6 +1,6 @@
 ## PHP
 
-##### Q1. What does this code output?
+#### Q1. What does this code output?
 
 `echo 76 <=> '76 trombones';`
 
@@ -12,14 +12,14 @@
 **_Both sides of the "spaceship" are equal, so the answer is 0. PHP will convert '76 trombones' to 76 in this context, as the string starts with '76'. Try it!_**
 **_For php 8.0 and forward the answer is [x] -1, for previous versions the answer is [x] 0._**
 
-##### Q2. Which is the most secure way to avoid storing a password in clear text in database?
+#### Q2. Which is the most secure way to avoid storing a password in clear text in database?
 
 - [ ] `$encrypted = shal($password);`
 - [ ] `$encrypted = crypt($password, \$salt);`
 - [ ] `$encrypted = md5($password);`
 - [x] `$encrypted = password_hash($password, PASSWORD_DEFAULT);`
 
-##### Q3. What does this script do?
+#### Q3. What does this script do?
 
 ```php
 $email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);
@@ -33,7 +33,7 @@ if ($email === false) {
 - [ ] It assigns an email to a variable and then removes all illegal characters from the \$email variable
 - [x] It verifies that an email address is well formed.
 
-##### Q4. In the following script, which line(s) will cause an error(s)?
+#### Q4. In the following script, which line(s) will cause an error(s)?
 
 ```
 1 <?php
@@ -52,49 +52,49 @@ if ($email === false) {
 - [ ] Line 5 will cause an error because some_string should be someString.
 - [ ] Line 3 and 4 will cause an error because a variable cannot start with an underscore(\_).
 
-##### Q5. In a conditional statement, you want to execute the code only if both value are true. Which comparison operator should you use?
+#### Q5. In a conditional statement, you want to execute the code only if both value are true. Which comparison operator should you use?
 
 - [ ] ||
 - [ ] &
 - [ ] <=>
 - [x] &&
 
-##### Q6. All variables in PHP start with which symbol?
+#### Q6. All variables in PHP start with which symbol?
 
 - [ ] &
 - [ ] %
 - [ ] \_
 - [x] $
 
-##### Q7. What is a key difference between GET and POST?
+#### Q7. What is a key difference between GET and POST?
 
 - [ ] GET is used with the HTTP protocol. POST is used with HTTPS.
 - [x] GET displays the submitted data as part of the URL. During POST, this information is not shown, as it's encoded in the request body.
 - [ ] GET is intended for changing the server state and it carries more data than POST.
 - [ ] GET is more secure than POST and should be used for sensitive information.
 
-##### Q8. The ** operator is useful for sorting operations. It compares two values and returns an integer less than, equal to, or greater than 0 depending on whether the value on the ** is less than, equal to, or greater than the other.
+#### Q8. The ** operator is useful for sorting operations. It compares two values and returns an integer less than, equal to, or greater than 0 depending on whether the value on the ** is less than, equal to, or greater than the other.
 
 - [ ] greater-than; right
 - [x] spaceship; left
 - [ ] equality; right
 - [ ] comparison; left
 
-##### Q9. Which are valid PHP error handling keywords?
+#### Q9. Which are valid PHP error handling keywords?
 
 - [ ] try, throw, catch, callable
 - [ ] try, yield, catch, finally
 - [ ] yield, throw, catch, finally
 - [x] try, throw, catch, finally
 
-##### Q10. Which value equates to true?
+#### Q10. Which value equates to true?
 
 - [ ] 0
 - [ ] NULL
 - [ ] ''
 - [x] -1
 
-##### Q11. What is missing from this code, which is supposed to create a test cookies?
+#### Q11. What is missing from this code, which is supposed to create a test cookies?
 
 ```php
 1 $string_name = "testcookie";
@@ -108,7 +108,7 @@ if ($email === false) {
 - [ ] The cookie session is missing.
 - [x] The call to `setcookie()` is missing.
 
-##### Q12. What is the value of \$total in this calculation?
+#### Q12. What is the value of \$total in this calculation?
 
 `$total = 2 + 5 * 20 - 6 / 3`
 
@@ -117,21 +117,21 @@ if ($email === false) {
 - [ ] 126
 - [x] 100
 
-##### Q13. What is the purpose of adding a lowercase "u" as a modifier after the final delimiter in a Perl-compatible regular expression?
+#### Q13. What is the purpose of adding a lowercase "u" as a modifier after the final delimiter in a Perl-compatible regular expression?
 
 - [ ] It makes the dot metacharacter match anything, including newline characters.
 - [ ] It makes the pattern match uppercase letters.
 - [x] Both the pattern and subject string are treated as UTF-8.
 - [ ] It inverts the greediness of the quantifiers in the pattern so they are not greedy by default.
 
-##### Q14. Which code snippet uses the correct syntax for creating an instance of the Pet class?
+#### Q14. Which code snippet uses the correct syntax for creating an instance of the Pet class?
 
 - [ ] `$dog = new Pet;`
 - [x] all of these answers
 - [ ] `$horse = (new Pet);`
 - [ ] `$cat = new Pet();`
 
-##### Q15. What is the best way to explain what this script does?
+#### Q15. What is the best way to explain what this script does?
 
 ```php
 1 if (!$_SESSION['myusername'])
@@ -146,28 +146,28 @@ if ($email === false) {
 - [ ] This script validates the username and password.
 - [x] This script is on a page that requires the user to be logged in. It checks to see if the user has a valid session.
 
-##### Q16. Which is the correct format for adding a comment to a PHP script?
+#### Q16. Which is the correct format for adding a comment to a PHP script?
 
 - [x] all of these answers
 - [ ] #This is a comment
 - [ ] `/* This is a comment */`
 - [ ] // This is a comment
 
-##### Q17. PHP supports multiple types of loops. If you wanted to loop through a block of code if and as long a specified condition is true, which type of loop would you use?
+#### Q17. PHP supports multiple types of loops. If you wanted to loop through a block of code if and as long a specified condition is true, which type of loop would you use?
 
 - [ ] for
 - [ ] do-while
 - [x] while
 - [ ] foreach
 
-##### Q18. The `ignore_user_abort( )` function sets whether a client disconnect should abort a script execution. In what scenario would you, as a web developer, use this function?
+#### Q18. The `ignore_user_abort( )` function sets whether a client disconnect should abort a script execution. In what scenario would you, as a web developer, use this function?
 
 - [ ] You would use it to stop a user from clicking the back button if they decide not to view as a result of a click.
 - [x] You would use this function if you have some important processing to do and you do not want to stop it, even if your users click Cancel.
 - [ ] You would use this function if you wanted to abort the script for all logged-in users, not just the one who disconnected.
 - [ ] You would use this function if you want a PHP script to run forever.
 
-##### Q19. The PHP function array_reduce() takes a callback function that accepts a value carried over each iteration and the current item in the array, and reduces an array to a single value. Which code sample will sum and output the values in the provided array?
+#### Q19. The PHP function array_reduce() takes a callback function that accepts a value carried over each iteration and the current item in the array, and reduces an array to a single value. Which code sample will sum and output the values in the provided array?
 
 - [ ]
   ```php
@@ -202,7 +202,7 @@ if ($email === false) {
   5?>
   ```
 
-##### Q20. Which PHP script uses a constructor to display the string "Winter is almost over!"?
+#### Q20. Which PHP script uses a constructor to display the string "Winter is almost over!"?
 
 - [x]
   ```php
@@ -245,35 +245,35 @@ if ($email === false) {
   7 $userclass = MyClass;
   ```
 
-##### Q21. How might you troubleshoot a "call to undefined function" error?
+#### Q21. How might you troubleshoot a "call to undefined function" error?
 
 - [ ] Make sure you have imported the file containing the function.
 - [ ] Make sure you have spelled the function name correctly.
 - [x] all of these answers
 - [ ] Make sure the function declaration is at an earlier point in the code than the function call.
 
-##### Q22. Which line could you NOT use to comment out "Space: the final frontier"?
+#### Q22. Which line could you NOT use to comment out "Space: the final frontier"?
 
 - [ ] `/* Space: the final frontier */`
 - [x] `*/ Space: the final frontier /*`
 - [ ] `#Space: the final frontier`
 - [ ] `// Space: the final frontier`
 
-##### Q23. What displays in a browser when the following code is written? `<?php echo "How much are the bananas?"?>`
+#### Q23. What displays in a browser when the following code is written? `<?php echo "How much are the bananas?"?>`
 
 - [ ] The browser would display nothing due to a syntax error.
 - [ ] The browser would display an error, since there are no parentheses around the string.
 - [x] The browser would display `How much are the bananas?`
 - [ ] The browser would display an error, since there is no semicolon at the end of the echo command.
 
-##### Q24. Which operator would you use to find the remainder after division?
+#### Q24. Which operator would you use to find the remainder after division?
 
 - [ ] /
 - [x] %
 - [ ] //
 - [ ] DIV
 
-##### Q25. What is the significance of the three dots in this function signature?
+#### Q25. What is the significance of the three dots in this function signature?
 
 ```php
 function process(...$vals) {
@@ -286,28 +286,28 @@ function process(...$vals) {
 - [ ] It temporarily disables the function while debugging other parts of the script.
 - [ ] It's a placeholder like a TO DO reminder that automatically triggers a notice when you run a script before completing the function definition.
 
-##### Q26. Assuming the `Horse` class exists, which is a valid example of inheritance in PHP?
+#### Q26. Assuming the `Horse` class exists, which is a valid example of inheritance in PHP?
 
 - [x] `class Pegasus extends Horse {}`
 - [ ] `class Alicorn imports Pegasus, Unicorn {}`
 - [ ] `class Unicorn implements Horse {}`
 - [ ] `class Horse inherits Unicorn {}`
 
-##### Q27. Both triple === and double == can be used to ** variables in php. If you want to hear that string "33" and the number 33 are equal, you would use ** . If you want to check if an array contains a particular string value at a particular index, you would use \_
+#### Q27. Both triple === and double == can be used to ** variables in php. If you want to hear that string "33" and the number 33 are equal, you would use ** . If you want to check if an array contains a particular string value at a particular index, you would use \_
 
 - [x] compare; doubles; triples
 - [ ] compare; triples; doubles
 - [ ] assign; triples; doubles
 - [ ] assign; doubles; triples
 
-##### Q28. Your php page is unexpectedly rendering as totally blank. Which step will shed light on the problem?
+#### Q28. Your php page is unexpectedly rendering as totally blank. Which step will shed light on the problem?
 
 - [ ] Add this code to the top of your script: `ini_set('display_errors',1);`
 - [ ] check the server error logged
 - [x] all of these answers
 - [ ] make sure you are not missing any semicolons
 
-##### Q29. Which is the way to create an array of "seasons"?
+#### Q29. Which is the way to create an array of "seasons"?
 
 - [ ]
 
@@ -324,14 +324,14 @@ seasons=array(
 - [ ] `$seasons=('spring','summer','autumn','winter');`
 - [x] `$seasons=['spring','summer','autumn','winter'];`
 
-##### Q30. Both `self` and `this` are keywords that can be used to refer to member variables of an enclosing class. The difference is that `$this->member` should be used for ** members and `self::$member` should be used for ** members.
+#### Q30. Both `self` and `this` are keywords that can be used to refer to member variables of an enclosing class. The difference is that `$this->member` should be used for ** members and `self::$member` should be used for ** members.
 
 - [ ] private, public
 - [ ] object,primitive
 - [x] non-static,static
 - [ ] concrete,abstract
 
-##### Q31. What will this code print?
+#### Q31. What will this code print?
 
 ```php
 $mathe=array('archi','euler','pythagoras');
@@ -347,7 +347,7 @@ echo sizeof($mathe);
 - [x] hypatia3
 - [ ] fibonacci4
 
-##### Q32. You are using the following code to find a users band, but it is returning false. Which step(s) would solve the problem?
+#### Q32. You are using the following code to find a users band, but it is returning false. Which step(s) would solve the problem?
 
 `isset ($_GET['fav_band'])`
 
@@ -356,42 +356,42 @@ echo sizeof($mathe);
 - [ ] view the source of form and make sure there is an input field with the name 'fav_band'
 - [ ] print everything that has been transmitted in the request: `print_r($_REQUEST);`
 
-##### Q33. Which code would you use to print all the elements in an array called `$cupcakes`?
+#### Q33. Which code would you use to print all the elements in an array called `$cupcakes`?
 
 - [x] all of the answers
 - [ ] `print_r($cupcakes);`
 - [ ] `var_dump($cupcakes);`
 - [ ] `foreach($cupcakes as &$cupcake) echo $cupcake;`
 
-##### Q34. What is the cause of 'Cannot modify header information - headers already sent'?
+#### Q34. What is the cause of 'Cannot modify header information - headers already sent'?
 
 - [ ] You are trying to modify a private value
 - [ ] Semicolon missing
 - [ ] Using a key on an array that does not exists
 - [x] Some html is being sent before a `header()` command that you are using for a redirect
 
-##### Q35. Which php control structure is used inside a loop to skip the rest of the current loops code and go back to the start of the loop for the next iteration
+#### Q35. Which php control structure is used inside a loop to skip the rest of the current loops code and go back to the start of the loop for the next iteration
 
 - [ ] `else`
 - [ ] `break`
 - [ ] `return`
 - [x] `continue`
 
-##### Q36. The php not operator is !. Given the snippet, is there an out put and what is it?
+#### Q36. The php not operator is !. Given the snippet, is there an out put and what is it?
 
 - [ ] there is an output '2 is an even number
 - [x] output '21 is an odd number'
 - [ ] no output. Syntax error do to missing semicolon at the end
 - [ ] no output due to % in \$num%2!=0
 
-##### Q37. You want to list the modules available in your PHP installation. What command should you run?
+#### Q37. You want to list the modules available in your PHP installation. What command should you run?
 
 - [ ] `php -h`
 - [ ] `php info`
 - [ ] `php -v`
 - [x] `php -m`
 
-##### Q38. For the HTML form below, what is the correct functioning script that checks the input "mail" to be sure it is filled before proceeding?
+#### Q38. For the HTML form below, what is the correct functioning script that checks the input "mail" to be sure it is filled before proceeding?
 
 ```php
 if (!empty($_POST["mail"])) {
@@ -401,7 +401,9 @@ echo "No, mail is not set";
 } (correct)
 ```
 
-##### Q39. What is the value of `$result` in this calculation?
+- [ ] ...
+
+#### Q39. What is the value of `$result` in this calculation?
 
 `$result = 25 % 6;`
 
@@ -410,14 +412,14 @@ echo "No, mail is not set";
 - [ ] 4
 - [x] 1
 
-##### Q40. What is the job of the controller as a component in MVC?
+#### Q40. What is the job of the controller as a component in MVC?
 
 - [x] The controller handles data passed to it by the view, and also passes data to the view. It interprets data sent by the view and disperses that data to the approrpiate models awaiting results to pass back to the view.
 - [ ] The controller is a mechanism that allows you to create reusable code in languages such as PHP, where multiple inheritance is not supported.
 - [ ] The controller presents content through the user interface, after communicating directly with the database.
 - [ ] The controller handles specific tasks related to a specific area of functionality, handles business logic related to the results, and communicates directly with the database.
 
-##### Q41. Why does this code trigger an error?
+#### Q41. Why does this code trigger an error?
 
 `$string = 'Shylock in a Shakespeare's "Merchant of Venice" demands his pound of flesh.';`
 
@@ -426,21 +428,21 @@ echo "No, mail is not set";
 - [ ] The opening and closing single quotes should be replaced by double quotes; and the apostrophe should be escaped by a backslash.
 - [x] The apostrophe needs to be escaped by a backslash to prevent it from being treated as the closing quote.
 
-##### Q42. A PDO object called `$db` has been set up to use for database operations, including user authentication. All user-related properties are set. The script line `public function __construct(&$db)` shows a constructor that initializes all user-related properties to \_ if no user has logged in. These parameters will be properly set by the login functions when a user logs in.
+#### Q42. A PDO object called `$db` has been set up to use for database operations, including user authentication. All user-related properties are set. The script line `public function __construct(&$db)` shows a constructor that initializes all user-related properties to \_ if no user has logged in. These parameters will be properly set by the login functions when a user logs in.
 
 - [x] NULL
 - [ ] TRUE
 - [ ] FALSE
 - [ ] 0
 
-##### Q43. Assuming that `$first_name` and `$family_name` are valid strings, which statement is invalid?
+#### Q43. Assuming that `$first_name` and `$family_name` are valid strings, which statement is invalid?
 
 - [x] `echo $first_name. ' '. $family_name;`
 - [ ] `print $first_name, ' ', $family_name;`
 - [ ] `print $first_name. ' '. $family_name;`
 - [ ] `echo $first_name, ' ', $family_name;`
 
-##### Q44. Which code snippet demonstrates encapsulation?
+#### Q44. Which code snippet demonstrates encapsulation?
 
 - [ ]
   ```php
@@ -475,7 +477,7 @@ echo "No, mail is not set";
   }
   ```
 
-##### Q45. The following XML document is in books.xml. Which code will output "Historical"?
+#### Q45. The following XML document is in books.xml. Which code will output "Historical"?
 
 ```xml
 <books>
@@ -518,14 +520,14 @@ echo "No, mail is not set";
   echo $books->book[0]->categories->category[1];
   ```
 
-##### Q46. When it comes to the value of a variable, what is the difference between NULL and empty?
+#### Q46. When it comes to the value of a variable, what is the difference between NULL and empty?
 
 - [ ] NULL is a blank value; empty is the lack of a value.
 - [ ] A NULL value has an allocated address in memory; empty does not.
 - [ ] NULL referes to the lack of a value for an integer; empty refers to the lack of a value for a string.
 - [x] NULL is the lack of a value; empty is a blank value.
 
-##### Q47. What would be a good name for this function?
+#### Q47. What would be a good name for this function?
 
 ```php
 function doStuff($haystack, $needle) {
@@ -542,14 +544,14 @@ function doStuff($haystack, $needle) {
 - [x] `startsWith`
 - [ ] `contains`
 
-##### Q48. If you want to pass a formfield to another page when a button is clicked, you should use the ** . If you want to store information across multiple pages, you should use the ** ?
+#### Q48. If you want to pass a formfield to another page when a button is clicked, you should use the ** . If you want to store information across multiple pages, you should use the ** ?
 
 - [ ] request; response
 - [ ] response; request
 - [ ] session; request
 - [x] request; session
 
-##### Q49. You are using the following code to decide if a button is clicked, but it is never returning true. Which step is most likely to shed light on the problem?
+#### Q49. You are using the following code to decide if a button is clicked, but it is never returning true. Which step is most likely to shed light on the problem?
 
 ```php
 isset($_POST['submit'])
@@ -560,14 +562,14 @@ isset($_POST['submit'])
 - [ ] Print everything in the session `print_r($_SESSION);`
 - [ ] Look in the query string at the top of your browser to see if submit is assigned a value
 
-##### Q50. Why should you follow a PSR standard?
+#### Q50. Why should you follow a PSR standard?
 
 - [x] because coding standards often vary between developers and companies
 - [ ] because coding standards are monitored for compliance across developers and companies
 - [ ] because there are mandatory coding standards among developers and companies
 - [ ] if using certain platforms, because the PSR's apply to those platforms only
 
-##### Q51. What are getters and setters?
+#### Q51. What are getters and setters?
 
 - [ ] Getters and setters ensure that if a data member is declared private, then it can be accessed only within the same function, not by an outside class
 - [ ] Getters and setters are utility functions within PHP that allow loading from, and saving to, a database
@@ -627,7 +629,7 @@ isset($_POST['submit'])
 
 [Reference](https://www.php.net/manual/en/language.constants.magic.php)
 
-##### Q57. What below script will print?
+#### Q57. What below script will print?
 
 ```php
   if( 1 == true){
@@ -652,7 +654,7 @@ isset($_POST['submit'])
 - [ ] 1
 - [ ] 123
 
-##### Q57. When should this php script be used?
+#### Q58. When should this php script be used?
 
 ```php
 $secret_word = 'if i ate spinach';
@@ -664,7 +666,7 @@ setcookie('login', $_REQUEST['username']. ','. md5($_REQUEST['username'].$secret
 - [ ] at first registration
 - [x] at every login, for security
 
-##### Q58. A PHP "variable variable" takes the value of a variable and treats that as the name of a variable. For example, if `$var` is a variable then `$$var` is a variable variable whose name is the value of `$var`. Which script produces the output below, using variable variables?
+#### Q59. A PHP "variable variable" takes the value of a variable and treats that as the name of a variable. For example, if `$var` is a variable then `$$var` is a variable variable whose name is the value of `$var`. Which script produces the output below, using variable variables?
 
 ```php
 Cat
@@ -712,14 +714,14 @@ Dog
       echo $Cat;
 ```
 
-##### Q59. Imagine a web application, built following a MVC architecture, that contains a quiz and a button to score it, When the user presses the Score button, which component should handle the request?
+#### Q60. Imagine a web application, built following a MVC architecture, that contains a quiz and a button to score it, When the user presses the Score button, which component should handle the request?
 
 - [ ] router
 - [x] controller
 - [ ] model
 - [ ] view
 
-##### Q60. Which script might be used to continue a user's search for music, across different webpages?
+#### Q61. Which script might be used to continue a user's search for music, across different webpages?
 
 - [ ]
 
@@ -757,7 +759,7 @@ Dog
         ?>
 ```
 
-##### Q61. Which PHP script finds the earliest and latest dates from an array?
+#### Q62. Which PHP script finds the earliest and latest dates from an array?
 
 - [x]
 
@@ -799,7 +801,7 @@ Dog
         ?>
 ```
 
-##### Q62. What is the resulting output of this for statement?
+#### Q63. What is the resulting output of this for statement?
 
 ```php
 $kilometers = 1;
@@ -842,14 +844,14 @@ for (;;) {
 
 - [ ] FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2
 
-##### Q63. In PHP 7, What is the correct way to import multiple classes from namespace in a single declaration ?!
+#### Q64. In PHP 7, What is the correct way to import multiple classes from namespace in a single declaration ?!
 
 - [x] use myApp\myNamespace\{ClassA, ClassB, ClassC};
 - [ ] use myApp\myNamespace\ClassA, ClassB, ClassC;
 - [ ] use myApp\myNamespace\[ClassA, ClassB, ClassC];
 - [ ] use myApp\myNamespace\(ClassA, ClassB, ClassC);
 
-##### Q64.Which is the most complete list of data types that PHP supports?
+#### Q65. Which is the most complete list of data types that PHP supports?
 
 - [x] string, integer, float, boolean, array, object, NULL, resource
 - [ ] string, integer, boolean, array, object, NULL, resource
@@ -858,7 +860,7 @@ for (;;) {
 
 [reference](https://www.w3schools.com/php/php_datatypes.asp)
 
-##### Q65. What type of computer language is PHP?
+#### Q66. What type of computer language is PHP?
 
 - [x] server-side scripting language
 - [ ] compiled language
@@ -867,7 +869,7 @@ for (;;) {
 
 [reference](https://www.quora.com/Which-programming-language-is-used-to-create-PHP)
 
-##### Q66.Which superglobal variable holds information about headers, paths, and script locations?
+#### Q67. Which superglobal variable holds information about headers, paths, and script locations?
 
 - [x] `$_SERVER`
 - [ ] `$SERVER_VARIABLES`
@@ -876,7 +878,7 @@ for (;;) {
 
 [reference](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/php/php_superglobals.asp.html)
 
-#### Q67. Describe what happens if you run this code in a testing environment:
+#### Q68. Describe what happens if you run this code in a testing environment:
 
 ```php
 $capitals = ['UK' => 'London', 'France' => 'Paris'];
@@ -890,14 +892,14 @@ echo "$capitals['france'] is the capital of France.";
 
 **_Also, 'france' key must be capitalized!_**
 
-#### Q68. DRY (Don't Repeat Yourself) is a principle of software development aimed at reducing repetition of software patterns. Which choice is not a way to write DRYer code with PHP?
+#### Q69. DRY (Don't Repeat Yourself) is a principle of software development aimed at reducing repetition of software patterns. Which choice is not a way to write DRYer code with PHP?
 
 - [ ] inheritance
 - [ ] classes
 - [x] namespacing
 - [ ] dependency injection
 
-#### Q69. Which code will return the IP address of the client?
+#### Q70. Which code will return the IP address of the client?
 
 - [ ] `$HTTP_SERVER_VARS("REMOTE_IP")`
 - [x] `$_SESSION["REMOTE_ADDR"];`
@@ -906,14 +908,14 @@ echo "$capitals['france'] is the capital of France.";
 
 **_Both 2 and 4 are correct!_**
 
-#### Q70. Your site must allow uploading of large files. What might you need to do?
+#### Q71. Your site must allow uploading of large files. What might you need to do?
 
 - [ ] Make sure the user has the proper permissions.
 - [ ] Keep a count of upload file sizes and log them.
 - [x] Change the `upload_max_filesize` configuration parameter.
 - [ ] Be sure to use chunked transfer encoding.
 
-#### Q71. What is the output of this script?
+#### Q72. What is the output of this script?
 
 ```php
 $my_text = 'The quick grey [squirrel].';
@@ -926,7 +928,7 @@ print $match[1]."\n";
 - [ ] [squirrel]
 - [ ] The quick grey squirrel.
 
-#### Q72. What is the output of this script?
+#### Q73. What is the output of this script?
 
 `$fruits = ['apple', 'orange', 'pear', 'mango', 'papaya'];`
 `$i = 0;`
@@ -937,41 +939,41 @@ print $match[1]."\n";
 - [ ] a parse error
 - [ ] pear
 
-#### Q73. What are some of the main types of errors in PHP?
+#### Q74. What are some of the main types of errors in PHP?
 
 - [x] notices, warnings, fatal
 - [ ] runtime, logical, compile
 - [ ] semantic, logical, syntax
 - [ ] warnings, syntax, compile
 
-#### Q74. What is the correct way to include the file gravy.php in the middle of HTML code?
+#### Q75. What is the correct way to include the file gravy.php in the middle of HTML code?
 
 - [ ] `<!-- include file="gravy.php"; -->`
 - [ ] `<?php include gravy.php; ?>`
 - [x] `<?php include "gravy.php"; ?>`
 - [ ] `<?php include file="gravy.php"; ?>`
 
-#### Q75. Which two functions can sanitize text and validate text formats?
+#### Q76. Which two functions can sanitize text and validate text formats?
 
 - [ ] `session_start()` and `filter_input()`
 - [x] `filter_var()` and `filter_input()`
 - [ ] `preg_match()` and `strstr()`
 
-#### Q76. Why is it not recommended to make all of a class's variables public?
+#### Q77. Why is it not recommended to make all of a class's variables public?
 
 - [ ] Doing so makes your code tightly coupled.
 - [ ] The attribute may be accessed only by the class that defines the member.
 - [x] You will have no control over which values the attribute can take. Any external code will be able to change it without any constraint.
 - [ ] You can then access the attribute only within the class itself, and by inheriting and parent classes.
 
-#### Q77. You want to use wildcard characters when searching for records in a MySQL/MariaDB database using a PDO prepared statement. Which code should you use?
+#### Q78. You want to use wildcard characters when searching for records in a MySQL/MariaDB database using a PDO prepared statement. Which code should you use?
 
 - [x] `$statement->bindValue(':name', '%' . $_GET['name'] . '%');`
 - [ ] `$statement->bindValue('%' . $_GET['name'] . '%', ':name');`
 - [ ] `$statement->bindParam(':name', '%' . $_GET['name'] . '%');`
 - [ ] `$statement->bindParam('%' . $_GET['name'] . '%', ':name');`
 
-#### Q78. Create an associative array using `$array1` as the keys and `$array2` as the values:
+#### Q79. Create an associative array using `$array1` as the keys and `$array2` as the values:
 
 `$array1 = ['country', 'capital', 'language'];`
 `$array2 = ['France', 'Paris', 'French'];`
@@ -981,14 +983,14 @@ print $match[1]."\n";
 - [ ] `$array3 = array_keys($array1, $array2);`
 - [x] `$array3 = array_combine($array1, $array2);`
 
-#### Q79. Assume that `$r` is 255, and `$g` and `$b` are both 0. What is the correct code to output `"#ff0000"`?
+#### Q80. Assume that `$r` is 255, and `$g` and `$b` are both 0. What is the correct code to output `"#ff0000"`?
 
 - [ ] `printf('#%2x%2x%2x', 255, 0, 0);`
 - [ ] `printf('#%2X%2X%2X', $r, 0, 0);`
 - [ ] `printf('#%x%x%x', 255, 0, 0);`
 - [x] `printf('#%02x%02x%02x', 255, 0, 0);`
 
-#### Q80. You want to find out what day Twelfth Night falls on after Christmas 2018. Which code should you use?
+#### Q81. You want to find out what day Twelfth Night falls on after Christmas 2018. Which code should you use?
 
 - [ ] `$xmas = new DateTime('Dec 25, 2018');`
       `$twelfth_night = $xmas->add(new DateInterval('P12D'));`
@@ -1005,7 +1007,7 @@ print $match[1]."\n";
 
 **_1 seems correct, but the question asks for "day", not day of the week. Twelfth Night is the "06" day of January, 2019._**
 
-#### Q81. Which loop displays all numbers from 1 to 10 inclusive?
+#### Q82. Which loop displays all numbers from 1 to 10 inclusive?
 
 - [ ] `$i = 1;`
       `while ($i < 10) {`
@@ -1026,7 +1028,7 @@ print $match[1]."\n";
       ` echo ++$i . '<br/>';`
       `}`
 
-#### Q82. Which are types of control structures in PHP?
+#### Q83. Which are types of control structures in PHP?
 
 - [x] `break`, `continue`, `do-while`, `exception`, `for`, `foreach`, `if`, `switch`, `throw`, `while`
 - [ ] `values`, `operators`, `expressions`, `keywords`, `comments`
@@ -1035,21 +1037,14 @@ print $match[1]."\n";
 
 [reference](https://www.php.net/manual/en/language.control-structures.php)
 
-#### Q83. Which function can you use in error handling to stop the execution of a script and is equivalent to `exit()`?
-
-- [ ] throw
-- [ ] break
-- [x] die
-- [ ] return
-
-#### Q83. Which function can you use in error handling to stop the execution of a script and is equivalent to exit()?
+#### Q84. Which function can you use in error handling to stop the execution of a script and is equivalent to exit()?
 
 - [x] `die`
 - [ ] `return`
 - [ ] `throw`
 - [ ] `break`
 
-#### Q84. Is the output of this code in descending order, shown vertically, and with spaces between numbers? And what is the output?
+#### Q85. Is the output of this code in descending order, shown vertically, and with spaces between numbers? And what is the output?
 
 ```php
 $numbers = array(4,6,2,22,11);
@@ -1066,7 +1061,7 @@ for($x = 0; $x < $arrlength; $x++){
 - [x] This does not meet all the criteria because the sort() function sorts an indexed array in ascending order. Thus this code will display "2 4 6 11 22" shown vertically, but the numbers are spaced.
 - [ ] does not meet all the criteria because the echo simply result in showing the array numbers in the order shown within the $numbers array, which is ascending
 
-#### Q85. Which is not true of the `toString()` in PHP?
+#### Q86. Which is not true of the `toString()` in PHP?
 
 - [ ] It saves a lot of work of using setters methods to access the values of objects.
 - [ ] It saves a lot of work of using getters methods to access the values of objects.

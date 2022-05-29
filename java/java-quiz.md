@@ -1258,30 +1258,7 @@ class TaxCalculator {
 
 [Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
 
-#### Q89. What is the output of this code?
-
-```java
- public class Main {
-    public static void main(String[] args) {
-      HashMap<String, Integer> pantry = new HashMap<>();
-
-      pantry.put("Apples", 3);
-      pantry.put("Oranges", 2);
-
-      int currentApples = pantry.get("Apples");
-      pantry.put("Apples", currentApples + 4);
-
-      System.out.println(pantry.get("Apples"));
-    }
-}
-```
-
-- [ ] 3
-- [ ] 4
-- [ ] 6
-- [x] 7
-
-#### Q90. Which characteristic does not apply to instances of java.util.HashSet=
+#### Q89. Which characteristic does not apply to instances of java.util.HashSet=
 
 - [ ] uses hashcode of objects when inserted
 - [ ] contains unordred elements
@@ -1292,7 +1269,7 @@ class TaxCalculator {
 
 [Reference](https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html)
 
-#### Q91. What is the output?
+#### Q90. What is the output?
 
 ```java
 import java.util.*;
@@ -1318,7 +1295,7 @@ public class Main {
 - [x] 1 2 3 4
 - [ ] 4 3 2 1
 
-#### Q92. What will this code print, assuming it is inside the main method of a class?
+#### Q91. What will this code print, assuming it is inside the main method of a class?
 
 `System.out.println("hello my friends".split(" ")[0]);`
 
@@ -1327,21 +1304,21 @@ public class Main {
 - [x] hello
 - [ ] friends
 
-#### Q93. You have an instance of type Map<String, Integer> named instruments containing the following key-value pairs: guitar=1200, cello=3000, and drum=2000. If you add the new key-value pair cello=4500 to the Map using the put method, how many elements do you have in the Map when you call instruments.size()?
+#### Q92. You have an instance of type Map<String, Integer> named instruments containing the following key-value pairs: guitar=1200, cello=3000, and drum=2000. If you add the new key-value pair cello=4500 to the Map using the put method, how many elements do you have in the Map when you call instruments.size()?
 
 - [ ] 2
 - [ ] When calling the put method, Java will throw an exception
 - [ ] 4
 - [x] 3
 
-#### Q94. Which class acts as root class for Java Exception hierarchy?
+#### Q93. Which class acts as root class for Java Exception hierarchy?
 
 - [ ] Clonable
 - [x] Throwable
 - [ ] Object
 - [ ] Serializable
 
-#### Q95. Which class does not implement the java.util.Collection interface?
+#### Q94. Which class does not implement the java.util.Collection interface?
 
 - [ ] java.util.Vector
 - [ ] java.util.ArrayList
@@ -1350,27 +1327,14 @@ public class Main {
 
 **Explanation**: HashMap class implements Map interface.
 
-#### Q96. You have a variable of named `employees` of type `List<Employee>` containing multiple entries. The `Employee` type has a method `getName()` that returns te employee name. Which statement properly extracts a list of employee names?
+#### Q95. You have a variable of named `employees` of type `List<Employee>` containing multiple entries. The `Employee` type has a method `getName()` that returns te employee name. Which statement properly extracts a list of employee names?
 
 - [ ] `employees.collect(employee -> employee.getName());`
 - [ ] `employees.filter(Employee::getName).collect(Collectors.toUnmodifiableList());`
 - [x] `employees.stream().map(Employee::getName).collect(Collectors.toList());`
 - [ ] `employees.stream().collect((e) -> e.getName());`
 
-#### Q97. What is the correct return type for the `processFunction` method:
-
-```
-____ processFunction(Integer number, Function<Integer, String> lambda) {
-    return lambda.apply(number);
-}
-```
-
-- [ ] Function<Integer, String>
-- [ ] Integer
-- [x] String
-- [ ] Consumer
-
-#### Q98. This code does not compile. What needs to be changed so that it does?
+#### Q96. This code does not compile. What needs to be changed so that it does?
 
 ```
 public enum Direction {
@@ -1392,14 +1356,14 @@ public enum Direction {
 - [ ] All enums need to be defined on a single line of code.
 - [ ] Add a setter method for the field `shortCode`.
 
-#### Q99. Which language feature ensures that objects implementing the `AutoCloseable` interface are closed when it completes?
+#### Q97. Which language feature ensures that objects implementing the `AutoCloseable` interface are closed when it completes?
 
 - [ ] try-catch-finally
 - [ ] try-finally-close
 - [x] try-with-resources
 - [ ] try-catch-close
 
-#### Q100. What code should go in line 3?
+#### Q98. What code should go in line 3?
 
 ```java
 class Main {
@@ -1419,7 +1383,7 @@ class Main {
 - [ ] `int[][] array = new int[2][2];`
 - [ ] `int[][] array = [][];`
 
-#### Q101. Is this an example of method overloading or overriding?
+#### Q99. Is this an example of method overloading or overriding?
 
 ```java
 class Car {
@@ -1436,28 +1400,28 @@ class Lambo extends Car {
 - [ ] overloading
 - [ ] overriding
 
-#### Q102. Which choice is the best data type for working with money in Java?
+#### Q100. Which choice is the best data type for working with money in Java?
 
 - [ ] float
 - [ ] String
 - [ ] double
 - [x] BigDecimal
 
-#### Q103. Which statement about constructors is not ture?
+#### Q101. Which statement about constructors is not ture?
 
 - [ ] A class can have multiple constructors with a different parameter list.
 - [ ] You can call another constructor with `this` or `super`.
 - [ ] A constructor does not define a return value.
 - [x] Every class must explicitly define a constructor without parameters.
 
-#### Q104. What language feature allows types to be parameters on classes, interfaces, and methods in order to reuse the same code for different data types?
+#### Q102. What language feature allows types to be parameters on classes, interfaces, and methods in order to reuse the same code for different data types?
 
 - [ ] Regular Expressions
 - [ ] Reflection
 - [x] Generics
 - [ ] Concurrency
 
-#### Q105. What will be printed?
+#### Q103. What will be printed?
 
 ```java
 public class Berries{
@@ -1479,7 +1443,7 @@ public class Berries{
 - [ ] blueberry
 - [ ] rasp
 
-#### Q106. What is the value of `forestCount` after this code executes?
+#### Q104. What is the value of `forestCount` after this code executes?
 
 ```java
 Map<String, Integer> forestSpecies = new HashMap<>();
@@ -1497,7 +1461,7 @@ int forestCount = forestSpecies.size();
 - [ ] 2
 - [ ] When calling the put method, Java will throw an exception
 
-#### Q107. What is a problem with this code?
+#### Q105. What is a problem with this code?
 
 ```java
 import java.util.ArrayList;
@@ -1524,7 +1488,7 @@ class Main {
 - [ ] The List interface does not allow an argument of type String to be passed to the remove method.
 - [ ] ArrayList does not implement the List interface.
 
-#### Q108. How do you convert this method into a lambda expression?
+#### Q106. How do you convert this method into a lambda expression?
 
 ```java
 public int square(int x){
@@ -1537,7 +1501,7 @@ public int square(int x){
 - [x] `Function<Integer, Integer> squareLambda = x -> x * x;`
 - [ ] `Function<Integer, Integer> squareLambda = x -> return x * x;`
 
-#### Q109. Which choice is a valid implementation of this interface?
+#### Q107. Which choice is a valid implementation of this interface?
 
 ```java
 interface MyInterface {
@@ -1589,7 +1553,7 @@ public class MyClass implements MyInterface {
 }
 ```
 
-#### Q110. What is the result of this program?
+#### Q108. What is the result of this program?
 
 ```java
 interface Foo{
@@ -1610,7 +1574,7 @@ public class Main{
 - [ ] null
 - [x] An error will occur when compiling.
 
-#### Q111. Which statement must be inserted on line 1 to print the value true?
+#### Q109. Which statement must be inserted on line 1 to print the value true?
 
 ```
 1:
@@ -1623,7 +1587,7 @@ public class Main{
 - [ ] `String val = null;`
 - [ ] `Optional<String> val = Optional.empty();`
 
-#### Q112. What will this code print, assuming it is inside the main method of a class?
+#### Q110. What will this code print, assuming it is inside the main method of a class?
 
 ```java
 System.out.println(true && false || true);
@@ -1635,7 +1599,7 @@ System.out.println(false || false && true);
 - [x] true </br> false
 - [ ] false </br> false
 
-#### Q113. What will this code print?
+#### Q111. What will this code print?
 
 ```java
 List<String> list1 = new ArrayList<>();
@@ -1655,21 +1619,21 @@ System.out.println(list1);
 - [ ] `[One, Three]`
 - [ ] `Two`
 
-#### Q114. Which code checks whether the characters in two Strings,named `time` and `money`, are the same?
+#### Q112. Which code checks whether the characters in two Strings,named `time` and `money`, are the same?
 
 - [ ] `if(time <> money){}`
 - [x] `if(time.equals(money)){}`
 - [ ] `if(time == money){}`
 - [ ] `if(time = money){}`
 
-#### Q115. An **\_** is a serious issue thrown by the JVM that the JVM is unlikely to recover from. An **\_** is an unexpected event that an application may be able to deal with in order to continue execution.
+#### Q113. An **\_** is a serious issue thrown by the JVM that the JVM is unlikely to recover from. An **\_** is an unexpected event that an application may be able to deal with in order to continue execution.
 
 - [ ] exception,assertion
 - [ ] AbnormalException, AccidentalException
 - [x] error, exception
 - [ ] exception, error
 
-#### Q116. Which keyword would not be allowed here?
+#### Q114. Which keyword would not be allowed here?
 
 ```java
 class Unicorn {
@@ -1682,7 +1646,7 @@ class Unicorn {
 - [ ] public
 - [ ] void
 
-#### Q117. Which OOP concept is this code an example of?
+#### Q115. Which OOP concept is this code an example of?
 
 ```java
 List[] myLists = {
@@ -1704,7 +1668,7 @@ for (List list : myLists){
 
 **Explanation:** switch between different implementations of the `List` interface
 
-#### Q118. What does this code print?
+#### Q116. What does this code print?
 
 ```java
 String a = "bikini";
@@ -1722,7 +1686,7 @@ System.out.println(b == c);
 
 **Explanation:** `== operator` compares the object reference. `String a = "bikini"; String b = "bikini";` would result in True. Here new creates a new object, so false. Use `equals() method` to compare the content.
 
-#### Q119. What keyword is added to a method declaration to ensure that two threads do not simultaneously execute it on the same object instance?
+#### Q117. What keyword is added to a method declaration to ensure that two threads do not simultaneously execute it on the same object instance?
 
 - [ ] native
 - [ ] volatile
@@ -1731,7 +1695,7 @@ System.out.println(b == c);
 
 [Java Documentation: Synchronized methods](https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html)
 
-#### Q120. Which is a valid type for this lambda function?
+#### Q118. Which is a valid type for this lambda function?
 
 ```java
 _____ oddOrEven = x -> {
@@ -1746,7 +1710,7 @@ _____ oddOrEven = x -> {
 
 [Explaination](https://github.com/0nyr/java/tree/main/examples/lambda_function), [Reference](https://www.geeksforgeeks.org/function-interface-in-java-with-examples/)
 
-#### Q121. What is displayed when this code is compiled and executed?
+#### Q119. What is displayed when this code is compiled and executed?
 
 ```java
 import java.util.HashMap;
@@ -1773,7 +1737,7 @@ public class Main {
 
 [Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/what_is_displayed_0)
 
-#### Q122. What variable type should be declared for capitalize?
+#### Q120. What variable type should be declared for capitalize?
 
 ```shell
 List<String> songTitles = Arrays.asList("humble", "element", "dna");
@@ -1788,7 +1752,7 @@ songTitles.stream().map(capitalize).forEach(System.out::println);
 
 [Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/what_variable_type_0), [Reference](https://www.geeksforgeeks.org/function-interface-in-java-with-examples/)
 
-#### Q123. Which is the correct return type for the processFunction method?
+#### Q121. Which is the correct return type for the processFunction method?
 
 ```java
 _____ processFunction(Integer number, Function<Integer, String> lambda) {
@@ -1803,7 +1767,7 @@ _____ processFunction(Integer number, Function<Integer, String> lambda) {
 
 [Explanation](https://github.com/0nyr/java/tree/main/training/linkedin_assessment/which_return_type_0)
 
-#### Q124. What function could you use to replace slashes for dashes in a list of dates?
+#### Q122. What function could you use to replace slashes for dashes in a list of dates?
 
 ```java
 List<String> dates = new ArrayList<String>();
@@ -1818,7 +1782,7 @@ dates.replaceAll(replaceSlashes);
 
 **Explanation:** `replaceAll` method for any List<T> only accepts UnaryOperator<T> to pass every single element into it then put the result into the List<T> again.
 
-#### Q125. From which class do all other classes implicitly extend?
+#### Q123. From which class do all other classes implicitly extend?
 
 - [x] `Object`
 - [ ] `Main`
@@ -1827,7 +1791,7 @@ dates.replaceAll(replaceSlashes);
 
 [Explanation](https://stackoverflow.com/questions/17187218/default-class-that-is-extended-by-all-classes-in-java)
 
-#### Q126. How do you create and run a Thread for this class?
+#### Q124. How do you create and run a Thread for this class?
 
 ```java
 import java.util.date;
@@ -1855,21 +1819,7 @@ public class CurrentDateRunnable implements Runnable {
 
 [Reference](https://www.w3schools.com/java/java_threads.asp)
 
-#### Q127. What keyword would _not_ be allowed here?
-
-```java
-class Unicorn {
-
-    ______ Unicorn(){}
-}
-```
-
-- [ ] `public`
-- [ ] `void`
-- [x] `static`
-- [ ] `protected`
-
-#### Q128. Which expression is a functional equivalent?
+#### Q125. Which expression is a functional equivalent?
 
 ```java
 List<Integer> numbers = List.of(1,2,3,4);

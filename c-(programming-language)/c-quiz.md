@@ -1,6 +1,6 @@
 ## C (Programming Language)
 
-##### Q1. Which Code sample will eventually cause the computer to run out of memory?
+#### Q1. Which Code sample will eventually cause the computer to run out of memory?
 
 - [x]
 
@@ -136,12 +136,12 @@ struct s {
 - [ ] a stack
 - [ ] a binary tree
 
-#### Q7. A C header file is a file with extension .h that contains function declarations and macro definitons to be shared between several source files. Header files are listed using the preprocessing directive #include, and can have one of the following formats: #include &lt;fileA&gt; or #include "fileB". What is the difference between these two formats?
+#### Q7. Header files are listed using the preprocessing directive #include, and can have one of the following formats: #include &lt;fileA&gt; or #include "fileB". What is the difference between these two formats?
 
-- [ ] The preprocessor will try to locate the fileA in same directory as the source file, and the fileB in a predetermined directory path.
-- [ ] The preprocessor will try to locate the fileA in the fixed system directory. It will try to locate fileB in the directory path designated by the -l option added to the command line while compiling the source code.
-- [ ] The file using fileA syntax must be system files, of unlimited number. fileB must be a user file at a maximun of one per source file.
-- [x] The preprocessor will try to locate the fileA in a predetermined directory path. It will try to locate fileB in the same directory as the source file along with a custom directory path.
+- [ ] The preprocessor will try to locate fileA in same directory as the source file, and the fileB in a predetermined directory path.
+- [ ] The preprocessor will try to locate fileA in the fixed system directory. It will try to locate fileB in the directory path designated by the -I option added to the command line while compiling the source code.
+- [ ] The file using the fileA syntax must be system files, of unlimited number; fileB must be a user file at a maximun of one per source file.
+- [x] The preprocessor will try to locate fileA in a predetermined directory path. It will try to locate fileB in the same directory as the source file along with a custom directory path.
 
 #### Q8. Using a for loop, how could you write a C code to count down from 10 to 1 and display each number on its own line?
 
@@ -253,7 +253,7 @@ main(){
 - [x] parameter names
 - [ ] number of parameters
 
-#### Q15. C treats all devices, such as the display and the keyboard, as files. Which files opens automatically when a program executes?
+#### Q15. C treats all devices, such as the display and the keyboard, as files. Which file opens automatically when a program executes?
 
 - [x] stdout
 - [ ] stdio.h
@@ -269,7 +269,7 @@ main(){
 
 [Reference](http://www.it.uc3m.es/pbasanta/asng/course_notes/dynamic_memory_heap_en.html#:~:text=The%20dynamic%20memory%20that%20is,reads%20a%20set%20of%20words.)
 
-#### Q17. Which of the following do you use to deallocate memory?
+#### Q17. Which function do you use to deallocate memory?
 
 - [ ] dalloc()
 - [ ] dealloc()
@@ -292,7 +292,7 @@ main(){
 - [x] during the declaration of the variable
 - [ ] during the definition of the variable
 
-#### Q20. By default c uses the call by value method to pass arguments to functions. How can you invoke the call by reference method?
+#### Q20. C uses the call by value method to pass arguments to functions. How can you invoke the call by reference method?
 
 - [x] by using pointers
 - [ ] by declaring functions separately from defining them
@@ -303,7 +303,7 @@ main(){
 
 - [ ] Objects; Structure
 - [ ] Variables; Declaration
-- [x] Data types; Memory location
+- [x] Data types; Memory space
 - [ ] Arrays; Header file
 
 #### Q22. What is the output of this program?
@@ -812,14 +812,14 @@ int main()
 - [x] 0
 - [ ] 500
 
-### Q51. What is _not_ one of the basic data types in C
+#### Q51. What is _not_ one of the basic data types in C
 
 - [ ] long double
 - [ ] unsigned char
 - [x] array
 - [ ] float
 
-### Q52. What is the member access operator for a structure?
+#### Q52. What is the member access operator for a structure?
 
 - [ ] ,
 - [ ] []
@@ -848,38 +848,75 @@ void *vptr=&g;
 ```
 
 - [ ] f=(float \*)vptr;
-- [x] f=_(float _)vptr;
+- [x] f=\*(float \*)vptr;
 - [ ] f=\*(float)vptr;
 - [ ] f=(float)\*vptr;
 
-#### Q56. Using a _for_ loop, how would you write C code to count down from 10 to 1 and display each number on its own line?
+#### Q56. The dynamic memory allocation functions are defined in which system header file ?
+
+- [ ] stdio.h
+- [x] stdlib.h
+- [ ] limits.h
+- [ ] stddef.h
+
+#### Q57. A function is a set of **\_**.
+
+- [ ] declarations
+- [x] statements
+- [ ] variables
+- [ ] objects
+
+#### Q58. How are static functions different from global functions?
+
+- [ ] Static functions must be declared in advance of being defined.
+- [ ] Static functions must be declared is a separate header file.
+- [ ] Static functions always return the same value.
+- [x] Static functions can be accessed only in the file where they are declared.
+
+#### Q59. Which code example creates the string "Hello Mars" in storage buffer `hello`.
 
 - [ ]
 
 ```c
-for(int i=10;1>0;) {
-    printf("%d\n", i);
-    i--;
-}
+    char hello[25];
+    strcpy(hello, "Hello ");
+    strcpy(hello, "Mars");
 ```
 
 - [x]
 
 ```c
-for (int i=10; i>0; i--)
-    printf("%d\n", i);
+    char hello[25];
+    char *p;
+    strcpy(hello, "Hello World");
+    p = hello;
+    p +=6;
+    strcpy(p, "Mars");
 ```
 
 - [ ]
 
 ```c
-for (int i=1; i<=10; i++)
-    printf("%d", i);
+    char *hello;
+    strcpy(hello, "Hello World");
+    hello+=6;
+    strcpy(hello, "Mars");
 ```
 
 - [ ]
 
 ```c
-for (int i=10; i>=0; i--)
-    printf("%d\n", i);
+    char hello[25];
+    strcpy(hello, "Hello World");
+    strcpy(*hello[6], "Mars");
 ```
+
+#### Q60. If you use the fopen() function with the "a" mode, what happens if the named file doesn't exist?
+
+- [ ] The file is created and opened for reading.
+- [ ] The file is created and opened for writing.
+- [ ] The fopen() function returns a NULL indicating that the operation has failed.
+- [ ] The file is created and opened for both writing and reading 
+
+
+[Reference](https://devdocs.io/c/memory)

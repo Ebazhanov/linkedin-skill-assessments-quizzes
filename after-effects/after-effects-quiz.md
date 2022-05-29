@@ -74,11 +74,11 @@
 
 #### Q11. What properties are added to a 3D layer? (Select three items.)
 
-A. Z Rotation
-B. Anchor Point
-C. Material Options
-D. Position
-E. Geometry Options
+- [ ] Z Rotation
+- [ ] Anchor Point
+- [ ] Material Options
+- [ ] Position
+- [ ] Geometry Options
 
 #### Q12. You want to include controls from an After Effects composition in the Essential Graphics panel. What is one way to do this?
 
@@ -108,79 +108,65 @@ E. Geometry Options
 - [ ] Keying > Extract
 - [ ] Keying > Keylight (1.2)
 
-If you want to apply an effect to multiple layers and adjust all layers at once, which method should you use?
+#### Q16. If you want to apply an effect to multiple layers and adjust all layers at once, which method should you use?
 
 - [ ] Use the layer pick whip to link properties.
 - [ ] Parent the layer controls.
 - [ ] Use an adjustment layer.
 - [ ] Set one layer effect and then copy and paste its results to the other layers.
 
-You want to scale all elements in a composition, including the composition itself. How can you do this?
+#### Q17. You want to scale all elements in a composition, including the composition itself. How can you do this?
 
 - [ ] Click File > Scripts > Double-Up.jsx.
 - [ ] Link all layers and then change the composition settings.
 - [ ] Click File > Scripts > Scale Composition.jsx.
 - [ ] In the Composition Settings dialog box, scale the composition dimensions and the layers will scale to match.
 
-Holding the Shift key when rotating a 3D layer constrains the rotation to how many degrees?
+#### Q18. Holding the Shift key when rotating a 3D layer constrains the rotation to how many degrees?
 
 - [ ] 20
 - [ ] 30
 - [ ] 45
 - [ ] 15
 
-How can you choose which frame of a composition to show as a thumbnail image for the composition in the Project panel?
+#### Q19. How can you choose which frame of a composition to show as a thumbnail image for the composition in the Project panel?
 
 - [ ] Select the desired frame in the Composition Settings dialog box.
 - [ ] Move the playhead to the desired frame and click Composition > Set Poster Time.
 - [ ] You cannot change the thumbnail image.You cannot change the thumbnail image.
 - [ ] From the Render Queue, go to Render Settings to set the thumbnail image.
 
-When you want to add properties to the Essential Graphics panel, how can you easily see only the supported properties?
+#### Q20. When you want to add properties to the Essential Graphics panel, how can you easily see only the supported properties?
 
 - [ ] Type “PP” twice with the Timeline panel active.
 - [ ] Click the Solo Supported Properties button in the Essential Graphics panel.
 - [ ] Switch to the Essential Graphics workspace.
 - [ ] All properties are supported by the Essential Graphics panel.
 
-You want to take an existing layer and make it into two separate layers. How can you do this so the separation occurs at the playhead?
+#### Q21. You want to take an existing layer and make it into two separate layers. How can you do this so the separation occurs at the playhead?
 
 - [ ] Click Layer > Split Layer.
 - [ ] Click Edit > Duplicate.
 - [ ] Click Edit > Extract Work Area.
 - [ ] Click Edit > Split Layer.
 
-How can you create a single composition from multiple footage items?
+#### Q22. How can you create a single composition from multiple footage items?
 
 - [ ] Select the items and click File > New Project.
 - [ ] Select the items and click Composition > New Composition from Selection.
 - [ ] Drag the selected footage items to the Create a New Composition button at the bottom of the Project panel.
 - [ ] Select the items and click Composition > New Composition.
 
-You attach a video monitor to view your color correction. Where can you configure the monitor’s preferences?
+#### Q23. You attach a video monitor to view your color correction. Where can you configure the monitor’s preferences?
 
 - [ ] Preferences > Output
 - [ ] Preferences > Video Preview
 - [ ] Preferences > Video Hardware
 - [ ] Preferences > Previews
 
-A file is in the Render Queue but cannot be rendered. You see that it is labeled Needs Output. What should you do?
+#### Q24. A file is in the Render Queue but cannot be rendered. You see that it is labeled Needs Output. What should you do?
 
 - [ ] Save the project.
 - [ ] Set an output file name from the Render To menu.
 - [ ] Set an output file name and location from the Output To menu.
 - [ ] Adjust the composition settings.
-
-What type of light never casts a shadow in a 3D scene?
-
-- [ ] Parallel
-- [ ] Ambient
-- [ ] Point
-- [ ] Spot
-
-Where do you change the shutter angle for the motion blur in a composition?
-
-- [ ] on the Basic tab of the Composition Settings dialog box
-- [ ] on the Advanced tab of the Composition Settings dialog box
-- [ ] on the 3D Renderer tab of the Composition Settings dialog box
-- [ ] in the File > Project Settings dialog box

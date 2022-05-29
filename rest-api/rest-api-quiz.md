@@ -2,8 +2,8 @@
 
 #### Q1. What type of relationship is defined as one resource existing only if another parent resource exist-for example, pages in a book?
 
-- [x] `Partial`
-- [ ] `dependent`
+- [ ] `Partial`
+- [x] `dependent`
 - [ ] `associative`
 - [ ] `linked`
 
@@ -218,9 +218,9 @@
 
 #### Q29. Which REST constraint allows for the presence of caching, routing, and other systems between the client and server?
 
-- [ ] `Layered System`
+- [x] `Layered System`
 - [ ] `Stateless`
-- [x] `Client-Server`
+- [ ] `Client-Server`
 - [ ] `Cacheable`
 
 #### Q30. Which content is best to include in your documentation?
@@ -476,3 +476,19 @@
 - [ ] 204 No Content
 - [ ] 201 Created
 - [x] 202 Accepted
+
+#### Q64. When validating a JWT, what are some of the claims that you must confirm? (Select all that apply.)
+
+    A. The exp (expiration) has not passed.
+    B. The algorithm is sufficient.
+    C. The signature matches the payload.
+    D. The token was Base64 encoded.
+    E. The iss (issuer) is the auth server you expect.
+    F. There is a refresh token.
+    G. The cid (client ID) is the client you expect.
+    H. The token was encrypted.
+
+- [x] A,B,E,H
+- [ ] B,C,F,G
+- [ ] A,D,G,H
+- [ ] A,C,E,G

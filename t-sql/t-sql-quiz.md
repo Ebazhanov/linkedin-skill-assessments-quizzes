@@ -46,7 +46,8 @@ END CATCH
 
 #### Q6. Given the Games table pictured, which query generates the results shown?
 
-- [ ] 
+- [ ]
+
 ```tsql
   SELECT GameType, MaxPlayers, count(*) AS NumberOfGames
   FROM Games
@@ -55,13 +56,16 @@ END CATCH
 ```
 
 - [x]
+
 ```tsql
   SELECT GameType, MaxPlayers, count(*) AS NumberOfGames
   FROM Games
   GROUP BY GameType, MaxPlayers
   ORDER BY GameType;
 ```
+
 - [ ]
+
 ```tsql
   SELECT GameType, count(Players) AS MaxPlayers, NumberOfGames
   FROM Games
@@ -69,8 +73,9 @@ END CATCH
   ORDER BY GameType;
 ```
 
-- [ ] 
-```tsql 
+- [ ]
+
+```tsql
   SELECT GameType, MaxPlayers, count(*) AS NumberOfGames
   FROM Games
   GROUP BY GameType
@@ -91,14 +96,23 @@ END CATCH
 
 #### Q8. You need to find all students that are not on the "Chemistry Cats" team. Which query does NOT work for this task?
 
-- [x] ```SELECT * FROM Students
-	WHERE team NOT 'Chemistry Cats';```
-- [ ] ```SELECT * FROM Students
-	WHERE team <> 'Chemistry Cats';```
-- [ ] ```SELECT * FROM Students
-	WHERE team != 'Chemistry Cats';```
-- [ ] ```SELECT * FROM Students
-	WHERE NOT team = 'Chemistry Cats';```
+- [x] 
+```SELECT * FROM Students
+   WHERE team NOT 'Chemistry Cats';
+```
+- [ ] 
+```SELECT * FROM Students
+   WHERE team <> 'Chemistry Cats';
+```
+      
+- [ ] 
+```SELECT * FROM Students
+   WHERE team != 'Chemistry Cats';
+```
+- [ ] 
+```SELECT * FROM Students
+   WHERE NOT team = 'Chemistry Cats';
+```
 
 #### Q9. You need to write a query that returns all Employees that have a LastName starting with the letter A. Which `WHERE` clause should you use to fill in the blank in this query?
 
@@ -385,7 +399,7 @@ GROUP BY Grade;
 
 > **Explanation:** Grouping will return a list of all grades grouped by grade. The prompt wants just one returned row.
 
-#### Q33.
+#### Q33. Refer to the figure below.
 
 ![T-SQL-Q33](images/Q33.jpg)
 
@@ -422,7 +436,7 @@ END;
 ![T-SQL-Q36](images/Q36.jpg)
 
 - [x] `UPDATES Students SET team = 'Philosophy Parrots' WHERE team = 'Philosophy Pandas';`
-- [ ] `UPDATES Students SET team = `Philosophy Parrots` WHERE team = `Philosophy Pandas`;`
+- [ ] `UPDATES Students SET team = `Philosophy Parrots`WHERE team =`Philosophy Pandas`;`
 - [ ] `UPDATES Students SET team = "Philosophy Parrots" WHERE team = "Philosophy Pandas";`
 - [ ] `UPDATES Students SET team = Philosophy Parrots WHERE team = Philosophy Pandas;`
 
@@ -489,22 +503,32 @@ CREATE TABLE Publishers (
 	PublisherName nvarchar(50)
 );
 ```
-- [ ] ```ALTER TABLE Books
-	ADD CONSTRAINT FK Books_PublisherID
-	FOREIGN KEY (PublisherID)
-	REFERENCES Publishers (PublisherID) ON UPDATE SET NULL```
-- [ ] ```ALTER TABLE Books
-	ADD CONSTRAINT FK Books_PublisherID
-	FOREIGN KEY (PublisherID)
-	REFERENCES Publishers (PublisherID) ON DELETE CASCADE```
-- [ ] ```ALTER TABLE Books
-	ADD CONSTRAINT FK_Books_PublisherID
-	FOREIGN KEY (PublisherID)
-	REFERENCES Publishers (PublisherID)```
-- [ ] ```ALTER TABLE Publishers
-	ADD CONSTRAINT FK_Publishers_PublisherID
-	FOREIGN KEY (PublisherID)
-	REFERENCES Books (PublisherID) CASCADE DELETE```
+
+- [ ]
+
+```ALTER TABLE Books
+          ADD CONSTRAINT FK Books_PublisherID
+          FOREIGN KEY (PublisherID)
+          REFERENCES Publishers (PublisherID) ON UPDATE SET NULL
+```
+- [ ] 
+```ALTER TABLE Books
+          ADD CONSTRAINT FK Books_PublisherID
+          FOREIGN KEY (PublisherID)
+          REFERENCES Publishers (PublisherID) ON DELETE CASCADE
+```
+- [ ] 
+```ALTER TABLE Books
+          ADD CONSTRAINT FK_Books_PublisherID
+          FOREIGN KEY (PublisherID)
+          REFERENCES Publishers (PublisherID)
+```
+- [ ] 
+```ALTER TABLE Publishers
+          ADD CONSTRAINT FK_Publishers_PublisherID
+          FOREIGN KEY (PublisherID)
+          REFERENCES Books (PublisherID) CASCADE DELETE
+```
 
 #### Q42. Your database currently has a table called Inventory in the Warehouse schema. You need to move the table to the Products schema. Which query accomplishes this goal?
 
@@ -526,7 +550,7 @@ _______
 - [ ] `INDEX ON PersonID (PRIMARY KEY PK_People)`
 - [ ] `ADD NONCLUSTERED PRIMARY KEY CONSTRAINT PK_People ON PersonID`
 - [ ] `CONSTRAINT PK_People PRIMARY KEY NONCLUSTERED (PersonID)`
-- [ ] `PRIMARY KEY CONSTRAINT (PersonID) NONCLUSTERED INDEX`
+- [x] `PRIMARY KEY CONSTRAINT (PersonID) NONCLUSTERED INDEX`
 
 #### Q44. Which statement could you use to select a random student from this table?
 
@@ -543,3 +567,24 @@ _______
 - [ ] `CREATE BACKUP (DATABASE = 'MyDatabase' TO DISK = 'Z:\Backups\MyDatabase. bak');`
 - [ ] `BACKUP DATABASE MyDatabase ON 'Z:\Backups\MyDatabase.bak';`
 - [x] `BACKUP DATABASE MyDatabase TO DISK = 'z:\Backups\MyDatabase.bak';`
+
+#### Q46. Suppose you want to have the name of a transaction called myTransaction recorded in the transaction log. Which statement represents the best way to accomplish this?
+
+- [ ] `BEGIN TRAN myTransaction BEGIN LOG;BEGIN TRAN myTransaction BEGIN LOG;`
+- [ ] `BEGIN TRAN myTransaction WITH LOG;BEGIN TRAN myTransaction WITH LOG;`
+- [ ] `BEGIN TRAN myTransaction WITH MARK;BEGIN TRAN myTransaction WITH MARK;`
+- [ ] `BEGIN TRAN WITH MARK myTransaction;BEGIN TRAN WITH MARK myTransaction;`
+
+#### Q47. Though not currently a requirement, what will a future release of SQL Server require of all SQL statements?Though not currently a requirement, what will a future release of SQL Server require of all SQL statements?
+
+- [x] `All statements must end with a semicolon.`
+- [ ] `All statements must operate on a table of data.`
+- [ ] `All statements must always be written in uppercase letters.`
+- [ ] `All statements must include more than one variable.`
+
+#### Q48. Which is the best approach to update the last name and email address of a student with ID 56295?
+
+- [ ] `UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id='56295';`
+- [x] `UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id=56295;`
+- [ ] `UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id=56295;`
+- [ ] `UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id='56295';`

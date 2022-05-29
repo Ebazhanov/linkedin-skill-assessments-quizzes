@@ -380,100 +380,63 @@
 - [ ] Optimize all pages on the site for all category search terms.
 - [ ] Optimize product pages to drive traffic from individual category search terms.
 
-#### Q44. You want to block crwlers from accessing your entire website. What robots.txt entry would you use?
-
-- [ ]
-
-```
-    User-agent: Allbots
-    Disallow: *
-```
-
-- [ ]
-
-```
-    User-agent: /
-    Disallow: *
-```
-
-- [ ]
-
-```
-    User-agent: *
-    Disallow:
-```
-
-- [x]
-
-```
-    User-agent: *
-    Disallow: /
-```
-
-#### Q45. What is the relationship of click depth to PageRank?
+#### Q44. What is the relationship of click depth to PageRank?
 
 - [x] The deeper the click depth, the lower the PageRank
 - [ ] PageRank and click depth have no relation
 - [ ] The deeper the click depth, the higher the PageRank
 - [ ] Click depth and PageRank are equal
 
-#### Q46. What is a popular technique for writing content with the goal of having it appear in a features snippet?
+#### Q45. What is a popular technique for writing content with the goal of having it appear in a features snippet?
 
 - [x] Write the question in a headline tag, and then answer it below in a format that matches the snippet type.
 - [ ] Use the features snippet schema and apply an object that matches the correct snippet type.
 - [ ] Google manually generates featured snippets, so there is no special technique.
 - [ ] Submit the content through Google Search Console, and tag it with the correct snippet type.
 
-#### Q47. Which approach is not advisable to geotargeting your website?
-
-- [ ] using a gTLD with a subdirectory
-- [x] using URL parameters
-- [ ] using a gTLD with subdomain
-- [ ] using a ccTLD
-
-#### Q48. What is a common best practice for handling search result pages on a blog's built-in site search?
+#### Q46. What is a common best practice for handling search result pages on a blog's built-in site search?
 
 - [x] Set site research results to no-index.
 - [ ] Do not use site search.
 - [ ] Set site search to 404.
 - [ ] Add a canonical from the search result page to the home page.
 
-#### Q49. What might help a search engine understand the difference between an article on a dog bark versus tree bark?
+#### Q47. What might help a search engine understand the difference between an article on a dog bark versus tree bark?
 
 - [ ] tertiary analysis
 - [ ] ranked choice trees
 - [x] semantic analysis
 - [ ] knowledge graphs
 
-#### Q50 A webpage has this tag: `<title>Brad's Bagels: How to Bake a Bagel</title>`. However, the Google search result for this page displays this title: _Brad's Bagels: Baking Bagels in the Oven_. What is a likely explanation?
+#### Q48. A webpage has this tag: `<title>Brad's Bagels: How to Bake a Bagel</title>`. However, the Google search result for this page displays this title: \_Brad's Bagels: Baking Bagels in the Oven\_. What is a likely explanation?
 
 - [ ] The title tag was placed within the <HEAD> section of the webpage, but not before the meta content tags, so Google cannot identify the actual title.
 - [ ] The page is using structured data to define an alternative title object, which allows the search engine to pick a preferable version.
 - [ ] A breadcrumb navigation is in use, which overrides the title tag supplied in the HTML.
 - [x] Google generated a new title using text on the page that more closely matched the search query.
 
-#### Q51. What alt attribute should be assigned to an image of a decorative line being used to separate content
+#### Q49. What alt attribute should be assigned to an image of a decorative line being used to separate content
 
 - [x] alt=""
 - [ ] alt="Thin black line being used to seperate two blocks of content"
 - [ ] alt="dec"
 - [ ] alt="thin-line"
 
-#### Q52. Your site serves identical content when you visit domain.com/page or domain.com/page?ref=123. What should you implement?
+#### Q50. Your site serves identical content when you visit domain.com/page or domain.com/page?ref=123. What should you implement?
 
 - [ ] parameter stripping
 - [ ] URL cloaking
 - [ ] a 302 redirect
 - [x] a rel=canonical link
 
-#### Q53. What data vocabulary is most commonly used when marking up content on a page?
+#### Q51. What data vocabulary is most commonly used when marking up content on a page?
 
 - [ ] vocabulary.org
 - [ ] RDFa.org
 - [x] schema.org
 - [ ] data-vocabulary.org
 
-#### Q54. According to Google, what type of content includes topics such as news, legal issues, financial advice, and medical information?
+#### Q52. According to Google, what type of content includes topics such as news, legal issues, financial advice, and medical information?
 
 - [ ] RSS
 - [ ] KYC
@@ -482,7 +445,7 @@
 
 **Explanation:** `Google describes YMYL (Your Money or Your Life) sites/pages as ones that could potentially impact a person’s happiness, health, financial stability, or safety.`
 
-#### Q55. When would it be necessary to 301 redirect every page on a site?
+#### Q53. When would it be necessary to 301 redirect every page on a site?
 
 - [ ] when parameters are used in URLs
 - [x] when migrating from HTTP to HTTPS
@@ -491,14 +454,14 @@
 
 **Explanation:** From article: [301 Redirects for SEO](https://ahrefs.com/blog/301-redirects/) (2020)
 
-#### Q56. What would contribute to a low bounce rate?
+#### Q54. What would contribute to a low bounce rate?
 
 - [ ] Content does not match search intent.
 - [ ] Page returns 404 error.
 - [x] Content reflects search intent.
 - [ ] URL uses parameters.
 
-#### Q57. What should be as consistent as possible across the web when developing a local SEO strategy?
+#### Q55. What should be as consistent as possible across the web when developing a local SEO strategy?
 
 - [ ] backlinks
 - [x] NAP
@@ -508,51 +471,81 @@
 1. [reference](https://support.google.com/business/answer/7091)
 2. [reference #2](https://www.smartinsights.com/search-engine-optimisation-seo/how-to-adjust-your-nap-profile-for-local-seo/)
 
-#### Q58.A user enters a search \_ to retrieve results from a search engine?
+#### Q56. A user enters a search \_ to retrieve results from a search engine?
 
 - [x] query
 - [ ] parser
 - [ ] bar
 - [ ] link
 
-#### Q59 The search query "How to make donuts without yeast" is an example of what?
+#### Q57. The search query "How to make donuts without yeast" is an example of what?
 
 - [ ] fresh keyword
 - [ ] operative keyword
 - [ ] short-tail keyword
 - [x] long-tail keyword
 
-#### Q60 What tool enables companies to display extra information within the natural search results without the need of any structured data?
+#### Q58. What tool enables companies to display extra information within the natural search results without the need of any structured data?
 
 - [ ] Google Input Tools
 - [ ] structured data testing tool
 - [ ] Google Tag Manager
 - [x] Google My Business
 
-#### Q61 Your client is ready to start a blog. but has read that they should put the blog on a subdomain instead of subdirectory in order to create more external links to their website. How would you advise your client about this strategy?
+#### Q59. Your client is ready to start a blog. but has read that they should put the blog on a subdomain instead of subdirectory in order to create more external links to their website. How would you advise your client about this strategy?
 
 - [ ] Not only should the blog be on a subdomain, but each of the major navigation areas should be on separate subdomains in order to increase the number and value of the links into the primary domain.
 - [x] It is best to have the blog on a subdirectory and build links to primary domain.
 - [ ] It is an advisable choice as it will enable interlinking between the domains and increase the number of links.
 - [ ] The blog should be on a separate URL to avouud building too many links between the same domain or IP.
 
-#### Q62 Blog author pages, each with only one sentence about the author, are at risk of being flagged as **\_** content.
+#### Q60. Blog author pages, each with only one sentence about the author, are at risk of being flagged as **\_** content.
 
 - [ ] non-indexable
 - [ ] irrelevant
 - [ ] biased
 - [x] thin
 
-#### Q63 What is a common benefit to long-tail keywords?
+#### Q61. What is a common benefit to long-tail keywords?
 
-- [ ] They are less competitive, and may have higher conversion rates.
+- [x] They are less competitive, and may have higher conversion rates.
 - [ ] Long-tail keywords are no longer relevant in today's SEO landscape.
 - [ ] They are less grandular, so you capture broader searches.
 - [ ] They are more competitive, but drive significantly more traffic.
 
-#### Q64 You have been asked to help a big e-commerce brand optimize their website for search engines. They currently have thousands of products listed on their website. What is your most appropriate first step?
+#### Q62. You have been asked to help a big e-commerce brand optimize their website for search engines. They currently have thousands of products listed on their website. What is your most appropriate first step?
 
 - [ ] Set campaign goals.
 - [ ] Conduct a technical audit.
 - [ ] Conduct a backlink audit.
 - [ ] Determine keyword strategy.
+
+#### Q63. You are optimizing a large e-commerce website. Which strategy will likely yield the most organic traffic?
+
+- [ ] Launch a Smart Shopping Campaign in Google Ads.
+- [ ] Optimize the home page of your website.
+- [ ] Optimize each product page with a unique product-specific keyword.
+- [ ] Optimize your product category pages.
+
+#### Q64. Google's Search Quality Evaluator Guidelines describe that experts should write content, especially YMYL content. This is one of the principles seen in the commonly used acronym\_\_
+
+- [ ] A.C.E
+- [ ] L-E-A-F
+- [ ] T.R.U.S.T.E.D
+- [x] E-A-T
+
+[Reference](https://moz.com/blog/google-e-a-t)
+
+#### Q65. Why might using a subdirectory in place of a subdomain be beneficial?
+
+- [ ] Using a subdirectory is never preferable to using a subdomain.
+- [ ] The subdirectory will allow for keyword dilution.
+- [ ] The subdirectory will benefit from the backlinks the domain has acquired.
+- [ ] The subdirectory is better for the end user experience.
+
+#### Q66. What is the best way to provide a search engine with crawl instructions?
+
+- [ ] Use the <crawl> tag.
+- [ ] Use the search engine's Remove URL tool.
+- [x] Use a robots.txt file.
+- [ ] Use structured data

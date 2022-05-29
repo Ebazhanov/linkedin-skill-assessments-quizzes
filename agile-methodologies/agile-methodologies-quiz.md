@@ -526,35 +526,21 @@
 
 [Source: Underlying principles of SAFe](https://en.wikipedia.org/wiki/Scaled_agile_framework#Underlying_principles_of_SAFe)
 
-#### Q74. Which statement concerning small, frequent releases of software is true?
-
-- [ ] The chance for rollback is high
-- [x] It typically requires a high degree of automation
-- [ ] Backward compatibility may be jeopardized
-- [ ] The administrative costs are high
-
-#### Q75. What is the definition of capacity?
+#### Q74. What is the definition of capacity?
 
 - [ ] It is an inventory of the team's knowledge and skills that is used to plan the work that they do.
 - [ ] It is the number of teams that a Team Facilitator can support concurrently.
 - [ ] It is an adjustment to velocity, used in Spring Planning, to account for reduced availability of team members during the upcoming sprint.
 - [x] It is the maximum number of stories that will be allowed in a sprint.
 
-#### Q76. Which action is something the Team Facilitator should not do?
-
-- [ ] Celebrate Success.
-- [ ] Embrace servant leadership.
-- [ ] Remove impediments
-- [x] Estimate story points.
-
-#### Q77. The team is complaining that they send request for clarification to the Product Owner, but these requests go unanswered. What action should you take?
+#### Q75. The team is complaining that they send request for clarification to the Product Owner, but these requests go unanswered. What action should you take?
 
 - [ ] If there is a question about story, tell the developers to use their best judgement, avoid delay, and discuss the issue in sprint review.
 - [ ] Send a note to the Product Owner saying the delays in completing the work will be their responsibility, not the team's.
 - [ ] Develop a service-level agree (SLA) that defines certain response times for different types of request and ask the Product Owner to sign off on it.
 - [x] Schedule a problem-solving session with the Product Owner and the other team members.
 
-#### Q78. Which choice is a pillar of Lean?
+#### Q76. Which choice is a pillar of Lean?
 
 - [ ] Frequent delivery of working software
 - [x] Respect for people and culture
@@ -563,35 +549,35 @@
 
 [Source](https://www.planview.com/resources/guide/lean-principles-101/what-is-lean/#:~:text=The%20Pillars%20of%20Lean) `Two pillars are (1) Continuous Improvement, and (2) Respect for People.`
 
-#### Q79. Which statement best describes Agile, Lean, and Six Sigma?
+#### Q77. Which statement best describes Agile, Lean, and Six Sigma?
 
 - [ ] They are strategies for delivering customer value.
 - [ ] They were pioneered by Toyota.
 - [ ] They are strategies for discovering what the customer wants.
 - [ ] They are derived from statistical process control.
 
-#### Q80. What is a user story?
+#### Q78. What is a user story?
 
 - [ ] A description of what an actor wants to do in order to accomplish a goal
 - [ ] A description of archetypal users so the developers can make the solution user-friendly
 - [ ] A report from the field about a user's experience with the product
 - [x] The Agile term for a requirement
 
-#### Q81. What is the expected output of a Planning Poker meeting?
+#### Q79. What is the expected output of a Planning Poker meeting?
 
 - [x] The stories were discussed and each had a story point estimate assigned.
 - [ ] The team gave feedback to the Product Owner about the acceptance criteria.
 - [ ] The team decided what stories should be developed within the same sprint.
 - [ ] The team made a preliminary plan for which stories will be completed in the next quarter.
 
-#### Q82. What is the definition of velocity?
+#### Q80. What is the definition of velocity?
 
 - [x] The number of story points delivered during a sprint
 - [ ] The average waiting time for a story on the sprint backlog
 - [ ] The average wait time for a story to move from the product backlog to the sprint backlog
 - [ ] The time it takes a developer to complete a story divided by its relative value
 
-#### Q83. What is most important for a successful Product Owner to understand?
+#### Q81. What is most important for a successful Product Owner to understand?
 
 - [ ] The budget for the product.
 - [ ] The underlying technology of the product.
@@ -600,98 +586,91 @@
 
 [Source](https://premieragile.com/how-does-a-product-owner-measure-value) `A Scrum Team has 3 roles - Product Owner, Scrum Master and Developers. All 3 roles generate Value in their own contexts; however, it is the Product Owner who maximizes the Value from a product or business context.`
 
-#### Q84. Which statement about the Agile Manifesto is true?
+#### Q82. Which statement about the Agile Manifesto is true?
 
 - [ ] It was written via crowdsourcing and its authors are unknown.
 - [x] It has been translated into dozens of languages and used around the world.
 - [ ] It was written in 2001 and is obsolete.
 - [ ] It was first published as part of Jim Highsmith's doctoral thesis.
 
-#### Q85. The team is not going to complete its Spring Commitment. As the Team Facilitator, what should you do?
+#### Q83. The team is not going to complete its Spring Commitment. As the Team Facilitator, what should you do?
 
 - [ ] Ask the PO to extend the sprint.
 - [ ] Advise the PO as soon as possible.
 - [ ] Report this at the Sprint Review.
 - [ ] Point out the reasons why and collaborate on solutions.
 
-#### Q86. When a user story is further decomposed, what are the elements called?
+#### Q84. When a user story is further decomposed, what are the elements called?
 
 - [ ] technical tasks
 - [ ] actors and actions
 - [x] Who, What, Why
 - [ ] threads
 
-#### Q87. What does collective ownership mean?
+#### Q85. What does collective ownership mean?
 
 - [ ] Every member of the team can make changes to any part of the code as necessary.
 - [ ] If someone is at fault, then the whole team is at fault.
 - [x] The team shares equally in the profits that the product generates.
 - [ ] The team, not the individuals, receive performance evaluations.
 
-#### Q88. According to the Agile Manifesto, how often should developers and business people work together?
+#### Q86. According to the Agile Manifesto, how often should developers and business people work together?
 
 - [ ] as often as needed
 - [ ] biweekly
 - [x] daily
 - [ ] weekly
 
-#### Q89. What do you call the practice of writing a test before the code is written?
+#### Q87. What do you call the practice of writing a test before the code is written?
 
 - [ ] design for testability
 - [x] test-driven development
 - [ ] unit testing
 - [ ] test then code
 
-#### Q90. The team is not going to complete its Sprint Commitment. As the Team Facilitator, what should you do?
-
-- [ ] Ask the PO to extend the sprint.
-- [ ] Report this at the Sprint Review.
-- [ ] Point out the reasons why and collaborate on solutions.
-- [ ] Advise the PO as soon as possible.
-
-#### Q91. What is the term for a team member who is "T-skilled"?
+#### Q88. What is the term for a team member who is "T-skilled"?
 
 - [ ] cross-functional
 - [ ] jack-of-all-trades
 - [ ] apprentice developer
 - [ ] generalizing specialist
 
-#### Q92. Which statement is _not_ true about pair programming?
+#### Q89. Which statement is _not_ true about pair programming?
 
 - [ ] It has been discredited because it is too expensive.
 - [x] In pair programming, two developers share one computer and take turns at the keyboard.
 - [ ] It is a great way to teach someone who is new to the team.
 - [ ] The code produced by two developers who are collaborating is typically higher quality than if they were working alone.
 
-#### Q93. People with fixed mindset \_ .
+#### Q90. People with fixed mindset \_ .
 
 - [x] have better focus and longer attention spans
 - [ ] are more goal oriented
 - [ ] tend to be more resilient
 - [ ] are more afraid of failure
 
-#### Q94. How can you impove interaction between team members?
+#### Q91. How can you impove interaction between team members?
 
 - [x] Move people's workstations around in the team room to create new social possibilities.
 - [ ] Ask the team if they would like to do something recreational together and offer to organize it.
 - [ ] Tell the team that you see this as a problem and ask them to solve it.
 - [ ] Since no one has come to you with a complaint, assume that the limited interaction works for everyone.
 
-#### Q95. What is the expected outcome of the daily stand-up meeting?
+#### Q92. What is the expected outcome of the daily stand-up meeting?
 
 - [ ] updated status on all of the work
 - [ ] team alignment on its plan for the day
 - [ ] a list of impediments and priorities
 - [ ] a report to the Product Owner of stories ready to be accepted
 
-#### Q96. What is the name of the technique in which a story includes an input, a translation of input to output, and an output?
+#### Q93. What is the name of the technique in which a story includes an input, a translation of input to output, and an output?
 
 - [ ] input-output processing
 - [ ] ITIOO story format
 - [ ] thin vertical slice
 - [ ] structured coding
 
-#### Q97. What is the term for a team member who is "T-shaped"?
+#### Q94. What is the term for a team member who is "T-shaped"?
 
 - [x] cross-functional
 - [ ] jack-of-all-trades

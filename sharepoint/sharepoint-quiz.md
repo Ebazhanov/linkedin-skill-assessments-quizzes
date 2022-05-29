@@ -317,21 +317,21 @@
 - [ ] document audience targeting settings
 - [ ] document validation settings
 
-#### Q.38. Which SharePoint feature is an example of a prebuilt application?
+#### Q38. Which SharePoint feature is an example of a prebuilt application?
 
 - [ ] plan
 - [x] site
 - [ ] survey
 - [ ] page
 
-#### 39. You would like a SharePoint subsite to have a mailbox. While researching configuration options, which statement do you find to be true?
+#### Q39. You would like a SharePoint subsite to have a mailbox. While researching configuration options, which statement do you find to be true?
 
 - [ ] a subsite can have a single mailbox
 - [x] a susite cannot have a mailbox
 - [ ] a subsite canhave any number of mailboxes
 - [ ] a subsite can have a shared mailbox with the parent site
 
-#### 40. A user needs to access a business intelligence reporting dashboard within a SharePoint site. Currently they do not have permission to view any content. Which group can provide the appropriate permissions?
+#### Q40. A user needs to access a business intelligence reporting dashboard within a SharePoint site. Currently they do not have permission to view any content. Which group can provide the appropriate permissions?
 
 - [x] Team Site Members
 - [ ] Team Site Visitors
