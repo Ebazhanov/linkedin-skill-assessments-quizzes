@@ -911,4 +911,12 @@ void *vptr=&g;
     strcpy(*hello[6], "Mars");
 ```
 
+#### Q60. If you use the fopen() function with the "a" mode, what happens if the named file doesn't exist?
+
+- [ ] The file is created and opened for reading.
+- [ ] The file is created and opened for writing.
+- [ ] The fopen() function returns a NULL indicating that the operation has failed.
+- [ ] The file is created and opened for both writing and reading 
+
+
 [Reference](https://devdocs.io/c/memory)
