@@ -284,8 +284,8 @@ myVar = 5
 #### Q35. What NFS option allows the root user to access NFS shares as the root user?
 
 - [ ] no_admin_squash
-- [ ] no_root_squash
-- [x] allow_root_access
+- [X] no_root_squash
+- [] allow_root_access
 - [ ] all_squash
 
 #### Q36. You send an email to a remote client using the following syntax. What will be in the body of the email?
