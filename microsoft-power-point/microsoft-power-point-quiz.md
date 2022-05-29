@@ -649,7 +649,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 #### Q84. What is the best way to modify slide's appearance or content while in Note Page view?
 
-- [x] CEdit the thumbnail of the slide as needed.
+- [x] Edit the thumbnail of the slide as needed.
 - [ ] Slides cannot be modified while in Note Page view.
-- [ ] USe the Zoom slider to magnify the slide contents
+- [ ] Use the Zoom slider to magnify the slide contents
 - [ ] Right-click the slide and select edit
