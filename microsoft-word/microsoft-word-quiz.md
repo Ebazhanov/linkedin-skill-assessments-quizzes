@@ -671,3 +671,48 @@ Duplicated with Q50.
 - [ ] drop-down list
 - [x] combo box
 - [ ] check box
+
+#### Q85. There is a circle shape in your document. Which of the shape's style can you format?
+
+- [ ] all of these answers
+- [ ] Outline
+- [ ] Effects
+- [ ] Fill
+
+#### Q86. A word theme is composed of settings for which document attributes?
+
+- [ ] fonts and paragraph spacing
+- [ ] colors, fonts, paragraph spacing, and effects
+- [ ] colors, fonts, and paragraph spacing
+- [ ] colors, fonts, and effects
+
+#### Q87. When using the Compare function, the differences between two documents are outlined _____.
+
+- [ ] in red
+- [ ] on the most recent of the two documents
+- [ ] on the original document
+- [ ] on a third document
+
+#### Q88. You have inserted a picture in your Word document, and you want to ensure that users with visual impairments can access the picture. How can you do this?
+
+- [ ] Insert an object.
+- [ ] Insert a caption.
+- [ ] Insert AutoText.
+- [ ] Insert alt text.
+
+#### Q89. You are creating a company newsletter. The first page has three columns, and the second page will need four columns. How would you do this?
+
+- [ ] Insert a column break at the beginning of the second page.
+- [ ] Insert a page break at the end of the first page.
+- [ ] Insert a section break at the end of the first page.
+- [ ] Insert a text wrapping break at the beginning of the second page.
+
+#### Q90. You just applied a change from the Design tab of the ribbon, and all of the fonts and formatting in your document changed. What did you change?
+A. theme
+B. style set
+C. default document font
+D. template
+- [ ] D
+- [ ] A or B
+- [ ] C or D
+- [ ] A, B, or C
