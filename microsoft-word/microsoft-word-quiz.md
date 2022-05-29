@@ -492,7 +492,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [x] Simple Markup shows the markup versions by one selected author; All Markup shows the combined markup version of all authors.
 - [ ] Simple Markup shows the revisions of one selected author in the Review pane; All Markup shows the revisions of all authors with inline markups.
 - [ ] Simple Markup shows the final version with inline markups; All Markup shows the final version without inline markups.
-      
+
 [Reference link](https://support.microsoft.com/en-us/office/video-track-changes-and-show-markup-3faf8a07-26ed-4b76-b6a0-43cca013e6d3)
 
 #### Q62. You're finalizing a document that contains some high-resolution images. You want to reduce the picture size while ensuring image quality is adequate for online viewing. What is a best-practice approach?
@@ -686,7 +686,7 @@ Duplicated with Q50.
 - [ ] colors, fonts, and paragraph spacing
 - [ ] colors, fonts, and effects
 
-#### Q87. When using the Compare function, the differences between two documents are outlined _____.
+#### Q87. When using the Compare function, the differences between two documents are outlined **\_**.
 
 - [ ] in red
 - [ ] on the most recent of the two documents
@@ -708,10 +708,12 @@ Duplicated with Q50.
 - [ ] Insert a text wrapping break at the beginning of the second page.
 
 #### Q90. You just applied a change from the Design tab of the ribbon, and all of the fonts and formatting in your document changed. What did you change?
-A. theme
-B. style set
-C. default document font
-D. template
+
+    A. theme
+    B. style set
+    C. default document font
+    D. template
+
 - [ ] D
 - [ ] A or B
 - [ ] C or D

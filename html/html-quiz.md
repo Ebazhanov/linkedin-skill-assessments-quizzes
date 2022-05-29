@@ -490,7 +490,7 @@ This is a confusing question and there can be an arguments for both the second a
 - [ ] `<hgroup> <q> <wbr>`
 - [ ] `<b> <i> <u>`
 
-#### Q30. The **\_** tag is used for marking up a short code snippet, while the _ tag is used for marking up a longer block of code
+#### Q30. The **\_** tag is used for marking up a short code snippet, while the \_ tag is used for marking up a longer block of code
 
 - [ ] `<kdb>`, `<pre>`
 - [ ] `<pre>`, `<code>`

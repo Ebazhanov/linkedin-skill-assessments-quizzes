@@ -98,24 +98,20 @@ END CATCH
 
 - [x] 
 ```SELECT * FROM Students
-          WHERE team NOT 'Chemistry Cats';```
-          ````
+   WHERE team NOT 'Chemistry Cats';
 ```
 - [ ] 
 ```SELECT * FROM Students
-          WHERE team <> 'Chemistry Cats';```
-          ````
+   WHERE team <> 'Chemistry Cats';
 ```
       
 - [ ] 
 ```SELECT * FROM Students
-          WHERE team != 'Chemistry Cats';```
-          ````
+   WHERE team != 'Chemistry Cats';
 ```
 - [ ] 
 ```SELECT * FROM Students
-          WHERE NOT team = 'Chemistry Cats';```
-          ````
+   WHERE NOT team = 'Chemistry Cats';
 ```
 
 #### Q9. You need to write a query that returns all Employees that have a LastName starting with the letter A. Which `WHERE` clause should you use to fill in the blank in this query?
@@ -508,34 +504,30 @@ CREATE TABLE Publishers (
 );
 ```
 
-- [ ] 
+- [ ]
 
 ```ALTER TABLE Books
           ADD CONSTRAINT FK Books_PublisherID
           FOREIGN KEY (PublisherID)
-          REFERENCES Publishers (PublisherID) ON UPDATE SET NULL```
-          ````
+          REFERENCES Publishers (PublisherID) ON UPDATE SET NULL
 ```
 - [ ] 
 ```ALTER TABLE Books
           ADD CONSTRAINT FK Books_PublisherID
           FOREIGN KEY (PublisherID)
-          REFERENCES Publishers (PublisherID) ON DELETE CASCADE```
-          ````
+          REFERENCES Publishers (PublisherID) ON DELETE CASCADE
 ```
 - [ ] 
 ```ALTER TABLE Books
           ADD CONSTRAINT FK_Books_PublisherID
           FOREIGN KEY (PublisherID)
-          REFERENCES Publishers (PublisherID)```
-          ````
+          REFERENCES Publishers (PublisherID)
 ```
 - [ ] 
 ```ALTER TABLE Publishers
           ADD CONSTRAINT FK_Publishers_PublisherID
           FOREIGN KEY (PublisherID)
-          REFERENCES Books (PublisherID) CASCADE DELETE```
-          ````
+          REFERENCES Books (PublisherID) CASCADE DELETE
 ```
 
 #### Q42. Your database currently has a table called Inventory in the Warehouse schema. You need to move the table to the Products schema. Which query accomplishes this goal?
