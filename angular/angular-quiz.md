@@ -1140,3 +1140,129 @@ export class TruncateDirective{
 - [x] ngOnChanges
 
 [How to detect when an @Input() value changes in Angular?](https://stackoverflow.com/a/44686085/1573267)
+	
+#### Q60. What would be an example template syntax usage of this custom pipe?
+```ts
+@Pipe({ name: 'truncate' })
+export class TruncatePipe implements PipeTransform { 
+	transform(value: string, maxLength: number, showEllipsis: boolean){
+		const newValue = maxLength ? value.substr(0, maxLength): value; 
+		return showEllipsis ? '${newValue}...` : newValue;
+	}
+}
+```
+- [x] {( 'some long text' | truncate:10 })
+- [ ] {( 'some long text' | truncate:10:true })
+- [ ] {( 'some long text' | truncate })
+- [ ] all of these answers
+
+[do recheck the answers]
+	
+#### Q61. Which Angular CLI command would you run to generate a UsersComponent and add it to the SharedModule (in file shared.module.ts in your application)?
+	
+- [ ] ng generate component --newModule=shared
+- [ ] ng generate component users --module=shared
+- [ ] ng generate component users --shared
+- [ ] ng generate component --add=shared
+	
+[do recheck the answers]
+	
+#### Q62. How can you rewrite this markup so the div container is not needed in the final DOM render
+	
+```javascript
+<div *ngIf="location">
+	<h1>{{ location.name }}</h1>
+	<p>{{ location.description }}</p>
+</div>
+```
+
+- [ ]
+
+```javascript
+<div *ngIf="location">
+	<h1>{{ location.name }}</h1>
+	<p>{{ location.description }}</p>
+{{ endNgIf }}
+```
+
+- [ ]
+
+```javascript
+<ng-template *ngIf="location">
+	<h1>{{ location.name }}</h1>
+	<p>{{ location.description }}</p>
+</ng-template>
+```
+
+- [ ]
+
+```javascript
+<div *ngIf="location" [display]=" ' hidden' ">
+	<h1>{{ location.name }}</h1>
+	<p>{{ location.description }}</p>
+</div>
+```
+
+- [x]
+
+```javascript
+<ng-container *ngIf="location">
+	<h1>{{ location.name }}</h1>
+	<p>{{ location.description }}</p>
+</ng-container>
+```
+[recheck answers]
+	
+
+#### Q63. Describe the usage of this code: 
+	
+```javascript
+export interface AppSettings {
+	title : string; 
+	version: number; 
+}
+```
+- [ ] This code as an error since you cannot use a TypeScript interface for the generic type on the InjectionToken.
+- [ ] The InjectionToken is used to create a provider token for a non-class dependency. An object lieteral can be provided as a value for the APP_SETTINGS dependency provider type that can then be injected into components, services, etc.
+- [ ] The InjectionToken is adding an instance of the AppSettings to the roote provider via the the InjectionToken constructor call, making it auto available to all NgModules, services, and componentts throughtout the Angular application without the need to inject it anywhere. 
+- [ ] The InjectionToken is used to create a dynamic decorator for the AppSettings that can be sed on constructor parameters via an @AppSettings decorator. 
+	
+[recheck answers]
+	
+	
+#### Q64. What Angular utilities, if any, are required to unit test a service with no constructor dependencies?
+	
+- [ ] By.css() helper method is needed
+- [ ] A text fixture is required to run the service for the unit test. 
+- [ ] None. A service can be instantiated and unit tested on its own. 
+- [x] The TestBed class iss needed to instantiate the service.
+	
+[Angular unit tests](https://angular.io/guide/testing-services) - recheck answers
+	
+	
+#### Q65. What is the difference between the CanActivate and the CanLoad route guards?
+	
+- [ ] CanActivate is used to check access. CanLoad is used to preload data for the route. 
+- [x] CanLoad is used at app startup to allow or deny routes to be added to the route table. CanActivate is used to manage access to routes at the time they are requested. 
+- [ ] CanActivate and CanLoad do the exact same thing. 
+- [ ] CanLoad prevents an entire NgModule from being delivered and loaded. CanActivate stops routing to a component in that NgModule, but that module is still loaded. 
+
+[CanActivate vs Canload](https://stackoverflow.com/questions/42026045/difference-between-angulars-canload-and-canactivate#:~:text=canActivate%20is%20used%20to%20prevent,not%20authorized%20to%20do%20so.) CanActivate prevents access on routes, CanLoad prevents lazy loading. 
+	
+
+#### Q66. What is the outlet property used for in this router definition object?
+
+```javascript
+{
+	path: 'document', 
+	component: DocumentComponent, 
+	outlet: 'document-box'
+}
+```
+	
+- [ ] it will locate all instancess of <document-box> in the DOM and inser a DocumentComponent element into them on route navigation.
+- [ ] It declares that the DocumentComponent can be used as a child to a <<document-box> element in addition ot being routed to.
+- [x] It us used to target a <router-outlet> element with the name attribute matching the string value as the location for the DocumentComponent to be rendered when routed to.
+- [ ] It is a source of power for the router. (definitely not the answer :P)
+	
+[Angular-outlet](https://angular.io/api/router/RouterOutlet) - recheck answer
