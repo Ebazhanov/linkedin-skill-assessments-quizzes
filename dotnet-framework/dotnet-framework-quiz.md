@@ -508,8 +508,8 @@
 - [ ] The stack is stored object types; the heap is stored class types.
 
 #### Q67. What is open closed principle?
-- [x] software entities should be open for extension, but closed for modification.
 
+- [x] software entities should be open for extension, but closed for modification.
 
 #### Q68. How do you make sure that the garbage collector is done running when you call `GC.Collect()`?
 

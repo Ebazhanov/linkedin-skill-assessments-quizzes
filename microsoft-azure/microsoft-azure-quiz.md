@@ -339,8 +339,7 @@
 - [ ] Service Bus
 - [x] Queue Storage
 
-#### Q44. In Azure Key Vault, you can manage access to your application secrets by setting permissions at any level except **
-\_**.
+#### Q44. In Azure Key Vault, you can manage access to your application secrets by setting permissions at any level except **\_**.
 
 - [ ] on the secret itself
 - [ ] by secret type

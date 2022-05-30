@@ -635,4 +635,3 @@ model=Planet
 - [ ] PUT
 - [x] PAUSE
 - [ ] PATCH
-

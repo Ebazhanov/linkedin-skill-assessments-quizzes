@@ -772,9 +772,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [x] Take a snapshot of the compromised virtual server for your investigation.
 - [ ] Restart the server. Remediate the issue after business hours.
 
-#### Q101. Site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space **
-\_**.Site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space **
-\_**.
+#### Q101. Site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space __ site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space __.
 
 - [x] 192.168.0.1/24192.168.0.1/24
 - [ ] 192.168.0.3/24192.168.0.3/24

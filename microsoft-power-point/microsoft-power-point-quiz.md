@@ -528,8 +528,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] Change both presentations to the same theme before copying and pasting.
 - [ ] Select **Picture** when pasting the slides.
 
-#### Q69. What happens when you press the Esc key while playing a **From Current Slide** or **From
-Beginning** slide show?
+#### Q69. What happens when you press the Esc key while playing a **From Current Slide** or **From Beginning** slide show?
 
 - [ ] The current slide is temporary hidden.
 - [x] The slide show ends and you return to your previous view.
@@ -640,3 +639,17 @@ Beginning** slide show?
 - [ ] before the current slide.
 - [ ] at the end of the exsisting slide.
 - [x] after the currently selected slide.
+
+#### Q83. In Normal view, which pane is used to add text and reference information for the speaker?
+
+- [ ] Comments
+- [ ] Reading
+- [ ] Slide
+- [x] Notes
+
+#### Q84. What is the best way to modify slide's appearance or content while in Note Page view?
+
+- [x] Edit the thumbnail of the slide as needed.
+- [ ] Slides cannot be modified while in Note Page view.
+- [ ] Use the Zoom slider to magnify the slide contents
+- [ ] Right-click the slide and select edit

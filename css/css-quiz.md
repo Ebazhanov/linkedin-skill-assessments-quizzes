@@ -1461,10 +1461,10 @@ a[href*='domain.com'] {
 
 #### Q107. Which property and value pair could be used to apply a linear gradient effect?
 
-- [x] ```css background: linear-gradient(#648880, #293f50);```
-- [ ] ```css background-image: linear(#648880, #293f50);```
-- [ ] ```css background: gradient(linear, #648880, #293f50);```
-- [ ] ```css background-color: linear-gradient(#648880, #293f50);```
+- [x] `css background: linear-gradient(#648880, #293f50);`
+- [ ] `css background-image: linear(#648880, #293f50);`
+- [ ] `css background: gradient(linear, #648880, #293f50);`
+- [ ] `css background-color: linear-gradient(#648880, #293f50);`
 
 #### Q108. You want to add a background circle behind an icon. Which style declaration is correct?
 
@@ -1682,7 +1682,7 @@ img {
 
 #### Q116. To prevent a background image from tiling in any direction, which style property would you apply?
 
-- [X] A
+- [x] A
 
 ```css
 background-repeat: no-repeat;

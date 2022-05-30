@@ -211,12 +211,14 @@
 - [ ] Management discussion and analysis
 
 #### Q32. What does "independence" mean in auditing?
+
 - [ ] being an advocate for all clientsbeing an advocate for all clients
 - [ ] not being dependent on a client's feenot being dependent on a client's fee
 - [ ] having only indirect financial interests in the auditeehaving only indirect financial interests in the auditee
 - [ ] taking an unbiased viewpoint
 
 #### Q33. What would cause a bank to increase a depositor's account?
+
 - [ ] collecting a note receivable
 - [ ] paying a note payable
 - [ ] NSF checks

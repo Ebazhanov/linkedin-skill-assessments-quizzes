@@ -1626,8 +1626,7 @@ System.out.println(list1);
 - [ ] `if(time == money){}`
 - [ ] `if(time = money){}`
 
-#### Q113. An **\_** is a serious issue thrown by the JVM that the JVM is unlikely to recover from. An **
-\_** is an unexpected event that an application may be able to deal with in order to continue execution.
+#### Q113. An **\_** is a serious issue thrown by the JVM that the JVM is unlikely to recover from. An **\_** is an unexpected event that an application may be able to deal with in order to continue execution.
 
 - [ ] exception,assertion
 - [ ] AbnormalException, AccidentalException

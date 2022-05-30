@@ -96,18 +96,23 @@ END CATCH
 
 #### Q8. You need to find all students that are not on the "Chemistry Cats" team. Which query does NOT work for this task?
 
-- [x] ````SELECT * FROM Students
-      WHERE team NOT 'Chemistry Cats';```
-      ````
-- [ ] ````SELECT * FROM Students
-      WHERE team <> 'Chemistry Cats';```
-      ````
-- [ ] ````SELECT * FROM Students
-      WHERE team != 'Chemistry Cats';```
-      ````
-- [ ] ````SELECT * FROM Students
-      WHERE NOT team = 'Chemistry Cats';```
-      ````
+- [x] 
+```SELECT * FROM Students
+   WHERE team NOT 'Chemistry Cats';
+```
+- [ ] 
+```SELECT * FROM Students
+   WHERE team <> 'Chemistry Cats';
+```
+      
+- [ ] 
+```SELECT * FROM Students
+   WHERE team != 'Chemistry Cats';
+```
+- [ ] 
+```SELECT * FROM Students
+   WHERE NOT team = 'Chemistry Cats';
+```
 
 #### Q9. You need to write a query that returns all Employees that have a LastName starting with the letter A. Which `WHERE` clause should you use to fill in the blank in this query?
 
@@ -499,26 +504,31 @@ CREATE TABLE Publishers (
 );
 ```
 
-- [ ] ````ALTER TABLE Books
-      ADD CONSTRAINT FK Books_PublisherID
-      FOREIGN KEY (PublisherID)
-      REFERENCES Publishers (PublisherID) ON UPDATE SET NULL```
-      ````
-- [ ] ````ALTER TABLE Books
-      ADD CONSTRAINT FK Books_PublisherID
-      FOREIGN KEY (PublisherID)
-      REFERENCES Publishers (PublisherID) ON DELETE CASCADE```
-      ````
-- [ ] ````ALTER TABLE Books
-      ADD CONSTRAINT FK_Books_PublisherID
-      FOREIGN KEY (PublisherID)
-      REFERENCES Publishers (PublisherID)```
-      ````
-- [ ] ````ALTER TABLE Publishers
-      ADD CONSTRAINT FK_Publishers_PublisherID
-      FOREIGN KEY (PublisherID)
-      REFERENCES Books (PublisherID) CASCADE DELETE```
-      ````
+- [ ]
+
+```ALTER TABLE Books
+          ADD CONSTRAINT FK Books_PublisherID
+          FOREIGN KEY (PublisherID)
+          REFERENCES Publishers (PublisherID) ON UPDATE SET NULL
+```
+- [ ] 
+```ALTER TABLE Books
+          ADD CONSTRAINT FK Books_PublisherID
+          FOREIGN KEY (PublisherID)
+          REFERENCES Publishers (PublisherID) ON DELETE CASCADE
+```
+- [ ] 
+```ALTER TABLE Books
+          ADD CONSTRAINT FK_Books_PublisherID
+          FOREIGN KEY (PublisherID)
+          REFERENCES Publishers (PublisherID)
+```
+- [ ] 
+```ALTER TABLE Publishers
+          ADD CONSTRAINT FK_Publishers_PublisherID
+          FOREIGN KEY (PublisherID)
+          REFERENCES Books (PublisherID) CASCADE DELETE
+```
 
 #### Q42. Your database currently has a table called Inventory in the Warehouse schema. You need to move the table to the Products schema. Which query accomplishes this goal?
 
@@ -558,7 +568,6 @@ _______
 - [ ] `BACKUP DATABASE MyDatabase ON 'Z:\Backups\MyDatabase.bak';`
 - [x] `BACKUP DATABASE MyDatabase TO DISK = 'z:\Backups\MyDatabase.bak';`
 
-
 #### Q46. Suppose you want to have the name of a transaction called myTransaction recorded in the transaction log. Which statement represents the best way to accomplish this?
 
 - [ ] `BEGIN TRAN myTransaction BEGIN LOG;BEGIN TRAN myTransaction BEGIN LOG;`
@@ -572,11 +581,10 @@ _______
 - [ ] `All statements must operate on a table of data.`
 - [ ] `All statements must always be written in uppercase letters.`
 - [ ] `All statements must include more than one variable.`
- 
-#### Q48. Which is the best approach to update the last name and email address of a student with ID 56295? 
+
+#### Q48. Which is the best approach to update the last name and email address of a student with ID 56295?
 
 - [ ] `UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id='56295';`
 - [x] `UPDATE Students SET last_name='Smith', email = 'dsmith@rouxacademy.com' WHERE id=56295;`
 - [ ] `UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id=56295;`
 - [ ] `UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id='56295';`
-

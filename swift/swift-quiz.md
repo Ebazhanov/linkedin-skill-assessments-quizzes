@@ -775,4 +775,3 @@ let vt = (name: "ABC", val: 5)
 - [x] all of these answers
 - [ ] let x = vt.val
 - [ ] let (`_`, x) = vt
-

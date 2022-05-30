@@ -490,8 +490,7 @@ This is a confusing question and there can be an arguments for both the second a
 - [ ] `<hgroup> <q> <wbr>`
 - [ ] `<b> <i> <u>`
 
-#### Q30. The **\_** tag is used for marking up a short code snippet, while the **
-\_** tag is used for marking up a longer block of code
+#### Q30. The **\_** tag is used for marking up a short code snippet, while the \_ tag is used for marking up a longer block of code
 
 - [ ] `<kdb>`, `<pre>`
 - [ ] `<pre>`, `<code>`
@@ -1005,8 +1004,7 @@ This is a confusing question and there can be an arguments for both the second a
 - [ ] It designates a separation of sections within an `<article>`.
 - [x] It designates a topic shift within a section at the paragraph level.
 
-#### Q62. How will a video look displayed on a fully loaded webpage if the `<video>` tag is used and the **
-autoplay** attribute is not set?
+#### Q62. How will a video look displayed on a fully loaded webpage if the `<video>` tag is used and the **autoplay** attribute is not set?
 
 - [ ] It will display a random frame from a video, unless the **poster** attribute is set.
 - [x] It will display the first frame of the video, unless the **poster** attribute is set.
@@ -1835,4 +1833,3 @@ As Steve Krug once said, happy talk must die.
 ```HTML
 <p>On July 21, 1969, Neil Armstrong said, <q>"That's one small step for man, one giant leap for mankind."</q></p>
 ```
-

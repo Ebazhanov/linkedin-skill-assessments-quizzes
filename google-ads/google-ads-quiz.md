@@ -273,8 +273,7 @@
 - [ ] keywords > campaign > ads
 - [ ] ad group > campaign > ads
 
-#### Q40. If you continuously search for your own advertisement using Google, just to confirm that it appears, it is very likely that you will inflate your **
-\_** and decrease your **\_**.
+#### Q40. If you continuously search for your own advertisement using Google, just to confirm that it appears, it is very likely that you will inflate your \_ and decrease your \_.
 
 - [ ] impressions; clickthrough rate
 - [ ] conversions; ROI
@@ -297,8 +296,7 @@
 - [ ] $40
 - [ ] $36
 
-#### Q43. Ursula owns a yoga studio in New York City (NYC). A customer performs several searches in the following order: "yoga studio near me", "best yoga NYC", "yoga free trial NYC". What attribution model would assign 100% of the credit for the conversion to _
-yoga free trial NYC_?
+#### Q43. Ursula owns a yoga studio in New York City (NYC). A customer performs several searches in the following order: "yoga studio near me", "best yoga NYC", "yoga free trial NYC". What attribution model would assign 100% of the credit for the conversion to \_ yoga free trial NYC \_?
 
 - [ ] last position
 - [ ] last search
