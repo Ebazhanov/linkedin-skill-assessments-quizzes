@@ -934,3 +934,12 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 - [ ] It has a rewritable structure.
 - [x] It has an array-only structure.
 - [ ] It has a table structure.
+
+#### Q86. What is supported by YAML but not supported by JSON?
+
+- [ ] arrays
+- [ ] null values
+- [x] comments
+- [ ] nested
+
+YAML supports # comments but not JSON 
