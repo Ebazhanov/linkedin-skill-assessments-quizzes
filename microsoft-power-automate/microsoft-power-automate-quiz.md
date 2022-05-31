@@ -23,7 +23,7 @@
 
 #### Q4. The flow pictured saves new email attachments in SharePoint, adds a row to Excel to document the file save, and sends a message to TEAMS. What is the proper placement of steps B, D, and E?
 
-![Image of footer](images/ss-1.png?raw=true)
+![Image of footer](images/Q01.png)
 
 - [x] B, D and E belong inside C in the order listed.
 
@@ -47,7 +47,7 @@
 
 #### Q7. What is the purpose of the flow?
 
-![Image of footer](images/ss-2.png?raw=true)
+![Image of footer](images/Q02.png)
 
 - [ ] to add events. to an Outlook calender if they are deleted in Google Calender
 - [x] to delete Outlook calender events when they are deleted in Google Calender
@@ -116,7 +116,7 @@
 
 #### Q15. What control would you use to build parallel branches of conditional logic based on a single value?
 
-![Image of footer](images/ss-3.png?raw=true)
+![Image of footer](images/Q03.png)
 
 - [x] Apply to each
 - [ ] Scope
