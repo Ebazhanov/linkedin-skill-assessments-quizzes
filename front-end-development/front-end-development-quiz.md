@@ -699,3 +699,18 @@ box {
 - [x] 220px
 - [ ] 200px
 - [ ] 260px
+
+#### Q70. How would you round the value 11.354 to the nearest full integer?
+
+- [ ] round(11.354);
+- [x] Math.round(11.354);
+- [ ] Math.rnd(11.354);
+- [ ] Maths.round(11.354);
+
+#### Q70. What is the JavaScript compiler Babel used for?
+
+- [x] converts ECMAScript 2015+ code into backward compatible version of JS to support older browsers
+- [ ] used to bundle individual JS files for use in your website
+- [ ] convert older JS code into modern ECMAScript 2015+ code
+- [ ] it is a SSR library that can enhance SEO and accessibility of your site
+
