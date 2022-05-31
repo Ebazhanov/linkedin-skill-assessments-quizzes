@@ -1833,10 +1833,11 @@ console.log(test);
 #### Q130. Which code would you use to access the Irish flag?
 
 ```js
-var flagsJSON = '{ "countries" : [' +
-'{ "country":"Ireland" , "flag":"🇮🇪" },' +
-'{ "country":"Serbia" , "flag":"🇷🇸" },' +
-'{ "country":"Peru" , "flag":"🇵🇪" } ]}';
+var flagsJSON =
+  '{ "countries" : [' +
+  '{ "country":"Ireland" , "flag":"🇮🇪" },' +
+  '{ "country":"Serbia" , "flag":"🇷🇸" },' +
+  '{ "country":"Peru" , "flag":"🇵🇪" } ]}';
 
 var flagDatabase = JSON.parse(flagsJSON);
 ```

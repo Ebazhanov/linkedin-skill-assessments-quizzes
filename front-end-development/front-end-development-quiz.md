@@ -713,4 +713,3 @@ box {
 - [ ] used to bundle individual JS files for use in your website
 - [ ] convert older JS code into modern ECMAScript 2015+ code
 - [ ] it is a SSR library that can enhance SEO and accessibility of your site
-

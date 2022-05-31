@@ -63,7 +63,7 @@
 - [ ] bank reconciliations
 - [ ] approval process
 
-[source]'MT: bank recons are a internal control, checking to see if figures match. Approval by different level of authorities help to prevent unathorized transactions - so its a control too. segregate duties also ensures that. 
+[source]'MT: bank recons are a internal control, checking to see if figures match. Approval by different level of authorities help to prevent unathorized transactions - so its a control too. segregate duties also ensures that.
 
 #### Q10. Which budgeting approach request justification of all expenditures?
 
@@ -86,7 +86,7 @@
 - [ ] The gross profit goes to retained earning, and the shareholder equity total is added to the cash flow statement
 - [x] The net income goes to the retained earning and to the cash flow statement
 
-[source]'MT: odd qns. But it should be net profit "npat" flows to retained earnings, and also starts the cashflow statement (so all linked and not independent). Assets are in balance sheet, net income is in income statement. npat goes to retained earnings, not gross profit. 
+[source]'MT: odd qns. But it should be net profit "npat" flows to retained earnings, and also starts the cashflow statement (so all linked and not independent). Assets are in balance sheet, net income is in income statement. npat goes to retained earnings, not gross profit.
 
 #### Q13. Which is not one of the four perspectives of the balanced scorecard?
 
@@ -151,7 +151,7 @@
 - [ ] regularly reported bank reconciliations, including deposits in transit
 - [ ] capital assets sold at a loss before being depreciated fully
 
-[source]'MT: regular bank recons and loyal employees are +ve. Nothing wrong with assets sold at lost before fully depreciated, like you can sell a plane at a loss even before it has been "fully used". 
+[source]'MT: regular bank recons and loyal employees are +ve. Nothing wrong with assets sold at lost before fully depreciated, like you can sell a plane at a loss even before it has been "fully used".
 
 #### Q21. An employee who makes a sale, ships the goods, and bills the customer violates which control activity?
 

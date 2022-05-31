@@ -1768,12 +1768,12 @@ for x in range(1, len(characters)):
 
 #### Q131. What is the correct syntax for defining an _init_() method that takes no parameters?
 
-- [ ] def_init_(self): pass
-- [ ] class_init_(self): pass
-- [ ] class_init_(): pass
-- [x] def_init_(): pass
+- [ ] def*init*(self): pass
+- [ ] class*init*(self): pass
+- [ ] class*init*(): pass
+- [x] def*init*(): pass
 
-() 	-empty parameter
-self 	-refers to all instances within a class
-_init_  -a reserved method, aka a constructor
+() -empty parameter
+self -refers to all instances within a class
+_init_ -a reserved method, aka a constructor
 _init_() -always executed when the class is being initiated

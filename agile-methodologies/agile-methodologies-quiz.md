@@ -684,7 +684,7 @@
 - [ ] decompose solution into epics, features, and stories
 - [x] template for lightweight business plans that makes your assumptions explicit
 - [ ] tool to plan future project releases
-- [ ] technique for projecting growth in market share. 
+- [ ] technique for projecting growth in market share.
 
 [Source](http://ask.leanstack.com/en/articles/901274-what-is-a-lean-canvas) `1-page business plan template that helps you deconstruct your idea into its key assumptions using 9 basic building blocks.`
 

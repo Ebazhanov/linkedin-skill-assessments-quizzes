@@ -942,4 +942,4 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 - [x] comments
 - [ ] nested
 
-YAML supports # comments but not JSON 
+`YAML supports # comments but not JSON`
