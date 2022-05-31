@@ -1765,3 +1765,15 @@ for x in range(1, len(characters)):
 - [ ] Strings can only be enclosed in single quotes (').
 - [ ] Single character strings must be enclosed in single quotes ('), and the rest must be enclosed in double quotes (").
 - [ ] Strings can only be enclosed in double quotes (").
+
+#### Q131. What is the correct syntax for defining an _init_() method that takes no parameters?
+
+- [ ] def_init_(self): pass
+- [ ] class_init_(self): pass
+- [ ] class_init_(): pass
+- [x] def_init_(): pass
+
+() 	-empty parameter
+self 	-refers to all instances within a class
+_init_  -a reserved method, aka a constructor
+_init_() -always executed when the class is being initiated
