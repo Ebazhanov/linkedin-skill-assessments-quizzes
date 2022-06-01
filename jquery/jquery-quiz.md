@@ -1539,3 +1539,5 @@ $('.items')
 - [ ] It causes animation effects that are triggered via functions to instead be executed using CSS.
 - [x] It globally disables all animations. When animations are run, all animation methods will immediately set elements to their final state when called, rather than displaying an effect.
 - [ ] It globally disables animations that are triggered by CSS class changes.
+
+[Source: jQuery.fx.off Property](https://www.w3schools.com/jquery/prop_jquery_fx_off.asp)
