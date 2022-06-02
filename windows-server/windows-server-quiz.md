@@ -476,7 +476,7 @@
 
 #### Q63. You need to make assignments to other admins to manage certificate templates in a multidomain forest. What change is required in Active Directory?
 
-- [ ] You must create a group in Active Directory and add that group to the security properties of the CA server in the Certificate Authority console.
+- [x] You must create a group in Active Directory and add that group to the security properties of the CA server in the Certificate Authority console.
 - [ ] Add a group or user to the Certificate Templates property security tab from the configuration partition of your domain using ADSI.
 - [ ] Add the domain group or user account to the CA root server's local Administrator group.
 - [ ] The domain group or user account must be given Read and Enroll security permission.

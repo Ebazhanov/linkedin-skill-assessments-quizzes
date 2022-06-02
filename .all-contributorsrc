@@ -9061,6 +9061,26 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "mervynteo",
+      "name": "MT",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5101947?v=4",
+      "profile": "https://github.com/mervynteo",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "dexter-dz",
+      "name": "Dinesh Zaldekar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17889782?v=4",
+      "profile": "https://github.com/dexter-dz",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

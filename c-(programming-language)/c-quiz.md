@@ -916,7 +916,6 @@ void *vptr=&g;
 - [ ] The file is created and opened for reading.
 - [ ] The file is created and opened for writing.
 - [ ] The fopen() function returns a NULL indicating that the operation has failed.
-- [ ] The file is created and opened for both writing and reading 
-
+- [ ] The file is created and opened for both writing and reading
 
 [Reference](https://devdocs.io/c/memory)

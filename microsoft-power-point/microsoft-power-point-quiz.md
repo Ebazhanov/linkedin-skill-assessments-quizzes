@@ -639,3 +639,17 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] before the current slide.
 - [ ] at the end of the exsisting slide.
 - [x] after the currently selected slide.
+
+#### Q83. In Normal view, which pane is used to add text and reference information for the speaker?
+
+- [ ] Comments
+- [ ] Reading
+- [ ] Slide
+- [x] Notes
+
+#### Q84. What is the best way to modify slide's appearance or content while in Note Page view?
+
+- [x] Edit the thumbnail of the slide as needed.
+- [ ] Slides cannot be modified while in Note Page view.
+- [ ] Use the Zoom slider to magnify the slide contents
+- [ ] Right-click the slide and select edit
