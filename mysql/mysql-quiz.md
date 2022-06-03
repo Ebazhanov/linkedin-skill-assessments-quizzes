@@ -132,7 +132,7 @@
 
 #### Q9. You are working with the tables as shown in this diagram. You need to generate the list of customers who purchased certain car models. Which SQL clause do you use?
 
-![mysql Q09](images/mysql_q09.jpg)
+![mysql Q09](images/mysql_q09.jpg?raw=true)
 
 - [ ] LIKE
 - [x] IN
@@ -357,7 +357,7 @@
 
 #### Q40. Which statement is true for the diagram below
 
-![mysql Q41](images/mysql_q41.jpg)
+![mysql Q41](images/mysql_q41.jpg?raw=true)
 
 - [ ] carid is the primary key for purchases
 - [ ] carid is the foreign key for cars.carid
@@ -373,7 +373,7 @@
 
 #### Q42. You are working with the tables as shown in this diagram. You need to make sure that any record added to the purchases table consists of a customerID, which already exists in the customers table, and a carID, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
 
-![mysql Q43](images/mysql_q43.jpg)
+![mysql Q43](images/mysql_q43.jpg?raw=true)
 
 - [ ] `AFTER INSERT`
 - [x] `BEFORE INSERT`
@@ -558,7 +558,7 @@ Note: both answers are correct - see [TRUNCATE TABLE Statement](https://dev.mysq
 
 #### Q60. You are working with the tables as shown in this diagram. You need to get the number of cars sold per the home state of each customer's residence. How can you accomplish this?
 
-![mysql Q61](images/mysql_q61.png)
+![mysql Q61](images/mysql_q61.png?raw=true)
 
 - [ ] `SELECT state, COUNT(*) FROM customers WHERE ID IN (SELECT customerID FROM purchases) GROUP BY state;`
 - [ ] `SELECT state, COUNT(*) FROM customers c LEFT JOIN purchases p ON c.ID = p.customerID GROUP BY state;`
@@ -733,7 +733,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 #### Q79. In the diagram below, the price field is declared as type DECIMAL. What would be a more efficient declaration for this field?
 
-![mysql picture](images/mysql_q80.png)
+![mysql picture](images/mysql_q80.png?raw=true)
 
 - [ ] FLOAT
 - [x] DECIMAL(10,2)
@@ -751,7 +751,7 @@ Explnation: BIT is not a string type
 
 #### Q81. This diagram shows what type of relationship between customers and cars?
 
-![mysql picture](images/mysql_q80.png)
+![mysql picture](images/mysql_q80.png?raw=true)
 
 - [ ] one-to-many
 - [ ] parent-child
@@ -776,7 +776,7 @@ Explanation: Both `SET` and `DECLARE` are used to create variables. Reference: [
 
 #### Q84. In the diagram below, the ID fields are declared as type CHAR instead of INT . Which is NOT one of the possible reasons behind that decision?
 
-![mysql picture](images/mysql_q85.png)
+![mysql picture](images/mysql_q85.png?raw=true)
 
 - [ ] The ID field needs to include letters and not just numbers.
 - [ ] You can have a consistent format across all of the tables that require ID fields.
@@ -814,7 +814,7 @@ SELECT name FROM students WHERE name REGEXP '^to';
 
 #### Q88. You are working with the tables as shown in the diagram. You need to generate the list of price totals for each make and model of car, with subtotals for each make, and the grand total of all prices. Which SQL clause do you use?
 
-![mysql picture](images/mysql_q92.png)
+![mysql picture](images/mysql_q92.png?raw=true)
 
 - [ ] UNION
 - [ ] SHOW TOTALS
@@ -872,7 +872,7 @@ SELECT name FROM students WHERE name REGEXP '^to';
 
 #### Q96. You are working with the tables as shown in this diagram. You need to generate the list of all cars, whether or not they had been sold, with the purchase date of the cars that were sold. Which statement accomplishes that?
 
-![mysql picture](images/mysql_q98.png)
+![mysql picture](images/mysql_q98.png?raw=true)
 
 - [ ] A
 
