@@ -129,6 +129,8 @@ v1 and v2 point to the same vector.
 - [x] The default access specifier for members of struct is public, whereas for member of class, it is private.
 - [ ] Template type parameters can be declared with classes, but not with the struct keyword.
 
+`The only difference is if you don’t specify the visibility (public, private or protected) of the members, they will be public in the struct and private in the class.`
+
 [Reference](https://www.fluentcpp.com/2017/06/13/the-real-difference-between-struct-class/)
 
 #### Q11. Suppose you need to keep a data struct with permission to access some resource based on the days of the week, but you can't use a bool variable for each day. You need to use one bit per day of the week. Which of the following is a correct implementation of a structure with bit fields for this application?
