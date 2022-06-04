@@ -730,3 +730,130 @@ public Pojo getPojo(@PathVariable("id") String id) {
 - [ ] active.spring.profiles
 - [x] spring.profiles.active
 - [ ] profiles
+
+#### Q71. Which statement is true regarding loading and instantiation of Spring factories?
+
+- [ ] During startup, the SpringFactoryInitializr collects all files in the CONFIG-INF directory from each dependency and downloads binaries to run each file.
+- [ ] During startup, the SpringFactoriesLoader gets a list of config and collects all the files in META-INF directory from dependencies. Then it builds a composite list for application context configurations.
+- [ ] During shutdown, the SpringFactoryDestructor collects all the files in META-INF directory from each dependency and begins shutting down each thread and process.
+- [ ] During startup and shutdown, the SpringFactoryInitializr downloads project configs for all configured dependencies.
+
+#### Q72. What methods does this Pointcut expression reference?
+
+```java
+     execution(* com.linkedin.TestService.*(..))
+```
+
+- [ ] all methods of classes in the com.linkedin.TestService package
+- [ ] all methods of classes in the com.linkedin.TestService package annotated whith @Service
+- [ ] This Pointcut is not valid.
+- [ ] all methods defined by the TestService interface
+
+#### Q73. When configuring an application, which configuration is given precedence by Spring?
+
+- [ ] profile specific application-{profile}.properties files
+- [ ] Java System Properties
+- [ ] application properties located in an application.properties file inside the application.jar
+- [ ] profile specific application-{profile}.properties files located outside the application.jar
+
+#### Q74. What interface is used to represent a permission in Spring Security?
+
+- [ ] GrantedAuthority
+- [ ] SecurityChain
+- [ ] PermissionMatrix
+- [x] AccessRule
+
+#### Q75. What is the difference between constructor injection and setter injection?
+
+- [ ] Constructor injection overrides setter injection.
+- [ ] Setter injection creates a new instance if any modification occurs.
+- [ ] You can't use constructor injection for partial injection.
+- [ ] Constructor injection is more flexible than setter injection.
+
+#### Q76. Which println would you remove to stop this code from throwing a null pointer exception?
+
+```java
+@Component
+public class Test implements InitializingBean {
+     @Autowired
+     ApplicationContext context;
+     @Autowired
+     static SimpleDateFormat formatter;
+
+     @Override
+     public void afterPropertiesSet() throws Exception {
+          System.out.println(context.containsBean("formatter") + " ");
+          System.out.println(context.getBean("formatter").getClass());
+          System.out.println(formatter.getClass());
+          System.out.println(context.getClass());
+     }
+}
+@Configuration
+class TestConfig {
+     @Bean
+     public SimpleDateFormat formatter() {
+          return new SimpleDateFormat();
+     }
+}
+```
+
+- [ ] formatter.getClass()
+- [ ] context.containsBean("formatter")
+- [ ] context.getBean("formatter").getClass()
+- [ ] context.getClass()
+
+#### Q77. What is the default rollback policy?
+
+- [ ] A rollback is triggered during any error that occurs during the transaction.
+- [ ] When an instance or subclass of Exception is thrown, this triggers a rollback, while any runtime exceptions do not.
+- [ ] Anytime an instance or subclass of Throwable is thrown, this triggers a rollback.
+- [ ] When an instance or subclass of RuntimeException is thrown, this triggers a rollback, while any checked Exception does not.
+
+#### Q78. What is the difference between a CrudRepository and a JpaRepository?
+
+- [ ] The CrudRepository extends the PagingAndSortingRepository, while the JpaRepository does not.
+- [ ] The CrudRepository exposes a superset of interface methods containing every datastore-specific method supported by Spring data. The JpaRepository contains only those specific to Spring Data JPA.
+- [ ] The CrudRepository is a base interface within Spring Data core that exposes a dedicated set of functions. The JpaRepository is a store-specific interface that exposes functionality specific to JPA.
+- [ ] The CrudRepository is part of the Java EE API, while JpaRepository is specific to Spring Data.
+
+#### Q79. What is the security filter chain?
+
+- [ ] It's a security filter chain that provides authentication with manual intervention such that multiple administrators of the system are able to approve users with auditability and traceability.
+- [ ] It's a series of user-completed activities—such as password authorization, token verification, and many others—that require multiple factors of authentication to increase the level of security in the system.
+- [ ] It's a servlet filter chain where each filter has a specific responsibility such as security context, user and password authorization, exception translation, or filter security interception, processed in order.
+- [ ] It's a security filter chain that consumes multiple factors of authentication—such as password, token verification, biometrics, and IP whitelisting—to successfully log a user into the system.
+
+#### Q80. Which is not a valid stereotype annotation?
+
+- [ ] @Component
+- [ ] @Service
+- [ ] @HtmlController
+- [ ] @Controller
+
+#### Q81. Which statement is true regarding loading and instantiation of Spring factories?
+
+- [ ] During startup, the SpringFactoriesLoader gets a list of configs and collects all the files in META-INF directory from dependencies. Then it builds a composite list for application context configurations.
+- [ ] During shutdown, the SpringFactoryDestructor collects all the files in META-INF directory from each dependency and begins shutting down each thread and process.
+- [ ] During startup, the SpringFactoryInitializr collects all files in the CONFIG-INF directory from each dependency and downloads binaries to run each file.
+- [ ] During startup and shutdown, the SpringFactoryInitializr downloads project configs for all configured dependencies.
+
+#### Q82. What methods does this Pointcut expression reference?
+
+- [ ] all methods defined in the service package
+- [ ] The Pointcut is not valid.
+- [ ] all methods defined in a service interface
+- [ ] all methods defined in the service package or one of its subpackages
+
+#### Q83. What is a transaction isolation level?
+
+- [ ] executing each transaction in its own dedicated threadpool to facilitate thread isolation
+- [ ] facilitating each transaction to occur on its own dedicated vCPU to guarantee throughput
+- [ ] the level of visibility and access a transaction has to the units of work of other transactions such as uncommitted writes
+- [ ] executing each transaction on its own process to provide resource isolation
+
+#### Q84. What does the statement “Spring offers fully-typed advice” mean?
+
+- [ ] You declare the parameters you need in the advice signature rather than work with Object[] arrays.
+- [ ] You work with a collection of Objects that need to be explicitly casted.
+- [ ] You work with an array of a Generic type T[] instead of Object[] arrays.
+- [ ] You are able to undo type erasure in the Object[] that is exposed

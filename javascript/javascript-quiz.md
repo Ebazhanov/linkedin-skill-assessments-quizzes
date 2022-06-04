@@ -1046,7 +1046,7 @@ setTimeout(() => {
 console.log('Javascript!');
 ```
 
-- [ ]
+- [x]
 
 ```plaintext
 I
@@ -1062,7 +1062,7 @@ I
 Javascript!
 ```
 
-- [x] The output may change with each execution of code and cannot be determined.
+- [] The output may change with each execution of code and cannot be determined.
 
 - [ ]
 

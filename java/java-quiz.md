@@ -1874,3 +1874,10 @@ numbers                         // Input `List<Integer>` > [1, 2, 3, 4] <br>
     .mapToInt(x -> x * x)       // Square the number, converts `Integer` to an `int`, and returns `IntStream` > [4, 16] <br>
     .sum()                      // Returns the sum as `int` > 20
 ```
+
+#### Q126. Which is not one of the standard input/output streams provided by java.lang.System?
+
+ - [x] print
+ - [ ] out
+ - [ ] err
+ - [ ] in

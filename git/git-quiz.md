@@ -965,3 +965,12 @@ hint: Updates were rejected because the remote contains work that you do not hin
 - [ ] - git log --search-string "MaxConnections"
 - [x] - git log -S "MaxConnections"
 - [ ] - git commit --with "MaxConnections"
+
+#### Q119. Your company has moved its remote repository to GitHub at this location: https://github.com/yourcompany/core-api.git. What command updates the
+
+remote repository, named origin, to point to the new remote repository at this location?
+
+- [ ] - git remote create-update origin https://github.com/yourcompany/core-api.git
+- [ ] - git remote update origin https://github.com/yourcompany/core-api.git
+- [x] - git remote set-url origin https://github.com/yourcompany/core-api.git
+- [ ] - git remote add https://github.com/yourcompany/core-api.git
