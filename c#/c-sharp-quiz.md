@@ -711,7 +711,7 @@ public int Password
 
 #### Q66. Do you need to declare an out variable before you use it?
 
-- [x] `No, you can declare it the parameter list.`
+- [x] `No, you can declare it in the parameter list.`
 - [ ] `Out variables are no longer part of C#.`
 - [ ] `You must declare it if it is a primitive type.`
 - [ ] `Yes.`
