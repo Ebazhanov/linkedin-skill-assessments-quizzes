@@ -1884,12 +1884,21 @@ numbers                         // Input `List<Integer>` > [1, 2, 3, 4] <br>
 
 #### Q127. The compiler is complaining about this assignment of the variable pickle to the variable jar. How woulld you fix this?
 
+```java
+double pickle = 2;
+int jar = pickle;
+```
+
 - [ ] Use the method toInt() to convert pickle before assigning it to jar.
 - [x] Cast pickle to an int before assigning it to jar.
 - [ ] Make pickle into a double by adding + ".0"
 - [ ] Use the new keyword to create a new Integer from pickle before assigning it to jar.
 
 #### Q128. What value should x have to make this loop execute 10 times?
+
+```java
+for(int i=0; i<30; i+=x) {}
+```
 
 - [ ] 10
 - [x] 3
