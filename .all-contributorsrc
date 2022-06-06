@@ -9131,6 +9131,26 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "VHAA1718",
+      "name": "VictorHugoAguilarAguilar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37845751?v=4",
+      "profile": "https://github.com/VHAA1718",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "muratcanabay",
+      "name": "Murat Can Abay",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23099059?v=4",
+      "profile": "https://muratcanabay.github.io/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
