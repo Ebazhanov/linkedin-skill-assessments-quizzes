@@ -443,3 +443,12 @@ mvn install
 - [ ] src/main/archetype
 - [x] src/main/resources/archetype-resources
 - [ ] src/main/java
+
+#### Q57. The primary purpose of Apache Maven is to provide uniform, easy, and standardized \_.
+
+- [ ] versioning
+- [ ] project structure
+- [ ] source code style
+- [x] builds
+
+[maven docs](https://maven.apache.org/what-is-maven.html#:~:text=Maven's%20primary%20goal%20is%20to,Providing%20a%20uniform%20build%20system)
