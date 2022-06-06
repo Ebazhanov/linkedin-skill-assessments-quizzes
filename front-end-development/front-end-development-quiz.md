@@ -727,3 +727,10 @@ box {
 - [ ] href="17045551151"
 - [ ] href="phone:+1704551151"
 - [ ] href="call:+17045551151"
+
+#### Q73. In the color value hsl(38, 90%, 60%), what does 38 represent?
+
+- [x] the tint of the color matching 38 degrade on the color wheel
+- [ ] the opacity of the color indicating 38% of fully opacity
+- [ ] the brightness of the color matching a brightness of 38% 
+- [ ] the intensity of the color matching an intensity of 38%
