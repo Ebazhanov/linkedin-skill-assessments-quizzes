@@ -1532,3 +1532,12 @@ $('.items')
 - [x] Some events, such as mousemove and scroll, happen a lot on a typical page. Debounce or throttle their handlers to make sure the handlers are not called more than you actually need.
 - [ ] Listening for an event that does not exist can create serious memory leaks. Be careful to spell event names correctly to avoid consuming too much memory.
 - [ ] DOM elements with an ID wil fire events more efficiently than with classes. Always use IDs instead of classes where possible.
+
+#### Q77. What is the purpose of the jQuery.fx.off global property?
+
+- [ ] It turns off animations that are used to provide motion effect, but appearance effects remain enabled.
+- [ ] It causes animation effects that are triggered via functions to instead be executed using CSS.
+- [x] It globally disables all animations. When animations are run, all animation methods will immediately set elements to their final state when called, rather than displaying an effect.
+- [ ] It globally disables animations that are triggered by CSS class changes.
+
+[Source: jQuery.fx.off Property](https://www.w3schools.com/jquery/prop_jquery_fx_off.asp)

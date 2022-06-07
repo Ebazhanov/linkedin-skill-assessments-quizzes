@@ -399,3 +399,12 @@ MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 - [x] Redis
 - [ ] MySQL
 - [ ] Cassandra
+
+#### Q54. You need to create a scalable databse to store and query JSON data. What do you use?
+
+- [ ] relational DB
+- [x] document DB
+- [ ] graph DB
+- [ ] ledger DB
+
+[store and query JSON](https://aws.amazon.com/nosql/document/#:~:text=The%20document%20database%20defined,use%20in%20their%20application%20code.)

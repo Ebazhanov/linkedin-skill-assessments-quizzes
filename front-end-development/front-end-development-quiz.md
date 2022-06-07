@@ -699,3 +699,38 @@ box {
 - [x] 220px
 - [ ] 200px
 - [ ] 260px
+
+#### Q70. How would you round the value 11.354 to the nearest full integer?
+
+- [ ] round(11.354);
+- [x] Math.round(11.354);
+- [ ] Math.rnd(11.354);
+- [ ] Maths.round(11.354);
+
+#### Q70. What is the JavaScript compiler Babel used for?
+
+- [x] converts ECMAScript 2015+ code into backward compatible version of JS to support older browsers
+- [ ] used to bundle individual JS files for use in your website
+- [ ] convert older JS code into modern ECMAScript 2015+ code
+- [ ] it is a SSR library that can enhance SEO and accessibility of your site
+
+#### Q71. What is the correct way to link to an external stylesheet from the head of an HTML document?
+
+- [x] `<link rel="stylesheet" href="styles.css">`
+- [ ] `<script type="text/css" href="styles.css"></script>`
+- [ ] `<script type="text/css" src="styles.css">`
+- [ ] `<link rel="css" href="styles.css">`
+
+#### Q72. Which href attribute creates a link to the telephone number 1-(704) 555-1151?
+
+- [x] href = "tel:+17045551151"
+- [ ] href="17045551151"
+- [ ] href="phone:+1704551151"
+- [ ] href="call:+17045551151"
+
+#### Q73. In the color value hsl(38, 90%, 60%), what does 38 represent?
+
+- [x] the tint of the color matching 38 degrade on the color wheel
+- [ ] the opacity of the color indicating 38% of fully opacity
+- [ ] the brightness of the color matching a brightness of 38% 
+- [ ] the intensity of the color matching an intensity of 38%

@@ -678,3 +678,30 @@
 - [ ] apprentice developer
 
 [Source](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of “T-shaped” people. This can also be described as a cross-functionality.`
+
+#### Q95. What is a lean canvas?
+
+- [ ] decompose solution into epics, features, and stories
+- [x] template for lightweight business plans that makes your assumptions explicit
+- [ ] tool to plan future project releases
+- [ ] technique for projecting growth in market share.
+
+[Source](http://ask.leanstack.com/en/articles/901274-what-is-a-lean-canvas) `1-page business plan template that helps you deconstruct your idea into its key assumptions using 9 basic building blocks.`
+
+#### Q96. The team is not going to complete its Sprint Commitment. As Team Facilitator, what should you do?
+
+- [ ] advise the PO as soon as possible
+- [ ] point out the reasons why and collaborate on solutions
+- [ ] report this at the Sprint Review
+- [x] Ask the PO to extend the sprint
+
+[Source](https://mcqpoint.com/question/what-happens-when-all-the-sprint-items-cannot-be-completed/) `non verified answer - extend, otherwise goes to backlog`
+
+#### Q97. Which of these traits is most important for being an effective Team Facilitator?
+
+- [x] being self-aware
+- [ ] being extroverted
+- [ ] having type A personality (def not this :P)
+- [ ] being someone who takes charge
+
+[Source](https://www.globalknowledge.com/us-en/course/87262/agile-team-facilitation-icp-atf/) `non verified answer - A facilitator is someone who helps a group identify common objectives and then offers group processes to achieve defined outcomes while maintaining neutrality. A skilled facilitator consciously embodies self-awareness, self-management, and bias management, while conveying openness and enthusiasm. `

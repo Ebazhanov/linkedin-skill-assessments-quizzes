@@ -1046,7 +1046,7 @@ setTimeout(() => {
 console.log('Javascript!');
 ```
 
-- [ ]
+- [x]
 
 ```plaintext
 I
@@ -1062,7 +1062,7 @@ I
 Javascript!
 ```
 
-- [x] The output may change with each execution of code and cannot be determined.
+- [] The output may change with each execution of code and cannot be determined.
 
 - [ ]
 
@@ -1829,3 +1829,20 @@ console.log(test);
 - [ ] 6
 - [ ] 2
 - [ ] 12
+
+#### Q130. Which code would you use to access the Irish flag?
+
+```js
+var flagsJSON =
+  '{ "countries" : [' +
+  '{ "country":"Ireland" , "flag":"🇮🇪" },' +
+  '{ "country":"Serbia" , "flag":"🇷🇸" },' +
+  '{ "country":"Peru" , "flag":"🇵🇪" } ]}';
+
+var flagDatabase = JSON.parse(flagsJSON);
+```
+
+- [ ] flagDatabase.countries[1].flag
+- [x] flagDatabase.countries[0].flag
+- [ ] flagDatabase[1].flag
+- [ ] flagsJSON.countries[0].flag
