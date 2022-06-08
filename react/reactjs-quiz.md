@@ -822,8 +822,8 @@ const MyComponent = ({ names }) => (
 ```
 
 - [ ] React components cannot be defined using functions.
-- [x] React does not allow components to return more than one element.
-- [ ] The component needs to use the return keyword.
+- [ ] React does not allow components to return more than one element.
+- [x] The component needs to use the return keyword.
 - [ ] String literals must be surrounded by quotes.
 
 #### Q71. When using a portal, what is the second argument?
