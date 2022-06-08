@@ -1014,3 +1014,12 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] Upper
 - [ ] Titlecase
 - [x] Proper
+
+#### Q122. In cell C2, how would you limit the user to choosing one of the company's five regions(East, Central, North, South, West)?
+
+![image](./images/Q122.png)
+
+- [ ] Use reference tabs to create a drop-down list
+- [ ] Use a PivotTable slicer to create a drop-down list
+- [ ] Insert a table in the data to create a drop-down list
+- [x] Use data validation to create a drop-down list
