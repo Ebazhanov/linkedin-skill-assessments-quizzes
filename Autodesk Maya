@@ -1,0 +1,13 @@
+ #### Q.1 What type of geometry works best for an nCloth shape?
+
+      [ ] alembic cache
+      [ ] triangle mesh
+      [ ] NURBS
+      [ ] quadrilateral mesh
+      
+ #### Q.2 Which tool is designed to enable an artist to manually retopologize a mesh?
+ 
+      [ ] Append to Polygon
+      [ ] Create Polygon
+      [ ] Sculpt
+      [ ] Quad Draw
