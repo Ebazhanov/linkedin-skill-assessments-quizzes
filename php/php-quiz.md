@@ -1067,3 +1067,36 @@ for($x = 0; $x < $arrlength; $x++){
 - [ ] It saves a lot of work of using getters methods to access the values of objects.
 - [x] It allows you to call an object and see its components as a string.
 - [ ] It is automatically called when you use echo or print.
+
+#### Q87. What is a generator and how is it used in PHP?
+
+- [ ] A generator is a function that produces a series of random values for unit testing code.
+- [ ] A generator is a simple iterator capable of producing a series of results. It has the same syntax as a function, except it uses "next" instead of "return".
+- [x] A generator is a simple iterator capable of producing a series of results. It has the same syntax as a function, except it uses "yield" instead of "return".
+- [ ] A generator is a function capable of producing a series of results. At the end of the series, it automatically starts from the first one again.
+
+#### Q88. What is the best description of what this script is/does?
+
+```php
+if( isset($user_info['url']) ) {
+  $_SESSION["loggedIn"] = true;
+  $_SESSION["username"] = $myusername;
+  header('Location: ' . $user_info['url']); //Redirects to the supplied url from the DB
+} else {
+  header("Location: error.htm");
+}
+```
+
+- [ ] It directs all users to the same page when they log in.
+- [ ] It is a login script for a user portal on a website.
+- [ ] It keeps the user logged in across different browsers.
+- [ ] It sends the user to an error page if they enter the wrong URL
+
+#### Q89. What is the output of this code?
+
+`echo 5 % 0.75;`
+
+- [ ] 0
+- [ ] 0.6666666666667
+- [ ] 1
+- [x] fatal error (division by zero)
