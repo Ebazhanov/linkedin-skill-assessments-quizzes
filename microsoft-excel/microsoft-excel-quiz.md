@@ -1026,6 +1026,8 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q123. To calculate gross pay, hours are multiplied by the hourly rate. What formula would you put in cell C4 to then able to copy that cell down to the rest of the column
 
+![image](./images/Q123.png)
+
 - [ ] ``` =B1*$B$4 ```
 - [ ] ``` =$B1*B4 ```
 - [ ] ``` =B1*B4 ```
