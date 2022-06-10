@@ -972,3 +972,38 @@ a = [ 1 2 3 4];
 - [ ] to avoid HDF5 overhead in MAT-file
 - [x] to include a variable greater that 2GB
 - [ ] to use compression by default
+
+#### Q65. Which choice cannot add a directory to the search path?
+
+- [x] the **path** function
+- [ ] the **savepath** function
+- [ ] using **Set Path** in the **Environment** menu
+- [ ] the **addpath** function
+
+#### Q66. Which is not a function to plot three-dimensional data?
+
+- [ ] mesh
+- [ ] surf
+- [ ] contour
+- [x] grid
+
+#### Q67. At what will MATLAB look first for a called function?
+- [ ] built-in functions
+- [x] functions within the current directory
+- [ ] functions on the path
+- [ ] functions within the current file
+
+#### Q68. What is the reason to save a MAT-file using the v-7.3 flag?
+- [ ] to use compression by default
+- [ ] to ensure backward compatibility
+- [x] to include a variable greater than 2GB
+- [ ] to avoid HDF5 overhead in MAT-file  
+
+#### Q69. This graph could be the result of which block of code?
+
+![MatLab Q41](images/matlab_Q41.png)
+
+- [x] ``` a = randn(1,1000); histogram(a) ylabel('counts') ```
+- [ ] ``` a = rand(1,1000); histogram(a) ylabel('counts') ```
+- [ ] ``` a = randi(1,1000); histogram(a) ylabel('counts') ```
+- [ ] ``` a = rng(1,1000); histogram(a) ylabel('counts') ```

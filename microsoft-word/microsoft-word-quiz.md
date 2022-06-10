@@ -718,3 +718,10 @@ Duplicated with Q50.
 - [ ] A or B
 - [ ] C or D
 - [ ] A, B, or C
+
+#### Q91. You want to start a new text section at the current cursor position without adding a new page. Which type of section break should you choose?
+
+- [x] Continuous
+- [ ] Even Page
+- [ ] Next Page
+- [ ] Odd Page

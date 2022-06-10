@@ -302,3 +302,53 @@
 - [ ] last search
 - [ ] linear
 - [ ] last click
+
+#### Q44. Farhann is running advertisements that are targetting only Italy, but he sees that his ads are receiving clicks from people in Greece. What is the most likely reason?
+
+- [ ] Italian people visiting Greece are searching for "best restaurant in Greece"
+- [x] People in Greece are conducting searches such as "best restaurant in Italy"
+- [ ] Greek people visiting Italy are searching for "best restaurants in Italy"
+- [ ] People in Italy are conducting searches such as "best restaurants in Greece"
+
+#### Q45. Which average daily budget will maximize the number of impressions you receive, but ensure that you will never spend more than $45 in a single day?
+
+- [x] $22
+- [ ] $44
+- [ ] $30
+- [ ] $15
+
+#### Q46. Linzi wants to her ads to show up at the very top of the search result page, regardless of what it costs. What would you suggest she do in order to show in the top result a specified percentage of the time? 
+
+- [ ] Inform Linzi this is not possible
+- [ ] Use the Target Impression Share bid strategy
+- [ ] Use the maximum bid amount as suggested by Keyword Planner
+- [ ] Create an ad group, with top of page as the only location target
+
+#### Q47. Ursula owns a yoga studio in New York City (NYC). A customer performs several searches in the following order: "yoga studio near me", "best yoga NYC", "yoga free trial NYC". What attribution model would assign 100% of the credit for the conversion to yoga free trial NYC?
+
+- [ ] last search
+- [x] last click
+- [ ] last position
+- [ ] linear
+
+#### Q48. What destination URL would you need to configure to send traffic directly to a page within a mobile app?
+
+- [ ] universal link
+- [x] path link
+- [ ] app link
+- [ ] deep link
+
+#### Q49. Why is it important to know your cost per conversion?
+
+- [ ] You can compare your cost per conversion to your competitors
+- [ ] All of these answers
+- [x] Your cost per conversion helps you understand your ROI
+- [ ] A lower cost per conversion  will improve your ad rank
+
+#### Q50. Mark has configured ad extensions for every campaign, but his ads never show them. What is the most likely explanation?
+
+- [x] The Ad Rank is too low
+- [ ] The bidding strategy is not set to ECPC
+- [ ] The search query has misspellings
+- [ ] The bid is too low
+ 
