@@ -1032,3 +1032,21 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] ``` =$B1*B4 ```
 - [ ] ``` =B1*B4 ```
 - [x] ``` =$B$1*B4 ```
+
+#### Q124. What do blue row numbers indicate?
+
+![image](./images/Q124.png)
+
+- [ ] The cells are selected/highlighted
+- [ ] Excel's options have been changed
+- [ ] Certain rows in the data set are hidden
+- [x] A filter is applied
+
+#### Q125. Based on the data in columns D,G,H, and K below, what formula will calculate the average compensation for full-time employees who have a job rating of 5?
+
+![image](./images/Q125.png)
+
+- [ ] ``` =AVERAGEIF(D:D,K2,H:H,5,G:G) ```
+- [ ] ``` =AVERAGEIF(G:G,D:D,K2,H:H,5) ```
+- [ ] ``` =AVERAGEIFS(K2,H:H,5,G:G) ```
+- [x] ``` =AVERAGEIFS(G:G,D:D,K2,H:H,5) ```
