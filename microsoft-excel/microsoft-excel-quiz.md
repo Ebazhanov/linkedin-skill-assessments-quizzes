@@ -1023,3 +1023,10 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] Use a PivotTable slicer to create a drop-down list
 - [ ] Insert a table in the data to create a drop-down list
 - [x] Use data validation to create a drop-down list
+
+#### Q123. To calculate gross pay, hours are multiplied by the hourly rate. What formula would you put in cell C4 to then able to copy that cell down to the rest of the column
+
+- [ ] ``` =B1*$B$4 ```
+- [ ] ``` =$B1*B4 ```
+- [ ] ``` =B1*B4 ```
+- [x] ``` =$B$1*B4 ```
