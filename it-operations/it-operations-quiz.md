@@ -524,3 +524,9 @@
 - [x] Fix the issue in Safe Mode that is causeing the system to restart in this mode. 
 - [ ] Check the MSCONFIG utility to ensure that Normal boot is selected.
 
+#### Q67. Expansion cards follow which current interface standard?
+
+- [ ] MCA
+- [ ] PCMCIA
+- [ ] ISA
+- [x] PCIe
