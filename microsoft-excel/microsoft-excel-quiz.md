@@ -239,15 +239,6 @@
 - [x] Data Validation
 - [ ] Filter
 
-#### Q33. You want to apply subtotals per sport in the data below. What should you do before applying subtotals?
-
-![Subtotal](images/001.png?raw=true)
-
-- [ ] Format the data in column E.
-- [ ] Format the data in column D.
-- [x] Sort the data in column D.
-- [ ] Sort the data in column E.
-
 #### Q34. When you sort a list of numerical value into ascending or descending order, the value in the middle of the list is the \_.
 
 - [ ] mode
