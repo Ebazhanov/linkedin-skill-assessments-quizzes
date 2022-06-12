@@ -931,7 +931,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 #### Q115. What is one way to center text in a cell?
 
 - [ ] Right-click the cell and select **Center** (Windows) or **Center Text** (Mac).
-- [ ] Seletct the cell and, on the **View** tab in the **Cells** section, click **Alignment** and select **Center** (Windows) or **Center Text** (Mac).
+- [ ] Select the cell and, on the **View** tab in the **Cells** section, click **Alignment** and select **Center** (Windows) or **Center Text** (Mac).
 - [x] Select the cell and, on the **Home** tab in the **Alignment** section, click **Center** (Windows) or **Center Text** (Mac).
 - [ ] Change the width of the cell until the **text** is centered.
 
