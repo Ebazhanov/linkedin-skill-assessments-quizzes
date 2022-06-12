@@ -137,13 +137,6 @@
 - [ ] The cell is comprised of 9 characters.
 - [ ] The number 9 appears once and only once within the cell.
 
-#### Q20. To ensure shapes and other objects are an equal left-to-right distance apart, select the shapes, click Page Layout > Align, and then click \_.
-
-- [ ] Align Middle
-- [ ] Distribute Horizontally
-- [x] Distribute Vertically
-- [ ] Align Center
-
 #### Q21. An organization chart, which shows the hierarchy within a company or organization, is available as \_ that is included with Excel.
 
 - [ ] a 3D model
