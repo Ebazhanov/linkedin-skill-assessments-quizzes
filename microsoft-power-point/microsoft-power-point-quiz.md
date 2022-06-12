@@ -653,3 +653,10 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] Slides cannot be modified while in Note Page view.
 - [ ] Use the Zoom slider to magnify the slide contents
 - [ ] Right-click the slide and select edit
+
+#### Q85. You want to group your slides based on their content to better organize your presentation. How would you accomplish this?
+
+- [ ] Create an outline in the outline view and rearrange slides.
+- [ ] Add a table of contents slide and link the remaining slides to it.
+- [ ] Add sections and move the slides into the appropriate sections.
+- [ ] Create custom shows and add the slides into the shows.

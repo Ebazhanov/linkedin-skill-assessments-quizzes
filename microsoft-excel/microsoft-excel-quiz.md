@@ -677,13 +677,6 @@ Table[Column] can be used instead of cell references (C2:C7).
 - [ ] On the `Drawing Tools Format` tab, select `Graphics Fill` > `Remove Background`.
 - [x] Select the image and, on the `Picture Tools Format` tab, click the Remove Background button.
 
-#### Q84. You want to group your slides based on their content to better organize your presentation. How would you accomplish this?
-
-- [ ] Create an outline in the outline view and rearrange slides.
-- [ ] Add a table of contents slide and link the remaining slides to it.
-- [ ] Add sections and move the slides into the appropriate sections.
-- [ ] Create custom shows and add the slides into the shows.
-
 #### Q85. What is the result of the formula =4&3?
 
 - [x] 43
