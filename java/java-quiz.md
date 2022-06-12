@@ -1877,10 +1877,10 @@ numbers                         // Input `List<Integer>` > [1, 2, 3, 4] <br>
 
 #### Q126. Which is not one of the standard input/output streams provided by java.lang.System?
 
- - [x] print
- - [ ] out
- - [ ] err
- - [ ] in
+- [x] print
+- [ ] out
+- [ ] err
+- [ ] in
 
 #### Q127. The compiler is complaining about this assignment of the variable pickle to the variable jar. How woulld you fix this?
 

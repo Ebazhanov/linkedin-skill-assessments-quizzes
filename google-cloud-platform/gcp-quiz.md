@@ -438,6 +438,7 @@ Explanation: Google does not store your keys on its servers and cannot access yo
 [Reference](https://cloud.google.com/compute/docs/disks/customer-supplied-encryption)
 
 #### Q56. You want to build a data lake application on GCP. Which two services should you use?
+
 - [ ] Cloud Storage and Cloud Spanner
 - [x] Cloud Storage and Big Query
 - [ ] Cloud Pub/Sub and Cloud Spanner

@@ -913,7 +913,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q110. Given the image below, what happens if you type "P" in cell A6?
 
-![image](https://user-images.githubusercontent.com/1056999/159387628-9f960f22-9b50-4764-b4d9-31b5914b164a.png)
+![image](images/Q110.png)
 
 - [ ] The letter "P" appears.
 - [x] The word "Perez" appears and the active cell remains in Edit mode.
@@ -929,7 +929,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q112. How can you see the data in column E?
 
-![image](https://user-images.githubusercontent.com/1056999/159387970-6ff9d57c-adb2-452b-83af-66d9f3fdc908.png)
+![image](images/Q112.png)
 
 - [ ] Close the workbook without saving and reopen it.
 - [ ] Turn off conditional formatting.
@@ -938,7 +938,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q113. In the worksheet below, a table called Projects extends from cell A1 to D10. Cell D1 contains the text Status. Cell E12 contains the formula =Projects[@Status]. What does this formula return?
 
-![image](https://user-images.githubusercontent.com/1056999/159388193-743a1393-d61f-47b1-a4ae-346f36fb3160.png)
+![image](images/Q113.png)
 
 - [ ] #VALUE!
 - [ ] a blank cell
@@ -947,7 +947,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q114. Which Excel feature allows you to select all cells in the column with inconsistent formulas compared to the rest of the column?
 
-![image](https://user-images.githubusercontent.com/1056999/159388456-054ba0ae-c595-4aaa-8d38-351f726885ca.png)
+![image](images/Q114.png)
 
 - [x] On the Home tab, click Go To > Special > Column differences.
 - [ ] On the Formulas tab, click Trace precedents.
@@ -974,7 +974,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q117. Given the image below, what happens if you type "P"in cell A6?
 
-![image](https://user-images.githubusercontent.com/35125965/161691848-4c888572-c649-457c-b7a0-58c64947ff7f.png)
+![image](images/Q117.png)
 
 - [ ] The word "Perez" appears and immediately the active cell moves down.
 - [x] The word "Perez" appears and the active cell remains in Edit mode.
@@ -1017,7 +1017,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q122. In cell C2, how would you limit the user to choosing one of the company's five regions(East, Central, North, South, West)?
 
-![image](./images/Q122.png)
+![image](images/Q122.png)
 
 - [ ] Use reference tabs to create a drop-down list
 - [ ] Use a PivotTable slicer to create a drop-down list
@@ -1026,27 +1026,29 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q123. To calculate gross pay, hours are multiplied by the hourly rate. What formula would you put in cell C4 to then able to copy that cell down to the rest of the column
 
-![image](./images/Q123.png)
+![image](images/Q123.png)
 
-- [ ] ``` =B1*$B$4 ```
-- [ ] ``` =$B1*B4 ```
-- [ ] ``` =B1*B4 ```
-- [x] ``` =$B$1*B4 ```
+- [ ] `=B1*$B$4`
+- [ ] `=$B1*B4`
+- [ ] `=B1*B4`
+- [x] `=$B$1*B4`
 
 #### Q124. What do blue row numbers indicate?
 
-![image](./images/Q124.png)
+![image](images/Q124.png)
 
 - [ ] The cells are selected/highlighted
 - [ ] Excel's options have been changed
 - [ ] Certain rows in the data set are hidden
 - [x] A filter is applied
 
+[Reference](https://answers.microsoft.com/en-us/msoffice/forum/all/blue-row-numbers-in-excel-2010-even-though-there/d11519c0-5c94-4ec9-b659-f7bd8c2494f3)
+
 #### Q125. Based on the data in columns D,G,H, and K below, what formula will calculate the average compensation for full-time employees who have a job rating of 5?
 
-![image](./images/Q125.png)
+![image](images/Q125.png)
 
-- [ ] ``` =AVERAGEIF(D:D,K2,H:H,5,G:G) ```
-- [ ] ``` =AVERAGEIF(G:G,D:D,K2,H:H,5) ```
-- [ ] ``` =AVERAGEIFS(K2,H:H,5,G:G) ```
-- [x] ``` =AVERAGEIFS(G:G,D:D,K2,H:H,5) ```
+- [ ] `=AVERAGEIF(D:D,K2,H:H,5,G:G)`
+- [ ] `=AVERAGEIF(G:G,D:D,K2,H:H,5)`
+- [ ] `=AVERAGEIFS(K2,H:H,5,G:G)`
+- [x] `=AVERAGEIFS(G:G,D:D,K2,H:H,5)`

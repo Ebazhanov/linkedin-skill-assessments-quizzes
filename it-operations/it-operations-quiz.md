@@ -521,7 +521,7 @@
 
 - [ ] Hold the Shift key as Windows boots.
 - [ ] Edit the registry key that controls the boot sequence.
-- [x] Fix the issue in Safe Mode that is causeing the system to restart in this mode. 
+- [x] Fix the issue in Safe Mode that is causeing the system to restart in this mode.
 - [ ] Check the MSCONFIG utility to ensure that Normal boot is selected.
 
 #### Q67. Expansion cards follow which current interface standard?
