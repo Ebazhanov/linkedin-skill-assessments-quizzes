@@ -83,13 +83,6 @@
 - [ ] Show in Compact For or Show in Outline Form
 - [x] Show in Tabular Form or Show in Outline Form
 
-#### Q12. A cell contains the value 7.877 and you want it to display as 7.9. How can you accomplish this?
-
-- [ ] Use the ROUND() function.
-- [x] Click the Decrease Decimal button twice.
-- [ ] In the cells group on the Home tab, click Format > Format Cells. Then click the Alignment tab and select Right Indent.
-- [ ] Click the Decrease Decimal button once.
-
 #### Q13. Which formula is NOT equivalent to all of the others?
 
 - [ ] =A3+A4+A5+A6
@@ -954,7 +947,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://support.microsoft.com/en-us/office/align-text-in-a-cell-b2489a1f-6c89-45b7-9562-bbc287aa71ea)
 
-#### Q116. Cell D1 contains the value 7.877. You want cell D1 to display the value as 7.9 but keep the original number in calculations. How can yu=ou accomplish this?
+#### Q116. Cell D1 contains the value 7.877. You want cell D1 to display the value as 7.9 but keep the original number in calculations. How can you accomplish this?
 
 - [ ] Click the **Decrease Decimal** button once.
 - [x] Click the **Decrease Decimal** button twice.
