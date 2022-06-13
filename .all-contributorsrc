@@ -9231,6 +9231,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "jpleboeuf",
+      "name": "Jean-Philippe Lebœuf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6379573?v=4",
+      "profile": "http://jean-philippe.leboeuf.name",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
