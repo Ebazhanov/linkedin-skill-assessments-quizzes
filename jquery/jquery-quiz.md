@@ -1541,3 +1541,10 @@ $('.items')
 - [ ] It globally disables animations that are triggered by CSS class changes.
 
 [Source: jQuery.fx.off Property](https://www.w3schools.com/jquery/prop_jquery_fx_off.asp)
+
+#### Q78. When you use custom Jquery selection extensions, such as :animated, on a page with lots of DOM elements, you can run into performance issues. What is the best practice for managing those issues?
+
+- [ ] Select `$(document.body)` first, then use .filter with the custom extension.
+- [ ] Use the custom extension with `.has()`.
+- [ ] Start with the custom extension, then use `.find` with a selector that exists in CSS to limit the selection.
+- [ ] Start with a selection that exists in CSS, then refine the selection using `.filter()` with the custom extension.

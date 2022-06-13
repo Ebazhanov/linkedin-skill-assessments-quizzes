@@ -546,8 +546,8 @@
 
 #### Q72. How can you make the magic wand tool select fewer variations of a color?
 
--[x]  uncheck Contiguous 
+-[x] uncheck Contiguous
 
-#### Q73. For curved smoother-looking edges on a selection, what selection should you pick? 
+#### Q73. For curved smoother-looking edges on a selection, what selection should you pick?
 
 -[x] anti-aliasing

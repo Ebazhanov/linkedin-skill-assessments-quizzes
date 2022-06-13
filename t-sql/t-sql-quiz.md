@@ -96,20 +96,26 @@ END CATCH
 
 #### Q8. You need to find all students that are not on the "Chemistry Cats" team. Which query does NOT work for this task?
 
-- [x] 
+- [x]
+
 ```SELECT * FROM Students
    WHERE team NOT 'Chemistry Cats';
 ```
-- [ ] 
+
+- [ ]
+
 ```SELECT * FROM Students
    WHERE team <> 'Chemistry Cats';
 ```
-      
-- [ ] 
+
+- [ ]
+
 ```SELECT * FROM Students
    WHERE team != 'Chemistry Cats';
 ```
-- [ ] 
+
+- [ ]
+
 ```SELECT * FROM Students
    WHERE NOT team = 'Chemistry Cats';
 ```
@@ -511,19 +517,25 @@ CREATE TABLE Publishers (
           FOREIGN KEY (PublisherID)
           REFERENCES Publishers (PublisherID) ON UPDATE SET NULL
 ```
-- [ ] 
+
+- [ ]
+
 ```ALTER TABLE Books
           ADD CONSTRAINT FK Books_PublisherID
           FOREIGN KEY (PublisherID)
           REFERENCES Publishers (PublisherID) ON DELETE CASCADE
 ```
-- [ ] 
+
+- [ ]
+
 ```ALTER TABLE Books
           ADD CONSTRAINT FK_Books_PublisherID
           FOREIGN KEY (PublisherID)
           REFERENCES Publishers (PublisherID)
 ```
-- [ ] 
+
+- [ ]
+
 ```ALTER TABLE Publishers
           ADD CONSTRAINT FK_Publishers_PublisherID
           FOREIGN KEY (PublisherID)

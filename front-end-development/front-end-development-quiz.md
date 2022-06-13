@@ -732,5 +732,5 @@ box {
 
 - [x] the tint of the color matching 38 degrade on the color wheel
 - [ ] the opacity of the color indicating 38% of fully opacity
-- [ ] the brightness of the color matching a brightness of 38% 
+- [ ] the brightness of the color matching a brightness of 38%
 - [ ] the intensity of the color matching an intensity of 38%

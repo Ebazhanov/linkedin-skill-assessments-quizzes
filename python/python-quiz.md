@@ -1777,3 +1777,10 @@ for x in range(1, len(characters)):
 self -refers to all instances within a class
 _init_ -a reserved method, aka a constructor
 _init_() -always executed when the class is being initiated
+
+#### Q132. Suppose you need to use the `sin` function from the `math` library. What is the correct syntax for importing only that function?
+
+- [ ] `using math.sin`
+- [ ] `import math.sin`
+- [x] `from math import sin`
+- [ ] `import sin from math`

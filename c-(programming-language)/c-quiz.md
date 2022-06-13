@@ -921,9 +921,11 @@ void *vptr=&g;
 [Reference](https://devdocs.io/c/memory)
 
 #### Q61. What does this function return?
+
 ```c
 int fl(int a, int b) { return(a>b?a:b); }
 ```
+
 - [ ] compiler error
 - [ ] the smaller value of the two passed parameters
 - [ ] runtime error
