@@ -1904,3 +1904,13 @@ for(int i=0; i<30; i+=x) {}
 - [x] 3
 - [ ] 1
 - [ ] 0
+	
+
+#### Q129. The _____ runs copmpiled Java code, while the _____ compiles Java files.
+
+- [ ] IDE; JRE
+- [ ] JDK; IDE
+- [x] JRE; JDK
+- [ ] JDK; JRE
+
+[Reference](https://stackoverflow.com/questions/1906445/what-is-the-difference-between-jdk-and-jre)
