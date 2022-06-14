@@ -624,11 +624,11 @@ D. They must have no duplicate data rows.
 - [ ] Create data models.
 - [ ] Add DAX calculations.
 
-#### Q80. What does the Power BI Advanced Editor allow you to do? (Select all that apply.) 
+#### Q80. What does the Power BI Advanced Editor allow you to do? (Select all that apply.)
 
-    A. Access the advanced editing commands. 
-    B. View the M code created by the Power Query Editor. 
-    C. Enter M code to shape your data. 
+    A. Access the advanced editing commands.
+    B. View the M code created by the Power Query Editor.
+    C. Enter M code to shape your data.
     D. Edit the M code created by the Power Query Editor.
 
 - [ ] A, B
