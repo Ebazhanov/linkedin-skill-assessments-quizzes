@@ -301,7 +301,7 @@
 - [ ] CloudFormation templates are a superset of SAM templates. CloudFormation templates include additional resource types.
 - [ ] SAM templates are a different name for CloudFormation templates. Both template types include the same resource types.
 
-#### Q44. What service deploys Lambdas regionally?
+#### Q44. What service deploys Lambdas regionally? 
 
 - [ ] `EdgeCloud`
 - [ ] `CloudEdge`
@@ -347,7 +347,7 @@
 - [ ] at the version, alias, or function levelat the version, alias, or function level
 - [ ] at the version or function level
 
-#### Q50. Lambda can read events from which other AWS services?
+#### Q50. Lambda can read events from which other AWS services? (ref-https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html)
 
 - [ ] Kinesis, S3, and SQS
 - [ ] Kinesis, S3, and SNS
