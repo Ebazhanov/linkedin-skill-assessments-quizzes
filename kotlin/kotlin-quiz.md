@@ -1088,13 +1088,12 @@ fun main() {
 
 [reference](https://kotlinlang.org/docs/basic-syntax.html#string-templates)
 
-
-#### Q84. You have enum class Signal that represent state of network connection. You want to iterate over each the member  of the enum. Which line of code shows how to do that `?
+#### Q84. You have enum class Signal that represent state of network connection. You want to iterate over each the member of the enum. Which line of code shows how to do that `?
 
 - [ ] Signal.sequence().
 - [ ] Signal.toArray().
 - [x] Signal.values().
-- [ ] Signal.toList(). 
+- [ ] Signal.toList().
 
 [reference](https://kotlinlang.org/docs/enum-classes.html#working-with-enum-constants)
 
@@ -1103,7 +1102,7 @@ fun main() {
 - [ ] Double quotes("").
 - [ ] Single quotes(').
 - [x] Tripple quote(""").
-- [ ] Backticks(). 
+- [ ] Backticks().
 
 [reference](https://kotlinlang.org/docs/coding-conventions.html#strings)
 
@@ -1112,10 +1111,9 @@ fun main() {
 - [ ] Public.
 - [x] Protected.
 - [ ] Internal.
-- [ ] Private. 
+- [ ] Private.
 
 [reference](https://kotlinlang.org/docs/visibility-modifiers.html#class-members)
-
 
 #### Q87. which line of code shows how to create a finite sequence of the numbers 1 to 99 and then convert it into a list?
 

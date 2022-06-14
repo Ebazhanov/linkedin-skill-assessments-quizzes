@@ -1904,9 +1904,8 @@ for(int i=0; i<30; i+=x) {}
 - [x] 3
 - [ ] 1
 - [ ] 0
-	
 
-#### Q129. The _____ runs copmpiled Java code, while the _____ compiles Java files.
+#### Q129. The **\_** runs copmpiled Java code, while the **\_** compiles Java files.
 
 - [ ] IDE; JRE
 - [ ] JDK; IDE

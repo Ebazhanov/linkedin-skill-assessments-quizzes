@@ -1,6 +1,6 @@
 ## jQuery
 
-#### Q1. What's the difference between these two snippets?
+#### Q1. What is the difference between these two snippets?
 
 ```js
 $('button').on('click', function () {
@@ -1409,7 +1409,7 @@ $('#element')
 1. [Source: .children() | jQuery API Documentation](https://api.jquery.com/children/)
 2. [Source: .contents() | jQuery API Documentation](https://api.jquery.com/contents/)
 
-#### Q72. If you JavaScript project involves a lot of DOM manipulation, but no AJAX or animation, which version of jQuery should you use?
+#### Q72. If your JavaScript project involves a lot of DOM manipulation, but no AJAX or animation, which version of jQuery should you use?
 
 - [ ] jQuery 3 compressed
 - [ ] jQuery 3 slim
@@ -1432,33 +1432,33 @@ $(function({
 - [ ] B
 
 ```js
-$(
-    $.get('http://httpbin.org/get'),
-    $.get('http://httpbin.org/delay/3')
- ).then(function(getData, delayedData)  {
-    //DOM is ready, getData and delayedData are available
+$($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(function (
+  getData,
+  delayedData,
+) {
+  //DOM is ready, getData and delayedData are available
 });
 ```
 
 - [ ] C
 
 ```js
-$.when(
-    $.get('http://httpbin.org/get'),
-    $.get('http://httpbin.org/delay/3')
- ).then(function(getData, delayedData)  {
-    //DOM is ready, getData and delayedData are available
+$.when($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(function (
+  getData,
+  delayedData,
+) {
+  //DOM is ready, getData and delayedData are available
 });
 ```
 
 - [x] D
 
 ```js
-$.ready(
-    $.get('http://httpbin.org/get'),
-    $.get('http://httpbin.org/delay/3')
- ).then(function(getData, delayedData)  {
-    //DOM is ready, getData and delayedData are available
+$.ready($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(function (
+  getData,
+  delayedData,
+) {
+  //DOM is ready, getData and delayedData are available
 });
 ```
 
@@ -1493,33 +1493,25 @@ https://api.jquery.com/detach/
 - [x] A
 
 ```js
-$('.items > li')
-  .first().fadeOut()
-  .nextUntil('.active').fadeTo('fast', 0.5);
+$('.items > li').first().fadeOut().nextUntil('.active').fadeTo('fast', 0.5);
 ```
 
 - [ ] B
 
 ```js
-$('.items')
-  .children(':first-child').fadeOut()
-  .filter('.active').fadeTo('fast', 0.5);
+$('.items').children(':first-child').fadeOut().filter('.active').fadeTo('fast', 0.5);
 ```
 
 - [ ] C
 
 ```js
-$('.items > li')
-  .first().fadeOut()
-  .nextAll('.active').fadeOut(50);
+$('.items > li').first().fadeOut().nextAll('.active').fadeOut(50);
 ```
 
 - [ ] D
 
 ```js
-$('.items')
-  .find('li:first-child').fadeOut()
-  .next('.active').fadeTo('fast', 0.5);
+$('.items').find('li:first-child').fadeOut().next('.active').fadeTo('fast', 0.5);
 ```
 
 1. https://api.jquery.com/fadeTo/
