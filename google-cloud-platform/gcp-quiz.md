@@ -436,3 +436,10 @@ Explanation: _BigQuery offers a choice of two pricing models for runnig queries:
 Explanation: Google does not store your keys on its servers and cannot access your protected data unless you provide the key. This also means that if you forget or lose your key, there is no way for Google to recover the key or to recover any data encrypted with the lost key.
 
 [Reference](https://cloud.google.com/compute/docs/disks/customer-supplied-encryption)
+
+#### Q56. You want to build a data lake application on GCP. Which two services should you use?
+
+- [ ] Cloud Storage and Cloud Spanner
+- [x] Cloud Storage and Big Query
+- [ ] Cloud Pub/Sub and Cloud Spanner
+- [ ] Cloud Pub/Sub and Big Query

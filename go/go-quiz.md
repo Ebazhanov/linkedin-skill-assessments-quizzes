@@ -487,7 +487,7 @@ fmt.Printf("%f\n", price)
 
 [documentation](https://pkg.go.dev/cmd/go#hdr-Build_constraints)
 
-#### Q40. What is the correct syntax ta start a goroutine that will `print Hello Gopher!`?
+#### Q40. What is the correct syntax to start a goroutine that will `print Hello Gopher!`?
 
 - [ ] `go(fmt.Println("Hello Gopher!"))`
 - [ ] `go func() { fmt.Println("Hello Gopher!") }`

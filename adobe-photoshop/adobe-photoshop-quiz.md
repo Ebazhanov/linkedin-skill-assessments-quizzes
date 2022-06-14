@@ -531,3 +531,23 @@
 - [x] Image Size
 - [ ] Canvas Size
 - [ ] Apply Image
+
+#### Q69. Which tool can you use to manually darken an area of an image
+
+- [x] The Burn Tool
+
+#### Q70. How many layer masks can be added to an image?
+
+- [x] up to 8000
+
+#### Q71. Wich method is a high quality scaling algorithm for enlarging image?
+
+-[x] bicubic
+
+#### Q72. How can you make the magic wand tool select fewer variations of a color?
+
+-[x] uncheck Contiguous
+
+#### Q73. For curved smoother-looking edges on a selection, what selection should you pick?
+
+-[x] anti-aliasing

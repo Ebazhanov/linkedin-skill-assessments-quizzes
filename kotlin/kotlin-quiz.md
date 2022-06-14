@@ -1087,3 +1087,41 @@ fun main() {
 - [x] Use string templates instead.
 
 [reference](https://kotlinlang.org/docs/basic-syntax.html#string-templates)
+
+
+#### Q84. You have enum class Signal that represent state of network connection. You want to iterate over each the member  of the enum. Which line of code shows how to do that `?
+
+- [ ] Signal.sequence().
+- [ ] Signal.toArray().
+- [x] Signal.values().
+- [ ] Signal.toList(). 
+
+[reference](https://kotlinlang.org/docs/enum-classes.html#working-with-enum-constants)
+
+#### Q85. You'd like to create multiline string that includes the carriage return characther. What should you use to enclose the string?
+
+- [ ] Double quotes("").
+- [ ] Single quotes(').
+- [x] Tripple quote(""").
+- [ ] Backticks(). 
+
+[reference](https://kotlinlang.org/docs/coding-conventions.html#strings)
+
+#### Q86. You want your class member to be visible to subclasses. Which modifier do you use?
+
+- [ ] Public.
+- [x] Protected.
+- [ ] Internal.
+- [ ] Private. 
+
+[reference](https://kotlinlang.org/docs/visibility-modifiers.html#class-members)
+
+
+#### Q87. which line of code shows how to create a finite sequence of the numbers 1 to 99 and then convert it into a list?
+
+- [x] val lessThan99 = generateSequence(1){ if (it < 99) it + 1 else null }.toList().
+- [ ] val lessThan99 = generateSequence(0){ if (it < 99)}.toList().
+- [ ] val lessThan99 = generateSequence(1..9){ if (it < 99) it + 1 else null }.toList().
+- [ ] val lessThan99 = listOf{1..99}.asSequence().toList()
+
+[reference](https://kotlinlang.org/docs/sequences.html#from-a-function)

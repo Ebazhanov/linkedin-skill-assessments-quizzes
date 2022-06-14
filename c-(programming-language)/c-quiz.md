@@ -919,3 +919,14 @@ void *vptr=&g;
 - [ ] The file is created and opened for both writing and reading
 
 [Reference](https://devdocs.io/c/memory)
+
+#### Q61. What does this function return?
+
+```c
+int fl(int a, int b) { return(a>b?a:b); }
+```
+
+- [ ] compiler error
+- [ ] the smaller value of the two passed parameters
+- [ ] runtime error
+- [x] the greater value of the two passed parameters

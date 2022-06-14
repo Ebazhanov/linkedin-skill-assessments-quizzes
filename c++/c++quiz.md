@@ -1286,3 +1286,10 @@ std::cout << b;
 - [x] `5 will be printed on standard output, with no compilation warnings generated.`
 - [ ] `6 will be printed on standard output, with compilation warnings generated.`
 - [ ] `5 will be printed on standard output, with compilation warnings generated.`
+
+#### Q79. Which access specifier does not allow class members to be accessed from outside the class, but allows them to be accessed by derived classes?
+
+- [ ] guarded
+- [x] protected
+- [ ] public
+- [ ] private

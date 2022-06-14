@@ -991,3 +991,14 @@ Table name: superheroes
 - [x] COUNT()
 
 [Reference](https://www.sqltutorial.org/sql-aggregate-functions/)
+
+#### Q103. You are working on UPDATE trigger on the employee tablein this diagram. How can you access the new value for the address inside the trigger?
+
+![mysql picture](images/mysql_q103.png?raw=true)
+
+- [x] Use NEW.address
+- [ ] Use INSERTED.address
+- [ ] Use DELETED.address
+- [ ] USE OLD.address
+
+[Reference](https://dev.mysql.com/doc/refman/8.0/en/trigger-syntax.html)

@@ -968,3 +968,29 @@ See [I/O Redirection](https://tldp.org/LDP/abs/html/io-redirection.html)
 - [ ] $#
 - [ ] $@
 - [x] $$
+
+#### Q76. By combining extended globbing and parameter expansion, what would be the value of VAR?
+
+```
+#!/bin/bash
+shopt -s extglob
+VAR='     This is...     a string of characters     '
+VAR=${VAR##+([[:space:]])}; ${VAR=${VAR%%+([[:space:]])};
+echo "$VAR"
+```
+
+- [ ] <pre>     This is...     a string of characters</pre>
+- [ ] <pre>     This is...a string of characters</pre>
+- [ ] <pre>This is...     a string of characters</pre>
+- [ ] <pre>This is...a string of characters</pre>
+
+#### Q77. Using awk, what would be the output of this command string?
+
+```
+echo "1 2 3" | awk '{for (i=1; i<NF; i++) s=s+$i}; END {print s}'
+```
+
+- [ ] 123
+- [ ] 600
+- [ ] 6
+- [x] 3

@@ -742,11 +742,12 @@ if [[ $FILE == $GLOB ]] ;then
 
 [reference:] https://dannyda.com/2021/08/19/whats-the-difference-between-apt-remove-and-apt-autoremove-what-is-apt-purge-when-to-use-debian-ubuntu-kali-linux-etc/
 
-#### Q90. You want to extract the contents from an rpm package. Which command do you use?You want to extract the contents from an rpm package. Which command do you use?
+#### Q90. You want to extract the contents from an rpm package. Which command do you use?
 
 - [ ] rpm --updaterpm --update
 - [ ] rpm -ivh --forcerpm -ivh --force
 - [ ] rpm --reinstallrpm --reinstall
 - [x] rpm2cpio
 
-[reference:](https://stackoverflow.com/questions/18787375/how-do-i-extract-the-contents-of-an-rpm)
+1. [reference:](https://stackoverflow.com/questions/18787375/how-do-i-extract-the-contents-of-an-rpm)
+2. [reference:](https://man7.org/linux/man-pages/man8/rpm2cpio.8.html)
