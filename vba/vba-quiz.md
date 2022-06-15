@@ -504,3 +504,75 @@ End Sub
 ```
 
 > The first requirement is to make UserForm1 loaded but not visible, therefore we need Me.Hide, **Me** in here referring to UserForm1
+
+#### Q37. Which is the correct way to structure a With block?
+
+- [ ]
+
+```
+With Selection
+&TypeText Text:="8/24/2019"
+&TypeParagraph
+&TypeText Text:="1161 Alamosa Drive"
+End With
+```
+
+- [ ]
+
+```
+With Selection
+.TypeText Text:="8/24/2019"
+.TypeParagraph
+.TypeText Text:="1161 Alamosa Drive"
+End With
+```
+
+- [ ]
+
+```
+With Selection
+TypeText Text:="8/24/2019"
+TypeParagraph
+TypeText Text:="1161 Alamosa Drive"
+End With
+```
+
+- [ ]
+
+```
+With Selection:
+&TypeText Text:="8/24/2019"
+&TypeParagraph
+&TypeText Text:="1161 Alamosa Drive"
+End With
+```
+
+#### Q38. Why does this code generate a "Subscript out of range" error?
+
+```
+Sub Example()
+    Dim MyArr() As Variant
+    ReDim MyArr(3, 4)
+    'some code
+    ReDim Preserve MyArr(4, 4)
+End Sub    
+```
+
+- [ ] Arrays cannot be resized more than once.
+- [ ] MyArr was originally declared with three "rows".
+- [ ] You can resize only the last dimension of an array when you specify `ReDim Preserve`.
+- [ ] The correct syntax is `ReDim Preserve MyArr(0 To 4, 0 To 4)`.
+
+#### Q39. Which subroutine declaration does `not` cause a compile error?
+
+- [ ] `Sub Called(Salary As Long, ParamArray Vals() As Variant)`
+- [ ] `Sub Called(ParamArray Vals() As Variant, Salary As Long)`
+- [ ] `Sub Called(Optional Salary As Long, ParamArray Vals() As Variant)`
+- [ ] `Sub Called(Salary As Long, ParamArray Vals() As String)`
+
+#### Q40. How can a user enter data on a worksheet or document, or switch windows, while UserForm1 is displayed on the screen?
+
+- [ ] Show the form with this statement: `UserForm1.Show vbModal`
+- [ ] Include this statement in the code: `UserForm1.Hwnd = False.`
+- [ ] Set the user from's `SpecialEffect` property to `frmShowModal`
+- [ ] Set the user from's `ShowModal` property to False.
