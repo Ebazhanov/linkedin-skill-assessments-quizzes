@@ -121,7 +121,7 @@ val task = launch {
 
 [reference](https://kotlinlang.org/docs/basic-types.html#explicit-conversions)
 
-#### Q11. You have written a snippet of code to display the results of the roll of a six-sided die. When the dice displays from 3 to 6 inclusive, you want to display a special message. Using a Kotlin range, what code should you add?
+#### Q11. You have written a snippet of code to display the results of the roll of a six-sided die. When the die displays from 3 to 6 inclusive, you want to display a special message. Using a Kotlin range, what code should you add?
 
 ```kotlin
 when (die) {
