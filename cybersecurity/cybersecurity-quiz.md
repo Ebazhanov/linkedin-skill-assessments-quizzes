@@ -796,3 +796,13 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] adopting a "defense-in-depth" approach to security
 
 [Explanation:](https://www.law.com/njlawjournal/2021/12/03/zero-trust-security-moving-from-trust-but-verify-to-never-trust-always-verify/?slreturn=20220417191235)
+
+#### Q104. In response to an alert regarding a possible security incident, you are analyzing the logs for a web application. In the process, you see the following string:
+`./../../../var/secrets`
+
+What type of attach was most likely attempted against the application?
+
+- [ ] brute force
+- [ ] session hijacking
+- [ ] cross-site scripting
+- [x] directory traversal
