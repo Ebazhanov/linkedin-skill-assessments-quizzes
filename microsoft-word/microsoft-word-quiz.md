@@ -541,9 +541,9 @@ Duplicated with Q33.
 #### Q67. Which page orientation should you select to accommodate a wide chart or table?
 
 - [ ] Tall
-- [x] Portrait
+- [ ] Portrait
 - [ ] Wide
-- [ ] Landscape
+- [x] Landscape
 
 #### Q68. What is the first step in sharing a document that is currently saved on your local hard drive?
 
