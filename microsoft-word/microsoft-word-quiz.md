@@ -717,7 +717,7 @@ Duplicated with Q50.
 - [ ] D
 - [ ] A or B
 - [ ] C or D
-- [ ] A, B, or C
+- [X] A, B, or C
 
 #### Q91. You want to start a new text section at the current cursor position without adding a new page. Which type of section break should you choose?
 
