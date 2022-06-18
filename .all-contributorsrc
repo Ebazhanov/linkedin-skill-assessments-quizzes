@@ -9311,6 +9311,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "kalinof",
+      "name": "Kalinoff",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18365725?v=4",
+      "profile": "http://blog.kalinoff.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
