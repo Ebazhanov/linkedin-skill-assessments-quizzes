@@ -520,7 +520,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] Line
 - [ ] Bar
 
-#### Q66. In the image below, where do you click to hide comments when a document prints?
+#### Q65. In the image below, where do you click to hide comments when a document prints?
 
 ![image](https://i.imgur.com/JjdzceL.png)
 
@@ -529,35 +529,35 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] C
 - [ ] D
 
-#### Q67. Which page orientation should you select to accommodate a wide chart or table?
+#### Q66. Which page orientation should you select to accommodate a wide chart or table?
 
 - [ ] Tall
 - [ ] Portrait
 - [ ] Wide
 - [x] Landscape
 
-#### Q68. What is the first step in sharing a document that is currently saved on your local hard drive?
+#### Q67. What is the first step in sharing a document that is currently saved on your local hard drive?
 
 - [ ] Get a sharing link for the document.
 - [ ] Create a new document in OneDrive.
 - [x] Upload the document to OneDrive.
 - [ ] Send an invitation to the document.
 
-#### Q69. You are working in another application and want to move text into a Word document. How can you do it?
+#### Q68. You are working in another application and want to move text into a Word document. How can you do it?
 
 - [ ] Export the text from the other application as a Word document.
 - [x] Use the Insert command and select the Word document.
 - [ ] Select the text and save it as Word document.
 - [ ] Use the Clipboard to copy and paste text into the Word document.
 
-#### Q70. What is typically created as the first page of a document and contains information such as the document title and author?
+#### Q69. What is typically created as the first page of a document and contains information such as the document title and author?
 
 - [x] cover page
 - [ ] master page
 - [ ] blank page
 - [ ] table of contents page
 
-#### Q71. Before publishing a document, you want to identify issues that may make it difficult for people with disabilities to read. which feature should you use?
+#### Q70. Before publishing a document, you want to identify issues that may make it difficult for people with disabilities to read. which feature should you use?
 
 - [x] check Accessibility
 - [ ] inspect document
@@ -566,70 +566,70 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 
 [Reference](https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f)
 
-#### Q72. After selecting the entire document, what is the quickest way to find out how many paragraphs there are in your current Word document?
+#### Q71. After selecting the entire document, what is the quickest way to find out how many paragraphs there are in your current Word document?
 
 - [ ] From the start of the document, hold down the Ctrl (Windows) or Command (Mac) key, and press the Down Arrow key repeatedly, counting each paragraph as you go.
 - [ ] Click File > Properties > Content to display file information, including the number of paragraphs.
 - [x] On the status bar, select Word Count to display file information, including the number of paragraphs.
 - [ ] Click File > Info > Inspect Document to display file information, including the number of paragraphs.
 
-#### Q73. You want to be able to read one page in your document while editing another page in the same document. What's the most efficient way to do this with only one monitor?
+#### Q72. You want to be able to read one page in your document while editing another page in the same document. What's the most efficient way to do this with only one monitor?
 
 - [x] On the View tab of the ribbon, click Split.
 - [ ] Save a duplicate copy of your document, then view both documents side by side.
 - [ ] On the Insert tab of the ribbon, create a bookmark for the location that you want to read.
 - [ ] On the View tab of the ribbon, click New Window.
 
-#### Q74. What is the purpose of adding alternative text (alt text) to an image in your document?
+#### Q73. What is the purpose of adding alternative text (alt text) to an image in your document?
 
 - [ ] Alt text improves accessibility in your document.
 - [x] all of these answers
 - [ ] Alt text describes what appears in the image.
 - [ ] Screen readers read the text aloud for users with visual impairments.
 
-#### Q75. You are inserting several images in a document and need to include descriptive information about them. Numbering the images will also make it easier to reference them in the associated document text. Which command can help you set this up?
+#### Q74. You are inserting several images in a document and need to include descriptive information about them. Numbering the images will also make it easier to reference them in the associated document text. Which command can help you set this up?
 
 - [ ] Insert Footnote
 - [ ] Insert Citation
 - [x] Insert Caption
 - [ ] Insert Table of Figures
 
-#### Q77. You want an image to move with the surrounding text as you make changes to the document. Which option should you select?
+#### Q75. You want an image to move with the surrounding text as you make changes to the document. Which option should you select?
 
 - [ ] In Line with Text
 - [x] With Text Wrapping
 - [ ] Behind Text
 - [ ] Through
 
-#### Q78. You want to place a triangle shape on your page. Where do you find the shape?
+#### Q76. You want to place a triangle shape on your page. Where do you find the shape?
 
 - [ ] On the Insert tab, click SmartArt.
 - [ ] On the Insert tab, click Shapes and look in the Rectangles & Triangles section.
 - [ ] On the Insert tab, click Icons.
 - [x] On the Insert tab, click Shapes and look in the Basic Shapes section.
 
-#### Q79. When printing multiple copies of a document, which option groups consecutive pages together, making them easier to distribute?
+#### Q77. When printing multiple copies of a document, which option groups consecutive pages together, making them easier to distribute?
 
 - [x] Collated
 - [ ] Print One-Sided
 - [ ] Uncollated
 - [ ] Print on Both Sides
 
-#### Q80. You are sharing your computer screen to collaborate on a document. Which view should you use to minimize the ribbon and give your document the most screen space?
+#### Q78. You are sharing your computer screen to collaborate on a document. Which view should you use to minimize the ribbon and give your document the most screen space?
 
 - [x] Read Mode (Windows) or Focus (Mac)
 - [ ] Draft view
 - [ ] Web Layout view
 - [ ] Outline view
 
-#### Q81. You want a different header and footer to appear on alternating pages. Which option should you choose?
+#### Q79. You want a different header and footer to appear on alternating pages. Which option should you choose?
 
 - [x] Different Odd & Even Pages
 - [ ] Insert Alt Header/Footer
 - [ ] Display on Odd Pages Only
 - [ ] Different First Page
 
-#### Q82. When you start a new, blank document, you usually end up changing the font to Arial 11.5 point. How can you make these settings the default for this and all future new documents?
+#### Q80. When you start a new, blank document, you usually end up changing the font to Arial 11.5 point. How can you make these settings the default for this and all future new documents?
 
 - [ ] Open any document, change your font settings, and save as a template.
 - [ ] Create a macro that will change all fonts to Arial 11.5 point.
@@ -638,56 +638,56 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 
 [Reference](https://support.microsoft.com/en-us/office/change-the-default-font-in-word-2f50603b-9886-47e4-a483-48ac5ab80163)
 
-#### Q83. You inserted a picture into a brochure, and you want to cut down on the background to focus only on the main part of the image. How can you accomplish this?
+#### Q81. You inserted a picture into a brochure, and you want to cut down on the background to focus only on the main part of the image. How can you accomplish this?
 
 - [ ] Right-click the picture and select **Crop**.
 - [X] In **Picture Tools**, select **Remove Background**.
 - [ ] In **Picture Tools**, select **Picture Effects**.
 - [ ] Right-click the picture and select **Size and Position**.
 
-#### Q84. The form you are creating includes a field where users can either pick from a list of choices you provide, or type in a different entry. Which control type should you use?
+#### Q82. The form you are creating includes a field where users can either pick from a list of choices you provide, or type in a different entry. Which control type should you use?
 
 - [ ] SmartArt
 - [ ] drop-down list
 - [x] combo box
 - [ ] check box
 
-#### Q85. There is a circle shape in your document. Which of the shape's style can you format?
+#### Q83. There is a circle shape in your document. Which of the shape's style can you format?
 
 - [X] all of these answers
 - [ ] Outline
 - [ ] Effects
 - [ ] Fill
 
-#### Q86. A word theme is composed of settings for which document attributes?
+#### Q84. A word theme is composed of settings for which document attributes?
 
 - [ ] fonts and paragraph spacing
 - [ ] colors, fonts, paragraph spacing, and effects
 - [ ] colors, fonts, and paragraph spacing
 - [X] colors, fonts, and effects
 
-#### Q87. When using the Compare function, the differences between two documents are outlined **\_**.
+#### Q85. When using the Compare function, the differences between two documents are outlined **\_**.
 
 - [X] in red
 - [ ] on the most recent of the two documents
 - [ ] on the original document
 - [ ] on a third document
 
-#### Q88. You have inserted a picture in your Word document, and you want to ensure that users with visual impairments can access the picture. How can you do this?
+#### Q86. You have inserted a picture in your Word document, and you want to ensure that users with visual impairments can access the picture. How can you do this?
 
 - [ ] Insert an object.
 - [ ] Insert a caption.
 - [ ] Insert AutoText.
 - [X] Insert alt text.
 
-#### Q89. You are creating a company newsletter. The first page has three columns, and the second page will need four columns. How would you do this?
+#### Q87. You are creating a company newsletter. The first page has three columns, and the second page will need four columns. How would you do this?
 
 - [ ] Insert a column break at the beginning of the second page.
 - [ ] Insert a page break at the end of the first page.
 - [X] Insert a section break at the end of the first page.
 - [ ] Insert a text wrapping break at the beginning of the second page.
 
-#### Q90. You just applied a change from the Design tab of the ribbon, and all of the fonts and formatting in your document changed. What did you change?
+#### Q88. You just applied a change from the Design tab of the ribbon, and all of the fonts and formatting in your document changed. What did you change?
 
     A. theme
     B. style set
@@ -699,7 +699,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] C or D
 - [X] A, B, or C
 
-#### Q91. You want to start a new text section at the current cursor position without adding a new page. Which type of section break should you choose?
+#### Q89. You want to start a new text section at the current cursor position without adding a new page. Which type of section break should you choose?
 
 - [x] Continuous
 - [ ] Even Page
