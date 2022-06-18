@@ -462,7 +462,7 @@ End Sub
 - [x] Z = in a message box and then a subsequent error message
 - [ ] Y = in a message box and then a subsequent error message
 
-#### Q36. The VBA code block shown in the following four options runs when UserForm1's CommandButton1 button is clicked. Which block of code leaves UserFrom1 loaded but not visible until the FoundErrors function has checked it, and then enables processing to continue if no errors are found?
+#### Q36. The VBA code block shown in the following four options runs when UserForm1's CommandButton1 button is clicked. Which block of code leaves UserForm1 loaded but not visible until the FoundErrors function has checked it, and then enables processing to continue if no errors are found?
 
 - [ ]
 
