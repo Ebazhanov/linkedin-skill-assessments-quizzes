@@ -594,17 +594,6 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [x] Insert Caption
 - [ ] Insert Table of Figures
 
-#### Q76. In this image, what do the red lines next to the text indicate?
-
-Duplicated with Q50.
-
-![image](https://i.imgur.com/JUbaoyO.png)
-
-- [x] Changes were made to these areas.
-- [ ] Draw tools were used in these areas.
-- [ ] Track Changes has been disabled.
-- [ ] Comments were added to these areas.
-
 #### Q77. You want an image to move with the surrounding text as you make changes to the document. Which option should you select?
 
 - [ ] In Line with Text
