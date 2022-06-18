@@ -684,7 +684,7 @@ Duplicated with Q50.
 - [ ] fonts and paragraph spacing
 - [ ] colors, fonts, paragraph spacing, and effects
 - [ ] colors, fonts, and paragraph spacing
-- [ ] colors, fonts, and effects
+- [X] colors, fonts, and effects
 
 #### Q87. When using the Compare function, the differences between two documents are outlined **\_**.
 
