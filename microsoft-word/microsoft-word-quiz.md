@@ -520,15 +520,6 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] Line
 - [ ] Bar
 
-#### Q65. What is the difference between a footnote and an endnote?
-
-Duplicated with Q33.
-
-- [ ] An endnote always appears on the bottom of the same page that it references
-- [ ] Footnote use Arabic numerals and endnotes use letters.
-- [x] A footnote is placed at the bottom of the page, and an endnote is placed at the end of the document
-- [ ] A footnote is placed in teh page footer and an endnote is placed on a blank page at the end of the document
-
 #### Q66. In the image below, where do you click to hide comments when a document prints?
 
 ![image](https://i.imgur.com/JjdzceL.png)
