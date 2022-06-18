@@ -451,4 +451,40 @@ mvn install
 - [ ] source code style
 - [x] builds
 
+#### Q58. Below is the definition of a mirror in settings.xml. What does the element <mirrorOf>*</mirrorOf> tell Maven to do?
+
+'''
+<mirro>
+    <id>internal-repo</id>
+    <url>http://repo.mycompany.com/proxy</url>
+    <mirrorOf>*</mirroOf>
+</mirror>
+'''
+
+- [ ] Use a sigle repository by having it mirror all repository requests
+- [x] Mirror all repositories except for http://repomycompany.com/proxy.
+- [ ] Mirro any repositories with * in the name.
+- [ ] Use a mirror repository for every repository defined in the POM file.
+
+### Q59. How do you generate a site for a project with Maven?
+
+- [x] Use the mvn site command.
+- [ ] Use the mvn install command.
+- [ ] This is not possible.
+- [ ] Use the mvn package command.
+
+### Q60. What is the default location of the local Maven repository?
+
+- [x] USER_HOME/.m2/repository
+- [ ] USER_HOME/.m2/local
+- [ ] USER_HOME/maven/repository
+- [ ] /repo
+
+### Q61. A phase is a step in ____.
+
+- [ ] the complie goal 
+- [ ] the development process
+- [x] the build lifecycle
+- [ ] the POM file
+
 [maven docs](https://maven.apache.org/what-is-maven.html#:~:text=Maven's%20primary%20goal%20is%20to,Providing%20a%20uniform%20build%20system)

@@ -1,7 +1,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-942-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-949-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1330,6 +1330,15 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/subashkonar13"><img src="https://avatars.githubusercontent.com/u/18638211?v=4?s=100" width="100px;" alt=""/><br /><sub><b>subashkonar13</b></sub></a><br /><a href="#design-subashkonar13" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=subashkonar13" title="Code">💻</a></td>
     <td align="center"><a href="https://rushijaviya.me/"><img src="https://avatars.githubusercontent.com/u/59735978?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rushi Javiya</b></sub></a><br /><a href="#design-Rushijaviya" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Rushijaviya" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/gulmert89/"><img src="https://avatars.githubusercontent.com/u/60785603?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mert Gül</b></sub></a><br /><a href="#design-gulmert89" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=gulmert89" title="Code">💻</a></td>
+    <td align="center"><a href="http://lilyb.netlify.app"><img src="https://avatars.githubusercontent.com/u/61839831?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lily</b></sub></a><br /><a href="#design-Nahay" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Nahay" title="Code">💻</a></td>
+    <td align="center"><a href="http://blog.kalinoff.com"><img src="https://avatars.githubusercontent.com/u/18365725?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kalinoff</b></sub></a><br /><a href="#design-kalinof" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=kalinof" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/jay-tau"><img src="https://avatars.githubusercontent.com/u/95355656?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Joel Tony</b></sub></a><br /><a href="#design-jay-tau" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=jay-tau" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://pw.is"><img src="https://avatars.githubusercontent.com/u/1020226?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Peter</b></sub></a><br /><a href="#design-p-w" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=p-w" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/roozbehzarei"><img src="https://avatars.githubusercontent.com/u/55883200?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Roozbeh Zarei</b></sub></a><br /><a href="#design-roozbehzarei" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=roozbehzarei" title="Code">💻</a></td>
+    <td align="center"><a href="https://shushengacademy.com/"><img src="https://avatars.githubusercontent.com/u/21266146?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shen</b></sub></a><br /><a href="#design-ShenShu2016" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ShenShu2016" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/joonsoo2"><img src="https://avatars.githubusercontent.com/u/17442963?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Joonsoo.LEE</b></sub></a><br /><a href="#design-joonsoo2" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=joonsoo2" title="Code">💻</a></td>
   </tr>
 </table>
 

@@ -1784,3 +1784,10 @@ _init_() -always executed when the class is being initiated
 - [ ] `import math.sin`
 - [x] `from math import sin`
 - [ ] `import sin from math`
+
+#### Q133. What do you get if you apply numpy.sum() to a list that contains only Boolean values?
+
+- [ ] `0`
+- [x] `the count of all True values`
+- [ ] `a type error`
+- [ ] `None`
