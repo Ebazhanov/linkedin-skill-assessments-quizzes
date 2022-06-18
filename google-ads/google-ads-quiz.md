@@ -344,3 +344,10 @@
 - [ ] The bidding strategy is not set to ECPC
 - [ ] The search query has misspellings
 - [ ] The bid is too low
+
+#### Q50. What tool should you use to determine where your ad will appear for a particular search query?
+
+- [ ] Placement Optimization and Preview
+- [ ] Bid Optimizer
+- [ ] Ad Preview and Diagnosis
+- [ ] Keyword Planner

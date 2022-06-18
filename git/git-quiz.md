@@ -977,7 +977,9 @@ remote repository, named origin, to point to the new remote repository at this l
 
 #### Q120. When is the cherry-pick command used?
 
-- [ ] - when a commit from one branch needs to be copied into another branch
+- [x] - when a commit from one branch needs to be copied into another branch
 - [ ] - when the HEAD needs to be reset to a specific commit
 - [ ] - when a specific commit needs to be pulled down from the remote repository
 - [ ] - when a hook script needs to be invoked
+
+[reference](https://stackoverflow.com/a/9339460/1573267)

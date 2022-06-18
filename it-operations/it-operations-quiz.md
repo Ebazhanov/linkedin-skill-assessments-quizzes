@@ -517,7 +517,7 @@
 - [ ] the device's NIC based on the MAC address
 - [ ] IP addresses are always assigned manually
 
-#### Q66. The computer consistently voos into Safe Mode. How would you address this issue?
+#### Q66. The computer consistently boots into Safe Mode. How would you address this issue?
 
 - [ ] Hold the Shift key as Windows boots.
 - [ ] Edit the registry key that controls the boot sequence.

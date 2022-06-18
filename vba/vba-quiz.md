@@ -555,7 +555,7 @@ Sub Example()
     ReDim MyArr(3, 4)
     'some code
     ReDim Preserve MyArr(4, 4)
-End Sub    
+End Sub
 ```
 
 - [ ] Arrays cannot be resized more than once.
@@ -576,3 +576,47 @@ End Sub
 - [ ] Include this statement in the code: `UserForm1.Hwnd = False.`
 - [ ] Set the user from's `SpecialEffect` property to `frmShowModal`
 - [ ] Set the user from's `ShowModal` property to False.
+
+#### Q41. SubA passes MyVar to SubB. How can you ensure that MyVar has its original value when control returns to SubA?
+
+- [ ] Declare SubB as Sub SubB(ByRef MyVar).
+- [ ] Declare SubB as Sub SubB(MyVar).
+- [ ] Declare SubB as Sub SubB(Static MyVar).
+- [ ] Declare SubB as Sub SubB(ByVal MyVar).
+
+#### Q42. Which procedure declaration is syntactically correct?
+
+- [ ]
+
+```
+Sub MySub(VarA As String, Optional VarB _
+As Variant, Optional VarC As Long)
+```
+
+- [ ]
+
+```
+Sub MySub(VarA As String, Optional VarB _
+As Variant, VarC As Long)
+```
+
+- [ ]
+
+```
+Sub MySub(Optional VarA As String, Optional VarB _
+As Variant, VarC as Long)
+```
+
+- [ ]
+
+```
+Sub MySub(OPtional VarA As String, VarB _
+As Variant, Optional VarC as Long)
+```
+
+#### Q43. What is needed for the contents of Module1 to be available to other modules in a VBA project, but not to any other VBA project?
+
+- [ ] Set Module Level Scope at the top of Module1.
+- [ ] Set Option Global at the top of Module1.
+- [ ] Set Option Private Module at the top of Module1.
+- [ ] Declare module-level variables as Private.
