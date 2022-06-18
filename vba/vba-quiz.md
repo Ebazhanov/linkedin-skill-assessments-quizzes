@@ -53,7 +53,7 @@ ID=6 Age = 25 Weight=130
 #### Q3. What is the principal difference between a class and an object?
 
 - [ ] There is no meaningful difference. The terms are used interchangeably.
-- [ ] A dass declares an object's properties. An object completes the declaration by defining events and methods.
+- [ ] A class declares an object's properties. An object completes the declaration by defining events and methods.
 - [ ] An object is a template for a class.
 - [x] A class describes the design of an object. An object is an instance of that design.
 
