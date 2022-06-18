@@ -9301,6 +9301,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Nahay",
+      "name": "Lily",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61839831?v=4",
+      "profile": "http://lilyb.netlify.app",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
