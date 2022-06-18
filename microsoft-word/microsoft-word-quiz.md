@@ -704,7 +704,7 @@ Duplicated with Q50.
 
 - [ ] Insert a column break at the beginning of the second page.
 - [ ] Insert a page break at the end of the first page.
-- [ ] Insert a section break at the end of the first page.
+- [X] Insert a section break at the end of the first page.
 - [ ] Insert a text wrapping break at the beginning of the second page.
 
 #### Q90. You just applied a change from the Design tab of the ribbon, and all of the fonts and formatting in your document changed. What did you change?
