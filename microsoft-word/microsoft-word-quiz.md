@@ -698,7 +698,7 @@ Duplicated with Q50.
 - [ ] Insert an object.
 - [ ] Insert a caption.
 - [ ] Insert AutoText.
-- [ ] Insert alt text.
+- [X] Insert alt text.
 
 #### Q89. You are creating a company newsletter. The first page has three columns, and the second page will need four columns. How would you do this?
 
