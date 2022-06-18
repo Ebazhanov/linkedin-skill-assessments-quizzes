@@ -307,7 +307,7 @@ Dim MyArray(5) As Integer
 - [ ] Set Module Level Scope at the top of Module1
 - [x] Set Option Private Module at the top of Module1
 
-#### Q26. When used with an array named MyArray, what is the preerred way to set beginning and ending values of a loop control variable?
+#### Q26. When used with an array named MyArray, what is the preferred way to set beginning and ending values of a loop control variable?
 
 - [ ] For i = 0 To UBound(MyArray,1)
 - [ ] For i = 1 To UBound(MyArray,1)
