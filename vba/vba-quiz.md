@@ -555,7 +555,7 @@ Sub Example()
     ReDim MyArr(3, 4)
     'some code
     ReDim Preserve MyArr(4, 4)
-End Sub    
+End Sub
 ```
 
 - [ ] Arrays cannot be resized more than once.
@@ -586,27 +586,31 @@ End Sub
 
 #### Q42. Which procedure declaration is syntactically correct?
 
-- [ ] 
+- [ ]
+
 ```
-Sub MySub(VarA As String, Optional VarB _ 
+Sub MySub(VarA As String, Optional VarB _
 As Variant, Optional VarC As Long)
 ```
 
-- [ ] 
+- [ ]
+
 ```
-Sub MySub(VarA As String, Optional VarB _ 
+Sub MySub(VarA As String, Optional VarB _
 As Variant, VarC As Long)
 ```
 
-- [ ] 
+- [ ]
+
 ```
-Sub MySub(Optional VarA As String, Optional VarB _ 
+Sub MySub(Optional VarA As String, Optional VarB _
 As Variant, VarC as Long)
 ```
 
-- [ ] 
+- [ ]
+
 ```
-Sub MySub(OPtional VarA As String, VarB _ 
+Sub MySub(OPtional VarA As String, VarB _
 As Variant, Optional VarC as Long)
 ```
 

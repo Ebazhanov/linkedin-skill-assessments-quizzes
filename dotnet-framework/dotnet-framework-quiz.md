@@ -527,7 +527,7 @@
 
 Reference: [Compilation by the JIT compiler](https://docs.microsoft.com/en-us/dotnet/standard/managed-execution-process#compilation-by-the-jit-compiler)
 
-#### Q70. Which statement about a constant variable is not *true*?
+#### Q70. Which statement about a constant variable is not `true`?
 
 - [x] At run time, its value is evaluated.
 - [ ] It cannot be static.
