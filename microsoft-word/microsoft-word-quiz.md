@@ -661,7 +661,7 @@ Duplicated with Q50.
 #### Q83. You inserted a picture into a brochure, and you want to cut down on the background to focus only on the main part of the image. How can you accomplish this?
 
 - [ ] Right-click the picture and select **Crop**.
-- [ ] In **Picture Tools**, select **Remove Background**.
+- [X] In **Picture Tools**, select **Remove Background**.
 - [ ] In **Picture Tools**, select **Picture Effects**.
 - [ ] Right-click the picture and select **Size and Position**.
 
