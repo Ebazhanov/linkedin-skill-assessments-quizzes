@@ -719,7 +719,7 @@ aws ecs create-service \
 - [ ] Stop the instance and create an AMI image. Launch the image using a new key pair.
 - [ ] Contact AWS support. A support specialist can remotely restore access to your instance and send you a new key pair.
 - [ ] You can not connect to this EC2 instance. The key pair is displayed only one time. If you lose it, you have lost all access to this instance. Connect the EBS volume to another instance to recover your files.
-- [x] Attach the EBS volume to a temporary instance launched with a new key pair, and overwrite ~/.ssh.authorized_keys using the same file from the new instance.
+- [x] Attach the EBS volume to a temporary instance launched with a new key pair, and overwrite ~/.ssh/authorized_keys using the same file from the new instance.
 
 [Reference](https://medium.com/the-10x-dev/how-to-recover-access-login-to-your-aws-instance-after-losing-your-pem-keypair-file-e0d31bae2da4)
 
