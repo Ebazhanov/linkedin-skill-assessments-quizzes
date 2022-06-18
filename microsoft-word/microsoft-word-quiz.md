@@ -688,7 +688,7 @@ Duplicated with Q50.
 
 #### Q87. When using the Compare function, the differences between two documents are outlined **\_**.
 
-- [ ] in red
+- [X] in red
 - [ ] on the most recent of the two documents
 - [ ] on the original document
 - [ ] on a third document
