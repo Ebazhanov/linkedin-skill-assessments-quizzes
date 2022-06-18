@@ -9301,6 +9301,86 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Nahay",
+      "name": "Lily",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61839831?v=4",
+      "profile": "http://lilyb.netlify.app",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "kalinof",
+      "name": "Kalinoff",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18365725?v=4",
+      "profile": "http://blog.kalinoff.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "jay-tau",
+      "name": "Joel Tony",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95355656?v=4",
+      "profile": "https://github.com/jay-tau",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "p-w",
+      "name": "Peter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1020226?v=4",
+      "profile": "https://pw.is",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "roozbehzarei",
+      "name": "Roozbeh Zarei",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55883200?v=4",
+      "profile": "https://github.com/roozbehzarei",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "ShenShu2016",
+      "name": "Shen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21266146?v=4",
+      "profile": "https://shushengacademy.com/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "joonsoo2",
+      "name": "Joonsoo.LEE",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17442963?v=4",
+      "profile": "https://github.com/joonsoo2",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Thepowa753",
+      "name": "Fede.Breg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44495483?v=4",
+      "profile": "https://github.com/Thepowa753",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

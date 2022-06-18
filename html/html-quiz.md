@@ -1344,7 +1344,7 @@ As Steve Krug once said, happy talk must die.
 ```markdown
 <details>
   <h4>Mixed Berry Tart.</h4>
-  <p4>Raspberries, blueberries, and strawberries on top of a creamy filling served in a crispy tart.</p4>
+  <p>Raspberries, blueberries, and strawberries on top of a creamy filling served in a crispy tart.</p>
 </details>
 ```
 
