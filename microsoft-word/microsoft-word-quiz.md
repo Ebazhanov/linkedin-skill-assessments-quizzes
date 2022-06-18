@@ -674,7 +674,7 @@ Duplicated with Q50.
 
 #### Q85. There is a circle shape in your document. Which of the shape's style can you format?
 
-- [ ] all of these answers
+- [X] all of these answers
 - [ ] Outline
 - [ ] Effects
 - [ ] Fill
