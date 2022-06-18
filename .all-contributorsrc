@@ -9331,6 +9331,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "p-w",
+      "name": "Peter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1020226?v=4",
+      "profile": "https://pw.is",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
