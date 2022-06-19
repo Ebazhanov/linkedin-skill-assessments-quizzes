@@ -659,7 +659,7 @@
 #### Q92. What is the expected outcome of the daily stand-up meeting?
 
 - [ ] updated status on all of the work
-- [ ] team alignment on its plan for the day
+- [x] team alignment on its plan for the day
 - [ ] a list of impediments and priorities
 - [ ] a report to the Product Owner of stories ready to be accepted
 
