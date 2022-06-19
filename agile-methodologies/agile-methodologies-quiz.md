@@ -630,7 +630,7 @@
 
 #### Q88. What is the term for a team member who is "T-skilled"?
 
-- [ ] cross-functional
+- [x] cross-functional
 - [ ] jack-of-all-trades
 - [ ] apprentice developer
 - [ ] generalizing specialist
