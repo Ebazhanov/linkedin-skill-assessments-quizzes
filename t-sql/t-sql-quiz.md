@@ -244,10 +244,10 @@ SELECT ProductID, ProductName, SerialNumber
 FROM Products______ ;
 ```
 
-- [x] `WHERE SerialNumer LIKE '%10_3'`
-- [ ] `WHERE SerialNumer LIKE ('%10'+'_'+'3')`
-- [ ] `WHERE SerialNumer LIKE '%10"_"3'`
-- [ ] `WHERE SerialNumer LIKE '%10[_]3'`
+- [x] `WHERE SerialNumber LIKE '%10_3'`
+- [ ] `WHERE SerialNumber LIKE ('%10'+'_'+'3')`
+- [ ] `WHERE SerialNumber LIKE '%10"_"3'`
+- [ ] `WHERE SerialNumber LIKE '%10[_]3'`
 
 > The underscore will match any single character so you must bracket it to match a literal `_`, otherwise you could potentially return a serial number ending in '1013', for example.
 
