@@ -811,7 +811,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [X] discontiniuing activities that introduce risk
 - [ ] identifying threats and analyzing vulnerabilities
 
-#### Q106. In response to an alert regarding a possible security incident, you are analyzing the logs for a web application. In the process, you see the following string: ./../../../var/secrets What type of attack was most likely attempted against the application?
+#### Q106. In response to an alert regarding a possible security incident, you are analyzing the logs for a web application. In the process, you see the following string: `./../../../var/secrets` What type of attack was most likely attempted against the application?
 
 - [ ] brute force
 - [ ] session hijacking
