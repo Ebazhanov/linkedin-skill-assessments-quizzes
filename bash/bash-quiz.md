@@ -994,3 +994,23 @@ echo "1 2 3" | awk '{for (i=1; i<NF; i++) s=s+$i}; END {print s}'
 - [ ] 600
 - [ ] 6
 - [x] 3
+
+#### Q78. Which operator tells the shell to run a given command in the background?
+
+- [ ] !
+- [ ] &&
+- [x] &
+- [ ] $
+
+#### Q79. What does the + signify at the end of the 10-digit file permissions on data.txt?
+
+```bash
+ls -l
+total 0
+-rwx------+ 1 user1 u1 0 Oct 27 10:54 data.txt
+```
+
+- [ ] The + shows that there's an SELinux security context.
+- [ ] The + shows that there's an extended attribute such as immutable set.
+- [x] The + shows that there's and access control list.
+- [ ] The + shows that the sticky bit is set and the file will stay in RAM for speed.
