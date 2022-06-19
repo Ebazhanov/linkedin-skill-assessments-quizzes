@@ -806,3 +806,36 @@ raise ActiveRecord::RecordNotFound
   render json: { message: 'User not found' }, status: :user_not_found
 end
 ```
+
+#### Q59. What decides which controller receives which requests?
+
+- [ ] model
+- [ ] view
+- [ ] web server
+- [x] router
+
+#### Q60. When rendering a partial in a view, how would you pass local variables for rendering?
+
+- [ ] `<%= render partial: "nav", globals: {selected: "about"} %>`
+- [x] `<%= render partial: "nav", local_variables: {selected: "about"} %>`
+- [ ] `<%= render partial: "nav", locals: {selected: "about"} %>`
+- [ ] `<%= render partial: "nav", selected: "about"} %>`
+
+#### Q61. Given this code, and assuming `@user` is an instance of `User` that has an assigned location, which choice would be used to return the user's city?
+
+```ruby
+    class Location < ActiveRecord::Base
+        # has database columns for :city, :state
+        has_many :users
+    end
+    class User < ActiveRecord::Base
+        belovngs_to :location
+        
+        delegate :city, :state, to: :location, allow_nil: true, prefix: true
+    end     
+```
+
+- [x] `@user.user_city`
+- [ ] `@user.location_city`
+- [ ] `@user.city`
+- [ ] `@user.try(:city)`
