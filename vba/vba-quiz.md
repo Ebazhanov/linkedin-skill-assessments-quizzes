@@ -53,7 +53,7 @@ ID=6 Age = 25 Weight=130
 #### Q3. What is the principal difference between a class and an object?
 
 - [ ] There is no meaningful difference. The terms are used interchangeably.
-- [ ] A dass declares an object's properties. An object completes the declaration by defining events and methods.
+- [ ] A class declares an object's properties. An object completes the declaration by defining events and methods.
 - [ ] An object is a template for a class.
 - [x] A class describes the design of an object. An object is an instance of that design.
 
@@ -307,7 +307,7 @@ Dim MyArray(5) As Integer
 - [ ] Set Module Level Scope at the top of Module1
 - [x] Set Option Private Module at the top of Module1
 
-#### Q26. When used with an array named MyArray, what is the preerred way to set beginning and ending values of a loop control variable?
+#### Q26. When used with an array named MyArray, what is the preferred way to set beginning and ending values of a loop control variable?
 
 - [ ] For i = 0 To UBound(MyArray,1)
 - [ ] For i = 1 To UBound(MyArray,1)
@@ -462,7 +462,7 @@ End Sub
 - [x] Z = in a message box and then a subsequent error message
 - [ ] Y = in a message box and then a subsequent error message
 
-#### Q36. The VBA code block shown in the following four options runs when UserForm1's CommandButton1 button is clicked. Which block of code leaves UserFrom1 loaded but not visible until the FoundErrors function has checked it, and then enables processing to continue if no errors are found?
+#### Q36. The VBA code block shown in the following four options runs when UserForm1's CommandButton1 button is clicked. Which block of code leaves UserForm1 loaded but not visible until the FoundErrors function has checked it, and then enables processing to continue if no errors are found?
 
 - [ ]
 
@@ -613,10 +613,3 @@ As Variant, VarC as Long)
 Sub MySub(OPtional VarA As String, VarB _
 As Variant, Optional VarC as Long)
 ```
-
-#### Q43. What is needed for the contents of Module1 to be available to other modules in a VBA project, but not to any other VBA project?
-
-- [ ] Set Module Level Scope at the top of Module1.
-- [ ] Set Option Global at the top of Module1.
-- [ ] Set Option Private Module at the top of Module1.
-- [ ] Declare module-level variables as Private.
