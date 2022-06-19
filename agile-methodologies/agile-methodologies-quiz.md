@@ -630,10 +630,12 @@
 
 #### Q88. What is the term for a team member who is "T-skilled"?
 
-- [ ] cross-functional
+- [x] cross-functional
 - [ ] jack-of-all-trades
 - [ ] apprentice developer
 - [ ] generalizing specialist
+
+[Souce](http://agilemodeling.com/essays/generalizingSpecialists.htm#:~:text=Generalizing%20specialists%20are%20often%20referred,or%20even%20"renaissance%20professionals".)
 
 #### Q89. Which statement is _not_ true about pair programming?
 
