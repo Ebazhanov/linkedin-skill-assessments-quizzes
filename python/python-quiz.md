@@ -1575,7 +1575,7 @@ d = sum(c)
 - [ ] `linalg.det() and .dot()`
 - [ ] `linalg.inv() and .eye()`
 
-#### Q116. What is the correct syntax for creating a vaiable that is bound to a list?
+#### Q116. What is the correct syntax for creating a variable that is bound to a list?
 
 - [ ] `my_list = (2, 'apple', 3.5)`
 - [x] `my_list = [2, 'apple', 3.5]`
@@ -1791,3 +1791,16 @@ _init_() -always executed when the class is being initiated
 - [x] `the count of all True values`
 - [ ] `a type error`
 - [ ] `None`
+
+#### Q134. What will this code print? 
+
+```python
+print ("foo" if (256).bit_length() > 8 else "bar")
+```
+- [ ] True
+- [x] foo
+- [ ] You will get an error message because constant integer values are not classes.
+- [ ] bar
+
+
+
