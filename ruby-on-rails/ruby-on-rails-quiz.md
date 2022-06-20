@@ -839,3 +839,19 @@ end
 - [ ] `@user.location_city`
 - [ ] `@user.city`
 - [ ] `@user.try(:city)`
+
+#### Q62. Where would this code most likely be found in a Rails project?
+
+`scope :active, lambda { where(:active => true) }`
+
+- [x] an Active Record model
+- [ ] an ActionView template
+- [ ] an ApplicationHelper file
+- [ ] an ActionController controller
+
+#### Q63. What is a standard prerequisite for implementing Single Table Inheritance (STI)?
+
+- [ ] The models used for STI must mix in the module `ActiveRecord::STI`
+- [ ] All models used for STI must include "self.abstract_class=true".
+- [ ] All database tables used for STI must be related to each other using a foreign key.
+- [ ] The database table used for STI must have a column named "type".
