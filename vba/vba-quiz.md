@@ -594,28 +594,28 @@ End Sub
 
 #### Q42. Which procedure declaration is syntactically correct?
 
-- [ ]
+- [ ] :
 
 ```
 Sub MySub(VarA As String, Optional VarB _
 As Variant, Optional VarC As Long)
 ```
 
-- [ ]
+- [ ] :
 
 ```
 Sub MySub(VarA As String, Optional VarB _
 As Variant, VarC As Long)
 ```
 
-- [ ]
+- [ ] :
 
 ```
 Sub MySub(Optional VarA As String, Optional VarB _
 As Variant, VarC as Long)
 ```
 
-- [ ]
+- [ ] :
 
 ```
 Sub MySub(OPtional VarA As String, VarB _
