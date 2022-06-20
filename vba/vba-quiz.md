@@ -515,7 +515,7 @@ End Sub
 
 #### Q37. Which is the correct way to structure a With block?
 
-- [ ]
+- [ ] :
 
 ```
 With Selection
@@ -525,7 +525,7 @@ With Selection
 End With
 ```
 
-- [ ]
+- [ ] :
 
 ```
 With Selection
@@ -535,7 +535,7 @@ With Selection
 End With
 ```
 
-- [ ]
+- [ ] :
 
 ```
 With Selection
@@ -545,7 +545,7 @@ TypeText Text:="1161 Alamosa Drive"
 End With
 ```
 
-- [ ]
+- [ ] :
 
 ```
 With Selection:
