@@ -239,7 +239,7 @@ End Type
 - [ ] Word's Macro Recorder does not record actions initiated by clicking a button on the Ribbon's Developer tab.
 - [x] Word's Macro Recorder does not record actions that inlove selection of text by pointing with the mouse pointer.
 
-#### Q16. Which statement should precede a subroutuine's error handler?
+#### Q16. Which statement should precede a subroutine's error handler?
 
 - [ ] End
 - [ ] Return
