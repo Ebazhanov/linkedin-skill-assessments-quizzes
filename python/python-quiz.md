@@ -1575,7 +1575,7 @@ d = sum(c)
 - [ ] `linalg.det() and .dot()`
 - [ ] `linalg.inv() and .eye()`
 
-#### Q116. What is the correct syntax for creating a vaiable that is bound to a list?
+#### Q116. What is the correct syntax for creating a variable that is bound to a list?
 
 - [ ] `my_list = (2, 'apple', 3.5)`
 - [x] `my_list = [2, 'apple', 3.5]`
@@ -1791,3 +1791,25 @@ _init_() -always executed when the class is being initiated
 - [x] `the count of all True values`
 - [ ] `a type error`
 - [ ] `None`
+
+#### Q134. What will this code print? 
+
+```python
+print ("foo" if (256).bit_length() > 8 else "bar")
+```
+- [ ] True
+- [x] foo
+- [ ] You will get an error message because constant integer values are not classes.
+- [ ] bar
+
+#### Q135. If you do not explicitly return a value from a function, what happens?
+- [ ] If the return keyword is absent, the function will return True.
+- [ ] The function will enter an infinite loop because it will not know when to stop executing its code.
+- [ ] The function will return a RuntimeError if you do not return a value.
+- [x] If the return keyword is absent the function will return None.
+
+#### Q136. it is often the case thet the pandas library is used for ___ data and NumPy for ___ data.
+- [x] string:numerical
+- [ ] unstructured:structured
+- [ ] numerical:tabular
+- [ ] tabular:numerical
