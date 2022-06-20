@@ -482,3 +482,53 @@ public class Health : MonoBehaviour
 
 `get` and `set` are the clear indicators that a C# property is being used.
 [Reference](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/properties)
+
+#### Q48. Which statement is not true?
+
+- [ ] A Coroutines will continue running on deactivated objects
+- [ ] B All component scripts inherit from `MonoBehaviour`
+- [ ] C Only humanoid characters feature bones
+- [ ] D The `Update` function is never called automatically while an object is deactivated
+
+#### Q49. When is the `Reset` method of `MonoBehaviour` invoked automatially?
+
+- [ ] A When a game object moves from one scene to another
+- [x] B When adding a component to an object or resetting its values in Edit mode
+- [ ] C When a scene begins or is restarted
+- [ ] D When the scene begins or restarts for a deactivated game object
+
+`Reset` is called when the user hits the Reset button in the Inspector's context menu or when adding the component the first time. This function is only called in editor mode.
+[Reference] https://docs.unity3d.com/ScriptReference/MonoBehaviour.Reset.html
+
+#### Q50. Which C# attribute allows a class and its methods to run inside the editor during Edit mode?
+
+- [ ] A [Range(0,10)]
+- [ ] B [Live]
+- [ ] C [RunInEditor]
+- [x] D [ExecuteAlways]
+
+`ExecuteAlways` makes instances of a script always execute, both as part of Play Mode and when editing. By default, MonoBehaviours are only executed in Play Mode and only if they are on GameObjects in the main stage containing the user Scenes. By adding this attribute, any instance of the MonoBehaviour will have its callback functions executed at all times.
+[Reference]https://docs.unity3d.com/ScriptReference/ExecuteAlways.html
+Do not fall for `[RunInEditor]`! It looks similar to  `MonoBehaviour.runInEditMode` and `[ExecuteInEditMode]` both of which are legit but not mentioned as possible answers.
+[Reference]https://docs.unity3d.com/ScriptReference/MonoBehaviour-runInEditMode.html
+
+
+#### Q51. The `IsPointerOverGameObject` static function of the `EventSystem` class is useful for creating which behaviour?
+
+- [ ] A moving UI elements in sync with the cursor as it drags across the screen
+- [ ] B changing the highlight of buttons as the cursor moves over them
+- [x] C preventing mouse clicks on game objects behind the UI canvas            <- i believe this is the correct answer but supervision would be helpful
+- [ ] D identifying which 3D object the cursor is hovering over
+
+
+#### Q52. Which C# code fragment continuously updates an object's yaw (Y rotation)?
+
+- [ ] A 
+```c# transform.localRotation *= Quaternion.Euler(0f, RotSpeed * Time.deltaTime, 0f); ```
+- [ ] B 
+```c# transform.Rotate(Vector3.right, RotSpeed * Time.deltaTime); ```
+- [ ] C 
+```c# transform.RotateAround(Vector3.up, RotSpeed * Time.deltaTime); ```
+- [ ] D 
+```c# transform.SetParent(null); ```
+
