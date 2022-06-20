@@ -885,14 +885,14 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [reference](https://www.extendoffice.com/documents/excel/3830-excel-only-allow-certain-values.html)
 
-#### Q107. You want to find the second-largest invoice in a column containing all the invoices in a given month. What function would you use?
+#### Q106. You want to find the second-largest invoice in a column containing all the invoices in a given month. What function would you use?
 
 - [ ] NEXT
 - [ ] MAX
 - [x] LARGE
 - [ ] MATCH
 
-#### Q108. How can you see the data in column E?
+#### Q107. How can you see the data in column E?
 
 ![image](images/Q112.png)
 
@@ -901,7 +901,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] On the Home tab of the ribbon, select Fit to Column.
 - [ ] Expand the width of its column.
 
-#### Q109. In the worksheet below, a table called Projects extends from cell A1 to D10. Cell D1 contains the text Status. Cell E12 contains the formula =Projects[@Status]. What does this formula return?
+#### Q108. In the worksheet below, a table called Projects extends from cell A1 to D10. Cell D1 contains the text Status. Cell E12 contains the formula =Projects[@Status]. What does this formula return?
 
 ![image](images/Q113.png)
 
@@ -910,7 +910,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] #REF!
 - [ ] 0
 
-#### Q110. Which Excel feature allows you to select all cells in the column with inconsistent formulas compared to the rest of the column?
+#### Q109. Which Excel feature allows you to select all cells in the column with inconsistent formulas compared to the rest of the column?
 
 ![image](images/Q114.png)
 
@@ -919,7 +919,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] On the Formulas tab, click Trace errors.
 - [ ] On the Formulas tab, click show formulas
 
-#### Q111. What is one way to center text in a cell?
+#### Q110. What is one way to center text in a cell?
 
 - [ ] Right-click the cell and select **Center** (Windows) or **Center Text** (Mac).
 - [ ] Select the cell and, on the **View** tab in the **Cells** section, click **Alignment** and select **Center** (Windows) or **Center Text** (Mac).
@@ -928,7 +928,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://support.microsoft.com/en-us/office/align-text-in-a-cell-b2489a1f-6c89-45b7-9562-bbc287aa71ea)
 
-#### Q112. Cell D1 contains the value 7.877. You want cell D1 to display the value as 7.9 but keep the original number in calculations. How can you accomplish this?
+#### Q111. Cell D1 contains the value 7.877. You want cell D1 to display the value as 7.9 but keep the original number in calculations. How can you accomplish this?
 
 - [ ] Click the **Decrease Decimal** button once.
 - [x] Click the **Decrease Decimal** button twice.
@@ -937,7 +937,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://support.microsoft.com/en-us/office/round-a-number-to-the-decimal-places-i-want-49b936f9-6904-425d-aa98-02ffb7f9a17b)
 
-#### Q113. Given the image below, what happens if you type "P" in cell A6?
+#### Q112. Given the image below, what happens if you type "P" in cell A6?
 
 ![image](images/Q117.png)
 
@@ -946,7 +946,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] A pop-up list appears with the previous four names.
 - [ ] The letter "P" appears.
 
-#### Q114. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select **\_**.
+#### Q113. To insert a new column to the left of a specific column, right-click the header containing the column's letter and select **\_**.
 
 - [ ] Insert Column
 - [ ] Paste Special
@@ -955,7 +955,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://support.microsoft.com/en-us/office/insert-or-delete-rows-and-columns-6f40e6e4-85af-45e0-b39d-65dd504a3246#:~:text=To%20insert%20a%20single%20column,and%20then%20select%20Insert%20Columns.)
 
-#### Q115. Your transactions data set contains more than 10,000 rows. Some rows contain the same transaction. How would you remove the rows containing the identical transactions?
+#### Q114. Your transactions data set contains more than 10,000 rows. Some rows contain the same transaction. How would you remove the rows containing the identical transactions?
 
 - [ ] Filter the relevant column, right-click the column head, and select **Remove Duplicates**.
 - [ ] This is possible only with Power Query.
@@ -964,7 +964,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://support.microsoft.com/en-us/office/filter-for-unique-values-or-remove-duplicate-values-ccf664b0-81d6-449b-bbe1-8daaec1e83c2)
 
-#### Q116. A colleague shared an excel file with you, and you want to display a worksheet that is hidden in it. How you can do that?
+#### Q115. A colleague shared an excel file with you, and you want to display a worksheet that is hidden in it. How you can do that?
 
 - [ ] On the **Home** tab, click **Unhide**.
 - [ ] On the **Review** tab, click **Unhide Sheet**.
@@ -973,14 +973,14 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://support.microsoft.com/en-us/office/hide-or-unhide-worksheets-69f2701a-21f5-4186-87d7-341a8cf53344)
 
-#### Q117. You have a column of dog breeds that are in all capital letters. What function would you use to convert those dog breeds so that only the first letter of each word is capitalized?
+#### Q116. You have a column of dog breeds that are in all capital letters. What function would you use to convert those dog breeds so that only the first letter of each word is capitalized?
 
 - [ ] Sentence
 - [ ] Upper
 - [ ] Titlecase
 - [x] Proper
 
-#### Q118. In cell C2, how would you limit the user to choosing one of the company's five regions(East, Central, North, South, West)?
+#### Q117. In cell C2, how would you limit the user to choosing one of the company's five regions(East, Central, North, South, West)?
 
 ![image](images/Q122.png)
 
@@ -989,7 +989,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] Insert a table in the data to create a drop-down list
 - [x] Use data validation to create a drop-down list
 
-#### Q119. To calculate gross pay, hours are multiplied by the hourly rate. What formula would you put in cell C4 to then able to copy that cell down to the rest of the column
+#### Q118. To calculate gross pay, hours are multiplied by the hourly rate. What formula would you put in cell C4 to then able to copy that cell down to the rest of the column
 
 ![image](images/Q123.png)
 
@@ -998,7 +998,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] `=B1*B4`
 - [x] `=$B$1*B4`
 
-#### Q120. What do blue row numbers indicate?
+#### Q119. What do blue row numbers indicate?
 
 ![image](images/Q124.png)
 
@@ -1009,7 +1009,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://answers.microsoft.com/en-us/msoffice/forum/all/blue-row-numbers-in-excel-2010-even-though-there/d11519c0-5c94-4ec9-b659-f7bd8c2494f3)
 
-#### Q125. Based on the data in columns D,G,H, and K below, what formula will calculate the average compensation for full-time employees who have a job rating of 5?
+#### Q120. Based on the data in columns D,G,H, and K below, what formula will calculate the average compensation for full-time employees who have a job rating of 5?
 
 ![image](images/Q125.png)
 
