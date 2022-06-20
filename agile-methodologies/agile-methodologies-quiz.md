@@ -630,7 +630,7 @@
 
 #### Q88. What is the term for a team member who is "T-skilled"?
 
-- [ ] cross-functional
+- [x] cross-functional
 - [ ] jack-of-all-trades
 - [ ] apprentice developer
 - [ ] generalizing specialist
@@ -659,7 +659,7 @@
 #### Q92. What is the expected outcome of the daily stand-up meeting?
 
 - [ ] updated status on all of the work
-- [ ] team alignment on its plan for the day
+- [x] team alignment on its plan for the day
 - [ ] a list of impediments and priorities
 - [ ] a report to the Product Owner of stories ready to be accepted
 
@@ -705,3 +705,9 @@
 - [ ] being someone who takes charge
 
 [Source](https://www.globalknowledge.com/us-en/course/87262/agile-team-facilitation-icp-atf/) `non verified answer - A facilitator is someone who helps a group identify common objectives and then offers group processes to achieve defined outcomes while maintaining neutrality. A skilled facilitator consciously embodies self-awareness, self-management, and bias management, while conveying openness and enthusiasm. `
+
+#### Q98. When is the best time to update the team's burndown chart?
+- [ ] before the Sprint Retospective
+- [ ] after the daily stand-up
+- [x] before the daily stand-up
+- [ ] before quarterly planning
