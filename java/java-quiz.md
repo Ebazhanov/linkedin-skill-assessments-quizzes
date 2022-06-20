@@ -1913,3 +1913,11 @@ for(int i=0; i<30; i+=x) {}
 - [ ] JDK; JRE
 
 [Reference](https://stackoverflow.com/questions/1906445/what-is-the-difference-between-jdk-and-jre)
+
+#### Q130.  Which packages are part of Java Standard Edition
+- [ ] java.net
+- [ ] java.util
+- [ ] java.lang
+- [X] All above	  
+		   
+[Reference](https://docs.oracle.com/en/java/javase/11/docs/api/allpackages-index.html)
