@@ -393,7 +393,7 @@ End Sub
 
 #### Q32. Which code block from class modules returns a compile error?
 
-- [ ]
+- [ ] :
 
 ```
 Public Property Get HDL() As Double
@@ -404,7 +404,7 @@ pHDL = Value
 End Property
 ```
 
-- [ ]
+- [ ] :
 
 ```
 Property Get HDL() As Double
@@ -415,7 +415,7 @@ pHDL = Value
 End Property
 ```
 
-- [ ]
+- [ ] :
 
 ```
 Public Property Get HDL() As Double
@@ -426,7 +426,7 @@ pHDL = Value
 End Property
 ```
 
-- [x]
+- [x] :
 
 ```
 Public Property Get HDL() As Single
