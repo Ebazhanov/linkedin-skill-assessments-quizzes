@@ -885,15 +885,6 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [reference](https://www.extendoffice.com/documents/excel/3830-excel-only-allow-certain-values.html)
 
-#### Q106. Given the image below, what happens if you type "P" in cell A6?
-
-![image](images/Q110.png)
-
-- [ ] The letter "P" appears.
-- [x] The word "Perez" appears and the active cell remains in Edit mode.
-- [ ] A pop-up list appears with the previous four names.
-- [ ] The word "Perez" appears and immediately the active cell moves down.
-
 #### Q107. You want to find the second-largest invoice in a column containing all the invoices in a given month. What function would you use?
 
 - [ ] NEXT
