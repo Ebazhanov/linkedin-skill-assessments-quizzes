@@ -205,27 +205,27 @@ End Type
 
 #### Q14. What is one way to duplicate a user form from one project into a different project?
 
-- [ ]
+- [ ] :
 
 1. Save and close the project with the existing user form.
 2. Click Insert > File.
 3. Browse to the location of the existing project.
 4. Right-click it and select the user-form you want to duplicate.
 
-- [ ]
+- [ ] :
 
 1. Open the existing user form in Desing Mode.
 2. Right-click the form and select Copy.
 3. Switch to the other project.
 4. Right-click Module and select Paste.
 
-- [ ]
+- [ ] :
 
 1. In the Project Explorer, right-click the user form and select Copy.
 2. Switch to the new project.
 3. Right-click UserForms and select Paste.
 
-- [x]
+- [x] :
 
 1. Open the existing user form in Design Mode.
 2. Click File > Export File.
