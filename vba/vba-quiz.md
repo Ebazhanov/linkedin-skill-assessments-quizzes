@@ -167,33 +167,41 @@ End Sub
 
 #### Q13. Which is a valid definition of a user-defined data type?
 
-- [x]
+- [x] :
 
+```
 Type CBC
 Name As String
 Next As String
 End Type
+```
 
-- [ ]
+- [ ] :
 
+```
 Type CBC
 Name As String
-\_Next As String
+_Next As String
 End Type
+```
 
-- [ ]
+- [ ] :
 
+```
 Type CBC
 Name As String
 @Option As String
 End Type
+```
 
-- [ ]
+- [ ] :
 
+```
 Type CBC
 Name As String
 %For As String
 End Type
+```
 
 #### Q14. What is one way to duplicate a user form from one project into a different project?
 
