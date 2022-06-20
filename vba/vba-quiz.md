@@ -339,10 +339,12 @@ End Enum
 
 #### Q28. Which statement declares an array?
 
-- [ ] Dim MyArray() As Integer
-- [x] Dim MyArray() As Array
+- [x] Dim MyArray() As Integer
+- [ ] Dim MyArray() As Array
 - [ ] Dim MyArray As Integer
 - [ ] Dim MyArray As Array
+
+[reference](https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/declaring-arrays)
 
 #### Q29. To use VBA code to maintain a different VBA project, you can make use of VBA's extensibility. What is needed to enable extensibility?
 
