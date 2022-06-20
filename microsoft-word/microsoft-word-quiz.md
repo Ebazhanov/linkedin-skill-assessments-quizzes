@@ -641,7 +641,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 #### Q81. You inserted a picture into a brochure, and you want to cut down on the background to focus only on the main part of the image. How can you accomplish this?
 
 - [ ] Right-click the picture and select **Crop**.
-- [X] In **Picture Tools**, select **Remove Background**.
+- [x] In **Picture Tools**, select **Remove Background**.
 - [ ] In **Picture Tools**, select **Picture Effects**.
 - [ ] Right-click the picture and select **Size and Position**.
 
@@ -654,7 +654,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 
 #### Q83. There is a circle shape in your document. Which of the shape's style can you format?
 
-- [X] all of these answers
+- [x] all of these answers
 - [ ] Outline
 - [ ] Effects
 - [ ] Fill
@@ -664,11 +664,11 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] fonts and paragraph spacing
 - [ ] colors, fonts, paragraph spacing, and effects
 - [ ] colors, fonts, and paragraph spacing
-- [X] colors, fonts, and effects
+- [x] colors, fonts, and effects
 
 #### Q85. When using the Compare function, the differences between two documents are outlined **\_**.
 
-- [X] in red
+- [x] in red
 - [ ] on the most recent of the two documents
 - [ ] on the original document
 - [ ] on a third document
@@ -678,13 +678,13 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] Insert an object.
 - [ ] Insert a caption.
 - [ ] Insert AutoText.
-- [X] Insert alt text.
+- [x] Insert alt text.
 
 #### Q87. You are creating a company newsletter. The first page has three columns, and the second page will need four columns. How would you do this?
 
 - [ ] Insert a column break at the beginning of the second page.
 - [ ] Insert a page break at the end of the first page.
-- [X] Insert a section break at the end of the first page.
+- [x] Insert a section break at the end of the first page.
 - [ ] Insert a text wrapping break at the beginning of the second page.
 
 #### Q88. You just applied a change from the Design tab of the ribbon, and all of the fonts and formatting in your document changed. What did you change?
@@ -697,7 +697,7 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] D
 - [ ] A or B
 - [ ] C or D
-- [X] A, B, or C
+- [x] A, B, or C
 
 #### Q89. You want to start a new text section at the current cursor position without adding a new page. Which type of section break should you choose?
 
