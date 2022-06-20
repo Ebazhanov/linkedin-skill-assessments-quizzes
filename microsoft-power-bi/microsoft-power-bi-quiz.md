@@ -616,3 +616,34 @@ D. They must have no duplicate data rows.
 - [ ] gauge chart
 - [x] treemap
 - [ ] waterfall
+
+#### Q79. Of the Power BI tools, only Power BI Desktop allows you to do what?
+
+- [ ] all of these answers.
+- [ ] Work offline.
+- [ ] Create data models.
+- [ ] Add DAX calculations.
+
+#### Q80. What does the Power BI Advanced Editor allow you to do? (Select all that apply.)
+
+    A. Access the advanced editing commands.
+    B. View the M code created by the Power Query Editor.
+    C. Enter M code to shape your data.
+    D. Edit the M code created by the Power Query Editor.
+
+- [ ] A, B
+- [ ] A,B,C,D
+- [ ] B,C,D
+- [ ] A,B,C
+
+#### Q81. Why might you use the DAX DIVIDE function rather than a forward slash (/) when creating a measure? (Select all that apply.)
+
+    A. DIVIDE does not raise an error when the denominator is zero.
+    B. DIVIDE is faster.
+    C. A forward slash does not work with text columns.
+    D. DIVIDE stores the numerator and denominator locally.
+
+- [ ] A,B,C,D
+- [ ] A,B
+- [ ] B,C
+- [ ] A

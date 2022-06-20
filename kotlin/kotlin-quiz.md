@@ -128,7 +128,7 @@ when (die) {
   1 -> println("die is 1")
   2 -> println("die is 2")
   ___ -> printlin("die is between 3 and 6")
-  else -> printlin("dies is unknown")
+  else -> printlin("die is unknown")
 }
 ```
 
@@ -139,7 +139,7 @@ when (die) {
 
 [reference](https://kotlinlang.org/docs/ranges.html)
 
-#### Q12. The function **typeChecker** receiver a parameter **obj** of type **Any**. Based upon the type of **obj**, it prints different messages for Int, String, Double, and Float types; if not any of the mentioned types, it prints "unknown type". What operator allows you to determine the type of an object?
+#### Q12. The function **typeChecker** receives a parameter **obj** of type **Any**. Based upon the type of **obj**, it prints different messages for Int, String, Double, and Float types; if not any of the mentioned types, it prints "unknown type". What operator allows you to determine the type of an object?
 
 - [ ] `instanceof`
 - [x] `is`
@@ -550,10 +550,10 @@ fun main(){
 }
 ```
 
-- [ ] The extension function should be marked public
-- [ ] Add the prefix operator to the shouldMatch extension function
+- [ ] The extension function should be marked `public`
+- [ ] Add the prefix `operator` to the `shouldMatch` extension function
 - [ ] The code is not legal in Kotlin (should be `println(msg.shouldEqual("test message"))`)
-- [x] Add the prefix infix to the shouldMatch extension function
+- [x] Add the prefix `infix` to the `shouldMatch` extension function
 
 #### Q44. What is the difference between the declarations of COLOR and SIZE?
 
@@ -681,7 +681,7 @@ fun main() {
 
 - [ ] You cannot; the hash symbol is not a valid operator.
 - [ ] You should replace the word hash with octothorpe, the actual name for the symbol.
-- [x] You should use `minus` instead of hash, then type alias the minus symbol. // Note: How can you fix it?
+- [x] You should use `minus` instead of hash, then type alias the minus symbol.
 - [ ] You need to replace operator with the word `infix`.
 
 #### Q52. This code snippet compiles without error, but never prints the results when executed. What could be wrong?
@@ -716,6 +716,8 @@ fun printStudents(vararg students: String) {
 - [x] `printStudents(*students)`
 - [ ] `printStudents(students[])`
 
+[reference](https://kotlinlang.org/docs/functions.html#variable-number-of-arguments-varargs)
+
 #### Q54. Both y and z are immutable references pointing to fixed-size collections of the same four integers. Are there any differences?
 
 ```kotlin
@@ -745,6 +747,8 @@ fun main() = runBlocking {
 - [x] `task.join()`
 - [ ] `task.cancel()`
 
+[reference](https://kotlinlang.org/docs/coroutines-basics.html#an-explicit-job)
+
 #### Q56. You would like to group a list of students by last name and get the total number of groups. Which line of code accomplishes this, assuming you have a list of the Student data class?
 
 ```kotlin
@@ -756,7 +760,7 @@ data class Student(val firstName: String, val lastName: String)
 - [ ] `println(students.groupingBy{ it.lastName.first() }.count())`
 - [ ] `println(students.groupingBy{ it.lastName.first() }.size())`
 
-#### Q57. Class BB inherits from class AA. BB uses a different method to calculate the price. As shown, the code does not compile. What changes is needed to resolve the compilation error?
+#### Q57. Class BB inherits from class AA. BB uses a different method to calculate the price. As shown, the code does not compile. What changes are needed to resolve the compilation error?
 
 ```kotlin
 open class AA() {
@@ -769,10 +773,10 @@ class BB() : AA() {
 }
 ```
 
-- [ ] You need to add a lateinit modifier to `AA.price`.
-- [ ] You simply need to add an override modifier to `BB.price`.
-- [x] You need to add an open modifier to `AA.price` and an override modifier to `BB.price`.
-- [ ] You need to add a public modifier to `AA.price` and a protected modifier to `BB.price`.
+- [ ] You need to add a `lateinit` modifier to `AA.price`.
+- [ ] You simply need to add an `override` modifier to `BB.price`.
+- [x] You need to add an `open` modifier to `AA.price` and an `override` modifier to `BB.price`.
+- [ ] You need to add a `public` modifier to `AA.price` and a `protected` modifier to `BB.price`.
 
 #### Q58. What is the output of this code?
 
@@ -832,7 +836,7 @@ val b = arrayOf(100, 200, 3000)
 - [ ] `val c = a + b`
 - [ ] `val c = listOf(a+b)`
 - [x] `val c = listOf(*a, *b)`
-- [reference](https://www.techiedelight.com/join-two-lists-kotlin/)
+- [reference](https://www.baeldung.com/kotlin/combine-arrays#arrayof-and-the-spread-operator)
 
 #### Q64. This code is occasionally throwing a null pointer exception (NPE). How can you change the code so it never throws as NPE?
 
@@ -915,7 +919,7 @@ var price: Int = 0
   private set
 ```
 
-- [x] Option 2 ([reference](https://kotlinlang.org/docs/properties.html#getters-and-setters))
+- [x] Option 2
 
 ```
 var price: Int = 0
@@ -934,6 +938,8 @@ var price: Int = 0
 ```
 val price: Int=0
 ```
+
+[reference](https://kotlinlang.org/docs/properties.html#getters-and-setters)
 
 #### Q70. What will happen when you try to build and run this code snippet?
 
@@ -1006,10 +1012,10 @@ fun sort(list: List<T>): List <T> {
 }
 ```
 
-- [ ] `Add <T -> Comparable<T>> between the `fun` keyword and the function name`
-- [ ] `Add Comparable<T> between the `fun` keyword and the function name`
-- [x] `Add <T : Comparable<T>> between the `fun` keyword and the function name`
-- [ ] `Add <T where Comparable<T>> between the `fun` keyword and the function name`
+- [ ] Add `<T -> Comparable<T>>` between the `fun` keyword and the function name
+- [ ] Add `Comparable<T>` between the `fun` keyword and the function name
+- [x] Add `<T : Comparable<T>>` between the `fun` keyword and the function name
+- [ ] Add `<T where Comparable<T>>` between the `fun` keyword and the function name
 
 [reference](https://kotlinlang.org/docs/generics.html#generic-functions)
 
@@ -1087,3 +1093,39 @@ fun main() {
 - [x] Use string templates instead.
 
 [reference](https://kotlinlang.org/docs/basic-syntax.html#string-templates)
+
+#### Q84. You have enum class Signal that represent state of network connection. You want to iterate over each the member of the enum. Which line of code shows how to do that `?
+
+- [ ] Signal.sequence().
+- [ ] Signal.toArray().
+- [x] Signal.values().
+- [ ] Signal.toList().
+
+[reference](https://kotlinlang.org/docs/enum-classes.html#working-with-enum-constants)
+
+#### Q85. You'd like to create multiline string that includes the carriage return characther. What should you use to enclose the string?
+
+- [ ] Double quotes("").
+- [ ] Single quotes(').
+- [x] Tripple quote(""").
+- [ ] Backticks().
+
+[reference](https://kotlinlang.org/docs/coding-conventions.html#strings)
+
+#### Q86. You want your class member to be visible to subclasses. Which modifier do you use?
+
+- [ ] Public.
+- [x] Protected.
+- [ ] Internal.
+- [ ] Private.
+
+[reference](https://kotlinlang.org/docs/visibility-modifiers.html#class-members)
+
+#### Q87. which line of code shows how to create a finite sequence of the numbers 1 to 99 and then convert it into a list?
+
+- [x] val lessThan99 = generateSequence(1){ if (it < 99) it + 1 else null }.toList().
+- [ ] val lessThan99 = generateSequence(0){ if (it < 99)}.toList().
+- [ ] val lessThan99 = generateSequence(1..9){ if (it < 99) it + 1 else null }.toList().
+- [ ] val lessThan99 = listOf{1..99}.asSequence().toList()
+
+[reference](https://kotlinlang.org/docs/sequences.html#from-a-function)

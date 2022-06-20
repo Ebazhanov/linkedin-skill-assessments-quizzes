@@ -53,7 +53,7 @@ ID=6 Age = 25 Weight=130
 #### Q3. What is the principal difference between a class and an object?
 
 - [ ] There is no meaningful difference. The terms are used interchangeably.
-- [ ] A dass declares an object's properties. An object completes the declaration by defining events and methods.
+- [ ] A class declares an object's properties. An object completes the declaration by defining events and methods.
 - [ ] An object is a template for a class.
 - [x] A class describes the design of an object. An object is an instance of that design.
 
@@ -307,7 +307,7 @@ Dim MyArray(5) As Integer
 - [ ] Set Module Level Scope at the top of Module1
 - [x] Set Option Private Module at the top of Module1
 
-#### Q26. When used with an array named MyArray, what is the preerred way to set beginning and ending values of a loop control variable?
+#### Q26. When used with an array named MyArray, what is the preferred way to set beginning and ending values of a loop control variable?
 
 - [ ] For i = 0 To UBound(MyArray,1)
 - [ ] For i = 1 To UBound(MyArray,1)
@@ -462,7 +462,7 @@ End Sub
 - [x] Z = in a message box and then a subsequent error message
 - [ ] Y = in a message box and then a subsequent error message
 
-#### Q36. The VBA code block shown in the following four options runs when UserForm1's CommandButton1 button is clicked. Which block of code leaves UserFrom1 loaded but not visible until the FoundErrors function has checked it, and then enables processing to continue if no errors are found?
+#### Q36. The VBA code block shown in the following four options runs when UserForm1's CommandButton1 button is clicked. Which block of code leaves UserForm1 loaded but not visible until the FoundErrors function has checked it, and then enables processing to continue if no errors are found?
 
 - [ ]
 
@@ -504,3 +504,112 @@ End Sub
 ```
 
 > The first requirement is to make UserForm1 loaded but not visible, therefore we need Me.Hide, **Me** in here referring to UserForm1
+
+#### Q37. Which is the correct way to structure a With block?
+
+- [ ]
+
+```
+With Selection
+&TypeText Text:="8/24/2019"
+&TypeParagraph
+&TypeText Text:="1161 Alamosa Drive"
+End With
+```
+
+- [ ]
+
+```
+With Selection
+.TypeText Text:="8/24/2019"
+.TypeParagraph
+.TypeText Text:="1161 Alamosa Drive"
+End With
+```
+
+- [ ]
+
+```
+With Selection
+TypeText Text:="8/24/2019"
+TypeParagraph
+TypeText Text:="1161 Alamosa Drive"
+End With
+```
+
+- [ ]
+
+```
+With Selection:
+&TypeText Text:="8/24/2019"
+&TypeParagraph
+&TypeText Text:="1161 Alamosa Drive"
+End With
+```
+
+#### Q38. Why does this code generate a "Subscript out of range" error?
+
+```
+Sub Example()
+    Dim MyArr() As Variant
+    ReDim MyArr(3, 4)
+    'some code
+    ReDim Preserve MyArr(4, 4)
+End Sub
+```
+
+- [ ] Arrays cannot be resized more than once.
+- [ ] MyArr was originally declared with three "rows".
+- [ ] You can resize only the last dimension of an array when you specify `ReDim Preserve`.
+- [ ] The correct syntax is `ReDim Preserve MyArr(0 To 4, 0 To 4)`.
+
+#### Q39. Which subroutine declaration does `not` cause a compile error?
+
+- [ ] `Sub Called(Salary As Long, ParamArray Vals() As Variant)`
+- [ ] `Sub Called(ParamArray Vals() As Variant, Salary As Long)`
+- [ ] `Sub Called(Optional Salary As Long, ParamArray Vals() As Variant)`
+- [ ] `Sub Called(Salary As Long, ParamArray Vals() As String)`
+
+#### Q40. How can a user enter data on a worksheet or document, or switch windows, while UserForm1 is displayed on the screen?
+
+- [ ] Show the form with this statement: `UserForm1.Show vbModal`
+- [ ] Include this statement in the code: `UserForm1.Hwnd = False.`
+- [ ] Set the user from's `SpecialEffect` property to `frmShowModal`
+- [ ] Set the user from's `ShowModal` property to False.
+
+#### Q41. SubA passes MyVar to SubB. How can you ensure that MyVar has its original value when control returns to SubA?
+
+- [ ] Declare SubB as Sub SubB(ByRef MyVar).
+- [ ] Declare SubB as Sub SubB(MyVar).
+- [ ] Declare SubB as Sub SubB(Static MyVar).
+- [ ] Declare SubB as Sub SubB(ByVal MyVar).
+
+#### Q42. Which procedure declaration is syntactically correct?
+
+- [ ]
+
+```
+Sub MySub(VarA As String, Optional VarB _
+As Variant, Optional VarC As Long)
+```
+
+- [ ]
+
+```
+Sub MySub(VarA As String, Optional VarB _
+As Variant, VarC As Long)
+```
+
+- [ ]
+
+```
+Sub MySub(Optional VarA As String, Optional VarB _
+As Variant, VarC as Long)
+```
+
+- [ ]
+
+```
+Sub MySub(OPtional VarA As String, VarB _
+As Variant, Optional VarC as Long)
+```

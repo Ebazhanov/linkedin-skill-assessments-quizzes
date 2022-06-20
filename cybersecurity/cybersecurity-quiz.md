@@ -124,7 +124,7 @@ A rainbow table attack is a more efficient and effective way of cracking many ha
 - [ ] Cloud Workload Protection Platforms (CWPP)
 - [ ] Cloud Access Security Brokers (CASBs)
 
-#### Q17. **\_** validates the integrity of data files.
+#### Q17. **\_\_\_\_\_** validates the integrity of data files.
 
 - [ ] Compression
 - [x] Hashing
@@ -711,7 +711,7 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 
 - [ ] Security Information Event Management (SIEM)
 - [ ] an Instruction Detection and Prevention System (IDPS) appliance
-- [ ] a web application firewall (WAF)
+- [x] a web application firewall (WAF)
 - [ ] a stateful packet inspection firewall
 
 #### Q93. Which phase of the incident response process happens immediately following identification?
@@ -774,12 +774,12 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 #### Q101. Site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space _ site-to-site VPN provides access from one network address space (192.168.0.0/24) to another network address space _.
 
-- [x] 192.168.0.1/24192.168.0.1/24
-- [ ] 192.168.0.3/24192.168.0.3/24
-- [ ] 10.10.0.0/2410.10.0.0/24
+- [x] 192.168.0.1/24
+- [ ] 192.168.0.3/24
+- [ ] 10.10.0.0/24
 - [ ] 192.168.0.2/24
 
-#### Q102. You are researching probable threats to your company’s internet-facing web applications. Which organization should you reference as an authoritative source for information on web-based attack vectors?You are researching probable threats to your company’s internet-facing web applications. Which organization should you reference as an authoritative source for information on web-based attack vectors?
+#### Q102. You are researching probable threats to your company’s internet-facing web applications. Which organization should you reference as an authoritative source for information on web-based attack vectors?
 
 - [ ] EC-Council
 - [ ] ISACAISACA
@@ -796,3 +796,33 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] adopting a "defense-in-depth" approach to security
 
 [Explanation:](https://www.law.com/njlawjournal/2021/12/03/zero-trust-security-moving-from-trust-but-verify-to-never-trust-always-verify/?slreturn=20220417191235)
+
+#### Q104. **\_\_\_\_\_** attacks can execute the code injected by attackers as part of user inputs.
+
+- [ ] Ping of death
+- [x] Buffer overflow
+- [ ] Distributed Denial of Service
+- [ ] Denial of Service
+
+#### Q105. Which activity is _not_ part of risk assessment?
+
+- [ ] identifying and valuing assets
+- [ ] analyzing risks by criticality and cost
+- [x] discontiniuing activities that introduce risk
+- [ ] identifying threats and analyzing vulnerabilities
+
+#### Q106. In response to an alert regarding a possible security incident, you are analyzing the logs for a web application. In the process, you see the following string: `./../../../var/secrets` What type of attack was most likely attempted against the application?
+
+- [ ] brute force
+- [ ] session hijacking
+- [ ] cross-site scripting
+- [x] directory traversal
+
+#### Q107. Which quadrant should be the focus of risk management?
+
+![Which quadrant should be the focus of risk management?](Q107-risk-quadrant.jpg)
+
+- [x] 2
+- [ ] 1
+- [ ] 3
+- [ ] 4
