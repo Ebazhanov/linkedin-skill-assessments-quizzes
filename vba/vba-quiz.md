@@ -527,7 +527,7 @@ With Selection
 End With
 ```
 
-- [ ] :
+- [x] :
 
 ```
 With Selection
@@ -556,6 +556,8 @@ With Selection:
 &TypeText Text:="1161 Alamosa Drive"
 End With
 ```
+
+[reference](https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/with-statement)
 
 #### Q38. Why does this code generate a "Subscript out of range" error?
 
