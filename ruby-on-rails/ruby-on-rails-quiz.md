@@ -830,9 +830,9 @@ end
     end
     class User < ActiveRecord::Base
         belovngs_to :location
-        
+
         delegate :city, :state, to: :location, allow_nil: true, prefix: true
-    end     
+    end
 ```
 
 - [x] `@user.user_city`

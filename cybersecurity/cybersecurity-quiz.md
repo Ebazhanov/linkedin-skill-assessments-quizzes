@@ -711,7 +711,7 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 
 - [ ] Security Information Event Management (SIEM)
 - [ ] an Instruction Detection and Prevention System (IDPS) appliance
-- [X] a web application firewall (WAF)
+- [x] a web application firewall (WAF)
 - [ ] a stateful packet inspection firewall
 
 #### Q93. Which phase of the incident response process happens immediately following identification?
@@ -800,7 +800,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 #### Q104. **\_\_\_\_\_** attacks can execute the code injected by attackers as part of user inputs.
 
 - [ ] Ping of death
-- [X] Buffer overflow
+- [x] Buffer overflow
 - [ ] Distributed Denial of Service
 - [ ] Denial of Service
 
@@ -808,7 +808,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 - [ ] identifying and valuing assets
 - [ ] analyzing risks by criticality and cost
-- [X] discontiniuing activities that introduce risk
+- [x] discontiniuing activities that introduce risk
 - [ ] identifying threats and analyzing vulnerabilities
 
 #### Q106. In response to an alert regarding a possible security incident, you are analyzing the logs for a web application. In the process, you see the following string: `./../../../var/secrets` What type of attack was most likely attempted against the application?
@@ -816,12 +816,13 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] brute force
 - [ ] session hijacking
 - [ ] cross-site scripting
-- [X] directory traversal
+- [x] directory traversal
 
 #### Q107. Which quadrant should be the focus of risk management?
+
 ![Which quadrant should be the focus of risk management?](Q107-risk-quadrant.jpg)
 
-- [X] 2
+- [x] 2
 - [ ] 1
 - [ ] 3
 - [ ] 4

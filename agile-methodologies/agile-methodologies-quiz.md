@@ -707,6 +707,7 @@
 [Source](https://www.globalknowledge.com/us-en/course/87262/agile-team-facilitation-icp-atf/) `non verified answer - A facilitator is someone who helps a group identify common objectives and then offers group processes to achieve defined outcomes while maintaining neutrality. A skilled facilitator consciously embodies self-awareness, self-management, and bias management, while conveying openness and enthusiasm. `
 
 #### Q98. When is the best time to update the team's burndown chart?
+
 - [ ] before the Sprint Retospective
 - [ ] after the daily stand-up
 - [x] before the daily stand-up
