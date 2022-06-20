@@ -308,7 +308,7 @@ Dim MyArray(5) As Integer
 - [ ] by means of the Implements keyword and the name of the interface
 - [x] The name of the interface is passed as a parameter.
 
-#### Q25. What is needed for the contents of Module1 to be availble to other modules in a VBA project, but not to any other VBA project?
+#### Q25. What is needed for the contents of Module1 to be available to other modules in a VBA project, but not to any other VBA project?
 
 - [ ] Set Option Global at the top of Module1
 - [ ] Declare module-level variables as Private
