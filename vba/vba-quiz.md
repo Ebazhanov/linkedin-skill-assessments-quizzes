@@ -472,7 +472,7 @@ End Sub
 
 #### Q36. The VBA code block shown in the following four options runs when UserForm1's CommandButton1 button is clicked. Which block of code leaves UserForm1 loaded but not visible until the FoundErrors function has checked it, and then enables processing to continue if no errors are found?
 
-- [ ]
+- [ ] :
 
 ```
 Private Sub CommandButton1_Click()
@@ -481,7 +481,7 @@ Me.Show
 End Sub
 ```
 
-- [ ]
+- [ ] :
 
 ```
 Private Sub CommandButton1_Click()
@@ -490,7 +490,7 @@ Unload UserForm1
 End Sub
 ```
 
-- [x]
+- [x] :
 
 ```
 Private Sub CommandButton1_Click()
@@ -501,7 +501,7 @@ Loop
 End Sub
 ```
 
-- [ ]
+- [ ] :
 
 ```
 Private Sub CommandButton1_Click()
