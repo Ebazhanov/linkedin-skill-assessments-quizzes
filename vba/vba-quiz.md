@@ -13,28 +13,28 @@ Sub ShowVitals()
 End Sub
 ```
 
-- [ ]
+- [ ] :
 
 ```
 ID=5 Age = 20 Weight=
 ID=6 Age = 25 Weight=130
 ```
 
-- [x]
+- [x] :
 
 ```
 ID=5 Age = 20 Weight=0
 ID=6 Age = 25 Weight=130
 ```
 
-- [ ]
+- [ ] :
 
 ```
 ID=5 Age = 20 Weight=Null
 ID=6 Age = 25 Weight=130
 ```
 
-- [ ]
+- [ ] :
 
 ```
 ID=5 Age = 20
@@ -167,57 +167,65 @@ End Sub
 
 #### Q13. Which is a valid definition of a user-defined data type?
 
-- [x]
+- [x] :
 
+```
 Type CBC
 Name As String
 Next As String
 End Type
+```
 
-- [ ]
+- [ ] :
 
+```
 Type CBC
 Name As String
-\_Next As String
+_Next As String
 End Type
+```
 
-- [ ]
+- [ ] :
 
+```
 Type CBC
 Name As String
 @Option As String
 End Type
+```
 
-- [ ]
+- [ ] :
 
+```
 Type CBC
 Name As String
 %For As String
 End Type
+```
 
 #### Q14. What is one way to duplicate a user form from one project into a different project?
 
-- [ ]
+- [ ] :
 
 1. Save and close the project with the existing user form.
 2. Click Insert > File.
 3. Browse to the location of the existing project.
 4. Right-click it and select the user-form you want to duplicate.
 
-- [ ]
+- [ ] :
 
 1. Open the existing user form in Desing Mode.
 2. Right-click the form and select Copy.
 3. Switch to the other project.
 4. Right-click Module and select Paste.
 
-- [ ]
+- [ ] :
 
 1. In the Project Explorer, right-click the user form and select Copy.
 2. Switch to the new project.
 3. Right-click UserForms and select Paste.
 
-- [x]
+- [x] :
 
 1. Open the existing user form in Design Mode.
 2. Click File > Export File.
@@ -231,7 +239,7 @@ End Type
 - [ ] Word's Macro Recorder does not record actions initiated by clicking a button on the Ribbon's Developer tab.
 - [x] Word's Macro Recorder does not record actions that inlove selection of text by pointing with the mouse pointer.
 
-#### Q16. Which statement should precede a subroutuine's error handler?
+#### Q16. Which statement should precede a subroutine's error handler?
 
 - [ ] End
 - [ ] Return
@@ -300,7 +308,7 @@ Dim MyArray(5) As Integer
 - [ ] by means of the Implements keyword and the name of the interface
 - [x] The name of the interface is passed as a parameter.
 
-#### Q25. What is needed for the contents of Module1 to be availble to other modules in a VBA project, but not to any other VBA project?
+#### Q25. What is needed for the contents of Module1 to be available to other modules in a VBA project, but not to any other VBA project?
 
 - [ ] Set Option Global at the top of Module1
 - [ ] Declare module-level variables as Private
@@ -331,10 +339,12 @@ End Enum
 
 #### Q28. Which statement declares an array?
 
-- [ ] Dim MyArray() As Integer
-- [x] Dim MyArray() As Array
+- [x] Dim MyArray() As Integer
+- [ ] Dim MyArray() As Array
 - [ ] Dim MyArray As Integer
 - [ ] Dim MyArray As Array
+
+[reference](https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/declaring-arrays)
 
 #### Q29. To use VBA code to maintain a different VBA project, you can make use of VBA's extensibility. What is needed to enable extensibility?
 
@@ -345,22 +355,22 @@ End Enum
 
 #### Q30. How do you add a user form to a VBA project?
 
-- [ ]
+- [ ] :
 
 1. Select the project in the Project window of the Visual Basic Editor
 2. Click the Design Mode button and select Insert Mode
 
-- [ ]
+- [ ] :
 
 1. Select the project in the Project window of the Visual Basic Editor
 2. Click the Toolbox button and select UserForm
 
-- [ ]
+- [ ] :
 
 1. Select the project in the Project window of the Visual Basic Editor
 2. Right-click the Run menu and select Customize
 
-- [x]
+- [x] :
 
 1. Select the project in the Project window of the Visual Basic Editor
 2. Click Insert > UserForm
@@ -385,7 +395,7 @@ End Sub
 
 #### Q32. Which code block from class modules returns a compile error?
 
-- [ ]
+- [ ] :
 
 ```
 Public Property Get HDL() As Double
@@ -396,7 +406,7 @@ pHDL = Value
 End Property
 ```
 
-- [ ]
+- [ ] :
 
 ```
 Property Get HDL() As Double
@@ -407,7 +417,7 @@ pHDL = Value
 End Property
 ```
 
-- [ ]
+- [ ] :
 
 ```
 Public Property Get HDL() As Double
@@ -418,7 +428,7 @@ pHDL = Value
 End Property
 ```
 
-- [x]
+- [x] :
 
 ```
 Public Property Get HDL() As Single
@@ -464,7 +474,7 @@ End Sub
 
 #### Q36. The VBA code block shown in the following four options runs when UserForm1's CommandButton1 button is clicked. Which block of code leaves UserForm1 loaded but not visible until the FoundErrors function has checked it, and then enables processing to continue if no errors are found?
 
-- [ ]
+- [ ] :
 
 ```
 Private Sub CommandButton1_Click()
@@ -473,7 +483,7 @@ Me.Show
 End Sub
 ```
 
-- [ ]
+- [ ] :
 
 ```
 Private Sub CommandButton1_Click()
@@ -482,7 +492,7 @@ Unload UserForm1
 End Sub
 ```
 
-- [x]
+- [x] :
 
 ```
 Private Sub CommandButton1_Click()
@@ -493,7 +503,7 @@ Loop
 End Sub
 ```
 
-- [ ]
+- [ ] :
 
 ```
 Private Sub CommandButton1_Click()
@@ -507,7 +517,7 @@ End Sub
 
 #### Q37. Which is the correct way to structure a With block?
 
-- [ ]
+- [ ] :
 
 ```
 With Selection
@@ -517,7 +527,7 @@ With Selection
 End With
 ```
 
-- [ ]
+- [x] :
 
 ```
 With Selection
@@ -527,7 +537,7 @@ With Selection
 End With
 ```
 
-- [ ]
+- [ ] :
 
 ```
 With Selection
@@ -537,7 +547,7 @@ TypeText Text:="1161 Alamosa Drive"
 End With
 ```
 
-- [ ]
+- [ ] :
 
 ```
 With Selection:
@@ -546,6 +556,8 @@ With Selection:
 &TypeText Text:="1161 Alamosa Drive"
 End With
 ```
+
+[reference](https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/with-statement)
 
 #### Q38. Why does this code generate a "Subscript out of range" error?
 
@@ -586,28 +598,28 @@ End Sub
 
 #### Q42. Which procedure declaration is syntactically correct?
 
-- [ ]
+- [ ] :
 
 ```
 Sub MySub(VarA As String, Optional VarB _
 As Variant, Optional VarC As Long)
 ```
 
-- [ ]
+- [ ] :
 
 ```
 Sub MySub(VarA As String, Optional VarB _
 As Variant, VarC As Long)
 ```
 
-- [ ]
+- [ ] :
 
 ```
 Sub MySub(Optional VarA As String, Optional VarB _
 As Variant, VarC as Long)
 ```
 
-- [ ]
+- [ ] :
 
 ```
 Sub MySub(OPtional VarA As String, VarB _
