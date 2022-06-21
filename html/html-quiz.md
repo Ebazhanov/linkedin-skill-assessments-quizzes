@@ -1833,3 +1833,18 @@ As Steve Krug once said, happy talk must die.
 ```HTML
 <p>On July 21, 1969, Neil Armstrong said, <q>"That's one small step for man, one giant leap for mankind."</q></p>
 ```
+
+#### Q111. What is the root element of an HTML document.
+
+- [x] `<html>`
+- [ ] `<body>` 
+- [ ] `<root>` 
+- [ ] `<!DOCTYPE html>`
+
+`
+The <html> tag is the root element of an HTML document, which means that it contains all the contents and tags of the HTML document within it.
+
+The html element represents the root of a document.
+`
+[Source](https://www.interviewbit.com/html-mcq/)
+[Source](https://www.w3.org/TR/2010/WD-html-markup-20100624/html.html)
