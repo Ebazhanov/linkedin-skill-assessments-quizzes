@@ -1903,4 +1903,4 @@ p + section {
 - [x] P3 and P4
 - [ ] P1
 
-[Reference](https://www.w3schools.com/css/css_comments.asp)
+[Reference](https://www.w3docs.com/snippets/css/what-does-the-css-tilde-selector-mean.html)
