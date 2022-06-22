@@ -1038,7 +1038,7 @@ This is a confusing question and there can be an arguments for both the second a
 - [ ] When the **Play** button is pressed, the browser plays the sound over and over again until the user stops it.
 - [ ] The browser plays the sound once automatically in the background. The user has no control over the sound.
 - [ ] The browser plays the sound automatically and continuously in the background. The user may stop the sound at any tune.
-- [x] It does nothing. Modern browsers require some form of interaction before they let a page autoplat with audio.
+- [x] It does nothing. Modern browsers require some form of interaction before they let a page autoplay with audio.
 
 References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio),
 [(MDN) autoplay](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
