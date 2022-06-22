@@ -855,3 +855,32 @@ end
 - [ ] All models used for STI must include "self.abstract_class=true".
 - [ ] All database tables used for STI must be related to each other using a foreign key.
 - [ ] The database table used for STI must have a column named "type".
+
+#### Q64. A way that views can share reusable code, such as formatting a date, is called a \_?
+
+- [x] helper
+- [ ] utility
+- [ ] controller
+- [ ] formatter
+
+#### Q65. How do you add Ruby code inside Rails views and have its result outputted in the HTML file?
+
+- [ ] Insert Ruby code inside standard HTML files and surround it with `<% %>`. The web server will handle the rest.
+- [ ] Create an embedded Ruby file `(.html.erb)` and surround the Ruby code with `<% %>`
+- [ ] Put the code in `an.rb. file` and include it in a `<link>` tag of an HTML file.
+- [x] Create an embedded Ruby file `(.html.erb)` and surround the Ruby code with `<%= %>`.
+
+#### Q66.You are working with a large database of portfolios that sometimes have an associated image. Which statement best explains the purpose of includes(:image) in this code?
+
+```
+@portfolios = Portfolio.includes(:image).limit(20)
+
+@portfolios.each do |portfolio|
+    puts portfolio.image.caption
+end
+```
+
+- [ ] It preloads the images files using asset pipeline.
+- [ ] It selects only portfolios that have an image attached.
+- [ ] It includes the number of associated images when determining how many records to return.
+- [x] It will execute two database queries of 21 database queries.

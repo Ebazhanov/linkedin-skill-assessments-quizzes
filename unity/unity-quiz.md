@@ -508,27 +508,20 @@ public class Health : MonoBehaviour
 - [x] D [ExecuteAlways]
 
 `ExecuteAlways` makes instances of a script always execute, both as part of Play Mode and when editing. By default, MonoBehaviours are only executed in Play Mode and only if they are on GameObjects in the main stage containing the user Scenes. By adding this attribute, any instance of the MonoBehaviour will have its callback functions executed at all times.
-[Reference]https://docs.unity3d.com/ScriptReference/ExecuteAlways.html
-Do not fall for `[RunInEditor]`! It looks similar to  `MonoBehaviour.runInEditMode` and `[ExecuteInEditMode]` both of which are legit but not mentioned as possible answers.
-[Reference]https://docs.unity3d.com/ScriptReference/MonoBehaviour-runInEditMode.html
-
+1. [Reference](https://docs.unity3d.com/ScriptReference/ExecuteAlways.html)
+Do not fall for `[RunInEditor]`! It looks similar to `MonoBehaviour.runInEditMode` and `[ExecuteInEditMode]` both of which are legit but not mentioned as possible answers.
+2. [Reference](https://docs.unity3d.com/ScriptReference/MonoBehaviour-runInEditMode.html)
 
 #### Q51. The `IsPointerOverGameObject` static function of the `EventSystem` class is useful for creating which behaviour?
 
 - [ ] A moving UI elements in sync with the cursor as it drags across the screen
 - [ ] B changing the highlight of buttons as the cursor moves over them
-- [x] C preventing mouse clicks on game objects behind the UI canvas            <- i believe this is the correct answer but supervision would be helpful
+- [x] C preventing mouse clicks on game objects behind the UI canvas <- i believe this is the correct answer but supervision would be helpful
 - [ ] D identifying which 3D object the cursor is hovering over
-
 
 #### Q52. Which C# code fragment continuously updates an object's yaw (Y rotation)?
 
-- [ ] A 
-```c# transform.localRotation *= Quaternion.Euler(0f, RotSpeed * Time.deltaTime, 0f); ```
-- [ ] B 
-```c# transform.Rotate(Vector3.right, RotSpeed * Time.deltaTime); ```
-- [ ] C 
-```c# transform.RotateAround(Vector3.up, RotSpeed * Time.deltaTime); ```
-- [ ] D 
-```c# transform.SetParent(null); ```
-
+- [ ] `c# transform.localRotation *= Quaternion.Euler(0f, RotSpeed * Time.deltaTime, 0f);`
+- [ ] `c# transform.Rotate(Vector3.right, RotSpeed * Time.deltaTime);`
+- [ ] `c# transform.RotateAround(Vector3.up, RotSpeed * Time.deltaTime);`
+- [ ] `c# transform.SetParent(null);`

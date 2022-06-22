@@ -1837,8 +1837,8 @@ As Steve Krug once said, happy talk must die.
 #### Q111. What is the root element of an HTML document.
 
 - [x] `<html>`
-- [ ] `<body>` 
-- [ ] `<root>` 
+- [ ] `<body>`
+- [ ] `<root>`
 - [ ] `<!DOCTYPE html>`
 
 `
