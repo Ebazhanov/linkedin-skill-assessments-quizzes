@@ -1728,7 +1728,7 @@ background-tile: none;
 <section><p>paragraph one</p></section><p>paragraph two</p>
 ```
 
-- [ ]
+- [ ] A
 
 ```css
 section > p {
@@ -1736,7 +1736,7 @@ section > p {
 }
 ```
 
-- [ ]
+- [ ] B
 
 ```css
 p {
@@ -1744,7 +1744,7 @@ p {
 }
 ```
 
-- [x]
+- [x] C
 
 ```css
 section + p {
@@ -1752,7 +1752,7 @@ section + p {
 }
 ```
 
-- [ ]
+- [ ] D
 
 ```css
 p + section {
@@ -1777,7 +1777,7 @@ p + section {
 </div>
 ```
 
-- [ ]
+- [ ] A
 
 ```css
 #inner {
@@ -1789,7 +1789,7 @@ p + section {
 }
 ```
 
-- [ ]
+- [ ] B
 
 ```css
 #inner {
@@ -1799,7 +1799,7 @@ p + section {
 }
 ```
 
-- [ ]
+- [ ] C
 
 ```css
 #inner {
@@ -1807,7 +1807,7 @@ p + section {
 }
 ```
 
-- [x]
+- [x] D
 
 ```css
 #inner {
