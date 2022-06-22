@@ -1728,7 +1728,7 @@ background-tile: none;
 <section><p>paragraph one</p></section><p>paragraph two</p>
 ```
 
-- [ ]
+- [ ] A
 
 ```css
 section > p {
@@ -1736,7 +1736,7 @@ section > p {
 }
 ```
 
-- [ ]
+- [ ] B
 
 ```css
 p {
@@ -1744,7 +1744,7 @@ p {
 }
 ```
 
-- [x]
+- [x] C
 
 ```css
 section + p {
@@ -1752,7 +1752,7 @@ section + p {
 }
 ```
 
-- [ ]
+- [ ] D
 
 ```css
 p + section {
@@ -1777,7 +1777,7 @@ p + section {
 </div>
 ```
 
-- [ ]
+- [ ] A
 
 ```css
 #inner {
@@ -1789,7 +1789,7 @@ p + section {
 }
 ```
 
-- [ ]
+- [ ] B
 
 ```css
 #inner {
@@ -1799,7 +1799,7 @@ p + section {
 }
 ```
 
-- [ ]
+- [ ] C
 
 ```css
 #inner {
@@ -1807,7 +1807,7 @@ p + section {
 }
 ```
 
-- [x]
+- [x] D
 
 ```css
 #inner {
@@ -1874,3 +1874,33 @@ p + section {
 - [ ] `class="cellar-door"`
 
 [Reference](https://www.w3schools.com/html/html_classes.asp)
+
+#### Q125. Which choice is a valid example of a comment in CSS?
+
+- [ ] -- This line has been cancelled.
+- [x] /* This line has been cancelled. */
+- [ ] // This line has been cancelled.
+- [ ] # This line has been cancelled.
+
+[Reference](https://www.w3schools.com/css/css_comments.asp)
+
+#### Q126. Which element(s) will be displayed in blue text?
+
+```css
+    h2 ~ p {
+      color: blue;
+    }
+  <section>
+    <p>P1</p>
+    <h2>H2</h2>
+    <p>P3</p>
+    <p>P4</p>
+  </section>
+```
+
+- [ ] P3
+- [ ] P1, P3 and P4
+- [x] P3 and P4
+- [ ] P1
+
+[Reference](https://www.w3docs.com/snippets/css/what-does-the-css-tilde-selector-mean.html)
