@@ -625,3 +625,57 @@ As Variant, VarC as Long)
 Sub MySub(OPtional VarA As String, VarB _
 As Variant, Optional VarC as Long)
 ```
+
+#### Q43. What are the two principal kinds of procedure in VBA?
+
+- [ ] Function and EventFunction and Event
+- [ ] Function and ScopeFunction and Scope
+- [ ] Subroutine and EventSubroutine and Event
+- [ ] Subroutine and Function
+
+#### Q44. Which code block compiles without error?
+
+- [ ] `Sub Decs() Dim MyFixed As String * 0 MyFixed = "A" MsgBox MyFixed End Sub`
+- [ ] `Sub Decs() Dim MyInt% * 1 MyInt = 7 MsgBox MyInt End Sub`
+- [ ] `Sub Decs() Dim MyInt% As Integer * 1 MyInt = 5 MsgBox MyInt End Sub`
+- [ ] `Sub Decs() Dim MyInt, MyNum As Integer MyInt = "A" MsgBox MyInt End Sub`
+
+#### Q45. What is used in the Immediate window to display the current value of the variable CountValues?
+
+- [ ] `= CountValues= CountValues`
+- [ ] `| CountValues| CountValues`
+- [ ] `: CountValues: CountValues`
+- [ ] `? CountValues? CountValues`
+
+#### Q46. At which level can you declare a variable in this way: Private TopSecret As String?
+
+- [ ] function
+- [ ] module
+- [ ] subroutine
+- [ ] procedure
+
+#### Q47. How can a user enter data on a worksheet or document, or switch windows, while UserForm1 is displayed on the screen?
+
+- [ ] Show the form with this statement: UserForm1.Show vbModal.
+- [ ] Set the user form's SpecialEffect property to frmShowModal.
+- [ ] Include this statement in the code: `UserForm1.Hwnd = False.`
+- [ ] Set the user form's ShowModal property to False.
+
+#### Q48. SubA passes MyVar to SubB. How can you ensure that MyVar has its original value when control returns to SubA?
+
+- [ ] Declare SubB as Sub SubB(Static MyVar).
+- [ ] Declare SubB as Sub SubB(ByVal MyVar).
+- [ ] Declare SubB as Sub SubB(MyVar).
+- [ ] Declare SubB as Sub SubB(ByRef MyVar).
+
+#### Q49. Arrays cannot be resized more than once.
+
+```
+Sub Example() Dim MyArr() As Variant ReDim MyArr(3, 4) 'some code ReDim Preserve MyArr(4, 4) 
+End Sub Sub Example() Dim MyArr() As Variant ReDim MyArr(3, 4) 'some code ReDim Preserve MyArr(4, 4) End Sub
+```
+
+- [ ] The correct syntax is ReDim Preserve MyArr(0 To 4, 0 To 4).
+- [ ] You can resize only the last dimension of an array when you specify ReDim Preserve.
+- [ ] MyArr was originally declared with three "rows."
+- [ ] Declare SubB as Sub SubB(ByRef MyVar).
