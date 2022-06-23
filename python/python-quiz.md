@@ -569,11 +569,21 @@ def sum(a, b):
 **Example**
 
 ```python
-import math
-radius = [1,2,3]
-area = list(map(lambda x: round(math.pi*(x**2), 2), radius))
-area
->>> [3.14, 12.57, 28.27]
+# namedtuple function accepts the following arguments to generate a class
+from collections import namedtuple
+>>> Point = namedtuple('Point',['x','y'])
+>>> point = Point(100, 200)
+>>> point
+    Point(x=100, y=200)
+
+# Which let you use both unpacking and iteration to access
+>>> x, y = point
+>>> print(f'({x}, {y})')
+    (100, 200)
+>>> for coordinate in point:
+        print(coordinate)    
+    100
+    200
 ```
 
 #### Q39. What symbol(s) do you use to assess equality between two elements?
