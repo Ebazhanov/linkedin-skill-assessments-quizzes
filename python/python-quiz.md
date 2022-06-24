@@ -586,6 +586,8 @@ from collections import namedtuple
     200
 ```
 
+(Reference](https://www.geeksforgeeks.org/namedtuple-in-python/?ref=lbp)
+
 #### Q39. What symbol(s) do you use to assess equality between two elements?
 
 - [ ] `&&`
