@@ -508,8 +508,9 @@ public class Health : MonoBehaviour
 - [x] D [ExecuteAlways]
 
 `ExecuteAlways` makes instances of a script always execute, both as part of Play Mode and when editing. By default, MonoBehaviours are only executed in Play Mode and only if they are on GameObjects in the main stage containing the user Scenes. By adding this attribute, any instance of the MonoBehaviour will have its callback functions executed at all times.
+
 1. [Reference](https://docs.unity3d.com/ScriptReference/ExecuteAlways.html)
-Do not fall for `[RunInEditor]`! It looks similar to `MonoBehaviour.runInEditMode` and `[ExecuteInEditMode]` both of which are legit but not mentioned as possible answers.
+   Do not fall for `[RunInEditor]`! It looks similar to `MonoBehaviour.runInEditMode` and `[ExecuteInEditMode]` both of which are legit but not mentioned as possible answers.
 2. [Reference](https://docs.unity3d.com/ScriptReference/MonoBehaviour-runInEditMode.html)
 
 #### Q51. The `IsPointerOverGameObject` static function of the `EventSystem` class is useful for creating which behaviour?

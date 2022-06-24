@@ -649,3 +649,17 @@ C. Some people have already accepted, so you must cancel this meeting and create
 - [ ] It takes up less space in your mailbox.
 - [ ] It allows better version control of the file..
 - [x] all of these answers
+
+#### Q89. With the Calendar displayed, on the View tab (Windows) or the Organize tab (Mac), what happens to your calendar when you adjust the Time Scale?
+
+- [ ] You change the time zone that your calendar uses.
+- [ ] You automatically switch to list view.
+- [ ] You set time constraints for booking events.
+- [ ] You change the number of hours visible on the grid.
+
+#### Q90. What arrangement can you create in **View Settings** (Windows) or **Rules** (Mac) to color code messages from a particular sender?
+
+- [ ] **By Sender**
+- [ ] **Format Column** (Windows), or **Rules** then **Format Columns** (Mac)
+- [ ] **Group by (Windows), or Rules then Group by (Mac)**
+- [ ] **Conditional Formatting** (Windows), or **Rules** then **Categorize** or **Set Category** (Mac)

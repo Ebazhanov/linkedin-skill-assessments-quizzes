@@ -1919,7 +1919,6 @@ for(int i=0; i<30; i+=x) {}
 - [ ] java.net
 - [ ] java.util
 - [ ] java.lang
-- [x] All above   
-
+- [x] All above
 
 [Reference](https://docs.oracle.com/en/java/javase/11/docs/api/allpackages-index.html)

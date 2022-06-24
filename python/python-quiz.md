@@ -581,7 +581,7 @@ from collections import namedtuple
 >>> print(f'({x}, {y})')
     (100, 200)
 >>> for coordinate in point:
-        print(coordinate)    
+        print(coordinate)
     100
     200
 ```
