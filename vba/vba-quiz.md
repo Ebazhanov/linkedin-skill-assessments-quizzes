@@ -682,16 +682,18 @@ End Sub Sub Example() Dim MyArr() As Variant ReDim MyArr(3, 4) 'some code ReDim 
 
 #### Q50. Which block of code ends with the variable i equal to 5 and the variable X equal to 10?
 
-- [ ] 
+- [ ]
+
 ```
-Do 
+Do
 X = X + 1
-i = i + 1 
+i = i + 1
 Loop Until i < 5
 End Sub
 ```
 
-- [ ] 
+- [ ]
+
 ```
 Sub Loopi()
 Dim X As Integer, i As Integer
@@ -701,7 +703,8 @@ Next I
 End Sub
 ```
 
-- [ ] 
+- [ ]
+
 ```
 Sub Loopi()
 Dim X As Integer, i As Integer
@@ -712,7 +715,8 @@ Loop
 End Sub
 ```
 
-- [ ] 
+- [ ]
+
 ```
 Sub Loopi()
 Dim X As Integer, i As Integer
