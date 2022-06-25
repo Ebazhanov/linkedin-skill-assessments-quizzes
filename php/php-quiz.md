@@ -1100,3 +1100,10 @@ if( isset($user_info['url']) ) {
 - [ ] 0.6666666666667
 - [ ] 1
 - [x] fatal error (division by zero)
+
+#### Q90. Can you extend a final defined class?
+
+- [x] No, because a final class or method declaration prevents child class or method overriding.
+- [ ] Specialized versions of built-in classes can be extended by calling the parent's constructor.
+- [ ] Yes, if a final class is defined as private in parent class.
+- [ ] Yes, a final defined class can be used to declare constants.
