@@ -679,3 +679,46 @@ End Sub Sub Example() Dim MyArr() As Variant ReDim MyArr(3, 4) 'some code ReDim 
 - [ ] You can resize only the last dimension of an array when you specify ReDim Preserve.
 - [ ] MyArr was originally declared with three "rows."
 - [ ] Declare SubB as Sub SubB(ByRef MyVar).
+
+#### Q50. Which block of code ends with the variable i equal to 5 and the variable X equal to 10?
+
+- [ ] 
+```
+Do 
+X = X + 1
+i = i + 1 
+Loop Until i < 5
+End Sub
+```
+
+- [ ] 
+```
+Sub Loopi()
+Dim X As Integer, i As Integer
+For i = 1 To 5
+X = X + 1
+Next I
+End Sub
+```
+
+- [ ] 
+```
+Sub Loopi()
+Dim X As Integer, i As Integer
+Do Until i < 5
+X = X + 1
+i = i + 1
+Loop
+End Sub
+```
+
+- [ ] 
+```
+Sub Loopi()
+Dim X As Integer, i As Integer
+Do
+X = X + 1
+i = i + 1
+Loop While i < 5
+End Sub
+```
