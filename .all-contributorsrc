@@ -9461,6 +9461,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "djtms",
+      "name": "Tomasz Adamski",
+      "avatar_url": "https://avatars.githubusercontent.com/u/114456?v=4",
+      "profile": "http://www.djtms.pl",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
