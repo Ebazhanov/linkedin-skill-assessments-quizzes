@@ -982,4 +982,11 @@ remote repository, named origin, to point to the new remote repository at this l
 - [ ] - when a specific commit needs to be pulled down from the remote repository
 - [ ] - when a hook script needs to be invoked
 
+#### Q121. How would you describe a fokred repository?
+
+- [ ] - a deleted or archived copy of a repository
+- [ ] - a beta release branch of a repository
+- [ ] - a future branch of a repository
+- [x] - a separate copy of a repository
+
 [reference](https://stackoverflow.com/a/9339460/1573267)
