@@ -418,11 +418,11 @@
 - [ ] Green: microphone / Pink: speakers
 - [x] Green: speakers / Pink: microphone
 
-#### Q51. Which key asssists limited keyboard layouts (such as on a laptop) with accessing the full range of keys?
+#### Q51. Which key assists limited keyboard layouts (such as on a laptop) with accessing the full range of keys?
 
-- [x] Alt (Windows) or Option (Mac)
+- [ ] Alt (Windows) or Option (Mac)
 - [ ] Meta
-- [ ] Fn
+- [x] Fn
 - [ ] Shift
 
 #### Q52. You power up your computer and it starts in Safe Mode. What should you do?
