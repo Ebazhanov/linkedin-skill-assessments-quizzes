@@ -432,6 +432,8 @@
 - [ ] Reconfigure the startup sequence so that the system starts again normally
 - [ ] Determine the cause and address the issue
 
+Idea behind the answer: let's go for a quick restart to see whether the problem fixes itself or not, then only try to determine the cause and address the issue.
+
 #### Q53. Which security tool can be doubled up to offer additional protection without being redundant?
 
 - [ ] account protection
