@@ -272,10 +272,12 @@
 
 #### Q31. A **\_** allows you to plug computers into a central location to communicate on the same local area network.
 
-- [x] server
-- [ ] layer 2 switch
+- [ ] server
+- [x] layer 2 switch
 - [ ] wireless access point
 - [ ] firewall
+
+[reference](https://en.wikipedia.org/wiki/Network_switch)
 
 #### Q32. After plugging in an external 3.5mm microphone, you stop hearing sound from the speakers. What is the most likely source of the problem?
 
