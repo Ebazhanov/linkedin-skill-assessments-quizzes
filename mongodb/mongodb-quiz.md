@@ -121,10 +121,10 @@
 
 #### Q18. You have a collection named restaurants with the geographical information stored in the location property, how do you create a geospatial index on it?
 
-- [x] `db.restaurants.CreateIndex({location: "2dsphere"})`
+- [x] `db.restaurants.createIndex({location: "2dsphere"})`
 - [ ] `db.restaurants.geospatial({location: "2dsphere"})`
-- [ ] `db.restaurants.CreateIndex("2dsphere":"location")`
-- [ ] `db.restaurants.CreateIndex({geospatial: "location"})`
+- [ ] `db.restaurants.createIndex("2dsphere":"location")`
+- [ ] `db.restaurants.createIndex({geospatial: "location"})`
 
 #### Q19. How do you find documents with a matching item in an embedded array?
 
