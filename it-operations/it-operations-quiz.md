@@ -358,10 +358,12 @@
 
 #### Q43. What is the process of moving data and programs from an old computer to a new one called?
 
-- [ ] migration
+- [x] migration
 - [ ] An official term does not exist, though it is colloquieally referred to as a "brain transplant."
-- [x] profile transfer
+- [ ] profile transfer
 - [ ] account cloning
+
+[reference](https://en.wikipedia.org/wiki/PC_migration)
 
 #### Q44. The local network is up, but the computers cannot access the Internet. Your Internet configuration includes a modem, gateway (router), and a switch as separate devices. What should you do?
 
