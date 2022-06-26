@@ -1017,3 +1017,26 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] `=AVERAGEIF(G:G,D:D,K2,H:H,5)`
 - [ ] `=AVERAGEIFS(K2,H:H,5,G:G)`
 - [x] `=AVERAGEIFS(G:G,D:D,K2,H:H,5)`
+
+#### Q121. Which feature enables you to quickly sort and reduce data to a subset?
+
+- [ ] data validation
+- [ ] conditional formatting
+- [ ] advanced sort
+- [ ] filters
+
+#### Q122. You have a formula in cell A1. You want to display that formula in cell B1. What function can you use in cell B1?
+
+- [ ] TEXT
+- [x] FORMULATEXT
+- [ ] ISFORMULA
+- [ ] ISTEXT
+
+#### Q123. You want to remove the unprintable characters and unnecessary spaces from column A. What formula would you put into cell B2 to copy down to the rest of the column?
+
+![image](images/Q1233.png)
+
+- [ ] `=ERROR.TYPE(A2)`
+- [ ] `=CLEAN(TRIM(A2))`
+- [ ] `=CHOOSE(A2)`
+- [ ] `=TRIM(A2)`
