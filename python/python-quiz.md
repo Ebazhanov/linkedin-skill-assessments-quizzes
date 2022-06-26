@@ -1828,3 +1828,10 @@ print ("foo" if (256).bit_length() > 8 else "bar")
 - [ ] unstructured:structured
 - [ ] numerical:tabular
 - [ ] tabular:numerical
+
+#### Q137. What do you need to do to install additional packages into Python?
+
+- [ ] Use a C compiler like gcc or clang.
+- [x] Use a package manager like pip or conda.
+- [ ] Use an IDE like Notepad++ or Idle.
+- [ ] Use a package manager like NPM or NuGet.
