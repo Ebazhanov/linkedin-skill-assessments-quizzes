@@ -191,10 +191,12 @@
 
 #### Q20. What is one difference between a drive and media?
 
-- [x] The drive is where the data is stored and the media is the data itself.
-- [ ] A drive is hardware that reads media.
+- [ ] The drive is where the data is stored and the media is the data itself.
+- [x] A drive is hardware that reads media.
 - [ ] These are two terms for the same thing: storage.
 - [ ] The terms apply only to removable storage, where the drive is the slot and the media is the thumb drive or media card inserted into the slot.
+
+[reference](https://en.wikipedia.org/wiki/Disk_storage): a drive is a device capable of interacting with data recorded on a media; this media can be removable or non-removable.
 
 #### Q21. Mass storage inside a desktop computer case is usually found where?
 
