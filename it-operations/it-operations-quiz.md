@@ -191,10 +191,12 @@
 
 #### Q20. What is one difference between a drive and media?
 
-- [x] The drive is where the data is stored and the media is the data itself.
-- [ ] A drive is hardware that reads media.
+- [ ] The drive is where the data is stored and the media is the data itself.
+- [x] A drive is hardware that reads media.
 - [ ] These are two terms for the same thing: storage.
 - [ ] The terms apply only to removable storage, where the drive is the slot and the media is the thumb drive or media card inserted into the slot.
+
+[reference](https://en.wikipedia.org/wiki/Disk_storage): a drive is a device capable of interacting with data recorded on a media; this media can be removable or non-removable.
 
 #### Q21. Mass storage inside a desktop computer case is usually found where?
 
@@ -270,10 +272,12 @@
 
 #### Q31. A **\_** allows you to plug computers into a central location to communicate on the same local area network.
 
-- [x] server
-- [ ] layer 2 switch
+- [ ] server
+- [x] layer 2 switch
 - [ ] wireless access point
 - [ ] firewall
+
+[reference](https://en.wikipedia.org/wiki/Network_switch)
 
 #### Q32. After plugging in an external 3.5mm microphone, you stop hearing sound from the speakers. What is the most likely source of the problem?
 
@@ -354,10 +358,12 @@
 
 #### Q43. What is the process of moving data and programs from an old computer to a new one called?
 
-- [ ] migration
+- [x] migration
 - [ ] An official term does not exist, though it is colloquieally referred to as a "brain transplant."
-- [x] profile transfer
+- [ ] profile transfer
 - [ ] account cloning
+
+[reference](https://en.wikipedia.org/wiki/PC_migration)
 
 #### Q44. The local network is up, but the computers cannot access the Internet. Your Internet configuration includes a modem, gateway (router), and a switch as separate devices. What should you do?
 
@@ -412,11 +418,11 @@
 - [ ] Green: microphone / Pink: speakers
 - [x] Green: speakers / Pink: microphone
 
-#### Q51. Which key asssists limited keyboard layouts (such as on a laptop) with accessing the full range of keys?
+#### Q51. Which key assists limited keyboard layouts (such as on a laptop) with accessing the full range of keys?
 
-- [x] Alt (Windows) or Option (Mac)
+- [ ] Alt (Windows) or Option (Mac)
 - [ ] Meta
-- [ ] Fn
+- [x] Fn
 - [ ] Shift
 
 #### Q52. You power up your computer and it starts in Safe Mode. What should you do?
@@ -425,6 +431,8 @@
 - [ ] Work as you normally do until the problem is resolved
 - [ ] Reconfigure the startup sequence so that the system starts again normally
 - [ ] Determine the cause and address the issue
+
+Idea behind the answer: let's go for a quick restart to see whether the problem fixes itself or not, then only try to determine the cause and address the issue.
 
 #### Q53. Which security tool can be doubled up to offer additional protection without being redundant?
 
