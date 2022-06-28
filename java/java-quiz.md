@@ -44,10 +44,10 @@
 8: }
 ```
 
-- [ ] It will not compile because of line 4.
+- [x] It will not compile because of line 4.
 - [ ] It will not compile because of line 3.
 - [ ] 123
-- [x] 1234
+- [ ] 1234
 
 #### Q5. Which of the following can replace the CODE SNIPPET to make the code below print "Hello World"?
 
