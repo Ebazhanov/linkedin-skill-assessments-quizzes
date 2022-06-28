@@ -248,6 +248,8 @@
 - [ ] OPEN, FETCH, CLOSE
 - [ ] DECLARE, SET, SELECT
 
+[Reference](https://dev.mysql.com/doc/refman/5.7/en/triggers.html)
+
 #### Q25. You are working with very large tables in your database. Which SQL clause do you use to prevent exceedingly large query results?
 
 - [ ] UNIQUE
