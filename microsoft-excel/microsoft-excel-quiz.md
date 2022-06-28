@@ -959,7 +959,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 - [ ] Filter the relevant column, right-click the column head, and select **Remove Duplicates**.
 - [ ] This is possible only with Power Query.
-- [x] With the **data selected**, on the Data tab click **Remove Duplicates**.
+- [x] With the data selected, on the **Data** tab click **Remove Duplicates**.
 - [ ] This is possible only using formulas.
 
 [Reference](https://support.microsoft.com/en-us/office/filter-for-unique-values-or-remove-duplicate-values-ccf664b0-81d6-449b-bbe1-8daaec1e83c2)
