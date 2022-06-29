@@ -421,12 +421,12 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 </table>
 ```
 
-#### Q26. What is the `<hr>`tag typically used for?
+#### Q26. What is the `<hr>`tag typically used for? / Alt.: What is the semantic meaning of the `<hr>` tag?
 
-- [ ] This tag is depreciated and should not be used.
+- [ ] This tag is depreciated (alt.: deprecated) and should not be used.
 - [x] It designates a topic shift within a section at the paragraph level.
 - [ ] It draws a horizontal line.
-- [ ] It designates a shift of topic at the section level.
+- [ ] It designates a shift of topic at the section level. / Alt.: It designates a separation of sections within an `<article>`.
 
 This is a confusing question and there can be an arguments for both the second and the third options being correct.
 
@@ -996,13 +996,6 @@ This is a confusing question and there can be an arguments for both the second a
 - [ ] `<notation>`
 
 [Reference (w3schools)](https://www.w3schools.com/html/html_quotation_elements.asp)
-
-#### Q61. What is the semantic meaning of the `<hr>` tag?
-
-- [ ] It draws a horizontal line.
-- [ ] This tag is deprecated and should not be used.
-- [ ] It designates a separation of sections within an `<article>`.
-- [x] It designates a topic shift within a section at the paragraph level.
 
 #### Q62. How will a video look displayed on a fully loaded webpage if the `<video>` tag is used and the **autoplay** attribute is not set?
 
