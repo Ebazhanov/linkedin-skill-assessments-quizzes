@@ -203,13 +203,13 @@
 
 #### Q19. What is the best semantic markup for the sentence shown?
 
-```markdown
+```
 On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap for mankind."
 ```
 
 - [x] A
 
-```markdown
+```html
 <p>
   On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said,
   <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
@@ -220,7 +220,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] B
 
-```markdown
+```html
 <p>
   On July 21, 1969, Neil Armstrong said,
   <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
@@ -231,7 +231,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] C
 
-```markdown
+```html
 <p>
   On July 21, 1969, Neil Armstrong said, <q>One small step for man, one giant leap for mankind.</q>
 </p>
@@ -239,7 +239,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] D
 
-```markdown
+```html
 <p>
   On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said,
   <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
@@ -272,7 +272,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] A
 
-```markdown
+```html
 <label for="example">Make a choice:</label>
 <datalist id="example">
 
@@ -284,7 +284,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] B
 
-```markdown
+```html
 <p>Make a choice:</p>
 <input id="choices" name="example" />
 
@@ -297,7 +297,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] C
 
-```markdown
+```html
 <label for="example">Make a choice:</label>
 <input list="example" id="choices" name="choices" />
 
@@ -310,7 +310,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [x] D
 
-```markdown
+```html
 <label for="example">Make a choice:</label>
 <input list="choices" id="example" name="example" />
 
@@ -351,7 +351,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] A
 
-```markdown
+```html
 <table>
   <scope cols="2" style="background-color: yellow">
   <tr>
@@ -369,7 +369,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [x] B
 
-```markdown
+```html
 <table>
   <colgroup span="2" style="background-color: yellow">
   <tr>
@@ -387,7 +387,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] C
 
-```markdown
+```html
 <table>
   <group cols="2" style="background-color: yellow">
   <tr scope="row">
@@ -405,7 +405,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 - [ ] D
 
-```markdown
+```html
 <table>
   <columns colspan="2" style="background-color: yellow">
   <tr>
@@ -434,7 +434,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 #### Q27. What should fill the two blanks in the HTML code below?
 
-```markdown
+```html
 <section itemscope itemtype="http://schema.org/Restaurant">
   <h1 itemprop="name">Nadia's Garden</h1>
   <p itemscope ______ ______>
@@ -453,7 +453,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [x] A
 
-```markdown
+```html
 <a id="top"></a>
 
 <!-- placed at the top of the page -->
@@ -463,7 +463,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [ ] B
 
-```markdown
+```html
 <a name="top"></a>
 
 <!-- placed at the top of the page -->
@@ -473,13 +473,13 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [ ] C
 
-```markdown
+```html
 <a href="#">back to top</a> <a href="#top">back to top</a>
 ```
 
 - [ ] D
 
-```markdown
+```html
 <button href="#">back to top</button> <button href="#top">back to top</button>
 ```
 
@@ -551,7 +551,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [ ] A
 
-```markdown
+```html
 <ul>
   <li>
     office
@@ -571,7 +571,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [x] B
 
-```markdown
+```html
 <ul>
   <li>Office Supplies
     <ul>
@@ -589,7 +589,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [ ] C
 
-```markdown
+```html
 <ul>
   <li>office</li>
   <li>staple</li>
@@ -616,7 +616,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [ ] A
 
-```markdown
+```html
 <p>
   "Making money is what you have to do to sustain a business—being driven to make something of value
   and purpose is much more powerful."
@@ -626,7 +626,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [ ] B
 
-```markdown
+```html
 <blockquote>
   <q
     >"Making money is what you have to do to sustain a business—being driven to make something of
@@ -638,7 +638,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [x] C
 
-```markdown
+```html
 <blockquote>
   <p>
     "Making money is what you have to do to sustain a business—being driven to make something of
@@ -650,7 +650,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [ ] D
 
-```markdown
+```html
 <section>
   <q
     >"Making money is what you have to do to sustain a business—being driven to make something of
@@ -683,7 +683,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 #### Q40. What does this code do?
 
-```markdown
+```html
 <audio controls>
   <source src="sound.mp3" type="audio/mpeg" />
   <source src="sound.ogg" type="audio/ogg" />
@@ -723,7 +723,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [ ] A
 
-```markdown
+```html
 <tr>
   <td>Table cell 1</td>
   <td>Table cell 2</td>
@@ -735,7 +735,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [ ] B
 
-```markdown
+```html
 <tr>
   <td>Table cell 1</td>
   <td>Table cell 2</td>
@@ -745,7 +745,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [x] C
 
-```markdown
+```html
 <tr>
   <td>Table cell 1</td>
   <td>Table cell 2</td>
@@ -757,7 +757,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [ ] D
 
-```markdown
+```html
 <tr>
   <td>Table cell 1</td>
   <td>Table cell 2</td>
@@ -778,7 +778,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [ ] A
 
-```markdown
+```html
 <form>
   <legend>Title</legend>
   <fieldset>
@@ -791,7 +791,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [ ] B
 
-```markdown
+```html
 <form>
   <fieldset>
     <legend>Title</legend>
@@ -804,7 +804,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [x] C
 
-```markdown
+```html
 <form>
   <fieldset>
     <legend>Title</legend>
@@ -817,7 +817,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [ ] D
 
-```markdown
+```html
 <form>
   <legend>Title</legend>
   <label for="name">Your name:</label>
@@ -910,7 +910,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 #### Q57. Review the code below. How do you include subnavigation for Link 2 that includes a link?
 
-```markdown
+```html
 <nav><ul>
   <li><a href="#">Link 1</a></li>
   <li><a href="#">Link 2</a></li>
@@ -920,7 +920,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [ ] A
 
-```markdown
+```html
 <nav><ul>
   <li><a href="#">Link 1</a></li>
   <li><a href="#">Link 2</a></li>
@@ -933,7 +933,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [x] B
 
-```markdown
+```html
 <nav><ul>
   <li><a href="#">Link 1</a></li>
   <li><a href="#">Link 2</a>
@@ -947,7 +947,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [ ] C
 
-```markdown
+```html
 <ul><nav>
   <li><a href="#">Link 1</a></li>
   <li><a href="#">Link 2</a>
@@ -961,7 +961,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 - [ ] D
 
-```markdown
+```html
 <nav><ul>
   <li><a href="#">Link 1</a></li>
   <li><a href="#">Link 2</a></li>
@@ -1075,7 +1075,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 
 - [ ] A
 
-```HTML
+```html
 <caption>A table</caption>
   <table>
     <td>
@@ -1087,7 +1087,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 
 - [ ] B
 
-```HTML
+```html
 <caption>A table</caption>
 <table>
   <tr>
@@ -1099,7 +1099,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 
 - [x] C
 
-```HTML
+```html
 <table>
   <caption>A table</caption>
   <tr>
@@ -1111,7 +1111,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 
 - [ ] D
 
-```HTML
+```html
 <table>
   <tr>
     <td>Cell 1</td>
@@ -1143,7 +1143,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 
 - [ ] A
 
-```HTML
+```html
 <area>
 <embed>
 <strong>
@@ -1151,7 +1151,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 
 - [ ] B
 
-```HTML
+```html
 <input>
 <br>
 <p>
@@ -1159,7 +1159,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 
 - [ ] C
 
-```HTML
+```html
 <link>
 <meta>
 <title>
@@ -1167,7 +1167,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 
 - [x] D
 
-```HTML
+```html
 <wbr>
 <base>
 <source>
@@ -1218,7 +1218,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] A
 
-```markdown
+```html
 <p>
   <a href="index.html">Home</a>
   <a href="about.html">About</a>
@@ -1228,7 +1228,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] B
 
-```markdown
+```html
 <nav>
   <a href="index.html">Home</a>
   <a href="about.html">About</a>
@@ -1238,7 +1238,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] C
 
-```markdown
+```html
  <nav>
     <ol>
       <li><a href="index.html">Home</a></li>
@@ -1250,7 +1250,7 @@ As Steve Krug once said, happy talk must die.
 
 - [x] D
 
-```markdown
+```html
  <nav>
    <ul>
      <li><a href="index.html">Home</a></li>
@@ -1266,7 +1266,7 @@ As Steve Krug once said, happy talk must die.
 
 - [x] A
 
-```markdown
+```html
 <h4>Mailing Address</h4>
 <address>
   6410 Via Real <br>
@@ -1277,7 +1277,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] B
 
-```markdown
+```html
 <h4><strong>Mailing Address</h4>
 <address><em>
   6410 Via Real <br>
@@ -1288,7 +1288,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] C
 
-```markdown
+```html
 <h4>Mailing Address</h4>
 <p><em>
   6410 Via Real <br>
@@ -1299,7 +1299,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] D
 
-```markdown
+```html
 <p><strong>Mailing Address</strong></p>
 <p><em>
   6410 Via Real <br>
@@ -1328,7 +1328,7 @@ As Steve Krug once said, happy talk must die.
 
 #### Q80. For the HTML code below, when will "Sample Text" display to the browser?
 
-```markdown
+```html
 <noscript>Sample Text</noscript>
 ```
 
@@ -1341,7 +1341,7 @@ As Steve Krug once said, happy talk must die.
 
 #### Q81. How will this code render by default in most web browsers?
 
-```markdown
+```html
 <details>
   <h4>Mixed Berry Tart.</h4>
   <p>Raspberries, blueberries, and strawberries on top of a creamy filling served in a crispy tart.</p>
@@ -1395,7 +1395,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] A
 
-```HTML
+```html
 <button submit="http://example.com/process">
   Process data
 </button>
@@ -1403,7 +1403,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] B
 
-```HTML
+```html
 <button action="http://example.com/process">
   Process data
 </button>
@@ -1411,7 +1411,7 @@ As Steve Krug once said, happy talk must die.
 
 - [x] C
 
-```HTML
+```html
 <button formaction="http://example.com/process">
   Process data
 </button>
@@ -1419,7 +1419,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] D
 
-```HTML
+```html
 <button method="http://example.com/process">
   Process data
 </button>
@@ -1442,7 +1442,7 @@ As Steve Krug once said, happy talk must die.
 
 #### Q88. What is wrong with this code snippet?
 
-```HTML
+```html
 <label>Address:</label>
 <input type="text" name="address" id="address-input" />
 ```
@@ -1484,7 +1484,7 @@ As Steve Krug once said, happy talk must die.
 
 - [x] A
 
-```HTML
+```html
 <li>
 <input>
 <option>
@@ -1492,7 +1492,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] B
 
-```HTML
+```html
 <input>
 <option>
 <textarea>
@@ -1500,7 +1500,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] C
 
-```HTML
+```html
 <button>
 <input>
 <form>
@@ -1508,7 +1508,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] D
 
-```HTML
+```html
 <input>
 <label>
 <meter>
@@ -1596,7 +1596,7 @@ As Steve Krug once said, happy talk must die.
 
 - [x] A
 
-```HTML
+```html
 <aside>
   <h3>Comments</h3>
   <article> First comment.</article>
@@ -1606,7 +1606,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] B
 
-```HTML
+```html
 <div aria="dpub-comments">
   <h3>Comments</h3>
   <div aria="dpub-comment"> First comment.</div>
@@ -1616,7 +1616,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] C
 
-```HTML
+```html
 <aside>
   <h3>Comments</h3>
   <aside> First comment.</aside>
@@ -1626,7 +1626,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] D
 
-```HTML
+```html
 <div typeof="comments">
   <h3>Comments</h3>
   <div typeof="comment"> First comment.</div>
@@ -1687,7 +1687,7 @@ As Steve Krug once said, happy talk must die.
 
 - [x] A
 
-```HTML
+```html
 <dl>
   <dt>Server</dt>
   <dd>Software used to serve webpages, like Apache.</dd>
@@ -1698,7 +1698,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] B
 
-```HTML
+```html
 <dt>
   <dl>Server</dl>
   <dd>Software used to serve webpages, like Apache.</dd>
@@ -1709,7 +1709,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] C
 
-```HTML
+```html
 <dl>
   <dt>Server</dt>
   <dd>Software used to serve webpages, like Apache.</dd>
@@ -1720,7 +1720,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] D
 
-```HTML
+```html
 <dl>
   <dd>Server</dd>
   <dt>Software used to serve webpages, like Apache.</dt>
@@ -1734,7 +1734,7 @@ As Steve Krug once said, happy talk must die.
 
 #### Q107. What is wrong with this code?
 
-```HTML
+```html
 <ul>
   <h2>Espresso Drinks</h2>
   <li>Espresso</li>
@@ -1762,7 +1762,7 @@ As Steve Krug once said, happy talk must die.
 
 - [x] A
 
-```HTML
+```html
 <table>
   <thead scope="row"><th row="1">Header</th></thead>
   <tr>
@@ -1774,7 +1774,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] B
 
-```HTML
+```html
 <table>
   <tr>
   <th scope="row">Header</th>
@@ -1786,7 +1786,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] C
 
-```HTML
+```html
 <table>
   <tr>
     <thead scope="row">Header</thead>
@@ -1798,7 +1798,7 @@ As Steve Krug once said, happy talk must die.
 
 - [ ] D
 
-```HTML
+```html
 <table>
   <tr>
     <th>Header</th>
@@ -1812,25 +1812,25 @@ As Steve Krug once said, happy talk must die.
 
 - [x] A
 
-```HTML
+```html
   <p>On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11/a11.step.html">That's one small step for man, one giant leap for mankind.</q></p>
 ```
 
 - [ ] B
 
-```HTML
+```html
 <p>On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11/a11.step.html">That's one small step for man, one giant leap for mankind.</q></p>
 ```
 
 - [ ] C
 
-```HTML
+```html
 <p>On July 21, 1969, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11/a11.step.html">"That's one small step for man, one giant leap for mankind."</q></p>
 ```
 
 - [ ] D
 
-```HTML
+```html
 <p>On July 21, 1969, Neil Armstrong said, <q>"That's one small step for man, one giant leap for mankind."</q></p>
 ```
 
