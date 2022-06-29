@@ -996,7 +996,7 @@ The html element represents the root of a document.
 
 [Reference (w3schools)](https://www.w3schools.com/html/html_quotation_elements.asp)
 
-#### Q62. How will a video look displayed on a fully loaded webpage if the `<video>` tag is used and the **autoplay** attribute is not set?
+#### Q61. How will a video look displayed on a fully loaded webpage if the `<video>` tag is used and the **autoplay** attribute is not set?
 
 - [ ] It will display a random frame from a video, unless the **poster** attribute is set.
 - [x] It will display the first frame of the video, unless the **poster** attribute is set.
@@ -1005,7 +1005,7 @@ The html element represents the root of a document.
 
 [Reference (w3schools)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_video)
 
-#### Q63. What is the correct way to describe an empty element / Alt.: What is the correct way to describe an empty element, such as a line break tag?
+#### Q62. What is the correct way to describe an empty element / Alt.: What is the correct way to describe an empty element, such as a line break tag?
 
 - [ ] It has opening and closing tags but no child content.
 - [ ] It display nothing on a website.
@@ -1014,7 +1014,7 @@ The html element represents the root of a document.
 
 [Reference (MDN Web Docs)](https://developer.mozilla.org/en-US/docs/Glossary/Empty_element)
 
-#### Q64. What is the purpose of async in this code?
+#### Q63. What is the purpose of async in this code?
 
 `<script async src="myscript.js"></script>`
 
@@ -1023,7 +1023,7 @@ The html element represents the root of a document.
 - [x] It runs the script when the script is ready.
 - [ ] It pauses the parsing of HTML code while the script runs.
 
-#### Q65. What does this code do on a page you are visiting for the first time?
+#### Q64. What does this code do on a page you are visiting for the first time?
 
 `<audio autoplay loop src="sound.mp3" type="audio/mpeg"></audio>`
 
@@ -1035,14 +1035,14 @@ The html element represents the root of a document.
 References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio),
 [(MDN) autoplay](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
 
-#### Q66. What is the difference between the `<head>` and `<header>` tags?
+#### Q65. What is the difference between the `<head>` and `<header>` tags?
 
 - [ ] There is only one `<head>` tag per page, while there may be many `<header>` tags.
 - [ ] The `<head>` tag may contain CSS and Javascript links, while the `<header>` tag may contain headings and navigational links.
 - [x] all of these answers
 - [ ] The `<head>` tag contains meta information, while the `<header>` tag contains navigation, logos, and other page identifying content.
 
-#### Q67. In this code, what is the purpose of defer?
+#### Q66. In this code, what is the purpose of defer?
 
 `<script defer src="myscript.js"></script>`
 
@@ -1051,7 +1051,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 - [ ] It runs the script when the script is ready.
 - [ ] It pauses the parsing of HTML code while the script runs.
 
-#### Q68. The code below contains some errors. Which choice corrects all of the errors?
+#### Q67. The code below contains some errors. Which choice corrects all of the errors?
 
 ```html
 <table>
@@ -1113,7 +1113,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 </table>
 ```
 
-#### Q69. Given the file and directory structure shown here, what is the correct element to place in file profit.html to link to info.html?
+#### Q68. Given the file and directory structure shown here, what is the correct element to place in file profit.html to link to info.html?
 
 ![Image of footer](images/ss-7.png?raw=true)
 
@@ -1122,7 +1122,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 - [ ] `<a href="../../info.html">See Information </a>`
 - [ ] `<a href="info.html">See Information </a>`
 
-#### Q70. When should you use the `<article>` element?
+#### Q69. When should you use the `<article>` element?
 
 - [ ] For blog posts and other social media items
 - [ ] For the main content area of your website
@@ -1131,7 +1131,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 
 [Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
 
-#### Q71. Which list comprises three empty elements?
+#### Q70. Which list comprises three empty elements?
 
 - [ ] A
 
@@ -1165,14 +1165,14 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 <source>
 ```
 
-#### Q72. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
+#### Q71. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
 
 - [x] `<a href="tel:802-555-1212">Call me</a>`
 - [ ] `<a href="phone">802-555-1212</a>`
 - [ ] `<a href="tel">802-555-1212</a>`
 - [ ] `<a href="phone:802-555-1212">Call me</a>`
 
-#### Q73. What is the purpose of the `class` attribute?
+#### Q72. What is the purpose of the `class` attribute?
 
 - [ ] Classes allow CSS to select specific elements on the page. You may list as many class names within the class attribute as you wish,
       separated by spaces.
@@ -1183,7 +1183,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 
 [Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class)
 
-#### Q74. Which choice is not a legal type attribute for the `<input>` tag?
+#### Q73. Which choice is not a legal type attribute for the `<input>` tag?
 
 - [ ] `<input type="color">`
 - [ ] `<input type="tel">`
@@ -1192,7 +1192,7 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 
 [Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input)
 
-#### Q75. What is the most semantic way to mark up this sentence so that "happy talk must die" is rendered as an inline quote?
+#### Q74. What is the most semantic way to mark up this sentence so that "happy talk must die" is rendered as an inline quote?
 
 As Steve Krug once said, happy talk must die.
 
@@ -1206,7 +1206,7 @@ As Steve Krug once said, happy talk must die.
 **`<q>` tag**
 `Most browsers will display q tags as inline elements with quotes`
 
-#### Q76. What is the most semantically accurate way to make up a main navigation bar, displayed in a horizontal direction?
+#### Q75. What is the most semantically accurate way to make up a main navigation bar, displayed in a horizontal direction?
 
 - [ ] A
 
@@ -1252,7 +1252,7 @@ As Steve Krug once said, happy talk must die.
   </nav>
 ```
 
-#### Q77. Which choice is the best way to mark up this layout?
+#### Q76. Which choice is the best way to mark up this layout?
 
 ![Image of footer](images/ss-8.png?raw=true)
 
@@ -1304,14 +1304,14 @@ As Steve Krug once said, happy talk must die.
 
 `The <address> tag defines the contact information for the author/owner of a document or an article. The contact information can be an email address, URL, physical address, phone number, social media handle, etc. The text in the <address> element usually renders in italic, and browsers will always add a line break before and after the <address> element.`
 
-#### Q78. What is the primary purpose of HTML?
+#### Q77. What is the primary purpose of HTML?
 
 - [x] HTML structures the webpage, identifying its elements such as paragraphs, headings, and lists.
 - [ ] HTML structures and provides a rudimentary look to webpages.
 - [ ] HTML is responsible for the structure, styling, and interactivity of webpages.
 - [ ] HTML is responsible for the structure and styling of webpages.
 
-#### Q80. For the HTML code below, when will "Sample Text" display to the browser?
+#### Q78. For the HTML code below, when will "Sample Text" display to the browser?
 
 ```html
 <noscript>Sample Text</noscript>
@@ -1324,7 +1324,7 @@ As Steve Krug once said, happy talk must die.
 
 [Reference (MDN)](https://www.w3schools.com/tags/tag_noscript.asp)
 
-#### Q81. How will this code render by default in most web browsers?
+#### Q79. How will this code render by default in most web browsers?
 
 ```html
 <details>
@@ -1342,14 +1342,14 @@ As Steve Krug once said, happy talk must die.
 - [ ] D
       ![D](images/Q84-4.jpg)
 
-#### Q83. What is the difference between the `<svg>` and `<canvas>`?
+#### Q80. What is the difference between the `<svg>` and `<canvas>`?
 
 - [x] `<svg>` produces vector graphics, while `<canvas>` produces raster graphics.
 - [ ] `<svg>` integrates with JavaScript, while `<canvas>` does not.
 - [ ] `<svg>` produces raster graphics, while `<canvas>` produces vector graphics.
 - [ ] `<svg>` cannot be used as a background image, while `<canvas>` can be used as a background
 
-#### Q84. What is the difference between the _readonly_ and _disabled_ attributes for the `<textarea>` element?
+#### Q81. What is the difference between the _readonly_ and _disabled_ attributes for the `<textarea>` element?
 
 - [x] _readonly_ allows clicking in the `<textarea>` element. _disabled_ prevents all interaction with the control.
 - [ ] _readonly_ is invalid attribute for `<textarea>`, while _disabled_ is a valid attribute.
@@ -1360,7 +1360,7 @@ As Steve Krug once said, happy talk must die.
 
 [Source: disabled](https://www.w3schools.com/tags/att_disabled.asp)
 
-#### Q85. In this code, what is _target_?
+#### Q82. In this code, what is _target_?
 
 `<a target="_blank">...</a>`
 
@@ -1369,7 +1369,7 @@ As Steve Krug once said, happy talk must die.
 - [ ] content
 - [ ] an element
 
-#### Q86. What is the correct way to add a submit URL to a `button` element?
+#### Q83. What is the correct way to add a submit URL to a `button` element?
 
 - [ ] A
 
@@ -1405,7 +1405,7 @@ As Steve Krug once said, happy talk must die.
 
 `formaction — The URL that processes the information submitted by the button. Overrides the action attribute of the button's form owner. Does nothing if there is no form owner.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formaction)
 
-#### Q87. Which is the best markup to produce this text?
+#### Q84. Which is the best markup to produce this text?
 
 `x<y&z>w`
 
@@ -1418,7 +1418,7 @@ As Steve Krug once said, happy talk must die.
 
 `It's too strange question because all of that methods doesn't work. The good method is &amp, &lt, &gt using.`
 
-#### Q88. What is wrong with this code snippet?
+#### Q85. What is wrong with this code snippet?
 
 ```html
 <label>Address:</label>
@@ -1430,35 +1430,35 @@ As Steve Krug once said, happy talk must die.
 - [ ] The `<label>` element is missing an **id** set to "address-input".
 - [x] The `<label>` element is missing a **for** attribute set to "address-input".
 
-#### Q89. What is the default method for form submission?
+#### Q86. What is the default method for form submission?
 
 - [x] GET
 - [ ] POST
 - [ ] PUT
 - [ ] SUBMIT
 
-#### Q90. Which is the most semantically correct markup for a side comment in small print?
+#### Q87. Which is the most semantically correct markup for a side comment in small print?
 
 - [x] `<p>` Get 10% discount `<small>`not valid in France`</small></p>`
 - [ ] `<p>` Get 10% discount `<!--not valid in France--> </p>`
 - [ ] `<p>` Get 10% discount `<comment>`not valid in France`</comment></p>`
 - [ ] `<p>` Get 10% discount `<aside>`not valid in France`</aside></p>`
 
-#### Q91. Which choice will produce the spanish word <i>canción</i>?
+#### Q88. Which choice will produce the spanish word <i>canción</i>?
 
 - [ ] `<p lang="es">canción</p>`
 - [x] `<p lang="es">canci&oacuten</p>`
 - [ ] `<p lang="es">cancio'n</p>`
 - [ ] `<p lang="es">canci'on</p>`
 
-#### Q92. What is the purpose of `<caption>`?
+#### Q89. What is the purpose of `<caption>`?
 
 - [ ] `<caption>` provides captions for `<audio>`,`<video>`,`<img>`, and `<table>`.
 - [x] `<caption>` provides captions to `<table>`.
 - [ ] `<caption>` provides captions for `<audio>`, `<video>`, and `<table>`.
 - [ ] `<caption>` provides captions for `<img>`, `<audio>`, and `<video>`.
 
-#### Q93. The value attribute is associated with which set of tags ?
+#### Q90. The value attribute is associated with which set of tags ?
 
 - [x] A
 
@@ -1492,7 +1492,7 @@ As Steve Krug once said, happy talk must die.
 <meter>
 ```
 
-#### Q94. What is wrong with this code?
+#### Q91. What is wrong with this code?
 
 `<img src="https://source.unsplash.com/random">`
 
@@ -1501,7 +1501,7 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<img>` is not a valid HTML element. Instead, use `<image src="..."/>`.
 - [ ] `<img>` should be nested within a `<figure>` tag.
 
-#### Q95. Which choice is the most semantically correct markup for specifying the first definition of a term?
+#### Q92. Which choice is the most semantically correct markup for specifying the first definition of a term?
 
 - [ ] `<p>`The `<dl>`focal length`</dl>` of a lens gives the distance from the lens to the image sensor.`</p>`
 - [x] `<p>`The `<dfn>`focal length`<dfn>` of a lens gives the distance from the lens to the image sensor.`</p>`
@@ -1512,7 +1512,7 @@ As Steve Krug once said, happy talk must die.
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn)
 
-#### Q96. Which choice is the best way to code three choices within a form so that the user can select multiple items?
+#### Q93. Which choice is the best way to code three choices within a form so that the user can select multiple items?
 
 - [ ] :
 
@@ -1550,21 +1550,21 @@ As Steve Krug once said, happy talk must die.
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox)
 
-#### Q97. How would you mark up a piece of ASCII art (an emoticon) in an accessible way?
+#### Q94. How would you mark up a piece of ASCII art (an emoticon) in an accessible way?
 
 - [x] `<pre role="emoticon" aria-label="ASCII emoticon of a shrug">¯\_(ツ)_/¯</pre>`
 - [ ] `<pre role="img" aria-label="ASCII emoticon of a shrug">¯\_(ツ)_/¯</pre>`
 - [ ] `<dfn title="ASCII emoticon of a shrug">¯\_(ツ)_/¯</dfn>`
 - [ ] `<label for="art">ASCII emoticon of a shrug</label><pre role="img" id="art">¯\_(ツ)_/¯</pre>`
 
-#### Q98. Which example is a standard way in HTML5 for adding author metadata to a page?
+#### Q95. Which example is a standard way in HTML5 for adding author metadata to a page?
 
 - [ ] `<metadata name="author" content="Author Name">`
 - [ ] `<meta name="author">Author Name</meta>`
 - [ ] `<meta name="creator" content="Author Name">`
 - [x] `<meta name="author" content="Author Name">`
 
-#### Q99. Given the following requirements, select the correct `input` configuration: An `input` that allows the user to select from a range of integer values between 0 and 100 (inclusive) in increments of 5.
+#### Q96. Given the following requirements, select the correct `input` configuration: An `input` that allows the user to select from a range of integer values between 0 and 100 (inclusive) in increments of 5.
 
 - [ ] `<input type="range" min="0" max="100" by="5" />`
 - [x] `<input type="range" min="0" max="100" step="5" />`
@@ -1575,7 +1575,7 @@ As Steve Krug once said, happy talk must die.
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Input/range)
 
-#### Q100. Which choice is valid markup for a `<head>` element?
+#### Q97. Which choice is valid markup for a `<head>` element?
 
 - [ ] `<head class="Page Section Information" id="head"><title>Page Title</title></head>`
 - [ ] `<head><title>Page Title</title> <img src="favicon.icon" alt=""></head>`
@@ -1586,7 +1586,7 @@ As Steve Krug once said, happy talk must die.
 [Source 1](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head)/
 [Source 2](https://www.w3schools.com/tags/tag_data.asp)
 
-#### Q101. You need to add comments to the company blog. What is the most semantic markup for a list of comments?
+#### Q98. You need to add comments to the company blog. What is the most semantic markup for a list of comments?
 
 - [x] A
 
@@ -1631,7 +1631,7 @@ As Steve Krug once said, happy talk must die.
 `The <article> HTML element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Example:a user-submitted comment.`
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
 
-#### Q102. To make something editable by the user, you need to set the **\_** attribute to **\_**.
+#### Q99. To make something editable by the user, you need to set the **\_** attribute to **\_**.
 
 - [ ] `access`; allow
 - [ ] `designMode`; true
@@ -1641,7 +1641,7 @@ As Steve Krug once said, happy talk must die.
 `The contenteditable global attribute is an enumerated attribute indicating if the element should be editable by the user. If so, the browser modifies its widget to allow editing. The attribute must take one of the following values: true or an empty string, which indicates that the element is editable; false, which indicates that the element is not editable.`
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable)
 
-#### Q103. Which choice is the standard way to include a value in a form without making it visible to or editable by the user?
+#### Q100. Which choice is the standard way to include a value in a form without making it visible to or editable by the user?
 
 - [ ] `<input type="invisible" name="important" value="information">`
 - [ ] `<input type="text" style="display: none;" name="important" value="information">`
@@ -1650,7 +1650,7 @@ As Steve Krug once said, happy talk must die.
 
 `<input> elements of type hidden let web developers include data that cannot be seen or modified by users when a form is submitted. For example, the ID of the content that is currently being ordered or edited, or a unique security token. Hidden inputs are completely invisible in the rendered page, and there is no way to make it visible in the page's content.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden)
 
-#### Q104. What is the semantic way to add an identifying title to a table?
+#### Q101. What is the semantic way to add an identifying title to a table?
 
 - [ ] `<table><label>Heading</label>...</table>`
 - [ ] `<table><title>Heading</title>...</table>`
@@ -1659,7 +1659,7 @@ As Steve Krug once said, happy talk must die.
 
 `The <caption> HTML element specifies the caption (or title) of a table.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption)
 
-#### Q105. Which image file referenced in this `img` element's `srcset` attribute should a browser on a small mobile phone load?
+#### Q102. Which image file referenced in this `img` element's `srcset` attribute should a browser on a small mobile phone load?
 
 ```html
 <img
@@ -1677,7 +1677,7 @@ As Steve Krug once said, happy talk must die.
 
 `The browser will: 1. Look at its device width. 2. Work out which media condition in the sizes list is the first one to be true. 3. Look at the slot size given to that media query. 4. Load the image referenced in the srcset list that has the same size as the slot or, if there isn't one, the first image that is bigger than the chosen slot size.` [Source](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
-#### Q106. Which description is coded correctly?
+#### Q103. Which description is coded correctly?
 
 - [x] A
 
@@ -1726,7 +1726,7 @@ As Steve Krug once said, happy talk must die.
 [Source 1](https://html.spec.whatwg.org/multipage/grouping-content.html#the-dl-element)
 [Source 2](https://www.w3schools.com/tags/tag_dl.asp)
 
-#### Q107. What is wrong with this code?
+#### Q104. What is wrong with this code?
 
 ```html
 <ul>
@@ -1745,14 +1745,14 @@ As Steve Krug once said, happy talk must die.
 
 `ul content model only accepts "Zero or more li and script-supporting elements".` [Source](https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element)
 
-#### Q108. A designer gave you CSS code that should run only when the device rendering the page is in dark mode. How would you embed that code?
+#### Q105. A designer gave you CSS code that should run only when the device rendering the page is in dark mode. How would you embed that code?
 
 - [ ] `<style media="light-mode: false">/* CSS code */</style>`
 - [ ] `<style media="color-mode: dark">/* CSS code */</style>`
 - [x] `<style media="prefers-color-scheme: dark">/* CSS code */</style>`
 - [ ] `<style media="color-scheme: dark">/* CSS code */</style>`
 
-#### Q109. How would you mark up a header for a table row?
+#### Q106. How would you mark up a header for a table row?
 
 - [x] A
 
