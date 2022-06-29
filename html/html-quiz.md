@@ -211,10 +211,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 ```html
 <p>
-  On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said,
-  <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
-    >One small step for man, one giant leap for mankind.</q
-  >
+  On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html">One small step for man, one giant leap for mankind.</q>
 </p>
 ```
 
@@ -222,10 +219,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 ```html
 <p>
-  On July 21, 1969, Neil Armstrong said,
-  <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
-    >One small step for man, one giant leap for mankind.</q
-  >
+  On July 21, 1969, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html">"One small step for man, one giant leap for mankind."</q>
 </p>
 ```
 
@@ -233,7 +227,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 ```html
 <p>
-  On July 21, 1969, Neil Armstrong said, <q>One small step for man, one giant leap for mankind.</q>
+  On July 21, 1969, Neil Armstrong said, <q>"One small step for man, one giant leap for mankind."</q>
 </p>
 ```
 
@@ -241,10 +235,7 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 ```html
 <p>
-  On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said,
-  <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
-    >One small step for man, one giant leap for mankind.</q
-  >
+  On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html">One small step for man, one giant leap for mankind.</q>
 </p>
 ```
 
@@ -1801,32 +1792,6 @@ As Steve Krug once said, happy talk must die.
     <td>18</td>
   </tr>
 </table>
-```
-
-#### Q110. What is the best semantic markup for this sentence? On July 21, 1969, Neil Armstrong said, "That's one small step for man, one giant leap for mankind.
-
-- [x] A
-
-```html
-  <p>On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11/a11.step.html">That's one small step for man, one giant leap for mankind.</q></p>
-```
-
-- [ ] B
-
-```html
-<p>On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11/a11.step.html">That's one small step for man, one giant leap for mankind.</q></p>
-```
-
-- [ ] C
-
-```html
-<p>On July 21, 1969, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11/a11.step.html">"That's one small step for man, one giant leap for mankind."</q></p>
-```
-
-- [ ] D
-
-```html
-<p>On July 21, 1969, Neil Armstrong said, <q>"That's one small step for man, one giant leap for mankind."</q></p>
 ```
 
 #### Q111. What is the root element of an HTML document.
