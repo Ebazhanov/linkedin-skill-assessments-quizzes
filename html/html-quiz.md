@@ -708,6 +708,14 @@ This is a confusing question and there can be an arguments for both the second a
 - [ ] `<body>`
 - [ ] `<root>`
 
+`
+The <html> tag is the root element of an HTML document, which means that it contains all the contents and tags of the HTML document within it.
+
+The html element represents the root of a document.
+`
+[Source](https://www.interviewbit.com/html-mcq/)
+[Source](https://www.w3.org/TR/2010/WD-html-markup-20100624/html.html)
+
 #### Q44. Which code snippet creates the layout shown, starting at `<table>` and ending at `</table>`?
 
 ![Table](images/ss-1.png?raw=true 'table')
@@ -1793,18 +1801,3 @@ As Steve Krug once said, happy talk must die.
   </tr>
 </table>
 ```
-
-#### Q111. What is the root element of an HTML document.
-
-- [x] `<html>`
-- [ ] `<body>`
-- [ ] `<root>`
-- [ ] `<!DOCTYPE html>`
-
-`
-The <html> tag is the root element of an HTML document, which means that it contains all the contents and tags of the HTML document within it.
-
-The html element represents the root of a document.
-`
-[Source](https://www.interviewbit.com/html-mcq/)
-[Source](https://www.w3.org/TR/2010/WD-html-markup-20100624/html.html)
