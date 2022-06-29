@@ -1515,21 +1515,37 @@ As Steve Krug once said, happy talk must die.
 
 #### Q96. Which choice is the best way to code three choices within a form so that the user can select multiple items?
 
-- [ ] <input type="radio" name="example"> Choice 1 <br/>
-      <input type="radio" name="example"> Choice 2 <br/>
-      <input type="radio" name="example"> Choice 3
+- [ ] :
 
-- [x] <input type="checkbox" name="example"> Choice 1 <br/>
-      <input type="checkbox" name="example"> Choice 2 <br/>
-      <input type="checkbox" name="example"> Choice 3
+```html
+<input type="radio" name="example"> Choice 1 <br/>
+<input type="radio" name="example"> Choice 2 <br/>
+<input type="radio" name="example"> Choice 3
+```
 
-- [ ] <label><input type="checkbox" name="example"> Choice 1</label><br/>
-      <label><input type="checkbox" name="example"> Choice 2</label><br/>
-      <label><input type="checkbox" name="example"> Choice 3</label>
+- [x] :
 
-- [ ] <label><input type="radio" name="example"> Choice 1</label><br/>
-      <label><input type="radio" name="example"> Choice 2</label><br/>
-      <label><input type="radio" name="example"> Choice 3</label>
+```html
+<input type="checkbox" name="example"> Choice 1 <br/>
+<input type="checkbox" name="example"> Choice 2 <br/>
+<input type="checkbox" name="example"> Choice 3
+```
+
+- [ ] :
+
+```html
+<label><input type="checkbox" name="example"> Choice 1</label><br/>
+<label><input type="checkbox" name="example"> Choice 2</label><br/>
+<label><input type="checkbox" name="example"> Choice 3</label>
+```
+
+- [ ] :
+
+```html
+<label><input type="radio" name="example"> Choice 1</label><br/>
+<label><input type="radio" name="example"> Choice 2</label><br/>
+<label><input type="radio" name="example"> Choice 3</label>
+```
 
 `<input> elements of type checkbox are rendered by default as boxes that are checked (ticked) when activated, like you might see in an official government paper form. The exact appearance depends upon the operating system configuration under which the browser is running. Generally this is a square but it may have rounded corners.`
 
