@@ -1343,13 +1343,6 @@ As Steve Krug once said, happy talk must die.
 - [ ] D
       ![D](images/Q84-4.jpg)
 
-#### Q82. In this code, what is _target_?
-
-- [x] an attribute
-- [ ] a tag
-- [ ] content
-- [ ] an element
-
 #### Q83. What is the difference between the `<svg>` and `<canvas>`?
 
 - [x] `<svg>` produces vector graphics, while `<canvas>` produces raster graphics.
