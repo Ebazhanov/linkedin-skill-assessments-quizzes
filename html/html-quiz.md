@@ -1006,7 +1006,7 @@ This is a confusing question and there can be an arguments for both the second a
 
 [Reference (w3schools)](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_video)
 
-#### Q63. What is the correct way to describe an empty element?
+#### Q63. What is the correct way to describe an empty element / Alt.: What is the correct way to describe an empty element, such as a line break tag?
 
 - [ ] It has opening and closing tags but no child content.
 - [ ] It display nothing on a website.
@@ -1311,13 +1311,6 @@ As Steve Krug once said, happy talk must die.
 - [ ] HTML structures and provides a rudimentary look to webpages.
 - [ ] HTML is responsible for the structure, styling, and interactivity of webpages.
 - [ ] HTML is responsible for the structure and styling of webpages.
-
-#### Q79. What is the correct way to describe an empty element, such as a line break tag?
-
-- [ ] It displays nothing on a website.
-- [ ] It has opening and closing tags but no child content.
-- [ ] It has child content but no closing tag.
-- [x] It has no child content and no closing tag.
 
 #### Q80. For the HTML code below, when will "Sample Text" display to the browser?
 
