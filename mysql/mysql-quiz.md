@@ -299,6 +299,8 @@
 - [ ] help files
 - [ ] default settings
 
+[Reference](https://dev.mysql.com/doc/refman/8.0/en/option-files.html)
+
 #### Q32. After installing MySQL, it may be necessary to initialize the \_ which may be done automatically with some MySQL installation methods.
 
 - [ ] storage engine
