@@ -226,6 +226,37 @@ a {
 - [ ] Larger z-index values appear on top of elements with a lower z-index value. Only positive numbers can be used. z-index must also be used with positioned elements.
 - [ ] Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index can be used with or without positioned elements.
 
+Note: an alternative to the question below.
+
+#### Q57. When elements within a container overlap, the z-index property can be used to indicate how those items are stacked on top of each other. Which set of statements is true?
+
+- [x]
+  ```markdown
+  1. Larger z-index values appear on top elements with a lower z-index value.
+  2. Negative and positive number can be used.
+  3. z-index can be used only on positioned elements.
+  ```
+- [ ]
+  ```markdown
+  1. Smaller z-index values appear on top of elements with a larger z-index value.
+  2. Negative and positive numbers can be used.
+  3. z-index can be used with or without positioned elements.
+  ```
+- [ ]
+  ```markdown
+  1. Smaller z-index values appear on top of elements with a larger z-index value.
+  2. Negative and positive number can be used.
+  3. z-index must also be used with positioned elements.
+  ```
+- [ ]
+  ```markdown
+  1. Larger z-index values appear on top of elements with a lower z-index value.
+  2. Only positive number can be used.
+  3. z-index must also be used with positioned elements.
+  ```
+
+Note: an alternative to the question above.
+
 #### Q14. What is the difference between the following line-height settings?
 
 ```css
@@ -692,35 +723,6 @@ p:first-child {
 - [x] to load custom fonts into stylesheet
 - [ ] to change the name of the font declared in the font-family
 - [ ] to set the color of the text
-
-#### Q57. When elements within a container overlap, the z-index property can be used to indicate how those items are stacked on top of each other. Which set of statements is true?
-
-- [x]
-  ```markdown
-  1. Larger z-index values appear on top elements with a lower z-index value.
-  2. Negative and positive number can be used.
-  3. z-index can be used only on positioned elements.
-  ```
-- [ ]
-  ```markdown
-  1. Smaller z-index values appear on top of elements with a larger z-index value.
-  2. Negative and positive numbers can be used.
-  3. z-index can be used with or without positioned elements.
-  ```
-- [ ]
-  ```markdown
-  1. Smaller z-index values appear on top of elements with a larger z-index value.
-  2. Negative and positive number can be used.
-  3. z-index must also be used with positioned elements.
-  ```
-- [ ]
-  ```markdown
-  1. Larger z-index values appear on top of elements with a lower z-index value.
-  2. Only positive number can be used.
-  3. z-index must also be used with positioned elements.
-  ```
-
-Note: an alternative for Q13.
 
 #### Q58. You have a large image that needs to fit into a 400 x 200 pixel area. What should you resize the image to if your users are using Retina displays?
 
