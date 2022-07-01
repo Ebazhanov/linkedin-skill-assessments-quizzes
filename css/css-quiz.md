@@ -436,8 +436,6 @@ p {
   - Example 3: `flex-direction: row;`
   - Example 4: `flex-direction: row-reverse;`
 
-Note: Examples seem to be missing.
-
 #### Q34. There are two sibling combinators that can be used to select elements contained within the same parent element; the general sibling combinator (~) and the adjacent sibling combinator (+). Referring to example below, which elements will the styles be applied to?
 
 ```css
