@@ -118,8 +118,19 @@ Note: an alternative to the question above.
 
 - [ ] Multiple classes can be used within the same element.
 - [ ] The same class can be used multiple times per page.
-- [ ] Class selectors with a leading period
+- [ ] Class selectors begin with a leading period
 - [x] Classes can be used multiple times per page but not within the same element.
+
+Note: an alternative to the question below.
+
+#### Q44. What is not true about class selectors?
+
+- [x] Only one class value can be assigned to an element.
+- [ ] An element can have multiple class value.
+- [ ] Class selectors are marked with a leading period.
+- [ ] More than one element can have the same class value.
+
+Note: an alternative to the question above.
 
 #### Q10. There are many properties that can be used to align elements and create page layouts such as float, position, flexbox and grid. Of these four properties, which one should be used to align a global navigation bar which stays fixed at the top of the page?
 
@@ -557,13 +568,6 @@ font-weight: 700;
 - [ ] `a[href~="#"]`
 - [x] `a[href^="#"]`
 - [ ] `a[href="#"]`
-
-#### Q44. What is not true about class selectors?
-
-- [x] Only one class value can be assigned to an element.
-- [ ] An element can have multiple class value.
-- [ ] Class selectors are marked with a leading period.
-- [ ] More than one element can have the same class value.
 
 #### Q45. What is the difference between the margin and padding properties?
 
