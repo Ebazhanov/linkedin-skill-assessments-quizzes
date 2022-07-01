@@ -1904,3 +1904,34 @@ p + section {
 - [ ] P1
 
 [Reference](https://www.w3docs.com/snippets/css/what-does-the-css-tilde-selector-mean.html)
+
+#### Q127. When these pseudo class selectors are applied to a link, what states will the styles be applied to?
+
+```css
+  a:visited {...}
+  a:active {...}
+  a:hover {...}
+  a:focus {...}
+```
+
+- [ ] `:visited` styles are applied after the link has been opened.
+	`:active` styles are applied on mouse click and hold.
+	`:hover` styles are applied on mouse over or mouse click and hold.
+	`:focus` styles are applied when a Tab key on a keyboard is used to navigate through links.
+	
+- [ ] `:visited` styles are applied after the link has been opened.
+	`:active` styles are applied on mouse click.
+	`:hover` styles are applied on mouse over.
+	`:focus` styles are applied on mouse click and hold, or when a Tab key on a keyboard is used to navigate through links.
+
+- [x] `:visited` styles are applied after the link has been opened.
+	`:active` styles are applied on mouse click only and before mouse release.
+	`:hover` styles are applied on mouse over.
+	`:focus` styles are applied when a Tab key on a keyboard is used to navigate through links.
+	
+- [ ] `:visited` styles are applied on mouse hold.
+	`:active` styles are applied when the link has been opened.
+	`:hover` styles are applied on mouse over.
+	`:focus` styles are applied when a Tab key on a keyboard is used to navigate through links.
+
+[Reference](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes)
