@@ -526,6 +526,34 @@ h2 + p {
 - [x] Paragraphs 2, and 3 will be blue, and paragraph 2 will have a beige background.
 - [ ] Paragraph 2 will be blue. Paragraphs 2 and 3 will have a beige background.
 
+Note: a variant of the question below.
+
+#### Q103. Which element(s) will be blue?
+
+```css
+h2 ~ p {
+  color: blue;
+}
+```
+
+```html
+<section>
+  <p>P1</p>
+  <h2>H2</h2>
+  <p>P3</p>
+  <p>P4</p>
+</section>
+```
+
+- [ ] P3
+- [ ] P1, P3 and P4
+- [x] P3 and P4
+- [ ] P1
+
+[Reference](https://www.w3docs.com/snippets/css/what-does-the-css-tilde-selector-mean.html)
+
+Note: a variant of the question above.
+
 #### Q35. When using flexbox, the "justify-content" property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
 
 ![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-2.png)
@@ -1382,28 +1410,6 @@ a {
       10vmin = 8px
       10vmax = 6px
 
-#### Q103. Which element(s) will be blue?
-
-```css
-h2 ~ p {
-  color: blue;
-}
-```
-
-```html
-<section>
-  <p>P1</p>
-  <h2>H2</h2>
-  <p>P3</p>
-  <p>P4</p>
-</section>
-```
-
-- [ ] P3P3
-- [ ] P1P1
-- [ ] P1, P3, and P4P1, P3, and P4
-- [x] P3 and P4
-
 #### Q104. Referring to the HTML markup and CSS example below, which element(s) will be targeted?
 
 ```css
@@ -1895,24 +1901,3 @@ p + section {
 - [ ] `# This line has been cancelled.`
 
 [Reference](https://www.w3schools.com/css/css_comments.asp)
-
-#### Q126. Which element(s) will be displayed in blue text?
-
-```css
-    h2 ~ p {
-      color: blue;
-    }
-  <section>
-    <p>P1</p>
-    <h2>H2</h2>
-    <p>P3</p>
-    <p>P4</p>
-  </section>
-```
-
-- [ ] P3
-- [ ] P1, P3 and P4
-- [x] P3 and P4
-- [ ] P1
-
-[Reference](https://www.w3docs.com/snippets/css/what-does-the-css-tilde-selector-mean.html)
