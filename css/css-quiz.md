@@ -21,6 +21,17 @@ div a
 - [ ] `a.title {...}`
 - [ ] `a=title {...}`
 
+Note: an alternative to the question below.
+
+#### Q50. What is the CSS selector for an `<a>` tag containing the title attribute?
+
+- [x] `a[title]`
+- [ ] `a > title`
+- [ ] `a=title`
+- [ ] `a.title`
+
+Note: an alternative to the question above.
+
 #### Q3. CSS grid and flexbox are now becoming a more popular way to create page layouts. However, floats are still commonly used, especially when working with an older code base, or if you need to support older browser version. What are two valid techniques used to clear floats?
 
 - [ ] Use the "clearfix hack" on the floated element and add a float to the parent element.
@@ -616,15 +627,6 @@ font-weight: 700;
 - [ ] The left margin value is equal to 5% of the viewport width plus 5px
 - [ ] The left margin value is equal to 5% of the closest positioned element's width plus 5px
 - [ ] The left margin value is equal to 5% of the selected element's width (.example) plus 5px
-
-#### Q50. What is the CSS selector for an `<a>` tag containing the title attribute?
-
-- [x] `a[title]`
-- [ ] `a > title`
-- [ ] `a=title`
-- [ ] `a.title`
-
-Note: an alternative for Q2.
 
 #### Q51. Which code would you use to absolutely position an element of the logo class?
 
