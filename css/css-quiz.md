@@ -1312,7 +1312,7 @@ a {
 - [ ] blue
 - [ ] black
 
-[Reference](https://www.sitepoint.com/pseudo-classes-the-basics/)
+[Reference](https://www.sitepoint.com/how-to-use-variables-in-css/)
 
 #### Q100. Which statement is not true?
 
