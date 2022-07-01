@@ -94,6 +94,19 @@ div a
 - [ ] The first column will have a width of 50px. The second column will be 300px wide and the third column will be 150px wide.
 - [ ] The first column will have a width of 50px. The second column will be 500px wide and the third column will be 1000px wide.
 
+Note: an alternative to the question below.
+
+#### Q41. If the width of the container is 500 pixels, what would the width of the three columns be in this layout?
+
+`.grid { display: grid; grid-template-columns: 50px 1fr 2fr; }`
+
+- [x] 50px, 150px, 300px
+- [ ] 50px, 200px, 300px
+- [ ] 50px, 100px, 200px
+- [ ] 50px, 50px, 100px
+
+Note: an alternative to the question above.
+
 #### Q8. What is the line-height property primarily used for?
 
 - [x] to control the height of the space between two lines of content
@@ -508,17 +521,6 @@ font-weight: 700;
 - [x] normal; bold
 - [ ] light; normal
 - [ ] normal; bolder
-
-#### Q41. If the width of the container is 500 pixels, what would the width of the three columns be in this layout?
-
-`.grid { display: grid; grid-template-columns: 50px 1fr 2fr; }`
-
-- [x] 50px, 150px, 300px
-- [ ] 50px, 200px, 300px
-- [ ] 50px, 100px, 200px
-- [ ] 50px, 50px, 100px
-
-Note: an alternative for Q7.
 
 #### Q42. Using the :nth-child pseudo class, what would be the most efficient way to style every third item in a list, no matter how many items are present, starting with item 2?
 
