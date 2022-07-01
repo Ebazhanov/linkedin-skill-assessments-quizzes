@@ -908,6 +908,17 @@ font-weight: bold;
 - [x] It should be the last one on the list.
 - [ ] It should be the second one on the list.
 
+Note: a variant of the question below.
+
+#### Q109. When using a font stack to declare the font family, in what order should the values appear?
+
+- [x] The first value is the first choice, followed by alternative options, ordered by preference. The last option should be a generic font.
+- [ ] The first value is the first choice. The order of the alternative options does not matter. It depends on what is available on the user's computer.
+- [ ] The first value is the first choice, and must be followed by at least one alternative option before adding the generic font.
+- [ ] The first value is the first choice, followed by a maximum of three alternatives.
+
+Note: a variant of the question above.
+
 #### Q76. What is one disadvantage of using a web font service?
 
 - [ ] It requires you to host font files on your own server.
@@ -1523,13 +1534,6 @@ glyphicon-bgcircle {
   font-size: 24px;
 }
 ```
-
-#### Q109. When using a font stack to declare the font family, in what order should the values appear?
-
-- [x] The first value is the first choice, followed by alternative options, ordered by preference. The last option should be a generic font.
-- [ ] The first value is the first choice. The order of the alternative options does not matter. It depends on what is available on the user's computer.
-- [ ] The first value is the first choice, and must be followed by at least one alternative option before adding the generic font.
-- [ ] The first value is the first choice, followed by a maximum of three alternatives.
 
 #### Q110. Which items are valid values for the font-size property?
 
