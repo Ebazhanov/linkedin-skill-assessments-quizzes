@@ -211,7 +211,10 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 ```html
 <p>
-  On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html">One small step for man, one giant leap for mankind.</q>
+  On <time datetime="1969-07-21">July 21, 1969</time>, Neil Armstrong said,
+  <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
+    >One small step for man, one giant leap for mankind.</q
+  >
 </p>
 ```
 
@@ -219,7 +222,10 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 ```html
 <p>
-  On July 21, 1969, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html">"One small step for man, one giant leap for mankind."</q>
+  On July 21, 1969, Neil Armstrong said,
+  <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
+    >"One small step for man, one giant leap for mankind."</q
+  >
 </p>
 ```
 
@@ -227,7 +233,8 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 ```html
 <p>
-  On July 21, 1969, Neil Armstrong said, <q>"One small step for man, one giant leap for mankind."</q>
+  On July 21, 1969, Neil Armstrong said,
+  <q>"One small step for man, one giant leap for mankind."</q>
 </p>
 ```
 
@@ -235,7 +242,10 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 
 ```html
 <p>
-  On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said, <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html">One small step for man, one giant leap for mankind.</q>
+  On <time datetime="07-21-1969">July 21, 1969</time>, Neil Armstrong said,
+  <q cite="https://www.hq.nasa.gov/alsj/a11l/a11.html"
+    >One small step for man, one giant leap for mankind.</q
+  >
 </p>
 ```
 
@@ -266,7 +276,6 @@ On July 21, 1969, Neil Armstrong said, "One small step for man, one giant leap f
 ```html
 <label for="example">Make a choice:</label>
 <datalist id="example">
-
   <option value="Choice 1"></option>
   <option value="Choice 2"></option>
   <option value="Choice 3"></option>
@@ -564,13 +573,15 @@ This is a confusing question and there can be an arguments for both the second a
 
 ```html
 <ul>
-  <li>Office Supplies
+  <li>
+    Office Supplies
     <ul>
       <li>Stapler</li>
       <li>Paper clips</li>
     </ul>
   </li>
-  <li>Groceries
+  <li>
+    Groceries
     <ul>
       <li>Milk</li>
     </ul>
@@ -910,65 +921,81 @@ The html element represents the root of a document.
 #### Q57. Review the code below. How do you include subnavigation for Link 2 that includes a link?
 
 ```html
-<nav><ul>
-  <li><a href="#">Link 1</a></li>
-  <li><a href="#">Link 2</a></li>
-  <li><a href="#">Link 3</a></li>
-</ul></nav>
+<nav>
+  <ul>
+    <li><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a></li>
+    <li><a href="#">Link 3</a></li>
+  </ul>
+</nav>
 ```
 
 - [ ] A
 
 ```html
-<nav><ul>
-  <li><a href="#">Link 1</a></li>
-  <li><a href="#">Link 2</a></li>
+<nav>
+  <ul>
+    <li><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a></li>
     <ul>
       <li><a href="#">Link 2a</a></li>
     </ul>
-  <li><a href="#">Link 3</a></li>
-</ul></nav>
+    <li><a href="#">Link 3</a></li>
+  </ul>
+</nav>
 ```
 
 - [x] B
 
 ```html
-<nav><ul>
-  <li><a href="#">Link 1</a></li>
-  <li><a href="#">Link 2</a>
-    <ul>
-      <li><a href="#">Link 2a</a></li>
-    </ul>
-  </li>
-  <li><a href="#">Link 3</a></li>
-</ul></nav>
+<nav>
+  <ul>
+    <li><a href="#">Link 1</a></li>
+    <li>
+      <a href="#">Link 2</a>
+      <ul>
+        <li><a href="#">Link 2a</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Link 3</a></li>
+  </ul>
+</nav>
 ```
 
 - [ ] C
 
 ```html
-<ul><nav>
-  <li><a href="#">Link 1</a></li>
-  <li><a href="#">Link 2</a>
-    <ul><nav>
-      <li><a href="#">Link 2a</a></li>
-    </nav></ul>
-  </li>
-  <li><a href="#">Link 3</a></li>
-</nav></ul>
+<ul>
+  <nav>
+    <li><a href="#">Link 1</a></li>
+    <li>
+      <a href="#">Link 2</a>
+      <ul>
+        <nav>
+          <li><a href="#">Link 2a</a></li>
+        </nav>
+      </ul>
+    </li>
+    <li><a href="#">Link 3</a></li>
+  </nav>
+</ul>
 ```
 
 - [ ] D
 
 ```html
-<nav><ul>
-  <li><a href="#">Link 1</a></li>
-  <li><a href="#">Link 2</a></li>
-  <nav><ul>
-    <li><a href="#">Link 2a</a></li>
-  </ul></nav>
-  <li><a href="#">Link 3</a></li>
-</ul></nav>
+<nav>
+  <ul>
+    <li><a href="#">Link 1</a></li>
+    <li><a href="#">Link 2</a></li>
+    <nav>
+      <ul>
+        <li><a href="#">Link 2a</a></li>
+      </ul>
+    </nav>
+    <li><a href="#">Link 3</a></li>
+  </ul>
+</nav>
 ```
 
 #### Q58. What is the correct way to code a comment in HTML?
@@ -1068,19 +1095,27 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 - [ ] A
 
 ```html
-<caption>A table</caption>
-  <table>
-    <td>
-      <tr>Cell 1</tr>
-      <tr>Cell 2</tr>
-    </td>
-  </table>
+<caption>
+  A table
+</caption>
+<table>
+  <td>
+    <tr>
+      Cell 1
+    </tr>
+    <tr>
+      Cell 2
+    </tr>
+  </td>
+</table>
 ```
 
 - [ ] B
 
 ```html
-<caption>A table</caption>
+<caption>
+  A table
+</caption>
 <table>
   <tr>
     <td>Cell 1</td>
@@ -1093,7 +1128,9 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 
 ```html
 <table>
-  <caption>A table</caption>
+  <caption>
+    A table
+  </caption>
   <tr>
     <td>Cell 1</td>
     <td>Cell 2</td>
@@ -1109,7 +1146,9 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
     <td>Cell 1</td>
     <td>Cell 2</td>
   </tr>
-  <caption>A table</caption>
+  <caption>
+    A table
+  </caption>
 </table>
 ```
 
@@ -1136,17 +1175,17 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 - [ ] A
 
 ```html
-<area>
-<embed>
-<strong>
+<area />
+<embed />
+<strong></strong>
 ```
 
 - [ ] B
 
 ```html
-<input>
-<br>
-<p>
+<input />
+<br />
+<p></p>
 ```
 
 - [ ] C
@@ -1160,9 +1199,9 @@ References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Eleme
 - [x] D
 
 ```html
-<wbr>
-<base>
-<source>
+<wbr />
+<base />
+<source />
 ```
 
 #### Q71. Which snippet of HTML, when clicked, makes a phone call on a mobile device?
@@ -1231,25 +1270,25 @@ As Steve Krug once said, happy talk must die.
 - [ ] C
 
 ```html
- <nav>
-    <ol>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-     </ol>
-  </nav>
+<nav>
+  <ol>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ol>
+</nav>
 ```
 
 - [x] D
 
 ```html
- <nav>
-   <ul>
-     <li><a href="index.html">Home</a></li>
-     <li><a href="about.html">About</a></li>
-     <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
 ```
 
 #### Q76. Which choice is the best way to mark up this layout?
@@ -1261,8 +1300,8 @@ As Steve Krug once said, happy talk must die.
 ```html
 <h4>Mailing Address</h4>
 <address>
-  6410 Via Real <br>
-  Carpinteria, CA 93013<br>
+  6410 Via Real <br />
+  Carpinteria, CA 93013<br />
   <a href="mailto:info@linkedin.com">info@linkedin.com</a>
 </address>
 ```
@@ -1282,22 +1321,26 @@ As Steve Krug once said, happy talk must die.
 
 ```html
 <h4>Mailing Address</h4>
-<p><em>
-  6410 Via Real <br>
-  Carpinteria, CA 93013<br>
-  <a href="mailto:info@linkedin.com">info@linkedin.com</a>
-</em></p>
+<p>
+  <em>
+    6410 Via Real <br />
+    Carpinteria, CA 93013<br />
+    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+  </em>
+</p>
 ```
 
 - [ ] D
 
 ```html
 <p><strong>Mailing Address</strong></p>
-<p><em>
-  6410 Via Real <br>
-  Carpinteria, CA 93013<br>
-  <a href="mailto:info@linkedin.com">info@linkedin.com</a>
-</em></p>
+<p>
+  <em>
+    6410 Via Real <br />
+    Carpinteria, CA 93013<br />
+    <a href="mailto:info@linkedin.com">info@linkedin.com</a>
+  </em>
+</p>
 ```
 
 [Source: W3Schools](https://www.w3schools.com/tags/tag_address.asp)
@@ -1329,7 +1372,9 @@ As Steve Krug once said, happy talk must die.
 ```html
 <details>
   <h4>Mixed Berry Tart.</h4>
-  <p>Raspberries, blueberries, and strawberries on top of a creamy filling served in a crispy tart.</p>
+  <p>
+    Raspberries, blueberries, and strawberries on top of a creamy filling served in a crispy tart.
+  </p>
 </details>
 ```
 
@@ -1374,33 +1419,25 @@ As Steve Krug once said, happy talk must die.
 - [ ] A
 
 ```html
-<button submit="http://example.com/process">
-  Process data
-</button>
+<button submit="http://example.com/process">Process data</button>
 ```
 
 - [ ] B
 
 ```html
-<button action="http://example.com/process">
-  Process data
-</button>
+<button action="http://example.com/process">Process data</button>
 ```
 
 - [x] C
 
 ```html
-<button formaction="http://example.com/process">
-  Process data
-</button>
+<button formaction="http://example.com/process">Process data</button>
 ```
 
 - [ ] D
 
 ```html
-<button method="http://example.com/process">
-  Process data
-</button>
+<button method="http://example.com/process">Process data</button>
 ```
 
 `formaction — The URL that processes the information submitted by the button. Overrides the action attribute of the button's form owner. Does nothing if there is no form owner.` [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button#attr-formaction)
@@ -1421,8 +1458,7 @@ As Steve Krug once said, happy talk must die.
 #### Q85. What is wrong with this code snippet?
 
 ```html
-<label>Address:</label>
-<input type="text" name="address" id="address-input" />
+<label>Address:</label> <input type="text" name="address" id="address-input" />
 ```
 
 - [ ] The `<label>` and `<input>` should be nested inside of a `<fieldset>` element.
@@ -1464,8 +1500,9 @@ As Steve Krug once said, happy talk must die.
 
 ```html
 <li>
-<input>
-<option>
+  <input />
+  <option></option>
+</li>
 ```
 
 - [ ] B
@@ -1480,16 +1517,15 @@ As Steve Krug once said, happy talk must die.
 
 ```html
 <button>
-<input>
-<form>
+  <input />
+  <form></form>
+</button>
 ```
 
 - [ ] D
 
 ```html
-<input>
-<label>
-<meter>
+<input /> <label> <meter></meter></label>
 ```
 
 #### Q91. What is wrong with this code?
@@ -1517,33 +1553,33 @@ As Steve Krug once said, happy talk must die.
 - [ ] :
 
 ```html
-<input type="radio" name="example"> Choice 1 <br/>
-<input type="radio" name="example"> Choice 2 <br/>
-<input type="radio" name="example"> Choice 3
+<input type="radio" name="example" /> Choice 1 <br />
+<input type="radio" name="example" /> Choice 2 <br />
+<input type="radio" name="example" /> Choice 3
 ```
 
 - [x] :
 
 ```html
-<input type="checkbox" name="example"> Choice 1 <br/>
-<input type="checkbox" name="example"> Choice 2 <br/>
-<input type="checkbox" name="example"> Choice 3
+<input type="checkbox" name="example" /> Choice 1 <br />
+<input type="checkbox" name="example" /> Choice 2 <br />
+<input type="checkbox" name="example" /> Choice 3
 ```
 
 - [ ] :
 
 ```html
-<label><input type="checkbox" name="example"> Choice 1</label><br/>
-<label><input type="checkbox" name="example"> Choice 2</label><br/>
-<label><input type="checkbox" name="example"> Choice 3</label>
+<label><input type="checkbox" name="example" /> Choice 1</label><br />
+<label><input type="checkbox" name="example" /> Choice 2</label><br />
+<label><input type="checkbox" name="example" /> Choice 3</label>
 ```
 
 - [ ] :
 
 ```html
-<label><input type="radio" name="example"> Choice 1</label><br/>
-<label><input type="radio" name="example"> Choice 2</label><br/>
-<label><input type="radio" name="example"> Choice 3</label>
+<label><input type="radio" name="example" /> Choice 1</label><br />
+<label><input type="radio" name="example" /> Choice 2</label><br />
+<label><input type="radio" name="example" /> Choice 3</label>
 ```
 
 `<input> elements of type checkbox are rendered by default as boxes that are checked (ticked) when activated, like you might see in an official government paper form. The exact appearance depends upon the operating system configuration under which the browser is running. Generally this is a square but it may have rounded corners.`
@@ -1593,8 +1629,8 @@ As Steve Krug once said, happy talk must die.
 ```html
 <aside>
   <h3>Comments</h3>
-  <article> First comment.</article>
-  <article> Second comment.</article>
+  <article>First comment.</article>
+  <article>Second comment.</article>
 </aside>
 ```
 
@@ -1603,8 +1639,8 @@ As Steve Krug once said, happy talk must die.
 ```html
 <div aria="dpub-comments">
   <h3>Comments</h3>
-  <div aria="dpub-comment"> First comment.</div>
-  <div aria="dpub-comment"> Second comment.</div>
+  <div aria="dpub-comment">First comment.</div>
+  <div aria="dpub-comment">Second comment.</div>
 </div>
 ```
 
@@ -1613,8 +1649,8 @@ As Steve Krug once said, happy talk must die.
 ```html
 <aside>
   <h3>Comments</h3>
-  <aside> First comment.</aside>
-  <aside> Second comment.</aside>
+  <aside>First comment.</aside>
+  <aside>Second comment.</aside>
 </aside>
 ```
 
@@ -1623,8 +1659,8 @@ As Steve Krug once said, happy talk must die.
 ```html
 <div typeof="comments">
   <h3>Comments</h3>
-  <div typeof="comment"> First comment.</div>
-  <div typeof="comment"> Second comment.</div>
+  <div typeof="comment">First comment.</div>
+  <div typeof="comment">Second comment.</div>
 </div>
 ```
 
@@ -1685,7 +1721,7 @@ As Steve Krug once said, happy talk must die.
 <dl>
   <dt>Server</dt>
   <dd>Software used to serve webpages, like Apache.</dd>
-  <dd> Hardware used to provide data to other computers.</dd>
+  <dd>Hardware used to provide data to other computers.</dd>
   <!-- Other terms and descriptions -->
 </dl>
 ```
@@ -1707,7 +1743,7 @@ As Steve Krug once said, happy talk must die.
 <dl>
   <dt>Server</dt>
   <dd>Software used to serve webpages, like Apache.</dd>
-  <dt> Hardware used to provide data to other computers.</dt>
+  <dt>Hardware used to provide data to other computers.</dt>
   <!-- Other terms and descriptions -->
 </dl>
 ```
@@ -1718,7 +1754,7 @@ As Steve Krug once said, happy talk must die.
 <dl>
   <dd>Server</dd>
   <dt>Software used to serve webpages, like Apache.</dt>
-  <dt> Hardware used to provide data to other computers.</dt>
+  <dt>Hardware used to provide data to other computers.</dt>
   <!-- Other terms and descriptions -->
 </dl>
 ```
@@ -1758,7 +1794,9 @@ As Steve Krug once said, happy talk must die.
 
 ```html
 <table>
-  <thead scope="row"><th row="1">Header</th></thead>
+  <thead scope="row">
+    <th row="1">Header</th>
+  </thead>
   <tr>
     <td>10</td>
     <td>18</td>
@@ -1771,7 +1809,7 @@ As Steve Krug once said, happy talk must die.
 ```html
 <table>
   <tr>
-  <th scope="row">Header</th>
+    <th scope="row">Header</th>
     <td>10</td>
     <td>18</td>
   </tr>
@@ -1783,7 +1821,9 @@ As Steve Krug once said, happy talk must die.
 ```html
 <table>
   <tr>
-    <thead scope="row">Header</thead>
+    <thead scope="row">
+      Header
+    </thead>
     <td>10</td>
     <td>18</td>
   </tr>

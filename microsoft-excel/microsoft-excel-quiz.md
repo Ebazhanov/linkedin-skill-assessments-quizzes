@@ -1041,7 +1041,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] `=CHOOSE(A2)`
 - [ ] `=TRIM(A2)`
 
-##### Q114. What is the output of the formula =(8+2*3)/7?
+##### Q114. What is the output of the formula `=(8+2*3)/7?`
 
 - [ ] 13
 - [x] 7

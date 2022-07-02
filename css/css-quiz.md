@@ -1933,23 +1933,21 @@ p + section {
 ```
 
 - [ ] `:visited` styles are applied after the link has been opened.
-	`:active` styles are applied on mouse click and hold.
-	`:hover` styles are applied on mouse over or mouse click and hold.
-	`:focus` styles are applied when a Tab key on a keyboard is used to navigate through links.
-	
+      `:active` styles are applied on mouse click and hold.
+      `:hover` styles are applied on mouse over or mouse click and hold.
+      `:focus` styles are applied when a Tab key on a keyboard is used to navigate through links.
 - [ ] `:visited` styles are applied after the link has been opened.
-	`:active` styles are applied on mouse click.
-	`:hover` styles are applied on mouse over.
-	`:focus` styles are applied on mouse click and hold, or when a Tab key on a keyboard is used to navigate through links.
+      `:active` styles are applied on mouse click.
+      `:hover` styles are applied on mouse over.
+      `:focus` styles are applied on mouse click and hold, or when a Tab key on a keyboard is used to navigate through links.
 
 - [x] `:visited` styles are applied after the link has been opened.
-	`:active` styles are applied on mouse click only and before mouse release.
-	`:hover` styles are applied on mouse over.
-	`:focus` styles are applied when a Tab key on a keyboard is used to navigate through links.
-	
+      `:active` styles are applied on mouse click only and before mouse release.
+      `:hover` styles are applied on mouse over.
+      `:focus` styles are applied when a Tab key on a keyboard is used to navigate through links.
 - [ ] `:visited` styles are applied on mouse hold.
-	`:active` styles are applied when the link has been opened.
-	`:hover` styles are applied on mouse over.
-	`:focus` styles are applied when a Tab key on a keyboard is used to navigate through links.
+      `:active` styles are applied when the link has been opened.
+      `:hover` styles are applied on mouse over.
+      `:focus` styles are applied when a Tab key on a keyboard is used to navigate through links.
 
 [Reference](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes)
