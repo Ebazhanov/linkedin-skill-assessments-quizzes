@@ -343,12 +343,12 @@
 - [ ] show access
 - [ ] show user permissions
 
-#### Q38. What table cannot have a trigger associated with it?
+#### Q38. What cannot have a trigger associated with it?
 
-- [ ] temporary
-- [x] system
-- [ ] large
-- [ ] new
+- [ ] temporary table
+- [x] system table
+- [ ] large table
+- [ ] new table
 
 #### Q39. later versions of mysql support the native json data type for storing json documents. What is a drawback of json columns?
 
