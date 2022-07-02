@@ -985,7 +985,7 @@ Table name: superheroes
 - [ ] ALTER Item SET endOfLife = true WHERE makeYear < 2019
 - [x] UPDATE Item SET endOfLife = true WHERE makeYear < 2019
 
-#### Q101. Which choice is an example of an aggregate function?Which choice is an example of an aggregate function?
+#### Q102. Which choice is an example of an aggregate function?Which choice is an example of an aggregate function?
 
 - [ ] NOW()
 - [ ] MID()
@@ -994,7 +994,7 @@ Table name: superheroes
 
 [Reference](https://www.sqltutorial.org/sql-aggregate-functions/)
 
-#### Q102. You are working on UPDATE trigger on the employee tablein this diagram. How can you access the new value for the address inside the trigger?
+#### Q103. You are working on UPDATE trigger on the employee tablein this diagram. How can you access the new value for the address inside the trigger?
 
 ![mysql picture](images/mysql_q103.png?raw=true)
 
