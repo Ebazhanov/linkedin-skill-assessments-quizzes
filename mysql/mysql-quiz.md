@@ -981,7 +981,7 @@ Table name: superheroes
 - [ ] UPSERT Item SET endOfLife = true WHERE makeYear < 2019
 - [ ] CHANGE Item SET endOfLife = true WHERE makeYear < 2019
 - [ ] ALTER Item SET endOfLife = true WHERE makeYear < 2019
-- [ ] UPDATE Item SET endOfLife = true WHERE makeYear < 2019
+- [x] UPDATE Item SET endOfLife = true WHERE makeYear < 2019
 
 #### Q102. Which choice is an example of an aggregate function?Which choice is an example of an aggregate function?
 
