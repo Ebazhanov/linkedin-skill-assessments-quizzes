@@ -656,3 +656,10 @@ public class Honda extends Car{}
 - [ ] dependency inversion, open/closed principle, encapsulation, and inheritance
 - [ ] interface segregation, abstraction, dependency inversion, and inheritance
 - [x] abstraction, encapsulation, inheritance, and polymorphism
+
+#### Q87. From the SOLID principles of object-oriented programming, which statement best describes the Liskov substitution principle?
+
+- [ ] A class should have only a single responsibility—that is, only changes to one part of the software's specification should be able to affect the specification of the class.
+- [ ] Software entities should be open for extension, but closed for modification.
+- [ ] Many client-specific interfaces are better than one general-purpose interface.
+- [x] objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
