@@ -533,3 +533,10 @@ Reference: [Compilation by the JIT compiler](https://docs.microsoft.com/en-us/do
 - [ ] It cannot be static.
 - [ ] Only at declaration can it be initialized.
 - [ ] At compile time, the value is evaluated.
+
+#### Q71. What is the difference between managed and unmanaged code?
+
+- [x] Managed code is code that is handled by the common language runtime (CLR). Unmanaged code is any code that does not depend on CLR for execution.
+- [ ] Managed code is any code that does not depend on the common language runtime (CLR) for execution. Unmanaged code is code that is handled by the CLR.
+- [ ] Managed code is code that is handled by Microsoft Intermediate Language (MSIL). Unmanaged code is any code that does not depend on MSIL for execution.
+- [ ] Managed code is any code that does not depend on Microsoft Intermediate Language (MSIL) for execution. Unmanaged code is code that is handled by MSIL.
