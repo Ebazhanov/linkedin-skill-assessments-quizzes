@@ -346,7 +346,7 @@ int get_length(char *str) {
 - [ ] The first is the iterating variable, the second is the container in which it should operate, and the third is an exit condition to abort at any time.
 - [ ] The first is the iterating variable name, the second is the starting value for the iterating variable, and the third is the stop value (the last value plus one).
 
-#### Q23. What is printed from this code?
+#### Q23. What does this code print?
 
 ```cpp
 int i = 0;
@@ -1111,7 +1111,7 @@ std::mutex::try_lock()
 #### Q63. What is one benefit of declaring the parameter as a `const` reference instead of declaring it as a regular object?
 
 ```cpp
-int median(const my_array& a)
+int calculateMedian(const my_array& a)
 ```
 
 - [ ] Actually, objects cannot be passed as regular variables, because they require a constructor call. Therefore, a `const` reference is the only way to pass class instances to functions.
