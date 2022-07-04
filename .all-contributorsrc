@@ -9571,6 +9571,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "forem1",
+      "name": "Andrey Dryupin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15253861?v=4",
+      "profile": "https://vk.com/forem",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
