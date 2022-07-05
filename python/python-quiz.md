@@ -1835,3 +1835,14 @@ print ("foo" if (256).bit_length() > 8 else "bar")
 - [x] Use a package manager like pip or conda.
 - [ ] Use an IDE like Notepad++ or Idle.
 - [ ] Use a package manager like NPM or NuGet.
+
+#### Q138. The image below was created using Matplotlib. It is a distribution plot of a list of integers filled with numbers using the function **\_** and plotted with **\_**.
+
+![Q132](images/Q138.png)
+
+- [ ] `random.uniform(0,50);plt.hist`
+- [x] `random.gauss(50,20);plt.hist`
+- [ ] `random();plt.scatter`
+- [ ] `random.triangular(0,50);plt.bar`
+
+[Reference](https://www.geeksforgeeks.org/random-gauss-function-in-python/)

@@ -959,7 +959,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 - [ ] Filter the relevant column, right-click the column head, and select **Remove Duplicates**.
 - [ ] This is possible only with Power Query.
-- [x] With your cursors in the data range, on **Data** tab click **Remove Duplicates**.
+- [x] With the data selected, on the **Data** tab click **Remove Duplicates**.
 - [ ] This is possible only using formulas.
 
 [Reference](https://support.microsoft.com/en-us/office/filter-for-unique-values-or-remove-duplicate-values-ccf664b0-81d6-449b-bbe1-8daaec1e83c2)
@@ -1040,3 +1040,19 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] `=CLEAN(TRIM(A2))`
 - [ ] `=CHOOSE(A2)`
 - [ ] `=TRIM(A2)`
+
+##### Q114. What is the output of the formula `=(8+2*3)/7?`
+
+- [ ] 13
+- [x] 7
+- [ ] 11
+- [ ] 15
+
+#### Q115. The amount of sales tax on each sale is calculated as the selling price times the quantity sold times the sales tax rate. What formula would you use in celle E4 to then be able ro copy that cell to the rest of the column?
+
+(missing screenshot)
+
+- [x] =C4*D4*$B$1
+- [ ] =(C4*D4)*B1
+- [ ] =C4*D4*B1
+- [ ] =C4*D4(*B1)

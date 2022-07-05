@@ -606,3 +606,12 @@ console.log(person);
 - [ ] request
 
 [Reference](https://nodejs.org/api/documentation.html)
+
+#### Q74. Which DNS module method uses the underlying OS facilities and does not necessarily perform any network communication?
+
+- [ ] resolve
+- [ ] reverse
+- [x] lookup
+- [ ] resolve4
+
+[Reference](https://nodejs.org/api/dns.html#dnslookuphostname-options-callback)

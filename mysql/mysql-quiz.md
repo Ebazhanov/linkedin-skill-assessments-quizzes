@@ -345,12 +345,12 @@
 - [ ] show access
 - [ ] show user permissions
 
-#### Q38. What table cannot have a trigger associated with it?
+#### Q38. What cannot have a trigger associated with it?
 
-- [ ] temporary
-- [x] system
-- [ ] large
-- [ ] new
+- [ ] temporary table
+- [x] system table
+- [ ] large table
+- [ ] new table
 
 #### Q39. later versions of mysql support the native json data type for storing json documents. What is a drawback of json columns?
 
@@ -980,18 +980,18 @@ Table name: superheroes
 - [ ] 1 CREATE VIEW v1 AS 2 SELECT \* FROM t1;
 - [ ] 1 CREATE VIEW v1 AS 2 BEGIN 3 SELECT \* FROM t1 4 END;
 
-#### Q101. A table Item has a Boolean field endOfLife and a field makeYear of type YEAR(4). How can you set the Boolean to true for all Items that have been made before 2019?A table Item has a Boolean field endOfLife and a field makeYear of type YEAR(4). How can you set the Boolean to true for all Items that have been made before 2019?
+#### Q101. A table Item has a Boolean field endOfLife and a field makeYear of type YEAR(4). How can you set the Boolean to true for all Items that have been made before 2019?
 
-- [ ] UPSERT Item SET endOfLife = true WHERE makeYear < 2019UPSERT Item SET endOfLife = true WHERE makeYear < 2019
-- [ ] CHANGE Item SET endOfLife = true WHERE makeYear < 2019CHANGE Item SET endOfLife = true WHERE makeYear < 2019
-- [ ] ALTER Item SET endOfLife = true WHERE makeYear < 2019ALTER Item SET endOfLife = true WHERE makeYear < 2019
-- [ ] UPDATE Item SET endOfLife = true WHERE makeYear < 2019
+- [ ] UPSERT Item SET endOfLife = true WHERE makeYear < 2019
+- [ ] CHANGE Item SET endOfLife = true WHERE makeYear < 2019
+- [ ] ALTER Item SET endOfLife = true WHERE makeYear < 2019
+- [x] UPDATE Item SET endOfLife = true WHERE makeYear < 2019
 
 #### Q102. Which choice is an example of an aggregate function?Which choice is an example of an aggregate function?
 
-- [ ] NOW()NOW()
-- [ ] MID()MID()
-- [ ] FORMAT()FORMAT()
+- [ ] NOW()
+- [ ] MID()
+- [ ] FORMAT()
 - [x] COUNT()
 
 [Reference](https://www.sqltutorial.org/sql-aggregate-functions/)
