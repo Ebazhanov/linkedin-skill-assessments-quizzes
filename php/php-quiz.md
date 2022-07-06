@@ -1088,7 +1088,7 @@ if( isset($user_info['url']) ) {
 ```
 
 - [ ] It directs all users to the same page when they log in.
-- [ ] It is a login script for a user portal on a website.
+- [x] It is a login script for a user portal on a website.
 - [ ] It keeps the user logged in across different browsers.
 - [ ] It sends the user to an error page if they enter the wrong URL
 
