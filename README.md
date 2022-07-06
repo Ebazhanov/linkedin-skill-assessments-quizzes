@@ -13,7 +13,7 @@ have a great understanding about.
 
 #### Announcement 🎉:
 
-1. If you want to meet each other or discuss quiz related problems join the `Discord` chat
+1. If you want to meet each other or discuss quiz related problems or maybe ask for skills endorsement just join the `Discord` chat
 
 [![Join our Discord server!](https://invidget.switchblade.xyz/NKCyjjw3MW?theme=light)](https://discord.gg/NKCyjjw3MW)
 
