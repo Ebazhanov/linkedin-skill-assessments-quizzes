@@ -109,18 +109,6 @@ main(){
 - [ ] type conversion
 - [ ] invalid declaration
 
-#### Q5. A pointer to void named vptr, has been set to point to a floating point variable named g. What is the valid way to dereference vptr to assign its pointed value to a float variable named f later in this program?
-
-```c
-float g;
-void *vptr=&g;
-```
-
-- [ ] f = _(float _)vptr;
-- [ ] f = (float \*)vptr;
-- [x] f = \*(float \*)vptr;
-- [ ] f = \*(float)vptr;
-
 #### Q6. What is this declaration an example of?
 
 ```c
@@ -847,10 +835,10 @@ float g;
 void *vptr=&g;
 ```
 
-- [ ] f=(float \*)vptr;
-- [x] f=\*(float \*)vptr;
-- [ ] f=\*(float)vptr;
-- [ ] f=(float)\*vptr;
+- [ ] `f=(float *)vptr;`
+- [x] `f=*(float *)vptr;`
+- [ ] `f=*(float)vptr;`
+- [ ] `f=(float)*vptr;`
 
 #### Q56. The dynamic memory allocation functions are defined in which system header file ?
 
