@@ -512,7 +512,7 @@ main(){
  while(x++<100){
     x*=x;
     if(x<10) continue;
-    if(x>50) break
+    if(x>50) break;
  }
 }
 ```
