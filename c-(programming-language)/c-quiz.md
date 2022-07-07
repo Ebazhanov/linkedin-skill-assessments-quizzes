@@ -611,7 +611,7 @@ main(){
 
 - [ ] An lvalue may appear only on the left-hand side of an assignment; an rvalue may appear only on the right-hand side.
 - [ ] An lvalue may appear only on the left-hand side of an assignment; an rvalue may appear on either the left-hand or right-hand side.
-- [ ] An lvaue and an rvalue may appear on either left-hand or right-hand side of an assignment.
+- [ ] An lvalue and an rvalue may appear on either left-hand or right-hand side of an assignment.
 - [x] An lvalue may appear on the left-hand or right-hand side of an assignment; an rvalue may appear only on the right-hand side.
 
 #### Q45. Which operator is used to access the address of a variable?
