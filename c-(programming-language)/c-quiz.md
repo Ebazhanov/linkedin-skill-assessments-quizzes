@@ -552,7 +552,7 @@ main(){
 
 #### Q41. You have written a function that you want to include as a member of structure a. How is such as structure member defiened?
 
-- [x]
+- [x] :
 
 ```c
 struct a {
@@ -560,7 +560,7 @@ struct a {
 };
 ```
 
-- [ ]
+- [ ] :
 
 ```c
 struct a {
@@ -568,7 +568,7 @@ struct a {
 };
 ```
 
-- [ ]
+- [ ] :
 
 ```c
 struct a {
@@ -576,7 +576,7 @@ struct a {
 };
 ```
 
-- [ ]
+- [ ] :
 
 ```c
 struct a {
