@@ -348,7 +348,7 @@ char *string[20] = { "one", "two", "three"};
 
 #### Q26. Which program will compile and run without errors?
 
-- [ ]
+- [ ] :
 
 ```c
 main() {
@@ -356,7 +356,7 @@ main() {
 }
 ```
 
-- [x]
+- [x] :
 
 ```c
 main() {
@@ -365,7 +365,7 @@ int i=0;
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```c
 main() {
@@ -374,7 +374,7 @@ main() {
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```c
 main() {
