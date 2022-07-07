@@ -462,7 +462,7 @@ printf("%d", f1(5));
 
 #### Q35. Which choice is an include guard for the header file mylib.h?
 
-- [ ]
+- [ ] :
 
 ```c
 #ifdef MYLIB_H
@@ -473,7 +473,7 @@ printf("%d", f1(5));
 #endif /* MYLIB_H */
 ```
 
-- [x]
+- [x] :
 
 ```c
 #ifndef MYLIB_H
@@ -484,7 +484,7 @@ printf("%d", f1(5));
 #endif /* MYLIB_H */
 ```
 
-- [ ]
+- [ ] :
 
 ```c
 #define MYLIB_H
@@ -493,7 +493,7 @@ printf("%d", f1(5));
 #undef MYLIB_H
 ```
 
-- [ ]
+- [ ] :
 
 ```c
 #ifdef MYLIB_H
