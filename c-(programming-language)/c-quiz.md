@@ -342,9 +342,9 @@ char *string[20] = { "one", "two", "three"};
 #### Q25. What is the expression player->name equivalent to?
 
 - [ ] `player.name`
-- [x] `(\*player).name`
-- [ ] `\*player.name`
-- [ ] `player.\*name`
+- [x] `(*player).name`
+- [ ] `*player.name`
+- [ ] `player.*name`
 
 #### Q26. Which program will compile and run without errors?
 
