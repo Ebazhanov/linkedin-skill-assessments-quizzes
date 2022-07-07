@@ -1107,3 +1107,12 @@ if( isset($user_info['url']) ) {
 - [ ] Specialized versions of built-in classes can be extended by calling the parent's constructor.
 - [ ] Yes, if a final class is defined as private in parent class.
 - [ ] Yes, a final defined class can be used to declare constants.
+
+#### Q91. How can you test if a checkbox is set?
+
+- [x] Use `!empty($_GET['test'])`
+- [x] Use `isset($_GET['test'])`
+- [ ] Use `$_GET['test'] == ''`
+- [ ] all other answers
+
+** Actualy both are correct, option 3 is actually testing if a checkbox is not set
