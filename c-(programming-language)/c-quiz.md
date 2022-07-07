@@ -64,14 +64,14 @@ main()
 }
 ```
 
-- [x]
+- [x] :
 
 ```
 A is greater then B
 C is fun!
 ```
 
-- [ ]
+- [ ] :
 
 ```
 A is greater then B
@@ -79,7 +79,7 @@ B is greater then A
 C is fun!
 ```
 
-- [ ]
+- [ ] :
 
 ```
 A is greater then B
