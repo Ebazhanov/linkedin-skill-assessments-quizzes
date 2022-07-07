@@ -2,7 +2,7 @@
 
 #### Q1. Which Code sample will eventually cause the computer to run out of memory?
 
-- [x]
+- [x] :
 
 ```c
 while(1)
@@ -11,7 +11,7 @@ while(1)
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```c
 long long number = 1;
@@ -19,7 +19,7 @@ long long number = 1;
     number *= 2;
 ```
 
-- [ ]
+- [ ] :
 
 ```c
 while(1)
@@ -29,7 +29,7 @@ while(1)
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```c
 while(1)
