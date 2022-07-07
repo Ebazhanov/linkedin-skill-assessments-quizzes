@@ -145,7 +145,7 @@ struct s {
 
 #### Q8. Using a for loop, how could you write a C code to count down from 10 to 1 and display each number on its own line?
 
-- [ ]
+- [ ] :
 
 ```c
 for (int i = 0; i>=0, i--){
@@ -153,7 +153,7 @@ for (int i = 0; i>=0, i--){
 }//end of loop
 ```
 
-- [ ]
+- [ ] :
 
 ```c
 int i;
@@ -162,7 +162,7 @@ for (i=1; i<=10; i++){
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```c
 int i = 10;
@@ -172,7 +172,7 @@ while (i>0){
 }
 ```
 
-- [x]
+- [x] :
 
 ```c
 int i;
