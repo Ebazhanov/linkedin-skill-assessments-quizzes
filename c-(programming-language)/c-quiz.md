@@ -623,7 +623,7 @@ main(){
 
 #### Q46. Which add function properly returns the updated value of result?
 
-- [x]
+- [x] :
 
 ```c
 void add (int a, int b, int *result)
@@ -641,7 +641,7 @@ main()
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```c
 void add (int a, int b, int result)
@@ -659,7 +659,7 @@ main()
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```c
 void add (int a, int b, int *result)
@@ -677,7 +677,7 @@ main()
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```c
 void add (int *a, int *b, int *result)
