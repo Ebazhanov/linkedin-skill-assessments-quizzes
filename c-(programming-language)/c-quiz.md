@@ -697,7 +697,7 @@ main()
 
 #### Q47. Consider the number of the Fibonacci series below 100: 0,1,1,2,3,5,8,13,21,34,55,89. Which piece of code outputs the sequence?
 
-- [ ]
+- [ ] :
 
 ```c
 void fibonacci(int a, int b)
@@ -718,7 +718,7 @@ int main()
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```c
 void fibonacci(int a, int b)
@@ -739,7 +739,7 @@ int main()
 }
 ```
 
-- [x]
+- [x] :
 
 ```c
 void fibonacci(int a, int b)
@@ -760,7 +760,7 @@ int main()
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```c
 void fibonacci(int a, int b)
