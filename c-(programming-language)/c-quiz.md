@@ -863,7 +863,7 @@ void *vptr=&g;
 
 #### Q59. Which code example creates the string "Hello Mars" in storage buffer `hello`.
 
-- [ ]
+- [ ] :
 
 ```c
     char hello[25];
@@ -871,7 +871,7 @@ void *vptr=&g;
     strcpy(hello, "Mars");
 ```
 
-- [x]
+- [x] :
 
 ```c
     char hello[25];
@@ -882,7 +882,7 @@ void *vptr=&g;
     strcpy(p, "Mars");
 ```
 
-- [ ]
+- [ ] :
 
 ```c
     char *hello;
@@ -891,7 +891,7 @@ void *vptr=&g;
     strcpy(hello, "Mars");
 ```
 
-- [ ]
+- [ ] :
 
 ```c
     char hello[25];
