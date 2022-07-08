@@ -1841,3 +1841,11 @@ As Steve Krug once said, happy talk must die.
   </tr>
 </table>
 ```
+#### Q107. Which statement is correct?
+
+- [ ] The `<main>` element represents the dominant content of an `<article>` in a document.
+- [ ] The `<main>` element represents the dominant content of a `<section>` of a document. You may have one `<main>` element per section.
+- [x] The `<main>` element represents the dominant content of your document. There can be only one `<main>` element that is not hidden.
+- [ ] The `<article>` element represents the dominant content of your document. There can be only one `<article>` element that is not hidden.
+
+[Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main)
