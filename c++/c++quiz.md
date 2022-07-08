@@ -16,7 +16,7 @@ printf("%d", !b);
 #### Q2. Which of the following is a reason why using this line is considered a bad practice? (_Alternative_: Why is using this line considered a bad practice?)
 
 ```cpp
-Using namespace std;
+using namespace std;
 ```
 
 - [ ] The compiled code is always bigger because of all of the imported symbols.
