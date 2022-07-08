@@ -965,6 +965,19 @@ typedef struct{
 
 [Reference](https://en.cppreference.com/w/cpp/language/bit_field)
 
+#### Q71. What is this expression equivalent to?
+
+```cpp
+A->B
+```
+
+- [ ] `*(A.B)`
+- [ ] `B=A`
+- [x] `(*A).B`
+- [ ] `&A.B`
+
+Note: a simpler variant of the question below.
+
 #### Q56. What is this expression equivalent to?
 
 ```cpp
@@ -975,6 +988,8 @@ A->B->C->D
 - [ ] `*A.*B.*C.*D`
 - [ ] `&A.&B.&C.&D`
 - [x] `*(*((*A).B).C).D`
+
+Note: a more complex variant of the question above.
 
 #### Q57. What does this function do?
 
@@ -1201,17 +1216,6 @@ int main(){
 - [ ] `std::cin` and `std::cout` are invalid. The correct names for the character input and output streams are `cin` and `cout`.
 - [ ] The address of `str` is supposed to be used. That is `&str` instead of `str`.
 - [x] The input operator flow is inverted. it should start from `std::cin` and then flow (>>) into `str`.
-
-#### Q71. What is this expression equivalent to?
-
-```cpp
-A->B
-```
-
-- [ ] `*(A.B)`
-- [ ] `B=A`
-- [x] `(*A).B`
-- [ ] `&A.B`
 
 #### Q72. Which statement is true when declaring the member variable `count` as static?
 
