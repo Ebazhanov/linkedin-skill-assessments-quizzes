@@ -200,10 +200,10 @@
 
 ![image](https://github.com/101br03k/linkedin-skill-assessments-quizzes/blob/patch-4/autodesk-fusion-360/images/001.png)
 
-- [x] two
-- [ ] three
-- [ ] none
-- [ ] one
+- [x] Two
+- [ ] Three
+- [ ] None
+- [ ] One
 
 #### Q29. Which option changes the onscreen appearance of a freeform body to a box, control point, or smooth display?
 
