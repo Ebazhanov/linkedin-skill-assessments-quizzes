@@ -879,7 +879,7 @@ int main(){
 
 [Reference](https://en.cppreference.com/w/cpp/header/fstream)
 
-#### Q49. Which of the following is _not_ a consequence of declaring the member variable count of my_class as static?
+#### Q49. Which of the following is _not_ a consequence of declaring the member variable `count` of my_class as static? / Alt.: Which statement is true when declaring the member variable `count` as static?
 
 ```cpp
 class my_class {
@@ -1216,19 +1216,6 @@ int main(){
 - [ ] `std::cin` and `std::cout` are invalid. The correct names for the character input and output streams are `cin` and `cout`.
 - [ ] The address of `str` is supposed to be used. That is `&str` instead of `str`.
 - [x] The input operator flow is inverted. it should start from `std::cin` and then flow (>>) into `str`.
-
-#### Q72. Which statement is true when declaring the member variable `count` as static?
-
-```cpp
-class my_class{
-    public: static int count;
-};
-```
-
-- [ ] All objects that try to access their count member variable actually refer to the only class-bound static count variable.
-- [ ] The variable is allocated only once, regardless of how many objects are instantiated, because it is bound to the class itself, not its instances.
-- [ ] The variable existd when no objects of the class have been defined, so it can be modified at any point in the source code.
-- [x] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
 
 #### Q73. When placed in a valid execution context, which statement will dynamically allocate memory from the heap for an integer of value 11?
 
