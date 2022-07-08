@@ -66,19 +66,6 @@ v2.push_back(5);
 
 [Reference](https://stackoverflow.com/a/31128162)
 
-#### Q6. What's a benefit of declaring the parameter as a const reference instead of declaring it as a regular object?
-
-```cpp
-int median(const my_array& a);
-```
-
-- [ ] The argument is passed as a reference, so the function receives a copy that can be modified without affecting the original value.
-- [x] The argument is passed as a reference, so if the passed my_array object is large, the program will require less time and memory.
-- [ ] Actually objects can't be passed as regular variables because they require a constructor call. Therefore a const reference is the only way to pass class instances to functions.
-- [ ] There are no benefits because a reference and an object are treated as the same thing.
-
-[Reference](https://stackoverflow.com/a/2627179/10773894)
-
 #### Q7. What's the storage occupied by u1?
 
 ```cpp
@@ -1124,10 +1111,10 @@ int calculateMedian(const my_array& a)
 
 - [ ] Actually, objects cannot be passed as regular variables, because they require a constructor call. Therefore, a `const` reference is the only way to pass class instances to functions.
 - [ ] There are no benefits because a reference and an object are treated as the same thing.
-- [x] The `const` qualifier Forbids the code to modify the argument, so the programmer can rest assured that the source object will remain unchanged.
+- [x] The `const` qualifier forbids the code to modify the argument, so the programmer can rest assured that the source object will remain unchanged. / Alt.: The argument is passed as a reference, so if the passed my_array object is large, the program will require less time and memory.
 - [ ] The argument is passed as a reference, so the Function receives a copy that can be modified without affecting the original variable.
 
-Note: This one is similar to Q6, but focuses on the `const` keyword.
+[Reference](https://stackoverflow.com/a/2627179/10773894)
 
 #### Q64. What is an include guard?
 
