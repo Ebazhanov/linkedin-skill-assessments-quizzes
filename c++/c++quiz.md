@@ -1168,7 +1168,7 @@ int calculateMedian(const my_array& a)
 
 [Reference](https://www.educba.com/c-plus-plus-double/)
 
-#### Q68. Other than shifting bits to the left, what is the << oprator used for ?
+#### Q68. Other than shifting bits to the left, what is the << operator used for ?
 
 - [ ] shifting characters to the left in a string.
 - [x] inserting characters into an output stream like std::cout.
