@@ -972,7 +972,7 @@ typedef struct{
 ```
 
 - [ ] Yes, it causes a compiler error because the colon character is not allowed in struct definitions.
-- [x] and `child_t` is a type defined as a structure with bit fields. It has 4 bits for age and 1 bit for gender in the first byte, and 2 bits for size in the second byte.
+- [x] No, and `child_t` is a type defined as a structure with bit fields. It has 4 bits for age and 1 bit for gender in the first byte, and 2 bits for size in the second byte.
 - [ ] Yes, it causes a compiler error because there is an unnamed field.
 - [ ] Yes, it causes a compiler error because one field is defined as having a size of 0.
 
