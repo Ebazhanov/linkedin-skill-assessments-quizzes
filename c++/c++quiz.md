@@ -268,6 +268,24 @@ else
 - [x] less
 - [ ] There is no output because there is a compiler error.
 
+Note: a variant of the question below.
+
+#### Q51. What is the output of this piece of code?
+
+```cpp
+int8_t a=200;
+uint8_t b=100;
+std::cout<<"a="<<(int)a;
+std::cout<<", b="<<(int)b;
+```
+
+- [x] a=-56, b=100
+- [ ] a=-55, b=100
+- [ ] a=200, b=-156
+- [ ] a=200, b=100
+
+Note: a variant of the question above.
+
 #### Q19. What results from executing this code snippet?
 
 ```cpp
@@ -895,20 +913,6 @@ class my_class {
 - [ ] long float
 - [ ] long double
 - [ ] float
-
-#### Q51. What is the output of this piece of code?
-
-```cpp
-int8_t a=200;
-uint8_t b=100;
-std::cout<<"a="<<(int)a;
-std::cout<<", b="<<(int)b;
-```
-
-- [x] a=-56, b=100
-- [ ] a=-55, b=100
-- [ ] a=200, b=-156
-- [ ] a=200, b=100
 
 #### Q52. What is an appropriate way of removing `my_object` as shown below?
 
