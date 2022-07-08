@@ -1175,9 +1175,9 @@ int calculateMedian(const my_array& a)
 - [ ] comparing floating point numbers as less-than.
 - [ ] assigning a variable to a reference.
 
-#### Q69. Which choice is a reason to specify the type of a pointer instead of using `void *`, which works as a pointer ro any type?
+#### Q69. Which choice is a reason to specify the type of a pointer instead of using `void *`, which works as a pointer to any type?
 
-- [ ] The compiler needs the dara type to make sure that the pointer is not going to be used on illegal non-pointable types such as functions, labels, pointers, and reference.
+- [ ] The compiler needs the data type to make sure that the pointer is not going to be used on illegal non-pointable types such as functions, labels, pointers, and reference.
 - [ ] `void *` does not work for any type. The language does not allow assigning anything other than `void` to a pointer to `void *`.
 - [x] The compiler needs the data type to know how much memory to allocate for the pointer, because different data types require different pointer lengths.
 - [ ] Yes, it causes a compiler error because one field is defined as having a size of 0.
