@@ -1188,7 +1188,7 @@ int calculateMedian(const my_array& a)
 
 ```cpp
 #include <iostream>
-char str[20]'
+char str[20];
 int main(){
     std::cout << "What's your name? ";
     str << std::cin
