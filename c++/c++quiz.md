@@ -1091,12 +1091,7 @@ void std::mutex::lock(){
 }
 ```
 
-#### Q61. What is the purpose of a destructor?
-
-- [x] It allows the programmer to write the necessary code to free the resources acquired by the object prior to deleting the object itself.
-- [ ] It deletes an object. One example of a destructor is the `delete()` function.
-- [ ] It terminates a program. This may be achieved as a regular function call or as an exception.
-- [ ] There are no destructors in C++.
+Note: variant of the question below.
 
 #### Q62. What is the main difference between these two Functions?
 
@@ -1110,7 +1105,16 @@ std::mutex::try_lock()
 - [ ] `lock()` enforces preemption, whereas `try_lock()` suggests preemption.
 - [ ] If the mutex is not available, `try_lock()` returns with a corresponding code, whereas `lock()` snatches the mutex from the thread that currently has it.
 
+Note: variant of the question above.
+
 [Reference](https://en.cppreference.com/w/cpp/thread/mutex/try_lock)
+
+#### Q61. What is the purpose of a destructor?
+
+- [x] It allows the programmer to write the necessary code to free the resources acquired by the object prior to deleting the object itself.
+- [ ] It deletes an object. One example of a destructor is the `delete()` function.
+- [ ] It terminates a program. This may be achieved as a regular function call or as an exception.
+- [ ] There are no destructors in C++.
 
 #### Q63. What is one benefit of declaring the parameter as a `const` reference instead of declaring it as a regular object?
 
