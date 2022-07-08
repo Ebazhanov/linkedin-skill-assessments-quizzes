@@ -66,7 +66,7 @@ v2.push_back(5);
 
 [Reference](https://stackoverflow.com/a/31128162)
 
-#### Q7. What's the storage occupied by u1?
+#### Q6. What's the storage occupied by u1?
 
 ```cpp
 union {
@@ -83,7 +83,7 @@ union {
 
 [Reference](https://en.cppreference.com/w/cpp/language/union)
 
-#### Q8. Which of the following operators is overloadable?
+#### Q7. Which of the following operators is overloadable?
 
 - [ ] `?:`
 - [x] `new`
@@ -92,7 +92,7 @@ union {
 
 [Reference](https://www.tutorialspoint.com/operators-that-cannot-be-overloaded-in-cplusplus)
 
-#### Q9. Which of the following shows the contents of vector pointed by v1 and v2 after running this code?
+#### Q8. Which of the following shows the contents of vector pointed by v1 and v2 after running this code?
 
 ```cpp
 std:: vector<int> *v1 = new std::vector<int>({1,2,3});
@@ -109,7 +109,7 @@ v2->push_back(5);
 
 v1 and v2 point to the same vector.
 
-#### Q10. Which of the following is not a difference between a class and a struct?
+#### Q9. Which of the following is not a difference between a class and a struct?
 
 - [ ] Because structs are part of the C programming language, there are some complexity between C and C++ structs. This is not the case with classes.
 - [ ] Classes may have member functions; structs are private.
@@ -120,7 +120,7 @@ v1 and v2 point to the same vector.
 
 [Reference](https://www.fluentcpp.com/2017/06/13/the-real-difference-between-struct-class/)
 
-#### Q11. Suppose you need to keep a data struct with permission to access some resource based on the days of the week, but you can't use a bool variable for each day. You need to use one bit per day of the week. Which of the following is a correct implementation of a structure with bit fields for this application?
+#### Q10. Suppose you need to keep a data struct with permission to access some resource based on the days of the week, but you can't use a bool variable for each day. You need to use one bit per day of the week. Which of the following is a correct implementation of a structure with bit fields for this application?
 
 - [x] A
 
@@ -167,14 +167,14 @@ typedef struct {
 
 _NOTE_: Correct syntax is that each variable size is 1 bit. `bit` is not a type in C++. [Reference](https://en.cppreference.com/w/cpp/language/bit_field)
 
-#### Q12. What is an lvalue?
+#### Q11. What is an lvalue?
 
 - [ ] It's a constant expression, meaning an expression composed of constants and operations.
 - [x] It's an expression that represents an object with an address.
 - [ ] It's an expression suitable for the left-hand side operand in a binary operation.
 - [ ] It's a location value, meaning a memory address suitable for assigning to a pointer or reference.
 
-#### Q13. What does auto type specifier do in this line of code (since C++11)?
+#### Q12. What does auto type specifier do in this line of code (since C++11)?
 
 ```cpp
 auto x = 4000.22;
@@ -185,7 +185,7 @@ auto x = 4000.22;
 - [ ] It specifies that x is a variable with automatic storage duration.
 - [ ] It specifies that more memory will be allocated for x in case it needs more space, avoiding loss of data due to overflow.
 
-#### Q14. A class template is a **\_**?
+#### Q13. A class template is a **\_**?
 
 - [x] class written with the generic programming paradigm, specifying behavior in terms of type parameter rather than specific type.
 - [ ] blank superclass intended for inheritance and polymorphism.
@@ -194,7 +194,7 @@ auto x = 4000.22;
 
 [Reference](https://www.mygreatlearning.com/blog/templates-in-cpp/)
 
-#### Q15. What is the ternary operator equivalent to this code snippet?
+#### Q14. What is the ternary operator equivalent to this code snippet?
 
 ```cpp
 if(x)
@@ -210,7 +210,7 @@ else
 
 [Reference](https://www.w3schools.com/cpp/cpp_conditions_shorthand.asp)
 
-#### Q16. What is the output of this code?
+#### Q15. What is the output of this code?
 
 ```cpp
 #include <iostream>
@@ -232,14 +232,14 @@ int main(){
 - [ ] `x = 11 and y = 20`  
        `x = 10 and y = 19`
 
-#### Q17. What is the meaning of the two parts specified between parentheses in a range-based for loop, separated by a colon?
+#### Q16. What is the meaning of the two parts specified between parentheses in a range-based for loop, separated by a colon?
 
 - [x] The first is a variable declaration that will hold an element in a sequence. The second is the sequence to traverse.
 - [ ] The first is an iterator, and the second is the increment value to be added to the iterator.
 - [ ] The first is the iterating variable. The second is an `std::pair` that specifies the range (start and end) in which the variable will iterate.
 - [ ] The first is a container object. The second is an `std::pair` that specifies the range (start and end) in which the elements will be accessed within the loop.
 
-#### Q18. What is the output of this piece of code?
+#### Q17. What is the output of this piece of code?
 
 ```cpp
 int8_t a=200;
@@ -257,7 +257,7 @@ else
 
 Note: a variant of the question below.
 
-#### Q51. What is the output of this piece of code?
+#### Q18. What is the output of this piece of code?
 
 ```cpp
 int8_t a=200;
@@ -901,7 +901,7 @@ class my_class {
 - [ ] long double
 - [ ] float
 
-#### Q52. What is an appropriate way of removing `my_object` as shown below?
+#### Q51. What is an appropriate way of removing `my_object` as shown below?
 
 ```cpp
 my_class *my_object = new my_class();
@@ -912,7 +912,7 @@ my_class *my_object = new my_class();
 - [ ] The garbage collector will destroy the object eventually.
 - [ ] Exiting the scope will destroy the object.
 
-#### Q53. What is the correct way to call the `count` member function for the object pointer called `grades`?
+#### Q52. What is the correct way to call the `count` member function for the object pointer called `grades`?
 
 ```cpp
 class my_array{
@@ -932,7 +932,7 @@ int main(){
 
 [Reference](https://en.cppreference.com/w/c/language/operator_member_access)
 
-#### Q54. What would be the output of this code?
+#### Q53. What would be the output of this code?
 
 ```cpp
 int i0=4, i1=6, i2=8;
@@ -947,7 +947,7 @@ std::cout<<nums[0]<<nums[1]<<nums[2];
 
 [Reference](https://en.cppreference.com/w/cpp/language/array)
 
-#### Q55. Does this code cause a compiler error? If so, why, and if not, what is `child_t`?
+#### Q54. Does this code cause a compiler error? If so, why, and if not, what is `child_t`?
 
 ```cpp
 typedef struct{
@@ -965,7 +965,7 @@ typedef struct{
 
 [Reference](https://en.cppreference.com/w/cpp/language/bit_field)
 
-#### Q71. What is this expression equivalent to?
+#### Q55. What is this expression equivalent to?
 
 ```cpp
 A->B
@@ -1095,7 +1095,7 @@ void std::mutex::lock(){
 
 Note: variant of the question below.
 
-#### Q62. What is the main difference between these two Functions?
+#### Q61. What is the main difference between these two Functions?
 
 ```cpp
 std::mutex::lock()
@@ -1111,7 +1111,7 @@ Note: variant of the question above.
 
 [Reference](https://en.cppreference.com/w/cpp/thread/mutex/try_lock)
 
-#### Q61. What is the purpose of a destructor?
+#### Q62. What is the purpose of a destructor?
 
 - [x] It allows the programmer to write the necessary code to free the resources acquired by the object prior to deleting the object itself.
 - [ ] It deletes an object. One example of a destructor is the `delete()` function.
@@ -1217,21 +1217,21 @@ int main(){
 - [ ] The address of `str` is supposed to be used. That is `&str` instead of `str`.
 - [x] The input operator flow is inverted. it should start from `std::cin` and then flow (>>) into `str`.
 
-#### Q73. When placed in a valid execution context, which statement will dynamically allocate memory from the heap for an integer of value 11?
+#### Q71. When placed in a valid execution context, which statement will dynamically allocate memory from the heap for an integer of value 11?
 
 - [ ] `int anInt = new int(11);`
 - [ ] `int* anInt = new int[11];`
 - [ ] `int anInt = new int[11];`
 - [x] `int* anInt = new int(11);`
 
-#### Q74. Which choice best describes the type `long`?
+#### Q72. Which choice best describes the type `long`?
 
 - [x] an integer number of at least 32 bits
 - [ ] a string with more than 255 characters
 - [ ] a pointer
 - [ ] a 64-bit floating point number
 
-#### Q75. Which of the following types has the closest functionality to a class?
+#### Q73. Which of the following types has the closest functionality to a class?
 
 - [x] `struct`
 - [ ] `union`
@@ -1240,7 +1240,7 @@ int main(){
 
 [Reference](https://en.cppreference.com/w/c/language/struct)
 
-#### Q76. Given these records in a map, how will you update the value for the key "Sinead" to 22?
+#### Q74. Given these records in a map, how will you update the value for the key "Sinead" to 22?
 
 ![image](images/Q79.png)
 
@@ -1249,14 +1249,14 @@ int main(){
 - [ ] `marks["Sinead"] -> 22`
 - [ ] `marks["Sinead"].value = 22`
 
-#### Q77. Why can the std::sort receive a function object as one of its parameters?
+#### Q75. Why can the std::sort receive a function object as one of its parameters?
 
 - [ ] `The std::sort function is a template. The programmer is free to enter the sorting algorithm in a function object as an argument.`
 - [ ] `Actually, std::sort takes only one argument, which is the container to be sorted.`
 - [ ] `std::sort operates on a template container. The compiler does not know how to relationally compare the values it contains, so a function must be provided to do the comparison.`
 - [ ] `std::sort will use the parameter function as an error handler. The function will be called if an error occurs.`
 
-#### Q78. What will happen when you execute this code snippet?
+#### Q76. What will happen when you execute this code snippet?
 
 ```
 #include <iostream>
@@ -1273,7 +1273,7 @@ std::cout << b;
 - [ ] `6 will be printed on standard output, with compilation warnings generated.`
 - [ ] `5 will be printed on standard output, with compilation warnings generated.`
 
-#### Q79. Which access specifier does not allow class members to be accessed from outside the class, but allows them to be accessed by derived classes?
+#### Q77. Which access specifier does not allow class members to be accessed from outside the class, but allows them to be accessed by derived classes?
 
 - [ ] guarded
 - [x] protected
