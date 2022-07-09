@@ -797,7 +797,7 @@ class TestConfig {
 }
 ```
 
-- [ ] formatter.getClass()
+- [x] formatter.getClass()
 - [ ] context.containsBean("formatter")
 - [ ] context.getBean("formatter").getClass()
 - [ ] context.getClass()
