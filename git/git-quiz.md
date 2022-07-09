@@ -282,7 +282,7 @@ git push -u origin master
 - [ ] Run git hotfix with the shortcut name.
 - [ ] Assign a shortcut or command using git options file.
 - [ ] Use the git custom-key command.
-- [x] Create an alias usin the git config command.
+- [x] Create an alias using the git config command.
 
 #### Q29. What is the status of the beta-notes.js file in the following output?
 
