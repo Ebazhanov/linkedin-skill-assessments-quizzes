@@ -79,7 +79,7 @@
     Disallow: /
 ```
 
-#### Q9. Which results is most likely if you use an interstitial pop-up that requires a user to take action before you load the content of the page?
+#### Q9. Which result is most likely if you use an interstitial pop-up that requires a user to take action before you load the content of the page?
 
 - [ ] Both the pop-up and the content of the page will be indexed
 - [x] The pop-up will be indexed instead of the desired body content
@@ -516,7 +516,7 @@
 #### Q62. You have been asked to help a big e-commerce brand optimize their website for search engines. They currently have thousands of products listed on their website. What is your most appropriate first step?
 
 - [ ] Set campaign goals.
-- [ ] Conduct a technical audit.
+- [x] Conduct a technical audit.
 - [ ] Conduct a backlink audit.
 - [ ] Determine keyword strategy.
 
@@ -524,7 +524,7 @@
 
 - [ ] Launch a Smart Shopping Campaign in Google Ads.
 - [ ] Optimize the home page of your website.
-- [ ] Optimize each product page with a unique product-specific keyword.
+- [x] Optimize each product page with a unique product-specific keyword.
 - [ ] Optimize your product category pages.
 
 #### Q64. Google's Search Quality Evaluator Guidelines describe that experts should write content, especially YMYL content. This is one of the principles seen in the commonly used acronym\_\_
