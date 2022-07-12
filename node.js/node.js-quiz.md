@@ -579,10 +579,10 @@ console.log(person);
 
 #### Q70. What is the importance of having good practices around status code in your response?
 
-- [ ] It indicates success or failure to the client and helps with testing.
+- [x] It indicates success or failure to the client and helps with testing.
 - [ ] It is not important to have good practices regarding status codes
 - [ ] Response codes are the only way you can tell what is happening on the server.
-- [x] It contains information about the current performance of the server.
+- [ ] It contains information about the current performance of the server.
 
 #### Q71. How can ECMAScript modules be used natively in Node?
 

@@ -114,7 +114,7 @@ for (var i = 1; i <= 4; i++) {
 - [ ] .
 
 ```javascript
-while (var i=1; i<=4; i++) {
+for (var i=1; i<=4; i++) {
   setTimeout(function() {
     console.log(i);
     }, i*1000);

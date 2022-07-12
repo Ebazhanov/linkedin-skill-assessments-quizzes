@@ -9239,7 +9239,8 @@
       "profile": "http://jean-philippe.leboeuf.name",
       "contributions": [
         "design",
-        "code"
+        "code",
+        "data"
       ]
     },
     {
@@ -9597,6 +9598,66 @@
       "name": "Jan Silva",
       "avatar_url": "https://avatars.githubusercontent.com/u/1727447?v=4",
       "profile": "https://github.com/janjitsu",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "emanuele-em",
+      "name": "emanuele-em",
+      "avatar_url": "https://avatars.githubusercontent.com/u/100081325?v=4",
+      "profile": "https://github.com/emanuele-em",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "tm-sanjay",
+      "name": "Sanjay TM",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77503269?v=4",
+      "profile": "http://gitgyan.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "nonunicorn",
+      "name": "Joe Markberg / code editor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82409010?v=4",
+      "profile": "https://onelinerhub.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "jquiaios",
+      "name": "Julien Quiaios",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16556006?v=4",
+      "profile": "https://github.com/jquiaios",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "EricRamirezS",
+      "name": "Eric Ramirez Santis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19417880?v=4",
+      "profile": "https://github.com/EricRamirezS",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "mabioIa",
+      "name": "M",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88386924?v=4",
+      "profile": "http://mabiola.net",
       "contributions": [
         "design",
         "code"

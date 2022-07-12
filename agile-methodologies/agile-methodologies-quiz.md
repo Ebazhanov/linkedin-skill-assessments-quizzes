@@ -275,7 +275,7 @@
 - [ ] Technical debt is what the Product Owner owes to the developers if they work a lot of overtime to complete the sprint.
 
 #### Q39. Which statement about estimating is not true?
-
+F
 - [x] Absolute estimating is more reliable than relative estimating.
 - [ ] Relative estimating is more reliable than absolute estimating.
 - [ ] In estimating, accuracy is more important than precision.
@@ -712,3 +712,10 @@
 - [ ] after the daily stand-up
 - [x] before the daily stand-up
 - [ ] before quarterly planning
+
+### Q99. What is Empathy Map?
+
+- [ ] It is a team-building technique used to increase productivity.
+- [ ] It is a tool used by organizations for competitive intelligence.
+- [ ]It is a retrospective technique used to improve team morale.
+- [x] It is a collaborative tool used to gain deeper insights into customers.

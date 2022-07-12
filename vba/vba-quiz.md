@@ -594,7 +594,7 @@ End Sub
 - [ ] Declare SubB as Sub SubB(ByRef MyVar).
 - [ ] Declare SubB as Sub SubB(MyVar).
 - [ ] Declare SubB as Sub SubB(Static MyVar).
-- [ ] Declare SubB as Sub SubB(ByVal MyVar).
+- [x] Declare SubB as Sub SubB(ByVal MyVar).
 
 #### Q42. Which procedure declaration is syntactically correct?
 
@@ -645,7 +645,7 @@ As Variant, Optional VarC as Long)
 - [ ] `= CountValues= CountValues`
 - [ ] `| CountValues| CountValues`
 - [ ] `: CountValues: CountValues`
-- [ ] `? CountValues? CountValues`
+- [x] `? CountValues? CountValues`
 
 #### Q46. At which level can you declare a variable in this way: Private TopSecret As String?
 
@@ -659,7 +659,7 @@ As Variant, Optional VarC as Long)
 - [ ] Show the form with this statement: UserForm1.Show vbModal.
 - [ ] Set the user form's SpecialEffect property to frmShowModal.
 - [ ] Include this statement in the code: `UserForm1.Hwnd = False.`
-- [ ] Set the user form's ShowModal property to False.
+- [x] Set the user form's ShowModal property to False.
 
 #### Q48. SubA passes MyVar to SubB. How can you ensure that MyVar has its original value when control returns to SubA?
 
@@ -726,3 +726,10 @@ i = i + 1
 Loop While i < 5
 End Sub
 ```
+
+#### Q51. How does a class module indicate that it uses a particular interface?
+
+- [x] by means of the *Implemets* keyword and the name of interface.
+- [ ] bymeans of the *Interface* keyword and the name of the interface.
+- [ ] The name of the interface is passed as a parameter.
+- [ ] The interface itself is part of the class module.
