@@ -135,6 +135,23 @@ echo \$myNumber | sed -e 's/^[[:digit:]][[:digit:]][[:digit:]]/(&)/g'
 - [ ] It will output the entire 10-digit number inside parentheses.
 - [x] It will output the same 10-digit number, but the first 3 digits will be inside parentheses.
 
+Note: check the question below for a variant of this sed expression.
+
+#### Q45. What would this sed command do?
+
+```bash
+sed -E 's/[a-Z]{4}/(&)/'  textfile.txt
+```
+
+- [ ] It would substitute the letter with an ampersand (&).
+- [ ] It would replace all letters in the textfile.txt file with ampersand (&).
+- [ ] It would replace the first four letters with an ampersand (&).
+- [x] It would place parentheses around the first four letters of each line of textfile.txt.
+
+Note: check the question above for a variant of this sed expression.
+
+Side note: this sed expression may fail with "sed: -e expression #1, char 15: Invalid range end" (for example on MINGW64 / Git Bash); if this is the case, you can try the alternative range `[A-z]`.
+
 #### Q18. Packages can be downloaded but not installed with yum or dnf by specifying which option?
 
 - [ ] None of these answers. yum does not support downloading packages without installing them.
@@ -354,17 +371,6 @@ date | mail -s "This is a remote test" user1@rhhost1.localnet.com
 - [ ] It resizes the filesystem to match the volume group size.
 - [x] It does nothing.
 - [ ] It remounts the filesystem with the new size.
-
-#### Q45. What would this sed command do?
-
-```bash
-sed -E 's/[a-Z]{4}/(&)/'  textfile.txt
-```
-
-- [ ] It would substitute the letter with an ampersand (&).
-- [ ] It would replace all letters in the textfile.txt file with ampersand (&).
-- [x] It would replace the first four letters with an ampersand (&).
-- [ ] It would place parentheses around the first four letters of each line of textfile.txt.
 
 #### Q46. Which kernel module do you need to load to use interface bonding?
 
