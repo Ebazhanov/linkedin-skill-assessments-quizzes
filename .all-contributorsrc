@@ -9662,6 +9662,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "malcata",
+      "name": "Malcata",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2817001?v=4",
+      "profile": "https://github.com/malcata",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
