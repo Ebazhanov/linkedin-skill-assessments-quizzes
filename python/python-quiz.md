@@ -1846,3 +1846,24 @@ print ("foo" if (256).bit_length() > 8 else "bar")
 - [ ] `random.triangular(0,50);plt.bar`
 
 [Reference](https://www.geeksforgeeks.org/random-gauss-function-in-python/)
+
+#### Q139. In this code fragment, what will be the values of a and b ?
+
+```python
+import numpy as np
+
+a = np.arange(100)
+b = a[50:60:2]
+```
+
+- [x] a: all integers from 0 to 99 (inclusive) b: all even integers from 50 to 58 (inclusive)
+- [ ] a: all integers from 0 to 100 (inclusive) b: all even integers from 50 to 60 (inclusive)
+- [ ] a: all integers from 0 to 99 (inclusive) b: all even integers from 50 to 60 (inclusive)
+- [ ] a: all integers from 0 to 99 (inclusive) b: all odd integers from 49 to 59 (inclusive)
+
+#### Q140. When using NumPy in Python, how do you check the dimensionality (number and length of dimensions) of an object called my_object?
+
+- [ ] `my_object.get_shape()`
+- [x] `my_object.shape`
+- [ ] `my_object.dim()`
+- [ ] `len(my_object)`
