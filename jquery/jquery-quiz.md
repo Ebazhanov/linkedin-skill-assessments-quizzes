@@ -1004,10 +1004,15 @@ $('.leaf').closest('.items');
 $('.leaf').parents('.items');
 ```
 
-- [x] `.closest()` returns `.leaf` and `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
+- [ ] `.closest()` returns `.leaf` and `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
 - [ ] `.closest()` returns `.leaf` and `#sub-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
 - [ ] `.closest()` returns only `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
 - [ ] `.closest()` returns only `#sub-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
+
+
+[Source: jQuery closest Method](https://www.w3schools.com/jquery/traversing_closest.asp)
+
+**Explanation**: `Considering current HTML code, .closest() returns only #main-menu; .parents() returns only #main-menu; cause both of them are looking for .items class which only exist in the #main-menu. Thus all choices are incorrect.`
 
 #### Q55. What does this line of code do?
 
