@@ -582,7 +582,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 - [ ] the decline of voter turnout by county
 - [ ] trends in voter turnout over the part 10 years
-- [ ] what percentage of the whole population voted
+- [x] what percentage of the whole population voted
 - [ ] how many people voted in various geographic regions on a map
 
 #### Q76. A few lines of text are overflowing the placeholder on your slide. How can you fix it on your slide?
