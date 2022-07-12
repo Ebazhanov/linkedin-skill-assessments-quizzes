@@ -661,6 +661,8 @@ D. They must have no duplicate data rows.
 - [x] A, B
 - [ ] B, C, D
 
+[Proof link](https://docs.microsoft.com/en-us/archive/blogs/cansql/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message)
+
 #### Q83. Your report is based on imported data from Excel. What is a valid reason to use a slicer rather than a report-level filter?
 
     A. A slicer makes it easier for users to filter. 
