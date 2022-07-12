@@ -754,9 +754,9 @@ if [[ $FILE == $GLOB ]] ;then
 
 #### Q90. You want to extract the contents from an rpm package. Which command do you use?
 
-- [ ] rpm --updaterpm --update
-- [ ] rpm -ivh --forcerpm -ivh --force
-- [ ] rpm --reinstallrpm --reinstall
+- [ ] rpm --update
+- [ ] rpm -ivh --force
+- [ ] rpm --reinstall
 - [x] rpm2cpio
 
 1. [reference:](https://stackoverflow.com/questions/18787375/how-do-i-extract-the-contents-of-an-rpm)
