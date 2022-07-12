@@ -709,7 +709,7 @@ if [[ $FILE == $GLOB ]] ;then
 #### Q84. Which of these features is missing from the Bash Language?
 
 - [ ] associative arrays.
-- [ ] extened regular expressions.
+- [ ] extended regular expressions.
 - [ ] debug traps.
 - [x] object orientation.
 
