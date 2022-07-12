@@ -422,8 +422,12 @@ find / -size -10K -exec ls -l {} \;
 
 - [ ] The script will remain running in the background even if you reboot the system.
 - [ ] The script will run in your terminal and you will not be able to do anything until it completes.
-- [x] The script will run in the background until you end the session.
-- [ ] The script will run in the background and will continue running even if you end the session.
+- [ ] The script will run in the background until you end the session.
+- [x] The script will run in the background and will continue running even if you end the session.
+
+Reference: [Wikipedia](https://en.wikipedia.org/wiki/Nohup)
+
+> nohup is a POSIX command which means "no hang up". Its purpose is to execute a command such that it ignores the HUP (hangup) signal and therefore does not stop when the user logs out.
 
 #### Q53. To elevate privileges using the `sudo` command, a user must **\_**.
 
