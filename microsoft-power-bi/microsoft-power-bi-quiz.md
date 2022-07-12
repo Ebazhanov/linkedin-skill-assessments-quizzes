@@ -648,3 +648,35 @@ D. They must have no duplicate data rows.
 - [ ] A,B
 - [ ] B,C
 - [x] A
+
+#### Q82. when creating a new relationship between the Continents and Countries tables, this error is returned: "One of the columns must have unique values." How can you fix this? (Select all that apply.)
+
+    A. Add another table with unique keys
+    B. Remove duplicate rows so the Countries table has a column with unique IDs
+    C. Remove duplicate rows so the Continents table has a column with unique IDs.
+    D. Correct the cardinality of the relationship
+
+- [ ] A, C, D
+- [ ] B, C
+- [x] A, B
+- [ ] B, C, D
+
+[Proof link](https://docs.microsoft.com/en-us/archive/blogs/cansql/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message)
+
+#### Q83. Your report is based on imported data from Excel. What is a valid reason to use a slicer rather than a report-level filter?
+
+    A. A slicer makes it easier for users to filter. 
+    B. Users should be able to see both filtered and unfiltered values.
+    C. Query speed is critical.
+
+- [ ] B and C
+- [x] A and B
+- [ ] There is no reason to use a slicer rather than a report-level filter.
+- [ ] A and C
+
+#### Q84. You have pinned a bar chart visualization to a dashboard. If you then modify the bar chart in the underlying report, what will the dashboard display?
+
+- [ ] It will display nothing. You will need to re-pin the bar chart to the dashboard.
+- [x] It will display the bar chart as it appears in the report now.
+- [ ] It will display an error message where the bar chart had been pinned.
+- [ ] It will display the bar chart as it appeared when it was pinned.
