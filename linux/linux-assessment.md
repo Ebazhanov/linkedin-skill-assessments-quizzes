@@ -743,14 +743,14 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] tartar
 - [ ] lvcopy
 
-#### Q89. What is the difference between the apt remove and apt autoremove commands?What is the difference between the apt remove and apt autoremove commands?
+#### Q89. What is the difference between the apt remove and apt autoremove commands?
 
-- [ ] The apt remove command is a link to apt autoremove, so there are no differences. The apt remove command is a link to apt autoremove, so there are no differences.
-- [x] Both uninstall software. The apt autoremove command also uninstalls the dependencies.Both uninstall software. The apt autoremove command also uninstalls the dependencies.
-- [ ] Both uninstall software. The apt remove command also uninstalls the dependencies.Both uninstall software. The apt remove command also uninstalls the dependencies.
+- [ ] The apt remove command is a link to apt autoremove, so there are no differences.
+- [x] Both uninstall software. The apt autoremove command also uninstalls the dependencies.
+- [ ] Both uninstall software. The apt remove command also uninstalls the dependencies.
 - [ ] The apt autoremove command is a system service that routinely removes unused software packages.
 
-[reference:] https://dannyda.com/2021/08/19/whats-the-difference-between-apt-remove-and-apt-autoremove-what-is-apt-purge-when-to-use-debian-ubuntu-kali-linux-etc/
+[reference](https://dannyda.com/2021/08/19/whats-the-difference-between-apt-remove-and-apt-autoremove-what-is-apt-purge-when-to-use-debian-ubuntu-kali-linux-etc/)
 
 #### Q90. You want to extract the contents from an rpm package. Which command do you use?
 
