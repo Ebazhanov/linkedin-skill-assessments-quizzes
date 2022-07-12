@@ -540,7 +540,7 @@ echo $greeting, everybody!
 - [ ] a command
 - [ ] a loop
 - [ ] a parameter
-- [x] a vairable
+- [x] a variable
 
 #### Q47. Which statement checks whether the variable num is greater than five?
 
