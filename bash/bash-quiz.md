@@ -550,10 +550,12 @@ echo $greeting, everybody!
 
 #### Q47. Which statement checks whether the variable num is greater than five?
 
-- [ ] `(( \$num -gt 5 ))`
+- [ ] `(( num -gt 5 ))`
 - [ ] `[[$num -lt 5]]`
-- [x] `(( \$num > 5 ))`
-- [ ] `\$num > 5`
+- [x] `(( num > 5 ))`
+- [ ] `num > 5`
+
+[reference](https://tldp.org/LDP/abs/html/dblparens.html)
 
 #### Q48. Using Bash extended globbing, what will be the output of this command?
 
