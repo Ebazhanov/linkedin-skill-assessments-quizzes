@@ -538,7 +538,7 @@ The regex must not be quoted to work properly.
 #### Q46. In the script shown below, what is **greeting**?
 
 ```bash
-<em>#!/usr/bin/env bash</em>
+#!/usr/bin/env bash
 greeting="Hello"
 echo $greeting, everybody!
 ```
