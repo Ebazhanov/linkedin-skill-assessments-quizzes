@@ -1003,17 +1003,6 @@ References:
 + [What is the meaning of the ${0##...} syntax with variable, braces and hash character in bash?](https://stackoverflow.com/questions/2059794/what-is-the-meaning-of-the-0-syntax-with-variable-braces-and-hash-chara)
 + [What does expanding a variable as "${var%%r*}" mean in bash?](https://stackoverflow.com/questions/41859601/what-does-expanding-a-variable-as-varr-mean-in-bash)
 
-#### Q77. Using awk, what would be the output of this command string?
-
-```
-echo "1 2 3" | awk '{for (i=1; i<NF; i++) s=s+$i}; END {print s}'
-```
-
-- [ ] 123
-- [ ] 600
-- [ ] 6
-- [x] 3
-
 #### Q78. Which operator tells the shell to run a given command in the background?
 
 - [ ] !
