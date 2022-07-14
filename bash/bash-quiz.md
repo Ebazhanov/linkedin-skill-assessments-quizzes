@@ -609,6 +609,8 @@ banapple
 pineapple
 ```
 
+[reference](https://www.linuxjournal.com/content/bash-extended-globbing)
+
 #### Q49. When used from within a script, which variable contains the name of the script?
 
 - [x] \$0
