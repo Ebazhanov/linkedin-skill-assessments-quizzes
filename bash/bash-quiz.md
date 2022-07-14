@@ -254,17 +254,17 @@ echo $?
 #### Q26. What does the asterisk represent in this statement?
 
 ```bash
-<em>#!/usr/bin/env bash</em>
+#!/usr/bin/env bash
 case $num in
 	1)
 	echo "one"
-	; ;
+	;;
 	2)
 	echo "two"
-	; ;
+	;;
 	*)
 	echo "a mystery"
-	; ;
+	;;
 esac
 ```
 
