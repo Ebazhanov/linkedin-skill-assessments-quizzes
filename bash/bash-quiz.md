@@ -989,7 +989,7 @@ See also: [What is the difference between "echo" and "echo -n"?](https://stackov
 #!/bin/bash
 shopt -s extglob
 VAR='     This is...     a string of characters     '
-VAR=${VAR##+([[:space:]])}; ${VAR=${VAR%%+([[:space:]])};
+VAR=${VAR##+([[:space:]])}; VAR=${VAR%%+([[:space:]])};
 echo "$VAR"
 ```
 
@@ -997,6 +997,11 @@ echo "$VAR"
 - [ ] <pre>     This is...a string of characters</pre>
 - [ ] <pre>This is...     a string of characters</pre>
 - [ ] <pre>This is...a string of characters</pre>
+
+References:
+
++ [What is the meaning of the ${0##...} syntax with variable, braces and hash character in bash?](https://stackoverflow.com/questions/2059794/what-is-the-meaning-of-the-0-syntax-with-variable-braces-and-hash-chara)
++ [What does expanding a variable as "${var%%r*}" mean in bash?](https://stackoverflow.com/questions/41859601/what-does-expanding-a-variable-as-varr-mean-in-bash)
 
 #### Q77. Using awk, what would be the output of this command string?
 
