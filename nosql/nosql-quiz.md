@@ -210,98 +210,91 @@
 - [ ] DynamoDB item
 - [ ] DYnamoDB index
 
-#### Q31. Which two types of indexes are available in Cosmos DB?
-
-- [x] secondery and primary key
-- [ ] secondary and spatial
-- [ ] range and spatial
-- [ ] range and primary key
-
-#### Q32. SQL databses and NoSQL are which types of scalable?
+#### Q31. SQL databses and NoSQL are which types of scalable?
 
 - [ ] horizontally, infinitely
 - [x] vertically, horizontally
 - [ ] vertically, infinitely
 - [ ] horizonally, vertically
 
-#### Q33. You need to create a scalable database that allows you to query data nodes and edges efficiently. What do you use?
+#### Q32. You need to create a scalable database that allows you to query data nodes and edges efficiently. What do you use?
 
 - [ ] a relational databse
 - [ ] a columnstore databse
 - [ ] a document databse
 - [x] a graph database
 
-#### Q34. You are developing a model for a graph database. Your data will be moved from a relational database into Neo4j. Which of these transformations apply?
+#### Q33. You are developing a model for a graph database. Your data will be moved from a relational database into Neo4j. Which of these transformations apply?
 
 - [ ] Rows become labes: bales become nodes.
 - [x] Tables become labels: rows become nodes.
 - [ ] Tables become collections: rows become items.
 - [ ] Rows become collections: tables become items.
 
-#### Q35. You need to execute a command for MongoDB that does NOT load values from the `.mongorc.js` file. What do you do ?
+#### Q34. You need to execute a command for MongoDB that does NOT load values from the `.mongorc.js` file. What do you do ?
 
 - [ ] Delete the .monorc.js file and restart mongo shell.
 - [ ] Use the mongo shell to create a command with --norc option
 - [ ] Rem all lines in the .mongorc.js file ad restart mongo shell.
 - [x] Use the mongo shell to create a command with --nodedefault option.
 
-#### Q36. What is the recommended size for Redis keys?
+#### Q35. What is the recommended size for Redis keys?
 
 - [ ] long
 - [ ] short
 - [ ] medium
 - [x] a single bit
 
-#### Q37. You need to store an unordered collection of name-value pairs with differing data types in DynamoDB. Which data type should you choose?
+#### Q36. You need to store an unordered collection of name-value pairs with differing data types in DynamoDB. Which data type should you choose?
 
 - [x] map
 - [ ] set
 - [ ] list
 - [ ] stack
 
-#### Q38. Which statement retrieves an item from the MusicCollection table in DynamoDB?
+#### Q37. Which statement retrieves an item from the MusicCollection table in DynamoDB?
 
 - [ ] aws dynamodb query --table-name MusicCollection --key file://key.json
 - [x] aws dynamodb get-item --table-name MusicCollection --key file://key.json
 - [ ] aws dynamodb select --table-name MusicCollection --key file://key.json
 - [ ] aws dynamodb put-item --table-name MusicCollection --key file://key.json
 
-#### Q39. Database availability is measured by which metric?
+#### Q38. Database availability is measured by which metric?
 
 - [ ] the amount of service calls
 - [ ] the number of minutes
 - [ ] the amount of service costs
 - [x] the number of nines
 
-#### Q40. You need to encrypt data at rest in DynamoDB. Which action do you take?
+#### Q39. You need to encrypt data at rest in DynamoDB. Which action do you take?
 
 - [ ] You assign a default AWS encryption key to your table to encrypt data.
 - [ ] You create an AWS encryption key and assign it to your table to encrypt data.
 - [x] None. Data is encrypted by default.
 - [ ] You create an AWS encryption key and assign it to your database to encrypt data.
 
-#### Q41. You need to generate a unique, sequential identifier for each value stored in a Redis cluster. What do you do?
+#### Q40. You need to generate a unique, sequential identifier for each value stored in a Redis cluster. What do you do?
 
 - [ ] Implement a SortedSet object to generate a value.
 - [ ] Use the GUID keyword to generate a value.
 - [ ] Implement a List object to generate a value.
 - [x] Use the INCR keyword to generate a value
 
-#### Q42. You want to return a list of all elements in two Redis sets. Which keyword do you use?
+#### Q41. You want to return a list of all elements in two Redis sets. Which keyword do you use?
 
 - [x] smembers
 - [ ] returnall
 - [ ] sunion
 - [ ] sismember
 
-#### Q43. Which method shows you whether MongoDB uses any indexes when running a query, and how the indexes are used?
+#### Q42. Which method shows you whether MongoDB uses any indexes when running a query, and how the indexes are used?
 
 - [ ] detailQueryExecution()
 - [ ] showPlan()
 - [x] explain()
 - [ ] describe()
 
-#### Q44. Which statement accurately describes global secondary indexes in DynamoDB?
+#### Q43. Which statement accurately describes global secondary indexes in DynamoDB?
 
 - [ ] The global secondary indexes in DynamoDB are consistent, and are not guaranteed to return correct results.
 - [ ] The global secondary indexes in DynamoDB are transactionally consistent, and are guaranteed to return correct results.
@@ -310,14 +303,14 @@
 
 [reference link:](https://stackoverflow.com/questions/35414372/dynamodb-consistent-reads-for-global-secondary-index)
 
-#### Q45. Which command do you use to add a value to a Redis stream named mystream?
+#### Q44. Which command do you use to add a value to a Redis stream named mystream?
 
 - [ ] ADD mystream \* sensor-id 1234 temperature 19.8 1518951480106-1
 - [ ] UPDATE mystream \* sensor-id 1234 temperature 19.8 1518951480106-3
 - [x] XADD mystream \* sensor-id 1234 temperature 9.8 1518951480106-0
 - [ ] INSERT mystream \* sensor-d 1234 temperature 19.8 15181480106-2
 
-#### Q46. Which code example completes this statement and creates an index for a MongoDB object named restaurants, sorted ascending by the field name?
+#### Q45. Which code example completes this statement and creates an index for a MongoDB object named restaurants, sorted ascending by the field name?
 
 ```
 var indexCollection = function(db) {return co(function*() {...});};
@@ -328,7 +321,7 @@ var indexCollection = function(db) {return co(function*() {...});};
 - [x] `const results = yield db.collection('restaurants').createIndex({"name": 1}, null); return results;`
 - [ ] `const results = yield db.table('restaurants').createIndex({"name": 0}, null); return results;`
 
-#### Q47. Which Cypher code executes the multiquery block?
+#### Q46. Which Cypher code executes the multiquery block?
 
 - [ ]
 
@@ -358,49 +351,49 @@ MATCH (c:Company {name: 'Neo4j'}) RETURN c;MATCH (p:Person) WHERE p.name = 'Jenn
 MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 ```
 
-#### Q48. You need to create a scalable database that supports immutable writes. What do you use?
+#### Q47. You need to create a scalable database that supports immutable writes. What do you use?
 
 - [x] A ledger database
 - [ ] A graph database
 - [ ] A key-value database
 - [ ] A columnstore database
 
-#### Q49. You need to create a data store for the catalog for your new ecommerce application. Your company is a startup, so the catalog schema may evolve. Which do you choose?
+#### Q48. You need to create a data store for the catalog for your new ecommerce application. Your company is a startup, so the catalog schema may evolve. Which do you choose?
 
 - [ ] Neo4j
 - [ ] Redis
 - [ ] MySQL
 - [x] MongoDB
 
-#### Q50. You need to select a NoSQL database for heavy aggregate query workloads. Which type do you choose?
+#### Q49. You need to select a NoSQL database for heavy aggregate query workloads. Which type do you choose?
 
 - [ ] graph
 - [ ] key-value
 - [ ] document
 - [x] columnstore
 
-#### Q51. You need to select a columnstore database that enforce built-in data types. You want to add indexes to improve performance for known workloads. Which do you choose?
+#### Q50. You need to select a columnstore database that enforce built-in data types. You want to add indexes to improve performance for known workloads. Which do you choose?
 
 - [ ] Cassandra
 - [ ] Bigtable
 - [x] Redis
 - [ ] HBase
 
-#### Q52. In DynamoDB, the partition key and sort key are also known as which type of attributes?
+#### Q51. In DynamoDB, the partition key and sort key are also known as which type of attributes?
 
 - [ ] range, hash
 - [ ] primary, range
 - [x] hash, range
 - [ ] range, secondary
 
-#### Q53. What is a popular, open-source key-value store database?
+#### Q52. What is a popular, open-source key-value store database?
 
 - [ ] MongoDB
 - [x] Redis
 - [ ] MySQL
 - [ ] Cassandra
 
-#### Q54. You need to create a scalable databse to store and query JSON data. What do you use?
+#### Q53. You need to create a scalable databse to store and query JSON data. What do you use?
 
 - [ ] relational DB
 - [x] document DB
