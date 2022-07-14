@@ -105,6 +105,21 @@ mysql < file.sql > file.txt
 - [ ] the error output of the MySQL command
 - [x] the non-error output of the MySQL command
 
+Note: check the question below for a variant.
+
+#### Q42. What will be the difference between the output on the screen and the contents of out.txt
+
+```bash
+mysql < file.sql > out.txt
+```
+
+- [ ] The output on the screen will be identical to out.txt
+- [x] There will be no output on the screen as it's being redirected to out.txt.
+- [ ] The output on the screen will be identical to out.txt plus line numbers.
+- [ ] The out.txt file will hold STDERR and STDOUT will go to the screen.
+
+Note: check the question above for a variant.
+
 #### Q11. How does the SUID or setuid affect executable commands?
 
 - [ ] When the command creates files, they will be owned by the group owner of the command.
@@ -498,17 +513,6 @@ fi
 - [x] Due to a syntax error it is impossible to get the script to print "Is numeric"
 
 The regex must not be quoted to work properly.
-
-#### Q42. What will be the difference between the output on the screen and the contents of out.txt
-
-```bash
-mysql < file.sql > out.txt
-```
-
-- [ ] The output on the screen will be identical to out.txt
-- [x] There will be no output on the screen as it's being redirected to out.txt.
-- [ ] The output on the screen will be identical to out.txt plus line numbers.
-- [ ] The out.txt file will hold STDERR and STDOUT will go to the screen.
 
 #### Q43. How would you find the last copy command run in your history?
 
