@@ -471,12 +471,12 @@ CREATE TABLE MyTable (MyValue int);
 INSERT INTO MyTable VALUES (1);
 WHILE (SELECT MyValue FROM MyTable) < 5
 BEGIN
-	UPDATE My Table SET MyValue = MyValue + 1;
+	UPDATE MyTable SET MyValue = MyValue + 1;
 END;
 SELECT MyValue AS Result FROM MyTable;
 ```
 
-- [ ] 5
+- [X] 5
 - [ ] error
 - [ ] 1
 - [ ] 6
@@ -491,7 +491,7 @@ GROUP BY OrderID
 ORDER BY OrderID;
 ```
 
-- [ ] Yes, a `WHERE` clause cannot be used with an aggregate function.
+- [X] Yes, a `WHERE` clause cannot be used with an aggregate function.
 - [ ] Yes, you cannot `GROUP BY` and `ORDER BY` the same field.
 - [ ] No, there is nothing wrong with this query.
 - [ ] Yes, the `WHERE` clause should use the `SubTotal` alias.
@@ -518,7 +518,7 @@ CREATE TABLE Publishers (
           REFERENCES Publishers (PublisherID) ON UPDATE SET NULL
 ```
 
-- [ ]
+- [X]
 
 ```ALTER TABLE Books
           ADD CONSTRAINT FK Books_PublisherID
@@ -586,6 +586,7 @@ _______
 - [ ] `BEGIN TRAN myTransaction WITH LOG;BEGIN TRAN myTransaction WITH LOG;`
 - [ ] `BEGIN TRAN myTransaction WITH MARK;BEGIN TRAN myTransaction WITH MARK;`
 - [ ] `BEGIN TRAN WITH MARK myTransaction;BEGIN TRAN WITH MARK myTransaction;`
+- [X] BEGIN TRANSACTION myTransaction WITH MARK 'myTransaction'
 
 #### Q47. Though not currently a requirement, what will a future release of SQL Server require of all SQL statements?Though not currently a requirement, what will a future release of SQL Server require of all SQL statements?
 
