@@ -761,6 +761,8 @@ fi
 - [ ] SELinux policy rules are never checked after DAC rules.
 - [ ] None of these
 
+[reference](https://unix.stackexchange.com/questions/16828/what-roles-do-dac-file-permissions-acl-and-mac-selinux-play-in-linux-file-s)
+
 #### Q60. Which does the below command do?
 
 ```bash
