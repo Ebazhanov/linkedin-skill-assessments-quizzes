@@ -449,7 +449,7 @@
 
 [REST Architectural Constraints](https://restfulapi.net/rest-architectural-constraints/)
 
-#### Q60. When you get a 429 code, what should you do next?
+#### Q60. When you get a 429 response code, what should you do next?
 
 - [ ] Check you JSON structure.
 - [ ] Check the API uptime status.
