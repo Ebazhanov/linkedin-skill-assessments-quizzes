@@ -960,8 +960,8 @@ This is line 3.
 ```bash
 #!/bin/bash
 
-echo 123446789 > out. txt
-exec 3<> out. txt
+echo 123446789 > out.txt
+exec 3<> out.txt
 read -n 4 <&3
 echo -n 5 >&3
 exec 3>&-
@@ -973,6 +973,8 @@ exec 3>&-
 - [ ] the number 5, which is written to the file using echo
 
 See [I/O Redirection](https://tldp.org/LDP/abs/html/io-redirection.html)
+
+See also: [What is the difference between "echo" and "echo -n"?](https://stackoverflow.com/questions/30761986/what-is-the-difference-between-echo-and-echo-n)
 
 #### Q75. Which variable contains the process ID (PID) of the script while it's running?
 
