@@ -301,6 +301,8 @@ echo ${!fname}
 - [ ] Syntax error
 - [ ] blank
 
+[reference](https://unix.stackexchange.com/questions/41292/variable-substitution-with-an-exclamation-mark-in-bash)
+
 #### Q30. What will be the output of this script?
 
 ![question](images/Q30/question.png)
