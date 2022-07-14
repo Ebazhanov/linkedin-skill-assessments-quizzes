@@ -719,3 +719,32 @@ F
 - [ ] It is a tool used by organizations for competitive intelligence.
 - [ ]It is a retrospective technique used to improve team morale.
 - [x] It is a collaborative tool used to gain deeper insights into customers.
+
+### Q100. Which work descriptions are not written in the language of users?
+
+- [ ] tasks
+- [ ] epics
+- [x] stories
+- [ ] features
+
+### Q101. The team has an incomplete story at the end of the sprint and wants to claim partial credit for the work completed. What should you do?
+
+- [ ] Ask the Product Owner to accept the storyy with the promise that the team will complete it in the next sprint
+- [ ] Ask them to slice the story to reflect the work done and the work to be done
+- [x] Ask the product owner to revise the acceptance criteria so it can be accepted and counted
+- [ ] explain that, in Agile, working software is the primary measure of progress. Then help...
+
+### Q102. Which statement is *not* true about pair programming?
+
+- [ ] The code produced by two developers who are collaborating is typically higher quality that if they were working alone
+- [ ] it is a great way to teach someone who is new to the team
+- [ ] in pair programming, two developers share one computer and take turns at the keyboard
+- [x] it has been discredited because it is too expansive
+
+### Q103. When planning a meeting, which action is most important?
+
+- [x] clariying the expected outcome
+- [ ] taking notes
+- [ ] inviting the Project Manager
+- [ ] making sure everyone speaks
+
