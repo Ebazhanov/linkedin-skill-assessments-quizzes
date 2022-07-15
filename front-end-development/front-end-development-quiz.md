@@ -734,3 +734,12 @@ box {
 - [ ] the opacity of the color indicating 38% of fully opacity
 - [ ] the brightness of the color matching a brightness of 38%
 - [ ] the intensity of the color matching an intensity of 38%
+
+#### Q74. What is a skiplink?
+
+- [ ] a replacement for inaccessible navigation
+- [ ] a method of allowing a screen-reader user to skip between headings
+- [x] a link placed early in the <body> to allow the user to skip to the main content
+- [ ] a link to allow users to skip video that automatically plays on a website
+
+[Source: W3 Schools]("https://www.w3schools.com/accessibility/accessibility_skip_links.php")
