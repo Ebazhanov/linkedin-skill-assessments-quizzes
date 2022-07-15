@@ -536,7 +536,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 #### Q68. In the worksheet shown below, cell C6 contains the `formula=VLOOKUP(A6,$F$2:$G$10,2,FALSE)`. What is the most likely reason that `#N/A` is returned in cell `C6` instead of mallory's `ID (2H54)`
 
-(missing screenshot)
+![image](https://user-images.githubusercontent.com/23659530/179216823-1ac09896-4807-4bd6-a352-637df79e7b36.png)
 
 - [ ] The absolute/relative cell references in the formula are wrong
 - [ ] Cell A6 is not actualy text its a formula that need to be copied and pasted as a value
