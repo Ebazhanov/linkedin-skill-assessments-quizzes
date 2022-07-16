@@ -565,14 +565,14 @@
 - [x] Users, Sessions, Hits, and Products
 - [ ] Users, Sessions, Actions, and Catalog
 
-### Q80.  What is a view filter?
+#### Q80. What is a view filter?
 
 - [ ] a way to permanently modify data after it appears in reports
 - [ ] a way to temporarily modify data before it appears in reports
 - [x] a way to temporarily modify data after it appears in reports
 - [ ] a way to permanently modify data before it appears in reports
 
-### Q81.  How would you access to this report?
+#### Q81. How would you access to this report?
 
 ![checkout](https://i.imgur.com/8xDRzAI.jpeg)
 
@@ -581,7 +581,7 @@
 - [x] Ecommerce > Checkout Behavior
 - [ ] Events > Event Flow
 
-### Q82.  If your site was accessible at both / and /home.html, what do you configure to consolidate entries under /?
+#### Q82. If your site was accessible at both / and /home.html, what do you configure to consolidate entries under /?
 
 - [x] default page
 - [ ] master view

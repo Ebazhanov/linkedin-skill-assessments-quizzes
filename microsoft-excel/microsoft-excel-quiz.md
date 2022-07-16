@@ -1065,6 +1065,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] Right-click the cell and select **Edit**
 
 #### Q117. What dows this formula do?
+
 ```
 =SUM(Sheet1:Sheet4!D18)
 ```
@@ -1073,5 +1074,3 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] It adds data from cell D18 of Sheet1 and cell D18 of Sheet4
 - [ ] It adds alla data in the range A1:D18 in Sheet1,Shee2, Shee3, and Sheet4
 - [ ] It adds data from cell A1 of Sheet1 and cell D18 of Sheet4
-
-

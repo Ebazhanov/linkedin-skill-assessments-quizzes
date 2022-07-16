@@ -275,7 +275,7 @@
 - [ ] Technical debt is what the Product Owner owes to the developers if they work a lot of overtime to complete the sprint.
 
 #### Q39. Which statement about estimating is not true?
-F
+
 - [x] Absolute estimating is more reliable than relative estimating.
 - [ ] Relative estimating is more reliable than absolute estimating.
 - [ ] In estimating, accuracy is more important than precision.
@@ -734,7 +734,7 @@ F
 - [x] Ask the product owner to revise the acceptance criteria so it can be accepted and counted
 - [ ] explain that, in Agile, working software is the primary measure of progress. Then help...
 
-### Q102. Which statement is *not* true about pair programming?
+### Q102. Which statement is _not_ true about pair programming?
 
 - [ ] The code produced by two developers who are collaborating is typically higher quality that if they were working alone
 - [ ] it is a great way to teach someone who is new to the team
@@ -747,4 +747,3 @@ F
 - [ ] taking notes
 - [ ] inviting the Project Manager
 - [ ] making sure everyone speaks
-

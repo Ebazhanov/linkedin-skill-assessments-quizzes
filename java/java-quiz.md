@@ -1929,7 +1929,8 @@ for(int i=0; i<30; i+=x) {}
 String buy = "bitcoin";
 System.out.println(buy.substring(x, x+1) + buy.substring(y, y+2))
 ```
-- [x] int x = 0; int y = 2; 
+
+- [x] int x = 0; int y = 2;
 - [ ] int x = 1; int y = 3;
 - [ ] int x = 0; int y = 3;
 - [ ] int x = 1; int y = 3;

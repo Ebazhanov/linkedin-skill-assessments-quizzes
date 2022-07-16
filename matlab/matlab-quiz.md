@@ -1021,9 +1021,11 @@ a = [ 1 2 3 4];
 [Reference](https://stackoverflow.com/questions/1379415/whats-the-difference-between-and-in-matlab)
 
 #### Q70. What is the result of this code?
+
 ```
 s="abcd"; s(3)='x'
 ```
+
 - [ ] "abxd"
 - [ ] abxd
 - [x] a 1x 3 string array

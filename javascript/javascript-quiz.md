@@ -114,10 +114,10 @@ for (var i = 1; i <= 4; i++) {
 - [ ] .
 
 ```javascript
-for (var i=1; i<=4; i++) {
-  setTimeout(function() {
+for (var i = 1; i <= 4; i++) {
+  setTimeout(function () {
     console.log(i);
-    }, i*1000);
+  }, i * 1000);
 }
 ```
 
@@ -1047,6 +1047,7 @@ console.log('Javascript!');
 ```
 
 - [x] .
+
 ```plaintext
 I
 Javascript!
@@ -1054,6 +1055,7 @@ love
 ```
 
 - [ ] .
+
 ```plaintext
 love
 I

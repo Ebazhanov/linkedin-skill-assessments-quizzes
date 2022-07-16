@@ -458,7 +458,7 @@
 - [ ] A namespace has logical units that are physically grouped together. An assembly does not have any classification.
 - [ ] A namespace has logical units that are physically grouped together for assemblies. Assembly classes are available in your program and will be logically grouped.
 
-[Source]( https://docs.microsoft.com/en-us/dotnet/standard/assembly/)
+[Source](https://docs.microsoft.com/en-us/dotnet/standard/assembly/)
 
 #### Q60. What is a tuple?
 

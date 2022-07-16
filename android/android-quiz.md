@@ -1009,10 +1009,10 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 	    <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Button" 
+            android:text="Button"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
-	
+
     </androidx.constraintlayout.widget.ConstrantLayout>
 ```
 
