@@ -1850,3 +1850,25 @@ As Steve Krug once said, happy talk must die.
 - [ ] The `<article>` element represents the dominant content of your document. There can be only one `<article>` element that is not hidden.
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main)
+
+#### Q108. Users report that a form is not working. What is the culprit?
+
+```html
+<form action="/choices" disabled>
+  <fieldset disabled>
+    <legend>choices</legend>
+    <label>Choice 1 <input type="radio" name="choice" value="choice1" /></label>
+    <label>Choice 2 <input type="radio" name="choice" value="choice1" /></label>
+    <label>Choice 3 <input type="radio" name="choice" value="choice1" /></label>
+    <label>Choice 4 <input type="radio" name="choice" value="choice1" /></label>
+    <button>Choose!</button>
+  </fieldset>
+</form>
+```
+
+- [ ] The form element is disabled.
+- [ ] There is no <input type="submit"> element.
+- [x] The fieldset is disabled.
+- [ ] There is no method set on the form.
+
+A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools.com/tags/att_fieldset_disabled.asp)
