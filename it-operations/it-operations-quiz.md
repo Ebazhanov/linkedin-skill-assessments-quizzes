@@ -212,7 +212,7 @@
 - [x] Its cables are detachable.
 - [ ] It has dedicated power reserved for different computer components.
 
-#### Q23. Which program controls the Windows startip sequence?
+#### Q23. Which program controls the Windows startup sequence?
 
 - [x] MSCONFIG
 - [ ] Task Manager
@@ -335,28 +335,21 @@
 - [ ] Restart the computer.
 - [ ] Review the output of the netstat utility to check for incoming connections to the file.
 
-#### Q40. What is the name of the hardware that provides a computer with network access?
-
-- [ ] BIOS
-- [ ] RJ-45
-- [x] router
-- [ ] NIC
-
-#### Q41. Which service allows clients to work remotely and supplies the clients with an IP address on the same local area network as the offce?
+#### Q40. Which service allows clients to work remotely and supplies the clients with an IP address on the same local area network as the offce?
 
 - [ ] DNS
 - [ ] FTP
 - [x] VPN
 - [ ] HTTP
 
-#### Q42. Al is about to update a software driver. What would be a wise thing to do first?
+#### Q41. Al is about to update a software driver. What would be a wise thing to do first?
 
 - [x] Back up all files.
 - [ ] Save data and close programs.
 - [ ] Remove the older driver.
 - [ ] Sign out of the operating system.
 
-#### Q43. What is the process of moving data and programs from an old computer to a new one called?
+#### Q42. What is the process of moving data and programs from an old computer to a new one called?
 
 - [x] migration
 - [ ] An official term does not exist, though it is colloquieally referred to as a "brain transplant."
@@ -365,35 +358,35 @@
 
 [reference](https://en.wikipedia.org/wiki/PC_migration)
 
-#### Q44. The local network is up, but the computers cannot access the Internet. Your Internet configuration includes a modem, gateway (router), and a switch as separate devices. What should you do?
+#### Q43. The local network is up, but the computers cannot access the Internet. Your Internet configuration includes a modem, gateway (router), and a switch as separate devices. What should you do?
 
 - [ ] Do nothing. Wait until service is restored.
 - [ ] Restart all computers on the network.
 - [ ] Restart the gateway (router).
 - [x] Restart the modem.
 
-#### Q45. You notice that a program crashes at a specific time. Which tool can you use in Windows to discover the cause?
+#### Q44. You notice that a program crashes at a specific time. Which tool can you use in Windows to discover the cause?
 
 - [ ] Task Manager
 - [x] Event Viewer
 - [ ] Perfomance Monitor
 - [ ] Resource Monitor
 
-#### Q46. While planning a conference at a center in the mountains, you call ahead to ensure that it has broadband Internet access. Wich connection type would be an unsuitable choice?
+#### Q45. While planning a conference at a center in the mountains, you call ahead to ensure that it has broadband Internet access. Which connection type would be an unsuitable choice?
 
 - [ ] DSL
 - [ ] fiber optic
 - [ ] cable
 - [x] dial-up
 
-#### Q47. What is a fixed disk
+#### Q46. What is a fixed disk
 
-- [ ] mass storage that has ben repaired
+- [ ] mass storage that has been repaired
 - [x] nonremovable mass storage
 - [ ] any internal mass storage device
 - [ ] any mass storage device that is not a SSD
 
-#### Q48. What are the long-term and short-term categories of storage in a computer?
+#### Q47. What are the long-term and short-term categories of storage in a computer?
 
 - [x] memory and permanent (drive) storage
 - [ ] SSD and HDD
@@ -402,7 +395,7 @@
 
 [Reference](https://pediaa.com/difference-between-short-term-and-long-term-memory/)
 
-#### Q49. What is referred to by SSID
+#### Q48. What is referred to by SSID
 
 - [x] Service Set Identifier, a wireless network's name
 - [ ] an older security protocol for Wi-Fi networks
@@ -411,128 +404,121 @@
 
 [Reference](https://techterms.com/definition/ssid)
 
-#### Q50. Which is the standard color coding for audio jacks?
+#### Q49. Which is the standard color coding for audio jacks?
 
 - [ ] Gray: microphone / Black: speakers
 - [ ] Red: microphone / Green: speakers
 - [ ] Green: microphone / Pink: speakers
 - [x] Green: speakers / Pink: microphone
 
-#### Q51. Which key assists limited keyboard layouts (such as on a laptop) with accessing the full range of keys?
+#### Q50. Which key assists limited keyboard layouts (such as on a laptop) with accessing the full range of keys?
 
 - [ ] Alt (Windows) or Option (Mac)
 - [ ] Meta
 - [x] Fn
 - [ ] Shift
 
-#### Q52. You power up your computer and it starts in Safe Mode. What should you do?
+#### Q51. You power up your computer and it starts in Safe Mode. What should you do?
 
-- [x] Restart the computer
+- [ ] Restart the computer
 - [ ] Work as you normally do until the problem is resolved
 - [ ] Reconfigure the startup sequence so that the system starts again normally
-- [ ] Determine the cause and address the issue
+- [x] Determine the cause and address the issue
 
 Idea behind the answer: let's go for a quick restart to see whether the problem fixes itself or not, then only try to determine the cause and address the issue.
 
-#### Q53. Which security tool can be doubled up to offer additional protection without being redundant?
+#### Q52. Which security tool can be doubled up to offer additional protection without being redundant?
 
 - [ ] account protection
 - [ ] firewall
 - [ ] antivirus
 - [x] backup
 
-#### Q54. The mouse pointer is behaving erratically. What should you do first?
+#### Q53. The mouse pointer is behaving erratically. What should you do first?
 
 - [ ] Use the keyboard instead
 - [ ] Restart the computer
 - [x] Clean the mouse, specifically its optical sensor, and ensure that you are using it on the proper surface
 - [ ] Disassemble the mouse to look for loose parts or corrosion
 
-#### Q55. How many wire pairs are in a CAT-5 cable?
+#### Q54. How many wire pairs are in a CAT-5 cable?
 
 - [ ] 8
 - [x] 4
 - [ ] 5
 - [ ] 16
 
-#### Q56. What is the difference between a USB hub and a powered USB hub?
+#### Q55. What is the difference between a USB hub and a powered USB hub?
 
 - [x] The powered hub has a power supply and is suitable for running powered peripherals.
 - [ ] A powered USB hub is found on the computer case; all other hubs are non-powered.
 - [ ] The powered hub supplies 12V of power, whereas the standard hub only 5V.
 - [ ] Powered hubs are external to the computer case.
 
-#### Q57. Which user has the smartest approach to online security?
+#### Q56. Which user has the smartest approach to online security?
 
 - [ ] Jarred uses a unique password for each site.
 - [ ] Jen uses the same password on each site, but with two-factor authentication.
 - [x] Jason uses a unique password for each site along with two-factor authentication.
 - [ ] Jackie uses the same password on each site, but with a different user name.
 
-#### Q58. Which is an example of a phishing attach?
+#### Q57. Which is an example of a phishing attach?
 
 - [ ] Yousef sees an onscreen notification indicating that an operating system is pending and instructing him to click a link to continue.
 - [ ] After visiting a website, Carla notices that her computer is running slowly.
 - [x] Bob receives an email from his bank, asking him to click a link to verify his account.
 - [ ] Ellen's email inbox is flooded with unwanted advertising.
 
-#### Q59. You receive a malware warning regarding a specific file. Which approach should you take to ensure you do not have false positive?
+#### Q58. You receive a malware warning regarding a specific file. Which approach should you take to ensure you do not have false positive?
 
 - [ ] Restart in Safe Mode to remove the file.
 - [ ] Remove the file.
 - [x] Run a thorough scan to validate the results.
 - [ ] Quarantine the file.
 
-#### Q60. What are the best tools to use for cleaning a computer?
+#### Q59. What are the best tools to use for cleaning a computer?
 
-- [ ] Handheld vaccume cleaner, air can, soft flashlight.
+- [ ] Handheld vacuum cleaner, air can, soft flashlight.
 - [ ] air can, microfiber cloth, alcohol wipes, flashlight.
-- [x] handheld vaccum cleaner, ammonia, alcohol, microfiber cloth.
+- [x] handheld vacuum cleaner, ammonia, alcohol, microfiber cloth.
 - [ ] air can, screwdriver, soft cloth, household cleaner.
 
-#### Q61. A computer power supply is measured in \_.
+#### Q60. A computer power supply is measured in \_.
 
 - [x] watts
 - [ ] hertz
 - [ ] amperes
 - [ ] volts
 
-#### Q62. If you had a 255.255.255.0 subnet mask, how many usable IP addresses would you have for hosts?
+#### Q61. If you had a 255.255.255.0 subnet mask, how many usable IP addresses would you have for hosts?
 
 - [ ] 24
 - [ ] 255
 - [x] 254
 - [ ] 256
 
-#### Q63. Tania was told to address an issue in the UEFI. How is it accessed?
+#### Q62. Tania was told to address an issue in the UEFI. How is it accessed?
 
 - [ ] by using the System Configuration Utility (MSCONFIG)
 - [x] from the BIOS
 - [ ] from the computer's startup menu
 - [ ] on the network
 
-#### Q64. What is the technical reason why you must properly eject media?
+#### Q63. What is the technical reason why you must properly eject media?
 
 - [x] File I/O is buffered. If you remove the media before the buffer is cleared, files remain open and potentially corrupt.
 - [ ] The Storage Inventory Manager (SIM) can lose its drive references, which may corrupt other storage in the system.
 - [ ] The drive must receive the eject signal and turn itself off, dropping the DTR signal and indicating the media is safe to remove.
 - [ ] The computer must stop the 5-volt signal to media, otherwise the drive may short.
 
-#### Q65. Which part of the network assigns an IP address?
+#### Q64. Which part of the network assigns an IP address?
 
 - [ ] the modem using TCP/IP protocol
 - [x] the gateway/router using DHCP
 - [ ] the device's NIC based on the MAC address
 - [ ] IP addresses are always assigned manually
 
-#### Q66. The computer consistently boots into Safe Mode. How would you address this issue?
-
-- [ ] Hold the Shift key as Windows boots.
-- [ ] Edit the registry key that controls the boot sequence.
-- [x] Fix the issue in Safe Mode that is causeing the system to restart in this mode.
-- [ ] Check the MSCONFIG utility to ensure that Normal boot is selected.
-
-#### Q67. Expansion cards follow which current interface standard?
+#### Q65. Expansion cards follow which current interface standard?
 
 - [ ] MCA
 - [ ] PCMCIA
