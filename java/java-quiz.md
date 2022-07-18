@@ -1934,3 +1934,21 @@ System.out.println(buy.substring(x, x+1) + buy.substring(y, y+2))
 - [ ] int x = 1; int y = 3;
 - [ ] int x = 0; int y = 3;
 - [ ] int x = 1; int y = 3;
+
+#### Q132. Which keyword would you add to make this method the entry point of the program?
+
+- [ ] exception
+- [ ] args
+- [x] static
+- [ ] String
+
+[Reference](https://www.geeksforgeeks.org/java-main-method-public-static-void-main-string-args/)
+
+#### Q133. You have a list of Bunny objects that you want to sort by weight using Collections.sort. What modification would you make to the Bunny class?
+
+- [x] Implement the comparable interface by overriding the compareTo method.
+- [ ] Add the keyword default to the weight variable.
+- [ ] Override the equals method inside the Bunny class.
+- [ ] Implement Sortable and override the sortBy method.
+
+[Reference](https://www.geeksforgeeks.org/how-to-override-compareto-method-in-java/)
