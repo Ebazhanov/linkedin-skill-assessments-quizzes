@@ -501,3 +501,12 @@
 - [ ] `204`
 
 [Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
+
+#### Q66. API traffic that enters and leaves your organization is normally called _________?
+
+- [ ] `east-west traffic`
+- [ ] `inbound traffic`
+- [x] `north-south traffic`
+- [ ] `external traffic`
+
+[North-South vs East-West Traffic](https://www.snapt.net/glossary/north-south-vs-east-west-traffic)
