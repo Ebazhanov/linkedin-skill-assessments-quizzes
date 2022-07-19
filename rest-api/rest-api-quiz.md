@@ -493,7 +493,8 @@
 - [ ] A,D,G,H
 - [ ] A,C,E,G
 
-#### Q65. To create a new resource, what HTTP response code should you receive?
+
+#### Q65. To create a new resource, what HTTP response code should you receive? 
 
 - [ ] `405`
 - [x] `201`
