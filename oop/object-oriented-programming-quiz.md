@@ -159,9 +159,15 @@
 - [x] multiple
 - [ ] any type of inheritance
 - [ ] multilevel
-- [x] hierarchical
+- [ ] hierarchical
 
-_NOTE_: Hybrid inheritance is a composition of multiple and hierarchical inheritances
+> Single Inheritance is where a derived class inherits properties and behaviour from a single base class. Example: Class A → Class B.
+Hierarchical Inheritance is where more than one derived class is created from a single base class. Example: Class A → Class B → Class C.
+Multiple Inheritance is for deriving a class from multiple base classes. Here, the child objects programmers create will have combined aspects of characteristics and features from multiple parent classes. These objects do follow their hierarchies of base classes.
+Multilevel Inheritance is where a child class is derived from another derived class. This feature carries combined aspects of multiple classes and follows their hierarchies.
+Hybrid Inheritance is a heterogeneous feature of using multiple inheritances. Here a child class is derived from one or more combinations of single, hierarchical, and multilevel inheritances. This inheritance is adopted for programs to mix different types of inheritance; for example, when mixing a single inheritance with multiple inheritances or maybe a situation when multiple inheritances are mixed within a single program.
+
+[reference](https://www.codingninjas.com/blog/2021/09/23/hybrid-inheritance-in-java)
 
 #### Q24. A language that does not support polymorphism but supports classes is considered what?
 
@@ -656,3 +662,10 @@ public class Honda extends Car{}
 - [ ] dependency inversion, open/closed principle, encapsulation, and inheritance
 - [ ] interface segregation, abstraction, dependency inversion, and inheritance
 - [x] abstraction, encapsulation, inheritance, and polymorphism
+
+#### Q87. From the SOLID principles of object-oriented programming, which statement best describes the Liskov substitution principle?
+
+- [ ] A class should have only a single responsibility—that is, only changes to one part of the software's specification should be able to affect the specification of the class.
+- [ ] Software entities should be open for extension, but closed for modification.
+- [ ] Many client-specific interfaces are better than one general-purpose interface.
+- [x] objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.

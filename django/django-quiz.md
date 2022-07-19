@@ -635,3 +635,26 @@ model=Planet
 - [ ] PUT
 - [x] PAUSE
 - [ ] PATCH
+
+#### Q69. Which helper function is not provided as a part of django.shortcuts package? ref-
+
+- [x] render_to_request()
+- [ ] render()
+- [ ] redirect()
+- [ ] get_object_or_404()
+
+[Reference](https://docs.djangoproject.com/en/4.0/topics/http/shortcuts/#:~:text=The%20package%20django.,controlled%20coupling%20for%20convenience's%20sake)
+
+#### Q70. Which is a nonstandard place to store templates?
+
+- [x] at the root level of a project
+- [ ] inside the application
+- [ ] in the database
+- [ ] on Github
+
+#### Q71. If you left the 8080 off the command python manage.py runserver 8080 what port would Django use as default?
+
+- [x] 8080
+- [ ] 80
+- [ ] 8000
+- [ ] It would fail to start

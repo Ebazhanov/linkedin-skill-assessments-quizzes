@@ -16,7 +16,7 @@ printf("%d", !b);
 #### Q2. Which of the following is a reason why using this line is considered a bad practice? (_Alternative_: Why is using this line considered a bad practice?)
 
 ```cpp
-Using namespace std;
+using namespace std;
 ```
 
 - [ ] The compiled code is always bigger because of all of the imported symbols.
@@ -66,20 +66,7 @@ v2.push_back(5);
 
 [Reference](https://stackoverflow.com/a/31128162)
 
-#### Q6. What's a benefit of declaring the parameter as a const reference instead of declaring it as a regular object?
-
-```cpp
-int median(const my_array& a);
-```
-
-- [ ] The argument is passed as a reference, so the function receives a copy that can be modified without affecting the original value.
-- [x] The argument is passed as a reference, so if the passed my_array object is large, the program will require less time and memory.
-- [ ] Actually objects can't be passed as regular variables because they require a constructor call. Therefore a const reference is the only way to pass class instances to functions.
-- [ ] There are no benefits because a reference and an object are treated as the same thing.
-
-[Reference](https://stackoverflow.com/a/2627179/10773894)
-
-#### Q7. What's the storage occupied by u1?
+#### Q6. What's the storage occupied by u1?
 
 ```cpp
 union {
@@ -96,7 +83,7 @@ union {
 
 [Reference](https://en.cppreference.com/w/cpp/language/union)
 
-#### Q8. Which of the following operators is overloadable?
+#### Q7. Which of the following operators is overloadable?
 
 - [ ] `?:`
 - [x] `new`
@@ -105,7 +92,7 @@ union {
 
 [Reference](https://www.tutorialspoint.com/operators-that-cannot-be-overloaded-in-cplusplus)
 
-#### Q9. Which of the following shows the contents of vector pointed by v1 and v2 after running this code?
+#### Q8. Which of the following shows the contents of vector pointed by v1 and v2 after running this code?
 
 ```cpp
 std:: vector<int> *v1 = new std::vector<int>({1,2,3});
@@ -122,7 +109,7 @@ v2->push_back(5);
 
 v1 and v2 point to the same vector.
 
-#### Q10. Which of the following is not a difference between a class and a struct?
+#### Q9. Which of the following is not a difference between a class and a struct?
 
 - [ ] Because structs are part of the C programming language, there are some complexity between C and C++ structs. This is not the case with classes.
 - [ ] Classes may have member functions; structs are private.
@@ -133,7 +120,7 @@ v1 and v2 point to the same vector.
 
 [Reference](https://www.fluentcpp.com/2017/06/13/the-real-difference-between-struct-class/)
 
-#### Q11. Suppose you need to keep a data struct with permission to access some resource based on the days of the week, but you can't use a bool variable for each day. You need to use one bit per day of the week. Which of the following is a correct implementation of a structure with bit fields for this application?
+#### Q10. Suppose you need to keep a data struct with permission to access some resource based on the days of the week, but you can't use a bool variable for each day. You need to use one bit per day of the week. Which of the following is a correct implementation of a structure with bit fields for this application?
 
 - [x] A
 
@@ -180,14 +167,14 @@ typedef struct {
 
 _NOTE_: Correct syntax is that each variable size is 1 bit. `bit` is not a type in C++. [Reference](https://en.cppreference.com/w/cpp/language/bit_field)
 
-#### Q12. What is an lvalue?
+#### Q11. What is an lvalue?
 
 - [ ] It's a constant expression, meaning an expression composed of constants and operations.
 - [x] It's an expression that represents an object with an address.
 - [ ] It's an expression suitable for the left-hand side operand in a binary operation.
 - [ ] It's a location value, meaning a memory address suitable for assigning to a pointer or reference.
 
-#### Q13. What does auto type specifier do in this line of code (since C++11)?
+#### Q12. What does auto type specifier do in this line of code (since C++11)?
 
 ```cpp
 auto x = 4000.22;
@@ -198,7 +185,7 @@ auto x = 4000.22;
 - [ ] It specifies that x is a variable with automatic storage duration.
 - [ ] It specifies that more memory will be allocated for x in case it needs more space, avoiding loss of data due to overflow.
 
-#### Q14. A class template is a **\_**?
+#### Q13. A class template is a **\_**?
 
 - [x] class written with the generic programming paradigm, specifying behavior in terms of type parameter rather than specific type.
 - [ ] blank superclass intended for inheritance and polymorphism.
@@ -207,7 +194,7 @@ auto x = 4000.22;
 
 [Reference](https://www.mygreatlearning.com/blog/templates-in-cpp/)
 
-#### Q15. What is the ternary operator equivalent to this code snippet?
+#### Q14. What is the ternary operator equivalent to this code snippet?
 
 ```cpp
 if(x)
@@ -223,7 +210,7 @@ else
 
 [Reference](https://www.w3schools.com/cpp/cpp_conditions_shorthand.asp)
 
-#### Q16. What is the output of this code?
+#### Q15. What is the output of this code?
 
 ```cpp
 #include <iostream>
@@ -245,14 +232,14 @@ int main(){
 - [ ] `x = 11 and y = 20`  
        `x = 10 and y = 19`
 
-#### Q17. What is the meaning of the two parts specified between parentheses in a range-based for loop, separated by a colon?
+#### Q16. What is the meaning of the two parts specified between parentheses in a range-based for loop, separated by a colon?
 
 - [x] The first is a variable declaration that will hold an element in a sequence. The second is the sequence to traverse.
 - [ ] The first is an iterator, and the second is the increment value to be added to the iterator.
 - [ ] The first is the iterating variable. The second is an `std::pair` that specifies the range (start and end) in which the variable will iterate.
 - [ ] The first is a container object. The second is an `std::pair` that specifies the range (start and end) in which the elements will be accessed within the loop.
 
-#### Q18. What is the output of this piece of code?
+#### Q17. What is the output of this piece of code?
 
 ```cpp
 int8_t a=200;
@@ -267,6 +254,24 @@ else
 - [ ] greater
 - [x] less
 - [ ] There is no output because there is a compiler error.
+
+Note: a variant of the question below.
+
+#### Q18. What is the output of this piece of code?
+
+```cpp
+int8_t a=200;
+uint8_t b=100;
+std::cout<<"a="<<(int)a;
+std::cout<<", b="<<(int)b;
+```
+
+- [x] a=-56, b=100
+- [ ] a=-55, b=100
+- [ ] a=200, b=-156
+- [ ] a=200, b=100
+
+Note: a variant of the question above.
 
 #### Q19. What results from executing this code snippet?
 
@@ -346,7 +351,7 @@ int get_length(char *str) {
 - [ ] The first is the iterating variable, the second is the container in which it should operate, and the third is an exit condition to abort at any time.
 - [ ] The first is the iterating variable name, the second is the starting value for the iterating variable, and the third is the stop value (the last value plus one).
 
-#### Q23. What is printed from this code?
+#### Q23. What does this code print?
 
 ```cpp
 int i = 0;
@@ -874,7 +879,7 @@ int main(){
 
 [Reference](https://en.cppreference.com/w/cpp/header/fstream)
 
-#### Q49. Which of the following is _not_ a consequence of declaring the member variable count of my_class as static?
+#### Q49. Which of the following is _not_ a consequence of declaring the member variable `count` of my_class as static? / Alt.: Which statement is true when declaring the member variable `count` as static?
 
 ```cpp
 class my_class {
@@ -896,21 +901,7 @@ class my_class {
 - [ ] long double
 - [ ] float
 
-#### Q51. What is the output of this piece of code?
-
-```cpp
-int8_t a=200;
-uint8_t b=100;
-std::cout<<"a="<<(int)a;
-std::cout<<", b="<<(int)b;
-```
-
-- [x] a=-56, b=100
-- [ ] a=-55, b=100
-- [ ] a=200, b=-156
-- [ ] a=200, b=100
-
-#### Q52. What is an appropriate way of removing `my_object` as shown below?
+#### Q51. What is an appropriate way of removing `my_object` as shown below?
 
 ```cpp
 my_class *my_object = new my_class();
@@ -921,7 +912,7 @@ my_class *my_object = new my_class();
 - [ ] The garbage collector will destroy the object eventually.
 - [ ] Exiting the scope will destroy the object.
 
-#### Q53. What is the correct way to call the `count` member function for the object pointer called `grades`?
+#### Q52. What is the correct way to call the `count` member function for the object pointer called `grades`?
 
 ```cpp
 class my_array{
@@ -941,7 +932,7 @@ int main(){
 
 [Reference](https://en.cppreference.com/w/c/language/operator_member_access)
 
-#### Q54. What would be the output of this code?
+#### Q53. What would be the output of this code?
 
 ```cpp
 int i0=4, i1=6, i2=8;
@@ -956,7 +947,7 @@ std::cout<<nums[0]<<nums[1]<<nums[2];
 
 [Reference](https://en.cppreference.com/w/cpp/language/array)
 
-#### Q55. Does this code cause a compiler error? If so, why, and if not, what is `child_t`?
+#### Q54. Does this code cause a compiler error? If so, why, and if not, what is `child_t`?
 
 ```cpp
 typedef struct{
@@ -968,11 +959,24 @@ typedef struct{
 ```
 
 - [ ] Yes, it causes a compiler error because the colon character is not allowed in struct definitions.
-- [x] and `child_t` is a type defined as a structure with bit fields. It has 4 bits for age and 1 bit for gender in the first byte, and 2 bits for size in the second byte.
+- [x] No, and `child_t` is a type defined as a structure with bit fields. It has 4 bits for age and 1 bit for gender in the first byte, and 2 bits for size in the second byte.
 - [ ] Yes, it causes a compiler error because there is an unnamed field.
 - [ ] Yes, it causes a compiler error because one field is defined as having a size of 0.
 
 [Reference](https://en.cppreference.com/w/cpp/language/bit_field)
+
+#### Q55. What is this expression equivalent to?
+
+```cpp
+A->B
+```
+
+- [ ] `*(A.B)`
+- [ ] `B=A`
+- [x] `(*A).B`
+- [ ] `&A.B`
+
+Note: a simpler variant of the question below.
 
 #### Q56. What is this expression equivalent to?
 
@@ -984,6 +988,8 @@ A->B->C->D
 - [ ] `*A.*B.*C.*D`
 - [ ] `&A.&B.&C.&D`
 - [x] `*(*((*A).B).C).D`
+
+Note: a more complex variant of the question above.
 
 #### Q57. What does this function do?
 
@@ -1087,14 +1093,9 @@ void std::mutex::lock(){
 }
 ```
 
-#### Q61. What is the purpose of a destructor?
+Note: variant of the question below.
 
-- [x] It allows the programmer to write the necessary code to free the resources acquired by the object prior to deleting the object itself.
-- [ ] It deletes an object. One example of a destructor is the `delete()` function.
-- [ ] It terminates a program. This may be achieved as a regular function call or as an exception.
-- [ ] There are no destructors in C++.
-
-#### Q62. What is the main difference between these two Functions?
+#### Q61. What is the main difference between these two Functions?
 
 ```cpp
 std::mutex::lock()
@@ -1106,20 +1107,29 @@ std::mutex::try_lock()
 - [ ] `lock()` enforces preemption, whereas `try_lock()` suggests preemption.
 - [ ] If the mutex is not available, `try_lock()` returns with a corresponding code, whereas `lock()` snatches the mutex from the thread that currently has it.
 
+Note: variant of the question above.
+
 [Reference](https://en.cppreference.com/w/cpp/thread/mutex/try_lock)
+
+#### Q62. What is the purpose of a destructor?
+
+- [x] It allows the programmer to write the necessary code to free the resources acquired by the object prior to deleting the object itself.
+- [ ] It deletes an object. One example of a destructor is the `delete()` function.
+- [ ] It terminates a program. This may be achieved as a regular function call or as an exception.
+- [ ] There are no destructors in C++.
 
 #### Q63. What is one benefit of declaring the parameter as a `const` reference instead of declaring it as a regular object?
 
 ```cpp
-int median(const my_array& a)
+int calculateMedian(const my_array& a)
 ```
 
 - [ ] Actually, objects cannot be passed as regular variables, because they require a constructor call. Therefore, a `const` reference is the only way to pass class instances to functions.
 - [ ] There are no benefits because a reference and an object are treated as the same thing.
-- [x] The `const` qualifier Forbids the code to modify the argument, so the programmer can rest assured that the source object will remain unchanged.
+- [x] The `const` qualifier forbids the code to modify the argument, so the programmer can rest assured that the source object will remain unchanged. / Alt.: The argument is passed as a reference, so if the passed my_array object is large, the program will require less time and memory.
 - [ ] The argument is passed as a reference, so the Function receives a copy that can be modified without affecting the original variable.
 
-Note: This one is similar to Q6, but focuses on the `const` keyword.
+[Reference](https://stackoverflow.com/a/2627179/10773894)
 
 #### Q64. What is an include guard?
 
@@ -1173,16 +1183,16 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
 
 [Reference](https://www.educba.com/c-plus-plus-double/)
 
-#### Q68. Other than shifting bits to the left, what is the << oprator used for ?
+#### Q68. Other than shifting bits to the left, what is the << operator used for ?
 
 - [ ] shifting characters to the left in a string.
 - [x] inserting characters into an output stream like std::cout.
 - [ ] comparing floating point numbers as less-than.
 - [ ] assigning a variable to a reference.
 
-#### Q69. Which choice is a reason to specify the type of a pointer instead of using `void *`, which works as a pointer ro any type?
+#### Q69. Which choice is a reason to specify the type of a pointer instead of using `void *`, which works as a pointer to any type?
 
-- [ ] The compiler needs the dara type to make sure that the pointer is not going to be used on illegal non-pointable types such as functions, labels, pointers, and reference.
+- [ ] The compiler needs the data type to make sure that the pointer is not going to be used on illegal non-pointable types such as functions, labels, pointers, and reference.
 - [ ] `void *` does not work for any type. The language does not allow assigning anything other than `void` to a pointer to `void *`.
 - [x] The compiler needs the data type to know how much memory to allocate for the pointer, because different data types require different pointer lengths.
 - [ ] Yes, it causes a compiler error because one field is defined as having a size of 0.
@@ -1193,7 +1203,7 @@ Note: This one is similar to Q6, but focuses on the `const` keyword.
 
 ```cpp
 #include <iostream>
-char str[20]'
+char str[20];
 int main(){
     std::cout << "What's your name? ";
     str << std::cin
@@ -1207,45 +1217,21 @@ int main(){
 - [ ] The address of `str` is supposed to be used. That is `&str` instead of `str`.
 - [x] The input operator flow is inverted. it should start from `std::cin` and then flow (>>) into `str`.
 
-#### Q71. What is this expression equivalent to?
-
-```cpp
-A->B
-```
-
-- [ ] `*(A.B)`
-- [ ] `B=A`
-- [x] `(*A).B`
-- [ ] `&A.B`
-
-#### Q72. Which statement is true when declaring the member variable `count` as static?
-
-```cpp
-class my_class{
-    public: static int count;
-};
-```
-
-- [ ] All objects that try to access their count member variable actually refer to the only class-bound static count variable.
-- [ ] The variable is allocated only once, regardless of how many objects are instantiated, because it is bound to the class itself, not its instances.
-- [ ] The variable existd when no objects of the class have been defined, so it can be modified at any point in the source code.
-- [x] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
-
-#### Q73. When placed in a valid execution context, which statement will dynamically allocate memory from the heap for an integer of value 11?
+#### Q71. When placed in a valid execution context, which statement will dynamically allocate memory from the heap for an integer of value 11?
 
 - [ ] `int anInt = new int(11);`
 - [ ] `int* anInt = new int[11];`
 - [ ] `int anInt = new int[11];`
 - [x] `int* anInt = new int(11);`
 
-#### Q74. Which choice best describes the type `long`?
+#### Q72. Which choice best describes the type `long`?
 
 - [x] an integer number of at least 32 bits
 - [ ] a string with more than 255 characters
 - [ ] a pointer
 - [ ] a 64-bit floating point number
 
-#### Q75. Which of the following types has the closest functionality to a class?
+#### Q73. Which of the following types has the closest functionality to a class?
 
 - [x] `struct`
 - [ ] `union`
@@ -1254,7 +1240,7 @@ class my_class{
 
 [Reference](https://en.cppreference.com/w/c/language/struct)
 
-#### Q76. Given these records in a map, how will you update the value for the key "Sinead" to 22?
+#### Q74. Given these records in a map, how will you update the value for the key "Sinead" to 22?
 
 ![image](images/Q79.png)
 
@@ -1263,14 +1249,14 @@ class my_class{
 - [ ] `marks["Sinead"] -> 22`
 - [ ] `marks["Sinead"].value = 22`
 
-#### Q77. Why can the std::sort receive a function object as one of its parameters?
+#### Q75. Why can the std::sort receive a function object as one of its parameters?
 
 - [ ] `The std::sort function is a template. The programmer is free to enter the sorting algorithm in a function object as an argument.`
 - [ ] `Actually, std::sort takes only one argument, which is the container to be sorted.`
 - [ ] `std::sort operates on a template container. The compiler does not know how to relationally compare the values it contains, so a function must be provided to do the comparison.`
 - [ ] `std::sort will use the parameter function as an error handler. The function will be called if an error occurs.`
 
-#### Q78. What will happen when you execute this code snippet?
+#### Q76. What will happen when you execute this code snippet?
 
 ```
 #include <iostream>
@@ -1287,7 +1273,7 @@ std::cout << b;
 - [ ] `6 will be printed on standard output, with compilation warnings generated.`
 - [ ] `5 will be printed on standard output, with compilation warnings generated.`
 
-#### Q79. Which access specifier does not allow class members to be accessed from outside the class, but allows them to be accessed by derived classes?
+#### Q77. Which access specifier does not allow class members to be accessed from outside the class, but allows them to be accessed by derived classes?
 
 - [ ] guarded
 - [x] protected

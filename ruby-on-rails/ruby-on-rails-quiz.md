@@ -806,3 +806,81 @@ raise ActiveRecord::RecordNotFound
   render json: { message: 'User not found' }, status: :user_not_found
 end
 ```
+
+#### Q59. What decides which controller receives which requests?
+
+- [ ] model
+- [ ] view
+- [ ] web server
+- [x] router
+
+#### Q60. When rendering a partial in a view, how would you pass local variables for rendering?
+
+- [ ] `<%= render partial: "nav", globals: {selected: "about"} %>`
+- [x] `<%= render partial: "nav", local_variables: {selected: "about"} %>`
+- [ ] `<%= render partial: "nav", locals: {selected: "about"} %>`
+- [ ] `<%= render partial: "nav", selected: "about"} %>`
+
+#### Q61. Given this code, and assuming `@user` is an instance of `User` that has an assigned location, which choice would be used to return the user's city?
+
+```ruby
+    class Location < ActiveRecord::Base
+        # has database columns for :city, :state
+        has_many :users
+    end
+    class User < ActiveRecord::Base
+        belovngs_to :location
+
+        delegate :city, :state, to: :location, allow_nil: true, prefix: true
+    end
+```
+
+- [x] `@user.user_city`
+- [ ] `@user.location_city`
+- [ ] `@user.city`
+- [ ] `@user.try(:city)`
+
+#### Q62. Where would this code most likely be found in a Rails project?
+
+`scope :active, lambda { where(:active => true) }`
+
+- [x] an Active Record model
+- [ ] an ActionView template
+- [ ] an ApplicationHelper file
+- [ ] an ActionController controller
+
+#### Q63. What is a standard prerequisite for implementing Single Table Inheritance (STI)?
+
+- [ ] The models used for STI must mix in the module `ActiveRecord::STI`
+- [ ] All models used for STI must include "self.abstract_class=true".
+- [ ] All database tables used for STI must be related to each other using a foreign key.
+- [ ] The database table used for STI must have a column named "type".
+
+#### Q64. A way that views can share reusable code, such as formatting a date, is called a \_?
+
+- [x] helper
+- [ ] utility
+- [ ] controller
+- [ ] formatter
+
+#### Q65. How do you add Ruby code inside Rails views and have its result outputted in the HTML file?
+
+- [ ] Insert Ruby code inside standard HTML files and surround it with `<% %>`. The web server will handle the rest.
+- [ ] Create an embedded Ruby file `(.html.erb)` and surround the Ruby code with `<% %>`
+- [ ] Put the code in `an.rb. file` and include it in a `<link>` tag of an HTML file.
+- [x] Create an embedded Ruby file `(.html.erb)` and surround the Ruby code with `<%= %>`.
+
+#### Q66.You are working with a large database of portfolios that sometimes have an associated image. Which statement best explains the purpose of includes(:image) in this code?
+
+```
+@portfolios = Portfolio.includes(:image).limit(20)
+
+@portfolios.each do |portfolio|
+    puts portfolio.image.caption
+end
+```
+
+- [ ] It preloads the images files using asset pipeline.
+- [ ] It selects only portfolios that have an image attached.
+- [ ] It includes the number of associated images when determining how many records to return.
+- [x] It will execute two database queries of 21 database queries.

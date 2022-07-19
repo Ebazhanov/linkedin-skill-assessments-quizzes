@@ -451,19 +451,19 @@ mvn install
 - [ ] source code style
 - [x] builds
 
-#### Q58. Below is the definition of a mirror in settings.xml. What does the element <mirrorOf>*</mirrorOf> tell Maven to do?
+#### Q58. Below is the definition of a mirror in settings.xml. What does the element <mirrorOf>\*</mirrorOf> tell Maven to do?
 
 '''
 <mirro>
-    <id>internal-repo</id>
-    <url>http://repo.mycompany.com/proxy</url>
-    <mirrorOf>*</mirroOf>
+<id>internal-repo</id>
+<url>http://repo.mycompany.com/proxy</url>
+<mirrorOf>\*</mirroOf>
 </mirror>
 '''
 
 - [ ] Use a sigle repository by having it mirror all repository requests
 - [x] Mirror all repositories except for http://repomycompany.com/proxy.
-- [ ] Mirro any repositories with * in the name.
+- [ ] Mirro any repositories with \* in the name.
 - [ ] Use a mirror repository for every repository defined in the POM file.
 
 ### Q59. How do you generate a site for a project with Maven?
@@ -480,9 +480,9 @@ mvn install
 - [ ] USER_HOME/maven/repository
 - [ ] /repo
 
-### Q61. A phase is a step in ____.
+### Q61. A phase is a step in \_.
 
-- [ ] the complie goal 
+- [ ] the complie goal
 - [ ] the development process
 - [x] the build lifecycle
 - [ ] the POM file

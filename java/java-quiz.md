@@ -1913,3 +1913,24 @@ for(int i=0; i<30; i+=x) {}
 - [ ] JDK; JRE
 
 [Reference](https://stackoverflow.com/questions/1906445/what-is-the-difference-between-jdk-and-jre)
+
+#### Q130. Which packages are part of Java Standard Edition
+
+- [ ] java.net
+- [ ] java.util
+- [ ] java.lang
+- [x] All above
+
+[Reference](https://docs.oracle.com/en/java/javase/11/docs/api/allpackages-index.html)
+
+#### Q131. What values for x and y will cause this code to print "btc"?
+
+```java
+String buy = "bitcoin";
+System.out.println(buy.substring(x, x+1) + buy.substring(y, y+2))
+```
+
+- [x] int x = 0; int y = 2;
+- [ ] int x = 1; int y = 3;
+- [ ] int x = 0; int y = 3;
+- [ ] int x = 1; int y = 3;

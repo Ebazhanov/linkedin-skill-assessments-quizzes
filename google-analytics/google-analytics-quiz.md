@@ -381,7 +381,7 @@
 - [ ] Referral
 - [ ] Organic Search
 
-#### Q54. Which is an example of a micro goal?
+#### Q54. Which choice is an example of a micro goal?
 
 - [x] signing up for an account after clicking an ad
 - [ ] playing a video before signing up
@@ -564,3 +564,26 @@
 - [ ] Visitors, Visits, Actions, and Catalog
 - [x] Users, Sessions, Hits, and Products
 - [ ] Users, Sessions, Actions, and Catalog
+
+#### Q80. What is a view filter?
+
+- [ ] a way to permanently modify data after it appears in reports
+- [ ] a way to temporarily modify data before it appears in reports
+- [x] a way to temporarily modify data after it appears in reports
+- [ ] a way to permanently modify data before it appears in reports
+
+#### Q81. How would you access to this report?
+
+![checkout](https://i.imgur.com/8xDRzAI.jpeg)
+
+- [ ] Ecommerce > Sales Performance
+- [ ] Goals > Goal Flow
+- [x] Ecommerce > Checkout Behavior
+- [ ] Events > Event Flow
+
+#### Q82. If your site was accessible at both / and /home.html, what do you configure to consolidate entries under /?
+
+- [x] default page
+- [ ] master view
+- [ ] master page
+- [ ] default view

@@ -105,21 +105,36 @@ mysql < file.sql > file.txt
 - [ ] the error output of the MySQL command
 - [x] the non-error output of the MySQL command
 
-#### Q11. How does the SUID or setuid affect executable commands?
+Note: check the question below for a variant.
+
+#### Q11. What will be the difference between the output on the screen and the contents of out.txt
+
+```bash
+mysql < file.sql > out.txt
+```
+
+- [ ] The output on the screen will be identical to out.txt
+- [x] There will be no output on the screen as it's being redirected to out.txt.
+- [ ] The output on the screen will be identical to out.txt plus line numbers.
+- [ ] The out.txt file will hold STDERR and STDOUT will go to the screen.
+
+Note: check the question above for a variant.
+
+#### Q12. How does the SUID or setuid affect executable commands?
 
 - [ ] When the command creates files, they will be owned by the group owner of the command.
 - [ ] The SUID bit allows anyone to execute the command no matter what other permissions are set.
 - [x] When the command is executed, its running privileges elevate to the user owner of the command.
 - [ ] When the command is executed, its running privileges elevate to the group owner of the command.
 
-#### Q12. In order to extract text from the first column of file called textfile, which command would you use?
+#### Q13. In order to extract text from the first column of file called textfile, which command would you use?
 
 - [ ] `cat {$1,textfile}`
 - [ ] `cat textfile | awk [print $1]`
 - [x] `cat textfile | awk '{print $1}'`
 - [ ] `awk textfile {print $1}`
 
-#### Q13. What is the keyboard shortcut to call up the Bash history search as shown below?
+#### Q14. What is the keyboard shortcut to call up the Bash history search as shown below?
 
 ```bash
 (reverse-i-search)`':
@@ -130,14 +145,14 @@ mysql < file.sql > file.txt
 - [x] Ctrl + R
 - [ ] Alt + R
 
-#### Q14. Which arithmetic expression will give the most precise answer?
+#### Q15. Which arithmetic expression will give the most precise answer?
 
 - [ ] `var=$( expr 10 / 8 )`
 - [ ] `(( var= 10 /8 ))`
 - [ ] `var=$(( 10 / 8 ))`
 - [x] `var=$(echo 'scale=2; 10 / 8' | bc)`
 
-#### Q15. What is the result of this script?
+#### Q16. What is the result of this script?
 
 ```bash
 txt=Penguins
@@ -149,7 +164,7 @@ txt=Penguins
 - [ ] 1, representing 'false', because the variable "txt" is longer than eight characters
 - [x] 1, representing 'false', because the variable "txt" does not contain eight lowercase letters between a and z
 
-#### Q16. How would you change your Bash shell prompt to the following?
+#### Q17. How would you change your Bash shell prompt to the following?
 
 ```bash
 HAL>
@@ -160,7 +175,7 @@ HAL>
 - [x] `export PS1="HAL>"`
 - [ ] `PS1="HAL\>"`
 
-#### Q17. What is the output of this code?
+#### Q18. What is the output of this code?
 
 ```bash
 VAR="/var/www/html/website.com/html/"
@@ -172,21 +187,21 @@ echo "${VAR#*/html}"
 - [ ] `/var/www/html/website.com/`
 - [ ] Nothing will be echoed on the screen.
 
-#### Q18. If prompted for text at the standard input, you can tell the command you're done entering text with what key combination?
+#### Q19. If prompted for text at the standard input, you can tell the command you're done entering text with what key combination?
 
 - [ ] Ctrl + A (Windows) or Command + A (Mac)
 - [ ] Ctrl + E (Windows) or Command + E (Mac)
 - [x] Ctrl + D (Windows) or Command + D (Mac)
 - [ ] Ctrl + Z (Windows) or Command + Z (Mac)
 
-#### Q19. In order for a Bash script to be executed like an OS command, it should start with a shebang line. What does this look like?
+#### Q20. In order for a Bash script to be executed like an OS command, it should start with a shebang line. What does this look like?
 
 - [x] `#!/usr/bin/env bash`
 - [ ] `~/usr/bin/env bash`
 - [ ] `'$!/usr/bin/env bash`
 - [ ] `#/usr/bin/env bash`
 
-#### Q20. What line of Bash script probably produced the output shown below?
+#### Q21. What line of Bash script probably produced the output shown below?
 
 ```bash
 The date is: Sun Mar 24 12:30:06 CST 2019!
@@ -197,7 +212,7 @@ The date is: Sun Mar 24 12:30:06 CST 2019!
 - [ ] `echo "The date is: (date)!"`
 - [x] `echo "The date is: $(date)!"`
 
-#### Q21. Suppose your current working directory is your home directory. How could you run the script demo.sh that is located in your home directory? Find three correct answers.
+#### Q22. Suppose your current working directory is your home directory. How could you run the script demo.sh that is located in your home directory? Find three correct answers.
 
 ```bash
 A. /home/demo.sh
@@ -212,7 +227,7 @@ E. bash demo.sh
 - [ ] C, D, E
 - [ ] B, D, E
 
-#### Q22. How could you get a list of all .html files in your tree?
+#### Q23. How could you get a list of all .html files in your tree?
 
 - [ ] `find . -type html`
 - [ ] `find . -name *.html`
@@ -221,7 +236,7 @@ E. bash demo.sh
 
 The second seems well, but will expand the \* if there is any .html file on your working directory.
 
-#### Q23. What would be in out.txt?
+#### Q24. What would be in out.txt?
 
 ```bash
 cat < in.txt > out.txt
@@ -232,7 +247,7 @@ cat < in.txt > out.txt
 - [x] It would be the contents of in.txt.
 - [ ] Nothing. The redirect will create a new empty file but there will not be any output from the cat command to redirect.
 
-#### Q24. What does this bash statement do?
+#### Q25. What does this bash statement do?
 
 ```bash
 (( $a == $b ))
@@ -244,27 +259,27 @@ echo $?
 - [ ] It returns `$b` if it is larger than `$a`.
 - [ ] It returns `$a` if it is larger than `$b`.
 
-#### Q25. What do you use in a case statement to tell Bash that you're done with a specific test?
+#### Q26. What do you use in a case statement to tell Bash that you're done with a specific test?
 
 - [x] `; ;`
 - [ ] `: :`
 - [ ] `done`
 - [ ] `$$`
 
-#### Q26. What does the asterisk represent in this statement?
+#### Q27. What does the asterisk represent in this statement?
 
 ```bash
-<em>#!/usr/bin/env bash</em>
+#!/usr/bin/env bash
 case $num in
 	1)
 	echo "one"
-	; ;
+	;;
 	2)
 	echo "two"
-	; ;
+	;;
 	*)
 	echo "a mystery"
-	; ;
+	;;
 esac
 ```
 
@@ -273,21 +288,21 @@ esac
 - [ ] the action of all of the other cases combined together
 - [ ] an action that is taken for any input, even if it matches a specified condition
 
-#### Q27. What Bash script will correctly create these files?
+#### Q28. What Bash script will correctly create these files?
 
 - [ ] `touch file{1+10}.txt`
 - [ ] `touch file{1-10}.txt`
 - [x] `touch file{1..10}.txt`
 - [ ] `touch file(1..10).txt`
 
-#### Q28. Which variable would you check to verify that the last command executed successfully?
+#### Q29. Which variable would you check to verify that the last command executed successfully?
 
 - [ ] `$$`
 - [x] `$?`
 - [ ] `$!`
 - [ ] `$@`
 
-#### Q29. What is the output of this script?
+#### Q30. What is the output of this script?
 
 ```bash
 #!/bin/bash
@@ -301,7 +316,9 @@ echo ${!fname}
 - [ ] Syntax error
 - [ ] blank
 
-#### Q30. What will be the output of this script?
+[reference](https://unix.stackexchange.com/questions/41292/variable-substitution-with-an-exclamation-mark-in-bash)
+
+#### Q31. What will be the output of this script?
 
 ![question](images/Q30/question.png)
 
@@ -361,7 +378,7 @@ ll | sed -e 's,file,text,g'
 ..
 ```
 
-#### Q31. What is wrong with this script?
+#### Q32. What is wrong with this script?
 
 ```bash
 #!/bin/bash
@@ -376,21 +393,21 @@ fi
 - [x] It will fail if the user hits the Enter (Return) key without entering a pet name when prompted.
 - [ ] The then statement needs to be on a separate line.
 
-#### Q32. How can you gather history together for multiple terminals?
+#### Q33. How can you gather history together for multiple terminals?
 
 - [ ] It just works by default.
 - [ ] `history --shared`
 - [ ] `history --combined`
 - [x] `shopt -s histappend`
 
-#### Q33. What is the difference between the $@ and $\* variables?
+#### Q34. What is the difference between the $@ and $\* variables?
 
 - [x] `$@` treats each quoted argument as a separate entity. `$*` treats the entire argument string as one entity.
 - [ ] `$*` treats each quoted argument as a separate entity. `$@` treats the entire argument string as one entity.
 - [ ] `$*` is used to count the arguments passed to a script, `$@` provides all arguments in one string.
 - [ ] `$*` is the wildcard that includes all arguments with word splitting, `$@` holds the same data but in an array.
 
-#### Q34. Which command is being run in this script to check if file.txt exists?
+#### Q35. Which command is being run in this script to check if file.txt exists?
 
 ```bash
 if [ -f file.txt ]; then
@@ -403,7 +420,7 @@ fi
 - [x] `the built-in [ command`
 - [ ] `/usr/bin/[[`
 
-#### Q35. What will be the output of this script?
+#### Q36. What will be the output of this script?
 
 ```bash
 #!/bin/bash
@@ -419,14 +436,14 @@ echo "${Linux[@]}"
 - [ ] Fedora Suse
 - [x] Debian Redhat Ubuntu Fedora Suse
 
-#### Q36. Which file allows you to save modifications to the shell environment across sessions?
+#### Q37. Which file allows you to save modifications to the shell environment across sessions?
 
 - [ ] `/etc/bash.conf`
 - [x] `~/.profile`
 - [ ] `/etc/bashprofile`
 - [ ] `~/profile`
 
-#### Q37. Given the listed permissions on data.txt is it possible that user2 could have read, write, and execute permissions on data.txt?
+#### Q38. Given the listed permissions on data.txt is it possible that user2 could have read, write, and execute permissions on data.txt?
 
 ```bash
 $ ls -l
@@ -439,7 +456,7 @@ total 0
 - [ ] It's possible that SELinux provides read, write, and execute permissions for user2 which are not visible with `ls -l`.
 - [ ] Yes, the `+` at the end of the 10-digit permission string signifies there's an extended attribute set. This could give user2 permissions to read, write, and execute data.txt.
 
-#### Q38. What does this script accomplish?
+#### Q39. What does this script accomplish?
 
 ```bash
 #!/bin/bash
@@ -456,7 +473,7 @@ done
 - [ ] It creates an indexed array of the associative array named ARRAY. It then uses a C-style for loop and the indexed array to loop through all items in the associative array, outputting the key and value of each array item using the index number.
 - [ ] It creates an associative array named ARRAY, which it loops through using a C-style for loop and the index numbers of each item in the associative array's keys, outputting the value of each item.
 
-#### Q39. What file would match the code below?
+#### Q40. What file would match the code below?
 
 ```bash
 ls Hello[[.vertical-line.]]World
@@ -467,7 +484,7 @@ ls Hello[[.vertical-line.]]World
 - [ ] `Hello[[.vertical-line.]]World`
 - [x] `Hello|World`
 
-#### Q40. What will be in out.txt?
+#### Q41. What will be in out.txt?
 
 ```bash
 ls nonexistentfile | grep "No such file" > out.txt
@@ -478,7 +495,7 @@ ls nonexistentfile | grep "No such file" > out.txt
 - [x] Nothing, out.txt will be empty.
 - [ ] It will be the contents of nonexistentfile.
 
-#### Q41. For the script to print "Is numeric" on screen, what would the user have to enter when prompted?
+#### Q42. For the script to print "Is numeric" on screen, what would the user have to enter when prompted?
 
 ```bash
 #!/bin/bash
@@ -496,17 +513,6 @@ fi
 - [x] Due to a syntax error it is impossible to get the script to print "Is numeric"
 
 The regex must not be quoted to work properly.
-
-#### Q42. What will be the difference between the output on the screen and the contents of out.txt
-
-```bash
-mysql < file.sql > out.txt
-```
-
-- [ ] The output on the screen will be identical to out.txt
-- [x] There will be no output on the screen as it's being redirected to out.txt.
-- [ ] The output on the screen will be identical to out.txt plus line numbers.
-- [ ] The out.txt file will hold STDERR and STDOUT will go to the screen.
 
 #### Q43. How would you find the last copy command run in your history?
 
@@ -532,7 +538,7 @@ mysql < file.sql > out.txt
 #### Q46. In the script shown below, what is **greeting**?
 
 ```bash
-<em>#!/usr/bin/env bash</em>
+#!/usr/bin/env bash
 greeting="Hello"
 echo $greeting, everybody!
 ```
@@ -540,14 +546,16 @@ echo $greeting, everybody!
 - [ ] a command
 - [ ] a loop
 - [ ] a parameter
-- [x] a vairable
+- [x] a variable
 
 #### Q47. Which statement checks whether the variable num is greater than five?
 
-- [ ] `(( \$num -gt 5 ))`
+- [ ] `(( num -gt 5 ))`
 - [ ] `[[$num -lt 5]]`
-- [x] `(( \$num > 5 ))`
-- [ ] `\$num > 5`
+- [x] `(( num > 5 ))`
+- [ ] `num > 5`
+
+[reference](https://tldp.org/LDP/abs/html/dblparens.html)
 
 #### Q48. Using Bash extended globbing, what will be the output of this command?
 
@@ -600,6 +608,8 @@ bananapple
 banapple
 pineapple
 ```
+
+[reference](https://www.linuxjournal.com/content/bash-extended-globbing)
 
 #### Q49. When used from within a script, which variable contains the name of the script?
 
@@ -751,6 +761,8 @@ fi
 - [ ] SELinux policy rules are never checked after DAC rules.
 - [ ] None of these
 
+[reference](https://unix.stackexchange.com/questions/16828/what-roles-do-dac-file-permissions-acl-and-mac-selinux-play-in-linux-file-s)
+
 #### Q60. Which does the below command do?
 
 ```bash
@@ -809,7 +821,7 @@ echo "$var" | sed _____
 - [ ] sh command1; command2
 - [ ] { command1; command2; }
 - [ ] (( command1; command2 ))
-- [x] command1; command2 )
+- [x] command1; command2
 
 #### Q67. What are the results of the command with a user named jon?
 
@@ -948,8 +960,8 @@ This is line 3.
 ```bash
 #!/bin/bash
 
-echo 123446789 > out. txt
-exec 3<> out. txt
+echo 123446789 > out.txt
+exec 3<> out.txt
 read -n 4 <&3
 echo -n 5 >&3
 exec 3>&-
@@ -961,6 +973,8 @@ exec 3>&-
 - [ ] the number 5, which is written to the file using echo
 
 See [I/O Redirection](https://tldp.org/LDP/abs/html/io-redirection.html)
+
+See also: [What is the difference between "echo" and "echo -n"?](https://stackoverflow.com/questions/30761986/what-is-the-difference-between-echo-and-echo-n)
 
 #### Q75. Which variable contains the process ID (PID) of the script while it's running?
 
@@ -975,42 +989,22 @@ See [I/O Redirection](https://tldp.org/LDP/abs/html/io-redirection.html)
 #!/bin/bash
 shopt -s extglob
 VAR='     This is...     a string of characters     '
-VAR=${VAR##+([[:space:]])}; ${VAR=${VAR%%+([[:space:]])};
+VAR=${VAR##+([[:space:]])}; VAR=${VAR%%+([[:space:]])};
 echo "$VAR"
 ```
 
-- [ ] <pre>     This is...     a string of characters</pre>
-- [ ] <pre>     This is...a string of characters</pre>
-- [ ] <pre>This is...     a string of characters</pre>
-- [ ] <pre>This is...a string of characters</pre>
+- [ ] `<pre>     This is...     a string of characters</pre>`
+- [ ] `<pre>     This is...a string of characters</pre>`
+- [ ] `<pre>This is...     a string of characters</pre>`
+- [ ] `<pre>This is...a string of characters</pre>`
 
-#### Q77. Using awk, what would be the output of this command string?
+References:
+1. [What is the meaning of the ${0##...} syntax with variable, braces and hash character in bash?](https://stackoverflow.com/questions/2059794/what-is-the-meaning-of-the-0-syntax-with-variable-braces-and-hash-chara)
+2. [What does expanding a variable as "${var%%r\*}" mean in bash?](https://stackoverflow.com/questions/41859601/what-does-expanding-a-variable-as-varr-mean-in-bash)
 
-```
-echo "1 2 3" | awk '{for (i=1; i<NF; i++) s=s+$i}; END {print s}'
-```
-
-- [ ] 123
-- [ ] 600
-- [ ] 6
-- [x] 3
-
-#### Q78. Which operator tells the shell to run a given command in the background?
+#### Q77. Which operator tells the shell to run a given command in the background?
 
 - [ ] !
 - [ ] &&
 - [x] &
 - [ ] $
-
-#### Q79. What does the + signify at the end of the 10-digit file permissions on data.txt?
-
-```bash
-ls -l
-total 0
--rwx------+ 1 user1 u1 0 Oct 27 10:54 data.txt
-```
-
-- [ ] The + shows that there's an SELinux security context.
-- [ ] The + shows that there's an extended attribute such as immutable set.
-- [x] The + shows that there's and access control list.
-- [ ] The + shows that the sticky bit is set and the file will stay in RAM for speed.

@@ -579,3 +579,17 @@ car#year {
 - [ ] entities
 - [x] elements
 - [ ] attributes
+
+#### Q44. In the XML DOM,what is the setAttribute an example of?
+
+- [ ] node
+- [ ] function
+- [x] method
+- [ ] property
+
+#### Q45. What is not one of the advantages of the XML DOM?
+
+- [ ] The XML DOM is language and platform independent.
+- [ ] The XML DOM is modifiable and dynamic.
+- [ ] The XML DOM is easy to navigate around to find specific information.
+- [x] The XML DOM is efficient with memory and operation speed.

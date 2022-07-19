@@ -99,7 +99,7 @@ for (var i = 1; i <= 4; i++) {
 }
 ```
 
-- [ ]
+- [ ] .
 
 ```javascript
 for (var i = 1; i <= 4; i++) {
@@ -111,17 +111,17 @@ for (var i = 1; i <= 4; i++) {
 }
 ```
 
-- [ ]
+- [ ] .
 
 ```javascript
-while (var i=1; i<=4; i++) {
-  setTimeout(function() {
+for (var i = 1; i <= 4; i++) {
+  setTimeout(function () {
     console.log(i);
-    }, i*1000);
+  }, i * 1000);
 }
 ```
 
-- [x]
+- [x] .
 
 ```javascript
 for (var i = 1; i <= 4; i++) {
@@ -133,7 +133,7 @@ for (var i = 1; i <= 4; i++) {
 }
 ```
 
-- [ ]
+- [ ] .
 
 ```javascript
 for (var j = 1; j <= 4; j++) {
@@ -157,7 +157,7 @@ for (var j = 1; j <= 4; j++) {
 
 #### Q10. Which statement creates a new function called discountPrice?
 
-- [x]
+- [x] .
 
 ```js
 let discountPrice = function (price) {
@@ -165,7 +165,7 @@ let discountPrice = function (price) {
 };
 ```
 
-- [ ]
+- [ ] .
 
 ```js
 let discountPrice(price) {
@@ -173,7 +173,7 @@ let discountPrice(price) {
 };
 ```
 
-- [ ]
+- [ ] .
 
 ```js
 let function = discountPrice(price) {
@@ -181,7 +181,7 @@ let function = discountPrice(price) {
 };
 ```
 
-- [ ]
+- [ ] .
 
 ```js
 discountPrice = function (price) {
@@ -1046,7 +1046,7 @@ setTimeout(() => {
 console.log('Javascript!');
 ```
 
-- [x]
+- [x] .
 
 ```plaintext
 I
@@ -1054,7 +1054,7 @@ Javascript!
 love
 ```
 
-- [ ]
+- [ ] .
 
 ```plaintext
 love
@@ -1062,9 +1062,9 @@ I
 Javascript!
 ```
 
-- [] The output may change with each execution of code and cannot be determined.
+- [ ] The output may change with each execution of code and cannot be determined.
 
-- [ ]
+- [ ] .
 
 ```
 I

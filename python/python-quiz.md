@@ -569,12 +569,24 @@ def sum(a, b):
 **Example**
 
 ```python
-import math
-radius = [1,2,3]
-area = list(map(lambda x: round(math.pi*(x**2), 2), radius))
-area
->>> [3.14, 12.57, 28.27]
+# namedtuple function accepts the following arguments to generate a class
+from collections import namedtuple
+>>> Point = namedtuple('Point',['x','y'])
+>>> point = Point(100, 200)
+>>> point
+    Point(x=100, y=200)
+
+# Which let you use both unpacking and iteration to access
+>>> x, y = point
+>>> print(f'({x}, {y})')
+    (100, 200)
+>>> for coordinate in point:
+        print(coordinate)
+    100
+    200
 ```
+
+(Reference](https://www.geeksforgeeks.org/namedtuple-in-python/?ref=lbp)
 
 #### Q39. What symbol(s) do you use to assess equality between two elements?
 
@@ -1575,7 +1587,7 @@ d = sum(c)
 - [ ] `linalg.det() and .dot()`
 - [ ] `linalg.inv() and .eye()`
 
-#### Q116. What is the correct syntax for creating a vaiable that is bound to a list?
+#### Q116. What is the correct syntax for creating a variable that is bound to a list?
 
 - [ ] `my_list = (2, 'apple', 3.5)`
 - [x] `my_list = [2, 'apple', 3.5]`
@@ -1791,3 +1803,67 @@ _init_() -always executed when the class is being initiated
 - [x] `the count of all True values`
 - [ ] `a type error`
 - [ ] `None`
+
+#### Q134. What will this code print?
+
+```python
+print ("foo" if (256).bit_length() > 8 else "bar")
+```
+
+- [ ] True
+- [x] foo
+- [ ] You will get an error message because constant integer values are not classes.
+- [ ] bar
+
+#### Q135. If you do not explicitly return a value from a function, what happens?
+
+- [ ] If the return keyword is absent, the function will return True.
+- [ ] The function will enter an infinite loop because it will not know when to stop executing its code.
+- [ ] The function will return a RuntimeError if you do not return a value.
+- [x] If the return keyword is absent the function will return None.
+
+#### Q136. it is often the case thet the pandas library is used for **_ data and NumPy for _** data.
+
+- [x] string:numerical
+- [ ] unstructured:structured
+- [ ] numerical:tabular
+- [ ] tabular:numerical
+
+#### Q137. What do you need to do to install additional packages into Python?
+
+- [ ] Use a C compiler like gcc or clang.
+- [x] Use a package manager like pip or conda.
+- [ ] Use an IDE like Notepad++ or Idle.
+- [ ] Use a package manager like NPM or NuGet.
+
+#### Q138. The image below was created using Matplotlib. It is a distribution plot of a list of integers filled with numbers using the function **\_** and plotted with **\_**.
+
+![Q132](images/Q138.png)
+
+- [ ] `random.uniform(0,50);plt.hist`
+- [x] `random.gauss(50,20);plt.hist`
+- [ ] `random();plt.scatter`
+- [ ] `random.triangular(0,50);plt.bar`
+
+[Reference](https://www.geeksforgeeks.org/random-gauss-function-in-python/)
+
+#### Q139. In this code fragment, what will be the values of a and b ?
+
+```python
+import numpy as np
+
+a = np.arange(100)
+b = a[50:60:2]
+```
+
+- [x] a: all integers from 0 to 99 (inclusive) b: all even integers from 50 to 58 (inclusive)
+- [ ] a: all integers from 0 to 100 (inclusive) b: all even integers from 50 to 60 (inclusive)
+- [ ] a: all integers from 0 to 99 (inclusive) b: all even integers from 50 to 60 (inclusive)
+- [ ] a: all integers from 0 to 99 (inclusive) b: all odd integers from 49 to 59 (inclusive)
+
+#### Q140. When using NumPy in Python, how do you check the dimensionality (number and length of dimensions) of an object called my_object?
+
+- [ ] `my_object.get_shape()`
+- [x] `my_object.shape`
+- [ ] `my_object.dim()`
+- [ ] `len(my_object)`

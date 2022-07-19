@@ -244,10 +244,10 @@ SELECT ProductID, ProductName, SerialNumber
 FROM Products______ ;
 ```
 
-- [x] `WHERE SerialNumer LIKE '%10_3'`
-- [ ] `WHERE SerialNumer LIKE ('%10'+'_'+'3')`
-- [ ] `WHERE SerialNumer LIKE '%10"_"3'`
-- [ ] `WHERE SerialNumer LIKE '%10[_]3'`
+- [x] `WHERE SerialNumber LIKE '%10_3'`
+- [ ] `WHERE SerialNumber LIKE ('%10'+'_'+'3')`
+- [ ] `WHERE SerialNumber LIKE '%10"_"3'`
+- [ ] `WHERE SerialNumber LIKE '%10[_]3'`
 
 > The underscore will match any single character so you must bracket it to match a literal `_`, otherwise you could potentially return a serial number ending in '1013', for example.
 
@@ -491,7 +491,7 @@ GROUP BY OrderID
 ORDER BY OrderID;
 ```
 
-- [ ] Yes, a `WHERE` clause cannot be used with an aggregate function.
+- [x] Yes, a `WHERE` clause cannot be used with an aggregate function.
 - [ ] Yes, you cannot `GROUP BY` and `ORDER BY` the same field.
 - [ ] No, there is nothing wrong with this query.
 - [ ] Yes, the `WHERE` clause should use the `SubTotal` alias.
@@ -582,10 +582,10 @@ _______
 
 #### Q46. Suppose you want to have the name of a transaction called myTransaction recorded in the transaction log. Which statement represents the best way to accomplish this?
 
-- [ ] `BEGIN TRAN myTransaction BEGIN LOG;BEGIN TRAN myTransaction BEGIN LOG;`
-- [ ] `BEGIN TRAN myTransaction WITH LOG;BEGIN TRAN myTransaction WITH LOG;`
-- [ ] `BEGIN TRAN myTransaction WITH MARK;BEGIN TRAN myTransaction WITH MARK;`
-- [ ] `BEGIN TRAN WITH MARK myTransaction;BEGIN TRAN WITH MARK myTransaction;`
+- [ ] `BEGIN TRAN myTransaction BEGIN LOG;`
+- [ ] `BEGIN TRAN myTransaction WITH LOG;`
+- [x] `BEGIN TRAN myTransaction WITH MARK;`
+- [ ] `BEGIN TRAN WITH MARK myTransaction;`
 
 #### Q47. Though not currently a requirement, what will a future release of SQL Server require of all SQL statements?Though not currently a requirement, what will a future release of SQL Server require of all SQL statements?
 

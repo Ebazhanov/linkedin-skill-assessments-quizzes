@@ -412,7 +412,7 @@
 
 - [ ] RenderPartial will call an action method of the current controller and render a result inline. RenderAction will render the specified view inline without calling any action method.
 - [ ] RenderAction will call an action method of the current model and render a result inline. RenderPartial will render the specified view inline without calling any action method.
-- [ ] RenderAction will call an action method of the current controller and render a result inline. RenderPartial will render the specified view inline without calling any action method.
+- [x] RenderAction will call an action method of the current controller and render a result inline. RenderPartial will render the specified view inline without calling any action method.
 - [ ] RenderPartial will call an action method of the current model and render a result inline. RenderAction will render the specified view inline without calling any action method.
 
 #### Q55. What is the Liskov substitution principle?
@@ -454,13 +454,15 @@
 #### Q59. Which choice best describes the difference between a namespace and an assembly?
 
 - [ ] Namespace contains code to form MSIL (Microsoft Intermediate Language). An assembly contains a set of unique names.
-- [ ] Namespace is the logical naming decided at design time by the developer. Scope for a particular type is defined at run time using an assembly.
+- [x] Namespace is the logical naming decided at design time by the developer. Scope for a particular type is defined at run time using an assembly.
 - [ ] A namespace has logical units that are physically grouped together. An assembly does not have any classification.
 - [ ] A namespace has logical units that are physically grouped together for assemblies. Assembly classes are available in your program and will be logically grouped.
 
+[Source](https://docs.microsoft.com/en-us/dotnet/standard/assembly/)
+
 #### Q60. What is a tuple?
 
-- [ ] A data structure that has a specific number and sequence of elements
+- [x] A data structure that has a specific number and sequence of elements
 - [ ] An object to store multiple variables of the same type in an array data structure
 - [ ] A group of classes designed specifically for grouping together objects and performing tasks on them
 - [ ] An array whose elements are jagged
@@ -515,7 +517,7 @@
 
 - [ ] There is no way to find this out.
 - [ ] You cannot. [`GC.Collect()`](https://docs.microsoft.com/en-us/dotnet/api/system.gc.collect) is a blocking method, and will return only once the garbage collector is done running.
-- [ ] by calling [`GC.WaitForFullGCComplete()`](https://docs.microsoft.com/en-us/dotnet/api/system.gc.waitforfullgccomplete)
+- [x] by calling [`GC.WaitForFullGCComplete()`](https://docs.microsoft.com/en-us/dotnet/api/system.gc.waitforfullgccomplete)
 - [ ] by calling [`GC.WaitForPendingFinalizers()`](https://docs.microsoft.com/en-us/dotnet/api/system.gc.waitforpendingfinalizers)
 
 #### Q69. What does JIT do in .Net?
@@ -527,9 +529,16 @@
 
 Reference: [Compilation by the JIT compiler](https://docs.microsoft.com/en-us/dotnet/standard/managed-execution-process#compilation-by-the-jit-compiler)
 
-#### Q70. Which statement about a constant variable is not *true*?
+#### Q70. Which statement about a constant variable is not `true`?
 
 - [x] At run time, its value is evaluated.
 - [ ] It cannot be static.
 - [ ] Only at declaration can it be initialized.
 - [ ] At compile time, the value is evaluated.
+
+#### Q71. What is the difference between managed and unmanaged code?
+
+- [x] Managed code is code that is handled by the common language runtime (CLR). Unmanaged code is any code that does not depend on CLR for execution.
+- [ ] Managed code is any code that does not depend on the common language runtime (CLR) for execution. Unmanaged code is code that is handled by the CLR.
+- [ ] Managed code is code that is handled by Microsoft Intermediate Language (MSIL). Unmanaged code is any code that does not depend on MSIL for execution.
+- [ ] Managed code is any code that does not depend on Microsoft Intermediate Language (MSIL) for execution. Unmanaged code is code that is handled by MSIL.

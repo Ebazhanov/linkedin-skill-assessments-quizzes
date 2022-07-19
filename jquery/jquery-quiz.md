@@ -1004,10 +1004,14 @@ $('.leaf').closest('.items');
 $('.leaf').parents('.items');
 ```
 
-- [x] `.closest()` returns `.leaf` and `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
+- [ ] `.closest()` returns `.leaf` and `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
 - [ ] `.closest()` returns `.leaf` and `#sub-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
 - [ ] `.closest()` returns only `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
 - [ ] `.closest()` returns only `#sub-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
+
+[Source: jQuery closest Method](https://www.w3schools.com/jquery/traversing_closest.asp)
+
+**Explanation**: `Considering current HTML code, .closest() returns only #main-menu; .parents() returns only #main-menu; cause both of them are looking for .items class which only exist in the #main-menu. Thus all choices are incorrect.`
 
 #### Q55. What does this line of code do?
 
@@ -1540,3 +1544,17 @@ $('.items').find('li:first-child').fadeOut().next('.active').fadeTo('fast', 0.5)
 - [ ] Use the custom extension with `.has()`.
 - [ ] Start with the custom extension, then use `.find` with a selector that exists in CSS to limit the selection.
 - [ ] Start with a selection that exists in CSS, then refine the selection using `.filter()` with the custom extension.
+
+#### Q79. What is the main difference between the ajaxStop and ajaxComplete global handlers?
+
+- [x] ajaxStop fires when all open requests have completed, while ajaxComplete fires when an individual request completes.
+- [ ] There is no difference. They are aliases of each other.
+- [ ] ajaxStop fires when an error has been encountered, while ajaxComplete fires when a successful request completes.
+- [ ] ajaxComplete fires when all open requests have completed, while ajaxStop fires when an individual request completes.
+
+#### Q80. The :only-child selector selects **\_**.
+
+- [ ] all elements that are child elements.
+- [ ] elements that have no siblings.
+- [ ] elements that have only one child element.
+- [x] only the child elements of a given element.

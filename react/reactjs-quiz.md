@@ -1081,7 +1081,7 @@ function Dish() {
 
 [Reference](https://teamtreehouse.com/community/hey-why-the-logo-of-react-developer-tools-appears-in-red)
 
-#### Q95. How would you modify the constructor to fix this erroe: "ReferenceError: Must call super constructor in derived class before accessing 'this'..."?
+#### Q95. How would you modify the constructor to fix this error: "ReferenceError: Must call super constructor in derived class before accessing 'this'..."?
 
 ```
 class TransIsBeautiful extends React.Component {

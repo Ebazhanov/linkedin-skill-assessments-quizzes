@@ -742,3 +742,23 @@ public int Password
 - [ ] `Thread multitasking adds single-threaded code blocks together.`
 
 [Official Documentation: Threads](https://docs.microsoft.com/en-us/dotnet/standard/threading/threads-and-threading)
+
+#### Q70. What accessibility level does this class field have ?
+
+`private string LastName;`
+
+- [x] It can be used by other code only in the same class or struct.
+- [ ] It can be used by other code in a referenced assembly.
+- [ ] It can be used only by code contained in a derived class.
+- [ ] It can be used by other code in the same assembly.
+
+[Official Documentation: Accessibility Levels](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/accessibility-levels)
+
+#### Q71. How would you correctly declare a jagged array called 'partyInvites' with 10 empty elements?
+
+- [ ] `string[] partyInvites = new string[10];`
+- [x] `string[][] partyInvites = new string[10][];`
+- [ ] `string[][] partyInvites = new string[10]();`
+- [ ] `string <[]> partyInvites = new string <[10]>;`
+
+[Official Documentation: Jagged Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/jagged-arrays)

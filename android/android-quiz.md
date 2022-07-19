@@ -999,3 +999,31 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] `BuildInfo`
 - [ ] `ConfigParams`
 - [ ] `ConfigInfo`
+
+#### Q67. In the ConstraintLayout below, why wouldn't button expand to fill the width of parent?
+
+```
+    xml
+    <androidx.constraintlayout.widget.ConstrantLayout
+        ...>
+	    <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstrantLayout>
+```
+
+- [ ] `The button does not have a size`
+- [x] `The button is not constrained to the end of the parent container`
+- [ ] `Buttons cannot expand beyond their default size`
+- [ ] `The button should have its height set to 0dp as well`
+
+#### Q68. What is not a use case for idling resources in your Espresso tests?
+
+- [ ] `managing system services`
+- [x] `processing user input events`
+- [ ] `loading data from the internet or a local data source`
+- [ ] `perfoming bitmap transformatinos`

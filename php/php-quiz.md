@@ -437,8 +437,8 @@ echo "No, mail is not set";
 
 #### Q43. Assuming that `$first_name` and `$family_name` are valid strings, which statement is invalid?
 
-- [x] `echo $first_name. ' '. $family_name;`
-- [ ] `print $first_name, ' ', $family_name;`
+- [ ] `echo $first_name. ' '. $family_name;`
+- [x] `print $first_name, ' ', $family_name;`
 - [ ] `print $first_name. ' '. $family_name;`
 - [ ] `echo $first_name, ' ', $family_name;`
 
@@ -1088,7 +1088,7 @@ if( isset($user_info['url']) ) {
 ```
 
 - [ ] It directs all users to the same page when they log in.
-- [ ] It is a login script for a user portal on a website.
+- [x] It is a login script for a user portal on a website.
 - [ ] It keeps the user logged in across different browsers.
 - [ ] It sends the user to an error page if they enter the wrong URL
 
@@ -1100,3 +1100,19 @@ if( isset($user_info['url']) ) {
 - [ ] 0.6666666666667
 - [ ] 1
 - [x] fatal error (division by zero)
+
+#### Q90. Can you extend a final defined class?
+
+- [x] No, because a final class or method declaration prevents child class or method overriding.
+- [ ] Specialized versions of built-in classes can be extended by calling the parent's constructor.
+- [ ] Yes, if a final class is defined as private in parent class.
+- [ ] Yes, a final defined class can be used to declare constants.
+
+#### Q91. How can you test if a checkbox is set?
+
+- [x] Use `!empty($_GET['test'])`
+- [x] Use `isset($_GET['test'])`
+- [ ] Use `$_GET['test'] == ''`
+- [ ] all other answers
+
+`Actually both are correct, option 3 is actually testing if a checkbox is not set`

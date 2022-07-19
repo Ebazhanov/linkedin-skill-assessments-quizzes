@@ -282,7 +282,7 @@ git push -u origin master
 - [ ] Run git hotfix with the shortcut name.
 - [ ] Assign a shortcut or command using git options file.
 - [ ] Use the git custom-key command.
-- [x] Create an alias usin the git config command.
+- [x] Create an alias using the git config command.
 
 #### Q29. What is the status of the beta-notes.js file in the following output?
 
@@ -982,4 +982,20 @@ remote repository, named origin, to point to the new remote repository at this l
 - [ ] - when a specific commit needs to be pulled down from the remote repository
 - [ ] - when a hook script needs to be invoked
 
+#### Q121. How would you describe a fokred repository?
+
+- [ ] - a deleted or archived copy of a repository
+- [ ] - a beta release branch of a repository
+- [ ] - a future branch of a repository
+- [x] - a separate copy of a repository
+
 [reference](https://stackoverflow.com/a/9339460/1573267)
+
+#### Q122. How can you exclude untracked files within the working directory from a Git repository?
+
+- [ ] - You cannot exclude the files from the repository.
+- [ ] - Tag the files with excluded.
+- [x] - Add a pattern matching the files to the .gitignore file.
+- [ ] - Add the files to the omitted branch
+
+[reference](https://git-scm.com/docs/gitignore)
