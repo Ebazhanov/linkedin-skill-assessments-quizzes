@@ -661,5 +661,5 @@ C. Some people have already accepted, so you must cancel this meeting and create
 
 - [ ] **By Sender**
 - [ ] **Format Column** (Windows), or **Rules** then **Format Columns** (Mac)
-- [ ] **Group by (Windows), or Rules then Group by (Mac)**
+- [x] **Group by (Windows), or Rules then Group by (Mac)**
 - [ ] **Conditional Formatting** (Windows), or **Rules** then **Categorize** or **Set Category** (Mac)

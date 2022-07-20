@@ -9762,6 +9762,36 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "charafeddine01",
+      "name": "charafeddine01",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68375509?v=4",
+      "profile": "https://github.com/charafeddine01",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Piratepie",
+      "name": "Jasper",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27888345?v=4",
+      "profile": "https://github.com/Piratepie",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "manisgoyal",
+      "name": "Manish Goyal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62842010?v=4",
+      "profile": "https://github.com/manisgoyal",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

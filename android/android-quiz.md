@@ -1027,3 +1027,10 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [x] `processing user input events`
 - [ ] `loading data from the internet or a local data source`
 - [ ] `perfoming bitmap transformatinos`
+
+#### Q69. What is not a type of resource for providing your app with strings?
+
+- [ ] `String`
+- [x] `Text`
+- [ ] `String-array`
+- [ ] `Plurals`
