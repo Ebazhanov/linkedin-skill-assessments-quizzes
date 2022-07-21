@@ -1822,12 +1822,12 @@ print ("foo" if (256).bit_length() > 8 else "bar")
 - [ ] The function will return a RuntimeError if you do not return a value.
 - [x] If the return keyword is absent the function will return None.
 
-#### Q136. it is often the case thet the pandas library is used for **_ data and NumPy for _** data.
+#### Q136. it is often the case that the pandas library is used for **_ data and NumPy for _** data.
 
-- [x] string:numerical
-- [ ] unstructured:structured
-- [ ] numerical:tabular
-- [ ] tabular:numerical
+- [x] string; numerical
+- [ ] unstructured; structured
+- [ ] numerical; tabular
+- [ ] tabular; numerical
 
 #### Q137. What do you need to do to install additional packages into Python?
 
