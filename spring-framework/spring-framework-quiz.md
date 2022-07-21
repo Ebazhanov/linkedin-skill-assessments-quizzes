@@ -855,5 +855,5 @@ class TestConfig {
 
 - [ ] You declare the parameters you need in the advice signature rather than work with Object[] arrays.
 - [ ] You work with a collection of Objects that need to be explicitly casted.
-- [ ] You work with an array of a Generic type T[] instead of Object[] arrays.
+- [x] You work with an array of a Generic type T[] instead of Object[] arrays.
 - [ ] You are able to undo type erasure in the Object[] that is exposed
