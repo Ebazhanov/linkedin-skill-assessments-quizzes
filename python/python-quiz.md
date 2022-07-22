@@ -227,6 +227,8 @@ instance.password
 - [x] It executes one chunk of code if a condition is true, but a different chunk of code if the condition is false.
 - [ ] It tells the computer which chunk of code to run if the is enough memory to handle it, and which chunk of code to run if there is not enough memory to handle it.
 
+[Reference](https://www.scaler.com/topics/python/python-if-else-statement/)
+
 #### Q19. What built-in Python data type is best suited for implementing a queue?
 
 - [ ] dictionary
