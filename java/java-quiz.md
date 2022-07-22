@@ -975,7 +975,7 @@ try {
 
 [Reference](http://erpbasic.blogspot.com/2012/01/inheritance-advantages-and.html#:~:text=Main%20disadvantage%20of%20using%20inheritance,used%20independent%20of%20each%20other.&text=4.,case%20of%20using%20that%20method.)
 
-#### Q64. Declare and initialize an array of 10 ints.
+#### Q64. How would you declare and initialize an array of 10 ints?
 
 - [ ] `Array<Integer> numbers = new Array<Integer>(10);`
 - [ ] `Array[int] numbers = new Array[int](10);`
