@@ -1407,6 +1407,8 @@ class Lambo extends Car {
 - [ ] double
 - [x] BigDecimal
 
+[Reference](https://www.scaler.com/topics/java/primitive-data-types/#types-of-primitive-data-types-in-java)
+
 #### Q101. Which statement about constructors is not ture?
 
 - [ ] A class can have multiple constructors with a different parameter list.
