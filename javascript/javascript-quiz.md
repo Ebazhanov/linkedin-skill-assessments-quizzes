@@ -1171,7 +1171,7 @@ new logThis();
 
 [Reference strict in javascript classes](https://www.w3schools.com/js/js_strict.asp)
 
-#### Q90. What will this code print?
+#### Q90. What is the output of this code?
 
 ```js
 let rainForests = ['Amazon', 'Borneo', 'Cerrado', 'Congo'];
