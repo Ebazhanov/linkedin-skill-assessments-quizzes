@@ -497,7 +497,7 @@ Idea behind the answer: let's go for a quick restart to see whether the problem 
 - [x] 254
 - [ ] 256
 
-#### Q62. Tania was told to address an issue in the UEFI. How is it accessed?
+#### Q62. Tania was told to change a setting in the UEFI. How is it accessed?
 
 - [ ] by using the System Configuration Utility (MSCONFIG)
 - [ ] from the BIOS
