@@ -280,7 +280,7 @@
 {
   "host": "Atlanta",
   "year": 1996,
-  "comments": "Centennial Olympics"
+  "comment": "Centennial Olympics"
 }
 ```
 
@@ -452,7 +452,7 @@ null
 
 ```json
 {
-  "avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]
+  "avengers": ['iron man', 'hulk', 'thor', 'black widow', 'ant man', 'spider man']
 }
 ```
 
