@@ -390,7 +390,7 @@
 - [ ] `parsing`
 - [ ] `browsing`
 
-#### Q53. Which HTTP response code describes a new resource as created successfully?
+#### Q53. To create a new resource, what HTTP response code should you receive?
 
 - [ ] `200`
 - [x] `201`
