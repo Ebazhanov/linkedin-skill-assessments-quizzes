@@ -500,8 +500,8 @@ Idea behind the answer: let's go for a quick restart to see whether the problem 
 #### Q62. Tania was told to address an issue in the UEFI. How is it accessed?
 
 - [ ] by using the System Configuration Utility (MSCONFIG)
-- [x] from the BIOS
-- [ ] from the computer's startup menu
+- [ ] from the BIOS
+- [x] from the computer's startup menu
 - [ ] on the network
 
 #### Q63. What is the technical reason why you must properly eject media?
