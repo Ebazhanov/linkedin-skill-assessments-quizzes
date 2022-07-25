@@ -975,7 +975,7 @@ try {
 
 [Reference](http://erpbasic.blogspot.com/2012/01/inheritance-advantages-and.html#:~:text=Main%20disadvantage%20of%20using%20inheritance,used%20independent%20of%20each%20other.&text=4.,case%20of%20using%20that%20method.)
 
-#### Q64. Declare and initialize an array of 10 ints.
+#### Q64. How would you declare and initialize an array of 10 ints?
 
 - [ ] `Array<Integer> numbers = new Array<Integer>(10);`
 - [ ] `Array[int] numbers = new Array[int](10);`
@@ -1406,6 +1406,8 @@ class Lambo extends Car {
 - [ ] String
 - [ ] double
 - [x] BigDecimal
+
+[Reference](https://www.scaler.com/topics/java/primitive-data-types/#types-of-primitive-data-types-in-java)
 
 #### Q101. Which statement about constructors is not ture?
 
@@ -1905,7 +1907,7 @@ for(int i=0; i<30; i+=x) {}
 - [ ] 1
 - [ ] 0
 
-#### Q129. The **\_** runs copmpiled Java code, while the **\_** compiles Java files.
+#### Q129. The **\_** runs compiled Java code, while the **\_** compiles Java files.
 
 - [ ] IDE; JRE
 - [ ] JDK; IDE
@@ -1922,3 +1924,33 @@ for(int i=0; i<30; i+=x) {}
 - [x] All above
 
 [Reference](https://docs.oracle.com/en/java/javase/11/docs/api/allpackages-index.html)
+
+#### Q131. What values for x and y will cause this code to print "btc"?
+
+```java
+String buy = "bitcoin";
+System.out.println(buy.substring(x, x+1) + buy.substring(y, y+2))
+```
+
+- [x] int x = 0; int y = 2;
+- [ ] int x = 1; int y = 3;
+- [ ] int x = 0; int y = 3;
+- [ ] int x = 1; int y = 3;
+
+#### Q132. Which keyword would you add to make this method the entry point of the program?
+
+- [ ] exception
+- [ ] args
+- [x] static
+- [ ] String
+
+[Reference](https://www.geeksforgeeks.org/java-main-method-public-static-void-main-string-args/)
+
+#### Q133. You have a list of Bunny objects that you want to sort by weight using Collections.sort. What modification would you make to the Bunny class?
+
+- [x] Implement the comparable interface by overriding the compareTo method.
+- [ ] Add the keyword default to the weight variable.
+- [ ] Override the equals method inside the Bunny class.
+- [ ] Implement Sortable and override the sortBy method.
+
+[Reference](https://www.geeksforgeeks.org/how-to-override-compareto-method-in-java/)

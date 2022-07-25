@@ -227,6 +227,8 @@ instance.password
 - [x] It executes one chunk of code if a condition is true, but a different chunk of code if the condition is false.
 - [ ] It tells the computer which chunk of code to run if the is enough memory to handle it, and which chunk of code to run if there is not enough memory to handle it.
 
+[Reference](https://www.scaler.com/topics/python/python-if-else-statement/)
+
 #### Q19. What built-in Python data type is best suited for implementing a queue?
 
 - [ ] dictionary
@@ -1822,12 +1824,12 @@ print ("foo" if (256).bit_length() > 8 else "bar")
 - [ ] The function will return a RuntimeError if you do not return a value.
 - [x] If the return keyword is absent the function will return None.
 
-#### Q136. it is often the case thet the pandas library is used for **_ data and NumPy for _** data.
+#### Q136. it is often the case that the pandas library is used for **_ data and NumPy for _** data.
 
-- [x] string:numerical
-- [ ] unstructured:structured
-- [ ] numerical:tabular
-- [ ] tabular:numerical
+- [x] string; numerical
+- [ ] unstructured; structured
+- [ ] numerical; tabular
+- [ ] tabular; numerical
 
 #### Q137. What do you need to do to install additional packages into Python?
 
@@ -1846,3 +1848,24 @@ print ("foo" if (256).bit_length() > 8 else "bar")
 - [ ] `random.triangular(0,50);plt.bar`
 
 [Reference](https://www.geeksforgeeks.org/random-gauss-function-in-python/)
+
+#### Q139. In this code fragment, what will be the values of a and b ?
+
+```python
+import numpy as np
+
+a = np.arange(100)
+b = a[50:60:2]
+```
+
+- [x] a: all integers from 0 to 99 (inclusive) b: all even integers from 50 to 58 (inclusive)
+- [ ] a: all integers from 0 to 100 (inclusive) b: all even integers from 50 to 60 (inclusive)
+- [ ] a: all integers from 0 to 99 (inclusive) b: all even integers from 50 to 60 (inclusive)
+- [ ] a: all integers from 0 to 99 (inclusive) b: all odd integers from 49 to 59 (inclusive)
+
+#### Q140. When using NumPy in Python, how do you check the dimensionality (number and length of dimensions) of an object called my_object?
+
+- [ ] `my_object.get_shape()`
+- [x] `my_object.shape`
+- [ ] `my_object.dim()`
+- [ ] `len(my_object)`

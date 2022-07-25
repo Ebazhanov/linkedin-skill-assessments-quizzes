@@ -1115,4 +1115,4 @@ if( isset($user_info['url']) ) {
 - [ ] Use `$_GET['test'] == ''`
 - [ ] all other answers
 
-** Actualy both are correct, option 3 is actually testing if a checkbox is not set
+`Actually both are correct, option 3 is actually testing if a checkbox is not set`

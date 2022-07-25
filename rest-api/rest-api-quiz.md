@@ -449,7 +449,7 @@
 
 [REST Architectural Constraints](https://restfulapi.net/rest-architectural-constraints/)
 
-#### Q60. When you get a 429 code, what should you do next?
+#### Q60. When you get a 429 response code, what should you do next?
 
 - [ ] Check you JSON structure.
 - [ ] Check the API uptime status.
@@ -492,3 +492,21 @@
 - [ ] B,C,F,G
 - [ ] A,D,G,H
 - [ ] A,C,E,G
+
+#### Q65. To create a new resource, what HTTP response code should you receive?
+
+- [ ] `405`
+- [x] `201`
+- [ ] `200`
+- [ ] `204`
+
+[Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
+
+#### Q66. API traffic that enters and leaves your organization is normally called **\_**?
+
+- [ ] `east-west traffic`
+- [ ] `inbound traffic`
+- [x] `north-south traffic`
+- [ ] `external traffic`
+
+[North-South vs East-West Traffic](https://www.snapt.net/glossary/north-south-vs-east-west-traffic)

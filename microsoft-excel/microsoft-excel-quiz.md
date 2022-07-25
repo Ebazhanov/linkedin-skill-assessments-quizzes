@@ -536,7 +536,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 #### Q68. In the worksheet shown below, cell C6 contains the `formula=VLOOKUP(A6,$F$2:$G$10,2,FALSE)`. What is the most likely reason that `#N/A` is returned in cell `C6` instead of mallory's `ID (2H54)`
 
-(missing screenshot)
+![image](https://user-images.githubusercontent.com/23659530/179216823-1ac09896-4807-4bd6-a352-637df79e7b36.png)
 
 - [ ] The absolute/relative cell references in the formula are wrong
 - [ ] Cell A6 is not actualy text its a formula that need to be copied and pasted as a value
@@ -1037,7 +1037,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 ![image](images/Q1233.png)
 
 - [ ] `=ERROR.TYPE(A2)`
-- [ ] `=CLEAN(TRIM(A2))`
+- [x] `=CLEAN(TRIM(A2))`
 - [ ] `=CHOOSE(A2)`
 - [ ] `=TRIM(A2)`
 
@@ -1056,3 +1056,21 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] =(C4*D4)*B1
 - [ ] =C4*D4*B1
 - [ ] =C4*D4(*B1)
+
+#### Q116. Which is not a way to edit a formula in a cell?
+
+- [ ] Press F2.
+- [ ] Select the cell and then click in the formula bar.
+- [ ] Double-click the cell
+- [x] Right-click the cell and select **Edit**
+
+#### Q117. What dows this formula do?
+
+```
+=SUM(Sheet1:Sheet4!D18)
+```
+
+- [x] It adds data form all D18 cells in Sheet1, Sheet2, Sheet3, Sheet4
+- [ ] It adds data from cell D18 of Sheet1 and cell D18 of Sheet4
+- [ ] It adds alla data in the range A1:D18 in Sheet1,Shee2, Shee3, and Sheet4
+- [ ] It adds data from cell A1 of Sheet1 and cell D18 of Sheet4

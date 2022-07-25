@@ -418,10 +418,13 @@ Note that the question is about _getting_ the data and not about the _duplicatin
 
 #### Q46. You manage a database with a table "customers". You created a temporary table also called "customers" with which you are working for the duration of your session. You need to recreate the temporary table with different specs. Which command do you need to run first?
 
-- [ ] `create temporary table customers;`
-- [ ] `drop temp table customers;`
-- [ ] `drop table customers;`
-- [x] `drop temporary table customers;`
+- [ ] `CREATE TEMPORARY TABLE customers;`
+- [ ] `DROP TEMP TABLE customers;`
+- [ ] `DROP TABLE customers;`
+- [x] `DROP TEMPORARY TABLE customers;`
+
+1. [reference](https://dev.mysql.com/doc/refman/8.0/en/drop-table.html)
+2. [reference](https://www.mysqltutorial.org/mysql-temporary-table)
 
 #### Q47. You need to run a complex query with recursive subqueries, but without creating a stored procedure or a function. Which command or clause do you use?
 

@@ -729,7 +729,7 @@ End Sub
 
 #### Q51. How does a class module indicate that it uses a particular interface?
 
-- [x] by means of the *Implemets* keyword and the name of interface.
-- [ ] bymeans of the *Interface* keyword and the name of the interface.
+- [x] by means of the _Implemets_ keyword and the name of interface.
+- [ ] bymeans of the _Interface_ keyword and the name of the interface.
 - [ ] The name of the interface is passed as a parameter.
 - [ ] The interface itself is part of the class module.

@@ -990,3 +990,12 @@ remote repository, named origin, to point to the new remote repository at this l
 - [x] - a separate copy of a repository
 
 [reference](https://stackoverflow.com/a/9339460/1573267)
+
+#### Q122. How can you exclude untracked files within the working directory from a Git repository?
+
+- [ ] - You cannot exclude the files from the repository.
+- [ ] - Tag the files with excluded.
+- [x] - Add a pattern matching the files to the .gitignore file.
+- [ ] - Add the files to the omitted branch
+
+[reference](https://git-scm.com/docs/gitignore)

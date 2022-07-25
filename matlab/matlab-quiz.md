@@ -1010,3 +1010,23 @@ a = [ 1 2 3 4];
 - [ ] `a = rand(1,1000); histogram(a) ylabel('counts')`
 - [ ] `a = randi(1,1000); histogram(a) ylabel('counts')`
 - [ ] `a = rng(1,1000); histogram(a) ylabel('counts')`
+
+#### Q69. What is a key difference between && and &?
+
+- [ ] && is a logical operator and & is not.
+- [ ] && is always slower than &
+- [x] && employs short-circuiting behavior and & does not.
+- [ ] && is a bitwise operator and & is not.
+
+[Reference](https://stackoverflow.com/questions/1379415/whats-the-difference-between-and-in-matlab)
+
+#### Q70. What is the result of this code?
+
+```
+s="abcd"; s(3)='x'
+```
+
+- [ ] "abxd"
+- [ ] abxd
+- [x] a 1x 3 string array
+- [ ] a run-time error
