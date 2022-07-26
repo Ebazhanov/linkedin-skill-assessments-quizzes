@@ -9842,6 +9842,17 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "johnfelipe",
+      "name": "felipe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/428820?v=4",
+      "profile": "https://github.com/johnfelipe",
+      "contributions": [
+        "design",
+        "code",
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
