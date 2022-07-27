@@ -1012,3 +1012,9 @@ remote repository, named origin, to point to the new remote repository at this l
 - [ ] testfile.js would be reset to its first saved state.
 - [x] testfile.js would be reverted to its last saved copy.
 - [ ] testfile.js would be removed from the stage/index area, if present.
+
+#### Q125. What situation can occur when attempting to combine branches containing changes to the same piece of code?
+- [ ] lost code
+- [ ] automatic override
+- [ ] collisions
+- [x] merge conflict
