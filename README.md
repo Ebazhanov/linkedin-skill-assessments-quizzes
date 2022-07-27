@@ -15,11 +15,13 @@ have a great understanding about.
 
 #### Announcement 🎉:
 
-1. If you want to meet each other or discuss quiz related problems or maybe ask for skills endorsement just join the `Discord` chat
+1. Column `Translation` have links to quizzes in different languages Es, Fr, It, DE
+
+2. If you want to meet each other or discuss quiz related problems or maybe ask for skills endorsement just join the `Discord` chat
 
 [![Join our Discord server!](https://invidget.switchblade.xyz/NKCyjjw3MW?theme=light)](https://discord.gg/NKCyjjw3MW)
 
-2. Playground before taking quiz
+3. Playground before taking quiz
    > https://linkedin-faq.github.io/md2practice/
 
 want to contribute? here is the source code https://github.com/linkedin-faq
