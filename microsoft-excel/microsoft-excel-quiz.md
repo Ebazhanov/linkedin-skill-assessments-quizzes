@@ -1023,7 +1023,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] data validation
 - [ ] conditional formatting
 - [ ] advanced sort
-- [ ] filters
+- [x] filters
 
 #### Q122. You have a formula in cell A1. You want to display that formula in cell B1. What function can you use in cell B1?
 

@@ -975,7 +975,7 @@ try {
 
 [Reference](http://erpbasic.blogspot.com/2012/01/inheritance-advantages-and.html#:~:text=Main%20disadvantage%20of%20using%20inheritance,used%20independent%20of%20each%20other.&text=4.,case%20of%20using%20that%20method.)
 
-#### Q64. Declare and initialize an array of 10 ints.
+#### Q64. How would you declare and initialize an array of 10 ints?
 
 - [ ] `Array<Integer> numbers = new Array<Integer>(10);`
 - [ ] `Array[int] numbers = new Array[int](10);`
@@ -1406,6 +1406,8 @@ class Lambo extends Car {
 - [ ] String
 - [ ] double
 - [x] BigDecimal
+
+[Reference](https://www.scaler.com/topics/java/primitive-data-types/#types-of-primitive-data-types-in-java)
 
 #### Q101. Which statement about constructors is not ture?
 
@@ -1905,7 +1907,7 @@ for(int i=0; i<30; i+=x) {}
 - [ ] 1
 - [ ] 0
 
-#### Q129. The **\_** runs copmpiled Java code, while the **\_** compiles Java files.
+#### Q129. The **\_** runs compiled Java code, while the **\_** compiles Java files.
 
 - [ ] IDE; JRE
 - [ ] JDK; IDE

@@ -999,3 +999,10 @@ remote repository, named origin, to point to the new remote repository at this l
 - [ ] - Add the files to the omitted branch
 
 [reference](https://git-scm.com/docs/gitignore)
+
+#### Q123. What command creates a near-exact copy of the entire repository from a server?
+
+- [ ] `git checkout <url>`
+- [ ] `git pull <url>`
+- [x] `git clone <url>`
+- [ ] `git replicate <url>`

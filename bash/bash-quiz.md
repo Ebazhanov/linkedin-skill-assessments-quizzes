@@ -993,12 +993,13 @@ VAR=${VAR##+([[:space:]])}; VAR=${VAR%%+([[:space:]])};
 echo "$VAR"
 ```
 
-- [ ] `<pre>     This is...     a string of characters</pre>`
-- [ ] `<pre>     This is...a string of characters</pre>`
-- [ ] `<pre>This is...     a string of characters</pre>`
+- [ ] `<pre> This is... a string of characters</pre>`
+- [ ] `<pre> This is...a string of characters</pre>`
+- [ ] `<pre>This is... a string of characters</pre>`
 - [ ] `<pre>This is...a string of characters</pre>`
 
 References:
+
 1. [What is the meaning of the ${0##...} syntax with variable, braces and hash character in bash?](https://stackoverflow.com/questions/2059794/what-is-the-meaning-of-the-0-syntax-with-variable-braces-and-hash-chara)
 2. [What does expanding a variable as "${var%%r\*}" mean in bash?](https://stackoverflow.com/questions/41859601/what-does-expanding-a-variable-as-varr-mean-in-bash)
 

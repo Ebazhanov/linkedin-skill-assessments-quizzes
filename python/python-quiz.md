@@ -227,6 +227,8 @@ instance.password
 - [x] It executes one chunk of code if a condition is true, but a different chunk of code if the condition is false.
 - [ ] It tells the computer which chunk of code to run if the is enough memory to handle it, and which chunk of code to run if there is not enough memory to handle it.
 
+[Reference](https://www.scaler.com/topics/python/python-if-else-statement/)
+
 #### Q19. What built-in Python data type is best suited for implementing a queue?
 
 - [ ] dictionary
@@ -719,28 +721,28 @@ t1 = test()
 
 #### Q53. What is the correct syntax for defining an `__init__()` method that takes no parameters?
 
-- [ ] <br>
+- [ ]
 
 ```python
 class __init__(self):
     pass
 ```
 
-- [ ] <br>
+- [ ]
 
 ```python
 def __init__():
     pass
 ```
 
-- [ ] <br>
+- [ ]
 
 ```python
 class __init__():
     pass
 ```
 
-- [x] <br>
+- [x] 
 
 ```python
 def __init__(self):
@@ -1061,7 +1063,7 @@ while i<6:
 
 #### Q81. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?
 
-- [ ] <br>
+- [ ]
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1069,7 +1071,7 @@ def __init__(self, attr1, attr2):
     attr2 = attr2
 ```
 
-- [ ] <br>
+- [ ]
 
 ```python
 def __init__(attr1, attr2):
@@ -1077,7 +1079,7 @@ def __init__(attr1, attr2):
     attr2 = attr2
 ```
 
-- [x] <br>
+- [x]
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1085,7 +1087,7 @@ def __init__(self, attr1, attr2):
     self.attr2 = attr2
 ```
 
-- [ ] <br>
+- [ ]
 
 ```python
 def __init__(attr1, attr2):
@@ -1822,12 +1824,12 @@ print ("foo" if (256).bit_length() > 8 else "bar")
 - [ ] The function will return a RuntimeError if you do not return a value.
 - [x] If the return keyword is absent the function will return None.
 
-#### Q136. it is often the case thet the pandas library is used for **_ data and NumPy for _** data.
+#### Q136. it is often the case that the pandas library is used for **_ data and NumPy for _** data.
 
-- [x] string:numerical
-- [ ] unstructured:structured
-- [ ] numerical:tabular
-- [ ] tabular:numerical
+- [x] string; numerical
+- [ ] unstructured; structured
+- [ ] numerical; tabular
+- [ ] tabular; numerical
 
 #### Q137. What do you need to do to install additional packages into Python?
 
@@ -1867,3 +1869,10 @@ b = a[50:60:2]
 - [x] `my_object.shape`
 - [ ] `my_object.dim()`
 - [ ] `len(my_object)`
+
+#### Q141. Assume you have a non-empty list named _mylist_ and you want to search for a specific value. The minimum number of comparison will be ____ and the maximum number of comparison will be ___?
+
+- [x] `len(mylist); len(mylist)`
+- [ ] `1; len(mylist)`
+- [ ] `2; len(mylist)`
+- [ ] `0; len(mylist)`

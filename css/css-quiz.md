@@ -189,7 +189,7 @@ background: blue url(image.jpg) no-repeat scroll 0px 0px;
   background-position: 0px 0px;
   ```
 
-#### Q15. In the following example, according to cascading and specificity rules, what color will the link be?
+#### Q15. In this example, according to cascading and specificity rules, what color will the link be?
 
 ```css
 .example {
