@@ -983,3 +983,9 @@ remote repository, named origin, to point to the new remote repository at this l
 - [ ] - when a hook script needs to be invoked
 
 [reference](https://stackoverflow.com/a/9339460/1573267)
+
+#### Q120. What would happen if you ran the `git reset testfile.js` command?
+- [ ] testfile.js would be reverted to a blank file.
+- [ ] testfile.js would be reset to its first saved state
+- [x] testfile.js would be reverted to its last sabed copy. 
+- [ ] testfile.js would be removed from the stage/index area, if present
