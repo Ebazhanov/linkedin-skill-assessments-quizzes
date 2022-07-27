@@ -1381,7 +1381,7 @@ As Steve Krug once said, happy talk must die.
 - [x] A
       ![A](images/Q84-1.jpg)
 - [ ] B
-  ![B](images/Q84-2.jpg)
+      ![B](images/Q84-2.jpg)
 - [ ] C
       ![C](images/Q84-3.jpg)
 - [ ] D
