@@ -1018,3 +1018,9 @@ remote repository, named origin, to point to the new remote repository at this l
 - [ ] automatic override
 - [ ] collisions
 - [x] merge conflict
+
+#### Q126. What command creates a near-exact copy of the entire repository from a server?
+- [x] git clone <url>
+- [ ] git pull <url>
+- [ ] git replicate <url>
+- [ ] git checkout <url>
