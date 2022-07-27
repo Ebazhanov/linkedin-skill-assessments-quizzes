@@ -1074,3 +1074,19 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] It adds data from cell D18 of Sheet1 and cell D18 of Sheet4
 - [ ] It adds alla data in the range A1:D18 in Sheet1,Shee2, Shee3, and Sheet4
 - [ ] It adds data from cell A1 of Sheet1 and cell D18 of Sheet4
+
+#### Q118. You realize that you named a table Quraters and you want to correct it to be Quarters. How could you accomplish this ?
+
+- [x] On the Table Design tab (Windows) or Table tab (Mac), rename the table in the Table Name box.
+- [ ] Copy the table to another worksheet and rename it Quarters.
+- [ ] Right click in the table and select Rename.
+- [ ] On the Table Design tab (Windows) or Table tab (Mac), click Name Manager.
+
+#### Q119. Which function is best used to look up and retrieve data from a specific row in a table?
+
+- [ ] HLOOKUP
+- [ ] MATCH
+- [x] VLOOKUP
+- [ ] ADDRESS
+
+
