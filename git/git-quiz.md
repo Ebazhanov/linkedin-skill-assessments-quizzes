@@ -1006,3 +1006,21 @@ remote repository, named origin, to point to the new remote repository at this l
 - [ ] `git pull <url>`
 - [x] `git clone <url>`
 - [ ] `git replicate <url>`
+
+#### Q124. What would happen if you ran the `git reset testfile.js` command?
+- [ ] testfile.js would be reverted to a blank file.
+- [ ] testfile.js would be reset to its first saved state.
+- [x] testfile.js would be reverted to its last saved copy.
+- [ ] testfile.js would be removed from the stage/index area, if present.
+
+#### Q125. What situation can occur when attempting to combine branches containing changes to the same piece of code?
+- [ ] lost code
+- [ ] automatic override
+- [ ] collisions
+- [x] merge conflict
+
+#### Q126. What command creates a near-exact copy of the entire repository from a server?
+- [x] git clone <url>
+- [ ] git pull <url>
+- [ ] git replicate <url>
+- [ ] git checkout <url>
