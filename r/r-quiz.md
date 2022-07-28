@@ -567,7 +567,6 @@ pizza$late
 - [ ] grepl("Rd,Ave,Dr,St", indat)
 - [ ] grepl("[Rd],[Ave],[Dr],[St]", indat)
 
-
 #### Q53. Which statement returns the fourth row of a data frame named _fish_?
 
 - [x] fish[4, ]
@@ -576,6 +575,7 @@ pizza$late
 - [ ] fish{4, }
 
 #### Q54. What is the value of _csum_?
+
 ```
 a <- c(1.2, 2, 3.5, 4)
 b <- c(1.2, 2.2, 3.5, 4)
@@ -588,6 +588,7 @@ csum <-sum(a == b)
 - [ ] 21.6
 
 #### Q54. A list named _a_ is created using the statement below. Which choice returns TRUE?
+
 ```
 a <- list("10", TRUE, 5.6)
 ```

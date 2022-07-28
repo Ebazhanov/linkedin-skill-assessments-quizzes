@@ -308,8 +308,7 @@
 
 - [ ] Visio list
 - [ ] list
-- [x] vari
-list
+- [x] vari list
 - [ ] fixed list
 
 #### Q36. Which is not one of the seven properties in the Layer Properties dialog box?

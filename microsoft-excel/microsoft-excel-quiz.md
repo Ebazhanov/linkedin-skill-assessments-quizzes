@@ -1088,5 +1088,3 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] MATCH
 - [x] VLOOKUP
 - [ ] ADDRESS
-
-

@@ -452,7 +452,7 @@ null
 
 ```json
 {
-  "avengers": ['iron man', 'hulk', 'thor', 'black widow', 'ant man', 'spider man']
+  "avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]
 }
 ```
 

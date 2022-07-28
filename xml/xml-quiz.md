@@ -588,7 +588,7 @@ car#year {
 - [ ] The XML DOM is modifiable and dynamic.
 - [ ] The XML DOM is easy to navigate around to find specific information.
 - [x] The XML DOM is efficient with memory and operation speed.
-    
+
 #### Q46. In the XML DOM, which property is best to use to loop through each of the <car> nodes i nthe code snippet below?
 
 ```xml
@@ -597,7 +597,8 @@ car#year {
     <car><make>Ford</make><model>Mustang</model><year>1968</year></car>
     <car><make>Mercedes</make><model>C-Class</model><year>2006</year></car>
 </cars>
-```    
+```
+
 - [ ] `nextChild`
 - [ ] `nextSibling`
 - [x] `nodeValue`

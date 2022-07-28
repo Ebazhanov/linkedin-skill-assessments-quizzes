@@ -514,7 +514,7 @@ fmt.Printf("%f\n", price)
 
 [Reference](https://go.dev/doc/effective_go#printing)
 
-####  Q43. How can you avoid a goroutine leak in this code?
+#### Q43. How can you avoid a goroutine leak in this code?
 
 ```
 func findUser(ctx context.Context, login string) (*User, error) {
