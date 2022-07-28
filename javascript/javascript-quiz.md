@@ -1847,3 +1847,18 @@ var flagDatabase = JSON.parse(flagsJSON);
 - [x] flagDatabase.countries[0].flag
 - [ ] flagDatabase[1].flag
 - [ ] flagsJSON.countries[0].flag
+
+#### Q131. What is the value of dessert.type after executing this code?
+
+```js
+const dessert = { type: 'pie' };
+dessert.type = 'pudding';
+
+const seconds = dessert;
+seconds.type = 'fruit';
+```
+
+- [x] fruit
+- [ ] pie
+- [ ] undefined
+- [ ] pudding
