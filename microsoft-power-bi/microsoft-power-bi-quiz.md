@@ -665,7 +665,7 @@ D. They must have no duplicate data rows.
 
 #### Q83. Your report is based on imported data from Excel. What is a valid reason to use a slicer rather than a report-level filter?
 
-    A. A slicer makes it easier for users to filter.
+    A. A slicer makes it easier for users to filter. 
     B. Users should be able to see both filtered and unfiltered values.
     C. Query speed is critical.
 
