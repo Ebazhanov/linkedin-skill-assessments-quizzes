@@ -742,7 +742,7 @@ class __init__():
     pass
 ```
 
-- [x] 
+- [x]
 
 ```python
 def __init__(self):
@@ -1870,7 +1870,7 @@ b = a[50:60:2]
 - [ ] `my_object.dim()`
 - [ ] `len(my_object)`
 
-#### Q141. Assume you have a non-empty list named _mylist_ and you want to search for a specific value. The minimum number of comparison will be ____ and the maximum number of comparison will be ___?
+#### Q141. Assume you have a non-empty list named _mylist_ and you want to search for a specific value. The minimum number of comparison will be \_**_ and the maximum number of comparison will be _**?
 
 - [x] `len(mylist); len(mylist)`
 - [ ] `1; len(mylist)`

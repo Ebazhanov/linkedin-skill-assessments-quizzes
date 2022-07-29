@@ -549,14 +549,14 @@
 - [ ] Use the search engine's Remove URL tool.
 - [x] Use a robots.txt file.
 - [ ] Use structured data
-    
+
 #### Q67. You are optimizing a site that receives a lot of user-submitted comments, many of which contain a promotional links. According to SEO best practices, how should you treat the comments?
 
 - [ ] Be sure links are using keywork-rich anchor tags
 - [ ] Disallow each link submitted
 - [x] Set links in comments to be Nofollow
 - [ ] Bold important keywords in comments
-   
+
 #### Q68. What is not a primary component of a SERP snippet?
 
 - [ ] Description

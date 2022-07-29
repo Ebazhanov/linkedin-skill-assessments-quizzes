@@ -614,4 +614,11 @@ console.log(person);
 - [x] lookup
 - [ ] resolve4
 
+#### Q75. What is one way to check that a value is a date object in Node?
+
+- [ ] console.isDate(value)
+- [ ] util.date(value)
+- [ ] assert.isDate(value)
+- [x] util.types.isDate(value)
+
 [Reference](https://nodejs.org/api/dns.html#dnslookuphostname-options-callback)

@@ -170,7 +170,7 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 #### Q15. What will be returned when this method is executed?
 
-`public void userInput(string charParamters) { }`
+`public void userInput(string charParameters) { }`
 
 - [x] nothing
 - [ ] a Boolean
@@ -272,14 +272,14 @@ foreach(string employee in employeeQuery)
 
 #### Q24. What does operator overloading allow you to do?
 
-- [ ] hide built-in operatores when necessary
+- [ ] hide built-in operators when necessary
 - [ ] add methods to be interpreted by the compiler at runtime
 - [ ] define how enums and other primitive value types work within the rest of the application
 - [x] define custom functionality for common operators like addition and equality
 
 [Official documentation: Operator overloading](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/operator-overloading)
 
-#### Q25. What it the main purpose of LINQ?
+#### Q25. What is the main purpose of LINQ?
 
 - [ ] to delete duplicate data
 - [ ] to bind namespaces and assemblies
@@ -326,7 +326,7 @@ foreach(string employee in employeeQuery)
 
 #### Q30. What kind of values can arrays store?
 
-- [ ] unordered collections of numerc values
+- [ ] unordered collections of numeric values
 - [ ] key-value pairs of any C# supported type
 - [ ] class and struct instances
 - [x] multiple variables, or collections, of the same type
@@ -358,7 +358,7 @@ foreach(string employee in employeeQuery)
 #### Q33. To conform to the following interface, which of its members need to be implemented?
 
 ```cs
-public interface INameble
+public interface INameable
 {
     string FirstName { get; set; }
     string LastName { get; }
@@ -518,7 +518,7 @@ public static void Main(string[] args)
 - [ ] public string IsvalidName(this string i, string value) {}
 - [ ] public void IsvalidName(this string i, string value) {}
 
-#### Q48. How are C# classses limited?
+#### Q48. How are C# classes limited?
 
 - [x] They do not support multiple inheritance.
 - [ ] They support multiple inheritance.

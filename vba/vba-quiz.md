@@ -742,6 +742,7 @@ End Sub
 - [ ] optional dialog
 
 #### Q53. This code is trying to establish a new collection consisting of employee names and numbers. Assoc is a class. What statement is missing from the code?
+
 ```
 Dim Associates As Collection, Assoc As CAssoc, i As Byte
 For i = 1 To 200
@@ -751,11 +752,11 @@ For i = 1 To 200
     Associates.Add Assoc
 Next i
 ```
+
 - [x] `Set Associates = New Collection`
 - [ ] `Set Associates = Collection`
 - [ ] `Redim(Associates(Associates.Count+1))`
 - [ ] `Redim(Associates _ (Unbound(Associates)+1))`
-
 
 #### Q54. What is the standard term for a variable or value that is passed from one subroutine or function to another?
 
@@ -777,4 +778,3 @@ Next i
 - [ ] in the worksheet's object module
 - [ ] in the Worksheet_Change class module
 - [x] in the workbook's code module
-

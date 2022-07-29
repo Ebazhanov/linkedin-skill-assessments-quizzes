@@ -784,6 +784,7 @@ printA();
 - [ ] `3 === '3'`
 
 [Reference booleans](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+[Reference 2 - booleans](https://www.scaler.com/topics/boolean-in-javascript/)
 
 #### Q60. Which of these is a valid variable name?
 
