@@ -598,7 +598,7 @@
 - [ ] Ask the PO to extend the sprint.
 - [ ] Advise the PO as soon as possible.
 - [ ] Report this at the Sprint Review.
-- [ ] Point out the reasons why and collaborate on solutions.
+- [x] Point out the reasons why and collaborate on solutions.
 
 #### Q84. When a user story is further decomposed, what are the elements called?
 
