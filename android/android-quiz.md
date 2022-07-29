@@ -1036,3 +1036,64 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [x] `Text`
 - [ ] `String-array`
 - [ ] `Plurals`
+
+#### Q70. What is not in the activity lifecycle?
+
+- [ ] `onPause()`
+- [ ] `onResume()`
+- [x] `onOpen()`
+- [ ] `onStart()`
+
+#### Q71. You want to allow users to take a picture in your app. Which code snippet is the correct approach?
+
+- [ ] 
+```
+  fun showCamera(view: View) {
+      Log.i(TAG, "Show camera button pressed.") 
+      if (ContextCompat.shouldShowRequestPermissionRationale(thisActivity, 
+      Manifest.permission.CAMERA) {
+        showCameraPreview()
+      }
+       else { 
+         requestPermissionLauncher.launch(Manifest.permission.CAMERA)
+       }
+   }
+```
+
+- [x]
+```
+  fun showCamera(view: View) {
+      Log.i(TAG, "Show camera button pressed.") 
+      if (ContextCompat.checkSelfPermission(thisActivity, 
+      Manifest.permission.CAMERA) 
+      == PackageManager.PERMISSION_GRANTED) {
+        showCameraPreview()
+      }
+      else { 
+         requestPermissionLauncher.launch(Manifest.permission.CAMERA)
+      }
+  }
+```
+
+- []
+```
+  fun showCamera(view: View) {
+      Log.i(TAG, "Show camera button pressed.") 
+      showCameraPreview()
+  }
+```
+
+- [ ] 
+```
+  fun showCamera(view: View) {
+      Log.i(TAG, "Show camera button pressed.") 
+      if (ContextCompat.checkSelfPermission(thisActivity, 
+      Manifest.permission.CAMERA) 
+      != PackageManager.PERMISSION_GRANTED) {
+         showCameraPreview()
+       }
+       else { 
+          requestPermissionLauncher.launch(Manifest.permission.CAMERA)
+       }
+  }
+```
