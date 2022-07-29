@@ -598,7 +598,7 @@
 - [ ] Ask the PO to extend the sprint.
 - [ ] Advise the PO as soon as possible.
 - [ ] Report this at the Sprint Review.
-- [ ] Point out the reasons why and collaborate on solutions.
+- [x] Point out the reasons why and collaborate on solutions.
 
 #### Q84. When a user story is further decomposed, what are the elements called?
 
@@ -717,7 +717,7 @@
 
 - [ ] It is a team-building technique used to increase productivity.
 - [ ] It is a tool used by organizations for competitive intelligence.
-- [ ]It is a retrospective technique used to improve team morale.
+- [ ] It is a retrospective technique used to improve team morale.
 - [x] It is a collaborative tool used to gain deeper insights into customers.
 
 #### Q100. Which work descriptions are not written in the language of users?
