@@ -325,9 +325,9 @@ modified: beta-notes.js
 #### Q33. After you've successfully merged two branches and committed the changes, what is the next step in keeping your git structure organized?
 
 - [ ] Use the git reset --soft HEAD to roll back one commit.
-- [ ] Run git branch -d `<branch name>` to delete the merged branch.
+- [x] Run git branch -d `<branch name>` to delete the merged branch.
 - [ ] Use git clear-all to clean up any hanging files.
-- [x] Run git rebase to move the current commit to its original location.
+- [ ] Run git rebase to move the current commit to its original location.
 
 #### Q34. While modifying a file, you're unexpectedly assigned an urgent bug fix on another branch. How can you temporarily save your local work without committing?
 
@@ -891,8 +891,8 @@ hint: Updates were rejected because the remote contains work that you do not hin
 
 #### Q108. What does the -p option add to the output of the `git log` command?
 
-- [ ] It adds patch output that shows the differences introduced in each commit.
-- [x] It adds patch output that shows a summary listing modified files.
+- [x] It adds patch output that shows the differences introduced in each commit.
+- [ ] It adds patch output that shows a summary listing modified files.
 - [ ] It adds padding to the output and displays a histogram showing the number of lines changed in each commit.
 - [ ] It adds the full commit message and notes associated with each commit.
 
@@ -952,12 +952,12 @@ hint: Updates were rejected because the remote contains work that you do not hin
 - [x] a pointer to the most recent commit in the currently checked-out branch
 - [ ] a pointer to where the repository is stored in memory
 
-#### Q117. After staging changes to several files, you realize the changes to the confin.properties file are incorrect, and need to be removed from the stage and working directory. What command can you use to remove the staged changes to the file?
+#### Q117. After staging changes to several files, you realize the changes to the config.properties file are incorrect, and need to be removed from the stage and working directory. What command can you use to remove the staged changes to the file?
 
 - [ ] git reset HEAD^ -- config.properties
-- [x] git rm config.properties
+- [ ] git rm config.properties
 - [ ] git rf config.properties
-- [ ] git checkout HEAD -- config.properties
+- [x] git checkout HEAD -- config.properties
 
 #### Q118. After a recent release with a stack trace, an issue is create that indicates the problem is with a newly added configuration property named MaxConnections. What command can find all commits that add or remove the string MaxConnections?
 
