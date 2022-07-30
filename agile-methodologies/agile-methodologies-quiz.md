@@ -600,6 +600,8 @@
 - [ ] Report this at the Sprint Review.
 - [x] Point out the reasons why and collaborate on solutions.
 
+[Reference](https://agilemanifesto.org/principles), the last paragraph perfectly informs what an agile developer would do in this situation.
+
 #### Q84. When a user story is further decomposed, what are the elements called?
 
 - [ ] technical tasks
