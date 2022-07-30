@@ -550,11 +550,11 @@ which_late <- which(late_delivery)
 which_late
 ```
 
-- [x]
+- [ ]
 
 ```
 late_delivery <- pizza$delivery_min >= 30
-late <- pizaa$late_delivery
+late <- piza$late_delivery
 pizza$late
 ```
 
@@ -566,3 +566,34 @@ pizza$late
 - [x] grepl("Rd|Ave|Dr|St", indat)
 - [ ] grepl("Rd,Ave,Dr,St", indat)
 - [ ] grepl("[Rd],[Ave],[Dr],[St]", indat)
+
+#### Q53. Which statement returns the fourth row of a data frame named _fish_?
+
+- [x] fish[4, ]
+- [ ] fish( ,4)
+- [ ] fish(4, )
+- [ ] fish{4, }
+
+#### Q54. What is the value of _csum_?
+
+```
+a <- c(1.2, 2, 3.5, 4)
+b <- c(1.2, 2.2, 3.5, 4)
+csum <-sum(a == b)
+```
+
+- [ ] 8
+- [x] 3
+- [ ] 0.2
+- [ ] 21.6
+
+#### Q54. A list named _a_ is created using the statement below. Which choice returns TRUE?
+
+```
+a <- list("10", TRUE, 5.6)
+```
+
+- [x] is.list(a[1])
+- [ ] is.numeric(a[1])
+- [ ] is.logical(a[1])
+- [ ] is.character(a[1])

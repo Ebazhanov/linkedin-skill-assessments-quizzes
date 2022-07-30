@@ -513,3 +513,31 @@ fmt.Printf("%f\n", price)
 - [ ] Create a wrapper function that accepts your type and outputs a string.
 
 [Reference](https://go.dev/doc/effective_go#printing)
+
+#### Q43. How can you avoid a goroutine leak in this code?
+
+```
+func findUser(ctx context.Context, login string) (*User, error) {
+	ch := make(chan *User)
+	go func() {
+		ch <- findUserInDB(login)
+	}()
+
+	select {
+	case user := <-ch:
+		return user, nil
+	case <-ctx.Done():
+		return nil, fmt.Errorf("timeout")
+	}
+}
+```
+
+- [ ] Use a sync.WaitGroup.
+
+- [ ] Make ch a buffered channel.
+
+- [ ] Add a default case to the select.
+
+- [ ] Use runtime.SetFinalizer.
+
+Explanation: I am not sure, but I believe we can avoid the goroutine leak by adding a default case to the select statement. The leak happens because if the context timeout is not set correctly and if findUserInDB stalls or is slow, then the findUser function will just stay at the select statement, waiting for something to happen. We can get rid of this waiting by adding a default case, but since the function would just execute the default case every time without waiting for the goroutine, I don't believe this function would do what is intended.

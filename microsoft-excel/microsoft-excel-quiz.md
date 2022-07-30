@@ -1023,7 +1023,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] data validation
 - [ ] conditional formatting
 - [ ] advanced sort
-- [ ] filters
+- [x] filters
 
 #### Q122. You have a formula in cell A1. You want to display that formula in cell B1. What function can you use in cell B1?
 
@@ -1074,3 +1074,42 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] It adds data from cell D18 of Sheet1 and cell D18 of Sheet4
 - [ ] It adds alla data in the range A1:D18 in Sheet1,Shee2, Shee3, and Sheet4
 - [ ] It adds data from cell A1 of Sheet1 and cell D18 of Sheet4
+
+#### Q118. You realize that you named a table Quraters and you want to correct it to be Quarters. How could you accomplish this ?
+
+- [x] On the Table Design tab (Windows) or Table tab (Mac), rename the table in the Table Name box.
+- [ ] Copy the table to another worksheet and rename it Quarters.
+- [ ] Right click in the table and select Rename.
+- [ ] On the Table Design tab (Windows) or Table tab (Mac), click Name Manager.
+
+#### Q119. Which function is best used to look up and retrieve data from a specific row in a table?
+
+- [ ] HLOOKUP
+- [ ] MATCH
+- [x] VLOOKUP
+- [ ] ADDRESS
+
+#### Q120. When you provide alt text for an image, what type of control are you including?
+
+- [ ] password protection
+- [ ] presentation
+- [ ] layout
+- [x] accessibility
+
+[Reference](https://support.microsoft.com/en-us/office/add-alternative-text-to-a-shape-picture-chart-smartart-graphic-or-other-object-44989b2a-903c-4d9a-b742-6a75b451c669)
+
+### Q121. Which tool provides the easiest way to create and insert an organizational chart into a presentation?
+
+- [ ] Charts
+- [ ] 3D Models
+- [ ] Shapes
+- [x] SmartArt
+
+[Reference](https://support.microsoft.com/en-us/office/create-an-organization-chart-in-office-by-using-smartart-9b51f667-11b7-4971-a757-a08a36684ee6#:~:text=On%20the%20Insert%20tab%2C%20in%20the%20Illustrations%20group%2C%20click%20SmartArt.&text=In%20the%20Choose%20a%20SmartArt,)%2C%20and%20then%20click%20OK.)
+
+#### Q122. You are creating a slide that shows annual rainfall in different regions of Europe. What chart type would most effectively communicate that relationship?
+
+- [ ] line chart
+- [ ] scatter chart
+- [ ] pie chart
+- [x] map chart

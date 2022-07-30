@@ -826,3 +826,10 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] 1
 - [ ] 3
 - [ ] 4
+
+#### Q108. Which option will not actively identify a secuirty incident?
+
+- [ ] Extended Detection and Response (XDR)
+- [x] Cloud Secuiry Posture Management (CSPM)
+- [ ] Secuirty Infromation Event Managment (SEIM)
+- [ ] Endpoint Detection and Response (EDR)

@@ -721,28 +721,28 @@ t1 = test()
 
 #### Q53. What is the correct syntax for defining an `__init__()` method that takes no parameters?
 
-- [ ] <br>
+- [ ]
 
 ```python
 class __init__(self):
     pass
 ```
 
-- [ ] <br>
+- [ ]
 
 ```python
 def __init__():
     pass
 ```
 
-- [ ] <br>
+- [ ]
 
 ```python
 class __init__():
     pass
 ```
 
-- [x] <br>
+- [x]
 
 ```python
 def __init__(self):
@@ -1063,7 +1063,7 @@ while i<6:
 
 #### Q81. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?
 
-- [ ] <br>
+- [ ]
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1071,7 +1071,7 @@ def __init__(self, attr1, attr2):
     attr2 = attr2
 ```
 
-- [ ] <br>
+- [ ]
 
 ```python
 def __init__(attr1, attr2):
@@ -1079,7 +1079,7 @@ def __init__(attr1, attr2):
     attr2 = attr2
 ```
 
-- [x] <br>
+- [x]
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1087,7 +1087,7 @@ def __init__(self, attr1, attr2):
     self.attr2 = attr2
 ```
 
-- [ ] <br>
+- [ ]
 
 ```python
 def __init__(attr1, attr2):
@@ -1869,3 +1869,10 @@ b = a[50:60:2]
 - [x] `my_object.shape`
 - [ ] `my_object.dim()`
 - [ ] `len(my_object)`
+
+#### Q141. Assume you have a non-empty list named _mylist_ and you want to search for a specific value. The minimum number of comparison will be \_**_ and the maximum number of comparison will be _**?
+
+- [x] `len(mylist); len(mylist)`
+- [ ] `1; len(mylist)`
+- [ ] `2; len(mylist)`
+- [ ] `0; len(mylist)`

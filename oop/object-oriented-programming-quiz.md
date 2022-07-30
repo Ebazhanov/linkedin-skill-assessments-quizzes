@@ -669,3 +669,10 @@ public class Honda extends Car{}
 - [ ] Software entities should be open for extension, but closed for modification.
 - [ ] Many client-specific interfaces are better than one general-purpose interface.
 - [x] objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
+
+#### Q88. In addition to responsabilities, what should be listed on Class-responsability-collaboration (CRC) cards?
+
+- [ ] which programming language will be used.
+- [ ] the programmer responsible for implementation.
+- [ ] interacting classes.
+- [x] attributes.

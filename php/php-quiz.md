@@ -1116,3 +1116,37 @@ if( isset($user_info['url']) ) {
 - [ ] all other answers
 
 `Actually both are correct, option 3 is actually testing if a checkbox is not set`
+
+#### Q92. A form to subscrive to a newsletter is submitted using the POST method. The form has only one field: an input text field named "email". How would you check if the field is empty and, if it is, print "The email cannot be empty"?
+
+- [x]
+
+```php
+if(empty($_POST['email'])) {
+    echo "The email cannot be empty";
+}
+```
+
+- [ ]
+
+```php
+if(empty($_GET['email'])) {
+    echo "The email cannot be empty";
+}
+```
+
+- [ ]
+
+```php
+if(empty($_POST('email'))) {
+    echo "The email cannot be empty";
+}
+```
+
+- [ ]
+
+```php
+if(isset($email)) {
+    echo "The email cannot be empty";
+}
+```

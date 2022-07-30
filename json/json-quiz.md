@@ -280,7 +280,7 @@
 {
   "host": "Atlanta",
   "year": 1996,
-  "comments": "Centennial Olympics"
+  "comment": "Centennial Olympics"
 }
 ```
 
