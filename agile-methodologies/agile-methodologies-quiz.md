@@ -754,3 +754,10 @@
 - [ ] Ask the person who could not attend to reschedule the meeting based on their availability.
 - [x] Ask all meeting partecipants what they want to do about the one person's absence
 - [ ] Reschedule the meeting for when all necessary people can attend
+
+### Q105. What is Open Space?
+
+- [ ] a design concept for team rooms
+- [ ] a room for teams to demo their work
+- [ ] a placeholder in the code body for the future functionality
+- [x] a meeting format where participants create and manage the agenda
