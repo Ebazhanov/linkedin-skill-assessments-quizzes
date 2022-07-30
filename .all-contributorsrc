@@ -9883,6 +9883,15 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "dunkerbunker",
+      "name": "Yoosuf Sayyid",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76224462?v=4",
+      "profile": "https://yoosuf-sayyid.netlify.app/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
