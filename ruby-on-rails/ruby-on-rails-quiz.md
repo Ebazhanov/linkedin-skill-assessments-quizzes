@@ -887,12 +887,11 @@ end
 
 #### Q67. What line of code causes the method `decrypt_data` to be run?
 
-
 ```
 class MyModel < ApplicationRecord
   after_find :decrypt_data
 end
-````
+```
 
 - [ ] MyModel.decrypt_data
 - [ ] MyModel.query(id: 42)
@@ -900,13 +899,16 @@ end
 - [ ] MyModel.where(id: 42)
 
 #### Q68. Which line of inquiry would you follow after receiving this error message: No route matches [POST] "/burrito/create"?
+
 - [ ] Check that there is a matching path for "/burrito/create" in you paths.rb file.
 - [ ] Check that there is a `post` route that matches "/burrito/create" in your routes.rb file.
 - [ ] Add the line `resources :burritos` to your routes.rb file.
 - [ ] Check that there is a `get` route that matches "burrito/create" in your paths.rb file.
 
 #### Q69. Which controller action is `not` in danger of returning double render errors?
+
 - [ ] A
+
 ```
 def show
   if params[:detailed] == "1"
@@ -915,14 +917,18 @@ def show
   render('show')
 end
 ```
+
 - [ ] B
+
 ```
 def show
   render('detailed_show') if params[:detailed] == "1"
   render('show') and return
 end
 ```
+
 - [ ] C
+
 ```
 def show
   if params[:detailed] == "1"
@@ -931,7 +937,9 @@ def show
   render('show')
 end
 ```
+
 - [ ] D
+
 ```
 def show
   if params[:detailed] == "1"
