@@ -774,3 +774,12 @@ aws ecs create-service \
 - [ ] store for small duration
 - [x] cost
 - [ ] cross-region
+
+#### Q87. After installing AWS Amplify's CLI, what command allows the user to connect an AWS account with the local install?
+
+- [ ] amplify admin
+- [x] amplify configure
+- [ ] amplify connect
+- [ ] amplify init
+
+[Reference](https://docs.amplify.aws/cli/start/install/#option-2-follow-the-instructions)
