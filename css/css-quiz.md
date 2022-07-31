@@ -1,6 +1,6 @@
 ## CSS
 
-#### Q1. In the following example, which selector has the highest specificity ranking for selecting the anchor link element?
+#### Q1. Among these selectors which selector has the highest specificity ranking for selecting the anchor link element?
 
 ```css
 ul li a

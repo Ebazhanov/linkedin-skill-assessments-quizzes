@@ -598,7 +598,9 @@
 - [ ] Ask the PO to extend the sprint.
 - [ ] Advise the PO as soon as possible.
 - [ ] Report this at the Sprint Review.
-- [ ] Point out the reasons why and collaborate on solutions.
+- [x] Point out the reasons why and collaborate on solutions.
+
+[Reference](https://agilemanifesto.org/principles), the last paragraph perfectly informs what an agile developer would do in this situation.
 
 #### Q84. When a user story is further decomposed, what are the elements called?
 
@@ -717,7 +719,7 @@
 
 - [ ] It is a team-building technique used to increase productivity.
 - [ ] It is a tool used by organizations for competitive intelligence.
-- [ ]It is a retrospective technique used to improve team morale.
+- [ ] It is a retrospective technique used to improve team morale.
 - [x] It is a collaborative tool used to gain deeper insights into customers.
 
 #### Q100. Which work descriptions are not written in the language of users?
@@ -748,9 +750,16 @@
 - [ ] inviting the Project Manager
 - [ ] making sure everyone speaks
 
-### Q104. You are facilitating a meeting and, unexpectedly, a key person doesn't attend. What should you do?
+#### Q104. You are facilitating a meeting and, unexpectedly, a key person doesn't attend. What should you do?
 
 - [ ] Hold the meeting and update the person who could not attend later.
 - [ ] Ask the person who could not attend to reschedule the meeting based on their availability.
 - [x] Ask all meeting partecipants what they want to do about the one person's absence
 - [ ] Reschedule the meeting for when all necessary people can attend
+
+#### Q105. What is Open Space?
+
+- [ ] a design concept for team rooms
+- [ ] a room for teams to demo their work
+- [ ] a placeholder in the code body for the future functionality
+- [x] a meeting format where participants create and manage the agenda

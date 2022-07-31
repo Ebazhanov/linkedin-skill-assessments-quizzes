@@ -670,7 +670,7 @@ public class Honda extends Car{}
 - [ ] Many client-specific interfaces are better than one general-purpose interface.
 - [x] objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
 
-#### Q88. In additio to responsabilities, what should be listed on Class-responsability-collaboration (CRC) cards?
+#### Q88. In addition to responsabilities, what should be listed on Class-responsability-collaboration (CRC) cards?
 
 - [ ] which programming language will be used.
 - [ ] the programmer responsible for implementation.
