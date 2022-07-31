@@ -517,7 +517,7 @@ Note: count() works with find(...) but length works with distinct
 - [ ] db.size()
 - [ ] db.info()
 - [ ] db.memory()
-- [ ] db.stats()
+- [x] db.stats()
 
 #### Q74. How do you create a new MongoDB user?
 
