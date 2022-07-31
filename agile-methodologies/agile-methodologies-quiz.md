@@ -750,14 +750,14 @@
 - [ ] inviting the Project Manager
 - [ ] making sure everyone speaks
 
-### Q104. You are facilitating a meeting and, unexpectedly, a key person doesn't attend. What should you do?
+#### Q104. You are facilitating a meeting and, unexpectedly, a key person doesn't attend. What should you do?
 
 - [ ] Hold the meeting and update the person who could not attend later.
 - [ ] Ask the person who could not attend to reschedule the meeting based on their availability.
 - [x] Ask all meeting partecipants what they want to do about the one person's absence
 - [ ] Reschedule the meeting for when all necessary people can attend
 
-### Q105. What is Open Space?
+#### Q105. What is Open Space?
 
 - [ ] a design concept for team rooms
 - [ ] a room for teams to demo their work
