@@ -1,7 +1,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1008-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1009-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1416,6 +1416,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Enuma029"><img src="https://avatars.githubusercontent.com/u/107807284?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Enuma029</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Enuma029" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/yktsang01"><img src="https://avatars.githubusercontent.com/u/68239425?v=4?s=100" width="100px;" alt=""/><br /><sub><b>yktsang01</b></sub></a><br /><a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=yktsang01" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/maximumn3rd"><img src="https://avatars.githubusercontent.com/u/838417?v=4?s=100" width="100px;" alt=""/><br /><sub><b>maximumn3rd</b></sub></a><br /><a href="#design-maximumn3rd" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=maximumn3rd" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/gallettube"><img src="https://avatars.githubusercontent.com/u/12675779?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jon Galletero</b></sub></a><br /><a href="#design-gallettube" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=gallettube" title="Code">💻</a></td>
   </tr>
 </table>
 
