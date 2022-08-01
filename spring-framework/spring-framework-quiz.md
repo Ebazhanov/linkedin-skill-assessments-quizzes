@@ -827,7 +827,7 @@ class TestConfig {
 
 - [ ] @Component
 - [ ] @Service
-- [ ] @HtmlController
+- [x] @HtmlController
 - [ ] @Controller
 
 #### Q81. Which statement is true regarding loading and instantiation of Spring factories?
