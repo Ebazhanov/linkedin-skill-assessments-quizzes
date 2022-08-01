@@ -9960,6 +9960,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "gallettube",
+      "name": "Jon Galletero",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12675779?v=4",
+      "profile": "https://github.com/gallettube",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
