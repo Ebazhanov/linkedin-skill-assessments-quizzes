@@ -9923,6 +9923,15 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "lucioaguiar",
+      "name": "Lúcio Aguiar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70476123?v=4",
+      "profile": "http://lucioaguiar.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
