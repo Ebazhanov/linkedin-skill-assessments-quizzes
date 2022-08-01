@@ -639,8 +639,8 @@
 
 #### Q89. Which statement is _not_ true about pair programming?
 
-- [ ] It has been discredited because it is too expensive.
-- [x] In pair programming, two developers share one computer and take turns at the keyboard.
+- [x] It has been discredited because it is too expensive.
+- [ ] In pair programming, two developers share one computer and take turns at the keyboard.
 - [ ] It is a great way to teach someone who is new to the team.
 - [ ] The code produced by two developers who are collaborating is typically higher quality than if they were working alone.
 
