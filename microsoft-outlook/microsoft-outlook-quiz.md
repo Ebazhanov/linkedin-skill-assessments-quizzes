@@ -663,3 +663,10 @@ C. Some people have already accepted, so you must cancel this meeting and create
 - [ ] **Format Column** (Windows), or **Rules** then **Format Columns** (Mac)
 - [x] **Group by (Windows), or Rules then Group by (Mac)**
 - [ ] **Conditional Formatting** (Windows), or **Rules** then **Categorize** or **Set Category** (Mac)
+
+#### Q91. You opened an email message but wherever an image should appear, instead of pictures, Outlook displays a red X followed by a brief text message. Why is this?
+
+- [ ] Outlook cannot show pictures in emails.
+- [ ] Outlook can display only pictures stored in JPG format.
+- [ ] Outlook automatically converts email to HTML.
+- [x] Pictures were prevented from being automatically downloaded. User may download if desired.

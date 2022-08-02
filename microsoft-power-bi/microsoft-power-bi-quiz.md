@@ -680,3 +680,10 @@ D. They must have no duplicate data rows.
 - [x] It will display the bar chart as it appears in the report now.
 - [ ] It will display an error message where the bar chart had been pinned.
 - [ ] It will display the bar chart as it appeared when it was pinned.
+
+#### Q85. In the Power Query Editor, how do you add an index column to an existing dataset?
+
+- [ ] On the Transform tab, click Add Column > Index.
+- [x] On the Add Column tab, click Add Index Column.
+- [ ] none of these answers
+- [ ] On the Home tab, click Add Index Column.

@@ -9913,6 +9913,63 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "ChrisGk89",
+      "name": "Chris",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8108153?v=4",
+      "profile": "https://chrisgkalfas.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "lucioaguiar",
+      "name": "Lúcio Aguiar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70476123?v=4",
+      "profile": "http://lucioaguiar.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Enuma029",
+      "name": "Enuma029",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107807284?v=4",
+      "profile": "https://github.com/Enuma029",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "yktsang01",
+      "name": "yktsang01",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68239425?v=4",
+      "profile": "https://github.com/yktsang01",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "maximumn3rd",
+      "name": "maximumn3rd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/838417?v=4",
+      "profile": "https://github.com/maximumn3rd",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "gallettube",
+      "name": "Jon Galletero",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12675779?v=4",
+      "profile": "https://github.com/gallettube",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

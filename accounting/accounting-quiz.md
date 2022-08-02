@@ -231,7 +231,7 @@
 - [ ] Listing of the stockholders
 - [ ] Management discussion and analysis
 
-#### Q32. What does "independence" mean in auditing?
+#### Q31. What does "independence" mean in auditing?
 
 - [ ] being an advocate for all clients
 - [ ] not being dependent on a client's fee
@@ -240,7 +240,7 @@
 
 [source](https://www.icaew.com/technical/trust-and-ethics/ethics/auditor-independence#:~:text=Auditor%20independence%20refers%20to%20the,and%20in%20an%20objective%20manner.)
 
-#### Q33. What would cause a bank to increase a depositor's account?
+#### Q32. What would cause a bank to increase a depositor's account?
 
 - [ ] collecting a note receivable
 - [x] paying a note payable
