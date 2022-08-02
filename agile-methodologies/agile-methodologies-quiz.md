@@ -551,10 +551,12 @@
 
 #### Q77. Which statement best describes Agile, Lean, and Six Sigma?
 
-- [ ] They are strategies for delivering customer value.
+- [x] They are strategies for delivering customer value.
 - [ ] They were pioneered by Toyota.
 - [ ] They are strategies for discovering what the customer wants.
 - [ ] They are derived from statistical process control.
+
+[Reference](https://agilemanifesto.org/principles) - First paragraph clearly points out that Agile is about delivering value to the customer. [Lean](https://en.wikipedia.org/wiki/Lean_software_development) is a subset of the Agile community and [Six Sigma](https://en.wikipedia.org/wiki/Six_Sigma) is Agile applied to manufacturing.
 
 #### Q78. What is a user story?
 
@@ -667,10 +669,12 @@
 
 #### Q93. What is the name of the technique in which a story includes an input, a translation of input to output, and an output?
 
-- [ ] input-output processing
+- [x] input-output processing
 - [ ] ITIOO story format
 - [ ] thin vertical slice
 - [ ] structured coding
+
+ITIOO isn't a thing, thin verticle slicing is refering to what work you prioritise, and structured code has nothing to so with stories.
 
 #### Q94. What is the term for a team member who is "T-shaped"?
 
@@ -736,28 +740,21 @@
 - [x] Ask the product owner to revise the acceptance criteria so it can be accepted and counted
 - [ ] explain that, in Agile, working software is the primary measure of progress. Then help...
 
-#### Q102. Which statement is _not_ true about pair programming?
-
-- [ ] The code produced by two developers who are collaborating is typically higher quality that if they were working alone
-- [ ] it is a great way to teach someone who is new to the team
-- [ ] in pair programming, two developers share one computer and take turns at the keyboard
-- [x] it has been discredited because it is too expansive
-
-#### Q103. When planning a meeting, which action is most important?
+#### Q102. When planning a meeting, which action is most important?
 
 - [x] clariying the expected outcome
 - [ ] taking notes
 - [ ] inviting the Project Manager
 - [ ] making sure everyone speaks
 
-#### Q104. You are facilitating a meeting and, unexpectedly, a key person doesn't attend. What should you do?
+#### Q103. You are facilitating a meeting and, unexpectedly, a key person doesn't attend. What should you do?
 
 - [ ] Hold the meeting and update the person who could not attend later.
 - [ ] Ask the person who could not attend to reschedule the meeting based on their availability.
 - [x] Ask all meeting partecipants what they want to do about the one person's absence
 - [ ] Reschedule the meeting for when all necessary people can attend
 
-#### Q105. What is Open Space?
+#### Q104. What is Open Space?
 
 - [ ] a design concept for team rooms
 - [ ] a room for teams to demo their work
