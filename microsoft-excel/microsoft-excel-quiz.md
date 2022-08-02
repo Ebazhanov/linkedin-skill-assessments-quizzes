@@ -1113,3 +1113,24 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] scatter chart
 - [ ] pie chart
 - [x] map chart
+
+#### Q123. Column A contains a list of book titles. To ensure that no book title appears more than once, first you select column A. What should you do next?
+
+- [ ] Right-click the column head and select Unique
+- [ ] On the **Home** ribbon, click **Clear > Duplicates**
+- [x] On the **Data** ribbon, click **Remove Duplicates**
+- [ ] On the **Data** ribbon, click **Data Validation
+
+#### Q124. You want to copy only the cells that are displayed here - not the hidden cells - into another worksheet. After selecting the cells in the worksheet, how do you accomplish this?
+
+- [ ] On the View tab, select Visible cells only, Paste into the destination worksheet
+- [ ] On the Home tab, clear the Hidden cells check box. Paste into the destination worksheet
+- [ ] Copy the cells. Then in the destination worksheet, click Paste special > Paste only visible cells
+- [x] On the Home tab, click Find & Select > Go to special > Visible cells only. Paste into the destination worksheet
+
+#### Q125. You want to define a reusable process to reshape data (removing blank rows, merging columns, etc.). What toold can you use to accomplush this?
+
+- [x] Power Query
+- [ ] Data Analysis
+- [ ] Power Pivot
+- [ ] Data Modeler
