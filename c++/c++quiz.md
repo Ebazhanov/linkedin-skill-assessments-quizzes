@@ -113,11 +113,11 @@ v1 and v2 point to the same vector.
 
 - [ ] Because structs are part of the C programming language, there are some complexity between C and C++ structs. This is not the case with classes.
 - [ ] Classes may have member functions; structs are private.
-- [x] The default access specifier for members of struct is public, whereas for member of class, it is private.
-- [ ] Template type parameters can be declared with classes, but not with the struct keyword.
+- [ ] The default access specifier for members of struct is public, whereas for member of class, it is private.
+- [x] Template type parameters can be declared with classes, but not with the struct keyword.
 
-`The only difference is if you don’t specify the visibility (public, private or protected) of the members, they will be public in the struct and private in the class.`
-
+Templates can be used with both classes and structs
+[Refernce](https://docs.microsoft.com/en-us/cpp/cpp/struct-cpp?view=msvc-170)
 [Reference](https://www.fluentcpp.com/2017/06/13/the-real-difference-between-struct-class/)
 
 #### Q10. Suppose you need to keep a data struct with permission to access some resource based on the days of the week, but you can't use a bool variable for each day. You need to use one bit per day of the week. Which of the following is a correct implementation of a structure with bit fields for this application?
