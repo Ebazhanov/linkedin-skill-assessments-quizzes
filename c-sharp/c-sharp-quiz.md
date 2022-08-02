@@ -127,10 +127,10 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 
 #### Q10. What is the difference between a.Equals(b) and a == b?
 
-- [ ] The .Equals method compares reference identities while the == compares contents.
-- [ ] The .Equals method compares primitive values while == compares all values.
-- [x] The .Equals method compares contents while == compares references reference identity.
-- [ ] The .Equals method compares reference type while == compares primitive value types.
+- [ ] The .Equals method compares reference identities while the `==` compares contents.
+- [ ] The .Equals method compares primitive values while `==` compares all values.
+- [x] The .Equals method compares contents while `==` compares reference identity.
+- [ ] The .Equals method compares reference type while `==` compares primitive value types
 
 #### Q11. Which choice best describes a deadlock situation?
 
