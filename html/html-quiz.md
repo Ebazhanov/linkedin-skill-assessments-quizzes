@@ -1482,8 +1482,8 @@ As Steve Krug once said, happy talk must die.
 
 #### Q88. Which choice will produce the spanish word <i>canción</i>?
 
-- [ ] `<p lang="es">canción</p>`
-- [x] `<p lang="es">canci&oacuten</p>`
+- [x] `<p lang="es">canción</p>`
+- [ ] `<p lang="es">canci&oacuten</p>`
 - [ ] `<p lang="es">cancio'n</p>`
 - [ ] `<p lang="es">canci'on</p>`
 
