@@ -587,3 +587,17 @@
 - [ ] master view
 - [ ] master page
 - [ ] default view
+
+#### Q83. What are table filters?
+
+- [ ] on dimensions only
+- [ ] permanent
+- [ ] on metrics only
+- [x] temporary
+
+#### Q84. What is a risk of using the Copare to Previous Period option?
+
+- [ ] it is not possible to cmpare previous periods with sampled data pulled ad hoc
+- [ ] The same amount of days selected for the Date Range will be used for the coparison
+- [x] If the review period is Wednesday to Thursday, the previous period may include weekends, which may skew the comparison
+- [ ] Both sets of data may appear on the same graph, which will skew your ability to analyze impact
