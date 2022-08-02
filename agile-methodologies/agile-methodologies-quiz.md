@@ -644,7 +644,7 @@
 - [ ] It is a great way to teach someone who is new to the team.
 - [ ] The code produced by two developers who are collaborating is typically higher quality than if they were working alone.
 
-#### Q90. People with fixed mindset \_ .
+#### Q90. People with a fixed mindset \_ .
 
 - [x] have better focus and longer attention spans
 - [ ] are more goal oriented
@@ -763,3 +763,10 @@
 - [ ] a room for teams to demo their work
 - [ ] a placeholder in the code body for the future functionality
 - [x] a meeting format where participants create and manage the agenda
+
+#### Q106. Which choice is not an expected benefit of refactoring?
+
+- [ ] Refactoring can reduce the effort for future development
+- [x] Refactoring is used to fix bugs
+- [ ] Refactoring improves the design of the system
+- [ ] Refactoring improves the maintainability of the code
