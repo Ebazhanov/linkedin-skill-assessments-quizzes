@@ -621,7 +621,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 #### Q80. How can you create a new presentation that includes prebuild layouts, colors, fonts, background styles, and content?
 
-- [ ] Use a theme.
+- [x] Use a theme.
 - [ ] Use a design.
 - [ ] Use a template.
 - [ ] Use a style.
@@ -629,7 +629,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 #### Q81. How can you reorder the levels of shapes in a SmartArt diagram?
 
 - [ ] Promote or demote the shapes.
-- [ ] Move the shapes up and down.
+- [x] Move the shapes up and down.
 - [ ] Change shapes from left to right.
 - [ ] Retype the text.
 
@@ -658,5 +658,12 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 - [ ] Create an outline in the outline view and rearrange slides.
 - [ ] Add a table of contents slide and link the remaining slides to it.
-- [ ] Add sections and move the slides into the appropriate sections.
+- [x] Add sections and move the slides into the appropriate sections.
 - [ ] Create custom shows and add the slides into the shows.
+
+#### Q86. How do you remove the background of an inserted impage?
+
+- [ ] Select the image and, on the Design tab, use the Format Background feature
+- [ ] Select the image and, on the Picture Format tab, use the Compress Picture feature
+- [x] Select the image and, on the Picture Format tab, click the Remove Background button
+- [ ] On the Drawing Tools Format tab, select Graphics Fill > Remove Background
