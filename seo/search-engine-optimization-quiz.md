@@ -144,7 +144,7 @@
 
 #### Q18. Which choice represents the best header structure?
 
-- [ ]
+- [x]
 
 ```markdown
     H1: How to Bak Bagels
@@ -177,7 +177,7 @@
     H2: Reviews
 ```
 
-- [x]
+- [ ]
 
 ```markdown
     H1: How to Bak Bagels
@@ -563,3 +563,10 @@
 - [ ] Title
 - [x] Cache
 - [ ] URL
+
+#### Q69. A landing page with no internal or external links is an example of what?
+
+- [ ] Dynamic hierarchy
+- [ ] Doorway content
+- [x] Orphaned content
+- [ ] Flat Hierarchy
