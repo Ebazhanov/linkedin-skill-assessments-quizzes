@@ -1872,3 +1872,50 @@ As Steve Krug once said, happy talk must die.
 - [ ] There is no method set on the form.
 
 A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools.com/tags/att_fieldset_disabled.asp)
+
+#### Q108. Which description list is coded correctly?
+
+- [x] A
+
+```html
+<dl>
+    <dt>Server</dt>
+    <dd>Software used to server webpages, like Apache.</dd>
+    <dd>Hardware used to provide data to other computers.</dd>
+    <!--Other terms and descriptions -->
+</dl>
+
+```
+
+- [ ] B
+
+```html
+<dl>
+    <dd>Server</dd>
+    <dt>Software used to server webpages, like Apache.</dt>
+    <dt>Hardware used to provide data to other computers.</dt>
+    <!--Other terms and descriptions -->
+</dl>
+```
+
+- [ ] C
+
+```html
+<dt>
+    <dl>Server</dl>
+    <dd>Software used to server webpages, like Apache.</dd>
+    <dd>Hardware used to provide data to other computers.</dd>
+    <!--Other terms and descriptions -->
+</dt>
+```
+
+- [ ] D
+
+```html
+<dl>
+    <dt>Server</dt>
+    <dd>Software used to server webpages, like Apache.</dd>
+    <dt>Hardware used to provide data to other computers.</dt>
+    <!--Other terms and descriptions -->
+</dl>
+```
