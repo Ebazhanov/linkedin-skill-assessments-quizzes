@@ -1875,7 +1875,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 #### Q108. Which description list is coded correctly?
 
-- [ ] A
+- [x] A
 
 ```html
 <dl>
