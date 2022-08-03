@@ -9989,6 +9989,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "AliM-01",
+      "name": "Ali M",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76903214?v=4",
+      "profile": "https://github.com/AliM-01",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
