@@ -699,8 +699,10 @@ public int Password
 
 - [ ] `resource overload`
 - [ ] `thread jumping`
-- [ ] `deadlock and race conditions`
+- [x] `deadlock and race conditions`
 - [ ] `nothing, since this is what threading is for`
+
+[Official documentation: race conditions](https://docs.microsoft.com/en-us/archive/msdn-magazine/2008/october/concurrency-hazards-solving-problems-in-your-multithreaded-code)
 
 #### Q65. How do you indicate that a string might be null?
 
