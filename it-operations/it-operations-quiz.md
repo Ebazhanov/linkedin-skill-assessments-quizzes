@@ -497,6 +497,14 @@ Idea behind the answer: let's go for a quick restart to see whether the problem 
 - [x] 254
 - [ ] 256
 
+#### Q62. Tania was told to address an issue in the UEFI. How is it accessed?
+
+- [ ] by using the System Configuration Utility (MSCONFIG)
+- [x] from the BIOS
+- [ ] from the computer's startup menu
+- [ ] on the network
+
+<not duplicate, pls do not delete, the explanation below>
 #### Q62. Tania was told to change a setting in the UEFI. How is it accessed?
 
 - [ ] by using the System Configuration Utility (MSCONFIG)
@@ -504,10 +512,8 @@ Idea behind the answer: let's go for a quick restart to see whether the problem 
 - [x] from the computer's startup menu
 - [ ] on the network
 
-<!-- 
+```
 Q62. Tania was told to address an issue in the UEFI. How is it accessed?
-Was changed to
-Q62. Tania was told to change a setting in the UEFI. How is it accessed?
 
 And the answer changed from
 "from the BIOS" to
@@ -518,7 +524,7 @@ The phrase "to adress an issues in UEFI" could be interpreted as to alter someth
 I changed the answer because you would not access the UEFI from the BIOS. Only in rare cases or manufacturing testing experimental stuff, does a system have both UEFI and BIOS.
 
 To get to either UEFI or BIOS on a system you usually go via the computer's boot menu or press a certain key to boot straight into that mode.
--->
+```
 
 #### Q63. What is the technical reason why you must properly eject media?
 
