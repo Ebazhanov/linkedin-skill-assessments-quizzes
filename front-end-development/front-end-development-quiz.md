@@ -743,3 +743,24 @@ box {
 - [ ] a link to allow users to skip video that automatically plays on a website
 
 [Source: W3 Schools]("https://www.w3schools.com/accessibility/accessibility_skip_links.php")
+
+#### Q75. On a page with many images, what would be the effect of adding loading="lazy" to the <img> tag?
+
+- [ ] it will speed up loading of the image when used with a JavaScript library
+- [ ] in supporting browsers, images will be higly compressed, therefore loading more quickly
+- [x] In supporting browsers, images will load only when they are in or near the visible viewport
+- [ ] In supporting browsers, images will not oad unless the user explicitly requests image loading
+
+#### Q76. What is GraphQL?
+
+- [ ] a React library for storing data
+- [ ] a Vue.js library for storing and manipulating data
+- [x] a query language for fetching data from APIs
+- [ ] a new database format designed to replace MySQL  
+
+#### Q77. Wich choice will place a multiline text input field on the page?
+
+- [ ] `<multiline></multiline>`
+- [x] `<textarea></textarea>`
+- [ ] `<input type="multiline">`
+- [ ] `<input type="textarea">` 
