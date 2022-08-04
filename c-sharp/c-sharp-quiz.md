@@ -132,6 +132,10 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [x] The .Equals method compares contents while `==` compares reference identity.
 - [ ] The .Equals method compares reference type while `==` compares primitive value types
 
+[Official documentation: Object.Equals](https://docs.microsoft.com/en-us/dotnet/api/system.object.equals)
+
+[c-sharpcorner: Equality Operator(==) vs .Equals()](https://www.c-sharpcorner.com/UploadFile/3d39b4/difference-between-operator-and-equals-method-in-C-Sharp)
+
 #### Q11. Which choice best describes a deadlock situation?
 
 - [ ] when you try to instantiate two objects at the same time in the same class or struct
