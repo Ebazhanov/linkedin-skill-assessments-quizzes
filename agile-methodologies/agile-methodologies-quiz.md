@@ -761,14 +761,14 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] a placeholder in the code body for the future functionality
 - [x] a meeting format where participants create and manage the agenda
 
-#### Q106. Which choice is not an expected benefit of refactoring?
+#### Q105. Which choice is not an expected benefit of refactoring?
 
 - [ ] Refactoring can reduce the effort for future development
 - [x] Refactoring is used to fix bugs
 - [ ] Refactoring improves the design of the system
 - [ ] Refactoring improves the maintainability of the code
 
-#### Q107. In the Scaled Agile Framework, consecutive iterations are grouped together into a PI. What is a PI?
+#### Q106. In the Scaled Agile Framework, consecutive iterations are grouped together into a PI. What is a PI?
 
 - [ ] Project Increment
 - [ ] Portfolio Increment
