@@ -570,3 +570,10 @@
 - [ ] Doorway content
 - [x] Orphaned content
 - [ ] Flat Hierarchy
+
+#### Q70. Informational, navigational, commercial, transactional are four categories of what?
+
+- [x] keyword search intent
+- [ ] crawling
+- [ ] indexing
+- [ ] HTTP responses
