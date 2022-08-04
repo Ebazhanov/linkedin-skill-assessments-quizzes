@@ -1134,3 +1134,18 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] Data Analysis
 - [ ] Power Pivot
 - [ ] Data Modeler
+
+#### Q126. Which situation will result in a #REF! error?
+
+- [x] The cell referenced in the error message has been deleted
+- [ ] A nonnumeric agument is used in a function when a numeric value is expected
+- [ ] A required operator is omitted in a formula
+- [ ] The formula contains an undefined range
+
+#### Q127. Which feature allows formatting to be automatically added to new columns and rows?
+
+- [ ] AutoFormat
+- [ ] conditional formatting
+- [x] Format as Table
+- [ ] PivotTable
+
