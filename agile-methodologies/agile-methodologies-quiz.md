@@ -774,3 +774,10 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] Portfolio Increment
 - [ ] Product Increment
 - [ ] Program Increment
+
+#### Q108. How an you improve interaction between team members?
+
+- [ ] Move people's workstation around in the team room to create new social possibilites
+- [ ] Since no one has come to you with a compliant, assume that the limited interaction works for everyone
+- [x] Ask the team if they would like to do something recreational together and offer to organize it
+- [ ] Tell the team that you see this as a problem and ask them to solve it
