@@ -767,3 +767,10 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [x] Refactoring is used to fix bugs
 - [ ] Refactoring improves the design of the system
 - [ ] Refactoring improves the maintainability of the code
+
+#### Q107. In the Scaled Agile Framework, consecutive iterations are grouped together into a PI. What is a PI?
+
+- [ ] Project Increment
+- [ ] Portfolio Increment
+- [ ] Product Increment
+- [ ] Program Increment

@@ -601,11 +601,12 @@ _______
 - [ ] `UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id=56295;`
 - [ ] `UPDATE Students SET last_name='Smith' AND email = 'dsmith@rouxacademy.com' WHERE id='56295';`
 
-
 #### Q49. What is the result of this query?
+
 ```sql
 SELECT 123+'abc' AS Result;
 ```
+
 - [x] 123abc
 - [ ] 123'abc'
 - [ ] '123abc'
