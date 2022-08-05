@@ -260,7 +260,7 @@
 - [ ] Celebrate successes.
 - [ ] Remove impediments
 
-#### Q37. A team needs to do research, design, prototyping. What is this type of story called?
+#### Q37. A team needs to do research, design, or prototyping. What is this type of story called?
 
 - [x] Exploratory spike
 - [ ] Backlog refinement
