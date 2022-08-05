@@ -446,7 +446,7 @@ FROM customers c;
 
 - [ ] Comparator
 - [ ] Mapper
-- [ ] Combiner
+- [X] Combiner
 - [ ] Reducer
 
 #### Q63. You can optimize Hive queries using which method?
@@ -459,14 +459,14 @@ FROM customers c;
 #### Q64. If you are processing a single action on each input, what type of job should you create?
 
 - [ ] partition-only
-- [ ] map-only
+- [X] map-only
 - [ ] reduce-only
 - [ ] combine-only
 
 #### Q65. The simplest possible MapReduce job optimization is to perform which of these actions?
 
 - [ ] Add more master nodes.
-- [ ] Implement optimized InputSplits.
+- [X] Implement optimized InputSplits.
 - [ ] Add more DataNodes.
 - [ ] Implement a custom Mapper.
 
