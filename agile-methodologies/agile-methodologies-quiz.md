@@ -595,7 +595,7 @@
 - [ ] It was written in 2001 and is obsolete.
 - [ ] It was first published as part of Jim Highsmith's doctoral thesis.
 
-#### Q83. The team is not going to complete its Spring Commitment. As the Team Facilitator, what should you do?
+#### Q83. The team is not going to complete its Sprint Commitment. As the Team Facilitator, what should you do?
 
 - [ ] Ask the PO to extend the sprint.
 - [ ] Advise the PO as soon as possible.
@@ -775,7 +775,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] Product Increment
 - [ ] Program Increment
 
-#### Q108. How an you improve interaction between team members?
+#### Q107. How an you improve interaction between team members?
 
 - [ ] Move people's workstation around in the team room to create new social possibilites
 - [ ] Since no one has come to you with a compliant, assume that the limited interaction works for everyone
