@@ -773,7 +773,9 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] Project Increment
 - [ ] Portfolio Increment
 - [ ] Product Increment
-- [ ] Program Increment
+- [x] Program Increment
+
+[Source](https://www.scaledagileframework.com/program-increment/) `A Program Increment (PI) is a timebox during which an Agile Release Train (ART) delivers incremental value in the form of working, tested software and systems. PIs are typically 8 – 12 weeks long.`
 
 #### Q108. How an you improve interaction between team members?
 
