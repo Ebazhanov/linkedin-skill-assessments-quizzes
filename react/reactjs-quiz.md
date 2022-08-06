@@ -1161,3 +1161,42 @@ const { tree, lake } = nature;
 - [x] destructuring assignment
 
 [Reference](https://javascript.info/destructuring-assignment)
+
+#### Q101. How would you correct this code block to make sure that the sent property is set to the Boolean value false?
+
+```javascript
+ReactDom.render(
+  <Message sent=false />,
+  document.getElementById("root")
+);
+```
+
+- [ ] A
+
+```javascript
+<Message sent={false} />,
+```
+
+- [ ] B
+
+```javascript
+ReactDom.render(
+  <Message sent='false' />,
+  document.getElementById("root")
+);
+```
+
+- [ ] C
+
+```javascript
+<Message sent="false" />,
+```
+
+- [ ] D
+
+```javascript
+ReactDom.render(
+  <Message sent="false" />,
+  document.getElementById("root")
+);
+```
