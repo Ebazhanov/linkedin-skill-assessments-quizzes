@@ -385,6 +385,10 @@ public interface INameable
 - [x] only when required
 - [ ] only when programmatically loaded
 
+[Official documentation: Assembly Loading](https://docs.microsoft.com/en-us/dotnet/framework/deployment/best-practices-for-assembly-loading)
+    
+[Stackoverflow : When exactly are assemblies loaded?](https://stackoverflow.com/questions/21914692/when-exactly-are-assemblies-loaded)
+    
 #### Q35. What is most accurate description of a regular expression?
 
 - [ ] A regular expression is a C# tool used to parse HTML
