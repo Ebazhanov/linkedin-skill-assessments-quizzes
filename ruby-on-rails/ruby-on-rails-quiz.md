@@ -898,12 +898,12 @@ end
 - [ ] MyModel.decrypt_data
 - [ ] MyModel.query(id: 42)
 - [ ] MyModel.find(:decrypt_data)
-- [ ] MyModel.where(id: 42)
+- [x] MyModel.where(id: 42)
 
 #### Q68. Which line of inquiry would you follow after receiving this error message: No route matches [POST] "/burrito/create"?
 
 - [ ] Check that there is a matching path for "/burrito/create" in you paths.rb file.
-- [ ] Check that there is a `post` route that matches "/burrito/create" in your routes.rb file.
+- [x] Check that there is a `post` route that matches "/burrito/create" in your routes.rb file.
 - [ ] Add the line `resources :burritos` to your routes.rb file.
 - [ ] Check that there is a `get` route that matches "burrito/create" in your paths.rb file.
 
@@ -940,7 +940,7 @@ def show
 end
 ```
 
-- [ ] D
+- [x] D
 
 ```
 def show
