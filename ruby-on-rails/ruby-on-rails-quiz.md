@@ -835,10 +835,12 @@ end
     end
 ```
 
-- [x] `@user.user_city`
+- [ ] `@user.user_city`
 - [ ] `@user.location_city`
-- [ ] `@user.city`
+- [x] `@user.city`
 - [ ] `@user.try(:city)`
+
+[Reference](https://itnext.io/understanding-delegate-in-ruby-on-rails-i-wish-i-knew-before-5edd341bad47)
 
 #### Q62. Where would this code most likely be found in a Rails project?
 
