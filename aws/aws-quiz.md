@@ -797,3 +797,12 @@ aws ecs create-service \
 - [ ] cross-region caching
 - [ ] speed of access
 - [x] cost
+
+#### Q90. Which of these AWS services can be related to Lambda via a trigger?
+
+- [ ] Cognito Sync Trigger, SNS
+- [ ] SNS, SQS
+- [x] all of these answers
+- [ ] SQS, DynamoDB
+
+[Reference](https://aws.amazon.com/blogs/architecture/understanding-the-different-ways-to-invoke-lambda-functions)
