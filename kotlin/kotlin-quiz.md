@@ -591,6 +591,10 @@ fun main() {
 - [ ] The reference to name needs to be scoped to the class, so it should be `this.name`
 - [x] Classes cannot be immutable. You need to change `var` to `val`
 
+Note: By default, constructor parameters can only be used in the initializer blocks or property initializers declared in the class body. Therefore, to let the `greet` function have access to the `name` parameter, it should be declared as a property: `class Cat (val name: String) { ... }`
+
+[reference](https://kotlinlang.org/docs/classes.html#constructors)
+
 #### Q46. The code below shows a typical way to show both index and value in many languages, including Kotlin. Which line of code shows a way to get both index and value more idiomatically?
 
 ```kotlin
