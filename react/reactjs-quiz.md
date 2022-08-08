@@ -1171,7 +1171,7 @@ ReactDom.render(
 );
 ```
 
-- [ ] A
+- [x] A
 
 ```javascript
 <Message sent={false} />,
