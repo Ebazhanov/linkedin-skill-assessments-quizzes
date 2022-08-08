@@ -395,10 +395,10 @@ autopsy is for forensic analysis
 
 #### Q51. You have recovered a server that was compromised in a malware attack to its previous state. What is the final step in the incident response process?
 
-- [x] Eradication / Remediation
+- [ ] Eradication / Remediation
 - [ ] Certification
 - [ ] Reporting
-- [ ] Lessons Learned
+- [x] Lessons Learned
 
 #### Q52. Which encryption type uses a public and private key pair for encrypting and decrypting data?
 
