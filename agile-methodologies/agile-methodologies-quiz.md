@@ -260,7 +260,7 @@
 - [ ] Celebrate successes.
 - [ ] Remove impediments
 
-#### Q37. A team needs to do research, design, prototyping. What is this type of story called?
+#### Q37. A team needs to do research, design, or prototyping. What is this type of story called?
 
 - [x] Exploratory spike
 - [ ] Backlog refinement
@@ -595,7 +595,7 @@
 - [ ] It was written in 2001 and is obsolete.
 - [ ] It was first published as part of Jim Highsmith's doctoral thesis.
 
-#### Q83. The team is not going to complete its Spring Commitment. As the Team Facilitator, what should you do?
+#### Q83. The team is not going to complete its Sprint Commitment. As the Team Facilitator, what should you do?
 
 - [ ] Ask the PO to extend the sprint.
 - [ ] Advise the PO as soon as possible.
@@ -761,9 +761,25 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] a placeholder in the code body for the future functionality
 - [x] a meeting format where participants create and manage the agenda
 
-#### Q106. Which choice is not an expected benefit of refactoring?
+#### Q105. Which choice is not an expected benefit of refactoring?
 
 - [ ] Refactoring can reduce the effort for future development
 - [x] Refactoring is used to fix bugs
 - [ ] Refactoring improves the design of the system
 - [ ] Refactoring improves the maintainability of the code
+
+#### Q106. In the Scaled Agile Framework, consecutive iterations are grouped together into a PI. What is a PI?
+
+- [ ] Project Increment
+- [ ] Portfolio Increment
+- [ ] Product Increment
+- [x] Program Increment
+
+[Source](https://www.scaledagileframework.com/program-increment/) `A Program Increment (PI) is a timebox during which an Agile Release Train (ART) delivers incremental value in the form of working, tested software and systems. PIs are typically 8 – 12 weeks long.`
+
+#### Q107. How an you improve interaction between team members?
+
+- [ ] Move people's workstation around in the team room to create new social possibilites
+- [ ] Since no one has come to you with a compliant, assume that the limited interaction works for everyone
+- [x] Ask the team if they would like to do something recreational together and offer to organize it
+- [ ] Tell the team that you see this as a problem and ask them to solve it

@@ -1237,7 +1237,8 @@ console.log(animals.pop()); //Prints jaguar
 - [x] `animals.reverse();`
 - [ ] `animals.shift();`
 - [x] `animals.pop();`
-Note: this question has two correct questions. 
+
+`Note: this question has two correct answers.`
 
 [Reference Javascript Array Reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
 

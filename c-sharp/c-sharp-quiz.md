@@ -25,6 +25,8 @@
 
 [Official documentation: Task asynchronous programming model](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/task-asynchronous-programming-model)
 
+resposta correta --> var contacts = new List<string>();
+
 #### Q4. How would you determine if a class has a particular attribute?
 
 - [ ] .
@@ -131,6 +133,10 @@ Attribute.GetCustomAttribute(typeof(ExampleController), typeof(SubControllerActi
 - [ ] The .Equals method compares primitive values while `==` compares all values.
 - [x] The .Equals method compares contents while `==` compares reference identity.
 - [ ] The .Equals method compares reference type while `==` compares primitive value types
+
+[Official documentation: Object.Equals](https://docs.microsoft.com/en-us/dotnet/api/system.object.equals)
+
+[c-sharpcorner: Equality Operator(==) vs .Equals()](https://www.c-sharpcorner.com/UploadFile/3d39b4/difference-between-operator-and-equals-method-in-C-Sharp)
 
 #### Q11. Which choice best describes a deadlock situation?
 
@@ -379,6 +385,10 @@ public interface INameable
 - [x] only when required
 - [ ] only when programmatically loaded
 
+[Official documentation: Assembly Loading](https://docs.microsoft.com/en-us/dotnet/framework/deployment/best-practices-for-assembly-loading)
+    
+[Stackoverflow : When exactly are assemblies loaded?](https://stackoverflow.com/questions/21914692/when-exactly-are-assemblies-loaded)
+    
 #### Q35. What is most accurate description of a regular expression?
 
 - [ ] A regular expression is a C# tool used to parse HTML
@@ -699,8 +709,10 @@ public int Password
 
 - [ ] `resource overload`
 - [ ] `thread jumping`
-- [ ] `deadlock and race conditions`
+- [x] `deadlock and race conditions`
 - [ ] `nothing, since this is what threading is for`
+
+[Official documentation: race conditions](https://docs.microsoft.com/en-us/archive/msdn-magazine/2008/october/concurrency-hazards-solving-problems-in-your-multithreaded-code)
 
 #### Q65. How do you indicate that a string might be null?
 

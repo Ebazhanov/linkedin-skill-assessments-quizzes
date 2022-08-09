@@ -1879,22 +1879,21 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 ```html
 <dl>
-    <dt>Server</dt>
-    <dd>Software used to server webpages, like Apache.</dd>
-    <dd>Hardware used to provide data to other computers.</dd>
-    <!--Other terms and descriptions -->
+  <dt>Server</dt>
+  <dd>Software used to server webpages, like Apache.</dd>
+  <dd>Hardware used to provide data to other computers.</dd>
+  <!--Other terms and descriptions -->
 </dl>
-
 ```
 
 - [ ] B
 
 ```html
 <dl>
-    <dd>Server</dd>
-    <dt>Software used to server webpages, like Apache.</dt>
-    <dt>Hardware used to provide data to other computers.</dt>
-    <!--Other terms and descriptions -->
+  <dd>Server</dd>
+  <dt>Software used to server webpages, like Apache.</dt>
+  <dt>Hardware used to provide data to other computers.</dt>
+  <!--Other terms and descriptions -->
 </dl>
 ```
 
@@ -1913,9 +1912,9 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 ```html
 <dl>
-    <dt>Server</dt>
-    <dd>Software used to server webpages, like Apache.</dd>
-    <dt>Hardware used to provide data to other computers.</dt>
-    <!--Other terms and descriptions -->
+  <dt>Server</dt>
+  <dd>Software used to server webpages, like Apache.</dd>
+  <dt>Hardware used to provide data to other computers.</dt>
+  <!--Other terms and descriptions -->
 </dl>
 ```

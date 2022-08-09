@@ -783,3 +783,26 @@ aws ecs create-service \
 - [ ] amplify init
 
 [Reference](https://docs.amplify.aws/cli/start/install/#option-2-follow-the-instructions)
+
+#### Q88. How do you limit access to an S3 bucket by source IP address?
+
+- [ ] Create the S3 bucket as a target for Application Load Balancer. Use Web Application Firewall (WAF) to create a rule to limit access to the S3 bucket by source IP.
+- [ ] You can not limit access to an S3 bucket by IP address.
+- [ ] In the preperties of the S3 bucket, add an access control option that limit access to the bucket by source IP address. Input the list of IPs into dialog.
+- [x] Create a bucket policy with a condition that limit access to a list of approved IP addresses. Attach this policy to the bucket.
+
+#### Q89. What is the benefits of using S3 Glacier for storage?
+
+- [ ] granual fetching
+- [ ] cross-region caching
+- [ ] speed of access
+- [x] cost
+
+#### Q90. Which of these AWS services can be related to Lambda via a trigger?
+
+- [ ] Cognito Sync Trigger, SNS
+- [ ] SNS, SQS
+- [x] all of these answers
+- [ ] SQS, DynamoDB
+
+[Reference](https://aws.amazon.com/blogs/architecture/understanding-the-different-ways-to-invoke-lambda-functions)
