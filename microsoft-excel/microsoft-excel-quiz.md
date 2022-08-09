@@ -1135,3 +1135,10 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] Data Analysis
 - [ ] Power Pivot
 - [ ] Data Modeler
+
+#### Q126. You want to be able restrict values allowed in a cell and need to create a drop-down list  of values from which users can choose. Which feature should you use?
+
+- [ ] Project Worksheet 
+- [x] Data validation 
+- [ ] Conditional Formatting
+- [ ] Allow Users to Edit Ranges
