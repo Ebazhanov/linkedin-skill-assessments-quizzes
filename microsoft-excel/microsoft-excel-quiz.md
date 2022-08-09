@@ -166,6 +166,7 @@
 - [ ] =UPPER(H2:H30,1)
 
 #### Q23. Which chart type can display two different data series as a different series type within the same chart?
+<img src="https://i.imgur.com/z2BfqIF.png" width="600" height="450"/>
 
 - [x] XY chart
 - [ ] clustered column
