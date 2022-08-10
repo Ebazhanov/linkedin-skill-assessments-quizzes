@@ -813,7 +813,7 @@ printA();
 
 [Reference Node interface](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
 
-#### Q63. Which statement is used to skip iteration of the loop?
+#### Q63. What statement can be used to skip an iteration in a loop?
 
 - [ ] `break`
 - [ ] `pass`
