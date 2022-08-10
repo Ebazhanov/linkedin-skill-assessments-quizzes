@@ -242,6 +242,10 @@
 
 #### D33. Cosa indurrebbe una banca ad aumentare il conto di un depositante?
 
+Robinson: Regressions
+
+
+
 - \[ ] riscossione di una nota da ricevere
 - \[x] pagare una nota da pagare
 - \[ ] Controlli NSF ("fondi non sufficienti")
