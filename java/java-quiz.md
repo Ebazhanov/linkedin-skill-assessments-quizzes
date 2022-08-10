@@ -1954,3 +1954,10 @@ System.out.println(buy.substring(x, x+1) + buy.substring(y, y+2))
 - [ ] Implement Sortable and override the sortBy method.
 
 [Reference](https://www.geeksforgeeks.org/how-to-override-compareto-method-in-java/)
+
+#### Q134. Which statement about constructors is not true?
+
+- [ ] You can call another constructor with this or super.
+- [ ] A class can have multiple constructors with a different parameter list.
+- [ ] A constructor does not define a return value.
+- [x] Every class must explicitly define a constructor without parameters.
