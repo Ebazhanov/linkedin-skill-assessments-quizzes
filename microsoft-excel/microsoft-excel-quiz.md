@@ -166,6 +166,7 @@
 - [ ] =UPPER(H2:H30,1)
 
 #### Q23. Which chart type can display two different data series as a different series type within the same chart?
+<img src="https://i.imgur.com/z2BfqIF.png" width="600" height="450"/>
 
 - [x] XY chart
 - [ ] clustered column
@@ -1135,17 +1136,26 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] Power Pivot
 - [ ] Data Modeler
 
-#### Q126. Which situation will result in a #REF! error?
+
+#### Q126. You want to be able restrict values allowed in a cell and need to create a drop-down list  of values from which users can choose. Which feature should you use?
+
+- [ ] Project Worksheet 
+- [x] Data validation 
+- [ ] Conditional Formatting
+- [ ] Allow Users to Edit Ranges
+
+#### Q127. Which situation will result in a #REF! error?
 
 - [x] The cell referenced in the error message has been deleted
 - [ ] A nonnumeric agument is used in a function when a numeric value is expected
 - [ ] A required operator is omitted in a formula
 - [ ] The formula contains an undefined range
 
-#### Q127. Which feature allows formatting to be automatically added to new columns and rows?
+#### Q128. Which feature allows formatting to be automatically added to new columns and rows?
 
 - [ ] AutoFormat
 - [ ] conditional formatting
 - [x] Format as Table
 - [ ] PivotTable
+
 
