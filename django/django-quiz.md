@@ -508,7 +508,7 @@ model=Planet
 - [ ] an NGINX web server
 - [ ] a NoSQL database
 - [ ] a larger hard drive
-- [ ] CORS middleware
+- [x] CORS middleware
 
 #### Q52. To expose an existing model via an API endpoint, what do you need to implement?\*\*
 
