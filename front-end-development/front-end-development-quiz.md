@@ -784,4 +784,4 @@ box {
 - [ ] The browser will show no content until the web font loads.
 - [ ] The browser will ignore the web font.
 - [ ] The browser will ignore the web font in a situation where the user has indicated they are saving data.
-- [ ] The browser will load a system font while waiting for the web font to load. // I think this is the correct answer. Not sure.
+- [x] The browser will load a system font while waiting for the web font to load.
