@@ -764,3 +764,24 @@ box {
 - [x] `<textarea></textarea>`
 - [ ] `<input type="multiline">`
 - [ ] `<input type="textarea">` 
+  
+#### Q78. Which browser is not based on Chromium?
+
+- [x] Firefox
+- [ ] Opera
+- [ ] Chrome
+- [ ] Edge  
+
+#### Q79. In supporting browsers, what would be the effect of using font-display: swap, as in example?
+
+```
+@font-face {
+    font-family: Helvetica;
+    font-display: swap;
+}
+```
+
+- [ ] The browser will show no content until the web font loads.
+- [ ] The browser will ignore the web font.
+- [ ] The browser will ignore the web font in a situation where the user has indicated they are saving data.
+- [x] The browser will load a system font while waiting for the web font to load.
