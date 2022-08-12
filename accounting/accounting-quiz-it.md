@@ -244,8 +244,6 @@
 
 Robinson: Regressions
 
-
-
 - \[ ] riscossione di una nota da ricevere
 - \[x] pagare una nota da pagare
 - \[ ] Controlli NSF ("fondi non sufficienti")

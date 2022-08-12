@@ -756,21 +756,21 @@ box {
 - [ ] a React library for storing data
 - [ ] a Vue.js library for storing and manipulating data
 - [x] a query language for fetching data from APIs
-- [ ] a new database format designed to replace MySQL  
+- [ ] a new database format designed to replace MySQL
 
 #### Q77. Wich choice will place a multiline text input field on the page?
 
 - [ ] `<multiline></multiline>`
 - [x] `<textarea></textarea>`
 - [ ] `<input type="multiline">`
-- [ ] `<input type="textarea">` 
-  
+- [ ] `<input type="textarea">`
+
 #### Q78. Which browser is not based on Chromium?
 
 - [x] Firefox
 - [ ] Opera
 - [ ] Chrome
-- [ ] Edge  
+- [ ] Edge
 
 #### Q79. In supporting browsers, what would be the effect of using font-display: swap, as in example?
 

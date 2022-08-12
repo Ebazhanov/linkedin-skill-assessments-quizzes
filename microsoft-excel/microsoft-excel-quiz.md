@@ -166,6 +166,7 @@
 - [ ] =UPPER(H2:H30,1)
 
 #### Q23. Which chart type can display two different data series as a different series type within the same chart?
+
 <img src="https://i.imgur.com/z2BfqIF.png" width="600" height="450"/>
 
 - [x] XY chart
@@ -1120,7 +1121,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] Right-click the column head and select Unique
 - [ ] On the **Home** ribbon, click **Clear > Duplicates**
 - [x] On the **Data** ribbon, click **Remove Duplicates**
-- [ ] On the **Data** ribbon, click **Data Validation
+- [ ] On the **Data** ribbon, click \*\*Data Validation
 
 #### Q124. You want to copy only the cells that are displayed here - not the hidden cells - into another worksheet. After selecting the cells in the worksheet, how do you accomplish this?
 
@@ -1136,11 +1137,10 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] Power Pivot
 - [ ] Data Modeler
 
+#### Q126. You want to be able restrict values allowed in a cell and need to create a drop-down list of values from which users can choose. Which feature should you use?
 
-#### Q126. You want to be able restrict values allowed in a cell and need to create a drop-down list  of values from which users can choose. Which feature should you use?
-
-- [ ] Project Worksheet 
-- [x] Data validation 
+- [ ] Project Worksheet
+- [x] Data validation
 - [ ] Conditional Formatting
 - [ ] Allow Users to Edit Ranges
 
@@ -1157,5 +1157,3 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] conditional formatting
 - [x] Format as Table
 - [ ] PivotTable
-
-

@@ -1180,10 +1180,7 @@ ReactDom.render(
 - [ ] B
 
 ```javascript
-ReactDom.render(
-  <Message sent='false' />,
-  document.getElementById("root")
-);
+ReactDom.render(<Message sent="false" />, document.getElementById('root'));
 ```
 
 - [ ] C
@@ -1195,8 +1192,5 @@ ReactDom.render(
 - [ ] D
 
 ```javascript
-ReactDom.render(
-  <Message sent="false" />,
-  document.getElementById("root")
-);
+ReactDom.render(<Message sent="false" />, document.getElementById('root'));
 ```
