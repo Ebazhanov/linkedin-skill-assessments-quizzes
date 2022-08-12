@@ -785,3 +785,22 @@ box {
 - [ ] The browser will ignore the web font.
 - [ ] The browser will ignore the web font in a situation where the user has indicated they are saving data.
 - [x] The browser will load a system font while waiting for the web font to load.
+
+#### Q80. What does the term "code splitting" mean with regard to JavasScript performance?
+
+- [ ] allowing the browser to ignore code that it believes will perform badly
+- [x] splitting code into various bundles so that decisions can be made on loading priority
+- [ ] removing unused code from JavaScript files
+- [ ] only using code that is supported by the newest browsers, and serving the site without JavaScript to old browsers
+
+#### Q81. The vertical-align property works only on certain elements, or on those that have a certain CSS applied. Which element by default will allow vertical-align to be used?
+
+- [ ] div
+- [x] td
+- [ ] figure
+- [ ] p
+
+
+
+
+
