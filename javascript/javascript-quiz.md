@@ -1849,3 +1849,17 @@ var flagDatabase = JSON.parse(flagsJSON);
 - [x] flagDatabase.countries[0].flag
 - [ ] flagDatabase[1].flag
 - [ ] flagsJSON.countries[0].flag
+
+#### Q131. Which snippet allows the acresOfRainForest variable to increase?
+
+let conservation = true;
+let deforestation = false;
+let acresOfRainForest = 100;
+if (/* Snipped goes here */){
+++acresOfRainForest;
+}
+
+- [x] conservation && !deforestation
+- [ ] !deforestation && !conservation
+- [ ] !conservation || deforestation
+- [ ] deforestation && conservation || deforestation
