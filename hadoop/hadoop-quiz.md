@@ -402,7 +402,7 @@
 #### Q57. Hadoop Common consists of which components?
 
 - [ ] Spark and YARN
-- [ ] HDFS and MapReduce
+- [x] HDFS and MapReduce
 - [ ] HDFS and S3
 - [ ] Spark and MapReduce
 
@@ -411,11 +411,11 @@
 - [ ] Cloudera
 - [ ] Microsoft
 - [ ] Google
-- [ ] Amazon
+- [x] Amazon
 
 #### Q59. To get information about Reducer job runs, which object should be added?
 
-- [ ] Reporter
+- [] Reporter
 - [ ] IntReadable
 - [ ] IntWritable
 - [ ] Writer
