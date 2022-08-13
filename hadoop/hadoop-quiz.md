@@ -483,3 +483,16 @@ FROM customers c;
 - [ ] hadoop fs -copy <toDir> <fromDir>
 - [x] hadoop fs -copyFromLocal <fromDir> <toDir>
 - [ ] hadoop fs -copyFromLocal <toDir> <fromDir>
+
+#### Q68. delete a Hive ______ table and you will delete the table ______.
+    
+- [ ] managed; metadata
+- [ ] external; data and metadata
+- [ ] external; metadata
+- [ ] managed; data
+    
+ #### Q69. To see how Hive executed a JOIN operation, use the _ statement and look for the ____ value.
+- [ ] EXPLAIN; JOIN Operator
+- [ ] QUERY; MAP JOIN Operator
+- [ ] EXPLAIN; MAP JOIN Operator
+- [ ] QUERY; JOIN Operator
