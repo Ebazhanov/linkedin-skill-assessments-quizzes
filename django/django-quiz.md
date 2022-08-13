@@ -481,9 +481,7 @@ model=Planet
 
 #### Q49. What is the result of this template code?
 
-```
 {{"live long and prosper"|truncate:3}}
-```
 
 - [x] live long and ...
 - [ ] live long and
