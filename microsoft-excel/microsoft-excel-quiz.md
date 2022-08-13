@@ -1157,3 +1157,18 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] conditional formatting
 - [x] Format as Table
 - [ ] PivotTable
+
+#### Q129. What Excel feature can you use to automatically format cells that are greater than a specified value with designated fill and text colors?
+
+- [ ] Flash Fill
+- [x] Conditional Formatting
+- [ ] Format as Table
+- [ ] Theme Colors
+
+#### Q120. Which formula could *not* have been entered in cell C5?
+![60d22a3a498ede33588680f8-1624476186391](https://user-images.githubusercontent.com/6527493/184480550-f12346e9-79ae-4dbc-ad4f-b5365a50236f.png)
+
+- [x] =SUBTOTAL(9, C2:C4)
+- [ ] =C2+C3+C4
+- [ ] =SUBTOTAL(C2:C4)
+- [ ] =SUM(C2:C4)
