@@ -19,8 +19,9 @@ have a great understanding about.
 
 [![Join our Discord server!](https://invidget.switchblade.xyz/NKCyjjw3MW?theme=light)](https://discord.gg/NKCyjjw3MW)
 
-3. Playground before taking quiz
-   > https://linkedin-faq.github.io/md2practice/
+3. Playground before taking quiz using:
+- Web App https://linkedin-faq.github.io/md2practice/
+- In **terminal** https://github.com/linkedin-faq/linkedin-quizzes-kodyfire
 
 want to contribute? here is the source code https://github.com/linkedin-faq
 
