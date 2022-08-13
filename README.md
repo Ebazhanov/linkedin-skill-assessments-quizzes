@@ -21,6 +21,7 @@ have a great understanding about.
 
 3. Playground before taking quiz using:
 - Web App https://linkedin-faq.github.io/md2practice/
+- Web App #2 https://bandinopla.github.io/skill-assessments-quizzes
 - In **terminal** https://github.com/linkedin-faq/linkedin-quizzes-kodyfire
 
 want to contribute? here is the source code https://github.com/linkedin-faq
