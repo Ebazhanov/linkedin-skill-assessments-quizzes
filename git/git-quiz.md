@@ -1026,3 +1026,10 @@ remote repository, named origin, to point to the new remote repository at this l
 - [ ] git pull <url>
 - [ ] git replicate <url>
 - [ ] git checkout <url>
+
+#### Q127. When Git workflows contain a topic branch, what purpose does the topic branch serve?
+
+- [ ] Topic branches store unstable code until it is peer reviewed for integration into another feature branch. <url>
+- [x] Topic branches correspond to different stages of development and are always open for long-running branches to be pulled into. <url>
+- [ ] Topic branches are used in waterfall development methodologies to track the state of the code during the various stages of waterfall. <url>
+- [ ] Topic branches are short-lived branches used to store work related to a particular feature. <url>
