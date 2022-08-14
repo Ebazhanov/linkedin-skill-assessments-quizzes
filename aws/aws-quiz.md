@@ -315,7 +315,9 @@ FlowLog:
 #### Q40. You have 14 on-premise web servers, 4 database servers, 6 servers using GIS software, 3 file servers, and 4 development servers. What considerations should you take into account when migrating these servers into AWS?
 
 - [ ] AWS does not have a way to separate billing for compute costs, so you will need to design a way to split the budget between departments.
+- [ ] Software licensing costs are always included in services such as RDS, so factor the loss of use of your on-premise licenses in your budget.
 - [x] New AWS accounts are limited to 20 on-demand EC2 instances. Submit a request to increase your rate limits before starting a migration.
+- [ ] The only way to transfer large amounts of database data up to AWS is via S3, which can have a slow upload speed. Plan for this delay and cost in your migration plan.
 
 #### Q41. As your web application grows and your application monitoring needs become more complex, which additional log monitoring service should you NOT consider?
 
