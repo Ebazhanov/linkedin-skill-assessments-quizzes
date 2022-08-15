@@ -1666,7 +1666,7 @@ img {
 <span class="highlight">#BLM</span>
 ```
 
-- [ ] A
+- [x] A
 
 ```css
 .highlight {
@@ -1682,7 +1682,7 @@ img {
 }
 ```
 
-- [x] C
+- [ ] C
 
 ```css
 .highlight {
@@ -1697,6 +1697,7 @@ img {
   color: yellow;
 }
 ```
+[Highlight Background](https://alvarotrigo.com/blog/css-highlight-text/#:~:text=Highlight%20text%20(CSS)%20is%20used,text%20is%20the%20most%20popular.)
 
 #### Q116. To prevent a background image from tiling in any direction, which style property would you apply?
 
