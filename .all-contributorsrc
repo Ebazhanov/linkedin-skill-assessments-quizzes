@@ -10143,6 +10143,18 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "bandinopla",
+      "name": "Pablo Bandinopla",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71508858?v=4",
+      "profile": "https://weightxreps.net/",
+      "contributions": [
+        "design",
+        "code",
+        "maintenance",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
