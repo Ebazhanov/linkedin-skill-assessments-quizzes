@@ -541,3 +541,33 @@ func findUser(ctx context.Context, login string) (*User, error) {
 - [ ] Use runtime.SetFinalizer.
 
 Explanation: I am not sure, but I believe we can avoid the goroutine leak by adding a default case to the select statement. The leak happens because if the context timeout is not set correctly and if findUserInDB stalls or is slow, then the findUser function will just stay at the select statement, waiting for something to happen. We can get rid of this waiting by adding a default case, but since the function would just execute the default case every time without waiting for the goroutine, I don't believe this function would do what is intended.
+
+#### 44. What will this code print?
+
+var i int8 = 120
+i += 10
+fmt.Println(i)
+
+- [x] -126
+- [ ] 0
+- [ ] NaN
+- [ ] 130
+
+#### 45. Given the definition of worker below, what is the right syntax to start a start a goroutine that will call worker and send the result to a channel named ch?
+
+func worker(m Message) Result
+
+- [ ] go func() {
+	r := worker(m)
+	ch <- r
+	}
+	
+- [ ] go func() {
+	r := worker(m)
+	r -> ch
+	} ()
+- [ ] go func() {
+	r := worker(m)
+	ch <- r
+	} ()
+- [ ] go ch <- worker(m)

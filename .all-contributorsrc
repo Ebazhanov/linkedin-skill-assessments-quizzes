@@ -9851,7 +9851,10 @@
       "contributions": [
         "design",
         "code",
-        "maintenance"
+        "maintenance",
+        "content",
+        "tutorial",
+        "mentoring"
       ]
     },
     {
@@ -10096,6 +10099,98 @@
       "name": "Erik Blanca",
       "avatar_url": "https://avatars.githubusercontent.com/u/37018474?v=4",
       "profile": "https://github.com/erikbg7",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "VedantMadane",
+      "name": "Vedant Madane",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6527493?v=4",
+      "profile": "https://vedantmadane.github.io",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "antra0497",
+      "name": "Antra Tripathi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25953832?v=4",
+      "profile": "https://antra0497.github.io/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "ethanknights",
+      "name": "Ethan Knights",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34215814?v=4",
+      "profile": "https://github.com/ethanknights",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Alex3921",
+      "name": "Alexandru Boncut",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60633447?v=4",
+      "profile": "http://alexboncut.medium.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "bandinopla",
+      "name": "Pablo Bandinopla",
+      "avatar_url": "https://avatars.githubusercontent.com/u/71508858?v=4",
+      "profile": "https://weightxreps.net/",
+      "contributions": [
+        "design",
+        "code",
+        "maintenance",
+        "content"
+      ]
+    },
+    {
+      "login": "Robz-99",
+      "name": "Robz-99",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80069786?v=4",
+      "profile": "https://github.com/Robz-99",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "hp-techbucket",
+      "name": "Harpal Singh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16591475?v=4",
+      "profile": "http://iwebcoders.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "paulboundy99",
+      "name": "paulboundy99",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97002965?v=4",
+      "profile": "https://github.com/paulboundy99",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "MubashirMalik",
+      "name": "Mubashir Ahmed",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50724133?v=4",
+      "profile": "https://github.com/MubashirMalik",
       "contributions": [
         "design",
         "code"

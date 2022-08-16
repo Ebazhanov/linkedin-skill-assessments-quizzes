@@ -1150,12 +1150,16 @@ if(isset($email)) {
     echo "The email cannot be empty";
 }
 ```
+
 #### Q93. What is the PHP fatal error type?
 
 - [ ] This type of error causes a termination of the script execution when it occurs.
-- [ ] This type of error causes errorneous results or may cause termination of program.
-- [x] This type of error causes termination after showing the list of errors and the line number where the erros have occured.
 - [ ] This type of error's causes are not detected by compiler and causes incorrect results.
+- [ ] This type of error causes erroneous results or may cause termination of program.
+- [x] This type of error causes termination after showing the list of errors and the line number where the errors have occured.
+
+[reference1](https://www.geeksforgeeks.org/php-types-of-errors/#:~:text=an%20error%20message.-,Fatal%20Error,-%3A%20It%20is)
+[reference2](https://www.c-sharpcorner.com/UploadFile/051e29/types-of-error-in-php/#:~:text=2.-,Fatal%20Errors,-Fatal%20errors%20are)
 
 #### Q94. Which script properly validates the IP address given?
 

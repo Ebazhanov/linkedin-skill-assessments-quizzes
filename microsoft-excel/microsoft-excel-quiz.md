@@ -1157,3 +1157,26 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] conditional formatting
 - [x] Format as Table
 - [ ] PivotTable
+
+#### Q129. What Excel feature can you use to automatically format cells that are greater than a specified value with designated fill and text colors?
+
+- [ ] Flash Fill
+- [x] Conditional Formatting
+- [ ] Format as Table
+- [ ] Theme Colors
+
+#### Q130. Which formula could *not* have been entered in cell C5?
+![60d22a3a498ede33588680f8-1624476186391](https://user-images.githubusercontent.com/6527493/184480550-f12346e9-79ae-4dbc-ad4f-b5365a50236f.png)
+
+- [x] =SUBTOTAL(9, C2:C4)
+- [ ] =C2+C3+C4
+- [ ] =SUBTOTAL(C2:C4)
+- [ ] =SUM(C2:C4)
+
+#### Q131. The last two digits of the Representative ID Number is the Office ID. Which function, when entered into cell B2 and then dragged to cell B6, returns the Office ID for each representative?
+![WhatsApp Image 2022-08-15 at 00 08 22](https://user-images.githubusercontent.com/80069786/184557060-2164d8b6-37ae-41d3-9525-31e88065fbdc.jpeg)
+
+- [ ] =TRIM(A2,2)
+- [x] =LEFT(A2,2)
+- [ ] =RIGHT(A2,2)
+- [ ] =MID(A2,2)
