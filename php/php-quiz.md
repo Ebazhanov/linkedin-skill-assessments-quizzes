@@ -1150,3 +1150,61 @@ if(isset($email)) {
     echo "The email cannot be empty";
 }
 ```
+#### Q93. What is the PHP fatal error type?
+
+- [ ] This type of error causes a termination of the script execution when it occurs.
+- [ ] This type of error causes errorneous results or may cause termination of program.
+- [x] This type of error causes termination after showing the list of errors and the line number where the erros have occured.
+- [ ] This type of error's causes are not detected by compiler and causes incorrect results.
+
+#### Q94. Which script properly validates the IP address given?
+
+- [ ] $valid = ip2long($ip) !== false;
+- [x] $ip_address = "164.12.2540.1";
+      if(filter_var($ip_address, FILTER_VALIDATE_IP)){
+            echo "$ip_address is a valid IP address";
+        } else {
+           echo "$ip_address is not a valid IP address";
+        }
+- [ ] $ip_address = "164.12.2540.1";
+      if(validate_ip($ip_address)){
+        echo "$ip_address is a valid IP address";
+        } else {
+            echo "$ip_address is not a valid IP address";
+        }
+- [ ] $ip_address = "164.12.2540.1"
+      echo is_valid($ip_address, VALIDATE_IP);
+      
+#### Q95. What is the output of this code?
+
+$i = 0;
+while($i < 6) {
+    if($i++ == 3) break;
+}
+echo "loop stopped at $i by break statement";
+
+- [ ] loop stopped at 3 by break statement
+
+- [ ] loop stopped at 4 by break statement
+
+- [ ] loop stopped at 6 by break statement
+
+- [x] loop stopped at 2 by break statement
+
+####96. After creating your objects, you can call member functions related to that object, such as setting the names and prices for three "Pet" objects. What is the likely output of this code snippet?
+
+$dof->setTitle("Spot");
+$cat->setTitle("Mimi");
+$horse-?setTitle("Trigger");
+$dog->setPrice(10);
+$cat->setPrice(15);
+$horse->setPrice(7);
+print_r($cat);
+
+- [ ] Pet Object ( [title]=> Spot[price]=>10)
+
+- [x] Pet Object ( [title]=> Mimi [price]=>15 )
+
+- [ ] Pet Object ( [title]=> Mimi[price]=>10 )
+
+- [ ] Pet Object ( [title]=> Trigger [price]=> 7)
