@@ -551,3 +551,17 @@
 #### Q73. Pour des bords incurvés plus lisses sur une sélection, quelle sélection devriez-vous choisir ?
 
 \-\[x] anticrénelage
+
+#### Q74. Which tool is *not* found in the **Select and Mask** workspace ?
+
+- \[ ] Magic Wand
+- \[x] Refine Edge
+- \[ ] Quick Select
+- \[ ] Lasso
+
+#### Q75. Which sets of tool has a content-aware mode ?
+
+- \[ ] Perspective Corp
+- \[ ] Marquee
+- \[ ] Lasso
+- \[x] Patch
