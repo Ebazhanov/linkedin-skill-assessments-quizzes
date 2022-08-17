@@ -1206,3 +1206,56 @@ print_r($cat);
 - [x] Pet Object ( [title]=> Mimi [price]=>15 )
 - [ ] Pet Object ( [title]=> Mimi[price]=>10 )
 - [ ] Pet Object ( [title]=> Trigger [price]=> 7)
+
+#### Q97. Given the associative array below, wich PHP code determines wich element(s) of the array is/are apple?
+
+```php
+$array = array(
+'fruit1' => 'apple',
+'fruit2' => 'orange',
+'fruit3' => 'grape',
+'fruit4' => 'apple',
+'fruit5' => 'apple');
+```
+
+- [x]
+
+```php
+while ($fruit_name = current($array)) { 
+    if ($fruit_name == 'apple') { 
+        echo key($array).'<br />'; 
+    }
+    next($array);
+}
+```
+
+- [ ]
+
+```php
+while ($fruit_name = current($array)) { 
+    if ($fruitname == 'apple') { 
+        echo key($array).'<br />'; 
+    } 
+    next($array); 
+} 
+```
+
+- [ ]
+
+```php
+while ($fruit_name = current($array)) { 
+    if ($fruit_name == 'apple') 
+        echo key($array).'<br />'; 
+    }
+    next($array); 
+} 
+```
+
+- [ ]
+
+```php
+while ($fruit_name = current($array)) { 
+    if ($fruit_name == 'apple') { 
+        echo key($array).'<br />'; 
+    } 
+```
