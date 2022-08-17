@@ -551,3 +551,17 @@
 #### Q73. For curved smoother-looking edges on a selection, what selection should you pick?
 
 -[x] anti-aliasing
+
+#### Q74. Which tool is *not* found in the **Select and Mask** workspace ?
+
+- \[ ] Magic Wand
+- \[x] Refine Edge
+- \[ ] Quick Select
+- \[ ] Lasso
+
+#### Q75. Which sets of tool has a content-aware mode ?
+
+- \[ ] Perspective Corp
+- \[ ] Marquee
+- \[ ] Lasso
+- \[x] Patch
