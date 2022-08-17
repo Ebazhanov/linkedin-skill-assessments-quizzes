@@ -1166,24 +1166,24 @@ if(isset($email)) {
 - [ ] $valid = ip2long($ip) !== false;
 - [x] $ip_address = "164.12.2540.1";
       if(filter_var($ip_address, FILTER_VALIDATE_IP)){
-            echo "$ip_address is a valid IP address";
+      echo "$ip_address is a valid IP address";
         } else {
            echo "$ip_address is not a valid IP address";
-        }
+      }
 - [ ] $ip_address = "164.12.2540.1";
       if(validate_ip($ip_address)){
-        echo "$ip_address is a valid IP address";
+      echo "$ip_address is a valid IP address";
         } else {
             echo "$ip_address is not a valid IP address";
-        }
+      }
 - [ ] $ip_address = "164.12.2540.1"
       echo is_valid($ip_address, VALIDATE_IP);
-      
+
 #### Q95. What is the output of this code?
 
 $i = 0;
 while($i < 6) {
-    if($i++ == 3) break;
+if($i++ == 3) break;
 }
 echo "loop stopped at $i by break statement";
 
@@ -1221,9 +1221,9 @@ $array = array(
 - [x]
 
 ```php
-while ($fruit_name = current($array)) { 
-    if ($fruit_name == 'apple') { 
-        echo key($array).'<br />'; 
+while ($fruit_name = current($array)) {
+    if ($fruit_name == 'apple') {
+        echo key($array).'<br />';
     }
     next($array);
 }
@@ -1232,30 +1232,30 @@ while ($fruit_name = current($array)) {
 - [ ]
 
 ```php
-while ($fruit_name = current($array)) { 
-    if ($fruitname == 'apple') { 
-        echo key($array).'<br />'; 
-    } 
-    next($array); 
-} 
-```
-
-- [ ]
-
-```php
-while ($fruit_name = current($array)) { 
-    if ($fruit_name == 'apple') 
-        echo key($array).'<br />'; 
+while ($fruit_name = current($array)) {
+    if ($fruitname == 'apple') {
+        echo key($array).'<br />';
     }
-    next($array); 
-} 
+    next($array);
+}
 ```
 
 - [ ]
 
 ```php
-while ($fruit_name = current($array)) { 
-    if ($fruit_name == 'apple') { 
-        echo key($array).'<br />'; 
-    } 
+while ($fruit_name = current($array)) {
+    if ($fruit_name == 'apple')
+        echo key($array).'<br />';
+    }
+    next($array);
+}
+```
+
+- [ ]
+
+```php
+while ($fruit_name = current($array)) {
+    if ($fruit_name == 'apple') {
+        echo key($array).'<br />';
+    }
 ```
