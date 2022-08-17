@@ -1163,7 +1163,7 @@ const { tree, lake } = nature;
 - [ ] function defaults
 - [ ] array destructuring
 - [ ] PRPL pattern
-- [x] object destructuring
+- [x] destructuring assignment
 
 [Reference](https://javascript.info/destructuring-assignment)
 
