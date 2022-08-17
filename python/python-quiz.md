@@ -31,6 +31,8 @@ if any([True, False, False, False]) == True:
 - [ ] set
 - [ ] OrderedDict
 
+[reference](https://www.scaler.com/topics/linked-list/)
+
 #### Q4. What statement about static methods is true?
 
 - [ ] Static methods are called static because they always return `None`.
