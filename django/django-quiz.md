@@ -657,10 +657,9 @@ model=Planet
 - [ ] 8000
 - [ ] It would fail to start
 
-  #### Q72. Which statement about Django apps is false?
-  
-  - [ ] A Django app is the top-level container for a web application powered by Django. 
- - [ ] Django apps are small libraries designed to represent a single aspect of a project.
-  - [ ] Each Django app should do one thing, and one thing alone.
-  - [ ] A Django project is made up of many apps.
- 
+#### Q72. Which statement about Django apps is false?
+
+- [ ] A Django app is the top-level container for a web application powered by Django.
+- [ ] Django apps are small libraries designed to represent a single aspect of a project.
+- [ ] Each Django app should do one thing, and one thing alone.
+- [ ] A Django project is made up of many apps.

@@ -1188,11 +1188,8 @@ while($i < 6) {
 echo "loop stopped at $i by break statement";
 
 - [ ] loop stopped at 3 by break statement
-
 - [ ] loop stopped at 4 by break statement
-
 - [ ] loop stopped at 6 by break statement
-
 - [x] loop stopped at 2 by break statement
 
 ####96. After creating your objects, you can call member functions related to that object, such as setting the names and prices for three "Pet" objects. What is the likely output of this code snippet?
@@ -1206,9 +1203,6 @@ $horse->setPrice(7);
 print_r($cat);
 
 - [ ] Pet Object ( [title]=> Spot[price]=>10)
-
 - [x] Pet Object ( [title]=> Mimi [price]=>15 )
-
 - [ ] Pet Object ( [title]=> Mimi[price]=>10 )
-
 - [ ] Pet Object ( [title]=> Trigger [price]=> 7)

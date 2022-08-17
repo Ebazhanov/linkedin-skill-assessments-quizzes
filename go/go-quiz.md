@@ -558,16 +558,15 @@ fmt.Println(i)
 func worker(m Message) Result
 
 - [ ] go func() {
-	r := worker(m)
-	ch <- r
-	}
-	
+      r := worker(m)
+      ch <- r
+      }
 - [ ] go func() {
-	r := worker(m)
-	r -> ch
-	} ()
+      r := worker(m)
+      r -> ch
+      } ()
 - [ ] go func() {
-	r := worker(m)
-	ch <- r
-	} ()
+      r := worker(m)
+      ch <- r
+      } ()
 - [ ] go ch <- worker(m)

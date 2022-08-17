@@ -761,7 +761,6 @@ class Comp extends React.Component {
 - [ ] React.Component
 - [x] Component
 
-
 #### Q66. When using a portal, what is the first argument?
 
 ```javascript
@@ -793,8 +792,8 @@ From official docs: [Hooks-State](https://reactjs.org/docs/hooks-state.html#:~:t
 #### Q68. What is the use of map function below?
 
 ```javascript
-const database = [{ data:1 }, { data:2 }, { data:3 }];
-database.map((user)=><h1>{user.data}</h1>);
+const database = [{ data: 1 }, { data: 2 }, { data: 3 }];
+database.map((user) => <h1>{user.data}</h1>);
 ```
 
 - [ ] gives a map of all the entries in database
@@ -998,7 +997,7 @@ class StarTrekkin extends React.Component {
 #### Q87. How do you add an id of heading to the following h1 element?
 
 ```javascript
-let dish = <h1>Mac and Cheese</h1>; 
+let dish = <h1>Mac and Cheese</h1>;
 ```
 
 - [ ] `let dish = <h1 id={heading}>Mac and Cheese</h1>;`

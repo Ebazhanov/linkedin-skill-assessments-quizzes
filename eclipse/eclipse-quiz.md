@@ -261,4 +261,4 @@
 - [ ] It reminds you that you have work to do.
 - [x] Comments starting with TODO are listed in the Tasks view.
 - [ ] It creates automated email reminders of remaining tasks.
-- [ ] Comments starting with TODO are stored in the Task List view.  
+- [ ] Comments starting with TODO are stored in the Task List view.

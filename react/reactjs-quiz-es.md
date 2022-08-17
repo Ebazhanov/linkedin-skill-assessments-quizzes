@@ -190,7 +190,7 @@ const element = <p>{message}</p>;
 - [x] `React.lazy`
 - [ ] `React.fallback`
 
-#### Q19. ¿Cuándo se utiliza `useLayoutEffect`? 
+#### Q19. ¿Cuándo se utiliza `useLayoutEffect`?
 
 - [ ] cuando quieres optimizar para todos los dispositivos
 - [ ] para completar el update
@@ -291,6 +291,7 @@ const Heading = () => {
 - [ ] Envolver el h1 en un div
 
 #### Q30. To create a constant in JavaScript, which keyword do you use?
+
 #### Q30. Para definir una constánte en javascript, ¿Qué keyword se utiliza?
 
 - [x] const
@@ -448,7 +449,7 @@ function MyComponent(props) {
 - [x] Una función componente acepta un único parámetro con sus propiedades y devuelve un elemento React
 - [ ] Una función componente es la única forma en la que se puede crear un componente
 - [ ] Una función componente es requerido para poder crear un componente en React
- 
+
 #### Q47. ¿Qué librería define el método global `fetch()`?
 
 - [ ] FetchJS
@@ -618,7 +619,7 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 ```
 
 - [ ] El botón A no tendrá acceso a la referencia del evento onClick
-- [x] El botón A no se ejecutará correctamente  
+- [x] El botón A no se ejecutará correctamente
 - [ ] No hay diferencia, ambos se ejecutarán con éxito
 - [ ] El botón B no se ejecutará correctamente
 
@@ -761,7 +762,6 @@ class Comp extends React.Component {
 - [ ] React.Component
 - [x] Component
 
-
 #### Q66. Cuando utilizas un Portal, ¿Qué va en el primer parámetro?
 
 ```javascript
@@ -793,8 +793,8 @@ const [count, setCount] = useState(0);
 #### Q68. ¿Cuál es el uso de la función map en el código de abajo?
 
 ```javascript
-const database = [{ data:1 }, { data:2 }, { data:3 }];
-database.map((user)=><h1>{user.data}</h1>);
+const database = [{ data: 1 }, { data: 2 }, { data: 3 }];
+database.map((user) => <h1>{user.data}</h1>);
 ```
 
 - [ ] devuelve un mapa de todas las entradas en la base de datos
@@ -998,7 +998,7 @@ class StarTrekkin extends React.Component {
 #### Q87. ¿Cómo le agregarías el id heading al siguiente elemento h1?
 
 ```javascript
-let dish = <h1>Mac and Cheese</h1>; 
+let dish = <h1>Mac and Cheese</h1>;
 ```
 
 - [ ] `let dish = <h1 id={heading}>Mac and Cheese</h1>;`
@@ -1027,7 +1027,7 @@ class Huggable extends React.Component {
 - [x] `<button onClick={(e) => this.hug(name, e)}>Hug Button</button>;`
 
 **Explicación:**
-Esta pregunta testea tu conocimiento de componente de clases en react. Tenés que usar `this` para llamar métodos definidos en componentes de clases. 
+Esta pregunta testea tu conocimiento de componente de clases en react. Tenés que usar `this` para llamar métodos definidos en componentes de clases.
 
 #### Q89. ¿Qué sintaxis usas para crear componentes en React?
 
@@ -1039,6 +1039,7 @@ Esta pregunta testea tu conocimiento de componente de clases en react. Tenés qu
 [Componentes y propiedades](https://reactjs.org/docs/components-and-props.html)
 
 #### Q90. You want to disable a button so that it does not emit any events onClick. Which prop do you use to acomplish this?
+
 #### Q90. Querés deshabilitar un botón para que no emita eventos de onClick. ¿Que propiedad utilizas para lograr esto?
 
 - [ ] onBlur
@@ -1065,6 +1066,7 @@ function Dish() {
 - [ ] es un componente anexo
 
 #### Q92. When does the componentDidMount function fire?
+
 #### Q92. ¿Cuándo se ejectua el método componentDidMount en un componente de clase?
 
 - [x] luego de haber sido agregado al DOM
@@ -1150,8 +1152,8 @@ add();
 #### Q99. ¿Porqué podrías necesitar utilizar React.createRef?
 
 - [ ] para referirnos a otro archivo JS
-- [ ] para bindear una función 
-- [ ] para llamar a una función 
+- [ ] para bindear una función
+- [ ] para llamar a una función
 - [x] para acceder directamente a un nodo DOM
 
 [Reference](https://reactjs.org/docs/refs-and-the-dom.html)
