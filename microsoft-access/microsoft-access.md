@@ -70,7 +70,7 @@
 #### Q9. You want to create a form to view customer's details, as well as some information about all order that the customer has placed with your company. What is the best way to display this information on a single screen?
 
 - [ ] Use a form to display the customer details with a subform linked to their order information
-- [ ] Create a split form that displays the customer information at the top and the order history in the table below
+- [x] Create a split form that displays the customer information at the top and the order history in the table below
 - [ ] Create a navigation form that includes a form for the customer details and a separate form for the order history
 - [ ] Create a continous form that uses a query to gather all of the customer details and order history in a single record source
 
