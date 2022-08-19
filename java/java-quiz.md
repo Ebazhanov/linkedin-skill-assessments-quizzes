@@ -1954,7 +1954,7 @@ System.out.println(buy.substring(x, x+1) + buy.substring(y, y+2))
 - [ ] Implement Sortable and override the sortBy method.
 
 [Reference](https://www.geeksforgeeks.org/how-to-override-compareto-method-in-java/)
-		   
+
 #### Q134. Identify the incorrect Java feature.
 
 - [ ] Object oriented

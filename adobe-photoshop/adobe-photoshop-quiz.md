@@ -552,7 +552,7 @@
 
 -[x] anti-aliasing
 
-#### Q74. Which tool is *not* found in the **Select and Mask** workspace ?
+#### Q74. Which tool is _not_ found in the **Select and Mask** workspace ?
 
 - \[ ] Magic Wand
 - \[x] Refine Edge
