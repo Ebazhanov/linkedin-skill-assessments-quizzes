@@ -1185,7 +1185,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q132. What is the fastest way to see the data in column E
 
-![Q132 Excel sheet]()
+![Excel sheet](https://user-images.githubusercontent.com/48485675/185646309-02d17622-4021-4f2a-b7c0-144b63193902.png)
 
 - [x] Double-click between column headers E and F
 - [ ] Double-click between column headers F and G
@@ -1194,7 +1194,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q133. Excel's default view contains the Quick Access Toolbar and the ribbon. Which can you customize?
 
-![Q133 QAT & Ribbon]()
+![QAT and Ribbon](https://user-images.githubusercontent.com/48485675/185646537-a53cab9e-027f-4783-8b29-56a0e12576f5.png)
 
 - [ ] You cannot customize either.
 - [ ] only the ribbon
