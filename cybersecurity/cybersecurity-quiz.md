@@ -724,28 +724,28 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 #### Q94. How can a data retention policy reduce your organization's legal liability?
 
 - [ ] by reducing DLP licensing costs
-- [ ] by ensuring that data is not retained beyond its necessary retention date
+- [x] by ensuring that data is not retained beyond its necessary retention date
 - [ ] by destroying data that may implicate company executives in dishonest behavior
 - [ ] by reducing cost associated with data storage and protection
 
 #### Q95. You believe a recent service outage due to a denial-of-service attack from a disgruntled inside source. What is the name for the malicious act this employee has committed?
 
 - [ ] espionage
-- [x] sabotage (not too much sure)
+- [x] sabotage
 - [ ] fraud
 - [ ] confidentiality breach
 
 #### Q96. Which option is a framework widely utilized by organizations in the development of security governance standards?
 
 - [ ] Software Capability Maturity Model (SW-CMM)
-- [x] Control Objectives for Information and Related Technologies (COBIT) (not too much sure)
+- [x] Control Objectives for Information and Related Technologies (COBIT)
 - [ ] The Open Group Architecture Framework (TOGAF)
 - [ ] Software Development Life Cycle (SDLC)
 
 #### Q97. There are connection-oriented and connectionless protocols in networking. What do web browsers use to ensure the integrity of the data it sends and receives?
 
 - [ ] UDP that is connection-oriented
-- [x] TCP that is connection-oriented (not too much sure)
+- [x] TCP that is connection-oriented
 - [ ] UDP that is connectionless
 - [ ] TCP that is connectionless
 
