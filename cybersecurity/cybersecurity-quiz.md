@@ -833,3 +833,12 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [x] Cloud Secuiry Posture Management (CSPM)
 - [ ] Secuirty Infromation Event Managment (SEIM)
 - [ ] Endpoint Detection and Response (EDR)
+
+#### Q109. A website is asking for a password and also sending an authentication code to your phone. What factors are used in this multi-factor authentication scenario?
+
+- [ ] what you have and what you do
+- [ ] what you know and what you are
+- [ ] what you have and what you know
+- [ ] what you do and what you know
+
+[Explanation:](https://www.investopedia.com/terms/t/twofactor-authentication-2fa.asp)
