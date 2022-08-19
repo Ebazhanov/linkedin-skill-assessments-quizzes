@@ -1182,3 +1182,21 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] =LEFT(A2,2)
 - [ ] =RIGHT(A2,2)
 - [ ] =MID(A2,2)
+
+#### Q132. What is the fastest way to see the data in column E
+
+![Q132 Excel sheet]()
+
+- [x] Double-click between column headers E and F
+- [ ] Double-click between column headers F and G
+- [ ] On the **Home** tab of the ribbon, select **Fit to Column**
+- [ ] Drag to resize the column
+
+#### Q133. Excel's default view contains the Quick Access Toolbar and the ribbon. Which can you customize?
+
+![Q133 QAT & Ribbon]()
+
+- [ ] You cannot customize either.
+- [ ] only the ribbon
+- [x] both the Quick Access Toolbar and the ribbon
+- [ ] only the Quick Access Toolbar
