@@ -10,7 +10,7 @@
 #### Q2. How can you add multiple view button controls to a form at once?
 
 - [ ] Double-click the button control to lock it on, then left-click in the form to add each button
-- [ ] Right-click the button control and select Drop Multiple Controls. Then left-click to add each button to a form
+- [x] Right-click the button control and select Drop Multiple Controls. Then left-click to add each button to a form
 - [ ] Select the Multiple Object check box in the Design tab before selecting the button control
 - [ ] Left-click the button control to select it, then add multiples to the form by right-clicking in the position you'd like to add them
 
