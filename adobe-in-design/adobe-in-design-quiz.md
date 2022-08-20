@@ -148,3 +148,66 @@
 - [ ] Option-click (Mac) or Alt-click (Windows) the swatch.
 - [ ] You cannot apply a color swatch to a color stop in the **Gradient** panel.
 - [ ] Drag the color stop over the color in the **Swatches** panel.
+
+#### 20. Suppose you apply a gradient to a frame, then select New Gradient Swatch in the Swatches panel manu. Which feature is not saved in the gradient swatch?
+
+- [ ] color mode (RGB or CMYK)
+- [ ] color stops
+- [ ] angle
+- [ ] type (linear or radial)
+
+#### 21. Which export format lets you gather viewer stats, such as number of views?
+
+- [ ] PDF (Interactive)
+- [ ] PDF (Interactive)
+- [ ] EPUB (Fixed Layout)
+- [ ] InDesign Snippet
+
+#### 22. You create an InDesign document with 1/8" bleed. After laying out the project, the printer calls to say that items in the document do not bleed. What is most likely the problem?
+
+- [ ] You did not extend elements on the page to the bleed guide.
+- [ ] Image objects cannot bleed in InDesign.
+- [ ] Your printer is unable to print with bleed.
+- [ ] You used a color swatch that cannot bleed.
+
+#### 23. What are two differences between the PDF/X-1a and the PDF/X-4 PDF export presets?
+
+- [ ] spot colors and bleed values
+- [ ] transparency and RGB images
+- [ ] compression and flattener settings
+- [ ] tagged text and accessibility options
+
+#### 24. Suppose you have selected a graphic frame that contains an image. Now you use File > Place and select another photograph. By default, what happens?
+
+- [ ] The new image is placed inside the frame with the original image.
+- [ ] The new image is placed in a new frame in the same location as the original image.
+- [ ] InDesign displays an error.
+- [ ] The new image replaces the original image.
+
+#### 25. What does the icon to the right of the page thumbnail indicate?
+
+- [ ] The page thumbnail in the Pages panel appears rotated.
+- [ ] The page appears rotated in the document window, but will print unrotated.
+- [ ] There are one or more items on this page that are rotated or flagged for rotation.
+- [ ] The page is marked to be rotated when exported or printed.
+
+#### 26. Suppose you place text in a frame, but the text is too close to the frame edge. What feature will help you adjust this?
+
+- [ ] Object > Arrange
+- [ ] Type > Insert White Space
+- [ ] Object > Text Frame Options
+- [ ] Window > Text Wrap
+
+#### 27. Which feature helps you open or close sets of panels in the user interface?
+
+- [ ] Window > Arrange
+- [ ] View > Screen Mode
+- [ ] Window > Workspace
+- [ ] View > Extras
+
+#### 28. Your document measurements display in picas. How can you change this to centimeters?
+
+- [ ] Click Layout > Ruler Guides.
+- [ ] Click Layout > Numbering & Section Options.
+- [ ] Use the Units & Increments pane in the Preferences dialog box.
+- [ ] Use the Guides & Pasteboard pane in the Preferences dialog box.
