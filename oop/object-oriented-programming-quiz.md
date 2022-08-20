@@ -676,3 +676,11 @@ public class Honda extends Car{}
 - [ ] the programmer responsible for implementation.
 - [ ] interacting classes.
 - [x] attributes.
+
+
+#### Q89. What is the best name for the funation that corrects this assessment?
+
+- [ ] makeResult()
+- [ ] questionScore()
+- [x] calculateScore()
+- [ ] getAnswers()
