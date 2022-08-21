@@ -1476,6 +1476,11 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification.
 Contributions of any kind welcome!
 
+
+## Contributor Over Time
+
+[![GitHub Contributor Over Time](https://contributor-overtime-api.git-contributor.com/contributors-svg?chart=contributorOverTime&repo=ebazhanov/linkedin-skill-assessments-quizzes)](https://git-contributor.com?chart=contributorOverTime&repo=ebazhanov/linkedin-skill-assessments-quizzes)
+
 ## Stargazers over time
 
 [![Stargazers over time](https://starchart.cc/Ebazhanov/linkedin-quiz-assessments.svg)](https://starchart.cc/Ebazhanov/linkedin-quiz-assessments)
