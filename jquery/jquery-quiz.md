@@ -350,7 +350,7 @@ $.each(tonsOfItems, function (idx, item) {
 - [x] A
 
 ```js
-$.get('hhttp://httpbin.org/delay/2')
+$.get('http://httpbin.org/delay/2')
   .then(function (response) {
     // Data from first GET is here as 'response'
     return $.get('http://httpbin.org/delay/2');
@@ -363,7 +363,7 @@ $.get('hhttp://httpbin.org/delay/2')
 - [ ] B
 
 ```js
-$.get('hhttp://httpbin.org/delay/2')
+$.get('http://httpbin.org/delay/2')
   .catch(function (response) {
     // Data from first GET is here as 'response'
     return $.get('http://httpbin.org/delay/2');
@@ -376,7 +376,7 @@ $.get('hhttp://httpbin.org/delay/2')
 - [ ] C
 
 ```js
-$.get('hhttp://httpbin.org/delay/2', function (response1) {
+$.get('http://httpbin.org/delay/2', function (response1) {
   // Data from first GET is here as 'response1'
 
   $.get('http://httpbin.org/delay/2', function (response2) {
@@ -388,7 +388,7 @@ $.get('hhttp://httpbin.org/delay/2', function (response1) {
 - [ ] D
 
 ```js
-$.get('hhttp://httpbin.org/delay/2')
+$.get('http://httpbin.org/delay/2')
   .then(function (response) {
     // Data from first GET is here as 'response'
     return response;
@@ -829,6 +829,10 @@ $('#menu').addClass(function () {
 - [ ] `$('body').on('ajaxComplete', function() { console.count('An AJAX request completed'); });`
 - [x] `$(document).ajaxComplete(function() { console.count('An AJAX request completed'); });`
 
+
+[Source: ajaxComplete](https://www.w3schools.com/jquery/ajax_ajaxcomplete.asp)
+**Explanation**: `Note: As of jQuery version 1.8, this method should only be attached to document.` 
+
 #### Q43. Given this set of checkboxes, how can you select the one with the value "blimp"?
 
 ```html
@@ -1011,7 +1015,11 @@ $('.leaf').parents('.items');
 
 [Source: jQuery closest Method](https://www.w3schools.com/jquery/traversing_closest.asp)
 
-**Explanation**: `Considering current HTML code, .closest() returns only #main-menu; .parents() returns only #main-menu; cause both of them are looking for .items class which only exist in the #main-menu. Thus all choices are incorrect.`
+**Explanation**: `Considering current HTML code, .closest() returns only #main-menu; .parents() returns only #main-menu; cause both of them are looking for .items class which only exist in the #main-menu. Thus all choices are incorrect.
+This can be seen using this snippet:
+$('.leaf').closest('.items').each(function(i, obj) {console.log(obj)});
+$('.leaf').parents('.items').each(function(i, obj) {console.log(obj)});
+`
 
 #### Q55. What does this line of code do?
 
@@ -1211,6 +1219,8 @@ $('custom').dequeue();
 
 `The target property can be the element that registered for the event or a descendant of it. It is often useful to compare event.target to this in order to determine if the event is being handled due to event bubbling.`
 
+[Extra reading: Event Bubbling and capturing](https://stackoverflow.com/questions/4616694/what-is-event-bubbling-and-capturing)
+
 #### Q65. You want to write a plugin that creates a new traversal function—such as parent() and children()—and behaves like the ones jQuery includes out of the box. It needs to correctly modify the list of selections jQuery tracks internally, build up a list of additional items, and return the merged collection. What do you need to return on the last line of the function in order for this plugin to work correctly?
 
 ```JavaScript
@@ -1323,7 +1333,7 @@ $.fn.myTraverse = function() {
 
 #### Q67. You have an element with a series of code (not CSS) animations applied to it that could be triggered by code you control, or other code elsewhere (such as plugins). How can you fire some code when all those animations have completed?
 
-- [ ] A
+- [x] A
 
 ```js
 $('#element').on('animationend', function () {
@@ -1363,6 +1373,9 @@ $('#element')
 
 1. [Source: HTMLElement: animationend event | MDN ](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationend_event)
 2. [Example: Stackoverflow](https://stackoverflow.com/questions/49580666/check-if-an-css-animation-is-completed-with-jquery-or-js)
+
+**Explanation**: `Although A is not complete as it could include animationend webkitAnimationEnd oAnimationEnd, other choices are incorrect. The last choice could be also correct if it were .promise().done instead` 
+
 
 #### Q68. HTML5 data attributes allow you to create valid custom attributes to store arbitrary data within DOM elements. jQuery has an API to interface with custom data such as the series of quotes below. How can you mark the second quote as your favorite?
 
