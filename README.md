@@ -1,4 +1,5 @@
 
+<a id="top-page"></a>
 [![Owner](https://img.shields.io/badge/owner-ebazhanov-blue)](https://github.com/Ebazhanov)
 [![Admin](https://img.shields.io/badge/admin-monkrus-red)](https://github.com/monkrus)
 [![Open issues](https://img.shields.io/github/issues/ebazhanov/linkedin-skill-assessments-quizzes)](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues)
@@ -8,8 +9,9 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1039-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
+
+#### [ [Go to see the last contributor](#bottom-page) ]
 
 #### PLEASE 🙏
 
@@ -1473,9 +1475,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
+<a id="bottom-page"></a>
+
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification.
 Contributions of any kind welcome!
 
+
+#### [ [Go back to the top of the page](#top-page) ]
 
 ## Contributor Over Time
 
