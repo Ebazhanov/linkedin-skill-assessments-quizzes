@@ -1,6 +1,7 @@
 
 [![Owner](https://img.shields.io/badge/owner-ebazhanov-blue)](https://github.com/Ebazhanov)
 [![Admin](https://img.shields.io/badge/admin-monkrus-red)](https://github.com/monkrus)
+[![Open issues](https://img.shields.io/github/issues/ebazhanov/linkedin-skill-assessments-quizzes)](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues)
 [![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
