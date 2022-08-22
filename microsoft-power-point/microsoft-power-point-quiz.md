@@ -1,6 +1,6 @@
 ## Microsoft PowerPoint
 
-#### Q1. When you create a new, blank presentation, you begin with one blank slide. What is the layout name of this slide?
+(https://www.bzziii.com/2022/08/when-you-create-new-blank-presentation-you-begin-with-one-blank-slide-what-is-the-layout-name-of-this-slide.html) Q1. When you create a new, blank presentation, you begin with one blank slide. What is the layout name of this slide?
 
 - [ ] Blank
 - [x] Title slide
