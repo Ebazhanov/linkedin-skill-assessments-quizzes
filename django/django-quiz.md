@@ -34,14 +34,14 @@ url(r'shows/<slug:episode_name>/', views.episode_name)
 
 ```
 path('shows/<int:season>/<int:episode>/', views.episode_number),
-path(r'shows/<slug:episode_name>/', views.episode_name)
+path('shows/<slug:episode_name>/', views.episode_name)
 ```
 
 - [ ] <span>
 
 ```
 path('shows/<int:season>/<int:episode>', views.episode_number),
-path(r'shows/<slug:episode_name>/', views.episode_number)
+path('shows/<slug:episode_name>/', views.episode_number)
 ```
 
 - [ ] <span>
@@ -515,7 +515,7 @@ model=Planet
 - [ ] a query
 - [x] a serializer
 
-#### Q53. How would you stop Django from performing database table creation or deletion operations via migrations for a particular model?\*\*
+#### Q53. How would you stop Django from performing database table creation or deletion operations via migrations for a particular model?
 
 - [ ] Run the `migrate` command with `--exclude=[model_name]`.
 - [ ] Move the model definition from `models.py` into its own file.
@@ -659,7 +659,15 @@ model=Planet
 
 #### Q72. Which statement about Django apps is false?
 
-- [ ] A Django app is the top-level container for a web application powered by Django.
+- [x] A Django app is the top-level container for a web application powered by Django.
 - [ ] Django apps are small libraries designed to represent a single aspect of a project.
 - [ ] Each Django app should do one thing, and one thing alone.
 - [ ] A Django project is made up of many apps.
+  
+ #### Q73. Which is not a valid closing template tag?
+
+- [ ] `{% endautoescape %}`
+- [x] `{% endifempty %}`
+- [ ] `{% endcomment %}`
+- [ ] `{% endfilter %}`
+
