@@ -684,3 +684,10 @@ public class Honda extends Car{}
 - [ ] questionScore()
 - [x] calculateScore()
 - [ ] getAnswers()
+
+#### Q90. Which relationship best illustrates an abstract-concrete class relationship?
+
+- [ ] cat : kitten
+- [ ] color : red
+- [ ] planet : moon
+- [x] truck : window
