@@ -1716,7 +1716,7 @@ actors = ["Downey", "Holland", "Evans"]
 ```
 
 - [ ] `[(x,y)] for x in characters for y in actors]`
-- [x] `list(zip(characters, actors))`
+- [x] `zip(characters, actors)`
 - [ ] <br>
 
 ```python
