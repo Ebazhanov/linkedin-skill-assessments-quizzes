@@ -1863,3 +1863,11 @@ if (/* Snipped goes here */){
 - [ ] !deforestation && !conservation
 - [ ] !conservation || deforestation
 - [ ] deforestation && conservation || deforestation
+
+#### Q132. Which of these evaluate to true?
+
+- [x] Boolean("false")
+- [ ] Boolean("")
+- [ ] Boolean(0)
+- [ ] Boolean(NaN)
+
