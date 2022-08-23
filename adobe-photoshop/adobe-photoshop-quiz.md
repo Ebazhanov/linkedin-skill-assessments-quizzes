@@ -219,7 +219,7 @@
 - [ ] Actually, you cannot use filters on video files.
 - [ ] Convert the video file to an animated gif.
 
-#### Q28. Which file format does **not** support layers?
+#### Q28. Which file format does not support layers?
 
 - [x] Photoshop EPS
 - [ ] Photoshop PDF
@@ -293,7 +293,7 @@
 - [ ] View > Show > Selection Edges
 - [x] View > Show > Pixel Grid
 
-#### Q38. To save a panel layout arrangement, what should you create?
+#### Q38. what should you create to save a panel layout arrangement?
 
 - [ ] A tool set
 - [ ] A layer set
@@ -480,7 +480,7 @@
 
 - [ ] It converts the image from a raster image to a vector infographics
 - [ ] It uses Adobe Sensei technology to reconstruct pixels that have been interpolated.
-- [ ] It references an image in a separate file that retains its resolutions.
+- [x] It references an image in a separate file that retains its resolutions.
 - [ ] It uses a layer mask for nondestructive editing.
 
 #### Q62. Which **Select and Mask** workspace tool allows you to select fine hairs?
@@ -523,7 +523,7 @@
 - [ ] Click the guide with the Selection tool, then select **Edit > Clear**.
 - [ ] Select **View > Clear Guides**.
 - [ ] Double-click the point where the guide touches the ruler.
-- [ ] Drag the guide back to the ruler.
+- [x] Drag the guide back to the ruler.
 
 #### Q68. If you want to change the resolution of an image using the **Pixels per Inch setting**, which command do you use?
 
@@ -540,13 +540,19 @@
 
 - [x] up to 8000
 
-#### Q71. Wich method is a high quality scaling algorithm for enlarging image?
+#### Q71. Wich method is a high-quality scaling algorithm for enlarging image?
 
--[x] bicubic
+-[x] Bicubic Sharper
+-[ ] Bilinear
+-[ ] Preserve Details 2.0
+-[ ] Nearest Neighbor
 
 #### Q72. How can you make the magic wand tool select fewer variations of a color?
 
--[x] uncheck Contiguous
+-[x] clear the contiguous check box
+-[ ] decrease the tolerance
+-[ ] increse the tolerance
+-[ ] increase the simple size
 
 #### Q73. For curved smoother-looking edges on a selection, what selection should you pick?
 
@@ -565,3 +571,11 @@
 - \[ ] Marquee
 - \[ ] Lasso
 - \[x] Patch
+
+#### Q76. Which Select and Mask workspace tool allows you to select fine hairs?
+
+-[ ] Object Selection
+-[ ] Brush
+-[ ] Quick Selection
+-[x] Refine Edge
+
