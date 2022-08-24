@@ -480,7 +480,7 @@
 
 - [ ] It converts the image from a raster image to a vector infographics
 - [ ] It uses Adobe Sensei technology to reconstruct pixels that have been interpolated.
-- [ ] It references an image in a separate file that retains its resolutions.
+- [x] It references an image in a separate file that retains its resolutions.
 - [ ] It uses a layer mask for nondestructive editing.
 
 #### Q62. Which **Select and Mask** workspace tool allows you to select fine hairs?
@@ -552,6 +552,7 @@
 
 -[x] anti-aliasing
 
+<<<<<<< HEAD
 #### Q74. Which tool is _not_ found in the **Select and Mask** workspace ?
 
 - \[ ] Magic Wand
@@ -565,3 +566,53 @@
 - \[ ] Marquee
 - \[ ] Lasso
 - \[x] Patch
+=======
+#### Q74. Which Photoshpop panel containes project elements that can be shared across Adobe applications ro between collaborators?
+
+-[x] Libraries
+-[ ] Files
+-[ ] Layer Comps
+-[ ] Glyphs
+
+#### Q75. What should you create in order to save a panel layout arrangement?
+
+-[ ] a layer set
+-[x] a tool set
+-[ ] a keyboard shortcut 
+-[ ] a workspace
+
+#### Q76. You are retouching a photo by using the Spot Healing Brush tool on a transparent layer aboce the image, but you cannot see any visible changes when you click. What is likely the problem?
+
+-[ ] You need to convert the image to a Smart Object before using this tool.
+-[ ] You must first change the blending mode to Screen
+-[ ] The Spot Healing Brush tool cannot be used on a transparent layer 
+-[x] The Sample all layers check box on the toolbar is not selected
+
+#### Q77. Which blend mode is useful for dropping out the darkest areas o the top layer and effectively adding up the image details, like multiple slides being projected on top of each other?
+
+-[ ] Multiply
+-[ ] Screen
+-[x] Color
+-[ ] Hard Light
+
+#### Q78. Which layer(s) does the depicted Hue/Saturation 1 adjustment layer effect?
+
+-[ ] B, C, and D
+-[ ] B
+-[x] B and C
+-[ ] A
+
+#### Q79. What is the difference between the Healing Brush Tool and the Spot Healing Brush tool?
+
+- [ ] The spot healing brush tool needs a source point, but the healing brush automatically samples pixels nearby.
+- [x] The healing brush tool needs a source point, but the spot healing brush automatically samples pixels nearby.
+- [ ] The spot healing brush tool does not match texture, lifghting, shading or trasparency of the sampled pixels, but the healing brush tool blends texture, light, shading and trasparency of pixel nearby.
+- [ ] The healing brush tool does not match texture, lighting, shading or trasparency of the sampled pixels, but the spot healing brush tool blends texture, light, shading and trasparency of pixel nearby.
+
+#### Q80. Which tool is _not_ found in the *Select and Mask* workspace?
+
+- [ ] Quick select
+- [ ] Magic wand
+- [ ] Lasso
+- [x] Refine Edge
+>>>>>>> f74acb28a75e76473463845a4dd4da7316f8f5fb
