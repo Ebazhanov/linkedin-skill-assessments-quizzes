@@ -565,7 +565,7 @@ func worker(m Message) Result
       r := worker(m)
       r -> ch
       } ()
-- [ ] go func() {
+- [x] go func() {
       r := worker(m)
       ch <- r
       } ()
