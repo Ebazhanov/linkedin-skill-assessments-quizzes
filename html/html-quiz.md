@@ -1918,3 +1918,45 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
   <!--Other terms and descriptions -->
 </dl>
 ```
+
+#### 109. Which choice is the best way to mark up this layout?
+![Immagine 2022-08-26 125542](https://user-images.githubusercontent.com/80069786/186888988-34adfd67-dd60-40ed-ac56-645c730985a4.png)
+
+- [x]
+```html
+<h4><strong>Mailing Address</strong></h4>
+<address><em>
+	6410 Via Real <br>
+	Carpinteria, CA 93013<br>
+	<a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</em></address>
+```
+
+- [ ]
+```html
+<h4>Mailing Address</h4>
+<address>
+	6410 Via Real <br>
+	Carpinteria, CA 93013<br>
+	<a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</address>
+```
+
+- [ ]
+```html
+<p><strong>Mailing Address</strong></p>
+<p><em>
+	6410 Via Real <br>
+	Carpinteria, CA 93013<br>
+	<a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</em></p>
+```
+
+- [ ]
+```html
+<h4>Mailing Address</h4>
+<p><em>
+	6410 Via Real <br>
+	Carpinteria, CA 93013<br>
+	<a href="mailto:info@linkedin.com">info@linkedin.com</a>
+</em></p>
