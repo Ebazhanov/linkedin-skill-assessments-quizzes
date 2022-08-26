@@ -1851,13 +1851,14 @@ var flagDatabase = JSON.parse(flagsJSON);
 - [ ] flagsJSON.countries[0].flag
 
 #### Q131. Which snippet allows the acresOfRainForest variable to increase?
-
+```
 let conservation = true;
 let deforestation = false;
 let acresOfRainForest = 100;
 if (/* Snipped goes here */){
-++acresOfRainForest;
+    ++acresOfRainForest;
 }
+```
 
 - [x] conservation && !deforestation
 - [ ] !deforestation && !conservation
@@ -1870,4 +1871,3 @@ if (/* Snipped goes here */){
 - [ ] Boolean("")
 - [ ] Boolean(0)
 - [ ] Boolean(NaN)
-

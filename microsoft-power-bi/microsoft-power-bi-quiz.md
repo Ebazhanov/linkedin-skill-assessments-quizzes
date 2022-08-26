@@ -279,7 +279,6 @@
     C. They must have the same file type.
     D. They must have no duplicate data rows.
 
-
 - [ ] B, C
 - [x] A, B, C
 - [ ] A, B, D

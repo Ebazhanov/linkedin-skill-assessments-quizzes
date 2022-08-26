@@ -234,6 +234,7 @@
 - [ ] Margins
 
 #### 32. You are working on an InDesign document and there are guides on the page, but you cannot select them. Why is this? (select three items).
+
 -A. The guides are on a layer that has printing disabled.
 -B. The guides are on a locked Layer.
 -C. The guides are being controlled using an object style.
@@ -246,12 +247,14 @@
 - [ ] B, C, D
 
 #### 33. You have an InDesign document with text on one layer and images on another. You want images with a text wrap applied to not wrap text when the layer is hidden. Where would you find the option to control this?
+
 - [x] in the Layer Options dialog box
 - [ ] in the Object Export Option dialog box
 - [ ] This happens automatically in InDesign
 - [ ] You cannot accomplish this in InDesign
 
 #### 34. You select some text with the Type tool, then click the Eyedropper tool and click a Photoshop image on your page. What happens? (Select three answers.)
+
 - A. The color switches to black.
 - B. The color you clicked is applied to the text.
 - C. The color appears as a swatch in the Swatches panel.
@@ -264,48 +267,56 @@
 - [ ] B, C, D (maybe)
 
 #### 35. In an interactive document, you want two objects to fade in simultaneously on the page. Which panel helps you do this?
+
 - [ ] Animation panel
 - [ ] Media panel
 - [ ] Page Transitions panel
 - [x] Timing panel
 
 #### 36. What do you know about the selected hyperlink?
+
 - [x] The url is broken
 - [ ] the object is on the red layer
 - [ ] the yperlink is stopped or paused
 - [ ] the content of the yperlink is anchored
 
 #### 37. You have a paragraph style called Heading applied to text throughout a document. You modify the formatting of Heading in one paragraph, and would like this formatting to apply to all paragraphs with the Heading style applied. Which command would you accomplish this task
+
 - [ ] Break link to style
 - [ ] Update Style
 - [x] Redefine Style (pretty sure)
 - [ ] New style
 
 #### 38. What is a key difference between File > Document Setup and File > Adjust Layout?
+
 - [ ] One lets you change the page orientation (portrait vs. Landscape)
 - [ ] One lets you change page size but not margin size
 - [x] One affects all document pages and the other affects the current spread (maybe)
 - [ ] One lets you change the font size when changing margin size
 
 #### 39. Which feature is available for both the Adobe PDF (interactive) and Adobe PDF (Print) export options?
+
 - [ ] hyperlinks
 - [x] form fieds (maybe)
 - [ ] page transitions
 - [ ] audio annotations
 
 #### 40. How do you apply a Fade In animation to the selected object?
+
 - [ ] In the Effects panel, select Fade In
 - [ ] Selet Object > Content > Fade In
 - [ ] Select Fade In from the menu in the upper-right corner
 - [x] In the Preset menu, select Fade In
 
 #### 41. What is the most important feature to use before sending an InDesign file to a colleague to work on?
+
 - [ ] File > Export
 - [ ] File > File Info
 - [ ] File > User
 - [x] File > Package
 
 #### 42. You want to move an image from one graphic frame to another. Which feature will you need to use?
+
 - [ ] Edit > Place and Link
 - [ ] File > Adjust Layout
 - [x] Edit > Paste Into

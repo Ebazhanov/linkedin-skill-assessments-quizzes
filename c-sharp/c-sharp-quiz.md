@@ -770,11 +770,12 @@ public int Password
 
 [Official Documentation: Jagged Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/jagged-arrays)
 
-#### Q72. How could you pause a thread for three seconds?  
+#### Q72. How could you pause a thread for three seconds?
+
 - [ ] Thread.Pause(3000);
 - [ ] Thread.Resume(-3000);
 - [ ] Thread.Suspend(3000);
-- [x] Thread.Sleep(3000);    
-    
+- [x] Thread.Sleep(3000);  
+
+
 [Official Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.threading.thread.sleep?view=net-6.0]
-    

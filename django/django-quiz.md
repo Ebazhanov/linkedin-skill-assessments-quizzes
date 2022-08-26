@@ -663,7 +663,6 @@ model=Planet
 - [ ] Django apps are small libraries designed to represent a single aspect of a project.
 - [ ] Each Django app should do one thing, and one thing alone.
 - [ ] A Django project is made up of many apps.
-  
 
 #### Q73. Which characters are illegal in template variable names?
 
@@ -671,10 +670,10 @@ model=Planet
 - [ ] uppercase letters.
 - [x] punctuation marks .
 - [ ] numbers.
-  
+
 [Reference](https://docs.djangoproject.com/en/4.1/ref/templates/language/#:~:text=Variable%20names%20consist%20of%20any,may%20not%20be%20a%20number.)
 
- #### Q74. Which is not a valid closing template tag?
+#### Q74. Which is not a valid closing template tag?
 
 - [ ] `{% endautoescape %}`
 - [x] `{% endifempty %}`
