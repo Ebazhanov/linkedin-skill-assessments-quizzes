@@ -679,3 +679,10 @@ model=Planet
 - [x] `{% endifempty %}`
 - [ ] `{% endcomment %}`
 - [ ] `{% endfilter %}`
+
+#### Q75. When would you need to use the reverse_lazy utility function instead of reverse?
+
+- [ ] when you want to provide a reverse URL as a default value for a parameter in a function's signature
+- [ ] all of the these answers
+- [ ] when you want to provide a reverse URL as the url attribute of a class-based generic view
+- [ ] when you want to provide a URL to a decorator, such as the login_url argument for the permission_required() decorator
