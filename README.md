@@ -5,9 +5,7 @@
 [![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1045-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1046-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1476,6 +1474,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/Hosein1358"><img src="https://avatars.githubusercontent.com/u/106476372?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hosein1358</b></sub></a><br /><a href="#design-Hosein1358" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Hosein1358" title="Code">💻</a></td>
     <td align="center"><a href="https://mohit-portifolio.netlify.app"><img src="https://avatars.githubusercontent.com/u/95187592?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mohit</b></sub></a><br /><a href="#design-goswamimohit" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=goswamimohit" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/spaleet"><img src="https://avatars.githubusercontent.com/u/76903214?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ali</b></sub></a><br /><a href="#design-spaleet" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=spaleet" title="Code">💻</a></td>
   </tr>
 </table>
 
