@@ -918,3 +918,10 @@ int fl(int a, int b) { return(a>b?a:b); }
 - [ ] the smaller value of the two passed parameters
 - [ ] runtime error
 - [x] the greater value of the two passed parameters
+
+#### Q61. Which function fo you use to deallocate memory?
+
+- [x] free()
+- [ ] dealloc()
+- [ ] release()
+- [ ] dealloc()
