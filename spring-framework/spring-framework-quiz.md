@@ -767,7 +767,7 @@ public Pojo getPojo(@PathVariable("id") String id) {
 
 - [ ] Constructor injection overrides setter injection.
 - [ ] Setter injection creates a new instance if any modification occurs.
-- [ ] You can't use constructor injection for partial injection.
+- [x] You can't use constructor injection for partial injection.
 - [ ] Constructor injection is more flexible than setter injection.
 
 #### Q76. Which println would you remove to stop this code from throwing a null pointer exception?
