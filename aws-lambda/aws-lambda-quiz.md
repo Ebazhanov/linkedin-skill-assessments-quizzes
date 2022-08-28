@@ -352,4 +352,4 @@
 - [ ] Kinesis, S3, and SQS
 - [ ] Kinesis, S3, and SNS
 - [ ] Kinesis, DynamoDB, and SNS
-- [ ] Kinesis, DynamoDB, and SQS
+- [x] Kinesis, DynamoDB, and SQS
