@@ -540,19 +540,19 @@
 
 - [x] up to 8000
 
-#### Q71. Wich method is a high-quality scaling algorithm for enlarging image?
+#### Q71. Which method is a high-quality scaling algorithm for enlarging image?
 
--[x] Bicubic Sharper.
--[ ] Bilinear.
--[ ] Preserve Details 2.0.
--[ ] Nearest Neighbor.
+-[x] Bicubic Sharper
+-[ ] Bilinear
+-[ ] Preserve Details 2.0
+-[ ] Nearest Neighbor
 
 #### Q72. How can you make the magic wand tool select fewer variations of a color?
 
--[x] clear the contiguous checkbox.
--[ ] decrease the tolerance.
--[ ] increase the tolerance.
--[ ] increase the simple size.
+-[x] clear the contiguous checkbox
+-[ ] decrease the tolerance
+-[ ] increase the tolerance
+-[ ] increase the simple size
 
 #### Q73. For curved smoother-looking edges on a selection, what selection should you pick?
 
@@ -574,8 +574,8 @@
 
 #### Q76. Which Select and Mask workspace tool allows you to select fine hairs?
 
--[ ] Object Selection.
--[ ] Brush.
--[ ] Quick Selection.
--[x] Refine Edge.
+-[ ] Object Selection
+-[ ] Brush
+-[ ] Quick Selection
+-[x] Refine Edge
 

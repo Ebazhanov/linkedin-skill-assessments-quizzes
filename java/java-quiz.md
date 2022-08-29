@@ -1963,7 +1963,7 @@ System.out.println(buy.substring(x, x+1) + buy.substring(y, y+2))
 - [ ] Architectural neural
 
 [Reference](https://www.interviewbit.com/blog/features-of-java/)
-		   
+
 #### Q135. What is the output of this code?
 
 ```java

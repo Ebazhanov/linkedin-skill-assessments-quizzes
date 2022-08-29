@@ -775,7 +775,6 @@ public int Password
 - [ ] Thread.Pause(3000);
 - [ ] Thread.Resume(-3000);
 - [ ] Thread.Suspend(3000);
-- [x] Thread.Sleep(3000);  
-
+- [x] Thread.Sleep(3000);
 
 [Official Documentation: https://docs.microsoft.com/en-us/dotnet/api/system.threading.thread.sleep?view=net-6.0]
