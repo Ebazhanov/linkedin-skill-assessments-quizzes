@@ -430,7 +430,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [x] Event names must be camelCase strings.
 - [ ] The emit method allows a arbitrary set of arguments to be passed to the listener functions.
 - [ ] Any values returned by the listeners for an emitted events are ignored.
-- [ ] When an event emitter objeect emits an event, all of the functions attached to that specific event are called synchronously.
+- [ ] When an event emitter object emits an event, all of the functions attached to that specific event are called synchronously.
 
 #### Q53. Which core module in Node can you use to compile and run JavaScript code in a sandbox environment?
 
@@ -568,7 +568,7 @@ console.log(person);
 - [ ] As Node.js is asynchronous, this is handled by a libuv and a threadpool. The performance will not notably degrade.
 - [ ] As the application code runs asynchronously within a single thread, the execution will block, accepting no more requests until the operation is completed.
 - [ ] As Node.js is asynchronous, this is handled by a threadpool and the performance will not notably degrade.
-- [x] The current thread will block until the executon is completed and the operating system will spawn new threads to handle incoming requests. This can exhaust the number of allowed threads (255) and degrade performance over time.
+- [x] The current thread will block until the execution is completed and the operating system will spawn new threads to handle incoming requests. This can exhaust the number of allowed threads (255) and degrade performance over time.
 
 #### Q69. What is used for parsing and running Javascript in Node.js?
 
@@ -598,7 +598,7 @@ console.log(person);
 - [ ] They are a Node command to validate stability of your code.
 - [ ] They tell if a feature is LTS (Long Term Supported).
 
-#### Q73. Which coice is a core module in Node?
+#### Q73. Which choice is a core module in Node?
 
 - [x] crypto
 - [ ] chalk

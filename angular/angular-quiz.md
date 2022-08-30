@@ -810,7 +810,7 @@ getSettings()
 - [x] Use a factory provider at the root AppModule level that depends on the service to call that service method.
 - [ ] it is not possible to do it at application start; you can do it only at a component level.
 - [ ] Instantiate an instance of the service at the global level (window scope) and then call that method.
-	
+
 [Angular.io](https://angular.io/guide/dependency-injection-providers)
 [Stackoverflow](https://stackoverflow.com/questions/39803876/how-to-use-factory-provider)
 
