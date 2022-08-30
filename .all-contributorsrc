@@ -10397,6 +10397,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "imgul",
+      "name": "Gul Zaib",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92777653?v=4",
+      "profile": "https://github.com/imgul",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
