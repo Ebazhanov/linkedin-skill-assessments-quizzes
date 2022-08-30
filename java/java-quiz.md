@@ -1982,5 +1982,5 @@ switch (yearsMarried) {
 
 - [ ] cotton
 - [ ] cotton <br> leather
-- [ ] cotton <br> leather <br> I don't gotta buy gifts for nobody!
-- [x] cotton <br> I don't gotta buy gifts for nobody!
+- [x] cotton <br> leather <br> I don't gotta buy gifts for nobody!
+- [ ] cotton <br> I don't gotta buy gifts for nobody!
