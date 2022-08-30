@@ -1963,3 +1963,24 @@ System.out.println(buy.substring(x, x+1) + buy.substring(y, y+2))
 - [ ] Architectural neural
 
 [Reference](https://www.interviewbit.com/blog/features-of-java/)
+
+#### Q135. What is the output of this code?
+
+```java
+int yearsMarried = 2;
+switch (yearsMarried) {
+   case 1:
+      System.out.println("paper");
+   case 2:
+      System.out.println("cotton");
+   case 3:
+      System.out.println("leather");
+   default:
+      System.out.println("I don't gotta buy gifts for nobody!");
+}
+```
+
+- [ ] cotton
+- [ ] cotton <br> leather
+- [ ] cotton <br> leather <br> I don't gotta buy gifts for nobody!
+- [x] cotton <br> I don't gotta buy gifts for nobody!

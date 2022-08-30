@@ -1851,6 +1851,7 @@ var flagDatabase = JSON.parse(flagsJSON);
 - [ ] flagsJSON.countries[0].flag
 
 #### Q131. Which snippet allows the acresOfRainForest variable to increase?
+
 ```
 let conservation = true;
 let deforestation = false;
