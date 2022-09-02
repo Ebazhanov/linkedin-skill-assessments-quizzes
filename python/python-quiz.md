@@ -1716,7 +1716,7 @@ actors = ["Downey", "Holland", "Evans"]
 ```
 
 - [ ] `[(x,y)] for x in characters for y in actors]`
-- [x] `list(zip(characters, actors))`
+- [x] `zip(characters, actors)`
 - [ ] <br>
 
 ```python
@@ -1878,3 +1878,10 @@ b = a[50:60:2]
 - [ ] `1; len(mylist)`
 - [ ] `2; len(mylist)`
 - [ ] `0; len(mylist)`
+
+#### Q142. If a function does not have a return statement, what does it really return?
+
+- [ ] 0
+- [ ] True
+- [x] None
+- [ ] False

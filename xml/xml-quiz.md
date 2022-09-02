@@ -506,8 +506,13 @@ car(year) {
 - [x]
 
 ```css
-car, cars { display: block; }
-make, model, year {
+car,
+cars {
+  display: block;
+}
+make,
+model,
+year {
   display: inline;
   padding-top: 0.5em;
 }

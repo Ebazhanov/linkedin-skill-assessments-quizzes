@@ -274,10 +274,10 @@
 
 #### Q35. You want to combine several CSV files into a single data file after you connect a folder. What must be true about these CSV data files? (Select all that apply.)
 
-A. They must be stored in the same folder.
-B. They must have the same schema.
-C. They must have the same file type.
-D. They must have no duplicate data rows.
+    A. They must be stored in the same folder.
+    B. They must have the same schema.
+    C. They must have the same file type.
+    D. They must have no duplicate data rows.
 
 - [ ] B, C
 - [x] A, B, C

@@ -1824,7 +1824,8 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/7262123?v=4",
       "profile": "https://github.com/for",
       "contributions": [
-        "code"
+        "code",
+        "design"
       ]
     },
     {
@@ -8100,7 +8101,8 @@
         "design",
         "code",
         "data",
-        "content"
+        "content",
+        "business"
       ]
     },
     {
@@ -10251,6 +10253,166 @@
       "name": "Lynn Latt Yati",
       "avatar_url": "https://avatars.githubusercontent.com/u/108814689?v=4",
       "profile": "https://github.com/LynnLattYati",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "San-Shwe",
+      "name": "San Shwe",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65032357?v=4",
+      "profile": "https://www.myitshwewah.com/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "ErShakirAnsari",
+      "name": "SKR",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7697097?v=4",
+      "profile": "https://github.com/ErShakirAnsari",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "msbunnyjaguar",
+      "name": "msbunnyjaguar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/111710133?v=4",
+      "profile": "https://github.com/msbunnyjaguar",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "zabiullak",
+      "name": "Mohamad Zabiulla",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62701473?v=4",
+      "profile": "https://github.com/zabiullak",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "HatimZ",
+      "name": "Hatim Zahid",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63000127?v=4",
+      "profile": "http://HatimZahid",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "rauzansumara",
+      "name": "Rauzan Sumara",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38342494?v=4",
+      "profile": "https://rauzansumara.github.io/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Hosein1358",
+      "name": "Hosein1358",
+      "avatar_url": "https://avatars.githubusercontent.com/u/106476372?v=4",
+      "profile": "https://github.com/Hosein1358",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "goswamimohit",
+      "name": "Mohit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95187592?v=4",
+      "profile": "https://mohit-portifolio.netlify.app",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "spaleet",
+      "name": "Ali",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76903214?v=4",
+      "profile": "https://github.com/spaleet",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Avinash1765",
+      "name": "Avinash1765",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33092303?v=4",
+      "profile": "https://github.com/Avinash1765",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "saiteja-madha",
+      "name": "Sai Teja Madha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42540377?v=4",
+      "profile": "https://github.com/saiteja-madha",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "monsur22",
+      "name": "Monsur Ahmed Shafiq",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27688730?v=4",
+      "profile": "http://monsur22.github.io",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "xuxianjin-dev",
+      "name": "xuxianjin-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109820230?v=4",
+      "profile": "https://github.com/xuxianjin-dev",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "chetnashah",
+      "name": "chetna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22337772?v=4",
+      "profile": "https://github.com/chetnashah",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "imgul",
+      "name": "Gul Zaib",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92777653?v=4",
+      "profile": "https://github.com/imgul",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "nat-k-dev",
+      "name": "Natalia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8708553?v=4",
+      "profile": "https://github.com/nat-k-dev",
       "contributions": [
         "design",
         "code"

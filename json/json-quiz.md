@@ -745,7 +745,7 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [x] application/json
 - [ ] data/json
 
-#### Q65. What character cannot be part of string within JSON without additional formatting?
+#### Q65. Which character cannot be part of string within JSON without additional formatting?
 
 - [ ] /
 - [x] "
