@@ -809,3 +809,10 @@ box {
 - [x] td
 - [ ] figure
 - [ ] p
+  
+#### Q82. Which attribute is uses to add text to an image that will be displayed if the image does not load and read out to screen reader users?
+
+- [ ] title
+- [ ] data
+- [ ] src
+- [x] alt
