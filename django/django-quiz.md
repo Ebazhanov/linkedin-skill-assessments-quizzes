@@ -686,4 +686,5 @@ model=Planet
 - [x] all of the these answers
 - [ ] when you want to provide a reverse URL as the url attribute of a class-based generic view
 - [ ] when you want to provide a URL to a decorator, such as the login_url argument for the permission_required() decorator
+
 [Reference](https://docs.djangoproject.com/en/4.1/ref/urlresolvers/#:~:text=reverse_lazy()&text=It%20is%20useful%20for%20when,a%20generic%20class%2Dbased%20view.)
