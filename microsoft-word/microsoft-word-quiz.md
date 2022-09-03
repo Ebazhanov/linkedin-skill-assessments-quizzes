@@ -60,10 +60,10 @@
 
 #### Q9. You want to add a caption to a table. Which tab contains this option?
 
-- [ ] Insert tab.
-- [ ] Design tab.
-- [x] References tab.
-- [ ] Layout tab.
+- [ ] Insert
+- [ ] Design
+- [x] References
+- [ ] Layout
 
 #### Q10. How can you change the appearance of an entire table in a single step?
 
@@ -317,7 +317,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 - [ ] In the **Styles** task pane, click **New Style** and select **Arial 11 Bold**.
 - [ ] Hold the Ctrl key (Windows) or Command key (Mac) and click the **Format Painter**. Then select **New Style**.
-- [x] Select one of the first level headings. Right-click **Heading 1** and update it to match the selection.
+- [x] On Windows: Select one of the first level headings. Right-click **Heading 1** and update it to match the selection.On Mac: With the **style** pane open, highlight a Heading 1 in the document, then in the style pane drop-down for Heading 11, select Update to Match Selection.
 - [ ] Select the text, right-click to display the formatting bar, and select **Styles > Copy**.
 
 #### Q41. You are typing text in two columns. When you reach the end of a paragraph in column 1, you want to start the next paragraph in column 1 on the next page. What type of break should you insert at this point?
@@ -705,3 +705,17 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] Even Page
 - [ ] Next Page
 - [ ] Odd Page
+
+#### Q90. Which function allows you to treat multiple objects as a single object for the purpose of manipulating their display or placement within a document?
+
+- [x] Group
+- [ ] Merge
+- [ ] Copy
+- [ ] Combine
+
+#### Q91. Which function turns a document into a webpage?
+
+- [ ] Style
+- [x] Format
+- [ ] Translate
+- [ ] Transform
