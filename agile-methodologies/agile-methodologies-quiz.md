@@ -716,7 +716,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 - [ ] before the Sprint Retospective
 - [ ] after the daily stand-up
-- [x] before the daily stand-up
+- [x] before the daily Scrum
 - [ ] before quarterly planning
 
 #### Q99. What is Empathy Map?
@@ -790,3 +790,17 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] 2, 4, 6, 8, 10
 - [ ] XS, S, M, L, XL
 - [x] 1, 2, 3, 4, 5, 8, 13, 20
+
+#### Q109. You are the Scrum Master and, having just facilitated a meeting, you're reflecting on ways to improve. What skill are you displaying?
+
+- [x] being self-aware
+- [ ] being extroverted
+- [ ] having type A personality
+- [ ] being someone who takes charge
+
+#### Q110. What background information is most important for a successful Product Owner to understand?
+
+- [ ] The budget for the product.
+- [ ] The underlying technology of the product.
+- [ ] The development team's strengths and weaknesses.
+- [x] The business context for the product.
