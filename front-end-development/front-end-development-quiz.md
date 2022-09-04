@@ -768,7 +768,7 @@ box {
 
 [Source: GraphQL official website](https://graphql.org/)
 
-#### Q77. Wich choice will place a multiline text input field on the page?
+#### Q77. Which choice will place a multiline text input field on the page?
 
 - [ ] `<multiline></multiline>`
 - [x] `<textarea></textarea>`
