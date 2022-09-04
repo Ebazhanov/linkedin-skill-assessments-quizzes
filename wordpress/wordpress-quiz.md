@@ -363,7 +363,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] Use the registerBlockName() function.
 - [ ] Use the createGutenBlock() function.
 - [ ] Use a block template.
-- [ ] Use the registerBlockType() function.
+- [x] Use the registerBlockType() function.
 
 #### Q42. Which software development principle, often used in WordPress, aims to reduce the repetition of code?
 
@@ -392,7 +392,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 #### Q45. On a regular WordPress install, what is the difference between transients and the object cache?
 
-- [ ] Transients are persistent and write to the wp_options. The object cache persists only for the particular page load.
+- [x] Transients are persistent and write to the wp_options. The object cache persists only for the particular page load.
 - [ ] Transients are stored in the WordPress database. The object cache is stored on the server where the WordPress install is located.
 - [ ] Transients are available for the duration of a user session and apply to all page components. The object cache is available only for scripts.
 - [ ] Transients persist only for the particular page load. The object cache is persistent and writes to the wp_options table.
@@ -459,7 +459,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] the software is free to use
 - [ ] the software is free to modify
 
-#### Q54. Review of the HTML on line1. The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting into the database. What is wrong with this PHP code?
+#### Q54. Review the HTML on line 1. The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting into the database. What is wrong with this PHP code?
 
 ```
 <input type="text" id="title" name="title" />
@@ -467,7 +467,7 @@ $title = $_POST[ 'title' ];
 ```
 
 - [ ] The code sample does not use the GET method. It should be wrapped in the `get_post_field()` function and look like this `$title = get_post_field( $GET[ 'title' ] );`
-- [x] The code sample does not use sanitize the form data. It should use the `sanitize_text_field()` function and look like this: `$title = sanitize_text_field( $_POST[ 'title' ] );`
+- [x] The code sample does not sanitize the form data. It should use the `sanitize_text_field()` function and look like this: `$title = sanitize_text_field( $_POST[ 'title' ] );`
 - [ ] There is no error. The code follows WordPress best practices.
 - [ ] The code sample does not allow for translation. It should use a translation function and look like this: `$title = __( $_POST[ 'title' ];`
 
@@ -678,3 +678,10 @@ endif;
 - [ ] wp-config.php
 - [ ] cPanel
 - [x] Discussion Settings
+
+#### Q85. What can you not configure via wp-config.php?
+
+- [x] changing the default user role
+- [ ] changing the default wp_table prefix
+- [ ] changing your site or WordPress address
+- [ ] changing the default number of post revisions
