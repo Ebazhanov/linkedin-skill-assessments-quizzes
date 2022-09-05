@@ -1009,3 +1009,17 @@ Table name: superheroes
 - [ ] USE OLD.address
 
 [Reference](https://dev.mysql.com/doc/refman/8.0/en/trigger-syntax.html)
+
+#### Q104. You are working with the tables as shown in this diagram. You need to generate the list of customers who purchased certain car models. Which SQL clause do you use?
+
+- [ ] UNION ALL
+- [x] UNION
+- [ ] SHOW TOTALS
+- [ ] WITH ROLLUP
+
+#### Q105. You are managing a database with a table called "customers". You created a temporary table also called "customers" with which you are working for the duration of your session. You need to re-create the temporary table with different specifications. Which command do you need to run first?
+
+- [ ] `CREATE TEMPORARY TABLE customers;`
+- [ ] `DROP TEMP TABLE customers;`
+- [ ] `DROP TEMPORARY TABLE customers;`
+- [x] `DROP TABLE customers;`

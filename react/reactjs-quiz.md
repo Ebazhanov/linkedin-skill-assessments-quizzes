@@ -243,9 +243,11 @@ function Dish(props) {
 #### Q24. What is the children prop?
 
 - [ ] a property that adds child components to state
-- [x] a property that lets you pass components as data to other components
+- [x] a special property that JSX creates on components that contain both an opening tag and a closing tag, referencing it's contents.
 - [ ] a property that lets you set an array as a property
 - [ ] a property that lets you pass data to child elements
+
+[**Explanation**](https://reactjs.org/docs/jsx-in-depth.html#children-in-jsx)
 
 #### Q25. Which attribute do you use to replace innerHTML in the browser DOM?
 
@@ -557,7 +559,7 @@ class Ticker extends React.component {
 - [ ] state
 - [ ] state.count
 
-#### Q53. Per the following code, when is the Hello component displayed?
+#### Q53. Per the following code, when is the Hello component assigned to greeting?
 
 ```javascript
 const greeting = isLoggedIn ? <Hello /> : null;
@@ -608,7 +610,7 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 - [x] grey
 - [ ] white
 
-#### Q58. What is the difference between the click behaviors of these two buttons(assuming that this.handleClick is bound correctly)
+#### Q58. What is the difference between the click behaviors of these two buttons(assuming that this.handleClick is not bound correctly)
 
 ```javascript
   A. <button onClick=this.handleClick>Click Me</button>
@@ -744,7 +746,7 @@ useEffect(() => {
 - [ ] render
 - [ ] componentDidUpdate
 
-#### Q65. What is the name of this component?
+#### Q65. What is the name of the base component of this component?
 
 ```javascript
 class Comp extends React.Component {
@@ -754,12 +756,10 @@ class Comp extends React.Component {
 }
 ```
 
-- [x] Comp
+- [ ] Comp
 - [ ] h1
 - [ ] React.Component
-- [ ] Component
-
-This question might be an updated version of Q37.
+- [x] Component
 
 #### Q66. When using a portal, what is the first argument?
 
@@ -792,8 +792,8 @@ From official docs: [Hooks-State](https://reactjs.org/docs/hooks-state.html#:~:t
 #### Q68. What is the use of map function below?
 
 ```javascript
-const database = [user1:{},user2:{},user3:{}];
-database.map((user)=><h1>user.data</h1>);
+const database = [{ data: 1 }, { data: 2 }, { data: 3 }];
+database.map((user) => <h1>{user.data}</h1>);
 ```
 
 - [ ] gives a map of all the entries in database
@@ -855,7 +855,7 @@ const MyComponent = ({ children }) => (
 - [ ] undefined
 - [x] 2
 
-#### Q73. What is this pattern called?
+#### Q73. What is this assignment pattern called?
 
 ```javascript
 const [count, setCount] = useState(0);
@@ -964,6 +964,8 @@ class StarTrekkin extends React.Component {
 - [ ] react-gen
 - [ ] react-start
 
+[hint](https://create-react-app.dev/)
+
 #### Q83. What is the browser extension called that React developers use to debug applications?
 
 - [x] React Developer Tools
@@ -994,7 +996,9 @@ class StarTrekkin extends React.Component {
 
 #### Q87. How do you add an id of heading to the following h1 element?
 
-`let dish = <h1>Mac and Cheese</h1>; `
+```javascript
+let dish = <h1>Mac and Cheese</h1>;
+```
 
 - [ ] `let dish = <h1 id={heading}>Mac and Cheese</h1>;`
 - [x] `let dish = <h1 id="heading">Mac and Cheese</h1>;`
@@ -1003,7 +1007,7 @@ class StarTrekkin extends React.Component {
 
 #### Q88. What value of button will allow you to pass the name of the person to be hugged?
 
-```
+```javascript
 class Huggable extends React.Component {
   hug(id) {
     console.log("hugging " + id);
@@ -1042,7 +1046,7 @@ This question test knowledge of react class components. You need to use `this` i
 
 #### Q91. In this function, which is the best way to describe the Dish component?
 
-```
+```javascript
 function Dish() {
   return (
     <>
@@ -1083,7 +1087,7 @@ function Dish() {
 
 #### Q95. How would you modify the constructor to fix this error: "ReferenceError: Must call super constructor in derived class before accessing 'this'..."?
 
-```
+```javascript
 class TransIsBeautiful extends React.Component {
   constructor(props){
   // Missing line
@@ -1140,7 +1144,7 @@ add();
 
 ![image](https://user-images.githubusercontent.com/62549240/160531605-bf8790d5-5eb9-4291-a9bd-4232f2fd7b6e.png)
 
-#### Q99. Why might you use a React.ref?
+#### Q99. Why might you use a React.createRef?
 
 - [ ] to refer to another JS file
 - [ ] to bind the function
@@ -1149,7 +1153,7 @@ add();
 
 [Reference](https://reactjs.org/docs/refs-and-the-dom.html)
 
-#### Q100. What pattern is being used in this code?
+#### Q100. What assignment pattern is being used in this code?
 
 ```javascript
 const { tree, lake } = nature;
@@ -1161,3 +1165,36 @@ const { tree, lake } = nature;
 - [x] destructuring assignment
 
 [Reference](https://javascript.info/destructuring-assignment)
+
+#### Q101. How would you correct this code block to make sure that the sent property is set to the Boolean value false?
+
+```javascript
+ReactDom.render(
+  <Message sent=false />,
+  document.getElementById("root")
+);
+```
+
+- [x] A
+
+```javascript
+<Message sent={false} />,
+```
+
+- [ ] B
+
+```javascript
+ReactDom.render(<Message sent="false" />, document.getElementById('root'));
+```
+
+- [ ] C
+
+```javascript
+<Message sent="false" />,
+```
+
+- [ ] D
+
+```javascript
+ReactDom.render(<Message sent="false" />, document.getElementById('root'));
+```

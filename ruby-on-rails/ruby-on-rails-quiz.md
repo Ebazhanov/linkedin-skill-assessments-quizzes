@@ -835,10 +835,12 @@ end
     end
 ```
 
-- [x] `@user.user_city`
+- [ ] `@user.user_city`
 - [ ] `@user.location_city`
-- [ ] `@user.city`
+- [x] `@user.city`
 - [ ] `@user.try(:city)`
+
+[Reference](https://itnext.io/understanding-delegate-in-ruby-on-rails-i-wish-i-knew-before-5edd341bad47)
 
 #### Q62. Where would this code most likely be found in a Rails project?
 
@@ -884,3 +886,66 @@ end
 - [ ] It selects only portfolios that have an image attached.
 - [ ] It includes the number of associated images when determining how many records to return.
 - [x] It will execute two database queries of 21 database queries.
+
+#### Q67. What line of code causes the method `decrypt_data` to be run?
+
+```
+class MyModel < ApplicationRecord
+  after_find :decrypt_data
+end
+```
+
+- [ ] MyModel.decrypt_data
+- [ ] MyModel.query(id: 42)
+- [ ] MyModel.find(:decrypt_data)
+- [x] MyModel.where(id: 42)
+
+#### Q68. Which line of inquiry would you follow after receiving this error message: No route matches [POST] "/burrito/create"?
+
+- [ ] Check that there is a matching path for "/burrito/create" in you paths.rb file.
+- [x] Check that there is a `post` route that matches "/burrito/create" in your routes.rb file.
+- [ ] Add the line `resources :burritos` to your routes.rb file.
+- [ ] Check that there is a `get` route that matches "burrito/create" in your paths.rb file.
+
+#### Q69. Which controller action is `not` in danger of returning double render errors?
+
+- [ ] A
+
+```
+def show
+  if params[:detailed] == "1"
+    redirect_to(action: 'detailed_show')
+  end
+  render('show')
+end
+```
+
+- [ ] B
+
+```
+def show
+  render('detailed_show') if params[:detailed] == "1"
+  render('show') and return
+end
+```
+
+- [ ] C
+
+```
+def show
+  if params[:detailed] == "1"
+    render('detailed_show')
+  end
+  render('show')
+end
+```
+
+- [x] D
+
+```
+def show
+  if params[:detailed] == "1"
+    render('detailed_show')
+  end
+end
+```

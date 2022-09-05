@@ -975,7 +975,7 @@ try {
 
 [Reference](http://erpbasic.blogspot.com/2012/01/inheritance-advantages-and.html#:~:text=Main%20disadvantage%20of%20using%20inheritance,used%20independent%20of%20each%20other.&text=4.,case%20of%20using%20that%20method.)
 
-#### Q64. Declare and initialize an array of 10 ints.
+#### Q64. How would you declare and initialize an array of 10 ints?
 
 - [ ] `Array<Integer> numbers = new Array<Integer>(10);`
 - [ ] `Array[int] numbers = new Array[int](10);`
@@ -1406,6 +1406,8 @@ class Lambo extends Car {
 - [ ] String
 - [ ] double
 - [x] BigDecimal
+
+[Reference](https://www.scaler.com/topics/java/primitive-data-types/#types-of-primitive-data-types-in-java)
 
 #### Q101. Which statement about constructors is not ture?
 
@@ -1929,7 +1931,8 @@ for(int i=0; i<30; i+=x) {}
 String buy = "bitcoin";
 System.out.println(buy.substring(x, x+1) + buy.substring(y, y+2))
 ```
-- [x] int x = 0; int y = 2; 
+
+- [x] int x = 0; int y = 2;
 - [ ] int x = 1; int y = 3;
 - [ ] int x = 0; int y = 3;
 - [ ] int x = 1; int y = 3;
@@ -1951,3 +1954,33 @@ System.out.println(buy.substring(x, x+1) + buy.substring(y, y+2))
 - [ ] Implement Sortable and override the sortBy method.
 
 [Reference](https://www.geeksforgeeks.org/how-to-override-compareto-method-in-java/)
+
+#### Q134. Identify the incorrect Java feature.
+
+- [ ] Object oriented
+- [x] Use of pointers
+- [ ] Dynamic
+- [ ] Architectural neural
+
+[Reference](https://www.interviewbit.com/blog/features-of-java/)
+
+#### Q135. What is the output of this code?
+
+```java
+int yearsMarried = 2;
+switch (yearsMarried) {
+   case 1:
+      System.out.println("paper");
+   case 2:
+      System.out.println("cotton");
+   case 3:
+      System.out.println("leather");
+   default:
+      System.out.println("I don't gotta buy gifts for nobody!");
+}
+```
+
+- [ ] cotton
+- [ ] cotton <br> leather
+- [x] cotton <br> leather <br> I don't gotta buy gifts for nobody!
+- [ ] cotton <br> I don't gotta buy gifts for nobody!

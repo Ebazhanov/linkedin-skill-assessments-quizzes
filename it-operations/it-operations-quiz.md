@@ -504,6 +504,29 @@ Idea behind the answer: let's go for a quick restart to see whether the problem 
 - [ ] from the computer's startup menu
 - [ ] on the network
 
+<not duplicate, pls do not delete, the explanation below>
+
+#### Q62. Tania was told to change a setting in the UEFI. How is it accessed?
+
+- [ ] by using the System Configuration Utility (MSCONFIG)
+- [ ] from the BIOS
+- [x] from the computer's startup menu
+- [ ] on the network
+
+```
+Q62. Tania was told to address an issue in the UEFI. How is it accessed?
+
+And the answer changed from
+"from the BIOS" to
+"from the computer's startup menu"
+
+The phrase "to adress an issues in UEFI" could be interpreted as to alter something about the UEFI. For example, a employee at Asus found that in some cases your not able to adjust how much voltage the CPU can get, that employees has now been tasked with addressing this issue.
+
+I changed the answer because you would not access the UEFI from the BIOS. Only in rare cases or manufacturing testing experimental stuff, does a system have both UEFI and BIOS.
+
+To get to either UEFI or BIOS on a system you usually go via the computer's boot menu or press a certain key to boot straight into that mode.
+```
+
 #### Q63. What is the technical reason why you must properly eject media?
 
 - [x] File I/O is buffered. If you remove the media before the buffer is cleared, files remain open and potentially corrupt.

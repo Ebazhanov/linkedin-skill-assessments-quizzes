@@ -34,14 +34,14 @@ url(r'shows/<slug:episode_name>/', views.episode_name)
 
 ```
 path('shows/<int:season>/<int:episode>/', views.episode_number),
-path(r'shows/<slug:episode_name>/', views.episode_name)
+path('shows/<slug:episode_name>/', views.episode_name)
 ```
 
 - [ ] <span>
 
 ```
 path('shows/<int:season>/<int:episode>', views.episode_number),
-path(r'shows/<slug:episode_name>/', views.episode_number)
+path('shows/<slug:episode_name>/', views.episode_number)
 ```
 
 - [ ] <span>
@@ -481,9 +481,7 @@ model=Planet
 
 #### Q49. What is the result of this template code?
 
-```
 {{"live long and prosper"|truncate:3}}
-```
 
 - [x] live long and ...
 - [ ] live long and
@@ -508,7 +506,7 @@ model=Planet
 - [ ] an NGINX web server
 - [ ] a NoSQL database
 - [ ] a larger hard drive
-- [ ] CORS middleware
+- [x] CORS middleware
 
 #### Q52. To expose an existing model via an API endpoint, what do you need to implement?\*\*
 
@@ -517,7 +515,7 @@ model=Planet
 - [ ] a query
 - [x] a serializer
 
-#### Q53. How would you stop Django from performing database table creation or deletion operations via migrations for a particular model?\*\*
+#### Q53. How would you stop Django from performing database table creation or deletion operations via migrations for a particular model?
 
 - [ ] Run the `migrate` command with `--exclude=[model_name]`.
 - [ ] Move the model definition from `models.py` into its own file.
@@ -658,3 +656,35 @@ model=Planet
 - [ ] 80
 - [ ] 8000
 - [ ] It would fail to start
+
+#### Q72. Which statement about Django apps is false?
+
+- [x] A Django app is the top-level container for a web application powered by Django.
+- [ ] Django apps are small libraries designed to represent a single aspect of a project.
+- [ ] Each Django app should do one thing, and one thing alone.
+- [ ] A Django project is made up of many apps.
+
+#### Q73. Which characters are illegal in template variable names?
+
+- [ ] underscores.
+- [ ] uppercase letters.
+- [x] punctuation marks .
+- [ ] numbers.
+
+[Reference](https://docs.djangoproject.com/en/4.1/ref/templates/language/#:~:text=Variable%20names%20consist%20of%20any,may%20not%20be%20a%20number.)
+
+#### Q74. Which is not a valid closing template tag?
+
+- [ ] `{% endautoescape %}`
+- [x] `{% endifempty %}`
+- [ ] `{% endcomment %}`
+- [ ] `{% endfilter %}`
+
+#### Q75. When would you need to use the reverse_lazy utility function instead of reverse?
+
+- [ ] when you want to provide a reverse URL as a default value for a parameter in a function's signature
+- [x] all of the these answers
+- [ ] when you want to provide a reverse URL as the url attribute of a class-based generic view
+- [ ] when you want to provide a URL to a decorator, such as the login_url argument for the permission_required() decorator
+
+[Reference](https://docs.djangoproject.com/en/4.1/ref/urlresolvers/#:~:text=reverse_lazy()&text=It%20is%20useful%20for%20when,a%20generic%20class%2Dbased%20view.)

@@ -984,14 +984,16 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] Google Cloud module
 
 1. [Reference](https://youtu.be/QdfStuj-MuA?t=86)
-2. [Reference](https://developer.android.com/guide/playcore/feature-delivery/on-demand)
+2. [Reference](https://developer.android.com/guidgite/playcore/feature-delivery/on-demand)
 
 #### Q65. Which approach is not recommended for providing a useful offline state in your app?
 
 - [ ] caching data
 - [ ] storing data locally
 - [ ] queuing outbound requests to action when connectivity has been lost
-- [ ] always notifying users that connectivity has been lost
+- [x] always notifying users that connectivity has been lost
+
+[Reference](https://developer.android.com/docs/quality-guidelines/build-for-billions/connectivity#network-offline)
 
 #### Q66. If you need your app code to inspect information about the current build, which class should you use?
 
@@ -1034,3 +1036,68 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [x] `Text`
 - [ ] `String-array`
 - [ ] `Plurals`
+
+#### Q70. What is not in the activity lifecycle?
+
+- [ ] `onPause()`
+- [ ] `onResume()`
+- [x] `onOpen()`
+- [ ] `onStart()`
+
+#### Q71. You want to allow users to take a picture in your app. Which code snippet is the correct approach?
+
+- [ ]
+
+```
+  fun showCamera(view: View) {
+      Log.i(TAG, "Show camera button pressed.")
+      if (ContextCompat.shouldShowRequestPermissionRationale(thisActivity,
+      Manifest.permission.CAMERA) {
+        showCameraPreview()
+      }
+       else {
+         requestPermissionLauncher.launch(Manifest.permission.CAMERA)
+       }
+   }
+```
+
+- [x]
+
+```
+  fun showCamera(view: View) {
+      Log.i(TAG, "Show camera button pressed.")
+      if (ContextCompat.checkSelfPermission(thisActivity,
+      Manifest.permission.CAMERA)
+      == PackageManager.PERMISSION_GRANTED) {
+        showCameraPreview()
+      }
+      else {
+         requestPermissionLauncher.launch(Manifest.permission.CAMERA)
+      }
+  }
+```
+
+- []
+
+```
+  fun showCamera(view: View) {
+      Log.i(TAG, "Show camera button pressed.")
+      showCameraPreview()
+  }
+```
+
+- [ ]
+
+```
+  fun showCamera(view: View) {
+      Log.i(TAG, "Show camera button pressed.")
+      if (ContextCompat.checkSelfPermission(thisActivity,
+      Manifest.permission.CAMERA)
+      != PackageManager.PERMISSION_GRANTED) {
+         showCameraPreview()
+       }
+       else {
+          requestPermissionLauncher.launch(Manifest.permission.CAMERA)
+       }
+  }
+```

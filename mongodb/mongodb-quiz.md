@@ -517,7 +517,7 @@ Note: count() works with find(...) but length works with distinct
 - [ ] db.size()
 - [ ] db.info()
 - [ ] db.memory()
-- [ ] db.stats()
+- [x] db.stats()
 
 #### Q74. How do you create a new MongoDB user?
 
@@ -588,3 +588,17 @@ Note: count() works with find(...) but length works with distinct
 - [ ] XML
 
 [MongoDB reference](https://www.mongodb.com/docs/manual/core/read-preference-tags/)
+
+#### Q82. When using the mongoimport command, how can you drop the database before importing?
+
+- [ ] Use the -d option.
+- [ ] Use the mongooverwrite command instead of mongoimport.
+- [ ] Use the -drop option.
+- [ ] Drop the database manually before importing.
+
+#### Q83. To import a CSV file into MongoDB, which command should you issue?
+
+- [ ] upload
+- [ ] mongorestore
+- [ ] mongoi
+- [x] mongoimport

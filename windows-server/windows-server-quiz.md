@@ -508,3 +508,17 @@
 - [x] site replication
 - [ ] pkysync.ps1
 - [ ] storage replication
+
+#### Q68. Suppose you want to deploy a new Windows Server. You wan an installation that has reduced attack surface and more efficient use of memory and disk space. Which installation option would you use?
+
+- [ ] Windoes Server Datacenter
+- [ ] Windows Server Minimal Server Interface
+- [ ] Windows Server (Desktop Experience)
+- [ ] Windoes Server Core
+
+#### Q69. A Windows Server machine configured to be a file server has which server role installed?
+
+- [ ] Print and Remote Services
+- [ ] Print and File Services
+- [x] Print and Document Services
+- [ ] Print and Network Services

@@ -315,7 +315,9 @@ FlowLog:
 #### Q40. You have 14 on-premise web servers, 4 database servers, 6 servers using GIS software, 3 file servers, and 4 development servers. What considerations should you take into account when migrating these servers into AWS?
 
 - [ ] AWS does not have a way to separate billing for compute costs, so you will need to design a way to split the budget between departments.
+- [ ] Software licensing costs are always included in services such as RDS, so factor the loss of use of your on-premise licenses in your budget.
 - [x] New AWS accounts are limited to 20 on-demand EC2 instances. Submit a request to increase your rate limits before starting a migration.
+- [ ] The only way to transfer large amounts of database data up to AWS is via S3, which can have a slow upload speed. Plan for this delay and cost in your migration plan.
 
 #### Q41. As your web application grows and your application monitoring needs become more complex, which additional log monitoring service should you NOT consider?
 
@@ -774,3 +776,35 @@ aws ecs create-service \
 - [ ] store for small duration
 - [x] cost
 - [ ] cross-region
+
+#### Q87. After installing AWS Amplify's CLI, what command allows the user to connect an AWS account with the local install?
+
+- [ ] amplify admin
+- [x] amplify configure
+- [ ] amplify connect
+- [ ] amplify init
+
+[Reference](https://docs.amplify.aws/cli/start/install/#option-2-follow-the-instructions)
+
+#### Q88. How do you limit access to an S3 bucket by source IP address?
+
+- [ ] Create the S3 bucket as a target for Application Load Balancer. Use Web Application Firewall (WAF) to create a rule to limit access to the S3 bucket by source IP.
+- [ ] You can not limit access to an S3 bucket by IP address.
+- [ ] In the preperties of the S3 bucket, add an access control option that limit access to the bucket by source IP address. Input the list of IPs into dialog.
+- [x] Create a bucket policy with a condition that limit access to a list of approved IP addresses. Attach this policy to the bucket.
+
+#### Q89. What is the benefits of using S3 Glacier for storage?
+
+- [ ] granual fetching
+- [ ] cross-region caching
+- [ ] speed of access
+- [x] cost
+
+#### Q90. Which of these AWS services can be related to Lambda via a trigger?
+
+- [ ] Cognito Sync Trigger, SNS
+- [ ] SNS, SQS
+- [x] all of these answers
+- [ ] SQS, DynamoDB
+
+[Reference](https://aws.amazon.com/blogs/architecture/understanding-the-different-ways-to-invoke-lambda-functions)

@@ -208,10 +208,10 @@
 
 ![Tree map](https://i.imgur.com/CJFjxxD.png)
 
-- [ ] cohort analysis
-- [ ] funnel visualization
-- [ ] user flow
-- [x] treemap
+- [ ] Cohort analysis
+- [ ] Funnel visualization
+- [ ] User flow
+- [x] Treemaps
 
 #### Q30. You already have Google Analytics set up on your website, but decide to add Google Tag Manager. What do you do with the existing Analytics tag?
 
@@ -587,3 +587,25 @@
 - [ ] master view
 - [ ] master page
 - [ ] default view
+
+#### Q83. What are table filters?
+
+- [ ] on dimensions only
+- [ ] permanent
+- [ ] on metrics only
+- [x] temporary
+
+#### Q84. What is a risk of using the Copare to Previous Period option?
+
+- [ ] it is not possible to cmpare previous periods with sampled data pulled ad hoc
+- [ ] The same amount of days selected for the Date Range will be used for the coparison
+- [x] If the review period is Wednesday to Thursday, the previous period may include weekends, which may skew the comparison
+- [ ] Both sets of data may appear on the same graph, which will skew your ability to analyze impact
+
+
+#### Q85. What report displays the exact word(s) a user typed into Google to trigger your google ad?
+
+- [ ] Acquisition > Campaign > Paid Keywords
+- [x] Acquisition > Google Ads > Search queries
+- [ ] Acquisition > Google Ads > Keywords
+- [ ] Acquisition > Campaign > Organic Keywords

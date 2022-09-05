@@ -784,6 +784,7 @@ printA();
 - [ ] `3 === '3'`
 
 [Reference booleans](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+[Reference 2 - booleans](https://www.scaler.com/topics/boolean-in-javascript/)
 
 #### Q60. Which of these is a valid variable name?
 
@@ -812,7 +813,7 @@ printA();
 
 [Reference Node interface](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
 
-#### Q63. Which statement is used to skip iteration of the loop?
+#### Q63. What statement can be used to skip an iteration in a loop?
 
 - [ ] `break`
 - [ ] `pass`
@@ -1171,7 +1172,7 @@ new logThis();
 
 [Reference strict in javascript classes](https://www.w3schools.com/js/js_strict.asp)
 
-#### Q90. What will this code print?
+#### Q90. What is the output of this code?
 
 ```js
 let rainForests = ['Amazon', 'Borneo', 'Cerrado', 'Congo'];
@@ -1233,9 +1234,11 @@ console.log(animals.pop()); //Prints jaguar
 ```
 
 - [ ] `animals.filter(e => e === "jaguar");`
-- [ ] `animals.reverse();`
+- [x] `animals.reverse();`
 - [ ] `animals.shift();`
 - [x] `animals.pop();`
+
+`Note: this question has two correct answers.`
 
 [Reference Javascript Array Reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
 
@@ -1846,3 +1849,26 @@ var flagDatabase = JSON.parse(flagsJSON);
 - [x] flagDatabase.countries[0].flag
 - [ ] flagDatabase[1].flag
 - [ ] flagsJSON.countries[0].flag
+
+#### Q131. Which snippet allows the acresOfRainForest variable to increase?
+
+```
+let conservation = true;
+let deforestation = false;
+let acresOfRainForest = 100;
+if (/* Snipped goes here */){
+    ++acresOfRainForest;
+}
+```
+
+- [x] conservation && !deforestation
+- [ ] !deforestation && !conservation
+- [ ] !conservation || deforestation
+- [ ] deforestation && conservation || deforestation
+
+#### Q132. Which of these evaluate to true?
+
+- [x] Boolean("false")
+- [ ] Boolean("")
+- [ ] Boolean(0)
+- [ ] Boolean(NaN)

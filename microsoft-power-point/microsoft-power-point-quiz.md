@@ -328,8 +328,10 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 - [ ] Select the picture icon in a SmartArt Picture Diagram.
 - [ ] Select the icon in a SmartArt Icon Diagram.
-- [ ] Select Insert Icon and place it on top of the SmartArt Diagram.
+- [x] Select Insert Icon and place it on top of the SmartArt Diagram.
 - [ ] Select a SmartArt shape and select Insert Icon.
+
+[reference](https://answers.microsoft.com/en-us/msoffice/forum/all/using-icons-in-smartart-vertical-picture-list/25230ba4-50b2-426a-88ce-caa0d4c71672)
 
 #### Q44. You are having trouble playing back a presentation smoothly. What should you do?
 
@@ -474,7 +476,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 - [ ] Edit the data to remove the data for the series or category.
 - [ ] Switch the rows and columns.
-- [ ] Use a filter so the data series or category does not display.
+- [x] Use a filter so the data series or category does not display.
 - [ ] Change the chart type.
 
 #### Q62. You have an object that needs to follow a specific motion path - including curves, straight lines, and loops - on the slide. Which animation gives the capability to draw this?
@@ -621,7 +623,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 #### Q80. How can you create a new presentation that includes prebuild layouts, colors, fonts, background styles, and content?
 
-- [ ] Use a theme.
+- [x] Use a theme.
 - [ ] Use a design.
 - [ ] Use a template.
 - [ ] Use a style.
@@ -629,7 +631,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 #### Q81. How can you reorder the levels of shapes in a SmartArt diagram?
 
 - [ ] Promote or demote the shapes.
-- [ ] Move the shapes up and down.
+- [x] Move the shapes up and down.
 - [ ] Change shapes from left to right.
 - [ ] Retype the text.
 
@@ -658,5 +660,33 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 - [ ] Create an outline in the outline view and rearrange slides.
 - [ ] Add a table of contents slide and link the remaining slides to it.
-- [ ] Add sections and move the slides into the appropriate sections.
+- [x] Add sections and move the slides into the appropriate sections.
 - [ ] Create custom shows and add the slides into the shows.
+
+#### Q86. How do you remove the background of an inserted impage?
+
+- [ ] Select the image and, on the Design tab, use the Format Background feature
+- [ ] Select the image and, on the Picture Format tab, use the Compress Picture feature
+- [x] Select the image and, on the Picture Format tab, click the Remove Background button
+- [ ] On the Drawing Tools Format tab, select Graphics Fill > Remove Background
+
+#### Q87. In a SmartArt graphic, how can you add text to the shapes other than directly in each shape?
+
+- [x] Open th Text Pane for the graphic and enter the text.
+- [ ] Create a bulleted list and then convert it to a shape.
+- [ ] Select all of the shapes and start typing.
+- [ ] You can only add text by typing directly into each shape.
+
+#### Q88. You want to add two images to a presentation, but one is a bit blurry and another is quite dark. What feature on the Picture Format tab can you use to adjust them?
+
+- [x] Corrections.
+- [ ] Picture Effects.
+- [ ] Trasparency.
+- [ ] Crop.
+
+#### Q89. A colleague has given you a presentation file, and you want to use one of the slides from that presentation in your own. How would you do this?
+
+- [ ] Use the Reuse Slides command.
+- [x] Use the Import slides command.
+- [ ] Use the Insert Slides command.
+- [ ] Use the Duplicate Slides command.

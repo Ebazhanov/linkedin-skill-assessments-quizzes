@@ -405,7 +405,7 @@ Explanation: _BigQuery offers a choice of two pricing models for runnig queries:
 - [ ] Create a VM instance and, in the web UI, select Allow HTTP traffic.
 - [x] Create a VM instance and, in the web Ul, select Deploy a container image to this instance.
 
-#### Q52. To configure a GCP Organization, which item should you create first?To configure a GCP Organization, which item should you create first?
+#### Q52. To configure a GCP Organization, which item should you create first?
 
 - [x] Admin account
 - [ ] Super Admin account

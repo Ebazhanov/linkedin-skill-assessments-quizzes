@@ -1,6 +1,6 @@
 ## CSS
 
-#### Q1. In the following example, which selector has the highest specificity ranking for selecting the anchor link element?
+#### Q1. Among these selectors which selector has the highest specificity ranking for selecting the anchor link element?
 
 ```css
 ul li a
@@ -1185,10 +1185,15 @@ D. border-top-radius: 10px;
 
 #### Q93. Which choice is not a valid transition?
 
-- [x] `transition: margin 1000ms ease-in-out;`
+- [ ] `transition: margin 1000ms ease-in-out;`
 - [ ] `transition: color 1.3s ease-in;`
-- [ ] `transition: position 400ms linear;`
+- [x] `transition: position 400ms linear;`
 - [ ] `transition: opacity 1s ease-in;`
+
+1. [MDN:](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
+2. [MDM:](https://developer.mozilla.org/en-US/docs/Web/CSS/position#formal_definition)
+3. [W3s](https://www.w3schools.com/cssref/pr_class_position.asp)
+4. [W3s](https://www.w3schools.com/cssref/css_animatable.asp)
 
 #### Q94. In this example, what color will the paragraphs be and why?
 
@@ -1666,7 +1671,7 @@ img {
 <span class="highlight">#BLM</span>
 ```
 
-- [ ] A
+- [x] A
 
 ```css
 .highlight {
@@ -1682,7 +1687,7 @@ img {
 }
 ```
 
-- [x] C
+- [ ] C
 
 ```css
 .highlight {
@@ -1697,6 +1702,8 @@ img {
   color: yellow;
 }
 ```
+
+[Highlight Background](<https://alvarotrigo.com/blog/css-highlight-text/#:~:text=Highlight%20text%20(CSS)%20is%20used,text%20is%20the%20most%20popular.>)
 
 #### Q116. To prevent a background image from tiling in any direction, which style property would you apply?
 
@@ -1926,10 +1933,18 @@ p + section {
 #### Q127. When these pseudo class selectors are applied to a link, what states will the styles be applied to?
 
 ```css
-  a:visited {...}
-  a:active {...}
-  a:hover {...}
-  a:focus {...}
+a:visited {
+  ...;
+}
+a:active {
+  ...;
+}
+a:hover {
+  ...;
+}
+a:focus {
+  ...;
+}
 ```
 
 - [ ] `:visited` styles are applied after the link has been opened.

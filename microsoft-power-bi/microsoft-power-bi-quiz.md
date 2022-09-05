@@ -274,10 +274,10 @@
 
 #### Q35. You want to combine several CSV files into a single data file after you connect a folder. What must be true about these CSV data files? (Select all that apply.)
 
-A. They must be stored in the same folder.
-B. They must have the same schema.
-C. They must have the same file type.
-D. They must have no duplicate data rows.
+    A. They must be stored in the same folder.
+    B. They must have the same schema.
+    C. They must have the same file type.
+    D. They must have no duplicate data rows.
 
 - [ ] B, C
 - [x] A, B, C
@@ -665,7 +665,7 @@ D. They must have no duplicate data rows.
 
 #### Q83. Your report is based on imported data from Excel. What is a valid reason to use a slicer rather than a report-level filter?
 
-    A. A slicer makes it easier for users to filter. 
+    A. A slicer makes it easier for users to filter.
     B. Users should be able to see both filtered and unfiltered values.
     C. Query speed is critical.
 
@@ -680,3 +680,10 @@ D. They must have no duplicate data rows.
 - [x] It will display the bar chart as it appears in the report now.
 - [ ] It will display an error message where the bar chart had been pinned.
 - [ ] It will display the bar chart as it appeared when it was pinned.
+
+#### Q85. In the Power Query Editor, how do you add an index column to an existing dataset?
+
+- [ ] On the Transform tab, click Add Column > Index.
+- [x] On the Add Column tab, click Add Index Column.
+- [ ] none of these answers
+- [ ] On the Home tab, click Add Index Column.

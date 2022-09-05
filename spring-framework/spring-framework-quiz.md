@@ -767,8 +767,15 @@ public Pojo getPojo(@PathVariable("id") String id) {
 
 - [ ] Constructor injection overrides setter injection.
 - [ ] Setter injection creates a new instance if any modification occurs.
-- [ ] You can't use constructor injection for partial injection.
+- [x] You can't use constructor injection for partial injection.
 - [ ] Constructor injection is more flexible than setter injection.
+
+[Explanation] There are many key differences between constructor injection and setter injection.
+
+Partial dependency: can be injected using setter injection but it is not possible by constructor. Suppose there are 3 properties in a class, having 3 arg constructor and setters methods. In such case, if you want to pass information for only one property, it is possible by setter method only.
+Overriding: Setter injection overrides the constructor injection. If we use both constructor and setter injection, IOC container will use the setter injection.
+Changes: We can easily change the value by setter injection. It doesn't create a new bean instance always like constructor. So setter injection is flexible than constructor injection.
+
 
 #### Q76. Which println would you remove to stop this code from throwing a null pointer exception?
 
@@ -827,7 +834,7 @@ class TestConfig {
 
 - [ ] @Component
 - [ ] @Service
-- [ ] @HtmlController
+- [x] @HtmlController
 - [ ] @Controller
 
 #### Q81. Which statement is true regarding loading and instantiation of Spring factories?
@@ -855,5 +862,5 @@ class TestConfig {
 
 - [ ] You declare the parameters you need in the advice signature rather than work with Object[] arrays.
 - [ ] You work with a collection of Objects that need to be explicitly casted.
-- [ ] You work with an array of a Generic type T[] instead of Object[] arrays.
+- [x] You work with an array of a Generic type T[] instead of Object[] arrays.
 - [ ] You are able to undo type erasure in the Object[] that is exposed

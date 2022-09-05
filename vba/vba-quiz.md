@@ -628,9 +628,9 @@ As Variant, Optional VarC as Long)
 
 #### Q43. What are the two principal kinds of procedure in VBA?
 
-- [ ] Function and EventFunction and Event
-- [ ] Function and ScopeFunction and Scope
-- [ ] Subroutine and EventSubroutine and Event
+- [x] Function and Event
+- [ ] Function and Scope
+- [ ] Subroutine and Event
 - [ ] Subroutine and Function
 
 #### Q44. Which code block compiles without error?
@@ -733,3 +733,48 @@ End Sub
 - [ ] bymeans of the _Interface_ keyword and the name of the interface.
 - [ ] The name of the interface is passed as a parameter.
 - [ ] The interface itself is part of the class module.
+
+#### Q52. Which part of the VBE can help you explore VBA syntax?
+
+- [ ] Locals windows
+- [ ] object browser
+- [x] project explorer
+- [ ] optional dialog
+
+#### Q53. This code is trying to establish a new collection consisting of employee names and numbers. Assoc is a class. What statement is missing from the code?
+
+```
+Dim Associates As Collection, Assoc As CAssoc, i As Byte
+For i = 1 To 200
+    Set Assoc = New CAssoc
+    Assoc.Name = Cells(i,1)
+    Assoc.Number = Cells(i,2)
+    Associates.Add Assoc
+Next i
+```
+
+- [x] `Set Associates = New Collection`
+- [ ] `Set Associates = Collection`
+- [ ] `Redim(Associates(Associates.Count+1))`
+- [ ] `Redim(Associates _ (Unbound(Associates)+1))`
+
+#### Q54. What is the standard term for a variable or value that is passed from one subroutine or function to another?
+
+- [ ] reference
+- [ ] element
+- [x] argument
+- [ ] attribute
+
+#### Q55. What is the standard term for a variable or value that is passed from one subroutine or function to another?
+
+- [ ] reference
+- [ ] element
+- [x] argument
+- [ ] attribute
+
+#### Q56. Where is the event procedure named Worksheet_Change found?
+
+- [ ] in any standard code module
+- [ ] in the worksheet's object module
+- [ ] in the Worksheet_Change class module
+- [x] in the workbook's code module

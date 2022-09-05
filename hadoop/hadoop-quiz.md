@@ -402,7 +402,7 @@
 #### Q57. Hadoop Common consists of which components?
 
 - [ ] Spark and YARN
-- [ ] HDFS and MapReduce
+- [x] HDFS and MapReduce
 - [ ] HDFS and S3
 - [ ] Spark and MapReduce
 
@@ -411,11 +411,11 @@
 - [ ] Cloudera
 - [ ] Microsoft
 - [ ] Google
-- [ ] Amazon
+- [x] Amazon
 
 #### Q59. To get information about Reducer job runs, which object should be added?
 
-- [ ] Reporter
+- [] Reporter
 - [ ] IntReadable
 - [ ] IntWritable
 - [ ] Writer
@@ -446,7 +446,7 @@ FROM customers c;
 
 - [ ] Comparator
 - [ ] Mapper
-- [ ] Combiner
+- [x] Combiner
 - [ ] Reducer
 
 #### Q63. You can optimize Hive queries using which method?
@@ -459,14 +459,14 @@ FROM customers c;
 #### Q64. If you are processing a single action on each input, what type of job should you create?
 
 - [ ] partition-only
-- [ ] map-only
+- [x] map-only
 - [ ] reduce-only
 - [ ] combine-only
 
 #### Q65. The simplest possible MapReduce job optimization is to perform which of these actions?
 
 - [ ] Add more master nodes.
-- [ ] Implement optimized InputSplits.
+- [x] Implement optimized InputSplits.
 - [ ] Add more DataNodes.
 - [ ] Implement a custom Mapper.
 
@@ -483,3 +483,17 @@ FROM customers c;
 - [ ] hadoop fs -copy <toDir> <fromDir>
 - [x] hadoop fs -copyFromLocal <fromDir> <toDir>
 - [ ] hadoop fs -copyFromLocal <toDir> <fromDir>
+
+#### Q68. delete a Hive **\_** table and you will delete the table **\_**.
+
+- [ ] managed; metadata
+- [ ] external; data and metadata
+- [ ] external; metadata
+- [ ] managed; data
+
+#### Q69. To see how Hive executed a JOIN operation, use the \_ statement and look for the \_ value.
+
+- [ ] EXPLAIN; JOIN Operator
+- [ ] QUERY; MAP JOIN Operator
+- [ ] EXPLAIN; MAP JOIN Operator
+- [ ] QUERY; JOIN Operator

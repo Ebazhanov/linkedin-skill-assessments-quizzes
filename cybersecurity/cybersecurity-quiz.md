@@ -3,8 +3,8 @@
 #### Q1. According to the shared responsibility model, which cloud computing model places the most responsibility on the cloud service provider (CSP)?
 
 - [ ] Hybrid Cloud
-- [ ] Software as a Service (SaaS)
-- [x] Platform as a Service (PaaS)
+- [x] Software as a Service (SaaS)
+- [ ] Platform as a Service (PaaS)
 - [ ] Infrastructure as a Service (IaaS)
 
 #### Q2. Which option removes the risk of multitenancy in cloud computing?
@@ -395,10 +395,10 @@ autopsy is for forensic analysis
 
 #### Q51. You have recovered a server that was compromised in a malware attack to its previous state. What is the final step in the incident response process?
 
-- [x] Eradication / Remediation
+- [ ] Eradication / Remediation
 - [ ] Certification
 - [ ] Reporting
-- [ ] Lessons Learned
+- [x] Lessons Learned
 
 #### Q52. Which encryption type uses a public and private key pair for encrypting and decrypting data?
 
@@ -698,7 +698,7 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 - [x] defense-in-depth
 - [ ] least privilege
 
-[Explanation:](https://en.wikipedia.org/wiki/Defense_in_depth_(computing))
+[Explanation:](<https://en.wikipedia.org/wiki/Defense_in_depth_(computing)>)
 
 #### Q91. Which option describes a core principle of DevSecOps?
 
@@ -724,28 +724,28 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 #### Q94. How can a data retention policy reduce your organization's legal liability?
 
 - [ ] by reducing DLP licensing costs
-- [ ] by ensuring that data is not retained beyond its necessary retention date
+- [x] by ensuring that data is not retained beyond its necessary retention date
 - [ ] by destroying data that may implicate company executives in dishonest behavior
 - [ ] by reducing cost associated with data storage and protection
 
 #### Q95. You believe a recent service outage due to a denial-of-service attack from a disgruntled inside source. What is the name for the malicious act this employee has committed?
 
 - [ ] espionage
-- [x] sabotage (not too much sure)
+- [x] sabotage
 - [ ] fraud
 - [ ] confidentiality breach
 
 #### Q96. Which option is a framework widely utilized by organizations in the development of security governance standards?
 
 - [ ] Software Capability Maturity Model (SW-CMM)
-- [x] Control Objectives for Information and Related Technologies (COBIT) (not too much sure)
+- [x] Control Objectives for Information and Related Technologies (COBIT)
 - [ ] The Open Group Architecture Framework (TOGAF)
 - [ ] Software Development Life Cycle (SDLC)
 
 #### Q97. There are connection-oriented and connectionless protocols in networking. What do web browsers use to ensure the integrity of the data it sends and receives?
 
 - [ ] UDP that is connection-oriented
-- [x] TCP that is connection-oriented (not too much sure)
+- [x] TCP that is connection-oriented
 - [ ] UDP that is connectionless
 - [ ] TCP that is connectionless
 
@@ -826,3 +826,19 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] 1
 - [ ] 3
 - [ ] 4
+
+#### Q108. Which option will not actively identify a secuirty incident?
+
+- [ ] Extended Detection and Response (XDR)
+- [x] Cloud Secuiry Posture Management (CSPM)
+- [ ] Secuirty Infromation Event Managment (SEIM)
+- [ ] Endpoint Detection and Response (EDR)
+
+#### Q109. A website is asking for a password and also sending an authentication code to your phone. What factors are used in this multi-factor authentication scenario?
+
+- [ ] what you have and what you do
+- [ ] what you know and what you are
+- [ ] what you have and what you know
+- [ ] what you do and what you know
+
+[Explanation:](https://www.investopedia.com/terms/t/twofactor-authentication-2fa.asp)

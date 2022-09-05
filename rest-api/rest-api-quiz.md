@@ -390,9 +390,9 @@
 - [ ] `parsing`
 - [ ] `browsing`
 
-#### Q53. Which HTTP response code describes a new resource as created successfully?
+#### Q53. To create a new resource, what HTTP response code should you receive?
 
-- [ ] `200`
+- [ ] `405`
 - [x] `201`
 - [ ] `204`
 - [ ] `202`
@@ -452,8 +452,8 @@
 #### Q60. When you get a 429 response code, what should you do next?
 
 - [ ] Check you JSON structure.
-- [ ] Check the API uptime status.
 - [x] Slow down your requests.
+- [ ] Check the API uptime status.
 - [ ] Check you API key.
 
 #### Q61. When exploring record sets, what is the best approach for pagination?
@@ -493,17 +493,7 @@
 - [ ] A,D,G,H
 - [ ] A,C,E,G
 
-
-#### Q65. To create a new resource, what HTTP response code should you receive? 
-
-- [ ] `405`
-- [x] `201`
-- [ ] `200`
-- [ ] `204`
-
-[Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
-
-#### Q66. API traffic that enters and leaves your organization is normally called _________?
+#### Q65. API traffic that enters and leaves your organization is normally called **\_**?
 
 - [ ] `east-west traffic`
 - [ ] `inbound traffic`

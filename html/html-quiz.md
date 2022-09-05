@@ -1381,7 +1381,7 @@ As Steve Krug once said, happy talk must die.
 - [x] A
       ![A](images/Q84-1.jpg)
 - [ ] B
-  ![B](images/Q84-2.jpg)
+      ![B](images/Q84-2.jpg)
 - [ ] C
       ![C](images/Q84-3.jpg)
 - [ ] D
@@ -1482,8 +1482,8 @@ As Steve Krug once said, happy talk must die.
 
 #### Q88. Which choice will produce the spanish word <i>canción</i>?
 
-- [ ] `<p lang="es">canción</p>`
-- [x] `<p lang="es">canci&oacuten</p>`
+- [x] `<p lang="es">canción</p>`
+- [ ] `<p lang="es">canci&oacuten</p>`
 - [ ] `<p lang="es">cancio'n</p>`
 - [ ] `<p lang="es">canci'on</p>`
 
@@ -1872,3 +1872,49 @@ As Steve Krug once said, happy talk must die.
 - [ ] There is no method set on the form.
 
 A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools.com/tags/att_fieldset_disabled.asp)
+
+#### Q108. Which description list is coded correctly?
+
+- [x] A
+
+```html
+<dl>
+  <dt>Server</dt>
+  <dd>Software used to server webpages, like Apache.</dd>
+  <dd>Hardware used to provide data to other computers.</dd>
+  <!--Other terms and descriptions -->
+</dl>
+```
+
+- [ ] B
+
+```html
+<dl>
+  <dd>Server</dd>
+  <dt>Software used to server webpages, like Apache.</dt>
+  <dt>Hardware used to provide data to other computers.</dt>
+  <!--Other terms and descriptions -->
+</dl>
+```
+
+- [ ] C
+
+```html
+<dt>
+    <dl>Server</dl>
+    <dd>Software used to server webpages, like Apache.</dd>
+    <dd>Hardware used to provide data to other computers.</dd>
+    <!--Other terms and descriptions -->
+</dt>
+```
+
+- [ ] D
+
+```html
+<dl>
+  <dt>Server</dt>
+  <dd>Software used to server webpages, like Apache.</dd>
+  <dt>Hardware used to provide data to other computers.</dt>
+  <!--Other terms and descriptions -->
+</dl>
+```

@@ -93,7 +93,7 @@
 - [ ] Robots.txt is configured to allow access
 - [ ] The product is out of stock
 
-#### Q11. All bylone dates for articles are suddenly no longer visible on a `website&#39;s` listing within Google Search. Assuming no changes have been made to the site programming or content, what is the most likely cause?
+#### Q11. All byline dates for articles are suddenly no longer visible on a `website&#39;s` listing within Google Search. Assuming no changes have been made to the site programming or content, what is the most likely cause?
 
 - [ ] The site has been delisted from Google Search
 - [ ] A Google News sitemap was not provided within 30 days of setting up a publisher center account
@@ -144,7 +144,7 @@
 
 #### Q18. Which choice represents the best header structure?
 
-- [ ]
+- [x]
 
 ```markdown
     H1: How to Bak Bagels
@@ -177,7 +177,7 @@
     H2: Reviews
 ```
 
-- [x]
+- [ ]
 
 ```markdown
     H1: How to Bak Bagels
@@ -549,3 +549,31 @@
 - [ ] Use the search engine's Remove URL tool.
 - [x] Use a robots.txt file.
 - [ ] Use structured data
+
+#### Q67. You are optimizing a site that receives a lot of user-submitted comments, many of which contain a promotional links. According to SEO best practices, how should you treat the comments?
+
+- [ ] Be sure links are using keywork-rich anchor tags
+- [ ] Disallow each link submitted
+- [x] Set links in comments to be Nofollow
+- [ ] Bold important keywords in comments
+
+#### Q68. What is not a primary component of a SERP snippet?
+
+- [ ] Description
+- [ ] Title
+- [x] Cache
+- [ ] URL
+
+#### Q69. A landing page with no internal or external links is an example of what?
+
+- [ ] Dynamic hierarchy
+- [ ] Doorway content
+- [x] Orphaned content
+- [ ] Flat Hierarchy
+
+#### Q70. Informational, navigational, commercial, transactional are four categories of what?
+
+- [x] keyword search intent
+- [ ] crawling
+- [ ] indexing
+- [ ] HTTP responses

@@ -18,6 +18,8 @@
 - [ ] ![C](images/Q1-C.jpg)
 - [ ] ![D](images/Q1-D.jpg)
 
+[Sample](https://jsfiddle.net/mrvahid/zohd8k2n/)
+
 #### Q2. Variables declared with the let keyword have what type of scope?
 
 - [ ] function scope
@@ -159,6 +161,8 @@ h1 {
 - [ ] `<main>`
 - [ ] `<nav>`
 
+[Source: ARIA landmarks in HTML5](https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks/HTML5.html)
+
 #### Q19. Which statement is true when an HTML tag has been deprecated?
 
 - [ ] It employs code that can be viewed only on a desktop computer
@@ -172,6 +176,8 @@ h1 {
 - [ ] Font sizes are expressed relative to the font size of the parent elements
 - [ ] Font sizes are relative to the base font size of the operating system.
 - [x] Font sizes are relative to the root em unit used in the HTML element.
+
+[Source: CSS units](https://www.w3schools.com/cssref/css_units.asp)
 
 #### Q21. Which HTML element represents either a scalar value within a known range OR a fractional value?
 
@@ -351,7 +357,7 @@ const user = {
 - [x] It will tell the browser that a connection will be made to another origin and to start getting ready as soon as possible.
 - [ ] It will tell the browser that a resource is needed, and that it should start getting fetched as soon as possible.
 
-[web.dev](https://web.dev/preconnect-and-dns-prefetch/)
+[Source: web.dev](https://web.dev/preconnect-and-dns-prefetch/)
 
 #### Q37. Which choice is _not_ a render blocking resource?
 
@@ -369,7 +375,7 @@ const user = {
 - [ ] the CSS specification
 - [ ] MDN property pages
 
-[Web platform tests site](https://web-platform-tests.org/)
+[Source: Web platform tests site](https://web-platform-tests.org/)
 
 #### Q39. You have a set of images that are slightly different sizes and aspect ratios. You don't mind if you crop off some of the image, but you want each image to completely fill a square box without being distorted. Which property and value would achieve this?
 
@@ -392,7 +398,7 @@ const user = {
 - [x] it forces the writing of valid HTML and CSS.
 - [ ] it fixes mistakes that make it difficult for JavaScript engines to perform optimizations.
 
-[MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
+[Source: MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
 
 #### Q42. In normal flow, some elements display as block elements default and others inline. which choice contains only block-level by default elements?\*\*
 
@@ -735,6 +741,8 @@ box {
 - [ ] the brightness of the color matching a brightness of 38%
 - [ ] the intensity of the color matching an intensity of 38%
 
+[Source: W3 Schools](<[https://www.w3schools.com/accessibility/accessibility_skip_links.php](https://www.w3schools.com/colors/colors_hsl.asp)>)
+
 #### Q74. What is a skiplink?
 
 - [ ] a replacement for inaccessible navigation
@@ -742,4 +750,69 @@ box {
 - [x] a link placed early in the <body> to allow the user to skip to the main content
 - [ ] a link to allow users to skip video that automatically plays on a website
 
-[Source: W3 Schools]("https://www.w3schools.com/accessibility/accessibility_skip_links.php")
+[Source: W3 Schools](https://www.w3schools.com/accessibility/accessibility_skip_links.php)
+
+#### Q75. On a page with many images, what would be the effect of adding loading="lazy" to the <img> tag?
+
+- [ ] it will speed up loading of the image when used with a JavaScript library
+- [ ] in supporting browsers, images will be higly compressed, therefore loading more quickly
+- [x] In supporting browsers, images will load only when they are in or near the visible viewport
+- [ ] In supporting browsers, images will not oad unless the user explicitly requests image loading
+
+#### Q76. What is GraphQL?
+
+- [ ] a React library for storing data
+- [ ] a Vue.js library for storing and manipulating data
+- [x] a query language for fetching data from APIs
+- [ ] a new database format designed to replace MySQL
+
+[Source: GraphQL official website](https://graphql.org/)
+
+#### Q77. Which choice will place a multiline text input field on the page?
+
+- [ ] `<multiline></multiline>`
+- [x] `<textarea></textarea>`
+- [ ] `<input type="multiline">`
+- [ ] `<input type="textarea">`
+
+#### Q78. Which browser is not based on Chromium?
+
+- [x] Firefox
+- [ ] Opera
+- [ ] Chrome
+- [ ] Edge
+
+#### Q79. In supporting browsers, what would be the effect of using font-display: swap, as in example?
+
+```
+@font-face {
+    font-family: Helvetica;
+    font-display: swap;
+}
+```
+
+- [ ] The browser will show no content until the web font loads.
+- [ ] The browser will ignore the web font.
+- [ ] The browser will ignore the web font in a situation where the user has indicated they are saving data.
+- [x] The browser will load a system font while waiting for the web font to load.
+
+#### Q80. What does the term "code splitting" mean with regard to JavasScript performance?
+
+- [ ] allowing the browser to ignore code that it believes will perform badly
+- [x] splitting code into various bundles so that decisions can be made on loading priority
+- [ ] removing unused code from JavaScript files
+- [ ] only using code that is supported by the newest browsers, and serving the site without JavaScript to old browsers
+
+#### Q81. The vertical-align property works only on certain elements, or on those that have a certain CSS applied. Which element by default will allow vertical-align to be used?
+
+- [ ] div
+- [x] td
+- [ ] figure
+- [ ] p
+  
+#### Q82. Which attribute is uses to add text to an image that will be displayed if the image does not load and read out to screen reader users?
+
+- [ ] title
+- [ ] data
+- [ ] src
+- [x] alt
