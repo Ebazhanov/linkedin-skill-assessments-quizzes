@@ -42,12 +42,12 @@
 - [ ] single bit
 - [ ] long
 
-#### Q7. What does redis use to sort the elements of a sorted set?
+#### Q7. What does Redis use to sort the elements of a sorted set?
 
-- [x] Scores.
-- [ ] Ids.
-- [ ] Values.
-- [ ] Keys.
+- [x] Scores
+- [ ] Ids
+- [ ] Values
+- [ ] Keys
 
 #### Q8. You need to change the shard key of an existing MongoDB collection. What do you do?
 
@@ -58,10 +58,10 @@
 
 #### Q9. Polyglot storage means using multiple types of what in the same application?
 
-- [ ] Security systems.
-- [ ] Database systems.
-- [x] Storage systems.
-- [ ] Query systems.
+- [ ] Security systems
+- [ ] Database systems
+- [x] Storage systems
+- [ ] Query systems
 
 #### Q10. You need to implement the simplest possible scalable, in-memory cache for your AWS application. Which service do you select?
 
@@ -360,9 +360,9 @@ MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 
 #### Q48. You need to create a scalable database to store and query JSON data. What do you use?
 
-- [ ] relational DB
-- [x] document DB
-- [ ] graph DB
-- [ ] ledger DB
+- [ ] a relational database
+- [x] a document database
+- [ ] a graph database
+- [ ] a ledger database
 
 [store and query JSON](https://aws.amazon.com/nosql/document/#:~:text=The%20document%20database%20defined,use%20in%20their%20application%20code.)
