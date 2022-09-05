@@ -194,7 +194,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 
 #### Q27. What is the key difference between an appointment and a meeting?
 
-- [x] A meeting includes other people
+- [x] A meeting includes other invitees or attendees
 - [ ] An appointment is automatically marked as busy while a meeting is marked as tentative
 - [ ] An appointment can be all day, while a meeting has specific start and end time
 - [ ] A meeting has specific start and end times
@@ -554,9 +554,9 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] The contents are moved to Deleted Items, and then the empty folder is moved to Deleted Items.
 - [x] The folder and its contents are moved to Deleted Items at the same time.
 
-#### Q76. You are organizing your Outlookfolders. For all emails that are sent directly to you, they should appear in your inbox. For all emails on which you are cc'd, they should be automatically hidden for later review. What is the best way to accomplish these goals?
+#### Q76. You are organizing your Outlook folders. For all emails that are sent directly to you, they should appear in your inbox. For all emails on which you are cc'd, they should be automatically hidden for later review. What is the best way to accomplish these goals?
 
-- [x] Create a Ccd folder, and then create a rule to move all messages where you are on the cc line to that folder.
+- [x] Create a Cc'd folder, and then create a rule to move all messages where you are on the cc line to that folder.
 - [ ] Create a rule to move all messages where you are in the Cc line to the Deleted items folder.
 - [ ] Turn on Focused Inbox.
 - [ ] Create a rule to apply conditional formatting to all messages where you are in the Cc line.
@@ -670,3 +670,12 @@ C. Some people have already accepted, so you must cancel this meeting and create
 - [ ] Outlook can display only pictures stored in JPG format.
 - [ ] Outlook automatically converts email to HTML.
 - [x] Pictures were prevented from being automatically downloaded. User may download if desired.
+
+#### Q92. You have a meeting from 2 to 3 p.m. next friday and have been invited to a second meeting in a different bulding starting at 3 p.m.. You want to attend both meetings but need time to get from the first to the second. What is an efficient way to respond to the organizer of the second meeting to allot 30 minutes of travel?
+
+- [ ] decline and propose new time
+- [x] tenctative and propose new time
+
+#### Q93. What happens when you try to add new account on Outlook?
+
+- [x] transmission
