@@ -628,3 +628,10 @@ console.log(person);
 - [x] util.types.isDate(value)
 
 [Reference](https://nodejs.org/api/dns.html#dnslookuphostname-options-callback)
+
+#### Q76. Wich choice is a core module in Node?
+
+- [x] crypto
+- [ ] chalk
+- [ ] webpack
+- [ ] request
