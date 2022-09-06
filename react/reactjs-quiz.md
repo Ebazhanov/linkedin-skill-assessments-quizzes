@@ -1144,7 +1144,7 @@ add();
 
 ![image](https://user-images.githubusercontent.com/62549240/160531605-bf8790d5-5eb9-4291-a9bd-4232f2fd7b6e.png)
 
-#### Q99. Why might you use a React.createRef?
+#### Q99. Why might you use a React.ref?
 
 - [ ] to refer to another JS file
 - [ ] to bind the function
@@ -1153,7 +1153,7 @@ add();
 
 [Reference](https://reactjs.org/docs/refs-and-the-dom.html)
 
-#### Q100. What assignment pattern is being used in this code?
+#### Q100. What pattern is being used in this code block?
 
 ```javascript
 const { tree, lake } = nature;
