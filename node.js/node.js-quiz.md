@@ -588,3 +588,10 @@ console.log(person);
 - [ ] ECMAScript modules can be used natively in Node with the .mjs file extension
 - [ ] ECMAScript modules can be used natively in Node only by using a compiler like Babel.
 - [ ] ECMAScript modules can be used natively in Node only by using a bundle like webpack.
+
+#### Q72. Wich choice is a core module in Node?
+
+- [x] crypto
+- [ ] chalk
+- [ ] webpack
+- [ ] request
