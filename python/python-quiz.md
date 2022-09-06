@@ -1429,7 +1429,7 @@ for letter in my_dictionary.values():
 - [ ] `letters = [letter for (letter, number) in my_dictionary.items()]`
 - [ ] `letters4 = list(my_dictionary)`
 
-**Explanation:** The first one (the correct option) returns the list of the values (the letters). The rest of the options return a list of the keys.
+**Explanation:** The first one (the correct option) returns the list of the values (the numbers). The rest of the options return a list of the keys.
 
 #### Q105. When an array is large, NumPy will not print the entire array when given the built-in `print` function. What function can you use within NumPy to force it to print the entire array?
 
