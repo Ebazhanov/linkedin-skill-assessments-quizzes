@@ -404,6 +404,8 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [x] string_decoder
 - [ ] string_buffer
 
+[Refrence](https://nodejs.org/api/string_decoder.html)
+
 #### Q50. Which global object acts like a bridge between a Node script and the host operating system?
 
 - [ ] v8
