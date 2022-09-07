@@ -518,7 +518,7 @@ The regex must not be quoted to work properly.
 #### Q43. How would you find the last copy command run in your history?
 
 - [ ] history | find cp
-- [x] **istory | grep cp**
+- [x] history | grep cp**
 - [ ] grep cp history
 - [ ] cp history
 
