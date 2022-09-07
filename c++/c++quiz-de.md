@@ -6,7 +6,7 @@
 bool is_even(int);
 ```
 
-- [x] A
+- [ ] A
 
 ```cpp
 bool is_even(float f);
@@ -43,7 +43,7 @@ std::printf("c is %d and d is %c",c,d);
 
 - [ ] c is d and d is c
 - [ ] c is A and d is 3
-- [x] c is 3 and d is A
+- [ ] c is 3 and d is A
 - [ ] c is c and d is d
 
 #### Q3. Welcher ternäre Operator entspricht diesem Codestück?
@@ -58,7 +58,7 @@ else
 - [ ] `y=a?b:x;`
 - [ ] `y=if(x?a:b);`
 - [ ] `y=(x&a)?a:(x&b)?b:0;`
-- [x] `y=x?a:b;`
+- [ ] `y=x?a:b;`
 
 #### Q4. Warum ist diese Codezeile schlechter Programmierstil?
 
@@ -86,7 +86,7 @@ union {
 } u1;
 ```
 
-- [x] 4 Bytes
+- [ ] 4 Bytes
 - [ ] 7 Bytes
 - [ ] 8 Bytes
 - [ ] 2 Bytes
@@ -115,7 +115,7 @@ int main(){
 
 - [ ] void\* operator conditional(const bool cond, const void& iftrue, const void& iffalse);
 - [ ] void& operator ?:(const bool cond, const void& iftrue, const void& iffalse);
-- [x] Der ternäre Operator kann nicht überladen werden.
+- [ ] Der ternäre Operator kann nicht überladen werden.
 - [ ] void* operator ?:(const bool cond, const void* iftrue, const void\* iffalse);
 
 #### Q9. Welche Option zeigt den Inhalt der Vektoren, auf die v1 und v2 zeigen, nach der Ausführung dieses Codes?
@@ -129,7 +129,7 @@ v2->push_back(5);
 ```
 
 - [ ] `*v1:{1,2,3,4}; *v2:{5};`
-- [x] `*v1:{1,2,3,4,5}; *v2:{1,2,3,4,5};`
+- [ ] `*v1:{1,2,3,4,5}; *v2:{1,2,3,4,5};`
 - [ ] Error
 - [ ] `*v1:{1,2,3,4}; *v2:{1,2,3,5};`
 
@@ -150,12 +150,12 @@ int main(){
 
 - [ ] `grades.count();`
 - [ ] `my_array->count();`
-- [x] `grades->count();`
+- [ ] `grades->count();`
 - [ ] `my_array.count();`
 
 #### Q11. Was ist der Zweck eines Konstrukteurs?
 
-- [x] Damit kann beim Programmieren der nötige Code geschrieben werden, um die vom Objekt belegten Ressourcen freizugeben, bevor das Objekt selbst gelöscht wird.
+- [ ] Damit kann beim Programmieren der nötige Code geschrieben werden, um die vom Objekt belegten Ressourcen freizugeben, bevor das Objekt selbst gelöscht wird.
 - [ ] Er löscht ein Object. Ein Beispiel eines Zerstörers ist die Funktion `delete()`
 - [ ] Er beendet ein Programm. Das kann mit einem regulären Funktionsaufruf oder mit einer Ausnahme erreichen werden.
 - [ ] Es gibt keine Zerstörer in C++.
@@ -166,7 +166,7 @@ int main(){
 my_class *my_object = new my_class();
 ```
 
-- [x] `delete(my_object);`
+- [ ] `delete(my_object);`
 - [ ] `free(my_object);`
 - [ ] Der Speicherbereiniger wird das Object irgendwann zerstören.
 - [ ] Das Object wird zerstört, wenn der Gültigkeitsbereich verlassen wird.
@@ -187,7 +187,7 @@ void *ptr;
 - [ ] Sie ist ein mit NULL initialisierter Zeiger.
 - [ ] Sie ist ein Zeiger auf eine Void-Funktion.
 - [ ] Diese Deklaration verursacht einen Kompilierfehler, weil Zeiger immer einen Typ angeben müssen.
-- [x] Da sie ein Zeiger auf einen Wert ohne spezifischen Typ ist, kann sie per Typumwandlung als Zeiger auf jeden Typ genutzt werden.
+- [ ] Da sie ein Zeiger auf einen Wert ohne spezifischen Typ ist, kann sie per Typumwandlung als Zeiger auf jeden Typ genutzt werden.
 
 #### Q15. Wie kann C++-Code eine C-Funktion aufrufen?
 
