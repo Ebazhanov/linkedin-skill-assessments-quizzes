@@ -362,6 +362,8 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] const { readFilePromises: readFile } = require(fs)
 - [ ] const { readFile } = require(promises)
 
+[Reference](https://nodejs.org/dist/latest-v10.x/docs/api/fs.html#fs_fs_promises_api)
+
 #### Q44. According to the rules of semantic versioning, what does a release incrementing the third number in an npm version string communicate to users about the release changes?
 
 - [ ] Changes are not backwards compatible.
