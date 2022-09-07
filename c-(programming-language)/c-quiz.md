@@ -925,3 +925,10 @@ int fl(int a, int b) { return(a>b?a:b); }
 - [ ] dealloc()
 - [ ] release()
 - [ ] dealloc()
+
+#### Q62. Which option is a valid function name?
+
+- [x] draw_star()
+- [ ] 5times()
+- [ ] upper-limit()
+- [ ] auto()
