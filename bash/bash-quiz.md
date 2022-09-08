@@ -327,6 +327,7 @@ echo ${!fname}
 - [ ] `C` ![C](images/Q30/D.png)
 - [x] **`D`** ![D](images/Q30/C.png)
 
+
 Here's a text based version of Q.30:
 
 ```bash
@@ -717,7 +718,7 @@ textfile1.txt
 textfile2.txt
 ```
 
-- [ ] `c : All of this files will be deleted`
+- [ ] ```c : All of this files will be deleted```
 
 - [x] **d:**
 

@@ -807,4 +807,18 @@ aws ecs create-service \
 - [x] all of these answers
 - [ ] SQS, DynamoDB
 
+#### Q91. When creating a RESTful API into a DynamoDB table, which is the right service to facilitate this?
+
+- [ ] API Sync
+- [x] AppSync
+- [ ] CloudAPI
+- [ ] API Gateway
+
+#### Q92. Which AWS service is valid data source for AppSync?
+
+- [x] DynamoDB table
+- [ ] ElastiCache
+- [ ] none of these answers
+- [ ] Step Functions
+
 [Reference](https://aws.amazon.com/blogs/architecture/understanding-the-different-ways-to-invoke-lambda-functions)
