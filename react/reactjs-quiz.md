@@ -235,6 +235,8 @@ function Dish(props) {
 - [x] when you want a default implementation of `shouldComponentUpdate()`
 - [ ] when you do not want your component to have state
 
+[Reference](https://reactjs.org/docs/react-api.html#reactpurecomponent)
+
 #### Q23. Why is it important to avoid copying the values of props into a component's state where possible?
 
 - [ ] because you should never mutate state
@@ -660,6 +662,8 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
   <About path="/:id" />
 </Route>
 ```
+
+[Reference](https://reactrouter.com/en/main/components/route)
 
 #### Q60. Which class-based component is equivalent to this function component?
 
