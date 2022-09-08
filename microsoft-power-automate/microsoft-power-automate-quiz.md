@@ -187,9 +187,10 @@
 - [ ] Yes. Number 2 will prompt the user to enter the email address to the recipient before it is sent
 
 #### Q25. You are automating this suggestion review process: When a new suggestion is added to an SharePoint list, a staffer emails every member of the review committee, asking them to approve the suggestion. The staffer updates SharePoint as replies are received. A suggestion is approved or rejected when at least four of the seven committee members have approved or rejected it. In addition to Start and Wait for an approval, which components will be needed for your flow?
+
 A. Send an email
 B. Parallel branch
-C. Delay until 
+C. Delay until
 D. Approvals - start an approval
 E. SharePoint - when an item is created or modified
 
@@ -199,14 +200,15 @@ E. SharePoint - when an item is created or modified
 - [x] A,B,C,D
 
 #### Q26. Whit whom can you share flows?
+
 - [ ] people on the same Office 365 team as you
 - [ ] fellow SharePoint site collection memebers
 - [x] anyone in your organization and beyond
 - [ ] people in your department
 
 #### Q27. What control would you use to stop a flow?
+
 - [ ] Do until
 - [x] Terminate
 - [ ] Scope
 - [ ] Switch
-

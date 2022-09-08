@@ -578,4 +578,3 @@
 - [ ] Brush
 - [ ] Quick Selection
 - [x] Refine Edge
-

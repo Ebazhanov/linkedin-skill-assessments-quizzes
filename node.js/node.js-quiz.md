@@ -567,7 +567,6 @@ console.log(person);
 
 [Refrence](https://nodejs.dev/en/learn/the-v8-javascript-engine/)
 
-
 #### Q68. How does it affect the performance of a web application when an execution path contains a CPU-heavy operation, such as calculating a long Fibonacci sequence?
 
 - [ ] As Node.js is asynchronous, this is handled by a libuv and a threadpool. The performance will not notably degrade.
@@ -583,7 +582,6 @@ console.log(person);
 - [ ] Express.js
 
 [Refrence](https://nodejs.dev/en/learn/the-v8-javascript-engine/)
-
 
 #### Q70. What is the importance of having good practices around status code in your response?
 

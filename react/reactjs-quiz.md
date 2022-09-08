@@ -78,6 +78,8 @@ const topics = ['cooking', 'art', 'history'];
 - [ ] React Router
 - [x] React Context
 
+[Reference](https://reactjs.org/docs/context.html)
+
 #### Q9. What should the console read when the following code is run?
 
 ```javascript
@@ -310,6 +312,8 @@ const Heading = () => {
 - [x] componentDidMount
 - [ ] componentWillReceiveProps
 - [ ] componentWillMount
+
+[Reference](https://reactjs.org/docs/react-component.html#componentdidmount)
 
 #### Q33. React components are composed to create a user interface. How are components composed?
 
@@ -746,6 +750,8 @@ useEffect(() => {
 - [ ] render
 - [ ] componentDidUpdate
 
+[Reference](https://reactjs.org/docs/react-component.html#componentdidmount)
+
 #### Q65. What is the name of the base component of this component?
 
 ```javascript
@@ -1068,6 +1074,8 @@ function Dish() {
 - [ ] before the component is added to the DOM
 - [ ] right after the component is updated
 - [ ] right after an API call
+
+[Reference](https://reactjs.org/docs/react-component.html#componentdidmount)
 
 #### Q93. What might you use webpack for?
 
