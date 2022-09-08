@@ -327,7 +327,6 @@ echo ${!fname}
 - [ ] `C` ![C](images/Q30/D.png)
 - [x] **`D`** ![D](images/Q30/C.png)
 
-
 Here's a text based version of Q.30:
 
 ```bash
@@ -518,7 +517,7 @@ The regex must not be quoted to work properly.
 #### Q43. How would you find the last copy command run in your history?
 
 - [ ] history | find cp
-- [x] history | grep cp**
+- [x] history | grep cp\*\*
 - [ ] grep cp history
 - [ ] cp history
 
@@ -718,7 +717,7 @@ textfile1.txt
 textfile2.txt
 ```
 
-- [ ] ```c : All of this files will be deleted```
+- [ ] `c : All of this files will be deleted`
 
 - [x] **d:**
 

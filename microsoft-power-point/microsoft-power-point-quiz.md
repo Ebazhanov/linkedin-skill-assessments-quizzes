@@ -691,7 +691,6 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] Use the Insert Slides command.
 - [ ] Use the Duplicate Slides command.
 
-
 #### Q90. Which type of shape allows you to add text that can be moved around, formatted with styles and effects, or grouped with other objects?
 
 - [ ] Screenshot

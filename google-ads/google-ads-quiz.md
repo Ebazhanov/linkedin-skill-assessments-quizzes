@@ -223,7 +223,8 @@
 - [x] placements
 - [ ] landing pages
 - [ ] displays
-![source](https://support.google.com/google-ads/answer/2470108?hl=en)
+
+[source](https://support.google.com/google-ads/answer/2470108?hl=en)
 
 #### Q33. Which setting lets you monitor how certain criteria perform with your ads without limiting reach?
 
@@ -231,7 +232,8 @@
 - [ ] conversion value
 - [ ] targeting
 - [x] observation
-![source](https://support.google.com/google-ads/answer/7365594?hl=en)
+
+[source](https://support.google.com/google-ads/answer/7365594?hl=en)
 
 #### Q34. Tory manages marketing for a hotel franchise with a thousand locations worldwide. Each hotel location has its own landing page. If Tory wanted to quickly generate search ads for every location, which ad type would be most beneficial?
 
@@ -260,7 +262,8 @@
 - [ ] the total number of users who clicked on your advertisement
 - [x] the number of times a single user will see your advertisement
 - [ ] the number of visitors who completed the checkout process
-![source google](https://support.google.com/google-ads/answer/59384?hl=en)
+
+[source google](https://support.google.com/google-ads/answer/59384?hl=en)
 
 #### Q38. Which metric does not help in understanding your ROI?
 
@@ -268,7 +271,8 @@
 - [x] frequency
 - [ ] revenue
 - [ ] cost per conversion
-![Return on investment (ROI) Google ads](https://support.google.com/google-ads/answer/14090?hl=en)
+
+[Return on investment (ROI) Google ads](https://support.google.com/google-ads/answer/14090?hl=en)
 
 #### Q39. Which choice represents the hierarchy of search campaigns in Google Ads?
 
@@ -358,4 +362,4 @@
 - [x] Ad Preview and Diagnosis
 - [ ] Keyword Planner
 
-![Preview and Diagnosis Tool](https://support.google.com/google-ads/answer/1704364?hl=en)
+[Preview and Diagnosis Tool](https://support.google.com/google-ads/answer/1704364?hl=en)

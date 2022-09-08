@@ -843,10 +843,9 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 [Explanation:](https://www.investopedia.com/terms/t/twofactor-authentication-2fa.asp)
 
-#### Q110. Which option is a list of publicly dsclosed information security defects? 
+#### Q110. Which option is a list of publicly dsclosed information security defects?
 
 - [ ] DBIR
 - [x] CVE
 - [ ] CWE
 - [ ] CERT
-
