@@ -260,6 +260,8 @@ function Dish(props) {
 - [ ] weirdSetInnerHTML
 - [ ] strangeHTML
 
+[Reference](https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml)
+
 #### Q26. Which of these terms commonly describe React applications?
 
 - [x] declarative
