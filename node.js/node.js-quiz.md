@@ -181,21 +181,21 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 - [ ] `__flder`
 - [x] `__filename`
 
-#### 21. If the child_process module methods are in scope, what is a current way to execute the command ps -ef using a child process?
+#### Q21. If the child_process module methods are in scope, what is a current way to execute the command ps -ef using a child process?
 
 - [ ] spawn("ps -ef")
 - [x] exec("ps -ef")
 - [ ] exec("ps", "-ef")
 - [ ] fork("ps -ef")
 
-#### Q22.Which console method can be used to print the stack trace to the point of its execution?
+#### Q22. Which console method can be used to print the stack trace to the point of its execution?
 
 - [ ] stack
 - [x] trace
 - [ ] debug
 - [ ] print
 
-#### Q23.When you run JavaScript in a Node.js application, which of the following elements in a Node.js stack actually executes that JavaScript?
+#### Q23. When you run JavaScript in a Node.js application, which of the following elements in a Node.js stack actually executes that JavaScript?
 
 - [ ] the libuv library
 - [ ] the c-ares library
@@ -218,21 +218,21 @@ server.listen(port, hostname, () => { console.log(`server running at http://${ho
 - [ ] server running at http://localhost:4000/
 - [x] server running at http://127.0.0.1:3000/
 
-#### Q25.What is the purpose of the path module?
+#### Q25. What is the purpose of the path module?
 
 - [x] to provide utilities to play with file and directory paths
 - [ ] to provide utilities to add and remove files
 - [ ] It is a retiring module.
 - [ ] to provide utilities to test files
 
-#### Q26.How do you make an HTTP server object active and listen to requests on certain ports?
+#### Q26. How do you make an HTTP server object active and listen to requests on certain ports?
 
 - [ ] server. start
 - [ ] server.activate
 - [x] server.listen
 - [ ] server. run
 
-#### Q27.What does the code shown below do?
+#### Q27. What does the code shown below do?
 
 ```
 const fs = require('fs'); const os = require('os');
@@ -246,21 +246,21 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [ ] console logs system information
 - [ ] creates a file named data and append numbers
 
-#### Q28.How do you start a Node application, if the entry file is indexjs?
+#### Q28. How do you start a Node application, if the entry file is indexjs?
 
 - [ ] nodemon start
 - [ ] start index.js
 - [x] node index.js
 - [ ] node start
 
-#### Q29.What is the purpose of the file system (fs) module?
+#### Q29. What is the purpose of the file system (fs) module?
 
 - [ ] to provide methods to work with requests and responses
 - [x] to provide methods to work with files
 - [ ] to provide methods to work with databases
 - [ ] to find new file systems
 
-#### Q30.What is the Node LTS version?
+#### Q30. What is the Node LTS version?
 
 - [ ] It is the current unstable version and is to be avoided.
 - [ ] It is the version that will be retired soon.
@@ -292,10 +292,12 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 
 #### Q34. Which special object is an instance of EventEmitter?Which special object is an instance of null?
 
-- [ ] process
+- [x] process
 - [ ] Buffer
 - [ ] root
-- [x] require
+- [ ] require
+
+[Reference](https://nodejs.org/docs/latest-v16.x/api/process.html)
 
 #### Q35. What is the command to get a list of available commands for Node.js?What is the command to get a list of available commands for Node.js?
 
@@ -402,6 +404,8 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [x] string_decoder
 - [ ] string_buffer
 
+[Refrence](https://nodejs.org/api/string_decoder.html)
+
 #### Q50. Which global object acts like a bridge between a Node script and the host operating system?
 
 - [ ] v8
@@ -428,7 +432,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [x] Event names must be camelCase strings.
 - [ ] The emit method allows a arbitrary set of arguments to be passed to the listener functions.
 - [ ] Any values returned by the listeners for an emitted events are ignored.
-- [ ] When an event emitter objeect emits an event, all of the functions attached to that specific event are called synchronously.
+- [ ] When an event emitter object emits an event, all of the functions attached to that specific event are called synchronously.
 
 #### Q53. Which core module in Node can you use to compile and run JavaScript code in a sandbox environment?
 
@@ -561,12 +565,14 @@ console.log(person);
 - [ ] PHP
 - [ ] c
 
+[Refrence](https://nodejs.dev/en/learn/the-v8-javascript-engine/)
+
 #### Q68. How does it affect the performance of a web application when an execution path contains a CPU-heavy operation, such as calculating a long Fibonacci sequence?
 
 - [ ] As Node.js is asynchronous, this is handled by a libuv and a threadpool. The performance will not notably degrade.
 - [ ] As the application code runs asynchronously within a single thread, the execution will block, accepting no more requests until the operation is completed.
 - [ ] As Node.js is asynchronous, this is handled by a threadpool and the performance will not notably degrade.
-- [x] The current thread will block until the executon is completed and the operating system will spawn new threads to handle incoming requests. This can exhaust the number of allowed threads (255) and degrade performance over time.
+- [x] The current thread will block until the execution is completed and the operating system will spawn new threads to handle incoming requests. This can exhaust the number of allowed threads (255) and degrade performance over time.
 
 #### Q69. What is used for parsing and running Javascript in Node.js?
 
@@ -575,12 +581,14 @@ console.log(person);
 - [x] Google V8
 - [ ] Express.js
 
+[Refrence](https://nodejs.dev/en/learn/the-v8-javascript-engine/)
+
 #### Q70. What is the importance of having good practices around status code in your response?
 
-- [ ] It indicates success or failure to the client and helps with testing.
+- [x] It indicates success or failure to the client and helps with testing.
 - [ ] It is not important to have good practices regarding status codes
 - [ ] Response codes are the only way you can tell what is happening on the server.
-- [x] It contains information about the current performance of the server.
+- [ ] It contains information about the current performance of the server.
 
 #### Q71. How can ECMAScript modules be used natively in Node?
 
@@ -596,4 +604,27 @@ console.log(person);
 - [ ] They are a Node command to validate stability of your code.
 - [ ] They tell if a feature is LTS (Long Term Supported).
 
+#### Q73. Which choice is a core module in Node?
+
+- [x] crypto
+- [ ] chalk
+- [ ] webpack
+- [ ] request
+
 [Reference](https://nodejs.org/api/documentation.html)
+
+#### Q74. Which DNS module method uses the underlying OS facilities and does not necessarily perform any network communication?
+
+- [ ] resolve
+- [ ] reverse
+- [x] lookup
+- [ ] resolve4
+
+#### Q75. What is one way to check that a value is a date object in Node?
+
+- [ ] console.isDate(value)
+- [ ] util.date(value)
+- [ ] assert.isDate(value)
+- [x] util.types.isDate(value)
+
+[Reference](https://nodejs.org/api/dns.html#dnslookuphostname-options-callback)

@@ -219,7 +219,7 @@
 - [ ] Actually, you cannot use filters on video files.
 - [ ] Convert the video file to an animated gif.
 
-#### Q28. Which file format does **not** support layers?
+#### Q28. Which file format does not support layers?
 
 - [x] Photoshop EPS
 - [ ] Photoshop PDF
@@ -293,7 +293,7 @@
 - [ ] View > Show > Selection Edges
 - [x] View > Show > Pixel Grid
 
-#### Q38. To save a panel layout arrangement, what should you create?
+#### Q38. what should you create to save a panel layout arrangement?
 
 - [ ] A tool set
 - [ ] A layer set
@@ -454,3 +454,127 @@
 - [ ] Merge
 
 [Answer found at:](https://helpx.adobe.com/photoshop/using/channel-calculations.html)
+
+#### Q58. How do you nondestructively crop an image without permanently discarding pixels?
+
+- [ ] Make a selection and click **Image > Crop**.
+- [x] Clear the **Deleted Cropped Pixels** check box.
+- [ ] Click **Image > Trim** and select **Transparent Pixels**.
+- [ ] Select the **Delete Cropped Pixels** check box.
+
+#### Q59. Which step is the most effective at making one image show through another to emulate a traditional double-exposure from film photography effect?
+
+- [ ] Apply the Multiply blend mode to the bottom image.
+- [x] Apply the Screen blend mode to the top image.
+- [ ] Apply the Hue blend mode to the top imagee.
+- [ ] Apply the Saturation blend mode to the top image.
+
+#### Q60. Which special layer type applies nondestructive color corrections to all of the layers below it?
+
+- [ ] layer company
+- [ ] fill layer
+- [x] adjustment Layer
+- [ ] layer Mask
+
+#### Q61. Why can you nondestructively scale a smart object?
+
+- [ ] It converts the image from a raster image to a vector infographics
+- [ ] It uses Adobe Sensei technology to reconstruct pixels that have been interpolated.
+- [x] It references an image in a separate file that retains its resolutions.
+- [ ] It uses a layer mask for nondestructive editing.
+
+#### Q62. Which **Select and Mask** workspace tool allows you to select fine hairs?
+
+- [ ] Brush
+- [ ] Object Selection
+- [x] Refine Edge
+- [ ] Quick selection
+
+#### Q63. What is the difference between the Lasso tool and the Polygonal Lasso tool?
+
+- [ ] You can draw a free-form selection with the Lasso tool, but you must make Bezier curves with the Polygonal Lasso tool.
+- [x] The Lasso tool makes free-form selections. The Polygonal Lasso tool makes a selection with a series of connected line segments.
+- [ ] You can draw a free-form selection with the Lasso tool. You click and drag with the Polygonal Lasso tool to create Rectangular Marquee selections.
+- [ ] The Lass tool can select anything, including enclosed portions of raster images or shapes, but the Polygonal Lasso tool can select only shapes.
+
+#### Q64. What is the outcome if you make a selection and then add an adjustment layer?
+
+- [ ] The adjustment layer contains a vector mask that applies the adjustment only to the unselected pixels.
+- [ ] The adjustment layer contains a layer mask that applies the adjustment only to the selected pixels.
+- [ ] The adjustment layer contains a layer mask that applies the adjustment only to the unselected pixels.
+- [ ] The adjustment layer contains a vector mask that applies the adjustment only to the selected pixels.
+
+#### Q65. Which filter is useful for removing lens distortion from JPEG photos based on lens-specific settings?
+
+- [ ] Adaptive Wide Angle
+- [ ] Lens Blur
+- [x] Lens Correction
+- [ ] Spherize
+
+#### Q66. What image mode do professional offset printers usually use?
+
+- [ ] RGB
+- [ ] Bitmap
+- [x] CMYK
+- [ ] Lab Color
+
+#### Q67. How can you remove a single ruler guide while leaving others in place?
+
+- [ ] Click the guide with the Selection tool, then select **Edit > Clear**.
+- [ ] Select **View > Clear Guides**.
+- [ ] Double-click the point where the guide touches the ruler.
+- [x] Drag the guide back to the ruler.
+
+#### Q68. If you want to change the resolution of an image using the **Pixels per Inch setting**, which command do you use?
+
+- [ ] Calculations
+- [x] Image Size
+- [ ] Canvas Size
+- [ ] Apply Image
+
+#### Q69. Which tool can you use to manually darken an area of an image
+
+- [x] The Burn Tool
+
+#### Q70. How many layer masks can be added to an image?
+
+- [x] up to 8000
+
+#### Q71. Which method is a high-quality scaling algorithm for enlarging image?
+
+- [x] Bicubic Sharper
+- [ ] Bilinear
+- [ ] Preserve Details 2.0
+- [ ] Nearest Neighbor
+
+#### Q72. How can you make the magic wand tool select fewer variations of a color?
+
+- [x] clear the contiguous checkbox
+- [ ] decrease the tolerance
+- [ ] increase the tolerance
+- [ ] increase the simple size
+
+#### Q73. For curved smoother-looking edges on a selection, what selection should you pick?
+
+- [x] anti-aliasing
+
+#### Q74. Which tool is _not_ found in the **Select and Mask** workspace ?
+
+- \[ ] Magic Wand
+- \[x] Refine Edge
+- \[ ] Quick Select
+- \[ ] Lasso
+
+#### Q75. Which sets of tool has a content-aware mode ?
+
+- \[ ] Perspective Corp
+- \[ ] Marquee
+- \[ ] Lasso
+- \[x] Patch
+
+#### Q76. Which Select and Mask workspace tool allows you to select fine hairs?
+
+- [ ] Object Selection
+- [ ] Brush
+- [ ] Quick Selection
+- [x] Refine Edge

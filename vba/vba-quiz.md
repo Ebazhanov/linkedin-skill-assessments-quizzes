@@ -13,28 +13,28 @@ Sub ShowVitals()
 End Sub
 ```
 
-- [ ]
+- [ ] :
 
 ```
 ID=5 Age = 20 Weight=
 ID=6 Age = 25 Weight=130
 ```
 
-- [x]
+- [x] :
 
 ```
 ID=5 Age = 20 Weight=0
 ID=6 Age = 25 Weight=130
 ```
 
-- [ ]
+- [ ] :
 
 ```
 ID=5 Age = 20 Weight=Null
 ID=6 Age = 25 Weight=130
 ```
 
-- [ ]
+- [ ] :
 
 ```
 ID=5 Age = 20
@@ -53,7 +53,7 @@ ID=6 Age = 25 Weight=130
 #### Q3. What is the principal difference between a class and an object?
 
 - [ ] There is no meaningful difference. The terms are used interchangeably.
-- [ ] A dass declares an object's properties. An object completes the declaration by defining events and methods.
+- [ ] A class declares an object's properties. An object completes the declaration by defining events and methods.
 - [ ] An object is a template for a class.
 - [x] A class describes the design of an object. An object is an instance of that design.
 
@@ -167,57 +167,65 @@ End Sub
 
 #### Q13. Which is a valid definition of a user-defined data type?
 
-- [x]
+- [x] :
 
+```
 Type CBC
 Name As String
 Next As String
 End Type
+```
 
-- [ ]
+- [ ] :
 
+```
 Type CBC
 Name As String
-\_Next As String
+_Next As String
 End Type
+```
 
-- [ ]
+- [ ] :
 
+```
 Type CBC
 Name As String
 @Option As String
 End Type
+```
 
-- [ ]
+- [ ] :
 
+```
 Type CBC
 Name As String
 %For As String
 End Type
+```
 
 #### Q14. What is one way to duplicate a user form from one project into a different project?
 
-- [ ]
+- [ ] :
 
 1. Save and close the project with the existing user form.
 2. Click Insert > File.
 3. Browse to the location of the existing project.
 4. Right-click it and select the user-form you want to duplicate.
 
-- [ ]
+- [ ] :
 
 1. Open the existing user form in Desing Mode.
 2. Right-click the form and select Copy.
 3. Switch to the other project.
 4. Right-click Module and select Paste.
 
-- [ ]
+- [ ] :
 
 1. In the Project Explorer, right-click the user form and select Copy.
 2. Switch to the new project.
 3. Right-click UserForms and select Paste.
 
-- [x]
+- [x] :
 
 1. Open the existing user form in Design Mode.
 2. Click File > Export File.
@@ -231,7 +239,7 @@ End Type
 - [ ] Word's Macro Recorder does not record actions initiated by clicking a button on the Ribbon's Developer tab.
 - [x] Word's Macro Recorder does not record actions that inlove selection of text by pointing with the mouse pointer.
 
-#### Q16. Which statement should precede a subroutuine's error handler?
+#### Q16. Which statement should precede a subroutine's error handler?
 
 - [ ] End
 - [ ] Return
@@ -300,14 +308,14 @@ Dim MyArray(5) As Integer
 - [ ] by means of the Implements keyword and the name of the interface
 - [x] The name of the interface is passed as a parameter.
 
-#### Q25. What is needed for the contents of Module1 to be availble to other modules in a VBA project, but not to any other VBA project?
+#### Q25. What is needed for the contents of Module1 to be available to other modules in a VBA project, but not to any other VBA project?
 
 - [ ] Set Option Global at the top of Module1
 - [ ] Declare module-level variables as Private
 - [ ] Set Module Level Scope at the top of Module1
 - [x] Set Option Private Module at the top of Module1
 
-#### Q26. When used with an array named MyArray, what is the preerred way to set beginning and ending values of a loop control variable?
+#### Q26. When used with an array named MyArray, what is the preferred way to set beginning and ending values of a loop control variable?
 
 - [ ] For i = 0 To UBound(MyArray,1)
 - [ ] For i = 1 To UBound(MyArray,1)
@@ -331,10 +339,12 @@ End Enum
 
 #### Q28. Which statement declares an array?
 
-- [ ] Dim MyArray() As Integer
-- [x] Dim MyArray() As Array
+- [x] Dim MyArray() As Integer
+- [ ] Dim MyArray() As Array
 - [ ] Dim MyArray As Integer
 - [ ] Dim MyArray As Array
+
+[reference](https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/declaring-arrays)
 
 #### Q29. To use VBA code to maintain a different VBA project, you can make use of VBA's extensibility. What is needed to enable extensibility?
 
@@ -345,22 +355,22 @@ End Enum
 
 #### Q30. How do you add a user form to a VBA project?
 
-- [ ]
+- [ ] :
 
 1. Select the project in the Project window of the Visual Basic Editor
 2. Click the Design Mode button and select Insert Mode
 
-- [ ]
+- [ ] :
 
 1. Select the project in the Project window of the Visual Basic Editor
 2. Click the Toolbox button and select UserForm
 
-- [ ]
+- [ ] :
 
 1. Select the project in the Project window of the Visual Basic Editor
 2. Right-click the Run menu and select Customize
 
-- [x]
+- [x] :
 
 1. Select the project in the Project window of the Visual Basic Editor
 2. Click Insert > UserForm
@@ -385,7 +395,7 @@ End Sub
 
 #### Q32. Which code block from class modules returns a compile error?
 
-- [ ]
+- [ ] :
 
 ```
 Public Property Get HDL() As Double
@@ -396,7 +406,7 @@ pHDL = Value
 End Property
 ```
 
-- [ ]
+- [ ] :
 
 ```
 Property Get HDL() As Double
@@ -407,7 +417,7 @@ pHDL = Value
 End Property
 ```
 
-- [ ]
+- [ ] :
 
 ```
 Public Property Get HDL() As Double
@@ -418,7 +428,7 @@ pHDL = Value
 End Property
 ```
 
-- [x]
+- [x] :
 
 ```
 Public Property Get HDL() As Single
@@ -462,9 +472,9 @@ End Sub
 - [x] Z = in a message box and then a subsequent error message
 - [ ] Y = in a message box and then a subsequent error message
 
-#### Q36. The VBA code block shown in the following four options runs when UserForm1's CommandButton1 button is clicked. Which block of code leaves UserFrom1 loaded but not visible until the FoundErrors function has checked it, and then enables processing to continue if no errors are found?
+#### Q36. The VBA code block shown in the following four options runs when UserForm1's CommandButton1 button is clicked. Which block of code leaves UserForm1 loaded but not visible until the FoundErrors function has checked it, and then enables processing to continue if no errors are found?
 
-- [ ]
+- [ ] :
 
 ```
 Private Sub CommandButton1_Click()
@@ -473,7 +483,7 @@ Me.Show
 End Sub
 ```
 
-- [ ]
+- [ ] :
 
 ```
 Private Sub CommandButton1_Click()
@@ -482,7 +492,7 @@ Unload UserForm1
 End Sub
 ```
 
-- [x]
+- [x] :
 
 ```
 Private Sub CommandButton1_Click()
@@ -493,7 +503,7 @@ Loop
 End Sub
 ```
 
-- [ ]
+- [ ] :
 
 ```
 Private Sub CommandButton1_Click()
@@ -504,3 +514,267 @@ End Sub
 ```
 
 > The first requirement is to make UserForm1 loaded but not visible, therefore we need Me.Hide, **Me** in here referring to UserForm1
+
+#### Q37. Which is the correct way to structure a With block?
+
+- [ ] :
+
+```
+With Selection
+&TypeText Text:="8/24/2019"
+&TypeParagraph
+&TypeText Text:="1161 Alamosa Drive"
+End With
+```
+
+- [x] :
+
+```
+With Selection
+.TypeText Text:="8/24/2019"
+.TypeParagraph
+.TypeText Text:="1161 Alamosa Drive"
+End With
+```
+
+- [ ] :
+
+```
+With Selection
+TypeText Text:="8/24/2019"
+TypeParagraph
+TypeText Text:="1161 Alamosa Drive"
+End With
+```
+
+- [ ] :
+
+```
+With Selection:
+&TypeText Text:="8/24/2019"
+&TypeParagraph
+&TypeText Text:="1161 Alamosa Drive"
+End With
+```
+
+[reference](https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/with-statement)
+
+#### Q38. Why does this code generate a "Subscript out of range" error?
+
+```
+Sub Example()
+    Dim MyArr() As Variant
+    ReDim MyArr(3, 4)
+    'some code
+    ReDim Preserve MyArr(4, 4)
+End Sub
+```
+
+- [ ] Arrays cannot be resized more than once.
+- [ ] MyArr was originally declared with three "rows".
+- [ ] You can resize only the last dimension of an array when you specify `ReDim Preserve`.
+- [ ] The correct syntax is `ReDim Preserve MyArr(0 To 4, 0 To 4)`.
+
+#### Q39. Which subroutine declaration does `not` cause a compile error?
+
+- [ ] `Sub Called(Salary As Long, ParamArray Vals() As Variant)`
+- [ ] `Sub Called(ParamArray Vals() As Variant, Salary As Long)`
+- [ ] `Sub Called(Optional Salary As Long, ParamArray Vals() As Variant)`
+- [ ] `Sub Called(Salary As Long, ParamArray Vals() As String)`
+
+#### Q40. How can a user enter data on a worksheet or document, or switch windows, while UserForm1 is displayed on the screen?
+
+- [ ] Show the form with this statement: `UserForm1.Show vbModal`
+- [ ] Include this statement in the code: `UserForm1.Hwnd = False.`
+- [ ] Set the user from's `SpecialEffect` property to `frmShowModal`
+- [ ] Set the user from's `ShowModal` property to False.
+
+#### Q41. SubA passes MyVar to SubB. How can you ensure that MyVar has its original value when control returns to SubA?
+
+- [ ] Declare SubB as Sub SubB(ByRef MyVar).
+- [ ] Declare SubB as Sub SubB(MyVar).
+- [ ] Declare SubB as Sub SubB(Static MyVar).
+- [x] Declare SubB as Sub SubB(ByVal MyVar).
+
+#### Q42. Which procedure declaration is syntactically correct?
+
+- [ ] :
+
+```
+Sub MySub(VarA As String, Optional VarB _
+As Variant, Optional VarC As Long)
+```
+
+- [ ] :
+
+```
+Sub MySub(VarA As String, Optional VarB _
+As Variant, VarC As Long)
+```
+
+- [ ] :
+
+```
+Sub MySub(Optional VarA As String, Optional VarB _
+As Variant, VarC as Long)
+```
+
+- [ ] :
+
+```
+Sub MySub(OPtional VarA As String, VarB _
+As Variant, Optional VarC as Long)
+```
+
+#### Q43. What are the two principal kinds of procedure in VBA?
+
+- [x] Function and Event
+- [ ] Function and Scope
+- [ ] Subroutine and Event
+- [ ] Subroutine and Function
+
+#### Q44. Which code block compiles without error?
+
+- [ ] `Sub Decs() Dim MyFixed As String * 0 MyFixed = "A" MsgBox MyFixed End Sub`
+- [ ] `Sub Decs() Dim MyInt% * 1 MyInt = 7 MsgBox MyInt End Sub`
+- [ ] `Sub Decs() Dim MyInt% As Integer * 1 MyInt = 5 MsgBox MyInt End Sub`
+- [ ] `Sub Decs() Dim MyInt, MyNum As Integer MyInt = "A" MsgBox MyInt End Sub`
+
+#### Q45. What is used in the Immediate window to display the current value of the variable CountValues?
+
+- [ ] `= CountValues= CountValues`
+- [ ] `| CountValues| CountValues`
+- [ ] `: CountValues: CountValues`
+- [x] `? CountValues? CountValues`
+
+#### Q46. At which level can you declare a variable in this way: Private TopSecret As String?
+
+- [ ] function
+- [ ] module
+- [ ] subroutine
+- [ ] procedure
+
+#### Q47. How can a user enter data on a worksheet or document, or switch windows, while UserForm1 is displayed on the screen?
+
+- [ ] Show the form with this statement: UserForm1.Show vbModal.
+- [ ] Set the user form's SpecialEffect property to frmShowModal.
+- [ ] Include this statement in the code: `UserForm1.Hwnd = False.`
+- [x] Set the user form's ShowModal property to False.
+
+#### Q48. SubA passes MyVar to SubB. How can you ensure that MyVar has its original value when control returns to SubA?
+
+- [ ] Declare SubB as Sub SubB(Static MyVar).
+- [ ] Declare SubB as Sub SubB(ByVal MyVar).
+- [ ] Declare SubB as Sub SubB(MyVar).
+- [ ] Declare SubB as Sub SubB(ByRef MyVar).
+
+#### Q49. Arrays cannot be resized more than once.
+
+```
+Sub Example() Dim MyArr() As Variant ReDim MyArr(3, 4) 'some code ReDim Preserve MyArr(4, 4)
+End Sub Sub Example() Dim MyArr() As Variant ReDim MyArr(3, 4) 'some code ReDim Preserve MyArr(4, 4) End Sub
+```
+
+- [ ] The correct syntax is ReDim Preserve MyArr(0 To 4, 0 To 4).
+- [ ] You can resize only the last dimension of an array when you specify ReDim Preserve.
+- [ ] MyArr was originally declared with three "rows."
+- [ ] Declare SubB as Sub SubB(ByRef MyVar).
+
+#### Q50. Which block of code ends with the variable i equal to 5 and the variable X equal to 10?
+
+- [ ]
+
+```
+Do
+X = X + 1
+i = i + 1
+Loop Until i < 5
+End Sub
+```
+
+- [ ]
+
+```
+Sub Loopi()
+Dim X As Integer, i As Integer
+For i = 1 To 5
+X = X + 1
+Next I
+End Sub
+```
+
+- [ ]
+
+```
+Sub Loopi()
+Dim X As Integer, i As Integer
+Do Until i < 5
+X = X + 1
+i = i + 1
+Loop
+End Sub
+```
+
+- [ ]
+
+```
+Sub Loopi()
+Dim X As Integer, i As Integer
+Do
+X = X + 1
+i = i + 1
+Loop While i < 5
+End Sub
+```
+
+#### Q51. How does a class module indicate that it uses a particular interface?
+
+- [x] by means of the _Implemets_ keyword and the name of interface.
+- [ ] bymeans of the _Interface_ keyword and the name of the interface.
+- [ ] The name of the interface is passed as a parameter.
+- [ ] The interface itself is part of the class module.
+
+#### Q52. Which part of the VBE can help you explore VBA syntax?
+
+- [ ] Locals windows
+- [ ] object browser
+- [x] project explorer
+- [ ] optional dialog
+
+#### Q53. This code is trying to establish a new collection consisting of employee names and numbers. Assoc is a class. What statement is missing from the code?
+
+```
+Dim Associates As Collection, Assoc As CAssoc, i As Byte
+For i = 1 To 200
+    Set Assoc = New CAssoc
+    Assoc.Name = Cells(i,1)
+    Assoc.Number = Cells(i,2)
+    Associates.Add Assoc
+Next i
+```
+
+- [x] `Set Associates = New Collection`
+- [ ] `Set Associates = Collection`
+- [ ] `Redim(Associates(Associates.Count+1))`
+- [ ] `Redim(Associates _ (Unbound(Associates)+1))`
+
+#### Q54. What is the standard term for a variable or value that is passed from one subroutine or function to another?
+
+- [ ] reference
+- [ ] element
+- [x] argument
+- [ ] attribute
+
+#### Q55. What is the standard term for a variable or value that is passed from one subroutine or function to another?
+
+- [ ] reference
+- [ ] element
+- [x] argument
+- [ ] attribute
+
+#### Q56. Where is the event procedure named Worksheet_Change found?
+
+- [ ] in any standard code module
+- [ ] in the worksheet's object module
+- [ ] in the Worksheet_Change class module
+- [x] in the workbook's code module

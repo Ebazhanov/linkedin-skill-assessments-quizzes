@@ -794,7 +794,7 @@ a = a^2;
 - [ ] 17
 - [x] 9
 
-#### Q51.What is a difference between global variable and persistent variables?
+#### Q51. What is a difference between global variable and persistent variables?
 
 - [ ] Global variables have a higher performance overhead than persistent variables.
 - [ ] Global variables remain in memory after clear all; persistent variables do not.
@@ -815,7 +815,9 @@ a = a^2;
 - [ ] functions on the path
 - [ ] built-in functions
 - [ ] functions within the current file
-- [ ] functions within the current directory
+- [x] functions within the current directory
+
+[Reference](https://www.mathworks.com/help/matlab/matlab_env/files-and-folders-that-matlab-accesses.html)
 
 #### Q54. Which choice is the correct syntax for declaring a function that returns the input value as the output?
 
@@ -972,3 +974,59 @@ a = [ 1 2 3 4];
 - [ ] to avoid HDF5 overhead in MAT-file
 - [x] to include a variable greater that 2GB
 - [ ] to use compression by default
+
+#### Q65. Which choice cannot add a directory to the search path?
+
+- [ ] the **path** function
+- [x] the **savepath** function
+- [ ] using **Set Path** in the **Environment** menu
+- [ ] the **addpath** function
+
+[Reference](https://www.mathworks.com/help/matlab/ref/savepath.html)
+
+#### Q66. Which is not a function to plot three-dimensional data?
+
+- [ ] mesh
+- [ ] surf
+- [ ] contour
+- [x] grid
+
+[Reference](https://www.mathworks.com/help/matlab/ref/grid.html)
+
+#### Q67. What is the reason to save a MAT-file using the v-7.3 flag?
+
+- [ ] to use compression by default
+- [ ] to ensure backward compatibility
+- [x] to include a variable greater than 2GB
+- [ ] to avoid HDF5 overhead in MAT-file
+
+[Reference](https://www.mathworks.com/matlabcentral/answers/169755-saving-variable-with-v7-3-flag-check)
+
+#### Q68. This graph could be the result of which block of code?
+
+![MatLab Q41](images/matlab_Q41.png)
+
+- [x] `a = randn(1,1000); histogram(a) ylabel('counts')`
+- [ ] `a = rand(1,1000); histogram(a) ylabel('counts')`
+- [ ] `a = randi(1,1000); histogram(a) ylabel('counts')`
+- [ ] `a = rng(1,1000); histogram(a) ylabel('counts')`
+
+#### Q69. What is a key difference between && and &?
+
+- [ ] && is a logical operator and & is not.
+- [ ] && is always slower than &
+- [x] && employs short-circuiting behavior and & does not.
+- [ ] && is a bitwise operator and & is not.
+
+[Reference](https://stackoverflow.com/questions/1379415/whats-the-difference-between-and-in-matlab)
+
+#### Q70. What is the result of this code?
+
+```
+s="abcd"; s(3)='x'
+```
+
+- [ ] "abxd"
+- [ ] abxd
+- [x] a 1x 3 string array
+- [ ] a run-time error

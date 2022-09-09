@@ -1,4 +1,4 @@
-# Kotlin
+## Kotlin
 
 #### Q1. You would like to print each score on its own line with its cardinal position. Without using **var** or **val**, which method allows iteration with both the value and its position?
 
@@ -32,7 +32,7 @@ class Airplane(private val name: String) : Aircraft() {
 - [x] Abstract function always returns null
 - [ ] A superclass is initialized before its subclass. Therefore, name has not been set before it is rendered
 
-#### Q3. Kotlin interfaces ad abstract classes are very similar. What is one thing abstract class can do that interfaces cannot?
+#### Q3. Kotlin interfaces and abstract classes are very similar. What is one thing abstract class can do that interfaces cannot?
 
 - [ ] Only abstract classes are inheritable by subclasses
 - [ ] Only abstract classes can inherit from multiple superclasses
@@ -128,7 +128,7 @@ when (die) {
   1 -> println("die is 1")
   2 -> println("die is 2")
   ___ -> printlin("die is between 3 and 6")
-  else -> printlin("dies is unknown")
+  else -> printlin("die is unknown")
 }
 ```
 
@@ -139,7 +139,7 @@ when (die) {
 
 [reference](https://kotlinlang.org/docs/ranges.html)
 
-#### Q12. The function **typeChecker** receiver a parameter **obj** of type **Any**. Based upon the type of **obj**, it prints different messages for Int, String, Double, and Float types; if not any of the mentioned types, it prints "unknown type". What operator allows you to determine the type of an object?
+#### Q12. The function **typeChecker** receives a parameter **obj** of type **Any**. Based upon the type of **obj**, it prints different messages for Int, String, Double, and Float types; if not any of the mentioned types, it prints "unknown type". What operator allows you to determine the type of an object?
 
 - [ ] `instanceof`
 - [x] `is`
@@ -184,7 +184,7 @@ fun main() {
 
 [reference](https://discuss.kotlinlang.org/t/inlining-tiny-methods/17084)
 
-#### Q15.How do you fill in the blank below to display all of the even numbers from 1 to 10 with least amount of code?
+#### Q15. How do you fill in the blank below to display all of the even numbers from 1 to 10 with least amount of code?
 
 ```kotlin
 for (_____) {
@@ -220,7 +220,7 @@ println(set.count())
 - [ ] `println(b?.length ?? 0)`
 - [ ] `println(b == null? 0: b.length)`
 
-#### Q18. In the file main.kt, you ae filtering a list of integers and want to use an already existing function, removeBadValues. What is the proper way to invoke the function from filter in the line below?
+#### Q18. In the file main.kt, you are filtering a list of integers and want to use an already existing function, removeBadValues. What is the proper way to invoke the function from filter in the line below?
 
 ```kotlin
 val list2 = (80..100).toList().filter(_____)
@@ -550,10 +550,10 @@ fun main(){
 }
 ```
 
-- [ ] The extension function should be marked public
-- [ ] Add the prefix operator to the shouldMatch extension function
+- [ ] The extension function should be marked `public`
+- [ ] Add the prefix `operator` to the `shouldMatch` extension function
 - [ ] The code is not legal in Kotlin (should be `println(msg.shouldEqual("test message"))`)
-- [x] Add the prefix infix to the shouldMatch extension function
+- [x] Add the prefix `infix` to the `shouldMatch` extension function
 
 #### Q44. What is the difference between the declarations of COLOR and SIZE?
 
@@ -590,6 +590,10 @@ fun main() {
 - [ ] In order to create an instance of a class, you need the keyword `new`
 - [ ] The reference to name needs to be scoped to the class, so it should be `this.name`
 - [x] Classes cannot be immutable. You need to change `var` to `val`
+
+Note: By default, constructor parameters can only be used in the initializer blocks or property initializers declared in the class body. Therefore, to let the `greet` function have access to the `name` parameter, it should be declared as a property: `class Cat (val name: String) { ... }`
+
+[reference](https://kotlinlang.org/docs/classes.html#constructors)
 
 #### Q46. The code below shows a typical way to show both index and value in many languages, including Kotlin. Which line of code shows a way to get both index and value more idiomatically?
 
@@ -681,7 +685,7 @@ fun main() {
 
 - [ ] You cannot; the hash symbol is not a valid operator.
 - [ ] You should replace the word hash with octothorpe, the actual name for the symbol.
-- [x] You should use `minus` instead of hash, then type alias the minus symbol. // Note: How can you fix it?
+- [x] You should use `minus` instead of hash, then type alias the minus symbol.
 - [ ] You need to replace operator with the word `infix`.
 
 #### Q52. This code snippet compiles without error, but never prints the results when executed. What could be wrong?
@@ -691,8 +695,8 @@ val result = generateSequence(1) { it + 1 }.toList()
 println(result)
 ```
 
-- [x] The sequence lacks a terminal operation.
-- [ ] The sequence is infinite and lacks an intermediate operation to make `it` finite.
+- [ ] The sequence lacks a terminal operation.
+- [x] The sequence is infinite and lacks an intermediate operation to make `it` finite.
 - [ ] The expression should begin with `generateSequence(0)`.
 - [ ] The `it` parameter should be replaced with `this`.
 
@@ -715,6 +719,8 @@ fun printStudents(vararg students: String) {
 - [ ] `printStudents(students!!)`
 - [x] `printStudents(*students)`
 - [ ] `printStudents(students[])`
+
+[reference](https://kotlinlang.org/docs/functions.html#variable-number-of-arguments-varargs)
 
 #### Q54. Both y and z are immutable references pointing to fixed-size collections of the same four integers. Are there any differences?
 
@@ -745,6 +751,8 @@ fun main() = runBlocking {
 - [x] `task.join()`
 - [ ] `task.cancel()`
 
+[reference](https://kotlinlang.org/docs/coroutines-basics.html#an-explicit-job)
+
 #### Q56. You would like to group a list of students by last name and get the total number of groups. Which line of code accomplishes this, assuming you have a list of the Student data class?
 
 ```kotlin
@@ -756,7 +764,7 @@ data class Student(val firstName: String, val lastName: String)
 - [ ] `println(students.groupingBy{ it.lastName.first() }.count())`
 - [ ] `println(students.groupingBy{ it.lastName.first() }.size())`
 
-#### Q57. Class BB inherits from class AA. BB uses a different method to calculate the price. As shown, the code does not compile. What changes is needed to resolve the compilation error?
+#### Q57. Class BB inherits from class AA. BB uses a different method to calculate the price. As shown, the code does not compile. What changes are needed to resolve the compilation error?
 
 ```kotlin
 open class AA() {
@@ -769,10 +777,10 @@ class BB() : AA() {
 }
 ```
 
-- [ ] You need to add a lateinit modifier to `AA.price`.
-- [ ] You simply need to add an override modifier to `BB.price`.
-- [x] You need to add an open modifier to `AA.price` and an override modifier to `BB.price`.
-- [ ] You need to add a public modifier to `AA.price` and a protected modifier to `BB.price`.
+- [ ] You need to add a `lateinit` modifier to `AA.price`.
+- [ ] You simply need to add an `override` modifier to `BB.price`.
+- [x] You need to add an `open` modifier to `AA.price` and an `override` modifier to `BB.price`.
+- [ ] You need to add a `public` modifier to `AA.price` and a `protected` modifier to `BB.price`.
 
 #### Q58. What is the output of this code?
 
@@ -832,7 +840,7 @@ val b = arrayOf(100, 200, 3000)
 - [ ] `val c = a + b`
 - [ ] `val c = listOf(a+b)`
 - [x] `val c = listOf(*a, *b)`
-- [reference](https://www.techiedelight.com/join-two-lists-kotlin/)
+- [reference](https://www.baeldung.com/kotlin/combine-arrays#arrayof-and-the-spread-operator)
 
 #### Q64. This code is occasionally throwing a null pointer exception (NPE). How can you change the code so it never throws as NPE?
 
@@ -900,9 +908,9 @@ fun main() {
 }
 ```
 
-- [x] `moveTo( "LA")`
-- [ ] `::moveTo("LA")`
 - [x] `moveTo("LA")`
+- [ ] `::moveTo("LA")`
+- [ ] `_.moveTo("LA")`
 - [ ] `it.moveTo("LA")`
 
 #### Q69. For the Product class you are designing, you would like the price to be readable by anyone, but changeable only from within the class. Which property declaration implements your design?
@@ -915,7 +923,7 @@ var price: Int = 0
   private set
 ```
 
-- [x] Option 2 ([reference](https://kotlinlang.org/docs/properties.html#getters-and-setters))
+- [x] Option 2
 
 ```
 var price: Int = 0
@@ -934,6 +942,8 @@ var price: Int = 0
 ```
 val price: Int=0
 ```
+
+[reference](https://kotlinlang.org/docs/properties.html#getters-and-setters)
 
 #### Q70. What will happen when you try to build and run this code snippet?
 
@@ -983,10 +993,11 @@ val binaryStr = "00001111"
 
 - [ ] `Any program line can be marked with a label`
 - [ ] `Any statement can be marked with a label`
-- [x] `Any expression can be marked with a lable`
+- [x] `Any expression can be marked with a label`
 - [ ] `Only the beginning of loops can be marked with a label`
 
-[reference](https://agrawalsuneet.github.io/blogs/label-reference-in-kotlin/)
+1. [article](https://agrawalsuneet.github.io/blogs/label-reference-in-kotlin/) -
+2. [reference](https://kotlinlang.org/docs/returns.html#return-to-labels)
 
 #### Q75. All classes in Kotlin inherit from which superclass?
 
@@ -1005,10 +1016,10 @@ fun sort(list: List<T>): List <T> {
 }
 ```
 
-- [ ] `Add <T -> Comparable<T>> between the `fun` keyword and the function name`
-- [ ] `Add Comparable<T> between the `fun` keyword and the function name`
-- [x] `Add <T : Comparable<T>> between the `fun` keyword and the function name`
-- [ ] `Add <T where Comparable<T>> between the `fun` keyword and the function name`
+- [ ] Add `<T -> Comparable<T>>` between the `fun` keyword and the function name
+- [ ] Add `Comparable<T>` between the `fun` keyword and the function name
+- [x] Add `<T : Comparable<T>>` between the `fun` keyword and the function name
+- [ ] Add `<T where Comparable<T>>` between the `fun` keyword and the function name
 
 [reference](https://kotlinlang.org/docs/generics.html#generic-functions)
 
@@ -1038,8 +1049,10 @@ names[3]= "Delta"
 
 - [ ] Each secondary constructor must call super().
 - [ ] Each secondary constructor must call base().
-- [ ] Each secondary constructor must directly or indirectly delegate to the primary.
+- [x] Each secondary constructor must directly or indirectly delegate to the primary.
 - [ ] Each secondary constructor must have the same name as the class.
+
+[reference](https://kotlinlang.org/docs/classes.html#secondary-constructors)
 
 #### Q80. When you can omit constructor keyword from the primary constructor?
 
@@ -1048,7 +1061,7 @@ names[3]= "Delta"
 - [ ] It can be omitted if secondary constructors are defined.
 - [x] It can be omitted when the primary constructor does not have any modifiers or annotations.
 
-[reference](https://www.baeldung.com/kotlin/constructors#:~:text=In%20some%20cases%2C%20we%20can,default%20parameters%20in%20the%20constructors.)
+[article](https://www.baeldung.com/kotlin/constructors#:~:text=In%20some%20cases%2C%20we%20can,default%20parameters%20in%20the%20constructors.) - [reference](https://kotlinlang.org/docs/classes.html#constructors)
 
 #### Q81. How many different kinds of constructors are available for kotlin classes?
 
@@ -1058,3 +1071,65 @@ names[3]= "Delta"
 - [ ] one.
 
 [reference](https://www.programiz.com/kotlin-programming/constructors#:~:text=In%20Kotlin%2C%20there%20are%20two,to%20put%20additional%20initialization%20logic)
+
+#### Q82. What is the default visibility modifier in Kotlin?
+
+- [ ] protected
+- [ ] private
+- [ ] internal
+- [x] public
+
+[reference](https://kotlinlang.org/docs/visibility-modifiers.html)
+
+#### Q83. The code below compiles and executes without issue, but is not idiomatic kotlin. What is a better way to impelement the `printlln()`?
+
+```kotlin
+fun main() {
+  val name: String = "Amos"
+  val grade: Float = 95.5f
+  println("My name is " + name + ". I score " + grade + " points on the last coding quiz.")
+}
+```
+
+- [ ] Use `new printf()`.
+- [ ] Use `string.format` instead.
+- [ ] Use `string append` instead.
+- [x] Use string templates instead.
+
+[reference](https://kotlinlang.org/docs/basic-syntax.html#string-templates)
+
+#### Q84. You have enum class Signal that represent state of network connection. You want to iterate over each the member of the enum. Which line of code shows how to do that `?
+
+- [ ] Signal.sequence().
+- [ ] Signal.toArray().
+- [x] Signal.values().
+- [ ] Signal.toList().
+
+[reference](https://kotlinlang.org/docs/enum-classes.html#working-with-enum-constants)
+
+#### Q85. You'd like to create multiline string that includes the carriage return characther. What should you use to enclose the string?
+
+- [ ] Double quotes("").
+- [ ] Single quotes(').
+- [x] Tripple quote(""").
+- [ ] Backticks().
+
+[reference](https://kotlinlang.org/docs/coding-conventions.html#strings)
+
+#### Q86. You want your class member to be visible to subclasses. Which modifier do you use?
+
+- [ ] Public.
+- [x] Protected.
+- [ ] Internal.
+- [ ] Private.
+
+[reference](https://kotlinlang.org/docs/visibility-modifiers.html#class-members)
+
+#### Q87. which line of code shows how to create a finite sequence of the numbers 1 to 99 and then convert it into a list?
+
+- [x] val lessThan99 = generateSequence(1){ if (it < 99) it + 1 else null }.toList().
+- [ ] val lessThan99 = generateSequence(0){ if (it < 99)}.toList().
+- [ ] val lessThan99 = generateSequence(1..9){ if (it < 99) it + 1 else null }.toList().
+- [ ] val lessThan99 = listOf{1..99}.asSequence().toList()
+
+[reference](https://kotlinlang.org/docs/sequences.html#from-a-function)

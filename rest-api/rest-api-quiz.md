@@ -2,8 +2,8 @@
 
 #### Q1. What type of relationship is defined as one resource existing only if another parent resource exist-for example, pages in a book?
 
-- [x] `Partial`
-- [ ] `dependent`
+- [ ] `Partial`
+- [x] `dependent`
 - [ ] `associative`
 - [ ] `linked`
 
@@ -218,9 +218,9 @@
 
 #### Q29. Which REST constraint allows for the presence of caching, routing, and other systems between the client and server?
 
-- [ ] `Layered System`
+- [x] `Layered System`
 - [ ] `Stateless`
-- [x] `Client-Server`
+- [ ] `Client-Server`
 - [ ] `Cacheable`
 
 #### Q30. Which content is best to include in your documentation?
@@ -390,9 +390,9 @@
 - [ ] `parsing`
 - [ ] `browsing`
 
-#### Q53. Which HTTP response code describes a new resource as created successfully?
+#### Q53. To create a new resource, what HTTP response code should you receive?
 
-- [ ] `200`
+- [ ] `405`
 - [x] `201`
 - [ ] `204`
 - [ ] `202`
@@ -449,11 +449,11 @@
 
 [REST Architectural Constraints](https://restfulapi.net/rest-architectural-constraints/)
 
-#### Q60. When you get a 429 code, what should you do next?
+#### Q60. When you get a 429 response code, what should you do next?
 
 - [ ] Check you JSON structure.
-- [ ] Check the API uptime status.
 - [x] Slow down your requests.
+- [ ] Check the API uptime status.
 - [ ] Check you API key.
 
 #### Q61. When exploring record sets, what is the best approach for pagination?
@@ -476,3 +476,28 @@
 - [ ] 204 No Content
 - [ ] 201 Created
 - [x] 202 Accepted
+
+#### Q64. When validating a JWT, what are some of the claims that you must confirm? (Select all that apply.)
+
+    A. The exp (expiration) has not passed.
+    B. The algorithm is sufficient.
+    C. The signature matches the payload.
+    D. The token was Base64 encoded.
+    E. The iss (issuer) is the auth server you expect.
+    F. There is a refresh token.
+    G. The cid (client ID) is the client you expect.
+    H. The token was encrypted.
+
+- [x] A,B,E,H
+- [ ] B,C,F,G
+- [ ] A,D,G,H
+- [ ] A,C,E,G
+
+#### Q65. API traffic that enters and leaves your organization is normally called **\_**?
+
+- [ ] `east-west traffic`
+- [ ] `inbound traffic`
+- [x] `north-south traffic`
+- [ ] `external traffic`
+
+[North-South vs East-West Traffic](https://www.snapt.net/glossary/north-south-vs-east-west-traffic)

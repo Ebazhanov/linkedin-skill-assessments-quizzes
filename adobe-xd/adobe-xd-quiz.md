@@ -27,7 +27,7 @@
 - [ ] Add a new interaction.
 - [x] Add a new state.
 
-#### Q4.You want to share your project to a blog or social media. How would you accomplish this?
+#### Q4. You want to share your project to a blog or social media. How would you accomplish this?
 
 - [x] Link to the project from your Creative Cloud account.
 - [ ] Use the prototype link.
@@ -69,28 +69,28 @@
 - [ ] Voice
 - [ ] Tap
 
-#### 10. You have copied an interaction to the clipboard. How would you apply this interaction to multiple objects?
+#### Q10. You have copied an interaction to the clipboard. How would you apply this interaction to multiple objects?
 
 - [ ] Shift-click each object and paste the interaction.
 - [ ] Select the artboards and paste the interaction.
 - [ ] Select each object and paste the interaction.
 - [ ] Marquee the objects and paste the interaction.
 
-#### 11. Device preview requires a \_
+#### Q11. Device preview requires a \_
 
 - [ ] mobile device with NFC
 - [ ] bluetooth connection
 - [ ] USB connection
 - [ ] wireless connection
 
-#### 12. Which export setting would you use to create a low-res asset whose size is 50% of the asset on the screen?
+#### Q12. Which export setting would you use to create a low-res asset whose size is 50% of the asset on the screen?
 
 - [ ] Designed at 3X
 - [ ] Designed for Web
 - [ ] Designed at 1X
 - [ ] Designed at 2X
 
-#### 13. What does this wire attached to a component indicate?
+#### Q13. What does this wire attached to a component indicate?
 
 ![Q13](images/004.jpg)
 
@@ -99,7 +99,7 @@
 - [ ] trigger
 - [ ] animation.
 
-#### 14. What happens when you click this circled icon in the design preview?
+#### Q14. What happens when you click this circled icon in the design preview?
 
 ![Q14](images/005.jpg)
 
@@ -108,14 +108,14 @@
 - [ ] The preview switches to the developer view.
 - [ ] The artboard properties are displayed
 
-#### 15. Which method for bringing Illustrator content into XD is not possible?
+#### Q15. Which method for bringing Illustrator content into XD is not possible?
 
 - [ ] Drag an Illustrator file (.Al) into an XD project.
 - [x] Copy and paste content from Illustrator to XD.
 - [ ] Open an Illustrator file (.Al) in XD to convert it to an XD project.
 - [ ] Import an Illustrator file (.Al) into an XD project.
 
-#### 16. After completing a project, you deactivated a couple of Adobe fonts. Now you need to make changes to the XD file. How do you reenable the Adobe fonts in XD?
+#### Q16. After completing a project, you deactivated a couple of Adobe fonts. Now you need to make changes to the XD file. How do you reenable the Adobe fonts in XD?
 
 - [ ] Open your Creative Cloud fonts and click Enable.
 - [ ] Enable the fonts in your computer's fonts settings.

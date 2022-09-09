@@ -58,10 +58,12 @@
 
 #### Q9. Which is not an example of an internal control activity?
 
-- [ ] review of manufacturing plan
+- [x] review of manufacturing plan
 - [ ] segregation of duties
-- [x] bank reconciliations
+- [ ] bank reconciliations
 - [ ] approval process
+
+[source]'MT: bank recons are a internal control, checking to see if figures match. Approval by different level of authorities help to prevent unathorized transactions - so its a control too. segregate duties also ensures that.
 
 #### Q10. Which budgeting approach request justification of all expenditures?
 
@@ -74,15 +76,17 @@
 
 - [x] disposal of a major product line or major geographical area of operations
 - [ ] sale of unused or obsolete equipment and discontinued inventory
-- [ ] a plant shutdown or decommissioning of a facility
+- [ ] plant shutdown or decommissioning of a facility
 - [ ] net income or loss for products completed and sold
 
-#### Q12. How are the three financial statements (income, statement, balance sheet, and cash flow statement) linked?
+#### Q12. How are the three financial statements (income statement, balance sheet, and cash flow statement) linked?
 
 - [ ] Only the assets are reflected in the cash flow statement, and the net income expenses correlate with the liabilities.
-- [x] The net income goes to retained earnings, but the cash flow remains independent.
+- [ ] The net income goes to retained earnings, but the cash flow remains independent.
 - [ ] The gross profit goes to retained earning, and the shareholder equity total is added to the cash flow statement
-- [ ] The net income goes to the retained earning and to the cash flow statement
+- [x] The net income goes to the retained earning and to the cash flow statement
+
+[source]'MT: odd qns. But it should be net profit "npat" flows to retained earnings, and also starts the cashflow statement (so all linked and not independent). Assets are in balance sheet, net income is in income statement. npat goes to retained earnings, not gross profit.
 
 #### Q13. Which is not one of the four perspectives of the balanced scorecard?
 
@@ -114,59 +118,74 @@
 
 #### Q17. An external auditor is required to be independent when performing
 
-- [ ] all attestation services
-- [ ] all professional services
+- [x] all attestation services
+- [ ] all professional services (wrong ans, includes consulting)
 - [ ] all tax services
-- [ ] all consulting engagements
+- [ ] all consulting engagements (wrong ans)
+
+[source](https://www.ispartnersllc.com/blog/defining-attestation-assurance-auditing/)
+'MT: tough qns, ambiguous options. Attest = validate audit data gathered. Consulting is less regulatory/ restrictive, = how to increase pie sales, versus audit/attestation = why you reported more pies in your fridge than we observed. Tax is grey, usually has to be internal audt committee approved or fees disclosed etc. but there are exceptions.'
 
 #### Q18. Proper segregation of functional responsibilities calls for separation of
 
 - [ ] custody, payment, and recording
 - [ ] authorization, custody, and execution
-- [ ] authorization, custody, and recording
+- [x] authorization, custody, and recording
 - [ ] custody, execution, and payment
+
+[source](https://oacp.upenn.edu/audit/audit101/internal-controls-guidance/operational-internal-controls/)
 
 #### Q19. What does the degree of operating leverage represent?
 
 - [ ] how much the value of capital assets will change in response to a change in sales
-- [ ] how much the operating income of a company will change in response to a change in sales
+- [x] how much the operating income of a company will change in response to a change in sales
 - [ ] the valuation of assets to determine how much additional debt the company can borrow
 - [ ] how much the sales of a company will change in response to a change in operating income
+
+[source]'High operating leverage means a firm has a relatively fixed, and usually high cost base. So additional sales would incrementally drive more profits because those sales do not need to incur more costs to generate (like a factory, versus factory workers)'
 
 #### Q20. Which characteristic would concern an auditor about the risk of material misstatements arising from fraudulent financial reporting?
 
 - [ ] limited employee turnover within the accounting and finance department
-- [ ] management's disregard of regulations and regulatory authorities
+- [x] management's disregard of regulations and regulatory authorities
 - [ ] regularly reported bank reconciliations, including deposits in transit
 - [ ] capital assets sold at a loss before being depreciated fully
+
+[source]'MT: regular bank recons and loyal employees are +ve. Nothing wrong with assets sold at lost before fully depreciated, like you can sell a plane at a loss even before it has been "fully used".
 
 #### Q21. An employee who makes a sale, ships the goods, and bills the customer violates which control activity?
 
 - [ ] assignment of responsibility
 - [ ] audit verification
-- [ ] segregation of duties
+- [x] segregation of duties
 - [ ] review and reconciliation
+
+[source](https://oacp.upenn.edu/audit/audit101/internal-controls-guidance/operational-internal-controls/)
 
 #### Q22. What trait distinguishes auditors from accountants?
 
 - [ ] The auditor can interpret accounting principles applicable to the country in which the client operates.
 - [ ] The auditor has extensive education beyond what is required for an accountant
 - [ ] The auditor can adapt to a rapidly changing profession.
-- [ ] The auditor has expertise in the gathering and interpretation of audit evidence.
+- [x] The auditor has expertise in the gathering and interpretation of audit evidence.
+
+[source]'MT: auditors are focused on gathering and interpreting audit evidence in specific sectors. Both auditors and accountants would be familiar to the principles that the client operates in'
 
 #### Q23. What is the purpose of an operational audit?
 
 - [ ] assessing the company's compliance with environmental laws and regulations
-- [ ] evaluating whether the organization is meeting the metrics set by management in order to achieve the goals and objectives set forth by the board of directors
+- [x] evaluating whether the organization is meeting the metrics set by management in order to achieve the goals and objectives set forth by the board of directors
 - [ ] assessing the organization's control mechanisms for overall efficiency and reliability
 - [ ] evaluating compliance with applicable laws, regulations, policies, and procedures
 
 #### Q24. Which statement is false?
 
 - [ ] The balanced scorecard aligns an organization's operational activities with its mission.
-- [ ] The balanced scorecard focuses on these four primary areas: financial, customer, internal process, and learning and growth.
-- [ ] The balanced scorecard measures, tracks, and reports on a balance of qualitative and financial data and metrics.
-- [ ] The balanced scorecard ensures the organization's profitability aligns with director compensation and dividend expectations.
+- [ ] The balanced scorecard focuses on four primary areas: financial, customer, internal process, and learning and growth. (def true)
+- [ ] The balanced scorecard measures, tracks, and reports on a balance of qualitative and financial data and metrics. (def true)
+- [x] The balanced scorecard ensures the organization's profitability aligns with director compensation and dividend expectations.
+
+[source](http://www.managerialaccounting.org/Balanced%20Scorecard.htm) 'MT: BSC is on improving efficiency - deliver goals and how to measure that quantitatively or qualitatively. Nothing to do with how to compensate'
 
 #### Q25. Which choice is not a component of internal control?
 
@@ -189,23 +208,43 @@
 - [ ] 350
 - [ ] 20
 
-#### Q29. Who does an audit committee report to?
+#### Q28. Who does an audit committee report to?
 
 - [x] external auditors
 - [ ] senior management
 - [ ] board of directors
 - [ ] union of employee representatives
 
-#### Q30. A business purchased office equipment by issuing aone-year note payable. The entire amount of the note is due at the end of one year. How do you record this transaction?
+#### Q29. A business purchased office equipment by issuing a one-year note payable. The entire amount of the note is due at the end of one year. How do you record this transaction?
 
 - [ ] Debt asset, credit equity
 - [ ] Debt liablity, credit asset.
-- [ ] Debit asset, credit liability
+- [x] Debit asset, credit liability
 - [ ] Debit equity, credit asset.
 
-#### Q31. Which section of a financial annual report describes the corporation's accounting methods?
+[source]'MT answer - its Debit equipment (asset), Credit notes payable (liability). To +/- assets, need to dr/cr, inverse is true for liabilities. Long-form journal entry is: Borrow cash - Dr cash, Cr notes payable, then for equipment purchase - Dr equipment, Cr cash'
+
+#### Q30. Which section of a financial annual report describes the corporation's accounting methods?
 
 - [x] Notes to the financial statements
 - [ ] An auditor's report
 - [ ] Listing of the stockholders
 - [ ] Management discussion and analysis
+
+#### Q31. What does "independence" mean in auditing?
+
+- [ ] being an advocate for all clients
+- [ ] not being dependent on a client's fee
+- [ ] having only indirect financial interests in the auditee
+- [x] taking an unbiased viewpoint
+
+[source](https://www.icaew.com/technical/trust-and-ethics/ethics/auditor-independence#:~:text=Auditor%20independence%20refers%20to%20the,and%20in%20an%20objective%20manner.)
+
+#### Q32. What would cause a bank to increase a depositor's account?
+
+- [ ] collecting a note receivable
+- [x] paying a note payable
+- [ ] NSF checks ("non sufficient funds")
+- [ ] service changes
+
+[source]'MT: depositor account os a liability to the bank - bank owes the money to depositor. bank collects a notes receivable from client means reducing client's cash/ deposits. Similar if NSF means the cheque owner does not have enough funds to transfer funds into the client's deposits, so theres no change in deposits.'

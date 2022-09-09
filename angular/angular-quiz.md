@@ -694,7 +694,7 @@ export class BioComponent { }
 ```javascript
 @Component({
    selector: 'app-user-card',
-   template: '<app-title-card></app-title-card><p>3enny Smith</p>'
+   template: '<app-title-card></app-title-card><p>Jenny Smith</p>'
 })
 
 @Component({
@@ -713,7 +713,7 @@ export class BioComponent { }
   <app-title-card>
     <h1>User Data</h1>
   </app-title-card>
-  <p>genny Smith</p>
+  <p>Jenny Smith</p>
 </app-user-card>
 ```
 
@@ -779,7 +779,7 @@ providers: [{ provide: 'Logger' }];
 
 [Angular.io - Dependency Injection In Action](https://angular.io/guide/dependency-injection-in-action#supply-a-custom-provider-with-inject)
 
-#### Q42. Which choice best describes the following usage of the HttpClient . get method in the getsettings class method?
+#### Q42. Which choice best describes the following usage of the HttpClient.get method in the getsettings class method?
 
 ```javascript
 export class SettingsService {
@@ -788,7 +788,7 @@ export class SettingsService {
 
 getSettings()
 {
-    return this.httpClient.get < Settings > (this.settingsUrl)
+    return this.httpClient.get<Settings>(this.settingsUrl)
         .pipe(
             retry(3)
         );
@@ -811,6 +811,9 @@ getSettings()
 - [ ] it is not possible to do it at application start; you can do it only at a component level.
 - [ ] Instantiate an instance of the service at the global level (window scope) and then call that method.
 
+[Angular.io](https://angular.io/guide/dependency-injection-providers)
+[Stackoverflow](https://stackoverflow.com/questions/39803876/how-to-use-factory-provider)
+
 #### Q44. What statement best describes this usage of the TestBed?
 
 ```javascript
@@ -823,7 +826,7 @@ const userService = TestBed.get(UserService);
 
 - [ ] The TestBed is required anytime you want to make use of a spy object in a unit test for an Angular provider.
 - [ ] The TestBed is being used to test a component's view.
-- [x] The TestBed scaffolds an NgModule with two providers and handles any dependeny injection. If any Angular class requests the DataService in its constructor, the TestBed will inject spy in that constructor.
+- [x] The TestBed scaffolds an NgModule with two providers and handles any dependency injection. If any Angular class requests the DataService in its constructor, the TestBed will inject spy in that constructor.
 - [ ] The TestBed is configuring the test runner to tell it to only execute tests for the two providers listed in its providers array.
 - `All other tests be ignored, including tests that assert results against one of these providers and a non-defined provider.`
   `Although it will work when multiple providers in this configuration are asserted against in a single test.`
@@ -1045,11 +1048,11 @@ export interface AppSettings {
 	title: string;
 	version: number;
 }
-export const APP_SETTINGS = new Injection<AppSettings>('app.settings');
+export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
 ```
 
 - [ ] The InjectionToken is adding an instance of the AppSettings to the root provider via the InjectionToken constructor call, making it automatically available to all NgModules, services and components throughout the Angular application without the need to inject it anywhere.
-- [ ] The InjectionToken is used to create a provider token for a non-class dependency. An Object literal can be provider as a value for the APP_SETTINGS dependency provider type that can then be injected into components, services, etc ..
+- [x] The InjectionToken is used to create a provider token for a non-class dependency. An Object literal can be provider as a value for the APP_SETTINGS dependency provider type that can then be injected into components, services, etc ..
 - [ ] The InjectionToken is used to create a dynamic decorator for the AppSettings that can be used on constructor parameters via an @AppSettings decorator.
 - [ ] This code has an error since you cannot use a TypeScript interface for the generic type on the InjectionToken
 
@@ -1068,7 +1071,7 @@ export const APP_SETTINGS = new Injection<AppSettings>('app.settings');
 - [ ] submit(ngForm.value)
 - [ ] submit(FirstName, lastName)
 
-#### Q54. What is the purpose of the prelodingStrategy property configuration in this router code?
+#### Q55. What is the purpose of the prelodingStrategy property configuration in this router code?
 
 ```
 RouterModule.forRoot (
@@ -1084,7 +1087,7 @@ RouterModule.forRoot (
 - [ ] It ensures all modules get built into a single app module bundle file.
 - [ ] It configures the router to immediately load all routes that have a loadChildren property(routes that are typically loaded when requested)
 
-#### Q55. What is an alternative way to write this markup to bind the value of the class field `userName` to the `h1` element title property?
+#### Q56. What is an alternative way to write this markup to bind the value of the class field `userName` to the `h1` element title property?
 
 ```html
 <h1 [title]="userName">Current user is {{ userName }}</h1>
@@ -1095,7 +1098,7 @@ RouterModule.forRoot (
 - [ ] title="{{ 'userName' }}"
 - [ ] The only way to do it is by using the square brackets.
 
-#### Q56. What is the `async` pipe doing in this example?
+#### Q57. What is the `async` pipe doing in this example?
 
 ```ts
 @Component({
@@ -1116,7 +1119,7 @@ export class UsersComponent implements OnInit {
 - [x] It is subscribing to the observable returned from the `HttpClient.get` method and unwrapping the returned value so it can be iterated over in the `ngFor`.
 - [ ] It is allowing all of the users in the `users` field to be rendered concurrently to the DOM.
 
-#### Q57. How would you make use of this directive in markup based on its selector value
+#### Q58. How would you make use of this directive in markup based on its selector value
 
 ```ts
 @Directive({
@@ -1131,3 +1134,138 @@ export class TruncateDirective{
 - [x] `html <p appTruncate>Some long text</p> `
 - [ ] `html <p app-truncate>Some long text</p> `
 - [ ] `html <app-truncate>Some long text</app-truncate> `
+
+#### Q59. What lifecycle hook can be used on a component to monitor all changes to @Input values on that component?
+
+- [ ] ngOnInit
+- [ ] ngChanges
+- [ ] ngAfterInputChange
+- [x] ngOnChanges
+
+[How to detect when an @Input() value changes in Angular?](https://stackoverflow.com/a/44686085/1573267)
+
+#### Q60. What would be an example template syntax usage of this custom pipe?
+
+```ts
+@Pipe({ name: 'truncate' })
+export class TruncatePipe implements PipeTransform {
+	transform(value: string, maxLength: number, showEllipsis: boolean){
+		const newValue = maxLength ? value.substr(0, maxLength): value;
+		return showEllipsis ? '${newValue}...` : newValue;
+	}
+}
+```
+
+- [x] {( 'some long text' | truncate:10 })
+- [ ] {( 'some long text' | truncate:10:true })
+- [ ] {( 'some long text' | truncate })
+- [ ] all of these answers
+
+[do recheck the answers]
+
+#### Q61. Which Angular CLI command would you run to generate a UsersComponent and add it to the SharedModule (in file shared.module.ts in your application)?
+
+- [ ] ng generate component --newModule=shared
+- [ ] ng generate component users --module=shared
+- [ ] ng generate component users --shared
+- [ ] ng generate component --add=shared
+
+[do recheck the answers]
+
+#### Q62. How can you rewrite this markup so the div container is not needed in the final DOM render
+
+```javascript
+<div *ngIf="location">
+	<h1>{{ location.name }}</h1>
+	<p>{{ location.description }}</p>
+</div>
+```
+
+- [ ]
+
+```javascript
+<div *ngIf="location">
+	<h1>{{ location.name }}</h1>
+	<p>{{ location.description }}</p>
+{{ endNgIf }}
+```
+
+- [ ]
+
+```javascript
+<ng-template *ngIf="location">
+	<h1>{{ location.name }}</h1>
+	<p>{{ location.description }}</p>
+</ng-template>
+```
+
+- [ ]
+
+```javascript
+<div *ngIf="location" [display]=" ' hidden' ">
+	<h1>{{ location.name }}</h1>
+	<p>{{ location.description }}</p>
+</div>
+```
+
+- [x]
+
+```javascript
+<ng-container *ngIf="location">
+	<h1>{{ location.name }}</h1>
+	<p>{{ location.description }}</p>
+</ng-container>
+```
+
+[recheck answers]
+
+#### Q63. Describe the usage of this code:
+
+```javascript
+export interface AppSettings {
+  title: string;
+  version: number;
+}
+```
+
+- [ ] This code as an error since you cannot use a TypeScript interface for the generic type on the InjectionToken.
+- [ ] The InjectionToken is used to create a provider token for a non-class dependency. An object lieteral can be provided as a value for the APP_SETTINGS dependency provider type that can then be injected into components, services, etc.
+- [ ] The InjectionToken is adding an instance of the AppSettings to the roote provider via the the InjectionToken constructor call, making it auto available to all NgModules, services, and componentts throughtout the Angular application without the need to inject it anywhere.
+- [ ] The InjectionToken is used to create a dynamic decorator for the AppSettings that can be sed on constructor parameters via an @AppSettings decorator.
+
+[recheck answers]
+
+#### Q64. What Angular utilities, if any, are required to unit test a service with no constructor dependencies?
+
+- [ ] By.css() helper method is needed
+- [ ] A text fixture is required to run the service for the unit test.
+- [ ] None. A service can be instantiated and unit tested on its own.
+- [x] The TestBed class iss needed to instantiate the service.
+
+[Angular unit tests](https://angular.io/guide/testing-services) - recheck answers
+
+#### Q65. What is the difference between the CanActivate and the CanLoad route guards?
+
+- [ ] CanActivate is used to check access. CanLoad is used to preload data for the route.
+- [x] CanLoad is used at app startup to allow or deny routes to be added to the route table. CanActivate is used to manage access to routes at the time they are requested.
+- [ ] CanActivate and CanLoad do the exact same thing.
+- [ ] CanLoad prevents an entire NgModule from being delivered and loaded. CanActivate stops routing to a component in that NgModule, but that module is still loaded.
+
+[CanActivate vs Canload](https://stackoverflow.com/questions/42026045/difference-between-angulars-canload-and-canactivate#:~:text=canActivate%20is%20used%20to%20prevent,not%20authorized%20to%20do%20so.) CanActivate prevents access on routes, CanLoad prevents lazy loading.
+
+#### Q66. What is the outlet property used for in this router definition object?
+
+```javascript
+{
+	path: 'document',
+	component: DocumentComponent,
+	outlet: 'document-box'
+}
+```
+
+- [ ] it will locate all instancess of <document-box> in the DOM and inser a DocumentComponent element into them on route navigation.
+- [ ] It declares that the DocumentComponent can be used as a child to a <<document-box> element in addition ot being routed to.
+- [x] It us used to target a <router-outlet> element with the name attribute matching the string value as the location for the DocumentComponent to be rendered when routed to.
+- [ ] It is a source of power for the router. (definitely not the answer :P)
+
+[Angular-outlet](https://angular.io/api/router/RouterOutlet) - recheck answer

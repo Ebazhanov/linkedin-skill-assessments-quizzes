@@ -327,20 +327,7 @@ for i in 0...100 {
 - [x] all of these answers
 - [ ] an instance of an optional type
 
-#### Q31. What does this code print?
-
-```swift
-typealias Thing = [String:Any]
-var stuff : Thing
-print(type(of:stuff))
-```
-
-- [ ] Dictionary
-- [ ] ERROR
-- [ ] Thing
-- [x] Dictionary<String, Any>
-
-#### Q32. What is the value of t after this code is executed?
+#### Q31. What is the value of t after this code is executed?
 
 ```swift
 let names = ["Larry", "Sven", "Bear"]
@@ -788,17 +775,3 @@ let vt = (name: "ABC", val: 5)
 - [x] all of these answers
 - [ ] let x = vt.val
 - [ ] let (`_`, x) = vt
-
-#### Q70. What is wrong with this code?
-
-```swift
-class Person {
-    var name: String
-    var address: String
-}
-```
-
-- [ ] var `name`is not formatted correctly.
-- [x] `Person` has no initialisers.
-- [ ] 'Person` has no base class.
-- [ ] `address` is a keyword.

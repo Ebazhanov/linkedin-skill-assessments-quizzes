@@ -304,9 +304,23 @@
 - [ ] .xps
 - [ ] .pdf
 
-#### Q35.Which of the following is a type of shape data list from which users can select an entry or can enter a new value?
+#### Q35. Which of the following is a type of shape data list from which users can select an entry or can enter a new value?
 
 - [ ] Visio list
 - [ ] list
-- [x] variable list
+- [x] vari list
 - [ ] fixed list
+
+#### Q36. Which is not one of the seven properties in the Layer Properties dialog box?
+
+- [x] Lock
+- [ ] Group
+- [ ] Active
+- [ ] Color
+
+#### Q37. Where are the commands you need to change the position or alignment of the text block in a shape?
+
+- [x] on the **home** tab, in the **Paragraph** goup
+- [ ] on the **home** tab, in the **Tools** goup
+- [ ] on the **Design** tab, in the **Alignment** goup
+- [ ] on the **Design** tab, in the **Paragraph** goup

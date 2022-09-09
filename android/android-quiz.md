@@ -984,14 +984,16 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] Google Cloud module
 
 1. [Reference](https://youtu.be/QdfStuj-MuA?t=86)
-2. [Reference](https://developer.android.com/guide/playcore/feature-delivery/on-demand)
+2. [Reference](https://developer.android.com/guidgite/playcore/feature-delivery/on-demand)
 
 #### Q65. Which approach is not recommended for providing a useful offline state in your app?
 
 - [ ] caching data
 - [ ] storing data locally
 - [ ] queuing outbound requests to action when connectivity has been lost
-- [ ] always notifying users that connectivity has been lost
+- [x] always notifying users that connectivity has been lost
+
+[Reference](https://developer.android.com/docs/quality-guidelines/build-for-billions/connectivity#network-offline)
 
 #### Q66. If you need your app code to inspect information about the current build, which class should you use?
 
@@ -999,3 +1001,103 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] `BuildInfo`
 - [ ] `ConfigParams`
 - [ ] `ConfigInfo`
+
+#### Q67. In the ConstraintLayout below, why wouldn't button expand to fill the width of parent?
+
+```
+    xml
+    <androidx.constraintlayout.widget.ConstrantLayout
+        ...>
+	    <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstrantLayout>
+```
+
+- [ ] `The button does not have a size`
+- [x] `The button is not constrained to the end of the parent container`
+- [ ] `Buttons cannot expand beyond their default size`
+- [ ] `The button should have its height set to 0dp as well`
+
+#### Q68. What is not a use case for idling resources in your Espresso tests?
+
+- [ ] `managing system services`
+- [x] `processing user input events`
+- [ ] `loading data from the internet or a local data source`
+- [ ] `perfoming bitmap transformatinos`
+
+#### Q69. What is not a type of resource for providing your app with strings?
+
+- [ ] `String`
+- [x] `Text`
+- [ ] `String-array`
+- [ ] `Plurals`
+
+#### Q70. What is not in the activity lifecycle?
+
+- [ ] `onPause()`
+- [ ] `onResume()`
+- [x] `onOpen()`
+- [ ] `onStart()`
+
+#### Q71. You want to allow users to take a picture in your app. Which code snippet is the correct approach?
+
+- [ ]
+
+```
+  fun showCamera(view: View) {
+      Log.i(TAG, "Show camera button pressed.")
+      if (ContextCompat.shouldShowRequestPermissionRationale(thisActivity,
+      Manifest.permission.CAMERA) {
+        showCameraPreview()
+      }
+       else {
+         requestPermissionLauncher.launch(Manifest.permission.CAMERA)
+       }
+   }
+```
+
+- [x]
+
+```
+  fun showCamera(view: View) {
+      Log.i(TAG, "Show camera button pressed.")
+      if (ContextCompat.checkSelfPermission(thisActivity,
+      Manifest.permission.CAMERA)
+      == PackageManager.PERMISSION_GRANTED) {
+        showCameraPreview()
+      }
+      else {
+         requestPermissionLauncher.launch(Manifest.permission.CAMERA)
+      }
+  }
+```
+
+- []
+
+```
+  fun showCamera(view: View) {
+      Log.i(TAG, "Show camera button pressed.")
+      showCameraPreview()
+  }
+```
+
+- [ ]
+
+```
+  fun showCamera(view: View) {
+      Log.i(TAG, "Show camera button pressed.")
+      if (ContextCompat.checkSelfPermission(thisActivity,
+      Manifest.permission.CAMERA)
+      != PackageManager.PERMISSION_GRANTED) {
+         showCameraPreview()
+       }
+       else {
+          requestPermissionLauncher.launch(Manifest.permission.CAMERA)
+       }
+  }
+```

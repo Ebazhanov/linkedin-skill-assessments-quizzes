@@ -1,6 +1,6 @@
 ## jQuery
 
-#### Q1. What's the difference between these two snippets?
+#### Q1. What is the difference between these two snippets?
 
 ```js
 $('button').on('click', function () {
@@ -41,7 +41,7 @@ $('button').click(function () {
 `https://example.com/json-api/students`  
 `https://example.com/json-api/classes`
 
-- [ ]
+- [ ] A
 
 ```js
 $.get(
@@ -52,7 +52,7 @@ $.get(
 );
 ```
 
-- [ ]
+- [ ] B
 
 ```js
 $.when(
@@ -63,7 +63,7 @@ $.when(
 });
 ```
 
-- [ ]
+- [ ] C
 
 ```js
 $.bind(
@@ -74,7 +74,7 @@ $.bind(
 });
 ```
 
-- [x]
+- [x] D
 
 ```js
 $.ajax('https://example.com/json-api/students', {
@@ -117,7 +117,7 @@ $('#ball').click(function () {
 });
 ```
 
-- [x]
+- [x] A
 
 ```js
 $(this).animate(
@@ -131,7 +131,7 @@ $(this).animate(
 );
 ```
 
-- [ ]
+- [ ] B
 
 ```js
 $(this).animate({ top: '-=100', left: '-=100' }, 600, function () {
@@ -139,7 +139,7 @@ $(this).animate({ top: '-=100', left: '-=100' }, 600, function () {
 });
 ```
 
-- [ ]
+- [ ] C
 
 ```js
 $(this).animate(
@@ -153,7 +153,7 @@ $(this).animate(
 );
 ```
 
-- [ ]
+- [ ] D
 
 ```js
 $(this).animate({ top: '100', left: '100' }, 600, function () {
@@ -193,7 +193,7 @@ $.get('//example.com/api/v1/message').done(function (data) { var tonsOfItems = d
 all these messages to a large page });
 ```
 
-- [ ]
+- [ ] A
 
 ```js
 tonsOfItems.map(function (item) {
@@ -201,7 +201,7 @@ tonsOfItems.map(function (item) {
 });
 ```
 
-- [x]
+- [x] B
 
 ```js
 var tonsOfListItems = tonsOfItems.map(function (item) {
@@ -210,7 +210,7 @@ var tonsOfListItems = tonsOfItems.map(function (item) {
 $('.message-area--list').append(tonsOfListItems.join(''));
 ```
 
-- [ ]
+- [ ] C
 
 ```js
 CSS.$messageList = $('.message-area--list');
@@ -219,7 +219,7 @@ $.each(tonsOfItems, function (idx, item) {
 });
 ```
 
-- [ ]
+- [ ] D
 
 ```js
 $.each(tonsOfItems, function (idx, item) {
@@ -347,10 +347,10 @@ $.each(tonsOfItems, function (idx, item) {
 
 #### Q19. jQuery's AJAX functions return objects that implement the Promise API. As a result, you can chain promises and avoid nested callbacks. What does that look like?
 
-- [x]
+- [x] A
 
 ```js
-$.get('hhttp://httpbin.org/delay/2')
+$.get('http://httpbin.org/delay/2')
   .then(function (response) {
     // Data from first GET is here as 'response'
     return $.get('http://httpbin.org/delay/2');
@@ -360,10 +360,10 @@ $.get('hhttp://httpbin.org/delay/2')
   });
 ```
 
-- [ ]
+- [ ] B
 
 ```js
-$.get('hhttp://httpbin.org/delay/2')
+$.get('http://httpbin.org/delay/2')
   .catch(function (response) {
     // Data from first GET is here as 'response'
     return $.get('http://httpbin.org/delay/2');
@@ -373,10 +373,10 @@ $.get('hhttp://httpbin.org/delay/2')
   });
 ```
 
-- [ ]
+- [ ] C
 
 ```js
-$.get('hhttp://httpbin.org/delay/2', function (response1) {
+$.get('http://httpbin.org/delay/2', function (response1) {
   // Data from first GET is here as 'response1'
 
   $.get('http://httpbin.org/delay/2', function (response2) {
@@ -385,10 +385,10 @@ $.get('hhttp://httpbin.org/delay/2', function (response1) {
 });
 ```
 
-- [ ]
+- [ ] D
 
 ```js
-$.get('hhttp://httpbin.org/delay/2')
+$.get('http://httpbin.org/delay/2')
   .then(function (response) {
     // Data from first GET is here as 'response'
     return response;
@@ -406,7 +406,7 @@ $('#ball').click(function () {
 });
 ```
 
-- [ ]
+- [ ] A
 
 ```js
 $(this).animate(
@@ -427,7 +427,7 @@ $(this).animate(
 );
 ```
 
-- [x]
+- [x] B
 
 ```js
 $(this).animate(
@@ -450,7 +450,7 @@ $(this).animate(
 );
 ```
 
-- [ ]
+- [ ] C
 
 ```js
 $(this).animate(
@@ -471,7 +471,7 @@ $(this).animate(
 );
 ```
 
-- [ ]
+- [ ] D
 
 ```js
 $(this).animate(
@@ -506,7 +506,7 @@ $(this).animate(
 $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red');
 ```
 
-- [ ]
+- [ ] A
 
 ```html
 <div class="wrapper" style="border: 2px solid red;">
@@ -516,7 +516,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 </div>
 ```
 
-- [x]
+- [x] B
 
 ```html
 <div class="wrapper">
@@ -526,7 +526,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 </div>
 ```
 
-- [ ]
+- [ ] C
 
 ```html
 <div id="container" style="border: 2px solid red;">
@@ -536,7 +536,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 </div>
 ```
 
-- [ ]
+- [ ] D
 
 ```html
 <div id="container">
@@ -633,25 +633,25 @@ $(document).customPlugin();
 </ul>
 ```
 
-- [ ]
+- [ ] A
 
 ```js
 $('.menu-first > li').eq(0).css('font-weight', 'bold').eq(1).css('font-style', 'oblique');
 ```
 
-- [ ]
+- [ ] B
 
 ```js
 $('.menu-first > li').first().css('font-weight', 'bold').after().css('font-style', 'oblique');
 ```
 
-- [ ]
+- [ ] C
 
 ```js
 $('.menu-first > li').first().css('font-weight', 'bold').second().css('font-style', 'oblique');
 ```
 
-- [x]
+- [x] D
 
 ```js
 $('.menu-first > li').eq(0).css('font-weight', 'bold').next().css('font-style', 'oblique');
@@ -720,13 +720,13 @@ $('#sidebar').click(function (evt) {
 <div id="elements"></div>
 ```
 
-- [ ]
+- [ ] A
 
 ```js
 $('#elements').append($('<p class="appended">As an HTML string</p>'));
 ```
 
-- [ ]
+- [ ] B
 
 ```js
 var p = document.createElement('p');
@@ -735,13 +735,13 @@ p.appendChild(text);
 $('#elements').append(p);
 ```
 
-- [x]
+- [x] C
 
 ```js
 $('#elements').append(<p class="appended">As a JSX object</p>);
 ```
 
-- [ ]
+- [ ] D
 
 ```js
 $('#elements').append(
@@ -828,6 +828,9 @@ $('#menu').addClass(function () {
 - [ ] `$(document).on('ajax-complete', function() { console.count('An AJAX request completed'); });`
 - [ ] `$('body').on('ajaxComplete', function() { console.count('An AJAX request completed'); });`
 - [x] `$(document).ajaxComplete(function() { console.count('An AJAX request completed'); });`
+
+[Source: ajaxComplete](https://www.w3schools.com/jquery/ajax_ajaxcomplete.asp)
+**Explanation**: `Note: As of jQuery version 1.8, this method should only be attached to document.`
 
 #### Q43. Given this set of checkboxes, how can you select the one with the value "blimp"?
 
@@ -926,21 +929,14 @@ $('#type').animate(
 - [ ] The code inside them will be run exactly once per user session.
 - [ ] The code inside them is not aware of the DOM.
 
-#### Q49. Which property of the jQuery event object references the DOM object that dispatched an event?
-
-- [ ] self
-- [x] target
-- [ ] object
-- [ ] source
-
-#### Q50. Which describes how jQuery makes working with the DOM faster?
+#### Q49. Which describes how jQuery makes working with the DOM faster?
 
 - [ ] jQuery optimizes the DOM in a background thread, making updates faster.
 - [ ] jQuery avoids using the DOM at all.
 - [ ] jQuery uses a virtual DOM that batches updates, making inserts and deletes faster.
 - [x] jQuery code to perform DOM manipulation is shorter and easier to write, but does not make DOM operations faster.
 
-#### Q51. There are some issues with this snippet of jQuery. First, it is manipulating CSS directly, rather than manipulating classes and leaving the CSS in stylesheets. What else in this code is best to avoid?
+#### Q50. There are some issues with this snippet of jQuery. First, it is manipulating CSS directly, rather than manipulating classes and leaving the CSS in stylesheets. What else in this code is best to avoid?
 
 ```js
 $('.item').css('background-color', 'red');
@@ -955,21 +951,21 @@ $('.item').parents('.navigation').css('font-weight', 'bold');
 - [x] The call to `.parents()` is in an inefficient place.
 - [ ] All the calls to `$('.item')` should be chained together as a single executable line for better performance.
 
-#### Q52. Which choice is an example of statement chaining?
+#### Q51. Which choice is an example of statement chaining?
 
 - [ ] `var $p = $('p'); console.log($p.length);`
 - [x] `$('p').find('a').children('li');`
 - [ ] `$('p > a > li');`
 - [ ] `$('p'); $('a'); $('li');`
 
-#### Q53. How can you ensure that some code executes only when a class `active` appears on an element?
+#### Q52. How can you ensure that some code executes only when a class `active` appears on an element?
 
 - [ ] `$('.element').attr('class', 'active')`
 - [ ] `$('.element').with('.active')`
 - [x] `$('.element').hasClass('active')`
 - [ ] `$('.active').then()`
 
-#### Q54. jQuery has a main function for handling AJAX, and several shorthand function including `load()` that make calling that main function easier. Given this HTML snippet, how can you insert only the second snippet from the source.html file (`div#one`) into the `#load-me` div on-demand via AJAX?
+#### Q53. jQuery has a main function for handling AJAX, and several shorthand function including `load()` that make calling that main function easier. Given this HTML snippet, how can you insert only the second snippet from the source.html file (`div#one`) into the `#load-me` div on-demand via AJAX?
 
 ```html
 <div id="load-me">This area will be replaced with AJAX loaded content.</div>
@@ -992,7 +988,7 @@ $('.item').parents('.navigation').css('font-weight', 'bold');
 - [x] `$('#load-me').load('source.html #one');`
 - [ ] `$('#load-me').load('source.html', '#one');`
 
-#### Q55. Given this HTML list and subsequent two lines of jQuery, what is the difference in the behavior of `.closest()` and `.parents()`?
+#### Q54. Given this HTML list and subsequent two lines of jQuery, what is the difference in the behavior of `.closest()` and `.parents()`?
 
 ```html
 <ul class="items" id="main-menu">
@@ -1011,12 +1007,16 @@ $('.leaf').closest('.items');
 $('.leaf').parents('.items');
 ```
 
-- [x] `.closest()` returns `.leaf` and `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
+- [ ] `.closest()` returns `.leaf` and `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
 - [ ] `.closest()` returns `.leaf` and `#sub-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
 - [ ] `.closest()` returns only `#main-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
 - [ ] `.closest()` returns only `#sub-menu`; `.parents()` returns `#main-menu` and `#sub-menu`.
 
-#### Q56. What does this line of code do?
+[Source: jQuery closest Method](https://www.w3schools.com/jquery/traversing_closest.asp)
+
+**Explanation**: `Considering current HTML code, .closest() returns only #main-menu; .parents() returns only #main-menu; cause both of them are looking for .items class which only exist in the #main-menu. Thus all choices are incorrect. This can be seen using this snippet: $('.leaf').closest('.items').each(function(i, obj) {console.log(obj)}); $('.leaf').parents('.items').each(function(i, obj) {console.log(obj)}); `
+
+#### Q55. What does this line of code do?
 
 ```js
 $('ul > li:first-child');
@@ -1027,7 +1027,7 @@ $('ul > li:first-child');
 - [ ] selects the first element inside any list items on the page
 - [ ] creates a predefined CSS selector that can be reused later
 
-#### Q57. Below is a list of items that you want to be clickable and an event handler function. How can you assign the event handler to every item in the list in a way that is most performant, and also that ensures that the handler is called even if more items are added to the list programmatically?
+#### Q56. Below is a list of items that you want to be clickable and an event handler function. How can you assign the event handler to every item in the list in a way that is most performant, and also that ensures that the handler is called even if more items are added to the list programmatically?
 
 ```html
 <ul class="clickable-list">
@@ -1050,7 +1050,7 @@ function listResponder(evt) {
 - [ ] `$('.clickable-list').on('click, append', listResponder);`
 - [ ] `$('.clickable-list').each(function() { $(this).click(listResponder); });`
 
-#### Q58. What is the difference between $('p').find('a') and $('p').children('a')?
+#### Q57. What is the difference between $('p').find('a') and $('p').children('a')?
 
 - [ ] `find() traverses only one level down, whereas children() selects anything inside the original element`
 - [ ] `$('p').find('a') finds all paragraphs inside links, whereas $('p').children('a') finds links within paragraph tags`
@@ -1061,7 +1061,7 @@ function listResponder(evt) {
 
 **Explanation**:`Given a jQuery object that represents a set of DOM elements, the .find() method allows us to search through the descendants of these elements in the DOM tree and construct a new jQuery object from the matching elements. The .find() and .children() methods are similar, except that the latter only travels a single level down the DOM tree.`
 
-#### Q59. Consider the following markup, used to lay out three balls on the page, all hidden. How can you select the green ball, make it faded in over the course of three seconds, and log a console message when the animation has finished?
+#### Q58. Consider the following markup, used to lay out three balls on the page, all hidden. How can you select the green ball, make it faded in over the course of three seconds, and log a console message when the animation has finished?
 
 ```html
 <div class="balls">
@@ -1071,7 +1071,7 @@ function listResponder(evt) {
 </div>
 ```
 
-- [x]
+- [x] A
 
 ```JavaScript
 $('.ball--green').fadeIn(3000, function(){
@@ -1079,7 +1079,7 @@ $('.ball--green').fadeIn(3000, function(){
 });
 ```
 
-- [ ]
+- [ ] B
 
 ```JavaScript
 $('.ball--green').fade('in',3000).done(function(){
@@ -1087,13 +1087,13 @@ $('.ball--green').fade('in',3000).done(function(){
 });
 ```
 
-- [ ]
+- [ ] C
 
 ```JavaScript
 $('.ball--green').fadeIn(3).console().log("Animation is done!");
 ```
 
-- [ ]
+- [ ] D
 
 ```JavaScript
 $('.ball--green').fadeIn("3s", function(){
@@ -1105,7 +1105,7 @@ $('.ball--green').fadeIn("3s", function(){
 
 `Durations are given in milliseconds; higher values indicate slower animations, not faster ones. The strings 'fast' and 'slow' can be supplied to indicate durations of 200 and 600 milliseconds, respectively. If any other string is supplied, or if the duration parameter is omitted, the default duration of 400 milliseconds is used.`
 
-#### Q60. Why might you use custom events instead of shared helper functions? For example
+#### Q59. Why might you use custom events instead of shared helper functions? For example
 
 ```JavaScript
 $(document).on('myCustomEvent', function(){
@@ -1125,7 +1125,7 @@ $(document).trigger('myCustomEvent');
 
 `Instead of focusing on the element that triggers an action, custom events put the spotlight on the element being acted upon. This brings a bevy of benefits, including: Behaviors of the target element can easily be triggered by different elements using the same code. Behaviors can be triggered across multiple, similar, target elements at once. Behaviors are more clearly associated with the target element in code, making code easier to read and maintain.`
 
-#### Q61. In the HTML and JavaScript below, the animations will all fire at once. How can you make them fire in sequence instead?
+#### Q60. In the HTML and JavaScript below, the animations will all fire at once. How can you make them fire in sequence instead?
 
 ```html
 <div id="element-1" class="animel"></div>
@@ -1136,7 +1136,7 @@ $('#element-1').animate({ top: '+=100' }); $('#element-2').animate({ top: '+=100
 $('#element-3').animate({ top: '+=100' });
 ```
 
-- [ ]
+- [ ] A
 
 ```JavaScript
 $('#element-1').animate({ top: '+=100' })
@@ -1145,7 +1145,7 @@ $('#element-1').animate({ top: '+=100' })
     .pushStack('#element-3').animate({ top: '+=100' })
 ```
 
-- [x]
+- [x] B
 
 ```JavaScript
 $('#element-1').animate({ top: '+=100' }, function() {
@@ -1155,7 +1155,7 @@ $('#element-1').animate({ top: '+=100' }, function() {
 });
 ```
 
-- [ ]
+- [ ] C
 
 ```JavaScript
 $('#element-1').animate({ top: '+=100' })
@@ -1163,7 +1163,7 @@ $('#element-1').animate({ top: '+=100' })
     .add('#element-3').animate({ top: '+=100' })
 ```
 
-- [ ]
+- [ ] D
 
 ```JavaScript
 $('#element-1').animate({ top: '+=100' }, {queue: 'custom'});
@@ -1176,7 +1176,7 @@ $('custom').dequeue();
 
 `the .animate() method can take in a function to call once the animation is complete, called once per matched element. Which is called the complete option for the animate method`
 
-#### Q62. Given this checkbox, how can you determine whether a user has selected or cleared the checkbox?
+#### Q61. Given this checkbox, how can you determine whether a user has selected or cleared the checkbox?
 
 `<input type="checkbox" id="same-address" checked>`
 
@@ -1185,14 +1185,14 @@ $('custom').dequeue();
 - [ ] by checking the value of `$('#same-address').attr('checked')`
 - [ ] by checking the value of `$('#same-address').checked`
 
-#### Q63. In some projects, jQuery is not included as a file with an obvious version number (if it has been run through a minifier or other code bundler, for example). How can you detect programmatically what version of jQuery is active?
+#### Q62. In some projects, jQuery is not included as a file with an obvious version number (if it has been run through a minifier or other code bundler, for example). How can you detect programmatically what version of jQuery is active?
 
 - [ ] `jQuery.version()`
 - [ ] `jQuery.jquery`
 - [ ] `jQuery.prototype.version`
 - [x] `jQuery.fn.jquery`
 
-#### Q64. Given this snippet of HTML, how can you get the value of the text field using jQuery?
+#### Q63. Given this snippet of HTML, how can you get the value of the text field using jQuery?
 
 `<input type="text" class="form-control" id="firstName" placeholder="" value="" required="">`
 
@@ -1203,7 +1203,7 @@ $('custom').dequeue();
 
 `all the listed selectors will target the text field since it has a type=text, a class=form-control, and an id=firstName`
 
-#### Q65. Which property of the jQuery event object references the DOM object that dispatched an event?
+#### Q64. Which property of the jQuery event object references the DOM object that dispatched an event?
 
 - [x] target
 - [ ] self
@@ -1214,7 +1214,9 @@ $('custom').dequeue();
 
 `The target property can be the element that registered for the event or a descendant of it. It is often useful to compare event.target to this in order to determine if the event is being handled due to event bubbling.`
 
-#### Q66. You want to write a plugin that creates a new traversal function—such as parent() and children()—and behaves like the ones jQuery includes out of the box. It needs to correctly modify the list of selections jQuery tracks internally, build up a list of additional items, and return the merged collection. What do you need to return on the last line of the function in order for this plugin to work correctly?
+[Extra reading: Event Bubbling and capturing](https://stackoverflow.com/questions/4616694/what-is-event-bubbling-and-capturing)
+
+#### Q65. You want to write a plugin that creates a new traversal function—such as parent() and children()—and behaves like the ones jQuery includes out of the box. It needs to correctly modify the list of selections jQuery tracks internally, build up a list of additional items, and return the merged collection. What do you need to return on the last line of the function in order for this plugin to work correctly?
 
 ```JavaScript
 $.fn.myTraverse = function() {
@@ -1237,7 +1239,7 @@ $.fn.myTraverse = function() {
 
 [Extra Reading: bennadel.com](https://www.bennadel.com/blog/1739-using-pushstack-in-jquery-plugins-to-create-new-collections.htm)
 
-#### Q67. Given this snippet of HTML and jQuery code, what will the result look like?
+#### Q66. Given this snippet of HTML and jQuery code, what will the result look like?
 
 ```html
 <ul class="items">
@@ -1255,7 +1257,7 @@ $.fn.myTraverse = function() {
 
 `$('.items').find('.active').nextAll().addClass('after-active');`
 
-- [x]
+- [x] A
 
 ```html
 <ul class="items">
@@ -1271,7 +1273,7 @@ $.fn.myTraverse = function() {
 </ul>
 ```
 
-- [ ]
+- [ ] B
 
 ```html
 <ul class="items">
@@ -1287,7 +1289,7 @@ $.fn.myTraverse = function() {
 </ul>
 ```
 
-- [ ]
+- [ ] C
 
 ```html
 <ul class="items">
@@ -1303,7 +1305,7 @@ $.fn.myTraverse = function() {
 </ul>
 ```
 
-- [ ]
+- [ ] D
 
 ```html
 <ul class="items">
@@ -1324,9 +1326,9 @@ $.fn.myTraverse = function() {
 **.nextAll([selector]) method**
 `Gets all following siblings of each element in the set of matched elements, optionally filtered by a selector.`
 
-#### Q68. You have an element with a series of code (not CSS) animations applied to it that could be triggered by code you control, or other code elsewhere (such as plugins). How can you fire some code when all those animations have completed?
+#### Q67. You have an element with a series of code (not CSS) animations applied to it that could be triggered by code you control, or other code elsewhere (such as plugins). How can you fire some code when all those animations have completed?
 
-- [ ]
+- [x] A
 
 ```js
 $('#element').on('animationend', function () {
@@ -1334,7 +1336,7 @@ $('#element').on('animationend', function () {
 });
 ```
 
-- [ ]
+- [ ] B
 
 ```js
 $('#element')
@@ -1344,7 +1346,7 @@ $('#element')
   });
 ```
 
-- [ ]
+- [ ] C
 
 ```js
 $('#element')
@@ -1354,7 +1356,7 @@ $('#element')
   });
 ```
 
-- [ ]
+- [ ] D
 
 ```js
 $('#element')
@@ -1367,7 +1369,9 @@ $('#element')
 1. [Source: HTMLElement: animationend event | MDN ](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationend_event)
 2. [Example: Stackoverflow](https://stackoverflow.com/questions/49580666/check-if-an-css-animation-is-completed-with-jquery-or-js)
 
-#### Q69. HTML5 data attributes allow you to create valid custom attributes to store arbitrary data within DOM elements. jQuery has an API to interface with custom data such as the series of quotes below. How can you mark the second quote as your favorite?
+**Explanation**: `Although A is not complete as it could include animationend webkitAnimationEnd oAnimationEnd, other choices are incorrect. The last choice could be also correct if it were .promise().done instead`
+
+#### Q68. HTML5 data attributes allow you to create valid custom attributes to store arbitrary data within DOM elements. jQuery has an API to interface with custom data such as the series of quotes below. How can you mark the second quote as your favorite?
 
 ```html
 <div class="quotes">
@@ -1386,7 +1390,7 @@ $('#element')
 1. [Source: .data() | jQuery API Documentation](https://api.jquery.com/data/)
 2. [Source: :nth-child() | MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
 
-#### Q70. jQuery can create event handlers that execute exactly once. How is this done?
+#### Q69. jQuery can create event handlers that execute exactly once. How is this done?
 
 - [ ] `$('button').click(function() { console.log('this will only happen once'); }, false);`
 - [ ] `$('button').on('click', function() { console.log('this will only happen once'); }).off('click');`
@@ -1395,7 +1399,7 @@ $('#element')
 
 [Source: .one() | jQuery API Documentation](https://api.jquery.com/one/)
 
-#### Q71. You want to implement the behavior of an effect like `slideDown()` manually using `animate()`. What is one critical point you need to remember?
+#### Q70. You want to implement the behavior of an effect like `slideDown()` manually using `animate()`. What is one critical point you need to remember?
 
 - [ ] `slideDown()` requires animating the background color; doing so with `animate()` requires the jQuery Color plugin.
 - [x] `slideDown()` includes toggling visibility automatically. `animate()` does not automatically set any properties.
@@ -1406,7 +1410,7 @@ $('#element')
 
 [Source: .animate() | jQuery API Documentation](https://api.jquery.com/animate/)\
 
-#### Q72. What is the main difference between the `contents()` and `children()` functions?
+#### Q71. What is the main difference between the `contents()` and `children()` functions?
 
 - [ ] They both return the content of selected nodes, but `children()` also includes text and comment nodes.
 - [ ] The `contents()` function only includes text nodes of the selected elements.
@@ -1416,16 +1420,16 @@ $('#element')
 1. [Source: .children() | jQuery API Documentation](https://api.jquery.com/children/)
 2. [Source: .contents() | jQuery API Documentation](https://api.jquery.com/contents/)
 
-#### Q73. If you JavaScript project involves a lot of DOM manipulation, but no AJAX or animation, which version of jQuery should you use?
+#### Q72. If your JavaScript project involves a lot of DOM manipulation, but no AJAX or animation, which version of jQuery should you use?
 
 - [ ] jQuery 3 compressed
 - [ ] jQuery 3 slim
 - [ ] jQuery 2
 - [x] None of these - jQuery requires AJAX
 
-#### Q74. The `.ready()` function is one of the most basic parts of jQuery, but jQuery also provides a mechanism for executing code when both one or more Promises have resolved and the DOM is ready. Which code snippet accomplishes this?
+#### Q73. The `.ready()` function is one of the most basic parts of jQuery, but jQuery also provides a mechanism for executing code when both one or more Promises have resolved and the DOM is ready. Which code snippet accomplishes this?
 
-[ ] - A
+- [ ] A
 
 ```js
 $(function({
@@ -1436,35 +1440,128 @@ $(function({
 });
 ```
 
-[ ] - B
+- [ ] B
 
 ```js
-$(
-    $.get('http://httpbin.org/get'),
-    $.get('http://httpbin.org/delay/3')
- ).then(function(getData, delayedData)  {
-    //DOM is ready, getData and delayedData are available
+$($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(function (
+  getData,
+  delayedData,
+) {
+  //DOM is ready, getData and delayedData are available
 });
 ```
 
-[ ] - C
+- [ ] C
 
 ```js
-$.when(
-    $.get('http://httpbin.org/get'),
-    $.get('http://httpbin.org/delay/3')
- ).then(function(getData, delayedData)  {
-    //DOM is ready, getData and delayedData are available
+$.when($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(function (
+  getData,
+  delayedData,
+) {
+  //DOM is ready, getData and delayedData are available
 });
 ```
 
-[x] - D
+- [x] D
 
 ```js
-$.ready(
-    $.get('http://httpbin.org/get'),
-    $.get('http://httpbin.org/delay/3')
- ).then(function(getData, delayedData)  {
-    //DOM is ready, getData and delayedData are available
+$.ready($.get('http://httpbin.org/get'), $.get('http://httpbin.org/delay/3')).then(function (
+  getData,
+  delayedData,
+) {
+  //DOM is ready, getData and delayedData are available
 });
 ```
+
+#### Q74. You want to take an element and any event handlers that go with it out of the DOM to do some work—without the changes affecting the rest of the page—and then move it somewhere else in the DOM, like right after the opening tag. What should go on the first line of this code snippet?
+
+```js
+// what goes here?
+// ... do some other hidden work on $example
+$example.prependTo(document.body);
+```
+
+- [ ] `var $example = $('#example').remove();`
+- [ ] `var $example = $('#example').clone();`
+- [x] `var $example = $('#example').detach();`
+- [ ] `var $example = $('#example').addBack().empty();`
+
+https://api.jquery.com/detach/
+
+#### Q75. Review the HTML below. You want to select the first item in the list and fade it out, then select the subsequent items up to (but not including) the active item, and fade them out halfway. How can you set up a single chain to do this?
+
+```html
+<ul class="items">
+  <li>Item 1</li>
+  <li>Item 2</li>
+  <li>Item 3</li>
+  <li class="active">Item 4</li>
+  <li>Item 5</li>
+  <li>Item 6</li>
+</ul>
+```
+
+- [x] A
+
+```js
+$('.items > li').first().fadeOut().nextUntil('.active').fadeTo('fast', 0.5);
+```
+
+- [ ] B
+
+```js
+$('.items').children(':first-child').fadeOut().filter('.active').fadeTo('fast', 0.5);
+```
+
+- [ ] C
+
+```js
+$('.items > li').first().fadeOut().nextAll('.active').fadeOut(50);
+```
+
+- [ ] D
+
+```js
+$('.items').find('li:first-child').fadeOut().next('.active').fadeTo('fast', 0.5);
+```
+
+1. https://api.jquery.com/fadeTo/
+2. https://api.jquery.com/fadeOut/
+3. https://api.jquery.com/nextUntil/
+
+#### Q76. What is a particular performance concern when dealing with event handlers, and how can you cope with it?
+
+- [ ] Finding which element an event occurred on is expensive. Assign most events to document.body and use .is() to act on the element of interest.
+- [x] Some events, such as mousemove and scroll, happen a lot on a typical page. Debounce or throttle their handlers to make sure the handlers are not called more than you actually need.
+- [ ] Listening for an event that does not exist can create serious memory leaks. Be careful to spell event names correctly to avoid consuming too much memory.
+- [ ] DOM elements with an ID wil fire events more efficiently than with classes. Always use IDs instead of classes where possible.
+
+#### Q77. What is the purpose of the jQuery.fx.off global property?
+
+- [ ] It turns off animations that are used to provide motion effect, but appearance effects remain enabled.
+- [ ] It causes animation effects that are triggered via functions to instead be executed using CSS.
+- [x] It globally disables all animations. When animations are run, all animation methods will immediately set elements to their final state when called, rather than displaying an effect.
+- [ ] It globally disables animations that are triggered by CSS class changes.
+
+[Source: jQuery.fx.off Property](https://www.w3schools.com/jquery/prop_jquery_fx_off.asp)
+
+#### Q78. When you use custom Jquery selection extensions, such as :animated, on a page with lots of DOM elements, you can run into performance issues. What is the best practice for managing those issues?
+
+- [ ] Select `$(document.body)` first, then use .filter with the custom extension.
+- [ ] Use the custom extension with `.has()`.
+- [ ] Start with the custom extension, then use `.find` with a selector that exists in CSS to limit the selection.
+- [ ] Start with a selection that exists in CSS, then refine the selection using `.filter()` with the custom extension.
+
+#### Q79. What is the main difference between the ajaxStop and ajaxComplete global handlers?
+
+- [x] ajaxStop fires when all open requests have completed, while ajaxComplete fires when an individual request completes.
+- [ ] There is no difference. They are aliases of each other.
+- [ ] ajaxStop fires when an error has been encountered, while ajaxComplete fires when a successful request completes.
+- [ ] ajaxComplete fires when all open requests have completed, while ajaxStop fires when an individual request completes.
+
+#### Q80. The :only-child selector selects **\_**.
+
+- [ ] all elements that are child elements.
+- [ ] elements that have no siblings.
+- [ ] elements that have only one child element.
+- [x] only the child elements of a given element.

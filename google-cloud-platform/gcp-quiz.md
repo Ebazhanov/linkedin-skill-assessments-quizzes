@@ -121,119 +121,119 @@ Note: Free trial doesn't have the organizations.
 - [ ] Redis and PostgreSQL
 - [x] MySQL and PostgreSQL
 
-#### Q19. You want to quickly test a single Docker container image that will start a stateless HTTP service on GCP. Which service do you select to host your container image?
+#### Q18. You want to quickly test a single Docker container image that will start a stateless HTTP service on GCP. Which service do you select to host your container image?
 
 - [ ] Cloud Run
 - [ ] Cloud Run on Google Kubernetes Engine
 - [ ] Cloud Functions
 - [x] Google Kubernetes Engine
 
-#### Q20. You want to develop Firebase security rules following Google best practices. Which tool(s) do you use?
+#### Q19. You want to develop Firebase security rules following Google best practices. Which tool(s) do you use?
 
 - [x] Firebase Emulator
 - [ ] Firebase Emulator and GCP Rules Simulator
 - [ ] GCP policy emulator and Firebase Rules Simulator
 - [ ] Firebase Emulator and Firebase Rules Simulator
 
-#### Q21. You want to build an application with conversation interpretation based on machine learning speech understanding. Which service is a best fit for this scenario?
+#### Q20. You want to build an application with conversation interpretation based on machine learning speech understanding. Which service is a best fit for this scenario?
 
 - [x] Dialogflow
 - [ ] Natural Language Translation
 - [ ] Speech API
 - [ ] AutoML Natural Language
 
-#### Q22. Which service must you enable on your GKE cluster in order to use Cloud Run on Google Kubernetes Engine (GKE)?
+#### Q21. Which service must you enable on your GKE cluster in order to use Cloud Run on Google Kubernetes Engine (GKE)?
 
 - [x] Stackdriver
 - [ ] Istio
 - [ ] Knative
 - [ ] Spinnaker
 
-#### Q23. How can you enable clients inside a GKE cluster to be able to contact Pods?
+#### Q22. How can you enable clients inside a GKE cluster to be able to contact Pods?
 
 - [ ] Configure the clients to connect via the default cluster IP.
 - [ ] Configure an external name. Configure the clients to connect via the external name.
 - [x] Configure a node port. COnfigure the clients to connect via the node port.
 - [ ] Configure a load balancer. Configure the clients to connect via the load balancer.
 
-#### Q24. You want to capture the message acknowledgment state of a subscription at a given time. What do you do?
+#### Q23. You want to capture the message acknowledgment state of a subscription at a given time. What do you do?
 
 - [ ] Create a Cloud Pub/Sub subscription backup.
 - [ ] Create a Cloud Pub/Sub subscription topic.
 - [x] Create a Cloud Pub/Sub subscription snapshot.
 - [ ] Create a Cloud Pub/Sub subscription.
 
-#### Q25. You need to set a bucket storage class for data that will be accessed once a month or less. Which type do you select?
+#### Q24. You need to set a bucket storage class for data that will be accessed once a month or less. Which type do you select?
 
 - [ ] coldline
 - [ ] multi-regional
 - [ ] regional
 - [x] nearline
 
-#### Q26. Which command copies a file named test.txt to a Cloud Storage bucket named myBucket?
+#### Q25. Which command copies a file named test.txt to a Cloud Storage bucket named myBucket?
 
 - [ ] `gcloud cp gs://myBucket test.txt`
 - [ ] `gsutil cp gs://myBucket test.txt`
 - [ ] `gcloud cp test.txt gs://myBucket`
 - [x] `gsutil cp test.txt gs://myBucket`
 
-#### Q27. Which command adds a column family named `cf1` to your Bigtable table named `my-table`?
+#### Q26. Which command adds a column family named `cf1` to your Bigtable table named `my-table`?
 
 - [ ] `cbt createfamily cf1 my-table`
 - [x] `cbt createfamily my-table cf1`
 - [ ] `gcloud createfamily cf1 my-table cf1`
 - [ ] `gcloud createfamily my-table cf1`
 
-#### Q28. Which command do you use to connect to a running Compute Engine instance with SSH?
+#### Q27. Which command do you use to connect to a running Compute Engine instance with SSH?
 
 - [ ] `gcloud ssh compute [instance_name] --zone=[zone]`
 - [ ] `compute ssh connect [instance_name] --zone=[zone]`
 - [x] `gcloud compute ssh [instance_name] --zone=[zone]`
 - [ ] `compute connect ssh [instance_name] --zone=[zone]`
 
-#### Q29. You need to set CORS for some objects in a bucket for a client-side application. What do you do?
+#### Q28. You need to set CORS for some objects in a bucket for a client-side application. What do you do?
 
 - [ ] Segment the objects into two buckets. For the CORS objects, set the CORS policy at the bucket level.
 - [x] Segment the objects into two buckets. For the CORS objects, set the CORS policy at the bucket level. Add client-side code to handle the requests.
 - [ ] Leave the objects in one bucket. Set the CORS policy at the object level.
 - [ ] Leave the objects in one bucket. Set the CORS policy at the object level. Add client-side code to handle the requests.
 
-#### Q30. For your application, you are building a CI/CD pipeline that logs information when a message is sent to a queue. Which services should you select?
+#### Q29. For your application, you are building a CI/CD pipeline that logs information when a message is sent to a queue. Which services should you select?
 
 - [ ] Cloud Functions and Cloud Spanner
 - [x] Cloud Functions and Cloud Pub/Sub
 - [ ] Cloud Run and Cloud Pub/Sub
 - [ ] Cloud Run and Cloud Spanner
 
-#### Q31. You need to create instances with identical configurations that cannot be changed. Which Compute Engine feature do yo use?
+#### Q30. You need to create instances with identical configurations that cannot be changed. Which Compute Engine feature do yo use?
 
 - [x] instance templates
 - [ ] instance groups
 - [ ] snapshots
 - [ ] instances
 
-#### Q32. You want to automatically perform security scans on user-developed containers. Where should you advise your users to host their containers?
+#### Q31. You want to automatically perform security scans on user-developed containers. Where should you advise your users to host their containers?
 
 - [x] Google Container Registry
 - [ ] GitLab
 - [ ] Artifactory
 - [ ] Docker Hub
 
-#### Q33. You need to control incoming and outgoing traffic to a Compute Engine instance. What do yo do?
+#### Q32. You need to control incoming and outgoing traffic to a Compute Engine instance. What do yo do?
 
 - [x] Configure firewall rules.
 - [ ] Configure VPC Network Peering.
 - [ ] Configure routes.
 - [ ] Configure external IP addresses.
 
-#### Q34. Which object is a container for GCP services instances?
+#### Q33. Which object is a container for GCP services instances?
 
 - [ ] group
 - [ ] folder
 - [x] project
 - [ ] organization
 
-#### Q35. What is needed to access GCP APIs in your project?
+#### Q34. What is needed to access GCP APIs in your project?
 
 - [ ] GCP VMs
 - [ ] GCP buckets
@@ -242,7 +242,7 @@ Note: Free trial doesn't have the organizations.
 
 [reference link](https://cloud.google.com/endpoints/docs/openapi/enable-api)
 
-#### Q36. Which object is used to hold payment information for a GCP project?
+#### Q35. Which object is used to hold payment information for a GCP project?
 
 - [ ] organization
 - [x] billing account
@@ -251,7 +251,7 @@ Note: Free trial doesn't have the organizations.
 
 [reference link](https://cloud.google.com/billing/docs/images/billing-project.png)
 
-#### Q37. You need to cache your HTTP and HTTPS static content closer to users, so that you can get faster delivery and reduce serving costs. Which service do you set up?
+#### Q36. You need to cache your HTTP and HTTPS static content closer to users, so that you can get faster delivery and reduce serving costs. Which service do you set up?
 
 - [ ] Cloud DNS
 - [ ] Cloud NAT
@@ -260,7 +260,7 @@ Note: Free trial doesn't have the organizations.
 
 [reference link](https://cloud.google.com/cdn/docs/caching)
 
-#### Q38. You are designing security for an IoT device application. What best practices should you include in your design?
+#### Q37. You are designing security for an IoT device application. What best practices should you include in your design?
 
 - [ ] Use a private key for each device. Keep the private key secret.
 - [ ] Use a public key for each device. Keep the public key secret.
@@ -269,28 +269,28 @@ Note: Free trial doesn't have the organizations.
 
 [reference link](https://cloud.google.com/iot/docs/concepts/device-security)
 
-#### Q39. You need to set a WordPress site with high availability on GCP using the fewest steps. What do you do?
+#### Q38. You need to set a WordPress site with high availability on GCP using the fewest steps. What do you do?
 
 - [ ] Configure and launch the WordPress HA deployment template from the GCP Marketplace.
 - [ ] Configure and launch the WordPress HA deployment template from the WordPress Marketplace.
 - [x] Create, configure, and launch a WordPress HA deployment template on Compute Engine.
 - [ ] Create, configure, and launch a WordPress HA deployment template on Google Kubernetes Engine.
 
-#### Q41. How do you configure Cloud Build to rebuild your image when a change is made to the source code?
+#### Q39. How do you configure Cloud Build to rebuild your image when a change is made to the source code?
 
 - [x] Add a Cloud Build trigger, and set it to fire on commit to associate repository.
 - [ ] Add a Cloud Build function, and set it to fire on commit to associate repository.
 - [ ] Add a Cloud Build trigger, and set it to fire on commit to associate registry.
 - [ ] Add a Cloud Build function, and set it to fire on commit to associate registry.
 
-#### Q42. To be able to decrypt files that were encrypted with a customer-manager key, what conditions must be met?
+#### Q40. To be able to decrypt files that were encrypted with a customer-manager key, what conditions must be met?
 
 - [x] Specify the decryption key with the same name as the encryption key. At least one version of a key with that name must be enabled.
 - [ ] Specify a decryption key and version with the same name as the encryption key and version. The name key and that version must be enabled.
 - [ ] Specify the decryption key with the same name as the encryption key. The named key and that version must be enabled.
 - [ ] Specify a decryption key and version with the same name as the encryption key and version. At least one version of a key with that name must be enabled.
 
-#### Q43. You want to encrypt a Compute Engine. What do you need to do?
+#### Q41. You want to encrypt a Compute Engine. What do you need to do?
 
 - [x] Nothing. Images are encrypted by default with a Google-managed key.
 - [ ] Nothing. Images are encrypted by default with a customer-managed key.
@@ -299,7 +299,7 @@ Note: Free trial doesn't have the organizations.
 
 [Reference](https://cloud.google.com/compute/docs/disks/customer-supplied-encryption)
 
-#### Q44. You want to quickly evaluate Cloud Filestore. What are the steps, in order, to set up a test environment?
+#### Q42. You want to quickly evaluate Cloud Filestore. What are the steps, in order, to set up a test environment?
 
 - [ ]
   ```
@@ -332,7 +332,7 @@ Note: Free trial doesn't have the organizations.
 
 [Reference](https://cloud.google.com/filestore/docs/quickstart-console)
 
-#### Q45. You need to optimize spending for always-on Compute Engine virtual machines of certain sizes and types-with minimum effort. What do you do?
+#### Q43. You need to optimize spending for always-on Compute Engine virtual machines of certain sizes and types-with minimum effort. What do you do?
 
 - [ ] Analyze machine usage to verify that machines will be on for more that 25% of the time, and verify that contained use discounts have been automatically applied to your bill.
 - [x] Analyze machine usage to verify that machines will be on for more that 25% of the time, and verify that sustained use discounts have been automatically applied to your bill.
@@ -341,28 +341,28 @@ Note: Free trial doesn't have the organizations.
 
 [Reference](https://cloud.google.com/compute/docs/sustained-use-discounts)
 
-#### Q46. You are designing a GCP replacement for your on-premises data warehouse. Which service do you select?
+#### Q44. You are designing a GCP replacement for your on-premises data warehouse. Which service do you select?
 
 - [ ] Cloud SQL
 - [ ] Bigtable
 - [ ] Cloud Spanner
 - [x] BigQuery
 
-#### Q47. How can you quickly back up a persistent disk on Compute Engine?
+#### Q45. How can you quickly back up a persistent disk on Compute Engine?
 
 - [x] Take a snapshot
 - [ ] Create an instance group
 - [ ] Create an instance template
 - [ ] Create an image
 
-#### Q48. You are implementing IAM roles for your organization following GCP best practice. Which statement best reflects this?
+#### Q46. You are implementing IAM roles for your organization following GCP best practice. Which statement best reflects this?
 
 - [ ] At minimum, you should have two levels of access: one for admins, one for users.
 - [ ] At minimum, you should have three levels of access: one for networking, one for security, one for developers.
 - [x] At minimum, you should have three levels of access: one for admins, one for security, one for users.
 - [ ] At minimum, you should have two levels of access: one for networking, one for developers.
 
-#### Q49. You need to quickly build an application that logs all file uploads to a Cloud Storage bucket. Which service do you select?
+#### Q47. You need to quickly build an application that logs all file uploads to a Cloud Storage bucket. Which service do you select?
 
 - [x] Cloud Functions
 - [ ] Cloud Run
@@ -371,7 +371,7 @@ Note: Free trial doesn't have the organizations.
 
 [Reference](https://cloud.google.com/functions#all-features)
 
-#### Q50. You need to answer the question "How long does it take my application to handle a given request?" What do you do?
+#### Q48. You need to answer the question "How long does it take my application to handle a given request?" What do you do?
 
 - [ ] Configure Stackdriver Error Reporting.
 - [ ] Configure Stackdriver Profiler.
@@ -380,14 +380,14 @@ Note: Free trial doesn't have the organizations.
 
 [Reference](https://stackoverflow.com/questions/69434714/how-to-use-stackdriver-on-gcp-to-get-how-long-does-it-take-to-process-a-request)
 
-#### Q51. You want to select a fully managed, serverless platform for developing and hosting web applications at scale on GCP. Which service should you choose?
+#### Q49. You want to select a fully managed, serverless platform for developing and hosting web applications at scale on GCP. Which service should you choose?
 
 - [x] Google App Engine.
 - [ ] Cloud Functions.
 - [ ] Google Kubernetes Engine.
 - [ ] Google Compute Engine.
 
-#### Q52. You have a set of exploratory queries that you want to run as inexpensively as possible in BigQuery. What should you do?
+#### Q50. You have a set of exploratory queries that you want to run as inexpensively as possible in BigQuery. What should you do?
 
 - [ ] Set the job priority for each query to Batch and expect to see query results immediately.
 - [x] Set the job priority for each query to Interactive and expect to see query results immediately.
@@ -398,9 +398,48 @@ Explanation: _BigQuery offers a choice of two pricing models for runnig queries:
 
 [Reference](https://cloud.google.com/bigquery/pricing)
 
-#### Q53. How do you run a Docker container image on a Google Compute Engine virtual machine?
+#### Q51. How do you run a Docker container image on a Google Compute Engine virtual machine?
 
 - [ ] Create a VM instance, and then SSH into the instance and install Kubernetes tools.
 - [ ] Create a VM instance, and then SSH into the instance and install Docker tools.
 - [ ] Create a VM instance and, in the web UI, select Allow HTTP traffic.
-- [ ] Create a VM instance and, in the web Ul, select Deploy a container image to this instance.
+- [x] Create a VM instance and, in the web Ul, select Deploy a container image to this instance.
+
+#### Q52. To configure a GCP Organization, which item should you create first?
+
+- [x] Admin account
+- [ ] Super Admin account
+- [ ] multi-factor authentication
+- [ ] recovery password
+
+#### Q53. Which container(s) does Google Kubernetes Engine support?Which container(s) does Google Kubernetes Engine support?
+
+- [ ] Docker or Singularity
+- [ ] Docker, Singularity, or containerd
+- [ ] Singularity only
+- [x] Docker only
+
+#### Q54. Cloud Genomics enables pipelines to run on top of which GCP service?Cloud Genomics enables pipelines to run on top of which GCP service?
+
+- [x] Cloud Dataflow
+- [ ] Google Kubernetes Engine
+- [ ] Cloud Dataproc
+- [ ] Compute Engine
+
+#### Q55. You want to encrypt a Compute Engine image. What do you need to do ?
+
+- [ ] Nothing. Images are encrypted by default with a Google - managed key.
+- [ ] Associate your image with the default Google-managed key to encrypt it.
+- [ ] Nothing. Images are encrypted by default with a customer-managed key.
+- [x] Associate your image with a customer-managed key to encrypt it.
+
+Explanation: Google does not store your keys on its servers and cannot access your protected data unless you provide the key. This also means that if you forget or lose your key, there is no way for Google to recover the key or to recover any data encrypted with the lost key.
+
+[Reference](https://cloud.google.com/compute/docs/disks/customer-supplied-encryption)
+
+#### Q56. You want to build a data lake application on GCP. Which two services should you use?
+
+- [ ] Cloud Storage and Cloud Spanner
+- [x] Cloud Storage and Big Query
+- [ ] Cloud Pub/Sub and Cloud Spanner
+- [ ] Cloud Pub/Sub and Big Query

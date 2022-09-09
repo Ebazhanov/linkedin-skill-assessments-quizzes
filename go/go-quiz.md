@@ -130,7 +130,7 @@ func main() {
 
 [Go Playground](https://play.golang.org/p/RdL6y3Zv8ke)
 
-#### Q11. What does a `sync.Mutex` block white it is locked?
+#### Q11. What does a `sync.Mutex` block while it is locked?
 
 - [ ] all goroutines
 - [x] any other call to lock that `Mutex`
@@ -419,21 +419,14 @@ Relevant excerpt from the article:
 
 Explanation: There is defined neither log.ERROR, nor log.Error() in [log package](https://pkg.go.dev/log); log.Print() arguments are handled in the manner of fmt.Print(); log.Printf() arguments are handled in the manner of fmt.Printf().
 
-#### Q34. How does a `sync.Mutex` block while it is locked?
-
-- [x] any other call to lock that Mutex
-- [ ] all goroutines
-- [ ] any writes to the variable it is locking
-- [ ] any reads or writes of the variable is it locking
-
-#### Q35. Which file names will the `go test` command recognize as test files?
+#### Q34. Which file names will the `go test` command recognize as test files?
 
 - [ ] any that starts with `test`
 - [ ] any files that include the word `test`
 - [ ] only files in the root directory that end in `_test.go`
 - [x] any that ends in `_test.go`
 
-#### Q36. What will be the output of this code?
+#### Q35. What will be the output of this code?
 
 ```
 ch := make(chan int)
@@ -447,7 +440,7 @@ fmt.Println(val)
 - [ ] It will not compile
 - [ ] 2.718
 
-#### Q37. What will be the output of this program?
+#### Q36. What will be the output of this program?
 
 ```
 ch := make(chan int)
@@ -461,20 +454,20 @@ fmt.Println(val)
 - [x] 0
 - [ ] NaN
 
-#### Q38. What will be printed in this code?
+#### Q37. What will be printed in this code?
 
 ```
 var stocks map[string]float64 // stock -> price
 price := stocks["MSFT"]
-fmt.Println("%f\n", price)
+fmt.Printf("%f\n", price)
 ```
 
-- [x] 0
-- [ ] 0.000000
+- [ ] 0
+- [x] 0.000000
 - [ ] The code will panic
 - [ ] NaN
 
-#### Q39. What is the common way to have several executables in your project?
+#### Q38. What is the common way to have several executables in your project?
 
 - [x] Have a cmd directory and a directory per executable inside it.
 - [ ] Comment out main.
@@ -485,7 +478,7 @@ fmt.Println("%f\n", price)
 2. [medium](https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091)
 3. [medium](https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2)
 
-#### Q40. How can you compile main.go to an executable that will run on OSX arm64 ?
+#### Q39. How can you compile main.go to an executable that will run on OSX arm64 ?
 
 - [ ] Set GOOS to **arm64** and GOARCH to **darwin**.
 - [ ] Set GOOS to **osx** and GOARCH to **arm64**.
@@ -494,14 +487,16 @@ fmt.Println("%f\n", price)
 
 [documentation](https://pkg.go.dev/cmd/go#hdr-Build_constraints)
 
-#### Q41. What is the correct syntax ta start a goroutine that will `print Hello Gopher!`?
+#### Q40. What is the correct syntax to start a goroutine that will `print Hello Gopher!`?
 
 - [ ] `go(fmt.Println("Hello Gopher!"))`
 - [ ] `go func() { fmt.Println("Hello Gopher!") }`
-- [ ] `go fmt.Println("Hello Gopher!")`
+- [x] `go fmt.Println("Hello Gopher!")`
 - [ ] `Go fmt.Println("Hello Gopher!")`
 
-#### Q42. If you iterate over a map in a for range loop, in which order will the key:value pairs be accessed?
+[Example of start a goroutine](https://go.dev/play/p/KGgnAWpZMrS)
+
+#### Q41. If you iterate over a map in a for range loop, in which order will the key:value pairs be accessed?
 
 - [x] in pseudo-random order that cannot be predicted
 - [ ] in reverse order of how they were added, last in first out
@@ -510,9 +505,68 @@ fmt.Println("%f\n", price)
 
 [Reference](https://go.dev/ref/spec#:~:text=The%20iteration%20order%20over%20maps%20is%20not%20specified)
 
-#### Q43. What is an idiomatic way to customize the representation of a custom struct in a formatted string?
+#### Q42. What is an idiomatic way to customize the representation of a custom struct in a formatted string?
 
 - [ ] There is no customizing the string representation of a type.
 - [ ] Build it in pieces each time by calling individual fields.
-- [ ] Implement a method `String()` string
+- [x] Implement a method `String()` string
 - [ ] Create a wrapper function that accepts your type and outputs a string.
+
+[Reference](https://go.dev/doc/effective_go#printing)
+
+#### Q43. How can you avoid a goroutine leak in this code?
+
+```
+func findUser(ctx context.Context, login string) (*User, error) {
+	ch := make(chan *User)
+	go func() {
+		ch <- findUserInDB(login)
+	}()
+
+	select {
+	case user := <-ch:
+		return user, nil
+	case <-ctx.Done():
+		return nil, fmt.Errorf("timeout")
+	}
+}
+```
+
+- [ ] Use a sync.WaitGroup.
+
+- [ ] Make ch a buffered channel.
+
+- [ ] Add a default case to the select.
+
+- [ ] Use runtime.SetFinalizer.
+
+Explanation: I am not sure, but I believe we can avoid the goroutine leak by adding a default case to the select statement. The leak happens because if the context timeout is not set correctly and if findUserInDB stalls or is slow, then the findUser function will just stay at the select statement, waiting for something to happen. We can get rid of this waiting by adding a default case, but since the function would just execute the default case every time without waiting for the goroutine, I don't believe this function would do what is intended.
+
+#### 44. What will this code print?
+
+var i int8 = 120
+i += 10
+fmt.Println(i)
+
+- [x] -126
+- [ ] 0
+- [ ] NaN
+- [ ] 130
+
+#### 45. Given the definition of worker below, what is the right syntax to start a start a goroutine that will call worker and send the result to a channel named ch?
+
+func worker(m Message) Result
+
+- [ ] go func() {
+      r := worker(m)
+      ch <- r
+      }
+- [ ] go func() {
+      r := worker(m)
+      r -> ch
+      } ()
+- [x] go func() {
+      r := worker(m)
+      ch <- r
+      } ()
+- [ ] go ch <- worker(m)

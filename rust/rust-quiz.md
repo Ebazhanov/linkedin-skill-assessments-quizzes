@@ -412,14 +412,14 @@ enum Status {
 
 #### Q35. Generics are useful when you **\_**.
 
-- [ ] need to reduce code duplication by concretizing vales and restricting paramaters in functions
-- [x] need to reduce code duplication by abstarting vales further, such as in function paramters
-- [ ] need a supertait
+- [ ] need to reduce code duplication by concretizing values and restricting parameters in functions
+- [x] need to reduce code duplication by abstracting values further, such as in function parameters
+- [ ] need a supertrait
 - [ ] are not sure if you need a specific kind of trait
 
-#### Q36. **\_** cannot be destructed.
+#### Q36. How do you create a Rust project on the command-line?
 
-- [x] Traits
-- [ ] Enums
-- [ ] Tuples
-- [ ] Structs
+- [x] cargo new
+- [ ] rustup init
+- [ ] cargo start
+- [ ] rust new-project

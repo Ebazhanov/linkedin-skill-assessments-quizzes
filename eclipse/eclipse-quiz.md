@@ -255,3 +255,10 @@
 - [ ] You cannot do this in Eclipse.
 - [x] Create and run a configuration under Run > Debug Configurations > Remote Java Application.
 - [ ] Click Run > External Tools.
+
+#### Q37. What is the purpose of adding TODO in a comment?
+
+- [ ] It reminds you that you have work to do.
+- [x] Comments starting with TODO are listed in the Tasks view.
+- [ ] It creates automated email reminders of remaining tasks.
+- [ ] Comments starting with TODO are stored in the Task List view.
