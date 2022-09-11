@@ -142,7 +142,7 @@
     "height": 900,
     "binaries": {
       "url": "https://www.example.com/images/34097349843",
-      "thumbnail": "https://www.example.com/images/thumbs/34097349843"
+      "thumbnail": "https://www.example.com/images/thumbs/34097349843",
     },
     "animated": false,
     "tags": [116, 943, 234, 38793]
