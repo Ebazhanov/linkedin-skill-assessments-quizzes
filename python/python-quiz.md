@@ -1892,3 +1892,5 @@ b = a[50:60:2]
 - [ ] to take a snapshot of all the packages and libraries in your virtual environment
 - [ ] to connect various systems, such as connecting a web front end, an API service, a database, and a mobile app
 - [ ] to scan the health of your Python ecosystem while inside a virtual environment
+
+[Reference](https://docs.python.org/3/library/sys.html)
