@@ -426,8 +426,8 @@ null
 #### Q30. Why do so many APIs use JSON?
 
 - [ ] Because it's object-based.
-- [ ] Because it's a simple and adaptable format for sharing data.
-- [x] Because it's based on JavaScript.
+- [x] Because it's a simple and adaptable format for sharing data.
+- [ ] Because it's based on JavaScript.
 - [ ] Because it is derived from SGML.
 
 #### Q31. You need to assemble a list of members, but your JSON is not parsing correctly. How do you change it?
