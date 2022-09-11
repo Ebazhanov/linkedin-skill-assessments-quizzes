@@ -85,7 +85,7 @@
 - [ ] `:`
 - [ ] `{`
 
-#### Q8. Which date type is part of the JSON standard?
+#### Q8. Which data type is part of the JSON standard?
 
 - [x] Boolean
 - [ ] map
