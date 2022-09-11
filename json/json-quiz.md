@@ -274,13 +274,33 @@
 }
 ```
 
-- [x]
+- [ ]
 
 ```json
 {
   "host": "Atlanta",
   "year": 1996,
   "comment": "Centennial Olympics"
+}
+```
+
+- [ ]
+
+```json
+{
+  "host": "Atlanta",
+  "year": 1996,
+  \"Centennial Olympics\"
+}
+```
+
+- [x]
+
+```json
+{
+  "host": "Atlanta",
+  "year": 1996,
+  "comment": "\"Centennial Olympics"
 }
 ```
 
