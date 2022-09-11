@@ -409,9 +409,9 @@ null
 
 #### Q28. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the data type? `constant: 6.022E23`
 
-- [x] `"constant": "6.022E23"`
+- [ ] `"constant": "6.022E23"`
 - [ ] `"constant": "6\.022\E23"`
-- [ ] `constant: 6.022E23`
+- [x] `constant: 6.022E23`
 - [ ] `constant: "6.022E23"`
 
 [Reference](https://json-schema.org/understanding-json-schema/reference/numeric.html) **Explanation**: Scientific Notation is a valid JSON number. You can use `e` or `E`.
