@@ -587,10 +587,9 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 - [ ] "UPC": \043875
 - [ ] UPC: "043875"
-- [ ] "UPC": 043875
+- [x] "UPC": 043875
 - [ ] UPC: '043875'
 
-**NONE OF THESE ARE CORRECT A CORRECT ANSWER WOULD LOOK LIKE `"UPC": "043875"`**
 
 #### Q44. Which data format is a JSON schema written in?
 
