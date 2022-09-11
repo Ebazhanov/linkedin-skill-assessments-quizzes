@@ -520,5 +520,5 @@
 
 - [ ] Print and Remote Services
 - [ ] Print and File Services
-- [ ] Print and Document Services
+- [x] Print and Document Services
 - [ ] Print and Network Services

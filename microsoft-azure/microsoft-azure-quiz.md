@@ -419,4 +419,15 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 - [ ] Event Grid
 - [ ] Service Bus
 - [ ] Event Hub
-- [ ] Queue Storage
+- [x] Queue Storage
+
+![ref](https://www.coursehero.com/file/108745862/Untitled2png/)
+
+#### Q55. You need to create an application in Azure Active Direcotry representing the Kineteco Web App so you can assign directory permission to the app. To create the application identity, which command will you run?
+
+- [ ] `bash az ad app permission grant ...
+- [ ] `bash az ad app credential create ...
+- [x] `bash az ad app create ...
+- [ ] `bash az ad app permission ass ...
+
+[Ref](https://docs.microsoft.com/en-us/cli/azure/ad/app?view=azure-cli-latest)

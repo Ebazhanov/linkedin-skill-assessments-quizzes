@@ -838,7 +838,14 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 - [ ] what you have and what you do
 - [ ] what you know and what you are
-- [ ] what you have and what you know
+- [x] what you have and what you know
 - [ ] what you do and what you know
 
 [Explanation:](https://www.investopedia.com/terms/t/twofactor-authentication-2fa.asp)
+
+#### Q110. Which option is a list of publicly dsclosed information security defects?
+
+- [ ] DBIR
+- [x] CVE
+- [ ] CWE
+- [ ] CERT

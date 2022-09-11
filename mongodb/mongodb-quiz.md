@@ -591,7 +591,7 @@ Note: count() works with find(...) but length works with distinct
 
 #### Q82. When using the mongoimport command, how can you drop the database before importing?
 
-- [ ] Use the -d option.
+- [x] Use the -d option.
 - [ ] Use the mongooverwrite command instead of mongoimport.
 - [ ] Use the -drop option.
 - [ ] Drop the database manually before importing.
