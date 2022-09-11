@@ -1,78 +1,37 @@
 ## .NET Framework
 
 #### Q1. What is the difference between a stack and queue?
-
-- [ ] Queues process value types by a top-down hierarchy - first in, first out (FIFO). Stacks follow this principle and insert items from the lower end while deleting ones from the top - last in, first-out (LIFO).
-- [ ] Queues process value types by a top-down hierarchy-last in, first-out (LIFO). Stacks follow this principle and insert items from the lower end while deleting ones from the top-first in, first-out (FIFO).
 - [x] Stacks process value types by a top-down hierarchy - last in, first-out (LIFO). Queues follow this principle and insert items from the lower end while deleting ones from the top - first in, first-out (FIFO)
-- [ ] Stacks process value types by a top-down hierarchy-first in, first out (FIFO). Queues follow this principle and insert items from the lower end while deleting ones from the top-last in, first-out (LIFO).
+
 
 #### Q2. Which group contains all official types of JIT compilations?
-
-- [ ] Pre-JIT, Quick-JIT, Coll-JIT
-- [ ] Before-JIT, Quick-JIT, Cool-JIT
-- [ ] Pre-JIT, Quick-JIT, Normal-JIT
 - [x] Pre-JIT, Econo-JIT, Normal-JIT
 
 #### Q3. What is Kestrel?
-
-- [ ] an iOS web server initially that was later designed to work with .NET Core
 - [x] a cross-platform web server ASP.NET Core that is included by default in ASP.NET Core project templates\*\*
-- [ ] a cross-platform, open-source web server that starts up web APIs
-- [ ] a free and open-source cross-platform web server software that can communicate with IIS
 
 #### Q4. When would you use asynchronous actions?
-
-- [ ] to release the quest thread of a I/O operation
-- [ ] to capture the request thread of a I/O operation
 - [x] to avoid blocking the request thread while waits for an I/O operation
-- [ ] to block the request thread if it waits for an I/O operation
 
 #### Q5. What is CoreCLR?
-
-- [ ] CoreCLR is a component that allows the highest degree of control when coding; you can Abort(), Suspend() or Resume().
-- [ ] CoreCLR is the .NET execution engine that runs the source code. Special programs called compilers must rewrite it into MSIL.
-- [ ] CoreCLR is the .NET execution engine the runs the source code. Special programs called compilers must rewrite it into IL.
 - [x] CoreCLR is the .NET execution engine in .NET Core that performs functions like garbage collection and compilation to machine code.
 
-#### Q6. When you define an abstract method, how do you use it in a derived class?
-
-- [ ] Abstract methods cannot be used in derived classes.
-- [ ] In your derived class, overload the method.
+#### Q6. When you define an abstract method, how do you use it in a derived class
 - [x] In your derived class, override the method.
-- [ ] In your derived class, declare the method as virtual.
 
 #### Q7. Which code do you use if you want to trigger a garbage collection in .NET?
-
-- [ ] `Garbage.CleanUp();`
-- [ ] `System.GC.Clear();`
 - [x] `System.GC.Collect();`
-- [ ] `Garbage.Collect();`
 
 #### Q8. You want to include language elements in a program. Which design pattern best fits this objective?
-
 - [x] Interpreter <= correct
-- [ ] Command
-- [ ] Bridge
-- [ ] Decorator
 
 #### Q9. What makes a strong-named assembly?
-
-- [ ] an assembly with the version specified
 - [x] a signed assembly
-- [ ] an assembly with culture information
-- [ ] an assembly with the name marked as important
 
 #### Q10. What happens when you concatenate two strings?
-
-- [ ] You cannot concatenate strings in .NET.
-- [ ] The second string object is modified so it contains the concatenated strings.
 - [x] A third string object is created containing the concatenated strings.
-- [ ] The first string object is modified so it contains the concatenated strings.
 
 #### Q11. What is a delegate?
-
-- [ ] A delegate is an object or collection initializer that adds flexibility, readability and maintainability in C#.
 - [x] A delegate in .NET is similar to a function pointer in C or C++. Using a delegate allows the programmer to encapsulate a reference to a method inside a delegate object.
 - [ ] A delegate is a collection initializer that adds flexibility, readability and maintainability in .NET.
 - [ ] A delegate is an extension method. Using a delegate allows the programmer to add flexibility, readability and maintainability in .NET.
