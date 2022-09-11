@@ -20,16 +20,16 @@
 - [ ]
 
 ```json
-["red", "blue", "green"]
+['red', 'blue', 'green']
 ```
 
-- [ ]
+- [x]
 
 ```json
 ["red", "blue", "green"]
 ```
 
-- [x]
+- [ ]
 
 ```json
 {
