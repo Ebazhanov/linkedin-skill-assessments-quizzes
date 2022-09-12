@@ -10487,6 +10487,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "mEhDiIsMaIl",
+      "name": "Mehdi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1983061?v=4",
+      "profile": "https://github.com/mEhDiIsMaIl",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -10494,5 +10504,6 @@
   "projectOwner": "Ebazhanov",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }
