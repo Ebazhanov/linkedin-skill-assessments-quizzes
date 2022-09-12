@@ -602,3 +602,12 @@ Note: count() works with find(...) but length works with distinct
 - [ ] mongorestore
 - [ ] mongoi
 - [x] mongoimport
+
+#### Q84. A critical record must be replicated to the two other servers in the set. Which query guarantees that it is inserted as desired?
+
+- [ ] `db.inventory.insert({ prodid: "tab1122", qty : 10}, { writeConcern: { w: 2, wtimeout: 5000} })`
+- [ ] `db.inventory.insert({ prodid: "tab1122", qty : 10}, { writeConcern: { j: true} })`
+- [ ] `db.inventory.insert({ prodid: "tab1122", qty : 10}, { writeConcern: { w: 2, j:false, wtimeout: 5000} })`
+- [x] `db.inventory.insert({ prodid: "tab1122", qty : 10}, { writeConcern: { w: 2, j:true, wtimeout: 5000} })`
+
+[MongoDB reference](https://www.mongodb.com/docs/manual/reference/write-concern/)
