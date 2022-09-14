@@ -723,28 +723,28 @@ t1 = test()
 
 #### Q53. What is the correct syntax for defining an `__init__()` method that takes no parameters?
 
-- [ ] 
+- [ ] <br>
 
 ```python
 class __init__(self):
     pass
 ```
 
-- [ ] 
+- [ ] <br>
 
 ```python
 def __init__():
     pass
 ```
 
-- [ ] 
+- [ ] <br>
 
 ```python
 class __init__():
     pass
 ```
 
-- [x] 
+- [x] <br>  
 
 ```python
 def __init__(self):
@@ -1065,7 +1065,7 @@ while i<6:
 
 #### Q81. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?
 
-- [ ] 
+- [ ] <br> 
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1073,7 +1073,7 @@ def __init__(self, attr1, attr2):
     attr2 = attr2
 ```
 
-- [ ] 
+- [ ] <br> 
 
 ```python
 def __init__(attr1, attr2):
@@ -1081,7 +1081,7 @@ def __init__(attr1, attr2):
     attr2 = attr2
 ```
 
-- [x] 
+- [x] <br> 
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1089,7 +1089,7 @@ def __init__(self, attr1, attr2):
     self.attr2 = attr2
 ```
 
-- [ ] 
+- [ ] <br> 
 
 ```python
 def __init__(attr1, attr2):
