@@ -309,7 +309,7 @@
 - [ ] to delegate coding responsibility more efficiently
 - [ ] to conserve memory
 - [x] to avoid writing duplicate code
-- [x] to separate class behavior from the more general
+- [ ] to separate class behavior from the more general
 
 _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is it also true?
 
@@ -469,7 +469,7 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 
 #### Q65. Why is inheritance?
 
-- [ ] ...
+- [x] ...
 
 #### Q66. What is the best example of a superclass and subclass relationship?
 
