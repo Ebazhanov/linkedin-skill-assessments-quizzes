@@ -218,6 +218,8 @@ server.listen(port, hostname, () => { console.log(`server running at http://${ho
 - [ ] server running at http://localhost:4000/
 - [x] server running at http://127.0.0.1:3000/
 
+**Explanation:** From official docs: [reference](https://nodejs.org/api/http.html#httpcreateserveroptions-requestlistener)
+
 #### Q25. What is the purpose of the path module?
 
 - [x] to provide utilities to play with file and directory paths
