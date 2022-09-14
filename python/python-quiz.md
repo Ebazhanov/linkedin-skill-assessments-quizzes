@@ -1894,3 +1894,23 @@ b = a[50:60:2]
 - [ ] to scan the health of your Python ecosystem while inside a virtual environment
 
 [Reference](https://docs.python.org/3/library/sys.html)
+
+#### Q144. Suppose you want to double-check if two matrices can be multipled using NumPy for debugging purposes. How would you complete this code fragment by filling in the blanks with the appropiate variables?
+
+```import numpy as np
+
+def can_matrices_be_multiplied (matrix1, matrix2):
+    rowsMat1, columnsMat1 = matrix1.shape
+    rowsMat2, columnsMat2 = matrix2.shape
+
+    if _____ == ______ :
+        print('The matrices can be multipled!')
+        return True
+    else:
+        return False
+```
+
+- [ ] columnsMat1; rowsMat1;
+- [ ] columnsMat1; rowsMat2;
+- [ ] columnsMat1; columnsMat2;
+- [x] columnsMat2; rowsMat1;
