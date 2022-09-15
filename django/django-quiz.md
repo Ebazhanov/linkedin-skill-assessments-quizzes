@@ -224,10 +224,10 @@ name = models.CharField(max_length=100)
 
 #### Q25. Django supplies sensible default values for settings. In which Python module can you find these settings?
 
-- [ ] django.utils.default_settings.py
-- [ ] django.utils.global_settings.py
-- [ ] django.conf.default_settings.py
-- [x] django.conf.global_settings.py
+- [ ] `django.utils.default_settings.py`
+- [ ] `django.utils.global_settings.py`
+- [ ] `django.conf.default_settings.py`
+- [x] `django.conf.global_settings.py`
 
 #### Q26. Which variable name is best according to PEP 8 guidelines?
 
@@ -687,4 +687,4 @@ model=Planet
 - [ ] when you want to provide a reverse URL as the url attribute of a class-based generic view
 - [ ] when you want to provide a URL to a decorator, such as the login_url argument for the permission_required() decorator
 
-[Reference](https://docs.djangoproject.com/en/4.1/ref/urlresolvers/#:~:text=reverse_lazy()&text=It%20is%20useful%20for%20when,a%20generic%20class%2Dbased%20view.)
+[Reference](<https://docs.djangoproject.com/en/4.1/ref/urlresolvers/#:~:text=reverse_lazy()&text=It%20is%20useful%20for%20when,a%20generic%20class%2Dbased%20view.>)
