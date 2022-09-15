@@ -804,3 +804,24 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] The underlying technology of the product.
 - [ ] The development team's strengths and weaknesses.
 - [x] The business context for the product.
+
+#### Q111. You are facilitating a meeting to decompose user stories and, unexpectedly, a development team member cannot attend. What should you do?
+
+- [ ] Hold the meeting and update the person who could not attend later.
+- [ ] Ask the person who could not attend to reschedule the meeting based on their availability.
+- [x] Ask all meeting participants what they want to do about the one person's absence
+- [ ] Reschedule the meeting for when all necessary people can attend
+
+#### Q112. As the Scrum Master, you've observed that team members are more comforatble communicating via instant messaging than through direct converstaion. How can you encourange conversation between team members?
+
+- [ ] Move people's workstation around in the team room to create new social possibilities.
+- [x] Since no one has come to you with a complaint, assume that the limited conversation works for everyone.
+- [ ] Tell the team that you see this as a problem and ask them to solve it.
+- [ ] Ask the team if they can think of ways to increase direct converstaion.
+
+#### Q113. What is the expected outcome of the Daily Scrum meeting?
+
+- [ ] updated status on all of the work
+- [x] team alignment on its plan for the day
+- [ ] a list of impediments and priorities
+- [ ] a report to the Product Owner of stories ready to be accepted

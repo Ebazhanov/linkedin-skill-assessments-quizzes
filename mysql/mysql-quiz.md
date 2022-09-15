@@ -1023,3 +1023,10 @@ Table name: superheroes
 - [ ] `DROP TEMP TABLE customers;`
 - [ ] `DROP TEMPORARY TABLE customers;`
 - [x] `DROP TABLE customers;`
+
+#### Q106. How would you make a case-insensitive query in MySQL?
+
+- [ ] `SELECT * FROM customers WHERE UPPEERCASE(LastName) = 'POTTER';`
+- [ ] `SELECT * FROM customers WHERE LOWERCASE(LastName) = 'potter';`
+- [x] `SELECT * FROM customers WHERE UPPER(LastName) = 'POTTER';`
+- [ ] `SELECT * FROM customers WHERE UPPER(LastName) = 'Potter';`
