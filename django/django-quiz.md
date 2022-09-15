@@ -23,28 +23,28 @@
 
 #### Q4. A client wants their site to be able to load "Rick & Morty" episodes by number or by title—e.g., shows/3/3 or shows/picklerick. Which URL pattern do you recommend?
 
-- [ ] <span>
+- [ ] A
 
 ```
 url(r'shows/<int:season>/<int:episode>/', views.episode_number),
 url(r'shows/<slug:episode_name>/', views.episode_name)
 ```
 
-- [x] <span>
+- [x] B
 
 ```
 path('shows/<int:season>/<int:episode>/', views.episode_number),
 path('shows/<slug:episode_name>/', views.episode_name)
 ```
 
-- [ ] <span>
+- [ ] C
 
 ```
 path('shows/<int:season>/<int:episode>', views.episode_number),
 path('shows/<slug:episode_name>/', views.episode_number)
 ```
 
-- [ ] <span>
+- [ ] D
 
 ```
 url(r'^show/(?P<season>[0-9]+)/(?P<episode>[0-9]+)/$', views.episode_number),
@@ -130,7 +130,7 @@ url(r'^show/(?P<episode_name>[\w-]+)/', views.episode_name
 
 #### Q16. How would you define the relationship between a star and a constellation in a Django model?
 
-- [x] <span>
+- [x] A
 
 ```
 class Star(models.Model):
@@ -139,7 +139,7 @@ class Constellation(models.Model):
 stars = models.ManyToManyField(Star)
 ```
 
-- [ ] <span>
+- [ ] B
 
 ```
 class Star(models.Model):
@@ -148,7 +148,7 @@ class Constellation(models.Model):
 stars = models.ForeignKey(Star, on_delete=models.CASCADE)
 ```
 
-- [ ] <span>
+- [ ] C
 
 ```
 class Star(models.Model):
@@ -157,7 +157,7 @@ class Constellation(models.Model):
 stars = models.OneToManyField(Star)
 ```
 
-- [ ] <span>
+- [ ] D
 
 ```
 class Star(models.Model):
@@ -303,8 +303,6 @@ name = models.CharField(max_length=100)
 
 #### Q36. How would you define the relation between a book and an author - book has only one author.
 
-- [ ] <span>
-
 ```
 class Author (models.model):
 book=models.foreignkey(Book,on_delete=models.cascade)
@@ -312,7 +310,7 @@ class Book(models.model):
 name=models.charfield(max_length=100)
 ```
 
-- [x] <span>
+- [x] A
 
 ```python
 class Author (models.model):
@@ -321,7 +319,7 @@ class Book(models.model):
 author=models.foreignkey(Author,on_delete=models.cascade)
 ```
 
-- [ ] <span>
+- [ ] B
 
 ```
 class Author (models.model):
@@ -330,7 +328,7 @@ class Book(models.model):
 author=models.foreignkey(Author)
 ```
 
-- [ ] <span>
+- [ ] C
 
 ```
 class Author (models.model):
@@ -339,7 +337,7 @@ class Book(models.model):
 author=models.foreignkey(Author,on_delete=models.cascade)
 ```
 
-- [ ] <span>
+- [ ] D
 
 ```
 class Author (models.model):
@@ -396,7 +394,7 @@ from rest_framework import serializers
 from .models import Planet
 ```
 
-- [x] <span>
+- [x] A
 
 ```
 class PlanetSerializer(serializers.ModelSerializer):
@@ -405,7 +403,7 @@ model=Planet
 fields=('name','position', 'mass', 'rings')
 ```
 
-- [ ] <span>
+- [ ] B
 
 ```
 from rest_framework import serializers
@@ -416,7 +414,7 @@ fields=('name','position', 'mass', 'rings')
 model=Planet
 ```
 
-- [ ] <span>
+- [ ] C
 
 ```
 from django.db import serializers
@@ -426,7 +424,7 @@ fields=('name','position', 'mass', 'rings')
 model=Sandwich
 ```
 
-- [ ] <span>
+- [ ] D
 
 ```
 from django.db import serializers
@@ -675,10 +673,10 @@ model=Planet
 
 #### Q74. Which is not a valid closing template tag?
 
-- [ ] `{% endautoescape %}`
-- [x] `{% endifempty %}`
-- [ ] `{% endcomment %}`
-- [ ] `{% endfilter %}`
+- [ ] `% endautoescape %`
+- [x] `% endifempty %`
+- [ ] `% endcomment %`
+- [ ] `% endfilter %`
 
 #### Q75. When would you need to use the reverse_lazy utility function instead of reverse?
 
