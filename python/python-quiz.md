@@ -1935,7 +1935,7 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 
 #### Q147. Which snippet of code will print My name is Joffrey, son of Robert?
 
-[ ] ```
+- [ ] ```
     class Father():
         name = 'Robert'
 
@@ -1954,7 +1954,7 @@ def can_matrices_be_multiplied (matrix1, matrix2):
     king.introduce()
 
     ```
-[x] ```
+- [x] ```
     class Father():
         name = 'Robert'
 
@@ -1973,7 +1973,7 @@ def can_matrices_be_multiplied (matrix1, matrix2):
     king.introduce()
 
     ```
-[ ] ```
+- [ ] ```
     class Father():
         name = 'Robert'
 
@@ -1991,7 +1991,7 @@ def can_matrices_be_multiplied (matrix1, matrix2):
     king.introduce()
 
     ```
-[ ] ```
+- [ ] ```
     class Father():
         name = 'Robert'
 
