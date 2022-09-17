@@ -1951,9 +1951,7 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 
 
     king = Person("Joffrey")
-    king.introduce()
-
-    ```
+    king.introduce()```
 - [x] ```
     class Father():
         name = 'Robert'
@@ -1970,9 +1968,7 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 
 
     king = Person("Joffrey")
-    king.introduce()
-
-    ```
+    king.introduce()```
 - [ ] ```
     class Father():
         name = 'Robert'
@@ -1988,9 +1984,7 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 
 
     king = Person("Joffrey")
-    king.introduce()
-
-    ```
+    king.introduce()```
 - [ ] ```
     class Father():
         name = 'Robert'
@@ -2006,6 +2000,4 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 
 
     king = Person("Joffrey")
-    king.introduce()
-
-    ```
+    king.introduce()```
