@@ -10477,6 +10477,76 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "beltz18",
+      "name": "Beltz Anhxton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65316821?v=4",
+      "profile": "https://github.com/beltz18",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "mEhDiIsMaIl",
+      "name": "Mehdi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1983061?v=4",
+      "profile": "https://github.com/mEhDiIsMaIl",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "muhammad-usman-108",
+      "name": "Muhammad Usman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34769369?v=4",
+      "profile": "https://www.linkedin.com/in/muhammad-usman-a14882bb/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "pa-tiq",
+      "name": "Patrick Dantas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12243536?v=4",
+      "profile": "http://www.linkedin.com/in/patrick-dantas/",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "vannakne",
+      "name": "Tak Vannak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59875610?v=4",
+      "profile": "https://github.com/vannakne",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "rram12",
+      "name": "Ramzi RADDAOUI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49193983?v=4",
+      "profile": "https://github.com/rram12",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "Konstantin-Glukhov",
+      "name": "Konstantin-Glukhov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24302271?v=4",
+      "profile": "https://github.com/Konstantin-Glukhov",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -10484,5 +10554,6 @@
   "projectOwner": "Ebazhanov",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }

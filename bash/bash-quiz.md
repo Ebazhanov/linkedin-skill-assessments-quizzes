@@ -817,10 +817,10 @@ echo "$var" | sed _____
 
 #### Q66. To run a group of commands without spawning a subshell, which syntax would you use?
 
-- [ ] sh command1; command2
-- [ ] { command1; command2; }
+- [ ] (command1; command2)
+- [x] **{ command1; command2; }**
 - [ ] (( command1; command2 ))
-- [x] **command1; command2**
+- [ ] command1; command2
 
 #### Q67. What are the results of the command with a user named jon?
 

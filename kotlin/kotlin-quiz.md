@@ -1133,3 +1133,12 @@ fun main() {
 - [ ] val lessThan99 = listOf{1..99}.asSequence().toList()
 
 [reference](https://kotlinlang.org/docs/sequences.html#from-a-function)
+
+#### Q88. What is wrong with this class definition?
+
+- [x] The class is properly defined, so nothing is wrong with it.
+- [ ] The parentheses are missing-it should be declared as class Empty().
+- [ ] Empty is a Kotlin keyword, so the code will generate an error when compiled.
+- [ ] The curely braces are missing from the declaration of Empty.
+
+[reference](https://kotlinlang.org/docs/classes.html)

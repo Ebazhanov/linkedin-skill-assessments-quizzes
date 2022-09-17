@@ -723,28 +723,28 @@ t1 = test()
 
 #### Q53. What is the correct syntax for defining an `__init__()` method that takes no parameters?
 
-- [ ]
+- [ ] <br>
 
 ```python
 class __init__(self):
     pass
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def __init__():
     pass
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 class __init__():
     pass
 ```
 
-- [x]
+- [x] <br>  
 
 ```python
 def __init__(self):
@@ -1065,7 +1065,7 @@ while i<6:
 
 #### Q81. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?
 
-- [ ]
+- [ ] <br> 
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1073,7 +1073,7 @@ def __init__(self, attr1, attr2):
     attr2 = attr2
 ```
 
-- [ ]
+- [ ] <br> 
 
 ```python
 def __init__(attr1, attr2):
@@ -1081,7 +1081,7 @@ def __init__(attr1, attr2):
     attr2 = attr2
 ```
 
-- [x]
+- [x] <br> 
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1089,7 +1089,7 @@ def __init__(self, attr1, attr2):
     self.attr2 = attr2
 ```
 
-- [ ]
+- [ ] <br> 
 
 ```python
 def __init__(attr1, attr2):
@@ -1885,3 +1885,32 @@ b = a[50:60:2]
 - [ ] True
 - [x] None
 - [ ] False
+
+#### Q143. What is a common use of python's sys library?
+
+- [x] to capture command-line arguments given at a file's runtime
+- [ ] to take a snapshot of all the packages and libraries in your virtual environment
+- [ ] to connect various systems, such as connecting a web front end, an API service, a database, and a mobile app
+- [ ] to scan the health of your Python ecosystem while inside a virtual environment
+
+[Reference](https://docs.python.org/3/library/sys.html)
+
+#### Q144. Suppose you want to double-check if two matrices can be multipled using NumPy for debugging purposes. How would you complete this code fragment by filling in the blanks with the appropiate variables?
+
+```import numpy as np
+
+def can_matrices_be_multiplied (matrix1, matrix2):
+    rowsMat1, columnsMat1 = matrix1.shape
+    rowsMat2, columnsMat2 = matrix2.shape
+
+    if _____ == ______ :
+        print('The matrices can be multipled!')
+        return True
+    else:
+        return False
+```
+
+- [ ] columnsMat1; rowsMat1;
+- [ ] columnsMat1; rowsMat2;
+- [ ] columnsMat1; columnsMat2;
+- [x] columnsMat2; rowsMat1;
