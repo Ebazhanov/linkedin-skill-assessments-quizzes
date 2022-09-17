@@ -718,7 +718,7 @@ textfile1.txt
 textfile2.txt
 ```
 
-- [ ] ```c : All of this files will be deleted```
+- [ ] `c : All of this files will be deleted`
 
 - [x] **d:**
 
