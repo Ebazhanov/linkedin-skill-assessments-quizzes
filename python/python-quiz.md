@@ -1914,3 +1914,12 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 - [ ] columnsMat1; rowsMat2;
 - [ ] columnsMat1; columnsMat2;
 - [x] columnsMat2; rowsMat1;
+
+#### Q145. What is the output of this comprehension?
+
+```[(x, x+1) for x in range(1,5)] ```
+
+- [ ] [(1, 2), (2, 3), (3, 4), (4, 5), (5, 6)]
+- [ ] [1,2,3,4,5]
+- [ ] [(1, 2), (2, 3), (3, 4)]
+- [x] [(1, 2), (2, 3), (3, 4), (4, 5)]
