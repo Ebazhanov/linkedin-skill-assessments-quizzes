@@ -518,7 +518,7 @@ CREATE TABLE Publishers (
           REFERENCES Publishers (PublisherID) ON UPDATE SET NULL
 ```
 
-- [ ]
+- [X]
 
 ```ALTER TABLE Books
           ADD CONSTRAINT FK Books_PublisherID
