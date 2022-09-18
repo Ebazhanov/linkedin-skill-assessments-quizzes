@@ -690,3 +690,12 @@ public class Honda extends Car{}
 - [ ] color : red
 - [ ] planet : moon
 - [x] truck : window
+
+#### Q91. Which relationship best illustrates an abstract-concrete class relationship?
+
+- [ ] only the amount of levels memory permits, divided by processor speed 
+- [ ] only 10 levels of inheritance
+- [x] as many levels of inheritance as required
+- [ ] as many levels of inheritance as required within 10 minutes
+
+
