@@ -309,7 +309,7 @@
 - [ ] to delegate coding responsibility more efficiently
 - [ ] to conserve memory
 - [x] to avoid writing duplicate code
-- [x] to separate class behavior from the more general
+- [ ] to separate class behavior from the more general
 
 _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is it also true?
 
@@ -469,7 +469,7 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 
 #### Q65. Why is inheritance?
 
-- [ ] ...
+- [x] ...
 
 #### Q66. What is the best example of a superclass and subclass relationship?
 
@@ -677,10 +677,25 @@ public class Honda extends Car{}
 - [ ] interacting classes.
 - [x] attributes.
 
-
 #### Q89. What is the best name for the funation that corrects this assessment?
 
 - [ ] makeResult()
 - [ ] questionScore()
 - [x] calculateScore()
 - [ ] getAnswers()
+
+#### Q90. Which relationship best illustrates an abstract-concrete class relationship?
+
+- [ ] cat : kitten
+- [ ] color : red
+- [ ] planet : moon
+- [x] truck : window
+
+#### Q91. Which relationship best illustrates an abstract-concrete class relationship?
+
+- [ ] only the amount of levels memory permits, divided by processor speed 
+- [ ] only 10 levels of inheritance
+- [x] as many levels of inheritance as required
+- [ ] as many levels of inheritance as required within 10 minutes
+
+

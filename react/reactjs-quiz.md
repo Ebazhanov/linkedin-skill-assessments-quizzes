@@ -78,6 +78,8 @@ const topics = ['cooking', 'art', 'history'];
 - [ ] React Router
 - [x] React Context
 
+[Reference](https://reactjs.org/docs/context.html)
+
 #### Q9. What should the console read when the following code is run?
 
 ```javascript
@@ -233,6 +235,8 @@ function Dish(props) {
 - [x] when you want a default implementation of `shouldComponentUpdate()`
 - [ ] when you do not want your component to have state
 
+[Reference](https://reactjs.org/docs/react-api.html#reactpurecomponent)
+
 #### Q23. Why is it important to avoid copying the values of props into a component's state where possible?
 
 - [ ] because you should never mutate state
@@ -255,6 +259,8 @@ function Dish(props) {
 - [x] dangerouslySetInnerHTML
 - [ ] weirdSetInnerHTML
 - [ ] strangeHTML
+
+[Reference](https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml)
 
 #### Q26. Which of these terms commonly describe React applications?
 
@@ -310,6 +316,8 @@ const Heading = () => {
 - [x] componentDidMount
 - [ ] componentWillReceiveProps
 - [ ] componentWillMount
+
+[Reference](https://reactjs.org/docs/react-component.html#componentdidmount)
 
 #### Q33. React components are composed to create a user interface. How are components composed?
 
@@ -657,6 +665,8 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 </Route>
 ```
 
+[Reference](https://reactrouter.com/en/main/components/route)
+
 #### Q60. Which class-based component is equivalent to this function component?
 
 ```javascript
@@ -745,6 +755,8 @@ useEffect(() => {
 - [x] componentDidMount
 - [ ] render
 - [ ] componentDidUpdate
+
+[Reference](https://reactjs.org/docs/react-component.html#componentdidmount)
 
 #### Q65. What is the name of the base component of this component?
 
@@ -1069,6 +1081,8 @@ function Dish() {
 - [ ] right after the component is updated
 - [ ] right after an API call
 
+[Reference](https://reactjs.org/docs/react-component.html#componentdidmount)
+
 #### Q93. What might you use webpack for?
 
 - [ ] to fetch remote dependencies used by your app
@@ -1144,7 +1158,7 @@ add();
 
 ![image](https://user-images.githubusercontent.com/62549240/160531605-bf8790d5-5eb9-4291-a9bd-4232f2fd7b6e.png)
 
-#### Q99. Why might you use a React.createRef?
+#### Q99. Why might you use a React.ref?
 
 - [ ] to refer to another JS file
 - [ ] to bind the function
@@ -1153,7 +1167,7 @@ add();
 
 [Reference](https://reactjs.org/docs/refs-and-the-dom.html)
 
-#### Q100. What assignment pattern is being used in this code?
+#### Q100. What pattern is being used in this code block?
 
 ```javascript
 const { tree, lake } = nature;

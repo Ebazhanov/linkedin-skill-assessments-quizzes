@@ -918,3 +918,62 @@ int fl(int a, int b) { return(a>b?a:b); }
 - [ ] the smaller value of the two passed parameters
 - [ ] runtime error
 - [x] the greater value of the two passed parameters
+
+#### Q61. Which function fo you use to deallocate memory?
+
+- [x] free()
+- [ ] dealloc()
+- [ ] release()
+- [ ] dealloc()
+
+#### Q62. Which option is a valid function name?
+
+- [x] draw_star()
+- [ ] 5times()
+- [ ] upper-limit()
+- [ ] auto()
+
+#### Q63. What is not a valid type definition of a structure that contains x and y coordinates as integers, and that can be used as shown for the variable named point?
+
+```c
+coord point;
+point.x = 9;
+point.y = 3;
+```
+
+- [ ] :
+
+```c
+struct coord{
+    int x;
+    int y;
+};
+typedef struct coord coord;
+```
+
+- [x] :
+
+```c
+typedef struct coord{
+    int x;
+    int y;
+};
+```
+
+- [ ] :
+
+```c
+typedef struct coord{
+    int x;
+    int y;
+} coord;
+```
+
+- [ ] :
+
+```c
+typedef struct{
+    int x;
+    int y;
+} coord;
+```

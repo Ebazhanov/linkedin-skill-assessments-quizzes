@@ -231,11 +231,11 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [x] Convert to SmartArt.
 - [ ] Convert to Picture.
 
-#### Q30. You need to reorder the levels of shapes on a SmartArt diagram. How can this be done
+#### Q30. How can you reorder the levels of shapes in a SmartArt diagram?
 
 - [ ] Retype the text
 - [ ] Change the shapes from rifht to left.
-- [x] Promote Shapes and/or Demote Shapes.
+- [x] Promote or Demote the shapes
 - [ ] Move the shapes up and down.
 
 #### Q31. Why would you trim a video?
@@ -576,7 +576,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 #### Q74. You created a photo album with transitions and want to send it to friends, but the file size is too large for email. How can you use one command to fix this?
 
 - [ ] Click **Export** in Backstage view and embed the presentation in an email.
-- [ ] Compress all the pictures to the **Email (96 ppi) resolution**.
+- [x] Compress all the pictures to the **Email (96 ppi) resolution**.
 - [ ] Use the Share feature in Backstage view and petty email to automatically compress the pictures.
 - [ ] Use the Share feature in Backstage view to create a pdf to send as an attachment.
 
@@ -607,7 +607,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 ![Q81](images/Q81.png)
 
-- [x] selection names
+- [x] section names
 - [ ] layouts
 - [ ] hidden slides
 - [ ] links to the next slide
@@ -690,3 +690,10 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [x] Use the Import slides command.
 - [ ] Use the Insert Slides command.
 - [ ] Use the Duplicate Slides command.
+
+#### Q90. Which type of shape allows you to add text that can be moved around, formatted with styles and effects, or grouped with other objects?
+
+- [ ] Screenshot
+- [x] Textbox
+- [ ] Icon
+- [ ] 3D model

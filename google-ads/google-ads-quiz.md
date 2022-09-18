@@ -12,7 +12,7 @@
 - [ ] Copy the optimization, visit the ad group, and past the optimization.
 - [ ] Follow the step-by-step instructions.
 - [ ] Visit the ad group, click the **Optimization** drop-down, and select **Apply All**.
-- [ ] Click **Apply** on the recommendation.
+- [x] Click **Apply** on the recommendation.
 
 #### Q3. Griff has noticed that his best-performing keywords has started to see an increased CPC, despite no changes on his part. What is the most likely reason for this?
 
@@ -95,7 +95,7 @@
 
 - [ ] a decrease in ad Quality Score
 - [ ] an increase in daily budget
-- [ ] changes in competitor campaigns
+- [x] changes in competitor campaigns
 - [ ] an increase of landing page inbound links
 
 #### Q15. Which ad rotation setting uses machine learning to prioritize ads based upon expected performance?
@@ -206,13 +206,13 @@
 #### Q30. Why are aad extensions beneficial?
 
 - [ ] They increase the character count for descriptions and headlines
-- [ ] They expand the ad and tend to increase the clickthrough rate
+- [x] They expand the ad and tend to increase the clickthrough rate
 - [ ] They allow you to integrate your data with third-party platforms such as Google Analytics
 - [ ] They reduce the overall cost of your campaigns
 
 #### Q31. In a text ad, the display URL is made up of the domain from your final URL and up to two **\_\_\_**.
 
-- [ ] descriptions
+- [x] descriptions
 - [ ] paths
 - [ ] keywords
 - [ ] tracking tags
@@ -220,16 +220,20 @@
 #### Q32. Within the Display Network, locations where your ad can appear are referred to as **\_**.
 
 - [ ] ad slots
-- [ ] placements
+- [x] placements
 - [ ] landing pages
 - [ ] displays
+
+[source](https://support.google.com/google-ads/answer/2470108?hl=en)
 
 #### Q33. Which setting lets you monitor how certain criteria perform with your ads without limiting reach?
 
 - [ ] remarketing
 - [ ] conversion value
 - [ ] targeting
-- [ ] observation
+- [x] observation
+
+[source](https://support.google.com/google-ads/answer/7365594?hl=en)
 
 #### Q34. Tory manages marketing for a hotel franchise with a thousand locations worldwide. Each hotel location has its own landing page. If Tory wanted to quickly generate search ads for every location, which ad type would be most beneficial?
 
@@ -242,12 +246,12 @@
 
 - [ ] [discount flight deals]
 - [ ] discount+flight+deals
-- [ ] "discount flight deals"
+- [x] "discount flight deals"
 - [ ] discount flight deals
 
 #### Q36. Janice operates a brand-new dry cleaning business, with five locations throughout Ireland. What would be a good way to organize a campaign announcing the grand opening?
 
-- [ ] one campaign with an ad group for each location
+- [x] one campaign with an ad group for each location
 - [ ] one ad group containing all locations
 - [ ] one ad group for each service
 - [ ] one campaign for each location
@@ -256,26 +260,30 @@
 
 - [ ] the total number of impressions your advertisement receives
 - [ ] the total number of users who clicked on your advertisement
-- [ ] the number of times a single user will see your advertisement
+- [x] the number of times a single user will see your advertisement
 - [ ] the number of visitors who completed the checkout process
+
+[source google](https://support.google.com/google-ads/answer/59384?hl=en)
 
 #### Q38. Which metric does not help in understanding your ROI?
 
 - [ ] production costs
-- [ ] frequency
+- [x] frequency
 - [ ] revenue
 - [ ] cost per conversion
+
+[Return on investment (ROI) Google ads](https://support.google.com/google-ads/answer/14090?hl=en)
 
 #### Q39. Which choice represents the hierarchy of search campaigns in Google Ads?
 
 - [ ] ads > keywords > campaign
-- [ ] campaign > ad group > ads
+- [x] campaign > ad group > ads
 - [ ] keywords > campaign > ads
 - [ ] ad group > campaign > ads
 
 #### Q40. If you continuously search for your own advertisement using Google, just to confirm that it appears, it is very likely that you will inflate your \_ and decrease your \_.
 
-- [ ] impressions; clickthrough rate
+- [x] impressions; clickthrough rate
 - [ ] conversions; ROI
 - [ ] clickthrough rate; impressions
 - [ ] ROI; conversions
@@ -293,8 +301,10 @@
 
 - [ ] $22
 - [ ] $20
-- [ ] $40
+- [x] $40
 - [ ] $36
+
+![Google wiki](https://support.google.com/google-ads/answer/10486637?hl=en)
 
 #### Q43. Ursula owns a yoga studio in New York City (NYC). A customer performs several searches in the following order: "yoga studio near me", "best yoga NYC", "yoga free trial NYC". What attribution model would assign 100% of the credit for the conversion to \_ yoga free trial NYC \_?
 
@@ -319,7 +329,7 @@
 
 #### Q46. Linzi wants to her ads to show up at the very top of the search result page, regardless of what it costs. What would you suggest she do in order to show in the top result a specified percentage of the time?
 
-- [ ] Inform Linzi this is not possible
+- [x] Inform Linzi this is not possible
 - [ ] Use the Target Impression Share bid strategy
 - [ ] Use the maximum bid amount as suggested by Keyword Planner
 - [ ] Create an ad group, with top of page as the only location target
@@ -349,5 +359,7 @@
 
 - [ ] Placement Optimization and Preview
 - [ ] Bid Optimizer
-- [ ] Ad Preview and Diagnosis
+- [x] Ad Preview and Diagnosis
 - [ ] Keyword Planner
+
+[Preview and Diagnosis Tool](https://support.google.com/google-ads/answer/1704364?hl=en)

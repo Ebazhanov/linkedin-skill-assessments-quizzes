@@ -866,10 +866,10 @@ Which of the following options is correct ?
 
 - [ ] Long-running branches store unstable code until it os peer reviewed for integration into a feature branch.
 - [ ] Long-running branches correspond to agile sprints and are used to store related to features developed in the sprint.
-- [ ] Long-running branches contain code related to expiremental feature development that is merged into short-lived branches such as master.
-- [x] Long-running branches correspond to different stages of development and are allways open for topic/feature branches to be pulled into.
+- [ ] Long-running branches contain code related to experimental feature development that is merged into short-lived branches such as master.
+- [x] Long-running branches correspond to different stages of development and are always open for topic/feature branches to be pulled into.
 
-#### Q106. What command takes changes from the master branch on the remote repository orgin and merges then to the local checked-out branch?
+#### Q106. What command takes changes from the master branch on the remote repository origin and merges then to the local checked-out branch?
 
 - [ ] `git commit -u origin`
 - [ ] `git checkout origin`
@@ -981,7 +981,7 @@ remote repository, named origin, to point to the new remote repository at this l
 - [ ] - when a specific commit needs to be pulled down from the remote repository
 - [ ] - when a hook script needs to be invoked
 
-#### Q121. How would you describe a fokred repository?
+#### Q121. How would you describe a forked repository?
 
 - [ ] - a deleted or archived copy of a repository
 - [ ] - a beta release branch of a repository
@@ -1037,6 +1037,6 @@ remote repository, named origin, to point to the new remote repository at this l
 #### Q128. What practice can help reduce the chances of encountering a merge conflict?
 
 - [ ] Provide detailed commit messages that describe the changes being introduced by the commit. <url>
-- [ ] make large commits that introduce multiple featurs. <url>
+- [ ] make large commits that introduce multiple features. <url>
 - [x] Keep local repository branches in sync with upstream branches in the remote repository by committing,pushing and pulling frequently. <url>
 - [ ] Avoid frequent interaction with the remote repository to reduce the probability of pulling conflicts. <url>

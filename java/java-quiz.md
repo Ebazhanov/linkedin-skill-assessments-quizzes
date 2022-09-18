@@ -1963,3 +1963,49 @@ System.out.println(buy.substring(x, x+1) + buy.substring(y, y+2))
 - [ ] Architectural neural
 
 [Reference](https://www.interviewbit.com/blog/features-of-java/)
+
+#### Q135. What is the output of this code?
+
+```java
+int yearsMarried = 2;
+switch (yearsMarried) {
+   case 1:
+      System.out.println("paper");
+   case 2:
+      System.out.println("cotton");
+   case 3:
+      System.out.println("leather");
+   default:
+      System.out.println("I don't gotta buy gifts for nobody!");
+}
+```
+
+- [ ] cotton
+- [ ] cotton <br> leather
+- [x] cotton <br> leather <br> I don't gotta buy gifts for nobody!
+- [ ] cotton <br> I don't gotta buy gifts for nobody!
+
+#### Q136. What language feature do these expressions demonstrate?
+
+```System.out::println
+Doggie::fetch
+```
+
+- [ ] condensed invocation
+- [ ] static references
+- [x] method references
+- [ ] bad code
+
+#### Q137. What is the difference between the wait() and sleep methods?
+
+- [ ] Only Threads can wait, but any Object can be put to sleep.
+- [ ] A wait can be woken up by another Thread calling notify whereas a sleep cannot.
+- [x] When things go wrong, sleep throws an IllegalMonitorStateException whereas wait throws an InterruptedException.
+- [ ] Sleep allows for multi-threading whereas wait does not.
+
+#### Q138. Which is the right way to declare an enumeration of cats?
+
+- [ ] enum Cats (SPHYNX, SIAMESE, BENGAL);
+- [ ] enum Cats ("sphynx", "siamese", "bengal");
+- [x] enum Cats {SPHYNX, SIAMESE, BENGAL}
+- [ ] enum Cats {"sphynx","siamese","bengal}

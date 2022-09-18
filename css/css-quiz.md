@@ -1185,10 +1185,15 @@ D. border-top-radius: 10px;
 
 #### Q93. Which choice is not a valid transition?
 
-- [x] `transition: margin 1000ms ease-in-out;`
+- [ ] `transition: margin 1000ms ease-in-out;`
 - [ ] `transition: color 1.3s ease-in;`
-- [ ] `transition: position 400ms linear;`
+- [x] `transition: position 400ms linear;`
 - [ ] `transition: opacity 1s ease-in;`
+
+1. [MDN:](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties)
+2. [MDM:](https://developer.mozilla.org/en-US/docs/Web/CSS/position#formal_definition)
+3. [W3s](https://www.w3schools.com/cssref/pr_class_position.asp)
+4. [W3s](https://www.w3schools.com/cssref/css_animatable.asp)
 
 #### Q94. In this example, what color will the paragraphs be and why?
 

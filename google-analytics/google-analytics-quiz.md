@@ -208,10 +208,10 @@
 
 ![Tree map](https://i.imgur.com/CJFjxxD.png)
 
-- [ ] cohort analysis
-- [ ] funnel visualization
-- [ ] user flow
-- [x] treemap
+- [ ] Cohort analysis
+- [ ] Funnel visualization
+- [ ] User flow
+- [x] Treemaps
 
 #### Q30. You already have Google Analytics set up on your website, but decide to add Google Tag Manager. What do you do with the existing Analytics tag?
 
@@ -601,3 +601,10 @@
 - [ ] The same amount of days selected for the Date Range will be used for the coparison
 - [x] If the review period is Wednesday to Thursday, the previous period may include weekends, which may skew the comparison
 - [ ] Both sets of data may appear on the same graph, which will skew your ability to analyze impact
+
+#### Q85. What report displays the exact word(s) a user typed into Google to trigger your google ad?
+
+- [ ] Acquisition > Campaign > Paid Keywords
+- [x] Acquisition > Google Ads > Search queries
+- [ ] Acquisition > Google Ads > Keywords
+- [ ] Acquisition > Campaign > Organic Keywords

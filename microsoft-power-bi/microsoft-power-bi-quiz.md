@@ -87,7 +87,7 @@
 - [ ] A, B, C
 - [x] A, B, C, D
 
-#### Q11. What can you do within the Power BI Desktop #### Query Settings pane? (Select all that apply.)
+#### Q11. What can you do within the Power BI Desktop Query Settings pane? (Select all that apply.)
 
     A. Rename a query step.
     B. Delete a query step.
@@ -101,7 +101,7 @@
 
 [proof link](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview)
 
-#### Q12. After you enter text in the #### Q&A box or O&A visual, Power BI will `\_` your data to create a list of appropriate visualizations.
+#### Q12. After you enter text in the Q&A box or O&A visual, Power BI will `\_` your data to create a list of appropriate visualizations.
 
 - [ ] filter and group
 - [ ] sort and filter
@@ -274,10 +274,10 @@
 
 #### Q35. You want to combine several CSV files into a single data file after you connect a folder. What must be true about these CSV data files? (Select all that apply.)
 
-A. They must be stored in the same folder.
-B. They must have the same schema.
-C. They must have the same file type.
-D. They must have no duplicate data rows.
+    A. They must be stored in the same folder.
+    B. They must have the same schema.
+    C. They must have the same file type.
+    D. They must have no duplicate data rows.
 
 - [ ] B, C
 - [x] A, B, C

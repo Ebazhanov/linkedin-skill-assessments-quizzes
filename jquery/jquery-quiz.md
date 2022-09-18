@@ -829,9 +829,8 @@ $('#menu').addClass(function () {
 - [ ] `$('body').on('ajaxComplete', function() { console.count('An AJAX request completed'); });`
 - [x] `$(document).ajaxComplete(function() { console.count('An AJAX request completed'); });`
 
-
 [Source: ajaxComplete](https://www.w3schools.com/jquery/ajax_ajaxcomplete.asp)
-**Explanation**: `Note: As of jQuery version 1.8, this method should only be attached to document.` 
+**Explanation**: `Note: As of jQuery version 1.8, this method should only be attached to document.`
 
 #### Q43. Given this set of checkboxes, how can you select the one with the value "blimp"?
 
@@ -1015,11 +1014,7 @@ $('.leaf').parents('.items');
 
 [Source: jQuery closest Method](https://www.w3schools.com/jquery/traversing_closest.asp)
 
-**Explanation**: `Considering current HTML code, .closest() returns only #main-menu; .parents() returns only #main-menu; cause both of them are looking for .items class which only exist in the #main-menu. Thus all choices are incorrect.
-This can be seen using this snippet:
-$('.leaf').closest('.items').each(function(i, obj) {console.log(obj)});
-$('.leaf').parents('.items').each(function(i, obj) {console.log(obj)});
-`
+**Explanation**: `Considering current HTML code, .closest() returns only #main-menu; .parents() returns only #main-menu; cause both of them are looking for .items class which only exist in the #main-menu. Thus all choices are incorrect. This can be seen using this snippet: $('.leaf').closest('.items').each(function(i, obj) {console.log(obj)}); $('.leaf').parents('.items').each(function(i, obj) {console.log(obj)}); `
 
 #### Q55. What does this line of code do?
 
@@ -1374,8 +1369,7 @@ $('#element')
 1. [Source: HTMLElement: animationend event | MDN ](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationend_event)
 2. [Example: Stackoverflow](https://stackoverflow.com/questions/49580666/check-if-an-css-animation-is-completed-with-jquery-or-js)
 
-**Explanation**: `Although A is not complete as it could include animationend webkitAnimationEnd oAnimationEnd, other choices are incorrect. The last choice could be also correct if it were .promise().done instead` 
-
+**Explanation**: `Although A is not complete as it could include animationend webkitAnimationEnd oAnimationEnd, other choices are incorrect. The last choice could be also correct if it were .promise().done instead`
 
 #### Q68. HTML5 data attributes allow you to create valid custom attributes to store arbitrary data within DOM elements. jQuery has an API to interface with custom data such as the series of quotes below. How can you mark the second quote as your favorite?
 
@@ -1571,3 +1565,12 @@ $('.items').find('li:first-child').fadeOut().next('.active').fadeTo('fast', 0.5)
 - [ ] elements that have no siblings.
 - [ ] elements that have only one child element.
 - [x] only the child elements of a given element.
+
+#### Q81. Because querySelectorAll and querySelector are in the native DOM API of modern browsers, you don't need jQuery to do many kinds of DOM selections. But the jQuery selector engine does provide extensions that browsers do not support natively. Which extension is supported only by jQuery and _not_ by querySelector or querySelectorAll?
+
+- [ ] :parent, which can select elements that have children
+- [x] :visible, which can select elements that jQuery considers to be visible
+- [ ] :contains, which can select elements by the text they contain
+- [ ] :nth-of-type, which can select elements that are the nth element of their type within their parent
+
+[Source: Selectors Level 4](https://drafts.csswg.org/selectors/)

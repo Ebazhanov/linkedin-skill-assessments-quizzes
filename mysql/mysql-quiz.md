@@ -370,10 +370,10 @@
 
 #### Q41. Which statement can you use to load data from a file into the table?
 
-- [ ] cat file|mysql
-- [x] load data infile (correct if the file is already on the server)
-- [ ] load data local infile (also correct but only if the file is from the client)
-- [ ] extended insert statement
+- [ ] `cat file | mysql`
+- [x] `LOAD DATA INFILE`
+- [ ] `LOAD DATA LOCAL INFILE`
+- [ ] `extended INSERT statement`
 
 #### Q42. You are working with the tables as shown in this diagram. You need to make sure that any record added to the purchases table consists of a customerID, which already exists in the customers table, and a carID, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
 
@@ -1023,3 +1023,10 @@ Table name: superheroes
 - [ ] `DROP TEMP TABLE customers;`
 - [ ] `DROP TEMPORARY TABLE customers;`
 - [x] `DROP TABLE customers;`
+
+#### Q106. How would you make a case-insensitive query in MySQL?
+
+- [ ] `SELECT * FROM customers WHERE UPPEERCASE(LastName) = 'POTTER';`
+- [ ] `SELECT * FROM customers WHERE LOWERCASE(LastName) = 'potter';`
+- [x] `SELECT * FROM customers WHERE UPPER(LastName) = 'POTTER';`
+- [ ] `SELECT * FROM customers WHERE UPPER(LastName) = 'Potter';`

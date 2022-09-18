@@ -30,10 +30,10 @@
 
 #### Q5. When working in a layout, if a viewport is activated and locked and you accidentally zoom in or out, what happens to your viewport scale?
 
-- [ ] Nothing. The viewport scale remains the same.
+- [x] Nothing. The viewport scale remains the same.
 - [ ] The viewport scale returns to the default 1:1 scale.
 - [ ] The viewport scale changes to the next available standard scale.
-- [x] The viewport scale changes to a nonstandard scale.
+- [ ] The viewport scale changes to a nonstandard scale.
 
 #### Q6. Dynamic Input (DYNMODE) is switched on by default. Which function key do you use to control the Dynamic Input toggle?
 
@@ -197,7 +197,7 @@
 
 #### Q29. When plotting in AutoCAD, the default plotting style is a color-dependent plot style table (CTB). You can also use named plot style tables (STB). You can change a CTB drawing to an STB drawing using which command?
 
-- [ ] CONVERTPSTYLES
+- [x] CONVERTPSTYLES
 - [ ] CONVSTYLES
 - [ ] CONVERTPLOT
 - [ ] CONVPLOTSTYLE
@@ -250,7 +250,7 @@
 #### Q32. The Quick Access toolbar (QAT) is located in the top left of the AutoCAD application window. Which two commands in the QAT allow you to go backward and forward in your AutoCAD workflow?
 
 - [ ] Left and Right
-- [ ] Undo and Redo
+- [x] Undo and Redo
 - [ ] Rewind and Fast
 - [ ] Forward Unfix and Fix
 
@@ -280,7 +280,7 @@
 - [ ] internal and external quadrants
 - [ ] internal and external circumference
 - [ ] internal and external diameter
-- [ ] internal and external radius
+- [x] internal and external radius
 
 #### Q37. An inscribed polygopoln gives you what type of point at the end of the polygon radius?
 
@@ -342,7 +342,7 @@
 
 #### Q45. The navigation bar is normally on by default and is located to the right-hand side of the drawing area. Which variable controls the display of the navigation bar, and to what value does it need to be set for the navigation bar to display on the screen?
 
-- [ ] The NAVBARDISPLAY value should be set to 1
+- [x] The NAVBARDISPLAY value should be set to 1
 - [ ] The NAVBARDISPLAY value should be set to 0.
 - [ ] The NAVIGATIONBARDISPLAYON value should be set to 1.
 - [ ] The NAVIGATIONBARDISPLAYON value should be set to 0.
@@ -393,7 +393,7 @@
 
 - [ ] Create Separate Hatches
 - [ ] Associative Boundaries
-- [ ] Set the HATCHMULTIPLE variable to 0 (OFF).
+- [x] Set the HATCHMULTIPLE variable to 0 (OFF).
 - [ ] Set the HATCHMULTIPLE variable to 1 (ON).
 
 #### Q53. AutoCAD allows you to select individual objects cumulatively to create a selection set. You can remove individual objects from that selection by using a mouse click combined with which keystroke?
@@ -556,7 +556,7 @@
 
 ![q76](images/q76_autocad.png)
 
-- [ ] Change the GRIPBLOCK system variable to 1.
+- [x] Change the GRIPBLOCK system variable to 1.
 - [ ] Select the block and change it in the Properties palette.
 - [ ] Change the GRIPBLOCK system variable to 0.
 - [ ] Select the block and change it in the right-click shortcut menu.
@@ -566,11 +566,11 @@
 - [ ] Linesize
 - [ ] Linestyle
 - [ ] Lineweight
-- [ ] Linetype
+- [x] Linetype
 
 #### Q77. You selected multiple items and four of the items where not supposed to be selected. How do you deselect them?
 
 - [ ] Hold down Alt (Windows) or Option (Mac) and select the four items.
 - [ ] Hold down CTRL (Windows) or Command (Mac) and select the four items.
 - [ ] Simply select them.
-- [ ] Hold down Shift and select the four items.
+- [x] Hold down Shift and select the four items.

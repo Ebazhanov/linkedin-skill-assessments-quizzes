@@ -723,28 +723,28 @@ t1 = test()
 
 #### Q53. What is the correct syntax for defining an `__init__()` method that takes no parameters?
 
-- [ ]
+- [ ] <br>
 
 ```python
 class __init__(self):
     pass
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 def __init__():
     pass
 ```
 
-- [ ]
+- [ ] <br>
 
 ```python
 class __init__():
     pass
 ```
 
-- [x]
+- [x] <br>  
 
 ```python
 def __init__(self):
@@ -1065,7 +1065,7 @@ while i<6:
 
 #### Q81. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?
 
-- [ ]
+- [ ] <br> 
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1073,7 +1073,7 @@ def __init__(self, attr1, attr2):
     attr2 = attr2
 ```
 
-- [ ]
+- [ ] <br> 
 
 ```python
 def __init__(attr1, attr2):
@@ -1081,7 +1081,7 @@ def __init__(attr1, attr2):
     attr2 = attr2
 ```
 
-- [x]
+- [x] <br> 
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1089,7 +1089,7 @@ def __init__(self, attr1, attr2):
     self.attr2 = attr2
 ```
 
-- [ ]
+- [ ] <br> 
 
 ```python
 def __init__(attr1, attr2):
@@ -1429,7 +1429,7 @@ for letter in my_dictionary.values():
 - [ ] `letters = [letter for (letter, number) in my_dictionary.items()]`
 - [ ] `letters4 = list(my_dictionary)`
 
-**Explanation:** The first one (the correct option) returns the list of the values (the letters). The rest of the options return a list of the keys.
+**Explanation:** The first one (the correct option) returns the list of the values (the numbers). The rest of the options return a list of the keys.
 
 #### Q105. When an array is large, NumPy will not print the entire array when given the built-in `print` function. What function can you use within NumPy to force it to print the entire array?
 
@@ -1716,7 +1716,7 @@ actors = ["Downey", "Holland", "Evans"]
 ```
 
 - [ ] `[(x,y)] for x in characters for y in actors]`
-- [x] `list(zip(characters, actors))`
+- [x] `zip(characters, actors)`
 - [ ] <br>
 
 ```python
@@ -1878,3 +1878,118 @@ b = a[50:60:2]
 - [ ] `1; len(mylist)`
 - [ ] `2; len(mylist)`
 - [ ] `0; len(mylist)`
+
+#### Q142. If a function does not have a return statement, what does it really return?
+
+- [ ] 0
+- [ ] True
+- [x] None
+- [ ] False
+
+#### Q143. What is a common use of python's sys library?
+
+- [x] to capture command-line arguments given at a file's runtime
+- [ ] to take a snapshot of all the packages and libraries in your virtual environment
+- [ ] to connect various systems, such as connecting a web front end, an API service, a database, and a mobile app
+- [ ] to scan the health of your Python ecosystem while inside a virtual environment
+
+[Reference](https://docs.python.org/3/library/sys.html)
+
+#### Q144. Suppose you want to double-check if two matrices can be multipled using NumPy for debugging purposes. How would you complete this code fragment by filling in the blanks with the appropiate variables?
+
+```import numpy as np
+
+def can_matrices_be_multiplied (matrix1, matrix2):
+    rowsMat1, columnsMat1 = matrix1.shape
+    rowsMat2, columnsMat2 = matrix2.shape
+
+    if _____ == ______ :
+        print('The matrices can be multipled!')
+        return True
+    else:
+        return False
+```
+
+- [ ] columnsMat1; rowsMat1;
+- [ ] columnsMat1; rowsMat2;
+- [ ] columnsMat1; columnsMat2;
+- [x] columnsMat2; rowsMat1;
+
+#### Q145. What is the output of this comprehension?
+
+```[(x, x+1) for x in range(1,5)] ```
+
+- [ ] [(1, 2), (2, 3), (3, 4), (4, 5), (5, 6)]
+- [ ] [1,2,3,4,5]
+- [ ] [(1, 2), (2, 3), (3, 4)]
+- [x] [(1, 2), (2, 3), (3, 4), (4, 5)]
+
+#### Q146. In Python, a class method must have ____ as a function decorator, and the first parameter of the method will be a reference to ____.
+
+- [x] @classmethod; the class
+- [ ] inline; the class
+- [ ] static; self
+- [ ] @static; self
+
+[Reference](https://docs.python.org/3/library/functions.html#classmethod)
+
+#### Q147. Which snippet of code will print My name is Joffrey, son of Robert?
+
+- [ ]    ```
+    class Father():
+        name = 'Robert' 
+    
+    class Person(Father):
+        def __init__(self, name):
+            self.fathername = super.name
+            self.name = name
+            
+        def introduce(self):
+            print("My name is", self.name, "son of", self.fathername) 
+         
+    king = Person("Joffrey")
+    king.introduce()
+    ```
+- [x]     ```
+    class Father():
+        name = 'Robert' 
+    
+    class Person(Father):
+        def __init__(self, name):
+            self.fathername = self.name
+            self.name = name
+            
+        def introduce(self):
+            print("My name is", self.name, "son of", self.fathername) 
+         
+    king = Person("Joffrey")
+    king.introduce()
+    ```
+- [ ]     ```
+    class Father():
+        name = 'Robert' 
+    
+    class Person(Father):
+        def __init__(self, name):
+            self.name = name
+            
+        def introduce(self):
+            print("My name is", self.name, "son of", super.name) 
+         
+    king = Person("Joffrey")
+    king.introduce()
+    ```
+- [ ]  ```
+    class Father():
+        name = 'Robert' 
+    
+    class Person(Father):
+        def __init__(self, name):
+            self.name = name
+            
+        def introduce(self):
+            print("My name is", self.name, "son of", base.name) 
+         
+    king = Person("Joffrey")
+    king.introduce()
+    ```
