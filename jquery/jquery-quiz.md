@@ -1565,3 +1565,12 @@ $('.items').find('li:first-child').fadeOut().next('.active').fadeTo('fast', 0.5)
 - [ ] elements that have no siblings.
 - [ ] elements that have only one child element.
 - [x] only the child elements of a given element.
+
+#### Q81. Because querySelectorAll and querySelector are in the native DOM API of modern browsers, you don't need jQuery to do many kinds of DOM selections. But the jQuery selector engine does provide extensions that browsers do not support natively. Which extension is supported only by jQuery and _not_ by querySelector or querySelectorAll?
+
+- [ ] :parent, which can select elements that have children
+- [x] :visible, which can select elements that jQuery considers to be visible
+- [ ] :contains, which can select elements by the text they contain
+- [ ] :nth-of-type, which can select elements that are the nth element of their type within their parent
+
+[Source: Selectors Level 4](https://drafts.csswg.org/selectors/)
