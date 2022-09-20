@@ -698,4 +698,9 @@ public class Honda extends Car{}
 - [x] as many levels of inheritance as required
 - [ ] as many levels of inheritance as required within 10 minutes
 
+#### Q92. What cannot be used for polymorphism?
 
+- [ ] overloading constructors 
+- [ ] overloading member functions
+- [x] static member functions
+- [ ] overloading predefined operator
