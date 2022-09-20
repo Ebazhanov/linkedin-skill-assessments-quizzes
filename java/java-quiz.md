@@ -2009,3 +2009,16 @@ Doggie::fetch
 - [ ] enum Cats ("sphynx", "siamese", "bengal");
 - [x] enum Cats {SPHYNX, SIAMESE, BENGAL}
 - [ ] enum Cats {"sphynx","siamese","bengal}
+
+#### Q139. What happens when this code is run?
+
+```java
+List<String> horses = new ArrayList<String>();
+horses.add (" Sea Biscuit ");
+System.out.println(horses.get(1).trim());
+```
+
+- [ ] "Sea Biscuit" will be printed.
+- [ ] " Sea Biscuit " will be printed.
+- [x] An IndexOutOfBoundsException will be thrown.
+- [ ] A NullPointerException will be thrown.
