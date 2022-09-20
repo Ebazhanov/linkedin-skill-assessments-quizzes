@@ -20,7 +20,7 @@
 - [ ]
 
 ```json
-['red', 'blue', 'green']
+["red", "blue", "green"]
 ```
 
 - [x]
@@ -142,7 +142,7 @@
     "height": 900,
     "binaries": {
       "url": "https://www.example.com/images/34097349843",
-      "thumbnail": "https://www.example.com/images/thumbs/34097349843",
+      "thumbnail": "https://www.example.com/images/thumbs/34097349843"
     },
     "animated": false,
     "tags": [116, 943, 234, 38793]
@@ -472,7 +472,7 @@ null
 
 ```json
 {
-  'avengers': ['iron man', 'hulk', 'thor', 'black widow', 'ant man', 'spider man']
+  "avengers": ["iron man", "hulk", "thor", "black widow", "ant man", "spider man"]
 }
 ```
 
@@ -589,7 +589,6 @@ Note: None of the above options appear to be correct. A correct answer would be 
 - [ ] UPC: "043875"
 - [x] "UPC": 043875
 - [ ] UPC: '043875'
-
 
 #### Q44. Which data format is a JSON schema written in?
 

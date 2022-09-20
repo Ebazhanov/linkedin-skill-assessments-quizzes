@@ -572,41 +572,40 @@
 - \[ ] Lasso
 - \[x] Patch
 
-
 #### Q76. Which Photoshpop panel containes project elements that can be shared across Adobe applications ro between collaborators?
 
--[x] Libraries
--[ ] Files
--[ ] Layer Comps
--[ ] Glyphs
+- [x] Libraries
+- [ ] Files
+- [ ] Layer Comps
+- [ ] Glyphs
 
 #### Q77. What should you create in order to save a panel layout arrangement?
 
--[ ] a layer set
--[x] a tool set
--[ ] a keyboard shortcut 
--[ ] a workspace
+- [ ] a layer set
+- [x] a tool set
+- [ ] a keyboard shortcut 
+- [ ] a workspace
 
 #### Q78. You are retouching a photo by using the Spot Healing Brush tool on a transparent layer aboce the image, but you cannot see any visible changes when you click. What is likely the problem?
 
--[ ] You need to convert the image to a Smart Object before using this tool.
--[ ] You must first change the blending mode to Screen
--[ ] The Spot Healing Brush tool cannot be used on a transparent layer 
--[x] The Sample all layers check box on the toolbar is not selected
+- [ ] You need to convert the image to a Smart Object before using this tool.
+- [ ] You must first change the blending mode to Screen
+- [ ] The Spot Healing Brush tool cannot be used on a transparent layer 
+- [x] The Sample all layers check box on the toolbar is not selected
 
 #### Q79. Which blend mode is useful for dropping out the darkest areas o the top layer and effectively adding up the image details, like multiple slides being projected on top of each other?
 
--[ ] Multiply
--[ ] Screen
--[x] Color
--[ ] Hard Light
+- [ ] Multiply
+- [ ] Screen
+- [x] Color
+- [ ] Hard Light
 
 #### Q80. Which layer(s) does the depicted Hue/Saturation 1 adjustment layer effect?
 
--[ ] B, C, and D
--[ ] B
--[x] B and C
--[ ] A
+- [ ] B, C, and D
+- [ ] B
+- [x] B and C
+- [ ] A
 
 #### Q81. What is the difference between the Healing Brush Tool and the Spot Healing Brush tool?
 
@@ -615,7 +614,7 @@
 - [ ] The spot healing brush tool does not match texture, lifghting, shading or trasparency of the sampled pixels, but the healing brush tool blends texture, light, shading and trasparency of pixel nearby.
 - [ ] The healing brush tool does not match texture, lighting, shading or trasparency of the sampled pixels, but the spot healing brush tool blends texture, light, shading and trasparency of pixel nearby.
 
-#### Q82. Which tool is _not_ found in the *Select and Mask* workspace?
+#### Q82. Which tool is _not_ found in the _Select and Mask_ workspace?
 
 - [ ] Quick select
 - [ ] Magic wand

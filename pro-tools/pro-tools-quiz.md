@@ -13,6 +13,3 @@
 - [ ] Recalculate the waveform overview
 - [ ] Select File > Export clips as files
 - [ ] Make a bounce of all clips and import it back to another track
-
-
-

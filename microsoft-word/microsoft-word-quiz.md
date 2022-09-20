@@ -721,12 +721,14 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] Transform
 
 #### Q92. Which is not text wrapping option for a picture?
-- [x] justify 
+
+- [x] justify
 - [ ] through
 - [ ] behind text
 - [ ] tight
 
 #### Q93. You are editing a paragraph that begins on one page and ends on the next after selecting the entire paragraph, how can you display it on one page?
+
 - [ ] In paragraph settings, click Indent and Spacing > pagination and select Keep with next
 - [x] In paragraph settings, click Line and Page Break > pagination and select Keep with next
 - [ ] In paragraph settings, click Line and Page Break > pagination and select keep lines together

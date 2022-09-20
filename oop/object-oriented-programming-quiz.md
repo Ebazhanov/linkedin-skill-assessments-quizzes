@@ -693,14 +693,14 @@ public class Honda extends Car{}
 
 #### Q91. Which relationship best illustrates an abstract-concrete class relationship?
 
-- [ ] only the amount of levels memory permits, divided by processor speed 
+- [ ] only the amount of levels memory permits, divided by processor speed
 - [ ] only 10 levels of inheritance
 - [x] as many levels of inheritance as required
 - [ ] as many levels of inheritance as required within 10 minutes
 
 #### Q92. What cannot be used for polymorphism?
 
-- [ ] overloading constructors 
+- [ ] overloading constructors
 - [ ] overloading member functions
 - [x] static member functions
 - [ ] overloading predefined operator

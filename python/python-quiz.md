@@ -744,7 +744,7 @@ class __init__():
     pass
 ```
 
-- [x] <br>  
+- [x] <br>
 
 ```python
 def __init__(self):
@@ -1065,7 +1065,7 @@ while i<6:
 
 #### Q81. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?
 
-- [ ] <br> 
+- [ ] <br>
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1073,7 +1073,7 @@ def __init__(self, attr1, attr2):
     attr2 = attr2
 ```
 
-- [ ] <br> 
+- [ ] <br>
 
 ```python
 def __init__(attr1, attr2):
@@ -1081,7 +1081,7 @@ def __init__(attr1, attr2):
     attr2 = attr2
 ```
 
-- [x] <br> 
+- [x] <br>
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1089,7 +1089,7 @@ def __init__(self, attr1, attr2):
     self.attr2 = attr2
 ```
 
-- [ ] <br> 
+- [ ] <br>
 
 ```python
 def __init__(attr1, attr2):
@@ -1917,14 +1917,14 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 
 #### Q145. What is the output of this comprehension?
 
-```[(x, x+1) for x in range(1,5)] ```
+`[(x, x+1) for x in range(1,5)] `
 
 - [ ] [(1, 2), (2, 3), (3, 4), (4, 5), (5, 6)]
 - [ ] [1,2,3,4,5]
 - [ ] [(1, 2), (2, 3), (3, 4)]
 - [x] [(1, 2), (2, 3), (3, 4), (4, 5)]
 
-#### Q146. In Python, a class method must have ____ as a function decorator, and the first parameter of the method will be a reference to ____.
+#### Q146. In Python, a class method must have \_**\_ as a function decorator, and the first parameter of the method will be a reference to \_\_**.
 
 - [x] @classmethod; the class
 - [ ] inline; the class
@@ -1935,61 +1935,61 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 
 #### Q147. Which snippet of code will print My name is Joffrey, son of Robert?
 
-- [ ]    ```
-    class Father():
-        name = 'Robert' 
-    
-    class Person(Father):
-        def __init__(self, name):
-            self.fathername = super.name
-            self.name = name
-            
-        def introduce(self):
-            print("My name is", self.name, "son of", self.fathername) 
-         
-    king = Person("Joffrey")
-    king.introduce()
-    ```
+- [ ] ```
+      class Father():
+         name = 'Robert'
+
+      class Person(Father):
+         def __init__(self, name):
+             self.fathername = super.name
+             self.name = name
+
+         def introduce(self):
+             print("My name is", self.name, "son of", self.fathername)
+
+      king = Person("Joffrey")
+      king.introduce()
+      ```
 - [x]     ```
-    class Father():
-        name = 'Robert' 
-    
-    class Person(Father):
-        def __init__(self, name):
-            self.fathername = self.name
-            self.name = name
-            
+  class Father():
+  name = 'Robert'
+  class Person(Father):
+  def **init**(self, name):
+  self.fathername = self.name
+  self.name = name
         def introduce(self):
-            print("My name is", self.name, "son of", self.fathername) 
-         
-    king = Person("Joffrey")
-    king.introduce()
-    ```
+            print("My name is", self.name, "son of", self.fathername)
+
+  king = Person("Joffrey")
+  king.introduce()
+  ```
+
+  ```
 - [ ]     ```
-    class Father():
-        name = 'Robert' 
-    
-    class Person(Father):
-        def __init__(self, name):
-            self.name = name
-            
+  class Father():
+  name = 'Robert'
+  class Person(Father):
+  def **init**(self, name):
+  self.name = name
         def introduce(self):
-            print("My name is", self.name, "son of", super.name) 
-         
-    king = Person("Joffrey")
-    king.introduce()
-    ```
-- [ ]  ```
-    class Father():
-        name = 'Robert' 
-    
-    class Person(Father):
-        def __init__(self, name):
-            self.name = name
-            
-        def introduce(self):
-            print("My name is", self.name, "son of", base.name) 
-         
-    king = Person("Joffrey")
-    king.introduce()
-    ```
+            print("My name is", self.name, "son of", super.name)
+
+  king = Person("Joffrey")
+  king.introduce()
+  ```
+
+  ```
+- [ ] ```
+       class Father():
+           name = 'Robert'
+
+       class Person(Father):
+           def __init__(self, name):
+               self.name = name
+
+           def introduce(self):
+               print("My name is", self.name, "son of", base.name)
+
+       king = Person("Joffrey")
+       king.introduce()
+      ```
