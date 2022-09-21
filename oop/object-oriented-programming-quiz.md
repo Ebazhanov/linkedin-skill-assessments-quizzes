@@ -704,3 +704,10 @@ public class Honda extends Car{}
 - [ ] overloading member functions
 - [x] static member functions
 - [ ] overloading predefined operator
+
+#### Q93. How many levels does multilevel inheritance allow in a program?
+
+- [ ] only 10 levels of inheritance
+- [ ] as many levels of inheritance as required within 10 minutes
+- [ ] as many levels of inheritance as required
+- [ ] 
