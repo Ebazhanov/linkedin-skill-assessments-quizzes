@@ -710,4 +710,4 @@ public class Honda extends Car{}
 - [ ] only 10 levels of inheritance
 - [ ] as many levels of inheritance as required within 10 minutes
 - [ ] as many levels of inheritance as required
-- [ ] 
+- [x] only the amount of levels memory permits, divided by processor speed
