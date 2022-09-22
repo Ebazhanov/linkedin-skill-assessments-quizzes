@@ -627,3 +627,55 @@
 - [ ] Brush
 - [ ] Quick Selection
 - [x] Refine Edge
+
+#### Q84. Which option is found in the Path Operations drop-down menu?
+
+- [ ] Divide
+- [ ] Combine Shapes
+- [x] Minus Back
+- [ ] Outline
+
+#### Q85. Which file formats does the Save for Web command support? (Select all that apply.) A. SVG B. JPEG C. PNG D. GIF E. MP4
+
+- [X] A, B, C
+- [ ] B, C, D
+- [ ] B, D, E
+- [ ] A, C, E
+
+#### Q86. Which method was used to soften the edges of this selection?
+
+![Which method was used to soften the edges of this selection?](images/016.png?raw=true) NEED UPDATE
+
+- [ ] Expand
+- [ ] Smooth
+- [x] Feather
+- [ ] Frow
+
+#### Q87. What can be said about the Curves adjustment shown here?
+
+![What can be said about the Curves adjustment shown here?](images/017.png?raw=true) NEED UPDATE
+
+- [ ] It will prevent shadows from pluhhing up.
+- [x] It will increase the midtone contrast.
+- [ ] It will decrease the overall saturation.
+- [ ] It will prevent highlights from being blown out.
+
+#### Q88. Why is the Sycamore Leaf 1 layer underlined, as shown?
+
+![Why is the Sycamore Leaf 1 layer underlined, as shown?](images/018.png?raw=true) NEED UPDATE
+
+- [ ] The Sycamore Leaf 1 layer is the base layer of a clipping mask.
+- [ ] The Sycamore Leaf 1 layer is linked layer.
+- [x] The Sycamore Leaf 1 layer is Smart Object.
+- [ ] The Sycamore Leaf 1 layer is selected.
+
+#### Q89. Which layer(s) does the depicted Hue/Saturation 1 adjustment layer affect?
+
+![Which layer(s) does the depicted Hue/Saturation 1 adjustment layer affect?](images/019.png?raw=true) NEED UPDATE
+
+- [ ] A
+- [ ] B, C and D
+- [ ] B
+- [x] B and C
+
+
