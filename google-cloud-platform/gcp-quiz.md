@@ -443,3 +443,18 @@ Explanation: Google does not store your keys on its servers and cannot access yo
 - [x] Cloud Storage and Big Query
 - [ ] Cloud Pub/Sub and Cloud Spanner
 - [ ] Cloud Pub/Sub and Big Query
+
+#### Q56. You want to work with GCP Organisation users in the console. Where do you navigate to?
+
+- [ ] admin.google.com > Administration
+- [x] console.cloud.google.com > Administration
+- [ ] admin.google.com > Users
+- [ ] console.cloud.google.com > Users
+
+#### Q56. You want to select a fully managed platform for developing and hosting a web application written in Kotlin at scale on GCP. Which service should you choose?
+
+- [x] Google App Engine Flexible
+- [ ] Google App Engine Standard
+- [ ] Google Kubernetes Engine Flexible
+- [ ] Google Kubernetes Engine Standard
+
