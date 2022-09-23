@@ -644,7 +644,7 @@
 
 #### Q86. Which method was used to soften the edges of this selection?
 
-![Which method was used to soften the edges of this selection?](images/016.png?raw=true) NEED UPDATE
+![Which method was used to soften the edges of this selection?](images/016.png?raw=true)
 
 - [ ] Expand
 - [ ] Smooth
@@ -653,7 +653,7 @@
 
 #### Q87. What can be said about the Curves adjustment shown here?
 
-![What can be said about the Curves adjustment shown here?](images/017.png?raw=true) NEED UPDATE
+![What can be said about the Curves adjustment shown here?](images/017.png?raw=true)
 
 - [ ] It will prevent shadows from pluhhing up.
 - [x] It will increase the midtone contrast.
@@ -662,7 +662,7 @@
 
 #### Q88. Why is the Sycamore Leaf 1 layer underlined, as shown?
 
-![Why is the Sycamore Leaf 1 layer underlined, as shown?](images/018.png?raw=true) NEED UPDATE
+![Why is the Sycamore Leaf 1 layer underlined, as shown?](images/018.png?raw=true)
 
 - [ ] The Sycamore Leaf 1 layer is the base layer of a clipping mask.
 - [ ] The Sycamore Leaf 1 layer is linked layer.
@@ -671,7 +671,7 @@
 
 #### Q89. Which layer(s) does the depicted Hue/Saturation 1 adjustment layer affect?
 
-![Which layer(s) does the depicted Hue/Saturation 1 adjustment layer affect?](images/019.png?raw=true) NEED UPDATE
+![Which layer(s) does the depicted Hue/Saturation 1 adjustment layer affect?](images/019.png?raw=true)
 
 - [ ] A
 - [ ] B, C and D
