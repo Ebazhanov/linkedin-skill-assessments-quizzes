@@ -10627,6 +10627,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "alvarotrujillo",
+      "name": "Alvaro Trujillo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103326869?v=4",
+      "profile": "atrujillo.dev",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
