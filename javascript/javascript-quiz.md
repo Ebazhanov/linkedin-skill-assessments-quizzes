@@ -1886,3 +1886,12 @@ if (/* Snipped goes here */){
 - [x] appendChild()
 - [ ] querySelector()
 - [ ] getNode()
+
+#### Q135. How would you add a data item named animal with a value of sloth to local storage for the current domain?
+
+- [ ] LocalStorage.setItem("animal","sloth");
+- [x] document.localStorage.setItem("animal","sloth");
+- [ ] localStorage.setItem({animal:"sloth"});
+- [ ] localStorage.setItem("animal","sloth");
+
+[Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
