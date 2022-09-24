@@ -1048,12 +1048,14 @@ remote repository, named origin, to point to the new remote repository at this l
 - [ ] `git -b checkout <nameOfBranch>`
 - [ ] `git branch`
 
-#### Q130. You have changed your mind about adding broccoli to your project. How should you remove it? 
+#### Q130. You have changed your mind about adding broccoli to your project. How should you remove it?
+
 ```bash
-Untracked files: 
-  (use "git add <file>..." to include in what will be committed) 
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
   brccoli
 ```
+
 - [x] `git remove broccoli`
 - [ ] `git clean -f`
 - [ ] `git clean`

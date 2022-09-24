@@ -949,6 +949,7 @@ def show
   end
 end
 ```
+
 #### Q70. Which keyword is used in a layout to identify a section where content from the view should be inserted?
 
 - [ ] render

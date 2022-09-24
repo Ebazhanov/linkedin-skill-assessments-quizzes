@@ -1935,65 +1935,76 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 
 #### Q147. Which snippet of code will print My name is Joffrey, son of Robert?
 
-- [ ] ```
-      class Father():
-         name = 'Robert'
+- [ ]
 
-      class Person(Father):
-         def __init__(self, name):
-             self.fathername = super.name
-             self.name = name
+```
+          class Father():
+             name = 'Robert'
 
-         def introduce(self):
-             print("My name is", self.name, "son of", self.fathername)
+          class Person(Father):
+             def __init__(self, name):
+                 self.fathername = super.name
+                 self.name = name
 
-      king = Person("Joffrey")
-      king.introduce()
-      ```
-- [x]     ```
+             def introduce(self):
+                 print("My name is", self.name, "son of", self.fathername)
+
+          king = Person("Joffrey")
+          king.introduce()
+
+```
+
+- [x]
+
+```
   class Father():
   name = 'Robert'
   class Person(Father):
   def **init**(self, name):
   self.fathername = self.name
   self.name = name
-        def introduce(self):
-            print("My name is", self.name, "son of", self.fathername)
+  def introduce(self):
+  print("My name is", self.name, "son of", self.fathername)
 
   king = Person("Joffrey")
   king.introduce()
-  ```
 
-  ```
-- [ ]     ```
+```
+
+- [ ]
+
+```
   class Father():
   name = 'Robert'
   class Person(Father):
   def **init**(self, name):
   self.name = name
-        def introduce(self):
-            print("My name is", self.name, "son of", super.name)
+  def introduce(self):
+  print("My name is", self.name, "son of", super.name)
 
   king = Person("Joffrey")
   king.introduce()
-  ```
 
-  ```
-- [ ] ```
-       class Father():
-           name = 'Robert'
+```
 
-       class Person(Father):
-           def __init__(self, name):
-               self.name = name
+- [ ]
 
-           def introduce(self):
-               print("My name is", self.name, "son of", base.name)
+```
+           class Father():
+               name = 'Robert'
 
-       king = Person("Joffrey")
-       king.introduce()
-      ```
-      
+           class Person(Father):
+               def __init__(self, name):
+                   self.name = name
+
+               def introduce(self):
+                   print("My name is", self.name, "son of", base.name)
+
+           king = Person("Joffrey")
+           king.introduce()
+
+```
+
 #### Q148.
 
 ```
@@ -2003,16 +2014,16 @@ animals = {
      'c' ['cat', 'cougar', 'camel']
 }
 animals = defaultdict (list, animals)
-       
+
 print (animals ['b'])
-print (animals ['d'])   
+print (animals ['d'])
 ```
 
 - [x] `['beetle', 'bear', 'bat']`
- `[]`
+      `[]`
 - [ ] `['beetle', 'bear', 'bat']`
-  `# an exception will be thrown`
+      `# an exception will be thrown`
 - [ ] `['beetle', 'bear', 'bat']`
-  None
+      None
 - [ ] `['bat', 'bear', 'beetle']`
-  `[]`
+      `[]`

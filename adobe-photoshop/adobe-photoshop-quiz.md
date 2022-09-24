@@ -583,14 +583,14 @@
 
 - [ ] a layer set
 - [x] a tool set
-- [ ] a keyboard shortcut 
+- [ ] a keyboard shortcut
 - [ ] a workspace
 
 #### Q78. You are retouching a photo by using the Spot Healing Brush tool on a transparent layer aboce the image, but you cannot see any visible changes when you click. What is likely the problem?
 
 - [ ] You need to convert the image to a Smart Object before using this tool.
 - [ ] You must first change the blending mode to Screen
-- [ ] The Spot Healing Brush tool cannot be used on a transparent layer 
+- [ ] The Spot Healing Brush tool cannot be used on a transparent layer
 - [x] The Sample all layers check box on the toolbar is not selected
 
 #### Q79. Which blend mode is useful for dropping out the darkest areas o the top layer and effectively adding up the image details, like multiple slides being projected on top of each other?
@@ -637,7 +637,7 @@
 
 #### Q85. Which file formats does the Save for Web command support? (Select all that apply.) A. SVG B. JPEG C. PNG D. GIF E. MP4
 
-- [X] A, B, C
+- [x] A, B, C
 - [ ] B, C, D
 - [ ] B, D, E
 - [ ] A, C, E
@@ -677,5 +677,3 @@
 - [ ] B, C and D
 - [ ] B
 - [x] B and C
-
-

@@ -549,4 +549,3 @@ Reference: [Compilation by the JIT compiler](https://docs.microsoft.com/en-us/do
 - [x] It can ensure that middleware runs before or after middleware added by libraries at the start or end of the app's request processing pipeline.
 - [ ] It can specify how the app respondes to HTTP requests.
 - [ ] It can specify how the app makes requests to HTTP.
-

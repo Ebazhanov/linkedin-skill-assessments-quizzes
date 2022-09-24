@@ -457,4 +457,3 @@ Explanation: Google does not store your keys on its servers and cannot access yo
 - [ ] Google App Engine Standard
 - [ ] Google Kubernetes Engine Flexible
 - [ ] Google Kubernetes Engine Standard
-
