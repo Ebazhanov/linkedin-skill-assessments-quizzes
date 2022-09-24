@@ -1993,3 +1993,26 @@ def can_matrices_be_multiplied (matrix1, matrix2):
        king = Person("Joffrey")
        king.introduce()
       ```
+      
+#### Q148.
+
+```
+animals = {
+     'a' ['ant', 'antelope', 'armadillo'],
+     'b' ['beetle', 'bear', 'bat'],
+     'c' ['cat', 'cougar', 'camel']
+}
+animals = defaultdict (list, animals)
+       
+print (animals ['b'])
+print (animals ['d'])   
+```
+
+- [x] `['beetle', 'bear', 'bat']`
+ `[]`
+- [ ] `['beetle', 'bear', 'bat']`
+  `# an exception will be thrown`
+- [ ] `['beetle', 'bear', 'bat']`
+  None
+- [ ] `['bat', 'bear', 'beetle']`
+  `[]`
