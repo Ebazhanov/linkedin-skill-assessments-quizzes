@@ -2020,14 +2020,26 @@ print (animals ['b'])
 print (animals ['d'])
 ```
 
-- [x] `['beetle', 'bear', 'bat']`
-      `[]`
-- [ ] `['beetle', 'bear', 'bat']`
-      `# an exception will be thrown`
-- [ ] `['beetle', 'bear', 'bat']`
-      None
-- [ ] `['bat', 'bear', 'beetle']`
-      `[]`
+- [x] 
+    ```
+    ['beetle', 'bear', 'bat']
+    []
+    ```
+- [ ] 
+    ```
+    ['beetle', 'bear', 'bat']
+    # an exception will be thrown
+    ```
+- [ ] 
+    ```
+    ['beetle', 'bear', 'bat']
+    None
+    ```
+- [ ] 
+    ```
+    ['bat', 'bear', 'beetle']
+    []
+    ```
 
 Explanation:
 
