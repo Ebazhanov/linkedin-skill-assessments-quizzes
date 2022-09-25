@@ -1043,10 +1043,10 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] `=CHOOSE(A2)`
 - [ ] `=TRIM(A2)`
 
-##### Q114. What is the output of the formula `=(8+2*3)/7?`
+##### Q114. What is the output of the formula `=(8+2*3)/7`?
 
 - [ ] 13
-- [x] 7
+- [x] 2
 - [ ] 11
 - [ ] 15
 
@@ -1179,8 +1179,8 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 ![WhatsApp Image 2022-08-15 at 00 08 22](https://user-images.githubusercontent.com/80069786/184557060-2164d8b6-37ae-41d3-9525-31e88065fbdc.jpeg)
 
 - [ ] =TRIM(A2,2)
-- [x] =LEFT(A2,2)
-- [ ] =RIGHT(A2,2)
+- [ ] =LEFT(A2,2)
+- [x] =RIGHT(A2,2)
 - [ ] =MID(A2,2)
 
 #### Q132. What is the fastest way to see the data in column E
