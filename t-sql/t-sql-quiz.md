@@ -46,7 +46,7 @@ END CATCH
 
 #### Q6. Given the Games table pictured, which query generates the results shown?
 
-- [ ]
+- [ ] :
 
 ```tsql
   SELECT GameType, MaxPlayers, count(*) AS NumberOfGames
@@ -55,7 +55,7 @@ END CATCH
   ORDER BY MaxPlayers, GameType;
 ```
 
-- [x]
+- [x] :
 
 ```tsql
   SELECT GameType, MaxPlayers, count(*) AS NumberOfGames
@@ -64,7 +64,7 @@ END CATCH
   ORDER BY GameType;
 ```
 
-- [ ]
+- [ ] :
 
 ```tsql
   SELECT GameType, count(Players) AS MaxPlayers, NumberOfGames
@@ -73,7 +73,7 @@ END CATCH
   ORDER BY GameType;
 ```
 
-- [ ]
+- [ ] :
 
 ```tsql
   SELECT GameType, MaxPlayers, count(*) AS NumberOfGames
@@ -96,25 +96,25 @@ END CATCH
 
 #### Q8. You need to find all students that are not on the "Chemistry Cats" team. Which query does NOT work for this task?
 
-- [x]
+- [x] :
 
 ```SELECT * FROM Students
    WHERE team NOT 'Chemistry Cats';
 ```
 
-- [ ]
+- [ ] :
 
 ```SELECT * FROM Students
    WHERE team <> 'Chemistry Cats';
 ```
 
-- [ ]
+- [ ] :
 
 ```SELECT * FROM Students
    WHERE team != 'Chemistry Cats';
 ```
 
-- [ ]
+- [ ] :
 
 ```SELECT * FROM Students
    WHERE NOT team = 'Chemistry Cats';
@@ -362,7 +362,7 @@ CREATE TABLE Students (
 );
 ```
 
-- [ ]
+- [ ] :
 
 ```tsql
 SELECT StudentName
@@ -370,7 +370,7 @@ FROM Students
 WHERE Grade = (SELECT MIN(Grade) FROM Student);
 ```
 
-- [ ]
+- [ ] :
 
 ```tsql
 SELECT TOP(1) Grade
@@ -378,14 +378,14 @@ FROM Students
 ORDER BY Grade;
 ```
 
-- [ ]
+- [ ] :
 
 ```tsql
 SELECT MIN(Grade)
 FROM Students
 ```
 
-- [x]
+- [x] :
 
 ```tsql
 SELECT MIN(Grade)
@@ -393,9 +393,9 @@ FROM Students
 ORDER BY Grade;
 ```
 
-> **Explanation:** Column `Students.Grade` is invalid in the `ORDER BY` clause because it is not contained in either an aggregate function or the `GROUP BY` clause.
+**Explanation:** Column `Students.Grade` is invalid in the `ORDER BY` clause because it is not contained in either an aggregate function or the `GROUP BY` clause.
 
-- [x]
+- [x] :
 
 ```tsql
 SELECT MIN(Grade)
@@ -403,7 +403,7 @@ FROM Students
 GROUP BY Grade;
 ```
 
-> **Explanation:** Grouping will return a list of all grades grouped by grade. The prompt wants just one returned row.
+**Explanation:** Grouping will return a list of all grades grouped by grade. The prompt wants just one returned row.
 
 #### Q33. Refer to the figure below.
 
@@ -510,7 +510,7 @@ CREATE TABLE Publishers (
 );
 ```
 
-- [ ]
+- [ ] :
 
 ```ALTER TABLE Books
           ADD CONSTRAINT FK Books_PublisherID
@@ -518,7 +518,7 @@ CREATE TABLE Publishers (
           REFERENCES Publishers (PublisherID) ON UPDATE SET NULL
 ```
 
-- [X]
+- [x] :
 
 ```ALTER TABLE Books
           ADD CONSTRAINT FK Books_PublisherID
@@ -526,7 +526,7 @@ CREATE TABLE Publishers (
           REFERENCES Publishers (PublisherID) ON DELETE CASCADE
 ```
 
-- [ ]
+- [ ] :
 
 ```ALTER TABLE Books
           ADD CONSTRAINT FK_Books_PublisherID
@@ -534,7 +534,7 @@ CREATE TABLE Publishers (
           REFERENCES Publishers (PublisherID)
 ```
 
-- [ ]
+- [ ] :
 
 ```ALTER TABLE Publishers
           ADD CONSTRAINT FK_Publishers_PublisherID

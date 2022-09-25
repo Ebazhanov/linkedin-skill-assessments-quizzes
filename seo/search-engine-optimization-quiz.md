@@ -51,28 +51,28 @@
 
 #### Q8. You want to block crawlers from accessing your entire website. What robots.txt entry would you use?
 
-- [ ]
+- [ ] :
 
 ```markdown
     User-agent: Allbots
     Disallow: \*
 ```
 
-- [ ]
+- [ ] :
 
 ```markdown
     User-agent: /
     Disallow: \*
 ```
 
-- [ ]
+- [ ] :
 
 ```markdown
     User-agent: /
     Disallow:
 ```
 
-- [x]
+- [x] :
 
 ```markdown
     User-agent: \*
@@ -144,7 +144,7 @@
 
 #### Q18. Which choice represents the best header structure?
 
-- [x]
+- [x] :
 
 ```markdown
     H1: How to Bak Bagels
@@ -155,7 +155,7 @@
     H6: Reviews
 ```
 
-- [ ]
+- [ ] :
 
 ```markdown
     H1: How to Bak Bagels
@@ -166,7 +166,7 @@
     H2: Reviews
 ```
 
-- [ ]
+- [ ] :
 
 ```markdown
     H1: How to Bak Bagels
@@ -177,7 +177,7 @@
     H2: Reviews
 ```
 
-- [ ]
+- [ ] :
 
 ```markdown
     H1: How to Bak Bagels

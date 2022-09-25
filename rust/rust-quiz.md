@@ -205,13 +205,13 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 }
 ```
 
-- [x]
+- [x] :
 
 ```rust
 write!(&mut v, "{}{}{}", a, b, c)?;
 ```
 
-- [ ]
+- [ ] :
 
 ```rust
 v.write(a)?;
@@ -219,13 +219,13 @@ v.write(b)?;
 v.write(c)?;
 ```
 
-- [ ]
+- [ ] :
 
 ```rust
 v.write(a, b, c)?;
 ```
 
-- [ ]
+- [ ] :
 
 ```rust
 v.write_all(a.as_bytes())?;

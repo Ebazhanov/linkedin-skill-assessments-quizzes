@@ -251,7 +251,7 @@ function Dish(props) {
 - [ ] a property that lets you set an array as a property
 - [ ] a property that lets you pass data to child elements
 
-[**Explanation**](https://reactjs.org/docs/jsx-in-depth.html#children-in-jsx)
+[Explanation](https://reactjs.org/docs/jsx-in-depth.html#children-in-jsx)
 
 #### Q25. Which attribute do you use to replace innerHTML in the browser DOM?
 
@@ -375,8 +375,7 @@ class Clock extends React.Component {
 - [ ] It automatically updates a component.
 - [x] `setState` is asynchronous and might result in out of sync values.
 
-**Explanation:** Because `this.props` and `this.state` may be updated asynchronously, you should not rely on their values for calculating the next state.
-Read [this article](https://medium.com/@wisecobbler/using-a-function-in-setstate-instead-of-an-object-1f5cfd6e55d1)
+Read [this article](https://medium.com/@wisecobbler/using-a-function-in-setstate-instead-of-an-object-1f5cfd6e55d1)**Explanation:** Because `this.props` and `this.state` may be updated asynchronously, you should not rely on their values for calculating the next state.
 
 #### Q39. What package contains the render() function that renders a React element tree to the DOM?
 
@@ -407,8 +406,7 @@ class clock extends React.Component {
 - [ ] Remove the render method
 - [x] Capitalize `clock`
 
-**Explanation:** In JSX, lower-case tag names are considered to be HTML tags.
-Read [this article](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components)
+Read [this article](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components)**Explanation:** In JSX, lower-case tag names are considered to be HTML tags.
 
 #### Q42. Which Hook could be used to update the document's title?
 
