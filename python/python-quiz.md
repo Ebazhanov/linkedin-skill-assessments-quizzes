@@ -2010,14 +2010,15 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 
 ```
 animals = {
-     'a' ['ant', 'antelope', 'armadillo'],
-     'b' ['beetle', 'bear', 'bat'],
-     'c' ['cat', 'cougar', 'camel']
+    'a': ['ant', 'antelope', 'armadillo'],
+    'b': ['beetle', 'bear', 'bat'],
+    'c': ['cat', 'cougar', 'camel']
 }
-animals = defaultdict (list, animals)
 
-print (animals ['b'])
-print (animals ['d'])
+animals = defaultdict(list, animals)
+
+print(animals['b'])
+print(animals['d'])
 ```
 
 - [x] 
