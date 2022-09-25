@@ -490,8 +490,8 @@ let diff = function (x, y) {
 - [x] Most operations involve looking up a record, and objects can do that better than arrays.
 - [ ] Working with objects makes the code more readable.
 
-**Explanation:** Records in an object can be retrieved using their key which can be any given value (e.g. an employee ID, a city name, etc), whereas to retrieve a record from an array we need to know its index.
 [Reference efficiency of lookups](https://stackoverflow.com/questions/17295056/array-vs-object-efficiency-in-javascript)
+**Explanation:** Records in an object can be retrieved using their key which can be any given value (e.g. an employee ID, a city name, etc), whereas to retrieve a record from an array we need to know its index.
 
 #### Q36. Which statement is true about the "async" attribute for the HTML script tag?
 
@@ -774,7 +774,7 @@ printA();
 - [ ] to make your code faster
 - [ ] to ensure that the call stack maintains a LIFO (Last in, First Out) structure
 
-**EXPLANATION:** "to ensure that tasks further down in your code are not initiated until earlier tasks have completed" you use the normal (synchronous) flow where each command is executed sequentially. Asynchronous code allows you to break this sequence: start a long running function (AJAX call to an external service) and continue running the rest of the code in parallel.
+**EXPLANATION:** `"to ensure that tasks further down in your code are not initiated until earlier tasks have completed" you use the normal (synchronous) flow where each command is executed sequentially. Asynchronous code allows you to break this sequence: start a long running function (AJAX call to an external service) and continue running the rest of the code in parallel.`
 
 #### Q59. Which expression evaluates to true?
 
@@ -783,8 +783,8 @@ printA();
 - [ ] `3 != '3'`
 - [ ] `3 === '3'`
 
-[Reference booleans](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
-[Reference 2 - booleans](https://www.scaler.com/topics/boolean-in-javascript/)
+1. [Reference booleans](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)
+2. [Reference 2 - booleans](https://www.scaler.com/topics/boolean-in-javascript/)
 
 #### Q60. Which of these is a valid variable name?
 
@@ -984,7 +984,7 @@ useEffect(() => {
 - [ ] render
 - [x] componentDidMount
 
-[Reference react lifecycle methods](https://reactjs.org/docs/react-component.html)
+[Reference](https://reactjs.org/docs/react-component.html)
 
 #### Q79. What is the output of this code?
 
@@ -1460,10 +1460,10 @@ const myFunction = (arr) => {
 console.log(myFunction(myNumbers));
 ```
 
-- [ ] [4,5,6,7,8,9,10]
-- [ ] [4,5,6,7]
-- [ ] [1,2,3,4,5,6]
-- [x] [4,5,6]
+- [ ] `[4,5,6,7,8,9,10]`
+- [ ] `[4,5,6,7]`
+- [ ] `[1,2,3,4,5,6]`
+- [x] `[4,5,6]`
 
 [Reference functions in javascript](https://www.w3schools.com/js/js_functions.asp)
 
@@ -1499,7 +1499,7 @@ let plainText = '';
 console.log(plainText); //Prints YOU GOT THIS
 ```
 
-- [ ]
+- [ ] A
 
 ```js
 for (let key of cipherText.keys()) {
@@ -1507,7 +1507,7 @@ for (let key of cipherText.keys()) {
 }
 ```
 
-- [ ]
+- [ ] B
 
 ```js
 for (let [index, value] of cipherText.entries()) {
@@ -1515,7 +1515,7 @@ for (let [index, value] of cipherText.entries()) {
 }
 ```
 
-- [x]
+- [x] C
 
 ```js
 for (let [index, value] of cipherText.entries()) {
@@ -1523,7 +1523,7 @@ for (let [index, value] of cipherText.entries()) {
 }
 ```
 
-- [ ]
+- [ ] D
 
 ```js
 for (let value of cipherText) {
@@ -1548,7 +1548,7 @@ console.log(pokedex.pop());
 - [ ] Snorlax
 - [ ] Squirtle
 
-**Explanation**: The pop() method removes the last element from an array and returns that element. This method changes the length of the array.
+**Explanation**: `The pop() method removes the last element from an array and returns that element. This method changes the length of the array.`
 
 [Reference Array.pop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
 

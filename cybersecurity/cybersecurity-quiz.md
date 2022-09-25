@@ -83,7 +83,7 @@ An intrusion detection system (`IDS`) is a device or software application that m
 - [ ] password spray attack
 - [ ] brute force attack
 
-A rainbow table attack is a more efficient and effective way of cracking many hashed passwords, whereas brute-forcing would take much longer and may not complete in a reasonable amount of time.
+`A rainbow table attack is a more efficient and effective way of cracking many hashed passwords, whereas brute-forcing would take much longer and may not complete in a reasonable amount of time.`
 
 [Professor Messer](https://www.professormesser.com/free-a-plus-training/220-1002/brute-force-attacks-3).
 
@@ -124,7 +124,7 @@ A rainbow table attack is a more efficient and effective way of cracking many ha
 - [ ] Cloud Workload Protection Platforms (CWPP)
 - [ ] Cloud Access Security Brokers (CASBs)
 
-#### Q17. **\_\_\_\_\_** validates the integrity of data files.
+#### Q17. **\_** validates the integrity of data files.
 
 - [ ] Compression
 - [x] Hashing
@@ -797,7 +797,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 [Explanation:](https://www.law.com/njlawjournal/2021/12/03/zero-trust-security-moving-from-trust-but-verify-to-never-trust-always-verify/?slreturn=20220417191235)
 
-#### Q104. **\_\_\_\_\_** attacks can execute the code injected by attackers as part of user inputs.
+#### Q104. **\_** attacks can execute the code injected by attackers as part of user inputs.
 
 - [ ] Ping of death
 - [x] Buffer overflow

@@ -416,7 +416,7 @@ startActivity(dialerIntent)
 
 #### Q31. When should you store files in the `/assets` directory?
 
-- [x] when you need access to the original file names and file hierarchy 
+- [x] when you need access to the original file names and file hierarchy
 - [ ] when you need access to the file with its `resource ID`, like `R.assets.filename`
 - [ ] when you have XML files that define tween animations
 - [ ] when you need to access the file in its raw form using `Resources.openRawResource()`
@@ -496,7 +496,7 @@ buildTypes {
 - [ ] JPG
 - [ ] PNG
 - [ ] MPEG
-- [x] WebP 
+- [x] WebP
 
 [Reference](https://developer.android.com/topic/performance/reduce-apk-size#:~:text=packJPG%20and%20guetzli.-,Use%20WebP%20file%20format,than%20either%20JPEG%20or%20PNG.)
 
@@ -944,7 +944,6 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] ProGuard
 - [ ] Shrinker
 - [ ] D8
-
 
 **Explanation**: `When you build your project using Android Gradle plugin 3.4.0 or higher, the plugin no longer uses ProGuard to perform compile-time code optimization. Instead, the plugin works with the R8 compiler to handle`
 

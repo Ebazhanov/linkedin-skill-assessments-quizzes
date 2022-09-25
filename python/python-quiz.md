@@ -49,8 +49,7 @@ if any([True, False, False, False]) == True:
 - [ ] Attributes are strings that describe characteristics of a class.
 - [ ] Function arguments are called "attributes" in the context of class methods and instance methods.
 
-**Explanation**
-Attributes defined under the class, arguments goes under the functions. arguments usually refer as parameter, whereas attributes are the constructor of the class or an instance of a class.
+**Explanation** `Attributes defined under the class, arguments goes under the functions. arguments usually refer as parameter, whereas attributes are the constructor of the class or an instance of a class.`
 
 #### Q6. What is the term to describe this code?
 
@@ -317,7 +316,7 @@ prices = [1.50, 2.25, 0.89]
 ('Bananas', 4, 0.89)]
 ```
 
-- [ ] <br>
+- [ ] A
 
 ```python
 output = []
@@ -334,7 +333,7 @@ output.append(fruit_tuple)
 return output
 ```
 
-- [x] <br>
+- [x] B
 
 ```python
 i = 0
@@ -347,7 +346,7 @@ for fruit in fruits:
 return output
 ```
 
-- [ ] <br>
+- [ ] C
 
 ```python
 groceries = zip(fruits, quantities, prices)
@@ -360,7 +359,7 @@ return groceries
 ]
 ```
 
-- [ ]  <br>
+- [ ] D
 
 ```python
 i = 0
@@ -395,28 +394,28 @@ else:
 
 _(Answer format may vary. Game and roll (or dice_roll) should each be called with no parameters.)_
 
-- [x] <br>
+- [x] A
 
 ```python
 >>> dice = Game()
 >>> dice.roll()
 ```
 
-- [ ] <br>
+- [ ] B
 
 ```python
 >>> dice = Game(self)
 >>> dice.roll(self)
 ```
 
-- [ ] <br>
+- [ ] C
 
 ```python
 >>> dice = Game()
 >>> dice.roll(self)
 ```
 
-- [ ] <br>
+- [ ] D
 
 ```python
 >>> dice = Game(self)
@@ -463,7 +462,7 @@ def print_alpha_nums(abc_list, num_list):
 print_alpha_nums(['a', 'b', 'c'], [1, 2, 3])
 ```
 
-- [x] <br>
+- [x] A
 
 ```python
 a 1
@@ -477,13 +476,13 @@ c 2
 c 3
 ```
 
-- [ ] <br>
+- [ ] B
 
 ```python
 ['a', 'b', 'c'], [1, 2, 3]
 ```
 
-- [ ] <br>
+- [ ] C
 
 ```python
 aaa
@@ -494,7 +493,7 @@ ccc
 333
 ```
 
-- [ ] <br>
+- [ ] D
 
 ```python
 a 1 2 3
@@ -504,7 +503,7 @@ c 1 2 3
 
 #### Q36. Pick correct representation of doctest for function in Python.
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def sum(a, b):
@@ -515,7 +514,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def sum(a, b):
@@ -528,7 +527,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 def sum(a, b):
@@ -542,7 +541,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def sum(a, b):
@@ -590,7 +589,7 @@ from collections import namedtuple
     200
 ```
 
-(Reference](https://www.geeksforgeeks.org/namedtuple-in-python/?ref=lbp)
+[Reference](https://www.geeksforgeeks.org/namedtuple-in-python/?ref=lbp)
 
 #### Q39. What symbol(s) do you use to assess equality between two elements?
 
@@ -723,28 +722,28 @@ t1 = test()
 
 #### Q53. What is the correct syntax for defining an `__init__()` method that takes no parameters?
 
-- [ ] <br>
+- [ ] :
 
 ```python
 class __init__(self):
     pass
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def __init__():
     pass
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 class __init__():
     pass
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 def __init__(self):
@@ -774,7 +773,7 @@ def __init__(self):
 
 #### Q57. What is the most self-descriptive way to define a function that calculates sales tax on a purchase?
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def tax(my_float):
@@ -782,21 +781,21 @@ def tax(my_float):
     pass
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def tx(amt):
     '''Gets the tax on an amount.'''
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def sales_tax(amount):
     '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 def calculate_sales_tax(subtotal):
@@ -914,28 +913,28 @@ def calculate_sales_tax(subtotal):
 
 #### Q71. What is the correct syntax of creating an instance method?
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def get_next_card():
   # method body goes here
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 def get_next_card(self):
   # method body goes here
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def self.get_next_card():
   # method body goes here
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def self.get_next_card(self):
@@ -983,7 +982,7 @@ my_list = ['kiwi', 'apple', 'banana']
 
 #### Q77. Which choice is the most syntactically correct example of the conditional branching?
 
-- [x] <br>
+- [x] :
 
 ```python
 num_people = 5
@@ -996,7 +995,7 @@ else:
     print("There is no one in the pool.")
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 num_people = 5
@@ -1009,7 +1008,7 @@ else:
     print("There is no one in the pool.")
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 num_people = 5
@@ -1022,7 +1021,7 @@ else;
     print("There is no one in the pool.")
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 if num_people > 10;
@@ -1065,7 +1064,7 @@ while i<6:
 
 #### Q81. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1073,7 +1072,7 @@ def __init__(self, attr1, attr2):
     attr2 = attr2
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def __init__(attr1, attr2):
@@ -1081,7 +1080,7 @@ def __init__(attr1, attr2):
     attr2 = attr2
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1089,7 +1088,7 @@ def __init__(self, attr1, attr2):
     self.attr2 = attr2
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def __init__(attr1, attr2):
@@ -1110,7 +1109,7 @@ def count_recursive(n=1):
     count_recursive(n + 1)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 1
@@ -1121,7 +1120,7 @@ def count_recursive(n=1):
 3
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 3
@@ -1129,7 +1128,7 @@ def count_recursive(n=1):
 1
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 3
@@ -1140,7 +1139,7 @@ def count_recursive(n=1):
 1
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 1
@@ -1294,26 +1293,26 @@ import math
 print(math.pow(2,10)) # prints 2 elevated to the 10th power
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 print(2^10)
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 print(2**10)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 y = [x*2 for x in range(1,10)]
 print(y)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 y = 1
@@ -1379,9 +1378,8 @@ print (f"The number is {number}")
 - [ ] `append('a')`
 - [ ] `read('r')`
 
-[Reference](https://docs.python.org/3/library/functions.html#open)
-
-[Reference](https://www.w3schools.com/python/ref_list_append.asp)
+1. [Reference](https://docs.python.org/3/library/functions.html#open)
+2. [Reference](https://www.w3schools.com/python/ref_list_append.asp)
 
 #### Q101. NumPy allows you to multiply two arrays without a for loop. This is an example of \_.
 
@@ -1505,7 +1503,7 @@ def be_friendly(greet = "How are you!", name):
 
 #### Q112. Given that NumPy is imported as `np`, which choice will return `True`?
 
-- [x] <br>
+- [x] :
 
 ```python
 a = np.zeros([3,4])
@@ -1513,7 +1511,7 @@ b = a.copy()
 np.array_equal(a,b)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 a = np.empty([3,4])
@@ -1521,7 +1519,7 @@ b = np.empty([3,4])
 np.array_equal(a,b)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 a = np.zeros([3,4])
@@ -1529,7 +1527,7 @@ b = np.zeros([4,3])
 np.array_equal(a,b)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 a = np.array([1, np.nan])
@@ -1653,7 +1651,7 @@ myFunction("")
 myFunction()
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```
 Hello, I am from Spain
@@ -1661,7 +1659,7 @@ Hello, I am from
 Hello, I am from
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```
 Hello, I am from France
@@ -1669,7 +1667,7 @@ Hello, I am from France
 Hello, I am from France
 ```
 
-- [x] <br>
+- [x] :
 
 ```
 Hello, I am from Spain
@@ -1677,7 +1675,7 @@ Hello, I am from
 Hello, I am from France
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```
 Hello, I am from Spain
@@ -1717,7 +1715,7 @@ actors = ["Downey", "Holland", "Evans"]
 
 - [ ] `[(x,y)] for x in characters for y in actors]`
 - [x] `zip(characters, actors)`
-- [ ] <br>
+- [ ]
 
 ```python
 d = {}
@@ -1935,7 +1933,7 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 
 #### Q147. Which snippet of code will print My name is Joffrey, son of Robert?
 
-- [ ]
+- [ ] :
 
 ```
           class Father():
@@ -1954,7 +1952,7 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 
 ```
 
-- [x]
+- [x] :
 
 ```
   class Father():
@@ -1971,7 +1969,7 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 
 ```
 
-- [ ]
+- [ ] :
 
 ```
   class Father():
@@ -1987,7 +1985,7 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 
 ```
 
-- [ ]
+- [ ] :
 
 ```
            class Father():

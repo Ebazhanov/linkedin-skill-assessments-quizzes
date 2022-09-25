@@ -165,7 +165,7 @@ typedef struct {
 } weekdays;
 ```
 
-[Reference](https://en.cppreference.com/w/cpp/language/bit_field) _NOTE_: Correct syntax is that each variable size is 1 bit. `bit` is not a type in C++. 
+[Reference](https://en.cppreference.com/w/cpp/language/bit_field) _NOTE_: Correct syntax is that each variable size is 1 bit. `bit` is not a type in C++.
 
 #### Q11. What is an lvalue?
 

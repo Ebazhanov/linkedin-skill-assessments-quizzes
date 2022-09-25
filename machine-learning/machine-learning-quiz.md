@@ -535,12 +535,13 @@ Note: there are centres of clusters (C0, C1, C2).
 #### Q71. What is the correct option?
 
 ![image](images/machine-learning_Q67.png)
-| no. | Red | Blue | Green |
-| --- | --- | --- | --- |
-| **1.** | Validation error | Training error | Test error |
-| **2.** | Training error | Test error | Validation error |
-| **3.** | Optimal error | Validation error | Test error |
-| **4.** | Validation error | Training error | Optimal error |
+
+| no.    | Red              | Blue             | Green            |
+| ------ | ---------------- | ---------------- | ---------------- |
+| **1.** | Validation error | Training error   | Test error       |
+| **2.** | Training error   | Test error       | Validation error |
+| **3.** | Optimal error    | Validation error | Test error       |
+| **4.** | Validation error | Training error   | Optimal error    |
 
 - [ ] 1
 - [ ] 2
@@ -616,8 +617,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] a type of reinforcement learning where accuracy degrades over time
 - [x] a type of reinforcement learning that focuses on rewards
 
-**Explanation**:Q-learning is a model-free reinforcement learning algorithm.Q-learning is a values-based learning algorithm. Value based algorithms updates the value function based on an equation(particularly Bellman equation).
-[Reference](<https://towardsdatascience.com/a-beginners-guide-to-q-learning-c3e2a30a653c#:~:text=Q%2Dlearning%20is%20a%20model,equation(particularly%20Bellman%20equation).&text=Means%20it%20learns%20the%20value,independently%20of%20the%20agent's%20actions.>)
+[Reference](<https://towardsdatascience.com/a-beginners-guide-to-q-learning-c3e2a30a653c#:~:text=Q%2Dlearning%20is%20a%20model,equation(particularly%20Bellman%20equation).&text=Means%20it%20learns%20the%20value,independently%20of%20the%20agent's%20actions>) **Explanation**:Q-learning is a model-free reinforcement learning algorithm.Q-learning is a values-based learning algorithm. Value based algorithms updates the value function based on an equation(particularly Bellman equation).
 
 #### Q81. The data in your model has low bias and low variance. How would you expect the data points to be grouped together on the diagram?
 

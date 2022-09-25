@@ -497,9 +497,8 @@ This is a confusing question and there can be an arguments for both the second a
 - [ ] `<kdb>`, `<mark>`
 - [x] `<code>`, `<pre>`
 
-[Source: MDN Web Docs code](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
-
-[Source: MDN Web Docs pre](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)
+1. [Source: MDN Web Docs code](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code)
+2. [Source: MDN Web Docs pre](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre)
 
 #### Q31. What does the `<label>` element do?
 
@@ -719,13 +718,10 @@ This is a confusing question and there can be an arguments for both the second a
 - [ ] `<body>`
 - [ ] `<root>`
 
-`
-The <html> tag is the root element of an HTML document, which means that it contains all the contents and tags of the HTML document within it.
+`The <html> tag is the root element of an HTML document, which means that it contains all the contents and tags of the HTML document within it. The html element represents the root of a document.`
 
-The html element represents the root of a document.
-`
-[Source](https://www.interviewbit.com/html-mcq/)
-[Source](https://www.w3.org/TR/2010/WD-html-markup-20100624/html.html)
+1. [Source](https://www.interviewbit.com/html-mcq/)
+2. [Source](https://www.w3.org/TR/2010/WD-html-markup-20100624/html.html)
 
 #### Q44. Which code snippet creates the layout shown, starting at `<table>` and ending at `</table>`?
 
@@ -1059,8 +1055,8 @@ The html element represents the root of a document.
 - [ ] The browser plays the sound automatically and continuously in the background. The user may stop the sound at any tune.
 - [x] It does nothing. Modern browsers require some form of interaction before they let a page autoplay with audio.
 
-References [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio),
-[(MDN) autoplay](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
+1. [(MDN) audio](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio),
+2. [(MDN) autoplay](https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide)
 
 #### Q65. What is the difference between the `<head>` and `<header>` tags?
 
@@ -1401,9 +1397,8 @@ As Steve Krug once said, happy talk must die.
 - [ ] _disabled_ allows clicking in the `<textarea>` element. _readonly_ prevents all interaction with the control.
 - [ ] _disabled_ is invalid attribute for `<textarea>`, while _readonly_ is a valid attribute.
 
-[Source: readonly](https://www.w3schools.com/tags/att_readonly.asp)
-
-[Source: disabled](https://www.w3schools.com/tags/att_disabled.asp)
+1. [Source: readonly](https://www.w3schools.com/tags/att_readonly.asp)
+2. [Source: disabled](https://www.w3schools.com/tags/att_disabled.asp)
 
 #### Q82. In this code, what is _target_?
 

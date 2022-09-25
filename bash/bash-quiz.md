@@ -904,9 +904,9 @@ filea.txt
 fileb.txt
 filec.txt
 ```
-[Reference](https://tldp.org/LDP/abs/html/globbingref.html)
-`The caret (`^`) symbol here negates matches inside the bracket.` 
 
+[Reference](https://tldp.org/LDP/abs/html/globbingref.html)
+`The caret (`^`) symbol here negates matches inside the bracket.`
 
 #### Q73. What is the output of this command sequence?
 

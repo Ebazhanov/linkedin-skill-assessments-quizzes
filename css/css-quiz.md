@@ -62,7 +62,7 @@ div a
 ```
 
 - [ ] B `They all target the same nav element.`
-- [x] C 
+- [x] C
 
 ```
   1. An element with an class of "nav"
@@ -554,8 +554,6 @@ h2 ~ p {
 
 [Reference](https://www.w3docs.com/snippets/css/what-does-the-css-tilde-selector-mean.html)
 
-Note: a variant of the question above.
-
 #### Q40. When using flexbox, the "justify-content" property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
 
 ![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-2.png)
@@ -607,19 +605,19 @@ font-weight: 700;
 
 #### Q46. Using the :nth-child pseudo class, what would be the most efficient way to style every third item in a list, no matter how many items are present, starting with item 2?
 
-- [ ]
+- [ ] A
   ```css
   li:nth-child(3 + 2n) {
     margin: 0 5 px;
   }
   ```
-- [x]
+- [x] B
   ```css
   li:nth-child(3n + 2) {
     margin: 0 5 px;
   }
   ```
-- [ ]
+- [ ] C
   ```css
   li:nth-child(2),
   li:nth-child(5),
@@ -627,7 +625,7 @@ font-weight: 700;
     margin: 0 5 px;
   }
   ```
-- [ ]
+- [ ] D
   ```css
   li:nth-child(2n + 3) {
     margin: 0 5 px;
@@ -811,7 +809,7 @@ padding: 10px 0; /* declaration C */
 
 #### Q66. Which CSS will cause your links to have a solid blue background that changes to semitransparent on hover?
 
-- [x]
+- [x] A
   ```css
   a:link {
     background: #0000ff;
@@ -820,7 +818,7 @@ padding: 10px 0; /* declaration C */
     background: rgba(0, 0, 255, 0.5);
   }
   ```
-- [ ]
+- [ ] B
   ```css
   a {
     color: blue;
@@ -829,7 +827,7 @@ padding: 10px 0; /* declaration C */
     background: white;
   }
   ```
-- [ ]
+- [ ] C
   ```css
   a:link {
     background: blue;
@@ -838,7 +836,7 @@ padding: 10px 0; /* declaration C */
     color: rgba(0, 0, 255, 0.5);
   }
   ```
-- [ ]
+- [ ] D
   ```css
   a:hover {
     background: rgba(blue, 50%);
@@ -938,16 +936,12 @@ font-weight: bold;
 - [x] It should be the last one on the list.
 - [ ] It should be the second one on the list.
 
-Note: a variant of the question below.
-
 #### Q77. When using a font stack to declare the font family, in what order should the values appear?
 
 - [x] The first value is the first choice, followed by alternative options, ordered by preference. The last option should be a generic font.
 - [ ] The first value is the first choice. The order of the alternative options does not matter. It depends on what is available on the user's computer.
 - [ ] The first value is the first choice, and must be followed by at least one alternative option before adding the generic font.
 - [ ] The first value is the first choice, followed by a maximum of three alternatives.
-
-Note: a variant of the question above.
 
 #### Q78. What is one disadvantage of using a web font service?
 
@@ -1061,7 +1055,7 @@ D. border-top-radius: 10px;
 </section>
 ```
 
-- [ ]
+- [ ] A
   ```css
   1. section \* {
     ...;
@@ -1076,7 +1070,7 @@ D. border-top-radius: 10px;
     ...;
   }
   ```
-- [ ]
+- [ ] B
   ```css
   1. p {
     ...;
@@ -1091,7 +1085,7 @@ D. border-top-radius: 10px;
     ...;
   }
   ```
-- [ ]
+- [ ] C
   ```css
   1. p.example {
     ...;
@@ -1106,7 +1100,7 @@ D. border-top-radius: 10px;
     ...;
   }
   ```
-- [x]
+- [x] D
   ```css
   1. p {
     ...;
@@ -1138,9 +1132,8 @@ D. border-top-radius: 10px;
 
 `input[type="text"]` selects all the input with type text, and `:not([disabled])` selects all the elements not having the attribute "disabled". Combining both only selects all the input elements with type attribte as "text" and not having "disabled" attribute.`
 
-[Reference link attribute-selector](https://www.w3schools.com/css/css_attribute_selectors.asp)
-
-[Reference link-:not()](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
+1. [Reference link attribute-selector](https://www.w3schools.com/css/css_attribute_selectors.asp)
+2. [Reference link-:not()](https://developer.mozilla.org/en-US/docs/Web/CSS/:not)
 
 #### Q90. How can you create a semi-transparent background color?
 
@@ -1229,25 +1222,25 @@ article > p {
 border: 1px solid red;
 ```
 
-- [ ]
+- [ ] A
   ```css
   border-size: 1px;
   border-style: solid;
   border-color: red;
   ```
-- [ ]
+- [ ] B
   ```css
   border-size: 1px;
   border-type: solid;
   border-color: red;
   ```
-- [x]
+- [x] C
   ```css
   border-width: 1px;
   border-style: solid;
   border-color: red;
   ```
-- [ ]
+- [ ] D
   ```css
   border-width: 1px;
   border-line: solid;
@@ -1290,12 +1283,12 @@ section {
 
 #### Q99. What is the correct order for listing different link states in a website so those states display correctly on the page?
 
-- [ ]
+- [ ] A
   ```css
   a
   a:hover
   ```
-- [ ]
+- [ ] B
   ```css
   :link
   :visited
@@ -1303,7 +1296,7 @@ section {
   :active
   :focus
   ```
-- [ ]
+- [ ] C
   ```css
   :active
   :focus
@@ -1311,7 +1304,7 @@ section {
   :link
   :visited
   ```
-- [x]
+- [x] D
   ```css
   :link
   :visited
@@ -1379,11 +1372,8 @@ a {
 ```
 
 - [ ] The example element will have 0 margin space around the whole element. The auto value will center align the element horizontally and vertically within its container.
-
 - [ ] The example element will have 0 margin space on the left and right. It will be sized automatically on the top and bottom, which will center align the element within its container.
-
 - [x] The example element will have 0 margin space on the top and bottom. The margin will be sized automatically on the left and right, which may center align the element within its container.
-
 - [ ] The margin value is invalid because its missing a unit measurement after the 0.
 
 [Source: SOW](https://stackoverflow.com/questions/3170772/what-does-auto-do-in-margin-0-auto)
@@ -1705,7 +1695,7 @@ img {
 }
 ```
 
-[Highlight Background](<https://alvarotrigo.com/blog/css-highlight-text/#:~:text=Highlight%20text%20(CSS)%20is%20used,text%20is%20the%20most%20popular.>)
+[Highlight Background](<https://alvarotrigo.com/blog/css-highlight-text/#:~:text=Highlight%20text%20(CSS)%20is%20used,text%20is%20the%20most%20popular>)
 
 #### Q116. To prevent a background image from tiling in any direction, which style property would you apply?
 

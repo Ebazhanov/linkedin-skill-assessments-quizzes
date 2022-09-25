@@ -161,11 +161,13 @@
 - [ ] multilevel
 - [ ] hierarchical
 
-> Single Inheritance is where a derived class inherits properties and behaviour from a single base class. Example: Class A → Class B.
-> Hierarchical Inheritance is where more than one derived class is created from a single base class. Example: Class A → Class B → Class C.
-> Multiple Inheritance is for deriving a class from multiple base classes. Here, the child objects programmers create will have combined aspects of characteristics and features from multiple parent classes. These objects do follow their hierarchies of base classes.
-> Multilevel Inheritance is where a child class is derived from another derived class. This feature carries combined aspects of multiple classes and follows their hierarchies.
-> Hybrid Inheritance is a heterogeneous feature of using multiple inheritances. Here a child class is derived from one or more combinations of single, hierarchical, and multilevel inheritances. This inheritance is adopted for programs to mix different types of inheritance; for example, when mixing a single inheritance with multiple inheritances or maybe a situation when multiple inheritances are mixed within a single program.
+```
+- Single Inheritance is where a derived class inherits properties and behaviour from a single base class. Example: Class A → Class B.
+- Hierarchical Inheritance is where more than one derived class is created from a single base class. Example: Class A → Class B → Class C.
+- Multiple Inheritance is for deriving a class from multiple base classes. Here, the child objects programmers create will have combined aspects of characteristics and features from multiple parent classes. These objects do follow their hierarchies of base classes.
+- Multilevel Inheritance is where a child class is derived from another derived class. This feature carries combined aspects of multiple classes and follows their hierarchies.
+- Hybrid Inheritance is a heterogeneous feature of using multiple inheritances. Here a child class is derived from one or more combinations of single, hierarchical, and multilevel inheritances. This inheritance is adopted for programs to mix different types of inheritance; for example, when mixing a single inheritance with multiple inheritances or maybe a situation when multiple inheritances are mixed within a single program.
+```
 
 [reference](https://www.codingninjas.com/blog/2021/09/23/hybrid-inheritance-in-java)
 

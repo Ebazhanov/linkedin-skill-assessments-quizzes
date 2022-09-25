@@ -1254,9 +1254,8 @@ class TaxCalculator {
 
 **Note:** This code won't compile, broken code sample
 
-[Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
-
-[Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
+1. [Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
+2. [Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
 
 #### Q89. Which characteristic does not apply to instances of java.util.HashSet=
 

@@ -556,8 +556,8 @@
 - [ ] They are strategies for discovering what the customer wants.
 - [ ] They are derived from statistical process control.
 
-1. [Reference](https://agilemanifesto.org/principles) - First paragraph clearly points out that Agile is about delivering value to the customer. 
-2. [Lean](https://en.wikipedia.org/wiki/Lean_software_development) is a subset of the Agile community and 
+1. [Reference](https://agilemanifesto.org/principles) - First paragraph clearly points out that Agile is about delivering value to the customer.
+2. [Lean](https://en.wikipedia.org/wiki/Lean_software_development) is a subset of the Agile community and
 3. [Six Sigma](https://en.wikipedia.org/wiki/Six_Sigma) is Agile applied to manufacturing.
 
 #### Q78. What is a user story?

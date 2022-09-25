@@ -702,7 +702,7 @@ export class BioComponent { }
 <app-user-card></app-user-card>
 ```
 
-- [x] A 
+- [x] A
 
 ```javascript
 <app-user-card>
@@ -1185,7 +1185,7 @@ export class TruncatePipe implements PipeTransform {
 ```
 
 - [ ] C
- 
+
 ```javascript
 <div *ngIf="location" [display]=" ' hidden' ">
 	<h1>{{ location.name }}</h1>

@@ -1406,9 +1406,8 @@ $('#element')
 - [ ] `slideDown()` requires the element to have a height set in pixels. `animate()` does not.
 - [ ] Effects created with `animate()` must be run over at least 100 milliseconds, where `slideDown()` can run as quickly as 50ms.
 
-[Source: .slideDown() | jQuery API Documentation](https://api.jquery.com/slidedown/)
-
-[Source: .animate() | jQuery API Documentation](https://api.jquery.com/animate/)\
+1. [Source: .slideDown() | jQuery API Documentation](https://api.jquery.com/slidedown/)
+2. [Source: .animate() | jQuery API Documentation](https://api.jquery.com/animate/)\
 
 #### Q71. What is the main difference between the `contents()` and `children()` functions?
 

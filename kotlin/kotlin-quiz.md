@@ -1061,7 +1061,8 @@ names[3]= "Delta"
 - [ ] It can be omitted if secondary constructors are defined.
 - [x] It can be omitted when the primary constructor does not have any modifiers or annotations.
 
-[article](https://www.baeldung.com/kotlin/constructors#:~:text=In%20some%20cases%2C%20we%20can,default%20parameters%20in%20the%20constructors.) - [reference](https://kotlinlang.org/docs/classes.html#constructors)
+1. [article](https://www.baeldung.com/kotlin/constructors#:~:text=In%20some%20cases%2C%20we%20can,default%20parameters%20in%20the%20constructors.)
+2. [reference](https://kotlinlang.org/docs/classes.html#constructors)
 
 #### Q81. How many different kinds of constructors are available for kotlin classes?
 
