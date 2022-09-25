@@ -21,7 +21,7 @@ div a
 - [ ] `a.title {...}`
 - [ ] `a=title {...}`
 
-Note: an alternative to the question below.
+`Note: an alternative to the question below.`
 
 #### Q3. What is the CSS selector for an `<a>` tag containing the title attribute?
 
@@ -30,7 +30,7 @@ Note: an alternative to the question below.
 - [ ] `a=title`
 - [ ] `a.title`
 
-Note: an alternative to the question above.
+`Note: an alternative to the question above.`
 
 #### Q4. CSS grid and flexbox are now becoming a more popular way to create page layouts. However, floats are still commonly used, especially when working with an older code base, or if you need to support older browser version. What are two valid techniques used to clear floats?
 
@@ -53,28 +53,30 @@ Note: an alternative to the question above.
 }
 ```
 
-- [ ]
-  ```markdown
+- [ ] A
+
+```
   1. An element with an ID of "nav"
   2. A nav element
   3. An element with a class of "nav"
-  ```
-- [ ]
-  ```markdown
-      They all target the same nav element.
-  ```
-- [x]
-  ```markdown
+```
+
+- [ ] B `They all target the same nav element.`
+- [x] C 
+
+```
   1. An element with an class of "nav"
   2. A nav element
   3. An element with a id of "nav"
-  ```
-- [ ]
-  ```markdown
+```
+
+- [ ] D
+
+```
   1. An element with an class of "nav"
   2. A nav element
   3. An div with a id of "nav"
-  ```
+```
 
 #### Q6. When adding transparency styles, what is the difference between using the opacity property versus the background property with an `rgba()` value?
 
@@ -105,7 +107,7 @@ Note: an alternative to the question above.
 - [ ] The first column will have a width of 50px. The second column will be 300px wide and the third column will be 150px wide.
 - [ ] The first column will have a width of 50px. The second column will be 500px wide and the third column will be 1000px wide.
 
-Note: an alternative to the question below.
+`Note: an alternative to the question below.`
 
 #### Q9. If the width of the container is 500 pixels, what would the width of the three columns be in this layout?
 
@@ -116,7 +118,7 @@ Note: an alternative to the question below.
 - [ ] 50px, 100px, 200px
 - [ ] 50px, 50px, 100px
 
-Note: an alternative to the question above.
+`Note: an alternative to the question above.`
 
 #### Q10. What is the line-height property primarily used for?
 
@@ -132,7 +134,7 @@ Note: an alternative to the question above.
 - [ ] Class selectors begin with a leading period
 - [x] Classes can be used multiple times per page but not within the same element.
 
-Note: an alternative to the question below.
+`Note: an alternative to the question below.`
 
 #### Q12. What is not true about class selectors?
 
@@ -141,7 +143,7 @@ Note: an alternative to the question below.
 - [ ] Class selectors are marked with a leading period.
 - [ ] More than one element can have the same class value.
 
-Note: an alternative to the question above.
+`Note: an alternative to the question above.`
 
 #### Q13. There are many properties that can be used to align elements and create page layouts such as float, position, flexbox and grid. Of these four properties, which one should be used to align a global navigation bar which stays fixed at the top of the page?
 
@@ -156,7 +158,7 @@ Note: an alternative to the question above.
 background: blue url(image.jpg) no-repeat scroll 0px 0px;
 ```
 
-- [x]
+- [x] A
   ```css
   background-color: blue;
   background-image: url(image.jpg);
@@ -164,7 +166,7 @@ background: blue url(image.jpg) no-repeat scroll 0px 0px;
   background-attachment: scroll;
   background-position: 0px 0px;
   ```
-- [ ]
+- [ ] B
   ```css
   background-color: blue;
   background-img: url(image.jpg);
@@ -172,7 +174,7 @@ background: blue url(image.jpg) no-repeat scroll 0px 0px;
   background-scroll: scroll;
   background-size: 0px 0px;
   ```
-- [ ]
+- [ ] C
   ```css
   background-color: blue;
   background-src: url(image.jpg);
@@ -180,7 +182,7 @@ background: blue url(image.jpg) no-repeat scroll 0px 0px;
   background-wrap: scroll;
   background-position: 0px 0px;
   ```
-- [ ]
+- [ ] D
   ```css
   background-color: blue;
   background-src: url(image.jpg);
@@ -226,36 +228,36 @@ a {
 - [ ] Larger z-index values appear on top of elements with a lower z-index value. Only positive numbers can be used. z-index must also be used with positioned elements.
 - [ ] Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index can be used with or without positioned elements.
 
-Note: an alternative to the question below.
+`Note: an alternative to the question below.`
 
 #### Q17. When elements within a container overlap, the z-index property can be used to indicate how those items are stacked on top of each other. Which set of statements is true?
 
-- [x]
-  ```markdown
+- [x] A
+  ```
   1. Larger z-index values appear on top elements with a lower z-index value.
   2. Negative and positive number can be used.
   3. z-index can be used only on positioned elements.
   ```
-- [ ]
-  ```markdown
+- [ ] B
+  ```
   1. Smaller z-index values appear on top of elements with a larger z-index value.
   2. Negative and positive numbers can be used.
   3. z-index can be used with or without positioned elements.
   ```
-- [ ]
-  ```markdown
+- [ ] C
+  ```
   1. Smaller z-index values appear on top of elements with a larger z-index value.
   2. Negative and positive number can be used.
   3. z-index must also be used with positioned elements.
   ```
-- [ ]
-  ```markdown
+- [ ] D
+  ```
   1. Larger z-index values appear on top of elements with a lower z-index value.
   2. Only positive number can be used.
   3. z-index must also be used with positioned elements.
   ```
 
-Note: an alternative to the question above.
+`Note: an alternative to the question above.`
 
 #### Q18. What is the difference between the following line-height settings?
 
@@ -295,26 +297,26 @@ section + p {
 
 #### Q20. What are three valid ways of adding CSS to an HTML page?
 
-- [ ]
-  ```markdown
+- [ ] A
+  ```
   1. External; CSS is written in a separate file.
   2. Inline; CSS is added to the <head> of the HTML page.
   3. Internal; CSS is included within the HTML tags.
   ```
-- [ ]
-  ```markdown
+- [ ] B
+  ```
   1. External; CSS is written in a separate file and is linked within the <header> element of the HTML file.
   2. Inline; CSS is added to the HTML tag.
   3. Internal; CSS is included within the <header> element of the HTML file.
   ```
-- [ ]
-  ```markdown
+- [ ] C
+  ```
   1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file.
   2. Internal; CSS is included within the <header> element of the HTML file.
   3. Inline; CSS is added to the HTML tag.
   ```
-- [x]
-  ```markdown
+- [x] D
+  ```
   1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file.
   2. Inline; CSS is added to the HTML tag.
   3. Internal; CSS is included within the <head> element of the HTML file.
@@ -383,26 +385,26 @@ p {
 }
 ```
 
-- [ ]
-  ```markdown
+- [ ] A
+  ```
   "p" is the selector
   "#000000" is the property
   "color" is the value
   ```
-- [x]
-  ```markdown
+- [x] B
+  ```
   "p" is the selector
   "color" is the property
   "#000000" is the value
   ```
-- [ ]
-  ```markdown
+- [ ] C
+  ```
   "color" is the selector
   "#000000" is the property
   "#p" is the value
   ```
-- [ ]
-  ```markdown
+- [ ] D
+  ```
   "color" is the selector
   "p" is the property
   "#000000" is the value

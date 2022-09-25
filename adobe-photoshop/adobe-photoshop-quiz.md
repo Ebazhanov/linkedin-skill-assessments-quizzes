@@ -557,20 +557,23 @@
 #### Q73. For curved smoother-looking edges on a selection, what selection should you pick?
 
 - [x] anti-aliasing
+- [ ]
+- [ ]
+- [ ]
 
 #### Q74. Which tool is _not_ found in the **Select and Mask** workspace ?
 
-- \[ ] Magic Wand
-- \[x] Refine Edge
-- \[ ] Quick Select
-- \[ ] Lasso
+- [ ] Magic Wand
+- [x] Refine Edge
+- [ ] Quick Select
+- [ ] Lasso
 
 #### Q75. Which sets of tool has a content-aware mode ?
 
-- \[ ] Perspective Corp
-- \[ ] Marquee
-- \[ ] Lasso
-- \[x] Patch
+- [ ] Perspective Corp
+- [ ] Marquee
+- [ ] Lasso
+- [x] Patch
 
 #### Q76. Which Photoshpop panel containes project elements that can be shared across Adobe applications ro between collaborators?
 
