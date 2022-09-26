@@ -1895,3 +1895,43 @@ if (/* Snipped goes here */){
 - [ ] localStorage.setItem("animal","sloth");
 
 [Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
+
+#### Q136. What value is printed to the console after this code execute?
+
+let cat = Object.create({type: "lion" });
+cat.size = "large";
+
+let copyCat = {...cat };
+cat.type = "tiger";
+
+console.log(copyCat.type, copyCat.size);
+
+
+- [ ] tiger large
+- [ ] lion undefined
+- [x] undefined large
+- [ ] lion large
+
+[Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
+
+#### Q137. What does the code print to the console?
+
+let animals = [{type: "lion" }, "tiger"];
+let clones = animals.slice();
+
+clones[0].type= "bear";
+clones[1] = "sheep";
+
+console.log(animals[0].type, clones[0].type);
+console.log(animals[1], clones[1]);
+
+- [x] bear bear
+      tiger sheep
+- [ ] lion bear
+      sheep sheep
+- [ ] bear bear
+      tiger tiger
+- [ ] lion bear
+      tiger sheep
+
+[Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
