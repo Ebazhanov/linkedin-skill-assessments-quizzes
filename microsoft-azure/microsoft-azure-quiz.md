@@ -188,7 +188,9 @@
 
 **Explanation:** For many businesses and applications, creating individual databases and scaling performance up or down as needed is sufficient, especially when usage patterns are relatively predictable. Unpredictable usage patterns can make it difficult to manage costs and your business model. Elastic pools aim to solve this problem. Performance resources are allocated to a pool, not to a single database. You pay for the collective performance resources of the pool, not for the performance of a single database.
 
-[Ref]([https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings?tabs=csharp](https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview?view=azuresql))
+1. [Reference](https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings?tabs=csharp)
+2. [Reference](https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview?view=azuresql)
+
 
 #### Q25. Your photo app hosted in Azure records user operations in a log for historical reference. Records must not be overwritten. Which storage type should you select to host log data?
 

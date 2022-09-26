@@ -1906,7 +1906,6 @@ cat.type = "tiger";
 
 console.log(copyCat.type, copyCat.size);
 
-
 - [ ] tiger large
 - [ ] lion undefined
 - [x] undefined large

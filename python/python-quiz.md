@@ -1877,8 +1877,7 @@ b = a[50:60:2]
 - [ ] `2; len(mylist)`
 - [ ] `0; len(mylist)`
 
-Explanation:
-> Can use a break statement and the value being searched can be the first element of the list, given that it is non-empty.
+**Explanation:** Can use a break statement and the value being searched can be the first element of the list, given that it is non-empty.
 
 #### Q142. If a function does not have a return statement, what does it really return?
 
@@ -2021,31 +2020,27 @@ print(animals['b'])
 print(animals['d'])
 ```
 
-- [x] 
-    ```
-    ['beetle', 'bear', 'bat']
-    []
-    ```
-- [ ] 
-    ```
-    ['beetle', 'bear', 'bat']
-    # an exception will be thrown
-    ```
-- [ ] 
-    ```
-    ['beetle', 'bear', 'bat']
-    None
-    ```
-- [ ] 
-    ```
-    ['bat', 'bear', 'beetle']
-    []
-    ```
+- [x] A
+```
+      ['beetle', 'bear', 'bat']
+      []
+```
+- [ ] B
+```
+      ['beetle', 'bear', 'bat']
+      # an exception will be thrown
+```
+- [ ] C
+```
+      ['beetle', 'bear', 'bat']
+      None
+```
+- [ ] D
+```
+      ['bat', 'bear', 'beetle']
+      []
+```
 
-Explanation:
-
-> Dictionaries usually result in an exception when using the square bracket syntax. Defaultdict here returns a default value dedicated by the first parameter so instead of throwing an exception, they return the default. Note that this needs to be imported as follows: `from collections import defaultdict`
+**Explanation:** Dictionaries usually result in an exception when using the square bracket syntax. Defaultdict here returns a default value dedicated by the first parameter so instead of throwing an exception, they return the default. Note that this needs to be imported as follows: `from collections import defaultdict`
 
 [Reference](https://www.geeksforgeeks.org/defaultdict-in-python/)
-
-
