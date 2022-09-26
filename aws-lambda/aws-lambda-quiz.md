@@ -354,9 +354,4 @@
 - [ ] Kinesis, DynamoDB, and SNS
 - [x] Kinesis, DynamoDB, and SQS
 
-[Explanation] Lambda can used for all services mentioned on the question: Kinesis, S3, SNS, SQS, DynamoDB.
-But as you can see in the reference, Lambda's responsibility and method invocation can be categorized by Lambda polling and Event Driven (synchronous invocation).
-When you implement an event-driven architecture, you grant the event-generating service permission to invoke your function in the function's resource-based policy. Then you configure that service to generate events that invoke your function.
-When you implement a Lambda polling architecture, you grant Lambda permission to access the other service in the function's execution role. Lambda reads data from the other service, creates an event, and invokes your function.
-According to this analytics, Kinesis-DynamoDB-SQS use same method invocation, Lambda polling.
-I recommend the 4th answer to be correct
+**Explanation** `Lambda can used for all services mentioned on the question: Kinesis, S3, SNS, SQS, DynamoDB. But as you can see in the reference, Lambda's responsibility and method invocation can be categorized by Lambda polling and Event Driven (synchronous invocation). When you implement an event-driven architecture, you grant the event-generating service permission to invoke your function in the function's resource-based policy. Then you configure that service to generate events that invoke your function. When you implement a Lambda polling architecture, you grant Lambda permission to access the other service in the function's execution role. Lambda reads data from the other service, creates an event, and invokes your function. According to this analytics, Kinesis-DynamoDB-SQS use same method invocation, Lambda polling.`

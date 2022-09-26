@@ -165,7 +165,7 @@ typedef struct {
 } weekdays;
 ```
 
-_NOTE_: Correct syntax is that each variable size is 1 bit. `bit` is not a type in C++. [Reference](https://en.cppreference.com/w/cpp/language/bit_field)
+[Reference](https://en.cppreference.com/w/cpp/language/bit_field) _NOTE_: Correct syntax is that each variable size is 1 bit. `bit` is not a type in C++.
 
 #### Q11. What is an lvalue?
 
@@ -185,7 +185,7 @@ auto x = 4000.22;
 - [ ] It specifies that x is a variable with automatic storage duration.
 - [ ] It specifies that more memory will be allocated for x in case it needs more space, avoiding loss of data due to overflow.
 
-#### Q13. A class template is a **\_**?
+#### Q13. A class template is a \_?
 
 - [x] class written with the generic programming paradigm, specifying behavior in terms of type parameter rather than specific type.
 - [ ] blank superclass intended for inheritance and polymorphism.
@@ -832,7 +832,7 @@ std::cout << ( nums[0] << nums[1] << nums[2] );
 ```
 
 - [ ] The output is the addresses of `nums[0]`, `nums[1]`, and `nums[2]`, in that order, with no spaces.
-- [x] `256`
+- [x] 256
 - [ ] `0`
 - [ ] `243`
 
@@ -1140,25 +1140,21 @@ int calculateMedian(const my_array& a)
 
 #### Q65. What would be the correct declaration of a default constructor for a class named Sprite?
 
-- [x]
+- [x] A
   ```cpp
-  public:
-    		Sprite();
+  public: Sprite();
   ```
-- [ ]
+- [ ] B
   ```cpp
-  private:
-    		void Sprite();
+  private: void Sprite();
   ```
-- [ ]
+- [ ] C
   ```cpp
-  public:
-    		void Sprite();
+  public: void Sprite();
   ```
-- [ ]
+- [ ] D
   ```cpp
-     private:
-    		Sprite();
+  private: Sprite();
   ```
 
 #### Q66. What is the purpose of this line in a header file?
@@ -1279,3 +1275,83 @@ std::cout << b;
 - [x] protected
 - [ ] public
 - [ ] private
+
+#### Q78. What is true about the variable named ptr?
+
+```cpp
+void *ptr;
+```
+
+- [ ] That declaration causes a compiler error, as pointers must specify a type.
+- [x] It is a pointer to a value with no specific type, so it may be cast to point to any type.
+- [ ] It is a pointer to a void function
+- [ ] It is a pointer initialized at NULL.
+
+#### Q79. What is a valid definition for a function named get_length that returns the length of a null-terminated string?
+
+```cpp
+int get_length(char *str);
+```
+
+- [x] :
+
+```cpp
+int get_length(char *str){
+    int count=0;
+    while(str[count++]);
+    return count-1;
+}
+```
+
+- [ ] :
+
+```cpp
+int get_length(char *str){
+    int count=0;
+    while(str!=NULL){
+        count++;
+        str++;
+    }
+    return count;
+}
+```
+
+- [ ] :
+
+```cpp
+int get_length(char *str){
+    int count=0;
+    while((*str)++)
+        count++;
+    return count;
+}
+```
+
+- [ ] :
+
+```cpp
+int get_length(char *str){
+    int count=0;
+    while(str++)
+        count++;
+    return count;
+}
+```
+
+#### Q80. What is this statement equivalent to?
+
+```cpp
+sprite->x
+```
+
+- [ ] `sprite.*x`
+- [x] `(*sprite).x`
+- [ ] `*sprite.x`
+- [ ] `sprite.x`
+
+#### Q81. In which scenario would you want to specify the type of a pointer instead of using void?
+
+- [ ] void does not work for any type. The language does not allow assigning anything other than void to a pointer to void.
+- [x] The compiler needs the data type to caculate the length of the pointed data (for reading and writing) and to calculate increments and decrements to the pointer.
+- [ ] The compiler needs the data type to make sure that the pointer is not going to be used on illegal non-pointable types such as functions, labels, pointers, and references.
+- [ ] The compiler needs the data type to know how much memory to allocate for the pointer, because different data types require different pointer lenghts.

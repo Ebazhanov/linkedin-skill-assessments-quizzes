@@ -768,7 +768,7 @@ box {
 
 [Source: GraphQL official website](https://graphql.org/)
 
-#### Q77. Wich choice will place a multiline text input field on the page?
+#### Q77. Which choice will place a multiline text input field on the page?
 
 - [ ] `<multiline></multiline>`
 - [x] `<textarea></textarea>`
@@ -809,3 +809,10 @@ box {
 - [x] td
 - [ ] figure
 - [ ] p
+
+#### Q82. Which attribute is uses to add text to an image that will be displayed if the image does not load and read out to screen reader users?
+
+- [ ] title
+- [ ] data
+- [ ] src
+- [x] alt

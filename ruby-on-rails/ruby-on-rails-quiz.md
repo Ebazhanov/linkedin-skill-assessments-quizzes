@@ -949,3 +949,19 @@ def show
   end
 end
 ```
+
+#### Q70. Which keyword is used in a layout to identify a section where content from the view should be inserted?
+
+- [ ] render
+- [ ] puts
+- [ ] view_content
+- [x] yield
+
+[Reference](https://guides.rubyonrails.org/layouts_and_rendering.html)
+
+#### Q71. Which choice would you not consider when selecting a gem for your project?
+
+- [ ] how many downloads it has on Ruby Toolbox
+- [ ] if it is well documented
+- [x] how long pull requess and issues stay open
+- [ ] the date it was first released

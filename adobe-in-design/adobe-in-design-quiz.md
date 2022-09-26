@@ -255,11 +255,11 @@
 
 #### 34. You select some text with the Type tool, then click the Eyedropper tool and click a Photoshop image on your page. What happens? (Select three answers.)
 
-- A. The color switches to black.
-- B. The color you clicked is applied to the text.
-- C. The color appears as a swatch in the Swatches panel.
-- D. The color appears in the Color panel.
-- E. If the image is in RGB mode, the text color is also set to RGB mode.
+    A. The color switches to black.
+    B. The color you clicked is applied to the text.
+    C. The color appears as a swatch in the Swatches panel.
+    D. The color appears in the Color panel.
+    E. If the image is in RGB mode, the text color is also set to RGB mode.
 
 - [ ] A, B, D
 - [ ] A, C, E
@@ -277,8 +277,8 @@
 
 - [x] The url is broken
 - [ ] the object is on the red layer
-- [ ] the yperlink is stopped or paused
-- [ ] the content of the yperlink is anchored
+- [ ] the hyperlink is stopped or paused
+- [ ] the content of the hyperlink is anchored
 
 #### 37. You have a paragraph style called Heading applied to text throughout a document. You modify the formatting of Heading in one paragraph, and would like this formatting to apply to all paragraphs with the Heading style applied. Which command would you accomplish this task
 
@@ -297,14 +297,14 @@
 #### 39. Which feature is available for both the Adobe PDF (interactive) and Adobe PDF (Print) export options?
 
 - [ ] hyperlinks
-- [x] form fieds (maybe)
+- [x] form fields
 - [ ] page transitions
 - [ ] audio annotations
 
 #### 40. How do you apply a Fade In animation to the selected object?
 
 - [ ] In the Effects panel, select Fade In
-- [ ] Selet Object > Content > Fade In
+- [ ] Select Object > Content > Fade In
 - [ ] Select Fade In from the menu in the upper-right corner
 - [x] In the Preset menu, select Fade In
 

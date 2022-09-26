@@ -218,6 +218,8 @@ server.listen(port, hostname, () => { console.log(`server running at http://${ho
 - [ ] server running at http://localhost:4000/
 - [x] server running at http://127.0.0.1:3000/
 
+**Explanation:** From official docs: [reference](https://nodejs.org/api/http.html#httpcreateserveroptions-requestlistener)
+
 #### Q25. What is the purpose of the path module?
 
 - [x] to provide utilities to play with file and directory paths
@@ -404,6 +406,8 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [x] string_decoder
 - [ ] string_buffer
 
+[Refrence](https://nodejs.org/api/string_decoder.html)
+
 #### Q50. Which global object acts like a bridge between a Node script and the host operating system?
 
 - [ ] v8
@@ -563,6 +567,8 @@ console.log(person);
 - [ ] PHP
 - [ ] c
 
+[Refrence](https://nodejs.dev/en/learn/the-v8-javascript-engine/)
+
 #### Q68. How does it affect the performance of a web application when an execution path contains a CPU-heavy operation, such as calculating a long Fibonacci sequence?
 
 - [ ] As Node.js is asynchronous, this is handled by a libuv and a threadpool. The performance will not notably degrade.
@@ -576,6 +582,8 @@ console.log(person);
 - [ ] Libuv
 - [x] Google V8
 - [ ] Express.js
+
+[Refrence](https://nodejs.dev/en/learn/the-v8-javascript-engine/)
 
 #### Q70. What is the importance of having good practices around status code in your response?
 

@@ -1254,9 +1254,8 @@ class TaxCalculator {
 
 **Note:** This code won't compile, broken code sample
 
-[Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
-
-[Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
+1. [Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
+2. [Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
 
 #### Q89. Which characteristic does not apply to instances of java.util.HashSet=
 
@@ -1984,3 +1983,41 @@ switch (yearsMarried) {
 - [ ] cotton <br> leather
 - [x] cotton <br> leather <br> I don't gotta buy gifts for nobody!
 - [ ] cotton <br> I don't gotta buy gifts for nobody!
+
+#### Q136. What language feature do these expressions demonstrate?
+
+```System.out::println
+Doggie::fetch
+```
+
+- [ ] condensed invocation
+- [ ] static references
+- [x] method references
+- [ ] bad code
+
+#### Q137. What is the difference between the wait() and sleep methods?
+
+- [ ] Only Threads can wait, but any Object can be put to sleep.
+- [ ] A wait can be woken up by another Thread calling notify whereas a sleep cannot.
+- [x] When things go wrong, sleep throws an IllegalMonitorStateException whereas wait throws an InterruptedException.
+- [ ] Sleep allows for multi-threading whereas wait does not.
+
+#### Q138. Which is the right way to declare an enumeration of cats?
+
+- [ ] enum Cats (SPHYNX, SIAMESE, BENGAL);
+- [ ] enum Cats ("sphynx", "siamese", "bengal");
+- [x] enum Cats {SPHYNX, SIAMESE, BENGAL}
+- [ ] enum Cats {"sphynx","siamese","bengal}
+
+#### Q139. What happens when this code is run?
+
+```java
+List<String> horses = new ArrayList<String>();
+horses.add (" Sea Biscuit ");
+System.out.println(horses.get(1).trim());
+```
+
+- [ ] "Sea Biscuit" will be printed.
+- [ ] " Sea Biscuit " will be printed.
+- [x] An IndexOutOfBoundsException will be thrown.
+- [ ] A NullPointerException will be thrown.

@@ -17,19 +17,19 @@
 ]
 ```
 
-- [ ]
+- [ ] A
 
 ```json
 ["red", "blue", "green"]
 ```
 
-- [ ]
+- [x] B
 
 ```json
 ["red", "blue", "green"]
 ```
 
-- [x]
+- [ ] C
 
 ```json
 {
@@ -39,7 +39,7 @@
 }
 ```
 
-- [ ]
+- [ ] D
 
 ```json
 {
@@ -85,7 +85,7 @@
 - [ ] `:`
 - [ ] `{`
 
-#### Q8. Which date type is part of the JSON standard?
+#### Q8. Which data type is part of the JSON standard?
 
 - [x] Boolean
 - [ ] map
@@ -116,7 +116,7 @@
 }
 ```
 
-- [ ]
+- [ ] A
 
 ```json
 {
@@ -133,7 +133,7 @@
 }
 ```
 
-- [ ]
+- [ ] B
 
 ```json
 {
@@ -150,7 +150,7 @@
 }
 ```
 
-- [x]
+- [x] C
 
 ```json
 {
@@ -167,7 +167,7 @@
 }
 ```
 
-- [ ]
+- [ ] D
 
 ```json
 {
@@ -244,7 +244,7 @@
 
 #### Q18. Which code uses valid JSON syntax for the text "Centennial Olympics?
 
-- [ ]
+- [ ] A
 
 ```json
 {
@@ -254,17 +254,7 @@
 }
 ```
 
-- [ ]
-
-```json
-{
-"host": "Atlanta",
-"year": 1996,
-/_ Centennial Olympics _/
-}
-```
-
-- [ ]
+- [ ] B
 
 ```json
 {
@@ -274,13 +264,33 @@
 }
 ```
 
-- [x]
+- [ ] C
 
 ```json
 {
   "host": "Atlanta",
   "year": 1996,
   "comment": "Centennial Olympics"
+}
+```
+
+- [ ] D
+
+```json
+{
+  "host": "Atlanta",
+  "year": 1996,
+  \"Centennial Olympics\"
+}
+```
+
+- [x] E
+
+```json
+{
+  "host": "Atlanta",
+  "year": 1996,
+  "comment": "\"Centennial Olympics"
 }
 ```
 
@@ -389,9 +399,9 @@ null
 
 #### Q28. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the data type? `constant: 6.022E23`
 
-- [x] `"constant": "6.022E23"`
+- [ ] `"constant": "6.022E23"`
 - [ ] `"constant": "6\.022\E23"`
-- [ ] `constant: 6.022E23`
+- [x] `constant: 6.022E23`
 - [ ] `constant: "6.022E23"`
 
 [Reference](https://json-schema.org/understanding-json-schema/reference/numeric.html) **Explanation**: Scientific Notation is a valid JSON number. You can use `e` or `E`.
@@ -406,8 +416,8 @@ null
 #### Q30. Why do so many APIs use JSON?
 
 - [ ] Because it's object-based.
-- [ ] Because it's a simple and adaptable format for sharing data.
-- [x] Because it's based on JavaScript.
+- [x] Because it's a simple and adaptable format for sharing data.
+- [ ] Because it's based on JavaScript.
 - [ ] Because it is derived from SGML.
 
 #### Q31. You need to assemble a list of members, but your JSON is not parsing correctly. How do you change it?
@@ -567,10 +577,8 @@ Note: None of the above options appear to be correct. A correct answer would be 
 
 - [ ] "UPC": \043875
 - [ ] UPC: "043875"
-- [ ] "UPC": 043875
+- [x] "UPC": 043875
 - [ ] UPC: '043875'
-
-**NONE OF THESE ARE CORRECT A CORRECT ANSWER WOULD LOOK LIKE `"UPC": "043875"`**
 
 #### Q44. Which data format is a JSON schema written in?
 

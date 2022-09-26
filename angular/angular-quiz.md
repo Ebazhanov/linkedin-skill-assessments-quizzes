@@ -101,7 +101,7 @@ export class OrderService {
 
 #### Q8. What is the correct template syntax for using the built-in ngFor structural directive to render out a list of productNames?
 
-- [ ]
+- [ ] A
 
 ```html
 <ul>
@@ -109,7 +109,7 @@ export class OrderService {
 </ul>
 ```
 
-- [ ]
+- [ ] B
 
 ```html
 <ul>
@@ -117,7 +117,7 @@ export class OrderService {
 </ul>
 ```
 
-- [x]
+- [x] C
 
 ```html
 <ul>
@@ -125,7 +125,7 @@ export class OrderService {
 </ul>
 ```
 
-- [ ]
+- [ ] D
 
 ```html
 <ul>
@@ -226,25 +226,25 @@ export class ShoppingCartComponent {
 </form>
 ```
 
-- [ ]
+- [ ] A
 
 ```html
 <button (click)="submit(userForm.value)" disable="userForm.invalid">Save</button>
 ```
 
-- [x]
+- [x] B
 
 ```html
 <button (click)="submit(userForm.value)" [disabled]="userForm.invalid">Save</button>
 ```
 
-- [ ]
+- [ ] C
 
 ```html
 <button (click)="submit(userForm.value)" [ngForm.disabled]="userForm.valid">Save</button>
 ```
 
-- [ ]
+- [ ] D
 
 ```html
 <button (click)="submit(userForm.value)" *ngIf="userForm.valid">Save</button>
@@ -351,9 +351,8 @@ export class CalloutDirective {
 - [ ] You can use a template reference variable for the HTML input element and then check the valid property off of that.
 - [ ] It is not possible to get access to the field value with template-driven forms. You must use reactive forms for that.
 
-[Angular.io -Show and hide validation error ](https://angular.io/guide/forms#show-and-hide-validation-error-messages)
-
-[Medium](https://medium.com/@agoiabeladeyemi/template-driven-forms-in-angular-4a3a5ad960de)
+1. [Angular.io -Show and hide validation error ](https://angular.io/guide/forms#show-and-hide-validation-error-messages)
+2. [Medium](https://medium.com/@agoiabeladeyemi/template-driven-forms-in-angular-4a3a5ad960de)
 
 #### Q23. What is the value type that will be stored in the headerText template reference variable in this markup?
 
@@ -379,9 +378,8 @@ export class CalloutDirective {
 - [ ] Both of them are wrong. A strong type connot be used for useClass or useExisting.
 - [ ] They are the same. Both will result in the FormattedLogger token being an alias for the instance of Logger.
 
-[Angular.io - Dependency Providers](https://angular.io/guide/dependency-injection-providers#defining-providers)
-
-[TektutorialHub](https://www.tektutorialshub.com/angular/angular-providers/)
+1. [Angular.io - Dependency Providers](https://angular.io/guide/dependency-injection-providers#defining-providers)
+2. [TektutorialHub](https://www.tektutorialshub.com/angular/angular-providers/)
 
 #### Q25. What is the purpose of the data property (seen in the example below) in a route configuration?
 
@@ -398,9 +396,8 @@ export class CalloutDirective {
 - [ ] a property on the route that can be used to load dynamic data for the route
 - [ ] an object that will get auto-injected into the routed component's constructor.
 
-[TektutorialsHub](https://www.tektutorialshub.com/angular/angular-pass-data-to-route/#:~:text=Angular%20allows%20us%20to%20pass,of%20the%20history%20state%20object)
-
-[StackOverflow](https://stackoverflow.com/a/36835156)
+1. [TektutorialsHub](https://www.tektutorialshub.com/angular/angular-pass-data-to-route/#:~:text=Angular%20allows%20us%20to%20pass,of%20the%20history%20state%20object)
+2. [StackOverflow](https://stackoverflow.com/a/36835156)
 
 #### Q26. How does the built-in `ngIf` structural directive change the rendered DOM based on this template syntax?
 
@@ -569,7 +566,7 @@ export class HighlightDirective {
 </form>
 ```
 
-- [ ]
+- [ ] A
 
 ```javascript
     <span *ngIf="username.minLength.invalid"›
@@ -577,13 +574,13 @@ export class HighlightDirective {
     </span>
 ```
 
-- [ ]
+- [ ] B
 
 ```javascript
 <input type="text" formControlName="username" [showMinLength]="true"›
 ```
 
-- [ ]
+- [ ] C
 
 ```javascript
     <span *ngIf="form.get('username').getError('minLength') as minLengthError">
@@ -591,7 +588,7 @@ export class HighlightDirective {
     </span>
 ```
 
-- [x]
+- [x] D
 
 ```javascript
 <input type="text" formControlName="username" #userName="ngModer">
@@ -625,9 +622,8 @@ let fixture = TestBed.createComponent(UserCardComponent);
 - [x] `fixture.nativeElement`
 - [ ] `fixture.componentInstance.template `
 
-[StackOverflow](https://stackoverflow.com/a/56504773)
-
-[Angular.io](https://angular.io/guide/testing-components-basics#nativeelement)
+1. [StackOverflow](https://stackoverflow.com/a/56504773)
+2. [Angular.io](https://angular.io/guide/testing-components-basics#nativeelement)
 
 #### Q39. Given these two components, what will get rendered to the DOM based on the markup usage?
 
@@ -648,7 +644,7 @@ export class BioComponent { }
 <app-card><app-bio>Been around for four years.</app-bio></app-card>
 ```
 
-- [x]
+- [x] A
 
 ```javascript
  <app-card>
@@ -659,7 +655,7 @@ export class BioComponent { }
  </app-card>
 ```
 
-- [ ]
+- [ ] B
 
 ```javascript
 <h1>Data Card</h1>
@@ -668,7 +664,7 @@ export class BioComponent { }
  </app-bio>
 ```
 
-- [ ]
+- [ ] C
 
 ```javascript
 <app-card>
@@ -681,7 +677,7 @@ export class BioComponent { }
 </app-card>
 ```
 
-- [ ]
+- [ ] D
 
 ```javascript
 <app-card>
@@ -706,7 +702,7 @@ export class BioComponent { }
 <app-user-card></app-user-card>
 ```
 
-- [x]
+- [x] A
 
 ```javascript
 <app-user-card>
@@ -717,14 +713,14 @@ export class BioComponent { }
 </app-user-card>
 ```
 
-- [ ]
+- [ ] B
 
 ```javascript
 <h1>User Data</h1>
 <p>Jenny Smith<p>
 ```
 
-- [ ]
+- [ ] C
 
 ```javascript
 <app-user-card>
@@ -732,7 +728,7 @@ export class BioComponent { }
 </app-user-card>
 ```
 
-- [ ]
+- [ ] D
 
 ```javascript
 <div app-user-card>
@@ -747,19 +743,19 @@ export class BioComponent { }
 constructor(@Inject('Logger') private logger) { }
 ```
 
-- [ ]
+- [ ] A
 
 ```javascript
 providers: [Logger];
 ```
 
-- [x]
+- [x] B
 
 ```javascript
 providers: [{ provide: 'Logger', useClass: Logger }];
 ```
 
-- [ ]
+- [ ] C
 
 ```javascript
 @Injectable({
@@ -767,17 +763,15 @@ providers: [{ provide: 'Logger', useClass: Logger }];
 })
 ```
 
-- [ ]
+- [ ] D
 
 ```javascript
 providers: [{ provide: 'Logger' }];
 ```
 
-[StackOverflow](https://stackoverflow.com/a/37315355)
-
-[TektutorialHub](https://www.tektutorialshub.com/angular/angular-injector-injectable-inject/)
-
-[Angular.io - Dependency Injection In Action](https://angular.io/guide/dependency-injection-in-action#supply-a-custom-provider-with-inject)
+1. [StackOverflow](https://stackoverflow.com/a/37315355)
+2. [TektutorialHub](https://www.tektutorialshub.com/angular/angular-injector-injectable-inject/)
+3. [Angular.io - Dependency Injection In Action](https://angular.io/guide/dependency-injection-in-action#supply-a-custom-provider-with-inject)
 
 #### Q42. Which choice best describes the following usage of the HttpClient.get method in the getsettings class method?
 
@@ -800,9 +794,8 @@ getSettings()
 - [ ] Every single call to the getSettings method will result in the Httpclient making three total get requests to the settingsUrl, which is not ideal because there will always be two extra calls that are not needed. The retry operator should not be used in this manner.
 - [x] When the result of the getSettings method is subscribed to, the HTTP GET call will be made; if it fails, it will be retried up to three times before it gives up and returns an error.
 
-[learnrxjs.io](https://www.learnrxjs.io/learn-rxjs/operators/error_handling/retry)
-
-[dev.to](https://dev.to/gparlakov/how-does-rxjs-retry-work-412p)
+1. [learnrxjs.io](https://www.learnrxjs.io/learn-rxjs/operators/error_handling/retry)
+2. [dev.to](https://dev.to/gparlakov/how-does-rxjs-retry-work-412p)
 
 #### Q43. When a service requires some setup to initialize its default state through a method, how can you make sure that said method is invoked before the service gets injected anywhere?
 
@@ -811,8 +804,8 @@ getSettings()
 - [ ] it is not possible to do it at application start; you can do it only at a component level.
 - [ ] Instantiate an instance of the service at the global level (window scope) and then call that method.
 
-[Angular.io](https://angular.io/guide/dependency-injection-providers)
-[Stackoverflow](https://stackoverflow.com/questions/39803876/how-to-use-factory-provider)
+1. [Angular.io](https://angular.io/guide/dependency-injection-providers)
+2. [Stackoverflow](https://stackoverflow.com/questions/39803876/how-to-use-factory-provider)
 
 #### Q44. What statement best describes this usage of the TestBed?
 
@@ -859,9 +852,8 @@ export class TruncateDirective {
 - [ ] `constructor(maxLength: number) { }`
 - [ ] `Nothing. The directive selector cannot be used to pass in values to the directive.`
 
-[Angular.io](https://angular.io/guide/attribute-directives#passing-values-into-an-attribute-directive)
-
-[StackOverflow](https://stackoverflow.com/a/46303049)
+1. [Angular.io](https://angular.io/guide/attribute-directives#passing-values-into-an-attribute-directive)
+2. [StackOverflow](https://stackoverflow.com/a/46303049)
 
 #### Q47. How can you pass query parameters to this `HttpClient.get` request?
 
@@ -875,16 +867,16 @@ export class OrderService {
 }
 ```
 
-- [ ] `return this.httpClient.get<Order[]>(this.ordersUrl, {'year': year})`
-- [ ] `return this.httpClient.get<Order[]>(this.ordersUrl, year)`
-- [x]
+- [ ] A `return this.httpClient.get<Order[]>(this.ordersUrl, {'year': year})`
+- [ ] B `return this.httpClient.get<Order[]>(this.ordersUrl, year)`
+- [x] C
 
 ```
 const options = {params: new HttpParams().set('year', year) };
 return this.httpClient.get<Order[]>(this.ordersUrl, options);
 ```
 
-- [ ]
+- [ ] D
 
 ```angularjs
 getOrdersByYear(year: number): Observable<Order[]> {
@@ -892,9 +884,8 @@ getOrdersByYear(year: number): Observable<Order[]> {
 }
 ```
 
-[StackOverflow](https://stackoverflow.com/a/34475594)
-
-[TektutorialHub](https://www.tektutorialshub.com/angular/angular-pass-url-parameters-query-strings/#httpparams)
+1. [StackOverflow](https://stackoverflow.com/a/34475594)
+2. [TektutorialHub](https://www.tektutorialshub.com/angular/angular-pass-url-parameters-query-strings/#httpparams)
 
 #### Q48. Assuming the `DataService` has been registered in the providers for the application, which answer best describes what happens based on this component's constructor?
 
@@ -913,9 +904,8 @@ export class OrderHistoryComponent {
 - [ ] It provides a way to do component testing only; the constructor has no usage in the actual run of the Angular application.
 - [ ] It enables the custom element that the component targets to have a custom property named `dataService` that can be used to bind an existing `DataService` instance to.
 
-[StackOverflow](https://stackoverflow.com/a/49755822)
-
-[Angular.io - Dependency Injection](https://angular.io/guide/dependency-injection)
+1. [StackOverflow](https://stackoverflow.com/a/49755822)
+2. [Angular.io - Dependency Injection](https://angular.io/guide/dependency-injection)
 
 #### Q49. Finish this markup using the `ngIf` directive to implement an else case that will display the text "User is not active":
 
@@ -925,7 +915,7 @@ export class OrderHistoryComponent {
 </div>
 ```
 
-- [ ]
+- [ ] A
 
 ```angular2html
 <div #inactive>
@@ -933,7 +923,7 @@ export class OrderHistoryComponent {
 </div>
 ```
 
-- [ ]
+- [ ] B
 
 ```angular2html
 <div *ngIf="inactive">
@@ -941,7 +931,7 @@ export class OrderHistoryComponent {
 </div>
 ```
 
-- [ ]
+- [ ] C
 
 ```angular2html
 <ng-template #else="inactive">
@@ -949,7 +939,7 @@ export class OrderHistoryComponent {
 </ng-template>
 ```
 
-- [x]
+- [x] D
 
 ```angular2html
 <ng-template #inactive>
@@ -961,7 +951,7 @@ export class OrderHistoryComponent {
 
 #### Q50. What is the correct syntax for a route definition to lazy load a feature module?
 
-- [ ]
+- [ ] A
 
 ```
 {
@@ -970,7 +960,7 @@ export class OrderHistoryComponent {
 }
 ```
 
-- [x]
+- [x] B
 
 ```
 {
@@ -979,7 +969,7 @@ export class OrderHistoryComponent {
 }
 ```
 
-- [ ]
+- [ ] C
 
 ```
 {
@@ -988,7 +978,7 @@ export class OrderHistoryComponent {
 }
 ```
 
-- [ ]
+- [ ] D
 
 ```
 {
@@ -1021,9 +1011,8 @@ export class UserFormControl implements OnInit {
 - [ ] Validation cannot be set up this way in reactive forms.
 - [x] The `FormControl` for `username` is getting configured with three validators: the `required` and `minLength` validators that come from Angular, and a custom validator function named `unique` that checks for the value not equal to the string `admin`.
 
-[Angular.io - Form Validation](https://angular.io/guide/form-validation)
-
-[Angular University Blog](https://blog.angular-university.io/angular-custom-validators/)
+1. [Angular.io - Form Validation](https://angular.io/guide/form-validation)
+2. [Angular University Blog](https://blog.angular-university.io/angular-custom-validators/)
 
 #### Q52. What does the Injectable decorator do on this service class?
 
@@ -1161,16 +1150,12 @@ export class TruncatePipe implements PipeTransform {
 - [ ] {( 'some long text' | truncate })
 - [ ] all of these answers
 
-[do recheck the answers]
-
 #### Q61. Which Angular CLI command would you run to generate a UsersComponent and add it to the SharedModule (in file shared.module.ts in your application)?
 
 - [ ] ng generate component --newModule=shared
 - [ ] ng generate component users --module=shared
 - [ ] ng generate component users --shared
 - [ ] ng generate component --add=shared
-
-[do recheck the answers]
 
 #### Q62. How can you rewrite this markup so the div container is not needed in the final DOM render
 
@@ -1181,7 +1166,7 @@ export class TruncatePipe implements PipeTransform {
 </div>
 ```
 
-- [ ]
+- [ ] A
 
 ```javascript
 <div *ngIf="location">
@@ -1190,7 +1175,7 @@ export class TruncatePipe implements PipeTransform {
 {{ endNgIf }}
 ```
 
-- [ ]
+- [ ] B
 
 ```javascript
 <ng-template *ngIf="location">
@@ -1199,7 +1184,7 @@ export class TruncatePipe implements PipeTransform {
 </ng-template>
 ```
 
-- [ ]
+- [ ] C
 
 ```javascript
 <div *ngIf="location" [display]=" ' hidden' ">
@@ -1208,7 +1193,7 @@ export class TruncatePipe implements PipeTransform {
 </div>
 ```
 
-- [x]
+- [x] D
 
 ```javascript
 <ng-container *ngIf="location">
@@ -1216,8 +1201,6 @@ export class TruncatePipe implements PipeTransform {
 	<p>{{ location.description }}</p>
 </ng-container>
 ```
-
-[recheck answers]
 
 #### Q63. Describe the usage of this code:
 
@@ -1232,8 +1215,6 @@ export interface AppSettings {
 - [ ] The InjectionToken is used to create a provider token for a non-class dependency. An object lieteral can be provided as a value for the APP_SETTINGS dependency provider type that can then be injected into components, services, etc.
 - [ ] The InjectionToken is adding an instance of the AppSettings to the roote provider via the the InjectionToken constructor call, making it auto available to all NgModules, services, and componentts throughtout the Angular application without the need to inject it anywhere.
 - [ ] The InjectionToken is used to create a dynamic decorator for the AppSettings that can be sed on constructor parameters via an @AppSettings decorator.
-
-[recheck answers]
 
 #### Q64. What Angular utilities, if any, are required to unit test a service with no constructor dependencies?
 

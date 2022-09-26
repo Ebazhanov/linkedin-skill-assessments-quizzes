@@ -1040,3 +1040,23 @@ remote repository, named origin, to point to the new remote repository at this l
 - [ ] make large commits that introduce multiple features. <url>
 - [x] Keep local repository branches in sync with upstream branches in the remote repository by committing,pushing and pulling frequently. <url>
 - [ ] Avoid frequent interaction with the remote repository to reduce the probability of pulling conflicts. <url>
+
+#### Q129. What command creates a new branch from the currently checked-out branch?
+
+- [ ] `git checkout <nameOfBranch>`
+- [x] `git checkout -b <nameOfBranch>`
+- [ ] `git -b checkout <nameOfBranch>`
+- [ ] `git branch`
+
+#### Q130. You have changed your mind about adding broccoli to your project. How should you remove it?
+
+```bash
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+  brccoli
+```
+
+- [x] `git remove broccoli`
+- [ ] `git clean -f`
+- [ ] `git clean`
+- [ ] `git remove .`

@@ -30,7 +30,7 @@
 
 #### Q5. What is the correct set of component classes needed to implement a RecyclerView of items that displays a list of widgets vertically?
 
-- [ ]
+- [ ] A
 
 ```
       RecycleView
@@ -39,7 +39,7 @@
       LinearLayoutManager
 ```
 
-- [ ]
+- [ ] B
 
 ```
       RecycleView
@@ -48,7 +48,7 @@
       LinearLayoutManager
 ```
 
-- [ ]
+- [ ] C
 
 ```
       RecycleView
@@ -57,7 +57,7 @@
       LinearLayoutManager
 ```
 
-- [x]
+- [x] D
 
 ```
       RecycleView
@@ -75,7 +75,7 @@
 
 #### Q7. You have created a NextActivity class that relies on a string containing some data that pass inside the intent Which code snippet allows you to launch your activity?
 
-- [ ]
+- [ ] A
 
 ```
         Intent(this, NextActivity::class.java).also { intent ->
@@ -83,7 +83,7 @@
         }
 ```
 
-- [ ]
+- [ ] B
 
 ```
         Intent(this, NextActivity::class.java).apply {
@@ -93,7 +93,7 @@
         }
 ```
 
-- [x]
+- [x] C
 
 ```
         Intent(this, NextActivity::class.java).apply {
@@ -103,7 +103,7 @@
         }
 ```
 
-- [ ]
+- [ ] D
 
 ```
         Intent(this, NextActivity::class.java).apply {
@@ -115,21 +115,21 @@
 
 #### Q8. You want to include about and setting modules in your project. Which files accurately reflects their inclusion?
 
-- [ ] in build.gradle:include ':app',':about' ':settings'
-- [x] in settings.gradle:include ':app',':about' ':settings'
-- [ ] in settings.gradle:include ':about',':settings'
-- [ ] in gradle.properties:include ':app',':about' ':settings'
+- [ ] `in build.gradle:include ':app',':about' ':settings'`
+- [x] `in settings.gradle:include ':app',':about' ':settings'`
+- [ ] `in settings.gradle:include ':about',':settings'`
+- [ ] `in gradle.properties:include ':app',':about' ':settings'`
 
-#### Q9. What is the benifit of using @VisibleForTesting annotation?
+#### Q9. What is the benefit of using @VisibleForTesting annotation?
 
-- [x] to denote that a class, methos, or field has its visibility relaxed to make code testable
+- [x] to denote that a class, methods, or field has its visibility relaxed to make code testable
 - [ ] to denote that a class, method, or field is visible only in the test code
 - [ ] to denote that a class, method, or field has its visibility increased to make code less testable
-- [ ] to throw a run-time error if a class, methos, or field with this annotation is accessed improperly
+- [ ] to throw a run-time error if a class, methods, or field with this annotation is accessed improperly
 
 #### Q10. How would you specify in your build.gradle file that your app required at least API level 21 to run, but that it can be tested on API level 28?
 
-- [ ]
+- [ ] A
 
 ```
       defaultConfig {
@@ -139,7 +139,7 @@
       }
 ```
 
-- [ ]
+- [ ] B
 
 ```
       defaultConfig {
@@ -149,7 +149,7 @@
       }
 ```
 
-- [ ]
+- [ ] C
 
 ```
       defaultConfig {
@@ -159,7 +159,7 @@
       }
 ```
 
-- [x]
+- [x] D
 
 ```
       defaultConfig {
@@ -176,7 +176,7 @@
 - [ ] When onStop() is called in the target activity
 - [x] when calling finish() in the target activity
 
-[For more information](https://developer.android.com/reference/android/app/Activity)
+[Reference](https://developer.android.com/reference/android/app/Activity)
 
 #### Q12. You need to remove an Event based on it;s id from your API, Which code snippet defines that request in Retrofit?
 
@@ -251,7 +251,7 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
 - [x] getDefaultSharedPreferances(this).getString(EMAIL,"")
 - [ ] getPreferances(this).getString(EMAIL,null)
 
-**Explanation:** In Method "getDefaultSharedPrefarances(this).getString()" Second parameter is passed so that it can be returned, in case key doesn't exist. So we need to pass an empty string to be returned in case key doesn't exist.
+**Explanation:** `In Method "getDefaultSharedPrefarances(this).getString()" Second parameter is passed so that it can be returned, in case key doesn't exist. So we need to pass an empty string to be returned in case key doesn't exist.`
 
 #### Q20. Why is it problematic to define sizes using pixels on Android?
 
@@ -273,7 +273,7 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
 
 ![img](image/shape.png)
 
-- [ ]
+- [ ] A
 
 ```
     xml
@@ -286,7 +286,7 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
     </shape>
 ```
 
-- [ ]
+- [ ] B
 
 ```
     xml
@@ -296,7 +296,7 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
     </oval>
 ```
 
-- [x]
+- [x] C
 
 ```
     xml
@@ -309,7 +309,7 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
     </shape>
 ```
 
-- [ ]
+- [ ] D
 
 ```
     xml
@@ -416,10 +416,12 @@ startActivity(dialerIntent)
 
 #### Q31. When should you store files in the `/assets` directory?
 
-- [x] when you need access to the original file names and file hierarchy [(Reference)](https://medium.com/mobile-app-development-publication/assets-or-resource-raw-folder-of-android-5bdc042570e0)
+- [x] when you need access to the original file names and file hierarchy
 - [ ] when you need access to the file with its `resource ID`, like `R.assets.filename`
 - [ ] when you have XML files that define tween animations
 - [ ] when you need to access the file in its raw form using `Resources.openRawResource()`
+
+[Reference](https://medium.com/mobile-app-development-publication/assets-or-resource-raw-folder-of-android-5bdc042570e0)
 
 #### Q32. You want to allow users to take pictures in your app. Which is _not_ an advantage of creating an appropriate `intent`, instead of requesting the camera permission directly?
 
@@ -437,7 +439,7 @@ startActivity(dialerIntent)
 
 #### Q34. You would like to enable analytics tracking only in `release` builds. How can you create a new field in the generated `BuildConfig` class to store that value?
 
-- [ ]
+- [ ] A
 
 ```
 buildTypes {
@@ -450,7 +452,7 @@ buildTypes {
 }
 ```
 
-- [ ]
+- [ ] B
 
 ```
 buildTypes {
@@ -463,7 +465,7 @@ buildTypes {
 }
 ```
 
-- [x]
+- [x] C
 
 ```
 buildTypes {
@@ -476,7 +478,7 @@ buildTypes {
 }
 ```
 
-- [ ]
+- [ ] D
 
 ```
 buildTypes {
@@ -494,7 +496,9 @@ buildTypes {
 - [ ] JPG
 - [ ] PNG
 - [ ] MPEG
-- [x] WebP [(Reference)](https://developer.android.com/topic/performance/reduce-apk-size#:~:text=packJPG%20and%20guetzli.-,Use%20WebP%20file%20format,than%20either%20JPEG%20or%20PNG.)
+- [x] WebP
+
+[Reference](https://developer.android.com/topic/performance/reduce-apk-size#:~:text=packJPG%20and%20guetzli.-,Use%20WebP%20file%20format,than%20either%20JPEG%20or%20PNG.)
 
 #### Q36. You have built code to make a network call and tested that it works in your development environment. However, when you publish it to the Play console, the networking call fails to work. What will _not_ help you troubleshoot this issue?
 
@@ -507,7 +511,7 @@ buildTypes {
 
 ![img](image/04.jpeg)
 
-- [ ]
+- [ ] A
 
 ```
 xml
@@ -529,7 +533,7 @@ xml
     </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- [x]
+- [x] B
 
 ```
 xml
@@ -551,7 +555,7 @@ xml
     </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- [ ]
+- [ ] C
 
 ```
 xml
@@ -575,7 +579,7 @@ xml
     </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-- [ ]
+- [ ] D
 
 ```
 xml
@@ -607,14 +611,14 @@ xml
 
 #### Q39. Which definition will prevent other apps from accessing your `Activity` class via an `intent`?
 
-- [x]
+- [x] A
 
 ```
 xml
 	<activity android:name=".ExampleActivity" />
 ```
 
-- [ ]
+- [ ] B
 
 ```
 xml
@@ -625,7 +629,7 @@ xml
 	</activity>
 ```
 
-- [ ]
+- [ ] C
 
 ```
 xml
@@ -637,7 +641,7 @@ xml
 	</activity>
 ```
 
-- [ ]
+- [ ] D
 
 ```
 xml
@@ -648,7 +652,7 @@ xml
 	</activity>
 ```
 
-**Explanation:** Intent filters are used to make activities accessible to other apps using intents. So we have to choose option which have no intent filter to make sure it is not accessible by intent
+**Explanation:** `Intent filters are used to make activities accessible to other apps using intents. So we have to choose option which have no intent filter to make sure it is not accessible by intent`
 
 #### Q40. To preserve on-device memory, how might you determine that the user's device has limited storage capabilities?
 
@@ -700,7 +704,7 @@ xml
 
 ![img](image/43.jpeg)
 
-- [ ]
+- [ ] A
 
 ```
 xml
@@ -713,7 +717,7 @@ xml
 	</shape>
 ```
 
-- [ ]
+- [ ] B
 
 ```
 xml
@@ -725,7 +729,7 @@ xml
 	</rectangle>
 ```
 
-- [x]
+- [x] C
 
 ```
 xml
@@ -738,7 +742,7 @@ xml
 	</shape>
 ```
 
-- [ ]
+- [ ] D
 
 ```
 xml
@@ -827,7 +831,7 @@ xml
 </resources>
 ```
 
-- [ ]
+- [ ] A
 
 ```
 <ImageView
@@ -837,7 +841,7 @@ xml
    android:src=@drawable/map_pin />
 ```
 
-- [ ]
+- [ ] B
 
 ```<ImageView
    android:id=@+id/image_map_pin"
@@ -847,7 +851,7 @@ xml
    android:src=@drawable/map_pin />
 ```
 
-- [ ]
+- [ ] C
 
 ```
 <ImageView
@@ -858,7 +862,7 @@ xml
    android:src=@drawable/map_pin />
 ```
 
-- [x]
+- [x] D
 
 ```
 <ImageView
@@ -913,21 +917,12 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 
 #### Q58. You have created an AboutActivity class that displays details about your app. Which code snippet allows you to launch your activity?
 
-- [ ] Intent(this, AboutActivity::class).also { intent ->
-      startService(intent)
-      }
-- [x] Intent(this, AboutActivity::class.java).also { intent ->
-      startActivity(intent)
-      }
+- [ ] `Intent(this, AboutActivity::class).also { intent -> startService(intent)}`
+- [x] `Intent(this, AboutActivity::class.java).also { intent -> startActivity(intent)}`
+- [ ] `Intent(this, AboutActivity::class).also { intent -> activity(intent)}`
+- [ ] `Intent(this, AboutActivity::class).also { intent -> startActivity(intent)}`
 
-- [ ] Intent(this, AboutActivity::class).also { intent ->
-      activity(intent)
-      }
-- [ ] Intent(this, AboutActivity::class).also { intent ->
-      startActivity(intent)
-      }
-      Explanation: Intent(Context packageContext, Class<?> cls)
-      Notice: Class not KClass
+**Explanation**: `Intent(Context packageContext, Class<?> cls) Notice: Class not KClass`
 
 #### Q59. What is the use of AndroidManifest.xml file?
 
@@ -949,7 +944,8 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 - [ ] ProGuard
 - [ ] Shrinker
 - [ ] D8
-      Explanation: When you build your project using Android Gradle plugin 3.4.0 or higher, the plugin no longer uses ProGuard to perform compile-time code optimization. Instead, the plugin works with the R8 compiler to handle
+
+**Explanation**: `When you build your project using Android Gradle plugin 3.4.0 or higher, the plugin no longer uses ProGuard to perform compile-time code optimization. Instead, the plugin works with the R8 compiler to handle`
 
 [Reference](https://developer.android.com/studio/build/shrink-code)
 
@@ -1046,7 +1042,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 
 #### Q71. You want to allow users to take a picture in your app. Which code snippet is the correct approach?
 
-- [ ]
+- [ ] A
 
 ```
   fun showCamera(view: View) {
@@ -1061,7 +1057,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
    }
 ```
 
-- [x]
+- [x] B
 
 ```
   fun showCamera(view: View) {
@@ -1077,7 +1073,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
   }
 ```
 
-- []
+- [ ] C
 
 ```
   fun showCamera(view: View) {
@@ -1086,7 +1082,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
   }
 ```
 
-- [ ]
+- [ ] D
 
 ```
   fun showCamera(view: View) {

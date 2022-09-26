@@ -1406,9 +1406,8 @@ $('#element')
 - [ ] `slideDown()` requires the element to have a height set in pixels. `animate()` does not.
 - [ ] Effects created with `animate()` must be run over at least 100 milliseconds, where `slideDown()` can run as quickly as 50ms.
 
-[Source: .slideDown() | jQuery API Documentation](https://api.jquery.com/slidedown/)
-
-[Source: .animate() | jQuery API Documentation](https://api.jquery.com/animate/)\
+1. [Source: .slideDown() | jQuery API Documentation](https://api.jquery.com/slidedown/)
+2. [Source: .animate() | jQuery API Documentation](https://api.jquery.com/animate/)\
 
 #### Q71. What is the main difference between the `contents()` and `children()` functions?
 
@@ -1565,3 +1564,12 @@ $('.items').find('li:first-child').fadeOut().next('.active').fadeTo('fast', 0.5)
 - [ ] elements that have no siblings.
 - [ ] elements that have only one child element.
 - [x] only the child elements of a given element.
+
+#### Q81. Because querySelectorAll and querySelector are in the native DOM API of modern browsers, you don't need jQuery to do many kinds of DOM selections. But the jQuery selector engine does provide extensions that browsers do not support natively. Which extension is supported only by jQuery and _not_ by querySelector or querySelectorAll?
+
+- [ ] :parent, which can select elements that have children
+- [x] :visible, which can select elements that jQuery considers to be visible
+- [ ] :contains, which can select elements by the text they contain
+- [ ] :nth-of-type, which can select elements that are the nth element of their type within their parent
+
+[Source: Selectors Level 4](https://drafts.csswg.org/selectors/)

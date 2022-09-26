@@ -78,6 +78,8 @@ const topics = ['cooking', 'art', 'history'];
 - [ ] React Router
 - [x] React Context
 
+[Reference](https://reactjs.org/docs/context.html)
+
 #### Q9. What should the console read when the following code is run?
 
 ```javascript
@@ -233,6 +235,8 @@ function Dish(props) {
 - [x] when you want a default implementation of `shouldComponentUpdate()`
 - [ ] when you do not want your component to have state
 
+[Reference](https://reactjs.org/docs/react-api.html#reactpurecomponent)
+
 #### Q23. Why is it important to avoid copying the values of props into a component's state where possible?
 
 - [ ] because you should never mutate state
@@ -247,7 +251,7 @@ function Dish(props) {
 - [ ] a property that lets you set an array as a property
 - [ ] a property that lets you pass data to child elements
 
-[**Explanation**](https://reactjs.org/docs/jsx-in-depth.html#children-in-jsx)
+[Explanation](https://reactjs.org/docs/jsx-in-depth.html#children-in-jsx)
 
 #### Q25. Which attribute do you use to replace innerHTML in the browser DOM?
 
@@ -255,6 +259,8 @@ function Dish(props) {
 - [x] dangerouslySetInnerHTML
 - [ ] weirdSetInnerHTML
 - [ ] strangeHTML
+
+[Reference](https://reactjs.org/docs/dom-elements.html#dangerouslysetinnerhtml)
 
 #### Q26. Which of these terms commonly describe React applications?
 
@@ -310,6 +316,8 @@ const Heading = () => {
 - [x] componentDidMount
 - [ ] componentWillReceiveProps
 - [ ] componentWillMount
+
+[Reference](https://reactjs.org/docs/react-component.html#componentdidmount)
 
 #### Q33. React components are composed to create a user interface. How are components composed?
 
@@ -367,8 +375,7 @@ class Clock extends React.Component {
 - [ ] It automatically updates a component.
 - [x] `setState` is asynchronous and might result in out of sync values.
 
-**Explanation:** Because `this.props` and `this.state` may be updated asynchronously, you should not rely on their values for calculating the next state.
-Read [this article](https://medium.com/@wisecobbler/using-a-function-in-setstate-instead-of-an-object-1f5cfd6e55d1)
+Read [this article](https://medium.com/@wisecobbler/using-a-function-in-setstate-instead-of-an-object-1f5cfd6e55d1)**Explanation:** Because `this.props` and `this.state` may be updated asynchronously, you should not rely on their values for calculating the next state.
 
 #### Q39. What package contains the render() function that renders a React element tree to the DOM?
 
@@ -399,8 +406,7 @@ class clock extends React.Component {
 - [ ] Remove the render method
 - [x] Capitalize `clock`
 
-**Explanation:** In JSX, lower-case tag names are considered to be HTML tags.
-Read [this article](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components)
+Read [this article](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components)**Explanation:** In JSX, lower-case tag names are considered to be HTML tags.
 
 #### Q42. Which Hook could be used to update the document's title?
 
@@ -657,6 +663,8 @@ const Star = ({ selected = false }) => <Icon color={selected ? 'red' : 'grey'} /
 </Route>
 ```
 
+[Reference](https://reactrouter.com/en/main/components/route)
+
 #### Q60. Which class-based component is equivalent to this function component?
 
 ```javascript
@@ -745,6 +753,8 @@ useEffect(() => {
 - [x] componentDidMount
 - [ ] render
 - [ ] componentDidUpdate
+
+[Reference](https://reactjs.org/docs/react-component.html#componentdidmount)
 
 #### Q65. What is the name of the base component of this component?
 
@@ -1069,6 +1079,8 @@ function Dish() {
 - [ ] right after the component is updated
 - [ ] right after an API call
 
+[Reference](https://reactjs.org/docs/react-component.html#componentdidmount)
+
 #### Q93. What might you use webpack for?
 
 - [ ] to fetch remote dependencies used by your app
@@ -1144,7 +1156,7 @@ add();
 
 ![image](https://user-images.githubusercontent.com/62549240/160531605-bf8790d5-5eb9-4291-a9bd-4232f2fd7b6e.png)
 
-#### Q99. Why might you use a React.createRef?
+#### Q99. Why might you use a React.ref?
 
 - [ ] to refer to another JS file
 - [ ] to bind the function
@@ -1153,7 +1165,7 @@ add();
 
 [Reference](https://reactjs.org/docs/refs-and-the-dom.html)
 
-#### Q100. What assignment pattern is being used in this code?
+#### Q100. What pattern is being used in this code block?
 
 ```javascript
 const { tree, lake } = nature;
