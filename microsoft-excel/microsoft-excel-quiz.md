@@ -399,9 +399,9 @@
 #### Q53. In the formula `=VLOOKUP(A1,D1:H30,3,FALSE)`, the lookup value (A1) is being looked for in **\_**.
 
 - [ ] column D
-- [x] columns D through H
+- [ ] columns D through H
 - [ ] column H
-- [ ] column F
+- [x] column F
 
 #### Q54. An .xlsx workbook is saved into .csv format. What is preserved in the new .csv file?
 
