@@ -1872,10 +1872,13 @@ b = a[50:60:2]
 
 #### Q141. Assume you have a non-empty list named _mylist_ and you want to search for a specific value. The minimum number of comparison will be \_**_ and the maximum number of comparison will be _**?
 
-- [x] `len(mylist); len(mylist)`
-- [ ] `1; len(mylist)`
+- [ ] `len(mylist); len(mylist)`
+- [x] `1; len(mylist)`
 - [ ] `2; len(mylist)`
 - [ ] `0; len(mylist)`
+
+Explanation:
+> Can use a break statement and the value being searched can be the first element of the list, given that it is non-empty.
 
 #### Q142. If a function does not have a return statement, what does it really return?
 
@@ -2007,21 +2010,42 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 
 ```
 animals = {
-     'a' ['ant', 'antelope', 'armadillo'],
-     'b' ['beetle', 'bear', 'bat'],
-     'c' ['cat', 'cougar', 'camel']
+    'a': ['ant', 'antelope', 'armadillo'],
+    'b': ['beetle', 'bear', 'bat'],
+    'c': ['cat', 'cougar', 'camel']
 }
-animals = defaultdict (list, animals)
 
-print (animals ['b'])
-print (animals ['d'])
+animals = defaultdict(list, animals)
+
+print(animals['b'])
+print(animals['d'])
 ```
 
-- [x] `['beetle', 'bear', 'bat']`
-      `[]`
-- [ ] `['beetle', 'bear', 'bat']`
-      `# an exception will be thrown`
-- [ ] `['beetle', 'bear', 'bat']`
-      None
-- [ ] `['bat', 'bear', 'beetle']`
-      `[]`
+- [x] 
+    ```
+    ['beetle', 'bear', 'bat']
+    []
+    ```
+- [ ] 
+    ```
+    ['beetle', 'bear', 'bat']
+    # an exception will be thrown
+    ```
+- [ ] 
+    ```
+    ['beetle', 'bear', 'bat']
+    None
+    ```
+- [ ] 
+    ```
+    ['bat', 'bear', 'beetle']
+    []
+    ```
+
+Explanation:
+
+> Dictionaries usually result in an exception when using the square bracket syntax. Defaultdict here returns a default value dedicated by the first parameter so instead of throwing an exception, they return the default. Note that this needs to be imported as follows: `from collections import defaultdict`
+
+[Reference](https://www.geeksforgeeks.org/defaultdict-in-python/)
+
+
