@@ -169,10 +169,10 @@
 
 <img src="https://i.imgur.com/z2BfqIF.png" width="600" height="450"/>
 
-- [x] XY chart
+- [ ] XY chart
 - [ ] clustered column
 - [ ] bubble chart
-- [ ] combo chart
+- [x] combo chart
 
 #### Q24. In the image below, what does clicking the button indicated by the green arrow do?
 
