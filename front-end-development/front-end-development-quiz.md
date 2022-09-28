@@ -816,3 +816,10 @@ box {
 - [ ] data
 - [ ] src
 - [x] alt
+  
+  #### Q83.Which pseudo-class allows you to selectively show a focus ring on elements only if keyboard navigation is detected?
+
+- [ ] focus-show
+- [x] :focus-visible
+- [ ] :focus-ring
+- [ ] focus-keyboard
