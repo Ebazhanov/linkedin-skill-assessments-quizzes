@@ -2025,3 +2025,45 @@ img{
 - [ ] to increase execution time by not relying on built-in browser styles
 
 [Reference](http://web.simmons.edu/~grovesd/comm244/notes/week4/css-reset)
+
+#### Q82. Which option is an invalid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
+
+- [] padding: 10px 0px;
+- [x] padding: 10px 10px 0px 0px;
+- [] padding: 10px 0;
+- [] padding: 10px 0px 10px 0px;
+
+#### Q83. How would you absolutely position an element of the logo class inside of a relatively positioned container?
+
+- [] 
+```css
+.logo{
+  position: absolute;
+  padding-left: 100px;
+  padding-top: 150px;
+  }
+```
+- [] 
+```css
+.logo{
+  position: absolute;
+  left: 100px;
+  top: 150px;
+  }
+ ```
+- [] 
+```css
+.logo{
+  position: absolute;
+  left-padding: 100px;
+  top-padding: 150px;
+  }
+```
+- [x] 
+```css
+.logo{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 150px;
+  }
+ ```            
