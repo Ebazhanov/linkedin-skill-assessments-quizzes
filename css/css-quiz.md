@@ -1958,3 +1958,70 @@ a:focus {
       `:focus` styles are applied when a Tab key on a keyboard is used to navigate through links.
 
 [Reference](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes)
+
+#### Q128.  What style rule should you use to display all input elements that have failed the validation test with a red font?
+
+- [ ] A
+```css
+input.valid[false]{
+    color: red;
+}
+```
+- [x] B
+```css
+input:invalid {
+    color: red;
+}
+```
+- [ ] C
+```css
+input.not(valid) {
+    color: red;
+}
+```
+- [ ] D
+```css
+input.invalid {
+    color: red;
+}
+```
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid)
+
+#### Q129. What style rule should you apply to the img element to display the element in grayscale with no color?
+
+- [ ] A
+```css
+img{
+    transform: grayscale(1);
+}
+```
+- [ ] B
+```css
+img{
+    filter: grayscale(0);
+}
+```
+- [ ] C
+```css
+img{
+    transform: grayscale(0);
+}
+```
+- [x] D
+```css
+img{
+    filter: grayscale(1);
+}
+```
+
+[Reference](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_filter_grayscale)
+
+#### Q130. Why might you create a reset style sheet?
+
+- [ ] to reduce page size by removing browser styles from the page rendering.
+- [x] to start designing a page style by overriding any built-in browser styles
+- [ ] to make it easier to minify the content of your web page design
+- [ ] to increase execution time by not relying on built-in browser styles
+
+[Reference](http://web.simmons.edu/~grovesd/comm244/notes/week4/css-reset)
