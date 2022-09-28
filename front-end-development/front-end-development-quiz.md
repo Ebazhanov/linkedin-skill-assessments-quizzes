@@ -823,3 +823,5 @@ box {
 - [x] :focus-visible
 - [ ] :focus-ring
 - [ ] focus-keyboard
+
+[Reference](https://www.freecodecamp.org/news/focus-rings-for-keyboard-interactions-only/) 
