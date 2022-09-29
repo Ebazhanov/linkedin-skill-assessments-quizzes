@@ -10726,6 +10726,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "FawadJawaid",
+      "name": "Fawad Jawaid Malik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9715067?v=4",
+      "profile": "https://www.linkedin.com/in/fawad-jawaid-malik-04b59895",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
