@@ -816,3 +816,10 @@ box {
 - [ ] data
 - [ ] src
 - [x] alt
+
+#### Q83. To create a collection of radio buttons associated with the same field, each <input> tag must ____.
+
+- [ ] have the same value of the id attribute
+- [x] have the same value of the name attribute
+- [ ] belong to the same field set
+- [ ] have the same value of the class attribute
