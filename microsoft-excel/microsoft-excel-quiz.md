@@ -169,10 +169,10 @@
 
 <img src="https://i.imgur.com/z2BfqIF.png" width="600" height="450"/>
 
-- [x] XY chart
+- [ ] XY chart
 - [ ] clustered column
 - [ ] bubble chart
-- [ ] combo chart
+- [x] combo chart
 
 #### Q24. In the image below, what does clicking the button indicated by the green arrow do?
 
@@ -1200,3 +1200,10 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] only the ribbon
 - [x] both the Quick Access Toolbar and the ribbon
 - [ ] only the Quick Access Toolbar
+
+#### Q134. Other than pasting an image, how can you insert an image file from your computer into a worksheet?
+
+- [x] On the **Insert** tab, click **Pictures > This Device** (Windows) or **Pictures > Picture from file** (Mac)
+- [ ] On the **Insert** tab, click **SmartArt > Copy Image from Device** (Windows) or **SmartArt > Copy** (Mac)
+- [ ] On the **Insert** tab, click **Illustrations > Insert Illustration from This Device**
+- [ ] On the **Insert** tab, click **Icons > Insert > Picture from This Device**
