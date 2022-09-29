@@ -1534,6 +1534,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center"><a href="https://github.com/TinaLacatis"><img src="https://avatars.githubusercontent.com/u/54575096?v=4?s=100" width="100px;" alt="Tina Lacatis"/><br /><sub><b>Tina Lacatis</b></sub></a><br /><a href="#design-TinaLacatis" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=TinaLacatis" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/TeddyCuoreDolce"><img src="https://avatars.githubusercontent.com/u/838417?v=4?s=100" width="100px;" alt="TeddyCuoreDolce"/><br /><sub><b>TeddyCuoreDolce</b></sub></a><br /><a href="#design-TeddyCuoreDolce" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=TeddyCuoreDolce" title="Code">💻</a></td>
+      <td align="center"><a href="https://bryan-choo.com"><img src="https://avatars.githubusercontent.com/u/56596358?v=4?s=100" width="100px;" alt="bchooxg"/><br /><sub><b>bchooxg</b></sub></a><br /><a href="#design-bchooxg" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=bchooxg" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>
