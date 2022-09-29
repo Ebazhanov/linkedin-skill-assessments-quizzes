@@ -577,3 +577,10 @@
 - [ ] crawling
 - [ ] indexing
 - [ ] HTTP responses
+
+#### Q71. How many H1 tags are typically found on a single page?
+
+- [ ] up to five
+- [x] one
+- [ ] as many as necessary
+- [ ] two
