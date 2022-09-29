@@ -750,9 +750,9 @@ def __init__(self):
     pass
 ```
 
-#### Q54. Which of the following is TRUE About how numeric data would be organised in a binary Search tree?
+#### Q54. Which of the following is TRUE About how numeric data would be organised in a Binary Search Tree?
 
-- [x] For any given Node in a binary Search Tree, the child node to the left is less than the value of the given node and the child node to its right is greater than the given node.
+- [x] For any given node in a binary search tree, the value of the node is greater than all the values in the node's left subtree and less than the ones in its right subtree.
 - [ ] Binary Search Tree cannot be used to organize and search through numeric data, given the complication that arise with very deep trees.
 - [ ] The top node of the binary search tree would be an arbitrary number. All the nodes to the left of the top node need to be less than the top node's number, but they don't need to ordered in any particular way.
 - [ ] The smallest numeric value would go in the top most node. The next highest number would go in its left child node, the the next highest number after that would go in its right child node. This pattern would continue until all numeric values were in their own node.
