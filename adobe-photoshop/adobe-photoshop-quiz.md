@@ -674,7 +674,7 @@
 
 #### Q89. Which layer(s) does the depicted Hue/Saturation 1 adjustment layer affect?
 
-![Which layer(s) does the depicted Hue/Saturation 1 adjustment layer affect?](images/image04.jpeg?raw=true)
+![Which layer(s) does the depicted Hue/Saturation 1 adjustment layer affect?](images/image04.png?raw=true)
 
 - [ ] A
 - [ ] B, C and D
