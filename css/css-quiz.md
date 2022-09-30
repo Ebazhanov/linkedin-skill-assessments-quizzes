@@ -2119,7 +2119,7 @@ height: 100px;
 
 - [ ] asymmetric, so that the transition going from the initial state to the end state is different from the transition going from the end state back to the initial state.
 - [ ] one sided, so that there is only one transition and it goes from the initial state to the end state.
-- [ ] symmetric, so that the transition going from the initial state to the end state is the reverse of the transition going from the end state back to the initial state.
+- [x] symmetric, so that the transition going from the initial state to the end state is the reverse of the transition going from the end state back to the initial state.
 - [ ] one-sided, so that there is only one transition and it goes from the end state to the initial state.
 
-[Reference](N/A)
+[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
