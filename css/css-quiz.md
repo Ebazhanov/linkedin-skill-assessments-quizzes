@@ -2040,14 +2040,16 @@ img {
 
 [Reference](http://web.simmons.edu/~grovesd/comm244/notes/week4/css-reset)
 
-#### Q82. Which option is an invalid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
+#### Q131. Which option is an invalid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
 
 - [ ] padding: 10px 0px;
 - [x] padding: 10px 10px 0px 0px;
 - [ ] padding: 10px 0;
 - [ ] padding: 10px 0px 10px 0px;
+  
+[Reference](https://www.w3schools.com/css/css_padding.asp)
 
-#### Q83. How would you absolutely position an element of the logo class inside of a relatively positioned container?
+#### Q132. How would you absolutely position an element of the logo class inside of a relatively positioned container?
 
 - [ ] A
 
@@ -2088,3 +2090,36 @@ img {
   margin-top: 150px;
 }
 ```
+  
+#### Q133. How would the ```<div>``` with the class .child be positioned within its container?
+```html
+<style>
+.container{
+height: 200px;
+width: 200px;
+}
+.child{
+margin: auto 0;
+height: 100px;
+}
+</style>
+<div class="container">
+    <div class="child">...</div>
+</div>
+```
+
+- [ ] horizontally centered
+- [ ] vertically centered, spanning the container's width
+- [ ] at the bottom of the container, spanning the container's width
+- [x] at the top of the container, spanning the container's width
+
+[Reference](https://codepen.io/harsh1x4/pen/poVaQVz)
+
+#### Q134. By default, a CSS transition is __
+
+- [ ] asymmetric, so that the transition going from the initial state to the end state is different from the transition going from the end state back to the initial state.
+- [ ] one sided, so that there is only one transition and it goes from the initial state to the end state.
+- [ ] symmetric, so that the transition going from the initial state to the end state is the reverse of the transition going from the end state back to the initial state.
+- [ ] one-sided, so that there is only one transition and it goes from the end state to the initial state.
+
+[Reference](N/A)
