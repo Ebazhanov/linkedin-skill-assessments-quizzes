@@ -424,8 +424,7 @@ enum Status {
 - [ ] cargo start
 - [ ] rust new-project
 
-
-#### Q37. Calling.clone() **\_**. 
+#### Q37. Calling.clone() **\_**.
 
 - [ ] deeply copies heap data and clones ownership
 - [x] clones the pointer to the heap
@@ -434,7 +433,7 @@ enum Status {
 
 [Reference](https://doc.rust-lang.org/std/rc/)
 
-#### Q38. what is one of the roles of the let keyword?  
+#### Q38. what is one of the roles of the let keyword?
 
 ```rust
 let text = String::new("LinkedIn");
@@ -447,7 +446,7 @@ let text = String::new("LinkedIn");
 
 [Reference](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)
 
-#### Q39. How is a new enum initialized? 
+#### Q39. How is a new enum initialized?
 
 ```rust
 enum Option_i32 {
@@ -465,16 +464,16 @@ enum Option_i32 {
 
 #### Q40. What are the main difference between const and static?
 
-- [ ] They can be used interchangeably, but const only supports primitive types while static must be used for structs and user-defined types. 
+- [ ] They can be used interchangeably, but const only supports primitive types while static must be used for structs and user-defined types.
 - [ ] They can be used interchangeably, but const values are compiled at compile time.
 - [ ] Values defined with const live in the stack, while static values live on the heap.
-- [x] Values defined with const can be copied to wherever they are needed, whereas static values remain in a fixed place in  memory.
+- [x] Values defined with const can be copied to wherever they are needed, whereas static values remain in a fixed place in memory.
 
 [Reference](https://stackoverflow.com/questions/52751597/what-is-the-difference-between-a-constant-and-a-static-variable-and-which-should)
 
 #### Q41. Which Rust data type represents a signed integer that has the same width as a pointer of the compile target's CPU?
 
-- [ ] i64 
+- [ ] i64
 - [ ] int64
 - [x] isize
 - [ ] int

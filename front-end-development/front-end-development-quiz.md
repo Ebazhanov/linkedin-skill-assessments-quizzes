@@ -817,7 +817,6 @@ box {
 - [ ] src
 - [x] alt
 
-  
 #### Q83.Which pseudo-class allows you to selectively show a focus ring on elements only if keyboard navigation is detected?
 
 - [ ] focus-show
@@ -825,9 +824,9 @@ box {
 - [ ] :focus-ring
 - [ ] focus-keyboard
 
-[Reference](https://www.freecodecamp.org/news/focus-rings-for-keyboard-interactions-only/) 
+[Reference](https://www.freecodecamp.org/news/focus-rings-for-keyboard-interactions-only/)
 
-#### Q84. To create a collection of radio buttons associated with the same field, each <input> tag must ____.
+#### Q84. To create a collection of radio buttons associated with the same field, each <input> tag must \_\_\_\_.
 
 - [ ] have the same value of the id attribute
 - [x] have the same value of the name attribute

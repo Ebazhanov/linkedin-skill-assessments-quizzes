@@ -1959,30 +1959,37 @@ a:focus {
 
 [Reference](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Pseudo-classes)
 
-#### Q128.  What style rule should you use to display all input elements that have failed the validation test with a red font?
+#### Q128. What style rule should you use to display all input elements that have failed the validation test with a red font?
 
 - [ ] A
+
 ```css
-input.valid[false]{
-    color: red;
+input.valid[false] {
+  color: red;
 }
 ```
+
 - [x] B
+
 ```css
 input:invalid {
-    color: red;
+  color: red;
 }
 ```
+
 - [ ] C
+
 ```css
 input.not(valid) {
-    color: red;
+  color: red;
 }
 ```
+
 - [ ] D
+
 ```css
 input.invalid {
-    color: red;
+  color: red;
 }
 ```
 
@@ -1991,27 +1998,34 @@ input.invalid {
 #### Q129. What style rule should you apply to the img element to display the element in grayscale with no color?
 
 - [ ] A
+
 ```css
-img{
-    transform: grayscale(1);
+img {
+  transform: grayscale(1);
 }
 ```
+
 - [ ] B
+
 ```css
-img{
-    filter: grayscale(0);
+img {
+  filter: grayscale(0);
 }
 ```
+
 - [ ] C
+
 ```css
-img{
-    transform: grayscale(0);
+img {
+  transform: grayscale(0);
 }
 ```
+
 - [x] D
+
 ```css
-img{
-    filter: grayscale(1);
+img {
+  filter: grayscale(1);
 }
 ```
 
@@ -2028,42 +2042,49 @@ img{
 
 #### Q82. Which option is an invalid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
 
-- [] padding: 10px 0px;
+- [ ] padding: 10px 0px;
 - [x] padding: 10px 10px 0px 0px;
-- [] padding: 10px 0;
-- [] padding: 10px 0px 10px 0px;
+- [ ] padding: 10px 0;
+- [ ] padding: 10px 0px 10px 0px;
 
 #### Q83. How would you absolutely position an element of the logo class inside of a relatively positioned container?
 
-- [] 
+- [ ] A
+
 ```css
-.logo{
+.logo {
   position: absolute;
   padding-left: 100px;
   padding-top: 150px;
-  }
+}
 ```
-- [] 
+
+- [ ] B
+
 ```css
-.logo{
+.logo {
   position: absolute;
   left: 100px;
   top: 150px;
-  }
- ```
-- [] 
+}
+```
+
+- [ ] C
+
 ```css
-.logo{
+.logo {
   position: absolute;
   left-padding: 100px;
   top-padding: 150px;
-  }
+}
 ```
-- [x] 
+
+- [x] D
+
 ```css
-.logo{
+.logo {
   position: absolute;
   margin-left: 100px;
   margin-top: 150px;
-  }
- ```            
+}
+```

@@ -1138,6 +1138,7 @@ fun main() {
 #### Q88. What is wrong with this class definition?
 
 ```class Empty
+
 ```
 
 - [x] The class is properly defined, so nothing is wrong with it.

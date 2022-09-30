@@ -2024,21 +2024,22 @@ System.out.println(horses.get(1).trim());
 
 #### Q140. Which data structure would you choose to associate the amount of rainfall with each month?
 
-- [ ] Vector 
+- [ ] Vector
 - [ ] LinkedList
 - [x] Map
-- [ ] Queue 
+- [ ] Queue
 
 > Explanation (from @yktsang01 in #3915 thread)
 
 > Map because map is a key/value pair without creating new classes/objects. So can store the rainfall per month like
-`Map<java.time.Month, Double>`
-The other options will most likely need some new class to be meaningful
+> `Map<java.time.Month, Double>`
+> The other options will most likely need some new class to be meaningful
+
 ```java
 public class Rainfall {
 private java.time.Month month;
 private double rainfall;
-} 
+}
 Vector<Rainfall>
 LinkedList<Rainfall>
 Queue<Rainfall>

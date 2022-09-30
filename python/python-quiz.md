@@ -2021,21 +2021,28 @@ print(animals['d'])
 ```
 
 - [x] A
+
 ```
       ['beetle', 'bear', 'bat']
       []
 ```
+
 - [ ] B
+
 ```
       ['beetle', 'bear', 'bat']
       # an exception will be thrown
 ```
+
 - [ ] C
+
 ```
       ['beetle', 'bear', 'bat']
       None
 ```
+
 - [ ] D
+
 ```
       ['bat', 'bear', 'beetle']
       []
