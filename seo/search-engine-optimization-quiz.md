@@ -584,3 +584,10 @@
 - [x] one
 - [ ] as many as necessary
 - [ ] two
+
+#### Q72. What is a meta description used for?
+
+- [x] to summarize the content of a webpage
+- [ ] to bundle meta tags
+- [ ] to describe images
+- [ ] to assign schema markup
