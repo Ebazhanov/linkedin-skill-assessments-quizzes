@@ -2063,3 +2063,22 @@ print(animals['d'])
 - [ ] a list with all the even numbers less than or equal to 2*n
 
 [Reference](https://www.w3schools.com/python/ref_func_range.asp)
+
+#### Q150. What does this code print in the console?
+
+```
+x = 18
+
+if x > 10:
+	if x > 15:
+		print('A')
+	else:
+		print('B')
+else:
+	print('C')
+
+```
+- [ ] C
+- [ ] A  B
+- [ ] B
+- [x] A
