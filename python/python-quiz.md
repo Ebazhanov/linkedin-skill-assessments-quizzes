@@ -2051,3 +2051,15 @@ print(animals['d'])
 **Explanation:** Dictionaries usually result in an exception when using the square bracket syntax. Defaultdict here returns a default value dedicated by the first parameter so instead of throwing an exception, they return the default. Note that this needs to be imported as follows: `from collections import defaultdict`
 
 [Reference](https://www.geeksforgeeks.org/defaultdict-in-python/)
+
+#### Q149. What will this line of code return? (Assume n is already defined as any positive integer value.)
+
+```
+[x*2 for x in range(1,n)]
+```
+- [x] a list with all the even numbers less than 2*n
+- [ ] a dictionary with all the even numbers less than 2*n
+- [ ] a list with all the odd numbers less than 2*n
+- [ ] a list with all the even numbers less than or equal to 2*n
+
+[Reference](https://www.w3schools.com/python/ref_func_range.asp)
