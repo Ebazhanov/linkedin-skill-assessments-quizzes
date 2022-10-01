@@ -488,3 +488,11 @@ mvn install
 - [ ] the POM file
 
 [maven docs](https://maven.apache.org/what-is-maven.html#:~:text=Maven's%20primary%20goal%20is%20to,Providing%20a%20uniform%20build%20system)
+
+
+### Q62 What are the three lifecycles that are built into Maven?
+
+- [ ] initialization, configuration and execution
+- [ ] up, build and down
+- [x] default, clean and site 
+- [ ] startup, process and cleanup
