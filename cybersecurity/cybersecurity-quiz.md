@@ -849,3 +849,12 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] CVE
 - [ ] CWE
 - [ ] CERT
+
+[Explanation:] (https://www.ieee-security.org/TC/SP2020/tot-papers/young-1996.pdf)
+
+#### Q111. What is cryptovirology?
+
+- [ ] Plain cryptography
+- [ ] Antivirus
+- [x] Design powerful malicious software
+- [x] Asymmetric backdoor
