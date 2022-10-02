@@ -488,3 +488,21 @@ mvn install
 - [ ] the POM file
 
 [maven docs](https://maven.apache.org/what-is-maven.html#:~:text=Maven's%20primary%20goal%20is%20to,Providing%20a%20uniform%20build%20system)
+
+### Q62. What is the Maven central repository?
+
+- [ ] a local repository created by Maven in your local file system
+- [ ] a repository in the middle of your Maven project
+- [x] an online repository for open-source binaries
+- [ ] a repository that you must download to build a Maven project
+
+[!reference](https://www.javatpoint.com/maven-repository)
+
+### Q63. What are the artifacts that Apache Maven uses to perform its build operations?
+
+- [ ] ant files
+- [ ] properties
+- [ ] dependencies
+- [x] plugins
+
+[!reference](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
