@@ -22,13 +22,15 @@ have a great understanding about.
 
 #### Announcement 🎉:
 
-1. Column `Translation` have links to quizzes in different languages Es, Fr, It, DE
+1. Guys if you want to participate in https://hacktoberfest.com/participation/ please write in you PR - **HACKTOBERFEST**
 
-2. If you want to meet each other or discuss quiz related problems or maybe ask for skills endorsement just join the `Discord` chat
+2. Column `Translation` have links to quizzes in different languages Es, Fr, It, DE
+
+3. If you want to meet each other or discuss quiz related problems or maybe ask for skills endorsement just join the `Discord` chat
 
 [![Join our Discord server!](https://invidget.switchblade.xyz/NKCyjjw3MW?theme=light)](https://discord.gg/NKCyjjw3MW)
 
-3. Playground before taking quiz using:
+4. Playground before taking quiz using:
 
 - Web App https://linkedin-faq.github.io/md2practice/
 - Web App #2 https://linkedin-faq.github.io/skill-assessments-quizzes/
