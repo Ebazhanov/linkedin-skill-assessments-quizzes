@@ -10724,7 +10724,8 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/93096721?v=4",
       "profile": "https://bio.link/harsh1x4",
       "contributions": [
-        "code"
+        "code",
+        "design"
       ]
     },
     {
@@ -10792,6 +10793,26 @@
       "name": "Mehran Javaherian",
       "avatar_url": "https://avatars.githubusercontent.com/u/9961577?v=4",
       "profile": "https://github.com/mehhran",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "chemben17",
+      "name": "Benjamin Ololade Adedokun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105835536?v=4",
+      "profile": "https://github.com/chemben17",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "mamutalib",
+      "name": "Md. Abdul Mutalib",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61675569?v=4",
+      "profile": "http://mamutalib.github.io",
       "contributions": [
         "design",
         "code"

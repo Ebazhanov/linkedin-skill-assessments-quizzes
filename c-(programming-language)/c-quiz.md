@@ -977,6 +977,7 @@ typedef struct{
     int y;
 } coord;
 ```
+
 #### Q64. What is the output of the below program?
 
 ```c
@@ -997,3 +998,9 @@ int main()
 - [x] 5
 - [ ] 3 or 5 depending on input
 - [ ] Compile time error
+
+#### Q65. What do the functions malloc() and calloc() allocate?
+- [ ] reallocatged memory
+- [ ] static memeory
+- [x] dynamic memory
+- [ ] fragmented memory

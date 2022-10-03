@@ -324,3 +324,22 @@
 - [ ] on the **home** tab, in the **Tools** goup
 - [ ] on the **Design** tab, in the **Alignment** goup
 - [ ] on the **Design** tab, in the **Paragraph** goup
+
+#### Q38. The Function shape data field in flowchart shapes automatically displays what text when the shape is placed into a swimlane?
+
+- [ ] the header text of the swimlane
+- [x] the value of the swimlane's Title Shape Data field
+- [ ] the name of the swimlane phase where the shape resides
+- [ ] the value of the Owner shape data field
+
+[!reference](https://support.microsoft.com/en-us/office/create-a-cross-functional-flowchart-in-visio-for-the-web-3546da67-a092-431a-b47a-bbb808edf581)
+
+#### Q39. Which is not an example of a reason that a shape designer might use sets of shapes grouped together to create a more sophisticated appearance or behavior?
+
+- [x] to display text in multiple places on the shape
+- [ ] to protect the alignment of subshapes within the group 
+- [ ] to prevent different parts of the shape from responding differently to external changes
+- [ ] to display different colors on different parts of the grouped shape
+
+**EXPLANATION** (Others do)
+[!reference](https://support.microsoft.com/en-us/office/clarify-the-structure-of-diagrams-by-using-containers-and-lists-4da621a4-3572-4c9b-9559-bbe4f6c9b08f)
