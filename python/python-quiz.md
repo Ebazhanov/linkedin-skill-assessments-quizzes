@@ -2082,3 +2082,12 @@ else:
 - [ ] A  B
 - [ ] B
 - [x] A
+
+
+#### Q151. Suppose you have a variable named vector of type np.array with 10.000 elements. How can you turn vector into a variable named matrix with dimensions 100x100?
+
+- [ ] matrix = matrix(vector,100,100)
+- [ ] matrix = vector.to_matrix(100,100)
+- [ ] matrix = (vector.shape = (100,100))
+- [x] matrix = vector.reshape(100,100)
+Exa
