@@ -1868,7 +1868,7 @@ As Steve Krug once said, happy talk must die.
 
 A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools.com/tags/att_fieldset_disabled.asp)
 
-#### Q108. Which description list is coded correctly?
+#### Q109. Which description list is coded correctly?
 
 - [x] A
 
@@ -1913,3 +1913,10 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
   <!--Other terms and descriptions -->
 </dl>
 ```
+
+#### Q110. What is the difference between the `<div>` and the `<span>` tag?
+
+- [ ] `<div>` is used for major divisions on a page, while `<span>` is used to span across columns.
+- [x] `<div>` is used where a generic block-level tag is needed, while `<span>` is used where a generic inline tag is needed.
+- [] `<div>` is the industry standard default tag, but you could use `<span>` if you prefer.
+- [ ] `<div>` is used where a generic inline tag is needed, while `<span>` is used where a generic block-level tag is needed.
