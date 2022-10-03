@@ -977,3 +977,9 @@ typedef struct{
     int y;
 } coord;
 ```
+
+#### Q64. What do the functions malloc() and calloc() allocate?
+- [ ] reallocatged memory
+- [ ] static memeory
+- [x] dynamic memory
+- [ ] fragmented memory
