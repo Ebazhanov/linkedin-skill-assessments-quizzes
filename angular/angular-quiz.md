@@ -1074,7 +1074,9 @@ RouterModule.forRoot (
 - [ ] It enables the option to flag individual routes for preloading.
 - [ ] It preloads all dependencies for routes, creating instances of services when the app first starts up
 - [ ] It ensures all modules get built into a single app module bundle file.
-- [ ] It configures the router to immediately load all routes that have a loadChildren property(routes that are typically loaded when requested)
+- [x] It configures the router to immediately load all routes that have a loadChildren property(routes that are typically loaded when requested)
+
+[Reference](https://medium.com/geekculture/preloading-strategy-in-angularsave-loading-time-ca791074fe28)
 
 #### Q56. What is an alternative way to write this markup to bind the value of the class field `userName` to the `h1` element title property?
 
