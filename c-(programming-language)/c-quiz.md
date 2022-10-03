@@ -1004,3 +1004,10 @@ int main()
 - [ ] static memeory
 - [x] dynamic memory
 - [ ] fragmented memory
+
+#### Q66. You need to determine if a string variable is a substring of another string. Which standard C library function do you use?
+
+- [ ] substr(str1, str2);
+- [x] strstr(str1, str2);
+- [ ] substring(str1, str2);
+- [ ] strspn(str1, str2);
