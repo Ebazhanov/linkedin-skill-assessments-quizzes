@@ -500,7 +500,7 @@
 #### Q64. What is the outcome if you make a selection and then add an adjustment layer?
 
 - [ ] The adjustment layer contains a vector mask that applies the adjustment only to the unselected pixels.
-- [ ] The adjustment layer contains a layer mask that applies the adjustment only to the selected pixels.
+- [x] The adjustment layer contains a layer mask that applies the adjustment only to the selected pixels.
 - [ ] The adjustment layer contains a layer mask that applies the adjustment only to the unselected pixels.
 - [ ] The adjustment layer contains a vector mask that applies the adjustment only to the selected pixels.
 
