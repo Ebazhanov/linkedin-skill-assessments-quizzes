@@ -1,0 +1,59 @@
+## Autodesk Fusion 360
+
+#### Q1. How can you edit a feature?
+
+- [ ] Select the feature, press Delete, and then create a new feature.
+- [x]Right-click the feature and select Edit Feature.
+- [ ]Keep clicking Undo until the feature is gone.
+- [ ]Find the feature in the browser, select Remove, and then create a new feature.
+
+
+#### Q2. Which tool creates a plane normal to a sketch path or edge?
+
+- [ ]Plane Through Two Edges
+- [x]Plane Along Path
+- [ ]Plane at Angle
+- [ ]Plane Through Three Points
+
+#### Q3. Which tool measures the precise distance between two points, and creates dimensions that are parallel to the locations of objects?
+
+- [x]Aligned Dimension
+- [ ]Linear Dimension
+- [ ]Angular Dimension
+- [ ]Ordinate Dimension
+
+#### Q4. How many holes were used in the making of this object?
+
+- [x] 1
+- [ ] 2
+- [ ]3
+- [ ]4
+
+#### Q5. In the CAM workspace, which strategy removes a part’s interior cavity?
+
+- [ ]Slot
+- [ ]2D Pocket
+- [x]Bore
+- [ ]2D Contour
+
+
+#### Q6. What does the Zebra Analysis tool do?
+
+- [ ]It applies a metal render.
+- [ ]It fixes bodies.
+- [x]It checks a body’s continuity.
+- [ ]It splits bodies apart.
+
+#### Q7. Which command creates a plane at the midpoint between two faces or work planes?
+
+- [ ]Midplane
+- [ ]Plane Tangent to Face at Point
+- [ ]Offset Plane
+- [x]Plane at Angle
+
+#### Q8. Which hole type automatically enters a diameter value based on the type of fastener it will accomodate?
+
+- [ ]Clearance
+- [ ]Simple
+- [x]Drilled
+- [ ]Through
