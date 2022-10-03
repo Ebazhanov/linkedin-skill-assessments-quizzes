@@ -10837,6 +10837,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "lost-in-cyberspace",
+      "name": "Kieran Krug",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32429264?v=4",
+      "profile": "https://github.com/lost-in-cyberspace",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
