@@ -571,9 +571,9 @@ D. Because you cannot create a search folder for a subfolder
 
 #### Q78. You created a meeting for next Tuesday at 2 p.m., and several invitees have accepted. How do you change the meeting so it will begin at 1 p.m.?
 
-A. Open the calendar in Day, Week, or Work Week view. Drag the start time to 1 p.m. and send an update.  
-B. Double-click the meeting to open it, change the start time to 1 p.m., and send an update.  
-C. Some people have already accepted, so you must cancel this meeting and create a new meeting.
+    A. Open the calendar in Day, Week, or Work Week view. Drag the start time to 1 p.m. and send an update.
+    B. Double-click the meeting to open it, change the start time to 1 p.m., and send an update.
+    C. Some people have already accepted, so you must cancel this meeting and create a new meeting.
 
 - [ ] A or B
 - [x] B
@@ -673,9 +673,14 @@ C. Some people have already accepted, so you must cancel this meeting and create
 
 #### Q92. You have a meeting from 2 to 3 p.m. next friday and have been invited to a second meeting in a different bulding starting at 3 p.m.. You want to attend both meetings but need time to get from the first to the second. What is an efficient way to respond to the organizer of the second meeting to allot 30 minutes of travel?
 
+- [ ]
+- [ ]
 - [ ] decline and propose new time
 - [x] tenctative and propose new time
 
 #### Q93. What happens when you try to add new account on Outlook?
 
 - [x] transmission
+- [ ]
+- [ ]
+- [ ]

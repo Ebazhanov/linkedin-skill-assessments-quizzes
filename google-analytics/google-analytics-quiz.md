@@ -362,10 +362,10 @@
 
 #### Q51. It is September, and you want to evaluate the most popular page on your site for the month of August. What first steps would you take?
 
-- [x] 1. Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > All Pages.
-- [ ] 1. Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > Content Drilldown.
-- [ ] 1. Set Date Range to Last Month. 2. Visit Behavior > Site Content > Content Drilldown.
-- [x] 1. Set Date Range to Last Month. 2. Visit Behavior > Site Content > All Pages.
+- [x] Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > All Pages.
+- [ ] Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > Content Drilldown.
+- [ ] Set Date Range to Last Month. 2. Visit Behavior > Site Content > Content Drilldown.
+- [x] Set Date Range to Last Month. 2. Visit Behavior > Site Content > All Pages.
 
 #### Q52. This report is sorted by bounce rate in ascending order. How do you view these results in order of importance instead?
 

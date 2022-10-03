@@ -49,8 +49,7 @@ if any([True, False, False, False]) == True:
 - [ ] Attributes are strings that describe characteristics of a class.
 - [ ] Function arguments are called "attributes" in the context of class methods and instance methods.
 
-**Explanation**
-Attributes defined under the class, arguments goes under the functions. arguments usually refer as parameter, whereas attributes are the constructor of the class or an instance of a class.
+**Explanation** `Attributes defined under the class, arguments goes under the functions. arguments usually refer as parameter, whereas attributes are the constructor of the class or an instance of a class.`
 
 #### Q6. What is the term to describe this code?
 
@@ -317,7 +316,7 @@ prices = [1.50, 2.25, 0.89]
 ('Bananas', 4, 0.89)]
 ```
 
-- [ ] <br>
+- [ ] A
 
 ```python
 output = []
@@ -334,7 +333,7 @@ output.append(fruit_tuple)
 return output
 ```
 
-- [x] <br>
+- [x] B
 
 ```python
 i = 0
@@ -347,7 +346,7 @@ for fruit in fruits:
 return output
 ```
 
-- [ ] <br>
+- [ ] C
 
 ```python
 groceries = zip(fruits, quantities, prices)
@@ -360,7 +359,7 @@ return groceries
 ]
 ```
 
-- [ ]  <br>
+- [ ] D
 
 ```python
 i = 0
@@ -395,28 +394,28 @@ else:
 
 _(Answer format may vary. Game and roll (or dice_roll) should each be called with no parameters.)_
 
-- [x] <br>
+- [x] A
 
 ```python
 >>> dice = Game()
 >>> dice.roll()
 ```
 
-- [ ] <br>
+- [ ] B
 
 ```python
 >>> dice = Game(self)
 >>> dice.roll(self)
 ```
 
-- [ ] <br>
+- [ ] C
 
 ```python
 >>> dice = Game()
 >>> dice.roll(self)
 ```
 
-- [ ] <br>
+- [ ] D
 
 ```python
 >>> dice = Game(self)
@@ -463,7 +462,7 @@ def print_alpha_nums(abc_list, num_list):
 print_alpha_nums(['a', 'b', 'c'], [1, 2, 3])
 ```
 
-- [x] <br>
+- [x] A
 
 ```python
 a 1
@@ -477,13 +476,13 @@ c 2
 c 3
 ```
 
-- [ ] <br>
+- [ ] B
 
 ```python
 ['a', 'b', 'c'], [1, 2, 3]
 ```
 
-- [ ] <br>
+- [ ] C
 
 ```python
 aaa
@@ -494,7 +493,7 @@ ccc
 333
 ```
 
-- [ ] <br>
+- [ ] D
 
 ```python
 a 1 2 3
@@ -504,7 +503,7 @@ c 1 2 3
 
 #### Q36. Pick correct representation of doctest for function in Python.
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def sum(a, b):
@@ -515,7 +514,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def sum(a, b):
@@ -528,7 +527,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 def sum(a, b):
@@ -542,7 +541,7 @@ def sum(a, b):
     return a + b
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def sum(a, b):
@@ -590,7 +589,7 @@ from collections import namedtuple
     200
 ```
 
-(Reference](https://www.geeksforgeeks.org/namedtuple-in-python/?ref=lbp)
+[Reference](https://www.geeksforgeeks.org/namedtuple-in-python/?ref=lbp)
 
 #### Q39. What symbol(s) do you use to assess equality between two elements?
 
@@ -723,37 +722,37 @@ t1 = test()
 
 #### Q53. What is the correct syntax for defining an `__init__()` method that takes no parameters?
 
-- [ ] <br>
+- [ ] :
 
 ```python
 class __init__(self):
     pass
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def __init__():
     pass
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 class __init__():
     pass
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 def __init__(self):
     pass
 ```
 
-#### Q54. Which of the following is TRUE About how numeric data would be organised in a binary Search tree?
+#### Q54. Which of the following is TRUE About how numeric data would be organised in a Binary Search Tree?
 
-- [x] For any given Node in a binary Search Tree, the child node to the left is less than the value of the given node and the child node to its right is greater than the given node.
+- [x] For any given node in a binary search tree, the value of the node is greater than all the values in the node's left subtree and less than the ones in its right subtree.
 - [ ] Binary Search Tree cannot be used to organize and search through numeric data, given the complication that arise with very deep trees.
 - [ ] The top node of the binary search tree would be an arbitrary number. All the nodes to the left of the top node need to be less than the top node's number, but they don't need to ordered in any particular way.
 - [ ] The smallest numeric value would go in the top most node. The next highest number would go in its left child node, the the next highest number after that would go in its right child node. This pattern would continue until all numeric values were in their own node.
@@ -774,7 +773,7 @@ def __init__(self):
 
 #### Q57. What is the most self-descriptive way to define a function that calculates sales tax on a purchase?
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def tax(my_float):
@@ -782,21 +781,21 @@ def tax(my_float):
     pass
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def tx(amt):
     '''Gets the tax on an amount.'''
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def sales_tax(amount):
     '''Calculates the sales tax of a purchase. Takes in a float representing the subtotal as an argument and returns a float representing the sales tax.'''
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 def calculate_sales_tax(subtotal):
@@ -914,28 +913,28 @@ def calculate_sales_tax(subtotal):
 
 #### Q71. What is the correct syntax of creating an instance method?
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def get_next_card():
   # method body goes here
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 def get_next_card(self):
   # method body goes here
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def self.get_next_card():
   # method body goes here
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def self.get_next_card(self):
@@ -983,7 +982,7 @@ my_list = ['kiwi', 'apple', 'banana']
 
 #### Q77. Which choice is the most syntactically correct example of the conditional branching?
 
-- [x] <br>
+- [x] :
 
 ```python
 num_people = 5
@@ -996,7 +995,7 @@ else:
     print("There is no one in the pool.")
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 num_people = 5
@@ -1009,7 +1008,7 @@ else:
     print("There is no one in the pool.")
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 num_people = 5
@@ -1022,7 +1021,7 @@ else;
     print("There is no one in the pool.")
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 if num_people > 10;
@@ -1065,7 +1064,7 @@ while i<6:
 
 #### Q81. What is the correct syntax for defining an `__init__()` method that sets instance-specific attributes upon creation of a new class instance?
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1073,7 +1072,7 @@ def __init__(self, attr1, attr2):
     attr2 = attr2
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def __init__(attr1, attr2):
@@ -1081,7 +1080,7 @@ def __init__(attr1, attr2):
     attr2 = attr2
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 def __init__(self, attr1, attr2):
@@ -1089,7 +1088,7 @@ def __init__(self, attr1, attr2):
     self.attr2 = attr2
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 def __init__(attr1, attr2):
@@ -1110,7 +1109,7 @@ def count_recursive(n=1):
     count_recursive(n + 1)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 1
@@ -1121,7 +1120,7 @@ def count_recursive(n=1):
 3
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 3
@@ -1129,7 +1128,7 @@ def count_recursive(n=1):
 1
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 3
@@ -1140,7 +1139,7 @@ def count_recursive(n=1):
 1
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 1
@@ -1294,26 +1293,26 @@ import math
 print(math.pow(2,10)) # prints 2 elevated to the 10th power
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 print(2^10)
 ```
 
-- [x] <br>
+- [x] :
 
 ```python
 print(2**10)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 y = [x*2 for x in range(1,10)]
 print(y)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 y = 1
@@ -1379,9 +1378,8 @@ print (f"The number is {number}")
 - [ ] `append('a')`
 - [ ] `read('r')`
 
-[Reference](https://docs.python.org/3/library/functions.html#open)
-
-[Reference](https://www.w3schools.com/python/ref_list_append.asp)
+1. [Reference](https://docs.python.org/3/library/functions.html#open)
+2. [Reference](https://www.w3schools.com/python/ref_list_append.asp)
 
 #### Q101. NumPy allows you to multiply two arrays without a for loop. This is an example of \_.
 
@@ -1505,7 +1503,7 @@ def be_friendly(greet = "How are you!", name):
 
 #### Q112. Given that NumPy is imported as `np`, which choice will return `True`?
 
-- [x] <br>
+- [x] :
 
 ```python
 a = np.zeros([3,4])
@@ -1513,7 +1511,7 @@ b = a.copy()
 np.array_equal(a,b)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 a = np.empty([3,4])
@@ -1521,7 +1519,7 @@ b = np.empty([3,4])
 np.array_equal(a,b)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 a = np.zeros([3,4])
@@ -1529,7 +1527,7 @@ b = np.zeros([4,3])
 np.array_equal(a,b)
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```python
 a = np.array([1, np.nan])
@@ -1653,7 +1651,7 @@ myFunction("")
 myFunction()
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```
 Hello, I am from Spain
@@ -1661,7 +1659,7 @@ Hello, I am from
 Hello, I am from
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```
 Hello, I am from France
@@ -1669,7 +1667,7 @@ Hello, I am from France
 Hello, I am from France
 ```
 
-- [x] <br>
+- [x] :
 
 ```
 Hello, I am from Spain
@@ -1677,7 +1675,7 @@ Hello, I am from
 Hello, I am from France
 ```
 
-- [ ] <br>
+- [ ] :
 
 ```
 Hello, I am from Spain
@@ -1717,7 +1715,7 @@ actors = ["Downey", "Holland", "Evans"]
 
 - [ ] `[(x,y)] for x in characters for y in actors]`
 - [x] `zip(characters, actors)`
-- [ ] <br>
+- [ ]
 
 ```python
 d = {}
@@ -1874,10 +1872,12 @@ b = a[50:60:2]
 
 #### Q141. Assume you have a non-empty list named _mylist_ and you want to search for a specific value. The minimum number of comparison will be \_**_ and the maximum number of comparison will be _**?
 
-- [x] `len(mylist); len(mylist)`
-- [ ] `1; len(mylist)`
+- [ ] `len(mylist); len(mylist)`
+- [x] `1; len(mylist)`
 - [ ] `2; len(mylist)`
 - [ ] `0; len(mylist)`
+
+**Explanation:** Can use a break statement and the value being searched can be the first element of the list, given that it is non-empty.
 
 #### Q142. If a function does not have a return statement, what does it really return?
 
@@ -1935,61 +1935,150 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 
 #### Q147. Which snippet of code will print My name is Joffrey, son of Robert?
 
-- [ ] ```
-      class Father():
-         name = 'Robert'
+- [ ] :
 
-      class Person(Father):
-         def __init__(self, name):
-             self.fathername = super.name
-             self.name = name
+```
+          class Father():
+             name = 'Robert'
 
-         def introduce(self):
-             print("My name is", self.name, "son of", self.fathername)
+          class Person(Father):
+             def __init__(self, name):
+                 self.fathername = super.name
+                 self.name = name
 
-      king = Person("Joffrey")
-      king.introduce()
-      ```
-- [x]     ```
+             def introduce(self):
+                 print("My name is", self.name, "son of", self.fathername)
+
+          king = Person("Joffrey")
+          king.introduce()
+
+```
+
+- [x] :
+
+```
   class Father():
   name = 'Robert'
   class Person(Father):
   def **init**(self, name):
   self.fathername = self.name
   self.name = name
-        def introduce(self):
-            print("My name is", self.name, "son of", self.fathername)
+  def introduce(self):
+  print("My name is", self.name, "son of", self.fathername)
 
   king = Person("Joffrey")
   king.introduce()
-  ```
 
-  ```
-- [ ]     ```
+```
+
+- [ ] :
+
+```
   class Father():
   name = 'Robert'
   class Person(Father):
   def **init**(self, name):
   self.name = name
-        def introduce(self):
-            print("My name is", self.name, "son of", super.name)
+  def introduce(self):
+  print("My name is", self.name, "son of", super.name)
 
   king = Person("Joffrey")
   king.introduce()
-  ```
 
-  ```
-- [ ] ```
-       class Father():
-           name = 'Robert'
+```
 
-       class Person(Father):
-           def __init__(self, name):
-               self.name = name
+- [ ] :
 
-           def introduce(self):
-               print("My name is", self.name, "son of", base.name)
+```
+           class Father():
+               name = 'Robert'
 
-       king = Person("Joffrey")
-       king.introduce()
-      ```
+           class Person(Father):
+               def __init__(self, name):
+                   self.name = name
+
+               def introduce(self):
+                   print("My name is", self.name, "son of", base.name)
+
+           king = Person("Joffrey")
+           king.introduce()
+
+```
+
+#### Q148.
+
+```
+animals = {
+    'a': ['ant', 'antelope', 'armadillo'],
+    'b': ['beetle', 'bear', 'bat'],
+    'c': ['cat', 'cougar', 'camel']
+}
+
+animals = defaultdict(list, animals)
+
+print(animals['b'])
+print(animals['d'])
+```
+
+- [x] A
+
+```
+      ['beetle', 'bear', 'bat']
+      []
+```
+
+- [ ] B
+
+```
+      ['beetle', 'bear', 'bat']
+      # an exception will be thrown
+```
+
+- [ ] C
+
+```
+      ['beetle', 'bear', 'bat']
+      None
+```
+
+- [ ] D
+
+```
+      ['bat', 'bear', 'beetle']
+      []
+```
+
+**Explanation:** Dictionaries usually result in an exception when using the square bracket syntax. Defaultdict here returns a default value dedicated by the first parameter so instead of throwing an exception, they return the default. Note that this needs to be imported as follows: `from collections import defaultdict`
+
+[Reference](https://www.geeksforgeeks.org/defaultdict-in-python/)
+
+#### Q149. What will this line of code return? (Assume n is already defined as any positive integer value.)
+
+```
+[x*2 for x in range(1,n)]
+```
+- [x] a list with all the even numbers less than 2*n
+- [ ] a dictionary with all the even numbers less than 2*n
+- [ ] a list with all the odd numbers less than 2*n
+- [ ] a list with all the even numbers less than or equal to 2*n
+
+[Reference](https://www.w3schools.com/python/ref_func_range.asp)
+
+#### Q150. What does this code print in the console?
+
+```
+x = 18
+
+if x > 10:
+	if x > 15:
+		print('A')
+	else:
+		print('B')
+else:
+	print('C')
+
+```
+- [ ] C
+- [ ] A  B
+- [ ] B
+- [x] A

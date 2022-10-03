@@ -56,7 +56,7 @@
 - [ ] to visualize queue length
 - [ ] to fulfill a commitment to quality
 
-[Source](https://www.scaledagileframework.com/wsjf/) `Weighted Shortest Job First (WSJF) is a prioritization model used to sequence jobs (eg., Features, Capabilities, and Epics) to produce the maximum economic benefit. In a flow-based system, priorities are updated continuously to provide the best economic outcomes. Job sequencing, rather than individual job return on investment, produces the best result. To that end, WSJF is used to prioritize backlogs by calculating the relative CoD and job size (a proxy for the duration).`
+[Reference](https://www.scaledagileframework.com/wsjf/) `Weighted Shortest Job First (WSJF) is a prioritization model used to sequence jobs (eg., Features, Capabilities, and Epics) to produce the maximum economic benefit. In a flow-based system, priorities are updated continuously to provide the best economic outcomes. Job sequencing, rather than individual job return on investment, produces the best result. To that end, WSJF is used to prioritize backlogs by calculating the relative CoD and job size (a proxy for the duration).`
 
 #### Q9. You have classified the features in your backlog according to risk and value. Which features should the development team work on first?
 
@@ -65,7 +65,7 @@
 - [ ] high-value and low-risk
 - [ ] low-value and low-risk
 
-[Source](https://agilescrumguide.com/blog/files/tag-product-backlog---business-value-and-risk.html) `It is suggested that high business value, high-risk items are worked on first. While that may seem counterintuitive, the earlier this work is done, the sooner the team will move to mitigate the issues and unknowns—leading to a higher quality product. If there's a failure, it will occur early and relatively inexpensively.`
+[Reference](https://agilescrumguide.com/blog/files/tag-product-backlog---business-value-and-risk.html) `It is suggested that high business value, high-risk items are worked on first. While that may seem counterintuitive, the earlier this work is done, the sooner the team will move to mitigate the issues and unknowns—leading to a higher quality product. If there's a failure, it will occur early and relatively inexpensively.`
 
 #### Q10. In the Scaled Agile Framework, what is the role of Enablers?
 
@@ -137,7 +137,7 @@
 - [ ] A Kanban does not use a Definition of Done.
 - [ ] A Kanban shows the status of the work items.
 
-[Source](https://www.lucidchart.com/blog/kanban-vs-scrum#:~:text=Kanban%20vs%20scrum) `Explicit rule applies to scrum team's task board: tasks cannot be added to the scrum board in the middle of a sprint.`
+[Reference](https://www.lucidchart.com/blog/kanban-vs-scrum#:~:text=Kanban%20vs%20scrum) `Explicit rule applies to scrum team's task board: tasks cannot be added to the scrum board in the middle of a sprint.`
 
 #### Q20. The team complains that "things have been falling through the cracks lately." What should you do?
 
@@ -478,7 +478,7 @@
 - [ ] Velocity Confirmation
 
 `Sprint Retrospective: Reflect on the previous sprint, discuss what’s working well, what could be improved, and how to improve it to be more productive.`
-[Source](https://startinfinity.com/product-management-framework/scrum-sprint/sprint-review-vs-sprint-retrospective) `Sprint Review: Discuss what has been accomplished during the sprint and whether the sprint goal has been met.`
+[Reference](https://startinfinity.com/product-management-framework/scrum-sprint/sprint-review-vs-sprint-retrospective) `Sprint Review: Discuss what has been accomplished during the sprint and whether the sprint goal has been met.`
 
 #### Q68. Which choice best describes an Agile Release Train (ART)?
 
@@ -515,7 +515,7 @@
 - [ ] The stakeholders are ready to discuss their requirements for story.
 - [ ] The team has completed sprint 0 and is ready to work.
 
-[Source](https://www.scruminc.com/definition-of-ready/) `Definition of Ready means that stories must be immediately actionable. The Team must be able to determine what needs to be done and the amount of work required to complete the User Story.`
+[Reference](https://www.scruminc.com/definition-of-ready/) `Definition of Ready means that stories must be immediately actionable. The Team must be able to determine what needs to be done and the amount of work required to complete the User Story.`
 
 #### Q73. Which is NOT a principle of the Scaled Agile Framework?
 
@@ -547,7 +547,7 @@
 - [ ] Courage
 - [ ] Sustainable pace
 
-[Source](https://www.planview.com/resources/guide/lean-principles-101/what-is-lean/#:~:text=The%20Pillars%20of%20Lean) `Two pillars are (1) Continuous Improvement, and (2) Respect for People.`
+[Reference](https://www.planview.com/resources/guide/lean-principles-101/what-is-lean/#:~:text=The%20Pillars%20of%20Lean) `Two pillars are (1) Continuous Improvement, and (2) Respect for People.`
 
 #### Q77. Which statement best describes Agile, Lean, and Six Sigma?
 
@@ -556,7 +556,9 @@
 - [ ] They are strategies for discovering what the customer wants.
 - [ ] They are derived from statistical process control.
 
-[Reference](https://agilemanifesto.org/principles) - First paragraph clearly points out that Agile is about delivering value to the customer. [Lean](https://en.wikipedia.org/wiki/Lean_software_development) is a subset of the Agile community and [Six Sigma](https://en.wikipedia.org/wiki/Six_Sigma) is Agile applied to manufacturing.
+1. [Reference](https://agilemanifesto.org/principles) - First paragraph clearly points out that Agile is about delivering value to the customer.
+2. [Lean](https://en.wikipedia.org/wiki/Lean_software_development) is a subset of the Agile community and
+3. [Six Sigma](https://en.wikipedia.org/wiki/Six_Sigma) is Agile applied to manufacturing.
 
 #### Q78. What is a user story?
 
@@ -586,7 +588,7 @@
 - [ ] The development team's strengths and weaknesses.
 - [x] The business context for the product.
 
-[Source](https://premieragile.com/how-does-a-product-owner-measure-value) `A Scrum Team has 3 roles - Product Owner, Scrum Master and Developers. All 3 roles generate Value in their own contexts; however, it is the Product Owner who maximizes the Value from a product or business context.`
+[Reference](https://premieragile.com/how-does-a-product-owner-measure-value) `A Scrum Team has 3 roles - Product Owner, Scrum Master and Developers. All 3 roles generate Value in their own contexts; however, it is the Product Owner who maximizes the Value from a product or business context.`
 
 #### Q82. Which statement about the Agile Manifesto is true?
 
@@ -683,7 +685,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] generalizing specialist
 - [ ] apprentice developer
 
-[Source](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of “T-shaped” people. This can also be described as a cross-functionality.`
+[Reference](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of “T-shaped” people. This can also be described as a cross-functionality.`
 
 #### Q95. What is a lean canvas?
 
@@ -692,7 +694,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] It is a tool to plan future project releases
 - [ ] It is a technique for projecting growth in market share.
 
-[Source](http://ask.leanstack.com/en/articles/901274-what-is-a-lean-canvas) `1-page business plan template that helps you deconstruct your idea into its key assumptions using 9 basic building blocks.`
+[Reference](http://ask.leanstack.com/en/articles/901274-what-is-a-lean-canvas) `1-page business plan template that helps you deconstruct your idea into its key assumptions using 9 basic building blocks.`
 
 #### Q96. The team is not going to complete its Sprint Commitment. As Team Facilitator, what should you do?
 
@@ -701,7 +703,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] report this at the Sprint Review
 - [x] Ask the PO to extend the sprint
 
-[Source](https://mcqpoint.com/question/what-happens-when-all-the-sprint-items-cannot-be-completed/) `non verified answer - extend, otherwise goes to backlog`
+[Reference](https://mcqpoint.com/question/what-happens-when-all-the-sprint-items-cannot-be-completed/) `non verified answer - extend, otherwise goes to backlog`
 
 #### Q97. Which of these traits is most important for being an effective Team Facilitator?
 
@@ -710,7 +712,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] having type A personality (def not this :P)
 - [ ] being someone who takes charge
 
-[Source](https://www.globalknowledge.com/us-en/course/87262/agile-team-facilitation-icp-atf/) `non verified answer - A facilitator is someone who helps a group identify common objectives and then offers group processes to achieve defined outcomes while maintaining neutrality. A skilled facilitator consciously embodies self-awareness, self-management, and bias management, while conveying openness and enthusiasm. `
+[Reference](https://www.globalknowledge.com/us-en/course/87262/agile-team-facilitation-icp-atf/) `non verified answer - A facilitator is someone who helps a group identify common objectives and then offers group processes to achieve defined outcomes while maintaining neutrality. A skilled facilitator consciously embodies self-awareness, self-management, and bias management, while conveying openness and enthusiasm. `
 
 #### Q98. When is the best time to update the team's burndown chart?
 
@@ -775,7 +777,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] Product Increment
 - [x] Program Increment
 
-[Source](https://www.scaledagileframework.com/program-increment/) `A Program Increment (PI) is a timebox during which an Agile Release Train (ART) delivers incremental value in the form of working, tested software and systems. PIs are typically 8 – 12 weeks long.`
+[Reference](https://www.scaledagileframework.com/program-increment/) `A Program Increment (PI) is a timebox during which an Agile Release Train (ART) delivers incremental value in the form of working, tested software and systems. PIs are typically 8 – 12 weeks long.`
 
 #### Q107. How an you improve interaction between team members?
 
@@ -812,7 +814,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [x] Ask all meeting participants what they want to do about the one person's absence
 - [ ] Reschedule the meeting for when all necessary people can attend
 
-#### Q112. As the Scrum Master, you've observed that team members are more comforatble communicating via instant messaging than through direct converstaion. How can you encourange conversation between team members?
+#### Q112. As the Scrum Master, you've observed that team members are more comforatble communicating via instant messaging than through direct conversions. How can you encourage conversation between team members?
 
 - [ ] Move people's workstation around in the team room to create new social possibilities.
 - [x] Since no one has come to you with a complaint, assume that the limited conversation works for everyone.

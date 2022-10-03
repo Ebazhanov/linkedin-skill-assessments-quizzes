@@ -288,28 +288,28 @@ var indexCollection = function(db) {return co(function*() {...});};
 
 #### Q41. Which Cypher code executes the multiquery block?
 
-- [ ]
+- [ ] A
 
 ```
 MATCH (c:Company {name: 'Neo4j'}) RETURN c, MATCH (p:Person) WHERE p.name = 'Jennifer' RETURN p,
 MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 ```
 
-- [ ]
+- [ ] B
 
 ```
 MATCH (c:Company {name: 'Neo4j'}) RETURN c, MATCH (p:Person) WHERE p.name = 'Jennifer' RETURN p,
 MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type
 ```
 
-- [ ]
+- [ ] C
 
 ```
 MATCH (c:Company {name: 'Neo4j'}) RETURN c AND MATCH (p:Person) WHERE p.name = 'Jennifer' RETURN p,
 AND MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;
 ```
 
-- [ ]
+- [ ] D
 
 ```
 MATCH (c:Company {name: 'Neo4j'}) RETURN c;MATCH (p:Person) WHERE p.name = 'Jennifer' RETURN p;

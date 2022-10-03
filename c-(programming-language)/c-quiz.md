@@ -977,3 +977,30 @@ typedef struct{
     int y;
 } coord;
 ```
+
+#### Q64. What is the output of the below program?
+
+```c
+#include <stdio.h>
+#if X == 3
+    #define Y 3
+#else
+    #define Y 5
+#endif
+ 
+int main()
+{
+    printf("%d", Y);
+    return 0;
+}
+```
+- [ ] 3
+- [x] 5
+- [ ] 3 or 5 depending on input
+- [ ] Compile time error
+
+#### Q65. What do the functions malloc() and calloc() allocate?
+- [ ] reallocatged memory
+- [ ] static memeory
+- [x] dynamic memory
+- [ ] fragmented memory

@@ -186,6 +186,11 @@
 - [ ] Azure SQL Database
 - [ ] SQL Managed Instance
 
+**Explanation:** For many businesses and applications, creating individual databases and scaling performance up or down as needed is sufficient, especially when usage patterns are relatively predictable. Unpredictable usage patterns can make it difficult to manage costs and your business model. Elastic pools aim to solve this problem. Performance resources are allocated to a pool, not to a single database. You pay for the collective performance resources of the pool, not for the performance of a single database.
+
+1. [Reference](https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings?tabs=csharp)
+2. [Reference](https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview?view=azuresql)
+
 #### Q25. Your photo app hosted in Azure records user operations in a log for historical reference. Records must not be overwritten. Which storage type should you select to host log data?
 
 - [x] append blob
@@ -416,12 +421,14 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 
 #### Q54. You are selecting a cloud messaging solution for your multimedia news app. The app routes news items to the appropriate services for processing and delivery to subscribers. Requirements for the solution are as follows: Events should be routed to the appropriate service to process event; events must be routed to multiple services when necessary; and only relevant events should be routed to a service for processing. Which solution should you use?
 
-- [ ] Event Grid
+- [x] Event Grid
 - [ ] Service Bus
 - [ ] Event Hub
-- [x] Queue Storage
+- [ ] Queue Storage
 
-![ref](https://www.coursehero.com/file/108745862/Untitled2png/)
+**Explanation:** Event Grid is a highly scalable serverless event broker that lets you integrate applications using events. Events are delivered from Event Grid to subscriber destinations such as applications, Azure services, or any endpoint that Event Grid has network access to. The source of these events can be other applications, SaaS services, and Azure services.
+
+[Ref](https://learn.microsoft.com/en-us/azure/event-grid/overview)
 
 #### Q55. You need to create an application in Azure Active Direcotry representing the Kineteco Web App so you can assign directory permission to the app. To create the application identity, which command will you run?
 

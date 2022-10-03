@@ -79,8 +79,7 @@ The Microphone class saves captured audio as an audio clip asset, which may then
 - [ ] Inches
 - [x] Meters
 
-Unity's default units are in meters (Unreal Engine too). If you keep this in mind and model with your units alined to meters, the lighting system will work minimal artifacting.
-[Reference](https://docs.unity3d.com/2019.3/Documentation/Manual/BestPracticeMakingBelievableVisuals1.html)
+[Reference](https://docs.unity3d.com/2019.3/Documentation/Manual/BestPracticeMakingBelievableVisuals1.html)Unity's default units are in meters (Unreal Engine too). If you keep this in mind and model with your units alined to meters, the lighting system will work minimal artifacting.
 
 #### Q10. The Collaborate feature of Unity Teams empowers whom to do what?
 
@@ -182,8 +181,7 @@ Unity's default units are in meters (Unreal Engine too). If you keep this in min
 - [ ] Group as many UI elements as possible onto only one canvas
 - [ ] Divide the screen into multiple canvas objects, each sized to a quarter of the screen size
 
-Every time an element on a canvas is updated, the whole canvas is redrawn. If elements are never being updated, keeping them on a single canvas is ideal.
-[Reference](https://unity.com/how-to/unity-ui-optimization-tips)
+[Reference](https://unity.com/how-to/unity-ui-optimization-tips) Every time an element on a canvas is updated, the whole canvas is redrawn. If elements are never being updated, keeping them on a single canvas is ideal.
 
 #### Q24. What does the C# Space attribute used below achieved?
 
@@ -195,8 +193,7 @@ Every time an element on a canvas is updated, the whole canvas is redrawn. If el
 - [x] It inserts 20 pixels of empty space above the variable inside the Object Inspector
 - [ ] It inserts 20 pixels of empty space below the variable inside the Object Inspector
 
-This is a great way to customize your inspector without writing a new inspector script for it.
-[Reference](https://docs.unity3d.com/ScriptReference/SpaceAttribute.html)
+[Reference](https://docs.unity3d.com/ScriptReference/SpaceAttribute.html) This is a great way to customize your inspector without writing a new inspector script for it.
 
 #### Q25. Every time you double-click a C# script file from the Project window, Unity prints the message below (or something very similar) to the console. What is a reasonable step in trying to solve this? Cannot start process because a file name has not been provided
 
@@ -226,8 +223,7 @@ This is a great way to customize your inspector without writing a new inspector 
 - [ ] AnimationInfo
 - [ ] AnimatorUtility
 
-`OnStateMachineEnter()` and `OnStateMachineExit()` are the methods of the StateMachineBehavior class that handle this. AnimatorClipInfo displays information about the current clip being played, AnimatiorUtility deals with transform hierarchy, and AnimationInfo was removed in version 5.0.
-[Reference](https://docs.unity3d.com/ScriptReference/StateMachineBehaviour.html)
+[Reference](https://docs.unity3d.com/ScriptReference/StateMachineBehaviour.html) `OnStateMachineEnter()` and `OnStateMachineExit()` are the methods of the StateMachineBehavior class that handle this. AnimatorClipInfo displays information about the current clip being played, AnimatiorUtility deals with transform hierarchy, and AnimationInfo was removed in version 5.0.
 
 #### Q29. How can you change the unique bundle identifier for a mobile build?
 
@@ -344,8 +340,7 @@ Quaternion.Euler converts the Euler number provided to the internally used Quart
 - [ ] It deletes the specified game object when the application terminates
 - [ ] It deletes the specified game object immidaitely
 
-> The object obj is destroyed immediately after the current Update loop, or t seconds from now if a time is specified.
-> [Reference](https://docs.unity3d.com/ScriptReference/Object.Destroy.html)
+[Reference](https://docs.unity3d.com/ScriptReference/Object.Destroy.html)`The object obj is destroyed immediately after the current Update loop, or t seconds from now if a time is specified.`
 
 #### Q42. You can programmatically control audio effects, like Pitch and Reverb, from C# scripts using which feature of an Audio Mixer asset?
 
@@ -354,8 +349,7 @@ Quaternion.Euler converts the Euler number provided to the internally used Quart
 - [ ] ParamEQ
 - [ ] Audio Mixer groups
 
-Audio attenuation is about energy loss, commonly refered to as "gain". ParamEQ allows you to change the frequency of the audio - "pitch", with no C# support. Audio Mixer groups do allow you to control audio effects, but not through C#.
-[Official Unity Tutorial:](https://www.youtube.com/watch?v=9tqi1aXlcpE)
+[Official Unity Tutorial:](https://www.youtube.com/watch?v=9tqi1aXlcpE)`Audio attenuation is about energy loss, commonly refered to as "gain". ParamEQ allows you to change the frequency of the audio - "pitch", with no C# support. Audio Mixer groups do allow you to control audio effects, but not through C#.`
 
 #### Q43. Multiple animations may be mixed together on a single character, selectively on different limbs. Which Mecanim feature supports this?
 
@@ -364,8 +358,7 @@ Audio attenuation is about energy loss, commonly refered to as "gain". ParamEQ a
 - [ ] StateMachineBehaviour scripts
 - [ ] animation events
 
-Mip Maps are a technique that improves image quality and reduces rendering speed, at the cost of storage space, by including smaller copies of the image in the same file. Animation events allow you to call functions at points in the timeline.
-[Reference](https://docs.unity3d.com/Manual/class-AvatarMask.html)
+[Reference](https://docs.unity3d.com/Manual/class-AvatarMask.html)`Mip Maps are a technique that improves image quality and reduces rendering speed, at the cost of storage space, by including smaller copies of the image in the same file. Animation events allow you to call functions at points in the timeline.`
 
 #### Q44. What does the PlayableDirector component allow you to do?
 
@@ -374,8 +367,7 @@ Mip Maps are a technique that improves image quality and reduces rendering speed
 - [x] control the playback of a timeline instance in the scene
 - [ ] record a gameplay session to a video file
 
-The PlayableDirector component stores the link between a Timeline instance and a Timeline Asset.
-[Reference](https://docs.unity3d.com/2019.2/Documentation/Manual/class-PlayableDirector.html)
+[Reference](https://docs.unity3d.com/2019.2/Documentation/Manual/class-PlayableDirector.html)`The PlayableDirector component stores the link between a Timeline instance and a Timeline Asset.`
 
 #### Q45. What does the Grid component do?
 
@@ -391,7 +383,7 @@ The PlayableDirector component stores the link between a Timeline instance and a
 - [ ] signals
 - [ ] packets
 
-EventSystem is not a timeline feature, neither are packets. Timeline signals are a subfeature of the markers, markers can directly initiate code, while a signal can only send the signal to a reciver.
+`EventSystem is not a timeline feature, neither are packets. Timeline signals are a subfeature of the markers, markers can directly initiate code, while a signal can only send the signal to a reciver.`
 
 1. [Reference](https://forum.unity.com/threads/new-in-2019-1-marker-customization.594712)
 2. [Reference](https://blog.unity.com/technology/how-to-create-custom-timeline-markers)
@@ -497,8 +489,7 @@ public class Health : MonoBehaviour
 - [ ] C When a scene begins or is restarted
 - [ ] D When the scene begins or restarts for a deactivated game object
 
-`Reset` is called when the user hits the Reset button in the Inspector's context menu or when adding the component the first time. This function is only called in editor mode.
-[Reference] https://docs.unity3d.com/ScriptReference/MonoBehaviour.Reset.html
+[Reference](https://docs.unity3d.com/ScriptReference/MonoBehaviour.Reset.html)`Reset` is called when the user hits the Reset button in the Inspector's context menu or when adding the component the first time. This function is only called in editor mode.
 
 #### Q50. Which C# attribute allows a class and its methods to run inside the editor during Edit mode?
 

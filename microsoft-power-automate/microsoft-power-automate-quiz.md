@@ -188,11 +188,11 @@
 
 #### Q25. You are automating this suggestion review process: When a new suggestion is added to an SharePoint list, a staffer emails every member of the review committee, asking them to approve the suggestion. The staffer updates SharePoint as replies are received. A suggestion is approved or rejected when at least four of the seven committee members have approved or rejected it. In addition to Start and Wait for an approval, which components will be needed for your flow?
 
-A. Send an email
-B. Parallel branch
-C. Delay until
-D. Approvals - start an approval
-E. SharePoint - when an item is created or modified
+    A. Send an email
+    B. Parallel branch
+    C. Delay until
+    D. Approvals - start an approval
+    E. SharePoint - when an item is created or modified
 
 - [ ] B,D
 - [ ] A,B,D,E

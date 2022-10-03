@@ -340,9 +340,9 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 ```
 
 - [ ] Link to the script directly from a template named page-contact.php, like this:
-- [ ] <head>
-- [ ] <script src="/my-script.js"></script>
-- [ ] </head>
+- [ ] `<head>`
+- [ ] `<script src="/my-script.js"></script>`
+- [ ] `</head>`
 
 #### Q39. Where can you find the official WordPress documentation and usage guide?
 
@@ -436,7 +436,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] disables the ability to edit core WordPress files from either within the WordPress admin or via direct file access
 - [ ] sets read-only permissions on all files in the WordPress install
 
-**Explanation**: [More WordPress Security: Disallow File Edit Setting In WordPress](https://www.icontrolwp.com/blog/more-wordpress-security-disallow-file-edit-setting-wordpress/). Setting all files to read-only would make auto-updates impossible.
+[More WordPress Security: Disallow File Edit Setting In WordPress](https://www.icontrolwp.com/blog/more-wordpress-security-disallow-file-edit-setting-wordpress/). Setting all files to read-only would make auto-updates impossible.
 
 #### Q51. Which of the following must have underlined links in order to meet WCAG 2.0 accessibility standards?
 
@@ -535,7 +535,7 @@ $title = $_POST[ 'title' ];
 - [ ] is_page_template()
 - [x] is_single()
 
-[Ref](https://developer.wordpress.org/reference/functions/is_single/)
+[Reference](https://developer.wordpress.org/reference/functions/is_single/)
 
 #### Q63. Wordpress core and many plugins store data in the database in a special format as represented by the sample below. What format is this called?
 
@@ -546,7 +546,7 @@ $title = $_POST[ 'title' ];
 - [ ] PHP array
 - [ ] text array
 
-[Ref](https://wpengine.com/support/wordpress-serialized-data/)
+[Reference](https://wpengine.com/support/wordpress-serialized-data/)
 
 #### Q64. What is this code sample an example of?
 
@@ -572,7 +572,7 @@ endif;
 - [ ] functions.php style.css script.js
 - [x] functions.php style.css
 
-[Ref](https://kinsta.com/blog/wordpress-child-theme/)
+[Reference](https://kinsta.com/blog/wordpress-child-theme/)
 
 #### Q66. You can harden your Wordpress site security by adding **\_** to your wp-config.php file?
 
@@ -581,7 +581,7 @@ endif;
 - [ ] custom action hooks and filters
 - [x] unique keys and salts
 
-[Ref](https://www.malcare.com/blog/how-to-secure-your-wordpress-site-with-wp-config-php/)
+[Reference](https://www.malcare.com/blog/how-to-secure-your-wordpress-site-with-wp-config-php/)
 
 #### Q67. In the WordPress template hierarchy, which file could not be used to display an archive?
 

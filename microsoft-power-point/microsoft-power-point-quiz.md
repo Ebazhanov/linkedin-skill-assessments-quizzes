@@ -697,3 +697,58 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [x] Textbox
 - [ ] Icon
 - [ ] 3D model
+
+#### Q91. Which view allows you to select individual objects on a slide?
+
+- [ ] Slide Sorter view
+- [ ] Slide Show view
+- [x] Normal view
+- [ ] Design view
+
+[Reference](https://support.microsoft.com/en-us/office/select-individual-objects-on-a-slide-c9c89522-65e1-40dd-a4b2-469c1b19adf8#:~:text=To%20select%20objects%20that%20are,the%20options%20that%20you%20want.)
+
+#### Q92. When in Slide Show view, what happens when you hold Ctrl (Windows) or Command (Mac) and click the left mouse button?
+
+- [x] You activate the laser pointer
+- [ ] You end the slide show
+- [ ] You toggle the mouse pointer on/off
+- [ ] You terminate animations
+
+[Reference](https://www.techrepublic.com/article/use-powerpoints-laser-pointer-to-catch-attention-and-add-excitement/#:~:text=To%20turn%20on%20the%20laser,turn%20on%20the%20laser%20pointer.)
+
+#### Q93. Which PowerPoint feature is best used to set up slide timings so slides automatically advance?
+
+- [ ] **Timing** on the **Animations** tab
+- [ ] **Advanced Animation** on the **Animations** tab
+- [ ] **Reharse Timings** on the **Slide Show** tab
+- [x] **Timing** on the **Transitions** tab
+
+[Reference](https://bluevalleyk12.libguides.com/c.php?g=140667&p=921228#:~:text=In%20Normal%20view%2C%20click%20the,to%20set%20the%20timing%20for.)
+
+#### Q94. You plan to distribute a presentation. In which format might you save it to ensure that it appears as an automatically playing slide show composed of individual slides, regarless of the recipients' platform or software applications?
+
+- [ ] PDF (.pdf)
+- [ ] PowerPoint Show (.ppsx)
+- [ ] OpenDocument Presentation (.odp)
+- [x] MPEG-4 Video (.mp4)
+
+#### Q95. Which type of illustration can be rotated while in Slide Show view, allowing the audience to see all sides of an image?
+
+- [ ] action button
+- [ ] animated image
+- [ ] icon
+- [x] 3D model
+
+#### Q96. You inserted audio into a presentation. Which two options must you enable for the audio to play throughout all slides and repeat until it is stopped?
+
+```
+A. Loop untill Stopped
+B. Play Across Slides
+C. Rewind after Playing
+D. Start When Clicked On
+```
+
+- [ ] B and C
+- [ ] C and D
+- [ ] B and D
+- [x] A and B

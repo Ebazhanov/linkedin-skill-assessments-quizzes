@@ -1254,9 +1254,8 @@ class TaxCalculator {
 
 **Note:** This code won't compile, broken code sample
 
-[Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
-
-[Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
+1. [Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
+2. [Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
 
 #### Q89. Which characteristic does not apply to instances of java.util.HashSet=
 
@@ -2022,3 +2021,26 @@ System.out.println(horses.get(1).trim());
 - [ ] " Sea Biscuit " will be printed.
 - [x] An IndexOutOfBoundsException will be thrown.
 - [ ] A NullPointerException will be thrown.
+
+#### Q140. Which data structure would you choose to associate the amount of rainfall with each month?
+
+- [ ] Vector
+- [ ] LinkedList
+- [x] Map
+- [ ] Queue
+
+> Explanation (from @yktsang01 in #3915 thread)
+
+> Map because map is a key/value pair without creating new classes/objects. So can store the rainfall per month like
+> `Map<java.time.Month, Double>`
+> The other options will most likely need some new class to be meaningful
+
+```java
+public class Rainfall {
+private java.time.Month month;
+private double rainfall;
+}
+Vector<Rainfall>
+LinkedList<Rainfall>
+Queue<Rainfall>
+```

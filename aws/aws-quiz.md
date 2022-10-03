@@ -822,3 +822,15 @@ aws ecs create-service \
 - [ ] Step Functions
 
 [Reference](https://aws.amazon.com/blogs/architecture/understanding-the-different-ways-to-invoke-lambda-functions)
+
+#### Q93.  If a single instance has failed to launch within 24 hours due to some issues during a set up of Auto-scaling. Then what will happen to the Auto-Scaling condition?
+- [ ] Auto Scaling will continue to launch the instance for straight 3 days
+- [x] The Auto Scaling group will be automatically terminated.
+- [ ] In a separate region Auto Scaling will start an instance
+- [ ] Auto Scaling will remove the scaling process
+
+#### Q94.  Point out the wrong statement.
+- [ ] Amazon Machine Instances are sized at various levels and rented on a computing/hour basis
+- [ ] The metrics obtained by CloudWatch may be used to enable a feature called Auto Scaling
+- [ ] A number of tools are used to support EC2 services
+- [x] None of the mentioned

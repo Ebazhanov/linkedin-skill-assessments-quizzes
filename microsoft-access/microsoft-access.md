@@ -141,7 +141,7 @@
 - [x] `IIf()`
 - [ ] `Choose()`
 
-https://support.microsoft.com/en-us/office/iif-function-32436ecf-c629-48a3-9900-647539c764e3
+[Reference](https://support.microsoft.com/en-us/office/iif-function-32436ecf-c629-48a3-9900-647539c764e3)
 
 #### Q17. The display for numerical data defaults to a **\_alignment, and text data defaults to **\_aligntment
 

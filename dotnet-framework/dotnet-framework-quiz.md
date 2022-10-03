@@ -542,3 +542,10 @@ Reference: [Compilation by the JIT compiler](https://docs.microsoft.com/en-us/do
 - [ ] Managed code is any code that does not depend on the common language runtime (CLR) for execution. Unmanaged code is code that is handled by the CLR.
 - [ ] Managed code is code that is handled by Microsoft Intermediate Language (MSIL). Unmanaged code is any code that does not depend on MSIL for execution.
 - [ ] Managed code is any code that does not depend on Microsoft Intermediate Language (MSIL) for execution. Unmanaged code is code that is handled by MSIL.
+
+#### Q72. Why use the Configure method of startup class?
+
+- [ ] It can be used to configure the application services.
+- [x] It can ensure that middleware runs before or after middleware added by libraries at the start or end of the app's request processing pipeline.
+- [ ] It can specify how the app respondes to HTTP requests.
+- [ ] It can specify how the app makes requests to HTTP.
