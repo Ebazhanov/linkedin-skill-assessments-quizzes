@@ -216,7 +216,7 @@
 
 #### Q31. If you check out a branch in Eclipse and still see the old code, what is one possible problem?
 
-- [ ] Your project is not using source control.
+- [x] Your project is not using source control.
 - [ ] Your internet connection is down.
 - [ ] Your Git passwordis incorrect.
 - [ ] You need to refresh your project.
