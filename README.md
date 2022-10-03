@@ -8,7 +8,7 @@
 [![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1096-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1097-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1547,6 +1547,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center"><a href="https://github.com/AADILcrackstheweb"><img src="https://avatars.githubusercontent.com/u/96214556?v=4?s=100" width="100px;" alt="Aadil Arsh.S.R"/><br /><sub><b>Aadil Arsh.S.R</b></sub></a><br /><a href="#design-AADILcrackstheweb" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=AADILcrackstheweb" title="Code">💻</a></td>
       <td align="center"><a href="http://nateonmission.github.io"><img src="https://avatars.githubusercontent.com/u/37854313?v=4?s=100" width="100px;" alt="J. Nathan Allen"/><br /><sub><b>J. Nathan Allen</b></sub></a><br /><a href="#design-nateonmission" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=nateonmission" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/lost-in-cyberspace"><img src="https://avatars.githubusercontent.com/u/32429264?v=4?s=100" width="100px;" alt="Kieran Krug"/><br /><sub><b>Kieran Krug</b></sub></a><br /><a href="#design-lost-in-cyberspace" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=lost-in-cyberspace" title="Code">💻</a></td>
+      <td align="center"><a href="https://seths10.github.io/main-portfolio/"><img src="https://avatars.githubusercontent.com/u/59029978?v=4?s=100" width="100px;" alt="Seth Addo"/><br /><sub><b>Seth Addo</b></sub></a><br /><a href="#design-seths10" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=seths10" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>
