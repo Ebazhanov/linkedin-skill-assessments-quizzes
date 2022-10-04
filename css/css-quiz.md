@@ -2123,3 +2123,116 @@ height: 100px;
 - [ ] one-sided, so that there is only one transition and it goes from the end state to the initial state.
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
+    
+#### Q135. Which style rule will extend the header element across an entire grid row from the first column through the last column?
+  
+- [ ] A
+```css
+header {
+  grid-column: 1/auto;
+}
+```
+- [x] B
+```css
+header {
+  grid-column: 1/-1;
+}
+```
+- [ ] C
+```css
+header {
+  grid-column: -1/1;
+}
+```
+- [ ] D
+```css
+header {
+  grid-column: 1/100%;
+}
+```
+  
+  [Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column)
+  
+#### Q136. What rule should you apply to the img element to display the element in grayscale with no color?
+  
+- [ ] A
+```css
+img {
+  transform: grayscale(1);
+}
+```
+- [ ] B
+```css
+img {
+  filter: grayscale(0);
+}
+```
+- [ ] C
+```css
+img {
+  transform: grayscale(0);
+}
+```
+- [x] D
+```css
+img {
+  filter: grayscale(1);
+}
+```
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/grayscale)
+
+#### Q137. To center the content of a grid cell horizontally and vertically within the cell, which style rule should you apply?
+  
+- [ ] A
+```css
+align-items: start;
+justify-items: end;
+```
+- [x] B
+```css
+align--items: center;
+justify-items: center;
+
+```
+- [ ] C
+```css
+align-items: middle;
+justify-items: middle;
+```
+- [ ] D
+```css
+align-items: stretch;
+justify-items: stretch
+```
+
+[Reference for align-items](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items) [Reference for justify-items](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items)
+  
+#### Q138. What style rule should you use to display all input elements that have failed the validation test with a red font?
+  
+- [ ] A
+```css
+input.valid[false] {
+  color: red;
+}
+```
+- [x] B
+```css
+input:invalid {
+  color: red;
+}
+```
+- [ ] C
+```css
+input.not(valid) {
+  color: red;
+}
+```
+- [ ] D
+```css
+input.invalid {
+  color: red;
+}
+```
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid)
