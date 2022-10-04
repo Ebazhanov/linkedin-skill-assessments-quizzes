@@ -810,9 +810,11 @@ aws ecs create-service \
 #### Q91. When creating a RESTful API into a DynamoDB table, which is the right service to facilitate this?
 
 - [ ] API Sync
-- [x] AppSync
+- [ ] AppSync
 - [ ] CloudAPI
-- [ ] API Gateway
+- [x] API Gateway
+
+[Reference](https://aws.amazon.com/blogs/compute/using-amazon-api-gateway-as-a-proxy-for-dynamodb/)
 
 #### Q92. Which AWS service is valid data source for AppSync?
 
