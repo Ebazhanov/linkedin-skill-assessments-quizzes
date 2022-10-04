@@ -504,6 +504,8 @@
 - [ ] The adjustment layer contains a layer mask that applies the adjustment only to the unselected pixels.
 - [ ] The adjustment layer contains a vector mask that applies the adjustment only to the selected pixels.
 
+[Reference under section titled 'Create and confine adjustment and fill layers'](https://helpx.adobe.com/photoshop/using/adjustment-fill-layers.html)
+
 #### Q65. Which filter is useful for removing lens distortion from JPEG photos based on lens-specific settings?
 
 - [ ] Adaptive Wide Angle
