@@ -482,6 +482,8 @@ public class Health : MonoBehaviour
 - [x] C Only humanoid characters feature bones
 - [ ] D The `Update` function is never called automatically while an object is deactivated
 
+[Reference](https://docs.unity3d.com/2017.3/Documentation/Manual/GenericAnimations.html)
+
 #### Q49. When is the `Reset` method of `MonoBehaviour` invoked automatially?
 
 - [ ] A When a game object moves from one scene to another
