@@ -1011,3 +1011,37 @@ int main()
 - [x] strstr(str1, str2);
 - [ ] substring(str1, str2);
 - [ ] strspn(str1, str2);
+#### Q67. Find the output of the program?
+
+```c
+#include <stdio.h>
+
+#define L 10
+int main(){
+    int a =10;
+    switch (a,a<<2){
+        case L:printf("a==L");     break;
+        case L*2 : printf("a = L* 2\n");     break;
+        case L*4 : printf("a = L* 4\n");    break;
+        default: printf("Error\n");
+    }
+}
+```
+- [ ] a=L*2
+- [ ] a=L
+- [ ] Error
+- [x] a=L*4
+
+[Reference](https://www.geeksforgeeks.org/left-shift-right-shift-operators-c-cpp/)
+
+#### Q68. Predict the output of the following code when the **interger** variables x is initialized to 10,y to 2 and z to 0.
+```c
+z = x + y * x + 10 / 2 * x;
+printf("value is =%d",z);
+```
+- [x] 80
+- [ ] 170
+- [ ] 31.5
+- [ ] 6
+
+[Reference](https://www.informit.com/articles/article.aspx?p=2062174&seqNum=4)
