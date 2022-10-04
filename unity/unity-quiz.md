@@ -479,8 +479,10 @@ public class Health : MonoBehaviour
 
 - [ ] A Coroutines will continue running on deactivated objects
 - [ ] B All component scripts inherit from `MonoBehaviour`
-- [ ] C Only humanoid characters feature bones
+- [x] C Only humanoid characters feature bones
 - [ ] D The `Update` function is never called automatically while an object is deactivated
+
+[Reference](https://docs.unity3d.com/2017.3/Documentation/Manual/GenericAnimations.html)
 
 #### Q49. When is the `Reset` method of `MonoBehaviour` invoked automatially?
 
