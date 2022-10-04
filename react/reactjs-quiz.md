@@ -1210,3 +1210,16 @@ ReactDom.render(<Message sent="false" />, document.getElementById('root'));
 ```javascript
 ReactDom.render(<Message sent="false" />, document.getElementById('root'));
 ```
+#### Q102. This code is part of an app that collects Pokemon. The useState hook below is a piece of state holding onto the names of the Pokemon collected so far. How would you access the collected Pokemon in state?
+
+```javascript
+const PokeDex = (props) => {
+  const [pokeDex, setPokeDex] = useState([]);
+  /// ...
+}
+```
+
+- [ ] props.pokeDex
+- [ ] this.props.pokeDex
+- [ ] setPokeDex()
+- [x] pokeDex
