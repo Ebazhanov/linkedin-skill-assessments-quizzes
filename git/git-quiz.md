@@ -1053,7 +1053,7 @@ Untracked files:
 - [ ] `git clean -f`
 - [ ] `git clean`
 - [ ] `git remove .`
-  
+
 #### Q130. What command can you use to remove untracked files from the working directory?
 
 - [ ] `git rm -all`
@@ -1083,13 +1083,15 @@ Untracked files:
   git commit --patch --no-edit
   ```
 
- #### Q132. Which command would remove a file named wrongfile from the current branch of a  repository, the index, and working files?
+#### Q132. Which command would remove a file named wrongfile from the current branch of a repository, the index, and working files?
 
- - [ ] ⠀
-  ```bash
-  git rm wrongfile
-  git commit -m "Removed file"
-  ```
+- [ ] ⠀
+
+```bash
+git rm wrongfile
+git commit -m "Removed file"
+```
+
 - [ ] ⠀
   ```bash
   git forget -rf wrongfile

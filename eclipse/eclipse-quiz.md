@@ -265,7 +265,7 @@
 
 #### Q38. When an assert fails where can you view the expected value as compared with the actual value?
 
-- [x] in the Failure Trace section of the JUnit view 
-- [ ] in the Debug view 
+- [x] in the Failure Trace section of the JUnit view
+- [ ] in the Debug view
 - [ ] in the console
 - [ ] in the Outline view

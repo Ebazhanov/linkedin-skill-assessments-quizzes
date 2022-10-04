@@ -337,7 +337,7 @@
 #### Q39. Which is not an example of a reason that a shape designer might use sets of shapes grouped together to create a more sophisticated appearance or behavior?
 
 - [x] to display text in multiple places on the shape
-- [ ] to protect the alignment of subshapes within the group 
+- [ ] to protect the alignment of subshapes within the group
 - [ ] to prevent different parts of the shape from responding differently to external changes
 - [ ] to display different colors on different parts of the grouped shape
 

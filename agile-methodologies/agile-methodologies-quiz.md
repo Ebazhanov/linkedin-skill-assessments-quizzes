@@ -830,8 +830,9 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 #### Q114. Which statement about the actor in a user story can be true?
 
-- [ ] There must be multiple personas for each actor. 
+- [ ] There must be multiple personas for each actor.
 - [ ] The actor does not have to be a specified role in the solution.
 - [ ] The system cannot be the actor.
-- [x] The actor can be the system itself. 
+- [x] The actor can be the system itself.
+
 [Reference](https://tcagley.wordpress.com/2015/03/31/the-difference-between-a-persona-and-an-actor/) Actors can be a person, group, or system(s).

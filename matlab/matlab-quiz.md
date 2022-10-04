@@ -1028,7 +1028,6 @@ s="abcd"; s(3)='x'
 - [x] a 1x 3 string array
 - [ ] a run-time error
 
-
 #### Q71. In which case would you use varargin in a function you write?
 
 - [ ] You want to count the number of input arguments.

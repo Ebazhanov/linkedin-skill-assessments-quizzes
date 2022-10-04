@@ -1356,7 +1356,7 @@ sprite->x
 - [ ] The compiler needs the data type to make sure that the pointer is not going to be used on illegal non-pointable types such as functions, labels, pointers, and references.
 - [ ] The compiler needs the data type to know how much memory to allocate for the pointer, because different data types require different pointer lenghts.
 
-#### Q82. The default executable generation on UNIX for a C++ program is ___
+#### Q82. The default executable generation on UNIX for a C++ program is \_
 
 - [ ] a.exe
 - [ ] a

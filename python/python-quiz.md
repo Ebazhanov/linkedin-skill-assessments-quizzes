@@ -2057,10 +2057,11 @@ print(animals['d'])
 ```
 [x*2 for x in range(1,n)]
 ```
-- [x] a list with all the even numbers less than 2*n
-- [ ] a dictionary with all the even numbers less than 2*n
-- [ ] a list with all the odd numbers less than 2*n
-- [ ] a list with all the even numbers less than or equal to 2*n
+
+- [x] a list with all the even numbers less than 2\*n
+- [ ] a dictionary with all the even numbers less than 2\*n
+- [ ] a list with all the odd numbers less than 2\*n
+- [ ] a list with all the even numbers less than or equal to 2\*n
 
 [Reference](https://www.w3schools.com/python/ref_func_range.asp)
 
@@ -2078,11 +2079,11 @@ else:
 	print('C')
 
 ```
+
 - [ ] C
-- [ ] A  B
+- [ ] A B
 - [ ] B
 - [x] A
-
 
 #### Q151. Suppose you have a variable named vector of type np.array with 10.000 elements. How can you turn vector into a variable named matrix with dimensions 100x100?
 
@@ -2090,4 +2091,4 @@ else:
 - [ ] matrix = vector.to_matrix(100,100)
 - [ ] matrix = (vector.shape = (100,100))
 - [x] matrix = vector.reshape(100,100)
-Exa
+      Exa

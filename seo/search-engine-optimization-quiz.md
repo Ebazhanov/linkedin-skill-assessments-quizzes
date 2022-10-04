@@ -591,10 +591,10 @@
 - [ ] to bundle meta tags
 - [ ] to describe images
 - [ ] to assign schema markup
-    
+
 #### Q73. Which tool would be best to use to research how many searches per month a term gets?
 
 - [ ] Google Search Console
 - [ ] Google Suggest
-- [X] Google Keyword Planner
+- [x] Google Keyword Planner
 - [ ] Google Tag Manager
