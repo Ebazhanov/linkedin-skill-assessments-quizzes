@@ -731,3 +731,17 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [x] In paragraph settings, click Line and Page Break > pagination and select Keep with next
 - [ ] In paragraph settings, click Line and Page Break > pagination and select keep lines together
 - [ ] In paragraph settings, click Line and Page Break > pagination and select Widow/Orphan control
+
+#### Q94. Double clicking in the left margin will _____________ the paragraph to the right.
+
+- [ ] double indent
+- [x] select
+- [ ] delete
+- [ ] underline
+
+#### Q95. When using Track Changes, what formatting indicates that text has been deleted?
+
+- [x] strikethrough
+- [ ] wavy line
+- [ ] italic
+- [ ] underline
