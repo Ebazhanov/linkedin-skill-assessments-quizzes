@@ -8,7 +8,7 @@
 [![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1101-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1102-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1555,6 +1555,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center"><a href="https://github.com/maximmd"><img src="https://avatars.githubusercontent.com/u/27330256?v=4?s=100" width="100px;" alt="Maxim"/><br /><sub><b>Maxim</b></sub></a><br /><a href="#design-maximmd" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=maximmd" title="Code">💻</a></td>
       <td align="center"><a href="https://www.linkedin.com/in/catn/"><img src="https://avatars.githubusercontent.com/u/44314126?v=4?s=100" width="100px;" alt="Phuong-Cat Ngo"/><br /><sub><b>Phuong-Cat Ngo</b></sub></a><br /><a href="#design-catcecilia" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=catcecilia" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/Frenchtoast0"><img src="https://avatars.githubusercontent.com/u/38544250?v=4?s=100" width="100px;" alt="Frenchtoast0"/><br /><sub><b>Frenchtoast0</b></sub></a><br /><a href="#design-Frenchtoast0" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Frenchtoast0" title="Code">💻</a></td>
     </tr>
   </tbody>
   <tfoot>
