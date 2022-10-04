@@ -342,9 +342,9 @@
 
 #### Q49. When you use a resource-based policy to give a service, resource, or account access to your function, how can you apply the scope of that permission??
 
-- [ ] at the function levelat the function level
-- [ ] at the alias or function levelat the alias or function level
-- [ ] at the version, alias, or function levelat the version, alias, or function level
+- [ ] at the function level
+- [ ] at the alias or function level
+- [ ] at the version, alias, or function level
 - [ ] at the version or function level
 
 #### Q50. Lambda can read events from which other AWS services? (ref-https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html)
