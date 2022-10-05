@@ -2051,3 +2051,11 @@ Queue<Rainfall>
 - [ ] java.io time
 - [ ] java.io.timestamp
 - [ ] java.sql.time
+	
+#### Q142. What is the size of float and double in java?
+
+- [x] 32 and 64
+- [ ] 32 and 32
+- [ ] 64 and 64
+- [ ] 64 and 32
+	
