@@ -617,7 +617,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 #### Q79. There are objects and text hidden behind an image on your slide. With the image selected, what could you adjust to make the objects and text appear "through" the image?
 
 - [ ] Compress Picture
-- [ ] Transparency
+- [x] Transparency
 - [ ] Corrections
 - [ ] Artistic Effects
 
