@@ -1050,3 +1050,22 @@ printf("value is =%d",z);
 - [ ] 6
 
 [Reference](https://www.informit.com/articles/article.aspx?p=2062174&seqNum=4)
+
+#### Q69. What will be the output of the following code snippet?
+
+```c
+#include <stdio.h>
+void solve() {
+    int x = 2;
+    printf("%d", (x << 1) + (x >> 1));
+}
+int main() {
+    solve();
+	return 0;
+}
+```
+
+- [x] 5
+- [ ] 4
+- [ ] 2
+- [ ] 1
