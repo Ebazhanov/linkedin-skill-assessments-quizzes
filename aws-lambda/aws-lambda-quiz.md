@@ -342,9 +342,9 @@
 
 #### Q49. When you use a resource-based policy to give a service, resource, or account access to your function, how can you apply the scope of that permission??
 
-- [ ] at the function levelat the function level
-- [ ] at the alias or function levelat the alias or function level
-- [ ] at the version, alias, or function levelat the version, alias, or function level
+- [ ] at the function level
+- [ ] at the alias or function level
+- [ ] at the version, alias, or function level
 - [ ] at the version or function level
 
 #### Q50. Lambda can read events from which other AWS services? (ref-https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html)
@@ -364,6 +364,7 @@
 - [ ] an S3 bucket event
 
 **Explanation** (source google)
+
 - `With DynamoDB Streams, you can trigger a Lambda function to perform additional work each time a DynamoDB table is updated. Lambda reads records from the stream and invokes your function synchronously with an event that contains stream records.`
 - `These events are considered synchronous events. Simply put, it means that when somebody is calling an API Gateway, it will trigger your Lambda function. It's a synchronous event because your Lambda function has to respond to the client directly at the end of its invocation.`
 - `You can use Lambda to process event notifications from Amazon Simple Storage Service. Amazon S3 can send an event to a Lambda function when an object is created or deleted.`

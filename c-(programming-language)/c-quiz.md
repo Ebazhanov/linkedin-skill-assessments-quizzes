@@ -987,19 +987,21 @@ typedef struct{
 #else
     #define Y 5
 #endif
- 
+
 int main()
 {
     printf("%d", Y);
     return 0;
 }
 ```
+
 - [ ] 3
 - [x] 5
 - [ ] 3 or 5 depending on input
 - [ ] Compile time error
 
 #### Q65. What do the functions malloc() and calloc() allocate?
+
 - [ ] reallocatged memory
 - [ ] static memeory
 - [x] dynamic memory
@@ -1011,6 +1013,7 @@ int main()
 - [x] strstr(str1, str2);
 - [ ] substring(str1, str2);
 - [ ] strspn(str1, str2);
+
 #### Q67. Find the output of the program?
 
 ```c
@@ -1027,18 +1030,20 @@ int main(){
     }
 }
 ```
-- [ ] a=L*2
-- [ ] a=L
-- [ ] Error
-- [x] a=L*4
+- [ ] `a=L*2`
+- [ ] `a=L`
+- [ ] `Error`
+- [x] `a=L*4`
 
 [Reference](https://www.geeksforgeeks.org/left-shift-right-shift-operators-c-cpp/)
 
 #### Q68. Predict the output of the following code when the **interger** variables x is initialized to 10,y to 2 and z to 0.
+
 ```c
 z = x + y * x + 10 / 2 * x;
 printf("value is =%d",z);
 ```
+
 - [x] 80
 - [ ] 170
 - [ ] 31.5

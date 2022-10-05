@@ -683,17 +683,16 @@
 - [ ] B
 - [x] B and C
 
-
 #### Q90. What special layer type applies nondestructive color correction to all of the layers below it ?
 
-- [ ] layer comp 
+- [ ] layer comp
 - [x] adjustment layer
-- [ ] layer mask 
+- [ ] layer mask
 - [ ] fill layer
 
 #### Q91. Which command would permanently join two layers into one?
 
-- [x] Group 
-- [ ] Merge 
-- [ ] Combine 
+- [x] Group
+- [ ] Merge
+- [ ] Combine
 - [ ] Link
