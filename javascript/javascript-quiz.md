@@ -1934,3 +1934,17 @@ console.log(animals[1], clones[1]);
       tiger sheep
 
 [Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
+
+#### Q138. What will be the output of the following code.
+
+```js
+a=5;
+b=4;
+alert(a++(+(+(+b))));
+```
+
+- [ ] 18
+- [ ] 10
+- [x] 9
+- [ ] 20
+	
