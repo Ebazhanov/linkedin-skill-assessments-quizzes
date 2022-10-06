@@ -1031,3 +1031,10 @@ Table name: superheroes
 - [ ] `SELECT * FROM customers WHERE LOWERCASE(LastName) = 'potter';`
 - [x] `SELECT * FROM customers WHERE UPPER(LastName) = 'POTTER';`
 - [ ] `SELECT * FROM customers WHERE UPPER(LastName) = 'Potter';`
+
+#### Q107. “COUNT” keyword belongs to which categories in Mysql?
+
+- [x] Aggregate functions
+- [ ] Operators``
+- [ ] Clauses
+- [ ] All of the mentioned`
