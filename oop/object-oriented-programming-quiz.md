@@ -392,12 +392,12 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 - [ ] It lists all actors for each use case.
 - [ ] It minimizes the number of actors required.
 
-#### Q54. How do object behaviour and attributes differ?
+#### Q54. How do object behavior and attributes differ?
 
-- [ ] Behaviour describe dynamic properties; attributes are static.
-- [x] Attributes describe a state; behaviours describe a change.
-- [ ] Attributes apply only to a specified object; behaviour apply to other linked objects.
-- [ ] Behaviours are vector quantities; attributes are scalars.
+- [ ] Behavior describe dynamic properties; attributes are static.
+- [x] Attributes describe a state; behaviors describe a change.
+- [ ] Attributes apply only to a specified object; behavior apply to other linked objects.
+- [ ] Behaviors are vector quantities; attributes are scalars.
 
 #### Q55. The open/closed principle states that classes should be open for \_ but closed for \_.
 
@@ -713,3 +713,10 @@ public class Honda extends Car{}
 - [ ] as many levels of inheritance as required within 10 minutes
 - [ ] as many levels of inheritance as required
 - [x] only the amount of levels memory permits, divided by processor speed
+
+#### Q94. What is a virtual Method?
+
+- [x] a method that you expect may be redefined in derived classes
+- [ ] a method that you do not expect to be redefined in derived classes
+- [ ] a private method that you do not expect to be redefined in derived public classes
+- [ ] a method that exists temporarily - once used, it ceases to be used by any caller
