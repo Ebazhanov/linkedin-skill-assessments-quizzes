@@ -11,6 +11,7 @@
 
 **_Both sides of the "spaceship" are equal, so the answer is 0. PHP will convert '76 trombones' to 76 in this context, as the string starts with '76'. Try it!_**
 **_For php 8.0 and forward the answer is [x] -1, for previous versions the answer is [x] 0._**
+[PHP 8 changed the way non-strict comparison between numbers and non-numeric strings work.](https://www.php.net/manual/en/migration80.incompatible.php#migration80.incompatible.core.string-number-comparision)
 
 #### Q2. Which is the most secure way to avoid storing a password in clear text in database?
 
@@ -1188,9 +1189,9 @@ if(isset($email)) {
     echo "loop stopped at $i by break statement";
 
 - [ ] loop stopped at 3 by break statement
-- [ ] loop stopped at 4 by break statement
+- [x] loop stopped at 4 by break statement
 - [ ] loop stopped at 6 by break statement
-- [x] loop stopped at 2 by break statement
+- [ ] loop stopped at 2 by break statement
 
 #### Q96. After creating your objects, you can call member functions related to that object, such as setting the names and prices for three "Pet" objects. What is the likely output of this code snippet?
 
