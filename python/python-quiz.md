@@ -2099,3 +2099,11 @@ else:
 - [ ] 16
 - [ ] 128
 - [x] No fixed length is specified
+
+#### Q153.The process of pickling in Python includes?
+
+- [x] conversion of a Python object hierarchy into byte stream
+- [ ] conversion of a datatable into a list
+- [ ] conversion of a byte stream into Python object hierarchy
+- [ ] conversion of a list into a datatable
+
