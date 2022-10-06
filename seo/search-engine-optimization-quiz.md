@@ -608,3 +608,11 @@
 
 
 [Reference](https://www.techopedia.com/definition/1348/top-level-domain-tld)
+    
+#### Q75. What does the 301 server response code signify?
+
+- [ ] Not Modified
+- [x] Moved Permanently
+- [ ] Payment is required
+- [ ] Syntax error in the request  
+
