@@ -9,7 +9,7 @@
 - [ ] Work Folders
 - [ ] DFS Namespaces
 
-#### Q2. You support an IT infrastructure for an organization that has physical locations and WAN connections from the main office to each branch. You are designing a network where users at all locations have access to shared files, both online and offline. Which Windows technology is best for your design?
+#### Q2. You support an IT infrastructure for an organization that has five physical locations and WAN connections from the main office to each branch. You are designing a network where users at all locations have access to shared files, both online and offline. Which Windows technology is best for your design?
 
 - [ ] Data Deduplication
 - [x] BranchCache
@@ -218,7 +218,7 @@
 - [ ] site replication
 - [ ] certificate templates
 
-#### Q30. A company IIS server will host the corporate site, which is accessible only by company computers. You need to configure this website to SSL. You obtain certificate to install on the server. Into which certificate store should you import the server's certificate?
+#### Q30. A company IIS server will host the corporate site, which is accessible only by company computers. You need to configure this website to use SSL. You obtain a certificate to install on the server. Into which certificate store should you import the server's certificate?
 
 - [ ] Trusted Root Certification Authorities under Local Computer
 - [ ] Trusted Root Certification Authorities under Current User
@@ -394,7 +394,7 @@
 - [ ] IIS
 - [ ] AD DS
 
-#### Q54. You want to ensure there are redundant DHCP services avaliable for your network. What should you set up on your server to make this possible?
+#### Q54. You want to ensure there are redundant DHCP services available for your network. What should you set up on your server to make this possible?
 
 - [ ] create new multicast scope
 - [ ] create new superscope
@@ -432,9 +432,10 @@
 
 #### Q58. What type of CAs must be domain members and are typically online to issue certificates or certificate policies?
 
+- [ ] Client
 - [x] Enterprise
 - [ ] Root
-- [ ] Client
+- [ ] Standalone
 
 [reference](<https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn786436(v=ws.11)>)
 
@@ -469,7 +470,7 @@
 
 ![Q62](images/windows-server_Q62.png)
 
-- [ ] Click **Server**, above **Volumes**.
+- [x] Click **Server**, above **Volumes**.
 - [ ] Click **Tools**.
 - [ ] Type a computer name in the filter text box.
 - [ ] Click **Manage**.
@@ -509,10 +510,10 @@
 - [ ] pkysync.ps1
 - [ ] storage replication
 
-#### Q68. Suppose you want to deploy a new Windows Server. You wan an installation that has reduced attack surface and more efficient use of memory and disk space. Which installation option would you use?
+#### Q68. Suppose you want to deploy a new Windows Server. You want an installation that has a reduced attack surface and more efficient use of memory and disk space. Which installation option would you use?
 
 - [ ] Windoes Server Datacenter
-- [ ] Windows Server Minimal Server Interface
+- [x] Windows Server Minimal Server Interface
 - [ ] Windows Server (Desktop Experience)
 - [ ] Windoes Server Core
 
@@ -522,3 +523,18 @@
 - [ ] Print and File Services
 - [x] Print and Document Services
 - [ ] Print and Network Services
+
+#### Q70. Your environment consists of legacy devices that use NetBIOS names. In the Add Roles and Features Wizard, which feature allows other computers and users to search and find these legacy devices through the wireless LAN?
+
+- [x] Wireless LAN Service
+- [ ] WINS Server
+- [ ] Windows Search Service
+- [ ] Windows Identity Foundation 3.5
+
+#### Q71. You work at a company with an Enterprise environment operating on Windows Server 2008. Sixty percent of the servers have 64-bit CPUs; the rest are 32-bit. Management has decided to upgrade to Windows Server 2012 R2. The budget for this upgrade is small. What would be your recommendation for a successful deployment of Windows Server 2012 R2 operating systems?
+
+- [ ] Do not upgrade to Windows Server 2012 R2, as it would exceed the allocated budget.
+- [ ] Upgrade servers with 64-bit CPUs only, and discard servers with 32-bit CPUs.
+- [ ] Upgrade servers with 32-bit CPUs only.
+- [x] Upgrade servers with 32-bit CPUs to 64-bit CPUs before proceeding.
+
