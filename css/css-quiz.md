@@ -1017,10 +1017,10 @@ background-position: 10% 50%;
 grid-template-columns: 2fr 1fr;
 ```
 
-- [ ] The first column is twice the height of the second column and will be as wide as the content
-- [ ] The first column is half the size of the container and the second column will absorb the remaining space
-- [x] The first column is twice as wide as the second column and will fit proportionally within the grid container
-- [ ] The first column is twice the width and height of the second column, and will fit proportionally within the grid container
+- [ ] The first column will be twice the height of the second column, and will be as wide as the content.
+- [ ] The first column will be half the size of the container, and the second column will absorb the remaining space.
+- [x] The first column will be twice as wide as the second column, and will fit proportionally within the grid container.
+- [ ] The first column will be twice the width and height of the second column, and will fit proportionally within the grid container.
 
 #### Q85. Which style rule would make the image 50% smaller during a hover?
 
