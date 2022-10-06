@@ -1038,3 +1038,60 @@ Table name: superheroes
 - [ ] Operators``
 - [ ] Clauses
 - [ ] All of the mentioned`
+
+#### Q108. Which among the following belongs to an “aggregate function”?
+
+- [x] COUNT
+- [ ] UPPER`
+- [ ] LOWER
+- [ ] All of the mentioned
+
+#### Q109.  What is the meaning of “HAVING” clause in Mysql?
+
+- [ ] To filter out the column values
+- [X] To filter out the row values
+- [ ] To filter out the row and column values
+- [ ] None of the mentioned
+
+#### Q110.  Which clause is similar to “HAVING” clause in Mysql?
+
+- [ ] SELECT
+- [ ] FROM
+- [x] WHERE
+- [ ] None of the mentioned
+
+#### Q111. What will be the output of the following MySQL command?
+  
+  SELECT emp_id, fname, lname
+  FROM employee
+  WHERE title=’HEAD TELLER’;
+
+- [ ] All columns
+- [ ] Only those columns which are mention with “SELECT” clause
+- [x] Columns mention with “SELECT” clause and only those rows which contain ‘HEAD TELLER’ as a “title”
+- [ ] None of the mentioned
+
+#### Q112. What will be the output of the following MySQL command?
+  
+  SELECT emp_id, fname, lname
+  FROM employee
+  WHERE title=’HEAD TELLER’ AND start_date&gt;2008-11-23;
+
+- [ ] All columns
+- [ ] Only those columns which are mention with “SELECT” clause
+- [x] Columns mention with “SELECT” clause and only those rows which contain ‘HEAD TELLER’ as a “title”
+- [ ] None of the mentioned
+
+#### Q113. Is there any error in the following MySQL statement?
+  
+  SELECT e.emp_id, e.fname,e.lname,d.name
+  FROM employee e INNER JOIN department d
+  ON e.dept_id=e.dept_id;
+
+- [x] NO
+- [ ] YES
+- [ ] DEPEND
+- [ ] None of the mentioned
+
+
+`
