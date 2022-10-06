@@ -2107,5 +2107,5 @@ else:
 - [ ] conversion of a byte stream into Python object hierarchy
 - [ ] conversion of a list into a datatable
 
-Explanation: Pickling is the process of sterilizing a Python object, that is, conversion of a byte stream into Python object hierarchy. The reverse of this process is known as unpickling.
+Explanation:Pickling is the process of sterilizing a Python object, that is, conversion of a byte stream into Python object hierarchy. The reverse of this process is known as unpickling.
 
