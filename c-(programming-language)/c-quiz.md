@@ -1070,3 +1070,20 @@ int main() {
 - [ ] 4
 - [ ] 2
 - [ ] 1
+
+#### Q70. What is the output of this program?
+
+```c
+int a=20, b=10;
+int f1(a) { 
+    return(a*b); 
+}
+main() {
+    printf("%d", f1(5));
+}
+```
+
+- [ ] 100
+- [ ] 200
+- [ ] 5
+- [x] 50
