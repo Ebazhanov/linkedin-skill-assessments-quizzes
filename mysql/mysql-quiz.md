@@ -1064,17 +1064,6 @@ Table name: superheroes
   
   SELECT emp_id, fname, lname
   FROM employee
-  WHERE title=’HEAD TELLER’;
-
-- [ ] All columns
-- [ ] Only those columns which are mention with “SELECT” clause
-- [x] Columns mention with “SELECT” clause and only those rows which contain ‘HEAD TELLER’ as a “title”
-- [ ] None of the mentioned
-
-#### Q112. What will be the output of the following MySQL command?
-  
-  SELECT emp_id, fname, lname
-  FROM employee
   WHERE title=’HEAD TELLER’ AND start_date&gt;2008-11-23;
 
 - [ ] All columns
@@ -1082,7 +1071,7 @@ Table name: superheroes
 - [x] Columns mention with “SELECT” clause and only those rows which contain ‘HEAD TELLER’ as a “title”
 - [ ] None of the mentioned
 
-#### Q113. Is there any error in the following MySQL statement?
+#### Q112. Is there any error in the following MySQL statement?
   
   SELECT e.emp_id, e.fname,e.lname,d.name
   FROM employee e INNER JOIN department d
@@ -1092,6 +1081,3 @@ Table name: superheroes
 - [ ] YES
 - [ ] DEPEND
 - [ ] None of the mentioned
-
-
-`
