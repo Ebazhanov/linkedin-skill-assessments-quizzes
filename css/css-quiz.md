@@ -2231,7 +2231,7 @@ input.invalid {
 
 #### Q139. To insert an external style sheet file into another style sheet file, which rule should you use?
 
-- [X] `@import`
+- [x] `@import`
 
 - [ ] `@link`
 

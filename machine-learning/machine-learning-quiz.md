@@ -760,7 +760,7 @@ During training, k-means partitions observations into k clusters. During inferen
 
 `//Averaging models leads to higher stability and a lower variance than individual models. Mathematically, remember that $Var(\bar{X})=\frac{Var(X)}{N}`
 
-#### Q99.  To optimize your objective function, you are performing full batch gradient descent using the entire training set (not stochastic gradient descent). Is it required to shuffle your training set?
+#### Q99. To optimize your objective function, you are performing full batch gradient descent using the entire training set (not stochastic gradient descent). Is it required to shuffle your training set?
 
 - [ ] Yes. If you don't, the optimization will oscillate around the minimum at the end of training.
 - [ ] Yes, in order to help the model generalize to the test dataset.
@@ -771,7 +771,8 @@ During training, k-means partitions observations into k clusters. During inferen
 
 At every iteration, full batch gradient descent uses the entire training set to compute a gradient. The order in which data is processed doesn't impact the gradient value.
 
-#### Q100.  You've received 1,000,000 images and have split it in 96%/2%/2% between train, dev and test sets. You've trained your model, and analyzed the results. After working further on the problem, you’ve decided to correct the incorrectly labeled data on the dev set.
+#### Q100. You've received 1,000,000 images and have split it in 96%/2%/2% between train, dev and test sets. You've trained your model, and analyzed the results. After working further on the problem, you’ve decided to correct the incorrectly labeled data on the dev set.
+
 Which of these statements do you agree with?
 
 - [x] You should also correct the incorrectly labeled data in the test set, so that the dev and test sets still come from the same distribution.

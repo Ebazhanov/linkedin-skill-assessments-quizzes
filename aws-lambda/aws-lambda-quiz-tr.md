@@ -183,6 +183,7 @@
 - [ ] `kullanılan altyapı miktarı`
 
 #### S27. Lambda ile çalışmaya başlamanın en hızlı yolu nedir?
+
 - [ ] `Sıfırdan bir Lambda yazın.`
 - [x] `Bir plan kullanın.`
 - [ ] `Bir .zip dağıtım paketi kullanın.`
@@ -202,7 +203,7 @@
 - [ ] `Fonksiyonu sıfırlayın.`
 - [ ] `Kodu güncellerken işlev eşzamanlı yürütme sınırını 100 olarak ayarlayın.`
 
-#### S30.  Lambda yapılandırması için AWS'nin en iyi uygulaması nedir?
+#### S30. Lambda yapılandırması için AWS'nin en iyi uygulaması nedir?
 
 - [x] `İşlevlerinizi daha hızlı çalıştırmak ve maliyetlerinizi azaltmak için belleği aşırı sağlayın. İşlev zaman aşımı ayarlarınızı aşırı sağlamayın.`
 - [ ] `İşlevlerinizi daha hızlı çalıştırmak ve maliyetlerinizi azaltmak için belleği ve işlev zaman aşımı ayarlarınızı aşırı sağlayın.`
@@ -224,6 +225,7 @@
 - [ ] `bu cevapların hiçbiri`
 
 #### S33. Web sitenize arka uç mantığı sağlamak için bir Lambda kullanmanız gerekiyor. Lambda'nızı web sitenizde kullanılabilir hale getirmek için hangi hizmeti kullanıyorsunuz?
+
 - [ ] `S3`
 - [x] `API Gateway`
 - [ ] `X-Ray`
@@ -362,6 +364,7 @@
 - [ ] bir S3 kova olayı
 
 **Açıklama** (kaynak google)
+
 - `DynamoDB Streams ile, bir DynamoDB tablosu her güncellendiğinde ek iş yapmak için bir Lambda işlevini tetikleyebilirsiniz. Lambda, akıştan kayıtları okur ve akış kayıtlarını içeren bir olayla eşzamanlı olarak işlevinizi çağırır.`
 - `Bu olaylar senkronize olaylar olarak kabul edilir. Basitçe söylemek gerekirse, birisi bir API Gateway'i çağırdığında Lambda fonksiyonunuzu tetikleyeceği anlamına gelir. Bu eşzamanlı bir olaydır çünkü Lambda işlevinizin çağrının sonunda doğrudan istemciye yanıt vermesi gerekir.`
 - `Amazon Simple Storage Service'ten gelen olay bildirimlerini işlemek için Lambda'yı kullanabilirsiniz. Amazon S3, bir nesne oluşturulduğunda veya silindiğinde Lambda işlevine bir olay gönderebilir.`

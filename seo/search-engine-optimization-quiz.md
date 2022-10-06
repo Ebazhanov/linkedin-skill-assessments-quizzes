@@ -598,13 +598,13 @@
 - [ ] Google Suggest
 - [x] Google Keyword Planner
 - [ ] Google Tag Manager
-    
+
 #### Q74. What is an example of a top-level domain (TLD)?
 
 - [x] .net
 - [ ] domain.ai
 - [ ] www
-- [ ] 301   
-    
-[Reference](https://www.techopedia.com/definition/1348/top-level-domain-tld) 
-    
+- [ ] 301  
+
+
+[Reference](https://www.techopedia.com/definition/1348/top-level-domain-tld)
