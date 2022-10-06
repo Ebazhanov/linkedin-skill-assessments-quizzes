@@ -2228,3 +2228,15 @@ input.invalid {
 ```
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid)
+
+#### Q139. To insert an external style sheet file into another style sheet file, which rule should you use?
+
+- [X] `@import`
+
+- [ ] `@link`
+
+- [ ] `@insert`
+
+- [ ] `@style`
+
+[Reference for import](https://developer.mozilla.org/en-US/docs/Web/CSS/@import)
