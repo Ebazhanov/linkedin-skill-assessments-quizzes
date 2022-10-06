@@ -2266,7 +2266,7 @@ input.invalid {
 [Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/height#:~:text)
 
 #### Q141. Which style rule will place an X within the grid to win the game?
-(img/Q141.jpg)
+(img/Q141.png)
 
 - [ ] row: 3;
       column: 3;
