@@ -2161,43 +2161,7 @@ header {
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column)
 
-#### Q136. What rule should you apply to the img element to display the element in grayscale with no color?
-
-- [ ] A
-
-```css
-img {
-  transform: grayscale(1);
-}
-```
-
-- [ ] B
-
-```css
-img {
-  filter: grayscale(0);
-}
-```
-
-- [ ] C
-
-```css
-img {
-  transform: grayscale(0);
-}
-```
-
-- [x] D
-
-```css
-img {
-  filter: grayscale(1);
-}
-```
-
-[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/grayscale)
-
-#### Q137. To center the content of a grid cell horizontally and vertically within the cell, which style rule should you apply?
+#### Q136. To center the content of a grid cell horizontally and vertically within the cell, which style rule should you apply?
 
 - [ ] A
 
@@ -2229,7 +2193,7 @@ justify-items: stretch;
 
 [Reference for align-items](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items) [Reference for justify-items](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items)
 
-#### Q138. What style rule should you use to display all input elements that have failed the validation test with a red font?
+#### Q137. What style rule should you use to display all input elements that have failed the validation test with a red font?
 
 - [ ] A
 

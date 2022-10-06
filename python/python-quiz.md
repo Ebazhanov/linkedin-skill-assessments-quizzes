@@ -2092,3 +2092,10 @@ else:
 - [ ] matrix = (vector.shape = (100,100))
 - [x] matrix = vector.reshape(100,100)
       Exa
+
+#### Q152. What is the maximum length of a Python identifier?
+
+- [ ] 32
+- [ ] 16
+- [ ] 128
+- [x] No fixed length is specified
