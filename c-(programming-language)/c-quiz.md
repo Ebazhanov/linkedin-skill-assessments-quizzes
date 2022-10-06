@@ -1073,7 +1073,9 @@ int main() {
 
 
  #### Q70. What will be the output of the following code snippet?
- #include <stdio.h>  
+ 
+ ```c
+#include <stdio.h>  
 void change(int,int);  
 int main()  
 {  
@@ -1088,10 +1090,10 @@ void change(int x,int y)
 {  
     x=13;  
     y=17;  
-}  
+} 
+```
+-[x] 10,20
+-[ ] 10,10
+-[ ] 20,20
+-[ ] 20,10
 
-output --
-[1.]10,20
-[2.]10,10
-[3.]20,20
-[4.]20,10
