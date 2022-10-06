@@ -2093,6 +2093,14 @@ else:
 - [x] matrix = vector.reshape(100,100)
       Exa
 
+#### Q152. What is the maximum length of a Python identifier?
+
+- [ ] 32
+- [ ] 16
+- [ ] 128
+- [x] No fixed length is specified
+
+
 #### Q153. What will the value of the i variable be when the following loop finishes its execution?    for i in range(5): pass
 
 - [ ] 5
