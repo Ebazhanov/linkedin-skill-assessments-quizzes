@@ -15,3 +15,12 @@
 - [ ] Solid and Wireframe
 
 [Reference](https://doc.arcgis.com/en/arcgis-online/create-maps/choose-global-local-scene.htm)
+
+#### Q3. When an ArcMap .mxd file is imported into ArcGIS Pro, what is each data frame in the original document converted to in the ArcGIS Pro project?
+
+- [ ] basemap
+- [ ] layout
+- [ ] local scene
+- [x] map
+
+[Reference](https://pro.arcgis.com/en/pro-app/latest/get-started/migrate-content-to-arcgis-pro.htm#:~:text=Each%20data%20frame%20in%20an%20ArcMap%20document%20becomes%20a%20separate%20map%20in%20ArcGIS%20Pro.)
