@@ -865,7 +865,7 @@ const MyComponent = ({ children }) => (
 - [ ] undefined
 - [x] 2
 
-#### Q73. What is this assignment pattern called?
+#### Q73. What is this pattern called?
 
 ```javascript
 const [count, setCount] = useState(0);
@@ -1224,3 +1224,15 @@ const PokeDex = (props) => {
 - [ ] this.props.pokeDex
 - [ ] setPokeDex()
 - [x] pokeDex
+
+#### Q103. When using a portal, what is the second argument?
+
+```javascript
+ReactDOM.createPortal(x, y);
+```
+
+- [ ] the current state
+- [ ] the rendered element
+- [ ] the App component
+- [x] the DOM element that exists outside of the parent component
+
