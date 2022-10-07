@@ -24,3 +24,12 @@
 - [x] map
 
 [Reference](https://pro.arcgis.com/en/pro-app/latest/get-started/migrate-content-to-arcgis-pro.htm#:~:text=Each%20data%20frame%20in%20an%20ArcMap%20document%20becomes%20a%20separate%20map%20in%20ArcGIS%20Pro.)
+
+#### Q4. Which is a collection of raster datasets stored as a catalog that allows you to view or access the datasets as a single merged image or individual images?
+
+- [ ] an image collection dataset
+- [x] a mosaic dataset
+- [ ] raster tiles
+- [ ] a folder of raster data files
+
+[Reference](https://desktop.arcgis.com/en/arcmap/10.7/manage-data/raster-and-images/how-raster-data-is-stored-and-managed.htm#:~:text=A%20mosaic%20dataset%20is%20a,size%20and%20number%20of%20datasets.)
