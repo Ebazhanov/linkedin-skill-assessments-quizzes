@@ -838,3 +838,41 @@ aws ecs create-service \
 - [ ] The metrics obtained by CloudWatch may be used to enable a feature called Auto Scaling
 - [ ] A number of tools are used to support EC2 services
 - [x] None of the mentioned
+
+#### Q95. In terms of Amazon VPC design, a VPC with a single public subnet is ideal for which of the following application designs?
+
+- [ ] A serverless application
+- [x] A single-tier application
+- [ ] A microservice application
+- [ ] A multi-tier application
+
+
+#### Q96. If you stop and restart an EC2 instance, does it retain its private IP address?
+
+
+- [ ] No, it retains only the public IP addresses.
+- [ ] No, it retains only the Elastic IP addresses.
+- [ ] No, it does not retain its private IP addresses.
+- [x] Yes, the instance retains its private IP addresses
+
+#### Q97. All the Amazon EC2 instances you launch into a nondefault VPC are ______ by default.
+
+- [x] Stateless
+- [ ] Protected
+- [ ] Public
+- [ ] Private
+
+#### Q98. When you launch an instance into a dedicated-tenancy VPC, what happens?
+
+
+- [ ] You receive an error message notifying you that you must set your instance's tenancy attribute to dedicated.
+- [ ] Your instance launch fails, but AWS prompts you to launch a new one with the tenancy attribute set to dedicated.
+- [x]  Your instance is automatically a Dedicated instance, regardless of the instance's specific tenancy attribute.
+- [ ] Your instance launch fails immediately.
+
+#### Q99. Use the _______ protocol in a VPC security group to communicate with a DB instance.
+
+- [ ] SSH
+- [ ] SSL
+- [x] TCP
+- [ ] UDP
