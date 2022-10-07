@@ -895,7 +895,7 @@ const element = <h1>Hi</h1>;
 // Note: error on the line below
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(element)
+root.render(element);
 ```
 
 - [x] `createRoot(document.getElementById("root"));`

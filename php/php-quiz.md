@@ -1164,7 +1164,7 @@ if(isset($email)) {
 
 #### Q94. Which script properly validates the IP address given?
 
-- [ ] : 
+- [ ] :
 
 ```php
 $valid = ip2long($ip) !== false;

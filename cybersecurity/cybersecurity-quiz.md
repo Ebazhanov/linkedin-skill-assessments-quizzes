@@ -862,9 +862,9 @@ What is the next step you should take to best fulfill your responsibilities and 
 #### Q112. What is the most common cause of cyber incidents in organisations?
 
 - [ ] Vulnerabilities in softwares
-- [x] Social Engineering 
-- [ ] Ransomware 
-- [ ] Phishing 
+- [x] Social Engineering
+- [ ] Ransomware
+- [ ] Phishing
 
 [Explanation] (Social Engineering and human error are the most common cause of cyber incidents as it is easier for attackers to convince employees to give up passwords or accept MFA prompts than it is to breach & exploit the system. See Recent Uber and Cisco hack https://www.protocol.com/bulletins/uber-breach-hacker-twilio-mfa, https://www.swarmnetics.com/blog/cisco-network-breach-voice-phishing-mfa-fatigue-are-becoming-common-attacks/)
 
@@ -891,4 +891,4 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] Baseline
 - [x] Entitlement
 
-[Explanation] Entitlement refers to the privileges granted to a user when their account is first provisioned 
+[Explanation] Entitlement refers to the privileges granted to a user when their account is first provisioned

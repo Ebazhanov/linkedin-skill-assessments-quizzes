@@ -1095,8 +1095,8 @@ int main() {
 
 ```c
 int a=20, b=10;
-int f1(a) { 
-    return(a*b); 
+int f1(a) {
+    return(a*b);
 }
 main() {
     printf("%d", f1(5));

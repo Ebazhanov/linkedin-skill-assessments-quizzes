@@ -755,8 +755,8 @@ D. Start When Clicked On
 - [ ] B and D
 - [x] A and B
 
-
 #### Q97. Your presentation has a slide on which the text appears scrambled, What happened?
+
 ![Q97](images/Q97.png)
 
 - [ ] The text direction has been changed to Vertical.

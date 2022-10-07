@@ -1046,14 +1046,14 @@ Table name: superheroes
 - [ ] LOWER
 - [ ] All of the mentioned
 
-#### Q109.  What is the meaning of “HAVING” clause in Mysql?
+#### Q109. What is the meaning of “HAVING” clause in Mysql?
 
 - [ ] To filter out the column values
-- [X] To filter out the row values
+- [x] To filter out the row values
 - [ ] To filter out the row and column values
 - [ ] None of the mentioned
 
-#### Q110.  Which clause is similar to “HAVING” clause in Mysql?
+#### Q110. Which clause is similar to “HAVING” clause in Mysql?
 
 - [ ] SELECT
 - [ ] FROM
@@ -1061,10 +1061,10 @@ Table name: superheroes
 - [ ] None of the mentioned
 
 #### Q111. What will be the output of the following MySQL command?
-  
-  SELECT emp_id, fname, lname
-  FROM employee
-  WHERE title=’HEAD TELLER’ AND start_date&gt;2008-11-23;
+
+      SELECT emp_id, fname, lname
+      FROM employee
+      WHERE title=’HEAD TELLER’ AND start_date&gt;2008-11-23;
 
 - [ ] All columns
 - [ ] Only those columns which are mention with “SELECT” clause
@@ -1072,10 +1072,10 @@ Table name: superheroes
 - [ ] None of the mentioned
 
 #### Q112. Is there any error in the following MySQL statement?
-  
-  SELECT e.emp_id, e.fname,e.lname,d.name
-  FROM employee e INNER JOIN department d
-  ON e.dept_id=e.dept_id;
+
+      SELECT e.emp_id, e.fname,e.lname,d.name
+      FROM employee e INNER JOIN department d
+      ON e.dept_id=e.dept_id;
 
 - [x] NO
 - [ ] YES

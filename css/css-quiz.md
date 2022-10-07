@@ -2245,11 +2245,11 @@ input.invalid {
 
 ```html
 <style>
-  #tall-text{
-	  display: inline;
+  #tall-text {
+    display: inline;
     font-size: 20px;
     height: 200px;
- }
+  }
 </style>
 
 <p id="tall-text">Did I grow?</p>
@@ -2257,7 +2257,7 @@ input.invalid {
 
 - [ ] 200px
 
-- [x] 20px  
+- [x] 20px
 
 - [ ] 180px
 
@@ -2266,6 +2266,7 @@ input.invalid {
 [Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/height#:~:text)
 
 #### Q141. Which style rule will place an X within the grid to win the game?
+
 ![A](img/Q-141.png)
 
 - [ ] row: 3;

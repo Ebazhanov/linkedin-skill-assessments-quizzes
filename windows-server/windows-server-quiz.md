@@ -537,4 +537,3 @@
 - [ ] Upgrade servers with 64-bit CPUs only, and discard servers with 32-bit CPUs.
 - [ ] Upgrade servers with 32-bit CPUs only.
 - [x] Upgrade servers with 32-bit CPUs to 64-bit CPUs before proceeding.
-

@@ -853,7 +853,7 @@ aws ecs create-service \
 - [ ] No, it retains only the Elastic IP addresses
 - [ ] No, it does not retain its private IP addresses
 
-#### Q97. All the Amazon EC2 instances you launch into a nondefault VPC are ______ by default.
+#### Q97. All the Amazon EC2 instances you launch into a nondefault VPC are **\_** by default.
 
 - [ ] stateless
 - [ ] protected
@@ -867,9 +867,9 @@ aws ecs create-service \
 - [ ] Your instance launch fails, but AWS prompts you to launch a new one with the tenancy attribute set to dedicated
 - [ ] Your instance launch fails immediately
 
-#### Q99. Use the _______ protocol in a VPC security group to communicate with a DB instance.
+#### Q99. Use the **\_** protocol in a VPC security group to communicate with a DB instance.
 
 - [ ] SSH
 - [ ] SSL
-- [X] TCP
+- [x] TCP
 - [ ] UDP
