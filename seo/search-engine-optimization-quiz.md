@@ -608,3 +608,13 @@
 
 
 [Reference](https://www.techopedia.com/definition/1348/top-level-domain-tld)
+    
+#### Q75. What does the 301 server response code signify?
+
+- [ ] Not Modified
+- [x] Moved Permanently
+- [ ] Payment is required
+- [ ] Syntax error in the request  
+
+Explanination : The HyperText Transfer Protocol (HTTP) 301 Moved Permanently redirect status response code indicates that the requested resource has been     definitively moved to the URL given by the Location headers. A browser redirects to the new URL and search engines update their links to the resource.
+
