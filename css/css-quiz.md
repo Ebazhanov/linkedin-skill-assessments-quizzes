@@ -2240,3 +2240,44 @@ input.invalid {
 - [ ] `@style`
 
 [Reference for import](https://developer.mozilla.org/en-US/docs/Web/CSS/@import)
+
+#### Q140. Given this code, how tall will the following element be in pixels?
+
+```html
+<style>
+  #tall-text{
+	  display: inline;
+    font-size: 20px;
+    height: 200px;
+ }
+</style>
+
+<p id="tall-text">Did I grow?</p>
+```
+
+- [ ] 200px
+
+- [x] 20px  
+
+- [ ] 180px
+
+- [ ] 220px
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/height#:~:text)
+
+#### Q141. Which style rule will place an X within the grid to win the game?
+![A](img/Q-141.png)
+
+- [ ] row: 3;
+      column: 3;
+
+- [x] grid-row: 3;
+      grid-column: 3;
+
+- [ ] row: 2;
+      column: 2;
+
+- [ ] grid-row: 2;
+      grid-column: 2;
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column)
