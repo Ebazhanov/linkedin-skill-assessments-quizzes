@@ -1362,3 +1362,21 @@ sprite->x
 - [ ] a
 - [x] a.out
 - [ ] out.a
+
+
+#### Q83. What will be the output of the following program?
+
+```cpp
+#include<iostream>
+using namespace std;
+int main(){
+int a=1;
+cout<<(a++)*(++a)<<endl;
+return 0;
+}
+```
+
+- [ ] 1
+- [ ] 2
+- [x] 3
+- [ ] 6
