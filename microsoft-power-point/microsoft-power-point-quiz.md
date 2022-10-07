@@ -752,3 +752,26 @@ D. Start When Clicked On
 - [ ] C and D
 - [ ] B and D
 - [x] A and B
+
+
+#### Q97. Your presentation has a slide on which the text appears scrambled, What happened?
+![Q97](images/Q97.png)
+
+- [ ] The text direction has been changed to Vertical.
+- [ ] The text direction has been changed to Stacked.
+- [ ] The text direction has been changed to 360 degrees.
+- [x] The text direction has been changed to 90 degrees.
+
+#### Q98. Your colleagues have collaborated in a presentation with you, adding new content and reusing slides from other presentations. You notice the layouts vary throughout the slides: differently sized and positioned containers, and different headers and footers. Where can you make a change that will automatically be applied to all slides in the presentation?
+
+- [ ] Quick Styles
+- [ ] Slide Master
+- [ ] Header & Footer
+- [ ] Handout Master
+
+#### Q99. Your company logo appears on all slides in a presentation as part of the overall design template's Slide Master. How can you prevent the logo from appearing on one particular slide?
+
+- [ ] Hide the graphic using Design > Format Background.
+- [ ] Right-click the logo (Windows) or select the logo (Mac), and then select Delete.
+- [ ] Insert a blank shape to mask the logo.
+- [ ] Remove the logo graphic from the Slide Master template.
