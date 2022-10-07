@@ -2099,3 +2099,13 @@ else:
 - [ ] 16
 - [ ] 128
 - [x] No fixed length is specified
+
+
+#### Q153. What will the value of the i variable be when the following loop finishes its execution?
+
+for i in range(5): pass
+
+- [ ] 5
+- [ ] the variable becomes unavailable
+- [ ] 6
+- [x] 4
