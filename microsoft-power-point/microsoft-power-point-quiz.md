@@ -582,6 +582,8 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] Use the Share feature in Backstage view and petty email to automatically compress the pictures.
 - [ ] Use the Share feature in Backstage view to create a pdf to send as an attachment.
 
+[Reference](https://www.officetooltips.com/powerpoint_2016/tips/how_to_compress_pictures_in_the_presentation.html)
+
 #### Q75. In a presentation about voter turnout, you are illustrating various data with charts. Which type of information would you present in a pie chart?
 
 - [ ] the decline of voter turnout by county
