@@ -134,3 +134,12 @@ Note: I just use synchronization. After digging into settings I was able only to
 - [ ] Capture Date
 - [ ] Rating
 - [ ] Camera Serial Number
+
+#### Q18. Which of these is not present as an option when exporting a photobook?
+
+- [ ] Post to Blurb
+- [ ] Export as PDF
+- [x] Export to Print
+- [ ] Export as JPEG
+
+[Reference](https://helpx.adobe.com/in/lightroom-classic/help/create-photo-book.html)
