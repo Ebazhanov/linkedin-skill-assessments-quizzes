@@ -346,9 +346,9 @@
 
 #### Q47. When a user attempts to access a record that is not their own, which HTTP response code is the most appropriate?
 
-- [ ] `403`
+- [x] `403`
 - [ ] `404`
-- [x] `401`
+- [ ] `401`
 - [ ] `405`
 
 [Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
