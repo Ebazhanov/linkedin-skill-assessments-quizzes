@@ -42,7 +42,7 @@
 
 #### Q3. You are converting your HTML file into XHTML Strict. Which code snippet will validate without errors?
 
-- [ ]
+- [ ] :
   ```xml
   <html xmlns="http://www.w3.org/1999/xhtml">
       <head><title>XHTML Example</title></head>
@@ -51,7 +51,7 @@
       </body>
   </html>
   ```
-- [ ]
+- [ ] :
   ```xml
   <html xmlns="http://www.w3.org/1999/xhtml">
       <head><title>XHTML Example</title></head>
@@ -60,7 +60,7 @@
       </body>
   </html>
   ```
-- [ ]
+- [ ] :
   ```xml
   <html xmlns="http://www.w3.org/1999/xhtml">
       <head><title>XHTML Example</title></head>
@@ -69,7 +69,7 @@
       </body>
   </html>
   ```
-- [x]
+- [x] :
   ```xml
   <html xmlns="http://www.w3.org/1999/xhtml">
       <head><title>XHTML Example</title></head>
@@ -297,7 +297,7 @@
 </cars>
 ```
 
-- [ ]
+- [ ] :
 
 ```xquery
 <ul>
@@ -310,7 +310,7 @@
 </ul>
 ```
 
-- [ ]
+- [ ] :
 
 ```xquery
 <ol>
@@ -323,7 +323,7 @@
 </ol>
 ```
 
-- [ ]
+- [ ] :
 
 ```xquery
 <ul>
@@ -336,7 +336,7 @@
 </ul>
 ```
 
-- [x]
+- [x] :
 
 ```xquery
 <ol>
@@ -489,7 +489,7 @@ NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Repor
 </cars>
 ```
 
-- [ ]
+- [ ] :
 
 ```css
 cars {
@@ -503,7 +503,7 @@ car(year) {
 }
 ```
 
-- [x]
+- [x] :
 
 ```css
 car,
@@ -518,7 +518,7 @@ year {
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```css
 cars {
@@ -532,7 +532,7 @@ car.year {
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```css
 cars {

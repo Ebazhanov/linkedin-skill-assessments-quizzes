@@ -500,9 +500,11 @@
 #### Q64. What is the outcome if you make a selection and then add an adjustment layer?
 
 - [ ] The adjustment layer contains a vector mask that applies the adjustment only to the unselected pixels.
-- [ ] The adjustment layer contains a layer mask that applies the adjustment only to the selected pixels.
+- [x] The adjustment layer contains a layer mask that applies the adjustment only to the selected pixels.
 - [ ] The adjustment layer contains a layer mask that applies the adjustment only to the unselected pixels.
 - [ ] The adjustment layer contains a vector mask that applies the adjustment only to the selected pixels.
+
+[Reference under section titled 'Create and confine adjustment and fill layers'](https://helpx.adobe.com/photoshop/using/adjustment-fill-layers.html)
 
 #### Q65. Which filter is useful for removing lens distortion from JPEG photos based on lens-specific settings?
 
@@ -557,25 +559,140 @@
 #### Q73. For curved smoother-looking edges on a selection, what selection should you pick?
 
 - [x] anti-aliasing
+- [ ]
+- [ ]
+- [ ]
 
 #### Q74. Which tool is _not_ found in the **Select and Mask** workspace ?
 
-- \[ ] Magic Wand
-- \[x] Refine Edge
-- \[ ] Quick Select
-- \[ ] Lasso
+- [ ] Magic Wand
+- [x] Refine Edge
+- [ ] Quick Select
+- [ ] Lasso
 
 #### Q75. Which sets of tool has a content-aware mode ?
 
-- \[ ] Perspective Corp
-- \[ ] Marquee
-- \[ ] Lasso
-- \[x] Patch
+- [ ] Perspective Corp
+- [ ] Marquee
+- [ ] Lasso
+- [x] Patch
 
-#### Q76. Which Select and Mask workspace tool allows you to select fine hairs?
+#### Q76. Which Photoshpop panel containes project elements that can be shared across Adobe applications ro between collaborators?
+
+- [x] Libraries
+- [ ] Files
+- [ ] Layer Comps
+- [ ] Glyphs
+
+#### Q77. What should you create in order to save a panel layout arrangement?
+
+- [ ] a layer set
+- [x] a tool set
+- [ ] a keyboard shortcut
+- [ ] a workspace
+
+#### Q78. You are retouching a photo by using the Spot Healing Brush tool on a transparent layer aboce the image, but you cannot see any visible changes when you click. What is likely the problem?
+
+- [ ] You need to convert the image to a Smart Object before using this tool.
+- [ ] You must first change the blending mode to Screen
+- [ ] The Spot Healing Brush tool cannot be used on a transparent layer
+- [x] The Sample all layers check box on the toolbar is not selected
+
+#### Q79. Which blend mode is useful for dropping out the darkest areas o the top layer and effectively adding up the image details, like multiple slides being projected on top of each other?
+
+- [ ] Multiply
+- [ ] Screen
+- [x] Color
+- [ ] Hard Light
+
+#### Q80. Which layer(s) does the depicted Hue/Saturation 1 adjustment layer effect?
+
+- [ ] B, C, and D
+- [ ] B
+- [x] B and C
+- [ ] A
+
+#### Q81. What is the difference between the Healing Brush Tool and the Spot Healing Brush tool?
+
+- [ ] The spot healing brush tool needs a source point, but the healing brush automatically samples pixels nearby.
+- [x] The healing brush tool needs a source point, but the spot healing brush automatically samples pixels nearby.
+- [ ] The spot healing brush tool does not match texture, lifghting, shading or trasparency of the sampled pixels, but the healing brush tool blends texture, light, shading and trasparency of pixel nearby.
+- [ ] The healing brush tool does not match texture, lighting, shading or trasparency of the sampled pixels, but the spot healing brush tool blends texture, light, shading and trasparency of pixel nearby.
+
+#### Q82. Which tool is _not_ found in the _Select and Mask_ workspace?
+
+- [ ] Quick select
+- [ ] Magic wand
+- [ ] Lasso
+- [x] Refine Edge
+
+#### Q83. Which Select and Mask workspace tool allows you to select fine hairs?
 
 - [ ] Object Selection
 - [ ] Brush
 - [ ] Quick Selection
 - [x] Refine Edge
 
+#### Q84. Which option is found in the Path Operations drop-down menu?
+
+- [ ] Divide
+- [ ] Combine Shapes
+- [x] Minus Back
+- [ ] Outline
+
+#### Q85. Which file formats does the Save for Web command support? (Select all that apply.) A. SVG B. JPEG C. PNG D. GIF E. MP4
+
+- [x] A, B, C
+- [ ] B, C, D
+- [ ] B, D, E
+- [ ] A, C, E
+
+#### Q86. Which method was used to soften the edges of this selection?
+
+![Which method was used to soften the edges of this selection?](images/image01.jpeg?raw=true)
+
+- [ ] Expand
+- [ ] Smooth
+- [x] Feather
+- [ ] Frow
+
+#### Q87. What can be said about the Curves adjustment shown here?
+
+![What can be said about the Curves adjustment shown here?](images/image02.jpeg?raw=true)
+
+- [ ] It will prevent shadows from pluhhing up.
+- [x] It will increase the midtone contrast.
+- [ ] It will decrease the overall saturation.
+- [ ] It will prevent highlights from being blown out.
+
+#### Q88. Why is the Sycamore Leaf 1 layer underlined, as shown?
+
+![Why is the Sycamore Leaf 1 layer underlined, as shown?](images/image03.jpeg?raw=true)
+
+- [ ] The Sycamore Leaf 1 layer is the base layer of a clipping mask.
+- [ ] The Sycamore Leaf 1 layer is linked layer.
+- [x] The Sycamore Leaf 1 layer is Smart Object.
+- [ ] The Sycamore Leaf 1 layer is selected.
+
+#### Q89. Which layer(s) does the depicted Hue/Saturation 1 adjustment layer affect?
+
+![Which layer(s) does the depicted Hue/Saturation 1 adjustment layer affect?](images/image04.png?raw=true)
+
+- [ ] A
+- [ ] B, C and D
+- [ ] B
+- [x] B and C
+
+#### Q90. What special layer type applies nondestructive color correction to all of the layers below it ?
+
+- [ ] layer comp
+- [x] adjustment layer
+- [ ] layer mask
+- [ ] fill layer
+
+#### Q91. Which command would permanently join two layers into one?
+
+- [x] Group
+- [ ] Merge
+- [ ] Combine
+- [ ] Link

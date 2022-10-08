@@ -21,7 +21,7 @@
 - [ ] Local
 - [ ] Organizational
 
-Note: Free trial doesn't have the organizations.
+`Note: Free trial doesn't have the organizations.`
 
 #### Q4. What feature do you need to enable to support load balancing and autoscaling managed instance groups for Compute Engine?
 
@@ -74,10 +74,10 @@ Note: Free trial doesn't have the organizations.
 
 #### Q11. You need to execute a "lift and shift" move with as few steps as possible. Which items do you need to create to accomplish this task, listed in the correct order of creation?
 
-- [ ] 1. Create a VPN from GCP to your corporate network. 2. Create a GCP network for the project. 3. Create the VM instances to support the application.
-- [ ] 1. Create a GCP network for the project. 2. Create a VPN from your corporate network to GCP. 3. Create the VM instances to support the application.
-- [x] 1. Create a GCP network for the project. 2. Create a VPN from GCP to your corporate network. 3. Create the VM instances to support the application.
-- [ ] 1. Create a VPN from your corporate network to GCP. 2. Create a GCP network for the project. 3. Create the VM instances to support the application.
+- [ ] Create a VPN from GCP to your corporate network. 2. Create a GCP network for the project. 3. Create the VM instances to support the application.
+- [ ] Create a GCP network for the project. 2. Create a VPN from your corporate network to GCP. 3. Create the VM instances to support the application.
+- [x] Create a GCP network for the project. 2. Create a VPN from GCP to your corporate network. 3. Create the VM instances to support the application.
+- [ ] Create a VPN from your corporate network to GCP. 2. Create a GCP network for the project. 3. Create the VM instances to support the application.
 
 #### Q12. You are concerned about data egress charges for files in a Cloud Storage bucket. What configuration change should you make?
 
@@ -301,28 +301,28 @@ Note: Free trial doesn't have the organizations.
 
 #### Q42. You want to quickly evaluate Cloud Filestore. What are the steps, in order, to set up a test environment?
 
-- [ ]
+- [ ] A
   ```
   1. Create a Filestore instance.
   2. Mount the fileshare from that instance on a client VM instance.
   3. Create a Compute Instance VM to be the client.
   4. Create a file on the mounted fileshare.
   ```
-- [ ]
+- [ ] B
   ```
   1. Create a Filestore instance.
   2. Mount the fileshare from that instance on a client VM instance.
   3. Create a file on the mounted file share.
   4. Create a Compute Instance VM to be the client.
   ```
-- [x]
+- [x] C
   ```
   1. Create a Compute Instance VM to be the client.
   2. Create a Filestore instance.
   3. Mount the file share from that instance on a client VM instance.
   4. Create a file on the mounted fileshare.
   ```
-- [ ]
+- [ ] D
   ```
   1. Create a Compute Instance VM to be the client.
   2. Create a Cloud Filestore instance.
@@ -394,7 +394,7 @@ Note: Free trial doesn't have the organizations.
 - [ ] Set the job priority for each query to Batch and expect to see query results within 24 hours.
 - [ ] Set the job priority for each query to Batch and expect to see query results within 24 hours.
 
-Explanation: _BigQuery offers a choice of two pricing models for runnig queries: on-demand (you are charged for the number of bytes processes by each query) and flat-rate (you purchase slots - dedicated processing capacity)._ If the exploratory queries are one-off, running in Interactive mode using on-demand pricing seems to be the optimal answer.
+**Explanation**: _BigQuery offers a choice of two pricing models for runnig queries: on-demand (you are charged for the number of bytes processes by each query) and flat-rate (you purchase slots - dedicated processing capacity)._ If the exploratory queries are one-off, running in Interactive mode using on-demand pricing seems to be the optimal answer.
 
 [Reference](https://cloud.google.com/bigquery/pricing)
 
@@ -433,7 +433,7 @@ Explanation: _BigQuery offers a choice of two pricing models for runnig queries:
 - [ ] Nothing. Images are encrypted by default with a customer-managed key.
 - [x] Associate your image with a customer-managed key to encrypt it.
 
-Explanation: Google does not store your keys on its servers and cannot access your protected data unless you provide the key. This also means that if you forget or lose your key, there is no way for Google to recover the key or to recover any data encrypted with the lost key.
+**Explanation**: `Google does not store your keys on its servers and cannot access your protected data unless you provide the key. This also means that if you forget or lose your key, there is no way for Google to recover the key or to recover any data encrypted with the lost key.`
 
 [Reference](https://cloud.google.com/compute/docs/disks/customer-supplied-encryption)
 
@@ -443,3 +443,17 @@ Explanation: Google does not store your keys on its servers and cannot access yo
 - [x] Cloud Storage and Big Query
 - [ ] Cloud Pub/Sub and Cloud Spanner
 - [ ] Cloud Pub/Sub and Big Query
+
+#### Q56. You want to work with GCP Organisation users in the console. Where do you navigate to?
+
+- [ ] admin.google.com > Administration
+- [x] console.cloud.google.com > Administration
+- [ ] admin.google.com > Users
+- [ ] console.cloud.google.com > Users
+
+#### Q56. You want to select a fully managed platform for developing and hosting a web application written in Kotlin at scale on GCP. Which service should you choose?
+
+- [x] Google App Engine Flexible
+- [ ] Google App Engine Standard
+- [ ] Google Kubernetes Engine Flexible
+- [ ] Google Kubernetes Engine Standard

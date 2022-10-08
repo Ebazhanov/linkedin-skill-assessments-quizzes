@@ -29,10 +29,6 @@
 - [ ] 2
 - [ ] 3
 - [ ] 4
-- [ ] 5
-- [ ] 6
-- [ ] 7
-- [ ] 8
 
 #### Q5. In simulation, which constraint prevents movement in a specific direction?
 

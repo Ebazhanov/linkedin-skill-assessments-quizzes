@@ -417,3 +417,10 @@ NSlog(@"d1: %@", d1);
 - [ ] nil
 - [ ] -1
 - [ ] undefined
+
+#### Q41. Which thread should UI updates be processed on to avoid crashes and application lag?
+
+- [x] UI
+- [ ] dispatch
+- [ ] background
+- [ ] main

@@ -535,12 +535,13 @@ Note: there are centres of clusters (C0, C1, C2).
 #### Q71. What is the correct option?
 
 ![image](images/machine-learning_Q67.png)
-| no. | Red | Blue | Green |
-| --- | --- | --- | --- |
-| **1.** | Validation error | Training error | Test error |
-| **2.** | Training error | Test error | Validation error |
-| **3.** | Optimal error | Validation error | Test error |
-| **4.** | Validation error | Training error | Optimal error |
+
+| no.    | Red              | Blue             | Green            |
+| ------ | ---------------- | ---------------- | ---------------- |
+| **1.** | Validation error | Training error   | Test error       |
+| **2.** | Training error   | Test error       | Validation error |
+| **3.** | Optimal error    | Validation error | Test error       |
+| **4.** | Validation error | Training error   | Optimal error    |
 
 - [ ] 1
 - [ ] 2
@@ -616,8 +617,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] a type of reinforcement learning where accuracy degrades over time
 - [x] a type of reinforcement learning that focuses on rewards
 
-**Explanation**:Q-learning is a model-free reinforcement learning algorithm.Q-learning is a values-based learning algorithm. Value based algorithms updates the value function based on an equation(particularly Bellman equation).
-[Reference](<https://towardsdatascience.com/a-beginners-guide-to-q-learning-c3e2a30a653c#:~:text=Q%2Dlearning%20is%20a%20model,equation(particularly%20Bellman%20equation).&text=Means%20it%20learns%20the%20value,independently%20of%20the%20agent's%20actions.>)
+[Reference](<https://towardsdatascience.com/a-beginners-guide-to-q-learning-c3e2a30a653c#:~:text=Q%2Dlearning%20is%20a%20model,equation(particularly%20Bellman%20equation).&text=Means%20it%20learns%20the%20value,independently%20of%20the%20agent's%20actions>) **Explanation**:Q-learning is a model-free reinforcement learning algorithm.Q-learning is a values-based learning algorithm. Value based algorithms updates the value function based on an equation(particularly Bellman equation).
 
 #### Q81. The data in your model has low bias and low variance. How would you expect the data points to be grouped together on the diagram?
 
@@ -740,3 +740,53 @@ Note: there are centres of clusters (C0, C1, C2).
 - [x] it might be unethical for the business to identify people without their consent
 - [ ] it will be difficult to decide between supervised and unsupervised learning
 - [ ] the image in the video would not be high quality enough to identify individuals
+
+#### Q97. Which of the following machine learning algorithms is unsupervised?
+
+- [ ] Random forest
+- [ ] k-nearest neighbors
+- [ ] Support-vector machines
+- [x] K- means
+
+Explanation:
+During training, k-means partitions observations into k clusters. During inference, it assigns a given data point to the nearest cluster by distance. k-means is unsupervised, because it doesn't require labeled data to be trained.
+
+#### Q98. Averaging the output of multiple decision trees helps to::
+
+- [ ] Increase variance
+- [ ] Increase bias
+- [x] Decrease variance
+- [ ] Decrease bias
+
+`//Averaging models leads to higher stability and a lower variance than individual models. Mathematically, remember that $Var(\bar{X})=\frac{Var(X)}{N}`
+
+#### Q99. To optimize your objective function, you are performing full batch gradient descent using the entire training set (not stochastic gradient descent). Is it required to shuffle your training set?
+
+- [ ] Yes. If you don't, the optimization will oscillate around the minimum at the end of training.
+- [ ] Yes, in order to help the model generalize to the test dataset.
+- [ ] No, it is not necessary because the dataset can already be considered shuffled from the data collection process.
+- [x] No, because each update passes through the entire dataset anyway and the order doesn't matter.
+
+`//At every iteration, full batch gradient descent uses the entire training set to compute a gradient. The order in which data is processed doesn't impact the gradient value.`
+
+At every iteration, full batch gradient descent uses the entire training set to compute a gradient. The order in which data is processed doesn't impact the gradient value.
+
+#### Q100. You've received 1,000,000 images and have split it in 96%/2%/2% between train, dev and test sets. You've trained your model, and analyzed the results. After working further on the problem, you’ve decided to correct the incorrectly labeled data on the dev set.
+
+Which of these statements do you agree with?
+
+- [x] You should also correct the incorrectly labeled data in the test set, so that the dev and test sets still come from the same distribution.
+- [ ] You should correct incorrectly labeled data in the training set as well so as to avoid your training set now being even more different from your dev set.
+- [ ] You should not correct the incorrectly labeled data in the test set, because the test set should reflect the data distribution of the real world.
+- [ ] If you want to correct incorrectly labeled data, you should do it on all three sets (train/dev/test) in order to maintain similar distributions.
+
+`//It is important that your dev and test set have the closest possible distribution to "real" data.`
+
+#### Q101. You're working on a binary classification task, to classify if an image contains a cat ("1") or doesn't contain a cat ("0"). What loss would you choose to minimize in order to train a model?
+
+- [ ] L = y log y^ + (1−y) log (1− y^)
+- [x] L = - y log y^ - (1−y) log (1− y^)
+- [ ] L = || y - y^ ||22
+- [ ] L = || y - y^ ||22 + constant
+
+`//You are trying to minimize the binary cross entropy loss over the training set..`

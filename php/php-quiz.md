@@ -11,6 +11,7 @@
 
 **_Both sides of the "spaceship" are equal, so the answer is 0. PHP will convert '76 trombones' to 76 in this context, as the string starts with '76'. Try it!_**
 **_For php 8.0 and forward the answer is [x] -1, for previous versions the answer is [x] 0._**
+[PHP 8 changed the way non-strict comparison between numbers and non-numeric strings work.](https://www.php.net/manual/en/migration80.incompatible.php#migration80.incompatible.core.string-number-comparision)
 
 #### Q2. Which is the most secure way to avoid storing a password in clear text in database?
 
@@ -674,7 +675,7 @@ Dog
 Dog
 ```
 
-- [ ]
+- [ ] :
 
 ```php
       $name = "Cat";
@@ -684,7 +685,7 @@ Dog
       echo $Dog;
 ```
 
-- [ ]
+- [ ] :
 
 ```php
       $name = "Cat";
@@ -694,7 +695,7 @@ Dog
       echo $Dog;
 ```
 
-- [x]
+- [x] :
 
 ```php
       $name = "Cat";
@@ -704,7 +705,7 @@ Dog
       echo $Cat;
 ```
 
-- [ ]
+- [ ] :
 
 ```php
       $name = "Cat";
@@ -723,7 +724,7 @@ Dog
 
 #### Q61. Which script might be used to continue a user's search for music, across different webpages?
 
-- [ ]
+- [ ] :
 
 ```php
         <?php
@@ -732,7 +733,7 @@ Dog
         ?>
 ```
 
-- [ ]
+- [ ] :
 
 ```php
         <?php
@@ -741,7 +742,7 @@ Dog
         ?>
 ```
 
-- [ ]
+- [ ] :
 
 ```php
         <?php
@@ -750,7 +751,7 @@ Dog
         ?>
 ```
 
-- [x]
+- [x] :
 
 ```php
         <?php
@@ -761,7 +762,7 @@ Dog
 
 #### Q62. Which PHP script finds the earliest and latest dates from an array?
 
-- [x]
+- [x] :
 
 ```php
         <?php
@@ -771,7 +772,7 @@ Dog
         ?>
 ```
 
-- [ ]
+- [ ] :
 
 ```php
         <?php
@@ -781,7 +782,7 @@ Dog
         ?>
 ```
 
-- [ ]
+- [ ] :
 
 ```php
         <?php
@@ -791,7 +792,7 @@ Dog
         ?>
 ```
 
-- [ ]
+- [ ] :
 
 ```php
         <?php
@@ -812,7 +813,7 @@ for (;;) {
 }
 ```
 
-- [x]
+- [x] :
 
 ```
         kilometers = 0.6214 miles.
@@ -822,7 +823,7 @@ for (;;) {
         kilometers = 3.107 miles.
 ```
 
-- [ ]
+- [ ] :
 
 ```
         kilometers = 0.6214 miles.
@@ -833,7 +834,7 @@ for (;;) {
         kilometers = 3.7284 miles.
 ```
 
-- [ ]
+- [ ] :
 
 ```
         kilometers = 1.2428 miles.
@@ -1119,7 +1120,7 @@ if( isset($user_info['url']) ) {
 
 #### Q92. A form to subscrive to a newsletter is submitted using the POST method. The form has only one field: an input text field named "email". How would you check if the field is empty and, if it is, print "The email cannot be empty"?
 
-- [x]
+- [x] :
 
 ```php
 if(empty($_POST['email'])) {
@@ -1127,7 +1128,7 @@ if(empty($_POST['email'])) {
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```php
 if(empty($_GET['email'])) {
@@ -1135,7 +1136,7 @@ if(empty($_GET['email'])) {
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```php
 if(empty($_POST('email'))) {
@@ -1143,7 +1144,7 @@ if(empty($_POST('email'))) {
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```php
 if(isset($email)) {
@@ -1158,49 +1159,72 @@ if(isset($email)) {
 - [ ] This type of error causes erroneous results or may cause termination of program.
 - [x] This type of error causes termination after showing the list of errors and the line number where the errors have occured.
 
-[reference1](https://www.geeksforgeeks.org/php-types-of-errors/#:~:text=an%20error%20message.-,Fatal%20Error,-%3A%20It%20is)
-[reference2](https://www.c-sharpcorner.com/UploadFile/051e29/types-of-error-in-php/#:~:text=2.-,Fatal%20Errors,-Fatal%20errors%20are)
+1. [reference1](https://www.geeksforgeeks.org/php-types-of-errors/#:~:text=an%20error%20message.-,Fatal%20Error,-%3A%20It%20is)
+2. [reference2](https://www.c-sharpcorner.com/UploadFile/051e29/types-of-error-in-php/#:~:text=2.-,Fatal%20Errors,-Fatal%20errors%20are)
 
 #### Q94. Which script properly validates the IP address given?
 
-- [ ] $valid = ip2long($ip) !== false;
-- [x] $ip_address = "164.12.2540.1";
-      if(filter_var($ip_address, FILTER_VALIDATE_IP)){
-      echo "$ip_address is a valid IP address";
-        } else {
-           echo "$ip_address is not a valid IP address";
-      }
-- [ ] $ip_address = "164.12.2540.1";
-      if(validate_ip($ip_address)){
-      echo "$ip_address is a valid IP address";
-        } else {
-            echo "$ip_address is not a valid IP address";
-      }
-- [ ] $ip_address = "164.12.2540.1"
-      echo is_valid($ip_address, VALIDATE_IP);
+- [ ] :
+
+```php
+$valid = ip2long($ip) !== false;
+```
+
+- [x] :
+
+```php
+$ip_address = "164.12.2540.1";
+if(filter_var($ip_address, FILTER_VALIDATE_IP)){
+  echo "$ip_address is a valid IP address";
+} else {
+  echo "$ip_address is not a valid IP address";
+}
+```
+
+- [ ] :
+
+```php
+$ip_address = "164.12.2540.1";
+if(validate_ip($ip_address)){
+  echo "$ip_address is a valid IP address";
+} else {
+  echo "$ip_address is not a valid IP address";
+}
+```
+
+- [ ] :
+
+```php
+$ip_address = "164.12.2540.1"
+echo is_valid($ip_address, VALIDATE_IP);
+```
 
 #### Q95. What is the output of this code?
 
-$i = 0;
-while($i < 6) {
-if($i++ == 3) break;
-}
-echo "loop stopped at $i by break statement";
+```php
+    $i = 0;
+    while($i < 6) {
+    if($i++ == 3) break;
+    }
+    echo "loop stopped at $i by break statement";
+```
 
 - [ ] loop stopped at 3 by break statement
-- [ ] loop stopped at 4 by break statement
+- [x] loop stopped at 4 by break statement
 - [ ] loop stopped at 6 by break statement
-- [x] loop stopped at 2 by break statement
+- [ ] loop stopped at 2 by break statement
 
-####96. After creating your objects, you can call member functions related to that object, such as setting the names and prices for three "Pet" objects. What is the likely output of this code snippet?
+#### Q96. After creating your objects, you can call member functions related to that object, such as setting the names and prices for three "Pet" objects. What is the likely output of this code snippet?
 
-$dof->setTitle("Spot");
-$cat->setTitle("Mimi");
-$horse-?setTitle("Trigger");
-$dog->setPrice(10);
-$cat->setPrice(15);
-$horse->setPrice(7);
-print_r($cat);
+```php
+    $dof->setTitle("Spot");
+    $cat->setTitle("Mimi");
+    $horse-?setTitle("Trigger");
+    $dog->setPrice(10);
+    $cat->setPrice(15);
+    $horse->setPrice(7);
+    print_r($cat);
+```
 
 - [ ] Pet Object ( [title]=> Spot[price]=>10)
 - [x] Pet Object ( [title]=> Mimi [price]=>15 )
@@ -1218,7 +1242,7 @@ $array = array(
 'fruit5' => 'apple');
 ```
 
-- [x]
+- [x] :
 
 ```php
 while ($fruit_name = current($array)) {
@@ -1229,7 +1253,7 @@ while ($fruit_name = current($array)) {
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```php
 while ($fruit_name = current($array)) {
@@ -1240,7 +1264,7 @@ while ($fruit_name = current($array)) {
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```php
 while ($fruit_name = current($array)) {
@@ -1251,7 +1275,7 @@ while ($fruit_name = current($array)) {
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```php
 while ($fruit_name = current($array)) {
@@ -1259,3 +1283,29 @@ while ($fruit_name = current($array)) {
         echo key($array).'<br />';
     }
 ```
+
+#### Q98. What does this code return?
+
+```php
+class Smurf {
+
+  public $name = "Papa Smurf";
+
+  public function __construct($name) {
+    $this->name = $name;
+  }
+
+  public function set_name($name) {
+    $name = $name;
+  }
+}
+
+$smurf = new Smurf("Smurfette");
+$smurf->set_name("Handy Smurf");
+echo $smurf->name;
+```
+
+- [ ] nothing
+- [ ] Handy Smurf
+- [x] Smurfette
+- [ ] Papa Smurf

@@ -340,9 +340,9 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 ```
 
 - [ ] Link to the script directly from a template named page-contact.php, like this:
-- [ ] <head>
-- [ ] <script src="/my-script.js"></script>
-- [ ] </head>
+- [ ] `<head>`
+- [ ] `<script src="/my-script.js"></script>`
+- [ ] `</head>`
 
 #### Q39. Where can you find the official WordPress documentation and usage guide?
 
@@ -363,7 +363,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] Use the registerBlockName() function.
 - [ ] Use the createGutenBlock() function.
 - [ ] Use a block template.
-- [ ] Use the registerBlockType() function.
+- [x] Use the registerBlockType() function.
 
 #### Q42. Which software development principle, often used in WordPress, aims to reduce the repetition of code?
 
@@ -392,7 +392,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 #### Q45. On a regular WordPress install, what is the difference between transients and the object cache?
 
-- [ ] Transients are persistent and write to the wp_options. The object cache persists only for the particular page load.
+- [x] Transients are persistent and write to the wp_options. The object cache persists only for the particular page load.
 - [ ] Transients are stored in the WordPress database. The object cache is stored on the server where the WordPress install is located.
 - [ ] Transients are available for the duration of a user session and apply to all page components. The object cache is available only for scripts.
 - [ ] Transients persist only for the particular page load. The object cache is persistent and writes to the wp_options table.
@@ -436,7 +436,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] disables the ability to edit core WordPress files from either within the WordPress admin or via direct file access
 - [ ] sets read-only permissions on all files in the WordPress install
 
-**Explanation**: [More WordPress Security: Disallow File Edit Setting In WordPress](https://www.icontrolwp.com/blog/more-wordpress-security-disallow-file-edit-setting-wordpress/). Setting all files to read-only would make auto-updates impossible.
+[More WordPress Security: Disallow File Edit Setting In WordPress](https://www.icontrolwp.com/blog/more-wordpress-security-disallow-file-edit-setting-wordpress/). Setting all files to read-only would make auto-updates impossible.
 
 #### Q51. Which of the following must have underlined links in order to meet WCAG 2.0 accessibility standards?
 
@@ -459,7 +459,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 - [ ] the software is free to use
 - [ ] the software is free to modify
 
-#### Q54. Review of the HTML on line1. The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting into the database. What is wrong with this PHP code?
+#### Q54. Review the HTML on line 1. The goal of the PHP on line 2 is to extract the field value and assign it to a variable prior to inserting into the database. What is wrong with this PHP code?
 
 ```
 <input type="text" id="title" name="title" />
@@ -467,7 +467,7 @@ $title = $_POST[ 'title' ];
 ```
 
 - [ ] The code sample does not use the GET method. It should be wrapped in the `get_post_field()` function and look like this `$title = get_post_field( $GET[ 'title' ] );`
-- [x] The code sample does not use sanitize the form data. It should use the `sanitize_text_field()` function and look like this: `$title = sanitize_text_field( $_POST[ 'title' ] );`
+- [x] The code sample does not sanitize the form data. It should use the `sanitize_text_field()` function and look like this: `$title = sanitize_text_field( $_POST[ 'title' ] );`
 - [ ] There is no error. The code follows WordPress best practices.
 - [ ] The code sample does not allow for translation. It should use a translation function and look like this: `$title = __( $_POST[ 'title' ];`
 
@@ -535,7 +535,7 @@ $title = $_POST[ 'title' ];
 - [ ] is_page_template()
 - [x] is_single()
 
-[Ref](https://developer.wordpress.org/reference/functions/is_single/)
+[Reference](https://developer.wordpress.org/reference/functions/is_single/)
 
 #### Q63. Wordpress core and many plugins store data in the database in a special format as represented by the sample below. What format is this called?
 
@@ -546,7 +546,7 @@ $title = $_POST[ 'title' ];
 - [ ] PHP array
 - [ ] text array
 
-[Ref](https://wpengine.com/support/wordpress-serialized-data/)
+[Reference](https://wpengine.com/support/wordpress-serialized-data/)
 
 #### Q64. What is this code sample an example of?
 
@@ -572,7 +572,7 @@ endif;
 - [ ] functions.php style.css script.js
 - [x] functions.php style.css
 
-[Ref](https://kinsta.com/blog/wordpress-child-theme/)
+[Reference](https://kinsta.com/blog/wordpress-child-theme/)
 
 #### Q66. You can harden your Wordpress site security by adding **\_** to your wp-config.php file?
 
@@ -581,7 +581,7 @@ endif;
 - [ ] custom action hooks and filters
 - [x] unique keys and salts
 
-[Ref](https://www.malcare.com/blog/how-to-secure-your-wordpress-site-with-wp-config-php/)
+[Reference](https://www.malcare.com/blog/how-to-secure-your-wordpress-site-with-wp-config-php/)
 
 #### Q67. In the WordPress template hierarchy, which file could not be used to display an archive?
 
@@ -678,3 +678,10 @@ endif;
 - [ ] wp-config.php
 - [ ] cPanel
 - [x] Discussion Settings
+
+#### Q85. What can you not configure via wp-config.php?
+
+- [x] changing the default user role
+- [ ] changing the default wp_table prefix
+- [ ] changing your site or WordPress address
+- [ ] changing the default number of post revisions

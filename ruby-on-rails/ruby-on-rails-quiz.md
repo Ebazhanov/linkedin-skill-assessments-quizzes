@@ -949,3 +949,71 @@ def show
   end
 end
 ```
+
+#### Q70. Which keyword is used in a layout to identify a section where content from the view should be inserted?
+
+- [ ] render
+- [ ] puts
+- [ ] view_content
+- [x] yield
+
+[Reference](https://guides.rubyonrails.org/layouts_and_rendering.html)
+
+#### Q71. Which choice would you not consider when selecting a gem for your project?
+
+- [ ] how many downloads it has on Ruby Toolbox
+- [ ] if it is well documented
+- [x] how long pull requests and issues stay open
+- [ ] the date it was first released
+
+#### Q72. What decides which controller receives which requests?
+
+- [ ] web server
+- [x] router
+- [ ] view
+- [ ] model
+
+#### Q73. Which statement about this code will always be true?
+
+```ruby
+class UserController < ActionController::Base
+  def show
+    @user = User.find_by_id(session[:user_id])
+    @user ||= User.first
+  end
+end
+```
+
+- [ ] The variable `@user` will be set to the object returned by `User.first` unless `session[:user_id]` has a value.
+- [ ] The result of `User.find_by_id` is irrelevant because the variable `@user` will always be set to the object returned by `User.first`.
+- [ ] If `User.find_by_id` does not raise an exception, the variable `@user` will be set to the object returned by `User.first`.
+- [ ] If `User.find_by_id ` returns nil or false, the variable `@user` will be set to the object returned by `User.first`.
+
+#### Q74. When defining a resource route, seven routes are defined by default. Which two methods allow defining additional routes on the resource?
+
+- [ ] only, except
+- [ ] match, resolve
+- [ ] action, path
+- [ ] member, collection
+
+#### Q75. You are rendering a partial with this code. What will display the user's name?
+
+`<%= render partial: 'user_info', object: { name: 'user' } %>`
+
+- [ ] `<%= locals.user_info.name %>`
+- [ ] `<%= object.name %>`
+- [ ] `<%= @user.name %>`
+- [ ] `<%= @user_info.name %>`
+
+#### Q76. Once this form is submitted, which code in the controller would retrieve the string for :name?
+
+```
+<%= form_for(@category) do |f| %>
+<%= f.text_field(:name) %>
+<% end %>
+```
+
+- [ ] `params[:name]`
+- [ ] `@params.name`
+- [ ] `params.require(:category).permit(:name)`
+- [ ] `params[:category][:name]`

@@ -51,28 +51,28 @@
 
 #### Q8. You want to block crawlers from accessing your entire website. What robots.txt entry would you use?
 
-- [ ]
+- [ ] :
 
 ```markdown
     User-agent: Allbots
     Disallow: \*
 ```
 
-- [ ]
+- [ ] :
 
 ```markdown
     User-agent: /
     Disallow: \*
 ```
 
-- [ ]
+- [ ] :
 
 ```markdown
     User-agent: /
     Disallow:
 ```
 
-- [x]
+- [x] :
 
 ```markdown
     User-agent: \*
@@ -144,7 +144,7 @@
 
 #### Q18. Which choice represents the best header structure?
 
-- [x]
+- [x] :
 
 ```markdown
     H1: How to Bak Bagels
@@ -155,7 +155,7 @@
     H6: Reviews
 ```
 
-- [ ]
+- [ ] :
 
 ```markdown
     H1: How to Bak Bagels
@@ -166,7 +166,7 @@
     H2: Reviews
 ```
 
-- [ ]
+- [ ] :
 
 ```markdown
     H1: How to Bak Bagels
@@ -177,7 +177,7 @@
     H2: Reviews
 ```
 
-- [ ]
+- [ ] :
 
 ```markdown
     H1: How to Bak Bagels
@@ -577,3 +577,42 @@
 - [ ] crawling
 - [ ] indexing
 - [ ] HTTP responses
+
+#### Q71. How many H1 tags are typically found on a single page?
+
+- [ ] up to five
+- [x] one
+- [ ] as many as necessary
+- [ ] two
+
+#### Q72. What is a meta description used for?
+
+- [x] to summarize the content of a webpage
+- [ ] to bundle meta tags
+- [ ] to describe images
+- [ ] to assign schema markup
+
+#### Q73. Which tool would be best to use to research how many searches per month a term gets?
+
+- [ ] Google Search Console
+- [ ] Google Suggest
+- [x] Google Keyword Planner
+- [ ] Google Tag Manager
+
+#### Q74. What is an example of a top-level domain (TLD)?
+
+- [x] .net
+- [ ] domain.ai
+- [ ] www
+- [ ] 301
+
+[Reference](https://www.techopedia.com/definition/1348/top-level-domain-tld)
+
+#### Q75. What does the 301 server response code signify?
+
+- [ ] Not Modified
+- [x] Moved Permanently
+- [ ] Payment is required
+- [ ] Syntax error in the request
+
+`Explanation: The HyperText Transfer Protocol (HTTP) 301 Moved Permanently redirect status response code indicates that the requested resource has been definitively moved to the URL given by the Location headers. A browser redirects to the new URL and search engines update their links to the resource.`

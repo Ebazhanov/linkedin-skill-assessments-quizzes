@@ -169,10 +169,10 @@
 
 <img src="https://i.imgur.com/z2BfqIF.png" width="600" height="450"/>
 
-- [x] XY chart
+- [ ] XY chart
 - [ ] clustered column
 - [ ] bubble chart
-- [ ] combo chart
+- [x] combo chart
 
 #### Q24. In the image below, what does clicking the button indicated by the green arrow do?
 
@@ -399,9 +399,9 @@
 #### Q53. In the formula `=VLOOKUP(A1,D1:H30,3,FALSE)`, the lookup value (A1) is being looked for in **\_**.
 
 - [ ] column D
-- [x] columns D through H
+- [ ] columns D through H
 - [ ] column H
-- [ ] column F
+- [x] column F
 
 #### Q54. An .xlsx workbook is saved into .csv format. What is preserved in the new .csv file?
 
@@ -1043,10 +1043,10 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] `=CHOOSE(A2)`
 - [ ] `=TRIM(A2)`
 
-##### Q114. What is the output of the formula `=(8+2*3)/7?`
+##### Q114. What is the output of the formula `=(8+2*3)/7`?
 
 - [ ] 13
-- [x] 7
+- [x] 2
 - [ ] 11
 - [ ] 15
 
@@ -1179,8 +1179,8 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 ![WhatsApp Image 2022-08-15 at 00 08 22](https://user-images.githubusercontent.com/80069786/184557060-2164d8b6-37ae-41d3-9525-31e88065fbdc.jpeg)
 
 - [ ] =TRIM(A2,2)
-- [x] =LEFT(A2,2)
-- [ ] =RIGHT(A2,2)
+- [ ] =LEFT(A2,2)
+- [x] =RIGHT(A2,2)
 - [ ] =MID(A2,2)
 
 #### Q132. What is the fastest way to see the data in column E
@@ -1200,3 +1200,10 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] only the ribbon
 - [x] both the Quick Access Toolbar and the ribbon
 - [ ] only the Quick Access Toolbar
+
+#### Q134. Other than pasting an image, how can you insert an image file from your computer into a worksheet?
+
+- [x] On the **Insert** tab, click **Pictures > This Device** (Windows) or **Pictures > Picture from file** (Mac)
+- [ ] On the **Insert** tab, click **SmartArt > Copy Image from Device** (Windows) or **SmartArt > Copy** (Mac)
+- [ ] On the **Insert** tab, click **Illustrations > Insert Illustration from This Device**
+- [ ] On the **Insert** tab, click **Icons > Insert > Picture from This Device**

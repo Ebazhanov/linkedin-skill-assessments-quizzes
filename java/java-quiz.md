@@ -1254,9 +1254,8 @@ class TaxCalculator {
 
 **Note:** This code won't compile, broken code sample
 
-[Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
-
-[Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
+1. [Reference](https://www.geeksforgeeks.org/static-methods-vs-instance-methods-java/)
+2. [Code sample](https://replit.com/@mattheweller/EverlastingShadyBraces#TaxCalculator.java)
 
 #### Q89. Which characteristic does not apply to instances of java.util.HashSet=
 
@@ -1984,3 +1983,85 @@ switch (yearsMarried) {
 - [ ] cotton <br> leather
 - [x] cotton <br> leather <br> I don't gotta buy gifts for nobody!
 - [ ] cotton <br> I don't gotta buy gifts for nobody!
+
+#### Q136. What language feature do these expressions demonstrate?
+
+```System.out::println
+Doggie::fetch
+```
+
+- [ ] condensed invocation
+- [ ] static references
+- [x] method references
+- [ ] bad code
+
+#### Q137. What is the difference between the wait() and sleep methods?
+
+- [ ] Only Threads can wait, but any Object can be put to sleep.
+- [ ] A wait can be woken up by another Thread calling notify whereas a sleep cannot.
+- [x] When things go wrong, sleep throws an IllegalMonitorStateException whereas wait throws an InterruptedException.
+- [ ] Sleep allows for multi-threading whereas wait does not.
+
+#### Q138. Which is the right way to declare an enumeration of cats?
+
+- [ ] enum Cats (SPHYNX, SIAMESE, BENGAL);
+- [ ] enum Cats ("sphynx", "siamese", "bengal");
+- [x] enum Cats {SPHYNX, SIAMESE, BENGAL}
+- [ ] enum Cats {"sphynx","siamese","bengal}
+
+#### Q139. What happens when this code is run?
+
+```java
+List<String> horses = new ArrayList<String>();
+horses.add (" Sea Biscuit ");
+System.out.println(horses.get(1).trim());
+```
+
+- [ ] "Sea Biscuit" will be printed.
+- [ ] " Sea Biscuit " will be printed.
+- [x] An IndexOutOfBoundsException will be thrown.
+- [ ] A NullPointerException will be thrown.
+
+#### Q140. Which data structure would you choose to associate the amount of rainfall with each month?
+
+- [ ] Vector
+- [ ] LinkedList
+- [x] Map
+- [ ] Queue
+
+> Explanation (from @yktsang01 in #3915 thread)
+
+> Map because map is a key/value pair without creating new classes/objects. So can store the rainfall per month like
+> `Map<java.time.Month, Double>`
+> The other options will most likely need some new class to be meaningful
+
+```java
+public class Rainfall {
+private java.time.Month month;
+private double rainfall;
+}
+Vector<Rainfall>
+LinkedList<Rainfall>
+Queue<Rainfall>
+```
+
+#### Q141. Among the following which contains date information.
+
+- [x] java.sql timestamp
+- [ ] java.io time
+- [ ] java.io.timestamp
+- [ ] java.sql.time
+
+#### Q142. What is the size of float and double in java?
+
+- [x] 32 and 64
+- [ ] 32 and 32
+- [ ] 64 and 64
+- [ ] 64 and 32
+
+#### Q143. When you pass an object reference as an argument to a method call what gets passed?
+
+- [ ]a reference to a copy
+- [ ]a copy of the reference
+- [ ]the object itself
+- [x]the original reference

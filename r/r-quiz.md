@@ -428,7 +428,7 @@ StDf[, -1]
 MyMat = matrix(c(7, 9, 8, 6, 10, 12),nrow=2,ncol=3, byrow = TRUE)
 ```
 
-- [ ]
+- [ ] :
 
 ```
 [ ,3]
@@ -436,19 +436,19 @@ MyMat = matrix(c(7, 9, 8, 6, 10, 12),nrow=2,ncol=3, byrow = TRUE)
 [2, ] 12
 ```
 
-- [x]
+- [x] :
 
 ```
 [1] 8 12
 ```
 
-- [ ]
+- [ ] :
 
 ```
 [1] 10 12
 ```
 
-- [ ]
+- [ ] :
 
 ```
 [ ,3]
@@ -526,7 +526,7 @@ Petal.Width:Speciesvirginica    0.1008     0.5248   0.192   0.8480
 
 #### Q51. How do you obtain the row numbers in a data frame named `pizza` for which the value of `pizza$delivery_min` is greater than or equal to 30?
 
-- [ ]
+- [ ] :
 
 ```
 late_delivery <- pizza$delivery_min >= 30
@@ -534,7 +534,7 @@ index_late <- index(late_delivery)
 index_late
 ```
 
-- [ ]
+- [ ] :
 
 ```
 late_delivery <- pizza$delivery_min >= 30
@@ -542,7 +542,7 @@ rownum_late <- rownum(late_delivery)
 rownum_late
 ```
 
-- [x]
+- [x] :
 
 ```
 late_delivery <- pizza$delivery_min >= 30
@@ -550,7 +550,7 @@ which_late <- which(late_delivery)
 which_late
 ```
 
-- [ ]
+- [ ] :
 
 ```
 late_delivery <- pizza$delivery_min >= 30

@@ -37,20 +37,20 @@
 #### Q5. You need to have a keyboard appear when a text area is tapped. Which action type should you apply?
 
 - [ ] Auto-Animate
-- [ ] Overlay
+- [x] Overlay
 - [ ] Previous Artboard.
 - [ ] Transition.
 
 #### Q6. How do you stop guides from snapping to objects on the artboard?
 
 - [ ] Press Option (Mac) or Alt (Windows) when dragging the guide.
-- [х] Press Command (Mac) or Ctrl (Windows) when dragging the guide.
+- [x] Press Command (Mac) or Ctrl (Windows) when dragging the guide.
 - [ ] Press the Shift key when dragging the guide.
 - [ ] Drag the guide to its location on the artboard.
 
 #### Q7. Your developer notifies you that the left alignment of some the text in a slide in menu is off by 2 pixels. How did the developer catch this?
 
-- [ ] The distance values are shown in the developer's share screen.
+- [x] The distance values are shown in the developer's share screen.
 - [ ] The developer rolled over them in the developer's share screen.
 - [ ] The differing values were noted in the CSS.
 - [ ] Artboard guides appear in the developer's share screen.
@@ -71,7 +71,7 @@
 
 #### Q10. You have copied an interaction to the clipboard. How would you apply this interaction to multiple objects?
 
-- [ ] Shift-click each object and paste the interaction.
+- [x] Shift-click each object and paste the interaction.
 - [ ] Select the artboards and paste the interaction.
 - [ ] Select each object and paste the interaction.
 - [ ] Marquee the objects and paste the interaction.
@@ -81,7 +81,7 @@
 - [ ] mobile device with NFC
 - [ ] bluetooth connection
 - [ ] USB connection
-- [ ] wireless connection
+- [x] wireless connection
 
 #### Q12. Which export setting would you use to create a low-res asset whose size is 50% of the asset on the screen?
 
