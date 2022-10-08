@@ -347,10 +347,12 @@
 
 #### Q38. What cannot have a trigger associated with it?
 
-- [ ] temporary table
-- [x] system table
+- [x] temporary table
+- [ ] system table
 - [ ] large table
 - [ ] new table
+
+ [Reference](https://dev.mysql.com/doc/refman/5.7/en/create-trigger.html)
 
 #### Q39. later versions of mysql support the native json data type for storing json documents. What is a drawback of json columns?
 
