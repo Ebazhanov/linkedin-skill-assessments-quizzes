@@ -4,7 +4,7 @@
 
 #### Q1. What is it called when a tag with a leader has a drag control where the leader touches the element?
 
-- [ ] Attached End
+- [x] Attached End
 - [ ] Preferences > Reviewing
 - [ ] Preferences > Reading
 - [ ] Preferences > Commenting
@@ -18,7 +18,7 @@
 
 #### Q3. Where can you find a drop-down list of available named reference planes?
 
-- [ ] in the **Properties** palette
+- [x] in the **Properties** palette
 - [ ] in the Project Browser
 - [ ] on the Options Bar
 - [ ] in the **Set Work Plane** dialog box
