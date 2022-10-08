@@ -892,3 +892,12 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [x] Entitlement
 
 [Explanation] Entitlement refers to the privileges granted to a user when their account is first provisioned
+
+#### Q116. Who is the father of computer security??
+
+- [x] August Kerckhoffs
+- [ ] Bob Thomas
+- [ ] Charles Thomas
+- [ ] Robert Kerckhoffs
+
+[Explanation] August Kerckhoffs, a linguist and German professor at HEC, wrote an essay in the Journal of Military Science in February 1883. Kerckhoff had unwittingly established the foundations for contemporary encryption, earning him the title of “Father of Computer Security.”
