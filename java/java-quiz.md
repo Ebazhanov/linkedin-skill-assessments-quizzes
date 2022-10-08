@@ -2058,3 +2058,17 @@ Queue<Rainfall>
 - [ ] 32 and 32
 - [ ] 64 and 64
 - [ ] 64 and 32
+
+#### Q143. When you pass an object reference as an argument to a method call what gets passed?
+
+- [ ]a reference to a copy
+- [ ]a copy of the reference
+- [ ]the object itself
+- [x]the original reference
+	
+#### Q144. Which choice demonstrates a valid way to create a reference to a static function of another class?
+
+- [x] Function<Integer, Integer> funcReference = MyClass::myFunction;
+- [ ] Function<Integer, Integer> funcReference = MyClass.myFunction;
+- [ ] Function<Integer, Integer> funcReference = MyClass().myFunction();
+- [ ] Function<Integer, Integer> funcReference = MyClass::myFunction();
