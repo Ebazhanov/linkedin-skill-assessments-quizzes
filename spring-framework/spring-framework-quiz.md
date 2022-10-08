@@ -805,8 +805,10 @@ class TestConfig {
 
 - [ ] formatter.getClass()
 - [ ] context.containsBean("formatter")
-- [ ] context.getBean("formatter").getClass()
+- [x] context.getBean("formatter").getClass()
 - [ ] context.getClass()
+
+Explanation: Here only one line can throw NPE. Calling getClass() from context.getBean("formatter") can potentially throw NPE if context.getBean("formatter") will return null.
 
 #### Q77. What is the default rollback policy?
 
