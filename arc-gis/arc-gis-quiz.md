@@ -33,3 +33,12 @@
 - [ ] a folder of raster data files
 
 [Reference](https://desktop.arcgis.com/en/arcmap/10.7/manage-data/raster-and-images/how-raster-data-is-stored-and-managed.htm#:~:text=A%20mosaic%20dataset%20is%20a,size%20and%20number%20of%20datasets.)
+
+#### Q5. Using the explore tool in ArcGIS Pro, how do you zoom in and out of the map?
+
+- [ ] Press shift and left-click to zoom in. Press ctrl and left-click to zoom out. 
+- [ ] Hold the left mouse button, and drag up to zoom in and drag down to zoom out.
+- [x] Move the mouse scroll wheel forward to zoom out and backward to zoom in.
+- [ ] Click and drag a box with the left mouse button to zoom in; press shift and drag a box to zoom out.
+
+[Reference](https://pro.arcgis.com/en/pro-app/latest/help/mapping/navigation/navigation-in-arcgis-pro.htm#:~:text=Explore%20maps%20and%20scenes,-The%20default%20tool&text=%2C%20which%20is%20used%20to%20move,up%20or%20down%20to%20zoom.)
