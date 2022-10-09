@@ -1948,7 +1948,8 @@ alert(a++(+(+(+b))));
 - [x] 9
 - [ ] 20
 
-#### Q138. Which document method is not used to get a reference to a DOM node?
+#### Q139. Which document method is not used to get a reference to a DOM node?
+
 - [ ] document.getNode();
 - [ ] document.getElementsByClassName();
 - [x] document.querySelectorAll();
@@ -1956,3 +1957,16 @@ alert(a++(+(+(+b))));
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById#:~:text=querySelector()%20and%20Document.,element%20objects%20in%20the%20DOM.)
 
+
+#### Q140. Which snippet could you add to this code to print "{"type”: “tiger"}" to the console?
+let cat = {type: "tiger", size: "large"};
+let json= /* Snippet Here */;
+console.log(json); //prints {"type”: “tiger"}
+
+
+- [x] JSON.sringify(cat);
+- [ ] JSON.sringify(cat, ["type"]);
+- [ ] JSON.sringify(cat, /type/);
+- [ ] cat.toJSON("type");
+
+[Reference](https://www.w3schools.com/jsref/jsref_stringify.asp) 
