@@ -143,3 +143,12 @@ Note: I just use synchronization. After digging into settings I was able only to
 - [ ] Export as JPEG
 
 [Reference](https://helpx.adobe.com/in/lightroom-classic/help/create-photo-book.html)
+
+#### Q19. Saturation and Vibrance both strengthen the intensity of the color in your image, however Vibrance is more specific to __ .
+
+- [x] Midtones
+- [ ] Shadows
+- [ ] Highlights
+- [ ] Global
+
+[Reference](https://www.slrlounge.com/vibrance-vs-saturation-what-is-the-difference/)
