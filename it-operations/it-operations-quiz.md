@@ -395,7 +395,7 @@
 
 [Reference](https://pediaa.com/difference-between-short-term-and-long-term-memory/)
 
-#### Q48. What is referred to by SSID
+#### Q48. What is referred to by SSID?
 
 - [x] Service Set Identifier, a wireless network's name
 - [ ] an older security protocol for Wi-Fi networks

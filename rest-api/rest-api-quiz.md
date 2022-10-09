@@ -9,10 +9,10 @@
 
 #### Q2. Which URL pattern is recommended when working with one resource and a collection of resources?
 
-- [ ] `/companies/{id} and/company`
-- [ ] `/company/{id} and/companies`
-- [x] `/companies/{id} and/companies`
-- [ ] `/company/{id} and/company`
+- [ ] `/companies/{id} and /company`
+- [ ] `/company/{id} and /companies`
+- [x] `/companies/{id} and /companies`
+- [ ] `/company/{id} and /company`
 
 #### Q3. When dealing with JSON web Tokens (JWTs), what is a claim?
 
@@ -346,9 +346,9 @@
 
 #### Q47. When a user attempts to access a record that is not their own, which HTTP response code is the most appropriate?
 
-- [ ] `403`
+- [x] `403`
 - [ ] `404`
-- [x] `401`
+- [ ] `401`
 - [ ] `405`
 
 [Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
@@ -501,3 +501,12 @@
 - [ ] `external traffic`
 
 [North-South vs East-West Traffic](https://www.snapt.net/glossary/north-south-vs-east-west-traffic)
+
+#### Q66. Which OAuth grant type is appropriate for mobile apps?
+
+- [x] Authorization Code with PKCE
+- [ ] Client Credentials
+- [ ] Device
+- [ ] Resource Owner Password
+
+[OAuth 2.0 for Native and Mobile Apps](https://developer.okta.com/blog/2018/12/13/oauth-2-for-native-and-mobile-apps)
