@@ -510,3 +510,12 @@
 - [ ] Resource Owner Password
 
 [OAuth 2.0 for Native and Mobile Apps](https://developer.okta.com/blog/2018/12/13/oauth-2-for-native-and-mobile-apps)
+
+#### Q65. Which datetime format is the easiest or most predictable to parse and process?
+
+- [ ] `YY-M-D hh:mm:ss+TZ`
+- [ ] `YY-M-D h:mm:ss`
+- [x] `YYYY-MM-DDThh:mm:ssZ`
+- [ ] `YYYY-M-D hh:mm:ss`
+
+[The 5 laws of API dates and times](https://apiux.com/2013/03/20/5-laws-api-dates-and-times/)
