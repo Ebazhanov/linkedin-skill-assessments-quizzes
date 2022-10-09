@@ -1380,3 +1380,10 @@ return 0;
 - [ ] 2
 - [x] 3
 - [ ] 6
+
+#### Q84. What does "c" stands for in cout and cin.
+
+- [ ] compiler
+- [ ] console
+- [x] character
+- [ ] standard namespace
