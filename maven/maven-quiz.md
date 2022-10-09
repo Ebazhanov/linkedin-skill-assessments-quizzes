@@ -506,3 +506,12 @@ mvn install
 - [x] plugins
 
 [!reference](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
+
+### Q64. What does the mvn --version command do?
+
+- [ ] It updates Maven to the latest version.
+- [x] It prints out your installed version of Maven.
+- [ ] It builds your Maven project.
+- [ ] It installs Maven on your computer.
+
+[!reference](https://jenkov.com/tutorials/maven/maven-commands.html)
