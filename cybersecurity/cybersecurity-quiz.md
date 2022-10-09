@@ -858,3 +858,12 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] Antivirus
 - [x] Design powerful malicious software
 - [x] Asymmetric backdoor
+
+#### Q112. What does a metamorphic virus do?
+
+- [ ] Static analyser
+- [ ] Antivirus
+- [x] Generates a whole variable code using a variable encryptor
+- [ ] Mutation function
+
+[Explanation:] (https://link.springer.com/content/pdf/10.1007/11560647.pdf)
