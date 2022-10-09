@@ -506,3 +506,13 @@ mvn install
 - [x] plugins
 
 [!reference](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
+
+
+### Q64. Why is it best practice not to release SNAPSHOT versions of Maven artifacts to production?
+
+- [x] A release marked with SNAPSHOT indicates that not all of the tests have passed.
+- [ ] A SNAPSHOT can be hard to reproduce, making it difficult to determine the cause of an issue.
+- [ ] SNAPSHOT releases do not contain any dependencies.
+- [ ] A release marked with SNAPSHOT may contain sensitive security information.
+
+[!reference](https://maven.apache.org/guides/getting-started/index.html#What_is_a_SNAPSHOT_version)
