@@ -506,3 +506,12 @@ mvn install
 - [x] plugins
 
 [!reference](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
+
+### Q64. When building a Maven project, where are Maven dependencies stored?
+
+- [ ] in the target directory
+- [x] in your local repository
+- [ ] in the POM file
+- [ ] online in the Maven central repository
+
+[!reference](https://www.baeldung.com/maven-local-repository)
