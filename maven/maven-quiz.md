@@ -506,3 +506,12 @@ mvn install
 - [x] plugins
 
 [!reference](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
+
+### Q64. What is a module in a Maven project?
+
+- [ ] a dependency
+- [x] a subproject, or child project
+- [ ] a Java package
+- [x] a plugin
+
+[!reference](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
