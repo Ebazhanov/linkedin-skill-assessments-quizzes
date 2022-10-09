@@ -1947,3 +1947,12 @@ alert(a++(+(+(+b))));
 - [ ] 10
 - [x] 9
 - [ ] 20
+
+#### Q138. Which document method is not used to get a reference to a DOM node?
+- [ ] document.getNode();
+- [ ] document.getElementsByClassName();
+- [x] document.querySelectorAll();
+- [ ] document.querySelector();
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById#:~:text=querySelector()%20and%20Document.,element%20objects%20in%20the%20DOM.)
+
