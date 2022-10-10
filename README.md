@@ -36,7 +36,7 @@ have a great understanding about.
 - Web App #2 https://linkedin-faq.github.io/skill-assessments-quizzes/
 - In **terminal** https://github.com/linkedin-faq/linkedin-quizzes-kodyfire
 
-want to contribute? here is the source code https://github.com/linkedin-faq
+Want to contribute? Here is the source code https://github.com/linkedin-faq
 
 ## Open in VScode view [here](https://github1s.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/HEAD/adobe-photoshop/adobe-photoshop-quiz.md) or [there](https://github.dev/Ebazhanov/linkedin-skill-assessments-quizzes/) 🔥
 
