@@ -805,8 +805,10 @@ class TestConfig {
 
 - [ ] formatter.getClass()
 - [ ] context.containsBean("formatter")
-- [ ] context.getBean("formatter").getClass()
+- [x] context.getBean("formatter").getClass()
 - [ ] context.getClass()
+
+Explanation: Here only one line can throw NPE. Calling getClass() from context.getBean("formatter") can potentially throw NPE if context.getBean("formatter") will return null.
 
 #### Q77. What is the default rollback policy?
 
@@ -863,3 +865,17 @@ class TestConfig {
 - [ ] You work with a collection of Objects that need to be explicitly casted.
 - [x] You work with an array of a Generic type T[] instead of Object[] arrays.
 - [ ] You are able to undo type erasure in the Object[] that is exposed
+
+#### Q84. Which are considered to be typical, common, cross-cutting concerns that would be a good fit for AOP? (Choose 3)
+
+    - A. Creating SQL queries
+    - B. Logging
+    - C. Filtering, sorting and transforming data
+    - D. Transaction management
+    - E. Audit logging
+    - F. Business logic
+
+- [ ] A, D, F
+- [ ] D, E, F
+- [ ] A, B, F
+- [ ] B, D, E

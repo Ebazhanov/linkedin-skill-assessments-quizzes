@@ -1164,29 +1164,50 @@ if(isset($email)) {
 
 #### Q94. Which script properly validates the IP address given?
 
-- [ ] $valid = ip2long($ip) !== false;
-- [x] $ip_address = "164.12.2540.1";
-      if(filter_var($ip_address, FILTER_VALIDATE_IP)){
-      echo "$ip_address is a valid IP address";
-        } else {
-           echo "$ip_address is not a valid IP address";
-      }
-- [ ] $ip_address = "164.12.2540.1";
-      if(validate_ip($ip_address)){
-      echo "$ip_address is a valid IP address";
-        } else {
-            echo "$ip_address is not a valid IP address";
-      }
-- [ ] $ip_address = "164.12.2540.1"
-      echo is_valid($ip_address, VALIDATE_IP);
+- [ ] :
+
+```php
+$valid = ip2long($ip) !== false;
+```
+
+- [x] :
+
+```php
+$ip_address = "164.12.2540.1";
+if(filter_var($ip_address, FILTER_VALIDATE_IP)){
+  echo "$ip_address is a valid IP address";
+} else {
+  echo "$ip_address is not a valid IP address";
+}
+```
+
+- [ ] :
+
+```php
+$ip_address = "164.12.2540.1";
+if(validate_ip($ip_address)){
+  echo "$ip_address is a valid IP address";
+} else {
+  echo "$ip_address is not a valid IP address";
+}
+```
+
+- [ ] :
+
+```php
+$ip_address = "164.12.2540.1"
+echo is_valid($ip_address, VALIDATE_IP);
+```
 
 #### Q95. What is the output of this code?
 
+```php
     $i = 0;
     while($i < 6) {
     if($i++ == 3) break;
     }
     echo "loop stopped at $i by break statement";
+```
 
 - [ ] loop stopped at 3 by break statement
 - [x] loop stopped at 4 by break statement
@@ -1195,6 +1216,7 @@ if(isset($email)) {
 
 #### Q96. After creating your objects, you can call member functions related to that object, such as setting the names and prices for three "Pet" objects. What is the likely output of this code snippet?
 
+```php
     $dof->setTitle("Spot");
     $cat->setTitle("Mimi");
     $horse-?setTitle("Trigger");
@@ -1202,6 +1224,7 @@ if(isset($email)) {
     $cat->setPrice(15);
     $horse->setPrice(7);
     print_r($cat);
+```
 
 - [ ] Pet Object ( [title]=> Spot[price]=>10)
 - [x] Pet Object ( [title]=> Mimi [price]=>15 )
@@ -1260,3 +1283,29 @@ while ($fruit_name = current($array)) {
         echo key($array).'<br />';
     }
 ```
+
+#### Q98. What does this code return?
+
+```php
+class Smurf {
+
+  public $name = "Papa Smurf";
+
+  public function __construct($name) {
+    $this->name = $name;
+  }
+
+  public function set_name($name) {
+    $name = $name;
+  }
+}
+
+$smurf = new Smurf("Smurfette");
+$smurf->set_name("Handy Smurf");
+echo $smurf->name;
+```
+
+- [ ] nothing
+- [ ] Handy Smurf
+- [x] Smurfette
+- [ ] Papa Smurf

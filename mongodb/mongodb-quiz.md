@@ -530,12 +530,13 @@ Note: count() works with find(...) but length works with distinct
 
 #### Q75. What is the internal data structure of a MongoDB document?
 
-- [x] JSON (JavaScript Object Notation)
-- [ ] BSON (Binary JSON)
+- [ ] JSON (JavaScript Object Notation)
+- [x] BSON (Binary JSON)
 - [ ] ORM (object relational mode)
 - [ ] MBF (MongoDB binary format)
 
-[MongoDB documentation](https://docs.mongodb.com/guides/server/introduction/)
+[MongoDB documentation](https://www.mongodb.com/docs/manual/core/document/)
+[JSON and BSON](https://www.mongodb.com/json-and-bson)
 
 #### Q76. Which projection shows only the FirstName and lastName fields of a document in the customers collection?
 

@@ -975,7 +975,7 @@ end
 
 #### Q73. Which statement about this code will always be true?
 
-```ruby 
+```ruby
 class UserController < ActionController::Base
   def show
     @user = User.find_by_id(session[:user_id])
@@ -984,10 +984,10 @@ class UserController < ActionController::Base
 end
 ```
 
-- [ ] The variable ```@user``` will be set to the object returned by ```User.first``` unless ```session[:user_id]``` has a value.
-- [ ] The result of ```User.find_by_id``` is irrelevant because the variable ```@user``` will always be set to the object returned by ```User.first```.
-- [ ] If ```User.find_by_id``` does not raise an exception, the variable ```@user``` will be set to the object returned by ```User.first```.
-- [ ] If ```User.find_by_id ``` returns nil or false, the variable ```@user``` will be set to the object returned by ```User.first```.
+- [ ] The variable `@user` will be set to the object returned by `User.first` unless `session[:user_id]` has a value.
+- [ ] The result of `User.find_by_id` is irrelevant because the variable `@user` will always be set to the object returned by `User.first`.
+- [ ] If `User.find_by_id` does not raise an exception, the variable `@user` will be set to the object returned by `User.first`.
+- [ ] If `User.find_by_id ` returns nil or false, the variable `@user` will be set to the object returned by `User.first`.
 
 #### Q74. When defining a resource route, seven routes are defined by default. Which two methods allow defining additional routes on the resource?
 
@@ -998,12 +998,12 @@ end
 
 #### Q75. You are rendering a partial with this code. What will display the user's name?
 
-``` <%= render partial: 'user_info', object: { name: 'user' } %> ```
+`<%= render partial: 'user_info', object: { name: 'user' } %>`
 
-- [ ] ``` <%= locals.user_info.name %> ```
-- [ ] ``` <%= object.name %> ```
-- [ ] ``` <%= @user.name %> ```
-- [ ] ``` <%= @user_info.name %> ```
+- [ ] `<%= locals.user_info.name %>`
+- [ ] `<%= object.name %>`
+- [ ] `<%= @user.name %>`
+- [ ] `<%= @user_info.name %>`
 
 #### Q76. Once this form is submitted, which code in the controller would retrieve the string for :name?
 
@@ -1013,7 +1013,7 @@ end
 <% end %>
 ```
 
-- [ ] ``` params[:name] ```
-- [ ] ``` @params.name ```
-- [ ] ``` params.require(:category).permit(:name) ```
-- [ ] ``` params[:category][:name] ```
+- [ ] `params[:name]`
+- [ ] `@params.name`
+- [ ] `params.require(:category).permit(:name)`
+- [ ] `params[:category][:name]`

@@ -2058,3 +2058,38 @@ Queue<Rainfall>
 - [ ] 32 and 32
 - [ ] 64 and 64
 - [ ] 64 and 32
+
+#### Q143. When you pass an object reference as an argument to a method call what gets passed?
+
+- [ ]a reference to a copy
+- [ ]a copy of the reference
+- [ ]the object itself
+- [x]the original reference
+
+#### Q144. Which choice demonstrates a valid way to create a reference to a static function of another class?
+
+- [x] Function<Integer, Integer> funcReference = MyClass::myFunction;
+- [ ] Function<Integer, Integer> funcReference = MyClass.myFunction;
+- [ ] Function<Integer, Integer> funcReference = MyClass().myFunction();
+- [ ] Function<Integer, Integer> funcReference = MyClass::myFunction();
+
+#### Q145. What is UNICODE?
+
+- [ ] Unicode is used for external representation of words and strings
+- [ ] Unicode is used for internal representation of characters and strings
+- [x] Unicode is used for external representation of characters and strings
+- [ ] Unicode is used for internal representation of words and strings
+
+#### Q146. What kind of thread is the Garbage collector thread?
+
+- [ ] User thread
+- [x] Daemon thread
+- [ ] Both
+- [ ] None of these
+
+#### Q147. What is HashMap and Map?
+
+- [ ] HashMap is Interface and map is class that implements that
+- [ ] HashMap is class and map is interface that implements that
+- [ ] Map is class and Hashmap is interface that implements that
+- [x] Map is Interface and Hashmap is class that implements that

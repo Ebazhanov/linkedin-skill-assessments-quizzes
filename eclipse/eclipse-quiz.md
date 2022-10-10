@@ -277,7 +277,6 @@
 - [x] Install the Bugzilla plug-in.
 - [ ] Create a new local task in the Task List.
 
-
 #### Q40. Which of these is/are listed when searching via the Quick Access search bar?
 
 - [ ] files in the current workspace
@@ -285,14 +284,12 @@
 - [ ] XML attribute values
 - [ ] Java members
 
-
 #### Q41. After opening a code file, you notice some of the syntax coloring is missing. What is the most likely problem?
 
 - [ ] The code has an error.
 - [ ] The code is in a language that is too new for Eclipse to support.
 - [ ] The code has the wrong file delimiters.
 - [x] The perspective you are using is out of date.
-
 
 #### Q42. When enabled for a specific section, what do the preferences in Java > Editor > Folding control?
 

@@ -506,3 +506,12 @@ mvn install
 - [x] plugins
 
 [!reference](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
+
+### Q64. Which plugin is used to copy, filter, include, and exclude non-Java files into your final project?
+
+- [ ] Build
+- [ ] Files
+- [ ] Copy
+- [x] Resources
+
+[!reference](https://maven.apache.org/plugins/maven-resources-plugin/examples/include-exclude.html)
