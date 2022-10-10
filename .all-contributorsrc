@@ -11209,6 +11209,26 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Denny-UD",
+      "name": "Umang Dakh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77261658?v=4",
+      "profile": "https://github.com/Denny-UD",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "ShaliniChavan",
+      "name": "Shalini Chavan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15189398?v=4",
+      "profile": "https://github.com/ShaliniChavan",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

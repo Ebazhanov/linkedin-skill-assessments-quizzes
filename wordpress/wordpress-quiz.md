@@ -685,3 +685,12 @@ endif;
 - [ ] changing the default wp_table prefix
 - [ ] changing your site or WordPress address
 - [ ] changing the default number of post revisions
+
+#### Q85. When it comes to best practice for WordPress development, what is the preferred method for adding a custom post type (CPT) to a site? 
+
+- [ ] Add CPTs via phpMyAdmin.
+- [x] Add CPTs via a plugin.
+- [ ] Add CPTs via a parent theme.
+- [ ] Add CPTs via a child theme.
+
+[Reference](https://www.wpbeginner.com/wp-tutorials/how-to-create-custom-post-types-in-wordpress/) 
