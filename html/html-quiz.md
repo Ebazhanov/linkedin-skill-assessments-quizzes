@@ -1920,3 +1920,12 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 - [x] `<div>` is used where a generic block-level tag is needed, while `<span>` is used where a generic inline tag is needed.
 - [] `<div>` is the industry standard default tag, but you could use `<span>` if you prefer.
 - [ ] `<div>` is used where a generic inline tag is needed, while `<span>` is used where a generic block-level tag is needed.
+
+#### Q111. what does the a in the html a tag stands for?
+
+- [ ] assign
+- [ ] add tag
+- [x] anchor tag
+- [ ] none of the above
+
+[Source](https://stackoverflow.com/questions/39434659/what-does-the-a-in-the-html-a-tag-stand-for)
