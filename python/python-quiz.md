@@ -2057,10 +2057,11 @@ print(animals['d'])
 ```
 [x*2 for x in range(1,n)]
 ```
-- [x] a list with all the even numbers less than 2*n
-- [ ] a dictionary with all the even numbers less than 2*n
-- [ ] a list with all the odd numbers less than 2*n
-- [ ] a list with all the even numbers less than or equal to 2*n
+
+- [x] a list with all the even numbers less than 2\*n
+- [ ] a dictionary with all the even numbers less than 2\*n
+- [ ] a list with all the odd numbers less than 2\*n
+- [ ] a list with all the even numbers less than or equal to 2\*n
 
 [Reference](https://www.w3schools.com/python/ref_func_range.asp)
 
@@ -2078,7 +2079,56 @@ else:
 	print('C')
 
 ```
+
 - [ ] C
-- [ ] A  B
+- [ ] A B
 - [ ] B
 - [x] A
+
+#### Q151. Suppose you have a variable named vector of type np.array with 10.000 elements. How can you turn vector into a variable named matrix with dimensions 100x100?
+
+- [ ] matrix = matrix(vector,100,100)
+- [ ] matrix = vector.to_matrix(100,100)
+- [ ] matrix = (vector.shape = (100,100))
+- [x] matrix = vector.reshape(100,100)
+      Exa
+
+#### Q152. What is the maximum length of a Python identifier?
+
+- [ ] 32
+- [ ] 16
+- [ ] 128
+- [x] No fixed length is specified
+
+#### Q153. What will the value of the i variable be when the following loop finishes its execution?
+
+for i in range(5): pass
+
+- [ ] 5
+- [ ] the variable becomes unavailable
+- [ ] 6
+- [x] 4
+
+#### Q154. f-strings are also called:
+
+- [ ] Formatted string expressions
+- [ ] Functional strings
+- [ ] Modulo formatted strings
+- [x] Formatted string literals
+
+
+#### Q155. How many CPUs (or cores) will the Python threading library take advantage of simultaneously?
+
+- [x] One
+- [ ] All of the available CPUs
+- [ ] Two
+- [ ] Three
+
+**Explanation**:
+
+```
+Python threading is restricted to a single CPU at one time. The multiprocessing library will allow you to run code on different processors.
+```
+
+
+

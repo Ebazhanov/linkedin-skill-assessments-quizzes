@@ -1355,3 +1355,28 @@ sprite->x
 - [x] The compiler needs the data type to caculate the length of the pointed data (for reading and writing) and to calculate increments and decrements to the pointer.
 - [ ] The compiler needs the data type to make sure that the pointer is not going to be used on illegal non-pointable types such as functions, labels, pointers, and references.
 - [ ] The compiler needs the data type to know how much memory to allocate for the pointer, because different data types require different pointer lenghts.
+
+#### Q82. The default executable generation on UNIX for a C++ program is \_
+
+- [ ] a.exe
+- [ ] a
+- [x] a.out
+- [ ] out.a
+
+
+#### Q83. What will be the output of the following program?
+
+```cpp
+#include<iostream>
+using namespace std;
+int main(){
+int a=1;
+cout<<(a++)*(++a)<<endl;
+return 0;
+}
+```
+
+- [ ] 1
+- [ ] 2
+- [x] 3
+- [ ] 6

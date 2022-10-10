@@ -188,6 +188,8 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 - [ ] exec("ps", "-ef")
 - [ ] fork("ps -ef")
 
+**Reference:** From official docs: [reference](https://nodejs.org/api/child_process.html#child_processforkmodulepath-args-options)
+
 #### Q22. Which console method can be used to print the stack trace to the point of its execution?
 
 - [ ] stack

@@ -591,3 +591,39 @@
 - [ ] to bundle meta tags
 - [ ] to describe images
 - [ ] to assign schema markup
+
+#### Q73. Which tool would be best to use to research how many searches per month a term gets?
+
+- [ ] Google Search Console
+- [ ] Google Suggest
+- [x] Google Keyword Planner
+- [ ] Google Tag Manager
+
+#### Q74. What is an example of a top-level domain (TLD)?
+
+- [x] .net
+- [ ] domain.ai
+- [ ] www
+- [ ] 301
+
+[Reference](https://www.techopedia.com/definition/1348/top-level-domain-tld)
+
+#### Q75. What does the 301 server response code signify?
+
+- [ ] Not Modified
+- [x] Moved Permanently
+- [ ] Payment is required
+- [ ] Syntax error in the request
+
+`Explanation: The HyperText Transfer Protocol (HTTP) 301 Moved Permanently redirect status response code indicates that the requested resource has been definitively moved to the URL given by the Location headers. A browser redirects to the new URL and search engines update their links to the resource.`
+    
+#### Q75. What tag should you use to signal the main topic heading of a page?
+    
+- [x] `<h1>`
+- [ ] `<h0>`
+- [ ] `<strong>`
+- [ ] `<em>`
+ 
+    
+ [Reference](https://blog.hubspot.com/marketing/header-tags)
+

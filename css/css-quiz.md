@@ -1017,10 +1017,10 @@ background-position: 10% 50%;
 grid-template-columns: 2fr 1fr;
 ```
 
-- [ ] The first column is twice the height of the second column and will be as wide as the content
-- [ ] The first column is half the size of the container and the second column will absorb the remaining space
-- [x] The first column is twice as wide as the second column and will fit proportionally within the grid container
-- [ ] The first column is twice the width and height of the second column, and will fit proportionally within the grid container
+- [ ] The first column will be twice the height of the second column, and will be as wide as the content.
+- [ ] The first column will be half the size of the container, and the second column will absorb the remaining space.
+- [x] The first column will be twice as wide as the second column, and will fit proportionally within the grid container.
+- [ ] The first column will be twice the width and height of the second column, and will fit proportionally within the grid container.
 
 #### Q85. Which style rule would make the image 50% smaller during a hover?
 
@@ -2046,7 +2046,7 @@ img {
 - [x] padding: 10px 10px 0px 0px;
 - [ ] padding: 10px 0;
 - [ ] padding: 10px 0px 10px 0px;
-  
+
 [Reference](https://www.w3schools.com/css/css_padding.asp)
 
 #### Q132. How would you absolutely position an element of the logo class inside of a relatively positioned container?
@@ -2090,21 +2090,22 @@ img {
   margin-top: 150px;
 }
 ```
-  
-#### Q133. How would the ```<div>``` with the class .child be positioned within its container?
+
+#### Q133. How would the `<div>` with the class .child be positioned within its container?
+
 ```html
 <style>
-.container{
-height: 200px;
-width: 200px;
-}
-.child{
-margin: auto 0;
-height: 100px;
-}
+  .container {
+    height: 200px;
+    width: 200px;
+  }
+  .child {
+    margin: auto 0;
+    height: 100px;
+  }
 </style>
 <div class="container">
-    <div class="child">...</div>
+  <div class="child">...</div>
 </div>
 ```
 
@@ -2115,7 +2116,7 @@ height: 100px;
 
 [Reference](https://codepen.io/harsh1x4/pen/poVaQVz)
 
-#### Q134. By default, a CSS transition is __
+#### Q134. By default, a CSS transition is \_\_
 
 - [ ] asymmetric, so that the transition going from the initial state to the end state is different from the transition going from the end state back to the initial state.
 - [ ] one sided, so that there is only one transition and it goes from the initial state to the end state.
@@ -2123,3 +2124,161 @@ height: 100px;
 - [ ] one-sided, so that there is only one transition and it goes from the end state to the initial state.
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
+
+#### Q135. Which style rule will extend the header element across an entire grid row from the first column through the last column?
+
+- [ ] A
+
+```css
+header {
+  grid-column: 1 / auto;
+}
+```
+
+- [x] B
+
+```css
+header {
+  grid-column: 1/-1;
+}
+```
+
+- [ ] C
+
+```css
+header {
+  grid-column: -1/1;
+}
+```
+
+- [ ] D
+
+```css
+header {
+  grid-column: 1/100%;
+}
+```
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column)
+
+#### Q136. To center the content of a grid cell horizontally and vertically within the cell, which style rule should you apply?
+
+- [ ] A
+
+```css
+align-items: start;
+justify-items: end;
+```
+
+- [x] B
+
+```css
+align--items: center;
+justify-items: center;
+```
+
+- [ ] C
+
+```css
+align-items: middle;
+justify-items: middle;
+```
+
+- [ ] D
+
+```css
+align-items: stretch;
+justify-items: stretch;
+```
+
+[Reference for align-items](https://developer.mozilla.org/en-US/docs/Web/CSS/align-items) [Reference for justify-items](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-items)
+
+#### Q137. What style rule should you use to display all input elements that have failed the validation test with a red font?
+
+- [ ] A
+
+```css
+input.valid[false] {
+  color: red;
+}
+```
+
+- [x] B
+
+```css
+input:invalid {
+  color: red;
+}
+```
+
+- [ ] C
+
+```css
+input.not(valid) {
+  color: red;
+}
+```
+
+- [ ] D
+
+```css
+input.invalid {
+  color: red;
+}
+```
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid)
+
+#### Q139. To insert an external style sheet file into another style sheet file, which rule should you use?
+
+- [x] `@import`
+
+- [ ] `@link`
+
+- [ ] `@insert`
+
+- [ ] `@style`
+
+[Reference for import](https://developer.mozilla.org/en-US/docs/Web/CSS/@import)
+
+#### Q140. Given this code, how tall will the following element be in pixels?
+
+```html
+<style>
+  #tall-text {
+    display: inline;
+    font-size: 20px;
+    height: 200px;
+  }
+</style>
+
+<p id="tall-text">Did I grow?</p>
+```
+
+- [ ] 200px
+
+- [x] 20px
+
+- [ ] 180px
+
+- [ ] 220px
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/height#:~:text)
+
+#### Q141. Which style rule will place an X within the grid to win the game?
+
+![A](img/Q-141.png)
+
+- [ ] row: 3;
+      column: 3;
+
+- [x] grid-row: 3;
+      grid-column: 3;
+
+- [ ] row: 2;
+      column: 2;
+
+- [ ] grid-row: 2;
+      grid-column: 2;
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column)

@@ -337,3 +337,10 @@
 - [ ] Finish-to-Start (FS)
 - [ ] Start-to-Finish (SF)
 - [x] Finish-to-Finish (FF)
+
+#### Q45. In a project, duration can have different units. Which duration unit is _not_ valid?
+
+- [ ] weeks
+- [ ] hours
+- [ ] days
+- [x] quarters

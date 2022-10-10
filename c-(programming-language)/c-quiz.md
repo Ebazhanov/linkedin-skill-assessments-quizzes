@@ -95,6 +95,8 @@ B is greater then A
 - [ ] inner call
 - [ ] infinite loop
 
+[Reference](https://www.cprogramming.com/tutorial/c/lesson16.html)
+
 #### Q4. What does the declaration of variable c2 demonstrate?
 
 ```c
@@ -108,6 +110,8 @@ main(){
 - [ ] undefined assignment
 - [ ] type conversion
 - [ ] invalid declaration
+
+[Reference](https://tutorialspoint.dev/language/c/character-arithmetic-c-c)
 
 #### Q5. What is this declaration an example of?
 
@@ -130,6 +134,8 @@ struct s {
 - [ ] The preprocessor will try to locate fileA in the fixed system directory. It will try to locate fileB in the directory path designated by the -I option added to the command line while compiling the source code.
 - [ ] The file using the fileA syntax must be system files, of unlimited number; fileB must be a user file at a maximun of one per source file.
 - [x] The preprocessor will try to locate fileA in a predetermined directory path. It will try to locate fileB in the same directory as the source file along with a custom directory path.
+
+[Reference](https://www.geeksforgeeks.org/difference-between-include-and-include-in-c-c-with-examples/#:~:text=The%20difference%20between%20the%20two,be%20included%20in%20the%20code.&text=%23include%20is%20for%20pre%2Ddefined%20header%20files.)
 
 #### Q7. Using a for loop, how could you write a C code to count down from 10 to 1 and display each number on its own line?
 
@@ -241,6 +247,8 @@ main(){
 - [x] parameter names
 - [ ] number of parameters
 
+[Reference](https://www.cprogramming.com/tutorial/c/lesson4.html)
+
 #### Q14. C treats all devices, such as the display and the keyboard, as files. Which file opens automatically when a program executes?
 
 - [x] stdout
@@ -264,6 +272,8 @@ main(){
 - [ ] release()
 - [x] free()
 
+[Reference](https://devdocs.io/c/memory/free)
+
 [Reference](https://www.tutorialspoint.com/c_standard_library/c_function_free.htm)
 
 #### Q17. In C language what are the basic building blocks that are constructed together to write a program?
@@ -273,6 +283,8 @@ main(){
 - [x] tokens
 - [ ] functions
 
+[Reference](https://fresh2refresh.com/c-programming/c-tokens-identifiers-keywords/#:~:text=C%20tokens%20are%20the%20basic,are%20known%20as%20C%20tokens.)
+
 #### Q18. When is memory for a variable allocated?
 
 - [ ] during the assigment of the variable
@@ -280,12 +292,16 @@ main(){
 - [x] during the declaration of the variable
 - [ ] during the definition of the variable
 
+[Reference](https://www.codingame.com/playgrounds/14589/how-to-play-with-pointers-in-c/dynamic-memory-allocation#:~:text=When%20a%20variable%20is%20declared,allocation%20or%20dynamic%20memory%20allocation.)
+
 #### Q19. C uses the call by value method to pass arguments to functions. How can you invoke the call by reference method?
 
 - [x] by using pointers
 - [ ] by declaring functions separately from defining them
 - [ ] by using recursive functions
 - [ ] by using global variables
+
+[Reference](https://www.javatpoint.com/call-by-value-and-call-by-reference-in-c)
 
 #### Q20. A union allows you to store different `___` in the same `___`.
 
@@ -987,20 +1003,107 @@ typedef struct{
 #else
     #define Y 5
 #endif
- 
+
 int main()
 {
     printf("%d", Y);
     return 0;
 }
 ```
+
 - [ ] 3
 - [x] 5
 - [ ] 3 or 5 depending on input
 - [ ] Compile time error
 
 #### Q65. What do the functions malloc() and calloc() allocate?
+
 - [ ] reallocatged memory
 - [ ] static memeory
 - [x] dynamic memory
 - [ ] fragmented memory
+
+[Reference](https://devdocs.io/c/memory/calloc , https://devdocs.io/c/memory/malloc )
+
+#### Q66. You need to determine if a string variable is a substring of another string. Which standard C library function do you use?
+
+- [ ] substr(str1, str2);
+- [x] strstr(str1, str2);
+- [ ] substring(str1, str2);
+- [ ] strspn(str1, str2);
+
+[Reference](https://devdocs.io/c/string/byte/strstr)
+
+#### Q67. Find the output of the program?
+
+```c
+#include <stdio.h>
+
+#define L 10
+int main(){
+    int a =10;
+    switch (a,a<<2){
+        case L:printf("a==L");     break;
+        case L*2 : printf("a = L* 2\n");     break;
+        case L*4 : printf("a = L* 4\n");    break;
+        default: printf("Error\n");
+    }
+}
+```
+
+- [ ] `a=L*2`
+- [ ] `a=L`
+- [ ] `Error`
+- [x] `a=L*4`
+
+[Reference](https://www.geeksforgeeks.org/left-shift-right-shift-operators-c-cpp/)
+
+#### Q68. Predict the output of the following code when the **interger** variables x is initialized to 10,y to 2 and z to 0.
+
+```c
+z = x + y * x + 10 / 2 * x;
+printf("value is =%d",z);
+```
+
+- [x] 80
+- [ ] 170
+- [ ] 31.5
+- [ ] 6
+
+[Reference](https://www.informit.com/articles/article.aspx?p=2062174&seqNum=4)
+
+#### Q69. What will be the output of the following code snippet?
+
+```c
+#include <stdio.h>
+void solve() {
+    int x = 2;
+    printf("%d", (x << 1) + (x >> 1));
+}
+int main() {
+    solve();
+	return 0;
+}
+```
+
+- [x] 5
+- [ ] 4
+- [ ] 2
+- [ ] 1
+
+#### Q70. What is the output of this program?
+
+```c
+int a=20, b=10;
+int f1(a) {
+    return(a*b);
+}
+main() {
+    printf("%d", f1(5));
+}
+```
+
+- [ ] 100
+- [ ] 200
+- [ ] 5
+- [x] 50
