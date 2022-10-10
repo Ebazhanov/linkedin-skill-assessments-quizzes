@@ -352,7 +352,7 @@
 - [ ] large table
 - [ ] new table
 
- [Reference](https://dev.mysql.com/doc/refman/5.7/en/create-trigger.html)
+[Reference](https://dev.mysql.com/doc/refman/5.7/en/create-trigger.html)
 
 #### Q39. later versions of mysql support the native json data type for storing json documents. What is a drawback of json columns?
 

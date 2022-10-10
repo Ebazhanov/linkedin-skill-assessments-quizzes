@@ -1115,23 +1115,23 @@ main() {
 - [ ] ZERO
 - [ ] Variable
 
-[Reference](https://www.youth4work.com/Talent/C-Language/Forum/117150-what-is-the-use-of-a-0-character-in-c-language#:~:text=by%20using%20of%20null%20character(%27%5C0%27)%20it%20terminates%20the%20string%20untill%20the%20null%20character%20hit...%20which%20means%20comes%20out%20of%20the%20loop...%20In%20strings%20by%20default%20takes%20the%20null%20charater)
+[Reference](<https://www.youth4work.com/Talent/C-Language/Forum/117150-what-is-the-use-of-a-0-character-in-c-language#:~:text=by%20using%20of%20null%20character(%27%5C0%27)%20it%20terminates%20the%20string%20untill%20the%20null%20character%20hit...%20which%20means%20comes%20out%20of%20the%20loop...%20In%20strings%20by%20default%20takes%20the%20null%20charater>)
 
 #### Q72. What is correct output for follwing code ?
 
 ```c
-#include&lt;stdio.h&gt;      
-#include&lt;conio.h&gt;      
-main()      
-{      
-     int a=10, b=20;    
-     clrscr();       
-     printf("Before swapping a=%d b=%d",a,b);        
-     a=a+b;       
-     b=a-b;    
-     a=a-b;      
-     printf("nAfter swapping a=%d b=%d",a,b);      
-     getch();      
+#include&lt;stdio.h&gt;
+#include&lt;conio.h&gt;
+main()
+{
+     int a=10, b=20;
+     clrscr();
+     printf("Before swapping a=%d b=%d",a,b);
+     a=a+b;
+     b=a-b;
+     a=a-b;
+     printf("nAfter swapping a=%d b=%d",a,b);
+     getch();
 }
 ```
 
@@ -1167,6 +1167,7 @@ int main() {
 	return 0;
 }
 ```
+
 - [ ] 2
 - [ ] 4
 - [x] 8
@@ -1190,9 +1191,8 @@ int main() {
 	return 0;
 }
 ```
+
 - [x] 19 82
 - [ ] Compilation Error
 - [ ] 82 19
 - [ ] None of these
-
-

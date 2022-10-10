@@ -34,8 +34,6 @@
 - [x] Select Track header components > show freeze and freeze any tack on which you do not need to automate plug-ins
 - [ ] lower the sample rate and bit depth of your project, and upsample when you are done mixing
 
-
- 
 #### Q5. What is an indicator that your show advanced tools check vox is not selected, resulting in beginner mode?
 
 - [x] The sides of the main windows resemble wood panels
@@ -51,6 +49,7 @@ Source: This is in practice mode
 - [ ] Go to Edit > Trim > Outside Locators
 - [ ] Press Command + Shift + S
 - [x] Control + Click the cycle range and select Swap Left and Right Locators
+
 [Source](https://support.apple.com/it-it/guide/logicpro/lgcp9b92f74c/mac)
 
 #### Q7.Why would you create an external MIDI track?
@@ -59,11 +58,12 @@ Source: This is in practice mode
 - [ ] to communicate with another studio outside your current Wi-Fi network
 - [x] to play an attached hardware sampler instrument from a MIDI sequence on your track
 - [ ] to enable higher sample rate audio recording
+
 [source](https://www.blipinteractive.co.uk/nanostudio2/user-manual/ExtMIDIInstrument.html)
 
 #### Q8. What does this image show?
 
-![](./img/1.jpg)
+![img](./img/1.jpg)
 
 - [ ] Drummer track
 - [x] External MIDI track
@@ -76,6 +76,7 @@ Source: This is in practice mode
 - [ ] No, this cannot be done
 - [ ] Yes, set up two separate output faders with the different destinations set in the output
 - [ ] You have to bounce a second time to make a separate file
+
 [Source](https://support.apple.com/it-it/guide/logicpro/lgcp785a41c3/mac)
 
 #### Q10. Why is important to save your project before recording audio?
@@ -86,7 +87,8 @@ Source: This is in practice mode
 - [ ] to engage cycle mode more easily
 
 #### Q11. Is this image, what order dows the signal flow through the plug-ins?
-![](./img/2.jpg)
+
+![img](./img/2.jpg)
 
 - [ ] first the reverb, then the auxiliary
 - [x] first the compressor, then the EQ
@@ -99,7 +101,9 @@ Source: This is in practice mode
 - [ ] the default is the length of your timeline until the end marker
 - [x] The default is eight bars
 - [ ] It changes depending on the Drummer personality
+
 [Source](https://support.apple.com/guide/logicpro/drummer-lgcpa4324884/mac#:~:text=Add%20a%20Drummer%20track,-In%20the%20Logic&text=A%20Drummer%20track%20is%20added,is%20loaded%20to%20the%20track.)
+
 #### Q13. What happens when you create a send on an available bus?
 
 - [ ] That audio leaves your interface to an outboard piece of gear
@@ -124,11 +128,12 @@ Source: This is in practice mode
 - [x] The marquee tool
 - [ ] The flex tool
 - [ ] The pencil tool
+
 [Source](https://www.shortcutfoo.com/app/dojos/logic-pro-x-mac/cheatsheet)
 
 #### Q15. What dows this image show?
 
-![](./img/3.jpg)
+![img](./img/3.jpg)
 
 - [x] low-end booster
 - [ ] audio track

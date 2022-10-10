@@ -726,7 +726,6 @@ public class Honda extends Car{}
 - [ ] Encapsulation
 - [x] Compilation
 - [ ] Inheritance
-- [ ] Polymorphism 
+- [ ] Polymorphism
 
- [Reference](https://www.interviewbit.com/blog/principles-of-oops/)
-
+[Reference](https://www.interviewbit.com/blog/principles-of-oops/)

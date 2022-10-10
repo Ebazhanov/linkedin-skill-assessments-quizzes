@@ -2118,7 +2118,6 @@ for i in range(5): pass
 - [ ] Modulo formatted strings
 - [x] Formatted string literals
 
-
 #### Q155. How many CPUs (or cores) will the Python threading library take advantage of simultaneously?
 
 - [x] One
@@ -2131,6 +2130,3 @@ for i in range(5): pass
 ```
 Python threading is restricted to a single CPU at one time. The multiprocessing library will allow you to run code on different processors.
 ```
-
-
-

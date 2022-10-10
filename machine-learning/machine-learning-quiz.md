@@ -794,13 +794,13 @@ Which of these statements do you agree with?
 ### Q102. You want to create a machine learning algorithm that finds the top 100 people who have shared photographs of themselves on social media. What is the best machine learning method to use?
 
 - [ ] reinforcement learning
-- [X] binary classification
+- [x] binary classification
 - [ ] K-nearest neighbor
 - [ ] unsupervised learning
 
 ### Q103. The famous data scientist Andrew Ng has been quoted as saying, "Applied machine learning is basically feature engineering." What is feature engineering?
 
 - [ ] scraping new features from web data
-- [X] creating new variables by combining and modifying the original variables
+- [x] creating new variables by combining and modifying the original variables
 - [ ] designing innovative new user features to add to software
 - [ ] using deep learning to find features in the data

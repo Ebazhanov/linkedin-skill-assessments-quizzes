@@ -612,7 +612,6 @@ SELECT 123+'abc' AS Result;
 - [ ] '123abc'
 - [ ] error
 
-
 #### Q50.What output will the following SQL sequence produce? Assume that the tables have been created and all the columns exist.
 
 ```tsql
@@ -629,4 +628,5 @@ SELECT bal FROM Account WHERE acct='12345';
 - [x] 200
 - [ ] 300
 - [ ] `You will get an error because ROLLBACK deletes the row that was update`
+
 [Reference link](https://www.geeksforgeeks.org/sql-transactions/)

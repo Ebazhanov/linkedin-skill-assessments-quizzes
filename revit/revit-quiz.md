@@ -11,7 +11,6 @@
 
 [Source](https://quizlet.com/ie/582293749/revit-skills-flash-cards/#:~:text=30.,Free%20End)
 
-
 #### Q2. A designer would like to create a new parameter in a schedule that contains a mathematical expression combining two existing fields. What is the process?
 
 - [x] `Edit Fields > Combined Parameter`
@@ -27,7 +26,6 @@
 - [ ] in the **Set Work Plane** dialog box
 
 [Source](https://www.revithq.com/blogs/tips-tricks-tutorials-and-content/reference-planes-drag-controls)
-
 
 #### Q4. Some Revit families require a host element to be placed. Which choice is a hosted element?
 

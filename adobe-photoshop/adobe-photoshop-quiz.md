@@ -697,7 +697,7 @@
 - [ ] Combine
 - [ ] Link
 
-#### Q92. Saturation and Vibrance both strengthen the intensity of the color in your image, however Vibrance is more specific to __ .
+#### Q92. Saturation and Vibrance both strengthen the intensity of the color in your image, however Vibrance is more specific to \_ .
 
 - [x] Midtones
 - [ ] Shadows
