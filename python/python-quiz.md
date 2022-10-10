@@ -221,6 +221,8 @@ instance.password
 - [ ] It keeps data and the methods that can manipulate that data in one place.
 - [x] It only allows the data to be changed by methods.
 
+[Reference](https://www.scaler.com/topics/python/encapsulation-in-python/)
+
 #### Q18. What is the purpose of an if/else statement?
 
 - [ ] It tells the computer which chunk of code to run if the instructions you coded are incorrect.
