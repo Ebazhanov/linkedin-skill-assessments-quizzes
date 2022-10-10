@@ -3,6 +3,7 @@
 > Topics: Colors and Effects, Documents, Interactive, Objects/Graphics/Images, Text
 
 #### Q1. What is it called when a tag with a leader has a drag control where the leader touches the element?
+# Reference for Question 1 - https://quizlet.com/ie/582293749/revit-skills-flash-cards/#:~:text=30.,Free%20End - question 30
 
 - [x] Attached End
 - [ ] Preferences > Reviewing
@@ -17,6 +18,7 @@
 - [ ] `Edit Fields > Calculated Parameter`
 
 #### Q3. Where can you find a drop-down list of available named reference planes?
+# Reference for Question 3 - https://www.revithq.com/blogs/tips-tricks-tutorials-and-content/reference-planes-drag-controls 
 
 - [x] in the **Properties** palette
 - [ ] in the Project Browser
