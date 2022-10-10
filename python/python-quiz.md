@@ -2108,3 +2108,27 @@ for i in range(5): pass
 - [ ] the variable becomes unavailable
 - [ ] 6
 - [x] 4
+
+#### Q154. f-strings are also called:
+
+- [ ] Formatted string expressions
+- [ ] Functional strings
+- [ ] Modulo formatted strings
+- [x] Formatted string literals
+
+
+#### Q155. How many CPUs (or cores) will the Python threading library take advantage of simultaneously?
+
+- [x] One
+- [ ] All of the available CPUs
+- [ ] Two
+- [ ] Three
+
+**Explanation**:
+
+```
+Python threading is restricted to a single CPU at one time. The multiprocessing library will allow you to run code on different processors.
+```
+
+
+

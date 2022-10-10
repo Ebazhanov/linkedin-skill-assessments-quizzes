@@ -2065,3 +2065,10 @@ Queue<Rainfall>
 - [ ]a copy of the reference
 - [ ]the object itself
 - [x]the original reference
+	
+#### Q144. Which choice demonstrates a valid way to create a reference to a static function of another class?
+
+- [x] Function<Integer, Integer> funcReference = MyClass::myFunction;
+- [ ] Function<Integer, Integer> funcReference = MyClass.myFunction;
+- [ ] Function<Integer, Integer> funcReference = MyClass().myFunction();
+- [ ] Function<Integer, Integer> funcReference = MyClass::myFunction();

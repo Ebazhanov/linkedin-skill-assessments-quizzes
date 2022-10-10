@@ -720,3 +720,12 @@ public class Honda extends Car{}
 - [ ] a method that you do not expect to be redefined in derived classes
 - [ ] a private method that you do not expect to be redefined in derived public classes
 - [ ] a method that exists temporarily - once used, it ceases to be used by any caller
+
+#### Q95. Which of these is not a basic principle of Object Oriented Programming?
+
+- [ ] Encapsulation
+- [x] Compilation
+- [ ] Inheritance
+- [ ] Polymorphism 
+
+ [Reference](https://www.interviewbit.com/blog/principles-of-oops/)
