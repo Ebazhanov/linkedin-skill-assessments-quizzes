@@ -1110,10 +1110,12 @@ main() {
 
 #### Q71. What is /0 character ?
 
--[ ] String
--[x] NULL Character
--[ ] ZERO
--[ ] Variable
+- [ ] String
+- [x] NULL Character
+- [ ] ZERO
+- [ ] Variable
+
+[Reference](https://www.youth4work.com/Talent/C-Language/Forum/117150-what-is-the-use-of-a-0-character-in-c-language#:~:text=by%20using%20of%20null%20character(%27%5C0%27)%20it%20terminates%20the%20string%20untill%20the%20null%20character%20hit...%20which%20means%20comes%20out%20of%20the%20loop...%20In%20strings%20by%20default%20takes%20the%20null%20charater)
 
 #### Q72. What is correct output for follwing code ?
 
@@ -1133,17 +1135,17 @@ main()
 }
 ```
 
--[ ] Before a=10 b=20 , After a=10 b=10
--[ ] Before a=10 b=10 , After a=20 b=10
--[ ] Before a=10 b=20 , After a=20 b=20
--[x] Before a=10 b=20 , After a=20 b=10
+- [ ] Before a=10 b=20 , After a=10 b=10
+- [ ] Before a=10 b=10 , After a=20 b=10
+- [ ] Before a=10 b=20 , After a=20 b=20
+- [x] Before a=10 b=20 , After a=20 b=10
 
 #### Q73. What is Incorrect option that explain # pragma directive ?
 
--[ ] #pragma exit allows us to specify functions called upon program exit.
--[ ] This is a preprocessor directive that can be used to turn on or off certain features.
--[x] #pragma startup don't allows us to specify functions called upon program startup.
--[ ] It is of two types #pragma startup, #pragma exit and pragma warn.
+- [ ] #pragma exit allows us to specify functions called upon program exit.
+- [ ] This is a preprocessor directive that can be used to turn on or off certain features.
+- [x] #pragma startup don't allows us to specify functions called upon program startup.
+- [ ] It is of two types #pragma startup, #pragma exit and pragma warn.
 
 #### Q74. What will be the output of the following code snippet?
 
@@ -1165,10 +1167,10 @@ int main() {
 	return 0;
 }
 ```
--[ ] 2
--[ ] 4
--[x] 8
--[ ] 10
+- [ ] 2
+- [ ] 4
+- [x] 8
+- [ ] 10
 
 #### Q75. What will be the output of the following code snippet?
 
@@ -1188,9 +1190,9 @@ int main() {
 	return 0;
 }
 ```
--[x] 19 82
--[ ] Compilation Error
--[ ] 82 19
--[ ] None of these
+- [x] 19 82
+- [ ] Compilation Error
+- [ ] 82 19
+- [ ] None of these
 
 
