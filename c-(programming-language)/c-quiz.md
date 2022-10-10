@@ -1107,3 +1107,90 @@ main() {
 - [ ] 200
 - [ ] 5
 - [x] 50
+
+#### Q71. What is /0 character ?
+
+-[ ] String
+-[x] NULL Character
+-[ ] ZERO
+-[ ] Variable
+
+#### Q72. What is correct output for follwing code ?
+
+```c
+#include&lt;stdio.h&gt;      
+#include&lt;conio.h&gt;      
+main()      
+{      
+     int a=10, b=20;    
+     clrscr();       
+     printf("Before swapping a=%d b=%d",a,b);        
+     a=a+b;       
+     b=a-b;    
+     a=a-b;      
+     printf("nAfter swapping a=%d b=%d",a,b);      
+     getch();      
+}
+```
+
+-[ ] Before a=10 b=20 , After a=10 b=10
+-[ ] Before a=10 b=10 , After a=20 b=10
+-[ ] Before a=10 b=20 , After a=20 b=20
+-[x] Before a=10 b=20 , After a=20 b=10
+
+#### Q73. What is Incorrect option that explain # pragma directive ?
+
+-[ ] #pragma exit allows us to specify functions called upon program exit.
+-[ ] This is a preprocessor directive that can be used to turn on or off certain features.
+-[x] #pragma startup don't allows us to specify functions called upon program startup.
+-[ ] It is of two types #pragma startup, #pragma exit and pragma warn.
+
+#### Q74. What will be the output of the following code snippet?
+
+```c
+#include <stdio.h>
+union School {
+    int age, rollNo;
+    double marks;
+};
+void solve() {
+    union School sc;
+    sc.age = 19;
+    sc.rollNo = 82;
+    sc.marks = 19.04;
+    printf("%d", (int)sizeof(sc));
+}
+int main() {
+    solve();
+	return 0;
+}
+```
+-[ ] 2
+-[ ] 4
+-[x] 8
+-[ ] 10
+
+#### Q75. What will be the output of the following code snippet?
+
+```c
+#include <stdio.h>
+struct School {
+    int age, rollNo;
+};
+void solve() {
+    struct School sc;
+    sc.age = 19;
+    sc.rollNo = 82;
+    printf("%d %d", sc.age, sc.rollNo);
+}
+int main() {
+    solve();
+	return 0;
+}
+```
+-[x] 19 82
+-[ ] Compilation Error
+-[ ] 82 19
+-[ ] None of these
+
+
