@@ -1196,3 +1196,18 @@ int main() {
 - [ ] Compilation Error
 - [ ] 82 19
 - [ ] None of these
+
+#### Q76. What is the output of the following code snippet?
+
+```c
+int main() {
+	int sum = 2 + 4 / 2 + 6 * 2;
+	printf("%d", sum);
+	return 0;
+}
+```
+
+- [ ] 2
+- [ ] 15
+- [x] 16
+- [ ] 18
