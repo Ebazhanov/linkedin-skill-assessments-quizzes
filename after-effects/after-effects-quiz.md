@@ -74,10 +74,10 @@
 
 #### Q11. What properties are added to a 3D layer? (Select three items.)
 
-- [ ] Z Rotation
-- [ ] Anchor Point
+- [x] Z Rotation
+- [x] Anchor Point
 - [ ] Material Options
-- [ ] Position
+- [x] Position
 - [ ] Geometry Options
 
 #### Q12. You want to include controls from an After Effects composition in the Essential Graphics panel. What is one way to do this?
@@ -112,7 +112,7 @@
 
 - [ ] Use the layer pick whip to link properties.
 - [ ] Parent the layer controls.
-- [ ] Use an adjustment layer.
+- [x] Use an adjustment layer.
 - [ ] Set one layer effect and then copy and paste its results to the other layers.
 
 #### Q17. You want to scale all elements in a composition, including the composition itself. How can you do this?
