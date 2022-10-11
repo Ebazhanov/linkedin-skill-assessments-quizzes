@@ -12,14 +12,14 @@
 #### Q2. Where do you change the shutter angle for the motion blur in a composition?
 
 - [ ] on the Basic tab of the Composition Settings dialog box
-- [ ] on the Advanced tab of the Composition Settings dialog box
+- [x] on the Advanced tab of the Composition Settings dialog box
 - [ ] on the 3D Renderer tab of the Composition Settings dialog box
 - [ ] in the File > Project Settings dialog box
 
 #### Q3. What is a null object?
 
 - [ ] a special layer used to hold expressions
-- [ ] an invisible layer that has all the properties of a visible layer so it can be parented to any layer in the composition
+- [x] an invisible layer that has all the properties of a visible layer so it can be parented to any layer in the composition
 - [ ] a solid layer with a black background that can be parented to any layer in the composition
 - [ ] a visible layer that can be parented to any layer in the composition
 
