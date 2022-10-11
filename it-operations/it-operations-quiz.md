@@ -547,3 +547,26 @@ To get to either UEFI or BIOS on a system you usually go via the computer's boot
 - [ ] PCMCIA
 - [ ] ISA
 - [x] PCIe
+
+
+#### Q66. Which action triggers a UAC warning?
+
+- [ ] all settings changes in Windows
+- [ ] any unauthorized access to the computer system
+- [x] an attempt to change a setting with consequences that affect the entire system
+- [ ] any action involving the user account, such as a password reset
+
+#### Q67. Which choice is not a current mass storage type?
+
+- [ ] SSD
+- [ ] MO
+- [ ] HDD
+- [x] NVMe
+
+#### Q68. Which statement most accurately describes the northbridge or host bridge?
+
+- [x] It is a high priority connection to the processor, also called the Memory Controller Hub.
+- [ ] It has been integrated into the southbridge to provide support for the CPU.
+- [ ] It is the peripheral and I/O controller, connected to the processor via the southbridge.
+- [ ] It provides mathematical and 3D physics support for the CPU in the absence of a GPU.
+
