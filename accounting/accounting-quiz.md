@@ -257,7 +257,7 @@
 - [x] Current liabilities are obligations due within a year.
 
 > Current liabilities are a company's short-term financial obligations that are due within one year or within a normal operating cycle.  
-> [Reference](https://www.investopedia.com/terms/c/currentliabilities.asp)
+[Reference](https://www.investopedia.com/terms/c/currentliabilities.asp)
 
 #### Q34. How do variable costs and fixed costs act within the relevant range?
 
@@ -267,7 +267,7 @@
 - [ ] Both total variable costs and total fixed costs remain constant.
 
 > While variable costs tend to remain flat, the impact of fixed costs on a company's bottom line can change based on the number of products it produces.  
-> [Reference](https://www.investopedia.com/ask/answers/032515/what-difference-between-variable-cost-and-fixed-cost-economics.asp)
+[Reference](https://www.investopedia.com/ask/answers/032515/what-difference-between-variable-cost-and-fixed-cost-economics.asp)
 
 #### Q35. Which answer can be defined as an investment center's contribution margin less the fixed costs that are traceable to the investment center?
 
@@ -278,7 +278,7 @@
 
 > Contribution Margin = Sales Revenue – Variable Costs
 > Segment Margin = Segment’s Contribution Margin – Fixed Costs traced to the Segment  
-> [Reference](https://qsstudy.com/segment-margin-differs-contribution-margin-explain/)
+[Reference](https://qsstudy.com/segment-margin-differs-contribution-margin-explain/)
 
 #### Q36. If an auditor is expected to detect the overstatement of sales, what should the auditor trace transactions from?
 
@@ -289,7 +289,7 @@
 
 > Which audit procedure is most effective in testing credit sales for overstatement?
 > Vouch a sample recorded sales from the sales journal to shipping documents.  
-> [Reference](https://homework.study.com/explanation/which-audit-procedure-is-most-effective-in-testing-credit-sales-for-overstatement-1-trace-a-sample-of-postings-from-the-sales-journal-to-the-sales-account-in-the-general-ledger-2-vouch-a-sample-recorded-sales-from-the-sales-journal-to-shipping-docum.html)
+[Reference](https://homework.study.com/explanation/which-audit-procedure-is-most-effective-in-testing-credit-sales-for-overstatement-1-trace-a-sample-of-postings-from-the-sales-journal-to-the-sales-account-in-the-general-ledger-2-vouch-a-sample-recorded-sales-from-the-sales-journal-to-shipping-docum.html)
 
 #### Q37. What is the formal method of analysis applied by management to identify appropriate cost drivers and effects on the costs of production?
 
@@ -308,7 +308,7 @@ I put cost-benefit analysis, but I'm not sure. I think it could be life-cycle co
 - [ ] trust
 
 > In Accounting Series Release no. 269, the SEC defined independence in fact and independence in appearance as separate but equally necessary factors in establishing the auditor’s objectivity and integrity when certifying financial statements filed with the commission by an issuer of securities. Few would debate that independence in fact—that is, that the auditor is actually unbiased—is absolutely essential to the validity of an audit.  
-> [Reference](https://www.journalofaccountancy.com/issues/2001/apr/independenceandpublicperceptionwhyweneedtocare.html)
+[Reference](https://www.journalofaccountancy.com/issues/2001/apr/independenceandpublicperceptionwhyweneedtocare.html)
 
 #### Q39. When applying a cost-volume-profit analysis (CVP), certain assumptions must be respected. Which answer is _not_ one of these assumptions?
 
@@ -324,7 +324,7 @@ I put cost-benefit analysis, but I'm not sure. I think it could be life-cycle co
 > -   Units sold equal units produced.
 > 
 > These are simplifying, largely linearizing assumptions, which are often implicitly assumed in elementary discussions of costs and profits.  
-> [Reference](https://en.wikipedia.org/wiki/Cost%E2%80%93volume%E2%80%93profit_analysis#Assumptions)
+[Reference](https://en.wikipedia.org/wiki/Cost%E2%80%93volume%E2%80%93profit_analysis#Assumptions)
 
 #### Q40. Which statement about a perpetual inventory system is true?
 
@@ -335,7 +335,7 @@ I put cost-benefit analysis, but I'm not sure. I think it could be life-cycle co
 
 I'm not 100% sure on this.
 > Perpetual inventory is a method of accounting for inventory that records the sale or purchase of inventory immediately through the use of computerized point-of-sale systems and enterprise asset management software.  
-> [Reference](https://www.investopedia.com/terms/p/perpetualinventory.asp)
+[Reference](https://www.investopedia.com/terms/p/perpetualinventory.asp)
 
 #### Q41. Which type of business would be most likely to use a job order costing system?
 
@@ -345,7 +345,7 @@ I'm not 100% sure on this.
 - [x] a law firm specializing in injury law
 
 > Since lawyers and accountants work with different clients on unique accounts, many will use a job order costing system to track how much time and resources were used for each customer.  
-> [Reference](https://www.indeed.com/career-advice/career-development/job-order-costing-system)
+[Reference](https://www.indeed.com/career-advice/career-development/job-order-costing-system)
 
 #### Q42. Assigning indirect costs to specific jobs is completed by _____.
 
@@ -356,4 +356,4 @@ I'm not 100% sure on this.
 
 I'm not 100% sure on this.
 > Indirect cost rate calculations can be determined by dividing an indirect cost by a cost object, such as sales revenues or square footage.  
-> [Reference](https://smallbusiness.chron.com/ways-allocate-indirect-cost-73462.html)
+[Reference](https://smallbusiness.chron.com/ways-allocate-indirect-cost-73462.html)
