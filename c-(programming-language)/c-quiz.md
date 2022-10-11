@@ -1211,3 +1211,16 @@ int main() {
 - [ ] 15
 - [x] 16
 - [ ] 18
+
+#### Q77. What is not a valid command with this declaration?
+
+```
+chat *string[20] = {"one", "two", "three"};
+```
+
+- [x] printf("%s", string[1][2]);
+- [ ] printf("%s", string[1]);
+- [ ] printf(string[1]);
+- [ ] printf("%c", string[1][2]);
+
+**Explanation :** This matrix is not defined in 2D because which this command is not valid and there will no output.
