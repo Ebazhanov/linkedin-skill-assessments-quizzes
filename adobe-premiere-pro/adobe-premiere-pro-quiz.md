@@ -289,7 +289,7 @@ E. M4A
 
 ![image](images/008.png)
 
-- [ ] Hue vs. Saturation
+- [x] Hue vs. Saturation
 - [ ] RGB Curves
 - [ ] Luma vs. Saturation
 - [ ] Hue vs. Luma
