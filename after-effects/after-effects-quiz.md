@@ -5,7 +5,7 @@
 #### Q1. What type of light never casts a shadow in a 3D scene?
 
 - [ ] Parallel
-- [ ] Ambient
+- [x] Ambient
 - [ ] Point
 - [ ] Spot
 
@@ -27,7 +27,7 @@
 
 - [ ] Contrast
 - [ ] Clarity
-- [ ] Sharpen
+- [x] Sharpen
 - [ ] Intensity
 
 #### Q5. Where can you control the settings for footage created from an After Effects composition?
@@ -39,7 +39,7 @@
 
 #### Q6. Which blur effect supports the use of a depth matte to define the focal range?
 
-- [ ] Camera Lens Blur
+- [x] Camera Lens Blur
 - [ ] Bilateral Blur
 - [ ] Smart BlurS
 - [ ] Channel Blur
@@ -53,7 +53,7 @@
 
 #### Q8. Which technique is useful for creating slow-motion, fast-motion, freeze frame, or other retiming results for a layer?
 
-- [ ] Time Remapping
+- [x] Time Remapping
 - [ ] Time Displacement
 - [ ] Posterize Time
 - [ ] CC Wide Time
