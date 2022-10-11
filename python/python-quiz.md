@@ -2130,3 +2130,18 @@ for i in range(5): pass
 ```
 Python threading is restricted to a single CPU at one time. The multiprocessing library will allow you to run code on different processors.
 ```
+
+#### Q156 What will be the value of y in this code?
+
+```python
+x = 5
+y = 1 + (20 if x < 5 else 30)
+```
+
+- [ ] False
+- [ ] 21
+- [ ] 2
+- [x] 31
+
+**Explanation:** 
+If x < 5 ==> y = 1 + 30 Else y = 1 + 20
