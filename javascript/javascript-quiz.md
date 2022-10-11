@@ -1899,11 +1899,11 @@ if (/* Snipped goes here */){
 #### Q136. What value is printed to the console after this code execute?
 
 ```js
-let cat = Object.create({type: "lion" });
-cat.size = "large";
+let cat = Object.create({ type: 'lion' });
+cat.size = 'large';
 
-let copyCat = {...cat };
-cat.type = "tiger";
+let copyCat = { ...cat };
+cat.type = 'tiger';
 
 console.log(copyCat.type, copyCat.size);
 ```
@@ -1917,17 +1917,17 @@ console.log(copyCat.type, copyCat.size);
 
 #### Q137. What does the code print to the console?
 
-
 ```js
-let animals = [{type: "lion" }, "tiger"];
+let animals = [{ type: 'lion' }, 'tiger'];
 let clones = animals.slice();
 
-clones[0].type= "bear";
-clones[1] = "sheep";
+clones[0].type = 'bear';
+clones[1] = 'sheep';
 
 console.log(animals[0].type, clones[0].type);
 console.log(animals[1], clones[1]);
 ```
+
 - [x] bear bear
       tiger sheep
 - [ ] lion bear
@@ -1951,7 +1951,8 @@ alert(a++(+(+(+b))));
 - [ ] 10
 - [x] 9
 - [ ] 20
-```
+
+````
 
 #### Q139. What fragment could you add to this code to make it output "{"type": "tiger"}" to the console?
 
@@ -1961,12 +1962,13 @@ let cat = { type: "tiger", size: "large" };
 let json = /* Snippet here */;
 
 console.log(json); // print {"type":"tiger"}
-```
+````
 
 - [ ] `cat.toJSON("type");`
 - [x] `JSON.stringify(cat, ["type"]);`
 - [ ] `JSON.stringify(cat);`
 - [ ] `JSON.stringify(cat, /type/);`
+
 ```
 
 #### Q139. Which document method is not used to get a reference to a DOM node?
@@ -1980,9 +1982,11 @@ console.log(json); // print {"type":"tiger"}
 
 #### Q140. Which snippet could you add to this code to print "{"type”: “tiger"}" to the console?
 ```
+
 let cat = {type: "tiger", size: "large"};
 let json= /_ Snippet Here _/;
 console.log(json); //prints {"type”: “tiger"}
+
 ```
 
 - [x] JSON.sringify(cat);
@@ -1992,3 +1996,4 @@ console.log(json); //prints {"type”: “tiger"}
 
 [Reference](https://www.w3schools.com/jsref/jsref_stringify.asp)
 
+```

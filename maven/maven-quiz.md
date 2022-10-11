@@ -516,7 +516,6 @@ mvn install
 
 [!reference](https://maven.apache.org/plugins/maven-resources-plugin/examples/include-exclude.html)
 
-
 ### Q65. What is a module in a Maven project?
 
 - [ ] a dependency

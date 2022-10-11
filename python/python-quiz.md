@@ -2143,6 +2143,6 @@ y = 1 + (20 if x < 5 else 30)
 - [ ] 2
 - [x] 31
 
-**Explanation:** 
-If x < 5 ==> y = 1 + 20 
+**Explanation:**
+If x < 5 ==> y = 1 + 20
 Else y = 1 + 30
