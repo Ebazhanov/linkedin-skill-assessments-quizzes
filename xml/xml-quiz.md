@@ -546,12 +546,12 @@ car#year {
 }
 ```
 
-#### Q41. An XML document contains this code as part of the DTD: <!ELEMENT car (make, model?, year+, price*)>. What are the rules that need to be followed for each of the elements?
+#### Q41. An XML document contains this code as part of the DTD: `<!ELEMENT car (make, model?, year+, price*)>`. What are the rules that need to be followed for each of the elements?
 
-- [ ] <make> is required, <model> is optional, <year> is optional, and <price> is optional.
-- [ ] <make> is required, <model> is required, <year> is optional, and <price> is optional.
-- [ ] <make> is required, <model> is required, <year> is required, and <price> is optional.
-- [x] <make> is required, <model> is optional, <year> is required, and <price> is optional.
+- [ ] `<make>` is required, `<model>` is optional, `<year>` is optional, and `<price>` is optional.
+- [ ] `<make>` is required, `<model>` is required, `<year>` is optional, and `<price>` is optional.
+- [ ] `<make>` is required, `<model>` is required, `<year>` is required, and `<price>` is optional.
+- [x] `<make>` is required, `<model>` is optional, `<year>` is required, and `<price>` is optional.
 
 #### Q42. Which element in this XML code is not a good candidate for conversion into an attribute?
 
@@ -608,3 +608,16 @@ car#year {
 - [ ] `nextSibling`
 - [x] `nodeValue`
 - [ ] `nodename`
+
+#### Q47. If you open up the document below in a web browser, what result do you expect?
+
+```xml
+<document >
+    ´<.msg-1>Hello World!</.msg-1>
+</document>
+```
+
+- [ ] The browser will display the entire XML document.
+- [ ] The browser will display just the string Hello World!
+- [ ] The browser will report a syntax error because it includes an element that has a hyphen character.
+- [x] The browser will report a syntax error because it includes an element that starts with a period.
