@@ -1154,24 +1154,6 @@ console.log(addFive(3));
 
 [Reference Cross-Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
-#### Q89. What will be logged to the console??
-
-```js
-'use strict';
-function logThis() {
-  this.desc = 'logger';
-  console.log(this);
-}
-new logThis();
-```
-
-- [ ] window
-- [ ] undefined
-- [ ] function
-- [x] {desc: "logger"}
-
-[Reference strict in javascript classes](https://www.w3schools.com/js/js_strict.asp)
-
 #### Q90. What is the output of this code?
 
 ```js
