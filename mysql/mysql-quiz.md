@@ -1083,3 +1083,10 @@ Table name: superheroes
 - [ ] YES
 - [ ] DEPEND
 - [ ] None of the mentioned
+
+#### Q113. Later versions of MySQL support the native JSON data type for storing JSON documents. What is a drawback of JSON columns?
+
+- [ ] JSON columns cannot be normalized.
+- [x] JSON columns cannot be indexed directly.
+- [ ] JSON columns are inefficient for storing JSON documents.
+- [ ] JSON documents cannot be validated when stored in JSON columns.

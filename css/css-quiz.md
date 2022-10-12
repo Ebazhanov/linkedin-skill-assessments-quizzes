@@ -2285,56 +2285,96 @@ input.invalid {
 
 #### Q142. Which CSS property is used to create an image reflection ?
 
--[x] box-relect -[ ] img-reflect -[ ] None of the above -[ ] reflect-img
+- [x] box-relect
+- [ ] img-reflect
+- [ ] None of the above
+- [ ] reflect-img
 
 #### Q143. What is the general syntax of writing the var() function ?
 
--[x] var(--name, value) -[ ] var(--name) -[ ] var(value) -[ ] None of the Above
+- [x] var(--name, value)
+- [ ] var(--name)
+- [ ] var(value)
+- [ ] None of the Above
 
 #### Q143. How many layout modes were there before the Flexbox Layout Module was introduced in CSS ?
 
--[ ] 2 -[ ] 1 -[x] 4 -[ ] 3
+- [ ] 2
+- [ ] 1
+- [x] 4
+- [ ] 3
 
 #### Q144. Which of the following components of the CSS box model are transparent ?
 
--[ ] Padding -[ ] Margin -[x] Both A and B -[ ] None
+- [ ] Padding
+- [ ] Margin
+- [x] Both A and B
+- [ ] None
 
 #### Q145. How are custom fonts defined using CSS ?
 
--[x] @Font-Face Rule -[ ] Custom font cannot be defined -[ ] src tags -[ ] None of the above
+- [x] @Font-Face Rule
+- [ ] Custom font cannot be defined
+- [ ] src tags
+- [ ] None of the above
 
 #### Q146. Which of the following CSS property sets what kind of line decorations are added to an element, such as underlines, overlines, etc?
 
--[ ] text-decoration -[ ] text-style -[x] text-decoration-line -[ ] text-line
+- [ ] text-decoration
+- [ ] text-style
+- [x] text-decoration-line
+- [ ] text-line
 
 #### Q147. Which of the following CSS Property sets the stacking order of positioned elements?
 
--[ ] y-index -[x] z-index -[ ] x-index -[ ] all of the mentioned
+- [ ] y-index
+- [x] z-index
+- [ ] x-index
+- [ ] all of the mentioned
 
 #### Q148. Which of the following property allows a marquee to be used in the case of a text-overflow?
 
--[ ] overflow-marquee -[x] overflow-style -[ ] overflow-text -[ ] none of the mentioned
+- [ ] overflow-marquee
+- [x] overflow-style
+- [ ] overflow-text
+- [ ] none of the mentioned
 
 #### Q149. Which of the following Cascading order has the highest precedence?
 
--[x] user agent declarations -[ ] user normal declarations -[ ] author normal declarations -[ ] author important declarations
+- [x] user agent declarations
+- [ ] user normal declarations
+- [ ] author normal declarations
+- [ ] author important declarations
 
 #### Q150. The CSS cascade assigns a weight to each style rule ?
 
--[x] True -[ ] False
+- [x] True
+- [ ] False
 
-#### Q151. The ****\_\_\_\_**** represents the result of the cascade: it is the declared value that wins the cascade.
+#### Q151. The \***\*\_\_\_\_\*\*** represents the result of the cascade: it is the declared value that wins the cascade.
 
--[ ] specified Value -[ ] actual value -[ ] computed value -[x] cascaded value
+- [ ] specified Value
+- [ ] actual value
+- [ ] computed value
+- [x] cascaded value
 
-#### Q152. Using negative text-indent is also known as ****\_\_**** ?
+#### Q152. Using negative text-indent is also known as \***\*\_\_\*\*** ?
 
--[ ] The Scott Kellum method -[x] The Phark method -[ ] Radu Darvas Technique -[ ] The Langridge method
+- [ ] The Scott Kellum method
+- [x] The Phark method
+- [ ] Radu Darvas Technique
+- [ ] The Langridge method
 
 #### Q153. Using margin is also known as**\_\_\_\_** ?
 
--[ ] Fahrner image replacement -[ ] The Lindsay method -[x] Radu Darvas Technique -[ ] The Langridge method
+- [ ] Fahrner image replacement
+- [ ] The Lindsay method
+- [x] Radu Darvas Technique
+- [ ] The Langridge method
 
-#### Q154. If a particular rule should never be overridden by another rule, the ****\_\_\_\_**** indication should be used.
+#### Q154. If a particular rule should never be overridden by another rule, the \***\*\_\_\_\_\*\*** indication should be used.
 
--[ ] @important -[ ] !important! -[x] !important -[ ] important!
+- [ ] @important
+- [ ] !important!
+- [x] !important
+- [ ] important!

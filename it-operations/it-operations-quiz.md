@@ -548,7 +548,6 @@ To get to either UEFI or BIOS on a system you usually go via the computer's boot
 - [ ] ISA
 - [x] PCIe
 
-
 #### Q66. Which action triggers a UAC warning?
 
 - [ ] all settings changes in Windows
@@ -569,4 +568,3 @@ To get to either UEFI or BIOS on a system you usually go via the computer's boot
 - [ ] It has been integrated into the southbridge to provide support for the CPU.
 - [ ] It is the peripheral and I/O controller, connected to the processor via the southbridge.
 - [ ] It provides mathematical and 3D physics support for the CPU in the absence of a GPU.
-

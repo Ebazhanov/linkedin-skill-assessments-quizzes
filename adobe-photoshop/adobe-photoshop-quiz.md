@@ -714,5 +714,3 @@
 - [ ] Select
 
 [Reference](https://helpx.adobe.com/in/photoshop-elements/using/copying-arranging-layers.html)
-
-
