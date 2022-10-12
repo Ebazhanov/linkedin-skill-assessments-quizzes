@@ -801,8 +801,7 @@ End Sub
 
 [Source](https://learn.microsoft.com/en-us/office/vba/language/concepts/getting-started/calling-sub-and-function-procedures)
 
-#### Q59. You want to declare an object that describes cars, so that your VBA code can apply tests such as the following. What keyword do you use to
-declare Cars?
+#### Q59. You want to declare an object that describes cars, so that your VBA code can apply tests such as the following. What keyword do you use to declare Cars?
 
 ```
 If Cars(1).Make="Ford" And Cars (1).MPG > 20

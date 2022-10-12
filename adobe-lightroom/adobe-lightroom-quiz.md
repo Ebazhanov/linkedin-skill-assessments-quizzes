@@ -144,8 +144,7 @@ Note: I just use synchronization. After digging into settings I was able only to
 
 [Reference](https://helpx.adobe.com/in/lightroom-classic/help/create-photo-book.html)
 
-
-#### Q19. Saturation and Vibrance both strengthen the intensity of the color in your image, however Vibrance is more specific to __ .
+#### Q19. Saturation and Vibrance both strengthen the intensity of the color in your image, however Vibrance is more specific to \_\_ .
 
 - [x] Midtones
 - [ ] Shadows
@@ -162,4 +161,3 @@ Note: I just use synchronization. After digging into settings I was able only to
 - [ ] Raw
 
 [Reference](https://www.bwillcreative.com/how-to-share-lightroom-mobile-presets/)
-
