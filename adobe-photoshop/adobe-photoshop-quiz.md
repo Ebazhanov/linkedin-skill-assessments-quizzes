@@ -705,3 +705,14 @@
 - [ ] Global
 
 [Reference](https://www.slrlounge.com/vibrance-vs-saturation-what-is-the-difference/)
+
+#### Q93. Which menu contains the duplicate layer option in photoshop?
+
+- [x] Layer
+- [ ] Filter
+- [ ] Image
+- [ ] Select
+
+[Reference](https://helpx.adobe.com/in/photoshop-elements/using/copying-arranging-layers.html)
+
+
