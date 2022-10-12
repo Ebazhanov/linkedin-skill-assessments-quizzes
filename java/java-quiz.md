@@ -2093,3 +2093,23 @@ Queue<Rainfall>
 - [ ] HashMap is class and map is interface that implements that
 - [ ] Map is class and Hashmap is interface that implements that
 - [x] Map is Interface and Hashmap is class that implements that
+
+#### Q148. Identify the corrected definition of a package?
+
+- [ ] A package is a collection of classes.
+- [x] A package is a collection of classes and interfaces.
+- [ ] A package is a collection of interfaces.
+- [ ] A package is a collection of constructors.
+
+#### Q149. Identify what can directly access and change the value of the variable res.
+```java
+Package com.mypackage;
+Public class Solution{
+       Private int res = 100;
+}
+```
+
+- [ ] Any class.
+- [x] Only solution class.
+- [ ] Any class that extends solution.
+- [ ] NONE.
