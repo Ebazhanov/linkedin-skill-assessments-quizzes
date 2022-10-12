@@ -412,14 +412,14 @@
 - [ ] multi-factor authentication
 - [ ] recovery password
 
-#### Q53. Which container(s) does Google Kubernetes Engine support?Which container(s) does Google Kubernetes Engine support?
+#### Q53. Which container(s) does Google Kubernetes Engine support?
 
 - [ ] Docker or Singularity
 - [ ] Docker, Singularity, or containerd
 - [ ] Singularity only
 - [x] Docker only
 
-#### Q54. Cloud Genomics enables pipelines to run on top of which GCP service?Cloud Genomics enables pipelines to run on top of which GCP service?
+#### Q54. Cloud Genomics enables pipelines to run on top of which GCP service?
 
 - [x] Cloud Dataflow
 - [ ] Google Kubernetes Engine

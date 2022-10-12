@@ -868,12 +868,12 @@ Explanation: Here only one line can throw NPE. Calling getClass() from context.g
 
 #### Q84. Which are considered to be typical, common, cross-cutting concerns that would be a good fit for AOP? (Choose 3)
 
-- A.  Creating SQL queries 
-- B.  Logging
-- C.  Filtering, sorting and transforming data
-- D.  Transaction management
-- E.  Audit logging
-- F.  Business logic 
+    - A. Creating SQL queries
+    - B. Logging
+    - C. Filtering, sorting and transforming data
+    - D. Transaction management
+    - E. Audit logging
+    - F. Business logic
 
 - [ ] A, D, F
 - [ ] D, E, F

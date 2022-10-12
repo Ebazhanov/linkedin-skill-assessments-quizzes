@@ -1363,7 +1363,6 @@ sprite->x
 - [x] a.out
 - [ ] out.a
 
-
 #### Q83. What will be the output of the following program?
 
 ```cpp
@@ -1380,3 +1379,17 @@ return 0;
 - [ ] 2
 - [x] 3
 - [ ] 6
+
+#### Q84. What is the use of tellp ()?
+
+- [ ] Current Input Pointer position
+- [x] Current Output Pointer position
+- [ ] Last Input Pointer position
+- [ ] Last Output Pointer position
+
+#### Q85. What is callback function?
+
+- [ ] Pointer for a pointer
+- [x] Pointer for a function
+- [ ] function for a pointer
+- [ ] function for a class

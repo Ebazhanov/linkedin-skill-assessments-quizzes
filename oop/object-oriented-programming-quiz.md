@@ -616,10 +616,10 @@ public class Honda extends Car{}
 
 #### Q80. Static polymorphism uses method \_ ?
 
-- [x] overloading
+- [ ] overloading
 - [ ] inheritance
 - [ ] abstraction
-- [ ] overriding
+- [x] overriding
 
 #### Q81. What does a concrete class not have?
 
@@ -726,6 +726,6 @@ public class Honda extends Car{}
 - [ ] Encapsulation
 - [x] Compilation
 - [ ] Inheritance
-- [ ] Polymorphism 
+- [ ] Polymorphism
 
- [Reference](https://www.interviewbit.com/blog/principles-of-oops/)
+[Reference](https://www.interviewbit.com/blog/principles-of-oops/)

@@ -221,6 +221,8 @@ instance.password
 - [ ] It keeps data and the methods that can manipulate that data in one place.
 - [x] It only allows the data to be changed by methods.
 
+[Reference](https://www.scaler.com/topics/python/encapsulation-in-python/)
+
 #### Q18. What is the purpose of an if/else statement?
 
 - [ ] It tells the computer which chunk of code to run if the instructions you coded are incorrect.
@@ -2116,7 +2118,6 @@ for i in range(5): pass
 - [ ] Modulo formatted strings
 - [x] Formatted string literals
 
-
 #### Q155. How many CPUs (or cores) will the Python threading library take advantage of simultaneously?
 
 - [x] One
@@ -2130,5 +2131,18 @@ for i in range(5): pass
 Python threading is restricted to a single CPU at one time. The multiprocessing library will allow you to run code on different processors.
 ```
 
+#### Q156 What will be the value of y in this code?
 
+```python
+x = 5
+y = 1 + (20 if x < 5 else 30)
+```
 
+- [ ] False
+- [ ] 21
+- [ ] 2
+- [x] 31
+
+**Explanation:**
+If x < 5 ==> y = 1 + 20
+Else y = 1 + 30

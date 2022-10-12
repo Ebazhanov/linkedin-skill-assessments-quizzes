@@ -248,3 +248,115 @@
 - [ ] service changes
 
 [source]`'MT: depositor account os a liability to the bank - bank owes the money to depositor. bank collects a notes receivable from client means reducing client's cash/ deposits. Similar if NSF means the cheque owner does not have enough funds to transfer funds into the client's deposits, so theres no change in deposits.'`
+
+#### Q33. Which statement about current liabilities is true?
+
+- [ ] Current liabilities are obligations owed after a 12-month period.
+- [ ] Current liabilities should be included under long-term liabilities.
+- [ ] Current liabilities are obligations owed over 5 years.
+- [x] Current liabilities are obligations due within a year.
+
+> Current liabilities are a company's short-term financial obligations that are due within one year or within a normal operating cycle.
+[Reference](https://www.investopedia.com/terms/c/currentliabilities.asp)
+
+#### Q34. How do variable costs and fixed costs act within the relevant range?
+
+- [x] Variable costs per unit remain constant and fixed costs per unit vary.
+- [ ] Fixed costs per unit remain constant and variable costs per unit vary.
+- [ ] Both total variable costs and total fixed costs vary.
+- [ ] Both total variable costs and total fixed costs remain constant.
+
+> While variable costs tend to remain flat, the impact of fixed costs on a company's bottom line can change based on the number of products it produces.
+[Reference](https://www.investopedia.com/ask/answers/032515/what-difference-between-variable-cost-and-fixed-cost-economics.asp)
+
+#### Q35. Which answer can be defined as an investment center's contribution margin less the fixed costs that are traceable to the investment center?
+
+- [ ] net income
+- [ ] residual income
+- [x] segment margin
+- [ ] return on investment (ROI)
+
+> Contribution Margin = Sales Revenue – Variable Costs
+> Segment Margin = Segment’s Contribution Margin – Fixed Costs traced to the Segment
+[Reference](https://qsstudy.com/segment-margin-differs-contribution-margin-explain/)
+
+#### Q36. If an auditor is expected to detect the overstatement of sales, what should the auditor trace transactions from?
+
+- [ ] customer purchase orders to the sales journal
+- [ ] cash receipts to the purchase orders
+- [x] sales journal to the shipping documents
+- [ ] shipping documents to the cash receipts
+
+> Which audit procedure is most effective in testing credit sales for overstatement?
+> Vouch a sample recorded sales from the sales journal to shipping documents.
+[Reference](https://homework.study.com/explanation/which-audit-procedure-is-most-effective-in-testing-credit-sales-for-overstatement-1-trace-a-sample-of-postings-from-the-sales-journal-to-the-sales-account-in-the-general-ledger-2-vouch-a-sample-recorded-sales-from-the-sales-journal-to-shipping-docum.html)
+
+#### Q37. What is the formal method of analysis applied by management to identify appropriate cost drivers and effects on the costs of production?
+
+- [ ] profitability analysis
+- [ ] cost-benefit analysis
+- [ ] life-cycle costing
+- [ ] activity analysis
+
+I put cost-benefit analysis, but I'm not sure. I think it could be life-cycle costing as well.
+
+#### Q38. When independent auditors are able to maintain their actual independence, it is referred to as independence in \_\_\_\_.
+
+- [x] fact
+- [ ] appearance
+- [ ] totality
+- [ ] trust
+
+> In Accounting Series Release no. 269, the SEC defined independence in fact and independence in appearance as separate but equally necessary factors in establishing the auditor’s objectivity and integrity when certifying financial statements filed with the commission by an issuer of securities. Few would debate that independence in fact—that is, that the auditor is actually unbiased—is absolutely essential to the validity of an audit.
+[Reference](https://www.journalofaccountancy.com/issues/2001/apr/independenceandpublicperceptionwhyweneedtocare.html)
+
+#### Q39. When applying a cost-volume-profit analysis (CVP), certain assumptions must be respected. Which answer is _not_ one of these assumptions?
+
+- [ ] The unit sales price will remain constant.
+- [x] Actual unit variable cost will vary over the production range.
+- [ ] The cost behavior is expressed as intersecting straight lines.
+- [ ] The unit fixed cost will decrease.
+
+> CVP assumes the following:
+>
+> - Constant sales price;
+> - Constant variable cost
+> - Constant total fixed cost
+> - Units sold equal units produced.
+>
+> These are simplifying, largely linearizing assumptions, which are often implicitly assumed in elementary discussions of costs and profits.
+[Reference](https://en.wikipedia.org/wiki/Cost%E2%80%93volume%E2%80%93profit_analysis#Assumptions)
+
+#### Q40. Which statement about a perpetual inventory system is true?
+
+- [ ] FIFO cost of goods sold will be the same as in a periodic inventory system.
+- [ ] Average costs are based entirely on unit cost simple averages.
+- [ ] LIFO cost of goods sold will be the same as in a periodic inventory system.
+- [x] A new average is calculated under the average cost method after each sale.
+
+I'm not 100% sure on this.
+
+> Perpetual inventory is a method of accounting for inventory that records the sale or purchase of inventory immediately through the use of computerized point-of-sale systems and enterprise asset management software.
+[Reference](https://www.investopedia.com/terms/p/perpetualinventory.asp)
+
+#### Q41. Which type of business would be most likely to use a job order costing system?
+
+- [ ] an electric car producer
+- [ ] a wood milling company
+- [ ] a beverage manufacturer
+- [x] a law firm specializing in injury law
+
+> Since lawyers and accountants work with different clients on unique accounts, many will use a job order costing system to track how much time and resources were used for each customer.
+[Reference](https://www.indeed.com/career-advice/career-development/job-order-costing-system)
+
+#### Q42. Assigning indirect costs to specific jobs is completed by **\_**.
+
+- [ ] allocating to manufacturing overhead account
+- [ ] using the manufacturing cost incurred
+- [x] applying a predetermined overhead rate
+- [ ] applying indirect costs to work in process
+
+I'm not 100% sure on this.
+
+> Indirect cost rate calculations can be determined by dividing an indirect cost by a cost object, such as sales revenues or square footage.
+[Reference](https://smallbusiness.chron.com/ways-allocate-indirect-cost-73462.html)
