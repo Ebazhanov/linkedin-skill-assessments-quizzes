@@ -145,7 +145,7 @@
 
 #### Q21. You want to take an existing layer and make it into two separate layers. How can you do this so the separation occurs at the playhead?
 
-- [ ] Click Layer > Split Layer.
+- [x] Click Layer > Split Layer.
 - [ ] Click Edit > Duplicate.
 - [ ] Click Edit > Extract Work Area.
 - [ ] Click Edit > Split Layer.
@@ -161,12 +161,12 @@
 
 - [ ] Preferences > Output
 - [ ] Preferences > Video Preview
-- [ ] Preferences > Video Hardware
+- [x] Preferences > Video Hardware
 - [ ] Preferences > Previews
 
 #### Q24. A file is in the Render Queue but cannot be rendered. You see that it is labeled Needs Output. What should you do?
 
 - [ ] Save the project.
 - [ ] Set an output file name from the Render To menu.
-- [ ] Set an output file name and location from the Output To menu.
+- [x] Set an output file name and location from the Output To menu.
 - [ ] Adjust the composition settings.
