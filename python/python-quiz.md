@@ -2146,3 +2146,14 @@ y = 1 + (20 if x < 5 else 30)
 **Explanation:**
 If x < 5 ==> y = 1 + 20
 Else y = 1 + 30
+
+
+#### Q157.The process of pickling in Python includes?
+
+- [x] conversion of a Python object hierarchy into byte stream
+- [ ] conversion of a datatable into a list
+- [ ] conversion of a byte stream into Python object hierarchy
+- [ ] conversion of a list into a datatable
+
+Explanation:Pickling is the process of sterilizing a Python object, that is, conversion of a byte stream into Python object hierarchy. The reverse of this process is known as unpickling.
+
