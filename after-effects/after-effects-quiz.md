@@ -12,14 +12,14 @@
 #### Q2. Where do you change the shutter angle for the motion blur in a composition?
 
 - [ ] on the Basic tab of the Composition Settings dialog box
-- [ ] on the Advanced tab of the Composition Settings dialog box
+- [x] on the Advanced tab of the Composition Settings dialog box
 - [ ] on the 3D Renderer tab of the Composition Settings dialog box
 - [ ] in the File > Project Settings dialog box
 
 #### Q3. What is a null object?
 
 - [ ] a special layer used to hold expressions
-- [ ] an invisible layer that has all the properties of a visible layer so it can be parented to any layer in the composition
+- [x] an invisible layer that has all the properties of a visible layer so it can be parented to any layer in the composition
 - [ ] a solid layer with a black background that can be parented to any layer in the composition
 - [ ] a visible layer that can be parented to any layer in the composition
 
@@ -145,7 +145,7 @@
 
 #### Q21. You want to take an existing layer and make it into two separate layers. How can you do this so the separation occurs at the playhead?
 
-- [ ] Click Layer > Split Layer.
+- [x] Click Layer > Split Layer.
 - [ ] Click Edit > Duplicate.
 - [ ] Click Edit > Extract Work Area.
 - [ ] Click Edit > Split Layer.
@@ -161,12 +161,12 @@
 
 - [ ] Preferences > Output
 - [ ] Preferences > Video Preview
-- [ ] Preferences > Video Hardware
+- [x] Preferences > Video Hardware
 - [ ] Preferences > Previews
 
 #### Q24. A file is in the Render Queue but cannot be rendered. You see that it is labeled Needs Output. What should you do?
 
 - [ ] Save the project.
 - [ ] Set an output file name from the Render To menu.
-- [ ] Set an output file name and location from the Output To menu.
+- [x] Set an output file name and location from the Output To menu.
 - [ ] Adjust the composition settings.
