@@ -144,7 +144,17 @@ Note: I just use synchronization. After digging into settings I was able only to
 
 [Reference](https://helpx.adobe.com/in/lightroom-classic/help/create-photo-book.html)
 
-#### Q19. At the time of sharing a lightroom preset, which format is used to export the image having the desired preset.
+
+#### Q19. Saturation and Vibrance both strengthen the intensity of the color in your image, however Vibrance is more specific to __ .
+
+- [x] Midtones
+- [ ] Shadows
+- [ ] Highlights
+- [ ] Global
+
+[Reference](https://www.slrlounge.com/vibrance-vs-saturation-what-is-the-difference/)
+
+#### Q20. At the time of sharing a lightroom preset, which format is used to export the image having the desired preset.
 
 - [ ] JPG
 - [x] DNG
@@ -152,3 +162,4 @@ Note: I just use synchronization. After digging into settings I was able only to
 - [ ] Raw
 
 [Reference](https://www.bwillcreative.com/how-to-share-lightroom-mobile-presets/)
+
