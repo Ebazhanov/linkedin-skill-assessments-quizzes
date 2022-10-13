@@ -836,3 +836,12 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [x] The actor can be the system itself.
 
 [Reference](https://tcagley.wordpress.com/2015/03/31/the-difference-between-a-persona-and-an-actor/) Actors can be a person, group, or system(s).
+
+#### Q115. In Agile, which of the following options is a high priority?
+
+- [ ] Comprehensive documentation
+- [ ] Processes and tools
+- [ ] Contract negotiation
+- [x] Working software
+
+[Reference](https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/) `Agile projects are characterized by a series of tasks that are conceived, executed and adapted as the situation demands and one of the priorities is working software.`
