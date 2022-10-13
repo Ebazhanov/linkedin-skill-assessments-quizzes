@@ -327,7 +327,7 @@
 #### Q39. You would like a SharePoint subsite to have a mailbox. While researching configuration options, which statement do you find to be true?
 
 - [ ] a subsite can have a single mailbox
-- [x] a susite cannot have a mailbox
+- [x] a subsite cannot have a mailbox
 - [ ] a subsite canhave any number of mailboxes
 - [ ] a subsite can have a shared mailbox with the parent site
 

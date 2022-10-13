@@ -70,7 +70,7 @@ console.log('Results shown');
 
 #### Q7. Which snippet could you add to this code to print "food" to the console?
 
-```javascript
+```js
 class Animal {
   static belly = [];
   eat() {
@@ -91,7 +91,7 @@ console.log(/* Snippet Here */); //Prints food
 
 #### Q8. You've written the code shown to log a set of consecutive values, but it instead results in the value 5, 5, 5, and 5 being logged to the console. Which revised version of the code would result in the value 1, 2, 3 and 4 being logged?
 
-```javascript
+```js
 for (var i = 1; i <= 4; i++) {
   setTimeout(function () {
     console.log(i);
@@ -101,7 +101,7 @@ for (var i = 1; i <= 4; i++) {
 
 - [ ] .
 
-```javascript
+```js
 for (var i = 1; i <= 4; i++) {
   (function (i) {
     setTimeout(function () {
@@ -113,7 +113,7 @@ for (var i = 1; i <= 4; i++) {
 
 - [ ] .
 
-```javascript
+```js
 for (var i = 1; i <= 4; i++) {
   setTimeout(function () {
     console.log(i);
@@ -123,7 +123,7 @@ for (var i = 1; i <= 4; i++) {
 
 - [x] .
 
-```javascript
+```js
 for (var i = 1; i <= 4; i++) {
   (function (j) {
     setTimeout(function () {
@@ -135,7 +135,7 @@ for (var i = 1; i <= 4; i++) {
 
 - [ ] .
 
-```javascript
+```js
 for (var j = 1; j <= 4; j++) {
   setTimeout(function () {
     console.log(j);
@@ -257,7 +257,7 @@ let roadTypes = ['street', 'road', 'avenue', 'circle'];
 
 #### Q15. What is the result of running this statement?
 
-```javascript
+```js
 console.log(typeof 42);
 ```
 
@@ -596,7 +596,7 @@ f2();
 
 #### Q45. What type of scope does the end variable have in the code shown?
 
-```javascript
+```js
 var start = 1;
 if (start === 1) {
   let end = 2;
@@ -869,7 +869,7 @@ printA();
 
 #### Q69. What is the result of running the statement shown?
 
-```javascript
+```js
 let a = 5;
 console.log(++a);
 ```
@@ -883,7 +883,7 @@ console.log(++a);
 
 #### Q70. You've written the event listener shown below for a form button, but each time you click the button, the page reloads. Which statement would stop this from happening?
 
-```javascript
+```js
 button.addEventListener(
   'click',
   function (e) {
@@ -946,7 +946,7 @@ button.addEventListener(
 
 #### Q76. What is the result in the console of running this code?
 
-```javascript
+```js
 function logThis() {
   console.log(this);
 }
@@ -962,7 +962,7 @@ logThis();
 
 #### Q77. Which class-based component is equivalent to this function component?
 
-```javascript
+```js
 const Greeting = ({ name }) => <h1>Hello {name}!</h1>;
 ```
 
@@ -973,7 +973,7 @@ const Greeting = ({ name }) => <h1>Hello {name}!</h1>;
 
 #### Q78. Which class-based lifecycle method would be called at the same time as this effect Hook?
 
-```javascript
+```js
 useEffect(() => {
   // do things
 }, []);
@@ -988,7 +988,7 @@ useEffect(() => {
 
 #### Q79. What is the output of this code?
 
-```javascript
+```js
 var obj;
 console.log(obj);
 ```
@@ -1002,7 +1002,7 @@ console.log(obj);
 
 #### Q80. How would you use the TaxCalculator to determine the amount of tax on \$50?
 
-```javascript
+```js
 class TaxCalculator {
   static calculate(total) {
     return total * 0.05;
@@ -1153,24 +1153,6 @@ console.log(addFive(3));
 - [ ] Same-Origin
 
 [Reference Cross-Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
-
-#### Q89. What will be logged to the console??
-
-```js
-'use strict';
-function logThis() {
-  this.desc = 'logger';
-  console.log(this);
-}
-new logThis();
-```
-
-- [ ] window
-- [ ] undefined
-- [ ] function
-- [x] {desc: "logger"}
-
-[Reference strict in javascript classes](https://www.w3schools.com/js/js_strict.asp)
 
 #### Q90. What is the output of this code?
 
@@ -1413,7 +1395,7 @@ console.log([...arr1, ...arr2]);
 
 #### Q107. What will be logged to the console?
 
-```javascript
+```js
 console.log(typeof 'blueberry');
 ```
 
@@ -1435,7 +1417,7 @@ console.log(typeof 'blueberry');
 </div>
 ```
 
-```javascript
+```js
 //JavaScript
 document.querySelectorAll('div').forEach((e) => {
   e.onclick = (e) => console.log(e.currentTarget.id);
@@ -1852,7 +1834,7 @@ var flagDatabase = JSON.parse(flagsJSON);
 
 #### Q131. Which snippet allows the acresOfRainForest variable to increase?
 
-```
+```js
 let conservation = true;
 let deforestation = false;
 let acresOfRainForest = 100;
@@ -1898,13 +1880,15 @@ if (/* Snipped goes here */){
 
 #### Q136. What value is printed to the console after this code execute?
 
-let cat = Object.create({type: "lion" });
-cat.size = "large";
+```js
+let cat = Object.create({ type: 'lion' });
+cat.size = 'large';
 
-let copyCat = {...cat };
-cat.type = "tiger";
+let copyCat = { ...cat };
+cat.type = 'tiger';
 
 console.log(copyCat.type, copyCat.size);
+```
 
 - [ ] tiger large
 - [ ] lion undefined
@@ -1915,14 +1899,16 @@ console.log(copyCat.type, copyCat.size);
 
 #### Q137. What does the code print to the console?
 
-let animals = [{type: "lion" }, "tiger"];
+```js
+let animals = [{ type: 'lion' }, 'tiger'];
 let clones = animals.slice();
 
-clones[0].type= "bear";
-clones[1] = "sheep";
+clones[0].type = 'bear';
+clones[1] = 'sheep';
 
 console.log(animals[0].type, clones[0].type);
 console.log(animals[1], clones[1]);
+```
 
 - [x] bear bear
       tiger sheep
@@ -1934,3 +1920,56 @@ console.log(animals[1], clones[1]);
       tiger sheep
 
 [Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
+
+#### Q138. What will be the output of the following code.
+
+```js
+a=5;
+b=4;
+alert(a++(+(+(+b))));
+```
+
+- [ ] 18
+- [ ] 10
+- [x] 9
+- [ ] 20
+
+#### Q139. What fragment could you add to this code to make it output "{"type": "tiger"}" to the console?
+
+```js
+let cat = { type: "tiger", size: "large" };
+
+let json = /* Snippet here */;
+
+console.log(json); // print {"type":"tiger"}
+```
+
+- [ ] `cat.toJSON("type");`
+- [x] `JSON.stringify(cat, ["type"]);`
+- [ ] `JSON.stringify(cat);`
+- [ ] `JSON.stringify(cat, /type/);`
+
+#### Q140. Which document method is not used to get a reference to a DOM node?
+
+- [ ] document.getNode();
+- [ ] document.getElementsByClassName();
+- [x] document.querySelectorAll();
+- [ ] document.querySelector();
+
+[Reference](<https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById#:~:text=querySelector()%20and%20Document.,element%20objects%20in%20the%20DOM.>)
+
+#### Q141. Which snippet could you add to this code to print "{"type”: “tiger"}" to the console?
+
+```
+let cat = {type: "tiger", size: "large"};
+let json= /_ Snippet Here _/;
+console.log(json); //prints {"type”: “tiger"}
+
+```
+
+- [x] JSON.sringify(cat);
+- [ ] JSON.sringify(cat, ["type"]);
+- [ ] JSON.sringify(cat, /type/);
+- [ ] cat.toJSON("type");
+
+[Reference](https://www.w3schools.com/jsref/jsref_stringify.asp)

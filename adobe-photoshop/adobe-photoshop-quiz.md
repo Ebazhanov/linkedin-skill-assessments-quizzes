@@ -500,9 +500,11 @@
 #### Q64. What is the outcome if you make a selection and then add an adjustment layer?
 
 - [ ] The adjustment layer contains a vector mask that applies the adjustment only to the unselected pixels.
-- [ ] The adjustment layer contains a layer mask that applies the adjustment only to the selected pixels.
+- [x] The adjustment layer contains a layer mask that applies the adjustment only to the selected pixels.
 - [ ] The adjustment layer contains a layer mask that applies the adjustment only to the unselected pixels.
 - [ ] The adjustment layer contains a vector mask that applies the adjustment only to the selected pixels.
+
+[Reference under section titled 'Create and confine adjustment and fill layers'](https://helpx.adobe.com/photoshop/using/adjustment-fill-layers.html)
 
 #### Q65. Which filter is useful for removing lens distortion from JPEG photos based on lens-specific settings?
 
@@ -680,3 +682,35 @@
 - [ ] B, C and D
 - [ ] B
 - [x] B and C
+
+#### Q90. What special layer type applies nondestructive color correction to all of the layers below it ?
+
+- [ ] layer comp
+- [x] adjustment layer
+- [ ] layer mask
+- [ ] fill layer
+
+#### Q91. Which command would permanently join two layers into one?
+
+- [x] Group
+- [ ] Merge
+- [ ] Combine
+- [ ] Link
+
+#### Q92. Saturation and Vibrance both strengthen the intensity of the color in your image, however Vibrance is more specific to \_ .
+
+- [x] Midtones
+- [ ] Shadows
+- [ ] Highlights
+- [ ] Global
+
+[Reference](https://www.slrlounge.com/vibrance-vs-saturation-what-is-the-difference/)
+
+#### Q93. Which menu contains the duplicate layer option in photoshop?
+
+- [x] Layer
+- [ ] Filter
+- [ ] Image
+- [ ] Select
+
+[Reference](https://helpx.adobe.com/in/photoshop-elements/using/copying-arranging-layers.html)

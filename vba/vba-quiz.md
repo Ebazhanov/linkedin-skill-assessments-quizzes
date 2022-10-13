@@ -703,7 +703,7 @@ Next I
 End Sub
 ```
 
-- [ ] :
+- [x] :
 
 ```
 Sub Loopi()
@@ -778,3 +778,37 @@ Next i
 - [ ] in the worksheet's object module
 - [ ] in the Worksheet_Change class module
 - [x] in the workbook's code module
+
+#### Q57. You are building an event procedure for a worksheet, and you edit the argument list in the event procedure's Sub statement. What happens when the event procedure runs?
+
+- [ ] There's no difference compared to the results of a standard procedure.
+- [ ] The results are unpredictable.
+- [x] The procedure won't compile.
+- [ ] The procedure throws a run-time error.
+
+#### Q58. Based on this code, which procedure calls the subroutine SumCosts correctly?
+
+```
+Sub Sumosts(AcctName As String, Amount As Long)
+    Range("A1") = AcctName
+End Sub
+```
+
+- [ ] call SumCosts "Totalcosts", 3
+- [ ] SumCosts "Totalcosts", 3
+- [x] SumCosts ("Totalcosts", 3)
+- [ ] Call SumCosts
+
+[Source](https://learn.microsoft.com/en-us/office/vba/language/concepts/getting-started/calling-sub-and-function-procedures)
+
+#### Q59. You want to declare an object that describes cars, so that your VBA code can apply tests such as the following. What keyword do you use to declare Cars?
+
+```
+If Cars(1).Make="Ford" And Cars (1).MPG > 20
+    Then Cars(1).Selected = True
+```
+
+- [ ] Dataframe
+- [x] Type
+- [ ] object
+- [ ] Variant

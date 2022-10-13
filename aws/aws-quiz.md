@@ -810,9 +810,11 @@ aws ecs create-service \
 #### Q91. When creating a RESTful API into a DynamoDB table, which is the right service to facilitate this?
 
 - [ ] API Sync
-- [x] AppSync
+- [ ] AppSync
 - [ ] CloudAPI
-- [ ] API Gateway
+- [x] API Gateway
+
+[Reference](https://aws.amazon.com/blogs/compute/using-amazon-api-gateway-as-a-proxy-for-dynamodb/)
 
 #### Q92. Which AWS service is valid data source for AppSync?
 
@@ -822,3 +824,52 @@ aws ecs create-service \
 - [ ] Step Functions
 
 [Reference](https://aws.amazon.com/blogs/architecture/understanding-the-different-ways-to-invoke-lambda-functions)
+
+#### Q93. If a single instance has failed to launch within 24 hours due to some issues during a set up of Auto-scaling. Then what will happen to the Auto-Scaling condition?
+
+- [ ] Auto Scaling will continue to launch the instance for straight 3 days
+- [x] The Auto Scaling group will be automatically terminated.
+- [ ] In a separate region Auto Scaling will start an instance
+- [ ] Auto Scaling will remove the scaling process
+
+#### Q94. Point out the wrong statement.
+
+- [ ] Amazon Machine Instances are sized at various levels and rented on a computing/hour basis
+- [ ] The metrics obtained by CloudWatch may be used to enable a feature called Auto Scaling
+- [ ] A number of tools are used to support EC2 services
+- [x] None of the mentioned
+
+#### Q95. In terms of Amazon VPC design, a VPC with a single public subnet is ideal for which of the following application designs?
+
+- [x] A single-tier application
+- [ ] A serverless application
+- [ ] A microservice application
+- [ ] A multi-tier application
+
+#### Q96. If you stop and restart an EC2 instance, does it retain its private IP address?
+
+- [x] Yes, the instance retains its private IP addresses
+- [ ] No, it retains only the public IP addresses
+- [ ] No, it retains only the Elastic IP addresses
+- [ ] No, it does not retain its private IP addresses
+
+#### Q97. All the Amazon EC2 instances you launch into a nondefault VPC are **\_** by default.
+
+- [ ] stateless
+- [ ] protected
+- [ ] public
+- [x] private
+
+#### Q98. When you launch an instance into a dedicated-tenancy VPC, what happens?
+
+- [x] Your instance is automatically a Dedicated instance, regardless of the instance's specific tenancy attribute
+- [ ] You receive an error message notifying you that you must set your instance's tenancy attribute to dedicated
+- [ ] Your instance launch fails, but AWS prompts you to launch a new one with the tenancy attribute set to dedicated
+- [ ] Your instance launch fails immediately
+
+#### Q99. Use the **\_** protocol in a VPC security group to communicate with a DB instance.
+
+- [ ] SSH
+- [ ] SSL
+- [x] TCP
+- [ ] UDP
