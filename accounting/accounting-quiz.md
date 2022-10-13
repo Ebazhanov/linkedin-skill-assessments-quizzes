@@ -360,3 +360,74 @@ I'm not 100% sure on this.
 
 [Reference](https://smallbusiness.chron.com/ways-allocate-indirect-cost-73462.html)
 > Indirect cost rate calculations can be determined by dividing an indirect cost by a cost object, such as sales revenues or square footage.
+
+#### Q43. Which is an assurance engagement?
+
+- [ ] compilation
+- [ ] network installation
+- [x] audit
+- [ ] review
+
+[Reference](https://www.wikiaccounting.com/what-is-the-objective-of-assurance-engagement/)
+
+#### Q44. What is conversion cost the sum of?
+
+- [ ] direct materials cost + administration cost
+- [ ] direct materials cost + manufacturing overhead cost
+- [ ] direct materials cost + marketing cost
+- [x] direct labor cost + manufacturing overhead cost
+
+[Reference](https://smallbusiness.chron.com/calculate-beginning-inventory-conversion-costs-20581.html)
+
+#### Q45. Under a perpetual inventory system, merchandise is purchased on account. What is the correct journal entry for this purchase?
+
+- [ ] Debit merchandise inventory. credit accounts payable.
+- [ ] Debit purchases, credit cash
+- [ ] Debit purchase returns, credit cost of goods sold.
+- [x] debit merchandise inventory, credit cash.
+
+[Reference](https://homework.study.com/explanation/using-a-perpetual-inventory-system-the-buyer-s-journal-entry-to-record-the-return-of-merchandise-purchased-on-account-includes-a-credit-to-the-cost-of-goods-sold-b-credit-to-accounts-payable-c-credit-to-purchase-returns-d-credit-to-inven.html#:~:text=Answer%20and%20Explanation%3A,and%20accounts%20payable%20was%20credited.)
+
+#### Q46. Which is not a task usually associated with activity-based costing (ABC)?
+
+- [ ] applying an activity rate for each cost pool
+- [ ] identitying specific cost drivers
+- [x] appropriately allocating overhead costs to cost pools
+- [ ] applying a single cost rate across processes
+
+[Reference](https://homework.study.com/explanation/which-of-the-following-tasks-is-not-normally-associated-with-an-abc-costing-system-a-calculation-of-pool-rates-b-identification-of-cost-pools-c-preparation-of-allocation-matrices-d-identification-of-cost-drivers.html#:~:text=Answer%20and%20Explanation%3A,Preparation%20of%20allocation%20matrices.)
+
+#### Q47. ‘What is true when the units in ending inventory increase during the year?
+
+- [ ] Net income is higher for absorption costing than for variable costing.
+- [ ] Net income is identical for absorption costing and for variable
+costing.
+- [x] Theres ro relationship between net income and the costing
+approach.
+- [ ] Net income is lower for absorption costing than for variable costing.
+
+#### Q48. When independent auditors are able to maintain their actual independence, itis referred to as independence in__.
+
+- [ ] trust
+- [x] totaiity
+- [ ] appearance
+- [ ] fact
+
+#### Q49. What is the formal method of analysis applied by management to identify appropriate cost drivers and effects on the costs of production?
+
+- [ ] cost-benefit analysis
+- [ ] life-cycte costing
+- [ ] profitability analysis
+- [x] activity analysis
+
+[Reference](https://www.chegg.com/homework-help/questions-and-answers/formal-method-analysis-used-managers-identify-appropriate-cost-drivers-effects-costs-makin-q74105384)
+
+#### Q50. When do you expect to apply job costing over process costing?
+
+- [x] when the costs are easily traced to a specific product
+- [ ] when costs are accumulated by department
+- [ ] when the value of work in process is based on assigning standard costs
+- [ ] when each product batch is exactly the same as the prior batch
+
+[Reference](https://www.tutorialspoint.com/differentiate-between-job-costing-and-process-costing)
+
