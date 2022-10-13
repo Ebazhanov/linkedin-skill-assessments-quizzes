@@ -1973,3 +1973,12 @@ console.log(json); //prints {"type”: “tiger"}
 - [ ] cat.toJSON("type");
 
 [Reference](https://www.w3schools.com/jsref/jsref_stringify.asp)
+
+#### Q142. In JavaScript, all objects inherit a built-in property from a ___________________.
+
+- [ ] node
+- [ ] instance variable
+- [x] prototype
+- [ ] accessor
+
+[Reference](https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/)
