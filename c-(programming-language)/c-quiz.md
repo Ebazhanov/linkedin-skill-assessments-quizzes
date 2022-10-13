@@ -1224,3 +1224,31 @@ chat *string[20] = {"one", "two", "three"};
 - [ ] printf("%c", string[1][2]);
 
 **Explanation :** This matrix is not defined in 2D because which this command is not valid and there will no output.
+
+
+ #### Q78. What will be the output of the following code snippet?
+ ```c
+#include <stdio.h>  
+void change(int,int);  
+int main()  
+{  
+    int a=10,b=20;  
+    change(a,b); //calling a function by passing the values of variables.  
+    printf("Value of a is: %d",a);  
+    printf("\n");  
+    printf("Value of b is: %d",b);  
+    return 0;  
+}  
+void change(int x,int y)  
+{  
+    x=13;  
+    y=17;  
+} 
+```
+
+-[x] 10,20
+-[ ] 10,10
+-[ ] 20,20
+-[ ] 20,10
+
+**Explanation :** The function "change" will change the value of x and y only within its own scope, so a and is unaffected.
