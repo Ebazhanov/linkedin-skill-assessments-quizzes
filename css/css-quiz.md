@@ -2378,3 +2378,10 @@ input.invalid {
 - [ ] !important!
 - [x] !important
 - [ ] important!
+
+#### Q155. What color would rgb(255,0,0) give?
+
+- [ ] Blue
+- [ ] Green
+- [x] Red
+- [ ] Yellow
