@@ -732,8 +732,7 @@ public class Honda extends Car{}
 
 #### Q96. How do object behaviour and attributes differ?
 
-- [ ]  Behaviour describe dynamic properties; attributes are static.
-- [x]  Attributes describe a state; behaviours describe a change.
-- [ ]  Attributes apply only to a specified object; behaviour apply to other linked objects.
-- [ ]  Behaviours are vector quantities; attributes are scalars.
-
+- [ ] Behaviour describe dynamic properties; attributes are static.
+- [x] Attributes describe a state; behaviours describe a change.
+- [ ] Attributes apply only to a specified object; behaviour apply to other linked objects.
+- [ ] Behaviours are vector quantities; attributes are scalars.

@@ -1974,7 +1974,7 @@ console.log(json); //prints {"type”: “tiger"}
 
 [Reference](https://www.w3schools.com/jsref/jsref_stringify.asp)
 
-#### Q142. In JavaScript, all objects inherit a built-in property from a ___________________.
+#### Q142. In JavaScript, all objects inherit a built-in property from a ********\_\_\_********.
 
 - [ ] node
 - [ ] instance variable

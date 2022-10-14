@@ -536,8 +536,7 @@ func findUser(ctx context.Context, login string) (*User, error) {
 
 Relevant excerpt from the article:
 
-> _The simplest way to resolve this leak is to change the channel from an unbuffered channel to a buffered channel with a capacity of 1. Now in the timeout case, after the receiver has moved on, the  Goroutine will complete its send by placing the *User value in the channel then it will return._
-
+> _The simplest way to resolve this leak is to change the channel from an unbuffered channel to a buffered channel with a capacity of 1. Now in the timeout case, after the receiver has moved on, the Goroutine will complete its send by placing the \*User value in the channel then it will return._
 
 #### 44. What will this code print?
 

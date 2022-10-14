@@ -875,7 +875,8 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] Ransomware
 - [ ] Phishing
 
-`Explanation: Social Engineering and human error are the most common cause of cyber incidents as it is easier for attackers to convince employees to give up passwords or accept MFA prompts than it is to breach & exploit the system. See Recent Uber and Cisco hack` 
+`Explanation: Social Engineering and human error are the most common cause of cyber incidents as it is easier for attackers to convince employees to give up passwords or accept MFA prompts than it is to breach & exploit the system. See Recent Uber and Cisco hack`
+
 1. [Reference](https://www.protocol.com/bulletins/uber-breach-hacker-twilio-mfa)
 2. [Reference](https://www.swarmnetics.com/blog/cisco-network-breach-voice-phishing-mfa-fatigue-are-becoming-common-attacks/)
 
