@@ -216,7 +216,7 @@
 - [x] Maximize outcome while minimizing output.
 - [ ] Optimize for resource utilization.
 
-`“…your job is to minimize output, and maximize outcome and impact.” - Jeff Patton`
+`"…your job is to minimize output, and maximize outcome and impact." - Jeff Patton`
 
 #### Q31. Which statement is true about the actor in a user story?
 
@@ -685,7 +685,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] generalizing specialist
 - [ ] apprentice developer
 
-[Reference](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of “T-shaped” people. This can also be described as a cross-functionality.`
+[Reference](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of "T-shaped" people. This can also be described as a cross-functionality.`
 
 #### Q95. What is a lean canvas?
 
