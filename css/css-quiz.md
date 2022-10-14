@@ -2378,3 +2378,12 @@ input.invalid {
 - [ ] !important!
 - [x] !important
 - [ ] important!
+
+#### Q155. What does CSS stand for?
+
+- [ ] Creative Style Sheets
+- [ ] Colourful Style Sheets
+- [x] Cascading Style Sheets
+- [ ] Colourful Style Sheets
+
+[Reference](https://www.w3schools.com/quiztest/quiztest.asp?qtest=CSS)
