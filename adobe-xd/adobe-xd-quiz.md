@@ -150,7 +150,7 @@
 - [ ] added in Design view.
 - [ ] interactive versions of a component.
 - [ ] customized versions of a component.
-- [x] applied to all components.
+- [x] applied to components.
 
 #### Q21. You created a Repeat Grid that is to be an image gallery. How would you control the placement of images in the Repeat Grid?
 
