@@ -574,6 +574,6 @@
 
 - [ ] Effect > Path > Arrowheads.
 - [x] The Stroke panel.
-- [ ] The Arrow panel
+- [ ] The Arrow panel.
 - [ ] Object > Path > Arrowheads.
 
