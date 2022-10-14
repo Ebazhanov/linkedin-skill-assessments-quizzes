@@ -875,7 +875,8 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] Ransomware
 - [ ] Phishing
 
-`Explanation: Social Engineering and human error are the most common cause of cyber incidents as it is easier for attackers to convince employees to give up passwords or accept MFA prompts than it is to breach & exploit the system. See Recent Uber and Cisco hack` 
+`Explanation: Social Engineering and human error are the most common cause of cyber incidents as it is easier for attackers to convince employees to give up passwords or accept MFA prompts than it is to breach & exploit the system. See Recent Uber and Cisco hack`
+
 1. [Reference](https://www.protocol.com/bulletins/uber-breach-hacker-twilio-mfa)
 2. [Reference](https://www.swarmnetics.com/blog/cisco-network-breach-voice-phishing-mfa-fatigue-are-becoming-common-attacks/)
 
@@ -912,3 +913,10 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] Robert Kerckhoffs
 
 `Explanation: August Kerckhoffs, a linguist and German professor at HEC, wrote an essay in the Journal of Military Science in February 1883. Kerckhoff had unwittingly established the foundations for contemporary encryption, earning him the title of “Father of Computer Security.”`
+
+#### Q118. Which type of attack uses formal emails to entice specific individuals into signing in and changing their passwords?
+
+- [ ] vishing
+- [x] spear phishing
+- [ ] brute force attack
+- [ ] password spray attack
