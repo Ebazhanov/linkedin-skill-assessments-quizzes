@@ -2093,3 +2093,12 @@ Queue<Rainfall>
 - [ ] HashMap is class and map is interface that implements that
 - [ ] Map is class and Hashmap is interface that implements that
 - [x] Map is Interface and Hashmap is class that implements that
+
+#### Q148. What is true about a final class?
+
+- [ ] class declared final is a final class.
+- [ ] Final classes are created so the methods implemented by that class cannot be overriddden.
+- [ ] It can't be inherited.
+- [x] All of the above.
+
+[Explanation](Final classes are created so the methods implemented by that class cannot be overridden. It can't be inherited. These classes are declared final.)
