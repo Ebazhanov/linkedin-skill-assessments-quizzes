@@ -134,3 +134,30 @@ Note: I just use synchronization. After digging into settings I was able only to
 - [ ] Capture Date
 - [ ] Rating
 - [ ] Camera Serial Number
+
+#### Q18. Which of these is not present as an option when exporting a photobook?
+
+- [ ] Post to Blurb
+- [ ] Export as PDF
+- [x] Export to Print
+- [ ] Export as JPEG
+
+[Reference](https://helpx.adobe.com/in/lightroom-classic/help/create-photo-book.html)
+
+#### Q19. Saturation and Vibrance both strengthen the intensity of the color in your image, however Vibrance is more specific to \_\_ .
+
+- [x] Midtones
+- [ ] Shadows
+- [ ] Highlights
+- [ ] Global
+
+[Reference](https://www.slrlounge.com/vibrance-vs-saturation-what-is-the-difference/)
+
+#### Q20. At the time of sharing a lightroom preset, which format is used to export the image having the desired preset.
+
+- [ ] JPG
+- [x] DNG
+- [ ] TIF
+- [ ] Raw
+
+[Reference](https://www.bwillcreative.com/how-to-share-lightroom-mobile-presets/)

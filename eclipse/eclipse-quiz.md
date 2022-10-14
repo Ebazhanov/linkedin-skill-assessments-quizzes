@@ -277,14 +277,12 @@
 - [x] Install the Bugzilla plug-in.
 - [ ] Create a new local task in the Task List.
 
-
 #### Q40. Which of these is/are listed when searching via the Quick Access search bar?
 
 - [ ] files in the current workspace
 - [x] all of these answers
 - [ ] XML attribute values
 - [ ] Java members
-
 
 #### Q41. After opening a code file, you notice some of the syntax coloring is missing. What is the most likely problem?
 
@@ -293,10 +291,16 @@
 - [ ] The code has the wrong file delimiters.
 - [x] The perspective you are using is out of date.
 
-
 #### Q42. When enabled for a specific section, what do the preferences in Java > Editor > Folding control?
 
 - [x] They cause the section of the class to be collapsed when opened in a new editor.
 - [ ] They cause those members to be placed automatically in a superclass, if present.
 - [ ] They cause class members to be automatically ordered in accordance with the preferences.
 - [ ] They cause the source code to autoformat as it is written.
+
+#### Q43. How can you specify arguments to be passed to an application or virtual machine when it is launched?
+
+- [ ] Click Run > Junit Configurations > Arguments.
+- [x] Click Run > Run Configurations > Arguments.
+- [ ] Right-click the project and select Arguments.
+- [ ] Click Run > Debug Configurations > Arguments.

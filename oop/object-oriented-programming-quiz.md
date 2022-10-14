@@ -616,10 +616,10 @@ public class Honda extends Car{}
 
 #### Q80. Static polymorphism uses method \_ ?
 
-- [x] overloading
+- [ ] overloading
 - [ ] inheritance
 - [ ] abstraction
-- [ ] overriding
+- [x] overriding
 
 #### Q81. What does a concrete class not have?
 
@@ -720,3 +720,19 @@ public class Honda extends Car{}
 - [ ] a method that you do not expect to be redefined in derived classes
 - [ ] a private method that you do not expect to be redefined in derived public classes
 - [ ] a method that exists temporarily - once used, it ceases to be used by any caller
+
+#### Q95. Which of these is not a basic principle of Object Oriented Programming?
+
+- [ ] Encapsulation
+- [x] Compilation
+- [ ] Inheritance
+- [ ] Polymorphism
+
+[Reference](https://www.interviewbit.com/blog/principles-of-oops/)
+
+#### Q96. How do object behaviour and attributes differ?
+
+- [ ] Behaviour describe dynamic properties; attributes are static.
+- [x] Attributes describe a state; behaviours describe a change.
+- [ ] Attributes apply only to a specified object; behaviour apply to other linked objects.
+- [ ] Behaviours are vector quantities; attributes are scalars.

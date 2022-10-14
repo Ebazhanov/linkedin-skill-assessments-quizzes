@@ -1017,10 +1017,10 @@ background-position: 10% 50%;
 grid-template-columns: 2fr 1fr;
 ```
 
-- [ ] The first column is twice the height of the second column and will be as wide as the content
-- [ ] The first column is half the size of the container and the second column will absorb the remaining space
-- [x] The first column is twice as wide as the second column and will fit proportionally within the grid container
-- [ ] The first column is twice the width and height of the second column, and will fit proportionally within the grid container
+- [ ] The first column will be twice the height of the second column, and will be as wide as the content.
+- [ ] The first column will be half the size of the container, and the second column will absorb the remaining space.
+- [x] The first column will be twice as wide as the second column, and will fit proportionally within the grid container.
+- [ ] The first column will be twice the width and height of the second column, and will fit proportionally within the grid container.
 
 #### Q85. Which style rule would make the image 50% smaller during a hover?
 
@@ -2240,3 +2240,148 @@ input.invalid {
 - [ ] `@style`
 
 [Reference for import](https://developer.mozilla.org/en-US/docs/Web/CSS/@import)
+
+#### Q140. Given this code, how tall will the following element be in pixels?
+
+```html
+<style>
+  #tall-text {
+    display: inline;
+    font-size: 20px;
+    height: 200px;
+  }
+</style>
+
+<p id="tall-text">Did I grow?</p>
+```
+
+- [ ] 200px
+
+- [x] 20px
+
+- [ ] 180px
+
+- [ ] 220px
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/height#:~:text)
+
+#### Q141. Which style rule will place an X within the grid to win the game?
+
+![A](img/Q-141.png)
+
+- [ ] row: 3;
+      column: 3;
+
+- [x] grid-row: 3;
+      grid-column: 3;
+
+- [ ] row: 2;
+      column: 2;
+
+- [ ] grid-row: 2;
+      grid-column: 2;
+
+[Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column)
+
+#### Q142. Which CSS property is used to create an image reflection ?
+
+- [x] box-relect
+- [ ] img-reflect
+- [ ] None of the above
+- [ ] reflect-img
+
+#### Q143. What is the general syntax of writing the var() function ?
+
+- [x] var(--name, value)
+- [ ] var(--name)
+- [ ] var(value)
+- [ ] None of the Above
+
+#### Q143. How many layout modes were there before the Flexbox Layout Module was introduced in CSS ?
+
+- [ ] 2
+- [ ] 1
+- [x] 4
+- [ ] 3
+
+#### Q144. Which of the following components of the CSS box model are transparent ?
+
+- [ ] Padding
+- [ ] Margin
+- [x] Both A and B
+- [ ] None
+
+#### Q145. How are custom fonts defined using CSS ?
+
+- [x] @Font-Face Rule
+- [ ] Custom font cannot be defined
+- [ ] src tags
+- [ ] None of the above
+
+#### Q146. Which of the following CSS property sets what kind of line decorations are added to an element, such as underlines, overlines, etc?
+
+- [ ] text-decoration
+- [ ] text-style
+- [x] text-decoration-line
+- [ ] text-line
+
+#### Q147. Which of the following CSS Property sets the stacking order of positioned elements?
+
+- [ ] y-index
+- [x] z-index
+- [ ] x-index
+- [ ] all of the mentioned
+
+#### Q148. Which of the following property allows a marquee to be used in the case of a text-overflow?
+
+- [ ] overflow-marquee
+- [x] overflow-style
+- [ ] overflow-text
+- [ ] none of the mentioned
+
+#### Q149. Which of the following Cascading order has the highest precedence?
+
+- [x] user agent declarations
+- [ ] user normal declarations
+- [ ] author normal declarations
+- [ ] author important declarations
+
+#### Q150. The CSS cascade assigns a weight to each style rule ?
+
+- [x] True
+- [ ] False
+
+#### Q151. The \***\*\_\_\_\_\*\*** represents the result of the cascade: it is the declared value that wins the cascade.
+
+- [ ] specified Value
+- [ ] actual value
+- [ ] computed value
+- [x] cascaded value
+
+#### Q152. Using negative text-indent is also known as **\_** ?
+
+- [ ] The Scott Kellum method
+- [x] The Phark method
+- [ ] Radu Darvas Technique
+- [ ] The Langridge method
+
+#### Q153. Using margin is also known as **\_** ?
+
+- [ ] Fahrner image replacement
+- [ ] The Lindsay method
+- [x] Radu Darvas Technique
+- [ ] The Langridge method
+
+#### Q154. If a particular rule should never be overridden by another rule, the \***\*\_\_\_\_\*\*** indication should be used.
+
+- [ ] @important
+- [ ] !important!
+- [x] !important
+- [ ] important!
+
+#### Q155. What color would rgb(255,0,0) give?
+
+- [ ] Blue
+- [ ] Green
+- [x] Red
+- [ ] Yellow

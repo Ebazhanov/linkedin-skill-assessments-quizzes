@@ -221,6 +221,8 @@ instance.password
 - [ ] It keeps data and the methods that can manipulate that data in one place.
 - [x] It only allows the data to be changed by methods.
 
+[Reference](https://www.scaler.com/topics/python/encapsulation-in-python/)
+
 #### Q18. What is the purpose of an if/else statement?
 
 - [ ] It tells the computer which chunk of code to run if the instructions you coded are incorrect.
@@ -1242,7 +1244,7 @@ len(z)
 
 **Explanation**:
 
-```
+```python
 y=”stuff;thing;junk”
 	len(z) ==> 3
 
@@ -1653,7 +1655,7 @@ myFunction()
 
 - [ ] :
 
-```
+```python
 Hello, I am from Spain
 Hello, I am from
 Hello, I am from
@@ -1661,7 +1663,7 @@ Hello, I am from
 
 - [ ] :
 
-```
+```python
 Hello, I am from France
 Hello, I am from France
 Hello, I am from France
@@ -1669,7 +1671,7 @@ Hello, I am from France
 
 - [x] :
 
-```
+```python
 Hello, I am from Spain
 Hello, I am from
 Hello, I am from France
@@ -1677,7 +1679,7 @@ Hello, I am from France
 
 - [ ] :
 
-```
+```python
 Hello, I am from Spain
 Hello, I am from France
 Hello, I am from France
@@ -1897,7 +1899,8 @@ b = a[50:60:2]
 
 #### Q144. Suppose you want to double-check if two matrices can be multipled using NumPy for debugging purposes. How would you complete this code fragment by filling in the blanks with the appropiate variables?
 
-```import numpy as np
+```python
+import numpy as np
 
 def can_matrices_be_multiplied (matrix1, matrix2):
     rowsMat1, columnsMat1 = matrix1.shape
@@ -1937,77 +1940,85 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 
 - [ ] :
 
-```
-          class Father():
-             name = 'Robert'
+```python
+class Father():
+    name = 'Robert'
 
-          class Person(Father):
-             def __init__(self, name):
-                 self.fathername = super.name
-                 self.name = name
+class Person(Father):
+    def __init__(self, name):
+        self.fathername = super.name
+        self.name = name
 
-             def introduce(self):
-                 print("My name is", self.name, "son of", self.fathername)
+    def introduce(self):
+        print("My name is", self.name, "son of", self.fathername)
 
-          king = Person("Joffrey")
-          king.introduce()
+king = Person("Joffrey")
+king.introduce()
 
 ```
 
 - [x] :
 
-```
-  class Father():
-  name = 'Robert'
-  class Person(Father):
-  def **init**(self, name):
-  self.fathername = self.name
-  self.name = name
-  def introduce(self):
-  print("My name is", self.name, "son of", self.fathername)
+```python
+class Father():
+    name = 'Robert'
 
-  king = Person("Joffrey")
-  king.introduce()
 
-```
+class Person(Father):
+    def __init__(self, name):
+        self.fathername = self.name
+        self.name = name
 
-- [ ] :
+    def introduce(self):
+        print("My name is", self.name, "son of", self.fathername)
 
-```
-  class Father():
-  name = 'Robert'
-  class Person(Father):
-  def **init**(self, name):
-  self.name = name
-  def introduce(self):
-  print("My name is", self.name, "son of", super.name)
 
-  king = Person("Joffrey")
-  king.introduce()
+king = Person("Joffrey")
+king.introduce()
 
 ```
 
 - [ ] :
 
+```python
+class Father():
+    name = 'Robert'
+
+
+class Person(Father):
+    def __init__(self, name):
+        self.name = name
+
+    def introduce(self):
+        print("My name is", self.name, "son of", super.name)
+
+king = Person("Joffrey")
+king.introduce()
 ```
-           class Father():
-               name = 'Robert'
 
-           class Person(Father):
-               def __init__(self, name):
-                   self.name = name
+- [ ] :
 
-               def introduce(self):
-                   print("My name is", self.name, "son of", base.name)
+```python
+class Father():
+    name = 'Robert'
 
-           king = Person("Joffrey")
-           king.introduce()
+class Person(Father):
+    def __init__(self, name):
+        self.name = name
+
+    def introduce(self):
+        print("My name is", self.name, "son of", base.name)
+
+king = Person("Joffrey")
+king.introduce()
 
 ```
+
+**Explanation:** In the first, super does not have .name (should be self.name), The third drops Robert, and base is not defined in the 4th.
 
 #### Q148.
 
-```
+```python
 animals = {
     'a': ['ant', 'antelope', 'armadillo'],
     'b': ['beetle', 'bear', 'bat'],
@@ -2022,28 +2033,28 @@ print(animals['d'])
 
 - [x] A
 
-```
+```python
       ['beetle', 'bear', 'bat']
       []
 ```
 
 - [ ] B
 
-```
+```python
       ['beetle', 'bear', 'bat']
       # an exception will be thrown
 ```
 
 - [ ] C
 
-```
+```python
       ['beetle', 'bear', 'bat']
       None
 ```
 
 - [ ] D
 
-```
+```python
       ['bat', 'bear', 'beetle']
       []
 ```
@@ -2054,7 +2065,7 @@ print(animals['d'])
 
 #### Q149. What will this line of code return? (Assume n is already defined as any positive integer value.)
 
-```
+```python
 [x*2 for x in range(1,n)]
 ```
 
@@ -2067,7 +2078,7 @@ print(animals['d'])
 
 #### Q150. What does this code print in the console?
 
-```
+```python
 x = 18
 
 if x > 10:
@@ -2099,3 +2110,53 @@ else:
 - [ ] 16
 - [ ] 128
 - [x] No fixed length is specified
+
+#### Q153. What will the value of the i variable be when the following loop finishes its execution?
+
+for i in range(5): pass
+
+- [ ] 5
+- [ ] the variable becomes unavailable
+- [ ] 6
+- [x] 4
+
+#### Q154. f-strings are also called:
+
+- [ ] Formatted string expressions
+- [ ] Functional strings
+- [ ] Modulo formatted strings
+- [x] Formatted string literals
+
+#### Q155. How many CPUs (or cores) will the Python threading library take advantage of simultaneously?
+
+- [x] One
+- [ ] All of the available CPUs
+- [ ] Two
+- [ ] Three
+
+**Explanation**: Python threading is restricted to a single CPU at one time. The multiprocessing library will allow you to run code on different processors.
+
+#### Q156 What will be the value of y in this code?
+
+```python
+x = 5
+y = 1 + (20 if x < 5 else 30)
+```
+
+- [ ] False
+- [ ] 21
+- [ ] 2
+- [x] 31
+
+**Explanation:**
+If x < 5 ==> y = 1 + 20
+Else y = 1 + 30
+
+#### Q157.The process of pickling in Python includes?
+
+- [x] conversion of a Python object hierarchy into byte stream
+- [ ] conversion of a datatable into a list
+- [ ] conversion of a byte stream into Python object hierarchy
+- [ ] conversion of a list into a datatable
+
+Explanation:Pickling is the process of sterilizing a Python object, that is, conversion of a byte stream into Python object hierarchy. The reverse of this process is known as unpickling.

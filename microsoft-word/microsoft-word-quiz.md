@@ -732,7 +732,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] In paragraph settings, click Line and Page Break > pagination and select keep lines together
 - [ ] In paragraph settings, click Line and Page Break > pagination and select Widow/Orphan control
 
-#### Q94. Double clicking in the left margin will _\__ the paragraph to the right.
+#### Q94. Double clicking in the left margin will \_ the paragraph to the right.
 
 - [ ] double indent
 - [x] select
