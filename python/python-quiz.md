@@ -1230,7 +1230,7 @@ print(a[[False, True, False, False]])
 - [ ] `{2}`
 - [ ] `[0,2,0,0]`
 
-#### Q92. Suppose you have a string variable defined as y=”stuff;thing;junk;”. What would be the output from this code?
+#### Q92. Suppose you have a string variable defined as y="stuff;thing;junk;". What would be the output from this code?
 
 ```python
 z = y.split(';')
