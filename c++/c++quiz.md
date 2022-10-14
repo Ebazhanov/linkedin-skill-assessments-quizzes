@@ -1393,3 +1393,11 @@ return 0;
 - [x] Pointer for a function
 - [ ] function for a pointer
 - [ ] function for a class
+
+#### Q86. What is a correct syntax to output "Hello World" in C++?
+
+- [x] cout << "Hello World";
+- [ ] System.out.println("Hello World");
+- [ ] print("Hello World"); 
+- [ ] Console.WriteLine("Hello World");
+
