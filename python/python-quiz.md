@@ -1948,7 +1948,7 @@ class Person(Father):
     def __init__(self, name):
         self.fathername = super.name
         self.name = name
-        
+
     def introduce(self):
         print("My name is", self.name, "son of", self.fathername)
 
@@ -1983,12 +1983,12 @@ king.introduce()
 ```python
 class Father():
     name = 'Robert'
-    
-    
+
+
 class Person(Father):
     def __init__(self, name):
         self.name = name
-    
+
     def introduce(self):
         print("My name is", self.name, "son of", super.name)
 
@@ -2136,7 +2136,6 @@ for i in range(5): pass
 
 **Explanation**: Python threading is restricted to a single CPU at one time. The multiprocessing library will allow you to run code on different processors.
 
-
 #### Q156 What will be the value of y in this code?
 
 ```python
@@ -2152,7 +2151,6 @@ y = 1 + (20 if x < 5 else 30)
 **Explanation:**
 If x < 5 ==> y = 1 + 20
 Else y = 1 + 30
-
 
 #### Q157.The process of pickling in Python includes?
 
