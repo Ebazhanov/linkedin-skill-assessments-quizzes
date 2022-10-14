@@ -889,7 +889,7 @@ const [count, setCount] = useState(0);
 
 ```javascript
 import React from 'react';
-import { createRoot } from 'react-dom';
+import { createRoot } from 'reactjs-dom';
 
 const element = <h1>Hi</h1>;
 // Note: error on the line below
