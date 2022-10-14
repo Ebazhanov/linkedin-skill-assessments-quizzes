@@ -318,6 +318,7 @@ I put cost-benefit analysis, but I'm not sure. I think it could be life-cycle co
 - [ ] The unit fixed cost will decrease.
 
 [Reference](https://en.wikipedia.org/wiki/Cost%E2%80%93volume%E2%80%93profit_analysis#Assumptions)
+
 > CVP assumes the following:
 >
 > - Constant sales price;
@@ -337,6 +338,7 @@ I put cost-benefit analysis, but I'm not sure. I think it could be life-cycle co
 I'm not 100% sure on this.
 
 [Reference](https://www.investopedia.com/terms/p/perpetualinventory.asp)
+
 > Perpetual inventory is a method of accounting for inventory that records the sale or purchase of inventory immediately through the use of computerized point-of-sale systems and enterprise asset management software.
 
 #### Q41. Which type of business would be most likely to use a job order costing system?
@@ -347,6 +349,7 @@ I'm not 100% sure on this.
 - [x] a law firm specializing in injury law
 
 [Reference](https://www.indeed.com/career-advice/career-development/job-order-costing-system)
+
 > Since lawyers and accountants work with different clients on unique accounts, many will use a job order costing system to track how much time and resources were used for each customer.
 
 #### Q42. Assigning indirect costs to specific jobs is completed by **\_**.
@@ -359,6 +362,7 @@ I'm not 100% sure on this.
 I'm not 100% sure on this.
 
 [Reference](https://smallbusiness.chron.com/ways-allocate-indirect-cost-73462.html)
+
 > Indirect cost rate calculations can be determined by dividing an indirect cost by a cost object, such as sales revenues or square footage.
 
 #### Q43. Which is an assurance engagement?
@@ -400,13 +404,11 @@ I'm not 100% sure on this.
 #### Q47. ‘What is true when the units in ending inventory increase during the year?
 
 - [ ] Net income is higher for absorption costing than for variable costing.
-- [ ] Net income is identical for absorption costing and for variable
-costing.
-- [x] Theres ro relationship between net income and the costing
-approach.
+- [ ] Net income is identical for absorption costing and for variable costing.
+- [x] Theres ro relationship between net income and the costing approach.
 - [ ] Net income is lower for absorption costing than for variable costing.
 
-#### Q48. When independent auditors are able to maintain their actual independence, itis referred to as independence in__.
+#### Q48. When independent auditors are able to maintain their actual independence, itis referred to as independence in\_\_.
 
 - [ ] trust
 - [x] totaiity
@@ -430,4 +432,3 @@ approach.
 - [ ] when each product batch is exactly the same as the prior batch
 
 [Reference](https://www.tutorialspoint.com/differentiate-between-job-costing-and-process-costing)
-

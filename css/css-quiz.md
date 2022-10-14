@@ -2358,14 +2358,14 @@ input.invalid {
 - [ ] computed value
 - [x] cascaded value
 
-#### Q152. Using negative text-indent is also known as \***\*\_\_\*\*** ?
+#### Q152. Using negative text-indent is also known as **\_** ?
 
 - [ ] The Scott Kellum method
 - [x] The Phark method
 - [ ] Radu Darvas Technique
 - [ ] The Langridge method
 
-#### Q153. Using margin is also known as**\_\_\_\_** ?
+#### Q153. Using margin is also known as **\_** ?
 
 - [ ] Fahrner image replacement
 - [ ] The Lindsay method
@@ -2378,3 +2378,10 @@ input.invalid {
 - [ ] !important!
 - [x] !important
 - [ ] important!
+
+#### Q155. What color would rgb(255,0,0) give?
+
+- [ ] Blue
+- [ ] Green
+- [x] Red
+- [ ] Yellow
