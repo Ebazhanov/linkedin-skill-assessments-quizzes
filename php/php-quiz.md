@@ -1284,7 +1284,7 @@ while ($fruit_name = current($array)) {
     }
 ```
 
-#### Q98. What does this code return?
+#### Q98. What does this code return? What does this code print?
 
 ```php
 class Smurf {
