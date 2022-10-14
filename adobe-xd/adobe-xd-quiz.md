@@ -121,3 +121,40 @@
 - [ ] Enable the fonts in your computer's fonts settings.
 - [ ] Adobe fonts are automatically reactivated through the Creative Cloud.
 - [ ] Relink the fonts to your Creative Cloud library.
+
+#### Q17. You are viewing your project on a Google Pixel and notice the hotspot hints are missing. How would you enable them on the device?
+
+- [x] Double-tap and select **Enable Hints**
+- [ ] In the device preview, select **Enable Hints**
+- [ ] In the sharing options, select **Enable Hints**
+- [ ] Triple-tap the screen and select **Enable Hints**
+
+#### Q18. What would changing the text in this component affect?
+
+![Q13](images/006.png)
+
+- [ ] the component.
+- [ ] only the text in the symbol.
+- [x] only the instance.
+- [ ] all copies of the component in XD document
+
+#### Q19. You are previewing your XD project on an iPhone. How would you browse an artboard on the phone?
+
+- [x] Triple-tap the screen.
+- [ ] Long-press an image and select **Browse Artboards**.
+- [ ] Use a drag gesture and select **Browse Artboards**.
+- [ ] Double-tap and select **Browse Artboards**.
+
+#### Q20. Component states are _______.
+
+- [ ] added in Design view.
+- [ ] interactive versions of a component.
+- [ ] customized versions of a component.
+- [x] applied to all components.
+
+#### Q21. You created a Repeat Grid that is to be an image gallery. How would you control the placement of images in the Repeat Grid?
+
+- [ ] Ensure that all images have the same dimensions.
+- [ ] Drag individual images into the grid.
+- [ ] Ensure that all images are in the same format.
+- [x] Import the images and rearrange them in the Repeat Grid.
