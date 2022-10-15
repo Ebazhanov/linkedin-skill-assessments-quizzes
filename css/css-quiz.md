@@ -2385,3 +2385,10 @@ input.invalid {
 - [ ] Green
 - [x] Red
 - [ ] Yellow
+
+#### Q156. What is the correct HTML for referring to an external style sheet?
+
+- [x] <link rel="stylesheet" type="text/css" href="mystyle.css">
+- [ ] <stylesheet>mystyle.css</stylesheet>
+- [ ] < style src= "mystyle.css" >
+- [ ] None of these.
