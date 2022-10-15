@@ -343,3 +343,17 @@
 
 **EXPLANATION** (Others do)
 [!reference](https://support.microsoft.com/en-us/office/clarify-the-structure-of-diagrams-by-using-containers-and-lists-4da621a4-3572-4c9b-9559-bbe4f6c9b08f)
+
+#### Q40. Which of the four levels of the diagram design hierarchy includes alternate colors and shape designs so you can add your own flair to a drawing while retaining the overall look?
+
+- [x] variant
+- [ ] effects
+- [ ] themes
+- [ ] quick styles
+
+#### Q41. When using AutoConnect, what determines the fours shapes that will appear in the AutoConnect mini toolbar?
+
+- [ ] They are the four **Quick Shapes** selected in the Visio options.
+- [ ] They are the four most recently used shapes
+- [ ] They are the four most frequently useed shapes
+- [x] They are the first four shapes in teh **Quick Shapes** section of the current stencil
