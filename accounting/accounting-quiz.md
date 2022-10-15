@@ -256,8 +256,8 @@
 - [ ] Current liabilities are obligations owed over 5 years.
 - [x] Current liabilities are obligations due within a year.
 
-> Current liabilities are a company's short-term financial obligations that are due within one year or within a normal operating cycle.
 [Reference](https://www.investopedia.com/terms/c/currentliabilities.asp)
+`Current liabilities are a company's short-term financial obligations that are due within one year or within a normal operating cycle.`
 
 #### Q34. How do variable costs and fixed costs act within the relevant range?
 
@@ -266,8 +266,8 @@
 - [ ] Both total variable costs and total fixed costs vary.
 - [ ] Both total variable costs and total fixed costs remain constant.
 
-> While variable costs tend to remain flat, the impact of fixed costs on a company's bottom line can change based on the number of products it produces.
 [Reference](https://www.investopedia.com/ask/answers/032515/what-difference-between-variable-cost-and-fixed-cost-economics.asp)
+`While variable costs tend to remain flat, the impact of fixed costs on a company's bottom line can change based on the number of products it produces.`
 
 #### Q35. Which answer can be defined as an investment center's contribution margin less the fixed costs that are traceable to the investment center?
 
@@ -276,9 +276,9 @@
 - [x] segment margin
 - [ ] return on investment (ROI)
 
-> Contribution Margin = Sales Revenue – Variable Costs
-> Segment Margin = Segment’s Contribution Margin – Fixed Costs traced to the Segment
 [Reference](https://qsstudy.com/segment-margin-differs-contribution-margin-explain/)
+`Contribution Margin = Sales Revenue – Variable Costs`
+`Segment Margin = Segment’s Contribution Margin – Fixed Costs traced to the Segment`
 
 #### Q36. If an auditor is expected to detect the overstatement of sales, what should the auditor trace transactions from?
 
@@ -287,9 +287,9 @@
 - [x] sales journal to the shipping documents
 - [ ] shipping documents to the cash receipts
 
-> Which audit procedure is most effective in testing credit sales for overstatement?
-> Vouch a sample recorded sales from the sales journal to shipping documents.
 [Reference](https://homework.study.com/explanation/which-audit-procedure-is-most-effective-in-testing-credit-sales-for-overstatement-1-trace-a-sample-of-postings-from-the-sales-journal-to-the-sales-account-in-the-general-ledger-2-vouch-a-sample-recorded-sales-from-the-sales-journal-to-shipping-docum.html)
+`Which audit procedure is most effective in testing credit sales for overstatement?`
+`Vouch a sample recorded sales from the sales journal to shipping documents.`
 
 #### Q37. What is the formal method of analysis applied by management to identify appropriate cost drivers and effects on the costs of production?
 
@@ -307,8 +307,8 @@ I put cost-benefit analysis, but I'm not sure. I think it could be life-cycle co
 - [ ] totality
 - [ ] trust
 
-> In Accounting Series Release no. 269, the SEC defined independence in fact and independence in appearance as separate but equally necessary factors in establishing the auditor’s objectivity and integrity when certifying financial statements filed with the commission by an issuer of securities. Few would debate that independence in fact—that is, that the auditor is actually unbiased—is absolutely essential to the validity of an audit.
 [Reference](https://www.journalofaccountancy.com/issues/2001/apr/independenceandpublicperceptionwhyweneedtocare.html)
+`In Accounting Series Release no. 269, the SEC defined independence in fact and independence in appearance as separate but equally necessary factors in establishing the auditor’s objectivity and integrity when certifying financial statements filed with the commission by an issuer of securities. Few would debate that independence in fact—that is, that the auditor is actually unbiased—is absolutely essential to the validity of an audit.`
 
 #### Q39. When applying a cost-volume-profit analysis (CVP), certain assumptions must be respected. Which answer is _not_ one of these assumptions?
 
@@ -316,6 +316,8 @@ I put cost-benefit analysis, but I'm not sure. I think it could be life-cycle co
 - [x] Actual unit variable cost will vary over the production range.
 - [ ] The cost behavior is expressed as intersecting straight lines.
 - [ ] The unit fixed cost will decrease.
+
+[Reference](https://en.wikipedia.org/wiki/Cost%E2%80%93volume%E2%80%93profit_analysis#Assumptions)
 
 > CVP assumes the following:
 >
@@ -325,7 +327,6 @@ I put cost-benefit analysis, but I'm not sure. I think it could be life-cycle co
 > - Units sold equal units produced.
 >
 > These are simplifying, largely linearizing assumptions, which are often implicitly assumed in elementary discussions of costs and profits.
-[Reference](https://en.wikipedia.org/wiki/Cost%E2%80%93volume%E2%80%93profit_analysis#Assumptions)
 
 #### Q40. Which statement about a perpetual inventory system is true?
 
@@ -336,8 +337,9 @@ I put cost-benefit analysis, but I'm not sure. I think it could be life-cycle co
 
 I'm not 100% sure on this.
 
-> Perpetual inventory is a method of accounting for inventory that records the sale or purchase of inventory immediately through the use of computerized point-of-sale systems and enterprise asset management software.
 [Reference](https://www.investopedia.com/terms/p/perpetualinventory.asp)
+
+> Perpetual inventory is a method of accounting for inventory that records the sale or purchase of inventory immediately through the use of computerized point-of-sale systems and enterprise asset management software.
 
 #### Q41. Which type of business would be most likely to use a job order costing system?
 
@@ -346,8 +348,9 @@ I'm not 100% sure on this.
 - [ ] a beverage manufacturer
 - [x] a law firm specializing in injury law
 
-> Since lawyers and accountants work with different clients on unique accounts, many will use a job order costing system to track how much time and resources were used for each customer.
 [Reference](https://www.indeed.com/career-advice/career-development/job-order-costing-system)
+
+> Since lawyers and accountants work with different clients on unique accounts, many will use a job order costing system to track how much time and resources were used for each customer.
 
 #### Q42. Assigning indirect costs to specific jobs is completed by **\_**.
 
@@ -358,5 +361,74 @@ I'm not 100% sure on this.
 
 I'm not 100% sure on this.
 
-> Indirect cost rate calculations can be determined by dividing an indirect cost by a cost object, such as sales revenues or square footage.
 [Reference](https://smallbusiness.chron.com/ways-allocate-indirect-cost-73462.html)
+
+> Indirect cost rate calculations can be determined by dividing an indirect cost by a cost object, such as sales revenues or square footage.
+
+#### Q43. Which is an assurance engagement?
+
+- [ ] compilation
+- [ ] network installation
+- [x] audit
+- [ ] review
+
+[Reference](https://www.wikiaccounting.com/what-is-the-objective-of-assurance-engagement/)
+
+#### Q44. What is conversion cost the sum of?
+
+- [ ] direct materials cost + administration cost
+- [ ] direct materials cost + manufacturing overhead cost
+- [ ] direct materials cost + marketing cost
+- [x] direct labor cost + manufacturing overhead cost
+
+[Reference](https://smallbusiness.chron.com/calculate-beginning-inventory-conversion-costs-20581.html)
+
+#### Q45. Under a perpetual inventory system, merchandise is purchased on account. What is the correct journal entry for this purchase?
+
+- [ ] Debit merchandise inventory. credit accounts payable.
+- [ ] Debit purchases, credit cash
+- [ ] Debit purchase returns, credit cost of goods sold.
+- [x] debit merchandise inventory, credit cash.
+
+[Reference](https://homework.study.com/explanation/using-a-perpetual-inventory-system-the-buyer-s-journal-entry-to-record-the-return-of-merchandise-purchased-on-account-includes-a-credit-to-the-cost-of-goods-sold-b-credit-to-accounts-payable-c-credit-to-purchase-returns-d-credit-to-inven.html#:~:text=Answer%20and%20Explanation%3A,and%20accounts%20payable%20was%20credited.)
+
+#### Q46. Which is not a task usually associated with activity-based costing (ABC)?
+
+- [ ] applying an activity rate for each cost pool
+- [ ] identitying specific cost drivers
+- [x] appropriately allocating overhead costs to cost pools
+- [ ] applying a single cost rate across processes
+
+[Reference](https://homework.study.com/explanation/which-of-the-following-tasks-is-not-normally-associated-with-an-abc-costing-system-a-calculation-of-pool-rates-b-identification-of-cost-pools-c-preparation-of-allocation-matrices-d-identification-of-cost-drivers.html#:~:text=Answer%20and%20Explanation%3A,Preparation%20of%20allocation%20matrices.)
+
+#### Q47. ‘What is true when the units in ending inventory increase during the year?
+
+- [ ] Net income is higher for absorption costing than for variable costing.
+- [ ] Net income is identical for absorption costing and for variable costing.
+- [x] Theres ro relationship between net income and the costing approach.
+- [ ] Net income is lower for absorption costing than for variable costing.
+
+#### Q48. When independent auditors are able to maintain their actual independence, itis referred to as independence in\_\_.
+
+- [ ] trust
+- [x] totaiity
+- [ ] appearance
+- [ ] fact
+
+#### Q49. What is the formal method of analysis applied by management to identify appropriate cost drivers and effects on the costs of production?
+
+- [ ] cost-benefit analysis
+- [ ] life-cycte costing
+- [ ] profitability analysis
+- [x] activity analysis
+
+[Reference](https://www.chegg.com/homework-help/questions-and-answers/formal-method-analysis-used-managers-identify-appropriate-cost-drivers-effects-costs-makin-q74105384)
+
+#### Q50. When do you expect to apply job costing over process costing?
+
+- [x] when the costs are easily traced to a specific product
+- [ ] when costs are accumulated by department
+- [ ] when the value of work in process is based on assigning standard costs
+- [ ] when each product batch is exactly the same as the prior batch
+
+[Reference](https://www.tutorialspoint.com/differentiate-between-job-costing-and-process-costing)

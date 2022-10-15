@@ -1154,24 +1154,6 @@ console.log(addFive(3));
 
 [Reference Cross-Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
-#### Q89. What will be logged to the console??
-
-```js
-'use strict';
-function logThis() {
-  this.desc = 'logger';
-  console.log(this);
-}
-new logThis();
-```
-
-- [ ] window
-- [ ] undefined
-- [ ] function
-- [x] {desc: "logger"}
-
-[Reference strict in javascript classes](https://www.w3schools.com/js/js_strict.asp)
-
 #### Q90. What is the output of this code?
 
 ```js
@@ -1952,8 +1934,6 @@ alert(a++(+(+(+b))));
 - [x] 9
 - [ ] 20
 
-````
-
 #### Q139. What fragment could you add to this code to make it output "{"type": "tiger"}" to the console?
 
 ```js
@@ -1962,16 +1942,14 @@ let cat = { type: "tiger", size: "large" };
 let json = /* Snippet here */;
 
 console.log(json); // print {"type":"tiger"}
-````
+```
 
 - [ ] `cat.toJSON("type");`
 - [x] `JSON.stringify(cat, ["type"]);`
 - [ ] `JSON.stringify(cat);`
 - [ ] `JSON.stringify(cat, /type/);`
 
-```
-
-#### Q139. Which document method is not used to get a reference to a DOM node?
+#### Q140. Which document method is not used to get a reference to a DOM node?
 
 - [ ] document.getNode();
 - [ ] document.getElementsByClassName();
@@ -1980,9 +1958,9 @@ console.log(json); // print {"type":"tiger"}
 
 [Reference](<https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById#:~:text=querySelector()%20and%20Document.,element%20objects%20in%20the%20DOM.>)
 
-#### Q140. Which snippet could you add to this code to print "{"type”: “tiger"}" to the console?
-```
+#### Q141. Which snippet could you add to this code to print "{"type”: “tiger"}" to the console?
 
+```
 let cat = {type: "tiger", size: "large"};
 let json= /_ Snippet Here _/;
 console.log(json); //prints {"type”: “tiger"}
@@ -1996,4 +1974,11 @@ console.log(json); //prints {"type”: “tiger"}
 
 [Reference](https://www.w3schools.com/jsref/jsref_stringify.asp)
 
-```
+#### Q142. In JavaScript, all objects inherit a built-in property from a **\*\*\*\***\_\_\_**\*\*\*\***.
+
+- [ ] node
+- [ ] instance variable
+- [x] prototype
+- [ ] accessor
+
+[Reference](https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/)

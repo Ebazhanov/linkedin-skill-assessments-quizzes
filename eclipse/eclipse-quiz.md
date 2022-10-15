@@ -297,3 +297,10 @@
 - [ ] They cause those members to be placed automatically in a superclass, if present.
 - [ ] They cause class members to be automatically ordered in accordance with the preferences.
 - [ ] They cause the source code to autoformat as it is written.
+
+#### Q43. How can you specify arguments to be passed to an application or virtual machine when it is launched?
+
+- [ ] Click Run > Junit Configurations > Arguments.
+- [x] Click Run > Run Configurations > Arguments.
+- [ ] Right-click the project and select Arguments.
+- [ ] Click Run > Debug Configurations > Arguments.

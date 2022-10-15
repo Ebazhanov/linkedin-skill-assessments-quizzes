@@ -1380,14 +1380,21 @@ return 0;
 - [x] 3
 - [ ] 6
 
-#### Q84. What is the use of tellp ()?
+#### Q84. What does "c" stands for in cout and cin.
+
+- [ ] compiler
+- [ ] console
+- [x] character
+- [ ] standard namespace
+
+#### Q85. What is the use of tellp ()?
 
 - [ ] Current Input Pointer position
 - [x] Current Output Pointer position
 - [ ] Last Input Pointer position
 - [ ] Last Output Pointer position
 
-#### Q85. What is callback function?
+#### Q86. What is callback function?
 
 - [ ] Pointer for a pointer
 - [x] Pointer for a function

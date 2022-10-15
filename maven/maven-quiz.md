@@ -545,8 +545,8 @@ mvn install
 
 ### Q68. Why is it best practice not to release SNAPSHOT versions of Maven artifacts to production?
 
-- [x] A release marked with SNAPSHOT indicates that not all of the tests have passed.
-- [ ] A SNAPSHOT can be hard to reproduce, making it difficult to determine the cause of an issue.
+- [ ] A release marked with SNAPSHOT indicates that not all of the tests have passed.
+- [x] A SNAPSHOT can be hard to reproduce, making it difficult to determine the cause of an issue.
 - [ ] SNAPSHOT releases do not contain any dependencies.
 - [ ] A release marked with SNAPSHOT may contain sensitive security information.
 
