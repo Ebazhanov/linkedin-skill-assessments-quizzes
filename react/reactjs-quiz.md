@@ -1260,3 +1260,10 @@ const Greeting = ({ initName }) => {
 - [ ] JSX Editor
 - [ ] Browser Buddy
 - [ ] ReactDOM
+
+#### Q106. Which hook is used to prevent a function from being recreated on every component render?
+
+- [x] useCallback
+- [ ] useMemo
+- [ ] useRef
+- [ ] useTransition
