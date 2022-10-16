@@ -1405,5 +1405,12 @@ return 0;
 
 - [x] cout << "Hello World";
 - [ ] System.out.println("Hello World");
-- [ ] print("Hello World");
+- [ ] print("Hello World"); 
 - [ ] Console.WriteLine("Hello World");
+
+#### Q87. What is the meaning of base class in C++ ?
+- [ ] It inherit other class
+- [ ] It has a pointer variable
+- [ ] It is the first class declared
+- [x] Another class got inherit from this class
+
