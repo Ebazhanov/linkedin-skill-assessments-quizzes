@@ -784,3 +784,17 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] ACLs provide mandatory access control (MAC) functionality through SELinux for files and directories.
 - [ ] ACLs allow a file to be owned by more than one user and group.
 - [ ] ACLs provide additional flags such as append-only and immutable.
+
+#### Q94. What is a maximum length for a filename under Linux?
+
+- [ ] 256 bytes
+- [ ] 1084 bytes
+- [x] 255 bytes
+- [ ] 1023 bytes
+
+#### Q95. Which command do you use to rename a file in Linux?
+
+- [x] mv
+- [ ] rn
+- [ ] rename
+- [ ] ren
