@@ -739,9 +739,11 @@ if [[ $FILE == $GLOB ]] ;then
 #### Q88. What tool should you use to replace a physical volume in LVM?What tool should you use to replace a physical volume in LVM?
 
 - [ ] cpcp
-- [ ] pvmovepvmove
+- [x] pvremove
 - [ ] tartar
 - [ ] lvcopy
+
+>Explanation:-Repartitioning a hard drive can result in LVM discovering physical volumes that are the wrong size for the drive layout. Use of pvremove is therefore recommended unless there is a reason not to.
 
 #### Q89. What is the difference between the apt remove and apt autoremove commands?
 
