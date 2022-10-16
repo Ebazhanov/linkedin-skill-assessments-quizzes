@@ -321,3 +321,73 @@
 - [ ] from the billable time entered on timesheets
 - [ ] from you manually entering the line items on the invoice
 - [x] from the billable time entered on timesheets and/or billable costs entered through checks and bills
+
+#### Q47. How can you discount just one item on an invoice for a customer?
+
+- [ ] Create a Discount item and use it on the line immediately after the item you want to discount.
+- [ ] Click Add Discount at the top of the invoice and apply it to the correct item.
+- [ ] Manually change the Amount field to the discounted total for the item.
+- [ ] Create a Discount item and a Subtotal item. Apply the Subtotal, then immediately apply the Discount.
+
+#### Q48. On the Home Page, which tab provides a snapshot of your company finances? And is this snapshot a data dashboard or a task list?
+
+- [ ] Home Page; data dashboard
+- [ ] Insights; task list
+- [ ] Home Page; task list
+- [ ] Insights; data dashboard
+
+#### Q49. What is the preferred style of check to provide to employees on payday?
+
+- [ ] There is no need to provide a pay stub if you are using direct deposit. Employees can ask if they need information in addition to their net pay amount.
+- [ ] The standard check, with a paper check stub as backup.
+- [ ] The payroll check, which is preprinted with earnings and taxes columns.
+- [ ] The voucher check, so they have the net check amount plus all of the information regarding earnings, taxes, and withheld items.
+
+#### Q50. When would you use Progress Invoicing?
+
+- [ ] to invoice items marked as billable as they occur
+- [ ] to invoice from an estimate as work is completed
+- [ ] to convert a sales receipt to an invoice
+- [ ] to automate company cash flow
+
+#### Q51. What is a good way to handle prospective clients?
+
+- [ ] Set the customer as inactive until they are an active customer.
+- [ ] Use the Lead Center by clicking Customers > Lead Center.
+- [ ] There is no way to differentiate a current customer from a potential customer.
+- [ ] Use the Lead Center bv clicking Company > Lead Center.
+
+#### Q52. You wrote a check and later discovered it was for an incorrect amount. What is the best way to handle this, if you know the check will not be cashed?
+
+- [ ] In the account register, select the check and click Edit > Void Check.
+- [ ] In the account register, select the check and then click Edit > Delete Check.
+- [ ] Create a journal entry for the amount of the check to debit Cash and credit Undeposited Funds. Clear the journal entry and the check when reconciling, to correctly balance your cash account.
+- [ ] In the account register, select the check, and then change the amount of the check to -0-
+
+#### Q53. QuickBooks allows users to condense files when the company file becomes too large. What happens when you choose to remove transactions as of a specified date from the Condense Data window?
+
+- [ ] The company start date is changed to the date on which you condensed your data. Make sure to run all reports prior to completing this process.
+- [ ] All transactions are removed, allowing you to start fresh. You will need to print all reports before this process and enter beginning balances into your QuickBooks file.
+- [ ] All transaction details are removed, but the summary totals are kept in the system, to allow financial statements to be run for prior periods.
+- [ ] All transaction data, including payroll data, is removed. This process will correct any entry errors, leaving a clean data file.
+
+#### Q54. How are cash inflows and outflows related to the company's primary business classified?
+
+- [ ] as sales activities on the Profit and Loss report
+- [ ] as financing activities on the Statement of Cash Flows
+- [ ] as operating activities on the Profit and Loss report
+- [ ] as operating activities on the Statement of Cash Flows
+
+#### Q55. During the EasyStep Interview, which features can you turn on and off?
+
+- [ ] Lists. Inventory, and Progress Invoicing
+- [ ] Jobs, Payroll, and Lists
+- [ ] Sales Taxes, Inventory, and Progress Invoicing
+- [ ] Payroll, Lists, and Progress Invoicing
+
+#### Q56. Which report can you use if you suspect someone has changed a transaction?
+
+- [ ] User Entry report
+- [ ] Audit Trail report
+- [ ] Changed Transaction report
+- [ ] Profit and Loss report's drill-down feature
