@@ -2102,3 +2102,17 @@ Queue<Rainfall>
 - [x] All of the above.
 
 [Explanation](Final classes are created so the methods implemented by that class cannot be overridden. It can't be inherited. These classes are declared final.)
+
+#### Q149. Which method can be used to find the highest value of x and y?
+
+- [ ] Math.largest(x,y)
+- [ ] Math.maxNum(x,y)
+- [x] Math.max(x,y)
+- [ ] Math.maximum(x,y)
+
+#### Q150. What do these statments evaluate to?
+
+- [ ] 1. false 2. true
+- [ ] 1. false 2. false
+- [ ] 1. true 2. true
+- [x] 1. true 2. false
