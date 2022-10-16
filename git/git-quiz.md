@@ -1103,3 +1103,33 @@ Explanation: Pull requests are the correct way to communicate that commits are r
 - [ ] Use git show push-notifications
 
 Explanation: GitHub provides forking functionality designed to allow you to work with projects where you aren't an owner or don't have write access. Forking makes a remote copy of the project in your repository that you can then clone locally. To submit updates to the target repository (upstream repository) you can submit a pull request.
+
+#### Q132. What is GitHub?
+
+- [ ] version control
+- [x] A hosting platform for Git repositories
+- [ ] for keeping images
+- [ ] for social networking
+
+Explanation: GitHub is a popular hosting platform for developers to store their Git repositories and collaborate with other developers all around the world.
+
+#### Q133. Which statement is true of the git push command?
+
+- [x] By default, a push doesn’t send tags to the remote repository.✔️
+- [ ] Only annotated tags are automatically pushed to the remote repository with a commit.
+- [ ] Tags are pushed to the remote repository with their respective commits.
+- [ ] Commits can be tagged only when they are created.
+
+#### Q134. Git Pull is a combination of?
+
+- [ ] Add and commit.
+- [ ] branch and checkout.
+- [x] fetch and merge.
+- [ ] None of these.
+
+#### Q135. What is the command to set the user email for the current repository?
+
+- [ ] git email.user
+- [x] git config user.email
+- [ ] git config email
+- [ ] All of the above.
