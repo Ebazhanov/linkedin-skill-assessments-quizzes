@@ -1407,3 +1407,10 @@ return 0;
 - [ ] System.out.println("Hello World");
 - [ ] print("Hello World");
 - [ ] Console.WriteLine("Hello World");
+
+#### Q87. How many categories of iterators are there in C++ ?
+
+- [ ] 4
+- [ ] 3
+- [ ] 7
+- [x] 5
