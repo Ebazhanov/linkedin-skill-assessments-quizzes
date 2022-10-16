@@ -4,7 +4,7 @@
 
 - [ ] Create two deductions called Sick and Vacation. Use these when you pay your employees.
 - [ ] You can't track sick and vacation time in QuickBooks. Create an Excel workbook and manually enter employee accruals and uses with each payroll.
-- [ ] Set up sick or vacation time as a wage item, then define how QuickBooks should accrue it when you set up your employees.
+- [x] Set up sick or vacation time as a wage item, then define how QuickBooks should accrue it when you set up your employees.
 - [ ] Set up a separate non-posting account for sick and vacation time, and then record sick and vacation time against that account.
 
 #### Q2. You _cannot_ use the Enter Bills > Pay Bills approach to pay what type of bill?
@@ -59,9 +59,11 @@
 #### Q9. Why would you use the Items tab when entering a bill?
 
 - [ ] to track freight charges separately from the expense account
-- [ ] to track expenses
+- [x] to track expenses
 - [ ] to assign a cost to a job or to purchase an inventory item
 - [ ] to track credits
+
+>Items allow you to use Quantity, to track cost and/or price of the items.
 
 #### Q10. Why is it good practice to use the Bank Deposit screen to record sales not tracked to individual customers?
 
@@ -73,7 +75,7 @@
 #### Q11. You are running your Profit and Loss report and notice it is on a cash basis rather than an accrual basis. How can you correct this to show the correct basis?
 
 - [ ] You cannot change the basis for just one report.
-- [ ] Right-click the basis shown on the right side of the report and change it to Accrual.
+- [x] Right-click the basis shown on the right side of the report and change it to Accrual.
 - [ ] Double-click the basis and change it to Accrual.
 - [ ] In the upper-left corner of the screen, select the Accrual button.
 
@@ -88,8 +90,10 @@
 
 - [ ] You can never delete a vendor, but you can make them inactive.
 - [ ] Yes, Go to your Vendor Center, select the vendor you would like to delete, and click Edit > Delete.
-- [ ] You can delete the vendor only if they are not used in transactions or are part of another list entry, but you can make them inactive.
+- [x] You can delete the vendor only if they are not used in transactions or are part of another list entry, but you can make them inactive.
 - [ ] Yes. When you delete the vendor, a box appears asking if you are sure you want to delete. Click Yes and enter the administrator password to continue.
+
+>Explanation:- Go to your Vendor Center, select the vendor you would like to delete, and click Edit > Delete. You can delete the vendor only if they are not used in transactions or are part of another list entry, but you can make them inactive.
 
 #### Q14. Why is setting a closing date in QuickBooks a good practice?
 
@@ -100,10 +104,12 @@
 
 #### Q15. Why would you clear the Bill Received check box when entering a bill on the Enter Bills screen?
 
-- [ ] You do not plan to pay the bill until closer to the due date.
+- [x] You do not plan to pay the bill until closer to the due date.
 - [ ] You do not want to print the bill.
 - [ ] There is a discrepancy in the bill received and the amount you expected.
 - [ ] An inventory item has been received, but you have not received the corresponding bill.
+
+>Explanation:-Because You do not want to print the bill. There is a discrepancy in the bill received and the amount you expected.
 
 #### Q16. How do you record a debit card purchase in QuickBooks?
 
