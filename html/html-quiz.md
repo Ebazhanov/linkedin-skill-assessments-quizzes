@@ -1929,3 +1929,10 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 - [ ] none of the above
 
 [Source](https://stackoverflow.com/questions/39434659/what-does-the-a-in-the-html-a-tag-stand-for)
+
+#### Q111. What is the correct HTML element for inserting a line break?
+
+- [ ] <break>
+- [ ] <lb>
+- [x] <br>
+- [ ] <a>

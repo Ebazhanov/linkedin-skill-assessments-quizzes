@@ -843,14 +843,14 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 [Explanation:](https://www.investopedia.com/terms/t/twofactor-authentication-2fa.asp)
 
-#### Q110. Which option is a list of publicly dsclosed information security defects?
+#### Q110. Which option is a list of publicly disclosed information security defects?
 
 - [ ] DBIR
 - [ ] CVE
-- [ ] CWE
+- [x] CWE
 - [ ] CERT
 
-[Explanation:](https://www.ieee-security.org/TC/SP2020/tot-papers/young-1996.pdf)
+`Explanation: Common Weakness Enumeration (CWE) is a universal online dictionary of security defects that have been found in computer software.`
 
 #### Q111. What is cryptovirology?
 
