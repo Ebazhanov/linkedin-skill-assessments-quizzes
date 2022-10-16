@@ -1310,3 +1310,42 @@ echo $smurf->name;
 - [ ] Handy Smurf
 - [x] Smurfette
 - [ ] Papa Smurf
+
+
+#### Q99. You have an online form with a file input field called "image" for uploading files. Assuming the path to the upload directory is $path, which code should you use to make sure the file is uploaded from your form to the correct location?
+
+- [ ] :
+
+```php
+1 if ($_FILES['image'][error'] == 0) {
+2       move_uploaded_file($_FILES)['image']['temp_name'],
+3           $path . $_FILES['image']['name']);
+4  )
+```
+
+- [maybe] :
+
+```php
+1 if ($_FILES['image'][error'] === false) {
+2       move_uploaded_file($_FILES)['image']['temp_name'],
+3           $path . $_FILES['image']['name']);
+4  )
+```
+
+- [ ] :
+
+```php
+1 if ($_FILES['image'][error'] == 0) {
+2       copy($_FILES)['image']['temp_name'],
+3           $path . $_FILES['image']['name']);
+4  )
+```
+
+- [ ] :
+
+```php
+1 if ($_FILES['image'][error'] === false) {
+2       upload_file($_FILES)['image']['temp_name'],
+3           $path . $_FILES['image']['name']);
+4  )
+```
