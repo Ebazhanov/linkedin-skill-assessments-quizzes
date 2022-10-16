@@ -845,3 +845,12 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [x] Working software
 
 [Reference](https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/) `Agile projects are characterized by a series of tasks that are conceived, executed and adapted as the situation demands and one of the priorities is working software.`
+
+#### Q116. What types of environments work best for Agile principles?
+
+- [ ] It works great in static environments.
+- [x] It works great in dynamic environments.
+- [ ] It works great in customer environments.
+- [ ] Agile has been proven to not work in any good environment.
+
+[Reference](https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/) `The Agile environment appeals to quick actions, discussions, evaluations, and considerations for different approaches. It works great in dynamic environments where there is a potential for changing or evolving requirements.`
