@@ -2103,16 +2103,62 @@ Queue<Rainfall>
 
 [Explanation](Final classes are created so the methods implemented by that class cannot be overridden. It can't be inherited. These classes are declared final.)
 
-#### Q149. Which method can be used to find the highest value of x and y?
+#### Q149. What code is needed at line 8?
+```class Main {
+	public static void main(String[] args) {
 
-- [ ] Math.largest(x,y)
-- [ ] Math.maxNum(x,y)
-- [x] Math.max(x,y)
-- [ ] Math.maximum(x,y)
+		Map<String, Integer> map = new HashMap<>();
+		map.put("a", 1);
+		map.put("b", 2);
+		map.put("c", 3);
 
-#### Q150. What do these statments evaluate to?
+		int result = 0;
 
-- [ ] 1. false 2. true
-- [ ] 1. false 2. false
-- [ ] 1. true 2. true
-- [x] 1. true 2. false
+		
+			result += entry.getValue();
+		}
+
+		System.out.println(result); //outputs 6
+}
+```
+- [ ] 1. for(MapEntry<String, Integer> entry: map.entrySet()) {
+- [ ] 2.for(String entry: map) {
+- [ ] 3.for(Integer entry: map.values()) {
+- [x] 4.for(Entry<String, Integer> entry: map.entrySet()) {
+	
+#### Q150. What will print when Lambo is instantiated?
+```class Car {
+	String color = "blue";
+}
+
+class Lambo extends Car {
+	String color = "white";
+
+	public Lambo() {
+		System.out.println(super.color);
+		System.out.println(this.color);
+		System.out.println(color);
+	}
+}
+```
+- [x] blue
+      white
+      white
+
+- [ ] blue
+      white
+      blue
+
+- [ ] white
+      white
+      white
+
+- [ ] white
+      white
+      blue
+
+#### Q 151. Which command will run a FrogSounds app that someone emailed to you as a jar?
+- [ ] jar FrogSounds.java
+- [ ] javac FrogSounds.exe
+- [ ]  jar cf FrogSounds.jar
+- [x]  java -jar FrogSounds.jar
