@@ -2379,7 +2379,6 @@ input.invalid {
 - [x] !important
 - [ ] important!
 
-
 #### Q155. What does CSS stand for?
 
 - [ ] Creative Style Sheets
@@ -2396,3 +2395,9 @@ input.invalid {
 - [x] Red
 - [ ] Yellow
 
+#### Q157. What is the correct HTML for referring to an external style sheet?
+
+- [x] <link rel="stylesheet" type="text/css" href="mystyle.css">
+- [ ] <stylesheet>mystyle.css</stylesheet>
+- [ ] < style src= "mystyle.css" >
+- [ ] None of these.

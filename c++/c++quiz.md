@@ -1405,6 +1405,5 @@ return 0;
 
 - [x] cout << "Hello World";
 - [ ] System.out.println("Hello World");
-- [ ] print("Hello World"); 
+- [ ] print("Hello World");
 - [ ] Console.WriteLine("Hello World");
-
