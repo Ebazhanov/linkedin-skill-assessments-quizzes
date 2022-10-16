@@ -391,3 +391,73 @@
 - [ ] Audit Trail report
 - [ ] Changed Transaction report
 - [ ] Profit and Loss report's drill-down feature
+
+#### Q57. You notice two or more similar names in the Vendor Center that reference the same vendor. What can you do to clean up the vendor list?
+
+- [ ] Merge the similar names into one vendor by renaming the vendors, using the same name for each.
+- [ ] Select the vendor in the Vendor Center and, in the lower-left corner, select the box to make the vendor inactive.
+- [ ] Collapse the vendors in the Profit and Loss report.
+- [ ] Delete the incorrect vendor names in the Vendor Center.
+
+#### Q58. What changes in QuickBooks if you put in a bank account number or any other personally identifiable information?
+
+- [ ] You are required to encrypt your QuickBooks file.
+- [ ] You are required to use a more complex password.
+- [ ] You are immediately prompted to back up the company file.
+- [ ] The ability to use QuickBooks in multi-user mode is disabled.
+
+#### Q59. What account does QuickBooks use to temporarily hold payments you receive from customers before you create your bank deposit?
+
+- [ ] Customer Payments
+- [ ] Checks Received
+- [ ] Undeposited Funds
+- [ ] Cash
+
+#### Q60. Why would you hide or collapse subaccounts on a report?
+
+- [ ] Doing so temporarily hides details, which enables you to focus on values in the parent accounts.
+- [ ] Subaccounts cannot be hidden, as they will be lost once the report is collapsed.
+- [ ] If you want to email the report, then subaccounts need to be collapsed.
+- [ ] Reports can be sent to Excel only in the collapsed format.
+
+#### Q61. A customer purchases goods or services with terms of net 30. How do you record this transaction in QuickBooks?
+
+- [ ] Create a sales order and then create an invoice when payment is due.
+- [ ] Create an invoice by going to your Home Page and, in the Customers section, selecting Create Invoices.
+- [ ] Create a sales receipt by going to your Home Page and, in the Customers section, selecting Create Sales Receipt.
+- [ ] Prepare a journal entry to debit Accounts Receivable and credit Sales, putting the customer name in the description.
+
+#### Q62. What is an effective way to restrict a specific user from being able to change, delete, or add a transaction after reports have been run?
+
+- [ ] Change the fiscal year in the Company Information window.
+- [ ] Edit the user's access to restrict their ability to work with transactions.
+- [ ] Select Restrict entry after this date for the user.
+- [ ] Start a new company file after each fiscal year end.
+
+#### Q63. What is the best way to record a sale when the customer pays at the time of the sale?
+
+- [ ] sales receipt
+- [ ] statement
+- [ ] Cash Sale journal entry
+- [ ] invoice
+
+#### Q64. What sequence of steps is required to process payroll?
+
+- [ ] Enter Time > Pay Employees > Pay Payroll Liabilities > Process Payroll Forms
+- [ ] Pav Employees > Process Payroll Forms > Pav Payroll Liabilities
+- [ ] Enter Time > Pav Payroll Liabilities > Process Payroll Forms > Print Liabilities Report
+- [ ] Pay Employees > Process Payroll Forms > Print Payroll Report
+
+#### Q65. Which accounts are affected when the timesheets function is used in QuickBooks to track employee hours?
+
+- [ ] Employee Balance Detail would be affected.
+- [ ] None, because timesheets are non-posting entries.
+- [ ] Payroll Expense and Cash in Checking would be affected.
+- [ ] Payroll Payable and Payroll Expense would be affected.
+
+#### Q66. What is the purpose of the little diamonds located next to certain list entries?
+
+- [ ] You can click and drag a diamond to move the list entry to a different location on the list.
+- [ ] The diamond indicates that the list entry cannot be deleted because it is in use.
+- [ ] The diamond indicates that the list entry has open transactions.
+- [ ] The diamond indicates that the list entry cannot be moved or deleted because it has open transactions.
