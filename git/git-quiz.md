@@ -1120,7 +1120,15 @@ Explanation: GitHub is a popular hosting platform for developers to store their 
 - [ ] Tags are pushed to the remote repository with their respective commits.
 - [ ] Commits can be tagged only when they are created.
 
-#### Q134. What is the command to set the user email for the current repository?
+
+#### Q134. Git Pull is a combination of?
+
+- [ ] Add and commit.
+- [ ] branch and checkout.
+- [x] fetch and merge.
+- [ ] None of these.
+
+#### Q135. What is the command to set the user email for the current repository?
 
 - [ ] git email.user
 - [x] git config user.email
