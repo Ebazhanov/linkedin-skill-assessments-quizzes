@@ -2160,3 +2160,10 @@ Else y = 1 + 30
 - [ ] conversion of a list into a datatable
 
 Explanation:Pickling is the process of sterilizing a Python object, that is, conversion of a byte stream into Python object hierarchy. The reverse of this process is known as unpickling.
+
+#### Q158. Who created the Python programming language?
+
+- [ ] Tim Berners-Lee
+- [ ] Ada Lovelace
+- [x] Guido van Rossum
+- [ ] Alan Turing

@@ -1225,7 +1225,18 @@ chat *string[20] = {"one", "two", "three"};
 
 **Explanation :** This matrix is not defined in 2D because which this command is not valid and there will no output.
 
-#### Q78. What will be the output of the following code snippet?
+#### Q78. What does the following declaration mean?
+
+```
+int (*ptr)[10];
+```
+
+- [ ] ptr is array of pointers to 10 integers
+- [x] ptr is a pointer to an array of 10 integers
+- [ ] ptr is an array of 10 integers
+- [ ] ptr is an pointer to array
+
+#### Q79. What will be the output of the following code snippet?
 
 ```c
 #include <stdio.h>
