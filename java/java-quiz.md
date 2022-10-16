@@ -2109,3 +2109,9 @@ Queue<Rainfall>
 - [ ] Math.maxNum(x,y)
 - [x] Math.max(x,y)
 - [ ] Math.maximum(x,y)
+	
+#### Q150. What do these statments evaluate to?
+- [ ] 1. false 2. true
+- [ ] 1. false 2. false
+- [ ] 1. true 2. true
+- [x] 1. true 2. false	
