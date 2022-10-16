@@ -1405,8 +1405,9 @@ return 0;
 
 - [x] cout << "Hello World";
 - [ ] System.out.println("Hello World");
-- [ ] print("Hello World"); 
+- [ ] print("Hello World");
 - [ ] Console.WriteLine("Hello World");
+
 
 #### Q87. Size of C++ objects are expressed in terms of multiples of the size of a __ and the size of a char is __.
 - [ ] char, 4
