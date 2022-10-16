@@ -1897,7 +1897,7 @@ console.log(copyCat.type, copyCat.size);
 
 [Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
 
-#### Q137. What does the code print to the console?
+#### Q137. What does this code print to the console?
 
 ```js
 let animals = [{ type: 'lion' }, 'tiger'];

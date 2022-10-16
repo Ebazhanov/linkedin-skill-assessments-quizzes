@@ -791,3 +791,11 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] 1084 bytes
 - [x] 255 bytes
 - [ ] 1023 bytes
+
+#### Q95. Which command do you use to rename a file in Linux?
+
+- [x] mv
+- [ ] rn
+- [ ] rename
+- [ ] ren
+
