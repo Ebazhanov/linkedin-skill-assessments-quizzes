@@ -2379,9 +2379,25 @@ input.invalid {
 - [x] !important
 - [ ] important!
 
-#### Q155. What color would rgb(255,0,0) give?
+#### Q155. What does CSS stand for?
+
+- [ ] Creative Style Sheets
+- [ ] Colourful Style Sheets
+- [x] Cascading Style Sheets
+- [ ] Colourful Style Sheets
+
+[Reference](https://www.w3schools.com/quiztest/quiztest.asp?qtest=CSS)
+
+#### Q156. What color would rgb(255,0,0) give?
 
 - [ ] Blue
 - [ ] Green
 - [x] Red
 - [ ] Yellow
+
+#### Q157. What is the correct HTML for referring to an external style sheet?
+
+- [x] <link rel="stylesheet" type="text/css" href="mystyle.css">
+- [ ] <stylesheet>mystyle.css</stylesheet>
+- [ ] < style src= "mystyle.css" >
+- [ ] None of these.

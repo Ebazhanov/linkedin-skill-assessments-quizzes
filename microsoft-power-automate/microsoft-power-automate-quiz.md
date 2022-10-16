@@ -4,7 +4,7 @@
 
 - [ ] click the name and type over it
 - [ ] highlight the step and, in the menu bar, select Rename step.
-- [ ] at the top-right corner of the step card, click the small ellipsis and select Rename
+- [x] at the top-right corner of the step card, click the small ellipsis and select Rename
 - [ ] from the flow's detail page, in the menu var, click Rename.
 
 #### Q2. If you create the flow directly in Microsoft Teams, who can use the flow?

@@ -569,3 +569,10 @@
 - [ ] Align Stroke to Outside
 
 [How to Round End of Path (Line) in Illustrator](https://www.youtube.com/watch?v=UCQb-JTRIm4&t=92s)
+
+#### Q77. Where can you add arrowheads to a line or arc?
+
+- [ ] Effect > Path > Arrowheads.
+- [x] The Stroke panel.
+- [ ] The Arrow panel.
+- [ ] Object > Path > Arrowheads.
