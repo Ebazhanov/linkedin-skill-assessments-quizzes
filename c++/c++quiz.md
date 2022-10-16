@@ -1405,5 +1405,11 @@ return 0;
 
 - [x] cout << "Hello World";
 - [ ] System.out.println("Hello World");
-- [ ] print("Hello World");
+- [ ] print("Hello World"); 
 - [ ] Console.WriteLine("Hello World");
+
+#### Q88. The if-else statement can be replaced by which operator ?
+- [ ] certain structure
+- [ ] choosing structure
+- [x] selective structure
+- [ ] None of the Above
