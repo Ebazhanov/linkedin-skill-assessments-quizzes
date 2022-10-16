@@ -8,9 +8,7 @@
 [![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1164-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1165-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1639,6 +1637,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center"><a href="https://github.com/sndmurthy"><img src="https://avatars.githubusercontent.com/u/2811193?v=4?s=100" width="100px;" alt="sndmurthy"/><br /><sub><b>sndmurthy</b></sub></a><br /><a href="#design-sndmurthy" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sndmurthy" title="Code">💻</a></td>
       <td align="center"><a href="http://www.instagram.com/sd_shiivam"><img src="https://avatars.githubusercontent.com/u/75006771?v=4?s=100" width="100px;" alt="Shivam-Singh"/><br /><sub><b>Shivam-Singh</b></sub></a><br /><a href="#design-Sd-Shiivam" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Sd-Shiivam" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/MAmmarKhan"><img src="https://avatars.githubusercontent.com/u/73057016?v=4?s=100" width="100px;" alt="M. Ammar Khan"/><br /><sub><b>M. Ammar Khan</b></sub></a><br /><a href="#design-MAmmarKhan" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=MAmmarKhan" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
