@@ -1285,6 +1285,7 @@ while ($fruit_name = current($array)) {
 ```
 
 #### Q98. What does this code return?
+
 #### Q98. What does this code print?
 
 ```php
@@ -1310,7 +1311,6 @@ echo $smurf->name;
 - [ ] Handy Smurf
 - [x] Smurfette
 - [ ] Papa Smurf
-
 
 #### Q99. You have an online form with a file input field called "image" for uploading files. Assuming the path to the upload directory is $path, which code should you use to make sure the file is uploaded from your form to the correct location?
 

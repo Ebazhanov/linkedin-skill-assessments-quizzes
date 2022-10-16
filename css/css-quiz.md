@@ -2379,7 +2379,6 @@ input.invalid {
 - [x] !important
 - [ ] important!
 
-
 #### Q155. What does CSS stand for?
 
 - [ ] Creative Style Sheets
@@ -2395,4 +2394,3 @@ input.invalid {
 - [ ] Green
 - [x] Red
 - [ ] Yellow
-

@@ -460,7 +460,7 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 - [ ] Site-to-Site VPN
 - [ ] Point-to-Site VPN
 
-#### Q59. In Azure Virtual Desktop, you can _____ the storage accounts associated with FSLogix to enable you to control access using Active Directory Domain Services.
+#### Q59. In Azure Virtual Desktop, you can **\_** the storage accounts associated with FSLogix to enable you to control access using Active Directory Domain Services.
 
 - [x] domain join
 - [ ] profile
@@ -473,5 +473,3 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 - [ ] Azure Files
 - [x] Azure NetApp Files
 - [ ] Avere vFXT for Azure
-
-

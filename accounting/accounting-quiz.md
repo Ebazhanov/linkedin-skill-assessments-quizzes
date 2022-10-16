@@ -552,14 +552,14 @@ I'm not 100% sure on this.
 - [ ] Determine the client's planned and imminent purchase commitments.
 - [ ] Gain a clear and proper understanding of the client's internal control processes.
 
-#### Q68. At McKay Company, machine hours are limited. There is more demand for McKay's products than it can produce due to limited machine hours. To maximize profits, the company should evaluate each product's _____.
+#### Q68. At McKay Company, machine hours are limited. There is more demand for McKay's products than it can produce due to limited machine hours. To maximize profits, the company should evaluate each product's **\_**.
 
 - [ ] contribution margin per unit
 - [ ] segment margin per unit
 - [ ] gross profit per unit
 - [ ] contribution margin per machine hour
 
-#### Q69. The asset-turnover ratio calculation measures _______.
+#### Q69. The asset-turnover ratio calculation measures **\_**.
 
 - [ ] when the company must decide to purchase assets and what investment is required
 - [ ] how much of a company's assets are financed by creditors
@@ -580,7 +580,7 @@ I'm not 100% sure on this.
 - [ ] design
 - [ ] customer service
 
-#### Q72. Flexible budgets are created to demonstrate how _______.
+#### Q72. Flexible budgets are created to demonstrate how **\_**.
 
 - [ ] changes in activity levels affect predicted revenue and costs
 - [ ] management need to make changes to budget targets following poor performance

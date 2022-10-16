@@ -853,4 +853,4 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] It works great in customer environments.
 - [ ] Agile has been proven to not work in any good environment.
 
-[Reference](https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/) `The Agile environment appeals to quick actions, discussions, evaluations, and considerations for different approaches.  It works great in dynamic environments where there is a potential for changing or evolving requirements.`
+[Reference](https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/) `The Agile environment appeals to quick actions, discussions, evaluations, and considerations for different approaches. It works great in dynamic environments where there is a potential for changing or evolving requirements.`

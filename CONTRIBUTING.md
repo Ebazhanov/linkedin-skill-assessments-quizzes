@@ -12,4 +12,4 @@
 
 ## PLEASE
 
->  add explanation (`or reference link`) to your answers. That will help anyone to better learn concepts they might not have a great understanding about
+> add explanation (`or reference link`) to your answers. That will help anyone to better learn concepts they might not have a great understanding about

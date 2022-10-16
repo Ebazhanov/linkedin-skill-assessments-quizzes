@@ -123,4 +123,3 @@ It changes 4/4 tempo to 2/4.
 - [ ] Bus 1-2 is in expanded sends view, while Bus 3-4 is not.
 - [ ] Bus 1-2 is a special pre-fader send.
 - [ ] Bus 1-2 is a VCA track.
-
