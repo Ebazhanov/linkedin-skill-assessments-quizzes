@@ -632,3 +632,54 @@ console.log(person);
 - [x] util.types.isDate(value)
 
 [Reference](https://nodejs.org/api/dns.html#dnslookuphostname-options-callback)
+
+#### Q76. When you ```require(something)```, where will Node.js attempt to ```resolve(something)```?
+
+- [ ] the local .modules folder, then the parents' node_modules folder
+- [ ] the local node_modules folder, then the parents' node_modules folder
+- [ ] the .modules folder under the home directory
+- [ ] a "something.js" file or a "something" folder, which exist on the same level as the requiring file
+
+#### Q77. An external library has its own codebase and license. It is not managed by the Node.js core team. Which choice is an external library that Node.js uses?
+
+- [ ] net
+- [ ] openssl
+- [ ] cluster
+- [ ] events
+
+#### Q78. What is the main purpose of the package-lock.json file?
+
+- [ ] to be a system file
+- [x] to provide an exact, single representation of the dependency tree
+- [ ] to serve as a module to export dependencies
+- [ ] to be a log for the application
+
+#### Q79. How would you determine the number of cluster instances to start when using the cluster module?
+
+- [ ] ```const numInstances = process.cpus().length```
+- [ ] ```const numInstances = cluster.instances().length```
+- [ ] ```const numInstances = cluster.instances()```
+- [ ] ```const numInstances = require('os').cpus().length```
+
+#### Q80. What response will you get when you send a get requests to the server with this code?
+
+```
+const http = require('http');
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello World\n');
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+```
+
+- [ ] ```server running at http://127.0.0.1:3000```
+- [ ] ```server running at port 3000```
+- [ ] ```server running at http://localhost:3000/```
+- [ ] ```server running at http://localhost:4000/```
