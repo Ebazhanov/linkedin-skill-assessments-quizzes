@@ -1261,7 +1261,14 @@ const Greeting = ({ initName }) => {
 - [ ] Browser Buddy
 - [ ] ReactDOM
 
-#### Q106. Why might you use the `useRef` hook?
+#### Q106. Which hook is used to prevent a function from being recreated on every component render?
+
+- [x] useCallback
+- [ ] useMemo
+- [ ] useRef
+- [ ] useTransition
+
+#### Q107. Why might you use the `useRef` hook?
 
 - [ ] To bind the function
 - [ ] To call a function
@@ -1270,7 +1277,7 @@ const Greeting = ({ initName }) => {
 
 [Source](https://www.smashingmagazine.com/2020/11/react-useref-hook/)
 
-#### Q107. Which of the following is required to use React?
+#### Q108. Which of the following is required to use React?
 
 - [x] JavaScript
 - [ ] React Router

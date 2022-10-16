@@ -145,7 +145,7 @@
 - [ ] Use a drag gesture and select **Browse Artboards**.
 - [ ] Double-tap and select **Browse Artboards**.
 
-#### Q20. Component states are _______.
+#### Q20. Component states are **\_**.
 
 - [ ] added in Design view.
 - [ ] interactive versions of a component.
