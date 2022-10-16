@@ -23,7 +23,7 @@
 
 #### Q4. What kind of track does this image show?
 
-![What kind of track does this image show?](images/04.jpeg?raw=true)
+![What kind of track does this image show?](images/image01.jpeg?raw=true)
 
 - [ ] an audio track
 - [ ] a video track
@@ -46,7 +46,7 @@
 
 #### Q7. What color-coding preference do you select to make the playlist regions shown below have different colors?
 
-![What color-coding preference do you select to make the playlist regions shown below have different colors?](images/07.jpeg?raw=true)
+![What color-coding preference do you select to make the playlist regions shown below have different colors?](images/image02.jpeg?raw=true)
 
 - [ ] Select Track Type under Default Track Color Coding, and select Track Color under Default Clip Color Coding.
 - [ ] Keep Always Display Marker Colors selected.
@@ -55,10 +55,10 @@
 
 #### Q8. What does Cut Time do in the Event > Time Operations menu?
 
-It makes the end of the session timeline shorter.
-None of these answers is correct.
-It removes a timeline selection across all tracks and closes the gap.
-It changes 4/4 tempo to 2/4.
+- [ ] It makes the end of the session timeline shorter.
+- [ ] None of these answers is correct.
+- [ ] It removes a timeline selection across all tracks and closes the gap.
+- [ ] It changes 4/4 tempo to 2/4.
 
 #### Q9. You used Save As to save your session to a location outside the session folder on a mobile hard drive. When you tried to open the session on a different computer, all the files were offline. Why did this happen?
 
@@ -76,7 +76,7 @@ It changes 4/4 tempo to 2/4.
 
 #### Q11. In the image shown, why did the Batch Fades window appear?
 
-![In the image shown, why did the Batch Fades window appear?](images/011.jpeg?raw=true)
+![In the image shown, why did the Batch Fades window appear?](images/image03.jpeg?raw=true)
 
 - [ ] Batch Fades was selected from the Edit menu.
 - [ ] Batch Fade mode was selected in the preferences.
@@ -92,8 +92,6 @@ It changes 4/4 tempo to 2/4.
 
 #### Q13. In the image shown, what does 3.5 dB signify on the bass clip?
 
-![ques?](images/010.png?raw=true)
-
 - [ ] The bass clip has a total dynamic range of 3.5 dB.
 - [ ] The bass clip has 3.5 dB of clip gain applied.
 - [ ] The bass clip is 3.5 below absolute zero on a digital scale
@@ -101,7 +99,7 @@ It changes 4/4 tempo to 2/4.
 
 #### Q14. When would you create a MIDl track?
 
-![When would you create a MIDl track?](images/014.png?raw=true)
+![When would you create a MIDl track?](images/04.png?raw=true)
 
 - [ ] to enable higher sample rate audio recording
 - [ ] to communicate with another studio outside your current Wi-Fi network
@@ -117,7 +115,7 @@ It changes 4/4 tempo to 2/4.
 
 #### Q16. What is the difference between Bus 1-2 and Bus 3-4?
 
-![What is the difference between Bus 1-2 and Bus 3-4?](images/016.png?raw=true)
+![What is the difference between Bus 1-2 and Bus 3-4?](images/05.png?raw=true)
 
 - [ ] Bus 3-4 is lower in volume.
 - [ ] Bus 1-2 is in expanded sends view, while Bus 3-4 is not.
