@@ -2167,3 +2167,10 @@ Explanation:Pickling is the process of sterilizing a Python object, that is, con
 - [ ] Ada Lovelace
 - [x] Guido van Rossum
 - [ ] Alan Turing
+
+#### Q159. Which collection is ordered, changeable, and allows duplicate members?
+
+- [ ] SET
+- [ ] TUPLE
+- [ ] DICTIONARY
+- [x] LIST
