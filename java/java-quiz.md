@@ -2093,3 +2093,35 @@ Queue<Rainfall>
 - [ ] HashMap is class and map is interface that implements that
 - [ ] Map is class and Hashmap is interface that implements that
 - [x] Map is Interface and Hashmap is class that implements that
+
+#### Q148. What invokes a thread's run() method?
+
+- [x] JVM invokes the thread's run() method when the thread is initially executed.
+- [ ] Main application running the thread.
+- [ ] start() method of the thread class.
+- [ ] None of the above.
+
+**Explanation:** After a thread is started, via its start() method of the Thread class, the JVM invokes the thread's run() method when the thread is initially executed.
+
+#### Q149. What is true about a final class?
+
+- [ ] class declared final is a final class.
+- [ ] Final classes are created so the methods implemented by that class cannot be overriddden.
+- [ ] It can't be inherited.
+- [x] All of the above.
+
+[Explanation](Final classes are created so the methods implemented by that class cannot be overridden. It can't be inherited. These classes are declared final.)
+
+#### Q150. Which method can be used to find the highest value of x and y?
+
+- [ ] Math.largest(x,y)
+- [ ] Math.maxNum(x,y)
+- [x] Math.max(x,y)
+- [ ] Math.maximum(x,y)
+
+#### Q151. What do these statments evaluate to?
+
+- [ ] 1. false 2. true
+- [ ] 1. false 2. false
+- [ ] 1. true 2. true
+- [x] 1. true 2. false

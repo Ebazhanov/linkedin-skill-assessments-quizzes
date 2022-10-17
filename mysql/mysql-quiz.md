@@ -1090,3 +1090,10 @@ Table name: superheroes
 - [x] JSON columns cannot be indexed directly.
 - [ ] JSON columns are inefficient for storing JSON documents.
 - [ ] JSON documents cannot be validated when stored in JSON columns.
+
+#### Q114. With MySQL, how do you select all the records from a table named "Persons" where the "LastName" is alphabetically between (and including) "Hansen" and "Pettersen"?
+
+- [ ] `SELECT LastName>'Hansen' AND LastName<'Pettersen' FROM Persons`
+- [ ] `SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'`
+- [ ] `SELECT * FROM Persons WHERE LastName>'Hansen' AND LastName<'Pettersen'`
+- [ ] `None of the above.`

@@ -845,3 +845,47 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [x] Working software
 
 [Reference](https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/) `Agile projects are characterized by a series of tasks that are conceived, executed and adapted as the situation demands and one of the priorities is working software.`
+
+#### Q116. What types of environments work best for Agile principles?
+
+- [ ] It works great in static environments.
+- [x] It works great in dynamic environments.
+- [ ] It works great in customer environments.
+- [ ] Agile has been proven to not work in any good environment.
+
+[Reference](https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/) `The Agile environment appeals to quick actions, discussions, evaluations, and considerations for different approaches. It works great in dynamic environments where there is a potential for changing or evolving requirements.`
+
+#### Q117. What does being a Cross-Functional team mean?
+
+- [ ] That every team in the organization has a particular specialism
+- [ ] That each team member has their own specialism
+- [x] That all the skills necessary exist within the team
+- [ ] That teams can communicate effectively
+
+#### Q118. What is a PBI?
+
+- [ ] Product Before Increment
+- [ ] Project Billing Information
+- [ ] Productive Backlog Increment
+- [x] Product Backlog Item
+
+#### Q119. Which of the following scrum events is dedicated to process improvement?
+
+- [ ] The sprint planning
+- [ ] The daily scrum
+- [x] The sprint retrospective
+- [ ] The sprint review
+
+#### Q120. For a month-long sprint, the time-box for a sprint retrospective is **\_**.
+
+- [x] 3 hours
+- [ ] 6 hours
+- [ ] 8 hours
+- [ ] 1 hour
+
+#### Q121. Which type of Kanban diagram shows the number of issues in each of the states?
+
+- [x] burn down chart
+- [ ] control chart
+- [ ] burn up chart
+- [ ] cumulative flow

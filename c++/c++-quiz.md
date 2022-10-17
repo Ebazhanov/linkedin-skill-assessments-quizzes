@@ -1380,16 +1380,51 @@ return 0;
 - [x] 3
 - [ ] 6
 
-#### Q84. What is the use of tellp ()?
+#### Q84. What does "c" stands for in cout and cin.
+
+- [ ] compiler
+- [ ] console
+- [x] character
+- [ ] standard namespace
+
+#### Q85. What is the use of tellp ()?
 
 - [ ] Current Input Pointer position
 - [x] Current Output Pointer position
 - [ ] Last Input Pointer position
 - [ ] Last Output Pointer position
 
-#### Q85. What is callback function?
+#### Q86. What is callback function?
 
 - [ ] Pointer for a pointer
 - [x] Pointer for a function
 - [ ] function for a pointer
 - [ ] function for a class
+
+#### Q87. What is a correct syntax to output "Hello World" in C++?
+
+- [x] cout << "Hello World";
+- [ ] System.out.println("Hello World");
+- [ ] print("Hello World");
+- [ ] Console.WriteLine("Hello World");
+
+#### Q88. What is the meaning of base class in C++ ?
+
+- [ ] It inherit other class
+- [ ] It has a pointer variable
+- [ ] It is the first class declared
+- [x] Another class got inherit from this class
+
+#### Q89. Size of C++ objects are expressed in terms of multiples of the size of a ** and the size of a char is **.
+
+- [ ] char, 4
+- [ ] float, 8
+- [ ] int, 1
+- [x] char, 1
+
+#### Q90. Implementation dependent aspects about an implementation can be found in
+
+- [ ] `<numeric>`
+- [ ] `<limit>`
+- [x] `<limits>`
+- [ ] `<implementation>`
