@@ -1161,7 +1161,7 @@ export class TruncatePipe implements PipeTransform {
 #### Q61. Which Angular CLI command would you run to generate a UsersComponent and add it to the SharedModule (in file shared.module.ts in your application)?
 
 - [ ] ng generate component --newModule=shared
-- [ ] ng generate component users --module=shared
+- [x] ng generate component users --module=shared
 - [ ] ng generate component users --shared
 - [ ] ng generate component --add=shared
 
