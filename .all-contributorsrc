@@ -11559,6 +11559,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "factuall",
+      "name": "Adrian Nieściur",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63786641?v=4",
+      "profile": "https://adrianfactuall.com/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
