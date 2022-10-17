@@ -1417,10 +1417,8 @@ return 0;
 
 #### Q88.  Implementation dependent aspects about an implementation can be found in
 - [ ] <numeric>
- 
 - [ ] <limit>
- 
 - [x]<limits>
-
 - [ ]<implementation>
+
 
