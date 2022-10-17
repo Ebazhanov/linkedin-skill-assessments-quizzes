@@ -340,7 +340,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [x] all of these answers
 - [ ] Select the **Show without animation** option.
 
-#### Q45. Which feature lets you configure multiple combinations of specific slides for playback from a larger slideshow?
+#### Q45. Which feature lets you configure multiple combinations of specific slides for playback from a larger slide show?
 
 - [ ] Record Slide Show
 - [ ] Rehearse Timings
@@ -729,7 +729,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 [Reference](https://bluevalleyk12.libguides.com/c.php?g=140667&p=921228#:~:text=In%20Normal%20view%2C%20click%20the,to%20set%20the%20timing%20for.)
 
-#### Q94. You plan to distribute a presentation. In which format might you save it to ensure that it appears as an automatically playing slide show composed of individual slides, regarless of the recipients' platform or software applications?
+#### Q94. You plan to distribute a presentation. In which format might you save it to ensure that it appears as an automatically playing slide show composed of individual slides, regardless of the recipients' platform or software applications?
 
 - [ ] PDF (.pdf)
 - [ ] PowerPoint Show (.ppsx)
@@ -757,9 +757,9 @@ D. Start When Clicked On
 - [ ] B and D
 - [x] A and B
 
-#### Q97. Your presentation has a slide on which the text appears scrambled, What happened?
+#### Q97. Your presentation has a slide on which the text appears scrambled. What happened?
 
-![Q97](images/Q97.png)
+![Q97](images/Q97.jpg)
 
 - [ ] The text direction has been changed to Vertical.
 - [ ] The text direction has been changed to Stacked.
