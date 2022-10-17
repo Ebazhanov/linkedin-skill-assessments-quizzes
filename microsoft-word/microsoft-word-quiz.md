@@ -752,4 +752,3 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Add to chooser
 - [x] Mark as favorite
 - [ ] Drag to Home tab
-

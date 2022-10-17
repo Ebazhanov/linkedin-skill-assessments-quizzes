@@ -2094,7 +2094,6 @@ Queue<Rainfall>
 - [ ] Map is class and Hashmap is interface that implements that
 - [x] Map is Interface and Hashmap is class that implements that
 
-
 #### Q148. What invokes a thread's run() method?
 
 - [x] JVM invokes the thread's run() method when the thread is initially executed.
@@ -2103,7 +2102,6 @@ Queue<Rainfall>
 - [ ] None of the above.
 
 **Explanation:** After a thread is started, via its start() method of the Thread class, the JVM invokes the thread's run() method when the thread is initially executed.
-
 
 #### Q149. What is true about a final class?
 
@@ -2127,4 +2125,3 @@ Queue<Rainfall>
 - [ ] 1. false 2. false
 - [ ] 1. true 2. true
 - [x] 1. true 2. false
-

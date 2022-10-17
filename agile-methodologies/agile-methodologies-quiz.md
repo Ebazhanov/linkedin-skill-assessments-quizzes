@@ -855,7 +855,6 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 [Reference](https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/) `The Agile environment appeals to quick actions, discussions, evaluations, and considerations for different approaches. It works great in dynamic environments where there is a potential for changing or evolving requirements.`
 
-
 #### Q117. What does being a Cross-Functional team mean?
 
 - [ ] That every team in the organization has a particular specialism
@@ -865,11 +864,10 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 #### Q118. What is a PBI?
 
-- [ ] Product Before Increment 
-- [ ] Project Billing Information  
-- [ ] Productive Backlog Increment 
+- [ ] Product Before Increment
+- [ ] Project Billing Information
+- [ ] Productive Backlog Increment
 - [x] Product Backlog Item
-
 
 #### Q119. Which of the following scrum events is dedicated to process improvement?
 
@@ -878,7 +876,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [x] The sprint retrospective
 - [ ] The sprint review
 
-#### Q120. For a month-long sprint, the time-box for a sprint retrospective is _____.
+#### Q120. For a month-long sprint, the time-box for a sprint retrospective is **\_**.
 
 - [x] 3 hours
 - [ ] 6 hours

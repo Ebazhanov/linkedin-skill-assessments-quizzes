@@ -771,7 +771,7 @@ public int Password
 - [x] Thread.Sleep(3000);
 
 [Reference](https://docs.microsoft.com/en-us/dotnet/api/system.threading.thread.sleep?view=net-6.0)
-    
+
 #### Q73. What is wrong with this code?
 
 ```cs

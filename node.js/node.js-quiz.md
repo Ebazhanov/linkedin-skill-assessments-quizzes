@@ -633,7 +633,7 @@ console.log(person);
 
 [Reference](https://nodejs.org/api/dns.html#dnslookuphostname-options-callback)
 
-#### Q76. When you ```require(something)```, where will Node.js attempt to ```resolve(something)```?
+#### Q76. When you `require(something)`, where will Node.js attempt to `resolve(something)`?
 
 - [ ] the local .modules folder, then the parents' node_modules folder
 - [ ] the local node_modules folder, then the parents' node_modules folder
@@ -656,10 +656,10 @@ console.log(person);
 
 #### Q79. How would you determine the number of cluster instances to start when using the cluster module?
 
-- [ ] ```const numInstances = process.cpus().length```
-- [ ] ```const numInstances = cluster.instances().length```
-- [ ] ```const numInstances = cluster.instances()```
-- [ ] ```const numInstances = require('os').cpus().length```
+- [ ] `const numInstances = process.cpus().length`
+- [ ] `const numInstances = cluster.instances().length`
+- [ ] `const numInstances = cluster.instances()`
+- [ ] `const numInstances = require('os').cpus().length`
 
 #### Q80. What response will you get when you send a get requests to the server with this code?
 
@@ -679,7 +679,7 @@ server.listen(port, hostname, () => {
 });
 ```
 
-- [ ] ```server running at http://127.0.0.1:3000```
-- [ ] ```server running at port 3000```
-- [ ] ```server running at http://localhost:3000/```
-- [ ] ```server running at http://localhost:4000/```
+- [ ] `server running at http://127.0.0.1:3000`
+- [ ] `server running at port 3000`
+- [ ] `server running at http://localhost:3000/`
+- [ ] `server running at http://localhost:4000/`

@@ -1093,7 +1093,7 @@ Table name: superheroes
 
 #### Q114. With MySQL, how do you select all the records from a table named "Persons" where the "LastName" is alphabetically between (and including) "Hansen" and "Pettersen"?
 
-- [ ] SELECT LastName>'Hansen' AND LastName<'Pettersen' FROM Persons
-- [ ] SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'
-- [ ] SELECT * FROM Persons WHERE LastName>'Hansen' AND LastName<'Pettersen'
-- [ ] None of the above.
+- [ ] `SELECT LastName>'Hansen' AND LastName<'Pettersen' FROM Persons`
+- [ ] `SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'`
+- [ ] `SELECT * FROM Persons WHERE LastName>'Hansen' AND LastName<'Pettersen'`
+- [ ] `None of the above.`
