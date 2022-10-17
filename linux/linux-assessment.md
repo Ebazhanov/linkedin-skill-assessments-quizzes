@@ -798,3 +798,10 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] rn
 - [ ] rename
 - [ ] ren
+
+#### Q96. Which of these do NOT constitute as a default part of the email system of Red Hat Linux?
+
+- [ ] The MTA
+- [x] Pine
+- [ ] Procmail
+- [ ] The MUA
