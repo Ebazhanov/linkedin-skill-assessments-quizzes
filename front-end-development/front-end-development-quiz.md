@@ -210,7 +210,6 @@ h1 {
 
 #### Q24. Which style will change the color of the text?
 
-
 ```html
 <cite>Noam Chomsky</cite>
 ```
