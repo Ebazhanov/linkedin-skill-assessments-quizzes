@@ -1415,4 +1415,10 @@ return 0;
 - [ ] int, 1
 - [x] char, 1
 
+#### Q88.  Implementation dependent aspects about an implementation can be found in
+- [ ] <numeric>
+- [ ] <limit>
+- [x]<limits>
+- [ ]<implementation>
+
 
