@@ -493,14 +493,14 @@ I'm not 100% sure on this.
 
 - [ ] cash flow statement
 - [ ] income statement
-- [ ] balance sheet
+- [x] balance sheet
 - [ ] shareholder equity statement
 
 #### Q60. The cost of alternative X is $25,000 and the cost of alternative Y is $20,000. What do you call the $5,000 cost difference?
 
 - [ ] essential cost
 - [ ] additional cost
-- [ ] differential cost
+- [x] differential cost
 - [ ] sunk cost
 
 #### Q61. What is the purpose of a master budget?
