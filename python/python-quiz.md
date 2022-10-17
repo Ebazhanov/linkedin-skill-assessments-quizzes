@@ -2167,3 +2167,8 @@ Explanation:Pickling is the process of sterilizing a Python object, that is, con
 - [ ] Ada Lovelace
 - [x] Guido van Rossum
 - [ ] Alan Turing
+
+#### Q159. Is list mutable in python ?
+
+- [x] True
+- [ ] False
