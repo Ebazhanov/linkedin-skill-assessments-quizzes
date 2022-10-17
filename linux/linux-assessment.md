@@ -798,3 +798,8 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] rn
 - [ ] rename
 - [ ] ren
+#### Q96. Which file is backup file of /etc/passwd ?
+  - [x] /etc/passwd-
+- [ ] /etc/passwd
+- [ ] /etc/paaswd.
+- [ ] We can not recover
