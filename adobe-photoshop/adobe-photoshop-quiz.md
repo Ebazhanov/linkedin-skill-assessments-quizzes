@@ -714,3 +714,10 @@
 - [ ] Select
 
 [Reference](https://helpx.adobe.com/in/photoshop-elements/using/copying-arranging-layers.html)
+
+#### Q94. When a Hue/Saturation adjustment layer is selected in the Layers panel, what do you do in the Properties panel to decrease the saturation for only a selected color range? 
+
+- [ ] Click the On-image adjustment tool, hover over the image with what has become an eyedropper cursor, and drag to the left.
+- [X] Change the preset to Old Style. Then, enable the On-image adjustment tool and select the hue you would like from the image.
+- [ ] Enable the On-image adjustment tool, select the hue you would like from the image, and then adjust the slider that appears below Colorize
+- [ ] Click the On-image adiustment tool, hover over the image with what has become an evedropper cursor, and drag to the right.
