@@ -1897,7 +1897,7 @@ console.log(copyCat.type, copyCat.size);
 
 [Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
 
-#### Q137. What does the code print to the console?
+#### Q137. What does this code print to the console?
 
 ```js
 let animals = [{ type: 'lion' }, 'tiger'];
@@ -1973,3 +1973,12 @@ console.log(json); //prints {"type”: “tiger"}
 - [ ] cat.toJSON("type");
 
 [Reference](https://www.w3schools.com/jsref/jsref_stringify.asp)
+
+#### Q142. In JavaScript, all objects inherit a built-in property from a **\*\*\*\***\_\_\_**\*\*\*\***.
+
+- [ ] node
+- [ ] instance variable
+- [x] prototype
+- [ ] accessor
+
+[Reference](https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/)

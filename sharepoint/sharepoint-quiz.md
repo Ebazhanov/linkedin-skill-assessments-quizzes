@@ -337,3 +337,31 @@
 - [ ] Team Site Visitors
 - [ ] Excel Serices Viewers
 - [ ] Everyone except external users
+
+#### Q41. You are using SharePoint Online. While the modern user experience has improved features, many users are more familiar with the classic experience. As a result, you decide to set the defaults to the classic experience. At what levels can this default be set?
+
+- [ ] tenant, site
+- [ ] site collection, tenant
+- [ ] library, list, site, site collection
+- [ ] library, list
+
+#### Q42. You would like to use a SharePoint list app while traveling. What allows access to the app without directly interacting with SharePoint?
+
+- [ ] PowerApps
+- [ ] Forms
+- [ ] Power Automate
+- [ ] Delve
+
+#### Q43. During the creation of a SharePoint site, permission inheritance was selected. Now the site owner wants to create brand-new permissions. How can the site owner accomplish this?
+
+- [ ] Disable inheritance and set new permissions.
+- [ ] Delete inheritance and apply new permissions.
+- [ ] Create a new site.
+- [ ] Re-create the site in place without inheritance.
+
+#### Q44. Your organization wants everyone to create new documents using specific formats. How can you implement this in SharePoint?
+
+- [ ] Create a workflow that sends all documents to a single document library where a user can convert them to the organization's desired format.
+- [ ] Create a custom default document templates as the basis for all new files in the SharePoint document libraries.
+- [ ] Create a policy that allows only documents using the organization's desired format to be added to the SharePoint document libraries.
+- [ ] Create a flow that converts the formats of all documents in SharePoint to the organization's desired format.
