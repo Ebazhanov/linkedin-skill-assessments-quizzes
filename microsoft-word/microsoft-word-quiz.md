@@ -745,3 +745,26 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] wavy line
 - [ ] italic
 - [ ] underline
+
+#### Q96. When you create a macro, you can assign it to a _____. (Select all that apply.)
+
+    A. keyboard shortcut
+    B. specific user
+    C. style pane
+    D. group on the ribbon
+
+- [ ] D
+- [x] A
+- [ ] A, C, D
+- [ ] A, B, C
+
+[Reference](https://support.microsoft.com/en-us/office/create-or-run-a-macro-c6b99036-905c-49a6-818a-dfb98b7c3c9c#:~:text=Do%20one%20of%20the%20following,Click%20Button.)
+
+#### Q97. What action allows you to quickly access a specific document from your list of saved files?
+
+- [x] Pin to list
+- [ ] Drag to Home tab
+- [ ] Add to chooser
+- [ ] Mark as favorite
+
+[Reference](https://support.microsoft.com/en-us/office/pin-frequently-used-files-8e3919e3-60f1-41a9-b4fa-ebc182c6ec9d)
