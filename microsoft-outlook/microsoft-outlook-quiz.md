@@ -38,7 +38,7 @@ B. Users can decline individual requests for read receipts.
 C. Read receipts are expensive, so some organizations turn them off.
 ```
 
-- [ ] A and C
+- [x] A and C
 - [ ] B and C
 - [ ] A and B
 - [ ] A,B,and C
@@ -74,7 +74,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 #### Q10. You create a task and assign it to Nalia. Nalia reviews the request and declines the assignment. Where is the task now, and who is the owner?
 
 - [ ] The task is nowhere, and no one is the owner.
-- [ ] The task is in your task list, and you are the owner.
+- [x] The task is in your task list, and you are the owner.
 - [ ] The task is in Nalia's task list, and you are the owner.
 - [ ] The task is in Nalia's task list, and Nalia is the owner until she reassigns it to you.
 
