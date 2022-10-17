@@ -2401,3 +2401,16 @@ input.invalid {
 - [ ] <stylesheet>mystyle.css</stylesheet>
 - [ ] < style src= "mystyle.css" >
 - [ ] None of these.
+  
+  #### Q158. The <link> tag goes inside:
+  
+  -[ ] the title section
+  -[ ] the body section
+  -[x] the head section
+  -[ ] None of the above
+  
+  #### Q159. What CSS define in HTML ?
+  -[ ] How to send HTML elements
+  -[x] How to display HTML elements
+  -[ ] How to save HTML elements
+  -[ ] How to make HTML elements
