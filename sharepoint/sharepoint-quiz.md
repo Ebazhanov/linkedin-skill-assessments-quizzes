@@ -365,3 +365,80 @@
 - [ ] Create a custom default document templates as the basis for all new files in the SharePoint document libraries.
 - [ ] Create a policy that allows only documents using the organization's desired format to be added to the SharePoint document libraries.
 - [ ] Create a flow that converts the formats of all documents in SharePoint to the organization's desired format.
+
+#### Q45. You want to view permission levels for a SharePoint organization. Where can you find the Permission Levels link to view this permissions?
+
+- [ ] in the root site of a site collection
+- [ ] in each individual site level
+- [ ] in any site content library and site settings
+- [ ] in any site via the Site Settings option
+
+#### Q46. You are configuring search options for a SharePoint site. Which statement regarding indexing is true?
+
+- [ ] When a top-level site is excluded from indexing, the remaining site in the collection can still be indexed.
+- [ ] When a site is excluded from indexing, the subsites are still indexed.
+- [ ] When a site is excluded from indexing, so are the subsites.
+- [ ] When a top-level site is excluded from indexing, the entire collection is excluded.
+
+#### Q47. In a SharePoint modern list, which option is not possible?
+
+- [ ] exporting the list to Excel
+- [ ] syncing the list to OneDrive
+- [ ] connecting the list to Power Automate
+- [x] creating and saving views
+
+#### Q48. While viewing a SharePoint group membership list, what navigation is available to access other SharePoint groups?
+
+- [ ] The Quick Launch toolbar displays links to other groups for easy access.
+- [ ] The top navigation menu in SharePoint is updated with links to groups for easy access.
+- [ ] The current group membership page provides shortcuts at the bottom of the page to other groups.
+- [ ] The Getting Started links are updated with groups for easy access.
+
+#### Q49. A user mentios that a list in one site seems different in another site, although the lists are essentially the same. What settings is causing the discrepancy between the lists?
+
+- [ ] the object permissions
+- [ ] the user permissions
+- [ ] the list experience settings
+- [ ] the site template settings
+
+#### Q50. How can you set up users to add a status option of an item in a document library?
+
+- [ ] Create a flow to automate the updating of the item status.
+- [ ] Add a Choice column to the library with a list of status options, and require that the column contain information.
+- [ ] Add a column where users can type in the status of the item, and require that the column contain information.
+- [ ] Create a flow to add the Choice column each time an item is added to the document library.
+
+#### Q51. You need to build a new SharePoint subsite for your organization. What site template categories are available by default?
+
+- [ ] Collaboration, Enterprise, Publishing
+- [ ] Team Site, Blog, Document Center
+- [ ] Team Site, Blog, Community Site
+- [ ] Community Site, Blog, Developer Site
+
+#### Q52. You have created a SharePoint site using the Publishing Portal template. Which permissions for this site are not found in a collaborative site?
+
+- [ ] owners, readers
+- [ ] visitors, managers
+- [ ] approvers, designers
+- [ ] members, visitors
+
+#### Q53. A user asks you to add a photo repository to a SharePoint site. You inform the user that SharePoint has a prebuilt application that fulfills the need. What type of application is this?
+
+- [ ] Collection
+- [ ] Site
+- [ ] List
+- [ ] Library
+
+#### Q54. You want to allow users to install site add-ins for a SharePoint farm. What must you configure first?
+
+- [ ] an App URL
+- [ ] an app request
+- [ ] an App store
+- [ ] an App Catalog
+
+#### Q55. You are tasked with configuring Business Connectivity Services (BCS) for SharePoint. Which BCS data source uses HTTP, Atom, and JavaScript Object Notation (JSON) to connect to web-based data?
+
+- [ ] SQL Azure
+- [ ] Windows Communication Foundation
+- [ ] SQL Server
+- [ ] Open Data
