@@ -485,3 +485,40 @@
 - [ ] Use Cloud Monitoring and install the Monitoring Agent on the instance running the apache server.
 - [ ] Use Cloud Monitoring and install the Ops Agent on the instance running the apache server.
 - [ ] Use Cloud Profiler and create an alert.
+
+#### Q61. In Google Kubernetes Engine, "_____" is a term Kubernetes uses to represent pods and controllers.
+
+- [ ] masters
+- [ ] pools
+- [x] workloads
+- [ ] nodes
+
+#### Q62. In the command below, what is the purpose of the “--image” argument?
+
+```
+kubectl create deployment app --image=$ImageRepo:$Tag
+```
+
+- [ ] It tells Kubernetes what virtual machine image to use when launching new nodes.
+- [ ] It is used to create a disk image of a running Docker container for backups or to be used in another deployment.
+- [x] It tells the deployment controller which repository to check for a Docker image and what tag to use.
+- [ ] It tells the deployment controller which Linux OS type to use when creating pods.
+
+
+
+#### Q63. To effectively manage the limited number of IP addresses per node, how many IP addresses per pod does Google recommend?
+
+- [ ] One IP address per pod
+- [ ] Three IP addresses per pod
+- [ ] Four IP addresses per pod
+- [x] Two IP addresses per pod
+
+
+#### Q64. In Google Kubernetes Engine, _____ are the smallest unit of deployment within a Kubernetes cluster, and our primary Kubernetes building blocks.
+
+- [x] pods
+- [ ] instances
+- [ ] sets
+- [ ] containers
+
+
