@@ -1221,3 +1221,9 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] 15
 - [ ] 11
 - [x] 7
+
+#### Q137. How many columns in Excel sheet by default ?
+- [ ] 16000
+- [ ] 1,048,576
+- [x] 16384
+- [ ] 1,048,000

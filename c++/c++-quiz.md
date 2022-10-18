@@ -1408,6 +1408,14 @@ return 0;
 - [ ] print("Hello World");
 - [ ] Console.WriteLine("Hello World");
 
+
+#### Q87. How many categories of iterators are there in C++ ?
+
+- [ ] 4
+- [ ] 3
+- [ ] 7
+- [x] 5
+
 #### Q88. What is the meaning of base class in C++ ?
 
 - [ ] It inherit other class
