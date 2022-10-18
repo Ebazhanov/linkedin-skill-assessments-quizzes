@@ -1,7 +1,11 @@
 import os
 # this will count all the questions as long as the .md files do not have any curly quotations or dog emojis 🐶 (
 # css-line 1855)
-# simply run the script in python and it will print out all of the files, first listing
+# simply run the script in python and it will print out all of the files, first listing "total questions" followed by
+# [x] "answered questions, then [ ] unanswered questions.
+# install python, then open a python terminal, then run the python script and read the output. This script does not
+# automatically update the main README.MD file, so any changes will have to be done manually, or someone else can
+# write a script to automatically update each of the values.
 with os.scandir('./') as entries:
     for entry in entries:
         if entry.is_dir() and not entry.name.startswith('.') and not entry.name.startswith('assets') and not \
