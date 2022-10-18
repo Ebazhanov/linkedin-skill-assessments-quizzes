@@ -1648,6 +1648,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center"><a href="https://github.com/scottajevans"><img src="https://avatars.githubusercontent.com/u/39980206?v=4?s=100" width="100px;" alt="scottajevans"/><br /><sub><b>scottajevans</b></sub></a><br /><a href="#design-scottajevans" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=scottajevans" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/MarkFantini"><img src="https://avatars.githubusercontent.com/u/88554151?v=4?s=100" width="100px;" alt="Marcelo Antunes Soares Fantini"/><br /><sub><b>Marcelo Antunes Soares Fantini</b></sub></a><br /><a href="#design-MarkFantini" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=MarkFantini" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/nightshadetvn"><img src="https://avatars.githubusercontent.com/u/46790388?v=4?s=100" width="100px;" alt="nightshadetvn"/><br/><sub><b>nightshadetvn</b></sub></a><br /$<a href="#design-nightshadetvn" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=nightshadetvn" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
