@@ -371,4 +371,4 @@
 - [x] Add a negative keyword for **computer**.
 - [ ] Add a negative keyword for **keyboards**.
 
-[Preview and Diagnosis Tool](https://support.google.com/google-ads/answer/1704364?hl=en)
+[Add negative keywords to campaigns](https://support.google.com/google-ads/answer/7102995)
