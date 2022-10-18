@@ -6,6 +6,7 @@ import os
 # install python, then open a python terminal, then run the python script and read the output. This script does not
 # automatically update the main README.MD file, so any changes will have to be done manually, or someone else can
 # write a script to automatically update each of the values.
+
 with os.scandir('./') as entries:
     for entry in entries:
         if entry.is_dir() and not entry.name.startswith('.') and not entry.name.startswith('assets') and not \
