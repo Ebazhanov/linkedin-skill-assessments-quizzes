@@ -1263,3 +1263,10 @@ void change(int x,int y)
 -[ ] 20,10
 
 **Explanation :** The function "change" will change the value of x and y only within its own scope, so a and is unaffected.
+
+#### Q80. Which of the following is the correct syntax to print the message in C++ language?
+
+- [ ] Out <<"Hello world!
+- [ ] Cout << Hello world! ;
+- [x] cout <<"Hello world!";
+- [ ] None of the above
