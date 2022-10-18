@@ -728,7 +728,7 @@
 #### Q95. You need to preserve layers in your file. Which file format do you use?
 
 - [ ] GIF
-- [ ] PSD
+- [x] PSD
 - [ ] JPEG
 - [ ] PNG
 
