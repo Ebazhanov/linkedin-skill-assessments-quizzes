@@ -1401,9 +1401,38 @@ return 0;
 - [ ] function for a pointer
 - [ ] function for a class
 
-#### Q86. What is a correct syntax to output "Hello World" in C++?
+#### Q87. What is a correct syntax to output "Hello World" in C++?
 
 - [x] cout << "Hello World";
 - [ ] System.out.println("Hello World");
 - [ ] print("Hello World");
 - [ ] Console.WriteLine("Hello World");
+
+
+#### Q87. How many categories of iterators are there in C++ ?
+
+- [ ] 4
+- [ ] 3
+- [ ] 7
+- [x] 5
+
+#### Q88. What is the meaning of base class in C++ ?
+
+- [ ] It inherit other class
+- [ ] It has a pointer variable
+- [ ] It is the first class declared
+- [x] Another class got inherit from this class
+
+#### Q89. Size of C++ objects are expressed in terms of multiples of the size of a ** and the size of a char is **.
+
+- [ ] char, 4
+- [ ] float, 8
+- [ ] int, 1
+- [x] char, 1
+
+#### Q90. Implementation dependent aspects about an implementation can be found in
+
+- [ ] `<numeric>`
+- [ ] `<limit>`
+- [x] `<limits>`
+- [ ] `<implementation>`
