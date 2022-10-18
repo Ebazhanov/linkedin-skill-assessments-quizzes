@@ -2157,7 +2157,7 @@ class Lambo extends Car {
       white
       blue
 
-#### Q 151. Which command will run a FrogSounds app that someone emailed to you as a jar?
+#### Q151. Which command will run a FrogSounds app that someone emailed to you as a jar?
 - [ ] jar FrogSounds.java
 - [ ] javac FrogSounds.exe
 - [ ]  jar cf FrogSounds.jar
