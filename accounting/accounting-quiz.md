@@ -458,12 +458,12 @@ I'm not 100% sure on this.
 
 - [ ] conversion cost
 - [ ] indirect cost
-- [ ] variable cost
+- [x] variable cost
 - [ ] fixed cost
 
 #### Q55. What do you call the benefit sacrificed when one option is chosen over another?
 
-- [ ] opportunity cost
+- [x] opportunity cost
 - [ ] indirect cost
 - [ ] sunk cost
 - [ ] differential cost
@@ -571,7 +571,7 @@ I'm not 100% sure on this.
 - [ ] indirect
 - [ ] fixed
 - [ ] variable
-- [ ] direct
+- [x] direct
 
 #### Q71. Which value chain element is associated with the cost of staffing a customer support phone line?
 
