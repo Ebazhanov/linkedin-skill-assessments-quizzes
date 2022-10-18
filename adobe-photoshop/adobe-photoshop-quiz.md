@@ -536,7 +536,10 @@
 
 #### Q69. Which tool can you use to manually darken an area of an image
 
-- [x] The Burn Tool
+- [x] Burn
+- [ ] Sharpen
+- [ ] Blur
+- [ ] Dodge
 
 #### Q70. How many layer masks can be added to an image?
 
@@ -714,3 +717,42 @@
 - [ ] Select
 
 [Reference](https://helpx.adobe.com/in/photoshop-elements/using/copying-arranging-layers.html)
+
+#### Q94. When a Hue/Saturation adjustment layer is selected in the Layers panel, what do you do in the Properties panel to decrease the saturation for only a selected color range?
+
+- [ ] Click the On-image adjustment tool, hover over the image with what has become an eyedropper cursor, and drag to the left.
+- [x] Change the preset to Old Style. Then, enable the On-image adjustment tool and select the hue you would like from the image.
+- [ ] Enable the On-image adjustment tool, select the hue you would like from the image, and then adjust the slider that appears below Colorize
+- [ ] Click the On-image adiustment tool, hover over the image with what has become an evedropper cursor, and drag to the right.
+
+#### Q95. You need to preserve layers in your file. Which file format do you use?
+
+- [ ] GIF
+- [ ] PSD
+- [ ] JPEG
+- [ ] PNG
+
+#### Q96. Which RGB control do you click to add a single control point to the Curves adjustment?
+
+![Which RGB control do you click to add a single control point to the Curves adjustment?](images/Q95.png)
+
+- [ ] A (on-image adjustment tool)
+- [ ] B (sample in image to set black point)
+- [ ] C (sample in image to set white point)
+- [ ] D (sample in image to set gray point)
+
+#### Q97. What is the easiest way to export all layers in a document as individual files?
+
+- [ ] Click **File > Scripts > Image Processor**.
+- [ ] Click **File > Export > Export Layer Comps to Files**.
+- [ ] Click **File > Export > Layers to Files**.
+- [ ] Click **File > Scripts > Load files into stack**.
+
+#### Q98. Which options bar icon subtracts from a selection?
+
+![Which options bar icon subtracts from a selection?](images/Q97.png)
+
+- [ ] A
+- [ ] B
+- [ ] C
+- [ ] D
