@@ -33,6 +33,7 @@
 - [ ] Click **Play > Rehearse Slideshow**.
 
 #### Q5. When presenting a slideshow, how can you proceed to the next slide? (Choose 3 items.)
+
 A. Press the M key.
 B. Press the P key.
 C. Press the Right Arrow key.

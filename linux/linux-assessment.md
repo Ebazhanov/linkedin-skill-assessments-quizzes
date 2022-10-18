@@ -799,9 +799,60 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] rename
 - [ ] ren
 
+
 #### Q96. Which of these do NOT constitute as a default part of the email system of Red Hat Linux?
 
 - [ ] The MTA
 - [x] Pine
 - [ ] Procmail
 - [ ] The MUA
+
+#### Q96. Which file is backup file of /etc/passwd ?
+
+- [x] /etc/passwd-
+- [ ] /etc/passwd
+- [ ] /etc/paaswd.
+- [ ] We can not recover
+
+
+#### Q97. Which Vim command writes your changes to the currently open file and quits the Vim editor?
+
+- [ ] :q!
+- [x] :wq
+- [ ] :sq
+- [ ] :w
+
+#### Q98. Just like IP addresses identify hosts on a network, _____ identify the services on a host.
+
+- [ ] DHCPs
+- [ ] subnet masks
+- [x] ports
+- [ ] broadcast addresses
+
+
+#### Q99. Which command shows the free disk space on one or more Linux filesystems?
+
+- [ ] ls
+- [ ] cd
+- [ ] du
+- [x] df
+
+
+#### Q100. In Linux, the Epoch is the number of seconds that have elapsed since January 1st, _____.
+
+- [ ] 1950
+- [ ] 1965
+- [ ] 1960
+- [x] 1970
+
+
+#### Q101. In which Linux shell script positional parameter is the script itself stored?
+
+
+- [ ] $2
+- [ ] $1
+- [x] $0
+- [ ] $9
+
+
+
