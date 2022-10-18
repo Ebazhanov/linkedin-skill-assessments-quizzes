@@ -2161,7 +2161,15 @@ Else y = 1 + 30
 
 Explanation:Pickling is the process of sterilizing a Python object, that is, conversion of a byte stream into Python object hierarchy. The reverse of this process is known as unpickling.
 
-#### Q158. What is the output of the following program ?
+
+#### Q159. What is the output of the following program ?
+#### print("codescracker".endswith("er"))
+- [x] True
+- [ ] 1
+- [ ] 2
+- [ ] False
+
+#### Q160. What is the output of the following program ?
 
 print("programming".center())
 
@@ -2170,9 +2178,11 @@ print("programming".center())
 - [x] Error says TypeError: center expected at least 1 argument, got 0
 - [ ] None of the Above
 
-#### Q158. Who created the Python programming language?
+
+#### Q161. Who created the Python programming language?
 
 - [ ] Tim Berners-Lee
 - [ ] Ada Lovelace
 - [x] Guido van Rossum
 - [ ] Alan Turing
+
