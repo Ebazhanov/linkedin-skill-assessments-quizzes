@@ -1,3 +1,8 @@
+# To run this file:
+# 1. install python
+# 2. download the linkedin-skill-assessments-quizzes github
+# 3. in a terminal running from that folder, run `python questioncounter.py`
+
 import os
 # this will count all the questions as long as the .md files do not have any curly quotations or dog emojis 🐶 (
 # css-line 1855)
@@ -23,7 +28,7 @@ with os.scandir('./') as entries:
                 print(f"{filename} {total} [x] {answered} [ ] {unanswered}")
 
 
-# Results 10/17/2022
+# Results 10/18/2022
 # ./accounting/accounting-quiz.md 74.0 [x] 52 [ ] 22.0
 # ./adobe-acrobat/adobe-acrobat-quiz.md 27.0 [x] 22 [ ] 5.0
 # ./adobe-illustrator/adobe-illustrator-quiz.md 77.0 [x] 75 [ ] 2.0
@@ -39,10 +44,10 @@ with os.scandir('./') as entries:
 # ./arc-gis/arc-gis-quiz.md 5.0 [x] 5 [ ] 0.0
 # ./autocad/autocad-quiz.md 76.75 [x] 75 [ ] 1.75
 # ./autodesk-fusion-360/autodesk-fusion-360-quiz.md 37.25 [x] 25 [ ] 12.25
-# ./aws/aws-quiz.md 102.5 [x] 103 [ ] -0.5
-# ./aws-lambda/aws-lambda-quiz.md 56.0 [x] 54 [ ] 2.0
+# ./aws/aws-quiz.md 103.5 [x] 104 [ ] -0.5
+# ./aws-lambda/aws-lambda-quiz.md 57.0 [x] 55 [ ] 2.0
 # ./bash/bash-quiz.md 78.0 [x] 77 [ ] 1.0
-# ./c++/c++-quiz.md 90.0 [x] 89 [ ] 1.0
+# ./c++/c++-quiz.md 91.0 [x] 90 [ ] 1.0
 # ./c-(programming-language)/c-(programming-language)-quiz.md 79.0 [x] 79 [ ] 0.0
 # ./c-sharp/c-sharp-quiz.md 73.0 [x] 73 [ ] 0.0
 # ./css/css-quiz.md 158.25 [x] 159 [ ] -0.75
@@ -55,30 +60,30 @@ with os.scandir('./') as entries:
 # ./go/go-quiz.md 45.0 [x] 45 [ ] 0.0
 # ./google-ads/google-ads-quiz.md 50.0 [x] 50 [ ] 0.0
 # ./google-analytics/google-analytics-quiz.md 86.0 [x] 85 [ ] 1.0
-# ./google-cloud-platform/google-cloud-platform-quiz.md 62.0 [x] 62 [ ] 0.0
+# ./google-cloud-platform/google-cloud-platform-quiz.md 66.0 [x] 66 [ ] 0.0
 # ./hadoop/hadoop-quiz.md 68.75 [x] 61 [ ] 7.75
 # ./html/html-quiz.md 111.5 [x] 112 [ ] -0.5
 # ./it-operations/it-operations-quiz.md 69.0 [x] 69 [ ] 0.0
-# ./java/java-quiz.md 151.0 [x] 151 [ ] 0.0
+# ./java/java-quiz.md 154.0 [x] 154 [ ] 0.0
 # ./javascript/javascript-quiz.md 141.0 [x] 142 [ ] -1.0
 # ./jquery/jquery-quiz.md 81.0 [x] 79 [ ] 2.0
 # ./json/json-quiz.md 87.25 [x] 87 [ ] 0.25
 # ./keynote/keynote-quiz.md 14.0 [x] 0 [ ] 14.0
 # ./kotlin/kotlin-quiz.md 88.0 [x] 89 [ ] -1.0
-# ./linux/linux-quiz.md 96.25 [x] 95 [ ] 1.25
+# ./linux/linux-quiz.md 101.25 [x] 100 [ ] 1.25
 # ./logic-pro/logic-pro-quiz.md 17.0 [x] 17 [ ] 0.0
-# ./machine-learning/machine-learning-quiz.md 102.75 [x] 103 [ ] -0.25
+# ./machine-learning/machine-learning-quiz.md 105.75 [x] 106 [ ] -0.25
 # ./matlab/matlab-quiz.md 71.0 [x] 72 [ ] -1.0
 # ./maven/maven-quiz.md 68.0 [x] 65 [ ] 3.0
 # ./microsoft-access/microsoft-access-quiz.md 30.0 [x] 30 [ ] 0.0
 # ./microsoft-azure/microsoft-azure-quiz.md 60.0 [x] 60 [ ] 0.0
-# ./microsoft-excel/microsoft-excel-quiz.md 146.0 [x] 147 [ ] -1.0
+# ./microsoft-excel/microsoft-excel-quiz.md 147.0 [x] 148 [ ] -1.0
 # ./microsoft-outlook/microsoft-outlook-quiz.md 93.25 [x] 72 [ ] 21.25
 # ./microsoft-power-automate/microsoft-power-automate-quiz.md 26.25 [x] 25 [ ] 1.25
 # ./microsoft-power-bi/microsoft-power-bi-quiz.md 85.0 [x] 84 [ ] 1.0
 # ./microsoft-power-point/microsoft-power-point-quiz.md 99.0 [x] 99 [ ] 0.0
 # ./microsoft-project/microsoft-project-quiz.md 45.0 [x] 44 [ ] 1.0
-# ./microsoft-word/microsoft-word-quiz.md 96.0 [x] 96 [ ] 0.0
+# ./microsoft-word/microsoft-word-quiz.md 97.0 [x] 97 [ ] 0.0
 # ./mongodb/mongodb-quiz.md 84.0 [x] 86 [ ] -2.0
 # ./mysql/mysql-quiz.md 114.0 [x] 113 [ ] 1.0
 # ./node.js/node.js-quiz.md 80.0 [x] 76 [ ] 4.0
@@ -87,10 +92,10 @@ with os.scandir('./') as entries:
 # ./objective-c/objective-c-quiz.md 41.0 [x] 39 [ ] 2.0
 # ./php/php-quiz.md 98.25 [x] 101 [ ] -2.75
 # ./pro-tools/pro-tools-quiz.md 16.0 [x] 2 [ ] 14.0
-# ./python/python-quiz.md 159.75 [x] 161 [ ] -1.25
+# ./python/python-quiz.md 162.25 [x] 164 [ ] -1.75
 # ./quickbooks/quickbooks-quiz.md 66.0 [x] 39 [ ] 27.0
 # ./r/r-quiz.md 54.75 [x] 54 [ ] 0.75
-# ./reactjs/reactjs-quiz.md 108.0 [x] 108 [ ] 0.0
+# ./reactjs/reactjs-quiz.md 109.0 [x] 109 [ ] 0.0
 # ./rest-api/rest-api-quiz.md 68.0 [x] 68 [ ] 0.0
 # ./revit/revit-quiz.md 14.0 [x] 14 [ ] 0.0
 # ./ruby-on-rails/ruby-on-rails-quiz.md 75.75 [x] 71 [ ] 4.75
