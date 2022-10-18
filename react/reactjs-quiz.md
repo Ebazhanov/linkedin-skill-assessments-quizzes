@@ -1287,8 +1287,8 @@ const Greeting = ({ initName }) => {
 [Source](https://reactjs.org/tutorial/tutorial.html#:~:text=What%20Is%20React%3F,of%20code%20called%20%E2%80%9Ccomponents%E2%80%9D.&text=We'll%20get%20to%20the%20funny%20XML%2Dlike%20tags%20soon.)
 
 #### Q109. What is the correct way to get a value from context?
-- [] const value = useContext(MyContext.Consumer)
-- [] const value = useContext(MyContext.Provider)
-- [] const value = useContext(MyContext)
-- [] const value = useContext({value: "intiial value"})
+- [ ] const value = useContext(MyContext.Consumer)
+- [ ] const value = useContext(MyContext.Provider)
+- [x] const value = useContext(MyContext)
+- [ ] const value = useContext({value: "intiial value"})
 
