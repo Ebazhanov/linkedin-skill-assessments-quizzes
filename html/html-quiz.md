@@ -1940,9 +1940,6 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 #### Q112. How to display preformatted text in HTML?
 
 - [ ] <p>
-
 - [x] <pre>
-
 - [ ] <hr>
-
 - [ ] All of the above
