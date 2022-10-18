@@ -2127,8 +2127,8 @@ Queue<Rainfall>
 - [x] 1. true 2. false
 	
 	
-What code is needed at line 8 ?
-	
+#### Q152. What code is needed at line 8 ?
+
 public class Main {
 
     public static void main(String[] args) {
@@ -2141,21 +2141,22 @@ public class Main {
 
         int result= 0;
 
-        
+
              result += entry.getValue();
         }
 
         System.out.println(result); //outputs 6
- 
+
     }
 }
-	
+
 - [x] for(Map.Entry<String, Integer> entry: map.entrySet()){
 - [ ] for(String entry: map){
 - [ ] for(Integer entry: map.values()) {
 - [ ] for(Entry<String, Integer> entry: map.entrySet()){
-	
-	
+
+
+
 	
 	
 
