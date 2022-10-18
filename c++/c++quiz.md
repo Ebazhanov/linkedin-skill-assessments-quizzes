@@ -1436,3 +1436,10 @@ return 0;
 - [ ] `<limit>`
 - [x] `<limits>`
 - [ ] `<implementation>`
+
+#### Q91. Which statement is true?
+
+- [ ] Only structs can inherit.
+- [ ] C++ supports only single inheritance.
+- [x] C++ supports multiple inheritance.
+- [ ] Only classes can have member variables and methods.
