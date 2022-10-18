@@ -718,7 +718,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] Translate
 - [ ] Transform
 
-#### Q92. Which is not text wrapping option for a picture?
+#### Q92. Which is not a text wrapping option for a picture?
 
 - [x] justify
 - [ ] through
@@ -745,3 +745,10 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [ ] wavy line
 - [ ] italic
 - [ ] underline
+
+#### Q96. What action allows you to quickly access a specific document from your list of saved files?
+
+- [ ] Pin to list
+- [ ] Add to chooser
+- [x] Mark as favorite
+- [ ] Drag to Home tab

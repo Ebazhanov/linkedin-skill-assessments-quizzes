@@ -874,10 +874,44 @@ aws ecs create-service \
 - [x] TCP
 - [ ] UDP
 
+
 #### 100. Which is default user in Ec2 Linux-red hat/amazon.
 
 - [ ] root
 - [ ] Ec2user
 - [x] ec2-user
 - [ ] linux
+
+
+
+#### Q101. When using Systems Manager, you can create policies through Systems Manager ____.
+
+- [ ] Policy Manager
+- [ ] State Manager
+- [x] Documents
+- [ ] Inventory
+
+
+#### Q102. Businesses are increasingly moving towards hybrid cloud environments with automated IT. What Amazon EC2 State Manager feature is particularly useful for these companies?
+
+- [ ] validity
+- [x] consistency
+- [ ] reliability
+- [ ] redundancy
+
+
+#### Q103. Your DevOps manager has noticed that there is a problem with the installation of the MySQL software in one of your Windows instances and asks you to repair it. What would be the recommended way to fix this issue with AWS Systems Manager?
+
+- [ ] Write a Power Shell script that re-installs the msi file and run it with Run Command.
+- [ ] Execute the AWS-ApplyPatchBaseline command.
+- [ ] Allow State Manager to automatically fix it on batch.
+- [x] Use Run Command to execute the AWS-InstallApplication document.
+
+
+#### Q104. Within EC2 Systems Manager, you can use Patch ____ to pick the patches you want to install with your instances.
+
+- [ ] Levels
+- [ ] Manager
+- [x] Baselines
+- [ ] Policy
 
