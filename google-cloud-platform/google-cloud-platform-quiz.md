@@ -493,7 +493,7 @@
 - [x] workloads
 - [ ] nodes
 
-#### Q62. In the command below, what is the purpose of the “--image” argument?
+#### Q62. In the command below, what is the purpose of the "--image" argument?
 
 ```
 kubectl create deployment app --image=$ImageRepo:$Tag

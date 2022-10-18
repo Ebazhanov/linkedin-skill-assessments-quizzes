@@ -91,7 +91,7 @@
 - [ ] BMP
 - [x] PSD
 
-#### Q14. To ensure that users of older versions of Adobe Reader can fill and save forms, you chose File > Save As Other > Reader Extended PDF. Now you need to make further edits to the form. You have not applied any form security to the file, but you see an alert, “You cannot edit this file as a form due to its security settings.” What method can you use to edit the form?
+#### Q14. To ensure that users of older versions of Adobe Reader can fill and save forms, you chose File > Save As Other > Reader Extended PDF. Now you need to make further edits to the form. You have not applied any form security to the file, but you see an alert, "You cannot edit this file as a form due to its security settings." What method can you use to edit the form?
 
 - [ ] File > Properties > Custom
 - [ ] File > Save a Copy
