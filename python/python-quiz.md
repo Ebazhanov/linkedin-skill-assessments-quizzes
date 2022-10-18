@@ -2190,3 +2190,17 @@ print("programming".center())
 - [ ] Ada Lovelace
 - [x] Guido van Rossum
 - [ ] Alan Turing
+
+#### Q159. What will be printed in the console if you run this code?
+
+```python
+x = 1j
+print(x**2 == -1)
+```
+
+- [ ] a run-time error telling you that the variable `j` has not been initialized
+- [x] True
+- [ ] 1j
+- [ ] False
+
+Explanation: The letter `j` acts as the imaginary unit in Python, therefore `x**2` means `j**2` which is equal to `-1`. The statement `x**2 == -1` is evaluated as `True`.
