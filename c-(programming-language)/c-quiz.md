@@ -1264,6 +1264,6 @@ void change(int x,int y)
 
 **Explanation :** The function "change" will change the value of x and y only within its own scope, so a and is unaffected.
 
-#### Q80. When a variable is created in C, a memory address is assigned to the variable.
+#### Q80. When a variable is created in C, a memory address is assigned to the variable. Choose true or false.
 - [x] True
 - [ ] False
