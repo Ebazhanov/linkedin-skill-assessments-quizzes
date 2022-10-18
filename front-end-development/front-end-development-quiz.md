@@ -210,8 +210,6 @@ h1 {
 
 #### Q24. Which style will change the color of the text?
 
-![A](images/Q24.png)
-
 ```html
 <cite>Noam Chomsky</cite>
 ```
@@ -539,7 +537,7 @@ console.log(currencies);
 
 [Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/CSS_Grid_Layout_and_Accessibility)
 
-#### Q56. What is the definition of the phrase “Time to Interactive”?
+#### Q56. What is the definition of the phrase "Time to Interactive"?
 
 - [ ] when the browser displays the first bit of content from the DOM
 - [x] when the user can consistently interact with all of the page elements

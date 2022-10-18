@@ -578,7 +578,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] A or B
 - [x] B
 - [ ] C
-- [ ] А
+- [ ] A
 
 #### Q79. Which is not valid search criteria when searching for messages in your Inbox?
 

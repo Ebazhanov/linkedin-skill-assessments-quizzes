@@ -1852,7 +1852,7 @@ p + section {
 
 ```html
 <div class="pen">
-  <span id="puppy">🐶</span>
+  <span id="puppy">:dog:</span>
 </div>
 ```
 

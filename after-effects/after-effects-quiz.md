@@ -138,7 +138,7 @@
 
 #### Q20. When you want to add properties to the Essential Graphics panel, how can you easily see only the supported properties?
 
-- [ ] Type “PP” twice with the Timeline panel active.
+- [ ] Type "PP" twice with the Timeline panel active.
 - [ ] Click the Solo Supported Properties button in the Essential Graphics panel.
 - [ ] Switch to the Essential Graphics workspace.
 - [ ] All properties are supported by the Essential Graphics panel.

@@ -1930,12 +1930,13 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 [Source](https://stackoverflow.com/questions/39434659/what-does-the-a-in-the-html-a-tag-stand-for)
 
-#### Q111. What is the correct HTML element for inserting a line break?
+#### Q112. What is the correct HTML element for inserting a line break?
 
 - [ ] <break>
 - [ ] <lb>
 - [x] <br>
 - [ ] <a>
+
 
 #### Q112. How to display preformatted text in HTML?
 
@@ -1943,3 +1944,10 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 - [x] <pre>
 - [ ] <hr>
 - [ ] All of the above
+
+#### Q113. The HTML global attribute, "contenteditable" is used to:
+
+- [ ] Update content from the server
+- [ ] Specifies a context menu for an element. The menu appears when a user right-clicks on the element.
+- [x] Specify whether the content of an element should be editable or not
+- [ ] Return the position of the first found occurrence of content inside a string
