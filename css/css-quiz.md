@@ -558,10 +558,10 @@ h2 ~ p {
 
 ![quote](https://raw.githubusercontent.com/ram-sah/LinkedIn-Assessments/master/CSS/images/rm-2.png)
 
-- [x] justify-content: space-around;
+- [ ] justify-content: space-around;
 - [ ] justify-content: center;
 - [ ] justify-content: auto;
-- [ ] justify-content: space-between;
+- [x] justify-content: space-between;
 
 #### Q41. There are many advantages to using icon fonts. What is one of those advantages?
 
