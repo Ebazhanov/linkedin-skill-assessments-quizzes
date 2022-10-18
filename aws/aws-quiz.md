@@ -227,7 +227,7 @@
 #### Q29. A new developer has been added to the team and you have been asked to provide access to the organization's AWS account. What is the best practice for granting access?
 
 - [ ] Give the new developer the IAM login that is assigned to the development team. This IAM user should already include all of the policies that a developer would need.
-- [ ] Create a IAM user for the new developer. Manually assign policies to the new IAM user acunt.
+- [ ] Create a IAM user for the new developer. Manually assign policies to the new IAM user account.
 - [ ] Do not give the new developer access to the AWS console. Using the IAM user that is assigned to the development group, generate a new set of access keys and label these with the name of the developer.
 - [x] Create a IAM user for the new developer. Assign the new developer the a developer group you already created for the other developers.
 
