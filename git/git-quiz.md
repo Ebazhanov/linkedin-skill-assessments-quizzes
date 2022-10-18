@@ -1115,7 +1115,7 @@ Explanation: GitHub is a popular hosting platform for developers to store their 
 
 #### Q133. Which statement is true of the git push command?
 
-- [x] By default, a push doesn’t send tags to the remote repository.✔️
+- [x] By default, a push doesn’t send tags to the remote repository.
 - [ ] Only annotated tags are automatically pushed to the remote repository with a commit.
 - [ ] Tags are pushed to the remote repository with their respective commits.
 - [ ] Commits can be tagged only when they are created.

@@ -1230,10 +1230,10 @@ print(a[[False, True, False, False]])
 - [ ] `{2}`
 - [ ] `[0,2,0,0]`
 
-#### Q92. Suppose you have a string variable defined as y=”stuff;thing;junk;”. What would be the output from this code?
+#### Q92. Suppose you have a string variable defined as y="stuff;thing;junk;". What would be the output from this code?
 
 ```python
-z = y.split(‘;’)
+z = y.split(';')
 len(z)
 ```
 
@@ -1245,10 +1245,10 @@ len(z)
 **Explanation**:
 
 ```python
-y=”stuff;thing;junk”
+y="stuff;thing;junk"
 	len(z) ==> 3
 
-y=”stuff;thing;junk;”
+y="stuff;thing;junk;"
 	len(z) ==> 4
 ```
 

@@ -859,7 +859,7 @@ Explanation: Here only one line can throw NPE. Calling getClass() from context.g
 - [ ] the level of visibility and access a transaction has to the units of work of other transactions such as uncommitted writes
 - [ ] executing each transaction on its own process to provide resource isolation
 
-#### Q84. What does the statement “Spring offers fully-typed advice” mean?
+#### Q84. What does the statement "Spring offers fully-typed advice" mean?
 
 - [ ] You declare the parameters you need in the advice signature rather than work with Object[] arrays.
 - [ ] You work with a collection of Objects that need to be explicitly casted.
