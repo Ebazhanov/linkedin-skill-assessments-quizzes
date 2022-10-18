@@ -2125,3 +2125,37 @@ Queue<Rainfall>
 - [ ] 1. false 2. false
 - [ ] 1. true 2. true
 - [x] 1. true 2. false
+	
+	
+What code is needed at line 8 ?
+	
+public class Main {
+
+    public static void main(String[] args) {
+
+        Map<String, Integer> map = new HashMap<>();
+
+        map.put("a", 1);
+        map.put("b", 2);
+        map.put("c", 3);
+
+        int result= 0;
+
+        
+             result += entry.getValue();
+        }
+
+        System.out.println(result); //outputs 6
+ 
+    }
+}
+	
+- [x] for(Map.Entry<String, Integer> entry: map.entrySet()){
+- [ ] for(String entry: map){
+- [ ] for(Integer entry: map.values()) {
+- [ ] for(Entry<String, Integer> entry: map.entrySet()){
+	
+	
+	
+	
+
