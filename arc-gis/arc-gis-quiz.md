@@ -36,7 +36,7 @@
 
 #### Q5. Using the explore tool in ArcGIS Pro, how do you zoom in and out of the map?
 
-- [ ] Press shift and left-click to zoom in. Press ctrl and left-click to zoom out. 
+- [ ] Press shift and left-click to zoom in. Press ctrl and left-click to zoom out.
 - [ ] Hold the left mouse button, and drag up to zoom in and drag down to zoom out.
 - [x] Move the mouse scroll wheel forward to zoom out and backward to zoom in.
 - [ ] Click and drag a box with the left mouse button to zoom in; press shift and drag a box to zoom out.

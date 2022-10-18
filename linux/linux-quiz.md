@@ -770,3 +770,80 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] `$*`
 
 [reference:](https://www.globalguideline.com/interview_questions/Answer.php?a=Which_variable_contains_last_background_job_process_ida_b_c_d_)
+
+#### Q92. Which feature does LVM2 included in most distributions not support?
+
+- [ ] volume mirroring
+- [x] volume striping
+- [ ] increasing LV size while mounted
+- [ ] reducing LV size while mounted
+
+#### Q93. Which improvements do access control lists (ACLs) have over standard Linux permissions?
+
+- [x] ACLs allow permissions to be set for more than one user or group on a file or directory.
+- [ ] ACLs provide mandatory access control (MAC) functionality through SELinux for files and directories.
+- [ ] ACLs allow a file to be owned by more than one user and group.
+- [ ] ACLs provide additional flags such as append-only and immutable.
+
+#### Q94. What is a maximum length for a filename under Linux?
+
+- [ ] 256 bytes
+- [ ] 1084 bytes
+- [x] 255 bytes
+- [ ] 1023 bytes
+
+#### Q95. Which command do you use to rename a file in Linux?
+
+- [x] mv
+- [ ] rn
+- [ ] rename
+- [ ] ren
+
+#### Q96. Which file is backup file of /etc/passwd ?
+
+- [x] /etc/passwd-
+- [ ] /etc/passwd
+- [ ] /etc/paaswd.
+- [ ] We can not recover
+
+
+#### Q97. Which Vim command writes your changes to the currently open file and quits the Vim editor?
+
+- [ ] :q!
+- [x] :wq
+- [ ] :sq
+- [ ] :w
+
+#### Q98. Just like IP addresses identify hosts on a network, _____ identify the services on a host.
+
+- [ ] DHCPs
+- [ ] subnet masks
+- [x] ports
+- [ ] broadcast addresses
+
+
+#### Q99. Which command shows the free disk space on one or more Linux filesystems?
+
+- [ ] ls
+- [ ] cd
+- [ ] du
+- [x] df
+
+
+#### Q100. In Linux, the Epoch is the number of seconds that have elapsed since January 1st, _____.
+
+- [ ] 1950
+- [ ] 1965
+- [ ] 1960
+- [x] 1970
+
+
+#### Q101. In which Linux shell script positional parameter is the script itself stored?
+
+
+- [ ] $2
+- [ ] $1
+- [x] $0
+- [ ] $9
+
+

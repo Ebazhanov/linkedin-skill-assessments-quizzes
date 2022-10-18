@@ -269,6 +269,8 @@ function Dish(props) {
 - [ ] closed
 - [ ] imperative
 
+[Reference](https://levelup.gitconnected.com/why-react-is-declarative-a300d1e930b7)
+
 #### Q27. When using webpack, why would you need to use a loader?
 
 - [ ] to put together physical file folders
@@ -889,7 +891,7 @@ const [count, setCount] = useState(0);
 
 ```javascript
 import React from 'react';
-import { createRoot } from 'react-dom';
+import { createRoot } from 'reactjs-dom';
 
 const element = <h1>Hi</h1>;
 // Note: error on the line below
@@ -1085,7 +1087,7 @@ function Dish() {
 
 [Reference](https://reactjs.org/docs/react-component.html#componentdidmount)
 
-#### Q93. What might you use webpack for?
+#### Q93. What might you use webpack for in React development?
 
 - [ ] to fetch remote dependencies used by your app
 - [x] to split your app into smaller chunks that can be more easily loaded by the browser
@@ -1260,3 +1262,35 @@ const Greeting = ({ initName }) => {
 - [ ] JSX Editor
 - [ ] Browser Buddy
 - [ ] ReactDOM
+
+#### Q106. Which hook is used to prevent a function from being recreated on every component render?
+
+- [x] useCallback
+- [ ] useMemo
+- [ ] useRef
+- [ ] useTransition
+
+#### Q107. Why might you use the `useRef` hook?
+
+- [ ] To bind the function
+- [ ] To call a function
+- [x] To directly access a DOM
+- [ ] To refer to another JS file
+
+[Source](https://www.smashingmagazine.com/2020/11/react-useref-hook/)
+
+#### Q108. Which of the following is required to use React?
+
+- [x] JavaScript
+- [ ] React Router
+- [ ] Redux
+- [ ] Prop-Types
+
+[Source](https://reactjs.org/tutorial/tutorial.html#:~:text=What%20Is%20React%3F,of%20code%20called%20%E2%80%9Ccomponents%E2%80%9D.&text=We'll%20get%20to%20the%20funny%20XML%2Dlike%20tags%20soon.)
+
+#### Q109. What is the correct way to get a value from context?
+- [ ] const value = useContext(MyContext.Consumer)
+- [ ] const value = useContext(MyContext.Provider)
+- [x] const value = useContext(MyContext)
+- [ ] const value = useContext({value: "intiial value"})
+
