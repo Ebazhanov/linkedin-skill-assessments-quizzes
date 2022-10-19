@@ -534,14 +534,14 @@ I'm not 100% sure on this.
 #### Q65. Which cost items would be classified as an internal failure cost on a quality costs report?
 
 - [ ] cost of scrap
-- [ ] training for assembly line workers
+- [x] training for assembly line workers
 - [ ] patent cost for new product
 - [ ] customer returns of defective products
 
 #### Q66. What type of audit evidence would most likely be used to verify the existence of fixed assets?
 
 - [ ] oral evidence
-- [ ] physical examination
+- [x] physical examination
 - [ ] confirmation
 - [ ] documentary evidence
 
@@ -578,7 +578,7 @@ I'm not 100% sure on this.
 - [ ] production and purchases
 - [ ] distribution
 - [ ] design
-- [ ] customer service
+- [x] customer service
 
 #### Q72. Flexible budgets are created to demonstrate how **\_**.
 
@@ -591,7 +591,7 @@ I'm not 100% sure on this.
 
 - [ ] opportunity cost
 - [ ] previous cost
-- [ ] sunk cost
+- [x] sunk cost
 - [ ] variable cost
 
 #### Q74. Which factor is most likely to increase an auditor's awareness of possible fraudulent financial reporting?
