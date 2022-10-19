@@ -60,10 +60,10 @@
 
 #### Q9. You want to add a caption to a table. Which tab contains this option?
 
-- [ ] Insert tab.
-- [ ] Design tab.
-- [x] References tab.
-- [ ] Layout tab.
+- [ ] Insert
+- [ ] Design
+- [x] References
+- [ ] Layout
 
 #### Q10. How can you change the appearance of an entire table in a single step?
 
@@ -317,7 +317,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 - [ ] In the **Styles** task pane, click **New Style** and select **Arial 11 Bold**.
 - [ ] Hold the Ctrl key (Windows) or Command key (Mac) and click the **Format Painter**. Then select **New Style**.
-- [x] Select one of the first level headings. Right-click **Heading 1** and update it to match the selection.
+- [x] On Windows: Select one of the first level headings. Right-click **Heading 1** and update it to match the selection.On Mac: With the **style** pane open, highlight a Heading 1 in the document, then in the style pane drop-down for Heading 11, select Update to Match Selection.
 - [ ] Select the text, right-click to display the formatting bar, and select **Styles > Copy**.
 
 #### Q41. You are typing text in two columns. When you reach the end of a paragraph in column 1, you want to start the next paragraph in column 1 on the next page. What type of break should you insert at this point?
@@ -433,10 +433,10 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 
 #### Q56. You want to be able to edit your Word document simultaneously with other Word users in your organization. Which save location should you select in the Save As dialog box?
 
-A. OneDrive
-B. SharePoint document library
-C. Google Drive
-D. DropBox
+    A. OneDrive
+    B. SharePoint document library
+    C. Google Drive
+    D. DropBox
 
 - [ ] A
 - [ ] A, B, C, D
@@ -463,12 +463,10 @@ D. DropBox
 
 #### Q59. How can you tell if a colleague is coauthoring a document at the same time as you? (Select all that apply.)
 
-```markdown
-A. Colleague's name appears in the Share panel.
-B. Colleague's picture appears in the upper-right corner of the ribbon.
-C. A banner notification pops up as the colleague edits the document.
-D. A flag icon with the colleague's name appears where their edit is being made.
-```
+    A. Colleague's name appears in the Share panel.
+    B. Colleague's picture appears in the upper-right corner of the ribbon.
+    C. A banner notification pops up as the colleague edits the document.
+    D. A flag icon with the colleague's name appears where their edit is being made.
 
 - [ ] A, B, C
 - [ ] B, C, D
@@ -705,3 +703,66 @@ D. A flag icon with the colleague's name appears where their edit is being made.
 - [ ] Even Page
 - [ ] Next Page
 - [ ] Odd Page
+
+#### Q90. Which function allows you to treat multiple objects as a single object for the purpose of manipulating their display or placement within a document?
+
+- [x] Group
+- [ ] Merge
+- [ ] Copy
+- [ ] Combine
+
+#### Q91. Which function turns a document into a webpage?
+
+- [ ] Style
+- [x] Format
+- [ ] Translate
+- [ ] Transform
+
+#### Q92. Which is not a text wrapping option for a picture?
+
+- [x] justify
+- [ ] through
+- [ ] behind text
+- [ ] tight
+
+#### Q93. You are editing a paragraph that begins on one page and ends on the next after selecting the entire paragraph, how can you display it on one page?
+
+- [ ] In paragraph settings, click Indent and Spacing > pagination and select Keep with next
+- [x] In paragraph settings, click Line and Page Break > pagination and select Keep with next
+- [ ] In paragraph settings, click Line and Page Break > pagination and select keep lines together
+- [ ] In paragraph settings, click Line and Page Break > pagination and select Widow/Orphan control
+
+#### Q94. Double clicking in the left margin will \_ the paragraph to the right.
+
+- [ ] double indent
+- [x] select
+- [ ] delete
+- [ ] underline
+
+#### Q95. When using Track Changes, what formatting indicates that text has been deleted?
+
+- [x] strikethrough
+- [ ] wavy line
+- [ ] italic
+- [ ] underline
+
+#### Q96. What action allows you to quickly access a specific document from your list of saved files?
+
+- [ ] Pin to list
+- [ ] Add to chooser
+- [x] Mark as favorite
+- [ ] Drag to Home tab
+
+#### Q97. When you create a macro, you can assign it to a **\_**. (Select all that apply.)
+
+    A. keyboard shortcut
+    B. specific user
+    C. style pane
+    D. group on the ribbon
+
+- [ ] D
+- [x] A
+- [ ] A, C, D
+- [ ] A, B, C
+
+[Reference](https://support.microsoft.com/en-us/office/create-or-run-a-macro-c6b99036-905c-49a6-818a-dfb98b7c3c9c#:~:text=Do%20one%20of%20the%20following,Click%20Button.)

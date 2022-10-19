@@ -48,7 +48,7 @@
 - [ ] The resolution doubles.
 - [ ] Effective image resolution stays the same until you choose from the View > Display Performance menu.
 - [ ] Effective image resolution is set in Photoshop, not in InDesign, so it stays the same.
-- [x] Correct The resolution is cut in half.
+- [x] The resolution is cut in half.
 
 #### Q7. What is one reason you might want to use the Text Variables feature?
 
@@ -103,7 +103,7 @@
 
 #### Q14. Which statement about tables is true?
 
-- [ ] Tables are always anchored in a story in a text frame.
+- [x] Tables are always anchored in a story in a text frame.
 - [ ] To edit text in a table, you should first click **Table>Convert Table to Text**
 - [ ] Tables must contain more than one cell.
 - [ ] Tables cannot be anchored in a story in a text frame
@@ -114,7 +114,7 @@
 
 - [ ] Global Light
 - [ ] the Screen blending mode
-- [ ] Isolate Blending
+- [x] Isolate Blending
 - [ ] Knockout Group
 
 #### Q16. In the image shown, what do the colored frame edges indicate?
@@ -122,7 +122,7 @@
 ![Q16](images/Q16.png)
 
 - [ ] which layer each object is on
-- [ ] which master page each object is on
+- [x] which master page each object is on
 - [ ] which object style is applied to the frame
 - [ ] that the red frame is locked
 
@@ -130,7 +130,7 @@
 
 - [ ] Ctrl (Windows) or Command (Mac)
 - [ ] Alt+Shift (Windows) or Option+Shift (Mac)
-- [ ] Ctrl+Shift (Windows) or Command+Shift (Mac)
+- [x] Ctrl+Shift (Windows) or Command+Shift (Mac)
 - [ ] Alt+Spacebar (Windows) or Options+Spacebar (Mac)
 
 #### Q18. In the image shown, what can you infer about how this document will print?
@@ -138,13 +138,186 @@
 ![Q18](images/Q18.png)
 
 - [ ] The page wil be scaled to fit the paper.
-- [ ] All document layers will be visible
+- [x] All document layers will be visible
 - [ ] Some of the InDesign page will be cropped off.
 - [ ] The master page P is applied to the document pages.
 
-#### Q19. After you click a color in the **Gradient** panel to select it, how can you set its color to a swatch in the **Swatches** panel?
+#### Q19. After you click a color stop in the **Gradient** panel to select it, how can you set its color to a swatch in the **Swatches** panel?
 
 - [ ] Double-click the swatch.
 - [ ] Option-click (Mac) or Alt-click (Windows) the swatch.
 - [ ] You cannot apply a color swatch to a color stop in the **Gradient** panel.
-- [ ] Drag the color stop over the color in the **Swatches** panel.
+- [x] Drag the color stop over the color in the **Swatches** panel.
+
+#### 20. Suppose you apply a gradient to a frame, then select New Gradient Swatch in the Swatches panel manu. Which feature is not saved in the gradient swatch?
+
+- [ ] color mode (RGB or CMYK)
+- [ ] color stops
+- [x] angle
+- [ ] type (linear or radial)
+
+#### 21. Which export format lets you gather viewer stats, such as number of views?
+
+- [ ] Publish online
+- [ ] PDF (Interactive)
+- [x] EPUB (Fixed Layout)
+- [ ] InDesign Snippet
+
+#### 22. You create an InDesign document with 1/8" bleed. After laying out the project, the printer calls to say that items in the document do not bleed. What is most likely the problem?
+
+- [ ] You did not extend elements on the page to the bleed guide.
+- [ ] Image objects cannot bleed in InDesign.
+- [x] Your printer is unable to print with bleed.
+- [ ] You used a color swatch that cannot bleed.
+
+#### 23. What are two differences between the PDF/X-1a and the PDF/X-4 PDF export presets?
+
+- [ ] spot colors and bleed values
+- [x] transparency and RGB images
+- [ ] compression and flattener settings
+- [ ] tagged text and accessibility options
+
+#### 24. Suppose you have selected a graphic frame that contains an image. Now you use File > Place and select another photograph. By default, what happens?
+
+- [ ] The new image is placed inside the frame with the original image.
+- [ ] The new image is placed in a new frame in the same location as the original image.
+- [ ] InDesign displays an error.
+- [x] The new image replaces the original image.
+
+#### 25. What does the icon to the right of the page thumbnail indicate?
+
+- [ ] The page thumbnail in the Pages panel appears rotated.
+- [ ] The page appears rotated in the document window, but will print unrotated.
+- [ ] There are one or more items on this page that are rotated or flagged for rotation.
+- [x] The page is marked to be rotated when exported or printed.
+
+#### 26. Suppose you place text in a frame, but the text is too close to the frame edge. What feature will help you adjust this?
+
+- [ ] Object > Arrange
+- [x] Type > Insert White Space
+- [ ] Object > Text Frame Options
+- [ ] Window > Text Wrap
+
+#### 27. Which feature helps you open or close sets of panels in the user interface?
+
+- [ ] Window > Arrange
+- [ ] View > Screen Mode
+- [x] Window > Workspace
+- [ ] View > Extras
+
+#### 28. Your document measurements display in picas. How can you change this to centimeters?
+
+- [ ] Click Layout > Ruler Guides.
+- [ ] Click Layout > Numbering & Section Options.
+- [x] Use the Units & Increments pane in the Preferences dialog box.
+- [ ] Use the Guides & Pasteboard pane in the Preferences dialog box.
+
+#### 29. How can you apply master page B to page 3?
+
+- [x] Drag master page B over the page 3 icon
+- [ ] You cannot apply master page B to this page
+- [ ] Drag the page 3 icon over master page B
+- [ ] master page B is already applied
+
+#### 30. Suppose you place text in a frame, but the text is too close to the frame edge. What feature will help you adjust this?
+
+- [x] Type > Insert White Space
+- [ ] Window > Text Wrap
+- [ ] Object > Arrange
+- [ ] Object > Text Frame Options
+
+#### 31. You are creating a flyer to be printed, and you want the background color to extend past the edge of the page. Which setting in the New Document dialog box will help you accomplush this??
+
+- [ ] Slug guides
+- [x] Bleed
+- [ ] Column Gutter
+- [ ] Margins
+
+#### 32. You are working on an InDesign document and there are guides on the page, but you cannot select them. Why is this? (select three items).
+
+-A. The guides are on a layer that has printing disabled.
+-B. The guides are on a locked Layer.
+-C. The guides are being controlled using an object style.
+-D. Lock guides has been enabled.
+-E. The guides are on a master page.
+
+- [ ] B, D, E (maybe)
+- [ ] C, D, E
+- [ ] A, B, C
+- [ ] B, C, D
+
+#### 33. You have an InDesign document with text on one layer and images on another. You want images with a text wrap applied to not wrap text when the layer is hidden. Where would you find the option to control this?
+
+- [x] in the Layer Options dialog box
+- [ ] in the Object Export Option dialog box
+- [ ] This happens automatically in InDesign
+- [ ] You cannot accomplish this in InDesign
+
+#### 34. You select some text with the Type tool, then click the Eyedropper tool and click a Photoshop image on your page. What happens? (Select three answers.)
+
+    A. The color switches to black.
+    B. The color you clicked is applied to the text.
+    C. The color appears as a swatch in the Swatches panel.
+    D. The color appears in the Color panel.
+    E. If the image is in RGB mode, the text color is also set to RGB mode.
+
+- [ ] A, B, D
+- [ ] A, C, E
+- [ ] B, D, E
+- [ ] B, C, D (maybe)
+
+#### 35. In an interactive document, you want two objects to fade in simultaneously on the page. Which panel helps you do this?
+
+- [ ] Animation panel
+- [ ] Media panel
+- [ ] Page Transitions panel
+- [x] Timing panel
+
+#### 36. What do you know about the selected hyperlink?
+
+- [x] The url is broken
+- [ ] the object is on the red layer
+- [ ] the hyperlink is stopped or paused
+- [ ] the content of the hyperlink is anchored
+
+#### 37. You have a paragraph style called Heading applied to text throughout a document. You modify the formatting of Heading in one paragraph, and would like this formatting to apply to all paragraphs with the Heading style applied. Which command would you accomplish this task
+
+- [ ] Break link to style
+- [ ] Update Style
+- [x] Redefine Style (pretty sure)
+- [ ] New style
+
+#### 38. What is a key difference between File > Document Setup and File > Adjust Layout?
+
+- [ ] One lets you change the page orientation (portrait vs. Landscape)
+- [ ] One lets you change page size but not margin size
+- [x] One affects all document pages and the other affects the current spread (maybe)
+- [ ] One lets you change the font size when changing margin size
+
+#### 39. Which feature is available for both the Adobe PDF (interactive) and Adobe PDF (Print) export options?
+
+- [ ] hyperlinks
+- [x] form fields
+- [ ] page transitions
+- [ ] audio annotations
+
+#### 40. How do you apply a Fade In animation to the selected object?
+
+- [ ] In the Effects panel, select Fade In
+- [ ] Select Object > Content > Fade In
+- [ ] Select Fade In from the menu in the upper-right corner
+- [x] In the Preset menu, select Fade In
+
+#### 41. What is the most important feature to use before sending an InDesign file to a colleague to work on?
+
+- [ ] File > Export
+- [ ] File > File Info
+- [ ] File > User
+- [x] File > Package
+
+#### 42. You want to move an image from one graphic frame to another. Which feature will you need to use?
+
+- [ ] Edit > Place and Link
+- [ ] File > Adjust Layout
+- [x] Edit > Paste Into
+- [ ] Object > Arrange

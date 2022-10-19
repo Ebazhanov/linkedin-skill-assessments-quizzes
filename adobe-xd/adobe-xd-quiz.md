@@ -37,20 +37,20 @@
 #### Q5. You need to have a keyboard appear when a text area is tapped. Which action type should you apply?
 
 - [ ] Auto-Animate
-- [ ] Overlay
+- [x] Overlay
 - [ ] Previous Artboard.
 - [ ] Transition.
 
 #### Q6. How do you stop guides from snapping to objects on the artboard?
 
 - [ ] Press Option (Mac) or Alt (Windows) when dragging the guide.
-- [х] Press Command (Mac) or Ctrl (Windows) when dragging the guide.
+- [x] Press Command (Mac) or Ctrl (Windows) when dragging the guide.
 - [ ] Press the Shift key when dragging the guide.
 - [ ] Drag the guide to its location on the artboard.
 
 #### Q7. Your developer notifies you that the left alignment of some the text in a slide in menu is off by 2 pixels. How did the developer catch this?
 
-- [ ] The distance values are shown in the developer's share screen.
+- [x] The distance values are shown in the developer's share screen.
 - [ ] The developer rolled over them in the developer's share screen.
 - [ ] The differing values were noted in the CSS.
 - [ ] Artboard guides appear in the developer's share screen.
@@ -71,7 +71,7 @@
 
 #### Q10. You have copied an interaction to the clipboard. How would you apply this interaction to multiple objects?
 
-- [ ] Shift-click each object and paste the interaction.
+- [x] Shift-click each object and paste the interaction.
 - [ ] Select the artboards and paste the interaction.
 - [ ] Select each object and paste the interaction.
 - [ ] Marquee the objects and paste the interaction.
@@ -81,7 +81,7 @@
 - [ ] mobile device with NFC
 - [ ] bluetooth connection
 - [ ] USB connection
-- [ ] wireless connection
+- [x] wireless connection
 
 #### Q12. Which export setting would you use to create a low-res asset whose size is 50% of the asset on the screen?
 
@@ -121,3 +121,40 @@
 - [ ] Enable the fonts in your computer's fonts settings.
 - [ ] Adobe fonts are automatically reactivated through the Creative Cloud.
 - [ ] Relink the fonts to your Creative Cloud library.
+
+#### Q17. You are viewing your project on a Google Pixel and notice the hotspot hints are missing. How would you enable them on the device?
+
+- [x] Double-tap and select **Enable Hints**
+- [ ] In the device preview, select **Enable Hints**
+- [ ] In the sharing options, select **Enable Hints**
+- [ ] Triple-tap the screen and select **Enable Hints**
+
+#### Q18. What would changing the text in this component affect?
+
+![Q13](images/006.png)
+
+- [ ] the component.
+- [ ] only the text in the symbol.
+- [x] only the instance.
+- [ ] all copies of the component in XD document
+
+#### Q19. You are previewing your XD project on an iPhone. How would you browse an artboard on the phone?
+
+- [x] Triple-tap the screen.
+- [ ] Long-press an image and select **Browse Artboards**.
+- [ ] Use a drag gesture and select **Browse Artboards**.
+- [ ] Double-tap and select **Browse Artboards**.
+
+#### Q20. Component states are **\_**.
+
+- [ ] added in Design view.
+- [ ] interactive versions of a component.
+- [ ] customized versions of a component.
+- [x] applied to components.
+
+#### Q21. You created a Repeat Grid that is to be an image gallery. How would you control the placement of images in the Repeat Grid?
+
+- [ ] Ensure that all images have the same dimensions.
+- [ ] Drag individual images into the grid.
+- [ ] Ensure that all images are in the same format.
+- [x] Import the images and rearrange them in the Repeat Grid.

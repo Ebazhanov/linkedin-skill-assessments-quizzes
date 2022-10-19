@@ -83,7 +83,7 @@ An intrusion detection system (`IDS`) is a device or software application that m
 - [ ] password spray attack
 - [ ] brute force attack
 
-A rainbow table attack is a more efficient and effective way of cracking many hashed passwords, whereas brute-forcing would take much longer and may not complete in a reasonable amount of time.
+`A rainbow table attack is a more efficient and effective way of cracking many hashed passwords, whereas brute-forcing would take much longer and may not complete in a reasonable amount of time.`
 
 [Professor Messer](https://www.professormesser.com/free-a-plus-training/220-1002/brute-force-attacks-3).
 
@@ -124,7 +124,7 @@ A rainbow table attack is a more efficient and effective way of cracking many ha
 - [ ] Cloud Workload Protection Platforms (CWPP)
 - [ ] Cloud Access Security Brokers (CASBs)
 
-#### Q17. **\_\_\_\_\_** validates the integrity of data files.
+#### Q17. **\_** validates the integrity of data files.
 
 - [ ] Compression
 - [x] Hashing
@@ -187,7 +187,7 @@ A rainbow table attack is a more efficient and effective way of cracking many ha
 - [x] Mobile Device Management (MDM)
 - [ ] Data Loss Prevention (DLP)
 - [ ] Intrusion Detection and Prevention System (IDPS)
-- [ ] cloud access security broker (CASB)
+- [ ] Cloud Access Security Broker (CASB)
 
 #### Q26. How many keys would be necessary to accomodate 100 users in an asymmetric cryptography system?
 
@@ -203,7 +203,7 @@ A rainbow table attack is a more efficient and effective way of cracking many ha
 - [ ] Federal Information Security Managment Act (FISMA)
 - [x] Payment Card Industry Data Security Standard (PCI-DSS)
 - [ ] General Data Protection Regulation (GDPR)
-- [ ] International Organization for Standardization and Internation Electronical Commission (ISO/IEC 27018)
+- [ ] International Organization for Standardization and International Electrotechnical Commission (ISO/IEC 27018)
 
 **Explanation**: The Payment Card Industry Data Security Standard (`PCI DSS`) is the global card industry security standard that is **required of all entities** that store, process, or transmit cardholder data, including financial institutions, online retailers and service providers.
 
@@ -216,7 +216,7 @@ A rainbow table attack is a more efficient and effective way of cracking many ha
 - [x] common vulnerabilties and exposures
 - [ ] common vulnerability scoring system
 
-**Explaination**: The Common Vulnerabilities and Exposures (`CVE`) system provides a reference-method for publicly known information-security vulnerabilities and exposures.
+**Explanation**: The Common Vulnerabilities and Exposures (`CVE`) system provides a reference-method for publicly known information-security vulnerabilities and exposures.
 
 #### Q29. Which type of application can intercept sensative information such as passwoprds on a network segment?
 
@@ -598,10 +598,10 @@ autopsy is for forensic analysis
 
 #### Q79. You are implementing a cybersecurity program in your organization and want to use the "de facto standard" cybersecurity framework. Which option would you choose?
 
-- [ ] the ISACA Cypersecurity Framework
-- [ ] the COBIT Cypersecurity Framework
-- [ ] the ISC2 Cypersecurity Framework
-- [x] the NIST Cypersecurity Framework
+- [ ] the ISACA Cybersecurity Framework
+- [ ] the COBIT Cybersecurity Framework
+- [ ] the ISC2 Cybersecurity Framework
+- [x] the NIST Cybersecurity Framework
 
 #### Q80. In 2014, 4,278 IP addresses of zombie computers were used to flood a business with over one million packets per minute for about one hour. What is this type of attack called?
 
@@ -724,28 +724,28 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 #### Q94. How can a data retention policy reduce your organization's legal liability?
 
 - [ ] by reducing DLP licensing costs
-- [ ] by ensuring that data is not retained beyond its necessary retention date
+- [x] by ensuring that data is not retained beyond its necessary retention date
 - [ ] by destroying data that may implicate company executives in dishonest behavior
 - [ ] by reducing cost associated with data storage and protection
 
 #### Q95. You believe a recent service outage due to a denial-of-service attack from a disgruntled inside source. What is the name for the malicious act this employee has committed?
 
 - [ ] espionage
-- [x] sabotage (not too much sure)
+- [x] sabotage
 - [ ] fraud
 - [ ] confidentiality breach
 
 #### Q96. Which option is a framework widely utilized by organizations in the development of security governance standards?
 
 - [ ] Software Capability Maturity Model (SW-CMM)
-- [x] Control Objectives for Information and Related Technologies (COBIT) (not too much sure)
+- [x] Control Objectives for Information and Related Technologies (COBIT)
 - [ ] The Open Group Architecture Framework (TOGAF)
 - [ ] Software Development Life Cycle (SDLC)
 
 #### Q97. There are connection-oriented and connectionless protocols in networking. What do web browsers use to ensure the integrity of the data it sends and receives?
 
 - [ ] UDP that is connection-oriented
-- [x] TCP that is connection-oriented (not too much sure)
+- [x] TCP that is connection-oriented
 - [ ] UDP that is connectionless
 - [ ] TCP that is connectionless
 
@@ -782,8 +782,8 @@ What is the next step you should take to best fulfill your responsibilities and 
 #### Q102. You are researching probable threats to your company’s internet-facing web applications. Which organization should you reference as an authoritative source for information on web-based attack vectors?
 
 - [ ] EC-Council
-- [ ] ISACAISACA
-- [ ] NISTNIST
+- [ ] ISACA
+- [ ] NIST
 - [x] OWASP
 
 [Explanation:](https://www.imperva.com/learn/application-security/application-security/)
@@ -797,7 +797,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 [Explanation:](https://www.law.com/njlawjournal/2021/12/03/zero-trust-security-moving-from-trust-but-verify-to-never-trust-always-verify/?slreturn=20220417191235)
 
-#### Q104. **\_\_\_\_\_** attacks can execute the code injected by attackers as part of user inputs.
+#### Q104. **\_** attacks can execute the code injected by attackers as part of user inputs.
 
 - [ ] Ping of death
 - [x] Buffer overflow
@@ -808,7 +808,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 - [ ] identifying and valuing assets
 - [ ] analyzing risks by criticality and cost
-- [x] discontiniuing activities that introduce risk
+- [x] discontinuing activities that introduce risk
 - [ ] identifying threats and analyzing vulnerabilities
 
 #### Q106. In response to an alert regarding a possible security incident, you are analyzing the logs for a web application. In the process, you see the following string: `./../../../var/secrets` What type of attack was most likely attempted against the application?
@@ -820,7 +820,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 #### Q107. Which quadrant should be the focus of risk management?
 
-![Which quadrant should be the focus of risk management?](Q107-risk-quadrant.jpg)
+- ![Which quadrant should be the focus of risk management?](Q107-risk-quadrant.jpg)
 
 - [x] 2
 - [ ] 1
@@ -830,6 +830,163 @@ What is the next step you should take to best fulfill your responsibilities and 
 #### Q108. Which option will not actively identify a secuirty incident?
 
 - [ ] Extended Detection and Response (XDR)
-- [x] Cloud Secuiry Posture Management (CSPM)
-- [ ] Secuirty Infromation Event Managment (SEIM)
+- [x] Cloud Security Posture Management (CSPM)
+- [ ] Security Information Event Management (SEIM)
 - [ ] Endpoint Detection and Response (EDR)
+
+#### Q109. A website is asking for a password and also sending an authentication code to your phone. What factors are used in this multi-factor authentication scenario?
+
+- [x] what you have and what you do
+- [ ] what you know and what you are
+- [ ] what you have and what you know
+- [x] what you do and what you know
+
+[Explanation:](https://www.investopedia.com/terms/t/twofactor-authentication-2fa.asp)
+
+#### Q110. Which option is a list of publicly disclosed information security defects?
+
+- [ ] DBIR
+- [ ] CVE
+- [x] CWE
+- [ ] CERT
+
+`Explanation: Common Weakness Enumeration (CWE) is a universal online dictionary of security defects that have been found in computer software.`
+
+#### Q111. What is cryptovirology?
+
+- [ ] Plain cryptography
+- [ ] Antivirus
+- [x] Design powerful malicious software
+- [x] Asymmetric backdoor
+
+#### Q112. What does a metamorphic virus do?
+
+- [ ] Static analyser
+- [ ] Antivirus
+- [x] Generates a whole variable code using a variable encryptor
+- [ ] Mutation function
+
+[Explanation:](https://link.springer.com/content/pdf/10.1007/11560647.pdf)
+
+#### Q113. What is the most common cause of cyber incidents in organisations?
+
+- [ ] Vulnerabilities in softwares
+- [x] Social Engineering
+- [ ] Ransomware
+- [ ] Phishing
+
+`Explanation: Social Engineering and human error are the most common cause of cyber incidents as it is easier for attackers to convince employees to give up passwords or accept MFA prompts than it is to breach & exploit the system. See Recent Uber and Cisco hack`
+
+1. [Reference](https://www.protocol.com/bulletins/uber-breach-hacker-twilio-mfa)
+2. [Reference](https://www.swarmnetics.com/blog/cisco-network-breach-voice-phishing-mfa-fatigue-are-becoming-common-attacks/)
+
+#### Q114. Which of the following terms is used to describe a collection of unrelated patches?
+
+- [x] Hotfix
+- [ ] Update
+- [ ] Security Fix
+- [ ] Service Pack
+
+#### Q115. How often should security teams conduct a review of the privileged access that a user has to sensitive systems?
+
+- [x] On a periodic basis
+- [x] When a User leaves the organisation
+- [x] When a User changes roles
+- [ ] On a daily basis
+
+`Explanation: Privilaged access reviews are one of the most critical components of an organisations security program as they ensure only autherised users have access to the most sensitive systems. They should occur on a fixed periodic basis as well as when ever a privileged user leaves the organisation or changes roles within the organisation
+
+#### Q116. What Term is used to descrbe the defualt set of privileges assigned to a user when a new account is created?
+
+- [ ] Aggregation
+- [ ] Transitivity
+- [ ] Baseline
+- [x] Entitlement
+
+`Explanation: Entitlement refers to the privileges granted to a user when their account is first provisioned`
+
+#### Q117. Who is the father of computer security??
+
+- [x] August Kerckhoffs
+- [ ] Bob Thomas
+- [ ] Charles Thomas
+- [ ] Robert Kerckhoffs
+
+`Explanation: August Kerckhoffs, a linguist and German professor at HEC, wrote an essay in the Journal of Military Science in February 1883. Kerckhoff had unwittingly established the foundations for contemporary encryption, earning him the title of "Father of Computer Security."`
+
+#### Q118. Which type of attack uses formal emails to entice specific individuals into signing in and changing their passwords?
+
+- [ ] vishing
+- [x] spear phishing
+- [ ] brute force attack
+- [ ] password spray attack
+
+#### Q119. A data asset register should contain which of the following?
+
+- [ ] the location of the data.
+- [ ] The value of the asset.
+- [ ] The owner of the asset.
+- [x] All of these options.
+
+#### Q120. Once you have confirmed that Burpsuite is intercepting website requests, where can you check to see if you have credentials in cleartext to access the target webpage?
+
+- [ ] Select Go on the Repeater tab
+- [ ] See the loopback address and port are on in the Options tab
+- [ ] Check the Raw section in the Intercept tab
+- [x] Check for a login.php line in the Proxy tab
+
+#### Q121. Threat actors will attempt to find an attack vector on their target by mapping the attack **\_**.
+
+- [x] surface
+- [ ] infrastructure
+- [ ] threat
+- [ ] door
+
+#### Q122. How would an organisation ensure software product support in the event a supplier goes out of business or is sold to a competitor?
+
+- [ ] They could employ the software developers once the supplier organisation has gone out of business.
+- [ ] They could ensure support by acquiring the supplier organisation.
+- [x] They could ensure support through an escrow agreement.
+- [ ] They could reverse engineer the product so that it could be supported in-house.
+
+#### Q123. Which of the following is the security standard that applies to the certification of security controls within products?
+
+- [ ] ISO/IEC 27001.
+- [ ] ISO/IEC 9000.
+- [x] ISO/IEC 15408.
+- [ ] ISO/IEC 13335.
+
+#### Q124. What is the main role of the board member known as the information security manager?
+
+- [x] To ensure appropriate security controls are implemented across the organisation.
+- [ ] To provide day-to-day management of the information assurance function.
+- [ ] To have a detailed understanding of the organisation's vulnerabilities.
+- [ ] To have a detailed understanding of threats faced by the organisation.
+
+#### Q125. What are the two main approaches used to determine the likelihood of a threat occurring?
+
+- [ ] Qualitative and statistical
+- [ ] Statistical and quantitative
+- [ ] Statistical and assumptive
+- [x] Qualitative and quantitative
+
+#### Q126. Which type of hackers are often organized and funded by a nation's military intelligence or security services, and attempt to gain access to a foreign adversary's state secrets or military intelligence?
+
+- [ ] hacktivists
+- [ ] competitors
+- [ ] black hat hackers
+- [x] state-sponsored hackers
+
+#### Q127. Which of the following methods combines two binary streams to create one new stream that contains hidden information that cannot be retrieved without the other stream that was used to create it?
+
+- [ ] substitution cipher
+- [ ] weaponization
+- [ ] transposition cipher
+- [x] XOR encryption
+
+#### Q128. What is Drupalgeddon?
+
+- [ ] A web app proxy tool
+- [ ] A DDoS bot
+- [ ] A network packet capturing device
+- [x] a SQL injection flaw

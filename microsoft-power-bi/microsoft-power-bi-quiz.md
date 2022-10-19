@@ -87,7 +87,7 @@
 - [ ] A, B, C
 - [x] A, B, C, D
 
-#### Q11. What can you do within the Power BI Desktop #### Query Settings pane? (Select all that apply.)
+#### Q11. What can you do within the Power BI Desktop Query Settings pane? (Select all that apply.)
 
     A. Rename a query step.
     B. Delete a query step.
@@ -101,7 +101,7 @@
 
 [proof link](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview)
 
-#### Q12. After you enter text in the #### Q&A box or O&A visual, Power BI will `\_` your data to create a list of appropriate visualizations.
+#### Q12. After you enter text in the Q&A box or O&A visual, Power BI will `\_` your data to create a list of appropriate visualizations.
 
 - [ ] filter and group
 - [ ] sort and filter
@@ -274,10 +274,10 @@
 
 #### Q35. You want to combine several CSV files into a single data file after you connect a folder. What must be true about these CSV data files? (Select all that apply.)
 
-A. They must be stored in the same folder.
-B. They must have the same schema.
-C. They must have the same file type.
-D. They must have no duplicate data rows.
+    A. They must be stored in the same folder.
+    B. They must have the same schema.
+    C. They must have the same file type.
+    D. They must have no duplicate data rows.
 
 - [ ] B, C
 - [x] A, B, C
@@ -687,3 +687,38 @@ D. They must have no duplicate data rows.
 - [x] On the Add Column tab, click Add Index Column.
 - [ ] none of these answers
 - [ ] On the Home tab, click Add Index Column.
+
+#### Q86. Power BI desktop has a **\_** tool, found under the View tab, which can be used to record the time taken for each of the processes required to render a report to complete.
+
+- [ ] Simulation
+- [x] Performance Analyzer
+- [ ] Reporting Analytics
+- [ ] DAX Studio
+
+#### Q87. When you are looking for outliers, Z-scores above **\_** are a good starting point.
+
+- [ ] 30
+- [x] 3
+- [ ] 10
+- [ ] 100
+
+#### Q88. In DAX, a semi-additive measure can accumulate values over some dimension, but typically not **\_**.
+
+- [ ] calculations
+- [x] time
+- [ ] magnitude
+- [ ] rate
+
+#### Q89. In Power BI's Power Query Editor, a field data type shown as **\_** means the money data type.
+
+- [ ] a pile of coins icon
+- [ ] Money
+- [x] $
+- [ ] a stack of bills icon
+
+#### Q90. Which of the following choices is not a viewing option in the view selector of Power BI Desktop?
+
+- [ ] report view
+- [ ] model view
+- [x] query view
+- [ ] data view

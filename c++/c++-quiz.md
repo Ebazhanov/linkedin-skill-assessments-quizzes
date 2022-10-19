@@ -165,7 +165,7 @@ typedef struct {
 } weekdays;
 ```
 
-_NOTE_: Correct syntax is that each variable size is 1 bit. `bit` is not a type in C++. [Reference](https://en.cppreference.com/w/cpp/language/bit_field)
+[Reference](https://en.cppreference.com/w/cpp/language/bit_field) _NOTE_: Correct syntax is that each variable size is 1 bit. `bit` is not a type in C++.
 
 #### Q11. What is an lvalue?
 
@@ -185,7 +185,7 @@ auto x = 4000.22;
 - [ ] It specifies that x is a variable with automatic storage duration.
 - [ ] It specifies that more memory will be allocated for x in case it needs more space, avoiding loss of data due to overflow.
 
-#### Q13. A class template is a **\_**?
+#### Q13. A class template is a \_?
 
 - [x] class written with the generic programming paradigm, specifying behavior in terms of type parameter rather than specific type.
 - [ ] blank superclass intended for inheritance and polymorphism.
@@ -832,7 +832,7 @@ std::cout << ( nums[0] << nums[1] << nums[2] );
 ```
 
 - [ ] The output is the addresses of `nums[0]`, `nums[1]`, and `nums[2]`, in that order, with no spaces.
-- [x] `256`
+- [x] 256
 - [ ] `0`
 - [ ] `243`
 
@@ -1140,25 +1140,21 @@ int calculateMedian(const my_array& a)
 
 #### Q65. What would be the correct declaration of a default constructor for a class named Sprite?
 
-- [x]
+- [x] A
   ```cpp
-  public:
-    		Sprite();
+  public: Sprite();
   ```
-- [ ]
+- [ ] B
   ```cpp
-  private:
-    		void Sprite();
+  private: void Sprite();
   ```
-- [ ]
+- [ ] C
   ```cpp
-  public:
-    		void Sprite();
+  public: void Sprite();
   ```
-- [ ]
+- [ ] D
   ```cpp
-     private:
-    		Sprite();
+  private: Sprite();
   ```
 
 #### Q66. What is the purpose of this line in a header file?
@@ -1279,3 +1275,163 @@ std::cout << b;
 - [x] protected
 - [ ] public
 - [ ] private
+
+#### Q78. What is true about the variable named ptr?
+
+```cpp
+void *ptr;
+```
+
+- [ ] That declaration causes a compiler error, as pointers must specify a type.
+- [x] It is a pointer to a value with no specific type, so it may be cast to point to any type.
+- [ ] It is a pointer to a void function
+- [ ] It is a pointer initialized at NULL.
+
+#### Q79. What is a valid definition for a function named get_length that returns the length of a null-terminated string?
+
+```cpp
+int get_length(char *str);
+```
+
+- [x] :
+
+```cpp
+int get_length(char *str){
+    int count=0;
+    while(str[count++]);
+    return count-1;
+}
+```
+
+- [ ] :
+
+```cpp
+int get_length(char *str){
+    int count=0;
+    while(str!=NULL){
+        count++;
+        str++;
+    }
+    return count;
+}
+```
+
+- [ ] :
+
+```cpp
+int get_length(char *str){
+    int count=0;
+    while((*str)++)
+        count++;
+    return count;
+}
+```
+
+- [ ] :
+
+```cpp
+int get_length(char *str){
+    int count=0;
+    while(str++)
+        count++;
+    return count;
+}
+```
+
+#### Q80. What is this statement equivalent to?
+
+```cpp
+sprite->x
+```
+
+- [ ] `sprite.*x`
+- [x] `(*sprite).x`
+- [ ] `*sprite.x`
+- [ ] `sprite.x`
+
+#### Q81. In which scenario would you want to specify the type of a pointer instead of using void?
+
+- [ ] void does not work for any type. The language does not allow assigning anything other than void to a pointer to void.
+- [x] The compiler needs the data type to caculate the length of the pointed data (for reading and writing) and to calculate increments and decrements to the pointer.
+- [ ] The compiler needs the data type to make sure that the pointer is not going to be used on illegal non-pointable types such as functions, labels, pointers, and references.
+- [ ] The compiler needs the data type to know how much memory to allocate for the pointer, because different data types require different pointer lenghts.
+
+#### Q82. The default executable generation on UNIX for a C++ program is \_
+
+- [ ] a.exe
+- [ ] a
+- [x] a.out
+- [ ] out.a
+
+#### Q83. What will be the output of the following program?
+
+```cpp
+#include<iostream>
+using namespace std;
+int main(){
+int a=1;
+cout<<(a++)*(++a)<<endl;
+return 0;
+}
+```
+
+- [ ] 1
+- [ ] 2
+- [x] 3
+- [ ] 6
+
+#### Q84. What does "c" stands for in cout and cin.
+
+- [ ] compiler
+- [ ] console
+- [x] character
+- [ ] standard namespace
+
+#### Q85. What is the use of tellp ()?
+
+- [ ] Current Input Pointer position
+- [x] Current Output Pointer position
+- [ ] Last Input Pointer position
+- [ ] Last Output Pointer position
+
+#### Q86. What is callback function?
+
+- [ ] Pointer for a pointer
+- [x] Pointer for a function
+- [ ] function for a pointer
+- [ ] function for a class
+
+#### Q87. What is a correct syntax to output "Hello World" in C++?
+
+- [x] cout << "Hello World";
+- [ ] System.out.println("Hello World");
+- [ ] print("Hello World");
+- [ ] Console.WriteLine("Hello World");
+
+#### Q87. How many categories of iterators are there in C++ ?
+
+- [ ] 4
+- [ ] 3
+- [ ] 7
+- [x] 5
+
+#### Q88. What is the meaning of base class in C++ ?
+
+- [ ] It inherit other class
+- [ ] It has a pointer variable
+- [ ] It is the first class declared
+- [x] Another class got inherit from this class
+
+#### Q89. Size of C++ objects are expressed in terms of multiples of the size of a ** and the size of a char is **.
+
+- [ ] char, 4
+- [ ] float, 8
+- [ ] int, 1
+- [x] char, 1
+
+#### Q90. Implementation dependent aspects about an implementation can be found in
+
+- [ ] `<numeric>`
+- [ ] `<limit>`
+- [x] `<limits>`
+- [ ] `<implementation>`

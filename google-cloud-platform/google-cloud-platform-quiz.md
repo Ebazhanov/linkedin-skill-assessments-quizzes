@@ -21,7 +21,7 @@
 - [ ] Local
 - [ ] Organizational
 
-Note: Free trial doesn't have the organizations.
+`Note: Free trial doesn't have the organizations.`
 
 #### Q4. What feature do you need to enable to support load balancing and autoscaling managed instance groups for Compute Engine?
 
@@ -74,10 +74,10 @@ Note: Free trial doesn't have the organizations.
 
 #### Q11. You need to execute a "lift and shift" move with as few steps as possible. Which items do you need to create to accomplish this task, listed in the correct order of creation?
 
-- [ ] 1. Create a VPN from GCP to your corporate network. 2. Create a GCP network for the project. 3. Create the VM instances to support the application.
-- [ ] 1. Create a GCP network for the project. 2. Create a VPN from your corporate network to GCP. 3. Create the VM instances to support the application.
-- [x] 1. Create a GCP network for the project. 2. Create a VPN from GCP to your corporate network. 3. Create the VM instances to support the application.
-- [ ] 1. Create a VPN from your corporate network to GCP. 2. Create a GCP network for the project. 3. Create the VM instances to support the application.
+- [ ] Create a VPN from GCP to your corporate network. 2. Create a GCP network for the project. 3. Create the VM instances to support the application.
+- [ ] Create a GCP network for the project. 2. Create a VPN from your corporate network to GCP. 3. Create the VM instances to support the application.
+- [x] Create a GCP network for the project. 2. Create a VPN from GCP to your corporate network. 3. Create the VM instances to support the application.
+- [ ] Create a VPN from your corporate network to GCP. 2. Create a GCP network for the project. 3. Create the VM instances to support the application.
 
 #### Q12. You are concerned about data egress charges for files in a Cloud Storage bucket. What configuration change should you make?
 
@@ -301,28 +301,28 @@ Note: Free trial doesn't have the organizations.
 
 #### Q42. You want to quickly evaluate Cloud Filestore. What are the steps, in order, to set up a test environment?
 
-- [ ]
+- [ ] A
   ```
   1. Create a Filestore instance.
   2. Mount the fileshare from that instance on a client VM instance.
   3. Create a Compute Instance VM to be the client.
   4. Create a file on the mounted fileshare.
   ```
-- [ ]
+- [ ] B
   ```
   1. Create a Filestore instance.
   2. Mount the fileshare from that instance on a client VM instance.
   3. Create a file on the mounted file share.
   4. Create a Compute Instance VM to be the client.
   ```
-- [x]
+- [x] C
   ```
   1. Create a Compute Instance VM to be the client.
   2. Create a Filestore instance.
   3. Mount the file share from that instance on a client VM instance.
   4. Create a file on the mounted fileshare.
   ```
-- [ ]
+- [ ] D
   ```
   1. Create a Compute Instance VM to be the client.
   2. Create a Cloud Filestore instance.
@@ -394,7 +394,7 @@ Note: Free trial doesn't have the organizations.
 - [ ] Set the job priority for each query to Batch and expect to see query results within 24 hours.
 - [ ] Set the job priority for each query to Batch and expect to see query results within 24 hours.
 
-Explanation: _BigQuery offers a choice of two pricing models for runnig queries: on-demand (you are charged for the number of bytes processes by each query) and flat-rate (you purchase slots - dedicated processing capacity)._ If the exploratory queries are one-off, running in Interactive mode using on-demand pricing seems to be the optimal answer.
+**Explanation**: _BigQuery offers a choice of two pricing models for runnig queries: on-demand (you are charged for the number of bytes processes by each query) and flat-rate (you purchase slots - dedicated processing capacity)._ If the exploratory queries are one-off, running in Interactive mode using on-demand pricing seems to be the optimal answer.
 
 [Reference](https://cloud.google.com/bigquery/pricing)
 
@@ -412,14 +412,14 @@ Explanation: _BigQuery offers a choice of two pricing models for runnig queries:
 - [ ] multi-factor authentication
 - [ ] recovery password
 
-#### Q53. Which container(s) does Google Kubernetes Engine support?Which container(s) does Google Kubernetes Engine support?
+#### Q53. Which container(s) does Google Kubernetes Engine support?
 
 - [ ] Docker or Singularity
 - [ ] Docker, Singularity, or containerd
 - [ ] Singularity only
 - [x] Docker only
 
-#### Q54. Cloud Genomics enables pipelines to run on top of which GCP service?Cloud Genomics enables pipelines to run on top of which GCP service?
+#### Q54. Cloud Genomics enables pipelines to run on top of which GCP service?
 
 - [x] Cloud Dataflow
 - [ ] Google Kubernetes Engine
@@ -433,7 +433,7 @@ Explanation: _BigQuery offers a choice of two pricing models for runnig queries:
 - [ ] Nothing. Images are encrypted by default with a customer-managed key.
 - [x] Associate your image with a customer-managed key to encrypt it.
 
-Explanation: Google does not store your keys on its servers and cannot access your protected data unless you provide the key. This also means that if you forget or lose your key, there is no way for Google to recover the key or to recover any data encrypted with the lost key.
+**Explanation**: `Google does not store your keys on its servers and cannot access your protected data unless you provide the key. This also means that if you forget or lose your key, there is no way for Google to recover the key or to recover any data encrypted with the lost key.`
 
 [Reference](https://cloud.google.com/compute/docs/disks/customer-supplied-encryption)
 
@@ -443,3 +443,112 @@ Explanation: Google does not store your keys on its servers and cannot access yo
 - [x] Cloud Storage and Big Query
 - [ ] Cloud Pub/Sub and Cloud Spanner
 - [ ] Cloud Pub/Sub and Big Query
+
+#### Q56. You want to work with GCP Organisation users in the console. Where do you navigate to?
+
+- [ ] admin.google.com > Administration
+- [x] console.cloud.google.com > Administration
+- [ ] admin.google.com > Users
+- [ ] console.cloud.google.com > Users
+
+#### Q56. You want to select a fully managed platform for developing and hosting a web application written in Kotlin at scale on GCP. Which service should you choose?
+
+- [x] Google App Engine Flexible
+- [ ] Google App Engine Standard
+- [ ] Google Kubernetes Engine Flexible
+- [ ] Google Kubernetes Engine Standard
+
+#### Q57. Which combination of Stackdriver services will alert you about errors generated by your applications and help you locate the root cause in the code?
+
+- [x] Google Cloud Platform, Amazon Web Services
+- [ ] Google Cloud Platform, Microsoft Azure, Amazon Web Services
+- [ ] Google Cloud Platform, Microsoft Azure
+- [ ] Google Cloud Platform
+
+#### Q58. You are using Google Cloud Platform to host an Apache server and would like to enable an alert to notify you if the webserver becomes unresponsive. Which Google Cloud service and steps should you take to set up to set up this alert?
+
+- [ ] The size of the Stackdriver log entries being exported exceeds the maximum capacity of the BigQuery dataset.
+- [ ] The Cloud Data Transfer Service has not been enabled.
+- [x] Stackdriver Logging does not have permission to write to the BigQuery dataset.
+- [ ] There isn't a firewall rule allowing traffic between Stackdriver and BigQuery.
+
+#### Q59. If you have configured Stackdriver Logging to export logs to BigQuery, but logs entries are not getting exported to BigQuery, what is the most likely cause?
+
+- [ ] Monitoring, Trace, and Debugger
+- [ ] Monitoring and Error Reporting
+- [ ] Alerts and Debugger
+- [x] Debugger and Error Reporting
+
+#### Q60. You can use Stackdriver to monitor virtual machines on which cloud platforms?
+
+- [x] Use Cloud Monitoring and create an uptime check.
+- [ ] Use Cloud Monitoring and install the Monitoring Agent on the instance running the apache server.
+- [ ] Use Cloud Monitoring and install the Ops Agent on the instance running the apache server.
+- [ ] Use Cloud Profiler and create an alert.
+
+#### Q61. In Google Kubernetes Engine, "**\_**" is a term Kubernetes uses to represent pods and controllers.
+
+- [ ] masters
+- [ ] pools
+- [x] workloads
+- [ ] nodes
+
+#### Q62. In the command below, what is the purpose of the "--image" argument?
+
+```
+kubectl create deployment app --image=$ImageRepo:$Tag
+```
+
+- [ ] It tells Kubernetes what virtual machine image to use when launching new nodes.
+- [ ] It is used to create a disk image of a running Docker container for backups or to be used in another deployment.
+- [x] It tells the deployment controller which repository to check for a Docker image and what tag to use.
+- [ ] It tells the deployment controller which Linux OS type to use when creating pods.
+
+#### Q63. To effectively manage the limited number of IP addresses per node, how many IP addresses per pod does Google recommend?
+
+- [ ] One IP address per pod
+- [ ] Three IP addresses per pod
+- [ ] Four IP addresses per pod
+- [x] Two IP addresses per pod
+
+#### Q64. In Google Kubernetes Engine, **\_** are the smallest unit of deployment within a Kubernetes cluster, and our primary Kubernetes building blocks.
+
+- [x] pods
+- [ ] instances
+- [ ] sets
+- [ ] containers
+
+#### Q65. Which of the following statements is not a general security guideline for a Google Cloud Platform deployment pipeline?
+
+- [ ] Regularly audit any changes to your IAM policies.
+- [x] Integration steps should be able to deploy code.
+- [ ] Log everything.
+- [ ] Deployment steps should not be able to build code or access your code repository.
+
+#### Q66. In order to allow signed images to be deployed with Google Cloud Platform's binary authorization enabled, you need to create a(n) **\_**.
+
+- [ ] virtual machine
+- [ ] alert
+- [ ] log
+- [x] attestor
+
+#### Q67. Builders in Cloud Build are
+
+- [ ] part of Google's proprietary infrastructure
+- [ ] created from Managed Instance Templates
+- [x] containers with pre-loaded tools and runtimes
+- [ ] virtual machines with pre-loaded tools and runtimes
+
+#### Q68. Which of the following statements about security in the Google Cloud Platform deployment pipeline is false?
+
+- [x] It is pretty standard for developers and QA engineers to be allowed to create new clusters, but not allowed to deploy containers to certain existing clusters.
+- [ ] Each employee's access to Google Cloud resources should be based upon what they require to do their job.
+- [ ] The exact permissions will vary based upon the needs of the company, and depends upon the number of roles, steps, and environments that exist.
+- [ ] Each employee's access to Google Cloud resources should be based on the principle of least privilege.
+
+#### Q69. In order to create and store a key in Google Cloud Platform, you must first create a **\_** to hold the key.
+
+- [ ] wallet
+- [x] keyring
+- [ ] policy
+- [ ] keychain

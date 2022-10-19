@@ -208,10 +208,10 @@
 
 ![Tree map](https://i.imgur.com/CJFjxxD.png)
 
-- [ ] cohort analysis
-- [ ] funnel visualization
-- [ ] user flow
-- [x] treemap
+- [ ] Cohort analysis
+- [ ] Funnel visualization
+- [ ] User flow
+- [x] Treemaps
 
 #### Q30. You already have Google Analytics set up on your website, but decide to add Google Tag Manager. What do you do with the existing Analytics tag?
 
@@ -362,10 +362,10 @@
 
 #### Q51. It is September, and you want to evaluate the most popular page on your site for the month of August. What first steps would you take?
 
-- [x] 1. Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > All Pages.
-- [ ] 1. Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > Content Drilldown.
-- [ ] 1. Set Date Range to Last Month. 2. Visit Behavior > Site Content > Content Drilldown.
-- [x] 1. Set Date Range to Last Month. 2. Visit Behavior > Site Content > All Pages.
+- [x] Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > All Pages.
+- [ ] Set Date Range to Last 30 Days. 2. Visit Behavior > Site Content > Content Drilldown.
+- [ ] Set Date Range to Last Month. 2. Visit Behavior > Site Content > Content Drilldown.
+- [x] Set Date Range to Last Month. 2. Visit Behavior > Site Content > All Pages.
 
 #### Q52. This report is sorted by bounce rate in ascending order. How do you view these results in order of importance instead?
 
@@ -601,3 +601,10 @@
 - [ ] The same amount of days selected for the Date Range will be used for the coparison
 - [x] If the review period is Wednesday to Thursday, the previous period may include weekends, which may skew the comparison
 - [ ] Both sets of data may appear on the same graph, which will skew your ability to analyze impact
+
+#### Q85. What report displays the exact word(s) a user typed into Google to trigger your google ad?
+
+- [ ] Acquisition > Campaign > Paid Keywords
+- [x] Acquisition > Google Ads > Search queries
+- [ ] Acquisition > Google Ads > Keywords
+- [ ] Acquisition > Campaign > Organic Keywords

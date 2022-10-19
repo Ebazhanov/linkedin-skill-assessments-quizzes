@@ -7,6 +7,9 @@
 - [ ] django.middleware.cache.FetchFromCacheMiddleware
 - [x] django.middleware.cache.AcceleratedCacheMiddleware
 
+**Reference:**
+Django comes with a robust cache system that lets you save dynamic pages, so they don’t have to be computed for each request. For convenience, Django offers cache with different granularity — from entire website to pages to part of pages to DB query results to any objects in memory. Cache middleware. If enabled, each Django-powered page will be cached based on URL.
+
 #### Q2. In which programming language is Django written?
 
 - [ ] C++
@@ -23,28 +26,28 @@
 
 #### Q4. A client wants their site to be able to load "Rick & Morty" episodes by number or by title—e.g., shows/3/3 or shows/picklerick. Which URL pattern do you recommend?
 
-- [ ] <span>
+- [ ] A
 
 ```
 url(r'shows/<int:season>/<int:episode>/', views.episode_number),
 url(r'shows/<slug:episode_name>/', views.episode_name)
 ```
 
-- [x] <span>
+- [x] B
 
 ```
 path('shows/<int:season>/<int:episode>/', views.episode_number),
-path(r'shows/<slug:episode_name>/', views.episode_name)
+path('shows/<slug:episode_name>/', views.episode_name)
 ```
 
-- [ ] <span>
+- [ ] C
 
 ```
 path('shows/<int:season>/<int:episode>', views.episode_number),
-path(r'shows/<slug:episode_name>/', views.episode_number)
+path('shows/<slug:episode_name>/', views.episode_number)
 ```
 
-- [ ] <span>
+- [ ] D
 
 ```
 url(r'^show/(?P<season>[0-9]+)/(?P<episode>[0-9]+)/$', views.episode_number),
@@ -130,7 +133,7 @@ url(r'^show/(?P<episode_name>[\w-]+)/', views.episode_name
 
 #### Q16. How would you define the relationship between a star and a constellation in a Django model?
 
-- [x] <span>
+- [x] A
 
 ```
 class Star(models.Model):
@@ -139,7 +142,7 @@ class Constellation(models.Model):
 stars = models.ManyToManyField(Star)
 ```
 
-- [ ] <span>
+- [ ] B
 
 ```
 class Star(models.Model):
@@ -148,7 +151,7 @@ class Constellation(models.Model):
 stars = models.ForeignKey(Star, on_delete=models.CASCADE)
 ```
 
-- [ ] <span>
+- [ ] C
 
 ```
 class Star(models.Model):
@@ -157,7 +160,7 @@ class Constellation(models.Model):
 stars = models.OneToManyField(Star)
 ```
 
-- [ ] <span>
+- [ ] D
 
 ```
 class Star(models.Model):
@@ -224,10 +227,10 @@ name = models.CharField(max_length=100)
 
 #### Q25. Django supplies sensible default values for settings. In which Python module can you find these settings?
 
-- [ ] django.utils.default_settings.py
-- [ ] django.utils.global_settings.py
-- [ ] django.conf.default_settings.py
-- [x] django.conf.global_settings.py
+- [ ] `django.utils.default_settings.py`
+- [ ] `django.utils.global_settings.py`
+- [ ] `django.conf.default_settings.py`
+- [x] `django.conf.global_settings.py`
 
 #### Q26. Which variable name is best according to PEP 8 guidelines?
 
@@ -250,7 +253,7 @@ name = models.CharField(max_length=100)
 - [ ] use aggregate functions more easily
 - [ ] build reusable QuerySets
 
-#### Q29. Which is not a Django filed type for integers?
+#### Q29. Which is not a Django filed type for holding integers?
 
 - [ ] SmallIntegerField
 - [x] NegativeIntegerField
@@ -303,8 +306,6 @@ name = models.CharField(max_length=100)
 
 #### Q36. How would you define the relation between a book and an author - book has only one author.
 
-- [ ] <span>
-
 ```
 class Author (models.model):
 book=models.foreignkey(Book,on_delete=models.cascade)
@@ -312,7 +313,7 @@ class Book(models.model):
 name=models.charfield(max_length=100)
 ```
 
-- [x] <span>
+- [x] A
 
 ```python
 class Author (models.model):
@@ -321,7 +322,7 @@ class Book(models.model):
 author=models.foreignkey(Author,on_delete=models.cascade)
 ```
 
-- [ ] <span>
+- [ ] B
 
 ```
 class Author (models.model):
@@ -330,7 +331,7 @@ class Book(models.model):
 author=models.foreignkey(Author)
 ```
 
-- [ ] <span>
+- [ ] C
 
 ```
 class Author (models.model):
@@ -339,7 +340,7 @@ class Book(models.model):
 author=models.foreignkey(Author,on_delete=models.cascade)
 ```
 
-- [ ] <span>
+- [ ] D
 
 ```
 class Author (models.model):
@@ -396,7 +397,7 @@ from rest_framework import serializers
 from .models import Planet
 ```
 
-- [x] <span>
+- [x] A
 
 ```
 class PlanetSerializer(serializers.ModelSerializer):
@@ -405,7 +406,7 @@ model=Planet
 fields=('name','position', 'mass', 'rings')
 ```
 
-- [ ] <span>
+- [ ] B
 
 ```
 from rest_framework import serializers
@@ -416,7 +417,7 @@ fields=('name','position', 'mass', 'rings')
 model=Planet
 ```
 
-- [ ] <span>
+- [ ] C
 
 ```
 from django.db import serializers
@@ -426,7 +427,7 @@ fields=('name','position', 'mass', 'rings')
 model=Sandwich
 ```
 
-- [ ] <span>
+- [ ] D
 
 ```
 from django.db import serializers
@@ -481,9 +482,7 @@ model=Planet
 
 #### Q49. What is the result of this template code?
 
-```
 {{"live long and prosper"|truncate:3}}
-```
 
 - [x] live long and ...
 - [ ] live long and
@@ -517,7 +516,7 @@ model=Planet
 - [ ] a query
 - [x] a serializer
 
-#### Q53. How would you stop Django from performing database table creation or deletion operations via migrations for a particular model?\*\*
+#### Q53. How would you stop Django from performing database table creation or deletion operations via migrations for a particular model?
 
 - [ ] Run the `migrate` command with `--exclude=[model_name]`.
 - [ ] Move the model definition from `models.py` into its own file.
@@ -658,3 +657,49 @@ model=Planet
 - [ ] 80
 - [ ] 8000
 - [ ] It would fail to start
+
+#### Q72. Which statement about Django apps is false?
+
+- [x] A Django app is the top-level container for a web application powered by Django.
+- [ ] Django apps are small libraries designed to represent a single aspect of a project.
+- [ ] Each Django app should do one thing, and one thing alone.
+- [ ] A Django project is made up of many apps.
+
+#### Q73. Which characters are illegal in template variable names?
+
+- [ ] underscores.
+- [ ] uppercase letters.
+- [x] punctuation marks .
+- [ ] numbers.
+
+[Reference](https://docs.djangoproject.com/en/4.1/ref/templates/language/#:~:text=Variable%20names%20consist%20of%20any,may%20not%20be%20a%20number.)
+
+#### Q74. Which is not a valid closing template tag?
+
+- [ ] `% endautoescape %`
+- [x] `% endifempty %`
+- [ ] `% endcomment %`
+- [ ] `% endfilter %`
+
+#### Q75. When would you need to use the reverse_lazy utility function instead of reverse?
+
+- [ ] when you want to provide a reverse URL as a default value for a parameter in a function's signature
+- [x] all of the these answers
+- [ ] when you want to provide a reverse URL as the url attribute of a class-based generic view
+- [ ] when you want to provide a URL to a decorator, such as the login_url argument for the permission_required() decorator
+
+#### Q76. What is the purpose of the **init**.py file?
+
+- [ ] to extend the set of modules found in a package
+- [ ] to allow compiled modules from different releases and different versions of Python to coexist
+- [ ] to initialize project settings
+- [x] to declare the directory contents as a Python module
+
+[Reference](<https://docs.djangoproject.com/en/4.1/ref/urlresolvers/#:~:text=reverse_lazy()&text=It%20is%20useful%20for%20when,a%20generic%20class%2Dbased%20view>)
+
+#### Q77. What python package can be used to edit numbers into more readable form like "1200000" to "1.2 million"?
+
+- [ ] black
+- [ ] puffer
+- [ ] pitch
+- [x] humanize

@@ -188,6 +188,8 @@ To minimize memory costs, when possible prefer streaming via fs.createReadStream
 - [ ] exec("ps", "-ef")
 - [ ] fork("ps -ef")
 
+**Reference:** From official docs: [reference](https://nodejs.org/api/child_process.html#child_processforkmodulepath-args-options)
+
 #### Q22. Which console method can be used to print the stack trace to the point of its execution?
 
 - [ ] stack
@@ -217,6 +219,8 @@ server.listen(port, hostname, () => { console.log(`server running at http://${ho
 - [ ] server running at port 3000
 - [ ] server running at http://localhost:4000/
 - [x] server running at http://127.0.0.1:3000/
+
+**Explanation:** From official docs: [reference](https://nodejs.org/api/http.html#httpcreateserveroptions-requestlistener)
 
 #### Q25. What is the purpose of the path module?
 
@@ -404,6 +408,8 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [x] string_decoder
 - [ ] string_buffer
 
+[Refrence](https://nodejs.org/api/string_decoder.html)
+
 #### Q50. Which global object acts like a bridge between a Node script and the host operating system?
 
 - [ ] v8
@@ -430,7 +436,7 @@ fs.appendFile('hello.txt', `Hello ${user} on ${system}`, (err) => { if (err) thr
 - [x] Event names must be camelCase strings.
 - [ ] The emit method allows a arbitrary set of arguments to be passed to the listener functions.
 - [ ] Any values returned by the listeners for an emitted events are ignored.
-- [ ] When an event emitter objeect emits an event, all of the functions attached to that specific event are called synchronously.
+- [ ] When an event emitter object emits an event, all of the functions attached to that specific event are called synchronously.
 
 #### Q53. Which core module in Node can you use to compile and run JavaScript code in a sandbox environment?
 
@@ -563,12 +569,14 @@ console.log(person);
 - [ ] PHP
 - [ ] c
 
+[Refrence](https://nodejs.dev/en/learn/the-v8-javascript-engine/)
+
 #### Q68. How does it affect the performance of a web application when an execution path contains a CPU-heavy operation, such as calculating a long Fibonacci sequence?
 
 - [ ] As Node.js is asynchronous, this is handled by a libuv and a threadpool. The performance will not notably degrade.
 - [ ] As the application code runs asynchronously within a single thread, the execution will block, accepting no more requests until the operation is completed.
 - [ ] As Node.js is asynchronous, this is handled by a threadpool and the performance will not notably degrade.
-- [x] The current thread will block until the executon is completed and the operating system will spawn new threads to handle incoming requests. This can exhaust the number of allowed threads (255) and degrade performance over time.
+- [x] The current thread will block until the execution is completed and the operating system will spawn new threads to handle incoming requests. This can exhaust the number of allowed threads (255) and degrade performance over time.
 
 #### Q69. What is used for parsing and running Javascript in Node.js?
 
@@ -576,6 +584,8 @@ console.log(person);
 - [ ] Libuv
 - [x] Google V8
 - [ ] Express.js
+
+[Refrence](https://nodejs.dev/en/learn/the-v8-javascript-engine/)
 
 #### Q70. What is the importance of having good practices around status code in your response?
 
@@ -598,7 +608,7 @@ console.log(person);
 - [ ] They are a Node command to validate stability of your code.
 - [ ] They tell if a feature is LTS (Long Term Supported).
 
-#### Q73. Which coice is a core module in Node?
+#### Q73. Which choice is a core module in Node?
 
 - [x] crypto
 - [ ] chalk
@@ -622,3 +632,54 @@ console.log(person);
 - [x] util.types.isDate(value)
 
 [Reference](https://nodejs.org/api/dns.html#dnslookuphostname-options-callback)
+
+#### Q76. When you `require(something)`, where will Node.js attempt to `resolve(something)`?
+
+- [ ] the local .modules folder, then the parents' node_modules folder
+- [ ] the local node_modules folder, then the parents' node_modules folder
+- [ ] the .modules folder under the home directory
+- [ ] a "something.js" file or a "something" folder, which exist on the same level as the requiring file
+
+#### Q77. An external library has its own codebase and license. It is not managed by the Node.js core team. Which choice is an external library that Node.js uses?
+
+- [ ] net
+- [ ] openssl
+- [ ] cluster
+- [ ] events
+
+#### Q78. What is the main purpose of the package-lock.json file?
+
+- [ ] to be a system file
+- [x] to provide an exact, single representation of the dependency tree
+- [ ] to serve as a module to export dependencies
+- [ ] to be a log for the application
+
+#### Q79. How would you determine the number of cluster instances to start when using the cluster module?
+
+- [ ] `const numInstances = process.cpus().length`
+- [ ] `const numInstances = cluster.instances().length`
+- [ ] `const numInstances = cluster.instances()`
+- [ ] `const numInstances = require('os').cpus().length`
+
+#### Q80. What response will you get when you send a get requests to the server with this code?
+
+```
+const http = require('http');
+const hostname = '127.0.0.1';
+const port = 3000;
+
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hello World\n');
+});
+
+server.listen(port, hostname, () => {
+  console.log(`Server running at http://${hostname}:${port}/`);
+});
+```
+
+- [ ] `server running at http://127.0.0.1:3000`
+- [ ] `server running at port 3000`
+- [ ] `server running at http://localhost:3000/`
+- [ ] `server running at http://localhost:4000/`

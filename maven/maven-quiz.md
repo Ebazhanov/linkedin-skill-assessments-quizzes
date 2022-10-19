@@ -276,7 +276,7 @@ mvn install
 - [ ] Maven will include only the App class when it compiles the source code.
 - [ ] Maven will add an empty main method to the App class.
 
-#### Q37. Suppose you are packaging a Maven project and see the following error: “[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!” What do you add to your POM file to set the platform encoding to ensure your build is not platform dependent?
+#### Q37. Suppose you are packaging a Maven project and see the following error: "[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!" What do you add to your POM file to set the platform encoding to ensure your build is not platform dependent?
 
 - [ ] <project.build.resources>
 - [ ] <maven.compiler.source>
@@ -488,3 +488,66 @@ mvn install
 - [ ] the POM file
 
 [maven docs](https://maven.apache.org/what-is-maven.html#:~:text=Maven's%20primary%20goal%20is%20to,Providing%20a%20uniform%20build%20system)
+
+### Q62. What is the Maven central repository?
+
+- [ ] a local repository created by Maven in your local file system
+- [ ] a repository in the middle of your Maven project
+- [x] an online repository for open-source binaries
+- [ ] a repository that you must download to build a Maven project
+
+[!reference](https://www.javatpoint.com/maven-repository)
+
+### Q63. What are the artifacts that Apache Maven uses to perform its build operations?
+
+- [ ] ant files
+- [ ] properties
+- [ ] dependencies
+- [x] plugins
+
+[!reference](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)
+
+### Q64. Which plugin is used to copy, filter, include, and exclude non-Java files into your final project?
+
+- [ ] Build
+- [ ] Files
+- [ ] Copy
+- [x] Resources
+
+[!reference](https://maven.apache.org/plugins/maven-resources-plugin/examples/include-exclude.html)
+
+### Q65. What is a module in a Maven project?
+
+- [ ] a dependency
+- [x] a subproject, or child project
+- [ ] a Java package
+- [ ] a plugin
+
+[!reference](https://docs.jboss.org/tools/latest/en/maven_reference/html/creating_a_maven_application.html)
+
+### Q66. What does the mvn --version command do?
+
+- [ ] It updates Maven to the latest version.
+- [x] It prints out your installed version of Maven.
+- [ ] It builds your Maven project.
+- [ ] It installs Maven on your computer.
+
+[!reference](https://jenkov.com/tutorials/maven/maven-commands.html)
+
+### Q67. When building a Maven project, where are Maven dependencies stored?
+
+- [ ] in the target directory
+- [x] in your local repository
+- [ ] in the POM file
+- [ ] online in the Maven central repository
+
+[!reference](https://www.baeldung.com/maven-local-repository)
+
+### Q68. Why is it best practice not to release SNAPSHOT versions of Maven artifacts to production?
+
+- [ ] A release marked with SNAPSHOT indicates that not all of the tests have passed.
+- [x] A SNAPSHOT can be hard to reproduce, making it difficult to determine the cause of an issue.
+- [ ] SNAPSHOT releases do not contain any dependencies.
+- [ ] A release marked with SNAPSHOT may contain sensitive security information.
+
+[!reference](https://maven.apache.org/guides/getting-started/index.html#What_is_a_SNAPSHOT_version)

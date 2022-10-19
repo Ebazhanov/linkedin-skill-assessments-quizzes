@@ -216,7 +216,7 @@
 - \[x] Maximice el resultado mientras minimiza la producción.
 - \[ ] Optimizar para la utilización de recursos.
 
-`“…your job is to minimize output, and maximize outcome and impact.” - Jeff Patton`
+`"…your job is to minimize output, and maximize outcome and impact." - Jeff Patton`
 
 #### P31. ¿Qué afirmación es cierta sobre el actor en una historia de usuario?
 
@@ -677,7 +677,7 @@
 - \[ ] especialista en generalización
 - \[ ] aprendiz de desarrollador
 
-[Fuente](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of “T-shaped” people. This can also be described as a cross-functionality.`
+[Fuente](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of "T-shaped" people. This can also be described as a cross-functionality.`
 
 #### Pregunta 95. ¿Qué es un lienzo magro?
 

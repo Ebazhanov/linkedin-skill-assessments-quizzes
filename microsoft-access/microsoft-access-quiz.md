@@ -10,7 +10,7 @@
 #### Q2. How can you add multiple view button controls to a form at once?
 
 - [ ] Double-click the button control to lock it on, then left-click in the form to add each button
-- [ ] Right-click the button control and select Drop Multiple Controls. Then left-click to add each button to a form
+- [x] Right-click the button control and select Drop Multiple Controls. Then left-click to add each button to a form
 - [ ] Select the Multiple Object check box in the Design tab before selecting the button control
 - [ ] Left-click the button control to select it, then add multiples to the form by right-clicking in the position you'd like to add them
 
@@ -70,7 +70,7 @@
 #### Q9. You want to create a form to view customer's details, as well as some information about all order that the customer has placed with your company. What is the best way to display this information on a single screen?
 
 - [ ] Use a form to display the customer details with a subform linked to their order information
-- [ ] Create a split form that displays the customer information at the top and the order history in the table below
+- [x] Create a split form that displays the customer information at the top and the order history in the table below
 - [ ] Create a navigation form that includes a form for the customer details and a separate form for the order history
 - [ ] Create a continous form that uses a query to gather all of the customer details and order history in a single record source
 
@@ -141,7 +141,7 @@
 - [x] `IIf()`
 - [ ] `Choose()`
 
-https://support.microsoft.com/en-us/office/iif-function-32436ecf-c629-48a3-9900-647539c764e3
+[Reference](https://support.microsoft.com/en-us/office/iif-function-32436ecf-c629-48a3-9900-647539c764e3)
 
 #### Q17. The display for numerical data defaults to a **\_alignment, and text data defaults to **\_aligntment
 

@@ -347,10 +347,12 @@
 
 #### Q38. What cannot have a trigger associated with it?
 
-- [ ] temporary table
-- [x] system table
+- [x] temporary table
+- [ ] system table
 - [ ] large table
 - [ ] new table
+
+[Reference](https://dev.mysql.com/doc/refman/5.7/en/create-trigger.html)
 
 #### Q39. later versions of mysql support the native json data type for storing json documents. What is a drawback of json columns?
 
@@ -370,10 +372,10 @@
 
 #### Q41. Which statement can you use to load data from a file into the table?
 
-- [ ] cat file|mysql
-- [x] load data infile (correct if the file is already on the server)
-- [ ] load data local infile (also correct but only if the file is from the client)
-- [ ] extended insert statement
+- [ ] `cat file | mysql`
+- [x] `LOAD DATA INFILE`
+- [ ] `LOAD DATA LOCAL INFILE`
+- [ ] `extended INSERT statement`
 
 #### Q42. You are working with the tables as shown in this diagram. You need to make sure that any record added to the purchases table consists of a customerID, which already exists in the customers table, and a carID, which already exists in the cars table. You decide to use a trigger to do the validation. Which one do you use?
 
@@ -620,14 +622,15 @@ Note: the last option is valid too but the results will be enclosed with quotati
 
 #### Q67. You are working with the table in this diagram. You want to use full-text search to find the customers who live on a street or a drive. What is the command to do that?
 
-Table name: customers
-| ID | lastname | firstname | phone | address | city | state | zip |
+Table name: **customers**
+
+| ID   | lastname | firstname | phone        | address             | city        | state | zip   |
 | ---- | -------- | --------- | ------------ | ------------------- | ----------- | ----- | ----- |
-| A001 | Smith | Bob | 212-555-1212 | 1001 1st Street | New York | NY | 10001 |
-| A002 | Chang | John | 213-555-5678 | 888 Rodeo Drive | Los Angeles | CA | 90210 |
-| A003 | Smith | Mary | 999-999-9999 | 123 Main Street | Anytown | VA | 12345 |
-| A004 | Johnson | Jack | 312-312-3120 | 1111 Chicago Avenue | Chicago | IL | 60606 |
-| A005 | Lopez | Linda | 737-777-3333 | 123 Main Street | Austin | TX | 73344 |
+| A001 | Smith    | Bob       | 212-555-1212 | 1001 1st Street     | New York    | NY    | 10001 |
+| A002 | Chang    | John      | 213-555-5678 | 888 Rodeo Drive     | Los Angeles | CA    | 90210 |
+| A003 | Smith    | Mary      | 999-999-9999 | 123 Main Street     | Anytown     | VA    | 12345 |
+| A004 | Johnson  | Jack      | 312-312-3120 | 1111 Chicago Avenue | Chicago     | IL    | 60606 |
+| A005 | Lopez    | Linda     | 737-777-3333 | 123 Main Street     | Austin      | TX    | 73344 |
 
 - [ ] A
 
@@ -1023,3 +1026,74 @@ Table name: superheroes
 - [ ] `DROP TEMP TABLE customers;`
 - [ ] `DROP TEMPORARY TABLE customers;`
 - [x] `DROP TABLE customers;`
+
+#### Q106. How would you make a case-insensitive query in MySQL?
+
+- [ ] `SELECT * FROM customers WHERE UPPEERCASE(LastName) = 'POTTER';`
+- [ ] `SELECT * FROM customers WHERE LOWERCASE(LastName) = 'potter';`
+- [x] `SELECT * FROM customers WHERE UPPER(LastName) = 'POTTER';`
+- [ ] `SELECT * FROM customers WHERE UPPER(LastName) = 'Potter';`
+
+#### Q107. "COUNT" keyword belongs to which categories in Mysql?
+
+- [x] Aggregate functions
+- [ ] Operators``
+- [ ] Clauses
+- [ ] All of the mentioned`
+
+#### Q108. Which among the following belongs to an "aggregate function"?
+
+- [x] COUNT
+- [ ] UPPER`
+- [ ] LOWER
+- [ ] All of the mentioned
+
+#### Q109. What is the meaning of "HAVING" clause in Mysql?
+
+- [ ] To filter out the column values
+- [x] To filter out the row values
+- [ ] To filter out the row and column values
+- [ ] None of the mentioned
+
+#### Q110. Which clause is similar to "HAVING" clause in Mysql?
+
+- [ ] SELECT
+- [ ] FROM
+- [x] WHERE
+- [ ] None of the mentioned
+
+#### Q111. What will be the output of the following MySQL command?
+
+      SELECT emp_id, fname, lname
+      FROM employee
+      WHERE title=’HEAD TELLER’ AND start_date&gt;2008-11-23;
+
+- [ ] All columns
+- [ ] Only those columns which are mention with "SELECT" clause
+- [x] Columns mention with "SELECT" clause and only those rows which contain 'HEAD TELLER' as a "title"
+- [ ] None of the mentioned
+
+#### Q112. Is there any error in the following MySQL statement?
+
+      SELECT e.emp_id, e.fname,e.lname,d.name
+      FROM employee e INNER JOIN department d
+      ON e.dept_id=e.dept_id;
+
+- [x] NO
+- [ ] YES
+- [ ] DEPEND
+- [ ] None of the mentioned
+
+#### Q113. Later versions of MySQL support the native JSON data type for storing JSON documents. What is a drawback of JSON columns?
+
+- [ ] JSON columns cannot be normalized.
+- [x] JSON columns cannot be indexed directly.
+- [ ] JSON columns are inefficient for storing JSON documents.
+- [ ] JSON documents cannot be validated when stored in JSON columns.
+
+#### Q114. With MySQL, how do you select all the records from a table named "Persons" where the "LastName" is alphabetically between (and including) "Hansen" and "Pettersen"?
+
+- [ ] `SELECT LastName>'Hansen' AND LastName<'Pettersen' FROM Persons`
+- [ ] `SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'`
+- [ ] `SELECT * FROM Persons WHERE LastName>'Hansen' AND LastName<'Pettersen'`
+- [ ] `None of the above.`

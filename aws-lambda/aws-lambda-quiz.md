@@ -296,9 +296,9 @@
 
 #### Q43. What is the relationship between SAM template and CloudFormation template files?
 
-- [x] SAM templates are a superset of CloudFormation templates. SAM templates include additional resource types.
+- [ ] SAM templates are a superset of CloudFormation templates. SAM templates include additional resource types.
 - [ ] SAM templates have some overlap with CloudFormation templates. Both SAM and CloudFormation templates include resource types that are not in the other type of template.
-- [ ] CloudFormation templates are a superset of SAM templates. CloudFormation templates include additional resource types.
+- [x] CloudFormation templates are a superset of SAM templates. CloudFormation templates include additional resource types.
 - [ ] SAM templates are a different name for CloudFormation templates. Both template types include the same resource types.
 
 #### Q44. What service deploys Lambdas regionally?
@@ -342,9 +342,9 @@
 
 #### Q49. When you use a resource-based policy to give a service, resource, or account access to your function, how can you apply the scope of that permission??
 
-- [ ] at the function levelat the function level
-- [ ] at the alias or function levelat the alias or function level
-- [ ] at the version, alias, or function levelat the version, alias, or function level
+- [ ] at the function level
+- [ ] at the alias or function level
+- [ ] at the version, alias, or function level
 - [ ] at the version or function level
 
 #### Q50. Lambda can read events from which other AWS services? (ref-https://docs.aws.amazon.com/lambda/latest/dg/lambda-services.html)
@@ -352,4 +352,61 @@
 - [ ] Kinesis, S3, and SQS
 - [ ] Kinesis, S3, and SNS
 - [ ] Kinesis, DynamoDB, and SNS
-- [ ] Kinesis, DynamoDB, and SQS
+- [x] Kinesis, DynamoDB, and SQS
+
+**Explanation** `Lambda can used for all services mentioned on the question: Kinesis, S3, SNS, SQS, DynamoDB. But as you can see in the reference, Lambda's responsibility and method invocation can be categorized by Lambda polling and Event Driven (synchronous invocation). When you implement an event-driven architecture, you grant the event-generating service permission to invoke your function in the function's resource-based policy. Then you configure that service to generate events that invoke your function. When you implement a Lambda polling architecture, you grant Lambda permission to access the other service in the function's execution role. Lambda reads data from the other service, creates an event, and invokes your function. According to this analytics, Kinesis-DynamoDB-SQS use same method invocation, Lambda polling.`
+
+#### Q51. Via what can a Lambda be called?
+
+- [x] all of these answers
+- [ ] a DynamoDB trigger
+- [ ] an API Gateway
+- [ ] an S3 bucket event
+
+**Explanation** (source google)
+
+- `With DynamoDB Streams, you can trigger a Lambda function to perform additional work each time a DynamoDB table is updated. Lambda reads records from the stream and invokes your function synchronously with an event that contains stream records.`
+- `These events are considered synchronous events. Simply put, it means that when somebody is calling an API Gateway, it will trigger your Lambda function. It's a synchronous event because your Lambda function has to respond to the client directly at the end of its invocation.`
+- `You can use Lambda to process event notifications from Amazon Simple Storage Service. Amazon S3 can send an event to a Lambda function when an object is created or deleted.`
+
+#### 52. which is use case of lambda ?
+
+- [ ] Image processing
+- [ ] web application
+- [x] both
+- [ ] Neither 1st and 2nd
+
+#### Q53. Events are AWS resources that trigger the Lambda function. What data type is the SAM file Events property?
+
+- [ ] Integer
+- [ ] Float
+- [x] Array
+- [ ] String
+
+#### Q54. A company is using an API built using Amazon Lambda, Amazon API Gateway, and Amazon DynamoDB in production. The developer has observed high latency during peak periods. Which approach would best resolve the issue?
+
+- [ ] Increase the Lambda function timeout
+- [ ] Route traffic to API Gateway using a Route 53 alias
+- [ ] Disable payload compression for the API
+- [x] Enable API Gateway stage-level caching
+
+#### Q55. The AWS Serverless Application Model (AWS SAM) is a model that \_\_\_\_ .
+
+- [x] defines serverless applications
+- [ ] associates permissions policies
+- [ ] creates Lambda functions
+- [ ] packages deployment artifacts
+
+#### Q56. The code that you want AWS Lambda to invoke as per some defined triggers is known as **\_**.
+
+- [ ] the event source
+- [ ] the downstream resource
+- [ ] the log stream
+- [x] the Lambda function
+
+#### Q57. A developer has created a Lambda function to scrub real-time data of extraneous information and then send the scrubbed data to Kinesis for further processing and storage. Some of the data showing up in Kinesis seems to be inaccurate. What's the best way for the developer to debug this?
+
+- [ ] Look directly at the Lambda Logs in CloudWatch
+- [ ] Send the Lambda failures to a Dead Letter Queue
+- [x] Use AWS X-Ray to step through the function
+- [ ] Use Kinesis to write their own custom logging tool

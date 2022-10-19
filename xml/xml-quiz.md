@@ -42,7 +42,7 @@
 
 #### Q3. You are converting your HTML file into XHTML Strict. Which code snippet will validate without errors?
 
-- [ ]
+- [ ] :
   ```xml
   <html xmlns="http://www.w3.org/1999/xhtml">
       <head><title>XHTML Example</title></head>
@@ -51,7 +51,7 @@
       </body>
   </html>
   ```
-- [ ]
+- [ ] :
   ```xml
   <html xmlns="http://www.w3.org/1999/xhtml">
       <head><title>XHTML Example</title></head>
@@ -60,7 +60,7 @@
       </body>
   </html>
   ```
-- [ ]
+- [ ] :
   ```xml
   <html xmlns="http://www.w3.org/1999/xhtml">
       <head><title>XHTML Example</title></head>
@@ -69,7 +69,7 @@
       </body>
   </html>
   ```
-- [x]
+- [x] :
   ```xml
   <html xmlns="http://www.w3.org/1999/xhtml">
       <head><title>XHTML Example</title></head>
@@ -297,7 +297,7 @@
 </cars>
 ```
 
-- [ ]
+- [ ] :
 
 ```xquery
 <ul>
@@ -310,7 +310,7 @@
 </ul>
 ```
 
-- [ ]
+- [ ] :
 
 ```xquery
 <ol>
@@ -323,7 +323,7 @@
 </ol>
 ```
 
-- [ ]
+- [ ] :
 
 ```xquery
 <ul>
@@ -336,7 +336,7 @@
 </ul>
 ```
 
-- [x]
+- [x] :
 
 ```xquery
 <ol>
@@ -489,7 +489,7 @@ NOTE: [XPather](http://xpather.com/) shows that all answers are incorrect. Repor
 </cars>
 ```
 
-- [ ]
+- [ ] :
 
 ```css
 cars {
@@ -503,17 +503,22 @@ car(year) {
 }
 ```
 
-- [x]
+- [x] :
 
 ```css
-car, cars { display: block; }
-make, model, year {
+car,
+cars {
+  display: block;
+}
+make,
+model,
+year {
   display: inline;
   padding-top: 0.5em;
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```css
 cars {
@@ -527,7 +532,7 @@ car.year {
 }
 ```
 
-- [ ]
+- [ ] :
 
 ```css
 cars {
@@ -541,12 +546,12 @@ car#year {
 }
 ```
 
-#### Q41. An XML document contains this code as part of the DTD: <!ELEMENT car (make, model?, year+, price*)>. What are the rules that need to be followed for each of the elements?
+#### Q41. An XML document contains this code as part of the DTD: `<!ELEMENT car (make, model?, year+, price*)>`. What are the rules that need to be followed for each of the elements?
 
-- [ ] <make> is required, <model> is optional, <year> is optional, and <price> is optional.
-- [ ] <make> is required, <model> is required, <year> is optional, and <price> is optional.
-- [ ] <make> is required, <model> is required, <year> is required, and <price> is optional.
-- [x] <make> is required, <model> is optional, <year> is required, and <price> is optional.
+- [ ] `<make>` is required, `<model>` is optional, `<year>` is optional, and `<price>` is optional.
+- [ ] `<make>` is required, `<model>` is required, `<year>` is optional, and `<price>` is optional.
+- [ ] `<make>` is required, `<model>` is required, `<year>` is required, and `<price>` is optional.
+- [x] `<make>` is required, `<model>` is optional, `<year>` is required, and `<price>` is optional.
 
 #### Q42. Which element in this XML code is not a good candidate for conversion into an attribute?
 
@@ -603,3 +608,16 @@ car#year {
 - [ ] `nextSibling`
 - [x] `nodeValue`
 - [ ] `nodename`
+
+#### Q47. If you open up the document below in a web browser, what result do you expect?
+
+```xml
+<document >
+    ´<.msg-1>Hello World!</.msg-1>
+</document>
+```
+
+- [ ] The browser will display the entire XML document.
+- [ ] The browser will display just the string Hello World!
+- [ ] The browser will report a syntax error because it includes an element that has a hyphen character.
+- [x] The browser will report a syntax error because it includes an element that starts with a period.

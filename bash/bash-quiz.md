@@ -105,7 +105,7 @@ mysql < file.sql > file.txt
 - [ ] the error output of the MySQL command
 - [x] the non-error output of the MySQL command
 
-Note: check the question below for a variant.
+**Note**: `check the question below for a variant.`
 
 #### Q11. What will be the difference between the output on the screen and the contents of out.txt
 
@@ -118,7 +118,7 @@ mysql < file.sql > out.txt
 - [ ] The output on the screen will be identical to out.txt plus line numbers.
 - [ ] The out.txt file will hold STDERR and STDOUT will go to the screen.
 
-Note: check the question above for a variant.
+**Note**: `check the question above for a variant.`
 
 #### Q12. How does the SUID or setuid affect executable commands?
 
@@ -234,7 +234,7 @@ E. bash demo.sh
 - [ ] `find *.html`
 - [x] `find . -name \*.html -print`
 
-The second seems well, but will expand the \* if there is any .html file on your working directory.
+`The second seems well, but will expand the \* if there is any .html file on your working directory.`
 
 #### Q24. What would be in out.txt?
 
@@ -324,8 +324,8 @@ echo ${!fname}
 
 - [ ] `A` ![A](images/Q30/A.png)
 - [ ] `B` ![B](images/Q30/B.png)
-- [x] `C` ![C](images/Q30/C.png)
-- [ ] `D` ![D](images/Q30/D.png)
+- [ ] `C` ![C](images/Q30/D.png)
+- [x] `D` ![D](images/Q30/C.png)
 
 Here's a text based version of Q.30:
 
@@ -517,7 +517,7 @@ The regex must not be quoted to work properly.
 #### Q43. How would you find the last copy command run in your history?
 
 - [ ] history | find cp
-- [x] history | grep cp
+- [x] history | grep cp\*\*
 - [ ] grep cp history
 - [ ] cp history
 
@@ -717,9 +717,7 @@ textfile1.txt
 textfile2.txt
 ```
 
-- [ ] c
-
-All of this files will be deleted
+- [ ] `c : All of this files will be deleted`
 
 - [x] d:
 
@@ -783,7 +781,7 @@ var="A constant is a variable that is a variable that isn't variable"
 echo "$var" | sed _____
 ```
 
-- [x] s/\(.*\)variable\(.*variable\)/\1rock\2/'
+- [x] <b>s/\(.*\)variable\(.*variable\)/\1rock\2/'</b>
 - [ ] s/variable/rock/'
 - [ ] s/variable/rock/g'
 - [ ] s/(.*\)variable\(.*variable\)/\1rock\2/'
@@ -818,10 +816,10 @@ echo "$var" | sed _____
 
 #### Q66. To run a group of commands without spawning a subshell, which syntax would you use?
 
-- [ ] sh command1; command2
-- [ ] { command1; command2; }
+- [ ] (command1; command2)
+- [x] { command1; command2; }
 - [ ] (( command1; command2 ))
-- [x] command1; command2
+- [ ] command1; command2
 
 #### Q67. What are the results of the command with a user named jon?
 
@@ -907,7 +905,8 @@ fileb.txt
 filec.txt
 ```
 
-The caret (`^`) symbol here negates matches inside the bracket. [Reference](https://tldp.org/LDP/abs/html/globbingref.html)
+[Reference](https://tldp.org/LDP/abs/html/globbingref.html)
+`The caret (`^`) symbol here negates matches inside the bracket.`
 
 #### Q73. What is the output of this command sequence?
 
@@ -972,9 +971,8 @@ exec 3>&-
 - [x] 123456789
 - [ ] the number 5, which is written to the file using echo
 
-See [I/O Redirection](https://tldp.org/LDP/abs/html/io-redirection.html)
-
-See also: [What is the difference between "echo" and "echo -n"?](https://stackoverflow.com/questions/30761986/what-is-the-difference-between-echo-and-echo-n)
+1. [I/O Redirection](https://tldp.org/LDP/abs/html/io-redirection.html)
+2. [What is the difference between "echo" and "echo -n"?](https://stackoverflow.com/questions/30761986/what-is-the-difference-between-echo-and-echo-n)
 
 #### Q75. Which variable contains the process ID (PID) of the script while it's running?
 

@@ -186,6 +186,11 @@
 - [ ] Azure SQL Database
 - [ ] SQL Managed Instance
 
+**Explanation:** For many businesses and applications, creating individual databases and scaling performance up or down as needed is sufficient, especially when usage patterns are relatively predictable. Unpredictable usage patterns can make it difficult to manage costs and your business model. Elastic pools aim to solve this problem. Performance resources are allocated to a pool, not to a single database. You pay for the collective performance resources of the pool, not for the performance of a single database.
+
+1. [Reference](https://docs.microsoft.com/en-us/azure/azure-functions/functions-triggers-bindings?tabs=csharp)
+2. [Reference](https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview?view=azuresql)
+
 #### Q25. Your photo app hosted in Azure records user operations in a log for historical reference. Records must not be overwritten. Which storage type should you select to host log data?
 
 - [x] append blob
@@ -416,7 +421,90 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 
 #### Q54. You are selecting a cloud messaging solution for your multimedia news app. The app routes news items to the appropriate services for processing and delivery to subscribers. Requirements for the solution are as follows: Events should be routed to the appropriate service to process event; events must be routed to multiple services when necessary; and only relevant events should be routed to a service for processing. Which solution should you use?
 
-- [ ] Event Grid
+- [x] Event Grid
 - [ ] Service Bus
 - [ ] Event Hub
 - [ ] Queue Storage
+
+**Explanation:** Event Grid is a highly scalable serverless event broker that lets you integrate applications using events. Events are delivered from Event Grid to subscriber destinations such as applications, Azure services, or any endpoint that Event Grid has network access to. The source of these events can be other applications, SaaS services, and Azure services.
+
+[Ref](https://learn.microsoft.com/en-us/azure/event-grid/overview)
+
+#### Q55. You need to create an application in Azure Active Direcotry representing the Kineteco Web App so you can assign directory permission to the app. To create the application identity, which command will you run?
+
+- [ ] `bash az ad app permission grant ...
+- [ ] `bash az ad app credential create ...
+- [x] `bash az ad app create ...
+- [ ] `bash az ad app permission ass ...
+
+[Ref](https://docs.microsoft.com/en-us/cli/azure/ad/app?view=azure-cli-latest)
+
+#### Q56. Which type of Azure snapshot works by snapshotting the differences between the virtual machine and the current state?
+
+- [ ] full
+- [ ] delta
+- [ ] non-redundant
+- [x] incremental
+
+#### Q57. Which PowerShell commandlet connects and authenticates to the Azure portal?
+
+- [ ] Login-AzTenant
+- [ ] Login-AzPortal
+- [ ] Auth-Az
+- [x] Connect-AzAccount
+
+#### Q58. Which hybrid connection option to Azure Virtual Desktop offers the highest bandwidth and best performance?
+
+- [x] Azure ExpressRoute
+- [ ] RDP Shortpath
+- [ ] Site-to-Site VPN
+- [ ] Point-to-Site VPN
+
+#### Q59. In Azure Virtual Desktop, you can **\_** the storage accounts associated with FSLogix to enable you to control access using Active Directory Domain Services.
+
+- [x] domain join
+- [ ] profile
+- [ ] VPN connect
+- [ ] join integrate
+
+#### Q60. Which storage solution for FSLogix in Azure Virtual Desktop is the highest-performing storage solution in the cloud today?
+
+- [ ] Windows Storage Spaces Direct File Server Cluster
+- [ ] Azure Files
+- [x] Azure NetApp Files
+- [ ] Avere vFXT for Azure
+
+#### Q61. In an Azure Pipeline, what type of wildcard is used to stand in for a single character?
+
+- [ ] `*`
+- [ ] `#`
+- [x] `?`
+- [ ] `&`
+
+#### Q62. To execute your pipeline in Azure DevOps, you will need to use **\*\***\_**\*\***.
+
+- [ ] gates
+- [x] agents
+- [ ] packages
+- [ ] variables
+
+#### Q63. Which of the following is true if parallelism is desired in Azure Pipelines?
+
+- [ ] No more than one build agent can be used.
+- [x] More than one build agent is required.
+- [ ] Complexity is reduced with parallelism.
+- [ ] A maximum number of build agents constrains it.
+
+#### Q64. In an Azure Pipeline, a build agent is a piece of software that runs a series of tasks, called a \***\*\_\_\_\*\***, on a machine.
+
+- [ ] String
+- [ ] Circuit
+- [x] Job
+- [ ] Commit
+
+#### Q65. In Azure Pipelines, if a build has four jobs that can be run concurrently, but only three agents are available, what will happen?
+
+- [x] Only three jobs will run in parallel at one given time.
+- [ ] The build will override one of the jobs so that it can run.
+- [ ] The build will forfeit and not run at all.
+- [ ] The build will wait until another agent becomes available.

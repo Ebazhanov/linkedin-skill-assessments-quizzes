@@ -161,11 +161,13 @@
 - [ ] multilevel
 - [ ] hierarchical
 
-> Single Inheritance is where a derived class inherits properties and behaviour from a single base class. Example: Class A → Class B.
-> Hierarchical Inheritance is where more than one derived class is created from a single base class. Example: Class A → Class B → Class C.
-> Multiple Inheritance is for deriving a class from multiple base classes. Here, the child objects programmers create will have combined aspects of characteristics and features from multiple parent classes. These objects do follow their hierarchies of base classes.
-> Multilevel Inheritance is where a child class is derived from another derived class. This feature carries combined aspects of multiple classes and follows their hierarchies.
-> Hybrid Inheritance is a heterogeneous feature of using multiple inheritances. Here a child class is derived from one or more combinations of single, hierarchical, and multilevel inheritances. This inheritance is adopted for programs to mix different types of inheritance; for example, when mixing a single inheritance with multiple inheritances or maybe a situation when multiple inheritances are mixed within a single program.
+```
+- Single Inheritance is where a derived class inherits properties and behaviour from a single base class. Example: Class A → Class B.
+- Hierarchical Inheritance is where more than one derived class is created from a single base class. Example: Class A → Class B → Class C.
+- Multiple Inheritance is for deriving a class from multiple base classes. Here, the child objects programmers create will have combined aspects of characteristics and features from multiple parent classes. These objects do follow their hierarchies of base classes.
+- Multilevel Inheritance is where a child class is derived from another derived class. This feature carries combined aspects of multiple classes and follows their hierarchies.
+- Hybrid Inheritance is a heterogeneous feature of using multiple inheritances. Here a child class is derived from one or more combinations of single, hierarchical, and multilevel inheritances. This inheritance is adopted for programs to mix different types of inheritance; for example, when mixing a single inheritance with multiple inheritances or maybe a situation when multiple inheritances are mixed within a single program.
+```
 
 [reference](https://www.codingninjas.com/blog/2021/09/23/hybrid-inheritance-in-java)
 
@@ -309,7 +311,7 @@
 - [ ] to delegate coding responsibility more efficiently
 - [ ] to conserve memory
 - [x] to avoid writing duplicate code
-- [x] to separate class behavior from the more general
+- [ ] to separate class behavior from the more general
 
 _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is it also true?
 
@@ -390,12 +392,12 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 - [ ] It lists all actors for each use case.
 - [ ] It minimizes the number of actors required.
 
-#### Q54. How do object behaviour and attributes differ?
+#### Q54. How do object behavior and attributes differ?
 
-- [ ] Behaviour describe dynamic properties; attributes are static.
-- [x] Attributes describe a state; behaviours describe a change.
-- [ ] Attributes apply only to a specified object; behaviour apply to other linked objects.
-- [ ] Behaviours are vector quantities; attributes are scalars.
+- [ ] Behavior describe dynamic properties; attributes are static.
+- [x] Attributes describe a state; behaviors describe a change.
+- [ ] Attributes apply only to a specified object; behavior apply to other linked objects.
+- [ ] Behaviors are vector quantities; attributes are scalars.
 
 #### Q55. The open/closed principle states that classes should be open for \_ but closed for \_.
 
@@ -469,7 +471,7 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 
 #### Q65. Why is inheritance?
 
-- [ ] ...
+- [x] ...
 
 #### Q66. What is the best example of a superclass and subclass relationship?
 
@@ -614,10 +616,10 @@ public class Honda extends Car{}
 
 #### Q80. Static polymorphism uses method \_ ?
 
-- [x] overloading
+- [ ] overloading
 - [ ] inheritance
 - [ ] abstraction
-- [ ] overriding
+- [x] overriding
 
 #### Q81. What does a concrete class not have?
 
@@ -670,9 +672,67 @@ public class Honda extends Car{}
 - [ ] Many client-specific interfaces are better than one general-purpose interface.
 - [x] objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.
 
-#### Q88. In addition to responsabilities, what should be listed on Class-responsability-collaboration (CRC) cards?
+#### Q88. In addition to responsibilities, what should be listed on Class-responsability-collaboration (CRC) cards?
 
 - [ ] which programming language will be used.
 - [ ] the programmer responsible for implementation.
 - [ ] interacting classes.
 - [x] attributes.
+
+#### Q89. What is the best name for the function that corrects this assessment?
+
+- [ ] makeResult()
+- [ ] questionScore()
+- [x] calculateScore()
+- [ ] getAnswers()
+
+#### Q90. Which relationship best illustrates an abstract-concrete class relationship?
+
+- [ ] cat : kitten
+- [ ] color : red
+- [ ] planet : moon
+- [x] truck : window
+
+#### Q91. Which relationship best illustrates an abstract-concrete class relationship?
+
+- [ ] only the amount of levels memory permits, divided by processor speed
+- [ ] only 10 levels of inheritance
+- [x] as many levels of inheritance as required
+- [ ] as many levels of inheritance as required within 10 minutes
+
+#### Q92. What cannot be used for polymorphism?
+
+- [ ] overloading constructors
+- [ ] overloading member functions
+- [x] static member functions
+- [ ] overloading predefined operator
+
+#### Q93. How many levels does multilevel inheritance allow in a program?
+
+- [ ] only 10 levels of inheritance
+- [ ] as many levels of inheritance as required within 10 minutes
+- [ ] as many levels of inheritance as required
+- [x] only the amount of levels memory permits, divided by processor speed
+
+#### Q94. What is a virtual Method?
+
+- [x] a method that you expect may be redefined in derived classes
+- [ ] a method that you do not expect to be redefined in derived classes
+- [ ] a private method that you do not expect to be redefined in derived public classes
+- [ ] a method that exists temporarily - once used, it ceases to be used by any caller
+
+#### Q95. Which of these is not a basic principle of Object Oriented Programming?
+
+- [ ] Encapsulation
+- [x] Compilation
+- [ ] Inheritance
+- [ ] Polymorphism
+
+[Reference](https://www.interviewbit.com/blog/principles-of-oops/)
+
+#### Q96. How do object behaviour and attributes differ?
+
+- [ ] Behaviour describe dynamic properties; attributes are static.
+- [x] Attributes describe a state; behaviours describe a change.
+- [ ] Attributes apply only to a specified object; behaviour apply to other linked objects.
+- [ ] Behaviours are vector quantities; attributes are scalars.

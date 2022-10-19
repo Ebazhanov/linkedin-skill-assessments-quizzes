@@ -530,12 +530,13 @@ Note: count() works with find(...) but length works with distinct
 
 #### Q75. What is the internal data structure of a MongoDB document?
 
-- [x] JSON (JavaScript Object Notation)
-- [ ] BSON (Binary JSON)
+- [ ] JSON (JavaScript Object Notation)
+- [x] BSON (Binary JSON)
 - [ ] ORM (object relational mode)
 - [ ] MBF (MongoDB binary format)
 
-[MongoDB documentation](https://docs.mongodb.com/guides/server/introduction/)
+[MongoDB documentation](https://www.mongodb.com/docs/manual/core/document/)
+[JSON and BSON](https://www.mongodb.com/json-and-bson)
 
 #### Q76. Which projection shows only the FirstName and lastName fields of a document in the customers collection?
 
@@ -588,3 +589,26 @@ Note: count() works with find(...) but length works with distinct
 - [ ] XML
 
 [MongoDB reference](https://www.mongodb.com/docs/manual/core/read-preference-tags/)
+
+#### Q82. When using the mongoimport command, how can you drop the database before importing?
+
+- [x] Use the -d option.
+- [ ] Use the mongooverwrite command instead of mongoimport.
+- [ ] Use the -drop option.
+- [ ] Drop the database manually before importing.
+
+#### Q83. To import a CSV file into MongoDB, which command should you issue?
+
+- [ ] upload
+- [ ] mongorestore
+- [ ] mongoi
+- [x] mongoimport
+
+#### Q84. A critical record must be replicated to the two other servers in the set. Which query guarantees that it is inserted as desired?
+
+- [ ] `db.inventory.insert({ prodid: "tab1122", qty : 10}, { writeConcern: { w: 2, wtimeout: 5000} })`
+- [ ] `db.inventory.insert({ prodid: "tab1122", qty : 10}, { writeConcern: { j: true} })`
+- [ ] `db.inventory.insert({ prodid: "tab1122", qty : 10}, { writeConcern: { w: 2, j:false, wtimeout: 5000} })`
+- [x] `db.inventory.insert({ prodid: "tab1122", qty : 10}, { writeConcern: { w: 2, j:true, wtimeout: 5000} })`
+
+[MongoDB reference](https://www.mongodb.com/docs/manual/reference/write-concern/)

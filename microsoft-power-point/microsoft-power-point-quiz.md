@@ -231,11 +231,11 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [x] Convert to SmartArt.
 - [ ] Convert to Picture.
 
-#### Q30. You need to reorder the levels of shapes on a SmartArt diagram. How can this be done
+#### Q30. How can you reorder the levels of shapes in a SmartArt diagram?
 
 - [ ] Retype the text
 - [ ] Change the shapes from rifht to left.
-- [x] Promote Shapes and/or Demote Shapes.
+- [x] Promote or Demote the shapes
 - [ ] Move the shapes up and down.
 
 #### Q31. Why would you trim a video?
@@ -328,8 +328,10 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 - [ ] Select the picture icon in a SmartArt Picture Diagram.
 - [ ] Select the icon in a SmartArt Icon Diagram.
-- [ ] Select Insert Icon and place it on top of the SmartArt Diagram.
+- [x] Select Insert Icon and place it on top of the SmartArt Diagram.
 - [ ] Select a SmartArt shape and select Insert Icon.
+
+[reference](https://answers.microsoft.com/en-us/msoffice/forum/all/using-icons-in-smartart-vertical-picture-list/25230ba4-50b2-426a-88ce-caa0d4c71672)
 
 #### Q44. You are having trouble playing back a presentation smoothly. What should you do?
 
@@ -338,7 +340,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [x] all of these answers
 - [ ] Select the **Show without animation** option.
 
-#### Q45. Which feature lets you configure multiple combinations of specific slides for playback from a larger slideshow?
+#### Q45. Which feature lets you configure multiple combinations of specific slides for playback from a larger slide show?
 
 - [ ] Record Slide Show
 - [ ] Rehearse Timings
@@ -456,10 +458,12 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 #### Q59. Why would you use Outline view?
 
-- [ ] to quickly edit titles or bulleted text in the Slide pane
+- [x] to quickly edit titles or bulleted text in the Slide pane
 - [ ] to view the comments on all slides
 - [ ] to add notes in the Slide pane
 - [ ] to change the font on all slides
+
+[Reference](https://support.microsoft.com/en-us/office/create-and-print-a-presentation-in-outline-view-3516310c-c9c0-4d4f-8c11-2759313477a5#:~:text=Working%20in%20Outline%20view%20is,A%20main%20title%20slide)
 
 #### Q60. Before publishing a presentation, which option should you use to scan a presentation and look for issues that may make it difficult for someone with a visual impairment to read?
 
@@ -474,7 +478,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 - [ ] Edit the data to remove the data for the series or category.
 - [ ] Switch the rows and columns.
-- [ ] Use a filter so the data series or category does not display.
+- [x] Use a filter so the data series or category does not display.
 - [ ] Change the chart type.
 
 #### Q62. You have an object that needs to follow a specific motion path - including curves, straight lines, and loops - on the slide. Which animation gives the capability to draw this?
@@ -574,9 +578,11 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 #### Q74. You created a photo album with transitions and want to send it to friends, but the file size is too large for email. How can you use one command to fix this?
 
 - [ ] Click **Export** in Backstage view and embed the presentation in an email.
-- [ ] Compress all the pictures to the **Email (96 ppi) resolution**.
+- [x] Compress all the pictures to the **Email (96 ppi) resolution**.
 - [ ] Use the Share feature in Backstage view and petty email to automatically compress the pictures.
 - [ ] Use the Share feature in Backstage view to create a pdf to send as an attachment.
+
+[Reference](https://www.officetooltips.com/powerpoint_2016/tips/how_to_compress_pictures_in_the_presentation.html)
 
 #### Q75. In a presentation about voter turnout, you are illustrating various data with charts. Which type of information would you present in a pie chart?
 
@@ -605,7 +611,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 
 ![Q81](images/Q81.png)
 
-- [x] selection names
+- [x] section names
 - [ ] layouts
 - [ ] hidden slides
 - [ ] links to the next slide
@@ -615,7 +621,7 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 #### Q79. There are objects and text hidden behind an image on your slide. With the image selected, what could you adjust to make the objects and text appear "through" the image?
 
 - [ ] Compress Picture
-- [ ] Transparency
+- [x] Transparency
 - [ ] Corrections
 - [ ] Artistic Effects
 
@@ -667,3 +673,111 @@ If your Word document contains no Heading 1 or Heading 2 styles, PowerPoint will
 - [ ] Select the image and, on the Picture Format tab, use the Compress Picture feature
 - [x] Select the image and, on the Picture Format tab, click the Remove Background button
 - [ ] On the Drawing Tools Format tab, select Graphics Fill > Remove Background
+
+#### Q87. In a SmartArt graphic, how can you add text to the shapes other than directly in each shape?
+
+- [x] Open th Text Pane for the graphic and enter the text.
+- [ ] Create a bulleted list and then convert it to a shape.
+- [ ] Select all of the shapes and start typing.
+- [ ] You can only add text by typing directly into each shape.
+
+#### Q88. You want to add two images to a presentation, but one is a bit blurry and another is quite dark. What feature on the Picture Format tab can you use to adjust them?
+
+- [x] Corrections.
+- [ ] Picture Effects.
+- [ ] Trasparency.
+- [ ] Crop.
+
+#### Q89. A colleague has given you a presentation file, and you want to use one of the slides from that presentation in your own. How would you do this?
+
+- [ ] Use the Reuse Slides command.
+- [x] Use the Import slides command.
+- [ ] Use the Insert Slides command.
+- [ ] Use the Duplicate Slides command.
+
+#### Q90. Which type of shape allows you to add text that can be moved around, formatted with styles and effects, or grouped with other objects?
+
+- [ ] Screenshot
+- [x] Textbox
+- [ ] Icon
+- [ ] 3D model
+
+#### Q91. Which view allows you to select individual objects on a slide?
+
+- [ ] Slide Sorter view
+- [ ] Slide Show view
+- [x] Normal view
+- [ ] Design view
+
+[Reference](https://support.microsoft.com/en-us/office/select-individual-objects-on-a-slide-c9c89522-65e1-40dd-a4b2-469c1b19adf8#:~:text=To%20select%20objects%20that%20are,the%20options%20that%20you%20want.)
+
+#### Q92. When in Slide Show view, what happens when you hold Ctrl (Windows) or Command (Mac) and click the left mouse button?
+
+- [x] You activate the laser pointer
+- [ ] You end the slide show
+- [ ] You toggle the mouse pointer on/off
+- [ ] You terminate animations
+
+[Reference](https://www.techrepublic.com/article/use-powerpoints-laser-pointer-to-catch-attention-and-add-excitement/#:~:text=To%20turn%20on%20the%20laser,turn%20on%20the%20laser%20pointer.)
+
+#### Q93. Which PowerPoint feature is best used to set up slide timings so slides automatically advance?
+
+- [ ] **Timing** on the **Animations** tab
+- [ ] **Advanced Animation** on the **Animations** tab
+- [ ] **Reharse Timings** on the **Slide Show** tab
+- [x] **Timing** on the **Transitions** tab
+
+[Reference](https://bluevalleyk12.libguides.com/c.php?g=140667&p=921228#:~:text=In%20Normal%20view%2C%20click%20the,to%20set%20the%20timing%20for.)
+
+#### Q94. You plan to distribute a presentation. In which format might you save it to ensure that it appears as an automatically playing slide show composed of individual slides, regardless of the recipients' platform or software applications?
+
+- [ ] PDF (.pdf)
+- [ ] PowerPoint Show (.ppsx)
+- [ ] OpenDocument Presentation (.odp)
+- [x] MPEG-4 Video (.mp4)
+
+#### Q95. Which type of illustration can be rotated while in Slide Show view, allowing the audience to see all sides of an image?
+
+- [ ] action button
+- [ ] animated image
+- [ ] icon
+- [x] 3D model
+
+#### Q96. You inserted audio into a presentation. Which two options must you enable for the audio to play throughout all slides and repeat until it is stopped?
+
+```
+A. Loop untill Stopped
+B. Play Across Slides
+C. Rewind after Playing
+D. Start When Clicked On
+```
+
+- [ ] B and C
+- [ ] C and D
+- [ ] B and D
+- [x] A and B
+
+#### Q97. Your presentation has a slide on which the text appears scrambled. What happened?
+
+![Q97](images/Q97.jpg)
+
+- [ ] The text direction has been changed to Vertical.
+- [ ] The text direction has been changed to Stacked.
+- [ ] The text direction has been changed to 360 degrees.
+- [x] The text direction has been changed to 90 degrees.
+
+#### Q98. Your colleagues have collaborated in a presentation with you, adding new content and reusing slides from other presentations. You notice the layouts vary throughout the slides: differently sized and positioned containers, and different headers and footers. Where can you make a change that will automatically be applied to all slides in the presentation?
+
+- [ ] Quick Styles
+- [x] Slide Master
+- [ ] Header & Footer
+- [ ] Handout Master
+
+[Reference](https://support.microsoft.com/en-us/topic/create-a-slide-master-in-powerpoint-19cf3e28-707a-5059-134e-29513e6f6161#:~:text=A%20slide%20master%20is%20the,View%20tab%2C%20click%20Slide%20Master.)
+
+#### Q99. Your company logo appears on all slides in a presentation as part of the overall design template's Slide Master. How can you prevent the logo from appearing on one particular slide?
+
+- [x] Hide the graphic using Design > Format Background.
+- [ ] Right-click the logo (Windows) or select the logo (Mac), and then select Delete.
+- [ ] Insert a blank shape to mask the logo.
+- [ ] Remove the logo graphic from the Slide Master template.
