@@ -442,3 +442,10 @@
 - [ ] Windows Communication Foundation
 - [ ] SQL Server
 - [ ] Open Data
+
+#### Q56 What is the easiest way to assign permissions to multiple SharePoint sites for multiple users?
+
+- [ ] By Users
+- [ ] By Groups
+- [ ] By site levels 
+- [ ] By sites

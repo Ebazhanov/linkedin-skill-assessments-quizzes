@@ -269,6 +269,8 @@ function Dish(props) {
 - [ ] closed
 - [ ] imperative
 
+[Reference](https://levelup.gitconnected.com/why-react-is-declarative-a300d1e930b7)
+
 #### Q27. When using webpack, why would you need to use a loader?
 
 - [ ] to put together physical file folders
@@ -889,7 +891,7 @@ const [count, setCount] = useState(0);
 
 ```javascript
 import React from 'react';
-import { createRoot } from 'react-dom';
+import { createRoot } from 'reactjs-dom';
 
 const element = <h1>Hi</h1>;
 // Note: error on the line below

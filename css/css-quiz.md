@@ -1852,7 +1852,7 @@ p + section {
 
 ```html
 <div class="pen">
-  <span id="puppy">🐶</span>
+  <span id="puppy">:dog:</span>
 </div>
 ```
 
@@ -2414,3 +2414,9 @@ input.invalid {
 - [x] How to display HTML elements
 - [ ] How to save HTML elements
 - [ ] How to make HTML elements
+
+    #### Q160. Which of the following statements is TRUE for CSS?
+- [ ]  An inline style sheet should be used when a single document has a unique style
+- [x]  An external style sheet is ideal when the style is applied to many pages
+- [ ]  Both and b above
+- [ ]  An external style sheet can be written in HTML

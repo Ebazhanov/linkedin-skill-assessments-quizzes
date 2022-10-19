@@ -152,10 +152,10 @@ end
 
 #### Q17. In Rails, how would you cache a partial template that is rendered?
 
-- [x] `render partial: ‘shared/menu’, cached: true`
-- [ ] `render_with_cache partial: ‘shared/menu’`
-- [ ] `render partial: ‘shared/menu’`
-- [ ] `render partial: ‘shared/menu’, cached_with_variables: {}`
+- [x] `render partial: 'shared/menu', cached: true`
+- [ ] `render_with_cache partial: 'shared/menu'`
+- [ ] `render partial: 'shared/menu'`
+- [ ] `render partial: 'shared/menu', cached_with_variables: {}`
 
 #### Q18. What is the reason for using Concerns in Rails?
 

@@ -401,11 +401,11 @@ I'm not 100% sure on this.
 
 [Reference](https://homework.study.com/explanation/which-of-the-following-tasks-is-not-normally-associated-with-an-abc-costing-system-a-calculation-of-pool-rates-b-identification-of-cost-pools-c-preparation-of-allocation-matrices-d-identification-of-cost-drivers.html#:~:text=Answer%20and%20Explanation%3A,Preparation%20of%20allocation%20matrices.)
 
-#### Q47. ‘What is true when the units in ending inventory increase during the year?
+#### Q47. What is true when the units in ending inventory increase during the year?
 
 - [ ] Net income is higher for absorption costing than for variable costing.
 - [ ] Net income is identical for absorption costing and for variable costing.
-- [x] Theres ro relationship between net income and the costing approach.
+- [x] There's no relationship between net income and the costing approach.
 - [ ] Net income is lower for absorption costing than for variable costing.
 
 #### Q48. When independent auditors are able to maintain their actual independence, itis referred to as independence in\_\_.
