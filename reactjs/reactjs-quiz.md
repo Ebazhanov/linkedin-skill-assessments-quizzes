@@ -59,6 +59,7 @@ console.log(person);
 - [ ] Chai
 - [ ] Sinon
 - [x] Jest
+[Reference](https://jestjs.io)
 
 #### Q7. To get the first item from the array ("cooking") using array destructuring, how do you adjust this line?
 
@@ -154,6 +155,8 @@ React.createElement('h1', null, "What's happening?");
 - [ ] `<h1 id="component">What's happening?</h1>`
 - [ ] `<h1 id="element">What's happening?</h1>`
 
+[Reference](https://www.geeksforgeeks.org/what-is-the-use-of-react-createelement/)
+
 #### Q16. What property do you need to add to the Suspense component in order to display a spinner or loading state?
 
 ```javascript
@@ -172,6 +175,8 @@ function MyComponent() {
 - [ ] loading
 - [x] fallback
 - [ ] spinner
+
+[Explanation](https://linguinecode.com/post/how-react-suspense-works)
 
 #### Q17. What do you call the message wrapped in curly braces below?
 
@@ -192,12 +197,16 @@ const element = <p>{message}</p>;
 - [x] `React.lazy`
 - [ ] `React.fallback`
 
+[Reference]()
+
 #### Q19. When do you use `useLayoutEffect`?
 
 - [ ] to optimize for all devices
 - [ ] to complete the update
 - [ ] to change the layout of the screen
 - [x] when you need the browser to paint before the effect runs
+
+[Reference](https://www.knowledgehut.com/blog/web-development/react-uselayouteffect)
 
 #### Q20. What is the difference between the click behaviors of these two buttons (assuming that this.handleClick is bound correctly)?
 
@@ -278,6 +287,7 @@ function Dish(props) {
 - [ ] to load external data
 - [ ] to load the website into everyone's phone
 
+
 #### Q28. A representation of a user interface that is kept in memory and is synced with the "real" DOM is called what?
 
 - [x] virtual DOM
@@ -305,12 +315,16 @@ const Heading = () => {
 - [ ] constant
 - [ ] var
 
+
+
 #### Q31. What do you call a React component that catches JavaScript errors anywhere in the child component tree?
 
 - [ ] error bosses
 - [ ] error catchers
 - [ ] error helpers
 - [x] error boundaries
+
+[Explanation](https://www.geeksforgeeks.org/react-js-error-boundaries/)
 
 #### Q32. In which lifecycle method do you make requests for data in a class component?
 
@@ -328,12 +342,16 @@ const Heading = () => {
 - [ ] with webpack
 - [ ] with code splitting
 
+
+
 #### Q34. All React components must act like **\_** with respect to their props.
 
 - [ ] monads
 - [x] pure functions
 - [ ] recursive functions
 - [ ] higher-order functions
+
+
 
 #### Q35. What is `[e.target.id]` called in the following code snippet?
 
