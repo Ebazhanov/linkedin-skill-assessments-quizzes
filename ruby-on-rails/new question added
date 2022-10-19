@@ -1,0 +1,20 @@
+What is the output of the given code?
+
+array1 = [[1,2,3,4],[0,0,0,0]]
+array2 = [[1,2,3,4],[0,0,0,0]]
+
+if array1==array2
+    print "Equal"
+else
+    print "Not equal"
+end
+
+a) [[1, 2, 3, 4], [0, 0, 0, 0]].
+b) Equal
+c) Not equal
+d) None of the mentioned
+
+Answer: b
+Explanation: Number of elements in both the arrays are same hence they are unequal
+Output:
+Equal
