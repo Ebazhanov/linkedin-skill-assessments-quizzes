@@ -1950,3 +1950,10 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 - [ ] Specifies a context menu for an element. The menu appears when a user right-clicks on the element.
 - [x] Specify whether the content of an element should be editable or not
 - [ ] Return the position of the first found occurrence of content inside a string
+
+#### Q113. What is the correct HTML for inserting a background image?
+
+- [x] <body style="background-image:url(background.gif)">
+- [ ] <background img="background.gif">
+- [ ] <body bg="background.gif">
+- [ ] None of these
