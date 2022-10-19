@@ -793,3 +793,10 @@ void MyFunction()
 - [x] Variable c no longer exists outside the block.
 
 [Reference](https://stackoverflow.com/a/6136865)
+
+    #### Q74. Which statement is True?
+
+- [ ] All are true.
+- [ ] None are true.
+- [ ] string is a value type.
+- [x] string is an alias for String
