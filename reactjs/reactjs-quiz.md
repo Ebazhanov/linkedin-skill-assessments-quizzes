@@ -1294,3 +1294,46 @@ const Greeting = ({ initName }) => {
 - [x] const value = useContext(MyContext)
 - [ ] const value = useContext({value: "intiial value"})
 
+#### Q110. Why is ref used?
+-[ ] to bind function
+-[ ] to call function
+-[x] to directly access DOM node
+-[ ] to refer to another JS file
+
+#### Q111. Choose the component which should be overridden to stop the component from updating?
+-[ ] componentDidMount
+-[ ] componentDidUpdate
+-[ ] willComponentUpdate
+-[x] shouldComponentUpdate
+
+#### Q112. What is the functionality of a “webpack” command?
+-[x] Runs react local development server
+-[ ] Transfers all JS files to down into one file
+-[ ] A module builder
+-[ ] None of the above
+
+#### Q113. Choose the method which is not a part of ReactDOM?
+-[ ] ReactDOM.createPortal()
+-[ ] ReactDOM.hydrate()
+-[x] ReactDOM.destroy()
+-[ ] ReactDOM.findDOMnode()
+
+#### Q114. In react, the key should be?
+
+-[x] Unique among his siblings
+-[ ] Unique in DOM
+-[ ] Does not requires to be unique
+-[ ] all of the above
+
+#### Q115. Which company developed ReactJS?
+-[ ] Google
+-[x] FaceBook
+-[ ] Apple
+-[ ] Twitter
+
+#### Q116. Choose the library which is most often associated with react?
+-[ ] Chai
+-[ ] Sinon
+-[x] Jest
+-[ ] Mocha
+
