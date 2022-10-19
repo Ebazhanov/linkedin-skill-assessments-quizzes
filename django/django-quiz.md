@@ -7,6 +7,9 @@
 - [ ] django.middleware.cache.FetchFromCacheMiddleware
 - [x] django.middleware.cache.AcceleratedCacheMiddleware
 
+**Reference:**
+Django comes with a robust cache system that lets you save dynamic pages, so they don’t have to be computed for each request. For convenience, Django offers cache with different granularity — from entire website to pages to part of pages to DB query results to any objects in memory. Cache middleware. If enabled, each Django-powered page will be cached based on URL.
+
 #### Q2. In which programming language is Django written?
 
 - [ ] C++
@@ -693,3 +696,10 @@ model=Planet
 - [x] to declare the directory contents as a Python module
 
 [Reference](<https://docs.djangoproject.com/en/4.1/ref/urlresolvers/#:~:text=reverse_lazy()&text=It%20is%20useful%20for%20when,a%20generic%20class%2Dbased%20view>)
+
+#### Q77. What python package can be used to edit numbers into more readable form like "1200000" to "1.2 million"?
+
+- [ ] black
+- [ ] puffer
+- [ ] pitch
+- [x] humanize

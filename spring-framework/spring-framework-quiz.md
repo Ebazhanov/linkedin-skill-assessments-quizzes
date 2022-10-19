@@ -859,7 +859,7 @@ Explanation: Here only one line can throw NPE. Calling getClass() from context.g
 - [ ] the level of visibility and access a transaction has to the units of work of other transactions such as uncommitted writes
 - [ ] executing each transaction on its own process to provide resource isolation
 
-#### Q84. What does the statement “Spring offers fully-typed advice” mean?
+#### Q84. What does the statement "Spring offers fully-typed advice" mean?
 
 - [ ] You declare the parameters you need in the advice signature rather than work with Object[] arrays.
 - [ ] You work with a collection of Objects that need to be explicitly casted.
@@ -868,12 +868,12 @@ Explanation: Here only one line can throw NPE. Calling getClass() from context.g
 
 #### Q84. Which are considered to be typical, common, cross-cutting concerns that would be a good fit for AOP? (Choose 3)
 
-- A.  Creating SQL queries 
-- B.  Logging
-- C.  Filtering, sorting and transforming data
-- D.  Transaction management
-- E.  Audit logging
-- F.  Business logic 
+    - A. Creating SQL queries
+    - B. Logging
+    - C. Filtering, sorting and transforming data
+    - D. Transaction management
+    - E. Audit logging
+    - F. Business logic
 
 - [ ] A, D, F
 - [ ] D, E, F

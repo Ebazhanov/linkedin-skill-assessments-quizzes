@@ -438,3 +438,73 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 - [ ] `bash az ad app permission ass ...
 
 [Ref](https://docs.microsoft.com/en-us/cli/azure/ad/app?view=azure-cli-latest)
+
+#### Q56. Which type of Azure snapshot works by snapshotting the differences between the virtual machine and the current state?
+
+- [ ] full
+- [ ] delta
+- [ ] non-redundant
+- [x] incremental
+
+#### Q57. Which PowerShell commandlet connects and authenticates to the Azure portal?
+
+- [ ] Login-AzTenant
+- [ ] Login-AzPortal
+- [ ] Auth-Az
+- [x] Connect-AzAccount
+
+#### Q58. Which hybrid connection option to Azure Virtual Desktop offers the highest bandwidth and best performance?
+
+- [x] Azure ExpressRoute
+- [ ] RDP Shortpath
+- [ ] Site-to-Site VPN
+- [ ] Point-to-Site VPN
+
+#### Q59. In Azure Virtual Desktop, you can **\_** the storage accounts associated with FSLogix to enable you to control access using Active Directory Domain Services.
+
+- [x] domain join
+- [ ] profile
+- [ ] VPN connect
+- [ ] join integrate
+
+#### Q60. Which storage solution for FSLogix in Azure Virtual Desktop is the highest-performing storage solution in the cloud today?
+
+- [ ] Windows Storage Spaces Direct File Server Cluster
+- [ ] Azure Files
+- [x] Azure NetApp Files
+- [ ] Avere vFXT for Azure
+
+#### Q61. In an Azure Pipeline, what type of wildcard is used to stand in for a single character?
+
+- [ ] `*`
+- [ ] `#`
+- [x] `?`
+- [ ] `&`
+
+#### Q62. To execute your pipeline in Azure DevOps, you will need to use ******\_******.
+
+- [ ] gates
+- [x] agents
+- [ ] packages
+- [ ] variables
+
+#### Q63. Which of the following is true if parallelism is desired in Azure Pipelines?
+
+- [ ] No more than one build agent can be used.
+- [x] More than one build agent is required.
+- [ ] Complexity is reduced with parallelism.
+- [ ] A maximum number of build agents constrains it.
+
+#### Q64. In an Azure Pipeline, a build agent is a piece of software that runs a series of tasks, called a ****\_\_\_****, on a machine.
+
+- [ ] String
+- [ ] Circuit
+- [x] Job
+- [ ] Commit
+
+#### Q65. In Azure Pipelines, if a build has four jobs that can be run concurrently, but only three agents are available, what will happen?
+
+- [x] Only three jobs will run in parallel at one given time.
+- [ ] The build will override one of the jobs so that it can run.
+- [ ] The build will forfeit and not run at all.
+- [ ] The build will wait until another agent becomes available.

@@ -951,3 +951,10 @@ myVehicleContents.van.inside['inside'] = gloveBoxContents;
 - [ ] nested
 
 `YAML supports # comments but not JSON`
+
+#### Q87. Which is an invalid JSON value? (same as previous question, but different possible answers)
+
+- [ ] `"'|=(_)(X 72(_)|\/||*'"`
+- [x] `"\s(_)(X 72(_)|\/||*"`
+- [ ] `"|=(_)(X\" \"72(_)|\/||*"`
+- [ ] `"|=(_)(X 72(_)|\/||*"`

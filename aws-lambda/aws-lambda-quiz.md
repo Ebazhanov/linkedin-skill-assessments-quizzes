@@ -368,3 +368,45 @@
 - `With DynamoDB Streams, you can trigger a Lambda function to perform additional work each time a DynamoDB table is updated. Lambda reads records from the stream and invokes your function synchronously with an event that contains stream records.`
 - `These events are considered synchronous events. Simply put, it means that when somebody is calling an API Gateway, it will trigger your Lambda function. It's a synchronous event because your Lambda function has to respond to the client directly at the end of its invocation.`
 - `You can use Lambda to process event notifications from Amazon Simple Storage Service. Amazon S3 can send an event to a Lambda function when an object is created or deleted.`
+
+#### 52. which is use case of lambda ?
+
+- [ ] Image processing
+- [ ] web application
+- [x] both
+- [ ] Neither 1st and 2nd
+
+#### Q53. Events are AWS resources that trigger the Lambda function. What data type is the SAM file Events property?
+
+- [ ] Integer
+- [ ] Float
+- [x] Array
+- [ ] String
+
+#### Q54. A company is using an API built using Amazon Lambda, Amazon API Gateway, and Amazon DynamoDB in production. The developer has observed high latency during peak periods. Which approach would best resolve the issue?
+
+- [ ] Increase the Lambda function timeout
+- [ ] Route traffic to API Gateway using a Route 53 alias
+- [ ] Disable payload compression for the API
+- [x] Enable API Gateway stage-level caching
+
+#### Q55. The AWS Serverless Application Model (AWS SAM) is a model that \_\_\_\_ .
+
+- [x] defines serverless applications
+- [ ] associates permissions policies
+- [ ] creates Lambda functions
+- [ ] packages deployment artifacts
+
+#### Q56. The code that you want AWS Lambda to invoke as per some defined triggers is known as **\_**.
+
+- [ ] the event source
+- [ ] the downstream resource
+- [ ] the log stream
+- [x] the Lambda function
+
+#### Q57. A developer has created a Lambda function to scrub real-time data of extraneous information and then send the scrubbed data to Kinesis for further processing and storage. Some of the data showing up in Kinesis seems to be inaccurate. What's the best way for the developer to debug this?
+
+- [ ] Look directly at the Lambda Logs in CloudWatch
+- [ ] Send the Lambda failures to a Dead Letter Queue
+- [x] Use AWS X-Ray to step through the function
+- [ ] Use Kinesis to write their own custom logging tool

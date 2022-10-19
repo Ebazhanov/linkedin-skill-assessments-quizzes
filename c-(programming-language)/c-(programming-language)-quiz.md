@@ -1107,3 +1107,164 @@ main() {
 - [ ] 200
 - [ ] 5
 - [x] 50
+
+#### Q71. What is /0 character ?
+
+- [ ] String
+- [x] NULL Character
+- [ ] ZERO
+- [ ] Variable
+
+[Reference](<https://www.youth4work.com/Talent/C-Language/Forum/117150-what-is-the-use-of-a-0-character-in-c-language#:~:text=by%20using%20of%20null%20character(%27%5C0%27)%20it%20terminates%20the%20string%20untill%20the%20null%20character%20hit...%20which%20means%20comes%20out%20of%20the%20loop...%20In%20strings%20by%20default%20takes%20the%20null%20charater>)
+
+#### Q72. What is correct output for follwing code ?
+
+```c
+#include&lt;stdio.h&gt;
+#include&lt;conio.h&gt;
+main()
+{
+     int a=10, b=20;
+     clrscr();
+     printf("Before swapping a=%d b=%d",a,b);
+     a=a+b;
+     b=a-b;
+     a=a-b;
+     printf("nAfter swapping a=%d b=%d",a,b);
+     getch();
+}
+```
+
+- [ ] Before a=10 b=20 , After a=10 b=10
+- [ ] Before a=10 b=10 , After a=20 b=10
+- [ ] Before a=10 b=20 , After a=20 b=20
+- [x] Before a=10 b=20 , After a=20 b=10
+
+#### Q73. What is Incorrect option that explain # pragma directive ?
+
+- [ ] #pragma exit allows us to specify functions called upon program exit.
+- [ ] This is a preprocessor directive that can be used to turn on or off certain features.
+- [x] #pragma startup don't allows us to specify functions called upon program startup.
+- [ ] It is of two types #pragma startup, #pragma exit and pragma warn.
+
+#### Q74. What will be the output of the following code snippet?
+
+```c
+#include <stdio.h>
+union School {
+    int age, rollNo;
+    double marks;
+};
+void solve() {
+    union School sc;
+    sc.age = 19;
+    sc.rollNo = 82;
+    sc.marks = 19.04;
+    printf("%d", (int)sizeof(sc));
+}
+int main() {
+    solve();
+	return 0;
+}
+```
+
+- [ ] 2
+- [ ] 4
+- [x] 8
+- [ ] 10
+
+#### Q75. What will be the output of the following code snippet?
+
+```c
+#include <stdio.h>
+struct School {
+    int age, rollNo;
+};
+void solve() {
+    struct School sc;
+    sc.age = 19;
+    sc.rollNo = 82;
+    printf("%d %d", sc.age, sc.rollNo);
+}
+int main() {
+    solve();
+	return 0;
+}
+```
+
+- [x] 19 82
+- [ ] Compilation Error
+- [ ] 82 19
+- [ ] None of these
+
+#### Q76. What is the output of the following code snippet?
+
+```c
+int main() {
+	int sum = 2 + 4 / 2 + 6 * 2;
+	printf("%d", sum);
+	return 0;
+}
+```
+
+- [ ] 2
+- [ ] 15
+- [x] 16
+- [ ] 18
+
+#### Q77. What is not a valid command with this declaration?
+
+```
+chat *string[20] = {"one", "two", "three"};
+```
+
+- [x] printf("%s", string[1][2]);
+- [ ] printf("%s", string[1]);
+- [ ] printf(string[1]);
+- [ ] printf("%c", string[1][2]);
+
+**Explanation :** This matrix is not defined in 2D because which this command is not valid and there will no output.
+
+#### Q78. What does the following declaration mean?
+
+```
+int (*ptr)[10];
+```
+
+- [ ] ptr is array of pointers to 10 integers
+- [x] ptr is a pointer to an array of 10 integers
+- [ ] ptr is an array of 10 integers
+- [ ] ptr is an pointer to array
+
+#### Q79. What will be the output of the following code snippet?
+
+```c
+#include <stdio.h>
+void change(int,int);
+int main()
+{
+   int a=10,b=20;
+   change(a,b); //calling a function by passing the values of variables.
+   printf("Value of a is: %d",a);
+   printf("\n");
+   printf("Value of b is: %d",b);
+   return 0;
+}
+void change(int x,int y)
+{
+   x=13;
+   y=17;
+}
+```
+
+- [x] 10,20 
+- [ ] 10,10 
+- [ ] 20,20 
+- [ ] 20,10
+
+**Explanation :** The function "change" will change the value of x and y only within its own scope, so a and is unaffected.
+
+#### Q85. Choose true or false.When variable is created in C, a memory address is assigned to the variable.
+
+- [x] True
+- [ ] False

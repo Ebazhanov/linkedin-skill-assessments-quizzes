@@ -352,7 +352,7 @@
 - [ ] large table
 - [ ] new table
 
- [Reference](https://dev.mysql.com/doc/refman/5.7/en/create-trigger.html)
+[Reference](https://dev.mysql.com/doc/refman/5.7/en/create-trigger.html)
 
 #### Q39. later versions of mysql support the native json data type for storing json documents. What is a drawback of json columns?
 
@@ -1034,28 +1034,28 @@ Table name: superheroes
 - [x] `SELECT * FROM customers WHERE UPPER(LastName) = 'POTTER';`
 - [ ] `SELECT * FROM customers WHERE UPPER(LastName) = 'Potter';`
 
-#### Q107. “COUNT” keyword belongs to which categories in Mysql?
+#### Q107. "COUNT" keyword belongs to which categories in Mysql?
 
 - [x] Aggregate functions
 - [ ] Operators``
 - [ ] Clauses
 - [ ] All of the mentioned`
 
-#### Q108. Which among the following belongs to an “aggregate function”?
+#### Q108. Which among the following belongs to an "aggregate function"?
 
 - [x] COUNT
 - [ ] UPPER`
 - [ ] LOWER
 - [ ] All of the mentioned
 
-#### Q109. What is the meaning of “HAVING” clause in Mysql?
+#### Q109. What is the meaning of "HAVING" clause in Mysql?
 
 - [ ] To filter out the column values
 - [x] To filter out the row values
 - [ ] To filter out the row and column values
 - [ ] None of the mentioned
 
-#### Q110. Which clause is similar to “HAVING” clause in Mysql?
+#### Q110. Which clause is similar to "HAVING" clause in Mysql?
 
 - [ ] SELECT
 - [ ] FROM
@@ -1069,8 +1069,8 @@ Table name: superheroes
       WHERE title=’HEAD TELLER’ AND start_date&gt;2008-11-23;
 
 - [ ] All columns
-- [ ] Only those columns which are mention with “SELECT” clause
-- [x] Columns mention with “SELECT” clause and only those rows which contain ‘HEAD TELLER’ as a “title”
+- [ ] Only those columns which are mention with "SELECT" clause
+- [x] Columns mention with "SELECT" clause and only those rows which contain 'HEAD TELLER' as a "title"
 - [ ] None of the mentioned
 
 #### Q112. Is there any error in the following MySQL statement?
@@ -1083,3 +1083,17 @@ Table name: superheroes
 - [ ] YES
 - [ ] DEPEND
 - [ ] None of the mentioned
+
+#### Q113. Later versions of MySQL support the native JSON data type for storing JSON documents. What is a drawback of JSON columns?
+
+- [ ] JSON columns cannot be normalized.
+- [x] JSON columns cannot be indexed directly.
+- [ ] JSON columns are inefficient for storing JSON documents.
+- [ ] JSON documents cannot be validated when stored in JSON columns.
+
+#### Q114. With MySQL, how do you select all the records from a table named "Persons" where the "LastName" is alphabetically between (and including) "Hansen" and "Pettersen"?
+
+- [ ] `SELECT LastName>'Hansen' AND LastName<'Pettersen' FROM Persons`
+- [ ] `SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'`
+- [ ] `SELECT * FROM Persons WHERE LastName>'Hansen' AND LastName<'Pettersen'`
+- [ ] `None of the above.`

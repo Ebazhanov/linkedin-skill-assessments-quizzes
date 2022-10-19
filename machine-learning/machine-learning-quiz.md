@@ -790,3 +790,38 @@ Which of these statements do you agree with?
 - [ ] L = || y - y^ ||22 + constant
 
 `//You are trying to minimize the binary cross entropy loss over the training set..`
+
+### Q102. You want to create a machine learning algorithm that finds the top 100 people who have shared photographs of themselves on social media. What is the best machine learning method to use?
+
+- [ ] reinforcement learning
+- [x] binary classification
+- [ ] K-nearest neighbor
+- [ ] unsupervised learning
+
+### Q103. The famous data scientist Andrew Ng has been quoted as saying, "Applied machine learning is basically feature engineering." What is feature engineering?
+
+- [ ] scraping new features from web data
+- [x] creating new variables by combining and modifying the original variables
+- [ ] designing innovative new user features to add to software
+- [ ] using deep learning to find features in the data
+
+### Q104. In the context of calculus, what is df/dx?
+
+- [ ] the prediction function
+- [x] the derivative of f of x
+- [ ] the derivative of x
+- [ ] equivalent to f divided by x
+
+### Q105. What is a well-designed/well-fitted model?
+
+- [ ] one that has been trained and tested with the same data
+- [x] one that has a high degree of accuracy and is able to accurately predict results
+- [ ] one that has been trained with labeled training data
+- [ ] one that has been trained with an exhaustive set of all conditions and permutations in the training data
+
+### Q106. **\_**-based collaborative filtering occurs when a person is recommended an item similar to an item they have purchased.
+
+- [ ] History
+- [x] Item
+- [ ] Similarity
+- [ ] Purchase
