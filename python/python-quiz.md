@@ -2223,7 +2223,7 @@ else:
     print("Done!")
 ```
 
-- [x] 1 2 3 4 5 Done!
+- [ ] 1 2 3 4 5 Done!
 - [ ] 0 1 2 3 4 5 Done!
-- [ ] 0 1 2 3 4 Done!
+- [x] 0 1 2 3 4 Done!
 - [ ] You will get a syntax error.
