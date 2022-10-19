@@ -2126,21 +2126,21 @@ Queue<Rainfall>
 - [ ] 1. true 2. true
 - [x] 1. true 2. false
 
-#### Q151. ```void accept(T t)``` is method of -?
+#### Q151. `void accept(T t)` is method of -?
 
 - [x] Consumer
 - [ ] Producer
 - [ ] Both
 - [ ] None
 
-#### Q152. Which of these does ```Stream filter()``` operates on?
+#### Q152. Which of these does `Stream filter()` operates on?
 
 - [x] Predicate
 - [ ] Interface
 - [ ] Class
 - [ ] Methods
 
-#### Q153. Which of these does ```Stream map()``` operates on?
+#### Q153. Which of these does `Stream map()` operates on?
 
 - [ ] Class
 - [ ] Interface

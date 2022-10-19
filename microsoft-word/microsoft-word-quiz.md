@@ -753,7 +753,7 @@ D. Inserts and Deletions and Formatting are turned off in Show Markup.
 - [x] Mark as favorite
 - [ ] Drag to Home tab
 
-#### Q97. When you create a macro, you can assign it to a _____. (Select all that apply.)
+#### Q97. When you create a macro, you can assign it to a **\_**. (Select all that apply.)
 
     A. keyboard shortcut
     B. specific user

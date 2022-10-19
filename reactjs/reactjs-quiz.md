@@ -59,6 +59,7 @@ console.log(person);
 - [ ] Chai
 - [ ] Sinon
 - [x] Jest
+
 [Reference](https://jestjs.io)
 
 #### Q7. To get the first item from the array ("cooking") using array destructuring, how do you adjust this line?
@@ -287,7 +288,6 @@ function Dish(props) {
 - [ ] to load external data
 - [ ] to load the website into everyone's phone
 
-
 #### Q28. A representation of a user interface that is kept in memory and is synced with the "real" DOM is called what?
 
 - [x] virtual DOM
@@ -315,8 +315,6 @@ const Heading = () => {
 - [ ] constant
 - [ ] var
 
-
-
 #### Q31. What do you call a React component that catches JavaScript errors anywhere in the child component tree?
 
 - [ ] error bosses
@@ -342,16 +340,12 @@ const Heading = () => {
 - [ ] with webpack
 - [ ] with code splitting
 
-
-
 #### Q34. All React components must act like **\_** with respect to their props.
 
 - [ ] monads
 - [x] pure functions
 - [ ] recursive functions
 - [ ] higher-order functions
-
-
 
 #### Q35. What is `[e.target.id]` called in the following code snippet?
 
@@ -1307,51 +1301,36 @@ const Greeting = ({ initName }) => {
 [Source](https://reactjs.org/tutorial/tutorial.html#:~:text=What%20Is%20React%3F,of%20code%20called%20%E2%80%9Ccomponents%E2%80%9D.&text=We'll%20get%20to%20the%20funny%20XML%2Dlike%20tags%20soon.)
 
 #### Q109. What is the correct way to get a value from context?
+
 - [ ] const value = useContext(MyContext.Consumer)
 - [ ] const value = useContext(MyContext.Provider)
 - [x] const value = useContext(MyContext)
 - [ ] const value = useContext({value: "intiial value"})
 
 #### Q110. Why is ref used?
--[ ] to bind function
--[ ] to call function
--[x] to directly access DOM node
--[ ] to refer to another JS file
+
+-[ ] to bind function -[ ] to call function -[x] to directly access DOM node -[ ] to refer to another JS file
 
 #### Q111. Choose the component which should be overridden to stop the component from updating?
--[ ] componentDidMount
--[ ] componentDidUpdate
--[ ] willComponentUpdate
--[x] shouldComponentUpdate
+
+-[ ] componentDidMount -[ ] componentDidUpdate -[ ] willComponentUpdate -[x] shouldComponentUpdate
 
 #### Q112. What is the functionality of a “webpack” command?
--[x] Runs react local development server
--[ ] Transfers all JS files to down into one file
--[ ] A module builder
--[ ] None of the above
+
+-[x] Runs react local development server -[ ] Transfers all JS files to down into one file -[ ] A module builder -[ ] None of the above
 
 #### Q113. Choose the method which is not a part of ReactDOM?
--[ ] ReactDOM.createPortal()
--[ ] ReactDOM.hydrate()
--[x] ReactDOM.destroy()
--[ ] ReactDOM.findDOMnode()
+
+-[ ] ReactDOM.createPortal() -[ ] ReactDOM.hydrate() -[x] ReactDOM.destroy() -[ ] ReactDOM.findDOMnode()
 
 #### Q114. In react, the key should be?
 
--[x] Unique among his siblings
--[ ] Unique in DOM
--[ ] Does not requires to be unique
--[ ] all of the above
+-[x] Unique among his siblings -[ ] Unique in DOM -[ ] Does not requires to be unique -[ ] all of the above
 
 #### Q115. Which company developed ReactJS?
--[ ] Google
--[x] FaceBook
--[ ] Apple
--[ ] Twitter
+
+-[ ] Google -[x] FaceBook -[ ] Apple -[ ] Twitter
 
 #### Q116. Choose the library which is most often associated with react?
--[ ] Chai
--[ ] Sinon
--[x] Jest
--[ ] Mocha
 
+-[ ] Chai -[ ] Sinon -[x] Jest -[ ] Mocha

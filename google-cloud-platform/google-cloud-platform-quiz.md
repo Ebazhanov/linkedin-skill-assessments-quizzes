@@ -486,7 +486,7 @@
 - [ ] Use Cloud Monitoring and install the Ops Agent on the instance running the apache server.
 - [ ] Use Cloud Profiler and create an alert.
 
-#### Q61. In Google Kubernetes Engine, "_____" is a term Kubernetes uses to represent pods and controllers.
+#### Q61. In Google Kubernetes Engine, "**\_**" is a term Kubernetes uses to represent pods and controllers.
 
 - [ ] masters
 - [ ] pools
@@ -504,8 +504,6 @@ kubectl create deployment app --image=$ImageRepo:$Tag
 - [x] It tells the deployment controller which repository to check for a Docker image and what tag to use.
 - [ ] It tells the deployment controller which Linux OS type to use when creating pods.
 
-
-
 #### Q63. To effectively manage the limited number of IP addresses per node, how many IP addresses per pod does Google recommend?
 
 - [ ] One IP address per pod
@@ -513,14 +511,12 @@ kubectl create deployment app --image=$ImageRepo:$Tag
 - [ ] Four IP addresses per pod
 - [x] Two IP addresses per pod
 
-
-#### Q64. In Google Kubernetes Engine, _____ are the smallest unit of deployment within a Kubernetes cluster, and our primary Kubernetes building blocks.
+#### Q64. In Google Kubernetes Engine, **\_** are the smallest unit of deployment within a Kubernetes cluster, and our primary Kubernetes building blocks.
 
 - [x] pods
 - [ ] instances
 - [ ] sets
 - [ ] containers
-
 
 #### Q65. Which of the following statements is not a general security guideline for a Google Cloud Platform deployment pipeline?
 
@@ -529,21 +525,19 @@ kubectl create deployment app --image=$ImageRepo:$Tag
 - [ ] Log everything.
 - [ ] Deployment steps should not be able to build code or access your code repository.
 
-#### Q66. In order to allow signed images to be deployed with Google Cloud Platform's binary authorization enabled, you need to create a(n) _____.
+#### Q66. In order to allow signed images to be deployed with Google Cloud Platform's binary authorization enabled, you need to create a(n) **\_**.
 
 - [ ] virtual machine
 - [ ] alert
 - [ ] log
 - [x] attestor
 
-
-#### Q67. Builders in Cloud Build are 
+#### Q67. Builders in Cloud Build are
 
 - [ ] part of Google's proprietary infrastructure
 - [ ] created from Managed Instance Templates
 - [x] containers with pre-loaded tools and runtimes
 - [ ] virtual machines with pre-loaded tools and runtimes
-
 
 #### Q68. Which of the following statements about security in the Google Cloud Platform deployment pipeline is false?
 
@@ -552,8 +546,7 @@ kubectl create deployment app --image=$ImageRepo:$Tag
 - [ ] The exact permissions will vary based upon the needs of the company, and depends upon the number of roles, steps, and environments that exist.
 - [ ] Each employee's access to Google Cloud resources should be based on the principle of least privilege.
 
-
-#### Q69. In order to create and store a key in Google Cloud Platform, you must first create a _____ to hold the key.
+#### Q69. In order to create and store a key in Google Cloud Platform, you must first create a **\_** to hold the key.
 
 - [ ] wallet
 - [x] keyring

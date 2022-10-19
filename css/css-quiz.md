@@ -2403,20 +2403,22 @@ input.invalid {
 - [ ] None of these.
 
   #### Q158. The <link> tag goes inside:
-  
+
 - [ ] the title section
 - [ ] the body section
 - [x] the head section
 - [ ] None of the above
-  
+
   #### Q159. What CSS define in HTML ?
+
 - [ ] How to send HTML elements
 - [x] How to display HTML elements
 - [ ] How to save HTML elements
 - [ ] How to make HTML elements
 
-    #### Q160. Which of the following statements is TRUE for CSS?
-- [ ]  An inline style sheet should be used when a single document has a unique style
-- [x]  An external style sheet is ideal when the style is applied to many pages
-- [ ]  Both and b above
-- [ ]  An external style sheet can be written in HTML
+  #### Q160. Which of the following statements is TRUE for CSS?
+
+- [ ] An inline style sheet should be used when a single document has a unique style
+- [x] An external style sheet is ideal when the style is applied to many pages
+- [ ] Both and b above
+- [ ] An external style sheet can be written in HTML

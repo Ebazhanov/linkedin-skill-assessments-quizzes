@@ -921,14 +921,12 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] brute force attack
 - [ ] password spray attack
 
-
 #### Q119. A data asset register should contain which of the following?
 
 - [ ] the location of the data.
 - [ ] The value of the asset.
 - [ ] The owner of the asset.
 - [x] All of these options.
-
 
 #### Q120. Once you have confirmed that Burpsuite is intercepting website requests, where can you check to see if you have credentials in cleartext to access the target webpage?
 
@@ -937,8 +935,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] Check the Raw section in the Intercept tab
 - [x] Check for a login.php line in the Proxy tab
 
-
-#### Q121. Threat actors will attempt to find an attack vector on their target by mapping the attack _____.
+#### Q121. Threat actors will attempt to find an attack vector on their target by mapping the attack **\_**.
 
 - [x] surface
 - [ ] infrastructure
@@ -947,20 +944,17 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 #### Q122. How would an organisation ensure software product support in the event a supplier goes out of business or is sold to a competitor?
 
-- [ ] They could employ the software developers once the supplier organisation has gone out of business. 
-- [ ] They could ensure support by acquiring the supplier organisation. 
+- [ ] They could employ the software developers once the supplier organisation has gone out of business.
+- [ ] They could ensure support by acquiring the supplier organisation.
 - [x] They could ensure support through an escrow agreement.
 - [ ] They could reverse engineer the product so that it could be supported in-house.
-
 
 #### Q123. Which of the following is the security standard that applies to the certification of security controls within products?
 
 - [ ] ISO/IEC 27001.
 - [ ] ISO/IEC 9000.
 - [x] ISO/IEC 15408.
-- [ ] ISO/IEC 13335. 
-
-
+- [ ] ISO/IEC 13335.
 
 #### Q124. What is the main role of the board member known as the information security manager?
 
@@ -969,14 +963,12 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] To have a detailed understanding of the organisation's vulnerabilities.
 - [ ] To have a detailed understanding of threats faced by the organisation.
 
-
 #### Q125. What are the two main approaches used to determine the likelihood of a threat occurring?
 
 - [ ] Qualitative and statistical
 - [ ] Statistical and quantitative
 - [ ] Statistical and assumptive
 - [x] Qualitative and quantitative
-
 
 #### Q126. Which type of hackers are often organized and funded by a nation's military intelligence or security services, and attempt to gain access to a foreign adversary's state secrets or military intelligence?
 
@@ -985,15 +977,12 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] black hat hackers
 - [x] state-sponsored hackers
 
-
 #### Q127. Which of the following methods combines two binary streams to create one new stream that contains hidden information that cannot be retrieved without the other stream that was used to create it?
-
 
 - [ ] substitution cipher
 - [ ] weaponization
 - [ ] transposition cipher
 - [x] XOR encryption
-
 
 #### Q128. What is Drupalgeddon?
 
@@ -1001,4 +990,3 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] A DDoS bot
 - [ ] A network packet capturing device
 - [x] a SQL injection flaw
-

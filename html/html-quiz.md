@@ -1937,7 +1937,6 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 - [x] <br>
 - [ ] <a>
 
-
 #### Q112. How to display preformatted text in HTML?
 
 - [ ] <p>

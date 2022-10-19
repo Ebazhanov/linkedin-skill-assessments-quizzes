@@ -897,33 +897,26 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [x] The control chart works best when the tasks that you're tracking are of different sizes.
 - [ ] The blue line is the rolling average cycle time.
 
-
-
-#### Q123. What does EBM consider in Managerial Decisions? 
+#### Q123. What does EBM consider in Managerial Decisions?
 
 - [ ] Productivity and ethical concerns
 - [x] Circumstance and ethical concerns
 - [ ] Circumstances and financial concerns
 - [ ] Moral and ethical concerns
 
-
-
-#### Q124. Stacey's process complexity model shows us that agile thinking is best _______________.
+#### Q124. Stacey's process complexity model shows us that agile thinking is best ******\_\_\_******.
 
 - [ ] When there is high complexity
 - [ ] When there is high certainty
 - [x] Regardless of complexity or certainty
 - [ ] When there is low certainty and complexity
 
-
-#### Q125. What is a DEEP product backlog? 
+#### Q125. What is a DEEP product backlog?
 
 - [ ] Detailed Appropriately, Emergent, Elegant & Prioritized
 - [ ] Detailed Adequately, Emergent, Estimated & Prioritized
 - [ ] Detailed Appropriately, Emanant, Estimated & Prioritized
 - [x] Detailed Appropriately, Emergent, Estimated & Prioritized
-
-
 
 #### Q126. Which Jira feature provides an overview of multiple projects?
 
@@ -931,4 +924,3 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] code integration
 - [ ] task automation
 - [ ] reporting
-

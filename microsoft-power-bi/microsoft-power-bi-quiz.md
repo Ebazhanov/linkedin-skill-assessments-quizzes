@@ -688,41 +688,35 @@
 - [ ] none of these answers
 - [ ] On the Home tab, click Add Index Column.
 
-
-#### Q86. Power BI desktop has a _____ tool, found under the View tab, which can be used to record the time taken for each of the processes required to render a report to complete.
+#### Q86. Power BI desktop has a **\_** tool, found under the View tab, which can be used to record the time taken for each of the processes required to render a report to complete.
 
 - [ ] Simulation
 - [x] Performance Analyzer
 - [ ] Reporting Analytics
 - [ ] DAX Studio
 
-#### Q87. When you are looking for outliers, Z-scores above _____ are a good starting point.
+#### Q87. When you are looking for outliers, Z-scores above **\_** are a good starting point.
 
 - [ ] 30
 - [x] 3
 - [ ] 10
 - [ ] 100
 
-#### Q88. In DAX, a semi-additive measure can accumulate values over some dimension, but typically not _____.
+#### Q88. In DAX, a semi-additive measure can accumulate values over some dimension, but typically not **\_**.
 
 - [ ] calculations
 - [x] time
 - [ ] magnitude
 - [ ] rate
 
-
-
-#### Q89. In Power BI's Power Query Editor, a field data type shown as _____ means the money data type.
+#### Q89. In Power BI's Power Query Editor, a field data type shown as **\_** means the money data type.
 
 - [ ] a pile of coins icon
 - [ ] Money
 - [x] $
 - [ ] a stack of bills icon
 
-
-
 #### Q90. Which of the following choices is not a viewing option in the view selector of Power BI Desktop?
-
 
 - [ ] report view
 - [ ] model view

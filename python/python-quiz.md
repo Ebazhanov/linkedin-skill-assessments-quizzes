@@ -2161,9 +2161,12 @@ Else y = 1 + 30
 
 Explanation:Pickling is the process of sterilizing a Python object, that is, conversion of a byte stream into Python object hierarchy. The reverse of this process is known as unpickling.
 
-
 #### Q158. What is the output of the following program ?
-#### print("codescracker".endswith("er"))
+
+```
+print("codescracker".endswith("er"))
+```
+
 - [x] True
 - [ ] 1
 - [ ] 2
@@ -2183,14 +2186,12 @@ print("programming".center())
 - [x] Error says TypeError: center expected at least 1 argument, got 0
 - [ ] None of the Above
 
-
 #### Q161. Who created the Python programming language?
 
 - [ ] Tim Berners-Lee
 - [ ] Ada Lovelace
 - [x] Guido van Rossum
 - [ ] Alan Turing
-
 
 #### Q162. Which collection is ordered, changeable, and allows duplicate members?
 
@@ -2212,4 +2213,3 @@ print(x**2 == -1)
 - [ ] False
 
 Explanation: The letter `j` acts as the imaginary unit in Python, therefore `x**2` means `j**2` which is equal to `-1`. The statement `x**2 == -1` is evaluated as `True`.
-

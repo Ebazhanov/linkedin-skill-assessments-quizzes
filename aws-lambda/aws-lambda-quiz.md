@@ -369,8 +369,8 @@
 - `These events are considered synchronous events. Simply put, it means that when somebody is calling an API Gateway, it will trigger your Lambda function. It's a synchronous event because your Lambda function has to respond to the client directly at the end of its invocation.`
 - `You can use Lambda to process event notifications from Amazon Simple Storage Service. Amazon S3 can send an event to a Lambda function when an object is created or deleted.`
 
-
 #### 52. which is use case of lambda ?
+
 - [ ] Image processing
 - [ ] web application
 - [x] both

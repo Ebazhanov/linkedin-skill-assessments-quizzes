@@ -474,24 +474,19 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 - [x] Azure NetApp Files
 - [ ] Avere vFXT for Azure
 
-
 #### Q61. In an Azure Pipeline, what type of wildcard is used to stand in for a single character?
 
-- [ ] *
-- [ ] #
-- [x] ?
-- [ ] &
+- [ ] `*`
+- [ ] `#`
+- [x] `?`
+- [ ] `&`
 
-
-
-#### Q62. To execute your pipeline in Azure DevOps, you will need to use _____________.
+#### Q62. To execute your pipeline in Azure DevOps, you will need to use ******\_******.
 
 - [ ] gates
 - [x] agents
 - [ ] packages
 - [ ] variables
-
-
 
 #### Q63. Which of the following is true if parallelism is desired in Azure Pipelines?
 
@@ -500,17 +495,14 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 - [ ] Complexity is reduced with parallelism.
 - [ ] A maximum number of build agents constrains it.
 
-
-#### Q64. In an Azure Pipeline, a build agent is a piece of software that runs a series of tasks, called a ___________, on a machine.
+#### Q64. In an Azure Pipeline, a build agent is a piece of software that runs a series of tasks, called a ****\_\_\_****, on a machine.
 
 - [ ] String
 - [ ] Circuit
 - [x] Job
 - [ ] Commit
 
-
 #### Q65. In Azure Pipelines, if a build has four jobs that can be run concurrently, but only three agents are available, what will happen?
-
 
 - [x] Only three jobs will run in parallel at one given time.
 - [ ] The build will override one of the jobs so that it can run.

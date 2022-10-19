@@ -1257,13 +1257,14 @@ void change(int x,int y)
 }
 ```
 
--[x] 10,20
--[ ] 10,10
--[ ] 20,20
--[ ] 20,10
+- [x] 10,20 
+- [ ] 10,10 
+- [ ] 20,20 
+- [ ] 20,10
 
 **Explanation :** The function "change" will change the value of x and y only within its own scope, so a and is unaffected.
 
 #### Q85. Choose true or false.When variable is created in C, a memory address is assigned to the variable.
+
 - [x] True
 - [ ] False

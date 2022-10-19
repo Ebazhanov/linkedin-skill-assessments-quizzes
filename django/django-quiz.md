@@ -697,7 +697,7 @@ model=Planet
 
 [Reference](<https://docs.djangoproject.com/en/4.1/ref/urlresolvers/#:~:text=reverse_lazy()&text=It%20is%20useful%20for%20when,a%20generic%20class%2Dbased%20view>)
 
-  #### Q77. What python package can be used to edit numbers into more readable form like "1200000" to "1.2 million"?
+#### Q77. What python package can be used to edit numbers into more readable form like "1200000" to "1.2 million"?
 
 - [ ] black
 - [ ] puffer

@@ -1984,44 +1984,52 @@ console.log(json); //prints {"type": "tiger"}
 [Reference](https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/)
 
 #### Q143. Which of the following are not server-side Javascript objects?
--[ ] Date
--[ ] FileUpload 
--[ ] Function
--[x] All of the above
+
+- [ ] Date 
+- [ ] FileUpload 
+- [ ] Function 
+- [x] All of the above
 
 #### Q144. What will be the output of the following code snippet?
-```javascript 
-const obj1 = {first: 20, second: 30, first: 50};
+
+```javascript
+const obj1 = { first: 20, second: 30, first: 50 };
 console.log(obj1);
 ```
--[ ] first: 30 , second: 50
--[x] first: 50 , second: 30
--[ ] first: 30 , second: 20
--[ ] None of the above
+
+- [ ] first: 30 , second: 50 
+- [x] first: 50 , second: 30 
+- [ ] first: 30 , second: 20 
+- [ ] None of the above
 
 #### Q145. Which object in Javascript doesn’t have a prototype?
--[x] Base Object
--[ ] All objects have prototype
--[ ] None of the objects have prototype
--[ ] None of the above
+
+- [x] Base Object 
+- [ ] All objects have prototype 
+- [ ] None of the objects have prototype 
+- [ ] None of the above
 
 #### Q146. What does … operator do in JS?
--[x] Used to spread iterables to individual elements
--[ ] Describe datatype of undefined
--[ ] No such operator exists
--[ ] None of the above
+
+- [x] Used to spread iterables to individual elements 
+- [ ] Describe datatype of undefined 
+- [ ] No such operator exists 
+- [ ] None of the above
 
 #### Q147. How to stop an interval timer in Javascript?
--[x] clearInterval
--[ ] clearTimer
--[ ] intervalOver
--[ ] None of the above
+
+- [x] clearInterval 
+- [ ] clearTimer 
+- [ ] intervalOver 
+- [ ] None of the above
 
 #### Q148. What will be the output of the following code snippet?
-```javascript 
-print(typeof(NaN));
+
+```javascript
+print(typeof NaN);
 ```
--[ ] Object 
--[x] Number
--[ ] String
--[ ] None of the above
+
+- [ ] Object 
+- [x] Number 
+- [ ] String 
+- [ ] None of the above
