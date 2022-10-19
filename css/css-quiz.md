@@ -2396,7 +2396,7 @@ input.invalid {
 - [x] the head section
 - [ ] None of the above
 
-#### Q159. What CSS define in HTML ?
+#### Q159. What CSS define in HTML?
 
 - [ ] How to send HTML elements
 - [x] How to display HTML elements
