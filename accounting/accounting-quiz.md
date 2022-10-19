@@ -401,11 +401,11 @@ I'm not 100% sure on this.
 
 [Reference](https://homework.study.com/explanation/which-of-the-following-tasks-is-not-normally-associated-with-an-abc-costing-system-a-calculation-of-pool-rates-b-identification-of-cost-pools-c-preparation-of-allocation-matrices-d-identification-of-cost-drivers.html#:~:text=Answer%20and%20Explanation%3A,Preparation%20of%20allocation%20matrices.)
 
-#### Q47. ‘What is true when the units in ending inventory increase during the year?
+#### Q47. What is true when the units in ending inventory increase during the year?
 
 - [ ] Net income is higher for absorption costing than for variable costing.
 - [ ] Net income is identical for absorption costing and for variable costing.
-- [x] Theres ro relationship between net income and the costing approach.
+- [x] There's no relationship between net income and the costing approach.
 - [ ] Net income is lower for absorption costing than for variable costing.
 
 #### Q48. When independent auditors are able to maintain their actual independence, itis referred to as independence in\_\_.
@@ -458,12 +458,12 @@ I'm not 100% sure on this.
 
 - [ ] conversion cost
 - [ ] indirect cost
-- [ ] variable cost
+- [x] variable cost
 - [ ] fixed cost
 
 #### Q55. What do you call the benefit sacrificed when one option is chosen over another?
 
-- [ ] opportunity cost
+- [x] opportunity cost
 - [ ] indirect cost
 - [ ] sunk cost
 - [ ] differential cost
@@ -493,14 +493,14 @@ I'm not 100% sure on this.
 
 - [ ] cash flow statement
 - [ ] income statement
-- [ ] balance sheet
+- [x] balance sheet
 - [ ] shareholder equity statement
 
 #### Q60. The cost of alternative X is $25,000 and the cost of alternative Y is $20,000. What do you call the $5,000 cost difference?
 
 - [ ] essential cost
 - [ ] additional cost
-- [ ] differential cost
+- [x] differential cost
 - [ ] sunk cost
 
 #### Q61. What is the purpose of a master budget?
@@ -571,7 +571,7 @@ I'm not 100% sure on this.
 - [ ] indirect
 - [ ] fixed
 - [ ] variable
-- [ ] direct
+- [x] direct
 
 #### Q71. Which value chain element is associated with the cost of staffing a customer support phone line?
 

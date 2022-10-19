@@ -1230,10 +1230,10 @@ print(a[[False, True, False, False]])
 - [ ] `{2}`
 - [ ] `[0,2,0,0]`
 
-#### Q92. Suppose you have a string variable defined as y=”stuff;thing;junk;”. What would be the output from this code?
+#### Q92. Suppose you have a string variable defined as y="stuff;thing;junk;". What would be the output from this code?
 
 ```python
-z = y.split(‘;’)
+z = y.split(';')
 len(z)
 ```
 
@@ -1245,10 +1245,10 @@ len(z)
 **Explanation**:
 
 ```python
-y=”stuff;thing;junk”
+y="stuff;thing;junk"
 	len(z) ==> 3
 
-y=”stuff;thing;junk;”
+y="stuff;thing;junk;"
 	len(z) ==> 4
 ```
 
@@ -2161,9 +2161,55 @@ Else y = 1 + 30
 
 Explanation:Pickling is the process of sterilizing a Python object, that is, conversion of a byte stream into Python object hierarchy. The reverse of this process is known as unpickling.
 
-#### Q158. Who created the Python programming language?
+
+#### Q158. What is the output of the following program ?
+#### print("codescracker".endswith("er"))
+- [x] True
+- [ ] 1
+- [ ] 2
+- [ ] False
+
+#### Q159. Is list mutable in python ?
+
+- [x] True
+- [ ] False
+
+#### Q160. What is the output of the following program ?
+
+print("programming".center())
+
+- [ ] cr
+- [ ] programming
+- [x] Error says TypeError: center expected at least 1 argument, got 0
+- [ ] None of the Above
+
+
+#### Q161. Who created the Python programming language?
 
 - [ ] Tim Berners-Lee
 - [ ] Ada Lovelace
 - [x] Guido van Rossum
 - [ ] Alan Turing
+
+
+#### Q162. Which collection is ordered, changeable, and allows duplicate members?
+
+- [ ] SET
+- [ ] TUPLE
+- [ ] DICTIONARY
+- [x] LIST
+
+#### Q163. What will be printed in the console if you run this code?
+
+```python
+x = 1j
+print(x**2 == -1)
+```
+
+- [ ] a run-time error telling you that the variable `j` has not been initialized
+- [x] True
+- [ ] 1j
+- [ ] False
+
+Explanation: The letter `j` acts as the imaginary unit in Python, therefore `x**2` means `j**2` which is equal to `-1`. The statement `x**2 == -1` is evaluated as `True`.
+

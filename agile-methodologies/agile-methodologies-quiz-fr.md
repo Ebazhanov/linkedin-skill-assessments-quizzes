@@ -216,7 +216,7 @@
 - \[x] Maximiser les résultats tout en minimisant les extrants.
 - \[ ] Optimiser l’utilisation des ressources.
 
-`“…your job is to minimize output, and maximize outcome and impact.” - Jeff Patton`
+`"…your job is to minimize output, and maximize outcome and impact." - Jeff Patton`
 
 #### Q31. Quelle affirmation est vraie à propos de l’acteur dans une user story ?
 
@@ -677,7 +677,7 @@
 - \[ ] spécialiste de la généralisation
 - \[ ] apprenti développeur
 
-[Source](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of “T-shaped” people. This can also be described as a cross-functionality.`
+[Source](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of "T-shaped" people. This can also be described as a cross-functionality.`
 
 #### Q95. Qu’est-ce qu’une toile lean ?
 

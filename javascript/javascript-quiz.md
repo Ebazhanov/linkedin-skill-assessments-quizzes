@@ -1958,12 +1958,12 @@ console.log(json); // print {"type":"tiger"}
 
 [Reference](<https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById#:~:text=querySelector()%20and%20Document.,element%20objects%20in%20the%20DOM.>)
 
-#### Q141. Which snippet could you add to this code to print "{"type”: “tiger"}" to the console?
+#### Q141. Which snippet could you add to this code to print "{"type": "tiger"}" to the console?
 
 ```
 let cat = {type: "tiger", size: "large"};
 let json= /_ Snippet Here _/;
-console.log(json); //prints {"type”: “tiger"}
+console.log(json); //prints {"type": "tiger"}
 
 ```
 

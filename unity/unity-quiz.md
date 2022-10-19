@@ -7,13 +7,13 @@
 - [ ] Gizmos
 - [x] Play mode tint
 
-#### Q2. A developer executes the C# code below, which finds any game objects tagged as “enemy” in a start event. But the developer notices that, when executed, FindGameObjectsWithTag returns NULL even though the scene contains objects tagged as “Enemy”. What is a possible cause?
+#### Q2. A developer executes the C# code below, which finds any game objects tagged as "enemy" in a start event. But the developer notices that, when executed, FindGameObjectsWithTag returns NULL even though the scene contains objects tagged as "Enemy". What is a possible cause?
 
-`GameObject[] MyEnemies = GameObject.FindGameObjectsWithTag(“Enemy”);`
+`GameObject[] MyEnemies = GameObject.FindGameObjectsWithTag("Enemy");`
 
 - [ ] The objects are animated
 - [ ] The objects are on the UI layer
-- [ ] The objects are not named “Enemy”
+- [ ] The objects are not named "Enemy"
 - [x] The objects are deactivated
 
 #### Q3. What does this code sample achieve? Float Answer = Random.value \* 10f;

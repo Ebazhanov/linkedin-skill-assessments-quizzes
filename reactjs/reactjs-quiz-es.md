@@ -878,7 +878,7 @@ const [count, setCount] = useState(0);
 
 ```javascript
 import React from 'react';
-import { render } from 'react-dom';
+import { render } from 'reactjs-dom';
 
 const element = <h1>Hi</h1>;
 
