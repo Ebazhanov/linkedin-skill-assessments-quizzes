@@ -915,3 +915,36 @@ aws ecs create-service \
 - [x] Baselines
 - [ ] Policy
 
+
+#### Q105. When is an AWS Batch job's status runnable?
+
+- [ ] When a submitted job's resources are being deployed
+- [ ] When a submitted job has been evaluated
+- [x] When a submitted, evaluated job has zero dependencies outstanding
+- [ ] When a submitted job is next in the job queue
+
+
+#### Q106. Which statement regarding AWS Batch automated retries is correct?
+
+- [ ] Each job is provided a single job attempt by default, but a user can modify this to unlimited attempts if desired.
+- [ ] Each job is provided a single job attempt by default, but the AWS Batch job scheduler may modify this after evaluating the submitted job.
+- [x] Each job is provided a single job attempt by default, but a user can modify this to as many as 10 attempts if desired.
+- [ ] Each job is limited to a single attempt before being classified as succeeded or failed.
+
+
+#### Q107. What AWS Batch job parameter can you specify to prevent an unsuccessful job from being stuck in a loop?
+
+- [x] The duration of job timeout
+- [ ] A resource expenditure cap
+- [ ] The number of automated job retries
+- [ ] An AWS Batch job agent
+
+
+#### Q108. In which of the following AWS Batch components can a user set a priority level, for time-sensitive or low-priority jobs?
+
+
+- [ ] Within the job scheduler
+- [ ] Within the job itself
+- [ ] Within the job definition
+- [x] Within a job queue
+
