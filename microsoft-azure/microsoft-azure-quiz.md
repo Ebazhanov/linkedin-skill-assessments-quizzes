@@ -481,7 +481,7 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 - [x] `?`
 - [ ] `&`
 
-#### Q62. To execute your pipeline in Azure DevOps, you will need to use ******\_******.
+#### Q62. To execute your pipeline in Azure DevOps, you will need to use **\*\***\_**\*\***.
 
 - [ ] gates
 - [x] agents
@@ -495,7 +495,7 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 - [ ] Complexity is reduced with parallelism.
 - [ ] A maximum number of build agents constrains it.
 
-#### Q64. In an Azure Pipeline, a build agent is a piece of software that runs a series of tasks, called a ****\_\_\_****, on a machine.
+#### Q64. In an Azure Pipeline, a build agent is a piece of software that runs a series of tasks, called a \***\*\_\_\_\*\***, on a machine.
 
 - [ ] String
 - [ ] Circuit
