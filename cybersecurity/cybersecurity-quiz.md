@@ -960,3 +960,45 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [x] ISO/IEC 15408.
 - [ ] ISO/IEC 13335. 
 
+
+
+#### Q124. What is the main role of the board member known as the information security manager?
+
+- [x] To ensure appropriate security controls are implemented across the organisation.
+- [ ] To provide day-to-day management of the information assurance function.
+- [ ] To have a detailed understanding of the organisation's vulnerabilities.
+- [ ] To have a detailed understanding of threats faced by the organisation.
+
+
+#### Q125. What are the two main approaches used to determine the likelihood of a threat occurring?
+
+- [ ] Qualitative and statistical
+- [ ] Statistical and quantitative
+- [ ] Statistical and assumptive
+- [x] Qualitative and quantitative
+
+
+#### Q126. Which type of hackers are often organized and funded by a nation's military intelligence or security services, and attempt to gain access to a foreign adversary's state secrets or military intelligence?
+
+- [ ] hacktivists
+- [ ] competitors
+- [ ] black hat hackers
+- [x] state-sponsored hackers
+
+
+#### Q127. Which of the following methods combines two binary streams to create one new stream that contains hidden information that cannot be retrieved without the other stream that was used to create it?
+
+
+- [ ] substitution cipher
+- [ ] weaponization
+- [ ] transposition cipher
+- [x] XOR encryption
+
+
+#### Q128. What is Drupalgeddon?
+
+- [ ] A web app proxy tool
+- [ ] A DDoS bot
+- [ ] A network packet capturing device
+- [x] a SQL injection flaw
+
