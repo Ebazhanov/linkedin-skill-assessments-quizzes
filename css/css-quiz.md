@@ -1858,7 +1858,7 @@ p + section {
 - [ ] top-left corner
 - [x] bottom-left corner
 
-#### Q123. Which choice uses the correct syntax for adding a hover pseudo class to \<a> element ?
+#### Q123. Which choice uses the correct syntax for adding a hover pseudo class to \<a> element?
 
 - [x] `a:hover {...}`
 - [ ] `a :hover {...}`
