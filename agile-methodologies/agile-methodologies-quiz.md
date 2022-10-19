@@ -889,3 +889,46 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] control chart
 - [ ] burn up chart
 - [ ] cumulative flow
+
+#### Q122. Which of the following statements about a Kanban control chart is false?
+
+- [ ] The light blue shaded area is the standard deviation.
+- [ ] The green dots are the issues themselves.
+- [x] The control chart works best when the tasks that you're tracking are of different sizes.
+- [ ] The blue line is the rolling average cycle time.
+
+
+
+#### Q123. What does EBM consider in Managerial Decisions? 
+
+- [ ] Productivity and ethical concerns
+- [x] Circumstance and ethical concerns
+- [ ] Circumstances and financial concerns
+- [ ] Moral and ethical concerns
+
+
+
+#### Q124. Stacey's process complexity model shows us that agile thinking is best _______________.
+
+- [ ] When there is high complexity
+- [ ] When there is high certainty
+- [x] Regardless of complexity or certainty
+- [ ] When there is low certainty and complexity
+
+
+#### Q125. What is a DEEP product backlog? 
+
+- [ ] Detailed Appropriately, Emergent, Elegant & Prioritized
+- [ ] Detailed Adequately, Emergent, Estimated & Prioritized
+- [ ] Detailed Appropriately, Emanant, Estimated & Prioritized
+- [x] Detailed Appropriately, Emergent, Estimated & Prioritized
+
+
+
+#### Q126. Which Jira feature provides an overview of multiple projects?
+
+- [x] roll-up boards
+- [ ] code integration
+- [ ] task automation
+- [ ] reporting
+
