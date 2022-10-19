@@ -522,3 +522,40 @@ kubectl create deployment app --image=$ImageRepo:$Tag
 - [ ] containers
 
 
+#### Q65. Which of the following statements is not a general security guideline for a Google Cloud Platform deployment pipeline?
+
+- [ ] Regularly audit any changes to your IAM policies.
+- [x] Integration steps should be able to deploy code.
+- [ ] Log everything.
+- [ ] Deployment steps should not be able to build code or access your code repository.
+
+#### Q66. In order to allow signed images to be deployed with Google Cloud Platform's binary authorization enabled, you need to create a(n) _____.
+
+- [ ] virtual machine
+- [ ] alert
+- [ ] log
+- [x] attestor
+
+
+#### Q67. Builders in Cloud Build are 
+
+- [ ] part of Google's proprietary infrastructure
+- [ ] created from Managed Instance Templates
+- [x] containers with pre-loaded tools and runtimes
+- [ ] virtual machines with pre-loaded tools and runtimes
+
+
+#### Q68. Which of the following statements about security in the Google Cloud Platform deployment pipeline is false?
+
+- [x] It is pretty standard for developers and QA engineers to be allowed to create new clusters, but not allowed to deploy containers to certain existing clusters.
+- [ ] Each employee's access to Google Cloud resources should be based upon what they require to do their job.
+- [ ] The exact permissions will vary based upon the needs of the company, and depends upon the number of roles, steps, and environments that exist.
+- [ ] Each employee's access to Google Cloud resources should be based on the principle of least privilege.
+
+
+#### Q69. In order to create and store a key in Google Cloud Platform, you must first create a _____ to hold the key.
+
+- [ ] wallet
+- [x] keyring
+- [ ] policy
+- [ ] keychain
