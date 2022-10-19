@@ -363,3 +363,12 @@
 - [ ] Keyword Planner
 
 [Preview and Diagnosis Tool](https://support.google.com/google-ads/answer/1704364?hl=en)
+
+#### Q51. You sell piano keyboards, but your ads also appear when people search for "computer keyboards". What should you do?
+
+- [ ] Add an exact match keyword as **\[piano\]**.
+- [ ] Add an exact match keyword as **\[computer\]**.
+- [x] Add a negative keyword for **computer**.
+- [ ] Add a negative keyword for **keyboards**.
+
+[Add negative keywords to campaigns](https://support.google.com/google-ads/answer/7102995)
