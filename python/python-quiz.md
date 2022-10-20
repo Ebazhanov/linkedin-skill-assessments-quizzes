@@ -2241,3 +2241,103 @@ else:
 - [ ] 0 1 2 3 4 5 Done!
 - [x] 0 1 2 3 4 Done!
 - [ ] You will get a syntax error.
+
+
+#### Q166. Which comparison of lists and tuples in Python is correct?
+
+
+- [ ] Use lists instead of tuples when you have a collection of related but dissimilar objects.
+- [ ] Use tuples instead of lists when you have a common collection of similar objects.
+- [x] Use tuples instead of lists for functions that need to return multiple values.
+- [ ] Use lists instead of tuples when the position of elements is important.
+
+
+#### Q167. Consider the following code snippet that uses decorators to calculate the execution time of execution_fn function:
+
+```
+import functools
+import time
+
+def timer(MISSING_ARG_1):
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):
+        start_time = time.perf_counter()
+        rval = func(*args, **kwargs)
+        end_time = time.perf_counter() 
+        duration = end_time - start_time
+        print(f"Executed in {duration:.4f} seconds")
+        return MISSING_ARG_2
+    return MISSING_ARG_3
+
+@timer
+def execution_fn():
+    for i in range(3):
+        time.sleep(1)
+
+execution_fn()
+```
+
+**Which of the following choices are the missing arguments?**
+
+- [ ] :
+
+```
+MISSING_ARG_1 = wrapper 
+
+MISSING_ARG_2 = rval
+
+MISSING_ARG_3 = func
+```
+
+- [x] :
+```
+MISSING_ARG_1 = func
+
+MISSING_ARG_2 = rval
+
+MISSING_ARG_3 = wrapper
+```
+
+- [ ] :
+```
+MISSING_ARG_1 is empty 
+
+MISSING_ARG_2 = rval
+
+MISSING_ARG_3 = wrapper
+```
+
+- [ ] :
+```
+MISSING_ARG_1 is empty
+
+MISSING_ARG_2 = rval
+
+MISSING_ARG_3 = func
+```
+
+
+
+
+#### Q168. Which of the following statements defines a new object type named "Dog" in Python?
+
+- [x] class Dog:
+- [ ] Dog class:
+- [ ] Dog:
+- [ ] class Dog
+
+
+#### Q169. To use pipelines in scikit-learn, import from the scikit-learn._____ submodule.
+
+- [ ] preprocessing
+- [x] pipeline
+- [ ] filters
+- [ ] pipe_filter
+
+
+#### Q170. You should pass in a value of _____ for the axis argument to the Pandas apply method to apply the function to each row.
+
+- [ ] row
+- [ ] col
+- [x] 1
+- [ ] 0
