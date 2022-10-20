@@ -509,9 +509,7 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 - [ ] The build will forfeit and not run at all.
 - [ ] The build will wait until another agent becomes available.
 
-
 #### Q66. Which type of Azure Web Application Firewall log tracks requests coming through the firewall policy while in detection or prevention mode?
-
 
 - [ ] Activity Log
 - [ ] Performance Resource Log
@@ -525,16 +523,12 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 - [ ] allow
 - [ ] block
 
-
-
 #### Q68. Which of the following statements about Azure Web Application Firewall policies for Application Gateway is true?
 
 - [ ] Each policy can be applied to only one target.
 - [x] Policies can be applied globally to the Application Gateway at the site hosted by the gateway.
 - [ ] Managed rules have a priority over custom rules.
 - [ ] You can create a maximum of 100 policies.
-
-
 
 #### Q69. Which of the following services is not a service supported by Azure Web Application Firewall?
 
@@ -543,13 +537,9 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 - [ ] Azure Front Door
 - [x] Azure API Management
 
-
-
-#### Q70. Azure _____ is a globally scalable entry point for web applications hosted in Azure.
-
+#### Q70. Azure **\_** is a globally scalable entry point for web applications hosted in Azure.
 
 - [ ] Content Delivery Network
 - [x] Front Door
 - [ ] Application Gateway
 - [ ] API Management
-

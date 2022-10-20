@@ -841,14 +841,12 @@ if [[ $FILE == $GLOB ]] ;then
 - [x] $0
 - [ ] $9
 
-
-#### Q102. VirtualBox provides _____, which are installed on guests and allow the guest operating system to access shared folders on the host system, share the clipboard, and some other similar actions.
+#### Q102. VirtualBox provides **\_**, which are installed on guests and allow the guest operating system to access shared folders on the host system, share the clipboard, and some other similar actions.
 
 - [ ] projects
 - [ ] guest configurations
 - [ ] SSHs
 - [x] guest additions
-
 
 #### Q103. Given an IP address of 199.83.131.0 and a subnet mask of 255.255.255.0, what is the broadcast address?
 
@@ -864,8 +862,7 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] pidof
 - [ ] ps -e
 
-
-#### Q105. In a shell script, to create an infinite while loop, make the condition always return true by using the _____ command for the while loop condition.
+#### Q105. In a shell script, to create an infinite while loop, make the condition always return true by using the **\_** command for the while loop condition.
 
 - [ ] return
 - [ ] continue
