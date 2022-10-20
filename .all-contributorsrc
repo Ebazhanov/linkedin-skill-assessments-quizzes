@@ -11719,6 +11719,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "chamley",
+      "name": "chamley",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10702270?v=4",
+      "profile": "http://chamley.dev",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
