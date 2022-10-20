@@ -1008,7 +1008,7 @@ References:
 - [x] &
 - [ ] $
 
-#### Q78. The range of nice number in LINUX system is ?
+#### Q78. The range of nice number in LINUX system is?
 
 - [ ] -20 to 0
 - [x] -20 to 19
