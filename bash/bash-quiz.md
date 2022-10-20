@@ -1007,3 +1007,12 @@ References:
 - [ ] &&
 - [x] &
 - [ ] $
+
+#### Q78. The range of nice number in LINUX system is ?
+
+- [ ] -20 to 0
+- [x] -20 to 19
+- [ ] 0 to 19
+- [ ] 10 to 10
+
+[Reference](https://man7.org/linux/man-pages/man2/nice.2.html)
