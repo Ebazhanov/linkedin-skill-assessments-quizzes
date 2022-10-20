@@ -825,3 +825,36 @@ Which of these statements do you agree with?
 - [x] Item
 - [ ] Similarity
 - [ ] Purchase
+
+
+### Q107. Fill in the blanks: Two multivariate imputer techniques are the _____ imputer and the _____ imputer.
+
+- [ ] supervised, unsupervised
+- [x] iterative, KNN
+- [ ] similarity, regressive
+- [ ] normalized, scaled
+
+### Q108. You are working on a regression model using the Keras library.  What method on the Model class do you use to train the model?
+
+- [ ] predict
+- [ ] compile
+- [x] fit
+- [ ] get_weights
+
+
+
+### Q109. What is the goal of regularization in the K nearest neighbors algorithm?
+
+- [ ] normalizing the data points so they can be compared with each other
+- [ ] using a straight line model to make predictions based on training data
+- [ ] finding the slope of the line that represents the model
+- [x] making the decision boundaries more regular
+
+
+### Q110. If there is no trend between two variables x and y, we say that there is a _____ connection between x and y.
+
+- [ ] linear
+- [ ] exponential
+- [ ] non-random
+- [x] random
+
