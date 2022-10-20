@@ -2214,7 +2214,21 @@ print(x**2 == -1)
 
 Explanation: The letter `j` acts as the imaginary unit in Python, therefore `x**2` means `j**2` which is equal to `-1`. The statement `x**2 == -1` is evaluated as `True`.
 
-#### Q164. What will this code output to the screen?
+#### Q164. What will be printed in the console if you run this code?
+
+```python
+print(0xA + 0xB + 0xC) 
+```
+
+- [x] 33
+- [ ] 63
+- [ ] 0xA + 0xB + 0xC
+- [ ] None
+
+Explanation: A, B and C are hexadecimal integers with values 10, 11 and 12 respectively, so the sum
+of A, B and C is 33.
+
+#### Q165. What will this code output to the screen?
 
 ```python
 for i in range(5):
