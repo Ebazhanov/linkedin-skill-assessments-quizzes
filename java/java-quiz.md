@@ -1367,3 +1367,5 @@ public class Main {
 - [ ] 4 2 3 1
 - [x] 1 2 3 4
 - [ ] 4 3 2 1
+
+reference : https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html
