@@ -11709,6 +11709,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "briangor",
+      "name": "Brian",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27485722?v=4",
+      "profile": "http://briangor.github.io",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
