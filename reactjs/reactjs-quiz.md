@@ -1307,6 +1307,8 @@ const Greeting = ({ initName }) => {
 - [x] const value = useContext(MyContext)
 - [ ] const value = useContext({value: "intiial value"})
 
+[Source](https://reactjs.org/docs/hooks-reference.html#usecontext)
+
 #### Q110. Why is ref used?
 
 - [ ] to bind function
@@ -1314,12 +1316,16 @@ const Greeting = ({ initName }) => {
 - [x] to directly access DOM node
 - [ ] to refer to another JS file
 
-#### Q111. Choose the component which should be overridden to stop the component from updating?
+[Source](https://reactjs.org/docs/refs-and-the-dom.html#when-to-use-refs)
+
+#### Q111. Choose the method which should be overridden to stop the component from updating?
 
 - [ ] componentDidMount
 - [ ] componentDidUpdate
 - [ ] willComponentUpdate
 - [x] shouldComponentUpdate
+
+[Source](https://reactjs.org/docs/react-component.html#shouldcomponentupdate)
 
 #### Q112. What is the functionality of a “webpack” command?
 
@@ -1342,12 +1348,16 @@ const Greeting = ({ initName }) => {
 - [ ] Does not requires to be unique
 - [ ] all of the above
 
+[Source](https://reactjs.org/docs/lists-and-keys.html#keys)
+
 #### Q115. Which company developed ReactJS?
 
 - [ ] Google
-- [x] FaceBook
+- [x] Meta (ex Facebook)
 - [ ] Apple
 - [ ] Twitter
+
+https://github.com/facebook/react
 
 #### Q116. Choose the library which is most often associated with react?
 
@@ -1355,3 +1365,5 @@ const Greeting = ({ initName }) => {
 - [ ] Sinon
 - [x] Jest
 - [ ] Mocha
+
+[Source](https://reactjs.org/docs/testing-recipes.html)
