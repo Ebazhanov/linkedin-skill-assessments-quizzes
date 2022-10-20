@@ -2254,7 +2254,7 @@ else:
 
 #### Q167. Consider the following code snippet that uses decorators to calculate the execution time of execution_fn function:
 
-```
+```python
 import functools
 import time
 
