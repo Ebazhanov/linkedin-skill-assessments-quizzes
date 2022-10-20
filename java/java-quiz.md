@@ -2146,3 +2146,69 @@ Queue<Rainfall>
 - [ ] Interface
 - [ ] Predicate
 - [x] Function
+
+#### Q154. What code is needed at line 8?
+
+```java
+1: class Main {
+
+2:      public static void main(String[] args) {
+
+3:          Map<String, Integer> map = new HashMap<>();
+4:          map.put("a", 1);
+5:          map.put("b", 2);
+6:          map.put("c", 3);
+
+7:          int result = 0;
+
+8:
+9:              result += entry.getValue();
+10:         }
+
+11:         System.out.println(result); // outputs 6
+12:     }
+13: }
+```
+
+- [ ] for(MapEntry<String, Integer> entry: map.entrySet()) {
+- [ ] for(String entry: map) {
+- [ ] for(Integer entry: map.values()) {
+- [x] for(Entry<String, Integer> entry: map.entrySet()) {
+
+#### Q155. What will print when Lambo is instantiated?
+
+```java
+class Car {
+    String color = "blue";
+}
+
+class Lambo extends Car {
+    String color = "white";
+
+    public Lambo() {
+        System.out.println(super.color);
+        System.out.println(this.color);
+        System.out.println(color);
+    }
+}
+```
+
+- [x] blue
+      white
+      white
+- [ ] blue
+      white
+      blue
+- [ ] white
+      white
+      white
+- [ ] white
+      white
+      blue
+
+### Q156. Which command will run a FrogSounds app that someone emailed to you as a jar?
+
+- [ ] jar FrogSounds.java
+- [ ] javac FrogSounds.exe
+- [ ] jar cf FrogSounds.jar
+- [x] java -jar FrogSounds.jar 
