@@ -2227,3 +2227,17 @@ print(0xA + 0xB + 0xC)
 
 Explanation: A, B and C are hexadecimal integers with values 10, 11 and 12 respectively, so the sum
 of A, B and C is 33.
+
+#### Q165. What will this code output to the screen?
+
+```python
+for i in range(5):
+    print(i)
+else:
+    print("Done!")
+```
+
+- [ ] 1 2 3 4 5 Done!
+- [ ] 0 1 2 3 4 5 Done!
+- [x] 0 1 2 3 4 Done!
+- [ ] You will get a syntax error.

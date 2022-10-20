@@ -11699,6 +11699,26 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "moktermd08",
+      "name": "Mo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55099505?v=4",
+      "profile": "http://gglink.uk",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "briangor",
+      "name": "Brian",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27485722?v=4",
+      "profile": "http://briangor.github.io",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

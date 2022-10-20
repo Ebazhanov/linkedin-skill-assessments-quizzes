@@ -1391,17 +1391,14 @@ a {
       10vh = 60px
       10vmin = 60px
       10vmax = 80px
-
 - [ ] 10vw = 60px
       10vh = 80px
       10vmin = 80px
       10vmax = 60px
-
 - [ ] 10vw = 8px
       10vh = 6px
       10vmin = 6px
       10vmax = 8px
-
 - [ ] 10vw = 6px
       10vh = 8px
       10vmin = 8px
@@ -1861,7 +1858,7 @@ p + section {
 - [ ] top-left corner
 - [x] bottom-left corner
 
-#### Q123. Which choice uses the correct syntax for adding a hover pseudo class to <a> element ?
+#### Q123. Which choice uses the correct syntax for adding a hover pseudo class to \<a> element?
 
 - [x] `a:hover {...}`
 - [ ] `a :hover {...}`
@@ -1947,7 +1944,6 @@ a:focus {
       `:active` styles are applied on mouse click.
       `:hover` styles are applied on mouse over.
       `:focus` styles are applied on mouse click and hold, or when a Tab key on a keyboard is used to navigate through links.
-
 - [x] `:visited` styles are applied after the link has been opened.
       `:active` styles are applied on mouse click only and before mouse release.
       `:hover` styles are applied on mouse over.
@@ -2232,11 +2228,8 @@ input.invalid {
 #### Q139. To insert an external style sheet file into another style sheet file, which rule should you use?
 
 - [x] `@import`
-
 - [ ] `@link`
-
 - [ ] `@insert`
-
 - [ ] `@style`
 
 [Reference for import](https://developer.mozilla.org/en-US/docs/Web/CSS/@import)
@@ -2256,11 +2249,8 @@ input.invalid {
 ```
 
 - [ ] 200px
-
 - [x] 20px
-
 - [ ] 180px
-
 - [ ] 220px
 
 [Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/height#:~:text)
@@ -2271,13 +2261,10 @@ input.invalid {
 
 - [ ] row: 3;
       column: 3;
-
 - [x] grid-row: 3;
       grid-column: 3;
-
 - [ ] row: 2;
       column: 2;
-
 - [ ] grid-row: 2;
       grid-column: 2;
 
@@ -2397,26 +2384,26 @@ input.invalid {
 
 #### Q157. What is the correct HTML for referring to an external style sheet?
 
-- [x] <link rel="stylesheet" type="text/css" href="mystyle.css">
-- [ ] <stylesheet>mystyle.css</stylesheet>
-- [ ] < style src= "mystyle.css" >
+- [x] `<link rel="stylesheet" type="text/css" href="mystyle.css">`
+- [ ] `<stylesheet>mystyle.css</stylesheet>`
+- [ ] `<style src= "mystyle.css">`
 - [ ] None of these.
 
-  #### Q158. The <link> tag goes inside:
+#### Q158. The \<link> tag goes inside:
 
 - [ ] the title section
 - [ ] the body section
 - [x] the head section
 - [ ] None of the above
 
-  #### Q159. What CSS define in HTML ?
+#### Q159. What CSS define in HTML?
 
 - [ ] How to send HTML elements
 - [x] How to display HTML elements
 - [ ] How to save HTML elements
 - [ ] How to make HTML elements
 
-  #### Q160. Which of the following statements is TRUE for CSS?
+#### Q160. Which of the following statements is TRUE for CSS?
 
 - [ ] An inline style sheet should be used when a single document has a unique style
 - [x] An external style sheet is ideal when the style is applied to many pages
