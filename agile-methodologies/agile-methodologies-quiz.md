@@ -904,7 +904,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] Circumstances and financial concerns
 - [ ] Moral and ethical concerns
 
-#### Q124. Stacey's process complexity model shows us that agile thinking is best ******\_\_\_******.
+#### Q124. Stacey's process complexity model shows us that agile thinking is best **\*\***\_\_\_**\*\***.
 
 - [ ] When there is high complexity
 - [ ] When there is high certainty
