@@ -1357,7 +1357,7 @@ const Greeting = ({ initName }) => {
 - [ ] Apple
 - [ ] Twitter
 
-https://github.com/facebook/react
+[Source](https://github.com/facebook/react)
 
 #### Q116. Choose the library which is most often associated with react?
 
