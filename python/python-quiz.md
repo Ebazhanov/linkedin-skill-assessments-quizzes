@@ -2213,3 +2213,17 @@ print(x**2 == -1)
 - [ ] False
 
 Explanation: The letter `j` acts as the imaginary unit in Python, therefore `x**2` means `j**2` which is equal to `-1`. The statement `x**2 == -1` is evaluated as `True`.
+
+#### Q164. What will this code output to the screen?
+
+```python
+for i in range(5):
+    print(i)
+else:
+    print("Done!")
+```
+
+- [ ] 1 2 3 4 5 Done!
+- [ ] 0 1 2 3 4 5 Done!
+- [x] 0 1 2 3 4 Done!
+- [ ] You will get a syntax error.
