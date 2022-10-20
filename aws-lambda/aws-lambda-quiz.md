@@ -47,7 +47,7 @@
 - [ ] `API Gateway`
 - [ ] `S3`
 - [ ] `SAS`
-- [x] `CLoudTrail`
+- [x] `CloudTrail`
 
 #### Q8. It is AWS best practice to enable Lambda logging by which of these methods.
 
