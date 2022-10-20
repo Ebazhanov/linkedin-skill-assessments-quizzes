@@ -545,14 +545,14 @@
 - [ ] Any computer that has a hard disk
 - [ ] Existing hardware if it meets the requirements
 
-#### Q73. When you move a Hyper-V virtual machine from Windows Server 2012 R2 to Windows Server 2016, _____.
+#### Q73. When you move a Hyper-V virtual machine from Windows Server 2012 R2 to Windows Server 2016, **\_**.
 
 - [ ] It will run on the Server 2016 but cannot be moved back to the Server 2012
 - [ ] It will fail because the configuration of the virtual machine has to match the 2016 version
 - [ ] It will automatically update the virtual machine configuration to the 2016 version
 - [ ] The virtual machine configuration is not updated so it can be moved back to the Server 2012
 
-#### Q74. Installing Windows Server 2016 without a product key _____.
+#### Q74. Installing Windows Server 2016 without a product key **\_**.
 
 - [ ] Is only possible if you install it without the Desktop Experience
 - [ ] Is only possible if you install it as Standard
@@ -566,21 +566,21 @@
 - [ ] They make it easier to migrate from Active Directory Federation Services in Windows Server 2012 R2
 - [ ] They allow to add a new Windows Server 2016 Federation Servers to an existing
 
-#### Q76. The _____ capability directly gives you the ability to implement site-to-site VPNs.
+#### Q76. The **\_** capability directly gives you the ability to implement site-to-site VPNs.
 
 - [ ] SET Architecture
 - [ ] RAS Gateway
 - [ ] NIC Teaming
 - [ ] Flow Engine
 
-#### Q77. The _____ feature helps prevent malicious users from starting the denial of service attacks by using your DNS servers.
+#### Q77. The **\_** feature helps prevent malicious users from starting the denial of service attacks by using your DNS servers.
 
 - [ ] IPv6 Root Hints
 - [ ] Unknown Record Support
 - [ ] DNS-Based Authentication of Names Entities
 - [ ] Response Rate Limiting
 
-#### Q78. A user is added to multiple time-bound groups. His Kerberos ticket-granting ticket lifetime will be the _____.
+#### Q78. A user is added to multiple time-bound groups. His Kerberos ticket-granting ticket lifetime will be the **\_**.
 
 - [ ] Lowest time-to-live among all groups
 - [ ] Sum of the time-to-live values across all groups
@@ -594,21 +594,21 @@
 - [ ] Network traffic monitoring
 - [ ] Isolated VLANs
 
-#### Q80. In _____ replication scenario(s), the replicated servers or clusters can be far from each other.
+#### Q80. In **\_** replication scenario(s), the replicated servers or clusters can be far from each other.
 
 - [ ] Neither the server-to-server and cluster-to-cluster
 - [ ] Only the cluster-to-cluster
 - [ ] Only the server-to-server
 - [ ] Both the server-to-server and cluster-to-cluster
 
-#### Q81. The _____ Windows Server 2016 feature helps with meeting service level agreements.
+#### Q81. The **\_** Windows Server 2016 feature helps with meeting service level agreements.
 
 - [ ] Object-Oriented PowerShell syntax
 - [ ] Active Memory Dumps
 - [ ] Cluster OS Rolling Upgrade
 - [ ] Network Name Diagnostics
 
-#### Q82. In the storage Qos deployment scenario based on Hyper-V using a Scale-Out File Server, _____.
+#### Q82. In the storage Qos deployment scenario based on Hyper-V using a Scale-Out File Server, **\_**.
 
 - [ ] You need a compute cluster with the Hyper-V role enabled
 - [ ] You need a computer cluster that has at least one server with the Hyper-V role enabled

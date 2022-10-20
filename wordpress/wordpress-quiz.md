@@ -90,7 +90,8 @@
 - [x] red
 - [ ] green
 
-#### Q11. Theme developers can take advantage of the 
+#### Q11. Theme developers can take advantage of the
+
 izer API to give users a way to manipulate basic theme settings. The Customizer API is object-oriented and provides four main objects. What are they?
 
 - [ ] widgets, containers, sections, settings

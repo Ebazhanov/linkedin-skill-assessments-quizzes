@@ -1099,5 +1099,3 @@ Table name: superheroes
 - [ ] `None of the above.`
 
 [Reference](https://www.w3schools.com/mysql/mysql_between.asp)
-
-
