@@ -706,3 +706,10 @@ aws ecs create-service \
 - [ ] Create a WAF redirection rule that redirects traffic at the EU data center if the source IP comes from certain countries.
 - [ ] Purchase a country domain extension and direct your users to the correct site, such as example.com and example.co
 - [ ] Have your front-end application test the latency between each data center and use the data center that is responding the fastest.
+
+#### Q78. Which of the following is a message queue or transaction system for distributed Internet-based applications?
+- [ ] Amazon Elastic Compute Cloud
+- [x] Amazon Simple Queue Service
+- [ ] Amazon Simple Notification Service
+- [ ] Amazon Simple Storage System
+Reference: https://aws.amazon.com/sqs/
