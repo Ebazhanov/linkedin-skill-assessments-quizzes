@@ -90,7 +90,8 @@
 - [x] red
 - [ ] green
 
-#### Q11. Theme developers can take advantage of the Customizer API to give users a way to manipulate basic theme settings. The Customizer API is object-oriented and provides four main objects. What are they?
+#### Q11. Theme developers can take advantage of the 
+izer API to give users a way to manipulate basic theme settings. The Customizer API is object-oriented and provides four main objects. What are they?
 
 - [ ] widgets, containers, sections, settings
 - [ ] containers, hooks, settings, styles
@@ -288,10 +289,10 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 #### Q34. If you wanted to register a custom post type, which hook would you use?
 
-- [ ] register_post_type
+- [x] register_post_type
 - [ ] add_meta_box
 - [ ] wp_head
-- [x] init
+- [] init
 
 #### Q35. What is the role of a WordPress theme?
 
@@ -341,7 +342,7 @@ add_action( 'wp_enqueue_scripts', 'load_scripts' );
 
 - [ ] Link to the script directly from a template named page-contact.php, like this:
 - [ ] `<head>`
-- [ ] `<script src="/my-script.js"></script>`
+- [x] `<script src="/my-script.js"></script>`
 - [ ] `</head>`
 
 #### Q39. Where can you find the official WordPress documentation and usage guide?
@@ -483,8 +484,8 @@ $title = $_POST[ 'title' ];
 #### Q56. Which folder in a WordPress install is not affected by an automatic WordPress update?
 
 - [ ] `/wp-admin`
-- [x] `root`
-- [ ] `/wp-content`
+- [ ] `root`
+- [x] `/wp-content`
 - [ ] `/wp-includes`
 
 #### Q57. What are transients?
