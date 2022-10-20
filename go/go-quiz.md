@@ -566,3 +566,20 @@ Relevant excerpt from the article:
       ch <- r
       } ()
 - [ ] go ch <- worker(m)
+
+#### Q46. In this code, which names are exported?
+
+```
+package os
+
+type FilePermission int
+type userID int
+}
+```
+
+- [x] FilePermission
+- [ ] none of these answers
+- [ ] FilePermission and userID
+- [ ] userID
+
+[Reference]([https://www.ardanlabs.com/blog/2018/11/goroutine-leaks-the-forgotten-sender.html](https://go.dev/tour/basics/3#:~:text=In%20Go%2C%20a%20name%20is,only%20to%20its%20exported%20names.))
