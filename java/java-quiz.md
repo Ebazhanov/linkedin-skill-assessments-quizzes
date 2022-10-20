@@ -2072,3 +2072,25 @@ Queue<Rainfall>
 - [ ] Function<Integer, Integer> funcReference = MyClass.myFunction;
 - [ ] Function<Integer, Integer> funcReference = MyClass().myFunction();
 - [ ] Function<Integer, Integer> funcReference = MyClass::myFunction();
+
+
+#### Q145. Calculate the time complexity of the following program.
+
+```java
+ void printUnorderedPairs(int[] arrayA, int[] arrayB){
+    for(int i = 0; i < arrayA.length; i++){
+        for(int  j = 0; j < arrayB.length; j++){
+            if(arrayA[i] < arrayB[j]){
+                System.out.println(arrayA[i] + "," + arrayB[j]);
+            }
+        }
+    }
+ }
+```
+
+- [ ] O(N*N)
+- [ ] O(1)
+- [x] O(AB)
+- [ ] O(A*B)
+
+[Reference](http://englishonlineclub.com/pdf/Cracking%20the%20Coding%20Interview%20-%20189%20Programming%20Questions%20and%20Solutions%20(6th%20Edition)%20[EnglishOnlineClub.com].pdf) //check page number 47 and example number 4.:-}
