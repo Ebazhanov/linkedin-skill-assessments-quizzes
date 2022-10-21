@@ -1985,7 +1985,6 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 #### Q118. The "h" in the HTML h1 tag is short for _____.
 
-
 - [ ] head
 - [ ] horizontal
 - [ ] hypertext
