@@ -1268,3 +1268,26 @@ void change(int x,int y)
 
 - [x] True
 - [ ] False
+
+#### Q86. What does the following fragment of C-program print? 
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    char c[] = "GATE2011";
+
+    char *p = c;
+
+    printf("%s", p + p[3] -p[1]);
+
+    return 0;
+}
+```
+- [ ] GATE 2011
+- [ ] E2011
+- [x] 2011
+- [ ] 01
+
+**Explanation :** char c[ ] = "GATE2011";since char *p =c it means p represents to the base address of string “GATE2011” SO   p[3] is 'E' and p[1] is 'A'. Value of Sub expression p[3] – p[1]   =  ASCII value of ‘E’ – ASCII value of ‘A’ = 4. So the expression  p + p[3] – p[1] becomes ( p + 4) And (p+4)  represent to base address of string “2011” printf(“%s”, p + p[3] – p[1]) ; So it will print 2011
