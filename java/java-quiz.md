@@ -1326,7 +1326,7 @@ public class Main {
 
 **Explanation**: HashMap class implements Map interface.
 
-#### Q95. You have a variable of named `employees` of type `List<Employee>` containing multiple entries. The `Employee` type has a method `getName()` that returns te employee name. Which statement properly extracts a list of employee names?
+#### Q95. You have a variable of named `employees` of type `List<Employee>` containing multiple entries. The `Employee` type has a method `getName()` that returns the employee name. Which statement properly extracts a list of employee names?
 
 - [ ] `employees.collect(employee -> employee.getName());`
 - [ ] `employees.filter(Employee::getName).collect(Collectors.toUnmodifiableList());`
@@ -1429,8 +1429,8 @@ public class Berries{
 
     String berry = "blue";
 
-    public static void main( String[] args ) {
-        new Berries().juicy( "straw" );
+    public static void main(String[] args) {
+        new Berries().juicy("straw");
     }
     void juicy(String berry){
         this.berry = "rasp";
@@ -1472,11 +1472,11 @@ import java.util.List;
 
 class Main {
 
-    public static void main( String[] args ) {
-        List<String> list = new ArrayList<String>( Arrays.asList( "a", "b", "c" ) );
-        for( String value :list ){
-            if( value.equals( "a" ) ) {
-                list.remove( value );
+    public static void main(String[] args) {
+        List<String> list = new ArrayList<String>(Arrays.asList("a", "b", "c"));
+        for(String value :list) {
+            if(value.equals("a")) {
+                list.remove(value);
             }
         }
         System.out.println(list); // outputs [b,c]
@@ -1492,7 +1492,7 @@ class Main {
 #### Q106. How do you convert this method into a lambda expression?
 
 ```java
-public int square(int x){
+public int square(int x) {
     return x * x;
 }
 ```
@@ -1557,13 +1557,13 @@ public class MyClass implements MyInterface {
 #### Q108. What is the result of this program?
 
 ```java
-interface Foo{
+interface Foo {
     int x = 10;
 }
 
 public class Main{
 
-    public static void main( String[] args ) {
+    public static void main(String[] args) {
         Foo.x = 20;
         System.out.println(Foo.x);
     }
@@ -1604,14 +1604,14 @@ System.out.println(false || false && true);
 
 ```java
 List<String> list1 = new ArrayList<>();
-list1.add( "One" );
-list1.add( "Two" );
-list1.add( "Three" );
+list1.add("One");
+list1.add("Two");
+list1.add("Three");
 
 List<String> list2 = new ArrayList<>();
-list2.add( "Two" );
+list2.add("Two");
 
-list1.remove( list2 );
+list1.remove(list2);
 System.out.println(list1);
 ```
 
