@@ -2216,6 +2216,6 @@ class Lambo extends Car {
 #### Q157. What is the default value of short variable?
 
 - [ ] 0
-- [ ] 0.0 
+- [ ] 0.0
 - [ ] null
 - [ ] undefined

@@ -2039,4 +2039,4 @@ print(typeof NaN);
 - [ ] document.write()
 - [ ] console.log()
 - [ ] window.alert()
-- [ ] all of the above 
+- [ ] all of the above

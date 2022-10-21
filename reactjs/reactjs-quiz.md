@@ -1368,7 +1368,6 @@ const Greeting = ({ initName }) => {
 
 [Source](https://reactjs.org/docs/testing-recipes.html)
 
-
 #### Q117. What of the following is used in React.js to increase performance?
 
 - [ ] Original DOM
@@ -1377,4 +1376,3 @@ const Greeting = ({ initName }) => {
 - [ ] None of the above
 
 [Source](https://reactjs.org/docs/optimizing-performance.html)
-
