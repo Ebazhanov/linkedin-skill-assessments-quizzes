@@ -582,4 +582,5 @@ type userID int
 - [ ] FilePermission and userID
 - [ ] userID
 
-[Reference]([https://www.ardanlabs.com/blog/2018/11/goroutine-leaks-the-forgotten-sender.html](https://go.dev/tour/basics/3#:~:text=In%20Go%2C%20a%20name%20is,only%20to%20its%20exported%20names.))
+[Reference 1](https://www.ardanlabs.com/blog/2018/11/goroutine-leaks-the-forgotten-sender.html)  
+[Reference 2](https://go.dev/tour/basics/3)
