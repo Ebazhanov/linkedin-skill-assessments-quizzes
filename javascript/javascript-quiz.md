@@ -2034,6 +2034,19 @@ print(typeof NaN);
 - [ ] String
 - [ ] None of the above
 
+#### Q149. What will be the output of the following code snippet?
+
+```javascript
+<script type="text/javascript">
+a = 5 + "9";
+document.write(a);
+</script>
+```
+- [ ] Compilation Error
+- [ ] 14
+- [ ] Runtime Error
+- [x] 59
+
 #### Q149. Which of the following methods can be used to display data in some form using Javascript?
 
 - [ ] document.write()
