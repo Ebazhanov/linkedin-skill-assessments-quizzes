@@ -75,6 +75,8 @@
 - [ ] assigned a data type
 - [ ] sorted by primary key
 
+[Reference](https://www.scaler.com/topics/sql-server/)
+
 #### Q10. Power BI's Publish to Web option allows you to embed visualizations within **\_**. (Select all that apply.)
 
     A. blog posts
