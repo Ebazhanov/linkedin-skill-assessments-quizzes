@@ -2116,3 +2116,10 @@ Queue<Rainfall>
 - [ ] 1. false 2. false
 - [ ] 1. true 2. true
 - [x] 1. true 2. false
+	
+#### Q151. What are Wrapper classes?
+
+- [ ] These are classes that allow primitive types to be accessed as objects.
+- [ ] These are classes that wraps funtionality of an existing class.
+- [ ] Both of the above.
+- [ ] None of the above.
