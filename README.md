@@ -11,7 +11,7 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1185-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1186-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -1668,6 +1668,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center"><a href="http://chamley.dev"><img src="https://avatars.githubusercontent.com/u/10702270?v=4?s=100" width="100px;" alt="chamley"/><br /><sub><b>chamley</b></sub></a><br /><a href="#design-chamley" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=chamley" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/Silimim"><img src="https://avatars.githubusercontent.com/u/47183870?v=4?s=100" width="100px;" alt="Simone Baptiste"/><br /><sub><b>Simone Baptiste</b></sub></a><br /><a href="#design-Silimim" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Silimim" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/NaNshekhar04"><img src="https://avatars.githubusercontent.com/u/110991877?v=4?s=100" width="100px;" alt="Shekhar Thakur"/><br /><sub><b>Shekhar Thakur</b></sub></a><br /><a href="#design-NaNshekhar04" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=NaNshekhar04" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

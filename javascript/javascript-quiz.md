@@ -2047,3 +2047,9 @@ document.write(a);
 - [ ] Runtime Error
 - [x] 59
 
+#### Q149. Which of the following methods can be used to display data in some form using Javascript?
+
+- [ ] document.write()
+- [ ] console.log()
+- [ ] window.alert()
+- [ ] all of the above
