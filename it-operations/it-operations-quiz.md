@@ -576,7 +576,7 @@ To get to either UEFI or BIOS on a system you usually go via the computer's boot
 - [x] \, /, :, ?, and *
 - [ ] !, ^, &, (,), and "
 
-#### Q70. What is the most direct way to change the desktop background?
+#### Q70. What is the most direct way to change the desktop background in Windows OS?
 
 - [ ] Alter your user account settings or preferences.
 - [x] Right-click a blank part of the desktop.
