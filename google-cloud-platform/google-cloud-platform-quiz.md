@@ -552,3 +552,50 @@ kubectl create deployment app --image=$ImageRepo:$Tag
 - [x] keyring
 - [ ] policy
 - [ ] keychain
+
+
+#### Q70. David is the cloud admin for Blue Widget Corp. He has deployed a Linux VM called Linux01, and he needs to SSH to it from the console. Which command should David use to SSH to the VM?
+
+- [ ] gcloud ssh --project blue-widget-project --zone us-central1-a Linux01
+- [ ] gcloud compute ssh -project blue-widget-project -zone us-central1-a Linux01
+- [ ] gcloud connect ssh --project blue-widget-project --zone us-central1-a Linux01
+- [x] gcloud compute ssh --project blue-widget-project --zone us-central1-a Linux01
+
+
+
+
+#### Q71. Which option will allow you to review latency data from App Engine Apps?
+
+- [ ] App Engine Latency
+- [x] Stackdriver Trace
+- [ ] App Engine Data Viewer
+- [ ] Stackdriver Latency
+
+
+#### Q72. Regarding Stackdriver Debugger, which of the following locations are you not able to select your source code from?
+
+
+- [ ] Bitbucket repository
+- [x] Amazon S3
+- [ ] Local files
+- [ ] GitHub repository
+
+
+
+#### Q73. Google Cloud services maintain _____ that record all activity and access to your GCP resources.
+
+- [ ] configuration files
+- [ ] maintenance scripts
+- [ ] analytics logs
+- [x] audit logs
+
+
+
+#### Q74. Which category of GCP audit log records every incident in which a user or service account is denied access to a resource?
+
+
+
+- [ ] System Event
+- [x] Policy Denied
+- [ ] Admin Activity
+- [ ] Data Access
