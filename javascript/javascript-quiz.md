@@ -1982,3 +1982,10 @@ console.log(json); //prints {"type”: “tiger"}
 - [ ] accessor
 
 [Reference](https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/)
+
+#### Q143. Which of the following function of Boolean object returns the primitive value of the Boolean object? 
+
+- [ ] toSource()
+- [x] valueOf()
+- [ ] toString()
+- [ ] None of the above
