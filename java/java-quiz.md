@@ -2212,3 +2212,10 @@ class Lambo extends Car {
 - [ ] javac FrogSounds.exe
 - [ ] jar cf FrogSounds.jar
 - [x] java -jar FrogSounds.jar
+
+#### Q157. What is the default value of short variable?
+
+- [ ] 0
+- [ ] 0.0 
+- [ ] null
+- [ ] undefined
