@@ -1950,3 +1950,44 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 - [ ] Specifies a context menu for an element. The menu appears when a user right-clicks on the element.
 - [x] Specify whether the content of an element should be editable or not
 - [ ] Return the position of the first found occurrence of content inside a string
+
+#### Q114. HTML elements that aren't meant to store content or other elements are called _____ elements.
+
+- [x] void
+- [ ] independent
+- [ ] empty
+- [ ] paragraph
+[Source](https://www.w3.org/TR/2011/WD-html-markup-20110113/syntax.html#syntax-elements)
+
+#### Q115. The _____ attribute of an HTML label element is a referencing mechanism to state what input or element the label is tied to.
+
+- [ ] to
+- [ ] of
+- [ ] with
+- [x] for
+[Source](https://www.w3schools.com/tags/att_label_for.asp)
+
+#### Q116. Coding in HTML provides which of the following?
+
+- [ ] The responsiveness of the website
+- [ ] The style of the website
+- [x] The core website structure
+- [ ] The behavior of web elements
+
+
+#### Q117. Which HTML element is the container for all the renderable aspects of the document?
+
+- [ ] head
+- [x] body
+- [ ] title
+- [ ] meta
+
+
+#### Q118. The "h" in the HTML h1 tag is short for _____.
+
+- [ ] head
+- [ ] horizontal
+- [ ] hypertext
+- [x] heading
+
+[Source](https://www.w3schools.com/html/html_headings.asp)
