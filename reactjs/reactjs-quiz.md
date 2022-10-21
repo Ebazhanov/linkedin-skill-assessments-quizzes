@@ -1367,3 +1367,14 @@ const Greeting = ({ initName }) => {
 - [ ] Mocha
 
 [Source](https://reactjs.org/docs/testing-recipes.html)
+
+
+#### Q117. What of the following is used in React.js to increase performance?
+
+- [ ] Original DOM
+- [x] Virtual DOM
+- [ ] Both of the above
+- [ ] None of the above
+
+[Source](https://reactjs.org/docs/optimizing-performance.html)
+
