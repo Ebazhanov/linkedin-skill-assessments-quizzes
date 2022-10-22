@@ -11779,6 +11779,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "riemto",
+      "name": "Tobias Riemenschneider",
+      "avatar_url": "https://avatars.githubusercontent.com/u/66555313?v=4",
+      "profile": "https://www.virtual-coffee-chat.com/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
