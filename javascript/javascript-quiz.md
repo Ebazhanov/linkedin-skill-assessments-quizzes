@@ -375,7 +375,7 @@ dessert.type = 'pudding';
 #### Q25. 0 && hi
 
 - [ ] ReferenceError
-- [ ] True
+- [ ] true
 - [x] 0
 - [ ] false
 
