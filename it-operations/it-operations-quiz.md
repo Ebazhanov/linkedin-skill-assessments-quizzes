@@ -568,3 +568,17 @@ To get to either UEFI or BIOS on a system you usually go via the computer's boot
 - [ ] It has been integrated into the southbridge to provide support for the CPU.
 - [ ] It is the peripheral and I/O controller, connected to the processor via the southbridge.
 - [ ] It provides mathematical and 3D physics support for the CPU in the absence of a GPU.
+
+#### Q69. Which characters are not allowed in a filename?
+
+- [ ] anything other than a letter, number, or space 
+- [ ] spaces, periods, and commas
+- [x] \, /, :, ?, and *
+- [ ] !, ^, &, (,), and "
+
+#### Q70. What is the most direct way to change the desktop background in Windows OS?
+
+- [ ] Alter your user account settings or preferences.
+- [x] Right-click a blank part of the desktop.
+- [ ] Run programs full-screen.
+- [ ] Use Settings (Windows) or Preferences (Mac).
