@@ -1376,3 +1376,12 @@ const Greeting = ({ initName }) => {
 - [ ] None of the above
 
 [Source](https://reactjs.org/docs/optimizing-performance.html)
+
+#### Q118. Among The following options, choose the one which helps react for keeping their data uni-directional?
+
+- [ ] DOM
+- [x] flux
+- [ ] JSX
+- [ ] Props
+
+[Source](https://reactjs.org/blog/2014/05/06/flux.html)
