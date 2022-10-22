@@ -771,3 +771,32 @@ public int Password
 - [x] Thread.Sleep(3000);
 
 [Reference](https://docs.microsoft.com/en-us/dotnet/api/system.threading.thread.sleep?view=net-6.0)
+
+#### Q73. What is wrong with this code?
+
+```cs
+void MyFunction()
+{
+    {
+        int a = 10;
+        int b = 20;
+        int c = a + b;
+    }
+
+    Console.WriteLine(c);
+}
+```
+
+- [ ] Variable c is never used; displaying it on the console does not count as usage.
+- [ ] Variables a and b are never used.
+- [ ] You cannot place code inside brackets inside another block.
+- [x] Variable c no longer exists outside the block.
+
+[Reference](https://stackoverflow.com/a/6136865)
+
+    #### Q74. Which statement is True?
+
+- [ ] All are true.
+- [ ] None are true.
+- [ ] string is a value type.
+- [x] string is an alias for String

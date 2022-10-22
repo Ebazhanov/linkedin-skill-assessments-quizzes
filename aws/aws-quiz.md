@@ -873,3 +873,66 @@ aws ecs create-service \
 - [ ] SSL
 - [x] TCP
 - [ ] UDP
+
+#### 100. Which is default user in Ec2 Linux-red hat/amazon.
+
+- [ ] root
+- [ ] Ec2user
+- [x] ec2-user
+- [ ] linux
+
+#### Q101. When using Systems Manager, you can create policies through Systems Manager \_\_\_\_.
+
+- [ ] Policy Manager
+- [ ] State Manager
+- [x] Documents
+- [ ] Inventory
+
+#### Q102. Businesses are increasingly moving towards hybrid cloud environments with automated IT. What Amazon EC2 State Manager feature is particularly useful for these companies?
+
+- [ ] validity
+- [x] consistency
+- [ ] reliability
+- [ ] redundancy
+
+#### Q103. Your DevOps manager has noticed that there is a problem with the installation of the MySQL software in one of your Windows instances and asks you to repair it. What would be the recommended way to fix this issue with AWS Systems Manager?
+
+- [ ] Write a Power Shell script that re-installs the msi file and run it with Run Command.
+- [ ] Execute the AWS-ApplyPatchBaseline command.
+- [ ] Allow State Manager to automatically fix it on batch.
+- [x] Use Run Command to execute the AWS-InstallApplication document.
+
+#### Q104. Within EC2 Systems Manager, you can use Patch \_\_\_\_ to pick the patches you want to install with your instances.
+
+- [ ] Levels
+- [ ] Manager
+- [x] Baselines
+- [ ] Policy
+
+#### Q105. When is an AWS Batch job's status runnable?
+
+- [ ] When a submitted job's resources are being deployed
+- [ ] When a submitted job has been evaluated
+- [x] When a submitted, evaluated job has zero dependencies outstanding
+- [ ] When a submitted job is next in the job queue
+
+#### Q106. Which statement regarding AWS Batch automated retries is correct?
+
+- [ ] Each job is provided a single job attempt by default, but a user can modify this to unlimited attempts if desired.
+- [ ] Each job is provided a single job attempt by default, but the AWS Batch job scheduler may modify this after evaluating the submitted job.
+- [x] Each job is provided a single job attempt by default, but a user can modify this to as many as 10 attempts if desired.
+- [ ] Each job is limited to a single attempt before being classified as succeeded or failed.
+
+#### Q107. What AWS Batch job parameter can you specify to prevent an unsuccessful job from being stuck in a loop?
+
+- [x] The duration of job timeout
+- [ ] A resource expenditure cap
+- [ ] The number of automated job retries
+- [ ] An AWS Batch job agent
+
+#### Q108. In which of the following AWS Batch components can a user set a priority level, for time-sensitive or low-priority jobs?
+
+- [ ] Within the job scheduler
+- [ ] Within the job itself
+- [ ] Within the job definition
+- [x] Within a job queue

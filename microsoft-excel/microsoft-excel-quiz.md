@@ -930,7 +930,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 [Reference](https://support.microsoft.com/en-us/office/align-text-in-a-cell-b2489a1f-6c89-45b7-9562-bbc287aa71ea)
 
-#### Q111. Cell D1 contains the value 7.877. You want cell D1 to display the value as 7.9 but keep the original number in calculations. How can you accomplish this?
+#### Q111. Cell D1 contains the value 7.877. You want cell D1 to display this value as 7.9 but keep the original number in calculations. How can you accomplish this?
 
 - [ ] Click the **Decrease Decimal** button once.
 - [x] Click the **Decrease Decimal** button twice.
@@ -1207,3 +1207,24 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] On the **Insert** tab, click **SmartArt > Copy Image from Device** (Windows) or **SmartArt > Copy** (Mac)
 - [ ] On the **Insert** tab, click **Illustrations > Insert Illustration from This Device**
 - [ ] On the **Insert** tab, click **Icons > Insert > Picture from This Device**
+
+#### Q135. You want to restrict a user from entering any amount greater than $100 or less than $20 in a row. Which Excel feature would you use?
+
+- [ ] There is not a feature in Excel that will do this.
+- [ ] Data Limiting
+- [x] Data Parameters
+- [ ] Data Validation
+
+#### Q136. What is the output of the formula `=(8+2*3)/2`?
+
+- [ ] 13
+- [ ] 15
+- [ ] 11
+- [x] 7
+
+#### Q137. How many columns in Excel sheet by default ?
+
+- [ ] 16000
+- [ ] 1,048,576
+- [x] 16384
+- [ ] 1,048,000

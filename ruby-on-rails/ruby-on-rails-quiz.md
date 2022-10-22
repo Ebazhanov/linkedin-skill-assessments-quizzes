@@ -152,10 +152,10 @@ end
 
 #### Q17. In Rails, how would you cache a partial template that is rendered?
 
-- [x] `render partial: ‘shared/menu’, cached: true`
-- [ ] `render_with_cache partial: ‘shared/menu’`
-- [ ] `render partial: ‘shared/menu’`
-- [ ] `render partial: ‘shared/menu’, cached_with_variables: {}`
+- [x] `render partial: 'shared/menu', cached: true`
+- [ ] `render_with_cache partial: 'shared/menu'`
+- [ ] `render partial: 'shared/menu'`
+- [ ] `render partial: 'shared/menu', cached_with_variables: {}`
 
 #### Q18. What is the reason for using Concerns in Rails?
 
@@ -856,7 +856,7 @@ end
 - [ ] The models used for STI must mix in the module `ActiveRecord::STI`
 - [ ] All models used for STI must include "self.abstract_class=true".
 - [ ] All database tables used for STI must be related to each other using a foreign key.
-- [ ] The database table used for STI must have a column named "type".
+- [x] The database table used for STI must have a column named "type".
 
 #### Q64. A way that views can share reusable code, such as formatting a date, is called a \_?
 

@@ -1897,7 +1897,7 @@ console.log(copyCat.type, copyCat.size);
 
 [Reference](https://blog.logrocket.com/localstorage-javascript-complete-guide/#setitem)
 
-#### Q137. What does the code print to the console?
+#### Q137. What does this code print to the console?
 
 ```js
 let animals = [{ type: 'lion' }, 'tiger'];
@@ -1958,12 +1958,12 @@ console.log(json); // print {"type":"tiger"}
 
 [Reference](<https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById#:~:text=querySelector()%20and%20Document.,element%20objects%20in%20the%20DOM.>)
 
-#### Q141. Which snippet could you add to this code to print "{"type”: “tiger"}" to the console?
+#### Q141. Which snippet could you add to this code to print "{"type": "tiger"}" to the console?
 
 ```
 let cat = {type: "tiger", size: "large"};
 let json= /_ Snippet Here _/;
-console.log(json); //prints {"type”: “tiger"}
+console.log(json); //prints {"type": "tiger"}
 
 ```
 
@@ -1982,3 +1982,74 @@ console.log(json); //prints {"type”: “tiger"}
 - [ ] accessor
 
 [Reference](https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/)
+
+#### Q143. Which of the following are not server-side Javascript objects?
+
+- [ ] Date
+- [ ] FileUpload
+- [ ] Function
+- [x] All of the above
+
+#### Q144. What will be the output of the following code snippet?
+
+```javascript
+const obj1 = { first: 20, second: 30, first: 50 };
+console.log(obj1);
+```
+
+- [ ] first: 30 , second: 50
+- [x] first: 50 , second: 30
+- [ ] first: 30 , second: 20
+- [ ] None of the above
+
+#### Q145. Which object in Javascript doesn’t have a prototype?
+
+- [x] Base Object
+- [ ] All objects have prototype
+- [ ] None of the objects have prototype
+- [ ] None of the above
+
+#### Q146. What does … operator do in JS?
+
+- [x] Used to spread iterables to individual elements
+- [ ] Describe datatype of undefined
+- [ ] No such operator exists
+- [ ] None of the above
+
+#### Q147. How to stop an interval timer in Javascript?
+
+- [x] clearInterval
+- [ ] clearTimer
+- [ ] intervalOver
+- [ ] None of the above
+
+#### Q148. What will be the output of the following code snippet?
+
+```javascript
+print(typeof NaN);
+```
+
+- [ ] Object
+- [x] Number
+- [ ] String
+- [ ] None of the above
+
+#### Q149. What will be the output of the following code snippet?
+
+```javascript
+<script type="text/javascript">
+a = 5 + "9";
+document.write(a);
+</script>
+```
+- [ ] Compilation Error
+- [ ] 14
+- [ ] Runtime Error
+- [x] 59
+
+#### Q149. Which of the following methods can be used to display data in some form using Javascript?
+
+- [ ] document.write()
+- [ ] console.log()
+- [ ] window.alert()
+- [ ] all of the above

@@ -216,7 +216,7 @@
 - [x] Maximize outcome while minimizing output.
 - [ ] Optimize for resource utilization.
 
-`“…your job is to minimize output, and maximize outcome and impact.” - Jeff Patton`
+`"…your job is to minimize output, and maximize outcome and impact." - Jeff Patton`
 
 #### Q31. Which statement is true about the actor in a user story?
 
@@ -685,7 +685,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] generalizing specialist
 - [ ] apprentice developer
 
-[Reference](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of “T-shaped” people. This can also be described as a cross-functionality.`
+[Reference](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of "T-shaped" people. This can also be described as a cross-functionality.`
 
 #### Q95. What is a lean canvas?
 
@@ -845,3 +845,82 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [x] Working software
 
 [Reference](https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/) `Agile projects are characterized by a series of tasks that are conceived, executed and adapted as the situation demands and one of the priorities is working software.`
+
+#### Q116. What types of environments work best for Agile principles?
+
+- [ ] It works great in static environments.
+- [x] It works great in dynamic environments.
+- [ ] It works great in customer environments.
+- [ ] Agile has been proven to not work in any good environment.
+
+[Reference](https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/) `The Agile environment appeals to quick actions, discussions, evaluations, and considerations for different approaches. It works great in dynamic environments where there is a potential for changing or evolving requirements.`
+
+#### Q117. What does being a Cross-Functional team mean?
+
+- [ ] That every team in the organization has a particular specialism
+- [ ] That each team member has their own specialism
+- [x] That all the skills necessary exist within the team
+- [ ] That teams can communicate effectively
+
+#### Q118. What is a PBI?
+
+- [ ] Product Before Increment
+- [ ] Project Billing Information
+- [ ] Productive Backlog Increment
+- [x] Product Backlog Item
+
+#### Q119. Which of the following scrum events is dedicated to process improvement?
+
+- [ ] The sprint planning
+- [ ] The daily scrum
+- [x] The sprint retrospective
+- [ ] The sprint review
+
+#### Q120. For a month-long sprint, the time-box for a sprint retrospective is **\_**.
+
+- [x] 3 hours
+- [ ] 6 hours
+- [ ] 8 hours
+- [ ] 1 hour
+
+#### Q121. Which type of Kanban diagram shows the number of issues in each of the states?
+
+- [x] burn down chart
+- [ ] control chart
+- [ ] burn up chart
+- [ ] cumulative flow
+
+#### Q122. Which of the following statements about a Kanban control chart is false?
+
+- [ ] The light blue shaded area is the standard deviation.
+- [ ] The green dots are the issues themselves.
+- [x] The control chart works best when the tasks that you're tracking are of different sizes.
+- [ ] The blue line is the rolling average cycle time.
+
+#### Q123. What does EBM consider in Managerial Decisions?
+
+- [ ] Productivity and ethical concerns
+- [x] Circumstance and ethical concerns
+- [ ] Circumstances and financial concerns
+- [ ] Moral and ethical concerns
+
+#### Q124. Stacey's process complexity model shows us that agile thinking is best **\*\***\_\_\_**\*\***.
+
+- [ ] When there is high complexity
+- [ ] When there is high certainty
+- [x] Regardless of complexity or certainty
+- [ ] When there is low certainty and complexity
+
+#### Q125. What is a DEEP product backlog?
+
+- [ ] Detailed Appropriately, Emergent, Elegant & Prioritized
+- [ ] Detailed Adequately, Emergent, Estimated & Prioritized
+- [ ] Detailed Appropriately, Emanant, Estimated & Prioritized
+- [x] Detailed Appropriately, Emergent, Estimated & Prioritized
+
+#### Q126. Which Jira feature provides an overview of multiple projects?
+
+- [x] roll-up boards
+- [ ] code integration
+- [ ] task automation
+- [ ] reporting

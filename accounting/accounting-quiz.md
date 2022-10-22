@@ -386,9 +386,9 @@ I'm not 100% sure on this.
 #### Q45. Under a perpetual inventory system, merchandise is purchased on account. What is the correct journal entry for this purchase?
 
 - [ ] Debit merchandise inventory. credit accounts payable.
-- [ ] Debit purchases, credit cash
+- [ ] Debit purchases, credit cash.
 - [ ] Debit purchase returns, credit cost of goods sold.
-- [x] debit merchandise inventory, credit cash.
+- [x] Debit merchandise inventory, credit cash.
 
 [Reference](https://homework.study.com/explanation/using-a-perpetual-inventory-system-the-buyer-s-journal-entry-to-record-the-return-of-merchandise-purchased-on-account-includes-a-credit-to-the-cost-of-goods-sold-b-credit-to-accounts-payable-c-credit-to-purchase-returns-d-credit-to-inven.html#:~:text=Answer%20and%20Explanation%3A,and%20accounts%20payable%20was%20credited.)
 
@@ -401,11 +401,11 @@ I'm not 100% sure on this.
 
 [Reference](https://homework.study.com/explanation/which-of-the-following-tasks-is-not-normally-associated-with-an-abc-costing-system-a-calculation-of-pool-rates-b-identification-of-cost-pools-c-preparation-of-allocation-matrices-d-identification-of-cost-drivers.html#:~:text=Answer%20and%20Explanation%3A,Preparation%20of%20allocation%20matrices.)
 
-#### Q47. ‘What is true when the units in ending inventory increase during the year?
+#### Q47. What is true when the units in ending inventory increase during the year?
 
 - [ ] Net income is higher for absorption costing than for variable costing.
 - [ ] Net income is identical for absorption costing and for variable costing.
-- [x] Theres ro relationship between net income and the costing approach.
+- [x] There's no relationship between net income and the costing approach.
 - [ ] Net income is lower for absorption costing than for variable costing.
 
 #### Q48. When independent auditors are able to maintain their actual independence, itis referred to as independence in\_\_.
@@ -432,3 +432,171 @@ I'm not 100% sure on this.
 - [ ] when each product batch is exactly the same as the prior batch
 
 [Reference](https://www.tutorialspoint.com/differentiate-between-job-costing-and-process-costing)
+
+#### Q51. Robinson Hotels is trying to predict its utility costs. It has five years of data, including monthly utility cost, monthly occupancy rates, and average monthly temperature. What tool or technique can Robinson Hotels use to predict or estimate its future utility costs?
+
+- [ ] segment report
+- [x] regression analysis
+- [ ] time series analysis
+- [ ] net present value
+
+#### Q52. What does an inventory-turnover ratio measure?
+
+- [ ] the current value of the inventory
+- [ ] the number of times inventory was sold during the period
+- [ ] how it compares with the industry average
+- [ ] whether the company can maintain the same inventory levels compared to industry averages
+
+#### Q53. A company earned a gross profit of $4,000,000 and had net sales of $12,000,000. What is the gross margin and what does the result imply to the reviewer?
+
+- [ ] The 3.33% gross margin represents for every dollar in sales, the company spends $0.9667 to produce the product sold.
+- [ ] The question does not provide sufficient information to offer a proper calculation.
+- [ ] The 3.33% gross margin represents for every dollar in sales, the company spends $0.0667 to produce the product sold.
+- [ ] The 3.33% gross margin represents for every dollar in sales, the company spends $0.0333 to produce the product sold.
+
+#### Q54. What type of cost changes in proportion to a company's production volume?
+
+- [ ] conversion cost
+- [ ] indirect cost
+- [x] variable cost
+- [ ] fixed cost
+
+#### Q55. What do you call the benefit sacrificed when one option is chosen over another?
+
+- [x] opportunity cost
+- [ ] indirect cost
+- [ ] sunk cost
+- [ ] differential cost
+
+#### Q56. The actual price of a widget is $10 and the budgeted price is $7. What is the price variance for 1,000 widgets?
+
+- [ ] $3,000
+- [ ] $1,000
+- [ ] $3
+- [ ] $1,700
+
+#### Q57. What is the major financial accounting report system used outside of the United States?
+
+- [ ] the metric system
+- [ ] TREE
+- [ ] GAAP
+- [ ] IFRS
+
+#### Q58. What type of audit evidence would be considered the weakest type?
+
+- [ ] oral evidence
+- [ ] physical examination
+- [ ] confirmation
+- [ ] documentary evidence
+
+#### Q59. Permanent accounts are on what financial statement?
+
+- [ ] cash flow statement
+- [ ] income statement
+- [x] balance sheet
+- [ ] shareholder equity statement
+
+#### Q60. The cost of alternative X is $25,000 and the cost of alternative Y is $20,000. What do you call the $5,000 cost difference?
+
+- [ ] essential cost
+- [ ] additional cost
+- [x] differential cost
+- [ ] sunk cost
+
+#### Q61. What is the purpose of a master budget?
+
+- [ ] to demonstrate to management the level of sales the company will achieve
+- [ ] to provide shareholders and the board of directors confidence in management's abilities
+- [ ] to give management an opportunity to compile all of the other operational budgets once they are completed
+- [ ] to provide management with a high-level overview of the company finances and be a central planning tool
+
+#### Q62. What is true about an internal control system?
+
+- [ ] An internal control system is not effective until the human error is completely eliminated or migrated.
+- [ ] Any internal control activities evaluated and adopted by a company should never be evaluated in terms of cost-benefit.
+- [ ] Only mid- to large-sized companies and governmental organizations need to ensure proper internal control activities.
+- [ ] An internal control system helps a company achieve reliable financial reporting, effective and efficient operations, and compliance with laws and regulations.
+
+#### Q63. According to cost formula Y = $20,000 + $4x, what would be the total cost at an activity level of 15,000 units?
+
+- [ ] $60,000
+- [ ] $20,000
+- [ ] $35,000
+- [ ] $80,000
+
+#### Q64. A company can change to a new accounting principle if management can justify that the change will result in what?
+
+- [ ] more relevant decision-making information
+- [ ] lower net income to report for tax purposes
+- [ ] changing depreciation methods for higher net income
+- [ ] reduced potential for administrative error
+
+#### Q65. Which cost items would be classified as an internal failure cost on a quality costs report?
+
+- [ ] cost of scrap
+- [x] training for assembly line workers
+- [ ] patent cost for new product
+- [ ] customer returns of defective products
+
+#### Q66. What type of audit evidence would most likely be used to verify the existence of fixed assets?
+
+- [ ] oral evidence
+- [x] physical examination
+- [ ] confirmation
+- [ ] documentary evidence
+
+#### Q67. What should an auditor do before auditing the balance sheet?
+
+- [ ] Confirm whether probable legal action is disclosed to the auditor.
+- [ ] Investigate whether liens on assets are committed as collateral.
+- [ ] Determine the client's planned and imminent purchase commitments.
+- [ ] Gain a clear and proper understanding of the client's internal control processes.
+
+#### Q68. At McKay Company, machine hours are limited. There is more demand for McKay's products than it can produce due to limited machine hours. To maximize profits, the company should evaluate each product's **\_**.
+
+- [ ] contribution margin per unit
+- [ ] segment margin per unit
+- [ ] gross profit per unit
+- [ ] contribution margin per machine hour
+
+#### Q69. The asset-turnover ratio calculation measures **\_**.
+
+- [ ] when the company must decide to purchase assets and what investment is required
+- [ ] how much of a company's assets are financed by creditors
+- [ ] how often a company must replace existing assets and equipment
+- [ ] how efficiently a company uses its assets to generate revenue
+
+#### Q70. What cost is easily traceable to a cost object?
+
+- [ ] indirect
+- [ ] fixed
+- [ ] variable
+- [x] direct
+
+#### Q71. Which value chain element is associated with the cost of staffing a customer support phone line?
+
+- [ ] production and purchases
+- [ ] distribution
+- [ ] design
+- [x] customer service
+
+#### Q72. Flexible budgets are created to demonstrate how **\_**.
+
+- [ ] changes in activity levels affect predicted revenue and costs
+- [ ] management need to make changes to budget targets following poor performance
+- [ ] an inaccurate operational budget results from poor budgeting data
+- [ ] current results fully align to budgetary allocations
+
+#### Q73. Which is the appropriate term for an incurred cost that cannot be changed by any decision?
+
+- [ ] opportunity cost
+- [ ] previous cost
+- [x] sunk cost
+- [ ] variable cost
+
+#### Q74. Which factor is most likely to increase an auditor's awareness of possible fraudulent financial reporting?
+
+- [ ] management's complete disclosure of unresolved legal action
+- [ ] limited competition in the company's industry resulting in increasing profitability
+- [ ] the audit committee's approval of specific accounting methods and principles
+- [ ] year-end financial adjustments significantly impacting the financial results

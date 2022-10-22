@@ -38,7 +38,7 @@ B. Users can decline individual requests for read receipts.
 C. Read receipts are expensive, so some organizations turn them off.
 ```
 
-- [ ] A and C
+- [x] A and C
 - [ ] B and C
 - [ ] A and B
 - [ ] A,B,and C
@@ -74,7 +74,7 @@ C. Read receipts are expensive, so some organizations turn them off.
 #### Q10. You create a task and assign it to Nalia. Nalia reviews the request and declines the assignment. Where is the task now, and who is the owner?
 
 - [ ] The task is nowhere, and no one is the owner.
-- [ ] The task is in your task list, and you are the owner.
+- [x] The task is in your task list, and you are the owner.
 - [ ] The task is in Nalia's task list, and you are the owner.
 - [ ] The task is in Nalia's task list, and Nalia is the owner until she reassigns it to you.
 
@@ -578,7 +578,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] A or B
 - [x] B
 - [ ] C
-- [ ] А
+- [ ] A
 
 #### Q79. Which is not valid search criteria when searching for messages in your Inbox?
 
@@ -655,7 +655,7 @@ D. Because you cannot create a search folder for a subfolder
 - [ ] You change the time zone that your calendar uses.
 - [ ] You automatically switch to list view.
 - [ ] You set time constraints for booking events.
-- [ ] You change the number of hours visible on the grid.
+- [x] You change the number of hours visible on the grid.
 
 #### Q90. What arrangement can you create in **View Settings** (Windows) or **Rules** (Mac) to color code messages from a particular sender?
 
