@@ -383,10 +383,10 @@ dessert.type = 'pudding';
 
 #### Q26. Which of the following operators can be used to do a short-circuit evaluation?
 
-- [ ] `\++`
-- [ ] `\--`
-- [ ] `\==`
-- [x] `\|\|`
+- [ ] `++`
+- [ ] `--`
+- [ ] `==`
+- [x] `||`
 
 [Reference short circuit javascript](https://codeburst.io/javascript-what-is-short-circuit-evaluation-ff22b2f5608c)
 
