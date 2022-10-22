@@ -517,10 +517,10 @@ let diff = function (x, y) {
 [] == [];
 ```
 
-- [ ] True
+- [ ] true
 - [ ] undefined
 - [ ] []
-- [x] False
+- [x] false
 
 [Reference arrays in js are objects](https://stackoverflow.com/questions/30820611/why-doesnt-equality-check-work-with-arrays)
 
