@@ -153,7 +153,7 @@
 
 - [ ] Configure the clients to connect via the default cluster IP.
 - [ ] Configure an external name. Configure the clients to connect via the external name.
-- [x] Configure a node port. COnfigure the clients to connect via the node port.
+- [x] Configure a node port. Configure the clients to connect via the node port.
 - [ ] Configure a load balancer. Configure the clients to connect via the load balancer.
 
 #### Q23. You want to capture the message acknowledgment state of a subscription at a given time. What do you do?
