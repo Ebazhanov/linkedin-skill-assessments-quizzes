@@ -822,7 +822,7 @@ printA();
 
 [Reference break vs continue](https://www.w3schools.com/js/js_break.asp)
 
-#### Q64. Which choice is valid example for an arrow function?
+#### Q64. Which choice is a valid example for an arrow function?
 
 - [x] `(a,b) => c`
 - [ ] `a, b => {return c;}`
