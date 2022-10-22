@@ -1376,3 +1376,5 @@ const Greeting = ({ initName }) => {
 - [ ] None of the above
 
 [Source](https://reactjs.org/docs/optimizing-performance.html)
+
+#### Q118. 
