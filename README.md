@@ -10,9 +10,7 @@
 [![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1186-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1187-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1669,6 +1667,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center"><a href="http://chamley.dev"><img src="https://avatars.githubusercontent.com/u/10702270?v=4?s=100" width="100px;" alt="chamley"/><br /><sub><b>chamley</b></sub></a><br /><a href="#design-chamley" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=chamley" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/Silimim"><img src="https://avatars.githubusercontent.com/u/47183870?v=4?s=100" width="100px;" alt="Simone Baptiste"/><br /><sub><b>Simone Baptiste</b></sub></a><br /><a href="#design-Silimim" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Silimim" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/NaNshekhar04"><img src="https://avatars.githubusercontent.com/u/110991877?v=4?s=100" width="100px;" alt="Shekhar Thakur"/><br /><sub><b>Shekhar Thakur</b></sub></a><br /><a href="#design-NaNshekhar04" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=NaNshekhar04" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/Smith1161"><img src="https://avatars.githubusercontent.com/u/116065791?v=4?s=100" width="100px;" alt="Smith"/><br /><sub><b>Smith</b></sub></a><br /><a href="#design-Smith1161" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Smith1161" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
