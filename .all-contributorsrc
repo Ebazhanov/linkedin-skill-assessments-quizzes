@@ -11749,6 +11749,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Smith1161",
+      "name": "Smith",
+      "avatar_url": "https://avatars.githubusercontent.com/u/116065791?v=4",
+      "profile": "https://github.com/Smith1161",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
