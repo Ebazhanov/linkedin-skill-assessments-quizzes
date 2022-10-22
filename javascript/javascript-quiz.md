@@ -18,7 +18,7 @@
 
 [Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
 
-#### Q3. Review the code below. Which statement calls the addTax function and passes 50 as an argument? How would you use this function to find out how much tax should be paid on \$50?
+#### Q3. Review the code below. Which statement calls the addTax function and passes 50 as an argument?
 
 ```js
 function addTax(total) {
