@@ -937,14 +937,12 @@ aws ecs create-service \
 - [ ] Within the job definition
 - [x] Within a job queue
 
-
-#### Q109. You may invalidate up to ______ path files each month from Amazon CloudFront at no additional charge.
+#### Q109. You may invalidate up to **\_** path files each month from Amazon CloudFront at no additional charge.
 
 - [ ] 100
 - [ ] 5,000
 - [x] 1,000
 - [ ] 500
-
 
 #### Q110. Which of the following is recommended when you want to analyze Access Logs of a single stream more quickly and accurately for a given period?
 
@@ -953,28 +951,23 @@ aws ecs create-service \
 - [x] Combine all the log files you receive for a given period into one file.
 - [ ] Compare log files with Amazon CloudWatch results.
 
+#### Q111. In regard to Amazon CloudFront, when you create a new web distribution, the Path Pattern for the default cache behavior is set to ****\_****.
 
-#### Q111. In regard to Amazon CloudFront, when you create a new web distribution, the Path Pattern for the default cache behavior is set to _________.
 
-
-- [x] * (all files) and cannot be changed
+- [x] `*` (all files) and cannot be changed
 - [ ] HTML files and cannot be changed 
 - [ ] HTML files and can be changed 
-- [ ] * (all files) and can be changed 
+- [ ] `*` (all files) and can be changed 
 
 
 #### Q112. In Amazon CloudFront, if you add a CNAME for www.example.com to your distribution, you also need to create (or update) a CNAME record with your DNS service.
-
 
 - [x] TRUE
 - [ ] False, you cannot add a CNAME to your distribution.
 - [ ] False, you should add a CNAME record with your CloudWatch metrics and not the DNS.
 - [ ] False, it is not necessary to create a CNAME record with your DNS service as it is done automatically by Amazon.
 
-
-
 #### Q113. Which of the following statements is true of Amazon CloudFront when you can control how long your objects stay in a CloudFront cache before it forwards another request to your origin?
-
 
 - [x] All answers listed are correct.
 - [ ] Reducing the duration allows you to serve dynamic content.

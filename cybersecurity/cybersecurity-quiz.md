@@ -991,28 +991,21 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] A network packet capturing device
 - [x] a SQL injection flaw
 
-
-#### Q129. The algorithm used by an encryption technique to hide information is known as the _____.
-
+#### Q129. The algorithm used by an encryption technique to hide information is known as the **\_**.
 
 - [x] cipher
 - [ ] XOR
 - [ ] encoding
 - [ ] cyber kill chain
 
-
-
 #### Q130. Which of these is not an issue that could arise as a result of outsourcing software development?
 
-- [ ] The accidental or deliberate introduction of malicious code. 
-- [ ] The loss of intellectual property or trade secrets. 
+- [ ] The accidental or deliberate introduction of malicious code.
+- [ ] The loss of intellectual property or trade secrets.
 - [ ] Legal disputes could develop between the customer and the supplier.
 - [x] The laws on the protection of data do not apply to information sent to a third party.
 
-
-
-#### Q131. A _____ hat is a hacker who may not operate according to ethical testing standards, but does not have malicious intent.
-
+#### Q131. A **\_** hat is a hacker who may not operate according to ethical testing standards, but does not have malicious intent.
 
 - [x] gray
 - [ ] blue

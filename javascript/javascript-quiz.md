@@ -2037,11 +2037,9 @@ print(typeof NaN);
 #### Q149. What will be the output of the following code snippet?
 
 ```javascript
-<script type="text/javascript">
-a = 5 + "9";
-document.write(a);
-</script>
+<script type="text/javascript">a = 5 + "9"; document.write(a);</script>
 ```
+
 - [ ] Compilation Error
 - [ ] 14
 - [ ] Runtime Error

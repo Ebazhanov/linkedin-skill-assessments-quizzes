@@ -571,10 +571,10 @@ To get to either UEFI or BIOS on a system you usually go via the computer's boot
 
 #### Q69. Which characters are not allowed in a filename?
 
-- [ ] anything other than a letter, number, or space 
+- [ ] anything other than a letter, number, or space
 - [ ] spaces, periods, and commas
-- [x] \, /, :, ?, and *
-- [ ] !, ^, &, (,), and "
+- [x] `\, /, :, ?, and *`
+- [ ] `!, ^, &, (,), and "`
 
 #### Q70. What is the most direct way to change the desktop background in Windows OS?
 

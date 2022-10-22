@@ -925,7 +925,6 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] task automation
 - [ ] reporting
 
-
 #### Q127. Which of the following elements is not a pillar of Scrum?
 
 - [ ] adaptation
@@ -940,20 +939,16 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [x] All of the choices are correct
 - [ ] The product itself
 
-
-#### Q129. In Scrum, at the end of each sprint, there is a _____ meeting in which the team receives and gives feedback on their processes and their performance.
+#### Q129. In Scrum, at the end of each sprint, there is a **\_** meeting in which the team receives and gives feedback on their processes and their performance.
 
 - [x] retrospective
 - [ ] review
 - [ ] reflection
 - [ ] sprint
 
-
 #### Q130. In the INVEST acronym for user stories, what does the "V" stand for?
-
 
 - [x] valuable
 - [ ] verifiable
 - [ ] veracity
 - [ ] voluminous
-
