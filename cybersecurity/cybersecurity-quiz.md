@@ -756,7 +756,7 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 - [x] ARP spoofing
 - [ ] DDoS
 
-#### Q99. You are part of of an incident response team at your company. While sifting through log files collected by a SIEM, you discover some suspicious log entries that you want to investigate further. Which type of the following best refers to those recorded activities demanding additional scrutiny?
+#### Q99. You are part of an incident response team at your company. While sifting through log files collected by a SIEM, you discover some suspicious log entries that you want to investigate further. Which type of the following best refers to those recorded activities demanding additional scrutiny?
 
 - [ ] attack
 - [ ] information
