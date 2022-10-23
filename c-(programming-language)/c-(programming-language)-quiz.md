@@ -1292,3 +1292,19 @@ int main()
 - [ ] 01
 
 **Explanation :** char c[ ] = "GATE2011";since char \*p =c it means p represents to the base address of string “GATE2011” SO p[3] is 'E' and p[1] is 'A'. Value of Sub expression p[3] – p[1] = ASCII value of ‘E’ – ASCII value of ‘A’ = 4. So the expression p + p[3] – p[1] becomes ( p + 4) And (p+4) represent to base address of string “2011” printf(“%s”, p + p[3] – p[1]) ; So it will print 2011
+
+#### Q87. What is the output of the following code snippet?
+
+```c
+int main() {
+	int a = 5, b = 6, c;
+	c = a++ + ++b;
+	printf("%d %d %d", a, b, c);
+	return 0;
+}
+```
+
+- [ ] 5 6 11
+- [x] 6 7 12
+- [ ] 5 6 12
+- [ ] 6 6 12
