@@ -951,14 +951,12 @@ aws ecs create-service \
 - [x] Combine all the log files you receive for a given period into one file.
 - [ ] Compare log files with Amazon CloudWatch results.
 
-#### Q111. In regard to Amazon CloudFront, when you create a new web distribution, the Path Pattern for the default cache behavior is set to ****\_****.
-
+#### Q111. In regard to Amazon CloudFront, when you create a new web distribution, the Path Pattern for the default cache behavior is set to \***\*\_\*\***.
 
 - [x] `*` (all files) and cannot be changed
-- [ ] HTML files and cannot be changed 
-- [ ] HTML files and can be changed 
-- [ ] `*` (all files) and can be changed 
-
+- [ ] HTML files and cannot be changed
+- [ ] HTML files and can be changed
+- [ ] `*` (all files) and can be changed
 
 #### Q112. In Amazon CloudFront, if you add a CNAME for www.example.com to your distribution, you also need to create (or update) a CNAME record with your DNS service.
 
