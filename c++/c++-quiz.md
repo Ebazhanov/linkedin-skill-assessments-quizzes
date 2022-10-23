@@ -1451,3 +1451,10 @@ return 0;
 - [x] '#pragma once' guarantees that the header code will never be changed because it is enforced by the compiler
 - [ ] Include guards refer to the header file in the file system, not to the code, so they are not helpful if the header file exists
       more than once in a project. This is not a problem with '#pragma once'
+      
+ #### Q93. Which of the following statement is valid?
+
+- [ ] We can create new c++ operator.
+- [ ] We can change the precedence of the c++ operator.
+- [x] We can not change the operator templates.
+- [ ] We can change the associativity of the c++ operators.
