@@ -2409,3 +2409,10 @@ input.invalid {
 - [x] An external style sheet is ideal when the style is applied to many pages
 - [ ] Both and b above
 - [ ] An external style sheet can be written in HTML
+
+#### Q161. In CSS, margin collapsing only happens with?
+
+- [ ] The horizontal margins of inline elements in the normal flow.
+- [x] The vertical margins of block elements in the normal flow.
+- [ ] The horizontal margins of block elements in the normal flow.
+- [ ] The vertical margins of inline elements in the normal flow.
