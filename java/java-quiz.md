@@ -2219,3 +2219,25 @@ class Lambo extends Car {
 - [ ] 0.0
 - [ ] null
 - [ ] undefined
+
+#### Q158. What will be the output of the following Java program?
+	
+```java
+class variable_scope {
+	public static void main(String args[]) 
+        {
+            int x;
+            x = 5;
+            {
+	        int y = 6;
+	        System.out.print(x + " " + y);
+            }
+            System.out.println(x + " " + y);
+        }
+}
+```
+	
+- [x] Compilation Error
+- [ ] Runtime Error
+- [ ] 5 6 5 6
+- [ ] 5 6 5
