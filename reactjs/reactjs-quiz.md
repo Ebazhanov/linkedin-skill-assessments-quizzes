@@ -60,6 +60,8 @@ console.log(person);
 - [ ] Sinon
 - [x] Jest
 
+[Reference](https://jestjs.io)
+
 #### Q7. To get the first item from the array ("cooking") using array destructuring, how do you adjust this line?
 
 ```javascript
@@ -154,6 +156,8 @@ React.createElement('h1', null, "What's happening?");
 - [ ] `<h1 id="component">What's happening?</h1>`
 - [ ] `<h1 id="element">What's happening?</h1>`
 
+[Reference](https://www.geeksforgeeks.org/what-is-the-use-of-react-createelement/)
+
 #### Q16. What property do you need to add to the Suspense component in order to display a spinner or loading state?
 
 ```javascript
@@ -172,6 +176,8 @@ function MyComponent() {
 - [ ] loading
 - [x] fallback
 - [ ] spinner
+
+[Explanation](https://linguinecode.com/post/how-react-suspense-works)
 
 #### Q17. What do you call the message wrapped in curly braces below?
 
@@ -192,12 +198,16 @@ const element = <p>{message}</p>;
 - [x] `React.lazy`
 - [ ] `React.fallback`
 
+[Reference]()
+
 #### Q19. When do you use `useLayoutEffect`?
 
 - [ ] to optimize for all devices
 - [ ] to complete the update
 - [ ] to change the layout of the screen
 - [x] when you need the browser to paint before the effect runs
+
+[Reference](https://www.knowledgehut.com/blog/web-development/react-uselayouteffect)
 
 #### Q20. What is the difference between the click behaviors of these two buttons (assuming that this.handleClick is bound correctly)?
 
@@ -311,6 +321,8 @@ const Heading = () => {
 - [ ] error catchers
 - [ ] error helpers
 - [x] error boundaries
+
+[Explanation](https://www.geeksforgeeks.org/react-js-error-boundaries/)
 
 #### Q32. In which lifecycle method do you make requests for data in a class component?
 
@@ -1289,8 +1301,87 @@ const Greeting = ({ initName }) => {
 [Source](https://reactjs.org/tutorial/tutorial.html#:~:text=What%20Is%20React%3F,of%20code%20called%20%E2%80%9Ccomponents%E2%80%9D.&text=We'll%20get%20to%20the%20funny%20XML%2Dlike%20tags%20soon.)
 
 #### Q109. What is the correct way to get a value from context?
+
 - [ ] const value = useContext(MyContext.Consumer)
 - [ ] const value = useContext(MyContext.Provider)
 - [x] const value = useContext(MyContext)
 - [ ] const value = useContext({value: "intiial value"})
 
+[Source](https://reactjs.org/docs/hooks-reference.html#usecontext)
+
+#### Q110. Why is ref used?
+
+- [ ] to bind function
+- [ ] to call function
+- [x] to directly access DOM node
+- [ ] to refer to another JS file
+
+[Source](https://reactjs.org/docs/refs-and-the-dom.html#when-to-use-refs)
+
+#### Q111. Choose the method which should be overridden to stop the component from updating?
+
+- [ ] componentDidMount
+- [ ] componentDidUpdate
+- [ ] willComponentUpdate
+- [x] shouldComponentUpdate
+
+[Source](https://reactjs.org/docs/react-component.html#shouldcomponentupdate)
+
+#### Q112. What is the functionality of a “webpack” command?
+
+- [x] Runs react local development server
+- [ ] Transfers all JS files to down into one file
+- [ ] A module builder
+- [ ] None of the above
+
+#### Q113. Choose the method which is not a part of ReactDOM?
+
+- [ ] ReactDOM.createPortal()
+- [ ] ReactDOM.hydrate()
+- [x] ReactDOM.destroy()
+- [ ] ReactDOM.findDOMnode()
+
+#### Q114. In react, the key should be?
+
+- [x] Unique among his siblings
+- [ ] Unique in DOM
+- [ ] Does not requires to be unique
+- [ ] all of the above
+
+[Source](https://reactjs.org/docs/lists-and-keys.html#keys)
+
+#### Q115. Which company developed ReactJS?
+
+- [ ] Google
+- [x] Meta (ex Facebook)
+- [ ] Apple
+- [ ] Twitter
+
+[Source](https://github.com/facebook/react)
+
+#### Q116. Choose the library which is most often associated with react?
+
+- [ ] Chai
+- [ ] Sinon
+- [x] Jest
+- [ ] Mocha
+
+[Source](https://reactjs.org/docs/testing-recipes.html)
+
+#### Q117. What of the following is used in React.js to increase performance?
+
+- [ ] Original DOM
+- [x] Virtual DOM
+- [ ] Both of the above
+- [ ] None of the above
+
+[Source](https://reactjs.org/docs/optimizing-performance.html)
+
+#### Q118. Among The following options, choose the one which helps react for keeping their data uni-directional?
+
+- [ ] DOM
+- [x] flux
+- [ ] JSX
+- [ ] Props
+
+[Source](https://reactjs.org/blog/2014/05/06/flux.html)

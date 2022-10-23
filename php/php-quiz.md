@@ -1350,10 +1350,9 @@ echo $smurf->name;
 4  )
 ```
 
+#### Q93. Which super global variable holds information about headers, paths, and script locations?
 
-#### Q93. Which superglobal variable holds information about headers, paths, and script locations?
-
-- [ ] $_GET
-- [ ] $GLOBALS
-- [ ] $_SESSION
-- [x] $_SERVER
+- [ ] `$_GET`
+- [ ] `$GLOBALS`
+- [ ] `$_SESSION`
+- [x] `$_SERVER`

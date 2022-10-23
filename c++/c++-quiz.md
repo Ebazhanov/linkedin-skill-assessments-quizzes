@@ -1408,7 +1408,6 @@ return 0;
 - [ ] print("Hello World");
 - [ ] Console.WriteLine("Hello World");
 
-
 #### Q87. How many categories of iterators are there in C++ ?
 
 - [ ] 4
@@ -1436,3 +1435,10 @@ return 0;
 - [ ] `<limit>`
 - [x] `<limits>`
 - [ ] `<implementation>`
+
+#### Q91. What is a default constructor?
+
+- [ ] a constructor that can be used with no arguments
+- [x] a contructor that does not have a return value
+- [ ] a constructor that is used by multiple classes
+- [ ] a constructor that initializes all members of a class

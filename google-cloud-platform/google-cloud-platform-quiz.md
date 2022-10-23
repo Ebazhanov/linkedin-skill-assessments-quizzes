@@ -153,7 +153,7 @@
 
 - [ ] Configure the clients to connect via the default cluster IP.
 - [ ] Configure an external name. Configure the clients to connect via the external name.
-- [x] Configure a node port. COnfigure the clients to connect via the node port.
+- [x] Configure a node port. Configure the clients to connect via the node port.
 - [ ] Configure a load balancer. Configure the clients to connect via the load balancer.
 
 #### Q23. You want to capture the message acknowledgment state of a subscription at a given time. What do you do?
@@ -486,7 +486,7 @@
 - [ ] Use Cloud Monitoring and install the Ops Agent on the instance running the apache server.
 - [ ] Use Cloud Profiler and create an alert.
 
-#### Q61. In Google Kubernetes Engine, "_____" is a term Kubernetes uses to represent pods and controllers.
+#### Q61. In Google Kubernetes Engine, "**\_**" is a term Kubernetes uses to represent pods and controllers.
 
 - [ ] masters
 - [ ] pools
@@ -504,8 +504,6 @@ kubectl create deployment app --image=$ImageRepo:$Tag
 - [x] It tells the deployment controller which repository to check for a Docker image and what tag to use.
 - [ ] It tells the deployment controller which Linux OS type to use when creating pods.
 
-
-
 #### Q63. To effectively manage the limited number of IP addresses per node, how many IP addresses per pod does Google recommend?
 
 - [ ] One IP address per pod
@@ -513,12 +511,79 @@ kubectl create deployment app --image=$ImageRepo:$Tag
 - [ ] Four IP addresses per pod
 - [x] Two IP addresses per pod
 
-
-#### Q64. In Google Kubernetes Engine, _____ are the smallest unit of deployment within a Kubernetes cluster, and our primary Kubernetes building blocks.
+#### Q64. In Google Kubernetes Engine, **\_** are the smallest unit of deployment within a Kubernetes cluster, and our primary Kubernetes building blocks.
 
 - [x] pods
 - [ ] instances
 - [ ] sets
 - [ ] containers
 
+#### Q65. Which of the following statements is not a general security guideline for a Google Cloud Platform deployment pipeline?
 
+- [ ] Regularly audit any changes to your IAM policies.
+- [x] Integration steps should be able to deploy code.
+- [ ] Log everything.
+- [ ] Deployment steps should not be able to build code or access your code repository.
+
+#### Q66. In order to allow signed images to be deployed with Google Cloud Platform's binary authorization enabled, you need to create a(n) **\_**.
+
+- [ ] virtual machine
+- [ ] alert
+- [ ] log
+- [x] attestor
+
+#### Q67. Builders in Cloud Build are
+
+- [ ] part of Google's proprietary infrastructure
+- [ ] created from Managed Instance Templates
+- [x] containers with pre-loaded tools and runtimes
+- [ ] virtual machines with pre-loaded tools and runtimes
+
+#### Q68. Which of the following statements about security in the Google Cloud Platform deployment pipeline is false?
+
+- [x] It is pretty standard for developers and QA engineers to be allowed to create new clusters, but not allowed to deploy containers to certain existing clusters.
+- [ ] Each employee's access to Google Cloud resources should be based upon what they require to do their job.
+- [ ] The exact permissions will vary based upon the needs of the company, and depends upon the number of roles, steps, and environments that exist.
+- [ ] Each employee's access to Google Cloud resources should be based on the principle of least privilege.
+
+#### Q69. In order to create and store a key in Google Cloud Platform, you must first create a **\_** to hold the key.
+
+- [ ] wallet
+- [x] keyring
+- [ ] policy
+- [ ] keychain
+
+#### Q70. David is the cloud admin for Blue Widget Corp. He has deployed a Linux VM called Linux01, and he needs to SSH to it from the console. Which command should David use to SSH to the VM?
+
+- [ ] gcloud ssh --project blue-widget-project --zone us-central1-a Linux01
+- [ ] gcloud compute ssh -project blue-widget-project -zone us-central1-a Linux01
+- [ ] gcloud connect ssh --project blue-widget-project --zone us-central1-a Linux01
+- [x] gcloud compute ssh --project blue-widget-project --zone us-central1-a Linux01
+
+#### Q71. Which option will allow you to review latency data from App Engine Apps?
+
+- [ ] App Engine Latency
+- [x] Stackdriver Trace
+- [ ] App Engine Data Viewer
+- [ ] Stackdriver Latency
+
+#### Q72. Regarding Stackdriver Debugger, which of the following locations are you not able to select your source code from?
+
+- [ ] Bitbucket repository
+- [x] Amazon S3
+- [ ] Local files
+- [ ] GitHub repository
+
+#### Q73. Google Cloud services maintain **\_** that record all activity and access to your GCP resources.
+
+- [ ] configuration files
+- [ ] maintenance scripts
+- [ ] analytics logs
+- [x] audit logs
+
+#### Q74. Which category of GCP audit log records every incident in which a user or service account is denied access to a resource?
+
+- [ ] System Event
+- [x] Policy Denied
+- [ ] Admin Activity
+- [ ] Data Access

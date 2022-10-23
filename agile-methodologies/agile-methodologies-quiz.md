@@ -889,3 +889,66 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] control chart
 - [ ] burn up chart
 - [ ] cumulative flow
+
+#### Q122. Which of the following statements about a Kanban control chart is false?
+
+- [ ] The light blue shaded area is the standard deviation.
+- [ ] The green dots are the issues themselves.
+- [x] The control chart works best when the tasks that you're tracking are of different sizes.
+- [ ] The blue line is the rolling average cycle time.
+
+#### Q123. What does EBM consider in Managerial Decisions?
+
+- [ ] Productivity and ethical concerns
+- [x] Circumstance and ethical concerns
+- [ ] Circumstances and financial concerns
+- [ ] Moral and ethical concerns
+
+#### Q124. Stacey's process complexity model shows us that agile thinking is best **\*\***\_\_\_**\*\***.
+
+- [ ] When there is high complexity
+- [ ] When there is high certainty
+- [x] Regardless of complexity or certainty
+- [ ] When there is low certainty and complexity
+
+#### Q125. What is a DEEP product backlog?
+
+- [ ] Detailed Appropriately, Emergent, Elegant & Prioritized
+- [ ] Detailed Adequately, Emergent, Estimated & Prioritized
+- [ ] Detailed Appropriately, Emanant, Estimated & Prioritized
+- [x] Detailed Appropriately, Emergent, Estimated & Prioritized
+
+#### Q126. Which Jira feature provides an overview of multiple projects?
+
+- [x] roll-up boards
+- [ ] code integration
+- [ ] task automation
+- [ ] reporting
+
+#### Q127. Which of the following elements is not a pillar of Scrum?
+
+- [ ] adaptation
+- [ ] transparency
+- [x] sustainability
+- [ ] inspection
+
+#### Q128. What aspects of the product is the Product Owner responsible for?
+
+- [ ] Guiding the Development Team on the product
+- [ ] Managing and owning the backlog
+- [x] All of the choices are correct
+- [ ] The product itself
+
+#### Q129. In Scrum, at the end of each sprint, there is a **\_** meeting in which the team receives and gives feedback on their processes and their performance.
+
+- [x] retrospective
+- [ ] review
+- [ ] reflection
+- [ ] sprint
+
+#### Q130. In the INVEST acronym for user stories, what does the "V" stand for?
+
+- [x] valuable
+- [ ] verifiable
+- [ ] veracity
+- [ ] voluminous

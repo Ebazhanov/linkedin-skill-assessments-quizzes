@@ -170,3 +170,24 @@
 - [ ] Set an output file name from the Render To menu.
 - [x] Set an output file name and location from the Output To menu.
 - [ ] Adjust the composition settings.
+
+#### Q25. Which effect cannot be applied to a mask shape?
+
+- [ ] Path text
+- [ ] Fill (close path only)
+- [x] Smear (open path only)
+- [ ] Stroke
+
+#### Q26. What type of object creates a single-color layer for use as a backdrop?
+
+- [ ] Footage
+- [x] Solid
+- [ ] Mask
+- [ ] Null Object
+
+#### Q27. What is the maximum number of masks that can be applied to a single layer in an After Effects 7.0 composition?
+
+- [ ] 512
+- [ ] 256
+- [ ] 128
+- [x] 127

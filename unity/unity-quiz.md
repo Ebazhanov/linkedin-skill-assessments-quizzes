@@ -516,6 +516,6 @@ public class Health : MonoBehaviour
 #### Q52. Which C# code fragment continuously updates an object's yaw (Y rotation)?
 
 - [ ] `c# transform.localRotation *= Quaternion.Euler(0f, RotSpeed * Time.deltaTime, 0f);`
-- [ ] `c# transform.Rotate(Vector3.right, RotSpeed * Time.deltaTime);`
+- [x] `c# transform.Rotate(Vector3.right, RotSpeed * Time.deltaTime);`
 - [ ] `c# transform.RotateAround(Vector3.up, RotSpeed * Time.deltaTime);`
 - [ ] `c# transform.SetParent(null);`

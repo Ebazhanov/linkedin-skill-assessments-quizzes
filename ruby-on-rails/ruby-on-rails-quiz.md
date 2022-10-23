@@ -856,7 +856,7 @@ end
 - [ ] The models used for STI must mix in the module `ActiveRecord::STI`
 - [ ] All models used for STI must include "self.abstract_class=true".
 - [ ] All database tables used for STI must be related to each other using a foreign key.
-- [ ] The database table used for STI must have a column named "type".
+- [x] The database table used for STI must have a column named "type".
 
 #### Q64. A way that views can share reusable code, such as formatting a date, is called a \_?
 

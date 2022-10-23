@@ -2161,9 +2161,12 @@ Else y = 1 + 30
 
 Explanation:Pickling is the process of sterilizing a Python object, that is, conversion of a byte stream into Python object hierarchy. The reverse of this process is known as unpickling.
 
-
 #### Q158. What is the output of the following program ?
-#### print("codescracker".endswith("er"))
+
+```
+print("codescracker".endswith("er"))
+```
+
 - [x] True
 - [ ] 1
 - [ ] 2
@@ -2183,14 +2186,12 @@ print("programming".center())
 - [x] Error says TypeError: center expected at least 1 argument, got 0
 - [ ] None of the Above
 
-
 #### Q161. Who created the Python programming language?
 
 - [ ] Tim Berners-Lee
 - [ ] Ada Lovelace
 - [x] Guido van Rossum
 - [ ] Alan Turing
-
 
 #### Q162. Which collection is ordered, changeable, and allows duplicate members?
 
@@ -2213,3 +2214,125 @@ print(x**2 == -1)
 
 Explanation: The letter `j` acts as the imaginary unit in Python, therefore `x**2` means `j**2` which is equal to `-1`. The statement `x**2 == -1` is evaluated as `True`.
 
+#### Q164. What will be printed in the console if you run this code?
+
+```python
+print(0xA + 0xB + 0xC)
+```
+
+- [x] 33
+- [ ] 63
+- [ ] 0xA + 0xB + 0xC
+- [ ] None
+
+Explanation: A, B and C are hexadecimal integers with values 10, 11 and 12 respectively, so the sum
+of A, B and C is 33.
+
+#### Q165. What will this code output to the screen?
+
+```python
+for i in range(5):
+    print(i)
+else:
+    print("Done!")
+```
+
+- [ ] 1 2 3 4 5 Done!
+- [ ] 0 1 2 3 4 5 Done!
+- [x] 0 1 2 3 4 Done!
+- [ ] You will get a syntax error.
+
+#### Q166. Which comparison of lists and tuples in Python is correct?
+
+- [ ] Use lists instead of tuples when you have a collection of related but dissimilar objects.
+- [ ] Use tuples instead of lists when you have a common collection of similar objects.
+- [x] Use tuples instead of lists for functions that need to return multiple values.
+- [ ] Use lists instead of tuples when the position of elements is important.
+
+#### Q167. Consider the following code snippet that uses decorators to calculate the execution time of execution_fn function:
+
+```python
+import functools
+import time
+
+def timer(MISSING_ARG_1):
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):
+        start_time = time.perf_counter()
+        rval = func(*args, **kwargs)
+        end_time = time.perf_counter()
+        duration = end_time - start_time
+        print(f"Executed in {duration:.4f} seconds")
+        return MISSING_ARG_2
+    return MISSING_ARG_3
+
+@timer
+def execution_fn():
+    for i in range(3):
+        time.sleep(1)
+
+execution_fn()
+```
+
+**Which of the following choices are the missing arguments?**
+
+- [ ] :
+
+```
+MISSING_ARG_1 = wrapper
+
+MISSING_ARG_2 = rval
+
+MISSING_ARG_3 = func
+```
+
+- [x] :
+
+```
+MISSING_ARG_1 = func
+
+MISSING_ARG_2 = rval
+
+MISSING_ARG_3 = wrapper
+```
+
+- [ ] :
+
+```
+MISSING_ARG_1 is empty
+
+MISSING_ARG_2 = rval
+
+MISSING_ARG_3 = wrapper
+```
+
+- [ ] :
+
+```
+MISSING_ARG_1 is empty
+
+MISSING_ARG_2 = rval
+
+MISSING_ARG_3 = func
+```
+
+#### Q168. Which of the following statements defines a new object type named "Dog" in Python?
+
+- [x] class Dog:
+- [ ] Dog class:
+- [ ] Dog:
+- [ ] class Dog
+
+#### Q169. To use pipelines in scikit-learn, import from the scikit-learn.**\_** submodule.
+
+- [ ] preprocessing
+- [x] pipeline
+- [ ] filters
+- [ ] pipe_filter
+
+#### Q170. You should pass in a value of **\_** for the axis argument to the Pandas apply method to apply the function to each row.
+
+- [ ] row
+- [ ] col
+- [x] 1
+- [ ] 0

@@ -806,7 +806,6 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] /etc/paaswd.
 - [ ] We can not recover
 
-
 #### Q97. Which Vim command writes your changes to the currently open file and quits the Vim editor?
 
 - [ ] :q!
@@ -814,13 +813,12 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] :sq
 - [ ] :w
 
-#### Q98. Just like IP addresses identify hosts on a network, _____ identify the services on a host.
+#### Q98. Just like IP addresses identify hosts on a network, **\_** identify the services on a host.
 
 - [ ] DHCPs
 - [ ] subnet masks
 - [x] ports
 - [ ] broadcast addresses
-
 
 #### Q99. Which command shows the free disk space on one or more Linux filesystems?
 
@@ -829,21 +827,44 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] du
 - [x] df
 
-
-#### Q100. In Linux, the Epoch is the number of seconds that have elapsed since January 1st, _____.
+#### Q100. In Linux, the Epoch is the number of seconds that have elapsed since January 1st, **\_**.
 
 - [ ] 1950
 - [ ] 1965
 - [ ] 1960
 - [x] 1970
 
-
 #### Q101. In which Linux shell script positional parameter is the script itself stored?
-
 
 - [ ] $2
 - [ ] $1
 - [x] $0
 - [ ] $9
 
+#### Q102. VirtualBox provides **\_**, which are installed on guests and allow the guest operating system to access shared folders on the host system, share the clipboard, and some other similar actions.
 
+- [ ] projects
+- [ ] guest configurations
+- [ ] SSHs
+- [x] guest additions
+
+#### Q103. Given an IP address of 199.83.131.0 and a subnet mask of 255.255.255.0, what is the broadcast address?
+
+- [ ] 199.83.131.1
+- [ ] 10 Downing Street
+- [ ] 199.83.131.0
+- [x] 199.83.131.255
+
+#### Q104. Which Linux command shows a list of processes associated with the current user and the current terminal?
+
+- [x] ps
+- [ ] ls
+- [ ] pidof
+- [ ] ps -e
+
+#### Q105. In a shell script, to create an infinite while loop, make the condition always return true by using the **\_** command for the while loop condition.
+
+- [ ] return
+- [ ] continue
+- [x] true
+- [ ] always

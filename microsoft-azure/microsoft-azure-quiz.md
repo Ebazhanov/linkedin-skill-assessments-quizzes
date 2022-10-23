@@ -473,3 +473,73 @@ As described in [Microsoft Docs: Hosting a Restful-API with CORS in AAS](https:/
 - [ ] Azure Files
 - [x] Azure NetApp Files
 - [ ] Avere vFXT for Azure
+
+#### Q61. In an Azure Pipeline, what type of wildcard is used to stand in for a single character?
+
+- [ ] `*`
+- [ ] `#`
+- [x] `?`
+- [ ] `&`
+
+#### Q62. To execute your pipeline in Azure DevOps, you will need to use **\*\***\_**\*\***.
+
+- [ ] gates
+- [x] agents
+- [ ] packages
+- [ ] variables
+
+#### Q63. Which of the following is true if parallelism is desired in Azure Pipelines?
+
+- [ ] No more than one build agent can be used.
+- [x] More than one build agent is required.
+- [ ] Complexity is reduced with parallelism.
+- [ ] A maximum number of build agents constrains it.
+
+#### Q64. In an Azure Pipeline, a build agent is a piece of software that runs a series of tasks, called a \***\*\_\_\_\*\***, on a machine.
+
+- [ ] String
+- [ ] Circuit
+- [x] Job
+- [ ] Commit
+
+#### Q65. In Azure Pipelines, if a build has four jobs that can be run concurrently, but only three agents are available, what will happen?
+
+- [x] Only three jobs will run in parallel at one given time.
+- [ ] The build will override one of the jobs so that it can run.
+- [ ] The build will forfeit and not run at all.
+- [ ] The build will wait until another agent becomes available.
+
+#### Q66. Which type of Azure Web Application Firewall log tracks requests coming through the firewall policy while in detection or prevention mode?
+
+- [ ] Activity Log
+- [ ] Performance Resource Log
+- [ ] Access Resource Log
+- [x] Firewall Resource Log
+
+#### Q67. Which of the following options is not a possible rule action for Azure Web Application Firewall policies for Application Gateway?
+
+- [x] deny
+- [ ] log
+- [ ] allow
+- [ ] block
+
+#### Q68. Which of the following statements about Azure Web Application Firewall policies for Application Gateway is true?
+
+- [ ] Each policy can be applied to only one target.
+- [x] Policies can be applied globally to the Application Gateway at the site hosted by the gateway.
+- [ ] Managed rules have a priority over custom rules.
+- [ ] You can create a maximum of 100 policies.
+
+#### Q69. Which of the following services is not a service supported by Azure Web Application Firewall?
+
+- [ ] Azure Application Gateway
+- [ ] Azure Content Delivery Network
+- [ ] Azure Front Door
+- [x] Azure API Management
+
+#### Q70. Azure **\_** is a globally scalable entry point for web applications hosted in Azure.
+
+- [ ] Content Delivery Network
+- [x] Front Door
+- [ ] Application Gateway
+- [ ] API Management

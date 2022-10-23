@@ -75,6 +75,8 @@
 - [ ] assigned a data type
 - [ ] sorted by primary key
 
+[Reference](https://www.scaler.com/topics/sql-server/)
+
 #### Q10. Power BI's Publish to Web option allows you to embed visualizations within **\_**. (Select all that apply.)
 
     A. blog posts
@@ -687,3 +689,73 @@
 - [x] On the Add Column tab, click Add Index Column.
 - [ ] none of these answers
 - [ ] On the Home tab, click Add Index Column.
+
+#### Q86. Power BI desktop has a **\_** tool, found under the View tab, which can be used to record the time taken for each of the processes required to render a report to complete.
+
+- [ ] Simulation
+- [x] Performance Analyzer
+- [ ] Reporting Analytics
+- [ ] DAX Studio
+
+#### Q87. When you are looking for outliers, Z-scores above **\_** are a good starting point.
+
+- [ ] 30
+- [x] 3
+- [ ] 10
+- [ ] 100
+
+#### Q88. In DAX, a semi-additive measure can accumulate values over some dimension, but typically not **\_**.
+
+- [ ] calculations
+- [x] time
+- [ ] magnitude
+- [ ] rate
+
+#### Q89. In Power BI's Power Query Editor, a field data type shown as **\_** means the money data type.
+
+- [ ] a pile of coins icon
+- [ ] Money
+- [x] $
+- [ ] a stack of bills icon
+
+#### Q90. Which of the following choices is not a viewing option in the view selector of Power BI Desktop?
+
+- [ ] report view
+- [ ] model view
+- [x] query view
+- [ ] data view
+
+#### Q91. Which value for the type parameter in the DAX function PATHITEM indicates integer?
+
+- [ ] 0
+- [ ] "Integer"
+- [ ] TRUE
+- [x] 1
+
+#### Q92. Which type of chart in Power BI is beneficial for helping you visualize data over time?
+
+- [ ] pie charts
+- [ ] stacked column charts
+- [ ] tree maps
+- [x] line charts
+
+#### Q93. To combine multiple tables into a single table in Power BI, use the **\_** tool in the query editor.
+
+- [x] Append
+- [ ] Combine
+- [ ] Query
+- [ ] Report
+
+#### Q94. Which time intelligence function in DAX can be used for seeing month-on-month data?
+
+- [x] ParallelPeriod
+- [ ] TotalYTD
+- [ ] SamePeriodLastYear
+- [ ] MonthOnMonth
+
+#### Q95. Which part of Microsoft's data gateway's configuration allows you to switch between TCP and HTTPS modes?
+
+- [ ] Diagnostics
+- [ ] Service settings
+- [ ] Connectors
+- [x] Network
