@@ -561,7 +561,7 @@
 
 #### D76. Quale opzione utilizzate per creare il tratto mostrato di seguito?
 
-`<img width="400" alt="011" src="https://user-images.githubusercontent.com/13102859/135642887-d7dc854e-0eab-42cc-922e-1f3c04ce55c3.png">`
+![stroke](images/011.png?raw=true)
 
 - \[ ] Round Join
 - \[ ] Tappo sporgente
