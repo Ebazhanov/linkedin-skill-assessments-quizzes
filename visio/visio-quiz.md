@@ -87,19 +87,19 @@
 
 - [ ] A
 
-![image](images/001.png)
+![image](images/001.png?raw=png)
 
 - [x] B
 
-![image](images/002.png)
+![image](images/002.png?raw=png)
 
 - [ ] C
 
-![image](images/003.png)
+![image](images/003.png?raw=png)
 
 - [ ] D
 
-![image](images/004.png)
+![image](images/004.png?raw=png)
 
 #### Q10. Some Business Process Model Notation (BPMN) shapes are further annotated by attaching a callout shape. Which option is associated with a callout shape?
 
@@ -124,7 +124,7 @@
 
 #### Q13. What does the icon in the lower-right corner of the organizational shape indicate?
 
-![image](images/005.png)
+![image](images/005.png?raw=png)
 
 - [ ] Belt shape
 - [x] hidden subordinates
@@ -210,7 +210,7 @@
 
 #### Q25. Which of these options is available when you select some shapes and then click the arrow on the Position button in the Arrange group on the Home tab?
 
-![image](images/006.png)
+![image](images/006.png?raw=png)
 
 - [x] Auto Align
 - [ ] Auto Space

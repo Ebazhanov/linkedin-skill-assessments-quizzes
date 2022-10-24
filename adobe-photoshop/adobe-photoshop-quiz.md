@@ -736,7 +736,7 @@ E. Perspective Warp
 
 #### Q96. Which RGB control do you click to add a single control point to the Curves adjustment?
 
-![Which RGB control do you click to add a single control point to the Curves adjustment?](images/Q95.png)
+![Which RGB control do you click to add a single control point to the Curves adjustment?](images/Q95.png?raw=png)
 
 - \[ ] A (on-image adjustment tool)
 - \[ ] B (sample in image to set black point)
@@ -752,7 +752,7 @@ E. Perspective Warp
 
 #### Q98. Which options bar icon subtracts from a selection?
 
-![Which options bar icon subtracts from a selection?](images/Q97.png)
+![Which options bar icon subtracts from a selection?](images/Q97.png?raw=png)
 
 - \[ ] A
 - \[ ] B

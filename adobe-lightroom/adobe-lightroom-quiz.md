@@ -82,7 +82,7 @@ Note: I just use synchronization. After digging into settings I was able only to
 
 #### Q11. In the image shown, what do the blue areas indicate?
 
-![In the image shown, what do the blue areas indicate?](images/Q11.png)
+![In the image shown, what do the blue areas indicate?](images/Q11.png?raw=png)
 
 - [x] crushed details in the shadows
 - [ ] a special effect applied to the image

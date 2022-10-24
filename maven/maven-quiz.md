@@ -315,7 +315,7 @@ mvn install
 
 #### Q42. Below is a report generated for a multimodule project with the Checkstyle Plugin. Why might the highlighted links to the two child projects _not_ work?
 
-![q43](q43.png)
+![q43](q43.png?raw=png)
 
 - [ ] The Checkstyle Plugin does not work on child modules.
 - [ ] Each Checkstyle report is in the target/site folder of the respective module.

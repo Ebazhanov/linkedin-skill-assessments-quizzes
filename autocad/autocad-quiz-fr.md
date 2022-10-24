@@ -312,7 +312,7 @@
 
 #### Q41. Lorsque vous travaillez avec des objets dans vos dessins, vous définissez normalement leurs propriétés via leurs calques respectifs. Toutefois, vous pouvez définir des propriétés d’objet individuelles à l’aide du panneau Propriétés de l’onglet Accueil du ruban AutoCAD. Une couleur et un type de ligne individuels peuvent y être définis, ainsi que quelle autre propriété d’objet typique ?
 
-![q42](images/q42_autocad.png)
+![q42](images/q42_autocad.png?raw=png)
 
 - \[ ] description
 - \[x] traçable ou non traçable
@@ -545,7 +545,7 @@
 
 #### Q74. Lorsque vous utilisez la commande POLYGON dans AutoCAD, vous pouvez créer un polygone inscrit et un polygone circonscrit. Quel autre type de polygone est disponible ?
 
-![q75](images/q75_autocad.png)
+![q75](images/q75_autocad.png?raw=png)
 
 - \[ ] polygone latéral
 - \[ ] polygone polyligne
@@ -554,7 +554,7 @@
 
 #### Q75. Lors de l’utilisation de blocs dans un dessin, un bloc sélectionné n’affiche qu’une seule poignée : le point d’insertion. Comment feriez-vous pour qu’un bloc affiche toutes ses poignées associées?
 
-![q76](images/q76_autocad.png)
+![q76](images/q76_autocad.png?raw=png)
 
 - \[ ] Remplacez la variable système GRIPBLOCK par 1.
 - \[ ] Sélectionnez le bloc et modifiez-le dans la palette Propriétés.

@@ -131,7 +131,7 @@
 
 #### Q18. What would changing the text in this component affect?
 
-![Q13](images/006.png)
+![Q13](images/006.png?raw=png)
 
 - [ ] the component.
 - [ ] only the text in the symbol.

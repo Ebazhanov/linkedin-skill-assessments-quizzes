@@ -596,7 +596,7 @@ console.log(currencies);
 ```css
 .box {
   background-color: blue;
-  background: url(images/star.png) no-repeat left top;
+  background: url(images/star.png?raw=png) no-repeat left top;
 }
 ```
 

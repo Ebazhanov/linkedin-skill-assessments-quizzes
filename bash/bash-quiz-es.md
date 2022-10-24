@@ -320,12 +320,12 @@ echo ${!fname}
 
 #### P31. ¿Cuál será el resultado de este script?
 
-![question](images/Q30/question.png)
+![question](images/Q30/question.png?raw=png)
 
-- \[ ] `A` ![A](images/Q30/A.png)
-- \[ ] `B` ![B](images/Q30/B.png)
-- \[x] `C` ![C](images/Q30/C.png)
-- \[ ] `D` ![D](images/Q30/D.png)
+- \[ ] `A` ![A](images/Q30/A.png?raw=png)
+- \[ ] `B` ![B](images/Q30/B.png?raw=png)
+- \[x] `C` ![C](images/Q30/C.png?raw=png)
+- \[ ] `D` ![D](images/Q30/D.png?raw=png)
 
 Aquí hay una versión basada en texto de Q.30:
 
@@ -747,7 +747,7 @@ fi
 
 #### Pregunta 58. ¿Cuál es el resultado de este script?
 
-![question](images/Q60/question.png)
+![question](images/Q60/question.png?raw=png)
 
 - \[ ] Elimina el directorio 'foo' y los archivos contenidos en él.
 - \[ ] Elimina todos los archivos excepto los del directorio actual.

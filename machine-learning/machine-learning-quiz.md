@@ -502,7 +502,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [ ] 12%
 - [ ] 0.0008%
 
-![image](images/machine-learning_Q62.png)
+![image](images/machine-learning_Q62.png?raw=png)
 
 #### Q67. The new dataset you have just scraped seems to exhibit lots of missing values. What action will help you minimizing that problem?
 
@@ -534,7 +534,7 @@ Note: there are centres of clusters (C0, C1, C2).
 
 #### Q71. What is the correct option?
 
-![image](images/machine-learning_Q67.png)
+![image](images/machine-learning_Q67.png?raw=png)
 
 | no.    | Red              | Blue             | Green            |
 | ------ | ---------------- | ---------------- | ---------------- |
@@ -566,7 +566,7 @@ Note: there are centres of clusters (C0, C1, C2).
 
 #### Q74. The fit line and data in the figure exhibits which pattern?
 
-![image](images/machine-learning_Q70.png)
+![image](images/machine-learning_Q70.png?raw=png)
 
 - [ ] low bias, high variance
 - [ ] high bias, low variance
