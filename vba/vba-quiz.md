@@ -575,7 +575,7 @@ End Sub
 - [ ] You can resize only the last dimension of an array when you specify `ReDim Preserve`.
 - [ ] The correct syntax is `ReDim Preserve MyArr(0 To 4, 0 To 4)`.
 
-#### Q39. Which subroutine declaration does `not` cause a compile error?
+#### Q39. Which subroutine declaration does not cause a compile error?
 
 - [ ] `Sub Called(Salary As Long, ParamArray Vals() As Variant)`
 - [ ] `Sub Called(ParamArray Vals() As Variant, Salary As Long)`
@@ -796,7 +796,7 @@ End Sub
 
 - [ ] call SumCosts "Totalcosts", 3
 - [ ] SumCosts "Totalcosts", 3
-- [x] SumCosts ("Totalcosts", 3)
+- [x] SumCosts("Totalcosts", 3)
 - [ ] Call SumCosts
 
 [Source](https://learn.microsoft.com/en-us/office/vba/language/concepts/getting-started/calling-sub-and-function-procedures)
@@ -812,3 +812,26 @@ If Cars(1).Make="Ford" And Cars (1).MPG > 20
 - [x] Type
 - [ ] object
 - [ ] Variant
+
+#### Q60. What is the purpose of the .Range("A1:E5").Select portion of this statement?
+
+```
+ActiveCell.Offset(3,4).Range("A1:E5").Select
+```
+
+- [ ] If specifies the range that is to be selected after the offset is found
+- [x] it specifies the range of cells in which the contents of the offset are to be written
+- [ ] It provides Resize information - in this case, the offset returns a reference of five rows and five columns
+- [ ] It specifies the range of cells at which the offset is to be based
+
+#### Q61. In Excel, what is the effect of the two statements below?
+
+```
+Range("b3:f5, c4:d9").Select
+    	Range("b3:f5", "c4:d9").Select
+```
+
+- [ ] If specifies the range that is to be selected after the offset is found
+- [x] it specifies the range of cells in which the contents of the offset are to be written
+- [ ] It provides Resize information - in this case, the offset returns a reference of five rows and five columns
+- [ ] It specifies the range of cells at which the offset is to be based
