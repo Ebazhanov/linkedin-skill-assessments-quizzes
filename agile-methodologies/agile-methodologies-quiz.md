@@ -952,3 +952,12 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] verifiable
 - [ ] veracity
 - [ ] voluminous
+
+#### Q131. Which statement about the Agile Manifesto is true?
+
+- [ ] It was written via crowdsourcing and its authors are unknown
+- [ ] It was written in 2001 and is obsolete.
+- [x] It was written in response to documentation-heavy software development project practices.
+- [ ] It was first published as part of Jim Highsmith's doctoral thesis.
+
+[Reference](https://agilemanifesto.org/history.html) `"(...)others sympathetic to the need for an alternative to documentation driven, heavyweight software development processes convened." [First paragraph]`
