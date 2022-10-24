@@ -63,7 +63,7 @@
 - \[ ] rapprochements bancaires
 - \[ ] processus d’approbation
 
-\[source]'MT: les reconnaissances bancaires sont un contrôle interne, vérifiant si les chiffres correspondent. L’approbation par différents niveaux d’autorités aide à prévenir les transactions nonathorisées - c’est donc aussi un contrôle. la séparation des tâches garantit également cela.
+\[source]`'MT: les reconnaissances bancaires sont un contrôle interne, vérifiant si les chiffres correspondent. L’approbation par différents niveaux d’autorités aide à prévenir les transactions nonathorisées - c’est donc aussi un contrôle. la séparation des tâches garantit également cela.`
 
 #### Q10. Quelle approche budgétaire demande la justification de toutes les dépenses?
 
@@ -86,7 +86,7 @@
 - \[ ] Le bénéfice brut va aux bénéfices non répartis, et le total des capitaux propres des actionnaires est ajouté à l’état des flux de trésorerie
 - \[x] Le bénéfice net va aux bénéfices non répartis et au tableau des flux de trésorerie
 
-\[source]'MT: qns impairs. Mais il devrait s’agir de flux de bénéfice net « npat » vers les bénéfices non répartis, et commence également l’état des flux de trésorerie (donc tous liés et non indépendants). Les actifs sont au bilan, le résultat net est dans le compte de résultat. npat va aux bénéfices non répartis, pas à la marge brute.
+\[source]`'MT: qns impairs. Mais il devrait s’agir de flux de bénéfice net « npat » vers les bénéfices non répartis, et commence également l’état des flux de trésorerie (donc tous liés et non indépendants). Les actifs sont au bilan, le résultat net est dans le compte de résultat. npat va aux bénéfices non répartis, pas à la marge brute.`
 
 #### Q13. Quelle n’est pas l’une des quatre perspectives du tableau de bord prospectif?
 
@@ -124,7 +124,7 @@
 - \[ ] toutes les missions de conseil (faux ans)
 
 [source](https://www.ispartnersllc.com/blog/defining-attestation-assurance-auditing/)
-'MT: qns difficiles, options ambiguës. Attester = valider les données d’audit recueillies. La consultation est moins réglementaire / restrictive, = comment augmenter les ventes de tartes, par rapport à l’audit / attestation = pourquoi vous avez signalé plus de tartes dans votre réfrigérateur que nous avons observé. La taxe est grise, doit généralement être approuvée par un comité d’autorisation interne ou les frais divulgués, etc., mais il y a des exceptions.
+`'MT: qns difficiles, options ambiguës. Attester = valider les données d’audit recueillies. La consultation est moins réglementaire / restrictive, = comment augmenter les ventes de tartes, par rapport à l’audit / attestation = pourquoi vous avez signalé plus de tartes dans votre réfrigérateur que nous avons observé. La taxe est grise, doit généralement être approuvée par un comité d’autorisation interne ou les frais divulgués, etc., mais il y a des exceptions.`
 
 #### Q18. Une séparation adéquate des responsabilités fonctionnelles exige la séparation des
 
@@ -142,7 +142,7 @@
 - \[ ] l’évaluation des actifs pour déterminer le montant de la dette supplémentaire que l’entreprise peut emprunter
 - \[ ] combien les ventes d’une entreprise changeront en réponse à une variation du bénéfice d’exploitation
 
-\[source]«Un effet de levier d’exploitation élevé signifie qu’une entreprise a une base de coûts relativement fixe et généralement élevée. Ainsi, des ventes supplémentaires généreraient progressivement plus de profits parce que ces ventes n’ont pas besoin d’engager plus de coûts pour générer (comme une usine, par rapport aux travailleurs d’usine)
+\[source]`«Un effet de levier d’exploitation élevé signifie qu’une entreprise a une base de coûts relativement fixe et généralement élevée. Ainsi, des ventes supplémentaires généreraient progressivement plus de profits parce que ces ventes n’ont pas besoin d’engager plus de coûts pour générer (comme une usine, par rapport aux travailleurs d’usine)`
 
 #### Q20. Quelle caractéristique préoccuperait un auditeur quant au risque d’anomalies significatives découlant d’une information financière frauduleuse?
 
@@ -169,7 +169,7 @@
 - \[ ] L’auditeur peut s’adapter à une profession en évolution rapide.
 - \[x] L’auditeur possède une expertise dans la collecte et l’interprétation des éléments probants.
 
-\[source]'MT: les auditeurs se concentrent sur la collecte et l’interprétation des éléments probants dans des secteurs spécifiques. Tant les vérificateurs que les comptables connaîtraient les principes dans lesquels le client opère.
+\[source]`MT: les auditeurs se concentrent sur la collecte et l’interprétation des éléments probants dans des secteurs spécifiques. Tant les vérificateurs que les comptables connaîtraient les principes dans lesquels le client opère.`
 
 #### Q23. Quel est le but d’un audit opérationnel?
 
@@ -185,7 +185,8 @@
 - \[ ] Le tableau de bord prospectif mesure, suit et rend compte d’un équilibre de données et de mesures qualitatives et financières. (def true)
 - \[x] Le tableau de bord prospectif garantit que la rentabilité de l’organisation correspond aux attentes en matière de rémunération et de dividendes des administrateurs.
 
-[source](http://www.managerialaccounting.org/Balanced%20Scorecard.htm) « MT: BSC est sur l’amélioration de l’efficacité - atteindre les objectifs et comment les mesurer quantitativement ou qualitativement. Rien à voir avec la façon de compenser »
+[source](http://www.managerialaccounting.org/Balanced%20Scorecard.htm)
+`« MT: BSC est sur l’amélioration de l’efficacité - atteindre les objectifs et comment les mesurer quantitativement ou qualitativement. Rien à voir avec la façon de compenser »`
 
 #### Q25. Quel choix n’est pas une composante du contrôle interne?
 
@@ -222,7 +223,7 @@
 - \[x] Actif débiteur, passif créditeur
 - \[ ] Capitaux propres débiteurs, avoir de crédit.
 
-\[source]'MT réponse - son équipement de débit (actif), notes de crédit payables (passif). Pour +/- actifs, besoin de dr/cr, inverse est vrai pour les passifs. L’entrée de journal longue est la suivante: Emprunter de l’argent - Dr cash, Billets Cr à payer, puis pour l’achat d’équipement - Dr equipment, Cr cash'
+\[source]`'MT réponse - son équipement de débit (actif), notes de crédit payables (passif). Pour +/- actifs, besoin de dr/cr, inverse est vrai pour les passifs. L’entrée de journal longue est la suivante: Emprunter de l’argent - Dr cash, Billets Cr à payer, puis pour l’achat d’équipement - Dr equipment, Cr cash'`
 
 #### Q30. Quelle section d’un rapport financier annuel décrit les méthodes comptables de la société?
 
@@ -247,4 +248,4 @@
 - \[ ] Chèques NSF (« fonds insuffisants »)
 - \[ ] changements de service
 
-\[source]'MT: compte du déposant est un passif envers la banque - la banque doit l’argent au déposant. La banque perçoit un billet à recevoir du client signifie réduire les espèces / dépôts du client. De même si NSF signifie que le titulaire du chèque n’a pas assez de fonds pour transférer des fonds dans les dépôts du client, il n’y a donc pas de changement dans les dépôts.
+\[source]`'MT: compte du déposant est un passif envers la banque - la banque doit l’argent au déposant. La banque perçoit un billet à recevoir du client signifie réduire les espèces / dépôts du client. De même si NSF signifie que le titulaire du chèque n’a pas assez de fonds pour transférer des fonds dans les dépôts du client, il n’y a donc pas de changement dans les dépôts.`

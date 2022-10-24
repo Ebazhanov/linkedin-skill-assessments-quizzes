@@ -124,7 +124,7 @@
 - \[ ] todos los compromisos de consultoría (ans incorrectos)
 
 [fuente](https://www.ispartnersllc.com/blog/defining-attestation-assurance-auditing/)
-'MT: qns duros, opciones ambiguas. Attest = validar los datos de auditoría recopilados. La consultoría es menos regulatoria / restrictiva, = cómo aumentar las ventas de pasteles, en comparación con la auditoría / atestación = por qué reportó más pasteles en su refrigerador de lo que observamos. El impuesto es gris, por lo general tiene que ser aprobado por el comité interno o las tarifas divulgadas, etc., pero hay excepciones".
+`'MT: qns duros, opciones ambiguas. Attest = validar los datos de auditoría recopilados. La consultoría es menos regulatoria / restrictiva, = cómo aumentar las ventas de pasteles, en comparación con la auditoría / atestación = por qué reportó más pasteles en su refrigerador de lo que observamos. El impuesto es gris, por lo general tiene que ser aprobado por el comité interno o las tarifas divulgadas, etc., pero hay excepciones".`
 
 #### P18. La separación adecuada de las responsabilidades funcionales exige la separación de
 
@@ -185,7 +185,8 @@
 - \[ ] El cuadro de mando integral mide, rastrea e informa sobre un equilibrio de datos y métricas cualitativas y financieras. (def true)
 - \[x] El cuadro de mando integral garantiza que la rentabilidad de la organización se alinee con la compensación del director y las expectativas de dividendos.
 
-[fuente](http://www.managerialaccounting.org/Balanced%20Scorecard.htm) 'MT: BSC se centra en mejorar la eficiencia: cumplir con los objetivos y cómo medirlos cuantitativa o cualitativamente. Nada que ver con cómo compensar'
+[fuente](http://www.managerialaccounting.org/Balanced%20Scorecard.htm)
+`'MT: BSC se centra en mejorar la eficiencia: cumplir con los objetivos y cómo medirlos cuantitativa o cualitativamente. Nada que ver con cómo compensar'`
 
 #### P25. ¿Qué opción no es un componente del control interno?
 
@@ -222,7 +223,7 @@
 - \[x] Activo de débito, pasivo de crédito
 - \[ ] Patrimonio de débito, activo de crédito.
 
-\[fuente]'MT respuesta - su equipo de débito (activo), Notas de crédito pagaderas (pasivo). A +/- activos, necesidad de dr/cr, inverso es cierto para los pasivos. La entrada del diario de formato largo es: Pedir prestado efectivo - Dr cash, Cr notas pagaderas, luego para la compra de equipo - Dr equipment, Cr cash'
+\[fuente]`'MT respuesta - su equipo de débito (activo), Notas de crédito pagaderas (pasivo). A +/- activos, necesidad de dr/cr, inverso es cierto para los pasivos. La entrada del diario de formato largo es: Pedir prestado efectivo - Dr cash, Cr notas pagaderas, luego para la compra de equipo - Dr equipment, Cr cash'`
 
 #### P30. ¿Qué sección de un informe anual financiero describe los métodos de contabilidad de la corporación?
 
@@ -247,4 +248,4 @@
 - \[ ] Cheques NSF ("fondos insuficientes")
 - \[ ] cambios en el servicio
 
-\[fuente]'MT: cuenta del depositante os una responsabilidad con el banco - el banco debe el dinero al depositante. El banco cobra una nota por cobrar del cliente significa reducir el efectivo / depósitos del cliente. Similar si NSF significa que el propietario del cheque no tiene fondos suficientes para transferir fondos a los depósitos del cliente, por lo que no hay cambios en los depósitos.
+\[fuente]`'MT: cuenta del depositante os una responsabilidad con el banco - el banco debe el dinero al depositante. El banco cobra una nota por cobrar del cliente significa reducir el efectivo / depósitos del cliente. Similar si NSF significa que el propietario del cheque no tiene fondos suficientes para transferir fondos a los depósitos del cliente, por lo que no hay cambios en los depósitos.`
