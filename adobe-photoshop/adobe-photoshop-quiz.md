@@ -68,11 +68,13 @@
 
 #### Q9. Which options are available when using the Free Transform command on a Smart Object?
 
-    A. Content-Aware Scale
-    B. Scale
-    C. Warp
-    D. Distort
-    E. Perspective Warp
+```markdown
+A. Content-Aware Scale
+B. Scale
+C. Warp
+D. Distort
+E. Perspective Warp
+```
 
 - \[ ] C,D
 - \[ ] D,E
