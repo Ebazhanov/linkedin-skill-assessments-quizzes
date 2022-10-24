@@ -1458,3 +1458,11 @@ return 0;
 - [ ] We can change the precedence of the c++ operator.
 - [x] We can not change the operator templates.
 - [ ] We can change the associativity of the c++ operators.
+
+#### Q94. Which of the followings is/are automatically added to every class, if we do not write our own?
+
+- [ ] Copy Constructor
+- [ ] Assignment Operator
+- [ ] A constructor without any parameter
+- [x] All of the above
+
