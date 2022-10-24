@@ -220,7 +220,7 @@ foreach(string employee in employeeQuery)
 - [ ] //\* Multiline
       / Single Line
 - [x] // Single Line
-      /_ Multiline _/
+      /* Multiline */
 
 [w3schools: C# Comments](https://www.w3schools.com/cs/cs_comments.php)
 
