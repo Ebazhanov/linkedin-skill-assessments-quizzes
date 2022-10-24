@@ -25,7 +25,7 @@ Remarque: J’utilise simplement la synchronisation. Après avoir fouillé dans 
 
 #### Q4. Passez en revue l’image affichée. Qu’implique le point d’exclamation adjacent à la vignette ?
 
-![Review the image shown. What does the exclamation point adjacent to the thumbnail imply?](images/Q4.png)
+![Review the image shown. What does the exclamation point adjacent to the thumbnail imply?](images/Q4.png?raw=true)
 
 - \[ ] L’image a été modifiée dans Photoshop.
 - \[ ] La photo est marquée comme choisie.
@@ -43,7 +43,7 @@ Remarque: J’utilise simplement la synchronisation. Après avoir fouillé dans 
 
 #### Q6. Passez en revue l’image ci-dessous. Quelle option vous permet de redresser manuellement une photo en dessinant une ligne verticale ou horizontale ?
 
-![Review the image below. Which option lets you manually straighten a photo by drawing a vertical or horizontal line?](images/Q6.png)
+![Review the image below. Which option lets you manually straighten a photo by drawing a vertical or horizontal line?](images/Q6.png?raw=true)
 
 - \[ ] A
 - \[x] B
@@ -82,7 +82,7 @@ Remarque: J’utilise simplement la synchronisation. Après avoir fouillé dans 
 
 #### Q11. Dans l’image montrée, qu’est-ce que les zones bleues indiquent?
 
-![In the image shown, what do the blue areas indicate?](images/Q11.png)
+![In the image shown, what do the blue areas indicate?](images/Q11.png?raw=true)
 
 - \[x] Détails écrasés dans l’ombre
 - \[ ] un effet spécial appliqué à l’image
@@ -121,7 +121,7 @@ Remarque: J’utilise simplement la synchronisation. Après avoir fouillé dans 
 
 #### Q16. Dans l’image montrée, quelle est l’icône encerclée en jaune ?
 
-![Image with a yellow circle](images/Q16.png)
+![Image with a yellow circle](images/Q16.png?raw=true)
 
 - \[ ] Copie virtuelle
 - \[ ] Synchronisé avec Lightroom
