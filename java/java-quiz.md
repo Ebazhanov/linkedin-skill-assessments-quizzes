@@ -2276,3 +2276,25 @@ Doggie::fetch
 - [ ] static references
 	
 [Reference](https://stackoverflow.com/questions/31020269/what-is-the-use-of-system-outprintln-in-java-8)	
+		
+#### Q162. What will be the output of the following program?
+
+```java
+import java.util.Formatter;
+public class Course {
+    public static void main(String[] args) {
+        Formatter data = new Formatter();
+        data.format("course %s", "java ");
+        System.out.println(data);
+        data.format("tutorial %s", "Merit campus");
+        System.out.println(data);
+    }
+}
+```
+- [ ] course java
+      tutorial Merit campus
+- [x] course java
+      course java tutorial Merit campus
+- [ ] Compilation Error
+- [ ] Runtime Error
+	
