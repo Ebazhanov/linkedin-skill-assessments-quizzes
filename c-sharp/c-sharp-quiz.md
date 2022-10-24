@@ -213,14 +213,14 @@ foreach(string employee in employeeQuery)
 
 #### Q18. What is the correct formatting for single line and multiline comments?
 
-- [ ] /_/ - Single Line
-      /_ - Multiline
-- [ ] // Multiline
-      /_ Single Line _/
-- [ ] //\* Multiline
-      / Single Line
-- [x] // Single Line
-      /_ Multiline _/
+- [ ] ``` /_/ - Single Line ``` 
+      ``` /_ - Multiline ``` 
+- [ ] ``` // Multiline ``` 
+      ``` /_ Single Line _/ ```
+- [ ] ``` //\* Multiline ``` 
+     ``` / Single Line ``` 
+- [x] ``` // Single Line ``` 
+     ``` /* Multiline */ ```
 
 [w3schools: C# Comments](https://www.w3schools.com/cs/cs_comments.php)
 
