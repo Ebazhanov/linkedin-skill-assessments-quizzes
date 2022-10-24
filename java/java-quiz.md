@@ -2061,10 +2061,10 @@ Queue<Rainfall>
 
 #### Q143. When you pass an object reference as an argument to a method call what gets passed?
 
-- [ ]a reference to a copy
-- [ ]a copy of the reference
-- [ ]the object itself
-- [x]the original reference
+- [ ] a reference to a copy
+- [ ] a copy of the reference
+- [ ] the object itself
+- [x] the original reference
 
 #### Q144. Which choice demonstrates a valid way to create a reference to a static function of another class?
 
@@ -2241,3 +2241,38 @@ class variable_scope {
 - [ ] Runtime Error
 - [ ] 5 6 5 6
 - [ ] 5 6 5
+	
+#### Q159. Subclasses of an abstract class are created using the keyword _____.
+
+- [x] extends
+- [ ] abstracts
+- [ ] interfaces
+- [ ] implements
+	
+[Reference See An Abstract Class Example ](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)
+	
+#### Q160. Which keyword would not be allowed here?
+	
+```
+class Unicorn {
+_____ Unicorn(){}
+}
+```
+- [ ] public
+- [ ] static
+- [ ] protected
+- [x] void
+
+Explaination : A constructor cannot have a return type (not even a void return type).
+	
+#### Q161. What language feature do these expressions demonstrate?
+```
+System.out::println
+Doggie::fetch
+```
+- [X] method references
+- [ ] bad code
+- [ ] condensed invocation
+- [ ] static references
+	
+[Reference](https://stackoverflow.com/questions/31020269/what-is-the-use-of-system-outprintln-in-java-8)	
