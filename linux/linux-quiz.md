@@ -868,3 +868,11 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] continue
 - [x] true
 - [ ] always
+
+#### Q106. In Linux, which option is used with the uname command to print the processor architecture name?
+
+- [x] -p
+- [ ] -arch
+- [ ] -ps
+- [ ] -pname
+
