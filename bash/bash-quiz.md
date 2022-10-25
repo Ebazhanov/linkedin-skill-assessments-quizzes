@@ -1029,3 +1029,12 @@ echo $((4/3))
 - [ ] 2
 
 [Reference](https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-10.html)
+
+#### Q80. To keep a loop going until a certain condition becomes true, what would you likely use?
+
+- [ ] if
+- [ ] case
+- [x] while
+- [ ] for
+
+[Reference](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_02.html)
