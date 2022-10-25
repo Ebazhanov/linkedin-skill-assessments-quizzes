@@ -11859,6 +11859,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "Komodoro",
+      "name": "Pedro Pereira",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5166385?v=4",
+      "profile": "https://github.com/Komodoro",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
