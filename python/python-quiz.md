@@ -2336,3 +2336,10 @@ MISSING_ARG_3 = func
 - [ ] col
 - [x] 1
 - [ ] 0
+
+#### Q171. Data points in pyplot are called
+
+- [ ] pointers
+- [ ] points
+- [x] markers
+- [ ] none of these
