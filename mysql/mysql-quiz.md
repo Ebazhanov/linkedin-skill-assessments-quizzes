@@ -1100,7 +1100,7 @@ Table name: superheroes
 
 [Reference](https://www.w3schools.com/mysql/mysql_between.asp)
 
-#### Consider the set of relations given below and the SQL query that follows
+#### Q115. Consider the set of relations given below and the SQL query that follows
 
         Students : (Roll number, Name, Date of birth)
         Courses: (Course number, Course name, instructor)
