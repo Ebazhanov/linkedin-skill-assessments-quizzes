@@ -161,7 +161,7 @@
 #### Q21. Can flows that have been created outside of a solution be shared in a solution?
 
 - [ ] Yes, but only system admins have the ability to move flows into solutions after they are created
-- [ ] Yes, flows can be easily imported into solutions
+- [x] Yes, flows can be easily imported into solutions
 - [ ] It is entirely dependent on the type of flow - for instance, instant flows cannot but most automated flows can.
 - [ ] No, to be shared as part of a solution, they need to be created within the solution
 
@@ -169,7 +169,7 @@
 
 - [ ] Power automate does not support two-way synchronization, so changes made in the destination are not copied back to the source
 - [ ] you can copy data only between databases in the same environment
-- [ ] All field names in both database must match exactly and there must be the same number of records in each database
+- [x] All field names in both database must match exactly and there must be the same number of records in each database
 - [ ] You must always create a loop to verify your data has been successfully copied
 
 #### Q23. How do you share a template in Power Automate?
