@@ -32,38 +32,38 @@
 
 - [ ] A
 
-```
-      RecycleView
-      RecyclerView.Adapter<T extends BaseAdapter>
-      RecyclerView.ViewHolder<T extends BaseViewHolder>
-      LinearLayoutManager
+```java
+    RecycleView
+    RecyclerView.Adapter<T extends BaseAdapter>
+    RecyclerView.ViewHolder<T extends BaseViewHolder>
+    LinearLayoutManager
 ```
 
 - [ ] B
 
-```
-      RecycleView
-      RecyclerView.Adapter
-      RecyclerView.ViewHolder<T extends BaseViewHolder>
-      LinearLayoutManager
+```java
+    RecycleView
+    RecyclerView.Adapter
+    RecyclerView.ViewHolder<T extends BaseViewHolder>
+    LinearLayoutManager
 ```
 
 - [ ] C
 
-```
-      RecycleView
-      RecyclerView.Adapter
-      RecyclerView.ViewHolder
-      LinearLayoutManager
+```java
+    RecycleView
+    RecyclerView.Adapter
+    RecyclerView.ViewHolder
+    LinearLayoutManager
 ```
 
 - [x] D
 
-```
-      RecycleView
-      RecyclerView.Adapter<VH extends ViewHolder>
-      RecyclerView.ViewHolder
-      LinearLayoutManager
+```java
+    RecycleView
+    RecyclerView.Adapter<VH extends ViewHolder>
+    RecyclerView.ViewHolder
+    LinearLayoutManager
 ```
 
 #### Q6. The Android system kills process when it needs to free up memory. The likelihood of the system killing a given process depends on the state of the process and the activity at the time. With combination of process and activity state is most likely to be killed?
@@ -77,40 +77,40 @@
 
 - [ ] A
 
-```
-        Intent(this, NextActivity::class.java).also { intent ->
-            startActivity(intent)
-        }
+```java
+    Intent(this, NextActivity::class.java).also { intent ->
+        startActivity(intent)
+    }
 ```
 
 - [ ] B
 
-```
-        Intent(this, NextActivity::class.java).apply {
-            put(EXTRA_NEXT, "some data")
-        }.also { intent ->
-            activityStart(intent)
-        }
+```java
+    Intent(this, NextActivity::class.java).apply {
+        put(EXTRA_NEXT, "some data")
+    }.also { intent ->
+        activityStart(intent)
+    }
 ```
 
 - [x] C
 
-```
-        Intent(this, NextActivity::class.java).apply {
-            putExtra(EXTRA_NEXT, "some data")
-        }.also { intent ->
-            startActivity(intent)
-        }
+```java
+    Intent(this, NextActivity::class.java).apply {
+        putExtra(EXTRA_NEXT, "some data")
+    }.also { intent ->
+        startActivity(intent)
+    }
 ```
 
 - [ ] D
 
-```
-        Intent(this, NextActivity::class.java).apply {
-            put(EXTRA_NEXT, "some data")
-        }.also { intent ->
-            activityStart(intent)
-        }
+```java
+    Intent(this, NextActivity::class.java).apply {
+        put(EXTRA_NEXT, "some data")
+    }.also { intent ->
+        activityStart(intent)
+    }
 ```
 
 #### Q8. You want to include about and setting modules in your project. Which files accurately reflects their inclusion?
@@ -198,7 +198,7 @@
 
 #### Q14. Given the fragment below, how would you get access to a TextView with an ID of text_home contained in the layout file of a Fragment class?
 
-```
+```java
     private lateinit var textView: TextView
     override fun onCreateView(...): View? {
         val root = inflator.inflator(R>layout.fragment_home, container, false)
@@ -271,12 +271,11 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
 
 #### Q22. Which drawable definition allows you to achieve the shape below?
 
-![img](image/shape.png)
+![img](image/shape.png?raw=png)
 
 - [ ] A
 
-```
-    xml
+```xml
     <shape xmlns:android="http://schemas.android.com/apk/res/android"
         android:shape="oval">
         <stroke
@@ -288,8 +287,7 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
 
 - [ ] B
 
-```
-    xml
+```xml
     <oval xmlns:android="http://schemas.android.com/apk/res/android">
         <stroke android:width="4dp" android:color="@android:color/black"/>
         <solid android:color="@android:color/white"/>
@@ -298,8 +296,7 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
 
 - [x] C
 
-```
-    xml
+```xml
     <shape xmlns:android="http://schemas.android.com/apk/res/android"
         android:shape="oval">
         <stroke
@@ -311,8 +308,7 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
 
 - [ ] D
 
-```
-    xml
+```xml
     <shape xmlns:android="http://schemas.android.com/apk/res/android"
         android:shape="oval">
         <stroke
@@ -372,8 +368,7 @@ Notice: AndroidJUnitRunner lets us run JUnit3/4-style tests on Android Devices
 
 #### Q29. Which image best corresponds to the following `LinearLayout`?
 
-```
-    xml
+```xml
     <LinearLayout
         android:layout_width="match_parent"
 	android:layout_height="match_parent"
@@ -513,8 +508,7 @@ buildTypes {
 
 - [ ] A
 
-```
-xml
+```xml
     <androidx.constraintlayout.widget.ConstraintLayout
 	...>
 
@@ -535,8 +529,7 @@ xml
 
 - [x] B
 
-```
-xml
+```xml
     <androidx.constraintlayout.widget.ConstraintLayout
 	...>
 
@@ -557,8 +550,7 @@ xml
 
 - [ ] C
 
-```
-xml
+```xml
     <androidx.constraintlayout.widget.ConstraintLayout
 	...>
 
@@ -581,8 +573,7 @@ xml
 
 - [ ] D
 
-```
-xml
+```xml
     <androidx.constraintlayout.widget.ConstraintLayout
 	...>
 
@@ -613,15 +604,13 @@ xml
 
 - [x] A
 
-```
-xml
+```xml
 	<activity android:name=".ExampleActivity" />
 ```
 
 - [ ] B
 
-```
-xml
+```xml
 	<activity android:name=".ExampleActivity">
 		<intent-filter>
 			<action android:name="android.intent.action.SEND" />
@@ -631,8 +620,7 @@ xml
 
 - [ ] C
 
-```
-xml
+```xml
 	<activity android:name=".ExampleActivity">
 		<intent-filter>
 			<action android:name="android.intent.action.MAIN" />
@@ -643,8 +631,7 @@ xml
 
 - [ ] D
 
-```
-xml
+```xml
 	<activity android:name=".ExampleActivity">
 		<intent-filter>
 			<action android:name="android.intent.action.VIEW" />
@@ -706,8 +693,7 @@ xml
 
 - [ ] A
 
-```
-xml
+```xml
 	<shape xmlns:android-"http://schemas.android.com/apk/res/android"
 	    android:shape-"oval">
 	    <gradient
@@ -719,8 +705,7 @@ xml
 
 - [ ] B
 
-```
-xml
+```xml
 	<rectangle xmlns:android-"http://schemas.android.com/apk/res/android">
 	   <gradient
 	      android:startColor-"@android:color/white"
@@ -731,8 +716,7 @@ xml
 
 - [x] C
 
-```
-xml
+```xml
 	<shape xmlns:android-"http://schemas.android.com/apk/res/android"
 	   android:shape-"rectangle">
 	   <gradient
@@ -744,8 +728,7 @@ xml
 
 - [ ] D
 
-```
-xml
+```xml
 	<shape xmlns:android-"http://schemas.android.com/apk/res/android"
 	   android:shape-"rectangle">
 	   <gradient
@@ -766,21 +749,23 @@ xml
 
 #### Q48. Given this code snippey from a build.gradle file, which choice is not a possible build variant?
 
-    android {
-        ...
-        defaultConfig{...}
+```
+android {
+    ...
+    defaultConfig{...}
 
-        buildTypes{
-        debug{...}
-        releasae{...}
-    }
+    buildTypes{
+    debug{...}
+    releasae{...}
+}
 
-      flavorDimensions "environment"
-      productFlavors {
-         producation {...}
-         staging {...}
-      }
+    flavorDimensions "environment"
+    productFlavors {
+        producation {...}
+        staging {...}
     }
+}
+```
 
 - [ ] productionDebug.
 - [x] developmentDebug.
@@ -823,7 +808,7 @@ xml
 
 #### Q53. Given the following dimens.xml file, how would you define an ImageView with medium spacing at the bottom?
 
-```
+```xml
 <?xml version=1.0 encoding="utf-8"?>
 <resources>
     <dimen name="spacing_medium">8dp</dimen>
@@ -833,7 +818,7 @@ xml
 
 - [ ] A
 
-```
+```xml
 <ImageView
    android:id=@+id/image_map_pin"
    android:layout_width="wrap_content"
@@ -843,7 +828,8 @@ xml
 
 - [ ] B
 
-```<ImageView
+```xml
+<ImageView
    android:id=@+id/image_map_pin"
    android:layout_width="wrap_content"
    android:layout_heignt="wrap_content"
@@ -853,7 +839,7 @@ xml
 
 - [ ] C
 
-```
+```xml
 <ImageView
    android:id=@+id/image_map_pin"
    android:layout_width="wrap_content"
@@ -864,7 +850,7 @@ xml
 
 - [x] D
 
-```
+```xml
 <ImageView
    android:id=@+id/image_map_pin"
    android:layout_width="wrap_content"
@@ -882,7 +868,7 @@ xml
 
 #### Q55. What is the chief purpose of line five in this code snippet?
 
-```
+```java
 override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_post_create)
 
 	if (savedInstanceState != null) return
@@ -952,16 +938,16 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 #### Q62. Which layout hierarchy is likely to be drawn the most quickly?
 
 - [x] A
-      ![img](https://i.imgur.com/mT08jag.png)
+      ![img](https://i.imgur.com/mT08jag.png?raw=png)
 
 - [ ] B
-      ![img](https://i.imgur.com/rz9eKYc.png)
+      ![img](https://i.imgur.com/rz9eKYc.png?raw=png)
 
 - [ ] C
-      ![img](https://i.imgur.com/ETaHhaS.png)
+      ![img](https://i.imgur.com/ETaHhaS.png?raw=png)
 
 - [ ] D
-      ![img](https://i.imgur.com/1QBrTwR.png)
+      ![img](https://i.imgur.com/1QBrTwR.png?raw=png)
 
 #### Q63. What is the current recommended way to handle long-running background tasks?
 
@@ -1000,8 +986,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 
 #### Q67. In the ConstraintLayout below, why wouldn't button expand to fill the width of parent?
 
-```
-    xml
+```xml
     <androidx.constraintlayout.widget.ConstrantLayout
         ...>
 	    <Button
@@ -1044,7 +1029,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 
 - [ ] A
 
-```
+```java
   fun showCamera(view: View) {
       Log.i(TAG, "Show camera button pressed.")
       if (ContextCompat.shouldShowRequestPermissionRationale(thisActivity,
@@ -1059,7 +1044,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 
 - [x] B
 
-```
+```java
   fun showCamera(view: View) {
       Log.i(TAG, "Show camera button pressed.")
       if (ContextCompat.checkSelfPermission(thisActivity,
@@ -1075,7 +1060,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 
 - [ ] C
 
-```
+```java
   fun showCamera(view: View) {
       Log.i(TAG, "Show camera button pressed.")
       showCameraPreview()
@@ -1084,7 +1069,7 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
 
 - [ ] D
 
-```
+```java
   fun showCamera(view: View) {
       Log.i(TAG, "Show camera button pressed.")
       if (ContextCompat.checkSelfPermission(thisActivity,

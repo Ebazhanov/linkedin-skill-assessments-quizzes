@@ -32,39 +32,39 @@
 
 - \[ ]
 
-<!---->
-
-          RecycleView
-          RecyclerView.Adapter<T extends BaseAdapter>
-          RecyclerView.ViewHolder<T extends BaseViewHolder>
-          LinearLayoutManager
-
-- \[ ]
-
-<!---->
-
-          RecycleView
-          RecyclerView.Adapter
-          RecyclerView.ViewHolder<T extends BaseViewHolder>
-          LinearLayoutManager
+```java
+  RecycleView
+  RecyclerView.Adapter<T extends BaseAdapter>
+  RecyclerView.ViewHolder<T extends BaseViewHolder>
+  LinearLayoutManager
+```
 
 - \[ ]
 
-<!---->
+```java
+  RecycleView
+  RecyclerView.Adapter
+  RecyclerView.ViewHolder<T extends BaseViewHolder>
+  LinearLayoutManager
+```
 
-          RecycleView
-          RecyclerView.Adapter
-          RecyclerView.ViewHolder
-          LinearLayoutManager
+- \[ ]
+
+```java
+  RecycleView
+  RecyclerView.Adapter
+  RecyclerView.ViewHolder
+  LinearLayoutManager
+```
 
 - \[x]
 
-<!---->
-
-          RecycleView
-          RecyclerView.Adapter<VH extends ViewHolder>
-          RecyclerView.ViewHolder
-          LinearLayoutManager
+```java
+  RecycleView
+  RecyclerView.Adapter<VH extends ViewHolder>
+  RecyclerView.ViewHolder
+  LinearLayoutManager
+```
 
 #### Q6. Le système Android tue le processus lorsqu’il a besoin de libérer de la mémoire. La probabilité que le système tue un processus donné dépend de l’état du processus et de l’activité à ce moment-là. Avec la combinaison du processus et de l’activité, l’état est-il le plus susceptible d’être tué?
 
@@ -77,41 +77,41 @@
 
 - \[ ]
 
-<!---->
-
-            Intent(this, NextActivity::class.java).also { intent ->
-                startActivity(intent)
-            }
+```java
+  Intent(this, NextActivity::class.java).also { intent ->
+      startActivity(intent)
+  }
+```
 
 - \[ ]
 
-<!---->
-
-            Intent(this, NextActivity::class.java).apply {
-                put(EXTRA_NEXT, "some data")
-            }.also { intent ->
-                activityStart(intent)
-            }
+```java
+  Intent(this, NextActivity::class.java).apply {
+      put(EXTRA_NEXT, "some data")
+  }.also { intent ->
+      activityStart(intent)
+  }
+```
 
 - \[x]
 
-<!---->
-
-            Intent(this, NextActivity::class.java).apply {
-                putExtra(EXTRA_NEXT, "some data")
-            }.also { intent ->
-                startActivity(intent)
-            }
+```java
+  Intent(this, NextActivity::class.java).apply {
+      putExtra(EXTRA_NEXT, "some data")
+  }.also { intent ->
+      startActivity(intent)
+  }
+```
 
 - \[ ]
 
-<!---->
-
-            Intent(this, NextActivity::class.java).apply {
-                put(EXTRA_NEXT, "some data")
-            }.also { intent ->
-                activityStart(intent)
-            }
+```java
+  Intent(this, NextActivity::class.java).apply {
+      put(EXTRA_NEXT, "some data")
+  }.also { intent ->
+      activityStart(intent)
+  }
+```
 
 #### Q8. Vous souhaitez inclure des modules à propos et des modules de définition dans votre projet. Quels fichiers reflètent fidèlement leur inclusion ?
 
@@ -131,43 +131,43 @@
 
 - \[ ]
 
-<!---->
-
-          defaultConfig {
-            ...
-            minApiVersion 21
-            targetApiVersion 28
-          }
-
-- \[ ]
-
-<!---->
-
-          defaultConfig {
-            ...
-            targetSdkVersion 21
-            testSdkVersion 28
-          }
+```
+  defaultConfig {
+    ...
+    minApiVersion 21
+    targetApiVersion 28
+  }
+```
 
 - \[ ]
 
-<!---->
+```
+  defaultConfig {
+    ...
+    targetSdkVersion 21
+    testSdkVersion 28
+  }
+```
 
-          defaultConfig {
-            ...
-            minSdkVersion 21
-            testApiVersion 28
-          }
+- \[ ]
+
+```
+  defaultConfig {
+    ...
+    minSdkVersion 21
+    testApiVersion 28
+  }
+```
 
 - \[x]
 
-<!---->
-
-          defaultConfig {
-            ...
-          minSdkVersion 21
-            targetSdkVersion 28
-          }
+```
+  defaultConfig {
+    ...
+  minSdkVersion 21
+    targetSdkVersion 28
+  }
+```
 
 #### Q11. Quand onActivityResult() d’une activité sera-t-il appelé ?
 
@@ -198,12 +198,14 @@
 
 #### Q14. Compte tenu du fragment ci-dessous, comment accéder à un TextView avec un ID de text_home contenu dans le fichier de mise en page d’une classe Fragment ?
 
-        private lateinit var textView: TextView
-        override fun onCreateView(...): View? {
-            val root = inflator.inflator(R>layout.fragment_home, container, false)
-            textView = ??
-            return root
-        }
+```java
+  private lateinit var textView: TextView
+  override fun onCreateView(...): View? {
+      val root = inflator.inflator(R>layout.fragment_home, container, false)
+      textView = ??
+      return root
+  }
+```
 
 - \[ ] root.getById(R.id.text_home)
 - \[ ] findViewByID(R.id.text_home)
@@ -269,56 +271,51 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 #### Q22. Quelle définition dessinable vous permet d’obtenir la forme ci-dessous?
 
-![img](image/shape.png)
+![img](image/shape.png?raw=png)
 
 - \[ ]
 
-<!---->
-
-        xml
-        <shape xmlns:android="http://schemas.android.com/apk/res/android"
-            android:shape="oval">
-            <stroke
-                android:width="4dp"
-    	    android:color="@android:color/white" />
-    	<solid android:color="@android:color/black" />
-        </shape>
-
+```xml
+  <shape xmlns:android="http://schemas.android.com/apk/res/android"
+      android:shape="oval">
+      <stroke
+          android:width="4dp"
+    android:color="@android:color/white" />
+    <solid android:color="@android:color/black" />
+  </shape>
+```
 - \[ ]
 
-<!---->
-
-        xml
-        <oval xmlns:android="http://schemas.android.com/apk/res/android">
-            <stroke android:width="4dp" android:color="@android:color/black"/>
-            <solid android:color="@android:color/white"/>
-        </oval>
+```xml
+  <oval xmlns:android="http://schemas.android.com/apk/res/android">
+      <stroke android:width="4dp" android:color="@android:color/black"/>
+      <solid android:color="@android:color/white"/>
+  </oval>
+```
 
 - \[x]
 
-<!---->
-
-        xml
-        <shape xmlns:android="http://schemas.android.com/apk/res/android"
-            android:shape="oval">
-            <stroke
-                android:width="4dp"
-                android:color="@android:color/black" />
-            <solid android:color="@android:color/white" />
-        </shape>
+```xml
+  <shape xmlns:android="http://schemas.android.com/apk/res/android"
+      android:shape="oval">
+      <stroke
+          android:width="4dp"
+          android:color="@android:color/black" />
+      <solid android:color="@android:color/white" />
+  </shape>
+```
 
 - \[ ]
 
-<!---->
-
-        xml
-        <shape xmlns:android="http://schemas.android.com/apk/res/android"
-            android:shape="oval">
-            <stroke
-                android:width="4dp"
-                android:color="@android:color/white" />
-            <solid android:color="@android:color/white" />
-        </shape>
+``` xml
+  <shape xmlns:android="http://schemas.android.com/apk/res/android"
+      android:shape="oval">
+      <stroke
+          android:width="4dp"
+          android:color="@android:color/white" />
+      <solid android:color="@android:color/white" />
+  </shape>
+```
 
 #### Q23. Pour conserver une petite collection de données clé-valeur, que devez-vous utiliser ?
 
@@ -370,22 +367,22 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 #### Q29. Quelle image correspond le mieux à ce qui suit `LinearLayout`?
 
-        xml
-        <LinearLayout
-            android:layout_width="match_parent"
-    	android:layout_height="match_parent"
-    	android:orientation="horizontal"
-    	android:gravity="center">
-    	<Button
+```xml
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="horizontal"
+      android:gravity="center">
+      <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Button" />
-    	<Button
+      <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Button" />
-            </LinearLayout>
-
+  </LinearLayout>
+```
 - \[ ] A
   ![img](image/00.jpeg)
 - \[x] B
@@ -397,11 +394,13 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 #### Q30. Vous souhaitez ouvrir l’application Dialer par défaut sur un appareil. Qu’est-ce qui ne va pas avec ce code ?
 
-    val dialerIntent = Intent()
-    val et = findViewById(R.id.some_edit_text)
-    dialerIntent.action = Intent.ACTION_DIAL
-    dialerIntent.data = Uri.parse("tel:" + et.getText()?.toString())
-    startActivity(dialerIntent)
+```java
+  val dialerIntent = Intent()
+  val et = findViewById(R.id.some_edit_text)
+  dialerIntent.action = Intent.ACTION_DIAL
+  dialerIntent.data = Uri.parse("tel:" + et.getText()?.toString())
+  startActivity(dialerIntent)
+```
 
 - \[x] `startActivityWithResult()` devrait être utilisé à la place de `startActivity()` lors de l’utilisation `Intent.ACTION_DIAL`.
 - \[ ] Pour `Intent.ACTION_DIAL`le `Intent` option `Intent.FLAG_ACTIVITY_NEW_TASK` doit être ajouté lors de l’utilisation de ce `dialerIntent`.
@@ -433,55 +432,54 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 - \[ ]
 
-<!---->
-
-    buildTypes {
-    	debug {
-    		buildConfig 'boolean', 'ENABLE_ANALYTICS', 'false'
-    	}
-    	release {
-    		buildConfig 'boolean', 'ENABLE_ANALYTICS', 'true'
-    	}
+```
+  buildTypes {
+    debug {
+      buildConfig 'boolean', 'ENABLE_ANALYTICS', 'false'
     }
+    release {
+      buildConfig 'boolean', 'ENABLE_ANALYTICS', 'true'
+    }
+  }
+```
 
 - \[ ]
-
-<!---->
-
-    buildTypes {
-    	debug {
-    		buildConfig 'String', 'ENABLE_ANALYTICS', 'false'
-    	}
-    	release {
-    		buildConfig 'String', 'ENABLE_ANALYTICS', 'true'
-    	}
+```
+  buildTypes {
+    debug {
+      buildConfig 'String', 'ENABLE_ANALYTICS', 'false'
     }
+    release {
+      buildConfig 'String', 'ENABLE_ANALYTICS', 'true'
+    }
+  }
+```
 
 - \[x]
 
-<!---->
-
-    buildTypes {
-    	debug {
-    		buildConfigField 'boolean', 'ENABLE_ANALYTICS', 'false'
-    	}
-    	release {
-    		buildConfigField 'boolean', 'ENABLE_ANALYTICS', 'true'
-    	}
+```
+  buildTypes {
+    debug {
+      buildConfigField 'boolean', 'ENABLE_ANALYTICS', 'false'
     }
+    release {
+      buildConfigField 'boolean', 'ENABLE_ANALYTICS', 'true'
+    }
+  }
+```
 
 - \[ ]
 
-<!---->
-
-    buildTypes {
-    	debug {
-    		buildConfigField 'boolean', 'ENABLE_ANALYTICS', 'true'
-    	}
-    	release {
-    		buildConfigField 'boolean', 'ENABLE_ANALYTICS', 'false'
-    	}
+```
+  buildTypes {
+    debug {
+      buildConfigField 'boolean', 'ENABLE_ANALYTICS', 'true'
     }
+    release {
+      buildConfigField 'boolean', 'ENABLE_ANALYTICS', 'false'
+    }
+  }
+```
 
 #### Q35. Pour optimiser votre taille APK, quel codec d’image devez-vous utiliser?
 
@@ -503,34 +501,30 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 - \[ ]
 
-<!---->
+```xml
+  <androidx.constraintlayout.widget.ConstraintLayout
+  ...>
 
-    xml
-        <androidx.constraintlayout.widget.ConstraintLayout
-    	...>
+    <TextView
+      android:id="@+id/text_dashboard"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:padding="8dp"
+      android:textAlignment="center"
+      android:text="Dashboard"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
 
-    	<TextView
-    		android:id="@+id/text_dashboard"
-    		android:layout_width="match_parent"
-    		android:layout_height="wrap_content"
-    		android:layout_marginTop="16dp"
-    		android:padding="8dp"
-    		android:textAlignment="center"
-    		android:text="Dashboard"
-    		app:layout_constraintEnd_toEndOf="parent"
-    		app:layout_constraintStart_toStartOf="parent"
-    		app:layout_constraintTop_toTopOf="parent" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
+  </androidx.constraintlayout.widget.ConstraintLayout>
+```
 
 - \[x]
 
-<!---->
-
-    xml
-        <androidx.constraintlayout.widget.ConstraintLayout
+```xml
+  <androidx.constraintlayout.widget.ConstraintLayout
     	...>
-
     	<TextView
     		android:id="@+id/text_dashboard"
     		android:layout_width="match_parent"
@@ -543,14 +537,12 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
     		app:layout_constraintStart_toStartOf="parent"
     		app:layout_constraintTop_toTopOf="parent" />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
+  </androidx.constraintlayout.widget.ConstraintLayout>
+```
 - \[ ]
 
-<!---->
-
-    xml
-        <androidx.constraintlayout.widget.ConstraintLayout
+```xml
+  <androidx.constraintlayout.widget.ConstraintLayout
     	...>
 
     	<TextView
@@ -567,16 +559,14 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
     		app:layout_constraintStart_toStartOf="parent"
     		app:layout_constraintTop_toTopOf="parent" />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+  </androidx.constraintlayout.widget.ConstraintLayout>
+```
 
 - \[ ]
 
-<!---->
-
-    xml
-        <androidx.constraintlayout.widget.ConstraintLayout
+```xml
+  <androidx.constraintlayout.widget.ConstraintLayout
     	...>
-
     	<TextView
     		android:id="@+id/text_dashboard"
     		android:layout_width="match_parent"
@@ -590,57 +580,47 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
     		app:layout_constraintStart_toStartOf="parent"
     	/>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+  </androidx.constraintlayout.widget.ConstraintLayout>
+```
 
 #### Q38. Quel ensemble de sources est `_not_` disponible par défaut lorsqu’Android Studio crée un nouveau projet ?
 
-- \[ ] test
-- \[ ] androidTest
-- \[ ] application
-- \[x] principal
-
-#### Q39. Quelle définition empêchera d’autres applications d’accéder à votre `Activity` classe via un `intent`?
-
 - \[x]
 
-<!---->
-
-    xml
-    	<activity android:name=".ExampleActivity" />
-
-- \[ ]
-
-<!---->
-
-    xml
-    	<activity android:name=".ExampleActivity">
-    		<intent-filter>
-    			<action android:name="android.intent.action.SEND" />
-    		</intent-filter>
-    	</activity>
+```xml
+  <activity android:name=".ExampleActivity" />
+```
 
 - \[ ]
 
-<!---->
-
-    xml
-    	<activity android:name=".ExampleActivity">
-    		<intent-filter>
-    			<action android:name="android.intent.action.MAIN" />
-    			<category android:name="android.intent.category.LAUNCHER" />
-    		</intent-filter>
-    	</activity>
+```xml
+  <activity android:name=".ExampleActivity">
+    <intent-filter>
+      <action android:name="android.intent.action.SEND" />
+    </intent-filter>
+  </activity>
+```
 
 - \[ ]
 
-<!---->
+```xml
+  <activity android:name=".ExampleActivity">
+    <intent-filter>
+      <action android:name="android.intent.action.MAIN" />
+      <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+  </activity>
+```
 
-    xml
-    	<activity android:name=".ExampleActivity">
-    		<intent-filter>
-    			<action android:name="android.intent.action.VIEW" />
-    		</intent-filter>
-    	</activity>
+- \[ ]
+
+```xml
+  <activity android:name=".ExampleActivity">
+    <intent-filter>
+      <action android:name="android.intent.action.VIEW" />
+    </intent-filter>
+  </activity>
+```
 
 **Explication:** Les filtres d’intention sont utilisés pour rendre les activités accessibles à d’autres applications à l’aide d’intentions. Nous devons donc choisir des options qui n’ont pas de filtre d’intention pour s’assurer qu’elles ne sont pas accessibles par intention.
 
@@ -696,54 +676,50 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 - \[ ]
 
-<!---->
-
-    xml
-    	<shape xmlns:android-"http://schemas.android.com/apk/res/android"
-    	    android:shape-"oval">
-    	    <gradient
-                   android:startColor-"@android:color/white"
-                   android:endColor-"@android:color/black"
-                   android:angle-"45"/>
-    	</shape>
+```xml
+  <shape xmlns:android-"http://schemas.android.com/apk/res/android"
+      android:shape-"oval">
+      <gradient
+                android:startColor-"@android:color/white"
+                android:endColor-"@android:color/black"
+                android:angle-"45"/>
+  </shape>
+```
 
 - \[ ]
 
-<!---->
-
-    xml
-    	<rectangle xmlns:android-"http://schemas.android.com/apk/res/android">
-    	   <gradient
-    	      android:startColor-"@android:color/white"
-    	      android:endColor-"android:color/black"
-    	      android:angle-"135"/>
-    	</rectangle>
+```xml
+  <rectangle xmlns:android-"http://schemas.android.com/apk/res/android">
+      <gradient
+        android:startColor-"@android:color/white"
+        android:endColor-"android:color/black"
+        android:angle-"135"/>
+  </rectangle>
+```
 
 - \[x]
 
-<!---->
-
-    xml
-    	<shape xmlns:android-"http://schemas.android.com/apk/res/android"
-    	   android:shape-"rectangle">
-    	   <gradient
-    	      android:startColor-"@android:color/white"
-    	      android:endColor-"@android:color/black"
-    	      android:angle-"135"/>
-    	</shape>
+```xml
+  <shape xmlns:android-"http://schemas.android.com/apk/res/android"
+      android:shape-"rectangle">
+      <gradient
+        android:startColor-"@android:color/white"
+        android:endColor-"@android:color/black"
+        android:angle-"135"/>
+  </shape>
+```
 
 - \[ ]
 
-<!---->
-
-    xml
-    	<shape xmlns:android-"http://schemas.android.com/apk/res/android"
-    	   android:shape-"rectangle">
-    	   <gradient
-    	      android:startColor-"@android:color/white"
-    	      android:endColor-"@android:color/black"
-    	      android:angle-"98"/>
-    	</shape>
+```xml
+  <shape xmlns:android-"http://schemas.android.com/apk/res/android"
+      android:shape-"rectangle">
+      <gradient
+        android:startColor-"@android:color/white"
+        android:endColor-"@android:color/black"
+        android:angle-"98"/>
+  </shape>
+```
 
 #### Q47. Compte tenu de la ConstraintLayout ci-dessous, quelle instruction est vraie ?
 
@@ -756,21 +732,23 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 #### Q48. Compte tenu de ce snippey de code à partir d’un fichier build.gradle, quel choix n’est pas une variante de build possible ?
 
-    android {
-        ...
-        defaultConfig{...}
+ ```
+  android {
+      ...
+      defaultConfig{...}
 
-        buildTypes{
-        debug{...}
-        releasae{...}
-    }
+      buildTypes{
+      debug{...}
+      releasae{...}
+  }
 
-      flavorDimensions "environment"
-      productFlavors {
-         producation {...}
-         staging {...}
-      }
+    flavorDimensions "environment"
+    productFlavors {
+        producation {...}
+        staging {...}
     }
+  }
+```
 
 - \[ ] productionDébug.
 - \[x] developmentDebug.
@@ -813,53 +791,56 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 #### Q53. Compte tenu des dimens.xml fichier suivants, comment définiriez-vous un ImageView avec un espacement moyen en bas ?
 
-    <?xml version=1.0 encoding="utf-8"?>
-    <resources>
-        <dimen name="spacing_medium">8dp</dimen>
-        <dimen name="spacing_large">12dp</dimen>
-    </resources>
 
-- \[ ]
-
-<!---->
-
-    <ImageView
-       android:id=@+id/image_map_pin"
-       android:layout_width="wrap_content"
-       android:layout_heignt="wrap_content"
-       android:src=@drawable/map_pin />
-
-- \[ ]
-
-```<ImageView
-   android:id=@+id/image_map_pin"
-   android:layout_width="wrap_content"
-   android:layout_heignt="wrap_content"
-   androi:layout_botttom="@dimen/spacing_medium"
-   android:src=@drawable/map_pin />
+```xml
+<?xml version=1.0 encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">12dp</dimen>
+</resources>
 ```
 
 - \[ ]
 
-<!---->
+```xml
+  <ImageView
+      android:id="@+id/image_map_pin"
+      android:layout_width="wrap_content"
+      android:layout_heignt="wrap_content"
+      android:src=@drawable/map_pin />
+```
 
-    <ImageView
-       android:id=@+id/image_map_pin"
-       android:layout_width="wrap_content"
-       android:layout_heignt="wrap_content"
-       android:layout_marginBottom="@resources/spacing_medium"
-       android:src=@drawable/map_pin />
+- \[ ]
+
+```xml
+  <ImageView
+    android:id="@+id/image_map_pin"
+    android:layout_width="wrap_content"
+    android:layout_heignt="wrap_content"
+    androi:layout_botttom="@dimen/spacing_medium"
+    android:src=@drawable/map_pin />
+```
+
+- \[ ]
+
+```xml
+  <ImageView
+      android:id="@+id/image_map_pin"
+      android:layout_width="wrap_content"
+      android:layout_heignt="wrap_content"
+      android:layout_marginBottom="@resources/spacing_medium"
+      android:src=@drawable/map_pin />
 
 - \[x]
 
-<!---->
-
+```xml
     <ImageView
-       android:id=@+id/image_map_pin"
-       android:layout_width="wrap_content"
-       android:layout_heignt="wrap_content"
-       android:layout_marginBottom="@dimen/spacing_medium"
-       android:src=@drawable/map_pin />
+      android:id="@+id/image_map_pin"
+      android:layout_width="wrap_content"
+      android:layout_heignt="wrap_content"
+      android:layout_marginBottom="@dimen/spacing_medium"
+      android:src=@drawable/map_pin />
+```
 
 #### Q54. Quel n’est-ce pas un avantage de l’externalisation des ressources d’application telles que l’image et la chaîne à partir d’un code ?
 
@@ -870,17 +851,19 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 #### Q55. Quel est l’objectif principal de la ligne cinq de cet extrait de code ?
 
-    override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_post_create)
+```java
+  override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanceState) setContentView(R.layout.activity_post_create)
 
-    	if (savedInstanceState != null) return
+    if (savedInstanceState != null) return
 
-    	val fragment = CreatePostFragment()
-    		supportFragmentManager
-    		.beginTransaction()
-    		.add(R.id. fragment_container, fragment)
-    		.commit()
+    val fragment = CreatePostFragment()
+      supportFragmentManager
+      .beginTransaction()
+      .add(R.id. fragment_container, fragment)
+      .commit()
 
-    }
+  }
+```
 
 - \[ ] pour s’assurer que l’activité se termine lorsque savedInstanceState n’est pas null
 - \[x] pour s’assurer que l’activité crée un nouveau fragment chaque fois qu’elle est restaurée à partir d’un état précédent
@@ -948,16 +931,16 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 #### Q62. Quelle hiérarchie de mise en page est susceptible d’être dessinée le plus rapidement ?
 
 - \[x] A
-  ![img](https://i.imgur.com/mT08jag.png)
+  ![img](https://i.imgur.com/mT08jag.png?raw=png)
 
 - \[ ] B
-  ![img](https://i.imgur.com/rz9eKYc.png)
+  ![img](https://i.imgur.com/rz9eKYc.png?raw=png)
 
 - \[ ] C
-  ![img](https://i.imgur.com/ETaHhaS.png)
+  ![img](https://i.imgur.com/ETaHhaS.png?raw=png)
 
 - \[ ] D
-  ![img](https://i.imgur.com/1QBrTwR.png)
+  ![img](https://i.imgur.com/1QBrTwR.png?raw=png)
 
 #### Q63. Quelle est la méthode actuellement recommandée pour gérer les tâches en arrière-plan de longue durée ?
 
@@ -994,17 +977,18 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 #### Q67. Dans la ConstraintLayout ci-dessous, pourquoi le bouton ne se développerait-il pas pour remplir la largeur du parent ?
 
-        xml
-        <androidx.constraintlayout.widget.ConstrantLayout
-            ...>
-    	    <Button
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="Button"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+```xml
+  <androidx.constraintlayout.widget.ConstrantLayout
+      ...>
+    <Button
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:text="Button"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"/>
 
-        </androidx.constraintlayout.widget.ConstrantLayout>
+  </androidx.constraintlayout.widget.ConstrantLayout>
+```
 
 - \[ ] `The button does not have a size`
 - \[x] `The button is not constrained to the end of the parent container`
