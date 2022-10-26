@@ -1007,3 +1007,34 @@ References:
 - [ ] &&
 - [x] &
 - [ ] $
+
+#### Q78. The range of nice number in LINUX system is?
+
+- [ ] -20 to 0
+- [x] -20 to 19
+- [ ] 0 to 19
+- [ ] 10 to 10
+
+[Reference](https://man7.org/linux/man-pages/man2/nice.2.html)
+
+#### Q79. In Bash, what does this expression evaluate to?
+
+```
+echo $((4/3))
+```
+
+- [ ] 1.3
+- [ ] 1.3333333333
+- [x] 1
+- [ ] 2
+
+[Reference](https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-10.html)
+
+#### Q80. To keep a loop going until a certain condition becomes true, what would you likely use?
+
+- [ ] if
+- [ ] case
+- [x] while
+- [ ] for
+
+[Reference](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_02.html)

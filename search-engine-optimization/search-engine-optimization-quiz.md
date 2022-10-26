@@ -625,3 +625,136 @@
 - [ ] `<em>`
 
 [Reference](https://blog.hubspot.com/marketing/header-tags)
+
+#### Q76. What term is typically used to explain the shuffling of positions in search engine results in between significant updates?
+
+- [x] Flux
+- [ ] Waves
+- [ ] Swaying
+- [ ] Shuffling
+
+#### Q77. Which of the following declarations about FFA web pages are true?
+
+- [ ] They are paid listings.
+- [x] They are also called link farms.
+- [ ] They are significantly beneficial to search engine optimization.
+- [ ] They contain various inbound links.
+
+#### Q78. What is the generally approved distinction in between SEO and also SEM?
+
+- [ ] SEO refers to organic/natural listings while sem covers pay per click, or paid search.
+- [x] Search engine optimization focuses on organic/natural search positions, sem encompasses all facets of search marketing.
+- [ ] No difference, they're synonymous.
+- [ ] SEO has a tendency to be a west shore term, sem is much more eastern shore.
+
+#### Q79. Which of the following link building techniques do online search engine tacitly recommend?
+
+- [ ] Reciprocal link exchange programs.
+- [x] Viral content creation & promotion.
+- [ ] Renting out pages from trustworthy domains and also positioning web links on them.
+- [ ] Purchasing web links from web link brokers & networks.
+
+#### Q80. What is the full form of SEO?
+
+- [ ] Search Engine Optimum.
+- [x] Search Engine Optimization.
+- [ ] Search Electronic Optimization.
+- [ ] None of the above.
+
+#### Q81. Which of the following is the process of fetching all the web pages connected to a web site?
+
+- [ ] Indexing
+- [x] Crawling
+- [ ] Processing
+- [ ] All of the Above
+
+#### Q82. What does the 302 server response code signify?
+
+- [ ] It symbolizes dispute, way too many individuals desired the exact same documents at the same time.
+- [ ] The web page has actually been permanently removed.
+- [ ] The technique you are making use of to access the file is not allowed.
+- [x] The web page has actually temporarily moved.
+- [ ] What you requested is just also large to process.
+
+#### Q83. Which of the following declarations about RSS are proper?
+
+- [x] It is a form of XML.
+- [ ] It stands for Realtime streamlined syndication.
+- [ ] It is an excellent way of presenting static information.
+- [ ] It is a microsoft technology.
+
+#### Q84. Which of the following search engines or directories supplies the major search results for AOL?
+
+- [ ] Lycos
+- [ ] DMOZ
+- [x] Google
+- [ ] Yahoo
+
+#### Q85. Google gives priority to themed in-bound links.
+
+- [x] True
+- [ ] False
+
+#### Q86. Which of the following methods can help you get around the Google Sandbox?
+
+- [x] Buying an old Website as well as getting it ranked.
+- [ ] Buying a Google Adwords PPC campaign.
+- [ ] Placing the website on a sub domain of a ranked site and afterwards 301 re-directing the site after it has actually been indexed.
+- [ ] Getting a DMOZ listing.
+
+#### Q87. Google looks down upon paid links for enhancing page ranking. If a web site sells web links, what action/s does Google suggest to avoid being penalized?
+
+- [ ] The text of the paid links should state words "paid text link" for Google to recognize it as a paid web link.
+- [ ] Only Paid text web links to non profit websites should be accepted.
+- [x] Paid links need to be divulged via the "rel= nofollow" attribute in the hyperlink.
+- [ ] Paid links ought to be disclosed through the "index= nofollow" attribute in the hyperlink.
+
+#### Q88. What will take place if you type the word 'Certification-Python' in the Google search box?
+
+- [ ] Google will certainly locate the web pages about "certification" and additionally consisting of the word "python".
+- [ ] Google will certainly locate ALL the web pages having the word "Certification" and "Python".
+- [x] Google will locate ALL the web pages in which the words "Certification" and "Python" appear together.
+- [ ] Google will find the web pages about Certification that do not consist of the word Python.
+
+#### Q89. What is keyword density?
+
+- [ ] The number of times the keyword is utilized/ (separated by) the total word count on page-- (minus) the complete words in HTML on the page.
+- [ ] The variety of times the keyword is used x (multiply by) the total word count on web page.
+- [ ] The number of times the keyword is utilized in the page description.
+- [ ] The number of times the search phrase is used in the web page title.
+- [x] The number of times the keyword is used/ the total word count on the web page.
+
+#### Q90. Which of the following statement about FFA web pages hold true?
+
+- [ ] They are significantly beneficial to SEO.
+- [x] They are additionally called Link Farms.
+- [ ] They are Paid Listings.
+- [ ] They contain various incoming links.
+
+#### Q91. What elements of a hyperlink are not important for SEO?
+
+- [x] The exposure of the link text.
+- [ ] The anchor text, particularly the keywords in it.
+- [ ] The area from which the web link stems.
+- [ ] The location to which the link leads.
+
+#### Q92. Which of the technique is NOT an "ideal practice" for developing excellent quality title tags?
+
+- [ ] Make sure the title is unique for every page
+- [ ] Include an exhaustive list of keywords
+- [x] Limit the tag to 65 characters, including spaces
+- [ ] Write compelling copy that encourages users to “click” your listing
+
+#### Q93. Which HTTP web server reaction code suggests a file that no more exists? (File Not Found). 
+
+- [ ] 40A
+- [ ] 30A
+- [ ] 500
+- [x] 404
+
+#### Q94. What is Page Rank?
+
+- [ ] The Alexa modern technology for ranking web pages.
+- [ ] The means Yahoo! actions just how popular an offered web page is based on the number as well as quality of websites that connect to it.
+- [ ] The search significance of a web page contrasted to the other web pages in the online search engine.
+- [x] The method Google measures exactly how popular a provided page is based upon the number and also quality of sites that connect to it.

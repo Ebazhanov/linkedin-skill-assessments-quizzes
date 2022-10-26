@@ -497,3 +497,10 @@ FROM customers c;
 - [ ] QUERY; MAP JOIN Operator
 - [ ] EXPLAIN; MAP JOIN Operator
 - [ ] QUERY; JOIN Operator
+
+#### Q70. Pig operates in mainly how many nodes?
+
+- [x] Two
+- [ ] Three
+- [ ] Four
+- [ ] Five

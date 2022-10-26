@@ -566,3 +566,28 @@ Relevant excerpt from the article:
       ch <- r
       } ()
 - [ ] go ch <- worker(m)
+
+#### Q46. In this code, which names are exported?
+
+```
+package os
+
+type FilePermission int
+type userID int
+}
+```
+
+- [x] FilePermission
+- [ ] none of these answers
+- [ ] FilePermission and userID
+- [ ] userID
+
+[Reference 1](https://www.ardanlabs.com/blog/2018/11/goroutine-leaks-the-forgotten-sender.html)  
+[Reference 2](https://go.dev/tour/basics/3)
+
+#### Q47. Which of the following is correct about structures in Go?
+
+- [ ] Structure is another user defined data type available in Go programming, which allows you to combine data items of different kinds.
+- [ ] Structures are used to represent a record
+- [ ] To define a structure, you must use type and struct statements.
+- [x] All of the above

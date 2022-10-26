@@ -736,3 +736,19 @@ public class Honda extends Car{}
 - [x] Attributes describe a state; behaviours describe a change.
 - [ ] Attributes apply only to a specified object; behaviour apply to other linked objects.
 - [ ] Behaviours are vector quantities; attributes are scalars.
+
+#### Q97. How coupled should your classes be and why?
+
+- [ ] You should increase coupling to improve dependencies between classes.
+- [x] You should limit coupling to reduce dependencies between classes.
+- [ ] You should increase coupling so that class members relate to the class purpose.
+- [ ] You should limit coupling so that class members relate to the class objective.
+
+#### Q98. Which statement best describes a friend class?
+
+- [ ] Friend classes support base class when necessary.
+- [x] A friend class can access the private and protected members of the class in which it is declared as a friend.
+- [ ] Friend classes do not have any implementation.
+- [ ] A friend class can access only protected members of the class of which it is a friend.
+
+[Reference](https://www.simplilearn.com/tutorials/cpp-tutorial/friend-class-in-cpp/)

@@ -840,3 +840,39 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] $1
 - [x] $0
 - [ ] $9
+
+#### Q102. VirtualBox provides **\_**, which are installed on guests and allow the guest operating system to access shared folders on the host system, share the clipboard, and some other similar actions.
+
+- [ ] projects
+- [ ] guest configurations
+- [ ] SSHs
+- [x] guest additions
+
+#### Q103. Given an IP address of 199.83.131.0 and a subnet mask of 255.255.255.0, what is the broadcast address?
+
+- [ ] 199.83.131.1
+- [ ] 10 Downing Street
+- [ ] 199.83.131.0
+- [x] 199.83.131.255
+
+#### Q104. Which Linux command shows a list of processes associated with the current user and the current terminal?
+
+- [x] ps
+- [ ] ls
+- [ ] pidof
+- [ ] ps -e
+
+#### Q105. In a shell script, to create an infinite while loop, make the condition always return true by using the **\_** command for the while loop condition.
+
+- [ ] return
+- [ ] continue
+- [x] true
+- [ ] always
+
+#### Q106. In Linux, which option is used with the uname command to print the processor architecture name?
+
+- [x] -p
+- [ ] -arch
+- [ ] -ps
+- [ ] -pname
+

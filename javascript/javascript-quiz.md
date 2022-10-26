@@ -18,7 +18,7 @@
 
 [Reference Differences between forEach and for loop](https://www.geeksforgeeks.org/difference-between-foreach-and-for-loop-in-javascript/)
 
-#### Q3. Review the code below. Which statement calls the addTax function and passes 50 as an argument? How would you use this function to find out how much tax should be paid on \$50?
+#### Q3. Review the code below. Which statement calls the addTax function and passes 50 as an argument?
 
 ```js
 function addTax(total) {
@@ -375,7 +375,7 @@ dessert.type = 'pudding';
 #### Q25. 0 && hi
 
 - [ ] ReferenceError
-- [ ] True
+- [ ] true
 - [x] 0
 - [ ] false
 
@@ -383,10 +383,10 @@ dessert.type = 'pudding';
 
 #### Q26. Which of the following operators can be used to do a short-circuit evaluation?
 
-- [ ] `\++`
-- [ ] `\--`
-- [ ] `\==`
-- [x] `\|\|`
+- [ ] `++`
+- [ ] `--`
+- [ ] `==`
+- [x] `||`
 
 [Reference short circuit javascript](https://codeburst.io/javascript-what-is-short-circuit-evaluation-ff22b2f5608c)
 
@@ -517,10 +517,10 @@ let diff = function (x, y) {
 [] == [];
 ```
 
-- [ ] True
+- [ ] true
 - [ ] undefined
 - [ ] []
-- [x] False
+- [x] false
 
 [Reference arrays in js are objects](https://stackoverflow.com/questions/30820611/why-doesnt-equality-check-work-with-arrays)
 
@@ -822,7 +822,7 @@ printA();
 
 [Reference break vs continue](https://www.w3schools.com/js/js_break.asp)
 
-#### Q64. Which choice is valid example for an arrow function?
+#### Q64. Which choice is a valid example for an arrow function?
 
 - [x] `(a,b) => c`
 - [ ] `a, b => {return c;}`
@@ -1985,9 +1985,9 @@ console.log(json); //prints {"type": "tiger"}
 
 #### Q143. Which of the following are not server-side Javascript objects?
 
-- [ ] Date 
-- [ ] FileUpload 
-- [ ] Function 
+- [ ] Date
+- [ ] FileUpload
+- [ ] Function
 - [x] All of the above
 
 #### Q144. What will be the output of the following code snippet?
@@ -1997,30 +1997,30 @@ const obj1 = { first: 20, second: 30, first: 50 };
 console.log(obj1);
 ```
 
-- [ ] first: 30 , second: 50 
-- [x] first: 50 , second: 30 
-- [ ] first: 30 , second: 20 
+- [ ] first: 30 , second: 50
+- [x] first: 50 , second: 30
+- [ ] first: 30 , second: 20
 - [ ] None of the above
 
 #### Q145. Which object in Javascript doesn’t have a prototype?
 
-- [x] Base Object 
-- [ ] All objects have prototype 
-- [ ] None of the objects have prototype 
+- [x] Base Object
+- [ ] All objects have prototype
+- [ ] None of the objects have prototype
 - [ ] None of the above
 
 #### Q146. What does … operator do in JS?
 
-- [x] Used to spread iterables to individual elements 
-- [ ] Describe datatype of undefined 
-- [ ] No such operator exists 
+- [x] Used to spread iterables to individual elements
+- [ ] Describe datatype of undefined
+- [ ] No such operator exists
 - [ ] None of the above
 
 #### Q147. How to stop an interval timer in Javascript?
 
-- [x] clearInterval 
-- [ ] clearTimer 
-- [ ] intervalOver 
+- [x] clearInterval
+- [ ] clearTimer
+- [ ] intervalOver
 - [ ] None of the above
 
 #### Q148. What will be the output of the following code snippet?
@@ -2029,7 +2029,25 @@ console.log(obj1);
 print(typeof NaN);
 ```
 
-- [ ] Object 
-- [x] Number 
-- [ ] String 
+- [ ] Object
+- [x] Number
+- [ ] String
 - [ ] None of the above
+
+#### Q149. What will be the output of the following code snippet?
+
+```javascript
+<script type="text/javascript">a = 5 + "9"; document.write(a);</script>
+```
+
+- [ ] Compilation Error
+- [ ] 14
+- [ ] Runtime Error
+- [x] 59
+
+#### Q149. Which of the following methods can be used to display data in some form using Javascript?
+
+- [ ] document.write()
+- [ ] console.log()
+- [ ] window.alert()
+- [ ] all of the above

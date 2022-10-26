@@ -1326,7 +1326,7 @@ public class Main {
 
 **Explanation**: HashMap class implements Map interface.
 
-#### Q95. You have a variable of named `employees` of type `List<Employee>` containing multiple entries. The `Employee` type has a method `getName()` that returns te employee name. Which statement properly extracts a list of employee names?
+#### Q95. You have a variable of named `employees` of type `List<Employee>` containing multiple entries. The `Employee` type has a method `getName()` that returns the employee name. Which statement properly extracts a list of employee names?
 
 - [ ] `employees.collect(employee -> employee.getName());`
 - [ ] `employees.filter(Employee::getName).collect(Collectors.toUnmodifiableList());`
@@ -1429,8 +1429,8 @@ public class Berries{
 
     String berry = "blue";
 
-    public static void main( String[] args ) {
-        new Berries().juicy( "straw" );
+    public static void main(String[] args) {
+        new Berries().juicy("straw");
     }
     void juicy(String berry){
         this.berry = "rasp";
@@ -1472,11 +1472,11 @@ import java.util.List;
 
 class Main {
 
-    public static void main( String[] args ) {
-        List<String> list = new ArrayList<String>( Arrays.asList( "a", "b", "c" ) );
-        for( String value :list ){
-            if( value.equals( "a" ) ) {
-                list.remove( value );
+    public static void main(String[] args) {
+        List<String> list = new ArrayList<String>(Arrays.asList("a", "b", "c"));
+        for(String value :list) {
+            if(value.equals("a")) {
+                list.remove(value);
             }
         }
         System.out.println(list); // outputs [b,c]
@@ -1492,7 +1492,7 @@ class Main {
 #### Q106. How do you convert this method into a lambda expression?
 
 ```java
-public int square(int x){
+public int square(int x) {
     return x * x;
 }
 ```
@@ -1557,13 +1557,13 @@ public class MyClass implements MyInterface {
 #### Q108. What is the result of this program?
 
 ```java
-interface Foo{
+interface Foo {
     int x = 10;
 }
 
 public class Main{
 
-    public static void main( String[] args ) {
+    public static void main(String[] args) {
         Foo.x = 20;
         System.out.println(Foo.x);
     }
@@ -1604,14 +1604,14 @@ System.out.println(false || false && true);
 
 ```java
 List<String> list1 = new ArrayList<>();
-list1.add( "One" );
-list1.add( "Two" );
-list1.add( "Three" );
+list1.add("One");
+list1.add("Two");
+list1.add("Three");
 
 List<String> list2 = new ArrayList<>();
-list2.add( "Two" );
+list2.add("Two");
 
-list1.remove( list2 );
+list1.remove(list2);
 System.out.println(list1);
 ```
 
@@ -2061,10 +2061,10 @@ Queue<Rainfall>
 
 #### Q143. When you pass an object reference as an argument to a method call what gets passed?
 
-- [ ]a reference to a copy
-- [ ]a copy of the reference
-- [ ]the object itself
-- [x]the original reference
+- [ ] a reference to a copy
+- [ ] a copy of the reference
+- [ ] the object itself
+- [x] the original reference
 
 #### Q144. Which choice demonstrates a valid way to create a reference to a static function of another class?
 
@@ -2146,3 +2146,155 @@ Queue<Rainfall>
 - [ ] Interface
 - [ ] Predicate
 - [x] Function
+
+#### Q154. What code is needed at line 8?
+
+```java
+1: class Main {
+
+2:      public static void main(String[] args) {
+
+3:          Map<String, Integer> map = new HashMap<>();
+4:          map.put("a", 1);
+5:          map.put("b", 2);
+6:          map.put("c", 3);
+
+7:          int result = 0;
+
+8:
+9:              result += entry.getValue();
+10:         }
+
+11:         System.out.println(result); // outputs 6
+12:     }
+13: }
+```
+
+- [ ] for(MapEntry<String, Integer> entry: map.entrySet()) {
+- [ ] for(String entry: map) {
+- [ ] for(Integer entry: map.values()) {
+- [x] for(Entry<String, Integer> entry: map.entrySet()) {
+
+#### Q155. What will print when Lambo is instantiated?
+
+```java
+class Car {
+    String color = "blue";
+}
+
+class Lambo extends Car {
+    String color = "white";
+
+    public Lambo() {
+        System.out.println(super.color);
+        System.out.println(this.color);
+        System.out.println(color);
+    }
+}
+```
+
+- [x] blue
+      white
+      white
+- [ ] blue
+      white
+      blue
+- [ ] white
+      white
+      white
+- [ ] white
+      white
+      blue
+
+### Q156. Which command will run a FrogSounds app that someone emailed to you as a jar?
+
+- [ ] jar FrogSounds.java
+- [ ] javac FrogSounds.exe
+- [ ] jar cf FrogSounds.jar
+- [x] java -jar FrogSounds.jar
+
+#### Q157. What is the default value of short variable?
+
+- [x] 0
+- [ ] 0.0
+- [ ] null
+- [ ] undefined
+
+#### Q158. What will be the output of the following Java program?
+	
+```java
+class variable_scope {
+	public static void main(String args[]) 
+        {
+            int x;
+            x = 5;
+            {
+	        int y = 6;
+	        System.out.print(x + " " + y);
+            }
+            System.out.println(x + " " + y);
+        }
+}
+```
+	
+- [x] Compilation Error
+- [ ] Runtime Error
+- [ ] 5 6 5 6
+- [ ] 5 6 5
+	
+#### Q159. Subclasses of an abstract class are created using the keyword _____.
+
+- [x] extends
+- [ ] abstracts
+- [ ] interfaces
+- [ ] implements
+	
+[Reference See An Abstract Class Example ](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)
+	
+#### Q160. Which keyword would not be allowed here?
+	
+```
+class Unicorn {
+_____ Unicorn(){}
+}
+```
+- [ ] public
+- [ ] static
+- [ ] protected
+- [x] void
+
+Explaination : A constructor cannot have a return type (not even a void return type).
+	
+#### Q161. What language feature do these expressions demonstrate?
+```
+System.out::println
+Doggie::fetch
+```
+- [X] method references
+- [ ] bad code
+- [ ] condensed invocation
+- [ ] static references
+	
+[Reference](https://stackoverflow.com/questions/31020269/what-is-the-use-of-system-outprintln-in-java-8)	
+		
+#### Q162. What will be the output of the following program?
+
+```java
+import java.util.Formatter;
+public class Course {
+    public static void main(String[] args) {
+        Formatter data = new Formatter();
+        data.format("course %s", "java ");
+        System.out.println(data);
+        data.format("tutorial %s", "Merit campus");
+        System.out.println(data);
+    }
+}
+```
+- [ ] course java
+      tutorial Merit campus
+- [x] course java
+      course java tutorial Merit campus
+- [ ] Compilation Error
+- [ ] Runtime Error
+	

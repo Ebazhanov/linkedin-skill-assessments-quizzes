@@ -1094,6 +1094,27 @@ Table name: superheroes
 #### Q114. With MySQL, how do you select all the records from a table named "Persons" where the "LastName" is alphabetically between (and including) "Hansen" and "Pettersen"?
 
 - [ ] `SELECT LastName>'Hansen' AND LastName<'Pettersen' FROM Persons`
-- [ ] `SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'`
+- [x] `SELECT * FROM Persons WHERE LastName BETWEEN 'Hansen' AND 'Pettersen'`
 - [ ] `SELECT * FROM Persons WHERE LastName>'Hansen' AND LastName<'Pettersen'`
 - [ ] `None of the above.`
+
+[Reference](https://www.w3schools.com/mysql/mysql_between.asp)
+
+#### Q115. Consider the set of relations given below and the SQL query that follows
+
+        Students : (Roll number, Name, Date of birth)
+        Courses: (Course number, Course name, instructor)
+        Grades: (Roll number, Course number, Grade)
+        SELECT DISTINCT Name
+        FROM Students, Courses, Grades
+        WHERE Students.Roll_number = Grades.Roll_number
+        AND Courses.Instructor =Sriram
+        AND Courses.Course_number = Grades.Course_number
+        AND Grades.Grade = A
+     
+   (Which of the following sets is computed by the above query?)
+   
+- [ ] Names of Students who have got an A grade in all courses taught by Sriram
+- [ ] Names of Students who have got an A grade in all courses
+- [x] Names of Students who have got an A grade in at least one of the courses taught by Sriram
+- [ ] None of the above

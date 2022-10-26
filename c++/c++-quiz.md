@@ -1435,3 +1435,34 @@ return 0;
 - [ ] `<limit>`
 - [x] `<limits>`
 - [ ] `<implementation>`
+
+#### Q91. What is a default constructor?
+
+- [ ] a constructor that can be used with no arguments
+- [x] a contructor that does not have a return value
+- [ ] a constructor that is used by multiple classes
+- [ ] a constructor that initializes all members of a class
+
+#### Q92. When protecting a header file, why would you use '#pragma once' instead of 'include' guard?
+
+- [ ] There is no reason to choose because they serve different purposes
+- [ ] An include guard uses a macro to achieve single inclusion, but the compiler cannot prevent the programmer from defining that macro elsewhere, which would result in no inclusion at all
+      defining that macro elsewhere, which would result in no inclusion at all
+- [x] '#pragma once' guarantees that the header code will never be changed because it is enforced by the compiler
+- [ ] Include guards refer to the header file in the file system, not to the code, so they are not helpful if the header file exists
+      more than once in a project. This is not a problem with '#pragma once'
+      
+ #### Q93. Which of the following statement is valid?
+
+- [ ] We can create new c++ operator.
+- [ ] We can change the precedence of the c++ operator.
+- [x] We can not change the operator templates.
+- [ ] We can change the associativity of the c++ operators.
+
+#### Q94. Which of the followings is/are automatically added to every class, if we do not write our own?
+
+- [ ] Copy Constructor
+- [ ] Assignment Operator
+- [ ] A constructor without any parameter
+- [x] All of the above
+

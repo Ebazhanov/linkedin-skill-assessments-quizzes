@@ -148,3 +148,21 @@ Source: This is in practice mode
 - [x] Click Preference > General > Project Handling > Startup Action and select the action of you choice
 
 [Source](https://support.apple.com/guide/logicpro/project-handling-preferences-lgcp43defb63/mac)
+
+#### Q17. When you open and work in a stock project template, such as Electronic what happens when you click Save?
+
+- [ ] You will lose your changes
+- [ ] You are focred to use a new project name, since you cannot save over a template.
+- [x] You can save over the template
+- [ ] You create a new template
+
+[Source](https://support.apple.com/guide/logicpro/save-projects-lgcpce128e82/mac)
+
+#### Q18. How do you split a region in the location where your playhead is?
+
+- [ ] Press Command+T
+- [x] Select Window > Split Region
+- [ ] Press Command+R
+- [ ] all of these answers
+
+[Source](https://logicpro.skydocu.com/en/create-a-song-arrangement/arrange-regions-in-the-tracks-area/split-regions/)

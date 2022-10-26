@@ -1257,9 +1257,9 @@ void change(int x,int y)
 }
 ```
 
-- [x] 10,20 
-- [ ] 10,10 
-- [ ] 20,20 
+- [x] 10,20
+- [ ] 10,10
+- [ ] 20,20
 - [ ] 20,10
 
 **Explanation :** The function "change" will change the value of x and y only within its own scope, so a and is unaffected.
@@ -1268,3 +1268,68 @@ void change(int x,int y)
 
 - [x] True
 - [ ] False
+
+#### Q86. What does the following fragment of C-program print?
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    char c[] = "GATE2011";
+
+    char *p = c;
+
+    printf("%s", p + p[3] -p[1]);
+
+    return 0;
+}
+```
+
+- [ ] GATE 2011
+- [ ] E2011
+- [x] 2011
+- [ ] 01
+
+**Explanation :** char c[ ] = "GATE2011";since char \*p =c it means p represents to the base address of string “GATE2011” SO p[3] is 'E' and p[1] is 'A'. Value of Sub expression p[3] – p[1] = ASCII value of ‘E’ – ASCII value of ‘A’ = 4. So the expression p + p[3] – p[1] becomes ( p + 4) And (p+4) represent to base address of string “2011” printf(“%s”, p + p[3] – p[1]) ; So it will print 2011
+
+#### Q87. What is the output of the following code snippet?
+
+```c
+int main() {
+	int a = 5, b = 6, c;
+	c = a++ + ++b;
+	printf("%d %d %d", a, b, c);
+	return 0;
+}
+```
+
+- [ ] 5 6 11
+- [x] 6 7 12
+- [ ] 5 6 12
+- [ ] 6 6 12
+
+#### Q88. What will be the output of the following C program segment? 
+
+```c
+char inchar = 'A';
+switch (inchar)
+{
+case 'A' :
+	printf ("choice A \n") ;
+case 'B' :
+	printf ("choice B ") ;
+case 'C' :
+case 'D' :
+case 'E' :
+default:
+	printf ("No Choice") ;
+}
+
+```
+- [ ]  No choice 
+- [ ] Choice A 
+- [x] Choice A 
+      Choice B No choice 
+- [ ] Program gives no output as it is erroneous
+ 

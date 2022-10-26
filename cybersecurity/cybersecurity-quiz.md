@@ -756,7 +756,7 @@ What are the primary goals of the digital signature in this scenario? (Choose th
 - [x] ARP spoofing
 - [ ] DDoS
 
-#### Q99. You are part of of an incident response team at your company. While sifting through log files collected by a SIEM, you discover some suspicious log entries that you want to investigate further. Which type of the following best refers to those recorded activities demanding additional scrutiny?
+#### Q99. You are part of an incident response team at your company. While sifting through log files collected by a SIEM, you discover some suspicious log entries that you want to investigate further. Which type of the following best refers to those recorded activities demanding additional scrutiny?
 
 - [ ] attack
 - [ ] information
@@ -990,3 +990,33 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] A DDoS bot
 - [ ] A network packet capturing device
 - [x] a SQL injection flaw
+
+#### Q129. The algorithm used by an encryption technique to hide information is known as the **\_**.
+
+- [x] cipher
+- [ ] XOR
+- [ ] encoding
+- [ ] cyber kill chain
+
+#### Q130. Which of these is not an issue that could arise as a result of outsourcing software development?
+
+- [ ] The accidental or deliberate introduction of malicious code.
+- [ ] The loss of intellectual property or trade secrets.
+- [ ] Legal disputes could develop between the customer and the supplier.
+- [x] The laws on the protection of data do not apply to information sent to a third party.
+
+#### Q131. A **\_** hat is a hacker who may not operate according to ethical testing standards, but does not have malicious intent.
+
+- [x] gray
+- [ ] blue
+- [ ] red
+- [ ] purple
+
+#### Q132. Understanding that multifactor authentication (MFA) is a best practice, which option should be avoided as a secondary authentication factor in MFA whenever possible?.
+
+- [ ] biometric authentication
+- [ ] OAUTH Token
+- [ ] authenticator apps
+- [x] SMS message
+
+[Reference](https://www.zdnet.com/article/fbi-warns-about-attacks-that-bypass-multi-factor-authentication-mfa/) `"(...)All in all, MFA is still very effective at preventing most mass and automated attacks; however, users should be aware that there are ways to bypass some MFA solutions, such as those relying on SMS-based verification."`
