@@ -46,7 +46,7 @@
 
 #### Q7. How can you create a direct relationship between two layer properties?
 
-- [ ] Use the pick whip to enable Parenting.
+- [x] Use the pick whip to enable Parenting.
 - [ ] Use grouping.
 - [ ] Use Value Linking.
 - [ ] Use the pick whip to enable Connecting.
@@ -91,7 +91,7 @@
 
 - [ ] Adjust the Black Clip property.
 - [ ] Increase the Blend with Original property.
-- [ ] Increase the Temporal Smoothing property.
+- [x] Increase the Temporal Smoothing property.
 - [ ] Adjust the White Clip property.
 
 #### Q14. Which type of light is used in this scene?
@@ -104,7 +104,7 @@
 #### Q15. Which effect recovers alpha-channel detail from a scene keyed by a typical keying effect, including recovering detail lost due to compression artifacts?
 
 - [ ] Keying > Advanced Spill Suppressor
-- [ ] Keying > Key Cleaner
+- [x] Keying > Key Cleaner
 - [ ] Keying > Extract
 - [ ] Keying > Keylight (1.2)
 
