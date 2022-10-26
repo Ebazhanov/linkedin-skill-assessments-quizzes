@@ -718,12 +718,13 @@ public int Password
 
 #### Q67. How would you access the last two people in an array named People?
 
-- [x] `People[..^2]`
+- [ ] `People[..^2]`
 - [ ] `You cannot do this in C#.`
 - [ ] `People[..^3]`
 - [ ] `People[^2]`
 
-[Official Documentation: Ranges](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-8.0/ranges)
+Explain: You **can** do this in C#. However, none of the above answers are correct. You could access the last two items by using `People[^2..]`. Please see [issue #3354](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/3354) for more information.
+See also: [Official Documentation: Ranges](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/proposals/csharp-8.0/ranges)
 
 #### Q68. When can anonymous types be created?
 
