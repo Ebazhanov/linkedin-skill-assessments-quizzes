@@ -610,7 +610,7 @@ public class Honda extends Car{}
 #### Q79. In the context of OOP, what is composition?
 
 - [ ] Composition is the act of one object passing to another object an operation to be performed on behalf of the initial object.
-- [x] Composition is a part/hole relationship where an object is composed of one or more other objects, each of which is considered a part of the whole.
+- [x] Composition is a part/whole relationship where an object is composed of one or more other objects, each of which is considered a part of the whole.
 - [ ] Composition is a binding where the class/name association is not made until the object designated by the name is created at execution time
 - [ ] Composition is a process of collecting classes that provide a set of services for a particular domain
 
