@@ -79,7 +79,7 @@
 - [ ] The team demonstrates its completed work.
 - [x] The team reflects on how to improve its performance.
 - [ ] Items in the backlog may be reprioritized.
-- [ ] Stakeholders give feedback about the work completed.
+- [ ] Stakeholders ask questions about the completed and upcoming backlog items.
 
 #### Q12. What is not a technique used for splitting user stories?
 
@@ -530,7 +530,7 @@
 
 - [ ] It is an inventory of the team's knowledge and skills that is used to plan the work that they do.
 - [ ] It is the number of teams that a Team Facilitator can support concurrently.
-- [ ] It is an adjustment to velocity, used in Spring Planning, to account for reduced availability of team members during the upcoming sprint.
+- [ ] It means the team determines their avalaibility for the next sprint.
 - [x] It is the maximum number of stories that will be allowed in a sprint.
 
 #### Q75. The team is complaining that they send request for clarification to the Product Owner, but these requests go unanswered. What action should you take?
@@ -952,3 +952,26 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] verifiable
 - [ ] veracity
 - [ ] voluminous
+
+#### Q131. Having a mindset focused on growth and opportunity is healty for Agile team members. How can you display a growth mindset?
+
+- [x] See challenges as opportunities
+- [ ] Point out the failures of others
+- [ ] Quit while you're ahed
+- [ ] Celebrate only when you succeed
+
+#### Q132. The Scaled Agile Framework advocates that, if you measure only one thing, what should you measure?
+
+- [x] cost of delay
+- [ ] return on investment
+- [ ] quality
+- [ ] predictability of delivery
+
+#### Q133. Which statement about the Agile Manifesto is true?
+
+- [ ] It was written via crowdsourcing and its authors are unknown
+- [ ] It was written in 2001 and is obsolete.
+- [x] It was written in response to documentation-heavy software development project practices.
+- [ ] It was first published as part of Jim Highsmith's doctoral thesis.
+
+[Reference](https://agilemanifesto.org/history.html) `"(...)others sympathetic to the need for an alternative to documentation driven, heavyweight software development processes convened." [First paragraph]`

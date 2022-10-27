@@ -1308,3 +1308,28 @@ int main() {
 - [x] 6 7 12
 - [ ] 5 6 12
 - [ ] 6 6 12
+
+#### Q88. What will be the output of the following C program segment? 
+
+```c
+char inchar = 'A';
+switch (inchar)
+{
+case 'A' :
+	printf ("choice A \n") ;
+case 'B' :
+	printf ("choice B ") ;
+case 'C' :
+case 'D' :
+case 'E' :
+default:
+	printf ("No Choice") ;
+}
+
+```
+- [ ]  No choice 
+- [ ] Choice A 
+- [x] Choice A 
+      Choice B No choice 
+- [ ] Program gives no output as it is erroneous
+ 
