@@ -610,7 +610,7 @@ public class Honda extends Car{}
 #### Q79. In the context of OOP, what is composition?
 
 - [ ] Composition is the act of one object passing to another object an operation to be performed on behalf of the initial object.
-- [x] Composition is a part/hole relationship where an object is composed of one or more other objects, each of which is considered a part of the whole.
+- [x] Composition is a part/whole relationship where an object is composed of one or more other objects, each of which is considered a part of the whole.
 - [ ] Composition is a binding where the class/name association is not made until the object designated by the name is created at execution time
 - [ ] Composition is a process of collecting classes that provide a set of services for a particular domain
 
@@ -693,35 +693,28 @@ public class Honda extends Car{}
 - [ ] planet : moon
 - [x] truck : window
 
-#### Q91. Which relationship best illustrates an abstract-concrete class relationship?
-
-- [ ] only the amount of levels memory permits, divided by processor speed
-- [ ] only 10 levels of inheritance
-- [x] as many levels of inheritance as required
-- [ ] as many levels of inheritance as required within 10 minutes
-
-#### Q92. What cannot be used for polymorphism?
+#### Q91. What cannot be used for polymorphism?
 
 - [ ] overloading constructors
 - [ ] overloading member functions
 - [x] static member functions
 - [ ] overloading predefined operator
 
-#### Q93. How many levels does multilevel inheritance allow in a program?
+#### Q92. How many levels does multilevel inheritance allow in a program?
 
 - [ ] only 10 levels of inheritance
 - [ ] as many levels of inheritance as required within 10 minutes
 - [ ] as many levels of inheritance as required
 - [x] only the amount of levels memory permits, divided by processor speed
 
-#### Q94. What is a virtual Method?
+#### Q93. What is a virtual Method?
 
 - [x] a method that you expect may be redefined in derived classes
 - [ ] a method that you do not expect to be redefined in derived classes
 - [ ] a private method that you do not expect to be redefined in derived public classes
 - [ ] a method that exists temporarily - once used, it ceases to be used by any caller
 
-#### Q95. Which of these is not a basic principle of Object Oriented Programming?
+#### Q94. Which of these is not a basic principle of Object Oriented Programming?
 
 - [ ] Encapsulation
 - [x] Compilation
@@ -730,9 +723,25 @@ public class Honda extends Car{}
 
 [Reference](https://www.interviewbit.com/blog/principles-of-oops/)
 
-#### Q96. How do object behaviour and attributes differ?
+#### Q95. How do object behaviour and attributes differ?
 
 - [ ] Behaviour describe dynamic properties; attributes are static.
 - [x] Attributes describe a state; behaviours describe a change.
 - [ ] Attributes apply only to a specified object; behaviour apply to other linked objects.
 - [ ] Behaviours are vector quantities; attributes are scalars.
+
+#### Q96. How coupled should your classes be and why?
+
+- [ ] You should increase coupling to improve dependencies between classes.
+- [x] You should limit coupling to reduce dependencies between classes.
+- [ ] You should increase coupling so that class members relate to the class purpose.
+- [ ] You should limit coupling so that class members relate to the class objective.
+
+#### Q97. Which statement best describes a friend class?
+
+- [ ] Friend classes support base class when necessary.
+- [x] A friend class can access the private and protected members of the class in which it is declared as a friend.
+- [ ] Friend classes do not have any implementation.
+- [ ] A friend class can access only protected members of the class of which it is a friend.
+
+[Reference](https://www.simplilearn.com/tutorials/cpp-tutorial/friend-class-in-cpp/)

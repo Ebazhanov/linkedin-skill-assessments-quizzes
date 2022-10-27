@@ -28,7 +28,7 @@
 #### Q4. You want a clock and countdown timer to display, only to you, while you're giving your Keynote presentation. How do you configure this?
 
 - [ ] Click **Play > Customize Presenter Display**.
-- [ ] Click **Keynote > Preferences**, then select the **Remote** tab.
+- [x] Click **Keynote > Preferences**, then select the **Remote** tab.
 - [ ] Click **Keynote > Preferences**, then select the **Slideshow** tab.
 - [ ] Click **Play > Rehearse Slideshow**.
 
@@ -54,8 +54,8 @@ E. Press the Down Arrow key.
 
 #### Q7. What type of chart can you manipulate during a presentation to change the information that is displayed?
 
-- [ ] 2D
-- [ ] 3D
+- [x] 2D
+- [x] 3D
 - [ ] Interactive
 - [ ] Live Data
 
