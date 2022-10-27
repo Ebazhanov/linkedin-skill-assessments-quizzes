@@ -366,7 +366,7 @@
 
 #### Q49. You want to add a column to the PivotTable below that shows a 5% bonus for each sales rep. That data does not exists in the original data table. How can you do this without adding more data to the table?
 
-![image](images/Q54.png)
+![image](images/Q54.png?raw=png)
 
 - [ ] Add a new PivotTable field.
 - [ ] Add a calculated item
@@ -375,7 +375,7 @@
 
 #### Q50. You need to determine the commission earned by each Sales rep, based on the Sales amount in B3:B50 and the Commission rate specified in cell A1. You want to enter a formula in C3 and copy it down to C50. Which formula should you use?
 
-![image](images/Q55.png)
+![image](images/Q55.png?raw=png)
 
 - [ ] =A1\*$B3
 - [ ] =A1\*B3
@@ -412,7 +412,7 @@
 
 #### Q55. Which function, when entered into cell G7, allows you to determine the sum total of annual sles for market regions 18 and greater?
 
-![image](images/Q60.png)
+![image](images/Q60.png?raw=png)
 
 - [ ] `=SUMIF(G2:G6,">17",F2:F6)`
 - [ ] `=SUM(G2:G6,">=18,F2:F6)`
@@ -421,7 +421,7 @@
 
 #### Q56. Which function, when entered into cell F2 and then dragged to cell F6, returns the performance rating text (e.g., "Good", "Poor") for each representative?
 
-![image](images/Q61.png)
+![image](images/Q61.png?raw=png)
 
 - [x] `=RIGHT(E2,LEN(E2)-27)`
 - [ ] `=LEN(E2,MID(E2)-27)`
@@ -442,7 +442,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 #### Q58. Which VLOOKUP function, when entered into cell L2 and then dragged to cell L5, returns the average number of calls for the representative IDs listed in column J?
 
-![image](images/Q63.png)
+![image](images/Q63.png?raw=png)
 
 - [ ] `=VLOOKUP(A2,J2:L5,1,FALSE)`
 - [ ] `=VLOOKUP(J2,A$2:C$7,1,FALSE)`
@@ -462,7 +462,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 #### Q60. Which value is returned when you enter `=LEN(C3)` into cell F3?
 
-![image](images/Q65.png)
+![image](images/Q65.png?raw=png)
 
 - [ ] 4
 - [x] 5
@@ -471,7 +471,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 #### Q61. How can you create the lower table from the top one when the tables are `not` linked?
 
-![image](images/Q66.png)
+![image](images/Q66.png?raw=png)
 
 - [ ] Select `Paste Special > Values.`
 - [x] Select `Paste Special > Transpose.`
@@ -489,7 +489,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 #### Q63. Which formula, when entered into cell D2 and then dragged to cell D6, calculates the average total number of minutes spent on phone calls for each representative?
 
-![image](images/Q68.png)
+![image](images/Q68.png?raw=png)
 
 - [ ] `=B$2*C$2`
 - [ ] `=$C$2/$B$2`
@@ -498,7 +498,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 #### Q64. The PivotTable below has one row field and two column fields. How can you pivot this table to show the column fields as subtotals of each value in the row field?
 
-![image](images/Q69.png)
+![image](images/Q69.png?raw=png)
 
 - [ ] On the PivotTable itself, drag each `Average` field into the row fields area.
 - [ ] Right-click a cell in the PivotTable and select `PivotTable Options > Classic PivotTable layout`.
@@ -509,7 +509,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 #### Q65. Which Excel feature allows you to hide rows or columns with an easily visible expand/collapse?
 
-![image](images/Q70.png)
+![image](images/Q70.png?raw=png)
 
 - [x] grouping
 - [ ] filtering
@@ -518,7 +518,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 #### Q66. Monthly revenues of 2019 are entered in B2:M2, as shown below, To get year-to-date running total revenues, what formula should you enter in B3 and autofill through M3?
 
-![image](images/Q71.png)
+![image](images/Q71.png?raw=png)
 
 - [ ] `=SUMIF($B$2:$M$2,"COLUMN($B$2:$M$2)<=COLUMN())")`
 - [x] `=SUM($B2:B2)`
@@ -538,7 +538,7 @@ Table[Column] can be used instead of cell references (C2:C7).
 
 #### Q68. In the worksheet shown below, cell C6 contains the `formula=VLOOKUP(A6,$F$2:$G$10,2,FALSE)`. What is the most likely reason that `#N/A` is returned in cell `C6` instead of mallory's `ID (2H54)`
 
-![image](https://user-images.githubusercontent.com/23659530/179216823-1ac09896-4807-4bd6-a352-637df79e7b36.png)
+![image](https://user-images.githubusercontent.com/23659530/179216823-1ac09896-4807-4bd6-a352-637df79e7b36.png?raw=png)
 
 - [ ] The absolute/relative cell references in the formula are wrong
 - [ ] Cell A6 is not actualy text its a formula that need to be copied and pasted as a value
@@ -720,7 +720,7 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 
 #### Q86. What happens if you use the **AutoSum** button in cell H4?
 
-![image](images/Q94.png)
+![image](images/Q94.png?raw=png)
 
 - [ ] AutoSum shows the total in the bottom-right of the page
 - [ ] AutoSum will total the numbers in cells B4:G8
@@ -729,7 +729,7 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 
 #### Q87. To create this PivotTable, drag the _ field to the Rows area and the _ field to the Values area?
 
-![image](images/Q95.png)
+![image](images/Q95.png?raw=png)
 
 - [ ] Total Sales This Year; Total Sales This Year
 - [ ] Total Sales This Year; Market Region
@@ -746,7 +746,7 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 
 #### Q89. Which value is calculated when the formula **=AVERAGE(G2:G6)/AVERAGE(C2:C6)** is entered into cell H7?
 
-![image](images/Q97.png)
+![image](images/Q97.png?raw=png)
 
 - [ ] average number of minutes per call
 - [ ] average annual sales per minute
@@ -762,7 +762,7 @@ https://sfmagazine.com/post-entry/may-2020-excel-sharing-a-pivot-table-slicer-be
 
 #### Q91. How do you create a heatmap in a table, such as this one, which is responsive to the values?
 
-![image](images/Q99.png)
+![image](images/Q99.png?raw=png)
 
 - [ ] map chart
 - [x] color scales (within conditional formatting)
@@ -780,7 +780,7 @@ Alignment** tab, click**\_\*\*.
 
 #### Q93. In the worksheet below, what do the symbols in rows 4, 6, 7, and 11 indicate?
 
-![image](images/Q101.png)
+![image](images/Q101.png?raw=png)
 
 - [ ] The dates are erroneous, such as October 39, 2015.
 - [x] The columns aren't wide enough to show the full date.
@@ -789,7 +789,7 @@ Alignment** tab, click**\_\*\*.
 
 #### Q94. You are determining `%` growth by dividing Growth by Sales. Which Excel function would you use to avoid #DIV/0! errors?
 
-![image](images/Q102.png)
+![image](images/Q102.png?raw=png)
 
 - [x] IFERROR
 - [ ] ROUND
@@ -825,7 +825,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q98. In this worksheet, how are cells A2:D2 related to cell C4?
 
-![image](images/Q106.png)
+![image](images/Q106.png?raw=png)
 
 - [ ] Cells A2:D2 are comments relating to the formula in cell C4.
 - [ ] Cells A2:D2 are the source of an error in the formula in cell C4.
@@ -834,7 +834,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q99. What is the name given to the numbers in or above each bar in a column chart, as shown?
 
-![image](images/Q107.png)
+![image](images/Q107.png?raw=png)
 
 - [ ] data table
 - [ ] data numbers
@@ -896,7 +896,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q107. How can you see the data in column E?
 
-![image](images/Q112.png)
+![image](images/Q112.png?raw=png)
 
 - [ ] Close the workbook without saving and reopen it.
 - [ ] Turn off conditional formatting.
@@ -905,7 +905,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q108. In the worksheet below, a table called Projects extends from cell A1 to D10. Cell D1 contains the text Status. Cell E12 contains the formula =Projects[@Status]. What does this formula return?
 
-![image](images/Q113.png)
+![image](images/Q113.png?raw=png)
 
 - [ ] #VALUE!
 - [ ] a blank cell
@@ -914,7 +914,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q109. Which Excel feature allows you to select all cells in the column with inconsistent formulas compared to the rest of the column?
 
-![image](images/Q114.png)
+![image](images/Q114.png?raw=png)
 
 - [x] On the Home tab, click Go To > Special > Column differences.
 - [ ] On the Formulas tab, click Trace precedents.
@@ -941,7 +941,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q112. Given the image below, what happens if you type "P" in cell A6?
 
-![image](images/Q117.png)
+![image](images/Q117.png?raw=png)
 
 - [ ] The word "Perez" appears and immediately the active cell moves down.
 - [x] The word "Perez" appears and the active cell remains in Edit mode.
@@ -984,7 +984,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q117. In cell C2, how would you limit the user to choosing one of the company's five regions(East, Central, North, South, West)?
 
-![image](images/Q122.png)
+![image](images/Q122.png?raw=png)
 
 - [ ] Use reference tabs to create a drop-down list
 - [ ] Use a PivotTable slicer to create a drop-down list
@@ -993,7 +993,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q118. To calculate gross pay, hours are multiplied by the hourly rate. What formula would you put in cell C4 to then able to copy that cell down to the rest of the column
 
-![image](images/Q123.png)
+![image](images/Q123.png?raw=png)
 
 - [ ] `=B1*$B$4`
 - [ ] `=$B1*B4`
@@ -1002,7 +1002,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q119. What do blue row numbers indicate?
 
-![image](images/Q124.png)
+![image](images/Q124.png?raw=png)
 
 - [ ] The cells are selected/highlighted
 - [ ] Excel's options have been changed
@@ -1013,7 +1013,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q120. Based on the data in columns D,G,H, and K below, what formula will calculate the average compensation for full-time employees who have a job rating of 5?
 
-![image](images/Q125.png)
+![image](images/Q125.png?raw=png)
 
 - [ ] `=AVERAGEIF(D:D,K2,H:H,5,G:G)`
 - [ ] `=AVERAGEIF(G:G,D:D,K2,H:H,5)`
@@ -1036,7 +1036,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q123. You want to remove the unprintable characters and unnecessary spaces from column A. What formula would you put into cell B2 to copy down to the rest of the column?
 
-![image](images/Q1233.png)
+![image](images/Q1233.png?raw=png)
 
 - [ ] `=ERROR.TYPE(A2)`
 - [x] `=CLEAN(TRIM(A2))`
@@ -1167,7 +1167,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q130. Which formula could _not_ have been entered in cell C5?
 
-![60d22a3a498ede33588680f8-1624476186391](https://user-images.githubusercontent.com/6527493/184480550-f12346e9-79ae-4dbc-ad4f-b5365a50236f.png)
+![60d22a3a498ede33588680f8-1624476186391](https://user-images.githubusercontent.com/6527493/184480550-f12346e9-79ae-4dbc-ad4f-b5365a50236f.png?raw=png)
 
 - [x] =SUBTOTAL(9, C2:C4)
 - [ ] =C2+C3+C4
@@ -1185,7 +1185,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q132. What is the fastest way to see the data in column E
 
-![Excel sheet](https://user-images.githubusercontent.com/48485675/185646309-02d17622-4021-4f2a-b7c0-144b63193902.png)
+![Excel sheet](https://user-images.githubusercontent.com/48485675/185646309-02d17622-4021-4f2a-b7c0-144b63193902.png?raw=png)
 
 - [x] Double-click between column headers E and F
 - [ ] Double-click between column headers F and G
@@ -1194,7 +1194,7 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 
 #### Q133. Excel's default view contains the Quick Access Toolbar and the ribbon. Which can you customize?
 
-![QAT and Ribbon](https://user-images.githubusercontent.com/48485675/185646537-a53cab9e-027f-4783-8b29-56a0e12576f5.png)
+![QAT and Ribbon](https://user-images.githubusercontent.com/48485675/185646537-a53cab9e-027f-4783-8b29-56a0e12576f5.png?raw=png)
 
 - [ ] You cannot customize either.
 - [ ] only the ribbon

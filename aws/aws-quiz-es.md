@@ -160,7 +160,7 @@
 
 #### P22. Está hospedando una aplicación configurada para transmitir medios a sus clientes en los puertos TCP 3380-3384, 3386-3388 y 3390. La ficha Entrantes siguiente muestra tres directivas de grupo de seguridad entrantes asociadas a esta instancia. ¿Qué política debe utilizar?
 
-![image](images/001.png)
+![image](images/001.png?raw=png)
 
 - \[x] La regla que expone los puertos TCP 3380-3390 también expondría públicamente el puerto 3389 (RDP) a todo Internet. Escriba reglas separadas para exponer solo los puertos necesarios.
 - \[ ] La primera regla de grupo de seguridad permite todo el tráfico en esta instancia. Exponer toda la instancia a todo Internet deja el servidor abierto a varios ataques de los otros servicios que se ejecutan en diferentes números de puerto.
@@ -385,7 +385,7 @@ FlowLog:
 
 #### P47. En la consola de S3, debajo de la columna Acceso, ¿qué indica la insignia pública junto al nombre del bucket?
 
-![image](images/002.png)
+![image](images/002.png?raw=png)
 
 - \[x] A todos los objetos de este bucket se les asigna acceso público y cualquier persona en Internet puede leerlos o escribirlos. Asegúrese de que no se compartan públicamente datos confidenciales dentro de este bucket.
 - \[ ] Todos los objetos dentro de este bucket son grabables, lo que significa que la Internet pública tiene la capacidad de cargar cualquier archivo directamente en su bucket de S3. Su bucket de S3 podría usarse para servir malware.
@@ -443,7 +443,7 @@ FlowLog:
 
 #### Pregunta 55. las reglas de salida de un grupo de seguridad solo permiten que el tráfico vaya a 0.0.0.0/0 en el puerto TCP 22 (SSH) y el puerto TCP 3306 (MySQL). Revise las reglas de entrada enumeradas en la imagen a continuación. ¿Cuál es el problema más importante a solucionar con esta configuración de grupo de seguridad, para una instancia EC2 de Ubuntu que actúa como servidor web?
 
-![image](https://user-images.githubusercontent.com/8637045/112515574-c077e780-8d6c-11eb-96a6-11f27a0547cf.png)
+![image](https://user-images.githubusercontent.com/8637045/112515574-c077e780-8d6c-11eb-96a6-11f27a0547cf.png?raw=png)
 
 - \[ ] Las reglas de salida bloquean el puerto UDP 53, por lo que el servidor no podrá resolver ninguna búsqueda DNS.
 - \[x] Las reglas de salida no permiten que el tráfico HTTP salga de la instancia, por lo que las solicitudes HTTP entrantes fallarán porque los clientes nunca obtendrán respuestas HTTP.
@@ -538,7 +538,7 @@ FlowLog:
 
 #### Pregunta 65. ¿Qué hay de malo en la tercera regla de grupo de seguridad entrante, que permite que todo el tráfico de sg-269afc5e vaya a una instancia EC2 de Ubuntu configurada como servidor web?
 
-![065](https://user-images.githubusercontent.com/33999631/179728393-8a2636ea-04e7-4597-b0cc-8150e2bc91de.png)
+![065](https://user-images.githubusercontent.com/33999631/179728393-8a2636ea-04e7-4597-b0cc-8150e2bc91de.png?raw=png)
 
 - \[ ] Todo el tráfico en todos los puertos se está denegando en esta instancia, lo que sobrescribe la regla HTTP y la hace redundante.
 - \[x] La instancia se lanzó con el grupo de seguridad predeterminado, pero no hay forma de que un administrador entre SSH en la instancia.
@@ -550,7 +550,7 @@ FlowLog:
 
 #### Pregunta 66. Tiene una VPC que tiene una subred pública y privada. Hay una puerta de enlace NAT en la subred pública que permite a las instancias de la subred privada acceder a Internet sin tener exposición pública fuera de la VPC. ¿Cuáles deben ser las tablas de enrutamiento para la subred privada?
 
-![image](images/003.png)
+![image](images/003.png?raw=png)
 
 - \[x] A
 
@@ -618,7 +618,7 @@ FlowLog:
 
 #### P71. Un formulario en una aplicación web está enviando datos de registro a "http://example.com/signup/new?source=web" y estos datos deben ser manejados por un servicio ECS detrás de Application Load Balancer (ALB). ¿Qué regla ALB enrutará esta solicitud?
 
-![image](images/004.png)
+![image](images/004.png?raw=png)
 
 - \[ ] A
 
@@ -725,7 +725,7 @@ FlowLog:
 
 #### Pregunta 81. Su centro de datos local (172.16.128.0/24) ya está conectado a su AWS VPC (10.0.0.0/16) mediante una gateway de cliente. Desea conectar otro centro de datos para una empresa que acaba de adquirir (172.16.130.0/24) a su VPC como se muestra en la imagen. ¿Cuál es la mejor manera de crear este enlace?
 
-![image](images/Q80.png)
+![image](images/Q80.png?raw=png)
 
 - \[ ] Establezca una conexión entre sus dos centros de datos y conecte el segundo centro de datos al primero a través de un túnel privado. El tráfico fluirá desde el segundo centro de datos y luego a través de los primeros datos, y luego a AWS.
 - \[ ] Cree una segunda puerta de enlace de cliente y configure su cliente VPN en su segundo centro de datos para conectarse a la puerta de enlace privada virtual.

@@ -293,7 +293,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 - [x] register_post_type
 - [ ] add_meta_box
 - [ ] wp_head
-- [] init
+- [ ] init
 
 #### Q35. What is the role of a WordPress theme?
 

@@ -1918,7 +1918,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 - [ ] `<div>` is used for major divisions on a page, while `<span>` is used to span across columns.
 - [x] `<div>` is used where a generic block-level tag is needed, while `<span>` is used where a generic inline tag is needed.
-- [] `<div>` is the industry standard default tag, but you could use `<span>` if you prefer.
+- [ ] `<div>` is the industry standard default tag, but you could use `<span>` if you prefer.
 - [ ] `<div>` is used where a generic inline tag is needed, while `<span>` is used where a generic block-level tag is needed.
 
 #### Q111. what does the a in the html a tag stands for?
