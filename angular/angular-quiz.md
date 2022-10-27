@@ -1258,3 +1258,18 @@ export interface AppSettings {
 - [ ] It is a source of power for the router. (definitely not the answer :P)
 
 [Angular-outlet](https://angular.io/api/router/RouterOutlet) - recheck answer
+
+#### Q67. In this template syntax, every time the items property is changed (added to, removed from, etc.), the ngFor structural directive re-runs its logic for all DOM elements in the loop. What syntax can be used to make this more performant?
+
+```javascript
+<div *ngFor="let item of items">
+  {{ item.id }} - {{ item.name }}
+</div>
+```
+
+- [ ] `*ngFor="let item of items; let uniqueItem"`
+- [ ] `*ngFor="let item of items.distinct()"`
+- [ ] `*ngFor="let item of items: let i = index"`
+- [x] `*ngFor="let item of items; trackBy: trackById"`
+
+[StackOverflow - How to use `trackBy` with `ngFor`](https://stackoverflow.com/a/58025894)
