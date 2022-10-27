@@ -684,3 +684,12 @@ D. Because you cannot create a search folder for a subfolder
 - [ ]
 - [ ]
 - [ ]
+
+#### Q94. When you back up or export your contacts directly from Outlook without using additional applications, what type of file will you export?
+
+- [ ] XLS (Windows) or XLSM (Mac)
+- [x] CSV Windows) or OLM (Mac)
+- [ ] TXT
+- [ ] DOCX Windows) or DOCM (Mac)
+
+[Reference link](https://www.codetwo.com/admins-blog/export-outlook-contacts/)
