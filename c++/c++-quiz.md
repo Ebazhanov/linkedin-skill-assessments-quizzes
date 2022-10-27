@@ -1438,17 +1438,17 @@ return 0;
 
 #### Q91. What is a default constructor?
 
-- [ ] a constructor that can be used with no arguments
-- [x] a contructor that does not have a return value
+- [x] a constructor that can be used with no arguments
+- [ ] a contructor that does not have a return value
 - [ ] a constructor that is used by multiple classes
 - [ ] a constructor that initializes all members of a class
 
 #### Q92. When protecting a header file, why would you use '#pragma once' instead of 'include' guard?
 
 - [ ] There is no reason to choose because they serve different purposes
-- [ ] An include guard uses a macro to achieve single inclusion, but the compiler cannot prevent the programmer from defining that macro elsewhere, which would result in no inclusion at all
+- [x] An include guard uses a macro to achieve single inclusion, but the compiler cannot prevent the programmer from defining that macro elsewhere, which would result in no inclusion at all
       defining that macro elsewhere, which would result in no inclusion at all
-- [x] '#pragma once' guarantees that the header code will never be changed because it is enforced by the compiler
+- [ ] '#pragma once' guarantees that the header code will never be changed because it is enforced by the compiler
 - [ ] Include guards refer to the header file in the file system, not to the code, so they are not helpful if the header file exists
       more than once in a project. This is not a problem with '#pragma once'
       
