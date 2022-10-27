@@ -23,7 +23,7 @@
 
 #### D4. Quanti fori sono stati utilizzati nella realizzazione di questo oggetto?
 
-![image](https://user-images.githubusercontent.com/31204774/130909206-ca109121-ea9b-451c-9099-57cb7724e5b8.png)
+![image](images/question_4.png?raw=true)
 
 - \[x] 1
 - \[ ] 2
@@ -198,7 +198,7 @@
 
 #### D28. Quanti schizzi sono necessari per creare questo oggetto?
 
-![image](https://github.com/101br03k/linkedin-skill-assessments-quizzes/blob/patch-4/autodesk-fusion-360/images/001.png)
+![image](images/question_28.png?raw=png)
 
 - \[x] Due
 - \[ ] Tre

@@ -265,7 +265,7 @@
 
 #### Q32. In the image below, which are the parents and children of the Vertical Boss Feature?
 
-![solidworks image](images/solidworks_q32.png)
+![solidworks image](images/solidworks_q32.png?raw=png)
 
 - [x] The parent is Base Feature; the children are Slot Cutout, Sketch3, CBORE Hole, and Fillet2
 - [ ] The parent is Vertical Boss; the childre are Base Feature, Slot Cutout, Sketch3, CBORE Hole, and Fillet2
@@ -274,7 +274,7 @@
 
 #### Q33. In this image, which parts are fixed?
 
-![solidworks image](images/solidworks_q33.png)
+![solidworks image](images/solidworks_q33.png?raw=png)
 
 - [ ] BASE
 - [ ] LINK 3
@@ -285,7 +285,7 @@
 
 #### Q34. What is this image an example of?
 
-![solidworks image](images/solidworks_q34.png)
+![solidworks image](images/solidworks_q34.png?raw=png)
 
 - [x] a hole table
 - [ ] a revision table
@@ -296,7 +296,7 @@
 
 #### Q35. What type of dimensioning is shown here?
 
-![solidworks image](images/solidworks_q35.png)
+![solidworks image](images/solidworks_q35.png?raw=png)
 
 - [ ] smart dimensioning
 - [ ] angular running dimensioning
@@ -305,7 +305,7 @@
 
 #### Q36. In the image below, what types of hole are A1 and B1 respectively?
 
-![solidworks image](images/solidworks_q36.png)
+![solidworks image](images/solidworks_q36.png?raw=png)
 
 - [ ] countersink and counterbore
 - [x] counterbore and countersink
@@ -314,7 +314,7 @@
 
 #### Q37. What is this sketch an example of?
 
-![solidworks image](images/solidworks_q37.png)
+![solidworks image](images/solidworks_q37.png?raw=png)
 
 - [x] an open contour sketch
 - [ ] a multi-contour or intersecting sketch
@@ -323,7 +323,7 @@
 
 #### Q38. Can this skecth be extruded?
 
-![solidworks image](images/solidworks_q37.png)
+![solidworks image](images/solidworks_q37.png?raw=png)
 
 - [ ] Yes, you can extrude it using the standard extrude boss option
 - [ ] Yes, you can extrude it using the Selected Contours option

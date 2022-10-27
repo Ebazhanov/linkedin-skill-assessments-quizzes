@@ -1147,7 +1147,7 @@ add();
 - [ ] 0
 - [ ] undefined
 
-![image](https://user-images.githubusercontent.com/62549240/160531605-bf8790d5-5eb9-4291-a9bd-4232f2fd7b6e.png)
+![image](https://user-images.githubusercontent.com/62549240/160531605-bf8790d5-5eb9-4291-a9bd-4232f2fd7b6e.png?raw=png)
 
 #### Q99. ¿Porqué podrías necesitar utilizar React.createRef?
 

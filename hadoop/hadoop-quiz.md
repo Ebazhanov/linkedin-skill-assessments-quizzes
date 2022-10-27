@@ -415,7 +415,7 @@
 
 #### Q59. To get information about Reducer job runs, which object should be added?
 
-- [] Reporter
+- [ ] Reporter
 - [ ] IntReadable
 - [ ] IntWritable
 - [ ] Writer

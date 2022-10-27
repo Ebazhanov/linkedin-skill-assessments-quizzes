@@ -320,12 +320,12 @@ echo ${!fname}
 
 #### Q31. What will be the output of this script?
 
-![question](images/Q30/question.png)
+![question](images/Q30/question.png?raw=png)
 
-- [ ] `A` ![A](images/Q30/A.png)
-- [ ] `B` ![B](images/Q30/B.png)
-- [ ] `C` ![C](images/Q30/D.png)
-- [x] `D` ![D](images/Q30/C.png)
+- [ ] `A` ![A](images/Q30/A.png?raw=png)
+- [ ] `B` ![B](images/Q30/B.png?raw=png)
+- [ ] `C` ![C](images/Q30/D.png?raw=png)
+- [x] `D` ![D](images/Q30/C.png?raw=png)
 
 Here's a text based version of Q.30:
 
@@ -745,7 +745,7 @@ fi
 
 #### Q58. What is the result of this script?
 
-![question](images/Q60/question.png)
+![question](images/Q60/question.png?raw=png)
 
 - [ ] It removes the directory 'foo' and the files contained within it.
 - [ ] It removes all files except those in the current directory.

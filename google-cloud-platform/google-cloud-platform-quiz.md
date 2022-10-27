@@ -249,7 +249,7 @@
 - [ ] folder
 - [ ] payment account
 
-[reference link](https://cloud.google.com/billing/docs/images/billing-project.png)
+[reference link](https://cloud.google.com/billing/docs/images/billing-project.png?raw=png)
 
 #### Q36. You need to cache your HTTP and HTTPS static content closer to users, so that you can get faster delivery and reduce serving costs. Which service do you set up?
 

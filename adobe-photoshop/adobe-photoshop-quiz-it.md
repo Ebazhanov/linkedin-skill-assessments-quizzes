@@ -68,11 +68,13 @@
 
 #### D9. Quali opzioni sono disponibili quando si utilizza il comando Trasformazione libera su un oggetto avanzato?
 
-    A. Content-Aware Scale
-    B. Scale
-    C. Warp
-    D. Distort
-    E. Perspective Warp
+```markdown
+A. Content-Aware Scale
+B. Scale
+C. Warp
+D. Distort
+E. Perspective Warp
+```
 
 - \[ ] C,D
 - \[ ] D,E

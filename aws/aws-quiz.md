@@ -160,7 +160,7 @@
 
 #### Q22. You are hosting an application configured to stream media to its clients on TCP ports 3380-3384, 3386-3388, and 3390. The Inbound tab below shows three incoming security group policies attached to this instance. Which policy should you use?
 
-![image](images/001.png)
+![image](images/001.png?raw=png)
 
 - [x] The rule that exposes TCP ports 3380-3390 would also publicly expose port 3389 (RDP) to the entire internet. Write separate rules to only expose the needed ports.
 - [ ] The first security group rule allows all traffic into this instance. Exposing your entire instance to the whole internet leaves the server open to various attacks of the other services running on different port numbers.
@@ -387,7 +387,7 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 
 #### Q47. In the S3 console, underneath the Access column, what does the public badge next to the bucket name indicate?
 
-![image](images/002.png)
+![image](images/002.png?raw=png)
 
 - [x] All objects within this bucket are assigned public access and could be readable or writable by anyone on the internet. Ensure no sensitive data is being publicly shared within this bucket.
 - [ ] All objects within this bucket are writable, which means that the public internet has the ability to upload any file directly to your S3 bucket. Your S3 bucket could be used to serve malware.
@@ -445,7 +445,7 @@ aws ec2 associate-address --instance-id i-8b953 --allocation-id eipalloc-02d021a
 
 #### Q55. the outbound rules of a security group only allow traffic going to 0.0.0.0/0 on TCP Port 22 (SSH) and TCP port 3306 (MySQL). Review the inbound rules listed in the image below. What is the most important issue to fix with this security group configuration, for an Ubuntu EC2 instance acting as a web server?
 
-![image](https://user-images.githubusercontent.com/8637045/112515574-c077e780-8d6c-11eb-96a6-11f27a0547cf.png)
+![image](https://user-images.githubusercontent.com/8637045/112515574-c077e780-8d6c-11eb-96a6-11f27a0547cf.png?raw=png)
 
 - [ ] The outbound rules block UDP port 53, so the server will not be able to resolve any DNS lookups.
 - [x] The outbound rules do not allow for HTTP traffic to leave the instance, so inbound HTTP requests will fail because the clients will never get HTTP responses.
@@ -540,7 +540,7 @@ aws ec2 start-instances --instance-ids i-0b263919b6498b123
 
 #### Q65. What is wrong with the third incoming security group rule, which allows all traffic from sg-269afc5e to go to an Ubuntu EC2 instance configured as a web server?
 
-![065](https://user-images.githubusercontent.com/33999631/179728393-8a2636ea-04e7-4597-b0cc-8150e2bc91de.png)
+![065](https://user-images.githubusercontent.com/33999631/179728393-8a2636ea-04e7-4597-b0cc-8150e2bc91de.png?raw=png)
 
 - [ ] All traffic on all ports is being denied into this instance, which overwrites the HTTP rule and makes it redundant.
 - [x] The instance was launched with the default security group, but there is no way for an administrator to SSH into the instance.
@@ -552,7 +552,7 @@ aws ec2 start-instances --instance-ids i-0b263919b6498b123
 
 #### Q66. You have a VPC that has a public and private subnet. There is a NAT gateway in the public subnet that allows instances in the private subnet to access the internet without having public exposure outside of the VPC. What should the routing tables be for the private subnet?
 
-![image](images/003.png)
+![image](images/003.png?raw=png)
 
 - [x] A
 
@@ -620,7 +620,7 @@ Destination 2: 0.0.0.0/0, Target 2: igw-b2ff47d6
 
 #### Q71. A form in web application is sending sign-up data to "http://example.com/signup/new?source=web" and this data needs to be handled by an ECS service behind Application Load Balancer (ALB). Which ALB rule will route this request?
 
-![image](images/004.png)
+![image](images/004.png?raw=png)
 
 - [ ] A
 
@@ -729,7 +729,7 @@ aws ecs create-service \
 
 #### Q81. Your on-premise data center (172.16.128.0/24) is already connected to your AWS VPC (10.0.0.0/16) by a customer gateway. You wish to connect another data center for a company you just acquired (172.16.130.0/24) to your VPC as shown in the image. What is the best way to create this link?
 
-![image](images/Q80.png)
+![image](images/Q80.png?raw=png)
 
 - [ ] Establish a connection between your two data centers and connect the second data center to the first through a private tunnel. Traffic will flow from the second data center and then through the first data, and then into AWS.
 - [ ] Create a second customer gateway and configure your VPN client at your second data center to connect to the virtual private gateway.

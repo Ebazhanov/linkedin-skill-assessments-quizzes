@@ -20,7 +20,7 @@
 
 #### D3. Nell'immagine mostrata, cosa sai dello stile del paragrafo Corpo testo?
 
-![Q3](images/Q3.jpg)
+![Q3](images/question_3.jpg)
 
 - \[x] Il testo selezionato non è stato formattato utilizzando la definizione di stile.
 - \[ ] Il testo selezionato si trova in testo non inserito al di fuori dei confini della cornice corrente.
@@ -73,7 +73,7 @@
 
 #### D10. Nell'immagine mostrata, il testo si trova su un percorso. Si desidera spostare il testo più a destra lungo il percorso. Come puoi farlo?
 
-![Q10](images/q10.png)
+![Q10](images/question_10.jpg)
 
 - \[ ] Trascina il quadrato blu D.
 - \[ ] Trascinare la maniglia laterale B
@@ -110,7 +110,7 @@
 
 #### D15. Quale funzione useresti per creare l'effetto mostrato, in cui i cerchi raggruppati si fondono tra loro ma non l'oggetto dietro di essi?
 
-![Q15](images/Q15.png)
+![Q15](images/question_15.jpg)
 
 - \[ ] Luce globale
 - \[ ] il metodo di fusione schermo
@@ -119,7 +119,7 @@
 
 #### D16. Nell'immagine mostrata, cosa indicano i bordi colorati della cornice?
 
-![Q16](images/Q16.png)
+![Q16](images/question_16.jpg)
 
 - \[ ] su quale livello si trova ogni oggetto
 - \[ ] su quale pagina master si trova ogni oggetto
@@ -135,7 +135,7 @@
 
 #### D18. Nell'immagine mostrata, cosa puoi dedurre su come verrà stampato questo documento?
 
-![Q18](images/Q18.png)
+![Q18](images/question_18.jpg)
 
 - \[ ] La pagina sarà ridimensionata per adattarsi al documento.
 - \[ ] Tutti i livelli del documento saranno visibili

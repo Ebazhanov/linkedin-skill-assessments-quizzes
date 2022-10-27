@@ -1238,7 +1238,7 @@ int main(){
 
 #### Q74. Given these records in a map, how will you update the value for the key "Sinead" to 22?
 
-![image](images/Q79.png)
+![image](images/Q79.png?raw=png)
 
 - [x] `marks["Sinead"] = 22`
 - [ ] `marks["Sinead"].22`

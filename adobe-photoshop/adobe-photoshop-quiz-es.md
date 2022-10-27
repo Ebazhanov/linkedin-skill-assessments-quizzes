@@ -68,11 +68,13 @@
 
 #### P9. ¿Qué opciones están disponibles cuando se utiliza el comando Free Transform en un objeto inteligente?
 
-    A. Content-Aware Scale
-    B. Scale
-    C. Warp
-    D. Distort
-    E. Perspective Warp
+```markdown
+A. Content-Aware Scale
+B. Scale
+C. Warp
+D. Distort
+E. Perspective Warp
+```
 
 - \[ ] C,D
 - \[ ] D,E

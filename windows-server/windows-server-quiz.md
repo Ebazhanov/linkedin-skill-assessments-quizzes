@@ -468,7 +468,7 @@
 
 #### Q62. In the Server Manager window shown, how can you manage more servers?
 
-![Q62](images/windows-server_Q62.png)
+![Q62](images/windows-server_Q62.png?raw=png)
 
 - [x] Click **Server**, above **Volumes**.
 - [ ] Click **Tools**.

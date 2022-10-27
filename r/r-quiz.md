@@ -45,7 +45,7 @@ xvect
 
 #### Q6. In the image below, the data frame is named rates. The statement `sd(rates[, 2])` returns 39. As what does R regard Ellen's product ratings?
 
-![Image](https://i.ibb.co/jvPPSRk/Captura-de-pantalla-2020-07-14-a-las-20-58-09.png)
+![Image](https://i.ibb.co/jvPPSRk/Captura-de-pantalla-2020-07-14-a-las-20-58-09.png?raw=png)
 
 - [ ] sample with replacement
 - [ ] population
@@ -75,7 +75,7 @@ xvect
 
 #### Q10. In the image below, the data frame on lines 1 through 4 is named StDf. State and Capital are both factors. Which statement returns the results shown on lines 6 and 7?
 
-![Image](https://i.ibb.co/8DL1HCV/Captura-de-pantalla-2020-07-14-a-las-18-33-34.png)
+![Image](https://i.ibb.co/8DL1HCV/Captura-de-pantalla-2020-07-14-a-las-18-33-34.png?raw=png)
 
 - [ ] StDf[1:2,-3]
 - [x] StDf[1:2,1]
@@ -276,7 +276,7 @@ Output: [1] 2 3 4
 
 #### Q29. Given DFMerged <- merge(DF1, DF2) and the image below, how manu rows are in DFMerged?
 
-![image](https://user-images.githubusercontent.com/52632898/139964478-9806a163-76b2-4f99-97bc-c925fdf6e388.png)
+![image](https://user-images.githubusercontent.com/52632898/139964478-9806a163-76b2-4f99-97bc-c925fdf6e388.png?raw=png)
 
 - [ ] 6
 - [ ] 9

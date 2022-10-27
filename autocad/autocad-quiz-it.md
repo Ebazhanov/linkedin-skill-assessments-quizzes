@@ -312,7 +312,7 @@
 
 #### D41. Quando si lavora con gli oggetti nei disegni, normalmente si definiscono le loro proprietà tramite i rispettivi livelli. Tuttavia, è possibile definire le proprietà di singoli oggetti con il pannello Proprietà della scheda Home della barra multifunzione di AutoCAD. È possibile definire il colore e il tipo di linea individuali, insieme a quale altra proprietà tipica dell'oggetto?
 
-![q42](images/q42_autocad.png)
+![q42](images/q42_autocad.png?raw=png)
 
 - \[ ] descrizione
 - \[x] plottable o non plottable
@@ -545,7 +545,7 @@
 
 #### D74. Quando si utilizza il comando POLYGON in AutoCAD, è possibile creare un poligono inscritto e un poligono circoscritto. Quale altro tipo di poligono è disponibile?
 
-![q75](images/q75_autocad.png)
+![q75](images/q75_autocad.png?raw=png)
 
 - \[ ] poligono laterale
 - \[ ] poligono polilinea
@@ -554,7 +554,7 @@
 
 #### D75. Quando si utilizzano blocchi in un disegno, un blocco selezionato visualizza una sola impugnatura: il punto di inserimento. Come faresti a far sì che un blocco visualizzi tutte le impugnature associate?
 
-![q76](images/q76_autocad.png)
+![q76](images/q76_autocad.png?raw=png)
 
 - \[ ] Modificare la variabile di sistema GRIPBLOCK su 1.
 - \[ ] Selezionare il blocco e modificarlo nella tavolozza Proprietà.

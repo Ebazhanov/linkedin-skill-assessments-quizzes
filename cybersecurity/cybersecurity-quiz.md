@@ -89,7 +89,7 @@ An intrusion detection system (`IDS`) is a device or software application that m
 
 #### Q12. Which area is DMZ?
 
-![image](https://user-images.githubusercontent.com/50566479/136518616-8712a45f-8ba5-48bd-ac60-5a96ddf754ae.png)
+![image](https://user-images.githubusercontent.com/50566479/136518616-8712a45f-8ba5-48bd-ac60-5a96ddf754ae.png?raw=png)
 
 - [ ] 4
 - [ ] 1
