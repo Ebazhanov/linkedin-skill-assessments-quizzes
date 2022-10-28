@@ -203,4 +203,4 @@ void *ptr;
 - [ ] It’s class that only consists of member variable, with no constructor, destructor nor member functions.
 - [ ] It’s skelton source code for a class where the programmer has to fill in specific parts to define the data types and algorithms used.
 
-  [References](https://www.ibm.com/docs/en/zos/2.2.0?topic=only-class-templates-c)
+[References](https://www.ibm.com/docs/en/zos/2.2.0?topic=only-class-templates-c)
