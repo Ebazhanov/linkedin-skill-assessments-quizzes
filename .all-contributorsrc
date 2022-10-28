@@ -11939,6 +11939,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "chamerion",
+      "name": "Tomasz Rodak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33201785?v=4",
+      "profile": "http://imul.math.uni.lodz.pl/~rodakt",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
