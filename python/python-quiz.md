@@ -2343,3 +2343,16 @@ MISSING_ARG_3 = func
 - [ ] points
 - [x] markers
 - [ ] none of these
+
+#### Q172. What does this code print?
+
+```
+a = np.array([[1, 2], [3, 4], [5, 6]])
+c = a[(a > 3) & (a < 11)]
+print(c)
+```
+
+- [ ] `[[3, 4], [5, 6]]`
+- [ ] `[False, False, False, True, True, True]`
+- [ ] `[[0,0], [3, 4], [5, 6]]`
+- [x] `[4 5 6]`
