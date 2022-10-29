@@ -77,9 +77,11 @@
 #### Q11. You need to execute a "lift and shift" move with as few steps as possible. Which items do you need to create to accomplish this task, listed in the correct order of creation?
 
 - [ ] Create a VPN from GCP to your corporate network. 2. Create a GCP network for the project. 3. Create the VM instances to support the application.
-- [ ] Create a GCP network for the project. 2. Create a VPN from your corporate network to GCP. 3. Create the VM instances to support the application.
-- [x] Create a GCP network for the project. 2. Create a VPN from GCP to your corporate network. 3. Create the VM instances to support the application.
+- [x] Create a GCP network for the project. 2. Create a VPN from your corporate network to GCP. 3. Create the VM instances to support the application.
+- [ ] Create a GCP network for the project. 2. Create a VPN from GCP to your corporate network. 3. Create the VM instances to support the application.
 - [ ] Create a VPN from your corporate network to GCP. 2. Create a GCP network for the project. 3. Create the VM instances to support the application.
+
+[refernce link](https://cloud.google.com/files/Lift-and-Shift-onto-Google-Cloud.pdf)
 
 #### Q12. You are concerned about data egress charges for files in a Cloud Storage bucket. What configuration change should you make?
 
