@@ -44,6 +44,8 @@
 - [x] Firebase and ML Kit
 - [ ] Cloud Functions and AI Platform jobs
 
+[reference link](https://firebase.google.com/docs/ml-kit/android/use-custom-models)
+
 #### Q7. You need to deploy Redis with unique persistent identities and stable hostnames on GKE. What type of deployment object do you use?
 
 - [ ] GCP deployment
@@ -142,6 +144,8 @@
 - [ ] Speech API
 - [ ] AutoML Natural Language
 
+[reference link](https://cloud.google.com/dialogflow)
+
 #### Q21. Which service must you enable on your GKE cluster in order to use Cloud Run on Google Kubernetes Engine (GKE)?
 
 - [x] Stackdriver
@@ -198,6 +202,8 @@
 - [ ] Leave the objects in one bucket. Set the CORS policy at the object level.
 - [ ] Leave the objects in one bucket. Set the CORS policy at the object level. Add client-side code to handle the requests.
 
+[reference link](https://cloud.google.com/storage/docs/cross-origin)
+
 #### Q29. For your application, you are building a CI/CD pipeline that logs information when a message is sent to a queue. Which services should you select?
 
 - [ ] Cloud Functions and Cloud Spanner
@@ -225,6 +231,8 @@
 - [ ] Configure VPC Network Peering.
 - [ ] Configure routes.
 - [ ] Configure external IP addresses.
+
+[reference link](https://cloud.google.com/vpc/docs/firewalls)
 
 #### Q33. Which object is a container for GCP services instances?
 
@@ -386,6 +394,8 @@
 - [ ] Cloud Functions.
 - [ ] Google Kubernetes Engine.
 - [ ] Google Compute Engine.
+
+[reference link](https://cloud.google.com/appengine/docs)
 
 #### Q50. You have a set of exploratory queries that you want to run as inexpensively as possible in BigQuery. What should you do?
 
