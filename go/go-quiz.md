@@ -172,48 +172,48 @@ Explanation: this is exactly what `sync.WaitGroup` is designed for - [Use sync.W
 
 ```go
 func Add(a, b int) {
-  return a + b
+        return a + b
 }
 ```
 
-- [ ] A
+- [ ] A  
+  
+    ```go
+    // Calculate a + b
+    // - a: int
+    // - b: int
+    // - returns: int
+    func Add(a, b int) {
+            return a + b
+    }
+    ```
 
-```go
-// Calculate a + b
-// - a: int
-// - b: int
-// - returns: int
-func Add(a, b int) {
-  return a + b
-}
-```
+- [ ] B  
+  
+    ```go
+    // Does a + b
+    func Add(a, b int) {
+            return a + b
+    }
+    ```
 
-- [ ] B
+- [x] C  
+  
+    ```go
+    // Add returns the sum of a and b
+    func Add(a, b int) {
+            return a + b
+    }
+    ```
 
-```go
-// Does a + b
-func Add(a, b int) {
-  return a + b
-}
-```
-
-- [x] C
-
-```go
-// Add returns the sum of a and b
-func Add(a, b int) {
-  return a + b
-}
-```
-
-- [ ] D
-
-```go
-// returns the sum of a and b
-func Add(a, b int) {
-  return a + b
-}
-```
+- [ ] D  
+  
+    ```go
+    // returns the sum of a and b
+    func Add(a, b int) {
+            return a + b
+    }
+    ```
 
 Explanation: documentation block should start with a function name
 
@@ -636,37 +636,37 @@ Program exited.
 ```
 
 - [ ]  
-
-```go
+  
+    ```go
         go func() {
                 r := worker(m)
                 ch <- r
         }
-```
+    ```
 
 - [ ]  
-
-```go
+  
+    ```go
         go func() {
                 r := worker(m)
                 r -> ch
         } ()
-```
+    ```
 
 - [x]  
-
-```go
+  
+    ```go
         go func() {
                 r := worker(m)
                 ch <- r
         } ()
-```
+    ```
 
 - [ ]  
-
-```go
+  
+    ```go
         go ch <- worker(m)
-```
+    ```
 
 [Go Playground example](https://go.dev/play/p/96j7tuQKF50)
 
@@ -696,28 +696,28 @@ type userID int
 
 #### Q48. What does the built-in `generate` command of the Go compiler do?
 
-[ ] It provides subcommands `sql`, `json`, `yaml`, and switches `--schema` and `--objects` to generate relevant code.
-[ ] It looks for files with names that end with `_generate.go`, and then compiles and runs each of these files individually.
-[x] It scans the projects source code looking for `//go:generate` comments, and for each such comment runs the terminal command it specifies.
-[ ] It has subcommands `mocks` and `tests` to generate relevant `.go` source files.
+- [ ] It provides subcommands `sql`, `json`, `yaml`, and switches `--schema` and `--objects` to generate relevant code.
+- [ ] It looks for files with names that end with `_generate.go`, and then compiles and runs each of these files individually.
+- [x] It scans the projects source code looking for `//go:generate` comments, and for each such comment runs the terminal command it specifies.
+- [ ] It has subcommands `mocks` and `tests` to generate relevant `.go` source files.
 
 [Generate Go files by processing source](https://pkg.go.dev/cmd/go#hdr-Generate_Go_files_by_processing_source)
 
 #### Q49. Using the time package, how can you get the time 90 minutes from now?
 
-[ ] `time.Now().Add(90)`
-[ ] `time.Now() + (90 * time.Minute)`
-[ ] `time.Now() + 90`
-[x] `time.Now().Add(90 * time.Minute)`
+- [ ] `time.Now().Add(90)`
+- [ ] `time.Now() + (90 * time.Minute)`
+- [ ] `time.Now() + 90`
+- [x] `time.Now().Add(90 * time.Minute)`
 
 [func (Time) Add example](https://pkg.go.dev/time#example-Time.Add)
 
 #### Q50. A program uses a channel to print five integers inside a goroutine while feeding the channel with integers from the main routine, but it doesn't work as is. What do you need to change to make it work?
 
-[ ] Add a `close(ch)` immediately after `wg.Wait()`.
-[x] Add a second parameter to `make(chan, int)`, e.g. `make(chan int, 5)`.
-[ ] Remove the use of unnecessary `WaitGroup` calls, e.g. all lines that start with `wg`.
-[ ] Move the 7-line goroutine immediately after `wg.Add(1)` to a line immediately before `wg.Wait()`.
+- [ ] Add a `close(ch)` immediately after `wg.Wait()`.
+- [x] Add a second parameter to `make(chan, int)`, e.g. `make(chan int, 5)`.
+- [ ] Remove the use of unnecessary `WaitGroup` calls, e.g. all lines that start with `wg`.
+- [ ] Move the 7-line goroutine immediately after `wg.Add(1)` to a line immediately before `wg.Wait()`.
 
 [Reference](https://www.ardanlabs.com/blog/2018/11/goroutine-leaks-the-forgotten-sender.html)
 
@@ -727,10 +727,10 @@ Relevant excerpt from the article:
 
 #### Q51. After importing `encoding/json`, how will you access the `Marshal` function?
 
-[ ] `encoding.json.Marshal`
-[ ] `encoding/json.Marshal`
-[ ] `Marshal`
-[x] `json.Marshal`
+- [ ] `encoding.json.Marshal`
+- [ ] `encoding/json.Marshal`
+- [ ] `Marshal`
+- [x] `json.Marshal`
 
 [encoding/json#Marshal example](https://pkg.go.dev/encoding/json#example-Marshal)
 
@@ -768,14 +768,14 @@ func main() {
 }
 ```
 
-[ ] `#1: ctx.SetTimeout(3*time.Second)  
-     #2: req.AttachContext(ctx)`
-[x] `#1: ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel()  
-     #2: req = req.WithContext(ctx)`
-[ ] `#1: ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel()  
-     #2: req.AttachContext(ctx)`
-[ ] `#1: ctx.SetTimeout(3*time.Second)  
-     #2: req = req.WithContext(ctx)`
+- [ ] `#1: ctx.SetTimeout(3*time.Second)  
+      #2: req.AttachContext(ctx)`
+- [x] `#1: ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel()  
+      #2: req = req.WithContext(ctx)`
+- [ ] `#1: ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel()  
+      #2: req.AttachContext(ctx)`
+- [ ] `#1: ctx.SetTimeout(3*time.Second)  
+      #2: req = req.WithContext(ctx)`
 
 1. [context#WithTimeout](https://pkg.go.dev/context#WithTimeout)
 2. [net/http#Request.WithContext](https://pkg.go.dev/net/http#Request.WithContext)
