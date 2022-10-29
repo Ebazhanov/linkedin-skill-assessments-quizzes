@@ -155,9 +155,9 @@ Explanation: this is exactly what `sync.WaitGroup` is designed for - [Use sync.W
 - [x] The goroutine does not end until the time passes.
 
 > Note: it doesn't block `select` and does not block other channels.  
-[time.After() Function in Golang With Examples](https://www.geeksforgeeks.org/time-after-function-in-golang-with-examples/)  
-[How can I use 'time.After' and 'default' in Golang?](https://stackoverflow.com/questions/39212333/how-can-i-use-time-after-and-default-in-golang)  
-[Go Playground example](https://go.dev/play/p/WojTrG1ywRK)
+> 1. [time.After() Function in Golang With Examples](https://www.geeksforgeeks.org/time-after-function-in-golang-with-examples/)  
+> 2. [How can I use 'time.After' and 'default' in Golang?](https://stackoverflow.com/questions/39212333/how-can-i-use-time-after-and-default-in-golang)  
+> 3. [Go Playground example](https://go.dev/play/p/WojTrG1ywRK)
 
 #### Q14. What is the select statement used for?
 
@@ -176,44 +176,44 @@ func Add(a, b int) {
 }
 ```
 
-- [ ] A  
-  
-    ```go
-    // Calculate a + b
-    // - a: int
-    // - b: int
-    // - returns: int
-    func Add(a, b int) {
-            return a + b
-    }
-    ```
+- [ ] A
 
-- [ ] B  
-  
-    ```go
-    // Does a + b
-    func Add(a, b int) {
-            return a + b
-    }
-    ```
+  ```go
+  // Calculate a + b
+  // - a: int
+  // - b: int
+  // - returns: int
+  func Add(a, b int) {
+          return a + b
+  }
+  ```
 
-- [x] C  
-  
-    ```go
-    // Add returns the sum of a and b
-    func Add(a, b int) {
-            return a + b
-    }
-    ```
+- [ ] B
 
-- [ ] D  
-  
-    ```go
-    // returns the sum of a and b
-    func Add(a, b int) {
-            return a + b
-    }
-    ```
+  ```go
+  // Does a + b
+  func Add(a, b int) {
+          return a + b
+  }
+  ```
+
+- [x] C
+
+  ```go
+  // Add returns the sum of a and b
+  func Add(a, b int) {
+          return a + b
+  }
+  ```
+
+- [ ] D
+
+  ```go
+  // returns the sum of a and b
+  func Add(a, b int) {
+          return a + b
+  }
+  ```
 
 Explanation: documentation block should start with a function name
 
@@ -253,7 +253,7 @@ Explanation: documentation block should start with a function name
 2. [go commands Build constraints](https://pkg.go.dev/cmd/go#hdr-Build_constraints)
 
 > `//go:build windows`  
-"Go versions 1.16 and earlier used a different syntax for build constraints, with a "// +build" prefix. The gofmt command will add an equivalent //go:build constraint when encountering the older syntax."
+> "Go versions 1.16 and earlier used a different syntax for build constraints, with a "// +build" prefix. The gofmt command will add an equivalent //go:build constraint when encountering the older syntax."
 
 #### Q19. What is the correct way to pass this as a body of an HTTP POST request?
 
@@ -345,7 +345,7 @@ Relevant excerpt from the article:
 - [ ] `fmt.Fprintln(os.Stderr, message)`
 
 1. [func println](https://pkg.go.dev/builtin#println): writes the result to _standard error_.
-2. [func New](https://pkg.go.dev/log#New): func New(out io.Writer, prefix string, flag int) *Logger; the out variable _sets the destination_ to which log data will be written.
+2. [func New](https://pkg.go.dev/log#New): func New(out io.Writer, prefix string, flag int) \*Logger; the out variable _sets the destination_ to which log data will be written.
 3. [func Errorf](https://pkg.go.dev/fmt#Errorf): Errorf formats according to a format specifier and _returns the string_ as a value.
 4. [func Fprintln](https://pkg.go.dev/fmt#Fprintln): func Fprintln(w io.Writer, a ...any) (n int, err error); Fprintln formats using the default formats for its operands and _writes to w_.
 
@@ -403,10 +403,10 @@ Relevant excerpt from the article:
 2. [testing package in Go](https://pkg.go.dev/testing), the relevant excerpt from the article:
 
 > `Fatal` is equivalent to `Log` followed by `FailNow`.  
-`Log` formats its arguments using default formatting, analogous to `Println`, and records the text in the error log.  
-`FailNow` marks the function as having failed and **stops its execution by calling `runtime.Goexit` (which then runs all deferred calls in the current goroutine). Execution will continue at the next test or benchmark.** `FailNow` must be called from the goroutine running the test or benchmark function, not from other goroutines created during the test. Calling `FailNow` does not stop those other goroutines.  
-`Run` runs `f` as a subtest of `t` called name. It runs `f` in a separate goroutine and blocks until `f` returns or calls `t.Parallel` to become a parallel test. Run reports whether `f` succeeded (or at least did not fail before calling `t.Parallel`).  
-Run may be called simultaneously from multiple goroutines, but all such calls must return before the outer test function for t returns.
+> `Log` formats its arguments using default formatting, analogous to `Println`, and records the text in the error log.  
+> `FailNow` marks the function as having failed and **stops its execution by calling `runtime.Goexit` (which then runs all deferred calls in the current goroutine). Execution will continue at the next test or benchmark.** `FailNow` must be called from the goroutine running the test or benchmark function, not from other goroutines created during the test. Calling `FailNow` does not stop those other goroutines.  
+> `Run` runs `f` as a subtest of `t` called name. It runs `f` in a separate goroutine and blocks until `f` returns or calls `t.Parallel` to become a parallel test. Run reports whether `f` succeeded (or at least did not fail before calling `t.Parallel`).  
+> Run may be called simultaneously from multiple goroutines, but all such calls must return before the outer test function for t returns.
 
 #### Q31. What does `log.Fatal` do?
 
@@ -460,7 +460,7 @@ Explanation: There is defined neither _log.ERROR_, nor _log.Error()_ in [log pac
 - [ ] only files in the root directory that end in `_test.go`
 - [x] any that ends in `_test.go`
 
-1. [Test packages in go command in Go](https://pkg.go.dev/cmd/go#hdr-Test_packages): _'Go test' recompiles each package along with any files with names matching the file pattern "*\_test.go"._
+1. [Test packages in go command in Go](https://pkg.go.dev/cmd/go#hdr-Test_packages): _'Go test' recompiles each package along with any files with names matching the file pattern "\*\_test.go"._
 2. [Add a test in Go](https://go.dev/doc/tutorial/add-a-test)
 
 #### Q35. What will be the output of this code?
@@ -637,36 +637,36 @@ Program exited.
 
 - [ ]  
   
-    ```go
+```go
         go func() {
                 r := worker(m)
                 ch <- r
         }
-    ```
+```
 
 - [ ]  
   
-    ```go
+```go
         go func() {
                 r := worker(m)
                 r -> ch
         } ()
-    ```
+```
 
 - [x]  
   
-    ```go
+```go
         go func() {
                 r := worker(m)
                 ch <- r
         } ()
-    ```
+```
 
 - [ ]  
   
-    ```go
+```go
         go ch <- worker(m)
-    ```
+```
 
 [Go Playground example](https://go.dev/play/p/96j7tuQKF50)
 
@@ -737,25 +737,25 @@ Relevant excerpt from the article:
 #### Q52. What are the two missing segments of code that would complete the use of `context.Context` to implement a three-second timeout for this HTTP client making a GET request?
 
 ```go
-package main 
+package main
 
 import (
         "context"
         "fmt"
-        "net/http" 
-) 
+        "net/http"
+)
 
 func main() {
         var cancel context.CancelFunc
-        ctx := context.Background() 
+        ctx := context.Background()
 
-        // #1: <=== What should go here? 
+        // #1: <=== What should go here?
 
         req, _ := http.NewRequest(http.MethodGet,
                 "https://linkedin.com",
-                nil) 
+                nil)
 
-        // #2: <=== What should go here? 
+        // #2: <=== What should go here?
 
         client := &http.Client{}
         res, err := client.Do(req)
@@ -764,18 +764,14 @@ func main() {
                 return
         }
         fmt.Println("Response received, status code:",
-                res.StatusCode) 
+                res.StatusCode)
 }
 ```
 
-- [ ] `#1: ctx.SetTimeout(3*time.Second)  
-      #2: req.AttachContext(ctx)`
-- [x] `#1: ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel()  
-      #2: req = req.WithContext(ctx)`
-- [ ] `#1: ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel()  
-      #2: req.AttachContext(ctx)`
-- [ ] `#1: ctx.SetTimeout(3*time.Second)  
-      #2: req = req.WithContext(ctx)`
+- [ ] `#1: ctx.SetTimeout(3*time.Second) #2: req.AttachContext(ctx)`
+- [x] `#1: ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel() #2: req = req.WithContext(ctx)`
+- [ ] `#1: ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel() #2: req.AttachContext(ctx)`
+- [ ] `#1: ctx.SetTimeout(3*time.Second) #2: req = req.WithContext(ctx)`
 
 1. [context#WithTimeout](https://pkg.go.dev/context#WithTimeout)
 2. [net/http#Request.WithContext](https://pkg.go.dev/net/http#Request.WithContext)

@@ -147,7 +147,7 @@ E. Blur
 - \[ ] Progetto
 - \[x] Browser multimediale
 
-[Riferimento](https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-browser.html#:~:text=The%20Media%20Browser%20panel%20should,with%20fragmented%20media%20file%20types.\&text=To%20import%20selected%20clips%20into,on%20them%20and%20choose%20Import)
+[Riferimento](https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-browser.html#:~:text=The%20Media%20Browser%20panel%20should,with%20fragmented%20media%20file%20types.&text=To%20import%20selected%20clips%20into,on%20them%20and%20choose%20Import)
 
 #### D20. Una transizione è impostata su allineato al centro. Quale sarebbe il risultato del trascinamento con lo strumento selezionato, a destra?
 

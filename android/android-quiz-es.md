@@ -284,6 +284,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
     <solid android:color="@android:color/black" />
   </shape>
 ```
+
 - \[ ]
 
 ```xml
@@ -307,7 +308,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
 
 - \[ ]
 
-``` xml
+```xml
   <shape xmlns:android="http://schemas.android.com/apk/res/android"
       android:shape="oval">
       <stroke
@@ -445,6 +446,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
 ```
 
 - \[ ]
+
 ```
   buildTypes {
     debug {
@@ -540,6 +542,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
 
   </androidx.constraintlayout.widget.ConstraintLayout>
 ```
+
 - \[ ]
 
 ```xml
@@ -728,6 +731,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
         android:angle-"98"/>
   </shape>
 ```
+
 #### P47. Dado el ConstraintLayout a continuación, ¿qué afirmación es verdadera?
 
 ![img](image/44.jpeg)
@@ -829,7 +833,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
 
 - \[ ]
 
-```xml
+````xml
   <ImageView
       android:id="@+id/image_map_pin"
       android:layout_width="wrap_content"
@@ -846,7 +850,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
       android:layout_heignt="wrap_content"
       android:layout_marginBottom="@dimen/spacing_medium"
       android:src=@drawable/map_pin />
-```
+````
 
 #### Pregunta 54. ¿Qué no es beneficioso de externalizar los recursos de la aplicación, como la imagen y la cadena, a partir de un código?
 

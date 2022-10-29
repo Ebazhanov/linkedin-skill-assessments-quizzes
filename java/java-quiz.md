@@ -2221,10 +2221,10 @@ class Lambo extends Car {
 - [ ] undefined
 
 #### Q158. What will be the output of the following Java program?
-	
+
 ```java
 class variable_scope {
-	public static void main(String args[]) 
+	public static void main(String args[])
         {
             int x;
             x = 5;
@@ -2236,47 +2236,50 @@ class variable_scope {
         }
 }
 ```
-	
+
 - [x] Compilation Error
 - [ ] Runtime Error
 - [ ] 5 6 5 6
 - [ ] 5 6 5
-	
-#### Q159. Subclasses of an abstract class are created using the keyword _____.
+
+#### Q159. Subclasses of an abstract class are created using the keyword **\_**.
 
 - [x] extends
 - [ ] abstracts
 - [ ] interfaces
 - [ ] implements
-	
+
 [Reference See An Abstract Class Example ](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)
-	
+
 #### Q160. Which keyword would not be allowed here?
-	
+
 ```
 class Unicorn {
 _____ Unicorn(){}
 }
 ```
+
 - [ ] public
 - [ ] static
 - [ ] protected
 - [x] void
 
 Explaination : A constructor cannot have a return type (not even a void return type).
-	
+
 #### Q161. What language feature do these expressions demonstrate?
+
 ```
 System.out::println
 Doggie::fetch
 ```
-- [X] method references
+
+- [x] method references
 - [ ] bad code
 - [ ] condensed invocation
 - [ ] static references
-	
-[Reference](https://stackoverflow.com/questions/31020269/what-is-the-use-of-system-outprintln-in-java-8)	
-		
+
+[Reference](https://stackoverflow.com/questions/31020269/what-is-the-use-of-system-outprintln-in-java-8)
+
 #### Q162. What will be the output of the following program?
 
 ```java
@@ -2291,10 +2294,10 @@ public class Course {
     }
 }
 ```
+
 - [ ] course java
       tutorial Merit campus
 - [x] course java
       course java tutorial Merit campus
 - [ ] Compilation Error
 - [ ] Runtime Error
-	

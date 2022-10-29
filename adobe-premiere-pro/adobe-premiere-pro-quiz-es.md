@@ -147,7 +147,7 @@ E. Blur
 - \[ ] Proyecto
 - \[x] Navegador de medios
 
-[Referencia](https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-browser.html#:~:text=The%20Media%20Browser%20panel%20should,with%20fragmented%20media%20file%20types.\&text=To%20import%20selected%20clips%20into,on%20them%20and%20choose%20Import)
+[Referencia](https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-browser.html#:~:text=The%20Media%20Browser%20panel%20should,with%20fragmented%20media%20file%20types.&text=To%20import%20selected%20clips%20into,on%20them%20and%20choose%20Import)
 
 #### P20. Una transición se establece en alineado al centro. ¿Cuál sería el resultado de arrastrar con la herramienta seleccionada, a la derecha?
 

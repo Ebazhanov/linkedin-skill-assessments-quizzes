@@ -585,7 +585,7 @@ To get to either UEFI or BIOS on a system you usually go via the computer's boot
 
 #### Q71. Which I/O components are typically found in a chipset on the motherboard?
 
-- [ ] USB, SATA  and internal communications
+- [ ] USB, SATA and internal communications
 - [ ] display adapter, networking, audio, and basic I/O
 - [ ] the processor, RAM, and expansion cards
 - [ ] I/O components are not on the motherboard. They are located on the rear of the case

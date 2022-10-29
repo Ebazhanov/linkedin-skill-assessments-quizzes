@@ -1451,8 +1451,8 @@ return 0;
 - [ ] '#pragma once' guarantees that the header code will never be changed because it is enforced by the compiler
 - [ ] Include guards refer to the header file in the file system, not to the code, so they are not helpful if the header file exists
       more than once in a project. This is not a problem with '#pragma once'
-      
- #### Q93. Which of the following statement is valid?
+
+#### Q93. Which of the following statement is valid?
 
 - [ ] We can create new c++ operator.
 - [ ] We can change the precedence of the c++ operator.
@@ -1465,4 +1465,3 @@ return 0;
 - [ ] Assignment Operator
 - [ ] A constructor without any parameter
 - [x] All of the above
-

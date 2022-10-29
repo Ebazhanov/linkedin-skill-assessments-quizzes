@@ -59,11 +59,11 @@ export class UserDetailsComponent {
 
 ```ts
 export class OrderService {
-    constructor(private httpClient: HttpClient) { }
+  constructor(private httpClient: HttpClient) {}
 
-    addOrder(order: Order) {
-      // Missing line
-    }
+  addOrder(order: Order) {
+    // Missing line
+  }
 }
 ```
 
@@ -514,10 +514,10 @@ expect(fixture.nativeElement.querySelector('h1').textContent).toContain(
 
 ```ts
 export class ToolsComponent {
- constructor (private router: Router) { }
- goToUser (id: number) {
-   this.router.navigate(['user', id]);
- }
+  constructor(private router: Router) {}
+  goToUser(id: number) {
+    this.router.navigate(['user', id]);
+  }
 }
 ```
 
@@ -863,13 +863,13 @@ const userService = TestBed.get(UserService);
 #### D47. Come è possibile passare i parametri di query a questo `HttpClient.get` richiesta?
 
 ```ts
-  export class OrderService {
-      constructor(private httpClient: HttpClient) { }
+export class OrderService {
+  constructor(private httpClient: HttpClient) {}
 
-      getOrdersByYear(year: number): Observable<Order[]> {
-        return this.httpClient.get<Order[]>(this.ordersUrl);
-      }
+  getOrdersByYear(year: number): Observable<Order[]> {
+    return this.httpClient.get<Order[]>(this.ordersUrl);
   }
+}
 ```
 
 - \[ ] `return this.httpClient.get<Order[]>(this.ordersUrl, {'year': year})`
@@ -877,9 +877,10 @@ const userService = TestBed.get(UserService);
 - \[x]
 
 ```ts
-  const options = {params: new HttpParams().set('year', year) };
-  return this.httpClient.get<Order[]>(this.ordersUrl, options);
+const options = { params: new HttpParams().set('year', year) };
+return this.httpClient.get<Order[]>(this.ordersUrl, options);
 ```
+
 - \[ ]
 
 ```ts
@@ -924,9 +925,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
 - \[ ]
 
 ```ts
-<div #inactive>
-  User is not active.
-</div>
+<div #inactive>User is not active.</div>
 ```
 
 - \[ ]
@@ -965,6 +964,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
       lazy: './users/users.module#UsersModule'
   }
 ```
+
 - \[x]
 
 ```
@@ -1055,8 +1055,8 @@ export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
 
 ```html
 <form #form="ngForm">
-  <input type="text" ngModel="firstName">
-  <input type="text" ngModel="lastName">
+  <input type="text" ngModel="firstName" />
+  <input type="text" ngModel="lastName" />
   <button (click)="submit()">Save</button>
 </form>
 ```
@@ -1069,12 +1069,11 @@ export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
 #### D55. Qual è lo scopo della configurazione della proprietà prelodingStrategy in questo codice router?
 
 ```ts
-RouterModule.forRoot (
-  ...
-  {
-  preloadingStrategy: PreloadAllModules
-  }
-)
+RouterModule.forRoot(
+  ...{
+    preloadingStrategy: PreloadAllModules,
+  },
+);
 ```
 
 - \[ ] Abilita la possibilità di contrassegnare i singoli percorsi per il precaricamento.

@@ -284,6 +284,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
     <solid android:color="@android:color/black" />
   </shape>
 ```
+
 - \[ ]
 
 ```xml
@@ -307,7 +308,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 - \[ ]
 
-``` xml
+```xml
   <shape xmlns:android="http://schemas.android.com/apk/res/android"
       android:shape="oval">
       <stroke
@@ -383,6 +384,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
                 android:text="Button" />
   </LinearLayout>
 ```
+
 - \[ ] A
   ![img](image/00.jpeg)
 - \[x] B
@@ -444,6 +446,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 ```
 
 - \[ ]
+
 ```
   buildTypes {
     debug {
@@ -539,6 +542,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
   </androidx.constraintlayout.widget.ConstraintLayout>
 ```
+
 - \[ ]
 
 ```xml
@@ -732,22 +736,22 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 #### Q48. Compte tenu de ce snippey de code à partir d’un fichier build.gradle, quel choix n’est pas une variante de build possible ?
 
- ```
-  android {
-      ...
-      defaultConfig{...}
+```
+ android {
+     ...
+     defaultConfig{...}
 
-      buildTypes{
-      debug{...}
-      releasae{...}
-  }
+     buildTypes{
+     debug{...}
+     releasae{...}
+ }
 
-    flavorDimensions "environment"
-    productFlavors {
-        producation {...}
-        staging {...}
-    }
-  }
+   flavorDimensions "environment"
+   productFlavors {
+       producation {...}
+       staging {...}
+   }
+ }
 ```
 
 - \[ ] productionDébug.
@@ -791,7 +795,6 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 #### Q53. Compte tenu des dimens.xml fichier suivants, comment définiriez-vous un ImageView avec un espacement moyen en bas ?
 
-
 ```xml
 <?xml version=1.0 encoding="utf-8"?>
 <resources>
@@ -823,7 +826,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 - \[ ]
 
-```xml
+````xml
   <ImageView
       android:id="@+id/image_map_pin"
       android:layout_width="wrap_content"
@@ -840,7 +843,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
       android:layout_heignt="wrap_content"
       android:layout_marginBottom="@dimen/spacing_medium"
       android:src=@drawable/map_pin />
-```
+````
 
 #### Q54. Quel n’est-ce pas un avantage de l’externalisation des ressources d’application telles que l’image et la chaîne à partir d’un code ?
 

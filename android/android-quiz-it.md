@@ -284,6 +284,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
     <solid android:color="@android:color/black" />
   </shape>
 ```
+
 - \[ ]
 
 ```xml
@@ -307,7 +308,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
 
 - \[ ]
 
-``` xml
+```xml
   <shape xmlns:android="http://schemas.android.com/apk/res/android"
       android:shape="oval">
       <stroke
@@ -445,6 +446,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
 ```
 
 - \[ ]
+
 ```
   buildTypes {
     debug {
@@ -540,6 +542,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
 
   </androidx.constraintlayout.widget.ConstraintLayout>
 ```
+
 - \[ ]
 
 ```xml
@@ -830,7 +833,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
 
 - \[ ]
 
-```xml
+````xml
   <ImageView
       android:id="@+id/image_map_pin"
       android:layout_width="wrap_content"
@@ -847,7 +850,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
       android:layout_heignt="wrap_content"
       android:layout_marginBottom="@dimen/spacing_medium"
       android:src=@drawable/map_pin />
-```
+````
 
 #### D54. Qual è il vantaggio di esternalizzare le risorse dell'app, ad esempio immagine e stringa, da un codice?
 

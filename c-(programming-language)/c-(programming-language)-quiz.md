@@ -1309,7 +1309,7 @@ int main() {
 - [ ] 5 6 12
 - [ ] 6 6 12
 
-#### Q88. What will be the output of the following C program segment? 
+#### Q88. What will be the output of the following C program segment?
 
 ```c
 char inchar = 'A';
@@ -1327,9 +1327,9 @@ default:
 }
 
 ```
-- [ ]  No choice 
-- [ ] Choice A 
-- [x] Choice A 
-      Choice B No choice 
+
+- [ ] No choice
+- [ ] Choice A
+- [x] Choice A
+      Choice B No choice
 - [ ] Program gives no output as it is erroneous
- 

@@ -147,7 +147,7 @@ E. Blur
 - \[ ] Projet
 - \[x] Navigateur multimédia
 
-[Référence](https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-browser.html#:~:text=The%20Media%20Browser%20panel%20should,with%20fragmented%20media%20file%20types.\&text=To%20import%20selected%20clips%20into,on%20them%20and%20choose%20Import)
+[Référence](https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-browser.html#:~:text=The%20Media%20Browser%20panel%20should,with%20fragmented%20media%20file%20types.&text=To%20import%20selected%20clips%20into,on%20them%20and%20choose%20Import)
 
 #### Q20. Une transition est définie sur aligné au centre. Quel serait le résultat d’un glissement avec l’outil sélectionné, vers la droite ?
 
