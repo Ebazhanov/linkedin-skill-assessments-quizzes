@@ -11969,6 +11969,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "WizardLemon",
+      "name": "Nemanja Lekic",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34193350?v=4",
+      "profile": "https://github.com/WizardLemon",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
