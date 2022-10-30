@@ -195,3 +195,12 @@ void *ptr;
 - [ ] indem er den C-Quellcode importiert
 - [ ] Es gibt keine Möglichkeit, mit C++ eine C-Funktion aufzurufen.
 - [ ] indem er einfach den C-Code aufruft
+
+#### Q16. What is a class template?
+
+- [x] It’s a class written with the generic programming, specifying behavior in terms of type parameter rather than specific type.
+- [ ] It’s a blank superclass intended for inheritance and polymorphism.
+- [ ] It’s class that only consists of member variable, with no constructor, destructor nor member functions.
+- [ ] It’s skelton source code for a class where the programmer has to fill in specific parts to define the data types and algorithms used.
+
+[References](https://www.ibm.com/docs/en/zos/2.2.0?topic=only-class-templates-c)

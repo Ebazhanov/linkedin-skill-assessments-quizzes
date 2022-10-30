@@ -861,7 +861,7 @@ ReactDOM.createPortal(x, y);
 - [ ] the current state
 - [x] the DOM element that exists outside of the parent component
 
-#### Q72. Given this code, what will be printed in the `<h1>` tag?
+#### Q72. Given this code, what will be printed in the `<div>` tag?
 
 ```javascript
 const MyComponent = ({ children }) => (

@@ -131,11 +131,12 @@ func main() {
 #### Q11. What does a `sync.Mutex` block while it is locked?
 
 - [ ] all goroutines
-- [x] any other call to lock that `Mutex`
-- [ ] any reads or writes of the variable it is locking
+- [ ] any other call to lock that `Mutex`
+- [x] any reads or writes of the variable it is locking
 - [ ] any writes to the variable it is locking
 
-[Mutex in GoLang](https://golangdocs.com/mutex-in-golang)
+1. [Mutex in GoLang](https://golangdocs.com/mutex-in-golang), sync.Mutex locks so only one goroutine at a time can access the locked variable.
+2. [sync.Mutex](https://go.dev/tour/concurrency/9)
 
 #### Q12. What is an idiomatic way to pause execution of the current scope until an arbitrary number of goroutines have returned?
 
@@ -149,11 +150,14 @@ Explanation: this is exactly what `sync.WaitGroup` is designed for - [Use sync.W
 #### Q13. What is a side effect of using `time.After` in a `select` statement?
 
 - [ ] It blocks the other channels.
-- [x] It is meant to be used in select statements without side effects.
+- [ ] It is meant to be used in select statements without side effects.
 - [ ] It blocks the `select` statement until the time has passed.
-- [ ] The goroutine does not end until the time passes.
+- [x] The goroutine does not end until the time passes.
 
-Note: it doesn't block `select` and does not block other channels.
+> Note: it doesn't block `select` and does not block other channels.  
+> 1. [time.After() Function in Golang With Examples](https://www.geeksforgeeks.org/time-after-function-in-golang-with-examples/)  
+> 2. [How can I use 'time.After' and 'default' in Golang?](https://stackoverflow.com/questions/39212333/how-can-i-use-time-after-and-default-in-golang)  
+> 3. [Go Playground example](https://go.dev/play/p/WojTrG1ywRK)
 
 #### Q14. What is the select statement used for?
 
@@ -162,54 +166,58 @@ Note: it doesn't block `select` and does not block other channels.
 - [ ] executing a different case based on the value of a variable
 - [x] executing a different case based on which channel returns first
 
+[Select statement in GoLang](https://golangdocs.com/select-statement-in-golang)
+
 #### Q15. According to the Go documentation standard, how should you document this function?
 
 ```go
 func Add(a, b int) {
-  return a + b
+        return a + b
 }
 ```
 
 - [ ] A
 
-```go
-// Calculate a + b
-// - a: int
-// - b: int
-// - returns: int
-func Add(a, b int) {
-  return a + b
-}
-```
+  ```go
+  // Calculate a + b
+  // - a: int
+  // - b: int
+  // - returns: int
+  func Add(a, b int) {
+          return a + b
+  }
+  ```
 
 - [ ] B
 
-```go
-// Does a + b
-func Add(a, b int) {
-  return a + b
-}
-```
+  ```go
+  // Does a + b
+  func Add(a, b int) {
+          return a + b
+  }
+  ```
 
 - [x] C
 
-```go
-// Add returns the sum of a and b
-func Add(a, b int) {
-  return a + b
-}
-```
+  ```go
+  // Add returns the sum of a and b
+  func Add(a, b int) {
+          return a + b
+  }
+  ```
 
 - [ ] D
 
-```go
-// returns the sum of a and b
-func Add(a, b int) {
-  return a + b
-}
-```
+  ```go
+  // returns the sum of a and b
+  func Add(a, b int) {
+          return a + b
+  }
+  ```
 
 Explanation: documentation block should start with a function name
+
+[Comments in Go](https://exercism.org/tracks/go/concepts/comments)
 
 #### Q16. What restriction is there on the type of `var` to compile this `i := myVal.(int)?`
 
@@ -223,6 +231,7 @@ Explanation: documentation block should start with a function name
 1. [this example](https://tutorialedge.net/golang/snippets/type-casting-interface-to-string-go/)
 2. [Primitive types are type-casted differently](https://golangdocs.com/type-casting-in-golang)
 3. [Go Playground](https://play.golang.org/p/TXF_JBvThp6)
+4. [Type assertions](https://go.dev/tour/methods/15)
 
 #### Q17. What is a channel?
 
@@ -240,7 +249,11 @@ Explanation: documentation block should start with a function name
 - [ ] Add a \_ prefix to the file name.
 - [x] Add a // +build windows comment at the top of the file.
 
-[How to use conditional compilation with the go build tool, Oct 2013](https://dave.cheney.net/2013/10/12/how-to-use-conditional-compilation-with-the-go-build-tool)
+1. [How to use conditional compilation with the go build tool, Oct 2013](https://dave.cheney.net/2013/10/12/how-to-use-conditional-compilation-with-the-go-build-tool)
+2. [go commands Build constraints](https://pkg.go.dev/cmd/go#hdr-Build_constraints)
+
+> `//go:build windows`  
+> "Go versions 1.16 and earlier used a different syntax for build constraints, with a "// +build" prefix. The gofmt command will add an equivalent //go:build constraint when encountering the older syntax."
 
 #### Q19. What is the correct way to pass this as a body of an HTTP POST request?
 
@@ -248,12 +261,13 @@ Explanation: documentation block should start with a function name
 data := "A group of Owls is called a parliament"
 ```
 
-- [ ] resp, err := http.Post("https://httpbin.org/post", "text/plain", []byte(data))
-- [ ] resp, err := http.Post("https://httpbin.org/post", "text/plain", data)
-- [x] resp, err := http.Post("https://httpbin.org/post", "text/plain", strings.NewReader(data))
-- [ ] resp, err := http.Post("https://httpbin.org/post", "text/plain", &data)
+- [ ] `resp, err := http.Post("https://httpbin.org/post", "text/plain", []byte(data))`
+- [ ] `resp, err := http.Post("https://httpbin.org/post", "text/plain", data)`
+- [x] `resp, err := http.Post("https://httpbin.org/post", "text/plain", strings.NewReader(data))`
+- [ ] `resp, err := http.Post("https://httpbin.org/post", "text/plain", &data)`
 
-[net/http#Client.Post](https://pkg.go.dev/net/http#Client.Post)
+1. [net/http#Client.Post](https://pkg.go.dev/net/http#Client.Post)
+2. [http.Post Golang example](https://dev.to/ramu_mangalarapu/httppost-golang-example-5jp)
 
 #### Q20. What should the idiomatic name be for an interface with a single method and the signature `Save() error`?
 
@@ -264,7 +278,7 @@ data := "A group of Owls is called a parliament"
 
 [Effective Go, Interface names](https://golang.org/doc/effective_go#interface-names)
 
-#### Q21. A `switch` statement **\_** its own lexical block. Each `case` statement **\_** an additional lexical block.
+#### Q21. A `switch` statement **\_** its own lexical block. Each `case` statement **\_** an additional lexical block
 
 - [ ] does not create; creates
 - [ ] does not create; does not create
@@ -307,7 +321,8 @@ Relevant excerpt from the article:
 - [ ] Any tags after the first are ignored.
 - [ ] Missing tags panic at runtime.
 
-[Example Code / b29r0fUD1cp](https://play.golang.org/p/b29r0fUD1cp)
+1. [Example Code / b29r0fUD1cp](https://play.golang.org/p/b29r0fUD1cp)
+2. [How To Use Struct Tags in Go](https://www.digitalocean.com/community/tutorials/how-to-use-struct-tags-in-go)
 
 #### Q25. Where is the built-in recover method useful?
 
@@ -324,10 +339,15 @@ Relevant excerpt from the article:
 
 #### Q26. Which choice does _not_ send output to standard error?
 
-- [x] println(message)
-- [ ] log.New(os.Stderr, "", 0).Println(message)
-- [ ] fmt.Errorf("%s\n", message)
-- [ ] fmt.Fprintln(os.Stderr, message)
+- [ ] `println(message)`
+- [ ] `log.New(os.Stderr, "", 0).Println(message)`
+- [x] `fmt.Errorf("%s\n", message)`
+- [ ] `fmt.Fprintln(os.Stderr, message)`
+
+1. [func println](https://pkg.go.dev/builtin#println): writes the result to _standard error_.
+2. [func New](https://pkg.go.dev/log#New): func New(out io.Writer, prefix string, flag int) \*Logger; the out variable _sets the destination_ to which log data will be written.
+3. [func Errorf](https://pkg.go.dev/fmt#Errorf): Errorf formats according to a format specifier and _returns the string_ as a value.
+4. [func Fprintln](https://pkg.go.dev/fmt#Fprintln): func Fprintln(w io.Writer, a ...any) (n int, err error); Fprintln formats using the default formats for its operands and _writes to w_.
 
 #### Q27. How can you tell Go to import a package from a different location?
 
@@ -336,12 +356,15 @@ Relevant excerpt from the article:
 - [x] Use a replace directive in go.mod.
 - [ ] Use a replace directory.
 
+1. [Call your code from another module](https://go.dev/doc/tutorial/call-module-code): chapter 5., `go mod edit -replace example.com/greetings=../greetings`.
+2. [go.mod replace directive](https://go.dev/doc/modules/gomod-ref#replace)
+
 #### Q28. If your current working directory is the top level of your project, which command will run all its test packages?
 
-- [ ] go test all
-- [ ] go run --all
-- [ ] go test .
-- [x] go test ./...
+- [ ] `go test all`
+- [ ] `go run --all`
+- [ ] `go test .`
+- [x] `go test ./...`
 
 1. [Example of testing in Go (Golang)](https://pkg.go.dev/testing)
 2. [Example of cmd in Go (Golang)](https://pkg.go.dev/cmd/go)
@@ -357,7 +380,13 @@ Relevant excerpt from the article:
 - [ ] UTF-8 or ASCII
 - [x] UTF-8
 
-[Example of encoding in Go (Golang)](https://pkg.go.dev/golang.org/x/text/encoding)
+1. [Strings, bytes, runes and characters in Go](https://go.dev/blog/strings)
+
+Relevant excerpt from the article:
+
+> _In short, Go source code is UTF-8, so the source code for the string literal is UTF-8 text._
+
+2. [Example of encoding in Go (Golang)](https://pkg.go.dev/golang.org/x/text/encoding)
 
 Relevant excerpt from the article:
 
@@ -370,14 +399,14 @@ Relevant excerpt from the article:
 - [x] t.Fatal stops execution of the subtest and continues with other test cases.
 - [ ] t.Fatal stops all tests and contains extra information about the failed subtest.
 
-[Reference:](https://go.dev/play/p/gtne3iRL9AX)
+1. [Reference:](https://go.dev/play/p/gtne3iRL9AX)
+2. [testing package in Go](https://pkg.go.dev/testing), the relevant excerpt from the article:
 
-Explanation:  
-Fatal is equivalent to Log followed by FailNow.  
-Log formats its arguments using default formatting, analogous to Println, and records the text in the error log.  
-FailNow marks the function as having failed and stops its execution by calling runtime.Goexit (which then runs all deferred calls in the current goroutine). Execution will continue at the next test or benchmark. FailNow must be called from the goroutine running the test or benchmark function, not from other goroutines created during the test. Calling FailNow does not stop those other goroutines.  
-Run runs f as a subtest of t called name. It runs f in a separate goroutine and blocks until f returns or calls t.Parallel to become a parallel test. Run reports whether f succeeded (or at least did not fail before calling t.Parallel).  
-Run may be called simultaneously from multiple goroutines, but all such calls must return before the outer test function for t returns.
+> `Fatal` is equivalent to `Log` followed by `FailNow`.  
+> `Log` formats its arguments using default formatting, analogous to `Println`, and records the text in the error log.  
+> `FailNow` marks the function as having failed and **stops its execution by calling `runtime.Goexit` (which then runs all deferred calls in the current goroutine). Execution will continue at the next test or benchmark.** `FailNow` must be called from the goroutine running the test or benchmark function, not from other goroutines created during the test. Calling `FailNow` does not stop those other goroutines.  
+> `Run` runs `f` as a subtest of `t` called name. It runs `f` in a separate goroutine and blocks until `f` returns or calls `t.Parallel` to become a parallel test. Run reports whether `f` succeeded (or at least did not fail before calling `t.Parallel`).  
+> Run may be called simultaneously from multiple goroutines, but all such calls must return before the outer test function for t returns.
 
 #### Q31. What does `log.Fatal` do?
 
@@ -390,7 +419,7 @@ Run may be called simultaneously from multiple goroutines, but all such calls mu
 
 Relevant excerpt from the article:
 
-> _Fatal is equivalent to Print() followed by a call to os.Exit(1)._
+> _`Fatal` is equivalent to `Print()` followed by a call to `os.Exit(1)`._
 
 #### Q32. Which is a valid Go time format literal?
 
@@ -399,11 +428,21 @@ Relevant excerpt from the article:
 - [ ] "y-mo-d"
 - [ ] "year-month-day"
 
-[Example of func Time in Go (Golang)](https://pkg.go.dev/time)
+[func Time in Go](https://pkg.go.dev/time#pkg-constants)
 
 Relevant excerpt from the article:
 
-> _Most programs can use one of the defined constants as the layout passed to Format or Parse. The rest of this comment can be ignored unless you are creating a custom layout string._
+```text
+Year: "2006" "06"
+Month: "Jan" "January" "01" "1"
+Day of the week: "Mon" "Monday"
+Day of the month: "2" "_2" "02"
+Day of the year: "__2" "002"
+Hour: "15" "3" "03" (PM or AM)
+Minute: "4" "04"
+Second: "5" "05"
+AM/PM mark: "PM"
+```
 
 #### Q33. How should you log an error (err)
 
@@ -412,7 +451,7 @@ Relevant excerpt from the article:
 - [ ] `log.Printf(log.ERROR, err)`
 - [ ] `log.Print("error: %v", err)`
 
-Explanation: There is defined neither log.ERROR, nor log.Error() in [log package](https://pkg.go.dev/log); log.Print() arguments are handled in the manner of fmt.Print(); log.Printf() arguments are handled in the manner of fmt.Printf().
+Explanation: There is defined neither _log.ERROR_, nor _log.Error()_ in [log package in Go](https://pkg.go.dev/log); `log.Print()` arguments are handled in the manner of `fmt.Print()`; `log.Printf()` arguments are handled in the manner of `fmt.Printf()`.
 
 #### Q34. Which file names will the `go test` command recognize as test files?
 
@@ -421,9 +460,12 @@ Explanation: There is defined neither log.ERROR, nor log.Error() in [log package
 - [ ] only files in the root directory that end in `_test.go`
 - [x] any that ends in `_test.go`
 
+1. [Test packages in go command in Go](https://pkg.go.dev/cmd/go#hdr-Test_packages): _'Go test' recompiles each package along with any files with names matching the file pattern "\*\_test.go"._
+2. [Add a test in Go](https://go.dev/doc/tutorial/add-a-test)
+
 #### Q35. What will be the output of this code?
 
-```
+```go
 ch := make(chan int)
 ch <- 7
 val := <-ch
@@ -435,9 +477,21 @@ fmt.Println(val)
 - [ ] It will not compile
 - [ ] 2.718
 
+[Go Playground share](https://go.dev/play/p/SQlfg8YSEOz), output:
+
+```text
+fatal error: all goroutines are asleep - deadlock!
+
+goroutine 1 [chan send]:
+main.main()
+ /tmp/sandbox2282523250/prog.go:7 +0x37
+
+Program exited.
+```
+
 #### Q36. What will be the output of this program?
 
-```
+```go
 ch := make(chan int)
 close(ch)
 val := <-ch
@@ -449,9 +503,17 @@ fmt.Println(val)
 - [x] 0
 - [ ] NaN
 
+[Go Playground share](https://go.dev/play/p/DjXq9wzJm5M), output:
+
+```text
+0
+
+Program exited.
+```
+
 #### Q37. What will be printed in this code?
 
-```
+```go
 var stocks map[string]float64 // stock -> price
 price := stocks["MSFT"]
 fmt.Printf("%f\n", price)
@@ -461,6 +523,14 @@ fmt.Printf("%f\n", price)
 - [x] 0.000000
 - [ ] The code will panic
 - [ ] NaN
+
+[Go Playground share](https://go.dev/play/p/CjdHskV1xq1), output:
+
+```text
+0.000000
+
+Program exited.
+```
 
 #### Q38. What is the common way to have several executables in your project?
 
@@ -511,19 +581,19 @@ fmt.Printf("%f\n", price)
 
 #### Q43. How can you avoid a goroutine leak in this code?
 
-```
+```go
 func findUser(ctx context.Context, login string) (*User, error) {
-	ch := make(chan *User)
-	go func() {
-		ch <- findUserInDB(login)
-	}()
+        ch := make(chan *User)
+        go func() {
+                ch <- findUserInDB(login)
+        }()
 
-	select {
-	case user := <-ch:
-		return user, nil
-	case <-ctx.Done():
-		return nil, fmt.Errorf("timeout")
-	}
+        select {
+        case user := <-ch:
+                return user, nil
+        case <-ctx.Done():
+                return nil, fmt.Errorf("timeout")
+        }
 }
 ```
 
@@ -540,41 +610,73 @@ Relevant excerpt from the article:
 
 #### 44. What will this code print?
 
+```go
       var i int8 = 120
       i += 10
       fmt.Println(i)
+```
 
 - [x] -126
 - [ ] 0
 - [ ] NaN
 - [ ] 130
 
+[Go Playground example](https://go.dev/play/p/T31_JuFioaC), output:
+
+```text
+-126
+
+Program exited.
+```
+
 #### 45. Given the definition of worker below, what is the right syntax to start a start a goroutine that will call worker and send the result to a channel named ch?
 
+```go
       func worker(m Message) Result
+```
 
-- [ ] go func() {
-      r := worker(m)
-      ch <- r
-      }
-- [ ] go func() {
-      r := worker(m)
-      r -> ch
-      } ()
-- [x] go func() {
-      r := worker(m)
-      ch <- r
-      } ()
-- [ ] go ch <- worker(m)
+- [ ]  
+  
+```go
+        go func() {
+                r := worker(m)
+                ch <- r
+        }
+```
+
+- [ ]  
+  
+```go
+        go func() {
+                r := worker(m)
+                r -> ch
+        } ()
+```
+
+- [x]  
+  
+```go
+        go func() {
+                r := worker(m)
+                ch <- r
+        } ()
+```
+
+- [ ]  
+  
+```go
+        go ch <- worker(m)
+```
+
+[Go Playground example](https://go.dev/play/p/96j7tuQKF50)
 
 #### Q46. In this code, which names are exported?
 
-```
+```go
 package os
 
 type FilePermission int
 type userID int
-}
 ```
 
 - [x] FilePermission
@@ -591,3 +693,85 @@ type userID int
 - [ ] Structures are used to represent a record
 - [ ] To define a structure, you must use type and struct statements.
 - [x] All of the above
+
+#### Q48. What does the built-in `generate` command of the Go compiler do?
+
+- [ ] It provides subcommands `sql`, `json`, `yaml`, and switches `--schema` and `--objects` to generate relevant code.
+- [ ] It looks for files with names that end with `_generate.go`, and then compiles and runs each of these files individually.
+- [x] It scans the projects source code looking for `//go:generate` comments, and for each such comment runs the terminal command it specifies.
+- [ ] It has subcommands `mocks` and `tests` to generate relevant `.go` source files.
+
+[Generate Go files by processing source](https://pkg.go.dev/cmd/go#hdr-Generate_Go_files_by_processing_source)
+
+#### Q49. Using the time package, how can you get the time 90 minutes from now?
+
+- [ ] `time.Now().Add(90)`
+- [ ] `time.Now() + (90 * time.Minute)`
+- [ ] `time.Now() + 90`
+- [x] `time.Now().Add(90 * time.Minute)`
+
+[func (Time) Add example](https://pkg.go.dev/time#example-Time.Add)
+
+#### Q50. A program uses a channel to print five integers inside a goroutine while feeding the channel with integers from the main routine, but it doesn't work as is. What do you need to change to make it work?
+
+- [ ] Add a `close(ch)` immediately after `wg.Wait()`.
+- [x] Add a second parameter to `make(chan, int)`, e.g. `make(chan int, 5)`.
+- [ ] Remove the use of unnecessary `WaitGroup` calls, e.g. all lines that start with `wg`.
+- [ ] Move the 7-line goroutine immediately after `wg.Add(1)` to a line immediately before `wg.Wait()`.
+
+[Reference](https://www.ardanlabs.com/blog/2018/11/goroutine-leaks-the-forgotten-sender.html)
+
+Relevant excerpt from the article:
+
+> _The simplest way to resolve this leak is to change the channel from an unbuffered channel to a buffered channel with a capacity of 1. Now in the timeout case, after the receiver has moved on, the Goroutine will complete its send by placing the \*User value in the channel then it will return._
+
+#### Q51. After importing `encoding/json`, how will you access the `Marshal` function?
+
+- [ ] `encoding.json.Marshal`
+- [ ] `encoding/json.Marshal`
+- [ ] `Marshal`
+- [x] `json.Marshal`
+
+[encoding/json#Marshal example](https://pkg.go.dev/encoding/json#example-Marshal)
+
+#### Q52. What are the two missing segments of code that would complete the use of `context.Context` to implement a three-second timeout for this HTTP client making a GET request?
+
+```go
+package main
+
+import (
+        "context"
+        "fmt"
+        "net/http"
+)
+
+func main() {
+        var cancel context.CancelFunc
+        ctx := context.Background()
+
+        // #1: <=== What should go here?
+
+        req, _ := http.NewRequest(http.MethodGet,
+                "https://linkedin.com",
+                nil)
+
+        // #2: <=== What should go here?
+
+        client := &http.Client{}
+        res, err := client.Do(req)
+        if err != nil {
+                fmt.Println("Request failed:", err)
+                return
+        }
+        fmt.Println("Response received, status code:",
+                res.StatusCode)
+}
+```
+
+- [ ] `#1: ctx.SetTimeout(3*time.Second) #2: req.AttachContext(ctx)`
+- [x] `#1: ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel() #2: req = req.WithContext(ctx)`
+- [ ] `#1: ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel() #2: req.AttachContext(ctx)`
+- [ ] `#1: ctx.SetTimeout(3*time.Second) #2: req = req.WithContext(ctx)`
+
+1. [context#WithTimeout](https://pkg.go.dev/context#WithTimeout)
+2. [net/http#Request.WithContext](https://pkg.go.dev/net/http#Request.WithContext)

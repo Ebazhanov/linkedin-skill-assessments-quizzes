@@ -745,7 +745,7 @@
 - [x] Limit the tag to 65 characters, including spaces
 - [ ] Write compelling copy that encourages users to “click” your listing
 
-#### Q93. Which HTTP web server reaction code suggests a file that no more exists? (File Not Found). 
+#### Q93. Which HTTP web server reaction code suggests a file that no more exists? (File Not Found).
 
 - [ ] 40A
 - [ ] 30A

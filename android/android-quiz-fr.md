@@ -284,6 +284,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
     <solid android:color="@android:color/black" />
   </shape>
 ```
+
 - \[ ]
 
 ```xml
@@ -307,7 +308,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
 - \[ ]
 
-``` xml
+```xml
   <shape xmlns:android="http://schemas.android.com/apk/res/android"
       android:shape="oval">
       <stroke
@@ -383,6 +384,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
                 android:text="Button" />
   </LinearLayout>
 ```
+
 - \[ ] A
   ![img](image/00.jpeg)
 - \[x] B
@@ -539,6 +541,7 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 
   </androidx.constraintlayout.widget.ConstraintLayout>
 ```
+
 - \[ ]
 
 ```xml
@@ -790,7 +793,6 @@ Remarque: AndroidJUnitRunner nous permet d’exécuter des tests de style JUnit3
 - \[ ] inclure le plugin: 'com.module.library'
 
 #### Q53. Compte tenu des dimens.xml fichier suivants, comment définiriez-vous un ImageView avec un espacement moyen en bas ?
-
 
 ```xml
 <?xml version=1.0 encoding="utf-8"?>

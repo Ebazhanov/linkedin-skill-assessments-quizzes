@@ -59,11 +59,11 @@ export class UserDetailsComponent {
 
 ```ts
 export class OrderService {
-    constructor(private httpClient: HttpClient) { }
+  constructor(private httpClient: HttpClient) {}
 
-    addOrder(order: Order) {
-      // Missing line
-    }
+  addOrder(order: Order) {
+    // Missing line
+  }
 }
 ```
 
@@ -511,10 +511,10 @@ expect(fixture.nativeElement.querySelector('h1').textContent).toContain(
 
 ```ts
 export class ToolsComponent {
- constructor (private router: Router) { }
- goToUser (id: number) {
-   this.router.navigate(['user', id]);
- }
+  constructor(private router: Router) {}
+  goToUser(id: number) {
+    this.router.navigate(['user', id]);
+  }
 }
 ```
 
@@ -859,11 +859,11 @@ export class TruncateDirective {
 
 ```ts
 export class OrderService {
-    constructor(private httpClient: HttpClient) { }
+  constructor(private httpClient: HttpClient) {}
 
-    getOrdersByYear(year: number): Observable<Order[]> {
-      return this.httpClient.get<Order[]>(this.ordersUrl);
-    }
+  getOrdersByYear(year: number): Observable<Order[]> {
+    return this.httpClient.get<Order[]>(this.ordersUrl);
+  }
 }
 ```
 
@@ -872,7 +872,7 @@ export class OrderService {
 - [x] C
 
 ```ts
-const options = {params: new HttpParams().set('year', year) };
+const options = { params: new HttpParams().set('year', year) };
 return this.httpClient.get<Order[]>(this.ordersUrl, options);
 ```
 
@@ -918,9 +918,7 @@ export class OrderHistoryComponent {
 - [ ] A
 
 ```ts
-<div #inactive>
-  User is not active.
-</div>
+<div #inactive>User is not active.</div>
 ```
 
 - [ ] B
@@ -1034,8 +1032,8 @@ export class DataService { }
 
 ```ts
 export interface AppSettings {
-	title: string;
-	version: number;
+  title: string;
+  version: number;
 }
 export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
 ```
@@ -1063,12 +1061,11 @@ export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
 #### Q55. What is the purpose of the `prelodingStrategy` property configuration in this router code?
 
 ```ts
-RouterModule.forRoot (
-	...
-	{
-	preloadingStrategy: PreloadAllModules
-	}
-)
+RouterModule.forRoot(
+  ...{
+    preloadingStrategy: PreloadAllModules,
+  },
+);
 ```
 
 - [ ] It enables the option to flag individual routes for preloading.

@@ -875,4 +875,3 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] -arch
 - [ ] -ps
 - [ ] -pname
-

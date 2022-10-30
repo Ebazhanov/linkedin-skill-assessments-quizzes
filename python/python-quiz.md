@@ -1624,7 +1624,7 @@ num_list[len(num_list) // 2]
 
 [Reference](https://pandas.pydata.org/docs/user_guide/dsintro.html)
 
-#### Q119. Suppose you have a variale named `vector` of type np.array with 10,000 elements. How can you turn `vector` into a variable named `matrix` with dimensions 100x100?
+#### Q119. Suppose you have a variable named `vector` of type np.array with 10,000 elements. How can you turn `vector` into a variable named `matrix` with dimensions 100x100?
 
 - [ ] `matrix = (vector.shape = (100,100))`
 - [ ] `matrix = vector.to_matrix(100,100)`
@@ -2343,3 +2343,16 @@ MISSING_ARG_3 = func
 - [ ] points
 - [x] markers
 - [ ] none of these
+
+#### Q172. What does this code print?
+
+```
+a = np.array([[1, 2], [3, 4], [5, 6]])
+c = a[(a > 3) & (a < 11)]
+print(c)
+```
+
+- [ ] `[[3, 4], [5, 6]]`
+- [ ] `[False, False, False, True, True, True]`
+- [ ] `[[0,0], [3, 4], [5, 6]]`
+- [x] `[4 5 6]`

@@ -59,11 +59,11 @@ export class UserDetailsComponent {
 
 ```ts
 export class OrderService {
-    constructor(private httpClient: HttpClient) { }
+  constructor(private httpClient: HttpClient) {}
 
-    addOrder(order: Order) {
-      // Missing line
-    }
+  addOrder(order: Order) {
+    // Missing line
+  }
 }
 ```
 
@@ -514,10 +514,10 @@ expect(fixture.nativeElement.querySelector('h1').textContent).toContain(
 
 ```ts
 export class ToolsComponent {
- constructor (private router: Router) { }
- goToUser (id: number) {
-   this.router.navigate(['user', id]);
- }
+  constructor(private router: Router) {}
+  goToUser(id: number) {
+    this.router.navigate(['user', id]);
+  }
 }
 ```
 
@@ -863,13 +863,13 @@ const userService = TestBed.get(UserService);
 #### Q47. Comment pouvez-vous transmettre des paramètres de requête à ceci `HttpClient.get` demander?
 
 ```ts
-  export class OrderService {
-      constructor(private httpClient: HttpClient) { }
+export class OrderService {
+  constructor(private httpClient: HttpClient) {}
 
-      getOrdersByYear(year: number): Observable<Order[]> {
-        return this.httpClient.get<Order[]>(this.ordersUrl);
-      }
+  getOrdersByYear(year: number): Observable<Order[]> {
+    return this.httpClient.get<Order[]>(this.ordersUrl);
   }
+}
 ```
 
 - \[ ] `return this.httpClient.get<Order[]>(this.ordersUrl, {'year': year})`
@@ -877,9 +877,10 @@ const userService = TestBed.get(UserService);
 - \[x]
 
 ```ts
-  const options = {params: new HttpParams().set('year', year) };
-  return this.httpClient.get<Order[]>(this.ordersUrl, options);
+const options = { params: new HttpParams().set('year', year) };
+return this.httpClient.get<Order[]>(this.ordersUrl, options);
 ```
+
 - \[ ]
 
 ```ts
@@ -924,9 +925,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
 - \[ ]
 
 ```ts
-<div #inactive>
-  User is not active.
-</div>
+<div #inactive>User is not active.</div>
 ```
 
 - \[ ]
@@ -965,6 +964,7 @@ getOrdersByYear(year: number): Observable<Order[]> {
       lazy: './users/users.module#UsersModule'
   }
 ```
+
 - \[x]
 
 ```
@@ -1046,7 +1046,6 @@ export interface AppSettings {
 export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
 ```
 
-
 - \[ ] L’InjectionToken ajoute une instance des AppSettings au fournisseur racine via l’appel du constructeur InjectionToken, ce qui la rend automatiquement disponible pour tous les NgModules, services et composants de l’application Angular sans qu’il soit nécessaire de l’injecter n’importe où.
 - \[x] L’InjectionToken est utilisé pour créer un jeton de fournisseur pour une dépendance non-classe. Un littéral d’objet peut être fournisseur en tant que valeur pour le type de fournisseur de dépendance APP_SETTINGS qui peut ensuite être injecté dans des composants, des services, etc.
 - \[ ] L’InjectionToken est utilisé pour créer un décorateur dynamique pour les AppSettings qui peut être utilisé sur les paramètres du constructeur via un décorateur @AppSettings.
@@ -1056,8 +1055,8 @@ export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
 
 ```html
 <form #form="ngForm">
-  <input type="text" ngModel="firstName">
-  <input type="text" ngModel="lastName">
+  <input type="text" ngModel="firstName" />
+  <input type="text" ngModel="lastName" />
   <button (click)="submit()">Save</button>
 </form>
 ```
@@ -1070,12 +1069,11 @@ export const APP_SETTINGS = new InjectionToken<AppSettings>('app.settings');
 #### Q55. Quel est le but de la configuration de la propriété prelodingStrategy dans ce code de routeur ?
 
 ```ts
-RouterModule.forRoot (
-  ...
-  {
-  preloadingStrategy: PreloadAllModules
-  }
-)
+RouterModule.forRoot(
+  ...{
+    preloadingStrategy: PreloadAllModules,
+  },
+);
 ```
 
 - \[ ] Il permet de marquer des itinéraires individuels pour le préchargement.
