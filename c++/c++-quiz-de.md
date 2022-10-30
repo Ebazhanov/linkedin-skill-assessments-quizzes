@@ -95,7 +95,7 @@ union {
 
 #### Q7. Was gibt dieses Programm aus?
 
-```
+```cpp
 #include <iostream>
 char str[20]="Hi, there!";
 int main(){

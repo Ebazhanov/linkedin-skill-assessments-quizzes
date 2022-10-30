@@ -563,7 +563,7 @@ int main(){
 
 #### Q36. Which choice is _not_ a valid type definition of a structure that contains x and y coordinates as integers, and that can be used exactly as shown for the variable named `center`?
 
-```
+```cpp
 coord center;
 center.x = 5;
 center.y = 3;
@@ -989,7 +989,7 @@ A->B->C->D
 - [ ] `&A.&B.&C.&D`
 - [x] `*(*((*A).B).C).D`
 
-Note: a more complex variant of the question above.
+**Note:** a more complex variant of the question above.
 
 #### Q57. What does this function do?
 
