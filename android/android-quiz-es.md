@@ -833,7 +833,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
 
 - \[ ]
 
-````xml
+```xml
   <ImageView
       android:id="@+id/image_map_pin"
       android:layout_width="wrap_content"
@@ -850,7 +850,7 @@ Aviso: AndroidJUnitRunner nos permite ejecutar pruebas de estilo JUnit3/4 en dis
       android:layout_heignt="wrap_content"
       android:layout_marginBottom="@dimen/spacing_medium"
       android:src=@drawable/map_pin />
-````
+```
 
 #### Pregunta 54. ¿Qué no es beneficioso de externalizar los recursos de la aplicación, como la imagen y la cadena, a partir de un código?
 

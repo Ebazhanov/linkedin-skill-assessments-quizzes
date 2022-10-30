@@ -105,7 +105,7 @@ mysql < file.sql > file.txt
 - \[ ] el resultado de error del comando MySQL
 - \[x] la salida sin error del comando MySQL
 
-Nota: consulte la siguiente pregunta para obtener una variante.
+**Nota:** consulte la siguiente pregunta para obtener una variante.
 
 #### P11. ¿Cuál será la diferencia entre la salida en pantalla y el contenido de out.txt
 
@@ -118,7 +118,7 @@ mysql < file.sql > out.txt
 - \[ ] La salida en la pantalla será idéntica a out.txt más números de línea.
 - \[ ] El archivo out.txt contendrá STDERR y STDOUT irá a la pantalla.
 
-Nota: consulte la pregunta anterior para ver si hay una variante.
+**Nota:** consulte la pregunta anterior para ver si hay una variante.
 
 #### P12. ¿Cómo afecta el SUID o setuid a los comandos ejecutables?
 
@@ -345,28 +345,28 @@ ll | sed -e 's,file,text,g'
 
 <!---->
 
-      -rw-r--r-- 1 frankmolev staff 374   Jun 3 19:30 .
-      -rw-r--r-- 1 frankmolev staff 1666  Jun 3 19:30 ..
-      -rw-r--r-- 1 frankmolev staff 0     Jun 3 19:30 file1.file
-      -rw-r--r-- 1 frankmolev staff 0     Jun 3 19:30 file2.file
-      ..
+    -rw-r--r-- 1 frankmolev staff 374   Jun 3 19:30 .
+    -rw-r--r-- 1 frankmolev staff 1666  Jun 3 19:30 ..
+    -rw-r--r-- 1 frankmolev staff 0     Jun 3 19:30 file1.file
+    -rw-r--r-- 1 frankmolev staff 0     Jun 3 19:30 file2.file
+    ..
 
 - \[ ] B
 
 <!---->
 
-      -rw-r--r-- 1 frankmolev staff 374   Jun 3 19:30 .
-      -rw-r--r-- 1 frankmolev staff 1666  Jun 3 19:30 ..
-      -rw-r--r-- 1 frankmolev staff 0     Jun 3 19:30 file1.txt
-      -rw-r--r-- 1 frankmolev staff 0     Jun 3 19:30 file2.txt
-      ..
+    -rw-r--r-- 1 frankmolev staff 374   Jun 3 19:30 .
+    -rw-r--r-- 1 frankmolev staff 1666  Jun 3 19:30 ..
+    -rw-r--r-- 1 frankmolev staff 0     Jun 3 19:30 file1.txt
+    -rw-r--r-- 1 frankmolev staff 0     Jun 3 19:30 file2.txt
+    ..
 
 - \[ ] C
 
 <!---->
 
-      -rw-r--r-- 1 frankmolev staff 68    Jun 3 19:30 .
-      -rw-r--r-- 1 frankmolev staff 1666  Jun 3 19:30 ..
+    -rw-r--r-- 1 frankmolev staff 68    Jun 3 19:30 .
+    -rw-r--r-- 1 frankmolev staff 1666  Jun 3 19:30 ..
 
 - \[x] D
 

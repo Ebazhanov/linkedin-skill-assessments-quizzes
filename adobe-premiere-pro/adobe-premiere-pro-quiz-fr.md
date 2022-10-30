@@ -110,7 +110,7 @@ E. Blur
 
 #### Q15. Vous souhaitez enregistrer une courte partie d’un clip plus long pour un accès facile. Comment pouvez-vous faire cela?
 
-![image](images/002.png?raw=png)
+![image](images/002.png)
 
 - \[ ] dans l’Explorateur de médias, marquez les points d’entrée et de sortie sur un élément, puis importez.
 - \[ ] Marquez les points d’entrée et de sortie sur l’élément dans le Moniteur du programme et sélectionnez Sélectionner l’option Clip > Make Subclip.
@@ -133,7 +133,7 @@ E. Blur
 
 #### Q18. Vous travaillez avec un nouveau projet et vous éditez depuis deux heures. Quel est le nombre de projets de sauvegarde que vous vous attendez à trouver ?
 
-![image](images/003.png?raw=png)
+![image](images/003.png)
 
 - \[ ] 2
 - \[ ] 12
@@ -147,11 +147,11 @@ E. Blur
 - \[ ] Projet
 - \[x] Navigateur multimédia
 
-[Référence](https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-browser.html#:~:text=The%20Media%20Browser%20panel%20should,with%20fragmented%20media%20file%20types.&text=To%20import%20selected%20clips%20into,on%20them%20and%20choose%20Import)
+Référence : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-browser.html#:~:text=The%20Media%20Browser%20panel%20should,with%20fragmented%20media%20file%20types.\&text=To%20import%20selected%20clips%20into,on%20them%20and%20choose%20Import.
 
 #### Q20. Une transition est définie sur aligné au centre. Quel serait le résultat d’un glissement avec l’outil sélectionné, vers la droite ?
 
-![image](images/004.png?raw=png)
+![image](images/004.png)
 
 - \[x] La transition glisserait vers la droite.
 - \[ ] Vous n’étendriez que le côté droit de la transition.
@@ -181,7 +181,7 @@ E. Blur
 
 #### Q24. Comment ce clip a-t-il été manipulé à l’aide d’un réglage Courbes ?
 
-![image](images/005.png?raw=png)
+![image](images/005.png)
 
 - \[x] Hue contre Luma
 - \[ ] Saturation vs saturation
@@ -211,7 +211,7 @@ E. Blur
 
 #### Q28. Dans le scénario illustré ci-dessous, vous souhaitez étendre la fin de l’élément rouge dans le montage et ne pas modifier la durée de l’élément adjacent. Quel est le choix de finition le plus approprié pour y parvenir?
 
-![image](images/006.png?raw=png)
+![image](images/006.png)
 
 - \[ ] Couper
 - \[x] Découper
@@ -264,7 +264,7 @@ E. M4A
 
 #### Q33. Que pouvez-vous dire sur cette transition ?
 
-![image](images/007.png?raw=png)
+![image](images/007.png)
 
 - \[ ] Premiere insérera du blanc pour remplir les poignées nécessaires.
 - \[ ] Premiere insérera du noir pour remplir les poignées nécessaires.
@@ -287,7 +287,7 @@ E. M4A
 
 #### Q36. Vous voulez réduire la saturation dans les nuages indiqués ci-dessous. Quel réglage des courbes rend cela plus facile?
 
-![image](images/008.png?raw=png)
+![image](images/008.png)
 
 - \[ ] Teinte vs saturation
 - \[ ] Courbes RVB
@@ -311,7 +311,7 @@ E. Ellipse
 
 #### Q38. Quelle option peut créer un champ de couleur qui ajuste automatiquement la taille lorsque vous ajoutez ou soustrayez d’un calque de texte ?
 
-![image](images/009.png?raw=png)
+![image](images/009.png)
 
 - \[ ] Choisissez Remplir dans les contrôles Apparence.
 - \[ ] Choisissez Contour dans les contrôles Apparence.
@@ -327,7 +327,7 @@ E. Ellipse
 
 #### Q40. En regardant l’histogramme ci-dessous, quel curseur de réglage unique pourrait créer ce changement?
 
-![image](images/010.png?raw=png)
+![image](images/010.png)
 
 - \[ ] Noirs
 - \[x] Contraste
@@ -371,7 +371,7 @@ E. Ellipse
 
 #### Q46. Quelle option est activée pour affecter la vue des formes d’onde audio comme indiqué ci-dessous ?
 
-![image](images/011.png?raw=png)
+![image](images/011.png)
 
 - \[ ] Afficher les unités de temps audio
 - \[ ] Forme d’onde audio rectifiée

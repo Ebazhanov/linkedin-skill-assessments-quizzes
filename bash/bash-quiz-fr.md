@@ -105,7 +105,7 @@ mysql < file.sql > file.txt
 - \[ ] la sortie d’erreur de la commande MySQL
 - \[x] la sortie sans erreur de la commande MySQL
 
-Remarque: vérifiez la question ci-dessous pour une variante.
+**Remarque:** vérifiez la question ci-dessous pour une variante.
 
 #### Q11. Quelle sera la différence entre la sortie à l’écran et le contenu de la sortie.txt
 
@@ -118,7 +118,7 @@ mysql < file.sql > out.txt
 - \[ ] La sortie à l’écran sera identique à out.txt plus les numéros de ligne.
 - \[ ] Le fichier out.txt contiendra STDERR et STDOUT ira à l’écran.
 
-Remarque: vérifiez la question ci-dessus pour une variante.
+**Remarque:** vérifiez la question ci-dessus pour une variante.
 
 #### Q12. Comment le SUID ou le setuid affecte-t-il les commandes exécutables ?
 

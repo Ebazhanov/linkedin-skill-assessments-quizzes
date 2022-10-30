@@ -110,7 +110,7 @@ E. Blur
 
 #### P15. Desea guardar una pequeña parte de un clip más largo para facilitar el acceso. ¿Cómo puedes hacer esto?
 
-![image](images/002.png?raw=true)
+![image](images/002.png)
 
 - \[ ] en el Explorador de medios, marque los puntos de entrada y salida de un clip y, a continuación, impórtelos.
 - \[ ] Marque los puntos de entrada y salida del clip en el Monitor de programa y seleccione elegir Clip > Crear subclip.
@@ -133,7 +133,7 @@ E. Blur
 
 #### P18. Estás trabajando con un nuevo proyecto y has estado editando durante dos horas. ¿Cuál es el número de proyectos de copia de seguridad que esperaría encontrar?
 
-![image](images/003.png?raw=true)
+![image](images/003.png)
 
 - \[ ] 2
 - \[ ] 12
@@ -147,11 +147,11 @@ E. Blur
 - \[ ] Proyecto
 - \[x] Navegador de medios
 
-[Referencia](https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-browser.html#:~:text=The%20Media%20Browser%20panel%20should,with%20fragmented%20media%20file%20types.&text=To%20import%20selected%20clips%20into,on%20them%20and%20choose%20Import)
+Referencia : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-browser.html#:~:text=The%20Media%20Browser%20panel%20should,with%20fragmented%20media%20file%20types.\&text=To%20import%20selected%20clips%20into,on%20them%20and%20choose%20Import.
 
 #### P20. Una transición se establece en alineado al centro. ¿Cuál sería el resultado de arrastrar con la herramienta seleccionada, a la derecha?
 
-![image](images/004.png?raw=true)
+![image](images/004.png)
 
 - \[x] La transición se deslizaría hacia la derecha.
 - \[ ] Extenderías solo el lado derecho de la transición.
@@ -181,7 +181,7 @@ E. Blur
 
 #### P24. ¿Cómo se manipuló este clip mediante un ajuste de curvas?
 
-![image](images/005.png?raw=true)
+![image](images/005.png)
 
 - \[x] Hue vs. Luma
 - \[ ] Saturación vs. Saturación
@@ -211,7 +211,7 @@ E. Blur
 
 #### P28. En el escenario que se muestra a continuación, desea extender el final del clip rojo en la línea de tiempo y no cambiar la duración del clip adyacente. ¿Cuál es la opción de recorte más adecuada para lograr esto?
 
-![image](images/006.png?raw=true)
+![image](images/006.png)
 
 - \[ ] Recortar en
 - \[x] Recortar
@@ -264,7 +264,7 @@ E. M4A
 
 #### P33. ¿Qué puedes contar sobre esta transición?
 
-![image](images/007.png?raw=true)
+![image](images/007.png)
 
 - \[ ] Premiere insertará blanco para llenar los mangos necesarios.
 - \[ ] Premiere insertará negro para llenar los mangos necesarios.
@@ -287,7 +287,7 @@ E. M4A
 
 #### P36. Desea reducir la saturación solo en las nubes que se muestran a continuación. ¿Qué ajuste de curvas hace que esto sea más fácil?
 
-![image](images/008.png?raw=true)
+![image](images/008.png)
 
 - \[ ] Tono vs. Saturación
 - \[ ] Curvas RGB
@@ -311,7 +311,7 @@ E. Ellipse
 
 #### P38. ¿Qué opción puede crear un campo de color que ajuste automáticamente el tamaño a medida que agrega o resta de una capa de texto?
 
-![image](images/009.png?raw=true)
+![image](images/009.png)
 
 - \[ ] Elija Relleno en los controles Apariencia.
 - \[ ] Elija Trazo en los controles Apariencia.
@@ -327,7 +327,7 @@ E. Ellipse
 
 #### P40. Mirando el histograma a continuación, ¿qué control deslizante de ajuste único podría crear este cambio?
 
-![image](images/010.png?raw=true)
+![image](images/010.png)
 
 - \[ ] Negros
 - \[x] Contraste
@@ -371,7 +371,7 @@ E. Ellipse
 
 #### P46. ¿Qué opción está habilitada para afectar la vista de las formas de onda de audio como se muestra a continuación?
 
-![image](images/011.png?raw=true)
+![image](images/011.png)
 
 - \[ ] Mostrar unidades de tiempo de audio
 - \[ ] Forma de onda de audio rectificada

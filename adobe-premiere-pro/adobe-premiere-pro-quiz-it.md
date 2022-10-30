@@ -110,7 +110,7 @@ E. Blur
 
 #### D15. Si desidera salvare una breve porzione di una clip più lunga per un facile accesso. Come puoi farlo?
 
-![image](images/002.png?raw=png)
+![image](images/002.png)
 
 - \[ ] nel Browser multimediale, contrassegnare i punti di ingresso e stacco su una clip, quindi importare.
 - \[ ] Contrassegnare i punti di ingresso e di stacco sulla clip nel monitor Programma e selezionare scegli Clip > Crea clip secondaria.
@@ -133,7 +133,7 @@ E. Blur
 
 #### D18. Stai lavorando con un nuovo progetto e stai modificando da due ore. Qual è il numero di progetti di backup che ci si aspetterebbe di trovare?
 
-![image](images/003.png?raw=png)
+![image](images/003.png)
 
 - \[ ] 2
 - \[ ] 12
@@ -147,11 +147,11 @@ E. Blur
 - \[ ] Progetto
 - \[x] Browser multimediale
 
-[Riferimento](https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-browser.html#:~:text=The%20Media%20Browser%20panel%20should,with%20fragmented%20media%20file%20types.&text=To%20import%20selected%20clips%20into,on%20them%20and%20choose%20Import)
+Riferimento : https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-browser.html#:~:text=The%20Media%20Browser%20panel%20should,with%20fragmented%20media%20file%20types.\&text=To%20import%20selected%20clips%20into,on%20them%20and%20choose%20Import.
 
 #### D20. Una transizione è impostata su allineato al centro. Quale sarebbe il risultato del trascinamento con lo strumento selezionato, a destra?
 
-![image](images/004.png?raw=png)
+![image](images/004.png)
 
 - \[x] La transizione scivolerebbe verso destra.
 - \[ ] Estenderesti solo il lato destro della transizione.
@@ -181,7 +181,7 @@ E. Blur
 
 #### D24. In che modo questa clip è stata manipolata utilizzando una regolazione Curve?
 
-![image](images/005.png?raw=png)
+![image](images/005.png)
 
 - \[x] Tonalità contro Luma
 - \[ ] Saturazione vs. Saturazione
@@ -211,7 +211,7 @@ E. Blur
 
 #### D28. Nello scenario mostrato di seguito, desiderate estendere la fine della clip rossa nella timeline e non modificare la durata della clip adiacente. Qual è la scelta di assetto più appropriata per raggiungere questo obiettivo?
 
-![image](images/006.png?raw=png)
+![image](images/006.png)
 
 - \[ ] Trim In
 - \[x] Ritaglia
@@ -264,7 +264,7 @@ E. M4A
 
 #### D33. Cosa puoi dire di questa transizione?
 
-![image](images/007.png?raw=png)
+![image](images/007.png)
 
 - \[ ] Premiere inserirà il bianco per riempire le maniglie necessarie.
 - \[ ] Premiere inserirà il nero per riempire le maniglie necessarie.
@@ -287,7 +287,7 @@ E. M4A
 
 #### D36. Vuoi abbassare la saturazione solo nelle nuvole mostrate di seguito. Quale regolazione delle curve lo rende più semplice?
 
-![image](images/008.png?raw=png)
+![image](images/008.png)
 
 - \[ ] Tonalità vs. Saturazione
 - \[ ] Curve RGB
@@ -311,7 +311,7 @@ E. Ellipse
 
 #### D38. Quale opzione può creare un campo colore che regola automaticamente le dimensioni man mano che si aggiunge o si sottrae da un livello di testo?
 
-![image](images/009.png?raw=png)
+![image](images/009.png)
 
 - \[ ] Selezionate Riempimento dai controlli Aspetto.
 - \[ ] Selezionate Tratto (Stroke) dai controlli Aspetto (Appearance).
@@ -327,7 +327,7 @@ E. Ellipse
 
 #### D40. Guardando l'istogramma qui sotto, quale singolo cursore di regolazione potrebbe creare questa modifica?
 
-![image](images/010.png?raw=png)
+![image](images/010.png)
 
 - \[ ] Neri
 - \[x] Contrasto
@@ -371,7 +371,7 @@ E. Ellipse
 
 #### D46. Quale opzione è abilitata per influire sulla visualizzazione delle forme d'onda audio come mostrato di seguito?
 
-![image](images/011.png?raw=png)
+![image](images/011.png)
 
 - \[ ] Mostra unità di tempo audio
 - \[ ] Forma d'onda audio rettificata
