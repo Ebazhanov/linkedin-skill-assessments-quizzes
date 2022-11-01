@@ -775,3 +775,14 @@ let vt = (name: "ABC", val: 5)
 - [x] all of these answers
 - [ ] let x = vt.val
 - [ ] let (`_`, x) = vt
+
+#### Q70. What is the type of x: let x = try?
+
+```swift
+String.init(from: decoder)
+```
+
+- [ ] String
+- [ ] String?
+- [x] String!
+- [ ] try?
