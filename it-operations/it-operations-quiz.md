@@ -4,29 +4,29 @@
 
 - [x] A
 
-  - Reset administrator password.
-  - Set network name.
-  - Set network security.
-  - Set network password.
+- Reset administrator password.
+- Set network name.
+- Set network security.
+- Set network password.
 
 - [ ] B
 
-  - Reset administrator password.
-  - Set network name.
-  - Set network password.
+- Reset administrator password.
+- Set network name.
+- Set network password.
 
 - [ ] C
 
-  - Set network name.
-  - Set network password.
-  - Assign DNS servers.
+- Set network name.
+- Set network password.
+- Assign DNS servers.
 
 - [ ] D
 
-  - Change administrator account name.
-  - Set network password.
-  - Set network name.
-  - Assign DNS servers.
+- Change administrator account name.
+- Set network password.
+- Set network name.
+- Assign DNS servers.
 
 #### Q2. Can you connect a DisplayPort monitor to a USB-C port on your computer?
 
@@ -60,20 +60,20 @@
 
 - [x] A
 
-  1. Modem
-  2. Gateway
-  3. Switch
+1. Modem
+2. Gateway
+3. Switch
 
 - [ ] B
 
-  1. Modem
-  2. Switch
-  3. Gateway
+1. Modem
+2. Switch
+3. Gateway
 
 - [ ] C
 
-  1. Gateway
-  2. Switch
+1. Gateway
+2. Switch
 
 - [ ] The order is not important.
 
@@ -101,28 +101,32 @@
 #### Q10. Which components are typically found on the motherboard?
 
 - [x]
-  basic I/O
-  graphics
-  NIC
-  battery
-  expansion slots
+basic I/O
+graphics
+NIC
+battery
+expansion slots
 
-- [ ] basic I/O
-      cooling
-      NIC
-      graphics
-      expansion slots
-- [ ] basic I/O
-      graphics
-      NIC
-      mass storage
-      expansion slots
 - [ ]
-  basic I/O
-  graphics
-  NIC
-  power supply
-  expansion slots
+basic I/O
+cooling
+NIC
+graphics
+expansion slots
+
+- [ ]
+basic I/O
+graphics
+NIC
+mass storage
+expansion slots
+
+- [ ]
+basic I/O
+graphics
+NIC
+power supply
+expansion slots
 
 #### Q11. What does the acronym RAID refer to?
 
