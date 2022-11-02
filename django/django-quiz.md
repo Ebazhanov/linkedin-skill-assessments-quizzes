@@ -28,28 +28,28 @@ Django comes with a robust cache system that lets you save dynamic pages, so the
 
 - [ ] A
 
-```
+```python
 url(r'shows/<int:season>/<int:episode>/', views.episode_number),
 url(r'shows/<slug:episode_name>/', views.episode_name)
 ```
 
 - [x] B
 
-```
+```python
 path('shows/<int:season>/<int:episode>/', views.episode_number),
 path('shows/<slug:episode_name>/', views.episode_name)
 ```
 
 - [ ] C
 
-```
+```python
 path('shows/<int:season>/<int:episode>', views.episode_number),
 path('shows/<slug:episode_name>/', views.episode_number)
 ```
 
 - [ ] D
 
-```
+```python
 url(r'^show/(?P<season>[0-9]+)/(?P<episode>[0-9]+)/$', views.episode_number),
 url(r'^show/(?P<episode_name>[\w-]+)/', views.episode_name
 ```
@@ -135,7 +135,7 @@ url(r'^show/(?P<episode_name>[\w-]+)/', views.episode_name
 
 - [x] A
 
-```
+```python
 class Star(models.Model):
 name = models.CharField(max_length=100)
 class Constellation(models.Model):
@@ -144,7 +144,7 @@ stars = models.ManyToManyField(Star)
 
 - [ ] B
 
-```
+```python
 class Star(models.Model):
 constellation = models.ForeignKey(Constellation, on_delete=models.CASCADE)
 class Constellation(models.Model):
@@ -153,7 +153,7 @@ stars = models.ForeignKey(Star, on_delete=models.CASCADE)
 
 - [ ] C
 
-```
+```python
 class Star(models.Model):
 name = models.CharField(max_length=100)
 class Constellation(models.Model):
@@ -162,7 +162,7 @@ stars = models.OneToManyField(Star)
 
 - [ ] D
 
-```
+```python
 class Star(models.Model):
 constellation = models.ManyToManyField(Constellation)
 class Constellation(models.Model):
@@ -306,7 +306,7 @@ name = models.CharField(max_length=100)
 
 #### Q36. How would you define the relation between a book and an author - book has only one author.
 
-```
+```python
 class Author (models.model):
 book=models.foreignkey(Book,on_delete=models.cascade)
 class Book(models.model):
@@ -324,7 +324,7 @@ author=models.foreignkey(Author,on_delete=models.cascade)
 
 - [ ] B
 
-```
+```python
 class Author (models.model):
 name=models.charfield(max_length=100)
 class Book(models.model):
@@ -333,7 +333,7 @@ author=models.foreignkey(Author)
 
 - [ ] C
 
-```
+```python
 class Author (models.model):
 name=models.charfield(max_length=100)
 class Book(models.model):
@@ -342,7 +342,7 @@ author=models.foreignkey(Author,on_delete=models.cascade)
 
 - [ ] D
 
-```
+```python
 class Author (models.model):
 name=models.charfield(max_length=100)
 class Book(models.model):
@@ -379,7 +379,7 @@ author=Author.name
 
 #### Q41. How should the code end?
 
-```
+```python
 { percentage if spark >= 50 percentage }
 Lots of spark
 {percentage elif spark == 42 percentage}
@@ -392,14 +392,14 @@ Lots of spark
 
 #### Q42. Which code block will create a serializer?
 
-```
+```python
 from rest_framework import serializers
 from .models import Planet
 ```
 
 - [x] A
 
-```
+```python
 class PlanetSerializer(serializers.ModelSerializer):
 class Meta:
 model=Planet
@@ -408,7 +408,7 @@ fields=('name','position', 'mass', 'rings')
 
 - [ ] B
 
-```
+```python
 from rest_framework import serializers
 from .models import Planet
 class PlanetSerializer():
@@ -419,7 +419,7 @@ model=Planet
 
 - [ ] C
 
-```
+```python
 from django.db import serializers
 from .models import Planet
 class PlanetSerializer(serializers.ModelSerializer):
@@ -429,7 +429,7 @@ model=Sandwich
 
 - [ ] D
 
-```
+```python
 from django.db import serializers
 from .models import Planet
 class PlanetSerializer(serializers.ModelSerializer):
