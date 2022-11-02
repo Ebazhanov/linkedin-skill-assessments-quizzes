@@ -311,26 +311,38 @@
 
 > Note: The differences are `IFormResult`/`IActionResult` and `Forms`/`Form`
 
-- [ ] public IFormResult ReceivedDataByRequest()
-      {
+- [ ] 
+```c#
+public IFormResult ReceivedDataByRequest()
+{
       string theName = Request.Forms["theName"];
       return View();
-      }
-- [ ] public IActionResult ReceivedDataByRequest()
-      {
+}
+```
+- [ ] 
+```c#
+public IActionResult ReceivedDataByRequest()
+{
       string theName = Request.Forms["theName"];
       return View();
-      }
-- [ ] public IFormResult ReceivedDataByRequest()
-      {
+}
+```
+- [ ] 
+```c#
+public IFormResult ReceivedDataByRequest()
+{
       string theName = Request.Form["theName"];
       return View();
-      }
-- [x] public IActionResult ReceivedDataByRequest()
-      {
+}
+```
+- [x] 
+```c#
+public IActionResult ReceivedDataByRequest()
+{
       string theName = Request.Form["theName"];
       return View();
-      }
+}
+```
 
 #### Q45. Where should you store connection string information?
 
