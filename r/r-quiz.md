@@ -218,7 +218,7 @@ print(deliver)
 
 - [ ]
 
-```
+```r
 v1<-list(1,2,3)
 v2<-list(c(4,5,6))
 vbound<-cbind(v1,v2)
@@ -226,7 +226,7 @@ vbound<-cbind(v1,v2)
 
 - [ ]
 
-```
+```r
 v1<-c(1,2,3)
 v2<-list(4,5,6))
 vbound<-cbind(v1,v2)
@@ -234,7 +234,7 @@ vbound<-cbind(v1,v2)
 
 - [ ]
 
-```
+```r
 v1<-c(1,2,3)
 v2<-c(4,5,6))
 vbound<-cbind(v1,v2)
@@ -251,7 +251,7 @@ vbound<-cbind(v1,v2)
 
 #### Q27. What is the value of names(v[4])?
 
-```
+```r
 v <- 1:3
 names(v) <- c("a", "b", "c")
 v[4] <- 4
@@ -264,7 +264,7 @@ v[4] <- 4
 
 #### Q28. Which of the following statements doesn't yield the code output below. Review the following code. What is the result of line 3?
 
-```
+```r
 x <- c(1, 2, 3, 4)
 Output: [1] 2 3 4
 ```
@@ -285,7 +285,7 @@ Output: [1] 2 3 4
 
 #### Q30. What does R return in response to the final statement?
 
-```
+```r
 x<-5:8
 names(x)<-letters[5:8]
 x
@@ -300,7 +300,7 @@ x
 
 #### Q31. How do you return "October" from x in this code?
 
-```
+```r
 x<-as.Date("2018-10-01")
 ```
 
@@ -311,7 +311,7 @@ x<-as.Date("2018-10-01")
 
 #### Q32. How will R respond to the last line of this code?
 
-```
+```r
 fact<-factor(c("Rep","Dem","Dem","Rep"))
 fact
 [1] Rep Dem Dem Rep
@@ -326,7 +326,7 @@ fact[2]<-"Ind"
 
 #### Q33. What does R return?
 
-```
+```r
 StartDate<- as.Date("2020/2/28")
 StopDate<- as.Date("2020/3/1")
 StopDate-StartDate
@@ -339,7 +339,7 @@ StopDate-StartDate
 
 #### Q34. What does the expression `mtrx * mtrx` do ?
 
-```
+```r
 > mtrx <- matrix( c(3,5,8,4), nrow= 2,ncol=2,byrow=TRUE)
 > newmat <- mtrx * mtrx
 ```
@@ -528,7 +528,7 @@ Petal.Width:Speciesvirginica    0.1008     0.5248   0.192   0.8480
 
 - [ ] :
 
-```
+```r
 late_delivery <- pizza$delivery_min >= 30
 index_late <- index(late_delivery)
 index_late
@@ -536,7 +536,7 @@ index_late
 
 - [ ] :
 
-```
+```r
 late_delivery <- pizza$delivery_min >= 30
 rownum_late <- rownum(late_delivery)
 rownum_late
@@ -544,7 +544,7 @@ rownum_late
 
 - [x] :
 
-```
+```r
 late_delivery <- pizza$delivery_min >= 30
 which_late <- which(late_delivery)
 which_late
@@ -552,7 +552,7 @@ which_late
 
 - [ ] :
 
-```
+```r
 late_delivery <- pizza$delivery_min >= 30
 late <- piza$late_delivery
 pizza$late
@@ -600,7 +600,7 @@ a <- list("10", TRUE, 5.6)
 
 #### Q55. What is the result of these three lines of code?
 
-```
+```r
 vect1 <- c(1:4)
 vect2 <- c(1:2)
 vect1 * vect2
@@ -620,7 +620,7 @@ vect1 * vect2
 
 #### Q57. The variable potus is a character vector, as shown in line 1 below. Wich statement returns the results shown?
 
-```
+```r
 1 potus <- c("GHW Bush", "Clinton", "GW Bush", "Obama")
 
 Results: [1] "GHW BUsh" "Clinton" "Obama"
@@ -640,7 +640,7 @@ Results: [1] "GHW BUsh" "Clinton" "Obama"
 
 #### Q59. Review line 1 below. What does the statement on line 2 return?
 
-```
+```r
 1 myvect <- c(-2,-1,0)
 2 as.logical(myvect)
 ```

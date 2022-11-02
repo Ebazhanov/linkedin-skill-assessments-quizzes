@@ -185,8 +185,10 @@ The Microphone class saves captured audio as an audio clip asset, which may then
 
 #### Q24. What does the C# Space attribute used below achieved?
 
-    [Space(20)]
-    Public string PlayerName;
+```c#
+[Space(20)]
+Public string PlayerName;
+```
 
 - [ ] It inserts 20 space characters as a default value into the string variable below
 - [ ] It inserts 20 pixels of margin on all edges around the variable inside the Object Inspector
@@ -269,7 +271,7 @@ The Microphone class saves captured audio as an audio clip asset, which may then
 
 #### Q35. What does this code fragment do when attached to a rigged character?
 
-```
+```c#
     public Animator avatar;
     public Transform lookAtObj;
     void OnAnimatorIK(int layerIndex)
@@ -392,7 +394,7 @@ Quaternion.Euler converts the Euler number provided to the internally used Quart
 
 - [ ] A
 
-```
+```c#
 public class Health : MonoBehavior
 {
     private float HealthPoints = 100f;
@@ -414,7 +416,7 @@ public class Health : MonoBehavior
 
 - [ ] B
 
-```
+```c#
 public class Health : MonoBehavior
 {
     public UnityEvent OnHealthChanged;
@@ -436,7 +438,7 @@ public class Health : MonoBehavior
 
 - [x] C
 
-```
+```c#
 public class Health : MonoBehavior
 {
     public float HealthPoints
@@ -459,7 +461,7 @@ public class Health : MonoBehavior
 
 - [ ] D
 
-```
+```c#
 public class Health : MonoBehaviour
 {
     public float HealthPoints = 100f;

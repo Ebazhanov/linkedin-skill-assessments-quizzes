@@ -467,7 +467,7 @@ Note: there are centres of clusters (C0, C1, C2).
 - [x] There is not a lot of variance but there is a high bias.
 - [ ] Your model has low bias but high variance.
 
-  `Underfitted data models usually have high bias and low variance. Overfitted data models have low bias and high variance.`
+`Underfitted data models usually have high bias and low variance. Overfitted data models have low bias and high variance.`
 
 #### Q63. Asian user complains that your company's facial recognition model does not properly identify their facial expressions. What should you do?
 

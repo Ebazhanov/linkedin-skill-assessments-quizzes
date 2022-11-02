@@ -289,9 +289,9 @@ foo(5);
 #### Q30. What is the value of newVals after this code is executed?
 
 ```
-    NSArray *vals = @[@"1", @"2", @"3"];
-    NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF.intValue > 1"];
-    NSArray *newVals = [vals filteredArrayUsingPredicate:pred];
+NSArray *vals = @[@"1", @"2", @"3"];
+NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF.intValue > 1"];
+NSArray *newVals = [vals filteredArrayUsingPredicate:pred];
 ```
 
 - [x] 2,3
@@ -311,9 +311,9 @@ foo(5);
 #### Q32. What is the type of the error return value stored in json?
 
 ```
-    NSError *error;
-    NSData *data;
-    id json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
+NSError *error;
+NSData *data;
+id json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
 ```
 
 - [ ] NSString
@@ -324,7 +324,7 @@ foo(5);
 #### Q33. What is significant about this function declaration?
 
 ```
-    -(void)testFunc:(NSString**)str;
+-(void)testFunc:(NSString**)str;
 ```
 
 - [ ] The parameter is passed by value and can not be changed
@@ -335,16 +335,16 @@ foo(5);
 #### Q34. What is printed from this code execution?
 
 ```
-    typedef enum {
-        thing1,
-        thing2,
-        thing3
-    } Thing;
+typedef enum {
+    thing1,
+    thing2,
+    thing3
+} Thing;
 
 
-    -(void) enumStuff {
-        NSLog(@"%d", thing2);
-    }
+-(void) enumStuff {
+    NSLog(@"%d", thing2);
+}
 ```
 
 - [ ] 0

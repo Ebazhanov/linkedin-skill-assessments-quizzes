@@ -2,7 +2,7 @@
 
 #### Q1. Which two sets of values are printed by this function and sub?
 
-```
+```vb
 Function GetVitals(ID As Long, Age As Long, Optional Weight As Long) As String
     GetVitals="ID=" & ID &"Age=" & Age & "Weight=" & Weight
 End Function
@@ -59,7 +59,7 @@ ID=6 Age = 25 Weight=130
 
 #### Q4. What value does the MsgBox statement display?
 
-```
+```vb
 Sub MySub(VarA As Long, ParamArray VarB() As Variant)
 MsgBox VarB(0)
 End Sub
@@ -82,7 +82,7 @@ End Sub
 
 #### Q6. What is the output?
 
-```
+```vb
 Sub UseSum()
 Dim TestArray() As Integer, Total As Integer
 ReDim TestArray(1)
@@ -114,7 +114,7 @@ End Sub
 
 #### Q9. Below is a function named SquareIt. Which version of the subroutine named Area results in a compile error?
 
-```
+```vb
 Function SquareIt(ByRef Basis As Integer) As Long
 SquareIt = Basis ^ 2
 End Function
@@ -122,7 +122,7 @@ End Function
 
 - [ ] sub Area()
 
-```
+```vb
 Dim Result As Long, Side As Integer
 Side = 5
 Result = Squarelt(Side)
@@ -131,7 +131,7 @@ End Sub
 
 - [ ] Sub Area()
 
-```
+```vb
 Dim Result As Long, Side
 Side = 5
 Result = SquareIt(Cint(Side))
@@ -169,7 +169,7 @@ End Sub
 
 - [x] :
 
-```
+```vb
 Type CBC
 Name As String
 Next As String
@@ -178,7 +178,7 @@ End Type
 
 - [ ] :
 
-```
+```vb
 Type CBC
 Name As String
 _Next As String
@@ -187,7 +187,7 @@ End Type
 
 - [ ] :
 
-```
+```vb
 Type CBC
 Name As String
 @Option As String
@@ -196,7 +196,7 @@ End Type
 
 - [ ] :
 
-```
+```vb
 Type CBC
 Name As String
 %For As String
@@ -324,7 +324,7 @@ Dim MyArray(5) As Integer
 
 #### Q27. What is the value of Test3?
 
-```
+```vb
 Enum TestEnum
     Test1
     Test2
@@ -377,7 +377,7 @@ End Enum
 
 #### Q31. Explicit variable declaration is required. MyVar is declared at both the module and the procedure level. What is the value of MyVar after first AAA() and then BBB() are run?
 
-```
+```vb
 Dim MyVar As String
 Sub AAA()
 Dim MyVar As String
@@ -397,7 +397,7 @@ End Sub
 
 - [ ] :
 
-```
+```vb
 Public Property Get HDL() As Double
 HDL = pHDL
 End Property
@@ -408,7 +408,7 @@ End Property
 
 - [ ] :
 
-```
+```vb
 Property Get HDL() As Double
 HDL = Value
 End Property
@@ -419,7 +419,7 @@ End Property
 
 - [ ] :
 
-```
+```vb
 Public Property Get HDL() As Double
 HDL = Value
 End Property
@@ -430,7 +430,7 @@ End Property
 
 - [x] :
 
-```
+```vb
 Public Property Get HDL() As Single
 HDL = pHDL
 End Property
@@ -455,7 +455,7 @@ End Property
 
 #### Q35. What does this code display?
 
-```
+```vb
 Sub MakeErrors()
 Dim Y As Variant, Z As Variant
 On Error Resume Next
@@ -476,7 +476,7 @@ End Sub
 
 - [ ] :
 
-```
+```vb
 Private Sub CommandButton1_Click()
 If FoundErrors(Me) Then _
 Me.Show
@@ -485,7 +485,7 @@ End Sub
 
 - [ ] :
 
-```
+```vb
 Private Sub CommandButton1_Click()
 If Not FoundErrors(UserForm1) Then _
 Unload UserForm1
@@ -494,7 +494,7 @@ End Sub
 
 - [x] :
 
-```
+```vb
 Private Sub CommandButton1_Click()
 Me.Hide
 Do While FoundErrors(Me)
@@ -505,7 +505,7 @@ End Sub
 
 - [ ] :
 
-```
+```vb
 Private Sub CommandButton1_Click()
 Do While FoundErrors(UserForm1)
 UserForm1.show
@@ -519,7 +519,7 @@ End Sub
 
 - [ ] :
 
-```
+```vb
 With Selection
 &TypeText Text:="8/24/2019"
 &TypeParagraph
@@ -529,7 +529,7 @@ End With
 
 - [x] :
 
-```
+```vb
 With Selection
 .TypeText Text:="8/24/2019"
 .TypeParagraph
@@ -539,7 +539,7 @@ End With
 
 - [ ] :
 
-```
+```vb
 With Selection
 TypeText Text:="8/24/2019"
 TypeParagraph
@@ -549,7 +549,7 @@ End With
 
 - [ ] :
 
-```
+```vb
 With Selection:
 &TypeText Text:="8/24/2019"
 &TypeParagraph
@@ -561,7 +561,7 @@ End With
 
 #### Q38. Why does this code generate a "Subscript out of range" error?
 
-```
+```vb
 Sub Example()
     Dim MyArr() As Variant
     ReDim MyArr(3, 4)
@@ -600,28 +600,28 @@ End Sub
 
 - [ ] :
 
-```
+```vb
 Sub MySub(VarA As String, Optional VarB _
 As Variant, Optional VarC As Long)
 ```
 
 - [ ] :
 
-```
+```vb
 Sub MySub(VarA As String, Optional VarB _
 As Variant, VarC As Long)
 ```
 
 - [ ] :
 
-```
+```vb
 Sub MySub(Optional VarA As String, Optional VarB _
 As Variant, VarC as Long)
 ```
 
 - [ ] :
 
-```
+```vb
 Sub MySub(OPtional VarA As String, VarB _
 As Variant, Optional VarC as Long)
 ```
@@ -670,7 +670,7 @@ As Variant, Optional VarC as Long)
 
 #### Q49. Arrays cannot be resized more than once.
 
-```
+```vb
 Sub Example() Dim MyArr() As Variant ReDim MyArr(3, 4) 'some code ReDim Preserve MyArr(4, 4)
 End Sub Sub Example() Dim MyArr() As Variant ReDim MyArr(3, 4) 'some code ReDim Preserve MyArr(4, 4) End Sub
 ```
@@ -684,7 +684,7 @@ End Sub Sub Example() Dim MyArr() As Variant ReDim MyArr(3, 4) 'some code ReDim 
 
 - [ ] :
 
-```
+```vb
 Do
 X = X + 1
 i = i + 1
@@ -694,7 +694,7 @@ End Sub
 
 - [ ] :
 
-```
+```vb
 Sub Loopi()
 Dim X As Integer, i As Integer
 For i = 1 To 5
@@ -705,7 +705,7 @@ End Sub
 
 - [x] :
 
-```
+```vb
 Sub Loopi()
 Dim X As Integer, i As Integer
 Do Until i < 5
@@ -717,7 +717,7 @@ End Sub
 
 - [ ] :
 
-```
+```vb
 Sub Loopi()
 Dim X As Integer, i As Integer
 Do
@@ -743,7 +743,7 @@ End Sub
 
 #### Q53. This code is trying to establish a new collection consisting of employee names and numbers. Assoc is a class. What statement is missing from the code?
 
-```
+```vb
 Dim Associates As Collection, Assoc As CAssoc, i As Byte
 For i = 1 To 200
     Set Assoc = New CAssoc
@@ -788,7 +788,7 @@ Next i
 
 #### Q58. Based on this code, which procedure calls the subroutine SumCosts correctly?
 
-```
+```vb
 Sub Sumosts(AcctName As String, Amount As Long)
     Range("A1") = AcctName
 End Sub
@@ -803,7 +803,7 @@ End Sub
 
 #### Q59. You want to declare an object that describes cars, so that your VBA code can apply tests such as the following. What keyword do you use to declare Cars?
 
-```
+```vb
 If Cars(1).Make="Ford" And Cars (1).MPG > 20
     Then Cars(1).Selected = True
 ```
@@ -815,7 +815,7 @@ If Cars(1).Make="Ford" And Cars (1).MPG > 20
 
 #### Q60. What is the purpose of the .Range("A1:E5").Select portion of this statement?
 
-```
+```vb
 ActiveCell.Offset(3,4).Range("A1:E5").Select
 ```
 
@@ -826,7 +826,7 @@ ActiveCell.Offset(3,4).Range("A1:E5").Select
 
 #### Q61. In Excel, what is the effect of the two statements below?
 
-```
+```vb
 Range("b3:f5, c4:d9").Select
     	Range("b3:f5", "c4:d9").Select
 ```

@@ -2,10 +2,10 @@
 
 #### Q1. A dataset that includes \_ can be used to create a map visualization. (Select all that apply.)
 
-    A. house numbers, street names
-    B. geospatial data
-    C. city names, country names
-    D. longitude, latitude
+A. house numbers, street names
+B. geospatial data
+C. city names, country names
+D. longitude, latitude
 
 - [x] A, B, C, D
 - [ ] A, C, D

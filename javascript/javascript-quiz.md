@@ -99,7 +99,7 @@ for (var i = 1; i <= 4; i++) {
 }
 ```
 
-- [ ] .
+- [ ]
 
 ```js
 for (var i = 1; i <= 4; i++) {
@@ -111,7 +111,7 @@ for (var i = 1; i <= 4; i++) {
 }
 ```
 
-- [ ] .
+- [ ]
 
 ```js
 for (var i = 1; i <= 4; i++) {
@@ -121,7 +121,7 @@ for (var i = 1; i <= 4; i++) {
 }
 ```
 
-- [x] .
+- [x]
 
 ```js
 for (var i = 1; i <= 4; i++) {
@@ -133,7 +133,7 @@ for (var i = 1; i <= 4; i++) {
 }
 ```
 
-- [ ] .
+- [ ]
 
 ```js
 for (var j = 1; j <= 4; j++) {
@@ -157,7 +157,7 @@ for (var j = 1; j <= 4; j++) {
 
 #### Q10. Which statement creates a new function called discountPrice?
 
-- [x] .
+- [x]
 
 ```js
 let discountPrice = function (price) {
@@ -165,7 +165,7 @@ let discountPrice = function (price) {
 };
 ```
 
-- [ ] .
+- [ ]
 
 ```js
 let discountPrice(price) {
@@ -173,7 +173,7 @@ let discountPrice(price) {
 };
 ```
 
-- [ ] .
+- [ ]
 
 ```js
 let function = discountPrice(price) {
@@ -181,7 +181,7 @@ let function = discountPrice(price) {
 };
 ```
 
-- [ ] .
+- [ ]
 
 ```js
 discountPrice = function (price) {
@@ -217,7 +217,7 @@ console.log(bob.precip);
 - [ ] `/[0-9]+:[0-9]+:[0-9]+/`
 - [ ] `/ : : /`
 
-NOTE: The first three are all partially correct and will match digits, but the **second option is the most correct** because it will **only** match **2 digit** time values (12:00:32). The first option would have worked if the repetitions range looked like `[0-9]{2}`, however because of the **comma** `[0-9]{2,}` it will select 2 **or more** digits (120:000:321). The third option will any range of time digits, single _and_ multiple (meaning `1:2:3` will also match).
+**NOTE**: The first three are all partially correct and will match digits, but the **second option is the most correct** because it will **only** match **2 digit** time values (12:00:32). The first option would have worked if the repetitions range looked like `[0-9]{2}`, however because of the **comma** `[0-9]{2,}` it will select 2 **or more** digits (120:000:321). The third option will any range of time digits, single _and_ multiple (meaning `1:2:3` will also match).
 
 **More resources:**
 
@@ -1047,7 +1047,7 @@ setTimeout(() => {
 console.log('Javascript!');
 ```
 
-- [x] .
+- [x]
 
 ```plaintext
 I
@@ -1055,7 +1055,7 @@ Javascript!
 love
 ```
 
-- [ ] .
+- [ ]
 
 ```plaintext
 love
@@ -1065,7 +1065,7 @@ Javascript!
 
 - [ ] The output may change with each execution of code and cannot be determined.
 
-- [ ] .
+- [ ]
 
 ```
 I
@@ -1220,7 +1220,7 @@ console.log(animals.pop()); //Prints jaguar
 - [ ] `animals.shift();`
 - [x] `animals.pop();`
 
-`Note: this question has two correct answers.`
+**Note:** `this question has two correct answers.`
 
 [Reference Javascript Array Reverse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse)
 
