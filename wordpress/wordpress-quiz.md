@@ -65,22 +65,22 @@
 
 #### Q10. What color is the paragraph nested within the div?
 
-```<html>
+```html
 <head>
-        <style>
-                body { color: black; }
+    <style>
+        body { color: black; }
 
-                p { color: blue; }
+        p { color: blue; }
 
-                div { color: green; }
+        div { color: green; }
 
-                p { color: red; }
-        </style>
+        p { color: red; }
+    </style>
 </head>
 <body>
-        <div>
-                <p>This is a paragraph inside a div.</p>
-        </div>
+    <div>
+        <p>This is a paragraph inside a div.</p>
+    </div>
 </body>
 </html>
 ```
@@ -173,7 +173,7 @@ izer API to give users a way to manipulate basic theme settings. The Customizer 
 
 - [ ] .
 
-```
+```js
 $.ready(function() {
 // do stuff
 });
@@ -181,7 +181,7 @@ $.ready(function() {
 
 - [ ] .
 
-```
+```js
 (function($) {
 // do stuff
 })( jQuery );
@@ -189,7 +189,7 @@ $.ready(function() {
 
 - [x] .
 
-```
+```js
 $(function() {
 // do stuff
 });
@@ -197,7 +197,7 @@ $(function() {
 
 - [ ] .
 
-```
+```js
 jQuery(function($) {
 // do stuff
 });
@@ -630,7 +630,9 @@ endif;
 
 #### Q72. JavaScript variables can hold many data types. Which data type does the following variable represent?
 
-`var x = "16"`
+```js
+var x = "16"
+```
 
 - [ ] Boolean
 - [ ] Number

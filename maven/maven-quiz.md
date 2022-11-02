@@ -212,11 +212,11 @@ mvn install
 
 #### Q30. What does the following command do?
 
-    > mvn archetype:generate \
-    -DgroupID=sample-maven-project \
-    -DartifactID=com.palmer.bethan.sample \
-    -Dversion=1.0.0 \
-    -DinteractiveMode=false
+> mvn archetype:generate \
+-DgroupID=sample-maven-project \
+-DartifactID=com.palmer.bethan.sample \
+-Dversion=1.0.0 \
+-DinteractiveMode=false
 
 - [ ] It does nothing since no archetype has been specified
 - [ ] It generates a new Maven archetype

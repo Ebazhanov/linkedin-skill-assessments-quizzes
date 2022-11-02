@@ -313,7 +313,7 @@
 - [x] to avoid writing duplicate code
 - [ ] to separate class behavior from the more general
 
-_NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is it also true?
+**NOTE:** I don't have 4th variant in my test, it changed to new 5th variant. Is it also true?
 
 #### Q43. In addition to attributes and behaviours, what quality must a class possess?
 
@@ -498,7 +498,7 @@ _NOTE_: I don't have 4th variant in my test, it changed to new 5th variant. Is i
 
 - [ ] A
 
-```
+```java
 public class Car{
 }
 public class FlyingCars extends Car{
@@ -510,7 +510,7 @@ public class Honda Car{}
 
 - [ ] B
 
-```
+```java
 public class Car{
    public void fly(){}
 }
@@ -520,7 +520,7 @@ public class Honda extends Car{}
 
 - [ ] C
 
-```
+```java
 public class Car{
 public void fly(){}
 }
@@ -530,7 +530,7 @@ public class Honda Car{}
 
 - [x] D
 
-```
+```java
 public class Car{
 }
 public class FlyingCars extends Car{

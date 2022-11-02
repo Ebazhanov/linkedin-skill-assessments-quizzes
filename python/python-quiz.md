@@ -17,7 +17,6 @@
 - [ ] The `any()` function returns a Boolean value that answers the question "Are there any items in this list?"
 
 **example**
-
 ```python
 if any([True, False, False, False]) == True:
     print('Yes, there is True')
@@ -254,7 +253,6 @@ instance.password
 - [ ] It creates a mapping between two different elements of different iterables.
 
 **Explanation:** - The synax for `map()` function is `list(map(function,iterable))`. The simple area finder using map would be like this
-
 ```python
 import math
 radius = [1,2,3]
@@ -2159,7 +2157,7 @@ Else y = 1 + 30
 - [ ] conversion of a byte stream into Python object hierarchy
 - [ ] conversion of a list into a datatable
 
-Explanation:Pickling is the process of sterilizing a Python object, that is, conversion of a byte stream into Python object hierarchy. The reverse of this process is known as unpickling.
+**Explanation:** Pickling is the process of sterilizing a Python object, that is, conversion of a byte stream into Python object hierarchy. The reverse of this process is known as unpickling.
 
 #### Q158. What is the output of the following program ?
 
@@ -2212,7 +2210,7 @@ print(x**2 == -1)
 - [ ] 1j
 - [ ] False
 
-Explanation: The letter `j` acts as the imaginary unit in Python, therefore `x**2` means `j**2` which is equal to `-1`. The statement `x**2 == -1` is evaluated as `True`.
+**Explanation:** The letter `j` acts as the imaginary unit in Python, therefore `x**2` means `j**2` which is equal to `-1`. The statement `x**2 == -1` is evaluated as `True`.
 
 #### Q164. What will be printed in the console if you run this code?
 
@@ -2225,7 +2223,7 @@ print(0xA + 0xB + 0xC)
 - [ ] 0xA + 0xB + 0xC
 - [ ] None
 
-Explanation: A, B and C are hexadecimal integers with values 10, 11 and 12 respectively, so the sum
+**Explanation:** A, B and C are hexadecimal integers with values 10, 11 and 12 respectively, so the sum
 of A, B and C is 33.
 
 #### Q165. What will this code output to the screen?
@@ -2346,7 +2344,7 @@ MISSING_ARG_3 = func
 
 #### Q172. What does this code print?
 
-```
+```python
 a = np.array([[1, 2], [3, 4], [5, 6]])
 c = a[(a > 3) & (a < 11)]
 print(c)

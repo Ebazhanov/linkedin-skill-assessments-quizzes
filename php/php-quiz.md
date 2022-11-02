@@ -36,7 +36,7 @@ if ($email === false) {
 
 #### Q4. In the following script, which line(s) will cause an error(s)?
 
-```
+```php
 1 <?php
 2       $count = 0;
 3       $_xval = 5;
@@ -171,42 +171,42 @@ if ($email === false) {
 #### Q19. The PHP function array_reduce() takes a callback function that accepts a value carried over each iteration and the current item in the array, and reduces an array to a single value. Which code sample will sum and output the values in the provided array?
 
 - [ ]
-  ```php
+```php
   1 <?php
   2 echo array_reduce([1, 2, 5, 10, 11], function ($item, $carry) {
   3     $carry = $carry + $item;
   4 });
   5?>
-  ```
+```
 - [ ]
-  ```php
+```php
   1 <?php
   2 echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) {
   3     return $carry = $item + $item;
   4 });
   5?>
-  ```
+```
 - [ ]
-  ```php
+```php
   1 <?php
   2 array_reduce([11 2, 5, 10, 11], function ($item, $carry) {
   3     echo $carry + $item;
   4 });
   5?>
-  ```
+```
 - [x]
-  ```php
+```php
   1 <?php
   2 echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) {
   3     return $carry += $item;
   4 });
   5?>
-  ```
+```
 
 #### Q20. Which PHP script uses a constructor to display the string "Winter is almost over!"?
 
 - [x]
-  ```php
+```php
   1 class MyClass {
   2 public function _construct()
   3 {
@@ -214,9 +214,9 @@ if ($email === false) {
   5 }
   6 }
   7 $userclass = new MyClass;
-  ```
+```
 - [ ]
-  ```php
+```php
   1 class MyClass {
   2 public function _construct()
   3 {
@@ -224,9 +224,9 @@ if ($email === false) {
   5 }
   6 }
   7 $userclass = new MyClass;
-  ```
+```
 - [ ]
-  ```php
+```php
   1 class MyClass {
   2 public function _construct()
   3 {
@@ -234,9 +234,9 @@ if ($email === false) {
   5 }
   6 }
   7 $userclass = new MyClass;
-  ```
+```
 - [ ]
-  ```php
+```php
   1 class MyClass {
   2 public function _construct()
   3 {
@@ -244,7 +244,7 @@ if ($email === false) {
   5 }
   6 }
   7 $userclass = MyClass;
-  ```
+```
 
 #### Q21. How might you troubleshoot a "call to undefined function" error?
 
@@ -278,8 +278,8 @@ if ($email === false) {
 
 ```php
 function process(...$vals) {
-        // do some processing
- }
+    // do some processing
+}
 ```
 
 - [ ] It makes the function variadic, allowing it to accept as an argument an array containing an arbitrary number of values.
@@ -312,7 +312,7 @@ function process(...$vals) {
 
 - [ ]
 
-```
+```php
 seasons=array(
     1=>'spring',
     2=>'summer',
@@ -446,37 +446,37 @@ echo "No, mail is not set";
 #### Q44. Which code snippet demonstrates encapsulation?
 
 - [ ]
-  ```php
+```php
   class Cow extends Animal {
       private $milk;
   }
-  ```
+```
 - [ ]
-  ```php
+```php
   class Cow {
       public $milk;
   }
   $daisy = new Cow();
   $daisy->milk = "creamy";
-  ```
+```
 - [ ]
-  ```php
+```php
   class Cow {
       public $milk;
       function getMilk() {`
           return $this->milk;
       }
   }
-  ```
+```
 - [x]
-  ```php
+```php
   class Cow {
       private $milk;
       public function getMilk() {
           return $this->milk;
       }
   }
-  ```
+```
 
 #### Q45. The following XML document is in books.xml. Which code will output "Historical"?
 
@@ -501,25 +501,25 @@ echo "No, mail is not set";
 ```
 
 - [ ]
-  ```php
+```php
   $books = simplexml_load_string('books.xml');
   echo $books->book[0]->categories->category[1];
-  ```
+```
 - [x]
-  ```php
+```php
   $books = simplexml_load_file('books.xml');
   echo $books->book[0]->categories->category[1];
-  ```
+```
 - [ ]
-  ```php
+```php
   $books = SimpleXMLElement('books.xml');
   echo $books->book[0]->categories->category[1];
-  ```
+```
 - [ ]
-  ```php
+```php
   $books = SimpleXML('books.xml');
   echo $books->book[0]->categories->category[1];
-  ```
+```
 
 #### Q46. When it comes to the value of a variable, what is the difference between NULL and empty?
 
@@ -580,25 +580,28 @@ isset($_POST['submit'])
 #### Q52. What are the recommended settings in the PHP configuration file, php.ini, for a testing environment?
 
 - [ ]
-  ```php
+```php
   report_errors = E_ALL
   display_errors = On
-  ```
+```
+
 - [x]
-  ```php
+```php
   error_reporting = E_ALL
   display_errors = On
-  ```
+```
+
 - [ ]
-  ```php
+```php
   error_reporting = E_ALL & ~E_NOTICE
   display_errors = Off
-  ```
+```
+
 - [ ]
-  ```php
+```php
   error_reporting = E_ALL & ~E_NOTICE
   display_errors = On
-  ```
+```
 
 #### Q53. Which PHP variable name is invalid?
 
@@ -669,7 +672,7 @@ setcookie('login', $_REQUEST['username']. ','. md5($_REQUEST['username'].$secret
 
 #### Q59. A PHP "variable variable" takes the value of a variable and treats that as the name of a variable. For example, if `$var` is a variable then `$$var` is a variable variable whose name is the value of `$var`. Which script produces the output below, using variable variables?
 
-```php
+```plaintext
 Cat
 Dog
 Dog
@@ -678,41 +681,41 @@ Dog
 - [ ] :
 
 ```php
-      $name = "Cat";
-      $name = "Dog";
-      echo $name . "<br/>";
-      echo $$name . "<br/>";
-      echo $Dog;
+  $name = "Cat";
+  $name = "Dog";
+  echo $name . "<br/>";
+  echo $$name . "<br/>";
+  echo $Dog;
 ```
 
 - [ ] :
 
 ```php
-      $name = "Cat";
-      $$name = "Dog";
-      echo $name . "<br/>";
-      echo $$name . "<br/>";
-      echo $Dog;
+  $name = "Cat";
+  $$name = "Dog";
+  echo $name . "<br/>";
+  echo $$name . "<br/>";
+  echo $Dog;
 ```
 
 - [x] :
 
 ```php
-      $name = "Cat";
-      $$name = "Dog";
-      echo $name . "<br/>";
-      echo $$name . "<br/>";
-      echo $Cat;
+  $name = "Cat";
+  $$name = "Dog";
+  echo $name . "<br/>";
+  echo $$name . "<br/>";
+  echo $Cat;
 ```
 
 - [ ] :
 
 ```php
-      $name = "Cat";
-      $$name = "Dog";
-      echo $name . "<br/>";
-      echo $name . "<br/>";
-      echo $Cat;
+  $name = "Cat";
+  $$name = "Dog";
+  echo $name . "<br/>";
+  echo $name . "<br/>";
+  echo $Cat;
 ```
 
 #### Q60. Imagine a web application, built following a MVC architecture, that contains a quiz and a button to score it, When the user presses the Score button, which component should handle the request?
@@ -727,37 +730,37 @@ Dog
 - [ ] :
 
 ```php
-        <?php
-           start_session();
-           $music = $_SESSION['music'];
-        ?>
+  <?php
+      start_session();
+      $music = $_SESSION['music'];
+  ?>
 ```
 
 - [ ] :
 
 ```php
-        <?php
-           session_start();
-           $music = $SESSION['music'];
-        ?>
+  <?php
+      session_start();
+      $music = $SESSION['music'];
+  ?>
 ```
 
 - [ ] :
 
 ```php
-        <?php
-           start_session();
-           $music =$session['music'];
-        ?>
+  <?php
+      start_session();
+      $music =$session['music'];
+  ?>
 ```
 
 - [x] :
 
 ```php
-        <?php
-           session_start();
-           $music = $_SESSION['music'];
-        ?>
+  <?php
+      session_start();
+      $music = $_SESSION['music'];
+  ?>
 ```
 
 #### Q62. Which PHP script finds the earliest and latest dates from an array?
@@ -765,41 +768,41 @@ Dog
 - [x] :
 
 ```php
-        <?php
-        $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
-        echo "Latest Date: ". max($dates)."\n";
-        echo "Earliest Date: ". min($dates)."\n";
-        ?>
+  <?php
+  $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+  echo "Latest Date: ". max($dates)."\n";
+  echo "Earliest Date: ". min($dates)."\n";
+  ?>
 ```
 
 - [ ] :
 
 ```php
-        <?php
-        $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
-        echo "Latest Date: ". min($dates)."\n";
-        echo "Earliest Date: ". max($dates)."\n";
-        ?>
+  <?php
+  $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+  echo "Latest Date: ". min($dates)."\n";
+  echo "Earliest Date: ". max($dates)."\n";
+  ?>
 ```
 
 - [ ] :
 
 ```php
-        <?php
-        $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
-        echo "Latest Date: ". ($dates)."\n";
-        echo "Earliest Date: ". ($dates)."\n";
-        ?>
+  <?php
+  $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+  echo "Latest Date: ". ($dates)."\n";
+  echo "Earliest Date: ". ($dates)."\n";
+  ?>
 ```
 
 - [ ] :
 
 ```php
-        <?php
-        $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
-        echo "Latest Date: " max($dates)."\n";
-        echo "Earliest Date: " min($dates)."\n";
-        ?>
+  <?php
+  $dates = array('2018-02-01', '2017-02-02', '2015-02-03');
+  echo "Latest Date: " max($dates)."\n";
+  echo "Earliest Date: " min($dates)."\n";
+  ?>
 ```
 
 #### Q63. What is the resulting output of this for statement?
@@ -816,31 +819,31 @@ for (;;) {
 - [x] :
 
 ```
-        kilometers = 0.6214 miles.
-        kilometers = 1.2428 miles.
-        kilometers = 1.8642 miles.
-        kilometers = 2.4856 miles.
-        kilometers = 3.107 miles.
+  kilometers = 0.6214 miles.
+  kilometers = 1.2428 miles.
+  kilometers = 1.8642 miles.
+  kilometers = 2.4856 miles.
+  kilometers = 3.107 miles.
 ```
 
 - [ ] :
 
 ```
-        kilometers = 0.6214 miles.
-        kilometers = 1.2428 miles.
-        kilometers = 1.8642 miles
-        kilometers = 2.4856 miles.
-        kilometers = 3.107 miles.
-        kilometers = 3.7284 miles.
+  kilometers = 0.6214 miles.
+  kilometers = 1.2428 miles.
+  kilometers = 1.8642 miles
+  kilometers = 2.4856 miles.
+  kilometers = 3.107 miles.
+  kilometers = 3.7284 miles.
 ```
 
 - [ ] :
 
 ```
-        kilometers = 1.2428 miles.
-        kilometers = 1.8642 miles.
-        kilometers = 2.4856 miles.
-        kilometers = 3.107 miles.
+  kilometers = 1.2428 miles.
+  kilometers = 1.8642 miles.
+  kilometers = 2.4856 miles.
+  kilometers = 3.107 miles.
 ```
 
 - [ ] FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2
