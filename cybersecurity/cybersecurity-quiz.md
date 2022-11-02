@@ -28,7 +28,7 @@
 - [x] intrusion detection system (IDS)
 - [ ] next generation firewall
 
-An intrusion detection system (`IDS`) is a device or software application that monitors a network or systems for malicious activity or policy violations.
+**Explanation**: An intrusion detection system (`IDS`) is a device or software application that monitors a network or systems for malicious activity or policy violations.
 
 [Quizlet](https://quizlet.com/217188159/cissp-practice-testschapter-7-security-operations-domain7-flash-cards/)
 
@@ -83,7 +83,7 @@ An intrusion detection system (`IDS`) is a device or software application that m
 - [ ] password spray attack
 - [ ] brute force attack
 
-`A rainbow table attack is a more efficient and effective way of cracking many hashed passwords, whereas brute-forcing would take much longer and may not complete in a reasonable amount of time.`
+**Explanation**: A rainbow table attack is a more efficient and effective way of cracking many hashed passwords, whereas brute-forcing would take much longer and may not complete in a reasonable amount of time.
 
 [Professor Messer](https://www.professormesser.com/free-a-plus-training/220-1002/brute-force-attacks-3).
 
@@ -304,7 +304,7 @@ An intrusion detection system (`IDS`) is a device or software application that m
 - [x] Nmap
 - [ ] Wireshark
 
-nmap is a port scanner [https://en.wikipedia.org/wiki/Nmap](https://en.wikipedia.org/wiki/Nmap)
+**Explanation**: nmap is a port scanner [https://en.wikipedia.org/wiki/Nmap](https://en.wikipedia.org/wiki/Nmap)
 wireshark is a traffic analyzer
 snort is an IDS
 autopsy is for forensic analysis
@@ -850,7 +850,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [x] CWE
 - [ ] CERT
 
-`Explanation: Common Weakness Enumeration (CWE) is a universal online dictionary of security defects that have been found in computer software.`
+**Explanation**:  Common Weakness Enumeration (CWE) is a universal online dictionary of security defects that have been found in computer software.
 
 #### Q111. What is cryptovirology?
 
@@ -875,7 +875,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] Ransomware
 - [ ] Phishing
 
-`Explanation: Social Engineering and human error are the most common cause of cyber incidents as it is easier for attackers to convince employees to give up passwords or accept MFA prompts than it is to breach & exploit the system. See Recent Uber and Cisco hack`
+**Explanation**: Social Engineering and human error are the most common cause of cyber incidents as it is easier for attackers to convince employees to give up passwords or accept MFA prompts than it is to breach & exploit the system. See Recent Uber and Cisco hack
 
 1. [Reference](https://www.protocol.com/bulletins/uber-breach-hacker-twilio-mfa)
 2. [Reference](https://www.swarmnetics.com/blog/cisco-network-breach-voice-phishing-mfa-fatigue-are-becoming-common-attacks/)
@@ -894,7 +894,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [x] When a User changes roles
 - [ ] On a daily basis
 
-`Explanation: Privilaged access reviews are one of the most critical components of an organisations security program as they ensure only autherised users have access to the most sensitive systems. They should occur on a fixed periodic basis as well as when ever a privileged user leaves the organisation or changes roles within the organisation
+**Explanation**: Privilaged access reviews are one of the most critical components of an organisations security program as they ensure only autherised users have access to the most sensitive systems. They should occur on a fixed periodic basis as well as when ever a privileged user leaves the organisation or changes roles within the organisation
 
 #### Q116. What Term is used to descrbe the defualt set of privileges assigned to a user when a new account is created?
 
@@ -903,7 +903,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] Baseline
 - [x] Entitlement
 
-`Explanation: Entitlement refers to the privileges granted to a user when their account is first provisioned`
+**Explanation**:  Entitlement refers to the privileges granted to a user when their account is first provisioned
 
 #### Q117. Who is the father of computer security??
 
@@ -912,7 +912,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] Charles Thomas
 - [ ] Robert Kerckhoffs
 
-`Explanation: August Kerckhoffs, a linguist and German professor at HEC, wrote an essay in the Journal of Military Science in February 1883. Kerckhoff had unwittingly established the foundations for contemporary encryption, earning him the title of "Father of Computer Security."`
+**Explanation**:  August Kerckhoffs, a linguist and German professor at HEC, wrote an essay in the Journal of Military Science in February 1883. Kerckhoff had unwittingly established the foundations for contemporary encryption, earning him the title of "Father of Computer Security."
 
 #### Q118. Which type of attack uses formal emails to entice specific individuals into signing in and changing their passwords?
 

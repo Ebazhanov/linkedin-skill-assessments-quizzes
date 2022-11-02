@@ -326,8 +326,8 @@
 
 #### Q47. Suppose you are trying to finish a Pig script that converts text in the input string to uppercase. What code is needed on line 2 below?
 
-    1 data = LOAD '/user/hue/pig/examples/data/midsummer.txt'...
-    2
+1 data = LOAD '/user/hue/pig/examples/data/midsummer.txt'...
+2
 
 - [ ] as (text:CHAR[]); upper_case = FOREACH data GENERATE org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);
 - [x] as (text:CHARARRAY); upper_case = FOREACH data GENERATE org.apache.pig.piggybank.evaluation.string.UPPER(TEXT);
@@ -429,7 +429,7 @@
 
 #### Q61. Which statement should you add to improve the performance of the following query?
 
-```
+```sql
 SELECT
   c.id,
   c.name,

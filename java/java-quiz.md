@@ -212,7 +212,7 @@ class Main {
 - [ ] It will throw an exception on line 5.
 - [x] "123"
 
-**Explanation:** The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class, because The import statements of the form:
+**Explanation:** `The answer is "123". The `abs()` method evaluates to the one inside mypackage.Math class, because The import statements of the form:`
 
 `import packageName.subPackage.*`
 
@@ -276,7 +276,7 @@ class Main {
 - [ ] a negative integer value
 - [ ] "12345100000"
 
-**Reasoning:** The int type in Java can be used to represent any whole number from -2147483648 to 2147483647. Therefore, this code will not compile as the number assigned to 'a' is larger than the int type can hold.
+**Reasoning:** `The int type in Java can be used to represent any whole number from -2147483648 to 2147483647. Therefore, this code will not compile as the number assigned to 'a' is larger than the int type can hold.`
 
 #### Q14. What is the output of this code?
 
@@ -364,7 +364,7 @@ class Main {
 - [ ] 5 times
 - [ ] infinite number of times
 
-**Explanation**: Observe the loop increment. It's not an increment, it's an assignment(post).
+**Explanation**: `Observe the loop increment. It's not an increment, it's an assignment(post).`
 
 #### Q22. The runtime system starts your program by calling which function first?
 
@@ -390,7 +390,7 @@ public class Jedi {
 - [x] this(name, species, false)
 - [ ] super(name, species, false)
 
-  **Note:** This code won't compile, possibly broken code sample.
+**Note:** `This code won't compile, possibly broken code sample.`
 
 #### Q24. Which statement is **NOT** true?
 
@@ -535,7 +535,7 @@ public static void badMethod() {
 - [ ] C and D
 - [x] A and D
 
-**Explanation**: `Error` is not inherited from `Exception`
+**Explanation**: ``Error` is not inherited from `Exception``
 
 #### Q34. What is the output of this code?
 
@@ -1335,7 +1335,7 @@ public class Main {
 
 #### Q96. This code does not compile. What needs to be changed so that it does?
 
-```
+```java
 public enum Direction {
     EAST("E"),
     WEST("W"),
@@ -1577,7 +1577,7 @@ public class Main{
 
 #### Q109. Which statement must be inserted on line 1 to print the value true?
 
-```
+```java
 1:
 2: Optional<String> opt = Optional.of(val);
 3: System.out.println(opt.isPresent());
@@ -1868,7 +1868,7 @@ int total = numbers.stream()
 
 **Explanation:** The given code in the question will give you the output 20 as total
 
-```
+```java
 numbers                         // Input `List<Integer>` > [1, 2, 3, 4] <br>
     .stream()                   // Converts input into `Stream<Integer>` <br>
     .filter(x -> x % 2 == 0)    // Filter even numbers and return `Stream<Integer>` > [2, 4] <br>

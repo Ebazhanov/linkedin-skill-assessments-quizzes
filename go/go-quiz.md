@@ -25,7 +25,7 @@
 - [ ] `for i := 1; i < 5; i++ { ... }`
 - [ ] `for i < 5 { ... }`
 
-Explanation: Go has only `for`-loops
+**Explanation:** Go has only `for`-loops
 
 #### Q4. How will you add the number 3 to the right side?
 
@@ -36,7 +36,7 @@ Explanation: Go has only `for`-loops
 - [ ] `append(values, 3)`
 - [x] `values = append(values, 3)`
 
-Explanation: slices in GO are immutable, so calling `append` does not modify the slice
+**Explanation:** slices in GO are immutable, so calling `append` does not modify the slice
 
 #### Q5. What is the value of `Read`?
 
@@ -145,7 +145,7 @@ func main() {
 - [ ] Sleep for a safe amount of time.
 - [x] `sync.WaitGroup`
 
-Explanation: this is exactly what `sync.WaitGroup` is designed for - [Use sync.WaitGroup in Golang](https://nanxiao.me/en/use-sync-waitgroup-in-golang/)
+**Explanation:** this is exactly what `sync.WaitGroup` is designed for - [Use sync.WaitGroup in Golang](https://nanxiao.me/en/use-sync-waitgroup-in-golang/)
 
 #### Q13. What is a side effect of using `time.After` in a `select` statement?
 
@@ -215,7 +215,7 @@ func Add(a, b int) {
   }
   ```
 
-Explanation: documentation block should start with a function name
+**Explanation:** documentation block should start with a function name
 
 [Comments in Go](https://exercism.org/tracks/go/concepts/comments)
 
@@ -451,7 +451,7 @@ AM/PM mark: "PM"
 - [ ] `log.Printf(log.ERROR, err)`
 - [ ] `log.Print("error: %v", err)`
 
-Explanation: There is defined neither _log.ERROR_, nor _log.Error()_ in [log package in Go](https://pkg.go.dev/log); `log.Print()` arguments are handled in the manner of `fmt.Print()`; `log.Printf()` arguments are handled in the manner of `fmt.Printf()`.
+**Explanation:** There is defined neither _log.ERROR_, nor _log.Error()_ in [log package in Go](https://pkg.go.dev/log); `log.Print()` arguments are handled in the manner of `fmt.Print()`; `log.Printf()` arguments are handled in the manner of `fmt.Printf()`.
 
 #### Q34. Which file names will the `go test` command recognize as test files?
 
@@ -583,17 +583,17 @@ Program exited.
 
 ```go
 func findUser(ctx context.Context, login string) (*User, error) {
-        ch := make(chan *User)
-        go func() {
-                ch <- findUserInDB(login)
-        }()
+    ch := make(chan *User)
+    go func() {
+            ch <- findUserInDB(login)
+    }()
 
-        select {
-        case user := <-ch:
-                return user, nil
-        case <-ctx.Done():
-                return nil, fmt.Errorf("timeout")
-        }
+    select {
+    case user := <-ch:
+            return user, nil
+    case <-ctx.Done():
+            return nil, fmt.Errorf("timeout")
+    }
 }
 ```
 
@@ -611,9 +611,9 @@ Relevant excerpt from the article:
 #### 44. What will this code print?
 
 ```go
-      var i int8 = 120
-      i += 10
-      fmt.Println(i)
+var i int8 = 120
+i += 10
+fmt.Println(i)
 ```
 
 - [x] -126
@@ -632,40 +632,40 @@ Program exited.
 #### 45. Given the definition of worker below, what is the right syntax to start a start a goroutine that will call worker and send the result to a channel named ch?
 
 ```go
-      func worker(m Message) Result
+func worker(m Message) Result
 ```
 
 - [ ]  
   
 ```go
-        go func() {
-                r := worker(m)
-                ch <- r
-        }
+go func() {
+    r := worker(m)
+    ch <- r
+}
 ```
 
 - [ ]  
   
 ```go
-        go func() {
-                r := worker(m)
-                r -> ch
-        } ()
+go func() {
+    r := worker(m)
+    r -> ch
+} ()
 ```
 
 - [x]  
   
 ```go
-        go func() {
-                r := worker(m)
-                ch <- r
-        } ()
+go func() {
+    r := worker(m)
+    ch <- r
+} ()
 ```
 
 - [ ]  
   
 ```go
-        go ch <- worker(m)
+go ch <- worker(m)
 ```
 
 [Go Playground example](https://go.dev/play/p/96j7tuQKF50)
