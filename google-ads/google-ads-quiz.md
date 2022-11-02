@@ -380,7 +380,7 @@
 - [ ] Review the search terms report.
 - [x] Review the keyword frequency report.
 
-  [References](https://support.google.com/google-ads/answer/2472708?hl=en)
+[References](https://support.google.com/google-ads/answer/2472708?hl=en)
 
 #### Q.53. Which statement is true when structuring ad groups?
 
@@ -389,7 +389,7 @@
 - [ ] Adding fewer ads to an ad group will improve the likelihood of an ad receiving a high-quality score.
 - [ ] Adding fewer ads to an ad group means higher bounce rates.
 
-  [References](https://examroll.com/posts/google-ads-search-exam-answers/)
+[References](https://examroll.com/posts/google-ads-search-exam-answers/)
 
 #### Q.54. Patrick sells hats, and has added [womens hats] to his keyword list. Which search term will not trigger Patrick's ad to display?
 
@@ -398,4 +398,4 @@
 - [ ] women's hats
 - [ ] sewing womens hats
 
-  [References](https://www.dynathemes.com/fiverr-upwork-google-adwords-sem-test-with-answers/)
+[References](https://www.dynathemes.com/fiverr-upwork-google-adwords-sem-test-with-answers/)
