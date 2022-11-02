@@ -1228,3 +1228,11 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] 1,048,576
 - [x] 16384
 - [ ] 1,048,000
+
+#### Q138. What feature can you use to populate B2:B7 with the number from each sectence in A2:A7?
+![excel_sheet_b2b7_a2a7](https://user-images.githubusercontent.com/93790398/199109832-18774a59-e00b-4fc1-b798-57a28af96668.png)
+
+- [ ] No Excel feature can accomplish this; this is possible only using formulas.
+- [x] Flash Fill
+- [ ] Merge cells
+- [ ] Text to columns
