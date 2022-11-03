@@ -669,7 +669,7 @@
 - [ ] a list of impediments and priorities
 - [ ] a report to the Product Owner of stories ready to be accepted
 
-#### Q93. What is the name of the technique in which a story includes an input, a translation of input to output, and an output?
+#### Q93. What is the name of the technique in which a story is broken down, input splits the data, and it results in a new output?
 
 - [x] input-output processing
 - [ ] ITIOO story format
@@ -721,7 +721,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [x] before the daily Scrum
 - [ ] before quarterly planning
 
-#### Q99. What is Empathy Map?
+#### Q99. What is an Empathy Map?
 
 - [ ] It is a team-building technique used to increase productivity.
 - [ ] It is a tool used by organizations for competitive intelligence.
@@ -738,7 +738,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 #### Q101. The team has an incomplete story at the end of the sprint and wants to claim partial credit for the work completed. What should you do?
 
 - [ ] Ask the Product Owner to accept the storyy with the promise that the team will complete it in the next sprint
-- [ ] Ask them to slice the story to reflect the work done and the work to be done
+- [ ] Ask them to slice the story to reflect the work done and the work to be donef
 - [x] Ask the product owner to revise the acceptance criteria so it can be accepted and counted
 - [ ] explain that, in Agile, working software is the primary measure of progress. Then help...
 
@@ -975,3 +975,11 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] It was first published as part of Jim Highsmith's doctoral thesis.
 
 [Reference](https://agilemanifesto.org/history.html) `"(...)others sympathetic to the need for an alternative to documentation driven, heavyweight software development processes convened." [First paragraph]`
+
+#### Q134. Progress toward a sprint goal is in jeopardy becauseyou have not received sales data. What should you do?
+
+- [ ] Be sure to mention the issue in the next Scrum
+- [x] Share th eproblem with your team to see if they can create a solution
+- [ ] Work around the issue until the last responsible moment to solve it
+- [ ] Check the Product Owner's schedule and book time for a meeting
+
