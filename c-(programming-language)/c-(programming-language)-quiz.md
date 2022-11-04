@@ -1333,3 +1333,10 @@ default:
 - [x] Choice A
       Choice B No choice
 - [ ] Program gives no output as it is erroneous
+
+#### Q89. Which of the following is the correct syntax to print the message in C++ language?
+
+- [ ] Out <<"Hello world!
+- [ ] Cout << Hello world! ;
+- [x] cout <<"Hello world!";
+- [ ] None of the above
