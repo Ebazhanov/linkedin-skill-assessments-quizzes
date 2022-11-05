@@ -764,7 +764,7 @@ E. Perspective Warp
 
 #### Q99. Which tool samples a group of pixels and brushes them into a new area without modifying them first?
 
-- \[] Pattern Stamp Tool
-- \[] History Brush Tool
-- \[x] Clone Stamp Tool
-- \[] Eraser Tool
+- \[ ] Pattern Stamp Tool
+- \[ ] History Brush Tool
+- \[ x] Clone Stamp Tool
+- \[ ] Eraser Tool
