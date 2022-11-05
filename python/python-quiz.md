@@ -17,6 +17,7 @@
 - [ ] The `any()` function returns a Boolean value that answers the question "Are there any items in this list?"
 
 **example**
+
 ```python
 if any([True, False, False, False]) == True:
     print('Yes, there is True')
@@ -253,6 +254,7 @@ instance.password
 - [ ] It creates a mapping between two different elements of different iterables.
 
 **Explanation:** - The synax for `map()` function is `list(map(function,iterable))`. The simple area finder using map would be like this
+
 ```python
 import math
 radius = [1,2,3]

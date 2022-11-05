@@ -190,24 +190,28 @@ modified: beta-notes.js
 #### Q20. What commands would you use to force an overwrite of your local files with the master branch?
 
 - [ ] ⠀
+
 ```bash
   git pull --all
   git reset --hard origin/master
 ```
 
 - [ ] ⠀
+
 ```bash
   git pull -u origin master
   git reset --hard master
 ```
 
 - [ ]
+
 ```bash
   git pull origin master
   git reset --hard origin/myCurrentBranch
 ```
 
 - [x]
+
 ```bash
   git fetch --all
   git reset --hard origin/master
@@ -1034,19 +1038,25 @@ Untracked files:
 #### Q127. After making a commit, you notice that you forgot to include changes to the doge.txt file. What command or commands would you use to add the changes to the commit ?
 
 - [x] ⠀
+
 ```bash
   git add doge.txt
   git commit --amend --no-edit
 ```
+
 - [ ] ⠀
+
 ```bash
   git commit --amend --no-edit
 ```
+
 - [ ] ⠀
+
 ```bash
   git add doge.txt
   git commit --patch --no-edit
 ```
+
 - [ ] ⠀
 
 ```bash
@@ -1063,15 +1073,19 @@ git commit -m "Removed file"
 ```
 
 - [ ] ⠀
+
 ```bash
   git forget -rf wrongfile
   git commit -m "Removed file"
 ```
+
 - [ ] ⠀
+
 ```bash
   git untrack -rf wrongfile
   git commit -m "Removed file"
 ```
+
 - [x] ⠀
 
 ```bash

@@ -159,36 +159,43 @@ background: blue url(image.jpg) no-repeat scroll 0px 0px;
 ```
 
 - [x] A
+
 ```css
-  background-color: blue;
-  background-image: url(image.jpg);
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: 0px 0px;
+background-color: blue;
+background-image: url(image.jpg);
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 0px 0px;
 ```
+
 - [ ] B
+
 ```css
-  background-color: blue;
-  background-img: url(image.jpg);
-  background-position: no-repeat;
-  background-scroll: scroll;
-  background-size: 0px 0px;
+background-color: blue;
+background-img: url(image.jpg);
+background-position: no-repeat;
+background-scroll: scroll;
+background-size: 0px 0px;
 ```
+
 - [ ] C
+
 ```css
-  background-color: blue;
-  background-src: url(image.jpg);
-  background-repeat: no-repeat;
-  background-wrap: scroll;
-  background-position: 0px 0px;
+background-color: blue;
+background-src: url(image.jpg);
+background-repeat: no-repeat;
+background-wrap: scroll;
+background-position: 0px 0px;
 ```
+
 - [ ] D
+
 ```css
-  background-color: blue;
-  background-src: url(image.jpg);
-  background-repeat: no-repeat;
-  background-scroll: scroll;
-  background-position: 0px 0px;
+background-color: blue;
+background-src: url(image.jpg);
+background-repeat: no-repeat;
+background-scroll: scroll;
+background-position: 0px 0px;
 ```
 
 #### Q15. In this example, according to cascading and specificity rules, what color will the link be?
@@ -233,24 +240,31 @@ a {
 #### Q17. When elements within a container overlap, the z-index property can be used to indicate how those items are stacked on top of each other. Which set of statements is true?
 
 - [x] A
+
 ```
   1. Larger z-index values appear on top elements with a lower z-index value.
   2. Negative and positive number can be used.
   3. z-index can be used only on positioned elements.
 ```
+
 - [ ] B
+
 ```
   1. Smaller z-index values appear on top of elements with a larger z-index value.
   2. Negative and positive numbers can be used.
   3. z-index can be used with or without positioned elements.
 ```
+
 - [ ] C
+
 ```
   1. Smaller z-index values appear on top of elements with a larger z-index value.
   2. Negative and positive number can be used.
   3. z-index must also be used with positioned elements.
 ```
+
 - [ ] D
+
 ```
   1. Larger z-index values appear on top of elements with a lower z-index value.
   2. Only positive number can be used.
@@ -298,24 +312,31 @@ section + p {
 #### Q20. What are three valid ways of adding CSS to an HTML page?
 
 - [ ] A
+
 ```
   1. External; CSS is written in a separate file.
   2. Inline; CSS is added to the <head> of the HTML page.
   3. Internal; CSS is included within the HTML tags.
 ```
+
 - [ ] B
+
 ```
   1. External; CSS is written in a separate file and is linked within the <header> element of the HTML file.
   2. Inline; CSS is added to the HTML tag.
   3. Internal; CSS is included within the <header> element of the HTML file.
 ```
+
 - [ ] C
+
 ```
   1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file.
   2. Internal; CSS is included within the <header> element of the HTML file.
   3. Inline; CSS is added to the HTML tag.
 ```
+
 - [x] D
+
 ```
   1. External; CSS is written in a separate file and is linked within the <head> element of the HTML file.
   2. Inline; CSS is added to the HTML tag.
@@ -386,11 +407,13 @@ p {
 ```
 
 - [ ] A
+
 ```
   "p" is the selector
   "#000000" is the property
   "color" is the value
 ```
+
 - [x] B
 
 ```
@@ -398,13 +421,17 @@ p {
   "color" is the property
   "#000000" is the value
 ```
+
 - [ ] C
+
 ```
   "color" is the selector
   "#000000" is the property
   "#p" is the value
 ```
+
 - [ ] D
+
 ```
   "color" is the selector
   "p" is the property
@@ -607,30 +634,37 @@ font-weight: 700;
 #### Q46. Using the :nth-child pseudo class, what would be the most efficient way to style every third item in a list, no matter how many items are present, starting with item 2?
 
 - [ ] A
+
 ```css
-  li:nth-child(3 + 2n) {
-    margin: 0 5 px;
-  }
+li:nth-child(3 + 2n) {
+  margin: 0 5 px;
+}
 ```
+
 - [x] B
+
 ```css
-  li:nth-child(3n + 2) {
-    margin: 0 5 px;
-  }
+li:nth-child(3n + 2) {
+  margin: 0 5 px;
+}
 ```
+
 - [ ] C
+
 ```css
-  li:nth-child(2),
-  li:nth-child(5),
-  li:nth-child(8) {
-    margin: 0 5 px;
-  }
+li:nth-child(2),
+li:nth-child(5),
+li:nth-child(8) {
+  margin: 0 5 px;
+}
 ```
+
 - [ ] D
+
 ```css
-  li:nth-child(2n + 3) {
-    margin: 0 5 px;
-  }
+li:nth-child(2n + 3) {
+  margin: 0 5 px;
+}
 ```
 
 #### Q47. Which selector would select only internal links within the current page?
@@ -813,42 +847,45 @@ padding: 10px 0; /* declaration C */
 - [x] A
 
 ```css
-  a:link {
-    background: #0000ff;
-  }
-  a:hover {
-    background: rgba(0, 0, 255, 0.5);
-  }
+a:link {
+  background: #0000ff;
+}
+a:hover {
+  background: rgba(0, 0, 255, 0.5);
+}
 ```
+
 - [ ] B
 
 ```css
-  a {
-    color: blue;
-  }
-  a:hover {
-    background: white;
-  }
+a {
+  color: blue;
+}
+a:hover {
+  background: white;
+}
 ```
+
 - [ ] C
 
 ```css
-  a:link {
-    background: blue;
-  }
-  a:hover {
-    color: rgba(0, 0, 255, 0.5);
-  }
+a:link {
+  background: blue;
+}
+a:hover {
+  color: rgba(0, 0, 255, 0.5);
+}
 ```
+
 - [ ] D
 
 ```css
-  a:hover {
-    background: rgba(blue, 50%);
-  }
-  a:link {
-    background: rgba(blue);
-  }
+a:hover {
+  background: rgba(blue, 50%);
+}
+a:link {
+  background: rgba(blue);
+}
 ```
 
 #### Q67. Which CSS rule takes precedence over the others listed?
@@ -1061,64 +1098,71 @@ D. border-top-radius: 10px;
 ```
 
 - [ ] A
+
 ```css
-  1. section \* {
-    ...;
-  }
-  2. [class*='example'] {
-    ...;
-  }
-  3. p.example {
-    ...;
-  }
-  4. section p {
-    ...;
-  }
+1. section \* {
+  ...;
+}
+2. [class*='example'] {
+  ...;
+}
+3. p.example {
+  ...;
+}
+4. section p {
+  ...;
+}
 ```
+
 - [ ] B
+
 ```css
-  1. p {
-    ...;
-  }
-  2. p.example {
-    ...;
-  }
-  3. section p {
-    ...;
-  }
-  4. [class*='example'] {
-    ...;
-  }
+1. p {
+  ...;
+}
+2. p.example {
+  ...;
+}
+3. section p {
+  ...;
+}
+4. [class*='example'] {
+  ...;
+}
 ```
+
 - [ ] C
+
 ```css
-  1. p.example {
-    ...;
-  }
-  2. section p {
-    ...;
-  }
-  3. [class*='example'] {
-    ...;
-  }
-  4. section \* {
-    ...;
-  }
+1. p.example {
+  ...;
+}
+2. section p {
+  ...;
+}
+3. [class*='example'] {
+  ...;
+}
+4. section \* {
+  ...;
+}
 ```
+
 - [x] D
+
 ```css
-  1. p {
-    ...;
-  }
-  2. section p {
-    ...;
-  }
-  3. [class*='example'] {
-    ...;
-  }
-  4. p.example {
-    ...;
-  }
+1. p {
+  ...;
+}
+2. section p {
+  ...;
+}
+3. [class*='example'] {
+  ...;
+}
+4. p.example {
+  ...;
+}
 ```
 
 #### Q88. Which property is used to create a drop shadow effect on an HTML element?
@@ -1155,8 +1199,8 @@ D. border-top-radius: 10px;
 
 ```html
 <header>
-  <H1>Heading 1</H1>
-  <H2>Heading 2</H2>
+  <h1>Heading 1</h1>
+  <h2>Heading 2</h2>
 </header>
 <h2>Heading 2</h2>
 ```
@@ -1230,30 +1274,33 @@ border: 1px solid red;
 - [ ] A
 
 ```css
-  border-size: 1px;
-  border-style: solid;
-  border-color: red;
+border-size: 1px;
+border-style: solid;
+border-color: red;
 ```
+
 - [ ] B
 
 ```css
-  border-size: 1px;
-  border-type: solid;
-  border-color: red;
+border-size: 1px;
+border-type: solid;
+border-color: red;
 ```
+
 - [x] C
 
 ```css
-  border-width: 1px;
-  border-style: solid;
-  border-color: red;
+border-width: 1px;
+border-style: solid;
+border-color: red;
 ```
+
 - [ ] D
 
 ```css
-  border-width: 1px;
-  border-line: solid;
-  border-color: red;
+border-width: 1px;
+border-line: solid;
+border-color: red;
 ```
 
 #### Q96. Pseudo-classes are used to `_`.
@@ -1298,6 +1345,7 @@ section {
   a
   a:hover
 ```
+
 - [ ] B
 
 ```css
@@ -1307,6 +1355,7 @@ section {
   :active
   :focus
 ```
+
 - [ ] C
 
 ```css
@@ -1316,6 +1365,7 @@ section {
   :link
   :visited
 ```
+
 - [x] D
 
 ```css

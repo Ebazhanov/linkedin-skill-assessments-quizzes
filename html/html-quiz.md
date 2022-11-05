@@ -1985,30 +1985,32 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 [Source](https://www.w3schools.com/html/html_headings.asp)
 
 #### Q119. Which is an invalid use of the <a> element?
+
 - [ ] A
 
 ```html
-  <a href="#additional-information" class="Card">
-    <video src="media.mp4" width="400" height="300"></video> 
-  </a>
+<a href="#additional-information" class="Card">
+  <video src="media.mp4" width="400" height="300"></video>
+</a>
 ```
 
 - [x] B
 
 ```html
-  <a href="#additional-information" class="Card">
-    <details>
-      <summary>Additional Information</summary>
-    </details>
-  </a>
+<a href="#additional-information" class="Card">
+  <details>
+    <summary>Additional Information</summary>
+  </details>
+</a>
 ```
 
 - [ ] C
- 
+
 ```html
-  <a href="#additional-information" class="Card">
-    <p>Additional Information<p>
-  </a>
+<a href="#additional-information" class="Card">
+  <p>Additional Information</p>
+  <p></p
+></a>
 ```
 
 - [ ] D

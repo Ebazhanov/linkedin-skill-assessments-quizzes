@@ -348,7 +348,7 @@ const user = {
 #### Q36. A webpage has `rel="preconnect"` added to a link resource. What will this do?
 
 ```html
-<link rel="preconnect" href="https://example.com">
+<link rel="preconnect" href="https://example.com" />
 ```
 
 - [ ] It will tell the browser that this link is a site belonging to the current domain.
@@ -617,46 +617,45 @@ console.log(currencies);
 
 ```html
 <div class="container">
-    <div class="box">what a lovely box, very centered
-    </div>
+  <div class="box">what a lovely box, very centered</div>
 </div>
 ```
 
 - [ ] A
 
 ```css
-  .container {
-    display: flex;
-    align-items: center;
-  }
+.container {
+  display: flex;
+  align-items: center;
+}
 ```
 
 - [x] B
 
 ```css
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 ```
 
 - [ ] C
 
 ```css
-  .box {
-    align-items: center;
-    justify-content: center;
-  }
+.box {
+  align-items: center;
+  justify-content: center;
+}
 ```
 
 - [ ] D
 
 ```css
-  .container {
-    display: flex;
-    align: center;
-  }
+.container {
+  display: flex;
+  align: center;
+}
 ```
 
 #### Q65. CSS Logical Properties and Values now have wide-ranging support in browsers. If you wanted to use the logical version of `width`, which property name would you choose?
@@ -785,8 +784,8 @@ box {
 
 ```css
 @font-face {
-    font-family: Helvetica;
-    font-display: swap;
+  font-family: Helvetica;
+  font-display: swap;
 }
 ```
 

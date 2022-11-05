@@ -606,7 +606,7 @@ vect2 <- c(1:2)
 vect1 * vect2
 ```
 
-- [x] [1] 1 4 3 8 
+- [x] [1] 1 4 3 8
 - [ ] ERROR
 - [ ] [1] 1 2 3 4 1 2
 - [ ] [1] 1 2 3 4 2 4 6 8
@@ -634,7 +634,7 @@ Results: [1] "GHW BUsh" "Clinton" "Obama"
 #### Q58. A data frame contains two factor -fact1 and fact2- and a numerical outcome variable. Which statement returns results that do NOT include an interaction term?
 
 - [x] anova(lm(outcome ~ fact1 : fact2))
-- [ ] anova(lm(outcome ~ fact1 * fact2))
+- [ ] anova(lm(outcome ~ fact1 \* fact2))
 - [ ] anova(lm(outcome ~ fact1 + fact2))
 - [ ] anova(lm(outcome ~ fact1 + fact2 + fact1 : fact2))
 

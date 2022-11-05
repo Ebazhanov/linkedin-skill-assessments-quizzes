@@ -61,7 +61,7 @@
 - [ ] bir SSL sertifikası
 - [ ] bir bit maskesi
 - [x] bir AWS KMS anahtarı
-- [ ] bir HTTP protokolü 
+- [ ] bir HTTP protokolü
 
 #### S10. Lambdalar başka hangi şeylerin çalıştırılmasına izin verir?
 
@@ -354,7 +354,8 @@
 - [ ] Kinesis, DynamoDB, and SNS
 - [x] Kinesis, DynamoDB, and SQS
 
-**Açıklama** 
+**Açıklama**
+
 - `Lambda soruda belirtilen tüm servisler için kullanılabilir: Kinesis, S3, SNS, SQS, DynamoDB. Ancak referansta görebileceğiniz gibi, Lambda'nın sorumluluğu ve yöntem çağırma Lambda polling ve Event Driven (senkronize çağırma) olarak kategorize edilebilir. Olay güdümlü bir mimari uyguladığınızda, olay üreten hizmete, işlevin kaynak tabanlı ilkesinde işlevinizi çağırma izni verirsiniz. Ardından bu hizmeti, işlevinizi çağıran olaylar oluşturacak şekilde yapılandırırsınız. Bir Lambda yoklama mimarisi uyguladığınızda, Lambda'ya işlevin yürütme rolündeki diğer hizmete erişme izni verirsiniz. Lambda diğer hizmetten verileri okur, bir olay oluşturur ve işlevinizi çağırır. Bu analize göre, Kinesis-DynamoDB-SQS aynı yöntem çağrısını, Lambda polling'i kullanır.`
 
 #### S51. Bir Lambda ne ile adlandırılabilir?

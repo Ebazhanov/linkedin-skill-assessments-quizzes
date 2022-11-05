@@ -2325,7 +2325,7 @@ MISSING_ARG_3 = func
 #### P169. Para usar canalizaciones en scikit-learn, importe desde el submódulo scikit-learn.**\_**.
 
 - [ ] preprocesamiento
-- [x] tubería (pipeline en Inglés [Referencia](https://es.wikipedia.org/wiki/Tuber%C3%ADa_(inform%C3%A1tica))
+- [x] tubería (pipeline en Inglés [Referencia](<https://es.wikipedia.org/wiki/Tuber%C3%ADa_(inform%C3%A1tica)>)
 - [ ] filtros
 - [ ] tubo_filtro
 
@@ -2355,4 +2355,3 @@ print(c)
 - [ ] `[False, False, False, True, True, True]`
 - [ ] `[[0,0], [3, 4], [5, 6]]`
 - [x] `[4 5 6]`
-

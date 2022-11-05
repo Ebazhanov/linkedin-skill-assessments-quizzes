@@ -1112,7 +1112,6 @@ Table name: superheroes
         AND Courses.Course_number = Grades.Course_number
         AND Grades.Grade = A
 
-
 (Which of the following sets is computed by the above query?)
 
 - [ ] Names of Students who have got an A grade in all courses taught by Sriram

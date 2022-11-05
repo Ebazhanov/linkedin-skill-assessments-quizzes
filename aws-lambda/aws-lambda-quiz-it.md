@@ -61,7 +61,7 @@
 - \[ ] an SSL certificate
 - \[ ] a bitmask
 - \[x] an AWS KMS key
-- \[ ] an HTTP protocol 
+- \[ ] an HTTP protocol
 
 #### D10. Le lambda consentono l'esecuzione di quali altre cose?
 

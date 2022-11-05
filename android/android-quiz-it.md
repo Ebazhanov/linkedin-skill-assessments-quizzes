@@ -840,7 +840,7 @@ Avviso: AndroidJUnitRunner ci consente di eseguire test in stile JUnit3 / 4 su d
       android:layout_heignt="wrap_content"
       android:layout_marginBottom="@resources/spacing_medium"
       android:src=@drawable/map_pin />
-
+```
 - \[x]
 
 ```xml

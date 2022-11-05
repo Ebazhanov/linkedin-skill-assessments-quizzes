@@ -171,6 +171,7 @@ if ($email === false) {
 #### Q19. The PHP function array_reduce() takes a callback function that accepts a value carried over each iteration and the current item in the array, and reduces an array to a single value. Which code sample will sum and output the values in the provided array?
 
 - [ ]
+
 ```php
   1 <?php
   2 echo array_reduce([1, 2, 5, 10, 11], function ($item, $carry) {
@@ -178,7 +179,9 @@ if ($email === false) {
   4 });
   5?>
 ```
+
 - [ ]
+
 ```php
   1 <?php
   2 echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) {
@@ -186,7 +189,9 @@ if ($email === false) {
   4 });
   5?>
 ```
+
 - [ ]
+
 ```php
   1 <?php
   2 array_reduce([11 2, 5, 10, 11], function ($item, $carry) {
@@ -194,7 +199,9 @@ if ($email === false) {
   4 });
   5?>
 ```
+
 - [x]
+
 ```php
   1 <?php
   2 echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) {
@@ -206,6 +213,7 @@ if ($email === false) {
 #### Q20. Which PHP script uses a constructor to display the string "Winter is almost over!"?
 
 - [x]
+
 ```php
   1 class MyClass {
   2 public function _construct()
@@ -215,7 +223,9 @@ if ($email === false) {
   6 }
   7 $userclass = new MyClass;
 ```
+
 - [ ]
+
 ```php
   1 class MyClass {
   2 public function _construct()
@@ -225,7 +235,9 @@ if ($email === false) {
   6 }
   7 $userclass = new MyClass;
 ```
+
 - [ ]
+
 ```php
   1 class MyClass {
   2 public function _construct()
@@ -235,7 +247,9 @@ if ($email === false) {
   6 }
   7 $userclass = new MyClass;
 ```
+
 - [ ]
+
 ```php
   1 class MyClass {
   2 public function _construct()
@@ -446,12 +460,15 @@ echo "No, mail is not set";
 #### Q44. Which code snippet demonstrates encapsulation?
 
 - [ ]
+
 ```php
   class Cow extends Animal {
       private $milk;
   }
 ```
+
 - [ ]
+
 ```php
   class Cow {
       public $milk;
@@ -459,7 +476,9 @@ echo "No, mail is not set";
   $daisy = new Cow();
   $daisy->milk = "creamy";
 ```
+
 - [ ]
+
 ```php
   class Cow {
       public $milk;
@@ -468,7 +487,9 @@ echo "No, mail is not set";
       }
   }
 ```
+
 - [x]
+
 ```php
   class Cow {
       private $milk;
@@ -501,21 +522,28 @@ echo "No, mail is not set";
 ```
 
 - [ ]
+
 ```php
   $books = simplexml_load_string('books.xml');
   echo $books->book[0]->categories->category[1];
 ```
+
 - [x]
+
 ```php
   $books = simplexml_load_file('books.xml');
   echo $books->book[0]->categories->category[1];
 ```
+
 - [ ]
+
 ```php
   $books = SimpleXMLElement('books.xml');
   echo $books->book[0]->categories->category[1];
 ```
+
 - [ ]
+
 ```php
   $books = SimpleXML('books.xml');
   echo $books->book[0]->categories->category[1];
@@ -580,24 +608,28 @@ isset($_POST['submit'])
 #### Q52. What are the recommended settings in the PHP configuration file, php.ini, for a testing environment?
 
 - [ ]
+
 ```php
   report_errors = E_ALL
   display_errors = On
 ```
 
 - [x]
+
 ```php
   error_reporting = E_ALL
   display_errors = On
 ```
 
 - [ ]
+
 ```php
   error_reporting = E_ALL & ~E_NOTICE
   display_errors = Off
 ```
 
 - [ ]
+
 ```php
   error_reporting = E_ALL & ~E_NOTICE
   display_errors = On

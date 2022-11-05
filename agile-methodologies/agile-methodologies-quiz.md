@@ -982,4 +982,3 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [x] Share th eproblem with your team to see if they can create a solution
 - [ ] Work around the issue until the last responsible moment to solve it
 - [ ] Check the Product Owner's schedule and book time for a meeting
-

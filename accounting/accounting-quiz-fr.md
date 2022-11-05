@@ -186,7 +186,7 @@
 - \[x] Le tableau de bord prospectif garantit que la rentabilité de l’organisation correspond aux attentes en matière de rémunération et de dividendes des administrateurs.
 
 [source](http://www.managerialaccounting.org/Balanced%20Scorecard.htm)
-`« MT: BSC est sur l’amélioration de l’efficacité - atteindre les objectifs et comment les mesurer quantitativement ou qualitativement. Rien à voir avec la façon de compenser »`
+`« MT: BSC est sur l’amélioration de l’efficacité - atteindre les objectifs et comment les mesurer quantitativement ou qualitativement. Rien à voir avec la façon de compenser »`
 
 #### Q25. Quel choix n’est pas une composante du contrôle interne?
 

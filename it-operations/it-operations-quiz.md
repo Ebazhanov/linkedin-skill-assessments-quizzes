@@ -101,32 +101,32 @@
 #### Q10. Which components are typically found on the motherboard?
 
 - [x]
-basic I/O
-graphics
-NIC
-battery
-expansion slots
+  basic I/O
+  graphics
+  NIC
+  battery
+  expansion slots
 
 - [ ]
-basic I/O
-cooling
-NIC
-graphics
-expansion slots
+  basic I/O
+  cooling
+  NIC
+  graphics
+  expansion slots
 
 - [ ]
-basic I/O
-graphics
-NIC
-mass storage
-expansion slots
+  basic I/O
+  graphics
+  NIC
+  mass storage
+  expansion slots
 
 - [ ]
-basic I/O
-graphics
-NIC
-power supply
-expansion slots
+  basic I/O
+  graphics
+  NIC
+  power supply
+  expansion slots
 
 #### Q11. What does the acronym RAID refer to?
 

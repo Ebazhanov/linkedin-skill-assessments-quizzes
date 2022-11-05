@@ -174,32 +174,32 @@ izer API to give users a way to manipulate basic theme settings. The Customizer 
 - [ ] .
 
 ```js
-$.ready(function() {
-// do stuff
+$.ready(function () {
+  // do stuff
 });
 ```
 
 - [ ] .
 
 ```js
-(function($) {
-// do stuff
-})( jQuery );
+(function ($) {
+  // do stuff
+})(jQuery);
 ```
 
 - [x] .
 
 ```js
-$(function() {
-// do stuff
+$(function () {
+  // do stuff
 });
 ```
 
 - [ ] .
 
 ```js
-jQuery(function($) {
-// do stuff
+jQuery(function ($) {
+  // do stuff
 });
 ```
 
@@ -631,7 +631,7 @@ endif;
 #### Q72. JavaScript variables can hold many data types. Which data type does the following variable represent?
 
 ```js
-var x = "16"
+var x = '16';
 ```
 
 - [ ] Boolean

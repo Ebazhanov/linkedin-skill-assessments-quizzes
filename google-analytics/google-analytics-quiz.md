@@ -198,6 +198,7 @@
 - [ ] directly before the `</body>` tag
 
 #### Q28. Refer to the two following URLs. How can you make this data more readable in Google Analytics by mapping the actual product names to the ID in the URL?
+
 `.../shop/?ProductID=1234` `.../shop/?ProductID=5678`
 
 - [ ] Configure calculated metrics.
