@@ -45,8 +45,6 @@ Want to contribute? Here is the source code https://github.com/linkedin-faq
 
 ## Open in VScode view [here](https://github1s.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/HEAD/adobe-photoshop/adobe-photoshop-quiz.md) or [there](https://github.dev/Ebazhanov/linkedin-skill-assessments-quizzes/) 🔥
 
-![Alt text](https://monosnap.com/image/mLe4p9mXeAyiBfIQFMed8eLzZedHMJ)
-
 ### Table of Contents
 
 | Linkedin-quiz-questions                                                                           | Passed/Failed    | Translated <br/> in ...                                                                                                                                                                                                                                                          | Questions | Answers | Your resource for answers. In case you have doubts please contact this person or add them to review your PR.                                                          |
