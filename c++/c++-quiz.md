@@ -1465,3 +1465,9 @@ return 0;
 - [ ] Assignment Operator
 - [ ] A constructor without any parameter
 - [x] All of the above
+
+#### Q95. The if-else statement can be replaced by which operator ?
+- [ ] certain structure
+- [ ] choosing structure
+- [x] selective structure
+- [ ] None of the Above
