@@ -766,5 +766,5 @@ E. Perspective Warp
 
 - \[ ] Pattern Stamp Tool
 - \[ ] History Brush Tool
-- \[ x] Clone Stamp Tool
+- \[x] Clone Stamp Tool
 - \[ ] Eraser Tool
