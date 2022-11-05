@@ -1936,13 +1936,6 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 - [x] `<br>`
 - [ ] `<a>`
 
-#### Q112. How to display preformatted text in HTML?
-
-- [ ] `<p>`
-- [x] `<pre>`
-- [ ] `<hr>`
-- [ ] All of the above
-
 #### Q113. The HTML global attribute, "contenteditable" is used to:
 
 - [ ] Update content from the server
@@ -2026,3 +2019,9 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 </a>
 ```
 
+#### Q120. How to display preformatted text in HTML?
+
+- [ ] `<p>`
+- [x] `<pre>`
+- [ ] `<hr>`
+- [ ] All of the above
