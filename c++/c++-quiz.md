@@ -70,8 +70,8 @@ v2.push_back(5);
 
 ```cpp
 union {
-    unit16_t a;
-    unit32_t b;
+    uint16_t a;
+    uint32_t b;
     int8_t c;
 } u1;
 ```
