@@ -8,6 +8,7 @@
 
 [![Analytics](https://img.shields.io/badge/analytics-ossinsight-red)](https://ossinsight.io/analyze/Ebazhanov/linkedin-skill-assessments-quizzes)
 [![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FEbazhanov%2Flinkedin-skill-assessments-quizzes&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
@@ -26,23 +27,21 @@ have a great understanding about.
 
 #### Announcement 🎉:
 
-1. Guys if you want to participate in https://hacktoberfest.com/participation/ please write in you PR - **HACKTOBERFEST**
-
-2. Column `Translation` have links to quizzes in different languages Es, Fr, It, DE
-
-3. **Telegram** channel comming soon! :point_left:
-
-4. If you want to meet each other or discuss quiz related problems or maybe ask for skills endorsement just join the `Discord` chat
-
-[![Join our Discord server!](https://invidget.switchblade.xyz/NKCyjjw3MW?theme=light)](https://discord.gg/NKCyjjw3MW)
-
-5. Playground before taking quiz using:
-
+1. Column `Translation` have links to quizzes in different languages Es, Fr, It, DE
+2. If you want to meet each other or discuss quiz related problems or maybe ask for skills endorsement just join the `Discord` chat
+3. Playground before taking quiz using:
 - Web App https://linkedin-faq.github.io/md2practice/
 - Web App #2 https://linkedin-faq.github.io/skill-assessments-quizzes/
 - In **terminal** https://github.com/linkedin-faq/linkedin-quizzes-kodyfire
 
 Want to contribute? Here is the source code https://github.com/linkedin-faq
+
+## Need help?
+[![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
+- [Open new issue](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/new/choose)
+
+[![Join our Discord server!](https://invidget.switchblade.xyz/NKCyjjw3MW?theme=light)](https://discord.gg/NKCyjjw3MW)
+
 
 ## Open in VScode view [here](https://github1s.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/HEAD/adobe-photoshop/adobe-photoshop-quiz.md) or [there](https://github.dev/Ebazhanov/linkedin-skill-assessments-quizzes/) 🔥
 
