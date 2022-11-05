@@ -1984,7 +1984,42 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 [Source](https://www.w3schools.com/html/html_headings.asp)
 
-#### Q119. How to display preformatted text in HTML?
+#### Q119. Which is an invalid use of the <a> element?
+- [ ] A
+
+```html
+  <a href="#additional-information" class="Card">
+    <video src="media.mp4" width="400" height="300"></video> 
+  </a>
+```
+
+- [x] B
+
+```html
+  <a href="#additional-information" class="Card">
+    <details>
+      <summary>Additional Information</summary>
+    </details>
+  </a>
+```
+
+- [ ] C
+ 
+```html
+  <a href="#additional-information" class="Card">
+    <p>Additional Information<p>
+  </a>
+```
+
+- [ ] D
+
+```html
+<a href="#additional-information" class-"Card">
+  <img src="media.jpeg" alt="More information"></video>
+</a>
+```
+
+#### Q120. How to display preformatted text in HTML?
 
 - [ ] `<p>`
 - [x] `<pre>`
