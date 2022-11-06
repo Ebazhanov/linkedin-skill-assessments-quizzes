@@ -155,6 +155,7 @@ func main() {
 - [x] The goroutine does not end until the time passes.
 
 > Note: it doesn't block `select` and does not block other channels.
+
 1. [time.After() Function in Golang With Examples](https://www.geeksforgeeks.org/time-after-function-in-golang-with-examples/)
 2. [How can I use 'time.After' and 'default' in Golang?](https://stackoverflow.com/questions/39212333/how-can-i-use-time-after-and-default-in-golang)
 3. [Go Playground example](https://go.dev/play/p/WojTrG1ywRK)

@@ -11,7 +11,9 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1217-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -28,6 +30,7 @@ have a great understanding about.
 1. Column `Translation` have links to quizzes in different languages Es, Fr, It, DE
 2. If you want to meet each other or discuss quiz related problems or maybe ask for skills endorsement just join the `Discord` chat
 3. Playground before taking quiz using:
+
 - Web App https://linkedin-faq.github.io/md2practice/
 - Web App #2 https://linkedin-faq.github.io/skill-assessments-quizzes/
 - In **terminal** https://github.com/linkedin-faq/linkedin-quizzes-kodyfire
@@ -35,11 +38,12 @@ have a great understanding about.
 Want to contribute? Here is the source code https://github.com/linkedin-faq
 
 ## Need help?
+
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
+
 - [Open new issue](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/new/choose)
 
 [![Join our Discord server!](https://invidget.switchblade.xyz/NKCyjjw3MW?theme=light)](https://discord.gg/NKCyjjw3MW)
-
 
 ## Open in VScode view [here](https://github1s.com/Ebazhanov/linkedin-skill-assessments-quizzes/blob/HEAD/adobe-photoshop/adobe-photoshop-quiz.md) or [there](https://github.dev/Ebazhanov/linkedin-skill-assessments-quizzes/) 🔥
 

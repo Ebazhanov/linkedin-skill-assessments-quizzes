@@ -589,19 +589,9 @@
 - [x] To display views of model space. You create, scale and place viewports in paper space on a layout.
 - [ ] To display views of paper space. You create, sclae and place viewports in model space.
 
-#### Q80. You have designed a shaft with a 1-inch diameter. Your specifications state that it is acceptable for this shaft diameter to be 0.05 inch smaller or 0.05  inch larger than 1 inch. Which tolerance method would you use to dimension this shaft?
+#### Q80. You have designed a shaft with a 1-inch diameter. Your specifications state that it is acceptable for this shaft diameter to be 0.05 inch smaller or 0.05 inch larger than 1 inch. Which tolerance method would you use to dimension this shaft?
 
 - [x] Engineering.
 - [ ] Deviation.
 - [ ] Fractional.
 - [ ] Symmetricl.
-
-
-
-
-
-
-
-
-
-
