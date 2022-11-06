@@ -263,7 +263,7 @@ E. Perspective Warp
 - \[ ] scriptlet
 - \[ ] image process
 
-#### Q34. Which tool is not found in the Select and Mask taskspace?
+#### Q34. Which tool is not found in the Select and Mask workspace?
 
 - \[ ] Refine Edge
 - \[ ] Quick Select
@@ -546,6 +546,9 @@ E. Perspective Warp
 #### Q70. How many layer masks can be added to an image?
 
 - \[x] up to 8000
+- \[] up to 2000
+- \[] infinite
+- \[] 0
 
 #### Q71. Which method is a high-quality scaling algorithm for enlarging image?
 
@@ -758,3 +761,10 @@ E. Perspective Warp
 - \[ ] B
 - \[ ] C
 - \[ ] D
+
+#### Q99. Which tool samples a group of pixels and brushes them into a new area without modifying them first?
+
+- \[ ] Pattern Stamp Tool
+- \[ ] History Brush Tool
+- \[x] Clone Stamp Tool
+- \[ ] Eraser Tool
