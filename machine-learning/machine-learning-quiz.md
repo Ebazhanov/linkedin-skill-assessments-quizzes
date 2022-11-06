@@ -365,7 +365,7 @@ Note: there are centres of clusters (C0, C1, C2).
 
 [Reference](https://towardsdatascience.com/all-about-naive-bayes-8e13cef044cf)
 
-#### Q49. Someone of your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?
+#### Q49. Someone on your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?
 
 - [ ] regression analysis
 - [ ] unsupervised learning
