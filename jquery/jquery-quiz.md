@@ -604,7 +604,7 @@ $('#container').wrap('<div class="wrapper"></div>').css('border', '2px solid red
 - [ ] `$('*').find('p')`
 - [ ] `$('p').length()`
 
-#### Q28. As with many areas of JavaScript, keeping track of the meaning of **this** is important and sometimes tricky. What does **this** mean at each of the two points in this custom plugin snippet?
+#### Q28. As with many areas of JavaScript, keeping track of the meaning of `this` is important and sometimes tricky. What does `this` mean at each of the two points in this custom plugin snippet?
 
 ```js
 $.fn.customPlugin = function () {
@@ -691,6 +691,8 @@ $('#main-menu').click(function (event) {
 - [x] `event.stopPropagation();`
 - [ ] `event.preventDefault();`
 - [ ] `event.stop();`
+
+[Difference between preventDefault, stopPropagation & return false](https://www.educative.io/answers/difference-between-preventdefault-stoppropagation-return-false)
 
 #### Q32. Using event delegation, you can listen for events on a lot of different items without having to attach separate listeners to each one. But there are times when you may want to check the type of item receiving the event before doing anything, such as checking if an image was clicked versus a text field. Given the starter code below, which choice shows what jQuery provides to help with that process?
 
@@ -1549,7 +1551,7 @@ $('.items').find('li:first-child').fadeOut().next('.active').fadeTo('fast', 0.5)
 - [ ] Select `$(document.body)` first, then use .filter with the custom extension.
 - [ ] Use the custom extension with `.has()`.
 - [ ] Start with the custom extension, then use `.find` with a selector that exists in CSS to limit the selection.
-- [ ] Start with a selection that exists in CSS, then refine the selection using `.filter()` with the custom extension.
+- [x] Start with a selection that exists in CSS, then refine the selection using `.filter()` with the custom extension.
 
 #### Q79. What is the main difference between the ajaxStop and ajaxComplete global handlers?
 
