@@ -690,8 +690,8 @@ public class Honda extends Car{}
 
 - [ ] cat : kitten
 - [ ] color : red
-- [ ] planet : moon
-- [x] truck : window
+- [x] planet : moon
+- [ ] truck : window
 
 #### Q91. What cannot be used for polymorphism?
 
