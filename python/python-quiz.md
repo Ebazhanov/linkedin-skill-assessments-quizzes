@@ -1833,6 +1833,9 @@ print ("foo" if (256).bit_length() > 8 else "bar")
 - [ ] numerical; tabular
 - [ ] tabular; numerical
 
+[Reference](https://www.interviewbit.com/blog/pandas-vs-numpy/)
+
+
 #### Q137. What do you need to do to install additional packages into Python?
 
 - [ ] Use a C compiler like gcc or clang.
