@@ -1259,6 +1259,7 @@ console.log(y);
 - [ ] true
 - [x] Two
 
+**Note:** `this question is same with Q46.`
 [Reference ternary operator js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 
 #### Q96. How would you access the word It from this multidimensional array?
@@ -1721,9 +1722,9 @@ console.log(score);
 - [ ] `6`
 - [ ] `7`
 
-1. [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
-2. [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
-3. [Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
+1. [Reference Array.prototype.push()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
+2. [Reference Array.prototype.pop()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
+3. [Reference Array.prototype.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
 
 #### Q125. What does this code print to the console?
 
@@ -1951,26 +1952,26 @@ console.log(json); // print {"type":"tiger"}
 
 #### Q140. Which document method is not used to get a reference to a DOM node?
 
-- [ ] document.getNode();
+- [x] document.getNode();
 - [ ] document.getElementsByClassName();
-- [x] document.querySelectorAll();
+- [ ] document.querySelectorAll();
 - [ ] document.querySelector();
 
 [Reference](<https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById#:~:text=querySelector()%20and%20Document.,element%20objects%20in%20the%20DOM.>)
 
 #### Q141. Which snippet could you add to this code to print "{"type": "tiger"}" to the console?
 
-```
+```js
 let cat = {type: "tiger", size: "large"};
 let json= /_ Snippet Here _/;
 console.log(json); //prints {"type": "tiger"}
 
 ```
 
-- [x] JSON.sringify(cat);
-- [ ] JSON.sringify(cat, ["type"]);
-- [ ] JSON.sringify(cat, /type/);
-- [ ] cat.toJSON("type");
+- [ ] `JSON.sringify(cat);`
+- [x] `JSON.sringify(cat, ["type"]);`
+- [ ] `JSON.sringify(cat, /type/);`
+- [ ] `cat.toJSON("type");`
 
 [Reference](https://www.w3schools.com/jsref/jsref_stringify.asp)
 
@@ -2045,9 +2046,9 @@ print(typeof NaN);
 - [ ] Runtime Error
 - [x] 59
 
-#### Q149. Which of the following methods can be used to display data in some form using Javascript?
+#### Q150. Which of the following methods can be used to display data in some form using Javascript?
 
 - [ ] document.write()
 - [ ] console.log()
 - [ ] window.alert()
-- [ ] all of the above
+- [x] all of the above
