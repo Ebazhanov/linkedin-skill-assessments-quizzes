@@ -786,7 +786,7 @@ String.init(from: decoder)
 - [ ] String?
 - [x] String!
 - [ ] try?
-  
+
   #### Q71. How many times is this loop executed?
 
 ```swift
@@ -794,7 +794,7 @@ let loopx = 5
 repeat {
 print (loopx)
 } while loopx < 6
-  ```
+```
 
 - [ ] Six
 - [ ] Zero
@@ -806,7 +806,7 @@ print (loopx)
 ```swift
 var vals: Set<String> = ["4", "5", "6"]
 vals.insert("5")
-  ```
+```
 
 - [ ] This code contains an error.
 - [ ] Eight

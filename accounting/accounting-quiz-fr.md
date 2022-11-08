@@ -86,7 +86,7 @@
 - \[ ] Le bénéfice brut va aux bénéfices non répartis, et le total des capitaux propres des actionnaires est ajouté à l’état des flux de trésorerie
 - \[x] Le bénéfice net va aux bénéfices non répartis et au tableau des flux de trésorerie
 
-\[source]`'MT: qns impairs. Mais il devrait s’agir de flux de bénéfice net « npat » vers les bénéfices non répartis, et commence également l’état des flux de trésorerie (donc tous liés et non indépendants). Les actifs sont au bilan, le résultat net est dans le compte de résultat. npat va aux bénéfices non répartis, pas à la marge brute.`
+\[source]`'MT: qns impairs. Mais il devrait s’agir de flux de bénéfice net « npat » vers les bénéfices non répartis, et commence également l’état des flux de trésorerie (donc tous liés et non indépendants). Les actifs sont au bilan, le résultat net est dans le compte de résultat. npat va aux bénéfices non répartis, pas à la marge brute.`
 
 #### Q13. Quelle n’est pas l’une des quatre perspectives du tableau de bord prospectif?
 

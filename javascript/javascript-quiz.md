@@ -1962,10 +1962,9 @@ console.log(json); // print {"type":"tiger"}
 #### Q141. Which snippet could you add to this code to print "{"type": "tiger"}" to the console?
 
 ```js
-let cat = {type: "tiger", size: "large"};
-let json= /_ Snippet Here _/;
+let cat = { type: 'tiger', size: 'large' };
+let json = /_ Snippet Here _/;
 console.log(json); //prints {"type": "tiger"}
-
 ```
 
 - [ ] `JSON.sringify(cat);`
