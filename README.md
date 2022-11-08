@@ -11,9 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1217-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-1218-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1709,6 +1707,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center"><a href="https://www.linkedin.com/in/yussah/"><img src="https://avatars.githubusercontent.com/u/61895971?v=4?s=100" width="100px;" alt="Yusuf Abdul-razaq"/><br /><sub><b>Yusuf Abdul-razaq</b></sub></a><br /><a href="#design-yabdulra" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=yabdulra" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/Folld"><img src="https://avatars.githubusercontent.com/u/73252859?v=4?s=100" width="100px;" alt="Vladimir"/><br /><sub><b>Vladimir</b></sub></a><br /><a href="#design-Folld" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Folld" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/singletick"><img src="https://avatars.githubusercontent.com/u/43012033?v=4?s=100" width="100px;" alt="Sai Chandra K"/><br /><sub><b>Sai Chandra K</b></sub></a><br /><a href="#design-singletick" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=singletick" title="Code">💻</a></td>
+      <td align="center"><a href="https://soroush.am"><img src="https://avatars.githubusercontent.com/u/5072187?v=4?s=100" width="100px;" alt="Soroush Bonab"/><br /><sub><b>Soroush Bonab</b></sub></a><br /><a href="#design-soroushamdg" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=soroushamdg" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
