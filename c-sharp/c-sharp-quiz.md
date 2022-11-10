@@ -795,9 +795,11 @@ void MyFunction()
 
 [Reference](https://stackoverflow.com/a/6136865)
 
-    #### Q74. Which statement is True?
+#### Q74. Which statement is True?
 
 - [ ] All are true.
 - [ ] None are true.
 - [ ] string is a value type.
 - [x] string is an alias for String
+    
+[Reference](https://stackoverflow.com/q/7074)
