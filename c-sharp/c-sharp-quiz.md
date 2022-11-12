@@ -801,5 +801,5 @@ void MyFunction()
 - [ ] None are true.
 - [ ] string is a value type.
 - [x] string is an alias for String
-    
+
 [Reference](https://stackoverflow.com/q/7074)

@@ -1835,7 +1835,6 @@ print ("foo" if (256).bit_length() > 8 else "bar")
 
 [Reference](https://www.interviewbit.com/blog/pandas-vs-numpy/)
 
-
 #### Q137. What do you need to do to install additional packages into Python?
 
 - [ ] Use a C compiler like gcc or clang.
@@ -2377,7 +2376,7 @@ my_list = [2, 'apple', 3.5]
 [ [ [ randint(1,100) for i in range(m) ] for j in range(n) ] for k in range(p) ]
 ```
 
-- [x] m * n * p
+- [x] m _ n _ p
 - [ ] the greater value of (m,n,p)
 - [ ] 1 million
 - [ ] m + n + p

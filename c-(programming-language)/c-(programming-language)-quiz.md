@@ -36,7 +36,7 @@ while(1)
 {
     long *bigArray = (long *) malloc(sizeof(long) * 1000);
     memset(bigArray, 1000000, 1000);
-    
+
     (bigArray);
 }
 ```
@@ -1327,6 +1327,7 @@ default:
 ```c
 strcpy(str1, str2);
 ```
+
 - [x] str1: "xyz" ; str2: "xyz"
 - [ ] str1: "abc" ; str2: "xyz"
 - [ ] str1: "xyz" ; str2: "abc"
