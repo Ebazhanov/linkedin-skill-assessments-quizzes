@@ -979,6 +979,6 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 #### Q134. Progress toward a sprint goal is in jeopardy becauseyou have not received sales data. What should you do?
 
 - [ ] Be sure to mention the issue in the next Scrum
-- [x] Share th eproblem with your team to see if they can create a solution
+- [x] Share the problem with your team to see if they can create a solution
 - [ ] Work around the issue until the last responsible moment to solve it
 - [ ] Check the Product Owner's schedule and book time for a meeting
