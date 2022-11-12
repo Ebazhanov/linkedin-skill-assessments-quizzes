@@ -36,7 +36,8 @@ while(1)
 {
     long *bigArray = (long *) malloc(sizeof(long) * 1000);
     memset(bigArray, 1000000, 1000);
-    free(bigArray);
+    
+    (bigArray);
 }
 ```
 
@@ -554,7 +555,7 @@ main(){
 - [x] library
 - [ ] system
 
-#### Q40. You have written a function that you want to include as a member of structure a. How is such as structure member defiened?
+#### Q40. You have written a function that you want to include as a member of structure a. How is such as structure member defined?
 
 - [x] :
 
@@ -935,21 +936,14 @@ int fl(int a, int b) { return(a>b?a:b); }
 - [ ] runtime error
 - [x] the greater value of the two passed parameters
 
-#### Q61. Which function fo you use to deallocate memory?
-
-- [x] free()
-- [ ] dealloc()
-- [ ] release()
-- [ ] dealloc()
-
-#### Q62. Which option is a valid function name?
+#### Q61. Which option is a valid function name?
 
 - [x] draw_star()
 - [ ] 5times()
 - [ ] upper-limit()
 - [ ] auto()
 
-#### Q63. What is not a valid type definition of a structure that contains x and y coordinates as integers, and that can be used as shown for the variable named point?
+#### Q62. What is not a valid type definition of a structure that contains x and y coordinates as integers, and that can be used as shown for the variable named point?
 
 ```c
 coord point;
@@ -994,7 +988,7 @@ typedef struct{
 } coord;
 ```
 
-#### Q64. What is the output of the below program?
+#### Q63. What is the output of the below program?
 
 ```c
 #include <stdio.h>
@@ -1016,7 +1010,7 @@ int main()
 - [ ] 3 or 5 depending on input
 - [ ] Compile time error
 
-#### Q65. What do the functions malloc() and calloc() allocate?
+#### Q64. What do the functions malloc() and calloc() allocate?
 
 - [ ] reallocatged memory
 - [ ] static memeory
@@ -1025,7 +1019,7 @@ int main()
 
 [Reference](https://devdocs.io/c/memory/calloc , https://devdocs.io/c/memory/malloc )
 
-#### Q66. You need to determine if a string variable is a substring of another string. Which standard C library function do you use?
+#### Q65. You need to determine if a string variable is a substring of another string. Which standard C library function do you use?
 
 - [ ] substr(str1, str2);
 - [x] strstr(str1, str2);
@@ -1034,7 +1028,7 @@ int main()
 
 [Reference](https://devdocs.io/c/string/byte/strstr)
 
-#### Q67. Find the output of the program?
+#### Q66. Find the output of the program?
 
 ```c
 #include <stdio.h>
@@ -1058,7 +1052,7 @@ int main(){
 
 [Reference](https://www.geeksforgeeks.org/left-shift-right-shift-operators-c-cpp/)
 
-#### Q68. Predict the output of the following code when the **interger** variables x is initialized to 10,y to 2 and z to 0.
+#### Q67. Predict the output of the following code when the **interger** variables x is initialized to 10,y to 2 and z to 0.
 
 ```c
 z = x + y * x + 10 / 2 * x;
@@ -1072,7 +1066,7 @@ printf("value is =%d",z);
 
 [Reference](https://www.informit.com/articles/article.aspx?p=2062174&seqNum=4)
 
-#### Q69. What will be the output of the following code snippet?
+#### Q68. What will be the output of the following code snippet?
 
 ```c
 #include <stdio.h>
@@ -1091,7 +1085,7 @@ int main() {
 - [ ] 2
 - [ ] 1
 
-#### Q70. What is the output of this program?
+#### Q69. What is the output of this program?
 
 ```c
 int a=20, b=10;
@@ -1108,7 +1102,7 @@ main() {
 - [ ] 5
 - [x] 50
 
-#### Q71. What is /0 character ?
+#### Q70. What is /0 character ?
 
 - [ ] String
 - [x] NULL Character
@@ -1117,7 +1111,7 @@ main() {
 
 [Reference](<https://www.youth4work.com/Talent/C-Language/Forum/117150-what-is-the-use-of-a-0-character-in-c-language#:~:text=by%20using%20of%20null%20character(%27%5C0%27)%20it%20terminates%20the%20string%20untill%20the%20null%20character%20hit...%20which%20means%20comes%20out%20of%20the%20loop...%20In%20strings%20by%20default%20takes%20the%20null%20charater>)
 
-#### Q72. What is correct output for follwing code ?
+#### Q71. What is correct output for follwing code ?1
 
 ```c
 #include&lt;stdio.h&gt;
@@ -1140,14 +1134,14 @@ main()
 - [ ] Before a=10 b=20 , After a=20 b=20
 - [x] Before a=10 b=20 , After a=20 b=10
 
-#### Q73. What is Incorrect option that explain # pragma directive ?
+#### Q72. What is Incorrect option that explain # pragma directive ?
 
 - [ ] #pragma exit allows us to specify functions called upon program exit.
 - [ ] This is a preprocessor directive that can be used to turn on or off certain features.
 - [x] #pragma startup don't allows us to specify functions called upon program startup.
 - [ ] It is of two types #pragma startup, #pragma exit and pragma warn.
 
-#### Q74. What will be the output of the following code snippet?
+#### Q73. What will be the output of the following code snippet?
 
 ```c
 #include <stdio.h>
@@ -1173,7 +1167,7 @@ int main() {
 - [x] 8
 - [ ] 10
 
-#### Q75. What will be the output of the following code snippet?
+#### Q74. What will be the output of the following code snippet?
 
 ```c
 #include <stdio.h>
@@ -1197,7 +1191,7 @@ int main() {
 - [ ] 82 19
 - [ ] None of these
 
-#### Q76. What is the output of the following code snippet?
+#### Q75. What is the output of the following code snippet?
 
 ```c
 int main() {
@@ -1212,20 +1206,7 @@ int main() {
 - [x] 16
 - [ ] 18
 
-#### Q77. What is not a valid command with this declaration?
-
-```
-chat *string[20] = {"one", "two", "three"};
-```
-
-- [x] printf("%s", string[1][2]);
-- [ ] printf("%s", string[1]);
-- [ ] printf(string[1]);
-- [ ] printf("%c", string[1][2]);
-
-**Explanation :** This matrix is not defined in 2D because which this command is not valid and there will no output.
-
-#### Q78. What does the following declaration mean?
+#### Q76. What does the following declaration mean?
 
 ```
 int (*ptr)[10];
@@ -1236,7 +1217,7 @@ int (*ptr)[10];
 - [ ] ptr is an array of 10 integers
 - [ ] ptr is an pointer to array
 
-#### Q79. What will be the output of the following code snippet?
+#### Q77. What will be the output of the following code snippet?
 
 ```c
 #include <stdio.h>
@@ -1264,12 +1245,12 @@ void change(int x,int y)
 
 **Explanation :** The function "change" will change the value of x and y only within its own scope, so a and is unaffected.
 
-#### Q85. Choose true or false.When variable is created in C, a memory address is assigned to the variable.
+#### Q78. Choose true or false.When variable is created in C, a memory address is assigned to the variable.
 
 - [x] True
 - [ ] False
 
-#### Q86. What does the following fragment of C-program print?
+#### Q79. What does the following fragment of C-program print?
 
 ```c
 #include <stdio.h>
@@ -1293,7 +1274,7 @@ int main()
 
 **Explanation :** char c[ ] = "GATE2011";since char \*p =c it means p represents to the base address of string “GATE2011” SO p[3] is 'E' and p[1] is 'A'. Value of Sub expression p[3] – p[1] = ASCII value of ‘E’ – ASCII value of ‘A’ = 4. So the expression p + p[3] – p[1] becomes ( p + 4) And (p+4) represent to base address of string “2011” printf(“%s”, p + p[3] – p[1]) ; So it will print 2011
 
-#### Q87. What is the output of the following code snippet?
+#### Q80. What is the output of the following code snippet?
 
 ```c
 int main() {
@@ -1309,7 +1290,7 @@ int main() {
 - [ ] 5 6 12
 - [ ] 6 6 12
 
-#### Q88. What will be the output of the following C program segment?
+#### Q81. What will be the output of the following C program segment?
 
 ```c
 char inchar = 'A';
@@ -1334,9 +1315,19 @@ default:
       Choice B No choice
 - [ ] Program gives no output as it is erroneous
 
-#### Q89. Which of the following is the correct syntax to print the message in C++ language?
+#### Q82. Which of the following is the correct syntax to print the message in C++ language?
 
 - [ ] Out <<"Hello world!
 - [ ] Cout << Hello world! ;
 - [x] cout <<"Hello world!";
 - [ ] None of the above
+
+#### Q83. String variable str1 has the value of "abc", and string variable str2 has the value "xyz". What are the values of str1 and str2 after this statement is executed?
+
+```c
+strcpy(str1, str2);
+```
+- [x] str1: "xyz" ; str2: "xyz"
+- [ ] str1: "abc" ; str2: "xyz"
+- [ ] str1: "xyz" ; str2: "abc"
+- [ ] str1: "abc" ; str2: "abc"
