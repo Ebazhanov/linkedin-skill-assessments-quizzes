@@ -2359,3 +2359,25 @@ print(c)
 - [ ] `[False, False, False, True, True, True]`
 - [ ] `[[0,0], [3, 4], [5, 6]]`
 - [x] `[4 5 6]`
+
+#### Q173. What is the correct syntax for replacing the string `apple` in the list with the string `orange`?
+
+```python
+my_list = [2, 'apple', 3.5]
+```
+
+- [ ] `orange = my_list[1]`
+- [x] `my_list[1] = 'orange'`
+- [ ] `my_list['orange'] = 1`
+- [ ] `my_list[1] == orange`
+
+#### Q174. Assume m, n and p are positive integers. In the following comprehension, how many times will the function `randint` be called?
+
+```python
+[ [ [ randint(1,100) for i in range(m) ] for j in range(n) ] for k in range(p) ]
+```
+
+- [x] m * n * p
+- [ ] the greater value of (m,n,p)
+- [ ] 1 million
+- [ ] m + n + p
