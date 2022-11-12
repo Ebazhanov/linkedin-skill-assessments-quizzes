@@ -177,7 +177,7 @@ function MyComponent() {
 - [x] fallback
 - [ ] spinner
 
-[Explanation](https://linguinecode.com/post/how-react-suspense-works)
+[Reference](https://linguinecode.com/post/how-react-suspense-works)
 
 #### Q17. What do you call the message wrapped in curly braces below?
 
@@ -261,7 +261,7 @@ function Dish(props) {
 - [ ] a property that lets you set an array as a property
 - [ ] a property that lets you pass data to child elements
 
-[Explanation](https://reactjs.org/docs/jsx-in-depth.html#children-in-jsx)
+[Reference](https://reactjs.org/docs/jsx-in-depth.html#children-in-jsx)
 
 #### Q25. Which attribute is React's replacement for using innerHTML in the browser DOM?
 
@@ -322,7 +322,7 @@ const Heading = () => {
 - [ ] error helpers
 - [x] error boundaries
 
-[Explanation](https://www.geeksforgeeks.org/react-js-error-boundaries/)
+[Reference](https://www.geeksforgeeks.org/react-js-error-boundaries/)
 
 #### Q32. In which lifecycle method do you make requests for data in a class component?
 
@@ -347,18 +347,20 @@ const Heading = () => {
 - [ ] recursive functions
 - [ ] higher-order functions
 
-#### Q35. What is `[e.target.id]` called in the following code snippet?
+#### Q35. What is `[e.target.id]` called in this code snippet?
 
 ```javascript
-handleChange(e) {
-  this.setState({ [e.target.id]: e.target.value })
-}
+const handleChange = (e) => {
+  setState((prevState) => ({ ...prevState, [e.target.id]: e.target.value }));
+};
 ```
 
 - [ ] a computed property name
 - [ ] a set value
 - [x] a dynamic key
 - [ ] a JSX code string
+
+[Reference](https://www.geeksforgeeks.org/how-to-set-state-with-a-dynamic-key-name-in-reactjs/)
 
 #### Q36. What is the name of this component?
 
@@ -389,7 +391,9 @@ class Clock extends React.Component {
 - [ ] It automatically updates a component.
 - [x] `setState` is asynchronous and might result in out of sync values.
 
-Read [this article](https://medium.com/@wisecobbler/using-a-function-in-setstate-instead-of-an-object-1f5cfd6e55d1)**Explanation:** Because `this.props` and `this.state` may be updated asynchronously, you should not rely on their values for calculating the next state.
+[Reference](https://medium.com/@wisecobbler/using-a-function-in-setstate-instead-of-an-object-1f5cfd6e55d1)
+
+**Explanation:** Because `this.props` and `this.state` may be updated asynchronously, you should not rely on their values for calculating the next state.
 
 #### Q39. What package contains the render() function that renders a React element tree to the DOM?
 
@@ -408,11 +412,9 @@ Read [this article](https://medium.com/@wisecobbler/using-a-function-in-setstate
 #### Q41. What do you need to change about this code to get it to run?
 
 ```js
-class clock extends React.Component {
-  render() {
-    return <h1>Look at the time: {this.props.time}</h1>;
-  }
-}
+const clock = (props) => {
+  return <h1>Look at the time: {props.time}<h1>;
+};
 ```
 
 - [ ] Add quotes around the return value
@@ -420,7 +422,9 @@ class clock extends React.Component {
 - [ ] Remove the render method
 - [x] Capitalize `clock`
 
-Read [this article](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components)**Explanation:** In JSX, lower-case tag names are considered to be HTML tags.
+[Reference](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-react-components)
+
+**Explanation:** In JSX, lower-case tag names are considered to be HTML tags.
 
 #### Q42. Which Hook could be used to update the document's title?
 
@@ -429,12 +433,14 @@ Read [this article](https://reactjs.org/docs/jsx-in-depth.html#html-tags-vs.-rea
 - [ ] `useEffect(function updateTitle() { name + ' ' + lastname; });`
 - [ ] `useEffect(function updateTitle() { title = name + ' ' + lastname; });`
 
-#### Q43. What can you use to wrap Component imports in order to load them lazily?
+#### Q43. Which function from React can you use to wrap Component imports to load them lazily?
 
-- [ ] `React.fallback`
-- [ ] `React.split`
-- [x] `React.lazy`
-- [ ] `React.memo`
+- [ ] `fallback`
+- [ ] `split`
+- [x] `lazy`
+- [ ] `memo`
+
+[Reference](https://blog.logrocket.com/lazy-loading-components-in-react-16-6-6cea535c0b52/)
 
 #### Q44. How do you invoke setDone only when component mounts, using hooks?
 
@@ -796,8 +802,7 @@ ReactDOM.createPortal(x, y);
 - [ ] the App component
 - [ ] the page
 
-**Explanation:**
-From official docs: [Portals](https://reactjs.org/docs/portals.html)
+[Reference](https://reactjs.org/docs/portals.html)
 
 #### Q67. What is `setCount`?
 
@@ -810,8 +815,7 @@ const [count, setCount] = useState(0);
 - [ ] a state object
 - [x] a function to update the state
 
-**Reference:**
-From official docs: [Hooks-State](https://reactjs.org/docs/hooks-state.html#:~:text=If%20we%20want%20to%20update%20the%20current)
+[Reference](https://reactjs.org/docs/hooks-state.html#:~:text=If%20we%20want%20to%20update%20the%20current)
 
 #### Q68. What is the use of map function below?
 
@@ -1063,7 +1067,10 @@ This question test knowledge of react class components. You need to use `this` i
 - [ ] a service worker
 - [ ] a tag
 
-`React Components are like functions that return HTML elements. Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML. Components come in two types, Class components and Function components.` [(Source)](https://reactjs.org/docs/components-and-props.html)
+[Reference](https://reactjs.org/docs/components-and-props.html)
+
+**Explanation:**
+React Components are like functions that return HTML elements. Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML. Components come in two types, Class components and Function components.
 
 #### Q90. You want to disable a button so that it does not emit any events onClick. Which prop do you use to acomplish this?
 
@@ -1289,7 +1296,7 @@ const Greeting = ({ initName }) => {
 - [x] To directly access a DOM
 - [ ] To refer to another JS file
 
-[Source](https://www.smashingmagazine.com/2020/11/react-useref-hook/)
+[Reference](https://www.smashingmagazine.com/2020/11/react-useref-hook/)
 
 #### Q108. Which of the following is required to use React?
 
@@ -1298,7 +1305,7 @@ const Greeting = ({ initName }) => {
 - [ ] Redux
 - [ ] Prop-Types
 
-[Source](https://reactjs.org/tutorial/tutorial.html#:~:text=What%20Is%20React%3F,of%20code%20called%20%E2%80%9Ccomponents%E2%80%9D.&text=We'll%20get%20to%20the%20funny%20XML%2Dlike%20tags%20soon.)
+[Reference](https://reactjs.org/tutorial/tutorial.html#:~:text=What%20Is%20React%3F,of%20code%20called%20%E2%80%9Ccomponents%E2%80%9D.&text=We'll%20get%20to%20the%20funny%20XML%2Dlike%20tags%20soon.)
 
 #### Q109. What is the correct way to get a value from context?
 
@@ -1307,7 +1314,7 @@ const Greeting = ({ initName }) => {
 - [x] const value = useContext(MyContext)
 - [ ] const value = useContext({value: "intiial value"})
 
-[Source](https://reactjs.org/docs/hooks-reference.html#usecontext)
+[Reference](https://reactjs.org/docs/hooks-reference.html#usecontext)
 
 #### Q110. Why is ref used?
 
@@ -1316,7 +1323,7 @@ const Greeting = ({ initName }) => {
 - [x] to directly access DOM node
 - [ ] to refer to another JS file
 
-[Source](https://reactjs.org/docs/refs-and-the-dom.html#when-to-use-refs)
+[Reference](https://reactjs.org/docs/refs-and-the-dom.html#when-to-use-refs)
 
 #### Q111. Choose the method which should be overridden to stop the component from updating?
 
@@ -1325,7 +1332,7 @@ const Greeting = ({ initName }) => {
 - [ ] willComponentUpdate
 - [x] shouldComponentUpdate
 
-[Source](https://reactjs.org/docs/react-component.html#shouldcomponentupdate)
+[Reference](https://reactjs.org/docs/react-component.html#shouldcomponentupdate)
 
 #### Q112. What is the functionality of a “webpack” command?
 
@@ -1348,7 +1355,7 @@ const Greeting = ({ initName }) => {
 - [ ] Does not requires to be unique
 - [ ] all of the above
 
-[Source](https://reactjs.org/docs/lists-and-keys.html#keys)
+[Reference](https://reactjs.org/docs/lists-and-keys.html#keys)
 
 #### Q115. Which company developed ReactJS?
 
@@ -1357,7 +1364,7 @@ const Greeting = ({ initName }) => {
 - [ ] Apple
 - [ ] Twitter
 
-[Source](https://github.com/facebook/react)
+[Reference](https://github.com/facebook/react)
 
 #### Q116. Choose the library which is most often associated with react?
 
@@ -1366,7 +1373,7 @@ const Greeting = ({ initName }) => {
 - [x] Jest
 - [ ] Mocha
 
-[Source](https://reactjs.org/docs/testing-recipes.html)
+[Reference](https://reactjs.org/docs/testing-recipes.html)
 
 #### Q117. What of the following is used in React.js to increase performance?
 
@@ -1375,7 +1382,7 @@ const Greeting = ({ initName }) => {
 - [ ] Both of the above
 - [ ] None of the above
 
-[Source](https://reactjs.org/docs/optimizing-performance.html)
+[Reference](https://reactjs.org/docs/optimizing-performance.html)
 
 #### Q118. Among The following options, choose the one which helps react for keeping their data uni-directional?
 
@@ -1384,4 +1391,4 @@ const Greeting = ({ initName }) => {
 - [ ] JSX
 - [ ] Props
 
-[Source](https://reactjs.org/blog/2014/05/06/flux.html)
+[Reference](https://reactjs.org/blog/2014/05/06/flux.html)
