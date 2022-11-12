@@ -12099,6 +12099,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "rsk2",
+      "name": "rsk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45331524?v=4",
+      "profile": "https://github.com/rsk2",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
