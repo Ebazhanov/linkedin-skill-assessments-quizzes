@@ -882,3 +882,12 @@ if [[ $FILE == $GLOB ]] ;then
 - [x] Pine
 - [ ] Procmail
 - [ ] The MUA
+
+#### Q108. In BASH parsing, which expansion happens first?
+
+- [x] brace expansion
+- [ ] variable expansion
+- [ ] filename expansion (globbing)
+- [ ] word splitting
+
+[Reference](https://stackoverflow.com/questions/54160869/in-what-order-does-bash-parser-escape-characters-and-split-words-tokens-within-c#:~:text=Expansions%20are%20performed%2C%20in%20order,Tilde%20expansion%2C%20e.g.%20~root%20.)
