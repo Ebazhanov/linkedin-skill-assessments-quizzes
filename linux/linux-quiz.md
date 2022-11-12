@@ -890,4 +890,4 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] filename expansion (globbing)
 - [ ] word splitting
 
-[Reference]([https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system_administrators_guide/ch-viewing_and_managing_log_files](https://stackoverflow.com/questions/54160869/in-what-order-does-bash-parser-escape-characters-and-split-words-tokens-within-c#:~:text=Expansions%20are%20performed%2C%20in%20order,Tilde%20expansion%2C%20e.g.%20~root%20.))
+[Reference](https://stackoverflow.com/questions/54160869/in-what-order-does-bash-parser-escape-characters-and-split-words-tokens-within-c#:~:text=Expansions%20are%20performed%2C%20in%20order,Tilde%20expansion%2C%20e.g.%20~root%20.)
