@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1221-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1222-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1713,6 +1713,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center"><a href="https://github.com/Giide0n"><img src="https://avatars.githubusercontent.com/u/39622960?v=4?s=100" width="100px;" alt="Giide0n"/><br /><sub><b>Giide0n</b></sub></a><br /><a href="#design-Giide0n" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Giide0n" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/Kreutz56"><img src="https://avatars.githubusercontent.com/u/63000176?v=4?s=100" width="100px;" alt="GG"/><br /><sub><b>GG</b></sub></a><br /><a href="#design-Kreutz56" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Kreutz56" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/dagerzuga"><img src="https://avatars.githubusercontent.com/u/19642693?v=4?s=100" width="100px;" alt="Dáger Zúñiga"/><br /><sub><b>Dáger Zúñiga</b></sub></a><br /><a href="#design-dagerzuga" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=dagerzuga" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/rsk2"><img src="https://avatars.githubusercontent.com/u/45331524?v=4?s=100" width="100px;" alt="rsk2"/><br /><sub><b>rsk2</b></sub></a><br /><a href="#design-rsk2" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=rsk2" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
