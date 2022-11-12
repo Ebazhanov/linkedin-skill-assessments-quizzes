@@ -11,4 +11,4 @@ in [Suggestion how to contribute](CONTRIBUTING.md)
 
 ### Changes / Instructions
 
-_Add changes/instructions to me please type here, thanks_
+_Add instructions to me, please type here, thanks_
