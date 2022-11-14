@@ -1538,7 +1538,7 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<p>`The `<dt>`focal length`</dt>` of a lens gives the distance from the lens to the image sensor.`</p>`
 - [ ] `<p>`The `<dd>`focal length`</dd>` of a lens gives the distance from the lens to the image sensor.`</p>`
 
-**Definition** `element => The <dfn> HTML element is used to indicate the term being defined within the context of a definition phrase or sentence. `<br>`**Description Term element => The <dt> HTML element specifies a term in a description or definition list, and as such must be used inside a <dl> element.`<br>` **Description Details element =>The <dd> HTML element provides the description, definition, or value for the preceding term (<dt>) in a description list (<dl>).`
+**Definition** `element => The <dfn> HTML element is used to indicate the term being defined within the context of a definition phrase or sentence.`<br>`**Description Term element => The <dt> HTML element specifies a term in a description or definition list, and as such must be used inside a <dl> element.`<br>`**Description Details element =>The <dd> HTML element provides the description, definition, or value for the preceding term (<dt>) in a description list (<dl>).`
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn)
 
@@ -1594,7 +1594,7 @@ As Steve Krug once said, happy talk must die.
 - [ ] `<meta name="creator" content="Author Name">`
 - [x] `<meta name="author" content="Author Name">`
 
-#### Q96. Given the following requirements, select the correct `input` configuration: An `input` that allows the user to select from a range of integer values between 0 and 100 (inclusive) in increments of 5.
+#### Q96. Given the following requirements, select the correct `input` configuration: An `input` that allows the user to select from a range of integer values between 0 and 100 (inclusive) in increments of 5
 
 - [ ] `<input type="range" min="0" max="100" by="5" />`
 - [x] `<input type="range" min="0" max="100" step="5" />`
@@ -1661,7 +1661,7 @@ As Steve Krug once said, happy talk must die.
 `The <article> HTML element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Example:a user-submitted comment.`
 [Source](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article)
 
-#### Q99. To make something editable by the user, you need to set the **\_** attribute to **\_**.
+#### Q99. To make something editable by the user, you need to set the **\_** attribute to **\_**
 
 - [ ] `access`; allow
 - [ ] `designMode`; true
@@ -1936,14 +1936,14 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 - [x] `<br>`
 - [ ] `<a>`
 
-#### Q113. The HTML global attribute, "contenteditable" is used to:
+#### Q113. The HTML global attribute, "contenteditable" is used to
 
 - [ ] Update content from the server
 - [ ] Specifies a context menu for an element. The menu appears when a user right-clicks on the element.
 - [x] Specify whether the content of an element should be editable or not
 - [ ] Return the position of the first found occurrence of content inside a string
 
-#### Q114. HTML elements that aren't meant to store content or other elements are called **\_** elements.
+#### Q114. HTML elements that aren't meant to store content or other elements are called **\_** elements
 
 - [x] void
 - [ ] independent
@@ -1952,7 +1952,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 [Source](https://www.w3.org/TR/2011/WD-html-markup-20110113/syntax.html#syntax-elements)
 
-#### Q115. The **\_** attribute of an HTML label element is a referencing mechanism to state what input or element the label is tied to.
+#### Q115. The **\_** attribute of an HTML label element is a referencing mechanism to state what input or element the label is tied to
 
 - [ ] to
 - [ ] of
@@ -1975,7 +1975,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 - [ ] title
 - [ ] meta
 
-#### Q118. The "h" in the HTML h1 tag is short for **\_**.
+#### Q118. The "h" in the HTML h1 tag is short for **\_**
 
 - [ ] head
 - [ ] horizontal
@@ -1984,7 +1984,7 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 [Source](https://www.w3schools.com/html/html_headings.asp)
 
-#### Q119. Which is an invalid use of the <a> element?
+#### Q119. Which is an invalid use of the `<a>` element?
 
 - [ ] A
 
@@ -2027,3 +2027,40 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 - [x] `<pre>`
 - [ ] `<hr>`
 - [ ] All of the above
+
+#### Q121. Which is a valid title element?
+
+- [ ] `<title><em>Exciting</em> title</title>`
+- [ ] `<title></title>`
+- [ ] `<title name="Exciting Title" />`
+- [x] `<title>Exciting title</title>`
+
+[Source](https://www.w3schools.com/tags/tag_title.asp)
+
+#### Q122. Which link contains a valid URL?
+
+- [ ] `<link rel="stylesheet" href="/styles for me/styles.css">`
+- [ ] `<link rel="stylesheet" href="/styles|for|me/styles.css">`
+- [ ] `<link rel="css" href="\styles for me\styles.css">`
+- [x] `<link rel="stylesheet" href="/styles%20for%20me/styles.css">`
+
+[Source 1](https://www.w3schools.com/tags/att_link_href.asp)
+[Source 2](https://www.sistrix.com/ask-sistrix/technical-seo/site-structure/do-i-have-to-convert-the-spaces-in-urls)
+
+#### Q123. Which example is missing a mandatory closing tag, making it invalid?
+
+- [ ] `<p>Simple paragraph`
+- [x] `<ul><li>Simple list</li>`
+- [ ] `<ul><li>Simple list<ul>`
+- [ ] `<dl><dt>Simple term<dd>Simple description</dl>`
+
+[Source](https://blog.teamtreehouse.com/to-close-or-not-to-close-tags-in-html5)
+
+#### Q123. What is the semantic method for marking up a video with a caption in browsers that support it?
+
+- [ ] `<video src="video.mp4" caption="video.vtt"></video>`
+- [ ] `<video src="video.mp4"><track caption="video.vtt" /></video>`
+- [ ] `<video src="video.mp4"><track default kind="captions" srclang="en" src="video.vtt" /></video>`
+- [x] `<video src="video.mp4"><caption default srclang="en" src="video.vtt" /></video>`
+
+[Source](https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video)
