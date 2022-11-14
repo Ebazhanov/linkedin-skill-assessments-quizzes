@@ -781,3 +781,12 @@ D. Start When Clicked On
 - [ ] Right-click the logo (Windows) or select the logo (Mac), and then select Delete.
 - [ ] Insert a blank shape to mask the logo.
 - [ ] Remove the logo graphic from the Slide Master template.
+
+#### Q100. Many PowerPoint slide backgrounds use a color effect that is gradually shaded from top to bottom. What is this effect called?
+
+- [ ] pattern fill
+- [ ] solid fill
+- [ ] texture fill
+- [x] gradient fill
+
+[Reference](https://support.microsoft.com/en-us/topic/add-a-gradient-color-to-a-shape-11cf6392-723c-4be8-840a-b2dab4b2ba3e)
