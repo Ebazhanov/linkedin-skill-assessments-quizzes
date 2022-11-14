@@ -2251,22 +2251,7 @@ class variable_scope {
 
 [Reference See An Abstract Class Example ](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)
 
-#### Q160. Which keyword would not be allowed here?
-
-```
-class Unicorn {
-_____ Unicorn(){}
-}
-```
-
-- [ ] public
-- [ ] static
-- [ ] protected
-- [x] void
-
-Explaination : A constructor cannot have a return type (not even a void return type).
-
-#### Q161. What language feature do these expressions demonstrate?
+#### Q160. What language feature do these expressions demonstrate?
 
 ```
 System.out::println
@@ -2280,7 +2265,7 @@ Doggie::fetch
 
 [Reference](https://stackoverflow.com/questions/31020269/what-is-the-use-of-system-outprintln-in-java-8)
 
-#### Q162. What will be the output of the following program?
+#### Q161. What will be the output of the following program?
 
 ```java
 import java.util.Formatter;
@@ -2302,7 +2287,7 @@ public class Course {
 - [ ] Compilation Error
 - [ ] Runtime Error
 
-#### Q163. Calculate the time complexity of the following program.
+#### Q162. Calculate the time complexity of the following program.
 
 ```java
  void printUnorderedPairs(int[] arrayA, int[] arrayB){
