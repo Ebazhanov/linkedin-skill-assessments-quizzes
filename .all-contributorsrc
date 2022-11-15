@@ -12129,6 +12129,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "multi-vit",
+      "name": "Andy Johnson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103585624?v=4",
+      "profile": "https://andyjohnson.netlify.app/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
