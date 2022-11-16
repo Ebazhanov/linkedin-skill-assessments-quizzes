@@ -212,8 +212,7 @@ const element = <p>{message}</p>;
 [Answer confirmed by multiple members of the community in this internal discussion](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/issues/3946)
 
 **Explanation:**
-`useLayoutEffect` gets executed *before* the `useEffect` hook without much concern for DOM mutation. Even though the React hook `useLayoutEffect` is set after the `useEffect` Hook, it gets triggered first!
-
+`useLayoutEffect` gets executed _before_ the `useEffect` hook without much concern for DOM mutation. Even though the React hook `useLayoutEffect` is set after the `useEffect` Hook, it gets triggered first!
 
 #### Q20. What is the difference between the click behaviors of these two buttons (assuming that this.handleClick is bound correctly)?
 
