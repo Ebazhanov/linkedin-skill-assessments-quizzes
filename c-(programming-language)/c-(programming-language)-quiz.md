@@ -235,8 +235,8 @@ main(){
 #### Q12. Which is the smallest program to compile and run without errors?
 
 - [ ] main()
-- [ ] int main() {return 0;}
-- [x] main() { }
+- [x] int main() {return 0;}
+- [ ] main() { }
 - [ ] main() { ; }
 
 [Reference](https://www.beningo.com/150-the-wolrds-shortest-c-program/)
