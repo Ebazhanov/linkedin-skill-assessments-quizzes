@@ -731,7 +731,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 - [ ] Stored procedures are not secure, because they can be executed from the command line as the root user
 - [ ] Stored procedures are secure, because the owner of the stored procedure can decide to whom access is granted
-- [x] Stored procedures are secure, because applications can be given access to stored procedures and not any underlying variables
+- [x] Stored procedures are secure, because applications can be given access to stored procedures and not any underlying tables
 - [ ] Stored procedures are not secure, because they can execute statements to drop tables or bulk delete data
 
 #### Q78. How would you retrieve data on all the customers where no phone number is stored?
