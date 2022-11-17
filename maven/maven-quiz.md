@@ -551,3 +551,18 @@ mvn install
 - [ ] A release marked with SNAPSHOT may contain sensitive security information.
 
 [!reference](https://maven.apache.org/guides/getting-started/index.html#What_is_a_SNAPSHOT_version)
+
+### Q69. Why do you use Maven Wrapper on a project shared with a large team of developers?
+- [ ] all of these answers
+- [x] All developers will be using the same Maven version, providing stability.
+- [ ] The dependencies for the project will be downloaded only once for all developers, saving bandwidth.
+- [ ] Maven Wrapper checks dependencies for vulnerabilites, increasing security.
+
+### Q70. This POM file contains an XML validation error. What is the cause of the error?
+
+![q70](q70.png?raw=png)
+
+- [ ] JUnit is not a valid dependency of a Maven project.
+- [x] the <dependency> elements should be inside <dependencies> elements.
+- [ ] The <dependency> element is not a valid in a POM file.
+- [ ] The <dependency> elements should be at the bottom of the POM file.
