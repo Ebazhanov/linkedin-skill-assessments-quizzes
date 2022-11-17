@@ -2009,3 +2009,10 @@ Doggie::fetch
 - [ ] enum Cats ("sphynx", "siamese", "bengal");
 - [x] enum Cats {SPHYNX, SIAMESE, BENGAL}
 - [ ] enum Cats {"sphynx","siamese","bengal}
+
+#### Q138. Which choice demonstrates a valid way to create a reference to a static function of another class?
+
+- [x] Function<Integer, Integer> funcReference = MyClass::myFunction;
+- [ ] Function<Integer, Integer> funcReference = MyClass.myFunction;
+- [ ] Function<Integer, Integer> funcReference = MyClass().myFunction();
+- [ ] Function<Integer, Integer> functReference = MyClass::myFunction();
