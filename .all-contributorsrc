@@ -12139,6 +12139,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "apozo-copyright",
+      "name": "Aníbal Pozo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57532569?v=4",
+      "profile": "https://github.com/apozo-copyright",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
