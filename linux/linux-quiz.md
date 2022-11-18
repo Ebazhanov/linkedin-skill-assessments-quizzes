@@ -891,3 +891,17 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] word splitting
 
 [Reference](https://stackoverflow.com/questions/54160869/in-what-order-does-bash-parser-escape-characters-and-split-words-tokens-within-c#:~:text=Expansions%20are%20performed%2C%20in%20order,Tilde%20expansion%2C%20e.g.%20~root%20.)
+
+#### Q109. When pattern matching using a glob or regular expression, how many characters does a character set match?
+
+- [x] one
+- [ ] any number of characters
+- [ ] zero or one
+- [ ] one or more
+
+#### Q110. Why would you use the `mdadm --assemble` subcommand when creating a new RAID5 array?
+
+- [ ] `assemble` builds only arrays of drives that do not have RAID metadata on them.
+- [x] `assemble` is used to build existing RAID arrays.
+- [ ] `assemble` is a synonym for `create`.
+- [ ] `assemble` is used to build new RAID arrays.
