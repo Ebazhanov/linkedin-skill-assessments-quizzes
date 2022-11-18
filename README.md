@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1227-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1228-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1721,6 +1721,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <tr>
       <td align="center"><a href="https://github.com/apozo-copyright"><img src="https://avatars.githubusercontent.com/u/57532569?v=4?s=100" width="100px;" alt="Aníbal Pozo"/><br /><sub><b>Aníbal Pozo</b></sub></a><br /><a href="#design-apozo-copyright" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=apozo-copyright" title="Code">💻</a></td>
       <td align="center"><a href="https://www.linkedin.com/in/jovanecastro/"><img src="https://avatars.githubusercontent.com/u/60260322?v=4?s=100" width="100px;" alt="Jovane de Castro"/><br /><sub><b>Jovane de Castro</b></sub></a><br /><a href="#design-Cadavanaugh" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Cadavanaugh" title="Code">💻</a></td>
+      <td align="center"><a href="https://pk.linkedin.com/in/muhammad-hamza-amir-412b4b183"><img src="https://avatars.githubusercontent.com/u/43249821?v=4?s=100" width="100px;" alt="Muhammad Hamza Amir"/><br /><sub><b>Muhammad Hamza Amir</b></sub></a><br /><a href="#design-MuhammadHamzaAmir" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=MuhammadHamzaAmir" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
