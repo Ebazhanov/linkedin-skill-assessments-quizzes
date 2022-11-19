@@ -1082,3 +1082,51 @@ override fun onCreate(savedInstanceState: Bundle?) { super.onCreate(savedInstanc
        }
   }
 ```
+
+#### Q72. Given the string resource below, which code snippet is valid?
+
+```
+<string name="upload_photo_notification">%1$d of %2$d photos uploaded</string>
+```
+
+- [ ] A
+
+```
+val string: String = getString(
+   R.string.upload_photo_notification,
+   "2",
+   "5"
+)
+```
+
+- [ ] B
+
+```
+val string: String = getString(
+   R.id.upload_photo_notification,
+   2,
+   5
+)
+```
+
+- [x] C
+
+```
+val string: String = getString(
+   R.string.upload_photo_notification,
+   2,
+   5
+)
+```
+
+- [ ] D
+
+```
+val string: String = getString(
+   R.id.upload_photo_notification,
+   "2",
+   "5"
+)
+```
+
+[Reference](https://developer.android.com/guide/topics/resources/string-resource#formatting-strings)
