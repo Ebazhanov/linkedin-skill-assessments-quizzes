@@ -2065,7 +2065,27 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 
 [Source](https://developer.mozilla.org/en-US/docs/Web/Guide/Audio_and_video_delivery/Adding_captions_and_subtitles_to_HTML5_video)
 
-#### Q124. A white paper has a sidebar and endnotes, both of which are complementary to the main text. How would you mark them up to make their distinct roles more broadly accesible?
+#### Q124. A white paper has a sidebar and endnotes, both of which are complementary to the main text. How would you mark them up to make their distinct roles more broadly accessible?
+
+- [ ] A
+```html 
+<custom-sidebar aria-label-"Sidebar"›Sidebar...</custom-sidebar><custom-footnote aria-
+label="Endnotes">Endnotes...</custom-footnote>
+```
+- [ ] B
+```html
+<aside role="sidebar">Sidebar...</aside><aside role="notes"»Endnotes...</aside> 
+```
+- [ ] C
+```html 
+<aside role="complementary">Sidebar...</aside><aside role="supplementary">Endnotes...</aside>
+```
+- [ ] D
+```html
+<aside aria-label-"Sidebar">Sidebar...</aside><aside aria-label="Endnotes">Endnotes...</aside>
+```
+
+#### Q125. A white paper has a sidebar and endnotes, both of which are complementary to the main text. How would you mark them up to make their distinct roles more broadly accesible?
 
 - [x] `<aside aria-label="Sidebar">Sidebar...</aside><aside aria-label="Endnotes">Endnotes...</aside>`
 - [ ] `<custom-sidebar aria-label="Sidebar">Sidebar...</custom-sidebar><custom-footnote aria-label="Endnotes">Endnotes...</custom-footnote>`
