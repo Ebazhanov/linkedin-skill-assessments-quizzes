@@ -553,6 +553,7 @@ mvn install
 [!reference](https://maven.apache.org/guides/getting-started/index.html#What_is_a_SNAPSHOT_version)
 
 ### Q69. Why do you use Maven Wrapper on a project shared with a large team of developers?
+
 - [ ] all of these answers
 - [x] All developers will be using the same Maven version, providing stability.
 - [ ] The dependencies for the project will be downloaded only once for all developers, saving bandwidth.
