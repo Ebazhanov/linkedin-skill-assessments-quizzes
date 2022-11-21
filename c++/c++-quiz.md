@@ -1352,9 +1352,9 @@ sprite->x
 #### Q81. In which scenario would you want to specify the type of a pointer instead of using void?
 
 - [ ] void does not work for any type. The language does not allow assigning anything other than void to a pointer to void.
-- [x] The compiler needs the data type to caculate the length of the pointed data (for reading and writing) and to calculate increments and decrements to the pointer.
+- [ ] The compiler needs the data type to caculate the length of the pointed data (for reading and writing) and to calculate increments and decrements to the pointer.
 - [ ] The compiler needs the data type to make sure that the pointer is not going to be used on illegal non-pointable types such as functions, labels, pointers, and references.
-- [ ] The compiler needs the data type to know how much memory to allocate for the pointer, because different data types require different pointer lenghts.
+- [x] The compiler needs the data type to know how much memory to allocate for the pointer, because different data types require different pointer lenghts.
 
 #### Q82. The default executable generation on UNIX for a C++ program is \_
 
