@@ -1237,3 +1237,10 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [x] Flash Fill
 - [ ] Merge cells
 - [ ] Text to columns
+
+#### Q139. Which choice causes a circular error when it is included in a worksheet formula?
+
+- [x] a reference to the cell occupied by the formula
+- [ ] a named constant
+- [ ] a worksheet function
+- [ ] a defined formula name
