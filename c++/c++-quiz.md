@@ -1247,7 +1247,7 @@ int main(){
 
 #### Q75. Why can the std::sort receive a function object as one of its parameters?
 
-- [ ] `The std::sort function is a template. The programmer is free to enter the sorting algorithm in a function object as an argument.`
+- [x] `The std::sort function is a template. The programmer is free to enter the sorting algorithm in a function object as an argument.`
 - [ ] `Actually, std::sort takes only one argument, which is the container to be sorted.`
 - [ ] `std::sort operates on a template container. The compiler does not know how to relationally compare the values it contains, so a function must be provided to do the comparison.`
 - [ ] `std::sort will use the parameter function as an error handler. The function will be called if an error occurs.`
