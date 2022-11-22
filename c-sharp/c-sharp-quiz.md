@@ -718,7 +718,7 @@ public int Password
 
 #### Q67. How would you access the last two people in an array named People?
 
-- [ ] `People[..^2]`
+- [x] `People[..^2]`
 - [ ] `You cannot do this in C#.`
 - [ ] `People[..^3]`
 - [ ] `People[^2]`
