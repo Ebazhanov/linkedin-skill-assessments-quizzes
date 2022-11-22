@@ -321,6 +321,8 @@ System.out.print("apple".compareTo("banana"));
 - [x] `names.sort(List.DESCENDING)`
 - [ ] `names.stream().sorted((s1, s2) -> s1.compareTo(s2)).collect(Collectors.toList())`
 
+- [Reference](https://www.scaler.com/topics/java/arraylist-in-java/)
+
 #### Q18. By implementing encapsulation, you cannot directly access the class's \_ properties unless you are writing code inside the class itself.
 
 - [x] private
