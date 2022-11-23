@@ -467,10 +467,12 @@ p {
 
 #### Q32. CSS transform properties are used to change the shape and position of the selected objects. The transform-origin property specifies the location of the element's transformation origin. By default, what is the location of the origin?
 
-- [x] the top left corner of the element
-- [ ] the center of the element
+- [ ] the top left corner of the element
+- [x] the center of the element
 - [ ] the top right corner of the element
 - [ ] the bottom left of the element
+
+[Reference](https://www.w3schools.com/cssref/css3_pr_transform-origin.php)
 
 #### Q33. Which of the following is not a valid color value? (_Alternative:_ Which choice is not a valid color value?)
 
