@@ -244,9 +244,11 @@
 #### Q34. What is the name for the practice of going to see a process in use at the point of value delivery?
 
 - [ ] Six Sigma
-- [x] Gemba walk
+- [x] Gemba Walk
 - [ ] Total Quality Management
 - [ ] Kaizen
+
+[Reference](https://en.wikipedia.org/wiki/Gemba#Gemba_walk) The Gemba Walk is an opportunity for staff to stand back from their day-to-day tasks to walk the floor of their workplace to identify wasteful activities.
 
 #### Q35. When the team needs to make a decision, what is the best course of action?
 
