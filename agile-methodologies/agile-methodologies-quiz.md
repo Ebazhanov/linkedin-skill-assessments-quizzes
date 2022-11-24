@@ -334,12 +334,16 @@
 - [ ] It is a standard for interface design.
 - [x] It is a model for skill development and mastery.
 
+[Reference](https://en.wikipedia.org/wiki/Shuhari) Japanese martial art concept which describes the stages of learning to mastery.
+
 #### Q47. What does the Agile Manifesto indicate?
 
 - [x] Responding to change is more valuable than following a plan.
 - [ ] Documenting requirements up front is more valuable than at the end.
 - [ ] Following the plan is essential for not going over budget.
 - [ ] Contract negotiation should be used to settle disputes.
+
+[Refernce] (https://www.agilealliance.org/agile101/the-agile-manifesto/) Full Manifesto.
 
 #### Q48. What is the main benefit of a working agreement?
 
