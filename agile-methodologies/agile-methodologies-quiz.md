@@ -516,6 +516,8 @@
 - [ ] WSJF
 - [x] Kaizen
 
+[Reference](https://pl.wikipedia.org/wiki/Kaizen) oznaczające japońską filozofię biznesową (sposób postępowania) ustawicznego polepszania, poprawiania procesu zarządzania i produkcji na wszystkich jego szczeblach, z uwzględnieniem m.in. technik biznesu "just-in-time".
+
 #### Q72. What does the Definition of Ready mean?
 
 - [ ] The story has been tested end is ready for release to production.
