@@ -12209,6 +12209,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "arteality",
+      "name": "arteality",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37437781?v=4",
+      "profile": "https://arteality.pl/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

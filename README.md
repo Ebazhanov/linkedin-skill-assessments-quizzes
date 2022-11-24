@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1232-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1233-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1726,6 +1726,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center"><a href="https://ali-khyar.com"><img src="https://avatars.githubusercontent.com/u/44535965?v=4?s=100" width="100px;" alt="Ali KHYAR"/><br /><sub><b>Ali KHYAR</b></sub></a><br /><a href="#design-AliKhyar" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=AliKhyar" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/ojuaracaio"><img src="https://avatars.githubusercontent.com/u/89320217?v=4?s=100" width="100px;" alt="Caio Araujo"/><br /><sub><b>Caio Araujo</b></sub></a><br /><a href="#design-ojuaracaio" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ojuaracaio" title="Code">💻</a></td>
       <td align="center"><a href="http://oscardyremyhr.me"><img src="https://avatars.githubusercontent.com/u/12874252?v=4?s=100" width="100px;" alt="Oscar Dyremyhr"/><br /><sub><b>Oscar Dyremyhr</b></sub></a><br /><a href="#design-ossinova" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ossinova" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="https://arteality.pl/"><img src="https://avatars.githubusercontent.com/u/37437781?v=4?s=100" width="100px;" alt="arteality"/><br /><sub><b>arteality</b></sub></a><br /><a href="#design-arteality" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=arteality" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
