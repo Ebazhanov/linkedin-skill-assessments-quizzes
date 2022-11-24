@@ -754,7 +754,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 #### Q102. When planning a meeting, which action is most important?
 
-- [x] clariying the expected outcome
+- [x] clarifying the expected outcome
 - [ ] taking notes
 - [ ] inviting the Project Manager
 - [ ] making sure everyone speaks
