@@ -817,6 +817,8 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 - [ ] The development team's strengths and weaknesses.
 - [x] The business context for the product.
 
+It's the same as Q81, just slightly differently phrased question.
+
 #### Q111. You are facilitating a meeting to decompose user stories and, unexpectedly, a development team member cannot attend. What should you do?
 
 - [ ] Hold the meeting and update the person who could not attend later.
