@@ -840,7 +840,7 @@ It's the same as Q81, just slightly differently phrased question.
 - [ ] a list of impediments and priorities
 - [ ] a report to the Product Owner of stories ready to be accepted
 
-#### Q115. In Agile, which of the following options is a high priority?
+#### Q114. In Agile, which of the following options is a high priority?
 
 - [ ] Comprehensive documentation
 - [ ] Processes and tools
@@ -849,7 +849,7 @@ It's the same as Q81, just slightly differently phrased question.
 
 [Reference](https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/) `Agile projects are characterized by a series of tasks that are conceived, executed and adapted as the situation demands and one of the priorities is working software.`
 
-#### Q116. What types of environments work best for Agile principles?
+#### Q115. What types of environments work best for Agile principles?
 
 - [ ] It works great in static environments.
 - [x] It works great in dynamic environments.
@@ -858,112 +858,112 @@ It's the same as Q81, just slightly differently phrased question.
 
 [Reference](https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/) `The Agile environment appeals to quick actions, discussions, evaluations, and considerations for different approaches. It works great in dynamic environments where there is a potential for changing or evolving requirements.`
 
-#### Q117. What does being a Cross-Functional team mean?
+#### Q116. What does being a Cross-Functional team mean?
 
 - [ ] That every team in the organization has a particular specialism
 - [ ] That each team member has their own specialism
 - [x] That all the skills necessary exist within the team
 - [ ] That teams can communicate effectively
 
-#### Q118. What is a PBI?
+#### Q117. What is a PBI?
 
 - [ ] Product Before Increment
 - [ ] Project Billing Information
 - [ ] Productive Backlog Increment
 - [x] Product Backlog Item
 
-#### Q119. Which of the following scrum events is dedicated to process improvement?
+#### Q118. Which of the following scrum events is dedicated to process improvement?
 
 - [ ] The sprint planning
 - [ ] The daily scrum
 - [x] The sprint retrospective
 - [ ] The sprint review
 
-#### Q120. For a month-long sprint, the time-box for a sprint retrospective is **\_**.
+#### Q119. For a month-long sprint, the time-box for a sprint retrospective is **\_**.
 
 - [x] 3 hours
 - [ ] 6 hours
 - [ ] 8 hours
 - [ ] 1 hour
 
-#### Q121. Which type of Kanban diagram shows the number of issues in each of the states?
+#### Q120. Which type of Kanban diagram shows the number of issues in each of the states?
 
 - [x] burn down chart
 - [ ] control chart
 - [ ] burn up chart
 - [ ] cumulative flow
 
-#### Q122. Which of the following statements about a Kanban control chart is false?
+#### Q121. Which of the following statements about a Kanban control chart is false?
 
 - [ ] The light blue shaded area is the standard deviation.
 - [ ] The green dots are the issues themselves.
 - [x] The control chart works best when the tasks that you're tracking are of different sizes.
 - [ ] The blue line is the rolling average cycle time.
 
-#### Q123. What does EBM consider in Managerial Decisions?
+#### Q122. What does EBM consider in Managerial Decisions?
 
 - [ ] Productivity and ethical concerns
 - [x] Circumstance and ethical concerns
 - [ ] Circumstances and financial concerns
 - [ ] Moral and ethical concerns
 
-#### Q124. Stacey's process complexity model shows us that agile thinking is best **\*\***\_\_\_**\*\***.
+#### Q123. Stacey's process complexity model shows us that agile thinking is best **\*\***\_\_\_**\*\***.
 
 - [ ] When there is high complexity
 - [ ] When there is high certainty
 - [x] Regardless of complexity or certainty
 - [ ] When there is low certainty and complexity
 
-#### Q125. What is a DEEP product backlog?
+#### Q124. What is a DEEP product backlog?
 
 - [ ] Detailed Appropriately, Emergent, Elegant & Prioritized
 - [ ] Detailed Adequately, Emergent, Estimated & Prioritized
 - [ ] Detailed Appropriately, Emanant, Estimated & Prioritized
 - [x] Detailed Appropriately, Emergent, Estimated & Prioritized
 
-#### Q126. Which Jira feature provides an overview of multiple projects?
+#### Q125. Which Jira feature provides an overview of multiple projects?
 
 - [x] roll-up boards
 - [ ] code integration
 - [ ] task automation
 - [ ] reporting
 
-#### Q127. Which of the following elements is not a pillar of Scrum?
+#### Q126. Which of the following elements is not a pillar of Scrum?
 
 - [ ] adaptation
 - [ ] transparency
 - [x] sustainability
 - [ ] inspection
 
-#### Q128. What aspects of the product is the Product Owner responsible for?
+#### Q127. What aspects of the product is the Product Owner responsible for?
 
 - [ ] Guiding the Development Team on the product
 - [ ] Managing and owning the backlog
 - [x] All of the choices are correct
 - [ ] The product itself
 
-#### Q129. In Scrum, at the end of each sprint, there is a **\_** meeting in which the team receives and gives feedback on their processes and their performance.
+#### Q128. In Scrum, at the end of each sprint, there is a **\_** meeting in which the team receives and gives feedback on their processes and their performance.
 
 - [x] retrospective
 - [ ] review
 - [ ] reflection
 - [ ] sprint
 
-#### Q130. In the INVEST acronym for user stories, what does the "V" stand for?
+#### Q129. In the INVEST acronym for user stories, what does the "V" stand for?
 
 - [x] valuable
 - [ ] verifiable
 - [ ] veracity
 - [ ] voluminous
 
-#### Q131. Having a mindset focused on growth and opportunity is healty for Agile team members. How can you display a growth mindset?
+#### Q130. Having a mindset focused on growth and opportunity is healty for Agile team members. How can you display a growth mindset?
 
 - [x] See challenges as opportunities
 - [ ] Point out the failures of others
 - [ ] Quit while you're ahed
 - [ ] Celebrate only when you succeed
 
-#### Q133. Which statement about the Agile Manifesto is true?
+#### Q131. Which statement about the Agile Manifesto is true?
 
 - [ ] It was written via crowdsourcing and its authors are unknown
 - [ ] It was written in 2001 and is obsolete.
@@ -972,7 +972,7 @@ It's the same as Q81, just slightly differently phrased question.
 
 [Reference](https://agilemanifesto.org/history.html) `"(...)others sympathetic to the need for an alternative to documentation driven, heavyweight software development processes convened." [First paragraph]`
 
-#### Q134. Progress toward a sprint goal is in jeopardy becauseyou have not received sales data. What should you do?
+#### Q132. Progress toward a sprint goal is in jeopardy becauseyou have not received sales data. What should you do?
 
 - [ ] Be sure to mention the issue in the next Scrum
 - [x] Share the problem with your team to see if they can create a solution
