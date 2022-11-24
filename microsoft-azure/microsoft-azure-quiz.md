@@ -144,6 +144,8 @@
 - [ ] access policies
 - [x] RBAC roles
 
+[Controlling access to Key Vault data](https://learn.microsoft.com/en-us/azure/key-vault/general/security-features#controlling-access-to-key-vault-data)
+
 #### Q19. Your Kineteco Web App experiences occasional spikes in usage that cause resource shortages that generate an alert. When this occurs, you want to configure scale out of the App Service plan resources. The solution should minimize cost and administrative effort. What should you do?
 
 - [ ] Create a Logic App. Then configure an action group with the Logic App action type.
