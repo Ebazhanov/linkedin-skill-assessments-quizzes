@@ -763,7 +763,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 - [ ] Hold the meeting and update the person who could not attend later.
 - [ ] Ask the person who could not attend to reschedule the meeting based on their availability.
-- [x] Ask all meeting partecipants what they want to do about the one person's absence
+- [x] Ask all meeting participants what they want to do about the one person's absence
 - [ ] Reschedule the meeting for when all necessary people can attend
 
 #### Q104. What is Open Space?
