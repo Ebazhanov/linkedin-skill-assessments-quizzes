@@ -789,7 +789,7 @@ ITIOO isn't a thing, thin verticle slicing is refering to what work you prioriti
 
 [Reference](https://www.scaledagileframework.com/program-increment/) `A Program Increment (PI) is a timebox during which an Agile Release Train (ART) delivers incremental value in the form of working, tested software and systems. PIs are typically 8 – 12 weeks long.`
 
-#### Q107. How an you improve interaction between team members?
+#### Q107. How can you improve interaction between team members?
 
 - [ ] Move people's workstation around in the team room to create new social possibilites
 - [ ] Since no one has come to you with a compliant, assume that the limited interaction works for everyone
