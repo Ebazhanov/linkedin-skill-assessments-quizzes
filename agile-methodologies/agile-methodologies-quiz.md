@@ -665,7 +665,7 @@
 - [ ] tend to be more resilient
 - [ ] are more afraid of failure
 
-#### Q91. How can you impove interaction between team members?
+#### Q91. How can you improve interaction between team members?
 
 - [x] Move people's workstations around in the team room to create new social possibilities.
 - [ ] Ask the team if they would like to do something recreational together and offer to organize it.
