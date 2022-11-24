@@ -499,8 +499,8 @@
 
 - [ ] Understand them—try align personal motivations with the team's progress toward the project goals.
 - [ ] Nurture them-goals are the reason why people want to be at work.
-- [ ] Disregard them—personal views have no bearing on reaching the project goals.
-- [x] Leverage them—use personal goals encourage team members raise their performance levels.
+- [ ] Disregard them — personal views have no bearing on reaching the project goals.
+- [x] Leverage them — use personal goals encourage team members raise their performance levels.
 
 #### Q70. Which phrase best describes an Agile team?
 
