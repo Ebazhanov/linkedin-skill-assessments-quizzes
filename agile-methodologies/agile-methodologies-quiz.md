@@ -963,13 +963,6 @@ It's the same as Q81, just slightly differently phrased question.
 - [ ] Quit while you're ahed
 - [ ] Celebrate only when you succeed
 
-#### Q132. The Scaled Agile Framework advocates that, if you measure only one thing, what should you measure?
-
-- [x] cost of delay
-- [ ] return on investment
-- [ ] quality
-- [ ] predictability of delivery
-
 #### Q133. Which statement about the Agile Manifesto is true?
 
 - [ ] It was written via crowdsourcing and its authors are unknown
