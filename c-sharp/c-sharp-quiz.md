@@ -709,6 +709,8 @@ public int Password
 - [ ] `string myVariable = null`
 - [ ] `string(null) myVariable`
 
+[Official documentation: nullable value types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-value-types#declaration-and-assignment)
+    
 #### Q66. Do you need to declare an out variable before you use it?
 
 - [x] `No, you can declare an out in the parameter list.`
