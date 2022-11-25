@@ -1037,14 +1037,14 @@ Table name: superheroes
 #### Q107. "COUNT" keyword belongs to which categories in Mysql?
 
 - [x] Aggregate functions
-- [ ] Operators``
+- [ ] Operators
 - [ ] Clauses
 - [ ] All of the mentioned`
 
 #### Q108. Which among the following belongs to an "aggregate function"?
 
 - [x] COUNT
-- [ ] UPPER`
+- [ ] UPPER
 - [ ] LOWER
 - [ ] All of the mentioned
 
