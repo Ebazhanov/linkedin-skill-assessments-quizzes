@@ -504,7 +504,7 @@ Note: `DESCRIBE tablename` is a shortcut for this command
 
 - [x] to reduce corruption in data
 - [ ] to reduce storage space
-- [ ] to make the system faster
+- [x] to make the system faster
 - [ ] to prevent data anomalies
 
 Note: "to make the system faster" can also be correct. For example we can calculate some heavy query in advance and store its result in some column (use it as a cache). So if "system" means "application which uses mysql" then it's correct too.
