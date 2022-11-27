@@ -899,7 +899,7 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] zero or one
 - [ ] one or more
 
-#### Q110. Why would you use the `mdadm --assemble` subcommand when creating a new RAID5 array?
+#### Q110. Why would you not use the `mdadm --assemble` subcommand when creating a new RAID5 array?
 
 - [ ] `assemble` builds only arrays of drives that do not have RAID metadata on them.
 - [x] `assemble` is used to build existing RAID arrays.
