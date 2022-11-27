@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1235-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1236-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1731,6 +1731,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center"><a href="https://arteality.pl/"><img src="https://avatars.githubusercontent.com/u/37437781?v=4?s=100" width="100px;" alt="arteality"/><br /><sub><b>arteality</b></sub></a><br /><a href="#design-arteality" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=arteality" title="Code">💻</a></td>
       <td align="center"><a href="http://www.se-medien.de/"><img src="https://avatars.githubusercontent.com/u/7121202?v=4?s=100" width="100px;" alt="Daniel Drexlmaier"/><br /><sub><b>Daniel Drexlmaier</b></sub></a><br /><a href="#design-drexlma" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=drexlma" title="Code">💻</a></td>
       <td align="center"><a href="https://www.linkedin.com/in/marco-monti-1a7293138/"><img src="https://avatars.githubusercontent.com/u/34945781?v=4?s=100" width="100px;" alt="Marco Monti"/><br /><sub><b>Marco Monti</b></sub></a><br /><a href="#design-Mmark94" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Mmark94" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/mikeycrystal"><img src="https://avatars.githubusercontent.com/u/108841529?v=4?s=100" width="100px;" alt="mikeycrystal"/><br /><sub><b>mikeycrystal</b></sub></a><br /><a href="#design-mikeycrystal" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=mikeycrystal" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
