@@ -181,7 +181,7 @@
 - [x] UPDATE
 - [ ] MODIFY
 - [ ] CHANGE
-- [ ] ALTER	
+- [ ] ALTER
 
 #### F16. Was ist die beste Art von Abfrage, um das Format einer E-Mail-Adresse in einer MySQL-Tabelle zu validieren?
 
@@ -220,7 +220,7 @@
 - [ ] Es wird in der Tabelle „Employees“ aufgezeichnet, wo der Wert in der Spalte „EmployeeName“ ein „a“ hat.
 - [ ] Es wird in der Employees-Tabelle aufgezeichnet, wo der Wert in der EmployeeName-Spalte mit "a" endet.
 
-#### F21. Was steht in „SELECT * FROM clients;“ für „clients“?
+#### F21. Was steht in „SELECT \* FROM clients;“ für „clients“?
 
 - [ ] eine SQL-Abfrage
 - [ ] eine SQL-Anweisung
@@ -409,7 +409,7 @@
 - [ ] insert into
 - [x] show create table
 
-Beachten Sie, dass es bei der Frage um das _Bekommen_ der Daten geht und nicht um die _Duplizierungsoperation selbst. Und tatsächlich besteht überhaupt keine Notwendigkeit, `SHOW CREATE TABLE` auszuführen. [Um die Tabelle zu duplizieren](https://popsql.com/learn-sql/mysql/how-to-duplicate-a-table-in-mysql) Struktur können Sie `CREATE TABLE new_table LIKE original_table;`.
+Beachten Sie, dass es bei der Frage um das _Bekommen_ der Daten geht und nicht um die \_Duplizierungsoperation selbst. Und tatsächlich besteht überhaupt keine Notwendigkeit, `SHOW CREATE TABLE` auszuführen. [Um die Tabelle zu duplizieren](https://popsql.com/learn-sql/mysql/how-to-duplicate-a-table-in-mysql) Struktur können Sie `CREATE TABLE new_table LIKE original_table;`.
 
 #### F45. sie müssen ihr mysql-system gegen angreifer sichern. Was sollst du _nicht_ tun?
 
@@ -443,7 +443,6 @@ Genau dafür ist [WITH-Klausel](https://dev.mysql.com/doc/refman/8.0/en/with.htm
 - [x] updatable
 - [ ] temptable
 - [ ] undefined
-
 
 [Referenz](https://dev.mysql.com/doc/refman/8.0/en/view-algorithms.html)
 
@@ -700,7 +699,6 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [ ] `public instance User() {}`
 - [ ] `public init User() {}`
 
-
 #### Q73. Was ist die maximale Anzahl von Spalten, die von einem einzelnen Tabellenindex verwendet werden können?
 
 - [ ] 2
@@ -752,7 +750,6 @@ WHERE MATCH(address) AGAINST ('street, drive');
 - [ ] NUMERIC
 - [ ] DOUBLE
 
-
 #### F80. Welche Option ist „kein“ verfügbarer Zeichenfolgentyp für eine Spalte?
 
 - [ ] `ENUM`
@@ -786,7 +783,6 @@ Erläuterung: Sowohl `SET` als auch `DECLARE` werden verwendet, um Variablen zu 
 - [ ] regular expression
 - [ ] view
 - [ ] index
-
 
 #### F84. Im folgenden Diagramm sind die ID-Felder als Typ CHAR statt INT deklariert. Was ist KEIN möglicher Grund für diese Entscheidung?
 
@@ -876,7 +872,6 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] `Create table ENUM (name ('Small','Medium','Large'));`
 - [ ] `Create table size (name: ENUM['Small','Medium','Large']);`
 - [x] `Create table size (name ENUM('Small','Medium','Large'));`
-
 
 #### Q95. Der mysqldump-Befehl kann keine Ausgabe in **\_** generieren.
 

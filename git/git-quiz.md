@@ -1150,9 +1150,9 @@ Explanation: GitHub is a popular hosting platform for developers to store their 
 - [ ] git config email
 - [ ] All of the above.
 
-#### Q136. _____ will rewind your project to a specific point in time, losing all commits that came after it. _____ will keep changes in those rewound commits as local modifications
-  
+#### Q136. **\_** will rewind your project to a specific point in time, losing all commits that came after it. **\_** will keep changes in those rewound commits as local modifications
+
 - [ ] git reset HEAD; git reset HEAD^
-- [x] git reset hard; git reset soft 
-- [ ] git reset soft; git reset hard 
-- [ ] git rewind; git update 
+- [x] git reset hard; git reset soft
+- [ ] git reset soft; git reset hard
+- [ ] git rewind; git update
