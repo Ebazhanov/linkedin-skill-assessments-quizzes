@@ -612,3 +612,12 @@
 - [x] `db.inventory.insert({ prodid: "tab1122", qty : 10}, { writeConcern: { w: 2, j:true, wtimeout: 5000} })`
 
 [MongoDB reference](https://www.mongodb.com/docs/manual/reference/write-concern/)
+
+#### Q85. What is the name of the default file used to configure MongoDB?
+
+- [ ] mongo.config
+- [x] mongod.conf
+- [ ] config.sys
+- [ ] .mdbconfig
+
+[MongoDB reference](https://www.mongodb.com/docs/manual/reference/configuration-options/)
