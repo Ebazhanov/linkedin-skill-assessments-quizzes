@@ -12259,6 +12259,16 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "minigo",
+      "name": "Ivan Gorbachev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7579415?v=4",
+      "profile": "https://github.com/minigo",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
