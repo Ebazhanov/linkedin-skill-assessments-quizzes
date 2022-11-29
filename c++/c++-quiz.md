@@ -1472,3 +1472,115 @@ return 0;
 - [ ] choosing structure
 - [x] selective structure
 - [ ] None of the Above
+
+#### Q96. Which choice would be a recursive solution to the factorial n! problem?
+
+- [ ]
+
+```cpp
+void fact(int n) 
+{ 
+    if (n <= 0)
+        return 0;
+    else
+        return 1;
+}
+```
+
+- [ ]
+
+```cpp
+int fact(int n)
+{
+    if (n <= 0)
+        return 1;
+    else
+        return (fact (n) * (n-1));
+}
+```
+
+- [ ]
+
+```cpp
+int fact(int n)
+{
+    if (n >= 0)
+        return 1;
+    else
+        return (fact (n-1) * n);
+}
+```
+
+- [x]
+
+```cpp
+int fact(int n)
+{
+    if (n <= 0)
+        return 1;
+    else 
+        return (fact (n-1) * n);
+}
+```
+
+#### Q97. A class destructor can be called when a variety of situations occur. Which choice is not one of those situations?
+
+- [ ] The program is terminated. This calls the destructor of static duration objects.
+- [ ] The delete () function is called for an object pointer assigned with the new operator.
+- [x] The garbage collector detects that an object is no longer going to be used.
+- [ ] An automatic storage duration object goes out of scope.
+
+#### Q98. You are designing a foreign exchange payments system in C++, You need to model a transaction of a currency that has an integer as its quantity and a float as its price. You then want to declare an actual object of this type. How will vou achieve this?
+
+- [x]
+
+```cpp
+struct currencyDeal {
+    float price;
+    int quantity;
+};
+
+currencyDeal firstDeal;
+```
+
+- [ ]
+
+```cpp
+union currencyDeal { 
+    float price;
+    int quantity;
+};
+
+currencyDeal firstDeal;
+```
+
+- [ ]
+
+```cpp
+struct currencyDeal {
+    float price;
+    int quantity;
+};
+```
+
+- [ ]
+
+```cpp
+union currencyDeal {
+    float price;
+    int quantity;
+};
+```
+
+#### Q99. What will happen if you attempt to call this function with checkConcatThreshold("a");?
+
+```cpp
+int checkConcatThreshold(string a, string b) {
+    return (a + b).length () > 120;
+}
+```
+
+- [ ] A compilation warning will occur and the second argument will be given a default value of b.
+- [ ] A compilation warning will occur and the second argument will be given a default value of empty string.
+- [x] A compilation error will occur.
+- [ ] No compilation errors will occur and no compilation warnings will occur.
