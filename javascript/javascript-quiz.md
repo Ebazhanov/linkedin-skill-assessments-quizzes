@@ -2024,7 +2024,6 @@ console.log(obj1);
 
 [Reference](https://www.interviewbit.com/javascript-mcq/)
 
-
 #### Q148. What will be the output of the following code snippet?
 
 ```javascript

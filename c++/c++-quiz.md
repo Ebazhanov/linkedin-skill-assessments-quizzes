@@ -1247,7 +1247,7 @@ int main(){
 
 #### Q75. Why can the std::sort receive a function object as one of its parameters?
 
-- [ ] `The std::sort function is a template. The programmer is free to enter the sorting algorithm in a function object as an argument.`
+- [x] `The std::sort function is a template. The programmer is free to enter the sorting algorithm in a function object as an argument.`
 - [ ] `Actually, std::sort takes only one argument, which is the container to be sorted.`
 - [ ] `std::sort operates on a template container. The compiler does not know how to relationally compare the values it contains, so a function must be provided to do the comparison.`
 - [ ] `std::sort will use the parameter function as an error handler. The function will be called if an error occurs.`
@@ -1352,9 +1352,9 @@ sprite->x
 #### Q81. In which scenario would you want to specify the type of a pointer instead of using void?
 
 - [ ] void does not work for any type. The language does not allow assigning anything other than void to a pointer to void.
-- [x] The compiler needs the data type to caculate the length of the pointed data (for reading and writing) and to calculate increments and decrements to the pointer.
+- [ ] The compiler needs the data type to caculate the length of the pointed data (for reading and writing) and to calculate increments and decrements to the pointer.
 - [ ] The compiler needs the data type to make sure that the pointer is not going to be used on illegal non-pointable types such as functions, labels, pointers, and references.
-- [ ] The compiler needs the data type to know how much memory to allocate for the pointer, because different data types require different pointer lenghts.
+- [x] The compiler needs the data type to know how much memory to allocate for the pointer, because different data types require different pointer lenghts.
 
 #### Q82. The default executable generation on UNIX for a C++ program is \_
 

@@ -1270,7 +1270,7 @@ print(num_list)
 ```python
 num_list = [1,2,3,4,5]
 
-num_list.pop(3)
+num_list.pop(2)
 >>> [1,2,4,5]
 
 num_list.remove(2)

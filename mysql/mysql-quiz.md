@@ -504,7 +504,7 @@ Note: `DESCRIBE tablename` is a shortcut for this command
 
 - [x] to reduce corruption in data
 - [ ] to reduce storage space
-- [ ] to make the system faster
+- [x] to make the system faster
 - [ ] to prevent data anomalies
 
 Note: "to make the system faster" can also be correct. For example we can calculate some heavy query in advance and store its result in some column (use it as a cache). So if "system" means "application which uses mysql" then it's correct too.
@@ -731,7 +731,7 @@ WHERE MATCH(address) AGAINST ('street, drive');
 
 - [ ] Stored procedures are not secure, because they can be executed from the command line as the root user
 - [ ] Stored procedures are secure, because the owner of the stored procedure can decide to whom access is granted
-- [x] Stored procedures are secure, because applications can be given access to stored procedures and not any underlying variables
+- [x] Stored procedures are secure, because applications can be given access to stored procedures and not any underlying tables
 - [ ] Stored procedures are not secure, because they can execute statements to drop tables or bulk delete data
 
 #### Q78. How would you retrieve data on all the customers where no phone number is stored?
@@ -880,7 +880,7 @@ SELECT name FROM students WHERE name REGEXP '^to';
 - [ ] XML
 - [ ] TXT
 
-#### Q96. You are working with the tables as shown in this diagram. You need to generate the list of all cars, whether or not they had been sold, with the purchase date of the cars that were sold. Which statement accomplishes that?
+#### Q96. You are working with the tables shown below. You need to generate the list of all cars, whether or not they had been sold. Which statement accomplishes that?
 
 ![mysql picture](images/mysql_q98.png?raw=true)
 
@@ -1037,14 +1037,14 @@ Table name: superheroes
 #### Q107. "COUNT" keyword belongs to which categories in Mysql?
 
 - [x] Aggregate functions
-- [ ] Operators``
+- [ ] Operators
 - [ ] Clauses
 - [ ] All of the mentioned`
 
 #### Q108. Which among the following belongs to an "aggregate function"?
 
 - [x] COUNT
-- [ ] UPPER`
+- [ ] UPPER
 - [ ] LOWER
 - [ ] All of the mentioned
 

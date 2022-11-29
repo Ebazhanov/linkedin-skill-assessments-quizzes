@@ -144,6 +144,8 @@
 - [ ] access policies
 - [x] RBAC roles
 
+[Controlling access to Key Vault data](https://learn.microsoft.com/en-us/azure/key-vault/general/security-features#controlling-access-to-key-vault-data)
+
 #### Q19. Your Kineteco Web App experiences occasional spikes in usage that cause resource shortages that generate an alert. When this occurs, you want to configure scale out of the App Service plan resources. The solution should minimize cost and administrative effort. What should you do?
 
 - [ ] Create a Logic App. Then configure an action group with the Logic App action type.
@@ -337,7 +339,7 @@
 - [ ] Agent.BuildDirectory
 - [ ] Agent.ToolsDirectory
 
-#### Q43. You are selecting Azure technologies for a new a pp that will process print jobs in a facility with thousands of printers. A pool of worker processes will send jobs to printer and report results when jobs are complete. Requirements for the solution are: Worker processes will retrieve and process messages as capacity permits; if a worker process or printer fails, a worker process should be able to retrieve message and resume processing; and the solution should maintain a central (server-side) log of messages processed. Which solution should you use?
+#### Q43. You are selecting Azure technologies for a new app that will process print jobs in a facility with thousands of printers. A pool of worker processes will send jobs to printer and report results when jobs are complete. Requirements for the solution are: Worker processes will retrieve and process messages as capacity permits; if a worker process or printer fails, a worker process should be able to retrieve message and resume processing; and the solution should maintain a central (server-side) log of messages processed. Which solution should you use?
 
 - [ ] Event Hub
 - [ ] Event Grid
