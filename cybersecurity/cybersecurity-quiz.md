@@ -788,11 +788,11 @@ What is the next step you should take to best fulfill your responsibilities and 
 
 [Explanation:](https://www.imperva.com/learn/application-security/application-security/)
 
-#### Q103. Which action is most likely to simplify security staff training, improve integration between security components, and reduce risk to the business? (Choose the best answer.)Which action is most likely to simplify security staff training, improve integration between security components, and reduce risk to the business? (Choose the best answer.)
+#### Q103. Which action is most likely to simplify security staff training, improve integration between security components, and reduce risk to the business? (Choose the best answer.)
 
-- [ ] adopting a "best-in-suite" approach to securityadopting a "best-in-suite" approach to security
-- [x] adopting a "trust but verify" approach to securityadopting a "trust but verify" approach to security
-- [ ] adopting a "best-of-breed" approach to securityadopting a "best-of-breed" approach to security
+- [ ] adopting a "best-in-suite" approach to security
+- [x] adopting a "trust but verify" approach to security
+- [ ] adopting a "best-of-breed" approach to security
 - [ ] adopting a "defense-in-depth" approach to security
 
 [Explanation:](https://www.law.com/njlawjournal/2021/12/03/zero-trust-security-moving-from-trust-but-verify-to-never-trust-always-verify/?slreturn=20220417191235)
@@ -827,7 +827,7 @@ What is the next step you should take to best fulfill your responsibilities and 
 - [ ] 3
 - [ ] 4
 
-#### Q108. Which option will not actively identify a secuirty incident?
+#### Q108. Which option will not actively identify a security incident?
 
 - [ ] Extended Detection and Response (XDR)
 - [x] Cloud Security Posture Management (CSPM)
