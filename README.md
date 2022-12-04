@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1239-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1240-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1735,6 +1735,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center"><a href="https://github.com/Veljanovskii"><img src="https://avatars.githubusercontent.com/u/67647377?v=4?s=100" width="100px;" alt="Veljanovskii"/><br /><sub><b>Veljanovskii</b></sub></a><br /><a href="#design-Veljanovskii" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=Veljanovskii" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/minigo"><img src="https://avatars.githubusercontent.com/u/7579415?v=4?s=100" width="100px;" alt="Ivan Gorbachev"/><br /><sub><b>Ivan Gorbachev</b></sub></a><br /><a href="#design-minigo" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=minigo" title="Code">💻</a></td>
       <td align="center"><a href="https://www.instagram.com/sahilrawat_001"><img src="https://avatars.githubusercontent.com/u/66208562?v=4?s=100" width="100px;" alt="Sahil Rawat"/><br /><sub><b>Sahil Rawat</b></sub></a><br /><a href="#design-sahilrawat001" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=sahilrawat001" title="Code">💻</a></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="https://hasithasuneth.github.io/portfolio/"><img src="https://avatars.githubusercontent.com/u/87106402?v=4?s=100" width="100px;" alt="Hasitha Suneth"/><br /><sub><b>Hasitha Suneth</b></sub></a><br /><a href="#design-HasithaSuneth" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=HasithaSuneth" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
