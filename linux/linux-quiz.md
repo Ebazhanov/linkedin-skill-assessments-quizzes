@@ -736,11 +736,11 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] single
 - [ ] process
 
-#### Q88. What tool should you use to replace a physical volume in LVM?What tool should you use to replace a physical volume in LVM?
+#### Q88. What tool should you use to replace a physical volume in LVM?
 
-- [ ] cpcp
-- [ ] pvmovepvmove
-- [ ] tartar
+- [ ] cp
+- [ ] pvmove
+- [ ] tar
 - [ ] lvcopy
 
 #### Q89. What is the difference between the apt remove and apt autoremove commands?
