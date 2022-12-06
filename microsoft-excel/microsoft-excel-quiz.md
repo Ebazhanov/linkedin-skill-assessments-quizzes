@@ -1244,3 +1244,10 @@ https://support.microsoft.com/en-us/office/print-headings-or-titles-on-every-pag
 - [ ] a named constant
 - [ ] a worksheet function
 - [ ] a defined formula name
+
+#### Q140. You have a workheet with the year in column A, the month in column B, and the day in column C. All fields contain numbers. What function would you use to create the date column in D?
+
+- [x] DATEVALUE
+- [ ] CONCATENATE
+- [ ] TEXTJOIN
+- [ ] DATE
