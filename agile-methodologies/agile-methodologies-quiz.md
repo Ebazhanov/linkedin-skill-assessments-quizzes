@@ -978,3 +978,17 @@ It's the same as Q81, just slightly differently phrased question.
 - [x] Share the problem with your team to see if they can create a solution
 - [ ] Work around the issue until the last responsible moment to solve it
 - [ ] Check the Product Owner's schedule and book time for a meeting
+
+#### Q133. When is the best time to review the team's burndown chart?
+
+- [ ] after the daily stand-up
+- [x] before the Sprint Retrospective
+- [ ] before the Daily Scrum
+- [ ] before quarterly planning
+
+#### Q134. Which statement about the actor in a user story can be true?
+
+- [ ] The system cannot be the actor
+- [ ] There must be multiple personas for each actor
+- [x] The actor can be the system itself
+- [ ] The actor does not have to be a specified role in the solution
