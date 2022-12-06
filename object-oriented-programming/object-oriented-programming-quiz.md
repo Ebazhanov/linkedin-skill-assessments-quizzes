@@ -745,3 +745,10 @@ public class Honda extends Car{}
 - [ ] A friend class can access only protected members of the class of which it is a friend.
 
 [Reference](https://www.simplilearn.com/tutorials/cpp-tutorial/friend-class-in-cpp/)
+
+#### Q98. Which code sample demonstrates multiple inheritance?
+
+- [ ] `class employee{ }; class stream{ }; class topper{ };`
+- [ ] `class employee{int rating;}; class stream:public employee{ };`
+- [ ] `class employee{int rating;}; class stream{int total;}; class topper: employee, stream{ };`
+- [ ] `class employeef{int rating};}: class stream{ }: class topper: public employee{ }:`
