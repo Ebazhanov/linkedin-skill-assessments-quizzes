@@ -846,3 +846,5 @@ func main() {
         fmt.Println("{{c.Name}} - a {{c.Class}} - is the {{c.Role}} of {{c.Game}}")
   }
   ```
+
+1. [fmt#Stringer](https://pkg.go.dev/fmt#Stringer)
