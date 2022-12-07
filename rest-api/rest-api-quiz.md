@@ -395,7 +395,7 @@
 - [ ] `405`
 - [x] `201`
 - [ ] `204`
-- [ ] `202`
+- [ ] `200`
 
 [Response Codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses)
 
