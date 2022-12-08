@@ -776,3 +776,75 @@ func main() {
 
 1. [context#WithTimeout](https://pkg.go.dev/context#WithTimeout)
 2. [net/http#Request.WithContext](https://pkg.go.dev/net/http#Request.WithContext)
+
+#### Q53. If you have a struct named Client defined in the same .go file as the statement, how do you export a variable with a default value so the variable is accessible by other packages?
+
+- [ ] `let Default := new Client()`
+- [ ] `public default = &Client()`
+- [x] `var Default = &Client{}`
+- [ ] `export default := new Client{}`
+
+
+#### Q54. This program outputs `{Master Chief Spartan Protagonist Halo}`. How would you get it to output `Master Chief - a Spartan - is the Protagonist of Halo` instead?
+
+```go
+package main
+
+import "fmt"
+
+type Character struct{
+        Name  string
+        Class string
+        Role  string
+        Game  string
+}
+
+func main() {
+        mc := Character{
+                Name: "Master Chief",
+                Class: "Spartan",
+                Role: "Protagonist",
+                Game: "Halo",
+        }
+        fmt.Println(mc)
+}
+```
+- [ ] A
+
+  ```go
+  // Replace
+  // fmt.Println(mc)
+  // with this:
+  
+  fmt.Printf("(?P<Name>) - a (?P<Class>) - is the (?P<Role>) of (?P<Game>)", mc)
+  ```
+- [ ] B
+
+  ```go
+  // Replace
+  // fmt.Println(mc)
+  // with this:
+  fmt.Println(mc, func(c Character) string {
+        return c. Name + " - a " + c.Class + " - is the " + c.Role + " of " + c.Game
+  })
+  ```
+- [x] C
+
+  ```go
+  // add this to the package `main`
+
+  func (c Character) String() string {
+        return fmt.Sprintf("%s - a %s - is the %s of %s", c.Name, c.Class, c.Role,c.Game)
+  }
+  ```
+- [ ] D
+
+  ```go
+   // add this to the package `main`
+
+  func (c Character) OnPrint() {
+        fmt.Println("{{c.Name}} - a {{c.Class}} - is the {{c.Role}} of {{c.Game}}")
+  }
+  ```
+
+1. [fmt#Stringer](https://pkg.go.dev/fmt#Stringer)
