@@ -768,3 +768,51 @@ E. Perspective Warp
 - \[ ] History Brush Tool
 - \[x] Clone Stamp Tool
 - \[ ] Eraser Tool
+
+#### Q100. A Filter name or menu item followed by an elipsis (...) means that the filter or menu item ___?
+
+- \[ ] works in 16-bit mode
+- \[x] is optimize for multiple processors
+- \[ ] has an interface
+- \[ ] has no interface
+
+#### Q101. The Background of your image is white. There is a red solid color adjustment layer mask that is black with a white circle, as shown. With nothing else selected, what happens to the image when you select the layer mask and then select Image > Adjustment > Invert?
+
+- \[ ] The red circle changes to cyan, but the color outside the circle remains  red although it is still transparent. You can see the cyan only in the thumbnail in the Layes panel.
+- \[ ] The circle changes from red to cyan
+- \[x] The red circle with white around it changes to a white circle with red around it.
+- \[ ] The circle disappears
+
+#### Q102. Which features allow you to push pixels from their original location to modify an image?
+A. Dodge
+B. Droplet
+C. Smudge
+D. Sponge
+E. Liquify
+
+- \[ ] B, E
+- \[ ] A, C, D, E
+- \[x] B, D, E
+- \[ ] C, E
+
+#### Q103. How can you edit an Illustrator AI file that you placed as a Smart Object?
+
+- \[ ] Select the Direct Selection tool and click the edge of the graphic.
+- \[x] Click Layer > Smart Object > Reset Transform.
+- \[ ] Double-click the selected graphic on the canvas.
+- \[ ] Double-click the graphic's thumbnails in the Layers panel.
+
+#### Q104. How many layer masks can a single layer have applied without using groups or Smart Objects?
+
+- \[ ] 2
+- \[ ] 1
+- \[x] 8000
+- \[ ] infinite
+
+#### Q105. What is the difference between the Healing Brush tool and the Spot Healing Brush tool?
+
+- \[ ] The Spot Healing Brush tool does not match texture, lighting,shading, or transparency of the sampled pixels, but the Healing Brush tool blends texture, light, shading and transparency of pixels nearby.
+- \[x] The spot Healing Brush tool needs a source point, but the Healing Brush automatically samples pixel nearby.
+- \[ ] The Healing Brush tool does not match texture, lighting, shading, or transparency of the sampled pixels, but the Healing Brush tool blends texture, light, shading and transparency of pixels nearby.
+- \[ ] The Healing Brush tool needs a source point, but the Spot Healing Brush automatically samples pixels nearby.
+
