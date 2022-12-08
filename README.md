@@ -11,7 +11,7 @@
 [![Telegram](https://badgen.net/badge/icon/telegram?icon=telegram&label)](https://t.me/+lCPxL7Kd7gVjMGM6)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1242-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1243-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 > This repository is for those looking for answers to the LinkedIn assessment quiz questions or willing to help others by contributing to the tests. Or possibly you would like to create your first pull request and be added as a contributor. Whatever is your goal - you are always welcome here! Feel free to use [online grammar checker](https://www.grammarly.com/) when you contribute!
@@ -1740,6 +1740,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center"><a href="https://hasithasuneth.github.io/portfolio/"><img src="https://avatars.githubusercontent.com/u/87106402?v=4?s=100" width="100px;" alt="Hasitha Suneth"/><br /><sub><b>Hasitha Suneth</b></sub></a><br /><a href="#design-HasithaSuneth" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=HasithaSuneth" title="Code">💻</a></td>
       <td align="center"><a href="https://www.linkedin.com/in/yerko-vera-lezama-9b3193110/"><img src="https://avatars.githubusercontent.com/u/16638068?v=4?s=100" width="100px;" alt="Yerko Vera Lezama"/><br /><sub><b>Yerko Vera Lezama</b></sub></a><br /><a href="#design-YerkoVL" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=YerkoVL" title="Code">💻</a></td>
       <td align="center"><a href="https://github.com/ivan-penchev"><img src="https://avatars.githubusercontent.com/u/30929349?v=4?s=100" width="100px;" alt="Ivan Penchev"/><br /><sub><b>Ivan Penchev</b></sub></a><br /><a href="#design-ivan-penchev" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=ivan-penchev" title="Code">💻</a></td>
+      <td align="center"><a href="https://github.com/tonmoycoder"><img src="https://avatars.githubusercontent.com/u/78300713?v=4?s=100" width="100px;" alt="Tanver Islam Tonmoy"/><br /><sub><b>Tanver Islam Tonmoy</b></sub></a><br /><a href="#design-tonmoycoder" title="Design">🎨</a> <a href="https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes/commits?author=tonmoycoder" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
