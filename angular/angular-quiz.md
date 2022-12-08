@@ -1151,7 +1151,7 @@ export class TruncatePipe implements PipeTransform {
 ```
 
 - [ ] `{{ 'some long text' | truncate:10 }}`
-- [x] "{{ 'some long text' | truncate:`10`:true }}"
+- [x] `{%{ 'some long text' | truncate:10:true }%}`
 - [ ] `{{ 'some long text' | truncate }}`
 - [ ] all of these answers
 
