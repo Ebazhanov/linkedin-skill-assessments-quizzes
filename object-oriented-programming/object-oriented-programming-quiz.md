@@ -753,7 +753,7 @@ public class Honda extends Car{}
 - [ ] `class employee{int rating;}; class stream{int total;}; class topper: employee, stream{ };`
 - [ ] `class employeef{int rating};}: class stream{ }: class topper: public employee{ }:`
 
-#### Q98. What is multilevel inheritance?
+#### Q99. What is multilevel inheritance?
 
 - [ ] a class that does not have more than one parent.
 - [ ] a class not derived from another derived obiect.
