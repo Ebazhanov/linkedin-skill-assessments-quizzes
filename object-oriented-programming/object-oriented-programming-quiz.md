@@ -758,6 +758,6 @@ public class Honda extends Car{}
 - [ ] a class that does not have more than one parent.
 - [ ] a class not derived from another derived obiect.
 - [ ] not doubling single-level inheritance.
-- [X] classes derived from other derived classes.
+- [x] classes derived from other derived classes.
 
 [Reference](https://www.w3schools.com/cpp/cpp_inheritance_multilevel.asp)

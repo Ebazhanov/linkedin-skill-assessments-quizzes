@@ -2,103 +2,103 @@
 
 #### P1. Tiene una aplicación que utiliza una base de datos MySQL de 100 GB que está migrando a AWS. ¿Qué debe tener en cuenta al decidir si desea alojar la base de datos en RDS para MySQL o Aurora?
 
-- \[ ] costo
-- \[ ] facilidad de mantenimiento vs. granularidad del control
-- \[x] todas estas respuestas
-- \[ ] el motor de almacenamiento actual utilizado por la aplicación, como InnoDB o MyISAM
+- [ ] costo
+- [ ] facilidad de mantenimiento vs. granularidad del control
+- [x] todas estas respuestas
+- [ ] el motor de almacenamiento actual utilizado por la aplicación, como InnoDB o MyISAM
 
 #### P2. ¿Qué base de datos es un tipo de base de datos NoSQL que puede almacenar y recuperar rápidamente pares clave-valor?
 
-- \[ ] Aurora
-- \[ ] Neptuno
-- \[ ] RDS para MySQL
-- \[x] DynamoDB
+- [ ] Aurora
+- [ ] Neptuno
+- [ ] RDS para MySQL
+- [x] DynamoDB
 
 #### P3. La base de datos es una instancia de RDS que ejecuta SQL Server con replicación Multi-AZ y tiene varias utilidades de consola de .NET más antiguas que realizan operaciones de base de datos cada 15 segundos. Cuando el clúster tiene que cambiar el servidor de base de datos principal a la zona de disponibilidad secundaria, las utilidades de .NET comienzan a informar de errores de conexión a la base de datos, aunque otras aplicaciones pueden tener acceso a la base de datos. ¿Cómo se corrige este problema?
 
-- \[ ] Utilice la consola rdsi para forzar un reinicio de la instancia de base de datos de modo que el servidor principal vuelva a ser el servidor maestro.
-- \[ ] El servidor que ejecuta las utilidades .NET está almacenando en caché la búsqueda DNS en la dirección del clúster de base de datos. Vacíe la caché DNS del servidor y fuerce las utilidades de C# para abrir nuevas conexiones a la base de datos.
-- \[ ] A.NET aplicación conservará la dirección IP de una cadena de conexión hasta que se reinicie el equipo host.
-- \[x] Las utilidades net deben cambiar el extremo de SQL Server en las cadenas de conexión para leer desde el servidor de base de datos secundario mediante un try/catch.
+- [ ] Utilice la consola rdsi para forzar un reinicio de la instancia de base de datos de modo que el servidor principal vuelva a ser el servidor maestro.
+- [ ] El servidor que ejecuta las utilidades .NET está almacenando en caché la búsqueda DNS en la dirección del clúster de base de datos. Vacíe la caché DNS del servidor y fuerce las utilidades de C# para abrir nuevas conexiones a la base de datos.
+- [ ] A.NET aplicación conservará la dirección IP de una cadena de conexión hasta que se reinicie el equipo host.
+- [x] Las utilidades net deben cambiar el extremo de SQL Server en las cadenas de conexión para leer desde el servidor de base de datos secundario mediante un try/catch.
 
 #### P4. ¿Qué servicios de AWS pueden ayudarle a automatizar su canalización de desarrollo para la integración continua y la implementación continua?
 
-- \[ ] CodePipeline
-- \[ ] CodeDeploy
-- \[x] todas estas respuestas
-- \[ ] CodeBuild
+- [ ] CodePipeline
+- [ ] CodeDeploy
+- [x] todas estas respuestas
+- [ ] CodeBuild
 
 #### P5. ¿Qué servicio de AWS cumple con los estándares descritos en el Nivel 1 del Estándar de seguridad de datos de la industria de tarjetas de pago (PCI DSS) para el manejo y la transmisión de datos de tarjetas de crédito?
 
-- \[ ] Puerta de enlace API
-- \[x] todas estas respuestas
-- \[ ] Servicio de cola simple (SQS)
-- \[ ] Kinesis Data Streams
+- [ ] Puerta de enlace API
+- [x] todas estas respuestas
+- [ ] Servicio de cola simple (SQS)
+- [ ] Kinesis Data Streams
 
 #### P6. Tiene una gran cantidad de archivos en su arreglo de discos de almacenamiento de información conectado a la red que deben archivarse y mantenerse durante un período de 10 años debido a las regulaciones de la industria. Se accederá a estos datos con poca frecuencia, pero deben conservarse ¿Cuál es el mejor servicio de AWS para almacenar estos datos?
 
-- \[ ] EFS
-- \[ ] Bola de nieve
-- \[ ] OEBS
-- \[x] Glaciar S3
+- [ ] EFS
+- [ ] Bola de nieve
+- [ ] OEBS
+- [x] Glaciar S3
 
 #### P7. Para su cuenta raíz de AWS, ha generado una contraseña aleatoria de la longitud máxima permitida e incluido caracteres especiales. ¿Qué pasos adicionales debe seguir para proteger su cuenta raíz de AWS?
 
-- \[ ] Cree un rol de AM para el administrador de la cuenta con los privilegios más altos. No almacene la contraseña raíz, pero cuando sea necesaria la cuenta raíz, restablezca la contraseña en la cuenta raíz mediante confirmación por correo electrónico y repita este procedimiento.
-- \[ ] Almacene su contraseña generada aleatoriamente en su base de datos de secretos de organización utilizando un servicio como 1Password o LastPass, y solo otorgue acceso a este secreto al equipo de DevOps.
-- \[ ] Cree cuentas de IAM para sus administradores y adjunte la política AdministratorAccess a sus cuentas. Deshabilite la cuenta raíz en la configuración del usuario.
-- \[x] Cree un rol de IAM para el administrador de la cuenta con los privilegios más altos y no utilice la cuenta raíz en las operaciones diarias. Habilitar la autenticación de dos factores en la cuenta raíz
+- [ ] Cree un rol de AM para el administrador de la cuenta con los privilegios más altos. No almacene la contraseña raíz, pero cuando sea necesaria la cuenta raíz, restablezca la contraseña en la cuenta raíz mediante confirmación por correo electrónico y repita este procedimiento.
+- [ ] Almacene su contraseña generada aleatoriamente en su base de datos de secretos de organización utilizando un servicio como 1Password o LastPass, y solo otorgue acceso a este secreto al equipo de DevOps.
+- [ ] Cree cuentas de IAM para sus administradores y adjunte la política AdministratorAccess a sus cuentas. Deshabilite la cuenta raíz en la configuración del usuario.
+- [x] Cree un rol de IAM para el administrador de la cuenta con los privilegios más altos y no utilice la cuenta raíz en las operaciones diarias. Habilitar la autenticación de dos factores en la cuenta raíz
 
 #### P8. ¿Qué opción de Elastic Load Balancing admite Lambda como destino?
 
-- \[ ] Equilibrador de carga de red
-- \[ ] Lambda no puede ser llamado directamente por las solicitudes web entrantes. Debe utilizar API Gateway.
-- \[ ] Equilibrador de carga clásico
-- \[x] Balanceador de carga de aplicaciones
+- [ ] Equilibrador de carga de red
+- [ ] Lambda no puede ser llamado directamente por las solicitudes web entrantes. Debe utilizar API Gateway.
+- [ ] Equilibrador de carga clásico
+- [x] Balanceador de carga de aplicaciones
 
 #### P9. ¿Cómo se diseña una solución para que una base de datos de SQL Server se replique en todas las regiones de AWS en una arquitectura activa-activa?
 
-- \[ ] Utilice RDS para SQL Server y cree la misma instancia en dos regiones diferentes. Utilice el Servicio de migración de bases de datos para mantener cada base de datos sincronizada.
-- \[ ] Utilice un emparejamiento vpn o VPC para establecer una conexión entre las VPC de cada región. Instale SQL Server Enterprise Edition en instancias EC2 de cada región y configure un grupo de disponibilidad Always On.
-- \[x] Use RDS para SQL Server 2016 o 2017 Enterprise Edition. Habilite la compatibilidad con Multi-AZ y seleccione la opción Duplicación/Siempre activada. Seleccione otra región para la opción de duplicación.
-- \[ ] No puede configurar una arquitectura activo-activa para SQL Server que abarque regiones geográficas.
+- [ ] Utilice RDS para SQL Server y cree la misma instancia en dos regiones diferentes. Utilice el Servicio de migración de bases de datos para mantener cada base de datos sincronizada.
+- [ ] Utilice un emparejamiento vpn o VPC para establecer una conexión entre las VPC de cada región. Instale SQL Server Enterprise Edition en instancias EC2 de cada región y configure un grupo de disponibilidad Always On.
+- [x] Use RDS para SQL Server 2016 o 2017 Enterprise Edition. Habilite la compatibilidad con Multi-AZ y seleccione la opción Duplicación/Siempre activada. Seleccione otra región para la opción de duplicación.
+- [ ] No puede configurar una arquitectura activo-activa para SQL Server que abarque regiones geográficas.
 
 [Referencia](https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_ReadRepl.html?opt_id=oeu1612780272452r0.9199525073583283)
 
 #### P10. ¿Cuánto cuesta lanzar una instancia EC2 desde AWS Marketplace?
 
-- \[ ] Todas las imágenes de AWS Marketplace incurren en tarifas por hora adicionales además de los cargos del tamaño de instancia que seleccione.
-- \[ ] Solo puede lanzar imágenes creadas por otros usuarios en su cuenta de AWS, por lo que solo paga por el tamaño de instancia que seleccione y los costos de almacenamiento de S3 para la imagen base.
-- \[x] Cada imagen tiene su propio precio que podría ser gratuito o incluir cargos por los costos de licencia de software. También pagará por la instancia en la que se ejecuta la imagen
-- \[ ] Todas las imágenes de AWS Marketplace contienen solo software de código abierto sin cargos adicionales y son creadas por otros usuarios de AWS. Solo pagará por el tamaño de instancia que seleccione.
+- [ ] Todas las imágenes de AWS Marketplace incurren en tarifas por hora adicionales además de los cargos del tamaño de instancia que seleccione.
+- [ ] Solo puede lanzar imágenes creadas por otros usuarios en su cuenta de AWS, por lo que solo paga por el tamaño de instancia que seleccione y los costos de almacenamiento de S3 para la imagen base.
+- [x] Cada imagen tiene su propio precio que podría ser gratuito o incluir cargos por los costos de licencia de software. También pagará por la instancia en la que se ejecuta la imagen
+- [ ] Todas las imágenes de AWS Marketplace contienen solo software de código abierto sin cargos adicionales y son creadas por otros usuarios de AWS. Solo pagará por el tamaño de instancia que seleccione.
 
 #### P11. Cuando se utiliza un clúster de ECS con instancias EC2, ¿qué tareas de mantenimiento debe realizar en ec2?
 
-- \[ ] Las instancias creadas por ECS no tienen parches que deban aplicarse; sin embargo, debe asegurarse de que los contenedores contengan actualizaciones de seguridad importantes.
-- \[x] Actualice el clúster con instancias creadas a partir de la AMI de ECS más reciente.
-- \[ ] Los clústeres de ECS no utilizan instancias EC2.
-- \[ ] No debe manipular directamente las instancias EC2 creadas por ECS. AWS actualizará automáticamente estas instancias.
+- [ ] Las instancias creadas por ECS no tienen parches que deban aplicarse; sin embargo, debe asegurarse de que los contenedores contengan actualizaciones de seguridad importantes.
+- [x] Actualice el clúster con instancias creadas a partir de la AMI de ECS más reciente.
+- [ ] Los clústeres de ECS no utilizan instancias EC2.
+- [ ] No debe manipular directamente las instancias EC2 creadas por ECS. AWS actualizará automáticamente estas instancias.
 
 #### P12. ¿Qué servidor de almacenamiento en caché en memoria no es compatible con ElastiCache?
 
-- \[ ] Redis 5
-- \[ ] Memcached
-- \[x] Elasticsearch
-- \[ ] Redis 3
+- [ ] Redis 5
+- [ ] Memcached
+- [x] Elasticsearch
+- [ ] Redis 3
 
 #### P13. ¿Qué servicio de AWS se puede utilizar para ayudar a generar la documentación requerida por varios estándares de conformidad, como el Estándar de seguridad de datos de la industria de tarjetas de pago (PCI DSS) Nivel 1 para el manejo de datos de tarjetas de crédito?
 
-- \[x] Artefacto
-- \[ ] DocumentDB
-- \[ ] Imprima el resumen de conformidad de AWS y guárdelo con la documentación necesaria para una auditoría.
-- \[ ] Gestor de secretos
+- [x] Artefacto
+- [ ] DocumentDB
+- [ ] Imprima el resumen de conformidad de AWS y guárdelo con la documentación necesaria para una auditoría.
+- [ ] Gestor de secretos
 
 #### P14. Cuando se utiliza AWS para investigación y desarrollo antes de una migración planificada, ¿cómo se evitan aumentos inesperados o picos en la facturación?
 
-- \[ ] Utilice el panel de facturación para crear un presupuesto de costos. Ingrese la cantidad máxima que desea que se le cobre cada mes. Cualquier cargo que se produzca por encima de esta cantidad hará que AWS suspenda automáticamente esos recursos.
-- \[ ] Con la cuenta raíz de AWS, active el acceso de IAM a la información de facturación de la cuenta. Asegúrese de que los usuarios de IAM tengan la política Billing FullAccessGroup. Luego, desde el panel de facturación, verifique los cargos acumulados una vez al día.
-- \[ ] Si está utilizando la capa gratuita de AWS, tendrá que confirmar el uso de cualquier servicio que supere los límites de la capa gratuita de AWS.
-- \[x] Con la cuenta raíz de AWS, habilite alertas de facturación en las preferencias del usuario. A continuación, utilice CloudWatch para crear una alarma de facturación y establecer un umbral en un importe específico en dólares para sus cargos mensuales estimados.
+- [ ] Utilice el panel de facturación para crear un presupuesto de costos. Ingrese la cantidad máxima que desea que se le cobre cada mes. Cualquier cargo que se produzca por encima de esta cantidad hará que AWS suspenda automáticamente esos recursos.
+- [ ] Con la cuenta raíz de AWS, active el acceso de IAM a la información de facturación de la cuenta. Asegúrese de que los usuarios de IAM tengan la política Billing FullAccessGroup. Luego, desde el panel de facturación, verifique los cargos acumulados una vez al día.
+- [ ] Si está utilizando la capa gratuita de AWS, tendrá que confirmar el uso de cualquier servicio que supere los límites de la capa gratuita de AWS.
+- [x] Con la cuenta raíz de AWS, habilite alertas de facturación en las preferencias del usuario. A continuación, utilice CloudWatch para crear una alarma de facturación y establecer un umbral en un importe específico en dólares para sus cargos mensuales estimados.
 
 #### P15. Está creando una tabla de DynamoDB para almacenar todas las películas que se han estrenado desde 1938. Su aplicación permitirá a los usuarios buscar por título de película y ver los detalles de esa película. Dado el ejemplo siguiente que muestra los datos de película que va a importar, ¿cuál es el mejor conjunto de claves para aplicar a esta tabla?
 
@@ -111,9 +111,9 @@
 }
 ```
 
-- \[ ] La clave principal debe ser una clave de partición del campo de título.
-- \[ ] La clave principal debe ser el campo de título y la clave de partición debe ser el campo de géneros.
-- \[ ] La clave principal debe ser una clave compuesta por una clave de partición en el campo de título y una clave de ordenación en el campo de año.
+- [ ] La clave principal debe ser una clave de partición del campo de título.
+- [ ] La clave principal debe ser el campo de título y la clave de partición debe ser el campo de géneros.
+- [ ] La clave principal debe ser una clave compuesta por una clave de partición en el campo de título y una clave de ordenación en el campo de año.
 - \[x] La clave principal debe crearse como un valor completamente único, como una lista numérica secuencial de ID de película. La clave de partición debe ser el campo de título para una búsqueda rápida.
 
 #### P16. ¿Qué almacén de datos proporciona una forma sencilla y rápida de almacenar atributos básicos de usuario en un formato basado en objetos?

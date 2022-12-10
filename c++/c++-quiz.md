@@ -1478,8 +1478,8 @@ return 0;
 - [ ]
 
 ```cpp
-void fact(int n) 
-{ 
+void fact(int n)
+{
     if (n <= 0)
         return 0;
     else
@@ -1518,7 +1518,7 @@ int fact(int n)
 {
     if (n <= 0)
         return 1;
-    else 
+    else
         return (fact (n-1) * n);
 }
 ```
@@ -1546,7 +1546,7 @@ currencyDeal firstDeal;
 - [ ]
 
 ```cpp
-union currencyDeal { 
+union currencyDeal {
     float price;
     int quantity;
 };

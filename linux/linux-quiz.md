@@ -912,4 +912,5 @@ if [[ $FILE == $GLOB ]] ;then
 - [ ] one or more
 - [ ] any number of characters
 - [x] one
+
 [reference](https://javascript.info/regexp-character-sets-and-ranges)

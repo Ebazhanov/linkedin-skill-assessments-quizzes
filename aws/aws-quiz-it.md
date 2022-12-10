@@ -2,23 +2,23 @@
 
 #### D1. Hai un'applicazione che utilizza un database MySQL da 100 GB di cui stai eseguendo la migrazione in AWS. Cosa dovresti considerare quando decidi se ospitare il database su RDS per MySQL o Aurora?
 
-- \[ ] costo
-- \[ ] facilità di manutenzione vs. granularità del controllo
-- \[x] tutte queste risposte
-- \[ ] l'attuale motore di archiviazione utilizzato dall'applicazione, ad esempio InnoDB o MyISAM
+- [ ] costo
+- [ ] facilità di manutenzione vs. granularità del controllo
+- [x] tutte queste risposte
+- [ ] l'attuale motore di archiviazione utilizzato dall'applicazione, ad esempio InnoDB o MyISAM
 
 #### D2. Quale database è un tipo di database NoSQL in grado di archiviare e recuperare rapidamente coppie chiave-valore?
 
-- \[ ] Aurora
-- \[ ] Nettuno
-- \[ ] RDS per MySQL
-- \[x] DynamoDB
+- [ ] Aurora
+- [ ] Nettuno
+- [ ] RDS per MySQL
+- [x] DynamoDB
 
 #### D3. Il database è un'istanza RDS che esegue SQL Server con replica Multi-AZ e sono disponibili diverse utilità console .NET meno recenti che eseguono operazioni di database ogni 15 secondi. Quando il cluster deve passare dal server di database primario all'autorità di disponibilità secondaria, le utilità .NET iniziano a segnalare errori di connessione al database, sebbene altre applicazioni siano in grado di accedere al database. Come si corregge questo problema?
 
-- \[ ] Utilizzare la console RDS per forzare il riavvio dell'istanza del database in modo che il server primario diventi nuovamente il server master.
-- \[ ] Il server che esegue le utilità .NET memorizza nella cache la ricerca DNS nell'indirizzo del cluster di database. Svuotare la cache DNS del server e forzare le utilità C# ad aprire nuove connessioni al database.
-- \[ ] A.NET applicazione conserverà l'indirizzo IP di una stringa di connessione fino al riavvio della macchina host.
+- [ ] Utilizzare la console RDS per forzare il riavvio dell'istanza del database in modo che il server primario diventi nuovamente il server master.
+- [ ] Il server che esegue le utilità .NET memorizza nella cache la ricerca DNS nell'indirizzo del cluster di database. Svuotare la cache DNS del server e forzare le utilità C# ad aprire nuove connessioni al database.
+- [ ] A.NET applicazione conserverà l'indirizzo IP di una stringa di connessione fino al riavvio della macchina host.
 - \[x] Le utilità NET devono modificare l'endpoint SQL Server nelle stringhe di connessione per leggerle dal server di database secondario utilizzando un try/catch.
 
 #### D4. Quali servizi AWS possono aiutarti ad automatizzare la pipeline di sviluppo per l'integrazione continua e la distribuzione continua?

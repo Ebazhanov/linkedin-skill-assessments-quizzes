@@ -2068,19 +2068,27 @@ A disabled fieldset is unusable and un-clickable. [Source](https://www.w3schools
 #### Q124. A white paper has a sidebar and endnotes, both of which are complementary to the main text. How would you mark them up to make their distinct roles more broadly accessible?
 
 - [ ] A
-```html 
+
+```html
 <custom-sidebar aria-label-"Sidebar"›Sidebar...</custom-sidebar><custom-footnote aria-
 label="Endnotes">Endnotes...</custom-footnote>
 ```
+
 - [ ] B
+
 ```html
-<aside role="sidebar">Sidebar...</aside><aside role="notes"»Endnotes...</aside> 
+<aside role="sidebar">Sidebar...</aside><aside role="notes"»Endnotes...</aside>
 ```
+
 - [ ] C
-```html 
-<aside role="complementary">Sidebar...</aside><aside role="supplementary">Endnotes...</aside>
+
+```html
+<aside role="complementary">Sidebar...</aside>
+<aside role="supplementary">Endnotes...</aside>
 ```
+
 - [ ] D
+
 ```html
 <aside aria-label-"Sidebar">Sidebar...</aside><aside aria-label="Endnotes">Endnotes...</aside>
 ```

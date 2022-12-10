@@ -413,14 +413,14 @@
 - [x] Use AWS X-Ray to step through the function
 - [ ] Use Kinesis to write their own custom logging tool
 
-#### Q58. Lambdas can be created _____.
+#### Q58. Lambdas can be created **\_**.
 
 - [x] All of these answers
 - [ ] From scratch
 - [ ] From the app repository
 - [ ] Using a blueprint
 
-#### Q59. You need to quickly understand  execution times for two different Lambda functions with different invocation types: asynchronous and synchronous. What do you do?
+#### Q59. You need to quickly understand execution times for two different Lambda functions with different invocation types: asynchronous and synchronous. What do you do?
 
 - [ ] Enable tracing, rerun the lambdas, and view in the lambda console
 - [ ] View the logs in CloudTrail

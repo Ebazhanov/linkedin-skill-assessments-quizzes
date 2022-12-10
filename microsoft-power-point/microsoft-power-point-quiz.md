@@ -809,7 +809,7 @@ D. Start When Clicked On
 - [x] On the graphics format tab, click the Bring forwarrd arrow and select bring to front
 - [ ] On the graphics format tab, in the selection pane, drag the campfire icon below the orange circle
 
-#### Q103. In this image, a link to ___ is being added?
+#### Q103. In this image, a link to \_ is being added?
 
 ![Q103](images/Q103.png)
 
@@ -817,4 +817,3 @@ D. Start When Clicked On
 - [ ] a section
 - [x] a slide
 - [ ] an existing file
-

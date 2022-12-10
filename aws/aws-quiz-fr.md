@@ -2,37 +2,37 @@
 
 #### Q1. Vous disposez d’une application utilisant une base de données MySQL de 100 Go que vous migrez vers AWS. Que devez-vous prendre en compte lorsque vous décidez d’héberger la base de données sur RDS pour MySQL ou Aurora ?
 
-- \[ ] coût
-- \[ ] facilité de maintenance vs granularité du contrôle
-- \[x] toutes ces réponses
-- \[ ] le moteur de stockage actuel utilisé par l’application, tel que InnoDB ou MyISAM
+- [ ] coût
+- [ ] facilité de maintenance vs granularité du contrôle
+- [x] toutes ces réponses
+- [ ] le moteur de stockage actuel utilisé par l’application, tel que InnoDB ou MyISAM
 
 #### Q2. Quelle base de données est un type de base de données NoSQL capable de stocker et de récupérer rapidement des paires clé-valeur ?
 
-- \[ ] Aurores boréales
-- \[ ] Neptune
-- \[ ] RDS pour MySQL
-- \[x] DynamoDB
+- [ ] Aurores boréales
+- [ ] Neptune
+- [ ] RDS pour MySQL
+- [x] DynamoDB
 
 #### Q3. Votre base de données est une instance RDS exécutant SQL Server avec réplication multi-AZ et vous disposez de plusieurs anciens utilitaires de console .NET qui effectuent des opérations de base de données toutes les 15 secondes. Lorsque le cluster doit basculer le serveur de base de données principal vers la zone AZ secondaire, les utilitaires .NET commencent à signaler les échecs de connexion à la base de données, bien que d’autres applications puissent accéder à la base de données. Comment corriger ce problème ?
 
-- \[ ] Utilisez la console RDS pour forcer un redémarrage de l’instance de base de données afin que le serveur principal redevienne le serveur maître.
-- \[ ] Le serveur exécutant les utilitaires .NET met en cache la recherche DNS sur l’adresse du cluster de bases de données. Videz le cache DNS du serveur et forcez les utilitaires C# à ouvrir de nouvelles connexions à la base de données.
-- \[ ] A.NET application conserve l’adresse IP d’une chaîne de connexion jusqu’à ce que la machine hôte soit redémarrée.
-- \[x] Les utilitaires NET doivent modifier le point de terminaison SQL Server dans les chaînes de connexion pour lire à partir du serveur de base de données secondaire à l’aide d’un try/catch.
+- [ ] Utilisez la console RDS pour forcer un redémarrage de l’instance de base de données afin que le serveur principal redevienne le serveur maître.
+- [ ] Le serveur exécutant les utilitaires .NET met en cache la recherche DNS sur l’adresse du cluster de bases de données. Videz le cache DNS du serveur et forcez les utilitaires C# à ouvrir de nouvelles connexions à la base de données.
+- [ ] A.NET application conserve l’adresse IP d’une chaîne de connexion jusqu’à ce que la machine hôte soit redémarrée.
+- [x] Les utilitaires NET doivent modifier le point de terminaison SQL Server dans les chaînes de connexion pour lire à partir du serveur de base de données secondaire à l’aide d’un try/catch.
 
 #### Q4. Quels services AWS peuvent vous aider à automatiser votre pipeline de développement pour une intégration et un déploiement continus ?
 
-- \[ ] CodePipeline
-- \[ ] CodeDeploy
-- \[x] toutes ces réponses
-- \[ ] CodeBuild
+- [ ] CodePipeline
+- [ ] CodeDeploy
+- [x] toutes ces réponses
+- [ ] CodeBuild
 
 #### Q5. Quel service AWS est conforme aux normes décrites dans la norme PCI DSS (Payment Card Industry Data Security Standard) niveau 1 pour le traitement et la transmission des données de carte de crédit ?
 
-- \[ ] Passerelle API
-- \[x] toutes ces réponses
-- \[ ] Service de file d’attente simple (SQS)
+- [ ] Passerelle API
+- [x] toutes ces réponses
+- [ ] Service de file d’attente simple (SQS)
 - \[ ] Flux de données Kinesis
 
 #### Q6. Vous disposez d’une grande quantité de fichiers sur votre baie de stockage rattachée au réseau qui doivent être archivés et conservés pendant une période de 10 ans en raison des réglementations du secteur. Ces données seront rarement consultées mais doivent être conservées Quel est le meilleur service AWS pour stocker ces données ?
